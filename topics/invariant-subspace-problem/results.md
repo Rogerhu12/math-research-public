@@ -993,3 +993,7 @@
 ### R297 附录：平衡star的完整score逆预算与同源残差平方
 
 [完整自足矩阵证明](notes/2026-11-14-balanced-star-full-source-score-inverse-budget-789f-next.md)用同一ρ下v=(t(1−t)F)′/F，精确Cov(p,v)=−Dq、Var v=(Q+2)E[t(1−t)]−q*Dq>0。完整score正交化给G=G0+E rr*，因此G⁻¹≤D⁻¹−qq*/[(Q+2)E t(1−t)]，任意组数/组长/正权成立、等权全矩阵取等。逆差的Woodbury式和同一L²残差来源均保；原相位块准确拆成Pκ+[L,−H]*R[L,−H]。尚未付剩余Pκ，不将非交换混合积当Loewner界；共同总数扣除项不能删。
+
+### R297 附录：真实后验score的互逆权完整列预算
+
+[完整同源证明](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)对任意平衡star组数/组长/正权取τ_S=(S+1)/(Q−S+1)，逐样本保全列与两个零端点，给EτFbarFbar*≤2H及Eτ⁻¹BbarBbar*≤2L。混合M=E FbarBbar*因此有完整正块[[2H,M],[M*,2L]]；Q≥2时准确内点ab≤2Q/(Q−1)进一步把两对角系数改为η_Q=√(2Q/(Q−1))。未以未加权残差范数或M代原J，真正全部线性回归在两互逆权间的同源运输仍须支付。

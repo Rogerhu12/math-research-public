@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `d40b188bbfc74ffebc4d878bc30d492f940a13e6`（2026-11-14 16:15:34 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `4dce418073cf3152a0c33337e103bb746f485c76`（2026-11-14 16:19:52 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-full-source-score-budget-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -26,6 +26,7 @@ T96完整图/DAG在 `/tmp/isp-t96-recovery-789f`，原model补在NF目录；原2
 - [任意三spin全源生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)：三角(A,B,C)硬源U一维、V维数=正边数≤3；固定3×3Gaussian/Wick核同时给h/ell/q/硬源交叉。先提取同一ABC系数再Schur，不以核正性或截断指数代相位。
 - [任意多组平衡star](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)：q0=Σ其余q，U一维/V任意维，真实h/g/ell=c(H/G/L)、q=c(4G+yy*)来自完整Beta–binomial。条件噪声、均值运输、秩二位移均保；共同正块的mn*−G不等于目标HG⁻¹L−2G−yy*。
 - [全源score逆预算](notes/2026-11-14-balanced-star-full-source-score-inverse-budget-789f-next.md)：D=diag(Epi(1−pi)/qi)，v=(t(1−t)F)'/F，V=Var v>0；真实r=p−m+(Dq/V)v给G=G0+E rr*。精确G⁻¹≤U=D⁻¹−qq*/[(Q+2)E t(1−t)]，等权全矩阵取等；R=U−G⁻¹为同一残差的完整Woodbury平方。原相位块=Pκ+[L,−H]*R[L,−H]，剩余Pκ仍缺，不左右乘不同矩阵冒称Loewner序。
+- [后验score互逆权预算](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)：τ_S=(S+1)/(Q−S+1)给EτFbarFbar*≤2H、Eτ⁻¹BbarBbar*≤2L，保全部源/零端点。真实混合M有共同正块，Q≥2系数可改η_Q=√(2Q/(Q−1))；M不代J，原全线性回归的两权运输仍缺。
 - [后验score两端障碍](notes/2026-11-14-balanced-star-posterior-score-logarithmic-residual-and-bounded-mixed-term-789f.md)：全qi=zi=1的全部contrast源，真全线性回归后两个范数²均R_Q=(Q+1)/(Q−1)H_(Q−1)−5/2−1/Q≈log Q；同一混合项恰1/2−1/Q，真phase仍I。只排分开L²预算，继续共同两端。
 
 ## R150 原十七式与特征零来源
