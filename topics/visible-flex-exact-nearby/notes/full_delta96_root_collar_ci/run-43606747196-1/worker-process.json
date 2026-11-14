@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_full_delta96_root_collar_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43606747196",
+  "run_attempt": "1",
+  "workflow_commit": "6492178fe56098759247ff5b6e5b74ace279a6eb",
+  "worker_sha256": "ef74a370da0aa771ac26db9c3045509edece1991b103944dc8bf8b379e8af06d",
+  "manifest_sha256": "38d76e08d2d92b2d2395ec13c5c61817ace7da6bd6a1856061156a2b377bc76f",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T14:48:39.968641+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+      "after": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+      "after": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-full-delta96-root-collar-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-full-delta96-root-collar-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-full-delta96-root-collar-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta96-root-collar-CI-inputs.json",
+    "--manifest-sha",
+    "38d76e08d2d92b2d2395ec13c5c61817ace7da6bd6a1856061156a2b377bc76f",
+    "--out-dir",
+    "/__w/_temp/visible-exact-full-delta96-root-collar-output/consumers"
+  ],
+  "complete_original_inputs_verified": 19,
+  "actual_scientific_checkout_commit": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+  "mathematical_wall_seconds": 0.41494480800000133
+}
