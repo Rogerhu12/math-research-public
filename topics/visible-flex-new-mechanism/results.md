@@ -162,4 +162,6 @@
 
 - [R79：闭水平路径C1的准确控制与端点势](results/R79-closed-horizontal-C1-control-and-endpoint-potential.md) — 闭路径积分空间准确等于h-shape与contact两相容性算子的实际系数空间；真实收缩/ω矩形校正、R76抽局部项及R77去C3后，有限切向族+IFT+有限重复支付任意有限C1组合。商中开桥余类由准确端点势固定，保全部三线性/对角范围差别；未解全P1/P0/ruling与有限族。
 
+- [R81：纯模式不可见而混合模式非零的真实第三控制](results/R81-real-third-hook-control-and-mixed-phase-response.md) — R71真实组合H=[r0,s0]−3[r0,r1]对全部复q的diagonal严格零，故保pure−4；明确外槽公式与端尾有理系数给−2非零，R39共同偶bump及C3逼近给严格三矩C∞非退化圆。未证全部mixed响应可付，P0和有限族仍欠。
+
 - [R82：真实端点类补齐纯第四P1的全函数证书](results/R82-exact-pure-P1-endpoint-and-genuine-bridge.md) — actual43632772378完整101行端点商fresh核，18个明确有理R71响应使原bulk加真实端点势的纯P1原式余0；R71/R77/R79给有限真实M0桥解释。只支付−4，完整外槽−2/P0/ruling/有限族及几何仍欠。

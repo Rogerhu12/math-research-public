@@ -4,7 +4,7 @@
 
 ## 1. 授权、规则与环境
 
-根/本题README已全文读。公开仓库最后已读规则提交：`d2ca8cd0f97588311288832a1834c4fa4960bf04`。每次实际pull --rebase后立刻比两README；有变只读差异执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核README、重推至成功，绝不force。私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话进行中；下一私有pull不晚于20:19 UTC。
+根/本题README已全文读。公开仓库最后已读规则提交：`5fc5566158d67617e2d37764dc86ec614ec315c1`。每次实际pull --rebase后立刻比两README；有变只读差异执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核README、重推至成功，绝不force。私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话进行中；下一私有pull不晚于20:19 UTC。
 
 真实几何、ODE/积分、优化与完整研究符号编译只用本公开仓库GitHub Actions。本地仅纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不把冻结、独立复核、逐字归档或重复清单设为推进前置；完整证明直接登记results并同步索引。
 
@@ -52,7 +52,7 @@ pure old43628716304余76项；新word43630157008/sourcef3381b75余95项，10原�
 
 **新endpoint actual43632772378/source31a276f6 complete6.840s**：101行端点势商全fresh核，151cols代表rank18；真实端点势加入后，18个明确有理R71系数使pure P1原式余0！已登记R82及完整关系，摘要SHA622cd662…、关系fa33f51a…。旧pure阴性遗漏仿射端点项，不重复；本次只付−4，非全相位/完整第四。
 
-R78已证全P1=L(F,D)+Q(D,D)，四实函数或两复模式等价。pure仅核Q(q²,q²)，另需L(F,q²)+Q(d,q²)；同一真实参数共同匹配，不能独立调两mode。colored完整T producer c11a4fc5现请求公开actual，真实五段基准逐项积分，以同一组控制同时配−4/−2；diagonal τ不确定全T。全phase/P0/逐s ruling、更高阶收敛与宏观几何继续欠。R79已正式登记；后续编号先协调。新core工厂ea799032已落地，当前仅core_transport_development人工两侧234列，真实B=.37尚未请求，不混旧g。
+R78已证全P1=L(F,D)+Q(D,D)，四实函数或两复模式等价。R81已证真实H=[r0,s0]−3[r0,r1]保全部pure而对三矩光滑圆给非零−2；不冒mixed满射。pure仅核Q(q²,q²)，另需L(F,q²)+Q(d,q²)；同一真实参数共同匹配，不能独立调两mode。colored完整T producer c11a4fc5现请求公开actual，真实五段基准逐项积分，以同一组控制同时配−4/−2；diagonal τ不确定全T。全phase/P0/逐s ruling、更高阶收敛与宏观几何继续欠。R79已正式登记；后续编号先协调。新core工厂ea799032已落地，当前仅core_transport_development人工两侧234列，真实B=.37尚未请求，不混旧g。
 
 ## 6. 连续推进
 
