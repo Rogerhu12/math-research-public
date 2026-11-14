@@ -1,0 +1,316 @@
+{
+  "result": "R639",
+  "disk_id": "SS_j36_07",
+  "exit_code": 0,
+  "error": null,
+  "elapsed_seconds": 195.486,
+  "stages": [
+    {
+      "stage": "based_points",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_Abel_multiply47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--SS-atlas",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+        "--common-based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_all19_based_points47.json.gz",
+        "--based-points",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/R639_SS_j36_07_based_points47.json.gz",
+        "--workdir",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/preparation",
+        "--disk",
+        "SS_j36_07",
+        "--prepare-only"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "actual_F2",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F2_unit_parameter47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--work-dir",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/f2",
+        "--disk-id",
+        "SS_j36_07",
+        "--result-id",
+        "R639",
+        "--canonical",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz",
+        "--canonical-certificate",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_certificate.json.gz",
+        "--derivative",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz",
+        "--ramified-j-certificate",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47.json.gz",
+        "--ramified-j-audit",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47_independent.json",
+        "--based-points",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/R639_SS_j36_07_based_points47.json.gz",
+        "--rebuild-chain"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "actual_F3",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F3_unit_parameter47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--source-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--f2-dir",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/f2",
+        "--recovery-dir",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/f2/recovery-inputs",
+        "--based-points",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/f2/R639_SS_j36_07_based_points47.json.gz",
+        "--canonical",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz",
+        "--derivative",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz",
+        "--ramified-j-certificate",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47.json.gz",
+        "--ramified-j-audit",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47_independent.json",
+        "--work-dir",
+        "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu/f3",
+        "--disk-id",
+        "SS_j36_07",
+        "--result-id",
+        "R639"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "finished_at_utc": "2026-11-14T09:52:18.460256+00:00",
+  "driver_sha256": "7de5aee6f70873bcd38d95532ef81267999ec010a3dc5f03386cefe8e3b8cf8e",
+  "python": "3.12.16 (main, Oct 26 2026, 02:48:44) [GCC 15.2.0]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.14.0",
+    "python-flint": "0.8.0",
+    "mpmath": "1.3.0"
+  },
+  "work_directory": "/home/runner/work/_temp/R639-SS_j36_07-xteye0eu",
+  "execution_environment": "public-repository-github-actions",
+  "source_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "runner_workflow_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "F2_files": [
+    {
+      "file": "R639_SS_j36_07_based_points47.json.gz",
+      "bytes": 108383,
+      "sha256": "55671b35a45635d9b39d16251469bab2e3282638833f7756c30af0fa31386486"
+    },
+    {
+      "file": "SS_j36_07-principal-F2-independent-audit.json",
+      "bytes": 7432,
+      "sha256": "fc3bfe39f59f13abfc04e81fae4867f1833055950b4c1497dcaa0ff6b64adc82"
+    },
+    {
+      "file": "SS_j36_07_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 283924,
+      "sha256": "d67d0a302f416544b507e0b91c6afdf9c8f0e214b0a6f142ddec49d33082ee24"
+    },
+    {
+      "file": "SS_j36_07_actual_F2_first_variable_norm47_finite_checkpoint.json.gz",
+      "bytes": 94690,
+      "sha256": "a99596a5841624a0a2ae5810822b871f16de023bf6fd0fa84a315c8ee9b391ab"
+    },
+    {
+      "file": "SS_j36_07_actual_F2_first_variable_norm47_full106_checkpoint.json.gz",
+      "bytes": 188742,
+      "sha256": "fe8fb7fe78a18959a74ce7b5c36f2d0eca99108e46c02894bc544e8b892b0466"
+    },
+    {
+      "file": "SS_j36_07_actual_T2_principal_norm47.json.gz",
+      "bytes": 23696,
+      "sha256": "038d39f801274c32d88be05d57a16c43125a8e764dca7ca40bdf59a83ddf1cd5"
+    },
+    {
+      "file": "SS_j36_07_actual_T2_support47.json.gz",
+      "bytes": 40985,
+      "sha256": "343076b6d61afdd4cff7c1c43b0ed78d1e8824c3e5af1afa62b151ee5399618a"
+    },
+    {
+      "file": "SS_j36_07_actual_canonical_F2_height47.json.gz",
+      "bytes": 57095,
+      "sha256": "3cd0ae21050b48fb9a78da4e8c6e6ae58dbe2f0d9f5a437ece803c5dcf8b7ae7"
+    },
+    {
+      "file": "SS_j36_07_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 33231,
+      "sha256": "9e838d2ae0a0d52cc1668d6e6f5f393bc85832ee9435737d26348489e8d70280"
+    },
+    {
+      "file": "SS_j36_07_actual_second_kind_integrals47.json.gz",
+      "bytes": 594990,
+      "sha256": "1a8b2ec1bdcaf099b9024501dd986dc3c69a7de0db96269ec92169faad1a13e1"
+    },
+    {
+      "file": "SS_j36_07_principal_expression47.json.gz",
+      "bytes": 38696,
+      "sha256": "ad3d0914ee3747ecb0d87af9d2cf04c3ae1b762de912ae56a98de4fb906a6ab7"
+    },
+    {
+      "file": "actual_F2_center.log",
+      "bytes": 757,
+      "sha256": "36ba8931774aa2c6883ff4631ee4d95b9994c20dc2203203929b14f9b8a384e9"
+    },
+    {
+      "file": "actual_F2_polynomial.log",
+      "bytes": 547,
+      "sha256": "fb4b94888397f4e1ab25363d05a33dd69f7d7984c6ff81de1c60f955cfef9570"
+    },
+    {
+      "file": "actual_T2_norm.log",
+      "bytes": 269,
+      "sha256": "ec7c407b3ead997a29c920bfb6143d81d8d0f074ed6705a517ebb9078b34069a"
+    },
+    {
+      "file": "actual_T2_support.log",
+      "bytes": 719,
+      "sha256": "d2cea94f15c619fa8619c3ee8adc8f6804ba57cda5e437a6b95431bac55ab4ea"
+    },
+    {
+      "file": "actual_chain.log",
+      "bytes": 37999,
+      "sha256": "7fb7377d0e3e806edff34054fb902f735449b3b752522321ff9924045f2295ba"
+    },
+    {
+      "file": "actual_full_F2_norm.log",
+      "bytes": 461,
+      "sha256": "2f7cbc1aba893191204b2334b43592035e4e1bb0fa6a132a8e1a8142b653658a"
+    },
+    {
+      "file": "actual_integer_principal.log",
+      "bytes": 178,
+      "sha256": "715ade4bb07bebf4bcc5a33afc8246b1e51600639a70b699a05ebcd0db084353"
+    },
+    {
+      "file": "actual_terminal_and_nu.log",
+      "bytes": 446,
+      "sha256": "df8f9a136846e382aa72f4222eaae99cab54b567753a3799d7613007af98c5fa"
+    },
+    {
+      "file": "chain/SS_j36_07_Abel47.json.gz",
+      "bytes": 442860,
+      "sha256": "99ae14d27e5739a70c3f0c733cfbd6b313234c032d5b606b5c1aaa7f21d3aaba"
+    },
+    {
+      "file": "chain/SS_j36_07_multiply47.json.gz",
+      "bytes": 376797,
+      "sha256": "44a83bc13f818dd1ecb1b768c680244bdcaaf3bb873b180b84a6d4916fa60854"
+    },
+    {
+      "file": "independent_audit.log",
+      "bytes": 360,
+      "sha256": "43375b6b3cd7e40fe30f6ca3ad819ab21cc12ecb33ff48ea0087082b9eeff3b4"
+    },
+    {
+      "file": "p41_SS_j36_07_principal_transports47.tar.gz",
+      "bytes": 1772174,
+      "sha256": "2b7495a1f63f3897fdc17695d766b0d8f72e5fcf3c14c20001a09e9f634246e7"
+    },
+    {
+      "file": "rebuild_checkpoint47.json",
+      "bytes": 17027,
+      "sha256": "e88228a01627ed34b10ad260797f35098b2332723c9644dc014c4e61b77880da"
+    }
+  ],
+  "F3_files": [
+    {
+      "file": "F3_checkpoint47.json",
+      "bytes": 15599,
+      "sha256": "609330ab66aa0b8eb6b75b074f9f294f5a0cb9e5d62c83b9280db1fbc08b61c0"
+    },
+    {
+      "file": "R639_SS_j36_07_F3_completion47.json",
+      "bytes": 15903,
+      "sha256": "6f3a4a00f38798c1db8ec2413179c551167d27cb8b4f829753d2d7b845898fbc"
+    },
+    {
+      "file": "SS_j36_07-principal-F3-independent-audit.json",
+      "bytes": 8254,
+      "sha256": "e539e4008c24d92ccd8e259be988d1afe85b30a636ebf8682eb38b7cf34576a6"
+    },
+    {
+      "file": "SS_j36_07_actual_F3_first_variable_norm47.json.gz",
+      "bytes": 223150,
+      "sha256": "5aa5824daecef9029066b2276821758d87b5c40b49a95736632505411c333c28"
+    },
+    {
+      "file": "SS_j36_07_actual_T3_principal_norm47.json.gz",
+      "bytes": 25734,
+      "sha256": "0ed26e3208db21dad5311cd4de6ca156ce23e4f8166824a8651d3129742def5e"
+    },
+    {
+      "file": "SS_j36_07_actual_T3_support47.json.gz",
+      "bytes": 46359,
+      "sha256": "abfe213fe287c39b9d5e33984eb12a19104d97fd680e9bd626ad4257afe869a3"
+    },
+    {
+      "file": "SS_j36_07_actual_canonical_F3_height47.json.gz",
+      "bytes": 70028,
+      "sha256": "cd93038a2d5c19ec2c8d0142a73ba8599506324f74c6de6f7f95dd6b68bea44d"
+    },
+    {
+      "file": "SS_j36_07_actual_canonical_F3_polynomial47.json.gz",
+      "bytes": 33851,
+      "sha256": "e7f57202dcc244b71ca9750c50a77640cd5f04f18571995a7abe7b41f2bc1e5d"
+    },
+    {
+      "file": "actual_F3_center.log",
+      "bytes": 815,
+      "sha256": "997b9611c04a95dfeaf5d1e38d3b597a1d56460c7db6394bf427ff229c8f38e5"
+    },
+    {
+      "file": "actual_F3_polynomial.log",
+      "bytes": 532,
+      "sha256": "029419fa7b6a2cb56fa86a9543e4cd6e4c2a0e6b6fd6bc98b267fbc7eb29da62"
+    },
+    {
+      "file": "actual_T3_norm.log",
+      "bytes": 264,
+      "sha256": "66340b561e2bcbde0a603f910f1c24b0a5ad82440639657a2bd1a94385c56610"
+    },
+    {
+      "file": "actual_T3_support.log",
+      "bytes": 683,
+      "sha256": "3c91dfd9a9675b050a80367a17cef828e0110a752e31a69e894cdfda84b8055a"
+    },
+    {
+      "file": "actual_full_F3_norm.log",
+      "bytes": 393,
+      "sha256": "cc6dd7a35b32dc4262e0433a5ec2391d4c519e5d833993ad57e5b6ecfa3aabe3"
+    },
+    {
+      "file": "independent_F3_audit.log",
+      "bytes": 143,
+      "sha256": "8d788ecd17bd075c88554b3477714106fb7bbd15ef530c1a9df96b1b2dc4404a"
+    }
+  ],
+  "long_chain_repeated_for_F3": false,
+  "complete": true,
+  "scope": "Actual new recovery outputs; root records each full mathematical conclusion after return.",
+  "F2_residual_roots": [
+    16,
+    36
+  ],
+  "F2_entire_disk_excluded": false,
+  "F3_remaining_pairs": [],
+  "F2_F3_entire_disk_excluded": true,
+  "files_over_repository_cap": [],
+  "workflow_run_id": "43580991103",
+  "workflow_attempt": "1",
+  "process_exit_code": 0
+}
