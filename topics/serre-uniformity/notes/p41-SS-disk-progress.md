@@ -2,7 +2,7 @@
 
 共有105个非CM有理SS盘；另五个CM SS盘已由R313–328完成。这里只登记本表引用的已封存证明，未列盘尚未完成实际F2。主目标绝对统一性仍OPEN。
 
-已排除47盘；已有F2待后续筛选0盘；尚无完整F2记录58盘。F2候选值为y mod47³，后续F3始终使用同一坏分量标签。
+已排除48盘；已有F2待后续筛选0盘；尚无完整F2记录57盘。F2候选值为y mod47³，后续F3始终使用同一坏分量标签。
 
 | 圆盘 | 实际F2证明 | F2候选 | 实际F3证明 | 判定 |
 |---|---|---|---|---|
@@ -53,3 +53,4 @@
 | SS_j0_06 | [R610](../results/R610-SS_j0_06-ramified-unit-parameter-F2-height-and-two-candidates.md) | 8860, 37204 | [R611](../results/R611-SS_j0_06-ramified-unit-parameter-F3-disk-exclusion.md) | 全四分量排除 |
 | SS_j0_07 | [R612](../results/R612-SS_j0_07-ramified-unit-parameter-F2-height-and-two-candidates.md) | 47126, 45023 | [R618](../results/R618-SS_j0_07-ramified-unit-parameter-F3-disk-exclusion.md) | 全四分量排除 |
 | SS_j0_08 | [R617](../results/R617-SS_j0_08-ramified-unit-parameter-F2-height-and-disk.md) | 无 | — | 全四分量排除 |
+| SS_j0_09 | [R620](../results/R620-SS_j0_09-public-prefix-recovery-and-complete-F2-F3-exclusion.md) | 52693, 58193 | [R620](../results/R620-SS_j0_09-public-prefix-recovery-and-complete-F2-F3-exclusion.md) | 全四分量排除 |
