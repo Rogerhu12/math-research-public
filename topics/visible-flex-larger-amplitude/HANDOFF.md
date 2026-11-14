@@ -21,14 +21,14 @@ request08/run43588155190：699nodes全部node/mid/两RMS域过，min beta²=.005
 
 ## 已付失败，不原样重跑
 
-request10/11旧Rθ QR/band及12 P诊断：全线相对.91333/3.27382e−4、P约1.14e17；零接受/新H0。request13/run43594985550新Rφ FD9.65016e−10过，band相对8.22590e−7/方向352.439，17trial全坏；14/run43596465579原QR相对.06731197/方向352.418，同无接受；15/run43596755251保699加374至1073，band相对2.936478e−6/方向1014.925，17trial全坏，最后399node/496mid、RMS2.12563。三者新H0；artifact/publisher及全部SHA见本日actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
+request10–12旧Rθ线性/换角诊断均零接受/新H0，详见本日原notes。request13/run43594985550新Rφ FD9.65016e−10过，band相对8.22590e−7/方向352.439，17trial全坏；14/run43596465579原QR相对.06731197/方向352.418，同无接受；15/run43596755251保699加374至1073，band相对2.936478e−6/方向1014.925，17trial全坏，最后399node/496mid、RMS2.12563。三者新H0；artifact/publisher及全部SHA见本日actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
 15实际有限Jac在峰值cell谱半径1.60766e5、L/R条件约1.8e12；末cell分60段宏传播范数约2.22e23。理想R255 circle谱不直接描述有限φ；盲加bridge点/抬1200无据。
 
-## 最新真实执行：request17已失败，继续原两处阻断
+## 最新真实执行：18仍被RMS域限制，19查尾
 
 run43598917532/source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21，job132459290659，artifact14116526155/ZIP5a0bddbd…已下载并补出版到notes/public-actions-43598917532-1-coupling112trust。完整数值/SHA见actual-trust-warm-and-tiny-height-native-failure。
 原699 exact chart（698×338physical+109core+3p）、全部physical collocation/112 Rφ保留；真J/JT与LSMR只作warm。633.052s实际3次下降：λ10/30/90，α2^-14/2^-15/2^-15；各模型自己的固定Wr比率约1，原col仅.00711059508→.00711054731、affineBC9.6068e−8。全部原RMS域存档，warm仍未接受。末warm SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；实际新FD9.5171077e−10/20.404s过。
-fullDN首次真非零H（首项4.1760413061806626e−17）native尾在iteration0 norm1.3414069968e7/chartCond1.3312263223e60失败；10trial全D/S/A guard、rawCell0/rawSegment7、stage13/14。outer_history空，没进入prefix Newton/新band，没有成功非零H/J或final audit。MaterialTrace早已P[:,0]=0，不能将真实小非mean H阈值归零。原zero缓存未向worker导入predictor；ready stage图256步与真RK12不同，且norm按H同缩，最坏实际stage待cold probe（见actual-tiny-H-native-tail-cold-start-failure）。amplitude查turn内RMS点473；原三求解源冻结。request18/trustresume实际run43602070499（13:54:07Z/sourcefd4f5619dd5ba35cf30c571338b48530448c8cee）运行：只从此warm接1模型/LSMR200/λ270，核9源ledger，原域/merit/新FD全保，不自动native；具体依据见request17-warm-continuation-decision。request19/coldtailprobe已接公开push请求：锁17原六输入及同源/config/ready/capacity，只作原saved states的一次evaluate(false)，全576×224残差/原scale/深端Robin保留，无solve/J/新接受；接口见actual-cold-tail-residual-probe-interface。
+fullDN首次真非零H（首项4.1760413061806626e−17）native尾在iteration0 norm1.3414069968e7/chartCond1.3312263223e60失败；10trial全D/S/A guard、rawCell0/rawSegment7、stage13/14。outer_history空，没进入prefix Newton/新band，没有成功非零H/J或final audit。MaterialTrace早已P[:,0]=0，不能将真实小非mean H阈值归零。原zero缓存未向worker导入predictor；ready stage图256步与真RK12不同，且norm按H同缩，最坏实际stage待cold probe（见actual-tiny-H-native-tail-cold-start-failure）。amplitude查turn内RMS点473；原三求解源冻结。request18/run43602070499实际完成，publisher1e490cda：λ270/LSMR上限200在80步istop2；仍interval473/phi0失域，仅α2^-16下降1.63517e−5、原col=.007110547287。新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，真FD9.00098e−10过、native0。详见actual-request18-converged-linear-direction-domain-limit；下一完整RMS域梯度投影，不盲加迭代。request19/coldtailprobe已接公开push请求：锁17原六输入及同源/config/ready/capacity，只作原saved states的一次evaluate(false)，全576×224残差/原scale/深端Robin保留，无solve/J/新接受；接口见actual-cold-tail-residual-probe-interface。
 原publisher遇并发main CAS被误分类而停；root补出版全部限额输出并修识别。后续workflow已有native前独立warm/FD artifact，不回填旧17。--resume需核全部producer SHA；原完整RMS1e−6/BC1e−11/真H尾/fresh audit不动。
 R259备用诊断已冻结未调度；其直线条件不加给λ^j。R258同场消费者已冻结未有父场/执行；背景完整C²规范形准备中。
 

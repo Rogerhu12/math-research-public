@@ -564,3 +564,8 @@ bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lo
 ### 2026-11-14 request19：只重放实际 cold-tail 的原无J残差
 
 新增 exact_20261114_tail_cold_residual_probe.py / hook.mjs 与接口说明，逐SHA绑定run43598917532六原输入；原TailClient source/config/ready/capacity全部先核。一次原evaluate(savedStates,target,false,scales)保留576stage×224分量、原far Robin/graphs/gains/scales；只替换请求循环，明确记录instrumentation身份，无solve/Newton/J/零锚复算或新接受。root全文读源码并核静态接口后接public coldtailprobe lane/request19；实际数值待Actions。request18已实际job success、两artifact取回，科学内容正在读取，未当BVP接受。
+
+
+### 2026-11-14 request18真实线性停止后仍受RMS域限制
+
+run43602070499/job132468788403已成功出版1e490cda；两artifact取回并核SHA。λ270/上限200的LSMR在80次istop2，仍interval473/phi0拒α2^-15（β²−6.05166e−5）；仅2^-16真实下降1.63517e−5，原col=.007110547287，非BVP接受。新warm SHA1dbdcc8f…，原新端点FD9.00098e−10/24.013s过、native0。详细完整输入/回执/hash在actual-request18-converged-linear-direction-domain-limit。下一以真实Hermite域covector限制方向，不继续只增加LSMR/模型/λ；原全域与final门保留。
