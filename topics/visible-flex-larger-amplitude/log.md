@@ -253,3 +253,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-14 23:21 UTC — /root GPT-6 Astra Pro: 67首次目录顺序错误完整保全，源7de5e7d0只延后metadata，observer e75ba931同步真实SHA；revision2同父同λ即时重派。
 共享publisher 627393d1修复真实sparse缺H：从重基HEAD取单blob再记规则行；原9.3MB包完整size/SHA/CRC已核，日志及原observer0evaluate/weights保存，setup/pack范围如实记。
+
+2026-11-14 23:32 UTC — /root GPT-6 Astra Pro: 保存66完整原结论9879aeb0及原读数/身份，接受1/16，最近1/8仅left466在原RMS失败且merit确降；仍未完成BVP。
+旧open逐字保全到截至67检查点并改为当前待解清单；68只补left466，67r2保持共同64父；61实际4轮后原norm全拒，正在准备原数据读取与同状态路径诊断，不等阶段报告。
