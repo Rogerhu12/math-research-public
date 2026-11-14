@@ -711,3 +711,7 @@
 ### R294 附录：原连续尾的坐标平移与改进第一返回费用
 
 [完整证明](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)以实际单步指标平移给删一位 e_t/e_t^i≤((m+1+t)/(m+1))^4；结合R294得到原真幂H_t的八次条件数界。保留新的σ_t=(t!)²e_t及真实尾质量比，逐项维持非交换顺序，把全部旧列平方费用61次改为16(h+2)^28 S_m，原最高D1*锚范数改为4(d+2)^14√S_m；新列另有4(h+1)^18 S_m²且保原列权比。仍只在原出生一、固定合法源中应用，高birth/graph及无速率锚乘增长未付。
+
+### R288 方法附录：五位实际模型的局部正Parseval障碍
+
+[完整证明](results/R288-appendix-five-site-obstruction-to-local-positive-primitive-frames.md)先证明支持≤2s的正Parseval若存在会给ΣN_i²≥sI/2，再在N5、s2、b=(√t,1,1,1,1)保真实去权度量求全部五个四位局部块。15×15整数子式det=−2保证唯一性，无强位块为(4−t)/(12(t+2))乘正矩阵，t>4严格负定，故不存在这种局部正分解。真实ΣN_i²的两谱值却都>1；不是原泄漏、普通或加强相邻序反例，局部线性张成不能替正tight分解。
