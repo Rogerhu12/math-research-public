@@ -635,3 +635,7 @@
 ### R288 附录：任意正权出生一 S2 的实际收缩与带权共同提升
 
 [完整证明](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)。同一真实两孔层中显式z的正交两塔投影恰T=JA+J2a；通过真实C1 Schur、逐对k矩及基本对称非负身份给||T||²≤2/3。所有M≥3和全部正权均覆盖，包括非等权的非零第一塔。无权共享Ri*Y失效，但θ_iRi*的带权共同提升已明确构造并付完整交叉范数。常数未称最优，一般birth S2、S1与普通ISP仍开。
+
+### R290：混合有限头乘任意正常尾与物理头块对角见证的排除
+
+[完整证明](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)。固定原有权q头、任意非零迹σ的头矩Hankel行列式准确为u^(q−1−K)p(u)、p(0)≠0；同一尾泛函的q个原右零式经adj及真实b1单位归到z^d理想，原范数1高幂消掉非零迹锚。因此任意混合正头×任意正常正尾均不可能；全部交换子头对角相同进一步排任意物理头块对角密度。原相容链的每次切分必须关联、非平凡尾rank≥2；没有统一相关/熵下界，一般关联正常有限秩仍开。
