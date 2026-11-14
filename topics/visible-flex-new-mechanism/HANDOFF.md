@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/状态/时间精化。D为完整F0直径；δE可0但如实报；完整网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无合格完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`fe459af06eda1432df9f974d4f3947d29d37ab6b`（API差异复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`778a2c771c7b70f2e80720c1c96f8b6b197911ca`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README，变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase、核规则、再推至成功，不强推。
 - 本公开main/Actions已授权。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、人工开发核、源码/公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根README无差，本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -30,7 +30,7 @@ selected canonical `924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c42
 
 旧查询列表改变b0求积分段，四点h=.00738175828而密网.05223073559；新固定结构knots+120panel prefix/local积分使稀密h差2.78e−17，共同h=.05223073558726739。133panel GL8→12及133→253panel分别X约5.5e−13、其余5jet/metric0。旧细网失败未改善。helper人工Jac差分仅微差，不能说其输出字节相同。精化差不授严格h误差包围。
 
-**entry_paired_audit run43622984979/sourceac8ca043，job132532580139正在跑**，截至17:49 UTC尚无真实输出。core8f09d96a/auditor7c2329f4全文及22源人工全main已核；strict读selected/c0，固定同g及162原raw数值，但解释为明确新空间/新物理场。
+**entry_paired_audit run43622984979/sourceac8ca043，job132532580139正在跑**，尚无真实输出。core8f09d96a/auditor7c2329f4全文及22源人工全main已核；strict读selected/c0，固定同g及162原raw数值，但解释为明确新空间/新物理场。
 
 ell=81/500=.162，plateau .054；扣原c0低Taylor并加必要u4/v7/b6，W2/W5/W4锁自由项u5/v8/b7。高度加权基的公共原函数和Jac一起改。t≥.198的所有位置导数不变，X仅同一竖直常移，故不修尾patch。旧/新121×384、新768角及五独立精化(entrymean1024→2048、GL8→12、120→240panel、Nb384→768、GH64→128)；零优化。source独占后续notes/frame-entry-paired-repair-actual-audit-20261114.md。
 
@@ -56,11 +56,11 @@ R65理想无桥±1 pair对非零复q有纯漂移；不排真实桥。R67全perio
 
 真正端点保持h桥已发布：helpera35e9db4，固定k/长度，b加ΣβF′、δomega=ΔkΣβF，端jet/frame保持；正b有理盒保omega值域，α位移会变，用同一P四块处理。独立N系数helper4583b895直接传p0/p1/p2、bulk测度shift1，不作大N差分；人工toy b3b573f3已核，纯driver尚未实际跑。原始细节和全部身份在前H及两设计notes。
 
-R69已发布：纯第四Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)；Γ五项、DP3=Γ/3、Γ_A(A)=0均准确。各组7个profile无关充分矩条件共28个，保全局历史/真实端点。BigInt自由对称双线性证书10差全0，Node IO壳尚待公开check。literature正推进真实M0桥存在和剩P1/P0/ruling，不把leading门作完整族。
+R69已发布：纯第四Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)；Γ五项、DP3=Γ/3、Γ_A(A)=0均准确。各组7个profile无关充分矩条件共28个，保全局历史/真实端点。BigInt自由对称双线性证书10差全0，Node IO壳尚待公开check。R70已给任意frame/scalar端与任意sl3目标的真实有限K桥；选所有M0桥后，外N全部第四phase周期准确成P0+N P1。K先固定，后选共同物理I；R45闭浸入仍无嵌入/厚度。下一真门为内部桥第三holonomy、P1/P0及ruling。
 
 ## 6. 环境故障、已保全接口与立即行动
 
-17:58左右执行工作区失联，exec/apply_patch无法完成；runtime技能也不可用。最后正常本地push6206496e，最后实际pull双README读68fe68df。此后只做GitHub接口当前head比较，明确不冒实际git pull；恢复后立即pull --rebase核两README。公开Actions仍独立运行，收到其真实pull回执再单独记录。私有上次17:41真实pull，18:41到期；环境未恢复时不能假称已pull。
+17:58左右工作区失联，exec/apply_patch和runtime技能不可用。最后正常本地push6206496e、实际pull规则68fe68df。之后API差异核对不冒实际pull；恢复即pull --rebase。公开Actions仍跑，接其真实pull回执。私有17:41真实pull、18:41到期，未恢复不能假报。
 
 单列height初始化helper已忠实恢复并发布：frame_height_feasible_initializer.py，SHA fa379eb6…，人工check失联前通过，四次与直接数组差2.71e−20；完整成功/失败JSON往返、正负side、不可达帽高/固定水平超球均核。只消费同态X/Xs/T/C/I，返回候选表、实际新binary64及准确差，不改state、不调用geometry；实际driver须完整smooth目标/曲率/几何重审。
 

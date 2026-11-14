@@ -323,3 +323,5 @@ N系数直接传播接口已完成开发核：notes/literature-range-n-polynomia
 短collar/下一jet/有界参考完整接口已发布：notes/entry-collar-localization-and-next-jets-20261114.md。以entry真实输出定位多项式或支持范围失真，再选择独立新模型；窄层审计必须加固定比例节点，不能因均匀网格漏峰而报告改善。bounded新源码仅静态通过，先公开check-only。
 
 R69把纯leading Ceff化成28个profile无关充分矩目标，Γ闭式和真实四块历史已证明；无需重复旧失败profile积分。继续真实M0桥存在/较短桥实现，并处理P1/P0及全部ruling，不能把N²项消失当完整第四或有限等距族。
+
+R70已准确支付任意端点M0桥存在和全部第四period的P3/P2消去，外N仅余P0+N P1。K固定、物理I共选、alpha位移由R45真实闭合；长圈仍无厚度。下一不再重复证明leading可达，推进内部桥第三holonomy、P1/P0和ruling，完整有限族仍欠。

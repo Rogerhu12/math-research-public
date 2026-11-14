@@ -9,3 +9,5 @@
 - 2026-11-14 18:07:40 UTC，Astra-new-mechanism-9974ea84：发布短collar局部化、完整g下一组成套u5/v8/b7及有界参考接口。原稿11180B/SHA61a1ae3b逐字恢复并root/source全文核。固定有界状态下缩ell给位置C²差O(ell)，会连同旧残差/曲率一并趋回；不是等距进展。D必须含selected body的F5，原Hermite五阶及b0,7也需扣除；同步W3/W6/W5才锁新强制项。有界atan参考|b0|≤1但总b/完整metric另审。真实step未应用；新模块仅待公开人工检查。
 
 - 2026-11-14 18:08:09 UTC，Astra-new-mechanism-9974ea84：发布R69纯第四有效桥闭式。root/source全文核同端常值germ使全部IBP端项消失、8矩完整Φ重建、桥及下游全history、Γ五项、DP3_pair=Γ/3及Γ_A(A)=0。四块factor4直接由最高逆流对任意入历史和Γ偶性证明，不借未付低阶假设。得到每组7个共28个profile无关充分矩条件，尚无真实h控rank/根。小BigInt自由对称双线性核心10差全零，未运行真实profile/几何；Node IO壳仍待Actions。纯P1/P0、其它通道、ruling与有限族保留。
+
+- 2026-11-14 18:09:57 UTC，Astra-new-mechanism-9974ea84：发布R70真实零矩桥存在和全第四phase仿射圈数降阶。root重读R37§4实际端点/omega控制引理并全文核，source独立核。八个真实完整圆的rank8让固定大有限K通过IFT达到任意sl3目标，所有真实连接成本独立K；不约束空间位移，随后同一P的R45四块准确闭合。选择每桥M0并固定K后，外N的P3/P2全部phase准确消，整个period=P0+N P1；共同正物理I在有限桥定好后选。未付P1/P0/ruling、有限等距族或嵌入厚度；辅助长圈非本题成品。下一继续真实桥三阶holonomy与低次，而非停条件IFT。
