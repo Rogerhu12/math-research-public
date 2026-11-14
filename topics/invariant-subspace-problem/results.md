@@ -957,3 +957,7 @@
 ### R297 附录：任意多权与任意spin的主组边界相位常数一
 
 [完整自足证明](notes/2026-11-14-arbitrarily-many-weight-dominant-spin-phase-bound-789f-next.md)处理j0=1+Σ其余j的全部实际组模块，位数、组数、spin及独立正权均任意，原primitive多重性全保。差多项式给唯一低源和空硬源；完整第一MP/顶逆准确化为同一正log凹密度的三个Beta积分h/g/ell=3π⁻¹(B/C/A)。同均值截断指数方差支配及全正幂级数自足证明AB≤4C²，故真实Φ≤1；有效权不全相同时严格。含非零硬源的spin三角区仍开。
+
+### R297 附录：空硬源有效模块的完整分类及全部相位闭合
+
+[完整初等证明](notes/2026-11-14-empty-hard-source-spin-blocks-complete-classification-789f.md)对任意有效组长度Σq=2r，给U非零当且仅当max q≤r：把连续标签的前后半配对，得到无自环度数q的整数多重图，其差乘积是实际中央primitive。若U零，差变量次数界强制V非零恰主组q0=Σ其余q+2且V一维。因此任意多权主spin定理已经穷尽支付全部V非零/U零块和所有原多重性；剩余一般相位只在有非零硬源的多边形区，不能缩回单硬源。
