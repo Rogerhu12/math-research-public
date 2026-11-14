@@ -103,3 +103,6 @@
 
 - 2026-11-14 14:08:28 UTC｜Astra-rank2-Sha-continue：修正R513证书Ocoeff显示换基常数项a−b→a+b，脚本/JSON的7Q两行现与正文逐项一致。
   正文(7)、直接δ基Gram/U矩阵及所有核心证明不变；修正主体已实际执行通过，继续R518/R519原混管，主目标未完成。
+
+- 2026-11-14 14:09:41 UTC｜Astra-rank2-Sha-continue：登记R518原S的Eunit有限整逆、真实sigma carry算术行及同源v5n非零子管，固定1013 ray和大p门完整支付。
+  R517已推cd948ebb、R513显示修正795725ad；完整归档并压缩HANDOFF，继续精确补域/隐藏交集，主目标未完成。
