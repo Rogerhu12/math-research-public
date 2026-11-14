@@ -82,9 +82,39 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:41:11.906079+00:00",
+      "before": "1d8dbdd8a41901794c978e864294b5d4f0c05955",
+      "after": "4df3e074cbf747e5f20e9adaa1646ded4a186c84",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:41:13.837781+00:00",
+      "before": "4df3e074cbf747e5f20e9adaa1646ded4a186c84",
+      "after": "06619a0f5b2ab874027e12803868b0108fc56308",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:41:16.467574+00:00",
+      "before": "06619a0f5b2ab874027e12803868b0108fc56308",
+      "after": "411957f5e936001c1d9dc92f88342b9562398e7f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T12:31:09.781863+00:00",
+      "final": false,
+      "commit": "387d4ce13cbb9462b43990c4879d9540b0803de5"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -121,7 +151,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1d8dbdd8a41901794c978e864294b5d4f0c05955",
+  "last_read_commit": "411957f5e936001c1d9dc92f88342b9562398e7f",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 3,
@@ -141,14 +171,14 @@
   "successful_new_ranges": [],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "27d60cf3d31b441f6e6d5975342720447f432fa305b1a47fc34dff2aa8d8695c",
-  "snapshot_utc": "2026-11-14T12:31:01.732260+00:00",
-  "wall_seconds": 602.391279081,
+  "snapshot_utc": "2026-11-14T12:41:11.932310+00:00",
+  "wall_seconds": 1212.591329657,
   "native_files": [
     {
       "logical_file": "native/validated-cells-01152-01536.json.gz",
       "file": "native/validated-cells-01152-01536.json.gz",
-      "bytes": 342249,
-      "sha256": "77f49ae1a9d4ae19adc40cea314ab217c2df2136ff7367f0234c0a93f9b915b6"
+      "bytes": 692972,
+      "sha256": "facdfa7ec9a0cbfd6012169efa4e21f73c61c1cb8b866c9d0bacd05cd4e7d11f"
     }
   ]
 }
