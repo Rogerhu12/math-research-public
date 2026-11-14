@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R496：原新轴偶深核心、完整四态与真实群48](../results/R496-original-new-axis-even-core-and-four-source-group.md)：原V′的288覆盖/576中心给偶核心F及四个独立真实来源，F²=K_A²，旧W与F生成48阶群。短四挠式保完整中心，新增q/z整个W边际为零、z全Y正块非零；原M任意深度及simultaneous CM13/19条件行均保，全部新轴/λ9词域依真实物理矩阵运输。
+
 - [R493：原二挠六sigma因式、保Y三阶几何与真深管](../results/R493-original-half-torsion-six-sigma-factor-and-y-preserving-transport.md)：全部半周期相位给h=ω²T_*ρ0，实际T³=I且保Y、只变五伴随，另有保W反射U与U_*ρ0=ρ0+h。原新W′缺一独立sigma并有scalar−λ核，wholeodd27以真锚付清；五深一单位网格的正六次带权中央赋值恰5n，完整W伴随及Y移权项均保。
 
 

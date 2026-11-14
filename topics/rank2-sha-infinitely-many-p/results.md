@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R496：原新轴偶深核心、完整四态与真实群48](results/R496-original-new-axis-even-core-and-four-source-group.md)：原V′的288覆盖/576中心给偶核心F及四个独立真实来源，F²=K_A²，旧W与F生成48阶群。短四挠式保完整中心，新增q/z整个W边际为零、z全Y正块非零；原M任意深度及simultaneous CM13/19条件行均保，全部新轴/λ9词域依真实物理矩阵运输。
+
 - [R493：原二挠六sigma因式、保Y三阶几何与真深管](results/R493-original-half-torsion-six-sigma-factor-and-y-preserving-transport.md)：全部半周期相位给h=ω²T_*ρ0，实际T³=I且保Y、只变五伴随，另有保W反射U与U_*ρ0=ρ0+h。原新W′缺一独立sigma并有scalar−λ核，wholeodd27以真锚付清；五深一单位网格的正六次带权中央赋值恰5n，完整W伴随及Y移权项均保。
 
 - [R495：原十九次吹起、完整三倍来源与联合jet界](results/R495-fixed-angular-surface-and-full-triple-source-joint-image.md)：固定角曲面上真实因子严格变换满足χ=−KC≥2b、κ=C²≥2b−2；全部H1(mC)由曲线负度归纳消失。整个t^rQ H0(3C)在原同预算内，低r双行也由真列补齐，给V≤r+2κ+χ−1、N≤r+κ+χ−1联合满射；临界覆盖仅对显示几何量/真实接触，低ell和全M障碍仍保。

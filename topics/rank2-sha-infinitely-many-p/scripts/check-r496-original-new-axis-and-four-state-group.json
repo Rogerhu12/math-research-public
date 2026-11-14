@@ -1,0 +1,113 @@
+{
+  "V_prime_bare_coefficients": [
+    "1 + sqrt(3)*I",
+    "sqrt(3)*I",
+    "1 + sqrt(3)*I",
+    "0",
+    "3/2 + sqrt(3)*I/2",
+    "2"
+  ],
+  "degree_V_prime": 18,
+  "determinant_first_V_and_five_companions": -288,
+  "W_cross_barV": "29+7*omega=(51+7*delta)/2",
+  "norm_cross": 687,
+  "g_mod576": [
+    91,
+    72
+  ],
+  "g_squared_mod576": [
+    217,
+    432
+  ],
+  "g_eighth_mod576": [
+    289,
+    0
+  ],
+  "complete_quarter_even_V_core": "K_V^2 f_t=(-i)^Norm(4t) f_t",
+  "K_in_u_v_z_h": [
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "F_in_u_v_z_h": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "actual_group_order": 48,
+  "central_word_KF_cubed": [
+    1,
+    1,
+    1,
+    -1
+  ],
+  "A_two_step": "F^2=K_A^2 on all four actual sources",
+  "q_definition": "q=F e1; z=q-h/2",
+  "q_weighted_B_identity": "q=(J_epsilon,B/2)h",
+  "q_three_half_identity": "q=h/2-(i/2)(T_B,1/4+T_B,omega/4+T_B,(1+omega)/4)h",
+  "complete_W_marginals": {
+    "u": "6delta*T",
+    "v": "6delta*T",
+    "z": "0",
+    "h": "0",
+    "q": "0"
+  },
+  "negative_Y_block": {
+    "q": "h/2",
+    "z": "0"
+  },
+  "Y_flat_three_half": "(29+3delta)*ell/4=omega*ell/2 mod Lambda, nonzero ell in O/2",
+  "new_axis_Y_displacement": "(kappa^2-1)*(37-3delta)*Vprime/36",
+  "new_axis_preserves": "xi4 and each 2*xi_j-conjugate(V_j)*d0, j=1,...,5",
+  "old_M_q_z_signs": {
+    "W": -1,
+    "B": -1,
+    "Q": "chi29",
+    "U": -1,
+    "three_R": "chi29"
+  },
+  "word_lattice": "((P_V,2 P_W)^3) maps sources u,v,z identically and h to -h, scalar lambda^9",
+  "boundary": "Only even V depths are closed with old W here; all physical word lattices and complements remain."
+}
