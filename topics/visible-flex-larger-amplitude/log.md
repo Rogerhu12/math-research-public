@@ -696,3 +696,7 @@ run43608931469/source2a251065/job132489481146全success，artifact14119626920 10
 ### 2026-11-14 actual27：七query下降继续，最近限制移至原中点
 
 run43610469627/sourceb92d4b20/job132494273063全success，artifact14119758437/143121398B/ZIPd610b3d9…逐原件取核；actual27 note4fc673d6…全文读。七query完整14336行，68文件/421数组身份及B实际方向complex6.549e−13/adjoint7.371e−18通过。Hildreth200未收敛，100负行经.8216634644修复全部slack≥1.700e−16，τ1选投影、同模型Delta.48485156；非完整QP最优。原回溯α1/16真实merit44.43133020235467→44.380293912301596，drop.05103629005307653/ratio1.002883586，全部原域过。新warm f73dfc81…4717570B/新FD7.819e−10，col.0071104568/BC8.963e−8仍未接受，native0。最近拒绝α1/8仅1坏midpoint而七query全角正，原件未存位置；下一同七query继续并只读记录原returned middle/fm定位，不假设第八左RMS点。
+
+### 2026-11-14 request29：同七query继续并只读定位原坏中点
+
+两独立入口94395d54…/211e7c70…及接口全文读；仅从真实27 warm f73dfc81…续接，原26/27数值源与父producer不改。原CompleteResidual.evaluate执行一次后读middle/fm，坏midpoint保存实际indices/station/输入与非finite RHS字节、完整N2048原β²；所有附加诊断异常只记录，不改finite/vector/merit/接受。原同七query、λ270/200、Hildreth200、17回溯、全部域及新FD保留，未新增中点不等式。新observedseven lane三名单/输入/准备/FD接齐，静态AST/原SHA核通过，科学计算只Actions。
