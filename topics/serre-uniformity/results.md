@@ -241,3 +241,6 @@
 
 
 - **R760（准确接口已证明）**：[原临界sigma由除法多项式四位精度恢复](results/R760-original-critical-sigma-jets-from-four-digit-division-data.md)。原最高N+1系数modp⁴、已证p³整除与c=0规范恢复同一T；端点及全部正本原h的两Cartier系数保普通阶乘/六挠因子。联合原Legendre范数成为同h三单位判据，并给R735旧模数直接换模型式；实际共同非零与高度仍未解决。
+
+
+- **R759（方法已证明，工程已保存）**：[原完整整数周期格与映射次数方法](notes/R759-original-integral-period-lattice-and-map-degree-method.md)。全部1600行Hermite双包含、原双图/PD和degree正号、完整O_K格与exact LLL、明确cusp扩域/原c0下降及RR界已定。执行需R754实际成功周期；尚无整数格、次数、映射或β数值。

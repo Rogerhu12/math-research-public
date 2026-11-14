@@ -4,18 +4,18 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：c12cb6cda69d4489e8c6a4c18aff0fa141c393f7
-最近本地pull：2026-11-15 01:33:27 Asia/Taipei，main=c12cb6cda69d4489e8c6a4c18aff0fa141c393f7，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：e347b9a2c0825480b033618d1a9803bea1792d5a
+最近本地pull：2026-11-15 01:38:43 Asia/Taipei，main=e347b9a2c0825480b033618d1a9803bea1792d5a，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R760](notes/2026-11-14-public-handoff-before-R760.md)，内接before-R758及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
+本次前完整归档[before-R759-method](notes/2026-11-14-public-handoff-before-R759-method.md)，内接before-R760及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
 
 ## 当前执行
 
 - **原Abel已证接口**：R742全部允许jets同一p未分歧CM域，η整数≥−2、P偶赋值，大p某η≤1与完整p7等距。R744整个p4盘的完整W次数d≤η+2+μ≤3、Σ(vs−4)=−μ，Qp非中心根只可能深度4/5/6；实际W及高度仍缺，不能以截断代全尾或预设KS单位。
 - **R745/R747/R748/R750已成**：原六Q Hodge输入run43616027318；原signed T及六首系数run43617493590/sourceb401479892e81ed76c587da52305606100ed88a7，signed共轭+−+−++，T精确多项式/全部SHA见R748。实际ω0首项43719/(7·41²)给整个v41(s)>3仅center及41⁴等距；cert56418d0cef84554584d8777aed4acb54a2dc57bbf95cc38a1bb42b12140769f3。全j αM_(3j−1)/(1−ζ²)∈F0及任意非零jet比值global已证，未冒推完整W系数global或高度。
 - **R751已证、R754执行中**：原逆θ/正ξ/携权μ6和/原实目标−ζ运输把原40加法周期放进旧K(U)次数280。R754实际run43620862489/sourceb36d2c58b39f42a694236d48f64444bb6fe1d0af，core f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251。复用R735/738/745；40加法/819边/4800×42核及800×6全链验证，80分钟完整断点。首run43620409119仅旧15726位整数解析限失败，已修正，receipt/log保留；尚无实际period/核结论。
-- **R759工程草稿备齐**：完整1600行HNF双包含给全部整数周期格，原双图/PD已核Ω是Manin同调交配，degree=−aᵀΩ⁻¹b。精确LLL选原12映射，D=m(a)0/deg820给有界RR；cusp扩域先平移再c0基点下降已明确。待R754真成功产物/SHA，未预称次数、q函数、β或高度。
+- **R759方法/工程已提交**：完整1600行HNF双包含给全部整数周期格，原双图/PD已核Ω是Manin同调交配，degree=−aᵀΩ⁻¹b。精确LLL选原12映射，D=m(a)0/deg820给有界RR；cusp扩域先平移再c0基点下降已明确。core17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0；method SHA见pending请求。真实request尚未创建，现仅R759-public-integral-period-lattice-request.pending.json；须填R754真成功run/source/artifact/manifest及cert/period SHA后改为正式request触发。次数/q/β/高度尚未算。
 - **R753/R757已成**：所有p5mod6原ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；唯一末项极点保留，原三挠点常数给binom(2M,M)≡−p16^M modp³，N个原Frobenius方向全部单位。SHA见R757/归档，不能代原C_p。
 - **R760已成**：原O/c0规范、w≤N时Qp=pZ−p³ZL/6 modp⁵，Dp=6(pZ−Qp)/(p³Z)整且≡L modp²；原ψp最高N+1系数modp⁴恢复T及全部h的U_h/V_h。准确三单位判据P_(h−1)(1/s)U_hV_h≠0，原R735模数直接q_j=−(−4)^j d_j。证明SHA c0998fe0b367376c8b0108be828c2daf807cac216987d0727243b1eab3d7f0af；同h非零机制仍由cartier继续，非单位结论。
 - **R752/R755已成**：保σ₂/a₂，I0=ε(21σ₂+2b(J−18))=−〈w,Sflat〉；原Aα的Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb。完整negative adjoint、q quadratic/cubic与2处cochain均核；reference9ε不能消未知b。真正Iα/σ₂/J/b未求，R723仍只留真桥。

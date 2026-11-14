@@ -359,3 +359,6 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 
 
 **R760（原临界sigma的准确四位除法精度接口已证明）**：[完整证明](results/R760-original-critical-sigma-jets-from-four-digit-division-data.md)在原O点/c=0及w≤N给Qp=pZ−p³ZL/6 modp⁵，逐项可除p³的Dp≡L modp²；原最高N+1系数modp⁴确定原T。全部h同一微分/普通阶乘/六挠规范给U_h、V_h及P_(h−1)(1/s)U_hV_h≠0的真实三单位判据；原R735模数用q_j=−(−4)^j d_j直接复用。仍须证明充分大p存在同一真本原h非零，Gaussian修改不保临界截面，不能以ψ单位或异标签值拼接。
+
+
+**R759（完整整数周期格/次数方法已证明，实际数据待R754）**：[方法](notes/R759-original-integral-period-lattice-and-map-degree-method.md)以1600行完整HNF双包含得S=D H⁻¹Z¹²，原双图与PD确认Ω为Manin同调交配，映射degree=−aᵀΩ⁻¹b。正定整Gram、exact LLL及ζ作用均有待执行的全量核验，选12基中的短映射而不声称全局最小。原D=m(a)0及cusp工作域E=L(α,ξ)、先cusp平移再c0下降给完整RR界；代码/专用workflow已存，pending请求须填真正R754成功产物及SHA，当前未有整数格或次数数值。

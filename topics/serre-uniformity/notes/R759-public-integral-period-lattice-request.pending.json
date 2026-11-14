@@ -1,0 +1,37 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R759-original-integral-period-lattice-and-map-degrees",
+    "p": 41,
+    "budget_minutes": 60,
+    "producer_inputs_pending": true,
+    "core": "R759_integral_period_lattice_and_degrees.py",
+    "core_sha256": "17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0",
+    "method": "notes/R759-original-integral-period-lattice-and-map-degree-method.md",
+    "method_sha256": "fe08b7f1b994984b61c08bfb68147383556b68d6b7b11bca4a22b91eec6c4c66",
+    "r754_core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+    "retained": {
+      "R754": null,
+      "R738": {
+        "run_id": "43612108090",
+        "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+        "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+        "files": {
+          "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+        }
+      }
+    },
+    "resume": null,
+    "dependencies": [
+      "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "results/R735-exact-original-p41-CM-model-and-Neron-input.md",
+      "results/R738-certified-original-p41-period-input.md",
+      "results/R745-certified-original-p41-Hodge-and-adelic-input.md",
+      "results/R751-original-period-compression-in-the-retained-degree-280-field.md",
+      "notes/R754-original-periods-and-Hom-kernel-method.md"
+    ],
+    "old_model_topology_periods_or_Hom_kernel_recomputed": false,
+    "actual_lattice_or_degree_claimed_before_run": false,
+    "actual_q_functions_beta_or_height_claimed": false
+  }
+}
