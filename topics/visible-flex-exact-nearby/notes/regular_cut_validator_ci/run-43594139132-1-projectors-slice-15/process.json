@@ -82,9 +82,31 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:41:03.593115+00:00",
+      "before": "cfec1f23942f44288d0568db0a5c83c348ea701d",
+      "after": "4f69fbcbb2b58cdd5403975277fba453b3ed4e93",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:41:07.007956+00:00",
+      "before": "4f69fbcbb2b58cdd5403975277fba453b3ed4e93",
+      "after": "a3ebe79d861ec1bf030311a8dadd68aaac7bf853",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T12:31:01.449646+00:00",
+      "final": false,
+      "commit": "4353b1f7c708c48bc2960c8cc75b713092abf515"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -121,7 +143,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "cfec1f23942f44288d0568db0a5c83c348ea701d",
+  "last_read_commit": "a3ebe79d861ec1bf030311a8dadd68aaac7bf853",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 15,
@@ -143,14 +165,14 @@
   "successful_new_ranges": [],
   "assigned_new_cells": 209,
   "original_slice_manifest_sha256": "1114706be37284ad552777efe0eb4acfe0ba3038e39bcdea25c651d1d65de739",
-  "snapshot_utc": "2026-11-14T12:30:51.518891+00:00",
-  "wall_seconds": 601.732745347,
+  "snapshot_utc": "2026-11-14T12:41:03.616657+00:00",
+  "wall_seconds": 1213.830513245,
   "native_files": [
     {
       "logical_file": "native/validated-cells-05760-05969.json.gz",
       "file": "native/validated-cells-05760-05969.json.gz",
-      "bytes": 488287,
-      "sha256": "110d163bd27bac49a03e28bdfcbf8c97149d353dc2cb4fcc1a251e486b2b66f2"
+      "bytes": 978393,
+      "sha256": "d5219724ccdb6eeab2a89b2aa9dc41fdcce7757deda01d0980d53451a2abf959"
     }
   ]
 }
