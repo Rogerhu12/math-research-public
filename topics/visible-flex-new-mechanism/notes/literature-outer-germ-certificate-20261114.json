@@ -1,0 +1,126 @@
+{
+  "schema": "literature-analytic-outer-germ-exact-certificate-v1",
+  "arithmetic": "fractions.Fraction",
+  "normalized_amplitude": "1",
+  "normalized_inward_C_derivative": "1",
+  "euler_operators_low_to_high": [
+    [
+      "1"
+    ],
+    [
+      "4",
+      "1"
+    ],
+    [
+      "12",
+      "7",
+      "1"
+    ],
+    [
+      "24",
+      "26",
+      "9",
+      "1"
+    ],
+    [
+      "24",
+      "50",
+      "35",
+      "10",
+      "1"
+    ]
+  ],
+  "leading_constant": "0",
+  "highest_euler_derivative_coefficient": "-48/7",
+  "linearized_polynomial_low_to_high": [
+    "0",
+    "-6144/7",
+    "-3840/7",
+    "-768/7",
+    "-48/7"
+  ],
+  "monic_indicial_polynomial_low_to_high": [
+    "0",
+    "128",
+    "80",
+    "16",
+    "1"
+  ],
+  "characteristic_roots": [
+    "0",
+    "-4",
+    "-4",
+    "-8"
+  ],
+  "positive_integer_recurrence_denominators": [
+    {
+      "degree": 1,
+      "exact": "-10800/7"
+    },
+    {
+      "degree": 2,
+      "exact": "-34560/7"
+    },
+    {
+      "degree": 3,
+      "exact": "-11088"
+    },
+    {
+      "degree": 4,
+      "exact": "-147456/7"
+    },
+    {
+      "degree": 5,
+      "exact": "-252720/7"
+    },
+    {
+      "degree": 6,
+      "exact": "-57600"
+    },
+    {
+      "degree": 7,
+      "exact": "-87120"
+    },
+    {
+      "degree": 8,
+      "exact": "-884736/7"
+    },
+    {
+      "degree": 9,
+      "exact": "-1241136/7"
+    },
+    {
+      "degree": 10,
+      "exact": "-241920"
+    },
+    {
+      "degree": 11,
+      "exact": "-2257200/7"
+    },
+    {
+      "degree": 12,
+      "exact": "-2949120/7"
+    },
+    {
+      "degree": 13,
+      "exact": "-541008"
+    },
+    {
+      "degree": 14,
+      "exact": "-684288"
+    },
+    {
+      "degree": 15,
+      "exact": "-5978160/7"
+    },
+    {
+      "degree": 16,
+      "exact": "-7372800/7"
+    }
+  ],
+  "sign_convention": "t increases inward; c0=dC/dt at the endpoint",
+  "no_geometry_or_numerical_research_evaluated": true,
+  "global_profile_constructed": false,
+  "geometric_base_realized": false,
+  "finite_flex_proved": false
+}

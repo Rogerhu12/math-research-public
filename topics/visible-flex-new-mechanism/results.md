@@ -37,3 +37,5 @@
 - [R16：C2 零延拓、四阶外尾条件与四参数全区方程](results/R16-C2-endpoint-profile-equation.md) — 已证明四阶 profile 外尾足以给 C2 场，简单端根满足 W=−8C′/7，及其完整四参数化。全区非多项式 profile、真实系数几何实现和有限等距族均未构造。
 
 - [R17：旋转参考的线性平端相容性与固定圆领零 trace](results/R17-revolution-linear-flat-port-compatibility.md) — 已证明单调平端的高角模 Robin 条件、零 trace 唯一性和有限阶二jet；未弯 R128 小幅方向不能提供该参考所需的高角模 trace。只限旋转基点线性问题，不排除强非旋转有限分支。
+
+- [R18：四阶简单根外尾的真实解析存在与唯一相位](results/R18-analytic-fourth-order-outer-germs.md) — 已用非共振 Fuchs/Euler 解析收缩证明每个非零复首项对应唯一解析外尾，仅公共幅相自由；不是全区 profile 或实际曲面族。
