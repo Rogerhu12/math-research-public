@@ -82,6 +82,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:51:04.033166+00:00",
+      "before": "ef9e01cbe19d8024246dfe8c8f161c8b7fa5a355",
+      "after": "196b3c73f8b1b44d5033dcb6b22a6af509c2fd52",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -89,6 +97,11 @@
       "time": "2026-11-14T12:30:55.678977+00:00",
       "final": false,
       "commit": "429decbcf10068616ecb70972385d1427652a4d7"
+    },
+    {
+      "time": "2026-11-14T12:41:01.178513+00:00",
+      "final": false,
+      "commit": "4f69fbcbb2b58cdd5403975277fba453b3ed4e93"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -127,7 +140,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "ef9e01cbe19d8024246dfe8c8f161c8b7fa5a355",
+  "last_read_commit": "196b3c73f8b1b44d5033dcb6b22a6af509c2fd52",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 5,
@@ -147,14 +160,14 @@
   "successful_new_ranges": [],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "7cff76c2f94f9b081317a641d479be2c34ebdcfa801acddaf6ab329a2cd37398",
-  "snapshot_utc": "2026-11-14T12:40:57.760824+00:00",
-  "wall_seconds": 1208.0261617630001,
+  "snapshot_utc": "2026-11-14T12:51:04.058090+00:00",
+  "wall_seconds": 1814.323430456,
   "native_files": [
     {
       "logical_file": "native/validated-cells-01920-02304.json.gz",
       "file": "native/validated-cells-01920-02304.json.gz",
-      "bytes": 908088,
-      "sha256": "f0852d10dda96774bc95c5c2c5966cfe9881a7d2b46807fdf0fd1cb592d89cb1"
+      "bytes": 1380651,
+      "sha256": "f2324a32828765bd61d803645ebe724fa92fb51d0fc0c94e9876d9d5114d3d04"
     }
   ]
 }
