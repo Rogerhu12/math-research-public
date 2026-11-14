@@ -285,3 +285,7 @@
 ### R133：fullδ正区的大M32主块与小M96差分账
 
 见 [全δ正区完整合同](results/R133-supplement-full-delta-positive-M32-base-and-M96-difference.md)。新真实reference保全部频率；原4650完整系数与7721 raw包络复用，新增带宽192、signed primitive最低4、shell288均明付。两个Volterra order、所有mean/head/affine ports待新Actions实际数值门；尚非finite head或全BVP逆。
+
+## 全族负一阶根Cauchy：公开实际13门通过
+
+[完整实际报告](results/R133-supplement-actual-negative-one-root-Cauchy-and-seam-source-audit.md)：run43613506152，原11input全复用，child0/.214434376s，native7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0。真实增长<101.103437943193，raw<4.005123341343，primitive后<4.226183266259，确实激活41/10与17/4。全频/独立mean/ordinary源H−2/3/真实两行jump保；范围仅原9e−6负根窗、realδ1e−8。更大逐piece根域、下一Airy幅度、数值强余项另续。

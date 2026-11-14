@@ -27,3 +27,5 @@
 - 2026-11-14 16:14:11 UTC：独立推V1–24，phase/root核fullspace/Möbius/共同酉次序与内部压缩限制；bad-set相交真实保留，不把两端口resolvent范数直接等同。
 
 - 2026-11-14 16:14:14 UTC：独立推fullδ正区完整合同和19660B producer；tail核新预算及全部head/mean，newton核原H0/H1字段确raw Bernstein来源。旧目标/coeff不重算，继续组装公开CI。
+
+- 2026-11-14 16:21:39 UTC：核读43613506152完整13239B process及全部13门，独立发布s−1根Cauchy实际报告；H原字节归档后压缩，记录16:20终端仍失联；继续完整δ正body/outer和实际源/边界/Green链。
