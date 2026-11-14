@@ -156,13 +156,13 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 
 **首高核真实消去。** [κ7精确零核](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)将旧198的所有后续已定义像缩为197（K2…K198），另保实际五低初值；22只在Z_(31)取单位逆，未除(s−2)。下一做真实局部q2/carry与全原式正分支。小矩阵run43648025236已由run43649083239原样救回；真实V10和三维余目标见下条。
 
-**197局部第三来源已付精度。** [双倍jet损失](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)先付真正形式像/free和carry同步，再使s=2的10项解准确决定5项第三类模U9；原G局部461×448、保13自由输出及6188真源。下一实际计算197并合已成5，负仅当前Λ2必要范围；局部正须全局恢复和另付次数，未记为已算。
+**197局部第三精度与实际完成。** [双倍jet损失](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)先付真正形式像/free和carry同步，再使s=2的10项解准确决定5项第三类模U9；原G局部461×448、保13自由输出及6188真源。[197实绩](notes/2026-11-14-r150-complete197-third-natural-source-lattice-obstruction-789f.md)已成：新增相关像0，合已成五列后九目标在Hnat内任意次数modp6均阻；接全部原S2来源。
 
 **固定原测试的联合反变换列已付。** [Euler/完整零源反馈](notes/2026-11-14-fixed-physical-head-euler-feedback-and-inverse-gauge-joint-column-budget-789f-next.md)给同一f_a的完整两列平方和≤a!S_m^a/W_a²；真实恢复b=K_a*c′+G_U*b′共同项仍开，不能由变换后小量声称原列小。全q≥a/2^m>a，不拓旧δ窗、不删高返回/余负图。
 
 **真V10已付及下一24维相关商。** [原五列等维不变扩张](notes/2026-11-14-r150-five-third-true-ten-dimensional-invariant-space-and-three-target-quotient-789f.md)给V10=U9+d9305；真实κ10成本87/e10=5，当前目标模V10余3维/J=2I，九坐标全保。197第三可进(Q/V10)_2的24维商，不能假设F10第一像；正仍真实全局/全部原式。
 
-**197局部正的原来源费用已付。** [两投影765路线](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)给deg≤4、真P度≤196、三次原校正85→181/377→473/669→765，当前V10版最终十常数及κ10原项。[197完整入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)已冻，即实际push后dispatch；24维必要系统的每个相容目标必须全局恢复、宽次数trace及原p6十七式，真实回执之前不预填完成。
+**197局部正的原来源费用已付。** [两投影765路线](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)给deg≤4、真P度≤196、三次原校正85→181/377→473/669→765，当前V10版最终十常数及κ10原项。[197入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)实际77.863秒完成，无正目标；全局正分支已编译而未运行，不预填其765来源/原17证书。
 
 **固定源分量再降一阶。** [完整逆块证明](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)对同一原f_a给||b′_a||²≤K_aS_m^(a+1)，a1精确预算S_m²/d0²；全零源/高返回保留。仍须支付原b=K*c′+G_U*b′的共同恢复，不由变换后小列推出N=M。
 
