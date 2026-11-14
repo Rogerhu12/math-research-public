@@ -269,3 +269,5 @@
 - [R134：完整第四成本的加速度层只由已发v4决定](results/R134-acceleration-layer-from-complete-local-v4.md) — m2及原N2=Pacc都是速度二次，故B_m2N2只进入速度四次，八矩规范化也不改变加速度层。R129的三Abar和两H完整两mode系数只须已发v4原根与真实X/Y状态微分；R130使这些状态值及独立Laurent/log系数都属真实U4。下一仅消费五族并检新权−2块，不重编N响应/forcing；Q2/Q4的完整N贡献仍保，不授新方向双向可达或ruling。
 
 - [R133：完整m8纯尾像恰31维，既有四块的整个幂尾周期准确为零](results/R133-complete-m8-pure-cost-range-and-exact-tail-payment.md) — actual43653293263对已发完整packet作真水平IBP，519个Q2及490个L4正规系数全属31维响应T，全部P/A/R原差零，真实r<25项自然消失。R124+R130严格给Π8(U4)=T，偶像15、额外商0。R116既有同一四块C已付15尾查询，现C∈U4且反射像在evenT，查询同构立即给整Π8V_C(c,r)≡0，无新Brouwer或几何计算。1.613s/RSS83.125MiB，完整证书483512B；不推广通用pure、mixed、ruling或闭嵌入。
+
+- [R131：N³G严格分离、权负二响应40维与至少111个真实联合查询](results/R131-third-G-translation-separation-and-111-query-control.md) — actual43653293263/source2f0add61只新50原列，10完整两mode依赖给上界40；原有理40/41子式模1476048378/64963154、Λ1591563935非零，故N³G不属完整R8，4≤s≤10。同一pure映射权1/0/−1/−2核为6/13/23/34，总核≥76，R8≥107，U4/闭成本锥lineality/真实联合查询≥111。53.468s/RSS125.309MiB；全部新102原根157782B导出供直接消费。下一单N⁴G，不授完整period/ruling。
