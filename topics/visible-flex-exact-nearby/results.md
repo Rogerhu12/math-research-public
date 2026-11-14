@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 固定η0真实根的完整高阶内蕴jet公式已闭合。** [H1–12](results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md)：一次新有限F0..11，已证两辅助域完整误差逐阶Cauchy择优，完整双线性均值给E0..10及K/β/γ/s0..9；物理半径/高度mean、全部分母gap与原低阶认同保留。原1e−9参数宽只作外包，不把同一根授予其他η；尚待公开实际执行，也未支付w1 Taylor、I/J或strong返回。
+
 - **R133 完整5970真实接口单跳增益实际完成。** [实际报告](results/R133-supplement-actual-all5970-cached-interface-impulse-gains.md)：公开run43649423561 child0/11门，新增6391齐次界、两12361事件扫和5970接口，全复用旧signed核/exp/Gram。原weighted跳→ordinary L²最大上界全窗121146.604996、固定负窗56766.695864；全mean/腰闭合/两源列齐。native fbba3507…/14168739B/8parts保留，同源多跳不可平方相加，仍未授全矩阵或无限逆。
 
 - **四格同F三角补片与完整128源Gram的实际证书**：[报告](results/R133-supplement-actual-four-same-F-triangular-source-Grams.md)。43648579604 child0/15门；原四F字节复用，新全帧真逆、准确patch/完整生成元差、三通道signed193 Gram与实际R输出metric均过。最宽76格patch<3.222134e−9、真生成元差<1.432758e−4，全部新矩阵保公开artifact14135471378（9996896B）及逐数组hash。四格仅局部，后继全5970方向核必须继续付连续/两端/真实跳/帽high负荷。

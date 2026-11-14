@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:52:37 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:53:28 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:44:51 UTC b7e434dfa289ea50505421c59a84ad77819499d6；impulse四次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：c7f6d614767c9a2a5380cd486287720d29e27646；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：949d7056a8fbee4d5b6b3fd27b67a7f6cda7ec74；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
 本次前H全文9934B在 notes/2026-11-14-handoff-before-high-root-jets.md；旧H/open/results/152结论档案链完整。actual报告、manifest、native保对象/身份/参数/全部失败及逐行证明，不凭摘要重构。
 
@@ -35,9 +35,9 @@ root V1–22共同输运/正波分解已推ec771b9a，保κr/κ、primitive、me
 原root43616813816/forcing43624260519/negativeCauchy43621934843/seam43625828234/moment43629465215/matrix43632464994全成；全部原行/hash和Abar43635999157的6profiles/4377积分/6tensors见档案/actual，禁止重算。
 C1–15/N1–12的精确H^-1HD=−iεQK(T)、gd=Dw−ηhφ及完整h/qv已证。actual43642808159/8门 native0ceafc2b…3180936B：新6scalarjets/4377积分，旧profiles/tensors/moment/径向权/正分窗0重算。R.001负源<713579.527495、primitive<108158.346702；R.02负源<5093852.021530。详R133-supplement-actual-exact-fold-cancelled-source-budgets.md。
 辅助E1–12同piece：43640181602 child1，Ra1e−4/5e−4成功，.001/.002 gap失败，native6276b4b8…432808B完整保；只在原germ交认同物理，不改邻piece。
-F1–19锚定fold/直接leading二阶已证（SHA63e76681…）；43646714623 child1 nativea6f6225c…12763B，小域13门过，大域coeff过/selfmap失败。原小域Fb<516.515190375、Fa<1.537928496；9e−6物理邻域L0w1幅度<2262586.222/152555541189.154。报告R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md。
+F1–19锚定fold/直接leading二阶（SHA63e76681…）；43646714623 child1/nativea6f6225c…，小域13门过、大域selfmap失败，全部原数据/粗余项见actual-anchored-auxiliary-fold-and-direct-leading-first-forcing报告及前H，失败不得抹去。
 C1–7根积分交已推fc53baab；v2 actual43647998272 child0/6身份门+大域14门，native84e2bd1b…20319B。旧小case/两coeff/rootanchor逐字保、旧child1/fail另保。R=3/8000，canonical27/32000；Jac>4.30857883174、μ>18.56551547693、Fb<1335.043146479/Fa<2.089387252，原9e−6内L0w1幅度<6977483.057/19107989810.304。详R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md（SHA34e50180…）。sourcee4720dc7…/28pin7f00e2a2…，process855730f8…46443B；两真pull5137a924…空diff。尚非全IJ/mean/strong返回。
-D1–24同w1内外L0w1合同已证。J1–19（443da14d；R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md，SHA2429213d…）先除完整leading矩阵、精确递推再恢复c/d与X项，b1(0)=Fb，仅Taylor尾收Cauchy。phase只新增同root高阶jets及strict外片第三jet传递，全部成功域/低阶数据复用。
+D1–24/J1–19同w1内外L0与精确root递推已证（443da14d，SHA2429213d…）；b1(0)=Fb，只Taylor尾收Cauchy。新H1–12证明（R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md，SHA5db44117…）：固定η0真实根，一次新F0..11→E0..10→K/β/γ/s0..9，复用两aux完整尾误差/Cauchy；不冒授其余η同根，原半宽只作外包。待实际；phase续旧ρ直接Taylor/strict外片。
 root Y1–14旧mean压缩/完整w1 I/J预算已证（R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md，SHA55baa5f0…）：ΠDU(w)=ΠU(gd)，原T密度rawmean可取M0(gd)；w1用真实S密度和完整z_K词，或旧g_K预算/(4J0)，两者合法取min。全evenmean/原1079seam/fullδ/外片与最终J窗口保。仅给负源窗口，正侧走原weighted合同；待公开新source积分，CE/Cs/充分cutoff/closed逆仍缺。
 
 ## 外返回、新简单根和闭网络：tail_connector

@@ -202,3 +202,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 四格同F方向Gram实际通过，扩展仅计算未完成格
 
 [实际报告](results/R133-supplement-actual-four-same-F-triangular-source-Grams.md)核43648579604 child0/15门及4新数组；0/76/3300/5969全帧、同F真inverse、三source/metric均成。直接复用这四sameF结果，后继只扩5966尚缺格。相邻shared Q及同R的两补帧换基可作为准确零长度三角事件，真实V dyadic误差仍另付接口impulse；不能把局部矩阵upper/迹当最终BVP响应。
+
+### 固定η0根的高阶输入
+
+H1–12已给出[完整高阶jet路径](results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md)，复用两成功辅助域的完整尾误差，只新增原真实根区间有限F0..11及均值产品。下一公开执行须保54个低阶认同、全mean/三分母gap/每个已成前缀；其后才接旧ρ直接w1 Taylor及尾余项。其余η同根、全I/J和充分cutoff均未授。
