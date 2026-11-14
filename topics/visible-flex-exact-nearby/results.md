@@ -95,3 +95,5 @@
 - [R133：实际完整moving根全频逆、Sobolev与参数圆盘预算](results/R133-supplement-actual-full-frequency-moving-root-budget.md)：公开43594466882真实13门全过、child/wrapper0；原event b84d985与science f61ca978分别保。完整|δ|≤1e−8根复域全频Neumann c<.131785809731，J0<.229690263530；负5/3→负2/3<1.787479366938。全部193方向/真mean/repair/弱flux/投影drift与径向commutator付，未借旧band64门，不授真PDE或两行root连接。
 
 - [R133实际完整true-weighted切口与腰端](results/R133-supplement-actual-complete-true-weighted-cut-and-waist-boundaries.md)：公开43594139132 prepare实际十门全过；完整193×96 Gram及97低行/mean给L0<1016.779086、D0<1016.778594、LR<4.076853888、DL<.003613121034，腰0−及最终sec/tan跳保留。全区间Green、未知high、独立源和真响应仍待。
+
+- [R133有向返回word与实际root首系数合同](results/R133-supplement-directed-return-word-and-root-first-coefficient-contract.md)：完整density反同态准确给V−^-1V+=U_(S−∘X+)，固定4j与有向有限部符号；实际root图另保b_root^fin及finite cross gauge，当前−Xi/4不冒充完整β。失联后正文重建身份明确，完整root连接/strong和真PDE转移仍待。

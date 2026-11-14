@@ -224,3 +224,5 @@ root一次相位35门实际原件已根核，见 notes/2026-11-14-R119-root-firs
 真实weighted两端公开43594139132 prepare十门原件已核，见 [实际两端](results/R133-supplement-actual-complete-true-weighted-cut-and-waist-boundaries.md)。完整权重/97行及mean给L0<1016.779086、D0<1016.778594、LR<4.076853888、DL<.003613121034；必须在最后0+→0−跳之后核闭合，不能照抄旧无权费。共享终端12:35失联，按根规矩8使用已连接GitHub只发小文本；全5970 runner仍真实pull/README核/保存前缀，根H区分最后实际pull与远端API读取。继续完整Green/high/cap/repair。
 
 完整 signed Green/source 消费者已接 [.github/workflows/visible-exact-complete-cut-green.yml](../../.github/workflows/visible-exact-complete-cut-green.yml)，[合同](notes/2026-11-14-R133-complete-signed-Green-distributed-source-contract.md)。固定93项manifest da3e1421…原88件逐SHA不变；新四源码在断线后逐字恢复，与原SHA完全一致。先公开七个正端口门，后在全5970真实成功事件自动消费；完整suffix无pole、每sec/tan接口、腰0−闭合以及四独立源通道均保，给全[0,.9]和准确phase负段普通L2。只有真实完成后才授有限193态逆，原ac1→repair、帽独立源和未知high另付。
+
+[有向返回word](results/R133-supplement-directed-return-word-and-root-first-coefficient-contract.md) 已证准确density反同态与V−^-1V+=U_P；真实P=S−∘X+而非P²，primitive模为1/(4ij)。实际root/positive图必须同一正规化后给b_root^fin；Xi有限部只贡献−Xi/(4j)，完整一阶还含−b_root^fin/(4j)及声明接口。有限root cross gauge的准确图变换只在所声明逆存在的空间使用；形式首符号不偷授低频逆。继续实际连接、δ*转移及强余项。
