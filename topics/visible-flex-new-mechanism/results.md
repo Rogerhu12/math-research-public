@@ -217,3 +217,5 @@
 - [R105：完整canonical第四成本的有限函数空间与真实响应商](results/R105-finite-canonical-fourth-cost-space-and-response-quotient.md) — R56完整R/eta逐点消全部移动ξ分母，固定第四阶递推先给所有真实路径共用的有限四次模板；时间非有理历史只入实系数。真实MT0成本span U4由两实际桥成本差证端口无关、全仿射不变，含R8=B_E8(W)，亦可用M0未付T原料生成。R96给同一合法圆忠实表示整个U4，但U4/R8未确定；仅未来证U4=R8才可把R102升级成整函数控制，ruling仍欠。
 
 - [R107：c⁸消去后的c⁷成本在真实仿射变换下不变](results/R107-affine-invariant-leading-odd-tail-cost.md) — 完整同锚profile协变与四次齐次给m8尾D25的真实变换 A_Hd(c)=H⁻⁷A(Hc+d)，故a8→Ha8、a7→a7+8da8。a8准确消去后a7正仿射不变，反射及倒行保持它，R104四块为4a7(B)。未授同号、非零或消R8，连接基准仍须计入；下一直接研究真实c7 action及控制方向。
+
+- [R109：完整第四成本模可调响应的局部密度约简](results/R109-local-density-of-the-complete-fourth-quotient.md) — R77/R79原式给逐点n−N′∈W的真实局部势，完整composition消去累计二、三历史，保常势N(0)且仅由总矩阵0消其端项。准确V=∫(v−B_mN)−∫B_mH−(1/6)∫B_A[A,m]，后两项属R8；v须先真s微分再置累计值0。将U4/R8化为真实局部积分商，未证密度商零、完整第四/ruling或半群取负。

@@ -4,9 +4,9 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`5b7159d6d20207ba6c15d147a419ffd4324e46ba`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`9b7a41362403c86176f65d28b185e0f0564b14b0`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
-私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
+私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
 真实几何、ODE/积分、优化与完整研究符号编译仅用本公开仓库GitHub Actions。本地只纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不以冻结、独立复核、逐字归档、重复清单或重跑作机械前置；完整证明直接登记结果/索引。
 
@@ -42,7 +42,7 @@ R37/R45真M0桥/四块位置闭合、R52完整三阶圆仍非有限等距族。R
 
 **R99–R102已付至少15个真第四查询**。t1×W0四列actual43640085842两Jacobi准确0、两扩展字符非零。真M0第三环L复制有T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保。固定小A(s)重复不扩scalar包络；同I/合法圆/固定Q满秩时，有限词串联E(t)+n(2Σv+Kt)，中心立方体+Brouwer支付任意查询向量。R8=B_E8(W)真维15≤r≤288，可含原正字符并保P1；这不是凭有限采样认全函数。R84倒行V同号/加法半群/长度门仍保。
 
-**R105刚付canonical完整成本的共同有限化**。固定目标/右锚/零传入，不增任意profile gauge；R56完整R与eta逐点消移动ξ极点，固定4阶先给全部路径同一有限四次右Volterra模板，真实非有理时间history只进实系数。U4=真MT0成本span；M0桥transport两实际成本之差证端口无关（不是负路径），全仿射不变；BBᴿ允许M0未付T原料生成同span。R8⊂U4，R96可给同一合法圆对整个U4忠实查询。**U4/R8仍未确定**，只有未来证等号才可用R102付完整period，ruling不在此结论内。下一真商与原式响应接口，不把formal模板系数当全可达。R89首段X=α+uN的旧B笔误已单点修正，无穷小场的B保留。
+**R105共同有限化，R109已消成本商的累计历史。** R56全恢复消移动ξ极点，canonical全部路径共用有限四次Volterra模板；真MT0成本span U4端口独立/仿射不变，含R8，M0未付T原料亦生成。R96同一合法圆可忠实表示U4，但U4/R8未定。R109由R77/79原式给逐点n−N′∈W，完整composition得V=∫(v−B_mN)−∫B_mH−(1/6)∫B_A[A,m]；后两项属R8，N(0)只靠总矩阵0消，v先真s微分再置累计值0。下一消费局部密度L4=v−B_mN，不重跑长路径。未证商零；仅未来U4=R8才授R102完整period，ruling另欠。
 
 **R100/R104/R106已消D25全部偶参数项**。R85/88首两尾是零端势，R95压缩action后c10/c9零端使次数≤8。R100 actual43640085842完整34差式全0，23真histories/原DAG保；p/ell/zeta真实零端的c8短action见R100。R104同(h0,0,0)真M0桥B:I→D，经σ=(h,−k,−ω)组成B σB Bᴿ (σB)ᴿ；前缀位移V,DAV,−V,−DAV相消，frameI、M=T0、同一正I，只得周期正则浸入环带。R106完整R56递归/移动尾锚证D_j^σ(c)=(-1)^jD_j(-c)，四块D25=4(a7c7+a5c5+a3c3+a1c)。完整V仍2V_B+2V_σB，固定全带右锚ruling缺陷不消；不得冒全函数反号。
 
@@ -54,6 +54,6 @@ R107真实A_Hd(c)=H⁻⁷A(Hc+d)，a8=0后a7正仿射不变，四块保4a7(B)；
 
 ## 6. 持续推进
 
-公开run43642966285/source d891604e：exchange仍运行；同g/028c/160×384全网筛/单调选行QP，内strip.38999初态失败，≤6调用共享80iter/120eval/300优化秒，prepare/初始化/优化/总时各报，rawδ不抬并同态384/768。c7已complete：10新差式全0，五真实history96项14组/degree2，0.142s/RSS42.234MiB；R108正登记，无period符号。新请求单方向B_t1(τ_p1t1)准确c7尾探针，仅Actions60s，旧query/递归不重跑。literature继续U4/R8，mechanism准备真实曲率λ接口。
+公开run43642966285/source d891604e：exchange仍运行；同g/028c/160×384全网筛/单调选行QP，内strip.38999初态失败，≤6调用共享80iter/120eval/300优化秒，prepare/初始化/优化/总时各报，rawδ不抬并同态384/768。c7已complete：10新差式全0，五真实history96项14组/degree2，0.142s/RSS42.234MiB；R108正登记，无period符号。新单方向c7探针run43643100132/source8efadbda已success待读，仅Actions60s，旧query/递归不重跑。literature继续U4/R8，mechanism准备真实曲率λ接口。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。
