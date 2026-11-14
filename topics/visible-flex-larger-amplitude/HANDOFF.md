@@ -51,4 +51,4 @@ R254完整z0/sharednode prefix逐cell有理非平面，已compile，新场未跑
 
 旧A幅度.0630146<.2；真RK24/48、三mesh、R241 q8全部2157568子对uncovered0已付，连续包络仍条件。旧GW六节点同raw/mean/g，metric f8/16/48降1.18e−8/1.26e−9/1.62e−10，κ7.646；封存两旧支，不追额外机器六jet门。43提交、geometry26/strong90/GW35保全；strong R6失败无接受、raw未全迁，公开源78件匹配原91清单；不读private。重建均用新身份。
 
-规则同步记录：2026-11-14T13:55:36.043261+00:00 实际pull --rebase成功；双README自bc671140无变化，已读提交 939aec704e334e8075846cbc32ed79d3690cc44c。
+规则同步记录：2026-11-14T13:56:52.447725+00:00 实际pull --rebase成功；双README自939aec70无变化，已读提交 9ba9caf89da85d676a3d5ea2756c571021409c4d。
