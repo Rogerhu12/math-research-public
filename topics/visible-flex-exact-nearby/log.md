@@ -507,3 +507,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 23:15:03 UTC：准确旧mean负区消费者部署
 
 Y1–7只消费原exactfold完整native0ceafc2b…/3180936B及process67bf926a…/36740B、radial fec8740c…和moment7662350a…。28pins原21项逐path/hash/bytes不变；无target/旧scalar-case/旧source函数调用，新的gd均值密度用途明确记录，只以min替换完整old_mean_raw_D项并重新积分负区。八其他source项、独立evenmean、所有正行/正collar/body分窗、6jets/tensors/profiles、4377原径向权逐字复制并gate；不将leading专用恒等式用到w1。science ae618221…24260B、CI7465a23e…9195B、manifest3a107f5b…11916B、worker0b56afc2…16136B、flow68e0d6fb…5313B。每128新行保存/同源恢复，45/50min前后真pull并记录时间/diff，失败完整出版；先不声称数值改进。前H9957B归档并压缩活动摘要。只读核7ddf041512e1b33920cc176b0467cb42d1cd471fREADME不变。
+
+## 2026-11-14 23:21:22 UTC — 全5970同F计划actual与出版层故障
+
+已核process98fca8da…、outcome2e5002b5…：run43651733856数学5.000476093s/child0/7门，native d893f609…266218B；其后Path+str摘要拼接TypeError。32组均未跑，0新矩阵格。完整失败及成功计划独立保留；v2仅修出版和精确原计划恢复，不放宽科学门/不改117原pins。4次runner真pull末23:09:36 da0ecd856291b2ae77e0c78c567f7cac31ff851e，两README实际diff空；root只读核32102d96af729910fd96849a89b422d48d27d921亦未变。CLI仍unavailable，小文本依根规8。

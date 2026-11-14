@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **完整5970矩阵计划实际通过，出版错误单独保留**：公开run43651733856的plan child0/7门，32互斥组覆盖5966个缺格；随后小摘要PosixPath+str异常，所有range/finish skipped。原四格/原计划不重算，恢复须逐字认同唯一process/native/七门。见 [actual plan与恢复](notes/2026-11-14-R133-complete-same-F-plan-actual-and-publication-recovery.md)。
+
 - **R133 全5970格同一传播子矩阵数据合同已证。** [D1–12](notes/2026-11-14-R133-complete-same-F-directional-matrix-data-contract.md)：原四成功格逐字复用，其余5966格从同一canonical exact A构造未舍入F/C，公开自适应degree8..64并严付完整残差/三角端点修补；保128真实输入方向、全193 signed H/J及mean、真dr/物理权/负窗。原m_k/E绑定同一原s-power对象，全同Q/R接口核验；V舍入、真帽/腰/body缺陷和未知高块仍待全方向双扫后另付。
 
 - **R133 高根第一次运行的真实完成前缀与Nyquist修补合同。** [N1–5](results/R133-supplement-actual-high-root-prefix-and-exact-Nyquist-consumption.md)：run43650466853 child1，前7门通过，原12列有限点完整保存于native6cd2e5bf…/552891B；第8门误要求区间端点逐位零，高阶误差/mean/E尚未计算。原有限Nyquist为零的结构恒等式允许先核所有球contains0，再仅在新消费视图置零；保原数组、false gate/失败，并固定唯一跨源迁移，不重跑FFT或target。
