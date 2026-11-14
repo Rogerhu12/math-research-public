@@ -295,3 +295,7 @@ root全文核helper/producer/CI/flow/合同及189/184 pins，tail独核同germ�
 ### 2026-11-14 19:43:43 UTC — 外侧全频两端组件独推
 
 root全文核S1–24的能量常数、cutoff Green符号、distribution延拓、完整跨块极限及物理源缩放；phase独核通过。正文原blob直接推送，未增加数值target。保持eX与D的区别，继续最终真实闭合。
+
+### 2026-11-14 19:44:21 UTC — 实际matrix八门结果独推
+
+root全文读9819B报告、49990B过程及2751Bworker，核全部6case和scope门、两实际pull/README空diff；原7.87MB binary留公开Actions，未经connector读取。原scalar大上界仍保，下一步逐项改进真实幅度范数。

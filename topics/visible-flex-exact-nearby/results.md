@@ -507,3 +507,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R119：真实正区跨端平滑及完整外侧两端酉图（2026-11-14 19:43:43 UTC）
 
 [S1–24 完整证明](results/R119-supplement-actual-positive-cross-port-smoothing-and-exterior-unitary-two-port.md)利用原q=2长平台内固定buffer的局部角差分商能量和cutoff Green恒等式，证明完整跨端块 $\mathcal N_{CB}:H^1_B\to H^1_C$ 及其准确对偶 $\mathcal N_{BC}:H^{-1}_C\to H^{-1}_B$，范数小于 $2^{590}$。于是原三阶负端 $H_C\in H^{-1/8}$ 的真实B总通量回到要求的H−1，B输入只需原H1。完整DN四块共同Galerkin，跨项强弱配对与自块截断交换子支付极限通量；唯一性和反向构造给D=cut128与B的完整 $L^2_D\oplus L^2_B$ 满射酉图。保两mean、角pullback/通量密度及μ*物理波，完整强weak/measure源到波统一可用2^1024，atom用BV/单侧迹。root/phase全文独核通过，正文SHA `26ec424a5d14e18e135e4aaf1d5dd2f8d64639c8896f6c03a510cc8769dc204f`。eX→D真实负段与全网returned方程仍须另证。
+
+### R133：实际完整有向矩阵余项43632464994（2026-11-14 19:44:21 UTC）
+
+[完整实际报告](results/R133-supplement-actual-directed-matrix-old-circle-sources.md)：child0、8门全过，88.696749s；1328新矩阵行/全部六径向窗，原1328moment及旧target/ray/amplitude/seam零重算。native `3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b` 7873296B在原artifact14128707026；小process `00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8` 49990B和worker `fee40be3163ba4c48a34141c9ded59fef5365e0bcf16294b8ca9248d68ca9911` 2751B已root亲核。R=1/1000完整负源<4.564909e9，原primitive/Cauchy后此组件<6.919103e8；R=1/50分别<3.453706e12、7.627176e14。8完整operator词/9第一行贡献、正collar/body真实切口、独立mean及全输出保持；主导仍RQJ T(gd)。这些是上界，不推出真实norm很大；L0w1、正侧独立mean转换、完整强return和cutoff97均仍false。root已核六case、原两次真pull至5b0e703d7fb6951eaf8a471c15b620378d999786及README空diff。下一解析幅度消费者只复用本次已成matrix native。
