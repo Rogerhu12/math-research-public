@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fourfold_codazzi_physical_cap_matrix_residual_v2.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--proposal",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114.json",
+    "--count",
+    "2",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/physical-cap-matrix-v2-refined-first2-20261114.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "started_utc": "2026-11-14T06:57:42.483894+00:00",
+  "state": "finished",
+  "actual_returncode": 0,
+  "wall_seconds": 83.40636855699995,
+  "maximum_child_RSS_KiB": 338112,
+  "finished_utc": "2026-11-14T06:59:05.891200+00:00"
+}

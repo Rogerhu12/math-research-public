@@ -1,0 +1,163 @@
+{
+  "kind": "complete_refined_96_physical_cap_and_first_two_native_reconstruction",
+  "complete_finite_proposal": true,
+  "complete_continuous_cap": false,
+  "source": "scripts/fourfold_codazzi_physical_cap_DN_refined_proposal.py",
+  "source_sha256": "d82119aa5c5d5b74113c1b344b6b24702139118d35ac4717a2579e7bf5d0795c",
+  "original_case": "077b55dee16fd050038fd86ed3bed640836535a78e2e98f0b912937d34e859a5",
+  "base_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "derived_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+  "full_identity": {
+    "model": {
+      "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "q_vector_sha256": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+      "actual_waist_row_sha256": "c99e3f6c7fd4975ee8fd1de26fadad7f4e42c6c379a861830d6fa419046b052e",
+      "modes": 96,
+      "centre_modes": 32,
+      "exact_alpha": "6890507429876859/9007199254740992",
+      "exact_nu": "-2572625729470897/72057594037927936",
+      "angular_grid": 1024,
+      "physical_boundary_grid": 8192,
+      "state_coordinates": "physical unnormalized moving variation; h1 sine(4j phi), h2 cosine(4j phi) including its true mean",
+      "background_coordinates": "moving phi: u=alpha*U; v=1/Cref_nu+alpha*V; theta_phi=v/mean_phi(v); B=u/v; C=1/v",
+      "source_sha256": "3fe305bd6632e42a3170cac7385b90f643b56ac719febc0f96e6960b16cc0089",
+      "dependencies": {
+        "fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+        "fourfold_codazzi_moving_polynomial_system.py": "9d5b70e81fcb6ac93a2cd802529b9a4509e278c31598c05e93ac6e1f7c4f784a",
+        "fourfold_codazzi_moving_regular_endpoint_system.py": "ee5a621f6dc3c2ac552477c71f6ba56817743428f904cd7636281ade57d7be3a",
+        "fourfold_codazzi_reciprocal_polynomial_system.py": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+        "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+        "fourfold_codazzi_compact_metric_return_probe.py": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+        "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114"
+      },
+      "Schur_complement": "fixed_nu_complete_regular_outer_rows_waist_amplitude_output",
+      "regular_complement_source_sha256": "5b441c22f859b752edcf808223bb4818e9b8d001b4e58d8516b997a156700e47",
+      "old_body_model_source_sha256": "3fe305bd6632e42a3170cac7385b90f643b56ac719febc0f96e6960b16cc0089",
+      "original_fourth_Robin_row_retained": true,
+      "parameter_source_convention": "D h = (+ partial_nu F) delta_nu + f",
+      "finite_state_coordinates": "physical B sine and C cosine amplitudes, complete C mean",
+      "physical_cap_model_sha256": "5ff6b42fd1a1012a88c93e3185d8da066061bd6973dc1856821904f55110f238",
+      "derived_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+      "continuous_repair_report_sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+      "exact_repair_float_coefficient_maximum_error": "47868085941511580994337852866736521621659029132192925/248661618204893321077691124073410420050228075398673858720231988446579748506266687766528",
+      "exact_requested_left": "9/10",
+      "exact_proposal_left_float": "8106479329266893/9007199254740992",
+      "direct_physical_rows": true,
+      "implicit_angle_inversion_is_diagnostic_only": true,
+      "right_DN_is_original_model_with_true_error_not_yet_paid": true
+    },
+    "source_sha256": "d82119aa5c5d5b74113c1b344b6b24702139118d35ac4717a2579e7bf5d0795c",
+    "span": 8,
+    "local_radial_refinement": [
+      {
+        "midpoint_below": "23/25",
+        "subdivisions": 16
+      },
+      {
+        "midpoint_below": "47/50",
+        "subdivisions": 8
+      },
+      {
+        "midpoint_below": "49/50",
+        "subdivisions": 4
+      },
+      {
+        "midpoint_below": "53/50",
+        "subdivisions": 2
+      }
+    ],
+    "original_nodes_preserved": 661,
+    "true_derived_centre": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "complete_physical_input_columns": 96,
+    "endpoint_Hermite_definition": "exact dyadic nodal states and one-sided derivatives",
+    "original_finite_backward_gate": 5e-08,
+    "dependency_sha256": {
+      "fourfold_codazzi_physical_cap_head_model.py": "5ff6b42fd1a1012a88c93e3185d8da066061bd6973dc1856821904f55110f238",
+      "fourfold_codazzi_final_regular_head_trial.py": "fc3acf0804bcb6038bcd966799e1c760e4189173cee4ae643e0fd496653b3239",
+      "fourfold_codazzi_block_qr_persistent.py": "ff688859ded8d7db16b1d6ccace9b61fcd1676ec6f09383afb8e9c0e8c893a3f",
+      "fourfold_codazzi_physical_cap_DN_proposal.py": "023ec88e92bf70b79ce8f770fdc81d1c9b02798249e196c96503e19d6a52f7d8"
+    }
+  },
+  "original_matrix_inputs": {
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114/077b55dee16fd050038fd86ed3bed640836535a78e2e98f0b912937d34e859a5/matrix-RHS/state.npy": "64f5ce044bd1188f37e7fcc5d2efb72054e2487d36204d4d6f607c8ab1a9bb42",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114/077b55dee16fd050038fd86ed3bed640836535a78e2e98f0b912937d34e859a5/matrix-RHS/derivative-left.npy": "50909341de3110ab9336fa9aa9496430f7d3351a485ddcc0753e1f0a92b3c063",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114/077b55dee16fd050038fd86ed3bed640836535a78e2e98f0b912937d34e859a5/matrix-RHS/derivative-right.npy": "a6b65ad54215b3d4f201689e75a98d954b47e78643da38e198a226e88fd58194",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114/077b55dee16fd050038fd86ed3bed640836535a78e2e98f0b912937d34e859a5/physical-endpoint-graph.npz": "6708410b78619a05a4ad81a2480923adbebb9ec3a4420879bd11b0583925d4a3"
+  },
+  "preserved_small_files": {
+    "notes/2026-11-14-R133-physical-cap-96-refined-finite-native.json": {
+      "sha256": "911ddd6c40fcf58e64af41226536f64cf3b1b225218a89a0f3add23c2ece0738",
+      "bytes": 7277
+    },
+    "notes/2026-11-14-R133-physical-cap-96-refined-finite-process.json": {
+      "sha256": "7ff6f7337e73732200ac279503c8b348f4f029575ae32e4998e5563c13ece562",
+      "bytes": 972
+    },
+    "notes/2026-11-14-R133-physical-cap-96-refined-endpoint-proposal.npz": {
+      "sha256": "6708410b78619a05a4ad81a2480923adbebb9ec3a4420879bd11b0583925d4a3",
+      "bytes": 382344
+    },
+    "notes/2026-11-14-R133-physical-cap-96-refined-first2-native.json.gz": {
+      "sha256": "d1c4ebdda490d7ff8757b836770d7a6b6f0bc8bd5a182e22f3a87098882659e0",
+      "bytes": 13828
+    },
+    "notes/2026-11-14-R133-physical-cap-96-refined-first2-process.json": {
+      "sha256": "1c6e5fcb61df071c0cf0fc00a4e8b17f2e2c46177f90ed459f84f44e9301d867",
+      "bytes": 873
+    }
+  },
+  "original_actual_process": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "scripts/fourfold_codazzi_physical_cap_DN_refined_proposal.py",
+      "--candidate",
+      "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+      "--left",
+      "9/10",
+      "--max-new-blocks",
+      "10000000",
+      "--work",
+      "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114",
+      "--out",
+      "/workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-20261114.json"
+    ],
+    "cwd": "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby",
+    "source_sha256": "d82119aa5c5d5b74113c1b344b6b24702139118d35ac4717a2579e7bf5d0795c",
+    "started_utc": "2026-11-14T06:43:02.550919+00:00",
+    "state": "finished",
+    "actual_returncode": 0,
+    "wall_seconds": 680.2399685370001,
+    "maximum_child_RSS_KiB": 538776,
+    "finished_utc": "2026-11-14T06:54:22.791665+00:00"
+  },
+  "continuous_selected_scope": {
+    "first": 0,
+    "end": 2,
+    "complete_common_cells": 1977,
+    "intervals": [
+      [
+        "9/10",
+        "8106479329266893/9007199254740992"
+      ],
+      [
+        "8106479329266893/9007199254740992",
+        "8106948454228077/9007199254740992"
+      ]
+    ],
+    "source_sha256": "22ea1004561ac6c8b95bb20c7629724b624571fda869c93214ead7ffc07ebd25",
+    "selected_cells_complete": true,
+    "whole_cap_complete": false
+  },
+  "reconstruction_steps": [
+    "Run the published exact six-stage fourfold_codazzi_final_replay_chain_runner.py and verify the original ac1 candidate scientific and container identities.",
+    "From the new topic directory, PYTHONPATH=/workspace/scratch/ac0d699811ad/runtime-deps OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 python3 -u scripts/fourfold_codazzi_physical_cap_DN_refined_proposal.py --candidate /workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json --left 9/10 --max-new-blocks 10000000 --work /workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-rebuild --out /workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-rebuild.json",
+    "PYTHONPATH=/workspace/scratch/ac0d699811ad/runtime-deps OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 python3 -u scripts/fourfold_codazzi_physical_cap_matrix_residual_v2.py --candidate /workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json --proposal /workspace/scratch/ac0d699811ad/physical-cap-DN-refined16-rebuild.json --count 2 --out /workspace/scratch/ac0d699811ad/physical-cap-matrix-v2-refined-first2-rebuild.json.gz"
+  ],
+  "large_intermediates_only_in_scratch": true,
+  "all_state_and_both_one_sided_derivative_arrays_required_for_continuous_consumer": true,
+  "no_endpoint_file_substitution_for_complete_Hermite_data": true
+}

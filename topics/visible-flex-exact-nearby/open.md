@@ -153,3 +153,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-complete-moving96-physical128-C-port-matrix.md)：实际准确cut9/10/full repair/wholeη的128×97物理C端口12门39.71s成功；完整12416条定向整数区间和dyadic/floathex中点、独立even mean全部保存。正式Laurent指数全∞尾2^-180、完整Gram矩阵误差6.518858e−12、浮点转换4.394021e−17，含physical>128尾总<6.518925e−12。h1列准确零，非均值正交单位需另乘√2；不授主体逆。
+
+
+[实际完整记录](notes/2026-11-14-R133-physical-cap-96-refined-and-continuous-first2.md)：同repair/原目标/全部mean与m4外行，1296块96列局部加密提案实际normal0/680.24s，原FFT6.861356e−15；完整Hermite三数组SHA/端点小NPZ/重建CLI保存。1977共同闭片前2真实wholeη残差normal0/83.41s，带权普通B/C<1.48024e−4/3.735972e−6及全部散度∞尾保；未算1975片不授整帽，后续独立128物理端口接moving96。
