@@ -1,0 +1,182 @@
+{
+  "completed_utc": "2026-11-14T19:08:39.094639+00:00",
+  "copied_transport_parent_source_sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+  "current_actions_run_attempt": "1",
+  "current_actions_run_id": "43630351235",
+  "directories_read_only_mode": "0555",
+  "download": {
+    "HTTPS_only": true,
+    "actual_sha256": "2fd2f07095dce463e7f57c473332a3cfc77cdd0cdaa2ad6e02d3b48f0c86b2f5",
+    "actual_size": 430132210,
+    "any_origin_change_removed_authorization": true,
+    "authorization_never_restored_after_origin_change": true,
+    "authorization_removed_on_every_origin_change": true,
+    "content_length": "430132210",
+    "http_status": 200,
+    "redirect_count": 1,
+    "redirect_origins": [
+      {
+        "destination_host": "productionresultssa5.blob.core.windows.net",
+        "next_request_authorization": false,
+        "origin_changed": true,
+        "source_host": "api.github.com"
+      }
+    ],
+    "request_timeout_seconds": 60,
+    "signed_redirect_urls_recorded": false
+  },
+  "existing_output_directory_replaced": false,
+  "extraction": {
+    "G_coefficients_J_matrices_LU_and_exact_ledgers_not_extracted": true,
+    "all_central_directory_paths_checked_before_any_extraction": true,
+    "complete_pinned_ZIP_SHA256_binds_all_archive_bytes": true,
+    "directories": [
+      "rawcell0-gauge-correction",
+      "rawcell0-gauge-correction/large-arrays"
+    ],
+    "directory_count": 2,
+    "file_count": 5,
+    "files": [
+      {
+        "bytes": 13672,
+        "crc32": "c77d0e4a",
+        "final_mode": "0444",
+        "path": "rawcell0-gauge-correction/result.json.gz",
+        "sha256": "cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e",
+        "symlink": false
+      },
+      {
+        "bytes": 2460416,
+        "crc32": "9564d511",
+        "descriptor_role": "step_delta",
+        "final_mode": "0444",
+        "path": "rawcell0-gauge-correction/large-arrays/complete-original1372-gauge-produced-delta.f64le",
+        "sha256": "10ed4f19b2ea2acf2b3a218d2ce8ee6a575b1982c0fcda431c850a524903b128",
+        "symlink": false
+      },
+      {
+        "bytes": 3277376,
+        "crc32": "f6f49a0c",
+        "descriptor_role": "step_direction_checkpoint",
+        "final_mode": "0444",
+        "path": "rawcell0-gauge-correction/gauge-original-direction-checkpoint.json.gz",
+        "sha256": "680f838603ac3c6f08b99ed1845d373306dc170b8171be25f61d090934aa8f49",
+        "symlink": false
+      },
+      {
+        "bytes": 2458624,
+        "crc32": "906fd39a",
+        "descriptor_role": "original_bound_system_arrays.stage-residuals",
+        "final_mode": "0444",
+        "path": "rawcell0-gauge-correction/large-arrays/step-system-stage-residuals.f64le",
+        "sha256": "41c7e0bc65409c3dd27889abb0b464d4cdf8d6ec3cba01a04f96444a659befbc",
+        "symlink": false
+      },
+      {
+        "bytes": 10984,
+        "crc32": "03a8a965",
+        "descriptor_role": "original_bound_system_arrays.original-scales",
+        "final_mode": "0444",
+        "path": "rawcell0-gauge-correction/large-arrays/step-system-original-scales.f64le",
+        "sha256": "7b384c1a8e4354e9e0f8d416f11b387d8012bdba6547d6ab31a191b4592166e9",
+        "symlink": false
+      }
+    ],
+    "raw_direction_not_decoded_or_evaluated": true,
+    "selected_file_count": 5,
+    "selected_file_size_CRC_and_SHA256_verified": true,
+    "selected_result": {
+      "actual41_result_sha256": "6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf",
+      "best_iteration": 1,
+      "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+      "original_input_hashes_crosschecked_against_complete_checkpoint": true,
+      "original_scales": {
+        "bytes": 10984,
+        "file": "large-arrays/step-system-original-scales.f64le",
+        "sha256": "7b384c1a8e4354e9e0f8d416f11b387d8012bdba6547d6ab31a191b4592166e9",
+        "shape": [
+          1,
+          1373
+        ]
+      },
+      "original_stage_residuals": {
+        "bytes": 2458624,
+        "file": "large-arrays/step-system-stage-residuals.f64le",
+        "sha256": "41c7e0bc65409c3dd27889abb0b464d4cdf8d6ec3cba01a04f96444a659befbc",
+        "shape": [
+          1372,
+          224
+        ]
+      },
+      "path": "rawcell0-gauge-correction/result.json.gz",
+      "schema": "native-gauge-original1372-equilibrated-band-correction-v1",
+      "scientific_producer_source_sha256": "16fca40ec0ff21a119ce1563241692248005ec6587af000efb968c5158ad9a00",
+      "sha256": "cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e",
+      "step_delta": {
+        "bytes": 2460416,
+        "dtype": "<f8",
+        "file": "large-arrays/complete-original1372-gauge-produced-delta.f64le",
+        "order": "C",
+        "sha256": "10ed4f19b2ea2acf2b3a218d2ce8ee6a575b1982c0fcda431c850a524903b128",
+        "shape": [
+          1373,
+          224
+        ]
+      },
+      "step_direction_checkpoint": {
+        "bytes": 3277376,
+        "file": "gauge-original-direction-checkpoint.json.gz",
+        "sha256": "680f838603ac3c6f08b99ed1845d373306dc170b8171be25f61d090934aa8f49"
+      }
+    },
+    "total_extracted_bytes": 8221072,
+    "traversal_symlinks_special_files_duplicates_and_encryption_rejected": true,
+    "unselected_file_CRC_independently_checked": false,
+    "unselected_file_payloads_decompressed": false,
+    "unselected_file_payloads_written": false,
+    "zip_member_count": 85
+  },
+  "files_read_only_mode": "0444",
+  "fixed_result_member": "rawcell0-gauge-correction/result.json.gz",
+  "fixed_result_sha256": "cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e",
+  "independent_three_packet_selector_source_sha256": "bb2c08e1f617d9a8d834d4bb334fbd25885c13d6267fec6e1e94fe1fa1df4aee",
+  "output_directory": "/home/runner/work/_temp/stage47-original43-43630351235-1",
+  "pinned_input": {
+    "artifact_id": 14126695571,
+    "artifact_name": "visible-mainline-rawcell0gauge-43626121246-1",
+    "expected_sha256": "2fd2f07095dce463e7f57c473332a3cfc77cdd0cdaa2ad6e02d3b48f0c86b2f5",
+    "expected_size": 430132210,
+    "run_id": 43626121246,
+    "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342"
+  },
+  "public_artifact_metadata": {
+    "created_at": "2026-11-14T18:24:55Z",
+    "digest": "sha256:2fd2f07095dce463e7f57c473332a3cfc77cdd0cdaa2ad6e02d3b48f0c86b2f5",
+    "expired": false,
+    "expires_at": "2026-12-14T18:24:41Z",
+    "id": 14126695571,
+    "name": "visible-mainline-rawcell0gauge-43626121246-1",
+    "size_in_bytes": 430132210,
+    "updated_at": "2026-11-14T18:24:55Z",
+    "workflow_run": {
+      "head_branch": "main",
+      "head_repository_id": 1457408986,
+      "head_sha": "5c6f45fcac65d96f6b64c8d97f842efcd280f342",
+      "id": 43626121246,
+      "repository_id": 1457408986
+    }
+  },
+  "publication": "Exclusive mkdir; verified child renames; receipt moved last; read-only sealing after moves; not atomic as a whole directory",
+  "repository": "Rogerhu12/math-research-public",
+  "runner_temp": "/home/runner/work/_temp",
+  "schema": "pinned-actual43-original-direction-and-row519-inputs-fetch-v1",
+  "scientific_computation_performed": false,
+  "source_file": "exact_20261114_fetch_pinned_gauge_row519.py",
+  "source_sha256": "6498c160514520a3fbc64856d365e42af05a9ad51d88e6a46c149538d693699e",
+  "success": true,
+  "temporary_zip_removed": true,
+  "token_or_authorization_or_signed_URL_serialized": false,
+  "token_source": "GITHUB_TOKEN environment only",
+  "whole_directory_publication_atomic": false,
+  "zip_verified_before_extraction": true
+}
