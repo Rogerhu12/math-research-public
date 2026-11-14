@@ -339,3 +339,5 @@
 - 2026-11-14T19:18:31+08:00｜visible-exact-astra-0df9：同一实际完整双端正片保mean/cross/全部输入输出；低trial取0但全graph不删真反射，高contact常数与真实复角隔带付低输出，unitarity/adjoint给R_++I:H^s→H^(s+4/3)<2^5700 b_*^(4/3)，|s|≤1。只改证明费用，源和所有参数列保；全网络阈值仍待strict/root graph接合。新整数门在公开Actions首跑。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:19:04+08:00｜visible-exact-astra-0df9：保43588192611真实失败fa68d99a…及前5门；原flow被再次Arb包络后residual-row应包含flow，v2修正包含方向并用两个区间union，费用只增不减。原7721主体和两mean成功native、全部原源不改，只公开重消费范数。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:21:27+08:00｜visible-exact-astra-0df9：已读完整source和233件固定manifest；复用169 scalar及全M32/65态修复，闭格六阶Taylor与根准确g0/g1减项共同求Xi有限部，目标宽1e−3。仅同一root片补完整Arb jets，保所有拒绝格和前缀；δ=0、未先称真returnβ，不重算旧ray或scalar。 本条独立提交推送；继续原未完成项。

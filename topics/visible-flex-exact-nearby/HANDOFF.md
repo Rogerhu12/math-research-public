@@ -9,7 +9,7 @@ blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/
 先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：141805b6a22afd211379777e3534dcd2566f5f32；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：a216bb468dc546a3c3da1605327db0845d6a503c；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -62,3 +62,5 @@ newton_source：完整continuous regular Green、全high反馈与真qν−Z。ph
 完整正片R_++I已证H^s→H^(s+4/3)<2^5700 b_*^(4/3)，全mean/cross/高低/源保，positive-root-slope公开预算首跑。只改证明收费，不改实际profile；全网络还须strict/root graph。
 
 mean-norm v2已接公开workflow，manifest59a66681…/sourceec04c5ed…；正确检验residual再包络包含flow，范数用union增费，v1失败和全部成功原body/mean不变。实际新native待run，不授真响应误差。
+
+已接first-symbol-finite-part公开workflow，manifest17b36c19…/sourcec866d7d0…/driver6e99a21f…，233件固定/50源码/169scalar全复用，仅同一root新jets；求δ=0准确Xi有限部及宽1e−3，真returnβ/δ*转移/strong仍欠。
