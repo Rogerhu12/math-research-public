@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -112,6 +112,16 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/instrumentation.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-states-000.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/original-graphs-gains-000.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/result.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_0001.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_iteration.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_trace.jsonl
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_trials.jsonl
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/seed-binding.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/instrumentation.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/seeded-solve-spec.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/verified-launch-intent.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/original-live-identity-before-seed.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-step.json.gz
@@ -222,6 +232,19 @@ jobs:
             --candidate-directory "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3" \
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --out "$VISIBLE_OUT/native-actual23-seeded-full" --node-heap 6144
+      - name: Capture the complete original first native Newton model and correction
+        if: matrix.lane == 'nativecorrection'
+        timeout-minutes: 320
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_native_correction_capture.py" \
+            --failed-directory "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112" \
+            --cold-probe-summary "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json" \
+            --first-candidate-summary "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json" \
+            --v2-candidate-summary "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json" \
+            --candidate-directory "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3" \
+            --native-failure-directory "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" \
+            --out "$VISIBLE_OUT/native-correction-capture" --node-heap 6144
       - name: Continue the accepted 0.99 field with adaptive prediction steps
         if: matrix.lane == 'free3'
         timeout-minutes: 315

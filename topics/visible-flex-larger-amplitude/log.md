@@ -684,3 +684,7 @@ run43608931469/source2a251065/job132489481146全success，artifact14119626920 10
 ### 2026-11-14 request27：从actual26继续七query全角约束
 
 新增两薄入口f6598a5e…/d05df1fd…与接口全文读，原完整A/捕获B/投影/径向修复/同模型线段选择/17trial/全部原域/FD逐式调用冻结26源。新增query仅为26真实拒绝的472、481，14336完整行/11node/local3721；actual26 parent SHA、全部旧producer及同问题身份锁定，metadata保旧父树原样。新lane七query名单/Node跳过/准备恢复/唯一真实warm验证/新FD接齐，未本地执行科学计算。
+
+### 2026-11-14 request28：保全原首次native校正全部有限模型
+
+新launcher0b49f142…/hookb20aee4d…及接口全文读，原25绑定代码复用且硬锁；实际25新增10件原始失败输入逐SHA。同23完整候选原位恢复后，只读observer在冻结engine既有检查后插入原core，删插入逐字恢复；原withJac与correction运算不动，完整231211008B J按8stage块、原r/states/σ/far/target/delta/全部线性缺陷与max图矩阵保全，完成后唯一STOP在trial前，0trial且native_accepted=false。AST/Node和生成源码语法通过，无本地科学计算。独立lane与publisher名单接齐，large-arrays整目录仅Actions artifact，manifest/源/输入/哈希入Git。

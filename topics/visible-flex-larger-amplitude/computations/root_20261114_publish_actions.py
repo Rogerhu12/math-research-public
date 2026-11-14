@@ -28,7 +28,7 @@ def sha(path):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results', type=Path, required=True)
-    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection'), required=True)
+    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection'), required=True)
     a = p.parse_args()
     if os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public':
         raise RuntimeError('Results belong to the explicitly designated public repository')
@@ -56,6 +56,11 @@ def main():
         # intermediates. Keep their complete bytes in the uploaded Actions
         # artifact and their input/source/array hashes in the public manifest.
         domain_arrays = 'domain-operator' in within.parts and src.suffix == '.npz'
+        if 'large-arrays' in within.parts:
+            row['not_published'] = ('Complete reproducible native-model binary array retained in the Actions artifact. '
+                                    'The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA.')
+            rows.append(row)
+            continue
         if domain_arrays:
             row['not_published'] = ('Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. '
                                     'Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest.')
