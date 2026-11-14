@@ -463,3 +463,7 @@ root全文读新source19054B/CI13235B/flow7040B及I1–11合同7924B；亲读原
 ### 2026-11-14 22:43:09 UTC — 真实long屏蔽到完整Sobolev DN及帽端口独推
 
 正文16232B SHA f9ee747adc40b63bf3d9e31d9342831e9129ed2cdd2feeb6c6b9f13983e63ea9。root全文读N1–28，并亲读原D31a/b（ee26500e…23215B）、M10–19（fe1468fe…13207B）及S15–19/S28–31（fcce208a…14280B）：原全代数范围、真C_R逆、mean屏蔽与Cauchy域一致。核signed-lag双Schur、原awB两种列、全型Schur/Cayley/4comm与严格指数；不使用旧偶帽C(1)导数充全频。纯解析无本机数值；只读核5852d7d4400859e53dde789b4d63f200d0e0acce两README无变，继续两根/Γ/联合相位与closed网络。
+
+### 2026-11-14 22:45:09 UTC — 四格同F三角与完整源Gram actual独推
+
+root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整actual报告6627B SHA22227144…；核child0/15门、science183.475455358s、新native9a46d9fc…24778B和所有表格外舍入。亲读public artifact metadata：14135471378/9996896B，digest72bd4f1e3b8290eb5ea3017538326443d79a825fe450a2012ebeb3429741fae2，90day至2027-02-12；未读binary。五真pull至b13b2dc7cf689bc90dd61a06fde0f4a75ea5bee9，README实际diff全空。原artifact/repo process唯一追加出版checkpoint差有双份原收据，0旧F/target/validator/Green重算。只读核d019ffd0611dba66c419172b8e74ea7e2ba7402d，继续全覆盖与闭网络。

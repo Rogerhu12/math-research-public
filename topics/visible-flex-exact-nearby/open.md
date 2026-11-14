@@ -198,3 +198,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 真long屏蔽已接完整DN与固定帽曲率外口，继续联合五盒
 
 [N1–28](results/R119-supplement-actual-long-screening-complete-Sobolev-DN-and-cap-facing-port.md)保完整4Z未知高度、真实C_R→f*反馈、两height/flux mean及独立帽侧Z，得到同空间返回极小差；原粗N_L不冒O(X)。帽曲率meanB_R/meanC_R/Robin仍是输出，未从共同偶帽图偷转全4Z。tail继续真实新外负分量两根、strict段、两Γ及五盒相位，再与原内部开口/强源标签联立。
+
+### 四格同F方向Gram实际通过，扩展仅计算未完成格
+
+[实际报告](results/R133-supplement-actual-four-same-F-triangular-source-Grams.md)核43648579604 child0/15门及4新数组；0/76/3300/5969全帧、同F真inverse、三source/metric均成。直接复用这四sameF结果，后继只扩5966尚缺格。相邻shared Q及同R的两补帧换基可作为准确零长度三角事件，真实V dyadic误差仍另付接口impulse；不能把局部矩阵upper/迹当最终BVP响应。
