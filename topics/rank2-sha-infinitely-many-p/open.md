@@ -266,7 +266,8 @@ R579完整C^r差商/导数/卷积、下降阶乘所有节点及最高阶乘消�
 
 ### R582：原Norm2深补项、真实二态与五线算术余域
 
-[R582：原Norm2深补项、真实二态与五线算术余域](results/R582-original-normtwo-deep-complements-and-five-line-domain.md)：全12/84核心与168平方核支付同一qℓ的U/V整个深补项，所有深度保min(n,m)奇偶状态；原S2质量/正确−96六矩与全log首层均在原总行中，五线余域保所有混合cut，未给新态中央赋零。 **待做：** 原N+U5和四单深/−3Icd的真实全arith比较；U5的Rc像只换U+ω²V为U+ωV，可核六线交域和native udeep差支。新S2的t0边界不自动趋零，m1状态必须为1，首层K1系数−9λ4。
+整个U/V深二态、min(n,m)奇偶、Θ质量与−96六矩、全log首层及五线总行保[完整前检](notes/2026-11-14-open-before-r580.md)/正文。**待做：** 原N+U5和四单深/−3Icd真实比较；六线交域与Rc差支保L条件，m1必用状态1，t0边界不可删。
+
 
 ### R583：九格原积分共振吸收与真实惰性主包络
 
@@ -275,4 +276,9 @@ R579完整C^r差商/导数/卷积、下降阶乘所有节点及最高阶乘消�
 
 ### R584：任意固定原函数塔、全部Dirac jets与同格成本
 
-[R584：任意固定原函数塔、全部Dirac jets与同格成本](results/R584-arbitrary-fixed-primitive-towers-dirac-jets-and-full-lattice-budgets.md)：任意固定两塔正幂规整后真维9+6M，完整Taylor-Dirac正则化显示全部新增负矩；固定满秩系数核给维7+5M的无缺陷独立子格，仍非有界测度。两种同格全普通3klogD/全惰性3klogk已付，严格门与cutoff阈值保真实维数，不预支原算术控制。 **待做：** 把原完整算术条件接到某个预先固定长塔的实际Gaussian改善或全jet cutoff；每个新负矩/完整来源都须保，或使用已付固定无缺陷子格。九格已有控制不自动扩长；(0,3)对任何维数都还未过严格门，常数/坏集仅对各预先固定塔统一。
+任意固定塔真维N=9+6M、全部Dirac jets/新增I及固定无缺陷维7+5M子格、两种真实格全普通3klogD/惰性3klogk保[完整前检](notes/2026-11-14-open-before-r580.md)/正文。**待做：** 原完整算术到预选长塔的实际Gaussian改善或全层cutoff；(0,3)仍未过门，新格不可沿旧控制，坏集/常数仅各固定塔统一。
+
+
+### R580：同Gaussian次原函数塔的全Stokes单射与严格半径
+
+[R580：同Gaussian次原函数塔的全Stokes单射与严格半径](results/R580-same-charge-primitive-towers-and-unit-noncentral-stokes-matrix.md)：原七塔及任意固定长塔经整Euler基后，每共同移位有两条实际非中央Stokes单位行，不同移位在完整Tate商中谱分离；任意依p非零常数线性组合在真σ6参考后仍准确Gauss半径且闭边界非Tate。无Dirac子格同受限制，不排非线性格或原forcing。 **待做：** 真非线性多项式格、实际同来源饱和jet或原Dψ/同R d2；常数组合半径路线已排，不据非中央单位给原中央赋非零，也不从半径直接扣全flag成本。

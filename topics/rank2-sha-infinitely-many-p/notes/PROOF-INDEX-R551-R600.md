@@ -83,3 +83,6 @@
 
 
 - [R584：任意固定原函数塔、全部Dirac jets与同格成本](../results/R584-arbitrary-fixed-primitive-towers-dirac-jets-and-full-lattice-budgets.md)：任意固定两塔正幂规整后真维9+6M，完整Taylor-Dirac正则化显示全部新增负矩；固定满秩系数核给维7+5M的无缺陷独立子格，仍非有界测度。两种同格全普通3klogD/全惰性3klogk已付，严格门与cutoff阈值保真实维数，不预支原算术控制。
+
+
+- [R580：同Gaussian次原函数塔的全Stokes单射与严格半径](../results/R580-same-charge-primitive-towers-and-unit-noncentral-stokes-matrix.md)：原七塔及任意固定长塔经整Euler基后，每共同移位有两条实际非中央Stokes单位行，不同移位在完整Tate商中谱分离；任意依p非零常数线性组合在真σ6参考后仍准确Gauss半径且闭边界非Tate。无Dirac子格同受限制，不排非线性格或原forcing。

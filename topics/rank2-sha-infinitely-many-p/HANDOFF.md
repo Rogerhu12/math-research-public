@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6c33187890da7c75c3b17c2fe12c338debc6c8b7；2026-11-14 20:38:48 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：ab9a70f0ce98c0017ef672e65ab96c4d868cc9c9；2026-11-14 20:44:44 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；19:48:33 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟20:48重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,14 +14,14 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–579、R581–584已登记；R364仍开，R561/580/585/586/587进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r584.md)、[open](notes/2026-11-14-open-before-r584.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–584已登记；R364仍开，R561/585/586/587/588进行中。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r580.md)、[open](notes/2026-11-14-open-before-r580.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
 - theta续R585真实五线域与Rc/native补支的同测试比较；R582完整U/V深二态及五线总行已付。
 - literature续R586实际同charge forcing/首共振与原算术；R583已将九格惰性包络实降(0,3)，普通全格R579已付。
-- deep续R580实际全双jet forcing/d2及七塔惰性连接；R577/578真整临界基准/全低边界消元已付，R561实际非零仍开。
+- deep续R588原Dψ特定forcing/真全左行及同R d2；R580已排任意固定塔常数线性wild半径改善，R561实际非零仍开。
 - root续R587真实长塔与原算术/强制非整比较；R584任意固定塔/全Dirac jets/无缺陷子格及全部成本已付，不预支算术桥。
 
 ## 完成标准及旧支线
@@ -42,7 +42,7 @@ R490–558旧五伴随/词格/四态/角型/外谱、三环带及全部未付补
 ## 原全条带与当前首行
 
 D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1是u反射，R1µ0=µ0+ηC。
-R560–572全部整框架/whole核心、三态/两条带、五sigma消元与原测试比较保[完整前检](notes/2026-11-14-frontier-before-r584.md)及各正文。R567原局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，C0/p+λ²C1含真实log质量；d20ab976纠正保持，局部非零不排中央同时零。R569卷积单位/四unit G与qℓ尚非同一测试；条件总质量零不使测度零。R572完整C来源ΛB/ΛP、简单极点单位及g5提取只对指定(c,v)测试，所有混Y/W和q carry保留。
+R560–572全部整框架/whole核心、三态/两条带、五sigma消元与原测试比较保[完整前检](notes/2026-11-14-frontier-before-r580.md)及各正文。R567原局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，C0/p+λ²C1含真实log质量；d20ab976纠正保持，局部非零不排中央同时零。R569卷积单位/四unit G与qℓ尚非同一测试；条件总质量零不使测度零。R572完整C来源ΛB/ΛP、简单极点单位及g5提取只对指定(c,v)测试，所有混Y/W和q carry保留。
 
 R571整个cd深In,m=βnλ2m H(κ^min(n,m),κ^(m−n)+)/(bΩ6)，H=st²K1+s²t²O；K1=12(p−1)Ω²∫E*,A*unit P_D/A*ν4，完整cut/κ^-n不删。
 
@@ -68,7 +68,9 @@ R584任意固定R4=2+6m4、R1=5+6m1：全部Vℓr=z^(Rℓ−r)Uℓr与S/T真维N
 ## 惰性完整 forcing
 
 p=6s−1>83，Γ=O[w,ε]/(w^s−pε,ε³,w^ell ε²)；原M=c*U0m13J保P134/charge40、十三自由行/两13carry、conductor10980、22纯角/13清极及全部D/q/整性门。R479–555所有十九角、低行/高尾、预算及α/β接口完整保[前一交接](notes/2026-11-14-frontier-before-r570.md)，均未关闭。
-R552/555、一般二重/t除法、S³/H真子核尾带及完整六尾剪切保[完整前检](notes/2026-11-14-frontier-before-r584.md)和对应notes。ell≥3仅在真相对尾像吸收时首剪切成立；ell1/2保2/1真实Bcarry。低ell最近二支r≤ν≤2，T=s−13−r,U=ν−r∈{0,1}；H<2T−U给disc H−U、δ=floor((H−U)/2)+2U，U1保外支交数2。高接触不赋全局新列；原同R/d2与真实命中均开。固定三块平均收益门>3MDlogD，17/36/68非中央Stokes不相消不代中央。
+R552/555、一般二重/t除法、S³/H真子核尾带、完整六尾剪切与低ell最近二支保[完整前检](notes/2026-11-14-frontier-before-r580.md)及对应notes。全部实际命中/同R d2保持；固定三块平均门>3MDlogD，旧17/36/68非中央Stokes不相消不代中央。
 
 
-R577/578：低ell1/2、Pbar∈kerJ、r=ν≤2的同预算Euler临界真整提升及全部JA三法向jet已付。首forcing=(πA/p,π(aBξ+S A),aπell S(Bη0))。用原n0/1/2列整消低r边界，核精确为W_D^(r)加r2时≤4条Qn、ell1时再Qquad；不只计维数。完整首forcing iff余下两条长度s−13−r的G_P落同一Dψ像。固定Rbd只由carry α/β给出；所有解临界支pp(v)=pp(α/(aB))、次临界值pp=−½pp(α²/(a²B))，不代d2非零。R577完整p³的二次高尾、同一个R/26carry/原U0全保；r1ν2外支不套用。
+R577/578低ell1/2、r=ν≤2真Euler临界整提升及原JA三jet保正文/前检。首forcing=(πA/p,π(aBξ+S A),aπell S(Bη0))；原n0/1/2列消低r边界，完整核为W_D^(r)加r2时≤4Qn、ell1再Qquad。全部首forcing iff特定G_P落同一两条短jet Dψ像；固定Rbd由carry α/β给出，所有解pp(v)=pp(α/(aB))、次值pp=−½pp(α²/(a²B))，都不代d2非零。同R/26carry/U0/全p³高尾及r1ν2外支全保。
+
+R580原七塔及任意固定长塔的完整Euler基整可逆；同Gaussian后(θ+ad z^(p+1)−j)K=G。共同j两实际非中央Stokes行模p矩阵[[1,1],[-4b/35,6b/35]]、det2b/7unit（不等长塔取两首阶为单位三角）；各j在形式/Tate商中为不同特征值。任何非零、可依p的常数线性组合在除真实σ6参考后仍准确半径S=p^-p/(p²−1)，闭S非Tate；无Dirac子格亦如此。全边界尾已付，不排一般多项式格或原Dψ/中央，不能由半径读未付Smith增益。
