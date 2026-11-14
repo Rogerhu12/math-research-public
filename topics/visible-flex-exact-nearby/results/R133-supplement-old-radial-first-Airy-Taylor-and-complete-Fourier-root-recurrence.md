@@ -15,6 +15,15 @@ Taylor 系数。它避免先反解角图再对两个坐标作粗二阶链估计�
 新根 Fourier 与 Taylor 消费尚须公开 Actions 实际执行；
 本篇不先授最终 strong 常数或 cutoff97。
 
+**2026-11-14 勘误，原档保留。** 首发文本
+(blob `ee5653668ea79d34240150d3a11dbeed99e92a8c`，
+SHA-256 `bb24538605604ad552f7afa635c508f0b361f8942d4ebd7ae65e8e59ea1d3fac`)
+在 (P.8) 把 leading 的 $B_-$ 同 principal 的 $B_+$ 混用。
+本版准确区分两者；$\mu=Q^2B_+$，而 $a_0=GB_-$ 保持不变。
+原首发提交与 blob 不改写。对应旧源码 `c09e578f5aaf58328a2ead431bc4795952855710ce65ea07787db7c6857cd0a6`
+尚未部署或执行，不能使用其错误的 $\mu$ 系数。
+文末勘误说明逐项列出改变范围；已成原绝对域门和高根输入不重算。
+
 ## 1. 固定真根和完整角代数
 
 保持原固定 $\eta_0$、原真根 $r_*$ 及整个允许复 $|\delta|\le10^{-8}$。
@@ -111,7 +120,8 @@ $$
 然后
 $$
  T=-\rho A^{2/3},\quad Q=aA^{-1/3},\quad
- B=X_\phi^2-TT_\phi^2,\quad \mu=Q^2B,
+ B_-=X_\phi^2-TT_\phi^2,\quad
+ B_+=X_\phi^2+TT_\phi^2,\quad \mu=Q^2B_+,
  \tag{P.8}
 $$
 $$
@@ -119,7 +129,7 @@ $$
  (E_G)_\rho=2\beta\langle S\rangle E_G,\quad E_G(0)=1,
 $$
 $$
- a_0^{\rm Airy}=GB,\qquad
+ a_0^{\rm Airy}=GB_-,\qquad
  b_0^{\rm Airy}=-2i\epsilon GX_\phi T_\phi,\qquad
  \epsilon\in\{-1,1\}.
  \tag{P.9}
@@ -368,3 +378,61 @@ $\sum_{j\in\mathbb Z}e^{-4|j|\Delta_\phi}$；
 两者没有被有限 Fourier 根递推提前清零。
 全1079个真实 seam、外侧 one-sided jets、正区七输入端口、
 finite head 与未知 high feedback 继续保持原独立合同。
+
+
+## 勘误的精确代数和影响范围
+
+令 $x=X_\phi,y=T_\phi$。由 (P.5)，在同一旧方向
+$D=-\partial_\rho-d\partial_\phi$ 下准确有
+$$
+ DT=Qx,\qquad DX=-QTy,\qquad \eta^2K=Q^2T .
+ \tag{P.C1}
+$$
+因此完整 principal 变换的二阶系数为
+$$
+ (DT)^2+\eta^2K\,y^2=Q^2(x^2+Ty^2)=\mu,
+$$
+$$
+ (DX)^2+\eta^2K\,x^2=T\mu,\qquad
+ (DT)(DX)+\eta^2Kxy=0.
+ \tag{P.C2}
+$$
+同时，旧径向 Jacobian 和 leading determinant 是
+$$
+ \mathcal J=-Q B_+,\qquad
+ \det M_0=a_0^2-Tb_0^2=G^2B_+^2 .
+ \tag{P.C3}
+$$
+而 $a_0=G(x^2-Ty^2)$、$b_0=-2i\epsilon Gxy$ 确实使用
+$B_-$。若
+$H=\left(\begin{smallmatrix}i\epsilon x&Ty\\y&i\epsilon x\end{smallmatrix}\right)$，
+则 $\det H=-B_+$、$w_0=-GH^2e_1$，
+原 $H^{-1}H_D=-i\epsilon Q
+\left(\begin{smallmatrix}0&T\\1&0\end{smallmatrix}\right)$ 不变。
+
+新精确 Taylor source 必须分别保存 $B_-$ 与 $B_+$，只用
+$B_+$ 构造 $\mu$ 及其完整 series inverse。
+改变因此传至 (P.13) 的全部 $\mu^{-1}$ 强迫系数、
+归一化强迫、同一 first-correction 的 transport 与重构、
+其 norm 及局部 $\mathcal L_0w_1$ 输出。
+这些新科学阶段此前没有成功或失败运行，故不涉及重算已成阶段。
+原 $T,X,A,Q,G$、leading 两列、$M_0^{-1}$ 公式、
+(P.15)--(P.20) 的准确递推形式和完整支持结论不变。
+$\epsilon$ 的准确代数对称也不变，因为 $B_+$ 同样与
+$\epsilon$ 无关。
+
+原已完成绝对 budget 的共同 gap 是
+$$
+ |x^2\pm Ty^2|
+ \ge1-2|x-1|-|x-1|^2-|T||y|^2 .
+ \tag{P.C4}
+$$
+同一有向下界合法控制正确的 $B_+$。
+原 Jacobian 下界使用 $|Q|$ 乘该 gap，原 principal 下界使用
+$|Q|^2$ 乘该 gap。leading 的两分支下界
+$|x\pm i\epsilon\sqrt T\,y|
+\ge1-|x-1|-\sqrt{|T|}|y|$ 也逐字不变。
+因此那些原 full-complex fold、leading、first-forcing **绝对上界**
+以及已成高 intrinsic jets 的 native 保持原字节和原已证范围。
+这里不是以绝对余量掩盖精确符号错误：新精确系数已经明确改为
+(P.C1)--(P.C3)，旧未运行的错误 source 不作为数值依据。

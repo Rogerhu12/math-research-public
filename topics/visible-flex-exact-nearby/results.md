@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **旧ρ精确principal符号勘误**：P.C1–4由DT=QXφ、DX=−QT Tφ逐式得μ=Q²(Xφ²+TTφ²)、J=−QB+、detM0=G²B+²；leading a0仍GB−。首发原blob/commit保留，新精确未执行source已更正；原绝对gap同时控制±，不重算已成fold/forcing预算。见 [P1–25及完整勘误](results/R133-supplement-old-radial-first-Airy-Taylor-and-complete-Fourier-root-recurrence.md)。
+
 - **负侧旧均值压缩actual十门完成**：run43652283078 child0，新2765条负侧均值/积分、1612原行不作新数学复制，全部4377闭行保；原八其他项/独立even mean/positive行、权、profiles、tensors逐字复用。R=.001完整负源上界只小幅收紧，RQ·J(gd)仍占主要粗费用，w1/fullstrong/cutoff未授。见 [实际负mean报告](results/R133-supplement-actual-negative-old-mean-compression-from-completed-sources.md)。
 
 - **完整复分支代数及Taylor Wiener尾**：同一复δ不共轭，准确a1负分支反号、b1同号，可完整保两真实Airy分支而只算一次新finite algebra。C1–12给全signed Fourier和L0..L3、原root bracket覆盖和旧product inclusion待核门；保mean/全部高输入，不能把sup当同宽Wiener。见 [双分支与完整角尾](results/R133-supplement-full-complex-branch-symmetry-and-old-Taylor-Wiener-tail.md)。

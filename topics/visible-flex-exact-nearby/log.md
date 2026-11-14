@@ -527,3 +527,7 @@ C1–12（SHA48940b32…）独立推。根逐式核与P递推一致：背景/fol
 ## 2026-11-14 23:26:44 UTC — negative old mean actual十门
 
 公开43652283078数学child0/19.009930087s，native183850c3…4132195B、processc59c735a…27605B、workera8e9b061…2321B，10门全过。只新2765负mean及对应积分；1612原行复制，全4377原闭行及各mean/正侧/sourcewindow/真实seams保，所有旧target/matrix/jets/tensors/profiles/weights八其他项0重算。六case完整球在actual报告SHA671beb98…；改进小，不把数值upper作lower。root核真实pull23:15:43/23:16:03 dc995ef46692ab152d5a825db858d41eb258e5d0，两README实际diff空，HANDOFF更新；只读核df7e2ec366637e2f6d2ca098bdae1dd723df5a05未变。继续oldρ Taylor全w1与source/强返回。
+
+## 2026-11-14 23:32:21 UTC — oldρ principal μ精确符号勘误
+
+phase自审、root及tail逐式核：DT=QXφ、DX=−QT Tφ、η²K=Q²T ⇒ μ=Q²B+、mixed0、XX=Tμ；a0=GB−/b0不变，J=−QB+、detM0=G²B+²。P同路径更正SHAb816799e…，首发ee565/bb245与commit全保；未执行c09e不可用。root直接读原anchor source gap与mu/jac构造，确为共同绝对下界，故旧数值native保原范围不重算。后续完整forcing/transport/Taylor必须用新e4ccbf4…科学源。H9778B归档后压缩，原细节无丢。前次negative actual经历21次lease轮，20次立即CLIpull尝试均因环境unavailable，最后0564a457成功；未force、远端检查点全保。39e7adab63d2e7c8729de8c4769811eb73a40f1d两README只读核未变。
