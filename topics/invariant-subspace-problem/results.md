@@ -771,3 +771,7 @@
 ### R150 附录：保无穷远的最大子式次数提升及有限覆盖准则
 
 [完整证明](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)给原M5自然二元齐次化，primitive最大子式gcd模好素数后总次数不减；原已闭纤维秩强迫K_h=s^14 t^14(s−2t)^9(s+6t)^9(F+F−E8)_h²的74次下因子。若有限个真实4354阶齐次子式的模31 gcd总次数恰74，即可夹逼全部特征零坏点仅在已闭集合，并由cofactor+Bézout构造真实原三次乘子证书、有限图表分母K(s)度60。该gcd条件尚未计算；本条是准确提升准则，不是有限Σ已清空。
+
+### R150 附录：十一条额外N来源与2195行精确多项式模
+
+[完整证明](results/R150-appendix-eleven-extra-n-sources-and-exact-polynomial-module-compression.md)在原F31[s]上证明全部4004条N行恰由3333常预基和指定十一条N10原行生成。四次55个syzygy全为Koszul，五次线性Koszul605维独立，余商恰11维；源4精确独立只用来选常数商基，恢复全Fi后所有系数仍属F31[s]，没有参数除数。预商因此只需这11行与2184条完整Γ来源，成为1034×2195；保存原编号/profile。其他特征只保来源合法，未宣称同样最小Ann。

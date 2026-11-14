@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `285032a2340c9469bcea74775e1972ee12d245f5`（2026-11-14 10:22:38 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `0248503b6f167c3fa96dd4fd2e56353b5bcf03b3`（2026-11-14 10:24:26 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧丢失R272正常预对偶与R273完整MP已重建并推送。
@@ -41,7 +41,7 @@
 
 ## 3. R150 与其他主接口
 
-R150：全部rankAy8已闭，余g≠0、rankAy9有限Σ。[执行计划/旧失败](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原17式及char0 I*C=T/实际分母判据；原char0失联原因未知，32003恢复明确12GiB内存失败，均无证书。[结构降阶](results/R150-appendix-graded-constant-pivots-and-finite-parameter-module-certificate.md)现付3333常单位枢轴全复参数可逆、1034剩余分量及4191所选路线到1997×176（rank163），分母次数≤4290仅限该路线。[原生预基](results/R150-appendix-native-constant-prebasis-and-original-module-reduction.md)现完成原F31[s]全部3333行、保原行DAG，6.039秒；Singular完整加载成功。有限K[s]模保6188行/九横向平方与两步回代，1034余模未算完；本次明确请求31/native-f31/annihilator、1800秒/4096MiB，本库运行[43583257344](https://github.com/Rogerhu12/math-research-public/actions/runs/43583257344)已启动，源934582f3，不重复旧大GB。射影gcd准则保∞：已付74次K_h下因子，若有限真实最大子式族模31齐次gcd次数=74，即得char0全覆盖/原分母；该条件未计算。
+R150：全部rankAy8已闭，余g≠0、rankAy9有限Σ。[执行计划/旧失败](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原17式及char0 I*C=T/实际分母判据；原char0失联原因未知，32003恢复明确12GiB内存失败，均无证书。[结构降阶](results/R150-appendix-graded-constant-pivots-and-finite-parameter-module-certificate.md)现付3333常单位枢轴全复参数可逆、1034剩余分量及4191所选路线到1997×176（rank163），分母次数≤4290仅限该路线。[原生预基](results/R150-appendix-native-constant-prebasis-and-original-module-reduction.md)现完成原F31[s]全部3333行、保原行DAG，6.039秒；Singular完整加载成功。有限K[s]模保6188行/九横向平方与两步回代，F31[s]全N已证明=3333预基+11原行，预商只需2195来源且无参数分母；1034余模未算完；本次明确请求31/native-f31/annihilator、1800秒/4096MiB，本库运行[43583257344](https://github.com/Rogerhu12/math-research-public/actions/runs/43583257344)已启动，源934582f3，不重复旧大GB。射影gcd准则保∞：已付74次K_h下因子，若有限真实最大子式族模31齐次gcd次数=74，即得char0全覆盖/原分母；该条件未计算。
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。
 

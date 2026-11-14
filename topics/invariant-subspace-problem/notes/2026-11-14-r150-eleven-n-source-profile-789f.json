@@ -1,0 +1,106 @@
+{
+  "field": 31,
+  "source": 4,
+  "normalPrebasisRows": 3333,
+  "extraRows": [
+    {
+      "generator": 10,
+      "multiplierKey": 2147745792,
+      "pivotKey": 4,
+      "originalRow": 5842
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 270532608,
+      "pivotKey": 11,
+      "originalRow": 5978
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 1210056704,
+      "pivotKey": 67,
+      "originalRow": 5995
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 2149580800,
+      "pivotKey": 515,
+      "originalRow": 6012
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 285212672,
+      "pivotKey": 1073741827,
+      "originalRow": 6080
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 1224736768,
+      "pivotKey": 18,
+      "originalRow": 6097
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 2164260864,
+      "pivotKey": 74,
+      "originalRow": 6114
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 402653184,
+      "pivotKey": 522,
+      "originalRow": 6131
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 1342177280,
+      "pivotKey": 1073741834,
+      "originalRow": 6148
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 2281701376,
+      "pivotKey": 130,
+      "originalRow": 6165
+    },
+    {
+      "generator": 10,
+      "multiplierKey": 3221225472,
+      "pivotKey": 578,
+      "originalRow": 6182
+    }
+  ],
+  "extraPivotDegree": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "extraInputDegree": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "homogeneousProfileSHA256": "d5c1a753a3869a702a84d723a4fb7b68c778e19e2fc7d0a4e4b55fe95327a0b9",
+  "fullNProfileSHA256": "bc8a9f4692e52e1bd1d7dfb39392fb5d80a689ec50f2bf6c313ae8f5d161c1a6",
+  "fullNModularRank": 3344,
+  "fullNHomogeneousModularRank": 3333,
+  "retainedGammaRows": 2184,
+  "reducedSourceRows": 2195,
+  "scope": "Exact polynomial-module generator reduction only over F31[s]; no equality over Q[s] asserted."
+}
