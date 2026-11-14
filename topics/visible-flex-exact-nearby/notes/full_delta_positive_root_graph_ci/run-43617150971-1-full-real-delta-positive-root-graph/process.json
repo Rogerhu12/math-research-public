@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_full_real_delta_positive_root_graph_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43617150971",
   "run_attempt": "1",
@@ -54,6 +54,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:44:18.801172+00:00",
+      "before": "f7aad18fb1d9690727bc9f4b56eac762fa09c924",
+      "after": "ada07519b8addf6a07ac45ab12fd2f15b86f7657",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -61,6 +69,11 @@
       "time": "2026-11-14T16:44:11.574263+00:00",
       "final": false,
       "commit": "f7aad18fb1d9690727bc9f4b56eac762fa09c924"
+    },
+    {
+      "time": "2026-11-14T16:44:18.462421+00:00",
+      "final": false,
+      "commit": "ada07519b8addf6a07ac45ab12fd2f15b86f7657"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -93,21 +106,49 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "f7aad18fb1d9690727bc9f4b56eac762fa09c924",
+  "last_read_commit": "ada07519b8addf6a07ac45ab12fd2f15b86f7657",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-delta-positive-root-graph-work/science",
   "actual_original_small_input_sha256": {
     "collar-process": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae",
     "body-process": "1a0be497981ed6e5f47546892c390fec5820b02671ff9eb83a37af47b26ca395",
     "body-summary": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9"
   },
-  "snapshot_utc": "2026-11-14T16:44:16.982723+00:00",
-  "wall_seconds": 8.122955806000007,
+  "snapshot_utc": "2026-11-14T16:44:18.810850+00:00",
+  "wall_seconds": 9.951082907,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-interface-outcome.json",
+      "file": "evidence/actual-latest-interface-outcome.json",
+      "bytes": 1339,
+      "sha256": "b35499c54eb7a74eebb1d3fc70bdfe9efd6be2b00c210ddcdbd682436e13fa7e"
+    },
+    {
+      "logical_file": "evidence/full-real-delta-positive-root-high-graph-summary.json",
+      "file": "evidence/full-real-delta-positive-root-high-graph-summary.json",
+      "bytes": 27047,
+      "sha256": "410e8f07545c862425673a2c0cc37eebfc6f950217167f2b72c44d5a7b5676e7"
+    },
     {
       "logical_file": "native/full-real-delta-positive-root-high-graph.json.gz",
       "file": "native/full-real-delta-positive-root-high-graph.json.gz",
       "bytes": 3722,
       "sha256": "4e128cf91ce4e136d8574575704f1ebabf925953039eeb9219b00113436be2e9"
     }
-  ]
+  ],
+  "complete_native_sha256": "4e128cf91ce4e136d8574575704f1ebabf925953039eeb9219b00113436be2e9",
+  "actual_scientific_gates": 10,
+  "actual_complete_source_columns": 7,
+  "interface_loop_upper": {
+    "ball": "[0.00058120262810287136092674661874738401878087402826691625707391522831307605864218358 +/- 2.04e-84]",
+    "lower": "[0.00058120262810287136092674661874738401878087402826691625707391522831307605864218358 +/- 2.04e-84]",
+    "upper": "[0.00058120262810287136092674661874738401878087402826691625707391522831307605864218358 +/- 2.04e-84]"
+  },
+  "root_reflection_upper": {
+    "ball": "[0.43807289630853774577426504859769614948071176387201049025878559371943970131552961 +/- 2.82e-81]",
+    "lower": "[0.43807289630853774577426504859769614948071176387201049025878559371943970131552961 +/- 2.82e-81]",
+    "upper": "[0.43807289630853774577426504859769614948071176387201049025878559371943970131552961 +/- 2.82e-81]"
+  },
+  "given_complete_head_positive_high_inverse_and_root_graph_proved": true,
+  "nonzero_delta_M96_family_proved": true,
+  "finished_utc": "2026-11-14T16:44:18.466332+00:00"
 }
