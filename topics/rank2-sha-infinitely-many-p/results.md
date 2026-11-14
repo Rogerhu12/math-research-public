@@ -340,3 +340,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [新sigma与Lubin–Tate文献入口及已读范围](notes/2026-11-14-deep-new-sigma-and-lubin-tate-literature-entry.md)：保存2026新稿与官方讲座入口；未取全文的结果不作原中央或forcing输入。已读LT精确系数赋值的坐标与对象边界完整记录。
 
 完整证明导航及各条适用范围移至[补充证明索引](notes/PROOF-INDEX.md)，原条目和链接完整保留。
+
+- [R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。

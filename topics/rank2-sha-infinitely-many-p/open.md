@@ -197,3 +197,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### 新文献的准确适用范围
 
 [Bertrand与2026年11月新稿核对](notes/2026-11-14-deep-bertrand-and-new-rank-two-heegner-hypotheses.md)记录单点高度非零与rank2行列式的量词差别，以及2611.09192的Sha有限/c2非零前提。**待做：** 原完整中央非零或R418全量词饱和jet改善；不从这些条件身份填补缺项。
+
+### R566：两个完整native补域回原五观察
+
+[R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。 **待做：** 对14X−E两互补域内的同一真实P·log行继续原算术比较；二者各自βn比例不付非零或分别零。三态已准确消去，原Y/W、所有伴随cut、七条件源及质量校正不得省略。

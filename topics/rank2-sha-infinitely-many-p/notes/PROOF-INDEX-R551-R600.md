@@ -32,3 +32,5 @@
 - [R563：原S24完整三态与native双unit两互补行](../results/R563-original-s24-three-state-and-native-unit-complement.md)：wholeK24²=I付μ0/μ+/μ−饱和三态，H/K及D12偶深矩形、全连续整单位逆完整成立。真实Cunit使双缩小交叉项为零，同一native行在H/K双unit内精确分成D12unit的UKf与D12deep的UHf；全部浅环带、深尾及常数log质量保留，K侧尾准确p^r并列出首项，不把新态认旧gluing。
 
 - [R564：原负条带的三正交全核与实际四伴随返回](../results/R564-original-negative-strip-orthogonal-cores-and-complete-return.md)：原D14、另一V14和K42为同格正交三轴，当前射线的whole中心/Theta锚及全部C共轭支付三个β核。原负strip恰Vdeep/K42unit，完整返回保原E/G/Y/W移动；给全六次多项式、常数log质量、实际线性项及p²尾，正strip及同阶相消仍开。
+
+- [R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。
