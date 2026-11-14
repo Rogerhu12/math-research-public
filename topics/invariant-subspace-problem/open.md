@@ -103,7 +103,7 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R297弱位归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保完整跨出生/a⁻¹抵消，全部正权/出生/高度加强κ⇔奇数硬端首边同κ。真费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；两个未投影提升真五位发散而投影费<1/3。不能删压缩逆、桥平方或投影；非严格极限不代有限权界。全部证明见[索引](results.md)和[此前全文](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
-[R297 Green–Ward附录](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)现保真顶输入T与TT*=完整硬端费，并把同源差写成−εp J_q*Cinv_11/3；两侧源度量和整个补空间的逆均不可删。完整Green恒等式已付，统一共同正块预算仍开。
+[R297 Green–Ward附录](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)现保真顶输入T与TT*=完整硬端费，并把同源差写成−εp J_q*Cinv_11/3；两侧源度量和整个补空间的逆均不可删。完整Green恒等式已付；[真实primitive非实极点](notes/2026-11-14-full-complement-green-nonreal-shift-poles-789f-next.md)排共同平方权平移的Stieltjes捷径，统一共同正块预算仍开。
 
 [R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已证明M5/r2整个五维源加强费用≤743/782，严格缺陷≥(39/782)C1²。完整真实迹的−9L3⁻¹L1³项保留，十九次整数N/D的79个对称轨道给743D−782N全系数非负且非零；不是旧分组普通序或指定S3不变线。一般更大奇数硬端统一κ仍开，也未支付原graph。
 

@@ -7,7 +7,8 @@
 - **最近成功实际 pull 与已读规则提交：** `09ccab49e349b5b96c6b048ecb2fe66b2a2aab54`（2026-11-14 12:31:44 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
-- **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留；公开库Git元数据因共享盘满移至`/dev/shm/isp-789f-math-research-public-git`，原`.git`指针可正常工作。
+- **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留；公开库Git元数据因共享盘满移至`/dev/shm/isp-789f-math-research-public-git`，原`.git`保指针；环境于12:35 UTC断连不可用，未推Green已由API恢复，原17式回代未执行。
+- **API规则核对：** `93dd5bc98ab1bb38971a0c1c3130eaaa0402293a`（2026-11-14 12:42:29 UTC，两README无差异；此项不是git pull）。
 - **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-source-graph-ci-789f.md)与[open归档](notes/2026-11-14-open-before-finite-pencil-789f.md)保完整范围；未列接口不算关闭。
 
 ## 模型、主缺口与所有旧范围
@@ -30,8 +31,8 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 - [R298全独立五权](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)整个K2费≤743/782，缺陷≥39/782；79完整对称整数轨道，保真实负项。原birth1全height已由R295付统一κ1024；R292/293分组/单异常范围保此前H，不外推一般权。
 - [R300七位三弱位](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)：任意固定旧4正权/弱3内部权，全14维极限≤743/782；充分小ε时全源≤1525/1564<1，阈值不宣称全权一致。
 - [R300任意临界池三弱位](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)：旧2s位加3弱位，完整上源(U⊗K1w)⊕(V⊗W2)⊕(W⊗W3)，倒数低源X=kerA⁴|O_s、Y=kerA²|O_(s−1)。真正范数极限是diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大。q=3旧h6项、整个cokernel Schur和所有交叉已付；非严格极限不代有限ε同界。
-- 同稿给真实联合列M_t=J2 C2G1−J3 L3⁻¹δ*G1，M_t*M_t=旧首加强费，且M_tf=P_kerd⁴[(d*)²F_t⁻¹f/2+(d*)³F_(t−1)⁻¹dF_t⁻¹f/6]。加权不交容斥与Aq_j=−j(j+1)q_(j+1)付共同抵消。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现给全硬费≤κ当且仅当Pκ(t)=P0+tP1+t²diag(0,L,0)正，保两个源度量。P0恰旧首加强缺陷；实际旧四权(r,r⁻¹,1,1)使P1正所需κ≳r²/4，任何固定κ的逐系数法均失败。继续联合半线平方，负系数不是完整硬费反例。
-- [R297 Green–Ward](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)：真顶输入T:V_a→U、TT*=硬费，T=(4PHR*−G1PKR*)/6。固定无权源配对Tform=−εp J_q*Cinv_11/3，Cinv为整个补空间逆，上下源度量A−/J+均保；统一正预算仍开。
+- 同稿给实际联合列M_t及两相邻首边费用的等距表示，容斥/核旗保共同抵消。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现给全硬费≤κ当且仅当Pκ(t)=P0+tP1+t²diag(0,L,0)正，保两个源度量。P0恰旧首加强缺陷；实际旧四权(r,r⁻¹,1,1)使P1正所需κ≳r²/4，任何固定κ的逐系数法均失败。继续联合半线平方，负系数不是完整硬费反例。
+- [R297 Green–Ward](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)：真顶输入T:V_a→U、TT*=硬费，T=(4PHR*−G1PKR*)/6。固定无权源配对Tform=−εp J_q*Cinv_11/3，Cinv为整个补空间逆，上下源度量A−/J+均保；统一正预算仍开。[真实Green非实极点](notes/2026-11-14-full-complement-green-nonreal-shift-poles-789f-next.md)以五位完整补空间/primitive二次型排共同平方权平移的Stieltjes捷径，不反S1/Pick核。
 - R299逐位内函数给同物理Pick Gram/全birth能量，真三阶dual塔非实根排标量Newton捷径；不免费插L1。R296完整低阶回归、共同Z/两带/负拟合二阶差及出生二ridge已付，混合二阶预算仍开。原graph未由这些有限模型关闭。
 
 ## 2. R150 原参数模与准确检查点
@@ -41,15 +42,15 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 - 完整原生NF已付2195来源/9目标、1034分量/最高45次，原来源DAG全保；完整GB给1021基、最高8次/总716，全部torsion NF≤7、状态维820；证明/入口全链保前H。
 - [全挠空间](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)2.084秒得观测秩505、W维315、CW=0/AW=WJ和九目标坐标；压缩状态/来源在notes。charpoly315/minpoly190，另五个不可约因子共60次支撑且各平方；只是模31，E8与旧点碰撞，不是复参数异常点。
 - [九目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)共同最小Ann h31=s³(s−2)²(s−1)P+²P−²E6度24；j4/10少(s−1)度23。额外五因子与s+6均不进入任何目标。候选h0=s³(s−2)F+²F−²E8仅待char0证明。
-- [完整基系数](results/R150-appendix-explicit-degree49-target-basis-coefficients-and-source-replay-bound.md)已核全部1034分量GQ=h31T，Q最高49次/342321非零系数，压缩完整保存。原源无相消上界26265不是实际次数；[实际反向前缀](notes/2026-11-14-r150-actual-reverse-prefix-checkpoint-789f.md)已完成976/2195来源、实际来源次数1018/中间2862，52.055秒保存checkpoint，未全展开，停止续跑该配置，转低次数直接lift。
+- 完整GQ已核全部1034分量GQ=h31T，Q最高49次/342321非零系数，压缩完整保存。原源无相消上界26265不是实际次数；[实际反向前缀](notes/2026-11-14-r150-actual-reverse-prefix-checkpoint-789f.md)已完成976/2195来源、实际来源次数1018/中间2862，52.055秒保存checkpoint，未全展开，停止续跑该配置，转低次数直接lift。
 - [移位来源图](notes/2026-11-14-r150-shifted-graph-low-degree-lift-789f.md)给2195原图列的六组移位弱Popov与严格低次数条件：若全量1021输出主元/1174真零关系成立，则九目标原源系数≤114−δ、主体≤69，接常预基≤104。唯一50.386秒前缀672列、81来源主元全输出零；尚未全量，本次新workflow/request已接自动九目标lift，唯一图阶段1800/1740秒、4GiB，后处理另60秒；只认全量精确判据。
-- [特征零线性块](results/R150-appendix-exact-characteristic-zero-linear-divisor-and-minimal-inverse.md)精确Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46；单位双核补给全部9阶gcd及横向逆最小分母，h0是其真因子。非线性项/Γ不可删，不能由一次线性逆免费得到24次预算。
-- [∞一阶图](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)保原全部6188来源，常数秩4340/连接秩4，模31∞除子阶≥24、齐次总度≥339。不给char0厚度或未算高阶上界；原74次条件准则在31不触发。整个除子与目标Ann分开。
-- **运行与恢复：** 旧CI43588728414 exit124于BEGIN_BASIS，真实输出已存。新[来源图请求](notes/2026-11-14-r150-shifted-graph-ci-request-789f.json)待本次push启动；输入NF/原数据/映射哈希固定，成功也不替常预基回代或char0。原生完整结果另付，不重跑旧std。大NF/GB/DAG在/tmp/r150-native-nf-all-789f、/tmp/r150-native-gb-full-789f；全状态及Q有仓库压缩副本。反向前缀在/tmp/r150-reverse-actual-prefix-789f。
+- 特征零线性块精确Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46；单位双核补给全部9阶gcd及横向逆最小分母，h0是其真因子。非线性项/Γ不可删，不能由一次线性逆免费得到24次预算。
+- 原∞一阶图保原全部6188来源，常数秩4340/连接秩4，模31∞除子阶≥24、齐次总度≥339。不给char0厚度或未算高阶上界；原74次条件准则在31不触发。整个除子与目标Ann分开。
+- **运行与恢复：** 旧CI43588728414 exit124于BEGIN_BASIS，真实输出已存。新CI43595280823已445.652秒完成2195图列、1021输出主元/最高8次；1174来源主元中202输出非零，strict gate失败、目标未运行。小回执在notes/r150-shifted-graph-actions-789f/43595280823-1；图基56.6MB未上传，保哈希/重建入口。原生完整结果另付，不重跑旧std。大NF/GB/DAG在/tmp/r150-native-nf-all-789f、/tmp/r150-native-gb-full-789f；全状态及Q有仓库压缩副本。反向前缀在/tmp/r150-reverse-actual-prefix-789f。
 
 ## 持续执行
 
-boundary_core继续有限a共同缺陷；normal_annihilator转有次数约束的原来源/char0提升；literature_audit继续实际正Schur预算与定向原文核对。根独占追踪/git，结论逐条立即推。所有旧接口、失败范围与完整链接按前H/open保存，普通ISP完成标准不变，不以阶段稿收尾。
+boundary_core继续有限a联合SOS；normal_annihilator处理全图后的真实目标系数；literature_audit核新取得原文。根独占追踪/git，结论逐条立即推。所有旧接口、失败范围与完整链接按前H/open保存，普通ISP完成标准不变，不以阶段稿收尾。
 
 ## 计算同步
 
