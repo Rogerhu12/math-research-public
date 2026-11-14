@@ -168,7 +168,18 @@ def main():
  eta_audit_source=args.source_dir/'verify_selected_SS_F2_all_unit_fractions47.py'
  es=importlib.util.spec_from_file_location('saved_exact_eta_fraction_audit',eta_audit_source);eh=importlib.util.module_from_spec(es);es.loader.exec_module(eh)
  eta_audit=eh.audit_eta_B_fraction(args,poly)
- fixed_audit=eh.audit_fractions(args,center,poly)
+ # Augment only the pole-support metadata from its already bound true source.
+ # The original numerator, denominator, center value and all other data remain.
+ import copy
+ center_for_fraction_audit=copy.deepcopy(center)
+ if 'T3C' in poly.get('fixed_connection_fraction_replacements',{}):
+  edge('polynomial','t3_support')
+  rec=poly['fixed_connection_fraction_replacements']['T3C']
+  assert rec['T3_support_sha256']==sha(args.t3_support)
+  actual_poles=support['actual_T3_targets_fc_normalized']+center['actual_connections']['v_minus_b']['finite_pole_coordinates_fc_normalized']
+  assert len(actual_poles)==6 and rec['actual_unchanged_pole_support']==actual_poles
+  center_for_fraction_audit['actual_connections']['T3C']['finite_pole_coordinates_fc_normalized']=actual_poles
+ fixed_audit=eh.audit_fractions(args,center_for_fraction_audit,poly)
  names['eta_B_fraction_audit_source']=eta_audit_source
  out={'result':args.result_id,'disk_id':d,'input_sha256':{str(p):sha(p) for p in names.values()},'source_sha256':sha(__file__),
  'nested_input_hash_edges_checked':edges,'actual_T3_four_kernel_roots_and_raw_det3_verified':True,

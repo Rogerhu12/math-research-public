@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：ea891031abff2448eee151117afc0ce9f1486579
-最近实际 pull：2026-11-14 18:04:05 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：596f9681e978c4ff5f6641cba6ffe2a6a3f91a73
+最近实际 pull：2026-11-14 18:08:36 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -19,6 +19,7 @@
 - **R688/R690已证**：完整Picard修正下Ia=d、a(c0)=0给λ_q=a_v/e；实际完整水平的2处分量全度数零，故λ2,h≡0，Ω仅3处。3处κ_v和p处Λ jet仍待算。
 - **R686已证全塔**：真实Robert逐层Norm/整格/原q导数给A_Mn=RΓ/π^min(d,42n+1)；原m<43则全高层永久稳定。实际d/m/C/J/b仍未知。
 - **R692/R693已证**：实际τ导子6、判别式−108，三格点权给三点theta，再经精确Poisson/ST矩阵得全k Hermite theta平方；中心值非负，非零和模p单位仍待证。
+- **分歧尾段接续**：R625原F2二重根28无模47²提升，旧审计只支持单根；R636旧T3辅助分母在中心非单位，需验证真实支撑rank7并保持全820交叉恒等式换分母。ramified-tail-resume.yml只续缺失阶段，完整原链/Norm/中心均复用；结论等实际证书返回。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘

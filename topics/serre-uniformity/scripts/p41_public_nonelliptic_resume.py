@@ -19,7 +19,7 @@ REQUEST = TOPIC / 'notes/public-p41-nonelliptic-resume-request.json'
 D = S / 'data'
 
 
-def prepare(item, base):
+def prepare(item, base, request_path=REQUEST):
     prior, work, out = base / 'prior', base / 'work', base / 'output'
     prior.mkdir(parents=True, exist_ok=True)
     out.mkdir(parents=True, exist_ok=True)
@@ -54,17 +54,22 @@ def prepare(item, base):
     disk = item['disk_id']
     state = read(f2 / 'chain' / (disk + '_multiply47.json.gz'))
     assert state['bits_done'] == state['target_bits'] == 304
-    derivative = D / 'p41_serre_clearing_nonelliptic_disks47.json.gz'
-    clearing = read(derivative)
-    assert clearing['result'] == 'R379' and clearing['all_nonelliptic_rational_disks_unit']
-    assert disk in {x['disk_id'] for x in clearing['actual_nonelliptic_disk_values']}
+    if item['kind'] == 'ramified':
+        derivative = D / 'p41_serre_clearing_126_disks47.json.gz'
+        clearing = read(derivative)
+        assert clearing['result'] == 'R435' and clearing['all126_requested_rational_disks_unit']
+    else:
+        derivative = D / 'p41_serre_clearing_nonelliptic_disks47.json.gz'
+        clearing = read(derivative)
+        assert clearing['result'] == 'R379' and clearing['all_nonelliptic_rational_disks_unit']
+        assert disk in {x['disk_id'] for x in clearing['actual_nonelliptic_disk_values']}
     source = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=REPO, text=True).strip()
     save(out / 'public-actions-input.json', {
         'result': item['result'], 'disk_id': disk, 'request_item': item,
-        'source_commit': source, 'request_sha256': sha(REQUEST),
+        'source_commit': source, 'request_sha256': sha(request_path),
         'prior_receipt_sha256': sha(prior / 'run-receipt.json'),
         'prior_input_sha256': sha(prior / 'public-actions-input.json'),
-        'original_chain_bits_restored': 304, 'clearing_result': 'R379',
+        'original_chain_bits_restored': 304, 'clearing_result': clearing['result'],
         'clearing_sha256': sha(derivative),
         'root_readme_sha256': sha(REPO / 'README.md'),
         'topic_readme_sha256': sha(TOPIC / 'README.md'),

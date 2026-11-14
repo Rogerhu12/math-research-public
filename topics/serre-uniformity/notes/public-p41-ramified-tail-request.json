@@ -1,0 +1,23 @@
+{
+  "request": "2026-11-14-preserved-ramified-missing-stages",
+  "jobs": [
+    {
+      "result": "R625",
+      "disk_id": "SS_j0_15",
+      "kind": "ramified",
+      "missing_stage": "F2_multiple_root_audit",
+      "prior_run": 43580991103,
+      "prior_source": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+      "artifact": "serre-p41-remaining-R625-43580991103-1"
+    },
+    {
+      "result": "R636",
+      "disk_id": "SS_j36_03",
+      "kind": "ramified",
+      "missing_stage": "F3_auxiliary_denominator",
+      "prior_run": 43580991103,
+      "prior_source": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+      "artifact": "serre-p41-remaining-R636-43580991103-1"
+    }
+  ]
+}

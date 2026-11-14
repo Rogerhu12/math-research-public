@@ -358,9 +358,18 @@ def main():
  assert qc==poly['actual_QC_F2_coefficients_0to4_in_y_mod47four'] and all(v%47==0 for v in qc)
  divided=[v//47 for v in qc];red=[v%47 for v in divided];assert red==poly['QC_divided_by47_reduction_coefficients_mod47']
  roots=[y for y in range(47) if sum(c*pow(y,k,47) for k,c in enumerate(red))%47==0];assert roots==poly['residual_QC_roots']
- lifted=[]
+ lifted=[];singular_branches=[]
  for y0 in roots:
-  derivative=sum(k*c*pow(y0,k-1,47) for k,c in enumerate(divided) if k)%47;assert derivative
+  derivative=sum(k*c*pow(y0,k-1,47) for k,c in enumerate(divided) if k)%47
+  if not derivative:
+   value=sum(c*pow(y0,k,47**2) for k,c in enumerate(divided))%(47**2)
+   assert value%47==0
+   possible=[y0+47*t for t in range(47) if sum(c*pow(y0+47*t,k,47**2) for k,c in enumerate(divided))%(47**2)==0]
+   singular_branches.append({'root_mod47':y0,'derivative_mod47':0,'QC_div47_value_mod47square':value,'all47_second_digits_checked':True,'lifts_mod47square':possible,'excluded':not possible})
+   # A surviving multiple root needs an explicit further lifting calculation;
+   # it must never be silently discarded as if it were a simple Hensel root.
+   assert not possible, ('unresolved multiple F2 root',y0,possible)
+   continue
   y=y0;mod=47;digits=[y0]
   for _ in range(2):
    val=sum(c*pow(y,k,mod*47) for k,c in enumerate(divided))%(mod*47);assert val%mod==0
@@ -379,9 +388,12 @@ def main():
  'signed_actual_scale':m,'second_divisor_tiny':tinyd,'full_first_norm_log':normlog,'actual_center_height':height,
  'local_polynomial':hp,'global_polynomial':gp,'QC_polynomial':qc,'QC_div47_reduction':red,'residual_roots':roots,
  'simple_single_F2_root_candidates_to_available_precision':lifted,
+ 'multiple_F2_residual_branch_certificates':singular_branches,
+ 'all_F2_residual_branches_accounted_for':len(lifted)+len(singular_branches)==len(roots),
+ 'entire_disk_excluded_by_F2_after_exact_lifting':not lifted,
  'fixed_fraction_cross_audit':audit_fractions(args,h,poly),
  'eta_B_fraction_cross_audit':audit_eta_B_fraction(args,poly),
- 'scope':'Independent exact saved-section DAG/Weierstrass/unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and simple Hensel roots; no duplicate RR, torsion or long group-chain execution.'}
+ 'scope':'Independent exact saved-section DAG/Weierstrass/unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and complete simple or obstructed-multiple Hensel branches; no duplicate RR, torsion or long group-chain execution.'}
  args.output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
  print('PASS independent actual SS F2 principal audit',d,'height',height,'roots',lifted,'SHA',sha(args.output))
 

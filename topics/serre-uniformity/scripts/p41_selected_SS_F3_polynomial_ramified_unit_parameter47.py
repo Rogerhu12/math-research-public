@@ -31,6 +31,7 @@ def main():
     ap.add_argument("--tiny", type=Path, required=True)
     ap.add_argument("--f2-polynomial", type=Path, required=True)
     ap.add_argument("--f2-audit", type=Path, required=True)
+    ap.add_argument("--t3-support", type=Path, required=True)
     ap.add_argument("--derivative", type=Path, required=True)
     ap.add_argument("--ramified-j-certificate", type=Path, required=True)
     ap.add_argument("--work-dir", type=Path, required=True)
@@ -278,6 +279,65 @@ def main():
     tgood = np.flatnonzero(goodmask).tolist()
     assert len(tgood) > 504
     qT = r.from_json(center["actual_connections"]["T3C"]["denominator_linear_coefficients_mod47four"])
+    sT = r.from_json(center["actual_connections"]["T3C"]["numerator_quadratic_coefficients_mod47cubed"], q)
+    t3_fraction_replacement = None
+    if not np.all(r.units(r.mm(W0, qT))):
+        # A zero of an auxiliary hyperplane is not a self-intersection.
+        # Retain the actual T3 poles, prove separation, and re-express the
+        # identical center differential before taking its moving trace.
+        support = load(args.t3_support)
+        assert support['source_disk_id'] == args.disk_id
+        support_hashes = [v for k, v in center['input_sha256'].items()
+                          if Path(k).name == args.t3_support.name]
+        assert support_hashes and set(support_hashes) == {sha(args.t3_support)}
+        WT = [r.from_json([x]) for x in support['actual_T3_targets_fc_normalized']]
+        Wvb = r.from_json(center['actual_connections']['v_minus_b']['finite_pole_coordinates_fc_normalized'])
+        WZ = cat(*WT, Wvb)
+        assert len(WT) == 4 and WZ[0].shape[0] == 6
+        assert r.iszero(r.mm(WZ, qT))
+        assert len(r.rank_pivots(cat(WZ, W0))[0]) == 7, 'Actual T3 pole: geometric cancellation required'
+        KT = kernel(WZ, 6)
+        rrng = random.Random(4104763601 + sum((j+1)*ord(c) for j,c in enumerate(args.disk_id)))
+        for attempt in range(200):
+            xx = r.mm(KT, r.column([[rrng.randrange(47), rrng.randrange(47)] for _ in range(67)]))
+            qnew = r.add(xx, r.mm(M['A1'], r.conjugate(xx)))
+            assert r.iszero(r.mm(WZ, qnew))
+            if np.all(r.units(r.mm(W0, qnew))):
+                break
+        else:
+            raise AssertionError('No unit auxiliary T3 denominator preserving actual poles')
+        oldq = r.mm(red(M['W']), red(qT), q)
+        newq = r.mm(red(M['W']), red(qnew), q)
+        oldn = r.mm(red(M['V2']), sT, q)
+        oldgood = np.flatnonzero(r.units(oldq)[:, 0]).tolist()
+        assert len(oldgood) > 378
+        EE = red(r.rows(M['V2'], oldgood))
+        er, ec = r.rank_pivots(EE)
+        assert len(er) == 199 and ec == list(range(199))
+        values = r.mul(r.mul(r.rows(oldn, oldgood), r.rows(newq, oldgood), q),
+                       r.inverse_values(r.rows(oldq, oldgood), q), q)
+        snew = r.mm(r.inverse_matrix(r.rows(EE, er), q), r.rows(values, er), q)
+        assert r.equal(r.mm(EE, snew, q), values)
+        newn = r.mm(red(M['V2']), snew, q)
+        assert r.equal(r.mul(newn, oldq, q), r.mul(oldn, newq, q))
+        assert r.equal(r.mm(red(M['A2']), r.conjugate(snew, q), q), snew)
+        assert r.equal(r.mm(M['A1'], r.conjugate(qnew)), qnew)
+        t3_fraction_replacement = {
+            'original_numerator_quadratic_mod47cubed': r.to_json(sT),
+            'original_denominator_linear_mod47four': r.to_json(qT),
+            'new_numerator_quadratic_mod47cubed': r.to_json(snew),
+            'new_denominator_linear_mod47four': r.to_json(qnew),
+            'actual_unchanged_pole_support': r.to_json(WZ),
+            'T3_support_sha256': sha(args.t3_support),
+            'source_center_separate_from_all_true_poles_by_unit_minor': True,
+            'attempt_0based': attempt, 'old_expression_unit_source_rows': oldgood,
+            'unit_V2_interpolation_rows': er,
+            'all820_cross_multiplication_identities_mod47cubed': True,
+            'degree_bound_3L': 378, 'new_denominator_unit_at_source_center': True,
+            'Frobenius_both_actual_sections': True, 'division_by_nonunit_or47_used': False,
+        }
+        qT, sT = qnew, snew
+        print('PASS actual T3 removable auxiliary fraction, rank7 and all820 degree378 identities', flush=True)
     qTs = red(r.mm(M["W"], qT))
     qTcube = r.mul(r.mul(qTs, qTs, q), qTs, q)
     # Honest V4 basis, constructed as selected products W_i V3_j.
@@ -305,8 +365,7 @@ def main():
         co = r.mm(E4i, r.rows(values, selected4), q)
         assert r.equal(r.mm(r.rows(E4, tgood), co, q), r.rows(values, tgood)), ("actual T3 V4", k)
         tcoeff.append(co)
-    # At order zero, the newly interpolated V4 section must equal qT^2*sT.
-    sT = r.from_json(center["actual_connections"]["T3C"]["numerator_quadratic_coefficients_mod47cubed"], q)
+    # At order zero use the same actual fraction, with its proved auxiliary replacement if needed.
     expect = r.mul(r.mul(qTs, qTs, q), r.mm(red(M["V2"]), sT, q), q)
     assert r.equal(r.mm(E4, tcoeff[0], q), expect)
     print("PASS actual T3 moving trace", len(tgood), "rows x3; faithful V4 dimension451", flush=True)
@@ -320,7 +379,7 @@ def main():
         V4P.append(row4)
     tv = mmconv(V4P, tcoeff)
     qtP = [red(r.mm(w, qT)) for w in J["W"][:3]]
-    assert np.all(r.units(qtP[0])), "No self T3 intersection in this disk"
+    assert np.all(r.units(qtP[0])), "Actual T3 diagonal denominator must be a unit after justified auxiliary replacement"
     invhc = [red(x) for x in J["inverse_Hc"][:3]]
     t3diag = smul(smul(tv, sinv(spow(qtP, 3))), invhc)
 
@@ -387,7 +446,7 @@ def main():
         'only_unit_v_delta_K_inverses_used':True,
         'all_actual_original_W0to4_and_j0to4_equal_R435':True,
         'all_combined_coefficients_equal_half_R435':True}
-    fixed_fraction_replacements={}
+    fixed_fraction_replacements = {'T3C': t3_fraction_replacement} if t3_fraction_replacement else {}
     def fixed_fraction(name):
         f = center["actual_connections"][name]
         ss = r.from_json(f["numerator_quadratic_coefficients_mod47cubed"], q)
