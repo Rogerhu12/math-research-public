@@ -255,3 +255,7 @@ root全文核source16943B/CI12226B/contract7360B/flow8250B，tail独立核完整
 ### 2026-11-14 19:07:22 UTC — 独推实际六窗 old-I/J 余项，保留未闭门
 
 root亲核48,987B process全六窗/八项主导/7门，以及2,772B worker两次真pull至`46d6140c760b58a111c15ef8aef1ca808e713275`的空README diff。actual native `7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c` 4,837,715B，0旧解/target重算。明确second source仅even mean故native共用H−2/3与混合H−1范数相等。准确记录很大的严格上界与主导RQ J ED，不改成强小门。旧9806B HANDOFF全文归档后更新实际进度；根/课题README核未变。
+
+### 2026-11-14 19:11:56 UTC — 独推真实 cubic 转折完整反射解析结论
+
+冻结19,101B T.1–T.35，SHA256 `c7583bb80f526f285aec082b2e0e09a960aae8a348e2c40f2e29993a92bf9e50`。root逐式复核压缩能量交叉消去、T12 Fourier比、T17–19 dyadic迹、T20端口comm/T21 strong收敛、极限通量/唯一/反向onto及T29 −2i和reverse-Piola源符号。tail另确认与E同一全标签/停止域，原balanced W13与D16涵盖该负quintic，未添新盒。完整mean和强源保留，B通量损失明确；继续真实跨正区平滑及eX桥，不称主题完成。

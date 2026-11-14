@@ -471,3 +471,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：旧圆 I/J 余项的完整实际费用
 
 见[六窗实际旧逆余项源](results/R133-supplement-actual-leading-old-circle-remainder-sources.md)。43629465215 child0、7门、52.329910s、1328行/6R全覆盖，native `7662350a…`，process `f888e47e…`。最小 $R=1/1000$ 的完整负源上界 $1.524430\times10^{18}$，负 Cauchy/primitive 后组件 $2.310602\times10^{17}$，主导 $R_QJ E_D$。这些大**上界**只证明该预算有限，不是实际误差下界；不能授97逆或宣告97不可能。全部输出/mean和正侧 collar/body 原源分列，$\mathcal L_0w_1$、正侧全mean转换、完整强return未成。
+
+### R119 补充：真实三阶转折的完整反射与强源
+
+见[三阶转折及真实通量极限](results/R119-supplement-actual-cubic-turning-complete-reflection-and-strong-sources.md) T.1–T.35。保持实际最后quintic与完整正区，把固定B高度条件接成真实cut128的全频 $L^2$ 波酉反射。反向能量先给 $H_C\in H^{-1/8}$，真实DN角交换子和体交换子再证明Galerkin极限无虚通量损失；随后证唯一和反向onto，含mean。完整强源 $e_C\in H^{1/8}$、$(f,g)\in\mathcal M H^{1/2}$ 的仿射输出 $<2^{15}\mathfrak F$，Piola/物理归一/Γ列均保。粗输入目前只授B通量 $H^{-9/8}$；$e_X$ 真根桥、强标签和returned方程仍待接。

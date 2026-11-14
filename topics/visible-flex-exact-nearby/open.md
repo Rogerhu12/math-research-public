@@ -183,3 +183,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：leading old-I/J 原预算实际完成，改进目标已定位
 
 43629465215 真7门已完成，六窗全部有限，但 $R=1/1000$ 的负 primitive 组件上界仍为 $2.310602\times10^{17}$；主导是 $R_QJ E_D$ 的全空间乘子/Cauchy费用。见[实际报告](results/R133-supplement-actual-leading-old-circle-remainder-sources.md)。继续保留精确径向消去、full mean和所有Fourier输出，phase推真ray下解析Fourier有向界；root独审 $\mathcal L_0w_1$ 的最低径向阶及保源弱残差替代。禁止把已完成预算大误称真实算子大，禁止重算原1328 target/forcing。
+
+### 2026-11-14：cut128 向外真实三阶反射已闭，继续根桥与强输出
+
+[T.1–T.35](results/R119-supplement-actual-cubic-turning-complete-reflection-and-strong-sources.md) 已证同一固定停止 connector 的 C→cut128三阶退化段接全正区后的完整L²波反射，含mean/全部源。原无限维极限通量和onto不再作为假设。剩余明确是未完整(129,2)的 $e_X\to\mathrm{cut128}$ 真根图/源归一、B通量由当前 $H^{-9/8}$ 到实际所需强域的正区跨端平滑，以及与开放内部逆的returned条件可逆性；酉性自身不授这些门。atom源按BV和真实单侧跳，不套齐次连续类。
