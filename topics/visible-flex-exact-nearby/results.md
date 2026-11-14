@@ -71,3 +71,5 @@
 - [完整正片Airy余项的真实根斜率界](results/R119-supplement-positive-full-Airy-remainder-in-root-slope-units.md)：同一实际完整双端正片保mean/cross/全部输入输出；低trial取0但全graph不删真反射，高contact常数与真实复角隔带付低输出，unitarity/adjoint给R_++I:H^s→H^(s+4/3)<2^5700 b_*^(4/3)，|s|≤1。只改证明费用，源和所有参数列保；全网络阈值仍待strict/root graph接合。新整数门在公开Actions首跑。
 
 - [真密度射线中的完整首符号均值不变量](results/R133-supplement-first-symbol-mean-through-true-rays.md)：准确I UΦ恒等式保两个finite-rank mean项，正逆真ray共轭均保首符号平均；half-density额外−c″I/8平均0且两支相消。strict directed scalar可由完整Eulerian矩积分，无须重跑ray，根/positive完整返回仍另付。原strict-symbol公开43588623881十门已真全过并亲读native。
+
+- [R133：保留signed衰减的Riccati正Green和全部界面源](results/R133-supplement-signed-Riccati-positive-Green-with-full-interface-sources.md)：已证明完整分片signed Riccati正Green比较：先构造等式正逆再以非负slack比较，保全部左右边界及两种jump源；正交projector真实夹角费用为sec/tan而非1/sin，门为有限ρ、全部1−Bρ>0和1−D0ρ(0)>0。实际5970格的连续包络和全high/source仍须消费，不把浮点提案当证明。

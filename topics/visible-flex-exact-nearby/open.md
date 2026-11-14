@@ -188,3 +188,5 @@ tail_connector 关闭实际混合近簇与中间频率整个网络。
 新增完整正片R_++I的强4/3界<2^5700 b_*^(4/3)，含两个mean、双端cross及所有低输入高输出，见positive-full-Airy-remainder-in-root-slope-units。高输出contact常数+真实复角隔带支付旧低频b^(1/3)，全graph与unitarity不借未解网络。ordinary/weak/Γ*源全保；实际strict/root一次项/graph与全网络cutoff仍续。
 
 真density ray的首符号均值不变量已证，完整primitive covariance保mean有限秩项；half-density额外−c″I/8的平均为0。严格区有向两支标量可直接消费全Eulerian矩，不重算169ray。原strict-symbol43588623881真实10门return0（native83b87357…5182d）；root/positive全有向返回和实际strong常数仍欠。
+
+R133 signed Riccati/正Green替代定理已证，见 results/R133-supplement-signed-Riccati-positive-Green-with-full-interface-sources.md。实际连续validator须保signed μ、ν、每界面sec/tan和完整源，核有限ρ、全部正分母及D0ρ(0)<1；用真实有序正核积分particular源，不能先取全径向sup相乘。

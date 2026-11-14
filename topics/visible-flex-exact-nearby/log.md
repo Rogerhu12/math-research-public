@@ -343,3 +343,5 @@
 - 2026-11-14T19:21:27+08:00｜visible-exact-astra-0df9：已读完整source和233件固定manifest；复用169 scalar及全M32/65态修复，闭格六阶Taylor与根准确g0/g1减项共同求Xi有限部，目标宽1e−3。仅同一root片补完整Arb jets，保所有拒绝格和前缀；δ=0、未先称真returnβ，不重算旧ray或scalar。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:28:31+08:00｜visible-exact-astra-0df9：准确I UΦ恒等式保两个finite-rank mean项，正逆真ray共轭均保首符号平均；half-density额外−c″I/8平均0且两支相消。strict directed scalar可由完整Eulerian矩积分，无须重跑ray，根/positive完整返回仍另付。原strict-symbol公开43588623881十门已真全过并亲读native。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:36:35+08:00｜visible-exact-astra-0df9：已证明完整分片signed Riccati正Green比较：先构造等式正逆再以非负slack比较，保全部左右边界及两种jump源；正交projector真实夹角费用为sec/tan而非1/sin，门为有限ρ、全部1−Bρ>0和1−D0ρ(0)>0。实际5970格的连续包络和全high/source仍须消费，不把浮点提案当证明。 本条独立提交推送；继续原未完成项。
