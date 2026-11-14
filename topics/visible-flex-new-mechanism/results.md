@@ -287,3 +287,7 @@
 - [R138：任意profile的G pure身份与完整商的pure零代表](results/R138-general-pure-G-identity-and-affine-orbit-kernel.md) — 398项完整原差sound归零，G[-4]=B_p2(W1)[-4]/128；完整相位和同右锚保持。整个G仿射轨道的一般pure像属于响应像，完整商可取pure恒零代表，维至少6；R136已证仍非整个U。只1新pure、0mixed/profile/tail；下一仅新J一条一般原差，不再跑G或m8。
 
 - [R142：第六次G平移分离与215个真实联合查询](results/R142-sixth-G-translation-and-215-query-control.md) — 权−5完整36列经7原依赖成29维，原29/30子式证明N⁶G∉R8；7≤s≤10。同一pure核新增26，故R8≥208、A_G/lineality/联合查询≥215，R136另使U≥216。只新增此块，下一G7；不把J加成有符号控制。
+
+- [R141：正仿射字符的加速度协变与J符号门](results/R141-affine-character-acceleration-covariance-and-J-positivity.md) — 先用真实端点纤维将局部action仿射差吸收到八矩，再时间缩放/微脉冲推A/H状态协变。权−2时十个已发系数的四个评价准确零，PSD等价a0,a2,c0≥0及4a2c0≥b1²；只得λJ≥0，未迫J为lineality，也未证这样的非零正λ存在。
+
+- [现有末三径向行的准确支持](notes/curvature-existing-terminal-row-support-20261114.md) — 54个已有参数保持t≤.36完整位置二jets；.765<t<.846的局部曲率本就仅直接依这些末三行。三高度整积分.081/.0675/.054，附6d6+5d7+4d8=0可保开放尾位置。只是后继子空间，不改当前163维mixed实际，不预报70可行。
