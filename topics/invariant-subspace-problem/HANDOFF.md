@@ -3,10 +3,10 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `ae4f3a4f8ff2e41b340a723671d804b209fdd880`（2026-11-14 15:56:26 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `83c0abb9992f04f58aef07f1ef5e91696bc3a894`（2026-11-14 15:58:41 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
-- [上一完整H](notes/2026-11-14-handoff-before-joint-three-slice-bound-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
+- [上一完整H](notes/2026-11-14-handoff-before-three-spin-generator-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
 
 ## 工作区、真实数据与恢复
 
@@ -27,6 +27,7 @@ R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源
 - [任意两权全位数](notes/2026-11-14-two-weight-all-size-complete-even-phase-bound-789f-next.md)已付全源Φ≤1，异权等号恰单组spin1/余singlet。[六位三对全权](notes/2026-11-14-three-pairs-all-weight-complete-even-phase-bound-789f-next.md)付整个9维，三个主子式3558项全正、等号维数3/5/9。四位全部分类与固定方向局部界亦已付；一般多权/更高组spin开。
 - [任意多权主spin边界](notes/2026-11-14-arbitrarily-many-weight-dominant-spin-phase-bound-789f-next.md)：若j0=1+Σ其余j，完整有效模块U=0、V一维但全部原多重性保留；真h/g/ell=3π⁻¹(B,C,A)，正log凹密度的自足AB≤4C²给Φ≤1，异有效权严格。[完整空硬源分类](notes/2026-11-14-empty-hard-source-spin-blocks-complete-classification-789f.md)证明V非零/U零恰此主组条件；max q≤Σq/2则有实际中央差乘积primitive。所有空硬源块已付，余有硬源区。
 - [平衡主组完整概率](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)：q0=Σ其余q，硬源U一维/低源V任意维，真实h/g/ell=c(H/G/L)、q=c(4G+yy*)来自同一Beta–binomial。全部条件噪声、完整硬源回归、均值运输及秩二位移保留；共同正块交叉mn*−G不等于目标HG⁻¹L−2G−yy*，统一κ仍开。
+- [任意三spin完整生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)：三角参数(A,B,C)给硬源U一维及完整V维数=正边数≤3。固定3×3Gaussian有理核同时生成h/ell/q及硬源交叉；必须先取同一ABC系数再Schur。任意spin/权全保，统一相位界仍缺。
 - [倒数全谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)给T(z⁻¹)=T(z)*和整源三阶抵消。[完整Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)：BB*=(s+2)I/3，H=B*gB，h/ell/q全Ward交叉与真换位保留；相位等价A H† C+2H−Q联合块，不以逐坐标Schur替共同逆。
 - Johnson最高两通道非负、首低共同Schur/删位协方差已付，高birth条件均值尚缺。原无限尾算术2严格失败>2.89；正通道尺度2Var/k至160Var/(k+2)已付，均见上一H。
 - [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)：b_j=j⁻²，所有x≥2/n≥1整个K2有明确有限κ=(337/162)Λ²。大n>2²¹算术λ=2³⁵，余小高度由head占据幂零完整右逆统一付；并给N≤(Λ/2)kP。全低阶条件Gram/真实Z三切片/原桥保留，不代graph。
@@ -37,14 +38,14 @@ R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源
 原11物理N＋6Γ、M5原6188来源/4367输出、泛秩4354。rankAy8和0/2/−6/∞已闭，rankAy9余有限Σ/char0来源。F31像1021行/次数和716、torsion315/minpoly190；h31度24，char0候选h0=s³(s−2)F+²F−²E8。Dlin46不免费降24，模31支撑不当复坏点。
 
 - T96完整1021像/1174真核，[原17模31全证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)核4367×147×9原系数、最高135次。唯一K标准来源cost85（j5为84）、最高69；原x0=25标准源恢复最高74，h0 mod31=25h31。旧正常形/完整图/真实DAG不得重建。
-- [精确Koszul](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)保cost消660未选N及精确lift972低K。B85原289198列、像217374、核71824、coker1658；70672方向β零，200高K允许1152移位。旧200 run43605503242实际71.678458秒，原核/整除/NF/G身份全核。
+- 精确Koszul保cost消660未选N＋972低K；旧200高核run43605503242已完整核清。B85原289198列/像217374/核71824/coker1658，70672精确零＋1152高移位；全原来源/图/回执细节保上一H，不重放。
 - [完整任意次数β障碍](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)：增量run43608688492/job132488731199实耗11.993844468秒，补2cost86核后1834核全覆盖，β像仍rank2、九余增广rank6、九目标分别失败。四非零β各最小ell=(s−1)(s−2)，全部1264 Krylov及九个三坐标dual保。排任意次数31整数h0来源，**不排31分母Q解**。11恢复文件原9.62MB全压缩落库 notes/r150-last-two-kernel-bockstein-actions-789f/43608688492-1/。
-- [唯一共同g](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)：g=21h31/(s−2)，九ρ+gτ为旧两β常数组合。可取h1=(s+370)h0/(s−2)或保根集H0=(s−2)h0；h1原mod961来源≤181的构造性存在保留；H0现已实际cost86。固定标准族/先前B85失败的完整范围保上一H/证书。
+- [唯一共同g](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)：g=21h31/(s−2)，九ρ+gτ为旧两β常数组合。h1=(s+370)h0/(s−2)原mod961来源≤181；保根集H0=(s−2)h0现实际cost86。
 - [H0真原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)：run43611215116/job132496453939源5aa9c384实际53.711879712秒，原2195标准源/6188校正/最终九列成本全86、最高原系数75；全部原17/D-content/整数乘回成功。五完整gzip落 notes/r150-h25-original-mod961-actions-789f/43611215116-1/，primitive X SHA6ff5083c…566e32。完整恢复在 /tmp/isp-h25-original-mod961-43611215116；15文件/五gzip哈希全核。
 - [射影预算](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)：B≥85有限coker恰H⁰(C(B))；当前torsion预算等价仿射315＋原∞条件。真T96来源给u⁹⁶T∞=0、length T∞≤745；完整∞充分测试未跑，负必要像结论不需重复该测试。
 
 ## 当前分工与马上接续
 
-normal H0原mod961已实证cost86，准备实际X的r2=(H0T−AX)/961 mod31，用原A mod29791、同B86、9列NF/完整G余和既有β二维必要判据；不重放旧202β。若仅该β条件失败，不扩大为全部mod961核或31分母Q解失败。literature主spin边界任意多权已付，继续有硬源的真三角spin区与完整Hessian/反射共同块。boundary高方差全birth κ2已付，转实际s≈k短height的同源占据相位/相对Gram；未声称高birth图费用。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
+normal实际r2全原A mod29791/NF/G/完整β必要检验19.0658秒已完：九目标各不在二维像，排保持本次模31初值的全部模29791提升，原流正冻结发布；不扩大到改变初值或31分母Q。下一真实δ2须完整kerβ，保198个β零高源及4个组合/ell方向。literature与boundary继续平衡star的共同回归、真实高birth s≈k短height相对Gram；不声称高birth图费已付。根逐结论推送；主ISP未完成。
 
 文献原条件、Garayev强制零、balanced两层度量失配及所有失败保open/归档，不重复已排路线。

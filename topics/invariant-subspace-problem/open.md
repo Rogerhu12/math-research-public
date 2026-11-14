@@ -110,6 +110,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **平衡主组的完整共同相位：** [任意多组Beta–binomial运输](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)处理q0=Σ其余q、硬源U一维/低源V维数任意。h/g/ell=c(H/G/L)，G是全部占据协方差，q=c(4G+yy*)；共同正Gram、同系数均值运输与秩二位移均准确。仍须界完整非交换J=HG⁻¹L−2G−yy*，不能以共同正块的另一交叉自动替目标；任意有硬源模块与原graph继续。
 
+**三权任意spin：** [完整固定Gaussian生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)已给所有三角模块的全部≤3维低源、两侧度量及完整硬回归；核为固定3×3，spin只进入取系数阶数。须在同一系数层证明相位界，生成函数层Schur不能与取系数互换。
+
 ## 当前接口三：一般系数行、多个模式与中央域
 
 旧行类、种子/比较/最高字符条件及完整来源保[本次前全文](notes/2026-11-13-handoff-open-before-faithful-vacuum-support-0c.md)。未列旧接口保持原状态。

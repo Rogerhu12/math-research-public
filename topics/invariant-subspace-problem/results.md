@@ -969,3 +969,7 @@
 ### R297 附录：任意多组平衡硬源的完整 Beta–binomial 相位运输
 
 [完整共同概率证明](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)处理主组q0=Σ其余q、任意组数/组长/正权，精确保一维硬源与全部m维低源。真实h/g/ell=c(H/G/L)、q=c(4G+yy*)，G含完整binomial条件噪声；同一联合概率给跨源正Gram、同系数均值运输及三个秩二位移关系。实际目标保持J=HG⁻¹L−2G−yy*的非交换次序，不将正块的mn*−G替代J。尚未支付统一κ或一般有硬源模块，全物理度量和MP先后次序保留。
+
+### R297 附录：任意三spin三角族的完整固定Gaussian生成核
+
+[完整生成公式](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)以q=(A+B,A+C,B+C)覆盖全部三角有效模块，初等差因子证明硬源恰一维、全部低源维数等于正边数且≤3。固定3×3核det(I−T*ZT)⁻¹有显式二次分母，最低triplet插入的完整Wick矩阵、对称方向一/二导数分别恢复两侧源Gram、硬源交叉和raised Gram；阶乘与物理度量保留。先取同一ABC系数，再作完整硬源Schur，所得g为真实全层MP。相位目标保持全部非交换次序；尚无统一κ，不以核正性替系数层相位。
