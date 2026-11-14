@@ -235,3 +235,7 @@ root全文核source16943B/CI12226B/contract7360B/flow8250B，tail独立核完整
 ### 2026-11-14 18:52:16 UTC — actual full-quarter cap certificate
 
 独推5583B实际报告，root亲核finish process16365B/summary8711B与全部8range artifact process；12门全部true，7908覆盖/同w0/14fee合同完备。first/last保641旧canonical行只补1123，原6中间成功行与64pilot保。README全部实际pull diff空，finish最后d006d049…。物理帽误差<3.601796223643e−8；继续真实Hessian/Green链。
+
+### 2026-11-14 18:54:49 UTC — real leading remainder budget contract
+
+独推B1–13；root/tail核真实径向常矩阵相消、完整Wiener矩、U7/9/11有限项和mean、四阶angular链及root bracket两侧积分，未作本地数值。源07700e08预览的数学已核，最终实际消费者与Fc/Fb分列后续冻结。上次非FF即18:52真pull --rebase仍终端不可用，按根8小文本回退重读README并已成功独推。

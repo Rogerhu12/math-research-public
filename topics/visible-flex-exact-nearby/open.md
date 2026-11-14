@@ -167,3 +167,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：完整四分帽源已真完成，继续后继实际链
 
 43626024582的1977×4域与12门已实际完成，同$w_0$物理帽完整界<3.601796223643e−8，14fees保。下一项已部署Hessian v2→sameZ Green，须等各自实际child0后读源/mean/high/完整14费；不得把该物理界直接写成ν真响应误差。所有原成功子域、旧6range与pilot不可重算。
+
+### 2026-11-14：leading I/J 余项费用已具备真实消费者合同
+
+[B.1–B.13](results/R133-supplement-real-root-remainder-budgets-and-radial-matrix-parts.md)只用已成root/forcing/seam三native，全部1328原格及6R。应记录leading完整非局部第一源与独立even mean，负侧组合真正Cauchy源门；正侧只先保ordinary源，任何given-head graph组合仍须保head与mean端口。$L_0w_1$/后续seam/cutoff/fullreturn仍另付。

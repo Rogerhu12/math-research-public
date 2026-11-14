@@ -459,3 +459,7 @@ native `498a5f8be6d2729a1029dbc45a7c06f832c58e2d269031f7db929c2327a0c260`；summ
 [actual 12门报告](results/R133-supplement-actual-complete1977-quarter-physical-cap-sources.md)：公开43626024582两端恢复/finish真success，root亲读全部8range artifact process、finish process与8711B summary。只新补1123域，保旧641prefix+6080中间+64pilot，7908完整域恰一次。选定同一$w_0$完整物理帽界 **$3.601796223643\cdot10^{-8}$**，14条匹配费用全保；原完整界$2.418183101946\cdot10^{-6}$。末100原graft$10^{-9}$盒只包固定η0，无零宽target冒称。
 
 finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298`，summary `36c44dff71b6ac4e577ab690cd4c25874deb0f101a289d0c1a3488db1eea2ef0`，repo process `2a7903ef56e245315937cd5ebc8d8467b86dbf7c445c1ef4924fcd476037e9d1`。不单独授moving/cut97/finite193/无限逆；Hessian v2与Green后继实际门另核。
+
+### R133：原 I/J 余项的实际径向预算合同（2026-11-14）
+
+[B.1–B.13](results/R133-supplement-real-root-remainder-budgets-and-radial-matrix-parts.md) 给U.20–U.29的完整可执行费用：真实Fourier矩与mean分开保留，$H^{-1}$和$H_D$只减准确不依赖角的径向矩阵后作angular Cauchy，原径向变化仍在。四阶角导从原较宽条带付费，不造高径向intrinsic jet；所有Airy分支提取$|\rho|^{-1/4}$，按完整root bracket逐格积分平方。root-bracket内的$2\sqrt{\mathrm{length}}$仅授每个单侧，正负分别求和。新source已root/tail按U逐项复核，actual运行另记；非$L_0w_1$或全return结论。文本SHA256 `3bade0ac1358b845dbcbf16777baadc4f28437db4d31fcf1d227fdcb7db21bca`。
