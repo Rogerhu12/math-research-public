@@ -1,0 +1,70 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe.json.gz",
+  "original_bytes": 11171672,
+  "original_sha256": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+  "native_kind": "complete_repaired_physical128_cap_moving96_inlet_residual_packed_v5",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 1977,
+  "original_source_sha256": "953227cd8871a71ee0c5b9e7ed8a53c3099b1890eadfde3936d9de06067e455a",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-complete-cap-native.json.gz-69f55939742b2698-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "705bf08c9edf45097ee7da3c75d41e0a6b854485dd72592b828ad86e2c27cc5a",
+      "compressed_bytes": 1975248,
+      "compressed_sha256": "209fa1823fa8cd697f57c5a1f7307fa49c79528b4b1ca22ba526afb313dba3ef"
+    },
+    {
+      "file": "native-complete-cap-native.json.gz-69f55939742b2698-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "cef2dd3708b41f8b242aa73093d36dc803a80bbb5f8859f2dc7d16060b41778f",
+      "compressed_bytes": 1977871,
+      "compressed_sha256": "d5ff6e2ce0ece297df9dddbfabee015e15a817438ef2656487f8e49b512b4583"
+    },
+    {
+      "file": "native-complete-cap-native.json.gz-69f55939742b2698-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "2e7a580049d42a4e0c3926e4d7b51faaeca4d662d5db5dd0a8ffe8a408b2cd26",
+      "compressed_bytes": 1986502,
+      "compressed_sha256": "dba46ac3293ba34f145a7928c1330837574aa7750a68e8021642379bb0116f5e"
+    },
+    {
+      "file": "native-complete-cap-native.json.gz-69f55939742b2698-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 2000000,
+      "sha256": "3be34b4017233bceec0bd0298b8c76fe7545dda4103ae38fcba8acb0736e9fbc",
+      "compressed_bytes": 1986027,
+      "compressed_sha256": "abf065a69e470a8debcd1d70cdf0ec7665aaa8716230c4c2fcd8a3299e0b2997"
+    },
+    {
+      "file": "native-complete-cap-native.json.gz-69f55939742b2698-parts-part004.bin.gz",
+      "index": 4,
+      "offset": 8000000,
+      "bytes": 2000000,
+      "sha256": "9034fea5c3a5dfedc05dfd1ae12bdf14d926cca64c75bdf635b9b7e94205f0e6",
+      "compressed_bytes": 1984059,
+      "compressed_sha256": "e480b3d4113d924a8a6ae2a43488e396af930bd8b97664a37d460b647497e9fd"
+    },
+    {
+      "file": "native-complete-cap-native.json.gz-69f55939742b2698-parts-part005.bin.gz",
+      "index": 5,
+      "offset": 10000000,
+      "bytes": 1171672,
+      "sha256": "ce646c6b3007e4c65b49d9c048277952ec9fed378ef18b8ddf92b1436873ca2a",
+      "compressed_bytes": 1162988,
+      "compressed_sha256": "a16f8800306cc5da0efd387eaf0ed08d71c754cea95d83ea677c6815d785111b"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

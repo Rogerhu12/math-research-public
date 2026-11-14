@@ -34,6 +34,38 @@
       "actual_returncode": 0,
       "wall_seconds": 545.0158003390001,
       "finished_utc": "2026-11-14T10:19:04.807725+00:00"
+    },
+    {
+      "label": "assemble_all_original_1977_cap_cells_and_true_boundary",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_matrix_residual_packed_v5.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cap128-original-bundle/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--first",
+        "0",
+        "--count",
+        "1977",
+        "--parts",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-0768-1024.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1024-1280.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1280-1536.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1536-1792.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1792-1977.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/complete-cap-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:19:12.511166+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 25.001108720999923,
+      "finished_utc": "2026-11-14T10:19:37.512918+00:00"
     }
   ],
   "readme_checks": [
@@ -84,6 +116,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:19:38.538197+00:00",
+      "before": "e75ea5b9945a77f8945091646fe8a2c6dae6c390",
+      "after": "a8dd71c07c511b69e359666dd0688574867ee90e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -106,6 +146,11 @@
       "time": "2026-11-14T10:09:58.460183+00:00",
       "final": false,
       "commit": "d4c53407b6c91e68714eec919cd1c07e8424764a"
+    },
+    {
+      "time": "2026-11-14T10:19:12.417158+00:00",
+      "final": false,
+      "commit": "5c59303444a195ab567611fc6fe276b8bd469afb"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -128,7 +173,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "e75ea5b9945a77f8945091646fe8a2c6dae6c390",
+  "last_read_commit": "a8dd71c07c511b69e359666dd0688574867ee90e",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-recovery-work/science",
   "original_artifact_outcomes": [
     {
@@ -202,8 +247,8 @@
       1792
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:19:10.274744+00:00",
-  "wall_seconds": 566.681367151,
+  "snapshot_utc": "2026-11-14T10:19:39.420678+00:00",
+  "wall_seconds": 595.8273044360001,
   "native_files": [
     {
       "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
@@ -278,10 +323,21 @@
       "sha256": "c4f1f178c079d42d1c891352530485a0ae5c667335b9558c46abceb38244950e"
     },
     {
-      "logical_file": "native.json.gz",
-      "file": "native.json.gz",
+      "logical_file": "native/cells-1792-1977.json.gz",
+      "file": "native/cells-1792-1977.json.gz",
       "bytes": 1046338,
       "sha256": "549fde4f5bf11ecd276e34773de1698fb3e3c386aff2bcf535e66e6ae1e9e865"
+    },
+    {
+      "logical_file": "native/complete-cap-native.json.gz",
+      "lossless_manifest": "native-complete-cap-native.json.gz-69f55939742b2698-parts.json",
+      "bytes": 11171672,
+      "sha256": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+      "parts": 6
     }
-  ]
+  ],
+  "completed_cells": 185,
+  "native_sha256": "549fde4f5bf11ecd276e34773de1698fb3e3c386aff2bcf535e66e6ae1e9e865",
+  "whole_cap_complete": false,
+  "independent_mean_and_infinite_tails_retained": true
 }
