@@ -403,3 +403,7 @@ root完成科学source26652B、CI9661B、worker16046B、manifest12121B及flow588
 ### 2026-11-14 21:52:52 UTC — 精确fold消去六窗actual独推
 
 visible-exact-astra-0df9核36740B process、2464B worker和publication：child0/8门、6scalar/4377rows、科学14.890592036s，native0ceafc2b…；旧科学全部0重算，完整mean/seam/正分窗保。21:48环境再次失联，按根规8只传小文本；本次只读核5700403bb501dbc6aaf60e5d510711fa4d42b1ac两README未变，最近本机真pull仍21:26:11。runner两次真pull至cc813fa7…无diff；继续直接径向导数和全矩阵方向。
+
+### 2026-11-14 21:53:27 UTC — cached full193四格新方阵入口独推
+
+visible-exact-astra-0df9全文核source/CI/合同与flow，105pins内原97逐项零改；source c8fb7a4e…/CI dcdf2ae6…/manifest e15a4e56…。题外新增 .github/workflows/visible-exact-cached-full193-matrix-pilot.yml，使原系数重建后的新方阵仅在公开Actions运行，10min真pull/README核、75min child/90min总时限与成功prefix保存。0旧target/validator/Green；新四格通过也不冒充全Green，继续同一patched生成元的双端矩阵接口。

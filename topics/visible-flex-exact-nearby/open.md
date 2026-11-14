@@ -142,3 +142,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 精确fold消去actual：源界完整改进，继续直接径向导数
 
 [真实报告](results/R133-supplement-actual-exact-fold-cancelled-source-budgets.md)已登记43642808159的8门/六窗/4377积分。最小窗负源<713579.527495，RQJgd项的upper仍主导；新界未授strong-return或97全逆。直接消费已成native，继续辅助复域锚定fold/leading和同一w1完整L0w1；全部mean/IJ/seam保持。21:48终端再次不可用，按根规8小文本发布，runner执行真pull；不把只读ref核记为本机真pull。
+
+### 完整193方阵四格pilot已部署，保留实际128方向
+
+[新矩阵合同](notes/2026-11-14-R133-cached-full193-matrix-directional-Green-contract.md)与105pin消费者已装，原97 pins逐项不变。只消费已成0/76/3300/5969四格准确Aref和完整误差；新I193双向degree24、多项式全连续残差/整格逆、端点inverse与128方向block。所有mean及primitive中间128mode保，大数组只存公开Actions artifact并保原run/attempt。当前待actual，未授5970全cover或方向Green；独立round的F/B只是近似逆，后继必须用同一patched F及真逆或支付完整差/跳。下一步执行后验G_L缺陷公式及真实径向核积分。
