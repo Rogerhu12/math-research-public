@@ -21,3 +21,6 @@
 
 
 - [R603：原结点两支的实际gluing与第五条角条件](../results/R603-original-nodal-two-branch-gluing-and-actual-fifth-condition.md)：最低角恰三重时，原两支四jet的t对角为1,1,t,t⁴；显示有限前缀内由真实原列整实现全部像，五条左条件及同R/T的Qn首边界均付。另一临界值t⁴单位正处第一允许阶，未把第二支或新增联合目标当原物理余核。
+
+
+- [R605：同一原中央的两真像与完整三域外补偿](../results/R605-original-two-core-images-and-complete-complement.md)：全五坐标转置准确积分原分别带单位指示的观察，两像首负三/五行同一比例；显示固定λκ总系数在原ray删稀疏坏集后为单位。完整总行减三域外积分的相邻深度差返回原I1，误差p4n；所有carry、七coset及高尾保留，未给余补或负矩赋零。
