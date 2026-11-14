@@ -66,3 +66,6 @@
 
 
 - [R619：原Cartier稀疏行与完整第二Newton块](../results/R619-original-cartier-sparse-rows-and-second-newton-block.md)：原整坐标Cartier付X_(s+ap)稀疏消失，整个n<2L参数仅H_L一极，log仅ps二阶极；原指数/全theta多项式给p²g_(m,p+h)=γ_mb^Lg_(m,h)直到h=p−2。完整j模p^(p+1)保第p项原值；原j0使前p项之和升入p^(p+1)，块回读未添中央零。
+
+
+- [R612充要范围增补](../results/R612-original-full-source-weighted-kernel-and-fixed-nodal-exit.md)：原全C模p评价单射恰当且仅当p>6(b_D+13)；反向由同格顶基列的准确权6b_D及既证核理想直接给出。未把模p核列冒特征零扭结或非空真层。

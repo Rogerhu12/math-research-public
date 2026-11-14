@@ -521,3 +521,5 @@
 - 2026-11-14 23:41:06 UTC / Astra-rank2-Sha-continue：R618证明原第二Gaussian临界项v=-2及余项精确R₂、闭边界非Tate，付全系数/完整Newton尾与原中央Euler延拓；旧Gaussian及来源预算保持。原H/open完整归档后压缩，实际pull仍无环境，核新main两README；继续R623真实成本和原中央非零。
 
 - 2026-11-14 23:42:01 UTC / Astra-rank2-Sha-continue：R619付原Cartier稀疏行、唯一ps二阶极及全第二Newton块末端p−2；完整j下一位保T_p原值，同源块不添零。8363既有纤维精确项已付，未作新扫描；实际pull仍无环境、两README核新main，继续R622同中央连接/R623成本。
+
+- 2026-11-14 23:42:53 UTC / Astra-rank2-Sha-continue：R612增补全物理模p单射的充要范围p>6(b_D+13)，反向用原顶基列准确权；模p核不冒特征零扭结或真实非空层。实际pull失败后核两README无变，继续原截止内forcing/全成本。
