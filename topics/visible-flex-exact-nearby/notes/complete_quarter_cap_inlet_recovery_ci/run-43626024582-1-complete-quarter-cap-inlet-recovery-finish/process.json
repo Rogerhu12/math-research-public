@@ -8,7 +8,46 @@
   "workflow_commit": "fa32dee6bb851ebdc6b5e30fe6d396fb9c0fc590",
   "worker_source_sha256": "cdaebcd03696c86249dc2cb0798a39fb4e4fabef92259af7ec3fcbe63c12a9e2",
   "started_utc": "2026-11-14T18:45:35.441650+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_quarter_cap_finish",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-inlet-finish-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_quarter_cap_inlet_recovery.py",
+        "--phase",
+        "finish",
+        "--workflow-run",
+        "43626024582",
+        "--out",
+        "/__w/_temp/visible-exact-inlet-finish-output/native/complete1977-fixed-eta-quarter-cap-sources.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-inlet-finish-plan/native/complete1977-fixed-eta-quarter-plan.json.gz",
+        "--range-natives",
+        "/__w/_temp/visible-exact-inlet-finish-range/visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1/native/new-fixed-eta-quarter-domains-0000-0256.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-256-512-43623547711-1/native/new-fixed-eta-quarter-domains-0256-0512.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-512-768-43623547711-1/native/new-fixed-eta-quarter-domains-0512-0768.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-768-1024-43623547711-1/native/new-fixed-eta-quarter-domains-0768-1024.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1/native/new-fixed-eta-quarter-domains-1024-1280.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-1280-1536-43623547711-1/native/new-fixed-eta-quarter-domains-1280-1536.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-1536-1792-43623547711-1/native/new-fixed-eta-quarter-domains-1536-1792.json.gz",
+        "/__w/_temp/visible-exact-inlet-finish-range/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1/native/new-fixed-eta-quarter-domains-1792-1977.json.gz",
+        "--range-processes",
+        "/__w/_temp/visible-exact-inlet-finish-range/visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-256-512-43623547711-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-512-768-43623547711-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-768-1024-43623547711-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-1280-1536-43623547711-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-work/original-completed-range-artifacts/visible-exact-complete-quarter-cap-range-1536-1792-43623547711-1/process.json",
+        "/__w/_temp/visible-exact-inlet-finish-range/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1/process.json"
+      ],
+      "started_utc": "2026-11-14T18:45:52.353251+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000693076000005,
+      "finished_utc": "2026-11-14T18:46:02.354393+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T18:45:36.627864+00:00",
@@ -33,6 +72,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:46:02.763869+00:00",
+      "before": "73adcd65b7ad6d7108c3fb114fc6616bb7b025e1",
+      "after": "fd7fd330886eafd2d7c6158a38c4bb2b488bf7bc",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -40,6 +87,11 @@
       "time": "2026-11-14T18:45:38.889537+00:00",
       "final": false,
       "commit": "513fa27fb01783fdfcbaef1b707d082f949130d8"
+    },
+    {
+      "time": "2026-11-14T18:45:52.351042+00:00",
+      "final": false,
+      "commit": "fd7fd330886eafd2d7c6158a38c4bb2b488bf7bc"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -77,11 +129,11 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "73adcd65b7ad6d7108c3fb114fc6616bb7b025e1",
+  "last_read_commit": "fd7fd330886eafd2d7c6158a38c4bb2b488bf7bc",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-inlet-finish-work/science",
   "actual_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
-  "snapshot_utc": "2026-11-14T18:45:50.864510+00:00",
-  "wall_seconds": 15.423432044999998,
+  "snapshot_utc": "2026-11-14T18:46:02.793670+00:00",
+  "wall_seconds": 27.352591669999995,
   "native_files": [
     {
       "logical_file": "evidence/actual-original-plan-process.json",
@@ -136,6 +188,12 @@
       "file": "evidence/actual-quarter-range-1792-1977-process.json",
       "bytes": 9086,
       "sha256": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
+    },
+    {
+      "logical_file": "native/complete1977-fixed-eta-quarter-cap-sources.json.gz",
+      "file": "native/complete1977-fixed-eta-quarter-cap-sources.json.gz",
+      "bytes": 1493163,
+      "sha256": "770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298"
     }
   ],
   "actual_original_outer_range_jobs": [
