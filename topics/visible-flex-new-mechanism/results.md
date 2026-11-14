@@ -109,3 +109,5 @@
 - [R52：真正重叠profile平面的完整三阶圆](results/R52-overlapping-profile-plane-complete-third-order-circle.md) — even flat bump乘四维偶多项式，以I0/I2准确广义谱构造等长正交f/g，含全部谱退化情形；任意O2换基后仍在同一开稠密集重叠。三矩及三交叉矩支付Hd/Hc两个二阶解，局部化八packet七差分同时消四条third ruling，倒行消四period。正确Ztheta=sin²theta Zd−cos theta sin theta Zc，给同一指定g的完整三阶Oepsilon4；四阶仍欠，不把复平方当正模平方。
 
 - [R53：真正重叠profile的四阶常段最高次门与准确隐函数构造](results/R53-overlapping-profile-fourth-leading-gate-existence.md) — 四相位58个位置的组内均值/方差准确相同，以N=(4,48,3,3)、幅平方(3,1/2,4,4)和平方相位(-1,1,omega,baromega)同时消三个复种子式；六实控制Jac行列式−716636160。固定raw宽后共同lambda缩放，使用合法的约束外光滑延拓与IFT，给真正重叠profile的三矩、完整二三阶及k0/h1/omega0常段全部四阶sigma²相位系数为零。只过一个常状态最高次门，完整四阶/有限族/宏观几何仍欠。
+
+- [R54：全常状态的螺旋面迁移、准确相位矩与第一段常数gauge](results/R54-constant-state-helicoid-transfer-and-first-ruling-gauge.md) — 常(k,h,omega)段经准确刚体、H=h²/(1+k²)缩放与Möbius profile权转为标准螺旋面，原最高sigma²系数=标准乘h²。总复能量尾零下准确消非局部J，给每状态共享相位/幅度的两个有限四次式。P起点指定二阶零锚使四阶ruling无一次项；R53支付最高项后，一个全局第三profile gauge可清第一常段常数，保±准确种子且不改第四period。其他常段/连接段/全部period未付，不能各段选独立gauge。
