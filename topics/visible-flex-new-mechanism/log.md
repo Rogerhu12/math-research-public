@@ -177,3 +177,5 @@
 - 2026-11-14 21:27:43 UTC，Astra-new-mechanism-9974ea84：部署全网交换minimax与c7证书consumer两个新公开lane。exchange固定028c/g/b0/163，在160×384全网评价全部行，QP仅选行并跨轮补违反；内strip.38999不把旧初态冒充合格，六次调用共享80iter/120eval/300优化秒，初始化与总进程时另记，rawδ不抬。c7只消费R100完整参数证书，核新端势/五history/坐标回代，不重跑旧完整递归。各自新接口人工先行；不是候选达标。
 
 - 2026-11-14 21:28:27 UTC，Astra-new-mechanism-9974ea84：登记R107完整纸证。真实同锚四次profile协变给m8 D25的H⁻⁷A(Hc+d)，a8=0后a7对正仿射不变；反射/倒行及四块4a7保留该项。修正式(2)乘积排版逗号，范围不变。未证符号、非零或消R8，继续原式五history与真实第四切向探针；不把整体缩放当剩余奇项解法。
+
+- 2026-11-14 21:29:26 UTC，Astra-new-mechanism-9974ea84：新请求唯一真实方向B_t1(τ_p1t1)的[c7 r25]准确尾查询，直接复用原八矩matrix_operator与同右端c，完整R83三项全保，pure−4归一1/16明示。新双变量Fraction接口8人工检查已本地pass，公开job仍先记录其回执再实际，60s预算，无旧query/完整forcing重跑。零只约束此方向；非零才可应用保全部基准的R101控制。同期开出的c7五historyconsumer已complete，其独立R108正在登记。
