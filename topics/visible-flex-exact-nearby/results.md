@@ -317,3 +317,7 @@
 ## 同w0的完整帽Hessian费用：单列合同与公开消费者
 
 [H.1–8合同](notes/2026-11-14-R133-particular-cap-Hessian-contract.md)及152input新CI已推。只在原准确97输入（含mean）方向w0上计算T w0的二阶换坐标源，原1341local系数/1977真实Hermite交格/四个完整Green增益/旧resolvent全复用。普通源按真长度Legendre积分，divergence先逐Fourier槽径向sup再模式合并，无额外长度。原97HS×||w0||是同标量范数的独立界，首格准确9/10延拓已核，可逐行取min。未知input差eZ−w0仍由旧完整moving误差operator支付，不用单方向估计冒充算子界。真实预算待Actions，原source cells不重跑。
+
+## 2026-11-14 16:41:12 UTC — 同一w0帽Hessian实际完成
+
+[实际验收](results/R133-supplement-actual-particular-w0-cap-Hessian.md)：公开43616252389实际10门，1341局部格/1977 Hermite交格，数学82.080329s、child0；native `9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650`。完整四源/mean给特定方向加性<1.033484771e−5，旧HS×||w0||<1.372740655e−5；只收紧已知方向，未知eZ−w0仍由原完整moving误差算子付费，不授完整cut或PDE响应。

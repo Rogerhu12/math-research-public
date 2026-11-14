@@ -47,3 +47,7 @@
 ## 2026-11-14 16:39:38 UTC — 扩大真实根域失败原样保留；仅修区间读取后续算
 
 实际 run43615829270 已在14.543639s保全负区/root全部成功前缀（native `feab71e2ba588e79f97f2beb821b5db29425bf7c69dceb010719ec0df6dd49cd`，2717855B），随后第一positive行的K符号门失败。原缓存独立directed lower/upper含严格正下界，而v1仅取显示ball。本提交独立v2准确复用原 `box_from_record` 的 `lower.lower().union(upper.upper())`；204输入与旧199输入逐path逐SHA完全一致并新增旧失败native/原来源。逐原interval与piece核后跳过全部实际成功前缀，旧169germ/4650行/response193系数不重算，原失败及六件源不修改。候选.001至.02真实半径须实际≥.005通过；未授forced幅度、strong/cutoff或PDE存在。H全文归档后更新。
+
+## 2026-11-14 16:41:12 UTC — 独立验收同w0 Hessian
+
+已亲读实际process（SHA d3af78ba64ff5f4f6dca4a5bb66bda6f3158ea12cb7eeda69e0e0331099c69d5）及11597B摘要（25a788b030b7082f98b1a1f29dfca40f4e0a838627b30f7965695614a926fe14），10门全真/child0/1341+1977完整。最后真实pull 16:36:12→5fd683323dea40a4400fdb3437a990838762bd17，两README差异为空。结果独立入report；继续同Z全cut/Green合成，divergence为当前主预算，但此上界不充当误差下界。
