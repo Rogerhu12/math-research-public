@@ -19,3 +19,8 @@
 ## 2026-11-14 23:56 Asia/Taipei · serre-public-resume-20261114
 - R741由原整数Norm及N_h偶赋值证明单位标签比例U/g>(1−εp)/2、liminf≥1/2；给2^64/160/512三明确比例，无M2非零前提。
 - 同h两Cartier系数、原高度和主目标仍开；HANDOFF完整归档后压缩，open/index同步。R738已公开启动，继续实际Hodge/周期。无新数学计算或共享设施修改。
+
+## 2026-11-15 00:03 Asia/Taipei · serre-public-resume-20261114
+- R738正式登记原p41闭周期输入：run43612108090，4920陪集、g400、819相对/800闭基、交配det1，9.78秒；真实c1=4424(k=C)与原c0/deck/反线性标记保持。
+- cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009；两大表135387/170516B只artifact，全部源/参数/SHA完备，未重算。
+- 原目标模型R735及拓扑输入已成，继续同一原正CM Hodge/adelic表与实际周期求值；q/β/高度未出。HANDOFF/open/index同步，无新共享设施修改。

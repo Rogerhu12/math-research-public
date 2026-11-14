@@ -187,3 +187,6 @@
 
 
 - **R741（已证明）**：[大量原本原单位toric范数](results/R741-abundant-original-primitive-unit-toric-norms.md)。R740偶赋值和R733全嵌入几何均值给U/g>(1−εp)/2、liminf≥1/2；在2^64/160/512以上分别>3/7、15/32、125/256。保原标签/向量/torus，无M2非零前提；不冒断与两个Cartier单位集的交集。
+
+
+- **R738（已证明并完成精确计算）**：[原p41带标记整数闭周期输入](results/R738-certified-original-p41-period-input.md)。完整Q8图式/4920陪集/整SL2Z端点给819相对基、800闭基及原定向交配det1；原c1=C/index4424和c0粗轨道、deck与反线性全部保持。公开run43612108090，完整表仅artifact；后续原Hodge/period/q/β和高度仍须实际生成。

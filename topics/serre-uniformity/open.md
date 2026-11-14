@@ -336,7 +336,7 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
 
 
-**R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，下一项原4920coset闭周期输入，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。
+**R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，原4920coset/800闭周期输入已由R738完成，继续原Hodge/adelic矩阵，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。
 
 
 **R740（已证明）**：每个真本原原N_h的p赋值为非负偶数。用原Weyl/Bruhat模型得到实际循环整格和准确Sym^(2r)det^(−r) Gram商，再由T不变维数一排除radical；完整整数恒等式N_h=(p+1)c_h²G(w_h,w_h)、后因子为单位。原P_h=S2,hS3,h/C0²的奇偶仍独立，未由模p平方同余推出高精度结论。详[R740](results/R740-even-valuations-of-original-finite-toric-norms.md)。
@@ -346,3 +346,6 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 
 
 **R741（已证明）**：原本原有限范数N_h单位占比U/g>(1−εp)/2，εp=log(5(2+log2p))/logp→0；p≥2^64、2^160、2^512分别>3/7、15/32、125/256。证明使用真实全嵌入整数Norm、p在实系数域完全分裂、R740每个非单位赋值至少二及R733完整平均，无M2非零前提。仍须同h两个C单位；与R737的低Abel赋值集合不可直接假定相交。详[R741](results/R741-abundant-original-primitive-unit-toric-norms.md)。
+
+
+**R738（原带标记闭周期输入已完成）**：公开run43612108090在原六层Q8图式和同一p项链上生成4920陪集及每条整SL2Z代表；g400、20个宽246尖点、819整数相对基、800整数闭基与交配det1。原c1唯一实标签C为4424，deck[4424,0,1258]对应[1,ζ,ζ²]；c0三轨道是同一个粗点。两完整大表只artifact，cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009。真正待继续的是原正CM因子的Hodge/完整adelic表及周期求值；原q函数/β/高度未出。详[R738](results/R738-certified-original-p41-period-input.md)。
