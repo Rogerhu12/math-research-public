@@ -21,13 +21,12 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀：39完整步但小下降，40同父QR比较
+### 前缀：40完整QR有效但工作行耗尽；下一从40继续32行
 
-699/M112/T112/N2048、236036完整坐标、全112非零H；26引擎7d75a44a…/B af7966fa…冻结，每轮独立weights。17–35全事实在actual notes，不重跑；30完整H劣C且17CG未达目标，32/35最近限制先471后mid475，原完整数组均核。
-37/run43618014985十一query：α1/16同weights下降.037699755252447176；较近1/8、1/4仅原RMS470拒。col.0071103207854/BC8.074771843e−8/FD8.381607559e−10，仍非BVP/native；102 B NPZ650数组/父链核，actual37 note4bb02b64…全文读。
-父37 notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz SHAdd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8；status37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0。
-39/twelvequery run43620111146/source56e891284/job132523707261 success；artifact14123527874/226302799B/ZIP21402157…与111 B NPZ708数组/全部父链/27及FD31源全核，actual39前缀note765bc047…全文读。固定S投影200sweeps仍272负slack/min−22.568；全向量radial .0026450024后τ1重组获唯一α1，固定merit44.292419650985686→44.29019103902422/drop.00222861196146，col.0071103172664/FD7.528714322e−10仍非BVP。完整B24576×236036/4397局部列，S4059及outside负offset不省略，无新坏query支持扩组。新warm451e7ef1540d897602ea7e45170aafa1cd2684fa8936f2b4b442f97ce6090d4f/status51122351db657b94ad36d327f865ed9b44a52fde8c84062ef6bbda7194620317。
-40/twelvequeryqr已接同父37（非39新warm），源4b768828…/FD721f6337…/接口62e30778…全文读。唯一live A/weights及全部块，QR596356…保338链+112border/pureglobal/λ一次；原C/H choose正文AST不改。helper300s/active16/H1200/预留90s、总1200s、column=none，不存1.49GB因子；失败started=False保C/已有基，不旧PCG重试。原A/AT及额外reference逐次账，QR大阵artifact-only。40/run43621054216/source8a59ebd9已success；389895464B/ZIP8f83ed58…全取审计中。helper67.452s/16工作行预算止，inverse约1e−10；H被选/α1真降，正式note待全核。
+699/M112/T112/N2048、236036完整坐标、全112非零H；26引擎7d75a44a…/B af7966fa…冻结，每轮独立weights。17–39原事实与父链均在actual notes；39十二query同父37，111 B NPZ708数组/全部源核，固定S200sweeps仍272负slack，radial .002645后α1真降.00222861，非BVP/native。
+40/twelvequeryqr run43621054216/source8a59ebd9/job132526640205 success；artifact14123843853/389895464B/ZIP8f83ed58…全核。仍同父37，全部B文件逐位同39/model18a5ad26…；完整338链+112border/pureglobal/λ一次QR19.1285s、1.486GB因子仅内存，17完整inverse原H残差L2约1e−10。helper67.452s到16工作行上限非时间，未修复方向全stationarity4.9305e−9但1804负slack/min−33.725；全向量repair .0095900792后H44.28257<C44.29019，原α1真降44.292419650985686→44.28040624161529/drop.01201340937；全原域过，col.00711030802717/BC7.9973e−8/新FD7.157355711e−10，仍非BVP/native。
+actual40主note2884841d…及QR审计c12bb189…全文读：111 B NPZ708数组/63 fullH NPZ/68 QR inverse NPZ及父37/当前31+FD35源/全部basis/reference bits核；因子未导出不冒独立原coef审计。damping解释d48d8b67…：λ270是步正则、当前入口硬锁，非实际merit/物理方程；现col无argmax，不猜470/473。
+下一父40 notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/warm-001.json.gz SHA c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda；status 30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359，Git实际bytes已核。冻结入口4b768828…/FD721f6337…/QR596356c0…不改，下一仅active16→32、原300s/1200H/90reserve/1200total/λ270/17trial保持；模型weights须按新场重建，无新坏query支持扩组。
 
 ### Native：39完整失败，41捕获首单元每个原步
 

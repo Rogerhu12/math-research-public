@@ -24,12 +24,16 @@
 | [35十query](notes/2026-11-14-actual-request35-ten-query-step-and-midpoint475.md) | RMS471保护后α1/16真降.040416810520135016；最近1/8仅原mid475坏，全部十query正 | warm24ca673e…/FD9.255484210e−10，94 B NPZ594数组及原父链全核；下一只加mid475 |
 | [37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) | α1/16真降.037699755252447176；1/8、1/4全node/mid及十一query过，完整left-RMS唯一470拒 | warmdd837483…/FD8.381607559e−10；39已完成固定局部支持的十二query |
 | [39十二query固定S](notes/2026-11-14-actual-request39-fixed-support-projection-and-full-step.md) | C局部200sweeps仍272负slack；全向量radial .0026450024与原segment重组后α1真降.0022286119614634003，全原域过 | warm451e7ef1…/status51122351…/FD7.528714322e−10；col仍.0071103173，无新坏query支持扩组 |
+| [40完整QR-H](notes/2026-11-14-actual-request40-complete-QR-H-working-row-limit.md) | 同父37的完整QR逆残差约1e−10；67.452s到16工作行上限，未修复全stationarity4.93e−9但1804负slack；repair .009590后H优C，α1真降.01201340937 | warmc62a7f12…/status30f19320…/FD7.157355711e−10；全部B/H/inverse数组核，col仍.007110308，下一同入口32行 |
 
 30最佳R267浮点下界表达式43.11565368239749来自原raw LSMR零乘子证据点，非后续H改善；跨点给C的gap表达式.7894044861，没有严格舍入包络。不同轮会刷新原权重，不能把不同轮merit相减。R262/263/265/267是有限优化工具，不新增原BVP门。
 
 [actual37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) 全字节核验已完成，新warm/status为当前父。新增mid475在较近档有效，实际限制移到470。[request39十二query接口](notes/2026-11-14-twelve-query-fixed-support-RMS470-interface.md) 已接完整RMS470和同次原nodal J/P，但把局部投影可改节点固定在既有471–482+p；外部raw LSMR方向通过完整B_out z0_out进入affine offset。之后全向量radial仍会缩放外部，必须如实记录。保原λ270/LSMR200/17trial/全域/FD，无性能或QP收敛预断。原engine仅单模型iterations=1，不盲串旧十一query。
 
-[request40完整QR入口](notes/2026-11-14-twelve-query-complete-QR-warm-interface.md) 已接同actual37父场，保十二query C baseline及完整global H候选；唯一原A/weights，300s/16active/1200H预算内以一次QR替内解，无旧PCG重试。原同f选择正文/原17trial/全域/新FD保持，失败保C；[R268](results/R268-complete-regularized-chain-border-QR.md)完整证明已发布。39前缀完整原包已核：111 B NPZ708数组、13端点/完整fixed-S/当前27与FD联集31源及全部父身份；其整步应用的是已强缩的方向，不能据α1自动优于37，也不跨轮减merit。40实际run43621054216同父37比较正在执行。
+[request40完整QR入口](notes/2026-11-14-twelve-query-complete-QR-warm-interface.md) 已实际完成同父37比较，完整事实见[actual40](notes/2026-11-14-actual-request40-complete-QR-H-working-row-limit.md)及[QR inverse字节审计](notes/2026-11-14-actual40-complete-QR-inverse-byte-audit.md)。唯一原A/weights及全部338链+112border，原同f选择/17trial/全域/FD保留。完整逆作用已准确到原H读回约1e−10；剩余直接限制是16工作行上限时全B仍1804负slack，故下一从实际40新warm/status继续同冻结入口、active32，保原时间/H预算和所有验收。不是从39新warm续，也不复用旧weights或跨轮减merit。无新坏query，不扩第13组。
+
+[damping、坐标尺度和col读数解释](notes/2026-11-14-warm-damping-scales-and-collocation-readouts.md) 已按源和实际记录说明：λ270只定义当前步正则且冻结入口硬锁，S与Wr也不改变物理方程；真实merit无damping项，unweighted integrated col max与weighted L2不是同一量。现存报告未保存col argmax，不能猜其所在单元或模式。该分析没有改源或新增数值。
+
 
 ### 1B. Native：修复保存完整系统的原尺度线性缺陷
 

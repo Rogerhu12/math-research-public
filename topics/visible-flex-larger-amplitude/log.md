@@ -291,3 +291,10 @@ adapter38989B/fde0e039…、consumer19017B/30a467e8…及接口13516B/2d266a71�
 ### 2026-11-14 R269原生零参考的完整坐标代数
 
 完整证明直接入results及索引，不作本地数值：从已按205b28…源核过的零形状块，保μ/方向/r/w约定，显式推导v剪切及u=r⁴q、k=r³(m²q+bp)，所有G_x项保留，得u_x=r_xk、k_x=(w_x/w)(m²u/r−k)。常w严格推出仿射传播/两端G恢复和原行列式1；可变w及尺度条件不偷换。任意完整有限shooting的节点可逆块G给全stage、cut/far及原σ缺陷恢复，保实际port和非零模式；连续变换与RK4不普遍交换有明确反例。不给实际J、条件数、trial或BVP改善，不加审核/科学门。
+
+
+### 2026-11-14 actual40完整QR-H与全部数组审计完成
+
+公开run43621054216/source8a59ebd9/job132526640205/artifact14123843853，389895464B/ZIP8f83ed58…全核。111 B NPZ708数组逐位同同父39；31当前与FD35源、原父37、63 fullH NPZ/68完整QR inverse NPZ及全部basis/reference/final/trial证据核。完整QR19.1285s/1486451296B内存因子未导出；17原H逆读回L2约1e−10，helper67.452s因16工作行预算止。未修复全stationarity4.930496854e−9仍1804负slack/min−33.72526277，不能冒QP最优；全向量repair .0095900792后同f H44.28257352优C44.29019464，原α1固定merit44.292419650985686→44.28040624161529，真实drop.012013409370396744/ratio1.21672，全原域过。新warm c62a7f12…/status30f19320…已核Git全bytes；col.00711030802717/BC7.9973e−8/新FD7.157355711e−10仍非BVP/native。完整主note2884841d…/QR审计c12bb189…直接发表；下一同入口从40重建weights、工作行16→32，保其余预算及原门。无新坏query，不凭空扩组。
+
+damping/scales解释d48d8b67…全文读：lambda270是步正则、不入实际merit或物理方程，当前冻源硬锁；S、Wr定义及full col max不同于weighted L2。现报告无col argmax，未推测位置；只有已保存数值和纯代数解释，无新本地科学计算。已核大型缓存副本按记录释放，原Actions artifact未动。
