@@ -48,4 +48,4 @@ Closure preserves physical/z0/materialcutangle mean ninejets/coreball exclusion/
 Freeze scalar p*/g/interval/t/caps;release allcore K=k=0,T=M,same-g v4dim450/514;same live TailClient newH/J->FD->fullmain->fresh audit.699bisected1397 needs actualbudget>1200.
 R248strongC2/R241allpairsreach/R238/254/258reflection/R251operator await realfield.16fixtures/oldsmall cases done;held allblocks/twocaps/fullD independentofreach.R259backup unrun;R238-273indexed. Numerical evidence not rigorous existence.
 
-规则同步记录：2026-11-14 22:36:03 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4063e3254c2569461564c3d2d3b802bb557b0bca。
+规则同步记录：2026-11-14 22:36:13 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 71d20f26399c5849f3068d5dcf2ea85f3a44370f。
