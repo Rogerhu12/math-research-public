@@ -54,6 +54,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:26:31.450154+00:00",
+      "before": "31686a120fdbf514254b7bb1fe275b0fb210ea2e",
+      "after": "55ddd2b2bb13c4ad84c526ce25d0a450f3400b79",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -61,6 +69,11 @@
       "time": "2026-11-14T16:26:24.064110+00:00",
       "final": false,
       "commit": "31686a120fdbf514254b7bb1fe275b0fb210ea2e"
+    },
+    {
+      "time": "2026-11-14T16:26:31.040089+00:00",
+      "final": false,
+      "commit": "55ddd2b2bb13c4ad84c526ce25d0a450f3400b79"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -94,12 +107,24 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "31686a120fdbf514254b7bb1fe275b0fb210ea2e",
+  "last_read_commit": "55ddd2b2bb13c4ad84c526ce25d0a450f3400b79",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-delta-positive-work/science",
   "original_native_restoration_verified": true,
-  "snapshot_utc": "2026-11-14T16:26:29.508573+00:00",
-  "wall_seconds": 9.778040001999997,
+  "snapshot_utc": "2026-11-14T16:26:31.460680+00:00",
+  "wall_seconds": 11.73014806399999,
   "native_files": [
+    {
+      "logical_file": "evidence/full-delta-complete-regular-Hs-outer-actual-outcome.json",
+      "file": "evidence/full-delta-complete-regular-Hs-outer-actual-outcome.json",
+      "bytes": 2929,
+      "sha256": "9879af467126c2931e70ab969f1c6bb0cd03cbf952d7bce7a5eb69510ec61bac"
+    },
+    {
+      "logical_file": "evidence/full-delta-complete-regular-Hs-outer-summary.json",
+      "file": "evidence/full-delta-complete-regular-Hs-outer-summary.json",
+      "bytes": 23649,
+      "sha256": "769204e822787216c5aebd2cde30e73759fcf66d3bb1d6d1d76d2381bad6cae6"
+    },
     {
       "logical_file": "evidence/original-native-restoration-receipt.json",
       "file": "evidence/original-native-restoration-receipt.json",
@@ -112,5 +137,7 @@
       "bytes": 4788,
       "sha256": "5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc"
     }
-  ]
+  ],
+  "actual_full_delta_outer_complete": true,
+  "actual_full_delta_outer_native_sha256": "5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc"
 }
