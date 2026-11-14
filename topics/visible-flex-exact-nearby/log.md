@@ -579,3 +579,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14 15:14:01 UTC — root规矩4公式分隔符
 
 将本轮三个root新文件的行内/展示公式分隔符统一为$与$$；只改格式，不改数学、原native或输入身份。Riccati R1–20另经phase全文静态核：真实Robin/flux、R9、C两行、频率Duhamel及R19–20一致，仍不把δd∂当0阶或旧核当新核。
+
+### 2026-11-14：实际 cut v2 失败的独立只读收据
+
+43609037484 child1/5.000556915s，原native9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4（1282B）。第二失败原因尚未从原件取出，不能复用v1理由猜测。新 receipt-only worker 保原manifest/producer/worker身份，下载原小artifact并导出真实failure/gates/末段stdout；不下载767MB或运行数学。终端15:25仍不可用，根规则8小文本路径继续，H旧全文完整归档。
