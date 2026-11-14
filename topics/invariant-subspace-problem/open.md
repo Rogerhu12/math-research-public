@@ -23,7 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原来源新障碍：** [完整B85 mod961不可解](notes/2026-11-14-r150-complete-b85-bockstein-obstruction-789f.md)已含全部初值核自由；下一步为已知β任意移位/共同g、余两cost86及31饱和，不能退回固定补空间重复提升。
+**原来源预算：** [射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)给B≥85完整商=仿射315＋∞torsion；[完整B85 mod961不可解](notes/2026-11-14-r150-complete-b85-bockstein-obstruction-789f.md)已含全部初值核自由；下一步为已知β任意移位/共同g、余两cost86及31饱和，不能退回固定补空间重复提升。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
