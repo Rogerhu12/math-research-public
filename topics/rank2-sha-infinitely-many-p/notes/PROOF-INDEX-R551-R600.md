@@ -62,3 +62,6 @@
 
 
 - [R578：全原临界低边界消元、二jet forcing与固定carry极部](../results/R578-complete-critical-boundary-elimination-and-fixed-polar-carry.md)：原低r行由实际列整可逆消去，其核为全t内容子格加≤4条Qn及必要Qquad；完整首forcing等价同一原来源的两条短jet像判据。固定临界极部由carry α/B给出，同一R/26carry与原d2保持，极部不代非零证书。
+
+
+- [R574：真实九坐标惰性全jet包络与积分分母成本](../results/R574-nine-coordinate-inert-envelope-and-primitive-denominator-cost.md)：七个V的真实短分母段在任意原混合乘积中损失至多Γp(6k,min(D,k))；与原高度二Gauss合并，对全部D/k和同一饱和前缀给惰性3klogk+3klogmin(D,k)+O(k+D)。新增成本保留，严格门/条件cutoff均未当实际改善。

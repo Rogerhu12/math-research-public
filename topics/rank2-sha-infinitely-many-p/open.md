@@ -192,9 +192,9 @@ R560完整π5、两个不交strip、全部Y/W对数和S14第六质量校正按[�
 
 [R567：原正负完整首两行与同一五sigma来源消元](results/R567-native-both-strips-and-exact-five-sigma-normal-jets.md)：两个完整条带合为β^(n+1)(χF++F−)/(bΩ6)；真实H/R1转置各消一个原sigma输入，同一五sigma的S10/S7条件行、全部第七矩及第六矩质量修正精确付清。首层判据C0/p+λ²C1保原log质量/实际cut，非零仍未付。 **待做：** 判残差C0/p+λ²C1及R567(34)整个uunit/c,ddeep补偿；残差即使非零也不能排原中央同时零，把两套T10/T7实际伴随和R562四unit/R565规范Cartier行进行合法同源比较。原未加权边际零只付sigma消元，不删带D的常数log行；第七矩24bΩ7与S7/S10质量项全保。
 
-### 真实乘子补齐部分低角尾带
+### 真乘子低角尾带
 
-[原乘子与低角吸收](notes/2026-11-14-deep-original-source-multipliers-and-low-angle-tail-absorption.md)付全S乘法、十二权H的47自由帽周期和源商47D−200；各自真子核中用Q/SQ/S²Q保全部charge/carry吸收末三尾，即使逐系数τ≤2。**待做：** 两主体子核之外的实际原边界、一般K1另外三carry尾及同修正d2；不将核交与子格和交换，来源O(D)补边不等物理forcing容量。
+全S乘法、十二权H的47自由帽周期、各自真子核尾像及所有charge/U0/carry按[完整前检](notes/2026-11-14-open-before-r574.md)保持。**待做：** 余边界、实际命中和同修正d2；不得交换ker∩子格和，来源O(D)补边不代forcing容量。
 
 ### R569：原完整五维卷积单位与实际四unit行
 
@@ -229,10 +229,9 @@ ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同�
 [R572：完整原C分离、简单极点单位行与真实arith比较](results/R572-original-c-splitting-and-simple-pole-unit.md)：全三sigma恒等式给µ0=σc⊗(BvΛB+σv³ΛP)，五次g5对全部(c,v)测试准确抽原σ⊗B。原四unit的简单极点φ积分由4−11β及两完整深尾为单位；原S/T中央精确回ΛB五输入，原q共同支、三carry补支与carry外余域全保。 **待做：** 式(29)同一原来源上全部真实测试差与混合补域；φ是明确log比导数加正一权，仍不是原Y/W中央。全g5提取只对(c,v)测试成立，原A0依赖Z/Q/r、q含v与κ^-n，不能删去这些条件；单位行不赋两指定负矩或原中央非零。
 
 
-### R577：同预算临界基准与全原forcing像
+### R577：同预算临界基准与完整首forcing
 
-[R577：同一原临界因子的Euler整提升与完整首forcing](results/R577-original-critical-factor-euler-lift-and-complete-first-forcing.md)：低ell、r=ν≤2的原相对首核，经全十九角因子提升和正权1/n真积分得到同预算Pcrit；整个JA准确为实际代数临界支三法向jet。首forcing给充要像判据，完整p³及同R的26carry/d2保全部二次高尾，未赋实际非零。 **待做：** 实际F_P与整个Tψ(W_D)的像比较；可解时用同一R读原d2，不能自由另配26carry或高尾。r1/ν2的非单位临界支仍开；提升可依赖p，未给全局新高度界，局部/来源可逆不赋物理像饱和。
-
+真Euler临界因子提升、整个JA三法向jet、全p³及同R的26carry/d2按[完整前检](notes/2026-11-14-open-before-r574.md)保持。**待做：** R578真实二jet像判据与特定forcing；r1ν2外支仍开，不把来源可逆/局部极部当物理非零。
 
 ### R575：七个固定原函数及两个原负矩缺陷
 
@@ -242,3 +241,8 @@ ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同�
 ### R578：整个低边界核与固定临界极部
 
 [R578：全原临界低边界消元、二jet forcing与固定carry极部](results/R578-complete-critical-boundary-elimination-and-fixed-polar-carry.md)：原低r行由实际列整可逆消去，其核为全t内容子格加≤4条Qn及必要Qquad；完整首forcing等价同一原来源的两条短jet像判据。固定临界极部由carry α/B给出，同一R/26carry与原d2保持，极部不代非零证书。 **待做：** 具体G_P与全部Dψ原像的比较，或将固定极部接到真正杀全原列的左行；α非零只阻整临界支延拓，不排物理提升。r2/ordα1时临界支极部与临界值极部不同，原同R高尾和下一位不能改配。
+
+
+### R574：九坐标实际惰性成本
+
+[R574：真实九坐标惰性全jet包络与积分分母成本](results/R574-nine-coordinate-inert-envelope-and-primitive-denominator-cost.md)：七个V的真实短分母段在任意原混合乘积中损失至多Γp(6k,min(D,k))；与原高度二Gauss合并，对全部D/k和同一饱和前缀给惰性3klogk+3klogmin(D,k)+O(k+D)。新增成本保留，严格门/条件cutoff均未当实际改善。 **待做：** 同一普通全饱和3klogD的独立证明，以及原算术条件下同一九格的惰性严格增益；若普通界成立，门为aI+9bI<21，当前(3,3)未过。条件性全jet cutoff须实际支付，原M的有限低行不自动扩大到这九个坐标。
