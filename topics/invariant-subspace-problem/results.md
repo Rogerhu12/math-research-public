@@ -997,3 +997,7 @@
 ### R297 附录：真实后验score的互逆权完整列预算
 
 [完整同源证明](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)对任意平衡star组数/组长/正权取τ_S=(S+1)/(Q−S+1)，逐样本保全列与两个零端点，给EτFbarFbar*≤2H及Eτ⁻¹BbarBbar*≤2L。混合M=E FbarBbar*因此有完整正块[[2H,M],[M*,2L]]；Q≥2时准确内点ab≤2Q/(Q−1)进一步把两对角系数改为η_Q=√(2Q/(Q−1))。未以未加权残差范数或M代原J，真正全部线性回归在两互逆权间的同源运输仍须支付。
+
+### R297 附录：平衡star唯一负方向与权一致的明确正补偿
+
+[完整自足证明](notes/2026-11-14-balanced-star-one-negative-direction-and-positive-compensation-789f-next.md)将真实G−nm*准确自伴化为Khat=D−W，D为完整binomial噪声、W=E[t(1−t)ff*]。一维方差完成平方在实际ω∝t(1−t)F中给W−ww*/Ea≤θD；进一步按正负权组长M±得到Khat+ww*/Ea≥D/(M±+1)≥D/(Q+1)，对全部正权一致。Q>1时真实Khat恰一负/其余严格正且无零，Q1严格另列；推出m*G⁻¹n>1但不声称统一上界。全部噪声、物理源和补偿保留，不能由惯性或依赖Q的gap代一般相位κ。

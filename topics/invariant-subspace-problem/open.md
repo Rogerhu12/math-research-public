@@ -122,6 +122,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **两端互逆权：** [完整列预算](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)已付τ=(S+1)/(Q−S+1)下两个后验score各常数2及混合正块η_Q≤2；原全线性回归的两权运输仍缺，M不代J。
 
+**唯一负方向：** [真实Khat正补偿](notes/2026-11-14-balanced-star-one-negative-direction-and-positive-compensation-789f-next.md)给Q>1惯性(m−1,1,0)及Khat+ww*/Ea≥D/(M±+1)≥D/(Q+1)。仍须在同一H/L/G中控制该负方向和均值交叉；m*G⁻¹n>1不提供普适上界，Q1另为零。
+
 ## 当前接口三：一般系数行、多个模式与中央域
 
 旧行类、种子/比较/最高字符条件及完整来源保[本次前全文](notes/2026-11-13-handoff-open-before-faithful-vacuum-support-0c.md)。未列旧接口保持原状态。
