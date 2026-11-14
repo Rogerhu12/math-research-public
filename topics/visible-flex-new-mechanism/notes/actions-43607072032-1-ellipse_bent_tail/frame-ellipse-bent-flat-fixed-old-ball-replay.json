@@ -1,0 +1,275 @@
+{
+  "schema": "old-enriched-ball-readonly-replay-v1",
+  "source_tail_unchanged": true,
+  "source_metric_unchanged": true,
+  "source_coefficients_not_optimized_or_refitted": true,
+  "radial_nodes": 121,
+  "angular_nodes": 768,
+  "source_audit": {
+    "radial_nodes": 121,
+    "angular_nodes": 768,
+    "radial_center_quadrature_order": 8,
+    "integrability_residual_max_sample": 1.5992538243182652,
+    "metric_relative_operator_error_max_sample": 1.7279955894758574,
+    "E_error_max_sample": 1.7279955894758574,
+    "F_over_a_max_sample": 0.6383216469300799,
+    "G_over_a_squared_error_max_sample": 8.881784197001252e-16,
+    "minimum_area_sample": 0.2199999999999999,
+    "principal_curvature_absolute_max_sample": 39.11621322010752,
+    "induced_Gauss_curvature_min_sample": -70.15751144950923,
+    "induced_Gauss_curvature_max_sample": 88.99181926784546,
+    "shape_operator_discriminant_min_before_roundoff_clip": 5.04927121508914e-32,
+    "radial_metric_min_sample": 0.22,
+    "radial_metric_max_sample": 0.6917169621957359,
+    "target_Gauss_curvature_min_sample": -3.6513296151084425,
+    "target_Gauss_curvature_max_sample": 13.159089521120128,
+    "target_frame_unit_error_max": 6.661338147750939e-16,
+    "target_frame_orthogonality_max": 2.220446049250313e-16,
+    "target_T_angle_mean_max": 3.937768177356969e-16,
+    "primitive_identity_error_max_sample": 2.1961231787374128e-12,
+    "metric_bound_from_sampled_R_not_continuous": 11.3348606891619,
+    "metric_bound_is_not_a_continuous_certificate": true,
+    "position_abs_max_sample": [
+      1.000000000000008,
+      0.3652742882362601,
+      0.4261277167982781
+    ],
+    "position_min_sample": [
+      -1.000000000000008,
+      -0.36527428823626007,
+      0.02
+    ],
+    "position_max_sample": [
+      1.000000000000008,
+      0.3652742882362601,
+      0.4261277167982781
+    ],
+    "signed_side_height_minus_core_width_min_sample": 0.0,
+    "signed_side_height_margin_is_only_sampled": true,
+    "height_limit": 0.45,
+    "height_positive_violation_sample": 0.0,
+    "center_height_first_last": [
+      0.02,
+      0.15513801979919117
+    ],
+    "ellipse_projection_envelope": {
+      "normalized_ellipse_radius_squared_max_sample": 1.7018533883482958,
+      "positive_violation_sample": 0.7018533883482958,
+      "ellipse_major": 1.0,
+      "ellipse_minor": 0.28
+    },
+    "position_two_jet_endpoint_errors": {
+      "core": {
+        "X": 8.740734912882104e-14,
+        "Xs": 0.0,
+        "Xt": 3.775166431889533e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 2.7465400791133423e-15
+      },
+      "tail": {
+        "X": 2.1138016631127878e-16,
+        "Xs": 9.564476294310814e-16,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0
+      }
+    },
+    "continuous_metric_bound_proved": false,
+    "continuous_shape_bound_proved": false,
+    "embedding_proved": false,
+    "whole_surface_reach_proved": false,
+    "task_complete": false,
+    "current_shape_budget": {
+      "kind": "disk-strip",
+      "active_shape_residuals": [
+        "(Xx^2+Xy^2)/disk_radius^2-1",
+        "+Xy/strip_half_width-1",
+        "-Xy/strip_half_width-1",
+        "+Xz/height_limit-1",
+        "-Xz/height_limit-1"
+      ],
+      "legacy_ellipse_axes": [
+        1.0,
+        0.28
+      ],
+      "disk_radius_exact": "1",
+      "strip_half_width_exact": "33/100",
+      "height_limit_exact": "9/20",
+      "shape_weight": 2.0,
+      "disk_strip_residuals": [
+        "(Xx^2+Xy^2)/disk_radius^2-1",
+        "+Xy/strip_half_width-1",
+        "-Xy/strip_half_width-1",
+        "+Xz/height_limit-1",
+        "-Xz/height_limit-1"
+      ],
+      "disk_strip_terms_are_active": true,
+      "positive_part": "same smooth_positive epsilon=1e-8 as the published solver",
+      "per_sample_normalization": "all R and shape components divided by sqrt(radial_nodes*angular_nodes)",
+      "sufficient_budget_is_conditional_on_the_entire_surface": true,
+      "disk_strip_budget_requires_its_containment_even_when_not_the_selected_objective": true,
+      "diameter_upper_formula": "2*sqrt(disk_radius^2+height_limit^2)",
+      "Hausdorff_support_lower_formula": "core.major-strip_half_width, at phase pi/2",
+      "held_disk_diameter_formula": "2*cut_radius",
+      "continuous_projection_height_or_reach_proved": false
+    },
+    "disk_radius_squared_normalized_max_sample": 1.000000000000016,
+    "disk_positive_violation_sample": 1.5987211554602254e-14,
+    "strip_abs_normalized_max_sample": 1.1068917825341216,
+    "strip_positive_violation_sample": 0.10689178253412157,
+    "ellipse_projection_is_legacy_diagnostic_not_current_constraint": true
+  },
+  "new_shape_budget_for_comparison_only": {
+    "kind": "ball-strip",
+    "active_shape_residuals": [
+      "|X|^2/R^2-1",
+      "+Xy/p-1",
+      "-Xy/p-1"
+    ],
+    "ball_radius_exact": "101/100",
+    "strip_half_width_exact": "19/50",
+    "shape_weight": 2.0,
+    "positive_part": "published smooth_positive epsilon=1e-8",
+    "per_sample_normalization": "all R and shape components divided by sqrt(radial_nodes*angular_nodes)",
+    "legacy_ellipse_and_height_are_only_diagnostics": true,
+    "legacy_height_diagnostic": 0.45,
+    "diameter_upper_exact": "101/50",
+    "Hausdorff_support_lower_exact": "31/50",
+    "conditional_delta_over_D_lower_exact": "31/101",
+    "held_disk_diameter_exact": "11/25",
+    "conditional_held_diameter_over_D_lower_exact": "22/101",
+    "reference_reach_design_target_exact": "61/1000",
+    "entire_closed_surface_containment_is_required": true,
+    "continuous_containment_or_whole_surface_reach_proved": false,
+    "proof_source": "results/R40-bent-flat-tail-normal-chord-and-ball-budget.md"
+  },
+  "ball_strip_global_extrema": {
+    "ball_radius_squared_normalized": {
+      "value": 0.9849302796139343,
+      "absolute_value": 0.9849302796139343,
+      "t": 0.060000000000000005,
+      "theta": 0.0,
+      "radial_index": 8,
+      "angular_index": 0
+    },
+    "strip_abs_normalized": {
+      "value": 0.9612481269375266,
+      "absolute_value": 0.9612481269375266,
+      "t": 0.41250000000000003,
+      "theta": 1.5707963267948966,
+      "radial_index": 55,
+      "angular_index": 192
+    }
+  },
+  "same_grid_as_published_double_angle_audit": true,
+  "published_summary_comparison": {
+    "integrability_residual_max_sample": {
+      "current": 1.5992538243182652,
+      "published": 1.5992538243182652,
+      "difference": 0.0
+    },
+    "metric_relative_operator_error_max_sample": {
+      "current": 1.7279955894758574,
+      "published": 1.7279955894758574,
+      "difference": 0.0
+    },
+    "minimum_area_sample": {
+      "current": 0.2199999999999999,
+      "published": 0.2199999999999999,
+      "difference": 0.0
+    },
+    "principal_curvature_absolute_max_sample": {
+      "current": 39.11621322010752,
+      "published": 39.11621322010752,
+      "difference": 0.0
+    },
+    "height_positive_violation_sample": {
+      "current": 0.0,
+      "published": 0.0,
+      "difference": 0.0
+    },
+    "signed_side_height_minus_core_width_min_sample": {
+      "current": 0.0,
+      "published": 0.0,
+      "difference": 0.0
+    }
+  },
+  "old_objective_cost_from_source": 0.06133840755085816,
+  "old_objective_definition": {
+    "kind": "disk-strip",
+    "active_shape_residuals": [
+      "(Xx^2+Xy^2)/disk_radius^2-1",
+      "+Xy/strip_half_width-1",
+      "-Xy/strip_half_width-1",
+      "+Xz/height_limit-1",
+      "-Xz/height_limit-1"
+    ],
+    "legacy_ellipse_axes": [
+      1.0,
+      0.28
+    ],
+    "disk_radius_exact": "1",
+    "strip_half_width_exact": "33/100",
+    "height_limit_exact": "9/20",
+    "shape_weight": 2.0,
+    "disk_strip_residuals": [
+      "(Xx^2+Xy^2)/disk_radius^2-1",
+      "+Xy/strip_half_width-1",
+      "-Xy/strip_half_width-1",
+      "+Xz/height_limit-1",
+      "-Xz/height_limit-1"
+    ],
+    "disk_strip_terms_are_active": true,
+    "positive_part": "same smooth_positive epsilon=1e-8 as the published solver",
+    "per_sample_normalization": "all R and shape components divided by sqrt(radial_nodes*angular_nodes)",
+    "sufficient_budget_is_conditional_on_the_entire_surface": true,
+    "disk_strip_budget_requires_its_containment_even_when_not_the_selected_objective": true,
+    "diameter_upper_formula": "2*sqrt(disk_radius^2+height_limit^2)",
+    "Hausdorff_support_lower_formula": "core.major-strip_half_width, at phase pi/2",
+    "held_disk_diameter_formula": "2*cut_radius",
+    "continuous_projection_height_or_reach_proved": false
+  },
+  "sampled_only": true,
+  "complete_ball_containment_proved": false,
+  "source_path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json",
+  "source_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+  "source_identity": {
+    "source_mathematical_state_sha256": "56f1e738059a135d7ecd6c9c6d04293018a46b29f416945c28781c5333c8d3c8",
+    "source_space_definition_sha256": "c293bdac88cf10bd5df59cea964f5fc3564b4018feb377379fbf1c5994067fbb",
+    "source_files_sha256": {
+      "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+      "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+      "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+      "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+      "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028"
+    },
+    "source_exact_binary64_roundtrip": true,
+    "source_is_replayed_in_its_original_physical_tail": true,
+    "baseline_replay": {
+      "reconstructed_frozen_state_sha256": "16e2a69f01f0ccaf1724bb27a0b1f5713950c7d6ec73c58a7acd755b0351eb3f",
+      "metric_mathematical_definition_sha256": "f8b81d3a177457f084cbf04379bb9979036f98ce2a8d7e2fbf04fccaadbdf870",
+      "all_recorded_dependency_hashes_match_current": true,
+      "exact_field_binary64_roundtrip": true,
+      "metric_is_frozen_for_this_audit": true,
+      "source_was_metric_design": false,
+      "source_files_sha256": {
+        "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+        "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+        "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5"
+      }
+    }
+  },
+  "github_sha": "14dd7dd9b786e957c6b5daf12db36fcbe234adb6",
+  "github_run_id": "43607072032",
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab"
+  }
+}

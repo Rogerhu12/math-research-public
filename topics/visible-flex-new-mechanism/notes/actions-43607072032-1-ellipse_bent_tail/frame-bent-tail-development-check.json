@@ -1,0 +1,240 @@
+{
+  "schema": "bent-tail-frame-development-v1",
+  "checks": [
+    {
+      "side": 1,
+      "unknown_count": 22,
+      "directional_full_jacobian_relative_error": 4.502311335039046e-09,
+      "mixed_scalar_jet_relative_error": 3.7208492390098777e-10,
+      "right_Hermite_endpoint_jet_errors": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inner_flat_disk_scalar_error": 0.0,
+      "source_234_layout_replay_test_uses_smaller_artificial_layout": true,
+      "source_coefficient_replay_bitwise": true,
+      "source_hash_tamper_rejected": true,
+      "same_g_evaluation_bitwise": true,
+      "same_g_full_identity": true,
+      "endpoint_position_two_jet_errors": {
+        "core": {
+          "X": 3.425688279680842e-14,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 5.978733960281817e-16
+        },
+        "tail": {
+          "X": 2.0206364052201326e-16,
+          "Xs": 9.236678567666754e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "open_tail_audit": {
+        "single_cap_height_h_sample": 0.5472480773143448,
+        "height_from_other_tail_rows_difference_max_sample": 3.8948633207525063e-10,
+        "position_two_jet_difference_from_single_exact_P_sample": {
+          "X": 4.536547570371034e-09,
+          "Xs": 3.989683196925729e-06,
+          "Xt": 1.3877787807814457e-16,
+          "Xss": 0.0012687303532638047,
+          "Xst": 5.978733960281817e-16,
+          "Xtt": 1.4220500840710912e-16
+        },
+        "open_tail_scalar_jet_difference_sample": {
+          "u": {
+            "value": 0.0,
+            "s": 0.0,
+            "ss": 0.0,
+            "theta": 0.0,
+            "st": 0.0,
+            "ss_theta": 0.0
+          },
+          "v": {
+            "value": 0.0,
+            "s": 0.0,
+            "ss": 0.0,
+            "theta": 0.0,
+            "st": 0.0,
+            "ss_theta": 0.0
+          },
+          "beta": {
+            "value": 0.0,
+            "s": 0.0,
+            "ss": 0.0,
+            "theta": 0.0,
+            "st": 0.0,
+            "ss_theta": 0.0
+          }
+        },
+        "tail_integrability_residual_max_sample": 4.469496198730726e-16,
+        "tail_angle_and_center_integration_errors_not_interval_bounds": true,
+        "height_is_not_refitted_separately_at_each_circle": true,
+        "tail_geometric_budget": {
+          "curvature_upper_exact": "525/64",
+          "tail_pair_normal_chord_radius_lower_exact": "64/525",
+          "physical_cap_height_drop_upper_exact": "33/5000",
+          "horizontal_radius_upper_exact": "143/500",
+          "whole_surface_reach_not_implied_by_tail_pair_bound": true,
+          "continuous_tail_bound_source": "results/R40-bent-flat-tail-normal-chord-and-ball-budget.md"
+        }
+      },
+      "artificial_tail_primitive_refinement": {
+        "artificial_accurate_cap_only": true,
+        "fixed_physical_tail_identity_sha256": "a6abfdecb051dde32babfc392a026a4f572d65c69a11e204cedd0e977e6c4482",
+        "rows": [
+          {
+            "angular_nodes": 192,
+            "centerless_position_error": 4.926030999663121e-09,
+            "Xs_error": 3.9896831969743e-06,
+            "Xss_error": 0.0012687303532690208
+          },
+          {
+            "angular_nodes": 384,
+            "centerless_position_error": 3.654474854625893e-11,
+            "Xs_error": 6.079689734901087e-08,
+            "Xss_error": 3.541217382694157e-05
+          },
+          {
+            "angular_nodes": 768,
+            "centerless_position_error": 4.688714973594521e-13,
+            "Xs_error": 7.255029771392214e-10,
+            "Xss_error": 1.8795614903641516e-06
+          }
+        ],
+        "finite_comparison_not_continuous_bound": true,
+        "C5_angle_onset_requires_resolving_nonanalytic_angular_thresholds": true,
+        "passed": true
+      }
+    },
+    {
+      "side": -1,
+      "unknown_count": 22,
+      "directional_full_jacobian_relative_error": 7.513876214978056e-09,
+      "mixed_scalar_jet_relative_error": 3.7208492390098777e-10,
+      "right_Hermite_endpoint_jet_errors": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inner_flat_disk_scalar_error": 0.0,
+      "source_234_layout_replay_test_uses_smaller_artificial_layout": true,
+      "source_coefficient_replay_bitwise": true,
+      "source_hash_tamper_rejected": true,
+      "same_g_evaluation_bitwise": true,
+      "same_g_full_identity": true,
+      "endpoint_position_two_jet_errors": {
+        "core": {
+          "X": 3.425688279680842e-14,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 5.978733960281817e-16
+        },
+        "tail": {
+          "X": 2.0206364052201326e-16,
+          "Xs": 9.236678567666754e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "open_tail_audit": {
+        "single_cap_height_h_sample": 0.5465759279543834,
+        "height_from_other_tail_rows_difference_max_sample": 3.8948633207525063e-10,
+        "position_two_jet_difference_from_single_exact_P_sample": {
+          "X": 4.536547570371034e-09,
+          "Xs": 3.989683196925729e-06,
+          "Xt": 1.3877787807814457e-16,
+          "Xss": 0.0012687303532638047,
+          "Xst": 5.978733960281817e-16,
+          "Xtt": 1.4220500840710912e-16
+        },
+        "open_tail_scalar_jet_difference_sample": {
+          "u": {
+            "value": 0.0,
+            "s": 0.0,
+            "ss": 0.0,
+            "theta": 0.0,
+            "st": 0.0,
+            "ss_theta": 0.0
+          },
+          "v": {
+            "value": 0.0,
+            "s": 0.0,
+            "ss": 0.0,
+            "theta": 0.0,
+            "st": 0.0,
+            "ss_theta": 0.0
+          },
+          "beta": {
+            "value": 0.0,
+            "s": 0.0,
+            "ss": 0.0,
+            "theta": 0.0,
+            "st": 0.0,
+            "ss_theta": 0.0
+          }
+        },
+        "tail_integrability_residual_max_sample": 4.469496198730726e-16,
+        "tail_angle_and_center_integration_errors_not_interval_bounds": true,
+        "height_is_not_refitted_separately_at_each_circle": true,
+        "tail_geometric_budget": {
+          "curvature_upper_exact": "525/64",
+          "tail_pair_normal_chord_radius_lower_exact": "64/525",
+          "physical_cap_height_drop_upper_exact": "33/5000",
+          "horizontal_radius_upper_exact": "143/500",
+          "whole_surface_reach_not_implied_by_tail_pair_bound": true,
+          "continuous_tail_bound_source": "results/R40-bent-flat-tail-normal-chord-and-ball-budget.md"
+        }
+      },
+      "artificial_tail_primitive_refinement": {
+        "artificial_accurate_cap_only": true,
+        "fixed_physical_tail_identity_sha256": "a6e063fb4c45b1bc0e05207678f9ee2ce4d1af257e6b49c982f3f8d175dcfcbb",
+        "rows": [
+          {
+            "angular_nodes": 192,
+            "centerless_position_error": 4.926030999663121e-09,
+            "Xs_error": 3.9896831969743e-06,
+            "Xss_error": 0.0012687303532690208
+          },
+          {
+            "angular_nodes": 384,
+            "centerless_position_error": 3.654474854625893e-11,
+            "Xs_error": 6.079689734901087e-08,
+            "Xss_error": 3.541217382694157e-05
+          },
+          {
+            "angular_nodes": 768,
+            "centerless_position_error": 4.688714973594521e-13,
+            "Xs_error": 7.255029771392214e-10,
+            "Xss_error": 1.8795614903641516e-06
+          }
+        ],
+        "finite_comparison_not_continuous_bound": true,
+        "C5_angle_onset_requires_resolving_nonanalytic_angular_thresholds": true,
+        "passed": true
+      }
+    }
+  ],
+  "passed": true,
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab"
+  }
+}
