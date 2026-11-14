@@ -258,3 +258,6 @@ R237完整证明直接results；实际96 binary64全转有理数，含前32舍�
 
 ### 2026-11-14T08:41:16+00:00 — sphereM96materialquintic (local; public approval pending)
 对已接受M96/416节点，用节点值/RHS/有限ODE二导构造实际物理五次插值并真正微分，再按全96新rho重新反解材料角；831×1024及1661×2048两档metric均6.65151e−8、κ6.30099→6.30153、球样本保持，真exit0。R237供全角rho正性；有限采样不冒连续误差/闭面证书，.99续法尚未启动。
+
+### 2026-11-14T08:43:28+00:00 — rk48readoutenospc (local; public approval pending)
+v3真16读出08:37:18实际exit1/ENOSPC，写node-04712失败；完整RK48 Newton/J/audit包无损。4713个存在文件/123242580 bytes只作文件统计，不冒完整节点；压缩完整性与partial SHA另留scratch。磁盘字节不足而非inode，保真实intent/terminal/stderr与恢复动作，仅清自有可重建副本后同g续算。

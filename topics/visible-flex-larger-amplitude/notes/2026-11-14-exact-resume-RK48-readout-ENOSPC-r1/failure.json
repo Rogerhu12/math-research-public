@@ -1,0 +1,31 @@
+{
+  "finished": true,
+  "success": false,
+  "actual_tool_exit_code": 1,
+  "tool_session": 13425,
+  "reason": "ENOSPC during actual RK48 16-point readout; solver result remains successful and archived.",
+  "failed_component": "RK48-real-sixteenth-nodes",
+  "failed_component_actual_exit_code": 1,
+  "failed_utc": "2026-11-14T08:37:18.120356+00:00",
+  "node_files_present": 4713,
+  "node_compressed_bytes": 123242580,
+  "last_completed_stage_progress": {
+    "event": "stages",
+    "completed": 288,
+    "total": 576,
+    "seconds": 351.53613246899994,
+    "diagnostics": {
+      "maximumEndpointCanonicalDifference": 1.1368683772161603e-13,
+      "maximumEndpointRowRelativeDifference": 1.0755848165337093e-14,
+      "maximumSampleMetric": 1.4981447693231712e-16,
+      "maximumFormalCurvature": 7.984976367791786,
+      "minimumLeading": 0.8635103083329754,
+      "minimumD": 0.99992850011653
+    }
+  },
+  "readout_complete_file_present": false,
+  "readout_result_present": false,
+  "partial_nodes_retained": true,
+  "recovery_status": "Free only owned reproducible duplicates, then rerun the unchanged v3 entry in a fresh output directory; do not touch other tasks.",
+  "solver_result_success": true
+}
