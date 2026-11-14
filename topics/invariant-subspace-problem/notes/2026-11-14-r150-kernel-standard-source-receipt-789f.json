@@ -1,0 +1,86 @@
+{
+  "format": "r150-kernel-standard-source-run-v1",
+  "field": 31,
+  "status": "completed",
+  "graphSHA256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+  "graphReceiptSHA256": "49a285abff1cf3687f87987eb22bfdb9b9c580e47dd82e76a342d008ce9c3842",
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "sourceCoefficientSHA256": "b60b747fabff6796d79135391fa1e53d29cd91b70f9be6c88dc863242f802a9c",
+  "sourceCoefficientReceiptSHA256": "846de2defbc72c0c55e1fcabafd4881299a44f3ee7f5a3056b62191782a951f4",
+  "cppSHA256": "e2371deff32463df2e3d952ecb2b9814dc9e13bc45b4674f719e862e52b28e47",
+  "runnerSHA256": "c2a7f7ad7ca4fd5edef1352953119400994d1f2543620a0a3f80beeb5f2e4a4d",
+  "arithmeticHeaderSHA256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+  "weightedSourceBudget": 146,
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "canonical-coefficients.bin": {
+      "bytes": 538687,
+      "sha256": "9b324992d72d4bdf41e007e1ffe2474b494dc87b4d1c04ddf89a95094c54aec6",
+      "gzipFile": "/tmp/isp-kernel-standard-789f/canonical-original-coefficients.bin.gz",
+      "gzipBytes": 347913,
+      "gzipSHA256": "1634cfbf67f86334b675fa3b03b892f55c4517c4e85773d46cfb5eb06d7e3b5f"
+    },
+    "metadata": {
+      "file": "/tmp/isp-kernel-standard-789f/kernel-canonical-coefficients.json",
+      "bytes": 51928,
+      "sha256": "3f534fc3fde66a27c4fe83a144b512c5c369b7b9d596b454cab3834e3a5d5eb2"
+    }
+  },
+  "binarySHA256": "c29aa6f7a2a87ceee2bce65c115e5d326253d6a8f36c539a2bb5963361778582",
+  "compileMode": "provided-binary",
+  "lastProgress": {
+    "status": "canonical-original-source-complete",
+    "field": 31,
+    "standardSourceColumns": 116877,
+    "maximumCoefficientDegree": 69,
+    "nonzeroSources": 1797,
+    "nonzeroCoefficients": 462122,
+    "fullNormalFormSourceIdentity": true,
+    "standardKernelNormalForm": true,
+    "minimalWeightedSourceCost": true,
+    "targetCosts": [
+      85,
+      85,
+      85,
+      84,
+      85,
+      85,
+      85,
+      85,
+      85
+    ],
+    "reductions": 612223,
+    "additionWordCalls": 753993628,
+    "peakRSSKiB": 23936,
+    "elapsedSeconds": 6.51095
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 6.552540463002515,
+  "nativeStatistics": {
+    "status": "canonical-original-source-complete",
+    "field": 31,
+    "standardSourceColumns": 116877,
+    "maximumCoefficientDegree": 69,
+    "nonzeroSources": 1797,
+    "nonzeroCoefficients": 462122,
+    "fullNormalFormSourceIdentity": true,
+    "standardKernelNormalForm": true,
+    "minimalWeightedSourceCost": true,
+    "targetCosts": [
+      85,
+      85,
+      85,
+      84,
+      85,
+      85,
+      85,
+      85,
+      85
+    ],
+    "reductions": 612223,
+    "additionWordCalls": 753993628,
+    "peakRSSKiB": 23936,
+    "elapsedSeconds": 6.51095
+  }
+}

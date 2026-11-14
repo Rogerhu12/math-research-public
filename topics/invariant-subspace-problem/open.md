@@ -139,7 +139,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原M5 6188×4367、泛秩4354；rankAy8及0/2/−6/∞已闭。原NF/GB/全torsion315、九目标Ann24及全部旧范围保[此前全文](notes/2026-11-14-open-before-phase-transfer-789f.md)。[完整T96](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)已得1021输出/1174纯核、次数和716及全部RC=h31T；[原17式模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)已全原系数核验并保存完整gzip。余g≠0/rankAy9有限Σ、char0 h0=s³(s−2)F+²F−²E8的原来源/真实分母；线性逆最小分母46次不可免费降至24次。其他mean秩/高ess/自然幂仍开，不重跑旧std/高次反向DAG。
+**高本质rank1原中心17式。** 原M5 6188×4367、泛秩4354；rankAy8和0/2/−6/∞已闭。[完整旧范围](notes/2026-11-14-open-before-kernel-standard-source-789f.md)保全torsion/Ann24/线性分母等。[原17式模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)已全原系数核验并保存gzip；[kernel标准源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)实得九目标最小共同cost85/最高69次，确定217374个char0独立原整数列及其模31逆。余有限Σ、char0 h0=s³(s−2)F+²F−²E8像包含/真实分母；下一项为固定列31²残差，有限模成功不代特征零。其他mean秩/高ess/自然幂仍开。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 

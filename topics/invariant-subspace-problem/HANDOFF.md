@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `5caff1ebbf2dfb0e1375fc607f64abf78dedd421`（2026-11-14 13:29:07 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `fb0857349ea29872d2008188f36ad05568f00912`（2026-11-14 13:32:50 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **当前规则：** 只在公开`Rogerhu12/math-research-public`工作，用本库Actions；不恢复旧代跑，公开文件无凭据。规则12取消额外独立复核，旧变更/迁移授权保此前H。
 - **工作树：** 根在 `/workspace/scratch/789f3e887d7c/math-research-recovered`；旧工作目录完整保留供代理独占稿。12:35断连后环境恢复，临时盘旧Git元数据、NF/GB/DAG及前缀均已失，不假称可续读；远端两条恢复结论818e9d7b/4c071886已同步。原17式回代未执行。
@@ -43,9 +43,10 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 - 完整原生NF已付2195来源/9目标、1034分量/最高45次，原来源DAG全保；完整GB给1021基、最高8次/总716，全部torsion NF≤7、状态维820；证明/入口全链保前H。
 - 全挠空间W维315，charpoly315/minpoly190，CW=0/AW=WJ及九目标坐标/压缩状态全存；五个额外模31因子共60次/各平方，不当复异常点，证明链保此前H。
 - [九目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)共同最小Ann h31=s³(s−2)²(s−1)P+²P−²E6度24；j4/10少(s−1)度23。额外五因子与s+6均不进入任何目标。候选h0=s³(s−2)F+²F−²E8仅待char0证明。
-- 模31 GQ=hT全1034分量已核，Q最高49次/342321非零，压缩证书已存；旧反向前缀976来源/最高1018次停止，不全展开，恢复链保此前H。
+- 原GQ=hT度49及停止的高次数反向前缀保此前H；现在以T96完整图和标准kernel实际来源取代该展开。
 - [T96全图与九目标实际证书](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)：CI43597823809全流程完成。T96 18.705秒给1021输出/1174纯核，输出次数和716；九目标4.84342秒全RC=h31T，系数最高130、2108非零源/1569777非零系数，完整1.12MB gzip已推。全部输出/原来源degree界≤146−δ通过，原17补偿界136。
 - [原17式完整模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)已实际取得：一次18.119秒完整β/DAG/D-content恢复与4367×147×9原系数核验，原系数最高135、5435非零原行/4452535非零系数；完整3.166MB gzip已保存。char0 h0原来源恒等式仍缺，不能以单模完成代替。
+- [kernel唯一标准来源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)已6.51095秒实得最高69次、1797非零源/462122系数；九目标最小cost=[85,85,85,84,85,85,85,85,85]，完整gzip已存。B85标准NF列54596，加原预基形成217374个char0独立整数列/219032输出，目标char0像包含仍缺；正实现首个31²真实残差判据。
 - 特征零线性块精确Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46；单位双核补给全部9阶gcd及横向逆最小分母，h0是其真因子。非线性项/Γ不可删，不能由一次线性逆免费得到24次预算。
 - 原∞一阶图保原全部6188来源，常数秩4340/连接秩4，模31∞除子阶≥24、齐次总度≥339。不给char0厚度或未算高阶上界；原74次条件准则在31不触发。整个除子与目标Ann分开。
 - **运行与恢复：** 本次T64重建365.749秒，hash与旧基同；仅一次T96即完成。大基/NF/DAG已由artifact14114364261恢复到 `/tmp/isp-t96-recovery-789f`，完整九目标C在仓库；不重跑旧std/高次DAG。原17恢复已在60秒/512MiB界内18.119秒完成，不再重复。
