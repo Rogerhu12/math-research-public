@@ -1,0 +1,420 @@
+{
+  "configuration": {
+    "D": "16950949224494125663770199202322730161405759062016",
+    "a_max": 8113,
+    "cutoff": 49372920,
+    "cutoff_multiple": 360,
+    "finite_field": {
+      "all_powers_sha256": "b0dc2c1c2541096b41158e75ed8249bd5d1a298a408c83e44c4d4145d86dfa95",
+      "basis": [
+        "1",
+        "zeta"
+      ],
+      "gamma": [
+        131992,
+        75276
+      ],
+      "gamma_to_n_over_3": [
+        0,
+        1
+      ],
+      "order": 137148,
+      "prime_factors_order": [
+        2,
+        3,
+        11,
+        1039
+      ],
+      "projective_log_table_sha256": "838ef50a88f160565715b643cef1826d0f9aa404f7b623f3670fdef7825c253d",
+      "relation": "zeta^2+zeta+1=0"
+    },
+    "n": 137148,
+    "normalization": "R588 original chi6, theta_{-1}, S2*S3/C0^2; R717 v1",
+    "parameter_sha256": "1a174a52ff6037bd8b6c963884869b21b38240d1f54b9acf94ad338e2c5fef71",
+    "prec_bits": 384,
+    "prime": 137147,
+    "python_flint": "0.9.0",
+    "result": "R717",
+    "shard_count": 4,
+    "source_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "tail_bits": 256
+  },
+  "count": 137148,
+  "failure_counts": {
+    "complex_unique_integer_missing": 137148,
+    "real_unique_integer_missing": 137148,
+    "imaginary_interval_excludes_zero": 0,
+    "real_radius_not_strictly_below_quarter": 137148,
+    "real_interval_excludes_nearest_midpoint_integer": 0,
+    "imaginary_midpoint_nonzero": 137148,
+    "any_original_gate_failed": 137148
+  },
+  "original_failed_count": 137148,
+  "recomputed_failed_indices_equal_original": true,
+  "first_recomputed_failed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "real_radii": {
+    "count": 137148,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "62255661",
+      "exponent": 278413,
+      "approx_log2_abs": 278438.89170169376
+    },
+    "maximum": {
+      "mantissa": "532573319",
+      "exponent": 278783,
+      "approx_log2_abs": 278811.98840491293
+    },
+    "median_lower": {
+      "mantissa": "620034573",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.2077734212
+    },
+    "median_upper": {
+      "mantissa": "620034609",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.207773505
+    }
+  },
+  "imaginary_radii": {
+    "count": 137148,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "62255661",
+      "exponent": 278413,
+      "approx_log2_abs": 278438.89170169376
+    },
+    "maximum": {
+      "mantissa": "532573319",
+      "exponent": 278783,
+      "approx_log2_abs": 278811.98840491293
+    },
+    "median_lower": {
+      "mantissa": "620034573",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.2077734212
+    },
+    "median_upper": {
+      "mantissa": "620034609",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.207773505
+    }
+  },
+  "midpoint_distance_to_nearest_integer": {
+    "count": 137148,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "20515730242811532933453868623455225818356120654627080079895786462207273346079665586269720521060582066458244693521783",
+      "exponent": -548,
+      "approx_log2_abs": -164.9415385811061
+    },
+    "maximum": {
+      "mantissa": "298627694495633621597407695",
+      "exponent": -188,
+      "approx_log2_abs": -100.05152156685743
+    },
+    "median_lower": {
+      "mantissa": "21223039827504128205873575",
+      "exponent": -187,
+      "approx_log2_abs": -102.86616631605081
+    },
+    "median_upper": {
+      "mantissa": "10611888121389450752617089",
+      "exponent": -186,
+      "approx_log2_abs": -102.86611625704694
+    }
+  },
+  "absolute_imaginary_midpoints": {
+    "count": 137148,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "1",
+      "exponent": -188,
+      "approx_log2_abs": -188.0
+    },
+    "maximum": {
+      "mantissa": "7277209153761312682191314397763905705723040085595727301053366790397623861038668072238135359267534061661645309612701",
+      "exponent": -531,
+      "approx_log2_abs": -149.43681190714068
+    },
+    "median_lower": {
+      "mantissa": "31631774502298168281520764309674187201482793056156099296597822252374962278199901321402646151406980527595244817807703",
+      "exponent": -540,
+      "approx_log2_abs": -156.31689459647185
+    },
+    "median_upper": {
+      "mantissa": "3954043701654831197851334453739780562501545625631099103015713593033613145311203586746284970882057059647077993868523",
+      "exponent": -537,
+      "approx_log2_abs": -156.31686836644928
+    }
+  },
+  "stored_max_real_radius": [
+    "532573319",
+    278783,
+    "0",
+    0
+  ],
+  "first_ten_failed_samples": [
+    {
+      "index": 0,
+      "real": [
+        "15729258292084436521995048086171657554888799450499898335452363765927472195432087497141870000328393516257348644478263",
+        -180,
+        "430490585",
+        278782
+      ],
+      "imaginary": [
+        "-1",
+        -188,
+        "430490585",
+        278782
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "168495455754465559732937",
+        "exponent": -180,
+        "approx_log2_abs": -102.84294413448562
+      }
+    },
+    {
+      "index": 1,
+      "real": [
+        "13364691600992703623882225093389937416494693109591326795033454959890289789241884710807819887467419628506388804928159",
+        -186,
+        "858892013",
+        278781
+      ],
+      "imaginary": [
+        "-7277209153761312682191314397763905705723040085595727301053366790397623861038668072238135359267534061661645309612701",
+        -531,
+        "858892011",
+        278781
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "8675126919079323778679455",
+        "exponent": -186,
+        "approx_log2_abs": -103.15684085790153
+      }
+    },
+    {
+      "index": 2,
+      "real": [
+        "-38772656805107581724229593037856924311565289306941776550430430068388680517715998738394077787802932375597632220854873",
+        -188,
+        "26775349",
+        278786
+      ],
+      "imaginary": [
+        "-3723750841004604489075609427614168736364909594589740111915749470119615662827130157298188141278314729703128690901239",
+        -531,
+        "26775349",
+        278786
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "61447551393291057608230311",
+        "exponent": -188,
+        "approx_log2_abs": -102.33244210563362
+      }
+    },
+    {
+      "index": 3,
+      "real": [
+        "-19702318982720796905810183021768599855552166664388530535352750482188958398977236497488605519072028928456961480499797",
+        -187,
+        "427369295",
+        278782
+      ],
+      "imaginary": [
+        "-37075714279211120486850919239738204307664857991596499347671861895453922578725442443975574812473585667944391074363705",
+        -535,
+        "854738589",
+        278781
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "19720314079410449863451221",
+        "exponent": -187,
+        "approx_log2_abs": -102.9721150985545
+      }
+    },
+    {
+      "index": 4,
+      "real": [
+        "-29204118682486896221728158243639478981157235519773510848218429220806103811511264759031631254361534351590571538876919",
+        -192,
+        "26646069",
+        278786
+      ],
+      "imaginary": [
+        "-26052865764333418762832778058596550921853025390610757659163161661320989469429840855029755978065492679498985162178483",
+        -535,
+        "26646069",
+        278786
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "1150611484800237818914507255",
+        "exponent": -192,
+        "approx_log2_abs": -102.1055406624095
+      }
+    },
+    {
+      "index": 5,
+      "real": [
+        "9929500336783845525598670564657797280377215981354802776023170338188726777118584506318305995698925410912372319532777",
+        -188,
+        "850617951",
+        278781
+      ],
+      "imaginary": [
+        "-20575768790140846954938698378463090354140191162320780520554750450675687469195774702257947030744699103921980015206505",
+        -535,
+        "425308975",
+        278782
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "73714784352774457095407895",
+        "exponent": -188,
+        "approx_log2_abs": -102.06984363029522
+      }
+    },
+    {
+      "index": 6,
+      "real": [
+        "-22806559011463627835300231135510127327250039527072498889027823519700065823775373906350484870441496015180984366688149",
+        -188,
+        "848569727",
+        278781
+      ],
+      "imaginary": [
+        "-7194930206921757804923112879311182292992845724656495656707362793803914904240793012537345343734320294751937049090967",
+        -534,
+        "848569727",
+        278781
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "21710358914399657152243605",
+        "exponent": -188,
+        "approx_log2_abs": -103.83341405111464
+      }
+    },
+    {
+      "index": 7,
+      "real": [
+        "12169536843942454113726649460116234644608659808474413589157746912390675678163777907534143670597743156393926294555449",
+        -185,
+        "105816181",
+        278784
+      ],
+      "imaginary": [
+        "-22716086591927728650089440307227290531919984299423092439714239583615244772835143393485176045770011923470271883884841",
+        -536,
+        "846529447",
+        278781
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "271225375760595167687879",
+        "exponent": -185,
+        "approx_log2_abs": -107.15616165470885
+      }
+    },
+    {
+      "index": 8,
+      "real": [
+        "20295837190863715245127162816535956599043239376159987870862842238565886899947640668542940031426384553259868275914699",
+        -185,
+        "422248501",
+        278782
+      ],
+      "imaginary": [
+        "-33749215431910853627160981930081968578191080243152059779638287834588544814441690773106494060304448310404479737201393",
+        -536,
+        "844497001",
+        278781
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "1658377737093121831815221",
+        "exponent": -185,
+        "approx_log2_abs": -104.54395306848592
+      }
+    },
+    {
+      "index": 9,
+      "real": [
+        "36290565421896176055816922074181495490367955106110211726519948599319905163692300473398344483783330144819311615888765",
+        -189,
+        "842472273",
+        278781
+      ],
+      "imaginary": [
+        "-39032385144158197923239808471110645918516394472106758105463630285346166337904641289275559694352526645653761780361733",
+        -536,
+        "842472273",
+        278781
+      ],
+      "complex_unique_integer": null,
+      "real_unique_integer": null,
+      "imaginary_contains_zero": true,
+      "real_radius_below_quarter": false,
+      "nearest_midpoint_integer_in_real_interval": true,
+      "midpoint_distance_to_nearest_integer": {
+        "mantissa": "6824262466254999256255869",
+        "exponent": -189,
+        "approx_log2_abs": -106.50305258784624
+      }
+    }
+  ]
+}

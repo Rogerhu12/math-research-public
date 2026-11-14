@@ -1,0 +1,69 @@
+{
+  "result": "R717-trace-diagnostics-p137147",
+  "source_commit": "0e46558d1fe47939d15e24c09882c7d46c874d64",
+  "request": {
+    "result": "R717-trace-diagnostics-p137147",
+    "prime": 137147,
+    "source_run_id": "43597802237",
+    "source_artifact_name": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1",
+    "source_commit": "ffc69b45d58ea9aaafd1e0686fc55377701a00be",
+    "original_core_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "diagnostic_source_sha256": "1a0edc14b6f8af46468d27bdb3001a4a97930771667259ad1b8443bae56b14b6",
+    "python_flint_version": "0.9.0",
+    "input_files_sha256": {
+      "R717-bins-0.json.gz": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8",
+      "R717-bins-1.json.gz": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a",
+      "R717-bins-2.json.gz": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8",
+      "R717-bins-3.json.gz": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b",
+      "R717-complex-embeddings.json.gz": "90f4042b56e7cd803ccb031df8563350f9fd79cd9c12f3185099321d0d0ea57c",
+      "R717-integral-trace-balls.json.gz": "3747a7fb3b8dde5accd5f98bdd8bb34433c230becd56d39cececfb5795d8005c",
+      "R717_certified_original_CM_norm.py.gz": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b"
+    },
+    "purpose": "Classify every failed integer trace gate, measure exact retained dyadic radii and midpoint distances, inspect all original bin and embedding radii, and compare only retained chirp recurrence values with independent exact-residue phases. No lattice enumeration and no DFT.",
+    "mathematical_completion_claimed": false,
+    "execution_environment": "Rogerhu12/math-research-public GitHub Actions only",
+    "launch_revision": 2,
+    "previous_launch": "43601766596: source archival failed before diagnostic because workflow omitted from sparse checkout"
+  },
+  "sources": [
+    {
+      "path": "topics/serre-uniformity/scripts/R717_diagnose_retained_trace_balls.py",
+      "sha256": "1a0edc14b6f8af46468d27bdb3001a4a97930771667259ad1b8443bae56b14b6",
+      "archive": "sources/topics/serre-uniformity/scripts/R717_diagnose_retained_trace_balls.py.gz",
+      "archive_sha256": "c244ea0283a03f4db003bea3ae7087f2fec64b65a4fcb686185f19589898e54d"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R717-trace-diagnostic-request.json",
+      "sha256": "5467a1cb5a3393e9afe6764dd1368a150c0a87a72eb2a84c5c66f24237aaf631",
+      "archive": "sources/topics/serre-uniformity/notes/R717-trace-diagnostic-request.json.gz",
+      "archive_sha256": "bb29b1f4a5da45950e219ffb1ab12295390c6f8d43309defa2527566b7ba193c"
+    },
+    {
+      "path": ".github/workflows/serre-R717-trace-diagnostics.yml",
+      "sha256": "34fe73d39c2fffe21bde700eb6cae64622f5e40b8321bdec63c0f9539f61eebb",
+      "archive": "sources/.github/workflows/serre-R717-trace-diagnostics.yml.gz",
+      "archive_sha256": "2d35d29a40a89a78492a9e75b0e04facc23049ff669b3720af67fd35bd347cfd"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+      "archive": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "archive": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431"
+    },
+    {
+      "path": "topics/serre-uniformity/README.md",
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+      "archive": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab"
+    }
+  ],
+  "source_repository": "Rogerhu12/math-research-public",
+  "execution_environment": "public-repository-github-actions",
+  "mathematical_completion_claimed": false
+}
