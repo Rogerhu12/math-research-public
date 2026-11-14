@@ -1,0 +1,36 @@
+{
+  "kind": "actual_same_regular_trial_from_original_nodal_answer_v1",
+  "complete": true,
+  "role": "adjoint",
+  "source_sha256": "b1241673f837a8e775ddc99dad302ecf1c310580943ae41fd4ada7cf005a187c",
+  "started_utc": "2026-11-14T10:09:36.397765+00:00",
+  "failure": null,
+  "finite_QR_solve_reexecuted": false,
+  "historical_case_refers_to_original_nodal_solution": true,
+  "actual_new_reconstruction_separate_from_historical_solve": true,
+  "continuous_BVP_inverse_proved": false,
+  "actual_reconstructed_cubic_sha256": "f8ff095fb61e12ffeb2c8b1f6720857e8e42f5cb7ad8cc720a0b9f8106d61f04",
+  "expected_original_cubic_sha256": "f8ff095fb61e12ffeb2c8b1f6720857e8e42f5cb7ad8cc720a0b9f8106d61f04",
+  "outputs": {
+    "full": {
+      "path": "/__w/_temp/visible-exact-body-prepared/trials/adjoint/adjoint-full.json",
+      "sha256": "c509df405abd2ddb81d47a80873e152c0cc9dc3a021c4af646500b5f3f7a3e41",
+      "expected_sha256": "c509df405abd2ddb81d47a80873e152c0cc9dc3a021c4af646500b5f3f7a3e41"
+    },
+    "nonmean": {
+      "path": "/__w/_temp/visible-exact-body-prepared/trials/adjoint/adjoint-nonmean.json",
+      "sha256": "2c7e24df5a8eeaa7a4d0bd671e0c23b2b9c3e1a161386fa67ed6ff33d5b07845",
+      "expected_sha256": "2c7e24df5a8eeaa7a4d0bd671e0c23b2b9c3e1a161386fa67ed6ff33d5b07845"
+    }
+  },
+  "original_case": "d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901",
+  "original_answer_sha256": "536a6777217446b193fc1b44f3eb202825c356d6aa0b393fdf4a75de756402c5",
+  "original_trial_source_sha256": "fc3acf0804bcb6038bcd966799e1c760e4189173cee4ae643e0fd496653b3239",
+  "whole_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "all_original_one_sided_derivatives_reconstructed": true,
+  "all_original_shards_match": true,
+  "all_finite_mean_and_nonmean_columns_retained": true,
+  "trial_piece_count": 6144,
+  "wall_seconds": 19.566593517,
+  "finished_utc": "2026-11-14T10:09:55.964085+00:00"
+}
