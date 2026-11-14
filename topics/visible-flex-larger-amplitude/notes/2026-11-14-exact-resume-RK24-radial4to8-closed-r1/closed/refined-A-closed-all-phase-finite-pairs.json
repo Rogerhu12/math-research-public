@@ -1,0 +1,109 @@
+{
+  "tau": 0.11932377800032647,
+  "diameter_basis": "Finite-cloud ball bound, not a continuous diameter certificate",
+  "moving_fixed": {
+    "scope": "Exact phase minimization for finite supplied spatial samples only; not a continuous reach certificate.",
+    "tau": 0.11932377800032647,
+    "moving_count": 7992,
+    "fixed_count": 2402,
+    "pair_count": 19196784,
+    "normal_unit_errors": [
+      2.220446049250313e-16,
+      1.1102230246251565e-16
+    ],
+    "negative_sample_pairs": 0,
+    "worst": {
+      "margin": 5.165741393670098e-10,
+      "moving_index": 0,
+      "fixed_index": 1177,
+      "endpoint": "moving",
+      "sign": 1,
+      "phase": 0.26179938779914935
+    },
+    "all_phase_sample_minimum_chord": 2.3399445454609838e-05,
+    "all_phase_sample_maximum_chord": 3.971826091306691
+  },
+  "moving_moving": {
+    "points": 7992,
+    "all_pairs": 31932036,
+    "near_pairs": 4147224,
+    "negative_sample_pairs": 0,
+    "worst": {
+      "indices": [
+        308,
+        332
+      ],
+      "margin": 1.452513408655705e-14,
+      "chord": 1.2056366376431318e-07
+    },
+    "distant_pair_rule": "All chord lengths >=2*tau have nonnegative normal-chord margin for unit normals.",
+    "scope": "Finite spatial pair sample; common rigid rotations preserve these margins exactly."
+  },
+  "fixed_fixed": {
+    "points": 2402,
+    "all_pairs": 2883601,
+    "near_pairs": 1441200,
+    "negative_sample_pairs": 0,
+    "worst": {
+      "indices": [
+        13,
+        14
+      ],
+      "margin": 4.13850650373293e-08,
+      "chord": 0.00020394717534383028
+    },
+    "distant_pair_rule": "All chord lengths >=2*tau have nonnegative normal-chord margin for unit normals.",
+    "scope": "Finite spatial pair sample; common rigid rotations preserve these margins exactly."
+  },
+  "fixed_H_tail_refinement": {
+    "source_sha256_at_start": "da3b2e2f80dcfa47e96ade2059ad2315d2517cdeac5520282b0f2f649dba27a9",
+    "original_sources_sha256_at_start": {
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_closed_assembly.py": "1fec55a9d9f6c2a9211e64036226496bb4e4ae42c641c842e863e8c4f34fcccc",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_display_adapter.py": "d2cbff19a71eca9122475432a40bb6b4f809f696b4cb43e08b307d00f1897dd8"
+    },
+    "binding": {
+      "baseline_config_sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+      "baseline_response_sha256": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+      "config_sha256": "0641054a5b0dbb19271444807d6641f7b2e71f010cab0052582c79692043636e",
+      "response_sha256": "b4dcf3649619fa655cdf4e6cf3b0499d8d9db69a3c12ff26f391a6ba8d942e86",
+      "all_physical_parameters_equal": true,
+      "all_complete_H_equal": true,
+      "allowed_changed_keys": [
+        "auditSteps",
+        "initialCheckpoint",
+        "iterationCheckpointFile",
+        "steps",
+        "traceFile",
+        "trialDiagnosticFile"
+      ],
+      "baseline_steps": 12,
+      "new_steps": 24,
+      "actual_newton_converged": true,
+      "residual": 8.361777892934857e-11,
+      "original_tolerance": 2e-09,
+      "DN_jacobian_present": true,
+      "finite_audit": {
+        "fullD": 3.6140230122452866e-12,
+        "normalizedFullDefect": 1.9441768344969496e-13,
+        "minLeading": 0.8635125235436262,
+        "minD": 0.9999284957696983,
+        "formalCurvature": 7.994260716974354,
+        "maxPhysicalPV": 5.651311493468282e-05,
+        "actualMetric": 7.994359035019858e-15,
+        "holonomy": 7.263803831073157e-20
+      },
+      "original_endpoint_nonmean_jets_reused": false,
+      "accepted_prefix_resolved": false
+    },
+    "accepted_prefix_resolved": false,
+    "original_prefix_complete_cut_jet_retained": true,
+    "definition": "Finite tail re-solved at exactly the same complete H and physical parameters. The unchanged saved prefix is attached through the original fixed-width full Cartesian jet patch; no new prefix BVP acceptance is implied."
+  },
+  "display_query_adapter": {
+    "source_sha256_at_start": "d2cbff19a71eca9122475432a40bb6b4f809f696b4cb43e08b307d00f1897dd8",
+    "original_assembly_sha256_at_start": "1fec55a9d9f6c2a9211e64036226496bb4e4ae42c641c842e863e8c4f34fcccc",
+    "merged_near_equal_display_requests": [],
+    "physical_function_unchanged": true,
+    "definition": "Unchanged display-only near-equal radius correction; no source node, coefficient, field or physical parameter is moved."
+  }
+}

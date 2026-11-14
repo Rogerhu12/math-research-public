@@ -1,0 +1,286 @@
+{
+  "schema": "actual-refined-closed-mesh-summary-v1",
+  "finished": true,
+  "source_sha256_at_start": "5f107c0082acc2478ddc5f1a59f6c42ab28fd952691d85ebcdc62e181f79fe70",
+  "inputs": {
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/closed/refined-A-closed-assembly.json": "ba049bb2966f7b380c494b663488d1197650a696a6c9de7c8b5e42043e190288",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/closed/refined-A-closed-plan.json": "3d4a7103e11b253ccaeda1e5d89fa5dd12a019c71f0fcf5f5db751dd3d3144a2",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/closed/refined-A-closed-all-phase-finite-pairs.json": "b7df1f018e1ddbc7b50dbfe022eb1b22c97f9d6a9061821748956b64efd612f8",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/closed/refined-A-closed-phase0.ply.gz": "bc6f2f9bbb678bbf1a6337fd78d7c11f490cc61201313de9adf99691c176152c"
+  },
+  "topology": {
+    "vertices": 73442,
+    "edges": 220320,
+    "faces": 146880,
+    "euler": 2,
+    "all_edges_have_two_faces": true,
+    "zero_area_faces": 0,
+    "signed_volume": 11.183409929395836
+  },
+  "minimum_triangle_area": 9.967257147929602e-11,
+  "all_three_mesh_files_below_5MB": true,
+  "files": [
+    {
+      "file": "refined-A-closed-phase0.ply.gz",
+      "compressed_bytes": 1141253,
+      "uncompressed_bytes": 3745773,
+      "sha256": "bc6f2f9bbb678bbf1a6337fd78d7c11f490cc61201313de9adf99691c176152c",
+      "t": 0.0
+    },
+    {
+      "file": "refined-A-closed-phase4.ply.gz",
+      "compressed_bytes": 1186680,
+      "uncompressed_bytes": 3745773,
+      "sha256": "7970a44c6988a467349fe85d4a531bbbb39c53a302f829773e683b796fd353d8",
+      "t": 0.5
+    },
+    {
+      "file": "refined-A-closed-phase8.ply.gz",
+      "compressed_bytes": 1145988,
+      "uncompressed_bytes": 3745773,
+      "sha256": "e428be3b6c7aeaeab3c8f865103a2dd4e0c2310751b7736e7ece1a92242c0533",
+      "t": 1.0
+    }
+  ],
+  "global_vertex_cloud_diameter": {
+    "lower": 3.977459266677549,
+    "ball_upper": 3.977459266677549,
+    "continuous_surface_certificate": false
+  },
+  "fixed_hold": {
+    "fixed_vertices": 9602,
+    "vertex_cloud_diameter": 3.969563377664118,
+    "witness_vertex_indices": [
+      4704,
+      68688
+    ],
+    "witness_coordinates": [
+      [
+        0.04999999999999999,
+        0.0,
+        -1.9841517966937512
+      ],
+      [
+        -0.04999999999999999,
+        6.123233995736765e-18,
+        1.9841517966937512
+      ]
+    ],
+    "diameter_ratio_to_vertex_ball_D": 0.9980148410118034,
+    "continuous_cap_geometry_numeric_bracket": [
+      3.969563377664118,
+      3.9695634386799044
+    ],
+    "cap_bracket_reason": "Opposite points on the fixed cuff circles give the lower value; all fixed caps lie in radius r_c and |z|<=H+A for the upper. Displayed square roots are numerical evaluations.",
+    "entire_caps_fixed_at_every_phase": true
+  },
+  "phase_hold_samples": {
+    "maximum_vertex_cloud_hausdorff": 0.25063813746459784,
+    "t": 1.0,
+    "ratio_to_vertex_ball_D": 0.0630146333777444,
+    "required_point_two_D": 0.7954918533355099,
+    "all": [
+      {
+        "alpha": 0.0,
+        "t": 0.0,
+        "vertex_cloud_hausdorff": 0.0,
+        "ratio_to_vertex_ball_diameter_upper": 0.0,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 0.19634954084936207,
+        "t": 0.125,
+        "vertex_cloud_hausdorff": 0.05141204138645515,
+        "ratio_to_vertex_ball_diameter_upper": 0.012925849880393785,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 0.39269908169872414,
+        "t": 0.25,
+        "vertex_cloud_hausdorff": 0.10062696545954453,
+        "ratio_to_vertex_ball_diameter_upper": 0.025299307601357346,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 0.5890486225480862,
+        "t": 0.375,
+        "vertex_cloud_hausdorff": 0.14516780437275284,
+        "ratio_to_vertex_ball_diameter_upper": 0.03649762188363387,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 0.7853981633974483,
+        "t": 0.5,
+        "vertex_cloud_hausdorff": 0.18304330617606832,
+        "ratio_to_vertex_ball_diameter_upper": 0.04602015857448819,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 0.9817477042468103,
+        "t": 0.625,
+        "vertex_cloud_hausdorff": 0.2127609894695788,
+        "ratio_to_vertex_ball_diameter_upper": 0.05349168280667329,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 1.1780972450961724,
+        "t": 0.75,
+        "vertex_cloud_hausdorff": 0.2342794251127907,
+        "ratio_to_vertex_ball_diameter_upper": 0.05890177859910278,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 1.3744467859455345,
+        "t": 0.875,
+        "vertex_cloud_hausdorff": 0.24651106440637222,
+        "ratio_to_vertex_ball_diameter_upper": 0.0619770179600828,
+        "fixed_vertices_bitwise_equal": true
+      },
+      {
+        "alpha": 1.5707963267948966,
+        "t": 1.0,
+        "vertex_cloud_hausdorff": 0.25063813746459784,
+        "ratio_to_vertex_ball_diameter_upper": 0.0630146333777444,
+        "fixed_vertices_bitwise_equal": true
+      }
+    ],
+    "continuous_Hausdorff_or_delta_hold_bound": false
+  },
+  "reach_threshold": 0.11932377800032647,
+  "reach_threshold_divided_by_vertex_ball_D": 0.03,
+  "all_phase_normal_chord_samples": {
+    "moving_fixed": {
+      "pair_count": 19196784,
+      "negative_pairs": 0,
+      "minimum_margin": 5.165741393670098e-10,
+      "worst": {
+        "margin": 5.165741393670098e-10,
+        "moving_index": 0,
+        "fixed_index": 1177,
+        "endpoint": "moving",
+        "sign": 1,
+        "phase": 0.26179938779914935
+      }
+    },
+    "moving_moving": {
+      "pair_count": 31932036,
+      "negative_pairs": 0,
+      "minimum_margin": 1.452513408655705e-14,
+      "worst": {
+        "indices": [
+          308,
+          332
+        ],
+        "margin": 1.452513408655705e-14,
+        "chord": 1.2056366376431318e-07
+      }
+    },
+    "fixed_fixed": {
+      "pair_count": 2883601,
+      "negative_pairs": 0,
+      "minimum_margin": 4.13850650373293e-08,
+      "worst": {
+        "indices": [
+          13,
+          14
+        ],
+        "margin": 4.13850650373293e-08,
+        "chord": 0.00020394717534383028
+      }
+    }
+  },
+  "sampled_geometry": {
+    "prefix": {
+      "curvature": 8.317665311320109,
+      "area_ratio_min": 0.9999999745774212,
+      "cylinder_R_min": 0.2232396251196601,
+      "cylinder_beta_theta_min": 0.8961755042663603,
+      "cylinder_J_upward_min": 0.07145733918488364,
+      "fixed_beta_height_derivative_upward_min": 0.07145758902927381,
+      "metric_component_max": 4.7040619843841114e-08,
+      "metric_relative_operator_max": 4.704061984387076e-08
+    },
+    "tail": {
+      "curvature": 7.994006313274943,
+      "area_ratio_min": 0.9999999787371273,
+      "cylinder_R_min": 0.05056158669090204,
+      "cylinder_beta_theta_min": 0.999999110125845,
+      "cylinder_J_upward_min": 2.0622569141302424e-08,
+      "fixed_beta_height_derivative_upward_min": 2.0622569141302424e-08,
+      "metric_component_max": 4.347409698901572e-08,
+      "metric_relative_operator_max": 4.357010788307602e-08
+    },
+    "collar": {
+      "curvature": 7.99663564623574,
+      "area_ratio_min": 0.9999999999999997,
+      "cylinder_R_min": 0.04999999999999998,
+      "cylinder_beta_theta_min": 1.0,
+      "cylinder_J_upward_min": -0.0,
+      "fixed_beta_height_derivative_upward_min": -0.0,
+      "metric_component_max": 4.440892098500626e-16,
+      "metric_relative_operator_max": 4.546208406214624e-16
+    }
+  },
+  "full_mean": {
+    "angular": 1552,
+    "quadrature_order": 6,
+    "batch": 8,
+    "original_function_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+    "bounded_function_sha256": "dd5bf81f909edaa3e52d1579f132dde81b69ea3ff01e24aeb4663a61c2580688",
+    "definition": "Original full mean primitive anchored at physical s=0; only evaluation batch size changes."
+  },
+  "mean_gauge": {
+    "prefix_cut_mean": 1.9614677525806448,
+    "tail_cut_small_mean": -2.6705242207503775e-07,
+    "single_upper_offset": 1.9614674855282226,
+    "upper_cap_height": 1.9841517966937512,
+    "whole_lower_sheet_reflected": true
+  },
+  "shared_cut_after": {
+    "pos": 2.3055512673781017e-16,
+    "s1": 2.2887833992611187e-16,
+    "s2": 2.2898349882893854e-16,
+    "p1": 6.20633597500042e-17,
+    "p2": 1.1188630310358827e-16,
+    "sp": 2.482534390000168e-16
+  },
+  "fixed_markers": {
+    "theorem": "R14-arbitrarily-weak-gaussian-cap-markers",
+    "centers": [
+      [
+        0.024999999999999994,
+        0.0,
+        1.9841518272113292
+      ],
+      [
+        0.0,
+        0.024999999999999994,
+        1.9841518272113292
+      ],
+      [
+        -0.024999999999999994,
+        0.0,
+        1.9841518272113292
+      ],
+      [
+        0.0,
+        0.0,
+        -1.9841518272113292
+      ]
+    ],
+    "affine_determinant": 0.0049603795680283206,
+    "maximum_marker_curvature": 0.1,
+    "height": 3.051757812499999e-08,
+    "exact_limit_conditions_unpaid": true,
+    "finite_field_has_exactly_four_gaussian_maxima_claimed": false
+  },
+  "task_completed": false,
+  "continuous_embedding_or_reach_certified": false,
+  "limitations": [
+    "All spatial normal-chord checks are finite samples, although moving/fixed phase is minimized continuously.",
+    "Point-cloud Hausdorff values do not by themselves certify continuous delta_hold.",
+    "The display samples do not replace denser prior prefix/tail curvature and metric readouts.",
+    "A still has amplitude about0.063D in this sample, far below the0.2D requirement."
+  ],
+  "seconds": 1.2834472190006636
+}

@@ -1,0 +1,32 @@
+{
+  "finished": true,
+  "scope": "Metric at the shared complete cut jet only; a finite angular-sample lower bound for every field retaining this target.",
+  "radius": 0.30000000000000004,
+  "angles": 1024,
+  "maxima": {
+    "metric": 4.770331735019531e-08,
+    "kappa": 1.8498723906827124
+  },
+  "witnesses": {
+    "metric": {
+      "common_stage": 0,
+      "x": 1.0,
+      "r": 0.30000000000000004,
+      "theta": 5.043728830567988
+    },
+    "kappa": {
+      "common_stage": 0,
+      "x": 1.0,
+      "r": 0.30000000000000004,
+      "theta": 4.71238898038469
+    }
+  },
+  "original_prefix_tolerance": 1e-07,
+  "original_prefix_max_rms_collocation_residual": 9.922401143569431e-08,
+  "source_modules_sha256": {
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_common_grid_refinement.py": "dc6b2b3240b3e0886821d7866ae06fc343f14176f3bde77d85b67f71532d236e",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937"
+  },
+  "input_complete_sha256": "c3db41ae3efd23d379e2bec2d01d78fd485b3f216480acb45f96a5ad8f85bf90",
+  "seconds": 3.1469309160002013
+}
