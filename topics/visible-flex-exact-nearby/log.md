@@ -443,3 +443,7 @@ M32 repair转授A10的连续参数现明确为M≥4，含全部实际非零模�
 ## 2026-11-14 13:42:55 UTC：完整repair外graph与4650正high转授接公开运行
 
 逐式读outer/body/CI/修订contract/101manifest/workflow；原proof已绑正确M≥4版本a6c604bc...。真实全物理C变化64Cauchy、完整65right-offset、Hs/Hilbert/mean/独立affine列和新global mean速率均保；只恢复四旧binary parts并新增两order scalar sweeps。ReviewedRules.snapshot已亲核>5MB按2MB原字节分片，原complete rows全保。新算术只在公开Actions；待实际结果后授修复背景新逆。
+
+## 2026-11-14 13:44:12 UTC：第三相位曲线的物理/缩放单位文字勘误
+
+T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相位改变量为4√B C2/M=4 C2/√κ；原文字漏了√B。T10/T17–21本来就是κ展开，g1=q/32、Wronskian正核、C2=0整曲线及全部半径/导数证明不变。文件新SHA256 ca8bfec0c3471e743fe3136e0cec6e6dae321a939203dba1c183a6428334737a；错误单位文字即时修正，不据旧句生成新门。
