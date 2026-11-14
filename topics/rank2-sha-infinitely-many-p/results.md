@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R443：原四挠第二残余态的完整张量与中央返回](results/R443-original-residual-quarter-source-and-complete-central-return.md)：特征零完整偶偶/奇奇张量秩18，principal块秩4且原S不在其饱和来源格；真实两边际、X6中央及非零质量完整区分。总Q在K1/K1R间互换，完整principal行相同，附深管不免费消反射余项。
+
 - [R441：原第六矩中央行与每个固定同深域非零](results/R441-original-sixth-moment-row-and-uniform-same-depth-nonvanishing.md)：完整X6行与原J′S相差显示单位；残余双深+cunit的首五阶单位及全尾界给每正偶深赋值5n。原Σ表示固定m=0后每四倍隐藏同深赋值7n，内部/外部补域准确区分，未据子域非零判主中央。
 
 - [R440：原单位商最大来源子格与三个核边界](results/R440-original-unit-quotient-maximal-source-and-three-boundary-kernels.md)：H38的可乘来源准确为S倍数且p饱和，允许SQ入核的增加量恰是原像与三个指定边界之交、长度至多m+2；实际剪切及满射范围Smith型已付，不把单位乘子赋给整个C2。
