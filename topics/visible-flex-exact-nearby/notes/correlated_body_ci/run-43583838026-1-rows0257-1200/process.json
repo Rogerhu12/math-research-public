@@ -186,6 +186,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:28:38.897221+00:00",
+      "before": "517eced26e9f7d43acb653248dbd651ff25cf141",
+      "after": "af4054c9314495dc792c04f8ece84250988e16fe",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -218,6 +226,11 @@
       "time": "2026-11-14T10:28:16.011385+00:00",
       "final": false,
       "commit": "8d7ea72692195043e406129ead9c6e09d6a4d6d3"
+    },
+    {
+      "time": "2026-11-14T10:28:38.564344+00:00",
+      "final": false,
+      "commit": "af4054c9314495dc792c04f8ece84250988e16fe"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -247,7 +260,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "517eced26e9f7d43acb653248dbd651ff25cf141",
+  "last_read_commit": "af4054c9314495dc792c04f8ece84250988e16fe",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-body-work-257-1200/science",
   "actual_atomic_ranges": [
     [
@@ -271,8 +284,8 @@
       1200
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:28:37.081280+00:00",
-  "wall_seconds": 1053.18465556,
+  "snapshot_utc": "2026-11-14T10:28:38.955886+00:00",
+  "wall_seconds": 1055.059258601,
   "native_files": [
     {
       "logical_file": "native/rows-00257-00477.json.gz",
@@ -323,6 +336,14 @@
       ],
       "sha256": "a8b2595a912c36972e3d84fb078cca484c357f1d34478780dc435e945bc8c982",
       "rows": 256
+    },
+    {
+      "indices": [
+        990,
+        1000
+      ],
+      "sha256": "8b9334eed53f01608e26d35da955320b59ca32bbc444acb6d6a8cfe100a1583e",
+      "rows": 10
     }
   ]
 }
