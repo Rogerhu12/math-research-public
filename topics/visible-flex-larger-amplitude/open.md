@@ -90,3 +90,6 @@ R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚�
 
 
 [逐原步新系统与完整exact读回接口](notes/2026-11-14-rawcell0-original-step-system-interface.md) 已读并冻结：独立adapter/consumer按真实L构造D=504+ΣL，完整cut/新段/far行、实际J流SHA/新矩阵身份、旧577节点restriction及全行整数残差均动态；原504块/旧节点σ保持，新增σ复制parent明示。一次带LU/最多3exact修正、4GiB单band资源账，不裁剪方程，不将旧long-J诊断作为门。具体actual41结果SHA和新artifact PIN须待真实回执；此组件未科学执行。
+
+
+[R269](results/R269-native-zero-reference-height-slope-gauge.md) 已完整证明原native零形状参考的可逆u/k坐标、可变w的完整方程与常w精确仿射传播，并给任意保存shooting矩阵的完整节点G/边界/原缺陷恢复式。这是潜在表示工具，尚未在actual28/41实施；不能将实际非零H或可变w替为参考，也不能把变换坐标再RK冒原离散映射。当前仍先完成实际逐步矩阵读回。

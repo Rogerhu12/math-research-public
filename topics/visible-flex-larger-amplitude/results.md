@@ -504,3 +504,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R267. 分离证据点与可行点的正阻尼模型后验](results/R267-two-point-damped-model-posterior-bound.md)（已证明，有限实模型定理）：任意点及非负乘子给同一固定模型的合法Lagrangian下界；多个下界取最大，再给另一个可行点的gap、距离和最佳下降比例。完整原梯度/有符号slack/乘子行尺度均明确，不把预条件normal或不同迭代权重混用。actual26只给既有数值的形式代入，不本地计算新比例、不冒严格浮点认证，也不新增BVP门。
 
 - [R268. 完整正则链与全局边块的平方根QR](results/R268-complete-regularized-chain-border-QR.md)（已证明，固定有限实模型定理）：两级physical front与全部纯global余行的能量不变量给 $R^TR=C^{-1}(A^TA+\lambda^2I)C^{-1}$；保完整边界及每坐标正则恰一次，carry可秩亏且不求逆。证明丢弃E的全局Gram缺项、含完整border的两次三角回代和正确C恢复，原A/AT残差接R263/267后验；不给浮点稳定、computed J正确性或BVP/几何接受结论。
+
+- [R269. 原生零参考的高度斜率坐标与完整块变换](results/R269-native-zero-reference-height-slope-gauge.md)（已证明，连续零参考及完整有限代数定理）：从原解析零形状块精确导出v=(m²−4)q+bp与u=r⁴q、k=r³(m²q+bp)，包含G_x项，得u_x=r_x k、k_x=(w_x/w)(m²u/r−k)；常w给完整仿射传播和两端G恢复。任意完整shooting的节点可逆G保持全部边界/零点，缺陷须回原变量σ；明确port、非零全模式和RK变换非交换，不宣称actual28/41数值改善或新验收。

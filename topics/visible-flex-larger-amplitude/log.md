@@ -286,3 +286,8 @@ actual39前缀note21072B/765bc047…全文读后发布：run43620111146/job13252
 ### 2026-11-14 原rawCell0逐步系统动态消费者冻结
 
 adapter38989B/fde0e039…、consumer19017B/30a467e8…及接口13516B/2d266a71…全文读并AST/源SHA核。新result必须由CLI真实SHA绑定；全72段四种流式数组/交错journal/field gzip及全部实际schedule、new cells/oldToNew/显式σ均核。D只按实际步数，余504原J/output/r保bits；全部cut/新stage/far exact整数行及最坏原operand动态，原Q均衡/精确单舍入RHS核只复用深度无关部分。一次LU/最多3严格改善修正、完整新δ和577restriction各自schema，旧long defect仅诊断；4GiB单带数组是资源界，记录潜在copy与RSS，不新增数学门或删方程。41实际run43622149326正在计算，尚无此消费者数值。
+
+
+### 2026-11-14 R269原生零参考的完整坐标代数
+
+完整证明直接入results及索引，不作本地数值：从已按205b28…源核过的零形状块，保μ/方向/r/w约定，显式推导v剪切及u=r⁴q、k=r³(m²q+bp)，所有G_x项保留，得u_x=r_xk、k_x=(w_x/w)(m²u/r−k)。常w严格推出仿射传播/两端G恢复和原行列式1；可变w及尺度条件不偷换。任意完整有限shooting的节点可逆块G给全stage、cut/far及原σ缺陷恢复，保实际port和非零模式；连续变换与RK4不普遍交换有明确反例。不给实际J、条件数、trial或BVP改善，不加审核/科学门。
