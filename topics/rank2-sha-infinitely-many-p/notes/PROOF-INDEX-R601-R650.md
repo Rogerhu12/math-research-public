@@ -42,3 +42,6 @@
 
 
 - [R609：原二次Wilson配对与固定非齐次约束](../results/R609-original-wilson-pairing-and-quadratic-defect.md)：三条实际二次Euler行经完整Wilson端点接回固定degree12全函数，消去全部参考项，保Gaussian端点给出的单位右端。原整Schur保持各首极部行；原中央首层的低残差完整代回，未将不同物理行混成非空真层或删除补偿。
+
+
+- [R615：原Weierstrass–zeta有限Cartier与p倍指标同余](../results/R615-original-weierstrass-zeta-cartier-and-p-multiple-congruence.md)：原H的完整有限整窗和唯一进位块给C_p(CH)=C_p(H²)=CJ，保实际有理系数、carry分母和截断。双留数准确推出全部k<s的X_pk=Z_k^p=−X_k^p/(6k−1)，不借Gaussian整性或中央非零；更高窗口仍保原分母。

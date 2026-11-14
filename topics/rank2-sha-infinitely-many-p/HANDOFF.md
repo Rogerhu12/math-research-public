@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：1314037ff7a482a5af362eb3f7c42d947848241d；2026-11-14 23:10:20 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
+- 最近已读规则提交：4b9a94005b0f8f0502cc9b80901bb4dcf1205a84；2026-11-14 23:19:30 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -15,14 +15,14 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–611已登记；R364仍开，R561/612/613/614/615进行中。
+R1–363、R365–560、R562–611及R615已登记；R364仍开，R561/612/613/614/616进行中。
 完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r610.md)、[open](notes/2026-11-14-open-before-r611.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R613两实际carry交域；R611已付原三sigma反射和同深I1返回，全部Fτ/Gτ/七coset及三/四域外积分保持。
-- literature续R615原Frobenius系数同余机理，协同R614；R609已付三原二次行/固定degree12全身份/单位Gaussian端点，真实残差全保。
+- literature续R616高度二首坏带/原h=p中央端点；R615已付全部k<s的X_pk=Z_k^p及原H唯一carry，不借sigma整性。R609二次单位关系/真实残差保持。
 - deep续R612全长有限原像/同R联立；R608已付二支二阶整簇残数与被迫坐标极，完整平方项相消，不当原余核非零。
 - root续R614原Gaussian更强整窗及完整Newton尾；R610已付全目标下一Euler导子及S/T低权除p行，未认来源像稳定。
 
@@ -67,3 +67,5 @@ R608同R的两支ΣR二阶极全消，只余𝔯P/t，显示残数由α0/β0与�
 [2026文献精确条件](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)继续保逐p单位/高度/受限秩与随权边界，未新增固定来源无穷非消失输入。
 
 R609三原二次物理行Q44/Q41/Q11经Wilson与固定degree12全身份给a⁶(Q11−3bQ44)+18ba³Q41+162bc4=5a/4。Gaussian端点−10a全保，参考项真消；整Schur保这三首pole行。原两中央0时右端另有162b^s e1ᵗM^-1R，不能删低残差认unit或把Q赋零；真高层非空尚未付。738项旧纤维证书。
+
+R615原H在n≤p(s−1)整，唯一carry块H=P·C(t^p)+δt^(5s−1)B(t^p)、δC_s=3。准确有限C_p(CH)=C_p(H²)=CJ modt^s；原双留数给X_pk=Z_k^p=−X_k^p/(6k−1)，1≤k<s，Z=zζ。未借待证Gaussian整性，不越k=s分母；247项旧纤维证书。
