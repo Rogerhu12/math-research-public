@@ -400,3 +400,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R580：同Gaussian次原函数塔的全Stokes单射与严格半径](results/R580-same-charge-primitive-towers-and-unit-noncentral-stokes-matrix.md)：原七塔及任意固定长塔经整Euler基后，每共同移位有两条实际非中央Stokes单位行，不同移位在完整Tate商中谱分离；任意依p非零常数线性组合在真σ6参考后仍准确Gauss半径且闭边界非Tate。无Dirac子格同受限制，不排非线性格或原forcing。
+
+
+- [R586：原Euler全部共振系数与指定p²窗口](results/R586-original-euler-resonant-coefficients-and-first-square-window.md)：完整两forcing给七原Euler坐标全部k的p^(L+e)L!准确主项，原首两g行单位使指定系数整条达到Gauss界；首p²共振族及最早两未知c4/c1完整保留。单列高阶非整不等原饱和jet非整，未以不同指标代指定中央。

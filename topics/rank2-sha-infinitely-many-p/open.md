@@ -281,4 +281,9 @@ R579完整C^r差商/导数/卷积、下降阶乘所有节点及最高阶乘消�
 
 ### R580：同Gaussian次原函数塔的全Stokes单射与严格半径
 
-[R580：同Gaussian次原函数塔的全Stokes单射与严格半径](results/R580-same-charge-primitive-towers-and-unit-noncentral-stokes-matrix.md)：原七塔及任意固定长塔经整Euler基后，每共同移位有两条实际非中央Stokes单位行，不同移位在完整Tate商中谱分离；任意依p非零常数线性组合在真σ6参考后仍准确Gauss半径且闭边界非Tate。无Dirac子格同受限制，不排非线性格或原forcing。 **待做：** 真非线性多项式格、实际同来源饱和jet或原Dψ/同R d2；常数组合半径路线已排，不据非中央单位给原中央赋非零，也不从半径直接扣全flag成本。
+原任意固定塔非中央Stokes单位单射、全Tate商谱分离及依p常数组合准确坏半径保[完整前检](notes/2026-11-14-open-before-r586.md)/正文。**待做：** 真非线性格、同来源饱和jet或原Dψ/同R d2；无Dirac子格不逃该线性限制，非中央单位不赋中央非零。
+
+
+### R586：原Euler全部共振系数与指定p²窗口
+
+[R586：原Euler全部共振系数与指定p²窗口](results/R586-original-euler-resonant-coefficients-and-first-square-window.md)：完整两forcing给七原Euler坐标全部k的p^(L+e)L!准确主项，原首两g行单位使指定系数整条达到Gauss界；首p²共振族及最早两未知c4/c1完整保留。单列高阶非整不等原饱和jet非整，未以不同指标代指定中央。 **待做：** c4,p/c1,p真实约束与增长D的完整单项式/同一前缀运输；D1在固定有限阶后核为零，不能用p²单列坏系数冒认R581非整层。b17尺度a_b=b^s a_1、g_b=b^r g_1及全阶乘都保。

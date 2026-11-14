@@ -1,0 +1,245 @@
+{
+  "status": "all exact checks passed",
+  "checks": 123039,
+  "actual_coefficient_checks": {
+    "checks": 6806,
+    "rows": [
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f4",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f4",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f1",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f1",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f1",
+        "h": 2,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f1",
+        "h": 3,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 1,
+        "source": "f1",
+        "h": 4,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f4",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f4",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f1",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f1",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f1",
+        "h": 2,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f1",
+        "h": 3,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 11,
+        "b": 17,
+        "source": "f1",
+        "h": 4,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f4",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f4",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f1",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f1",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f1",
+        "h": 2,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f1",
+        "h": 3,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 1,
+        "source": "f1",
+        "h": 4,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f4",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f4",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f1",
+        "h": 0,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f1",
+        "h": 1,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f1",
+        "h": 2,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f1",
+        "h": 3,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      },
+      {
+        "p": 23,
+        "b": 17,
+        "source": "f1",
+        "h": 4,
+        "coefficients": 81,
+        "certified_exact_valuations": 81
+      }
+    ]
+  },
+  "parameter_checks": {
+    "checks": 116233,
+    "tail_checks": 55680,
+    "window_checks": 2291
+  },
+  "theorem": "p^(L+e) L! [w^k] W_l,h = a^L g_l,r / u mod p, k-1=Ls+r, 6k-h=p^e u",
+  "first_window": "m=h+6t in [1,p-1], k=ms-t, p^m[w^k]W_l,h = a^(m-1)g_l,s-t-1/m! mod p",
+  "exact_unit_endpoint": "t=s-1, m=p+h-5, r=0, valuation exactly -m",
+  "original_saturated_prefix_preserved_but_coefficient_not_assumed_in_kernel": true,
+  "first_resonant_c4_c1_unconditional_nonvanishing_claim": false,
+  "ordinary_negative_moment_nonvanishing_claim": false,
+  "main_target_complete": false
+}
