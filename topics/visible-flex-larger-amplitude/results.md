@@ -502,3 +502,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R266. 原native块Newton缺陷、原尺度下降与可逆缩放](results/R266-native-block-Newton-defect-and-original-scaled-descent.md)（已证明，完整有限代数/条件下降定理）：全部stage/cut/far的原尺度缺陷 $e=A\delta+\widehat r$ 给模型恒等式与充分下降；分开computed J、精确参考导数、flow/root/RK、trial形成与norm舍入误差。任意可逆行列缩放保持解而须回原尺度核缺陷，完整Riccati精确等价与chart奇异不等于全系统奇异的反例明确。实际25尚无完整J/delta，不能据高condition判因，也不保证原十步必成或新增运行门。
 
 - [R267. 分离证据点与可行点的正阻尼模型后验](results/R267-two-point-damped-model-posterior-bound.md)（已证明，有限实模型定理）：任意点及非负乘子给同一固定模型的合法Lagrangian下界；多个下界取最大，再给另一个可行点的gap、距离和最佳下降比例。完整原梯度/有符号slack/乘子行尺度均明确，不把预条件normal或不同迭代权重混用。actual26只给既有数值的形式代入，不本地计算新比例、不冒严格浮点认证，也不新增BVP门。
+
+- [R268. 完整正则链与全局边块的平方根QR](results/R268-complete-regularized-chain-border-QR.md)（已证明，固定有限实模型定理）：两级physical front与全部纯global余行的能量不变量给 $R^TR=C^{-1}(A^TA+\lambda^2I)C^{-1}$；保完整边界及每坐标正则恰一次，carry可秩亏且不求逆。证明丢弃E的全局Gram缺项、含完整border的两次三角回代和正确C恢复，原A/AT残差接R263/267后验；不给浮点稳定、computed J正确性或BVP/几何接受结论。

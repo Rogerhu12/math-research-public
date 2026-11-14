@@ -254,3 +254,8 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 39双lane：twelvequery从actual37双SHA继续，完整B新增RMS470共24576行/4397局部列，固定C投影可改471–482+p仅4059，完整B_out z0_out保留，negative effective offset不否决；原全向量radial/备份/同f/17trial/全域/FD原样。四源6a428d2f…/0c5573ea…/10ed2540…/1989a8a9…及完整接口全文读核，父37两件Git原bytes核。
 
 另一nativesplitband用真实38result及原28PIN，adaptere88e69da…/consumerd56da0ed…和接口全文读；574旧+4新虚拟J，578段/579node/129696行，新far索引动态，只复用原exact深度无关整数核。所有原cut/far/H/旧σ保持，新增parentσ明示；一次LU/最多3exact修正，旧577 restriction单独schema与来源，旧long e仅诊断不作门；不在此派原trial。独立完整正则QR源596356c0…/接口13c71ed4…也全文读发布，完整338链/112border/pureglobal/λ一次，所有解回原A/AT读回；尚未运行，新薄入口准备中。
+
+
+### 2026-11-14 R268完整正则链与border的QR代数证明
+
+完整证明直接入results/R268-complete-regularized-chain-border-QR.md及索引，16428B/SHA927d4b6f…；root全文读并仅区分局部Y_i与global Z_i符号。完整逐步平方和不变量、所有pure-global E累计、最终全部BY/BC/BP边界给RᵀR=C⁻¹HC⁻¹；每节点λ/C和global λ/C恰一次，carry可秩亏且无需逆。丢E的Gram缺项、两次全border三角解与C恢复、原A/AT residual后验均自含；不声称浮点精度、J真导数或BVP/几何完成，无独审/审批门。相关QR代码596356…已发布但实际运行尚未发生。
