@@ -97,3 +97,5 @@
 - **R656（已证明）**：[两个真正CM4粗盘的原F2高度和第104个排除](results/R656-two-true-CM4-original-F2-heights-and-first-exclusion.md)。复用原完整304位链、457主函数、全106典范Norm及108积分常数；保留T2双点/长度4整约束和R554联合j/ηB消极。j36_02约化2+8y+3y²无根，非CM SS累计104/105；j36_06仍有两简单Hensel分支51167/59448，待R709同分量F3。
 
 - **R705（已证明）**：[实际更高Abel块与统一阶数上界](results/R705-actual-higher-Abel-blocks-and-uniform-order-bound.md)。同一θ/χ6/正κ4商及原规范，所有2≤m≤p−3、m≡2mod3的实际(p^(m−1)M_m)²由C_(p+2−m)C_(p−m−1)精确给出；完整保留逆σ与所有Fourier块/无限尾。端点m=p−3用C5=9/2、C2=−1/2得到原Abel首阶d≤(p−2)/3和缩放前缀赋值；不把端点当首项，进入归一QC仍保留R616条件。
+
+- **R709（已证明）**：[最后真CM4盘的原F3和全部非CM SS排除](results/R709-final-true-CM4-F3-and-complete-SS-exclusion.md)。公开run43589296050保持原R656全部F2/457函数及T3四核两双点；完整次数106 Norm、长度6秩6、R554联合半式和全54全局装配给真实F3。两个F2候选在四同标签下八差皆非零，现105/105非CM SS全排除；129盘八CM总分类由R707另完整合并。
