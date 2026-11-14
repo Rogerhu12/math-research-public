@@ -1,0 +1,100 @@
+{
+  "whole_g7_mod272": [
+    40,
+    195
+  ],
+  "whole_g19_mod272": [
+    87,
+    144
+  ],
+  "g_D_without_geometric_rotation": [
+    0,
+    239
+  ],
+  "g_mathscrD_mod272": [
+    239,
+    0
+  ],
+  "mathscrD_definition": "R_omega,Y * omega^-1 * N19,Y * Nbar7,Y^2",
+  "whole_primitive_anchor": "S(2Y), N7=-1, Nbar7=-1, N19=omega, R_omega=1",
+  "single_CM_composite": [
+    25,
+    -9
+  ],
+  "single_CM_norm": 931,
+  "raw_first_Y_space": "[2]^*S34; mathscrD restricts to identity on this entire subspace",
+  "translation_multiplier_r_in_Zomega": [
+    1,
+    -2
+  ],
+  "translation_period_vector_k_in_Zomega": [
+    [
+      -8,
+      -19
+    ],
+    [
+      -16,
+      -38
+    ],
+    [
+      -29,
+      -12
+    ],
+    [
+      -21,
+      7
+    ],
+    [
+      -13,
+      -3
+    ],
+    [
+      -20,
+      -1
+    ]
+  ],
+  "norm_k_sum": 3159,
+  "sum_conjugate_wr_times_k": "-788-331delta",
+  "integer_alternating_sum": -662,
+  "complete_lattice_phase": "i^Norm(ell)",
+  "whole_source_identity": "mathscrD f_t=i^Norm(4t) f_((1-2omega)t)",
+  "source_action_in_u_v_z_h": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "whole_source_group_order": 96,
+  "complete_new_line_rows": {
+    "v": "+Snew tensor Lambda_old",
+    "z": "-Snew tensor Lambda_old"
+  },
+  "complete_reference_rows": {
+    "v": "+Href tensor Lambda_ref",
+    "z": "-Href tensor Lambda_ref"
+  },
+  "companion_warning": "The same five physical L companions are kept, not identified only by masses.",
+  "mixed_domain_warning": "The geometric R_omega and every actual CM fiber must be transported before restricting a Y-mixed pipe.",
+  "quarter_anchor": "b=-1 real primitive Omega0 -> b=1 Omega=iOmega0; Norm1 has e=-1-sqrt3, Norm3 has e=-1+sqrt3",
+  "weighted_quarter_sign": "-i(c-conjugate(c))"
+}

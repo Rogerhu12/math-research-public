@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R501：whole CM交换四态及完全相同的五伴随](results/R501-whole-cm-exchange-and-identical-five-companion-rows.md)：真实𝔇=Rω,Y·ω⁻¹N19N7⁻²的完整ratio−33及原S2锚给未投影六变量身份：固定u/h、交换v/z。所有3159/−662格中心保留，新线/Href伴随确为原同一Λ的负号；固定norm931全部CM纤维与普通V′两深准确相接，实际来源群96，混合域仍按各真实操作转置。
+
 - [R499：新四态全Y多项式、D33身份与整个十七维正块](results/R499-four-state-z-full-y-polynomial-and-d33-identity.md)：原周期锚支付两类四挠范数绝对符号，完整带权纤维给显式degree21多项式及全部23坐标Z_Y=D33v_Y。新线/Href系数为−52/3与(1+δ)/(2016b)，全部八维D负块完整反号；v±Z的CM7循环维数9/8，两轨道合张满整个17维正块，保其余12外谱及尚须另证的联合伴随身份。
 
 - [R500：原3699纯Y轴、完整三输入及同域W深浅分拆](results/R500-original-pure-y-axis3699-and-complete-w-depth-complement.md)：真实V=(27W′−(37+3δ)Z)/2正交Y/Tc，兼容mod137与两sigma锚给wholeodd3699核心χ_Vλ、χ_V²=1。三个Q共同核已付，可合法消去其深度并保系数；原S算术行允许任意V深度，同一域Z深恰等于W′深，完整剩余压到显示L(Z,V)⊗σ(x)的唯一W′浅支，所有移动测试保留。
