@@ -8,7 +8,30 @@
   "workflow_commit": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
   "worker_source_sha256": "d491f1c6d1e6f1788f92ca8f47ddcf2b977ca5cf5dbffe879650cbbe7a8554db",
   "started_utc": "2026-11-14T17:36:11.295335+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_full_real_large_root_Cauchy_scalar_consumer",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-large-Cauchy-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_large_root_Cauchy_budget.py",
+        "--root-native",
+        "/__w/_temp/visible-exact-large-Cauchy-root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+        "--root-process",
+        "/__w/_temp/visible-exact-large-Cauchy-root/consumers/process.json",
+        "--shared",
+        "/__w/_temp/visible-exact-large-Cauchy-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-original-root-window-intrinsic-third-jet-parts.json",
+        "--body-artifacts",
+        "/__w/_temp/visible-exact-large-Cauchy-body",
+        "--out",
+        "/__w/_temp/visible-exact-large-Cauchy-output/native/full-real-large-root-Cauchy-two-windows.json.gz"
+      ],
+      "started_utc": "2026-11-14T17:36:13.151042+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000481786999998,
+      "finished_utc": "2026-11-14T17:36:18.152242+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:36:11.595873+00:00",
@@ -25,9 +48,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:36:18.382165+00:00",
+      "before": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+      "after": "d419b38dee1c4eb61b7434c063113d537b7d55b5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:36:13.148919+00:00",
+      "final": false,
+      "commit": "d419b38dee1c4eb61b7434c063113d537b7d55b5"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -59,7 +96,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+  "last_read_commit": "d419b38dee1c4eb61b7434c063113d537b7d55b5",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-large-Cauchy-work/science",
   "actual_original_input_sha256": {
     "root-native": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
@@ -72,14 +109,20 @@
     "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03322-03578.json.gz": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03",
     "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03578-03834.json.gz": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac"
   },
-  "snapshot_utc": "2026-11-14T17:36:11.847115+00:00",
-  "wall_seconds": 0.552335755999998,
+  "snapshot_utc": "2026-11-14T17:36:18.390700+00:00",
+  "wall_seconds": 7.095942000000001,
   "native_files": [
     {
       "logical_file": "evidence/original-piecewise-root-child-process.json",
       "file": "evidence/original-piecewise-root-child-process.json",
       "bytes": 32670,
       "sha256": "c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64"
+    },
+    {
+      "logical_file": "native/full-real-large-root-Cauchy-two-windows.json.gz",
+      "file": "native/full-real-large-root-Cauchy-two-windows.json.gz",
+      "bytes": 665816,
+      "sha256": "3a214897f5dc47e1a1fed3db327f54fcc0302ad6fd273ea96ecdbfcc0ca4f1e0"
     }
   ]
 }
