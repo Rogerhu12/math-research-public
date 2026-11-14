@@ -1,0 +1,77 @@
+{
+  "result": "R754-original-p41-periods-and-Hom-kernel",
+  "p": 41,
+  "source_commit": "21b31744c32a06f8d84fcd525b4ce395a0869800",
+  "source_repository": "Rogerhu12/math-research-public",
+  "core_sha256": "bc2375dcc1b1478ef2f50a1713c61adc6102408763652f451f7b4167480c74cd",
+  "method_sha256": "fdbe8bbd0e09afadddcb9cd2f13dc0f27c2eabab2d31fe449cd173bd28a59122",
+  "driver_sha256": "6c274cd7a238542ccd9b818d55a3564b21542a82b24aa5b9be48e4ce86d90a0c",
+  "request_sha256": "1b3b9e6658281c3ddf3baaa8d005f5e6e27a0bbf0089169f1dd249d3bab0be3d",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "dependencies": [
+    {
+      "file": "results/R725-original-CM-elliptic-model-and-splitting-field.md",
+      "sha256": "59e67395545cf56686a7e13f57d25637aec4b48fbbae54dc9ed12aba8d53ad9f"
+    },
+    {
+      "file": "results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md",
+      "sha256": "f8b68a367164e061b2385de908fe76c0710d13895f01f650d2569a7d5090f86a"
+    },
+    {
+      "file": "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "sha256": "360bf5eff42ca81e618c107dd9b3421095a01d1e0aebe1234acd29af9e12a19a"
+    },
+    {
+      "file": "results/R735-exact-original-p41-CM-model-and-Neron-input.md",
+      "sha256": "8b4ad8ea5a27527b0d6f5ac6092d0752d06d4dd0276edefe321ffc611ddbb408"
+    },
+    {
+      "file": "results/R738-certified-original-p41-period-input.md",
+      "sha256": "410c3bfb6e09d3fad355b1a9536d4405d7db1cac2aeb7765ada54c25a15674ad"
+    },
+    {
+      "file": "results/R745-certified-original-p41-Hodge-and-adelic-input.md",
+      "sha256": "0ff9401eaeb6a958ac27dce00d4152487cd2ec89fda175476ac606a13aec581a"
+    },
+    {
+      "file": "results/R751-original-period-compression-in-the-retained-degree-280-field.md",
+      "sha256": "0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87"
+    }
+  ],
+  "retained": {
+    "R735": {
+      "run_id": "43608152850",
+      "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+      "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+      "files": {
+        "p41-original-CM-state.json.gz": "9cd5f6731c7cfa76cd118b5f3a8ab1efb12d0d69ba95ab08817fcb80c2073427",
+        "p41-original-torsion-modulus.json.gz": "7063eacd17ffec4c68dea5d8c3a2cab278286653fd12aae07f1c955bb1ad94fb",
+        "p41-original-CM-model-certificate.json": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+      }
+    },
+    "R738": {
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": {
+        "original-cosets-and-markings.json.gz": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161",
+        "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+      }
+    },
+    "R745": {
+      "run_id": "43616027318",
+      "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+      "artifact_name": "serre-global-R745-p41-original-Hodge-input-43616027318-1",
+      "files": {
+        "original-p41-Hodge-q-expansions.json.gz": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd"
+      }
+    }
+  },
+  "resume": null,
+  "budget_minutes": 80,
+  "arithmetic": "exact rational field arithmetic",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43620409119",
+  "prepared_at_utc": "2026-11-14T17:18:53.979090+00:00",
+  "mathematical_completion_claimed": false
+}

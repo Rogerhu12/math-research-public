@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "label": "R735",
+      "run_id": "43608152850",
+      "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+      "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+      "files": [
+        {
+          "file": "p41-original-CM-state.json.gz",
+          "sha256": "9cd5f6731c7cfa76cd118b5f3a8ab1efb12d0d69ba95ab08817fcb80c2073427"
+        },
+        {
+          "file": "p41-original-torsion-modulus.json.gz",
+          "sha256": "7063eacd17ffec4c68dea5d8c3a2cab278286653fd12aae07f1c955bb1ad94fb"
+        },
+        {
+          "file": "p41-original-CM-model-certificate.json",
+          "sha256": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+        }
+      ]
+    },
+    {
+      "label": "R738",
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": [
+        {
+          "file": "original-cosets-and-markings.json.gz",
+          "sha256": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161"
+        },
+        {
+          "file": "integral-compact-Manin-cycles.json.gz",
+          "sha256": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+        }
+      ]
+    },
+    {
+      "label": "R745",
+      "run_id": "43616027318",
+      "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+      "artifact_name": "serre-global-R745-p41-original-Hodge-input-43616027318-1",
+      "files": [
+        {
+          "file": "original-p41-Hodge-q-expansions.json.gz",
+          "sha256": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd"
+        }
+      ]
+    }
+  ],
+  "old_model_topology_or_torus_average_recomputed": false
+}

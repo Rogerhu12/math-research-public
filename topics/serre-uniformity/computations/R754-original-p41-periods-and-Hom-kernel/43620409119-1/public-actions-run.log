@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py", line 1029, in <module>
+    main()
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py", line 989, in main
+    M, L, K, sub, b, S, H = job.fields(data)
+                            ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py", line 499, in fields
+    wn, wd, rn, rd = [M.elt(dp(state[key])) for key in ("wn", "wd", "rn", "rd")]
+                            ^^^^^^^^^^^^^^
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py", line 61, in dp
+    return fmpq_poly([int(v) for v in a["numerator"]], int(a["denominator"]))
+                      ^^^^^^
+ValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 15726 digits; use sys.set_int_max_str_digits() to increase the limit
