@@ -1,0 +1,172 @@
+{
+  "status": "development_geometry_checks_only_no_solve",
+  "ellipse": {
+    "arclength_radius": 0.6980392675284104,
+    "phase_inversion_error": 8.881784197001252e-16,
+    "unit_metric_error": 4.440892098500626e-16,
+    "dot_xt_xtt": 8.881784197001252e-16,
+    "cyclic_endpoint_position_error": 2.4492935982947064e-16,
+    "exact_rho_min": 0.09,
+    "exact_rho_max": 3.3333333333333335
+  },
+  "inward_reference_profiles": [
+    {
+      "overshoot": 0.2,
+      "first_fraction": 0.8,
+      "length": 0.55,
+      "cylinder_height": 0.06,
+      "cut_radius": 0.3,
+      "active_length": 0.48571179117893803,
+      "first_length": 0.38856943294315044,
+      "second_length": 0.0971423582357876,
+      "flat_length": 0.064288208821062,
+      "end_height": 0.24440825698530774,
+      "max_height": 0.26859123316660705,
+      "min_radius": 0.30000000000000004,
+      "max_radius": 0.6980392675284104,
+      "max_sample_principal_curvature": 8.544785219078417,
+      "min_sample_meridian_radius": 0.11703044305516824,
+      "a_prime_max": 6.123233995736766e-17,
+      "closure_error": 5.551115123125783e-17,
+      "max_corresponding_ellipse_port_chord": 0.7238828670747494,
+      "sampled_port_chord_necessary_condition_passes": false,
+      "corresponding_chord_lower_bound_on_max_E_error": 0.7322525793201957,
+      "reference_only": true
+    },
+    {
+      "overshoot": 1.45,
+      "first_fraction": 0.7,
+      "length": 0.75,
+      "cylinder_height": 0.19,
+      "cut_radius": 0.28,
+      "active_length": 0.6684009987457459,
+      "first_length": 0.46788069912202207,
+      "second_length": 0.20052029962372378,
+      "flat_length": 0.08159900125425415,
+      "end_height": 0.08873700931164401,
+      "max_height": 0.3781252369623363,
+      "min_radius": 0.28,
+      "max_radius": 0.6980392675284104,
+      "max_sample_principal_curvature": 13.55847696829578,
+      "min_sample_meridian_radius": 0.07375459665110852,
+      "a_prime_max": 6.123233995736766e-17,
+      "closure_error": 0.0,
+      "max_corresponding_ellipse_port_chord": 0.7270860975724608,
+      "sampled_port_chord_necessary_condition_passes": true,
+      "corresponding_chord_lower_bound_on_max_E_error": 0.0,
+      "reference_only": true,
+      "closed_round_reference_screen": {
+        "sample_normal_chord_radius": 0.0737629048904153,
+        "sample_normal_chord_over_target_diameter_2_3": 0.032070828213224045,
+        "meridian_points": 1092,
+        "includes_both_flat_disks": true,
+        "exact_ellipse_connector_checked": false,
+        "reach_proved": false
+      }
+    },
+    {
+      "overshoot": 1.53,
+      "first_fraction": 0.67,
+      "length": 0.8,
+      "cylinder_height": 0.23,
+      "cut_radius": 0.28,
+      "active_length": 0.7368576414855215,
+      "first_length": 0.4936946197952994,
+      "second_length": 0.24316302169022208,
+      "flat_length": 0.06314235851447858,
+      "end_height": 0.09270539521829205,
+      "max_height": 0.4260586169792534,
+      "min_radius": 0.28,
+      "max_radius": 0.6980392675284104,
+      "max_sample_principal_curvature": 11.797560860712093,
+      "min_sample_meridian_radius": 0.08476328385218779,
+      "a_prime_max": 6.123233995736766e-17,
+      "closure_error": 0.0,
+      "max_corresponding_ellipse_port_chord": 0.7329732658850289,
+      "sampled_port_chord_necessary_condition_passes": true,
+      "corresponding_chord_lower_bound_on_max_E_error": 0.0,
+      "reference_only": true,
+      "closed_round_reference_screen": {
+        "sample_normal_chord_radius": 0.08476529517115403,
+        "sample_normal_chord_over_target_diameter_2_3": 0.036854476161371316,
+        "meridian_points": 1092,
+        "includes_both_flat_disks": true,
+        "exact_ellipse_connector_checked": false,
+        "reach_proved": false
+      }
+    },
+    {
+      "overshoot": 1.5,
+      "first_fraction": 0.68,
+      "length": 0.8,
+      "cylinder_height": 0.25,
+      "cut_radius": 0.28,
+      "active_length": 0.7492219293001933,
+      "first_length": 0.5094709119241315,
+      "second_length": 0.2397510173760618,
+      "flat_length": 0.050778070699806756,
+      "end_height": 0.11942787991835621,
+      "max_height": 0.4532565895131241,
+      "min_radius": 0.28,
+      "max_radius": 0.6980392675284104,
+      "max_sample_principal_curvature": 11.73088147076687,
+      "min_sample_meridian_radius": 0.08524508601437844,
+      "a_prime_max": 6.123233995736766e-17,
+      "closure_error": 0.0,
+      "max_corresponding_ellipse_port_chord": 0.7317438612947943,
+      "sampled_port_chord_necessary_condition_passes": true,
+      "corresponding_chord_lower_bound_on_max_E_error": 0.0,
+      "reference_only": true,
+      "closed_round_reference_screen": {
+        "sample_normal_chord_radius": 0.0852474447496189,
+        "sample_normal_chord_over_target_diameter_2_3": 0.03706410641287779,
+        "meridian_points": 1092,
+        "includes_both_flat_disks": true,
+        "exact_ellipse_connector_checked": false,
+        "reach_proved": false
+      }
+    }
+  ],
+  "exact_round_seed_audit": {
+    "radial_points": 81,
+    "angular_points": 128,
+    "relative_metric_operator_sample_max": 1.2376803445119542e-15,
+    "E_error_sample_max": 1.1102230246251565e-15,
+    "F_normalized_error_sample_max": 5.429412609505666e-16,
+    "G_error_sample_max": 6.661338147750939e-16,
+    "endpoint_two_jet_matching_sample_max": 2.7755575615628914e-17,
+    "radius_range": [
+      0.3,
+      0.7
+    ],
+    "radius_derivative_range": [
+      -1.0,
+      6.123233995736766e-17
+    ],
+    "radius_second_derivative_range": [
+      -6.756500767615038,
+      0.36934916470064666
+    ],
+    "min_area_density_sample": 0.29999999999999993,
+    "min_section_turning_speed_sample": 0.9999999999999996,
+    "max_abs_principal_curvature_sample": 8.656235336945308,
+    "signed_frenet_angle_range": [
+      -0.19999332002935583,
+      1.5707963267948966
+    ],
+    "coordinate_min": [
+      -0.7,
+      -0.7,
+      0.06
+    ],
+    "coordinate_max": [
+      0.7,
+      0.7,
+      0.26588446676714284
+    ],
+    "continuous_error_bound": false,
+    "embeddedness_checked": false,
+    "reach_proved": false
+  },
+  "script_sha256": "fbe499e5b73a4c4b2df66a36f51069b26e8b64009d5ddb4f65ec69de072961f4"
+}
