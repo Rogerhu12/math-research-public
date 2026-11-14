@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [新外双相位、固定标量表示与完整高反馈](results/R119-supplement-new-outer-joint-two-phase-scalar-normal-form-and-high-feedback.md)：J1–28 在新 fixed-stop 对象上联立全部 Γ1/Γ2；真实控制方向保留径向 inverse 的显式导数，完整 first-phase 同调与两个强窗付清，实际受影响两行 (129,1)/(129,2) 均取 2^24000，cut 2^131072 后无层权 HH<2^-1024。mean、低历史、CR、ν和全部源列仍在；加权中间系统与真帽尚待接合。
+
 - **旧ρ完整第一修正Taylor actual二十门**：run43653825736 child0，258新cubic根行与75自然stage完整保存，0旧FFT/intrinsic/aux；正确μ=Q²B+，|j|至1536、双ε和全部mean保。已验证真实9e−6内窗及完整尾，φ1/512局部两行sup<24.457019495/781421.481649；sup与Wiener分开，不冒作全source/strong/cutoff。见 [实际完整Taylor报告](results/R133-supplement-actual-complete-old-radial-first-Airy-Taylor-bounds.md)。
 
 - **新外两根完整强散射和真实首相位**：F1–39重新支付真实长strict与simple-root/truegraph，保全mean、低模、真实正逆及有序word；两个4/3 strong窗<2^12000，β包含两根/新平台/真实窄图区，新增完整第二参数行保全Γ*交叉响应。原短4δ/旧三阶根数值未转授；尚不授closed网络。见 [新外strong与β](results/R119-supplement-new-outer-two-root-strong-scattering-and-complete-first-phase.md)。

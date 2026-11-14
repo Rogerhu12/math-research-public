@@ -555,3 +555,9 @@ run43654145060/job132628852951真实prepare失败，root独读完整52412B UTF8 
 ## 2026-11-14 23:43:06 UTC — oldρ Taylor actual20门/75完整自然stage
 
 run43653825736数学10.637003360s/driver10.787922386s child0，native18990ac2…52843B、process eebbbf37…48844B、worker8b5b958a…2575B。root读全部gates/实际域/三宽完整表和报告10a52b74…，所有hash核一致；258新cubic根行、75完整Fourier stages，旧FFT/高根/aux0重算。正确B+/B−，full|j|≤1536，双ε/独立mean/完整radial+angular tails保；局部L0w1显著收紧但仅strip sup。固定内窗和root bracket已实际含盖，外段同解切分积分、不造人工端口，原真seams保。root接Y内窗九词/mean，phase接严格外段F0r及w1rr。runner真实pull23:33:57/23:34:08、末481bb84991ff27a177f9524a38f8a4324dadefae，两README实际diff空；ea21df64f3250d3055842dd27f93fb10628128ff只读核未变。H9885B完整归档。
+
+## 2026-11-14 23:49:52 UTC 新外联合双相位与完整高反馈
+
+推送 J1–28 完整证明，正文 SHA256 bf4d34c2fcaf3602b5106dae3bb9c29bbbba3901ff4ca363f50d6c3f7cab03d2。根核对 F 的重付输入、原 controlled N11–12、原算术 Q7–14 和固定 scalar Z9–39；完整 E 采用 2^160057X/2^160092X，未误用未 controlled 较小费。J16 保显式 D_ext φ 及 Γ1 的交叉列；J23 按真实根位置枚举两受影响行。J24 的 forward/adjoint 两窗分别有序消费；J26–28 保全部低历史和外源，不据无层权高逆冒称闭合。
+
+读取两README于 2fba8713aff3421ff14fe8bc63fb95199755abb2，blob均未变；本次只读核不计为 git pull。本机仍无执行环境；公开runner最新已核真pull23:34:08，记录完整保留。接着消费已完成五盒合同与原层权，并继续内窗第一修正完整旧圆源。
