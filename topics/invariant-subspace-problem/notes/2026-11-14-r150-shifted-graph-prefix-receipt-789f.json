@@ -1,0 +1,64 @@
+{
+  "format": "r150-shifted-source-graph-run-v1",
+  "status": "prefix-only",
+  "field": 31,
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "mappingSHA256": "cf2d53f8da539a1538e492fbca77464999a217878e4f3de0a5a057025507ed64",
+  "nfReceiptSHA256": "d6882ec5b3b99be56cadd5920216b1367ee85511f74a8c09f2fb0ff0d930c5c3",
+  "cppSHA256": "b8ebdc03652ccdc9f27fa49b450190d50231a5ea2848a30d8c014e22e9caed44",
+  "runnerSHA256": "274cc8e0104ccf0c535583f4d0e66417c4443719d0ee321c26648ee44045c01e",
+  "arithmeticSHA256": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+  "arithmeticHeaderSHA256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+  "sourceShiftRule": "degree(R_j)-64",
+  "outputShift": 0,
+  "maximumWeightedRowDegree": 45,
+  "secondsLimit": 60,
+  "softSeconds": 50,
+  "memoryMiBLimit": 512,
+  "storage": "one copy per row; scalar 3/5 use two additions",
+  "outputs": {
+    "basis.bin": {
+      "file": "/tmp/r150-shifted-graph-prefix-789f/graph-basis.bin",
+      "bytes": 34011216,
+      "sha256": "2bf29867e5d9584d84c7854f7b76ea7d1c13021e7f00d43259c93ac33a7984c2"
+    },
+    "metadata.json": {
+      "file": "/tmp/r150-shifted-graph-prefix-789f/graph-metadata.json",
+      "bytes": 46146,
+      "sha256": "a35a6cc603ee59a4c3f2ac9319411b9e2bb73f62e9f5c132cf6d9afdf7278088"
+    }
+  },
+  "binarySHA256": "452c716367c128be96615eae18f5c15dd2664236283ff4a2e927b381418bfbba",
+  "lastProgress": {
+    "status": "shifted-graph-prefix-only",
+    "processedSources": 672,
+    "outputLeadingRows": 591,
+    "sourceLeadingRows": 81,
+    "sourceLeadingRowsWithNonzeroOutput": 0,
+    "maximumOutputLeadingDegree": 13,
+    "maximumSourceCoefficientDegree": 52,
+    "reductions": 5291745,
+    "swaps": 2326,
+    "additionWordCalls": 22783807077,
+    "basisPayloadBytes": 86325120,
+    "peakRSSKiB": 86016,
+    "elapsedSeconds": 50.3857
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 50.408288722999714,
+  "nativeStatistics": {
+    "status": "shifted-graph-prefix-only",
+    "processedSources": 672,
+    "outputLeadingRows": 591,
+    "sourceLeadingRows": 81,
+    "sourceLeadingRowsWithNonzeroOutput": 0,
+    "maximumOutputLeadingDegree": 13,
+    "maximumSourceCoefficientDegree": 52,
+    "reductions": 5291745,
+    "swaps": 2326,
+    "additionWordCalls": 22783807077,
+    "basisPayloadBytes": 86325120,
+    "peakRSSKiB": 86016,
+    "elapsedSeconds": 50.3857
+  }
+}

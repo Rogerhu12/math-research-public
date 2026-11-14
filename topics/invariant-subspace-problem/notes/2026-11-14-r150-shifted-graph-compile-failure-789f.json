@@ -1,0 +1,20 @@
+{
+  "format": "r150-shifted-source-graph-run-v1",
+  "status": "compile-failed",
+  "field": 31,
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "mappingSHA256": "cf2d53f8da539a1538e492fbca77464999a217878e4f3de0a5a057025507ed64",
+  "nfReceiptSHA256": "d6882ec5b3b99be56cadd5920216b1367ee85511f74a8c09f2fb0ff0d930c5c3",
+  "cppSHA256": "d29183d62151f28c001a34f738330ec1936ec24c3529fd0e4764dbdf228130dd",
+  "runnerSHA256": "595a68f32605a9fb5cfe2a4bd678a447f8d46b4694f12923b406913442de2f98",
+  "arithmeticSHA256": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+  "sourceShiftRule": "degree(R_j)-64",
+  "outputShift": 0,
+  "maximumWeightedRowDegree": 45,
+  "secondsLimit": 60,
+  "softSeconds": 50,
+  "memoryMiBLimit": 512,
+  "storage": "one copy per row; scalar 3/5 use two additions",
+  "outputs": {},
+  "compileOutput": "g++: fatal error: Killed signal terminated program cc1plus\ncompilation terminated.\n"
+}
