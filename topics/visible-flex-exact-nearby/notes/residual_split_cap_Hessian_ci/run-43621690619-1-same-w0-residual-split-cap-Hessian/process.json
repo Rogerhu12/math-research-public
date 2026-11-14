@@ -8,7 +8,34 @@
   "workflow_commit": "c12cb6cda69d4489e8c6a4c18aff0fa141c393f7",
   "worker_source_sha256": "0f5bb7c3c747a5e62ac52b40d17ee7dda398f044c30c6c723dccc4b8e7eb0b9b",
   "started_utc": "2026-11-14T17:33:35.441455+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_same_w0_residual_derivative_split_Hessian",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-residual-split-Hessian-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_residual_split_cap_Hessian.py",
+        "--out",
+        "/__w/_temp/visible-exact-residual-split-Hessian-output/native/complete-same-w0-residual-split-cap-Hessian.json.gz",
+        "--local",
+        "/__w/_temp/visible-exact-residual-split-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+        "--background",
+        "/__w/_temp/visible-exact-residual-split-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-continuous-repair-physical-cap-background-v2-native.json.gz",
+        "--particular",
+        "/__w/_temp/visible-exact-residual-split-Hessian-particular/native/complete-same-w0-particular-cap-Hessian.json.gz",
+        "--particular-process",
+        "/__w/_temp/visible-exact-residual-split-Hessian-particular/process.json",
+        "--ordinary",
+        "/__w/_temp/visible-exact-residual-split-Hessian-ordinary/native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+        "--ordinary-process",
+        "/__w/_temp/visible-exact-residual-split-Hessian-ordinary/process.json"
+      ],
+      "started_utc": "2026-11-14T17:33:38.644957+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000518615000033,
+      "finished_utc": "2026-11-14T17:33:43.645866+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:33:36.756791+00:00",
@@ -25,9 +52,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:33:44.005543+00:00",
+      "before": "4472086d891a421a0976db10110fc093261d40ab",
+      "after": "fea6f65e00fcb072b58acd3793f83dc1e6d91f13",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:33:38.642789+00:00",
+      "final": false,
+      "commit": "fea6f65e00fcb072b58acd3793f83dc1e6d91f13"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -58,7 +99,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "4472086d891a421a0976db10110fc093261d40ab",
+  "last_read_commit": "fea6f65e00fcb072b58acd3793f83dc1e6d91f13",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-residual-split-Hessian-work/science",
   "actual_input_sha256": {
     "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
@@ -68,8 +109,8 @@
     "ordinary": "b1ffc21737ba45d1ef8823af9dccc0baba8b100a1169b60c69f6a7a5d1cfda6c",
     "ordinary-process": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75"
   },
-  "snapshot_utc": "2026-11-14T17:33:37.292034+00:00",
-  "wall_seconds": 1.8512866309999936,
+  "snapshot_utc": "2026-11-14T17:33:44.041742+00:00",
+  "wall_seconds": 8.600996221000003,
   "native_files": [
     {
       "logical_file": "evidence/original-ordinary-process.json",
@@ -82,6 +123,12 @@
       "file": "evidence/original-particular-process.json",
       "bytes": 8546,
       "sha256": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c"
+    },
+    {
+      "logical_file": "native/complete-same-w0-residual-split-cap-Hessian.json.gz",
+      "file": "native/complete-same-w0-residual-split-cap-Hessian.json.gz",
+      "bytes": 2694759,
+      "sha256": "85b6bbb899ab04549131fd20a7b16209056e2a51cb012bffbd7a6ae590b047c5"
     }
   ]
 }
