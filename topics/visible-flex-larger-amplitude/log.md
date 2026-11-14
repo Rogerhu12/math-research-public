@@ -629,3 +629,8 @@ run43603818345/job132474070289真实失败，artifact14117411488/ZIP4d546160…�
 ### 2026-11-14 request22真实v2全块完成、深处舍入初猜拒绝与产物补出版
 
 run43604874829/job132477286262实际工厂全部576stage成功，41个有限rounded det0；本次12/92明确ad=bc=−3400707242096343。预测261→262第112模真实Q=−5e−324除275.8821411118115得0，被新增初猜underflow veto拒；原native evaluate0，无新norm/J/audit。完整1427事件与块在artifact14118131680/ZIPf885ff4f…已取核；自动publisher仅因root接新lane时漏加argparse白名单失败，全部限额内原件现补出版，publisher补trustmultiline/zerorkprobev2，不重算。原native initial没有此新增veto，后继独立v3只允许实际深处有限舍入零并留损失身份，所有cut H/原方程/门保留。
+
+
+### 2026-11-14 R264完整舍入账与request23原noJ续接
+
+完整证明直接登记R264：原native初猜允许内部零，actual22拒绝是私有veto；精确binary64局部损失、图舍入传输恒等式、跨节点累计和原far/真正非线性残差的区别均明确。三个78718原源与实际22双source表逐SHA一致，root全文读并修TeX/范数口径。独立v3三源只对真实内部有限乘除underflow记operand/result/±0/双原scale bits后继续，保cut H与所有原门，完整candidate才一次原noJ。request23/zerorkprobev3已接公开push；workflow与publisher名单静态一致，未本地数值、未预设成功。

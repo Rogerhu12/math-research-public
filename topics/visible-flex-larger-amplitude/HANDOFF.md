@@ -33,7 +33,7 @@ R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降
 19/run43602823170实际原无J576stage全guard过，norm13414069.968482966；最坏stage11/raw0/seg7/Pi104，而cut/far全112行0。saved与cold initial129248项数值相等；完整actual-cold-tail-no-J-stage-replay已推，不重跑。
 21/run43603818345工厂在stage12/index92的合并det检查失败，evaluate0；summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。旧件未留T，不反填v2值为v1观测。
 22/zerorkprobev2实际run43604874829/sourcefb32e240/job132477286262：全部576stage工厂成功，41个有限rounded det0；该12/92在本次明确ad=bc=−3400707242096343。2.451s预测在261→262第112模因Q=−5e−324/u275.8821411118115→0，被私有underflow veto拒；candidate=false/evaluate0，无新norm/J/audit。1427完整事件/块已取，artifact14118131680/ZIPf885ff4f…，summary SHA4d09183f4afd7838d80ad707042e52bd2212d8ae846ad15ce2c25a1754634ea7。publisher仅因lane漏白名单失败，root补救全部原产物并修两lane，不重算。
-原native initial本就允许普通有限binary64舍入为0，该veto是新初猜器自加。geometry接独立v3，保cut全部H/模式/far/graphs/gains/scales/域/容差，只记录并允许真实深处乘除underflow；非finite/零u仍拒。候选完整才原noJ，不自动Newton；exact_refinement写R264误差账，不添科学门。三行lane仍运行中。
+原native initial本就允许普通有限binary64舍入为0，该veto是新初猜器自加。独立v3三源已读/AST并接request23/zerorkprobev3，保cut全部H/模式/far/graphs/gains/scales/域/容差，只记录并允许真实深处乘除underflow；非finite/零u仍拒。候选完整才原noJ，不自动Newton；R264完整误差账已登记，不添科学门。22三行warm/新FD已真success，原件已取待紧凑登记。
 
 ## 之后的完整闭合与同g精化
 
@@ -45,6 +45,6 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 ## 旧失败、证明和封存
 
-request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R263完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A δhold/D≈.063<.2，RK24/48/三mesh/R241 q8全部2157568对已付；旧GW同g/raw/mean局部f8/16/48已付并封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁，公开78件匹配91源；绝不读private。详见历史notes。
+request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R264完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A δhold/D≈.063<.2，RK24/48/三mesh/R241 q8全部2157568对已付；旧GW同g/raw/mean局部f8/16/48已付并封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁，公开78件匹配91源；绝不读private。详见历史notes。
 
 规则同步记录：2026-11-14T14:31:48.178780+00:00 实际pull --rebase成功；双README自c0d07f33无变化，已读提交 e87a1226eb52a251b3d0686e47b58a42d8ab56d0。

@@ -491,3 +491,6 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 
 
 - [R263. 投影KKT、正阻尼模型后验误差与实际LSMR停止](results/R263-projected-KKT-and-damped-model-error.md)（已证明，有限实线性代数定理）：原受限梯度r与预条件normal C^-1r严格区分；λ²强凸给方向误差≤||r||/λ²、模型gap≤||r||²/(2λ²)及取得最佳下降比例的充分条件。下降恒等式缺陷只是zᵀr，不能代完整KKT。实际20两norm并不矛盾，浮点投影/残差误差另付；这是优化内层后验工具，不新增BVP/域/几何门，也不反推已见域失败由截断造成。
+
+
+- [R264. 原native初猜的下溢契约与完整舍入误差账](results/R264-native-underflow-seed-contract-and-rounding-ledger.md)（已证明，条件有限算术/代数定理）：完整H/cut/远端/模式与原门保持时，内部有限乘除自然舍入零可保留为待验初猜；给精确局部传输缺陷、含图舍入的全部项与跨节点累积式，区分原far浮点零/实数缺陷及真正非线性flow。实际22只命中新初猜器保护，未进入native；局部损失身份不冒总误差界，不额外设通过门。
