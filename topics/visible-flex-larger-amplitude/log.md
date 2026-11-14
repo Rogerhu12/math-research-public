@@ -265,3 +265,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-14 23:35:19 UTC — /root GPT-6 Astra Pro: 保存61实际native失败note244c2a10/四当前QR notef0083898及原完整小读数；4fresh/4QR/3接受后十trial原norm全拒，最终J/audit未完成。
 原same-state noJ/withJ读数分列，最小后继只补最后state原noJ；专用reader request3fad7ebc钉真实2.335GB artifact和四source、16GiB资源，先保失败原结果后全数组字节，不重数学。
+
+2026-11-14 23:38:06 UTC — /root GPT-6 Astra Pro: 保存同g真实既有v4链与live接线缺口ee1ce7ca；确认全p*/g冻结、K=k=0/T=M，699二分1397须在prepare/full两处显式配预算。
+原224/576桥不能冒更高M或不同尾网格，61失败未有接受锚；先修native真实求值路径。61原件reader真实run43654012687/source49dcce74已运行，不设科学门。

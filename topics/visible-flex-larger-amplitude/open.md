@@ -62,7 +62,7 @@
 
 [R274](results/R274-shared-background-cancellation-and-open-piece-nonplanarity.md)已完整证明公共B及cut公共项在同r角差中消去、有限径向细分保持解析非恒零见证；仅充分测试，不称必要条件。[共享B R258适配](notes/2026-11-14-shared-background-planar-germ-adapter-interface.md)已保持原证明内核，等待真实新场非零见证。有限φ不等于有限θ；同DFT网格相等不能冒连续seam证明。
 
-定型后冻结全部scalar p*、g、区间、尾帽及t范围；原same-g v4已实现K=k=0、active p空、T=M。699二分至少1397，再合入profile knots，prepare和fullDN的max_nodes都须显式充足，不能沿默认1200删节点。现live严格M112/224/depth576，更高M或tailsteps不得复用旧61种子冒同配置。几何agent正保存真实v4接口及需接的response源身份/首call编号窄点，不重造solver、不增六/九jet机器门。
+定型后冻结全部scalar p*、g、区间、尾帽及t范围；原same-g v4已实现K=k=0、active p空、T=M。699二分至少1397，再合入profile knots，prepare和fullDN的max_nodes都须显式充足，不能沿默认1200删节点。现live严格M112/224/depth576，更高M或tailsteps不得复用旧61种子冒同配置。[完整v4接线与真实缺口](notes/2026-11-14-same-metric-live-refinement-entry-and-current-gaps.md)已保存：response源身份/首call编号三处窄点，直接复用既有完整v4物理链，不重造solver、不增六/九jet机器门。
 
 ## 3. 全t嵌入、reach、固定区和整像幅度
 
