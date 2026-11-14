@@ -1,0 +1,382 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T16:46:48.067286+00:00",
+  "source_commit": "6d19fb8c81bebd411ec3863129585dfee261032e",
+  "run_id": "43617334081",
+  "run_attempt": "1",
+  "lane": "nativeequilibrated",
+  "files": [
+    {
+      "source": "actual28-artifact-fetch-receipt.json",
+      "bytes": 44420,
+      "sha256": "f4a1017f04fdd9bdc514bb4c96ee5012935823a92f3eee130a765aca9c660169",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/actual28-artifact-fetch-receipt.json",
+      "published_bytes": 44420,
+      "published_sha256": "f4a1017f04fdd9bdc514bb4c96ee5012935823a92f3eee130a765aca9c660169"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/assembled-model.json",
+      "bytes": 10733,
+      "sha256": "e2739099131507796b5d08e624290cc71064bdd9e232b82eb53fcb4a2a99b6b0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/assembled-model.json",
+      "published_bytes": 10733,
+      "published_sha256": "e2739099131507796b5d08e624290cc71064bdd9e232b82eb53fcb4a2a99b6b0"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/direction-checkpoint-iteration-00.json.gz",
+      "bytes": 1314946,
+      "sha256": "1578a417431faa9e3670ac4539966e944577af0264a09d366948039ef961b05f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/direction-checkpoint-iteration-00.json.gz",
+      "published_bytes": 1314946,
+      "published_sha256": "1578a417431faa9e3670ac4539966e944577af0264a09d366948039ef961b05f"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/direction-checkpoint-iteration-01.json.gz",
+      "bytes": 1313711,
+      "sha256": "97269b181aa1f0f7d6e5572121449f27318a75f790672b76f4c4b843ec3e20a7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/direction-checkpoint-iteration-01.json.gz",
+      "published_bytes": 1313711,
+      "published_sha256": "97269b181aa1f0f7d6e5572121449f27318a75f790672b76f4c4b843ec3e20a7"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/direction-checkpoint.json.gz",
+      "bytes": 1314946,
+      "sha256": "1578a417431faa9e3670ac4539966e944577af0264a09d366948039ef961b05f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/direction-checkpoint.json.gz",
+      "published_bytes": 1314946,
+      "published_sha256": "1578a417431faa9e3670ac4539966e944577af0264a09d366948039ef961b05f"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/equilibration-00.json",
+      "bytes": 1559,
+      "sha256": "75ce82139e3b47e79fc2bacc578d8e48d0e6c3d82829b681df583a37bd6a5199",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/equilibration-00.json",
+      "published_bytes": 1559,
+      "published_sha256": "75ce82139e3b47e79fc2bacc578d8e48d0e6c3d82829b681df583a37bd6a5199"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/equilibration-01.json",
+      "bytes": 1558,
+      "sha256": "c64cc5745386490332ecbdade41e8592d6561d9159fc1a11dcf285be8679aa07",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/equilibration-01.json",
+      "published_bytes": 1558,
+      "published_sha256": "c64cc5745386490332ecbdade41e8592d6561d9159fc1a11dcf285be8679aa07"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/equilibration.json",
+      "bytes": 6083,
+      "sha256": "bc88d7aa4a28ac6d3d621d7328dbb44426db830d5ff4fe23c5f20136f89241ab",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/equilibration.json",
+      "published_bytes": 6083,
+      "published_sha256": "bc88d7aa4a28ac6d3d621d7328dbb44426db830d5ff4fe23c5f20136f89241ab"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/exact-new-floating-worst-row.json",
+      "bytes": 11767,
+      "sha256": "ba1efbc3df2caef5b94c3c13b6338d55807d649f8680145117a73865a2353716",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/exact-new-floating-worst-row.json",
+      "published_bytes": 11767,
+      "published_sha256": "ba1efbc3df2caef5b94c3c13b6338d55807d649f8680145117a73865a2353716"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/exact-original-captured-worst-row.json",
+      "bytes": 11872,
+      "sha256": "3f3c43df7d1a0677727745e648b7c217fc674e8bc985646a4539c13e8db56995",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/exact-original-captured-worst-row.json",
+      "published_bytes": 11872,
+      "published_sha256": "3f3c43df7d1a0677727745e648b7c217fc674e8bc985646a4539c13e8db56995"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/factorization.json",
+      "bytes": 11316,
+      "sha256": "c28089a7b86bf14d8fbb4a2acedefb87d4302ffaaf339af327be9f855b0aaeba",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/factorization.json",
+      "published_bytes": 11316,
+      "published_sha256": "c28089a7b86bf14d8fbb4a2acedefb87d4302ffaaf339af327be9f855b0aaeba"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/input-binding.json",
+      "bytes": 4014,
+      "sha256": "e55c1430341a516f7f11e279faf8dadaeff2899447160a84da80c108455411c8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/input-binding.json",
+      "published_bytes": 4014,
+      "published_sha256": "e55c1430341a516f7f11e279faf8dadaeff2899447160a84da80c108455411c8"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/iteration-00-exact-global-witness.json",
+      "bytes": 9221,
+      "sha256": "611d2f04327d8b327617c1cdb1b3ef993abe474791a8594dc021f14f39b04e2a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/iteration-00-exact-global-witness.json",
+      "published_bytes": 9221,
+      "published_sha256": "611d2f04327d8b327617c1cdb1b3ef993abe474791a8594dc021f14f39b04e2a"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/iteration-00-exact-residual-summary.json",
+      "bytes": 5479,
+      "sha256": "b52fee9500341dd395e7f625a4b913e78facb882c428711b2e9da948a2786870",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/iteration-00-exact-residual-summary.json",
+      "published_bytes": 5479,
+      "published_sha256": "b52fee9500341dd395e7f625a4b913e78facb882c428711b2e9da948a2786870"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/iteration-00-summary.json",
+      "bytes": 6656,
+      "sha256": "1b3a77754a86125ea555e3b93b6bf3d533e5d9eb9131653a9440c36480dcf414",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/iteration-00-summary.json",
+      "published_bytes": 6656,
+      "published_sha256": "1b3a77754a86125ea555e3b93b6bf3d533e5d9eb9131653a9440c36480dcf414"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/iteration-01-exact-global-witness.json",
+      "bytes": 9203,
+      "sha256": "81ab67d18dee79ca65f7af8c04a9b64d177a22f4a944f7b5abb8227a65db871f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/iteration-01-exact-global-witness.json",
+      "published_bytes": 9203,
+      "published_sha256": "81ab67d18dee79ca65f7af8c04a9b64d177a22f4a944f7b5abb8227a65db871f"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/iteration-01-exact-residual-summary.json",
+      "bytes": 5466,
+      "sha256": "6c6449429107a88f969906055b1234413c08fec5cddf60dc33ed4a88b22f3b5d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/iteration-01-exact-residual-summary.json",
+      "published_bytes": 5466,
+      "published_sha256": "6c6449429107a88f969906055b1234413c08fec5cddf60dc33ed4a88b22f3b5d"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/iteration-01-summary.json",
+      "bytes": 6644,
+      "sha256": "90805e6fdbc13e5cf2f720bb37b10a168b92bd1012b3c373eb497fc6ca36527c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/iteration-01-summary.json",
+      "published_bytes": 6644,
+      "published_sha256": "90805e6fdbc13e5cf2f720bb37b10a168b92bd1012b3c373eb497fc6ca36527c"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-new-cut-raw.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-new-cut-scaled.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-new-far-raw.f64le",
+      "bytes": 896,
+      "sha256": "6cbaaf9dc1e38c102246a7824d59b170a08f9f09526f1d3577d7afaf068a2fd7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-new-far-scaled.f64le",
+      "bytes": 896,
+      "sha256": "a0a0a8009f2bfeb1564276af69f297c05f2d51a257753895bde56a15c2d01806",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-new-stage-raw.f64le",
+      "bytes": 1032192,
+      "sha256": "ed7c1bc83edce8323207a1fbe41894fc63c6a64d61f4065b10251441ba7a7ac9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-new-stage-scaled.f64le",
+      "bytes": 1032192,
+      "sha256": "b96ac6c5a62c507e3531563577de96b68bbdd894b92812e6ff9f654a0ffc75a8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-coordinate-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "167d9c503d2d85fbd21c5865fe99d0e24d9fe532da0dfa513e22559eec03e215",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-cut-raw.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-cut-scaled.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-far-raw.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-far-scaled.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-stage-raw.f64le",
+      "bytes": 1032192,
+      "sha256": "3e5901af6230c5eaa6d121a60324fbba9134aa95d70b8649ba6ec5af40b8b2e7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-original-stage-scaled.f64le",
+      "bytes": 1032192,
+      "sha256": "65873e31430920893f4fc062bb1fb93e7d55b5c0819f67423130fbbbd92aadbb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/complete-scaled-rhs.f64le",
+      "bytes": 1033984,
+      "sha256": "e61d0a700de50d3a24ed317ec65f744f2d29e2a3ba58eee891290ae68dfed4dc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/equilibration-00-column-step.i32le",
+      "bytes": 516992,
+      "sha256": "0b5c5117283cb24d8d7ffd722ed484a6e2d81bb25cbe8604c7682c231908a8e9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/equilibration-00-row-step.i32le",
+      "bytes": 516992,
+      "sha256": "dfe6be9a2ce7e3677a0b733843cb6e6be2c8750d56a0c8dc736b179a26d4fa26",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/equilibration-01-column-step.i32le",
+      "bytes": 516992,
+      "sha256": "d6b5fa231a7bac1e5a2e4da7f365b501a1ab4aea76cb29b186f87c76b488d678",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/equilibration-01-row-step.i32le",
+      "bytes": 516992,
+      "sha256": "d6b5fa231a7bac1e5a2e4da7f365b501a1ab4aea76cb29b186f87c76b488d678",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/final-column-dyadic-exponents.i32le",
+      "bytes": 516992,
+      "sha256": "29fa25c4a8ec5e7a74831c7a1cc850aee82432138fa9cfc6ec3e58ec01bf972a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/final-row-dyadic-exponents.i32le",
+      "bytes": 516992,
+      "sha256": "d91041ef5625fd07034d602e1380e1681553e526a391f7766c82a48b83529d73",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/formed-column-max-absolute-entry.f64le",
+      "bytes": 1033984,
+      "sha256": "a129095ce423ed9074c0f36a34b01513d19f137c4e1aad4e8cdc1e068c29ca80",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/formed-row-max-absolute-entry.f64le",
+      "bytes": 1033984,
+      "sha256": "7826fa4e5819b0f3ff7bf698885bcfe469a2102e1df657144cf6d6853b6afa2d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/initial-column-dyadic-exponents.i32le",
+      "bytes": 516992,
+      "sha256": "1d978ee0ed3d319f935092fdc2462c0c1ef510851492b76b7bab2ab68290465f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/initial-node-dyadic-exponents.i32le",
+      "bytes": 2308,
+      "sha256": "e0da349133e031777347b5cdc55bef01187b4701fe8518ddea391175c5607753",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/initial-row-dyadic-exponents.i32le",
+      "bytes": 516992,
+      "sha256": "6842bca1b85d3a5de60dd023c735e8d4b23b75c487d68707b30a6af57ceed53c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/initial-scaled-coordinate-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "3b7cce6680370affce48f6b42e4c75c693d61f00fe0aa02f28f26215428f1880",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/iteration-00-exact-residuals.jsonl.gz",
+      "bytes": 3850013,
+      "sha256": "ebd309387510fb50c2941e6ddcad721e2111c338415b4a0a34e0a3ca00c8b59d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/iteration-00-original-coordinate-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "167d9c503d2d85fbd21c5865fe99d0e24d9fe532da0dfa513e22559eec03e215",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/iteration-00-refinement-rhs.f64le",
+      "bytes": 1033984,
+      "sha256": "e98a1b9b473dda6a30bbda0ffcf3281325f56b1b708e2a361eddd55f769d3283",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "bytes": 3844176,
+      "sha256": "486ca6e723bcbdad66ef2d8bc0b59c71dbd83ed056d9e0e9e595d97b86cde8d1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/iteration-01-original-coordinate-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "3647f7d189de5298fa8af1a9609592b0a537161dd827cc08cb637b2a40609c60",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/iteration-01-refinement-rhs.f64le",
+      "bytes": 1033984,
+      "sha256": "e326d7d967e22c97e4e9db9c9d6079eb3def619792fa49c85623dec7a37dae94",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/lapack-pivots.i32le",
+      "bytes": 516992,
+      "sha256": "6dcae8855b150133cf9322716d87a0e0a204008f6da59548f9e2c1e5d136e72a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/refinement-01-original-coordinate-increment.f64le",
+      "bytes": 1033984,
+      "sha256": "c1aab0b3f0b27499c587a030054f96c9494400ac84f4ddf91f67d396be32f2f5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/large-arrays/refinement-01-scaled-coordinate-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "b1cee22afa0e5cccc6915097e2992bcc14ce99a8981de8507813a4fb7dae640a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/output-array-manifest.json",
+      "bytes": 17001,
+      "sha256": "a34a2a8fbefa6c7bdd4f1a132618ca79c91ad02c34eff3b9fe5e8831e634407c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/output-array-manifest.json",
+      "published_bytes": 17001,
+      "published_sha256": "a34a2a8fbefa6c7bdd4f1a132618ca79c91ad02c34eff3b9fe5e8831e634407c"
+    },
+    {
+      "source": "captured-native-equilibrated-band-correction/result.json",
+      "bytes": 624394,
+      "sha256": "c20256f770e2c64854a93d9b2fc51b4cc890939fc362706ac5c14dc05e547d6c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43617334081-1-nativeequilibrated/captured-native-equilibrated-band-correction/result.json",
+      "published_bytes": 624394,
+      "published_sha256": "c20256f770e2c64854a93d9b2fc51b4cc890939fc362706ac5c14dc05e547d6c"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43617334081"
+}

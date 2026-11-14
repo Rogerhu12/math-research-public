@@ -1,0 +1,553 @@
+{
+  "schema": "captured-native-band-direction-arrays-v1",
+  "source_sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3",
+  "capture_result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+  "arrays": [
+    {
+      "name": "initial-node-dyadic-exponents",
+      "file": "large-arrays/initial-node-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        577
+      ],
+      "bytes": 2308,
+      "sha256": "e0da349133e031777347b5cdc55bef01187b4701fe8518ddea391175c5607753",
+      "role": "Nearest power of two to each exact original sigma; absolute-distance ties choose lower"
+    },
+    {
+      "name": "initial-row-dyadic-exponents",
+      "file": "large-arrays/initial-row-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "6842bca1b85d3a5de60dd023c735e8d4b23b75c487d68707b30a6af57ceed53c",
+      "role": "Initial inverse original-node dyadic scale"
+    },
+    {
+      "name": "initial-column-dyadic-exponents",
+      "file": "large-arrays/initial-column-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "1d978ee0ed3d319f935092fdc2462c0c1ef510851492b76b7bab2ab68290465f",
+      "role": "Initial original-node dyadic scale"
+    },
+    {
+      "name": "equilibration-00-row-step",
+      "file": "large-arrays/equilibration-00-row-step.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "dfe6be9a2ce7e3677a0b733843cb6e6be2c8750d56a0c8dc736b179a26d4fa26",
+      "role": "Exact integer exponent increment"
+    },
+    {
+      "name": "equilibration-00-column-step",
+      "file": "large-arrays/equilibration-00-column-step.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "0b5c5117283cb24d8d7ffd722ed484a6e2d81bb25cbe8604c7682c231908a8e9",
+      "role": "Exact integer exponent increment"
+    },
+    {
+      "name": "equilibration-01-row-step",
+      "file": "large-arrays/equilibration-01-row-step.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "d6b5fa231a7bac1e5a2e4da7f365b501a1ab4aea76cb29b186f87c76b488d678",
+      "role": "Exact integer exponent increment"
+    },
+    {
+      "name": "equilibration-01-column-step",
+      "file": "large-arrays/equilibration-01-column-step.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "d6b5fa231a7bac1e5a2e4da7f365b501a1ab4aea76cb29b186f87c76b488d678",
+      "role": "Exact integer exponent increment"
+    },
+    {
+      "name": "final-row-dyadic-exponents",
+      "file": "large-arrays/final-row-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "d91041ef5625fd07034d602e1380e1681553e526a391f7766c82a48b83529d73",
+      "role": "Atilde_ij=2**row_exp[i] A_ij 2**column_exp[j]"
+    },
+    {
+      "name": "final-column-dyadic-exponents",
+      "file": "large-arrays/final-column-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "29fa25c4a8ec5e7a74831c7a1cc850aee82432138fa9cfc6ec3e58ec01bf972a",
+      "role": "delta_j=2**column_exp[j] z_j"
+    },
+    {
+      "name": "formed-row-max-absolute-entry",
+      "file": "large-arrays/formed-row-max-absolute-entry.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "7826fa4e5819b0f3ff7bf698885bcfe469a2102e1df657144cf6d6853b6afa2d",
+      "role": "Actual formed floating matrix row maximum; not a condition number",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "formed-column-max-absolute-entry",
+      "file": "large-arrays/formed-column-max-absolute-entry.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "a129095ce423ed9074c0f36a34b01513d19f137c4e1aad4e8cdc1e068c29ca80",
+      "role": "Actual formed floating matrix column maximum; not a condition number",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-scaled-rhs",
+      "file": "large-arrays/complete-scaled-rhs.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "e61d0a700de50d3a24ed317ec65f744f2d29e2a3ba58eee891290ae68dfed4dc",
+      "role": "Negative original captured residual times final dyadic row scale",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "lapack-pivots",
+      "file": "large-arrays/lapack-pivots.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "6dcae8855b150133cf9322716d87a0e0a204008f6da59548f9e2c1e5d136e72a",
+      "role": "Actual SciPy dgbtrf pivot vector; reused unchanged"
+    },
+    {
+      "name": "initial-scaled-coordinate-delta",
+      "file": "large-arrays/initial-scaled-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "3b7cce6680370affce48f6b42e4c75c693d61f00fe0aa02f28f26215428f1880",
+      "role": "All scaled coordinates before exact powers-of-two recovery",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "iteration-00-original-coordinate-delta",
+      "file": "large-arrays/iteration-00-original-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "167d9c503d2d85fbd21c5865fe99d0e24d9fe532da0dfa513e22559eec03e215",
+      "role": "Every full original coordinate before this exact original-equation residual check",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "iteration-00-exact-residuals",
+      "file": "large-arrays/iteration-00-exact-residuals.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        129248
+      ],
+      "bytes": 3850013,
+      "sha256": "ebd309387510fb50c2941e6ddcad721e2111c338415b4a0a34e0a3ca00c8b59d",
+      "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+    },
+    {
+      "name": "iteration-00-refinement-rhs",
+      "file": "large-arrays/iteration-00-refinement-rhs.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "e98a1b9b473dda6a30bbda0ffcf3281325f56b1b708e2a361eddd55f769d3283",
+      "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "refinement-01-scaled-coordinate-delta",
+      "file": "large-arrays/refinement-01-scaled-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "b1cee22afa0e5cccc6915097e2992bcc14ce99a8981de8507813a4fb7dae640a",
+      "role": "All scaled coordinates before exact powers-of-two recovery",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "refinement-01-original-coordinate-increment",
+      "file": "large-arrays/refinement-01-original-coordinate-increment.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "c1aab0b3f0b27499c587a030054f96c9494400ac84f4ddf91f67d396be32f2f5",
+      "role": "Full solution of the correctly rounded scaled negative exact residual",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "iteration-01-original-coordinate-delta",
+      "file": "large-arrays/iteration-01-original-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "3647f7d189de5298fa8af1a9609592b0a537161dd827cc08cb637b2a40609c60",
+      "role": "Every full original coordinate before this exact original-equation residual check",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "iteration-01-exact-residuals",
+      "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        129248
+      ],
+      "bytes": 3844176,
+      "sha256": "486ca6e723bcbdad66ef2d8bc0b59c71dbd83ed056d9e0e9e595d97b86cde8d1",
+      "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+    },
+    {
+      "name": "iteration-01-refinement-rhs",
+      "file": "large-arrays/iteration-01-refinement-rhs.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "e326d7d967e22c97e4e9db9c9d6079eb3def619792fa49c85623dec7a37dae94",
+      "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-coordinate-delta",
+      "file": "large-arrays/complete-original-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "167d9c503d2d85fbd21c5865fe99d0e24d9fe532da0dfa513e22559eec03e215",
+      "role": "Complete restored best direction selected by exact original-sigma residual, before nonlinear trials",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-stage-raw",
+      "file": "large-arrays/complete-original-stage-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "3e5901af6230c5eaa6d121a60324fbba9134aa95d70b8649ba6ec5af40b8b2e7",
+      "role": "Full original native original direction linear defect stage-raw",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-stage-scaled",
+      "file": "large-arrays/complete-original-stage-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "65873e31430920893f4fc062bb1fb93e7d55b5c0819f67423130fbbbd92aadbb",
+      "role": "Full original native original direction linear defect stage-scaled",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-cut-raw",
+      "file": "large-arrays/complete-original-cut-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect cut-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-cut-scaled",
+      "file": "large-arrays/complete-original-cut-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect cut-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-far-raw",
+      "file": "large-arrays/complete-original-far-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect far-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-far-scaled",
+      "file": "large-arrays/complete-original-far-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect far-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-stage-raw",
+      "file": "large-arrays/complete-new-stage-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "ed7c1bc83edce8323207a1fbe41894fc63c6a64d61f4065b10251441ba7a7ac9",
+      "role": "Full original native new direction linear defect stage-raw",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-stage-scaled",
+      "file": "large-arrays/complete-new-stage-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "b96ac6c5a62c507e3531563577de96b68bbdd894b92812e6ff9f654a0ffc75a8",
+      "role": "Full original native new direction linear defect stage-scaled",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-cut-raw",
+      "file": "large-arrays/complete-new-cut-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native new direction linear defect cut-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-cut-scaled",
+      "file": "large-arrays/complete-new-cut-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native new direction linear defect cut-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-far-raw",
+      "file": "large-arrays/complete-new-far-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "6cbaaf9dc1e38c102246a7824d59b170a08f9f09526f1d3577d7afaf068a2fd7",
+      "role": "Full original native new direction linear defect far-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-far-scaled",
+      "file": "large-arrays/complete-new-far-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "a0a0a8009f2bfeb1564276af69f297c05f2d51a257753895bde56a15c2d01806",
+      "role": "Full original native new direction linear defect far-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    }
+  ],
+  "all_arrays_artifact_only": true,
+  "native_accepted": false,
+  "task_completed": false
+}

@@ -1,0 +1,64 @@
+{
+  "iteration": 0,
+  "source": "exact binary64 entry exponents, no intermediate scaled matrix",
+  "before_row_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 96,
+    "zero_entries": 27061,
+    "entries": 129248
+  },
+  "before_column_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 96,
+    "zero_entries": 35062,
+    "entries": 129248
+  },
+  "after_row_step_row_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 0,
+    "zero_entries": 129248,
+    "entries": 129248
+  },
+  "after_row_step_column_floorlog2_max": {
+    "minimum": -36,
+    "maximum": 0,
+    "zero_entries": 67302,
+    "entries": 129248
+  },
+  "row_step": {
+    "name": "equilibration-00-row-step",
+    "file": "large-arrays/equilibration-00-row-step.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      129248
+    ],
+    "bytes": 516992,
+    "sha256": "dfe6be9a2ce7e3677a0b733843cb6e6be2c8750d56a0c8dc736b179a26d4fa26",
+    "role": "Exact integer exponent increment"
+  },
+  "column_step": {
+    "name": "equilibration-00-column-step",
+    "file": "large-arrays/equilibration-00-column-step.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      129248
+    ],
+    "bytes": 516992,
+    "sha256": "0b5c5117283cb24d8d7ffd722ed484a6e2d81bb25cbe8604c7682c231908a8e9",
+    "role": "Exact integer exponent increment"
+  },
+  "cumulative_row_exponents": {
+    "minimum": -46,
+    "maximum": 97,
+    "zero_entries": 79,
+    "entries": 129248
+  },
+  "cumulative_column_exponents": {
+    "minimum": -97,
+    "maximum": -12,
+    "zero_entries": 0,
+    "entries": 129248
+  }
+}

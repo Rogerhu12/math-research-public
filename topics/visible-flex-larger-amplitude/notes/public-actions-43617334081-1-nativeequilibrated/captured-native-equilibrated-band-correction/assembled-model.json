@@ -1,0 +1,339 @@
+{
+  "schema": "original-captured-native-full-band-correction-v1",
+  "source_sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3",
+  "algorithm": "dyadic-row-column-equilibration-and-exact-original-residual-refinement-v1",
+  "binding_helper_sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+  "exact_row_helper_sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+  "capture_result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+  "scaling": "original-sigma-nearest-dyadic-then-row-column-max-entry-v1",
+  "diagnostic_completed": false,
+  "linear_direction_computed": false,
+  "native_accepted": false,
+  "task_completed": false,
+  "original_native_calls": 0,
+  "new_J_calls": 0,
+  "nonlinear_trials": 0,
+  "original_sigma_norm_unchanged": true,
+  "NumPy": "2.3.5",
+  "SciPy": "1.17.0",
+  "BLAS_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "requested_equilibration_passes": 3,
+  "requested_refinement_steps": 3,
+  "exact_workers": 2,
+  "refinement_history": [],
+  "exact_original_captured_worst_row": {
+    "file": {
+      "file": "exact-original-captured-worst-row.json",
+      "bytes": 11872,
+      "sha256": "3f3c43df7d1a0677727745e648b7c217fc674e8bc985646a4539c13e8db56995"
+    },
+    "site": {
+      "kind": "stage",
+      "stage": 43,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "residual_row": 221,
+      "component": "Pi",
+      "mode": 110,
+      "frequency": 220,
+      "value": {
+        "value": -7.3718085303337e+40,
+        "float64le_hex": "b3195f596a146bc8",
+        "classification": "finite"
+      }
+    },
+    "exact_original_scaled_defect": {
+      "numerator": "-132695946624575346440378348777740545590340599822189929469286039303959956510945",
+      "denominator": "1800045918224035106697069194343612416",
+      "decimal_display_56_significant_digits": "-7.3718089789340532994625148968109555108299406455223720982E+40",
+      "nearest_binary64_display": {
+        "value": -7.371808978934054e+40,
+        "float64le_hex": "19c404756a146bc8",
+        "classification": "finite"
+      }
+    },
+    "floating_diagnostic": {
+      "value": -7.3718085303337e+40,
+      "float64le_hex": "b3195f596a146bc8",
+      "classification": "finite"
+    },
+    "full_exact_upper_bound_claimed": false,
+    "exact_derivative_of_nonlinear_flow_claimed": false
+  },
+  "equilibration": {
+    "schema": "native-original-matrix-dyadic-equilibration-v1",
+    "initial": {
+      "node_exponents": {
+        "name": "initial-node-dyadic-exponents",
+        "file": "large-arrays/initial-node-dyadic-exponents.i32le",
+        "dtype": "<i4",
+        "order": "C",
+        "shape": [
+          577
+        ],
+        "bytes": 2308,
+        "sha256": "e0da349133e031777347b5cdc55bef01187b4701fe8518ddea391175c5607753",
+        "role": "Nearest power of two to each exact original sigma; absolute-distance ties choose lower"
+      },
+      "row_exponents": {
+        "name": "initial-row-dyadic-exponents",
+        "file": "large-arrays/initial-row-dyadic-exponents.i32le",
+        "dtype": "<i4",
+        "order": "C",
+        "shape": [
+          129248
+        ],
+        "bytes": 516992,
+        "sha256": "6842bca1b85d3a5de60dd023c735e8d4b23b75c487d68707b30a6af57ceed53c",
+        "role": "Initial inverse original-node dyadic scale"
+      },
+      "column_exponents": {
+        "name": "initial-column-dyadic-exponents",
+        "file": "large-arrays/initial-column-dyadic-exponents.i32le",
+        "dtype": "<i4",
+        "order": "C",
+        "shape": [
+          129248
+        ],
+        "bytes": 516992,
+        "sha256": "1d978ee0ed3d319f935092fdc2462c0c1ef510851492b76b7bab2ab68290465f",
+        "role": "Initial original-node dyadic scale"
+      }
+    },
+    "iterations": [
+      {
+        "iteration": 0,
+        "source": "exact binary64 entry exponents, no intermediate scaled matrix",
+        "before_row_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 96,
+          "zero_entries": 27061,
+          "entries": 129248
+        },
+        "before_column_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 96,
+          "zero_entries": 35062,
+          "entries": 129248
+        },
+        "after_row_step_row_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 0,
+          "zero_entries": 129248,
+          "entries": 129248
+        },
+        "after_row_step_column_floorlog2_max": {
+          "minimum": -36,
+          "maximum": 0,
+          "zero_entries": 67302,
+          "entries": 129248
+        },
+        "row_step": {
+          "name": "equilibration-00-row-step",
+          "file": "large-arrays/equilibration-00-row-step.i32le",
+          "dtype": "<i4",
+          "order": "C",
+          "shape": [
+            129248
+          ],
+          "bytes": 516992,
+          "sha256": "dfe6be9a2ce7e3677a0b733843cb6e6be2c8750d56a0c8dc736b179a26d4fa26",
+          "role": "Exact integer exponent increment"
+        },
+        "column_step": {
+          "name": "equilibration-00-column-step",
+          "file": "large-arrays/equilibration-00-column-step.i32le",
+          "dtype": "<i4",
+          "order": "C",
+          "shape": [
+            129248
+          ],
+          "bytes": 516992,
+          "sha256": "0b5c5117283cb24d8d7ffd722ed484a6e2d81bb25cbe8604c7682c231908a8e9",
+          "role": "Exact integer exponent increment"
+        },
+        "cumulative_row_exponents": {
+          "minimum": -46,
+          "maximum": 97,
+          "zero_entries": 79,
+          "entries": 129248
+        },
+        "cumulative_column_exponents": {
+          "minimum": -97,
+          "maximum": -12,
+          "zero_entries": 0,
+          "entries": 129248
+        }
+      },
+      {
+        "iteration": 1,
+        "source": "exact binary64 entry exponents, no intermediate scaled matrix",
+        "before_row_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 0,
+          "zero_entries": 129248,
+          "entries": 129248
+        },
+        "before_column_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 0,
+          "zero_entries": 129248,
+          "entries": 129248
+        },
+        "after_row_step_row_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 0,
+          "zero_entries": 129248,
+          "entries": 129248
+        },
+        "after_row_step_column_floorlog2_max": {
+          "minimum": 0,
+          "maximum": 0,
+          "zero_entries": 129248,
+          "entries": 129248
+        },
+        "row_step": {
+          "name": "equilibration-01-row-step",
+          "file": "large-arrays/equilibration-01-row-step.i32le",
+          "dtype": "<i4",
+          "order": "C",
+          "shape": [
+            129248
+          ],
+          "bytes": 516992,
+          "sha256": "d6b5fa231a7bac1e5a2e4da7f365b501a1ab4aea76cb29b186f87c76b488d678",
+          "role": "Exact integer exponent increment"
+        },
+        "column_step": {
+          "name": "equilibration-01-column-step",
+          "file": "large-arrays/equilibration-01-column-step.i32le",
+          "dtype": "<i4",
+          "order": "C",
+          "shape": [
+            129248
+          ],
+          "bytes": 516992,
+          "sha256": "d6b5fa231a7bac1e5a2e4da7f365b501a1ab4aea76cb29b186f87c76b488d678",
+          "role": "Exact integer exponent increment"
+        },
+        "cumulative_row_exponents": {
+          "minimum": -46,
+          "maximum": 97,
+          "zero_entries": 79,
+          "entries": 129248
+        },
+        "cumulative_column_exponents": {
+          "minimum": -97,
+          "maximum": -12,
+          "zero_entries": 0,
+          "entries": 129248
+        }
+      }
+    ],
+    "final_row_exponents": {
+      "name": "final-row-dyadic-exponents",
+      "file": "large-arrays/final-row-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "d91041ef5625fd07034d602e1380e1681553e526a391f7766c82a48b83529d73",
+      "role": "Atilde_ij=2**row_exp[i] A_ij 2**column_exp[j]"
+    },
+    "final_column_exponents": {
+      "name": "final-column-dyadic-exponents",
+      "file": "large-arrays/final-column-dyadic-exponents.i32le",
+      "dtype": "<i4",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "29fa25c4a8ec5e7a74831c7a1cc850aee82432138fa9cfc6ec3e58ec01bf972a",
+      "role": "delta_j=2**column_exp[j] z_j"
+    },
+    "final_exact_row_floorlog2_max": {
+      "minimum": 0,
+      "maximum": 0,
+      "zero_entries": 129248,
+      "entries": 129248
+    },
+    "final_exact_column_floorlog2_max": {
+      "minimum": 0,
+      "maximum": 0,
+      "zero_entries": 129248,
+      "entries": 129248
+    },
+    "original_sigma_norm_unchanged": true,
+    "original_matrix_not_replaced": true,
+    "no_intermediate_ratio_or_scaled_matrix_rounding": true
+  },
+  "M": 112,
+  "K": 224,
+  "depth": 576,
+  "dimension": 129248,
+  "lower_bandwidth": 112,
+  "upper_bandwidth": 335,
+  "LAPACK_band_rows": 560,
+  "band_bytes": 579031040,
+  "band_shape": [
+    560,
+    129248
+  ],
+  "far_is_original_diagonal": true,
+  "equation_order": "cut M; D complete K-row stages; far M",
+  "variable_order": "node-major complete (Q,Pi)",
+  "unfactored_band_Fortran_byte_sha256": "12673085f28793f305b6bf0fbf55901929dc570f61c32fb1f25fe9555e6d0174",
+  "matrix_formation": {
+    "entries": 29030736,
+    "nonfinite": 0,
+    "nonzero_rounded_to_zero": 0,
+    "nonreversible_binary64_scalings": 0,
+    "examples": [],
+    "exact_real_dyadic_entry_scaling_verified": true,
+    "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+    "original_equations_rechecked_even_if_formation_loses_bits": true
+  },
+  "formed_matrix_entry_scales": {
+    "row_maximum_range": [
+      {
+        "value": 1.0,
+        "float64le_hex": "000000000000f03f",
+        "classification": "finite"
+      },
+      {
+        "value": 1.9999999999847768,
+        "float64le_hex": "31f4feffffffff3f",
+        "classification": "finite"
+      }
+    ],
+    "column_maximum_range": [
+      {
+        "value": 1.0,
+        "float64le_hex": "000000000000f03f",
+        "classification": "finite"
+      },
+      {
+        "value": 1.9999999999847768,
+        "float64le_hex": "31f4feffffffff3f",
+        "classification": "finite"
+      }
+    ],
+    "zero_rows": 0,
+    "zero_columns": 0,
+    "extra_equilibration_applied": true
+  },
+  "initial_rhs_rounding": {
+    "rounding": "one exact dyadic nearest/ties-even to binary64",
+    "rounded_rows": 0,
+    "underflow_to_zero_rows": 0,
+    "examples": [],
+    "exact_real_zero_convention": "positive zero"
+  }
+}
