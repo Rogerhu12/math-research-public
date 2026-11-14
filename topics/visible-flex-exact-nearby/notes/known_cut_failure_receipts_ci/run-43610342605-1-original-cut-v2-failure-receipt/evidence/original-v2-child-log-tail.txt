@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_cut_direction_cap_pilot_v2.py", line 361, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_cut_direction_cap_pilot_v2.py", line 353, in main
+    try:run(a,doc)
+        ^^^^^^^^^^
+  File "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_cut_direction_cap_pilot_v2.py", line 183, in run
+    gate('all_original257_states97_columns_and_exact_shared_endpoints_retained',
+  File "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_cut_direction_cap_pilot_v2.py", line 125, in gate
+    if not passed:raise ValueError('known cut-direction cap pilot failed: '+name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: known cut-direction cap pilot failed: all_original257_states97_columns_and_exact_shared_endpoints_retained

@@ -1,0 +1,61 @@
+{
+  "kind": "actual_known_even_cut_direction_complete_cap_mixed_source_pilot_v1",
+  "complete": false,
+  "failure": {
+    "type": "ValueError",
+    "message": "known cut-direction cap pilot failed: all_original257_states97_columns_and_exact_shared_endpoints_retained"
+  },
+  "gates": [
+    {
+      "name": "exact_original_complete_cap_cut_boundary_and_Hessian_native_identities",
+      "passed": true
+    },
+    {
+      "name": "all_three_original_mathematical_processes_actually_succeeded",
+      "passed": true
+    },
+    {
+      "name": "same_complete_M32_repair_true_input_basis_and_physical_parameter_box",
+      "passed": true
+    },
+    {
+      "name": "same_actual_full_known_even_cut_trace_and_independent_mean",
+      "passed": true
+    },
+    {
+      "name": "same_Hessian_bridge_and_true_cut_rows_without_any_deleted_high_output",
+      "passed": true
+    },
+    {
+      "name": "every_original_full_matrix_and_one_sided_derivative_byte_is_reused",
+      "passed": true
+    },
+    {
+      "name": "all_original257_states97_columns_and_exact_shared_endpoints_retained",
+      "passed": false
+    }
+  ],
+  "source_sha256": "8df26cef87a2eef12638d9bb374a973497512056ed656a7d0ef5bb4601474c34",
+  "input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "inlet": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+    "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "q-native": "2f2469091ae6893b56f869fc7753ed015cf9d7ebf2171ccd8c5a580dd770d4d2",
+    "cap": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+    "cap-process": "b4cc859b9a1987da485cb4d7bc76aab00c2f009d9552bccbd1916d4a9d37f5fd",
+    "cap-cut": "36f498e3b0addbb46290c12fae6b63af7673db20ba230e22dd83809d18427104",
+    "cap-cut-process": "aa43c90bd4b2d8fe3a820fba7d0cf5e40d67d2952248cf0c33ebe0ec0c76bd7e",
+    "boundary": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+    "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7",
+    "hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26",
+    "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
+  },
+  "new_one_column_rows": [],
+  "complete_actual_known_cut_load_bound_proved": false,
+  "complete_all_one_column_cells_computed": false,
+  "full_boundary_operator_improvement_claimed": false,
+  "seconds": 1.6817100979999964
+}
