@@ -354,11 +354,14 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 **R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，原4920coset/800闭周期输入已由R738完成，继续原Hodge/adelic矩阵，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。
 
 
-**R738（原带标记闭周期输入已完成）**：公开run43612108090在原六层Q8图式和同一p项链上生成4920陪集及每条整SL2Z代表；g400、20个宽246尖点、819整数相对基、800整数闭基与交配det1。原c1唯一实标签C为4424，deck[4424,0,1258]对应[1,ζ,ζ²]；c0三轨道是同一个粗点。两完整大表只artifact，cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009。真正待继续的是原正CM因子的Hodge/完整adelic表及周期求值；原q函数/β/高度未出。详[R738](results/R738-certified-original-p41-period-input.md)。
+**R738（原带标记闭周期输入已完成）**：公开run43612108090在原六层Q8图式和同一p项链上生成4920陪集及每条整SL2Z代表；g400、20个宽246尖点、819整数相对基、800整数闭基与交配det1。原c1唯一实标签C为4424，deck[4424,0,1258]对应[1,ζ,ζ²]；c0三轨道是同一个粗点。两完整大表只artifact，cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009。原正CM因子的Hodge/完整adelic表现由R745完成；真正待继续的是其周期求值、原q函数/β/高度。详[R738](results/R738-certified-original-p41-period-input.md)。
 
 
-R745 已提交同一原p41 Hodge/period输入的独立公开Actions请求，
-见[完整方法](notes/R745-p41-original-Hodge-input-method.md)。
-固定R738原4920陪集/800闭链SHA直接复用，只新算原40p平均坐标和完整N、六个真实Q微分800项、80平移与819相对边端点。
-保原αs、CRT6逆元、ζ² transport一次及微分246，完整输出只artifact、小证书入Git。
-尚待实际公开返回，不计rank/周期/q/β或高度结论；后续仍须真实CM周期求值。
+**R745（原有理Hodge与finite adelic输入已完成）**：
+[正式结论](results/R745-certified-original-p41-Hodge-and-adelic-input.md)绑定公开run43616027318，
+原六个Q微分的800项、40p平均坐标/完整N、80平移及819边的87961端点均已生成。
+精确minor用ℓ739、ξ538、s98，行[1,4,7,13,16,19]的det407证明rank6；核心0.654秒。
+保原αs、CRT6逆元、ζ² transport一次及微分246，复用R738闭链且未重算R735模型。
+cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
+两张完整表78852/658317B只artifact。真正待继续是同一有限表示压缩后的CM周期值、
+原Hom格/q函数/β及高度；Hodge基不替代这些输入。

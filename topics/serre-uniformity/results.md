@@ -211,3 +211,6 @@
 
 
 - **R750（已证明）**：[原全部flat jets的全局实下降](results/R750-global-real-descent-of-all-original-flat-jets.md)。实际支持于2的Norm1 idele固定系数域，右torsion-label算得α→ζα、原Serre jet同为ζ²特征；全阶复共轭保−ζ，故$\alpha M_{3j-1,h}/(1-\zeta^2)\in F_0$，任意非零jet为分母的比值均在F0。包含M2零情形，保原全部signed conjugates，不靠局部Qp值外推global字段；实际系数和高度仍待求。
+
+
+- **R745（精确计算与原下降已完成）**：[原p41有理Hodge基与完整finite adelic输入](results/R745-certified-original-p41-Hodge-and-adelic-input.md)。公开run43616027318生成原六基800项、40p向量/完整N及80平移/819边/87961端点；ℓ739的原六行minor407证rank6，核心0.654秒。保αs、CRT6逆元、ζ²一次transport与微分246，复用原拓扑/模型，两完整表仅artifact；实际period/Hom/q/β/高度仍须继续。
