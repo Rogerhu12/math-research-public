@@ -36,7 +36,7 @@ request10/11旧Rθ QR/band及12 P/方向诊断：相对线残差.91333/3.27382e�
 run43598917532/source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21（13:16:20Z）、job132459290659。实际19步warm于13:27:47Z success，20步真实FD于13:28:09Z success；29步原fullDN自13:28:09Z运行。尚无terminal数值/新接受；不把步骤success冒联解成功。
 三独立源及SHA/CLI见constrained-trust-warm-interface。原699 exact入口/常数chart：698×338physical+109自由core+3p；入口由c构造，各节点同c/p，原常数ODE/左BC恒等满足，保全部physical collocation/112 Rφ，零点与原问题等价。矩形matvec/rmatvec+正阻尼LSMR，无正规方程；core权重含t_m=−2mc_m额外频率。真实midpoint重算原RHS，固定Wr merit/实际gdot/预测比/域和RMS逐trial记录；warm永不accepted。
 本次3模型/80 LSMR步/1200s初猜预算；新warmFD后自动原fullDN、真实H尾、RMS1e−6/BC1e−11/冻结物理/最终fresh audit，接受后原闭合/R249。原三求解源冻结；--resume允许续实际warm，但须核producer SHA，不能把改源后resume等同原身份。geometry的full-newton-domain-and-sobolev-step仅备选过滤Newton，当前未采用。
-另备用：R259小core直线homotopy/完整尾Schur及条件IFT已证，amplitude写真实圆collocation低3传输诊断，未调度；直线三重匹配不是所有路径门，λ^j须分阶处理。geometry分析finiteGauss a/ap真实兼容性R260。exact重建同场R258消费者，尚无实际执行。
+另备用：R259小core直线homotopy/完整尾Schur及条件IFT已证，amplitude写真实圆collocation低3传输诊断，未调度；直线三重匹配不是所有路径门，λ^j须分阶处理。geometry分析finiteGauss a/ap真实兼容性R260。R258同场消费者已冻结，尚无实际父场/执行。
 
 ## 尾、闭合、同g精化
 
@@ -50,7 +50,7 @@ full_state_continuous_cover/held_hausdorff已绑定全v3/v4、R249、SE2/完整m
 R248全相位C²强连续/metric/κ归约；未标记reach可一次空间证据，marker仍付R24/R11。R249只投影入口z/XY′/z″共享jets，保整个cut/mean/H；实际operator/κ修补成本未付。
 R250/R253材料P可逆与高频病态相容，不冒M112因果。R252完整φ有限边界及全core链式，不是旧Rθ等价预条件。R255精确circle非正规剪切不冒有限φ谱。R256 exact chart双射/完整J/JT/精确正阻尼下降，截停LSMR与真DN须实际测。R257恒速有限平面Fourier只能圆；材料圆Jac保理想块，非圆精确入口不能纯有限θ；备用θ方案须付投影或解析lift/全部读出成本。
 R251四Loewner量给原operator门；strict cell/fullprefix/scalar exporter已重建。request16/run43597596523真success仅四源compile、三解析例及series接口；actual-R251-operator-interface-check存回执。实际完整scalar/prefix仍未核，不重跑例子。R246仅旧.984三分量证书，不能移植.99或冒operator≤1e−6。
-R254完整z0/sharednode prefix逐cell有理非平面，已compile，新场未跑。R258完整FFT节点的精确Hermite tail、内collar及全角cut修补给每段四角行列式次数≤15；严格有理/Arb非零见证、完整材料四角固定、真实marker与R238链已证。新规范形不自动继承旧renderer几何包络；C²/嵌入/真实像变仍另付，消费者在建。
+R254完整z0/sharednode prefix逐cell有理非平面，已compile，新场未跑。R258完整FFT节点的精确Hermite tail、内collar及全角cut修补给每段四角行列式次数≤15；严格有理/Arb非零见证、完整材料四角固定、真实marker与R238链已证。新规范形不自动继承旧renderer几何包络；C²/嵌入/真实像变仍另付；同场消费者已冻结并AST核，完整dtype/所有FFT模式/真实SE2/有理marker均绑定，见R258-own-tail-planar-germ-interface，尚无执行。
 
 ## 封存与恢复
 

@@ -36,7 +36,7 @@ R241完整参数块条件同时排除自交及double-normal瓶颈。旧A的v2真
 
 R254已给完整物理共享节点Hermite前缀的逐cell精确有理四点证明和完备6×(4M+3)网格消费者；当前没有新接受场实际回执。必须绑定R249实际nodal SHA、完整z0和全部模式，不能移植旧尾或据prefix单独宣称δE。R238通过平面局部胚识别四个不同支持圆和仿射独立圆心，排除含反射全等；A实际前缀2589片和标记代数已过，完整tail/collar输入仍待同场消费者。R242对精确度量且角解析的活动环带给结构性排平面开片定理；有限metric缺陷或只有C²收敛的极限不能自动套用。原RK48四角共享node精确C²规范形已由公开Actions逐段全有理验证9246小段，完整定理/实例见R243；与旧rounding表示及整个接缝的差异仍要支付，不能宣布整个δE已证。
 
-R258已把同场全部FFT/shared-node tail、内collar及完整材料角cut修补接到逐段次数≤15四角行列式判据，并完成实际marker/活动环带/R238条件链；新消费者正在实现。规范形与舍入renderer的表示差不能默许为零，整面C²、嵌入和实际连续像变仍需同场证据。详见[完整尾与标记链](results/R258-complete-field-tail-cardinal-marker-chain.md)。
+R258已把同场全部FFT/shared-node tail、内collar及完整材料角cut修补接到逐段次数≤15四角行列式判据，并完成实际marker/活动环带/R238条件链；新完整消费者已冻结，严格绑定本场实际尾及所有节点dtype/系数，待真实父场后运行。规范形与舍入renderer的表示差不能默许为零，整面C²、嵌入和实际连续像变仍需同场证据。详见[完整尾与标记链](results/R258-complete-field-tail-cardinal-marker-chain.md)。
 
 ## 4. 严格存在差距、保全与执行
 

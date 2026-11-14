@@ -530,3 +530,7 @@ request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290
 ### 2026-11-14 13:39 UTC — R259 small-core continuation conditions retain the full tail coupling
 
 完整R259直接登记：不预设finiteGauss ap=a′，实际源圆R′=(ap/a)R；原699圆collocation及二维模态完整L/R递推，保raw phi入口切向。完整112真J、高块Schur、零目标例外、积分去退化及条件IFT均给明；三重首阶共振只针对指定直线缩幅，不能加给所有路径。没有新数值/小幅解/大幅续接声明；诊断源准备中，request17原fullDN继续。
+
+### 2026-11-14 13:40 UTC — preserve the R258 own-tail exact consumer
+
+独立full_state_planar_germ与接口说明冻结：同一实际完整bundle loader绑定checkpoint/本场尾/complete/plan/assembly/background/唯一SE2/R249；保所有FFT正频率及Nyquist，直接原dtype exact ratio，先严格核complex128编码回扩无损，prefix原f8显式guard。逐段有理或真实旋转Arb非零行列式、同场marker代数与R254复用完整接通；新源AST/冻结pin/复用签名已核，未跑科学计算。C²背景/表示差/全嵌入/真实连续像变仍独立，不预造δE或完成。
