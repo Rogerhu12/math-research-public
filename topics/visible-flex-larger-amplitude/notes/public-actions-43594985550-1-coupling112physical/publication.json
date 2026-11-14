@@ -1,0 +1,250 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T12:32:18.039077+00:00",
+  "source_commit": "821fded1d0289cc542072646061a46504155c26f",
+  "run_id": "43594985550",
+  "run_attempt": "1",
+  "lane": "coupling112physical",
+  "files": [
+    {
+      "source": "T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/T112-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "boundary112-response/response-check.json",
+      "bytes": 38794,
+      "sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/boundary112-response/response-check.json",
+      "published_bytes": 38794,
+      "published_sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f"
+    },
+    {
+      "source": "full-DN112/RMS-domain-preflight.json",
+      "bytes": 1396,
+      "sha256": "cf90548c45cce1df4e9456313e7bcf152e3aee6abb24bcb142277856b03f4bf2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/RMS-domain-preflight.json",
+      "published_bytes": 1396,
+      "published_sha256": "cf90548c45cce1df4e9456313e7bcf152e3aee6abb24bcb142277856b03f4bf2"
+    },
+    {
+      "source": "full-DN112/banded-linear/factor-001-first-rhs.json.gz",
+      "bytes": 2298044,
+      "sha256": "ebc3c2343eced8c9c21c51a1519c124e6c120ed02b6e609fec5f9e32771c9560",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-rhs.json.gz",
+      "published_bytes": 2298044,
+      "published_sha256": "ebc3c2343eced8c9c21c51a1519c124e6c120ed02b6e609fec5f9e32771c9560"
+    },
+    {
+      "source": "full-DN112/banded-linear/factor-001-first-step.json.gz",
+      "bytes": 2353321,
+      "sha256": "d7f6c5ec07990f2fc8948eb1371d54503d2ecaded978d7d7282a7640b487d2a2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-step.json.gz",
+      "published_bytes": 2353321,
+      "published_sha256": "d7f6c5ec07990f2fc8948eb1371d54503d2ecaded978d7d7282a7640b487d2a2"
+    },
+    {
+      "source": "full-DN112/banded-linear/factor-001-solve-001.json",
+      "bytes": 221093,
+      "sha256": "31c24c8518c9680cd8d0fada7ab8ff8b77d987370fbf4fe326bbdd81d701a2cf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-solve-001.json",
+      "published_bytes": 221093,
+      "published_sha256": "31c24c8518c9680cd8d0fada7ab8ff8b77d987370fbf4fe326bbdd81d701a2cf"
+    },
+    {
+      "source": "full-DN112/banded-linear/factor-001.json",
+      "bytes": 1388,
+      "sha256": "06032afd4bc1171d76a475b69bceebad0dcf699b9f1cb4cae0158fae0b1cd154",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001.json",
+      "published_bytes": 1388,
+      "published_sha256": "06032afd4bc1171d76a475b69bceebad0dcf699b9f1cb4cae0158fae0b1cd154"
+    },
+    {
+      "source": "full-DN112/complete-banded-intent.json",
+      "bytes": 4516,
+      "sha256": "23e83549d331824d2820f8f6b24229f459125c59868aed7b7bf3b7cd67c18c2b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/complete-banded-intent.json",
+      "published_bytes": 4516,
+      "published_sha256": "23e83549d331824d2820f8f6b24229f459125c59868aed7b7bf3b7cd67c18c2b"
+    },
+    {
+      "source": "full-DN112/driver-status.json",
+      "bytes": 91978,
+      "sha256": "994e6626578a358bcc948652c896a8058c72b725de7b1a59b4b7a59c26390911",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/driver-status.json",
+      "published_bytes": 91978,
+      "published_sha256": "994e6626578a358bcc948652c896a8058c72b725de7b1a59b4b7a59c26390911"
+    },
+    {
+      "source": "full-DN112/lifted-modes-intent.json",
+      "bytes": 5812,
+      "sha256": "a11a32e51c46eecbd473a460c9a7a3bbcaaa259af893cf82fd9967c212f96d6e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/lifted-modes-intent.json",
+      "published_bytes": 5812,
+      "published_sha256": "a11a32e51c46eecbd473a460c9a7a3bbcaaa259af893cf82fd9967c212f96d6e"
+    },
+    {
+      "source": "full-DN112/original-newton-domain-evaluations.jsonl",
+      "bytes": 313001,
+      "sha256": "25376d1645a41b38c0d794b7f5f7156a5f9a460bbc0e9013131ed8e49ec4130f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/original-newton-domain-evaluations.jsonl",
+      "published_bytes": 313001,
+      "published_sha256": "25376d1645a41b38c0d794b7f5f7156a5f9a460bbc0e9013131ed8e49ec4130f"
+    },
+    {
+      "source": "full-DN112/outer-00-anchor-tail.json.gz",
+      "bytes": 6815,
+      "sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/outer-00-anchor-tail.json.gz",
+      "published_bytes": 6815,
+      "published_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51"
+    },
+    {
+      "source": "full-DN112/outer-00-newton-checkpoint.json.gz",
+      "bytes": 4164107,
+      "sha256": "8b8ac0985773954c43b593075118f0ab5d4fd6e0736a12a9aa3842cbb39be8be",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/outer-00-newton-checkpoint.json.gz",
+      "published_bytes": 4164107,
+      "published_sha256": "8b8ac0985773954c43b593075118f0ab5d4fd6e0736a12a9aa3842cbb39be8be"
+    },
+    {
+      "source": "full-DN112/outer-00-pending.json.gz",
+      "bytes": 5959827,
+      "sha256": "66aadc37a59d514d5946002e3c60e13a6d52c1fad8c54d4337c40b58a70f84eb",
+      "not_published": "Reproducible intermediate or exceeds single-file limit; retained as Actions artifact"
+    },
+    {
+      "source": "full-DN112/physical-test-intent.json",
+      "bytes": 3119,
+      "sha256": "deaafb0786c2973953347673afc9b32df22100afbdf61bb21cbd2763d34ed6d7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/physical-test-intent.json",
+      "published_bytes": 3119,
+      "published_sha256": "deaafb0786c2973953347673afc9b32df22100afbdf61bb21cbd2763d34ed6d7"
+    },
+    {
+      "source": "full-DN112/prepared.json.gz",
+      "bytes": 4221764,
+      "sha256": "0426c09fe372de1566fb2502e0e7e84a8d8f428f2b60e43a72a56b99f334fb7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/prepared.json.gz",
+      "published_bytes": 4221764,
+      "published_sha256": "0426c09fe372de1566fb2502e0e7e84a8d8f428f2b60e43a72a56b99f334fb7f"
+    },
+    {
+      "source": "full-DN112/true-tail_capacity.json",
+      "bytes": 2525,
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_capacity.json",
+      "published_bytes": 2525,
+      "published_sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "source": "full-DN112/true-tail_imported-zero-uses.jsonl",
+      "bytes": 1092,
+      "sha256": "d7880689a70e9a5b9ab3becb2f2709b2c6b5c5e2e15c8b1e678036010ecabaa8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_imported-zero-uses.jsonl",
+      "published_bytes": 1092,
+      "published_sha256": "d7880689a70e9a5b9ab3becb2f2709b2c6b5c5e2e15c8b1e678036010ecabaa8"
+    },
+    {
+      "source": "full-DN112/true-tail_imported-zero.json",
+      "bytes": 23379,
+      "sha256": "0314ca1d54817843bc86378902206217e04bc8d5b8a4e3ae483a61484fe366ce",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_imported-zero.json",
+      "published_bytes": 23379,
+      "published_sha256": "0314ca1d54817843bc86378902206217e04bc8d5b8a4e3ae483a61484fe366ce"
+    },
+    {
+      "source": "full-DN112/true-tail_intent.json",
+      "bytes": 25234,
+      "sha256": "68292c000a6f2fe37f2b43a15edde6bbbe7f9589eae2c1218adc6e0194701f8e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_intent.json",
+      "published_bytes": 25234,
+      "published_sha256": "68292c000a6f2fe37f2b43a15edde6bbbe7f9589eae2c1218adc6e0194701f8e"
+    },
+    {
+      "source": "full-DN112/true-tail_ready.json.gz",
+      "bytes": 6843,
+      "sha256": "22acc811a026c4f67595150adfe50bb9614ebfaada492cc74b9cca2e1faa4e69",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_ready.json.gz",
+      "published_bytes": 6843,
+      "published_sha256": "22acc811a026c4f67595150adfe50bb9614ebfaada492cc74b9cca2e1faa4e69"
+    },
+    {
+      "source": "full-DN112/true-tail_runtime-config.json",
+      "bytes": 2528,
+      "sha256": "989aa9cc497da451e1920a58fe561465f5178570669ef42e126dfc50eaf11a28",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_runtime-config.json",
+      "published_bytes": 2528,
+      "published_sha256": "989aa9cc497da451e1920a58fe561465f5178570669ef42e126dfc50eaf11a28"
+    },
+    {
+      "source": "full-DN112/true-tail_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "full-DN112/true-tail_trace.jsonl",
+      "bytes": 158,
+      "sha256": "3845abfed476cb75da6290867c1ba9d539e97b1191c4af247624ca05b43bb7a6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/true-tail_trace.jsonl",
+      "published_bytes": 158,
+      "published_sha256": "3845abfed476cb75da6290867c1ba9d539e97b1191c4af247624ca05b43bb7a6"
+    },
+    {
+      "source": "full-DN112-tail-diagnostics.json.gz",
+      "bytes": 2816,
+      "sha256": "bb1a15fa9d81a3db206718343b54dfbfaf250811ecd493365a7e7e6133a8c2ab",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112-tail-diagnostics.json.gz",
+      "published_bytes": 2816,
+      "published_sha256": "bb1a15fa9d81a3db206718343b54dfbfaf250811ecd493365a7e7e6133a8c2ab"
+    },
+    {
+      "source": "physical-response/physical-test-small-condition.json",
+      "bytes": 91267,
+      "sha256": "c56ed91730df575bdf7624a54729545f11bbb8ec1c6e83ed55cb3dbd67c2aec6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/physical-response/physical-test-small-condition.json",
+      "published_bytes": 91267,
+      "published_sha256": "c56ed91730df575bdf7624a54729545f11bbb8ec1c6e83ed55cb3dbd67c2aec6"
+    },
+    {
+      "source": "physical-response/physical-test-small-operators.json.gz",
+      "bytes": 483082,
+      "sha256": "e08f3f0ab43f204827e6c9880b841e595dc286f0fac649408378053add74b6ad",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/physical-response/physical-test-small-operators.json.gz",
+      "published_bytes": 483082,
+      "published_sha256": "e08f3f0ab43f204827e6c9880b841e595dc286f0fac649408378053add74b6ad"
+    },
+    {
+      "source": "physical-response/response-check.json",
+      "bytes": 37970,
+      "sha256": "672b9942e4692de429f1d4b209859c6ec4caffadb517e8223961797785f148e4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/physical-response/response-check.json",
+      "published_bytes": 37970,
+      "published_sha256": "672b9942e4692de429f1d4b209859c6ec4caffadb517e8223961797785f148e4"
+    },
+    {
+      "source": "preparation112/prepared.json.gz",
+      "bytes": 4220043,
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/preparation112/prepared.json.gz",
+      "published_bytes": 4220043,
+      "published_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "fc67e7c179c3e1fdc7749a57c32d13527f5c57869662d0c4e6a8c396021f56d9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "fc67e7c179c3e1fdc7749a57c32d13527f5c57869662d0c4e6a8c396021f56d9"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43594985550"
+}
