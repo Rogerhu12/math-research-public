@@ -1,0 +1,365 @@
+{
+  "kind": "R119_actual_root_full_input_high_output_Volterra_exact_budget",
+  "status": "pass",
+  "gate_count": 55,
+  "passed": 55,
+  "producer": "fourfold_root_high_output_volterra_20261114.py",
+  "producer_sha256": "dcd11cb897e12b37e98a8ee3bb9e90ab9f5fa1c7e356bb6276960bd350fe1dfa",
+  "input_manifest_sha256": "f005b13ad9e7040c2c3db7fb4bc98f6ba2da62576936de737148d48b37419939",
+  "github_run_id": "43588423040",
+  "github_run_attempt": "1",
+  "github_workflow_commit": "a044115d62878deb03383ac4fd0a75d72b359177",
+  "method": "Python integers and Fraction only; no sampled frequencies and no floating-point certificates",
+  "execution_contract": "Public Rogerhu12/math-research-public GitHub Actions only for this new execution",
+  "scope": {
+    "input": "all complete Airy wave inputs, including mean and both Fourier cones",
+    "output_cutoff": "|m| >= 2^4200 b",
+    "smoothing": "P_high(U-I-integral K): H^s -> H^(s+4/3), |s|<=1, norm < 2^4096 b^(4/3)",
+    "high_row": "P_high U: H^s -> H^s, norm < 2",
+    "not_proved_here": [
+      "one-integral model coefficient",
+      "root graph replacement",
+      "positive/strict network recomposition",
+      "new whole-network cutoff",
+      "final nonlinear existence"
+    ]
+  },
+  "dependencies": [
+    {
+      "path": "results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md",
+      "sha256": "935b9d6a25411769eff4c9d21e780baff77dc277b7bedde52f27b0552cf425af",
+      "bytes": 11637
+    },
+    {
+      "path": "results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md",
+      "sha256": "4da077caa66e91da72fa3410e962816fac36c14dddcc9134b74e3a0dd1fed7cc",
+      "bytes": 28334
+    },
+    {
+      "path": "results/R119-supplement-actual-nonradial-first-density-phase.md",
+      "sha256": "a43a5cb70d3aedee20d47dcb17d4d345422d4012628d3bdb59a806de82d82dc8",
+      "bytes": 21735
+    },
+    {
+      "path": "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md",
+      "sha256": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+      "bytes": 21801
+    },
+    {
+      "path": "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md",
+      "sha256": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+      "bytes": 13312
+    },
+    {
+      "path": "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md",
+      "sha256": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+      "bytes": 21221
+    }
+  ],
+  "gates": [
+    {
+      "name": "all_integer_lag_moment_1",
+      "pass": true,
+      "detail": {
+        "exact_upper": "2241297",
+        "strict_bound_log2": 30
+      }
+    },
+    {
+      "name": "all_integer_lag_moment_2",
+      "pass": true,
+      "detail": {
+        "exact_upper": "2286175266",
+        "strict_bound_log2": 45
+      }
+    },
+    {
+      "name": "all_integer_lag_moment_12",
+      "pass": true,
+      "detail": {
+        "exact_upper": "677817514497051070595666346202128450392721408",
+        "strict_bound_log2": 160
+      }
+    },
+    {
+      "name": "all_integer_lag_moment_14",
+      "pass": true,
+      "detail": {
+        "exact_upper": "32338814602697321964741925275903558410102286810488832",
+        "strict_bound_log2": 180
+      }
+    },
+    {
+      "name": "all_integer_lag_moment_20",
+      "pass": true,
+      "detail": {
+        "exact_upper": "16257738253718887628546498638345757229993740897951620733997115748620027035648",
+        "strict_bound_log2": 260
+      }
+    },
+    {
+      "name": "Airy_height_two_factor_fee",
+      "pass": true,
+      "detail": "Each height factor costs 2^6; the exact constant Wronskian and two-row norm cost at most 2^4."
+    },
+    {
+      "name": "far_lag_12_complete_fee",
+      "pass": true,
+      "detail": "14th lag moment; (M/16)^-12; both block Schur directions retained."
+    },
+    {
+      "name": "commutator_near_complete_fee",
+      "pass": true,
+      "detail": "Second lag moment safely pays the Lipschitz factor and comparability."
+    },
+    {
+      "name": "rescaled_cutoff_fee",
+      "pass": true,
+      "detail": "Rescaling by at most 16 in the far-lag bound is included."
+    },
+    {
+      "name": "high_cut_Grönwall_exponent",
+      "pass": true,
+      "detail": {
+        "exact_log2_upper": "-7292/3",
+        "remaining_b_power": "0"
+      }
+    },
+    {
+      "name": "high_cut_commutator_old_U_exponent",
+      "pass": true,
+      "detail": {
+        "exact_log2_upper": "-12929/3",
+        "remaining_b_power": "-1/3"
+      }
+    },
+    {
+      "name": "scaled_cut_Grönwall_exponent",
+      "pass": true,
+      "detail": {
+        "exact_log2_upper": "-7232/3"
+      }
+    },
+    {
+      "name": "scaled_cut_commutator_old_U_exponent",
+      "pass": true,
+      "detail": {
+        "exact_log2_upper": "-12869/3"
+      }
+    },
+    {
+      "name": "all_nested_thresholds_inside_paid_high_regime",
+      "pass": true,
+      "detail": "The smallest buffer is M/64; M >= 2^4200 b."
+    },
+    {
+      "name": "elementary_Grönwall_factor",
+      "pass": true,
+      "detail": "The proved exponents are much smaller than 1/4; no floating exponential is used."
+    },
+    {
+      "name": "near_two_Volterra_fee",
+      "pass": true,
+      "detail": "Two full K factors at comparable high frequencies and the new row norm < 2."
+    },
+    {
+      "name": "outer_far_two_Volterra_fee",
+      "pass": true,
+      "detail": "One far K, one old full K, and the old full U norm."
+    },
+    {
+      "name": "inner_far_two_Volterra_fee",
+      "pass": true,
+      "detail": "The outer near K retains its M^-2/3 factor."
+    },
+    {
+      "name": "outer_far_power_absorbs_old_condition_number",
+      "pass": true,
+      "detail": "b^(2/3) M^(-32/3) <= 1 when M >= b > 1."
+    },
+    {
+      "name": "inner_far_power_absorbs_old_condition_number",
+      "pass": true,
+      "detail": "b^(2/3) M^(-34/3) <= 1 when M >= b > 1."
+    },
+    {
+      "name": "three_Volterra_terms_to_row_budget",
+      "pass": true,
+      "detail": "The true ordered triangle integral is bounded by the unit square; no missing factor is needed."
+    },
+    {
+      "name": "inner_zero_initial_buffer_fee",
+      "pass": true,
+      "detail": "The nested inner cutoff has zero initial data for inputs <= M/16."
+    },
+    {
+      "name": "outer_nested_commutator_fee",
+      "pass": true,
+      "detail": "The second commutator is used only on W2, after the exact decomposition."
+    },
+    {
+      "name": "outer_nested_far_fee",
+      "pass": true,
+      "detail": "The complement of the second cutoff forces a true large Fourier lag."
+    },
+    {
+      "name": "nested_power_to_far_band",
+      "pass": true,
+      "detail": "b^2 M^-10/3 = b^4/3 M^-8/3 (b/M)^2/3."
+    },
+    {
+      "name": "far_first_integral_subtraction",
+      "pass": true,
+      "detail": "The identity block is zero on separated bands; the exact first integral is retained and subtracted."
+    },
+    {
+      "name": "far_band_sum_fee",
+      "pass": true,
+      "detail": "Includes both nested terms and the far first-integral block."
+    },
+    {
+      "name": "cube_root_rational_lower",
+      "pass": true,
+      "detail": "Hence 2^-1/3 < 4/5."
+    },
+    {
+      "name": "cube_root_rational_upper",
+      "pass": true,
+      "detail": "Optional exact bracket for all displayed fractional exponents."
+    },
+    {
+      "name": "negative_one_dyadic_sum",
+      "pass": true,
+      "detail": "sum_{k>=0} 2^-k = 2; the finite sum used in a row is strictly smaller."
+    },
+    {
+      "name": "negative_one_third_dyadic_sum",
+      "pass": true,
+      "detail": "This dominates the exact geometric series uniformly over all deep shells."
+    },
+    {
+      "name": "negative_five_thirds_dyadic_sum",
+      "pass": true,
+      "detail": "2^-5/3 < 1/2; the actual series is smaller."
+    },
+    {
+      "name": "positive_one_third_finite_dyadic_sum",
+      "pass": true,
+      "detail": "Reverse the finite sum and divide by the last scale^(1/3)."
+    },
+    {
+      "name": "near_band_count",
+      "pass": true,
+      "detail": "Covers scales between M/32 and 32M, including endpoint conventions."
+    },
+    {
+      "name": "near_weight_fee",
+      "pass": true,
+      "detail": "|s|<=1 comparability, actual <m> weights, and all near neighbors."
+    },
+    {
+      "name": "far_weight_high_output",
+      "pass": true,
+      "detail": "Weighted high-output block <= C b^4/3 M^-1/3 N^-1."
+    },
+    {
+      "name": "far_weight_high_input",
+      "pass": true,
+      "detail": "Weighted high-input block <= C b^4/3 M^1/3 N^-5/3."
+    },
+    {
+      "name": "complete_block_Schur_fee",
+      "pass": true,
+      "detail": "Both row and column sums are bounded; their geometric mean gives the Hilbert operator norm."
+    },
+    {
+      "name": "displayed_full_smoothing_budget",
+      "pass": true,
+      "detail": "Displayed constant leaves room for all fixed shell endpoint conventions."
+    },
+    {
+      "name": "final_high_row_linear_term",
+      "pass": true,
+      "detail": {
+        "exact_log2_upper": "-2672"
+      }
+    },
+    {
+      "name": "final_high_row_quadratic_term",
+      "pass": true,
+      "detail": {
+        "exact_log2_upper": "-1504"
+      }
+    },
+    {
+      "name": "final_high_row_sum",
+      "pass": true,
+      "detail": "The true two errors are much smaller; hence ||P_b U|| < 2 in every stated H^s."
+    },
+    {
+      "name": "all_input_mean_retained",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "both_wave_rows_retained",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "both_Fourier_cones_retained",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "inverse_time_same_old_budget",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "weak_source_total_flux_not_radial_derivative",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "Gamma_star_two_columns_remain_actual_sources",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "no_claim_of_new_whole_network_cutoff",
+      "pass": true,
+      "detail": "Scope declaration, not an independently numerically proved analytic statement."
+    },
+    {
+      "name": "dependency_exists:results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md",
+      "pass": true,
+      "detail": "Input bytes are bound, not rerun or replaced by a generated stand-in."
+    },
+    {
+      "name": "dependency_exists:results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md",
+      "pass": true,
+      "detail": "Input bytes are bound, not rerun or replaced by a generated stand-in."
+    },
+    {
+      "name": "dependency_exists:results/R119-supplement-actual-nonradial-first-density-phase.md",
+      "pass": true,
+      "detail": "Input bytes are bound, not rerun or replaced by a generated stand-in."
+    },
+    {
+      "name": "dependency_exists:results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md",
+      "pass": true,
+      "detail": "Input bytes are bound, not rerun or replaced by a generated stand-in."
+    },
+    {
+      "name": "dependency_exists:results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md",
+      "pass": true,
+      "detail": "Input bytes are bound, not rerun or replaced by a generated stand-in."
+    },
+    {
+      "name": "dependency_exists:results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md",
+      "pass": true,
+      "detail": "Input bytes are bound, not rerun or replaced by a generated stand-in."
+    }
+  ]
+}
