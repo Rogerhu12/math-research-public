@@ -1,0 +1,33 @@
+{
+  "format": "r150-high-kernel-bockstein-actions-request-v1",
+  "scope": "One all200 original high-kernel Bockstein recovery, complete original mod961 identity, original NF and infinite-quotient necessary image test. Continue separately to the full finite budget if this necessary test passes.",
+  "high_kernel_columns": 200,
+  "allowed_b85_shift_columns": 1152,
+  "characteristic": 31,
+  "integer_modulus": 961,
+  "shared_mathematical_seconds": 300,
+  "per_child_memory_mib": 512,
+  "per_compilation_seconds": 30,
+  "python_flint_version": "0.9.0",
+  "input_run_id": 43597823809,
+  "input_artifact_id": 14114364261,
+  "input_artifact_name": "isp-r150-t96-graph-recovery-43597823809-1",
+  "input_model_repository_path": "topics/invariant-subspace-problem/notes/r150-shifted-graph-actions-789f/43597823809-1/native-normal-form-input.txt",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "new_source_sha256": {
+    "2026-11-14-r150-high-kernel-bockstein-original-789f.cpp": "7a5cf9e83361d632d00835fc1d50140cb50d65ad3c2be98c6673f7c25b5613b2",
+    "2026-11-14-r150-high-kernel-bockstein-normal-form-789f.cpp": "4e762478ecb120a449cb6c1a82ad6cf96fa220eabc49c6fb375dbcc33159ab11",
+    "2026-11-14-r150-high-kernel-bockstein-image-789f.cpp": "e59c23e55a05ba7f576ed50ff35fc43580673781d0ae7ffa9c153c7baf9221c3",
+    "2026-11-14-r150-high-kernel-bockstein-torsion-789f.py": "a73a19a42b6b35d30f1488a6baa9a2cdb32a9ca09fbd993b4dbc7f250d8eda68",
+    "2026-11-14-r150-high-kernel-bockstein-runner-789f.py": "94c1a55e44752971e19016d5a9cb4161d86f5282f1808ad5de09601789aae693",
+    "2026-11-14-r150-high-kernel-bockstein-source-preparation-789f.json": "5077724b2511b056cf08cffc35a067fb9f8a22c27fc16a8f7e3fffe44d42e1fb",
+    "2026-11-14-r150-high-kernel-bockstein-execution-interface-789f.md": "c3262dd709fc06f9b16924ed2e5495fddf3cab719ced97e6ee21302c72769b41"
+  },
+  "old_nf_or_graph_rebuild_requested": false,
+  "finite_budget_verified": false,
+  "results_destination": "topics/invariant-subspace-problem/notes/r150-high-kernel-bockstein-actions-789f/RUN_ID-ATTEMPT",
+  "root_will_publish_actual_results": true
+}

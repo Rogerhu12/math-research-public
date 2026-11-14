@@ -1,0 +1,116 @@
+name: ISP R150 all200 high-kernel Bockstein
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: isp-r150-high-kernel-bockstein-789f
+  cancel-in-progress: false
+
+jobs:
+  original-bockstein:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record exact source and bounded request
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          root=Path('topics/invariant-subspace-problem/notes')
+          rp=root/'2026-11-14-r150-high-kernel-bockstein-ci-request-789f.json'
+          request=json.loads(rp.read_text())
+          expected={'high_kernel_columns':200,'allowed_b85_shift_columns':1152,'characteristic':31,'integer_modulus':961,'shared_mathematical_seconds':300,'per_child_memory_mib':512,'per_compilation_seconds':30,'input_run_id':43597823809,'input_artifact_id':14114364261}
+          if any(request.get(k)!=v for k,v in expected.items()):raise SystemExit('Bounded original-source request changed')
+          actual_rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in request['rules_sha256']}
+          if actual_rules!=request['rules_sha256']:raise SystemExit('README changed: root must read and apply the new rules before this request runs')
+          sources={name:hashlib.sha256((root/name).read_bytes()).hexdigest() for name in request['new_source_sha256']}
+          if sources!=request['new_source_sha256']:raise SystemExit('Frozen new source changed')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-high-kernel-bockstein-output'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          data={'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'rules_sha256':actual_rules,'request':request,'request_sha256':hashlib.sha256(rp.read_bytes()).hexdigest(),'workflow_sha256':hashlib.sha256(Path('.github/workflows/invariant-subspace-r150-high-kernel-bockstein.yml').read_bytes()).hexdigest()}
+          (out/'results'/'actions-source.json').write_text(json.dumps(data,indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_BOCKSTEIN_OUT='+str(out)+'\n')
+          print(json.dumps(expected))
+          PY
+      - name: Restore the existing complete graph and source DAGs
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-high-kernel-bockstein-input
+      - name: Restore the exact original model and install arithmetic dependency
+        run: |
+          mkdir -p "$RUNNER_TEMP/isp-r150-high-kernel-bockstein-input/repo-original-model"
+          cp topics/invariant-subspace-problem/notes/r150-shifted-graph-actions-789f/43597823809-1/native-normal-form-input.txt "$RUNNER_TEMP/isp-r150-high-kernel-bockstein-input/repo-original-model/native-normal-form-input.txt"
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_BOCKSTEIN_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_BOCKSTEIN_OUT/results/compiler-version.txt"
+      - name: Execute one shared 300-second mathematical task
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-high-kernel-bockstein-runner-789f.py \
+            --recovery-root "$RUNNER_TEMP/isp-r150-high-kernel-bockstein-input" \
+            --out "$ISP_BOCKSTEIN_OUT" \
+            --seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_BOCKSTEIN_OUT/results/actions-console.log"
+      - name: Record the actual outcome
+        if: always() && env.ISP_BOCKSTEIN_OUT != ''
+        env:
+          ISP_EXACT_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_BOCKSTEIN_OUT'])/'results'
+          p=out/'bockstein-pipeline-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          result={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'step_outcome':os.environ.get('ISP_EXACT_STEP_OUTCOME'),'pipeline_status':r.get('status','not-started'),'complete':os.environ.get('ISP_EXACT_STEP_OUTCOME')=='success' and r.get('status')=='completed','finite_budget_verified':False,'infinite_quotient_necessary_test':r.get('infiniteQuotientNecessaryTest'),'mathematical_elapsed_seconds':r.get('mathematicalElapsedSeconds'),'root_will_publish_actual_results':True}
+          (out/'actions-outcome.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_BOCKSTEIN_OUT != ''
+        with:
+          name: isp-r150-high-kernel-bockstein-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_BOCKSTEIN_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_BOCKSTEIN_OUT != ''
+        with:
+          name: isp-r150-high-kernel-bockstein-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_BOCKSTEIN_OUT }}/recovery
+      - name: Require exact completion of the stated necessary test
+        if: always() && env.ISP_BOCKSTEIN_OUT != ''
+        run: |
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads((Path(os.environ['ISP_BOCKSTEIN_OUT'])/'results'/'actions-outcome.json').read_text())
+          if r.get('complete') is not True:raise SystemExit('Original all200 Bockstein task did not complete; the actual failure and existing recovery files are retained')
+          PY

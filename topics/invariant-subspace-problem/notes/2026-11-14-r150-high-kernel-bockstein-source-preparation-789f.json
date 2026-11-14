@@ -1,0 +1,53 @@
+{
+  "format": "r150-all200-bockstein-source-preparation-v1",
+  "status": "compiled-and-syntax-checked-no-mathematical-run",
+  "nativeSources": {
+    "2026-11-14-r150-high-kernel-bockstein-original-789f.cpp": {
+      "sourceSHA256": "7a5cf9e83361d632d00835fc1d50140cb50d65ad3c2be98c6673f7c25b5613b2",
+      "bytes": 19932,
+      "boundedCompilationExitCode": 0,
+      "compiler": "g++ -O2 -std=c++17",
+      "secondsLimit": 30,
+      "addressSpaceMiBLimit": 512,
+      "binarySHA256": "d5620eda6af2acb4f988978c21484cf854d84a47b27ae5b3fee1a603b6fc72c1",
+      "binaryBytes": 69360
+    },
+    "2026-11-14-r150-high-kernel-bockstein-normal-form-789f.cpp": {
+      "sourceSHA256": "4e762478ecb120a449cb6c1a82ad6cf96fa220eabc49c6fb375dbcc33159ab11",
+      "bytes": 14348,
+      "boundedCompilationExitCode": 0,
+      "compiler": "g++ -O2 -std=c++17",
+      "secondsLimit": 30,
+      "addressSpaceMiBLimit": 512,
+      "binarySHA256": "00e14c27d170b31ede712c5da56c8ad4d6e9e6a75b461f7ab2a1af3a97256c18",
+      "binaryBytes": 65904
+    },
+    "2026-11-14-r150-high-kernel-bockstein-image-789f.cpp": {
+      "sourceSHA256": "e59c23e55a05ba7f576ed50ff35fc43580673781d0ae7ffa9c153c7baf9221c3",
+      "bytes": 11037,
+      "boundedCompilationExitCode": 0,
+      "compiler": "g++ -O2 -std=c++17",
+      "secondsLimit": 30,
+      "addressSpaceMiBLimit": 512,
+      "binarySHA256": "425eb98c8e3104ac6331c0cc686fe9253a9adae8d9099bd5f9590a9f171b2962",
+      "binaryBytes": 46328
+    }
+  },
+  "pythonSources": {
+    "2026-11-14-r150-high-kernel-bockstein-torsion-789f.py": {
+      "sourceSHA256": "a73a19a42b6b35d30f1488a6baa9a2cdb32a9ca09fbd993b4dbc7f250d8eda68",
+      "bytes": 12857,
+      "pythonAST": "passed"
+    },
+    "2026-11-14-r150-high-kernel-bockstein-runner-789f.py": {
+      "sourceSHA256": "94c1a55e44752971e19016d5a9cb4161d86f5282f1808ad5de09601789aae693",
+      "bytes": 12885,
+      "pythonAST": "passed"
+    }
+  },
+  "arithmeticSHA256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+  "stateReaderSHA256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+  "finite_budget_verified": false,
+  "newMathematicalExecutionStarted": false,
+  "note": "The three native sources were each actually compiled under timeout30s and512MiB address space. The output is only executable preparation, not a mathematical Bockstein result."
+}
