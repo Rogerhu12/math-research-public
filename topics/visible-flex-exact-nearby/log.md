@@ -515,3 +515,7 @@ Y1–7只消费原exactfold完整native0ceafc2b…/3180936B及process67bf926a…
 ## 2026-11-14 23:21:37 UTC — 全矩阵v2最小恢复与缺格并行
 
 独立推v2 CI/122pin manifest/workflow三文件。root逐行diff已核：唯一路径f-string修复及run43651733856/attempt1/process98fca8da…/native d893f609…/真实child0七门的特定迁移；旧complete=false/错误原样保。原117pins逐项相同、科学source47d69d78…与合同deb8ad6b…均未改，旧workflow路径不触发。新plan不启动数学，只恢复原成功native，随后32互斥组只新5966格，原4成功同F矩阵不重算。发布不是实际完成；全Green/trueBR/V舍入/无限Schur仍须付。两README在4b41e72e9759cf8b37f762f97f756c160994d8da只读核未变；真实pull仍记HANDOFF。
+
+## 2026-11-14 23:22:19 UTC — 高阶真根v2 actual十五门
+
+根核run43651259105原process3b06c881…与worker d70ac1fb…：child0，科学20.649323927s/外driver20.850433209s，native38a8ba8d…570579B。原失败点payload938047c9…原样保，0新有限求值，Nyquist原球逐个含零后消费精确结构投影，完整无限误差继续保。新12阶误差、36mean、11E、四行各10普通导数/54低阶对照均通过；报告SHA09ece496…独立推。两次真pull caaf7a79d33a43c981500f2c0330dca923997c31，两README实际diff空（该worker未记每次时间）；新近带时间pull仍由matrix-plan记录。当前591b25d199d1f50d91a442df1d0b318f3d722a87只读核无规则变化。w1全Laurent/Taylor、I/J、strong、cutoff及真ν仍待。

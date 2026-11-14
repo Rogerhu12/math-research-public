@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **真根高阶内蕴actual完成**：公开43651259105 child0/15门，原12列finite point逐字复用、0新FFT/target；完整误差0..11、36双线性mean、E0..10和K/β/γ/s0..9完成，54个原低阶重叠全过。只认固定η0及原zero-bump germ，不把原halfwidth变为共根定理。见 [实际高阶真根报告](results/R133-supplement-actual-complete-high-intrinsic-jets-at-the-true-root.md)。
+
 - **完整5970矩阵计划实际通过，出版错误单独保留**：公开run43651733856的plan child0/7门，32互斥组覆盖5966个缺格；随后小摘要PosixPath+str异常，所有range/finish skipped。原四格/原计划不重算，恢复须逐字认同唯一process/native/七门。见 [actual plan与恢复](notes/2026-11-14-R133-complete-same-F-plan-actual-and-publication-recovery.md)。
 
 - **R133 全5970格同一传播子矩阵数据合同已证。** [D1–12](notes/2026-11-14-R133-complete-same-F-directional-matrix-data-contract.md)：原四成功格逐字复用，其余5966格从同一canonical exact A构造未舍入F/C，公开自适应degree8..64并严付完整残差/三角端点修补；保128真实输入方向、全193 signed H/J及mean、真dr/物理权/负窗。原m_k/E绑定同一原s-power对象，全同Q/R接口核验；V舍入、真帽/腰/body缺陷和未知高块仍待全方向双扫后另付。
