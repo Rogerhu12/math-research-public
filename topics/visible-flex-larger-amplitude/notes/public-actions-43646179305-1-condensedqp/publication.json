@@ -1,0 +1,2162 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T22:16:40.328315+00:00",
+  "source_commit": "db6d728f30ee2d0c9ea62c96c622d8d85d2354b2",
+  "run_id": "43646179305",
+  "run_attempt": "1",
+  "lane": "condensedqp",
+  "files": [
+    {
+      "source": "T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/T112-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "boundary112-response/response-check.json",
+      "bytes": 38794,
+      "sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/boundary112-response/response-check.json",
+      "published_bytes": 38794,
+      "published_sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f"
+    },
+    {
+      "source": "eighteen-condensed-warm/all-angle-linear-margins.json.gz",
+      "bytes": 493698,
+      "sha256": "cba038123a7b57307cc67ca961f3c6eb9a07b2743baed6d6fe630a8d259ed012",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/all-angle-linear-margins.json.gz",
+      "published_bytes": 493698,
+      "published_sha256": "cba038123a7b57307cc67ca961f3c6eb9a07b2743baed6d6fe630a8d259ed012"
+    },
+    {
+      "source": "eighteen-condensed-warm/all-angle-selection-candidates.json.gz",
+      "bytes": 1168415,
+      "sha256": "64a4c4f11f405758dc86f136387a70c03d9b6d7d195f53d0e092f0397e0f6e77",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/all-angle-selection-candidates.json.gz",
+      "published_bytes": 1168415,
+      "published_sha256": "64a4c4f11f405758dc86f136387a70c03d9b6d7d195f53d0e092f0397e0f6e77"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0001.json",
+      "bytes": 6843,
+      "sha256": "725c2960d27153cc6e25d81f990cd3ce236c82bc489fdead842a92e7b0b60d95",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0001.json",
+      "published_bytes": 6843,
+      "published_sha256": "725c2960d27153cc6e25d81f990cd3ce236c82bc489fdead842a92e7b0b60d95"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0002.json",
+      "bytes": 3673,
+      "sha256": "9f43f734f365a52eb0a0738369ff85465b7e4e2d77757be189e7f4dfc18378d1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0002.json",
+      "published_bytes": 3673,
+      "published_sha256": "9f43f734f365a52eb0a0738369ff85465b7e4e2d77757be189e7f4dfc18378d1"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0003.json",
+      "bytes": 3673,
+      "sha256": "2e78b638fd20770d6fc60bb7ba89cbdab90d18aa1b6a34777c611e35c8b38fa5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0003.json",
+      "published_bytes": 3673,
+      "published_sha256": "2e78b638fd20770d6fc60bb7ba89cbdab90d18aa1b6a34777c611e35c8b38fa5"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0004.json",
+      "bytes": 3673,
+      "sha256": "487946761fbbf903d662531a93453f20ffa365626704d7c7dd6f6a7615ca1a04",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0004.json",
+      "published_bytes": 3673,
+      "published_sha256": "487946761fbbf903d662531a93453f20ffa365626704d7c7dd6f6a7615ca1a04"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0005.json",
+      "bytes": 3673,
+      "sha256": "3f5483fe5a86d7d0e25c20f28d0c584aa312da6b0692bf1f32b8a2aefd4143ab",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0005.json",
+      "published_bytes": 3673,
+      "published_sha256": "3f5483fe5a86d7d0e25c20f28d0c584aa312da6b0692bf1f32b8a2aefd4143ab"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0006.json",
+      "bytes": 3673,
+      "sha256": "d78aebfdf6d3a28dd48facd13487282604ba72a69f58ef97477cd62da342ae22",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0006.json",
+      "published_bytes": 3673,
+      "published_sha256": "d78aebfdf6d3a28dd48facd13487282604ba72a69f58ef97477cd62da342ae22"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0007.json",
+      "bytes": 3673,
+      "sha256": "56bc532cc4ac0911ca8ccca04aab8d8ddc560ebc4cfbaea41d3dcc982cbaca18",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0007.json",
+      "published_bytes": 3673,
+      "published_sha256": "56bc532cc4ac0911ca8ccca04aab8d8ddc560ebc4cfbaea41d3dcc982cbaca18"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0008.json",
+      "bytes": 3673,
+      "sha256": "0198af0ff3b7936e7925a108a99198678804eb304b3700e5bfdc582bc9f3acaa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0008.json",
+      "published_bytes": 3673,
+      "published_sha256": "0198af0ff3b7936e7925a108a99198678804eb304b3700e5bfdc582bc9f3acaa"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0009.json",
+      "bytes": 6853,
+      "sha256": "6fd130f53bb84a353d8b392c50fa7d9db9b8888414d59718a45a9f72232e21e0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0009.json",
+      "published_bytes": 6853,
+      "published_sha256": "6fd130f53bb84a353d8b392c50fa7d9db9b8888414d59718a45a9f72232e21e0"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0010.json",
+      "bytes": 6853,
+      "sha256": "a851caeb57834d0b763bcff45386fce801bb2a582d289c61a7feb6ddebb2a92f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0010.json",
+      "published_bytes": 6853,
+      "published_sha256": "a851caeb57834d0b763bcff45386fce801bb2a582d289c61a7feb6ddebb2a92f"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0011.json",
+      "bytes": 6856,
+      "sha256": "96c3f240b6a95380a631628c048df0a00f079df9265e4b22828c6e406e07b7eb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0011.json",
+      "published_bytes": 6856,
+      "published_sha256": "96c3f240b6a95380a631628c048df0a00f079df9265e4b22828c6e406e07b7eb"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0012.json",
+      "bytes": 6849,
+      "sha256": "22a02bd0b217e4f57b5db7ae6f9bb4d991d78c346ad3067e6019380682246db8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0012.json",
+      "published_bytes": 6849,
+      "published_sha256": "22a02bd0b217e4f57b5db7ae6f9bb4d991d78c346ad3067e6019380682246db8"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0013.json",
+      "bytes": 6844,
+      "sha256": "31b2660d494c1b74a1918acff2d294904a6d2ee97917d0c144109f71cee56fd7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0013.json",
+      "published_bytes": 6844,
+      "published_sha256": "31b2660d494c1b74a1918acff2d294904a6d2ee97917d0c144109f71cee56fd7"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0014.json",
+      "bytes": 6849,
+      "sha256": "7c8650be8b208d84fc97f0990db7d30f981c0fa127926422fae3b4d0f99fec1a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0014.json",
+      "published_bytes": 6849,
+      "published_sha256": "7c8650be8b208d84fc97f0990db7d30f981c0fa127926422fae3b4d0f99fec1a"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0015.json",
+      "bytes": 6842,
+      "sha256": "a73a5008a847515640c40ac1d0aef7dc550db78e5c8117a5dfca0d9aac9dae93",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0015.json",
+      "published_bytes": 6842,
+      "published_sha256": "a73a5008a847515640c40ac1d0aef7dc550db78e5c8117a5dfca0d9aac9dae93"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/evaluate-0016.json",
+      "bytes": 6843,
+      "sha256": "7bed78bc791870358a6a74107e9288b8884e453c18a5e93a78d0d70f52a240ce",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/evaluate-0016.json",
+      "published_bytes": 6843,
+      "published_sha256": "7bed78bc791870358a6a74107e9288b8884e453c18a5e93a78d0d70f52a240ce"
+    },
+    {
+      "source": "eighteen-condensed-warm/collocation-observer/run-summary.json",
+      "bytes": 2731,
+      "sha256": "905ddd4572fe05de79eb771e135240b16fdc0d4910e214b1b8100e4effcc361b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/collocation-observer/run-summary.json",
+      "published_bytes": 2731,
+      "published_sha256": "905ddd4572fe05de79eb771e135240b16fdc0d4910e214b1b8100e4effcc361b"
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-QP-result.json.gz",
+      "bytes": 419333,
+      "sha256": "ebe1b7340d29c440e47b50de7eccdc36733b6d28d90a09a9050894db1ab3a0f4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/condensed-QP-result.json.gz",
+      "published_bytes": 419333,
+      "published_sha256": "ebe1b7340d29c440e47b50de7eccdc36733b6d28d90a09a9050894db1ab3a0f4"
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-QP-summary.json",
+      "bytes": 97102,
+      "sha256": "f5036998a69fb391b5634514bc19d5ff149c238d8bfb6e2b494abcb1164fdb53",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/condensed-QP-summary.json",
+      "published_bytes": 97102,
+      "published_sha256": "f5036998a69fb391b5634514bc19d5ff149c238d8bfb6e2b494abcb1164fdb53"
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-array-manifest.json",
+      "bytes": 63505,
+      "sha256": "f65df44ab8866f3e4ab7809e9232dd19a719f5f5bc5ad4c24ee9d427e37339fe",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/condensed-array-manifest.json",
+      "published_bytes": 63505,
+      "published_sha256": "f65df44ab8866f3e4ab7809e9232dd19a719f5f5bc5ad4c24ee9d427e37339fe"
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0001-part-0000.npz",
+      "bytes": 1824430,
+      "sha256": "ce0f864eb0f826416e51265f9d1e4f74ead75986d6309ac8c82007d57db7063a",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0002-part-0000.npz",
+      "bytes": 1829035,
+      "sha256": "b650b3dfb38512cbbb053e0e9ab3d35008085a3415bbf2090d73610a96302865",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0003-part-0000.npz",
+      "bytes": 93870,
+      "sha256": "4c41a2e357ef5cb8045898e2a61186fd7416cc5ab75db356b896c630fbb4c12c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0004-part-0000.npz",
+      "bytes": 1828223,
+      "sha256": "d50b9756116ab6cc4ea9a2877dd7bf6f88ff660519fc6db903635185ddcc4013",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0005-part-0000.npz",
+      "bytes": 1829618,
+      "sha256": "d8170016eed7614c3ee8069b8a2612fe9460b94081798853089fe54f5545e55c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0006-part-0000.npz",
+      "bytes": 1829448,
+      "sha256": "3b332a8a9c39c7d7b03ca9d7a14ef87944b8b270b92ce79105d423558da57b58",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0007-part-0000.npz",
+      "bytes": 44376,
+      "sha256": "01b9f7c5f85a98270a9d330cb02180b9f7031a7e9e3d92f2e6b5a482309649a6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0008-part-0000.npz",
+      "bytes": 5138,
+      "sha256": "38a792819f23090201794d174e31abe2fe41939965c5c6d1940af4f68560b1f6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0009-part-0000.npz",
+      "bytes": 19002,
+      "sha256": "78794f54d6704cba0fdd0d2eb96db3d27ad05d1b5b1652354e46355869596057",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0010-part-0000.npz",
+      "bytes": 93275,
+      "sha256": "47433de4ed5aefda81263cabf9327607b4fb43b34cc5aa4970b028c5b2f143b5",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0011-part-0000.npz",
+      "bytes": 44345,
+      "sha256": "ad9c50fbaf09362cc96b906c6c3dfacccbb2c21e381a78da5db497c58e267bb2",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0012-part-0000.npz",
+      "bytes": 5372,
+      "sha256": "cee3ad7492a5139c209d0940a8c231f963756ae74de388c4e38bcb23d15f6325",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0013-part-0000.npz",
+      "bytes": 93153,
+      "sha256": "342d8e7338b446ad77605ca2cf29f73f0dbdfa81c7341ae5cdaa53a8d164cb2c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0014-part-0000.npz",
+      "bytes": 12037,
+      "sha256": "f09434957b8f157a39a50ab82ee1ddf4db6d21707f45752e6d0c13af3365daf3",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0015-part-0000.npz",
+      "bytes": 44376,
+      "sha256": "a21981e585481a4a76356455ce287ba1da4645408375a160dcc5d3bdc7e7ffd6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0016-part-0000.npz",
+      "bytes": 93288,
+      "sha256": "171ed6b7cc506c46b206e651b8e34f52201c681cb7a95a5c78631bf4e2d8da81",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0017-part-0000.npz",
+      "bytes": 19012,
+      "sha256": "9989c124c65df1b2dd2bd45d8897466f1e0a34ffe63bc4117abdf71f854d0406",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0018-part-0000.npz",
+      "bytes": 1451,
+      "sha256": "a2bf24eff9dff33166ac3518fba57e99f181fac1327898f40fcd3a256a15267f",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0019-part-0000.npz",
+      "bytes": 3378,
+      "sha256": "5e7e4948b9af783af5de3bcf24d5c9b18813733c00403b2ef7e482ee5605f0ef",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0000.npz",
+      "bytes": 243529,
+      "sha256": "789ccffd72de06b51279deaae8f18b341404444581d8f80d75971a1ce371e42e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0001.npz",
+      "bytes": 243512,
+      "sha256": "a93eebe936a1bd2bec1f368f725068a1b23fa09a9f6310940446e5ccea10b879",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0002.npz",
+      "bytes": 243486,
+      "sha256": "40b001267ce49b4c1eb9c0e0d61c6c96397f5358d1f3eb6be3bc69203e1f63d7",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0003.npz",
+      "bytes": 243480,
+      "sha256": "d6c5d6487d6415a0e556fab4c7901e0cdb90b63f950804cfb4999e565fa0f82f",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0004.npz",
+      "bytes": 243434,
+      "sha256": "22f342019b9e7dec685e497328b5a4e6021623d0b9cd3009abdad26a70427989",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0005.npz",
+      "bytes": 243471,
+      "sha256": "e8f3765bc18d5136efdc90c724b8df922b8c3cedac2d26e6c37d597449592b16",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0006.npz",
+      "bytes": 243425,
+      "sha256": "58ba85f3fc503ca40b25171b1742e1e54f04cd731b3a569f473257e3980fb5d3",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0007.npz",
+      "bytes": 243479,
+      "sha256": "b17402a401c508e49fb71edba1fae00a9f867b6d21ff936429a09c7c893ef493",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0008.npz",
+      "bytes": 243456,
+      "sha256": "db9af999d6a573133f57470131b24d932695ba09ad94599aed6cba2e2c5de67e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0009.npz",
+      "bytes": 243525,
+      "sha256": "6f849a85dce7bae8af2e6993bfd05cd4a2ceed12a4773a6148c14c7ee7971ef5",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0010.npz",
+      "bytes": 243569,
+      "sha256": "32a91cf118b5abb169da9f609ab86f718e6f5fc9c7ff5a681dd26f675918faa4",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0020-part-0011.npz",
+      "bytes": 92176,
+      "sha256": "10588573e79f182a2adec0e777977cc7ec1e88963b95aeb0a8892ac5d1fde8a1",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0000.npz",
+      "bytes": 2012387,
+      "sha256": "ddb739955fc5922d597e00b5d0a2a5f97354874a0cc76da300f8786cc9dfe034",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0001.npz",
+      "bytes": 2013774,
+      "sha256": "03ef59aaba37f0db402d811792e961b407c4b42caf4f74a41faebe452810853e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0002.npz",
+      "bytes": 2012306,
+      "sha256": "0bb6a5d27330d4fbceb9e2d91122abb133011390262201fd066b02a30962752e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0003.npz",
+      "bytes": 2012433,
+      "sha256": "97ce4547b223dc5d28a7e369e918a79e4f793d700e006ac082c63a5fcf3088a6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0004.npz",
+      "bytes": 2013337,
+      "sha256": "576762ec8e1b38e19e639cb0618dd1587925bc8faf94e2064aa5b1f80f5b86b7",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0005.npz",
+      "bytes": 2012639,
+      "sha256": "a54b079dc630cedbec4f71311001726d087526378947439fdfb390d9a7b89934",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0006.npz",
+      "bytes": 2012771,
+      "sha256": "02c9ff72d0370372463a139026ee53c5f75463aff1340a634101eef36b12fc90",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0007.npz",
+      "bytes": 2013455,
+      "sha256": "b91fa47694bfa4186cc9d8b4f7a5d70504275a9951d30fec0d9b8f260afe79c7",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0008.npz",
+      "bytes": 2014717,
+      "sha256": "ca52b19ef825c310ccbad53e88839599a80e7d3c8af54a8e926d058cc68e24c6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0009.npz",
+      "bytes": 2013145,
+      "sha256": "badf978af0d275cb8db24bf1afbb4e4ac25de53b152efe758cbc13e77c25b372",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0010.npz",
+      "bytes": 2012353,
+      "sha256": "d268020b76ff646d7f9adfc11777c85947d0f4da29a5d989b1a77c4dbf58010d",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0021-part-0011.npz",
+      "bytes": 759884,
+      "sha256": "ceaea6179e2ed9ac6f8cde99f238f199b5c9f32cc1c3b4adeea1ddbe16101716",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0000.npz",
+      "bytes": 240589,
+      "sha256": "08453d14d8bb9acb97d64c92603a6f78915ab808e046714408fcb8431ffee858",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0001.npz",
+      "bytes": 240683,
+      "sha256": "09bc5c888a883a2e0840a52044006b611d1c082a6a80a7eeb3dba0c8860867c1",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0002.npz",
+      "bytes": 240747,
+      "sha256": "c5c5de0d6b23ff82d8d0dd2ed4a6f90fd2f2f26aaef07fe95b9c59e6e3d06700",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0003.npz",
+      "bytes": 240667,
+      "sha256": "4c7e730db7d368d2d961c1e1355c095c2ae81051964734aedd2252728b864713",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0004.npz",
+      "bytes": 240701,
+      "sha256": "502118347a8425d1b10723208f6636a85a161a562a808bd5be7637c7ba1eb6e0",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0005.npz",
+      "bytes": 240724,
+      "sha256": "8952cb2b8196ee2fe1a9bac4277adb843454d802cbab06aacabe2eb7d620708c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0006.npz",
+      "bytes": 240799,
+      "sha256": "e1349ec0f0369c3122062af6b1c62ccae99d87e0f18ea5d7ef58716828868024",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0007.npz",
+      "bytes": 240941,
+      "sha256": "f2198cae88a67dafbc21d0fb92e5df586d343f36de2c93358627846339cafeb9",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0008.npz",
+      "bytes": 240756,
+      "sha256": "e24f097a5bc1e9b5210a7caf4623d7991b142c2118ff154ae360c64711f3203f",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0009.npz",
+      "bytes": 240657,
+      "sha256": "26859360811aa52d605cdafaab871521d51010b47bdc2675805aa81e434fb95d",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0010.npz",
+      "bytes": 240712,
+      "sha256": "3c8b662923844db85eaf8613fe888852c9e65fd228db5ba92917c776fe61f299",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0022-part-0011.npz",
+      "bytes": 91075,
+      "sha256": "d7da2f6f5316739199783821d0623917a32525cbda6be8b8f2805bd80ff4794e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0000.npz",
+      "bytes": 2012905,
+      "sha256": "16bfbb43e9efb72b10a8bc2b468bdb8c9c7dd88ccae753ec8b68c88cba1eb354",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0001.npz",
+      "bytes": 2012329,
+      "sha256": "e8eae889db68c5748b3f85688595401aeecd5dc28879ae88baf85ad5a38904bb",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0002.npz",
+      "bytes": 2012584,
+      "sha256": "08bfe3e670d27ffb076db1b33863cc44330eb8b6642bb856535f2c21159a5b31",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0003.npz",
+      "bytes": 2011845,
+      "sha256": "0671900d875516527b33c7bebce5ec321a1a9c0f6d579a49b762108b96f27b01",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0004.npz",
+      "bytes": 2011687,
+      "sha256": "c4269ff8c6b3eaa27cafb594606260ee05dd287f5b192d99e4b43efeaff668aa",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0005.npz",
+      "bytes": 2012209,
+      "sha256": "b8fcb07d403c89cc69eefd4c4c48c49c1d21491ae4b65a417f793c9dd6696416",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0006.npz",
+      "bytes": 2012523,
+      "sha256": "a5f293d09ee9f43a3626e8935080d4e0d6fb68daf1d408103d6cab9948fd638a",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0007.npz",
+      "bytes": 2013240,
+      "sha256": "d5aa3b076fc86de695a4e433dae4d586cd22aed6dc9810f2663b588aef959ecb",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0008.npz",
+      "bytes": 2011903,
+      "sha256": "cde48a1fe183b49837516977241e1c20e996cc6f1d0630b37d2c1987ce569159",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0009.npz",
+      "bytes": 2012985,
+      "sha256": "c23c4eb07596d3f8aceaeb1a2c7e665b65fdf8f0d112440efcdfa9d512cba6a5",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0010.npz",
+      "bytes": 2013426,
+      "sha256": "cb40c0a4cd2ebfe12797c6aba61e67593947a4ad3a0191186578073a64886e59",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0023-part-0011.npz",
+      "bytes": 760508,
+      "sha256": "0658917486a6e47d89d84aaa5eea65878a3ef400614b1b4cedbaeee7032cbb64",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0000.npz",
+      "bytes": 1376032,
+      "sha256": "1d9e22e8803e21f52e77ea3f39dc8fef509bb81446abdff0c2188207cae1c750",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0001.npz",
+      "bytes": 1337116,
+      "sha256": "ad4f1dfd3b2a047657bc4884295d6970688f8a72fba094df7d7d0579495e0d79",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0002.npz",
+      "bytes": 1335954,
+      "sha256": "9d31d05a0e44fa5725fb0e2c3737d53022a52a4d0607de2a199ecf7bb8b80ddb",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0003.npz",
+      "bytes": 1340080,
+      "sha256": "38c44b5f89fdf90f07284f46e8e6d287334c45a00d64c9267d6dac9d9dbaf536",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0004.npz",
+      "bytes": 1280222,
+      "sha256": "65b70013a5a5fb1912600d41f08d60db4b9a4faafaf7f1f27ee82649052b7176",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0005.npz",
+      "bytes": 1222047,
+      "sha256": "7127425d622cd360c9b5d206d243c5e685b4d79b09dc5f56dca632f02cd09f1f",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0006.npz",
+      "bytes": 1236853,
+      "sha256": "d526ce7c6788efd2daff4e0232de5e5a9c4912adf7993582fe9315fbb10c2efb",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0007.npz",
+      "bytes": 1343784,
+      "sha256": "c422b6c3f6d650ddb503a11c2fb509300b726554b58ab59edc1ecc40dc7e775c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0008.npz",
+      "bytes": 1367238,
+      "sha256": "787b6f327bcddd504e322ef958e393f61155605babcf1a34b21e06975de95b60",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0009.npz",
+      "bytes": 1355041,
+      "sha256": "a7ba1fbf9b4b469389c9cc92999aa3307841022115f6e57bcf015456f5663e57",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0010.npz",
+      "bytes": 1323639,
+      "sha256": "d8e888a2ce63d294612eb516a27b7f05b2c74f1c4b9e4aeec3c5b0fca96a6c0a",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0024-part-0011.npz",
+      "bytes": 490933,
+      "sha256": "6736989660cd97749f7bf4eeabada9a6482aaa18d47a52b23eba12aaf0baa038",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0025-part-0000.npz",
+      "bytes": 1605887,
+      "sha256": "5cc1e1b300db3e19b7160fbbb1cc40842373ec1ac2f9041f8e551b87ee04300a",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0026-part-0000.npz",
+      "bytes": 3899,
+      "sha256": "4d8a8639214acb7e7a756c3cf088378c879b82140f8cba2ba4d4fec98b6c3294",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0027-part-0000.npz",
+      "bytes": 1827037,
+      "sha256": "e1e9252d660e4172f4f6e89e6327b6ee2299c9185c580e79394fd22318959c0f",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0028-part-0000.npz",
+      "bytes": 108831,
+      "sha256": "c403536f4cc1ae995892b2432bd1705a8d5a70fc62dfecd6caa88e96d4351ed6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0029-part-0000.npz",
+      "bytes": 93362,
+      "sha256": "0a695b43227141057fd9de48fd23430d9a3b02aa6431bb2612e390b052e2c75a",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0030-part-0000.npz",
+      "bytes": 478879,
+      "sha256": "0a77c2e737e03e7dcb37123175c6137cb600b24a1fcbbfd37e1945b88200b1f1",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0031-part-0000.npz",
+      "bytes": 452263,
+      "sha256": "6c8ae445923ee90e2095256e365fa4ea2f9162bf604fc6e4c8bc217441994b74",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0032-part-0000.npz",
+      "bytes": 1829321,
+      "sha256": "c34ead4f5f19284daa1c0c4a90ae94ac492138e3607dc6ed8b280bf97e2c37a7",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0033-part-0000.npz",
+      "bytes": 1827061,
+      "sha256": "fc2b5999f9dc17eedb159aa6e6d161360218736e372cf5bceee879242fbcc32b",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0034-part-0000.npz",
+      "bytes": 108716,
+      "sha256": "40f86f811f0dccc49fb1dccdf40252cff60cabd188d56c5d2bf93af68580b638",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0035-part-0000.npz",
+      "bytes": 93818,
+      "sha256": "f93848c3ebf4bebbc5d8c4f0aa6189c66317100de32c0536923741e2ed30dbb6",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0036-part-0000.npz",
+      "bytes": 952134,
+      "sha256": "d9e519f31f9ab6a90aa64a3809e6990690489409b4d9850761483d942fdf3a30",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0037-part-0000.npz",
+      "bytes": 929415,
+      "sha256": "844cf313a85a7d0e368f5db4aa8a9d00492e743cb4c03c60ba7b81976b05697b",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-arrays/array-0038-part-0000.npz",
+      "bytes": 5135,
+      "sha256": "9892393e1023180f64cdb74341dd88f91860fd7764893f86e399425acb132125",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-live-model-binding.json",
+      "bytes": 12305,
+      "sha256": "eae92727675563991a9da5e9bb7a6aeece945434c1686e558d00b9aeb59d1c65",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/condensed-live-model-binding.json",
+      "published_bytes": 12305,
+      "published_sha256": "eae92727675563991a9da5e9bb7a6aeece945434c1686e558d00b9aeb59d1c65"
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/affine-original-linear-term-error.f64le",
+      "bytes": 1888288,
+      "sha256": "66c453525c91e3bce41a13db0d252708cad97bb04df33f21053ffbf3f6389a8d",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/complete-affine-column.f64le",
+      "bytes": 1888288,
+      "sha256": "ef9a49df02dc8f8d4576072c429d88f8511f0917d84ef8d1bdf9535825a258ce",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/events.jsonl",
+      "bytes": 464948,
+      "sha256": "199d93954eb42f6d7b9269c6aaf0433f91424326adee2035778998feebd0ad32",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/local-affine.f64le",
+      "bytes": 45992,
+      "sha256": "9c255c1454968bda0311538ccaec8881ed7dcec03b2bc5ab6ce36288f15e9973",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/local-center.f64le",
+      "bytes": 45992,
+      "sha256": "576e4bc2c2aaaa053c49390b81a80ca88eeff1bfc4548a6a8a8ee92bd2174922",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/local-gradient.f64le",
+      "bytes": 45992,
+      "sha256": "68f2a475283f462aee2eed44db212b696a3da63c2df56c5f592a15a8017e6f8f",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/local-indices.i64le",
+      "bytes": 45992,
+      "sha256": "7f715e194612c445d6d1e36d440da8a86cce080d86261c96e8f9d6ac829190c0",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/local-root.f64le",
+      "bytes": 264408008,
+      "sha256": "f8546804a3898cafb9469326bd070e7c33bc3e917798eec31b9d6991cac94f75",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/original-g.f64le",
+      "bytes": 1888288,
+      "sha256": "80446639601e63991ba5a15599f5b91613888e19687b51172aec96acece7bfef",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000-actual-full.f64le",
+      "bytes": 1888288,
+      "sha256": "4d1f8ba2e539a0ef58c1c0f0cad4635e1f6b75fd617a9877bb0e543a5565e4ac",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000-local-mismatch.f64le",
+      "bytes": 45992,
+      "sha256": "dc42df88e458b0d52264b8fd7b5877ba2cf9b3e5bdbf2e9efd3e00684ea82e1c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000-original-H-residual.f64le",
+      "bytes": 1888288,
+      "sha256": "0a61e1d0fb8e5bb243a933489951f6825613f1aa64fb086a49b26172cceca7b1",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000-requested-local.f64le",
+      "bytes": 45992,
+      "sha256": "af8475e22ee24bf94fac0388cc4a5a2526459af420b659e50f49861d06ccbb5c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000-rhs-embedding-error.f64le",
+      "bytes": 45992,
+      "sha256": "46b84345669dac126bae59ae09059f2ce60d5ea5cc283cc7ecc441062e018d6e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000-rhs.f64le",
+      "bytes": 1888288,
+      "sha256": "b1561407a75eae1d33f6526a48eb8091a26a95324c944ed7a38b57b1bdaa426e",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/recovery-000.json",
+      "bytes": 11564,
+      "sha256": "4ca8a817e89f8fcb0ac376ca8f834ace28bb78cadbf8d324d737b5c0abd3169c",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-root/status.json",
+      "bytes": 29224,
+      "sha256": "b9c01051557dd10dce4a126616501ee26d62a26716482155f03c6842e7c16350",
+      "not_published": "Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback."
+    },
+    {
+      "source": "eighteen-condensed-warm/condensed-versus-C-comparison.json",
+      "bytes": 22948,
+      "sha256": "63a5473c9c8b3826881fc67e991b4da44383853954b73b6295c1862ebdd441ed",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/condensed-versus-C-comparison.json",
+      "published_bytes": 22948,
+      "published_sha256": "63a5473c9c8b3826881fc67e991b4da44383853954b73b6295c1862ebdd441ed"
+    },
+    {
+      "source": "eighteen-condensed-warm/direction-00.json.gz",
+      "bytes": 4659068,
+      "sha256": "99158fef52486624394cac9470b0a50ffed6483e683bd487fd81a615bd1921f4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/direction-00.json.gz",
+      "published_bytes": 4659068,
+      "published_sha256": "99158fef52486624394cac9470b0a50ffed6483e683bd487fd81a615bd1921f4"
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/base-and-local-layout.npz",
+      "bytes": 3792699,
+      "sha256": "e63b74d46fffa7445d48f5c325c990d0a845afa83adc756dba8f8845f82037e9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00467-variant-00.npz",
+      "bytes": 885829,
+      "sha256": "519ae576be6c297631efd187e891eb2c1d2f5882a1fc4e36605f88d0db535257",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00468-variant-01.npz",
+      "bytes": 885889,
+      "sha256": "cc653565176e29914c52ca682b404e93f9ab5d82e3fa9d2ac3013cac2ee1538a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00469-variant-02.npz",
+      "bytes": 886016,
+      "sha256": "e5e716b570611dbff692b4e43e523a899bf36d775af364e42e8962f16063c66f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00470-variant-03.npz",
+      "bytes": 886144,
+      "sha256": "8a92fcc3eab8a218a58c9a2401875175fc15289fc97860c117afeccb6cc7096d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00471-variant-04.npz",
+      "bytes": 886306,
+      "sha256": "5b24c186221fd063f276c057f2c4061711642e04ca2e22c03762e784800c6e45",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00472-variant-05.npz",
+      "bytes": 886401,
+      "sha256": "a637ee2a67881ef0e1ea63c432b2f5316907e487beaa57021f80f36c8a133ccc",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00473-variant-06.npz",
+      "bytes": 886838,
+      "sha256": "67a075e50734c4398369af043f37c45a3580758eaa800c53852f831f049cc932",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00474-variant-07.npz",
+      "bytes": 886866,
+      "sha256": "12585499003a6383f268c3b3da25e16e8527b13b27d226aa16187eff0e95e78e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00475-variant-08.npz",
+      "bytes": 886793,
+      "sha256": "eb49e15a7bede53b890be42906b20932baf235e6b0124f6ec2f53b35e49206f6",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00476-variant-09.npz",
+      "bytes": 886807,
+      "sha256": "3a3025fd37eb296140ad70cdeb25d46a8afb15110c88143a316be5e6b9b437db",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00477-variant-10.npz",
+      "bytes": 886724,
+      "sha256": "91d415c1fa5fca12e08ec77f3c0d631bfdf9927c2ba503c19e3664e111ca4db4",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00478-variant-11.npz",
+      "bytes": 886775,
+      "sha256": "55d106602f91bf8561402bf23aab18fccf155d28b5948b742017525c00733be4",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00479-variant-12.npz",
+      "bytes": 886759,
+      "sha256": "f7544b9b73df5236a30f90b37c19f48ec152bbe1007f640b9ee5835cd3b4ece9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00480-variant-13.npz",
+      "bytes": 886820,
+      "sha256": "233a071fa5e45d8db7e5e1945dcd8b4dfcd5f5406b62ee9d47e3f6149e41b456",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00481-variant-14.npz",
+      "bytes": 886615,
+      "sha256": "83a9be4a5ba3934a78484ef16469e7b1e73a4f2020a0b31df9770692cbc73529",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00482-variant-15.npz",
+      "bytes": 886658,
+      "sha256": "8261f1ae7ae0db538fee3d6b243813ccf9dc94e0b8f9c756ac04b1ffc3ba3912",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/endpoint-00483-variant-16.npz",
+      "bytes": 886655,
+      "sha256": "689afd6e42d2ee4477622d605eff1a07c68d5f7f4c20bb232e494880cebc7c7b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/manifest.json",
+      "bytes": 493850,
+      "sha256": "ff034c85815a98bba2cc1745e3e7a1416c309e656c69b572e15f5f0bb3fcb23f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/domain-operator/manifest.json",
+      "published_bytes": 493850,
+      "published_sha256": "ff034c85815a98bba2cc1745e3e7a1416c309e656c69b572e15f5f0bb3fcb23f"
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/original-collocation-midpoint-inputs.npz",
+      "bytes": 14732,
+      "sha256": "53831827c2fd9cbe6223e69800e9a9e9d38170dad0e32be5b903f1b42ceaf9c9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-00000-00256.npz",
+      "bytes": 2010597,
+      "sha256": "eef675a630931070a597f9e0a493d986f96aced535015a36fd80cd4c30df896a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-00256-00512.npz",
+      "bytes": 2006675,
+      "sha256": "e51e327450a8c08c644282c696b3c82c7b360b9d9e6e83937fd3320a47ae09f9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-00512-00768.npz",
+      "bytes": 2006426,
+      "sha256": "761141cd49164d773e9c96f887629131aa330e5ff16dea6648aa00df6e00efa9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-00768-01024.npz",
+      "bytes": 2010750,
+      "sha256": "15e431e3f99d2bc55c9f43a37acac576f8e2177ebdf7ef36999cf298217db04a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-01024-01280.npz",
+      "bytes": 2010598,
+      "sha256": "5d3c186d6fc78c55dfb930e51b9697a8dc497e572949e73781f395a4ec9b10ac",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-01280-01536.npz",
+      "bytes": 2006675,
+      "sha256": "805c6b44d23c71e58bd7626f9da6014ca0fda106c64f1ed4b403b5e3058dd040",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-01536-01792.npz",
+      "bytes": 2006426,
+      "sha256": "7b13848436fc950b10007b4de1ba51de595c084e2ef7fd434741bec313cf120d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00467-rows-01792-02048.npz",
+      "bytes": 2010751,
+      "sha256": "0c3baa2da779a858ebed535c4f994b63c01f9fc3859a57c4915706176a4ca210",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-00000-00256.npz",
+      "bytes": 2011299,
+      "sha256": "d88f52e719ae6fba2abd2cc3e1983e1c086062cf78e5a7a19ff6c31834720dc2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-00256-00512.npz",
+      "bytes": 2006071,
+      "sha256": "991ef73c0c6a3751c106e5e7b17e7b0be2dcb1ff4259ca7c4ea07b7d9eb9bdbd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-00512-00768.npz",
+      "bytes": 2006036,
+      "sha256": "21da54ce355b0fe904f07fe2eb30e20221ff8496ba40bcd063cc43278e4b3766",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-00768-01024.npz",
+      "bytes": 2011543,
+      "sha256": "72407627bed467609443032d8479b167c5910589299c708badbb723c75a572dd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-01024-01280.npz",
+      "bytes": 2011300,
+      "sha256": "be26a877bba5582ec53b3a751ae23cfcf7760477bea480f394aa4c07852cc7fd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-01280-01536.npz",
+      "bytes": 2006071,
+      "sha256": "150ab72aa2d8523d7f1fdf2d74d5def4c4311c163a5e5ee4d3581cc13d23fb35",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-01536-01792.npz",
+      "bytes": 2006036,
+      "sha256": "a66182a36c8efd563f75b875c5ac7ea824b774f8e379af856a7f6a173cd037e1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00468-rows-01792-02048.npz",
+      "bytes": 2011544,
+      "sha256": "16ab75923304f187609d2a4de5761d2daf7881cff0cd45507226cbe6441ed0b2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-00000-00256.npz",
+      "bytes": 2012117,
+      "sha256": "bacb60ade3878ee6caf03dc35f218c77bac9d502ffb2863f320f4655e338efd6",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-00256-00512.npz",
+      "bytes": 2005946,
+      "sha256": "68c7f8ce6c58f89ae119095dc37126b51060ed8a93af038d88d2b257f86e8846",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-00512-00768.npz",
+      "bytes": 2005829,
+      "sha256": "3e2bff8c93c7f28cff933533f58756915d3e1f9e55e6334ba20e63f5fac49f8b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-00768-01024.npz",
+      "bytes": 2012339,
+      "sha256": "4553e6c2ba8337003c1c5ffcce01e15a8f8d925b5470307dcf64aa0ae1e965e1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-01024-01280.npz",
+      "bytes": 2012118,
+      "sha256": "242d682d5b463f1cc32f678d01c1749c6c84ccca52f9b9985db05b1372f11bd1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-01280-01536.npz",
+      "bytes": 2005946,
+      "sha256": "3cde181fca729da421df8ee203e11ef979724152f4bfbbe9bdde997daca14a6c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-01536-01792.npz",
+      "bytes": 2005829,
+      "sha256": "737f60ee4313f1eb81e331a11aa1d2fe3ee533745d9f4f3fb1395b7871047645",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00469-rows-01792-02048.npz",
+      "bytes": 2012340,
+      "sha256": "aa82920fa41bcd6698a67cb56c98a1c17e46f8fc6d337b72f568757e8a240923",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-00000-00256.npz",
+      "bytes": 2012631,
+      "sha256": "7b26082c3af9f44c9ad228253ae74f5648b418dbf7a2f0882f5f278504b386fb",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-00256-00512.npz",
+      "bytes": 2005727,
+      "sha256": "2a1ffb8245709943075bbbd9067a9a187cc61305c4e0592d144fed07bb9b59d3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-00512-00768.npz",
+      "bytes": 2005527,
+      "sha256": "82fd12e9551d4f0845fb6896da22b8699dc04c5cb3ef05a314968a0de6409c64",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-00768-01024.npz",
+      "bytes": 2012806,
+      "sha256": "3c93b97a862a6784983ae6ea18e499e30938f47bea0a3ba7652af64d97df44fe",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-01024-01280.npz",
+      "bytes": 2012632,
+      "sha256": "bbe87357d60a59a1574ff484550ccb3726e52fde26510c21450b239851244bfd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-01280-01536.npz",
+      "bytes": 2005727,
+      "sha256": "189486f33359342a1ecc64f9c5a054e33e26baa5d7abb95ba9f51964fe99e410",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-01536-01792.npz",
+      "bytes": 2005527,
+      "sha256": "2102c47ca41133b2c089a8cf5bb3e84cc43dc4527d278605056c1719325b98d5",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00470-rows-01792-02048.npz",
+      "bytes": 2012806,
+      "sha256": "0f0c50b217ecb7d2c065c74f337466aaef2b7bd07bfc7f5cfee6a198fb5515fe",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-00000-00256.npz",
+      "bytes": 2013179,
+      "sha256": "18716ee1d559f35d46d8c49403258a162ee13c5646c3713c2a38cb5d0021931e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-00256-00512.npz",
+      "bytes": 2005436,
+      "sha256": "8b79afe9b39aa6f44fe29b337be52de593a3c33d37ca5ff85592bc9eb5f87448",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-00512-00768.npz",
+      "bytes": 2005288,
+      "sha256": "e0e26f010cd79ce521fa477934dbefc8578fb6035285ce01d80fdc5c93f89c4d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-00768-01024.npz",
+      "bytes": 2013393,
+      "sha256": "62c5305b582558131186432ab0e76d53c7186986e7901b0763c0ad9646a168b8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-01024-01280.npz",
+      "bytes": 2013180,
+      "sha256": "5ffeeb13e238bacbcd40c688ee286e301f97fbbf0cc7c81714f1605506e3fadb",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-01280-01536.npz",
+      "bytes": 2005436,
+      "sha256": "165489aed6dc8dfc659861b2192e03636dbb70e4c5a20e98f4571a49fefd90db",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-01536-01792.npz",
+      "bytes": 2005288,
+      "sha256": "683ce01b598f0c70d8dfc76091a0d50a7cc0fa058d7f8d3eae46c3e8771ba388",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00471-rows-01792-02048.npz",
+      "bytes": 2013391,
+      "sha256": "b63f0ab159ec4713a26a558d3ff8de280e849d4c884be7fc78dfe78c162894e9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-00000-00256.npz",
+      "bytes": 2013666,
+      "sha256": "2f906f0156d1801c745c3646618acf837213fb777eadd0267c878475faba9b1a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-00256-00512.npz",
+      "bytes": 2005382,
+      "sha256": "0757a3e82770acf4dc1dd02afaba5c96f21b651396e4b135829e54def8826b5f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-00512-00768.npz",
+      "bytes": 2005150,
+      "sha256": "10f768ee93d48ec3480475ede1defffd1b271cc5698bc381368867f262ef60af",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-00768-01024.npz",
+      "bytes": 2013927,
+      "sha256": "368ca5a243d57896e06a3a89ed7f51bcf544abf03111e4b4bb694a94bdab39e3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-01024-01280.npz",
+      "bytes": 2013667,
+      "sha256": "beaf7170503d7e79d4547b3148b4e05f4b515466860062b962bc94f344a2c96f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-01280-01536.npz",
+      "bytes": 2005382,
+      "sha256": "042fadf6c66ad53579ade3ea98503c0616bb69fd7b949a36a5cfab4af20203a5",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-01536-01792.npz",
+      "bytes": 2005150,
+      "sha256": "9461cebfdaa4e2a55f6062201c87a3d11ee44e60031e57e39450ad5550dedbf6",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00472-rows-01792-02048.npz",
+      "bytes": 2013928,
+      "sha256": "cbd49747516ad99e666fb6b3a8ede72f390acdcbcc0fa530b4bc13e0cea155cd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-00000-00256.npz",
+      "bytes": 2014533,
+      "sha256": "cf45e91dc41c8ea12f13434fca8ca91b4a0f4e1fc91041d5e9d53f4e10f86dc1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-00256-00512.npz",
+      "bytes": 2005425,
+      "sha256": "2f32a595478617e2de6409277548142f0a24591f1d6ea2212a5c8bbf017095db",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-00512-00768.npz",
+      "bytes": 2005318,
+      "sha256": "66202a9d80134c1a3c3e8ce3f4ec8119707111be6475de6e437eb2307b6bdd10",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014536,
+      "sha256": "4c719b7e7dcfd99cf82e7c936d9314814da3a315bf2d2771eab05ecf55ec4217",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-01024-01280.npz",
+      "bytes": 2014534,
+      "sha256": "c3e4d4c00e85f0b08169531501cc300cca9108adeadf95cb10a48f27a0f9e7ee",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-01280-01536.npz",
+      "bytes": 2005425,
+      "sha256": "6167d0976a70bff54e19544aaab5db25d5fcb15bcddcce36e0eaa553b253368d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-01536-01792.npz",
+      "bytes": 2005318,
+      "sha256": "5e2b8216f40713be6889bb56f7d410e1398165e455bb58bd28d9f81c7e50260c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014535,
+      "sha256": "54e4c0863ec56f349209bd6f13cd26fa2e0b195f217afcd15c497daee6c4b759",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-00000-00256.npz",
+      "bytes": 2014318,
+      "sha256": "fa6e732cf76ccb6f15d768bf5423d2ef4ed851a5902225f6c99633f78f968871",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-00256-00512.npz",
+      "bytes": 2005218,
+      "sha256": "28bab6f1405f945c99acc2ffeabae587818229353e41e9ce3c04637285eac78c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-00512-00768.npz",
+      "bytes": 2005065,
+      "sha256": "66d1bb8359118bda4b8d5783e88ed6dc8a4ac7939a5d393884c0036a387234af",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-00768-01024.npz",
+      "bytes": 2014557,
+      "sha256": "352116f7e1e9f8bee88a6ca96526b3ed047c27f73860a208a21d3309647673f4",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-01024-01280.npz",
+      "bytes": 2014319,
+      "sha256": "3d2c661a36a77791bd2102ed08a4e67cef9b9968bd106a582f9d381124ca6e6f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-01280-01536.npz",
+      "bytes": 2005218,
+      "sha256": "295707cef6cbe635ef0df0f34ded75800f4708e153c2580ccc2a27badacb0a75",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-01536-01792.npz",
+      "bytes": 2005065,
+      "sha256": "e3eb092630f3e786625adfdffcd511542b0aa694986bba4cf3d5eb173027ccd1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00475-rows-01792-02048.npz",
+      "bytes": 2014557,
+      "sha256": "c581679b796e1010d1a95d7a07425d35851ee202467f1226366320c08fc50cbf",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-00000-00256.npz",
+      "bytes": 2014540,
+      "sha256": "b67fc28fa0d7ca3ef6fbb4174a6734c3c083c4e70ed3b66d4ef8827ce6b41c2c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-00256-00512.npz",
+      "bytes": 2005461,
+      "sha256": "93fcbd3e6593ee213c9c9c35c235b33b812aeb7556b29f1e3b631c2fde6ee426",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-00512-00768.npz",
+      "bytes": 2005144,
+      "sha256": "bc52aeaa60f4f9665cd2c182f0a48307e9175bcb0aa6a2a2c94ef084e8297cd0",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-00768-01024.npz",
+      "bytes": 2014624,
+      "sha256": "a1bd7db7e929773e5251ef3349b69a4306671abebba20f9156f2616027611784",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-01024-01280.npz",
+      "bytes": 2014541,
+      "sha256": "9b1736b6b729a3d33155b6b93d48151b727e6ed28b9fdcae18848fbfc78753d5",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-01280-01536.npz",
+      "bytes": 2005461,
+      "sha256": "8629519c7b06be8c05ef6815e587f5ccc324835a0871110d167b632d5c60638f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-01536-01792.npz",
+      "bytes": 2005144,
+      "sha256": "de99dc4f0f9146c95b1468c77724cb161ad083ca0581837cead86d93394bd948",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00477-rows-01792-02048.npz",
+      "bytes": 2014625,
+      "sha256": "2d5e344b8f280ca1d924617185755f87937ec02f53dcb3ec8d8dd71b6e8473d7",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-00000-00256.npz",
+      "bytes": 2014156,
+      "sha256": "3876d9b1d61e0424687d6f8b72d7b0b0e0a1a739cf22cacd0a933688df9e821e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-00256-00512.npz",
+      "bytes": 2005755,
+      "sha256": "f85d52d9195158b42a57aa176b23ce1c3329ad07e4b7412a574cc2b6eac12bc8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-00512-00768.npz",
+      "bytes": 2005372,
+      "sha256": "3fa9fd2000c132eb0aaa60ecd74c22cfcfb7ee68f5f60231b4fd01c1f75be131",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-00768-01024.npz",
+      "bytes": 2014488,
+      "sha256": "f38ee31d87d0a7395267aaa9714bd27176d2a6319456d91d4c436002abc5b61a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-01024-01280.npz",
+      "bytes": 2014157,
+      "sha256": "cac4fbb42a819de11bb8670b0ddaf8c6913c20cdd2f0fd4bcaa54d97dadfd49d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-01280-01536.npz",
+      "bytes": 2005755,
+      "sha256": "973bc455815d9b965ffdde9d4c08cd9fda38ff0b61e26c3d67752c3f4ca42bf6",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-01536-01792.npz",
+      "bytes": 2005372,
+      "sha256": "44dcdcffb0aee1bd7c9d991df3be99b028735dc1ba2421b4b7769b2694dd4901",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00479-rows-01792-02048.npz",
+      "bytes": 2014488,
+      "sha256": "86c7c40b07f1cc00e6867fdcefac3f5deb02dd02b5b17e2b0fd437d4726b1868",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-00000-00256.npz",
+      "bytes": 2013724,
+      "sha256": "291dcf0064712b797049b277dfa7d222032f27178f1df94d6a29ddd0857bb25d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-00256-00512.npz",
+      "bytes": 2006368,
+      "sha256": "c3fd6f9fe4830fc58d47e93443db6f8ea6dda1c7f8eec1b48055ef0bae175939",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-00512-00768.npz",
+      "bytes": 2006067,
+      "sha256": "a7e52f8d98075907a48f72efebc455adf690ea1567daa7a5911c7603149f9867",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-00768-01024.npz",
+      "bytes": 2014103,
+      "sha256": "d1000dd25c5b2404c8e70ab20ec7766c61453c4841e533623b414fe4dba63ee2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-01024-01280.npz",
+      "bytes": 2013725,
+      "sha256": "211a3547c0e897988809e64111101f1d1f51dfc237f219f68dea27e5ccd90f1b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-01280-01536.npz",
+      "bytes": 2006368,
+      "sha256": "d8f66ed4af1bef60bfa8ca3cd26928ab795a3a1c56842966de7e3bfa7ce33d7f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-01536-01792.npz",
+      "bytes": 2006067,
+      "sha256": "cc458e50c2b74c07704c980974003813c9bd1592ee8386ebf96e3e8be1b2796a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-10-left-RMS-interval-00480-rows-01792-02048.npz",
+      "bytes": 2014102,
+      "sha256": "20f207692ef3d07676de9439ba57bb19d56248d3a473d259882cf8c9c2961dc6",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-00000-00256.npz",
+      "bytes": 2012662,
+      "sha256": "3fce80e8d20ffdbc95b2c8a9f6a36d3befd56b96695105d17037d88bdf2bbdbf",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-00256-00512.npz",
+      "bytes": 2006478,
+      "sha256": "b8e309cd208cf58f6a78e7cf137c931635831a9d9de0c29956f2fb4acc9d9f80",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-00512-00768.npz",
+      "bytes": 2006122,
+      "sha256": "4d96a80e62c2739b28cd21a869e3bfa72e03c0057f976dd20bf8b59bd88387c9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-00768-01024.npz",
+      "bytes": 2013059,
+      "sha256": "ae41354ad6573f2c958abc33b3e222ac2f8c163d0b1e27154a7c6775a6e35ec2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-01024-01280.npz",
+      "bytes": 2012663,
+      "sha256": "5b524cb8df9e89355b19962b0cd9c151ac7c30a13b83701a42c96e8a705b4f0f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-01280-01536.npz",
+      "bytes": 2006478,
+      "sha256": "99cc456afc5998b3fb0fef5afa692badd5b42692a503de455cfafe860726ade9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-01536-01792.npz",
+      "bytes": 2006122,
+      "sha256": "cc0f71773a3a264fd9244fa074c54efa90b722dca315f9f875d67f735a2e984b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-11-left-RMS-interval-00481-rows-01792-02048.npz",
+      "bytes": 2013062,
+      "sha256": "9d77f1b7bbe5cc53936e6331caaeff6a4c07b6a326b9fe2e60c297c1043bcdea",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-00000-00256.npz",
+      "bytes": 2011955,
+      "sha256": "d9f31d554945df65509f9e53e69c1d324420469756e0f359a6192f902b874fc8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-00256-00512.npz",
+      "bytes": 2006596,
+      "sha256": "8b2d4319fbf8f68b316d62a07f9957905214891170ac5ea0b05b63835ecb3d54",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-00512-00768.npz",
+      "bytes": 2006284,
+      "sha256": "d88f9d0f9932cbba83015bcfcd46b34d6871337f7df835622c23662a21748d3d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-00768-01024.npz",
+      "bytes": 2012230,
+      "sha256": "98873bc48d687b59e889f338494aaeb41803a203f9d93184a6758504d815abab",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-01024-01280.npz",
+      "bytes": 2011956,
+      "sha256": "1b3c3084f14677ab3f73465bfff6fc59ff9631763a7c8507727e0301a4934b08",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-01280-01536.npz",
+      "bytes": 2006596,
+      "sha256": "35ae988cbe2f3c32b9f2c5bcf0e4a21e38dc4b9e54b10174192ae11e0d39269f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-01536-01792.npz",
+      "bytes": 2006284,
+      "sha256": "a1bed4b776c032d88c105e752300cc6dbbdc53bb456e31186c1cd35c89e11b0f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-12-left-RMS-interval-00482-rows-01792-02048.npz",
+      "bytes": 2012231,
+      "sha256": "7249a70b2a0d5d55fde6bc6cdf9ad706ce2df855fb42be1b73f1d7cceacff385",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-00000-00256.npz",
+      "bytes": 2014406,
+      "sha256": "5cbd7d8e8cd69317a6cbfa3c66dbeaf0328b8c86af38496c7b08c75a7d0c5cfd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-00256-00512.npz",
+      "bytes": 2004405,
+      "sha256": "1c140dd1df0a955d0b53c1796a9bdd23941d427cbaa5862d6a4e83efe9184aca",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-00512-00768.npz",
+      "bytes": 2004092,
+      "sha256": "6b043c781c346fe23db372b46c373bb92d23e9a97a085588f73c86792d74ed2d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014797,
+      "sha256": "8a2199d6e08859247fd9d84e407bd4a96851322ec0a7eec0c9f084f2657ad617",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-01024-01280.npz",
+      "bytes": 2014407,
+      "sha256": "d5bbf37c91f131ff27cdd08899c40ffa3d12feb271d49d62abf31c270385c644",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-01280-01536.npz",
+      "bytes": 2004405,
+      "sha256": "04cc0f8580fa8d79a98a45b7932e623eb802385ac5b06ca9ac5f44ae5f038a17",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-01536-01792.npz",
+      "bytes": 2004092,
+      "sha256": "5d1ce41845d067938a1d19e1f1792e30ac41e52d5b7b43e15bdd84a1ab619ed6",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014798,
+      "sha256": "e2f2bc6116e8dfb3253c697e0f4e2b4a86cb3da1f95118235f4db5e99a0b0eb8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-00000-00256.npz",
+      "bytes": 2013951,
+      "sha256": "164ded0e27775d577fce879ee217a51654f26e73ab8b8869b2d48d69fa706001",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-00256-00512.npz",
+      "bytes": 2004149,
+      "sha256": "d3d29888b094881f351868c74ece9a510f4a2d0fb5851eabeadef32c8815547f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-00512-00768.npz",
+      "bytes": 2003925,
+      "sha256": "d2884a3b11e909a243a628374fdc9b27d66e7a267863bd33de97ab374fddedae",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-00768-01024.npz",
+      "bytes": 2014234,
+      "sha256": "57536b75eeb836323aa50a809bdfb2ccff3e89b7e54ee6aa0d985b1d05aa3f2f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-01024-01280.npz",
+      "bytes": 2013952,
+      "sha256": "731fdee3c483673d40fe008bc286ea5b94ae11ba3163c0ac5447f2e15b27c3e8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-01280-01536.npz",
+      "bytes": 2004149,
+      "sha256": "1ea7c8123f3441886e286e5ad515ca899c44eb56ac8790c9f7dbdbb1c38fe10d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-01536-01792.npz",
+      "bytes": 2003925,
+      "sha256": "79521a3088882681e4b3b835691f6dd90429021d5e2d7c005942452d519a6e14",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00475-rows-01792-02048.npz",
+      "bytes": 2014235,
+      "sha256": "74bd531e35e704d84aca0d9cd8b8c64f1b947f10af106c196b655d4cd387480e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-00000-00256.npz",
+      "bytes": 2013385,
+      "sha256": "fe47b257e8425599d47013a4c895aaa12f7043c8e69f0b49e842c5f34e3cf9a2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-00256-00512.npz",
+      "bytes": 2004337,
+      "sha256": "92007a79fdc3437d461d9ed7f4f57ffda39b74e25c11778f26ab491572bb4cea",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-00512-00768.npz",
+      "bytes": 2004134,
+      "sha256": "9f611126e51fded3f235c9ec36e7055b624318213575a2cdcae5a50f042090d2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-00768-01024.npz",
+      "bytes": 2013623,
+      "sha256": "3cfa459bda2b4c835bbe001c45f74999626fb3700326d3fcab413c279c996b91",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-01024-01280.npz",
+      "bytes": 2013386,
+      "sha256": "2bc62eb72ba8904ab45036f2b5d15b84779cab87502c2d5d78c2aacea1e879ec",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-01280-01536.npz",
+      "bytes": 2004337,
+      "sha256": "ede2344de7c1e28497a9ecf0e3f18c399f3e3474e2f444fd48eb753ca8ba9f2d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-01536-01792.npz",
+      "bytes": 2004134,
+      "sha256": "c260c8b94659ce99539d9c87964d5ff06c192a44ba44d72d4baabc5af67aef2c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00477-rows-01792-02048.npz",
+      "bytes": 2013626,
+      "sha256": "e02a7c88fba45b619e89d4f4f4de13ea9611a451133508f3572823acda698984",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-00000-00256.npz",
+      "bytes": 2011066,
+      "sha256": "5acb5645f93dd6dc54087a25ab6c89fa57e790cc8c44f91355dded74b91dd9e3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-00256-00512.npz",
+      "bytes": 2005604,
+      "sha256": "acbe57c779d415b698e8ff0d54cf98f18fd566043d8628e5da33b4101492fe0c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-00512-00768.npz",
+      "bytes": 2005393,
+      "sha256": "ed5343fe84be524410d61f800ce87f079ae5560a0e1da5be0b44ca7be211bc36",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-00768-01024.npz",
+      "bytes": 2011403,
+      "sha256": "42c2a54a094326428befb22c1a94abd3c15960d5ad9596cfbdbdace092bc0994",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-01024-01280.npz",
+      "bytes": 2011067,
+      "sha256": "00459d90c72d5ae61312f08980d56a5a375d0e6c468ebfab5efc77331957af02",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-01280-01536.npz",
+      "bytes": 2005604,
+      "sha256": "0fcce86afd8e26521d4b6ffd1ea4c68601356a7515a12675520426dd0ded3217",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-01536-01792.npz",
+      "bytes": 2005393,
+      "sha256": "fe603331f6f6a2657103a86a2683d959b8cf1ef277b27125b315660cd8d52e8e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00481-rows-01792-02048.npz",
+      "bytes": 2011405,
+      "sha256": "bf5441a7c4fa3178a10d0b52e06fceb0e9c18eef267bb6fc4f22b4846b21d848",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-00000-00256.npz",
+      "bytes": 2009020,
+      "sha256": "47a70e85e886ba4578c201fd07baca4b04117a9a5bdab251125775a7701ed99b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-00256-00512.npz",
+      "bytes": 2005865,
+      "sha256": "b515e01f81157cf1372cf4c6733e11a57e89dbfc657fd519bef64795f8487b6f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-00512-00768.npz",
+      "bytes": 2005528,
+      "sha256": "3f0fc9ee38a6eed3b955e13bbd424a23c274819ad91dac739511393052f24fc0",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-00768-01024.npz",
+      "bytes": 2009292,
+      "sha256": "3b9f5527215236ab18e28148d9d781c7405cf763c05cb78bdb64d9c8219b3bb7",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-01024-01280.npz",
+      "bytes": 2009021,
+      "sha256": "d66e60b6f0d10e63f57709d7bb1d9780daf37d1b12746eb77c92e7b02b629f09",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-01280-01536.npz",
+      "bytes": 2005865,
+      "sha256": "242922323c1703ce80e327fe760f41ff8e1b33dd5c16ee758438962fcdbf5c01",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-01536-01792.npz",
+      "bytes": 2005528,
+      "sha256": "64e2e3dea7d18d82e9d7351d231ba05b8f5e068d721602a6d188e7c90a0775c8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/domain-operator/query-17-collocation-midpoint-interval-00482-rows-01792-02048.npz",
+      "bytes": 2009293,
+      "sha256": "930f42e94568d1bca3ff6956462a478fad7dafe600c8516028434f5a90ef91f3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "eighteen-condensed-warm/driver-status.json",
+      "bytes": 1810333,
+      "sha256": "8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/driver-status.json.gz",
+      "published_bytes": 231286,
+      "published_sha256": "6443fce5e818ff20fd36075f6038ee60630d0b77e8ed2304d41e4d072ea6a005"
+    },
+    {
+      "source": "eighteen-condensed-warm/full-angle-operator-check.json",
+      "bytes": 41072,
+      "sha256": "aa4bd52c3b4a939ff769d99d9243eb55182224ae839d3998f2248dcb5d8fb315",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/full-angle-operator-check.json",
+      "published_bytes": 41072,
+      "published_sha256": "aa4bd52c3b4a939ff769d99d9243eb55182224ae839d3998f2248dcb5d8fb315"
+    },
+    {
+      "source": "eighteen-condensed-warm/local-projection-arrays.json.gz",
+      "bytes": 1169217,
+      "sha256": "a91359f9fb845767f81b510548b8932da279fe0b3d33e0681986083dd04e502e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/local-projection-arrays.json.gz",
+      "published_bytes": 1169217,
+      "published_sha256": "a91359f9fb845767f81b510548b8932da279fe0b3d33e0681986083dd04e502e"
+    },
+    {
+      "source": "eighteen-condensed-warm/lsmr-direction-00.json.gz",
+      "bytes": 2331860,
+      "sha256": "28b4cdae1548bd0f2456818888bcae8482390c0ca34f5f1b283665a954bc0f12",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/lsmr-direction-00.json.gz",
+      "published_bytes": 2331860,
+      "published_sha256": "28b4cdae1548bd0f2456818888bcae8482390c0ca34f5f1b283665a954bc0f12"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00475.npz",
+      "bytes": 9580,
+      "sha256": "0b2c419610a47ae24bd2447922d14fa7bd4decb11de83603011ae47ebed16499",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00475.npz",
+      "published_bytes": 9580,
+      "published_sha256": "0b2c419610a47ae24bd2447922d14fa7bd4decb11de83603011ae47ebed16499"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00481.npz",
+      "bytes": 9695,
+      "sha256": "026f375af83b7954ecf55521c5e115565254e66bc379894d9de971ddcc6ca0a8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00481.npz",
+      "published_bytes": 9695,
+      "published_sha256": "026f375af83b7954ecf55521c5e115565254e66bc379894d9de971ddcc6ca0a8"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00482.npz",
+      "bytes": 9654,
+      "sha256": "02dbd8d7fb8e5c3ec50c1fa948716f97d4586179eea3a6e956827e3ddf8a14d0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00482.npz",
+      "published_bytes": 9654,
+      "published_sha256": "02dbd8d7fb8e5c3ec50c1fa948716f97d4586179eea3a6e956827e3ddf8a14d0"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00485.npz",
+      "bytes": 9678,
+      "sha256": "ab5702f2a4363bc11b8aa18e60a4090a0d3a64808daf7831223971eccd01818d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00485.npz",
+      "published_bytes": 9678,
+      "published_sha256": "ab5702f2a4363bc11b8aa18e60a4090a0d3a64808daf7831223971eccd01818d"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00486.npz",
+      "bytes": 9614,
+      "sha256": "6143fa160cac88f0e11a60b590af34d6975f0682db089a9bc8a50378749f1296",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00486.npz",
+      "published_bytes": 9614,
+      "published_sha256": "6143fa160cac88f0e11a60b590af34d6975f0682db089a9bc8a50378749f1296"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00480.npz",
+      "bytes": 9644,
+      "sha256": "8920d75e6e208986dd3fe3f3698eb08247770b0deebde0fd4201e4489e7cd79f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00480.npz",
+      "published_bytes": 9644,
+      "published_sha256": "8920d75e6e208986dd3fe3f3698eb08247770b0deebde0fd4201e4489e7cd79f"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00481.npz",
+      "bytes": 9684,
+      "sha256": "712974b420a8bfdd2bddf6ba6defb9f30074a1726e15829696c4923db5f1eb5b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00481.npz",
+      "published_bytes": 9684,
+      "published_sha256": "712974b420a8bfdd2bddf6ba6defb9f30074a1726e15829696c4923db5f1eb5b"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0004-midpoint-00485.npz",
+      "bytes": 9608,
+      "sha256": "9f8ce27c1f0f4d9523c16d4c361c32fc860b6500f62f88d51b6cd3092ae0095c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0004-midpoint-00485.npz",
+      "published_bytes": 9608,
+      "published_sha256": "9f8ce27c1f0f4d9523c16d4c361c32fc860b6500f62f88d51b6cd3092ae0095c"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0005-midpoint-00480.npz",
+      "bytes": 9590,
+      "sha256": "51625d02ca5760dcd53576f06e268153d1c2fed17bed8839951ffcb5af1e33e3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0005-midpoint-00480.npz",
+      "published_bytes": 9590,
+      "published_sha256": "51625d02ca5760dcd53576f06e268153d1c2fed17bed8839951ffcb5af1e33e3"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0006-midpoint-00480.npz",
+      "bytes": 9588,
+      "sha256": "65605403eb3ca6500784c8eda9d75a0d5a78b6526be8c4af2990906015dcf802",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0006-midpoint-00480.npz",
+      "published_bytes": 9588,
+      "published_sha256": "65605403eb3ca6500784c8eda9d75a0d5a78b6526be8c4af2990906015dcf802"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0007-midpoint-00480.npz",
+      "bytes": 9593,
+      "sha256": "0f89579d1e1e2bcc19b9c62138412de707d4834a353e92b98fd500a9ead9d884",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0007-midpoint-00480.npz",
+      "published_bytes": 9593,
+      "published_sha256": "0f89579d1e1e2bcc19b9c62138412de707d4834a353e92b98fd500a9ead9d884"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0007-midpoint-00484.npz",
+      "bytes": 9598,
+      "sha256": "9b595ca9b5d049a9476193a6c78712d053622bf1d35b5192904480766a079d57",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0007-midpoint-00484.npz",
+      "published_bytes": 9598,
+      "published_sha256": "9b595ca9b5d049a9476193a6c78712d053622bf1d35b5192904480766a079d57"
+    },
+    {
+      "source": "eighteen-condensed-warm/midpoint-observer/evaluate-0008-midpoint-00480.npz",
+      "bytes": 9566,
+      "sha256": "37d3833460bbb320522b8c15555f2094d683adae6f976ad5bb916660b7c2595b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/midpoint-observer/evaluate-0008-midpoint-00480.npz",
+      "published_bytes": 9566,
+      "published_sha256": "37d3833460bbb320522b8c15555f2094d683adae6f976ad5bb916660b7c2595b"
+    },
+    {
+      "source": "eighteen-condensed-warm/model-000-operator-check.json",
+      "bytes": 21000,
+      "sha256": "9a2daba2fcd61fa159e40c69d43333cd7c2bac37a1a750a8c8624c9664b03af1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/model-000-operator-check.json",
+      "published_bytes": 21000,
+      "published_sha256": "9a2daba2fcd61fa159e40c69d43333cd7c2bac37a1a750a8c8624c9664b03af1"
+    },
+    {
+      "source": "eighteen-condensed-warm/model-000.json",
+      "bytes": 739340,
+      "sha256": "68549fb677c2a255895a3dcef701c4f2e6b25586874e697f63527bb3c65646e0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/model-000.json",
+      "published_bytes": 739340,
+      "published_sha256": "68549fb677c2a255895a3dcef701c4f2e6b25586874e697f63527bb3c65646e0"
+    },
+    {
+      "source": "eighteen-condensed-warm/optimization-intent.json",
+      "bytes": 948087,
+      "sha256": "688c586b83ad9d1c1cc16526b885c594e471ec3d6e2afeb29ea27f0c1c860f94",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/optimization-intent.json",
+      "published_bytes": 948087,
+      "published_sha256": "688c586b83ad9d1c1cc16526b885c594e471ec3d6e2afeb29ea27f0c1c860f94"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-00-all-selected-angles.json.gz",
+      "bytes": 118893,
+      "sha256": "2cc831d9634f93e34983a474c5de499f636ab80c92dc98236c3c88e554dd2b2c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-00-all-selected-angles.json.gz",
+      "published_bytes": 118893,
+      "published_sha256": "2cc831d9634f93e34983a474c5de499f636ab80c92dc98236c3c88e554dd2b2c"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-01-all-selected-angles.json.gz",
+      "bytes": 118715,
+      "sha256": "463d855ca1789b52e9f2daeef597d256009349f69dbc77b9cb0d275755ec3e81",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-01-all-selected-angles.json.gz",
+      "published_bytes": 118715,
+      "published_sha256": "463d855ca1789b52e9f2daeef597d256009349f69dbc77b9cb0d275755ec3e81"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-02-all-selected-angles.json.gz",
+      "bytes": 118539,
+      "sha256": "1f12d7411e8e34098d60833d196e6600f4f89c16db69c27ba508e7c3cc50a7b8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-02-all-selected-angles.json.gz",
+      "published_bytes": 118539,
+      "published_sha256": "1f12d7411e8e34098d60833d196e6600f4f89c16db69c27ba508e7c3cc50a7b8"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-03-all-selected-angles.json.gz",
+      "bytes": 118442,
+      "sha256": "3dd6ba1066d47f8865e081f70fb46076f73f5877900cf2f9f470a702fd75edc5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-03-all-selected-angles.json.gz",
+      "published_bytes": 118442,
+      "published_sha256": "3dd6ba1066d47f8865e081f70fb46076f73f5877900cf2f9f470a702fd75edc5"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-04-all-selected-angles.json.gz",
+      "bytes": 118371,
+      "sha256": "84dbe7854b10adfc79c7504b4e6dbb1585e30cf7abb680cae98d245a01c63ad1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-04-all-selected-angles.json.gz",
+      "published_bytes": 118371,
+      "published_sha256": "84dbe7854b10adfc79c7504b4e6dbb1585e30cf7abb680cae98d245a01c63ad1"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-05-all-selected-angles.json.gz",
+      "bytes": 118481,
+      "sha256": "b81563b02807ff30ae828737caf5cb3e581d3b689b1f7e11035c888fc2dab3bd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-05-all-selected-angles.json.gz",
+      "published_bytes": 118481,
+      "published_sha256": "b81563b02807ff30ae828737caf5cb3e581d3b689b1f7e11035c888fc2dab3bd"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-06-all-selected-angles.json.gz",
+      "bytes": 118498,
+      "sha256": "f8ae10c637640a7568c2600745bce3df429cec6fd13c88d7e6eb9bd63e0f73bf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-06-all-selected-angles.json.gz",
+      "published_bytes": 118498,
+      "published_sha256": "f8ae10c637640a7568c2600745bce3df429cec6fd13c88d7e6eb9bd63e0f73bf"
+    },
+    {
+      "source": "eighteen-condensed-warm/trial-07-all-selected-angles.json.gz",
+      "bytes": 118276,
+      "sha256": "b910b1325c7a9e098e1456c6b8a2b4ff9e71754be3d1cd81b64e90d3c805b6fa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/trial-07-all-selected-angles.json.gz",
+      "published_bytes": 118276,
+      "published_sha256": "b910b1325c7a9e098e1456c6b8a2b4ff9e71754be3d1cd81b64e90d3c805b6fa"
+    },
+    {
+      "source": "eighteen-condensed-warm/warm-001.json.gz",
+      "bytes": 4799943,
+      "sha256": "6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/warm-001.json.gz",
+      "published_bytes": 4799943,
+      "published_sha256": "6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a"
+    },
+    {
+      "source": "followup-request-identity.json",
+      "bytes": 13249,
+      "sha256": "10a2c0baf319f52ea59644905bc0491ef3c8b2a3cf29fbee3640c8f78a787fdc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/followup-request-identity.json",
+      "published_bytes": 13249,
+      "published_sha256": "10a2c0baf319f52ea59644905bc0491ef3c8b2a3cf29fbee3640c8f78a787fdc"
+    },
+    {
+      "source": "parent62/driver-status.json",
+      "bytes": 1466059,
+      "sha256": "4f8239522cef511aca6721ddc9c4541cc9d4e65db3e7260d277b090ad226c054",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/parent62/driver-status.json.gz",
+      "published_bytes": 185444,
+      "published_sha256": "77508e4cb02392a701f4cf6bd43ed1d56412d03213201f5c75c3cd1d4e083ee4"
+    },
+    {
+      "source": "parent62/restore-identity.json",
+      "bytes": 685,
+      "sha256": "afe0c2590d95bf56c4562c7d1af8dd5ced13bcc6151893ef7794a70d27988a3c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/parent62/restore-identity.json",
+      "published_bytes": 685,
+      "published_sha256": "afe0c2590d95bf56c4562c7d1af8dd5ced13bcc6151893ef7794a70d27988a3c"
+    },
+    {
+      "source": "parent62/warm-001.json.gz",
+      "bytes": 4792420,
+      "sha256": "dffaa532026e07357d5115089d968c1be4472c44d9a5f5da25ebcb3e2291ac73",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/parent62/warm-001.json.gz",
+      "published_bytes": 4792420,
+      "published_sha256": "dffaa532026e07357d5115089d968c1be4472c44d9a5f5da25ebcb3e2291ac73"
+    },
+    {
+      "source": "physical-response/response-check.json",
+      "bytes": 1060728,
+      "sha256": "db0bceb142cccac9c68d550917eaf26c93d3a5e98ed8bee76372d64715b762cc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/physical-response/response-check.json.gz",
+      "published_bytes": 147058,
+      "published_sha256": "99c06c1d36dc247264ed535dbfca518485b97d39893c21edc3e6364be322daff"
+    },
+    {
+      "source": "preparation112/prepared.json.gz",
+      "bytes": 4220043,
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/preparation112/prepared.json.gz",
+      "published_bytes": 4220043,
+      "published_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "544631fab986705475abee9044a1545e9de94a6c1ea0130672eb02d63e3cbafa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43646179305-1-condensedqp/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "544631fab986705475abee9044a1545e9de94a6c1ea0130672eb02d63e3cbafa"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43646179305"
+}
