@@ -1,0 +1,7 @@
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=119.84
+PASS moving colon rank124 on 817 faithful rows; tests 1
+PASS actual moving C connection all 2859 rows
+PASS actual T2 moving trace 814 rows x3; faithful V4 dimension451
+PASS actual canonical F2 disk polynomial [2255060, 1460901, 1729647, 3529982] SHA 382ad7c7c9bd927e3ce589d687c0849dbc9d3b5ae1ef2d4e5c066cca6951809d
+PASS actual residual QC on SS_j9_21 QC/47 mod47 [0, 17, 30] discriminant 7 roots [0, 1]
