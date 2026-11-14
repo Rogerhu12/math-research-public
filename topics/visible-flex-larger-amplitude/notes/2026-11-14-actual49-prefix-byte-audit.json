@@ -1,0 +1,1551 @@
+{
+  "schema": "actual49-prefix-raw-byte-readback-v1",
+  "scientific_evaluations": 0,
+  "new_matrix_actions_norms_or_extrema": false,
+  "counts": {
+    "domain_files": 128,
+    "domain_arrays": 822,
+    "condensed_files": 58,
+    "condensed_arrays": 58,
+    "complete_array_references": 42,
+    "unique_complete_arrays": 38,
+    "observer_reports": 9,
+    "observer_files": 10,
+    "observer_arrays": 30
+  },
+  "B_model_sha256": "15711b59c57f174c6583bd070c6050719b2269abf0240b8c4cefe4e54dd0c2d4",
+  "capture": {
+    "original_jacobian_calls": 88,
+    "captured_original_calls": [
+      {
+        "call_number": 0,
+        "original_jacobian_call_number": 59,
+        "source_line": 192,
+        "stations": {
+          "shape": [
+            17
+          ],
+          "dtype": "<f8",
+          "sha256": "b703cb57a114dc4795fb14aca4ce96c482f3c6da2557063522556f332ef61747",
+          "bytes": 136,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "station_count": 17,
+        "first_station": 1.1544868994920756,
+        "last_station": 1.2192847689889539,
+        "selected_intervals": [
+          470,
+          471,
+          472,
+          473,
+          475,
+          477,
+          479
+        ],
+        "original_return_value_unchanged": true
+      },
+      {
+        "call_number": 1,
+        "original_jacobian_call_number": 61,
+        "source_line": 192,
+        "stations": {
+          "shape": [
+            17
+          ],
+          "dtype": "<f8",
+          "sha256": "96e1a3e7fb4cbe1a0fca536e5d7d82148d56808de9ece6c1a73a25693d1952fa",
+          "bytes": 136,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "station_count": 17,
+        "first_station": 1.2192847689889539,
+        "last_station": 1.2990359929851116,
+        "selected_intervals": [
+          480,
+          481,
+          482
+        ],
+        "original_return_value_unchanged": true
+      }
+    ],
+    "unique_endpoint_nodes": 14,
+    "stored_endpoint_variants": 14,
+    "variants_per_node": {
+      "470": 1,
+      "471": 1,
+      "472": 1,
+      "473": 1,
+      "474": 1,
+      "475": 1,
+      "476": 1,
+      "477": 1,
+      "478": 1,
+      "479": 1,
+      "480": 1,
+      "481": 1,
+      "482": 1,
+      "483": 1
+    }
+  },
+  "all_B_Gamma_Pi_full_hashes_reassembled": true,
+  "all_beta_chunks_reassembled": true,
+  "all_condensed_complete_array_identities_reassembled": true,
+  "all_observer_original_bytes_and_flags_checked": true,
+  "source_count": 42,
+  "sources": {
+    "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+    "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+    "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+    "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+    "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+    "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+    "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+    "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+    "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+    "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+    "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+    "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+    "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+    "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+    "geometry_20261114_eleven_query_projection_warm.py": "6aed0dda5515945c73413884fb98d1719eb23fc40ff6b7388805f6108816c298",
+    "geometry_20261114_eleven_query_domain_operator.py": "55358acb92bac869ba2ca1daf2da7772d57be31ccd1fcfd9f7324af80f8ea20b",
+    "geometry_20261114_ten_query_projection_warm.py": "90e22ebbd0089970a77986f1be9352a1ec1581346a2fe2ef25478720136f6941",
+    "geometry_20261114_ten_query_domain_operator.py": "5c9b145862a4f12cbbc5334e1b96e540458a58908c4889b966979995700d5dbd",
+    "geometry_20261114_mixed_query_projection_warm.py": "d74d7a1c86cb131d262025cffa079a1a01a1ed7e5128ea339744c61cf4cfeac6",
+    "geometry_20261114_mixed_query_domain_operator.py": "34115f81cf5a09c3d07a6b79f408459fb014ca580ad0a992f8a639ff937ba854",
+    "geometry_20261114_observed_seven_projection_warm.py": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+    "geometry_20261114_seven_query_projection_warm.py": "f6598a5e4738f6c2c310eccc9fd791b68c3731ad3fc3adfd83414450d95c8394",
+    "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "geometry_20261114_full_angle_domain_operator.py": "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7",
+    "geometry_20261114_full_angle_domain_direction_probe.py": "794788a17db22189b80d65b7def84f3515ca587ea59ffce96fe8887a071665e8",
+    "geometry_20261114_multiline_tangent_warm.py": "84318d97b5ce05282890710f71ffe0794896c2e88c498e8618a41625884aa359",
+    "geometry_20261114_protected_tangent_warm.py": "b126ba6a203cbf97c4c9658abe70e9bf38ad259b2eab89bfed4c6e03f4d97fad",
+    "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+    "geometry_20261114_fft_frenet.py": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401",
+    "geometry_20261114_constrained_trust_response.py": "7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78",
+    "geometry_20261114_physical_test_response.py": "83ce387778fb90209e841fc841a81ed3d99e15181d6e86210ec1244fde017e79",
+    "geometry_20261114_full_dn_response.py": "38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74",
+    "geometry_20261114_fourteen_query_condensed_response.py": "a84a693172af678146eb36cd43b965b8206bf3d048dac32047fb7acc4c7e82a1"
+  },
+  "warm_sha256": "c0d9c6d59e16ef1482f8ee60f9681d8db089b21d68e249adf1830df03be6612b",
+  "status_sha256": "e22fd03b8c24adbd0eeeaf0b084d18944d17e4cd1f4115075cb63d9e9a41aad7",
+  "FD_sha256": "43245db767010a7f36ad266cd5993395e781ec22e2343946f9504b63aadc78b3",
+  "current_status_and_FD_producer_equal_warm": true,
+  "parent_reference": {
+    "expected_sha256": "df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe14689",
+    "full_parent_file_independently_loaded": true,
+    "sha256": "df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe14689",
+    "status_sha256": "00c9e73f260d0fa239a17c3973bcbd113d813c079c04451335244e923e85be9e",
+    "entire_parent_producer_equal": true,
+    "parent_status_identity_matches_parent_warm": true,
+    "original_parent_numeric_JSON_bytes_equal_B_base": {
+      "mesh": {
+        "shape": [
+          699
+        ],
+        "sha256": "7cef3604718c2d21dc4f0c866d29a08dc05b1596b49e4ea81a415cf9a9dc68bb",
+        "exact": true
+      },
+      "states": {
+        "shape": [
+          699,
+          453
+        ],
+        "sha256": "ffa7c2cb076eb6df05c53808e7552c06717a0bac077615768b0a1042867fc65e",
+        "exact": true
+      },
+      "rhs": {
+        "shape": [
+          699,
+          453
+        ],
+        "sha256": "d6abaa4d6393c05c1a878250209b9ebead246bd2f68b30fb6fa7cedbb266bb84",
+        "exact": true
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "fourteen-condensed-warm/domain-operator/base-and-local-layout.npz",
+      "bytes": 3767496,
+      "sha256": "c1c04b558adc079c134c0459e762c9abfae441e37cfcf49b65197f87d4d66497",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/original-collocation-midpoint-inputs.npz",
+      "bytes": 12135,
+      "sha256": "b460a5463e9e8eb4416b9688c8824f0910a0c838b1227586de9969e42277a6ff",
+      "arrays": 3,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-00000-00256.npz",
+      "bytes": 2012450,
+      "sha256": "39f5d652462f2a5f00b412d7b6cf3532dd39b759407c7e4b0f9612260b61180b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-00256-00512.npz",
+      "bytes": 2005595,
+      "sha256": "e00d9c79014a53cb8f852f38a02e76f6dbf2b351edea102701f8b62d50ef0f9e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-00512-00768.npz",
+      "bytes": 2005466,
+      "sha256": "c98c7d184a173566893c5205de33dd31d6ae845f9cad8dfe319335916c3d93d2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-00768-01024.npz",
+      "bytes": 2012576,
+      "sha256": "b2eafc7c2fc8832a5cf02760aae46f8fabe1106e6214c2911099957c74b73734",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-01024-01280.npz",
+      "bytes": 2012451,
+      "sha256": "d654620c4a95ce58d6869c03c226c2070e7ecdce3247553152fc88a97dd756c6",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-01280-01536.npz",
+      "bytes": 2005595,
+      "sha256": "476d78cad4fe9ee3507c97b7e04a72414ad267875bb3aae0726ff1456338e874",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-01536-01792.npz",
+      "bytes": 2005466,
+      "sha256": "7166a8dbe99bfc8152e6183d5d03fd46d50598f2ba0a53a414216b49a1278ef1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-00-left-RMS-interval-00470-rows-01792-02048.npz",
+      "bytes": 2012574,
+      "sha256": "b6e9cc28d6ff155a22defc985e5f1822316ca9bee137bf221eeda96d200434a1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-00000-00256.npz",
+      "bytes": 2013069,
+      "sha256": "149d55ae2342c42a81b1df37904ff862011f881e11ce0f76c8ce900405509bb3",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-00256-00512.npz",
+      "bytes": 2005510,
+      "sha256": "f1e87ce7d8ec5b99ebc289ae7af5dcb3e596ac2fb8b2ec8b13b65c9510e9e898",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-00512-00768.npz",
+      "bytes": 2005293,
+      "sha256": "f7611d45ce17051bea62f2d84ec71c06f50515bdb96d300fb13da07945c6b6d1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-00768-01024.npz",
+      "bytes": 2013213,
+      "sha256": "ad9ffa05b24aadc8b6013a94ff8e240a72db5b68c0351745f827a468b19ced27",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-01024-01280.npz",
+      "bytes": 2013070,
+      "sha256": "f1bb72e4a51747f6a4e51bf089d81ca7d08e048d755ecf56712470c354aed426",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-01280-01536.npz",
+      "bytes": 2005510,
+      "sha256": "86aec00a82031e33623153500728f8d6fd7c182c6facacca0c0e90b7a3363951",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-01536-01792.npz",
+      "bytes": 2005293,
+      "sha256": "8aa9f7febcd6fe842d322115b0fd298c2c79f90a0dfaa3529f1902a590eec260",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-01-left-RMS-interval-00471-rows-01792-02048.npz",
+      "bytes": 2013213,
+      "sha256": "16fe77b157f0e2428a3de332d25e8f8519c795bf103fca4c543303ab58293fe6",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-00000-00256.npz",
+      "bytes": 2013420,
+      "sha256": "cf299f3377edb93affcbdf4aab52a43ce16a833d62bc29fccd66e6961b112524",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-00256-00512.npz",
+      "bytes": 2005323,
+      "sha256": "8c6b9e95970aab5ac72a638a0a02ddf6d1adaa48345656540a1c5f4d8fac6928",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-00512-00768.npz",
+      "bytes": 2005068,
+      "sha256": "f1626f4a59cb80b79f025e3eec6334d9751d95a493d96cfecf03fea9bd683798",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-00768-01024.npz",
+      "bytes": 2013669,
+      "sha256": "4e7baf15a3cf9c421628cb604ec9a18cf7f9529f9d9ced03347860cf60234dfb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-01024-01280.npz",
+      "bytes": 2013421,
+      "sha256": "d5ea5cd37338e16dc36b1a575bed419a28ad7c4d01aaeb16425df236e0062d35",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-01280-01536.npz",
+      "bytes": 2005323,
+      "sha256": "d5dbe3cf47c3fc8a7ffbdae26e1ef5abe1e370f96fda394307a3891ddffd35fb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-01536-01792.npz",
+      "bytes": 2005068,
+      "sha256": "5c0117c9abc4a427597b83acb16cb9634f2b3a47e9c11f8b30b985b956cc4dc1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-02-left-RMS-interval-00472-rows-01792-02048.npz",
+      "bytes": 2013670,
+      "sha256": "e6172941a74f727b850cbe405841e142f10da69b9a7342a9993deb8674700948",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-00000-00256.npz",
+      "bytes": 2014024,
+      "sha256": "454c721cec7d8712f9448f06e010ecb832c9c2cebaf8d233ac50a31d5821f389",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-00256-00512.npz",
+      "bytes": 2005404,
+      "sha256": "d7eb1f7cd23ebb6ef149b8b5946800087835fe13db35e3431cd6fc76f89e5765",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-00512-00768.npz",
+      "bytes": 2005134,
+      "sha256": "9dc374bde711c2adfc63d2961ef8e6f175d9cb7b8011b94bab0493113369fd11",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014099,
+      "sha256": "8bbe046cba6777bab4ca9fbe1ce5c9010ec32f6ebefd13b58af69d3dd54589f5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-01024-01280.npz",
+      "bytes": 2014025,
+      "sha256": "ff95f0e2cf36933304a14958aa0ef9949b79e076823d0310e421452e2b8acdc4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-01280-01536.npz",
+      "bytes": 2005404,
+      "sha256": "e6a482f328b2ab80fee2cffb7e83a6109fff1b3832022e18dec752a1a307680e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-01536-01792.npz",
+      "bytes": 2005134,
+      "sha256": "8447542f3d49c6d4260f9c9366a83cdd26f8f05f6cb1eb74fbead9896b84b121",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-03-left-RMS-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014102,
+      "sha256": "86eecf86fc165ea380e7cc31eba91cb32eecd1d5150b73cb14979d2617366f67",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-00000-00256.npz",
+      "bytes": 2014380,
+      "sha256": "f82162c18b5dd5d2dac10ca05d048b2f82002ba3b0e87eacd575355d3e1d19e9",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-00256-00512.npz",
+      "bytes": 2005271,
+      "sha256": "4db2ea17e382f17a7f982ac7a3a7e843c64f52852735953fa19c34211dcd5bb0",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-00512-00768.npz",
+      "bytes": 2005029,
+      "sha256": "b761aa5d6c5c447a0d4a3e44486101a191e5da022298501583851a0866d3079d",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-00768-01024.npz",
+      "bytes": 2014455,
+      "sha256": "6141631de23261f8891270b2bedda1c67bfb4cf664f65e6fb2dae0163e95765f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-01024-01280.npz",
+      "bytes": 2014381,
+      "sha256": "c95cb82be4b2c50d172f972fbdf72035d984ef596d1e838ab7c9b2b795ec6245",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-01280-01536.npz",
+      "bytes": 2005271,
+      "sha256": "1f784ded91e8870cd1442b07c0c99140591ad5ee84efc51169efc626ce12ada2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-01536-01792.npz",
+      "bytes": 2005029,
+      "sha256": "bc3c40b1b986719959b87bab261697894cb724b15958b9c7cea370505aaedd0b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-04-left-RMS-interval-00475-rows-01792-02048.npz",
+      "bytes": 2014456,
+      "sha256": "9dbff4711fcfbfd2e42c77654067e52dfad392a786b769f41e9f3f491316eb0e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-00000-00256.npz",
+      "bytes": 2014281,
+      "sha256": "4f6c78408b9a9d1ece5f5b1662b17cacb94df8c44ff8bf1e60912d081fc85df5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-00256-00512.npz",
+      "bytes": 2005423,
+      "sha256": "82889ce7c07588f90083eaa1bf38dbeca3788127d3ab2561e6202d2f026ff905",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-00512-00768.npz",
+      "bytes": 2005066,
+      "sha256": "710a8f6d1310472b1ccbbd07c4ecd13ebbd69ba6f405af48ea00d7ddbc9235a9",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-00768-01024.npz",
+      "bytes": 2014405,
+      "sha256": "d8c4a37f35fd7efe0f591bfe3f4bdca4641f7d3e6157677635770f88c941717b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-01024-01280.npz",
+      "bytes": 2014282,
+      "sha256": "8bc843e5db4c59c6a0abfa286ca078bebccce6a15743906e64f34c43b5af2a2f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-01280-01536.npz",
+      "bytes": 2005423,
+      "sha256": "be26775d8d237da83318cd70acb228b9e0ed61c19e8c42aa1678ff47c547728b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-01536-01792.npz",
+      "bytes": 2005066,
+      "sha256": "6c6572598373474b6c7b0f86a9ef2b6c1ce43530994bb5a41a03c95b51155d86",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-05-left-RMS-interval-00477-rows-01792-02048.npz",
+      "bytes": 2014406,
+      "sha256": "2fbfc52e68f1ef3a0166c9235885f880ab043018e6d2442a59074d32b0fa9ff8",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-00000-00256.npz",
+      "bytes": 2013792,
+      "sha256": "8acfb395d81fd5fdc8afc749f7117c5ea1de6b77ad6c6856184207a557824c92",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-00256-00512.npz",
+      "bytes": 2005560,
+      "sha256": "94cbf0493b799b8d6d9e79362798bf7c25422c8cab1a480131064c245119fdfa",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-00512-00768.npz",
+      "bytes": 2005469,
+      "sha256": "533ef18fefa1933d82957df51ec1bf5b05b941c63ecfe51e27485b3d197ba819",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-00768-01024.npz",
+      "bytes": 2014057,
+      "sha256": "1f6e3218e9032b9365d22f1d2606fe61d3260e78b6151eecb7375c29e87f2ebb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-01024-01280.npz",
+      "bytes": 2013793,
+      "sha256": "d54de8b2752c21a91054ac2289e9ad33d0c8ccd56b11d2856bba9b9d6afdf31f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-01280-01536.npz",
+      "bytes": 2005560,
+      "sha256": "1eddeacffc204d2bdf67f8c2084eb49698869a626687073057900ceba3573dbc",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-01536-01792.npz",
+      "bytes": 2005469,
+      "sha256": "4274c91d1b0bf503496591034716cbe52bb519ee0979527d04eef8cf7db92d94",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-06-left-RMS-interval-00479-rows-01792-02048.npz",
+      "bytes": 2014057,
+      "sha256": "70cc613ba4544ab2ceb12ce6879823a0df7ea7baf79850e3b629dc52682a4518",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-00000-00256.npz",
+      "bytes": 2013350,
+      "sha256": "29460ab3b4a0f3857a217f029868b50ac626ad90bd3022ade15d38d24ce34af5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-00256-00512.npz",
+      "bytes": 2006249,
+      "sha256": "7a89fa09c59e99d27f407c9c80e00583a8c7cfbad7ff1419b2d42bf1ba13917d",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-00512-00768.npz",
+      "bytes": 2006028,
+      "sha256": "f3a30bcd5c790626ae12c89a00cf2d5b96d7f181ce61b400e6c9491b14613974",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-00768-01024.npz",
+      "bytes": 2013675,
+      "sha256": "f973728f6106ad073ab4d94697ad7c6c6dc55ab7c5c1130db6b2c946924d9b28",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-01024-01280.npz",
+      "bytes": 2013351,
+      "sha256": "7de1bdf7323decaf19547881bbc93e4ec2a343b52260badeee89c5fe7ac8af8f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-01280-01536.npz",
+      "bytes": 2006249,
+      "sha256": "af6fc1a6ab86cdca4ef1e5a289d1aa8617ec57f632b40435188762dfb0a40f11",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-01536-01792.npz",
+      "bytes": 2006028,
+      "sha256": "a16ff969e22645662f1ea73b54d0bb3d8c7596d6875092267eb9d87ab3703fc3",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-07-left-RMS-interval-00480-rows-01792-02048.npz",
+      "bytes": 2013676,
+      "sha256": "7df277c6dd638494a70665f987dcc60a2e74964d425e252c8882f3deb52c498c",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-00000-00256.npz",
+      "bytes": 2012507,
+      "sha256": "be36fcc97dad06e2f9ecf1fa60caf456760b2fc38d93ee979b12f45f65804930",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-00256-00512.npz",
+      "bytes": 2006425,
+      "sha256": "1ef0015f97afd1d4b94db3d6ab8f83eb59a037d1b1b3f9d404c6f123f00c42f4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-00512-00768.npz",
+      "bytes": 2006044,
+      "sha256": "52fab83059469524663d08dfe7f93df7cd37f5d31172095e08c25548fd335cd1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-00768-01024.npz",
+      "bytes": 2012871,
+      "sha256": "ff51a20c9dd7634769b6331e3c03cf2204a885c33d85cbab7f55d35ee77e3bbe",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-01024-01280.npz",
+      "bytes": 2012508,
+      "sha256": "c6524cb1544c5ca5bba2d7717ac609f383e0fec04f0ee6c6aca5dcf68f068ad0",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-01280-01536.npz",
+      "bytes": 2006425,
+      "sha256": "22d943e3cd775e2f95c72ae3efd05bfef7bbdaefaf9ffa6772a062d93b58d700",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-01536-01792.npz",
+      "bytes": 2006044,
+      "sha256": "3c541213c09d918a61cff6c5be070f483579065b92e543fa78b83eac21475603",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-08-left-RMS-interval-00481-rows-01792-02048.npz",
+      "bytes": 2012870,
+      "sha256": "a3761f15b299f4d5785d5f0ec1f3a1897428b772b0da77f92d789184c5b55d6e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-00000-00256.npz",
+      "bytes": 2011501,
+      "sha256": "409a612e461ebc3b35fc0d5abd0772269eb9df1388fa449abedde36cc0850ec2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-00256-00512.npz",
+      "bytes": 2006696,
+      "sha256": "639966a868f087c225b8c513fa09799cce59cff6c995d0ce7c40653b51b8fb9b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-00512-00768.npz",
+      "bytes": 2006353,
+      "sha256": "e17a2d26cd93257ad3a6c56379d3e8c6600b50207b28116e992d8817829d1b1f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-00768-01024.npz",
+      "bytes": 2011899,
+      "sha256": "ff1a49378358c566903c3c132e16a180fd432e802787606e1c16fe920a4197e9",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-01024-01280.npz",
+      "bytes": 2011502,
+      "sha256": "a64ca3a16f843c2761edd3bc30e7aa35cd4669e841d210453b65c8386c0129f6",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-01280-01536.npz",
+      "bytes": 2006696,
+      "sha256": "8da8f029237d7bd7122b5c0cffd527d887ebc1d3b1186f783c3eaefd83603ce6",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-01536-01792.npz",
+      "bytes": 2006353,
+      "sha256": "21da9d8831c20168a9051a9f971a545967889617dc4308e4af8ee1c6e481a06c",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-09-left-RMS-interval-00482-rows-01792-02048.npz",
+      "bytes": 2011900,
+      "sha256": "2f1d0cb651defe08052fe64300429559594314958d18a77bf3ac39d20a73c022",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-00000-00256.npz",
+      "bytes": 2013959,
+      "sha256": "9085aae6ba84c92a204716d86e8fea0d3e2a9b4bcd1a83a40cc68b4666d9b2fe",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-00256-00512.npz",
+      "bytes": 2004371,
+      "sha256": "913be53212a4aae9f0bb4dc06669dbf75759fd85b08893e885fb50c9cd619adf",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-00512-00768.npz",
+      "bytes": 2004132,
+      "sha256": "988c8ef379edf131640fa56099ec2c0b503dc72f1c3f8159c2dbcf4b3a6d5745",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014373,
+      "sha256": "e6c2a6f2778826b6d27ae1b3a37c4f88455259f3b9eefbb1bacec757ea864326",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-01024-01280.npz",
+      "bytes": 2013960,
+      "sha256": "4ada2f91aebb248110698c83a8838505bc061f64ba3f58f2049239e6765a08d0",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-01280-01536.npz",
+      "bytes": 2004371,
+      "sha256": "00ab7bcfce8206ea5a516aaea4e21020f2c02da4995d7da1a014c974e79503da",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-01536-01792.npz",
+      "bytes": 2004132,
+      "sha256": "c792f207d2d073886b3962b8b0e6e8170015af04aa951681a88825dba1f38637",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-10-collocation-midpoint-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014374,
+      "sha256": "6faa31e11c505a2e8bd0c3265a193931bf4b3fbcd2411ebfac828f82af8ca210",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-00000-00256.npz",
+      "bytes": 2013267,
+      "sha256": "3f8e7a43a495876ef390d323d233454632214673ae5d3870991cf8939017c4c9",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-00256-00512.npz",
+      "bytes": 2004127,
+      "sha256": "370f2415b0e55be330e39a93b3c18f4a90c713e23c883f8c815f15ce8100d4ce",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-00512-00768.npz",
+      "bytes": 2003956,
+      "sha256": "10679b6afd2050b4309a31633940edc6f3a6bdace91db54f4fd633150eca8e82",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-00768-01024.npz",
+      "bytes": 2013686,
+      "sha256": "0fe70c3ce10492e2d6a01f3ff9953118ca72164cf5af96c1de697fed8076ec21",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-01024-01280.npz",
+      "bytes": 2013268,
+      "sha256": "3751af3fb7cbcec35892a97cc31628c36cffafa433d8e3b676c0c790808e4d23",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-01280-01536.npz",
+      "bytes": 2004127,
+      "sha256": "05f438307b9750e63b2690aee0ddb1bd0bdf00cd6e18897c7d2c1fe35b48a6df",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-01536-01792.npz",
+      "bytes": 2003956,
+      "sha256": "f1a23291904ee81cafc51e5c9de40c3152f5db7c00993e07e9031d922ab2fc50",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-11-collocation-midpoint-interval-00475-rows-01792-02048.npz",
+      "bytes": 2013688,
+      "sha256": "5387d440100b61054b502dec240c0024433437404949a14a20d75092daef85af",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-00000-00256.npz",
+      "bytes": 2012941,
+      "sha256": "881abbf66154463be457782944a2e235fd118ddafddc55535110fe6a076709d2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-00256-00512.npz",
+      "bytes": 2004459,
+      "sha256": "c86b879c34eb0b210abfc814c8d307961f20e4bdad3c1a10c8478d06a9ef7bd7",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-00512-00768.npz",
+      "bytes": 2004293,
+      "sha256": "f4954c374331eac29af6849ebfbb4823e9fd767875ee48e007e468ff9fcc5979",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-00768-01024.npz",
+      "bytes": 2013333,
+      "sha256": "4d7f8f5143a860c161c83d6b98c8c8f15ceb79b122af5c2e66431dd36d179f1d",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-01024-01280.npz",
+      "bytes": 2012942,
+      "sha256": "432dac97280517fde7335b9f0af84ee189985fee3c4814227deddd574936d1c5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-01280-01536.npz",
+      "bytes": 2004459,
+      "sha256": "a276655f03a283088ca202a160053f8a09f43737116ec67a51b00b96b805b9d1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-01536-01792.npz",
+      "bytes": 2004293,
+      "sha256": "a55f9c4ed68434566eafbc0fca56e75213337ac697f9a49c402c89d0c4854922",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00477-rows-01792-02048.npz",
+      "bytes": 2013335,
+      "sha256": "adc8f11f0bd220e6356c6cc2a046482350c6754b77c32d2d76d38bc1690015fd",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-00000-00256.npz",
+      "bytes": 2008690,
+      "sha256": "c5392a0ba641ecec320d46d14276aeabfdc4e134f7af7066c619bb75c11812cb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-00256-00512.npz",
+      "bytes": 2005998,
+      "sha256": "928bc4d9245a1cd494a19f4194e4db45bf426321e66addc52f34d3466b57b006",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-00512-00768.npz",
+      "bytes": 2005813,
+      "sha256": "53616e1ab7c59f770ddb12919f83aebd808ac8fe4898eea0df81fb7fa16e4b6f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-00768-01024.npz",
+      "bytes": 2009032,
+      "sha256": "aba7c205f915d97d8b15225df8ec82a17c6471f4b6c9b45c1057a55f6a5a591d",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-01024-01280.npz",
+      "bytes": 2008691,
+      "sha256": "6e808af7057c6be0b487d307d25ee2e579218809efb2aa459d42303558a5e655",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-01280-01536.npz",
+      "bytes": 2005998,
+      "sha256": "aea35717e9da7ee96e8831c449d8b36893ea823c6081f0a29d33fd4255e75a56",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-01536-01792.npz",
+      "bytes": 2005813,
+      "sha256": "e8645dea3eb507cbc7d215b03b972520f763dfc9d692d4dfd8d519a7f3d3640d",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00482-rows-01792-02048.npz",
+      "bytes": 2009034,
+      "sha256": "8b5f736d950860c7d94d86f1a3a90208a8c6705d6e2a04ba8b7711cafdf6e3c1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00470-variant-00.npz",
+      "bytes": 886060,
+      "sha256": "1ff3b848187eb9a5e8af10062431c95e35fc7bcf0735ce14080fdf3fa059bb9e",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00471-variant-01.npz",
+      "bytes": 886193,
+      "sha256": "fd27039d150cd5ccc523f3866a0144a47672ba81956443b4282a9d872a5fe89c",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00472-variant-02.npz",
+      "bytes": 886372,
+      "sha256": "ab47691c057d31203d652c7a07688456fd52a50931dc504d0e8d2416bead2a2b",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00473-variant-03.npz",
+      "bytes": 886251,
+      "sha256": "170463c5b863dcdbf592ea14c510325a026351581b7792c4bfdce3190d4de6d2",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00474-variant-04.npz",
+      "bytes": 886507,
+      "sha256": "23de9275f832d4249e120c0e9ce9c517d6b40e16e94a47800c794f8058b6a8f4",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00475-variant-05.npz",
+      "bytes": 886763,
+      "sha256": "3be963e7a3af1c784fb4cef38085b5068d643003a4057c3980ce6e8e6a773c0a",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00476-variant-06.npz",
+      "bytes": 886484,
+      "sha256": "bdbafa87151816ba57f391677e60d7a20c70e8ff0b4868bbb15dce9994629844",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00477-variant-07.npz",
+      "bytes": 886736,
+      "sha256": "8a31188ba5decf8ac3f82bf0250732b8e541189d8348707d504d55d4ba0a8ff7",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00478-variant-08.npz",
+      "bytes": 886717,
+      "sha256": "2ccabd73a08c3cd53560a6a3213539171865c4c0de66dfa53d82074121110d09",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00479-variant-09.npz",
+      "bytes": 886679,
+      "sha256": "54eed829debc58b8a488b9769f297ac309bf750a0d3be7eb8758d1e965a65196",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00480-variant-10.npz",
+      "bytes": 886687,
+      "sha256": "ce7ca79a0fcb1627b6d978bd4d22401835fbbb26c159d5e8064576a2b4ca202d",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00481-variant-11.npz",
+      "bytes": 886792,
+      "sha256": "0a16773889b3aa0535ac6b6930a4930001c1925dd822e911a103067ee58f5d4a",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00482-variant-12.npz",
+      "bytes": 886728,
+      "sha256": "abaed342b6d5a84f0752cdee9bfff2db07f7a4154491a9fbfa2b66874ab1dd7d",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/domain-operator/endpoint-00483-variant-13.npz",
+      "bytes": 886694,
+      "sha256": "65e427b43bc0edeefe39c726f9f222e7a3c81e2b74fd095b1d37e90c9ac28c25",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0001-part-0000.npz",
+      "bytes": 1825397,
+      "sha256": "0de97b616151ea4c94992dff02b16499878d1a0900e577bf77e0b2f9c9575dad",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0002-part-0000.npz",
+      "bytes": 1828747,
+      "sha256": "14c363df009ef8664c6ccb060608a3ee63d01c1c2b881642da87f18213abd01f",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0003-part-0000.npz",
+      "bytes": 73475,
+      "sha256": "d851b676b00fe9af25a8c406d8fb0e927b148873641bd4161271d2ecbe60a959",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0004-part-0000.npz",
+      "bytes": 1828135,
+      "sha256": "1e013e5b0663877f8eacf2a54d8890d82e0d1791c76c968d2936b416c4f51ea5",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0005-part-0000.npz",
+      "bytes": 1829213,
+      "sha256": "61ce9053e4561a54af0aa6577bd66b7a73fa8ebfbc553b373b81ca237089fee0",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0006-part-0000.npz",
+      "bytes": 1828974,
+      "sha256": "013f647a064d35bc411de1a33466b94b7fb4002089b3cf0410001cf8ea14d722",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0007-part-0000.npz",
+      "bytes": 36628,
+      "sha256": "d76b7ed38031741adf96247ccc80cf7366b0d66399ec1e2aaa83dbdcc0585cbb",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0008-part-0000.npz",
+      "bytes": 3058,
+      "sha256": "a4d4bc9797365b844cdd2fd98aa51e5068b044b8518044ad8ff9ab73bb13fec2",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0009-part-0000.npz",
+      "bytes": 31166,
+      "sha256": "423d65884c83e5358a6cf853af10fe4d1d11e2b73d8ecd8c71d912c48fb53b9e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0010-part-0000.npz",
+      "bytes": 74293,
+      "sha256": "ed9a926745879ec1063420163d8790eb4e294f5dfa984d3bd2750d79a04ff549",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0011-part-0000.npz",
+      "bytes": 36618,
+      "sha256": "728421d2987b4e1c169e8001e426a353a8b5bfa0bf7a0a51a317849d5eb038ab",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0012-part-0000.npz",
+      "bytes": 3058,
+      "sha256": "1a0ca4ad175920adf1fefce311545ae92a1aa6234b6734ef47a083dd40683ea3",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0013-part-0000.npz",
+      "bytes": 74166,
+      "sha256": "5c3b05a2418155c2786ee828f112cdecfe868c4bf8a7445014162d54605e1adb",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0014-part-0000.npz",
+      "bytes": 8878,
+      "sha256": "84bd8e98cb763b7e6d52b5c44ddc331b8afb6f4a51014ffe3ddbdc2c37277218",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0015-part-0000.npz",
+      "bytes": 36625,
+      "sha256": "cd33369fcbef7360abababfe392ccd10c8ffc13d018921a935693e29be213721",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0016-part-0000.npz",
+      "bytes": 74289,
+      "sha256": "d4f88f9c1669b4c13de3c2e392044f972509e6384d6830fb8f63b76c3d7e3da7",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0017-part-0000.npz",
+      "bytes": 31180,
+      "sha256": "57c4cfb57e5332a5797dd433157facd0125d886eaa8acd94faa761db24c5e99c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0018-part-0000.npz",
+      "bytes": 850,
+      "sha256": "2fe56952fcfc733880eed1aab1cfd179d592f1ee69d80f4222f7fe161692dee2",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0019-part-0000.npz",
+      "bytes": 2165,
+      "sha256": "2f4d47c98c83058c16867ca454d12d674c5beae24434a18b32abd4feafe9c2d0",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0020-part-0000.npz",
+      "bytes": 296139,
+      "sha256": "f05f31d16ee5199df86f3bf7ccbdce4c0a38a6a90b7cb5a7a21550b6d344ea13",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0020-part-0001.npz",
+      "bytes": 296140,
+      "sha256": "a26a45c4b581e1908cdb208cd68aff5507b97ef2a780b1639110eb592a34bfa8",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0020-part-0002.npz",
+      "bytes": 296056,
+      "sha256": "0e06a129afa88ed1fd9673514f733656105df98777db603e7390a1f6af4dd116",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0020-part-0003.npz",
+      "bytes": 296095,
+      "sha256": "2c9969c954fc01fdeaaed72d96805467301dd343be83d076bdac820ac8a0e619",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0020-part-0004.npz",
+      "bytes": 193889,
+      "sha256": "89036d07bc459c222f7c84aa86ef1bec4feb595a78fdb14c639a3250889b3b62",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0021-part-0000.npz",
+      "bytes": 2026195,
+      "sha256": "c5624b59722a3f70c24272ce23d1827f4d2304b6bf106c6cd5b9e44ea288060b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0021-part-0001.npz",
+      "bytes": 2026459,
+      "sha256": "cb2445ce62b9dcfa38daa8ebdababc98d77556dfb66af037f4e92721e2f31c83",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0021-part-0002.npz",
+      "bytes": 2026537,
+      "sha256": "f80931eb69e35d20a2714afe9b51591b17959a7599be8a781ffbb75b37af6024",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0021-part-0003.npz",
+      "bytes": 2027091,
+      "sha256": "f1fe0ca2bf8bdc3b1624ebaab3b48461d6dca519855e996e738d624cdc99d51d",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0021-part-0004.npz",
+      "bytes": 1326385,
+      "sha256": "ac70d0b7d5b64e753deb24ac89fe76b0773a459421b334e64851203117664330",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0022-part-0000.npz",
+      "bytes": 292631,
+      "sha256": "1d42024cd862784b09c3ab4fcc59f2e442bd4862f0a82d0212e45ceeb13ffce7",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0022-part-0001.npz",
+      "bytes": 292718,
+      "sha256": "369a293b3d7c031324b43c2519db34e5a75d51fcaafba44edd906e9245ed2472",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0022-part-0002.npz",
+      "bytes": 292967,
+      "sha256": "cccc6783b5955131f082cc7202f8d26273c098544df8e119ea28517cbd304d3e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0022-part-0003.npz",
+      "bytes": 293252,
+      "sha256": "650ce67ca87b5d2c16061405606c6ce0feae40cb81483bc9abe7e8fd8e1c2b9d",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0022-part-0004.npz",
+      "bytes": 191983,
+      "sha256": "c760d5fd9a7ef2520d73777c0b11ae9cbfb2d6343e0af829feaf262cb32a0131",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0023-part-0000.npz",
+      "bytes": 2027097,
+      "sha256": "566f6037dc60a7ace25fa334aa7edb52a60026dafca6574a91d7f257427ead80",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0023-part-0001.npz",
+      "bytes": 2026631,
+      "sha256": "ed8225d4b43227321d57beccc755e275179499c95855aa51337979faabc40478",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0023-part-0002.npz",
+      "bytes": 2027356,
+      "sha256": "d0e2329bc4b5c88bf46d0929850a4ebe4dbac2bd6956b139e2841da23fecc932",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0023-part-0003.npz",
+      "bytes": 2027920,
+      "sha256": "27c578d9cc477f4b903390416ac9e2004daf812663aa58aa4e20cbaf31a5154e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0023-part-0004.npz",
+      "bytes": 1326982,
+      "sha256": "eabd285656c9a28ba1677abe3dae51626eb2474fa3c2e0d099ca243d43d53e2b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0024-part-0000.npz",
+      "bytes": 1130545,
+      "sha256": "a915a18f50596d9b5ca57e75b568706ef65b34c60d866a294f14bb6b16a1e4bb",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0024-part-0001.npz",
+      "bytes": 1196459,
+      "sha256": "2703e8e49df351e4534542e17366134c380d9a09682960a6dd2f1dcc44e44989",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0024-part-0002.npz",
+      "bytes": 1186967,
+      "sha256": "c77344d823c3638ad6e2b8787ff1c4593c54753cd110ebfa9b92f171bc62409d",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0024-part-0003.npz",
+      "bytes": 1225905,
+      "sha256": "50cd4d445856e881e176de023ed9fdab6e98678f8d2b96923878f8e6b8c4edba",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0024-part-0004.npz",
+      "bytes": 734613,
+      "sha256": "7c028fbee88b3550e31462c77fa842379ad279e07faaf48456410b91da82d8c4",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0025-part-0000.npz",
+      "bytes": 489295,
+      "sha256": "47f8620795d1f9eb5c05c8ce394cf08ca73ad6300d47e8791ded756c277a2d7b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0026-part-0000.npz",
+      "bytes": 2130,
+      "sha256": "ca5e70c898131f60d6ff3cfba7c5e9a613a3cf83b03b0d29e12278b62e093a15",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0027-part-0000.npz",
+      "bytes": 1827774,
+      "sha256": "8f3fc1a7a14df7895bd0447c77d974ec0b7891c2538f1d140904bb0bf9a3360e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0028-part-0000.npz",
+      "bytes": 84900,
+      "sha256": "7b0d4270f7c8b0a9e5c3e1f41c3387ba4c570464ae00d5a38299fd0af1c2dff1",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0029-part-0000.npz",
+      "bytes": 74303,
+      "sha256": "6ba7b8ede4f776839e3b7b80d6ebcc9b21383907c8d91776175505c601a6d45b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0030-part-0000.npz",
+      "bytes": 474695,
+      "sha256": "02633cf3c8bffbb7de797920cac73a7721a2275dbc58a69cc2d86140515ca27c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0031-part-0000.npz",
+      "bytes": 467894,
+      "sha256": "9541347189b839e3d65b7dde5e0924debef666063dab0591c159edee0b6c18e1",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0032-part-0000.npz",
+      "bytes": 1829087,
+      "sha256": "0ea52221e5ec0c563be2497b531b1478bcf49c3fb3872ebb5782110f25dd54a9",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0033-part-0000.npz",
+      "bytes": 1827702,
+      "sha256": "91491e03a0550ad35f8707a01c57df3787bb96342c0c02bf81c505b701524382",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0034-part-0000.npz",
+      "bytes": 84879,
+      "sha256": "82e444e8d003684ea40f2408cf795abf2fa805d107a487c0a7b985d34d91c78f",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0035-part-0000.npz",
+      "bytes": 74306,
+      "sha256": "dd6195c38c2115df0ff4db63a7092cf85d13fae2a628cef1c1ec6e6534ba3585",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0036-part-0000.npz",
+      "bytes": 651382,
+      "sha256": "f30d4b783803f7c08d23966c4f0115c086b4e5428ef180afcc505cdac5de46b3",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0037-part-0000.npz",
+      "bytes": 645313,
+      "sha256": "1f2c2b115c95bfc91cd660a646de70afbc27e8d9c61612f85f1667231b8f42a2",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/condensed-arrays/array-0038-part-0000.npz",
+      "bytes": 3056,
+      "sha256": "4aae48561af7949f3c5f087ae8d5fdd60f01b7a084b91010e65200f172625cec",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00473.npz",
+      "bytes": 9549,
+      "sha256": "70759ddfff1c51f7cb08b4d1581500bd79cb317927f07d4c9481a9998d4d8e2a",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00475.npz",
+      "bytes": 9602,
+      "sha256": "9daac7e6cad81c169d245efd4a3d1ec2aaf29ca044453f44ec22286846408e5f",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00477.npz",
+      "bytes": 9605,
+      "sha256": "38eea7a72997c1d76661e3bb101bb2f04732bffc19d5ad3b1de2cb56ba4a9cea",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00481.npz",
+      "bytes": 9610,
+      "sha256": "3e97a7350a7039ca08a9d3cb02d282e003b6ee37bdecd0e13fdaccab77357a35",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00482.npz",
+      "bytes": 9837,
+      "sha256": "17ba9c0a24ce96c1eaaad01612679b512295c7ba1f8785dfb6eecfd8ba48aa27",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00483.npz",
+      "bytes": 9645,
+      "sha256": "cbb2cc3b8ee5ac1b29007f8d0be25cb51b619f6a7899ee6e1caa22ce635f6aa2",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00473.npz",
+      "bytes": 9554,
+      "sha256": "5cc2e08ed3cb88641776aa41520e6dad0be59ef0ef8164fa94cbb34da9cef165",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00475.npz",
+      "bytes": 9573,
+      "sha256": "d73a45798ab067047531e621081ec76dbb705f825070d1e9e4299474ece939e4",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00477.npz",
+      "bytes": 9620,
+      "sha256": "c12ff9ad4a6b65ebf6aee0c5c543b9e0b84b2c73aea80189d08912c8bb01c2d4",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "fourteen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00481.npz",
+      "bytes": 9604,
+      "sha256": "9d58716466980014cc45ac85b6f200ef439be56b5df890708ea0e0ba5a629b9e",
+      "arrays": 3,
+      "kind": "observer"
+    }
+  ],
+  "scope_exclusion": "Raw condensed-root arrays and non-exported full factor are outside this NPZ audit scope."
+}

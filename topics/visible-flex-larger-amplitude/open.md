@@ -23,9 +23,11 @@
 | [actual45完整局部QP](notes/2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md) | 12query/24576行、局部4397；同f H43.8582164优C44.2768871，α1/32真下降；最近拒绝仅mid482 | 完整数组/父链与14root raw已审，已接48 |
 | [actual48](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md) | 加mid482→13query/26624行/4735局部；H43.8445468优C44.2514049，α1/256才真下降 | 最近五档13选定网格/node/mid均好，完整left-RMS482拒；据此接49 |
 
-**当前父actual48**：run43629964624/source86acdf3b193efb6ad536545e22c46584fcc0bdd5。warm SHA df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe14689；driver-status原1067190B/SHA00c9e73f260d0fa239a17c3973bcbd113d813c079c04451335244e923e85be9e，公开为gzip，必须解压核原bytes而非重新序列化。当前col.007110250799470694、BC7.656256251336757e−8，仍非完整BVP；新FD7.169252867462084e−10。120domainNPZ/766数组、38凝聚全向量、observer/40源/完整父45链，以及14raw190956688B已做纯字节核，详情在48note与两个audit。
+**当前父actual49已完成**：run43631235905/source d5c99bef58700db0da1a3de2faba3e94d60b1dc1/job132558124307。[完整14-query实际结论](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)保全部5次真实试步和原17档allowance。H43.8430803优C44.2483141，α1/16真降.0497123440，col.0071101678278726824/BC7.177739211877821e−8；新FD7.070190461766486e−10，仍非BVP/native。最近1/4、1/8 node/mid/全部14grid合法且merit真降，唯一原left-RMS469失败；1/8 β²−.2951240357733671、φ0。
 
-**49实际运行中**：run43631235905/source d5c99bef58700db0da1a3de2faba3e94d60b1dc1/job132558124307，19:17:48Z进入warm。只补真实left-RMS482，保不同的原mid482；共10个left-RMS+4个mid、28672行。完整支撑仍470..483+p=4735，原C仍471..482+p=4059并保470/483外部offset。[14-query接口](notes/2026-11-14-fourteen-query-condensed-warm-interface.md) 原600s候选/256行/200sweeps、17trial与新FD不变。下一亲读全部真实trial与原完整RMS，据结果继续，不能预断新坏点或盲串旧query。
+新父warm SHA c0d9c6d59e16ef1482f8ee60f9681d8db089b21d68e249adf1830df03be6612b；原status SHA e22fd03b8c24adbd0eeeaf0b084d18944d17e4cd1f4115075cb63d9e9a41aad7，原991791B公开为.json。128domain NPZ/822数组、38凝聚全向量、observer/42源/完整父48链及14raw190956688B已纯字节核；完整factor仍未导出不冒独审。
+
+**51准备中，未调度**：仅加实际left-RMS469的完整2048行，保全部14已选query→15query30720行，B完整支撑469..483+p5073；原C仍471..482+p4059与完整outside offset。原R270动态库、600s候选/256行/200sweeps、λ270/LSMR200/C200、原17trial/两RMS/rho/merit/FD保持。只从当前49pair继续，不猜下一限制或盲串旧14。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -41,7 +43,7 @@
 
 [actual47精确作用及new519账](notes/2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md)：固定同δ519/520/r/σ，old=observed平方1.1148576429598753e43；四A精确有理RK平方6.7408926442427e49。传播差平方与负交叉项强烈相消，因此“更准确形成这个块就使旧方向有效”没有成立。原43 exact oracle直接精确累加未预缩放J/r后除原σ，和此账一致。root17原exact输出包另核全部SHA；未本地重算norm/action。
 
-**50已接独立stagecovariance请求，run待回读**：固定47原artifact3530956B/SHA02973eefffbd82f57dcee02776f2ed7a28c41fe750f73ec7930ff07d2f9fa400，仅消费已有四个226×224 A和三个原方向。先形成[R271全级候选及同精度直接对照](notes/2026-11-14-saved-stage-R271-covariant-RK-interface.md)，后作[全部224列精确有理参考及一次正确RN](notes/2026-11-14-saved-stage-complete-rational-reference-interface.md)。完整矩阵/均值/原port/全部耦合保留，x87真实有效位及padding明确；不重RHS/J/ODE/native，不再取28/41/43包。两候选都回原坐标，与同一完整参考逐项比较；新的矩阵有新身份，未来仍须一致系统重解和原非线性验收。
+**50实际完成，run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5，完整结论登记中**：固定47原artifact3530956B/SHA02973eefffbd82f57dcee02776f2ed7a28c41fe750f73ec7930ff07d2f9fa400，仅消费已有四个226×224 A和三个原方向。先形成[R271全级候选及同精度直接对照](notes/2026-11-14-saved-stage-R271-covariant-RK-interface.md)，后作[全部224列精确有理参考及一次正确RN](notes/2026-11-14-saved-stage-complete-rational-reference-interface.md)。完整矩阵/均值/原port/全部耦合保留，x87真实有效位及padding明确；不重RHS/J/ODE/native，不再取28/41/43包。两候选都回原坐标，与同一完整参考逐项比较；新的矩阵有新身份，未来仍须一致系统重解和原非线性验收。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 

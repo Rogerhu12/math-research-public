@@ -434,3 +434,7 @@ run43629964624全部成功；同模型H f43.844546783272705<C44.251404941685465�
 独立stagecovariance请求只取47原3530956B artifact，源/完整ZIP双身份与原捕获/精确case严格锁定；既有28运输核原字节复用。先形成R271频率平衡全级Gamma与同精度原坐标direct两完整226×224 map，再由整数dyadic/Fraction形成全部224列参考和正确一次RN，逐项/三个原方向比较。两均值行、全部模间耦合、原port保持；longdouble明确实际有效位，x87 padding仅规范存储。新完整数组只artifact，0新RHS/J/ODE/native/非线性试步，无新增验收阈值。
 
 root已读两完整源和接口、取件器及独立workflow；只有本地AST/YAML/bash/源SHA静态检查，无科学执行。新源geometry01ec3476…/exact119864f3…/fetchbbdbe1a4…；真实结果待run回读。49原14query run43631235905/job132558124307已在19:17:48Z进入warm，仍待真实17trial/FD。open去除旧待执行措辞，原全文保存在同目录截至49检查点；H保持当前身份及后继。
+
+## 2026-11-14 19:30:32 UTC /root — actual49完整14-query结果
+
+[实际结论](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)：原α1/16接受，固定本轮merit44.250102036498696→44.20038969249102；最近1/4、1/8所有14grid/node/mid合法且真降，只有原left-RMS469拒。col.0071101678278726824/BC7.177739211877821e−8/FD7.070190461766486e−10，仍非BVP/native。新父pair c0d9c6d5…/e22fd03b…与完整状态/producer保存；128B NPZ822数组、38完整凝聚向量/observer/42源/父48链和14raw190956688B字节审均完成，未本地重算科学、未冒完整factor审。下一51仅补left469并扩B至5073，原C/全外部offset/所有预算和真实门保持；50全列参考也已实际完成，结论并行登记中。
