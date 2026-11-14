@@ -151,3 +151,7 @@ receipt-only43603364028实际成功。root逐字段比较原artifact和repo proc
 ### 根部到负区的完整方向性Cauchy估计
 
 [新C1–16解析证明](results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md)直接沿ρ=r*−r传播：频率正则w²=q²+Λ^-2/3 exp(−ρΛ2/3)，两行θ耗散吸收单上三角缺项，不对发散的sup频率项积分。fullδ96/band192、原I和真even mean完整付，root输入H1/3×L2、ordinary源L2ρH1/3、输出全pair L2。9原输入新CI待实际31/41:10门；不反用旧相反方向能量，不授额外Sobolev窗。
+
+### 低κ精确两phase曲线与当前actual完整低锥已完成
+
+[L1–36](results/R119-supplement-low-scaled-exact-phase-curve-and-current-mixed-form.md)以M²=0,1的两个准确双线性null构造det/[κ(κ−e)]全纯商；Minkowski integrated下界与复圆盘差守住整个当前有限盒，包括flux mean。新半径r_l=2^-1000Δ²ρ9无旧δ96损失。亲核72 whole-C4响应、70/71两根/变图能量和74全低锥，沿当前C=0使径向v0确零，actual joint两列/全部其它层保。得到低锥真实混频正型及任意带外负项，尚欠整个网络近核定位/高紧actual控制和最终权。

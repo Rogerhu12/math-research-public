@@ -181,3 +181,7 @@
 ### 真根→负区完整Cauchy能量
 
 [C1–16](results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md)给全参数、全频率、带真mean/primitive/ordinary源的直接方向性能量。两权log频导≤1/3，完整lag768预算已纳入；局部条件若通过新公开consumer，则R9e−6输出≤41/10×(root两行范数+.003源范数)。实际数值门另记，不提前记通过。
+
+### 当前全低缩放混频型的无δ96有限盒
+
+[完整低缩放精确曲线](results/R119-supplement-low-scaled-exact-phase-curve-and-current-mixed-form.md)保持两个真退化因子，避免以绝对误差除κ²；当前真实joint方向的径向两列准确零，其余非径向响应逐项付。全低锥/flux mean给r_l d_l/2正型，保完整带外负项与显式待证定位门，未授全网逆。

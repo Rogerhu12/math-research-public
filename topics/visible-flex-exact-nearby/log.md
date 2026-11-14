@@ -499,3 +499,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:22:04 UTC — 直接构造fullδ根→负区Cauchy能量并部署预算
 
 独立核phase建议的w/θ构造并写C1–16：wρ²>58、w≥Λ^-1/3、两row log频导≤1/3；真skew主部外的单上三角率由θρ准确吸收，避免sup_n积分发散。原N3反应/lag768 transport/有序I/meanrank逐项重付，普通源保持L2ρH1/3。9原输入只消费397f9/10ff6两native，部署新预算source/CI/worker/workflow，不重跑原germ/response；数值门待公开实际结果。
+
+## 2026-11-14 14:23:16 UTC — 低κ当前完整混频型与真实无δ96参数盒
+
+审证L1–36的Minkowski integrated det、M²=0/1两个双线性null、复κ可去商与当前补偿误差；独立核物理BΔ/中心wave及mean尺度。亲读72 F17–24、74 E9–24、70 P6–16与71 C26，确认whole-C4/当前joint/physical total-conormal入口，原ra列只因C=0准确消去，χ/两Γ/其它层仍付；新增16bits余量与带外Young界保。原解析blob独立推，不把低锥actual PSD改名为所有near-kernel定位。
