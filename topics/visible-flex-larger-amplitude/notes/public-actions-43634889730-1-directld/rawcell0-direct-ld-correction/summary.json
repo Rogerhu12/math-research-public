@@ -1,0 +1,1361 @@
+{
+  "schema": "native-direct-LD-f64-J1372-equilibrated-small-summary-v1",
+  "source_sha256": "42e10320252935015c65bbc34579947e559182bb1b2a74ca1aa13a6597c064b9",
+  "direct_adapter_sha256": "b64b6ed8b387834b5cc9332675127a1dcbb15a317c3400f5b768d18cdbdf5a8e",
+  "frozen_original_step_adapter_sha256": "fde0e03918814c9400a37eeb7719ecd0894c204490ee830fa128a3a49797cc81",
+  "equilibration_helper_sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3",
+  "exact_depth_independent_kernel_sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+  "binding_helper_sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+  "original_capture_result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+  "actual_step_result_sha256": "6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf",
+  "actual_direct_result_sha256": "e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6",
+  "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+  "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+  "algorithm": "new-direct-LD-f64-J1372-dyadic-equilibration-and-exact-residual-refinement-v1",
+  "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+  "scaling": "direct-LD-f64-J1372-original-sigma-nearest-dyadic-row-column-max-entry-v1",
+  "diagnostic_completed": true,
+  "linear_direction_computed": true,
+  "native_accepted": false,
+  "task_completed": false,
+  "original_native_calls": 0,
+  "new_J_calls": 0,
+  "new_ODE_steps": 0,
+  "nonlinear_trials": 0,
+  "original1372_base_r_scales_cut_far_H_unchanged": true,
+  "target_is_new_original_coordinate_f64_J": true,
+  "no_G_shadow_or_second_target": true,
+  "no_linear_exact_residual_threshold_added_to_original_nonlinear_acceptance": true,
+  "original_full_nonlinear_readback_required": true,
+  "old_long_J_defect_is_diagnostic_not_gate": true,
+  "requested_equilibration_passes": 3,
+  "requested_refinement_steps": 3,
+  "exact_workers": 2,
+  "memory_budget": {
+    "actual_depth": 1372,
+    "actual_nodes": 1373,
+    "full_dimension": 307552,
+    "modes": 112,
+    "shape_dimension": 224,
+    "band_rows": 560,
+    "band_shape": [
+      560,
+      307552
+    ],
+    "band_bytes": 1377832960,
+    "declared_maximum_single_band_bytes": 4294967296,
+    "band_with_possible_LAPACK_copy_bytes": 2755665920,
+    "only_one_band_intended_and_overwrite_requested": true,
+    "largest_new_stage_J_array_bytes": 5218304,
+    "complete_new_J_virtual_bytes": 550731776,
+    "whole_new_J_not_held_or_copied": true,
+    "actual_step_node_input_arrays_bytes": 7393128,
+    "maximum_pending_exact_stage_jobs": 4,
+    "raw_J_bytes_per_exact_stage": 401408,
+    "Python_exact_integer_and_BLAS_workspace_not_in_this_array_budget": true,
+    "cgroup_memory_limit_readout": {},
+    "maximum_RSS_kib_before_band": 117944,
+    "budget_is_an_explicit_resource_limit_not_a_numerical_acceptance_threshold": true,
+    "no_row_mode_node_or_cusp_step_may_be_dropped_to_fit_budget": true,
+    "simultaneously_bound_parent_and_new_metadata_not_in_this_array_budget": true,
+    "actual_LU_shares_input_storage": true,
+    "actual_LU_bytes": 1377832960,
+    "maximum_RSS_kib_after_factorization": 1494208
+  },
+  "lapack_factor_info": 0,
+  "factorization_seconds": 0.956263397999976,
+  "LU_shares_input_storage": true,
+  "LU_retains_input_pointer": true,
+  "LU_Fortran_byte_sha256": "ed417b48626137bfad4c5d342e81a4e1ac745049acc757b59a97d05f3838f68f",
+  "lapack_solve_info": 0,
+  "initial_solve": {
+    "label": "initial",
+    "lapack_solve_info": 0,
+    "seconds": 0.08822841200003495,
+    "new_coordinate_recovery": {
+      "entries": 307552,
+      "nonfinite": 0,
+      "nonzero_rounded_to_zero": 0,
+      "nonreversible_binary64_scalings": 0,
+      "examples": [],
+      "exact_real_dyadic_entry_scaling_verified": true,
+      "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+      "original_equations_rechecked_even_if_formation_loses_bits": true
+    }
+  },
+  "best_iteration": 2,
+  "best_exact_new_system_sigma_norm": {
+    "kind": "stage",
+    "node": 518,
+    "row": 223,
+    "global_equation_row": 116367,
+    "component": "Pi",
+    "mode": 112,
+    "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+    "exact_unscaled_dyadic": [
+      "0x7595c6481bdea111b2eda65b9ea9b11123b268f6428ddacface63cc96e1e192b",
+      -233
+    ],
+    "exact_signed_scaled_residual": {
+      "numerator": "53185231986721987477368351175200891390489569054573636496766224062845189757227",
+      "denominator": "2083812210293876147105788999162855959650177239576739840",
+      "decimal_display_64_significant_digits": "2.552304460257547558335607736456071429761881751952739590060132772E+22",
+      "display_never_used_for_comparison": true
+    },
+    "exact_absolute_scaled_residual": {
+      "numerator": "53185231986721987477368351175200891390489569054573636496766224062845189757227",
+      "denominator": "2083812210293876147105788999162855959650177239576739840",
+      "decimal_display_64_significant_digits": "2.552304460257547558335607736456071429761881751952739590060132772E+22",
+      "display_never_used_for_comparison": true
+    },
+    "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+    "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+    "source_stage": {
+      "newStage": 518,
+      "originalStage": 42,
+      "rawCell": 0,
+      "kind": "actual-original-RK-step",
+      "stepIndex": 0,
+      "originalStepCount": 12,
+      "schedule": {
+        "global_step": 0,
+        "profile_index": 0,
+        "grid_index": 0,
+        "grid_branch": "ordinary",
+        "x": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "h": {
+          "value": 0.08333333333333333,
+          "float64le_hex": "555555555555b53f",
+          "classification": "finite"
+        },
+        "final_original_step": false,
+        "port_applied": false,
+        "port_ratio": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "field_calls": 4,
+        "full_state_row": 1,
+        "shape_output_row": 0,
+        "shape_J_row": 0,
+        "shape_J_statistics": {
+          "entries": 50176,
+          "finite": 50176,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 0,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 25108449735.79109,
+            "float64le_hex": "132a1f2752621742",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": 25108449735.79109,
+            "float64le_hex": "132a1f2752621742",
+            "classification": "finite"
+          }
+        },
+        "cumulative_minA": {
+          "value": 0.9999999999999958,
+          "float64le_hex": "daffffffffffef3f",
+          "classification": "finite"
+        },
+        "cumulative_minD": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "cumulative_maxRootRelative": {
+          "value": 2.1268835585537372e-15,
+          "float64le_hex": "8bfb27744228e33c",
+          "classification": "finite"
+        }
+      },
+      "port": "one"
+    },
+    "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+  },
+  "refinement_stop_reason": "Exact new-system sigma norm did not strictly improve; retain previous complete direction",
+  "step_delta": {
+    "name": "complete-step-coordinate-delta",
+    "file": "large-arrays/complete-step-coordinate-delta.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      1373,
+      224
+    ],
+    "bytes": 2460416,
+    "sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+    "role": "All actual new-node best direction selected by the new matrix residual; no native acceptance",
+    "finite": 307552,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "step_direction_checkpoint": {
+    "file": "step-direction-checkpoint.json.gz",
+    "bytes": 3454362,
+    "sha256": "497ab41ed91e1b62d7c250a81904fde8ffcfaca5295b46fa93026c364d5527fa"
+  },
+  "restricted_old_node_delta": {
+    "name": "complete-old-node-restricted-delta",
+    "file": "large-arrays/complete-old-node-restricted-delta.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      577,
+      224
+    ],
+    "bytes": 1033984,
+    "sha256": "5d4f941c0850892d5b3a8c7fd10bfe96d60002dfac12ca342ad62efc94ba8b0d",
+    "role": "Only old577-node entries of the actual step-system direction; not a solution claim for old576 A",
+    "finite": 129248,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "restricted_direction_checkpoint": {
+    "file": "restricted-original-node-direction.json.gz",
+    "bytes": 1650281,
+    "sha256": "284f47f8e20dfefab867bd67d6b0fdc10304ae373c577cbbf56c3bb6c67655d7"
+  },
+  "array_manifest": {
+    "file": "output-array-manifest.json",
+    "bytes": 29049,
+    "sha256": "75c4ccbf15cca130345b74475f7de756957ea8b37d7e251dc1138513f79c8131"
+  },
+  "input_binding": {
+    "file": "input-binding.json.gz",
+    "bytes": 335715,
+    "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+  },
+  "elapsed_seconds": 107.43869095100001,
+  "maximum_RSS_kib": 1575144,
+  "NumPy": "2.3.5",
+  "SciPy": "1.17.0",
+  "BLAS_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "full_result": {
+    "file": "result.json.gz",
+    "bytes": 101864,
+    "sha256": "e1ac6c83434ac3b269663e930b1370a38f280b2d31c5e720955b5ed0aed7e105"
+  },
+  "refinement_history": [
+    {
+      "iteration": 0,
+      "delta": {
+        "name": "iteration-00-step-coordinate-delta",
+        "file": "large-arrays/iteration-00-step-coordinate-delta.f64le",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          1373,
+          224
+        ],
+        "bytes": 2460416,
+        "sha256": "d902d088187a6c537cf3bac40eb2c6adad64f37daa323ce48e33685d58ee8f25",
+        "role": "All original-coordinate new1372 unscaled coordinates; newly formed f64 Jacobian matrix",
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      },
+      "step_direction_checkpoint": {
+        "file": "step-direction-iteration-00.json.gz",
+        "bytes": 3455711,
+        "sha256": "8a419c4abb88f17bf0b8ad64c5b5935621d80a70f32c1420237dd44a7f7bce1e"
+      },
+      "strictly_improved_new_system_sigma_norm": true,
+      "exact_new_system_residual": {
+        "direction_float64le_sha256": "d902d088187a6c537cf3bac40eb2c6adad64f37daa323ce48e33685d58ee8f25",
+        "exact_rows": 307552,
+        "completed_stages": 1372,
+        "original_product_positions": 68841584,
+        "exact_global_original_sigma_norm": {
+          "kind": "stage",
+          "node": 518,
+          "row": 223,
+          "global_equation_row": 116367,
+          "component": "Pi",
+          "mode": 112,
+          "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+          "exact_unscaled_dyadic": [
+            "0x94083d01a3537277e7e9ec177b30d4623a884e0404ee3899c4939ef473443f6f",
+            -233
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "1217397407591436093646694776613181255195074458676702042152015259444004253321",
+            "denominator": "37887494732615929947377981802961017448185040719577088",
+            "decimal_display_64_significant_digits": "3.213190569033386386920456690866828311112172101690692893483850601E+22",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "1217397407591436093646694776613181255195074458676702042152015259444004253321",
+            "denominator": "37887494732615929947377981802961017448185040719577088",
+            "decimal_display_64_significant_digits": "3.213190569033386386920456690866828311112172101690692893483850601E+22",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 518,
+            "originalStage": 42,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 0,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 0,
+              "profile_index": 0,
+              "grid_index": 0,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0,
+                "float64le_hex": "0000000000000000",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": false,
+              "port_applied": false,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 1,
+              "shape_output_row": 0,
+              "shape_J_row": 0,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999999958,
+                "float64le_hex": "daffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 2.1268835585537372e-15,
+                "float64le_hex": "8bfb27744228e33c",
+                "classification": "finite"
+              }
+            },
+            "port": "one"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_original_stored_base_sigma_norm": {
+          "kind": "stage",
+          "node": 120,
+          "row": 206,
+          "global_equation_row": 27198,
+          "component": "Pi",
+          "mode": 95,
+          "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+          "exact_unscaled_dyadic": [
+            "-0x3e3fb5",
+            -74
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "-11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 120,
+            "originalStage": 10,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 11,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 11,
+              "profile_index": 0,
+              "grid_index": 11,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0.9166666666666666,
+                "float64le_hex": "555555555555ed3f",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": true,
+              "port_applied": true,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 12,
+              "shape_output_row": 11,
+              "shape_J_row": 11,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 682889847154.235,
+                  "float64le_hex": "85472e04eddf6342",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": -682889847154.235,
+                  "float64le_hex": "85472e04eddf63c2",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999808199,
+                "float64le_hex": "295dfdffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 0.9999999999999858,
+                "float64le_hex": "80ffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 6.917350858716319e-14,
+                "float64le_hex": "195b74027a78333d",
+                "classification": "finite"
+              }
+            },
+            "port": "original-exit"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_witness": {
+          "file": "iteration-00-exact-global-witness.json",
+          "bytes": 14379,
+          "sha256": "62bacaeeb3070ecedee3035d170eea425a1eac8952d54d48d92fae8485b5dc8f"
+        },
+        "all_exact_residual_rows": {
+          "name": "iteration-00-exact-residuals",
+          "file": "large-arrays/iteration-00-exact-residuals.jsonl.gz",
+          "dtype": "exact-dyadic-jsonl-gzip",
+          "shape": [
+            307552
+          ],
+          "bytes": 8789504,
+          "sha256": "9fbf0e688b55962763c94b55eb86b7ca58aace4ec4b5a2f943bf979d7c9e8d92",
+          "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+        },
+        "rounded_refinement_rhs": {
+          "name": "iteration-00-refinement-rhs",
+          "file": "large-arrays/iteration-00-refinement-rhs.f64le",
+          "dtype": "<f8",
+          "order": "C",
+          "shape": [
+            307552
+          ],
+          "bytes": 2460416,
+          "sha256": "f05302cca4575548f36049932f2e3c1a723087ee5e9319a3cf2c4a61417f70ba",
+          "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+          "finite": 307552,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "negative_zero": 0
+        }
+      },
+      "following_error_correction_solve": {
+        "label": "refinement-01",
+        "lapack_solve_info": 0,
+        "seconds": 0.085517775000028,
+        "new_coordinate_recovery": {
+          "entries": 307552,
+          "nonfinite": 0,
+          "nonzero_rounded_to_zero": 0,
+          "nonreversible_binary64_scalings": 0,
+          "examples": [],
+          "exact_real_dyadic_entry_scaling_verified": true,
+          "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+          "original_equations_rechecked_even_if_formation_loses_bits": true
+        }
+      }
+    },
+    {
+      "iteration": 1,
+      "delta": {
+        "name": "iteration-01-step-coordinate-delta",
+        "file": "large-arrays/iteration-01-step-coordinate-delta.f64le",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          1373,
+          224
+        ],
+        "bytes": 2460416,
+        "sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+        "role": "All original-coordinate new1372 unscaled coordinates; newly formed f64 Jacobian matrix",
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      },
+      "step_direction_checkpoint": {
+        "file": "step-direction-iteration-01.json.gz",
+        "bytes": 3454793,
+        "sha256": "b7d1f1391c06e4e28ae827701264c2e51198f7f7dcb8bb432e1b37977de84551"
+      },
+      "strictly_improved_new_system_sigma_norm": true,
+      "exact_new_system_residual": {
+        "direction_float64le_sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+        "exact_rows": 307552,
+        "completed_stages": 1372,
+        "original_product_positions": 68841584,
+        "exact_global_original_sigma_norm": {
+          "kind": "stage",
+          "node": 518,
+          "row": 223,
+          "global_equation_row": 116367,
+          "component": "Pi",
+          "mode": 112,
+          "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+          "exact_unscaled_dyadic": [
+            "0x796ca3d32befe93f0e2705e39498b5e188c940c441cec91ab33035e941915277",
+            -233
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "54921804839401694382866207478529061017606637574788078221359661917861114368631",
+            "denominator": "2083812210293876147105788999162855959650177239576739840",
+            "decimal_display_64_significant_digits": "2.635640801416370179734940671151974323306941774890750783471262156E+22",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "54921804839401694382866207478529061017606637574788078221359661917861114368631",
+            "denominator": "2083812210293876147105788999162855959650177239576739840",
+            "decimal_display_64_significant_digits": "2.635640801416370179734940671151974323306941774890750783471262156E+22",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 518,
+            "originalStage": 42,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 0,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 0,
+              "profile_index": 0,
+              "grid_index": 0,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0,
+                "float64le_hex": "0000000000000000",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": false,
+              "port_applied": false,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 1,
+              "shape_output_row": 0,
+              "shape_J_row": 0,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999999958,
+                "float64le_hex": "daffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 2.1268835585537372e-15,
+                "float64le_hex": "8bfb27744228e33c",
+                "classification": "finite"
+              }
+            },
+            "port": "one"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_original_stored_base_sigma_norm": {
+          "kind": "stage",
+          "node": 120,
+          "row": 206,
+          "global_equation_row": 27198,
+          "component": "Pi",
+          "mode": 95,
+          "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+          "exact_unscaled_dyadic": [
+            "-0x3e3fb5",
+            -74
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "-11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 120,
+            "originalStage": 10,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 11,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 11,
+              "profile_index": 0,
+              "grid_index": 11,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0.9166666666666666,
+                "float64le_hex": "555555555555ed3f",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": true,
+              "port_applied": true,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 12,
+              "shape_output_row": 11,
+              "shape_J_row": 11,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 682889847154.235,
+                  "float64le_hex": "85472e04eddf6342",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": -682889847154.235,
+                  "float64le_hex": "85472e04eddf63c2",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999808199,
+                "float64le_hex": "295dfdffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 0.9999999999999858,
+                "float64le_hex": "80ffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 6.917350858716319e-14,
+                "float64le_hex": "195b74027a78333d",
+                "classification": "finite"
+              }
+            },
+            "port": "original-exit"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_witness": {
+          "file": "iteration-01-exact-global-witness.json",
+          "bytes": 14385,
+          "sha256": "572f7b9ef4ce28da1c42338a253245016fbb95249835a7bbfe6652b06a18e9ad"
+        },
+        "all_exact_residual_rows": {
+          "name": "iteration-01-exact-residuals",
+          "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+          "dtype": "exact-dyadic-jsonl-gzip",
+          "shape": [
+            307552
+          ],
+          "bytes": 8711016,
+          "sha256": "011937fbdbd06a74a8199531280a16345586b286c2e7968142cd3c9dd5961250",
+          "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+        },
+        "rounded_refinement_rhs": {
+          "name": "iteration-01-refinement-rhs",
+          "file": "large-arrays/iteration-01-refinement-rhs.f64le",
+          "dtype": "<f8",
+          "order": "C",
+          "shape": [
+            307552
+          ],
+          "bytes": 2460416,
+          "sha256": "9b67ec6fc4dc1250af841ba7dceb4fab4f43d71e8dbf8383f545462b0a9789c7",
+          "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+          "finite": 307552,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "negative_zero": 0
+        }
+      },
+      "following_error_correction_solve": {
+        "label": "refinement-02",
+        "lapack_solve_info": 0,
+        "seconds": 0.08667117900000676,
+        "new_coordinate_recovery": {
+          "entries": 307552,
+          "nonfinite": 0,
+          "nonzero_rounded_to_zero": 0,
+          "nonreversible_binary64_scalings": 0,
+          "examples": [],
+          "exact_real_dyadic_entry_scaling_verified": true,
+          "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+          "original_equations_rechecked_even_if_formation_loses_bits": true
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "delta": {
+        "name": "iteration-02-step-coordinate-delta",
+        "file": "large-arrays/iteration-02-step-coordinate-delta.f64le",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          1373,
+          224
+        ],
+        "bytes": 2460416,
+        "sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+        "role": "All original-coordinate new1372 unscaled coordinates; newly formed f64 Jacobian matrix",
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      },
+      "step_direction_checkpoint": {
+        "file": "step-direction-iteration-02.json.gz",
+        "bytes": 3454362,
+        "sha256": "497ab41ed91e1b62d7c250a81904fde8ffcfaca5295b46fa93026c364d5527fa"
+      },
+      "strictly_improved_new_system_sigma_norm": true,
+      "exact_new_system_residual": {
+        "direction_float64le_sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+        "exact_rows": 307552,
+        "completed_stages": 1372,
+        "original_product_positions": 68841584,
+        "exact_global_original_sigma_norm": {
+          "kind": "stage",
+          "node": 518,
+          "row": 223,
+          "global_equation_row": 116367,
+          "component": "Pi",
+          "mode": 112,
+          "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+          "exact_unscaled_dyadic": [
+            "0x7595c6481bdea111b2eda65b9ea9b11123b268f6428ddacface63cc96e1e192b",
+            -233
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "53185231986721987477368351175200891390489569054573636496766224062845189757227",
+            "denominator": "2083812210293876147105788999162855959650177239576739840",
+            "decimal_display_64_significant_digits": "2.552304460257547558335607736456071429761881751952739590060132772E+22",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "53185231986721987477368351175200891390489569054573636496766224062845189757227",
+            "denominator": "2083812210293876147105788999162855959650177239576739840",
+            "decimal_display_64_significant_digits": "2.552304460257547558335607736456071429761881751952739590060132772E+22",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 518,
+            "originalStage": 42,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 0,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 0,
+              "profile_index": 0,
+              "grid_index": 0,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0,
+                "float64le_hex": "0000000000000000",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": false,
+              "port_applied": false,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 1,
+              "shape_output_row": 0,
+              "shape_J_row": 0,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999999958,
+                "float64le_hex": "daffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 2.1268835585537372e-15,
+                "float64le_hex": "8bfb27744228e33c",
+                "classification": "finite"
+              }
+            },
+            "port": "one"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_original_stored_base_sigma_norm": {
+          "kind": "stage",
+          "node": 120,
+          "row": 206,
+          "global_equation_row": 27198,
+          "component": "Pi",
+          "mode": 95,
+          "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+          "exact_unscaled_dyadic": [
+            "-0x3e3fb5",
+            -74
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "-11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 120,
+            "originalStage": 10,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 11,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 11,
+              "profile_index": 0,
+              "grid_index": 11,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0.9166666666666666,
+                "float64le_hex": "555555555555ed3f",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": true,
+              "port_applied": true,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 12,
+              "shape_output_row": 11,
+              "shape_J_row": 11,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 682889847154.235,
+                  "float64le_hex": "85472e04eddf6342",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": -682889847154.235,
+                  "float64le_hex": "85472e04eddf63c2",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999808199,
+                "float64le_hex": "295dfdffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 0.9999999999999858,
+                "float64le_hex": "80ffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 6.917350858716319e-14,
+                "float64le_hex": "195b74027a78333d",
+                "classification": "finite"
+              }
+            },
+            "port": "original-exit"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_witness": {
+          "file": "iteration-02-exact-global-witness.json",
+          "bytes": 14385,
+          "sha256": "5eb0dc0a75e5d99f3081744f87e45581c413a49d702ace479a14abf8bb8eb529"
+        },
+        "all_exact_residual_rows": {
+          "name": "iteration-02-exact-residuals",
+          "file": "large-arrays/iteration-02-exact-residuals.jsonl.gz",
+          "dtype": "exact-dyadic-jsonl-gzip",
+          "shape": [
+            307552
+          ],
+          "bytes": 8698559,
+          "sha256": "72869a671a7732e99ebe2f3b11c286cae79479a439f7f99f9d8e32c79272dd2f",
+          "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+        },
+        "rounded_refinement_rhs": {
+          "name": "iteration-02-refinement-rhs",
+          "file": "large-arrays/iteration-02-refinement-rhs.f64le",
+          "dtype": "<f8",
+          "order": "C",
+          "shape": [
+            307552
+          ],
+          "bytes": 2460416,
+          "sha256": "e12e17b5e5d01110da572957b090edaf456e5e2d9370cb95efbc84cfe67d6203",
+          "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+          "finite": 307552,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "negative_zero": 0
+        }
+      },
+      "following_error_correction_solve": {
+        "label": "refinement-03",
+        "lapack_solve_info": 0,
+        "seconds": 0.08720429199996715,
+        "new_coordinate_recovery": {
+          "entries": 307552,
+          "nonfinite": 0,
+          "nonzero_rounded_to_zero": 0,
+          "nonreversible_binary64_scalings": 0,
+          "examples": [],
+          "exact_real_dyadic_entry_scaling_verified": true,
+          "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+          "original_equations_rechecked_even_if_formation_loses_bits": true
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "delta": {
+        "name": "iteration-03-step-coordinate-delta",
+        "file": "large-arrays/iteration-03-step-coordinate-delta.f64le",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          1373,
+          224
+        ],
+        "bytes": 2460416,
+        "sha256": "ed4a270cea928cadd879d5d6fb76759daedbdc868d97a2a307597e2f37c89dc5",
+        "role": "All original-coordinate new1372 unscaled coordinates; newly formed f64 Jacobian matrix",
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      },
+      "step_direction_checkpoint": {
+        "file": "step-direction-iteration-03.json.gz",
+        "bytes": 3454526,
+        "sha256": "1d74f1dc909cfc6d9697bf398bd078596202bb73c55a2f034707330b60ae258c"
+      },
+      "strictly_improved_new_system_sigma_norm": false,
+      "exact_new_system_residual": {
+        "direction_float64le_sha256": "ed4a270cea928cadd879d5d6fb76759daedbdc868d97a2a307597e2f37c89dc5",
+        "exact_rows": 307552,
+        "completed_stages": 1372,
+        "original_product_positions": 68841584,
+        "exact_global_original_sigma_norm": {
+          "kind": "stage",
+          "node": 518,
+          "row": 223,
+          "global_equation_row": 116367,
+          "component": "Pi",
+          "mode": 112,
+          "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+          "exact_unscaled_dyadic": [
+            "0xeb2b8c9037bd422365dc5a1faee0a9d41e4488374a88e85852a40931fbe8fb5",
+            -230
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "1329630799668049686934210039348687160329444799194846190266541091354092064753",
+            "denominator": "52095305257346903677644724979071398991254430989418496",
+            "decimal_display_64_significant_digits": "2.552304460257547558335610155039970019887094964691195125661785638E+22",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "1329630799668049686934210039348687160329444799194846190266541091354092064753",
+            "denominator": "52095305257346903677644724979071398991254430989418496",
+            "decimal_display_64_significant_digits": "2.552304460257547558335610155039970019887094964691195125661785638E+22",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 518,
+            "originalStage": 42,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 0,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 0,
+              "profile_index": 0,
+              "grid_index": 0,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0,
+                "float64le_hex": "0000000000000000",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": false,
+              "port_applied": false,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 1,
+              "shape_output_row": 0,
+              "shape_J_row": 0,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": 25108449735.79109,
+                  "float64le_hex": "132a1f2752621742",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999999958,
+                "float64le_hex": "daffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 2.1268835585537372e-15,
+                "float64le_hex": "8bfb27744228e33c",
+                "classification": "finite"
+              }
+            },
+            "port": "one"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_original_stored_base_sigma_norm": {
+          "kind": "stage",
+          "node": 120,
+          "row": 206,
+          "global_equation_row": 27198,
+          "component": "Pi",
+          "mode": 95,
+          "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+          "exact_unscaled_dyadic": [
+            "-0x3e3fb5",
+            -74
+          ],
+          "exact_signed_scaled_residual": {
+            "numerator": "-11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "exact_absolute_scaled_residual": {
+            "numerator": "11407223422976",
+            "denominator": "273075959744683",
+            "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+            "display_never_used_for_comparison": true
+          },
+          "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+          "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+          "source_stage": {
+            "newStage": 120,
+            "originalStage": 10,
+            "rawCell": 0,
+            "kind": "actual-original-RK-step",
+            "stepIndex": 11,
+            "originalStepCount": 12,
+            "schedule": {
+              "global_step": 11,
+              "profile_index": 0,
+              "grid_index": 11,
+              "grid_branch": "ordinary",
+              "x": {
+                "value": 0.9166666666666666,
+                "float64le_hex": "555555555555ed3f",
+                "classification": "finite"
+              },
+              "h": {
+                "value": 0.08333333333333333,
+                "float64le_hex": "555555555555b53f",
+                "classification": "finite"
+              },
+              "final_original_step": true,
+              "port_applied": true,
+              "port_ratio": {
+                "value": 1,
+                "float64le_hex": "000000000000f03f",
+                "classification": "finite"
+              },
+              "field_calls": 4,
+              "full_state_row": 12,
+              "shape_output_row": 11,
+              "shape_J_row": 11,
+              "shape_J_statistics": {
+                "entries": 50176,
+                "finite": 50176,
+                "nan": 0,
+                "positive_infinity": 0,
+                "negative_infinity": 0,
+                "zeros": 0,
+                "negative_zeros": 0,
+                "max_abs_finite": {
+                  "value": 682889847154.235,
+                  "float64le_hex": "85472e04eddf6342",
+                  "classification": "finite"
+                },
+                "max_abs_finite_index": 50063,
+                "max_abs_finite_entry": {
+                  "value": -682889847154.235,
+                  "float64le_hex": "85472e04eddf63c2",
+                  "classification": "finite"
+                }
+              },
+              "cumulative_minA": {
+                "value": 0.9999999999808199,
+                "float64le_hex": "295dfdffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_minD": {
+                "value": 0.9999999999999858,
+                "float64le_hex": "80ffffffffffef3f",
+                "classification": "finite"
+              },
+              "cumulative_maxRootRelative": {
+                "value": 6.917350858716319e-14,
+                "float64le_hex": "195b74027a78333d",
+                "classification": "finite"
+              }
+            },
+            "port": "original-exit"
+          },
+          "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+        },
+        "exact_witness": {
+          "file": "iteration-03-exact-global-witness.json",
+          "bytes": 14378,
+          "sha256": "be87b0007c1d6f451596416cb886d08869d48f3690fc5d6a4656fbabccb40b1b"
+        },
+        "all_exact_residual_rows": {
+          "name": "iteration-03-exact-residuals",
+          "file": "large-arrays/iteration-03-exact-residuals.jsonl.gz",
+          "dtype": "exact-dyadic-jsonl-gzip",
+          "shape": [
+            307552
+          ],
+          "bytes": 8690321,
+          "sha256": "89c98cddfb28c92b0393d598622b2c71b08e4b2ef91913a596f253463cc252d0",
+          "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+        },
+        "rounded_refinement_rhs": {
+          "name": "iteration-03-refinement-rhs",
+          "file": "large-arrays/iteration-03-refinement-rhs.f64le",
+          "dtype": "<f8",
+          "order": "C",
+          "shape": [
+            307552
+          ],
+          "bytes": 2460416,
+          "sha256": "4cfada88b17c8be277ca83ea82f2166db207acb2e662fe8a4173ae3e61d5f803",
+          "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+          "finite": 307552,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "negative_zero": 0
+        }
+      }
+    }
+  ],
+  "scope": "Exact new finite1372 rows at unchanged original sigma; no claim of old J, exact DF, or nonlinear acceptance."
+}

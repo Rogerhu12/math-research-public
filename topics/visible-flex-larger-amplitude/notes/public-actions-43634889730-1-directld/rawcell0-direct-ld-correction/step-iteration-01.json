@@ -1,0 +1,355 @@
+{
+  "iteration": 1,
+  "delta": {
+    "name": "iteration-01-step-coordinate-delta",
+    "file": "large-arrays/iteration-01-step-coordinate-delta.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      1373,
+      224
+    ],
+    "bytes": 2460416,
+    "sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+    "role": "All original-coordinate new1372 unscaled coordinates; newly formed f64 Jacobian matrix",
+    "finite": 307552,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "step_direction_checkpoint": {
+    "file": "step-direction-iteration-01.json.gz",
+    "bytes": 3454793,
+    "sha256": "b7d1f1391c06e4e28ae827701264c2e51198f7f7dcb8bb432e1b37977de84551"
+  },
+  "exact_new_system_residual": {
+    "iteration": 1,
+    "direction_float64le_sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+    "exact_rows": 307552,
+    "completed_stages": 1372,
+    "original_product_positions": 68841584,
+    "exact_global_original_sigma_norm": {
+      "kind": "stage",
+      "node": 518,
+      "row": 223,
+      "global_equation_row": 116367,
+      "component": "Pi",
+      "mode": 112,
+      "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+      "exact_unscaled_dyadic": [
+        "0x796ca3d32befe93f0e2705e39498b5e188c940c441cec91ab33035e941915277",
+        -233
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "54921804839401694382866207478529061017606637574788078221359661917861114368631",
+        "denominator": "2083812210293876147105788999162855959650177239576739840",
+        "decimal_display_64_significant_digits": "2.635640801416370179734940671151974323306941774890750783471262156E+22",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "54921804839401694382866207478529061017606637574788078221359661917861114368631",
+        "denominator": "2083812210293876147105788999162855959650177239576739840",
+        "decimal_display_64_significant_digits": "2.635640801416370179734940671151974323306941774890750783471262156E+22",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+      "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+      "source_stage": {
+        "newStage": 518,
+        "originalStage": 42,
+        "rawCell": 0,
+        "kind": "actual-original-RK-step",
+        "stepIndex": 0,
+        "originalStepCount": 12,
+        "schedule": {
+          "global_step": 0,
+          "profile_index": 0,
+          "grid_index": 0,
+          "grid_branch": "ordinary",
+          "x": {
+            "value": 0,
+            "float64le_hex": "0000000000000000",
+            "classification": "finite"
+          },
+          "h": {
+            "value": 0.08333333333333333,
+            "float64le_hex": "555555555555b53f",
+            "classification": "finite"
+          },
+          "final_original_step": false,
+          "port_applied": false,
+          "port_ratio": {
+            "value": 1,
+            "float64le_hex": "000000000000f03f",
+            "classification": "finite"
+          },
+          "field_calls": 4,
+          "full_state_row": 1,
+          "shape_output_row": 0,
+          "shape_J_row": 0,
+          "shape_J_statistics": {
+            "entries": 50176,
+            "finite": 50176,
+            "nan": 0,
+            "positive_infinity": 0,
+            "negative_infinity": 0,
+            "zeros": 0,
+            "negative_zeros": 0,
+            "max_abs_finite": {
+              "value": 25108449735.79109,
+              "float64le_hex": "132a1f2752621742",
+              "classification": "finite"
+            },
+            "max_abs_finite_index": 50063,
+            "max_abs_finite_entry": {
+              "value": 25108449735.79109,
+              "float64le_hex": "132a1f2752621742",
+              "classification": "finite"
+            }
+          },
+          "cumulative_minA": {
+            "value": 0.9999999999999958,
+            "float64le_hex": "daffffffffffef3f",
+            "classification": "finite"
+          },
+          "cumulative_minD": {
+            "value": 1,
+            "float64le_hex": "000000000000f03f",
+            "classification": "finite"
+          },
+          "cumulative_maxRootRelative": {
+            "value": 2.1268835585537372e-15,
+            "float64le_hex": "8bfb27744228e33c",
+            "classification": "finite"
+          }
+        },
+        "port": "one"
+      },
+      "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+    },
+    "exact_original_stored_base_sigma_norm": {
+      "kind": "stage",
+      "node": 120,
+      "row": 206,
+      "global_equation_row": 27198,
+      "component": "Pi",
+      "mode": 95,
+      "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+      "exact_unscaled_dyadic": [
+        "-0x3e3fb5",
+        -74
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "-11407223422976",
+        "denominator": "273075959744683",
+        "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "11407223422976",
+        "denominator": "273075959744683",
+        "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+      "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+      "source_stage": {
+        "newStage": 120,
+        "originalStage": 10,
+        "rawCell": 0,
+        "kind": "actual-original-RK-step",
+        "stepIndex": 11,
+        "originalStepCount": 12,
+        "schedule": {
+          "global_step": 11,
+          "profile_index": 0,
+          "grid_index": 11,
+          "grid_branch": "ordinary",
+          "x": {
+            "value": 0.9166666666666666,
+            "float64le_hex": "555555555555ed3f",
+            "classification": "finite"
+          },
+          "h": {
+            "value": 0.08333333333333333,
+            "float64le_hex": "555555555555b53f",
+            "classification": "finite"
+          },
+          "final_original_step": true,
+          "port_applied": true,
+          "port_ratio": {
+            "value": 1,
+            "float64le_hex": "000000000000f03f",
+            "classification": "finite"
+          },
+          "field_calls": 4,
+          "full_state_row": 12,
+          "shape_output_row": 11,
+          "shape_J_row": 11,
+          "shape_J_statistics": {
+            "entries": 50176,
+            "finite": 50176,
+            "nan": 0,
+            "positive_infinity": 0,
+            "negative_infinity": 0,
+            "zeros": 0,
+            "negative_zeros": 0,
+            "max_abs_finite": {
+              "value": 682889847154.235,
+              "float64le_hex": "85472e04eddf6342",
+              "classification": "finite"
+            },
+            "max_abs_finite_index": 50063,
+            "max_abs_finite_entry": {
+              "value": -682889847154.235,
+              "float64le_hex": "85472e04eddf63c2",
+              "classification": "finite"
+            }
+          },
+          "cumulative_minA": {
+            "value": 0.9999999999808199,
+            "float64le_hex": "295dfdffffffef3f",
+            "classification": "finite"
+          },
+          "cumulative_minD": {
+            "value": 0.9999999999999858,
+            "float64le_hex": "80ffffffffffef3f",
+            "classification": "finite"
+          },
+          "cumulative_maxRootRelative": {
+            "value": 6.917350858716319e-14,
+            "float64le_hex": "195b74027a78333d",
+            "classification": "finite"
+          }
+        },
+        "port": "original-exit"
+      },
+      "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+    },
+    "exact_witness": {
+      "file": "iteration-01-exact-global-witness.json",
+      "bytes": 14385,
+      "sha256": "572f7b9ef4ce28da1c42338a253245016fbb95249835a7bbfe6652b06a18e9ad"
+    },
+    "all_exact_residual_rows": {
+      "name": "iteration-01-exact-residuals",
+      "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        307552
+      ],
+      "bytes": 8711016,
+      "sha256": "011937fbdbd06a74a8199531280a16345586b286c2e7968142cd3c9dd5961250",
+      "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+    },
+    "rounded_refinement_rhs": {
+      "name": "iteration-01-refinement-rhs",
+      "file": "large-arrays/iteration-01-refinement-rhs.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        307552
+      ],
+      "bytes": 2460416,
+      "sha256": "9b67ec6fc4dc1250af841ba7dceb4fab4f43d71e8dbf8383f545462b0a9789c7",
+      "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+      "finite": 307552,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    "rhs_rounding": {
+      "rounded_rows": 307328,
+      "underflow_to_zero_rows": 0,
+      "exact_zero_rows": 112,
+      "examples": [
+        {
+          "row": 112,
+          "exact_residual": [
+            "0xa57b102c1a12af6f02068bd5b8ee58cf9c64e8de9f5",
+            -261
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "5642830562af54bd"
+        },
+        {
+          "row": 113,
+          "exact_residual": [
+            "-0x5d1630733762f38d24cb100432774130cd1",
+            -261
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "bdd8cd1c8c45473b"
+        },
+        {
+          "row": 114,
+          "exact_residual": [
+            "0x19591ded729b30e430c491d5743d970931",
+            -258
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "319b72ed1d5919bb"
+        },
+        {
+          "row": 115,
+          "exact_residual": [
+            "-0x7573c11a9ebd32868d4f824a93f193e45",
+            -258
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "4dafa746f05cfd3a"
+        },
+        {
+          "row": 116,
+          "exact_residual": [
+            "-0x374a5c218b09ac58e3c258df9686545edb",
+            -261
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "d684c5102ea5fb3a"
+        },
+        {
+          "row": 117,
+          "exact_residual": [
+            "0xd40c831e2d3a8401e140230bc359064be3",
+            -261
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "51a7c56390811abb"
+        },
+        {
+          "row": 118,
+          "exact_residual": [
+            "-0x104550b3bb0f104a33303f106846b7c709",
+            -260
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "100fbbb35045f03a"
+        },
+        {
+          "row": 119,
+          "exact_residual": [
+            "0xcc83f1352539b709a3f3d0af0feac5ac7",
+            -256
+          ],
+          "row_scale_exponent": 48,
+          "rounded_rhs_float64le_hex": "37a7a4267e9029bb"
+        }
+      ]
+    },
+    "all_nonzero_finite_operands_retained": true,
+    "native_accepted": false,
+    "elapsed_seconds": 22.095970560000012
+  },
+  "strictly_improved_new_system_sigma_norm": true,
+  "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+  "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+  "wrapper_producer_source_sha256": "42e10320252935015c65bbc34579947e559182bb1b2a74ca1aa13a6597c064b9",
+  "unqualified_original_equations_mean_unscaled_current_step_system": true,
+  "norm_scope": "All expanded rows use their explicit sigma; old-node sigma words are unchanged, the new all-row norm is not the old576 norm",
+  "original576_long_matrix_not_claimed_solved": true,
+  "original41_J1372_matrix_not_claimed_solved": true,
+  "target_J_is_the_new_direct_LD_rounded_original_coordinate_matrix": true
+}
