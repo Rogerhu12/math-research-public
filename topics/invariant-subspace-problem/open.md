@@ -161,13 +161,13 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 全部前态、完整公式与数据入口保[本次open全文](notes/2026-11-14-open-before-two-resolvents-angle-789f.md)，未列条目保持原状态。
 
-**真实graph与源费。** [完整一位接合](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)保真实短旗商度量、交叉和两切口；[普通完整右](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)给G=Bbare(Hbare+E_ret)⁻¹Bbare*，保LGL及高返回，固定层域/源满射已付。原连续尾宽窗只涵盖Q≤x；实际s≈q/x≈m仍欠同源抵消。
+**真实graph与源费。** [完整一位接合](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)保真实短旗商度量、交叉和两切口；[普通完整右](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)给G=Bbare(Hbare+E_ret)⁻¹Bbare*，保LGL及高返回，固定层域/源满射已付。原尾宽窗范围保前态，同源抵消仍欠。
 
 **同一实际测试。** [准确零模/部分左Gram](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)保原Z像及逆后高birth；全核头预算logC_m=O(m logm)。[真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)把boson最小链投入bare/full，源βt=B⁻¹Mt、γt=GMt，M≤B≤G⁻¹，正差保E_ret。t=−Av给逐cut T*MT≤(C_m−1)Ψ，原good-top直接付两链及差，不另选点。
 
 [两种源最小化](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)现给rbar=(L+M)⁻¹Lt、u=(L+G⁻¹)⁻¹Lt及e=rbar−u；(I+GL)e=(I−GM)rbar。原同窗付μ(t−e)²、flat(e)²；精确gap仍含μ(e)²。bare(e)、<Lr,e>与移动m窗口速率未付。滑动核切口与旋转预算按前态保留，不以小残量代无统一费精确逆。
 
-**R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功、cost全87；相关δ2秩1/7004，七正解仅常数，64恢复/14cache全部保存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091和真九维U9；八常数固定族仍排七目标全部预算。原全部有理像/精确秩/Smith恰层继续。
+**R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功、cost全87；相关δ2秩1/7004，七正解仅常数，64恢复/14cache全部保存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091和真九维U9；八常数固定族仍排七目标全部预算；[九常数族门槛](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)付自然图七列恰p²/pair恰p的条件分母及下一raw非零的全预算排除。全原有理像/精确秩/Smith恰层继续。
 
 [F9完整第一像](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)只需第9新关系；第8复用K4_7003，旧1842方向全落U9。[模31^6入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结并待实际执行：四artifact43输入，共享300s/512MiB，只新AK5/p5与九raw，全部primary/505自由保留，正列全17继续；负仅保当前F9前两位。较低初值第二/第三像另付，未得char0来源或必要两层。普通ISP及其它mean秩/高本质/自然幂仍开。
 
