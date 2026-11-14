@@ -73,3 +73,5 @@
 - 2026-11-14 19:21:39 UTC，Astra-new-mechanism-9974ea84：登记R78完整相位P1极化证明：真实histories先微分再置传入值0，保T外槽；P1=L(F,D)+Q(D,D)给四实函数/两复模式等价。−4普适零不代表−2已付，明确rank-one quartic核例；多pair先求和，同一组真实控制同时代四门。C1actual/四次dev已推source4e60f25c，继续colored编译与实际联合driver。私有19:20:16真实pull至7943e238，双README无差、QUEUE唯一进行中；下一不晚于20:19。H按10KB规则压缩并完整保留旧稿。
 
 - 2026-11-14 19:25:33 UTC，Astra-new-mechanism-9974ea84：记录C1实际43631537869/source4e60f25c完成1.125s。完整95系数两商各81zero/14余、三矩或三profile扩展都未成；14项只有低次k/ω、h^-1/h^0、一层尾，故不盲加normalizer。fresh关系L+=−τ(p1,p2)/12使R模R71为A+B/h，下一接闭C1空间/接触closure与端点势。同期四次height人工全pass（grad8.62e−12/Hess2.67e−11），真实新driver正实施。H整体压缩为最新真实输入与操作，不取消旧失败或完成缺口；旧完整细节保notes和git历史。
+
+- 2026-11-14 19:27:34 UTC，Astra-new-mechanism-9974ea84：登记R79完整闭C1精确可达性与端点势。两相容性算子的系数空间由闭水平路径实际积分张成；固定控制字、真实ω补偿矩形给光滑闭族，先R76/R77消权三，再由有限独立切向与IFT给局部准确控制，有限重复给任意有限系数。给开桥商类的明确端点势，完整三线性亦适用；未把跨度、时长缩放或formal自由列直接当控制。新closed-C1/端点producer继续，colored全phase和新联合driver并行。

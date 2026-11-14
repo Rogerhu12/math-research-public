@@ -159,3 +159,5 @@
 - [R77：权三局部算子空间的真实有限可达性](results/R77-weight-three-local-operator-actual-finite-controllability.md) — 给受ω_s=k_s/(2h)约束的真实状态右逆，以面积pulse/同向step和有限维对偶证明全部面积及三次速度系数空间由真实有限路径积分张成；prefix差送到共同端口，R76准确线性loop支付任意有限组合。Laurent单项系数亦可达，包括actual阳性的两C3列；权一端口积分、完整P1/P0/ruling和有限族仍欠。
 
 - [R78：完整相位P1的对称平方公式与四个整函数条件](results/R78-complete-phase-P1-symmetric-square-conditions.md) — 从真实常态drift及外槽保留的桥T定义K/L/Q，给P1=L(F,D)+Q(D,D)，固定相位圆准确等价四实函数或两复谐波条件。pure只付Q(q²,q²)，即使普适成立仍不推出−2模式；新增控制须以同组参数同时匹配全部槽。尚未求得共同零点/P0/ruling或有限族。
+
+- [R79：闭水平路径C1的准确控制与端点势](results/R79-closed-horizontal-C1-control-and-endpoint-potential.md) — 闭路径积分空间准确等于h-shape与contact两相容性算子的实际系数空间；真实收缩/ω矩形校正、R76抽局部项及R77去C3后，有限切向族+IFT+有限重复支付任意有限C1组合。商中开桥余类由准确端点势固定，保全部三线性/对角范围差别；未解全P1/P0/ruling与有限族。
