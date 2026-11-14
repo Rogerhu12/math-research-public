@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：e4c1104f8091514136d7409add2d41167ad27590；2026-11-14 18:51:41 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：09071f0a27f652e76d19912b9a3fb5f309edc56f；2026-11-14 18:52:07 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:00:10 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:00重试；恢复后先实际pull --rebase核规再接API历史。
@@ -63,7 +63,7 @@ R562：原σc⊗Bv四unit域(c,v,H=δc−v,K=δc+v)的J=∫c³/H²，与I4满足
 
 R563：µ−=KH PCh留整个S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²=diag(1,−1,−1)≠−Rc于µ−。全连续UH/UK有整常数逆；native Cunit迫SHSKf=0，同一H/K双unit域恰D12unit·UKf+D12deep·UHf。浅j<n只真第j支；深尾保全部常数log，K尾p^r而非p^(r+1)，准确首项见(32a)。
 
-[一般二重接触](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：r=ell、局部FYY单位的原首核可有二次Hensel因子，判别式H<2T给几何δ=floor(H/2)及原k二次扭曲；不是全局cube。原三高轴源端三角unit，是否读到完整余核尾类仍未付，无实际候选命中。
+[一般二重接触及真实尾带](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：原r=ell、FYY单位允许二次Hensel奇点，判别式H<2T给几何δ=floor(H/2)，保原k扭曲。τ为原各自由系数共同t含量，ν=ordW2≥ell；h0=min(τ,13)、m0=max(0,h0−(ν−ell))时P/t^j真同预算来源单位三角覆盖原M最后m0条第三行，完整U0/carry保。二重ν=ell且τ≥3全吸收R468三高轴尾类；ell≥floor((D+1)/4)+3足够。尚无实际向量命中；τ≤2、一般K1另外三carry尾及同一d2仍开。
 
 R564：D14、V=(-ω²,−ω,2,0,−2ω,−2ω)、K42=(-ω²,−ω,2,0,−3+3ω,3)两两正交，whole三β核保PC原二态。负strip=Vdeep/K42unit；其整个J−=βF−(κ)，原E/G/Y/W全部移动，F0含常数log质量、F1含真实log一阶，两者同为p阶可相消，尾p²。正strip仍开，规范K42非R563六度K。
 

@@ -281,3 +281,7 @@
 
 - 2026-11-14 18:51:41 UTC｜Astra-rank2-Sha-continue：保存Bertrand单点高度与rank2行列式的严格区别，核新derived-Heegner稿已假设Sha有限或c2非零，未赋本题非零。
   R564已推8bed0dab；继续实际正负条带、指定负矩上尾和原完整forcing，主目标未完成。
+
+
+- 2026-11-14 18:52:07 UTC｜Astra-rank2-Sha-continue：补齐一般二重记录的真同预算t除法尾带，原M最后m0行由显示列单位三角吸收，完整U0与十三行carry均保。
+  新文献核对已推09071f0a；二重τ≥3全吸收三高轴首次类，继续τ≤2、一般K1余carry及同一d2，不赋主结论。

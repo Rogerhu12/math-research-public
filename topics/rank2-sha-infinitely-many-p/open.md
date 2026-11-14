@@ -186,9 +186,9 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 
 [R563](results/R563-original-s24-three-state-and-native-unit-complement.md)已付整个S24三态、完整连续逆及真实Cunit交叉消失，把原native行准确分成D12unit·UKf和D12deep·UHf。浅环带只有指定第j项，深尾/常数质量与K侧p^r首项全部保。**待做：** 两条同域真实测试与原S/T、R562固定四unit行的合法比较，不能延旧gluing/−Rc至µ−，不能删独立原Y/W或额外伴随cut；原两零中央仅替换所显示的第一列完整补域。
 
-### 一般首核的局部二重接触
+### 一般首核的局部二重接触和原首像尾带
 
-[工作记录](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)保r=ell且FYY(0,1)单位的一般原向量：二次Hensel因子的A0/A1均深T，判别式H<2T给几何两分支/尖点及δ=floor(H/2)，原k上保二次扭曲。临界分支接触T不等于F=0支接触T；不以cube范围覆盖它。**待做：** R468三高轴所落的实际三条第三块尾行在完整原首余核中是否非零，并保原forcing/同一修正；源端三角unit不支付此像，尚无实际低预算向量命中声明。
+[一般二重接触及真实尾带](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：原r=ell、FYY单位允许二次Hensel奇点，判别式H<2T给几何δ=floor(H/2)，保原k扭曲。τ为原各自由系数共同t含量，ν=ordW2≥ell；h0=min(τ,13)、m0=max(0,h0−(ν−ell))时P/t^j真同预算来源单位三角覆盖原M最后m0条第三行，完整U0/carry保。二重ν=ell且τ≥3全吸收R468三高轴尾类；ell≥floor((D+1)/4)+3足够。尚无实际向量命中；τ≤2、一般K1另外三carry尾及同一d2仍开。 **待做：** 低角边界的实际尾类及全部原forcing/同一修正；源端单位块不能升级成第二障碍非零。
 
 ### R564：整个原负strip的真实返回
 
