@@ -1,0 +1,549 @@
+{
+  "baseline_cost_removed": false,
+  "bound_certificate": {
+    "all_15_selected_evaluation_labels": [
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "3/49",
+        "xi": "101/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "3/49",
+        "xi": "101/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "4/49",
+        "xi": "102/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "4/49",
+        "xi": "102/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "5/49",
+        "xi": "103/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "5/49",
+        "xi": "103/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "6/49",
+        "xi": "104/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "6/49",
+        "xi": "104/49"
+      }
+    ],
+    "bytes": 56173,
+    "checked_prime": 2147483647,
+    "extension_over_Q": "(ev_last(F)-row_last(A)*inverse(A_pivot)*ev_pivot(F))/kappa, applied to Pi_0(F)",
+    "github_run_id": "43638896281",
+    "kappa_mod_p": 2115674793,
+    "not_a_claim_that_new_F_belongs_to_old_V": true,
+    "old_15_by_15_modular_matrix_rechecked_from_receipt_only": true,
+    "original_modular_functional_coefficients": [
+      438863290,
+      241282915,
+      1632494918,
+      943751738,
+      2132424971,
+      1818707055,
+      1938811138,
+      858013918,
+      546710416,
+      1419998815,
+      1376525774,
+      597260718,
+      418637304,
+      877270066,
+      1
+    ],
+    "problem_identity_sha256": "f41d89d4e49618c80a105b270c6dbcf94099b6ffa84d374ed523fe89349c9b8b",
+    "sha256": "1146e6789d2f842ecc255930e2394bec5073029b13dcff4cc6f1aa445d07a78d",
+    "source_commit": "5ba4eceb196f6c899aae45921b3802014a0e09c6"
+  },
+  "coefficient_arithmetic": {
+    "all_encountered_rational_denominators_invertible": true,
+    "encountered_denominator_count": 76,
+    "encountered_denominators": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "encountered_denominators_sha256": "5cc48736335777482252a7c768f1dec012fa1e89fe72c28d48269c1085baa000",
+    "max_polynomial_degree": 76,
+    "operation_check_calls": 16177,
+    "prime": 2147483647,
+    "prime_checked_by_trial_division": true,
+    "raw_atoms_evaluated": 2310,
+    "raw_monomials_evaluated": 4140
+  },
+  "complete_P0_or_fixed_N_cancellation_paid": false,
+  "completed_new_columns": [
+    {
+      "all_15_original_values_mod_p": [
+        988280407,
+        735883032,
+        1318904800,
+        551406469,
+        1456666691,
+        272446934,
+        1823906462,
+        901454903,
+        1182606709,
+        4467608,
+        1864102664,
+        244240339,
+        339238907,
+        439947098,
+        1884423225
+      ],
+      "index": 0,
+      "known_exact_zero_from_paper_Jacobi": true,
+      "nonzero_exact_rational_extension_value_proved": false,
+      "normalized_Lambda_extension_value_mod_p": 0,
+      "original_mode_polynomial_sha256": {
+        "-2": "0404a241b75f322a9f63f7dd23b63b018fed78f73fd492e1d2c5a0fab141cc0a",
+        "-4": "b3afcb0453e2f47a4cb99d9bd01b3688365944368efada04a051b91fbc23ad8b"
+      },
+      "original_third_sha256": "74989d9bb1c98d42670b014315707d42bf4cd936c4b1f9251e67badda4462b13",
+      "projected_weight": 0,
+      "quadratic_coordinates": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "real_value_sign_claimed": false,
+      "third_name": "tau_p0_p2",
+      "unnormalized_lambda0_value_mod_p": 0,
+      "zero_mod_p_alone_is_not_exact_zero_proof": false
+    },
+    {
+      "all_15_original_values_mod_p": [
+        351762382,
+        1090358564,
+        253836808,
+        332010968,
+        985873387,
+        407234031,
+        179470215,
+        1413698523,
+        1479877115,
+        397563944,
+        1938759539,
+        968692324,
+        1531369592,
+        549259515,
+        1065666252
+      ],
+      "index": 1,
+      "known_exact_zero_from_paper_Jacobi": false,
+      "nonzero_exact_rational_extension_value_proved": true,
+      "normalized_Lambda_extension_value_mod_p": 2054146430,
+      "original_mode_polynomial_sha256": {
+        "-2": "80fbb9b8640090ece59bdf524c410fc329dc4a96d42bd5229b9eecb62f49d51e",
+        "-4": "c7e58dee92bb9135aa2e3d12eae81aaa883ab9742172e3236ef0695ee91eee60"
+      },
+      "original_third_sha256": "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+      "projected_weight": 0,
+      "quadratic_coordinates": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "real_value_sign_claimed": false,
+      "third_name": "tau_p1_t1",
+      "unnormalized_lambda0_value_mod_p": 79250643,
+      "zero_mod_p_alone_is_not_exact_zero_proof": true
+    },
+    {
+      "all_15_original_values_mod_p": [
+        284755643,
+        702649551,
+        1814172973,
+        356541453,
+        1632403564,
+        653679828,
+        1905126589,
+        938286735,
+        821495762,
+        2003856657,
+        1749739620,
+        464541137,
+        909982437,
+        993462148,
+        806015746
+      ],
+      "index": 2,
+      "known_exact_zero_from_paper_Jacobi": true,
+      "nonzero_exact_rational_extension_value_proved": false,
+      "normalized_Lambda_extension_value_mod_p": 0,
+      "original_mode_polynomial_sha256": {
+        "-2": "4a7aeffa790cd5d6626633d388b0556d5c56b35cb0dafa0e2f856187cb570966",
+        "-4": "504d107626afc80414a00e365da9f18a1380df51b4c01c77460468ec1719b640"
+      },
+      "original_third_sha256": "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+      "projected_weight": 0,
+      "quadratic_coordinates": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "real_value_sign_claimed": false,
+      "third_name": "tau_p2_s1",
+      "unnormalized_lambda0_value_mod_p": 0,
+      "zero_mod_p_alone_is_not_exact_zero_proof": false
+    },
+    {
+      "all_15_original_values_mod_p": [
+        985801228,
+        1874894006,
+        1752119445,
+        1776797613,
+        290402565,
+        760782964,
+        400685024,
+        1493750721,
+        1936647222,
+        1910534715,
+        1532623457,
+        862149006,
+        22305309,
+        1396137607,
+        222717075
+      ],
+      "index": 3,
+      "known_exact_zero_from_paper_Jacobi": false,
+      "nonzero_exact_rational_extension_value_proved": true,
+      "normalized_Lambda_extension_value_mod_p": 721224600,
+      "original_mode_polynomial_sha256": {
+        "-2": "26a1adbcf539c4ad232962af46650ccb9a80eae9cadb600af485ea9d35b2ae21",
+        "-4": "205658aa00d43eceb253dc1b09714a6e81d94af4267383cf374c9366d37622be"
+      },
+      "original_third_sha256": "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee",
+      "projected_weight": 0,
+      "quadratic_coordinates": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "real_value_sign_claimed": false,
+      "third_name": "h_shape_k",
+      "unnormalized_lambda0_value_mod_p": 1427607783,
+      "zero_mod_p_alone_is_not_exact_zero_proof": true
+    }
+  ],
+  "completion": "complete",
+  "elapsed_seconds": 2.4056580369999985,
+  "embedding_or_reach_certified": false,
+  "finite_isometric_family_constructed": false,
+  "fourth_ruling_paid": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43640085842",
+  "github_sha": "bccbbe27c8c105666b2d2438b9d1d48812e3ce55",
+  "interpretation": "A nonzero new residue proves a nonzero rational value of the explicit query extension, not its real sign. R83 then supplies a nonzero signed fourth tangent around its actual nonzero baseline, keeping lower M/T and the N coefficient unchanged. Neither even parameter costs, the baseline, complete P0, nor fixed-N cancellation is paid. A zero residue in an unknown column is only inconclusive.",
+  "limits": {
+    "bound_evaluation_rows": 15,
+    "coefficient_nodes": 300000,
+    "expression_terms": 100000,
+    "memory_polling_mib": 768,
+    "new_columns": 4,
+    "output_bytes": 100000,
+    "polynomial_degree": 256,
+    "polynomial_operations": 10000000,
+    "profile_atoms": 100000,
+    "rewrite_calls_per_normalizer": 500000,
+    "seconds": 120.0
+  },
+  "max_rss_mib": 35.6640625,
+  "new_columns_assumed_in_original_V": false,
+  "phase": "four_original_response_values",
+  "real_sign_or_global_negative_cost_proved": false,
+  "restoration": {
+    "coefficient_nodes": 9625,
+    "compiled_roots": "only R56 colored local third root and its exact R73/R79 decomposition",
+    "decomposition_original_reconstruction_verified": true,
+    "geometry_expansion_nodes": 3941,
+    "old_constant_fourth_target_compiled": false,
+    "old_rank_or_span_rerun": false,
+    "old_response_columns_evaluated": 0,
+    "profile_atoms": 180,
+    "root_records_sha256": "2cb2c9a2d85eb25775a203bf55dc7cf98682f546859798a84e91035d90ff6ed7"
+  },
+  "restored_templates": [
+    {
+      "inner_symmetry_original_zero_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "known_zero_by_complete_phase_Jacobi": true,
+      "name": "tau_p0_p2",
+      "original_hash_matched": true,
+      "pair": [
+        0,
+        2
+      ],
+      "raw_terms": 49,
+      "sha256": "74989d9bb1c98d42670b014315707d42bf4cd936c4b1f9251e67badda4462b13",
+      "v2_original_index": 1
+    },
+    {
+      "inner_symmetry_original_zero_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "known_zero_by_complete_phase_Jacobi": false,
+      "name": "tau_p1_t1",
+      "original_hash_matched": true,
+      "pair": [
+        1,
+        7
+      ],
+      "raw_terms": 35,
+      "sha256": "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+      "v2_original_index": 12
+    },
+    {
+      "inner_symmetry_original_zero_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "known_zero_by_complete_phase_Jacobi": true,
+      "name": "tau_p2_s1",
+      "original_hash_matched": true,
+      "pair": [
+        2,
+        6
+      ],
+      "raw_terms": 65,
+      "sha256": "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+      "v2_original_index": 16
+    },
+    {
+      "inner_symmetry_original_zero_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "known_zero_by_complete_phase_Jacobi": false,
+      "name": "h_shape_k",
+      "original_hash_matched": true,
+      "pair": null,
+      "raw_terms": 78,
+      "sha256": "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee",
+      "v2_original_index": 109
+    }
+  ],
+  "same_bound_profile": {
+    "a_specific_smooth_circle_claimed": false,
+    "actual_right_anchor": "the common right collar; on [2,3] it equals the integral from xi=3",
+    "common_outer_collars": "choose a larger compact I inside (1,infinity), with support [2,3] in its interior",
+    "coordinate": "t=(xi-2)/(3-2)",
+    "f": "[t*(1-t)]^m",
+    "f_modular_coefficients_sha256": "6d427f2fee9a5c09bfc95c997459e64717418c903417fffc8c5d8d90360ea92c",
+    "g": "[t*(1-t)]^m*(1+2*t+3*t^2+5*t^3)",
+    "g_modular_coefficients_sha256": "cfc1248ce5695685743fe288bff1266c9363e21168339d58b6772286c7ed10c5",
+    "m": 8,
+    "support": [
+      "2",
+      "3"
+    ],
+    "three_moment_circle_conditions_imposed": false,
+    "zero_extension_regularity": "C^7",
+    "zero_outside_support": true
+  },
+  "schema": "visible-flex-R83-fourth-character-transverse-v1",
+  "scope": "explicit query-formula extension of R98 Lambda to four R83 fourth tangents",
+  "some_nonzero_exact_rational_extension_value_proved": true,
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 18310,
+      "filename": "literature_fourth_character_transverse_probe.py",
+      "sha256": "84a8ea232536263af398f781b5647ab540e06e21e9c2a83005d4cee2708451c3"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "original_problem_driver": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "scaling_block_driver": {
+      "bytes": 37293,
+      "filename": "literature_total_P1_scaling_blocks.py",
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  }
+}
