@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -243,6 +243,37 @@ jobs:
             --tail-height-min .05 --tail-height-max .6 --radius-floor .24 --radius-ceiling .9 \
             --radial-free 5 --modes 12 --angular 96 --radial-gauss 6 --inlet-angles 256 \
             --max-nfev 250 --out "$VISIBLE_NEW_OUT/core-tail-inward-C.json"
+      - name: Design all eleven complete period coefficients with bounded speed
+        if: matrix.lane == 'codedesign'
+        timeout-minutes: 35
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_base_codesign.py" \
+            --theta-n 768 --validation-n 768 1536 3072 --modes 12 --max-nfev 350 \
+            --out "$VISIBLE_NEW_OUT/eleven-period-coefficient-designs.json"
+      - name: Solve fixed inward metric with actual raised cap planes
+        if: matrix.lane == 'inward_fixed'
+        timeout-minutes: 40
+        run: |
+          for engine in cartesian signed; do
+            python -u "$VISIBLE_NEW_SCRIPTS/inward_collar_search.py" \
+              --engine "$engine" --ellipse-major 1 --ellipse-minor .3 \
+              --core-half-height .23 --connection-length .8 --cut-radius .28 --port-height .30 \
+              --inward-overshoot 1.53 --inward-first-fraction .67 --reach-budget .069 \
+              --controls 16 --modes 12 --angles 128 --radial-order 8 --max-nfev 220 \
+              --check-jacobian --out "$VISIBLE_NEW_OUT/inward-fixed-${engine}.json"
+          done
+      - name: Continue constant-perimeter circles to strong elliptic cores
+        if: matrix.lane == 'ellipse_cont'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/ellipse_core_continuation.py" \
+            --length 1.0 --h0 .23 --beta-wiggle .8 --radial-free 9 --modes 12 \
+            --accept-metric .0001 --initial-step .125 --min-step .0078125 \
+            --max-attempts 40 --max-nfev 250 --out-dir "$VISIBLE_NEW_OUT" --prefix ellipse-L10
+          python -u "$VISIBLE_NEW_SCRIPTS/ellipse_core_continuation.py" \
+            --length 1.1 --h0 .25 --beta-wiggle .8 --radial-free 9 --modes 12 \
+            --accept-metric .0001 --initial-step .125 --min-step .0078125 \
+            --max-attempts 40 --max-nfev 250 --out-dir "$VISIBLE_NEW_OUT" --prefix ellipse-L11
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

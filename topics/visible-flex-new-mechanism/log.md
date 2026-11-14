@@ -50,3 +50,6 @@
 
 - 2026-11-14 19:07 CST，Astra-new-mechanism-9974ea84：B/C真实细网格metric为.718/.692；两平盘位于椭圆柱高度范围内，选实际同侧法线弦严格给reach≤.02，故两输出均不能组装为合格闭面。
   完整审计保存，后续抬高实际末盘并增加恒周长椭圆warm continuation。Newton同参数重跑43588099714已成功，原始JSON已到树内，正审计。
+
+- 2026-11-14 19:11 CST，Astra-new-mechanism-9974ea84：Newton非零相位实际验证误差为.00284/.00674/.01085，Jac通过但无等距切片，已保存完整审计。
+  共享workflow/publisher新增codedesign、ellipse_cont、inward_fixed三lane，仅用于本公开题：11积分共同设计、恒周长入口warm延续、实际抬高末盘的固定g表示。纯代数/圆控制/边界导数开发检查通过，昂贵优化交Actions。

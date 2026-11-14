@@ -1,13 +1,14 @@
 {
-  "request": "rerun-fixed-metric-band-newton-after-json-bool-fix",
-  "created_at": "2026-11-14T19:01:52.335203+08:00",
+  "request": "complete-period-base-design-raised-caps-and-elliptic-continuation",
+  "created_at": "2026-11-14T19:11:06.907761+08:00",
   "repository": "Rogerhu12/math-research-public",
-  "workflow": ".github/workflows/visible-new-mechanism-search.yml",
   "lanes": [
-    "band_newton"
+    "codedesign",
+    "ellipse_cont",
+    "inward_fixed"
   ],
-  "retries_failed_run": "43587455201",
-  "reason": "numeric loop reached final JSON serialization; numpy.bool_ prevented any result file; explicit Python bool fix only",
-  "fixed_physical_parameters": true,
+  "codedesign": "all eleven R5 integrals plus actual axial closure, bounded Fourier log-speed",
+  "ellipse_cont": "fixed perimeter circle-to-ellipse design, two reference lengths, .0001 design threshold only",
+  "inward_fixed": "fixed g, actual cap height .30, Cartesian and signed representations",
   "task_complete": false
 }
