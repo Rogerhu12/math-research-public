@@ -1,0 +1,84 @@
+{
+  "complete_adjoint_checks": [
+    {
+      "kind": "all",
+      "forward_dual": -759739640.2991476,
+      "adjoint_dual": -759739640.2991472,
+      "normwise_adjoint_error": 7.9647912309815e-19
+    },
+    {
+      "kind": "global-core-and-controls",
+      "forward_dual": 8.27347674057752,
+      "adjoint_dual": 8.273476740577541,
+      "normwise_adjoint_error": 2.2731465048385738e-24
+    },
+    {
+      "kind": "first-last-physical",
+      "forward_dual": -612237827.9516004,
+      "adjoint_dual": -612237827.9515998,
+      "normwise_adjoint_error": 1.4229961785490683e-18
+    }
+  ],
+  "original_augmented_vs_exact_coordinate_action_relative_errors": [
+    1.1102230246251565e-16,
+    3.3306690738754696e-16,
+    6.788970828422524e-16,
+    2.1515753493614026e-16
+  ],
+  "independent_original_nonlinear_collocation_complex_direction_relative_error": 8.673617379884035e-19,
+  "independent_physical_direction_threshold": 5e-05,
+  "physical_complex_direction_includes_actual_nonlinear_midpoint": true,
+  "independent_direction_scope": "Only all free inlet core and global controls; interior physical coordinates zero",
+  "implementation_check_passed": true,
+  "verification_threshold": 5e-12,
+  "no_native_tail_called": true,
+  "no_scientific_acceptance_claim": true,
+  "full_metric_projection_entry": {
+    "schema": "exact-constraint-seven-query-bounded-complete-H-warm-v1",
+    "entry_source_sha256": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+    "source_sha256": {
+      "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+      "geometry_20261114_seven_query_projection_warm.py": "f6598a5e4738f6c2c310eccc9fd791b68c3731ad3fc3adfd83414450d95c8394",
+      "geometry_20261114_observed_seven_projection_warm.py": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c"
+    },
+    "actual_parent_warm_sha256": "f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9",
+    "actual_parent_status_sha256": "a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4",
+    "initial_request29_warm_sha256": "f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9",
+    "initial_request29_status_sha256": "a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4",
+    "actual_parent_optimizer_schema": "exact-constraint-seven-query-read-only-midpoint-observer-warm-v1",
+    "intervals": [
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "fraction": 0.17267316464601146,
+    "selected_angle_row_count": 14336,
+    "physical_angles": 2048,
+    "theta": 0.5,
+    "original_complete_A_B_weights_LSMR_and_C_projection_retained": true,
+    "additional_candidate": "bounded complete-H full-global subspace helper",
+    "candidate_selection": "actual same full damped objective, retaining the original C candidate",
+    "original_parent_producer_subtree_preserved": true,
+    "original_nonlinear_backtracking_RMS_domain_and_scientific_gates_unchanged": true,
+    "original_read_only_midpoint_observer_retained": true,
+    "full_H_function_reference_captured_before_engine_patch": true,
+    "full_H_resources": {
+      "seconds": 600.0,
+      "original_trial_and_preservation_reserve_seconds": 180.0,
+      "max_active": 32,
+      "max_total_H_products": 1200,
+      "max_inner_iterations": 64,
+      "inner_relative_tolerance": 1e-08,
+      "max_dual_sweeps": 200
+    },
+    "no_complete_QP_optimality_or_continuous_domain_certificate": true,
+    "native_tail_called": false,
+    "full_BVP_acceptance": false
+  },
+  "selected_angle_row_count": 14336
+}

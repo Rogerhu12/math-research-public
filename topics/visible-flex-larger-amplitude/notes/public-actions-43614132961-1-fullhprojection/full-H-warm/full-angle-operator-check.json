@@ -1,0 +1,174 @@
+{
+  "schema": "captured-full-angle-Hermite-domain-operator-v1",
+  "model_sha256": "8faeb2c84a44e593f126a8a3afccaf912aa207b1052cab3639a6d371cc15245a",
+  "adjoint_and_local_checks": [
+    {
+      "kind": "all-coordinates",
+      "forward_dual": -3170963.1889960878,
+      "transpose_dual": -3170963.1889960924,
+      "normwise_adjoint_error": 3.885003577978342e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "shared-endpoints-and-controls",
+      "forward_dual": -371434.65575591894,
+      "transpose_dual": -371434.6557559229,
+      "normwise_adjoint_error": 9.88888586928303e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "controls-and-zero-support-core",
+      "forward_dual": 0.0,
+      "transpose_dual": 0.0,
+      "normwise_adjoint_error": 0.0,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    }
+  ],
+  "original_complex_chain_checks": [
+    {
+      "kind": "actual-supplied-scaled-direction",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "10579c066f064aa58716e53980e228c9d5a78f1ce6eb84948c4b09ae0925be7c",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "e8d42da73ac2d4ae7f557fd77c2af8b9696e0d609a82310eaa098dab4192375b",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "66b7cc770a098200a0dd4aec2a4ffbe6d81dd4cf7cec2e32d40bea48a9e53b7c",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 4.3286263462505303e-11,
+      "maximum_relative_error": 8.888344076056027e-13,
+      "worst_row": 7157,
+      "worst_interval": 477,
+      "worst_angle_index": 1013,
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 11,
+      "complex_chart_expand_not_used": true
+    },
+    {
+      "kind": "seeded-local-physical-core-and-controls",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "acf687810d6ae3cc80da88769aae2e2eeaa27302120e3ae1aa03a64750ce1c9b",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "c3e2dc1892534d7887b959a8321c903b55aad268c57e4db9f94d0ccf66b46949",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "87a4bb2926d9da51c9c36659131ed0c35debe9355be4d41bb9889c5a946f0161",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 3.158929757773876e-07,
+      "maximum_relative_error": 5.755189140889822e-13,
+      "worst_row": 7157,
+      "worst_interval": 477,
+      "worst_angle_index": 1013,
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 11,
+      "complex_chart_expand_not_used": true
+    }
+  ],
+  "maximum_normwise_adjoint_error": 9.88888586928303e-18,
+  "maximum_local_full_action_error": 0.0,
+  "maximum_original_complex_chain_relative_error": 8.888344076056027e-13,
+  "implementation_thresholds": {
+    "adjoint_and_local": 5e-12,
+    "original_complex_chain": 5e-05
+  },
+  "implementation_check_passed": true,
+  "actual_supplied_direction_checked": true,
+  "second_complete_Jacobian_constructed": false,
+  "native_tail_called": false,
+  "new_scientific_acceptance_gate": false,
+  "scope": "selected original Hermite queries and full finite original phi grids only",
+  "full_metric_projection_entry": {
+    "schema": "exact-constraint-seven-query-bounded-complete-H-warm-v1",
+    "entry_source_sha256": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+    "source_sha256": {
+      "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+      "geometry_20261114_seven_query_projection_warm.py": "f6598a5e4738f6c2c310eccc9fd791b68c3731ad3fc3adfd83414450d95c8394",
+      "geometry_20261114_observed_seven_projection_warm.py": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c"
+    },
+    "actual_parent_warm_sha256": "f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9",
+    "actual_parent_status_sha256": "a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4",
+    "initial_request29_warm_sha256": "f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9",
+    "initial_request29_status_sha256": "a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4",
+    "actual_parent_optimizer_schema": "exact-constraint-seven-query-read-only-midpoint-observer-warm-v1",
+    "intervals": [
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "fraction": 0.17267316464601146,
+    "selected_angle_row_count": 14336,
+    "physical_angles": 2048,
+    "theta": 0.5,
+    "original_complete_A_B_weights_LSMR_and_C_projection_retained": true,
+    "additional_candidate": "bounded complete-H full-global subspace helper",
+    "candidate_selection": "actual same full damped objective, retaining the original C candidate",
+    "original_parent_producer_subtree_preserved": true,
+    "original_nonlinear_backtracking_RMS_domain_and_scientific_gates_unchanged": true,
+    "original_read_only_midpoint_observer_retained": true,
+    "full_H_function_reference_captured_before_engine_patch": true,
+    "full_H_resources": {
+      "seconds": 600.0,
+      "original_trial_and_preservation_reserve_seconds": 180.0,
+      "max_active": 32,
+      "max_total_H_products": 1200,
+      "max_inner_iterations": 64,
+      "inner_relative_tolerance": 1e-08,
+      "max_dual_sweeps": 200
+    },
+    "no_complete_QP_optimality_or_continuous_domain_certificate": true,
+    "native_tail_called": false,
+    "full_BVP_acceptance": false
+  },
+  "selected_angle_row_count": 14336
+}

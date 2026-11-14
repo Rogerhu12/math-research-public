@@ -1,0 +1,266 @@
+{
+  "schema": "actual-final-C-or-complete-H-model-evidence-v1",
+  "selected_candidate": "original-C-metric-feasible-direction",
+  "direction": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "3bd844523729acd96a1d719f8c54aac1276d14dad5cf4341baaace74b69254d9",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0026-part-0000.npz",
+        "sha256": "8da0fb246892c6b7acfea41c3e05b52be208f3346d63e68a4474c7a845b3738a",
+        "bytes": 1828710,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "3bd844523729acd96a1d719f8c54aac1276d14dad5cf4341baaace74b69254d9",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_A_action": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "d9aa05cdb24c242dfcfa3e4cdfc8ce1eb9e0d23d8142508411ae9c5a9e525a87",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0027-part-0000.npz",
+        "sha256": "a62619c2f0450391135391dd62532907890c854476c1641554e3d91e7e4da6c3",
+        "bytes": 1827285,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "d9aa05cdb24c242dfcfa3e4cdfc8ce1eb9e0d23d8142508411ae9c5a9e525a87",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_B_action": {
+    "array_identity": {
+      "shape": [
+        14336
+      ],
+      "dtype": "<f8",
+      "sha256": "6dc9caf7e2ff62da6de24c691aa286aeca3932c292bfb980d86b23d81fb21e00",
+      "bytes": 114688,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0028-part-0000.npz",
+        "sha256": "e00197d1b9a300064fa4c3547d7202e0994776edd7b788e2d865ede2f7bb8499",
+        "bytes": 42447,
+        "array": {
+          "shape": [
+            14336
+          ],
+          "dtype": "<f8",
+          "sha256": "6dc9caf7e2ff62da6de24c691aa286aeca3932c292bfb980d86b23d81fb21e00",
+          "bytes": 114688,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          14336
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "nonnegative_original_row_multipliers": {
+    "array_identity": {
+      "shape": [
+        14336
+      ],
+      "dtype": "<f8",
+      "sha256": "fa0e5507947b6586ca541d318ca830157a107b21e5e9814f075bc96456fe3559",
+      "bytes": 114688,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0007-part-0000.npz",
+        "sha256": "811b482bb8fb052329c035ebb08dbd6d6a63d65a3a46e36afc007e022cd22d7b",
+        "bytes": 349,
+        "array": {
+          "shape": [
+            14336
+          ],
+          "dtype": "<f8",
+          "sha256": "fa0e5507947b6586ca541d318ca830157a107b21e5e9814f075bc96456fe3559",
+          "bytes": 114688,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          14336
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_complete_gradient": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "9102db5f3cdd8c567e359fd35cf8c82f9f5645a53a888694ec9d05f530ceaa39",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0029-part-0000.npz",
+        "sha256": "cad6db3e93be4a8a75c5ee13562918792044f2f574f6f0d3f522d4e2ddcb603b",
+        "bytes": 1825909,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "9102db5f3cdd8c567e359fd35cf8c82f9f5645a53a888694ec9d05f530ceaa39",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_complete_stationarity_residual": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "9102db5f3cdd8c567e359fd35cf8c82f9f5645a53a888694ec9d05f530ceaa39",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0029-part-0000.npz",
+        "sha256": "cad6db3e93be4a8a75c5ee13562918792044f2f574f6f0d3f522d4e2ddcb603b",
+        "bytes": 1825909,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "9102db5f3cdd8c567e359fd35cf8c82f9f5645a53a888694ec9d05f530ceaa39",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_all_row_slack": {
+    "array_identity": {
+      "shape": [
+        14336
+      ],
+      "dtype": "<f8",
+      "sha256": "86f6e0d94a5aab70c657ec677e16eac066a64e20fa9b6ae3b1147ce886abef6d",
+      "bytes": 114688,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0030-part-0000.npz",
+        "sha256": "4f171bd9b2d712b2722775d27cdd28bf0cc21184c12a171887b125c7a231cd41",
+        "bytes": 37206,
+        "array": {
+          "shape": [
+            14336
+          ],
+          "dtype": "<f8",
+          "sha256": "86f6e0d94a5aab70c657ec677e16eac066a64e20fa9b6ae3b1147ce886abef6d",
+          "bytes": 114688,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          14336
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "scalar_report": {
+    "original_stationarity_L2": 298457.19124813564,
+    "original_complementarity_sum": 0.0,
+    "R265_single_point_E_raw_float": 610951.268914446,
+    "R267_evidence_lower_bounds": [
+      {
+        "point": "final-selected-original-full-model",
+        "lower_bound_raw_float": -610907.3638562775
+      },
+      {
+        "point": "original-C-selection-zero-dual",
+        "lower_bound_raw_float": -610907.3638562775
+      },
+      {
+        "point": "best-complete-H-helper-evidence",
+        "lower_bound_raw_float": 43.11565368239749
+      }
+    ],
+    "best_R267_evidence": {
+      "point": "best-complete-H-helper-evidence",
+      "lower_bound_raw_float": 43.11565368239749
+    },
+    "final_cross_point_gap_raw_float": 0.789404486103571,
+    "final_cross_point_distance_bound_raw_float": 0.004653728349122139,
+    "complete_stationarity_finite": true,
+    "finite_lower_bound_available": true,
+    "nonfinite_posterior_is_recorded_not_an_extra_direction_gate": true,
+    "preconditioned_residual_not_substituted": true,
+    "floating_arithmetic_enclosure_provided": false,
+    "full_QP_optimality_claimed": false
+  }
+}
