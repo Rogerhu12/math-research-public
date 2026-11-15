@@ -1,0 +1,258 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "selected-natural-second-left-normal-four-continue",
+  "executionSourceCommit": "c8d76ff9c19e248f9a2809bbef1ff06fc3b5d0ac",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-four-continue-789f.py",
+  "scriptSHA256": "eabfa9bb969b4e62afbeb21b18f3f662da3606a5bf894790beef55f65c7e278d",
+  "argvTemplate": [
+    "--regauged-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--rebuild-root",
+    "{work}/selected-natural-u-rebuilt",
+    "--previous-prefix",
+    "{work}/selected-natural-second-left-normal-four",
+    "--unit-worker",
+    "{scripts}/2026-11-15-r150-selected-left-additional-unit-solve-worker-789f.py",
+    "--out",
+    "{work}/selected-natural-second-left-normal-four-continue",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 75,
+  "wallSeconds": 21.42397982300008,
+  "fullTemporaryReceiptBytes": 5667,
+  "fullTemporaryReceiptSHA256": "161e2a48e5b82fd26c67a9100b95e75b88ce85ecb395eb59dc84a760c637aa34",
+  "result": {
+    "completeFixedSupportSecondEnvelopeComputed": false,
+    "completeRationalHighKernelProved": true,
+    "error": "true rational high kernel dimension 130; complete kernel saved; next actual-k worker currently capped at64",
+    "format": "isp-selected-natural-second-left-normal-four-continue-v1",
+    "largeDataUploadedOrCommitted": false,
+    "leadingUnitProved": false,
+    "mathematicalElapsedSeconds": 21.356861559000208,
+    "newOriginalRankPrimeComputed": false,
+    "old36ExactUnitSolutionsRecomputed": false,
+    "old36RightHandSidesRecomputed": false,
+    "oldFirstRREFRecomputed": false,
+    "oldLargeNormalFormsRecomputed": false,
+    "outcome": "actual-high-kernel-needs-wider-next-worker",
+    "phase": "complete-high-kernel",
+    "selectedSecondConnectionRankExactly9": false,
+    "status": "completed-prefix",
+    "parameters": {
+      "allOriginalHighRows": 1736,
+      "allOriginalSourceRows": 4354,
+      "binding": "c18a0a21f0ca0e44aeaa65c138bbf02e5b26fc7d01542573aef47dbc7b532fec",
+      "completeHighKernel": {
+        "activeHighUnitBatch": [
+          128,
+          130
+        ],
+        "all1736OriginalHighProductsZero": true,
+        "binding": "c18a0a21f0ca0e44aeaa65c138bbf02e5b26fc7d01542573aef47dbc7b532fec",
+        "completeCandidateSavedBeforeFullProducts": true,
+        "completeRationalHighKernelProved": true,
+        "completedHighUnitRightHandSides": 130,
+        "elapsedSeconds": 20.82064347100004,
+        "extraRationalSchurRank": 0,
+        "highKernelDimension": 130,
+        "originalHighProductCoordinates": 225680,
+        "outcome": "complete-rational-high-kernel",
+        "phase": "complete",
+        "rankHighModulo31": 1355,
+        "rankHighOverQ": 1355,
+        "status": "completed"
+      },
+      "completeHighKernelOutputs": [
+        {
+          "bytes": 1437630,
+          "file": "complete-high-unit-rational-candidate.json.gz",
+          "sha256": "e827223af4eec51f919e2e765fdf5738e45fe7caacdd5d09b51d432aefd5ad9c"
+        },
+        {
+          "bytes": 1446855,
+          "file": "complete-original-normal-four-high-kernel.json.gz",
+          "sha256": "46b047a303d68a3502aa076836f77dc0fde101ca93d6df2c8568380f2d190d63"
+        }
+      ],
+      "fixedProfilePrime": 31,
+      "high-kernelLastActualStatus": {
+        "activeHighUnitBatch": [
+          128,
+          130
+        ],
+        "all1736OriginalHighProductsZero": true,
+        "binding": "c18a0a21f0ca0e44aeaa65c138bbf02e5b26fc7d01542573aef47dbc7b532fec",
+        "completeCandidateSavedBeforeFullProducts": true,
+        "completeRationalHighKernelProved": true,
+        "completedHighUnitRightHandSides": 130,
+        "elapsedSeconds": 20.82064347100004,
+        "extraRationalSchurRank": 0,
+        "highKernelDimension": 130,
+        "originalHighProductCoordinates": 225680,
+        "outcome": "complete-rational-high-kernel",
+        "phase": "complete",
+        "rankHighModulo31": 1355,
+        "rankHighOverQ": 1355,
+        "status": "completed"
+      },
+      "high-profileLastActualStatus": {
+        "actualHighUnitDeterminantModulo31": 25,
+        "all1736OldCorrectionAndForcingRowsZero": true,
+        "all4354OriginalNormalFourRowsConstructed": true,
+        "binding": "c18a0a21f0ca0e44aeaa65c138bbf02e5b26fc7d01542573aef47dbc7b532fec",
+        "boundedHighFreeColumnLimit": 130,
+        "elapsedSeconds": 0.25956324199978553,
+        "highFreeColumnCount": 130,
+        "highRationalKernelComputed": false,
+        "highUnitBatchColumns": 32,
+        "originalM4EntriesReconstructed": false,
+        "originalUnitProfileRecomputed": false,
+        "outcome": "ready-for-exact-high-kernel",
+        "phase": "complete",
+        "rankHighModulo31": 1355,
+        "reusedCompletePaidPrefix": true,
+        "status": "completed"
+      },
+      "highProfile": {
+        "actualHighUnitDeterminantModulo31": 25,
+        "all1736OldCorrectionAndForcingRowsZero": true,
+        "all4354OriginalNormalFourRowsConstructed": true,
+        "binding": "c18a0a21f0ca0e44aeaa65c138bbf02e5b26fc7d01542573aef47dbc7b532fec",
+        "boundedHighFreeColumnLimit": 130,
+        "elapsedSeconds": 0.25956324199978553,
+        "highFreeColumnCount": 130,
+        "highRationalKernelComputed": false,
+        "highUnitBatchColumns": 32,
+        "originalM4EntriesReconstructed": false,
+        "originalUnitProfileRecomputed": false,
+        "outcome": "ready-for-exact-high-kernel",
+        "phase": "complete",
+        "rankHighModulo31": 1355,
+        "reusedCompletePaidPrefix": true,
+        "status": "completed"
+      },
+      "highProfileOutputs": [
+        {
+          "bytes": 911018,
+          "file": "complete-original-normal-four-block.json.gz",
+          "sha256": "88d9f609c39c754913beaf06c4b5e945ce84fde5c0a0bde78f7e57216bd33f0e"
+        },
+        {
+          "bytes": 5082,
+          "file": "complete-normal-four-high-unit-profile.json.gz",
+          "sha256": "b5e11bee511ffea265312f3caaa225e7ce0359d43b96a3135fed24e322849570"
+        }
+      ],
+      "highUnitBatchColumns": 32,
+      "inputIdentities": {
+        "coefficients": {
+          "bytes": 20580,
+          "sha256": "7ab537a3c8f9a3d13b924a23f37f8d4ce4fa7621e3608920404ed0051b2fd5c1"
+        },
+        "old_full": {
+          "bytes": 12690,
+          "sha256": "b186ecd4ef8a8ca910392a8900c838da1e9e166a0b4738b40748677fd7e14a70"
+        },
+        "old_main": {
+          "bytes": 20323,
+          "sha256": "2343123363d6c38a871c66770afb67b37a1b3a6b882baa7aed040134914a345b"
+        },
+        "old_rref": {
+          "bytes": 17625,
+          "sha256": "de7bb03e76ca2dee0221d4f89e1de5db190b6c5b64fc4df70a67e13f405a7941"
+        },
+        "old_solution": {
+          "bytes": 18124389,
+          "sha256": "9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d"
+        },
+        "old_unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        },
+        "paid_high_block": {
+          "bytes": 910759,
+          "sha256": "c80ca9f374da6ec41410b8dd2a844328176b7c96ca1e0f1364096bb1a51712fa"
+        },
+        "paid_high_profile": {
+          "bytes": 4852,
+          "sha256": "cbeccd17b5bbe1578eb58e0b7b8b990494d85642095c49e1c0277afe9dd9411f"
+        },
+        "profile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        }
+      },
+      "maximumHighProfileFreeColumns": 130,
+      "memoryMiBPerProcess": 2048,
+      "normalFourCoordinates": 1485,
+      "previousCompleteSecondBinding": "c40049455e9f310607586b55cc271ca00636dc954f0de63693d0da886a6d067e",
+      "programIdentity": {
+        "bytes": 37123,
+        "sha256": "eabfa9bb969b4e62afbeb21b18f3f662da3606a5bf894790beef55f65c7e278d"
+      },
+      "reusedPaidPrefixBinding": "8b3f9574b5fa816b6f967bc9c9530c6dc991e879f070964d0d409b360ffad781",
+      "secondsLimit": 300.0,
+      "temporaryStageDirectories": [
+        "high-profile",
+        "high-kernel",
+        "new-images",
+        "additional-unit",
+        "full-products"
+      ],
+      "unitWorkerIdentity": {
+        "bytes": 16409,
+        "sha256": "28928f4298d0689f72ea8d39e530d474c4d15076af1c26aee612a2cb1413982e"
+      }
+    },
+    "events": [
+      {
+        "elapsedSeconds": 0.3648035129999698,
+        "exitCode": 0,
+        "phase": "high-profile"
+      },
+      {
+        "elapsedSeconds": 20.968832627000666,
+        "exitCode": 0,
+        "phase": "high-kernel"
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 11:37:28 UTC",
+      "beforeReadCommit": "7123fd4f558256715fae50b77062d6ac0986d7a4",
+      "originMainAfterPull": "c8d76ff9c19e248f9a2809bbef1ff06fc3b5d0ac",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 11:37:50 UTC",
+      "beforeReadCommit": "c8d76ff9c19e248f9a2809bbef1ff06fc3b5d0ac",
+      "originMainAfterPull": "f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 37,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 12692,
+    "logicalJsonSHA256": "1a7bba4d0cee1a219b6cdcfd86f5235043a52daf8d065cf7743bc3f2ec3eecd9",
+    "itemCount": 37
+  },
+  "lastRulesReadCommit": "f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3",
+  "summaryExcludesRecomputableArraysOnly": false
+}
