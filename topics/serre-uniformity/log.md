@@ -366,3 +366,9 @@
 - projective真run43745966802/job132909298032/source d71d40bb已通过AST并进入reconstruct；其rules job132909211346于2026-11-15T18:18:17.461714+00:00实际pull/read d71d40bb6cbea1cecc9c23f2efd47401da35cc53，两README无diff。pending副本同步已激活的真实core参数，不另触发。
 - 预核原R792消费接口可直接接真实新R787 core；按根§15移除旧workflow publish步骤、contents降read并加blob:none，数学core7b7a5483/wrappercdac2e93不变。原R809 basis tag已排future R787，真关系后只resume已成功六C并新增A/B，不重算旧六列。
 - 尚无projective准确关系，R792/R809均未激活；R815实际端点就绪、原四计算继续，主目标OPEN。
+
+
+### 2026-11-16 02:31（Asia/Taipei）｜serre-public-astra-20261115
+- projective run43745966802真实71.023573757秒exit2，有限候选耗尽、非节点预算、准确验算0阶；全manifest及1380输入SHA通过，结束note保存真实artifact/core/cert pins。固定候选失败不证430不足，先纯IO读拒绝原因，原同核Dixon继续。
+- 旧9783B H逐字归档并压缩；后继R792/R809未激活，原R815端点仍待真实产物。没有把workflow容错compute的success当关系成功，机器文件只在一日artifact。
+- 2026-11-15T18:28:08.763208+00:00实际pull/read 1692bdab69be514541aa37d4f898cd45d21ba837，两README无diff；主目标OPEN。
