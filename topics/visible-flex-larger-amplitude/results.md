@@ -78,3 +78,7 @@
 ## R295 — 九控制半径更新与理想下降恒等式
 
 [R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)完整给出正阻尼全三模型下降、有限驻点误差修正及精确曲线首阶条件；原reset事实不等于非线性慢降唯一原因。伴随[134入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)从actual131真实末点扩32原八方向批，未改变科学门或宣称收敛。
+
+## R293 — actual132 连续 E 面板预算与未付整域
+
+[R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)：482.799843329s/200000panel，1378/1440片；cell6/seg1部分与[1379,1440)后缀全部保责任，整query E/Rout空。真实深端包围不冒完整同场metric；原摘要/result/query逐字身份已核，raw清理后按源重做。

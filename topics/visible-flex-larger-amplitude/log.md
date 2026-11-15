@@ -331,3 +331,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 — R295 条件证明与 actual131→134 明确接续
 
 完整[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)按根规则12直接写results，保正阻尼下降/误差项/精确隐式曲线假设与129、131真实半径例外；不新增门。独立[134](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)发布4冻结接线：wrapper48045B/fd5d78f3、真131第8recipe2287B/bf8e80aa、request43351B/aaef1c38、workflow18690B/262e5175。原824c/0865/f57a、85+2/own26、32×原8方向/.1reset/3600s批间/75science90job。全32行/失败文字保留，实际超90KB明示不完整exit70；逐批原primary和全方向段在compute，raw消费清理。root已完整读新diff/接口/证明；仅源/语法/元数据工作，无本地science，推送触发本公开库实际run，结果未预填。
+
+## 2026-11-15 — actual132 原输出结清为 R293，134已启动
+
+[R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)记录公开run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446的完整可用原输出。实际science482.79984332900005s用尽200000panel，仅1378/1440片，首未付piece1378/cell6/segment1；31panel+source后缀+wholequery未付，E/Rout空，非数学失败也非全域证书。原result5992B/query608B/producer摘要6125B/compute-report摘要8716B逐字重建/核原SHA；原大ledger仅Actions完整消费后清，保准确可读取范围，无本地科学。R295及134已推19911f56968ad3581636e77d240c4d5e9064645f，run43704292938/job132781953477于10:29:11起science。继续处理真实积分瓶颈及133持久128接线。
