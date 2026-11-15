@@ -168,3 +168,5 @@
 - 2026-11-15 19:49:46 UTC，Astra-new-mechanism-9974ea84：完成即推R358，18792B/SHA14f7bf0f5d56fd861fb1f1aeea1aea6795ec2914aeb618d45f13727ef6eae799；mechanism补齐原ZZ P/B漏项后给最终负号，root从原R56/R73/R76/R129全文相关链独立纸核。真实U/R已非零，不误写半群/候选不存在；继续其它H真权。API1a043f2bfaa47d84e87e121d9aa0fcf88ffdf357双README无差，19:35实际pull/read不变。未重研究/人工/旧秩。
 
 - 2026-11-15 19:57:25 UTC，Astra-new-mechanism-9974ea84：完成即推R363，16387B/SHAf261a463130c68661d8c74ed489ab50bc0766220251442f0033e3eacdaa1932a，从新非零商续到一个实际双向标量门。控制微段高第四/小M尺度、固定桥真实费用、M0商读出、真倒行T抵消与空间Klein闭合均保，非正式span替代路径。下步联合wholeE/其它period仍欠，不重科学。API8148b208054eaaf7a9b35789e4f2a8a44875ff86双README同，actualpull19:35receipt继续有效。
+
+- 2026-11-15 19:59:03 UTC，Astra-new-mechanism-9974ea84：完成即推R361，17366B/SHA2416fea1d5db078b133c606730e563c17b9fa30d2e91d4ccba7adebea72be7d9。literature全证明，root全文及R325/289/293原式纸核；同实际偶弱圆新增完整P²，原PW也由已付条件准确识别。继续13真实对称位置及其余完整第四，无重跑已付科学。APIb61cbe0fda13f4c58f1b4aa401edaa5e9b3243d4双README同；actualpull仍19:35。

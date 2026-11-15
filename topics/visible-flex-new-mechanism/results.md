@@ -442,3 +442,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R363：自然总通量的一维真实双向控制与完整低阶、空间闭合
 
 [完整证明](results/R363-actual-two-sided-total-flux-control-with-zero-lower-history-and-spatial-closure.md)，16387B/SHA256 f261a463130c68661d8c74ed489ab50bc0766220251442f0033e3eacdaa1932a。选R358真实u使H̃γ非零，任意ω下界S_B上全状态AbarΛ0。真实h/d微段γ=εψ/τ、δ=εσψ′/τ、τ=ε³ᐟ²给M=O√ε/frame近I/端scalar近S_B，Λ局部积分ε⁻³ᐟ²(cσ+O_C1ε)；所有静态/二次/四次与N0/N2费用保。R354/R70同一finite光滑桥准确回germ/frame/M0、费用O_C1(1)；仅此后用R109真history商，再整块真倒行使T0/第四2倍。单一finiteε下σ导数非零，任意Λ值和紧集光滑实际截面成立。固定M=T0frame桥/Klein词准确闭空间位移，完整基准保。非负幅拼接全真实；只一个Λ读出，不把U/R=全1维、全成本正锥或wholeE联合门冒已付。root读原R70/83/109/130/134/210/354，mechanism核ψ偶及h,d来源；无运行。
+
+## R361：完整P²平方与PW乘积在同一偶弱圆上全部支付
+
+[完整证明](results/R361-even-weak-circles-and-three-oscillation-shapes-pay-the-negative-three-square.md)，17366B/SHA256 2416fea1d5db078b133c606730e563c17b9fa30d2e91d4ccba7adebea72be7d9。完整D三矩/原二次尾正交给对称反射，18面积与F1已付PW全三矩。原PP0=−∫(f″²)′Dρ′、PP1=−∫[x(f″²)′+2φ″²]Dρ′适用真实rank-two弱圆；PP1偶性0、PP2=F0，所以只新增一个sin²型PP0。三χ在同一个正解析/F★最大minor母上实现四行principal真rank4，finite-jet见证Δ=−30、原36交替列严格正核；完整finiteN/C1根保18面积、三F和Ψ，并精确指定PP0=τsin²。τ0给P²全三外矩，τ非0明确旧门不蕴含。余13对称函数位置非rank，零/一history及period/joint不授。root原R325/R289/R293全文相关链纸核，新PP式/jet/128ad/真实副本和finiteN均保，无执行。

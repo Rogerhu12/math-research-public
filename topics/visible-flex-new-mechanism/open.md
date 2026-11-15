@@ -141,7 +141,7 @@ tail_cost实现独立controller/checkpoint-aware objective、显式新outer与�
 
 [R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)完整反射与同ω下界真实新几何给16矩；R357真母两自由+三维有序锥，R359准确同权商/8列低4锥再接旧门付PY0为17。[R360](results/R360-complete-positive-negative-second-self-and-six-dimensional-middle-cone.md)保完整nonlegal self PY2=−2RY1−2SY1−μ1μ2，原Γ补成T12，真实D三矩才化common；pure商PY2p+2D1p/b=2(a−b)RY1p/b。J=Ksh0的(Q,S,V)三有序锥与真实J/Ksh母三local方向接成12列中6正锥；接R359同权低4及C2得12行24列严格正核。S5幅与PY2残差S−2右逆保旧17，Ψ成本S−2，末同F★全72零控制器付Ψ/三F。**同一个实际偶弱圆全18面积外矩、72角位置零**，弱rank-two和完整third保。
 
-全部母/支持/尺度/频率有限，之后初选he与ω>Ω的真实闭hook几何；新seed/g不继承另一几何wholeE/Morse/period/joint。R355正域补偿、R347窄半平面/R351未补矩核各保原范围。不重旧面积/母根/秩，下一literature从当前真实圆原式推进PP0及对称乘积：已付面积不自动使对称history零。root续完整第四/全period/同一gauge；高阶、同g有限嵌入、闭面/reach/幅度仍欠。
+全部母/支持/尺度/频率有限，之后初选he与ω>Ω的真实闭hook几何；新seed/g不继承另一几何wholeE/Morse/period/joint。R355正域补偿、R347窄半平面/R351未补矩核各保原范围。[R361](results/R361-even-weak-circles-and-three-oscillation-shapes-pay-the-negative-three-square.md)已按原真尾反射+面积/F1清整个PW；PP1全偶0/PP2=F0，新增完整PP0=−∫(f″²)′Dρ′。明确正解析母finite-jet Δ=−30，与F★最大minor沿同一多项式线兼容；三χ的三常行+二次位置给36真实列R4正锥，finiteN/C1根保18面积、Ψ、三F并指定PP0=τsin²。τ0付整个P²，τ非0证旧门不自动蕴含它。尚欠13个反射允许的对称外矩函数位置（非rank）：PZ2/PY0,2/ZZ0,2/ZW1/ZY0,2/WW0,2/WY1/YY0,2；下一literature续PZ2等完整原式。不重已付母根/旧秩。root续完整第四/全period/同一gauge；高阶、同g有限嵌入、闭面/reach/幅度仍欠。
 
 
 ### R344–363：自然总通量商、真非零层与一个实际双向控制
