@@ -292,3 +292,5 @@ R707/R708第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=91�
 - [R711：原第六Cartier行与共同Frobenius误差消去](results/R711-original-sixth-cartier-row-and-shared-frobenius-error.md)：首次越过R647五块：原第六Cartier输入有简单极，有限部须减1/Z；完整行T6=g6+(m/2)η+7κ5 a_m^+保实际首Frobenius误差和z/Z修正。原两m组合消η，a低行组合再消U_s，仍保原≤p+1窗的固定分子残差。j0侧为γ_m^6(L5/p6)/120，真实除商不删；未证明指定非退化。
 
 - [R713：双冻结与真实配对混合余量](results/R713-symmetric-frozen-sources-and-exact-paired-mixed-remainder.md)：同R702真实45整逆改六参数右端，付双冻结(1,1)且保持cd/W/三态/J2；I/O/X同系数，真实J换元留下(Γ01−Γ03)∩CD_N，交域A/Q/L深严格消。CD上T/S同unit cut后保全log(1+Z/(bYX_n))及每个移位。纯中性差所有正规来源/词行零却J2=1，故负一深支仍须原混合补偿；真正首行定位同qcd的S34型5五维Z一阶来源。
+
+- [R710：原中央全阶单位核与完整边界余量](results/R710-original-all-order-central-kernel-and-exact-boundary-remainder.md)：在原同连接逐非交换词付整数分母权与i!，得到全部i的J_i=(-1)^i i!(mc)^(-i−1)ε_i、ε_i∈1+pO；全部H尾≥H+1+v_p(H!)，原j0等价全部真实carry整并保下一跳p^(1+v(H+1))。完整B=R+QC和正则项保，首正则值为−p²C0/γ，C0≡b_e且原b_e=g_c,p+(d−m)h_ea1。仅同连接整forcing+j0的Q余数像恰pO⊕O^(e−1)，不冒原固定φ，故算术prefix仍须原全局来源。
