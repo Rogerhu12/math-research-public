@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** db2d7f2d63afe7ac110e91e61ed28f5c1b8905dc（2026-11-15 10:07:19 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 9de9a767952f5810defb4f54120bb4e674ae9680（2026-11-15 10:10:25 UTC，Actions run43702767581实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43702767581-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -38,9 +38,9 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 ## 临时数学会话与恢复
 
 - **旧session43679903558于09:57已结束，旧临时数组均丢。** 32层日志报末四指数17、18、18、21/总243，但summary累积pulls超100KB未推；按用户规则重做后才发表。全部中断SHA/旧恢复链见[最小恢复计划](notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md)和[本次H全文](notes/2026-11-15-handoff-after-unpublished-natural32-789f.md)。
-- 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。重建selected/profile/first缓存后实际复算未推32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
+- 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。已排selected-natural-u-minimal-rebuild32重建selected/profile/first缓存并实际复算未推32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
-- 零点K89正式稿已推。∞cubic单列仍k1；已排完整990三normal目标：先保2295高来源真核和低像两相位检查点，再加低1088，只用main五小回执及源码。新rank未执行前不填写。
+- 零点K89正式稿已推。∞cubic单列仍k1；完整990三normal任务已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。两相位检查点仍在新job，正式稿即续。
 - Dixon1085、p768、29精确曲线等大数组也随旧job丢失；存在性证明和源码/输入哈希仍在。只有实际后继需要时再最小重建，不为已闭维数盲续。
 
 ## 其余未闭
