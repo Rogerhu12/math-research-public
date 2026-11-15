@@ -4,7 +4,7 @@
 
 ## 实际运行与首因
 
-[run43681829913](https://github.com/Rogerhu12/math-research-public/actions/runs/43681829913)，source `301d0b6429ae273cf745fdb7fe8e4696f9786e89`，job132713895446。实际 job failure/入口exit2；worker自身exit0并返回原未收敛响应。首因是原 multiple-shooting iteration0 的十档 line search 均未降低原 norm，非桥接异常、QR失败或新身份门。原最大32轮、每轮10档、η1、tol $2	imes10^{-9}$ 均未改。实际零接受，未返回要求的最终完整J，没有final audit，不可作接受锚。
+[run43681829913](https://github.com/Rogerhu12/math-research-public/actions/runs/43681829913)，source `301d0b6429ae273cf745fdb7fe8e4696f9786e89`，job132713895446。实际 job failure/入口exit2；worker自身exit0并返回原未收敛响应。首因是原 multiple-shooting iteration0 的十档 line search 均未降低原 norm，非桥接异常、QR失败或新身份门。原最大32轮、每轮10档、η1、tol $2·10^{-9}$ 均未改。实际零接受，未返回要求的最终完整J，没有final audit，不可作接受锚。
 
 原 failed73 初猜 SHA `f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6`；本轮实际 fresh-withJ norm 与完整 noJ base 均为 `6.0618737006888706e-5`。
 

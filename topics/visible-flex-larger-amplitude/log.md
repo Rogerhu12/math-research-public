@@ -13,3 +13,7 @@
 ## 2026-11-15 06:17:46 UTC /root — actual103 原完整科学停止
 
 [实际结论](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)：三次fullnoJ建议无改善，完整R273成功后十档仍全拒，非QR/桥接异常。仿射exact残差约9.6856e−11不代非线性接受；零accept/no finalJ/audit。原summary3327B/865250bd、response1332010B/6cdeafa8、joblog88780B/434923f0。原parent临时清理有PermissionError如实登记，非科学首因。下一native route看原primal精度/表示，107与108已完成待实际标量读回。
+
+## 2026-11-15 06:19:35 UTC /root — R281 两有理图连续换门定理
+
+[完整证明](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)及sourcef6214d1d直接登记索引。根已读完整证明与源码：两闭图齐次反序保π、Sturm严格正性保内部偶重根、四门OR、完整BFS叶分区与严格余量有限终止均明确。新解析例在t图整叶、u图四叶以移动端/距离换门，旧整圆门均失败。仅源码/AST，未本地科学；111准备实际depth2/depth1比较，当前未有闭面/reach。并修103笔记tol公式中一次字符串转义造成的制表符。
