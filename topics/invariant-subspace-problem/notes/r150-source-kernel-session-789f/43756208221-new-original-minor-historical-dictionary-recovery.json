@@ -1,0 +1,67 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "new-original-minor-historical-dictionary-recovery",
+  "executionSourceCommit": "08119a2d55721f679ac076fc392d0c074af2ba7d",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-paid-original-minor-dictionary-recovery-789f.py",
+  "scriptSHA256": "4ac755756e4365d1dcda104479aec31f42ce7664760e2c888166a9d97370e6e3",
+  "argvTemplate": [
+    "--out-dir",
+    "{work}/inputs/repo",
+    "--out",
+    "{work}/new-original-minor-historical-dictionary-recovery-receipt.json"
+  ],
+  "timeoutSeconds": 120,
+  "exitCode": 1,
+  "wallSeconds": 0.06394759600061661,
+  "fullTemporaryReceiptBytes": 448,
+  "fullTemporaryReceiptSHA256": "45a4381aae79dce92b1ae27508ccf76d3874192a0d98d46f42eef02dba80550b",
+  "result": {
+    "elapsedSeconds": 0.001453046000278846,
+    "error": "pinned historical fetch failed, code 128",
+    "exceptionType": "RuntimeError",
+    "format": "r150-paid-original-minor-dictionary-recovery-v1",
+    "status": "failed",
+    "parameters": {
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "largeDataUploadedOrCommitted": false,
+      "newMatrixComputation": false,
+      "repositoryMutation": false,
+      "temporaryOnly": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 21:18:46 UTC",
+      "beforeReadCommit": "0f32356175be405b10e9062e15338a3a646cca10",
+      "originMainAfterPull": "08119a2d55721f679ac076fc392d0c074af2ba7d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 21:18:47 UTC",
+      "beforeReadCommit": "08119a2d55721f679ac076fc392d0c074af2ba7d",
+      "originMainAfterPull": "08119a2d55721f679ac076fc392d0c074af2ba7d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 50,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 17151,
+    "logicalJsonSHA256": "5150fe7b6866c806492855293267296486eabd9c0fc8dc76be62b26066abafe1",
+    "itemCount": 50
+  },
+  "lastRulesReadCommit": "08119a2d55721f679ac076fc392d0c074af2ba7d",
+  "summaryExcludesRecomputableArraysOnly": false
+}
