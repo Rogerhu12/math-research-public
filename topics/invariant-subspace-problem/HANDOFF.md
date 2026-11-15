@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open；有限模型、候选排除或阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 7a84f315696a8e1d12c2fe9dc32b03c834a86c7a（2026-11-15 04:24:27 UTC，Actions run43676619200实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43676619200-1.json。
+- **最近成功实际 pull 与已读规则提交：** ea3feb07b53528f3791739ac71a0c1e00ca3a968（2026-11-15 04:31:42 UTC，Actions run43677145883实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43677145883-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿和证据blob。每结论立即推；每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。
 - 根迁移授权仅Rogerhu12/math-research-public；token仅CLI临时环境。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、job≤6h、账号≤20并行。数学用美元符；Markdown≤100KB、H≤10000字节、log每条≤5行；原数据>1000000B压缩、每存储文件≤5000000B，分片4500000B。
 - 全部未列状态、实际来源/SHA/旧限制保[本次完整H](notes/2026-11-15-handoff-before-strong-weight-balancing-789f.md)及递归快照；未列open不视为关闭。根本地独立sparse clone，原旧树文件保留；大任务在本库Actions，root发布已改精确文件sparse避免整topic下载。
@@ -12,7 +12,7 @@
 
 原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同，char0成员性仍未证。第二像rank4/208后继，第三像rank2/九局部全正，旧原数据实际推cef83145，旧局部页不重算。
 
-**[九原17模31⁶完整证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)已成：** run43674463008/job132691449653/source88be0c86从33阶段/716像行检查点续最后三步，数学537.367185056秒、包装19.031772277秒。九目标31²h0t_j(j2…10)全部17原式/4367输出原产品模887503681零；九实费均1339≤1345，全部原行缩放、六辅助、完整315/505及866320个q1 carry坐标均真。623恢复3746395040原字节；compact14145044532 SHA7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e。原完整数据staging push在约2GiB处HTTP500失败，623恢复/证据包完整；[实际全记录](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)已保。独立publication-only入口已实际推45474200，当前run43676091547，恢复同两包并逐字节核623文件，只分每批≤400000000B依次真实push，再pull/rebase推main；不重数学、不force。完整证明本提交登记；char0仍开。
+**[九原17模31⁶完整证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)已成：** run43674463008/job132691449653/source88be0c86从33阶段/716像行检查点续最后三步，数学537.367185056秒、包装19.031772277秒。九目标31²h0t_j(j2…10)全部17原式/4367输出原产品模887503681零；九实费均1339≤1345，全部原行缩放、六辅助、完整315/505及866320个q1 carry坐标均真。623恢复3746395040原字节；compact14145044532 SHA7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e。原完整数据staging push在约2GiB处HTTP500失败，623恢复/证据包完整；[实际全记录](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)已保。恢复run43676091547已核623原文件并把6批全部推至远端，最后29e0b9a0a3a29dfd3b603736bac75c1cc9463c84；合并main推因变基后重新传2.13GiB而HTTP500。此提交接元数据恢复finalizer，逐个真实数据commit推main，每次仍pull/rebase/比README，保证单次≤400MB，不重数学/不再下载artifact。完整证明本提交登记；char0仍开。
 
 **原六槽范围全保：** [1345全证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)保七raw q1、四真W2、主第三源父系数[344,409,327,102,1,16]、真D2及s/t整数carry。真来源链177→373→469→665→761→957→1053→1249→1345，实际最后1339。中间p4禁止未缩放κ9；既有完整原式均保已付域和全部输出。
 
@@ -34,6 +34,8 @@ M=kerT、N=closure BM、W=M⊖N；N=M仍开。原同w/未来/负前缀、初M3�
 - **内在gap/低forcing：** Gq=P_Mq−P_K(q+d)递减，dq=g(q−d)−gq，Xi(e)²≤4dq、0≤gq−μ(e)²≤2dq，固定测试误差≤Xi(r)√dq；无移动gq率。完整Γ_CC⁻¹y1高行零、C_L/C_R0正交、χ保kerD^d；返回带交叉/交替D*/D传播仍保。a1旧b′1=O(S)缺o(S)；a2完整一孔Schur/H≥S/2/原两列式已证，联合远孔未闭。
 - **[强位并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，同u_Q且n+h+R<Q；真左最小是远孔低截断，ΣXi_C²≤2hβ²、h网格≤2β²，μ_C≥||w||−β，β为真实尾量加2e^-6d⁴||w||。完整多Jordan/bare修复/末端D_>^h/负图保留。R≈ρ^-1、n0=4h付||D_>||<ρ/c0，剩同源μ_C²≤κXi_C²，门槛κh/Q=O(1)，κ=O(ρ^-1)足而未证；联块源跨R个原总孔层。
 - **本次[相邻强位配平与完整Schur](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)：** 精确S_pair=diag(1,x/(x+1),(x+1)/x,1)把两权换几何平均；全部强对对称P上PS^±2P≤e^(2/m)，真实P-reducing核K映成SK时||(P_SK−P_K)P||≤sqrt(e^(2/m)−1)，R/Q全一致。保全部反对称nuisance，真有效Gram在e^±(2/m)、回返能量≤(e^(2/m)−e^(-2/m))||x_sym||²；同top差≤2sqrt(e^(2/m)−1)。固定测试可强接近，不直接运送非交换LGL/普通λ。
+
+- **[强联块源Stein/真Schur演算](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)：** 两右域C_s收缩δ，左精确C_s*LC_s=I+U*D*DU−(P_KCU)*(P_KCU)，故在S_b=L+B及S_f=L+G^-1均||C_s^k||≤sqrt(k+1)δ^k。δ<ρ时原逆芽须截至h−1，H_C=d0^-1ψ(C_s)/C_s与I的两Schur相对误差≤16d0²ε δ/ρ；真实负图保S_b伴随，未付S_b/S_f互比或flat。完整高返回保留。
 
 **代理当前继续：** boundary在同C/同u的完整右链中利用Cc_j=−D_>c_(j+1)付右范数收缩，保真末端；左有边界缺陷，尚未闭两费。literature继续配平强块的同固定测试/完整Schur，探索大等权块，不能以环境条件数代原源。原全源相对孔导数反例家族已被flat expO(m²)支付且固定低测试恰零，只排全源小导数，不排此低forcing入口。
 

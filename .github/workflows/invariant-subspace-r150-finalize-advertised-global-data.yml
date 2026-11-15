@@ -1,0 +1,53 @@
+name: ISP R150 finalize already advertised original data one main commit at a time
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: isp-r150-complete-global-publication-43674463008
+  cancel-in-progress: false
+jobs:
+  finalize-advertised-data:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-finalize-advertised-global-data-789f.py
+      - name: Advance main one saved exact data commit at a time
+        id: publish
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-finalize-advertised-global-data-789f.py
+      - name: Preserve every actual pull and main push
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: isp-r150-finalize-advertised-global-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/isp-r150-finalize-advertised-data
+      - name: Require the complete data tree on main
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"isp-r150-finalize-advertised-data/publication-receipt.json"
+          r=json.loads(p.read_text()) if p.exists() else {}
+          assert r.get("status")=="pushed"
+          assert r.get("publicationReranMathematics") is False
+          print(json.dumps(r),flush=True)
+          PY

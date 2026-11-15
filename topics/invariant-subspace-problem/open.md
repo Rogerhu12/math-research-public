@@ -156,3 +156,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **同一选列已有13条完整原有理核，余23仍开。** [第184位真核证书](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)由真实p³²继续到p¹⁸⁴，13列全部6188系数重建并作4367原整数精确乘回，自由I列保证独立，同4354选列支撑保持；char0秩仍4318…4340。完整13核证书/源码/主回执与真184恢复已存，其余逐位恢复继续上传。后继由真实184继续，或以已证syzygy代数扩张，最终须实际同36自由块满秩才能夹逼4318；不把有限精度当char0。
 
 **相邻强位配平的固定测试预算已成。** [完整证明](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)对原连续尾任意R保真实核/左空间/扩块/物理joined投影，固定对称输入误差≤sqrt(e^(2/m)−1)，同top两倍；全部反对称通道经真实Schur保留，有效Gram e^±(2/m)一致、回返能量O(1/m)。此为固定测试与同可行源比较，不直接搬运LGL/ordinary λ。继续同C源与完整两费，旧全源相对孔导数反例只排全源小导数，未排此入口。
+
+**强联块真实源的解析Schur预算已证。** [完整Stein缺陷证明](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)在同C_s=A_m+D_<上保两右链/左最小零源，给||C_s^k||_{L+B,L+G^-1}≤sqrt(k+1)δ^k，δ<ρ时完整至h−1的逆芽近恒等误差16d0²ε δ/ρ。不是旧A_m全源孔导数界，也没有把两种Schur互比。继续同w真C^g与C低远孔及共同有限封口；固定原测试另有窄目标||(C*)†f||²=O(R³)，尚未证。
