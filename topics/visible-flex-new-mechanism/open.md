@@ -155,3 +155,7 @@ R164 §10新增已付规范化推论：八参考态将μ缩为(0,2a(0),2a(1),0,0
 ### 完整十四族已生成，直接进入有限必要系统
 
 [首次完整head实际](notes/character-head-minus2-first-complete-actual-20261115.md)：76新收缩＋2已发收缩全部完成，107原记录和66分母组合，33.327秒；Q4_0/1在本真权两mode原式零。head生成任务结束，不续缓存、不再重跑。single character_minus2_finite_necessary已绑定main/receipt/export，源码与6路径/全坐标精确证书接口见其design。保全部层、唯一μ、原R=0与真实外空间边界；不能把float不可行或外部候选当真实正性结论。
+
+### 当前谱目标实际派发
+
+独立[谱恢复实施](notes/spectral-metric-recovery-implementation-20261115.md)已完成：仅两个软谱行与解析Jac变化，完整20输入/82参数继承失败新池，原真门/控制器/12LP40值120s不变。新增人工33.377s全过，完整原生摘要含逐值谱slack、旧Schur slack、真η表；本提交single metric_spectral_recovery派发，待新完整输出，不称.26已到。
