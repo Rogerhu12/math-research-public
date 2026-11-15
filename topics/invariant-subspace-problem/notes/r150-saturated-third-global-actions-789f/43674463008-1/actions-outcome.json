@@ -1,0 +1,42 @@
+{
+  "run_id": "43674463008",
+  "run_attempt": "1",
+  "source_commit": "88be0c86d8924b4874e16b51c26732588696a5e3",
+  "native_step_outcome": "success",
+  "pipeline_status": "completed",
+  "outcome": "all-nine-original-p6-complete",
+  "complete": true,
+  "completionFactsMatched": true,
+  "allNineTargetLabelsVerified": true,
+  "actualSourceCostsWithin1345": true,
+  "allOriginalIdentitiesAndSixAuxiliariesVerified": true,
+  "completed_original_target_labels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "actual_final_source_costs_by_slot": [
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339
+  ],
+  "mathematical_elapsed_seconds": 537.367185056,
+  "packaging_elapsed_seconds": 19.03177227699996,
+  "full_original_all_nine_mod887503681_identity": true,
+  "characteristic_zero_identity_asserted": false,
+  "scope": "All nine actual original p2h0 targets modulo p6 with complete17 identities and actual finite source costs at most1345. No characteristic-zero identity is asserted.",
+  "partialCheckpointIsNotIdentity": true,
+  "rootOwnsSharedResearchIndices": true
+}
