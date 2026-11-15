@@ -111,7 +111,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原全矩阵4367×6188、泛秩4354；同选I,J为4354，常数Q/F31秩4318、36核。完整常左余空间和31单位规范已付。[自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)给33个完整原一阶头；[第二22头](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)给9≤Qβ2≤11，未证明24头或β2=9。指定D阶≥91、cofactor及原来源换列≥88；K99下条件来源费8627，原成员性前提不能删。
 
-normal4的[完整特征零高核](results/R150-appendix-selected-normal-four-high-kernel130-and-residual-intersection.md)已实际核成：21.356861559秒，原1736×1485高块Q/F31rank1355、真核130，全225680原高产品零。只消费该核新增130个旧M0′单位右端，复用旧36解和原全部残差。新残差rank130、旧rank14，新增头数准确为两残差像交维i∈{0,1,2}，总头22+i；完整166列残差与原4354乘回尚未做，仍不称第二rank9。normal5也仍开放。
+normal4的[完整≤4包络](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)已闭：355.152873124秒完成130新单位RHS、166列残差rank144，交维0，全部95788原第二产品真，仍22头。任何合法normal≤4族的normal4分量均为零；normal5开启后须保H4η4+H5η5真实补偿。新130解/全残差/高核全部可复用，下一做normal5最小高约束，不重355秒解。完整第二仍[9,11]，未有24头，不按rank9启动第三页。
 
 [两端第五](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)各17个真头，完整来源公共53/47；零点K99=s53(s−2)9(s+6)9F+²F−²E8²。零点不假r1=4/β2=0。第六2GiB失败但已保存verified residual6188×7和top-kernel2779×10；当前无middle/low，不能记第六完整秩。续接须保3条顶层齐次自由、7条head，使用固定常H3单位块和小Schur，随后保完整低层与全6188乘回。
 
