@@ -146,3 +146,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [等权长池完整Green列](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)在L≥2d给真实MP公式与平方界(4/S)C(A,S/4)〈H^-1f,f〉，保核投影的全部forcing坐标；原A_m真四次幂可代。若加入早强位，须换A_rest及其全部真实幂和H_rest，并令L≥2h0。H^-1不保固定低头；等权对称约化也不直接等于原连续尾，所需原强C固定Green O_a(R³)仍开。
 
 一般头/尾的返回范数加强不能替原两费；已有palindromic物理反例的范围与同源负图观测均保旧证明。继续原W混合配对、真实强位和普通域，不以形式共轭、有限模型或阶段结果收尾。
+
+[前29规范Q核和七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)已正式付清：U为31整，FU=(I,0)，前29真来源与p768在全6188坐标的同余由单位块唯一性推出。当前同job核新六列实际高度，并仅一次用原17系数模65521核删列后矩阵秩；后者只给Q下界，未预报4325或继续素数扫描。

@@ -551,3 +551,5 @@
 - **等权长池的完整伴随Green列与真实头幂预算。** [自足公式与证明](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)在L≥2d保真实H^-1核投影、全部forcing坐标、顶下有限列及MP正交；给列平方≤(4/S) C(A,S/4)〈H^-1f,f〉。原A_m四次真幂得到具体exp(O(m²))适用区间，余强位全部幂和Gram必须更换，未代原连续尾封口。
 
 - **真实相对孔层Riordan及完整/裸最小Gram一致运输。** [完整证明](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)以J=1…h和真实删除幂构造K，保全头/尾旗、裸商、首源g与零源；稍小τ14半径使K及逆统一≤exp[32(1+e1070)]，原h²/Q仍趋零。新头保ψ_m(A+E)全部混合，不运输全左L、不相减Gram，ordinary缺口继续。
+
+- **29真核的自由像在Q中也恰前29轴。** [完整小矩阵证明](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)实核top29det mod31=1、Q归一bottom7×29全零；故29个D整规范来源全存在并与原p768全来源同余。原真核直和分成29Koszul及至多7维非Koszul补空间，删除前29自由列保Q列像，未宣布余七存在。
