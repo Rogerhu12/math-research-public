@@ -317,3 +317,5 @@
 - [R154：五族加速度商由二十个状态值的正仿射轨道生成](results/R154-five-acceleration-families-from-twenty-state-orbits.md) — R146状态协变消h/ω自由度，R145真实(k,ω)反号给五族符号(+,-,+,-,+)；有限Laurent表示使S属于正缩放有限实span，k次数≤6的七点插值只需0/1/2/3四个非负值。共20种子轨道生成五族modR，不称dim20/实际控制/四点正性；不盲扫新状态。
 
 - [R155：完整最高第四action的真实曲线Sturm型充要判据](results/R155-complete-highest-action-curve-Sturm-Liouville-equivalence.md) — 任意水平Γ重参数保完整面积与Q4，得到aΓt″²+bΓt″t′²+cΓt′4；flat端使eΓ=cΓ−bΓ′/3准确。全部真实平端L4积分非负iff所有Γ上的∫[(4/9)aΓψ′²+eΓψ²]≥0。有限时间flat反构造与γ=P/ψ覆盖支撑的充分性完整，不假定Γ正则或有限转向；不授低阶完整action或实际逆元。
+
+- [曲率短阶梯首轮跨65、合格态降至63.5172](notes/curvature-target-ladder-first-actual-result-20261115.md) — 43658064177/source bf3497f2同g/b0/163，五次两网接纳到d1ca5f，全部原物理门过，60未到。9LP/40共享值耗尽，活动52.59s；模型7/8的α1/32仍metric超门且缩trust未缩实际提案。全系数/池/试探完整保存，下一修真实步长或二阶恢复，不原样续预算。
