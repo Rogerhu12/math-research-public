@@ -3,26 +3,26 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：1c956eae7d8a1f51887568a0d26dd62c0584aa10；2026-11-15 17:19:29 UTC核两README无变。实际CI pull 2026-11-15 17:14:40 UTC/66d8e9d100ccac2e50a893557dae645d189d726e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:19:29 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
+- 最近已读规则提交：b55628c72880063bb452de36971bbdce3f6855d5；2026-11-15 17:25:38 UTC核两README无变。实际CI pull 2026-11-15 17:17:31 UTC/215f89a0359c0d7df3af6b157592420f890f2f33（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:25:37 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
-- 最新实际盘点28,458,717B/2067文件、无超限、3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核，真实输入和历史保。
+- 最新实际盘点28,759,045B/2093文件、无超限、3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核；真实输入和历史保。
 
 ## 检查点、完整归档和分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r800.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+[压缩前全文](notes/2026-11-15-frontier-before-r801-r803.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 R1–363、365–560、562–653、655–711、713–800、802已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
 root唯一metadata/ref写者。root续更高b/原指定配对；deep续R803零常数b3全p证书与原normal；theta续R801实际二阶；literature续R804零W缺陷的完整CM余域。
 固定E17及j0 E17/E24/E2312秩2已付；尚缺无穷不同p至少一条固定原J′非零。条件负矩、邻近来源、外部非零和有限p均非完成。
 
-实际pull已于17:14:40成功（run43739990281/job132890806259），两README差异空且blob核同；后续库存API遇403限流，旧库存仍有效，已用现有contents:read任务身份补库存API认证并重试中。回执ci/rule-pull-20261115T171440.json；下一18:00前。
+实际pull及库存认证重试17:17:31全成功，run43740261274/job132891647699；两README差异空/blob核同。回执ci/rule-pull-20261115T171731.json；下一18:00前。
 
 ## 正在执行、未推内容与下一动作
 
-R797分类已推；首次run43739357371仅在最终JSON>59KB处失败。已只压缩报告字段（数学不改）并同R801公开重跑；参数仍--max-order 64 --remaining-examples 20，证书待判。
-R801实际q二阶reader已入main并提交：scripts/check-r798-native-second-z-source.js，参数--max-block=4 --taus=2,3 --with-b --b-g-blocks=3 --neutral-degree=12；原58行/双修正/2!与完整PB保，执行待判，未赋负二非零。
+R797正式重跑run43739961915/job132890717650成功：56完整profile/两子式坏素数≤283，统一p>407；2541几何类的40有限候选/36实际矩阵全不解。R803整合全p证明中，原失败仅报告>59KB，数学未改。
+R801同run完成：四组(τ2/3,η±)原B0二阶θ系数均[592,97,226,801,233,153] mod1009非零；仅付有限来源单位密度子集，负二矩仍开。脚本check-r798-native-second-z-source.js及run/hash保，R801原证明整合中。
 
 ## 普通：同q、原中央与全部真实补域
 
@@ -57,7 +57,7 @@ R788原r2/mq0/b3强窗全部p已排：五型原子式gcd坏因子≤211及准确
 
 R792 q0≠0不加mq0即迫r2/3/4,k0,F0=λd^c；原Fp为5+4+4个完整格，r3/r4均tG∈W_b。R788排除已扩到q0非零的r2/ell1全部mq。q0零则j≤4r−12k−7≤45，移动H度≤floor((f_j+C_j−r)/3)；r2恰q=Y qtilde,mq1、degH≤2。
 R799已排q0≠0全部b3强窗，覆盖r2/3/4及每个ell/mq；三剩余小p的原九列全不解，此支须b≥4，公开run/hash见证。
-R797把此r2零常数支完整展开：G=F/(λd^c),G0=H monic度z0/1/2、H(0)可零。额外Y角权保后为50/13/1 mask，完整W_(3b+1)返回；b3全十九角给κ≥3χ−18≥9+6z。真实HP右端−t^z或−d^ct^z，H低系数是实际未知列；全p执行待判。
+R797把此r2零常数支完整展开：G=F/(λd^c),G0=H monic度z0/1/2、H(0)可零。额外Y角权保后为50/13/1 mask，完整W_(3b+1)返回；b3全十九角给κ≥3χ−18≥9+6z。真实HP右端−t^z或−d^ct^z，H低系数是实际未知列；全p正式证书已通过，待R803整合。
 
 R790同原Pfact首forcing由ρ_<s模p²、V/e及B_h准确读出，β1=t^hQ(H^-1V³+6at²eVB_h)，第三原w13行保。全WD减Q2后全部余列同R解两输出；真左对转置ν杀factorHP，指定障碍=固定主部−carry−〈ν,β_HP〉。R795准确h+1>B_b·C（充分>B_b²）付整个profile核kG、非恒定HP列和真实下一行全unit；唯一实际Schur缺陷Δ读β_HP=Δ/p，最多一非unit方向，不认指数1。较小H0(C)的h>κ门不能替整profile降门。实际配对及原p³同R高尾仍开；mq1不能套旧scalar第三块不变式。
 
