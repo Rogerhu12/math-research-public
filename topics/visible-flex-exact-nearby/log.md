@@ -118,3 +118,9 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:24:40 UTC — complete selected-centre residual
 
 独推R/8d7d1bc46b57ed9598c268afc784a4e096a10f6a07b26cfdbc3a023607f0f11d/13748B。phase独核D5/6/19/20全部正预算star-shaped及δ<0积分因子；tail独核R12–14全A0e/mean和R16–22精确collar展开、四频带与ordinary L2 Bernstein。无新科学算术，只完整符号推导；D实际B(d)后续可只读消费。s0不是旧rawresponse .001284直接改名，连续offset径导0和全部jump抵消已明确。真core尚待，approxiterate须自身完整高residual。只读ad4e56f2d0fec87f47b7de088aeafd618cd1dc65两README未变。
+
+## 2026-11-15 12:30:24 UTC — G全g/y/q消费程序首次部署
+
+两README在0d1e6ff09e857a2f3773ae45ca7f02461f4391ae亲核未变。G契约64e9ae0f已成，现部署SCI a705c2b4/worker68cf6bf2/44pin manifest bbfbdbc2/flow2aec394e。root读SCI、成功B worker全部diff、manifest/flow并作纯文字delimiter核；newton独核四数学函数。首次Python AST/全部新scalar算术只在公开Actions；7原成功receipt、1328旧row中同6rows、18coeff、8wholeword maxima只读，不重算旧源/径积分，10wholeterm候选与原B逐项取有效小界，其余21项不动。25实际门未运行，改善不预报。
+
+另亲读Green v4实际process b077954e/39000B：12:24真pull→8fe36964，两README diff空；future2256=1886原+370新/past288/product384/groups0均最后报告、child return仍null，不冒终值。
