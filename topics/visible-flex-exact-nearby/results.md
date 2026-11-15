@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真帽局部核与径向weighted后验](results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md)：同一真q的双向signed核、left H=0及全频/两mean加权正预算；原M域13ρ与真outer给条件χw<1后的同解Xw/右ordinary body/inner B,Cmean。DB/RBδ0另保高投影准确抵消；新λ/积分尚未执行，不授实际低门。
+
 - [保径向系数jets与density1十整项合同](results/R133-supplement-retained-radial-coefficient-jets-and-density-one-transport-sources.md)：Q=W/G、(QT)φ=Qy/2和完整Δ逆/rank给新的g/p源列；Gi为原完整scalar逆，VTTT用已存RV正预算，不倒推函数。14旧幅度仅读，保两窗/六dr/η^-1/mean，拟只换7first+3mean及保21原项；尚无新实际量级。
 
 - [degree32准确分带与有限receiver合同](results/R133-supplement-degree32-reference-band-cancellation-and-finite-receivers.md)：完整fullmean三次差与64带给H96的33..96、H288的225..288主要线性shell；保ΔA/Δd/χ′与双侧interface。高投影直接保MA7 selected 2^377903，得到DB19条件三带迹。当前Green缺新局部F/J、无hook，旧input Gram不得冒新输出；未支付实际带内norm或低门。

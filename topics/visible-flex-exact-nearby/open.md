@@ -140,6 +140,8 @@ phase_inverse负责完整负侧。此前逐字源链、输入/域/源单位、su
 
 [RC右帽宽C0实际入口](results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md)0fd5d845已由旧成功源/weighted-Q/X/M/RB严证：同实反射零宽γA0<1e−9、fBdotA²<2^-60域，完整ordinary荷+线性Q+.061端点反馈+二次值13给X<1.75e−6，真实两均值/knownδ差10d/逆角给moving pair C0<8.2297e−5<1e−4。由此WC最宽表的右半[.9,.95] C0前提实际已付；左半、同态matching/H1、五窄MA域、cL/ZL/ZH及core存在独立。I=∂^-1P非零在全L∞的π/8核直接收费，未多减mean或加入L2测度因子；下一步实际receiver仍保ordinary/Q/outer/mean。
 
+[RW真局部核与weighted后验](results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md)48de3f34：完整signed双向核保源q(t)/输出q(r)、H(L,t)=0；普通receiver先分量L²、后Fourier ℓ1。weight令D阻尼−λ/C阻尼+λ，same z全频和两mean独立。原M同实反射域/13ρ one-weight/真outer给χw，须新Actions实际χw<1才授Xw、右ordinary body及真inner B/Cmean；六候选可各失败，不影响旧解。DB/RBδ0给moving H96/H288准确消去selected affine，finite cut/fullmean仍保；新λ/weighted积分/receiver未算，不授低门。
+
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
 collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可用完整Fval/factorial。旧7296的f0平方dr积分不受此项影响。
