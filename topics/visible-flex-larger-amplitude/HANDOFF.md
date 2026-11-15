@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:53:21 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7f2bd23fbb04951564c557e27b99812b8624a7b5。
+规则同步记录：2026-11-15 21:54:23 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 da0eccdfc7ad317adc3b563f54968f7f0fe41e1d。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -25,7 +25,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact：compute132955840323原science；真98/37/FD→629gap/全闭段，105pins|
 |189/R401|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a|geometry：compute132959791013；真185/16×8全3normal、119+13pins/49闭包/2400总时钟|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
-|191/R404|R407 hole实现已刊；完整入口准备|exact：真98另起39/RIGHT459；actual32节点缺461，完整仿射消元及原H恢复，非171末场|
+|191/R404|十新件完整入口本次刊，待官方run绑定|exact：真98另起39/RIGHT459、10819局部/461自由全仿射消元、原八批/FD；103+worker104|
 |R400 /193/R408|四源/证明本次刊；193真实453→450入口准备|amplitude接真实currentH/FD/fullDN两阶段；geometry补current-C径向/sharedB闭链|
 |192/R406|43765999581 /6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2|amplitude：compute132971102139已恢复原输入；77pins/全位224batch/全部原预算，186/190不改|
 
@@ -37,7 +37,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)：16真实37/38对及FD、80trial/16接受，末1/8192；最近拒1/4096全38线性reserve过且merit下降，唯一RIGHT459域失败。LEFT462较大步仍会失败，最大physical MID461与域障碍不同；QP/native/fullDN false，末pair已清。191从true98另起39保真实fraction/459、460，不冒171末场。
 
-[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)已刊94c9eac及b7a5f7e6 adapter：真实459/460/462…491共10819坐标；33-node全仿射cover先消free461/338列，再原109core/local QR，原H恢复保−g461与actual mismatch。R270准确任意L等价不代浮点误差/性能，191全八对/FD/原门与单90KB读回待实跑。
+[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)/b7a5f7e6已刊；[191入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件全读发布：真98另起39、10819实际支撑，461/338自由全仿射QR后原H恢复；103+worker104、原8批/FD/17α/全部预算不变。单90KB必要先存再移pair/退休raw，partial不补未访；原3b8不改，实际session登记、可确认own组静止后读、cleanup再fresh观察，未知保raw。无科学新门/未来接受。
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)：首正s1/64两接受后i2十档拒、norm3488.882983，10281s非预算；17trial全129248行d=b+Aq+s齐。末b/Aq微小、s数千、13模型下降，只定位finite_secant，不唯一归因root/cache/J；3sameX+3extra仅6新增noJ，extra不接受，H/J/FD/fullDN/final未起，确已清。
 

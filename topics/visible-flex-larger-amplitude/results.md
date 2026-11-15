@@ -456,3 +456,8 @@
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)与四份独立源3bc68fa4/43f217d1/1c7a2e1c/011ca7db已全文核后公开。profile保准确十族全DAG/自然L、453三活动与450全冻结；真实writer须原未注解fullDN、当前H/FD、338×112/新audit及同g完整父，删3行只可初猜。完整338节点两jet定义准确Hermite，原675六jet/全112材料角/零模与means保；target在数值s坐标严格为g11=(L*/Lnum)^2，全部可能准确piece/support闭并集，原四strict Loewner/两反射前缀/闭DFS全未访保。旧e70d已有H关联1e−12沿用，无新门；准确Hermite不冒rounded renderer，无实际453/450接受、完整current-C径向/sharedB/帽/seams/atlas/全域metric声明。193/R408接真实453→450，geometry另生产真current-C径向场，旧finite/旧tail不改标签。
 
+
+## 2026-11-15 — Request191：独立39真实查询、非连续H凝聚和原八批链
+
+[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，R404留真实结果。
+
