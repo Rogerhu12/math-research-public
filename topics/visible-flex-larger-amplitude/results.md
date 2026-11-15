@@ -316,3 +316,5 @@
 - [Request176：实际165原38条严格速度反例定位](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)：四件纯元数据入口，Actions一次流式旧日志，内部核原完整对象，只返38必要位置/a/as/原分类与身份，单≤90KB；1500s/4GiB非科学保证，超限明确未完，不新算C或分包大见证。实际R374未预填。
 
 - [Request175：全部闭段Hermite查询域](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)：六件/103pins，真98原37/FD后完整453余项族和14次query P，保37×2048×17及全部原试探/未访责任。原科学与接受门不改；单份≤90KB必要摘要，大见证仅Actions内部，实际R372由exact核。
+
+- [R374：actual176找到38节点但完整计数和传输未完成](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：旧原日志完整到EOF，38唯一反证已找到；cover/pending/unresolved原计数未齐，95577B超90KB仅返2388B明确70，38位置表未交。原R356科学状态不改，最小词法/摘要修订继续，不放松计数或增科学门。

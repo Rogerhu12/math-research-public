@@ -4,7 +4,7 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:34:00 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 81bf71ae214da94b01ebff4870fb4ee3ecd8782b。
+规则同步记录：2026-11-15 18:35:00 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 75b9ca3938c6025717af99238dacd9e7c29ec81e。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
@@ -43,7 +43,7 @@
 
 [R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证全族两图Riccati比较、闭段存在/非零sign-log幅度重构、二幂/隔零切图及全部cut候选。177从原全深端族重算，不裁旧失败盒，不保证改善；geometry实现，实际R379。R357每候选单位取向行/非零范数及数值代表非准确C成员继续保。旧R339/342/348原C与far work200000未完、R362首169 sparse缺件科学未起，全部原值/后缀/清理见结果和检查点，169重试不预填成功。
 
-[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。[176接口](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)四件已发07d3b260/c0e93896/39191280：Actions仅一次读原日志，保38必要u/piece/a/as及原身份、单≤90KB；1500s/4GiB仅元数据cap，35min job，exact核实际R374。大enclosure仅内部字节核，不新算科学。R341/R349历史和R352共享Bernstein表达式保。
+[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：原1.48GB日志到EOF且38已找到，但cover/pending/unresolved计数不齐；95577B超90KB，2388B明确70，38位置表未返回。r2保计数门、分离38与全cover状态并修原行首BOM解析，exact核新R381；不预判310/46差额原因。大enclosure仅内部字节核，不新算科学。R341/R349历史和R352共享Bernstein表达式保。
 
 ## 九/十控制与幅度
 
