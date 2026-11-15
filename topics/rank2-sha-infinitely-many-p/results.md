@@ -314,3 +314,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R727：原角平衡截面与真实垂直商的单残列](results/R727-original-balanced-sections-and-single-residual-column-in-vertical-unit-quotient.md)：U=d^c和A=t²m_tan d^(c−1)逐十九角回H1，两charge只b≥2即可整分裂两jet。以实际λ排F保A，R547垂直＋F²L真单位块保原cube p因子；同商两余列精确(0,16c z_c)，保全p³身份/同R，不相加单位块秩。
 
 - [R728：冻结型5负一行的原连接源与全近消返回](results/R728-frozen-type-five-connection-and-complete-near-cancellation.md)：D=ζP−P′/34对应完整S34零质量伙伴及σ′⊗oddS33真实卷积；五负矩回原c/(c+Z)单位域。全部两单位近消来源为β^m(1−hκ)D+ell_mP′/34，完整Mellin保J_P中央、负一质量及p^m/κ^m尺度log；P未认成原S，native外部相反补偿仍保。
+
+- [R729：范数三、七的原小CM与密度一全窗恢复](results/R729-norm-three-seven-cm-and-density-one-full-ah-reconstruction.md)：准确R3=X、R7=X³+a7bw和完整Gaussian/Fermat商；Norm秩二/anti单秩小阶计数给共同六次阶>X^1.05/12，坏p O(X^.9/log)。密度一e≥s补全两AH二位族，唯一指定整个原U及全部Cartier；实际degree3/7成本保，不预付旧格或中央非零。

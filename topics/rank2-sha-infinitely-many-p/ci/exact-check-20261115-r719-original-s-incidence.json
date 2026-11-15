@@ -1,0 +1,27 @@
+{
+  "request_id": "rank2-20261115-r719-frozen-original-s-incidence",
+  "run_id": 43699905260,
+  "source_commit": "547a8b58e70d7817ea1d557fb8f15d8b19626b53",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r719-frozen-native-first-row.js",
+      "script_sha256": "6d60f0389ddc6bf6ef3283af69660abb0dfd7346243f49bb0689ea0bcd1bbcbc",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
+      ],
+      "engine": "node",
+      "sha256": "27ee04094930792b3675d33a591966e9ee65cceb96e234462f84a96bc943686d",
+      "stdout_bytes": 24817,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132768550476,
+  "success": true,
+  "scope": "Same complete finite auxiliary affine planes only; neither q715 nor zeta715 plane meets the scalar original D_S line at the four auxiliary points. No characteristic-zero nonintersection inferred."
+}

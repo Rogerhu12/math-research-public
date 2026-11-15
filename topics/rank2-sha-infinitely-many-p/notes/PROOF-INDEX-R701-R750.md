@@ -78,3 +78,5 @@ Brandt note §7：实际固定α满足ell_p(α)=0时，原同步相关等于细�
 R725§8–9：前K原行可用J=floor((K+1)/6)截参数，准确M_K=p(2J+1)帽和全部坐标精度/留数保。实际分子就是同Q_{m,K}的p基系数，h0另计M_K+1；固定K的真实代价降O(p)，不赋未支付高行或中央非零。
 
 R724附录B：原primitive理想射线、严格正径向因子及固定短方向贡献均付；全环Teich projective-line式保非unit。真实annulus权和N=Σ_rC_r/(6p²)明确所需同步节省，未套普通一维Fermat商界。
+
+- [R729：范数三、七的原小CM与密度一全窗恢复](../results/R729-norm-three-seven-cm-and-density-one-full-ah-reconstruction.md)：准确R3=X、R7=X³+a7bw和完整Gaussian/Fermat商；Norm秩二/anti单秩小阶计数给共同六次阶>X^1.05/12，坏p O(X^.9/log)。密度一e≥s补全两AH二位族，唯一指定整个原U及全部Cartier；实际degree3/7成本保，不预付旧格或中央非零。
