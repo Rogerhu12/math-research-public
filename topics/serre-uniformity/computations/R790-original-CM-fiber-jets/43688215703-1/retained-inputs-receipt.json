@@ -1,0 +1,116 @@
+{
+  "artifact_groups": [
+    {
+      "label": "R735",
+      "producer": {
+        "result": "R732-p41-original-CM-model",
+        "run_id": "43608152850",
+        "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+        "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+        "artifact_id": 14118747540,
+        "archive_sha256": "de684d4e688085f4d9797639ce43fb1f3aca16ef68884fa2d3ca83e4d9d8f917",
+        "manifest_sha256": "2b29c302c796e98318d15a51df2fb556b18e9f83ae507428bd47cabc8be817ce",
+        "manifest_repository_path": "computations/R732-p41-original-CM-model/43608152850-1/full-outputs-manifest.json",
+        "certificate_name": "p41-original-CM-model-certificate.json",
+        "core_sha256": "4d6f860506347ab578f1a4f0e30eb0041f8a56b6e62b29762aa958c843f17ec5",
+        "files": {
+          "p41-original-CM-model-certificate.json": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574",
+          "p41-original-torsion-modulus.json.gz": "7063eacd17ffec4c68dea5d8c3a2cab278286653fd12aae07f1c955bb1ad94fb"
+        }
+      },
+      "producer_run_source_core_receipt_and_manifest_verified": true,
+      "original_artifact_digest_verified_on_this_download": true,
+      "inputs_from_verified_active_resume_bundle": false,
+      "all_copied_file_sizes_and_sha256_verified": true,
+      "continuation_only_files": {},
+      "continuation_only_purpose": "R787/R786 original product recipes for the next beta composition",
+      "core_mathematical_input_file_map_unchanged": true,
+      "R735_uses_real_identity_schema": true
+    },
+    {
+      "label": "R754",
+      "producer": {
+        "result": "R754-original-p41-periods-and-Hom-kernel",
+        "run_id": "43620862489",
+        "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+        "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+        "artifact_id": 14125735974,
+        "archive_sha256": "9a58e842bc80654f77800f6e0db7f90655483e6c6469fc7791addb0db40c4ed1",
+        "manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+        "certificate_name": "p41-original-period-and-Hom-kernel-certificate.json",
+        "core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+        "files": {
+          "p41-original-period-and-Hom-kernel-certificate.json": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c",
+          "R754-original-Weil-pairing.json.gz": "3442745d499a3b4b772b004e40c7d5cac9bc1ab5b0b366f234c9727851ceef08"
+        }
+      },
+      "producer_run_source_core_receipt_and_manifest_verified": true,
+      "original_artifact_digest_verified_on_this_download": true,
+      "inputs_from_verified_active_resume_bundle": false,
+      "all_copied_file_sizes_and_sha256_verified": true,
+      "continuation_only_files": {},
+      "continuation_only_purpose": "R787/R786 original product recipes for the next beta composition",
+      "core_mathematical_input_file_map_unchanged": true,
+      "R735_uses_real_identity_schema": false
+    },
+    {
+      "label": "R771",
+      "producer": {
+        "result": "R771-p41-original-quotient-RR-bases",
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "artifact_id": 14127715743,
+        "archive_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "certificate_name": "p41-original-quotient-RR-basis-certificate.json",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+        "files": {
+          "p41-original-quotient-RR-basis-certificate.json": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+          "R771-original-level82-Eisenstein-label-group.json.gz": "3f394ae69f2b7f40940cd76b9847502964402181c0003bef6f2967f86eb9d2fc"
+        }
+      },
+      "producer_run_source_core_receipt_and_manifest_verified": true,
+      "original_artifact_digest_verified_on_this_download": true,
+      "inputs_from_verified_active_resume_bundle": false,
+      "all_copied_file_sizes_and_sha256_verified": true,
+      "continuation_only_files": {},
+      "continuation_only_purpose": "R787/R786 original product recipes for the next beta composition",
+      "core_mathematical_input_file_map_unchanged": true,
+      "R735_uses_real_identity_schema": false
+    },
+    {
+      "label": "R775",
+      "producer": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "artifact_id": 14148883593,
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-M2.json.gz": "51113988c90b301cb6117fec5c294b77110e1826bf00229b7993ba82144f5d3d",
+          "R775-determinant-cosets.json.gz": "759d6f7643032fa358a0da02417d576f5d6f89a3996f9e6fb4b3bf954c52ecac"
+        }
+      },
+      "producer_run_source_core_receipt_and_manifest_verified": true,
+      "original_artifact_digest_verified_on_this_download": true,
+      "inputs_from_verified_active_resume_bundle": false,
+      "all_copied_file_sizes_and_sha256_verified": true,
+      "continuation_only_files": {
+        "R775-basis-power-2.json.gz": "734a61e967c51ba3c9cd93eaff1a81fba165600110abb941dfdbbeed41b6ebe4",
+        "R775-basis-power-3.json.gz": "00361e5155c429de5c54b613b8a3cb46ac9530c554e1a812823748bb2bf5fe18",
+        "R775-basis-power-4.json.gz": "85beb7662eee64f4eca9e205314a6625506e3041bea199985489c7cf1f62dd4e",
+        "R775-basis-power-5.json.gz": "7aff6faa89a91649db5549bbf9360647534bff6f9586ce3f5963e322d33c30ba"
+      },
+      "continuation_only_purpose": "R787/R786 original product recipes for the next beta composition",
+      "core_mathematical_input_file_map_unchanged": true,
+      "R735_uses_real_identity_schema": false
+    }
+  ],
+  "completed_old_target_periods_Weil_pairing_or_basis_recomputed": false
+}
