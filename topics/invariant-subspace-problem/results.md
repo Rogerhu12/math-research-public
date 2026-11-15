@@ -173,3 +173,6 @@
 
 
 - [R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：同原I,J第二自然左jet22头及全95788产品，Q第二rank∈[9,11]；同选D91/cofactor88/原换列88、K99下条件统一费8627与目标209。保两E完整自由及原成员性前提，normal4/5仍开。
+
+
+- [R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)：强头孔数固定、远孔数允许N≤floor(x/48)，同B_s(x)给完整局部伴随MP读数；保完整核forcing及整数边界，原返回投影和高出生窗口仍待运输。
