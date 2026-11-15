@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：8d5bb8d5846ce14100cb9f05a53075504c20cfc8**（2026-11-15 06:06 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：e09a95acffe592331d295d0c856c279ad1869bd0**（2026-11-15 06:11 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -20,7 +20,7 @@
 
 - **R786理论及准确短基已成**：原5ℒ degree1360/1234基、原y pole1206，129完整Laurent阶即全球。run43682100611/source dd262672成功，全部q0..128/40坐标与旧mod739比较；artifact14148389754、cert dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9，3740文件SHA已核。全部冻结绑定见R786-certified结果。B0/A消元1326×1214 L、rank≤1186仍只理论界。
 
-- **R787原函数关系任务输入已齐，run待核**：core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04；原R786+R781真artifact，14分裂分支同一主元/自由列=1，Dixon在原L整基逐阶全残差校验，仅模素数逆矩阵。只有非零A/B通过全部129×20 L准确代回才成功；原y/β/高度不预称已得。method、wrapper/workflow及真request已备，预算300min；active输入bundle随一日checkpoint续传，Git只小metadata。R777保持备用，R775原续跑继续。
+- **R787原函数run43683912711实际运行中**：core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04；原R786+R781真artifact，14分裂分支同一主元/自由列=1，Dixon在原L整基逐阶全残差校验，仅模素数逆矩阵。只有非零A/B通过全部129×20 L准确代回才成功；原y/β/高度不预称已得。source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921；预算300min；active输入bundle随一日checkpoint续传，Git只小metadata。R777保持备用，R775原续跑继续。
 
 ## 已完成原p41输入，不重复
 

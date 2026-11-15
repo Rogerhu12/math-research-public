@@ -355,3 +355,8 @@
 - R787原L关系核心/方法已冻结，直接用实际R786+R781；14分裂分支共同主元和自由列归一，Dixon保原L整基，全部129×280残差逐步检查，最终char0代回才认证。
 - root完整读core/method/wrapper，核原R786阶段schema、Laurent索引/符号、稀疏Z、分裂拼合、packed卷积和官方python-flint0.9.0 API；仅本地AST/文件SHA，无本地数学。core93d3d72b、method1d91bfc7。
 - 写真实输入请求触发公开workflow，预算300/350min；已消费的原生产者输入随一日active bundle转交，防止过期后重算。H先归档再压缩、open/index同步；R775仍续跑，主目标OPEN。
+
+## 2026-11-15 14:10 Asia/Taipei · serre-public-astra-20261115
+- R787已推eab5e58b并启动公开run43683912711，job132720221921依赖安装通过、原函数求解进行中；H/open记真实run，未预称完成。
+- 只读取已登记R702 p41证书：A35=0而A2=1，否定临界f/g逐标签单位倍反射；另一端A32=15却h7非本原。将该失败策略加入既有sigma笔记，无新计算或p41分类重跑。
+- 继续原CM求值框架/共同零支撑及η核的真实高度方向；R788已推d4a69440，主目标仍OPEN。

@@ -234,4 +234,4 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 
 ### R787：真实原L函数关系的公开求解
 
-[求解方法](notes/R787-original-power5-relation-solver-method.md)已落实：直接消费完成的R786基与R781 Laurent；小20阶Q块精确消B0，大A/Schur块只在合法素数下求逆。14分裂分支共同主元和同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构仍只是候选，须全部char0原关系通过且B非零才给原y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，真实输入请求已准备，实际rank/关系/β/高度不预填。活跃输入与阶段同一临时bundle转交，可直接续接而不重算旧生产者。
+[求解方法](notes/R787-original-power5-relation-solver-method.md)已落实：直接消费完成的R786基与R781 Laurent；小20阶Q块精确消B0，大A/Schur块只在合法素数下求逆。14分裂分支共同主元和同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构仍只是候选，须全部char0原关系通过且B非零才给原y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，真实请求已推eab5e58b，run43683912711实际运行；rank/关系/β/高度不预填。活跃输入与阶段同一临时bundle转交，可直接续接而不重算旧生产者。
