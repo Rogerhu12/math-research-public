@@ -1,0 +1,719 @@
+{
+  "schema": "original-C-versus-R270-condensed-full-H-v1",
+  "same_original_A_b_damping_B_c": true,
+  "original_C_candidate_retained": true,
+  "original_C_objective": 43.67001151481282,
+  "original_C_selection": {
+    "selection": "feasible-segment-minimum",
+    "original_ray_gdot": -1.1154188214741414,
+    "original_ray_model_curvature": 1.1110784720252804,
+    "original_ray_model_minimizer_factor": 1.0,
+    "original_ray_feasibility_repair": {
+      "factor": 4.696468999434147e-05,
+      "repairs": [
+        {
+          "attempt": 0,
+          "rho": 21291.59237355704,
+          "R265_factor": 4.696468999434214e-05,
+          "actual_factor": 4.696468999434147e-05,
+          "original_slack": {
+            "size": 49152,
+            "finite_count": 49152,
+            "minimum": -50.54592525212997,
+            "maximum": 20.56010067444435,
+            "negative_count": 3170,
+            "zero_count": 0
+          }
+        }
+      ],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 2.0383000842727483e-17,
+        "maximum": 0.4998855828509743,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": true
+    },
+    "projected_candidate_feasibility_repair": {
+      "factor": 0.0014487174643631668,
+      "repairs": [
+        {
+          "attempt": 0,
+          "rho": 689.2657175045306,
+          "R265_factor": 0.0014487174643631876,
+          "actual_factor": 0.0014487174643631668,
+          "original_slack": {
+            "size": 49152,
+            "finite_count": 49152,
+            "minimum": -23.304488646995306,
+            "maximum": 46.156063413599355,
+            "negative_count": 774,
+            "zero_count": 0
+          }
+        }
+      ],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 4.996003610813204e-16,
+        "maximum": 0.49988568961591856,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": true
+    },
+    "segment_first_derivative_at_backup": -0.00025698517698793586,
+    "segment_curvature": 6.361442369502525e-06,
+    "segment_parameter": 1.0,
+    "composed_direction_feasibility_repair": {
+      "factor": 1.0,
+      "repairs": [],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 4.996003610813204e-16,
+        "maximum": 0.49988568961591856,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": false
+    },
+    "backup_damped_model_decrease": 5.2384073821434546e-05,
+    "selected_damped_model_decrease": 0.00030618852962461916,
+    "actual_full_model_directional_derivative": -0.0003093822726636092,
+    "weighted_J_direction_squared": 4.096455950143818e-06,
+    "actual_damping_penalty": 2.2910301278362963e-06,
+    "actual_scaled_direction_L2": 5.605981187374804e-06,
+    "original_damped_model_gradient_L2": 301644.1845762243,
+    "final_all_10240_linear_slack": {
+      "size": 49152,
+      "finite_count": 49152,
+      "minimum": 4.996003610813204e-16,
+      "maximum": 0.49988568961591856,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "all_original_linear_rows_rechecked_after_every_repair_and_combination": true,
+    "complete_R265_quadratic_optimality_claimed": false,
+    "projection_multipliers_not_reused_as_model_multipliers": true,
+    "R265_zero_dual_E": 624068.683735633,
+    "R265_zero_dual_posterior_scope": "Feasible selected vector and zero dual only; may be a loose model bound",
+    "new_scientific_gate": false
+  },
+  "selected_candidate": "R270-condensed-complete-H",
+  "full_QP_optimality_claimed": false,
+  "actual_parent_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
+  "actual_B_model_sha256": "f74b464eb3fcfe233cc084195e1fed50ab70b52aac07472343c5a96d1d1714d1",
+  "exact_condensation_is_a_real_arithmetic_theorem": true,
+  "computed_local_root_not_assumed_equal_to_original_H": true,
+  "candidate_absolute_monotonic_deadline": 939.5205938510001,
+  "local_QP_absolute_monotonic_deadline": 909.5205938510001,
+  "original_absolute_monotonic_deadline": 1252.814130254,
+  "conditional_recovery": {
+    "direction": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "05c2e2a5e244cb97fbec571c9a0f170494c71eec9cb4eddba32c907a83e0d58f",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "original_A_AT_B_readback_still_required": true,
+    "only_one_final_full_chain_recovery_requested": true,
+    "outside_raw_LSMR_coordinates_not_frozen": true
+  },
+  "helper_completed": true,
+  "condensed_candidate_objective": 43.47353223943321,
+  "condensed_candidate_selection": {
+    "selection": "feasible-segment-minimum",
+    "original_ray_gdot": -1.1154188214741414,
+    "original_ray_model_curvature": 1.1110784720252804,
+    "original_ray_model_minimizer_factor": 1.0,
+    "original_ray_feasibility_repair": {
+      "factor": 4.696468999434147e-05,
+      "repairs": [
+        {
+          "attempt": 0,
+          "rho": 21291.59237355704,
+          "R265_factor": 4.696468999434214e-05,
+          "actual_factor": 4.696468999434147e-05,
+          "original_slack": {
+            "size": 49152,
+            "finite_count": 49152,
+            "minimum": -50.54592525212997,
+            "maximum": 20.56010067444435,
+            "negative_count": 3170,
+            "zero_count": 0
+          }
+        }
+      ],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 2.0383000842727483e-17,
+        "maximum": 0.4998855828509743,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": true
+    },
+    "projected_candidate_feasibility_repair": {
+      "factor": 0.9999999999882926,
+      "repairs": [
+        {
+          "attempt": 0,
+          "rho": 1.1693114326932977e-11,
+          "R265_factor": 0.9999999999883069,
+          "actual_factor": 0.9999999999882926,
+          "original_slack": {
+            "size": 49152,
+            "finite_count": 49152,
+            "minimum": -5.543343561953407e-13,
+            "maximum": 2.5248984778094985,
+            "negative_count": 130,
+            "zero_count": 0
+          }
+        }
+      ],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 4.579669976578771e-16,
+        "maximum": 2.5248984777817056,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": true
+    },
+    "segment_first_derivative_at_backup": -0.38083610234377163,
+    "segment_curvature": 0.3682060450167637,
+    "segment_parameter": 1.0,
+    "composed_direction_feasibility_repair": {
+      "factor": 1.0,
+      "repairs": [],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 4.579669976578771e-16,
+        "maximum": 2.5248984777817056,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": false
+    },
+    "backup_damped_model_decrease": 5.2384073821434546e-05,
+    "selected_damped_model_decrease": 0.19678546390921117,
+    "actual_full_model_directional_derivative": -0.38090637568030233,
+    "weighted_J_direction_squared": 0.1161267010838337,
+    "actual_damping_penalty": 0.2521151224583486,
+    "actual_scaled_direction_L2": 0.0018596691390402981,
+    "original_damped_model_gradient_L2": 9386.781815139777,
+    "final_all_10240_linear_slack": {
+      "size": 49152,
+      "finite_count": 49152,
+      "minimum": 4.579669976578771e-16,
+      "maximum": 2.5248984777817056,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "all_original_linear_rows_rechecked_after_every_repair_and_combination": true,
+    "complete_R265_quadratic_optimality_claimed": false,
+    "projection_multipliers_not_reused_as_model_multipliers": true,
+    "R265_zero_dual_E": 604.332461214258,
+    "R265_zero_dual_posterior_scope": "Feasible selected vector and zero dual only; may be a loose model bound",
+    "new_scientific_gate": false
+  },
+  "condensed_candidate_original_full_direction": {
+    "shape": [
+      236036
+    ],
+    "dtype": "<f8",
+    "sha256": "d2d84aa4794e0a5b857e4c4de2bebc7a3798103c043d81cf9f11266c9298dc91",
+    "bytes": 1888288,
+    "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+  },
+  "global_selector_changed_conditional_recovery": true,
+  "conditional_optimum_not_claimed_after_global_selector_change": true,
+  "final_actual_full_model_evidence": {
+    "label": "final-selected-original-full-model",
+    "objective": 43.47353223943321,
+    "actual_gdot": -0.38090637568030233,
+    "actual_damped_model_decrease": 0.19678546390921117,
+    "all_original_linear_slack": {
+      "size": 49152,
+      "finite_count": 49152,
+      "minimum": 4.579669976578771e-16,
+      "maximum": 2.5248984777817056,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "required_direction_fields_finite": true,
+    "all_original_rows_feasible": true,
+    "actual_original_stationarity_L2": 3.536766257230226e-06,
+    "actual_original_stationarity_finite": true,
+    "actual_complementarity_sum": 1.657038395759014e-13,
+    "R267_lower_bound_raw_float": 43.47353223943305,
+    "R267_quadratic_residual_term_raw_float": 8.579365952182649e-17,
+    "multipliers_nonnegative": true,
+    "posterior_nonfinite_is_not_an_extra_acceptance_gate": true,
+    "floating_point_posterior_is_not_a_validated_enclosure": true,
+    "original_A_AT_B_BT_freshly_evaluated": true,
+    "full_QP_optimality_claimed": false,
+    "direction": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "d2d84aa4794e0a5b857e4c4de2bebc7a3798103c043d81cf9f11266c9298dc91",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "actual_A_direction": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "da52d5db409710f8412c31ed30f1a5185402d9591d03ea6e15dfe47e6d55743a",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "actual_B_direction": {
+      "shape": [
+        49152
+      ],
+      "dtype": "<f8",
+      "sha256": "6689c2d1c175a63e1c94e52bd9f47ec2264c9c2c90651d285b19088a1ef2f1dd",
+      "bytes": 393216,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "multipliers": {
+      "shape": [
+        49152
+      ],
+      "dtype": "<f8",
+      "sha256": "9c44095a5da22778c5e8041597bff5a5300526fc85f1255ec3d50c07a3c06a29",
+      "bytes": 393216,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "actual_original_gradient": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "20f1aa4d38c2b9d15636fc5a6a31c92ed5a92c93be75d03842a02a29ef45a9b1",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "actual_original_stationarity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "673bf876d794e752a7f5be67b8e28ec66a381738b448ecca2ff108fdced8702c",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    }
+  },
+  "R267_evidence_lower_bounds": [
+    {
+      "point": "original-C-zero-dual",
+      "lower_bound_raw_float": -624025.0137241182
+    },
+    {
+      "point": "conditional-recovery-before-original-global-selector",
+      "lower_bound_raw_float": 43.473532239433055
+    },
+    {
+      "point": "final-selected-original-full-model",
+      "lower_bound_raw_float": 43.47353223943305
+    }
+  ],
+  "best_R267_lower_bound_raw_float": 43.473532239433055,
+  "final_cross_point_gap_raw_float": 1.5631940186722204e-13,
+  "final_cross_point_distance_bound_raw_float": 2.070893075653107e-09,
+  "posterior_is_not_a_validated_enclosure": true,
+  "helper_seconds_including_factor_condensation_QP_recovery": 156.153254393,
+  "final_actual_full_A_AT_B_BT_readback": true,
+  "full_nonlinear_trials_are_the_unchanged_downstream_engine": true,
+  "new_BVP_or_native_acceptance_claimed": false,
+  "actual_saved_result": {
+    "file": "condensed-QP-result.json.gz",
+    "sha256": "240e6d4150054795fbfcfc03aebd2789612025d9090b9ab072740e0914c3e049",
+    "bytes": 425855,
+    "array_manifest": "condensed-array-manifest.json",
+    "array_manifest_sha256": "274a90a449417c256ec4a48e12ce4e4e522e0870eda86253a08873c1fe111d15"
+  },
+  "condensed_QP_entry": {
+    "schema": "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1",
+    "entry_source_sha256": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+      "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+      "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+      "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+      "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+      "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+      "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+      "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+      "geometry_20261114_fifteen_query_domain_operator.py": "c6581f0b8fdef4c3bc48d364c6845cff9a4244b043a4d14c772ef6fd3b2503e8",
+      "geometry_20261114_fifteen_query_condensed_warm.py": "f1310edc94fb3a9c9f95b5dad98e7073c1879997b9a9bdf06c5028e91f83351e",
+      "geometry_20261114_sixteen_query_domain_operator.py": "a92efa1735832d144cb65d617beb2d9018d7822f5cc7d3846d00757abfb2db2a",
+      "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+      "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
+      "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+      "geometry_20261114_eighteen_query_domain_operator.py": "ec43c049542f523e1c4f2b1956c07a9216497eb066a8f6f22ceddd8f11e2c051",
+      "geometry_20261114_eighteen_query_condensed_warm.py": "b9f7d9150c57cff485f5f891881870095fc91f7a58fd40f63544e6bb9c3ef335",
+      "geometry_20261114_nineteen_query_domain_operator.py": "945114799a2cf564c59b463e1429b55119d4ad421bc5f3414c7143333e43d35e",
+      "geometry_20261114_nineteen_query_condensed_warm.py": "63ec6bd0da782933ad01628c686499d6325fa10df2c624f97c6f131a233e8d39",
+      "geometry_20261114_twenty_query_domain_operator.py": "16157412cbb4af0d01ade0cb3e373413fda175059186ccf17ef3b1d727d27ce1",
+      "geometry_20261114_twenty_query_condensed_warm.py": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
+      "geometry_20261114_twenty_one_query_domain_operator.py": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65",
+      "geometry_20261114_twenty_one_query_condensed_warm.py": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+      "geometry_20261114_twenty_two_query_domain_operator.py": "083abbf5e7f6dfede4f717d059192011e2ca4f895ff2f57e2d3760f49d06feb0",
+      "geometry_20261114_twenty_two_query_condensed_warm.py": "2b01d4384f312a435b4e00feb9296c93a15aebe063a29fe9c588ac230aaf867a",
+      "geometry_20261114_twenty_three_query_domain_operator.py": "755d9bf2a01c5c417b28bfd265ee76712bba54a9fdeddf34ea56c4668abefe98",
+      "geometry_20261114_twenty_three_query_condensed_warm.py": "1fe5b698e452112583ee82a81ab7890095c7f3f31de05cdfb60c79e35039721c",
+      "geometry_20261114_twenty_four_query_domain_operator.py": "06933e9341664d63b5a9eaeb00998daa1be7b1c1d143a60f1ae2ef05efa9db36"
+    },
+    "actual_parent_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
+    "actual_parent_status_sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
+    "actual_parent_schema": "exact-constraint-twenty-three-query-condensed-complete-H-warm-v1",
+    "initial_actual74_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
+    "initial_actual74_status_sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 466,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 467,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 468,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 469,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 482,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 484,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 485,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 480,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 481,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 482,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 484,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 485,
+        "fraction": 0.5
+      }
+    ],
+    "original_full_coordinates": 236036,
+    "complete_B_local_coordinates": 7101,
+    "selected_angle_row_count": 49152,
+    "twenty_four_query_operator_source_sha256": "06933e9341664d63b5a9eaeb00998daa1be7b1c1d143a60f1ae2ef05efa9db36",
+    "added_query": {
+      "kind": "left-RMS",
+      "interval": 485,
+      "fraction": 0.17267316464601146
+    },
+    "unique_capture_intervals": [
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      482,
+      484,
+      485
+    ],
+    "complete_B_physical_nodes": [
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "complete_B_outside_C_nodes": [
+      466,
+      467,
+      468,
+      469,
+      470,
+      483,
+      484,
+      485,
+      486
+    ],
+    "original_left_RMS467_retained": true,
+    "original_left_RMS468_retained": true,
+    "original_left_RMS469_retained": true,
+    "original_midpoint481_retained": true,
+    "original_left_RMS481_separately_retained": true,
+    "original_left_RMS482_separately_retained": true,
+    "original_midpoint482_separately_retained": true,
+    "original_twenty_three_query_parent_producer_preserved": true,
+    "original_midpoint480_retained": true,
+    "original_midpoint485_retained": true,
+    "original_midpoint484_retained": true,
+    "original_left_RMS485_explicitly_added": true,
+    "retained_midpoint484_reuses_captured_endpoint484_and485": true,
+    "added_left_RMS485_reuses_captured_endpoint485_and486": true,
+    "original_left_RMS484_separately_retained": true,
+    "original_left_RMS480_separately_retained": true,
+    "complete_B_capture_support_unchanged_from_parent": true,
+    "actual_query_endpoint_nodes": [
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "actual_block_column_union_dimension": 7101,
+    "declared_contiguous_local_layout_nodes": [
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "zero_B_layout_nodes": [],
+    "declared_local_layout_equals_actual_B_column_union": true,
+    "original_node484_actual_query_columns_retained": true,
+    "complete_B_capture_includes_original_node484": true,
+    "condensation": "R270 full affine square-root elimination; g is original A-transpose b",
+    "original_lambda_and_row_and_chart_weights_unchanged": true,
+    "outside_variables_conditionally_optimized_not_frozen": true,
+    "free_core109_eliminated_with_all_pure_global_rows": true,
+    "all_three_global_controls_remain_local_unknowns": true,
+    "complete_QR_column_preconditioner": "none",
+    "baseline_C_support_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "baseline_C_support_dimension": 4059,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "actual_same_f_C_comparison_retained": true,
+    "original_seventeen_trials_and_RMS_and_boundary_checks_retained": true,
+    "original_midpoint_observer_retained": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false,
+    "local_QP_budgets": {
+      "maximum_working_rows": 512,
+      "dual_sweeps": 200,
+      "candidate_seconds": 600.0,
+      "recovery_reserve_seconds": 30.0,
+      "original_trial_reserve_seconds": 90.0
+    },
+    "local_root_raw_arrays_exported": true,
+    "every_parent_producer_subtree_preserved": true
+  },
+  "read_only_collocation_observer_entry": {
+    "schema": "original-return-collocation-location-observer-v1",
+    "execution_wrapper_file": "geometry_20261114_twenty_four_query_collocation_observer_warm.py",
+    "execution_wrapper_source_sha256": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35",
+    "original_twenty_four_query_entry_source_sha256": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+    "original_optimizer_schema": "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1",
+    "observed_original_sources": {
+      "geometry_20261114_twenty_four_query_condensed_warm.py": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
+    },
+    "actual_parent_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
+    "actual_parent_status_sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
+    "observer_source_sha256": {
+      "geometry_20261114_twenty_four_query_collocation_observer_warm.py": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35"
+    },
+    "mathematical_source_ledger_and_schema_unchanged": true,
+    "original_evaluate_called_once_per_original_request": true,
+    "original_weights_called_once_per_original_request": true,
+    "extra_RHS_calls": 0,
+    "extra_Jacobian_calls": 0,
+    "extra_profile_boundary_or_model_calls": 0,
+    "extra_trials": 0,
+    "full_physical_scope": "all intervals and all original physical components",
+    "row_order": "interval-major physical collocation, then all original right boundary rows",
+    "row_weight_scope": "the original base-state Wr returned once for this model, frozen across trials",
+    "no_trial_fmid_weight_recomputation": true,
+    "observer_exceptions_do_not_replace_original_return_or_gate": true,
+    "numerical_result_or_acceptance_claimed_by_observer": false
+  },
+  "execution_wrapper_source_sha256": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35",
+  "mathematical_producer_source_sha256": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452"
+}
