@@ -189,3 +189,9 @@ R715公开43691642194/job132743359410完整计算：58×149系统rank50，四点
 ### R718：原CM同源约束完整的Frobenius提升
 
 选择实际α≡1 mod6、αmodp生成Fp²×，Normα≤27p²，原σ(αz)/σ(z)^N是完整p整CM division polynomial。原U满足U(α6w)=U^N Rα exp(c(N−α^(p+1))w^s)，有限指数全整；tbar=c_p N0 q_p(α)，Nmodp²的Frobenius幂保。高度二窗只有n=s共振，原logU_s=0唯一补齐，故实际CM输入唯一恢复R717全部二位族和原首Cartier行；p变次数/全局极帽与中央进位缺口保持。 接续这个实际非线性分布与原φ/中央carry的关系，不把有限域原根选择当固定原根猜想，也不认中央泛函已与该递推交换。
+
+### 原极端 carry 的指定短行与第一 wild Rubin 因子
+
+[乘后真实 forcing](notes/2026-11-15-extreme-carry-multiplied-actual-forcing.md)已完整归原全列共同像：ell=r、s=2h+1时，实际短向量为(m|C)e(b_su²/(2a)+3tξ) modt^(h+1−r)，保同Pfact的ξ0及全部原来源。r1准确矩阵已给；继续其指定右端是否在像，恢复同R两13carry/d2，不用unit首系数判非零。
+[原第一wild/Rubin接点](notes/2026-11-15-original-first-wild-rubin-factor-and-central-order.md)付真实共轭相位及vA_p(ν)=2vtrace；边界零准确等价Φ_p(1+T)因子。原j34=0且边界零才迫λ_p≥p+3；实际λ_p<p−1则第一层非零且λ_p=2(i+1)为原B首单位行。继续原第一层tame averages或统一λ界；固定p足够高层和μ=0均不自动给这两项。
+R719窄公开43693554672四点两冻结+cd+W+28混合共52行独立、J2在其像且余量0；cd+混合（加W亦同）不足。当前只是有限κ=u0；接特征零关系与R713原斜门。脚本/参数/hash见ci/exact-check-20261115-r719-native.json。
