@@ -16,9 +16,9 @@
     4464
   ],
   "completed_bundles": null,
-  "completed_quarters": 83,
+  "completed_quarters": 168,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 83,
+  "new_completed_quarters_this_child": 168,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 4297,
+      "index": 4382,
       "request": [
-        1074,
-        4,
-        1
-      ],
-      "interval": [
-        "23395261814267355/18014398509481984",
-        "11701540281810215/9007199254740992"
-      ],
-      "true_adjoint_Gram_trace_upper": {
-        "ball": "[1.8713057264423420695857495005792358e-20 +/- 3.39e-55]",
-        "lower": "[1.8713057264423420695857495005792358e-20 +/- 3.39e-55]",
-        "mid_float": 1.871305726442342e-20,
-        "radius_upper_float": 0.0,
-        "upper": "[1.8713057264423420695857495005792358e-20 +/- 3.39e-55]"
-      },
-      "exact_array": {
-        "bytes": 344909,
-        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-4297.npz",
-        "sha256": "c3ff4fbb85f757d7137eadb87b0194a7fe517538981feb99b45e08be941a93c1"
-      }
-    },
-    {
-      "index": 4298,
-      "request": [
-        1074,
+        1095,
         4,
         2
       ],
       "interval": [
-        "11701540281810215/9007199254740992",
-        "23410899312973505/18014398509481984"
+        "11912333764369085/9007199254740992",
+        "23824980278712293/18014398509481984"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[1.8758165728596032145008176320983210e-20 +/- 3.17e-55]",
-        "lower": "[1.8758165728596032145008176320983210e-20 +/- 3.17e-55]",
-        "mid_float": 1.8758165728596032e-20,
+        "ball": "[1.4157179336055713496853414122122051e-26 +/- 4.88e-61]",
+        "lower": "[1.4157179336055713496853414122122051e-26 +/- 4.88e-61]",
+        "mid_float": 1.4157179336055713e-26,
         "radius_upper_float": 0.0,
-        "upper": "[1.8758165728596032145008176320983210e-20 +/- 3.17e-55]"
+        "upper": "[1.4157179336055713496853414122122051e-26 +/- 4.88e-61]"
       },
       "exact_array": {
-        "bytes": 344917,
+        "bytes": 345573,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-4298.npz",
-        "sha256": "a92f211a468f11d329394a9236c233fb7fb3bd5b521672bdccfc79b0a698e295"
+        "file": "adjoint-quarter-4382.npz",
+        "sha256": "f66b8873c04149c997f165b4bc66dc59d78541929d0f1b736a34965ec3c45ae0"
+      }
+    },
+    {
+      "index": 4383,
+      "request": [
+        1095,
+        4,
+        3
+      ],
+      "interval": [
+        "23824980278712293/18014398509481984",
+        "1489080814292901/1125899906842624"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[1.8400971281187687368126291730584923e-26 +/- 1.33e-61]",
+        "lower": "[1.8400971281187687368126291730584923e-26 +/- 1.33e-61]",
+        "mid_float": 1.8400971281187687e-26,
+        "radius_upper_float": 0.0,
+        "upper": "[1.8400971281187687368126291730584923e-26 +/- 1.33e-61]"
+      },
+      "exact_array": {
+        "bytes": 345624,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-4383.npz",
+        "sha256": "ca46c569908ac85d6f4fb2bcc56ebe9b040bd00c97837ca26cca3c98adb3f204"
       }
     }
   ],
-  "native_sha256": "aad22c0d639f047905354541611bb625931196ca2d3b9075036e8954df606ab0",
+  "native_sha256": "986e65c939d43462573d8f55c6c909dae71502617cf88c54df517a8bc9891a65",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:33:13.163370+00:00",
-      "before": "e9a6e5e9b23a7c278d7de48e4cbf6175e5f7ffc5",
-      "after": "6ab52d4b5f9c1a25f4e1a53fe9530ecabf1d657e",
+      "time": "2026-11-15T02:43:18.453391+00:00",
+      "before": "6ab52d4b5f9c1a25f4e1a53fe9530ecabf1d657e",
+      "after": "43670645bd3ae23964f37548b0d4ae346205b5c9",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
