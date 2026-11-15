@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。公开最后已读actual pull：ff7d6a8f7f6e84a483fdc8c95d0f29a56dfce8d3，2026-11-15 23:16:32.727504 UTC，ref冲突后纯规则run43773912382/job132995698247，双README空diff；下次最迟2026-11-16 00:16:32。每次pull核双README，有变只读差异即执行并记SHA；每小时actual pull。每结论即推，NFF立即actual pull --rebase/核规则/再推至成功，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。
+根/题README已全文读。最后已读公开actual pull：3953c750413682d7b494c96f22e3546da741738d，2026-11-15 23:39:54.663555 UTC，run43775998866/job133002325378；23:41:13核双README空diff。下次最迟2026-11-16 00:39:53。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有最后已读actual pull：d8d9addd849d584456d2ee31ba8c289a75dc7390，23:16:35.568688 UTC；根blob5ba164843b1f5802184178a82d786264404873a3无差、题README不存在、QUEUE唯一行本会话进行中。此前R397两次及本次实际结论ref冲突均实际rebase/读双repo回执后重推，历史见log。
+私有actual pull：ca2c85b5b4fce2e7a8a1968d10eda275ccd8e345，23:39:56.907262 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。此前所有ref冲突/真实rebase保log与notes。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（22:13复核exec-server缺失），依根8小UTF8发布；API非pull。
 
@@ -34,7 +34,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)给第一条具体完整F0读出：V*=[h⁻⁴]F0(h,0,0)，Λu(V*)=3∫(u′−xu″)⁴u‴/32≠0。完整N0外槽、Γ幂、−b、YC/ZZ、正式pure及有序2+2全部保留，最终primitive/μ0H抵消；是原U线性系数，不是一条已实现的负闭路径，不授Q4头全延拓。
 
-[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)/[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)：C20正规Abar_hh全Λ0；R196原两字符/真三维商给C20=C4+c0C6+R，故n4=−c0n6，增强权零商=span{n2,n6}、维≤2。c0未求，不冒函数独立。全函数核仿射稳定后，ker(E,Λall)内λ+=1 iff n2∈span(n6)；反之原严格正action下降。[两条完整自然通量设计](notes/weight-zero-natural-flux-two-target-design-20261115.md)已装源码/公开入口，仅新Ω(H*)/Ω(J6)，2static+6response必要恢复、原π/self/秩复用，8新人工及两新Ω已提交唯一公开request、待实际回执；H*非正常H、C6=hkω。完整word留非局部，只有全局部才以完整Euler判关系。
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)/[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)与[两完整自然函数实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)：run43775998866首新Ω全local，n6=0/n2≠0（12密度/24Euler），Lrr=3x²(p−xr)(u−xp+x²r/2)²非零。故n4=0、完整自然权零像恰1，联合核λ+=1不存在。8新人工全过；2+6必要输入恢复，旧π/self/秩0重跑，科学6.656628646s/RSS114136KiB。正式完整正字符下降/实际范围正在写；有限给定profiles不能当全Λall。
 
 R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A通量与一次有限n收缩全保，qE三项原基准未消。固定A核非已知仿射稳定，不能沿其推广全自然商。R395旧K0…10在R71∩ker(E,Λall)，对应partial独立、非零给真log障碍。
 
@@ -51,4 +51,4 @@ Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″�
 
 ## 5. 继续
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)：直接取原metric/height/fixed center，删四角未用jets和被覆盖查询积分；完整当前jets/J/null映射同原。新ordinary身份，不冒旧SHA；旧epoch耗尽。源码已发布、人工/实际未执行，新预算及bank/学习迁移待闭，全部旧费用保留。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)：直接取原metric/height/fixed center，删四角未用jets和被覆盖查询积分；完整当前jets/J/null映射同原。新ordinary身份，不冒旧SHA；旧epoch耗尽。源码已发布、人工/实际未执行，新预算及bank/学习迁移待闭，全部旧费用保留。理论转有限实际ordered总量与全部内部像、同包cap及13同规范，完整自然all-zero路线先按新正字符范围处理。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。

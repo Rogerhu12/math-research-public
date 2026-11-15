@@ -163,9 +163,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：V*=[h⁻⁴]F0(h,0,0)∈原U，完整Λ=3∫(u′−xu″)⁴u‴/32≠0。原N0外槽/Γ、−b、formal pure、有序2+2与真左尾全保，primitive/μ0H最终消。它在Q4九维像的F方向，但不授全头延拓或M=T0负路径；C2/C4/C6零权函数和三Q2仍未求清，继续原收缩，不重闭Q4或旧E。
 
 
-### R404完整权零自然像至多二维，下一只求C2/C6
+### 两完整自然权零函数已付：转有限实际通量
 
-[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)由原正规C20全Λ0与R196真商/两字符，得C20=C4+c0C6+R、n4=−c0n6。R400原正字符的联合核条件准确缩为n2∈span(n6)，增强零权商至多2维；c0及两个完整函数均未求，不冒秩2或actual路径。[两条完整自然通量设计](notes/weight-zero-natural-flux-two-target-design-20261115.md)和单入口已装：只新算Ω=−4∫u‴M−2(u,u)的两完整五次函数，保原N0/Γ/ordered尾，复用已付成员；2static+6response仅必要输入恢复。8新人工待唯一公开run；全非局部/左多项式保留，完整局部才做忠实Euler和两函数比例。R402的−4静态行不替代真权0两函数。
+[两完整自然函数实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)：run43775998866/job133002325378，8新人工全过；H*的完整Ω为12项局部五次密度，24项Euler最高u⁽⁴⁾系数3x²(p−xr)(u−xp+x²r/2)²≠0；J6完整左字全0。R404因此n4=n6=0、自然权零像恰1、联合核λ+=1不存在。原N0/Γ/真实ordered尾全保，旧π/self/秩0重跑；全科学6.656628646s。下一正式说明正字符的全自然下降和actual范围，随后解有限当前profiles的ordered totals/内部门；不能把全Λall0继续当自动可建背景，也不据它排有限通量或主课题。
 
 
 ### 直接reference求值已源码闭合，准备最小新接口

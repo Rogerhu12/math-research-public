@@ -311,3 +311,8 @@ Astra-new-mechanism-9974ea84：发布computations/request-weight-zero-natural-fl
 ## 2026-11-15 23:40:13 UTC｜直接reference九项首次人工接口已源码接完
 
 Astra-new-mechanism-9974ea84：scripts/frame_direct_reference_geometry159_development.py，20642B/hashaf63965826364efee0e96e12663a77d520d28f246b957ce1cb3e7b4e8fb9cc12；更新原设计18995B/hashab0ebaa1b5589742535c8cd8cb8a3a4a3956b219d02c2717e90440ece5f29642。准确3组9项，新小原几何3/adapter6（含1预定失败）/新旧J各2、factorizer构造及bind各1/evaluate0；无旧suite/研究/LP/optimizer。本提交只源码，待独立新任务迁移/预算接完后同次public执行，普通缓存留同进程后续消费。基底3953c750413682d7b494c96f22e3546da741738d。
+
+
+## 2026-11-15 23:44:02 UTC｜两完整新Ω首次实际返回，立即登记
+
+Astra-new-mechanism-9974ea84：[两完整自然函数实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，6185B/hash2ce360b606f857bffcea9b8f9176781ffb25da2290f7b7e6e6c3a3dfd79fc850。run43775998866/job133002325378/source d47749f7…；8新人工通过，n2非零全局部/n6全0，旧π/self/秩0。报告读取1.699476147s/必要2+6输入4.239038564s/新map.712408647s/全6.656628646s/RSS114136KiB；完整log及JSONhash见note。公开actualpull23:39:53→3953c750…、私有23:39:56→ca2c85b5…均规则无差、QUEUE仍进行中，根23:41:13已读，H更新。继续正式R406及有限actual条件，主课题未完成；基底d45b99326b80bd4288366a59f9ae62f9f515679b。
