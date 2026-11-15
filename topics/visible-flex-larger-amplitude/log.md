@@ -149,3 +149,7 @@ run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c/compute13274438734
 ## 2026-11-15 07:58:35 UTC /root — actual117新六列响应及八次接受
 
 [实际117](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679d，8接受/12trial，W1234.283357373182→1056.4579275781548，全部final仍false。初完整3×6最小奇异33.56150645878255、old4 .19378008756935441，末18.220133414140268；11内层域异常仅dir0/2全步，多个inner tol=false仍原门接受。初末六列FD、新scalar域及三odd冻结原平方检查已读，summary88323B/14b3c8af/statusd6d16e0d，无raw入库。root继续119独立8批，其他代理接118/非零112/同场几何。
+
+## 2026-11-15 08:03:54 UTC /root — 同场完整曲率和直径汇总源
+
+[完整接口](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)16255B/5d4aac9c及source29769B/b1c2dfb9已完整读源/实际callee，源码AST及最终字节核过。同原tau、实际R279 K/Delta/A_K/B_K、全部闭active格/两帽和重叠marker、F0及全phase界不混淆；闭覆盖缺失不填完整D，实际C² seam未付不填全曲率/reach。无新科学/run/数值证书，静态回执不入库。接118/119与非零112原主线。

@@ -60,6 +60,8 @@
 
 [固定帽球生产器与真实覆盖边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布 sourcea3ada50b，从原SHA绑定shared plan/assembly有限graph导两帽有理位置/法向球；法向归一化误差、上下方向、支撑切触及闭disk全覆盖均保。当前source-only，未有实际接受场输出。旧v3覆盖静态base再用R24，不能把旧pair旋转一端冒mixed consumer；worst≤128/每坏对4children不是完整对表。[完整活动jet球与mixed接线](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)现已发布：source675ab8df/dbdedb45，从原准确有限表达求完整六jet/归一化法向球；实际RαA∪C全部活动×两帽，完整rank及未访问后缀。无实际接受场/run。共同cuff闭cell含零弦仍为未付原local责任，旧静态base+R24保持独立；[R282完整证明](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)及[真实接线合同](notes/2026-11-15-R282-local-owner-input-and-phase-ledger-contract.md)现已登记：准确单射材料图内以严格cross-Gram积分界排除不同点零弦/双法向，完整collar/B系数给全相位小图。仍须真实空间×phase membership、全部rank的两图完整闭叶及未访问后缀，不能整rank由窄图豁免。[独立local owner和完整组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)已发布source0b52a408/4e31ad6b：实际同侧collar/cap半径和材料角membership、完整系数推出局部严格余量；两RP1相位与空间闭叶逐叶取local/原全相位/R281门OR，保全部rank及未决栈/后缀。仍无实际delta/omega/m或paid rank，不把源码落实冒实际reach。
 
+[同场曲率与完整D读取器](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)source b1c2dfb9已落实同原tau/同K/同场：完整active格及两帽闭quadtree覆盖、全部marker Hessian/原R279条件、F0 AABB与全phase界分开。完整覆盖失败时fullD为空，Ktau与3/100 D0分别记；实际C² seam仍未付，因此不预填full_surface_curvature或reach。未运行新科学。
+
 D必须取完整闭F0。固定有内点H需diamH≥.2D，整面像Hausdorff δhold≥.2D，含反射δE>0，全t reach≥.03D。材料点位移/core-to-core/core直径不能替代。held可在reach预算未完成时独立读整个活动面与两帽，不加前置门；所有证据必须同场，不能套用旧小幅证书。
 
 ## 4. 全域metric与最终交付

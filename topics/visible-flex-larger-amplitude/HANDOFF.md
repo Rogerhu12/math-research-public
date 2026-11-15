@@ -56,7 +56,7 @@ R277–R283证明已登记；109/111有理例不是实际曲面证书。[固定�
 
 [R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)及[完整local/组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)已发布 source0b52a408/4e31ad6b，路径computations；真实同侧collar/cap半径及材料theta=Phi(phi)+alpha membership，严格cross-Gram或原全相位/R281逐叶OR。两RP1空间×phase闭叶、全部rank/未决栈/未访后缀保留，不整rank豁免商对角。source-only无真实接受场/余量/run/reach，旧static/R24独立保留。
 
-geometry正补同场完整曲率/完整闭F0直径D/原tau汇总：复用全部active和两帽真实球，保实际seam缺口，Ktau不冒reach。全phase包络只作D0上界，不改D定义/原tau。
+[同场曲率/完整D汇总](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)source b1c2dfb9/interface5d4aac9c已发布：复用同场全部active与两帽真实球、完整闭域及原tau；R279只收实际Delta/A_K/B_K与同K，帽含全部重叠marker Hessian。完整F0 AABB及全phase柱界给D0上界，不改D定义；漏叶/资源未访则fullD为空，full_surface_curvature始终false直到实际C² seam补齐。source-only无run/K/全reach。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN及自身final audited tail/config/port，完整physical/material/z0/mean→R249/shared quintic B/两帽，g不能换B′。R274/R258 adaptere372待同场非零见证；held可独立reach预算读整个活动面和两帽，不能材料点/core-only替整像/D。
 
