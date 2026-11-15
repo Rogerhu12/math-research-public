@@ -91,6 +91,8 @@ R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601�
 
 [R829同pr消失](results/R829-same-degeneracy-diagonal-chow-vanishing.md)：R829证明R826同一pr拉回的两个old向量使完整Ξ=pr*Ξ_Y、pr_*ω_f=0，故第四槽恒零；Manin–Drinfeld支付cusp基点后，小对角平坦恒等给整个选定f⊗g⊗h的Chow投影为零。因此该类不能非零比例比较R814原类（R817在7993已非零）；保R826张量/杯积和独立LLZ公式，须改实际2处向量再付全部坏位。
 
+[R830不同退化修复](results/R830-distinct-degeneracy-test-vectors-and-fourth-slot.md)：R830改第三输入为q4*，保ωh=4h(Q4)dQ/Q、Gh4=Gh(Q4)和degree12；Dimitrov–Nyssen付2处，原3/17 depth-zero有限T投影范数公开精确为1/4及三非零cyclotomic数，compact induction付真实局部线。全部有限test vectors非零，新第四槽为〈ωf,(4Gg h(Q4)−barπ Gh(Q4)g(Qp))dQ/Q〉/(1+barπ/π²)。局部非零不代global AJ或R814比例，跨p仍开。 公开run43765677768/job132970102886已核，原角色标签保；继续真实global比较、同一类的完整分子与固定p变化。
+
 ### 深支：全profile、同R和指定Schur
 
 原M=c*U0w13J、P134/charge40、13free/26carry、十九角、conductor10980、p²/p³及所有余列完整保；低行右逆须保高尾。同R*+Kval继续全部normal/两13/d₂，不能将v_F=eξ自由选取。

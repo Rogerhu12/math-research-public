@@ -216,3 +216,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R829](results/R829-same-degeneracy-diagonal-chow-vanishing.md)：R829证明R826同一pr拉回的两个old向量使完整Ξ=pr*Ξ_Y、pr_*ω_f=0，故第四槽恒零；Manin–Drinfeld支付cusp基点后，小对角平坦恒等给整个选定f⊗g⊗h的Chow投影为零。因此该类不能非零比例比较R814原类（R817在7993已非零）；保R826张量/杯积和独立LLZ公式，须改实际2处向量再付全部坏位。
 
 - [原mirror非固定零水平边界](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：同注§6已证明当前r2全部非固定Y=0移动边界为零：q0≠0时无移动交点，q0=0时原q_src含正Y因子逐正规化支杀AH de/e。仅限真实因子倍来源；Y∞、固定角、一般Xi_R及十三行尾仍保。
+
+- [R830](results/R830-distinct-degeneracy-test-vectors-and-fourth-slot.md)：R830改第三输入为q4*，保ωh=4h(Q4)dQ/Q、Gh4=Gh(Q4)和degree12；Dimitrov–Nyssen付2处，原3/17 depth-zero有限T投影范数公开精确为1/4及三非零cyclotomic数，compact induction付真实局部线。全部有限test vectors非零，新第四槽为〈ωf,(4Gg h(Q4)−barπ Gh(Q4)g(Qp))dQ/Q〉/(1+barπ/π²)。局部非零不代global AJ或R814比例，跨p仍开。
