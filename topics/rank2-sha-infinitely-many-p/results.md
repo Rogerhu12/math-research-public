@@ -403,3 +403,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R750较小实际Bockstein与留数输入](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)：已证明乘B0将整个真实左行转到H0(ωN^-1(LP−D_B))，native eξ准确为同一个整F的长度L普通首Bockstein。完整Gaussian≤13极与正则部均保；所需g modp²/η0全在原首共振前，仍未证明指定留数非零或完整normal/第三块同R。
 
 - [R758](results/R758-full-norm-three-multiplier-space-and-optimal-leading-budget.md)：已证明原Norm3全部统一有理乘子空间的准确直和；四类旧角的逐列等号、新极v12与精确无穷远帽f_m−1给完整充要条件。任何非零分量m≥ceil((36D+65)/47)，最小目标预算夹在3D+该下界与R756上界之间，相差至多3个charge；177/47主阶最优，特定F/非乘法返回及同R仍开。
+
+[实际剪切附录A](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md#附录-a-原全来源的-angular-commutator-与-first-jet-的实际块)已证明原全部门下的精确角commutator：原边际读Π0,Y，物理first jet读Π5,Y⊗Π1,伙伴；先投S线则后者消失。保完整moving权、finiteχ及二阶尺度项，仍需合法跨块连接传播原中央零。

@@ -320,3 +320,110 @@ $\lambda H_W,\gamma\lambda H_V$，和仍准确等于原 primitive 行。
 它没有排除保留完整连接/其他自守实现后建立 (18) 的可能。
 
 因此下一项需要的是原固定来源的完整双线性或 mixed-motive 映射，并保所有 moving 权、局部 pairing 和原失败补域。这里既没有新增中央零假设，也没有将已知非零负一矩的局部块直接替代完整原中央行。
+
+
+## 附录 A. 原全来源的 angular commutator 与 first jet 的实际块
+
+这一节固定式(5)的 $f$，单独分析 (14) 的 source/observation 部分。
+moving 权、质量和尺度仍按 (10) 完整另加，不在此被吸收或删去。
+
+设原联合生成函数的全局单位类型为 $R\in\mathbf Z/6\mathbf Z$：
+$$
+F(\zeta z,\zeta w,\zeta\mathbf v)
+ =\zeta^R F(z,w,\mathbf v)
+ \qquad(\zeta\in\mu_6).
+\tag{A1}
+$$
+$\mathbf v$ 是仍保留的其他伙伴频率；可先作指定的有限正阶伙伴矩，再将它们置零。$R$ 总是指做完这些实际权后的类型。例如，若原测度类型为 $r$，所乘正齐次权总次数为 $q$，则类型变为 $r-q$，不是 $r+q$。原六 sigma 来源以及总次数为6的倍数的原权给 $R=0$。
+
+原线性单位/深度门在同时乘 $\zeta$ 下保持不变。若使用它们的有限加性 Fourier 展开，(A1) 是**全部真实分支之和**的等式；单个平移分支不一定独立满足它。没有以角型消失删掉其中的门或相位。
+
+对第一轴定义真正的几何投影
+$$
+(\Pi_a^Y F)(z,w)
+ =\frac16\sum_{\zeta\in\mu_6}\zeta^{-a}F(\zeta z,w).
+\tag{A2}
+$$
+这里仅旋转第一轴。它一般不保持原 mixed cut；(A2) 作为完整带权来源的有限操作定义，不把移动后的域冒认原域。
+
+令
+$$
+D_j(z)=\partial_w^jF(z,0).
+$$
+由 (A1) 直接微分得
+$$
+D_j(\zeta z)=\zeta^{R-j}D_j(z),\qquad
+\partial_w^j(\Pi_a^YF)(z,0)
+ =\begin{cases}
+ D_j(z),&a\equiv R-j\pmod6,\\
+ 0,&a\not\equiv R-j\pmod6 .
+ \end{cases}
+\tag{A3}
+$$
+这保留所有伙伴：对任一指定伙伴方向的 j 次导数均成立；
+若该方向之外还保留频率，先按其实际总类型分解即可。
+
+取原 principal 情形 $R=0$。
+原第一边际只读取
+$$
+F(z,0)=(\Pi_0^YF)(z,0).
+\tag{A4}
+$$
+但剪切的一阶项严格读取另一个块：
+$$
+\boxed{
+D_1=\Pi_5^Y D_1,\qquad
+\partial_w(\Pi_0^YF)(z,0)=0,\qquad
+\dot A_0(z)=z\,\partial_w(\Pi_5^YF)(z,0).
+}
+\tag{A5}
+$$
+伙伴一阶 jet 同时是伙伴的型一部分。因此 (A5) 的完整二轴标签为
+first-$Y$ 型5与伙伴型1，总型仍为0。
+这不是从维数猜测，而是 (A1) 的逐项系数身份。
+
+准确地，记 $\iota_u^*F(z)=F(a(u)z,b(u)z)$，
+$\Pi_0^z$ 为输出一变量的型零投影，则
+$$
+\boxed{
+\Pi_0^z\left.\partial_u\iota_u^*F\right|_0
+-\left.\partial_u\iota_u^*(\Pi_0^YF)\right|_0
+=zD_1(z).
+}
+\tag{A6}
+$$
+输出乘 $z$ 恰把型5改成型0；它没有把输入先变成原型零 toric eigenline。
+因此先作 first-$Y$ 型零投影与先作 physical shear 的 first jet 不交换。
+
+更一般地，若 $P$ 是作用在第一轴、与 $\mu_6$ 交换且像在型零中的有限算子，
+例如未加额外 moving 门前的真实原 $S$ 线投影，则
+$$
+\left.\partial_u\iota_u^*(PF)\right|_0=0 .
+\tag{A7}
+$$
+(A7) 只针对固定权的 observation first jet。
+如果权随 $u$ 移动，$J_{\dot f}'$ 仍是 (10) 中的一项，不由 (A7) 变零。
+若实际投影同时搬运了 gate，必须对完整搬运来源使用 (A7)，不能将它倒换成原 gate 的等式。
+
+式 (A3) 还说明：在先投型零的来源上，伙伴的前五个正阶 jets 全为零，第一次可能返回同角块的是第六阶。
+这不删除 Cayley 中 $a(u)$ 的尺度高阶项。例如完整第二阶生成函数为
+$$
+\left.\partial_u^2A_u(z)\right|_0
+=z^2D_2(z)-r zA'(z),
+\tag{A8}
+$$
+其中 $D_2$ 读取 first-$Y$ 型4，而第二项是实际 norm-preserving 尺度补偿。
+它与 (12) 的 falling-factorial 矩完全相符。
+
+最后，对一般 $R$ 和有限角色 $\chi$，若
+$\chi(\zeta)=\zeta^c$，零权中央积分的角条件是 $c=R$；
+其剪切负一项使用 $D_1$ 型 $R-1$，仍要求
+$c-1=R-1$。所以这套身份保留原 finite tame branch。
+R752 的 $D_k$ 与 $P_{+,k}$ 及其不同乘法角角色必须按其完整组合使用，
+不能把 (A5) 理解成只留下一个裸型五截面。
+
+(A5)–(A7) 给出 (18) 所需固定表示门的一个具体检验：
+原边际 Katz 角色来自 first-$Y$ 型零块，
+而已知 point-log 的 shear first jet 来自实际 off-diagonal 型5/型1块。
+若有合法跨块 raising/connection 恒等式，必须同时支付这次角权转移、完整坏处角色、周期差(15)与 moving 权。
+原第一边际的中央零本身没有删除该 off-diagonal 来源。
