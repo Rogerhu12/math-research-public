@@ -17,3 +17,8 @@
 ## 2026-11-15 14:50:23 UTC /root — request155完整37查询实际入口
 
 [155接口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)十件源/参数及全部差异读完即发：fresh actual98、原35加MID489/490，24cells/29端点/B9805/75776行及全H/outside保；91pins/原8真model和FD/17档/merit/域不改。修正读回前移动status的具体缺口：完整print后才move，always补真实parent-after status；science175、job195含10分钟读回。request4349e1b3/recipef8a38247，尚无实际结果；API核6bc5dc537fd2597b210f9a606afb6a664aa0ab9b双README未变，不冒真实pull或末稿本地AST。
+
+
+## 2026-11-15 15:04:47 UTC /root — request153当前C原生全112与完整读回
+
+[153完整接口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)十二件全文/完整差异核后发布：同C真物理r/全逆像/新rFar完整112列，24pins/六proof/三输入，原576/577/root/RK/mean/全链QR及η0全112/混合338/audit保；仅一条新+0H，原32/10/2e−9不减。全部中断trial/112原far行/错误字节和超限元数据无损分段；未预填实际结果，159继续新profile/BVP非零H。155已run43726543241，156进入原finite-head；open原29874B同目录逐字检查点，压缩后保全部责任。API核20ce2ce18834cc3d28e673e5d61f36a2a1892519双README未变，非真pull，恢复补真pull。

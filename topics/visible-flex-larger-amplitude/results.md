@@ -192,3 +192,5 @@
 - [R335：实际154完整九维二阶曲率与70次直线试探](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)（实际Actions有限诊断）：8方向70trial/8接受/62merit拒，无域异常、normal回退0；初末新增54二阶FD及原108一阶FD有效、十literal数组同149。全finalfalse，大负曲率提案仍需深回溯；完整70行/FD/身份/未访后缀已保。残差二次模型平方的三/四次项只作明确代数依据，157另检实际。
 
 - [Request155：真实98新37查询、完整支持和逐原trial读回](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)（源码/参数入口）：保原35加MID489/490全角，24cells/29端点/B9805/75776行及全236036外部响应；91源pin、原8真model/FD/17档/域/merit门。全部trial完整读回后才搬pair/清理，异常读batch与parent-after原status；未预填实际155结果或新接受。
+
+- [Request153：当前C真实零响应与完整112敏感度入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)（源码/参数入口）：24源pin、六proof/三原输入，真物理r闭逆像和同rFar全112列、新576/577完整原native、一般Robin全链、η0完整112敏感度/混合338/独立有限audit。明确一条112个+0H，原32/10/2e−9不改；全部中断trial、112远端原行、错误及超限记录完整分段。数值代表不冒共同准确C或无限非线性DN；无新实际结果，159继续真实新profile/BVP非零H。
