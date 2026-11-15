@@ -18,7 +18,7 @@
 
 本轮末m4–7两网硬门均过，真实η改善8.86e−9，预测比.99963，但不足原drop1e−7；不是末段曲率失真。后三SOC约.34s成功却改善更小，不优先SOC缩放。11LP/30共享值/55.03s未耗预算，旧mintrust退出；完整4407/3711池和raw8404480/11ba3032保留，全部失败不改名。
 
-下一明确改主目标的trust相关范数代价，拟w(r)=1e−6 r/(1/1000)，等价物理盒归一范数系数固定1e−3。原末r1/64000下旧物理系数.064，范数代价占预测改善约52%，但尚无证据保证新目标一定改善。准确LP下返回ρ距纯ρ最优不超过w；浮点success不冒准确最优。不加第二LP，不降drop，保持group7–10 floor1e−7、全部真实门、旧mintrust与12LP40值120s；23输入/94args与首trust1/64000继承最后合格尺度，driver开发中。
+下一明确改主目标的trust相关范数代价，拟w(r)=1e−6 r/(1/1000)，等价物理盒归一范数系数固定1e−3。原末r1/64000下旧物理系数.064，范数代价占预测改善约52%，但尚无证据保证新目标一定改善。准确LP下返回ρ距纯ρ最优不超过w；浮点success不冒准确最优。不加第二LP，不降drop，保持group7–10 floor1e−7、全部真实门、旧mintrust与12LP40值120s；23输入/94args与首trust1/64000继承最后合格尺度，新driver已冻结并接入本次双lane派发；11几何源码SHA与23原输入已对齐。
 
 所有旧Schur/谱/adaptive/reserve完整身份和失败保留，不原样续预算；新实际到达即接下一个具体缺口。
 
@@ -37,6 +37,8 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
 [R180](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md)已给真实闭合低阶例：Klein八边保M0、T=κH≠0，H在所选R46圆的低阶通道不可见，完整二/三阶range仍成立。对f/g支撑邻域准确仿射w，交叉三矩逐项0；补真实三阶后，第四周期准确变为V−6κC a(θ)(f″)²，C可正负，a为周期函数且0/π零。sin²选择不动pure−4，保同几何/目标/圆，没有未知C²周期成本。
+
+[R183](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md)已构造真正重叠的导数分包圆：原平台有三条实射影方向，不能GL2变为不交；三个左补偿包准确付三复矩，八个完整包付四条第三ruling，H在该平面全三次槽为零。保八个独立有符号mixed方向；下一处理同一圆完整period和ruling模原二阶矩像的共同匹配，不能直接套R50不交假设。
 
 [R181](results/R181-degenerate-self-adjoint-equation-for-fixed-circle-period-gauges.md)已给L_f的准确退化自伴ODE、同右锚两常数、双collar/七线性约束与每个A_f零点的累计通量必要门；多包斜率给独立有符号方向。下一研究真正重叠圆及周期与第四ruling的共同线性匹配，不把通量必要条件当充分。只控制第四period，完整第四ruling仍欠；既有R50不交常段障碍不删除，不为该已排实例重跑计算。原canonical U/条件λ只管零incoming规则，不能未经证明延至此独立w；也不能以新增方向宣布第四可解。
 
