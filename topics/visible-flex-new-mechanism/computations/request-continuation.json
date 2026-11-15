@@ -1,35 +1,39 @@
 {
-  "request": "one-prescribed-rational-outer-point-with-complete-scalar-action-positive-certificate",
-  "created_at": "2026-11-15 02:52:28 UTC",
+  "request": "new-complete-literal-rational-relations-of147-archived-original-columns",
+  "created_at": "2026-11-15 02:58:35 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "character_minus2_static_positive_candidate"
+    "character_head_literal_relations"
   ],
-  "goal": "Copy the published current rational point and replace only old free12/normal73 with -1/2. Read every stored degree and retain the original coordinate map, all68 inequalities and same multiplier. Verify complete14 scalar coefficients exactly match R172/R173; no LP, RREF, root search, oracle call, path integral or original-function evaluation. A verified outer point is not a true functional; actual raw-function relations remain a separate task.",
+  "goal": "Read the complete common original head DAG and archived107-coordinate view; insert40 R columns then107 normal columns in a new exact coefficient comparison. Every dependency must have a fresh exact zero sum in each original mode and explicit147 coefficients. Project only through saved B and complete R168 parity, report genuinely new equalities and exact violations at the published point and the R173 half-static point. Preserve resumable new state under240s/1024MiB/8192bits; no old RREF/LP, response compilation, profile evaluation, path integral or 68-row recheck. Literal nonzero is not functional independence or nonmembership.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_static_positive_candidate.py": "644b2897d142964fea9e6b0a11348d6c1eef9be93af1514e06a4d10ae652fa45",
-    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_static_cut.py": "d5a65482df040627b1a9a13fb8fce3e813f90e8ec196714cb9cf1bd78e97da5d",
-    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_finite_necessary.py": "d4c3751cf58f1ef08c534e61a16d7a40cd368980c0cca0ef48a0bce505ce3545",
-    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_static_and_parity_cuts.py": "9e7f7d2b9b70b78a3eec17f8c4c2e4cd64caf8d6304247355aaff55c962f41e1"
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_literal_relations.py": "80ab553a2dbb35fd4547beaf1b7ad094e831a2cb7f02e4968b867c4654cd9995"
   },
   "jobs": {
-    "character_minus2_static_positive_candidate": {
+    "character_head_literal_relations": {
       "development": [
         "--toy-only",
         "--output",
-        "@OUT@/character-minus2-static-positive-candidate-development.json"
+        "@OUT@/character-head-literal-relations-development.json"
       ],
       "research": [
-        "--source-report",
-        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity/character-minus2-static-parity.json",
-        "--source-publication",
-        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity/receipt.json",
-        "--source-certificate",
-        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity/character-minus2-static-parity-certificate.json.gz",
-        "--original-system-certificate",
-        "topics/visible-flex-new-mechanism/notes/actions-43665971895-1-character_minus2_finite_necessary/character-minus2-finite-necessary-certificate.json.gz",
+        "--head-dir",
+        "topics/visible-flex-new-mechanism/notes/actions-43665345551-1-character_head_minus2",
+        "--finite-dir",
+        "topics/visible-flex-new-mechanism/notes/actions-43665971895-1-character_minus2_finite_necessary",
+        "--parity-dir",
+        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity",
+        "--diagnose-half-static",
+        "--max-seconds",
+        "240",
+        "--memory-mib",
+        "1024",
+        "--integer-bits",
+        "8192",
+        "--checkpoint-every",
+        "8",
         "--output",
-        "@OUT@/character-minus2-static-positive-candidate.json"
+        "@OUT@/character-head-literal-relations.json"
       ]
     }
   },
@@ -40,8 +44,8 @@
       "lane": "metric_spectral_recovery"
     }
   ],
-  "previous_private_actual_pull_time": "2026-11-15 02:05:27 UTC",
-  "previous_private_actual_pull_commit": "3857c5fe74032419aca31773a2e6cd1c67b2c796",
+  "previous_private_actual_pull_time": "2026-11-15 02:53:29 UTC",
+  "previous_private_actual_pull_commit": "6439d29b875126d271b8dee9a6907dfcca85e5cc",
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
   "task_complete": false

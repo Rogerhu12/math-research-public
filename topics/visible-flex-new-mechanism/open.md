@@ -59,6 +59,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+新[147原列关系consumer](notes/character-head-literal-exact-relations-consumer-design-20261115.md)已完成，本提交single character_head_literal_relations派发。共同DAG两mode、R40先入基，每条依赖独立原系数重合核零；输出旧23坐标的新等式与R173指定点违反值。240s/1024MiB/8192位、有列内精确续算；不得把literal rank升真实rank。最终80ab源的九人工由公开前置执行，本地ae72回执保持原身份。
+
 [指定点实际](notes/character-minus2-static-positive-candidate-actual-20261115.md)43669803169已完整：68行全满足（64严格正，64–67四奇偶零），全部107值、14族与同μ/c/d准确符合R172/R173。无LP/RREF/求根/积分，完整系数正证适用。此点不再追加路径门；继续107normal+40R原关系及真实头部良定义性。
 
 **[R173](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md)已给明确全action严格正的外坐标点**：仅free12改−1/2，静态a=(k²+2)(k²−1/2)²+k²/4≥1/16，R172两层均不动，同μ固定。指定点68/14/μ核对现已由43669803169完成；不调用cubic oracle或继续路径搜索，tail原147列关系判断真实性。全部标量action正不证明U上真实泛函，非零字面余式也不证明原独立。
