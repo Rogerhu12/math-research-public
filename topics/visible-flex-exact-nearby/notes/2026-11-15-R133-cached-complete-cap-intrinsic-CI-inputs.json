@@ -1,0 +1,106 @@
+{
+  "kind": "exact_cached_complete_cap_intrinsic_input_manifest_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "python_version": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "python-flint": "0.9.0"
+  },
+  "readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "files": {
+    "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part000.bin.gz": "a61bcdd91f82fd7cb5a4a7597a5f562b71dfa7cc1852a5c5c9d412683bc3c698",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part001.bin.gz": "0ed24c0e1cf024518c4d403e94bb78dd1b9b6ca0c36310aea44409379f0a64bf",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part002.bin.gz": "0b185958e5b885fbdeadb23c7c22b33f580d176a6233d8dfb6be05dd1a574331",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part003.bin.gz": "ce2ffa4bbed3544cf4155ed08580f4b9b11fe568d5816f0c961eeaa7efccdfb0",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json": "32b430a27a20726f095098902afdb93e656ea746eb81bce09a559e6f65787fd3",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-contract.md": "8ed343ca8065d2170a1d6ff5a60ba7de49bd61faf175b8f71ef5f62d9f7ba5c4",
+    "topics/visible-flex-exact-nearby/notes/cap_Z_joint_coefficient_ci/run-43674204314-1-complete-cap-Z-joint-coefficients/evidence/complete-cap-Z-joint-summary.json": "67fa3c6664ab90a1dbbc91960b10f4f75c8f6372fee272ddca8f780f834efb86",
+    "topics/visible-flex-exact-nearby/notes/cap_Z_joint_coefficient_ci/run-43674204314-1-complete-cap-Z-joint-coefficients/process.json": "61896c151fcd7593076195e0d320713f829a087cb9e3b597bbbd61b0c650ae61",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_CI_worker.py": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_intrinsic_bounds_CI.py": "79ccf028728bc13935d68d965dc40e25d85a238bd8e9cb4eda8455b64b0a68da",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_intrinsic_bounds.py": "b0e930d6ba184b4f5d13966e3bba723c101102b751876fd070ec19136a5260af",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap128_CI_worker.py": "8116d02b3145c1c492cb136b14600c76dea9fddc7322ebc847cf379cc0602490",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py": "602e696db855f1aca2765bef23fd7d9190c1fdd6d4f05528b758e0a515167323",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_native_lossless_parts.py": "730c0ba646cdb193a5524a6a8a02910575fa75f58be970f6a2ac23c1368b250c"
+  },
+  "consumer_ranges": [
+    [
+      0,
+      4650
+    ]
+  ],
+  "exact_scientific_inputs": {
+    "native": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "split_manifest": "32b430a27a20726f095098902afdb93e656ea746eb81bce09a559e6f65787fd3",
+    "original_source": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "joint_summary": "67fa3c6664ab90a1dbbc91960b10f4f75c8f6372fee272ddca8f780f834efb86",
+    "joint_process": "61896c151fcd7593076195e0d320713f829a087cb9e3b597bbbd61b0c650ae61"
+  },
+  "original_input_paths": {
+    "split_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json",
+    "original_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+    "object": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "joint_summary": "topics/visible-flex-exact-nearby/notes/cap_Z_joint_coefficient_ci/run-43674204314-1-complete-cap-Z-joint-coefficients/evidence/complete-cap-Z-joint-summary.json",
+    "joint_process": "topics/visible-flex-exact-nearby/notes/cap_Z_joint_coefficient_ci/run-43674204314-1-complete-cap-Z-joint-coefficients/process.json"
+  },
+  "original_complete_native": {
+    "sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "bytes": 6223338,
+    "rows": 4650,
+    "restore_only_from_the_four_original_parts": true,
+    "parts": [
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part000.bin.gz",
+        "bytes": 1950613,
+        "sha256": "a61bcdd91f82fd7cb5a4a7597a5f562b71dfa7cc1852a5c5c9d412683bc3c698"
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part001.bin.gz",
+        "bytes": 1959762,
+        "sha256": "0ed24c0e1cf024518c4d403e94bb78dd1b9b6ca0c36310aea44409379f0a64bf"
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part002.bin.gz",
+        "bytes": 1978863,
+        "sha256": "0b185958e5b885fbdeadb23c7c22b33f580d176a6233d8dfb6be05dd1a574331"
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part003.bin.gz",
+        "bytes": 220953,
+        "sha256": "ce2ffa4bbed3544cf4155ed08580f4b9b11fe568d5816f0c961eeaa7efccdfb0"
+      }
+    ]
+  },
+  "complete_cap_interval": [
+    "9/10",
+    "25/8"
+  ],
+  "original_exact_eta": "-7789843107295549/4611686018427387904",
+  "original_eta_half_width": "1/1000000000",
+  "original_exact_nu": "-2572625729470897/72057594037927936",
+  "new_mathematics": "directed maxima of original closed beta/gamma/K balls on the exact complete cap",
+  "required_closed_row_provenance": "same_intrinsic_cap_v2",
+  "already_complete_Z_joint_run": 43674204314,
+  "already_complete_Z_joint_native_sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c",
+  "complete_Z_joint_Bernstein_rows_recomputed": 0,
+  "original_targets_ODE_FFT_intrinsic_grids_repairs_and_residuals_recomputed": 0,
+  "old_large_native_not_read_through_connectors": true,
+  "old_four_parts_not_reformatted_or_repartitioned": true,
+  "original_complete_native_retained_byte_identical_only_in_Actions_artifact": true,
+  "actual_child0_and_complete_gates_reused_even_after_publication_failure": true,
+  "true_failed_mathematics_not_repeated_unchanged": true,
+  "scientific_prefix_every_completed_rows": 64,
+  "actual_pull_and_README_diff_minutes": 10,
+  "compute_minutes": 20,
+  "plaintext_summary_maximum_UTF8_bytes": 60000,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false
+}

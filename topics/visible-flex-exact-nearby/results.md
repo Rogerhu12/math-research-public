@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：既成完整正区闭行到帽区本征常数的消费合同](notes/2026-11-15-R133-cached-complete-cap-intrinsic-contract.md)：18pin五件从原4650行精确恢复，核同η/ν/germ与全帽覆盖，消费β/γ/K闭球的完整上端；新660联合界仅原样引用，尚待实际执行。
+
 - [R133：实际完整帽区193方向逐模联合界](notes/2026-11-15-R133-actual-complete-cap-Z-joint-coefficient-bounds.md)：43674204314 child0/10门/660片，原Z联合A0<.842592508277、A1/64<.898277121481，四宽×三角导全付，0旧目标/修补/残差重算；完整mean与真实9/10保留。
 
 - [R133：完整193方向在帽区的逐模联合系数合同](notes/2026-11-15-R133-complete-cap-Z-joint-coefficient-contract.md)：从两片原始cubic shard与已成全修补界取逐分量径向上界，再求全频Wiener和；五件公开Actions消费者已装，尚待实际数值，不重算旧修补或目标。

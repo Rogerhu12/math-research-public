@@ -1,0 +1,117 @@
+name: visible-exact cached complete cap intrinsic
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_intrinsic_bounds.py'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_intrinsic_bounds_CI.py'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-contract.md'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-CI-inputs.json'
+      - '.github/workflows/visible-exact-cached-complete-cap-intrinsic.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-exact-cached-complete-cap-intrinsic
+  cancel-in-progress: false
+jobs:
+  complete:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 30
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out immutable sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-CI-inputs.json
+      - name: Set actual container-visible output paths
+        id: paths
+        run: |
+          python - <<'PY_PATHS'
+          import os,pathlib
+          base=pathlib.Path(os.environ['RUNNER_TEMP'])
+          work=base/'visible-exact-cached-cap-intrinsic-work'
+          output=base/'visible-exact-cached-cap-intrinsic-artifact'
+          work.mkdir(parents=True,exist_ok=True)
+          output.mkdir(parents=True,exist_ok=True)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+              stream.write('work='+str(work)+'\noutput='+str(output)+'\n')
+          PY_PATHS
+      - name: Hydrate only the exact eighteen pinned inputs and existing own prefixes
+        run: >
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_intrinsic_bounds_CI.py
+          --mode hydrate
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-CI-inputs.json
+          --manifest-sha f1ddde2aabc4dac44a5b8158de8b874757c598a4610f0984e723ec62931177a6
+          --rules topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+          --rules-sha fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+          --driver-sha 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+      - name: Verify exact source bytes and parse every Python input before new mathematics
+        run: |
+          python - <<'PY_AST'
+          import ast,hashlib,json,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-CI-inputs.json')
+          if hashlib.sha256(p.read_bytes()).hexdigest()!='f1ddde2aabc4dac44a5b8158de8b874757c598a4610f0984e723ec62931177a6':
+              raise ValueError('The exact cached-intrinsic manifest changed')
+          manifest=json.loads(p.read_text())
+          for name,expected in manifest['files'].items():
+              raw=pathlib.Path(name).read_bytes()
+              if hashlib.sha256(raw).hexdigest()!=expected:
+                  raise ValueError('One exact input changed: '+name)
+              if name.endswith('.py'):
+                  ast.parse(raw.decode(),filename=name)
+          print('All18 exact inputs and complete Python syntax verified; no scientific producer executed.')
+          PY_AST
+      - name: Install exact directed arithmetic packages
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Restore the four original native parts and certify complete cap intrinsic maxima
+        run: >
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_intrinsic_bounds_CI.py
+          --mode prepare
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-complete-cap-intrinsic-CI-inputs.json
+          --manifest-sha f1ddde2aabc4dac44a5b8158de8b874757c598a4610f0984e723ec62931177a6
+          --rules topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+          --rules-sha fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+          --driver-sha 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+          --work '${{ steps.paths.outputs.work }}'
+          --artifact-dir '${{ steps.paths.outputs.output }}'
+          --compute-minutes 20 --checkpoint-minutes 10
+      - name: Require actual original inputs or new process evidence
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_ACTUAL'
+          import os,pathlib
+          path=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=[p for p in path.rglob('*') if p.is_file()]
+          if not files:
+              raise ValueError('No actual original input, scientific prefix, or process was produced')
+          print('Preserving actual complete or failed evidence:',len(files),'files')
+          PY_ACTUAL
+      - name: Preserve the original full native and all complete or failed scientific evidence
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cached-complete-cap-intrinsic-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}
+          if-no-files-found: error
+          retention-days: 30

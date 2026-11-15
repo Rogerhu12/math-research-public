@@ -139,3 +139,7 @@ P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-
 ### 2026-11-15 complete193 cap joint coefficient consumer deployed
 
 原full193 Z的joint Aσ系数范围已部署13pin五件：SCId909f2fc…/CI4dd0af86…/manifest6be86873…。严格从原prepared43583838026 artifact14109363064校完整archive SHA，只恢复原012/013 shard字节；每193state在真[9/10,25/8]先取逐cell Bernstein上确界再加原87ed2全修补sup，最后四width/三角导数求和。保mean/4j且无extra alpha。[实际43674204314](notes/2026-11-15-R133-actual-complete-cap-Z-joint-coefficient-bounds.md)已child0/10门/660片，数学4.990880255s，native dd236bb3…；A0<.842592508277、A1/64<.898277121481，四width/三导全部保。接着支付固定Φ0组合和P19；原βγK全cap界另从完整旧输入获取，不重跑repair/ODE/FFT/target。
+
+### 2026-11-15 cached complete intrinsic cap bounds deployed
+
+新18pin五件只消费原ea174511…4650闭行的β/γ/K intrinsic，帽区准确[9/10,25/8]按所有真实交段取有向max。恢复原32b430a2…manifest的4旧parts、6223338B原gzip，禁止新分片或旧target/grid重算。同η0/原ν0与same_intrinsic_cap_v2/germ逐行核。SCIb0e930d6…/CI79ccf028…/manifestf1ddde2a…；actual后与已成660 joint及P19/O14结合，当前部署未冒实际常数。

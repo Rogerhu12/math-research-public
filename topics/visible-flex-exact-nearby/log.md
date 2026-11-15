@@ -383,3 +383,7 @@ newton_source给13pin五件，root全文静态核SCI/CI/合同/manifest/flow，J
 ## 2026-11-15 03:54:39 UTC — 实际完整帽Z逐系数联合界
 
 run43674204314/1真实child0、10门、660原片5484..6143，数学4.990880255s（wrapper10.000651038s另记），0旧target/repair/ODE/FFT/残差重算。root全文读process61896c15…6397B、summary67fa3c66…17371B，复核四width×三角导完整pair、true mean及真9/10。native dd236bb3…71737B未经connector取gzip；artifact14145860552 metadata另核。实际报告f8d34aaf…，A0<.842592508277、A1/64<.898277121481；没有由数值上界冒全帽逆。四真pull末03:52:19.088472→890caa1668f2442073f97b4fc319ea9aeae403a5，两README diff空；03:51上次非FF立即真pull仍无executor按根规8重建成功。只读README核4a6f710b1ca5c3dd3eb01639ce4df946ef003e0e，实际结论立即独推。
+
+## 2026-11-15 04:01:26 UTC — 部署原闭行帽本征常数消费
+
+root全文核newton_source五件SCI b0e930d6…、CI79ccf028…、18pin f1ddde2a…。来源为原4650闭行的intrinsic字段，不是field-dependent系数；真实帽交段、完整germ/ην、γK positivity、原四parts整体SHA核明确，0旧target/grid/repair/660 Bernstein重算。新SCI只计算已成闭球的完整最大上端，实际计算仍仅公开Actions。H9873B逐字归档f5545de0…。root亲读Green37022B process0bb19425…的六真pull，末03:58:26.270753→cfe1885367d9cad926f5d436cb7f8bbc04680d95，两README diff空；715/5970仍运行。只读README核b75f41fa32b8ead9bb5121b725a0afe1a2f5ae5c，五件独推。
