@@ -96,3 +96,8 @@ SEeb7b1bb1/22201747全文及P19–20/A19–20/O2/IN28–30原式核：完整root
 DZ四件245da4db/8d0c6452/c9a45aa7/31bd63f9已root全文SCI、WE worker差异、14pins/4AST/参数/原5runtime及25copy路径静核；不运行旧producer。
 仅15新高导组合、D强费、MS整产品及ZD wholemin/standardout已付subtotal，24结构门/六欠费；真AST与所有新算术只在本public Actions。
 两README于b77b489f578be44fa61cad0b3ed8bfd6516176fa无变；120KB reserve/atomic+stdout-before-Git/truepull/同成功禁重沿成功WE保全，等待唯一原run。
+
+### 2026-11-15 23:09:20 UTC — complete signed-density terminal proof
+SNA9272db02/4214de05全文核，原SN43751213826/1 child0/21与12steps success；SCI22817/8fea75ce、207pin/8AST/16role/34pull全root exact复原。
+完整双支四导/所有tail/trueH矩阵/μ及93处91种球逐字，3146interval/cursor0，1256旧只读+11328新；旧lost参考hash未冒核，成功禁重。
+两README于604711618e4c16b6ce4dda4b3947a374ed3166f7无变；继续SEI能量与完整incoming/finite/mean/core，未用H3粗界冒独立低导。

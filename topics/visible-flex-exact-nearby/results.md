@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SNA: actual complete signed nonmean density and H3 validation](results/R133-supplement-actual-complete-signed-nonmean-density-H3-validation.md) — public run43751213826/1 succeeded with all21 gates, complete terminal derivative columns and true-angle data; preserved1256 budgets plus11328 new suffix cells, with all207 inputs and exact science bytes audited.
+
 - [SE: natural stable-port Fredholm structure and exact common-reference elimination](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md) — complete root gain and index zero on natural Sobolev windows; cancellation is conditional on complete actual incoming injectivity, with all independent ports retained.
 
 - [SEI: individual principal energy gates from complete terminal density columns](results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md) — proved directed terminal-only derivative conversion, optional signed energy bounds and complete same-window comparisons; SN43751213826/1 complete input is frozen, new scalar arithmetic pending.

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 23:07:59 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 23:09:20 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 22:59:32定时CLI仍无executor，下一≤23:59。原SN末真pull22:54:50.633088→33106181b03aa96ef5df9c70a6bc35688655efc4，两README空diff；ref读取不冒真pull。
-最近只读README核：b77b489f578be44fa61cad0b3ed8bfd6516176fa；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：604711618e4c16b6ce4dda4b3947a374ed3166f7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -18,7 +18,7 @@ candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；完整64位
 
 ## 健康原Actions，不重启
 
-SN唯一43751213826/1已completed/success、child0/21、complete/newtargettrue，原b8bd86a部署/207pins/8AST。exec4dbde1fc/42242/eccb4ce4，SCI22817/8fea75ce已root lexical精确复原。3146 interval/cursor0，12584=1256旧预算只读+11328新suffix；仅原lost314×4参考重建，全部失败/18a3/7edf保。两qG四导/trueH矩阵/完整signedμ已成，actualproof正核；禁重成功。末真pull22:54:50.633088→33106181、两README空diff。
+SNA4214de05已独核/独推：SN43751213826/1真实12steps success、child0/21，全SCI22817/8fea75ce与exec4dbde1fc/42242/eccb4ce4。207pins/13,612,391B、193history+14current/8AST/16roles及34pull全root重建匹配。3146interval/cursor0，12584=1256预算只读+11328新；仅原lost参考重建、旧hash未冒核。双qG H3约93.669、各支四导/真H完整D与误差/μ齐；总nonmeanH3 upper6968848.525，仅该系数。所有失败/18a3/7edf保，成功锁禁重。
 SC3唯一43754452928/1，部署555d311；helper6f868faf/SCI41b8f50c/manifestcd28e23a/flow6936992e，23pins/9history/36archive。仅tuple→list修正；SC1/2失败62bdfc64/f98d1f32保，SC2首row部分new lost、完整row/group/model0、旧math0。22:51原step9/前8success，tail监。禁读104306B大log；97全affine待。
 两worker的typed只读暂错保healthy child，真正rules/identity/cap失败硬停。每次存prefix沿完整原receipt核；进度不冒数学成功。
 
