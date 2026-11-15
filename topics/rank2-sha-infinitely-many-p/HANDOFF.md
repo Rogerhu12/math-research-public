@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：de3f87f5d2b3c5f2656abacc03ffd03fedf31f50；2026-11-15 04:39:43 UTC核两README无变。实际CI pull 2026-11-15 03:53:49 UTC/0acba0afc1615625ee3dece1706ec7dcdc0e6056（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 04:39:42 UTC仍无环境。最迟2026-11-15 04:45 UTC再实际pull。
+- 最近已读规则提交：0640019cac5113db44b7f791e3258811e823ab6b；2026-11-15 04:39:59 UTC核两README无变。实际CI pull 2026-11-15 03:53:49 UTC/0acba0afc1615625ee3dece1706ec7dcdc0e6056（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 04:39:59 UTC仍无环境。最迟2026-11-15 04:45 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
