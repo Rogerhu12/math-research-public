@@ -282,6 +282,11 @@ H5b可只消费已知finite-band逐row A0/B1/D1，不能把未知C0当Wiener。�
 现以max范数与真实两端Poincare/评价给CEsharp，完整向量GN保mean后给
 c2=b(6Mell+2M√ell+M1ell^1.5)、c3=6bell；A12三实门通过即沿用H全部高trace结论。
 χ外独立η门、approximate own residual、mean与双侧连续state仍必需；实际系数正在消费。
+[R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
+现给fδ=f0−δs0−∫(ΔFν+ΔAZ)，D正预算star-shaped使余项≤δ²B(d)/(2d)，不重其scalar。
+s0须原raw residual加A0e；连续Z的piece常offset径导0且raw接口Dirac准确抵消，fullmean保。
+collar避νbump的精确quadratic/cubic T2/T3分别保mean G<ζ>JZφ与全primitive，四source带96/160/224/288给R21/22低Fφ及完整factorial源。
+原f0连续centre repair、真实ordinary平方积分和actual低/高门仍分别消费；真f=0须先独立有同H1core，不能由此冒存在。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 

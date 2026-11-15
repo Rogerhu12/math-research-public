@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-15 [selected-centre full residual/collar source](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)：R5–9给完整δ残差积分及star-shaped正预算二次余项；R14付连续Z的A0e source。collar精确T2/T3含mean，四source有限频带96/160/224/288支付普通Fφ与factorial源，未授真core存在。
+
 - 2026-11-15 [actual selected-parameter scalar fees/collar](results/R133-supplement-actual-selected-parameter-core-scalar-fees-and-collar-jets.md)：43713242980/1 child0/12门，原40part/7721全cover、旧math0。e<1.049107e−5/eLH<3.071831e−5，完整追加response whole<4.324391e−6/negative<1.061687e−6；140row正collar true third jets已付，仍待actual Green/Poisson及finite反馈。
 
 - 2026-11-15 [factored g/y/q complete scalar contract](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)：G3/4用两真列，完整rankφ及q的vφ保；G19严格识别旧inverse正min后才减常1。新10term整项比较、其余21项逐字B，旧6row积分/word/Γ不重算；数值改善须首次Actions。
