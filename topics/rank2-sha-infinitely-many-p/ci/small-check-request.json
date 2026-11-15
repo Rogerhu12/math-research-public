@@ -1,15 +1,26 @@
 {
-  "request_id": "rank2-r693-original-neutral-b-block",
+  "request_id": "rank2-rule15-dependent-output-and-independent-jet-regeneration",
+  "python_flint_version": "0.8.0",
   "checks": [
     {
-      "engine": "node",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r693-neutral-g12-four-source-adaptation.js",
+      "engine": "python3",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-theta-plane-saturated-jets.py",
       "args": [
-        "--max-block=4",
-        "--taus=2,3",
-        "--with-b"
+        "--historical-json"
       ],
-      "include_stdout": true
+      "expected_sha256": "56ad571ff3417c8deca544c3e746a09bc11b3c2e8471157f47b9ac2a1fb7381e"
+    },
+    {
+      "engine": "python3",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/run-with-historical-inputs.py",
+      "args": [
+        "--input",
+        "scripts/check-r466-fixed-two-division-source.json",
+        "--emit-output",
+        "scripts/check-r471-original-six-sigma-normtwo-factor.json",
+        "scripts/check-r471-original-six-sigma-normtwo-factor.py"
+      ],
+      "expected_sha256": "79ae13c656cd081d01dfe5dc4d668e9cdfadc4f8c34431ce6ddcef76624154f7"
     }
   ]
 }

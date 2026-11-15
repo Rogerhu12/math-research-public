@@ -1,0 +1,823 @@
+{
+ "schema": "rank2-removed-recomputable-output-provenance-v1",
+ "source_commit": "94c0b45f0e6b91471c9422c79ebdfa9c98c83adb",
+ "audit_run": 43681121218,
+ "original_computations_rerun": false,
+ "original_run_note": "Original computation IDs remain in the historical proof/log. The audit run is only provenance.",
+ "parameter_note": "Default parameters unless specified; dependency outputs are restored only in temporary storage by run-with-historical-inputs.py. The theta-plane checker is now an independent generator of the exact same seven original parameter records.",
+ "entries": [
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-actual-companion-theta-derham-frame.json",
+   "bytes": 137017,
+   "sha256": "d19fbe156b703cf410b6688075e6a0393abdc44d631adbbf1db7ed2023ed6ed8",
+   "git_blob": "c5f55fc430a909f751b8c5e17eac8fe641747f94",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-actual-companion-theta-derham-frame.py",
+   "script_sha256": "7aa9cabb9c01651d3fceae5708600044cc9b96eb0eb7f57b8935c90a2468420c",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-normtwo-finite-connection-kernel.json",
+    "check-normtwo-de-rham-duality-and-unipotent-gauge.json",
+    "check-nonbeta-full-transport-and-cm-boundary.json",
+    "check-octic-ray-original-companion-transport.json",
+    "check-third-adjacent-companion-lambda2.json",
+    "check-ray17-conjugate-trace-and-yang-projection.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-actual-forcing-central-projection-and-carries.json",
+   "bytes": 3734,
+   "sha256": "388d54119598fd217b0df65f73e556e831e2ef1ed5acf92b0ebe4c5f783c7c1d",
+   "git_blob": "46fed36ec7114ae7c62ecf8c357ae893a244f32d",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-actual-forcing-central-projection-and-carries.py",
+   "script_sha256": "6a1d68f7c065584a0ce46586a2bd2a153224aa46ddff136a55dfe2a3300afe44",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-normtwo-finite-connection-kernel.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-closed-walk-and-full-hilbert-trace.json",
+   "bytes": 19032,
+   "sha256": "0f066c125e19404ad550573313e58af6353e4da582c6cc92c187d08a60d84b0e",
+   "git_blob": "e196d161ed0482c08ffcdf0c34dd59e5bc7e6f20",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-closed-walk-and-full-hilbert-trace.py",
+   "script_sha256": "1d14dd7e3951a7c2f08d83771b6e764f2b3042c4f2758f34d8c4d2c387bf7ad2",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-actual-heegner-theta-p11-p13-and-p-class.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-extra-twelve-cm-characters-and-central-masses.json",
+   "bytes": 23939,
+   "sha256": "afd7a101f45e93879fc478a83fa338759284b5bf9b9fc938af8a7ec936bd828a",
+   "git_blob": "3bcaf48498acae614003243a5ec256d5a2b3fe0e",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-extra-twelve-cm-characters-and-central-masses.py",
+   "script_sha256": "b72bf829334ed24f5b195250453bd33ec8af6081fcfe2ea96c182182dfe163e4",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-ray17-conjugate-trace-and-yang-projection.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-fermat-darboux-actual-second-carry.json",
+   "bytes": 17195,
+   "sha256": "c9171f286994050eb92411e5f73d7cc7bde19ad4d0544205b982c7209acfe9a1",
+   "git_blob": "4dc1c68dae7acab80576fd3d764e0d2e35905b6e",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-fermat-darboux-actual-second-carry.py",
+   "script_sha256": "7505bb61b38fb165f3aac36cc9e479259f2f09b9065ccd8614d2aa01bac56870",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-normtwo-finite-connection-kernel.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-flat-lowering-original-octic-and-full-poles.json",
+   "bytes": 67494,
+   "sha256": "0191a500d69c120b8d3f71dfbafad4cdd30a4c12fdb8ae41731c0df2289b6c50",
+   "git_blob": "d12b516843afab53090971349d283816c924746b",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-flat-lowering-original-octic-and-full-poles.py",
+   "script_sha256": "7fb73801938285eedb32cb856bd680628db5321c1e25f83df496f48ac98b5fae",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-octic-ray-original-companion-transport.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-full-ring-class-conductor-descent.json",
+   "bytes": 231907,
+   "sha256": "251e1064701501c768489a3e29d08933ea6fd64c723dfae03fcabd19a8a4c53b",
+   "git_blob": "4dc94281d34ff33c7be76942c1414449c5c00b25",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-full-ring-class-conductor-descent.py",
+   "script_sha256": "159f739cb4da8342506c105cf6c0e0fb14d62c30baf3d7d01e3baf117c4c1113",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-closed-walk-and-full-hilbert-trace.json",
+    "check-actual-heegner-theta-p11-p13-and-p-class.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-complete-pcore-and-single-euler.json",
+   "bytes": 3760,
+   "sha256": "c49b372f2eff0b752249ea91968900b15c869b02b0849b6ea75324dd1fea73cd",
+   "git_blob": "cdfbec7ffc0dbb375e6e7a96eae5354091483971",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-complete-pcore-and-single-euler.py",
+   "script_sha256": "49e2989f5f2703ab644c97fab790742520c678ca3ad5a767dbc58821f2e5f21d",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-actual-cm13-matrix-and-theta-source.json",
+    "check-jzero-complete-pcore-and-single-euler.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-conductor-thirteen-shift.json",
+   "bytes": 2931,
+   "sha256": "ba8057eb29f7af205a837387e7416e73da5bf6ad1dc54ae289eec9041d14ee0a",
+   "git_blob": "b241be6fd8c878920755cb12a8478c08c4284d75",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-conductor-thirteen-shift.py",
+   "script_sha256": "57109cc51b10954c29e66f3ff6c7e0fadbd38d176e780ee6908ff2ab88b051b6",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-weighted-conductor-integral.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-degree-three-exact-core-phase-and-middle-coefficient.json",
+   "bytes": 4102,
+   "sha256": "25b13f32280ec57f87451f4729da53bc06eaf260f14a0ce2ab6878462cfd779e",
+   "git_blob": "580eab1bd3b58e76640519816d837bf6d088258f",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-degree-three-exact-core-phase-and-middle-coefficient.py",
+   "script_sha256": "448ca7d615309e78a5853ffa192f5ca53fc05d6045a5c850233b5bc6c0ac20ee",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-ordinary-as-verschiebung-and-two-negative-rows.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-faber-rows-and-original-three-torsion-phase.json",
+   "bytes": 2157,
+   "sha256": "13ebc2fc721b53ea50dd1e129a144d113b29570fb8af1c568e1cf87798005cb8",
+   "git_blob": "d76eaa3108bb10634ac773e487a5e5cd96f474b9",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-faber-rows-and-original-three-torsion-phase.py",
+   "script_sha256": "e19684d3bbb313b9d228e6e863290c3f89fbdf8fbcdf122bba31074b06078556",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-ordinary-as-verschiebung-and-two-negative-rows.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-four-original-orbits-frobenius-defect.json",
+   "bytes": 4398,
+   "sha256": "8979616d670e0c25dd14b542b95c52691845d2174f99c9b834b8c84d42d03e97",
+   "git_blob": "f253152293bf3c558bb1c62fe78228a885bfdb1f",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-four-original-orbits-frobenius-defect.py",
+   "script_sha256": "06fe06bfb34c422e41f113eaf59a09f24753afc6a5bd6e80cbc0d14184d8e4ea",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-actual-pole-kernel-no-scalar.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-full-canonical-conductor-basis.json",
+   "bytes": 17538,
+   "sha256": "477274161481784ae3c75ddb885751354077e6020cc7b41901ab8059335bd0bc",
+   "git_blob": "5d33d25ce243f000b194f38af5b147c50e3d55ba",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-full-canonical-conductor-basis.py",
+   "script_sha256": "b6a67bd619fddd485b53c281cdca1f9199f9cdde986b7c058815038bfec2bb27",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-weighted-conductor-integral.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-new-pure-five-factor-central-source.json",
+   "bytes": 2580,
+   "sha256": "d835dce41d555a2b192cfdc3d24b6db0abaf52d6eb6c2f21b7833c388a2b4140",
+   "git_blob": "00a8b0e3c1098f0df4fbd243a792e3268af1ec8d",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-new-pure-five-factor-central-source.py",
+   "script_sha256": "d1d89951ad538e5753a61444a0230ce7856a0b43c671a75fd4d9fd92cce41632",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-odd-original-schwartz-and-full-tame-one.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-odd-original-schwartz-and-full-tame-one.json",
+   "bytes": 163136,
+   "sha256": "8730d23719cc7239855fa38b019f622422cdf325d411d74bb03a51bd27805798",
+   "git_blob": "ae636dc5379d9d8a56c634d7538a06c3027334ae",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-odd-original-schwartz-and-full-tame-one.py",
+   "script_sha256": "5dda9e1fd4b38effa504c0ccdc81f7e773151e8f6b93f01686dc43291444708e",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-odd-cm13-companion.json",
+    "check-jzero-three-original-sources-and-central-constants.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-three-auxiliary-complete-source-and-cm13-projection.json",
+   "bytes": 2349,
+   "sha256": "ef7fa8aa79b8f798d98e7ecaa13427aba36294d493559f2d9d53756238b00308",
+   "git_blob": "0746601782c7e6410f916fd582a8c46f719ca774",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-three-auxiliary-complete-source-and-cm13-projection.py",
+   "script_sha256": "21f9610d57dc226a93504320ed6126e83341a3891071f8905ce5632deba35e87",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-actual-cm13-matrix-and-theta-source.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-three-original-sources-and-central-constants.json",
+   "bytes": 40146,
+   "sha256": "612fb05f0d5e0289379cc8bc3a11ccc4344402a211c6f2d2e58d7e7604a2b050",
+   "git_blob": "903f20da594122b66918e5879fcc214c6468362d",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-three-original-sources-and-central-constants.py",
+   "script_sha256": "4b8b2d7836e27b960b0f2f2d6718ccf41625fc48c4c6d64b079567f42554a63a",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-actual-cm13-matrix-and-theta-source.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-three-sextic-original-local-data.json",
+   "bytes": 30216,
+   "sha256": "22dabd5a60eccaa26e5bcdbfe5e5b3ae7ee206ca70bf6cf460776e580022e44c",
+   "git_blob": "0f45036ae7b91ab205356e50c37bed06a2058d2e",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-three-sextic-original-local-data.py",
+   "script_sha256": "cb950b2962c68950faf0595dd0d4a7745e2ef76edc813093392fc16219e921e6",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": []
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-torsion-norm-and-full-division-log.json",
+   "bytes": 6073,
+   "sha256": "fbdaaf1d803a8a5e44e61ecee5ecff962555892bafa9c79c5b9ce70069b5d7b7",
+   "git_blob": "11bb3ac8a7d63574967b4c231f93c5aa9643d0c8",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-jzero-torsion-norm-and-full-division-log.py",
+   "script_sha256": "2aea352d2a444c6d2ada3c56b1ddaa57e69cb6114ed8a3899ac6f62a93cffebb",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-jzero-four-original-orbits-frobenius-defect.json",
+    "check-jzero-frobenius-square-actual-trace.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-nonbeta-full-transport-and-cm-boundary.json",
+   "bytes": 139322,
+   "sha256": "9a0cab46feade98b9b36805ff300f733cdc11c61c15933bc372b628c70614e7a",
+   "git_blob": "ebc02a1a0633ad1a32d97bf408066345dcbe0ea8",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-nonbeta-full-transport-and-cm-boundary.py",
+   "script_sha256": "65e778ce1a07848a093eae9b91e3c984e4a862a502ce24a90a0ee34355c6baf5",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-normtwo-finite-connection-kernel.json",
+    "check-ray17-conjugate-trace-and-yang-projection.json",
+    "check-octic-ray-original-companion-transport.json",
+    "check-nonbeta-normtwo-constants-original-octic.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-nonbeta-normtwo-constants-original-octic.json",
+   "bytes": 29853,
+   "sha256": "da38fef06e192f8475f0f2b52f4abdf8d92f8b847a68e2eefe6560c8770050a7",
+   "git_blob": "fddb1c274c12927d29ca1ebb07009689a992c1d9",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-nonbeta-normtwo-constants-original-octic.py",
+   "script_sha256": "63fccc5a75891a5f3ffa51c02a3615116dcacc884b7e9284e45a8848d20803d9",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-third-adjacent-companion-lambda2.json",
+    "check-octic-ray-original-companion-transport.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-nonpullback-normtwo-corrected-original-trace.json",
+   "bytes": 75207,
+   "sha256": "88107260a8def85471e5e8e330c0616bf8ab9eef1966044adc3645787b08950a",
+   "git_blob": "c8ef68071e460f08f30523972f5dcd99e5e139d1",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-nonpullback-normtwo-corrected-original-trace.py",
+   "script_sha256": "4254faafb1ae8518e55098966c64abf229b14a02db4508c31419fced4bc3b356",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-third-adjacent-companion-lambda2.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-compensation-and-conductor17-trace.json",
+   "bytes": 58323,
+   "sha256": "15307eb5f4d43b8f8e121b5a79511e476818e811292bced52519cec80cbfa7f2",
+   "git_blob": "391054f4f1e02fd3f2e9078c4138a5c5c0d5fade",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-compensation-and-conductor17-trace.py",
+   "script_sha256": "e7be34df82b54766d6ff460653828628004509913532b75cbf9e2ff35d896040",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-third-adjacent-companion-lambda2.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-de-rham-duality-and-unipotent-gauge.json",
+   "bytes": 10139,
+   "sha256": "a118dd8ef8ae3711c8532c8bd54274b6b091c6166d98b324be45791e838e0c05",
+   "git_blob": "a3ffb4d175a16b7b6e33e121dff571f53d0eecea",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-de-rham-duality-and-unipotent-gauge.py",
+   "script_sha256": "4f47e772ec5e75ecb1348749d75300a7a838601b9bcf584b078c5ca295923cd4",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-normtwo-finite-connection-kernel.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-finite-connection-kernel.json",
+   "bytes": 8132,
+   "sha256": "5527c4ce8f140773b6cb4b8cad5324667a608578e8ebcc1769180c8687012304",
+   "git_blob": "b1d50c9f503b6fd2da33886f131d9c31e565cd17",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-finite-connection-kernel.py",
+   "script_sha256": "fa8eca047c9d59cc8c1f2100382f301c50488abe7aad318885bad7ba0faa49b3",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-normtwo-compensation-and-conductor17-trace.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-positive-clearing-and-original-transport.json",
+   "bytes": 4508,
+   "sha256": "8af866bcf1e6bcbbf7ab6620fc2e650faa1d51ea68a5b4c43242d8febc4be458",
+   "git_blob": "543a1f37fb6bb5c4ba3855ff3bf1c8da61d990a3",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-normtwo-positive-clearing-and-original-transport.py",
+   "script_sha256": "2d29d63fc8bed2aedc2c1cd8ca73ef5aa5707727e6676724a11fed82812d97d1",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-ray17-conjugate-trace-and-yang-projection.json",
+    "check-normtwo-compensation-and-conductor17-trace.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-octic-ray-original-companion-transport.json",
+   "bytes": 67075,
+   "sha256": "d8ccb4abc53a34a1264c031ca04976d55d76f0bda2e8819eb8f53dfb6b156b90",
+   "git_blob": "e7cfbb6ea043124ba514577d9af2764de6908209",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-octic-ray-original-companion-transport.py",
+   "script_sha256": "e52e79f768850032c516a042eb5ed8b201190b7effea64eefbe77af3fb90c0d6",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-third-adjacent-companion-lambda2.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-original-dyadic-primitive-transfer.json",
+   "bytes": 27484,
+   "sha256": "4f012374abcc6b9084e0311912adc774cb0a61d6826cccac591e3eb4fc7471e5",
+   "git_blob": "13bbd3bca3b593c9db25ecb038367bf83653dbb9",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-dyadic-primitive-transfer.py",
+   "script_sha256": "b61bdcdfbb69b3dc04ea85447f0f057963014c529ab5cfd4e1810ae5144757c5",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-original-three-ordinary-adjoint.json",
+    "check-original-first-order-i-block-and-cm5.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-original-first-order-i-block-and-cm5.json",
+   "bytes": 62867,
+   "sha256": "831b806588183f5df4039e9ebfd65cce05f371d28b3b1c34feb9dc9d13f50c65",
+   "git_blob": "d84ef7e4cded507a25c4029b06a11b453f0ba862",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-first-order-i-block-and-cm5.py",
+   "script_sha256": "398b386f3cdb6a2605a15f9dcb473862936368e083dfa9eb329aab6a6288fbed",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-ray17-conjugate-trace-and-yang-projection.json",
+    "check-original-three-ordinary-adjoint.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-original-odd-primitive-cm5-orbit.json",
+   "bytes": 3411,
+   "sha256": "c837c2bb1c31dd9d56c09d02333677872ba34cf0a64667f8c1264e1b9de9a16b",
+   "git_blob": "84922c3521b7f10a16ef46d82e58d70cfaf8fca0",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-odd-primitive-cm5-orbit.py",
+   "script_sha256": "b908bd73d3c2f2c15cec67679e71a2ee8e7dd8179e4b12d55e4313c5d208b74d",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-ray17-conjugate-trace-and-yang-projection.json",
+    "check-original-three-ordinary-adjoint.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-original-positive-cm5-eigenvalues.json",
+   "bytes": 3601,
+   "sha256": "4556ba3b82c702a54c34cc4ddc109c46d4fd9bb8c32fa1a530cb0ed24a9e0a61",
+   "git_blob": "9a91398be38bc70ebc23c35203648b1f4ebf7809",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-positive-cm5-eigenvalues.py",
+   "script_sha256": "0e2f77859841146a5d2880f1545ca9e34f085a559b0e0ede85c87bf532de7d1c",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-original-three-ordinary-adjoint.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-original-prime-core-derivative-and-angular-primitive.json",
+   "bytes": 3377,
+   "sha256": "5b79e34a899943475a8daf0bae5a4804c3a453274d5a6024cf1cf08d15fbb8a1",
+   "git_blob": "0a30f1e583586f813d9199c0b54558bb81403140",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-prime-core-derivative-and-angular-primitive.py",
+   "script_sha256": "90b5854819fe04ee2c9a9a935d75fc64c8132da227cc3041afa8a87a8dd90b7c",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-original-three-ordinary-adjoint.json",
+    "check-ray17-conjugate-trace-and-yang-projection.json",
+    "check-original-first-order-i-block-and-cm5.json",
+    "check-original-positive-cm5-eigenvalues.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-theta-plane-saturated-jets.json",
+   "bytes": 2806,
+   "sha256": "56ad571ff3417c8deca544c3e746a09bc11b3c2e8471157f47b9ac2a1fb7381e",
+   "git_blob": "1a9c90aeed4187c0b2b1ed3c8fa4b065434b8239",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-theta-plane-saturated-jets.py",
+   "script_sha256": null,
+   "parameters": [
+    "--historical-json"
+   ],
+   "original_computation_run": null,
+   "historical_script_sha256": "5c25e502e6a3977849d3587951d60cb249b62f20d2dcb2be37e884a12e61a6ad",
+   "producer_note": "Current generator derives all values directly from fixed D,p parameters; historical checker SHA is recorded separately."
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-third-adjacent-companion-lambda2.json",
+   "bytes": 27472,
+   "sha256": "4ef8775e4e1ecf17b49db75fd49fe610a8207921cd4f82c525935d814448ab7c",
+   "git_blob": "887f81d7da72e2f3dc7f90ac08829a6db9f8675b",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-third-adjacent-companion-lambda2.py",
+   "script_sha256": "419aa2e5da373d06c19b5c051acf5392214d07564c7384ba6490ed2cd3a9c132",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-ray17-conjugate-trace-and-yang-projection.json",
+    "check-e136-covariant-cm17-log-bridge.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-three-source-ordinary-cartier-defect.json",
+   "bytes": 6022,
+   "sha256": "943559329422a48739042485a7c596aef49a7a0f1963fbe57d10536976c7f59f",
+   "git_blob": "7a89d9559d42ecb300d546a7a3fee5139fca7eda",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-three-source-ordinary-cartier-defect.py",
+   "script_sha256": "01cd611a15d1e605f372cc59f9b5d3fa27966024df88fbfb571adeff15bd13f2",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-e136-theta-section.json",
+    "check-three-source-ordinary-cartier-defect.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-three-source-projective-algebra.json",
+   "bytes": 3524,
+   "sha256": "3ae61f92bf7a4ac2f3f0f7169a98c80de59a49f2567b9cf1de5c7129d300ab7f",
+   "git_blob": "3f8c06d8664cf78b6bf4e6a89a0c82732cc4106f",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-three-source-projective-algebra.py",
+   "script_sha256": "62267f1e6a09c16795657ed1763471064f80b3f1335d4559d9b5340a3c0a7329",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-e136-theta-section.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-three-state-fixed-u-degree-six.json",
+   "bytes": 6681,
+   "sha256": "838aee7cc63522998f7905dfd8a350c248d8574e3a9dee7c25a7f7fe5440e1dc",
+   "git_blob": "0da13f419b8f13d7ab77559162f3b592024081b2",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-three-state-fixed-u-degree-six.py",
+   "script_sha256": "c282e03e48ad709edba0fdc12fb83a57cc2e9f2db6e8f50e78df1125d1c50208",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-r443-residual-quarter-core.json",
+    "check-r450-original-sixth-companion-moments.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-unramified-class-jet-and-ramified-lifting.json",
+   "bytes": 9479,
+   "sha256": "963532599a7b6996085be11d11af777e907c5fd9b770bbf880f3817555bc305a",
+   "git_blob": "866c3cb8eb89d813192aa7a1d26c9873daa6f8ca",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-unramified-class-jet-and-ramified-lifting.py",
+   "script_sha256": "a58bcd278a5424039ad75c820726a30611a41e0f4987fc011c1d9aa31304e4d7",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-actual-heegner-theta-p11-p13-and-p-class.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r446-three-state-quarter-and-carry.json",
+   "bytes": 6270,
+   "sha256": "fff89bdc6f3f24081aec5109eb8d3c9680671c5d7de6b96fcec893e9b80a0e9c",
+   "git_blob": "f5f07e92d550ddb075a4124a2de938f6af2cda28",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r446-three-state-quarter-and-carry.py",
+   "script_sha256": "9ace5d83a44a9fa0199aaffc93112497d4932bfdb7e1f3a318af9283b5e6978a",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-r443-residual-quarter-core.json",
+    "check-r446-three-state-quarter-and-carry.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r447-two-original-reference-tests.json",
+   "bytes": 1561,
+   "sha256": "49425cf724ba2f490f9f1999ae2db914a46775ea2c03117a8989542062aa8dc1",
+   "git_blob": "ccecd3bfc4b4c4c638962f7b7ad55c2ac14fcfc4",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r447-two-original-reference-tests.py",
+   "script_sha256": "bcb766322301526fb2a3d4bd131802b83492bcb503b028d9d903d15875f4a055",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-r443-residual-quarter-core.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r464-degree102-cm7-exact.json",
+   "bytes": 32657,
+   "sha256": "c89323cb346ca99cf86d06d3244d29f59866ec0f6eb1586f0f0e1a9b1410290f",
+   "git_blob": "7fe4ab81c049e59c99e3560574493c7ea7d8be8c",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r464-degree102-cm7-exact.py",
+   "script_sha256": "b3e11a9da1b28a7623d86acf944262ab23c2d1969b1f0183030a4d1c96b5f1ff",
+   "parameters": [
+    "--degree",
+    "102",
+    "--offset",
+    "0",
+    "--workers",
+    "2"
+   ],
+   "original_computation_run": null,
+   "referenced_json_paths": []
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r464-fixed-delta-division-source.json",
+   "bytes": 5538,
+   "sha256": "a3f8797b6e07ff4162e32337959cfa357e4523ce9c0bed04b79f59004c3813e6",
+   "git_blob": "d4d0dbdb16b846498a83a16fb8bd783474a2bdd0",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r464-fixed-delta-division-source.py",
+   "script_sha256": "0c65f4ab78ab44f1904efbdd163669243a592af086da07f06af3c9084cf5c561",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-r464-degree102-cm7-exact.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r465-common-six-sigma-true-core-marginal.json",
+   "bytes": 25307,
+   "sha256": "9e5768752bc958f6d605958ad23aa95e42bcfa0971c9196f8391c9f8c2b68a03",
+   "git_blob": "953103f65e7f241920f4aa32d18068de9aea75bd",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r465-common-six-sigma-true-core-marginal.py",
+   "script_sha256": "6d9035a9a169f8837ab836fcbf3b5ad9eb09d989d62eedc63156c61650d44f69",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "scripts/check-r466-fixed-two-division-source.json",
+    "scripts/check-r470-original-negative-source-new-line.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r466-fixed-two-division-source.json",
+   "bytes": 71829,
+   "sha256": "479b6388a17489692a194bd163ddaf364afa3ddfa75d7c91796bed45e5856e4b",
+   "git_blob": "7ea2762631e4a7ad759c146e2c5d5b41fe8562da",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r466-fixed-two-division-source.py",
+   "script_sha256": "effd6f1526421cfcb9da3bd7769eed258374fa0addf337313d0315cb3ef08245",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-theta-degree136-cm7-exact.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r470-original-negative-source-new-line.json",
+   "bytes": 26121,
+   "sha256": "9e7ed95414ce745f09d6b860493488a7afdadc022f83b946c787771bf42ba5cc",
+   "git_blob": "344789746e36c946990a1933bfcaa06c88a7bb26",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r470-original-negative-source-new-line.py",
+   "script_sha256": "fae73cf88cf211f241f736344d1846c54e6d6811335cf572c6c31551be109151",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "scripts/check-r466-fixed-two-division-source.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r471-original-six-sigma-normtwo-factor.json",
+   "bytes": 899,
+   "sha256": "79ae13c656cd081d01dfe5dc4d668e9cdfadc4f8c34431ce6ddcef76624154f7",
+   "git_blob": "534e4559f5102678f2f8fce627f24f4831e0f0d6",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r471-original-six-sigma-normtwo-factor.py",
+   "script_sha256": "642c6e938f4c9cf9ad749126f2484f93e2f995ad2a01d85d8c6e884de5db3119",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "scripts/check-r466-fixed-two-division-source.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r474-six-sigma-two-output-core.json",
+   "bytes": 1034,
+   "sha256": "bb7b516fa0482baa3f3dc8fe6880e0097158734d3da666d9bb26964dd1f93b70",
+   "git_blob": "7b63fe917ff3f020b39644b79e9421d8cad6ce3f",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r474-six-sigma-two-output-core.py",
+   "script_sha256": "cb6befaa793c8e75e0423a99ef9a5f89f3177aa9409e7ae7f02b42079da669ac",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-literature-degree72-cm7-exact.json",
+    "scripts/check-r471-original-six-sigma-normtwo-factor.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r476-full-xi-wstar-bridge.json",
+   "bytes": 103997,
+   "sha256": "ad95aa08b725aa3146a6ea7a1dca7728c8a9bbc6907bba6def005e9ff2512245",
+   "git_blob": "51c087ae2f7c3fa093afe3bf3551389cb64f6e23",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r476-full-xi-wstar-bridge.py",
+   "script_sha256": "5b1e01b0ad66e12c92ea686698c120297ba8ac7e6263c3aa60e3837cbe80df47",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "notes/2026-11-14-theta-degree136-cm19-exact.json",
+    "scripts/check-r465-common-six-sigma-true-core-marginal.json",
+    "scripts/check-r470-original-negative-source-new-line.json",
+    "scripts/check-r466-fixed-two-division-source.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r477-rank-one-companion.json",
+   "bytes": 32935,
+   "sha256": "82c61a3ad5a0de438dd42dabf13dd10b85e291be6595f8b4a7cdc368d336bb64",
+   "git_blob": "61fbf3dd90fe4666ba1be1add8a2a2990b799663",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r477-rank-one-companion.py",
+   "script_sha256": "d3c88d68ecaf1d27c5729f17f6474e1f921e65c64667a85c7b097482a253c61d",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "scripts/check-r466-fixed-two-division-source.json",
+    "scripts/check-r471-original-six-sigma-normtwo-factor.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r480-actual-input-cm19.json",
+   "bytes": 16785,
+   "sha256": "cd8b3f42523c4058f55dec1c5bfff1c3f60d53b672c26f0d4b5df80deb67ac43",
+   "git_blob": "26ad6e9dfdc3f58ee784adfa360e099266836c0b",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r480-actual-input-cm19.py",
+   "script_sha256": "3d4d9a05872cdde0f24ff756ec79407417afa943eabf6f71f4e48d32f91f9c45",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-literature-degree72-cm7-exact.json",
+    "scripts/check-r474-six-sigma-two-output-core.json",
+    "scripts/check-r477-rank-one-companion.json",
+    "scripts/check-r471-original-six-sigma-normtwo-factor.json",
+    "scripts/check-r466-fixed-two-division-source.json",
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "notes/2026-11-14-theta-degree136-cm19-exact.json"
+   ],
+   "volatile_output_fields": [
+    "elapsed_seconds"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r482-complete-two-output-companion-span.json",
+   "bytes": 396737,
+   "sha256": "35ae91da67c90c80a1237f7d41261359c2a33a7278178cc0f16c3fa5bec885fd",
+   "git_blob": "744239ec5e923f5721d92fb3fde2dccc8fa31a49",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r482-complete-two-output-companion-span.py",
+   "script_sha256": "64badf6b0ea96ade79e80c24be7163cfefe4082cb742177bbfcf7c2377b4a2e7",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "scripts/check-r471-original-six-sigma-normtwo-factor.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r483-original-six-sigma-cm-transfer.json",
+   "bytes": 107895,
+   "sha256": "06fed1c26d160dcf39b4a4cc371c6694a1ae4968e4f2fc0c4b18d268791916af",
+   "git_blob": "fa85fdb138e14cd4b898f2e4f48b5fba0478bf48",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r483-original-six-sigma-cm-transfer.py",
+   "script_sha256": "f18d71ceed842b9dfd5d5314372276cafd44d0230875b169bb0a6240bdbc780f",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "scripts/check-r465-common-six-sigma-true-core-marginal.json",
+    "notes/2026-11-14-literature-degree72-cm7-exact.json",
+    "scripts/check-r480-actual-input-cm19.json",
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "notes/2026-11-14-theta-degree136-cm19-exact.json",
+    "scripts/check-r476-full-xi-wstar-bridge.json",
+    "scripts/check-r470-original-negative-source-new-line.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r492-complete-principal-two-theta-kernel.json",
+   "bytes": 2680,
+   "sha256": "912eff29f26916ab18392fde02be6fc319251e26f5c6eeda814033aacd951263",
+   "git_blob": "5adfa1ecee080db279f70c9877463afa4523d667",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r492-complete-principal-two-theta-kernel.py",
+   "script_sha256": "3ce7adb95fd73e63aed1bd2e494fa5af15969f0feba4b348c71070fd52714d2e",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "scripts/check-r490-degree26-factor-and-cm7.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r497-degree918-positive-companion-test.json",
+   "bytes": 17108,
+   "sha256": "ee7fe517878ff855285188af2f3f2c176e368a235419a4868a5c2d13df9acc65",
+   "git_blob": "a00213d8432b5d59be60961df3b2a9f37bd69dd5",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r497-degree918-positive-companion-test.py",
+   "script_sha256": "dc7a6ddc0a0372df89b3352599f3f0cc633527f13e5dfd04ecaf4943d2b29800",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "scripts/check-r493-original-half-torsion-six-sigma-factor.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r499-four-state-z-complete-y-source.json",
+   "bytes": 56668,
+   "sha256": "eec81090916a4284296ad85f87b29adbbaf3e2c4c0ea0e104371bc943b3210d2",
+   "git_blob": "3ebac5878ed104117bff9c30d093c5e10073a30a",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r499-four-state-z-complete-y-source.py",
+   "script_sha256": "1151c8d195d426fcd1a7f6caba6f9fbc01e6929cfea30612ce8362ed7bfd737f",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "notes/2026-11-14-theta-degree136-cm7-exact.json",
+    "notes/2026-11-14-theta-degree136-cm19-exact.json",
+    "scripts/check-r465-common-six-sigma-true-core-marginal.json",
+    "scripts/check-r476-full-xi-wstar-bridge.json",
+    "scripts/check-r470-original-negative-source-new-line.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r500-original-pure-y-axis3699.json",
+   "bytes": 6417,
+   "sha256": "18f9c4dfc6579ec5602d00708df53b6f1b24c888b2589c071b4f013e458c69ae",
+   "git_blob": "49b800404e4d88cc5545653c8eb0f44b4ae129fe",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r500-original-pure-y-axis3699.py",
+   "script_sha256": "b3daf7d55ddd6578e3b7a22a83f8db6221d07d12e628a55dcd3f691f07ba8cf6",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "scripts/check-r493-original-half-torsion-six-sigma-factor.json",
+    "scripts/check-r487-original-cm-tubes-and-common-core.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r548-whole-third-source-cm-reflection.json",
+   "bytes": 21788,
+   "sha256": "b6ab0b00b00c728cc3cb297187d694ae6789fad55f65955c541b5bdddba187f6",
+   "git_blob": "779c50834621bfdf0ddb7b45070149c74a1da6fa",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r548-whole-third-source-cm-reflection.js",
+   "script_sha256": "653f0451fab6130873c74a38b64b671d414a97b8cff434a52cc0604c7dec88a4",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-r542-original-eta-arithmetic-projections.json",
+    "../notes/2026-11-14-theta-degree136-cm7-exact.json"
+   ]
+  },
+  {
+   "path": "topics/rank2-sha-infinitely-many-p/scripts/check-r558-third-source-second-order-and-affine-ray.json",
+   "bytes": 4089,
+   "sha256": "c3db052226a505acb2fe948fbf1210e6b8630edbab6bb9096ec19c4b039d83b8",
+   "git_blob": "2129ae871ef4908d35b4ee8f6401725ca4a8465d",
+   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r558-third-source-second-order-and-affine-ray.js",
+   "script_sha256": "f37a868bb963a83e54a4fe907507683a842b68383c33c50cb351c9237f34ebcd",
+   "parameters": [],
+   "original_computation_run": null,
+   "referenced_json_paths": [
+    "check-r536-exact-fibre-mass-compensation.json"
+   ]
+  }
+ ]
+}

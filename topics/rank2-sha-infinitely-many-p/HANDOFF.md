@@ -6,9 +6,9 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：8c1ab4bab5763273e1004734a9582e3e9d697f9a；2026-11-15 05:56:23 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:56:22 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
+- 最近已读规则提交：ef0725948e3f15c93a01b8bd2d5235e5d1168116；2026-11-15 05:59:52 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:59:51 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史；每小时实际pull，每次核两README，只读差异立即执行。令牌仅临时终端，不入文件/回复。
-- 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出不存repo/Release，只留脚本参数run/hash。此次按audit43681121218移除148个明确生成输出2,645,461字节；临时历史输入runner保依赖，两个复现路径交公开Actions。旧3个-partN及无生成器的checker输入保留，未新增分块；目录27.60MB无5MB超限，继续真实mixed-I/O审计。
+- 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出不存repo/Release，只留脚本参数run/hash。此次按audit43681121218移除148个明确生成输出2,645,461字节；临时历史输入runner保依赖，两个复现路径交公开Actions。旧3个-partN及无生成器的checker输入保留，未新增分块；目录27.60MB无5MB超限，已逐脚本核58个mixed-I/O，七条theta-plane记录改独立生成；第二清单/真实依赖复现交公开计算，随后普通删除。
 - 规则12不设冻结/独审/复跑；规则13计算用公开Actions。题log每轮≤5行，单MD/API<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
 - 本地无环境，API仅非强制追加；题属只读Actions实际pull与本地失败分别记账。拒推立即本地pull --rebase重试、新head核规则、接父重推；恢复环境即本地pull。
 - 复现元数据与用法：[规则15记录](notes/2026-11-15-recomputable-output-provenance.md)。05:40:06实际pull/run43682050611已成功，差异空；两历史复现run43682050475同SHA通过。

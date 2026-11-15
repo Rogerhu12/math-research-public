@@ -27,10 +27,17 @@ jobs:
           git -C "$RANK2_CHECK_DIR" fetch --filter=blob:none --depth=1 --quiet origin "$GITHUB_SHA"
           git -C "$RANK2_CHECK_DIR" checkout --detach --quiet "$GITHUB_SHA"
           python3 - <<'PY'
-          import hashlib, json, os, pathlib, subprocess
+          import hashlib, json, os, pathlib, subprocess, sys
           root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
           prefix = "topics/rank2-sha-infinitely-many-p/"
           request = json.loads((root / (prefix + "ci/small-check-request.json")).read_text())
+          if request.get("python_flint_version"):
+              if request["python_flint_version"] != "0.8.0":
+                  raise RuntimeError("Only the recorded python-flint version is supported")
+              dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-exact-python"
+              subprocess.run([sys.executable, "-m", "pip", "install", "--disable-pip-version-check",
+                              "--target", str(dependencies), "python-flint==0.8.0"], check=True)
+              os.environ["PYTHONPATH"] = str(dependencies)
           records = []
           for item in request["checks"]:
               script = pathlib.PurePosixPath(item["script"])
@@ -53,6 +60,6 @@ jobs:
                   if len(result.stdout) > 60000:
                       raise RuntimeError("Requested report exceeds API text budget; keep hashes and request a smaller computed summary")
                   print("RANK2_EXACT_STDOUT " + json.dumps({"script": str(script), "result": json.loads(result.stdout)}))
-              records.append({"script": str(script), "args": args, "engine": engine, "sha256": digest, "stdout_bytes": len(result.stdout), "exit_code": result.returncode})
-          print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({"request_id": request["request_id"], "run_id": int(os.environ["GITHUB_RUN_ID"]), "source_commit": os.environ["GITHUB_SHA"], "checks": records, "outputs_persisted": False}))
+              records.append({"script": str(script), "script_sha256": hashlib.sha256((root / str(script)).read_bytes()).hexdigest(), "args": args, "engine": engine, "sha256": digest, "stdout_bytes": len(result.stdout), "exit_code": result.returncode})
+          print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({"request_id": request["request_id"], "run_id": int(os.environ["GITHUB_RUN_ID"]), "source_commit": os.environ["GITHUB_SHA"], "checks": records, "outputs_persisted": False, "python_flint_version": request.get("python_flint_version")}))
           PY

@@ -17,7 +17,8 @@ import tempfile
 TOPIC = pathlib.Path(__file__).resolve().parents[1]
 ROOT = TOPIC.parents[1]
 PREFIX = "topics/rank2-sha-infinitely-many-p/"
-MANIFEST = TOPIC / "ci/removed-recomputable-output-manifest.json"
+MANIFESTS = [TOPIC / "ci/removed-recomputable-output-manifest.json",
+             TOPIC / "ci/removed-recomputable-dependent-output-manifest.json"]
 REPOSITORY = "https://github.com/Rogerhu12/math-research-public.git"
 
 def checked_relative(value):
@@ -38,8 +39,14 @@ def main():
     parser.add_argument("script", help="Topic-relative or repository-relative script.")
     parser.add_argument("args", nargs=argparse.REMAINDER)
     options = parser.parse_args()
-    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    source = manifest["source_commit"]
+    manifests = [json.loads(path.read_text(encoding="utf-8")) for path in MANIFESTS]
+    sources = {m["source_commit"] for m in manifests}
+    if len(sources) != 1:
+        raise ValueError("These manifests must share their immutable audit snapshot")
+    source = sources.pop()
+    all_entries = [entry for m in manifests for entry in m["entries"]]
+    if len({entry["path"] for entry in all_entries}) != len(all_entries):
+        raise ValueError("Duplicate historical input provenance")
     if not re.fullmatch(r"[0-9a-f]{40}", source):
         raise ValueError("Invalid immutable source commit")
     script = checked_relative(options.script)
@@ -49,7 +56,7 @@ def main():
         raise ValueError("Choose either explicit inputs or no historical inputs")
     wanted = {str(checked_relative(x)) for x in options.input}
     entries = []
-    for entry in manifest["entries"]:
+    for entry in all_entries:
         if not entry["path"].startswith(PREFIX):
             raise ValueError("Manifest escaped topic")
         rel = str(checked_relative(entry["path"]))

@@ -7,18 +7,18 @@ coefficient one, so its exact prefix flags and leading jet norms agree
 with those of the original curve.  No central vanishing is assumed.
 
 Requires python-flint.  With no arguments, recomputes exactly the finite
-D=4,D=8 records in the adjacent JSON.  --degree restricts to one of them.
+D=4,D=8 records from the fixed parameter list below; no report is an input.
+--degree restricts to one of them. --historical-json reproduces the removed report.
 The data are finite diagnostics, not a uniform arithmeticity theorem.
 """
 
 import argparse
 import json
-from pathlib import Path
 
 from flint import ctx, fmpq, fmpq_series as Series
 
 
-DATA = Path(__file__).with_suffix('.json')
+PARAMETERS = [(4, 7), (4, 11), (4, 19), (8, 7), (8, 19), (8, 23), (8, 31)]
 
 
 def vp_integer(value: int, prime: int) -> int:
@@ -106,25 +106,27 @@ def saturated_orders(rows, prime: int):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--degree', type=int, choices=[4, 8])
+    parser.add_argument('--historical-json', action='store_true')
     args = parser.parse_args()
-    records = json.loads(DATA.read_text())
-    if args.degree is not None:
-        records = [record for record in records if record['D'] == args.degree]
+    parameters = [(d, p) for d, p in PARAMETERS if args.degree is None or d == args.degree]
+    records = []
     previous_degree, rows = None, None
-    for record in records:
-        degree, prime = record['D'], record['p']
+    for degree, prime in parameters:
         if degree != previous_degree:
             columns, rows = actual_rows(degree)
             previous_degree = degree
         answer, remaining = saturated_orders(rows, prime)
         assert not remaining
-        assert [k for k, _ in answer] == list(range(record['rows']))
+        assert [k for k, _ in answer] == list(range(len(columns)))
         valuations = [order for _, order in answer]
-        assert valuations == record['v']
-        assert sum(valuations) == record['sum_v']
-        print(json.dumps({'D': degree, 'p': prime, 'dimension': len(columns),
-                          'valuations': valuations, 'sum_v': sum(valuations),
-                          'verified': True}, separators=(',', ':')), flush=True)
+        records.append({'D': degree, 'p': prime, 'v': valuations,
+                        'rows': len(columns), 'sum_v': sum(valuations)})
+        if not args.historical_json:
+            print(json.dumps({'D': degree, 'p': prime, 'dimension': len(columns),
+                              'valuations': valuations, 'sum_v': sum(valuations),
+                              'verified': True}, separators=(',', ':')), flush=True)
+    if args.historical_json:
+        print(json.dumps(records, indent=2))
 
 
 if __name__ == '__main__':
