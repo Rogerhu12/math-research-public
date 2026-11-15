@@ -198,3 +198,7 @@
 ## 2026-11-15 20:32:20 UTC — 新主模型/SOC额度接口接完，待单次运行
 
 发布未执行transfer755db06d…/auditb2a12c5c…及独立workflow，完整字节/SHA见接线note。根逐行读差异，核五源码metadata与一个原log的DEV/COMPLETE/PRIOR、五个checkpoint列表hash；这均是已付数据/源码元数据读取，没有执行新人工或科学。workflow SHA256 a43d55b3ce131921fa33647388f6f185a8ac2f1e03f81731212f0cddc1a273a1，4135B；保旧3workflow并增新workflow，request共134绑定。原24-input数组逐字不变，原global12LP/40值/120active/10s单LP不变。private/public actual pull在新runner科学前执行，每次看两README差异。两新driver从一个字节钉住的完成日志传递读取cache证据，不再下载或重演历史m10。新人工/一次current-best续跑尚未启动。
+
+## 2026-11-15 20:32:33 UTC — SOC-pair reservation 单次请求
+
+request-soc-pair-reservation.json：33631B，SHA256 4ac9b699a252931fe29a209b17ba579055a9ad401d0af88a5b95a65b4caf02fb，134绑定。源run43753280651/job132931742484/source52a48854e30ddc3d2351ec24274dbe222ef05d9a；当前bestη.26632415509189855、22bank、4419/4277、B1/8000、streak0。独立push仅触发一次新四组及一次continuation，原12/40/120/10不改；公开/私有actual pull及规则差异先于科学，若差异则停在核规则后按新规恢复。未执行结果不能称passed；等待原run/job消费，不重旧检查或回放旧优化。
