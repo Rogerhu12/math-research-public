@@ -334,3 +334,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 成功SOC条件持径：新源与首次公开开发/actual接线
 
 [完整实现](notes/height159-SOC-radius-retention-implementation-20261115.md)把已冻结规则接入metric_height159_soc_hold。库51237B/c6fb9d46经root与tail独审；root以AST文本diff核旧loop仅增加实际模型绑定、成功SOC后z−x/z−y诊断和next选择，旧LP/接纳/几何/新行返回均保。driver75944B/f6ff70d5完整根审，六前缀后复用同一FiveHeightField/Gate与准确reference/H，不把非零τ舍入重锚；旧159控制只回放已完成scalar更新，未完模型不加streak。新开发仅新数组guard/第六handoff/dispatch/失败/原生stdout与evaluation-only IO，六旧科学边界stub、不重旧套件。35来源SHA/98实际参数只out变化，workflow/publisher只加lane/原生summary识别，metadata-only不改。逐模型打印原base预测/实际norm/所有旧原因与身份/old-new半径，全部旧两网诊断另保。新增人工与科学未执行；此次提交触发首次公开入口。
+
+
+## R245：完整四阶块可加、四高斯历史归约及均匀旋角障碍
+
+[R245 完整证明](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)只对第三阶全部闭合的完整八包block使用支撑分离；Y/Z/W和导数在整体外为零，完整第四forcing按a⁴准确相加。原R56固定x导数及真右锚尾给Y≤1、二阶V≤5、三阶V≤9，整个第四ruling平移次数≤10，结合0/2/4旋角谐波共55生成函数而非独立维数。例外端所有非局部项按真奇偶分解：四E_r=∫H^r（r=1,−1,−2,−3）、十乘积及六K_rs−K_sr面积加常数，在Laurent环上21生成；Gaussian负指数常数尾及incoming初值均保。输出σ次≤a、指数[m,M]时真实闭包n≤(a+1)[21(M−m)+45]，可接R243有限jet判据，但未评价实际系数。完整角平均领先门严格为−sin²θ(E(U,U)+E(V,V))，U=V=0会迫紧支撑非零f/g皆零，故严格负。四角等权给同平均；4^11项Prouhet数字分组准确消位置矩0..10，证明有限不交完整块也不能靠均匀配角支付领先门。非均匀正角锥、完整四次谐波及period/ruling联合仍未付，不授一般无解。root与tail全文独立纸核；没有新求积、代数消费者或几何运行。

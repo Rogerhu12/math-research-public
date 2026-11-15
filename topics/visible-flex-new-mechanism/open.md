@@ -126,7 +126,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。联合(q,ε)真实IFT开域支付参数选择，Morse随后；旧F8不迁移新圆。六门已结，不重算；完整偶部现在由R243有限化。
 
-[R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)把整个例外ruling偶部化为有限准确条件：R56原分子消掉1/z后，word≤2的全部真实history/右尾进入X′=(N+2εσD)X。任意非常零输出ord≤n(n+1)/2−1；We先用0/2/4三jet准确扣除，剩余有限偶jet全零即充要。保全部五相位谐波，不要求生成函数独立，亦不盲目逐系数置零。**下一证明完整三阶block的全四阶张量可加、平移有限矩及实际可达锥，按有限quartic条件做支付；仍欠奇部、全period与同w joint。** 未生成清单/实际n或运行符号目标，不把有限可判定性冒可解性。
+[R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)已将整个例外ruling偶部化为准确有限条件：消1/z后的全部真尾/history闭包X′=(N+2εσD)X，非零输出ord≤n(n+1)/2−1；先扣We的0/2/4 jet，再验剩余有限偶jet。五相位谐波及真实初值保留，不假生成函数独立；尚无实际n或新符号目标值。
+
+[R245](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)已付下一完整block归约：三阶完成块的全四阶forcing按a⁴可加，原式平移次数≤10/旋角0、2、4给55生成函数。四高斯E_r与十积/六面积共21个Laurent模生成元，n≤(a+1)[21(M−m)+45]，不称21维实函数空间。均匀角平均的领先门为−sin²θ(E(U,U)+E(V,V))且括号严格正；Prouhet 4^11个有限不交块准确消至10阶位置矩，仍留下负主层，故均匀消谐不能支付。**下一完整cos4/sin4的真实单block系数及非均匀正角锥；保全period与同w joint。** 不逐微包删历史，不把有限判据或正span当可达零。
 
 ## O1：双圆领相位机制，保留备选
 
