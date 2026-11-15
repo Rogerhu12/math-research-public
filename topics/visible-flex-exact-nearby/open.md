@@ -95,9 +95,15 @@ child0/26门/math.174257719s，25pin/17history/原7background+1fold
 两个列及输出mean、三个真实circle maps、全near/far Schur均保。
 V19–24显付欠缺的wφ⁴/Bφ³⁴/VTTT真Cauchy margin，
 V25–33保四个完整operator项、五old mean及独立physical even-mean。
-该recipe的新标量CI已部署：SCI617bf821…/manifestaadf3e2b…/
-workerb35eb73b…/flowb1190da4…，12pins271951B，原fold1/成功receipt3
-只恢复；新profiles1/operators4/缺导数1的真实结果待，旧S/table不重算。
+[G15实际43700281022/1](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)
+已success：child0/16门/math.005862355s，12pins=9current+3history，
+原fold1/成功receipt3只恢复，旧target/Taylor/RF等0重算。
+同root片全输出w0单侧L²<2.252232219784；
+w1/w1r/w1rr分别<227086.046676/79268255645/26074855745890286。
+这些只是幅度径导的完整列operator，不是physical residual，也不是lower bound。
+缺wφ⁴/Bφ³⁴/VTTT与正image margin已实际付；
+完整source/independent physical mean/positive graph/全high逆仍false。
+新成功profile/4operator不重跑；后继用已成结论的正线性性支付新有序amplitude。
 **当前下一接口：** 实际G15标量门与完整source消费；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。

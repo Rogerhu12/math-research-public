@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual G15：真实负侧全输出列已实际通过](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)：public run43700281022/1 child0/16门/math.005862355s，12pin=9current+3history，旧数学0。两genuine列/正负输入/输出mean/3circle-map全保，w0 L²<2.252232219784；w1及径导上界仍大，未冒完整physical source或high return。真Cauchy缺导与image margin已付，native5294B仅SHA不存。9941B/SHA256a6749378a5f846c738baedfdee6fc4be6eb8a089b9ef92b8e693fc23e83d89b7。
+
 - [R133 P：冻结全部metric参数后的准确相位与固定marker族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)：真正族参数是几何角τ，ν/η/Γ只设计一个G并冻结。单个真G、两盘同一action-equivariance（允许固定不同offset）及原全域几何门→Rτ G S−τ再作同四块真实曲率patch，给共同metric、C²连续、固定H及含反射非全等；未标记phase仍全等。无需另解ν族IFT；单个G/全匹配/几何仍待。13012B/SHA256473260bec7280863f9c67f90225b9ad56042315ea5f298f6a64a8cf2bc320af6。
 
 - [R133 O：实际两输入帽的long tame、完整物理型与独立源](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)：直接用真实Φ输出和两rough输入，保q≤8144/全known-lag/one-high/adjoint/mean。明确O21域内，完整actual对真fixed-CR参考d1792<2^-6000000；接D后双逆v#差<2^-3000000，独立两个N2低门均付。γ域匹配、高Cq新账/augmented/frozen-metric族仍独立；μL sB源、sR比、未screen跨度与一λ保。17797B/SHA256 efd2a51305feb0822bbcf911ab2ccdc4090f9f71b61b4d50a11a9dfafbd00524。
