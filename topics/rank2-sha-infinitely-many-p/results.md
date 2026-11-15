@@ -188,3 +188,5 @@
 - [R659：原冻结门质量的单位与完整W补偿的强制非齐次差](results/R659-original-frozen-gate-mass-and-full-compensation.md)：保原M3/全部旧ray后CRT添π0≡−1 mod61,277；全D0四层、完整Esharp核心/伙伴和原九行Laurent首项付M0,N≡−λ^(N−1)P(λ)/(b(1+λ))，P固定且常数非零。稀疏坏集外同一无限族全部正四倍N质量unit，原Q环带及全W补偿差严格非零；两失败支/五型/移动cut不删。
 
 - [R660：原范数一坐标、全部边界轨道与真实共振理想](results/R660-original-torus-coordinate-and-boundary-resonance-ideal.md)：整CM平均给v线性坐标，原完整轨道源=v^(p+1−m)B_m(v^(p+1))且B_m整；全部p²−1点给degree p−1的Eisenstein Q_p。局部无log恰Q_p|B_m，原闭X盘则强迫Q_p^(p+1−m)|B_m；B_m(0)准确为原[z^(p+1)]A_m。完整Hurwitz整性/复界又使充分大p的闭盘假设迫该有理系数真零，未由j0预支闭盘。
+
+- [R657两Euler增补：真实共同前缀与25/18接触常数](notes/2026-11-15-r657-original-two-euler-prefix.md)：同一原P的Φ(P)/Φ(EP)联合连续前缀取Hu=max(Nu,Cu−Nu+1)，导出族及全部特征p端点付全列秩和同Smith界；固定未正规双jet共同接触≤(25/18+o(1))D²。未假设E保持旧核，也未命中旧47D²/48截止，原同R/两13carry仍开。

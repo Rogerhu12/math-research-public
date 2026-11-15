@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：a1748dfb41194d49bef06fc7acf88b3a6af02111；2026-11-15 02:49:24 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:49:23 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：3618bccd59e57e305ca628fd51d3b641c8fe06df；2026-11-15 02:50:09 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:50:08 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43668151048/job132672040900于02:31:03实际pull成功、两README差异空；回执ci/rule-sync-receipt-2026-11-15T023103Z.json。本地仍断连，下次最迟03:20 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -15,7 +15,7 @@
 ## 已发表、完整归档与分工
 
 R1–363、R365–560、R562–636、R638–653、R655–660已登记；R364/R561仍开，R637/R654/R661–663进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r660.md)、[open](notes/2026-11-15-open-before-r655.md)。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r657-two-euler.md)、[open](notes/2026-11-15-open-before-r655.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
@@ -87,13 +87,8 @@ R643固定有限中央指标的Gaussian正成本O(k(loglogk)²)，不改bI3；�
 
 原C全部carry、R610 Ξ/Witt、真实前缀/Schur和所有帽照归档。
 旧M=c*U0m13J、19角/P134/charge40、13自由行/26carry、conductor10980不删。
-R593同R先过完整D+两13行；R597清第三尾后真实第二Ψ1−2z1°B/c1保B；R603/R608/Qn/Qquad全在。
-R604非连续unit行不代全旗标。R612全C核I_(p−78)，结点行2s+15仍在旧末2s+14外。
-R620准确Hilbert核/同帽提升成本exp(O(D²))；R631全Υ低w13核K_p。
-R633 fD<p全像锥与合流β在(E)门下给κ_D=Σ(j_r−(h_r−m_r)_+)_+，
-恰p为k_m−κ_D；R646将其余κ_D全部确认为p²..p^B真因子，无零方向。未把全C移旧M。
-R629 bD≥s−13原J_A满射/γ0，同R过原J/p²后第二A才可吸收；
-真实首像缺口在bD≤s−14，全部较早自由列/Padé高尾必须保，R637未付。
+R593/597/603/608的同R全D+/两13尾、Qn/Qquad和结点Taylor补偿见全归档，实际余像未闭。
+R620同帽Hilbert/整核、R631全Υ边界K_p、R633准确首β保持；R629 bD≥s−13原J_A满射只吸同R过全J/p²后的第二A。真缺口bD≤s−14，R637须保较早自由列/全Padé高尾。
 R651在1≤r≤ν≤13、ell≤ν、s>max(3ν+ell,ν+13)，帽b_(D−2)≥ν−1/b_D≥2ν−r+ell内，同P三jet整右逆+强t-Hensel给近支ψ。
 全低行核/真实Dψ、两13尾及同R完整p³均付；ν≥7新增S(η0²R2)/2保持，先过barY+=πsbarZ+=0才合法比较Ψ_R∈imTψ，未证非零。
 
@@ -101,7 +96,7 @@ R646原全C全部高尾/帽/13/40保留的分歧合流证明给全Smith非零，
 R648每列r=u+sj真含p^j，M0全Smith仅1/p；K=ker barM0，dJ=dim(K∩FJ)、δj=dj−d(j−1)，μe=ce−δe+δ(e−1)。
 (E)早阶门下dJ=Σu(NuJ−(p−6u))_+，全g/q高尾三角付；p≥6101全部fD<p自动(E)。这是列权旗标，非有序jet前缀；旧M/D+仍开。
 
-R657原k*=1+max_u(u+s(Cu−1))连续前缀全列单射，保同Smith上界；固定未正规G0W_D接触≤(99/40+o(1))D²，不搬旧M/R644五源。
+R657原长连续前缀全列单射/同Smith界，固定G0W_D接触≤99D²/40+o(D²)。两Euler增补取Hu=max(Nu,Cu−Nu+1)，真共同接触≤25D²/18+o(D²)；不假设E保核，仍未到旧47D²/48截止，不搬旧M。
 
 R640完整Wilson回G0W836，charge876/全帽保持，不添中央零。
 R642保首Gaussian的辅助M_c=(I−34F2s p²B/a)M modp³，B(f0,f1,f2)=(0,0,πf1)、B²0；同P/R先过全MQ2∈p²后第二代表相同，ell+13/26carry全保。
