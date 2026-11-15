@@ -47,7 +47,7 @@ R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；�
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**R296/299完整germ角向**：R296原chain/W0/4Er已提，全主项=−Σa_i²d_i∫(Q/h)L²u‴²+真C²；E−3中心一阶jet的x⁴AB使rank30→31，初选F★有限N可指定单jet，非全部一层。R299取原formal a0得**pure-ruling self Kσ=bZZ+4bYC确C²**，不是R295 period self。R292完整cross给Γ=−2Πμ(ell)·Uν/h+μ·aβν/h，hatK=K−Γself/2消真锚、平移≤10。原有限s空间的忠实点评价和11平移系数明确加入初选Fang；等背景十矩+三真有序面积准确清整个Ξσ，故全中心rulingθ=sin²θ rulingπ/2，实际偶部modWe同。保全部已付二层/72面积/能量/解析prefactor。**仍须付π/2四一层完整函数与零层We商**；54/52仅粗上界。完整period/同w和其他s段未授。
+**R293/294/296/299/300完整germ**：全部二层/72面积/三矩/全third/六能量已可同有限N、正解析prefactor联合付。R299由R296全主平方得pure-ruling Kσ确C²（非period q），R292完整Γ补真边项后hatK平移≤10；初选Fang保其有限真实s坐标，十矩/三ordered面积清整个Ξ，中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。R300原4Er各30条Laurent系数共120呈示，显示真实Q/β多项式和7权空间；free40扣even恒零uu′/u′u″为**实际主秩38**，非粗52。旧30空间包含其中，8个新真实一层观察可同初选Fang有限N指定。**其余≤112原行减38基留下真实C²相容门，尚未付；保持未知基线不等于零。** 零层We商、其他s段、完整period与同w继续欠。原T非紧Green/定向E8核与corrected-self在R300全文。
 
 
 
@@ -55,4 +55,4 @@ R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main af7f1fd7f0b8855e9c15ebab117c090064dff5ea，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 67ef92e5f72de4e469cc239fa696d4b808e8e089，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

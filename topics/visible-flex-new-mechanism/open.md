@@ -149,13 +149,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
 
-### R293/294/296/299：完整germ角向已归到一个π/2函数
+### R293/294/296/299/300：全角已归约；一层主38与真实低阶相容待联付
 
-R293/294从起点F⁺已联合付全部二层×全角、72面积/三矩/全third/六能量及解析正prefactor。R296保原chain/W0和四Er，给完整主平方及单中心jet rank31可控；单jet不等于全一层。
+全部二层/72面积/六能量/三矩/完整third已可同正解析有限N圈联合支付。R299原pure-ruling self确C²，完整cross Γ与真左锚补偿给初选Fang；原十矩/三有序面积使整个Ξσ0，中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。未把period q偷降低阶。
 
-[R299](results/R299-complete-centered-ruling-angular-reduction-by-corrected-pure-self-fibers.md)用R296原幅度身份证明整个pure-ruling self Kσ确C²，R292真实cross给完整Γ三矩核。hatK=K−Γself/2消真左锚且平移≤10；由R56有限s空间选忠实点评价，把11平移系数明确加入初选Fang，等背景十矩与三真ordered面积使**整个Ξσ0**。同一新圆全中心rulingθ=sin²θ rulingπ/2，实际偶部于We商同；不是把R295的period self误降C²。
-
-**下一真正支付剩余π/2全函数**：四一层完整Laurent系数、零层We商，核实际主秩及每条principal关系的完整低阶基线；不再只逐角重复。保初选Fang的有限N构造与所有旧门，不能后加冻结约束；54/52只是生成元上界。其他s段/奇部、全period/同w及主几何仍欠。
+[R300](results/R300-one-history-tail-compensation-and-thirty-eight-dimensional-principal-space.md)保原T非紧Green、定向E8 history与corrected-self，列四Er各30条真实Laurent系数。原Q/β显示表给七权空间，4方向乘出free40，原even母类仅两恒零核，故实际主秩38；旧30空间在内，可再取8原一层观察同Fang真实有限N准确指定。**下一付其余原行的完整C² annihilator相容（至多112生成条件，非rank112）与零层We商。** 逐式判原等背景/面积已蕴含哪些真实关系，或找改变其基线的新实际机制；单把它们加入F只保持原值。不得把principal满秩称全一层零，其他s段/全period/同w仍欠。
 
 ### R288/292/295/297/298/302：平台与单self已兼容新Morse/共振几何
 

@@ -266,3 +266,12 @@ R56/R243的真实有限s函数空间由有限点评价忠实承载；把hatK的1
 [R301 完整证明](results/R301-five-dimensional-translated-full-self-control-and-compatibility.md)用原N的E8表取A0=P、A1=(R+S)/2、A2=(U−L)/3、A3=T/12−V/3、A4=−p2/6，NA_l=A_{l−1}。χ30没有显x，真实同锚平移给完整q_{u_c}(B_Alχ30)=Σc^r d_{l−r}/r!；d0=3/512∫u″²u‴²严格正，故恰全Pol≤4。全部C²余项和原尾均保，非仅principal。
 
 ≤5个同母同宽异中心及非零幅包的完整self矩阵det=∏ρj⁴·d0^m·Vandermonde/∏l!；与R297九矩列准确三角化，R222保所有基准给actual全pure/九矩/这m个self同时指定。任意多中心只有该五模块的准确四次插值iff，不宣整个响应空间障碍；整个canonical self轮廓可能更高次。换母包需重调，有限紧C1→C3母族可统一有限计数/收缩截面，不能由同C²F★推继承旧几何。root全文原链/同锚/行列式/参数范围核读；无新执行。
+
+
+## R300：完整一层的120原行、实际even主秩38与八条新观察控制
+
+[R300 完整证明](results/R300-one-history-tail-compensation-and-thirty-eight-dimensional-principal-space.md)先保原T的非紧outer Green边项、二次inner的η/F身份、定向全E8核及C² corrected-self；其全角结论由R299完整germ版本涵盖。新后半按真实共振Q归约，四个Er各以σh^n j^m列30行，共120条准确呈示；不是120独立控制。
+
+完整V_r多项式表与7个实际系数空间给free主symbol逐权维数1,2,4,5,6,6,6,4,3,2,1，总40；权6所需det因子867t³+251t²−10t−8在0<t<.01非零。原even母/偶χ通用核准确为无x的uu′和u′u″两项，故实际主秩38。旧30空间含Lc/Mc均在内，选择8条新原一层观察与旧门同初选Fang/12正包/有限N真根准确联控。
+
+其余原行减38基只得允许even类上的真实C²相容量；至多112生成条件未付、不宣rank或任意非偶C²。保持它们的初始值不会使它们零，仍欠零层We商和全period/joint。作者全文纸证完成即登记；literature窄核原Green/定向self，root读新120呈示与主空间并手核低权三角项/权6系数，不设独立复跑门。无新执行。

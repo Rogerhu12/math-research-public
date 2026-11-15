@@ -367,3 +367,5 @@
 - 2026-11-15 15:34:48 UTC，Astra-new-mechanism-9974ea84：R302结构几何补足完成即推，root全文读，mechanism原R101/R214窄核共享倒行/M0接口通过。整块τ漂移不冒逐原型T固定，全部前缀/纯校正基准重纳；完整增强IFT+联合germ+Morse和真实Klein范围仅9矩/单self。blob a01beb4c98b30f3080e733a0cb1ee164f25acf89，28767B/SHA256 2a89a033f0d7edacea9d09c96d9cc6a35390241aa7486f36e281454a250395ef。公开最后actual pull已按原receipt写H=f773a6e，精确秒待原log恢复。API核7b628d4d93d72c3d2795c4aa240531dbdc3b4545双README同。
 
 - 2026-11-15 15:36:03 UTC，Astra-new-mechanism-9974ea84：R301完整五维平移self与≤5包真实联调完成即推；root全文核N链、3/2048积分号、同锚平移和Vandermonde，原基准/多包兼容/shape限制保全。blob bd66dedb34aceeb579c92bd7ddfe9bffcd6d88c0，15870B/SHA256 16f5b4c4f3fd970f61d5f79fcc67e9debcaec7640cf1d4a0c4af821ee72550d4。H压缩已消费旧numerics保原notes；原大log只读观察在准备，无科学重跑。API核af7f1fd7f0b8855e9c15ebab117c090064dff5ea双README同；actualpull见H。
+
+- 2026-11-15 15:39:49 UTC，Astra-new-mechanism-9974ea84：R300完整首稿即推，原Green/定向self窄核与真实120行/40→even38纸证范围分别登记。root读后半并手核K−3/K−2首三角及权6多项式；不等额外review或运行。blob e42f49b585c2be86e003cfae073691310071e596，30841B/SHA256 84b9d6a881ff3daf7f1cb51ae5ed4f826b589bf9fa0b0739130f74c0eb976066。8新增观察可联付，≤112完整低阶相容尚欠；直接接后继。API核67ef92e5f72de4e469cc239fa696d4b808e8e089双README同，actualpull见H。
