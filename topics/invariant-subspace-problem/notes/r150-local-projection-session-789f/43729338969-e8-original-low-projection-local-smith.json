@@ -1,0 +1,778 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43729338969",
+  "stepId": "e8-original-low-projection-local-smith",
+  "executionSourceCommit": "74cee438adbeabe69be29c661a6545a9c3499bb1",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+  "scriptSHA256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--unit-schur-helper",
+    "{scripts}/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
+    "--out",
+    "{work}/e8-original-low-projection-local-smith-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--max-order",
+    "4"
+  ],
+  "timeoutSeconds": 205,
+  "exitCode": 124,
+  "wallSeconds": 205.00839749299996,
+  "fullTemporaryReceiptBytes": 11745,
+  "fullTemporaryReceiptSHA256": "c36cfc7531593ae4c2b160d79763c1e55b358bb189f6e79c93477bd3917c5975",
+  "result": {
+    "arithmetic": "exact rational regular representation of the actual degree8 number field",
+    "elapsedSeconds": 3.6230218599999944,
+    "format": "r150-e8-original-low-projection-local-smith-v1",
+    "scriptSHA256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f",
+    "status": "started",
+    "parameters": {
+      "actualOriginalPureUnitEquationZeroBased": 0,
+      "actualOriginalPureUnitMultiplicationDeterminant": "11971757972849706442283675664465321203244207571992576000000000",
+      "all170OriginalPureProjectionRowsRetained": true,
+      "all17OriginalPhysicalEquationsRetained": true,
+      "all224RowsOfLowEmbeddingVerifiedPolynomially": true,
+      "all5100HigherNormalProjectionRowsZeroByDegree": true,
+      "all6188OriginalProjectedSourcesRetained": true,
+      "all918OriginalOneNormalPolynomialRowsVerified": true,
+      "allEightConjugateEmbeddingsCovered": true,
+      "allFieldMultiplicationBlocksVerified": true,
+      "allFourAdditionalPureColumnsAreExactPolynomialKernels": true,
+      "distinctPolynomialCoefficientEntries": 392,
+      "exactPureTargetColumns": [
+        [
+          3,
+          1,
+          []
+        ],
+        [
+          4,
+          0,
+          []
+        ],
+        [
+          4,
+          1,
+          []
+        ],
+        [
+          5,
+          0,
+          []
+        ]
+      ],
+      "exactTaylorPhases": [],
+      "field": "Q[alpha]/(E8(alpha))",
+      "fieldDegree": 8,
+      "fieldRegularRepresentationSHA256": "f9b116cee6820abd5ac95b864a819ee9e674506da4b8fba4fb117a36e9eadefc",
+      "fixedDetJ3PhysicalNormalization": true,
+      "fullOriginalMacaulayNotRecomputed": true,
+      "fullOriginalParameterPolynomialDegreeBound": 25,
+      "fullProjectedPolynomialCoefficientSHA256": [
+        "cc1adfbb56d598b3a294ea0f9619e3da8189f74b9a619cd499ca642eb1342352",
+        "b33cf8f92e09ebb64d44d69bd7684b0546defa2578c7909abc0af5b73018c01f",
+        "ac245a8d400b9642ef595c91a3d73df69fdbb36aa7d7f5d25bd7fd8f272928db",
+        "0ab0fc8631710384aebfe825401fcda8647c67308f734a9c1259f83baf30eb6f",
+        "a66f6ff347a1765c3d376a0967edf7b7534b594a4f1558037b0dc0096cc26a3d",
+        "8a436064c8b27af5662ca574a11174f39751ebc29b05f703e3a446da5f5b2210",
+        "5c40b70cd393ef963a249c0aacbb2c01eddd679e70566d440f44811ffbccc964",
+        "8e5d5d5d22ffcf7abd23e0689730e6421eb7109cb652423d93fca65e420b00bd",
+        "c41d47bf7304164466f7cd41cd18d95c66c01b06123b2a5d6bc907dd121d8827",
+        "52da0750a4d01f10461a3832b34b9b7d79b00596bbc168e48bbaceb1c4e0578f",
+        "e744bdf27f2d7a457a5610256e5234e2d5735f6c6b6bddad11a11450528ef6a3",
+        "fdd60d3b058f3f7e019dded296471880c10a115fc9f85180a6f5da63ad087add",
+        "dbe5c5eb68f23f5f4fd6851aca93166d84a2029da29c437f55575f37baa08a34",
+        "ef3d6ee3a6ca6f0ccf7318dc051cf18059f4b5b99a60fa2178fabee22bad823e",
+        "be5b3e63b13bc8fbc1fb18946084853c3b6ecedfd749f5f9c5da9776d1a32017",
+        "f51d3f7fc29ca65050d4464953c92424a233400499437e5512b5538b41916886",
+        "5883baf6f65027f4f4a5c001c84204ea1920827c2fc8bca476e0fa8d90d44d25",
+        "92825ec768394ea8a57392924ea47ef00fd849f261f9864d87a1aebcc7770f0e",
+        "931ae2680354dbedebee99aaa555f9e584a877f4755b2b6d3e54035bd005f753",
+        "2d089ef08bf929527c3099a327259743f2a51c095411c082a9a6312570258258",
+        "de2cbc5ae81fbaacdec8158760934a68e772e3d779c187eeb2bf118814fe53f6",
+        "be79a165c3fa1b368d705d010db3a9c78fd7582cd6b995ba04792d9a30cb8f09",
+        "15023c5289dbb5eeba58c4cace511f95987fb9a0cd15735893d80f81c23511be",
+        "15023c5289dbb5eeba58c4cace511f95987fb9a0cd15735893d80f81c23511be",
+        "15023c5289dbb5eeba58c4cace511f95987fb9a0cd15735893d80f81c23511be",
+        "15023c5289dbb5eeba58c4cace511f95987fb9a0cd15735893d80f81c23511be"
+      ],
+      "inputSourceSHA256": {
+        "actions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "unitSchur": "73c11b1d957962fdb8c9b17143aaf8d894845b1b4c8382f200eeaf2422178119"
+      },
+      "irreducibilityPreviouslyProvedOverQ": true,
+      "irreducibilityReference": "R150-appendix-rank-one-E8-irreducibility-and-good-residue-root.md",
+      "largeDataUploadedOrCommitted": false,
+      "lowPolynomialNonzeroEntries": 616,
+      "lowShapeOverNumberField": [
+        51,
+        36
+      ],
+      "lowSourceRows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          1
+        ],
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          1
+        ],
+        [
+          6,
+          1,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          1
+        ],
+        [
+          7,
+          1,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          1
+        ],
+        [
+          8,
+          1,
+          0
+        ],
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ],
+        [
+          9,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          1
+        ],
+        [
+          10,
+          1,
+          0
+        ],
+        [
+          11,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          1
+        ],
+        [
+          11,
+          1,
+          0
+        ],
+        [
+          12,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          1
+        ],
+        [
+          12,
+          1,
+          0
+        ],
+        [
+          13,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          1
+        ],
+        [
+          13,
+          1,
+          0
+        ],
+        [
+          14,
+          0,
+          0
+        ],
+        [
+          14,
+          0,
+          1
+        ],
+        [
+          14,
+          1,
+          0
+        ],
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          1
+        ],
+        [
+          15,
+          1,
+          0
+        ],
+        [
+          16,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          1
+        ],
+        [
+          16,
+          1,
+          0
+        ]
+      ],
+      "lowTargetColumns": [
+        [
+          0,
+          1,
+          []
+        ],
+        [
+          1,
+          0,
+          []
+        ],
+        [
+          0,
+          2,
+          []
+        ],
+        [
+          1,
+          1,
+          []
+        ],
+        [
+          2,
+          0,
+          []
+        ],
+        [
+          0,
+          3,
+          []
+        ],
+        [
+          1,
+          2,
+          []
+        ],
+        [
+          2,
+          1,
+          []
+        ],
+        [
+          3,
+          0,
+          []
+        ],
+        [
+          0,
+          0,
+          [
+            2
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            3
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            4
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            5
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            6
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            7
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            8
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            9
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            10
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            2
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            3
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            4
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            5
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            6
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            7
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            8
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            9
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            10
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            2
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            3
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            4
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            5
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            6
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            7
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            8
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            9
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            10
+          ]
+        ]
+      ],
+      "maxLocalTaylorOrder": 4,
+      "memoryMiB": 2048,
+      "minimalPolynomialAscending": [
+        9600,
+        -25472,
+        -3392,
+        15936,
+        -2888,
+        -936,
+        153,
+        50,
+        5
+      ],
+      "noNewFiniteFieldMathematics": true,
+      "noVanishingGDivided": true,
+      "numberFieldTaylorCoefficientSHA256": [
+        "07304e7f49432571e84a1a8522655519adb229b8551bcac1732dda3026651440",
+        "15266117f41ec4cf2d47b6df929da377b1291dded0b0129f2e291befc2ab5175",
+        "2bf765a88d3f7407b3e0b7c805d370343365ff1528beee2fbf3f73bb238b0321",
+        "1269978efacb60aefde14bad1cb0509e6727fa6b8cd575666684dece4ba8f4c0",
+        "e7a0cb36f7e6d8fa867d8dbd955298dd3f459316b383a8a9b5d479f44517da80"
+      ],
+      "numberFieldTaylorParameter": "t=s-alpha",
+      "oldNormalFormsNotRecomputed": true,
+      "originalE8CompanionIdentityVerified": true,
+      "originalE8DerivativeIsActualFieldUnit": true,
+      "originalE8DerivativeMultiplicationDeterminant": "577863134305009208842625818488113988640025083904/3125",
+      "originalGIsActualFieldUnit": true,
+      "originalGMultiplicationDeterminant": "877224478680023040",
+      "originalH0Formula": "s^3(s-2)Fp^2Fm^2E8",
+      "originalH0LocalOrder": 1,
+      "originalH0UnitPartMultiplicationDeterminant": "86808619247893776698443776648031760212614208356180207814919880174911608518909730435891200",
+      "originalParameterPolynomialsNotInterpolated": true,
+      "originalPhysicalCoefficientIdentities": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "061d3fef70b1ddc55fadf19bb6ab9dff3e16f217ec5bd35a9329f1df871e1bc4",
+        "L_y1": "e9c366c441ca83d6b637ca5538fb217db66afd9f33d37a2f56381fcbe54782cc",
+        "L_y10": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y11": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y12": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y13": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y14": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y15": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y16": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y17": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y18": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y19": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y2": "de009a98b8aef5ffc0705208e69f176f5443d51d34334b411328adfb88870696",
+        "L_y20": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y21": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y22": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y23": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y24": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y25": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y3": "cb4db866cb233d56cd269570651a223b8dc15b75112ee4e13705996505417a82",
+        "L_y4": "73162281f28bb682d8186c5cba3cfd89c2d9b10826de0e52a59d9fabf7f3a0a2",
+        "L_y5": "16d95661321becdeb2278056b8ceb6c5322a19e75cf7df9ac8b46123baee3e72",
+        "L_y6": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y7": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y8": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "L_y9": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "P0": "e668cfd50415292eaf88d390acc2ce34d4e35b8e773fb3e70ea84c0bc706c01f",
+        "P1": "ada475352f5bac004290df1170398188720126005198248217d68735e61b5043",
+        "P10": "4c488409700b451e08118f2701ae42b9f9c8e1568f47ccb182de7d348ca7b7c1",
+        "P11": "92b6881c60bb3e032a905dd11f53680cc673663f4e6481252ebd56d9f2b185ef",
+        "P12": "5a5c651df3ae32fa775050637b99dc41c6915207673c1b67dc4e95f2a9220cfe",
+        "P13": "308092deeecd4030db99faf2bcb063434cb44e7c4081c14981695d69839f05de",
+        "P14": "7468037f99da1cf86e99edc427f07ba22c5256e543f6ebfc429e4ed4a99afe33",
+        "P15": "dc0e8cbecd6ce48244265c873702a15e03d768de0100abbace86e33a1c0b13ad",
+        "P16": "e52cb80aff241d0bdde3d66b11401a9f3bb1b64cc3a1f723ac46ba315bc6b00b",
+        "P17": "74539bddac16da279f9848c11d816e68adfc2c2318bf66779547fa63cbf3328f",
+        "P18": "b1a34051951a90eec54f45c15079635bddabe58158f8017c1b48a7502a254357",
+        "P19": "1204ef785843ddb5a0172a42910fabe2010ef8c006a94c7dd63768477a5cdc70",
+        "P2": "4c1b4be738601fd7b5ad09117390c2ec4988b60f585886d2153706b824029460",
+        "P20": "c321b873b078315e078cb92a8e366ca387be8799d56a3ae35b650029e77ed560",
+        "P21": "4dc4ed666bf50048c90179a39dc4f5e3cc5899a718a83fdd08df37d65409cbd0",
+        "P22": "ef3fa190303bef785a64ebc673461e590b7b1257e71f431d5f90d869488216ab",
+        "P23": "ef3fa190303bef785a64ebc673461e590b7b1257e71f431d5f90d869488216ab",
+        "P24": "ef3fa190303bef785a64ebc673461e590b7b1257e71f431d5f90d869488216ab",
+        "P25": "ef3fa190303bef785a64ebc673461e590b7b1257e71f431d5f90d869488216ab",
+        "P3": "9149b9496dd202cd4882a181cca2800c3303cedc089bf8cf38426611a9f60fe3",
+        "P4": "ea9cb900008a8239dc155a4f21238f08b6db5761c978f48e55712b9e7d6f967c",
+        "P5": "4b6813118845e3d4b44750ef494a73ed9e756256729e7a217de855ebcbcce985",
+        "P6": "3261e27f357786f90d9740be31d474c641463865f68807b38c97afb973b0a75c",
+        "P7": "7ca2750f3ea49e9ce8b4801563c7f4de206858ed35cb2a01ca4d7dc8f7148c80",
+        "P8": "fab2ebe40a9b9f90509360c1dc3de7c720979e791a0d492ef615d6fffe692d4b",
+        "P9": "4180c15728a55adfa943f97d9ea9e3412f159a55236fdab7b41c5d8523b59741"
+      },
+      "originalPrimitiveRescalingIsOnlyPaidNonzeroRationalConstants": true,
+      "paidFullE8LengthUpperBound": 5,
+      "paidLowE8Rank": 25,
+      "paidLowGenericRank": 27,
+      "paidOriginalFullE8Rank": 4352,
+      "paidOriginalFullGenericRank": 4354,
+      "paidProjectionE8Rank": 140,
+      "paidProjectionGenericRank": 142,
+      "parameterwisePrimitiveRowDivisionUsed": false,
+      "regularShapeOverQ": [
+        408,
+        288
+      ],
+      "remainingSeconds": 180.0,
+      "smallPolynomialCoefficientSHA256": [
+        "b8f0c988c7d7b81be82a5af0ce32c2c8e911ee5e2dad92b38b44a048e2a617af",
+        "c0de3c7bbcb43c36d12695e5bcf97420d46dcdaa892c80d958d61a6db10db2d5",
+        "479e183b83a2009b4138409dcbf0b74e3108059423cba2d558f920e4257b2fc6",
+        "62227c79848ea61355244ed1a7b6f32ef25a0379087bc845eb84cd72693134a0",
+        "a34ec304abde1d4d43f8424ca05851f435504f99408030a2ee86a2950b7d5287",
+        "7f9b648e04f3fd578c252f2cb7d5b1615fe61f41d3cf5f5a0503813bd45701f4",
+        "07e5ed57b430ff148187a54b5474c00447327194224f0db029cc7955d166feec",
+        "fcf12c272c4c4008ff68cb7ee9a2f354bdb978a14d2564ae810b33a2a1e14498",
+        "c1be869945f974f23b05608c8a416b1768eb0d803a94abf54698c23013a4baa3",
+        "2514cf1ba884c43109583c92bc5dc840543d29adf665b8824614fd613e120be5",
+        "8fe3816b4e27c035231df6b7bd45fea08b8089547fc0db87b306d4ed744dc64d",
+        "292e88977d22bb6d2271204e62378f381df3196a2de55c203aa234171f1a126a",
+        "6b042c4eb5227641ffdc7cf3b3adebec9ffc711eb0832799a746c8cfb1ac4986",
+        "8ff016a33836e720fb08476286b6cbed4b458bd218f1c8c01d3e4b7bbb45ad0a",
+        "a2dc0c3d87164fdb79cd9f3b10a9301cc3bfc31556f76f957c5940f0fdfeecaf",
+        "8924f0bdcf4870c96a0cd90bf88613a0bb1e643aceca6903ab9fe82386d7a8d2",
+        "6d7f34e7082410ec1b6f71bdd450b09320dd134bac09860be24bca64e9f70a1a",
+        "bdef6591d9d76bc6ab761d233b2a146cea14b7e947c3a1dcb7e53d4c3e56cf60",
+        "a4dea5f53181db60f930dbce7bbf3773829a1906af05409da6c268aec95bb5c1",
+        "4a75f7fbf3ccf6ccd28202d992da47dceb265ae821d542c6f966e19d7ab03993",
+        "e6fbffe80c0c6be5b0e380a22d24d671ec3b291e4f383c062e6d219d9691cc8e",
+        "11c0ea0f667fe455b3727aeedb75cffb271b4a1774e86ffc75afbe14b26579a6",
+        "bdc576e3940f60f315208a21f7f0d78dc07b1491d8802ac412fd6c915d8c43b5",
+        "bdc576e3940f60f315208a21f7f0d78dc07b1491d8802ac412fd6c915d8c43b5",
+        "bdc576e3940f60f315208a21f7f0d78dc07b1491d8802ac412fd6c915d8c43b5",
+        "bdc576e3940f60f315208a21f7f0d78dc07b1491d8802ac412fd6c915d8c43b5"
+      ]
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 15:31:12 UTC",
+      "beforeReadCommit": "f6e7bcc3d9329e16cff769cc498ac552b2636f90",
+      "originMainAfterPull": "74cee438adbeabe69be29c661a6545a9c3499bb1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 15:34:39 UTC",
+      "beforeReadCommit": "74cee438adbeabe69be29c661a6545a9c3499bb1",
+      "originMainAfterPull": "787ec33aad0d744609f3ff64c6205aa1ab5b5cac",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 6,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2059,
+    "logicalJsonSHA256": "121b822a020b0efde9dd1649bc6d27f9118e0e81525e778e74d551ddf4272fc1",
+    "itemCount": 6
+  },
+  "lastRulesReadCommit": "787ec33aad0d744609f3ff64c6205aa1ab5b5cac",
+  "summaryExcludesRecomputableArraysOnly": false
+}

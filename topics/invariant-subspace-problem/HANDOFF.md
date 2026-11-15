@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续 open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 3874a1f824b99f6f7d92d7e9b73daf3d43b1edbf（2026-11-15 15:32:13 UTC，Actions run43730412865实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43730412865-1.json。
+- **最近成功实际 pull 与已读规则提交：** 787ec33aad0d744609f3ff64c6205aa1ab5b5cac（2026-11-15 15:34:39 UTC，临时研究session run43729338969实际pull --rebase，两README无差异；详见notes/r150-local-projection-session-789f/）。
 - 仅授权 Rogerhu12/math-research-public；根独占 main/H/open/results/log，代理交独占稿。每结论真实终端 push；非快进即 pull --rebase 再推、不 force。至少每小时及每推前实际 pull，核两 README，仅读新差异，已读 commit 记此。
 - 已读规则根 21bd547f56590b7f2dd279d0297efb289a9b2783、课题 4d6570e9cf346431ab781a1290076a6321aaaa00。token 仅 CLI、不落文件/日志。可重算矩阵/证书不存 Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执。topic≤200MB，API 小 UTF8<100KB；MD≤100KB、H≤10000B、open 尽量≤30KB、log 每条≤5行；数学美元符，不写根 LOG。
 - 无额外审核门槛；Actions 约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。当前本地托管执行不可用，既有 Actions 执行真实 pull/rebase/push；不能拿 API source commit 冒充实际主线推送。
