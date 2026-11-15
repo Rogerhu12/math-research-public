@@ -1,0 +1,148 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "restore-exact-paid-seventh-temporary-bytes",
+  "executionSourceCommit": "d5ee70a257ff04f2b029ad88c6a33234c2b60dbb",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-recomputed-temporary-byte-recovery-789f.py",
+  "scriptSHA256": "c2b80f5a00774327167f031037196501ed1d118a5b815f33711e33a33a3c9172",
+  "argvTemplate": [
+    "--paid-receipt",
+    "{scripts}/43740928483-infinity-complete-seventh-after-high-probe.json",
+    "--paid-receipt-sha256",
+    "6faacedfb22582d79a2cefc73d97a8a11eeb0cdb024bc5c6d93de995a3102e65",
+    "--new-receipt",
+    "{work}/infinity-complete-seventh-after-high-probe-receipt.json",
+    "--temporary-root",
+    "{work}/infinity-complete-seventh-after-high-probe",
+    "--out",
+    "{work}/recovered-seventh-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "4096",
+    "--manifest",
+    "complete-seventh-checkpoints.json",
+    "--manifest-style",
+    "complete"
+  ],
+  "timeoutSeconds": 210,
+  "exitCode": 0,
+  "wallSeconds": 0.3648371929999996,
+  "fullTemporaryReceiptBytes": 3000,
+  "fullTemporaryReceiptSHA256": "3554f16e665db814c63b1fd64eb46881c6eede8c4264030902c45c62413ccd81",
+  "result": {
+    "elapsedSeconds": 0.2683687409999891,
+    "format": "r150-recomputed-temporary-byte-recovery-v1",
+    "outcome": "fresh-original-calculations-match-all-historical-temporary-bytes",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "author": "Astra-ISP-789f / root",
+      "binding": "8a9a52e60045cb4124f90e73ce2cb210d98f88acae2802287bd5e17a56d2ab42",
+      "freshReceiptSHA256": "e66b6cbade5e35cfbe9e42470cf45685640365f67f03afeea79e96046f8a4be0",
+      "historicalTimestampRange": [
+        1794772844,
+        1794772870
+      ],
+      "largeDataUploadedOrCommitted": false,
+      "mathematicalEntriesModified": false,
+      "paidReceiptSHA256": "6faacedfb22582d79a2cefc73d97a8a11eeb0cdb024bc5c6d93de995a3102e65",
+      "recoveredManifest": {
+        "allPhasesMaterialized": true,
+        "bytes": 1663,
+        "sha256": "01bf9b5b06b4233f48142d1835f03a7fb073a067334ef14d014ab51e95030046"
+      },
+      "recoveredPhases": [
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 117647,
+          "gzipMtime": 1794772857,
+          "historicalRrefDurationRestored": true,
+          "phase": "complete-rref",
+          "sha256": "8ba382427d63be4e35cca54f5e15818299ee552d54ff67b7097d67ffb4b90348",
+          "timestampAttempts": 14
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 610292,
+          "gzipMtime": 1794772858,
+          "historicalRrefDurationRestored": false,
+          "phase": "complete-seventh-cochains-candidate",
+          "sha256": "a85efc825bfce2c70ff757f6161753f9ac5c79ba1c85bb4bbc143eac88812bc6",
+          "timestampAttempts": 13
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 610369,
+          "gzipMtime": 1794772859,
+          "historicalRrefDurationRestored": false,
+          "phase": "complete-seventh-cochains-verified",
+          "sha256": "0bb0b469006bc7a15ffff11b7bcfedc772813cfcd75f8bda8ecdaede49a01841",
+          "timestampAttempts": 12
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 312,
+          "gzipMtime": 1794772859,
+          "historicalRrefDurationRestored": false,
+          "phase": "original-verification-ledger",
+          "sha256": "d7064541db495faef1f544e455f5d105acc7582b3d060724c37052babc8fc7d4",
+          "timestampAttempts": 12
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 1496220,
+          "gzipMtime": 1794772855,
+          "historicalRrefDurationRestored": false,
+          "phase": "prepared-complete-low",
+          "sha256": "811eb06f809856f3f82856e9aef04b07edc6ec065a501d66ea921b9b5ad2527b",
+          "timestampAttempts": 16
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 110783,
+          "gzipMtime": 1794772858,
+          "historicalRrefDurationRestored": false,
+          "phase": "verified-low-kernel",
+          "sha256": "977f97a9f68ebe00c713c49975b4580de7f30058512520b91ad51449fdc21b96",
+          "timestampAttempts": 13
+        }
+      ],
+      "temporaryOnly": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 20:09:10 UTC",
+      "beforeReadCommit": "9cdfbf76dbca1f8e5b4ede478029737dc1d6d42c",
+      "originMainAfterPull": "d5ee70a257ff04f2b029ad88c6a33234c2b60dbb",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 20:09:11 UTC",
+      "beforeReadCommit": "d5ee70a257ff04f2b029ad88c6a33234c2b60dbb",
+      "originMainAfterPull": "d5ee70a257ff04f2b029ad88c6a33234c2b60dbb",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 25,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 8576,
+    "logicalJsonSHA256": "328f61c7519e1f9b157e088631d13db3eb8cd462d87c6ed02cfcdce978a2d562",
+    "itemCount": 25
+  },
+  "lastRulesReadCommit": "d5ee70a257ff04f2b029ad88c6a33234c2b60dbb",
+  "summaryExcludesRecomputableArraysOnly": false
+}
