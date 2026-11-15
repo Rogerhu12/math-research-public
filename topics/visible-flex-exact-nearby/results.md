@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实非线性far固定图与完整Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)：固定原解析γ域，通过nilpotent collar坐标与新增一个B端角导，保原1734/1796、全部mean/真实comm，已同时解body F=0与nonlinear far bγ=0；同seed差E1856<2^-1700000000。真深profile和完整mean另给物理a-jets的scalarheight C²平延。粗γ须明确H8193转授；完整core/ν/waist、空间coframe及同对象几何仍待。
+
 - [粗内端曲率与真实B端种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)：γ只需同反射A0/rγ≤1/128，M零宽帽图经真实两端long右宽0/左7L/16产生B端大角宽；P94与G全部seed/source整数界保持。不给未知γ复角值，固定γ的collar局部性不冒整个seed族Γ不变。另付H8176/rγ≤2^1048576后原F body Nash适用；far及内core匹配仍各自支付。
 
 - [实际wholeword复用负源43703879926/1](results/R133-supplement-actual-directed-word-genuine-negative-source-bounds.md)：child0/12门，96新分母式/16统一比较/4完整组合，旧数学0；14项严格收紧。完整nonlocal<4.111362e14、两行pair<3.606196e16、independent mean<5.266503e12；local原3.565082e16保持。当前主导转local_raw1，仍只volume upper，不授BVP/trace/strong-return。31项及16q完整保。

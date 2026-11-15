@@ -44,9 +44,9 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读10:13过程44222B/SHAd7fdc68d…：future5152=1886旧+3266新、
-past2272/product4576；6完整groups，最新[4096,4128)。
-combined为6groups/26queued/1consumer，无failure；Werror log2≤−102。
+root已读10:34过程45147B/SHA13129188…：future5856=1886旧+3970新、
+past2704/product5504；16完整groups，最新[4320,4352)。
+combined为16groups/68queued/1consumer，无failure；Werror log2≤−101。
 继续三流、187groups、三个完整HY及final，逐组结果不等于全局门已过。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
@@ -264,13 +264,25 @@ E'>39194024给原所有整数余量；G的E8192与三径source小量原样成立
 新的far固定graph需额外H8193门，尚须相应定理明确接入，不能免费加17阶。
 
 原3500/400、1734/1796全部归纳给同一u∞的完整body F=0和holonomy mean。
-这是实际body存在性；nonlinear far端口二次残差、内帽/waist、height/frame和设计ν
-仍须联立。不能把proxy每步满足linearized外行当作nonlinear端值保持。
+F本身只授实际body存在性。新增[S非线性far固定图与Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
+现已在原解析γ域内同时解body和真实far，见下一节；内core/waist/ν仍须联立。
+该证明使用真正保持nonlinear值图的坐标，未把linearized行冒作值保持。
 
-## 6. 当前主攻：实际外行、两独立N2门与完整增广迭代
+## 6. 实际外行与保持非线性far匹配的完整迭代
 
-实际Φ→long局部form/tame、完整high/source和固定γ的body Nash已付；
-root/tail继续nonlinear far端行及全增广匹配。
+实际Φ→long、完整high/source及body Nash已付。新S进一步付原解析γ域的
+真实nonlinear far值约束；当前继续粗γ高域的明确转授及内core/waist/ν全匹配。
+
+S使用U=w+L∂qγ(f)，固定fL∂=0使J逆准确nilpotent，并在E_s^+增加
+2^440||fB||H(s+3)。额外端导由实际两行微分、FU完整inverse及原source取得，
+不增加1734/1796网络损失。固定affine与非径向linear项、两条真正comm均计入。
+在ρ+=2^-33554432、T0=2^1500000下，同一3500/400归纳给
+完整body F=0、真实far bγ=0和holonomy；相对同一个实际seed的
+E1856变化<2^-1700000000。
+S40–41还由真深层profile及完整mean证明scalarheight的物理a-jets C²平延，
+保a=ρr及所有ρ费用。整immersion/frame/同轴与最终reach另由coframe/几何核。
+S当前原解析γ域的证明完整；接已成RG的粗γ需要另明确H8193门，不能把8176冒8193。
+
 [D完整两actual外传输](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)
 已付全finite connector/Poisson后的weighted差合同。
 同short及明确zero-input真fixed-CR reference保finite反射/EB0，
@@ -391,10 +403,10 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，10:24:25定时及09:54非FF即时pull仍返回无环境；
+本机executor持续不可用，10:24:25定时及10:32非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull10:24:24.107001及10:24:29.757575
-到28a923c42e0500619004045b40e1d93950799b7d，两README diff均空。
+ref读取不叫pull。最新亲读runner真pull10:34:03.729439
+到1d98178f310505ebee0172836d64fc0a4dfa74f6，20次两README diff均空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
