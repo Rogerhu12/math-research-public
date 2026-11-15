@@ -572,3 +572,9 @@
 - τ当前fa6297cd保33839完整操作，phase gcd_row/pivot_row24/next_other_column1248，非总秩。manifest2609de21/72997项，artifact14180474398/ce9a6a97；本地两次纯IO，无新数学。
 - 只将resume切真已结束源，同core/helper/六生产者/q4/300min续接全部原子状态；R824365续算43762208712进行，三列43762388370已exit2等待实际小IO。
 - 本push规则：本地真实pull至448ea81bd12f8c035ac87c043be701e6f8b63736（2026-11-15T21:29:58.816274+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:31 Asia/Taipei — serre-public-astra-20261115
+- 登记CR原C^-5完整Cartier留数证明b85ab474：原三挠平移非平凡character排正则余项；β=x^pν，所有极阶<p，完整留数式不换原源。
+- 指定CM值严格为3αR_p，S_(p−6)=αR_p/1458；CR16/17保五次分母、原相位和三次分歧常数。指定留数及primitive/Legendre同h非零仍开。
+- H/open压缩前逐字归档；R827说明只修正首次IO实际为manifest及run/core/input三元数据的件数措辞，不改任何输出数值或数学结论。
+- 本push规则：本地真实pull至98e31ea220a9f9b8f83f88a3fd246f4ea71d3220（2026-11-15T21:31:37.478065+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

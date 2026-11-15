@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：448ea81bd12f8c035ac87c043be701e6f8b63736**（2026-11-15T21:29:58.816274+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。终端已恢复，工作区/workspace/scratch/09e43497d694/math-research-public，blob:none/depth1/main/sparse；备用rules43745726410；旧43714581068已达50次限额。本次结果前H逐字保于[98结果前归档](handoff-archive-2026-11-15-before-fixed-C-results.md)。完整此前H在[固定C前归档](handoff-archive-2026-11-15-before-fixed-C-next-digit.md)，open在[同次归档](notes/2026-11-15-open-before-fixed-C-next-digit.md)，全部旧pins/断点由此接续。
+**已读规则提交：98e31ea220a9f9b8f83f88a3fd246f4ea71d3220**（2026-11-15T21:31:37.478065+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main；旧rules入口见归档。本次结果前H逐字保于[98结果前归档](handoff-archive-2026-11-15-before-fixed-C-results.md)。完整此前H在[固定C前归档](handoff-archive-2026-11-15-before-fixed-C-next-digit.md)，open在[同次归档](notes/2026-11-15-open-before-fixed-C-next-digit.md)，全部旧pins/断点由此接续。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -47,8 +47,8 @@ R317仍余p2/5mod9完整非分裂正规化子、a³+db³1/p|b，D/bc无统一上
 sigma须同一primitive/Legendre h的三个原单位，R739/R741/R737不拼。R808/810固定六维/p²/Hirota已闭，保[K,P_T]；R826/828/830/831八原源/两G零/真conductor-p/old6不可约保。R833/834给Γ=β^(6−p)C^p与真源/Serre-dual，指定uP0,e配对非零仍缺。
 [unitary交叉heat](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保原三同源/36theta/full72/FG与整数差primitive×Legendre权；指定p+1源非零未知，μell仅共同jet，FG一次横向零。中央h虽primitive，三单位未得，辅助j2048/3非原j0。
 
-[Kronecker平方](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5、[X6原源](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保原18项/Ωη相位，E=6ρxF及mathcalE²dq/q=−72Σa dlog(yF−a)。
-[PF/Schwarz](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、S_(p−6)=−[U^(p−1)]x²A⁵/(DC⁵)/4374。
-[PF Cartier](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给Car(dU/(DA²))=κdU/D、κ=4/a_*²=−8c_r单位，rank1幂零p曲率/有限Wronskian1−κU^pJ。C首次p分母及修正不能删，原C^-5与两变量same-h筛非零仍缺；全局源非零不代指定值。
+[Kronecker平方](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5/[原X6](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保十八项/Ωη相位、E=6ρx和原对数微分。
+[Schwarz](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、S_(p−6)=−[U^(p−1)]x²A⁵/(DC⁵)/4374；[PF Cartier](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ单位、rank1幂零曲率、Wronskian1−κU^pJ，首p周期修正不删。
+[原C^-5完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原τ三挠平移排正则余项，β=x^pν(y)，Carβ=xΣres(ν)^(1/p)dy/(y−a)；指定P0值=3αR_p，S=αR_p/1458，R_p为y=2/α的实际留数。极阶全<p，但指定留数及两变量primitive/Legendre同h非零仍缺，不由其他留数或全局源非零代值。
 
 ordinary p43/776bitq已Gaussian5排；[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892/[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一K_glob/Θ=i a_q及同Σ θ3。C4/T²杯积仅复现R779，无独立Θ值，禁巨大q枚举。R816/818/819/821/823与R729的原c1不分歧已成，不添高度单位。原模型/CRT6逆/ζ²一次/246/c0c1不改。主目标OPEN，继续open.md。

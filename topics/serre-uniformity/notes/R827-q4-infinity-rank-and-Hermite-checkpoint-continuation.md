@@ -48,6 +48,6 @@ manifest 为 19902271 字节、72997 项，SHA256
 `2e09e8e10f2419c4a8e8686d2a6f0ca6c4f400a3190eca3f0d233eb0b51bf36a`。
 不替换成 R824 的 365 位源或 R787 的更深源，因为这里的数学来源身份已经固定。
 
-本地仅用已冻结的标准库 Range/ZIP/JSON/SHA 读取 manifest 与五件元数据，以及 σ∞ 证书、τ current 和 retained-inputs-receipt；两次小 IO 分别传输 27318878 和 8291994 字节，没有执行任何新数学，也没有下载整个 3.65 GB ZIP。完整恢复和后续算术由本公开仓库 Actions 执行。
+本地仅用已冻结的标准库 Range/ZIP/JSON/SHA 读取 manifest、run/core/input 三件元数据，以及 σ∞ 证书、τ current 和 retained-inputs-receipt；两次小 IO 分别传输 27318878 和 8291994 字节，没有执行任何新数学，也没有下载整个 3.65 GB ZIP。完整恢复和后续算术由本公开仓库 Actions 执行。
 
 继续完成原 τ 全多项式 Hermite/Bézout；只有它和上述 σ∞ 满秩同时满足 [R827 原证明](../results/R827-original-global-modular-surjectivity-and-derivative-termination.md) 的全部要求，才登记该充分导数终止层。当前主目标仍 OPEN。
