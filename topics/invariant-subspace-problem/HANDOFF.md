@@ -22,8 +22,8 @@
 
 ## 活跃实际执行与精确恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README；约20:14结束前增量或重建，不因时限停研究。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，前14步已actual完成，第15步∞完整常高核已入队，大数组只在本job临时。
-- 第12步P61实付34.995920669秒、1342796新原产品+668304第五复核；tmp infinity-small-original-projection-smith/temporary含Q完整state，旧第五tmp infinity-fifth-true-incoming-checkpoint保持。第13步高17实付4.196554438秒，5100×3762 rank3760，两真Q核10200产品真；完整β2,Q=1/第二14正式稿已核。二点父tmp two-one-true-q-second的592单位/X2/S2复用，第三actual5.484秒、593→594，β3=1/13头、Q谱长12、差模零已完整证明；子tmp two-one-complete-q-third。第15步∞完整常高核60秒/2GiB（外100），仅付5100×3762全块。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README；约20:14结束前增量或重建，不因时限停研究。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，前15步均actual完成；第六低系统准备中，大数组只在本job临时。
+- 第12步P61实付34.995920669秒、1342796新原产品+668304第五复核；tmp infinity-small-original-projection-smith/temporary含Q完整state，旧第五tmp infinity-fifth-true-incoming-checkpoint保持。第13步高17实付4.196554438秒，5100×3762 rank3760，两真Q核10200产品真；完整β2,Q=1/第二14正式稿已核。二点父tmp two-one-true-q-second的592单位/X2/S2复用，第三actual5.484秒、593→594，β3=1/13头、Q谱长12、差模零已完整证明；子tmp two-one-complete-q-third。第15步∞全高块实际3.976秒/rank3760，两真Q核10200产品及整行31单位全真；第六两个P退出方向仍须低式。
 - 全源码、参数、binding、SHA及旧恢复清单保本次H归档和各正式稿；旧43731615668/43731613530/43736746064/43702348535已结束，tmp不可假用。literature封二点并转下个有限子题，normal补∞P外第六，boundary接位置预算的实际逆；根管逐结论实际push与H/open/log。
 
 ## 原同w边界：已付测试运输，完整返回仍开
@@ -32,8 +32,9 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w/u_Q/future/负前缀
 
 - R=d,h=2d,Q=L0h²的carry及晚cut正交孔带已付；若实际同u合并负部≤c_mQ||F_mu||²且Σ1/c_m发散可迫w0，允许O(m logm)，仍未得。全E3的19/10坏下界仅排整个短核统一界，坏源未识别为W。
 - [同实际投影缺陷](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)：e=f−P_Vf,k=P_Kf,ζ=||e||+||k||，ζ²≤2||f−P_Uf||²，交换行≤ζ²/x、联合L/L*≤12ζ/x。全部暗矩≤r!(σ²a_x)^rζ²，σ4/5、a_x≤e^(2/(x+1))/x；全真旗共同求和只增4(r+1)²(2r+1)。真正最小投影合法4d≤Q≤exp((1601/64)d³)给||P_Uw−P_tail≤Q w||≤2e−6d⁴w，故全窗P_Uw→w及limsupζ≤√2||f−w||，未知速率不乘增长MP费。
-- [实际返回投影/逆伴随/全旗暗矩](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)：E=High+Zfull真闭且S(t)运输；e_n=P_EY，帽e=P_hatE Kamb^-* P_EY是真测试且保零源正交。全cut仅重叠ν≤h（h网格ν1）；两矩因子ν(r+1)²及νeC0²binom(r+2,2)²，均乘r!(σ²a_x)^rζ²。全旗另因子4(2r+1)、组合数分别binom(r+2,2)²/binom(r+3,3)²，不增h。Riordan专用R=ceil4expτ_m,h=d+R,C0固定独立m，不混R=d。原w/f运输误差≤ν√(1+C0⁴)||future u_w||||future u_f||，平均可消；额外q_h(-T0)*、低暗Green及顺次MP仍待付。
-- [全旗带宽](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)与[全阶暗对](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)保先旗后读暗数、平方根指数尾；不假设两投影对易。位置加权新定理见下，尚未当MP预算。
+- [实际返回投影/逆伴随/全旗暗矩](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)：真闭E=High+Zfull被S运输；e=P_EY及帽e=P_hatE Kamb^-*P_EY保零源正交。全cut只付重叠ν≤h，全真旗无额外h；同w/f主配对和窗口误差已付。Riordan专用R=ceil4expτ_m,h=d+R,C0固定，不混R=d；原低暗Green/顺次MP仍开。
+- [全旗带宽](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)保H真三带与全分析列；[全阶暗对](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)保先旗后暗数及平方根指数尾，不假设两投影对易。
 - 原热/预解平滑保D/C/cut/核旗、同u双边强趋I；全部热导数、跨旗尾、drift/闭域已付。仅primitive f的y=L*Tf∈kerD³由[原相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)，含额外F2；actual u/Tu受控同源表示仍开。L_U*u=−B*k零源反馈不倒置。
 - [同源位置加权/全真旗/排斥Hardy](results/R271-appendix-actual-position-weighted-exchange-full-flags-and-exclusion-hardy.md)令Epos=Σ(i+1)(i+2)||P_i^-u||²、Apos用真实primitive暗行，Δ²=||f−u||²、Qf=〈Ntail e,e〉+〈Ntail k,k〉≤QΔ²。单对缺陷积分给Epos≤4r_x Qf、Apos≤16r_x Qf；全真Fℓ后费4c²r_x^(2c−1)及4(c+1)²r_x^(2c−1)，c=2√3，无h。全Fock物理Gpos=2Epos≥Ntail/4由碰撞正项ground-state恒等及自然域闭合付；primitive行有真零模不套下界。合法窗limsup Q⁻¹〈Gposu_f,u_f〉≤8||f−w||²；完整MP/负部相对界仍开。
+- [原逆芽伴随与全旗位置运输](results/R271-appendix-actual-return-germ-adjoint-test-and-position-weighted-full-flag-transport.md)：真测试e^q=q_h(−T0)*e=P_E q_h(−Tamb)*P_EY保零源；d0=e^−20固定、A0<3d0/2。完整物理栈逐因子≤Q，投影不必保孔数。局部投影差与逆相似给ΣEpos(e)≤20νr_xQΔ²、e^q费(78+12r_x²)r_xA0²、帽q费(252+48r_x²)r_xC0²A0²，均乘νQΔ²；去常数换A1。全部真旗/primitive位置费及全暗矩已付、无h；真实divided-difference与Riordan混合配对保持。完整返回/顺次MP相对负部仍开。
 - G_reg同forcing/carry、Haar普通循环性、正常有限秩相容链及其余open保归档，未列不算关闭；只有普通ISP完整定理或反例才收尾。
