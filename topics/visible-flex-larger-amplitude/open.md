@@ -130,3 +130,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### Request167：第三次实际超限后的单份结论减重
 
 [167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)记录实际43736840046/source0b0cf5ce：全490组/14095 metadata成功，但去可选矩阵后单结论仍165947B，原failure2676B/b53fe15e。新source45f4e3cf/requestb242e3ff/wf7e74b26b依据原字段大小删除重复path_status、坐标、全projection与通用GN说明树；18原FD层及所有真失败、8原九gradient/真实路径direction-action-slope/末gradient、84完整原门/merit/三残差/理由均保。只一份≤90KB结论，不字典编码或拆大表；不增加科学重算，R350须待新的实际结果。R351/164不以此次搬运作为前置门。
+
+### R344：八批真实37模型后只加观察到的LEFT462
+
+[R344](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)核actual155 source0aa9dca2/run43726543241的8模型/FD、全部23trial/546语义成员及真父链。接受α[1/8,1/4,1/8,1/4,1/4,1,1/4,1/2]；末physical .0071041184748284756仍cell461/row155819。batch6最近α1/2与batch7最近α1原merit下降、37selected全有效，仅未选LEFT462 β²为−1.7827069382052452/−10.25057313338912。早期已选查询弯曲仍在，后段原QP stationarity/gap非严格最优证。末pair已删，171从actual98在同一job真重生37八批、保该次真实末pair，再增加LEFT462及interval/node462实际capture/B支持并构建38模型/FD；17档/全外变量/109核/原门不变。不能凭哈希续接、先定后继浮点词或自动加MID488。170的R354诊断独立后置，不阻171推进。

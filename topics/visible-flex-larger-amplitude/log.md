@@ -149,3 +149,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 16:52:06 UTC /root — 167单结论去重复字段
 
 核全32440B修订diff后发45f4e3cf/b242e3ff/7e74b26b；第三跑单结论165947B失败原记，删重复树保18FD层/8真实方向/84原trial，数值不重算、大表不传。另确认R351 helper已于69acabba提交。改.github对应workflow绑定，API核a9ec6c1419f44f81065e88d784522ad01412a08a双README未变，真pull保。
+
+## 2026-11-15 16:52:55 UTC /root — R344八批37模型实际结论
+
+全文核17227B/00e83681后即发：155八模型/FD全过、23trial/八接受，末两最近拒唯一LEFT462；未冒完整BVP或QP最优，原末pair清理范围明确。exact继续171同job真37→38及独立170。API核5f5a42364d0835b1a6da94354a3c5386da26aa6a双README未变，真pull保。
