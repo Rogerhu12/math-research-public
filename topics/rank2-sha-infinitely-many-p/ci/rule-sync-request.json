@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261115T2039-rule-pull",
-  "utc": "2026-11-15 20:39:44 UTC",
-  "last_rules_read": "636035847d0ec340629c2f2292070c98865ce2c4",
-  "reason": "Hourly actual git pull --rebase, compare both READMEs against the last checked commit, and audit current rule-15 inventory. Local exec retry still fails before creating a process; use the existing read-only public Actions checkout."
+  "request_id": "rank2-20261115T2120-rule-pull",
+  "utc": "2026-11-15 21:20:25 UTC",
+  "last_rules_read": "306e143530500db17a55f3172f2d65148c33bd56",
+  "reason": "Hourly actual git pull --rebase, compare both READMEs against the last checked commit, and audit rule-15 inventory. Use the existing read-only public Actions checkout; the local exec environment is still unavailable."
 }

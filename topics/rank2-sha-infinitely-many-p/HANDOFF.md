@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：2686e518eea0c1f061fcee8802ee26b9e9ad39da；2026-11-15 21:19:56 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
+- 最近已读规则提交：7434228ac45d410812b3beee5ac2ac5d506f1884；2026-11-15 21:20:26 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -14,7 +14,7 @@
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-r826.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿完整归档链保全部旧来源、常数、十九角/ray、run/hash、撤回及未闭门；压缩不撤限制。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–827已登记；R364/R561/R654/R712及主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep同R的mirror联合核与分歧/边界，theta四原[z^(p+1)]真实共同零，literature第四CM槽/companion与原canonical比较；完整证明成即单独推。
-实际pull20:40:00/run43759342390/job132950404527成功，head131193eb4，两README差异空，回执ci/rule-pull-20261115T204000.json；21:30前再pull。R818/run43757109911与R820/run43756861065全日志已核，源/args/SHA在原证，无复跑门。最近ref瞬时错误均立即尝试pull并新head非强制重推成功。
+21:20已提前请求下一实际pull，原21:30期限不变；回执待读。实际pull20:40:00/run43759342390/job132950404527成功，head131193eb4，两README差异空，回执ci/rule-pull-20261115T204000.json；21:30前再pull。R818/run43757109911与R820/run43756861065全日志已核，源/args/SHA在原证，无复跑门。最近ref瞬时错误均立即尝试pull并新head非强制重推成功。
 
 ## 第四原中央与实际四块
 
