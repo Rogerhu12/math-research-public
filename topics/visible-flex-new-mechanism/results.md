@@ -515,3 +515,10 @@ R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定
 ## 数值：首次准确物理转移通过，新优化前的数学度量哈希口径已修正
 
 [首run完整说明](notes/norm-memory-first-transfer-interface-result-20261115.md)记录run43740751558/job132893148520/source3821b425：十二新接口全过，159/163与原physical SHA通过，15.753480451s后在g metadata gate失败，尚无新优化、九旧优化0。原API区分整个metric描述与mathematical_definition SHA；首次代码误比较两层，现按原数学定义及其SHA双核，b0独立核，未变g/参数/预算。根README12下复用已经通过的十二人工，绑定110未改依赖和708B被测恢复函数；继续原未执行的新实际。原log95304B/SHA1139f0c7…，原dev12726B/SHAa49ab078…，全hash见说明。该结果不是物理g改变或算法不可行结论。
+
+
+## R334：四个真实正幅面积方向与不同齐次权支付完整第二面积
+
+[R334 完整建设性证明](results/R334-positive-dilations-pay-the-full-second-Gaussian-area-with-the-old-layer.md)使用R267原两斜率族，保持真实三矩、旧三面积、新I0/I1与third；不套其后来六能量根。两个不同α使(αβ,1)独立，真实正母宽的γ参数给Fκ两侧，从而四个正幅方向覆盖新I2的两个even目标。原E8及右锚全式给新面积I2按Λ−5、完整Ψ按Λ−7；四次幅Λ5保I2准确目标而把正Ψ成本降为Λ−2，取一个有限Λ保R331严格负储备。
+
+其后全72零强控制宏块支付剩Ψ，四个新块和带常项宽弱块均固定；同F★保原面积/quartic，两个even形/真实位置正锥在最终坐标的有限N清完整三directed。故同一个真实弱单hook rank-two圆具完整三阶、旧A−2−3及新A−1−3各三外矩全θ0、Ψ/三行/指定一层0。原过渡成本/全部尾/最终位置先于N保全。根核R267 §§3–5原式；未执行程序，不称全弱圆72条件或第四period/ruling全付。

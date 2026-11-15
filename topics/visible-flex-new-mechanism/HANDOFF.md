@@ -45,7 +45,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R304/306/311完整障碍**：同0<κ²<.01共振偶芽，完整面积/三个directed/E−3一层真C²余量给正系数×∫g″4。R304排全部不交实rank-one圆；R311固定包空间任意连续幅轨道也迫ci²=ai²且连通ci≡ai。R306保全mixed/Green/ordered尾推广至所有W=g′f″−f′g″=0重叠圆，双hook0⇔W0（含退化开段有限边界3/2幂不光滑证明）。原第三period只需单hook H(g;ff)=0⇔AfW0，不能强加第二hook；regular弱核被排，Af0曲开段仍是真rank-two入口。上述非主课题一般无解；原系数/假设留各证明。
 
-**R308–331弱hook通道**：Af0曲段真rank-two/单hook0，三矩八copy完整third。R319/320排同向/朝外，R325朝内付旧A−2−3三矩、三directed和指定原一层；R328新A−1−3 I0排全部无常项5/2曲段（K=−2J/5,J<0迫Ψ>0），该否定保留。**R331真实内部常项逃逸已付**：f=f0+cχ_R，c(L)由新面积精确解且O(L)；R=ηL远宽cutoff、三实际Vandermonde矩补包的quartic成本O(L−1)。原J/Jx/K保真，旧面积付后新I0全θ0，负Ψ−constL仍在。强正宏块/同F★/两even高频/12位置有限N联付Ψ、三directed和指定一层，完整third保持；通常新seed/g。R332保L/U真实平移增项，由旧三面积抵消，中心偶pair/12copy准确兼付新I1全θ；I2平移不变仍欠，R334续。
+**R308–334弱hook通道**：Af0曲段允许真实rank-two/单hook0，三矩八copy完整third。R319/320排同向/朝外；R328新面积排全部无常项5/2类（K=−2J/5,J<0迫Ψ>0），否定保留。R331真f0+cχ_R，c(L)=O(L)、R=ηL宽cutoff/三Vandermonde矩补包quartic成本O(L−1)，保原负Ψ−constL并付旧A−2−3三矩/新A−1−3 I0；R332原L/U平移/反射/12copy兼付I1。**R334新面积I2也全θ实付**：R267未锁能量根的两α与Fκ±四实际强模块正锥R²，原完整I2缩放Λ−5而Ψ缩放Λ−7；真实四次幅Λ5支付任意实际I2仅增正Ψ O(Λ−2)，留弱负储备。全72零强controller补Ψ，原F★保面积/quartic，有限N清完整三directed/指定一层。两完整面积/third同一最终圆真；通常新seed/g，不把controller72扩为弱圆全72。R337续第三新面积，其他全第四仍欠。
 
 **R312–330新端芽/同规范**：固定h=he(1+εσ²),κ≠0,ω常芽，真实安装/新seed。R324全19门在同实际圆有限N归We；R326八copy全E8 cubic三矩0、真实入矩阵X的wc=−XD清完整奇部/保平方初值，再全局第三Gram付We。指定完整端口ruling真零，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327当前解析最细包kerLf=每包u_i/平台χ_i+gap，gap对13门盲、平台真尾(0,−2A,2B)保；两特解后的13×2n兼容与降秩整除仍欠。**R330真实两退化flux已付**：最终同母两copy有Af0点p,r>0，原K值−8a³(a²−b²)r⁵/45非0；K/δK平移−10tK给准确2×2行列式。其−8/−7权保旧十self，再R297真谱投影8个T单位，同一20×20块三角实际wholepure+10self+整T+两flux0。先固定芽/profile/点，再R302全局几何联付；新m*的wc对flux0。逐包q、其余点/Ve、两period像、13同k及其它路径段仍欠；续R335真实整包flux，不冒fullmixed。
 
@@ -54,4 +54,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 45ef0b7681b403dbf9b1f2fd635b631c913862cf，双README blob同。API读取不冒实际pull。
+断连API复核main c30e7ea00a9ae06356409d5fdae289dfecf2210d，双README blob同。API读取不冒实际pull。

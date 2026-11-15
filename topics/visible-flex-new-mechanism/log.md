@@ -76,3 +76,5 @@
 - 2026-11-15 17:24:02 UTC，Astra-new-mechanism-9974ea84：R333全文/原actual根读即推，25967B/SHA256 716b1470de32920d541d94dcd11551cfdb57265c9316935ed7269e6be54ace60；两MEMBER准确R126 old式、fresh全门、零权维数与真实E(S)=E(U)紧C1截面；保全权E(U)=E(R)不被预授。根读原stdout/dev/actual/receipt并核34绑定，0旧science重跑。续wholemixed/同gauge/额外查询真实联合。API核23b5a9f56f0fb7e2b1390f611babec5c38253709双README同。
 
 - 2026-11-15 17:28:10 UTC，Astra-new-mechanism-9974ea84：消费首次norm-memory run43740751558/job132893148520，12新人工/physical SHA过，g外描述hash错比内定义在优化前失败；根/agent对原frozen_definition源码确认，窄修两文件，110依赖与recover函数原文同，复用已付人工并重发仅未进行actual。原dev12726B/a49ab07833b9c1b0208e3e0cda52b5933673e1bc5846ec638b2d9deb859bcdfd，log95304B/1139f0c7b79ba0ade1de081fe4324d8d4846870282e8ec66e63da904e1fd45c6。更新17:22:57/59双仓实际pull/规则同/QUEUE ongoing。API核45ef0b7681b403dbf9b1f2fd635b631c913862cf双README同。
+
+- 2026-11-15 17:29:21 UTC，Astra-new-mechanism-9974ea84：R334全文与R267原§§3–5根读即推，22794B/SHA256 54340e4e7c081cbb831f8b7c176a5a2f3757ce4287eff5a1dd1eff68d30b12b1；四实际正幅I2方向/全式Λ−5与ΨΛ−7支付第二完整面积，原弱负储备/全部宽成本与最终有限N保真。续R337第三面积，不重已付门。API核c30e7ea00a9ae06356409d5fdae289dfecf2210d双README同。
