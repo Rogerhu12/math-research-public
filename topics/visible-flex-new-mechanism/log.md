@@ -325,3 +325,5 @@ root提出当前外点Q2错误奇偶缺口，tail完成全证明，root全文核
 tail完成、root已全文核读的R169直接登记。真实k=Kh^p及ω积分含p=0/1，交叉项准确IBP；q=2p−2的加权平方给inf X/Y=q²/9，q0用振幅，非零q转已付R148有限flat锐利序列。显式Ω与Gramζ恒等、L²逼近和有限K/time顺序完整，不加重复机械门。
 
 02:36:57 UTC实际public pull到78ed27a89bac323c03a6e9a1ec331fdaf0ddf07c，两README blob不变，已记H；两新actual已完成，几何零接纳而联合必要锥仍有精确外点。仅读取原公开gzip，未重新研究计算。
+
+- 2026-11-15 02:38:59 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交d6c1cb1ecf314cc1d6131e2650e71dd321a212da记录于H；继续推送同一完整结论，无force。
