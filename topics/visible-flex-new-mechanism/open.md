@@ -125,3 +125,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R327/R330：把已付端口后的同规范联合门落实到实际列
 
 [R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。下一R330评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
+
+
+### R328/R331：新面积阻断无常项弱幂类，继续真实offset通道
+
+[R328](results/R328-another-complete-Gaussian-area-excludes-homogeneous-weak-power-packets.md)保原Pff尾得完整AL=K−C/3、AU=−4J−7C/3。对所有无常项左右5/2曲段+实际rank-one补块，π/2全K=−2J/5、J<0，与朝向/反射侧无关；新A−1−3 I0=0迫旧完整Ψ=ND4/(24P)−36tJ/[5(7+81t)]>0。R325已列门仍真，正因此它的新面积必非零，不得继续只调该被排类频率。未排的是内部常项Cν，其真实ΔK=−15ACν/32∫|x−b|^−3/2g″²；R331须把其实际cutoff、矩回补、两面积、Ψ和三directed同一profile联付，不能把一个局部可调号当整体可行。

@@ -60,3 +60,5 @@
 - 2026-11-15 16:59:50 UTC，Astra-new-mechanism-9974ea84：R323完整原式根读后即推，25609B/SHA256 427d4050ab041590d9d7a441b6a17eb3d23b85951f64ed393adde9cb59163555；八完整self列/真实Z尾/手消元及联合闭锥，wholepure+10负权坐标真实控制已付，续C4/C6不重旧门。§7根改为E(U)上的有限评价论证。observer43738200372/job132885371486已消费：426原JSON记录扫描、row_indices等原字段0，exact终态有而完整pool/reference无；16:55:58.902537Z实际pull到bd8ac644ff1baa6895333890433c49a4c36ccb0f、双README无差。API核d55f1ca112bdbd1f4551ac7a31c81d1b3e178f22双README同。
 
 - 2026-11-15 17:01:09 UTC，Astra-new-mechanism-9974ea84：R327根读完整数学及来源小改即推，18792B/SHA256 42c43ab114298dc8b5f560f9241437a55a2b69be72591ef516947aa6d78a084a。沿用R221一般核，新增当前解析包核验及全部13行两类真列，保平台/间隙差异、相位rank降与种子。续实际period门值不再停抽象iff。API核99aff368dbb5b436fad4790e075edf0ccec14e74双README同。
+
+- 2026-11-15 17:02:58 UTC，Astra-new-mechanism-9974ea84：R328完整L/U面积、左右幂K/J比及全一层严格否定根读即推，9760B/SHA256 e8a22efec005ada9f27e8a07a32eb24d77396545ddea3466836fba90041f914c。R325已列门成立但新面积必失败；下一真实offset/cutoff联合构造，不重被排类。API核e7c6d4ce1f6586981b54e36c1847cd45fdbb1cb9双README同。
