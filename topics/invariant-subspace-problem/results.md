@@ -217,3 +217,5 @@
 - [R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)：实际17条原自然λ0…λ3，全296072整数产品真/max5460bit；完整21右端模旧166残差的余rank4，法≤4范围恰17，完整第三头21维不变。保全部列比例及Eold/Enew，第四受限域17与known W13/full W15缺2分别记账，未预填第四秩。
 
 - [R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)：原真正顶部误差对允许Q一致，β独立于Q；一个固定Q=L0h²上的同u线性合并负部预算已足，C Q²/x²亦足。纯转换可取R=d，另需h²/Q→0时有同w慢对角选择；完整负部估计仍是未付假设，不称N=M。
+
+- [R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)：实际原17条R4共74018坐标，同29×75配对rank7/旧6，完整核投影16；给完整β4∈[3,5]及16真第四头存在。∞130/125/125配K104得q8423…8536、条件8580/8585/172，统一8585；未构造λ4或证明原成员性。

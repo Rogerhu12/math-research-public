@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "4bdd66450010492d5e673c307dfc227ec0735ace",
+  "rulesReadAtCommit": "e71a6d93f0e9579bf5cd78f0a49a88243329aeb3",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1657,6 +1657,79 @@
       ],
       "timeoutSeconds": 150,
       "receiptPath": "{work}/same-source-koszul29-fourth-on17-pairing/same-source-koszul29-fourth-on17-pairing-receipt.json"
+    },
+    {
+      "id": "zero-complete-fourth-full-incoming",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-complete-fourth-full-incoming-789f.py",
+      "scriptSHA256": "18e21310a161b3fca3b61df8d263e549e1230a4c8ef90c971c8c4b00082c0642",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+          "sha256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+          "sha256": "b46ca6a4fc594b53687d692986229edc97ca770e21ac6332703eaf998c9e0b67"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-complete-third-reused-full-high-789f.py",
+          "sha256": "180b7f6c3a4d3c9ff560b9f9e4a590af04d00996abcba75cfeb35c1778272156"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+          "sha256": "4e63c72c550e8f90c022b086d3758f8e7b12edf4fb16a0ef387bc1a92f97366a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-complete-third-reused-full-high.json",
+          "sha256": "a9c26663f6761fd68f911f6fe506410dd13efcf5ce440191f1a03c4bdcf8d7b6"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--reused-driver",
+        "{scripts}/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+        "--complete-third-driver",
+        "{scripts}/2026-11-15-r150-zero-complete-third-reused-full-high-789f.py",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+        "--third-receipt",
+        "{scripts}/43702348535-zero-complete-third-reused-full-high.json",
+        "--third-receipt-sha256",
+        "a9c26663f6761fd68f911f6fe506410dd13efcf5ce440191f1a03c4bdcf8d7b6",
+        "--third-checkpoint-dir",
+        "{work}/zero-complete-third-full-high-checkpoint",
+        "--checkpoint-dir",
+        "{work}/zero-complete-fourth-full-incoming-checkpoint",
+        "--out",
+        "{work}/zero-complete-fourth-full-incoming-receipt.json",
+        "--through",
+        "final",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--unit-algorithm",
+        "dixon",
+        "--unit-batch-columns",
+        "1",
+        "--max-new-unit-groups",
+        "64"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/zero-complete-fourth-full-incoming-receipt.json"
     }
   ]
 }
