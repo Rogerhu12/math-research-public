@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 1c78995f9996ee2eac0909fed54b213af9c0eeff（2026-11-15 08:34:47 UTC，Actions run43695159484实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43695159484-1.json。
+- **最近成功实际 pull 与已读规则提交：** 1e5ac783ec374d5188fdb47ef7f6338ade11f99f（2026-11-15 08:34:59 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
