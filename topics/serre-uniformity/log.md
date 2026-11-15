@@ -514,3 +514,8 @@
 - R800原M2必要尾方法与完整工程已审并启用：146原行只新增q129..195，E1除数和和二积相乘前限制新区间，126迹/40det原相位/6724尺度/40ξ与20t保持。旧0..128、种子前缀和普通幂不重算。
 - root写核心并完整核wrapper/来源，exact_height全文交叉核原R786算式、范围、迹重数和原反演；既有329输入文件SHA/schema及wrapper选择通过。全为纸面/IO/AST，新数学仅公开Actions。
 - core417dd598、method5d1d299e、wrapper2783ff56冻结；新系数/完成证书待真实结果，R799/R797/R787继续，R801后继只延实际依赖闭包，主目标OPEN。
+
+## 2026-11-15 17:03 Asia/Taipei · serre-public-astra-20261115
+- 完整登记原cosigma降阶及闭合边界：半周期常数/移位、degree3截面、三条Hirota式与rank4核均纸面证成；x²σ⁶整行列消失，总阶p−6恰旧9F∧G，未筛全零精确等价。root逐式核，笔记825cbbbd，无新数学运行或primitive非零结论。
+- 08:56 UTC环境失联，原本地commit99f81855未推成；从根缓存逐字恢复原8651字节并核原SHA。按根§8仅小文本API提交，旧H逐字归档；R801/R802纯文本亦已保全，非未推本地分支。
+- API核53ecc1a270bf01ea98f33c6f1eb712c4c9b75d7a两README未变；最近实际pull仍08:46，未将GET冒作pull。R799/R800公开success待原输出IO回执；R787/R797继续，真正高度与主目标OPEN。
