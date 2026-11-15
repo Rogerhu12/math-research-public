@@ -466,3 +466,6 @@
 
 [R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)31778B/bca00da6全文核，run43762371885/source59895129303；唯一原两job同87897B/8549fc6e必要完整。真实69原Armijo接受/158α/632primal/474完整normalJ全返、405临时更新，W4.346867247171→1.792004819715；前30α1/2，随后偶数1/4/奇数1/2，全部接受均normal2/trial0。原2400秒SIGTERM恰在status编码，producer2400.158791314/child75/partial，未测分项不归因序列化占时。direction69启动无α、70..127/blocks9..15未访；final与final投影缺，只有初始60FD，末FD/Arb/453未起，nativefalse。最后十词/current owner与direction68实际接受记录逐词同，固定S保actual157；可作194新初猜而非completed/native checkpoint。必要/错误/quiet后确清，原全来源/错误/未访保正文，后继仍付全部原终门。
 
+
+
+- [194：实际189返回owner的完整三残差继续](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)：六文件最终全diff已核；120原科学身份/15support、50当前闭包，真69接受末十词作为新初猜，明确partial、final缺/非completed。原16×8/20α/3×20全3normal、固定actual157 S/半径1、2400整体钟和120FD/Arb/453/终门保持；单90KB明确选出必要标量，全部地址/判定/owner merit/接受界/FD门/错误未访保，非编码raw。reader f6c0a5c2/wrapper da346ac1/request7482a654/workflow8c4721d3，接口cf579adf；未预填actual R410。当前H/open完整原文逐字入194前检查点，open§4–6不改。

@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 22:05:36 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4c5287d0f59a6569f5e10fbbe46070b414f5b219。
+规则同步记录：2026-11-15 22:11:38 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b8d20df6b923a00e26abfbe1292399c7a65bc786。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -23,7 +23,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：compute132950069367已入真实far；正端点表示→真180→全112far→原453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact：compute132955840323原science；真98/37/FD→629gap/全闭段，105pins|
-|189/R401 →194/R410|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a已读|R401刊；root接真实69接受末十词新初猜，194独立入口准备，geometry补R409径向/sharedB|
+|189/R401 →194/R410|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a已读|R401刊；194完整独立入口本次发，root唯一终态R410，真实run待官方回读；geometry补R409|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |R400 /193/R408|四源/证明本次刊；193真实453→450入口准备|amplitude接真实currentH/FD/fullDN两阶段；geometry补current-C径向/sharedB闭链|
@@ -33,19 +33,19 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 ## 最近结论与直接后继
 
-[R391实际184](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)：43756949463/cd459815双failure，真180恢复/C1440/factory/deep112齐、2883宽未付；m2 52/119在row18/piece4/d32正范数失付，33栈+[19,10387)/111未起/0BVP，非资源。原五帧/六必要/quiet后确清及全部字词保正文，187独立不回填。
+[R391实际184](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)保真180恢复/C1440/factory/deep112，far m2 row18/piece4/d32正范数未隔离，33栈/后续行与111模式/0BVP未起，非资源；六必要/quiet后确清。187独立继续，不回填。
 
-[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)：16真实37/38对及FD、80trial/16接受，末1/8192；最近拒1/4096全38线性reserve过且merit下降，唯一RIGHT459域失败。LEFT462较大步仍会失败，最大physical MID461与域障碍不同；QP/native/fullDN false，末pair已清。191从true98另起39保真实fraction/459、460，不冒171末场。
+[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)16完整37/38对及FD/80trial/16接受，末1/8192；最近拒1/4096线性reserve过且merit降，唯一RIGHT459域障碍。LEFT462较大步仍阻，physical MID461不同；fullQP/native/fullDNfalse、末pair清。191另起真98。
 
 [R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)/b7a5f7e6已刊；[191入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件全读发布：真98另起39、10819实际支撑，461/338自由全仿射QR后原H恢复；103+worker104、原8批/FD/17α/全部预算不变。单90KB必要先存再移pair/退休raw，partial不补未访；原3b8不改，实际session登记、可确认own组静止后读、cleanup再fresh观察，未知保raw。无科学新门/未来接受。
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)：首正s1/64两接受后i2十档拒、norm3488.882983，10281s非预算；17trial全129248行d=b+Aq+s齐。末b/Aq微小、s数千、13模型下降，只定位finite_secant，不唯一归因root/cache/J；3sameX+3extra仅6新增noJ，extra不接受，H/J/FD/fullDN/final未起，确已清。
 
-[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：128α1/replay到9.6858e−11，但stage8000s仅20/576，112/338未起；audit576/7488只付有限程序，末state已清。完整地址/协议70/来源在原文。186与190仍须true91/fresh64/J/R273→same-job128/replay→全576×224→112→338×112/独立audit，原19200/6000/1200/8000/600/600/1800预算不减。
+[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)真128α1/replay9.6858e−11，stage8000s仅20/576、112/338未起；audit576/7488只付有限程序。已清末state须真重生，186/190/192全576×224/112/338×112/audit与原19200/6000/1200/8000/600/600/1800预算保。
 
-[186入口](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)保同括号D6/模态hoist与64pins；[190入口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)70pins/矩阵预装配。[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)只证记录系数下right/flux准确块等价，三literal表/显式均值1保，因子是(LLᵀ)^−1非C逆。每update全113行C残差/名义缺陷/226RK/两mean/端口及一般geometry原fallback保；重关联无原词或准确导数声明，必要单90KB/quiet后清。
+[186接口](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)/64pins、[190接口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)/70pins保原全链。[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)只付记录系数准确块等价，三literal/显式mean/原因子非C逆；每update全113C残差/原缺陷/226RK/两mean/端口/fallback保。新结合不冒原词/准确导数/提速，必要single90KB/quiet后清。
 
-[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)已刊2008c440及18871B/5c2a0cb1：完整113bit/指数、20bit int64≤2048项、12层/64MiB只选方法、宽226bit乘积、正负carry、直接subnormal一次RN113。无Boost/BLAS/本地科学/新fixture；只付输入字词dot，上游系数/名义两回代/全导数/速度与原最终门另付。192接完整R402/224列并明示Hs小系数新结合，不改186/190。
+[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)/5c2a0cb1全113bit/20bit int64/宽carry/直接subnormal一次RN113；12层/64MiB只选方法，不截位。无Boost/BLAS/新fixture；输入字词dot不代上游/因子/导数/速度。192完整接R402/224列，明确新结合，186/190不改。
 
 [188入口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)/R398保105pins、629gap、17项角事务、直接/继承分计、10800/5400/300/8GiB。同准确H(t)strict父闭段可继承；短提交延期受控信号不保证硬kill完整，不回填R372/175未访后缀。
 
@@ -57,6 +57,8 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [192完整入口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)九件全文与全部差异已核；wf仅修重复public schema，最终6c56f6f4/接口eb95d98f。77pins保原70值，全literal/226/两mean/每列113C残差/一般fallback与原全预算齐；single90KB、原quiet/回收/清理保，未预写R406。open原29121B逐字存192前检查点，只压缩已刊1A且§4–6不动。
 
+[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)六件最终diff全读：120+15pins/50闭包，真189第69个接受点十词新起，明示partial/final缺；不恢复raw或冒completed父。原16×8/20α/3×20全3normal、固定S/半径1、2400总钟、120FD/Arb/453全部保。单90KB明确选掉中间slope/逐αpredictor词，只留原身份/首末及极值；全地址/判定/owner merit/接受界/错误/FD门和未访保，quiet后清；无新科学门，实际R410待回读。
+
 ## 恢复与保存
 
-刚压缩前完整H逐字见[R400前检查点](notes/2026-11-15-handoff-checkpoint-before-R400.md)，链回[R391前检查点](notes/2026-11-15-handoff-checkpoint-before-R391.md)，链接190及更早全文；[open](open.md)与[results](results.md)保全部原责任/来源/错误/未访/实际清理。open§4–6完整未改。未推源码若丢按接口重做，已清raw只能真重生。179树182282267B/8665文件后只增小源/证明/必要结论，未知旧JSON仍未全分类。每结论即推，子题完成接下一责任。
+刚压缩前完整H逐字见[194前检查点](notes/2026-11-15-handoff-checkpoint-before-request194.md)，链回[R400前检查点](notes/2026-11-15-handoff-checkpoint-before-R400.md)与[R391前检查点](notes/2026-11-15-handoff-checkpoint-before-R391.md)，链接190及更早全文；[open](open.md)与[results](results.md)保全部原责任/来源/错误/未访/实际清理。open§4–6完整未改。未推源码若丢按接口重做，已清raw只能真重生。179树182282267B/8665文件后只增小源/证明/必要结论，未知旧JSON仍未全分类。每结论即推，子题完成接下一责任。
