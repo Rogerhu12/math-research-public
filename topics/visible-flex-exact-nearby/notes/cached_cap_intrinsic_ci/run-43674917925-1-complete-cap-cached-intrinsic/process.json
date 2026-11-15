@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_cached_complete_cap_intrinsic_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43674917925",
   "run_attempt": "1",
@@ -60,6 +60,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T04:02:14.082719+00:00",
+      "before": "807a2f223abe36002ced38edeecfe3b3eb5a0aac",
+      "after": "69d9ce86c573a5b2e4262f1336432c52bee96c81",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -67,6 +75,11 @@
       "time": "2026-11-15T04:02:06.955799+00:00",
       "final": false,
       "commit": "807a2f223abe36002ced38edeecfe3b3eb5a0aac"
+    },
+    {
+      "time": "2026-11-15T04:02:13.796275+00:00",
+      "final": false,
+      "commit": "69d9ce86c573a5b2e4262f1336432c52bee96c81"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -93,16 +106,22 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "807a2f223abe36002ced38edeecfe3b3eb5a0aac",
+  "last_read_commit": "69d9ce86c573a5b2e4262f1336432c52bee96c81",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cached-cap-intrinsic-work/science",
-  "snapshot_utc": "2026-11-15T04:02:12.251416+00:00",
-  "wall_seconds": 7.226876764000004,
+  "snapshot_utc": "2026-11-15T04:02:14.104950+00:00",
+  "wall_seconds": 9.080412459000001,
   "native_files": [
     {
       "logical_file": "evidence/actual-latest-cap-intrinsic-summary.json",
       "file": "evidence/actual-latest-cap-intrinsic-summary.json",
       "bytes": 5216,
       "sha256": "7ca3e8adfad4a0f99acb85f257ea4220611f81d6b80b0d9608940abe1b4cc410"
+    },
+    {
+      "logical_file": "evidence/complete-cap-intrinsic-summary.json",
+      "file": "evidence/complete-cap-intrinsic-summary.json",
+      "bytes": 5275,
+      "sha256": "7a08e94850d66de1d9dba184df205a5a288436fbb0cc005edaa462261976a17f"
     },
     {
       "logical_file": "evidence/original-four-part-native-restoration.json",
@@ -118,5 +137,10 @@
     }
   ],
   "actual_completed_cap_rows": 1346,
-  "latest_scientific_native_sha256": "145d6e558f8348bf2b29febc8700aa43cba2a507b3ba2d7fc7da5ea1db22cd2d"
+  "latest_scientific_native_sha256": "145d6e558f8348bf2b29febc8700aa43cba2a507b3ba2d7fc7da5ea1db22cd2d",
+  "complete_native_sha256": "145d6e558f8348bf2b29febc8700aa43cba2a507b3ba2d7fc7da5ea1db22cd2d",
+  "actual_scientific_gates": 9,
+  "actual_new_cap_rows_this_child": 1346,
+  "original_complete_success_reused_without_child": false,
+  "finished_utc": "2026-11-15T04:02:13.813199+00:00"
 }
