@@ -82,7 +82,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [ST](results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md)b15c1630/[STA](results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md)9d142bef/43757644616/25成功锁；113球/SCI/preGit/269row/538指数全域保fcbec5f18b016dc88433063d6f8400b2fb4f1a98同open/H/proof，SP整曲率费不重。G−≈36.73318/G+≈45.02650，L2dr H−1→腰≈148.10572，四同case强和≈2.85705e20；只原density/s0与true[0,P22]，mean/finite/一次normalizer/jump保。
 
-[AW完整P22锚定比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)694b3647全式/原域/三ball保148ac7ee614bdf839691285f6a1eea0d6ec8ddd6同open/H/proof。真positive列与free锚定齐次到腰的差H−4/3→primitive L2pair+两mean≤C_PC+C_ST,4，仅符号和；两行cut连续、PC§9 restriction/zeroextension、root e+−PFh/非零stable/β/两sign两wave/四同caseRR及独立PW七ports/mean/finite保。只difference延拓，非各trial/stable强界。实际waist receiver与完整incoming/Schur/R0仍待，TC不移腰。
+[AW](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)694b3647原全域/球/端口保cf5f919905206521eec83635da5d9f5621ae6d36同open/proof。仅同P22真positive列减free锚定continuation的强差≤C_PC+C_ST,4；PC§9、非零stable/root−PFh/β/两sign两wave/完整mean/finite/PW全保，非各trial强界。
 
 [FA](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d/[FAA实际](results/R133-supplement-actual-free-Airy-first-omitted-strict-cut-scalars.md)cfc6acd4：43763658978/24成功锁，20pins/5AST/完整SCI/preGit/68球保proof。完整J/六mean/两I尾、all-real Airy、n^-2强误差与FS/RN/finite/UΦ负窗均付，TNforward及Bc ng逆各一次。首门3失败43762821220/FAF823cbd3c的新/旧/lost0及最小O.2+render修保原proof。strict整段/waist/Ei/Eo/incoming/Schur/R0待。
 
@@ -91,6 +91,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 [WX](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)c5157bbb/[WXA](results/R133-supplement-actual-complete-true-waist-coordinates-and-shorter-flows.md)f5554084：43763424840/20成功锁；16pins/4AST/55字段/82球/两旧对象/SCI/preGit保proof。任意短段双向M/F/G、真waist两窗/同逆/mean、selectedH/S原序/三组primitive两rank、leading双向均付。ng端比/SF积分/normalizer/全incoming/Schur/R0独立，旧ray/指数禁重。
 
 [SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：全Gy/T1T2/F0–2/actual T_J差FJ/−Z_y均值；FA corrected除ng一次、cuterror乘sameT forward L2一次，ST literal√q给真L1dr primitive+两mean和无长度jump。SF44/45只difference，S连续而Z可跳；Q径二阶/K三阶/new norms/dr积分/Z jumps及waist/Ei/Eo/incoming/Schur/R0仍待。
+
+[WY四腰有序装配](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135：同Js左逆→Jσ→真U_X逆，root Λ右置；cut两I/two ranks/腰P rank全保，state只BH左费，Λ^-1 T_F^-1 S^-1不交换。FA exact quotient两ε同real，经SF/CT接IC/LN同系数。两physical mean/P97/finite/PW均保；Λ逆/TF/三窗/SF完整积分与全incoming/Schur/R0仍待。
 
 [WT真实腰部](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8与[实际WTA](results/R133-supplement-actual-right-waist-normalizer-and-complete-two-window-inverse.md)f90ba8a1：43763134339/1 child0/20锁，26pins/10AST/SCI/preGit/42球保。真右腰D7/6/19/83，背景α一次、raw response完整mean/repair径导0，SP m/q/ng→S/S2；J97/268435456/另512各4/4，同逆双窗。finite≤J+191/fullT差≤J+575及mean保；非interval/incoming/Schur/PDE。
 
@@ -113,9 +115,9 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [VR同态值/差吸收](results/R133-supplement-selected-value-and-difference-absorption-with-complete-cap-and-collar-inputs.md)ef856b83全部矩阵/域/费用/NG左右whole row保7794d473同open/H/proof。实际f_h的uniform SC affine只付一次height；known可tail而未知割线用CPA fullcase。NF λv+真实先验T给B/C 2×2正矩阵严格diagonal/det门，NG完整NC或BD row不能entrymin；VR22仍9.5e−12，T不由待证W循环给。差另用λd/一次√2/height/waist/jumps，非NG值→差。root NF/SR/NGA与双peer核，无core存在。
 
-[RF](results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md)c4723121/[CRA实际](results/R133-supplement-actual-complete-core-residual-restriction-and-selected-ordinary-source.md)ffa5acbd：43757468943/18成功锁；全SCI/preGit/源链/原域逐字保148ac7ee614bdf839691285f6a1eea0d6ec8ddd6同open/H/proof。7296内5956真交[0,.9]，全even mean/α一次/Qrepair/WL后known full<4.848889e−8、low另球。Z7721全low/high+rawmean+五repair、不重384EZ；同D二次费及globalfallback保。未知cap/waist/nonlinear/高body/cut/wholeH1/γ/truecore/matching待，成功禁重。
+[RF](results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md)c4723121/[CRA](results/R133-supplement-actual-complete-core-residual-restriction-and-selected-ordinary-source.md)ffa5acbd/43757468943/18锁。原全scope/SCI/球保cf5f919905206521eec83635da5d9f5621ae6d36同open及proof：5956真[0,.9]、全mean/α/Qrepair/WL、known<4.848889e−8/low另球；完整Z/repair/D/globalfallback保。unknown core/高/γ/matching仍待。
 
-[RH频带](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73/[HSA实际](results/R133-supplement-actual-known-core-high-sources-and-negative-one-inputs.md)b176bfb1/43759656502/18成功锁；全部HS合同/参数/球/SCI/preGit保fcbec5f18b016dc88433063d6f8400b2fb4f1a98同open/H/proof。固定νδ state cubic，moving support96/160/288，d1e−10三ordinary≈3.31747e−16/2.16220e−16/6.43897e−26、H288=0；负一阶三界≈8.55015e−19/3.35744e−19/7.15440e−29。SH/Ed/mean/repair原字、wholecandidate保，只ST[0,rc]forcing限制无额外length/gain；unknown/phase H−4/3/γ/全逆待。
+[RH](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73/[HSA](results/R133-supplement-actual-known-core-high-sources-and-negative-one-inputs.md)b176bfb1/43759656502/18锁。原全scope/SCI/球保cf5f919905206521eec83635da5d9f5621ae6d36同open/proof：d1e−10 known96/160/288，三ordinary/4j负一阶已付、>288=0；SH/Ed/mean/repair/wholecandidate与同ST forcing保，无额外length/gain。unknown/phase/γ/全逆待。
 
 [SA完整有符号仿射接收](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba原全式/域保7794d473同open/H/proof。Hessian准确消去仅formalGram，全97/mean/outer/jump、selected左端与缺陷关联费用都保；SA29–31用known左端减Δ而body/outer仍原y，非global recenter。旧QR/7908成功禁重。
 
