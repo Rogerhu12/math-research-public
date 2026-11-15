@@ -49,3 +49,7 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 
 - 2026-11-15 22:12:14 UTC fresh main逐件核九报告path/blob/bytes后普通删504341B；先推名单1b09dba7、restore4c5287d0同path，原完整内容可逐字恢复。
 - 仅九JSON出Git当前树；所有native/候选/NPZ/manifest/source/失败/proof和active输入保，无history改写、无数学重算；fdd59fa7c098559266ffc5871e769336f9e9d6f4两README空diff，继续SJ部署。
+
+- 2026-11-15 22:12:36 UTC 部署SJ完整新标量：SCIdfcf40ab/worker99394e09/manifest31602b83/flow193206b2；root完整审新source与worker差异，48pins、参数、8AST清单和跨文件SHA静态闭合，数学仅公开Actions。
+- 18原parts/3322旧行临时恢复，限制3071真cut行；新Markov/全δ K3/源积分/3070无length跳量，旧成功target/ray/profile/预算禁重；完整结果先原子保存再发布两小件，120KB reserve。
+- 九报告已守名单普通删c880c56f；5000baf310f76eae383660e514cba95a392930de两README空diff。唯一push run待识别，当前不冒数学成功，继续CG及四receiver。
