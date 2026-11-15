@@ -8,7 +8,9 @@
 
 私有2026-11-15 12:17:58 UTC实际pull/read `70baf7b9177f56569815dff58cb633a65fe52782`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
 
-真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`；已恢复终端Git，不再使用失联小UTF8写入例外。
+真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`，12:24再次断连；暂按根8仅原生小UTF8，恢复即补实际pull。
+
+原生API规则读取：2026-11-15 12:27:54 UTC、`20735d672ef7fb51433effd55e82a7639e2df505`（非git pull），双README无变。
 
 ## 2. 完成门
 
@@ -22,7 +24,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual已消费**：43701558227/ef8c1cdb/job132773631115，完整来源/门/费用见原actual。η.266520536442→.266491207122，8主/1SOC、8接纳、20+2值、活动120.313/总896.907秒；m6仅fine曲率拒绝被SOC修回仍减B。原双网/九准确盒/外域jets/g/b0全保，但未.26/1e−4，κ≈58仍欠reach。
 
-**SOC诊断实际已归档**：[完整note](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)，43707849695/f9d8da4e/job132792751708八新检查全过；原159初始化fine union超4096，旧fine4049/coarse4421；0LP/0J/0活动秒、2共享+2最终值，hold未调用。两网原门过/初末η.266488961847同态，非持径阴性。总813.7947秒/RSS3147068KiB为全prefix费用；旧43705209195内部原因仍未知。新容量C+B保旧行/旧余槽，第6明确新输入生产、hold另一次预留；新lane首跑43711688885/e38604f6在首个数组fixture因非uniform角网拒绝；真实prefix/hold均0。六行fixture修复已核，run43712266529/a934b45c正执行未完成18检查及首次真实阶段，生产/预算不改。
+**SOC诊断实际已归档**：[完整note](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)，43707849695/f9d8da4e/job132792751708八新检查全过；原159初始化fine union超4096，旧fine4049/coarse4421；0LP/0J/0活动秒、2共享+2最终值，hold未调用。两网原门过/初末η.266488961847同态，非持径阴性。总813.7947秒/RSS3147068KiB为全prefix费用；旧43705209195内部原因仍未知。新容量C+B保旧行/旧余槽，第6明确新输入生产、hold另一次预留；新lane首跑43711688885/e38604f6在首个数组fixture因非uniform角网拒绝；真实prefix/hold均0。六行fixture修复已核，run43712266529/a934b45c已完成18新检查和两新阶段，原ID/余槽全保，末η.26644396548813643；最后SOC持B触发而下一模型未运行，完整实际正整理。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -62,9 +64,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R246八平台接口**：11维模上8F+8E单射；八E/前三F定唯一P，余五F+八D为13独立iff，e-flux另验。本模period核0不冒全R0障碍。
 
-**R247–258第三核/局部源**：R254真dimΔW18/Z7110/Z18，Z=H7⊕J3⊕χ8。R255完整B=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)保第二history。R258整个Z71为K=−J³Af，Af局部四阶自伴/杀f；δ递推含seed导数，三右常数及左二次尾全保。整profile逐包比例类Kfg0/整包flux0；仅解析无内常平台类付全部活动总flux，不能套旧step。平台/Laurent/平端/同w仍欠。全Rp0=(R71∩kerπ)+B(E,χ8)不可删首项；新run43712266529首验八χ完整K/D³/局部/自伴，旧Δ/forcing不重，80/144非rank。
+**R254/255/258/261全第三核**：Z=H7⊕J3⊕χ8、dim18。R261实际43712266529/a934b45c/job132806237299八新人工过，八D³K全局部四阶/自伴，fresh原差全零；5条raw差非字面零。故全Z有K=−J³Af、Af f0，右三常数/左二次尾保，通用f表示忠实18维非固定圆rank。新科学.21736秒/28.55MiB，53来源匹配，旧Δ/forcing/第四0重做。完整B=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)保第二history；逐包比例类Kfg0/整包flux0。平台/Laurent/平端/同w欠，全Rp0=(R71∩kerπ)+B(E,χ8)不可删首项。
 
-**R260真活动flux**：十维K目标的F_ell=[fG″−B_A(f,w)]_ell^x，准确Green边界式保step非零常端和右尾；两个mixed仍保ζ历史/E÷2。只改通量接口，不授平台/Laurent/平端/ruling，八χ结构仍待首验。
+**R260真活动flux**：十维K目标的F_ell=[fG″−B_A(f,w)]_ell^x，准确Green边界式保step非零常端和右尾；两个mixed仍保ζ历史/E÷2。R261已准许全Z使用此接口，其余平台/Laurent/平端/ruling仍欠。
 
 ## 6. 保留边界
 

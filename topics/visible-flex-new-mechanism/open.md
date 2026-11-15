@@ -70,7 +70,7 @@ R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消�
 
 [R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)给本11维模完整八平台接口：8F+8E单射，原余1维必在另一e平台露出；八E差插值、C(D)^−1 I³R和前三F给唯一P，其余五F+八D为13独立iff关系，额外e-flux另验。本模不能继续任调，也不把这些关系冒全R0障碍。
 
-[R247](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)/[R254](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)/[R255](results/R255-explicit-third-diagonal-kernel-and-complete-hook-response-formula.md)已付全核Z=H7⊕J3⊕χ8与两mixed完整K公式；旧Δ/秩/原根不重。[R258](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)纸证整个10维Z71的Kfτ=−J³Afτ，Afτ是明确局部自伴四阶、Afτf0，δ递推含seed导数并保右三常数/各平台二次尾。整profile不交逐包比例类全Kfτ(g)0且逐整微包通量0；只有解析、无内部常平台的微包才直接支付全部R225活动总flux，旧step圆不自动适用。其完整双目标和R225四类iff/六矩核修正顺序均明确。**下一8χ的完整K是否局部及整个O(U0)/O(Rp0)，保所有平台/内部Laurent/平端和同w ruling。** B(E,Z71)不等于整个R71∩kerπ；80/144仅定义数，signed实际控制仍须另付。禁止重8Δ/18输入或旧151/152/3974/P1。
+[R254](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)/[R255](results/R255-explicit-third-diagonal-kernel-and-complete-hook-response-formula.md)付全核Z=H7⊕J3⊕χ8与完整两mixed公式。[R258](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)付十方向，[R261](results/R261-eight-local-self-adjoint-hook-operators-and-full-third-kernel.md)首次实际付剩八完整K/D³、局部四阶/自伴及fresh原差零。全Z有K=−J³Af、Af f0，通用f表示忠实18维不等于固定圆rank。逐整profile比例类Kfg0及整包flux0；内平台/R225四类iff/六矩核修正仍保。**下一整个O(U0)/O(Rp0)及同w ruling；B(E,Z)不自动覆盖全Rp0，尤其R71∩kerπ首项不可删。** 完成八Δ/18参考/151/152/3974及本八K目标不重做；signed实际控制另付。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
@@ -124,9 +124,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)给六面积72准确条件、self与全部有序Γ；12完整副本准确消36 odd。[R263](results/R263-ordered-Gaussian-area-81-scalar-recursion.md)把九二次矩与72面积系数组成81标量准确有序结合律，四个交叉角系数显式，可保原次序按二叉树递推。右inner完整三矩才使cross零，单位置81值不授任意平移/O2重选seed；每个真实母包的self必须同源。**下一把全部副本纳入准确能量/剩even联调，并用完整递推保内部history，不把条件数当rank。**
 
-[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；八χ不先套此自伴结构。
+[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；R261已付八χ，现可按其新增证明扩展全Z。
 
-[八χ完整源设计](notes/third-kernel-eight-local-operators-design-20261115.md)本次lane third_kernel_eight_local_operators仅消费旧W36与R254准确χ，首次生成K(w)=χ(w;ff)的真D³、完整有色word及局部时全形式伴随。空word才提局部/实测阶，不预截四阶；非局部/非自伴完整保。先8新人工，旧Δ/18参考/151/152/3974及第四响应0重做。此lane尚无实际结果，不先用全Z自伴或宣fixed-circle像。
+[八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
 [R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)真实联合支付多宽度圆的三矩/全third/六能量/全A−2,−3及36 odd；锐S/C比值与真实实现分开。它的特定排序被[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)真实Q<0排除。[R265](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)用每外包TM3伴随方向保所有diagonal输出/交叉三矩，把imaginary primitive平台局限在外包内；固定大间距后重新联解原准确IFT得Q>0。在两个最终不交位置分别完成全部条件，再正幅四次混合，准确Q0且保全部先前门。**下一用同一真实母包联调其余even向量/完整面积，再接全部period/同w；新增仅一条even线性组合，不据30−1称rank29。** 新seed另冻结目标，大有限复制仍只作存在证明。
 

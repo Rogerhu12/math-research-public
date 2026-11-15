@@ -238,3 +238,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R265 完整证明](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)用8个even ψ平移构成even v及TM3符号的odd伴随w，所有逐点双导数乘积相同，三个真实交叉矩全零；将它们同步嵌入三母包和每个外包。原diagonal二次输出、Lc/Mc以及真实两参数IFT完全保留，完整八副本仍付third，十二副本付Ls/Ms和全部36 odd，全角A−2,−3及共振N=6M保六门。每外包imaginary primitive变真紧，其准确自成本K保留；real primitive仍保cell尾。完整ReQ+=10928nm²a²A−na²Δ(64q+4096)/4−2nK(64αq³+β)+64nqUα(1−q²)(Cν−ℒ)。先固定有限大间距Λ，再选真实正δ能量根，首项使Q+严格正；TM3明确付完整复M4/M1/N1，平移/主尺度及完整包装只给正因子。
 
 与R262同even母包的Q−<0完整块在最终两个不交位置分别解完IFT，选c−⁴=Q+、c+⁴=−Q−即准确Q0。每完整块三矩使真实primitive/面积cross零，六能量保背景二次尾的原IBP后按四次加，故所有此前条件保持。该Q只是一条真实even线性组合，未支付完整A1,−3三外矩/整圆或其他even，也不宣rank、fullperiod、同w ruling或旧同g族。root全文独核TM3、同源密度、紧虚尾/完整正号式、有限参数次序和实际正幅加法；lit独立全稿复核。无新研究执行。
+
+
+## R261：八个完整局部自伴 hook 实际与全十八维核的忠实 Green 表示
+
+[R261 完整结论](results/R261-eight-local-self-adjoint-hook-operators-and-full-third-kernel.md)消费run43712266529/sourcea934b45c/job132806237299全部实际。8新人工全过，八χ的完整K=χ(w;ff)真实三导全为空word局部算子，普适最高w阶4、f-jet5，全形式伴随差0。j32/34/37/40/100原差仍2/2/3/7/3项，经独立fresh同锚IBP全零，非字面相同。人读稿列全8的a、d=a2、c准确多项式，b=d−a″完整重建五系数；K=−J³Af保三个右常数和左尾。种子湮灭继承R254不重跑，结合R258及内槽极化得全Z通用f表示单射18维；固定f可退化，非固定圆rank或全Rp0。常平台仅χ104=3F²D4/8、其余七局部零，原二次尾仍在。
+
+新科学.217361633000003秒/RSS28.55078125MiB，人工.11879069300000111秒/28.59765625MiB；两mapper primitive各3、cache207/25、cycle0，1445 rational/最大9bit仅监测接口。main37286B/5ea4a049、内存proof13083B/7da02709均不落仓库；receipt52008B/42c3c148、53要求来源及16consumer身份全同。原参数/输入/W36恢复及每目标SHA见稿。root全系数/原差/Green/极化证明已核，最高阶范围已同步；无旧Δ/forcing/第四/几何重算，完整joint继续。
