@@ -186,3 +186,5 @@
 - [R655：原sigma五次的完整Schwartz身份与负一单位矩非零](results/R655-original-sigma-five-schwartz-and-rank-one-negative-moment.md)：全2/3/5局部向量、有限角色χ与α5/2原周期识别真正σ17^5；负点为E80的共轭Katz值，完整角色分类/导子225及严格L′>1/50付解析rank1，Rubin–BDP给IΣ5,−1≠0。准确系数5c5θ11Ωp保留，当前ray定χ65=−1；未赋其余带门系数或W失败支零。
 
 - [R659：原冻结门质量的单位与完整W补偿的强制非齐次差](results/R659-original-frozen-gate-mass-and-full-compensation.md)：保原M3/全部旧ray后CRT添π0≡−1 mod61,277；全D0四层、完整Esharp核心/伙伴和原九行Laurent首项付M0,N≡−λ^(N−1)P(λ)/(b(1+λ))，P固定且常数非零。稀疏坏集外同一无限族全部正四倍N质量unit，原Q环带及全W补偿差严格非零；两失败支/五型/移动cut不删。
+
+- [R660：原范数一坐标、全部边界轨道与真实共振理想](results/R660-original-torus-coordinate-and-boundary-resonance-ideal.md)：整CM平均给v线性坐标，原完整轨道源=v^(p+1−m)B_m(v^(p+1))且B_m整；全部p²−1点给degree p−1的Eisenstein Q_p。局部无log恰Q_p|B_m，原闭X盘则强迫Q_p^(p+1−m)|B_m；B_m(0)准确为原[z^(p+1)]A_m。完整Hurwitz整性/复界又使充分大p的闭盘假设迫该有理系数真零，未由j0预支闭盘。

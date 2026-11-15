@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：d3f8dd3cfda11fe1c9ed0892dce273c016adcb7d；2026-11-15 02:45:18 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:45:17 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：a1748dfb41194d49bef06fc7acf88b3a6af02111；2026-11-15 02:49:24 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:49:23 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43668151048/job132672040900于02:31:03实际pull成功、两README差异空；回执ci/rule-sync-receipt-2026-11-15T023103Z.json。本地仍断连，下次最迟03:20 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,12 +14,12 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–659已登记；R364/R561仍开，R637/R654/R660–662进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r659.md)、[open](notes/2026-11-15-open-before-r655.md)。
+R1–363、R365–560、R562–636、R638–653、R655–660已登记；R364/R561仍开，R637/R654/R661–663进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r660.md)、[open](notes/2026-11-15-open-before-r655.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：R656同A_D四次高度及九格全部坏素数成本已付；续R660原中央到全源的实际传播，O4/O6保留。
+- root：R660实际边界共振理想已付；续R663同原中央与此整商的联系，O4/O6保留。
 - theta：R659原M0,N单位/全W补偿非齐次差已付；续R662两中央对完整补偿的真约束、H±联立。
 - literature：R655原Σ5负一矩非零已付；续R661同S5两条log行，R654真modp²连接保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
@@ -71,12 +71,8 @@ R649同Θp/型/三挠零/二挠帽的p(λH_(s−1)+μH_(s−2))提升使两a/p�
 R614–619/R625–627的整窗/首坏带/全Newton尾保持；R618 τ₂=(2p−1)/(p(p²−1))。
 R632/635付原全部p幂准确RE/闭非Tate与七积分独立，含H38；不预支全p²域。
 
-R639原CM范数一极限给Pζ=h(ζz(u))/h(z(u))∈1+u²O[[u]]；
-Tg=(∏Pζ)^(1/d)整、Fc=Π0logh、Ec=expFc，h/Ec=Tg^-1全R<R_E Tateunit。
-J全carry给p^-1<r<R_E^d时||q_c/c−1||<1；完整逆保同j，
-dEc^-mΠ0Um=R_m−jEc^-m，j0 iff正规解延全部R<R_E。
-两中央Π0Um全原p域无论j0已属域，不添维数；v(g^c_k)≥−floor((ks−1)/L)。
-Fc−cX始X²使两指定窗逐项不变；σ/Ec仍保uH/Tg，Tg未认k(E)有理。
+R639原CM范数一极限给h/Ec=Tg^-1整单位，Fc=Π0logh；完整中央连接所有R<RE唯一逆原点仍j，j0恰零初值解延全内盘。两中央Π0U无论j均在原p域，不添维数；σ/Ec=uH/Tg、全部H/高尾与两临界窗保持。
+R660整μ_(p+1)坐标v使原全轨道源=v^(p+1−m)B_m(v^(p+1))，B_m∈O[[W]]，B_m(0)=[z^(p+1)]A_m。首边界全部轨道给Eisenstein Q_p degree p−1；局部无log iffQ|B，闭原X盘必Q^(p+1−m)|B及vp首系数≥p+1−m。原7n!系数整/复界使大p闭盘迫首有理系数真0；j0→理想未证。
 
 R641五正规C_i的真实H阶2/5/28/38/66给任意正幂准确R_E；
 同N且(N,6)1的五源全线性空间交闭Tate仅常数。
