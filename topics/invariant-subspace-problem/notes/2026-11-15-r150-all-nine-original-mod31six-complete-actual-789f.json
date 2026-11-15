@@ -5696,5 +5696,191 @@
       "status": "in_progress",
       "conclusion": null
     }
-  ]
+  ],
+  "boundedStagingPublication": {
+    "format": "r150-saturated-third-global-terminal-publication-v1",
+    "status": "publication-stopped-other-push-error",
+    "run_id": "43674463008",
+    "run_attempt": "1",
+    "source_commit": "88be0c86d8924b4874e16b51c26732588696a5e3",
+    "publicationExecutionRunId": "43676091547",
+    "publicationExecutionAttempt": "1",
+    "publicationExecutionSourceCommit": "45474200b065a8e0a32a69e7b026678e75eaea2a",
+    "publicationReranMathematics": false,
+    "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43674463008-1",
+    "sharedResearchIndicesEdited": false,
+    "forcePushUsed": false,
+    "rulesAtSource": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "pulls": [
+      {
+        "beforeReadCommit": "45474200b065a8e0a32a69e7b026678e75eaea2a",
+        "originMainAfterPull": "52cccc86308330d5531e65963957cfd91d1ff6bb",
+        "exitCode": 0,
+        "rulesSHA256": {
+          "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+          "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+        },
+        "rulesDiffer": false,
+        "diffFile": "readme-diff-after-pull-1.patch"
+      },
+      {
+        "beforeReadCommit": "52cccc86308330d5531e65963957cfd91d1ff6bb",
+        "originMainAfterPull": "fcd27914a3e5df09ba9265b27b28e52a136c798f",
+        "exitCode": 0,
+        "rulesSHA256": {
+          "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+          "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+        },
+        "rulesDiffer": false,
+        "diffFile": "readme-diff-after-pull-2.patch"
+      }
+    ],
+    "pushes": [
+      {
+        "commit": "be967f9dd607dab06a5f38b9493c4e9aa878c2b2",
+        "exitCode": 1
+      }
+    ],
+    "stagingPushes": [
+      {
+        "commit": "f6c2932c3e53126ebb2f38eb8f604689ee4f0360",
+        "branch": "isp-789f-data-43674463008-1-b1-f6c2932c3e53",
+        "exitCode": 0,
+        "batch": 1,
+        "storedBytes": 399582668
+      },
+      {
+        "commit": "bfcb0734a8359cad1084ea4501a3574dbe0d9dd2",
+        "branch": "isp-789f-data-43674463008-1-b2-bfcb0734a835",
+        "exitCode": 0,
+        "batch": 2,
+        "storedBytes": 398388040
+      },
+      {
+        "commit": "b6a0366ad7957214178721278503de888ba82cbe",
+        "branch": "isp-789f-data-43674463008-1-b3-b6a0366ad795",
+        "exitCode": 0,
+        "batch": 3,
+        "storedBytes": 398191392
+      },
+      {
+        "commit": "d7e13156e774d1587716fd8118e2745a9da2f52f",
+        "branch": "isp-789f-data-43674463008-1-b4-d7e13156e774",
+        "exitCode": 0,
+        "batch": 4,
+        "storedBytes": 399288771
+      },
+      {
+        "commit": "070feb488031cefd810bc9befb665f10f14bb93d",
+        "branch": "isp-789f-data-43674463008-1-b5-070feb488031",
+        "exitCode": 0,
+        "batch": 5,
+        "storedBytes": 399654947
+      },
+      {
+        "commit": "29e0b9a0a3a29dfd3b603736bac75c1cc9463c84",
+        "branch": "isp-789f-data-43674463008-1-b6-29e0b9a0a3a2",
+        "exitCode": 0,
+        "batch": 6,
+        "storedBytes": 336119187
+      }
+    ],
+    "actualOutputsPreservedBeforeGit": true,
+    "mainCommitMetadataUnshallowed": true,
+    "blobFilterRetained": true,
+    "actualRecoveryPreservation": {
+      "allActualRecoveryFilesPreserved": true,
+      "allStageCachesIncluded": true,
+      "originalFiles": 623,
+      "originalBytes": 3746395040,
+      "fallbackFiles": 0
+    },
+    "preparedStoredFiles": 1046,
+    "preparedOriginalBytes": 2330676384,
+    "lastRulesReadCommit": "fcd27914a3e5df09ba9265b27b28e52a136c798f",
+    "maximumAdvertisedBatchBytes": 400000000,
+    "publicationDataBatches": [
+      {
+        "batch": 1,
+        "files": 98,
+        "storedBytes": 399582668,
+        "commit": "f6c2932c3e53126ebb2f38eb8f604689ee4f0360",
+        "branch": "isp-789f-data-43674463008-1-b1-f6c2932c3e53"
+      },
+      {
+        "batch": 2,
+        "files": 185,
+        "storedBytes": 398388040,
+        "commit": "bfcb0734a8359cad1084ea4501a3574dbe0d9dd2",
+        "branch": "isp-789f-data-43674463008-1-b2-bfcb0734a835"
+      },
+      {
+        "batch": 3,
+        "files": 179,
+        "storedBytes": 398191392,
+        "commit": "b6a0366ad7957214178721278503de888ba82cbe",
+        "branch": "isp-789f-data-43674463008-1-b3-b6a0366ad795"
+      },
+      {
+        "batch": 4,
+        "files": 203,
+        "storedBytes": 399288771,
+        "commit": "d7e13156e774d1587716fd8118e2745a9da2f52f",
+        "branch": "isp-789f-data-43674463008-1-b4-d7e13156e774"
+      },
+      {
+        "batch": 5,
+        "files": 102,
+        "storedBytes": 399654947,
+        "commit": "070feb488031cefd810bc9befb665f10f14bb93d",
+        "branch": "isp-789f-data-43674463008-1-b5-070feb488031"
+      },
+      {
+        "batch": 6,
+        "files": 280,
+        "storedBytes": 336119187,
+        "commit": "29e0b9a0a3a29dfd3b603736bac75c1cc9463c84",
+        "branch": "isp-789f-data-43674463008-1-b6-29e0b9a0a3a2"
+      }
+    ],
+    "advertisedDataBranch": "isp-789f-data-43674463008-1-b6-29e0b9a0a3a2",
+    "reason": "Actual non-fast-forward retry applies only to a rejection; artifacts retained."
+  },
+  "advertisedFinalizer": {
+    "stagingHead": "29e0b9a0a3a29dfd3b603736bac75c1cc9463c84",
+    "storedFiles": 1047,
+    "oneMainCommitPerPush": true,
+    "maximumNewBytesPerMainCommit": 400000000,
+    "mathematicsRerun": false,
+    "artifactsRedownloaded": false,
+    "accountConcurrency": {
+      "utc": "2026-11-15 04:31:26 UTC",
+      "jobs": [
+        {
+          "repo": "Rogerhu12/math-research-public",
+          "run": 43676765171,
+          "id": 132698525272,
+          "status": "in_progress"
+        },
+        {
+          "repo": "Rogerhu12/math-research-public",
+          "run": 43675377211,
+          "id": 132694243435,
+          "status": "in_progress"
+        },
+        {
+          "repo": "Rogerhu12/math-research-public",
+          "run": 43672023585,
+          "id": 132683972606,
+          "status": "in_progress"
+        }
+      ],
+      "newRoot": 1,
+      "newFinalizer": 1,
+      "max": 20
+    }
+  }
 }

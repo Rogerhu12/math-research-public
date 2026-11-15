@@ -477,3 +477,7 @@
 ### R150 附录：第184位的13条精确有理原核
 
 [完整证明与整数来源证书](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)在同4354选列中重建13条有理核，全部6188系数、自由来源I列及完整4367原整数乘回均通过；不是仅所选方阵投影核。由真实p³²接到p¹⁸⁴，数学108.336960369秒，64/128/184均保精确残差身份。13条独立核与旧界合并后char0所选秩仍4318…4340；共同分母LCM438bit不自动涵盖另23列。完整13核/原源码/主回执及最终184来源产品残差先行保存，其余实际恢复连续补齐。
+
+### R271 附录：强联块真实源的Stein缺陷与完整Schur解析演算
+
+[全证明](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)保持完整/裸右域与真实左最小：C_s*LC_s=I+U*D*DU−(P_KCU)*(P_KCU)，配两右收缩和I≤δ²B/G^-1，得全部源在L+B、L+G^-1均||C_s^k||≤sqrt(k+1)δ^k。原逆芽完整截到新h−1，δ<ρ时H_C−I两真实Schur范数≤16d0²ε δ/ρ；负图仅由准确S_b伴随保留。原环境Jordan条件数/全孔MP界均未使用；仍不把S_b/S_f互比或直接付flat，主两费比较继续。
