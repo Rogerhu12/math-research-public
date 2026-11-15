@@ -157,3 +157,5 @@
 - [R205：两个完整pure权块和一个右step查询的同时真实支付](results/R205-two-complete-pure-weight-blocks-and-right-step-query-control.md)：P0/P−2的12个实际原响应生成器加低权H给rank13三角查询矩阵；共同最终坐标先保H非零，再平滑/faithful与重补矩。R102保全部未知基准/整数复制/Brouwer，插入M/T0控制后Klein准确4倍，闭hook实现任意两函数块和一个右值，低阶圆保持。其他pure权/整period/joint未付。
 
 - [R206：满pure闭锥与实际有限全pure可控等价](results/R206-full-pure-cone-equivalent-to-actual-finite-pure-controllability.md)：R201使响应商缩放D可逆；满锥选有限实际正配平，真实缩放桥保全部正2V基准，floor整数与uniform C1截面准确付商。先清第三prototype商成本，再连续清E(t)商，最后R102有限复制/Brouwer付响应，得Cp=P iff实际S=P。条件成立时闭hook整pure零；尚未判满锥，mixed/ruling及终局仍欠。
+
+- [pure−6的一个完整加速度原系数准确消去三阶jet](notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md)：复用R136已发A_hh h^-8原九项，同右锚五次IBP给(4q′I(q″³)−3I(q″²)²−xI(q″⁴))/24576；R179双余词非零证明其通用非零。不判响应成员，不将单根化简推广全部dynamic/N；无新研究计算。

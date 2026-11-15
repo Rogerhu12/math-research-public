@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:40:47 UTC实际pull后已读规则提交：`918943f467450fb47bb71c4561adebed3966b146`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:44:08 UTC实际pull后已读规则提交：`440bee1054c7a3c516758a3305eb6c35bf14581a`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -36,7 +36,7 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 **R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。故分离只余**−6/−4**，不是全U−8零。满闭锥到真实有限支付的额外构造现由R206付；是否满锥仍欠。全λ+仍严格正但不下降pure。
 
-**R204 actual43684612905/sourcedf8522fc已完整**：21存量列的十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31。17新人工过，无原根/NF/旧52联合重算；全部关系及metadata见R204，未打印elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像；真实同时支付现见R205。
+**R204 actual43684612905/sourcedf8522fc已完整**：21存量列的十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31。17新人工过，无原根/NF/旧52联合重算；全部关系及metadata见R204，未打印elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像；真实同时支付现见R205。 −6的A_hh单原根已同锚IBP消全部三阶jet，通用非零但响应成员未判，见notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md。
 
 ## 5. 固定圆gauge与真实第四joint
 
