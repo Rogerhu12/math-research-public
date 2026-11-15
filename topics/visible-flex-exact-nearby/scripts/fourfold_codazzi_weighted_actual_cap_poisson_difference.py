@@ -108,10 +108,46 @@ def read(path):
     if len(raw)>100000:raise ValueError("only exact small UTF8 records are admitted")
     return json.loads(raw)
 def save(path,value):
-    raw=canonical(value)
-    if len(raw)>45000:raise ValueError("complete new scientific conclusion exceeds 45000 bytes")
+    try:raw=canonical(value)
+    except Exception as error:
+        def unsupported(v,path):
+            if v is None or isinstance(v,(bool,int,float,str)):return []
+            if isinstance(v,list):
+                out=[]
+                for i,item in enumerate(v):
+                    out.extend(unsupported(item,path+"["+str(i)+"]"))
+                    if len(out)>=3:return out[:3]
+                return out
+            if isinstance(v,dict):
+                out=[]
+                for key,item in v.items():
+                    if not isinstance(key,str):out.append(dict(path=path[:60],type=type(key).__name__[:40]))
+                    out.extend(unsupported(item,path+"."+str(key)))
+                    if len(out)>=3:return out[:3]
+                return out
+            return [dict(path=path[:60],type=type(v).__name__[:40])]
+        print(json.dumps(dict(marker="CP_SERIALIZATION_ERROR_V1",
+            error_type=type(error).__name__,error_message=str(error)[:200],
+            non_JSON_type_locations=unsupported(value,"receipt")),
+            sort_keys=True,separators=(",",":")),flush=True)
+        raise
+    failure=value.get("failure") or {}
+    status=dict(marker="CP_COMPLETE_SERIALIZATION_STATUS_V1",
+        mathematical_returncode=value.get("actual_returncode"),
+        complete=value.get("complete"),failure_type=failure.get("type"),
+        failure_message=str(failure.get("message",""))[:200],
+        structural_gates_passed=sum(g.get("passed") is True for g in value.get("gates",[])),
+        structural_gates_total=len(value.get("gates",[])),
+        new_weighted_prerequisite_passed=value.get("new_weighted_prerequisite_passed"),
+        new_finite_case_pass_count=value.get("new_finite_case_pass_count"),
+        serialized_bytes=len(raw),serialized_sha256=sha_bytes(raw),
+        preferred_publication_bytes=45000,within_preferred_publication_bytes=len(raw)<=45000)
+    # A formatting failure must not erase a completed new mathematical object.
+    # This complete file remains temporary until the independent wrapper checks it.
     p=Path(path);p.parent.mkdir(parents=True,exist_ok=True)
     temp=p.with_name(p.name+".partial");temp.write_bytes(raw);temp.replace(p)
+    print(json.dumps(status,sort_keys=True,separators=(",",":"),default=str),flush=True)
+    if len(raw)>45000:raise ValueError("complete new scientific conclusion exceeds 45000 bytes")
 def q(value):
     z=Fraction(value);return arb(z.numerator)/z.denominator
 def box(value):
@@ -239,8 +275,12 @@ def checked_inputs(a,doc):
         and all(set(f["original_complete_columns"][w])=={"g","p","a","c"} for w in WINDOWS)
         and f.get("all_input_means_and_full97_rows_retained") is True
         and f.get("specialized_cross_a_substituted_for_generic_g") is False)
-    doc["complete_new_small_input_inventory"]=inventory
+    doc["complete_new_small_input_inventory_count"]=len(inventory)
+    doc["complete_new_small_input_inventory_bytes"]=sum(r["bytes"] for r in inventory)
     doc["complete_new_small_input_inventory_sha256"]=sha_bytes(canonical(inventory))
+    doc["complete_new_small_input_inventory_location"]=dict(
+        manifest_path=str(a.manifest.relative_to(root)),manifest_sha256=a.manifest_sha,
+        exact_full_fields="files and file_receipts; every entry checked above")
     doc["original_input_sha256"]=expected
     doc["original_RW_identity"]=dict(run_id="43729429382",run_attempt="1",
         source_sha256=RW_SOURCE,worker_sha256=RW_WORKER,manifest_sha256=RW_MANIFEST,
@@ -431,7 +471,12 @@ def new_finite_case(kappa,old,scalars,bd,baseline):
     loads["independent_high_actual_cut_state"]={
         w:upper(old[w]["c"]+old[w]["p"]*epsilon) for w in WINDOWS}
     transferred={name:transfer_load(load,old,e,epsilon,M,detlower) for name,load in loads.items()}
-    result.update(complete_old_loads=encode(loads),
+    result.update(
+        unchanged_three_loads_reference="original_feedback_cases_copied[0].complete_old_loads",
+        unchanged_three_load_names=[
+            "ordinary_whole_core_source","independent_original_right97_row",
+            "independent_high_whole_body_state"],
+        new_complete_high_cut_load=encode(loads["independent_high_actual_cut_state"]),
         positive_determinant_lower_used=rec(detlower),transferred_columns=encode(transferred),
         additional_parameter_volume_response_bound=encode({
             w:upper(transferred["ordinary_whole_core_source"][w]

@@ -76,7 +76,7 @@
     },
     "bits": 320
   },
-  "historical_input_commit": "1c956eae7d8a1f51887568a0d26dd62c0584aa10",
+  "historical_input_commit": "70d93f3b9379a67e8e029803b78d51320f8e1571",
   "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
   "input_paths": {
     "rw_science": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json",
@@ -122,8 +122,8 @@
     "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
   ],
   "files": {
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference.py": "cfc6a2fc73efb7442b088e3be57251341eab07a39b35563c78da2c55a98545c4",
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference_ci.py": "9d50a1f7e0bf778ab067b6e63ba64f8c828fedb0540dc56b2c78075a21de6e79",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference.py": "c8aaace95295a58d761d1b74422a38d1de721fdf7fd27867b8a7c4e87e88c5b1",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference_ci.py": "df8c44b55c231f06865294d5c2580e3daa85a540f3b44ed73f7d8c3d353d17b5",
     "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md": "578ac4a214d6899100fff5048aa319865af5c81334e8c7aa32b58c557e3e88bd",
     "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json": "ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9",
     "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json": "daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6",
@@ -148,16 +148,16 @@
     {
       "role": "source",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference.py",
-      "blob": "5ad9e935762064a85077cf824ae82c28e77169ba",
-      "bytes": 35494,
-      "sha256": "cfc6a2fc73efb7442b088e3be57251341eab07a39b35563c78da2c55a98545c4"
+      "blob": "85aad3965c284816892b020ba9127ba596dabc52",
+      "bytes": 38263,
+      "sha256": "c8aaace95295a58d761d1b74422a38d1de721fdf7fd27867b8a7c4e87e88c5b1"
     },
     {
       "role": "worker",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference_ci.py",
-      "blob": "8f7fe460251551deef849d40fda587347f22e730",
-      "bytes": 38459,
-      "sha256": "9d50a1f7e0bf778ab067b6e63ba64f8c828fedb0540dc56b2c78075a21de6e79"
+      "blob": "b0d602f6e0bc30e04487a038a0c9703cbdd43e17",
+      "bytes": 39407,
+      "sha256": "df8c44b55c231f06865294d5c2580e3daa85a540f3b44ed73f7d8c3d353d17b5"
     },
     {
       "role": "contract",
@@ -297,5 +297,18 @@
   "new_native_arrays_or_artifact_persistence_allowed": false,
   "all_inputs_are_current_small_texts": true,
   "exact_input_file_count": 21,
-  "exact_input_bytes": 436688
+  "exact_input_bytes": 440405,
+  "unpublished_new_result_recovery": {
+    "original_failed_run": "43740644806/1",
+    "original_execution_blob": "84d43d330b28699f65678280ee908c3afdfb66e0",
+    "original_execution_sha256": "9e7921fd152e2ece7870a9931e2a7b73a2a43848306360f22560b442b888a828",
+    "actual_child_returncode": 1,
+    "complete_scientific_receipt_was_not_saved": true,
+    "original_mathematical_progress": "unknown; no zero-work or scientific-success assertion",
+    "original_child_log_bytes": 990,
+    "original_child_log_sha256": "bf20f05cdd0dd76f0a1b1ad10910d0b93bca6068b0d2979bbee3f8dc162edc63",
+    "authorized_recovery_scope": "Only the previously unpublished new CP weighted constants and two gamma cases; all old RW/F/Green/Riccati/target/integral results remain read-only.",
+    "concrete_correction": "Remove duplicate metadata and unchanged load-table copies; save complete temporary science before output-size guard; preserve bounded child error text in the public execution.",
+    "handoff_record_commit": "70d93f3b9379a67e8e029803b78d51320f8e1571"
+  }
 }

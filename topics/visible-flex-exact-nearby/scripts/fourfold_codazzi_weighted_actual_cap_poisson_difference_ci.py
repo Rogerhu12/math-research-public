@@ -504,6 +504,18 @@ def main():
         state["source_budget_child_wall_seconds"]=time.monotonic()-started
         path=out/"actual-scalar-conclusion.json"
         proc=read(path) if path.is_file() else None
+        state["complete_mathematical_receipt_available"]=scientific_receipt_valid(proc,a.pipeline_sha,a.manifest_sha)
+        if child.returncode!=0 or proc is None:
+            diagnostic=out/"source-budget.stdout.log"
+            raw=diagnostic.read_bytes() if diagnostic.is_file() else b""
+            state["actual_child_diagnostic_full_bytes"]=len(raw)
+            state["actual_child_diagnostic_full_sha256"]=hashlib.sha256(raw).hexdigest()
+            state["actual_child_diagnostic_is_complete"]=len(raw)<=16384
+            shown=raw if len(raw)<=16384 else raw[:4096]+b"\n[bounded middle omitted; full log identity retained]\n"+raw[-12288:]
+            state["actual_child_diagnostic_text"]=shown.decode("utf-8","replace")
+            print("BEGIN_WEIGHTED_CAP_ACTUAL_CHILD_DIAGNOSTIC",flush=True)
+            print(state["actual_child_diagnostic_text"],flush=True)
+            print("END_WEIGHTED_CAP_ACTUAL_CHILD_DIAGNOSTIC",flush=True)
         state["complete"]=bool(child.returncode==0 and scientific_receipt_valid(proc,a.pipeline_sha,a.manifest_sha))
         state["actual_failure"]=None if state["complete"] else (
             proc.get("failure") if proc and proc.get("failure") else
