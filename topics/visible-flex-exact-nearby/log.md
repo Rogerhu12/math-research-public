@@ -156,3 +156,7 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-15 23:45:27 UTC — UT 新端点消费者部署，旧成功只读
 
 两README在955062a211d54e89479d30cc8b30c9d56b0e35e1按blob复核无变。UT合同c2734ab5已先推27063dd2；root全文读SCI434行、与成功DZ2 wrapper全差异及manifest/flow，逐字核9输入296854B（7个既有当前文件在8b3377ad5f78fa05bb9405dfb997faf83d171117核SHA）、4原run/source/manifest/runtime/全部26/24/20/22门、18原标量路径、3独立source与3070jump。PARAMETERS/PINNED/6科学CLI/两端返原trial whole-min/WE顺序/六retained一致；静态delimiter通过，真正3AST由Actions在新数学前执行。保原成功安全流：实际pull+README、120KB reserve、科学先原子保存完整打印、typed只读暂错不杀健康child、非FF真rebase循环、成功绝不重。四blob410f54d2/e3df9b4c/00c0aac9/bcfd6215按原字部署，只接唯一自然push run，不主动dispatch。SC3实际小件与NW12steps成功已保存，完整证明逐一核后推；无本机新数学。
+
+## 2026-11-15 23:47:01 UTC — NWA 原成功完整证明独推
+
+两README在bbb46ed4e39485d0d3bc67f3502f622f03cf5497复核无差。Root全文读原NWA与NW/source/原SEI，独立核唯一43775614821/1 job133001107895全部12steps；9input219503B摘要ca4497f6和2AST摘要9cf0f10e按原数组序/无LF完整复原。execution lexical数值保原，SCI24234/55019238和21字段preGit27805/362a7562精确复原；7原完整对象及payload a1684441同值、正文72处66种球逐字全匹配，不读临时gzip。原证明仅14处norm反斜线排版与7/8个预先已发布输入计数澄清，最终blob8a1aba36/30563/b7fc4876；无数学变化。两optional false保，正常ODE/adjoint同逆已成；两weightedmean/physicalmean/三log与一次低阶exp/全affine CE条件/独立linear μ²费齐。大upper不作lower，全部fullphysical/incoming/finite/core未付。逐条保存推送，继续UTactual与SC3完整证明。
