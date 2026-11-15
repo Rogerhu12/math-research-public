@@ -45,3 +45,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 06:41:40 UTC /root — actual112 六极小接受与末方向全拒
 
 [实际112结论](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)：run43685696741/sourcea7ea4292，八方向中六次原Armijo极小接受，0/7各20拒；W6958.2257628163525→6958.225762769887，全部unit/full112/native仍false。summary80385B/09f1525d、status1030933B/02d85cf1。末方向线性Jd3约−.000145而全步实际d3−168.67，逐列FDvalid不提供近消去组合相对误差保证。114保完整原方向/接受门，改为后两式法向—切向弯曲路径，检验真实曲率首因；不得以微小接受或预算结束宣布收敛。
+
+## 2026-11-15 06:42:31 UTC /root — 固定帽连续球生产器
+
+[固定帽连续有理球与实际链边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布：sourcea3ada50b从同SHA绑定shared plan/assembly的确切有限graph导出完整两帽位置/法向球；法向中心非单位的归一化误差、上下帽方向、支撑切触/闭disk边界全付，原H只要求有限，存储kappa仅诊断。原v3实际验静态base再用R24，并不是moving-fixed consumer；worst≤128及每坏对4子块不是完整责任表。没有实际新场/运行，不加fixture或前置门；继续活动侧完整jet球与全mixed枚举。
