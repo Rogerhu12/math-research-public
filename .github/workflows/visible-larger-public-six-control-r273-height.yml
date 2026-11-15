@@ -1,0 +1,282 @@
+name: visible-larger original-worker current R273 complete112 height
+'on':
+  push:
+    branches: [main]
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-six-control-r273-height-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-six-control-r273-height
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Original warm current-system R273 H(s), original full112 gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      scalar_summary: ${{ steps.scalar.outputs.scalar_summary }}
+      scalar_summary_bytes: ${{ steps.scalar.outputs.scalar_summary_bytes }}
+      scalar_summary_sha256: ${{ steps.scalar.outputs.scalar_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish one fresh request145 temporary namespace
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-six-r273-height-145"
+        echo "VISIBLE_BASE=$RUNNER_TEMP/visible-six-r273-height-145" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install original complete field and full current R273 runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind complete source closure and explicit positive-lambda parameter recipe
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,re,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        raw=(comp/'public-six-control-r273-height-request.json').read_bytes();request=json.loads(raw)
+        assert request['schema']=='public-six-control-r273-height-request-v1'
+        assert request['request_number']==145 and request['lanes']==['sixr273height']
+        assert request['repository']=='Rogerhu12/math-research-public'
+        assert request['scientific_entry']=='geometry_20261115_six_control_r273_height_full112.py'
+        assert request['source_sha256'][request['scientific_entry']]=='d1f21025a91234252c856cb15bf26ce48e2628e8fa92352a9d98ffd53b14a69d'
+        assert request['native_client']=='geometry_20261115_original_r273_tail_client.py'
+        assert request['source_sha256'][request['native_client']]=='2fe2c25233061de0fd89b7af72cba5ddd2e2d144889492ec42156f781c4828a9'
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+          assert PurePosixPath(name).name==name and re.fullmatch(r'[0-9a-f]{64}',expected)
+          data=(comp/name).read_bytes();assert hashlib.sha256(data).hexdigest()==expected,name
+          if name.endswith('.py'):compile(ast.parse(data,filename=name),name,'exec')
+          verified.append([name,len(data),expected])
+        for name,expected in request['reviewed_README_blobs'].items():
+          assert subprocess.check_output(['git','hash-object',name],text=True).strip()==expected
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(x.startswith('规则同步记录：'.encode()) for x in handoff.splitlines())==1
+        item=request['parameter_recipe'];path=repo/item['file'];recipe_raw=path.read_bytes();recipe=json.loads(recipe_raw)
+        assert len(recipe_raw)==item['bytes'] and hashlib.sha256(recipe_raw).hexdigest()==item['sha256']
+        assert recipe['schema']=='explicit-six-control-original-r273-height-path-nonzero112-recipe-v1'
+        assert recipe['lambda_target']==0.001 and recipe['initial_guess_kind']=='fresh-circle-low-three-linear'
+        assert recipe['parameter_order']==['p1','p2','p3','theta1','theta2','theta3']
+        assert recipe['active_parameter_indices']==[0,1,2] and recipe['frozen_parameter_indices']==[3,4,5]
+        assert len(recipe['initial_six_parameters'])==6 and recipe['origin']==item['origin']
+        assert recipe['source_input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        assert (recipe['field_modes'],recipe['field_angular_quadrature'])==(112,2048)
+        assert recipe['height_continuation']==request['height_continuation']
+        policy=recipe['height_continuation']
+        assert policy['schema']=='explicit-original-r273-complete112-height-path-policy-v1'
+        assert (policy['initial_positive_increment'],policy['accepted_increment_multiplier'],policy['maximum_increment'])==(1/64,2,1/4)
+        assert policy['stop_after_first_positive_original_mathematical_refusal']
+        assert policy['no_repeated_height_halving_after_refusal'] and policy['maximum_bootstrap_requests']==64
+        assert policy['includes_zero_and_final_J_requests'] and policy['endpoint_request_jacobian']
+        assert not policy['zero_request_jacobian'] and not policy['intermediate_request_jacobian'] and not policy['bootstrap_audit']
+        assert policy['endpoint_uses_original_H_star_words'] and policy['total_scientific_wall_clock_seconds']==18000
+        assert policy['resource_limits_are_not_mathematical_nonexistence_claims']
+        assert len(request['source_sha256'])==115
+        assert recipe['native_correction']['implementation_file']==request['native_client']
+        assert recipe['native_correction']['implementation_sha256']==request['source_sha256'][request['native_client']]
+        R=request['r273']
+        assert R['schema']=='explicit-current-original-R273-correction-policy-v1'
+        assert (R['eta_cli_text'],R['exact_workers'],R['maximum_factor_bytes'])==('1',2,2147483648)
+        assert R['model_scope']==recipe['native_correction']['model_scope']
+        assert (R['complete_original_rows'],R['penalty_node_blocks'],R['shape_dimension'])==(129248,577,224)
+        assert R['current_original_withJ_arrays_only'] and R['post_factor_diagnostics_never_add_native_gate']
+        expected=dict(jac_workers=2,max_nodes=1200,material_angles=4096,physical_angles=4096,node_heap=6144,
+          outer_iterations=8,original_inner_trial_count=17,original_native_max_iterations=32,original_native_trial_count=10,
+          collocation_tolerance=1e-6,boundary_tolerance=1e-11,native_tolerance=2e-9,boundary_FD_tolerance=5e-5,
+          scientific_wall_clock_seconds=18000,science_step_timeout_minutes=330,compute_job_timeout_minutes=350,
+          wall_clock_exhaustion_is_partial_not_a_new_nonlinear_rejection=True)
+        assert request['execution']==expected
+        assert not any(request['retention'][k] for k in ('upload_artifact','upload_release','publish_raw_to_git'))
+        assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request145_source_recipe_identity',run_id=os.environ['GITHUB_RUN_ID'],
+          source_commit=os.environ['GITHUB_SHA'],request_sha256=hashlib.sha256(raw).hexdigest(),
+          source_count=len(verified),source_rows=verified,parameter_recipe_sha256=item['sha256'],
+          initial_six_parameters=recipe['initial_six_parameters'],lambda_target=recipe['lambda_target'],
+          no_low_three_root_gate_added=True,no_native_anchor_claimed=True,no_science_started=True)),flush=True)
+        PYPINS
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_original_r273_tail_client_hook.mjs"
+    - name: Restore four mathematical inputs and two original native geometry inputs exactly
+      run: |
+        python - <<'PYINPUTS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-six-control-r273-height-request.json').read_text())
+        commit=request['original_input_history_commit'];geometry=request['frozen_geometry_inputs']
+        assert commit==geometry['historical_public_commit']=='8bd267107cc8710d371f3b62c02986655ac965b0'
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        if subprocess.run(['git','cat-file','-e',commit+'^{commit}'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:
+          subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags','--filter=blob:none','--depth=1','origin',commit],check=True)
+        base=Path(os.environ['VISIBLE_BASE']).resolve();root=Path(os.environ['RUNNER_TEMP']).resolve()
+        assert base.is_relative_to(root) and base!=root
+        inputs=base/'mathematical-inputs';inputs.mkdir(exist_ok=False)
+        frozen=base/'frozen-geometry-inputs';frozen.mkdir(exist_ok=False)
+        records=[]
+        def restore(relative,target,size,digest,expected_blob=None):
+          relative=PurePosixPath(relative)
+          assert not relative.is_absolute() and '..' not in relative.parts
+          assert str(relative).startswith('topics/visible-flex-larger-amplitude/notes/')
+          blob=subprocess.check_output(['git','rev-parse',commit+':'+str(relative)],text=True).strip()
+          if expected_blob is not None:assert blob==expected_blob
+          raw=subprocess.check_output(['git','cat-file','blob',blob])
+          assert len(raw)==size and hashlib.sha256(raw).hexdigest()==digest,str(relative)
+          with target.open('xb') as stream:stream.write(raw)
+          records.append(dict(source_path=str(relative),git_blob=blob,bytes=size,sha256=digest,temporary_file=str(target)))
+        for name,item in request['inputs'].items():
+          assert Path(item['runtime_basename']).name==item['runtime_basename']
+          restore(item['file'],inputs/item['runtime_basename'],item['bytes'],item['sha256'])
+        wanted={'VISIBLE_FLEX_FROZEN_LEDGER_READY','VISIBLE_FLEX_FROZEN_STORED_READY'}
+        assert len(geometry['files'])==2 and {item['environment'] for item in geometry['files']}==wanted
+        for item in geometry['files']:
+          path=frozen/Path(item['path']).name
+          restore(item['path'],path,item['bytes'],item['sha256'],item['git_blob'])
+          with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write(item['environment']+'='+str(path)+'\n')
+        config=json.loads((inputs/request['inputs']['tail_config']['runtime_basename']).read_bytes())
+        assert 'initialCheckpoint' not in config
+        assert (config['modes'],config['spacing'],config['quadrature'])==(112,2,2048)
+        assert config['solveTolerance']==2e-9 and config['maxIterations']==32
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_MATH_INPUTS='+str(inputs)+'\n')
+        assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==head
+        print(json.dumps(dict(event='request145_exact_original_inputs_restored',source_commit=head,
+          historical_public_commit=commit,records=records,initialCheckpoint_present=False,
+          failed91_95_103_checkpoint_not_consumed=True,original_config_not_rewritten=True,
+          old_zero_J_is_only_initial_guess_data=True,rearchive_inputs=False)),flush=True)
+        PYINPUTS
+    - name: Restore unchanged78 original public source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        base=Path(os.environ['VISIBLE_BASE'])
+        source=prepare_public_source(Path.cwd(),base/'original-public-source',base)
+        with open(os.environ['GITHUB_ENV'],'a') as stream:
+          stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Current complete-system R273 with original warm H(s), then original FD and full-DN
+      id: science
+      timeout-minutes: 330
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+        request_path=comp/'public-six-control-r273-height-request.json';request=json.loads(request_path.read_bytes())
+        assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+        expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+        assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+        baselines={}
+        for name,blob in request['reviewed_README_blobs'].items():
+          raw=(repo/name).read_bytes()
+          assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+          baselines[name]=dict(blob=blob,text=raw.decode())
+        old={name:value['blob'] for name,value in runner.BASELINES.items()};runner.BASELINES=baselines
+        print(json.dumps(dict(event='request145_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
+          old_embedded_blobs=old,reviewed_current_blobs=request['reviewed_README_blobs'],
+          period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_rule_change_stop_retained=True)),flush=True)
+        base=Path(os.environ['VISIBLE_BASE'])
+        argv=[sys.executable,'-u',str(comp/request['execution_entry']),
+          '--request',str(request_path),'--recipe',str(repo/request['parameter_recipe']['file']),
+          '--inputs-directory',os.environ['VISIBLE_MATH_INPUTS'],'--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],
+          '--out',str(base/'execution')]
+        sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*argv]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Read existing original outcomes without numerical recomputation
+      id: scalar
+      if: always()
+      run: |
+        python "$VISIBLE_COMPUTATIONS/root_20261115_six_control_r273_height_scalar_readout.py" \
+          --directory "$VISIBLE_BASE/execution" \
+          --request "$VISIBLE_COMPUTATIONS/public-six-control-r273-height-request.json" \
+          --recipe "$VISIBLE_COMPUTATIONS/actual119-batch3-r273145-lambda0p001-recipe.json" \
+          --rules-directory "$VISIBLE_BASE/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}"
+    - name: Remove only this request temporary recomputable payload after scalar readout
+      if: always()
+      run: |
+        python - <<'PYCLEAN'
+        import json,os,shutil
+        from pathlib import Path
+        root=Path(os.environ['RUNNER_TEMP']).resolve();target=Path(os.environ['VISIBLE_BASE'])
+        try:
+          assert not target.is_symlink() and target.resolve().is_relative_to(root) and target.resolve()!=root
+          if target.is_dir():shutil.rmtree(target)
+          print(json.dumps(dict(event='request145_owned_temporary_payload_removed',
+            no_artifact_release_or_git_raw_upload=True)),flush=True)
+        except Exception as error:
+          print(json.dumps(dict(event='request145_cleanup_error',error=repr(error),
+            independent_of_original_numerical_acceptance=True)),flush=True)
+        PYCLEAN
+  report:
+    name: Compact actual R273 corrections, original H(s) and full112 outcomes
+    needs: compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SCALAR_SUMMARY: ${{ needs.compute.outputs.scalar_summary }}
+      SCALAR_SUMMARY_BYTES: ${{ needs.compute.outputs.scalar_summary_bytes }}
+      SCALAR_SUMMARY_SHA256: ${{ needs.compute.outputs.scalar_summary_sha256 }}
+      COMPUTE_RESULT: ${{ needs.compute.result }}
+    steps:
+    - name: Print one bounded scalar result without raw archive
+      run: |
+        python - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('SCALAR_SUMMARY','')
+        if not text:
+          text=json.dumps(dict(schema='six-r273-height-full112-scalar-output-unavailable-v1',
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            compute_job_result=os.environ.get('COMPUTE_RESULT'),
+            scientific_completion_and_acceptance_not_claimed=True),separators=(',',':'))
+          raw=text.encode()
+        else:
+          raw=text.encode()
+          assert len(raw)==int(os.environ['SCALAR_SUMMARY_BYTES'])
+          assert hashlib.sha256(raw).hexdigest()==os.environ['SCALAR_SUMMARY_SHA256']
+          assert len(raw)<=90000
+          json.loads(text)
+        print('BEGIN_SIX_CONTROL_R273_HEIGHT_SCALAR_SUMMARY')
+        print(text)
+        print('END_SIX_CONTROL_R273_HEIGHT_SCALAR_SUMMARY')
+        print(json.dumps(dict(event='request145_scalar_summary_identity',bytes=len(raw),
+          sha256=hashlib.sha256(raw).hexdigest(),hash_scope='compact UTF8 JSON excluding separator LF',
+          compute_job_result=os.environ.get('COMPUTE_RESULT'),no_raw_retention=True)))
+        PYREPORT

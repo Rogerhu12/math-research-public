@@ -112,12 +112,13 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
-[R311实际139完整结果](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已付全1440/六primitive/深尾/finite-protected与唯一whole-natural闭域；真实Rout−binarycut严格正。完整head先1552.8056291300002s完成，1800.8219652040002s停止属inverse-query B追加积分，保2900合法粗query片/1integral pending且无源/query未访后缀。domaintrue/resolutionfalse分列；E全域display不冒同场1e−6，原dyadic/四大账/真实callback与清理范围见正文。144同f12f/三输入/全六primitive/原256bit1800s先binarycut点后whole，在Actions完整读叶三jet；v3消费者另立身份，有限头DN与非线性仍未付。
-
 [144独立cut两jet完整入口](notes/2026-11-15-request144-original-binary-cut-twojet-interface.md)已全文审读后发布：原f12f/256bit/1800s/所有1440片/六primitive/全部根族保持，原config binary0.3点query先、原whole-natural第二。新reader1c39b242从同job全点叶准确dyadic端点并包E/Er/Err、全宽及全流SHA，合法粗界保留，原E工作宽度不冒导数宽度门；query4e59c69f/requestdcd4a892/wf209794c4。两个各≤90KB摘要分别完整读回，工程/partial/数值责任分开，原ownedraw末always清，无预填run成功；旧v2新g源已找回但必须独立v3适配。
 
 
 [146原两法向直接响应入口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)八件全文/旧93+5 pins核同后立即本库执行：真142末九p与radius1.9073486328125e−7，一个原8方向批。每normal保fresh完整3×9 J/旧JP诊断，沿同固定两P原complex evaluate形成3×2，仅末两行替换原2×2QR；原12×20/20外档/完整3 Armijo/半径/FD/Arb/453圆/112/final责任逐字保持。helper485e5fd8/producerc717bafb/request80f2fa09/wf8e01c9d2，新96+6 pins；全probe/失败/改选来源完整分段读回，不把direct当精度证书，不冒142同初点对照，不增验收门或raw归档。新实际run按本次source追踪。
+
+
+[145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。
 
 ## 5. 存储和原件维护
 

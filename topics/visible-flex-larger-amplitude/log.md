@@ -488,3 +488,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 146固定两法向直接响应完整入口
 
 [146接口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)19350B/332e3ecb及七运行件全文读，原93+5 pins逐个保留、新96+6；真142末p/radius一个8方向批，每normal保fresh3×9及JP，另直接形成两P完整3×2，末两行接原2×2QR，原实数12×20/20外档/完整merit与全部final门不变。完整probe/normal分段与ownedcleanup保持，不冒内部精度或同初点对照；根8小文本快进/API核双README不冒pull，直接本库Actions。144实际43715729122在跑；145完整当前全系统R273紧接。
+
+## 2026-11-15 /root — 145原warm与当前全系统R273直接执行
+
+[145接口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)23874B/d4747e22及十一运行件完整审读后发表；root逐项核原124全部103 pins/四输入/两ready不变，四新增旧源SHA核同，合115。仅原correction用本次全576J/577states/129248行与η=1，原warm/十noJ/严格门/完整338/FD/fullDN/audit保留，首正原数学拒绝终止本轮不重复缩高度；工程错误独立。18000s全局预算与闭合raw按记录清理，根8小文本快进/API核规则不冒pull，直接本库Actions。
