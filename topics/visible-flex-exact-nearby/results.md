@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WTA 真腰归一化实际双窗逆已成。** [完整原件与结论](results/R133-supplement-actual-right-waist-normalizer-and-complete-two-window-inverse.md)f90ba8a1：唯一43763134339/1 child0/20，J97、268435456与独立dyadic512各4/4。只同Qδ/η0/|δ|≤1e−8的真实右腰，完整residual/α一次/mean/repair/finite保；同逆L2与H−4/3，非完整incoming或Schur。
+
 - **FA 首次运行的文本识别失败及完整证据。** [失败记录](results/R133-supplement-actual-free-Airy-cut-identity-gate-failure.md)823cbd3c：43762821220/1门3查不存在的vartheta，20输入/5AST已过；实际四组新budget0、旧数学0、lost0，完整原JSON/report/preGit保留。修复仅识别真实O.2字符串和报告显示；未声称新cut界。
 
 - **WT 单侧真实腰归一化公式已证，标量待。** [完整合同](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8：同Qδ/η0/|δ|≤1e−8，原D固定四界、raw残差α一次、response fullmean/零近腰Fν及canonical piececonstant repairs，给完整右径导；原SP腰因子接TN新S/S2及两个固定cutoff四门，dyadic另列。两窗同逆/finite/mean保，未宣称interval或Schur逆。

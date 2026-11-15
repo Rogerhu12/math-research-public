@@ -84,7 +84,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [AW完整P22锚定比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)694b3647全式/原域/三ball保148ac7ee614bdf839691285f6a1eea0d6ec8ddd6同open/H/proof。真positive列与free锚定齐次到腰的差H−4/3→primitive L2pair+两mean≤C_PC+C_ST,4，仅符号和；两行cut连续、PC§9 restriction/zeroextension、root e+−PFh/非零stable/β/两sign两wave/四同caseRR及独立PW七ports/mean/finite保。只difference延拓，非各trial/stable强界。实际waist receiver与完整incoming/Schur/R0仍待，TC不移腰。
 
-[FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22/P8 w1，完整J/六mean/两I尾/DLMF real无nω门，n^-2→HS；两sign两wave/P23a/TN FS/RN/finite/UΦ负窗、Jc≠Js保。[首门3失败](results/R133-supplement-actual-free-Airy-cut-identity-gate-failure.md)823cbd3c：43762821220/1新budget/旧math/lost0，原science/preGit保。只修O.2+render，FA2 a6c89d50/11088777/d0695150/f443aa16，20pins/5AST/24门待唯一run。strict/waist/Ei/Eo/incoming/Schur/R0待。
+[FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22/P8 w1，完整J/六mean/两I尾/DLMF real无nω门，n^-2→HS；两sign两wave/P23a/TN FS/RN/finite/UΦ负窗、Jc≠Js保。[首门3失败](results/R133-supplement-actual-free-Airy-cut-identity-gate-failure.md)823cbd3c：43762821220/1新budget/旧math/lost0，原science/preGit保。只修O.2+render，FA2 a6c89d50/11088777/d0695150/f443aa16，20pins/5AST/24门唯一43763658978/1中。strict/waist/Ei/Eo/incoming/Schur/R0待。
 
 [TC](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5/[actual](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35/43754703603/18成功锁；全42球/SCI/preGit/真Φ四norm/两rank/finite全值保d358150130b7ff4771711c1e409d540f82dc56c0同open/H/proof。PΦ真span/mean/HL-LH/97..J−1保；cutnorm不移腰，Ei/Eo/Schur/R0待。
 
@@ -92,7 +92,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：全Gy/T1T2/F0–2/actual T_J差FJ/−Z_y均值；FA corrected除ng一次、cuterror乘sameT forward L2一次，ST literal√q给真L1dr primitive+两mean和无长度jump。SF44/45只difference，S连续而Z可跳；Q径二阶/K三阶/new norms/dr积分/Z jumps及waist/Ei/Eo/incoming/Schur/R0仍待。
 
-[WT真实腰部归一化](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8解析：D固定7/6/19/83、完整raw row0残差α一次、body nonmean+真实mean不乘α、Fν近腰0、两canonical修补径导0，付右RQ/RZ。SP原waist m/q/ng→新S/S2；J97和268435456各四门、另dyadic不覆失败。两窗同逆/finite≤J+191/fullT差≤J+575及两mean保；新包7cde6f7f/fbcedfe8/4cec7ef0/019dd4f9（22small/4history/10AST/20门）唯一43763134339/1中，非interval逆/Schur/未知PDE。
+[WT真实腰部](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8与[实际WTA](results/R133-supplement-actual-right-waist-normalizer-and-complete-two-window-inverse.md)f90ba8a1：43763134339/1 child0/20锁，26pins/10AST/SCI/preGit/42球保。真右腰D7/6/19/83，背景α一次、raw response完整mean/repair径导0，SP m/q/ng→S/S2；J97/268435456/另512各4/4，同逆双窗。finite≤J+191/fullT差≤J+575及mean保；非interval/incoming/Schur/PDE。
 
 ## 4. 实际帽图与完整core接口
 
