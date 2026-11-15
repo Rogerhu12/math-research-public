@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 0e9ddb0e6f1e6deeaad5ed8107e1d0433bc0d646（2026-11-15 10:23:17 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 7cec931a5af766c78eb13f65a62a8c95b529cecf（2026-11-15 10:25:54 UTC，Actions run43704030427实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43704030427-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。selected-natural-u-minimal-rebuild32已实际完成新输入重建与32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - 零点K89正式稿已推。∞cubic单列仍k1；[完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。核自由[164,494]，全部总degree5三normal坐标强制零。两相位检查点仍在新job。
-- 同run现入队selected-natural-first-characteristic-zero-left-envelope（60秒/1GiB，先最小重建Q585，再全原行乘回；源码core4901fa8f、runner3e7b9ea6）及infinity-fourth-joint-high-low-left-envelope（30秒/512MiB，SHA3f9b473f，完整2295高行+1088低行联立）。两者尚无实际结果，不预填rank；大检查点仅临时。
+- 同run∞第四已实际8.679830253秒完成：高988、低587，独立9头，全6188真，公共49/44；正式稿正在整理。Q一阶55.020秒未完成新RREF；Q585与全部2618×1582原整系数方程已保存，不能报第一秩。现同绑定续180秒/1GiB，先跑零第四30秒/512MiB；请求ID/全部SHA在同一request。大检查点仅临时。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
