@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "b21d278104247c09e9065942d98ff5d20d23a55b",
+  "rulesReadAtCommit": "51b9b19f38061a351e1845724266d9c578916a05",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -454,6 +454,23 @@
       ],
       "timeoutSeconds": 640,
       "receiptPath": "{work}/seven-original-exact-rational/seven-exact-rational-original-receipt.json"
+    },
+    {
+      "id": "physical17-quadratic-multiplier",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-physical17-quadratic-multiplier-block-789f.py",
+      "scriptSHA256": "85452c7d1f750fa1e139d9bc86212dfed5a0278221164eaf58708b0498021bb4",
+      "argv": [
+        "--point-model",
+        "{selected_model}",
+        "--out",
+        "{work}/physical17-quadratic-multiplier",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 50,
+      "receiptPath": "{work}/physical17-quadratic-multiplier/physical17-degree2-multiplier-receipt.json"
     }
   ]
 }
