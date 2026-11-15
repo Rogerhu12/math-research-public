@@ -11,3 +11,5 @@
 - [R752](../results/R752-native-mod-p-two-source-closure-and-point-inertia-extraction.md)：已证明原深门全Y正交使第一因子仅需degree34p，完整τ块由Dk与type3第二线给唯一模p函数；伙伴深度及相位全保。primitive去Yunit后整源为C Dk，实际正六矩读C并由原过滤式得有限窗口至少一C非零。规范étale theta平均精确读加性零系数，点惯性平凡部为p c0/(p−1)，原全部补域/λγ与中央缺口保留。
 
 - [R754](../results/R754-original-finite-inertia-shares-and-etale-source-trace.md)：已证明原完整五伙伴的Künneth分解与规范étale平均在混合门上读零Y频率；Zunit的两个不同非零根给真实G/W/V平凡点份额(p−3)/(p−1)、1/(p−1)、1/(p−1)。原λHW、γλHV、全部深门/相位/质量保，原过滤后三份各非零且准确加回primitive；全外部仍相反，未添中央约束。
+
+- [R756](../results/R756-original-norm-three-map-and-complete-canonical-return.md)：已证明原Norm3在(t,Θ,Y)上的准确映射、固定v12清新极以及全部WD的显示公共乘子返回，最高charge为3D+ceil((36D+181)/47)，保十九角与指数系数成本。原G0比值、低轴h→h+a、完整Euler两jet及高度二Gaussian均保；充分上界不冒原3C同预算或新中央零。

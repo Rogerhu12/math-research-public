@@ -391,3 +391,5 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)：全F整除WD的六Gauss逐charge基、H1(BD)=0及δC=h1(BD−C)齐付，真实主部像维=e′−δC；原第二13带迫primitive p²候选ord𝔅≥T_M+13，过此门才可消末尾并得到含全部ξ的简化残数。原同R/normal/第三块/d2均保，未断言实际残数必非零。
+
+- [R756](results/R756-original-norm-three-map-and-complete-canonical-return.md)：已证明原Norm3在(t,Θ,Y)上的准确映射、固定v12清新极以及全部WD的显示公共乘子返回，最高charge为3D+ceil((36D+181)/47)，保十九角与指数系数成本。原G0比值、低轴h→h+a、完整Euler两jet及高度二Gaussian均保；充分上界不冒原3C同预算或新中央零。
