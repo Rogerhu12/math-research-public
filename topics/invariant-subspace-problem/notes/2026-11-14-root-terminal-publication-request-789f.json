@@ -1,16 +1,16 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "d6caf110237dc1223bb7fc9b0d3c65757b21a119",
-  "createdUtc": "2026-11-15 11:25:12 UTC",
-  "message": "R150: inspect actual sixth checkpoints after FLINT memory exit",
+  "parentCommit": "6e0a238f21b7314d0352b11e571be11ba1cbeaf6",
+  "createdUtc": "2026-11-15 11:28:21 UTC",
+  "message": "R150: preserve completed top kernel and actual normal-four high profile",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-sixth-temporary-checkpoint-inventory-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-recovery-small-session-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-sixth-checkpoint-resume-and-normal4-full-high-kernel-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
+    "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
