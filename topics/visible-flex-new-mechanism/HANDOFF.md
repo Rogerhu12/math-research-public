@@ -19,9 +19,9 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**旧数值源**：[complete-affine原实际](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848，η.266401179156→.266381717617，12LP/5接受；9恢复805.206s，漂移/失败及完整六模型证据保留，0重跑。
+旧complete-affine：run43728280256/7329385/job132854922848；[原记录](notes/complete-affine-first-actual-result-20261115.md)保9恢复/六模型失败与费用，0重跑。
 
-**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值；费用/边界见原记录。bank7→9，21插入/0驱逐、12binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；**扩池SOC五新源/首请求已发**：完整reference/pools/controller与21输入→9方向hash严格复原；source cfg不变，回同x扩池重建，complete factory后最终绑定、单次同y原SOC、调用前计LP，原新行/17guard保留。首次43744268876在新只读数组fixture失败，无新检查完成/无transfer/科学；仅副本替换修复后续未完首次任务，生产/原预算全不变，旧12/optimizer0。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
+**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值；费用/边界见原记录。bank7→9，21插入/0驱逐、12binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；**扩池SOC五新源/首请求已发**：完整reference/pools/controller与21输入→9方向hash严格复原；source cfg不变，回同x扩池重建，complete factory后最终绑定、单次同y原SOC、调用前计LP，原新行/17guard保留。首次43744268876在新只读数组fixture失败，无新检查完成/无transfer/科学；仅副本替换修复后续未完首次任务，生产/原预算全不变，旧12/optimizer0。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -37,7 +37,7 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 **R314–333完整pure/self**：R314九T/局部Euler六jet忠实，R322真权σ→selfσ−2。R316 H*为π0/整Q0/λ+1，完整13核self rank7不重。R323负权−8 self0、−6二维/−4八维响应覆满，E=(π,全Q)实际闭锥=E(U)。[R333实际控制](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)用run43740129876/a5383f6/job132891272196两C4/C6 MEMBER、8新人工与fresh2492/2198原差；R126 old标签准确式见稿。严格E(U0)=E(R0)维10/两核9与6，零权商0，非全权等像。原两商截面/全部原型桥基准/有限整数及最后响应收缩给**E(S)=E(U)**和紧集C1截面，wholepure/wholeQ/整T0背景可实付；不是任意不相容pure×Q。完整canonical λ仍正。wholemixed/period/同规范及额外门不自动联合，R340单独付两flux接口。
 
-**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15在R−6恒0，其U−6值仍欠；其他权/整circle像不冒已付。
+**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15消R−6；**R342首新观察已发**：只读R144四mixed原根，A=N⁷G+315R0/32+315R2/16−315R3/32为π0；预定C7族精确λ多项式/同锚常数全保，非零才C4连续推真光滑见证，零仅族未检出。新10人工/科学只Actions，旧根/pure/self/rank0；未知结果，非全period。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
@@ -50,4 +50,4 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 5fa2424a6316b1daa8453864ce223b128a43d72f，双README blob同。API读取不冒实际pull。
+断连API复核main 9367bb068a6146b51b04340d4b878919f31c6e2b，双README blob同。API读取不冒实际pull。

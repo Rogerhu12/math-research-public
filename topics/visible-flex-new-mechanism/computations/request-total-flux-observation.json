@@ -1,0 +1,114 @@
+{
+  "schema": "visible-flex-weight-minus6-total-flux-observation-v1-request",
+  "lane": "weight_minus6_total_flux_observation",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/literature_weight_minus6_total_flux_observer.py",
+  "goal": "profile-family-nonzero-witness-not-universal-identity",
+  "output_filename": "weight-minus6-total-flux-result.json",
+  "inputs": {
+    "main": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43655713308-1-g_translation_successor/G-seventh-translation.json",
+      "bytes": 26745,
+      "sha256": "f5e514164cede76ba91786833d455b4638a45a3ee82cd2b7cadbcd76ee18ff15"
+    },
+    "receipt": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43655713308-1-g_translation_successor/receipt.json",
+      "bytes": 35234,
+      "sha256": "d1a5b9d8aa03553dfcf45731cbbbbb7861fbcbb496e90fb960e723e1597c3389"
+    },
+    "original": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43655713308-1-g_translation_successor/G-seventh-translation-original-expressions.json.gz",
+      "bytes": 15427,
+      "sha256": "936a19bd60b49b236343cdea9466f8a2bbbfbf108b3163ffe6b25e99eb66a664",
+      "raw_bytes": 80081,
+      "raw_sha256": "cffc0109bccd0a2aeb4e6e23e400c2de94e0bde68c57b41f08df724cd37a9dcb"
+    }
+  },
+  "source_bindings": {
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_minus6_total_flux_observer.py": {
+      "bytes": 29116,
+      "sha256": "0055fc41fcd972b5e8093d435f9df97724e83c6381b48129b7adab681f317770"
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": {
+      "bytes": 39670,
+      "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": {
+      "bytes": 38857,
+      "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+    }
+  },
+  "parameters": {
+    "max_seconds": 120,
+    "memory_mib": 512,
+    "integer_bits": 8192,
+    "max_products": 15000000,
+    "max_t_degree": 160,
+    "max_parameter_degree": 5,
+    "max_report_bytes": 95000,
+    "max_stdout_bytes": 35000
+  },
+  "profile_family": {
+    "coordinate": "t=x-2",
+    "support": [
+      2,
+      3
+    ],
+    "right_anchor": 4,
+    "bump_power": 8,
+    "parameter_factor": "1+lambda*(2*t+3*t^2+5*t^3)",
+    "witness_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "zero_extension_regularity": "C7, not claimed C-infinity"
+  },
+  "scope": {
+    "original_inputs_from_run": "43655713308",
+    "original_source": "d21c87a4d9341369a3dee35598ed88fb666cb99d",
+    "selected_original_roots": [
+      "target_-2",
+      "column_000_-2",
+      "column_002_-2",
+      "column_003_-2"
+    ],
+    "weights": [
+      "1",
+      "315/32",
+      "315/16",
+      "-315/32"
+    ],
+    "new_evaluator_development_first_public_run": true,
+    "old_scientific_or_development_replays": 0,
+    "original_root_compilation_calls": 0,
+    "pure_self_rank_membership_calls": 0,
+    "result_zero_is_only_family_zero": true,
+    "reconstruct_smooth_witness_by_C4_continuity_only": true,
+    "publication": "metadata-and-human-conclusions-only-no-payload-no-artifact"
+  },
+  "request": "weight-minus6-pure-kernel-total-flux-first-family-observation-20261115",
+  "repository": "Rogerhu12/math-research-public",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "new_python_sources": [
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_minus6_total_flux_observer.py"
+  ],
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_minus6_total_flux_observer.py": "0055fc41fcd972b5e8093d435f9df97724e83c6381b48129b7adab681f317770",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    ".github/workflows/visible-new-response-observation.yml": "015d58f1f26cd11cba80548ef6b899451a54792787dc7498b3c6c80ebcd1e8bf"
+  },
+  "publication_policy": "Only source, parameters, run identity, hashes and human conclusions in Git; no temporary report payload, artifact or Release."
+}
