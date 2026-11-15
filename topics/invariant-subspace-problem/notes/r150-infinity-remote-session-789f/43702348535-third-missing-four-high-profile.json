@@ -1,0 +1,163 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "third-missing-four-high-profile",
+  "executionSourceCommit": "14f5b5b7171e4ccd417821c63d9efd0882333371",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third-missing-four-high-profile-789f.py",
+  "scriptSHA256": "831fee03bebcc30c05d3d9b9dd4415db1862c6586a26df37bb28537f1313fdf3",
+  "argvTemplate": [
+    "--normal5-out",
+    "{work}/selected-natural-second-left-normal-five-high-elimination",
+    "--pairing-out",
+    "{work}/same-source-koszul29-second-pairing",
+    "--second-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--consumer-out",
+    "{work}/third21-normal-four-original-consumer",
+    "--out",
+    "{work}/third-missing-four-high-profile",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 90,
+  "exitCode": 0,
+  "wallSeconds": 3.374010379000538,
+  "fullTemporaryReceiptBytes": 3476,
+  "fullTemporaryReceiptSHA256": "46ab39536047eb2ff37e46a30660bfaa2c4bc9b764071d72d8c67f010ee93da2",
+  "result": {
+    "actualFourQuotientRepresentativesIndependent": true,
+    "actualH45RankModulo31": 1736,
+    "actualH45RankOverQExactlyKnown": true,
+    "actualH45RankOverQLowerBound": 1736,
+    "actualH45RankOverQUpperBound": 1736,
+    "actualPaid29HighSupportDimension": 0,
+    "allActualHighSourceDependencyProductsZero": true,
+    "allFourOriginalHighForcingRowsZero": true,
+    "completeHighKernelConstructed": false,
+    "format": "isp-third-missing-four-high-profile-v1",
+    "fullHighKernelDimensionLowerBound": 1036,
+    "fullHighKernelDimensionUpperBound": 1036,
+    "highKernelQuotientByPaid130DimensionLowerBound": 906,
+    "highKernelQuotientByPaid130DimensionUpperBound": 906,
+    "largeDataUploadedOrCommitted": false,
+    "leadingUnitProved": false,
+    "mathematicalElapsedSeconds": 3.263139136999598,
+    "newM0RightHandSidesSolved": 0,
+    "newOriginalThirdCoChainsConstructed": false,
+    "old21UnitSolutionsRecomputed": false,
+    "old29SourcesRecomputed": false,
+    "old786HighPivotsRecomputed": false,
+    "outcome": "complete-high-rank-and-four-quotient-preparation",
+    "phase": "complete",
+    "status": "completed",
+    "parameters": {
+      "actualFieldProfileIdentity": {
+        "bytes": 9606,
+        "sha256": "254a5173f108fec33890160d3424a8235e1ca2ef169fe7a801d7b6be268821d3"
+      },
+      "actualFourQuotientIdentity": {
+        "bytes": 106872,
+        "sha256": "7d8ef24fae893516a54667234d6e50eac52e006671e66c35de7c004f4f15db40"
+      },
+      "actualHighSourceRelationIdentity": {
+        "bytes": 518,
+        "sha256": "04a115dd2811c538931c924ff7fd8ea2fc78a512d939a9a5ac4db3ecf35ed82b"
+      },
+      "binding": "cd315e7a0b2999f9522fd96cd0c2d720de37938e75ae5133a97ad4ed3162bf3b",
+      "fourQuotientRepresentativeCoordinates": [
+        15,
+        18,
+        19,
+        20
+      ],
+      "highRows": 1736,
+      "inputIdentities": {
+        "head_kernel": {
+          "bytes": 2138,
+          "sha256": "4a27a932d31814078ee0b70c0e55878aade1f1c37772f5c41025bf69b1d8a322"
+        },
+        "high_pair": {
+          "bytes": 1019818,
+          "sha256": "d2ae353a064704e8d721d1663a6e838f93195438d004d2662386a8d34dd56024"
+        },
+        "old_h5_profile": {
+          "bytes": 5489,
+          "sha256": "c4e504e9ad006aa6b44572c888d26602662f9efde7a040dd43c0a9e446c878f1"
+        },
+        "old_unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        },
+        "residual": {
+          "bytes": 65222,
+          "sha256": "7835f183e25640397796706042038d94fe46725b59a1918349747addc3c56e05"
+        },
+        "source_receipt": {
+          "bytes": 15304,
+          "sha256": "11b0f10e9c0750b73644c425f91b48a249e5829a8dc7960e68e7713ef545f289"
+        },
+        "span_profile": {
+          "bytes": 66597,
+          "sha256": "9b4815f10fc1fef3194f2ec24c95be2c7868a08b72570390ba6c5effd8ae1417"
+        },
+        "span_solution": {
+          "bytes": 98953,
+          "sha256": "d81da8a51c570556ad98eabea5bb131d3cf9b91825a19ad6c93f3992b36316af"
+        }
+      },
+      "memoryMiB": 2048,
+      "nextSourceEquation": "high: H*z=0; low modulo paid166: R4*c+L*z=0; retain all homogeneous high kernel",
+      "normalFiveColumns": 1287,
+      "normalFourColumns": 1485,
+      "notAssumed906NewDirections": true,
+      "notAssumedJointHighRank1736": true,
+      "old786HighPivotsUnchanged": true,
+      "originalHighHomogeneousColumns": 2772,
+      "originalHighRows": 1736,
+      "originalNonhighRows": 2618,
+      "paidSourceCount": 29,
+      "programIdentity": {
+        "bytes": 17548,
+        "sha256": "831fee03bebcc30c05d3d9b9dd4415db1862c6586a26df37bb28537f1313fdf3"
+      },
+      "remainingHeadQuotientDimension": 4,
+      "secondsLimit": 60.0
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 13:49:09 UTC",
+      "beforeReadCommit": "e3e8a96665af1638bbf6be05be639b4f889103d1",
+      "originMainAfterPull": "14f5b5b7171e4ccd417821c63d9efd0882333371",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 13:49:13 UTC",
+      "beforeReadCommit": "14f5b5b7171e4ccd417821c63d9efd0882333371",
+      "originMainAfterPull": "14f5b5b7171e4ccd417821c63d9efd0882333371",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 75,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 25726,
+    "logicalJsonSHA256": "ce20783fbd0b455967feb51a8fc65d57f31b7aef8ab2de3a268e1b3aff7db3c8",
+    "itemCount": 75
+  },
+  "lastRulesReadCommit": "14f5b5b7171e4ccd417821c63d9efd0882333371",
+  "summaryExcludesRecomputableArraysOnly": false
+}
