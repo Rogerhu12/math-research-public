@@ -147,3 +147,5 @@
 - [R199：全pure空间忠实的单调末step与合法低阶圆](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)：R96多packet给q*，b+tq*行列式排有限坏值且可保严格单调；重补三复矩/共同标量/八包差分保全部三阶及右f0。最右period恒0 iff universal pure成本0；hook成本以BB^rev正半倍入U，不冒实际逆元或全joint。
 
 - [R202：pure成本闭锥只余三个负字符权](results/R202-pure-cost-cone-and-three-remaining-negative-character-weights.md)：保closure的Cp=clπC及对偶Ann(kerπ)准确同构；单权提取后奇权/+2/−2/0均排，只剩−8/−6/−4能下降的完整正字符。λ+不灭纯核，不作pure障碍；未判三权或实际有限零成本。
+
+- [R204：权−2完整pure像等于九维响应像](results/R204-complete-weight-minus2-pure-image-equals-nine-dimensional-response.md)：actual43684612905只读21存量列，十二新pure成员及原表再合全零；πU−2=πR−2、维9、核43/31。与R201给权0/−2完整十二维像，仍须真实有限控制与其余权/joint。

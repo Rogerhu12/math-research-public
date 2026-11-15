@@ -46,7 +46,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)现已构造一个新的全权pure忠实单调末step，并重做R183全部低阶：b+tq*多项式排零、三左复矩、Gram=EId共同标量、八包七差分和最终仿射均保最右f=0。对这一新圆，最右完整period恒零准确等价于πV_B=0作为universal算子；T非零的B通过BB^rev成本2V_B放入U。下一直接处理真实pure全算子的成本可达或独立正性，不再用仅某权/幂尾或多profile查询替代；原冻结step未获忠实性结论。
 
-[R202](results/R202-pure-cost-cone-and-three-remaining-negative-character-weights.md)把新pure闭锥问题准确缩到−8/−6/−4：Cp=clπC，若真则有能杀kerπ的完整正仿射字符；0权由πU0=πR0直接排，不重做H0。三个权尚未判，尤其不得用单个m8尾或R200的一个响应恒等外推πU−8=0。新的[21列存量pure计算](notes/pure-minus2-archived-projection-design-20261115.md)已用debb22d7源和公开唯一lane请求：R151九基＋R186十二商基，继承31/25已证身份，120s/512MiB，仅新有理成员/商；若全在旧像则得整πU−2=πR−2，否则给真新pure商。另纸推最低权全原式；不编旧52联合/旧NF。闭锥等于全空间仍不自动给实际有限pure零词。
+[R202](results/R202-pure-cost-cone-and-three-remaining-negative-character-weights.md)把新pure闭锥问题准确缩到−8/−6/−4：Cp=clπC，若真则有能杀kerπ的完整正仿射字符；0权由πU0=πR0直接排，不重做H0。三个权尚未判，尤其不得用单个m8尾或R200的一个响应恒等外推πU−8=0。[R204](results/R204-complete-weight-minus2-pure-image-equals-nine-dimensional-response.md)实际43684612905已完成：debb22d7只消费R151九基＋R186十二商基，十二准确成员全过，πU−2=πR−2、dim9，纯核43/31。联合R201得到权0/−2十二维完整pure算子像全在响应中；下一按R102真实原生成器/基准/Brouwer接同时精确支付，仍欠其他权。旧完整52/31和25身份不重算。另纸推最低权全原式；不编旧52联合/旧NF。闭锥等于全空间仍不自动给实际有限pure零词。
 
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 

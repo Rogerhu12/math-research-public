@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:15:25 UTC实际pull后已读规则提交：`4c4f4b23f8d380c498c9ed2b7dd4c1c676280dbb`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:20:15 UTC实际pull后已读规则提交：`55c989c0ad2563bec3f98cdb2896aae3bad8b2b2`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 前一physical actual43676765171已有11次接纳，输入c010…/粗细4414/3790/原r1/64000；完整旧结果保留notes/physical-step-cost-first-actual-result-20261115.md，全部已消费，不重复。
 
-**growth恢复actual43681388902/source7872857e/job132712596603已全文消费**，见notes/trust-growth-recovered-actual-20261115.md。6接纳至f2bb6c35a10467d37d1c964c0135086b7451d469ab6548420ec76355b3207902，ηfine .26653464896453305（降5.614832698e−6），κfine57.99998601756；.26未达。m2/m9后r1/64000→1/32000；m7全部回退失败后缩回。10主+2无primal SOC/19trial，39共享+2final，活动120.3116s/总543.5076s/RSS3062248KiB，wall预算退。粗/细4414/3864，hash086bff77/a39c799a。原细strip门是归一1−max|y|/.38999≥−1e−9，绝对下界−3.8999e−10；11个完成细网的失败trial余量−4.04…−4.82e−10均足以由strip拒绝。final−2.47348e−10仅旧tol过。两次SOC10.12s均无primal，不冒修正点失败。raw8733077/2f9d65f5与native74799/95069841仅SHA保留。
+**growth恢复actual43681388902/source7872857e/job132712596603已完整**，原表/失败/计时见notes/trust-growth-recovered-actual-20261115.md。6接纳至f2bb6c35a10467d37d1c964c0135086b7451d469ab6548420ec76355b3207902，ηfine .26653464896453305（降5.6148e−6），κ57.999986；.26未达。两次r翻倍；10主+2无primal SOC/19trial，39共享+2final，120.3116活动/543.5076总秒，wall退。粗/细4414/3864，hash086bff77/a39c799a。原strip归一≥−1e−9等价绝对≥−3.8999e−10；11个完成细网失败trial余量−4.04…−4.82e−10均足以拒绝，非断唯一失败原因。final−2.47348e−10只tol过；SOC未算出修正点不冒其失败。
 
 **strip-reserve actual43684152565/sourcec594eeb已派发待结果**：库0d653e66/driver4347bdc3，只给primary/SOC条带4/5组归一提案floor1e−7；原真实门/残差1e−7/曲率reserve/.001惩罚/增长缩步/12LP40值120s保持。98args/24旧SHA不变。缺失末态/池只同job恢复一次原growth临时前缀，严格核原参数/同g/b0/163/双网/池；继承实际next_trust/streak，末模型未完不计成功，低于min不调LP。允许不同合格canonical并显式报，非强求f2bb；前缀/新阶段预算耗时分列。25新增人工已过，公共首次开发后才真实计算；payload不持久化。源/完整设计见notes/frame-metric-spectral-strip-reserve-implementation-20261115.md，结果待真实读取。
 
@@ -36,7 +36,9 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 **R201 actual43683171512/source8c1ab4b已完整**：19pure列42word行rank3；πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96，原差0。三支持列独立，故πU0=πR0、dim3，核16/13。H=C2+R0/48+11R2/64−13R3/96有πH0、λH1，排任何仅pure的λ读出；H是span非实际字，完整λ仍正。16必要pure恢复/3新静态投影，1.2736s/RSS88.754，摘要24340/1fd475ff与证7220/003bbda2仅metadata。
 
-**R202已证**：Cp=cl coneπS=clπC，必须保末闭包；π与仿射/N/真实奇偶交换。若Cp真，则R127在纯商提取单权正字符，拉回完整λ须灭kerπ。奇权/+2/−2及R201的0权全部排除，仅−8/−6/−4可能；反向同样成立。全C严格真不判Cp；闭锥全也不授实际非空零成本。−2新存量门已派发准备：debb22d7标准库consumer，R151九基＋R186商十二，继承31/25原身份；120s/512MiB，零旧NF/原根/profile，完整结果待读。最低−9/−8全原式纸推另行，未付前不以幂尾推零。
+**R202已证**：Cp=cl coneπS=clπC，必须保末闭包；π与仿射/N/真实奇偶交换。若Cp真，则R127在纯商提取单权正字符，拉回完整λ须灭kerπ。奇权/+2/−2及R201的0权全部排除，仅−8/−6/−4可能；反向同样成立。全C严格真不判Cp；闭锥全也不授实际非空零成本。最低−9/−8全原式纸推另行，未付前不以幂尾推零。
+
+**R204 actual43684612905/sourcedf8522fc/job132722373952已完整**：21存量列（旧R9＋新商12），十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31、诱导十二维商全pure不可见。17新人工过，零原根/NF/profile/旧52联合重算。主18007/9666aaf9、内存证34362/e095e042、receipt46353/9d205d7f只metadata；stdout全十二关系已读，未打印实际elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像，下一真实有限同时支付，未宣全pure或joint。
 
 ## 5. 固定圆gauge与真实第四joint
 
@@ -50,7 +52,7 @@ R198：f在整个右锚[b,r]为0，则L_f(w)=0对任意全I合法w；第三齐�
 
 **R200完整纸证**：真实τ0桥给单step变化H=(Dτ0[A]−2A(q,τ0))/8，最右端首项a0⁴8⁴7⁴ c(7c²−5)t²⁵/(192·25)非零。M0桥接正负圈、真实反向双字、固定hook和Klein得到V−4(XN,t;q)=8N(Γ+ℓtH)+C(t;q)，保全部桥基准。某些真实闭hook几何的右端period严格非零，所有w不改；可迁无常段但不冒保持原g。更建设性地，先固定有界t覆盖与复制数，再取有限N，介值定理准确支付一个指定右端period查询；全函数零、左段及joint仍欠。继续整pure函数匹配，不累积孤立非零方向。
 
-**R199完整纸证**：有限全pure空间先用R96右因果多packet得单实q*忠实；单调step b+tq*的det最高t^(4m)系数非零，任意小合法t除有限坏值均忠实。只改R183末下降包，重解左三复矩，Gram=EId只共同正缩放，八包七差分仍付全部三阶ruling；最终仿射/归一保最右f0。对新圆最右step period恒0 iff πV_B=0 universal。B仅M0的归属由真实BB^rev成本2V_B、T0支付。未断旧step忠实，未恢复λ+，未付全joint。
+**R199已证**：R96单实q*忠实，单调step b+tq*的det最高t^(4m)非零。改R183末包、重补三复矩、Gram=EId共同缩放、八包七差分和最终仿射保全部三阶/右f0；新圆最右period恒0 iff πV_B=0 universal。B只M0的归属由BB^rev成本2V_B/T0付，不断旧step忠实、不恢复λ+或全joint。
 
 ## 6. 保留边界与当前交付
 

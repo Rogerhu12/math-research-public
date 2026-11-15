@@ -581,3 +581,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 06:12:06 UTC，Astra-new-mechanism-9974ea84：R202完整纸证完成即登记；tail独立核闭包/等变/dual pointed/拉回条件，root读R127原单权提取（末权m+j）、R145保颜色反号、R188及R190确切范围。Cp=clπC不可删closure；R201纯权0全在响应中直接排0，只余−8/−6/−4因子化正字符。既成全λ+无法下降，无新编译/计算；BBrev正半倍只付M0 hook成本归属，不冒实际逆元。推进存量21列新pure门与最低权完整纸推。
 
 - 2026-11-15 06:15:11 UTC，Astra-new-mechanism-9974ea84：新的权−2纯投影consumer debb22d7/设计19f0f994全文读毕后公开派发，标准库只读两份既存准确呈示。旧R9只备新解算接口，新增12逐列准确约化；77双mode hash/147映射/原根一致只绑定，31/25旧身份不重算。R179真实词单射给新非成员意义，kernel维数按52/40准确推，不冒固定circle失败或有限真实控制。17新增小人工完成，公共首次--toy后实际；workflow/publisher只增lane及缺失旧输入目录、元数据规则不变，12args/120s512MiB。正在运行的strip sourcec594eeb不变。
+
+- 2026-11-15 06:19:46 UTC，Astra-new-mechanism-9974ea84：R204实际科学完结即登记。root直接读run43684612905/source df8522fc/job132722373952全部MATHEMATICAL_RESULT及12列准确关系，十二原表fresh sums全零；同源17人工toy_passed/all_passed明确。πU−2=πR−2、dim9，核43/31，联合0权12维完整像。receipt46353/9d205d7f核同源/raw18007/9666aaf9及内存证34362/e095e042；全报告未stdout，不能冒读其elapsed/RSS，不为统计重跑。仅新结论/小原式例及来源保存，机器payload不保存。继续实际十三目标同时控制与最低层纸推。
