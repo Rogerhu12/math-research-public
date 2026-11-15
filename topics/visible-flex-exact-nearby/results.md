@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [F：完整transport首矩阵的准确因子分解](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)：M=G U_-²与U_+M=G B_+U_-合并L13全部三项，非主导两矩阵对角准确相消；完整G0(MZ)不另付ZX，仍保n^-2真rank导数、q的vφ与全部mean。新完整g预算尚待实际公开消费者。
+
 - [真实moving core迹到physical inner曲率输入 V](results/R133-supplement-physical-inner-curvature-data-from-true-moving-core-trace.md)：以真实Θ和相对Ĉ差证明γA0<hH1/2，完整Cmean=1/m；直接展开(j^-1∂φ)^q并one-high估计，给hH1≤1e−9/128、hH8193≤2^393000足原尾部γ两门。剩inner准确为完整B函数与Cmean；core图存在及真实trace界仍待，条件Schauder不冒已闭合。15194B/SHA256 58eccc1715c74068d8a682b50af9f57049e5daa045c5f3e8a4579c68b12cba49。
 
 - [连续exact-tail选择与真实第二相位响应 C](results/R119-supplement-continuous-exact-tail-selection-and-true-second-phase-response.md)：在实际γ低/高域，证明同RG/Nash确定选解γH8193→E1856+连续，actual fB∞连续H1859且统一<2^-54865000、H2相对紧。真实weighted Γ2差、共同reference、完整holonomy proxy及低逆/高插值均保；不冒C1/H0-Lip/core selfmap或删Hp。30739B/SHA256 0ada0f964d63212362f02c1f050da271d88ac6f585dc595bb779287c76b0e226。

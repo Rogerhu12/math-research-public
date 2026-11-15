@@ -150,6 +150,10 @@ P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根�
 G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。
 L16–18另给exact inverse首列及rank外积，w0完整两分量保xy/y²根零；
 未新增determinant域或数值收紧。
+[F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)
+进一步用M=G U_-²、U_+M=G B_+U_-在取模前合并L13三项；两额外矩阵的对角准确消失，
+G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。
+保真实rankφ、所有n因子、完整q的vφ以及全部mean；只付恒等，实际新g预算待P ledger。
 B_j实际old-circle域仍须与canonical域真正相交；新数值仅在P实际主导确认后再消费。
 完整physical-to-wave/回代读出与强返回仍待，无新数值改善声明。
 

@@ -1,0 +1,38 @@
+{
+  "kind": "explicitly_read_public_repository_rules_for_existing_CI",
+  "repository": "Rogerhu12/math-research-public",
+  "read_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1",
+  "root_readme_git_blob": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "previously_read_readme_sha256": {
+    "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "read_changes": [
+    "Only the actual root README difference after the previous review was read: rule15 records the coordinator's additional normal deletion of1457 gz/npz files (about1.05GB) in topics/visible-flexible-closed-surface/notes, with its own DELETED_DATA_2026-11-15.md inventory.",
+    "No operational instruction changed. The existing no-reproducible-data,200000000-byte topic limit, ordinary historical restore and no-force rules remain in force.",
+    "The topic README and mathematical completion criteria are unchanged. This new review does not amend any pinned scientific input or authorize repetition of any successful calculation.",
+    "The preceding full rule review remains at137c5a877fb387a82cbde01f084d1fa67ee717aa. This file is a new review record; the old pinned rule file is preserved."
+  ],
+  "scientific_input_manifests_and_sources_not_changed": true,
+  "new_unread_rules_must_still_be_reported_and_applied": true,
+  "large_data_policy": {
+    "rule": 15,
+    "topic_directory": "topics/visible-flex-exact-nearby",
+    "maximum_topic_bytes": 200000000,
+    "maximum_git_file_bytes": 5000000,
+    "reproducible_data_persisted_in_repository": false,
+    "reproducible_data_persisted_in_Releases": false,
+    "new_reproducible_Actions_output_uploads": false,
+    "keep_only_scripts_parameters_runs_output_hashes_and_conclusions": true,
+    "existing_data_restore": "git show <immutable_predeletion_commit>:<path> into temporary scientific work",
+    "normal_deletion_only": true,
+    "no_history_rewrite": true,
+    "no_artificial_data_splitting": true,
+    "original_completed_mathematics_must_not_be_recomputed": true
+  },
+  "supersedes_rule15_policy_read_at": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+}
