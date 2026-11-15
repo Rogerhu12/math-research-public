@@ -6,7 +6,7 @@
 
 本会话已部分克隆并实际pull main至b6dd686c404c15cc7744c5c26f32862055ea3c67，读根/本题README、H/open/log及当前notes。私有QUEUE已更新并终端推送55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境transport断连、unavailable；按根规矩8通过小文本GitHub API继续，不能将API读取称为实际pull。终端恢复后实际pull/rebase；至少每小时重试。
 
-**已读规则提交：e17cb0d47dad8914d866d38e1c0d53f48dfae35e**（2026-11-15 05:25 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题已由公开run43679907787普通删除2016项/775633196B，实际64952729B（含metadata），低于200MB；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156与逐项SHA见2026-11-15-reproducible-data-removal-summary.json，未改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
+**已读规则提交：2d648178615c3918f57c042f33fd5ec62a4cf1db**（2026-11-15 05:21 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题已由公开run43679907787普通删除2016项/775633196B，实际64952729B（含metadata），低于200MB；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156与逐项SHA见2026-11-15-reproducible-data-removal-summary.json，未改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[接手前H](notes/2026-11-15-handoff-before-resume.md)及其before-R780归档链；已成数学不重跑。
 
