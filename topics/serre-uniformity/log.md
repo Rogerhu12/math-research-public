@@ -620,3 +620,9 @@
 - final3221f24e/manifest2d77e2f0/4901项、artifact14183161538/7eaffd6a；新27.5MB原源eb908748和旧233.6MB源1e3fc4db续传，本地18小件1350917B仅IO。
 - 旧Hermite取消API403（令牌权限不足），未称已取消且不再续算；H/open先逐字归档，现续准确D/eta/高度输入，不将固定p41结果作全p完成。
 - 本push规则：本地真实pull至34d4ab611a493cf6b34f3a5ce02e51ddc6604f5c（2026-11-15T22:17:36.769907+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:18 Asia/Taipei — serre-public-astra-20261115
+- 登记HC证明38d7d105：原β=(A/C)^5α0直接下降P1_x，∞留数全零，Carβ=F(x³)dx；完整原C^-5及Z=1−κU^pJ不删。
+- 简单T零/双C零与A公共根给准确4阶/9阶式，cusp保11阶极部；c_*非零给全局非零，不代指定P0值或同primitive/Legendre h。
+- R835已推39a3a707a4fdd7d0ce13d28431412e4ed59c6518；新原D小核正面构造继续，R787518新格与R815九维实际仍进行。闭路简写链接原逐字归档，未撤旧边界。
+- 本push规则：本地真实pull至009c8a70d3e3033963eebe98b54d06a6577e2c06（2026-11-15T22:18:46.599880+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：34d4ab611a493cf6b34f3a5ce02e51ddc6604f5c**（2026-11-15T22:17:36.769907+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态与pins逐字保于[R835前H](handoff-archive-2026-11-15-before-R835.md)及[R835前open](notes/2026-11-15-open-before-R835.md)，并串接全部旧归档。
+**已读规则提交：009c8a70d3e3033963eebe98b54d06a6577e2c06**（2026-11-15T22:18:46.599880+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态与pins逐字保于[R835前H](handoff-archive-2026-11-15-before-R835.md)及[R835前open](notes/2026-11-15-open-before-R835.md)，并串接全部旧归档。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -28,8 +28,8 @@
 
 **R824**：[365断点](notes/R824-365-digit-checkpoint-and-same-core-continuation.md)manifestf45e2193/currentc6ddf4fb/lifta7a95048、artifact14179899060/bc2789d4；27+244同核继续，free1186归R787，原129/142/280Q、1521及κ/246一次保留，r28不补143..155，全生成才1778minor/1206。
 
-**R835实际成功**：[原四阶终止与D约化](results/R835-certified-original-order4-termination-and-reduced-D.md)，run43767561191/job132976021283/source3198158aea6a78e32c7e4c62f45ce4b754ac2718，46.529879231秒/exit0。原1360列的新a0/1完整det实际degree1320/3496，全部1341/3517节点及整多项式插值/xgcd乘回；真gcd=[1]，分解adjugate右逆已证（未展开）。接原σ∞rank272/det695832206及proper，**原I4=C、D约化、K1已成**；不称q最小或判P0∈D，D坐标/eta/height仍无。
-最终4830B/3221f24e，manifest833371B/2d77e2f0/4901项，artifact14183161538/277615420B/7eaffd6a至Nov16 22:10:17UTC；新最小source27499704B/eb908748、原233593489B/1e3fc4db carrier原样续传。core4f2dc119/runner7715eeb9、证明7e07f78e/17e9c828冻结，不重原导数/C/∞。本地18小件1350917B仅IO。旧Hermite取消403未成功，不续算；现继续原D准确构造。
+**R835实际成功**：[原四阶终止与D约化](results/R835-certified-original-order4-termination-and-reduced-D.md)，run43767561191/job132976021283/source3198158a，46.529879231秒；a0/1完整det次数1320/3496，全1341/3517节点+xgcd乘回给真gcd1。分解adjugate右逆接同源σ∞rank272/det695832206及proper，**原I4=C、D约化、K1已成**；q最小/P0∈D/D坐标/eta/height未得。
+final3221f24e/manifest2d77e2f0/4901项，artifact14183161538/7eaffd6a至Nov16 22:10:17UTC；新source27499704B/eb908748与原233593489B/1e3fc4db续传。core4f2dc119/runner7715eeb9/证明7e07f78e/17e9c828冻结。全部完整pins见结果；本地18小件仅IO，不重原导数/C/∞。旧Hermite取消403，不再续接，继续原D准确构造。
 
 ## 已成源、真实消费者及期限
 
@@ -53,5 +53,7 @@ sigma须同一primitive/Legendre h的三个原单位，R739/R741/R737不拼。R8
 [Kronecker平方](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5/[原X6](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保十八项/Ωη相位、E=6ρx和原对数微分。
 [Schwarz](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、S_(p−6)=−[U^(p−1)]x²A⁵/(DC⁵)/4374；[PF Cartier](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ单位、rank1幂零曲率、Wronskian1−κU^pJ，首p周期修正不删。
 [原C^-5完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原τ三挠平移排正则余项，β=x^pν(y)，Carβ=xΣres(ν)^(1/p)dy/(y−a)；指定P0值=3αR_p，S=αR_p/1458，R_p为y=2/α的实际留数。极阶全<p，但指定留数及两变量primitive/Legendre同h非零仍缺，不由其他留数或全局源非零代值。
+
+[P1下降与C根留数](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给原β直接下降P1_x、∞留数全零、Carβ=F(x³)dx；简单/双C根的4阶/9阶与cusp完整11阶留数式保原Z=1−κU^pJ。c_*非零时全局Carβ非零，但指定P0值/同h仍未知。
 
 ordinary p43/776bitq已Gaussian5排；[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892/[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一K_glob/Θ=i a_q及同Σ θ3。C4/T²杯积仅复现R779，无独立Θ值，禁巨大q枚举。R816/818/819/821/823与R729的原c1不分歧已成，不添高度单位。原模型/CRT6逆/ζ²一次/246/c0c1不改。主目标OPEN，继续open.md。

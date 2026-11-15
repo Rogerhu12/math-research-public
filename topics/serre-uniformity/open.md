@@ -70,9 +70,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R815原Mg/Γ真实425素数后同核续算**：原run43719622321/source2a3300a9因BudgetStop退出；小IO run43747973677确认g完成425prime、last1000008791、模数12707bits，Γ未开始、无完整operator。manifest4e78095e/3464项，current561995095B/402379e2与425小receipt f136bee8准确匹配；[断点全pins](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)。新原请求ac0870b2只增真实resume，不改80516ff9核心/ab725da0包装/849bca27框架、53源、prime007或原嵌套mode；恢复完整stage和唯一current，从425后继续。保持Mg六模/七准确点与Γ五模/七嵌套准确点、完整[[Γ,W]+MgW′,W]=0及两图因子，不另Mh。
 
-**R787旧42/56已闭**：[42诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)375414b2/[56方法](notes/R787-original-incremental-three-probe-reconstruction-method.md)58a7713f/[56结果](notes/R787-three-probe-56-ended-and-fixed-C-next-layer.md)保全基/幺模/来源：42D和56新D全原m1拒，后者旧引用0/队列尽/三预算false。只排当时A/B，不重LLL或断精度不足。
-
-**固定C98已严格排除**：[共享残差](notes/R787-original-fixed-C-next-digit-obstruction-and-shared-source-contract.md)5c4ab25c/[branch0方法](notes/R787-original-fixed-C-prefix-obstruction-method.md)01f4a93d保280坐标先除M、selection κ逆、自由qC=0与原129出口；Ω=P(E/M)独立于A提升。[实际43759938677](notes/R787-fixed-C-98-ended-strict-exclusions.md)603.191秒、42+56固定C全Ω非零/零者0，cert a2352d81/manifest0db15330，故任意A全拒，不再扩同C行/分支。新精度同D可能改C，复用须整个准确C相同；完整旧执行细节保[518前open](notes/2026-11-15-open-before-518-digit-activation.md)。
+**R787旧42/56与固定C98已闭**：[42结果](notes/R787-two-probe-first-lattice-ended-and-continuation.md)、[56结果](notes/R787-three-probe-56-ended-and-fixed-C-next-layer.md)、[固定C结果](notes/R787-fixed-C-98-ended-strict-exclusions.md)保原完整基/幺模及98个Ω全非零、前缀零者0。同C任意A均拒，不重旧LLL/同C行或分支，不据此断430不足；新精度仅当整个准确C相同时复用，单D相同不足。全部原pins/280坐标先除M/selection κ逆/自由qC=0已逐字保[R835前open](notes/2026-11-15-open-before-R835.md)。
 
 **真实精度增量核格已证并绑定518**：[契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891以旧全基H、满射残差E/unit minor给KH新完整格，保指数ell^(14kd)与加probe相容；core414fef53/runner889cdf5e将核全A1234×14/C1214×14降模、一次新56LLL/完整幺模及原129×280。已填真实518 current，默认不复用旧98拒绝；尚无新格或准确关系结果。
 
@@ -81,7 +79,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **R814/R825的完整原重数接口已证**：[R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)保完整C=20cusps、N=im[H,ΓH+MgH′]、P=(N:_R C)和sqrtI=(I:_R P)，m0不删；原E含20cusps+P0+3D。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)保原m0/1mod3、r=y/δy、Jk=R∩(I_(3k+1)+rJ_(k+1))，原安全K395现由[R835实际四阶成功](results/R835-certified-original-order4-termination-and-reduced-D.md)降为K1，D约化已证；仍缺准确D坐标。
-[AB消费者](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保持89579f79/28字段/双图齐次项，P=MaMb/Q=δa·b−a·δb与272×816全核rank544全部投影，不用ambient迹或一般理想商；仍pending，无真实I/P/Q/D/eta/height。旧全部界、SHA与公式保[压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
+[AB消费者](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保持89579f79/28字段/双图齐次项，P=MaMb/Q=δa·b−a·δb与272×816全核rank544全部投影，不用ambient迹或一般理想商；仍pending，无真实D坐标/eta/height；R835只先给原I4=C。旧全部界、SHA与公式保[压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
 
 **R820实际两图C已成**：[完整结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1，rank/colength20，292步/5380非monic/d27120，600ZIP/598manifest/590stage/289输入全核。原273行/F20/两锚点/Z^-eps不改，不重算。
 
@@ -110,6 +108,9 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **原平方、周期与指定留数**：[KS](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5保十八项S_(p−6)=−192Σf_i²g_j²/Q_h；[XF](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保原Fermat、CM点、E=6ρx、Ωη相位及对数微分。[PL](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、K=αCx/12及首p合法S=−[U^(p−1)]x²A⁵/(DC⁵)/4374；C首p分母U^(p+1)及逆Schwarz变换不容删去。[PC](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ=4/a_*²=−8c_r、rank1幂零p曲率和Wronskian1−κU^pJ，C非第二水平周期。
 [CR完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原β=(A/C)^5α0全部极阶≤11<p；实际τ三挠平移的非平凡character排正则余项。β=x^pν(y)、Carβ=xΣres_a(ν)^(1/p)dy/(y−a)，原P0只取R_p=res_(y=2/α)ν，S=αR_p/1458。CR16将它严格化为[w^(2N−1)](2−w)/(1−w)·(a/c(w(2−w)/8))^5乘−1/96。仍缺这个指定留数非零及原两变量same-h primitive/Legendre平方筛；未筛非零不代筛后非零，其他留数非零不代指定值。
+
+
+**原P1下降与各类C根留数**：[P1下降与C根留数](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给原β直接下降P1_x、∞留数全零、Carβ=F(x³)dx；简单/双C根的4阶/9阶与cusp完整11阶留数式保原Z=1−κU^pJ。c_*非零时全局Carβ非零，但指定P0值/同h仍未知。
 
 
 ### ordinary真实值与原全局对偶
