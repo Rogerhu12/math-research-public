@@ -30,7 +30,11 @@
 
 同一最坏physical row155819/interval461/radial1保持在完整A/g/H中；原W199.05060973500673非零。68 H目标43.524676836119276优于C43.75482112347814；完整43008条最终slack非负、最小9.159339953157541e−16。512预算停止；full stationarity4.650449587614451e−6/浮点R267 gap1.5631940186722204e−13不是认证最优性。14父关系和56源身份已核，五公开原件精确CLI取入；完整590574983B artifact由Actions reader43655562831成功读取，[完整字节附记](notes/2026-11-14-actual68-completed-byte-readback-addendum.md)已保存：190domain/1226NPY、108condensed/38阵及14raw415120992B、62源均核；131项小原读数与先读报告一致，完整QR因子未导出，不冒独立全因子审计，不新增科学门。
 
-68有14LEFT+7MID、43008行，连续466..486+p为7101列，实际6763且node484为零B。新72从68双SHA3f45b939/f4de267f出发，新增left484后15LEFT+7MID、45056行，实际B并集补齐7101，zero-layout为空；原node484 J/P与outside-C贡献必须真捕获保留。C4059和全部原预算/门/FD不变。72已按[完整接口](notes/2026-11-14-twenty-two-query-condensed-interface.md)与唯一requestbdeed8cf派发；43源pins/11shell/6inlineAST核同，实际run43656584956/sourceeff90c14/job132636358479正在原计算，等待真实结果。
+68有14LEFT+7MID、43008行，连续466..486+p为7101列，实际6763且node484为零B。新72从68双SHA3f45b939/f4de267f出发，新增left484后15LEFT+7MID、45056行，实际B并集补齐7101，zero-layout为空；原node484 J/P与outside-C贡献必须真捕获保留。C4059和全部原预算/门/FD不变。72按[完整接口](notes/2026-11-14-twenty-two-query-condensed-interface.md)与requestbdeed8cf完成，实际run43656584956/sourceeff90c14/job132636358479全部科学/FD/发布success。
+
+**72完整结论已保存：** [五试步报告](notes/2026-11-14-actual-request72-twenty-two-query-nearest-midpoint484.md)、[原读数](notes/2026-11-14-actual72-original-readout.json)、[身份记录](notes/2026-11-14-actual72-primary-identity-readback.json)。接受1/16，fresh W merit43.7023098469222→43.6768430926219、下降.025466754300296657；physicalmax.007108893905258098、BC2.451360962110479e−8、零锚完整仿射FD1.0376926981953254e−9。最近1/8仅midpoint484非有限，β²−.004507469409975373/4负；22已选查询均过，但完整RMS与actual merit未执行，不冒通过。74从实际72新warm/status f59e8c64/73a0c014仅增MID484。512/200原QP诊断及H/C不同repair均保留，不改科学门。
+
+[72完整字节附记](notes/2026-11-15-actual72-completed-byte-reader-addendum.md)由reader43658612002实际小原件对应：199domain/1284NPY、108condensed/38完整阵、14raw415120992B、65源及13+13observer；45056行、7101实际列、zero-layout空。五原报告副本、四公开报告和warm逐字对应；完整chainQR原未导出，不冒全因子审计，不重下605MB、不新增后继接受门。
 
 **同父λ比较：** [67正式结论](notes/2026-11-14-actual67-lambda27-same-base-tradeoff-and-byte-comparison.md)。66/67均从actual64出发、同20query/W/b/g/B，分别λ270/27。66接受1/16、总merit43.7556914034461；67接受1/512、总merit43.77799655333434，但同row461最大col为.007108963566953459，较66 .007109134582008451更小。最近拒步均唯一left466。67 stationarity1788.5803704212726/gap2194.117175196217是有限预算结果，不能称精确QP最优。完整181B/1168数组+b/g/c逐字同、14新raw已核；第一版工程失败保留。
 
