@@ -1,0 +1,36 @@
+{
+  "session": "serre-public-astra-20261115",
+  "result": "R787-two-probe-ended-source-IO-review",
+  "script_sha256": "ff9885d01ebb8168155bda32a4cf9b18e757477c21c80d5c3ab0375fd7b05f7b",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "source": {
+    "result": "R787-original-power5-function-relation",
+    "run_id": "43748801736",
+    "source_commit": "e2ac3449ac480c6f00bce197c0bd5202f8b1fda4",
+    "core_sha256": "73bac3a27c27e8e5411a0950d6efe7575c7b6e7d60dc1ed0b7eca94de1fcb093",
+    "artifact_id": 14176445740,
+    "artifact_name": "serre-global-R787-projective-two-probe-43748801736-1",
+    "archive_bytes": 195943656,
+    "archive_sha256": "1fdcdc967431ffaac36810967bdf2a0b989fc95d9041dea2e9e5de0cce49fd4d",
+    "expected_conclusion": "failure",
+    "manifest_sha256": null
+  },
+  "original_wrapper_sha256": "fe276ba3aec1c2d3e1c32b42e2f54e8a9c759aef2bee4aa8045493904567f926",
+  "method_sha256": "17c8927190cdc66aedf644004fe25ad7e3c24f042f5f6a660758d54c05c49a05",
+  "core_receipt_sha256": "1e79ad17ac89f22ef2980c120cda9f3e44c29d4404b7c1e98b7aa700073dd2ff",
+  "certificate_sha256": "d7e0e128ea8bc9b5efc2d50ebaa6bb502b6e1ea3e4ff7b2f7bd041206b141c5d",
+  "original_readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "current_readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "expected_outcome": {
+    "candidate_search_exhausted": false,
+    "search_node_budget_reached": true,
+    "search_lattice_budget_reached": true,
+    "exact_verified_orders": 0
+  }
+}

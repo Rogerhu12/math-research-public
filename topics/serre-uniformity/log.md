@@ -420,7 +420,12 @@
 - 真新core/tag中继承Γ、原425 Krylov与53源按旧身份消费，不伪装旧resume；源码分工实现中尚未触发新数学。19:00UTC实际API核五个数学run均在计算，H前态逐字归档并压缩为当前表。
 - 2026-11-15T18:58:27.109266+00:00实际pull/read 8d9024facee93e77897116bb94523fa8e4d00078，两README无diff；尚无新Mg/Γ、A/B或全p证明，主目标OPEN。
 
-### 2026-11-16 03:13 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 03:08 Asia/Taipei — serre-public-astra-20261115
 - 已证明中央链h=(p+3)/2自动primitive，并核原Legendre尺度为辅助j=2048/3；f_k/g_k/Legendre普遍单位仍未证，更新unitary笔记173077d4及open/H。
 - 直接读R829/R706原结果区分中央与端点索引，不重算任何旧素数；继续实际源非零和R815新消费者。
 - push前专用rules job132923414758实际pull到c7417ce0fe65f24a45f9e421868517218ba00442，两README无diff。
+
+### 2026-11-16 03:09 Asia/Taipei — serre-public-astra-20261115
+- 读完R787双probe首格真实run43748801736：894.401秒/42候选全拒/0准确阶；预算尽而5个probe对未执行，42闭合回执和1380原输入全部保真。
+- 激活two-probe ended-IO，仅读实际manifest、LLL、失败残差回执及队列，不重做数学；后续从原队列继续。
+- 新workflow只读权限/一日artifact，属于本课题计算设施；push前rules job132923811546实际pull到4ced29a58909b7096b7b8b9001b1fb8df75ded9d，两README无diff。
