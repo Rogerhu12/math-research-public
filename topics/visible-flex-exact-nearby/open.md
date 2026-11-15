@@ -32,7 +32,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 newton_source监视，root消费。v2溢出/v3旧README guard与全部lost计数、原输入/失败及恢复身份逐字保92f214bd7410e499390204436e1fa50ed3f607ed本路径第2节与v4契约；v3数学child未知，旧success不重算，lost新量按用户授权重做。
 finite19343635487128/8 .003509417仅有限，旧whole .007490301另一窗；全频negative .005/||q*−Z||<4.572198020300e−6独立。旧同F5970/伴随7908/同97帽/1886future仅恢复。
 [v4契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。全193验后97、signedW/任意指数/同选点/mean保；每10min真pull/两README/已读live规则、published-origin容量/预Git小stdout/终止清点/同身份成功复用不变。
-root亲读15:46:17 process94a54674/de028e31：future/product5970done、past4368，combined111groups/136queued/3consumer，childnull/completefalse。该次真pull15:46:16.350045→710f16b432b8fa6ad360442a17400b247d3d2c75两README空diff；容量198703571B。
+root亲读15:56:23 process6428b016/b3b7c15f：future/product5970done、past4592，combined129groups/143queued/3consumer，childnull/completefalse。该次真pull15:56:21.627817→bf92d4877e77c454ba916fce2280f959202a8b40两README空diff；容量198849274B。
 
 187groups/三HY/final尚未全成。数学仍固定repaired M32 δ0/η0/ν0；继承1e−9字段不是BVP参数授域。selectedδ*的低块转移按Dδ另付。
 
@@ -50,6 +50,8 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 [CN全圆周一阶正规化的显式逆](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2：T=Id+MwI可由实周期一阶ODE全频准确求逆，无额外小C或finite-cutoff假设；保两mean和全部有限秩。以完整c的C=||c−μ||H3、K0=1+2C exp(17C/8)，强余项Rexp≤K0[(1+13C)R0+3|μ|C+C²/16]+μ²/4，常μ的scalar-exp二阶费也全付；不把β/Xi标量代完整c。actual C/R0、真背景phase稳定、GH数值门和physical有限border仍待。
 
 [AC真实共轭的完整H3 density转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46：旧43588332723的真实H′ A1/128界付H四导；c=(c0/H′)∘H⁻¹、μmean不变，C≤2^20||c0−μH′||H3，全physical4j/measure/有限rank保。完整c0−μH′的三导仍待，不能用c0−μ或β标量替代；不重KAM。
+
+[PF逐点root有限部与完整真ray首系数](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf：全两row/oldI/错相−SI精确消去后，Broot的函数有限项0；第二反项g1hat=g1pt+g0dφ*必须保actual Jacobian。Bρ=J+a+(H+)−J−a−(H−)，减g0ρ^-5/2及g1hatρ^-3/2后可积，腰部c0=X−′(Croot∘X−)。同root/waist方向、radial gauge、两mean和seam阶数全保；旧scalar均值结论不代非mean。完整H3 norm与强R0尚未actual，下一新函数消费不得重旧scalar/ray/KAM。
 
 [GH完整强返回与physical high块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)：R:H(s−4/3)→Hs、χJ=128CsΛJ^-1/3<1才给正确graph域右预条件逆；高窗可由低逆bootstrap。C0≤1/32只是J97目标，volume不是Cs；phase投影与physical P96不对易，完整finiteborder/Schur、H16–17两输出和全部mean/source仍待。原raw A_HL的97..160支撑不传过old-circle逆。
 H1/Cδ/CS全97伴随及参数行费、Dδ完整体算子/actual43713242980的全部单位/域/来源保ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f本路径第2节及原文：L2伴随≤108/角≤2^16、K*另付max(sδ,1)cδ/5，无√97；D的e<1.049107e−5/eLH<3.071831e−5、新νwhole<4.324391e−6/negative<1.061687e−6仍非全ν。
@@ -164,6 +166,6 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 
 全部旧输出普通删除、完整参数/原域/producer和精确恢复清单保b04a6a5f7abfd1574608750392fe559413d8a259本路径第8节与HANDOFF递归原档，无historyrewrite。最近四件R64/R66/R91/R95删1049034B，清单notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json/ae406265，restore dc10bb948416e2f89f4cd487867b6a06cceb5f48:path+bytes/SHA；更早ec6c38bc/da6b6e3a/cbb63584全部清单和失败原字保留，成功数学不重算。
 
-每结论独推，非FF立即真CLI pull --rebase后保远端循环至成功，禁force；每小时真pull后查两README只读diff立即遵新规记H。15:20定时/15:22:44非FF CLI无executor，根规8限<100KB UTF8 connector，禁binary/gzip与ref冒pull。root亲读Green15:46:16.350045真实pull→710f16b432b8fa6ad360442a17400b247d3d2c75，双README空diff，容量198703571B；后续consumer再实核。
+每结论独推，非FF立即真CLI pull --rebase后保远端循环至成功，禁force；每小时真pull后查两README只读diff立即遵新规记H。16:04:04定时/15:57:29非FF CLI仍无executor，根规8限<100KB UTF8 connector，禁binary/gzip与ref冒pull。root亲读Green15:56:21.627817真pull→bf92d4877e77c454ba916fce2280f959202a8b40，双README空diff，容量198849274B；后续consumer再实核。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

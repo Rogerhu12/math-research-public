@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 PF：逐点根有限部与完整真射线一阶系数](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)。重建完整两波行及原primitive后，证明root标签上的有限项函数为零；真Jacobian给新增g1hat反项，得到完整c0的有序收敛积分和waist density转换。SHA256 5856c8cf5fac8c75997a6e3d8c9aba1ad88cb136d1ae184985164d1745aab026；全H3范数、强余项、有限border和真core未授。
+
 - [R133 BD：微分后collar方程的完整degree32分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)。基准微分算子的band64与低→高常矩阵消去给独立shell列；所有canonical／实际差、primitive/nonmean投影、真实drift导数和mean完整收费，接NC成新的五列整行。高自身吸收仍用完整actual矩阵，数值和未知body待付。SHAbb792252f0a3400547293ba5d8e9f9f5c2aa842dcf749abfd3f993abd478935c；BD.2使用由componentwise A0取得的vector L∞，不额外授vector Fourier-sum norm。
 
 - [R133 SP 实际：完整primitive／均值严格传播与腰部读出](results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md)。43731464771/1 child0/20门/7AST成功；同fullδ的正反两状态传播、ordinary源和独立jump、真实ng/q及normalizer有序费用完成。正反范数<5.867924/173.871627，当前RJ整源到waist贡献<7.651043e11；不是全return/GH或边界选择。SHA95d3abfe8f05a14e15f1570f85b379a06120700c157549e9d1f507ade2ee58aa。
