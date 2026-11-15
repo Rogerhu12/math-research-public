@@ -1,0 +1,89 @@
+name: visible-exact common root normalizer two windows
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-common-root-normalizer-two-window.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-common-root-normalizer-two-window
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  TF_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-root-normalizer-two-window-CI-inputs.json
+  TF_MANIFEST_SHA: 027a4462a2cc0424abf00bb03456b63b0811700e98e5ddd28ba1d4d793aefacf
+  TF_PIPELINE_SHA: bf71639da0bc9e41ab86f9530fe02b34399c18e63e9041fa0c3abd0852ccdc4b
+  TF_WORKER_SHA: 17f825e6e4cf62676e1ef57d5cda3c095aa1656bca1ccc14a116e2053d21faae
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  common-root-normalizer-two-window:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_root_normalizer_two_window_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-root-normalizer-two-window-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_root_normalizer_two_window_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['TF_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_root_normalizer_two_window_public_worker.py --mode hydrate
+          --manifest "$TF_MANIFEST" --manifest-sha "$TF_MANIFEST_SHA"
+          --pipeline-sha "$TF_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the current-only root-normalizer consumer before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['TF_MANIFEST']).read_text())
+          for role in ('source',):
+              item=next(x for x in manifest['files'] if x['role']==role)
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read two completed scientific records and evaluate the new root cutoff and two windows
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_root_normalizer_two_window_public_worker.py --mode run
+          --manifest "$TF_MANIFEST" --manifest-sha "$TF_MANIFEST_SHA"
+          --pipeline-sha "$TF_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-common-root-normalizer-two-window-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-common-root-normalizer-two-window-output"
+      # Root rule15: all twelve inputs are current small text; zero old binaries or artifacts are restored.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain120000 bytes before any new arithmetic.
