@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 CN：全圆周一阶正规化的显式逆与完整强余项预算](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)。不用小范数假设，准确保留两个均值和有限秩，给全频T逆及其强余项收费；scalar exponential二阶余项亦完整保留。结论SHA256 427387a2f3836d95b5f79546f0c6d41e8d6307abbb76611073d2801364fda9db；actual完整c/R0、GH门及物理有限border未付。
+
 - [SP：完整 primitive 与均值的严格负区传播](results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md)：对同实 fullδ 显式背景，用 $y=IT(q)h,z=\Pi T(q)h$ 的两状态建立真正 L2 正反能量，$\sqrt q$ 权精确付径向曲率成本。完整 ordinary 源、affine jumps、两均值、N 输入及 waist 的真实 $n_g/q$ 因子均保；旧3071 H1四态流不被重新标作此算子。解析合同根与独立代理核完，新的两态实际标量门待公开Actions。
 
 - [LC：既成局部组件与高频 collar coercivity](results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md)：原4650完整保存的 U/V/nonmean/fullmean/Smean/drift 给逐分量 P 界，保连续修补、selected差和未知C0球。准确平方能量先吸 L/(a n)，再检 cp#AH/n，成功才给完整高输入吸收与半阶迹；十二候选实际门待公开计算。Root、phase全文及来源独核，旧源/积分均不重算。

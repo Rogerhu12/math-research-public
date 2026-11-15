@@ -47,6 +47,8 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 三个输出whole/negative/cut始终不同；真实high inverse GH及其body/cut双输出
 另给非负B后，才用2×2 AB的三条有理门闭全频Schur。
 
+[CN全圆周一阶正规化的显式逆](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2：T=Id+MwI可由实周期一阶ODE全频准确求逆，无额外小C或finite-cutoff假设；保两mean和全部有限秩。以完整c的C=||c−μ||H3、K0=1+2C exp(17C/8)，强余项Rexp≤K0[(1+13C)R0+3|μ|C+C²/16]+μ²/4，常μ的scalar-exp二阶费也全付；不把β/Xi标量代完整c。actual C/R0、真背景phase稳定、GH数值门和physical有限border仍待。
+
 [GH完整强返回与physical high块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)：R:H(s−4/3)→Hs、χJ=128CsΛJ^-1/3<1才给正确graph域右预条件逆；高窗可由低逆bootstrap。C0≤1/32只是J97目标，volume不是Cs；phase投影与physical P96不对易，完整finiteborder/Schur、H16–17两输出和全部mean/source仍待。原raw A_HL的97..160支撑不传过old-circle逆。
 H1/Cδ/CS全97伴随及参数行费、Dδ完整体算子/actual43713242980的全部单位/域/来源保ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f本路径第2节及原文：L2伴随≤108/角≤2^16、K*另付max(sδ,1)cδ/5，无√97；D的e<1.049107e−5/eLH<3.071831e−5、新νwhole<4.324391e−6/negative<1.061687e−6仍非全ν。
 [F实际finite193合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)29a24167待Green final process+summary、Dexec、cut process+summary五件。g/p/a/c各不同，κ0/1/5和CS完整界min分开；[[gB e,pBε],[gC e,pCε]]三det后才授sameδ三窗四列，失败充分门非奇异；全部source/mean/high/whole/negative/cut域保原档。
