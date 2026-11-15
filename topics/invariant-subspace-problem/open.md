@@ -148,3 +148,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 一般头/尾的返回范数加强不能替原两费；已有palindromic物理反例的范围与同源负图观测均保旧证明。继续原W混合配对、真实强位和普通域，不以形式共轭、有限模型或阶段结果收尾。
 
 [前29规范Q核和七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)已正式付清：U为31整，FU=(I,0)，前29真来源与p768在全6188坐标的同余由单位块唯一性推出。当前同job核新六列实际高度，并仅一次用原17系数模65521核删列后矩阵秩；后者只给Q下界，未预报4325或继续素数扫描。
+
+[原Y负轴首临界点](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)现已独立证明，与N结论各用本身原导数/分母。两原零逆芽均有领先12.5的真实上界障碍；不以任意临界值代原分支，也不拿它支付强位Green或普通返回。
