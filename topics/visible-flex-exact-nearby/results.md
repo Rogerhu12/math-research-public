@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 P：冻结全部metric参数后的准确相位与固定marker族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)：真正族参数是几何角τ，ν/η/Γ只设计一个G并冻结。单个真G、两盘同一action-equivariance（允许固定不同offset）及原全域几何门→Rτ G S−τ再作同四块真实曲率patch，给共同metric、C²连续、固定H及含反射非全等；未标记phase仍全等。无需另解ν族IFT；单个G/全匹配/几何仍待。13012B/SHA256473260bec7280863f9c67f90225b9ad56042315ea5f298f6a64a8cf2bc320af6。
+
 - [R133 O：实际两输入帽的long tame、完整物理型与独立源](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)：直接用真实Φ输出和两rough输入，保q≤8144/全known-lag/one-high/adjoint/mean。明确O21域内，完整actual对真fixed-CR参考d1792<2^-6000000；接D后双逆v#差<2^-3000000，独立两个N2低门均付。γ域匹配、高Cq新账/augmented/frozen-metric族仍独立；μL sB源、sR比、未screen跨度与一λ保。17797B/SHA256 efd2a51305feb0822bbcf911ab2ccdc4090f9f71b61b4d50a11a9dfafbd00524。
 
 - [R119 D：两actual外行到完整mixed双权Schur](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)：物理d1792无sB；先正片两半阶Neumann与三个真实Poisson端口，再high/deep，完整Lnew ΔU Rold保非zero长程。双逆v#差<2^3000000 d；d≤2^-3500000支付独立N2门。B源和反向height列<2^1500000及2^3100000/sB、两mean/未screen跨度/独立荷均保；zero fixed-CR参考保finite反射。18706B/SHA2566b2dee9564e0c175e0d0bdbcc969e5824008905c23c0cc42390fd5cfcc90f28f。

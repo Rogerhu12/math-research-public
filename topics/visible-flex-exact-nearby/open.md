@@ -44,10 +44,9 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读09:33过程42080B/SHAcd4a3f40…：future3904=1886旧+2018新、
-past1472、product2480、0group，无failure；
-signed W norm log2≤−103，selected E≤2^-5。
-旧scalar诊断2928不被消费。继续三流、187groups、三个完整HY及final。
+root已读09:43过程42535B/SHAaf94786b…：各stream末future4080=1886旧+2194新、
+past1648、product3024；combined较早4064/1632/3024，0group无failure。
+signed W norm log2≤−103，selected E≤2^-6；旧scalar诊断3180不被消费。继续三流、187groups、三个完整HY及final。
 两个port前沿尚未会合；不从线性时间外推预称成功或失败。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
@@ -248,7 +247,17 @@ v=S_Tu、w=−R_v S_Tf没有第二截断；a1856/b6396、
 参数高度Hp仅在同截面差中相消；跨端ΔHp、未screen meanheight、
 一个λ、ν及所有独立荷须同augmented近似右逆联立。
 body/holonomy mean收敛不等于全部外匹配。
-当前E/L/B迭代冻结最终Γ2，但沿Γ1*(u)重建设计metric；这给最终设计metric的一成员。**整个族固定metric的量词尚未闭合：** 原[C6–7](results/R133-supplement-complete-C0-state-and-nu-geometry-response.md)给Eν=E exp(νw)，故ν也是intrinsic设计参数。最终ν*/Γ1*/Γ2*及其它metric数据必须全部冻结；之后真正extrinsic挠曲族的完整增广逆与非线性入口必须另付。不能把Γ1随u变化的graph收敛直接写成README所需的固定metric族，也不能据此推否定结论。
+当前E/L/B冻结最终Γ2、沿Γ1*(u)设计一个最终metric的成员。
+原C6–7的ν也是intrinsic设计参数，最终ν*/Γ1*/Γ2*/η及其它metric数据
+须一次选定后全部固定。
+[P准确相位与静态marker入口](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)
+已从原第五marker定理§5复核：单个全闭精确径向metric面G、
+双真盘上的同一材料作用G∘Sτ=RτG、原G14/G17/G24一旦成立，
+Rτ G S−τ后作同四块真实静态曲率替换，即得共同最终metric族。
+两盘允许不同但固定相位offset；不能只用盘的集合旋转不变冒逐点固定。
+**不另要求一个变动ν或重新求整族的IFT。**
+当前欠项是单个G及其完整augmented匹配/平盘/几何条件，
+不是一个额外未指定的ν/flex分支；沿Γ1的设计收敛本身也不授这些条件。
 
 ## 7. 单一frame、全部匹配及最后几何
 
@@ -287,8 +296,8 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
 本机executor持续不可用，09:28:36定时及09:18非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull09:33:42.135206
-到3957ff05d5e31113df6424408502fd143c62e2f2，两diff空。
+ref读取不叫pull。最新亲读runner真pull09:43:45.427780
+到0f896b57384f3de880bfb5202c9ef773064a2c74，两diff空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

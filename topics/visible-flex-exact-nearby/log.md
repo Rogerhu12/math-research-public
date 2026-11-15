@@ -273,3 +273,11 @@ README核9e7fca7702c203fd1bf41436b959b81abe0b6ad3无变。root全文读D1–27�
 ### 2026-11-15 09:41:08 UTC — actual两输入cap→long局部与两N2低门独推
 
 README核47bda30230e7aea8a85b5ecd039832c023249f87无变。root全文手推并核O1–27；newton独核O8–20 product Cauchy、fullkernel/trueadjoint与holonomy total-flux零mean，tail亲读原E/S/旧K后核O21–27物理单位与真reference。修独立f*source准确−μL sB DgK、阶窗p≤8176，显列ε/rB最多2^60已含固定8192bit费用；reference A=n1824+n64+ε≤2n1824+ε的因子2留足。旧Z小域不用于当前actual帽；只zero-reference在旧K合法域重实例化，finite反射/EB0并未设0。actual-vs-radial<2^-6167547/ref<2^-7996412→d<2^-6000000，再用刚发布D给完整weighted差<2^-3000000。两N2低门仅在O21明确输入域已付；未知inner匹配γ、高费用账、完整设计ν与冻结全部intrinsic后的extrinsic族仍保。最终17797B/SHAefd2a51305feb0822bbcf911ab2ccdc4090f9f71b61b4d50a11a9dfafbd00524，无新数字执行。
+
+### 2026-11-15 09:46:08 UTC — 原几何相位族入口完整复核，撤去多加的族IFT义务
+
+README核9f56579f74af89e27d30f180168b4a98337ce4ab无变。root全文读原第五marker13447B/SHA0c06ca9c…及新P1–17，newton全文独核原G§5和实际README的机制不限/含反射δE条款；tail核几何身份。准确参数τ来自RτGS−τ，所有η/ν/Γ先为单个G选定再冻结。两平盘要求同一材料action-equivariance，不能只靠图像圆对称；root审改为允许固定不同α±，不增加同时对齐两零位的假门。真静态曲率patch改变metric但各τ一致；四唯一非共面峰固定全部E(3)，独立腰部normal-tube见证排恒等，紧性给δE>0。未标记phase本来刚体。
+
+前一轮把“冻结参数后另求整族augmented逆”列作额外义务，是遗漏原G§5的已有条件构造；现已明确纠正T/H/open，并保真正欠项：单个精确闭G、全部mean/height/frame/接缝、双真实平盘与原G14/G17/G24。新P13012B/SHA473260bec7280863f9c67f90225b9ad56042315ea5f298f6a64a8cf2bc320af6，T仅scope更新SHA5483db284195326000183810807eb432d544c472b4d96ba2a7bf153f7eb342de；无数字重算。
+
+root亲读Green09:43 process3f5a7c30…42535B/af94786b…：15次真pull的README diff均空，最新09:43:45.427780→0f896b57384f3de880bfb5202c9ef773064a2c74。各stream末4080/1648/3024，combined较早4064/1632/3024，0groups无fail，signed W≤2^-103。H压缩前全量在3ed8919120ad6a00a1fbf3c91b55a19a1be90f99:本文件。

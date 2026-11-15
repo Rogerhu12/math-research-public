@@ -296,7 +296,13 @@ finite-Sobolev norm独自推新的全层几何极限。
 称为整个族保持同一个 metric。
 原[C.6--7](R133-supplement-complete-C0-state-and-nu-geometry-response.md)
 给 $E_\nu=E\exp(\nu w)$，所以 $\nu$ 也是 intrinsic 设计参数。
-最终须同时冻结 $\nu^*,\Gamma_1^*,\Gamma_2^*$ 和其它 metric 数据，
-再按原真正 extrinsic 参数构造完整挠曲族；
-冻结全部设计参数后的增广逆和非线性入口仍须另外支付。
-现有 E/L/B 值图收敛与本 frame 接续不自动提供该结论。
+最终须同时冻结 $\nu^*,\Gamma_1^*,\Gamma_2^*$ 和其它 metric 数据。
+准确的后继见[P真实相位与固定marker](R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)：
+一张完整精确径向metric面 $G$、两真平盘上的同一材料作用
+$G\circ S_\tau=R_\tau G$ 及原全域几何门一旦成立，
+$R_\tau G S_{-\tau}$ 加同一四块真实静态曲率patch即给最终共同metric族。
+两盘可以有不同但固定的相位offset。
+未标记相位的像本来全等；真正非全等来自静态曲率峰与独立腰部见证。
+因此不另要求一个变动 $\nu$ 或冻结设计参数后重新求解整族的IFT。
+当前尚须完成单个 $G$ 的augmented匹配、平盘准确身份和原全域几何门；
+现有 E/L/B body收敛与本frame接续不单独授这些条件。
