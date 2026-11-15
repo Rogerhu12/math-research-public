@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd，池4432/4525版本1/2，B.00025、双streak0。γ末17.022353404161095/18.064283125328743；8events全commit、pending0，state57aeeb039749c574598477d41764c7651b7314c8530f150c83d3691815ade498。经验γ仅下一primary的active group8 target=max(old,1e−7+γB²)，本模型冻结；SOC原J/y/RHS、全部门/控制器/159→163不改。
 
-**唯一新接口在接线、未执行**：m7旧159方向p未序列化；四全网attainer的已付e/f可给任意方向有效unit-ball支持。保438全部旧行、附≤4新行；无新行0LP，否则只ordinal11，保SOC12，不开m8。旧evalSHA047cefae968152d170387cf64a9f7b0f132089685472c10868de9379967d93e9按原epoch metadata复建（历史initial375仍真），当前438/learning/池/accepted7/ledger另恢复。恢复几何/J/新JVP计剩余active/values；超限0LP退出，绝不重做LP10。薄core+新16人工及根transfer/constructor/recovery/audit正静态核；全部执行仅公开Actions。
+**唯一新接口源码已冻、首次请求待结果**：[一次m7见证细化](notes/paid-attainer-model7-single-refinement-implementation-20261115.md)。旧p未保存，四已付e/f生成合法unit-ball支持；保438全部旧行、附≤4，零新行0LP，否则仅ordinal11/SOC12，不开m8。恢复旧evalSHA047cef…及原epoch metadata（历史initial375）、当前438/8学习/池1/2/accepted7/LP10/values14/active35.5424；恢复J/缓存/新JVP全部计剩余额。6新源/1workflow/request153绑定，4×4新人工只此首次，旧18/20/19/26/cache仅回执复用。原assess/SOC/backtrack25150字符及controller390字符未改；末gate用源独立完整门或新accepted trial14门，不添旧初末audit。根与tail静态核通过，尚无执行成功声明。
 
 ## 4. 纸证与准确剩余门
 
