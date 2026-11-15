@@ -1,28 +1,19 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "53b5620221fd5a4db3767d6762a11595acde1e77",
-  "createdUtc": "2026-11-15 20:06:32 UTC",
-  "message": "Prove complete seventh connection and launch exact continuation with original polynomial core",
+  "parentCommit": "b750085a6000e64b4ff38b4c479e2031a5da4659",
+  "createdUtc": "2026-11-15 20:07:53 UTC",
+  "message": "Prove projection divisor removal from nine-target residual and original source cost",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-infinity-complete-seventh-connection-one-sixteen-heads-and-length63.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-infinity-seventh63-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-recomputed-temporary-byte-recovery-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-continuation-session-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-continuation-session-request-789f.json",
-    ".github/workflows/invariant-subspace-r150-exact-continuation-session.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-input-789f.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-exact-continuation-session.yml"
-  ]
+  "dispatchWorkflows": []
 }

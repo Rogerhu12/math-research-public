@@ -21,6 +21,8 @@
 - [射影gcd381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)配新∞63给Δaff≤318、$R=\Delta_{\rm aff}/K_{158}$ 次数≤160，$K_{158}=s^{66}(s-2)^{12}(s+6)^{12}F_+^6F_-^6E_8^4$。[全局删二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)给 $h_*=h_0/(s-2)$ 与h0成员性等价、R(2)≠0；九Rh*tj全局来源、总乘子≤183。[同九费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)保原全部输出，三支8526/8531/331；R系数/高度/固定31分母未算。
 - [共同最小目标湮灭式](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)为 $s^3F_+^aF_-^bE_8^cU$，$a,b\le2,c\le1$；$U\mid R_{\rm out}$、$U,R_{\rm out}\perp\Sigma_0=s(s-2)(s+6)F_+F_-E_8$，新界次数≤160。九Rout h*tj仍有来源/费8531。U是否1仍开；旧generic例外Σ含未知Δ。[原P符号56×22](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)已证：在S=Q[s,Σ0^-1]分离120单位与13自由，余56×22 G；四层线性逆给h⁴G多项式，保全部Γ，真实ΔP外支撑等于其全部22子式gcd。实际gcd尚未算。
 
+- [外投影消目标余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)：定义Ω为原ΔP的Σ0外部分、d=degΩ，则Ω|Rout、0≤d≤160，九目标额外最小U|Rout/Ω。M=Rout/Ω给九Mh*tj全局来源、degM≤160−d；同原I/J/B与K158Ω的三支8526−d/8531−d/331−d，统一费8531−d。Ω尚未实际求出，不能预填Q60或关闭U。
+
 ## 活跃执行与恢复
 
 - 旧run43740928483自17:24:27运行170分钟loop/180分钟job，前18步actual完成，约20:14结束。新350分钟loop/360分钟job已排，由exact-continuation-session源码/request接替；每30分钟/每步/推前实际pull核两README。新run号待实际dispatch回执，未假定跨job临时缓存。
