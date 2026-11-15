@@ -24,7 +24,7 @@
 
 **[完整204后继](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)** 由2040全β1源核剥1834真Bsat精确核及θ3、θ4−e9而来；保θ1/2/5/6/7、e9、ω3…198、te8、tζ2。ωj=ζj−(aj−15bj)e8−17bjζ2。第二尚新196ω+tζ2共197类，第三必须保全204真实第二提升；完整下一核以(I−TC)、T(sI−J)给，含非恒定关系。
 
-**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。新runner/4native/Schur包装在实现；root Actions入口已备，30输入/7恢复工件（6旧+third197），不再下载five，selector取主线96344B/SHA dd4e73d9f8b1b3d173a100e5edaaa028b1acece60d6caf50c945c223e7b3d383。四编译各30秒/512MiB、数学共享300秒；每个实际数组/行cursor/checkpoint保存，新页结果未预填。
+**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。**[完整第二页入口](notes/2026-11-15-r150-saturated-second-page-interface-789f.md)已冻结：** 14文件含manifest，SHA86c2b577c455c76f1920108d45c1ef7737ec7a668eb60adb8a05e1d3b1bd4194；contract SHA28411e3f047d93221fc929c84a31529e749237e6c208d766187c27fe738890d9。四native已实际编译、三新py及root入口AST通过；新数学尚未执行。30输入/7恢复包（6旧+third197），selector原96344B/SHA dd4e73d9f8b1b3d173a100e5edaaa028b1acece60d6caf50c945c223e7b3d383；不重197/selector或下载five。四编译各30秒/512MiB、数学共享300秒；所有真实source/余量/行cursor/checkpoint全保。先实际推再dispatch invariant-subspace-r150-saturated-second-page.yml；只允许两种需要继续的第二页outcome，第三/全原p6/char0均false。
 
 ## 实际边界：同源两费、完整gauge与真实投影
 

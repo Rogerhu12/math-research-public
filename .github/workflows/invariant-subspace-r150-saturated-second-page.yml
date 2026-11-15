@@ -1,0 +1,164 @@
+name: ISP R150 complete saturated second page and true next source kernel
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-saturated-second-page-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  saturated-second:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bind the full S2 source matrix and nested precision contract
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py --mode source
+      - name: Restore the completed t96 artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-t96-download
+      - name: Restore the original200 complete kernel artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-high-kernel-bockstein-recovery-43605503242-1
+          run-id: 43605503242
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-old200-download
+      - name: Restore the completed all198 artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-all198-download
+      - name: Restore the completed seven artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-seven-saturation-recovery-43630666145-1
+          run-id: 43630666145
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-seven-download
+      - name: Restore the completed current artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-augmented-seven-second-recovery-43634830833-1
+          run-id: 43634830833
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-current-download
+      - name: Restore the completed ninth artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-ninth-first-recovery-43638830039-1
+          run-id: 43638830039
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-ninth-download
+      - name: Restore completed197 third-source bytes without rerunning mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-197-third-recovery-43653360404-1
+          run-id: 43653360404
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-second-page-third197-download
+      - name: Require every exact original input and retain only the frozen selected files
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py --mode restore
+      - name: Install the exact finite-field dependency and record the compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0 numpy==2.2.6
+          python3 -m pip show python-flint numpy > "$ISP_SAT_SECOND_OUT/results/python-runtime-versions.txt"
+          g++ --version > "$ISP_SAT_SECOND_OUT/results/compiler-version.txt"
+      - name: Compute all204 second-page sources with one shared300-second clock
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_SAT_SECOND_T96" \
+            --old200-recovery "$ISP_SAT_SECOND_OLD200" \
+            --all198-recovery "$ISP_SAT_SECOND_ALL198" \
+            --seven-recovery "$ISP_SAT_SECOND_SEVEN" \
+            --current-recovery "$ISP_SAT_SECOND_CURRENT" \
+            --ninth-recovery "$ISP_SAT_SECOND_NINTH" \
+            --third197-recovery "$ISP_SAT_SECOND_THIRD197" \
+            --selector-receipt topics/invariant-subspace-problem/notes/r150-197-unscaled-selector-actions-789f/43654741434-1/unscaled197-first-carry-source-space-receipt.json \
+            --out "$ISP_SAT_SECOND_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_SAT_SECOND_OUT/results/actions-console.log"
+      - name: Record the actual second-page result and required continuation
+        if: always() && env.ISP_SAT_SECOND_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py --mode outcome
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_SECOND_OUT != ''
+        with:
+          name: isp-r150-saturated-second-page-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_SAT_SECOND_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_SECOND_OUT != ''
+        with:
+          name: isp-r150-saturated-second-page-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_SAT_SECOND_OUT }}/recovery
+      - name: Publish this actual result directory with real pull and immediate rebase retries
+        id: publication
+        if: always() && env.ISP_SAT_SECOND_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_SAT_SECOND_OUT/results" \
+            --recovery "$ISP_SAT_SECOND_OUT/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-saturated-second-page-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_SECOND_OUT != ''
+        with:
+          name: isp-r150-saturated-second-page-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_SAT_SECOND_OUT }}/results/publication
+      - name: Require complete second-page data and successful publication
+        if: always() && env.ISP_SAT_SECOND_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_SAT_SECOND_OUT'])/'results/actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Second-page continuation incomplete; all actual arrays and checkpoints retained')
+          pp=Path(os.environ['ISP_SAT_SECOND_OUT'])/'results/publication/publication-receipt.json'
+          publication=json.loads(pp.read_text()) if pp.exists() else {}
+          print(json.dumps(publication),flush=True)
+          if publication.get('status')!='pushed':
+              raise SystemExit('Actual mathematical outputs retained; real Git publication requires continuation')
+          PYCODE

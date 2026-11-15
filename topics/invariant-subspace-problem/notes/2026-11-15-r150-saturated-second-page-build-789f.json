@@ -1,0 +1,38 @@
+{
+  "format": "r150-saturated-second-local-build-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "newMathematicsExecuted": false,
+  "compileSecondsEach": 30,
+  "addressSpaceBytes": 536870912,
+  "compilerFlags": [
+    "-O2",
+    "-std=c++17"
+  ],
+  "native": [
+    {
+      "file": "2026-11-15-r150-saturated-local-vq-789f.cpp",
+      "exitCode": 0
+    },
+    {
+      "file": "2026-11-15-r150-saturated-local-normal-789f.cpp",
+      "exitCode": 0
+    },
+    {
+      "file": "2026-11-15-r150-saturated-integer-jets-789f.cpp",
+      "exitCode": 0
+    },
+    {
+      "file": "2026-11-15-r150-saturated-local-original-transport-789f.cpp",
+      "exitCode": 0
+    }
+  ],
+  "pythonAST": [
+    "2026-11-15-r150-saturated-second-page-matrices-789f.py",
+    "2026-11-15-r150-saturated-second-page-runner-789f.py",
+    "2026-11-15-r150-saturated-local-unit-solve-789f.py"
+  ],
+  "pythonASTExitCode": 0,
+  "note": "Only bounded compilation and AST parsing were executed. The owned local files had one patch-added final blank line during compilation; this single nonsemantic terminal newline was removed to match frozen UTF-8 blobs. The final solver degree-eight zero-tail optimization was AST parsed, not mathematically run. Actions recompiles the final actual sources under its declared limits.",
+  "initialCompileCorrection": "The first VQ compile detected a missing <map> include; the common header was corrected before all four successful compiles.",
+  "newMathematicalInputReadOrComputed": false
+}
