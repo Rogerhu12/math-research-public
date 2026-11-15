@@ -169,3 +169,5 @@
 - [R209：完整canonical pure成本都有二阶profile jet代表](results/R209-complete-canonical-pure-costs-have-second-jet-representatives.md)：R56完整分子收缩给n_r=2aa_s与明确N*，原N−N*外无r；先真s导再零history使Ds(U²+2C)|0=0，v−B_mN的全部高jet只剩端势Ds(a³q‴/6)，常germ消端点。故πU⊂A2，保N2与全部history，不授πU=πR、mixed或独立gauge。辅助参考连接只作universal多项式—Volterra身份，不换原I/q/锚。
 
 - [R210：最后权−4完整pure像及真实闭hook全pure归零](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)：actual43688302217/source1b032593，152原state/123归一列+40响应，真rank9/154全原关系零，127新收缩及4人工过。πU−4=πR−4排最后pure字符，R202给Cp=P、R206给真实S=P。原闭hook成本以反向双字入U，实际D支付−πV0/4，四Klein副本保全部新位移/非零T并使整pure零。最右不可校正period门整函数消除；mixed/ruling、无常段准确迁移和终局仍欠。
+
+- [R211：固定圆period的有限相容条件与准确Green右逆](results/R211-finite-range-conditions-and-Green-inverse-for-fixed-circle-period-gauges.md)：G″紧支撑J的明确目标类，正则A_f上2齐次adjoint矩+7 Green矩准确iff且唯一；有限m个内部简单退化点另需m条累计通量，Hadamard保持原常数给光滑延拓。R210 pure0后两真实mixed函数逐一通过即可同谐波w消整个period，保第三range/种子/左尾。未验具体目标或同w ruling，排除类与退化边界明确。

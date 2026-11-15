@@ -52,6 +52,8 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
+[R211](results/R211-finite-range-conditions-and-Green-inverse-for-fixed-circle-period-gauges.md)已把一个明确局部gauge类的period变成可充分求解的有限门：先验G″紧支撑J，A_f不零时2齐次adjoint矩+7 Green矩准确iff；有限m个内部简单零再加m个真实累计通量。唯一同锚右逆保左affine尾/六矩/种子。R210纯零闭hook只剩两G_c/G_s，若两者通过同J条件即可同一2谐波w付全部period；下一必须具体检查这两个真实函数的支撑/通量，而非停在模板。固定w后再付完整ruling商；失败仅排该J局部类，不排全局gauge。
+
 [R180](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md)已给真实闭合低阶例：Klein八边保M0、T=κH≠0，H在所选R46圆的低阶通道不可见，完整二/三阶range仍成立。对f/g支撑邻域准确仿射w，交叉三矩逐项0；补真实三阶后，第四周期准确变为V−6κC a(θ)(f″)²，C可正负，a为周期函数且0/π零。sin²选择不动pure−4，保同几何/目标/圆，没有未知C²周期成本。
 
 [R183](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md)已构造真正重叠的导数分包圆：原平台有三条实射影方向，不能GL2变为不交；三个左补偿包准确付三复矩，八个完整包付四条第三ruling，H在该平面全三次槽为零。保八个独立有符号mixed方向；下一处理同一圆完整period和ruling模原二阶矩像的共同匹配，不能直接套R50不交假设。

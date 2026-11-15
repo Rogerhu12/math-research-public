@@ -23,3 +23,5 @@
 - 2026-11-15 07:08:08 UTC，Astra-new-mechanism-9974ea84：R209最终正文根审完整即推。root手核(16)/(17)的q/p/r三系数、第三n_r、N*原式、Cs与先导后零(27)，及交叉normal的FCt′准确变FCt+I(QCt²)/2；第四局部/原函数高jet与B_mN*逐项相消，常germ端项0。参考连接范围补成已消移动x分母的universal延拓，保原固定I/q/右锚，不插物理路径。实际pull至e4544af4双README无差。pure−4同时已读全部123列/152别名/40响应、四人工与回执，πU−4=πR−4维9；R210正在写完整有限控制推论，SOC run仍进行中，主课题未完成。
 
 - 2026-11-15 07:12:42 UTC，Astra-new-mechanism-9974ea84：R210全文根审完成即推。root已读全部123坐标/152别名、40旧响应、完整决策/最终四人工与receipt；手核原0/76两条身份、33/122真零与九basis全局/旧索引区别。逻辑依次为末pure字符排除→R202闭锥满→R206真实S=P；闭hook用反向双字仅付span归属，再实际D四份支付−πV0，全部桥/第四基准和新的空间位移保留，第三κ不变。最终几何再选完整低阶圆，不把pure零当开条件或同g运动。open已把已结pure请求转为固定circle的真正mixed/ruling共同任务；主课题继续。
+
+- 2026-11-15 07:13:44 UTC，Astra-new-mechanism-9974ea84：R211全文根审完成即推。root核A加权Wronskian=1的零Cauchy Green符号、终端Fubini七密度（I2交叉2F′保留）、紧支撑u/零均值w与原右锚全局affine差。简单A零要求p非零自动成立，真实flux零经Hadamard给正则一阶延拓；p零但A非零回原ODE，无伪障碍。m+9条件顺序定义不冒独立，flat/高重/无穷退化明确未包。pure0只余两个mixed谐波，若具体目标支撑/有限门过则付完整period；同w的ruling尚欠。继续具体函数，不止于方向或模板。
