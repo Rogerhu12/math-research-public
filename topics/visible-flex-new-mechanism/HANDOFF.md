@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:41:19 UTC实际pull后已读规则提交：`a17b76120f21bca0ece7e22245b15c28011526cd`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:47:33 UTC实际pull后已读规则提交：`0225922d3c0762e62625f54d17e1279797049cfa`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 07:31:07 UTC实际pull至`7d82f4fd0f51441985003c68c6e6204fe3c28311`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -34,17 +34,19 @@ R180/R183给M0/TκH及完整三阶圆。R184第四joint须同一w同时付V0+2κ
 
 **闭hook整pure零的实际用法**：X0X0rev成本2V0先付V0∈U，取真实M=T0/frameI的D使πVD=−πV0/4，Klein第一prototype插四份，新增位移四左旋相消、TκH不变。最终共同I/合法圆在有限全族选后取；不是任意窄I或同g改变。最右f0必要period门整函数消除，mixed/joint未付。
 
-**R212已把真实全pure控制加强为固定有限词C1截面D(p)。** E_P(t)由R70/R101固定小桥族/整数复制与R56完整恢复为C1；两商截面先固定，最后n>2max(1,M0,M1)使响应盒统一收缩/IFT，完整πVD(p)=p且M=T0/frameI。外扰动若结构保低阶，必须用全部P参数u的Φ_z(u)≈id做IFT同时修Q/L，不能只用响应t冒修商误差。联合去开常段现见R214逐词完整T/frame/端口证明；R189九行本身不含T。
+**R212真实全pure有固定有限词C1截面D(p)。** 小桥/整数复制保真实C1，两商截面先定再取有限大n，统一收缩/IFT给πVD=p且M=T0/frameI。外扰必须先结构保低阶，再用全P坐标Φ_z≈id同时修Q/L；仅响应t不足，R189九行不含T。
 
 **R211已证固定circle局部period充分接口**：G″须先紧支撑在J。A_f非零时两齐次adjoint矩+7终端Green矩（含∫u与六交叉矩）准确iff，显式唯一右逆w=∫右锚u，原左affine尾保留。有限m个内部简单A零加m条真实累计通量，Hadamard给唯一光滑延拓；不包平端/高重/无限零。pure0后仅两G_c/G_s，分别过门则同谐波w付全period与种子；这具体目标尚未验证，且同w的ruling商仍须支付。
 
-**R214已付无开常段且整pure准确可控/闭hook。** flat端全jets足以令R109/R130成本入同U；正则M0前缀+N旧见证再接真倒行保满pure锥，R208只读diagonal选R71真实第三prototypes。六类词依M/frame/同族±t结构保完整T；各原语九行IFT先保M/omega，再全P IFT保pure。最后在精确解集Baire：全部有限调用、背景/校正块都纳入，反向坐标拉回bump；Banach端平稠密与P闭性已付。可保持M0/TκH、Klein新位移闭合、pure0和无开常段，不授同g/joint。**R216已证单个四阶flat点复现常段σ²障碍，故原标准flat拼口配原八包仍失败。**
+**R214付无开常段且整pure准确可控/闭hook。** flat端jets保同U；正则前缀/旧见证复制/真倒行保满锥，R208用R71真实第三生成器。六词结构保M/T/frame；原语九行IFT后全P IFT再Baire，覆盖背景/所有校正/反向拉回bump，保Banach稠密。R216已证其flat拼点仍触原σ²门；不授同g/joint。
 
 **R213已给两实际mixed源及不可校正门**：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0+右因果使f整个右带0时两源0；内部f平台仍须Vd″=Ve″0。R56左collar二次系数=½∫kK，M0令∫k·w_geom=0，故∫kKd/Ke是ruling商真泛函且全部合法二/三gauge不改，尚未判值。w_E=Φ_ED在原八完整packet以七差分准确付六矩，周期变化正是κK_E,H，不能由这个子族将λ+冒延所有w。下一判上述具体源/不变量。
 
 **R215已有真实period反例方向。** τS=−J(a″b″c″)，在R183导数分包圆K_PR≡−f″²(f″²−φ″²)/3 mod imL_f，πK_PR0且λ+K_PR0。正f′包内p^(2/3)的正斜率最大点必A_f0/q>0，真实flux∫pK_PR″=−8q⁵/45，所有全I光滑w的flux0。实际Z±与同一pure校正/Klein给两闭M0/TκH/pure0几何，成本差8tK_PR、同λ+>0却flux差−64tq⁵/45，至少一条period不可修。两g一般不同，不排全部几何，也不判λ经更大joint组的factor；后继R217处理中。
 
-**R216单点ruling必要门已付。** 真实R56第四K用状态jet≤2及W2/W3历史，取两s导至jet4；同右锚/真实入历史冻结后K″(s*)=2K_const。∂s²|s*杀整个三矩W和全部二阶Bθw，故h/k的1..4阶全零一点就要求K_const全θ0。R193标准原八包/已付光滑邻域全宽度失败；任意固定状态只继承R187充分共同窄化。R214pure定理保留，不能用无开常段避此门。R218接偶非平共用germ，须重付端口/低阶/全pure；R199新圆须自己的真实F门，不套旧正性。
+**R216单点ruling必要门已付。** 真实R56第四K用状态jet≤2及W2/W3历史，取两s导至jet4；同右锚/真实入历史冻结后K″(s*)=2K_const。∂s²|s*杀整个三矩W和全部二阶Bθw，故h/k的1..4阶全零一点就要求K_const全θ0。R193标准原八包/已付光滑邻域全宽度失败；任意固定状态只继承R187充分共同窄化。R214pure定理保留，不能用无开常段避此门。R218已付偶非平共用germ的端口/低阶/全pure；R199新圆须自己的真实F门，不套旧正性。
+
+**R218所有有限拼口可改为共同偶非平germ并准确保pure。** 真实s下h=h*exp(εσ²)、k/ω端常，h″=2εh*>0；所有内部标记接口及原语两端同改，倒行/正H/桥/有限重复完全兼容。当前实际s_aθ(x)重新评价避免ε/L²误差；端速度0已使R129所有端势/N2为0，M0消N0修正而成本仍同U。九行IFT保M/ω/frame，结构词保T，全P IFT修新成本/Klein新位移闭合，保pure0，可Baire去开常段。未证内部全无4-flat；R220正做受约束jet横截。
 
 ## 6. 保留边界与当前交付
 

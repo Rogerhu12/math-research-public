@@ -185,3 +185,5 @@
 - [R215：同正字符的两条真实pure零闭hook有不同退化通量](results/R215-equal-positive-character-and-distinct-fixed-circle-degenerate-flux.md)：同锚原式τS=−J(a″b″c″)给K_PR模L_f的局部四次项；正导数包中p^(2/3)正斜率最大点使A_f0/q>0，flux=−8q⁵/45而全部全I光滑二阶gauge的flux零。真实Z±/共同pure校正/Klein保全部基准，得同λ+>0、pure0、TκH但通量不同的两实际几何，至少一个period不可修。两度量一般不同；不判更大joint因子化或全部几何。
 
 - [R216：单个四阶平点已保留完整常态ruling障碍](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)：R56有限jet表与同右锚、真实W2/W3入值冻结给K″=2常态σ²系数；该jet泛函杀整个三矩W及全部二阶/第三gauge响应。标准原八包及其已付光滑邻域全宽度严格排除扩到单点，任意固定状态保充分共同窄化。R214无开常段/全pure定理不受损，但flat拼口未避ruling门；新profile或非平拼口须另付真实条件。无旧计算复跑。
+
+- [R218：共同偶非平端口与精确全pure控制](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)：全部外/内部拼口在真实s下统一h=h*exp(εσ²)，倒行/正H/桥与有限词兼容。当前实际坐标与固定物理collar支付变长参数；端速度0使R129全端势/N2消，M0消N0初势修正，成本仍原U。原语九行IFT/结构T词/全P IFT准确保全部低阶、pure目标与Klein新位移闭合，所有标记拼口h″>0且可去开常段。未宣全域无4-flat或完整ruling可解。
