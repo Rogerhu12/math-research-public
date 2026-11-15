@@ -242,7 +242,10 @@ def render(state,science):
       "- Source SHA256: "+state["source_sha256"],
       "- Manifest SHA256: "+state["input_manifest_sha256"],
       "- Complete scientific file: [actual-scientific-conclusion.json](actual-scientific-conclusion.json).",
-      "- New inverse coefficients / exact means / inner tails / outer coefficients:4 /6 /2 /6.",
+      "- Completed inverse coefficients / exact means / inner tails / outer coefficients: "+
+          " / ".join(str((science or {}).get(k,"not recorded")) for k in
+             ("new_inverse_amplitude_coefficients","new_exact_mean_terms",
+              "new_inner_primitive_tail_groups","new_outer_polynomial_coefficients"))+".",
       "- Successful old coefficients, radius budgets, profiles, J and normalizers recomputed:0.",
       "- Original binary inputs restored temporarily:3; original archives downloaded:0.",
       "- New numerical arrays, Releases or artifacts persisted:0.",""]
@@ -260,12 +263,17 @@ def render(state,science):
         lines += ["- "+("PASS" if g["passed"] else "FAIL")+": "+g["name"] for g in science.get("gates",[])]
     if state.get("actual_failure"):
         lines+=["","## Actual failure","",json.dumps(state["actual_failure"],ensure_ascii=False,sort_keys=True)]
-    lines+=["","## Scope","",
-        "Both physical signs and both oscillatory branches of the same terminal-Ai free first column are present. "
-        "All six original means, both inner primitive tails, the full J reconstruction and outer mean remain paid. "
-        "The complete finite F_S term is retained through its norm; U_Phi and its inverse have distinct windows. "
-        "The corrected first-order negative norm, one same-T forward L2 error fee and one n_g inverse for SF26 are separate.",
-        "No waist leading receiver, incoming/outgoing inverse, complete return R0, finite Schur or actual PDE solution is claimed.",
+    lines+=["","## Scope",""]
+    if state.get("complete_mathematical_receipt_available",False):
+        lines+=["Both physical signs and both oscillatory branches of the same terminal-Ai free first column are present. "
+            "All six original means, both inner primitive tails, the full J reconstruction and outer mean remain paid. "
+            "The complete finite F_S term is retained through its norm; U_Phi and its inverse have distinct windows. "
+            "The corrected first-order negative norm, one same-T forward L2 error fee and one n_g inverse for SF26 are separate."]
+    else:
+        lines+=["The complete cut scalar target is not proved in this receipt. Completed group counts, preserved partial "
+            "conclusions and the stopping gate are reported above; planned mean, tail, frame and finite-rank charges "
+            "are not presented as completed bounds."]
+    lines+=["No waist leading receiver, incoming/outgoing inverse, complete return R0, finite Schur or actual PDE solution is claimed.",
         "All original binaries and new temporary scalar-native serialization stay outside Git.","",
         "## Actual README pulls",""]
     for r in state.get("readme_checks",[]):

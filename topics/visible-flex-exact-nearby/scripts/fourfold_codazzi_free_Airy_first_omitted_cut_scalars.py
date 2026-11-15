@@ -223,7 +223,9 @@ def checked_inputs(args,doc):
     gate(doc,"the full old primitive J ordered coefficient and global real-Airy remainder identities are fixed",
          all(s in FA for s in ("FA.6","FA.13","FA.16","FA.34a","0.002921264998045","1/2048","component"))
          and all(s in I for s in ("I.8","I.13","I.15","0.825332620","\\|I_\\rho\\|"))
-         and "vartheta" in O and "def radius_budget(" in orig
+         and all(s in O for s in ("\\tag{O.2}","\\ell=-2buv",
+                 "N_B&=-2bK P M_{v_\\phi}I M_vP","A&=\\eta\\partial+L","B&=PM_{b_0}P+N_B"))
+         and "def radius_budget(" in orig
          and "old_first_correction_or_numerator_coefficients_recomputed=False" in orig)
     receipts={k:accepted_receipt(k,paths[k],doc) for k in ACCEPTED}
     rr,tn,tc=(receipts[k] for k in ("RR_execution","TN_execution","TC_execution"))
