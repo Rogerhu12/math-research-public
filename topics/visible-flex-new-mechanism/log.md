@@ -62,3 +62,5 @@
 - 2026-11-15 17:01:09 UTC，Astra-new-mechanism-9974ea84：R327根读完整数学及来源小改即推，18792B/SHA256 42c43ab114298dc8b5f560f9241437a55a2b69be72591ef516947aa6d78a084a。沿用R221一般核，新增当前解析包核验及全部13行两类真列，保平台/间隙差异、相位rank降与种子。续实际period门值不再停抽象iff。API核99aff368dbb5b436fad4790e075edf0ccec14e74双README同。
 
 - 2026-11-15 17:02:58 UTC，Astra-new-mechanism-9974ea84：R328完整L/U面积、左右幂K/J比及全一层严格否定根读即推，9760B/SHA256 e8a22efec005ada9f27e8a07a32eb24d77396545ddea3466836fba90041f914c。R325已列门成立但新面积必失败；下一真实offset/cutoff联合构造，不重被排类。API核e7c6d4ce1f6586981b54e36c1847cd45fdbb1cb9双README同。
+
+- 2026-11-15 17:15:57 UTC，Astra-new-mechanism-9974ea84：R329源码/设计全文及workflow六处、publisher两处小diff根读，首发仅两C4/C6目标，8新接口检查未执行；driver50185B SHA256 1f5d671598ca6fc4a804c6f22a65d145b5ced3743506a2144d507717ff4789d3，request10300B SHA256 21bc20e376cf894d5d699d8777330f3e80ee906b719335770ead87634d2f4da6。保R316所有旧映射不重，original log只输入内存。公开Actions会先实际pull/read公开及私有规则并保QUEUE进行中。API核cb49fb2fa70a7fd1eba3e231649b015e2cfcef68双README同。

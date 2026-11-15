@@ -1,42 +1,56 @@
 {
-  "request": "visible-flex-weight-zero-complete-self-20261115-1630",
+  "request": "visible-flex-weight-zero-joint-self-C4-C6-20261115",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "weight_zero_complete_self"
+    "weight_zero_joint_self_completion"
   ],
-  "goal": "Decide Q(H) membership in the complete true-weight-zero response pure kernel using full ordered T9 and faithful Euler self coordinates; no fixed-circle or task-completion claim.",
+  "goal": "Only C4/C6 complete joint pure/self membership after R316; read all thirteen completed faithful comparison columns from the bound original log, no old self/pure/forcing recomputation.",
   "parameters": {
-    "design_note": "topics/visible-flex-new-mechanism/notes/weight-zero-complete-self-gate-design-20261115.md",
-    "source_binding_count": 33,
-    "scientific_source_binding_count": 30,
-    "original_inputs": "Five unchanged R234 directories, bound by the frozen original reader.",
-    "old_mixed_input_roots_restored": 16,
-    "old_static_C2_root_restored": 1,
-    "stored_pure_coordinate_values_read": 48,
-    "old_pure_queries_reevaluated": 0,
-    "old_full_H0_rank_recomputed": false,
-    "old_endpoint_targets_recomputed": 0,
+    "design_note": "topics/visible-flex-new-mechanism/notes/weight-zero-joint-self-completion-design-20261115.md",
+    "source_binding_count": 34,
+    "scientific_source_binding_count": 31,
+    "completed_comparison_run": "43735872441",
+    "completed_comparison_job": "132878270740",
+    "completed_comparison_source": "ca186db057ed753abe565d0c3c2c8305278b5af7",
+    "completed_comparison_main_bytes": 61441,
+    "completed_comparison_main_sha256": "731ffae43cc8f06346801c444a7de010fe2cf6f9f05ecf4b650d319fa2ee06fd",
+    "old_full_self_columns_read": 13,
+    "old_full_self_columns_remapped": 0,
+    "old_Euler_polynomials_recomputed": 0,
+    "old_comparison_true_rank_from_published_R316": 7,
+    "new_complete_self_targets": 2,
+    "new_target_normal_indices": [
+      4,
+      6
+    ],
+    "new_independent_fresh_original_differences_maximum": 2,
+    "old_mixed_original_input_roots_restored_once": 16,
+    "old_static_mixed_input_roots_restored": 2,
+    "new_profile_evaluations": 0,
+    "new_pure_normalizations": 0,
     "old_forcing_3974_recompiled": false,
-    "new_full_self_targets": 14,
-    "complete_comparison_response_pure_kernel_dimension": 13,
-    "new_development_interface_checks": 12,
+    "stored_pure_input": "R124 same-Gamma normalized_static packets plus R116 three saved pure-coordinate rows, justified by R201.",
+    "new_development_interface_checks": 8,
     "old_developer_suites_executed": false,
-    "full_self_coordinates": "all nine ordered matrix entries and all literal coefficients of the complete local Euler polynomial",
-    "membership_check": "fresh original mixed composite through a new mapper; T/Euler zero and exact word reconstruction, no extra NF-zero requirement",
-    "nonmembership_scope": "complete true-weight-zero response pure kernel; other weights not directly compared",
-    "original_second_and_third_history_and_true_left_tails_retained": true,
+    "original_log_read_only_in_runner_memory": true,
+    "original_log_byte_limit": 8388608,
+    "API_credential_never_forwarded_to_signed_log_hosts": true,
+    "new_target_comparison": "all ordered T entries and complete Euler polynomial; one saved-coordinate factorization for two new RHS",
+    "positive_gate": "independent raw mixed composite has T/Euler zero and full reconstruction; NF zero is only an observed field",
+    "negative_scope": "complete true-weight-zero response pure-kernel self image; not an actual semigroup obstruction",
+    "conditional_consequence_only_if_both_members": "R323 zero joint-E quotient weight and the genuine R206 construction become applicable",
     "local_execution_performed": false,
     "first_new_syntax_compile_and_execution": "this public GitHub Actions",
-    "actual_argument_count": 28,
+    "actual_argument_count": 32,
     "actual_seconds": 240,
     "actual_memory_mib": 1024,
-    "certificate_max_bytes": 8000000,
     "summary_max_bytes": 95000,
+    "certificate_max_bytes": 4000000,
     "output_payloads_temporary_only": true,
     "completion_claim": false
   },
   "jobs": {
-    "weight_zero_complete_self": {
+    "weight_zero_joint_self_completion": {
       "development": [
         "--toy-only",
         "--max-seconds",
@@ -44,7 +58,7 @@
         "--memory-mib",
         "256",
         "--output",
-        "@OUT@/weight-zero-complete-self-development.json"
+        "@OUT@/weight-zero-joint-self-completion-development.json"
       ],
       "research": [
         "--static-directory",
@@ -57,6 +71,10 @@
         "topics/visible-flex-new-mechanism/notes/actions-43683171512-1-character_zero_pure_readout",
         "--stored-pure-directory",
         "topics/visible-flex-new-mechanism/notes/actions-43646543691-1-full_m8_tail_response_projection",
+        "--static-pure-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43649160345-1-constrained_static_m8_tail_quotient",
+        "--completed-self-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43735872441-1-weight_zero_complete_self",
         "--max-seconds",
         "240",
         "--memory-mib",
@@ -72,9 +90,9 @@
         "--max-summary-bytes",
         "95000",
         "--max-certificate-bytes",
-        "8000000",
+        "4000000",
         "--output",
-        "@OUT@/weight-zero-complete-self.json"
+        "@OUT@/weight-zero-joint-self-completion.json"
       ]
     }
   },
@@ -109,12 +127,13 @@
     "topics/visible-flex-new-mechanism/scripts/literature_linear_third_bridge_quotient.py": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2",
     "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba",
     "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self.py": "9347caeb4ff7ed54cc88f6c38183d4773d8e12125a5a9631412674550d42b78f",
-    ".github/workflows/visible-new-mechanism-continuation.yml": "37a92b704aacc33736b96c96c0b8ee85173dee7f3f6b7a9fd6429fdc7f0155dc",
-    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "3f8fe616eb62c51d6902cb8c698d9e5b768658661b2a2df133dc95aef3012a49",
-    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41"
+    ".github/workflows/visible-new-mechanism-continuation.yml": "93a93e4e3d788153e173e32d0934d088e68b8c77f6392a893a53df2b8d17bb58",
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "20a73d83216d68c23f376b36ffae417e9afbf1991eb8918577158ac0cb7fe3be",
+    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41",
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_joint_self_completion.py": "1f5d671598ca6fc4a804c6f22a65d145b5ced3743506a2144d507717ff4789d3"
   },
   "sync_private_rules": true,
-  "private_rule_sync_lane": "weight_zero_complete_self",
+  "private_rule_sync_lane": "weight_zero_joint_self_completion",
   "private_rule_sync_expected_blobs": {
     "README.md": "5ba164843b1f5802184178a82d786264404873a3",
     "topics/visible-flex-new-mechanism/README.md": null

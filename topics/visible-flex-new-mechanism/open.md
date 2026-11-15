@@ -130,3 +130,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R328/R331：新面积阻断无常项弱幂类，继续真实offset通道
 
 [R328](results/R328-another-complete-Gaussian-area-excludes-homogeneous-weak-power-packets.md)保原Pff尾得完整AL=K−C/3、AU=−4J−7C/3。对所有无常项左右5/2曲段+实际rank-one补块，π/2全K=−2J/5、J<0，与朝向/反射侧无关；新A−1−3 I0=0迫旧完整Ψ=ND4/(24P)−36tJ/[5(7+81t)]>0。R325已列门仍真，正因此它的新面积必非零，不得继续只调该被排类频率。未排的是内部常项Cν，其真实ΔK=−15ACν/32∫|x−b|^−3/2g″²；R331须把其实际cutoff、矩回补、两面积、Ψ和三directed同一profile联付，不能把一个局部可调号当整体可行。
+
+
+### R329 首次实际待运行：只 C4/C6 两完整成员门
+
+[已读设计](notes/weight-zero-joint-self-completion-design-20261115.md)和新driver已首发，request只新lane。重用R316原log完整13个T/Euler列，R124/R116已存pure三坐标；只恢复必要mixed原输入，映射两个新pure0目标，每个阳性至多一fresh原复合。八新接口检查尚未执行，所有科学/人工首执行在公开Actions。两门均MEMBER才应用R323/R206实际wholepure+whole-self控制；NONMEMBER只否定相应响应像门。原日志/数组临时，metadata-only发布。消费实际后立即写结论，不等待重复核验。

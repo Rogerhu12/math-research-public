@@ -35,7 +35,7 @@ jobs:
               'constrained_static_m8_tail_quotient','g_first_translation',
               'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation','derivative_m8_tail_quotient',
               'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps','general_pure_J_identity','h_axis_sharp','general_pure_J_membership','curvature_target_ladder','D0_pivot_residual','general_pure_D0_membership','curvature_soc_steps','general_pure_J6_membership','J6_balanced_original_difference','curvature_inherited_scale','J6_implicit43_original_separation','curvature_soc_arc','character_head_minus2','curvature_soc_metric_reserve','character_minus2_finite_necessary','metric_budget_recovery','character_minus2_static_parity','metric_spectral_recovery','character_minus2_static_positive_candidate','character_head_literal_relations','character_minus2_literal_relation_cuts','metric_spectral_adaptive','character_minus2_raw_positive_candidate','metric_spectral_curvature_reserve','metric_spectral_physical_penalty','metric_spectral_trust_growth','derivative_packet_full_width_gate','character_head_word_relations','character_head_zero','character_zero_pure_readout','metric_spectral_strip_reserve','pure_minus2_archived_projection','complete_pure_minus6_projection','metric_spectral_soc_scaling','complete_pure_minus4_projection','metric_entry_body103','metric_entry_tail154','metric_entry_tail_height159','metric_height159_soc_hold','metric_height159_capacity_soc_hold','metric_height159_factorized_rows','metric_height159_affine_spectral','metric_height159_complete_affine',
-              'exceptional_port_two_energy_gate','character_zero_endpoint_layer','character_zero_quadratic_endpoint','third_diagonal_eight_lifts','third_kernel_eight_local_operators','weight_zero_complete_self'}
+              'exceptional_port_two_energy_gate','character_zero_endpoint_layer','character_zero_quadratic_endpoint','third_diagonal_eight_lifts','third_kernel_eight_local_operators','weight_zero_complete_self','weight_zero_joint_self_completion'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -134,6 +134,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43680023529-1-metric_spectral_trust_growth/
             /topics/visible-flex-new-mechanism/notes/actions-43681388902-1-character_head_zero/
             /topics/visible-flex-new-mechanism/notes/actions-43683171512-1-character_zero_pure_readout/
+            /topics/visible-flex-new-mechanism/notes/actions-43735872441-1-weight_zero_complete_self/
             /topics/visible-flex-new-mechanism/notes/actions-43699241372-1-character_zero_endpoint_layer/
             /topics/visible-flex-new-mechanism/notes/actions-43681388902-1-metric_spectral_trust_growth/
             /topics/visible-flex-new-mechanism/notes/actions-43672582314-1-character_minus2_raw_positive_candidate/
@@ -223,7 +224,7 @@ jobs:
         timeout-minutes: 30
         env:
           VISIBLE_NEW_LANE: ${{ matrix.lane }}
-          GITHUB_TOKEN: ${{ matrix.lane == 'curvature_output_recovery' && github.token || '' }}
+          GITHUB_TOKEN: ${{ (matrix.lane == 'curvature_output_recovery' || matrix.lane == 'weight_zero_joint_self_completion') && github.token || '' }}
         run: |
           python - <<'PY'
           import hashlib,json,os,subprocess,sys
@@ -300,14 +301,15 @@ jobs:
               'character_zero_quadratic_endpoint':'literature_character_zero_quadratic_endpoint.py',
               'third_diagonal_eight_lifts':'literature_third_diagonal_eight_lifts.py',
               'third_kernel_eight_local_operators':'literature_third_kernel_eight_local_operators.py',
-              'weight_zero_complete_self':'literature_weight_zero_complete_self.py'}
+              'weight_zero_complete_self':'literature_weight_zero_complete_self.py',
+              'weight_zero_joint_self_completion':'literature_weight_zero_joint_self_completion.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
               'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only','g_first_translation':'--toy-only',
               'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only','derivative_m8_tail_quotient':'--toy-only',
               'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only','general_pure_J_identity':'--toy-only','h_axis_sharp':'--toy-only','general_pure_J_membership':'--toy-only','curvature_target_ladder':'--check-only','D0_pivot_residual':'--toy-only','general_pure_D0_membership':'--toy-only','curvature_soc_steps':'--check-only','general_pure_J6_membership':'--toy-only','J6_balanced_original_difference':'--toy-only','curvature_inherited_scale':'--check-only','J6_implicit43_original_separation':'--toy-only','curvature_soc_arc':'--check-only','character_head_minus2':'--toy-only','curvature_soc_metric_reserve':'--check-only','character_minus2_finite_necessary':'--toy-only','metric_budget_recovery':'--check-only','character_minus2_static_parity':'--toy-only','metric_spectral_recovery':'--check-only','character_minus2_static_positive_candidate':'--toy-only','character_head_literal_relations':'--toy-only','character_minus2_literal_relation_cuts':'--toy-only','metric_spectral_adaptive':'--check-only','character_minus2_raw_positive_candidate':'--toy-only','metric_spectral_curvature_reserve':'--check-only','metric_spectral_physical_penalty':'--check-only','metric_spectral_trust_growth':'--check-only','derivative_packet_full_width_gate':'--toy-only','character_head_word_relations':'--atom-selection-toy-only','character_head_zero':'--toy-only','character_zero_pure_readout':'--toy-only','metric_spectral_strip_reserve':'--check-only','pure_minus2_archived_projection':'--toy','complete_pure_minus6_projection':'--toy-only','metric_spectral_soc_scaling':'--check-only','complete_pure_minus4_projection':'--toy-only','metric_entry_body103':'--check-only','metric_entry_tail154':'--check-only','metric_entry_tail_height159':'--check-only','metric_height159_soc_hold':'--check-prefix-diagnostic-only','metric_height159_capacity_soc_hold':'--check-capacity-only','metric_height159_factorized_rows':'--check-factorization-only','metric_height159_affine_spectral':'--check-affine-spectral-only','metric_height159_complete_affine':'--check-complete-affine-only',
-              'exceptional_port_two_energy_gate':'--toy-only','character_zero_endpoint_layer':'--toy-only','character_zero_quadratic_endpoint':'--toy-only','third_diagonal_eight_lifts':'--toy-only','third_kernel_eight_local_operators':'--toy-only','weight_zero_complete_self':'--toy-only'}
+              'exceptional_port_two_energy_gate':'--toy-only','character_zero_endpoint_layer':'--toy-only','character_zero_quadratic_endpoint':'--toy-only','third_diagonal_eight_lifts':'--toy-only','third_kernel_eight_local_operators':'--toy-only','weight_zero_complete_self':'--toy-only','weight_zero_joint_self_completion':'--toy-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:
@@ -342,7 +344,7 @@ jobs:
               compile_sources.append(str(root/'scripts/literature_endpoint_first_layer.py'))
           if lane=='character_zero_quadratic_endpoint':
               compile_sources.append(str(root/'scripts/literature_endpoint_quadratic_principal.py'))
-          if lane=='weight_zero_complete_self':
+          if lane in {'weight_zero_complete_self','weight_zero_joint_self_completion'}:
               compile_sources.append(str(root/'scripts/literature_full_self_euler_coordinates.py'))
           subprocess.run([sys.executable,'-m','py_compile',*compile_sources],check=True)
           stages=['research'] if lane in {'curvature_output_recovery','curvature_trial_diagnostics','curvature_feasible_trial_diagnostics'} else ['development','research']
