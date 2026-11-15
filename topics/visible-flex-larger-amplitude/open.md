@@ -26,7 +26,9 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 [83原noJ完整试步及根返回](notes/2026-11-15-actual83-original-noJ-realized-trial-and-root-readback.md)已保存：run43668743706/source8d199eda/job132673843713 success，一次原alpha1/512复现norm .000060618737006888706/hex71f299f11bc80f3f，与73base及trial9逐位同，仍无严格下降。129248状态词有103123改变，不能称整state不变；全部576原stage通过/27772root返回/0fallback，控制仍stage10 Pi76 row2539。613原件/15完整raw/576packet/473295numberRecord字节范围完整已付，原内部226state/L/moments只有SHA的部分不冒payload。原32/10/tol2e-9保持，此probe没有solve/J/QR。
 
-同包实际roundedstate的exact h与原savedA/ideal/actualr分解另由exact完整读回，不能把一次试步归因推广到全部十档或真实误差底线。下一91仅对原四行作完整224列贡献和独立坐标/输出/norm ULP诊断；不预选放宽门或保证新方向。末failedstatef6abeb04/delta4b4b1aaa仍非接受尾锚，原83接口及it2R276小gzipb7812e06保留。
+[83完整精确h分解](notes/2026-11-15-actual83-exact-realized-step-component-decomposition.md)、[原result](notes/2026-11-15-actual83-original-exact-result.json.gz)、[完整byte范围](notes/2026-11-15-actual83-complete-exact-output-byte-audit.json)已保存：全部129248行八向量、577节点增量、578原块和旧R276三family对应全true。控制row2539理想下降1.18395970716579e-7几乎被实际状态形成抹去；realized-affine仍精确下降8.63524260187103e-20，实际flow/model余项在该行恰补回。另余项全局max7.95665191227233e-6位于row2536，不能以范数差冒向量差或称状态形成是唯一原因。未计算a范数舍入词，不能猜其RN与base同位。
+
+91将补既定四行完整224列贡献及坐标/输出/norm独立ULP；83包没有J载荷，须Actions从原73 ZIP核全SHA后只提stage8–11的真实单chunk并保入91 artifact，不由总Ah反造J。无新RHS/J/QR/solve，不加新gate、不放宽原tol，也不把一次固定alpha扩展至十档全因果或正误差底线。失败73末statef6abeb04/delta4b4b1aaa仍非接受尾锚。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 

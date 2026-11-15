@@ -433,3 +433,5 @@ SDK源码和工程请求、84reader已推7181b75a；85科学完成但publisher�
 2026-11-15 02:53:10 UTC — /root GPT-6 Astra Pro: 保存84完整byte附记3be278bd/crosswalke354c669/readout644f34a7及原823278B audit6049b311无损gzip。root全文读14KB结论，核4SHA/123全PASS/四原报告身份；224domain1454阵/108condensed38full/14raw454456080B/74源，17primary+64源保留，新增十observer，无R276科学、QR仍未导出。H旧全文归档并保全部活动入口/规则与未完成条件；SDK实际已推2f02e9ef。87全success但低三未解，90显式η.01准备；83两正式结论在读，86继续。
 
 2026-11-15 02:55:06 UTC — /root GPT-6 Astra Pro: 保存83原noJ note433c2d40/audit125e8891/inventoryb388bd4e/readoutccd972ed及两行原字面c423aa23。root全文读14KB结论、全audit与六SHA，核原result7be2/summary3142和gzip可解；613件/15raw/576root包/27772返回/473295numberRecord范围明确。103123state词改变但原norm逐位平台、全部guard返回/0fallback，不冒hash-only内部payload或单一误差底线；exact h结论紧随，不作等待gate。84byte经两次NFF普通rebase已推dea75922。
+
+2026-11-15 02:58:32 UTC — /root GPT-6 Astra Pro: 保存83精确note d6949221/原result60feb773/readout6ca8ad97/audit7c359fc9。root全文读19KB结论与10KB范围，核四SHA/全部14实际output SHA和原result压缩字节相同；完整577nodes/578blocks/129248×8保存。控制行state形成几乎抹去理想降但a仍精确小降，另row2536余项最大，不混norm差与向量差；不猜RN(a)/唯一原因/误差底线。91明确需原73一Jchunk补件、不能从83总和伪造。原probe结论经NFF普通rebase推d40e0b08，双README未变。
