@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：b1bdee9ebf26f566d8ffe008886c258ebbe9552d；2026-11-15 19:49:56 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
+- 最近已读规则提交：417fa205b964ce1e36eb9b4d3a8896f8338e3363；2026-11-15 19:56:00 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -12,12 +12,12 @@
 
 ## 完整归档、当前状态与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r816-public-run.md)沿归档链保全部常数、来源、十九角、ray、坏集、run/hash和未闭门；压缩不撤任何限制。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r808-short-addendum.md)沿归档链保全部常数、来源、十九角、ray、坏集、run/hash和未闭门；压缩不撤任何限制。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–812、814–815、817已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
 root唯一metadata/ref写者；root原全nef锥/二变量Kronecker来源，deep原同R完整normal/Cartier指定配对，theta第四条真实rank2曲线来源，literature固定三cycle跨p/原三χ联合关系。完整证明一成即单独推，随后继续未闭门。
 
 实际pull19:22:57成功，run43752101383/job132928092622，两README差异空/blob吻合；回执ci/rule-pull-20261115T192257.json，最迟20:15再实际pull。
-R812 run43749289064/job132919420622成功，producer/source/args/hash见原证，全文已登记；R814固定共同good pair/AJ平方已登记；R813仍研究原同R全法向；R815完整曲面锥/S铅笔已登记。R816接E−11的真实degree66全Schwartz/半特征和原全CM7/13质量核；公开run43754381135/job132935145766成功，两原算子联合质量核一维/首阶6；全局来源proof在写，尚未登记第四中央条件。R817固定p7993三原负二/三个fixed cycle非零已登记；run43752389762/job132928993680，依赖R798/R732，args --workers 4，producer/source/hash均见原证，不扫描或换p，不把正在写的工作视为已证。
+R812/R814/R815/R817完整证与run/hash见原文；R813续同R带权Cartier。R816公开run43754381135/job132935145766成功：degree66两原CM核一维/首阶6；全E−11来源proof在写，未认第四中央条件。
 
 ## 普通：原同源负二及真实全局门
 
@@ -52,7 +52,7 @@ R790原cube指定forcing：
 障碍=3B(K0−2K1−K2)−μ(a^-1t^hQH^-1V³)−〈ν,β_HP〉。
 β_HP不是自由ξ；同R全部高尾/两13/d₂仍未闭。R790增补已付移动H/H(0)可零及mq1原q：真H⁰(X,O(C))在h>κ核kF，EF整归一保H；ell2须加第三余行C_ell=(6/a)Hcal^-1QeV²，全左对含n²τ且障碍另−τ(C_ell)，不以scalar替q或外推全profile。
 
-R808原k0/r<h的M primitive p³先付同R的J p²；−2/5/−6迫R在k上两光滑支，领先λ与2λ/3，互交及δ=h。近支跟原轴≥h+r，ER(近支)≡−a⁻¹w^hCu³ mod w^(h+r)；native ξ从h+r起保。零角准确m_R2；局部分裂≠全局分解，当前仅2h≤B_D.C，未排9κ/8。
+R808原k0/r<h的M primitive p³先付同R的J p²；−2/5/−6迫R在k上两光滑支，领先λ与2λ/3，互交及δ=h。近支跟原轴≥h+r，ER(近支)≡−a⁻¹w^hCu³ mod w^(h+r)；native ξ从h+r起保。短块增补：k0、ell≤r<h时，保轴单位函数λ(w)、B(w)，缩放后二支式整段为−3B(z−λ)(z−2λ/3) mod w^ell；远支=(ψ+2g)/3 mod w^(h+ell)，两normal段分别+和−a^-1w^hCu³。近支仍只保证h+r，native ξ、两13和同R高尾不删。零角准确m_R2；局部分裂≠全局分解，当前仅2h≤B_D.C，未排9κ/8。
 R805无最高项S-unit假设的全正规零/极计数给h≤6γ+2a+10b+2degH−6，原全部已分类格可用R743两真实连接/359κ/96单位秩门；仍不代指定forcing。
 
 R815原X的完整NE为26条负边界极射线，nef为4501条/原惰性Fp为901条；primitive径向b∣12。完整条件：各μ链递减非负、Σμ≤b、u≥μd1+μ∞1。原S=aY/7是无基点铅笔，唯一其它nef平方零射线为f；全nef若m=C.f0则κ≥2bm−m²，等号类bH++mE01。R808同R两支若分属全局分量，各定义原Fp且m01；同属则m02，其余因子m00。数值锥不代整半群/截面分解/jet饱和，未排9κ/8。

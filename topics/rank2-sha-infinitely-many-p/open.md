@@ -202,3 +202,6 @@ R790完整增补已付原q0零/移动H及ell=1,2：EF支付保持整个H的整�
 
 
 R817在唯一固定p7993精确重建原CM13/PB4及完整sigma整窗，三实际归一B4负二矩的Ω^-7990余值2522/2828/3696均unit；真实unit depletion、b17/7990!/周期和谱归一保。由原Soulé/AJ比较付该p三个z_j和固定cycle均非零，三个实际有限χ投影在同Chow模独立。未外推别p、原Sha7993、原三I线性和或点AST；c_j仅需非零不预称该p单位。见[R817](results/R817-fixed-prime-original-negative-two-and-nonzero-fixed-cycles.md)。
+
+
+R808完整短块增补：k0、ell≤r<h时，保轴单位函数λ(w)、B(w)，缩放后二支式整段为−3B(z−λ)(z−2λ/3) mod w^ell；远支=(ψ+2g)/3 mod w^(h+ell)，两normal段分别+和−a^-1w^hCu³。近支仍只保证h+r，native ξ、两13和同R高尾不删。 继续真实带权Cartier/指定配对；见[完整增补](notes/2026-11-15-r808-complete-short-block-and-far-normal.md)。
