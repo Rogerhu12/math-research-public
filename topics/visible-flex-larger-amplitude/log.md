@@ -347,3 +347,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 — R294完整几何接缝证明直接登记
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)已全文推导共享准确Hermite、完整角cut、R249反射、cuff与两帽及强C²phase；分C0/C1/C2给同g atlas条件，finite-Gauss真导数/clip/独立字词不能靠小差冒恒等。模型C内cuff平端与natural外端正/负/正两jet明确区分，不变更目标。root全文读证明，接口SHA改为实际已发布e364369f，无数值fixture或本地science。open27648B旧全文保同目录134检查点并压缩早期重复记录；R293公式改原约定$$格式。133/134及其余原科学仍运行，直接继续积分卡点及真实radius算法。
+
+## 2026-11-15 10:55:17 UTC — R296实际134全32批已读回，集成小文本继续
+
+[R296](results/R296-actual134-thirty-two-nine-control-batches.md)：256接受/2322trial/2066拒，W5.003044586685467→4.963213836829105，81接受inner false及371内域失败均原样负责；32primary/256groups/32views逐字核SHA，完整112/native仍false。末真p/radius已取用于135。终端断连后依根8用仅小文本集成并latest-main lease，不把API读冒真pull；未发布源按公开配方恢复或重做。继续135及136积分改进和原在跑任务。

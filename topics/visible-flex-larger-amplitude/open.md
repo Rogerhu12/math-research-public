@@ -1,5 +1,13 @@
 # 当前未解决的问题
 
+## 最新实际134与真实半径接续
+
+[R296](results/R296-actual134-thirty-two-nine-control-batches.md)已完整读回32批：256原方向接受、2322外trial/2066拒、81接受inner目标未达；20外trial内部371域失败由原函数保有限候选，4次内层12步用满均外拒。32初末FD/Arb/453圆均完成，全部unit/full112/nonzero/native/success仍false。W5.003044586685467→4.963213836829105；后段接受alpha到2^-17，末最小σ9=.001251424267791722，不能把慢降只归因.1reset或据SVD判无根。
+
+下一135从真实第32批九参数与final_relative_trust_radius=.000390625续接，保原外8×20/内12×20、每批fresh J和全部final责任。仅转录真父，不重用已清raw。旧未发布三源在终端中断后恢复或按公开824c/f57/fd5合同重做；新字节须独立身份。现存192组整列FD不认证弱奇向量/切向梯度，不因此加新数学门。继续真实半径运行，并从已读有限响应研究原全3目标的全局化/导数，不宣称根已得。
+
+2026-11-15终端环境unavailable；根第8条允许只用GitHub集成传<100KB文本。记录API新main及规则对照，保最近真实Actions/root pull来源；恢复后立刻实际pull。所有数学仍只在本公开库Actions，已有122/124/128/130/133继续。
+
 本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request134检查点](open-checkpoint-through-request134-2026-11-15.md)，它仍链接request126及[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
 
 所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root终端已恢复，当前真实部分克隆/tmp/visible-larger-root-git-126由root唯一pull/push；早前终端unavailable期间集成发布的边界保留在原log，不冒当时有git pull。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。

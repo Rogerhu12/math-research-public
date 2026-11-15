@@ -90,3 +90,7 @@
 ## R294 — 九控制450准确全局C²拼接与同一目标atlas
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)完整证明共享Hermite、整角cut、反射、两帽及强C²phase结构；分开有限scalar/同目标atlas条件、模型C内cuff平端与非平natural外端，给同g几何修补和完整误差责任。没有实际场、reach或metric通过结论。
+
+## R296 — 实际134的32批完整九控制搜索
+
+[R296](results/R296-actual134-thirty-two-nine-control-batches.md)登记全部32批原值、256方向/2322试探、内层域失败及容差例外、末参数与半径、完整诊断及原日志身份；有限慢降与弱响应不冒根或完整非零场，真实半径接续继续。

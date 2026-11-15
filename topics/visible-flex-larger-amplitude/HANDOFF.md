@@ -4,11 +4,11 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:53:28 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 45c8605fbe4a5423d557cded67ef18ba042a4d1e。
+规则同步记录：2026-11-15 10:57:31 UTC root依根8终端不可用例外经API读取main c587e55aec649bf2d4978058c98bebecee2c9de4；双README根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变；这是API读取，非git pull。最近Actions真pull：2026-11-15 10:53:28 UTC，已读45c8605fbe4a5423d557cded67ef18ba042a4d1e；root最后真pull为10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即实际pull核差异。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
-root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-root-git-126，代理/tmp独立稿只读clone。每push前及至少每小时真实pull，双README有变只读diff即遵守；每条结论立即推，NFF立即rebase重推至成功，禁force。
+root唯一提交与workflow发布者；部分克隆/tmp/visible-larger-root-git-126。终端可用时每push前及至少每小时真pull，NFF立刻rebase重推，禁force。当前终端unavailable，按根8仅集成小文本：每次取最新main/双README，expected_sha lease普通前进提交；冲突立刻重读合并，绝不冒git pull或强推。
 
 根第15条禁可重算raw/证书/Actions输出入Git/Release/artifact，仅源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB；证明直接results，不加独立审批/fixture门，不写根LOG。删失现场按公开配方重做，不能由SHA伪恢复。
 
@@ -20,7 +20,9 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 ## 九控制真实搜索与完整非零场
 
-[129 R291](results/R291-actual129-eight-nine-control-batches.md)之后，[131 R292](results/R292-actual131-eight-nine-control-batches.md)run43703108343/source2d211e0d443605cb9d1a4923a1c04779ae0fb7f3，8批64接受/236trial/172拒、18接受inner false；W6.426170559507028→5.003044586685377，全部final false。8primary/64groups/8views原身份已核；首全步跳降/全步缩半径例外保R292，不单归因reset。[134入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)fd5d78f3/recipebf8e80aa/requestaaef1c38/wf262e5175，85+2/own26、32×原8方向/.1reset/3600s批间/全0865/824c/f57a门；32行/90KB超限70。run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f/job132781953477，10:29:11起science。[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)已给理想下降/曲线条件及有限误差边界；不冒112/native接受。
+[131 R292](results/R292-actual131-eight-nine-control-batches.md)之后，[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，compute132781953477/report132785749291已完成32批256接受/2322trial/2066拒；81接受inner false，20外trial内371域失败而无外异常。W5.003044586685467→4.963213836829105；末radius.000390625，最小σ9=.001251424267791722，所有unit/full112/nonzero/native/success仍false。32primary/256groups/32views原SHA均已核，完整例外见R296；raw已清，不能以SHA恢复。
+
+[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降/有限误差边界。135将从R296真第32批九p和末radius继续，保原8×20/12×20/全部final；未发布的bd40/c8f1/f0ff草稿因终端断线待按合同恢复或重建，不冒现成运行。九控制标量搜索不是112/native接受。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101/d075af46/c756ede7保00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)真127第8九p/λ=.001/fresh-circle；110pins/29closure/原4输入+2ready+78源、300min总/330science350job。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 
