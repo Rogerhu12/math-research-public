@@ -457,3 +457,7 @@
 ## R150：九平方来源合成秩一截面的 Bell 十六次自然幂（2026-11-15）
 
 [原生成元完整公式](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)在固定y=v(s)的原17截面写b_r=Σb_jz_j。九个μh*z_j²原来源经十次鸽巢得μh*b_r^10；s/F±/E8四完整纤维的全部W来源经CRT给b_r²=ΣDνFν+qE，q=sF+F−E8且q³/h*多项式。差立方合成μb_r^16=Σ[RqE³Aν+μb_r^10KrDν]Fν，degree_m≤26。当前μ=Rout/Ω已存在；μ1后才闭全部rank-one均值。不能把截面身份直接提升全gradR3或把μ/h*当实际算子逆；非rank-one且ess(T3)≥4仍开。
+
+## R271：保持原实际测试的最小coherent来源与完整残量（2026-11-15）
+
+[完整证明](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)构造Rcoh a=Σ(-C)^j a⊗(D*)^jΩ/σj²和Hcoh=Rcoh*Rcoh；fcoh=Rcoh Hcoh^-1g是真空forcing到其像的正交投影。原总孔Q≥R+h−1下，直接用顶部残量及伴随因式分解，证明原VQ/KQ/u投影完全保持，总norm及defect不增。整(C+D)残量平方精确为ΣEj(e_(j−1)/ej)Varμ(W)；连续尾h≤2x时≤54x^-3||g||²。显式Ei fcoh不为零，保全部混合及自然域，不将此小残量变成未经证明的返回逆或核距离。

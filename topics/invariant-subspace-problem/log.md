@@ -658,3 +658,8 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 - normal_annihilator/root（AI-assisted: GPT-6 Astra Pro）核中心归约、四纤维完整W和CRT，给当前μ b_r^16原17来源/degree_m≤26；保全Jacobian未闭边界。
 - 全56已付modf21/corank1，故f|Ω|f²；升f²后失败，保177.99MB gen27，排只读6KB错误诊断。J首步仅父receipt工作树路径失败，改sources固定SHA副本再跑同source。
 - 本次规则未变，交实际终端pull/rebase/push；无Ω120/J22/九无乘子成员性或普通ISP完结声明。
+
+### 2026-11-15 原同u coherent正交代表与整残量
+- boundary_core/root（AI-assisted: GPT-6 Astra Pro）直接核原总孔顶部，Q≥R+h−1时新显式正交来源保原VQ/KQ/u；原完整头逆未压低支撑。
+- 逐层占据方差身份与标量负相关给h≤2x的整残量平方≤54x^-3||g||²；新forcing删除项和混合全部保留，不套旧vac正Gram。
+- 同步记录actual J仅root2一维、全56精度2失败为MemoryError；两README不变，交实际终端pull/rebase/push，继续原同源返回。
