@@ -187,3 +187,6 @@ R808原同M primitive p³在k0、r<h下迫同R的J p²，故R在原点恰分裂�
 
 
 R811已收窄R804的严格核门：只对原三个canonical类，z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0。真实τ/Γ反演、同34δ/Kato/30、两个有限余核Coleman同构与good pair伴随A(0)非零付τc_j=unit·B·Z_j；不假Heegner特殊化非零。继续证明原z_j至少一条非零，及同源三值线性行/完整W补域；一般Selmer核及整体中央仍开。见[R811](results/R811-canonical-soule-classes-and-global-heegner-comparison.md)。
+
+
+R812原同charge抵消A=S(2z)/64、B=U136−A完整付K17/全角及B首1890w²；Newton/Gaussian含q_p(2)与原两中央准确运输，新(S,B)格覆盖度17、canonical成员恰i≥4j、体积D²/10。原含A的扩充格换基保每前缀/全精度/13carry，纯起阶收益O(D³logD)不足主项，严格门仍aI+2bI<3；继续实际全flag或指定forcing，不赋乘积中央零。见[R812](results/R812-original-same-charge-cancellation-and-complete-source-budget.md)。

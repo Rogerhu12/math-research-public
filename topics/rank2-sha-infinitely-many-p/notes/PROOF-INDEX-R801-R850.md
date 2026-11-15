@@ -25,3 +25,5 @@
 - [R808](../results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)：已将原M第三精度严格送到同一R的J第二精度，原−2/5/−6三项强制剩余域上的两光滑支、交数及δ=h。近支接触≥h+r且完整r段normal由同Gaussian carry指定，零角准确m_R=2；全部十九角/两13及下一位保。全局必要门仅2h≤B_D·C，未将局部分裂或固定次数排除外推为原完整forcing非零。
 
 - [R811](../results/R811-canonical-soule-classes-and-global-heegner-comparison.md)：已对R804原三个canonical Soulé类证明z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0。真实τ/Γ反演、原34δ/平滑30、两个有限余核Coleman图、增广完成和good pair非零伴随因子给全局恒等式τc_j=unit·B·Z_j，故指定类不能非零落严格核。未认整个Selmer局部化单射、未付任一特殊化本身非零，也未把三平方根线性和换成全局点对数。
+
+- [R812](../results/R812-original-same-charge-cancellation-and-complete-source-budget.md)：R812原同charge抵消A=S(2z)/64、B=U136−A完整付K17/全角及B首1890w²；Newton/Gaussian含q_p(2)与原两中央准确运输，新(S,B)格覆盖度17、canonical成员恰i≥4j、体积D²/10。原含A的扩充格换基保每前缀/全精度/13carry，纯起阶收益O(D³logD)不足主项，严格门仍aI+2bI<3；继续实际全flag或指定forcing，不赋乘积中央零。
