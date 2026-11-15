@@ -111,9 +111,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原全矩阵4367×6188、泛秩4354；同选I,J为4354，常数Q/F31秩4318、核36维。第一恰3、第二恰9后，[完整第三恰3](results/R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601.md)已实际闭合：旧29原source配对秩5、加入22个真第二头的第三forcing后秩6；完整coker限制核7维已全含低页像，故受限第三像真rank1。完整域只差2维，配同Q/F31前三单位层的合法下界3，夹得完整第三rank3。
 
-完整第二头24维、第三头21维；[实际17条第三来源](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)现已核全部296072原产品，法≤4完整余残差rank4/头17，完整21维仍保留。余下4头需要更高最后校正；从已存余阵取4真商代表，保H4/H5全部高齐次，不重旧21/36/130单位解。先以实际17条算R4在known W13中的真秩r；full W15仍缺2、完整域仍缺4，故只可断max(3,r−2)≤β4≤r+4及至少17−r个第四头存在，不能套h21闭合。
+完整第二头24维、第三头21维；[实际17条第三来源](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)现已核全部296072原产品，法≤4完整余残差rank4/头17，完整21维仍保留。余下4头需要更高最后校正；从已存余阵取4真商代表，保H4/H5全部高齐次，不重旧21/36/130单位解。[原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)已实rank7−6=1，给16真第四头存在及完整β4∈[3,5]；full W15缺2/域缺4仍保。新补k真第三头后上界r_k+4−k，补2且raw仍1才可闭3；λ4仍未构造。
 
-同选D∞≥114、全部cofactor/原来源换列∞≥110；最新K104下q8423…8552，原非基/转移/目标三费8596/8600/187，统一条件8600。九目标Q[s]成员性仍是前提。模31完整长度243仅属F31，真Q degD8527…8656、v∞D114…243；lc31单位等价真Q v∞D=243，仍未证。原第三raw按K101的8603/187保持不改，随后K103、K104组合各为独立正式推论。
+同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K104下q8423…8536，原非基/转移/目标三费8580/8585/172，统一条件8585。九目标Q[s]成员性仍是前提。模31完整长度243仅属F31，真Q degD8527…8640、v∞D130…243；lc31单位等价真Q v∞D=243，仍未证。原第三raw按K101的8603/187保持不改，随后K103、K104组合各为独立正式推论。
 
 [零点完整第八](results/R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600.md)从七阶五头保留四个真实组合头，加十恒等共14头。完整4347非pure校正、最后Q歧义和高零head核2均保留；low1088×599 rank585/kernel14、head4/零头10，全部6188×4原产品真。累计≤4/4/5/8/10/12/12/13，公共零点阶58/49，K104=s58(s−2)9(s+6)9F+²F−²E8²；不把受限head损失当完整第八正秩。
 
