@@ -24,6 +24,7 @@ jobs:
       - name: Read only the completed original public log and emit semantic observations
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
         run: |
           python - <<'PY'
           import os,subprocess,sys

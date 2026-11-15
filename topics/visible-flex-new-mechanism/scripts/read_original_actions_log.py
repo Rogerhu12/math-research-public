@@ -17,6 +17,7 @@ from pathlib import Path, PurePosixPath
 import re
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -178,7 +179,7 @@ class GitHubReader:
 def git(root, arguments, timeout=120):
     env = dict(os.environ)
     for key in list(env):
-        if key in ("GITHUB_TOKEN", "GH_TOKEN", "GIT_ASKPASS", "SSH_ASKPASS") or key.startswith("GIT_CONFIG_"):
+        if key in ("GITHUB_TOKEN", "GH_TOKEN", "MR_TOKEN", "GIT_ASKPASS", "SSH_ASKPASS") or key.startswith("GIT_CONFIG_"):
             env.pop(key, None)
     env["GIT_TERMINAL_PROMPT"] = "0"
     command = ["git", "-c", "credential.helper=", "-c", "http.extraHeader=",
@@ -236,6 +237,95 @@ def actual_pull(root, request, source):
         for x in rows.values())
     record["passed"] = code == 0 and record["readmes_match_expected"]
     return record
+
+
+
+def private_rule_pull(request, context):
+    """Authorized hourly metadata sync; no private file content reaches stdout."""
+    if not request.get("sync_private_rules"):
+        return
+    token = os.environ.get("MR_TOKEN", "")
+    require(bool(token), "MR_TOKEN unavailable for authorized private rule sync")
+    env = dict(os.environ)
+    for key in list(env):
+        if key.startswith(("GIT_TRACE", "GIT_CONFIG_")) or key in ("GIT_CURL_VERBOSE", "GIT_ASKPASS", "SSH_ASKPASS"):
+            env.pop(key, None)
+    env.update({"GIT_TERMINAL_PROMPT": "0", "GITHUB_TOKEN": token,
+                "GIT_CONFIG_COUNT": "2",
+                "GIT_CONFIG_KEY_0": "credential.helper", "GIT_CONFIG_VALUE_0": "",
+                "GIT_CONFIG_KEY_1": "credential.helper",
+                "GIT_CONFIG_VALUE_1": "!f() { printf '%s\\n' 'username=x-access-token' \"password=$GITHUB_TOKEN\"; }; f"})
+    def command(cwd, *args, checked=True):
+        result = subprocess.run(["git", *args], cwd=cwd, env=env,
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120, check=False)
+        require(not checked or result.returncode == 0, "authorized private git " + args[0] + " failed")
+        return result
+    paths = ("README.md", TOPIC + "/README.md")
+    expected = request.get("expected_private_readme_blobs")
+    require(isinstance(expected, dict) and set(expected) == set(paths), "invalid private expected rule paths")
+    with tempfile.TemporaryDirectory(prefix="visible-private-rule-read-", dir=os.environ["RUNNER_TEMP"]) as folder:
+        private = Path(folder) / "private"
+        command(Path(folder), "clone", "--filter=blob:none", "--depth", "1", "--no-checkout",
+                "--branch", "main", "https://github.com/Rogerhu12/math-research.git", str(private))
+        command(private, "config", "gc.auto", "0")
+        command(private, "config", "maintenance.auto", "false")
+        command(private, "sparse-checkout", "init", "--no-cone")
+        command(private, "sparse-checkout", "set", "--no-cone",
+                "/README.md", "/QUEUE.md", "/" + TOPIC + "/README.md")
+        command(private, "checkout", "main")
+        before = command(private, "rev-parse", "HEAD").stdout.decode().strip()
+        started = utc_now()
+        command(private, "pull", "--rebase", "--no-autostash", "origin", "main")
+        after = command(private, "rev-parse", "HEAD").stdout.decode().strip()
+        current = {}
+        for path in paths:
+            value = command(private, "rev-parse", "--verify", "HEAD:" + path, checked=False)
+            current[path] = value.stdout.decode().strip() if value.returncode == 0 else None
+        changed_during = bool(command(private, "diff", "--name-only", before, after, "--", *paths).stdout.strip())
+        rows = [line for line in (private / "QUEUE.md").read_text().splitlines()
+                if chr(96) + TOPIC + chr(96) in line]
+        correct = len(rows) == 1 and "进行中" in rows[0] and "Astra-new-mechanism-9974ea84" in rows[0]
+        context["observer_private_actual_git_pull"] = {
+            "actual_git_pull": True, "repository": "Rogerhu12/math-research",
+            "started_at": started, "completed_at": utc_now(), "before": before, "after": after,
+            "readme_blobs": current, "readmes_unchanged_since_recorded": current == expected,
+            "readmes_unchanged_during_this_pull": not changed_during,
+            "queue_unique_and_ongoing_for_this_session": correct,
+            "private_contents_not_published": True}
+        require(current == expected and not changed_during,
+                "private README changed: read its private diff and apply before continuing")
+        require(correct, "private QUEUE requires the already authorized topic status update")
+
+
+def small_scalars(value):
+    return {k: v for k, v in value.items() if scalar(v)} if isinstance(value, dict) else value
+
+
+def error_view(value):
+    if not isinstance(value, dict):
+        return value
+    result = small_scalars(value)
+    for key in ("difference_terms", "complete_model_difference_terms"):
+        if key in value:
+            result[key] = small_scalars(value[key])
+    for key in ("complete_affine_four_maxima",):
+        if key in value:
+            result[key] = value[key]
+    result["unexpanded_field_names"] = sorted(set(value) - set(result))
+    return result
+
+
+def compact_trial(value):
+    result = small_scalars(value)
+    if not isinstance(result, dict):
+        return result
+    for key in ("scale_feedback", "affine_metric_error_decomposition",
+                "coarse_gate_flags", "fine_gate_flags", "coarse_gates", "fine_gates",
+                "actual_gate_booleans", "coarse_actual_gates", "fine_actual_gates"):
+        if key in value:
+            result[key] = error_view(value[key]) if key == "affine_metric_error_decomposition" else small_scalars(value[key])
+    result["unexpanded_field_names"] = sorted(set(value) - set(result))
+    return result
 
 
 def scalar(value):
@@ -372,26 +462,41 @@ def actual_view(report, preview):
 
 
 def model_view(value, preview, path):
-    result = {k: v for k, v in value.items() if scalar(v)}
-    result["complete_top_level_field_directory"] = shape(value, 1)
+    result = small_scalars(value)
     lp = value.get("linear_program")
     if isinstance(lp, dict):
-        view = {k: v for k, v in lp.items() if scalar(v)}
-        view["field_directory"] = shape(lp, 1)
-        for key in ("complete_original_grid_model",
-                    "physical_values_or_Jacobians_inside_inner_solver",
-                    "primary_step_cost_diagnostic", "error"):
+        selected = small_scalars(lp)
+        for key in ("physical_values_or_Jacobians_inside_inner_solver",):
             if key in lp:
-                preview.field(view, key, lp[key], 4500, path=path + ".linear_program")
-        result["linear_program_focused"] = view
-    for key in ("primary_step_cost_diagnostic", "scale_feedback_update", "error"):
+                selected[key] = small_scalars(lp[key])
+        if isinstance(lp.get("inner_LPs"), list):
+            selected["inner_LPs"] = [small_scalars(item) for item in lp["inner_LPs"]]
+        complete = lp.get("complete_original_grid_model", {})
+        if isinstance(complete, dict):
+            selected["complete_model_summary"] = small_scalars(complete.get("summary", {}))
+            oracle = complete.get("oracle", {})
+            selected["original_oracle_statistics"] = oracle.get("statistics", {})
+            selected["original_oracle_initial_four_maxima"] = oracle.get("initial_four_maxima")
+        selected["unexpanded_field_names"] = sorted(set(lp) - set(selected))
+        result["linear_program"] = selected
+    for key in ("trials", "corrections"):
+        if isinstance(value.get(key), list):
+            items = []
+            for item in value[key]:
+                part = compact_trial(item)
+                if key == "corrections" and isinstance(item.get("linear_program"), dict):
+                    part["linear_program"] = small_scalars(item["linear_program"])
+                    comparison = item["linear_program"].get("same_step_scalar_and_affine_budget_comparison")
+                    if comparison is not None:
+                        part["same_step_scalar_and_affine_budget_comparison"] = comparison
+                items.append(part)
+            result[key] = items
+    for key in ("primary_step_cost_diagnostic", "scale_feedback_update",
+                "accepted_SOC_base_total_step_diagnostic", "error"):
         if key in value:
-            preview.field(result, key, value[key], 6500, path=path)
-    for key in ("trials", "corrections", "affine_spectral_observable_model"):
-        if key in value:
-            result[key] = preview.omit(value[key], path + "." + key,
-                                      "native tables retained; detailed dictionaries not expanded",
-                                      directory=True)
+            result[key] = small_scalars(value[key])
+    result["unexpanded_field_names"] = sorted(set(value) - set(result))
+    result["original_full_model_fingerprint"] = fingerprint(value)
     return result
 
 
@@ -519,6 +624,7 @@ def run(args, context):
     pull = actual_pull(root, request, source)
     context["observer_actual_git_pull"] = pull
     require(pull["passed"], "public pull or README identity failed; read-only diff retained in observation error")
+    private_rule_pull(request, context)
 
     # Receipt and request are both read at the pinned observer commit, not floating main.
     receipt_path = repo_path(request["original_receipt_path"])
@@ -588,11 +694,11 @@ def run(args, context):
         2500, preview_extra, "$.original_actual_pull_records")
     context["native_actual_printer"] = compact_records(native, 3500, preview_extra,
         "$.native_actual_printer")
-    context["native_human_printer_lines"] = compact_records(human, 10000, preview_extra,
-        "$.native_human_printer_lines")
+    context["native_human_printer_lines"] = preview_extra.omit(human,
+        "$.native_human_printer_lines", "domain tables were consumed; this observation prioritizes original model/trial/error scalars")
     context["native_model_record_count"] = len(models)
     context["native_model_directories_and_focused_fields"] = compact_records(
-        models, 8000, preview_extra, "$.models",
+        models, 48000, preview_extra, "$.models",
         transform=lambda row, i: {k: v for k, v in row.items() if k != "model"} |
             {"focused_model": model_view(row["model"], preview_extra, "$.models[" + str(i) + "]")})
     context["publisher_short_log"] = compact_records(
@@ -648,7 +754,7 @@ def main():
             minimal = {k: v for k, v in context.items() if k in (
                 "schema", "observer_binding", "observer_actual_git_pull", "original_identity",
                 "original_log", "source_binding_check", "complete_report_count_for_schema",
-                "original_job_steps")}
+                "original_job_steps", "observer_private_actual_git_pull")}
             minimal.update(status="semantic-output-limit-exceeded",
                            proposed_stdout_bytes=len(output), stdout_byte_limit=STDOUT_CAP,
                            mathematical_execution_performed=False,
