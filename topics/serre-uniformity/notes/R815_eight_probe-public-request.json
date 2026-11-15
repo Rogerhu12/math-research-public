@@ -1,0 +1,1363 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "d41db6dac9f69f7288ba7e1663d355e51e559b69",
+  "job": {
+    "R813_proof_sha256": "3cf42cc8b6018e6e171feccdf77340f386d38051812a0bf5037851cad0ab0f25",
+    "R815_method_sha256": "5d312007a6c91196e7bf88d4c670389fa58049d7b7b3a7d89e9475c59ea65ba1",
+    "R817_proof_sha256": "2fc18cdc4bd264b2d2dbc9f80b885574764d8844d9ee3725960b5b76b684c80b",
+    "auxiliary_prime_start": 1000000007,
+    "budget_minutes": 300,
+    "core": "R815_eight_probe_reconstruction.py",
+    "core_sha256": "49f8952f6f7d777c164aa1e461db2b4663a76b69a49b2f7ee1e2878b56615d8b",
+    "exact_identity_mode": "deterministic_integer_points_with_weighted_degree_bound",
+    "framework": "R811_original_regular_multipliers.py",
+    "framework_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "legacy_core": "R815_original_normal_derivation_operators.py",
+    "legacy_core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+    "matrix_row_block_size": 16,
+    "method": "notes/R815-original-normal-derivation-operator-method.md",
+    "nested_proof": "results/R817-original-normal-derivation-without-separate-h-multiplier.md",
+    "p": 41,
+    "previous_projective_scan": {
+      "archive_bytes": 2721387228,
+      "archive_sha256": "03c3c5925b949e4f8dcc89260fb807dace1649088c0bfb122910dba3275f90c8",
+      "artifact_id": 14178355802,
+      "artifact_name": "serre-global-R815-original-normal-derivation-operators-43755027718-1",
+      "certificate": {
+        "bytes": 16253,
+        "file": "p41-original-normal-derivation-operator-certificate.json",
+        "sha256": "e789cf88cd6aa4f2454c003c1d5699476c4ff91c283f092d8410cc7fa54125c5"
+      },
+      "configuration_sha256": "c3350f10e03df1b71576b78acb46a5c2c949127ca5003f4d2f4d0db5d8905b81",
+      "core_sha256": "0008796890a0cfcf0b9aaaa40e26f0d8d26be38f8168c8fe918d86a7585a0ec1",
+      "expected_conclusion": "failure",
+      "files": {
+        "R815-projective-original-425-source-audit.json.gz": {
+          "bytes": 4310,
+          "file": "R815-projective-original-425-source-audit.json.gz",
+          "sha256": "bd0abb45ef667c15716b655fe6f8b0eee84841f1818fbae88f1558ee8c908c05"
+        },
+        "R815-projective-probe-pair-000000.json.gz": {
+          "bytes": 8205,
+          "file": "R815-projective-probe-pair-000000.json.gz",
+          "sha256": "db84184d0351d22784e184dd02173f31e019f7e68ba987ec63b3c635f510382b"
+        },
+        "R815-projective-probe-pair-000001.json.gz": {
+          "bytes": 8188,
+          "file": "R815-projective-probe-pair-000001.json.gz",
+          "sha256": "84bec3c5e03d6d26220503f578cfd9900e08bfbc84f8dd38f74c9c67fb746ef6"
+        },
+        "R815-projective-probe-pair-000002.json.gz": {
+          "bytes": 8203,
+          "file": "R815-projective-probe-pair-000002.json.gz",
+          "sha256": "e4423a78acf54b80bbd828fbc7e45a296da7e8c0bf6ed2fedbfb505834186d26"
+        },
+        "R815-projective-probe-pair-000003.json.gz": {
+          "bytes": 8183,
+          "file": "R815-projective-probe-pair-000003.json.gz",
+          "sha256": "1bbc7a409ba84f39618d47b9465678bc6008f67c9cc2471d77c8ee4d71ef1fcf"
+        },
+        "R815-projective-probe-scan-current.json.gz": {
+          "bytes": 3463,
+          "file": "R815-projective-probe-scan-current.json.gz",
+          "sha256": "3782cd81bae0a5a80e260b80ec8cde0539ee5af97619a8b19652fb5b130fb39d"
+        },
+        "R815-stage-manifest-53a92c816eb01b9b717159f0.json.gz": {
+          "bytes": 14340,
+          "file": "R815-stage-manifest-53a92c816eb01b9b717159f0.json.gz",
+          "sha256": "b95a82f91557f6d817118f6c87c4b271455deb458ee87514c74c61cc6c79bbf5"
+        },
+        "R815-two-known-columns-exact-original-input.json.gz": {
+          "bytes": 1608842,
+          "file": "R815-two-known-columns-exact-original-input.json.gz",
+          "sha256": "8907fb65e6724d09ba21cca87b649c45631dc0e0f1c1d477f147447be4f4073c"
+        },
+        "R815-two-known-columns-imported-scalar-scan.json.gz": {
+          "bytes": 3507,
+          "file": "R815-two-known-columns-imported-scalar-scan.json.gz",
+          "sha256": "068f3559359309210a4552ad921cc7a098dcb7ba05e8ad3415265ab5c1214b85"
+        },
+        "core-receipt.json": {
+          "bytes": 995,
+          "file": "core-receipt.json",
+          "sha256": "895ad29be9d386d83c41712eb1798980413b8c5479ea0918f3fb9cfb020814a3"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 54863,
+          "file": "full-outputs-manifest.json",
+          "sha256": "cdf06cf303d181f662cd9d57243df2d4cf785b0b0b4b5b1e85c1816e55d16e08"
+        },
+        "p41-original-normal-derivation-operator-certificate.json": {
+          "bytes": 16253,
+          "file": "p41-original-normal-derivation-operator-certificate.json",
+          "sha256": "e789cf88cd6aa4f2454c003c1d5699476c4ff91c283f092d8410cc7fa54125c5"
+        },
+        "public-actions-input.json": {
+          "bytes": 24927,
+          "file": "public-actions-input.json",
+          "sha256": "aa3c5ee1825dcc597a1e1a97d9e9a6b59e31397e2210449eb0fdebf3efa7266b"
+        },
+        "run-receipt.json": {
+          "bytes": 724,
+          "file": "run-receipt.json",
+          "sha256": "6613d007490e653f00dce3ddaf80c13f62556ce67820d0ec85149f2f2ceb2d5c"
+        }
+      },
+      "imported_scalar_scan": {
+        "bytes": 3507,
+        "file": "R815-two-known-columns-imported-scalar-scan.json.gz",
+        "sha256": "068f3559359309210a4552ad921cc7a098dcb7ba05e8ad3415265ab5c1214b85"
+      },
+      "input_bundle": {
+        "bytes": 2715514274,
+        "file": "R815-retained-producer-inputs.tar.gz",
+        "sha256": "4c9a6d1e3c2c462efecabeba826697efbbc04a3357db1a74d8bd06027804a1b5"
+      },
+      "known_columns": {
+        "bytes": 1608842,
+        "file": "R815-two-known-columns-exact-original-input.json.gz",
+        "sha256": "8907fb65e6724d09ba21cca87b649c45631dc0e0f1c1d477f147447be4f4073c"
+      },
+      "manifest_bytes": 54863,
+      "manifest_file_count": 194,
+      "manifest_sha256": "cdf06cf303d181f662cd9d57243df2d4cf785b0b0b4b5b1e85c1816e55d16e08",
+      "previous_scan_input_bundle": {
+        "bytes": 69819,
+        "file": "R815-two-columns-previous-scan-inputs.tar.gz",
+        "sha256": "2670b608d515c5e2be135f5254640f58c7ce6136926925b593d0722245f3f4d2"
+      },
+      "probe_pairs": [
+        {
+          "bytes": 8205,
+          "file": "R815-projective-probe-pair-000000.json.gz",
+          "sha256": "db84184d0351d22784e184dd02173f31e019f7e68ba987ec63b3c635f510382b"
+        },
+        {
+          "bytes": 8188,
+          "file": "R815-projective-probe-pair-000001.json.gz",
+          "sha256": "84bec3c5e03d6d26220503f578cfd9900e08bfbc84f8dd38f74c9c67fb746ef6"
+        },
+        {
+          "bytes": 8203,
+          "file": "R815-projective-probe-pair-000002.json.gz",
+          "sha256": "e4423a78acf54b80bbd828fbc7e45a296da7e8c0bf6ed2fedbfb505834186d26"
+        },
+        {
+          "bytes": 8183,
+          "file": "R815-projective-probe-pair-000003.json.gz",
+          "sha256": "1bbc7a409ba84f39618d47b9465678bc6008f67c9cc2471d77c8ee4d71ef1fcf"
+        }
+      ],
+      "result": "R815-original-normal-derivation-operators",
+      "run_id": 43755027718,
+      "scan": {
+        "bytes": 3463,
+        "file": "R815-projective-probe-scan-current.json.gz",
+        "sha256": "3782cd81bae0a5a80e260b80ec8cde0539ee5af97619a8b19652fb5b130fb39d"
+      },
+      "selected_original_member_count": 3037,
+      "source_audit": {
+        "bytes": 4310,
+        "file": "R815-projective-original-425-source-audit.json.gz",
+        "sha256": "bd0abb45ef667c15716b655fe6f8b0eee84841f1818fbae88f1558ee8c908c05"
+      },
+      "source_commit": "e1d8a95631eb11d1df0ccba4a781b05b6dd45c62",
+      "stage_manifest": {
+        "bytes": 14340,
+        "file": "R815-stage-manifest-53a92c816eb01b9b717159f0.json.gz",
+        "sha256": "b95a82f91557f6d817118f6c87c4b271455deb458ee87514c74c61cc6c79bbf5"
+      },
+      "wrapper_sha256": "58d65088e16469651d9895b5fa3e8f93bd0f9c8db309852d1bf6d68b753bf8cd"
+    },
+    "producer_inputs_pending": false,
+    "projective_method": "notes/R815-original-eight-probe-common-denominator-lattice-method.md",
+    "projective_method_sha256": "3f11d09c5c0f2dcffe171011d3d1a96c5cc5b983fabfb71f2a45d11b02dfa348",
+    "projective_source": {
+      "accepted_checkpoint_exit_codes": [
+        1
+      ],
+      "archive_bytes": 2716759066,
+      "archive_sha256": "597aaf0006481ed9fc47fda4bb6635ff6b1b8aef336d8484ca92a9bbe9e802c4",
+      "artifact_id": 14174374945,
+      "artifact_name": "serre-global-R815-original-normal-derivation-operators-43719622321-1",
+      "core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+      "current": {
+        "bytes": 561995095,
+        "file": "R815-target-g-component-00-CRT-current.json.gz",
+        "sha256": "402379e2b5a0d4b225fda74d798bbb164d77ce7c3001eddca789d0fe602ef27c"
+      },
+      "expected_conclusion": "failure",
+      "input_bundle": {
+        "bytes": 109958828,
+        "file": "R815-retained-producer-inputs.tar.gz",
+        "sha256": "051571e117cdaafe31f9851c664c72583f55181444dbe112bbcbb7f2d2fbf1b3"
+      },
+      "latest_CRT_receipt": {
+        "bytes": 3902,
+        "file": "R815-target-g-component-00-CRT-step-000425-receipt.json.gz",
+        "sha256": "f136bee8e383b5fcff03a86bebc5bf8f30f3394d885f8aa4ac1e327ad7a82042"
+      },
+      "manifest_bytes": 892108,
+      "manifest_file_count": 3464,
+      "manifest_sha256": "4e78095e2adc217beb86d4f760e6207a4aa60c4492bbfcc739a8544f376842e5",
+      "result": "R815-original-normal-derivation-operators",
+      "run_id": "43719622321",
+      "source_commit": "2a3300a9edec73c23e72f23127a0ae7d8222d13e"
+    },
+    "proof": "results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md",
+    "reconstruct_every_primes": 8,
+    "requested_stage": "original_normal_derivation_operators",
+    "requested_targets": [
+      "g",
+      "Gamma"
+    ],
+    "result": "R815-original-normal-derivation-operators",
+    "resume": null,
+    "retained_artifacts": {
+      "R806": {
+        "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+        "artifact_id": 14161637987,
+        "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+        "certificate_name": "p41-original-primitive-multiplication-certificate.json",
+        "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+        "files": {
+          "R806-accepted-primitive-candidate.json.gz": "2aac2d669a6f6889d4c84e357cb82aae1e27bcd4fecf43a846ffe5ac7822ce27",
+          "R806-candidate-0000000000-definition.json.gz": "715faab78be54e3cf91958d0895c8c8d0157d752414feab775cc499859616170",
+          "R806-candidate-0000000000-group-000-exact-coordinates.json.gz": "3b2b11873b4c505275845f9d4639215b27273856ff9a21cc771cabf9b504bdfa",
+          "R806-candidate-0000000000-group-001-exact-coordinates.json.gz": "316d3126cc815494ce8241ea4f8059c68d05ea53237b6eb28b9e36a170a315bc",
+          "R806-candidate-0000000000-group-002-exact-coordinates.json.gz": "5f0fc29272e9d9d24827376618887ddd46f4e2f538c98f887408e81b8f4a2025",
+          "R806-candidate-0000000000-group-003-exact-coordinates.json.gz": "791396253967529e3f5e2d4e997d20013bb0bcadcfa904913ad71c5001122a88",
+          "R806-candidate-0000000000-group-004-exact-coordinates.json.gz": "88dcab3d25a4ebb92e8934c4f3b5a57cc3977387bebcb6177310e1e69a7e21ac",
+          "R806-candidate-0000000000-group-005-exact-coordinates.json.gz": "7b92a885cbc0081989478443f51c32415d2b965823db7405439452605e4912d7",
+          "R806-candidate-0000000000-group-006-exact-coordinates.json.gz": "368d7f9ba889427866ecf1c7c51293adf732b8421c03362fb9185821527e8c92",
+          "R806-candidate-0000000000-group-007-exact-coordinates.json.gz": "b3d7c7ca60cb5247cd16da0d62074b58f524817e2fc66ec1aa52022297bfcc32",
+          "R806-candidate-0000000000-group-008-exact-coordinates.json.gz": "96a59e848aa673a955cec064e4c14d6387a0bfc09264ceab16917cacbfc7037e",
+          "R806-candidate-0000000000-group-009-exact-coordinates.json.gz": "88ddd67f178bcff933930d08df95441ab434f2a44483e0bfa82e4aaa45702480",
+          "R806-candidate-0000000000-group-010-exact-coordinates.json.gz": "effe47f676b3decd27311e8dbebb21e060f559d1cbf6accf4a534a1dd2b7d93a",
+          "R806-candidate-0000000000-group-011-exact-coordinates.json.gz": "4a423ad24b57d116995f878ac3c55d6ebc127257d36e5c809fca3eb50e6df793",
+          "R806-candidate-0000000000-group-012-exact-coordinates.json.gz": "caf8b69b87e1dd2be5c6453eb6cdba16c2de7288278c8c80521e0974e493f600",
+          "R806-candidate-0000000000-group-013-exact-coordinates.json.gz": "a7fae892aaea357639f49ed6f242de92181743e88e14fdeb88331a078307ba02",
+          "R806-candidate-0000000000-group-014-exact-coordinates.json.gz": "81c5af8f5f3d87ea91c77bfcaa93c7585886ac40105486ff306fb0d28af7de8b",
+          "R806-candidate-0000000000-group-015-exact-coordinates.json.gz": "6253fb131a9440a9893c7eced985bf5e87097c4c5eaeca8a5511c6551b33f813",
+          "R806-candidate-0000000000-group-016-exact-coordinates.json.gz": "2faa97c955c4229883d18206af24b4f643e5ff60131ebbfed7d3966c78aa496b",
+          "R806-candidate-0000000000-group-017-exact-coordinates.json.gz": "f1c57d13aa055805196a340acb57c73e11eb07ae7e6aa466022e42dbf72bbcbd",
+          "R806-candidate-0000000000-group-018-exact-coordinates.json.gz": "3554f2778b9167c1b9a46a635940c17710f177888ed3677db02ab38442847f4b",
+          "R806-candidate-0000000000-group-019-exact-coordinates.json.gz": "9fda9a570042257ee5a799ee83e4d75a13e967136e7e6db05278c8bc3c73bd2f",
+          "R806-candidate-0000000000-group-020-exact-coordinates.json.gz": "b96e4fd9623f76b25751dfcf7f557dab0ede96645af634f0d0e812c38ca937c7",
+          "R806-candidate-0000000000-group-021-exact-coordinates.json.gz": "5021cf3fbb20b521c76c9e93de077dbac8768988c3ae5c82084ae548b9ce0d27",
+          "R806-candidate-0000000000-group-022-exact-coordinates.json.gz": "08d7b85907541543e8aae2558de218cad1a07e9d46060f9dd41ce3836d8c3025",
+          "R806-candidate-0000000000-group-023-exact-coordinates.json.gz": "1c7d5c362f914ffb70c7de39b96b512997bca062bfd24c3bf23629fd4564e6c9",
+          "R806-candidate-0000000000-group-024-exact-coordinates.json.gz": "8df5de172bfe4e82b883323ca54d6efd1a8b455a67421e7cb2298a013c0b7781",
+          "R806-candidate-0000000000-group-025-exact-coordinates.json.gz": "1a585e5a82761f4bf4cc0338a54b21c467482c5d78c16cf292bb60b700fb2d43",
+          "R806-candidate-0000000000-group-026-exact-coordinates.json.gz": "639dbcc2697ef1f7195d30a06dbba0b9bbcfb1eaf1ebedb3ab0c6aa27288897c",
+          "R806-candidate-0000000000-group-027-exact-coordinates.json.gz": "3c939ce648b09f9f1a6b683173281cb54a935506aeea78e657fed17110cf6470",
+          "R806-candidate-0000000000-group-028-exact-coordinates.json.gz": "4f71bc42fe45bb1c6500c5448ff8602c64167c9d05fb0d27990024ebe6efb0ae",
+          "R806-candidate-0000000000-group-029-exact-coordinates.json.gz": "0d101b69b819f9f579c412445e496d7361387c7738566052990d10ee36be839c",
+          "R806-candidate-0000000000-group-030-exact-coordinates.json.gz": "13f80b37be7c83cbf17bdf64e19587768915ad2f96768d2844f0ccecf54091d9",
+          "R806-candidate-0000000000-group-031-exact-coordinates.json.gz": "eb4d0b7f75d2742aace20025141632c490ff8f199741d81db80e553e8ae6dc61",
+          "R806-candidate-0000000000-group-032-exact-coordinates.json.gz": "a9ae92bc19fe6b5e883f5b76030c3fd9c721471815311b912f8827a3ebd5e7db",
+          "R806-candidate-0000000000-group-033-exact-coordinates.json.gz": "97f0a1911155961475b292baedb6bccbb047e208627563721ab911e834a30782",
+          "R806-candidate-0000000000-prime-1000000007-z-0-cyclic.json.gz": "6d6722d93321e757535fe96f9d3ecc181ac85dc65d67d4bda41a6477ab84f5e8",
+          "R806-exact-polynomial-multiplier-in-original-normal-basis.json.gz": "63b38d14dbeb4b504619db65f56c151146885173b8cef253dfba3bebc76cd2dd",
+          "R806-original-input-and-coordinate-chart.json.gz": "839b29f9042937529b23699dc6bcad4d669f25108d472887718c77e617120c5b",
+          "R806-stage-manifest.json.gz": "0b32cfba77138d2fadea50bc922376c9199babb5aa6b7206781d9f030874c652",
+          "p41-original-primitive-multiplication-certificate.json": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99"
+        },
+        "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+        "result": "R806-original-primitive-multiplication",
+        "run_id": "43707290840",
+        "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b"
+      },
+      "R813": {
+        "archive_sha256": "0850402e283b5b16454aeba4c0967d06cad65951d09a8972aba9b34007b3c812",
+        "artifact_id": 14162633303,
+        "artifact_name": "serre-global-R813-original-Wronskian-derivation-inputs-43715253991-1",
+        "certificate_name": "p41-original-Wronskian-derivation-inputs-certificate.json",
+        "core_sha256": "830ae652ebb08a035c6636c7738ab4823322111944932ffc77b1136caf7a07bc",
+        "files": {
+          "R813-original-g-h-normal-vector-interface.json.gz": "ef9d09186098bd8cc2144c16bf7797234ac176b7d1faac3fd50b74564c6f32a6",
+          "R813-stage-manifest-18457338f91f4aa2c9541979.json.gz": "ee8a07765edff4a1349ded569085330521998ec296d14020c5ff49400e6a1366",
+          "R813-two-exact-S3-Wronskian-coordinates.json.gz": "29bedd339da16b4fee3dfd412f1d599343a25231fa3b360f5b7b6be4404e9085",
+          "p41-original-Wronskian-derivation-inputs-certificate.json": "e3c2e041490d918bfec45c08dea337eb44a17548788ad8ce5f01cd14877d0a64"
+        },
+        "manifest_sha256": "0b54cf2ebb843fb789058d6c40c766428a2d79d1a9b0f705ce4094d4aee1acf8",
+        "result": "R813-original-Wronskian-derivation-inputs",
+        "run_id": "43715253991",
+        "source_commit": "74f5296a6aa06539580ecbd9591a1284e1984a4e"
+      }
+    },
+    "workflow": ".github/workflows/serre-R815_eight_probe.yml",
+    "wrapper_sha256": "5f0bc8979d13bef8757a33daf112dd0345b436c347353efd04bc10770555e24f",
+    "three_column_core": "R815_three_known_columns_reconstruction.py",
+    "three_column_core_sha256": "515e15557ea3681055178f5da742d5c4fcee9d5d6a313e5c5892124872a72f83",
+    "three_column_io_helper": "R815_three_known_columns_public.py",
+    "three_column_io_helper_sha256": "3b573881361342a9b3849aacc35ff040d067938d82da2ff7b7a4568d332fc69f",
+    "completed_three_columns_source": {
+      "result": "R815-original-normal-derivation-operators",
+      "run_id": "43762388370",
+      "source_commit": "ca1fe0d562497055f9e5441edc17ac588a25229c",
+      "core_sha256": "515e15557ea3681055178f5da742d5c4fcee9d5d6a313e5c5892124872a72f83",
+      "wrapper_sha256": "3b573881361342a9b3849aacc35ff040d067938d82da2ff7b7a4568d332fc69f",
+      "artifact_id": 14181118695,
+      "artifact_name": "serre-global-R815-original-normal-derivation-operators-43762388370-1",
+      "archive_bytes": 2730829290,
+      "archive_sha256": "afe625bfe018dbde69d6b36dffada3278465e50cf54bd4fdc5b375c07a2ae103",
+      "expected_conclusion": "failure",
+      "manifest_sha256": "0f2be930adc35c414f8f7f69c7dfd2ada3b0b5fe076d66f7c08583d416cd1718",
+      "manifest_bytes": 55956,
+      "manifest_file_count": 198,
+      "configuration_sha256": "e9bdaaad21dad23d7180383deee207bc279639a8d157029b98ef5fa2236e2c37",
+      "files": {
+        "R815-projective-g-candidate-016b352a0c10f5629bb25ea9da9c3b34-definition.json.gz": {
+          "file": "R815-projective-g-candidate-016b352a0c10f5629bb25ea9da9c3b34-definition.json.gz",
+          "bytes": 10978,
+          "sha256": "6cf8ab6e3209aee50c601fa394435d5d506eb10e63d63ee301459435b9c51cb7"
+        },
+        "R815-projective-g-candidate-016b352a0c10f5629bb25ea9da9c3b34-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-016b352a0c10f5629bb25ea9da9c3b34-early-exact-entry-00.json.gz",
+          "bytes": 10897,
+          "sha256": "c31b2f2d9f891aea9c70f7399739a6fa7257adfc23a781d08c47be6ec194ed37"
+        },
+        "R815-projective-g-candidate-016b352a0c10f5629bb25ea9da9c3b34-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-016b352a0c10f5629bb25ea9da9c3b34-rejected.json.gz",
+          "bytes": 4500,
+          "sha256": "2a466a08b912616653ae21672fa0ead82f07ebd3cdb639985518df2da5edde9f"
+        },
+        "R815-projective-g-candidate-03b9c4c8566dc79e1ec619f049f36d61-definition.json.gz": {
+          "file": "R815-projective-g-candidate-03b9c4c8566dc79e1ec619f049f36d61-definition.json.gz",
+          "bytes": 11066,
+          "sha256": "b0a8e76e28c76213d4b81a5736ded3f92e2a2c72789c064076c4477964af0389"
+        },
+        "R815-projective-g-candidate-03b9c4c8566dc79e1ec619f049f36d61-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-03b9c4c8566dc79e1ec619f049f36d61-early-exact-entry-00.json.gz",
+          "bytes": 11014,
+          "sha256": "8f828eff46918213437d84599fdfc5c59ebd1fe1b544c9e4b792f7b203eff5e1"
+        },
+        "R815-projective-g-candidate-03b9c4c8566dc79e1ec619f049f36d61-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-03b9c4c8566dc79e1ec619f049f36d61-rejected.json.gz",
+          "bytes": 4504,
+          "sha256": "f86657b6620a45c7f31055229e8d641c28e876652a319068054e5d7b4d35ea9c"
+        },
+        "R815-projective-g-candidate-09d79072ef7b2b68c51d7d50748a1715-definition.json.gz": {
+          "file": "R815-projective-g-candidate-09d79072ef7b2b68c51d7d50748a1715-definition.json.gz",
+          "bytes": 10725,
+          "sha256": "bc9dd9ed581d35ed2cbd9132313395c9aa6102838f84272e94b1e5c584072b0e"
+        },
+        "R815-projective-g-candidate-09d79072ef7b2b68c51d7d50748a1715-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-09d79072ef7b2b68c51d7d50748a1715-early-exact-entry-00.json.gz",
+          "bytes": 10637,
+          "sha256": "b50cda7a1574a1da202f74cc9edfc537d0279abc7aff0db9cbde8504a1aa5ad5"
+        },
+        "R815-projective-g-candidate-09d79072ef7b2b68c51d7d50748a1715-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-09d79072ef7b2b68c51d7d50748a1715-rejected.json.gz",
+          "bytes": 4507,
+          "sha256": "8847f48e194531a2fbc3fca14df220273a4b931d6478e8b85a1cad524a00ab09"
+        },
+        "R815-projective-g-candidate-0d737f0330f1e37bb620d4289a629620-definition.json.gz": {
+          "file": "R815-projective-g-candidate-0d737f0330f1e37bb620d4289a629620-definition.json.gz",
+          "bytes": 11036,
+          "sha256": "bb1a7825083f962dbcd432717bfdf9a5e32ca47fd9c413ceef0ac70a6a726180"
+        },
+        "R815-projective-g-candidate-0d737f0330f1e37bb620d4289a629620-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-0d737f0330f1e37bb620d4289a629620-early-exact-entry-00.json.gz",
+          "bytes": 10979,
+          "sha256": "d9ff4030c8f1cbc34e47e88022ca3d0a66bd80a9112d855ad7b9b7a0c7cdbecb"
+        },
+        "R815-projective-g-candidate-0d737f0330f1e37bb620d4289a629620-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-0d737f0330f1e37bb620d4289a629620-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "b536e1358523cdfe80183e1dd90b929bb0ffcc34b28d5f4bdd1853e9c55cb333"
+        },
+        "R815-projective-g-candidate-10cd64fdfeb2896c301a82c10bdcfa4c-definition.json.gz": {
+          "file": "R815-projective-g-candidate-10cd64fdfeb2896c301a82c10bdcfa4c-definition.json.gz",
+          "bytes": 11094,
+          "sha256": "b4c2d802f0b45504f8bb24b322cc6168f770e1a1c09c117bb17a517674392d8c"
+        },
+        "R815-projective-g-candidate-10cd64fdfeb2896c301a82c10bdcfa4c-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-10cd64fdfeb2896c301a82c10bdcfa4c-early-exact-entry-00.json.gz",
+          "bytes": 11029,
+          "sha256": "619668debec9bb11a5e20095fdd704d33ed2b6ab9b22153f9a438f2b7df52127"
+        },
+        "R815-projective-g-candidate-10cd64fdfeb2896c301a82c10bdcfa4c-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-10cd64fdfeb2896c301a82c10bdcfa4c-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "cd99bdf5b4fb84f5009f52bb09278de8d0c1658d0d571127464168436ba6547d"
+        },
+        "R815-projective-g-candidate-12ca450ce21ab265335594207204a05a-definition.json.gz": {
+          "file": "R815-projective-g-candidate-12ca450ce21ab265335594207204a05a-definition.json.gz",
+          "bytes": 10974,
+          "sha256": "4791b7070b0a8778588153f78e498930cec4b22992b10491db2cdcded53c4a1c"
+        },
+        "R815-projective-g-candidate-12ca450ce21ab265335594207204a05a-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-12ca450ce21ab265335594207204a05a-early-exact-entry-00.json.gz",
+          "bytes": 10851,
+          "sha256": "6278931de06e47c79b5490f3ff0bf447941da0de620ed2e18c2c2e65b3e2b6c7"
+        },
+        "R815-projective-g-candidate-12ca450ce21ab265335594207204a05a-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-12ca450ce21ab265335594207204a05a-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "64a9064d923a20cba96bebf39654822bfda05765728c5ad3651780c99710f774"
+        },
+        "R815-projective-g-candidate-18c19e083b8e353aeae004000f348ccc-definition.json.gz": {
+          "file": "R815-projective-g-candidate-18c19e083b8e353aeae004000f348ccc-definition.json.gz",
+          "bytes": 10972,
+          "sha256": "ada8ba7384d84563c224792a261a8d238c7e159366ae18084686a55154ec1cf5"
+        },
+        "R815-projective-g-candidate-18c19e083b8e353aeae004000f348ccc-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-18c19e083b8e353aeae004000f348ccc-early-exact-entry-00.json.gz",
+          "bytes": 10897,
+          "sha256": "d1ec9f047288decf8d8bc2f54294cf2ab74d0492fde8b85f62195436149b296b"
+        },
+        "R815-projective-g-candidate-18c19e083b8e353aeae004000f348ccc-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-18c19e083b8e353aeae004000f348ccc-rejected.json.gz",
+          "bytes": 4501,
+          "sha256": "d6e7196eed63ec209ef820556da90b22de4e04f8025a8e8d2855a87ce958518a"
+        },
+        "R815-projective-g-candidate-1c45a4887ad0a2ec910d75cfaa965202-definition.json.gz": {
+          "file": "R815-projective-g-candidate-1c45a4887ad0a2ec910d75cfaa965202-definition.json.gz",
+          "bytes": 11119,
+          "sha256": "995b4f653278a7c1f11d44b0df59561e8fde919e6b0a4a0b8936dd753d2fb5c5"
+        },
+        "R815-projective-g-candidate-1c45a4887ad0a2ec910d75cfaa965202-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-1c45a4887ad0a2ec910d75cfaa965202-early-exact-entry-00.json.gz",
+          "bytes": 11114,
+          "sha256": "89bafd70169c2ac637654129e0f5e95313658e82ec3f74bee6ee64bbecce6487"
+        },
+        "R815-projective-g-candidate-1c45a4887ad0a2ec910d75cfaa965202-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-1c45a4887ad0a2ec910d75cfaa965202-rejected.json.gz",
+          "bytes": 4504,
+          "sha256": "87685e9fee0f02d9a4ade7139be53fc74b0070e7726d76809ae2a57946bb43eb"
+        },
+        "R815-projective-g-candidate-1d2c7cb2d183560073cee4f2d54c06dd-definition.json.gz": {
+          "file": "R815-projective-g-candidate-1d2c7cb2d183560073cee4f2d54c06dd-definition.json.gz",
+          "bytes": 10723,
+          "sha256": "962013c97373bd68501c7f53e0943d66392ee44ca7d2f690ca97500fd4fb27f3"
+        },
+        "R815-projective-g-candidate-1d2c7cb2d183560073cee4f2d54c06dd-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-1d2c7cb2d183560073cee4f2d54c06dd-early-exact-entry-00.json.gz",
+          "bytes": 10663,
+          "sha256": "4610e1a4ab7f6245fbb1561a82552e994641ae607abff911140c909a609dd3bd"
+        },
+        "R815-projective-g-candidate-1d2c7cb2d183560073cee4f2d54c06dd-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-1d2c7cb2d183560073cee4f2d54c06dd-rejected.json.gz",
+          "bytes": 4500,
+          "sha256": "aae599a66d1c9a54965b911bc4fb4530ee4706fe3bd4bb410d83c55da8b3a94e"
+        },
+        "R815-projective-g-candidate-22605ed1af2f921e3e701fd404d6316e-definition.json.gz": {
+          "file": "R815-projective-g-candidate-22605ed1af2f921e3e701fd404d6316e-definition.json.gz",
+          "bytes": 11123,
+          "sha256": "90c14426203b5f60feadd7e4a4cd119943dcbe7762d5abd01aadc2d8d9bdd025"
+        },
+        "R815-projective-g-candidate-22605ed1af2f921e3e701fd404d6316e-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-22605ed1af2f921e3e701fd404d6316e-early-exact-entry-00.json.gz",
+          "bytes": 11136,
+          "sha256": "8042d539e54b27d6cae241e9537f1a9b1c198ec27be9501d648312159037bf81"
+        },
+        "R815-projective-g-candidate-22605ed1af2f921e3e701fd404d6316e-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-22605ed1af2f921e3e701fd404d6316e-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "6339694eb4a5ae5aebbc343a14d10e013d5e34eee97691f146f401b8c200e227"
+        },
+        "R815-projective-g-candidate-24b52284335526ee99deb8feae30fa31-definition.json.gz": {
+          "file": "R815-projective-g-candidate-24b52284335526ee99deb8feae30fa31-definition.json.gz",
+          "bytes": 10741,
+          "sha256": "1d0225e7662f9a55899e623ef8bf43955f4bc56b132bb2b786052072f16c07ce"
+        },
+        "R815-projective-g-candidate-24b52284335526ee99deb8feae30fa31-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-24b52284335526ee99deb8feae30fa31-early-exact-entry-00.json.gz",
+          "bytes": 10632,
+          "sha256": "e4e2f8e855752fb9c905a25de1a6fa10907a4f236be9bce8ee32f4b4d33c1db1"
+        },
+        "R815-projective-g-candidate-24b52284335526ee99deb8feae30fa31-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-24b52284335526ee99deb8feae30fa31-rejected.json.gz",
+          "bytes": 4504,
+          "sha256": "d1aa8b386a2e89e309f452314e03f4f828a699a4255a47606832bbca61dca5b7"
+        },
+        "R815-projective-g-candidate-2e89623a481fa01ddb4a011cd7093f21-definition.json.gz": {
+          "file": "R815-projective-g-candidate-2e89623a481fa01ddb4a011cd7093f21-definition.json.gz",
+          "bytes": 10970,
+          "sha256": "bad60e35f6a76e25c75c2ca495d72769866a43359732797533fd8ea4eefd4566"
+        },
+        "R815-projective-g-candidate-2e89623a481fa01ddb4a011cd7093f21-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-2e89623a481fa01ddb4a011cd7093f21-early-exact-entry-00.json.gz",
+          "bytes": 10888,
+          "sha256": "c02eb045f99f397ceec971bb45d33034520d628e3b26a8e7053cd85ee2947e92"
+        },
+        "R815-projective-g-candidate-2e89623a481fa01ddb4a011cd7093f21-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-2e89623a481fa01ddb4a011cd7093f21-rejected.json.gz",
+          "bytes": 4502,
+          "sha256": "448c69c7105c39f338578a9bb1bd6eb0315116f20a1904fe0deb271c9790b31e"
+        },
+        "R815-projective-g-candidate-306fb99468bbf559ead6b48dfedeb0ed-definition.json.gz": {
+          "file": "R815-projective-g-candidate-306fb99468bbf559ead6b48dfedeb0ed-definition.json.gz",
+          "bytes": 10985,
+          "sha256": "3a76faecd500cfcb4bb0e7c2c3cd4692c7550be807ed4c4de406eecbc9dd1434"
+        },
+        "R815-projective-g-candidate-306fb99468bbf559ead6b48dfedeb0ed-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-306fb99468bbf559ead6b48dfedeb0ed-early-exact-entry-00.json.gz",
+          "bytes": 10894,
+          "sha256": "93d9294e4575e681c8a46e8dd2c92850ea5789c5dbd9e03d494d28561f9cb116"
+        },
+        "R815-projective-g-candidate-306fb99468bbf559ead6b48dfedeb0ed-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-306fb99468bbf559ead6b48dfedeb0ed-rejected.json.gz",
+          "bytes": 4508,
+          "sha256": "1348d622796bb7950f02d58bcf279a383aa210b00dee107d1b90464d17cc3237"
+        },
+        "R815-projective-g-candidate-33b1b27fe6913fd698f9f5fcf775877d-definition.json.gz": {
+          "file": "R815-projective-g-candidate-33b1b27fe6913fd698f9f5fcf775877d-definition.json.gz",
+          "bytes": 11060,
+          "sha256": "7d1276352eae0aac35003ca2de7fcc3b2143046fb69102208c56dab32edd9853"
+        },
+        "R815-projective-g-candidate-33b1b27fe6913fd698f9f5fcf775877d-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-33b1b27fe6913fd698f9f5fcf775877d-early-exact-entry-00.json.gz",
+          "bytes": 10976,
+          "sha256": "5f76c51a95318ce518e91d4d5105002acff9d976acd390a483fb6cc90370e84d"
+        },
+        "R815-projective-g-candidate-33b1b27fe6913fd698f9f5fcf775877d-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-33b1b27fe6913fd698f9f5fcf775877d-rejected.json.gz",
+          "bytes": 4501,
+          "sha256": "ec796ddc3147a3e0e16487f1b2b5addaa527b3de8ac10192203a0881fa73de9d"
+        },
+        "R815-projective-g-candidate-3c32a7e245be7104f55ff44348e59ab5-definition.json.gz": {
+          "file": "R815-projective-g-candidate-3c32a7e245be7104f55ff44348e59ab5-definition.json.gz",
+          "bytes": 6225,
+          "sha256": "5b98dbcc8e01b4fee7bf91100c4f3cbfd40cf4fa66336eb8fad8c427fc827721"
+        },
+        "R815-projective-g-candidate-3c32a7e245be7104f55ff44348e59ab5-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-3c32a7e245be7104f55ff44348e59ab5-early-exact-entry-00.json.gz",
+          "bytes": 10597,
+          "sha256": "373822577379fb6093a709353b0730deba452e255077f2eb4108d22eab2f8bca"
+        },
+        "R815-projective-g-candidate-3c32a7e245be7104f55ff44348e59ab5-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-3c32a7e245be7104f55ff44348e59ab5-rejected.json.gz",
+          "bytes": 4508,
+          "sha256": "07511ee19db4ba92f12c7903ff98fdb77f509eb8fafa67e8d34b9e3c13de123c"
+        },
+        "R815-projective-g-candidate-3dd93299b8810450444d15bbb17749f6-definition.json.gz": {
+          "file": "R815-projective-g-candidate-3dd93299b8810450444d15bbb17749f6-definition.json.gz",
+          "bytes": 11137,
+          "sha256": "19befd411552e4700e580731ec3df48b848e2e1a7ecb5fab6c7c8782e5cdd6d6"
+        },
+        "R815-projective-g-candidate-3dd93299b8810450444d15bbb17749f6-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-3dd93299b8810450444d15bbb17749f6-early-exact-entry-00.json.gz",
+          "bytes": 11150,
+          "sha256": "a44cce4655db4af4d2960e6c26f9cd89e5b88599b4034acf1e3731fa82411429"
+        },
+        "R815-projective-g-candidate-3dd93299b8810450444d15bbb17749f6-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-3dd93299b8810450444d15bbb17749f6-rejected.json.gz",
+          "bytes": 4503,
+          "sha256": "53fc71aabffef56d8616d5ed4b62bb5925720f8c62c8fd0e6e6603eccb380abd"
+        },
+        "R815-projective-g-candidate-46892a3d8272acc06f5bb338ef0a8f06-definition.json.gz": {
+          "file": "R815-projective-g-candidate-46892a3d8272acc06f5bb338ef0a8f06-definition.json.gz",
+          "bytes": 11048,
+          "sha256": "4a4491137ea55f7ce67f6be3f356920d14ac1c56be8f7d53dcaaaacc1e7ef976"
+        },
+        "R815-projective-g-candidate-46892a3d8272acc06f5bb338ef0a8f06-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-46892a3d8272acc06f5bb338ef0a8f06-early-exact-entry-00.json.gz",
+          "bytes": 10963,
+          "sha256": "4aba2b608aaeb0b93b840b3bcc24c19f46bc2495ee331d52538b25bdcf785845"
+        },
+        "R815-projective-g-candidate-46892a3d8272acc06f5bb338ef0a8f06-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-46892a3d8272acc06f5bb338ef0a8f06-rejected.json.gz",
+          "bytes": 4503,
+          "sha256": "6efe831340fa5d001d1b094447ebf84a95016c706df3aaf01251940b8dba74a1"
+        },
+        "R815-projective-g-candidate-494c93694ae94c2f4ad0cbe8434398aa-definition.json.gz": {
+          "file": "R815-projective-g-candidate-494c93694ae94c2f4ad0cbe8434398aa-definition.json.gz",
+          "bytes": 11362,
+          "sha256": "79ca92648e35b29d8b56154e838765129075af35351d1e5e0f0be17a6f38a903"
+        },
+        "R815-projective-g-candidate-494c93694ae94c2f4ad0cbe8434398aa-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-494c93694ae94c2f4ad0cbe8434398aa-early-exact-entry-00.json.gz",
+          "bytes": 11600,
+          "sha256": "effb599c5cdca009c1a8ee783f410fa696f8aa8259b63882a59a855e1f10618c"
+        },
+        "R815-projective-g-candidate-494c93694ae94c2f4ad0cbe8434398aa-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-494c93694ae94c2f4ad0cbe8434398aa-rejected.json.gz",
+          "bytes": 4498,
+          "sha256": "f4117a3757e8b4c966d18d88a8142e78833c3fdb2180e0ba1853c1388b07b3b1"
+        },
+        "R815-projective-g-candidate-51720d591c78426a12fb5ff170927d7d-definition.json.gz": {
+          "file": "R815-projective-g-candidate-51720d591c78426a12fb5ff170927d7d-definition.json.gz",
+          "bytes": 11396,
+          "sha256": "6374919562b725369a3353df0ab17885520a1032cb1c07d892174f958fc386d7"
+        },
+        "R815-projective-g-candidate-51720d591c78426a12fb5ff170927d7d-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-51720d591c78426a12fb5ff170927d7d-early-exact-entry-00.json.gz",
+          "bytes": 11640,
+          "sha256": "d117ced23542340fd2bd82ff47f735bb0c1a86db7a52d1a988904dbda08866f2"
+        },
+        "R815-projective-g-candidate-51720d591c78426a12fb5ff170927d7d-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-51720d591c78426a12fb5ff170927d7d-rejected.json.gz",
+          "bytes": 4492,
+          "sha256": "39218be33891f9687a53773fd7691e136c216e48be9f3a2ba8592a38e1de84a8"
+        },
+        "R815-projective-g-candidate-5559c9a585e7096c8d269d165a867329-definition.json.gz": {
+          "file": "R815-projective-g-candidate-5559c9a585e7096c8d269d165a867329-definition.json.gz",
+          "bytes": 11075,
+          "sha256": "9b38351153f4da9f942e05b3e0afad45970f1500e1ed7eeff52b0c7f8fef7161"
+        },
+        "R815-projective-g-candidate-5559c9a585e7096c8d269d165a867329-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-5559c9a585e7096c8d269d165a867329-early-exact-entry-00.json.gz",
+          "bytes": 11038,
+          "sha256": "f4abe70e42da4276f4b6f3e238a7182d8c2409df3bdbd9b0e2ef0d8e7489871b"
+        },
+        "R815-projective-g-candidate-5559c9a585e7096c8d269d165a867329-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-5559c9a585e7096c8d269d165a867329-rejected.json.gz",
+          "bytes": 4501,
+          "sha256": "33659bf8275dc0c2848aaf9e7de983f44d7ca5ff778eefea3a9291d7ee78d0a6"
+        },
+        "R815-projective-g-candidate-55befe9b38ab9987a29fcf53c87241f4-definition.json.gz": {
+          "file": "R815-projective-g-candidate-55befe9b38ab9987a29fcf53c87241f4-definition.json.gz",
+          "bytes": 10983,
+          "sha256": "1acc2624536ee152eac5c5f7d7a10408060175cbcf0bb40fdc2d561b45c5f23a"
+        },
+        "R815-projective-g-candidate-55befe9b38ab9987a29fcf53c87241f4-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-55befe9b38ab9987a29fcf53c87241f4-early-exact-entry-00.json.gz",
+          "bytes": 10900,
+          "sha256": "c745cca1ee49a2de32c4179fc9da122694a06ffa54b53ca55db2842751fe5407"
+        },
+        "R815-projective-g-candidate-55befe9b38ab9987a29fcf53c87241f4-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-55befe9b38ab9987a29fcf53c87241f4-rejected.json.gz",
+          "bytes": 4506,
+          "sha256": "1f5fafed1243a4335db6c70cb0d2c7f7d4712f7e220f32372b5d28bfb4086a2f"
+        },
+        "R815-projective-g-candidate-5a0612f1d836aa23077f04bcc977e474-definition.json.gz": {
+          "file": "R815-projective-g-candidate-5a0612f1d836aa23077f04bcc977e474-definition.json.gz",
+          "bytes": 11375,
+          "sha256": "99c6b46acbb711319d6f8cd932459e935bc601a9b0768bb5eed1a3632d0a5436"
+        },
+        "R815-projective-g-candidate-5a0612f1d836aa23077f04bcc977e474-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-5a0612f1d836aa23077f04bcc977e474-early-exact-entry-00.json.gz",
+          "bytes": 11617,
+          "sha256": "97055ea3655058169c7e85488206740a9d412c17edf0b2d29bfc955a78a2f03b"
+        },
+        "R815-projective-g-candidate-5a0612f1d836aa23077f04bcc977e474-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-5a0612f1d836aa23077f04bcc977e474-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "ae2e82ee113dbe8d84ab999f522a019bcd446a80c47d526f6901deb8b42224d4"
+        },
+        "R815-projective-g-candidate-5e9a775fa2d78c270428ef305e8ce4fb-definition.json.gz": {
+          "file": "R815-projective-g-candidate-5e9a775fa2d78c270428ef305e8ce4fb-definition.json.gz",
+          "bytes": 11051,
+          "sha256": "a815c11581d0093de020f3082c77b5a55e18f6ce15c89366ef6e3b87020c9397"
+        },
+        "R815-projective-g-candidate-5e9a775fa2d78c270428ef305e8ce4fb-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-5e9a775fa2d78c270428ef305e8ce4fb-early-exact-entry-00.json.gz",
+          "bytes": 10983,
+          "sha256": "680e85ff609e527683261e52794ab74316e968e2df64666215c733bee04c2b91"
+        },
+        "R815-projective-g-candidate-5e9a775fa2d78c270428ef305e8ce4fb-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-5e9a775fa2d78c270428ef305e8ce4fb-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "62f9237398925e829cdff211e8d6ef2031f896ef86dcb90ff78e09d3a998e67c"
+        },
+        "R815-projective-g-candidate-6e1ebd45e28897f70f871f9e0dd416c3-definition.json.gz": {
+          "file": "R815-projective-g-candidate-6e1ebd45e28897f70f871f9e0dd416c3-definition.json.gz",
+          "bytes": 11383,
+          "sha256": "bbe1d861b6ee172e44da004d4d71a8645571e2e3d874727632e692119b9e8dcc"
+        },
+        "R815-projective-g-candidate-6e1ebd45e28897f70f871f9e0dd416c3-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-6e1ebd45e28897f70f871f9e0dd416c3-early-exact-entry-00.json.gz",
+          "bytes": 11619,
+          "sha256": "db615b7b433f77a2cbcfec8c95a04e511133e8d32bbd41e2a90bac9834d16284"
+        },
+        "R815-projective-g-candidate-6e1ebd45e28897f70f871f9e0dd416c3-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-6e1ebd45e28897f70f871f9e0dd416c3-rejected.json.gz",
+          "bytes": 4502,
+          "sha256": "a5bb32e499c2246a4c45f0be3129a618b01243ac5d82439f90718875a0416caf"
+        },
+        "R815-projective-g-candidate-7185629d5ede08aaf4f6bc19fd4e7a64-definition.json.gz": {
+          "file": "R815-projective-g-candidate-7185629d5ede08aaf4f6bc19fd4e7a64-definition.json.gz",
+          "bytes": 11074,
+          "sha256": "25b0d28f2e8289b58c4f426595a291dd7d3ba99038727ce5962ea7e1569abe54"
+        },
+        "R815-projective-g-candidate-7185629d5ede08aaf4f6bc19fd4e7a64-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-7185629d5ede08aaf4f6bc19fd4e7a64-early-exact-entry-00.json.gz",
+          "bytes": 10996,
+          "sha256": "b42dbfe281e498757909bb0920fb42f069b79d8017abc63d7e1cafbc1c20bca5"
+        },
+        "R815-projective-g-candidate-7185629d5ede08aaf4f6bc19fd4e7a64-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-7185629d5ede08aaf4f6bc19fd4e7a64-rejected.json.gz",
+          "bytes": 4508,
+          "sha256": "2e01544c55861905beeaaa8e6cbedf1ce70c437138c880f04fe4b5d32ee505cd"
+        },
+        "R815-projective-g-candidate-71e37930c0e89abbe3a59f1a167431fe-definition.json.gz": {
+          "file": "R815-projective-g-candidate-71e37930c0e89abbe3a59f1a167431fe-definition.json.gz",
+          "bytes": 11104,
+          "sha256": "d4d38022e57b4745ac11874cb2f7b899c4da0943f549f62939dd504aca07efc5"
+        },
+        "R815-projective-g-candidate-71e37930c0e89abbe3a59f1a167431fe-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-71e37930c0e89abbe3a59f1a167431fe-early-exact-entry-00.json.gz",
+          "bytes": 11094,
+          "sha256": "d6de3d679eec5252bea928707b8d28de9d2e116eba2ea1b034e46b90012d56a2"
+        },
+        "R815-projective-g-candidate-71e37930c0e89abbe3a59f1a167431fe-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-71e37930c0e89abbe3a59f1a167431fe-rejected.json.gz",
+          "bytes": 4502,
+          "sha256": "c7da3a5176df02e4fa58320d8edce277d0a675b90da0aa5f7e2c500ed13d9ac9"
+        },
+        "R815-projective-g-candidate-726f061c38f56054d320f42900b9f42f-definition.json.gz": {
+          "file": "R815-projective-g-candidate-726f061c38f56054d320f42900b9f42f-definition.json.gz",
+          "bytes": 11074,
+          "sha256": "3a19c4fc782591a46d218e5874e0b49ef1d713739a708a1ed4cccbf5079a1eb1"
+        },
+        "R815-projective-g-candidate-726f061c38f56054d320f42900b9f42f-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-726f061c38f56054d320f42900b9f42f-early-exact-entry-00.json.gz",
+          "bytes": 11021,
+          "sha256": "9c22cb5fcea53c4dddfc4b53598d5f8810fe0e2d1778dba32babfaa312383b93"
+        },
+        "R815-projective-g-candidate-726f061c38f56054d320f42900b9f42f-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-726f061c38f56054d320f42900b9f42f-rejected.json.gz",
+          "bytes": 4507,
+          "sha256": "b4e54be170e1e58a6968c8281a7b83214e96c1d71dfe4e92fbfcec9d7c779212"
+        },
+        "R815-projective-g-candidate-77661ae3db78999cf0455cc82da4aeff-definition.json.gz": {
+          "file": "R815-projective-g-candidate-77661ae3db78999cf0455cc82da4aeff-definition.json.gz",
+          "bytes": 11081,
+          "sha256": "ce586855bc894391cb989fc48566ac22212d01c9fd8f892c9ea046ddc57d9a7b"
+        },
+        "R815-projective-g-candidate-77661ae3db78999cf0455cc82da4aeff-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-77661ae3db78999cf0455cc82da4aeff-early-exact-entry-00.json.gz",
+          "bytes": 11017,
+          "sha256": "b3efe6a8bcafcd361929f148d7aeaab6d06c06b4702992e801dbac20498b77e2"
+        },
+        "R815-projective-g-candidate-77661ae3db78999cf0455cc82da4aeff-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-77661ae3db78999cf0455cc82da4aeff-rejected.json.gz",
+          "bytes": 4498,
+          "sha256": "b782d8b03a2e5fb0eba43e631922a777c20bc2d544bd121caa69923143113dd9"
+        },
+        "R815-projective-g-candidate-79290f2f756bdf7d6a791e52768b910a-definition.json.gz": {
+          "file": "R815-projective-g-candidate-79290f2f756bdf7d6a791e52768b910a-definition.json.gz",
+          "bytes": 11143,
+          "sha256": "83d97f59f1995fe11614bb925fe2a4ec21a28f53515d83f1a2291572a1ca2744"
+        },
+        "R815-projective-g-candidate-79290f2f756bdf7d6a791e52768b910a-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-79290f2f756bdf7d6a791e52768b910a-early-exact-entry-00.json.gz",
+          "bytes": 11148,
+          "sha256": "0a94bac30dab5cdc26de6a6ea889939040408ef678d819464e58a650ef47cea2"
+        },
+        "R815-projective-g-candidate-79290f2f756bdf7d6a791e52768b910a-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-79290f2f756bdf7d6a791e52768b910a-rejected.json.gz",
+          "bytes": 4503,
+          "sha256": "f4cf32cf8ff5f344b2238eeabea687710b663b0a8825f4a10c29cc262cf91251"
+        },
+        "R815-projective-g-candidate-7b1111aaedbbfda1aef2bee76dc8b9e9-definition.json.gz": {
+          "file": "R815-projective-g-candidate-7b1111aaedbbfda1aef2bee76dc8b9e9-definition.json.gz",
+          "bytes": 10709,
+          "sha256": "7a79187eaf86de330aa45575a2d7175c56be1d41c012872f2e73a5ae2ec36c81"
+        },
+        "R815-projective-g-candidate-7b1111aaedbbfda1aef2bee76dc8b9e9-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-7b1111aaedbbfda1aef2bee76dc8b9e9-early-exact-entry-00.json.gz",
+          "bytes": 10640,
+          "sha256": "a0a529f83e3d42c35e6c19460518b3343d908db2a232e17eb0885e5f1c8af31f"
+        },
+        "R815-projective-g-candidate-7b1111aaedbbfda1aef2bee76dc8b9e9-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-7b1111aaedbbfda1aef2bee76dc8b9e9-rejected.json.gz",
+          "bytes": 4508,
+          "sha256": "1f66d36fd8c020f6b043ab8721319a641c5a7c5add30c5d88d967c533bec176f"
+        },
+        "R815-projective-g-candidate-7b58b2198f01664a4f5f98e5ceaf03e6-definition.json.gz": {
+          "file": "R815-projective-g-candidate-7b58b2198f01664a4f5f98e5ceaf03e6-definition.json.gz",
+          "bytes": 10718,
+          "sha256": "1b558a12df711f2ef1cee976f75961fe21050df37212961006873491c60d4670"
+        },
+        "R815-projective-g-candidate-7b58b2198f01664a4f5f98e5ceaf03e6-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-7b58b2198f01664a4f5f98e5ceaf03e6-early-exact-entry-00.json.gz",
+          "bytes": 10627,
+          "sha256": "d30b67dfd69c1eae426ad2a6a4615fc5fbd77142496f2531f3395b43d10f4c87"
+        },
+        "R815-projective-g-candidate-7b58b2198f01664a4f5f98e5ceaf03e6-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-7b58b2198f01664a4f5f98e5ceaf03e6-rejected.json.gz",
+          "bytes": 4507,
+          "sha256": "907d525a62e2fe0e34ac1918917103aa6904f58c17137ced0c4d6601589c4b22"
+        },
+        "R815-projective-g-candidate-84470ef1c4490c02757ef37a1e00545b-definition.json.gz": {
+          "file": "R815-projective-g-candidate-84470ef1c4490c02757ef37a1e00545b-definition.json.gz",
+          "bytes": 10712,
+          "sha256": "be97be83595c447e1edd01f466ad71c09cd437ed0fbb9074cf5b9ecf3157b731"
+        },
+        "R815-projective-g-candidate-84470ef1c4490c02757ef37a1e00545b-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-84470ef1c4490c02757ef37a1e00545b-early-exact-entry-00.json.gz",
+          "bytes": 10644,
+          "sha256": "d2631deca9eda1f7a74d15f9958fd0d76da59d81473c4cbe80f2c28ebc62edbd"
+        },
+        "R815-projective-g-candidate-84470ef1c4490c02757ef37a1e00545b-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-84470ef1c4490c02757ef37a1e00545b-rejected.json.gz",
+          "bytes": 4501,
+          "sha256": "8071a8936d614c5074c1ba96dc92abddc4df16c2367f3746f4a2b4825833fd12"
+        },
+        "R815-projective-g-candidate-8c0ae1b9aeca562a893872cffb20c30b-definition.json.gz": {
+          "file": "R815-projective-g-candidate-8c0ae1b9aeca562a893872cffb20c30b-definition.json.gz",
+          "bytes": 11051,
+          "sha256": "5f6a646bdd8f39190edc78402ecd17432a302cece086f2a5066ae5564d2497f9"
+        },
+        "R815-projective-g-candidate-8c0ae1b9aeca562a893872cffb20c30b-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-8c0ae1b9aeca562a893872cffb20c30b-early-exact-entry-00.json.gz",
+          "bytes": 10969,
+          "sha256": "efaafea114ab6fa86177c79a822eee734c00903549bc98983a237ac894b4c52a"
+        },
+        "R815-projective-g-candidate-8c0ae1b9aeca562a893872cffb20c30b-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-8c0ae1b9aeca562a893872cffb20c30b-rejected.json.gz",
+          "bytes": 4503,
+          "sha256": "66a22067f8a9cc751abd66f790d42a69dada3f95e951c8372a43efe29ee3e553"
+        },
+        "R815-projective-g-candidate-9225f368469e7ba31bff7514fdeb29f5-definition.json.gz": {
+          "file": "R815-projective-g-candidate-9225f368469e7ba31bff7514fdeb29f5-definition.json.gz",
+          "bytes": 11383,
+          "sha256": "6ef6c65490c115daee88a857c306fceca1ee68e9bd0928dadfa5f080008f8e2e"
+        },
+        "R815-projective-g-candidate-9225f368469e7ba31bff7514fdeb29f5-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-9225f368469e7ba31bff7514fdeb29f5-early-exact-entry-00.json.gz",
+          "bytes": 11623,
+          "sha256": "3ee1ad84f85e2dd31607a98cdbe36b50c3939da5c9ce2ac8f5ea88773d65fb58"
+        },
+        "R815-projective-g-candidate-9225f368469e7ba31bff7514fdeb29f5-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-9225f368469e7ba31bff7514fdeb29f5-rejected.json.gz",
+          "bytes": 4502,
+          "sha256": "e84872391ea8fb347ce1552f543cf0c763874363dc5ba7b270e526f74217538e"
+        },
+        "R815-projective-g-candidate-92df2d5b4a5acef8bd1065cdee06106d-definition.json.gz": {
+          "file": "R815-projective-g-candidate-92df2d5b4a5acef8bd1065cdee06106d-definition.json.gz",
+          "bytes": 10715,
+          "sha256": "e87e1d6b58e70900b18b95f86999339ef956249f4e4692b74d1c5d5e68bb92bb"
+        },
+        "R815-projective-g-candidate-92df2d5b4a5acef8bd1065cdee06106d-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-92df2d5b4a5acef8bd1065cdee06106d-early-exact-entry-00.json.gz",
+          "bytes": 10622,
+          "sha256": "7cfd45beac59ca8fa1f4d0f2d581ac704fcf4636045cbf6d475d58450caf7095"
+        },
+        "R815-projective-g-candidate-92df2d5b4a5acef8bd1065cdee06106d-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-92df2d5b4a5acef8bd1065cdee06106d-rejected.json.gz",
+          "bytes": 4501,
+          "sha256": "ae7734ad1461fa4f32e5112ce8f32f7ef679023af719ce9786b3ed54fe004e60"
+        },
+        "R815-projective-g-candidate-9bcd368427d6c84abb8448a1e24d999a-definition.json.gz": {
+          "file": "R815-projective-g-candidate-9bcd368427d6c84abb8448a1e24d999a-definition.json.gz",
+          "bytes": 11117,
+          "sha256": "55385804d32942949b409278ece7205e0b74f9f7ba843bb4636d6d3e92559843"
+        },
+        "R815-projective-g-candidate-9bcd368427d6c84abb8448a1e24d999a-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-9bcd368427d6c84abb8448a1e24d999a-early-exact-entry-00.json.gz",
+          "bytes": 11114,
+          "sha256": "bc17c9d5e0bdac8fa949ffb781bba7e8f3548d2fe0fe2a7e520ef26e23eae4c7"
+        },
+        "R815-projective-g-candidate-9bcd368427d6c84abb8448a1e24d999a-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-9bcd368427d6c84abb8448a1e24d999a-rejected.json.gz",
+          "bytes": 4504,
+          "sha256": "abd3a1f5571ae4b4f050c0f2e838292e519099e4e0e96d6e399bf5d7da59651e"
+        },
+        "R815-projective-g-candidate-ab873fb91ff1bf1a88cedcf98d18a75e-definition.json.gz": {
+          "file": "R815-projective-g-candidate-ab873fb91ff1bf1a88cedcf98d18a75e-definition.json.gz",
+          "bytes": 11047,
+          "sha256": "6df275f4563a98b7d1a1e87e669e56d48030750920c68515784fbbc9f57816b9"
+        },
+        "R815-projective-g-candidate-ab873fb91ff1bf1a88cedcf98d18a75e-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-ab873fb91ff1bf1a88cedcf98d18a75e-early-exact-entry-00.json.gz",
+          "bytes": 10982,
+          "sha256": "d17ec10b5db42873d7da446ead2e0b7f9b5b16e5dbf1098e205a2cb5209c9cbe"
+        },
+        "R815-projective-g-candidate-ab873fb91ff1bf1a88cedcf98d18a75e-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-ab873fb91ff1bf1a88cedcf98d18a75e-rejected.json.gz",
+          "bytes": 4502,
+          "sha256": "3d6fc446c449b6812f60fb96d237d70e22cdb5886a74f0afea3c1b18fb26a8ff"
+        },
+        "R815-projective-g-candidate-b371b874a776c01fbed9055d9d7cbfbb-definition.json.gz": {
+          "file": "R815-projective-g-candidate-b371b874a776c01fbed9055d9d7cbfbb-definition.json.gz",
+          "bytes": 11130,
+          "sha256": "e6e964a1e17f6a6a6467d0745fbfdb5c09f92cdd722d83d66b4e0ce544851cf0"
+        },
+        "R815-projective-g-candidate-b371b874a776c01fbed9055d9d7cbfbb-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-b371b874a776c01fbed9055d9d7cbfbb-early-exact-entry-00.json.gz",
+          "bytes": 11128,
+          "sha256": "4670ea1fb919c974599b6be5951dbd625f0b5712944957944cb6fac6bccf4d4d"
+        },
+        "R815-projective-g-candidate-b371b874a776c01fbed9055d9d7cbfbb-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-b371b874a776c01fbed9055d9d7cbfbb-rejected.json.gz",
+          "bytes": 4504,
+          "sha256": "acb80c58c0ab6f5c8d03e4bac1b39006997ca90787c0b24eab93e40507f8266b"
+        },
+        "R815-projective-g-candidate-c22e7e1484ceaa60f796ff3d17b0d6c6-definition.json.gz": {
+          "file": "R815-projective-g-candidate-c22e7e1484ceaa60f796ff3d17b0d6c6-definition.json.gz",
+          "bytes": 11374,
+          "sha256": "ea9e13436047d824f96ccf574d943495668e4c1814621bbc520c3fb0a57004a3"
+        },
+        "R815-projective-g-candidate-c22e7e1484ceaa60f796ff3d17b0d6c6-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-c22e7e1484ceaa60f796ff3d17b0d6c6-early-exact-entry-00.json.gz",
+          "bytes": 11620,
+          "sha256": "59e6c293db7fb0f2ad4dc21098822e7b6d95caceeee543bd23b5fbcf459ec8e5"
+        },
+        "R815-projective-g-candidate-c22e7e1484ceaa60f796ff3d17b0d6c6-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-c22e7e1484ceaa60f796ff3d17b0d6c6-rejected.json.gz",
+          "bytes": 4503,
+          "sha256": "f618763b3b742939e6a27131d1454f7f7a7f0a7a5f26a5a2a5ff968baf57d169"
+        },
+        "R815-projective-g-candidate-cca8825548bd8c94fe79c4b7ce15c1bb-definition.json.gz": {
+          "file": "R815-projective-g-candidate-cca8825548bd8c94fe79c4b7ce15c1bb-definition.json.gz",
+          "bytes": 11388,
+          "sha256": "cf8b07b7f51d13a4214008f79f47e8bc8472c350680d464a48c0b802cf40a2f1"
+        },
+        "R815-projective-g-candidate-cca8825548bd8c94fe79c4b7ce15c1bb-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-cca8825548bd8c94fe79c4b7ce15c1bb-early-exact-entry-00.json.gz",
+          "bytes": 11617,
+          "sha256": "30001e5d72f2b83aaafdfbe5d511f0d1cd3dda69f03ccb7d9c37a22b6fb50295"
+        },
+        "R815-projective-g-candidate-cca8825548bd8c94fe79c4b7ce15c1bb-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-cca8825548bd8c94fe79c4b7ce15c1bb-rejected.json.gz",
+          "bytes": 4500,
+          "sha256": "d396978f1e431c8a6dac985ce25bd5e4e9cc7fd7c38260f59a310c853ca9b4a2"
+        },
+        "R815-projective-g-candidate-ce4c0616d89f664baccafd9f7cc8c68a-definition.json.gz": {
+          "file": "R815-projective-g-candidate-ce4c0616d89f664baccafd9f7cc8c68a-definition.json.gz",
+          "bytes": 11165,
+          "sha256": "85db2842ed624d04a687842bb89e663f54e1562464d90677c45d05d5014592be"
+        },
+        "R815-projective-g-candidate-ce4c0616d89f664baccafd9f7cc8c68a-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-ce4c0616d89f664baccafd9f7cc8c68a-early-exact-entry-00.json.gz",
+          "bytes": 11144,
+          "sha256": "2eef74508e463aa23c791984e11db777e077558d7d4ce0afe67abcd8f71c512f"
+        },
+        "R815-projective-g-candidate-ce4c0616d89f664baccafd9f7cc8c68a-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-ce4c0616d89f664baccafd9f7cc8c68a-rejected.json.gz",
+          "bytes": 4509,
+          "sha256": "9b63fc7eef0ee09d8e74f1b988ab7279b6961fcb5454814101fe6ff7f72f8900"
+        },
+        "R815-projective-g-candidate-db02b097afa11a4852ac7208f6d773ce-definition.json.gz": {
+          "file": "R815-projective-g-candidate-db02b097afa11a4852ac7208f6d773ce-definition.json.gz",
+          "bytes": 11068,
+          "sha256": "e55a490b2f09287dace46290836ec4cac34399e959f88049430605edbd87de31"
+        },
+        "R815-projective-g-candidate-db02b097afa11a4852ac7208f6d773ce-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-db02b097afa11a4852ac7208f6d773ce-early-exact-entry-00.json.gz",
+          "bytes": 10992,
+          "sha256": "26a8ffa06c67882b3ff9c25525beb98ff5522c6b347d5941d0f800367a7534b8"
+        },
+        "R815-projective-g-candidate-db02b097afa11a4852ac7208f6d773ce-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-db02b097afa11a4852ac7208f6d773ce-rejected.json.gz",
+          "bytes": 4502,
+          "sha256": "d2de20de91cd22ecdce57866ee3aa4ce276271aeb50cf04ee95e857a614339e4"
+        },
+        "R815-projective-g-candidate-e279d50a67d02c190ee690be712b1e21-definition.json.gz": {
+          "file": "R815-projective-g-candidate-e279d50a67d02c190ee690be712b1e21-definition.json.gz",
+          "bytes": 10722,
+          "sha256": "9419c24fe3616b4e93cca8aa06acd80944e43107e38df32bb8a5e63a76fa5541"
+        },
+        "R815-projective-g-candidate-e279d50a67d02c190ee690be712b1e21-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-e279d50a67d02c190ee690be712b1e21-early-exact-entry-00.json.gz",
+          "bytes": 10652,
+          "sha256": "8617224efc7a151ca242f43399dbce3073f0ceb8b6b98591a6d1b21477d2f6b8"
+        },
+        "R815-projective-g-candidate-e279d50a67d02c190ee690be712b1e21-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-e279d50a67d02c190ee690be712b1e21-rejected.json.gz",
+          "bytes": 4501,
+          "sha256": "5ca028b6db2701fcc74ace220b72a48d75a91427918bcbe0823ce5c1fcf409bf"
+        },
+        "R815-projective-g-candidate-e2926241c9ebbb094c667bfd69ffd9e2-definition.json.gz": {
+          "file": "R815-projective-g-candidate-e2926241c9ebbb094c667bfd69ffd9e2-definition.json.gz",
+          "bytes": 11349,
+          "sha256": "2a7d53c6cf213e0a0173446ee9a70a3fc98fef064dd6da63884caa1d8d7d603c"
+        },
+        "R815-projective-g-candidate-e2926241c9ebbb094c667bfd69ffd9e2-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-e2926241c9ebbb094c667bfd69ffd9e2-early-exact-entry-00.json.gz",
+          "bytes": 11594,
+          "sha256": "241d7b1db705b9ef0c7606e9839036952919cfd05211206759609b404e77e243"
+        },
+        "R815-projective-g-candidate-e2926241c9ebbb094c667bfd69ffd9e2-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-e2926241c9ebbb094c667bfd69ffd9e2-rejected.json.gz",
+          "bytes": 4507,
+          "sha256": "ecd63d7ff1cb0945cd6b62d86fafd671c0235f2cc6e4949c8a43397d3c4c87ae"
+        },
+        "R815-projective-g-candidate-e3f78c7ee95028ef7fdc4bbab4f90623-definition.json.gz": {
+          "file": "R815-projective-g-candidate-e3f78c7ee95028ef7fdc4bbab4f90623-definition.json.gz",
+          "bytes": 11077,
+          "sha256": "115a9e905cc976ccfb06921f538883158757dead73fab4be2e81359f1935ffeb"
+        },
+        "R815-projective-g-candidate-e3f78c7ee95028ef7fdc4bbab4f90623-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-e3f78c7ee95028ef7fdc4bbab4f90623-early-exact-entry-00.json.gz",
+          "bytes": 10999,
+          "sha256": "6f9bb5049df67270ddb76425e95802323e5bd0928bc956418f4c1fdb235e674e"
+        },
+        "R815-projective-g-candidate-e3f78c7ee95028ef7fdc4bbab4f90623-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-e3f78c7ee95028ef7fdc4bbab4f90623-rejected.json.gz",
+          "bytes": 4511,
+          "sha256": "4284060b64a686941fcc52b14bff7fb473d8527d70d7daed1004121224c7f56f"
+        },
+        "R815-projective-g-candidate-eafe341f30ea9e83ec47ea9707d2a88f-definition.json.gz": {
+          "file": "R815-projective-g-candidate-eafe341f30ea9e83ec47ea9707d2a88f-definition.json.gz",
+          "bytes": 11076,
+          "sha256": "f28f9254615c83a37d26d8c0811c4d526427d21a1cb5e2b12e6af1fcc59b0e91"
+        },
+        "R815-projective-g-candidate-eafe341f30ea9e83ec47ea9707d2a88f-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-eafe341f30ea9e83ec47ea9707d2a88f-early-exact-entry-00.json.gz",
+          "bytes": 10990,
+          "sha256": "8b7a6197b539896c029df3f514948f13e2c02671e7d9544c1cfdf6b38faa5bbc"
+        },
+        "R815-projective-g-candidate-eafe341f30ea9e83ec47ea9707d2a88f-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-eafe341f30ea9e83ec47ea9707d2a88f-rejected.json.gz",
+          "bytes": 4504,
+          "sha256": "04af6a0a7f47e5eab2a524cbc6536f705f3ff65a5cc7cf7e846e74403b41fd23"
+        },
+        "R815-projective-g-candidate-eaff4943f2e3398c85f8573b48ac7ce0-definition.json.gz": {
+          "file": "R815-projective-g-candidate-eaff4943f2e3398c85f8573b48ac7ce0-definition.json.gz",
+          "bytes": 10978,
+          "sha256": "6d6690e01c3c9b83ea3db68de2f26bdcce1d1fb5dc6b4007c14f7e74552130da"
+        },
+        "R815-projective-g-candidate-eaff4943f2e3398c85f8573b48ac7ce0-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-eaff4943f2e3398c85f8573b48ac7ce0-early-exact-entry-00.json.gz",
+          "bytes": 10903,
+          "sha256": "37544f7daf7556e55ce84975522c6bb20c6f805e6e386bd6577c1c63c28fdce8"
+        },
+        "R815-projective-g-candidate-eaff4943f2e3398c85f8573b48ac7ce0-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-eaff4943f2e3398c85f8573b48ac7ce0-rejected.json.gz",
+          "bytes": 4505,
+          "sha256": "dde5d975650d3bdd48dda4eda9671a40fe364942f3122190a44e0332789c6826"
+        },
+        "R815-projective-g-candidate-f261cf1bfead8f19c6820ee2637dc0c8-definition.json.gz": {
+          "file": "R815-projective-g-candidate-f261cf1bfead8f19c6820ee2637dc0c8-definition.json.gz",
+          "bytes": 10965,
+          "sha256": "57a550b2dcb68d51c8dcf819fe97368feaba8068e4edd215f545b4d4f85b5bba"
+        },
+        "R815-projective-g-candidate-f261cf1bfead8f19c6820ee2637dc0c8-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-f261cf1bfead8f19c6820ee2637dc0c8-early-exact-entry-00.json.gz",
+          "bytes": 10889,
+          "sha256": "d198120cdef96cd5c8d3733e0e34ccc26a72f0a473e15fee5672974fad1d0517"
+        },
+        "R815-projective-g-candidate-f261cf1bfead8f19c6820ee2637dc0c8-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-f261cf1bfead8f19c6820ee2637dc0c8-rejected.json.gz",
+          "bytes": 4508,
+          "sha256": "9b0cf0c637b675bb456513bf6b8d49bb9daa012f158d260e8f2f3b4eda9d6e63"
+        },
+        "R815-projective-g-candidate-f99c8aed7b4f7a12205d4e1ebc4679f8-definition.json.gz": {
+          "file": "R815-projective-g-candidate-f99c8aed7b4f7a12205d4e1ebc4679f8-definition.json.gz",
+          "bytes": 11053,
+          "sha256": "0ba690ea0b8f5404b58ed0e79339f70f4dbc16e2584d8c4ab43efe4b9257aada"
+        },
+        "R815-projective-g-candidate-f99c8aed7b4f7a12205d4e1ebc4679f8-early-exact-entry-00.json.gz": {
+          "file": "R815-projective-g-candidate-f99c8aed7b4f7a12205d4e1ebc4679f8-early-exact-entry-00.json.gz",
+          "bytes": 10982,
+          "sha256": "a34941740c2a57a37f985321d4972a73b42fa93e5cf4ee6fc252f4d0fbd4290a"
+        },
+        "R815-projective-g-candidate-f99c8aed7b4f7a12205d4e1ebc4679f8-rejected.json.gz": {
+          "file": "R815-projective-g-candidate-f99c8aed7b4f7a12205d4e1ebc4679f8-rejected.json.gz",
+          "bytes": 4499,
+          "sha256": "8852e113a6740c733e5c60f4286f9511a77ad1c98a7f47182f3d7d8e7f0d864a"
+        },
+        "R815-projective-original-425-source-audit.json.gz": {
+          "file": "R815-projective-original-425-source-audit.json.gz",
+          "bytes": 4544,
+          "sha256": "d36d007b22dfd2a76b89a65981dc9d6f5be2534dc193ddb239fc437441fdf5ee"
+        },
+        "R815-projective-pair-000000-weight-minus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-minus1024-LLL.json.gz",
+          "bytes": 51981,
+          "sha256": "8ad2fbace19246645e626082d3fa75c0f612368c5be2b3fe181f7aa606514f49"
+        },
+        "R815-projective-pair-000000-weight-minus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-minus256-LLL.json.gz",
+          "bytes": 50697,
+          "sha256": "104408300f93c75e4ae1809a2a223d68cbb5d7f9cac794e4d4d0f398b82775f1"
+        },
+        "R815-projective-pair-000000-weight-minus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-minus4096-LLL.json.gz",
+          "bytes": 57205,
+          "sha256": "2450ba05a50a738e84e77d317fabb23fe8fa099f3332549c5c95ea2518d25efd"
+        },
+        "R815-projective-pair-000000-weight-plus0-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-plus0-LLL.json.gz",
+          "bytes": 49177,
+          "sha256": "c1c8ad128d1f89fed2a366397bea411a842b74a595f9d8659810dd34c63313d3"
+        },
+        "R815-projective-pair-000000-weight-plus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-plus1024-LLL.json.gz",
+          "bytes": 46942,
+          "sha256": "8239896baf6115192962503e2da03c3fdd236d11e3aff5e4b3bc2bf71689473d"
+        },
+        "R815-projective-pair-000000-weight-plus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-plus256-LLL.json.gz",
+          "bytes": 48718,
+          "sha256": "7059e330dc0cbdbccf67e0c0570c966c5638c99eb0a02b3ea1dae0ae4fe8ff33"
+        },
+        "R815-projective-pair-000000-weight-plus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000000-weight-plus4096-LLL.json.gz",
+          "bytes": 26035,
+          "sha256": "d2011de6b6c047a97e63973317be391f6da464c3d8ff40c75cbf0f29bb370a61"
+        },
+        "R815-projective-pair-000001-weight-minus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-minus1024-LLL.json.gz",
+          "bytes": 51950,
+          "sha256": "3b0c89dcb66a3e70305a9549660e7c9a8499d61fc5bdbb0364b554d3ce0245a4"
+        },
+        "R815-projective-pair-000001-weight-minus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-minus256-LLL.json.gz",
+          "bytes": 50690,
+          "sha256": "3821611e84c99ba24811f3e6dee02d8f973189d9049fd82c7bdf5837f6b702cd"
+        },
+        "R815-projective-pair-000001-weight-minus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-minus4096-LLL.json.gz",
+          "bytes": 57159,
+          "sha256": "b2f8a4c6b8fc16a50fa7cdc643071c8c7d38b5aa8189aa6a1b732bda56fdaf0c"
+        },
+        "R815-projective-pair-000001-weight-plus0-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-plus0-LLL.json.gz",
+          "bytes": 49106,
+          "sha256": "d2bbbfc25705a0dd49ea1e6afa2d6cf437cef13765fef3609f5caf270a4b89e2"
+        },
+        "R815-projective-pair-000001-weight-plus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-plus1024-LLL.json.gz",
+          "bytes": 47046,
+          "sha256": "ab1623aa8df79b0bc957a819c1c4756c080cad653985a67d1a115fa9c350c8e0"
+        },
+        "R815-projective-pair-000001-weight-plus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-plus256-LLL.json.gz",
+          "bytes": 48597,
+          "sha256": "d17c3282d8c6ae1b26067dd358719d057bd1c57da326cfcc58aa8871603f9199"
+        },
+        "R815-projective-pair-000001-weight-plus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000001-weight-plus4096-LLL.json.gz",
+          "bytes": 27012,
+          "sha256": "3079f5cf85cf012b1e70967ceeef6511b6b6dd6a41a7c12a45ff7e499f5937d0"
+        },
+        "R815-projective-pair-000002-weight-minus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-minus1024-LLL.json.gz",
+          "bytes": 51998,
+          "sha256": "257d61cfd522aef746bd8b0a97f63a6611f3790436745359899dba3e7ba78a21"
+        },
+        "R815-projective-pair-000002-weight-minus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-minus256-LLL.json.gz",
+          "bytes": 50662,
+          "sha256": "0e946d80b28021900bd3c0308f2e8feee404afbec3b7d661e186653fcda223e6"
+        },
+        "R815-projective-pair-000002-weight-minus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-minus4096-LLL.json.gz",
+          "bytes": 57282,
+          "sha256": "35c155d984812920496b82d7dcac4c732dc44448edacf10342d0c091fbd2989c"
+        },
+        "R815-projective-pair-000002-weight-plus0-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-plus0-LLL.json.gz",
+          "bytes": 49131,
+          "sha256": "b744effc07aea8161cf8599b9a3dd05d91ea2122de043752ed891367d8f00354"
+        },
+        "R815-projective-pair-000002-weight-plus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-plus1024-LLL.json.gz",
+          "bytes": 46838,
+          "sha256": "157a89d397a64f3c17619d91357c18f72be9780d422b83288f79ca14c892d2d0"
+        },
+        "R815-projective-pair-000002-weight-plus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-plus256-LLL.json.gz",
+          "bytes": 48661,
+          "sha256": "3068eb30da7bb53621e3d6047fb9c359f4ce9a18f942be98f74ba2250b797f12"
+        },
+        "R815-projective-pair-000002-weight-plus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000002-weight-plus4096-LLL.json.gz",
+          "bytes": 27048,
+          "sha256": "08e6b21ce2686c8291934ce30874136683ca454007927920c44e96411c5dd544"
+        },
+        "R815-projective-pair-000003-weight-minus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-minus1024-LLL.json.gz",
+          "bytes": 51931,
+          "sha256": "c7589261b5710c96da303d60bcb896982d37adeb3174eebe2a6ae8abedc2a7dd"
+        },
+        "R815-projective-pair-000003-weight-minus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-minus256-LLL.json.gz",
+          "bytes": 50706,
+          "sha256": "d94fd13ae8ab04cce6eb82aa630485f799cc8ce1b0b0ffa9b5df12acc2fa16ed"
+        },
+        "R815-projective-pair-000003-weight-minus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-minus4096-LLL.json.gz",
+          "bytes": 57199,
+          "sha256": "49f6bbaeed9744be341a10adf1a350cb36a432fc7e75f9787522ff329c772beb"
+        },
+        "R815-projective-pair-000003-weight-plus0-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-plus0-LLL.json.gz",
+          "bytes": 49242,
+          "sha256": "e21ba316096620c81092550d09160673a209d0acbd3929c04a9045725648e6a3"
+        },
+        "R815-projective-pair-000003-weight-plus1024-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-plus1024-LLL.json.gz",
+          "bytes": 47039,
+          "sha256": "77ab7955645cf684896a637fcc54c03458bb28481c2bcf6824089941dce65b20"
+        },
+        "R815-projective-pair-000003-weight-plus256-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-plus256-LLL.json.gz",
+          "bytes": 48704,
+          "sha256": "bcb35c04cefd1f214a2eecef08ff2a27c76c2ac928ad6005905d1e6c7a106bdd"
+        },
+        "R815-projective-pair-000003-weight-plus4096-LLL.json.gz": {
+          "file": "R815-projective-pair-000003-weight-plus4096-LLL.json.gz",
+          "bytes": 26653,
+          "sha256": "5d65d1fed26f1bb274fb96def3602ead8639cd4af5b0b8d2d73dbc31f824ab78"
+        },
+        "R815-projective-probe-pair-000000.json.gz": {
+          "file": "R815-projective-probe-pair-000000.json.gz",
+          "bytes": 8498,
+          "sha256": "7fddd91cb1aafc3e4a93b5c4c5fcac23c7050ecfc4e26dee925ecdfb5932d5ec"
+        },
+        "R815-projective-probe-pair-000001.json.gz": {
+          "file": "R815-projective-probe-pair-000001.json.gz",
+          "bytes": 8493,
+          "sha256": "6d4ea9f66bff811db5a39deef69fff19160a2e4e2e922db68be96053c3b22ffb"
+        },
+        "R815-projective-probe-pair-000002.json.gz": {
+          "file": "R815-projective-probe-pair-000002.json.gz",
+          "bytes": 8502,
+          "sha256": "d46fb85a3477f40f8f544254162eda01d2ac76a8fe9cfcb36d31bd05e53e0dc1"
+        },
+        "R815-projective-probe-pair-000003.json.gz": {
+          "file": "R815-projective-probe-pair-000003.json.gz",
+          "bytes": 8477,
+          "sha256": "ad1ffa93ccf006356c87b5c4151e4515958c65483434d3ea1a41da61f91babdd"
+        },
+        "R815-projective-probe-scan-current.json.gz": {
+          "file": "R815-projective-probe-scan-current.json.gz",
+          "bytes": 3708,
+          "sha256": "0bef2e76473291df2ae550dc4568154e329c4248fa8fdb785f53730177ecb80b"
+        },
+        "R815-stage-manifest-59a7299aeb1124d4f55f0be7.json.gz": {
+          "file": "R815-stage-manifest-59a7299aeb1124d4f55f0be7.json.gz",
+          "bytes": 14809,
+          "sha256": "d1785965ff52debb8c0e678c317af9397cd03f4324e8de016ee0b377f903aaf2"
+        },
+        "R815-three-columns-previous-scan-input-receipt.json": {
+          "file": "R815-three-columns-previous-scan-input-receipt.json",
+          "bytes": 5366,
+          "sha256": "130c04781d3f5a41928b8fbe126c09165575920993dd8268ecf82a1ae2d39985"
+        },
+        "R815-three-known-columns-W-times-completed-column1-00.json.gz": {
+          "file": "R815-three-known-columns-W-times-completed-column1-00.json.gz",
+          "bytes": 2099302,
+          "sha256": "aca7db66554e6b98e25f5f51e86196956d54b032adbe8e8a809b3ff2ab006cdc"
+        },
+        "R815-three-known-columns-W-times-completed-column1-01.json.gz": {
+          "file": "R815-three-known-columns-W-times-completed-column1-01.json.gz",
+          "bytes": 1853121,
+          "sha256": "91ea6a825c98ed56a0f938d466c9c3ab5c3131b23c11468dbb36d7b8899fc992"
+        },
+        "R815-three-known-columns-W-times-completed-column1-02.json.gz": {
+          "file": "R815-three-known-columns-W-times-completed-column1-02.json.gz",
+          "bytes": 845452,
+          "sha256": "790dbc706caba0749b5522781ffe9e49f765623cc3e6035f91a5d2b705463ccd"
+        },
+        "R815-three-known-columns-W-times-completed-column1-03.json.gz": {
+          "file": "R815-three-known-columns-W-times-completed-column1-03.json.gz",
+          "bytes": 13181,
+          "sha256": "92318a79f24b1b6a28dd1fe456fe73778f09bec6a0a2dcd8e8a91ed982aabd5e"
+        },
+        "R815-three-known-columns-exact-original-input.json.gz": {
+          "file": "R815-three-known-columns-exact-original-input.json.gz",
+          "bytes": 4423807,
+          "sha256": "ffa005aef7bbcdd32b526db012b9413c85d901dd06d780bed4281bdf10fbfb46"
+        },
+        "R815-three-known-columns-imported-scalar-scan.json.gz": {
+          "file": "R815-three-known-columns-imported-scalar-scan.json.gz",
+          "bytes": 3776,
+          "sha256": "1f18d6ea4e0dc6ec488bc9ec84b0eeb57755789159b6ad157c70b331e373716f"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 1005,
+          "sha256": "8522246468638c2c8aa9973a67a71a38127c18a4ba5ded7d1789186a3b72f33a"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 365,
+          "sha256": "08d86fe4c40246b379df1b3114bc295a05a6152321ab43783d8cbc2d56f721df"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 55956,
+          "sha256": "0f2be930adc35c414f8f7f69c7dfd2ada3b0b5fe076d66f7c08583d416cd1718"
+        },
+        "p41-original-normal-derivation-operator-certificate.json": {
+          "file": "p41-original-normal-derivation-operator-certificate.json",
+          "bytes": 17191,
+          "sha256": "ee9a66e610ef2b0c55b768da2052cf4ab9fd73d3907558f2f61352d9a6fab5e8"
+        },
+        "public-actions-expanded-job.json": {
+          "file": "public-actions-expanded-job.json",
+          "bytes": 625503,
+          "sha256": "f8ef3b87315ca511fceec8673102457bbbb5ddcd398faa6c45960f1c60677f69"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 26552,
+          "sha256": "8cf611a3389397b1c2eba2e681aa24cf69addb2f97876a24a2446841d8bfd1ad"
+        },
+        "public-actions-run.log": {
+          "file": "public-actions-run.log",
+          "bytes": 264,
+          "sha256": "69a0d704bc16cf995e1a1336b6e978883fe256135112bbcf059e051c784ee445"
+        },
+        "retained-inputs-receipt.json": {
+          "file": "retained-inputs-receipt.json",
+          "bytes": 925832,
+          "sha256": "15112509f2cb411bbbb686fea37a67fa31cb5efebb4a8379e22bdaa846bb4c2a"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 734,
+          "sha256": "b57ddc4bcdfa301909291cef5c10d74c8b0b2f2de64f6f187d8e66bf88a3bb17"
+        }
+      },
+      "certificate": {
+        "file": "p41-original-normal-derivation-operator-certificate.json",
+        "bytes": 17191,
+        "sha256": "ee9a66e610ef2b0c55b768da2052cf4ab9fd73d3907558f2f61352d9a6fab5e8"
+      },
+      "stage_manifest": {
+        "bytes": 14809,
+        "file": "R815-stage-manifest-59a7299aeb1124d4f55f0be7.json.gz",
+        "sha256": "d1785965ff52debb8c0e678c317af9397cd03f4324e8de016ee0b377f903aaf2"
+      },
+      "known_columns": {
+        "bytes": 4423807,
+        "file": "R815-three-known-columns-exact-original-input.json.gz",
+        "sha256": "ffa005aef7bbcdd32b526db012b9413c85d901dd06d780bed4281bdf10fbfb46"
+      },
+      "source_audit": {
+        "bytes": 4544,
+        "file": "R815-projective-original-425-source-audit.json.gz",
+        "sha256": "d36d007b22dfd2a76b89a65981dc9d6f5be2534dc193ddb239fc437441fdf5ee"
+      },
+      "input_bundle": {
+        "file": "R815-retained-producer-inputs.tar.gz",
+        "bytes": 2715514274,
+        "sha256": "4c9a6d1e3c2c462efecabeba826697efbbc04a3357db1a74d8bd06027804a1b5"
+      },
+      "previous_scan_input_bundle": {
+        "file": "R815-three-columns-previous-scan-inputs.tar.gz",
+        "bytes": 1689309,
+        "sha256": "a5eac0d510a18fd1c1456600bb9cce7022b9e2837232a4d511af6c9e4531f428"
+      },
+      "scan": {
+        "bytes": 3708,
+        "file": "R815-projective-probe-scan-current.json.gz",
+        "sha256": "0bef2e76473291df2ae550dc4568154e329c4248fa8fdb785f53730177ecb80b"
+      },
+      "probe_pairs": [
+        {
+          "bytes": 8498,
+          "file": "R815-projective-probe-pair-000000.json.gz",
+          "sha256": "7fddd91cb1aafc3e4a93b5c4c5fcac23c7050ecfc4e26dee925ecdfb5932d5ec"
+        },
+        {
+          "bytes": 8493,
+          "file": "R815-projective-probe-pair-000001.json.gz",
+          "sha256": "6d4ea9f66bff811db5a39deef69fff19160a2e4e2e922db68be96053c3b22ffb"
+        },
+        {
+          "bytes": 8502,
+          "file": "R815-projective-probe-pair-000002.json.gz",
+          "sha256": "d46fb85a3477f40f8f544254162eda01d2ac76a8fe9cfcb36d31bd05e53e0dc1"
+        },
+        {
+          "bytes": 8477,
+          "file": "R815-projective-probe-pair-000003.json.gz",
+          "sha256": "ad1ffa93ccf006356c87b5c4151e4515958c65483434d3ea1a41da61f91babdd"
+        }
+      ]
+    }
+  }
+}

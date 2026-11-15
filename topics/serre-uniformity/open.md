@@ -106,6 +106,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **原unitary交叉heat与同h投影**：[笔记](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保实际H/J/C三同源、36theta/full72、原FG及全部两边/角点。∇=D−M−∂z∂t/6−3Xzt/2、P0曲率6B²zt；首p原整数差Legendre×primitive权W水平，指定度p+1源为6⁶B⁷Σ原同h项，其非零未知。μell仅共同jet、FG一次横向源零，不能以全向量单位代之；这不重开旧6I family对角延伸。p12k11中央h6k7虽primitive，辅助Legendre j2048/3不等原j0，三单位仍缺；R829 p47乘积21及R706 g_N零直接复用。详式和旧边界见[本次压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
 
+**R815八probe九维完整格入口**：[方法](notes/R815-original-eight-probe-common-denominator-lattice-method.md)3f11d09c从原三列d012和已成八失败位置构造完整9维格，首行(d012,center(d012·r_i))、余对角M；一次LLL后保九行与准确UH=R/detU±1。core49f8952f/runner5f0bc897已绑定真43762388370的198小源、原两carrier并激活。旧49拒绝仅同整数D及同current/known/W/候选构造复用，非中心提升不在排除范围；不重第三列/旧3DLLL/RR，任何成功仍原七点/cyclic/Γ。尚未有九维格实际结果。
+
 **原平方、周期与指定留数**：[KS](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5保十八项S_(p−6)=−192Σf_i²g_j²/Q_h；[XF](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保原Fermat、CM点、E=6ρx、Ωη相位及对数微分。[PL](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、K=αCx/12及首p合法S=−[U^(p−1)]x²A⁵/(DC⁵)/4374；C首p分母U^(p+1)及逆Schwarz变换不容删去。[PC](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ=4/a_*²=−8c_r、rank1幂零p曲率和Wronskian1−κU^pJ，C非第二水平周期。
 [CR完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原β=(A/C)^5α0全部极阶≤11<p；实际τ三挠平移的非平凡character排正则余项。β=x^pν(y)、Carβ=xΣres_a(ν)^(1/p)dy/(y−a)，原P0只取R_p=res_(y=2/α)ν，S=αR_p/1458。CR16将它严格化为[w^(2N−1)](2−w)/(1−w)·(a/c(w(2−w)/8))^5乘−1/96。仍缺这个指定留数非零及原两变量same-h primitive/Legendre平方筛；未筛非零不代筛后非零，其他留数非零不代指定值。
 
