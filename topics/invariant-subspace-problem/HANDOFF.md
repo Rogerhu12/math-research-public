@@ -25,7 +25,7 @@
 - F±及E8局部九h0来源均已闭：F±低谱3,3且F±²W；E8低谱2,2且E8W。原证明、全部共轭点和界保open最新入口，未知完整有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
 - 旧local43736746064已成功结束/tmp失。原15头、两cube与完整H3历程及所有SHA保上列H归档；本轮好11完整第一连接已覆盖normal4/5，勿重做旧受限头分类。
-- **活跃run43740928483**（17:24:27起170分钟loop/180分钟job）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json；每30分钟实际pull读规。7历史输入已核，216重建2.714139235秒、full32/O35实9.832547971/13.869621876秒，两侧各66旧文件匹配。s2完整第一连接实4.541098008秒，β1,Q=7；其4345单位DAG供新全22头三阶Schur（180秒/2GiB），旧0…2原系数/k1残差全部复核，不预填长12/13。独立202小mapper已实7.464637824秒完成：degree21/loss11及14、119988/128876原small products及两freeI全真；完整6188源运输、O1834左运输与高商待执行。全部tmp只在本job。
+- **活跃run43740928483**（17:24:27起170分钟loop/180分钟job）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，每30分钟实际pull读规；全部tmp仅本job。7历史输入/216/full32/O35均已核，旧66系数文件逐字节匹配。s2 β1,Q=7；三阶全22图实5.351822671秒、全原余量真，F11仅1⁷,3/末项≥4（未覆盖9），不报Q长度上界，正在定位11投影退化。两[正规202映射](results/R150-appendix-two-regular202-mappers-and-independent-precision-recovery.md)实7.464637824秒付degree21/各loss11、14及全部small产品/freeI。现排完整6188原来源、1834外左核运输与同Jc配对（共享600秒/1GiB，编译各30秒）；必须全原产品及完整正方向覆盖才报高谱，21截止由同选B子商证明。
 - [真Q13投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实2.917069073秒付λ=2/12单位，全核Z_(31)[[u]]整/原freeI及80444原乘回真。[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实3.845816541秒，Φ_H(0)rank1632/det15，510082常项整数产品真；SE27×216泛rank14/核202但mapper未算。Q full/O/high及leading单位仍开。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给原17式常数来源，弱列导数阶降一；其余二次和共动反馈仍保留。
 

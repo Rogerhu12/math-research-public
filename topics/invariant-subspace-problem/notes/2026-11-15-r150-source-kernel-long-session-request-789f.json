@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "444035902907dc149caa953ab285a981f31417de",
+  "rulesReadAtCommit": "95e8ce23d10f9a7cf706d0d63ee99ca39ed7bd55",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -395,6 +395,67 @@
       ],
       "timeoutSeconds": 230,
       "receiptPath": "{work}/two-full-schur-three-out/two-full-original-schur-through-three-field11-receipt.json"
+    },
+    {
+      "id": "original-two-mapper-higher-quotient",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-two-mapper-higher-quotient-runner-789f.py",
+      "scriptSHA256": "b5b2bcd1f5ff2a04c729afcdfb8afea6e09948ce7bdd466a66bc0f90bad7eae3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-higher-two-regular202-mappers-preparation-789f.py",
+          "sha256": "a2e8fa4aa6d26c74b2f8000fb33fcda4b558021ab674582eecbd2c86edb9847e"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-high202-source-transport-789f.cpp",
+          "sha256": "d0748649a3cd280fb620c85c61b82cb9d6c6fabeef8e9db81afaf9b9b01a4b2c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-outside202-left-transport-789f.cpp",
+          "sha256": "92e534d74d465f99043ec293bdd5a82a67c661309767e42e476bf765e1244262"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-full-kernel-deleted-original-output-projection.json",
+          "sha256": "28b2605d03746fb5d1a4398c36d22650239d7989f5b68463ed9d6c9f99c5f830"
+        }
+      ],
+      "argv": [
+        "--mapper-source",
+        "{scripts}/2026-11-15-r150-higher-two-regular202-mappers-preparation-789f.py",
+        "--source-native",
+        "{scripts}/2026-11-15-r150-original-high202-source-transport-789f.cpp",
+        "--outside-native",
+        "{scripts}/2026-11-15-r150-original-outside202-left-transport-789f.cpp",
+        "--native-model",
+        "{native_model}",
+        "--paid-projection-summary",
+        "{scripts}/43731615668-full-kernel-deleted-original-output-projection.json",
+        "--prepared-out",
+        "{work}/higher-two-regular202-mappers",
+        "--full-out",
+        "{work}/full-infinity-natural-dual-schur-through32",
+        "--outside-out",
+        "{work}/koszul-outside-natural-through35",
+        "--out",
+        "{work}/original-two-mapper-higher-quotient",
+        "--seconds",
+        "600",
+        "--compile-seconds",
+        "30",
+        "--memory-mib",
+        "1024",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 700,
+      "receiptPath": "{work}/original-two-mapper-higher-quotient/higher-original-two-mapper-quotient-receipt.json"
     }
   ],
   "previousSession": {
@@ -404,5 +465,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Complete s=2 beta1,Q=7 and truncated nine-target membership proved. Independent202 small mappers actually completed through21, all original small products and free blocks verified. Compute complete22 original s=2 Schur through3 with the paid constant DAG; no local length is prefilled. Complete original high/O transports remain next."
+  "mathematicalProgramStatus": "Two regular202 mappers through21 verified; execute complete original6188 and1834 transports then same-Jc high quotient. Original s=2 Schur through3 actually gives field indices1^7,3 with one direction unresolved, so no fullQ length upper bound; exact Q beta1=7 and truncated nine-target membership remain paid."
 }

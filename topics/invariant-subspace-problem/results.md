@@ -331,3 +331,7 @@
 ## 2026-11-15：原二点完整第一连接精确为七与九目标有限阶成员性
 
 [完整原连接及双湮灭证明](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)用好11原常单位、136136真Q常积及完整1843×22残余秩7夹特征零β1=7，覆盖全部normal4/5。完整15首项的九平方第一读数全零，故九tj有modt²来源、九h0tj有modt³来源；完整正谱1⁷,a,b未定，局部成员性仍未宣告。
+
+## 2026-11-15：同一高核商的两套正规202映射
+
+[实际正规核与精度回收](results/R150-appendix-two-regular202-mappers-and-independent-precision-recovery.md)在F31中逐原单位Schur回填得到216×202和231×202的21阶核，119988/128876原small产品全零、两自由块I202。分别用full32/O35支付11、14损失；完整6188/1834原坐标运输与高商另行核验，未提升特征零。
