@@ -90,3 +90,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### 3A. R280双端相位联合已证明
 
 [R280](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)保留两个原R62单端门并以OR加入联合四次Sturm条件；端点可以随相位交替排除双法向弦。严格几何余量和有效连续包围下的空间—相位共同细分有限覆盖已证明，整圆单门分类仍不自动完备。新源c5548f28已登记；109只执行新增有理案例，不是证明登记门。实际同场位置/法向包围、完整覆盖与闭场仍须继续形成。
+
+109已发布[新增有理执行接口](notes/2026-11-15-request109-joint-phase-rational-execution-interface.md)：只2源/3案例验证新增joint、旧OR保留、π端点严格等号拒绝，无旧fixture/实际场/native。R280证明已先推8d5bb8d，不等此运行；其余full-field责任不变。

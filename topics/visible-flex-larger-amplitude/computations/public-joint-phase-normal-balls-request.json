@@ -1,0 +1,182 @@
+{
+  "schema": "R280-request109-three-conditional-rational-cases-v1",
+  "request_number": 109,
+  "repository": "Rogerhu12/math-research-public",
+  "workflow": ".github/workflows/visible-larger-public-joint-phase-normal-balls.yml",
+  "request_path": "topics/visible-flex-larger-amplitude/computations/public-joint-phase-normal-balls-request.json",
+  "proof": "topics/visible-flex-larger-amplitude/results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md",
+  "proof_sha256": "6d32cd819d19adeb721780c692100d59a2d361a19f8274f60394a548c3a30aab",
+  "source_pins": {
+    "geometry_20261115_joint_phase_normal_balls.py": "c5548f28bfe56a283403a7d16e1879c1c1243d0a0bc80761586fe50e1aec1466",
+    "root_mixed_phase_normal_balls.py": "ecea0ef58aa5755270807596da5512552ac52fab27e90492fcf85fab095716c6"
+  },
+  "readme_git_blobs": {
+    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "python_version": "3.12.14",
+  "sqrt_bits": 128,
+  "cases": [
+    {
+      "input": {
+        "name": "joint-strict-extension",
+        "moving_position": [
+          1,
+          0,
+          0
+        ],
+        "fixed_position": [
+          "1/2",
+          0,
+          0
+        ],
+        "moving_normal_centre": [
+          1,
+          0,
+          0
+        ],
+        "fixed_normal_centre": [
+          0,
+          1,
+          0
+        ],
+        "tau": "1/3",
+        "moving_position_radius": 0,
+        "fixed_position_radius": 0,
+        "moving_normal_radius": 0,
+        "fixed_normal_radius": 0
+      },
+      "expected": {
+        "old_endpoint_passes": [
+          false,
+          false
+        ],
+        "original_single_endpoint_OR": false,
+        "joint_endpoint_pass": true,
+        "all_phase_no_double_normal_pass": true,
+        "new_joint_passes_where_both_old_endpoints_fail": true,
+        "all_phase_continuous_distance_pass": false,
+        "joint_phase_zero_margin": "1/4",
+        "joint_phase_pi_margin": "9/4",
+        "joint_quartic_ascending_coefficients": [
+          "1/4",
+          "0",
+          "-1/2",
+          "0",
+          "9/4"
+        ],
+        "joint_distinct_real_roots": 0
+      }
+    },
+    {
+      "input": {
+        "name": "old-endpoint-retained-when-joint-fails",
+        "moving_position": [
+          0,
+          0,
+          0
+        ],
+        "fixed_position": [
+          1,
+          0,
+          0
+        ],
+        "moving_normal_centre": [
+          0,
+          0,
+          1
+        ],
+        "fixed_normal_centre": [
+          1,
+          0,
+          0
+        ],
+        "moving_position_radius": 0,
+        "fixed_position_radius": 0,
+        "moving_normal_radius": 0,
+        "fixed_normal_radius": 2,
+        "tau": 1
+      },
+      "expected": {
+        "old_endpoint_passes": [
+          true,
+          false
+        ],
+        "original_single_endpoint_OR": true,
+        "joint_endpoint_pass": false,
+        "all_phase_no_double_normal_pass": true,
+        "new_joint_passes_where_both_old_endpoints_fail": false,
+        "all_phase_continuous_distance_pass": false,
+        "joint_phase_zero_margin": "-3",
+        "joint_phase_pi_margin": "-3",
+        "joint_quartic_ascending_coefficients": [
+          "-3",
+          "0",
+          "-6",
+          "0",
+          "-3"
+        ],
+        "joint_distinct_real_roots": 0
+      }
+    },
+    {
+      "input": {
+        "name": "phase-pi-equality-is-not-a-strict-pass",
+        "moving_position": [
+          1,
+          0,
+          0
+        ],
+        "fixed_position": [
+          -1,
+          0,
+          0
+        ],
+        "moving_normal_centre": [
+          1,
+          0,
+          0
+        ],
+        "fixed_normal_centre": [
+          0,
+          1,
+          0
+        ],
+        "tau": 1,
+        "moving_position_radius": 0,
+        "fixed_position_radius": 0,
+        "moving_normal_radius": 0,
+        "fixed_normal_radius": 0
+      },
+      "expected": {
+        "old_endpoint_passes": [
+          false,
+          false
+        ],
+        "original_single_endpoint_OR": false,
+        "joint_endpoint_pass": false,
+        "all_phase_no_double_normal_pass": false,
+        "new_joint_passes_where_both_old_endpoints_fail": false,
+        "all_phase_continuous_distance_pass": false,
+        "joint_phase_zero_margin": "4",
+        "joint_phase_pi_margin": "0",
+        "joint_quartic_ascending_coefficients": [
+          "4",
+          "0",
+          "4"
+        ],
+        "joint_distinct_real_roots": 0
+      }
+    }
+  ],
+  "scope": {
+    "new_small_conditional_cases_only": true,
+    "old_fixture_files_read": false,
+    "new_field_or_native_or_BVP_run": false,
+    "full_surface_or_actual_reach_certified": false,
+    "proof_registration_waits_for_this_run": false,
+    "raw_artifact_or_Release_upload": false,
+    "Git_mutation": false
+  },
+  "output_policy": "Runner-temporary complete result; publish only compact log/step-summary, input/output SHA, source/recipe and real run."
+}
