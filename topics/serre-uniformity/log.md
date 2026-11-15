@@ -506,3 +506,9 @@
 - 该结论只排已构造A/B，不排固定C的其它A，不声称430不足；Ω另算共享残差，旧42/56全行来源保在一日artifact，Git只留方法与必要pins。
 - R815两列小IO rules132945626521实际pull159a7396，两README无diff，review132945729049已成功，正读实际字段。
 - 本push规则：本地真实pull至dfe31619869bf9fdbf4ee76136a603847b3b30c6（2026-11-15T20:26:36.759476+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 04:30 Asia/Taipei — serre-public-astra-20261115
+- 登记R815两列实际结果：d01=6485bits、两列690+962个非零分子/1652原同余已成；core20.024秒，不将两列分母称完整Mg分母。
+- IO43757804827读回4pairs/28格/84行含8零D，49不同候选全首z0[0,1]非零，scan next25/firstpositions9,10，候选空间未尽；新完整诊断保存必要pins。
+- 保两列8907fb65/manifestcdf06cf3与旧扫描，继续审计真实短乘法链；不重Wvg/旧RR/28格，不任意假设Wej=e(j+1)。
+- 本push规则：本地真实pull至2666de66b4634bec28c7c1ea5e15fdc697055eeb（2026-11-15T20:30:54.835723+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
