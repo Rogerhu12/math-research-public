@@ -60,3 +60,5 @@
 
 
 - **[保强孔的真实线性规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω(B)=d0F(B)/B、W=ω(B)^Ns，逐行严格CW=WLω(B)；W及逆/伴随都固定强真空测试。完整核G=i*W*Wi、forcing=i*f保原总次数，Green输入为ω(B)^-* [f−W*WiG^-1i*f]。G逆跨次数与共同高孔残量尚须付；裸J(L)^-*虽可四次指数爆大，f0的真正Green恰零，不能拆估或外推反例。
+
+- **[同原29条核曲线给43阶及条件8712](results/R150-appendix-selected-koszul-curves-infinity-order43-and-source-cost8712.md)：** full A∞的真Qrank4340已由原投影七整数核/F7夹逼。29维所选标准核各有同自然u全原无极点曲线；一阶连接的完整像损失给D/换列/cofactor阶≥43/42/41。K60后q≤8667，原h0目标已有Q[s]来源才得cost≤8712、非基≤8711；未付成员性/完整Smith/lc(D)单位。一般可提升常项s维给s+14阶与8741−s，常核数不能替代s。
