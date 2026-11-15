@@ -1,0 +1,103 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R811-original-regular-multipliers-from-R824-normal-vectors",
+    "p": 41,
+    "requested_stage": "base_regular_multipliers",
+    "requested_targets": [
+      "A",
+      "B"
+    ],
+    "budget_minutes": 300,
+    "producer_inputs_pending": true,
+    "auxiliary_prime_start": 1000000007,
+    "matrix_row_block_size": 16,
+    "reconstruct_every_primes": 4,
+    "exact_commutator_mode": "deterministic_integer_points_with_weighted_degree_bound",
+    "core": "R811_original_regular_multipliers_from_R824.py",
+    "core_sha256": "9760b10a1d6113a0e9c9b1bbe408252b275c84185c51f54ee3d0d7a5a22ba313",
+    "wrapper_sha256": "d56f069ac47be185c281deb300886f906eb6dd96f37b285db56dcce1c3179f43",
+    "proof": "results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md",
+    "R811_proof_sha256": "263d8a15085c3fc053dac1df546ad0c3efb565d67ce312c78ec6e5ddb4dccf78",
+    "method": "notes/R811-original-R824-normal-input-consumer-method.md",
+    "R811_method_sha256": "b700c4ca03ba3d198e68c54b5c9a6eb9deb44d9a85b03b41e9583619db94f66d",
+    "workflow": ".github/workflows/serre-p41-original-regular-multipliers-from-R824.yml",
+    "retained_artifacts": {
+      "R806": {
+        "result": "R806-original-primitive-multiplication",
+        "run_id": "43707290840",
+        "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+        "artifact_id": 14161637987,
+        "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+        "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+        "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+        "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+        "certificate_name": "p41-original-primitive-multiplication-certificate.json",
+        "files": {
+          "p41-original-primitive-multiplication-certificate.json": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99"
+        },
+        "archive_bytes": 203879878,
+        "input_carrier": {
+          "role": "unchanged_original_selected_files",
+          "original_result": "R806-original-primitive-multiplication",
+          "original_run_id": "43707290840",
+          "original_source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+          "result": "R806-actual-success-pure-IO-review",
+          "run_id": "43714843253",
+          "source_commit": "9651443bdb3b230762eb38e95cad28adef93af94",
+          "artifact_id": 14162500418,
+          "artifact_name": "serre-R806-success-io-audit-43714843253-1",
+          "archive_sha256": "0639c595ee520703de250e106f710ae0984521d5366f52d58c027f9087e08729",
+          "archive_bytes": 109619510,
+          "expected_conclusion": "success"
+        }
+      },
+      "R809": {
+        "result": "R809-original-A-B-normal-coordinates-from-R824",
+        "run_id": "PENDING",
+        "source_commit": "PENDING",
+        "artifact_id": "PENDING",
+        "artifact_name": "PENDING",
+        "archive_sha256": "PENDING",
+        "archive_bytes": "PENDING",
+        "manifest_sha256": "PENDING",
+        "core_sha256": "cdc381fc5e1b9dfab705608f1d62a8ab80b282984479499a6edd635ea05fa62b",
+        "certificate_name": "p41-original-A-B-normal-coordinates-from-R824-certificate.json",
+        "files": {
+          "p41-original-A-B-normal-coordinates-from-R824-certificate.json": "PENDING"
+        },
+        "expected_conclusion": "success"
+      },
+      "R809_basis": {
+        "archive_bytes": 545778174,
+        "archive_sha256": "1ec83d6c910e119bfc9f82b35520b493a235b8dea1ddba247b60e46f00c8a550",
+        "artifact_id": 14168728276,
+        "artifact_name": "serre-global-R809-original-S5-normal-coordinates-43712427063-1",
+        "certificate_name": "p41-original-S5-normal-coordinate-certificate.json",
+        "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+        "expected_conclusion": "success",
+        "files": {
+          "R809-S5-basis-index.json.gz": "f6f6f0ee2bae106ef474d2cff32c743b1d8e0a886f80c26aaf8708c89ea1c119",
+          "R809-accepted-S5-short-minor.json.gz": "d631c02412ed53edae3a37c54eee3e8ebbe5d196ead69a9532767bc9f2cdea9b",
+          "R809-prime-1000000007-short-rank.json.gz": "763b8c2dfc15bd3950dfbd2fca7f0c79c33a0f51cfffab1a9468fd8ff29a5e3f",
+          "R809-stage-manifest-be80c72a2878d432657a3f61.json.gz": "23757c1106143c109b20cc78b6e21cb77d35279cc716882b7650232392e8ff64",
+          "p41-original-S5-normal-coordinate-certificate.json": "8c117fa17d7ecf423307c850681fa6062f10534fbb2a444502c514bf9f0d9948"
+        },
+        "manifest_sha256": "84908131c5a232d7accf5919a999c0bfbae4b2b632dcfc03c1e634494ef27b4e",
+        "result": "R809-original-S5-normal-coordinates",
+        "run_id": "43712427063",
+        "source_commit": "91fbd81eb539c07f11e21116e71def91fdab5254"
+      }
+    },
+    "resume": null,
+    "pending_reason": "Actual R806 primitive data and the old R809 S5 success are pinned separately. Only the real successful new R824-origin A/B normal producer remains pending. Its certificate must preserve the external original S5 configuration; no C-only or R787 A/B success is synthesized.",
+    "multiplier_framework": "R811_original_regular_multipliers.py",
+    "multiplier_framework_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    }
+  }
+}

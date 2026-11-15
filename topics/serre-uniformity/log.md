@@ -314,3 +314,8 @@
 - 原Poincaré/period审计17324B/8676a741全文核并存notes，不新立R：完整坏处零给真实A全局d_h；同一代数UE提升使U_i=2D_i a_i−G_iL_i线性化，保原κ/全局角色标度/非p项与因子2。
 - 原首项仍是(a_i,L_i,U_i−L_iP_i)三列的指定二次period子式；root纸核符号及R785对应，直接读Iovita–Werner§1、Besser原规范、Brion反仿射与Pham2022非交换AST范围，未误推T_p非零或η不变。
 - 2026-11-15T17:14:39.329492+00:00实际pull/read 66d8e9d100ccac2e50a893557dae645d189d726e两README无diff；原4公开数学run继续，主目标OPEN。
+
+### 2026-11-16 01:18（Asia/Taipei）｜serre-public-astra-20261115
+- R811真实R824来源AB乘法子类及runner/pending全文核完并保存：core9760b10a/methodb700c4ca/runnerd56f069a/requeste22ef04a。原849bca27框架不动，避免破坏运行中R815；三个来源保原W、新AB、旧S5各自tag。
+- root核全部来源字段/normal尺度一次、原8点插值/CRT/9点完整交换子/第二图继承与全部manifest续接；仅pending，既不启动缺真AB的算术，也不把矩阵当极理想/η。若R824较小路线完成可绕过这些大矩阵。
+- 2026-11-15T17:17:07.230842+00:00实际pull/read 2f470d6fffc1fe2bc7b7ffc85829aa41c54ac4a0两README无diff；4个公开数学任务继续，主目标OPEN。
