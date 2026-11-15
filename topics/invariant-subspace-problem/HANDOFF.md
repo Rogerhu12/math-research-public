@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 3f9bb3c1a5f334d1fccbced333b891f246c89183（2026-11-15 14:51:45 UTC，Actions run43726646037实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43726646037-1.json。
+- **最近成功实际 pull 与已读规则提交：** 461a49af24caa186365ea8353d2e2f83ce38d727（2026-11-15 14:53:42 UTC，Actions run43726822740实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43726822740-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地14:21:09实际pull到39176227ae4f5191c1f4278bf5e697d25cb09add，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -11,7 +11,7 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-generic-image-bridge-and-native653-continuation-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-original-third-jet-negative-obstruction-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：当前已证与未付范围
 
@@ -25,8 +25,8 @@
 ## 临时同run：滚动请求与恢复
 
 - run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
-- 请求路径notes/2026-11-15-r150-recovery-small-session-request-789f.json，累计step48=zero-complete-eleventh-full-incoming已成55.241368715秒：low594/kernel69/zero66、13头/965328原产品；raw54057B/c7d982b2…、outer81032B/c7de3966…，checkpoint manifest32669B/cf5f7237…、binding9f988486…，pack40158×13逻辑94be72a9…；λ0…8九平方零、λ9/10/11有原代表值。
-- 第十一用独立compact源码104882a9…，只压缩逐列重复回执并显式接受旧9bf405d3祖先；全部数学、checkpointPhases/manifest/原物理/ranges及真实祖先SHA不改。第十outer93089B尚完整，换fork防外层94000B摘要删关键phase；旧源码不改。
+- 当前request路径同历史；累计step48完整第十一实55.241368715秒、13头/965328原产品，raw c7d982b2…/outer c7de3966…，完整精确SHA与checkpoint保小回执及H归档。
+- 第十一独立compact源码104882a9…仅压重复元数据，数学/物理/祖先身份全保；不重已闭零点计算。
 - 4318常单位前缀实1.627509135秒，113204/155448产品真，但HF/T primitive模31仅4，未假完整12。18RHS桥接实1.072890655秒，真Q旧14主元[0,1,2,13,14,18,20,25,26,28,29,30,31,32]加四目标，全跨度已证；没有新有理解。
 - 18准备输入9305373B/c2d645d0…，Mstar5245792B/cbd7329c…，binding25c4d030…，raw2628B/a692c7c9…。系统FLINT3.4.0/g++15.2.0实际可用；wrapper15b4fcae…/native d592f208…已根完整审，接口单独存档。
 - 累计step49首600实际到653完整digits/18938bits、16重建未成，非数学失败；binding2cd043a0…，p536870923。slot0=185877697B/ff745877…，inverse74580576B/29a660c2…，input9919512B/02a794f5…；raw5420B/ec62ce00…，全整digit除法真、77724单位产品尚未完成。累计step50同源码/out续1200秒/4GiB --through final，复用inverse/653位及所有完整阶段；先真单位解再全4354回填、2缺二阶/4缺三阶/joint24/21与29×81完整第四秩，未预填结果。
@@ -42,7 +42,7 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。所有变换保同w、真正
 - 原低孔借位6^k/强头7^k四次衰减、连续尾完整核、原T局部运输、N⊥形式读数及[同一Neumann修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)均保持原范围。G_reg输出X3、TG_reg=Π，carry X7费≤B_s e^(−40u⁴)，原形式h的Π读数已付；未假h∈H或扩大MP域。全部原参数、来源及联合bit反馈见H归档。
 - [创建泄漏无普适单权界](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)已完整排除仅靠hardcore/满射/平方可和/bmax的绝对界；不是原固定b_j=(j+1)^−2或同u预算反例。继续实际位置和层间抵消；高variance旧界的birth=n−t≈Q，不能把short height h当birth移用。
 
-- 已核[原连续尾primitive真幂下界](results/R271-appendix-normalized-creation-row-and-original-primitive-fifteen-eighths-lower-bound.md)：同源||D†f||≥q^(15/8)，排一般primitive Γ≤C(x+p)³；其全参数式也适用于固定q≈κx²的大x。该测试杀完整kerD^h、只读真幂底项，不是实际u_Q返回下界。继续同源联合负型，不重复已排的统一primitive预算。
+- [原全三阶负部障碍](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)已闭：旧15/8分析升级Γ≥α|ℓ><ℓ|，真实H0能量≥S_x/2，经完整Schur得C*(q+1)≥q^(15/4)/(4(x+1)³)；真E3∩K⊥上−ReΣP_j的sup=(√C*−3)/2。固定q≈κx²时≥cκx^(9/4)，故整个E_h的O(Q logQ loglogQ)预算已排。真实同w/整串Cu_n+Du_(n+1)=0仍开；保内部完整和及两端partial，不把构造向量冒充u_Q。
 
 ## 其余未闭
 

@@ -149,7 +149,7 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 
 ### 同一真实顶部的负二次型入口
 
-[完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)在同u_Q、同cut上取合法顺次右链c_j=−P_(p+j,j)u_(p+j)，原头/尾旗与c_h=0均真；u⊥K给μ_p²=−Σ_j Re〈P_(p+j,j)u_(p+j),u_(p+j)〉。对同一窗口交换有限求和后，内部同层算子为旧顺次jet次数N_(h,n)−I，两端保精确部分和；不为每项另选来源。若这些真实短核部分和的Hermitian负部有O(Q)预算即可推进共同窗口，但该关键上界仍开。旧顺次/真幂Gram比未因此已付，bare少一出生不能视为完整零源；普通N=M未闭。
+[完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)在同u_Q、同cut上取合法顺次右链c_j=−P_(p+j,j)u_(p+j)，原头/尾旗与c_h=0均真；u⊥K给μ_p²=−Σ_j Re〈P_(p+j,j)u_(p+j),u_(p+j)〉。对同一窗口交换有限求和后，内部同层算子为旧顺次jet次数N_(h,n)−I，两端保精确部分和；不为每项另选来源。若仅在同一个w生成的实际u上有O(Q)合并负部预算即可推进共同窗口；整个短核的统一版本已被下方新三阶障碍排除。旧顺次/真幂Gram比未因此已付，bare少一出生不能视为完整零源；普通N=M未闭。
 
 [固定二次与自适应慢窗口](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)收窄剩余门槛：原u_Q误差对4d≤Q≤Qmax一致，β_m与Q无关；某一个固定Q=L0h²曲线上的同u合并负部≤C_L0 Q β²已足。M≤C Q²/x²也足，纯此转换可选R=d、Q≈4L0d²；不携带逆芽gauge条件。若另需h²/Q→0，可对同w慢择L，甚至只需逐固定L的有限常数。负部上界本身仍未证，真正G压缩逆及全部端点/nuisance不得省略；晚cut的真实birth≈Q，旧高variance结论不因h≈sqrt(Q)自动适用。
 
@@ -162,4 +162,4 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 
 
 
-**原primitive统一逆界已排的范围。** [原15/8真幂下界](results/R271-appendix-normalized-creation-row-and-original-primitive-fifteen-eighths-lower-bound.md)在原无限连续尾保全中间暗对与同源分析，排一般primitive上的Γ≤C(x+p)³；全参数式在q≈κx²的大x也可直接代入。测试消去完整kerD^h，只读真幂底项，未识别实际M图或窄Schur源；继续实际同u负型的联合费用，不能重提已排统一界。
+**原模型全三阶负部预算已排。** [秩一Gram与完整Schur证明](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)从同一个原连续尾分析得到Γ≥(k+1)/(R²S_J)|ℓ><ℓ|及〈H0ℓ,ℓ〉≥S_x/2，严格推出C*(q+1)≥q^(15/4)/(4(x+1)³)。真E3∩K⊥上的ΣP_j负二次型sup恰(√C*−3)/2；任意固定q≈κx²给至少cκx^(9/4)，超过Q logQ loglogQ，故整个E_h的统一负部、固定C Q²/x²均不能直接使用。全部中间暗对、无限后尾、真MP域与内部完整和都保留，两端partial未删；坏向量未识别成实际u_Q。同w、整串Cu_n+Du_(n+1)=0及真实来源联合预算继续，旧15/8原primitive一般上界亦不重开。
