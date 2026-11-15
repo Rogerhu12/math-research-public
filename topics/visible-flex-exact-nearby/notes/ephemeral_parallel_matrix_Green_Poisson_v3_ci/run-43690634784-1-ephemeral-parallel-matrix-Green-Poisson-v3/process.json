@@ -234,6 +234,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T10:54:11.497508+00:00",
+      "before": "cf52ab6728e836de3a6a7d915d02f839e8a992c4",
+      "after": "2e8e90dc72343a4132c2be0ac489b168b4ecf072",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -331,6 +339,11 @@
       "time": "2026-11-15T10:34:05.939569+00:00",
       "final": false,
       "commit": "c076dc093fbcd7706336ee519466e3ccf4d22d1a"
+    },
+    {
+      "time": "2026-11-15T10:44:09.581705+00:00",
+      "final": false,
+      "commit": "35c46c841d062aba1873322be2ea7067b4784d71"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -441,7 +454,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "cf52ab6728e836de3a6a7d915d02f839e8a992c4",
+  "last_read_commit": "2e8e90dc72343a4132c2be0ac489b168b4ecf072",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -497,44 +510,55 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T10:44:07.657392+00:00",
-  "wall_seconds": 11148.307203858001,
+  "snapshot_utc": "2026-11-15T10:54:11.641777+00:00",
+  "wall_seconds": 11752.291588195001,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T10:43:39Z",
+      "actual_utc": "2026-11-15T10:54:11Z",
       "streams": {
         "future": 5970,
-        "past": 2928,
-        "product": 5952
+        "past": 3152,
+        "product": 5970
       },
-      "complete_groups": 24,
-      "queued_groups": 90,
-      "consumer_processes": 2,
+      "complete_groups": 39,
+      "queued_groups": 98,
+      "consumer_processes": 3,
       "done": false,
-      "original_temporary_receipt_sha256": "89f015edaed3eff5278e05e84dadff27a7a59d4a4220b04f4b6d5e9c0ca1bb9e"
+      "original_temporary_receipt_sha256": "0a73e132c64779ab337d5402463dd6e765acf611226dbe9a4076f947602a6c96"
     },
     "consumer-0": {
       "stage": "consumer-0",
-      "actual_utc": "2026-11-15T10:42:45Z",
-      "completed_groups": 21,
+      "actual_utc": "2026-11-15T10:52:40Z",
+      "completed_groups": 26,
       "last_group": [
-        3744,
-        3776
+        4768,
+        4800
       ],
       "done": false,
-      "original_temporary_receipt_sha256": "11cc8fa8b76d2f46e5d9389f3685feb6e607d0cb4854a98158fd384a1959bc67"
+      "original_temporary_receipt_sha256": "1a91e7d30fcc901a8c89222735768438d74153aab27bb44b7415c359b1c7bbc4"
     },
     "consumer-1": {
       "stage": "consumer-1",
-      "actual_utc": "2026-11-15T10:43:07Z",
-      "completed_groups": 3,
+      "actual_utc": "2026-11-15T10:53:08Z",
+      "completed_groups": 8,
       "last_group": [
-        4480,
-        4512
+        3584,
+        3616
       ],
       "done": false,
-      "original_temporary_receipt_sha256": "40a6472a3190c3b57808cc0cd4f9d9b4e191408cca5a4fcc06abcd80f9ba273e"
+      "original_temporary_receipt_sha256": "577432b69f46fc34d595c9e40b2a707b908c2c8f19214891ff09e2bcb003c131"
+    },
+    "consumer-2": {
+      "stage": "consumer-2",
+      "actual_utc": "2026-11-15T10:54:07Z",
+      "completed_groups": 5,
+      "last_group": [
+        4800,
+        4832
+      ],
+      "done": false,
+      "original_temporary_receipt_sha256": "c0b029d8bd8ac9a11036930996222ad607858121c7853ccd4c6810ba7e34a7bd"
     },
     "future": {
       "stage": "future",
@@ -548,11 +572,11 @@
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T10:43:34Z",
-      "completed_rows": 2928,
+      "actual_utc": "2026-11-15T10:54:00Z",
+      "completed_rows": 3152,
       "done": false,
-      "seconds": 10750.076618767,
-      "original_temporary_receipt_sha256": "6657ab3f17bfad0704a625e047542aaeb214935259b3e0004ebb910a2d5617d3"
+      "seconds": 11375.278988718,
+      "original_temporary_receipt_sha256": "b4cefa7e5e2dd2e5140329b472953f4c05d3b3b86700edd20992521b739de1e7"
     },
     "preflight": {
       "stage": "preflight",
