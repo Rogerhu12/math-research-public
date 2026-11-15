@@ -431,3 +431,5 @@
 - **所有模31精度的既有原来源可统一降费8655。** [完整有限环证明](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)以新unit-leading D*=detB*及首一K158给q=D*/K次数8611、全部Pℓ整，保所有4367输出。任何已存在的Ax≡31^e b mod31^n可保同e/n降费max(8655,τ(b)+1)；利用该既有解才证明adjB*b的K余式为零，故没有偷假目标先为Q[s]成员。固定e任意高n可解且统一有限系数维数才推出exact D31源；单p6不升级。旧Q共同乘子费8531−d仍较小，来源整性/实际Ω/h0自身成员性未由本条解决。
 
 - **实际forcing的精确连续尾占据势与同源受限逆。** [自足证明](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)从完整正Gram给Z*D*DZ=Z*𝒱xZ，保全部占据/空位碰撞项，并证明1/3与8/3的连续位置立方势界。局部p≤N≤r、maxpos≤L读数经完整source Gram消核后≤3(L+r+1)³/p，真实D限制在RanZ上的MP有相同平方费用；同u保联合(De,Dk)而非Du。不同head来源Ri的完整creation合成行准确保ΣRi*GΔRi。帽返回物理左投影与原两端partial的来源识别仍开。
+
+- **有限31缺陷模与八真除源将仿射公因子界降为307。** [完整原来源证明](results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md)以新unit-leading原minor证明C=(genericim∩D31[s]^4367)/imA有限，C/31C注入全部fieldtors315，rank_D C=degΔaff。完整β像2、七/八旧真整数除源在完整多项式商独立，给t1=2、t2≥5、t1+t2+t3≥8；因此Δaff≤307/齐次≤373、R/Rout/U/Ω≤149、Mh*≤172−d，来源主费用8531−d不变。固定e任意高精度才给exact来源；生成元315不限制系数31最大指数，单p6未升级。
