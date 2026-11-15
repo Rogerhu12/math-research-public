@@ -1,0 +1,68 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43731615668",
+  "stepId": "koszul-outside-restore-selected-original-receipt",
+  "executionSourceCommit": "cf04b1ce3d745d01ae52c86d315a877bb950a8a1",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-outside-selected-historical-receipt-prepare-789f.py",
+  "scriptSHA256": "43f0b8a77f724098ab53afa9e9f283170682d029e10b7a34e208831fcdb930f7",
+  "argvTemplate": [
+    "--repo",
+    "{repo}",
+    "--out",
+    "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json",
+    "--receipt",
+    "{work}/outside-selected-receipt-recovery.json"
+  ],
+  "timeoutSeconds": 60,
+  "exitCode": 0,
+  "wallSeconds": 0.4659052409999731,
+  "fullTemporaryReceiptBytes": 584,
+  "fullTemporaryReceiptSHA256": "ecb21d3bca231e9e9f852334820762183c56900c845b347c884eb0b1e27e6ff9",
+  "result": {
+    "allInputBytesVerified": true,
+    "elapsedSeconds": 0.3627508099999659,
+    "format": "isp-one-pinned-historical-receipt-temporary-restore-v1",
+    "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+    "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-infinity-minor-dag-receipt.json",
+    "largeDataUploadedOrCommitted": false,
+    "reusedExistingVerifiedTemporaryInput": false,
+    "status": "completed",
+    "temporaryOnly": true,
+    "verifiedBytes": 75700,
+    "verifiedSHA256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68",
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 16:00:20 UTC",
+      "beforeReadCommit": "20aa088bc817571aa1d3187c65d8bd2b0d808dd9",
+      "originMainAfterPull": "cf04b1ce3d745d01ae52c86d315a877bb950a8a1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 16:00:21 UTC",
+      "beforeReadCommit": "cf04b1ce3d745d01ae52c86d315a877bb950a8a1",
+      "originMainAfterPull": "cf04b1ce3d745d01ae52c86d315a877bb950a8a1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 6,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2059,
+    "logicalJsonSHA256": "1292970beff5d26340546adfd5dda364bd51189af61b939dcbf214130e5320af",
+    "itemCount": 6
+  },
+  "lastRulesReadCommit": "cf04b1ce3d745d01ae52c86d315a877bb950a8a1",
+  "summaryExcludesRecomputableArraysOnly": false
+}
