@@ -1,0 +1,486 @@
+{
+  "schema": 1,
+  "kind": "public_complete_primitive_mean_strict_propagation_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "original_body_historical_input_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+  "scientific_source_sha256": "9d6ef721338e47e2cae8d179ce84976881df91762050d2a77d83b5399f6ba69a",
+  "input_paths": {
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+    "public_worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation_public_worker.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+    "strict_parts_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts.json",
+    "original_strict_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_moving_strict_energy_v2.py",
+    "original_strict_base_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_moving_strict_energy.py",
+    "original_body_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+    "grouped_curvature_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-grouped-curvature-complete-reverse-energy.md",
+    "quadratic_density_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-negative-quadratic-density-and-full-frequency-transport.md",
+    "strict_normalizer_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-first-symbol-and-root-subtractions.md",
+    "cut_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md",
+    "continuous_repair_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+    "continuous_direction_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "compact_metric_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-full-compact-metric-curvature-type.md",
+    "selected_parameter_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+    "original_body_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+    "response_summary": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+    "selected_scalar_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-parameter-core-scalar-fees-CI-inputs.json",
+    "cut_execution": "topics/visible-flex-exact-nearby/notes/negative_source_strict_density_cut_ci/run-43716450174-1/execution.json",
+    "cut_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-negative-source-strict-density-cut-CI-inputs.json",
+    "cut_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_source_strict_density_cut.py",
+    "source_execution": "topics/visible-flex-exact-nearby/notes/retained_radial_density_one_sources_ci/run-43728317408-1/execution.json",
+    "source_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-retained-radial-density-one-sources-CI-inputs.json",
+    "source_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_retained_radial_density_one_sources.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+      "bytes": 31806,
+      "sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part000.bin.gz",
+      "bytes": 1956753,
+      "sha256": "c5b7614d1ddd27c6f36acf1ded9886c79eb036b38f28d76cadec1e383a24609c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part001.bin.gz",
+      "bytes": 1966049,
+      "sha256": "31225e7764cf350e7fec35fb42e94e76df9638b97f49b7c612867a0a3bf27d5e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part002.bin.gz",
+      "bytes": 1941308,
+      "sha256": "6646fc5e689965abb5eaf04d1e01e4c9e4a47678a2ac8496178345b246bdd2c2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part003.bin.gz",
+      "bytes": 1949394,
+      "sha256": "202600d66ac6ec16fd4f0d47d6417608d94aef05ec6a1004c95ea6f263c22221"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part004.bin.gz",
+      "bytes": 473817,
+      "sha256": "4274b5701740f8cf8fa6cf8dd3f7ded5785429961a1f83687c8129307b1f74fa"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts.json",
+      "bytes": 2579,
+      "sha256": "3f0c7d011248a71061270de37fb13dcc94356bfd49b42b440028565f66e5ad1a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-negative-source-strict-density-cut-CI-inputs.json",
+      "bytes": 13687,
+      "sha256": "7c07d303931747ef2d64779a0681a0a0bb5e452e15e2af330952028e2992f4fe"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-retained-radial-density-one-sources-CI-inputs.json",
+      "bytes": 43624,
+      "sha256": "e0a36c82ed4f2a7aa0ea9bbbcccee8ab3aee06ccbc78ed113a08e9f353eb93d8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-parameter-core-scalar-fees-CI-inputs.json",
+      "bytes": 23692,
+      "sha256": "14271d7d61c70996092f105768ca29cc0dd355665be0becea4386441b38c907f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/negative_source_strict_density_cut_ci/run-43716450174-1/execution.json",
+      "bytes": 44767,
+      "sha256": "318dd25bd0ac69f54c1d5c89e2e227e13d49b9b90cf8770656900d2646eb519c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+      "bytes": 18829,
+      "sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/retained_radial_density_one_sources_ci/run-43728317408-1/execution.json",
+      "bytes": 58674,
+      "sha256": "042031e1e0baaa53ef062d87918c7ede09eb1f6b4c12bc1d4e4a2ee19ad6a084"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-first-symbol-and-root-subtractions.md",
+      "bytes": 11572,
+      "sha256": "2010d9a15ff5604dcdfd7d1db8f782a5f247806b4b007565073b02c8d4008fac"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md",
+      "bytes": 13892,
+      "sha256": "4d44bbe7082d4ee967ebf9d02284b3510624624ab98adb087b8d0499eb030376"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+      "bytes": 20730,
+      "sha256": "ae01c213b63ae618e4657b5966604e7fbec4acb4763ea4b8aae848e1a40a40b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+      "bytes": 11484,
+      "sha256": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+      "bytes": 15214,
+      "sha256": "92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+      "bytes": 8753,
+      "sha256": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-compact-metric-curvature-type.md",
+      "bytes": 5729,
+      "sha256": "c84a7688aea0e492eca8bc2a32b3c867b2a87958b5199a9342f67935104b40bf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-grouped-curvature-complete-reverse-energy.md",
+      "bytes": 10473,
+      "sha256": "9a995613536cc9040d840d29ce4bebf5b374e0f7a5e8fcd02b881dd43a250e26"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-negative-quadratic-density-and-full-frequency-transport.md",
+      "bytes": 20744,
+      "sha256": "622bb91df498f3221de6a9a7d5ebb760f2a98c9a2f6e872aee373b9a81013033"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+      "bytes": 13043,
+      "sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_moving_strict_energy_v2.py",
+      "bytes": 12967,
+      "sha256": "c6baae3e8448b4ceec95eeed50a38e8761207b1ca622173c1a8bccce3245b526"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_moving_strict_energy.py",
+      "bytes": 21771,
+      "sha256": "3b14e5f7d42297314d8bdf9532173dee037c5825be3c9feaff5fef6e0d36e5ac"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_source_strict_density_cut.py",
+      "bytes": 31744,
+      "sha256": "179cc14abfeff1d8281a8971d5e6192439106839213f461e5be8bd1b9150e63c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation_public_worker.py",
+      "bytes": 45214,
+      "sha256": "b6042dd628f1a22c38a92c71a75cee82934619443fa3854b278deb3231ba5e4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+      "bytes": 44298,
+      "sha256": "9d6ef721338e47e2cae8d179ce84976881df91762050d2a77d83b5399f6ba69a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_retained_radial_density_one_sources.py",
+      "bytes": 48281,
+      "sha256": "c1ed2857915498a4f301f3ad3bd6caaeea99232b97e0b1e7f87d08e89beb23a8"
+    }
+  ],
+  "legacy_artifact_inputs": [],
+  "current_text_input_roles": [
+    "scientific_source",
+    "public_worker",
+    "contract",
+    "reviewed_rules",
+    "cut_contract",
+    "selected_parameter_contract",
+    "selected_scalar_manifest",
+    "cut_execution",
+    "cut_manifest",
+    "cut_source",
+    "source_execution",
+    "source_manifest",
+    "source_source"
+  ],
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "exact_real_delta_radius": "1/100000000",
+    "exact_strict_interval": [
+      "0",
+      "2333968743003/10000000000000"
+    ],
+    "exact_original_strict_interval": [
+      "0",
+      "1191939371497/5000000000000"
+    ],
+    "exact_compact_support": [
+      "1/20",
+      "9/50"
+    ],
+    "exact_root_Cauchy_radius": "1/200",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "fixed_intrinsic_parameter": "eta_0",
+    "original_parameter_half_width": "1/1000000000",
+    "original_strict_complete_rows": 3071,
+    "original_body_prefix_rows": 3066,
+    "original_body_prefix_natural_parts": 17,
+    "original_strict_container_parts": 5,
+    "exact_centre_repair_A0": "0.000000000000000003861",
+    "exact_centre_repair_angle_A0": "0.00000000000000001970",
+    "canonical_response_pair_A0": "19",
+    "canonical_response_pair_angle_A0": "83",
+    "canonical_response_repair_A_1over64": "0.0000000000000002292",
+    "compact_weight_upper": "1",
+    "compact_weight_first_upper": "2400/13",
+    "compact_weight_second_upper": "5280000/169",
+    "old_grouped_reverse_log_upper": "4.386425547",
+    "comparison_coordinates": [
+      "sqrt(q)*norm(I*T(q)*h)",
+      "sqrt(q)*abs(mean(T(q)*h))"
+    ],
+    "complete_mean_coordinates": 2,
+    "physical_frequency_factor": 4,
+    "exponential_series_degree": 18,
+    "exponential_scaled_row_norm_upper": "1/4",
+    "original_H1_comparison_flow_reused": false,
+    "original_grouped_integral_recomputed": false,
+    "full_negative_BVP_or_high_inverse_claimed": false
+  },
+  "expected_actual_gate_count": 20,
+  "original_body_manifest_sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+  "original_body_prefix_parts": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-0-1.json.gz"
+    },
+    {
+      "indices": [
+        1,
+        257
+      ],
+      "sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1-257.json.gz"
+    },
+    {
+      "indices": [
+        257,
+        477
+      ],
+      "sha256": "1edcdc33fb6e60c0feb1049ee649f29cb25a98425d7354134918c1ee87faec58",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-257-477.json.gz"
+    },
+    {
+      "indices": [
+        477,
+        478
+      ],
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-477-478.json.gz"
+    },
+    {
+      "indices": [
+        478,
+        734
+      ],
+      "sha256": "08ff0e338b1b798d2b01ccb385464ead0ffaa94d45c603fda811f8c3feea4ad2",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-478-734.json.gz"
+    },
+    {
+      "indices": [
+        734,
+        990
+      ],
+      "sha256": "a8b2595a912c36972e3d84fb078cca484c357f1d34478780dc435e945bc8c982",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-734-990.json.gz"
+    },
+    {
+      "indices": [
+        990,
+        1000
+      ],
+      "sha256": "8b9334eed53f01608e26d35da955320b59ca32bbc444acb6d6a8cfe100a1583e",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-990-1000.json.gz"
+    },
+    {
+      "indices": [
+        1000,
+        1001
+      ],
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1000-1001.json.gz"
+    },
+    {
+      "indices": [
+        1001,
+        1200
+      ],
+      "sha256": "20b5501b4eb6d136d66a9fa818bd1fe2d410fa5c28202abd2e6bebd90fbfdf77",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1001-1200.json.gz"
+    },
+    {
+      "indices": [
+        1200,
+        1456
+      ],
+      "sha256": "c8e8762c5d14b8cd95f80910cb921197ae9de4e8e864808d7e1027ea5369d990",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1200-1456.json.gz"
+    },
+    {
+      "indices": [
+        1456,
+        1712
+      ],
+      "sha256": "00b3851e5ddad53e9417f7863aea5dbf4bfb0aedf7a4e58acf3806278937a87b",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1456-1712.json.gz"
+    },
+    {
+      "indices": [
+        1712,
+        1968
+      ],
+      "sha256": "0fd0dfc0c18c4bb4693d2c80e0c77807d04a78c1fe3b62ae2fa645f354a3eaf4",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1712-1968.json.gz"
+    },
+    {
+      "indices": [
+        1968,
+        2133
+      ],
+      "sha256": "403922bdbeef227ac54f2db33a31f20a81d5e235e0bce5a0b47f46dc230d734a",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-1968-2133.json.gz"
+    },
+    {
+      "indices": [
+        2133,
+        2389
+      ],
+      "sha256": "ebe925c598cdd90e6f4708876310316983ce23a194bce18f36e7ce2cd2ba2408",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-2133-2389.json.gz"
+    },
+    {
+      "indices": [
+        2389,
+        2645
+      ],
+      "sha256": "846a2cbb93477eb545661c93dec4acf80517f6ff634dada2993d2af3055e5c8d",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-2389-2645.json.gz"
+    },
+    {
+      "indices": [
+        2645,
+        2901
+      ],
+      "sha256": "c7b0e333d4f9f113e148cc3f712e9c468be09cc6f443b0fb0d08f93bc2f7995a",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-2645-2901.json.gz"
+    },
+    {
+      "indices": [
+        2901,
+        3066
+      ],
+      "sha256": "47478cc195c394afd6a396faeb2c473fcde534812823c90391c84f0b678e4d8f",
+      "temporary_path": "topics/visible-flex-exact-nearby/notes/_temporary_primitive_mean_strict_inputs/original-2901-3066.json.gz"
+    }
+  ],
+  "historical_natural_parts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0000-native.json.gz",
+      "indices": [
+        0,
+        1
+      ],
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0477-native.json.gz",
+      "indices": [
+        477,
+        478
+      ],
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row1000-native.json.gz",
+      "indices": [
+        1000,
+        1001
+      ],
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-original-left1-257-native.json.gz",
+      "indices": [
+        1,
+        257
+      ],
+      "sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8"
+    }
+  ],
+  "original_row_archives": [
+    {
+      "id": 14110601477,
+      "name": "visible-exact-body-rows-257-1200-43583838026-1",
+      "bytes": 4480773,
+      "sha256": "80dfa9c961b532aebe7ddee7ce453e7673263358bc9ba24f80dbcd5d5c54b928",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        257,
+        1200
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110008625,
+      "name": "visible-exact-body-rows-1200-2133-43583838026-1",
+      "bytes": 4388988,
+      "sha256": "69f3fa446913f7fa5ae58bc3726867fbb6cd84862f1bd7cf7afe137d1c50f1a9",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        1200,
+        2133
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110242321,
+      "name": "visible-exact-body-rows-2133-3066-43583838026-1",
+      "bytes": 4357089,
+      "sha256": "0fba4d340b7f17375a3131e002f300a3248a0148db2f2af4c9db0ca43cb1636b",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        2133,
+        3066
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    }
+  ],
+  "original_strict_native_identity": {
+    "bytes": 8499033,
+    "sha256": "23a7554aa141b51b4c897f42399eb355d003d5fe5dd37b1c62f68025a4c8542a",
+    "source_sha256": "c6baae3e8448b4ceec95eeed50a38e8761207b1ca622173c1a8bccce3245b526",
+    "complete_rows": 3071
+  },
+  "execution_scope": {
+    "new_scalar_primitive_mean_products_and_selected_compact_delta_only": true,
+    "original_targets_Fourier_intrinsic_repair_or_H1_flow_recomputed": false,
+    "original_grouped_curvature_integral_recomputed": false,
+    "original_Cauchy_normalizers_and_current_RJ_sources_read_only": true,
+    "body_prefix_natural_parts_are_not_reassembled_as_one_artificial_certificate": true,
+    "only_original_strict_container_parts_are_reassembled_byte_exact": true,
+    "all_full_parameter_angular_mean_and_radial_germ_identities_retained": true,
+    "two_original_current_conclusions_only_persisted": true,
+    "reproducible_data_published_to_repository": false,
+    "reproducible_data_uploaded_to_Releases": false,
+    "new_reproducible_Actions_artifacts_uploaded": false,
+    "complete_source_to_waist_contribution_not_called_full_strong_return": true
+  }
+}
