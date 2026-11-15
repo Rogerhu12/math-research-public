@@ -11,3 +11,8 @@
 - R810已CLI推bc4af44b；连续非快进均立即实际pull/rebase重推成功，最新已读e68dd23d/11:35:05UTC，根README新增别课题清理记录已读并遵守，本README不变。
 - R807原run43707939269已success，激活完整纯IO审读：60.77MB原ZIP、997原输入、冻结wrapper.verify及8个准确右端/4清极坐标认证字段；不重算数学，不预填θ或残余秩。
 - 新增本课题workflow serre-R807-success-io-audit.yml，仅读contents/actions、真实pull/README diff和一日续接摘要。R806/R787继续，R809实际normal向量与R811两图极理想工程接续。
+
+### 2026-11-15 19:44（Asia/Taipei）｜serre-public-astra-20261115
+- R807实际结果登记：962minor p1000000007/det290159643，真实残余rank2/kernel3，θ仅前三原M2项；五投影488位、三成员336/464/472位，692旧核合成，四full1100，375.019515秒。λ3/4零，无新增pair尾，不预填rank4。
+- 公开IO run43709814489完整1003manifest/1005ZIP/997原输入与冻结verify通过；原cert2680e922/manifesteeac0a85，小续接artifact14159593339保15原文件，raw不入Git。11:37:35.821619UTC实际pull到c8d76ff9两README无差异。
+- H逐字归档压缩；真实θ交R809六清极向量，R806/R787继续，R809/R811已审证明随即分别登记，主目标OPEN。

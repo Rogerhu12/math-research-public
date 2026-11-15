@@ -406,3 +406,6 @@
 
 
 - **R810（已证明）**：[原toric完整单位偶矩与曲率链配对](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。原P_T exp(tE)P_T=P_r(1+2t²/3)P_T给全部(2j)!·binom(r,j)binom(r+j,j)/3^j单位；完整Hankel非退化，原toric线的E链和观测链均为基。K^p(P0)=3B²E的压缩高偶矩仍为单位，但P_T不水平、P_TKP_T零曲率，真实源方程必须保[ K,P_T ]v。实际u_h在Legendre零时不能归一，整链非退化不保证原指定系数；继续原z/t到同h的完整源配对，未筛与primitive/Legendre共同非零均仍OPEN。 SHA256 0342c756fd0f330a15b0585e3d56c88359b17280f07ba4d1cc946090d2170515.
+
+
+- **R807原M6一次清极已实际完整认证**：[结果](results/R807-certified-original-M6-pole-clearing.md)。run43707939269/source2c44d025，375.019515秒；原962块p1000000007/det290159643。真实138×5残余rank2/kernel3，θ=e0−112648621e1/282292255+223442698e2/282292255，原λ3/4=0，无新增pair-tail。五选行投影各488 Dixon位；三成员690/691/693为336/464/472位，692由既成投影与核合成，四条全1100准确认证。1003完整manifest项/1005ZIP/997原输入与冻结verify经公开IO run43709814489全核。只需后继六个θU_j正规向量，不重算θ、8右端或旧前缀；极理想/η/高度仍未执行。
