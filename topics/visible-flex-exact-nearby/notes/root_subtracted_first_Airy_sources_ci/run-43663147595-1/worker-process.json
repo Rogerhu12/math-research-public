@@ -1,0 +1,126 @@
+{
+  "kind": "actual_public_root_subtracted_first_Airy_source_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43663147595",
+  "run_attempt": "1",
+  "workflow_commit": "cd3ecd55989ebb163bab44519460b6f7fdd73243",
+  "worker_sha256": "0748f1c7aecdd916be3397141fb5e298e7c172767651b4dff333fa9e014c7775",
+  "manifest_sha256": "5158bc631e1cbf3eddea6b6ad1a2e28ac2e782eea1f94da5970f1ac7c3e1c426",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T01:27:42.358400+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T01:27:43.204722+00:00",
+      "before": "8114c2cb3be9ad3097a0cba827e9581218a37e5a",
+      "after": "01c2202dc9f004b2f3a0649b766ab425c376eb8c",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:30:37.116572+00:00",
+      "before": "01c2202dc9f004b2f3a0649b766ab425c376eb8c",
+      "after": "bf3daff6b23c9b4d184606cbb4c1977cd00d2b22",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:30:38.733296+00:00",
+      "before": "a5a48e0999f570f5133018bf0a073ea6af205685",
+      "after": "c71bad67c9ddc24642f3f5446d5a0ddbb67d7a73",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_true_root_high_order_point_evaluation_requested": false,
+  "strict_original_completed_coefficient_and_amplitude_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "Taylor",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+      "sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719",
+      "bytes": 52843
+    },
+    {
+      "name": "normalized-forcing-degree-000",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-000.json.gz",
+      "sha256": "3fdf9257996d22743d5d00d7dba26988c8182de56e9d103f51392fdeb52eb50a",
+      "bytes": 8098
+    },
+    {
+      "name": "normalized-forcing-degree-001",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-001.json.gz",
+      "sha256": "182dc12d979f920763d89adf41790144e3b9cd7bf313ebea0c4732f4a4100f9b",
+      "bytes": 12855
+    },
+    {
+      "name": "normalized-forcing-degree-002",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-002.json.gz",
+      "sha256": "75d69375fa0197e2d9428f7d644ecf1c7b0af008014ed65be5c551a0816c8ce8",
+      "bytes": 17856
+    },
+    {
+      "name": "normalized-forcing-degree-003",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-003.json.gz",
+      "sha256": "537a143f3a31c518d845487fcacaaff25402e2d9114b03027e0871d9e7def6bd",
+      "bytes": 22741
+    },
+    {
+      "name": "normalized-forcing-degree-004",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-004.json.gz",
+      "sha256": "42ecae4102e521cdc7a2ada3ac098fefc387ebab9f82fe3c637faffe5edfa2ca",
+      "bytes": 27768
+    },
+    {
+      "name": "normalized-forcing-degree-005",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-005.json.gz",
+      "sha256": "cd630f10dd89f1fe776c62b32470a934ec6182143a4f8910a1d1f320d958a490",
+      "bytes": 32599
+    },
+    {
+      "name": "normalized-forcing-degree-006",
+      "run_id": "43653825736",
+      "path": "Taylor/consumers/stages/normalized-forcing-degree-006.json.gz",
+      "sha256": "e41ea6dea01cc72d56b37d308279b5ce1659237c4c1f245162a3e5e6b062e906",
+      "bytes": 37545
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_subtracted_first_Airy_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-root-subtracted-first-Airy-sources-CI-inputs.json",
+    "--manifest-sha",
+    "5158bc631e1cbf3eddea6b6ad1a2e28ac2e782eea1f94da5970f1ac7c3e1c426",
+    "--out-dir",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 25,
+  "actual_scientific_checkout_commit": "01c2202dc9f004b2f3a0649b766ab425c376eb8c",
+  "mathematical_wall_seconds": 135.47705389
+}

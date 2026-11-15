@@ -1,0 +1,110 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43663147595",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T01:27:43.204722+00:00",
+      "before": "8114c2cb3be9ad3097a0cba827e9581218a37e5a",
+      "after": "01c2202dc9f004b2f3a0649b766ab425c376eb8c",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:30:37.116572+00:00",
+      "before": "01c2202dc9f004b2f3a0649b766ab425c376eb8c",
+      "after": "bf3daff6b23c9b4d184606cbb4c1977cd00d2b22",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:30:38.733296+00:00",
+      "before": "a5a48e0999f570f5133018bf0a073ea6af205685",
+      "after": "c71bad67c9ddc24642f3f5446d5a0ddbb67d7a73",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/cases/radius-1-100.json.gz",
+      "bytes": 651034,
+      "sha256": "27e11008fa0150ecf4168cfd8b9cfe3aaab146e9435f3c041c7aab73682ec150",
+      "original_sha256": "27e11008fa0150ecf4168cfd8b9cfe3aaab146e9435f3c041c7aab73682ec150"
+    },
+    {
+      "file": "consumers/cases/radius-1-1000.json.gz",
+      "bytes": 328968,
+      "sha256": "32db8dce1222884b050b8e3a183dc7167b2c062832772cb38ec6bddfd632468a",
+      "original_sha256": "32db8dce1222884b050b8e3a183dc7167b2c062832772cb38ec6bddfd632468a"
+    },
+    {
+      "file": "consumers/cases/radius-1-200.json.gz",
+      "bytes": 1524368,
+      "sha256": "1db02267999091cd73dd9aaca6a1224b952718c0eb58667bcc6ee96fe1ddde56",
+      "original_sha256": "1db02267999091cd73dd9aaca6a1224b952718c0eb58667bcc6ee96fe1ddde56"
+    },
+    {
+      "file": "consumers/cases/radius-1-50.json.gz",
+      "bytes": 956923,
+      "sha256": "8a307a536a1eb8cf98a13e395dc0eeb6949ec70f5d587f44032a54250d82010d",
+      "original_sha256": "8a307a536a1eb8cf98a13e395dc0eeb6949ec70f5d587f44032a54250d82010d"
+    },
+    {
+      "file": "consumers/cases/radius-1-500.json.gz",
+      "bytes": 650459,
+      "sha256": "f37d0aceabf3e5a4497bb13445f30ee4560e10204c856ad26958de28dbed68c5",
+      "original_sha256": "f37d0aceabf3e5a4497bb13445f30ee4560e10204c856ad26958de28dbed68c5"
+    },
+    {
+      "file": "consumers/cases/radius-3-200.json.gz",
+      "bytes": 799763,
+      "sha256": "16d40ccde898d35683da079323abb97015ea40a63ebdcd1268e3bee224ec262a",
+      "original_sha256": "16d40ccde898d35683da079323abb97015ea40a63ebdcd1268e3bee224ec262a"
+    },
+    {
+      "file": "consumers/complete-process-before-summary-size-limit.json",
+      "bytes": 100236,
+      "sha256": "c89ba87ca47a7e86b6e0a6b145c614bba93f8bc66d66b88e6497eeeb376816cf",
+      "original_sha256": "c89ba87ca47a7e86b6e0a6b145c614bba93f8bc66d66b88e6497eeeb376816cf"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 37657,
+      "sha256": "ef0e7f24b7de5e343865d837ac0832fdc0a768cb85749064253978b480ba8bcd",
+      "original_sha256": "ef0e7f24b7de5e343865d837ac0832fdc0a768cb85749064253978b480ba8bcd"
+    },
+    {
+      "file": "consumers/root/complete-root-forcing-norms-and-tail.json.gz",
+      "bytes": 4200,
+      "sha256": "729796ab696e8ee9d0d456be75d3aacb29fae00e2e5f5f7181223e3b8d46b2e3",
+      "original_sha256": "729796ab696e8ee9d0d456be75d3aacb29fae00e2e5f5f7181223e3b8d46b2e3"
+    },
+    {
+      "file": "consumers/root-subtracted-first-Airy-sources.json.gz",
+      "bytes": 13655,
+      "sha256": "d61f42392f65463282585dfb59fae26ec25549b064bd8ef7d551c2a202d4637b",
+      "original_sha256": "d61f42392f65463282585dfb59fae26ec25549b064bd8ef7d551c2a202d4637b"
+    },
+    {
+      "file": "consumers/root-subtracted-first-Airy-sources.stdout.log",
+      "bytes": 3894,
+      "sha256": "2b59210ee199b7a539bdb9962b5d9c23197b5a345d98a7a8de8121c12d0b5002",
+      "original_sha256": "2b59210ee199b7a539bdb9962b5d9c23197b5a345d98a7a8de8121c12d0b5002"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 146,
+      "sha256": "774518361b7d693b7cf12f78ac1582ff825b6fbbcbebeed27e4ca6e33eaed48c",
+      "original_sha256": "774518361b7d693b7cf12f78ac1582ff825b6fbbcbebeed27e4ca6e33eaed48c"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 5371,
+      "sha256": "ccbae595b287021ae728793944a4d33ef839cb294ad0934a28caa523f4fa9e1d",
+      "original_sha256": "ccbae595b287021ae728793944a4d33ef839cb294ad0934a28caa523f4fa9e1d"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
