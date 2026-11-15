@@ -134,7 +134,7 @@ R224/R228标准/增长曲率偶芽已由原八包c6排除，R232另严格排原�
 
 [R277](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)/[R279](results/R279-finite-frequency-fiber-control-pays-both-even-profile-energies.md)的真实最大秩F纤维保持全部72观测；[R280](results/R280-ordered-three-moment-areas-and-five-block-Gaussian-cancellation.md)在原self/Green及对称cross准确消后，将余六式化为A01/A02/A12三个真实有序矩面积。17进制R/二进制TM两层编码交换给A01严格双号；五最终完整block的正四次权按原平移律同时清三个面积，全部72条准确为零。最后位置/权先定，再各block按R279同F有限N真实根付Lc/Mc，原odd/共振一般微包式给六能量全0。不是从条件数推rank，未枚举巨量序列或提供数值候选。
 
-**下一按原四阶完整Gaussian word表达，支付零/一层history及余下整个ruling系数，再与canonical完整period/同w gauge联立。** 还须从最初构造解析同F母包才能用R276端门；不能由全部面积零推whole第四可解。更高阶收敛/同g有限族/全时嵌入reach仍欠。
+**下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** 还须从最初构造解析同F母包才能用R276端门；不能由全部面积零推whole第四可解。更高阶收敛/同g有限族/全时嵌入reach仍欠。
 
 ## O1：双圆领相位机制，保留备选
 
