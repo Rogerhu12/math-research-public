@@ -133,3 +133,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:53 UTC /root — 修正R282源目录
 
 将刚提交的两个新源从scripts普通移至接口指定的computations，与原loader和依赖同目录；原字节/SHA及数学不变，未运行科学。不存在额外来源或复算门。
+
+## 2026-11-15 08:02 UTC /root — actual110八个真实模型及midpoint限制
+
+[实际110](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)run43685348016/source8d4a3af1：8原model+FD全接受、显式8批结束，全部native/fullDN仍false。各模型merit分行记录；末alpha1/2048，后七批最近拒绝均为未列入31约束的midpoint471，末beta²−3.8894462797367524e−5。八份原summary含LF字节/SHA均核，raw已清理。接32-query补该真实点，从actual98另启真实轨迹，原门不变；H重写压缩保全部当前责任。

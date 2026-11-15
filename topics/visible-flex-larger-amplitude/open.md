@@ -20,7 +20,7 @@
 
 [实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)的同31原1/8接受已完整读回，最近1/4只有原query0 LEFT464的RMS失败；原success/newcoupled仍false。不能仅凭下降称BVP完成或因远档未选点无故扩大查询。
 
-[110完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)已执行：run43685348016/source8d4a3af1/job132724561759。最多8原1-model+新warm原FD批次，科学175min；只在真实新warm/status及其fresh FD上逐批传递，全部原B/H/C/outside/域/预算不变。107raw已删，因此从actual98真实artifact重建新轨迹，不从hash伪造已删场。每批fresh W/J，不跨模型相减merit。实际结果尚未读回；运行日志endpoint未完成时404不作科学失败。
+[110完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)已[实际读回](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)：run43685348016/source8d4a3af1/job132724561759，8真实model+fresh FD全接受，按8批预算结束，全部native/fullDN/success仍false。各模型W不可跨行减；末alpha1/2048、physical .007107378585750384、BC6.276408182782244e−9。后七批最近拒绝均为未选原midpoint471，末最近拒alpha1/1024、beta²−3.8894462797367524e−5。118保原31加该真实点，所有原域/门/预算不变。110末warm c02da9e1/status90bfb02a已清理，从actual98新轨迹开始，不冒由hash续算110。
 
 98与102v3已结清：[原结论与身份差异解释](notes/2026-11-15-actual98-thirty-one-quarter-step-and-rms-barrier-compact.md)。独立model的顶层装饰不等于嵌套模型合同失败，保原false/exit2事实，不重算102或加成功门。
 
