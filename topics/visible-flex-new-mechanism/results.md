@@ -282,3 +282,12 @@ R56/R243的真实有限s函数空间由有限点评价忠实承载；把hatK的1
 [R303 完整证明](results/R303-complete-self-degree-nine-and-all-translation-control.md)从原W2/η0/V_Z逐层保真实完整字段，V_Z,x c5项=(0,0,h m_p2 r r′/4)，E_Z另保(a+c−ell)|U_c|²的真实移动左尾≤5。整个self c10项为−I(u)∫kh m_p2²/128，由逐点m'_p2=−kh/2和真实M0双端值准确清零，故全部U的固定母包平移self属于Pol≤9，含全部C²余项。
 
 原H7串的有限射影流给∫x²c_{exp(tδ)H,u}=−8t²(μ0−2tμ1+t²μ2)，因此B_p2(H6)整T0；N保pure/T核，完整self N9=−391910400 I(u)，即c9=−1080I(u)≠0，N10仅self零非cost零。十条明确N链给全Pol≤9，与九矩准确三角化后R222 m19保所有基准/Klein闭合，fixed同母全部中心/幅度self可同时0，包数不限于10。不同母形/宽度或后选同C²纤维shape仍未付；全Q函数像和joint继续。root全文核原尾/次数/finite-flow能量/N阶常数及真实控制范围；无新执行。
+
+
+## R305：完整偶germ主秩40，两个明确零层商观察可与全部旧门联控
+
+[R305 完整证明](results/R305-complete-even-germ-forty-dimensional-principal-space-and-two-zero-layer-controls.md)从R296完整平方与R300真实V_r表提零E principal σ²Σh^nZ_n；低权0–6已在旧空间，高权7模VL3只有B的两单项，高权8仅新增x6B²，权9/10不增。因此自由维上界42；[j5]Z0模旧类为−rZ x6AB/3200、[j0]Z1模旧为(3κ²−2)²x6B²/1024，均确非零，准确达界。
+
+原零层为有限j/h Laurent多项式；J7=α[h0j6]R0、J8=α[h1j1]R0（α=κ³/2）各自杀We。旧even普遍核仍恰两项，故完整偶germ商的实际主秩40，非粗52。原32+8+2条目保两条完整关系，用40真Jac/12包正锥/同初选Fang有限N根可准确付这两新必要观察及全部旧主坐标，保原二层/面积/能量/解析prefactor。
+
+全部余下主关系仍留下真实C²相容量；未编译总行数，不把保持基线冒零，也未付其他s段或period/joint。root完整纸证，所有高权2/4因子、原j=ασ²和We支持均明列；无新执行。

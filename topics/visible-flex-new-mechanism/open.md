@@ -147,11 +147,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
 
-### R293/294/296/299/300：全角已归约；一层主38与真实低阶相容待联付
+### R293–305：全角已归约，完整主40已可控，真正缺口转低阶相容
 
-全部二层/72面积/六能量/三矩/完整third已可同正解析有限N圈联合支付。R299原pure-ruling self确C²，完整cross Γ与真左锚补偿给初选Fang；原十矩/三有序面积使整个Ξσ0，中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。未把period q偷降低阶。
+原二层/72面积/六能量/三矩/完整third可同正解析有限N联合付。R299准确pure-ruling self C²及真尾Γ给初选Fang，原十矩/三有序面积清整个Ξσ；中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。未将period q误降C²。
 
-[R300](results/R300-one-history-tail-compensation-and-thirty-eight-dimensional-principal-space.md)保原T非紧Green、定向E8 history与corrected-self，列四Er各30条真实Laurent系数。原Q/β显示表给七权空间，4方向乘出free40，原even母类仅两恒零核，故实际主秩38；旧30空间在内，可再取8原一层观察同Fang真实有限N准确指定。**下一付其余原行的完整C² annihilator相容（至多112生成条件，非rank112）与零层We商。** 逐式判原等背景/面积已蕴含哪些真实关系，或找改变其基线的新实际机制；单把它们加入F只保持原值。不得把principal满秩称全一层零，其他s段/全period/同w仍欠。
+R300的四Er×30准确Laurent原行主空间free40/even38，旧30外8个真实观察可联控。[R305](results/R305-complete-even-germ-forty-dimensional-principal-space-and-two-zero-layer-controls.md)用原零层完整平方证明仅权7、8各再添1，free42/even完整主秩40；明确J7=α[h0j6]R0、J8=α[h1j1]R0准确杀We，两个主类有非零纸面系数。故42原条目/2完整关系对应40真主坐标，可同Fang和所有旧门有限N准确联付。
+
+**下一真正支付全部principal-null的完整低阶基线**：一层至多112冗余生成条件，零层We商尚须原式编译；不虚构总rank。按原完整self/Green/ordered尾证明等背景/面积/能量蕴含哪些恒等，或找可改变其实际值的机制。把这些量加入F只保持旧值，不授零；主空间结清不等于整个germ可解。其他s段/奇部、全period/同w及最终几何仍欠。
 
 ### R288/292/295/297/298/302：平台与单self已兼容新Morse/共振几何
 

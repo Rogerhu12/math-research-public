@@ -33,7 +33,7 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；当前强化入口为下述Fang，已败旧族不重试。
 
-**平台/全Z旧接口R264/266/272/274/276**：G″=(aw″)′+bw′−Jcw，真Green Λ′=pG″；非零F平台局部像仅三维但完整Q2″=−Jcw不得删。全Z逐包比例Kfg0、flux自动0，只correction还需总势矩/内部Laurent。canonical原式G=P+Tf+p²t^-4B保完整history；R288现付当前紧微包Tf，平台/flux仍欠，非全Rp0/joint。
+R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″及同右尾；全Z逐包比例Kfg0/flux自动0只用于correction，canonical全目标另付。所有平台/势矩/Laurent/解析端判据原文保留，不授任何尚未评价的门值零。
 
 **R281解析端接口**：从起点ψ乘偶多项式可选最大F母包/纠正与全区正prefactor；p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。整个canonical Tf与真实尾保留，共轭微分及频率独立将端germ变有限iff；平台/flux前提须实际支付。后续F⁺可用，不凭解析性授门值零。
 
@@ -47,7 +47,7 @@ R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；�
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**R293/294/296/299/300完整germ**：全部二层/72面积/三矩/全third/六能量已可同有限N、正解析prefactor联合付。R299由R296全主平方得pure-ruling Kσ确C²（非period q），R292完整Γ补真边项后hatK平移≤10；初选Fang保其有限真实s坐标，十矩/三ordered面积清整个Ξ，中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。R300原4Er各30条Laurent系数共120呈示，显示真实Q/β多项式和7权空间；free40扣even恒零uu′/u′u″为**实际主秩38**，非粗52。旧30空间包含其中，8个新真实一层观察可同初选Fang有限N指定。**其余≤112原行减38基留下真实C²相容门，尚未付；保持未知基线不等于零。** 零层We商、其他s段、完整period与同w继续欠。原T非紧Green/定向E8核与corrected-self在R300全文。
+**R293–305完整germ**：原二层/72面积/三矩/全third/六能量可同正解析有限N联合付。R299的pure-ruling Kσ确C²（非period q），完整Γ补真边后hatK平移≤10；初选Fang和十矩/三ordered面积清整个Ξ，中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。R300四Er的120真实行给free40/even38，可再付8观察；R305原零层平方低0..6不增，仅权7/8各增1，自由42/even**完整主秩40**。明确新J7=α[h0j6]R0、J8=α[h1j1]R0杀We，原真实主40坐标可同Fang/12正包/有限N准确联付。**所有其余principal关系的完整C²基线仍欠**：一层≤112生成量加尚未编译零层商，不宣rank或初值自动零。其他s段/奇部、全period/同w和主几何仍欠。
 
 
 
@@ -55,4 +55,4 @@ R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 8b61fcb6968dc88dc7cf72882f15ca9167d1f88d，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 09b6707cd7dcf7311b6175051e80a46e01f9b600，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

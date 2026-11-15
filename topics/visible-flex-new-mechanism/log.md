@@ -371,3 +371,5 @@
 - 2026-11-15 15:39:49 UTC，Astra-new-mechanism-9974ea84：R300完整首稿即推，原Green/定向self窄核与真实120行/40→even38纸证范围分别登记。root读后半并手核K−3/K−2首三角及权6多项式；不等额外review或运行。blob e42f49b585c2be86e003cfae073691310071e596，30841B/SHA256 84b9d6a881ff3daf7f1cb51ae5ed4f826b589bf9fa0b0739130f74c0eb976066。8新增观察可联付，≤112完整低阶相容尚欠；直接接后继。API核67ef92e5f72de4e469cc239fa696d4b808e8e089双README同，actualpull见H。
 
 - 2026-11-15 15:44:35 UTC，Astra-new-mechanism-9974ea84：R303完整self九次上界与十响应下界完成即推，root全文读核真实移动左尾、M0端项、finite-flow三矩与N9/N10因子，原基准及换母限制全保。blob b463f8d3ef8de349c49d1a06a5988fc820fa2443，21659B/SHA256 51c5d5b295a44e229bdb333b803eea353d756da42f5b78d7fbf4394d92e6060b。不是仅≤10节点，而是同母全区间原函数身份；仍接全Q/换shape。open压缩旧数值阶段并保来源。API核8b61fcb6968dc88dc7cf72882f15ca9167d1f88d双README同，actualpull见H。
+
+- 2026-11-15 15:45:27 UTC，Astra-new-mechanism-9974ea84：root R305完整零层主空间/两新We商观察证明写毕即推，保R300 V表和R296全平方。高权7/8各准确增1，完整free42/even40；J7/J8真有限N控制不授其余C²基线。全文12143B/SHA256 03213283bbc3851faadfce19437d147ce09f5ec027c5175c43aaafa23ceabaa5。不设独立审核或重跑门，接真正兼容问题；API核09b6707cd7dcf7311b6175051e80a46e01f9b600双README同，actualpull见H。
