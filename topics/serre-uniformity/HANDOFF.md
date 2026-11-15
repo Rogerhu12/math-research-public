@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：f2ca3e196f5e1d93272fea6a028454a5a4c73a0f**（2026-11-15T13:33:26.404337+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R816前H](notes/2026-11-15-handoff-before-R816.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
+**已读规则提交：4e40d40cb42f434e7815f1f2812df32821799b99**（2026-11-15T13:36:05.935039+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R816前H](notes/2026-11-15-handoff-before-R816.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -14,9 +14,9 @@
 
 **R809运行**：run43712427063/source91fbd81e，[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[输入IO](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117文件已核。先六τθU_j共84Q右端、1234列/1380行；A/B后增，不换公共身份。保82/原b/s/λ与τ最高项零、manifest不可变；尚无新minor/坐标。
 
-**R815真实请求已激活、待run绑定**：[契约](notes/R815-original-normal-derivation-operator-method.md)。真实R806/R813已齐，53个最小原文件纯IO全核；root全文核core/method/workflow，ordinary全文核wrapper。core80516ff9/wrapperab725da0/method5d312007/request4e01d5be/workflow4171ee9d；只Mg/Γ，分别六/五模点、各七准确点；不独立CRT Mh。Γ两列、nested源顺序/两图负号均保。首run未读前不预填实际矩阵。
+**R815运行run43719622321/source2a3300a9**：[契约](notes/R815-original-normal-derivation-operator-method.md)。真实R806/R813已齐，53个最小原文件纯IO全核；root全文核core/method/workflow，ordinary全文核wrapper。core80516ff9/wrapperab725da0/method5d312007/request4e01d5be/workflow4171ee9d；只Mg/Γ，分别六/五模点、各七准确点；不独立CRT Mh。Γ两列、nested源顺序/两图负号均保。请求已匹配真实source；尚无实际矩阵输出。
 
-**R811工程pending**：[极理想/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。首乘法core849bca27/wrapper2a1d1c28已审，真实R806已到，待R809 A/B；r5八模/九准确点。完整多项式核/Hermite/两向Laurent/τ全长＋σ零长度工程另稿已齐；原P不可变保留作MpH=MqW直验。generic非平凡消去与真实中断续算验证准备公开运行，不代实际原模型输出。
+**R811工程pending**：[极理想/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。首乘法core849bca27/wrapper2a1d1c28已审，真实R806已到，待R809 A/B；r5八模/九准确点。完整多项式核/Hermite/两向Laurent/τ全长＋σ零长度工程另稿已齐；原P不可变保留作MpH=MqW直验。generic非平凡消去与四个真实中断边界验证已激活公开请求（run待绑定），不代实际原模型输出。
 
 **R792/R804 pending**：[原β/立方根](results/R792-original-beta-composition-and-Galois-cube-root.md)core7b7a5483/wrappercdac2e93仅待R787；保c(f)=−ζ²f、y0=sv0、Fb唯一根，先CM值/首jet。随后[R804真点](notes/R804-original-CM-point-consumer-interface.md)coreecd9fc2a/wrapper5126b836，旧18项IO已核；原T7/全Gal/vβ/全部例外点保留，不重求5个Laurent核。
 

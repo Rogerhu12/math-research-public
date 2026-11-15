@@ -1,0 +1,67 @@
+name: Serre R811 generic polynomial module validation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R811-public-polynomial-module-validation-request.json
+permissions:
+  contents: read
+jobs:
+  generic-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R811_exact_L_polynomial_modules.py
+            /topics/serre-uniformity/scripts/R811_generic_polynomial_module_validation.py
+            /topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py
+            /topics/serre-uniformity/notes/R811-public-polynomial-module-validation-request.json
+            /.github/workflows/serre-p41-generic-polynomial-module-validation.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bind exact source files and parse Python without importing mathematics
+        run: |
+          python - <<'PY'
+          import ast, hashlib, json, pathlib
+          root=pathlib.Path(".")
+          topic=root/"topics/serre-uniformity"
+          request=json.loads((topic/"notes/R811-public-polynomial-module-validation-request.json").read_text())
+          sources={
+            topic/"scripts/R811_exact_L_polynomial_modules.py":request["module_helper_sha256"],
+            topic/"scripts/R811_generic_polynomial_module_validation.py":request["test_script_sha256"],
+            topic/"scripts/R754_original_periods_and_Hom_kernel.py":request["field_core_sha256"],
+            root/request["workflow"]:request["workflow_sha256"]}
+          for path,digest in sources.items():
+              assert hashlib.sha256(path.read_bytes()).hexdigest()==digest,str(path)
+              if path.suffix==".py":
+                  ast.parse(path.read_text(),filename=str(path))
+          print("AST_AND_SOURCE_BINDINGS_OK; validation is generic, not an original CM computation.")
+          PY
+      - name: Install the frozen exact arithmetic version
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Exact cancellation, two charts, and hard-interruption continuation
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u topics/serre-uniformity/scripts/R811_generic_polynomial_module_validation.py \
+            --request topics/serre-uniformity/notes/R811-public-polynomial-module-validation-request.json \
+            --module-helper topics/serre-uniformity/scripts/R811_exact_L_polynomial_modules.py \
+            --field-core topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py \
+            --output "$RUNNER_TEMP/serre-R811-generic-module-validation"
+      - name: Retain generic validation receipts and checkpoints for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R811-generic-module-validation-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R811-generic-module-validation/
+          retention-days: 1
+          if-no-files-found: warn

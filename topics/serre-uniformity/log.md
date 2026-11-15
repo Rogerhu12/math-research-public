@@ -90,3 +90,8 @@
 - R813真实结果登记：两原Q右端432位、分母828/1931位、两scale6724/1，全820行准确；core67.613512秒。451ZIP/449manifest/726输入与冻结verify原样全核，raw不入Git，不重算数学。
 - R815两目标工程激活：root全文审core/method/workflow，ordinary全文审wrapper；真实53原文件select_inputs全过，AST/源码SHA核。Γ五模/七准确nested、原scale/两图负号保全；core80516ff9/request4e01d5be，实际run随后绑定。
 - R816已CLI推0e6fcef1；并发非快进立即pull/rebase循环成功，13:28:26.307214UTC读2cc71aff两README无diff。R787/R809继续，主目标OPEN。
+
+### 2026-11-15 21:35（Asia/Taipei）｜serre-public-astra-20261115
+- R811模块generic公开验证激活：root全文核test/workflow/request及helper仅新增的unchanged列复用，独立纸核非平凡消去、双图H/W/长度、四个真实exit97再启动与数学结果逐字SHA；仅公开Actions数学，未本地算。
+- R815已推2a3300a9，真实run43719622321已in_progress；53源IO及core/wrapper主审完成，后继不等generic测试。R813真实结果a2f41569完整登记。
+- 非快进后立即pull/rebase循环，13:33:26.404337UTC已读f2ca3e19，两README无diff。R787/R809继续，R820直接20维cusp评价核证明/工程推进；主目标OPEN。

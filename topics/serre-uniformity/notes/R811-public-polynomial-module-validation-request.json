@@ -1,0 +1,21 @@
+{
+  "result": "R811-generic-polynomial-module-validation",
+  "mathematics_is_generic_not_original_CM": true,
+  "test_script_sha256": "7a3b49ea7127b77a253c2e00c2ce1325cdcd75d5a54f1b69479cd7b133265037",
+  "module_helper_sha256": "09f21a903e4906666d63f58575b389be7a04c20b68c7fcac624d3821837a9126",
+  "field_core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+  "workflow": ".github/workflows/serre-p41-generic-polynomial-module-validation.yml",
+  "workflow_sha256": "4b74fd80c89f5310f7a8d05f91a0c7327d3d4e0534cf705f57ebbf9ed2945f00",
+  "generic_field": "Q(c,zeta), c^7=2, zeta^2+zeta+1=0",
+  "generic_curve": "u^2=z",
+  "deliberately_cancelled_function": "(u^2-alpha^2)/(u-alpha)^2; alpha=c+zeta",
+  "hard_exit_code": 97,
+  "hard_exit_boundaries": [
+    "after_tile",
+    "after_receipt",
+    "after_commit",
+    "during_cleanup"
+  ],
+  "original_producer_activation_requires_this_validation": false,
+  "original_R811_A_B_arithmetic_executed": false
+}
