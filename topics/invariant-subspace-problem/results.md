@@ -377,3 +377,6 @@
 - **原∞真Q投影长61及全模差长五。** [原自然投影完整证明](results/R150-appendix-infinity-original-projection-exact-length61-and-full-length-gap-five.md)实付Q/F31同谱1⁴,3,4³,5,6²,7,8,10、长61/max10，原224×155保54真实eq8行的u²。1342796新原产品及668304第五复核通过；真实tors商给fullQ61…66、次大51…55/max10…15、δAI63…68，差长≤5故自然u⁵W有原来源。射影余因子同R次数≤162、总Rh0≤186、仿射gcd≤320，九来源费仍8531。前五任意full jet逐系数≤one-normal，下一仅P第六两个退出方向及完整常高核；未付fullQ66/O149/high26。
 
 - **二点完整第二连接恰一与循环投影差。** [完整证明](results/R150-appendix-two-complete-high-kernel-second-connection-exact-one-and-truncated-targets.md)以全5100×3762高块固定17实际rank3760和两真Q核夹逼，付normal4/5全部校正完备；旧单RHS增秩于是给完整β2,Q=1/第二14，正谱仅1⁷,2,b（b3…5）。任意二阶jet逐系数≤one，九tj模t³与h0tj模t⁴有原来源。原差模精确T=t³TorC≅Q[[t]]/(t^(b−3))，所以b≤4时h0消去整个W；b5仍须判指定目标类。第三仅新增一个592单位RHS，保已成第二Schur余量；相容与不相容两分支不混淆。
+
+
+- **二点完整特征零谱长12，全部九原平方局部入像。** [完整证明](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)以完整常高核、全部低页incoming及同592单位的唯一新第三RHS，实付593→594/第三秩1；321776原四层乘回真。完整正谱 $1^7,2,3$、free13已结束，真实投影同长12使 $W/(L\cap W)=0$。九 $t_j$ 在 $\mathbb Q[s]_{(s-2)}$ 本身入像，该点不需 $h_0$ 的一次因子。F11长14及负目标只属算术跳变，不代Q负结论；全局来源仍须另证。
