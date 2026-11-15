@@ -445,3 +445,7 @@
 ### R150 附录：同一8770次子式的无穷远4318常秩与连接3
 
 [完整原来源证明与实绩](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)从旧I/R/B/Z与J/P/Q/C记录重建所选1021来源的常坐标和完整一阶投影；唯一新计算3.771379255秒。所选常秩985、原方阵4318，真正所选余核连接rank3，故36正Smith指数中3个恰一、33个至少二，v∞≥69。保全部P坐标及5矩阵，不把全旧常像免费商去。char0所选常秩仅4318…4340；其既知上界另给adj至少13阶、条件来源界8801，仍不证明lc(D)单位或原目标成员性。
+
+### R271 强物理尾位并头后的同一顶部两费流
+
+[完整证明](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)。同原u_Q、C=A+D_<、h=d+R及准确两孔截断给真正左最小与完整/裸链同源预算：全cut ΣXi_C²≤2hβ²、h网格≤2β²，μ_C≥||w||−β，负图全保。强位R≈ρ^-1后剩κh/Q门槛；κ=O(ρ^-1)足但未证，不将新联块λ_C当原单孔ordinary费用。

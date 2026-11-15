@@ -150,3 +150,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **原char0成员性已有条件固定界8814。** [原子式降度证明](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)仅用已证非零的原8770齐次子式与原行列权；有Q[s]解即可选同一cost8814。不能据此称实际有解或分母31指数≤2。若能证明该真实D的最高系数31单位，可把各模精度任意来源降到同B/e，再接全精度下降；等价的该子式∞消失阶比较仍未付。现由下条∞证据加强条件界8801；继续最新全局检查点，不重原局部页。
 
 **同一原子式∞压缩已实算，char022亏损仍开。** [完整证据](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)给选定1021常rank985/真连接3，原4354常秩4318、模31v∞≥69；不能混成全矩阵1007/4或char0结论。须直接处理原char0常块，当前4318≤rank≤4340、余块14…36。已知char0上界付cofactor至少13阶并把条件来源界加强8801，但lc(D)单位/全部精度/实际成员性仍未付。
+
+**强尾位并头已付同一顶部流，剩完整比较。** [新完整证明](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)在同u_Q上给C=A+D_<、h=d+R、n+h+R<Q的真左最小和ΣXi_C²≤2hβ²；远孔/总孔差≤R，完整高返回修复与负图都保。R≈ρ^-1令远尾范数小于ρ，但不能直接控制新完整逆。当前足够目标为同源μ_C²≤κ_mXi_C²且κ_mh/Q=O(1)；κ_m=O(ρ^-1)足。新联块源跨R个原总孔层，不能偷换原单孔ordinary λ；继续强块完整Schur/低forcing比较。
