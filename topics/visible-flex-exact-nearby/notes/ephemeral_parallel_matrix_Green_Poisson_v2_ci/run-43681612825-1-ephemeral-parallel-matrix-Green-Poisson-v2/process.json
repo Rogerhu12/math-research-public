@@ -25,9 +25,31 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T05:40:02.763777+00:00",
+      "before": "43057ad8ed5aa051335c380732e00efb29cf3e38",
+      "after": "b71230698e5e96d807650bb3ac653607877a9f8b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T05:40:04.983631+00:00",
+      "before": "b71230698e5e96d807650bb3ac653607877a9f8b",
+      "after": "06ac32c97fc68e5b7ae0d654b0f216353cf7d40d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T05:37:46.226171+00:00",
+      "final": false,
+      "commit": "7627ca454bb0bf70ac86fc17100466a9d7368825"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -81,7 +103,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "43057ad8ed5aa051335c380732e00efb29cf3e38",
+  "last_read_commit": "06ac32c97fc68e5b7ae0d654b0f216353cf7d40d",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -137,110 +159,35 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T05:37:44.676399+00:00",
-  "wall_seconds": 59.088858716999994,
+  "snapshot_utc": "2026-11-15T05:40:02.802692+00:00",
+  "wall_seconds": 197.215152321,
   "actual_temporary_progress": {},
-  "original_process_receipts": [
-    {
-      "file": "original-all5970-impulse-artifact-process.json",
-      "bytes": 8566,
-      "sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
-    },
-    {
-      "file": "original-complete-L2-kernel-process.json",
-      "bytes": 8264,
-      "sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
-    },
-    {
-      "file": "original-complete-finite193-Green-process.json",
-      "bytes": 8548,
-      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
-    },
-    {
-      "file": "original-complete5970-matrix-process.json",
-      "bytes": 24249,
-      "sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
-    },
-    {
-      "file": "original-complete5970-projector-process.json",
-      "bytes": 4269,
-      "sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
-    },
-    {
-      "file": "original-complete97-weighted-boundary-process.json",
-      "bytes": 13666,
-      "sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
-    },
-    {
-      "file": "original-rule-failure-process.json",
-      "bytes": 69351,
-      "sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
-    }
-  ],
-  "actual_original_artifact_archives": [
-    {
-      "run_id": "43594139132",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-cut-projector-prepared-43594139132-1",
-      "artifact_id": 14113777182,
-      "original_zip_bytes": 1258246,
-      "original_zip_sha256": "8d27c78358dfcf7196bf71e3be3d7e2caae9e6ea4c4171c1dcf13ddbf0af9b25",
-      "actual_process_sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
-    },
-    {
-      "run_id": "43594139132",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-complete-5970-projectors-43594139132-1",
-      "artifact_id": 14116108990,
-      "original_zip_bytes": 3813407,
-      "original_zip_sha256": "ff371eb320491b179265a90c6ed19be318c2930f8ed1c48f861f1bb1542a551a",
-      "actual_process_sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
-    },
-    {
-      "run_id": "43601964129",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-complete-cut-Green-complete-43601964129-1",
-      "artifact_id": 14117096043,
-      "original_zip_bytes": 17919531,
-      "original_zip_sha256": "86c48eb560961d3ac97e45b8de97c301f6c5ee3d6455a946a0528cda3bd68d84",
-      "actual_process_sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
-    },
-    {
-      "run_id": "43633074696",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-finite193-L2-Green-kernel-43633074696-1",
-      "artifact_id": 14128549530,
-      "original_zip_bytes": 17615189,
-      "original_zip_sha256": "551a889edaa4a4c59a3af66d56b195b783bad1cb1482e644d4134b4783dd86ae",
-      "actual_process_sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
-    },
-    {
-      "run_id": "43649423561",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-cached-interface-impulse-43649423561-1",
-      "artifact_id": 14135173447,
-      "original_zip_bytes": 13683038,
-      "original_zip_sha256": "ea4e7f5f7eecb82ed5861af8631c500fa298e4a0b7306932a20c03f3259cb632",
-      "actual_process_sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
-    },
-    {
-      "run_id": "43654510038",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-complete-same-F-5970-finish-43654510038-1",
-      "artifact_id": 14144756174,
-      "original_zip_bytes": 45347805,
-      "original_zip_sha256": "49d9e622aa059f4f9ce059f1e352bfda6fe5c57dc2943f60e25795b2051dbebd",
-      "actual_process_sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
-    },
-    {
-      "run_id": "43672023585",
-      "run_attempt": "1",
-      "artifact_name": "visible-exact-directional-matrix-Green-backward-43672023585-1",
-      "artifact_id": 14146873569,
-      "original_zip_bytes": 286134725,
-      "original_zip_sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773",
-      "actual_process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
-    }
-  ],
-  "new_output_policy": "only scripts, parameters, run IDs, output SHA and true small conclusions; no new data artifact"
+  "required_original_array_artifacts": 34,
+  "required_original_array_files": 13856,
+  "all_original_array_files_verified": 13856,
+  "original_array_data_recomputed": 0,
+  "exact_original_cap": {
+    "run_id": "43671537267",
+    "artifact_id": 14144516627,
+    "native_sha256": "56efa27c6410caed656eb7e691de49283dfbd34d60e5b2c23c516b932c72dd99",
+    "original_array_sha256": "c500a1a96ae6eca76de7447effe225e0a11621b06090e2fbf2dce7ef325c3ec0",
+    "actual_process_sha256": "61e9fec29b54bd12ac7cae3db6b35be1e3511cadcdbfcf57550302e241cc53d7",
+    "original_rows_recomputed": 0
+  },
+  "actual_input_sha256": {
+    "matrix-data": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd",
+    "matrix-process": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b",
+    "profile": "3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69",
+    "profile-process": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9",
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+    "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800",
+    "impulse": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+    "impulse-process": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9",
+    "reviewed-impulse-process": "b55c2df02439b910c1e6e46fb78c2391ca135138421e2f05ee05a14dcb5de468",
+    "boundary": "56db8a3498494bf48de14b50418010053bb6058c722c41993c894c463786dc25",
+    "nominal-cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
+  },
+  "actual_source_sha256": "f33345d1ab2500fd3811692311ce931606e389cf3c8ef508925d225748565190"
 }
