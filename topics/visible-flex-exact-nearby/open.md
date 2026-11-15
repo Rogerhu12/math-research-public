@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮压缩前全部逐字前页/运行/域/源单位/恢复链保8148b208054eaaf7a9b35789e4f2a8a44875ff86本路径及HANDOFF/log，递归19df/30337/b13dfa/f010/656b/66d375/31e2/5fd5/81041旧档；未付义务与成功禁重继续有效。
+本轮完整逐字前页/运行/域/单位/恢复链保bc3b0698ce96e43673c7cfd6bc2148466eb8aa91本路径及H/log，递归a408/385b/8148及原档；未付义务与成功禁重继续。
 
 ## 1. 总验收与同一个对象
 
@@ -64,7 +64,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 正侧[全实七输入43617150971/10](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)与[负一阶43627228225/18](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)覆盖实δ≤1e−8、同η0、正νbump0，完整ordinary/jump/root/outer/mean/windows保。[PW43734233535/21](results/R133-supplement-actual-seven-positive-ports-to-complete-waist-density.md)七port到waist锁，a_i=9CR(u_i+1_s)、rawstable153/16和output9各一次；原head/两mean/源长度与无jump长度不变。
 
-[PC43740173506/30](results/R133-supplement-actual-genuine-positive-Airy-cutoff-and-complete-strong-correction.md)b2acc64a锁，exec75f780f6/SCI9da04f0b/preGit25dcdce7。仅s0 H−4/3→oldcircle L2pair+两mean的完整强修正约1.018228e33；trueAi/β/双χ曲率/finitehead/非零trialstable及首schema失败保原档。大upper非下界，其他s/fullR0/incoming/phase-physical finitecross/真正stable和完整Schur仍待。
+[PC43740173506/30](results/R133-supplement-actual-genuine-positive-Airy-cutoff-and-complete-strong-correction.md)b2acc64a成功锁；完整SCI/preGit/球/首失败保前档与proof。仅s0 H−4/3→oldcircle waist L2pair+两mean强修正约1.018228e33。trueAi/β/双χ曲率/finitehead/非零trialstable保；大upper非下界，非fullR0/incoming/完整Schur。
 
 [IN合同](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md)d4ac47aa及[实际23门](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)8d27fee5/43746008734/1成功锁：SCI6c49494a/preGit15a81425/94球已核，24coeff/14运用/六receiver/五inhom全付。根β n^-4/3非HS、τ27完整ds、双χ/finite三行dualH4/3/mean/ordered S与density0 H−1/1 L2/extra H−5/3不变；P22≠.005。
 [DR首实际失败/成功free产品](results/R133-supplement-actual-strict-Darboux-receiver-failure-and-preserved-free-products.md)e3a5faa4/43748529142/1保：wholeK符号充分门失败不推点态错；四ΓwΓp成功锁，lost高导不重。完整原球/输入/域/单位/失败及[DR合同](results/R133-supplement-complete-strict-physical-Darboux-receiver.md)0e80f086逐字保1e87820289fbb56fcc46e1d7d642e9fe239ddd58同open/H及各proof。RR已接physical；normalizer/真circle/incoming/CE/R0各义务独立。
@@ -83,9 +83,11 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [AD终端Ai相关Darboux根剪切](results/R133-supplement-terminal-Airy-Darboux-correlation-and-root-shear.md)5c4459e5完整式/原域/两指数终端项/全H积分/实际势16门及双peer逐字保8148b208同open/H/proof。精确Wronskian给同terminal-Ai首列βd−β为n^-8/3，n≥388有ad>3/4；root-input强尾K^-4/3不等TN/TC投影。共同右Ad low/mean/其它列Id，逆/forward≤4/3,5/4；原g growing/两inhom/IN额外physical/positive/stable/finite全保，Ei/Eo/incoming/R0待。
 
-[ST完整解析接线](results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md)b15c1630与[STA实际strict尾到腰](results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md)9d142bef：唯一43757644616/1 child0/25，science31677/7ec41c2d、preGit40837/fab22fc1逐字核。267新first-tail+1末row/538完整指数，SP旧[0,ra]整曲率费不重算，norm790/body3070同germ实际门全过。G−≈36.73318/G+≈45.02650；ordinary L2dr H−1→waist≈148.10572，四RR同case强列和≈2.85705e20。113球字段全保，源/无长度jump/两mean/finite和TN/TC有序L2变化齐；不重normalizer/输入chart。只[0,P22]与s0 strong输出，free首遗漏/完整Ei/Eo/incoming/finiteSchur/R0仍待，旧N.005不挪用，成功禁重。
+[ST合同](results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md)b15c1630与[STA实际尾到腰](results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md)9d142bef：43757644616/1 child0/25成功锁，SCI31677/7ec41c2d、preGit40837/fab22fc1/113球和全部scope保前档/proof。267+1新row/538指数；SP旧[0,ra]曲率费不重，norm790/body3070真门过。G−≈36.73318/G+≈45.02650，L2dr H−1→waist≈148.10572，四RR同case强列和≈2.85705e20。只[0,P22]原density/s0；source/jump/两mean/finite/一次有序normalizer保，旧N.005不移。
 
-[TC合同](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5及[实际坐标/finite共轭](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35：43754703603/1 child0/18、19pins499844B/4AST、SCIc1d1d43e/preGit97543ad1/42球及五完整原对象root全核。真Φ四norm约1，两rank/dual费2027.776775，双窗逆1.001673759/1.034058621，strongRN1.712976420e9、finite3.747452000e9；RR四列K0一次同case7.790853353e18。全部球/四件/域/units保8148b208同open/H/proof。PΦ/finite真span/mean/HL-LH/97..J−1全保，非Ei/Eo/Schur/R0；P22↔SP新radial尾仍待，成功禁重。
+[AW完整P22锚定free比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)694b3647：同realδ≤1e−8/fixedη0/原n=4|j|≥388，真corrected positive列与P22 free首transport锚定后沿完整物理齐次方程到腰的差，H−4/3→原primitive L2pair+两mean≤C_PC+C_ST,4。两行cut连续无新atom，负源restriction/zeroextension是PC§9原准许，root差保e+−PFh和非零stable；IN同reference injection只选terminal-Ai输入，β/两sign两wave及四同caseRR全保。只延拓difference，不把各trial/stable误作H−4/3→L2。独立七ports/mean/finite仍独立。三原ball逐字核，未新算scalar和。free P24首遗漏、strict firstsymbol传播defect及实际waist receiver均待；TC cut界不转授，完整Ei/Eo/incoming/Schur/R0继续。
+
+[TC合同](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5及[TC实际](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35：43754703603/1 child0/18成功锁，19pins/4AST、SCIc1d1d43e/preGit97543ad1/42球、真Φ四norm/两rank/dual/双窗逆/finite全值保前档/proof。RR四列K0一次同case7.790853353e18。PΦ真span/mean/HL-LH/97..J−1全保；P22到腰已由ST实际支付，TC cut坐标不能直接移作waist receiver；完整Ei/Eo/Schur/R0仍待。
 
 ## 4. 实际帽图与完整core接口
 

@@ -229,3 +229,11 @@ CY9a4e41c2全文root独核有序ratio/两primitive窗/右Ki,-、actual(Eo−A Ei
 20:35:32在既定checkout执行`git pull --rebase origin main`，仍返回`No usable execution environment is available. Wait for an environment to become available before using this tool.`；没有把只读ref当作pull。按根规8继续小UTF8文字，下一定时真CLI≤21:35。本次fresh main 636035847d0ec340629c2f2292070c98865ce2c4两README blob未变；已读规则diff仍2f72b274f8647dbf6ce236ff2185cbe22153f8e1。
 
 亲读原SN43751213826/1小进度blob964803b9481464c705f9f97ceb2c6ac821891918，13877B/SHA256 8b349939aff0bcfd285bdc21c8d4b860bada4ac44690600c1fba552f1ecb7527；worker/SCI/manifest/207输入/8AST/14currentcontracts与前回执逐字相同。累计4904为原1256与新3648，原interval1920、cursor902596425318837/4503599627370496；双prefix H3原球`[2.308407484602856 +/- 3.94e-16]`。完整目标false、child与supervision仍null，未宣称终点常数或强E。原runner真pull20:36:33.210489→e05516f56054a858c1a4b00d84d4c265ca3c6e32，两README diff空；该回执时topic199280145B、发布预计199278893B。原任务健康，不重启、不重算。
+
+## 2026-11-15 20:41:25 UTC — AW完整P22锚定free trial强比较独立推送
+
+亲读新proof bd2abb567cc04484411ab023bb27594a14b36770，20625B/SHA256 694b36473b8d9b8bc704c7db02b2399b5666b399525c6dceb8d372fdc977d40f 全文；PC合同35f3ddae的1/4/8/9节、实际PA2/6与execution c32b8e3f原strong字段；IN f13509b4的全reference/IN8/13/23–29、P22–26原11250cbb，以及PW d22fc849/16459B/246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562完整七ports全文。三原球与PC/ST原execution逐字相同，ST/RR前完整审核继续；newton另亲读AW10–20窄核。
+
+AW10两物理row连续使distributional residual仅原negative source restriction/zeroextension，PC§9已允许且full means仍在；同root e+−PFh和nonzero stable未换。AW16–20同reference tuple经norm1 terminal-Ai injection保两sign/两waves/β，完整ST四case只一次传输，得到C_PC+C_ST,4原上端的符号和。只difference从有限input和延拓；未计算新的rounded ball，未重复任何已成数学。独立PW源/finite/mean/jumps继续，AW23实际waist receiver另付，TC strictcut norm不转授；P24首遗漏及strict firstsymbol传播由两个agent并行推进。
+
+本次bd4e0e354588378daac175a7f158f500d12dab0a两README未变。H/open压缩前完整页保bc3b0698ce96e43673c7cfd6bc2148466eb8aa91同路径递归原档；修正open残留的“P22↔SP尾仍待”为STA已完成，实际Ei/Eo/incoming/Schur/R0及最终验收仍未完成。
