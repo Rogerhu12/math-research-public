@@ -1,0 +1,301 @@
+{
+  "kind": "immutable_weighted_actual_cap_poisson_difference_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "exact_new_mathematics": "CP1-CP29 complete weighted actual-cap inner B and Cmean Poisson difference and conditional finite193 feedback; old success read only",
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_cap_interval": [
+      "9/10",
+      "25/8"
+    ],
+    "exact_core_interval": [
+      "0",
+      "9/10"
+    ],
+    "weight_fraction": "1/2",
+    "cap_radius": "3/1000000",
+    "normalized_outer_height_radius": "1/1152921504606846976",
+    "physical_inner_gamma_domains": [
+      {
+        "name": "full_physical_gamma_product",
+        "radius": "1/1000000000"
+      },
+      {
+        "name": "tail_physical_gamma_subdomain",
+        "radius": "1/128000000000"
+      }
+    ],
+    "old_cap_is_fixed_original_reference": true,
+    "new_height_may_differ_from_old_height": true,
+    "old_Hessian_acts_on_old_K0": true,
+    "old_K0_module_upper": "14",
+    "actual_Kstar_module_upper": "18",
+    "actual_outer_Cnonmean_response_upper": "9/1000",
+    "Q_linear_upper": "0.051432066",
+    "Q_derivative_factor_upper": "26",
+    "old_outer_D_upper": "0.000006",
+    "old_outer_Cmean_upper": "0.000001",
+    "complete_outer_D_difference_upper": "0.006006",
+    "complete_outer_Cmean_difference_upper": "0.000751",
+    "global_transport_joint_upper": "0.000004006101",
+    "nonmean_D_rate_lower": "2.9252958741",
+    "nonmean_C_rate_lower": "0.8601652212",
+    "complete_q_upper": "1.39",
+    "source_algorithm_C_lower": "5/16",
+    "source_algorithm_composition_lower": "4",
+    "source_reverse_B_factor": "4/5",
+    "source_reverse_C_factor": "64/25",
+    "Hessian_B_U_factor": "418",
+    "Hessian_B_V_factor": "4",
+    "Hessian_C_V_factor": "142",
+    "Hessian_Cmean_V_factor": "2/3",
+    "physical_minimum_nonmean_frequency": 4,
+    "output_is_inner_B_L2_plus_absolute_Cmean": true,
+    "output_is_unweighted_whole_body_difference": false,
+    "complete_even_mean_and_all_physical_Fourier_modes_retained": true,
+    "input_gamma_is_physical_nonmean_curvature": true,
+    "unknown_high_input_is_not_truncated": true,
+    "expected_structural_gate_count": 18,
+    "strict_candidate_failure_is_complete_diagnosis": true,
+    "original_successful_case_recomputations": 0,
+    "original_integral_and_Green_calls": 0,
+    "actual_core_solution_or_matching_proved": false,
+    "algorithm_q_lower": "13899/10000",
+    "algorithm_q_upper": "139/100",
+    "Q_Hilbert_pair_bound_recovered_componentwise": true,
+    "original_Q_Wiener_bound_used_only_for_original_value": true
+  },
+  "expected_actual_gate_count": 18,
+  "scientific_runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "python-flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "bits": 320
+  },
+  "historical_input_commit": "1c956eae7d8a1f51887568a0d26dd62c0584aa10",
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "input_paths": {
+    "rw_science": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json",
+    "rw_process": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json",
+    "f_execution": "topics/visible-flex-exact-nearby/notes/selected_parameter_finite193_scalar_feedback_ci/run-43737257903-1/execution.json"
+  },
+  "proof_paths": {
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md",
+    "rw_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md",
+    "rw_actual": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md",
+    "C": "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-centre-physical-cap-and-residual-conjugation.md",
+    "L": "topics/visible-flex-exact-nearby/results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md",
+    "I": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md",
+    "R": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md",
+    "A": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-continuous-moving-cap-complete-residual-bridge.md",
+    "Hilbert_Green": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-final-all-mode-physical-cap-Green.md",
+    "F_actual": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md",
+    "shape_cap_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md",
+    "delta_body_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+    "delta_cap_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md"
+  },
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference_ci.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md",
+    "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json",
+    "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_finite193_scalar_feedback_ci/run-43737257903-1/execution.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_finite193_scalar_feedback.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-centre-physical-cap-and-residual-conjugation.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-continuous-moving-cap-complete-residual-bridge.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-final-all-mode-physical-cap-Green.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference.py": "cfc6a2fc73efb7442b088e3be57251341eab07a39b35563c78da2c55a98545c4",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference_ci.py": "9d50a1f7e0bf778ab067b6e63ba64f8c828fedb0540dc56b2c78075a21de6e79",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md": "578ac4a214d6899100fff5048aa319865af5c81334e8c7aa32b58c557e3e88bd",
+    "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json": "ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9",
+    "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json": "daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_finite193_scalar_feedback_ci/run-43737257903-1/execution.json": "9c7710ec10d8826320ba6d1cdee204884728b224944d5eb181e7e00a0c257e10",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py": "f8d97a14aa7c2ebac746a9732e7b9fd00bf939db95b2b610edcd47f22f9388bb",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_finite193_scalar_feedback.py": "087f3971d7dbb027464ef71a59d02e734d6e032b3c9b2d3bc600c8bfaced5288",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md": "48de3f34929d8dbebd134b50760c35b3a30d84f47608d513bac49693b56f5beb",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md": "ba084af5fbd8a232759d954ca6bfedbb7fd00bbae432d6111c75aec33c1f89b7",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-centre-physical-cap-and-residual-conjugation.md": "b2acc995d8ef0c880c93b21226f53da0470a9945e53f67643106b0522a8c2404",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md": "2f7912089d6ba8dc91f265c332a33f34af900f2dc66af51baeb96c6a8d153ee2",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md": "d25a2614149605faa41ddf7826a69f375ccadaa480ebe6c1a651c1651e191e40",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md": "e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-continuous-moving-cap-complete-residual-bridge.md": "4e9935e097d78be5dfbc577b5aa1bb6ff7230d624d128168497b2150be027a8d",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-final-all-mode-physical-cap-Green.md": "721426af4046ee5c7ecaf7cf494db84f08451b50a042edfe8cba809ff0249876",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md": "52751bb548c4ebd0526df0e655f5d3e78c524ee6579c283f9d9028ab7f752eb9",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md": "06ec6f0a405e89b456342b1a2260c9fae18de192733fae1c35c913a037373892",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md": "92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md": "81178d7471ee901ca77fc23ced9089ef6073931e66a597a0ca8741d22a55bd97",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+  },
+  "file_receipts": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference.py",
+      "blob": "5ad9e935762064a85077cf824ae82c28e77169ba",
+      "bytes": 35494,
+      "sha256": "cfc6a2fc73efb7442b088e3be57251341eab07a39b35563c78da2c55a98545c4"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_actual_cap_poisson_difference_ci.py",
+      "blob": "8f7fe460251551deef849d40fda587347f22e730",
+      "bytes": 38459,
+      "sha256": "9d50a1f7e0bf778ab067b6e63ba64f8c828fedb0540dc56b2c78075a21de6e79"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md",
+      "blob": "ea0a9fa950c2112825660a786f4dec934792a60f",
+      "bytes": 20147,
+      "sha256": "578ac4a214d6899100fff5048aa319865af5c81334e8c7aa32b58c557e3e88bd"
+    },
+    {
+      "role": "rw_science",
+      "path": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json",
+      "bytes": 57702,
+      "sha256": "ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9",
+      "blob": "a4d46696df6125524d7491cd1d4efde156794aee"
+    },
+    {
+      "role": "rw_process",
+      "path": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json",
+      "bytes": 16350,
+      "sha256": "daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6",
+      "blob": "df608c6a12fb193106fba64fb23fd7afad37de29"
+    },
+    {
+      "role": "f_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_finite193_scalar_feedback_ci/run-43737257903-1/execution.json",
+      "blob": "efb276148b5297f5418d3d55da1d7c1d78450483",
+      "bytes": 35578,
+      "sha256": "9c7710ec10d8826320ba6d1cdee204884728b224944d5eb181e7e00a0c257e10"
+    },
+    {
+      "role": "rw_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py",
+      "bytes": 31066,
+      "sha256": "f8d97a14aa7c2ebac746a9732e7b9fd00bf939db95b2b610edcd47f22f9388bb",
+      "blob": "a44357cfc1e8b5034a1daa587aff9bcaaf7d93ab"
+    },
+    {
+      "role": "f_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_finite193_scalar_feedback.py",
+      "blob": "868cda52e871fed187b083039e5a2abd8240c50a",
+      "bytes": 32258,
+      "sha256": "087f3971d7dbb027464ef71a59d02e734d6e032b3c9b2d3bc600c8bfaced5288"
+    },
+    {
+      "role": "rw_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md",
+      "bytes": 17763,
+      "sha256": "48de3f34929d8dbebd134b50760c35b3a30d84f47608d513bac49693b56f5beb",
+      "blob": "baae1101a2660c4ee638046c7760b662c28f55ff"
+    },
+    {
+      "role": "rw_actual",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md",
+      "bytes": 11714,
+      "sha256": "ba084af5fbd8a232759d954ca6bfedbb7fd00bbae432d6111c75aec33c1f89b7",
+      "blob": "fe1a25200576f72277bc9bbae5416e6980ba2af8"
+    },
+    {
+      "role": "C",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-centre-physical-cap-and-residual-conjugation.md",
+      "bytes": 20177,
+      "sha256": "b2acc995d8ef0c880c93b21226f53da0470a9945e53f67643106b0522a8c2404",
+      "blob": "e0a324d74373ff680cb77296dc1c58458a27cf2d"
+    },
+    {
+      "role": "L",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md",
+      "bytes": 9190,
+      "sha256": "2f7912089d6ba8dc91f265c332a33f34af900f2dc66af51baeb96c6a8d153ee2",
+      "blob": "7b921ecb49f7977d18a47876cf1b2b5743d1ae94"
+    },
+    {
+      "role": "I",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md",
+      "bytes": 18677,
+      "sha256": "d25a2614149605faa41ddf7826a69f375ccadaa480ebe6c1a651c1651e191e40",
+      "blob": "858baceea12e5e237a44d20225ca11259cf3c6de"
+    },
+    {
+      "role": "R",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md",
+      "bytes": 11379,
+      "sha256": "e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6",
+      "blob": "c4f5e34c3ddde6fde42968aa48b59b7ab8ef5731"
+    },
+    {
+      "role": "A",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-continuous-moving-cap-complete-residual-bridge.md",
+      "bytes": 8764,
+      "sha256": "4e9935e097d78be5dfbc577b5aa1bb6ff7230d624d128168497b2150be027a8d",
+      "blob": "22f08eda2cdec9eb6f3bb8a0c16aadcbb57fea49"
+    },
+    {
+      "role": "Hilbert_Green",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-final-all-mode-physical-cap-Green.md",
+      "blob": "f6c55d479ad3959bd71b12c7555c0189d6c53065",
+      "bytes": 16080,
+      "sha256": "721426af4046ee5c7ecaf7cf494db84f08451b50a042edfe8cba809ff0249876"
+    },
+    {
+      "role": "F_actual",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md",
+      "bytes": 11827,
+      "sha256": "52751bb548c4ebd0526df0e655f5d3e78c524ee6579c283f9d9028ab7f752eb9",
+      "blob": "4ab572dbdba48594ba1c74d0cdf476c072043650"
+    },
+    {
+      "role": "shape_cap_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md",
+      "blob": "810c11fd2decb5a54028c2197cbb1ee87d1c51bf",
+      "bytes": 12573,
+      "sha256": "06ec6f0a405e89b456342b1a2260c9fae18de192733fae1c35c913a037373892"
+    },
+    {
+      "role": "delta_body_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+      "blob": "c85b66866103ea021cebbc050ccead214d4cf9d9",
+      "bytes": 15214,
+      "sha256": "92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635"
+    },
+    {
+      "role": "delta_cap_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md",
+      "blob": "fed59babd2c138faa15fb757ba64ffefb7da404d",
+      "bytes": 13815,
+      "sha256": "81178d7471ee901ca77fc23ced9089ef6073931e66a597a0ca8741d22a55bd97"
+    },
+    {
+      "role": "reviewed_rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    }
+  ],
+  "old_successful_mathematics_recomputed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "all_inputs_are_current_small_texts": true,
+  "exact_input_file_count": 21,
+  "exact_input_bytes": 436688
+}
