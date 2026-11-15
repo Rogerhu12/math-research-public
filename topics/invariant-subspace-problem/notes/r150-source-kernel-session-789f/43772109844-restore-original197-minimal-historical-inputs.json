@@ -1,0 +1,265 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "restore-original197-minimal-historical-inputs",
+  "executionSourceCommit": "c257936dea17b078f46bbfd3423b15e0c62e9725",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+  "scriptSHA256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623",
+  "argvTemplate": [
+    "--manifest",
+    "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+    "--repo",
+    "{repo}",
+    "--out",
+    "{work}/global197-original-inputs",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 8.13296386399999,
+  "fullTemporaryReceiptBytes": 5199,
+  "fullTemporaryReceiptSHA256": "8323772d0b8066e9378992f0a9ca36ae71f50bdcdc86f5080a2f28ee6b56d9e5",
+  "result": {
+    "elapsedSeconds": 8.054750271999993,
+    "format": "r150-global197-exact-historical-input-recovery-v1",
+    "outcome": "fourteen-exact-historical-original197-inputs-temporary-only",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "all14OriginalInputsVerified": true,
+      "allArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / root",
+      "files": {
+        "backward": {
+          "bytes": 3052119,
+          "file": "backward.bin",
+          "reused": false,
+          "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+          "source": {
+            "artifact": 14114364261,
+            "member": "isp-r150-native-nf/nf-backward.bin",
+            "run": 43597823809
+          },
+          "temporaryOnly": true
+        },
+        "forward": {
+          "bytes": 2378937,
+          "file": "forward.bin",
+          "reused": false,
+          "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+          "source": {
+            "artifact": 14114364261,
+            "member": "isp-r150-native-nf/nf-forward.bin",
+            "run": 43597823809
+          },
+          "temporaryOnly": true
+        },
+        "graph": {
+          "bytes": 101365853,
+          "file": "graph.bin",
+          "reused": false,
+          "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+          "source": {
+            "artifact": 14114364261,
+            "member": "isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+            "run": 43597823809
+          },
+          "temporaryOnly": true
+        },
+        "integerModel": {
+          "bytes": 22824,
+          "file": "integerModel.txt",
+          "reused": false,
+          "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc",
+          "source": {
+            "historicalCommit": "0d642288dbc6f42f3765edd8c104d48881dae208",
+            "historicalPath": "topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt"
+          },
+          "temporaryOnly": true
+        },
+        "model": {
+          "bytes": 128145,
+          "file": "model.txt",
+          "reused": false,
+          "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+          "source": {
+            "historicalCommit": "0d642288dbc6f42f3765edd8c104d48881dae208",
+            "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+          },
+          "temporaryOnly": true
+        },
+        "normalTrace": {
+          "bytes": 101244784,
+          "file": "normalTrace.bin",
+          "reused": false,
+          "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b",
+          "source": {
+            "artifact": 14114364261,
+            "member": "isp-r150-native-nf/nf-reduction.bin",
+            "run": 43597823809
+          },
+          "temporaryOnly": true
+        },
+        "oldK": {
+          "bytes": 48275717,
+          "file": "oldK.bin",
+          "reused": false,
+          "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88",
+          "source": {
+            "artifact": 14118112895,
+            "member": "original/kernel-original-kernels.bin",
+            "run": 43605503242
+          },
+          "temporaryOnly": true
+        },
+        "oldNF": {
+          "bytes": 10865128,
+          "file": "oldNF.bin",
+          "reused": false,
+          "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b",
+          "source": {
+            "artifact": 14118112895,
+            "member": "normal/beta-normal-forms.bin",
+            "run": 43605503242
+          },
+          "temporaryOnly": true
+        },
+        "oldQ": {
+          "bytes": 16649150,
+          "file": "oldQ.bin",
+          "reused": false,
+          "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338",
+          "source": {
+            "artifact": 14118112895,
+            "member": "image/image-image-quotients.bin",
+            "run": 43605503242
+          },
+          "temporaryOnly": true
+        },
+        "oldRem": {
+          "bytes": 2520,
+          "file": "oldRem.bin",
+          "reused": false,
+          "sha256": "1f33a90bb81566e900dd2fc56d5cba50a853d73e3f927b288c0e19936b29d9de",
+          "source": {
+            "artifact": 14118112895,
+            "member": "image/image-image-remainders.bin",
+            "run": 43605503242
+          },
+          "temporaryOnly": true
+        },
+        "oldTrace": {
+          "bytes": 113614260,
+          "file": "oldTrace.bin",
+          "reused": false,
+          "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae",
+          "source": {
+            "artifact": 14118112895,
+            "member": "normal/beta-reduction.bin",
+            "run": 43605503242
+          },
+          "temporaryOnly": true
+        },
+        "originalNF": {
+          "bytes": 32916190,
+          "file": "originalNF.bin",
+          "reused": false,
+          "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+          "source": {
+            "artifact": 14114364261,
+            "member": "isp-r150-native-nf/nf-normal-forms.bin",
+            "run": 43597823809
+          },
+          "temporaryOnly": true
+        },
+        "selector": {
+          "bytes": 10040,
+          "file": "selector.bin",
+          "reused": false,
+          "sha256": "2d90d72ac72cc63e5531b80a6e788ef82c6bf794481b53546b27b0afcb7134ee",
+          "source": {
+            "historicalCommit": "0d642288dbc6f42f3765edd8c104d48881dae208",
+            "historicalPath": "topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1/rebuilt-selector/first-residual-in-actual-second-saturation.bin.gz"
+          },
+          "temporaryOnly": true
+        },
+        "state": {
+          "bytes": 1470456,
+          "file": "state.bin",
+          "reused": false,
+          "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+          "source": {
+            "historicalCommit": "0d642288dbc6f42f3765edd8c104d48881dae208",
+            "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz"
+          },
+          "temporaryOnly": true
+        }
+      },
+      "fullOriginal505FreeAnd315TorsionInputsPresent": true,
+      "historicalArtifacts": [
+        {
+          "allAlreadyPresent": false,
+          "allSelectedMembersVerified": true,
+          "archiveSHA256": "970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241",
+          "artifact": 14114364261,
+          "bytes": 299422058,
+          "run": 43597823809,
+          "selectedMemberCount": 5
+        },
+        {
+          "allAlreadyPresent": false,
+          "allSelectedMembersVerified": true,
+          "archiveSHA256": "c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b",
+          "artifact": 14118112895,
+          "bytes": 160817149,
+          "run": 43605503242,
+          "selectedMemberCount": 5
+        }
+      ],
+      "manifestSHA256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac",
+      "memoryMiB": 2048,
+      "newArtifactsCreated": false,
+      "newMathematicsExecuted": false,
+      "oldGaussianEliminationRecomputed": false,
+      "releaseAssetsUsedOrCreated": false,
+      "remainingSeconds": 300.0
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 22:57:25 UTC",
+      "beforeReadCommit": "4dadc6a69c8e93fce3681d84da932fca919127d6",
+      "originMainAfterPull": "c257936dea17b078f46bbfd3423b15e0c62e9725",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 22:57:33 UTC",
+      "beforeReadCommit": "c257936dea17b078f46bbfd3423b15e0c62e9725",
+      "originMainAfterPull": "c257936dea17b078f46bbfd3423b15e0c62e9725",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "d7b0fa80da3fee29e9f25e45bd4b24613094387576481e8be882717d6a277d60",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "c257936dea17b078f46bbfd3423b15e0c62e9725",
+  "summaryExcludesRecomputableArraysOnly": false
+}
