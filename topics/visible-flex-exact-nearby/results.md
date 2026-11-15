@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CRA实际核心残差限制与完整selected普通源](results/R133-supplement-actual-complete-core-residual-restriction-and-selected-ordinary-source.md)ffa5acbd：43757468943/1 child0/18；5956真交覆盖[0,.9]，全mean/α一次/连续修补/完整Z与D费齐，uniform全源<4.848889e−8。science dbae6acd、preGit174c0583逐字核，旧计算0；未知高/全core/γ/匹配未付。
+
 - [RH：已知selected残差的精确频带与完整高源](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73：同moving角f0≤96、s0≤160、fδ≤288；H96无F0费，固定νδ state展开给H160二/三次及H224纯三次，全部mean/repair保。只解析完整源公式，无新数值或unknown高模支撑声明。
 
 - [CY：精确Cayley主因子比值及条件scalar gap](results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md)：opposite实mean的完整比值给unitary Cμ，有序strong correction逐项含nonmean；actual Ei/Eo/fullBi逆及S的三个非交换项/ES分窗全保，无独立μ²。原B13仅解析继承|j|≥1024新尾；97..1023两sign四roots7416新门仍待，旧native Jβ不能放大。root/phase核，无新数值或全PDE逆。
