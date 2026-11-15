@@ -1,0 +1,532 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43740928483",
+  "stepId": "two-one-true-rational-second-connection",
+  "executionSourceCommit": "48b1926b0f6f1543086fe8331fea0beadd4c0001",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-one-true-rational-second-connection-789f.py",
+  "scriptSHA256": "d4ff08a474ef3abe6c7ee08bea7829e6fa3d52eb2e04c71469b18b2ea2c27bb8",
+  "argvTemplate": [
+    "--paid-probe",
+    "{scripts}/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--unit-schur-helper",
+    "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+    "--constant-receipt",
+    "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+    "--first-receipt",
+    "{scripts}/43736746064-two-directed-original-left-two-jet-resume600.json",
+    "--full-first-receipt",
+    "{scripts}/43740928483-two-full-original-first-connection-field11.json",
+    "--projection-receipt",
+    "{scripts}/43729338969-two-original-projected-order4.json",
+    "--h3-receipt",
+    "{scripts}/43736746064-two-complete-cubic-high-field-rank.json",
+    "--tangent-receipt",
+    "{scripts}/43736746064-two-tangent-coupled-cubic-first-jet-extension.json",
+    "--checkpoint-dir",
+    "{work}/two-one-true-q-second",
+    "--out",
+    "{work}/two-one-true-q-second-receipt.json",
+    "--remaining-seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 0,
+  "wallSeconds": 5.625440150000031,
+  "fullTemporaryReceiptBytes": 12714,
+  "fullTemporaryReceiptSHA256": "9ee595e16b635521be1c0e671dd7a1225a712aea7b2344829d1a72b2aee8fb5c",
+  "result": {
+    "elapsedSeconds": 5.525103607999881,
+    "format": "r150-two-one-true-Q-second-connection-v1",
+    "status": "completed",
+    "parameters": {
+      "actualOneRHS": {
+        "allOriginalLowRowsVerified": true,
+        "completeLowSchurRank": 1,
+        "constantRank": 592,
+        "constantShape": [
+          1088,
+          594
+        ],
+        "failureWouldOnlyRestrictNormalAtMostThree": true,
+        "firstIncomingBasisColumns": 7,
+        "fullHighHomogeneousColumnsRetained": 2,
+        "homogeneousConstantKernelDimension": 2,
+        "newNonhomogeneousColumns": 1,
+        "selectedExtraLeadingLiftExists": false
+      },
+      "allMatricesTemporary": true,
+      "binding": "3de42bed91acf562cce951f7c79f9e4f871cbd31ec82e7430d03bb97198f970f",
+      "checkpointPhases": {
+        "constant-heads": {
+          "bytes": 1728,
+          "fileSHA256": "5d8e40a42a20d900f279559b681b6790c7679375043c0c92816163bbc4cb7c3c",
+          "matrixSHA256": "525b979bf1ce15debc3ec3d50c70330473c8f0a3bf84172c3c5f404b60f7c5cb",
+          "shape": [
+            155,
+            22
+          ],
+          "verified": true
+        },
+        "first-incoming-coordinates": {
+          "bytes": 267,
+          "fileSHA256": "c526aa95e1c09459d048d7840263c41638afe3f2633b91105ba40e5f26a849c5",
+          "matrixSHA256": "d506471d8f99f671ce96bfbabf7d1fabd5bd1c611ad24a9c52483a6ae365541c",
+          "shape": [
+            7,
+            22
+          ],
+          "verified": true
+        },
+        "first-lambda0": {
+          "bytes": 1421,
+          "fileSHA256": "ebd5a30208d8f07993d009ad9988bb34e1c67a10fcc24029028de42c15fe940b",
+          "matrixSHA256": "4caedc7b49bad5b853121696d8005a8b0c9232a92306e1dfb3bc90af35c08774",
+          "shape": [
+            155,
+            15
+          ],
+          "verified": true
+        },
+        "first-lambda1": {
+          "bytes": 4065,
+          "fileSHA256": "f68f6e58eb9fec07663fb1fbbd535b7a4822d166054104dc9798a1281aaf0b60",
+          "matrixSHA256": "a4f0ab7612413299b385293f1a7d856366c80f0915c3fcedcfe9928cdf201345",
+          "shape": [
+            155,
+            15
+          ],
+          "verified": true
+        },
+        "first-leading-map": {
+          "bytes": 303,
+          "fileSHA256": "27a82d00992a05c2983e5a876f3ca68eabc5a2d10ea6afa4ec14ffc87666a61b",
+          "matrixSHA256": "39124da17222d1f553fdef5cc586bd9b39465a6407b41fd9d6274089aed9e9b6",
+          "shape": [
+            22,
+            15
+          ],
+          "verified": true
+        },
+        "full-cubic-high-kernel": {
+          "bytes": 25086,
+          "fileSHA256": "47290aec56712536c2613cceb384a3dce237073acca1d4b7f90ad82b00660da2",
+          "matrixSHA256": "00653919cd7eadeb0e5df0531fdf33c1bbc3864643fe5b588ccba77bc4303924",
+          "shape": [
+            990,
+            2
+          ],
+          "verified": true
+        },
+        "full-cubic-low-return": {
+          "bytes": 22550,
+          "fileSHA256": "8acb8a608ac9cf5643ad0e0e0e393c996176ea2953a4cd9606c7f70b69e3e5da",
+          "matrixSHA256": "666daa3919b1a7cb86a79fb54dedbbab24a5c0808e5332b2368a8d50a51d0ad9",
+          "shape": [
+            1088,
+            2
+          ],
+          "verified": true
+        },
+        "missing-second-leading": {
+          "bytes": 224,
+          "fileSHA256": "a08fe35412a0b893aa89b1413052995c61619555a7255944a90983ac8263418a",
+          "matrixSHA256": "c7e676d4061d55fff8c7ce5488256cdaf6ec53a9f9504441636fd6fa78af0c6d",
+          "shape": [
+            15,
+            1
+          ],
+          "verified": true
+        },
+        "one-second-actual-constant-kernel": {
+          "bytes": 3418,
+          "fileSHA256": "e1c1a0d54aff0add08fb2787349727802f069263818692e080e6782aa6b66e44",
+          "matrixSHA256": "1bc87e1f1a8d8fbd70d39e8e29c37ccadff56f5d98bfb09b8a023fb1f85f1c6f",
+          "shape": [
+            594,
+            2
+          ],
+          "verified": true
+        },
+        "one-second-actual-full-schur": {
+          "bytes": 186651,
+          "fileSHA256": "7baec4c81e84ae9ec880145fe2a72f1f447f22ff3bb405934075646eb5e07f83",
+          "matrixSHA256": "2fcd7d467208d101a853ff9b3cb58180e6329467464e54c364fc7aeb6269a743",
+          "shape": [
+            1088,
+            1
+          ],
+          "verified": true
+        },
+        "one-second-actual-kernel": {
+          "bytes": 2466,
+          "fileSHA256": "c34dcef618439dfe92ca17104bd88975dc458e97bc46d7367c0acabdef291d96",
+          "matrixSHA256": "9a22020630e47d645a026dc19e9c05706e0d6ff4b8d1e2f943abad50d8a83dd1",
+          "shape": [
+            595,
+            2
+          ],
+          "verified": true
+        },
+        "one-second-actual-normalized-rhs-0000": {
+          "bytes": 2062,
+          "fileSHA256": "c7b0481a6913a25f22a621be0c785b7ad47308efa76529432964cf03e450685f",
+          "matrixSHA256": "21d8e351b28717a0e674534187efb4c76cfcaec0c822c031c4dad721c938c840",
+          "shape": [
+            592,
+            1
+          ],
+          "verified": true
+        },
+        "one-second-actual-primitive-unit": {
+          "bytes": 317031,
+          "fileSHA256": "8dea519ab77d62e455beaa362243a088640aaa73b40bf0c142df6efe88c5886f",
+          "matrixSHA256": "34774573812339e7cb1c91567d316dbd4ad59496a86152186e61459b98bcd669",
+          "shape": [
+            592,
+            592
+          ],
+          "verified": true
+        },
+        "one-second-actual-rhs-column-0000": {
+          "bytes": 557512,
+          "fileSHA256": "c0186df65764d641c44160c8508c47859bc71b592979a8416fd9c00829bd3eff",
+          "matrixSHA256": "a6f3ab571916d730db58932f28e836c4186a727d299031d21a27b7b68146e72b",
+          "shape": [
+            592,
+            1
+          ],
+          "verified": true
+        },
+        "one-second-actual-small-schur-kernel": {
+          "bytes": 337,
+          "fileSHA256": "00b2b6083d0a418f8d9add76b33d00ac30928cac6fe3d250f58a1f214d83b29c",
+          "matrixSHA256": "a74dd8687a79b8827d0ec546bf9087b840da245d3208cb5059bd9d8c9c228ad9",
+          "shape": [
+            1,
+            0
+          ],
+          "verified": true
+        },
+        "one-second-actual-unit": {
+          "bytes": 79074,
+          "fileSHA256": "20f2177a5ea03d79371f440fbb6fa7625db9331d397354b7c34dc66f68daa156",
+          "matrixSHA256": "d7e2ec5e122c9b49cb3cade1698c9131d6ab837754840434bde817c1cef8bb87",
+          "shape": [
+            592,
+            592
+          ],
+          "verified": true
+        },
+        "one-second-actual-unit-rhs-solution": {
+          "bytes": 558906,
+          "fileSHA256": "7893d4fff1037935ca7125ed95fd5d0f850b4b18bc8d7d5cbbba0d410134cba1",
+          "matrixSHA256": "a6f3ab571916d730db58932f28e836c4186a727d299031d21a27b7b68146e72b",
+          "shape": [
+            592,
+            1
+          ],
+          "verified": true
+        },
+        "one-second-original-forcing": {
+          "bytes": 2222,
+          "fileSHA256": "df8557e71742914bf2fd661a898959d8be85db0ecd9e0a2df3464f3a240b490d",
+          "matrixSHA256": "2d03d2546606ef3221f8381b5fe436f6a33c6ebe7a469332f466d8f2b3d6f939",
+          "shape": [
+            1088,
+            1
+          ],
+          "verified": true
+        },
+        "projected-first-kernel": {
+          "bytes": 5493,
+          "fileSHA256": "03f31ae2ae10c727c035d8494c9d155e2a43ec12479369cf40b0b1691db521d0",
+          "matrixSHA256": "368e9f825cbdec62ca5c2b8d8659580e65f075a2b10af47dd863d5456dd696f4",
+          "shape": [
+            157,
+            17
+          ],
+          "verified": true
+        },
+        "projected-second-kernel": {
+          "bytes": 89283,
+          "fileSHA256": "a187e2a9852c0d0577da7f8896971c7807299d3babc93eea9e60112bfedee326",
+          "matrixSHA256": "92dc62d6489497b0b05a4345b5a6d107080a0d1d9aec7de50fa1ad2db4d415bc",
+          "shape": [
+            172,
+            31
+          ],
+          "verified": true
+        },
+        "projected-second-lambda0": {
+          "bytes": 1433,
+          "fileSHA256": "7d18f848fafebe535a998c921ae783adfba7c6ea93a12e322ee7345cb9227fc8",
+          "matrixSHA256": "ccdd7c4b77f44332f9e8ada156d44cda2365bdbf6915e238e6dbc413e70b2fd1",
+          "shape": [
+            155,
+            14
+          ],
+          "verified": true
+        },
+        "projected-second-lambda1": {
+          "bytes": 7940,
+          "fileSHA256": "d2e395769a8032bacd36680c4b50a116bc57ca3e39183c08b60d18877754fd78",
+          "matrixSHA256": "abf6700cd418b0bea758b6c7b77a4f11f9e381a9bdff636403510640a141414f",
+          "shape": [
+            155,
+            14
+          ],
+          "verified": true
+        },
+        "projected-second-lambda2": {
+          "bytes": 78723,
+          "fileSHA256": "8e8551fb510fb07666a4b892a9d0221e83ee5a37e42ab2e9988c6eb765a8a88e",
+          "matrixSHA256": "3dbe59e5e8db9493d646cfd7f1568dc6ec364dd3bd737168327aba7171dd35a8",
+          "shape": [
+            155,
+            14
+          ],
+          "verified": true
+        },
+        "projected-second-leading": {
+          "bytes": 327,
+          "fileSHA256": "0e193c98f596dc164c19ec12b72a7ffefc2fc99ae5641b0bad20033109045afb",
+          "matrixSHA256": "6cd165ced297d1dbd4f13fb63da37a9bbc881ced203cd3b58b660cdf3461fbfb",
+          "shape": [
+            15,
+            14
+          ],
+          "verified": true
+        },
+        "second-leading-frame": {
+          "bytes": 331,
+          "fileSHA256": "bcf3537d1a2e8c46ae2630c783ce85929a89f89321b702ff4cca30320084c98f",
+          "matrixSHA256": "05dcf503c228981c767248a39c906e694a410d95570a275a430bcbb9047d80bb",
+          "shape": [
+            15,
+            15
+          ],
+          "verified": true
+        }
+      },
+      "completeHighHomogeneous": {
+        "all10200OriginalHighProductsVerified": true,
+        "allSixTangentSlicesRetained": true,
+        "bothPaidCandidateHashesMatched": true,
+        "candidateSHA256": [
+          "e1dd76784833bdd14ce91fc72d740633038a6578e0b17df4036297cde966251e",
+          "fc25498e8fb70c05e79c0efcff7b91f44ab432d2dd11d60f90a6190edb482ce9"
+        ],
+        "kernelDimension": 2,
+        "normalFourAndFiveNotClaimedExhausted": true,
+        "paidRank": 988,
+        "shape": [
+          2295,
+          990
+        ]
+      },
+      "conclusion": {
+        "completeCharacteristicZeroSecondRankExact": null,
+        "completeCharacteristicZeroSecondRankInterval": [
+          0,
+          1
+        ],
+        "h0LocalMembershipNotDecided": true,
+        "noFullNegativeConclusionFromRestrictedCorrection": true,
+        "normalAtMostThreeSecondHeadDimensionExact": 14,
+        "trueSecondLeadingHeadsCertified": 14
+      },
+      "firstReconstruction": {
+        "all22ConstantCorrectionsRetainedModuloOriginalB1": true,
+        "all6750OldNormalTwoEntriesZero": true,
+        "allFirstCochainsMayUsePureAndOneNormal": true,
+        "allOld605By15CoefficientsMatchedByLogicalSHA256": true,
+        "completeFullFirstRankAlreadyPaid": 7,
+        "incomingColumns": [
+          9,
+          10,
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "incomingDecompositionSHA256": "d506471d8f99f671ce96bfbabf7d1fabd5bd1c611ad24a9c52483a6ae365541c",
+        "leadingHeads": 15,
+        "noOld583UnitOr22IncompatibleRHSSolveRepeated": true,
+        "oldHeadMapSHA256": "39124da17222d1f553fdef5cc586bd9b39465a6407b41fd9d6274089aed9e9b6",
+        "oldLambda0SHA256": "4caedc7b49bad5b853121696d8005a8b0c9232a92306e1dfb3bc90af35c08774",
+        "oldLambda1Full605SHA256": "bd75ca135610f30c8e141ff718a2eb0bdca4ce38432af763b2d6a21808059fe8"
+      },
+      "inputSHA256": {
+        "constantReceipt": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272",
+        "firstReceipt": "2a75b4dba0b1e28902bc3a441ec7ce03a7e7fbdf46abfa5c138f4f7ab29b269a",
+        "fullFirstReceipt": "aebdd169ec950f7eb4c17b7e9ac4dc30ecb205dfc6a2d9476af9d4d03ebc9d3a",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "h3Receipt": "92d6c57531406e5892b06632aca6a8262cd238bec926c2b73532d7e05ed3bc8e",
+        "jetActions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "paidProbe": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b",
+        "projectionReceipt": "693da6446a6f04cba2c343ea49d9d3466caad1aebd056e91db338163b20d3332",
+        "tangentReceipt": "66c05b0911d7b003e635ca0ed43f605f1a4de32003a9da3878f1ca46b51279ab",
+        "unitHelper": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+      },
+      "memoryMiB": 4096,
+      "noLargeRecomputableDataUploaded": true,
+      "noOldHugeIncompatibleUnitSolutionsRebuilt": true,
+      "one-second-actualActualRHSColumns": {
+        "allVerified": true,
+        "columnCount": 1,
+        "logicalJSONSHA256": "1eb806603b23c6d6439f9dc3bb312b4ce673cf7abc8d6c2c6af182ec876463f5",
+        "perColumnMetadataRemainsInTemporaryCheckpoints": true
+      },
+      "one-second-actualActualRHSSolvePolicy": {
+        "actualColumns": 1,
+        "actualOriginalRows": 592,
+        "algorithm": "dixon",
+        "columnsPerNativeCall": 1,
+        "independentRHSColumnScaleRestoredBeforeOriginalProduct": true,
+        "maximumNewGroupsThisInvocation": 1,
+        "noCompleteInverseConstructed": true,
+        "unitRowScalingIndependentOfRHS": true
+      },
+      "one-second-actualCompleteSchurKernel": {
+        "allHomogeneousColumnsRetained": true,
+        "allOriginalRowsVerified": true,
+        "constantRank": 592,
+        "kernelDimension": 2,
+        "kernelSHA256": "9a22020630e47d645a026dc19e9c05706e0d6ff4b8d1e2f943abad50d8a83dd1",
+        "rank": 593,
+        "schurMatrixShape": [
+          496,
+          1
+        ],
+        "schurRank": 1,
+        "shape": [
+          1088,
+          595
+        ]
+      },
+      "one-second-actualConstantUnit": {
+        "allHomogeneousKernelColumnsRetained": true,
+        "constantKernelSHA256": "1bc87e1f1a8d8fbd70d39e8e29c37ccadff56f5d98bfb09b8a023fb1f85f1c6f",
+        "constantSHA256": "4bc8ac3db2ee7c5a77c6b4f66b72d05baf27c45fde5f153c14984e7ee87bde37",
+        "homogeneousKernelDimension": 2,
+        "pivotColumnsSHA256": "2ef748a4d7c5099b56883d220f7470fa570f2d5b4bb6fe6ec54363e5138c6e0c",
+        "primitiveFieldRank": 592,
+        "rank": 592,
+        "shape": [
+          1088,
+          594
+        ],
+        "unitRowsSHA256": "abc55b33ee968f7f8bd64893eea2fb974888a59aa4bd1793b5df39fd59456955",
+        "unitSHA256": "d7e2ec5e122c9b49cb3cade1698c9131d6ab837754840434bde817c1cef8bb87",
+        "unitSelectionMethod": "predetermined17-primitive-original-row-unit"
+      },
+      "one-second-actualPrimitiveUnit": {
+        "RHSNotUsedToScaleUnit": true,
+        "maxPrimitiveCoefficientBits": 394,
+        "noCompleteInverseConstructed": true,
+        "primitiveUnitSHA256": "34774573812339e7cb1c91567d316dbd4ad59496a86152186e61459b98bcd669",
+        "shape": [
+          592,
+          592
+        ],
+        "unitSHA256": "d7e2ec5e122c9b49cb3cade1698c9131d6ab837754840434bde817c1cef8bb87"
+      },
+      "one-second-actualRemainingRHSExecutionOrder": [
+        {
+          "actualInputMaxBits": 314,
+          "originalColumn": 0
+        }
+      ],
+      "oneMissingSecondHead": {
+        "all5100OriginalHigherSecondForcingRowsZero": true,
+        "chosenFirstHeadCoordinate": 5,
+        "completeFirstHeads": 15,
+        "completeProjectedKernelDimension": 31,
+        "leadingFrameSHA256": "05dcf503c228981c767248a39c906e694a410d95570a275a430bcbb9047d80bb",
+        "newSecondLeadingRightHandSides": 1,
+        "noDivisionByGOrRowContent": true,
+        "paidTrueProjectedSecondHeads": 14,
+        "projectedZeroHeadDimension": 17
+      },
+      "physicalCoefficientSHA256": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "4529d6170835368a1264dd9e4b32d0d83dcedb73655171ce8ba30af37263b176",
+        "L_y1": "afc72953144442626cfa4f04f151291537872b08e849c949cea9fc07eaf67095",
+        "L_y2": "13338e0883525415ec7cebff1cb3d5f8b6b6aff14d0ac43b3047a08176d4a6e3",
+        "P0": "a16dae3b916dc5f74b37232c17b204f5322469a84e5ab4e7a17c34c4415c97f5",
+        "P1": "1cc7b6a78438f3db321fb3614cdcdf5e3a04e61f4f6292498efbcdb14e6ad4f3",
+        "P2": "2d42c705d68e7c226dfebe3cb33e8a8022f8638e7dc99097b48f0e6c26157b0f"
+      },
+      "projectedCompleteFirstVerification": {
+        "all6188OriginalRowsVerified": true,
+        "heads": 15,
+        "orders": 2,
+        "originalProductCoordinates": 185640,
+        "zeroProductHashes": [
+          "64648209aaedf5b1b1324d5e2dbf4ae51ac29391f1c3e558d71dc406ab8148c8",
+          "64648209aaedf5b1b1324d5e2dbf4ae51ac29391f1c3e558d71dc406ab8148c8"
+        ]
+      },
+      "projectedSecondFourteenVerification": {
+        "all6188OriginalRowsVerified": true,
+        "heads": 14,
+        "orders": 3,
+        "originalProductCoordinates": 259896,
+        "zeroProductHashes": [
+          "5cda639a208c11254dbacfca5994d720a523166859490d44ca3003cbfdb0d9e8",
+          "5cda639a208c11254dbacfca5994d720a523166859490d44ca3003cbfdb0d9e8",
+          "5cda639a208c11254dbacfca5994d720a523166859490d44ca3003cbfdb0d9e8"
+        ]
+      },
+      "selfSHA256": "d4ff08a474ef3abe6c7ee08bea7829e6fa3d52eb2e04c71469b18b2ea2c27bb8",
+      "sharedSeconds": 600.0,
+      "temporaryManifest": {
+        "binding": "3de42bed91acf562cce951f7c79f9e4f871cbd31ec82e7430d03bb97198f970f",
+        "bytes": 10857,
+        "sha256": "3666914e5795c28900deab064a729243235507e8fc491a91cd95c54e4926a3fb"
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 18:53:16 UTC",
+      "beforeReadCommit": "a8a70bc20c64b1f5a90cfbd4b43560cc998e0cbb",
+      "originMainAfterPull": "48b1926b0f6f1543086fe8331fea0beadd4c0001",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 18:53:22 UTC",
+      "beforeReadCommit": "48b1926b0f6f1543086fe8331fea0beadd4c0001",
+      "originMainAfterPull": "48b1926b0f6f1543086fe8331fea0beadd4c0001",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 26,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 8919,
+    "logicalJsonSHA256": "116c9db42f112b5f06daa9f052bc5c142ccadffdef1e3f708c9312dcb8253db9",
+    "itemCount": 26
+  },
+  "lastRulesReadCommit": "48b1926b0f6f1543086fe8331fea0beadd4c0001",
+  "summaryExcludesRecomputableArraysOnly": false
+}
