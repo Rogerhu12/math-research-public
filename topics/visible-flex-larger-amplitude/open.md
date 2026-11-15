@@ -51,7 +51,9 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [高精度后继缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)仍须匹配全残差/J和独立实际cut/敏感度/audit；113下降不能直接作为完整native门。
 
-[133持久128实际接线](notes/2026-11-15-request133-persistent128-execution-interface.md)及[完整数学接口](notes/2026-11-15-native-persistent128-original-stop-chord-interface.md)现已发布：独立CPP7789007e/launcher767a4c4b/bridge2657ddee/probe2683e8e1，旧33pin原值+新4=37；真91失败BASE、两ready和78源全部重新恢复。首fresh64全576J/R273只作固定近似chord；当前完整128残差形成全部R273行/节点惩罚，方向sigma128×lift(z64)，状态、残差、226输出持久不折64。原stop30×20/32方向×10档/严格σ范数全保留，异常前已有行保全，原事件在consumer前输出。4threads/18000秒含binding/编译及1200秒末独立fresh replay，guard18330秒，330science350job；原32×10不保证单job全付。request15507B/fff42780、workflow21177B/be43ebdf；显式matched-trace none/columns0，末replay只核完整射击/226词，不冒full224J、338×112端点或原物理audit。90KB删字段fallback必须不完整/exit70；原64受控sentinel不冒数学失败。raw消费清理后后继须从91重算有序前缀，不由SHA伪恢复。实际run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6/job132783217957于10:34:17创建；准备后进入原科学步骤，结果待读。实际103已不支持反复相邻±ULP建议，原J/R273仿射小残差亦不保证nonlinear十档接受。
+[133持久128入口](notes/2026-11-15-request133-persistent128-execution-interface.md)及原数学接口已发：7789007e/767a4c4b/2657ddee/2683e8e1，37pin/真91+两ready+78源；fresh64J仅固定近似chord、当前128全残差/持久128全状态、原32×10/严格σ范数，4threads/18000s含1200replay。matched-trace none/列0，replay不付338/fullJ/audit，完整异常/partial/90KB不完整70保留。run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6/job132783217957，10:34:17起科学；完整责任/再生源以接口为准。
+
+[137清理前同job完整接线](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)：470803fa/f5641d7f/requestd507ab37/workflow7af15b68，47pin，原91+两ready+78源及analytic-slope79回执。fresh开始19200s绝对期限/120s清理，owner6000含1200replay、全224段8000/完整112边界600/338端点600/独立audit1800按剩余截，先保audit。新owner真实清理前回调接同态七组件；原133及其科学源不动，已删状态不复用。root全文读两源/request/workflow/接口和原差异，AST/Node/YAML/12Bash/8内Python仅静态通过，无本地科学/编译；本次独立push触发后读实际run，不预填完成。
 
 [128位真实末态完整组件接口](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)七件独立源码已发：共享root轨迹bcca7371、全段7c59da15、全112边界c218f128、物理查询packet824b7440、物理公式4b0569a2/程序a0904ea0、绑定launcher ddbe1a49。所有576段/224列、577节点、全129248×112边界缺陷、338端点及原audit全查询角行分别负责。共享原primal不省逐列F/C shadow或Cholesky变分，未执行加速不推预算足够；端点first-slope是有限trace方向，second仍原C-based物理程序差分，不假定C=F_e。所有native/fullDN flags保false，未编译/未科学执行。原133 launcher finally在bridge返回前已删末态/summary，不能后挂消费者；下一独立request137须新owner/bridge在同job清理前实接source-bound状态与物理packet，单一science绝对期限计入fresh64 J/R273和全部编译/读回，部分全列不得冒完整边界输入，独立audit仍预留真实范围。
 
@@ -120,3 +122,5 @@ R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原�
 2026-11-15 09:31终端恢复后已重建公开库部分克隆并真实pull，双README原pin未变；后续恢复每push前/每小时真实pull规则，集成替代读取仅保故障期间历史。
 
 R288提供的具体后继是保128状态、完整primal和明确所选有限root-stop策略匹配的方向形成。旧64J可作近似/预条件来源，但原stop的一次全步下降不冒native完成；refined更严内根残差也没有令当前外残差更小。依R283及真实122结果接实际变分/新求解，不为补完22项昂贵对照而盲重跑113，完整cut/far/敏感度/finalJ/audit仍另付。
+
+根README在11:35已读唯一新增说明（blob21bd547f56590b7f2dd279d0297efb289a9b2783）：closed-surface旧gz/npz已清，必要历史输入按原immutable提交恢复；题README未变。137/138新请求只更新已读规则基线，旧在跑任务若真实因规则变化退出则逐原结果重新接续。136已1800.018894962s后SystemError，完整query仍0/Rout空；已付日志与producer partial账区分，由R304直接给完整责任。

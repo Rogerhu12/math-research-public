@@ -112,3 +112,5 @@
 - [R299：同一次完整normal轨迹的原全三merit最小选择](results/R299-same-normal-trace-full-merit-selection.md)：有限集合不等式、同阈值条件接受、只读记录保原工作轨迹和局部Armijo推论完整证明；新helper d4c9cd44保全部normal/失败/完整state，原外门继续。无全链速度或根存在保证，138显式独立接线。
 
 - [R302：共享有限root轨迹的批列等价及完整112两端响应](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)：固定准确实分支的共享/全RK链式证明、完整112 QR传递与唯一性条件，保全部原行/两mean/338混合及独立物理audit边界；浮点pivot不证严格非共振，未给实际速度或native结果。
+
+- [request137：真实128末态清理前的全段/边界/端点/独立audit](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)：47源pin，新470803fa/f5641d7f保原133数学、共享组件独立同态消费；fresh起19200s全局deadline/120s读回，原partial与未启动后缀完整，不预付native/fullDN或全224速度。

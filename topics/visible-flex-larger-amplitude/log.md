@@ -387,3 +387,8 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R302共享有限轨迹与完整边界证明
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)全文直接发布：同名义有限实root轨迹多列等价、完整226RK/端口/mean链式和完整112 QR两端消去、577节点及全129248×112缺陷责任均证明。实可逆条件与浮点非零pivot、338混合读数与全解析导数、C-based物理audit与finite-root径向导数分别保界，无实际速度或native接受预填。root已全文读五件137接线及七组件，独立同job新现场随后直接运行，不等新fixture；R299已真实pull/rebase推d4263a6，终端继续。
+
+## 2026-11-15 /root — Request137同现场末态组件实际入口
+
+[137接口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)五件完整发布：470803fa/f5641d7f/requestd507ab37及课题外独立workflow7af15b68，47pin/实际91+两ready+78原源和analytic-slope。新清理前回调/同request工作根、fresh开始19200s绝对期限、120s读回与独立audit预留落实；原133和七科学组件不变，不能SHA恢复删失态。root全文读新两源/request/workflow/接口、原插入逆变换及全部pin；新AST/Node/12Bash/8内Python仅静态通过，未本地科学或C++编译。H压缩重复而完整正文/open链接保留；push即本库Actions运行，R302上次NFF已立即rebase重推成功3dcb4f8。
+本次push前pull发现根README仅新增closed-surface旧压缩数据清理说明，已只读diff并立即换新21bd547f基线；47源/历史恢复/数学不变。137尚未发布时原地修正，旧运行不伪造规则确认；136实际退出由R304后续原读回。
