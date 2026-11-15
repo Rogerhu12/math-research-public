@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **LN 从完整终点分导得到低阶正规化预算。** [纯解析全文](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d将SN完整四列经实际inverse-density D逐行接到C0..3；全双sign Wiener级数、低导插值及同CN精确ODE逆给更细p/w输入。强余项保真中间窗、两mean、左L2逆/右负窗forward和独立μ²aI/2。root核完整原CN，peer核；仅成功SN终点后才可做新scalar，现不授incoming/R0/真实解。
+
 - **RR 实际同根曲率间隔和完整严格 Darboux 接收已成。** [完整实际结论](results/R133-supplement-actual-root-mean-value-and-complete-strict-Darboux-recovery.md)13495f11：43750683671/1 child0/28、35pins/9AST。root独立复原SCI8bb7e296/preGit282bb569并核82球；原三个saved对象原字同。原signed K1/同root的FTC给严格q，两个新whole-product g预算接成全部四physical列及同case总约7.77784045405e18；fullmean/两sign/H−4/3输入/δ1e−8保全。旧成功或丢失高导重算0；尚须同cut正规化、真phase、incoming及全R0，大upper不作下界。
 
 - **TN 同 P.22 严格截面的两窗共同逆与完整强余项。** [全文](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261证明完整S/S2带宽192/384与显式有限J门；同L2/H−4/3 ordered逆、两gain strong remainder、完整F_S有限输入输出及dualrow/mean全部保留。root核原S/N和全文，两peer独核；新S*/S2*/J待public scalar。扩大有限块不授其Schur逆，真phase/incoming/R0独立。

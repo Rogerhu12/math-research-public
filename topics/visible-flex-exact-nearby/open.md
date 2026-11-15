@@ -44,6 +44,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
 [CN全圆周正规化](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2的Id+MwI准确逆保全mean/rank；旧linear-reference的μ²/4费保留。
 [EN完整指数正规化](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)ed2ff38e须直接signed验证R=ζUΩexp(McI)+Eexp0，才以exp(MwI)得base strong≤e^(26C)[Rexp0+67|μ|C/8+131C²/512]；C0无独立μ²仅因为reference已指数。旧Elin→新Eexp必须完整signed差，不准upper相减。
+[LN终点低导与完整圆周正规化预算](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d：只成功SN双branch四列经真D/√j+逐行得d0..3/C0..3，μEj一次；全双sign的26C2/21C2/26C3与低导插值改进Wiener费用。同CN ODE逆保两mean/Jensen，K0与负窗费用分用，强Q的真中间窗及独立μ²aI/2不删。root全文核原CN，两peer核；目前无SN终点/新scalar，不把qσ当incoming或授R0。
 
 [GH完整强返回/physical高块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)需R:H(s−4/3)→Hs及χJ=128CsΛJ^-1/3<1正确域右逆，J97/C0≤1/32只是目标。actual完整C/R0/Rexp0、trueincoming/positive/root/head、角密度高阶费/β稳定、physicalfiniteborder/两H16输出、所有mean-source均待；phase与physical P96不对易，97..160旧带宽不穿过圆周逆。
 [PD完整增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保DFΔ=(f+r_f+rνκ,b+E′a)、rho15一导损/真实第四Robin/mean/腰输出，actualS非零、真regular逆/ν响应、D²tame/smoothing/Taylor和可求和迭代仍待。小E′不授同阶Neumann。
