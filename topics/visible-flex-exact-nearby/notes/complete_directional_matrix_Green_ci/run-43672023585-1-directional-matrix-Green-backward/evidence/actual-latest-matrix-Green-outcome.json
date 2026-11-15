@@ -34,10 +34,10 @@
     }
   ],
   "seconds": null,
-  "completed_rows": 477,
+  "completed_rows": 715,
   "actual_progress": {
-    "complete_rows": 477,
-    "last_complete_index": 476,
+    "complete_rows": 715,
+    "last_complete_index": 714,
     "phase": "backward",
     "total": 5970
   },
@@ -50,21 +50,21 @@
   "negative_high_BVP_inverse_and_full_low_high_Schur_still_required": null,
   "complete_infinite_BVP_inverse_proved": false,
   "true_parameter_Schur_proved": false,
-  "complete_saved_native_chunks": 15,
+  "complete_saved_native_chunks": 23,
   "all_old_F_C_Grams_targets_and_ports_recomputed": 0,
-  "native_sha256": "e0b8cbd7b5dd4241d15b83b899a4729b5012a576b3064f36d8dcb87ccc31a95a",
+  "native_sha256": "b1b7225f0103f10e0c42126b1b1060a2e579f4da8e463ee7cb48791adc33e65f",
   "actual_process_context": {
     "repository": "Rogerhu12/math-research-public",
     "run_id": "43672023585",
     "run_attempt": "1",
     "worker_source_sha256": "3709858655e70ebe7bd334b4c1b0c070cdb8855ad31878a240229c4768b3e096",
     "input_manifest_sha256": "3350a96fbea47ee33bb09cb6602cb1e978e8ba00a034c7f735dfb60bade99910",
-    "actual_readme_check_count": 5,
+    "actual_readme_check_count": 6,
     "latest_actual_readme_check": [
       {
-        "time": "2026-11-15T03:48:17.313672+00:00",
-        "before": "699f5cde131b155478df45e405c77da46387ac2f",
-        "after": "7071a8762fc7469b6229506d362894c63a0ccea5",
+        "time": "2026-11-15T03:58:26.270753+00:00",
+        "before": "7071a8762fc7469b6229506d362894c63a0ccea5",
+        "after": "cfe1885367d9cad926f5d436cb7f8bbc04680d95",
         "changed": false,
         "actual_diff": "",
         "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
