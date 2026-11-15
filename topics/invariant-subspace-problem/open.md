@@ -150,3 +150,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **较小窗口内的真正gauge投影反馈已付。** [新估计](notes/2026-11-15-true-minimal-projection-gauge-weighted-window-and-common-left-pairing-789f-next.md)在m≥10、Q≤e^((1601/64)d³)给真实v/k误差e^-6d⁴、u两倍；||G1||≤e^(47d⁴/8)支付G1/G1*两侧最小投影误差，特别同一P_VG1(I−P_V)w已小。全部cut的<Lr,G1r>现可准确接物理低孔自配对。接下来联合处理原高孔自配对与ordinary λ(B_mtop)的真正封口未来，保P_KG1u余块；c26更大无权窗口不改。主比较所需κd/Q=O(1)，现ρ^-2=e25d³尚留e^(d³/64)裕量，但未据此宣布κ成立。
 
 **第二页真实续算点。** run43660606254已成前13阶段，q3-fifteen-original在phase1/record1670存档退出；433恢复/13cache全部实际推送，尚未计算完整第二像。直接恢复artifact14140695921并跳过前13，接q3原transport→全204 L4→相关NF→完整源核；共享时钟不构成课题停点，第三及全局正继续。
+
+**完整第三的来源量词已付。** [S3覆盖定理](notes/2026-11-15-r150-saturated-third-page-interface-789f.md)保全部F多项式关系、精确B核及pS2低位进入项；完成后真正负dual可排任意次数原p²h0目标modp6，并仅相应排至多31²分母的char0多项式来源。当前第三未跑，26输入还待完整第二的5个实际产物；matrix/runner草稿已保存，先完成run43662590949。局部相容仍接全局原17，更高31分母的char0路线保持开放。

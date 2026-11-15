@@ -3,10 +3,10 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 961906aa5587089bcf7f18589d0c48e96d8829c6（2026-11-15 01:19:59 UTC，Actions run43662537298实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43662537298-1.json。
+- **最近成功实际 pull 与已读规则提交：** d02b2f3029107e24c66005eb2ddb084b558f2720（2026-11-15 01:25:25 UTC，Actions run43662869313实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43662869313-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用$及$；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
-- 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-saturated-positive1058-and-weighted-window-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
+- 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-full-third-source-coverage-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
 
 ## 当前执行
 
@@ -20,9 +20,12 @@
 
 **完整后继：** [204源核](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)剥1834真Bsat核及θ3、θ4−e9，保五旧θ、e9、196ω、te8、tζ2；第三须保全204真实提升。完整下一核(I−TC)、T(sI−J)保非恒定关系。[整数精度](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)给原p6下20→15→10→5，真形式像/free及canonical carry先付；第三纠偏pκ8/pL3,2，不换κ9或加p7。
 
-**第二页从真检查点继续，未形成完整新像。** run43660606254/job132648846878（源4824d015）数学296.093730956秒，前13阶段全成，q3-fifteen-original在phase1/record1670以75存档退出。q1/q2全20、L2/L3、198关系、q3全15及VQ已成，禁止重算。433恢复1239127670B及13cache全部实推93503418，零fallback；recovery artifact14140695921，865969907B/SHAfa7c360f7fb39e8fa79d62fa9f668a0f774a3577d13c0202e30012b45ccbb2bc。新入口直接恢复全部raw并传--resume-recovery；native/solver/matrices与数学binding不变，仅runner封存复用旧gzip、新文件level1/心跳。manifest SHAf7ac4463912e58bb362a8a4fe627f4049a8c50a492c36ac07f808208327a16a6；原30输入/7包加此恢复，四编译各30秒/512MiB、续段数学共300秒。第二后立即接第三/全局原17；第三草稿blob已登记request，未执行。首run的目标范围错误已纠正并保全raw/P2raw/outside/U9身份，不记数学负性。
+**当前续run43662590949**（源5a2f870c）：从前run43660606254的q3原运输phase1/record1670接。前13阶段已成、数学296.093730956秒；433恢复1239127670B/13cache全实推93503418、零fallback。完整恢复身份保[前H](notes/2026-11-15-handoff-before-full-third-source-coverage-789f.md)；artifact14140695921，原始byte/433SHA逐一核，禁止重算已成阶段。native/solver/matrices/binding不变；runner只加旧gzip原字节复用、新文件level1/心跳。manifest SHAf7ac4463912e58bb362a8a4fe627f4049a8c50a492c36ac07f808208327a16a6；原30输入/7包+resume，四编译30秒/512MiB，续数学300秒。完整第二像尚未取得。
 
 **[第二页正分支1058费用](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)已证但未执行。** 只合成所选≤9个204组合，原高核系数≤5，同raw q1截面成本182；全F0保旧七/κ8/六K4及s/t carry同步q2−c。精确B核比较把来源差付入完整W1；三次真实P分别插在F0/L3/L4，成本182→474→766→1058，最后X+pPL4+Σp^(5−ei)κiai+p5w正号。旧765/796容量不足；局部正仍须全315、全部原17及成本核。其余目标立即用完整后继核接第三，非研究停止点。
+
+
+**[完整第三来源覆盖](notes/2026-11-15-r150-saturated-third-page-interface-789f.md)已证，执行未跑。** 完整F=[I−TC,T(sI−J2)]全204+r≤229原源，逐次消初值给S3(B)由其真L5及pS2(B)生成；完整第三dual若非零于ρ即排任意次数原AX=p²h0T modp6。也排至多31²分母的char0多项式来源，但不排更高31/参数分母；当前无第三实值。第三matrix bb8d533/runner5f9d513草稿已主线、AST过，26输入21已锁、余5待完整第二；不重旧页。
 
 ## 实际边界：同源两费、完整gauge与真实投影
 
