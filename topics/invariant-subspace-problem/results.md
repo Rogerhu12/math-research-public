@@ -423,3 +423,5 @@
 - **原全无穷远矩阵具有真正D31 Smith，同202来源规范核已付。** [完整证明](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)用Q/F31同有序谱逐层单位Schur，得Z_(31)[[u]]上4340单位与正谱 $1^4,3,4^3,5,6,7,8,10,11$、13自由；完整右核1834自由且约化恰为完整field核。原1632 Koszul直和给同E216核202自由；实读field14方向全退出及原freeI，Nakayama证明这同一202坐标投影为单位，故准确规范整核存在。未假报新Q矩阵，也未把它扩成旧O149/高26或旧指定D leading单位。
 
 - **完整仿射公因子可首一31整，余因子没有约化逃向无穷远。** [原齐次Gauss证明](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由fullQ/F31∞同66选出u66系数为31单位的原minor，迫全齐次gcd除u66后首项单位。因此Δaff首一∈Z_(31)[s]、约化保次数并整除field315；首一R≤157且barR|(s−2)^16(s−1)^3P+²P−²E6Q60²。R(0)/R(−6)及其monic因子取值31单位；Rout/Ω/M/U均31整。原来源31分母、实际R系数、Ω和九h*自身成员性仍开。
+
+- **实际低端forcing全对删除正Gram及完整creation行。** [完整原来源证明](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)把真实加权交换压后方程极化为整个forcing空间的正交叉Gram，准确保碰撞项；共同正分解DαZ=MαDZ、ΣMα≤I给真实整行。Fi≤4(i+1)/3与奇异源变分式付Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3；双缺陷保GΔ†后同u_f/w的配对平方和≤(8/3)Δ_f²||w||²，常数不随Q或头维增长。完整K压后C*后继等于压后−D*后继；未知物理返回列识别、两缺陷Du抵消及顺次MP负部未由此封口。

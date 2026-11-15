@@ -585,3 +585,7 @@ P只读统计实付完成19/第20待约化、basis24452bits/provenance44184bits�
 ## 2026-11-15 21:08:50 UTC — 完整仿射公因子首一31整与157次约化包络
 原齐次Gauss配fullQ/F31∞同66给Δ首一D31、约化保次数；首一R≤157，barR|(s−2)^16(s−1)^3P+²P−²E6Q60²，R(0)/R(−6)31单位。
 同monic Rout/Ω/M/U均31整；不推旧D leading单位、degree315等号或来源31分母。实际系数/Ω仍待原行模续算，逐pull核两README后实际push。
+
+## 2026-11-15 21:11:17 UTC — 实际低forcing全对正Gram与无维数moving行
+真实加权交换给整个forcing空间删除正Gram；分块共用正Mα、ΣMα≤I，变分式付Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3。
+双缺陷保同GΔ†和真实Δ，完整标量行≤(8/3)Δ²||w||²，无Q/头维损失；未搬到物理返回帽列或升范数行。原顺次MP继续，逐pull核两README后实际push。
