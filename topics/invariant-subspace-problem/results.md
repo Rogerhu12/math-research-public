@@ -257,3 +257,5 @@
 - [R150：参数2完整原投影谱与横向来源商上界18](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)：实际完整P谱1⁷,2,3/长度12；全原T长≤18，九个h0目标局部成员性仍开，高阶同P不再提供新信息。
 
 - [R271：整条真实正交jet旗保持固定测试交换行](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)：单对占据差在真旗内三对角，完整酉输运无维数损失；全部n/r/i交换行平方和≤49||f||²/x，非正交返回未付。
+
+- **两个三次数域低谱3,3与六共轭点原九目标来源。** [完整证明](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)按未推任务重做F±，各低长6、全原P长度≥6、完整A≤8，差长≤2付F±²W。真实run43731613530均exit0；K139及条件费8550，不冒充全局h0或固定D首项单位。

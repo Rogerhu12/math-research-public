@@ -1,6 +1,6 @@
 {
   "format": "isp-full-infinity-dual27-minimal-session-request-v1",
-  "rulesReadAtCommit": "3c5dc213e0e986e9fc3bcf548f7f1f0e2c0d1068",
+  "rulesReadAtCommit": "442f3d16a9b914154e8b81bc61597d650044fd61",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -72,6 +72,66 @@
   ],
   "maximumIdleSeconds": 2700,
   "closeSessionWhenStepsComplete": false,
-  "steps": [],
-  "mathematicalProgramStatus": "Six-input bootstrap only; exact new dual27 consumer will be queued after source review. No new Smith values preset."
+  "steps": [
+    {
+      "id": "full-infinity-original-dual27-through21",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-runner-789f.py",
+      "scriptSHA256": "557db708b6f9e568374bcc46ffe81d437b0ac5b7af8392041960065facbc13fc",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-789f.cpp",
+          "sha256": "33b6d1edd33d152f862fc123dc3e9baf6a7b75098bdf0c297b2759e0ca8ff675"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+          "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+          "sha256": "b803d92f159bf26bc9b4a80bbaf5a150ff8f17e81e201b0a99e845b7777038e4"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{native_model}",
+        "--forward",
+        "{forward}",
+        "--backward",
+        "{backward}",
+        "--full-operations",
+        "{full_operations}",
+        "--paid-full-receipt",
+        "{full_receipt}",
+        "--primitive-equations",
+        "{primitive}",
+        "--paid-selected-summary",
+        "{scripts}/43702348535-selected-natural-u-minimal-rebuild32.json",
+        "--generic-rank-proof",
+        "{scripts}/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-789f.cpp",
+        "--out",
+        "{work}/full-infinity-natural-dual-schur",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024",
+        "--compile-seconds",
+        "30",
+        "--maximum-degree",
+        "21"
+      ],
+      "timeoutSeconds": 250,
+      "receiptPath": "{work}/full-infinity-natural-dual-schur/full-infinity-natural-dual-schur-receipt.json"
+    }
+  ],
+  "mathematicalProgramStatus": "Root-reviewed complete original dual27 consumer queued; no new Smith values preset."
 }

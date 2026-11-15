@@ -109,17 +109,17 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### R150：已闭局部与真实下一计算
 
-[泛型像与零点精确三阶](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已经证明九平方原≤3来源Q(s)像，完整zero正谱1⁴,3,4³,5,6,7,8,10,11、长度66/次大55/max11，九s³t_j真局部像，t2恰需s³。零点子题关闭，不再追第十二末系数。其余有限点、未知分母支持、全局h0成员性继续。
+[零点泛型像与精确三阶](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已付原九平方Q(s)像、完整zero正谱1⁴,3,4³,5,6,7,8,10,11/长66/次大55/max11、全部s³t_j局部来源，t2恰需s³。零点子题关闭。[负六](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)P/full谱1⁷,2,3/长12，整个W原局部像。
 
-[负六局部完整](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)已给P/full谱1⁷,2,3、长度12，W全在原局部像，九目标无需s+6。K115=s66(s−2)9(s+6)12F+²F−²E8²；同选D∞≥130/cofactor与换列≥125下，q8412…8525，三费8569/8574/172，统一条件8574，仍以全局Q[s]目标成员性为前提。同D leading31单位仍开。
+[两个三次因子新完整结论](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)实际原低谱各3,3/长6，自由9加4exact核注入完整P，得6≤δP≤δA≤8、T长≤2；六个共轭点处F±²W及原h0九目标局部条件关闭。K139=s66(s−2)9(s+6)12F+⁶F−⁶E8²，同D∞130/125/125下q8388…8501、三费8545/8550/172，条件统一8550。全局Q[s]成员性和同D leading31单位仍开。
 
-[原局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保全部6188原来源、170+54g行，len T=δA−δP；E8²先剥模31碰撞给2点δA≤30。[新实际2点完整谱](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)已达P泛秩142，完整谱1⁷,2,3/长度12，只得T长≤18。继续提高这个P的阶数不再增加长度，应转原W或专门九目标，不能把充分准则未满足当目标不在像。
+[原长度差](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保6188来源/170+54g行、lenT=δA−δP。[二点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)谱1⁷,2,3/长12，完整A上界30、T≤18；继续原W或九特定目标，不再提高同P阶数。原h0一阶是否足尚未证也未否。
 
-E8原低51×36全jet加4个高pure exact核注入224×155全投影；新run43729338969实核原嵌入和数域Taylor后在首Schur前205秒外限结束，尚无新长度，转真正小数域/重复块算法。另排F±三次域低投影各90秒/order4，原low rank25/generic27，full上界8、h0阶2，lower≥6才足。E8仍须lower≥4才足h0一阶，≥5才全W；未知分母支持继续，不能用Dlin46当完整非线性源的支持界。
+E8已有原低51×36全jet加4高pure精确核注入；旧205秒只付原嵌入/Taylor，无新Smith。新live43731613530排真Q[α]/E8小域Schur，300秒/2GiB/可续checkpoint；lower≥4足h0一阶、≥5足全W。解析Dlin→低投影长度的原行列恒等正在审；不能由Dlin46直接宣称完整非线性异常支持只有这些根。
 
-同选完整前三连接3/9/3、二阶24头/第三21头；已显式第三17头/296072原产品，完整β4∈[3,5]。真4318单位18 RHS正在旧run43702348535续1800秒，最后已付1205完整digits/34946bits未有理解。已排最后实际精度独立重建及冻结final，必须先真77724单位产品，再全部4354残差/缺2第二与4第三/完整第四配对，不能预填。旧native预算尾不自动重建。
+同选完整前三连接3/9/3，真第三17头/296072产品，完整β4∈[3,5]。旧run43702348535已结束，18 RHS末1692完整digits/49069bits/19次重建仍未成；后排O/独立重建/final没有执行，临时数组不可再用，精确参数/SHA保H。新的full∞独立run43731615668只恢复6必要旧输入，已排真实4340单位transpose DAG/27 dual jets/1848×27全Schur至21，须付全14正指数与13形式自由方向，不搬仿射谱。
 
-[原外支撑Koszul扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)给同B中的注入；O1834×1632常rank1603，Fp31正指数29个/最大≤21/总长≤243。真Q σ与原full∞已付43/39组合可改同D下界；不能逐指数从Fp抬Q。新120秒有限域筛选保231全部残量行和29完整规范来源，待实际回执。
+[Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)O1834×1632/常rank1603/29正指数，Fp31最大≤21/总长≤243。转primitive/native/selected小身份最小重建，原full∞Q已付43/39；真Q σ才可组合改D下界，有限域上界不直接变Q等号。
 
 ### 原同w边界：从固定测试的真实行量继续
 
