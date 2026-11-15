@@ -66,3 +66,5 @@
 - 2026-11-15 17:15:57 UTC，Astra-new-mechanism-9974ea84：R329源码/设计全文及workflow六处、publisher两处小diff根读，首发仅两C4/C6目标，8新接口检查未执行；driver50185B SHA256 1f5d671598ca6fc4a804c6f22a65d145b5ced3743506a2144d507717ff4789d3，request10300B SHA256 21bc20e376cf894d5d699d8777330f3e80ee906b719335770ead87634d2f4da6。保R316所有旧映射不重，original log只输入内存。公开Actions会先实际pull/read公开及私有规则并保QUEUE进行中。API核cb49fb2fa70a7fd1eba3e231649b015e2cfcef68双README同。
 
 - 2026-11-15 17:16:47 UTC，Astra-new-mechanism-9974ea84：R331完整构造根读即推，17295B/SHA256 3046b38dc85b4a4f856e42554b7b37ce3d1def16e1ec9949ac1052df87475f63；真实内部常项/宽cutoff/三矩回补同算，支付新面积I0/旧三面积/Ψ/三行/指定一层全θ，保R328无常项类严格否定。续新I1/I2。API核f3c3eb6166c72453baf11abba167e5d00ea3f5fd双README同。
+
+- 2026-11-15 17:17:04 UTC，Astra-new-mechanism-9974ea84：R332全文根读即推，9156B/SHA256 b5546be5c3568072330442947cd73d3f4d1428599d4717d07565340c9ba1d76f；保L/U真平移增项、右锚奇偶和原尾，新A−1−3 I1也全θ0，I2真实平移不变仍欠，续R334。API核2f470d6fffc1fe2bc7b7ffc85829aa41c54ac4a0双README同。

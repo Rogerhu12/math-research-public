@@ -140,3 +140,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R331：真实宽恢复已支付新面积I0和原一层，续新I1/I2
 
 [R331](results/R331-interior-constant-and-wide-moment-repair-pay-the-new-area-and-old-layer.md)保R328无常项否定。内部cχ_R的导数与固定核心不交，原三复矩准确Q0+c²μχ；三个真正宽rank-one包用复平方根对应实pair补回，|z²|≤C(R³+c²)。由新A−1−3 I0精确解c(L)=O(L)，R=ηL使全部新增二阶quartic=O(L−1)，而朝内负Ψ保持−constL。原八copy四次权均值0、真实镜像/旧面积、十二全块消交叉，之后强正宏块与同F★有限N联付两面积所列门、Ψ/三行/指定一层全θ。新面积I1/I2当时仍欠；R332正读真实平移矩阵，不假定三矩自动全零。
+
+
+### R332/R334：新面积I1已付，I2不能只靠移位
+
+[R332](results/R332-true-translation-and-reflection-pay-the-next-Gaussian-area-moment.md)对原L/U保全部显式x平移项：L→L+δ(S−R)/2，U→U+δ(R+2S)+3δ²P/2。只有旧A−2−3三矩已0，才得新面积普通三角平移。中心偶pair的PD/LD/UD真紧奇，polar原二导偶，故A1=C0A0；原十二copy清cs的次数1位置项，新I0/I1均全θ0。强正块与最后有限N保零。I2在A0/A1=0后真平移不变，R334继续真正同圆形状/费用联付，不能靠位置重排。

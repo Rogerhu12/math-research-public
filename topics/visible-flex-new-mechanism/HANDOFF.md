@@ -8,7 +8,7 @@
 
 私有2026-11-15 16:31:15.566113 UTC实际pull/read `dc99543da830ee95eadc86a5fd30af7b45a10b48`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
-真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。本地unavailable，按根8小UTF8发布，API非pull。
+真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
 
 ## 2. 完成门
@@ -45,7 +45,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R304/306/311完整障碍**：同0<κ²<.01共振偶芽，完整面积/三个directed/E−3一层真C²余量给正系数×∫g″4。R304排全部不交实rank-one圆；R311固定包空间任意连续幅轨道也迫ci²=ai²且连通ci≡ai。R306保全mixed/Green/ordered尾推广至所有W=g′f″−f′g″=0重叠圆，双hook0⇔W0（含退化开段有限边界3/2幂不光滑证明）。原第三period只需单hook H(g;ff)=0⇔AfW0，不能强加第二hook；regular弱核被排，Af0曲开段仍是真rank-two入口。上述非主课题一般无解；原系数/假设留各证明。
 
-**R308–331弱hook通道**：Af0曲段真rank-two/单hook0，三矩八copy完整third。R319/320排同向/朝外，R325朝内付旧A−2−3三矩、三directed和指定原一层；R328新A−1−3 I0排全部无常项5/2曲段（K=−2J/5,J<0迫Ψ>0），该否定保留。**R331真实内部常项逃逸已付**：f=f0+cχ_R，c(L)由新面积精确解且O(L)；R=ηL远宽cutoff、三实际Vandermonde矩补包的quartic成本O(L−1)。原J/Jx/K保真，旧面积付后新I0全θ0，负Ψ−constL仍在。强正宏块/同F★/两even高频/12位置有限N联付Ψ、三directed和指定一层，完整third保持；通常新seed/g。新面积I1/I2及其他全第四仍欠，R332续原算子反射/平移，不外推一般刚性。
+**R308–331弱hook通道**：Af0曲段真rank-two/单hook0，三矩八copy完整third。R319/320排同向/朝外，R325朝内付旧A−2−3三矩、三directed和指定原一层；R328新A−1−3 I0排全部无常项5/2曲段（K=−2J/5,J<0迫Ψ>0），该否定保留。**R331真实内部常项逃逸已付**：f=f0+cχ_R，c(L)由新面积精确解且O(L)；R=ηL远宽cutoff、三实际Vandermonde矩补包的quartic成本O(L−1)。原J/Jx/K保真，旧面积付后新I0全θ0，负Ψ−constL仍在。强正宏块/同F★/两even高频/12位置有限N联付Ψ、三directed和指定一层，完整third保持；通常新seed/g。R332保L/U真实平移增项，由旧三面积抵消，中心偶pair/12copy准确兼付新I1全θ；I2平移不变仍欠，R334续。
 
 **R312–327新端芽/同规范联合接口**：h=he(1+εσ²),κ≠0,ω常，真实安装保M/frame/词/闭合，先选seed再固定g。R315/318/321/324的E²/log/E/有理全19门，在同一实际圆有限N精确归We。R326用八copy全E8三次矩0及真实入矩阵X的全局wc=−XD，清完整奇部、保平方/第三初值，再同一全局第三Gram付We。**指定端口完整ruling已付**，period准确变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327沿R221核当前解析最细包p/Af有限阶零点可跨，kerLf=每包u_i/平台χ_i两列+间隙；间隙13门全盲，平台真尾(0,−2A,2B)不可丢。先解两原period特解，再13×2n真列矩阵Cθβ=−Aθk0；保解析秩降整除/种子额外一阶、光滑周期，13非rank。尚无两period像或该finite兼容成立；R330续实际门值及全路径其它段，不冒完整第四/主目标。
 
@@ -54,4 +54,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main f3c3eb6166c72453baf11abba167e5d00ea3f5fd，双README blob同。API读取不冒实际pull。
+断连API复核main 2f470d6fffc1fe2bc7b7ffc85829aa41c54ac4a0，双README blob同。API读取不冒实际pull。

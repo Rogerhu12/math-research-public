@@ -491,3 +491,8 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R331 完整构造](results/R331-interior-constant-and-wide-moment-repair-pay-the-new-area-and-old-layer.md)选真正带内部常数的Af0弱核心。固定f0/g0加cχ_R，原三复矩没有遗漏cross；三个不交宽包的确切Vandermonde解给实pair，新增quartic≤C(R−1+c²R−4+c⁴R−7)。旧面积给C_area(L)精确仿射，原K1非零使新A−1−3第零矩精确选择c(L)=O(L)；取R=ηL后真实接回零和矩回补的成本O(L−1)，原朝内负Ψ的−constL主号保留。
 
 八copy/镜像与全部实际强面积修正保原J/Jx/K；十二copy把新I0和旧A−2−3三矩付到全θ。强正宏块同F★保quartic，真实even两形/位置正锥在一个有限N把完整三directed归零，Ψ/指定原一层与完整第三同时保持。最终先定位置与真实原式、再N，最后新seed/g。没有执行程序；不是无成本内部gauge，也未宣新面积其它两矩或全第四已付。
+
+
+## R332：原L/U平移和反射把新面积I1也支付到全相位
+
+[R332 完整原式](results/R332-true-translation-and-reflection-pay-the-next-Gaussian-area-moment.md)保原右锚与L/U自身显式x变换，其新增commutator是δ(d*+7e*)J(u″Dslot)/3；原旧三面积全零后，才得到新I0/I1/I2的普通三角移位。R331十二copy前的真中心偶pair使PD/LD/UD紧奇，完整polar二导偶，因而A1=C0A0；π/2的A0=0后，十二真实copy清全部cs和位置一次项。最终强控制块与同F★有限N保新I0/I1全θ0，原third/旧面积/Ψ/三行/一层均保持。I2在此后是实际平移不变量，仍须新的真实支付。无程序或人工执行。
