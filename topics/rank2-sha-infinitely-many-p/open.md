@@ -146,7 +146,7 @@ R605 T=𝒞Rn+Hn+Cout，显示固定F稀疏坏集删除后旧ray仍无穷且𝒞
 R613同C两carry交域恰Xn={A,L深n,Hunit}；整36/396全中心/half期与原χ11=χ33给完整二态K_A=X、K_H=−χX、K_L=−I。两相邻实际重叠域经1−λ²单位的连续H逆回原T；native全D/E/G/Y/W另有显示移动。全独占支=同一重叠域上真实差测试，旧非零子管仅在独占支、不代总积分。R3=(W−Y)/2为旧norm8并与A/H/L正交。R617完整norm8偶深核保同C两carry，原native/规范差准确写为两层环带与全部极点矩；首矩来自6Ωx²yσ⁸=−6ΩΘf1，保全部q/λκ/单位cut。两个真实全native环带提取P至p^(4m+2)，新三深矩形上的原反射消I3，epspole全原rayunit，准确以原T、A_(2n)、A_(2n+1)、完整Bpole回I1 modp^(4n)。**继续：** 简单极点全补域/原四unit及中央联系；原j0仅令T0，环带、P、Bpole未赋零，旧非零管不移新矩形。
 
 
-R621将同一原B_C⊗σ完整送入F_B六度核，绝对相位−ω²及所有D/E/G/同q移动保持；完整cofactor低矩给P1=−36bKΩ5 I1+B1、P2=−12αΩ5 I1+B2，两系数在全rayunit。Bk各保Hdeep/Vunit、Hunit/Vdeep、H/Vunit上的有限有理余项，原四unit与三个失败支精确不交分割。αP1−3bK P2消I1，两native环带分别提P1/P2，再与Bpole单位联立；中央0仅令T0，所有补偿保留。**R626继续：** 原Vdeep条件与完整H核心的真实边界关系，保单深第二态和混unit cut。
+R621将同一原B_C⊗σ完整送入F_B六度核，绝对相位−ω²及所有D/E/G/同q移动保持；完整cofactor低矩给P1=−36bKΩ5 I1+B1、P2=−12αΩ5 I1+B2，两系数在全rayunit。Bk各保Hdeep/Vunit、Hunit/Vdeep、H/Vunit上的有限有理余项，原四unit与三个失败支精确不交分割。αP1−3bK P2消I1，两native环带分别提P1/P2，再与Bpole单位联立；中央0仅令T0，所有补偿保留。**R626已付核与真域，余补实际值仍待比较（见末段）。**
 
 [固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)仅用于固定λκ有限式；[负五Katz](notes/2026-11-14-original-negative-five-katz-point.md)保完整角色/θ³尺度/固定c1坏集，裸反射仍root−，不能计数p依赖I1。[2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)未新增固定来源跨p非消失输入。
 
@@ -176,3 +176,6 @@ R623在R₂≤R≤R+<R_E上付两Gaussian完整野域degree p²，原sigma只在
 
 
 R620将原完整C的带权核付为准确Hilbert函数：rank=Σmin(m_r,(p−78−6r)_+)，全部原q_n高尾与同帽整提升保留，显示核基成本exp(O(D²))。当0≤b_D−(s−13)≤12，全部modp核恰实际t^(s−13)尾列；完整原低十三行的首Bockstein单射，C仅unit/p Smith因子。**继续：** 此行集有ε³/ε⁴，不能代旧三块；原同R第二forcing仍须在实际旧截止内判像。大预算旧J_A是否满射待直接核，不赋d2非零。
+
+
+R626原V深补域已在整2104全quarter/中心下返回旧K0的degree8核；真实双sigma锚付εp²=1而不猜号。原R/V全联合仅两态，Y/W同深整域scalar εp^nλ^(2n)，原C/F/G及同q逐点保持，完整归一S/T Mellin合法回两原J。第一矩Vcore εpβ，第二矩h8=2(ω−1)D8−4ω²Θ(2z)分两实际旧截面；Hcore仍β。全部H/V两word不交换、三补偿/四unit失败支及原q转置保持。两个carry交域恰VdeepN/D_XdeepN/C_Xunit，归一两权P_N(κV)/P_N(V)常数相消，但不同native有理/日志测试不可相认。**R628继续：** 同交域与共同深中央返回的完整补域关系；不把条件负矩/新word赋零。

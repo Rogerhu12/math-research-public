@@ -93,3 +93,6 @@
 
 
 - [R620：全原来源的准确带权Hilbert函数与十三阶Smith窗](../results/R620-full-original-weighted-hilbert-function-and-thirteen-row-smith-window.md)：原全部十九角/真实帽的modp秩为Σmin(m_r,(p−78−6r)_+)，原高尾由连续电荷单位二项式块完整支付；同帽整核基有exp(O(D²))成本。0≤b_D−(s−13)≤12时全部模p核恰为原t^(s−13)尾列，真实低十三行首Bockstein单射，完整C矩阵仅有unit和p Smith因子；不代旧三块d2或全局真旗标。
+
+
+- [R626：原V核的小闭包、两中央共同深域与完整有限边界](../results/R626-original-v-core-and-finite-native-boundary.md)：整2104全部quarter/中心与真实双sigma锚支付绝对平方，V核回原K0 degree8而无格增长；原Y/W同深整域保同q并scalar返回。首条件矩scalar、第二矩两个明确旧截面，H/V两word与全部补支、同carry交域和P_N(κV)/P_N(V)有限权差完整；实际εp仅知±1，全部native有理/日志测试保留，未给补域赋零。
