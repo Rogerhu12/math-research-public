@@ -290,3 +290,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R270 完整证明](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)完整求Φp0/Φs1与Φp2的两个I0 self，保单包Green项−μ1μ2/2与原primitive+μ1μ2/2准确相消。该pair Γ全零，两斜率每包有E22=αβE04；原Fκ0之后新leading为Γκ J，J=3∫v²r²+∫ur³−2∫xvr³，Γκ/κ在0非零。有限δ的E04/δ保全部δ²四阶中心余项，不能只清leading。
 
 取e=EL∫v′(v″)³的真odd方向，严格证明K=∫e²>0。右母包v+hz e、左镜像使整体even，原H/Fκ零宽z导0，而J/h导−4LK；三形状Jac行列式64L⁵K/3非零。先小正h母根，再在最终位置把原F/G/Fκ和完整E04列为四变量IFT，准确付整个A1,−1 I0。TM3每个最小子包同源与三交叉矩保留，完整8/12copy及原Q/S04严格符号顺序重付；四最终block各先求全角零，再两层正幅混合，保R269整个A1,−3 I0。不同block可有不同α，不越界强加统一两坡比例。仍20形式even非rank，其余第四/period/同w与有限同g未付。root全稿手核变分、Γ恒等、中心换元、两个Jac与真实混合次序；无新计算。
+
+
+## R272：完整第三核的指数全平零端逆解自动光滑
+
+[R272 完整证明](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)对f端值0、p=t^m a(t)e^(−c/t)、c>0/m整数/a光滑非零的明确类，证明全Z的K输出及有限组合在平台和总flux已付后，其R225逆解v′真实C∞。先用精确z=1/s−1/t及反向kernel证明衰减积分p^k t^r→p^k t^(r+2)C∞和p∫p^-1t^-2B的光滑性，包含任意光滑余项，不只形式渐近。全8系数直接给a/d/c权≤4/6/7；H/J链由正确δ中seed高阶项相消，c只多2(d′−a''')，同界归纳。
+
+由f=∫p得到f^(i)∈p t^(2−2i)，故完整G‴∈p²t^-10。真实平台二导常数已零后G″∈p²t^-8，真实端flux零后F∈p³t^-6；AH=p²t^-4(4c²+O(t))使q∈p^-1t^-2。原积分精确给v′端值−lim(t⁸G″/p²)/(12c⁴)，自由Cp不改端值；左右端均证，不重锚。于是明确零端有限解析活动圆的这些K目标，其完整period只余实际平台/势矩及全部内部Laurent联合；尚未求响应像或同w ruling。非零step、任意flat、奇异w、未消mixedζ历史及全Rp0其余部分不外推。无新研究执行。

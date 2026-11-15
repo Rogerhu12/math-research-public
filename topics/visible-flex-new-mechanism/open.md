@@ -82,7 +82,7 @@ R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消�
 
 R189的真实桥与有限约束迁移已由R220/R223/R227加强；已付低阶/Morse控制不重做。固定圆完整第四像仍须实际支付，不能靠增加几何自由度或一般Baire论证代替。
 
-R162已用新44det准确证J6∉E_D，该旧成员问题结束；R163后的完整head与R186/R188已经结清原权−2函数核/正字符，不追第45孤立列，不重107记录、3974forcing、旧NF或必要LP。来源与边界见原R文及results。
+R162的J6非成员、R186/188原权−2核及正字符均已结；来源/范围见原稿，不重旧107记录、3974forcing或NF。
 
 [R208](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)已从完整旧151列sound覆盖与通用同锚原式证明：所有πR都有jet≤2代表。WΔ=(W71)Δ不授完整W相同或真dim18；第三交换子的外局部q″项对称相消，再用线性q‴原函数消阶和Fréchet归纳。故真高jet规范余词可准确证非成员；完整pure−4中的N与动态项必须各自支付，不能默认模R删高jet。
 
@@ -127,6 +127,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 [R264](results/R264-potential-tail-moments-and-complete-platform-flux-equivalence.md)已将[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)扩到R261全Z：G″=(aw″)′+bw′−J(cw)，Λ=a(f′w″−f″w′)+wJ(cf)−fJ(cw)。有限活动类上，所有平台G″0与总flux0共同 iff 各活动∫cw0、非零常平台(aw″)′+bw′0；所有尾来自同一右锚。控制组合只要求总势矩/总平台项，不逐方向加限制；两个mixed另留ζ历史/E÷2。下一真实固定圆上的这些条件与全部内部Laurent/平端germ联合，再与同w ruling共同支付。
 
 [R266](results/R266-constant-platform-projective-model-for-full-third-kernel.md)给全Z在非零常平台的准确局部像F²(P2D4+2P2′D3)，维3；H/J所有阶乘与χ104从属已付。完整K=F²(P2w′−P2′w)+Q2，Q2″=−J(cw)保真尾；输入实为二次时K″=2F²(βA2−γA1)−T。局部源零不能代完整K零，f常/g变也不能猜Φ输入二次；后继按同一实际目标使用，不重平台表。
+
+[R272](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)已付全Z的明确零端germ：f端值0且p=t^m a∞e^(−c/t)、a0非零/c>0，平台+总flux通过后，G‴∈p²t^-10、G″∈p²t^-8、原q∈p^-1t^-2，精确指数kernel给v′C∞及真实端值。系数总jet权4/6/7由全表和正确δ归纳支付；可对控制总和用。**该K类在此零端圆上下一只需实际联合平台/势矩与全部内部Laurent，再处理同w ruling**；非零step端、任意flat及未消ζ历史仍不适用。
 
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
