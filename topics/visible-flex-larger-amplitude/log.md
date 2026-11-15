@@ -73,3 +73,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 06:59:28 UTC /root — 发布113完整binary128原始映射实验
 
 已完整读新CPP/bridge/probe、原root/split/RK/cellFlow/evaluate、request/workflow及[接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)。真实113位传播全部226态与129248残差，保原noJ坐标/独立w,w2,E样本；两root停止配置交错base+十α，7200s仅独立child。整链超时已查，partial/error后同freshR273方向继续原64 32×10和终检；不冒新128J/audit/native接受。CPP1b59cd10/bridge3655c81a/probeba3564ca/requeste6703c76/workflowf94c9a85，唯一request push公开执行；无raw/静态回执入库。
+
+## 2026-11-15 实际113首跑历史输入故障
+
+run43687907457/source7308ea/job132732158878在首快照前退出；旧driver从HEAD取104已删历史JSON，Git128，非128数值失败。CPP成功，summary942b3c55、log65777B/a5e0a15a；详见[实际113故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。按公开历史原件临时恢复修复中；110运行、115准备继续。
