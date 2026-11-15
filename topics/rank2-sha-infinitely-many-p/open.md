@@ -1,7 +1,7 @@
 # 未解决的问题
 
 固定一条 $E/\mathbb Q$，证明代数秩至少二且对无穷多个不同 $p$，完整 $\Sha(E/\mathbb Q)[p^\infty]$ 有限。**主目标未完成，持续研究。**
-全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R825前](notes/2026-11-15-open-before-r825.md)；沿归档链保全部旧接口，不关闭任何未付问题。
+全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R824前](notes/2026-11-15-open-before-r824.md)；沿归档链保全部旧接口，不关闭任何未付问题。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -157,9 +157,9 @@ R801同q/58行原E深Z²的六系数及Yunit正四矩已在旧ray两η/全N付un
 R804/R806–809及R811已付原十八阶三线、全34δ/Schwartz/全权平方、负二Katz、平滑30和√17周期的实际Soulé类。canonical类z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0；log含p²Euler，另一普通局部化0。weight4古典root−与同CM型Katz乘子+1必须分清，不能交换CM型赋零。
 原PB4连接/三CM13比χ17、χ17⁵、χ17³整可逆，唯一primitive预像与完整半周期degree1×33卷积均保。旧负一到新负二不是有限角色或共同Tate twist，全部九项、ζ伴随及W浅/外补继续。全部公式、两η/全N单位和未付原线性和见[压缩前全文](notes/2026-11-15-open-before-r825.md)及[R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)、[R806](results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)、[R807](results/R807-original-projected-connection-and-native-second-source.md)、[R809](results/R809-original-primitive-connection-three-cm13-components.md)、[R811](results/R811-canonical-soule-classes-and-global-heegner-comparison.md)；未关闭跨p指定非零或全Selmer门。
 
-### R810：原 r2 四次强接触窗口已全素数排除
+### 原 r2 固定 b 的已付排除与变化 b 门
 
-在原Fp/b4/b0=3下，真实零角(1,0,0,0)及n4的t因子给完整57格。全最大子式gcd坏素数≤283、最高行50付p>611；全部十九角小素数枚举的539个类出现/438个实际非齐次矩阵均无解，q0非零五型也按原几何包含。合R799/R803，此原r2强窗的剩余因子须b≥5。继续寻找变化b的统一gcd/接触门及R790指定配对；不得以此次固定b排除声称高b或原p³已解。见[R810](results/R810-original-quartic-all-prime-exclusion-and-complete-zero-chain.md)。
+R799/R803/R810已对原r2全部q的b3/b4强窗排除所有p，含真实零角(1,0,0,0)/n4、完整57格和全部十九角。剩余因子必须b≥5；具体子式/坏素/小素数全矩阵证书在[R810](results/R810-original-quartic-all-prime-exclusion-and-complete-zero-chain.md)及[全文归档](notes/2026-11-15-open-before-r824.md)，不把固定b排除推广为变化b或原p³已解。继续R790指定配对和整个profile接触门。
 
 
 R808同M primitive p³→同R J p²，两k光滑支λ/2λ3且δ=h，零亏m_R2；近支仅h+r/native下一阶与全部两13、d₂保，局部分裂不代全局分解。原完整normal及2h≤BD.C见[R808](results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)，指定全像仍开。
@@ -211,3 +211,6 @@ R823对实际最小类C=bH++mE01给原[1:S:U]到F1的双有理态射，U=S/t；�
 
 
 R825对原全部nef类付准确平方和2be−κ及尖锐κ≤2be−m²，等号类bH++mE01+(e−m)f。原次数帽给a≤4b+e−m、z≤min(2,e−3)，R805在r2/k0推出p≤24(e+2)D+24e−493+24min(2,e−3)，故所有固定e及固定近最小余量区域在p∼D²时排除；剩余e必须增长。未排真正二次临界区或同M指定Schur。 继续e随D增长的完整原profile与同R配对，见[R825](results/R825-original-nef-upper-gap-and-bounded-s-degree-exclusion.md)。
+
+
+R824在完整G0/charge40物理格付四次核首次提升：k=r+13+2h−s<min(13,ell+13)时原末块行有单位6a²C0u0²e0²，故不升p²。其余准确读取窗内同R分支强制28/−11/3三值，native ξ先保后相消；付真实相对仿射像和次数排除门。四中央代入恰λβ°−(λL)B4⁻¹b，倍点完整native缺陷保；不以Jacobian认新算术零或全核F4。 继续原完整像中的实际Schur及四原首必要系数，见[R824](results/R824-original-quartic-first-correctors-and-native-central-schur.md)。

@@ -191,3 +191,6 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 
 
 - [R825](results/R825-original-nef-upper-gap-and-bounded-s-degree-exclusion.md)：R825对原全部nef类付准确平方和2be−κ及尖锐κ≤2be−m²，等号类bH++mE01+(e−m)f。原次数帽给a≤4b+e−m、z≤min(2,e−3)，R805在r2/k0推出p≤24(e+2)D+24e−493+24min(2,e−3)，故所有固定e及固定近最小余量区域在p∼D²时排除；剩余e必须增长。未排真正二次临界区或同M指定Schur。
+
+
+- [R824](results/R824-original-quartic-first-correctors-and-native-central-schur.md)：R824在完整G0/charge40物理格付四次核首次提升：k=r+13+2h−s<min(13,ell+13)时原末块行有单位6a²C0u0²e0²，故不升p²。其余准确读取窗内同R分支强制28/−11/3三值，native ξ先保后相消；付真实相对仿射像和次数排除门。四中央代入恰λβ°−(λL)B4⁻¹b，倍点完整native缺陷保；不以Jacobian认新算术零或全核F4。
