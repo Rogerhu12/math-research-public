@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[R415前检查点](notes/2026-11-15-open-checkpoint-before-R415.md)，内链回197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R404前检查点](notes/2026-11-15-open-checkpoint-before-R404.md)，内链回197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -28,20 +28,15 @@
 
 [199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)八件全文/完整diff核后接线，R423 header f82cd950已先发；原196全部84pins逐值保→89，实际SIMD header/stage/R405/R414和所有输入、阈值、编译旗标、wall对象不变。只有三namespace限定及必要reader检查/输出的190→199；实际临时旧basename明确写新f82字节，旧b16仅baseline，完整逆换和原/新/实际身份分别返回。真91→fresh64/J/R273→持久128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800与330/350分钟保。原全部113位/偶奇尾/scalar/wide、有限root/mean/完整C残差保，非连续导数或性能保证。单90KB保全部原字段/未访/工程错误，quiet与必要complete后才清理；不借190/192/196现场或预称编译/native成功，amplitude唯一R424，官方run/源码见H。
 
-### 1C. 真37→38与原非线性域
+### 1C. 真37→38、实际独立39及原非线性域
 
-[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八对后LEFT462阻挡、末physical .0071041184748284756非BVP且pair已清。[171入口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)97pins真98重生37八对再同job38，22LEFT+16MID/77824行/全236036变量与原109core保。原17档/新FD和所有原预算、四输入、来源/试步/清理完整见R361；170未作门。
+原1C全部细节逐字见[R404前检查点](notes/2026-11-15-open-checkpoint-before-R404.md)。[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八对后LEFT462阻；[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)真37八对→同job38八对、16新FD/80trial/16接受，最后RIGHT459仍阻，末physical .007101312274733623非BVP且pair已清。原所有参数/门/完整H/失败/未访/清理保原结果；新增线性query不代有限步域。
 
+[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)/b7a5f7e6保33node11266完整仿射front，Qᵀ先消free461/338列、10928再原109core；常数/RHS/纯global/完整H恢复全保，非补零B，准确Schur等价不冒浮点词同。[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)原97→recipe103/worker104；true98独立39保38+RIGHT459实际fraction .8273268353539885，32nodes459/460/462..491/10819，最多8对，17α/1200model/600condense/90/30及10500/175step/195job不改。全必要/归属/quiet/单90KB超限70语义保，无新科学门。
 
-[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)：真实37八对→同job末pair→38八对全部完成，97pins/16新FD/80trial/16接受，13364.315132717s按明确两阶段批数停。38首α1，随后至1/8192；最后六批最近拒唯一RIGHT-RMS459，末1/4096的38选点和77824线性reserve均过，原merit确降6.1357113e−6而β²−.00202637605。已选LEFT462在较大步仍可非线性失败，新增线性query不代有限步域；末physical .007101312274733623在MID461与域障碍不同，fullQP最优/native/fullDN/success均false。原97来源/四输入/全试步/16FD/实际清理与完整原日志身份保正文，末pair已清。191/R404从true actual98独立另起39query：保原38，真实RIGHT fraction0.8273268353539885/459及完整capture459、端点459/460；不是171末场续接，原17档/全H/FD/域门保留，无新audit。
+[R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)run43766271165/source7891ee25，八model+八fresh FD全exit0；八个next-parent=true与冻结控制流联证八次原progress及真实warm/status/FD原判据已过。24trial逐批4/3/4/3/3/2/2/3，仅原计数；α/merit/拒绝地址/FD误差/末场未返回。原whole-chain210886B/10146b72和recovery215693B/3726f228均超90KB、正文未输、transport70；非数学拒绝或墙钟/规则停。原quiet=true且无signals/unknown/live组；八批大raw已在保存必要后退休，末必要件与pair最终cleanup skip留到runner销毁。reader下一步只消重复来源/子对象，保完整必要trial/错误/FD/末pair/未访；单90KB不升、不拆，须新Actions从true98重算，不把SHA当已毁末父。native/fullDN/最终门仍未付。
 
-[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)与13361B/b7a5f7e6 adapter已付具体非连续支撑实现：R270本已允许任意L，原8479 binder只接连续；191真实32节点459/460/462…491/10819 coords，不补零B461。内部33-node cover11266全仿射front，完整Qᵀ先消free461/338列，余10928再原109core/local QR；纯global/原g/常数全保，原完整H恢复在461仍rhs=−g、其梯度仍属于E。准确同Schur问题而非相同浮点词，旧所有readback/门不变；实际耗时/误差/FD/接受未付。191八对原完整入口已发布，单90KB全链/静止读回保。
-
-[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，run43766271165/source7891ee252147194137c2a933b6407a7c2c0ac19f、compute132971948907已入原science；exact唯一终态R404。
-
-[R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)保a>0与P=a²|d×e|²−ν²|d|⁶、八次/Bernstein及453 Hermite全RHS缺陷。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model+新warm FD先尝试，再全75776行×17×九系数诊断；6000/1800/180及未访/字节责任保。
-
-[R353](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)保29×17端点、338二阶界、629点态gap、四真实trial×37η，余13不补η。统一整段/IEEE/truequery/699/698/连续角/native/fullDN未付；最近拒LEFT464/MID471在37内。原八文档1230成员/清理保，后继须真父重生。
+[R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)的a>0、完整八次/Bernstein及453 Hermite全RHS缺陷、[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)全部75776×17×九系数责任保。[R353](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)保29×17端点/338二阶/629点态gap/四真实trial×37η，余13不补；统一段/IEEE/699/698/连续角/native未付，原清理后真重生。
 
 ### 1D. 原175停点、同路径继承及188完整范围
 

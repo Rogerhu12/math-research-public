@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:52:13 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3d4ced177a0d224ccfd9b2453f34662b8db1c3ce。
+规则同步记录：2026-11-15 23:53:49 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 dc96b799e7083a0f6863e7b1d9d8ee90d39a337d。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -24,7 +24,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |197/R420|43774486084 /68fa2d402bb7c3695b50a28739566abe6ece3511|exact：compute132997520684已入step12原完整C重建；真180/fresh C/全112族/完整453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |198/R421|43773780174 /4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040|root：compute132995301108已入step8原science；121+17pins/真实194十词fresh/原2400全链|
-|191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907终态failure；唯一原日志已读，R404结论另条立即刊|
+|191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：R404终态已刊；八对进展/FD齐，整链必要两次超限，最小reader修复中|
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入step17原完整far/unit传播；真十族453→同十词450、共用原7200总钟|
 |195/R412|43771125613 /4ad7fb771218585af1091c9d322c9d61b64a949c|exact：compute132987043859已完成pin/恢复78源；127pins/完整18000与全部终门|
 |196/R415|43770686357 /4677faa0966475d17e10b20b75f0234c62fe3768|amplitude：compute132985694072终态failure；R415实际原文已刊，199独立后继|
@@ -39,13 +39,11 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)仅finite_secant/末端未起且清；[R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)/[195](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)实际root/Cholesky/两回代/226×224/mean/338原二阶FD保，127pins/78源/18000原全门；不冒IEEE/分支稳定，exact唯一R412。
 
-[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)37→38后RIGHT459阻；[191](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)真98独立39/free461/完整仿射八批FD保。[R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)1195792严格/92400未决/0未访，八小档全角，原接受/FD保；raw清，无native/连续角。
+[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)37→38后RIGHT459阻。[R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)真98另起39/free461，八次原progress及新FD有原事件+控制流联证；24trial数4/3/4/3/3/2/2/3，详细α/merit/失败地址/末场未输。210886/215693B两次超90KB、transport70；原quiet=true，无规则停；逐批大raw退休，最终未读必要件/末pair保至runner销毁。exact修必要选择后须真重算，不冒续接/完整BVP。[R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)全域1195792严格/92400未决/0未访，原接受FD保且raw清，无native/连续角。
 
 [R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)69接受供194fresh；[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)61接受/153α/W1.7920→.6072527，dir61法向未成/62..127未访，initial60FD齐/末60Arb453未起，2400秒partial且raw清。[198](notes/2026-11-15-request198-actual194-returned-owner-full3-continuation-interface.md)真实末十词554B/9732bd60只作新初猜；121+17pins/固定S/半径1/16×8/20α/3×20/2400与原全120FD/消费者保，root唯一R421。
 
-[R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)全112 far后独立中点转64同时0，失败mode/中心未知，453未起且raw清。[R419](results/R419-correlated-nominal-Robin-row-formation-with-complete-family-errors.md)/24c7681c以同候选关联角/w联合形成名义行，准确正max缩放先于64，全真族到最终字值误差保；不冒真族成员/共同C/小误差。
-
-[197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)原84pins逐值保→93/driver56/native30；真180九词/β1⁄16/fresh C/cut/factory/deep112→全112族后联合行→原完整采样/同owner H/J/FD/453。表示cap4096共享point预算，18900+2700/7200及原全部门保；raw→worker→native同字值不再归一化，全族误差/六scope必要/quiet清理保，exact唯一R420。
+[R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)全112族已齐，独立中点转64同时0；mode未知、453未起且raw清。[R419](results/R419-correlated-nominal-Robin-row-formation-with-complete-family-errors.md)/[197入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)同候选关联θ/w、正max先缩后64与全族到最终字值误差保；不冒真族/同C/小误差。原84→93pins、180九词/β1⁄16/fresh C/cut/factory/deep112、完整453/H/J/FD、所有原预算/单90KB/六scope/quiet保，exact唯一R420。
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)/[193](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)真72c十族/180九词+正零ξ，98pins/runtime69/native29；453全门后同十词450新RHS/H/FD/338×112/final，共原7200钟/worker。193不执行R409，清raw后须同job真再生，amplitude唯一R408。
 
@@ -57,4 +55,4 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 ## 恢复与保存
 
-压缩前逐字见[R415前H](notes/2026-11-15-handoff-checkpoint-before-R415.md)/[R415前open](notes/2026-11-15-open-checkpoint-before-R415.md)，内链回全部旧检查点，open§4–6逐字保。[旧结果索引](results-index-before-request195.md)96703B原文保。未推小源按完整接口重做；已清raw须真再生。793d723a完整tree915eafac核8878文件/188094896B、最大MD97869B；仅目录元数据，旧JSON未全分类。每结论立即推，接open。
+压缩前逐字见[R404前H](notes/2026-11-15-handoff-checkpoint-before-R404.md)/[R404前open](notes/2026-11-15-open-checkpoint-before-R404.md)，内链回全部旧检查点，open§4–6逐字保。[旧结果索引](results-index-before-request195.md)96703B原文保。未推小源按完整接口重做；已清raw须真再生。793d723a完整tree915eafac核8878文件/188094896B、最大MD97869B；仅目录元数据，旧JSON未全分类。每结论立即推，接open。

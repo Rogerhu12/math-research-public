@@ -692,6 +692,11 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 [R422](results/R422-current-C-closed-pair-universe-and-reach-binding.md)、[完整接口](notes/2026-11-15-current-C-complete-reach-cover-interface.md)及60426B/3ea1ef9f源已全文核：同R416准确cut场/R417全marker两帽/R413原cuff，全部piece、两反射、闭q圆与self pair保；完整AA i≤j、CC三类、AC全积及两闭RP1/Sturm，不以旧worst或局部cuff免整rank。短路径直接用同场完整一jet并集，prefix s递增/tail r递减/下片负S，共同物理q接缝及材料逆运输保持，不借未付R418 metric。原R279全六jet曲率、四球OR、R282逐叶全membership和R24同帽graph引理分别沿原门；先全正则和零弦排除得嵌入，再由全pair/Kτ≤1得全相位reach≥原τ。D来自整个标记F0全部活动片和两帽，τ≥.03D上界另核；不重选K/τ、不借弱marker全局转移。闭DFS先记录后退休保当前/兄弟/全部未访，原大账本仅临时、单90KB必要。没有actual450、数值K/τ/D或实际覆盖，整像held/反射δE/全metric/数值影子与所有BVP终门仍未付，R425继续。 root全文核源/证明/接口，另实读675六jet与完整索引、0b52完整CuffOwner、ImageBounds、R241/R37和Fenchel原Satz I；exact独立窄核同q/全pair未见阻断，无本地科学/import/AST/fixture。H/open原文逐字归档，§4–6不变。
 
 
-## 2026-11-15 23:55 UTC /root — R415实际196终态
+## 2026-11-15 23:51:58 UTC /root — R415实际196终态
 
 [R415实际196](results/R415-actual196-persistent128-return-and-SIMD-readback-identity-block.md)15794B/331dae79全文及本次原bridge10491B/4e8e61be已核：run43770686357/source4677faa0，完整128一方向一trial一接受，129248/576末范数9.68582474751023176032080482454992093e−11、全残差及226态fresh replay同。stage/112/338=false、C-based audit=true仅本次flags，具体stage原因/SIMDbackend/覆盖/极值未返，不由静态ADL补造；科学child0/wallfalse且全局未耗尽。reader硬190在build前失败，report只有missing，cleanup因必要摘要缺失skip；runner结束不可SHA恢复。199独立修三限定与编号，原全位/完整链/预算/门保；native/fullDN/几何仍未付。
+
+
+## 2026-11-15 23:53 UTC /root — R404实际191终态
+
+[R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)14026B/ffef210f全文、原事件35708B/2ac9cf36与9631worker联核：run43766271165/source7891ee25，八model+八fresh FD全exit0，八next-parent=true联证原progress/配对/FD门通过；24trial逐批4/3/4/3/3/2/2/3。整链210886B/10146b72及恢复215693B/3726f228均超90KB、transport70，详细α/merit/拒绝地址/FD数值/末场未输，不凭SHA补造。原quiet=true，无规则/墙钟停；逐批大raw实际退休，最终未读小件与pair因读回失败保到runner销毁。最小必要选择修复保全部trial/失败/FD/未访和90KB，不升门或拆包，之后须真98新轨迹；不冒native/fullDN。 本条并将R415日志时标校准为其实际提交时间23:51:58 UTC。

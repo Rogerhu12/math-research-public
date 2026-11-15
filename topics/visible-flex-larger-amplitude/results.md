@@ -133,3 +133,8 @@
 ## R415 — 实际196原128接受、后组件未完成与必要读回身份阻断
 
 [R415实际196](results/R415-actual196-persistent128-return-and-SIMD-readback-identity-block.md)15794B/331dae79全文及本次原bridge10491B/4e8e61be已核：run43770686357/source4677faa0，完整128一方向一trial一接受，129248/576末范数9.68582474751023176032080482454992093e−11、全残差及226态fresh replay同。stage/112/338=false、C-based audit=true仅本次flags，具体stage原因/SIMDbackend/覆盖/极值未返，不由静态ADL补造；科学child0/wallfalse且全局未耗尽。reader硬190在build前失败，report只有missing，cleanup因必要摘要缺失skip；runner结束不可SHA恢复。199独立修三限定与编号，原全位/完整链/预算/门保；native/fullDN/几何仍未付。
+
+
+## R404 — 实际191八对39query进展、新FD及必要摘要超限
+
+[R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)14026B/ffef210f全文、原事件35708B/2ac9cf36与9631worker联核：run43766271165/source7891ee25，八model+八fresh FD全exit0，八next-parent=true联证原progress/配对/FD门通过；24trial逐批4/3/4/3/3/2/2/3。整链210886B/10146b72及恢复215693B/3726f228均超90KB、transport70，详细α/merit/拒绝地址/FD数值/末场未输，不凭SHA补造。原quiet=true，无规则/墙钟停；逐批大raw实际退休，最终未读小件与pair因读回失败保到runner销毁。最小必要选择修复保全部trial/失败/FD/未访和90KB，不升门或拆包，之后须真98新轨迹；不冒native/fullDN。
