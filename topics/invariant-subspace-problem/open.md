@@ -156,3 +156,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 2026-11-15：完整返回的唯一残量已钉定
 [完整证明](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)把H−B写成真实返回列Gram，并保E0→E未压缩单射方程及<Y,Rret r>=μ²+α²。下一步估计同源真实提升/共同配对，目标κh/Q=O(1)；压缩行收缩、nilpotence、kerCs上零仍不够，不把源∈RanC换成RanCs。
+
+### 2026-11-15：固定三坐标候选实际已关闭
+[52候选的完整原乘回](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)均非零、未增核；这不排自由方向的共同有理组合。下一小步用同K768的余13自由方向格变换，原6188支撑/全部4367整数零/36自由块Q秩才付新维；原char0秩仍4318…4331。
