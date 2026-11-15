@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 03:51:17 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 03:54:39 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
-本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 03:48:17.313672 UTC 7071a8762fc7469b6229506d362894c63a0ccea5（Green process5de70a5b…34534B，五次两README diff空）。本机03:36:18真pull仍无executor。
+本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 03:52:19.088472 UTC 890caa1668f2442073f97b4fc319ea9aeae403a5（cap Z process61896c15…6397B，四次两README diff空）。本机03:51非FF立即真pull仍无executor，freshhead重建推成功。
 21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：f2ee2cd884e86445c1c99ea91bd6f7c9ccc5dd48；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4a6f710b1ca5c3dd3eb01639ce4df946ef003e0e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。此前H9648B逐字存notes/2026-11-15-handoff-before-cap-joint-deployment.md（058fa4cb…），含H9669/9990及更早全链；旧open29021在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md，旧log在notes/2026-11-15-log-through-inner-source-deployment.md。成功科学与出版失败分记。
 
 ## 同一对象和总完成门
@@ -26,7 +26,7 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 端点/high actual43666716585 child0/10门/3stage，native6a845f62…/process9b4aaf5f…；真9/10/mean/正fee/全尾保。trWT<1.132443e−9、κ<13.367450、c*²<.010388235。
 全频帽actual43671537267 child0/9门、3.538647222s：同97 Wcap true_body_nested，CH CH*≤Wcap，||CH||<.000943，含全部unknown even |j|≥97/mean/真outer/完整Hessian；native56efa27c…/process3b9173ab…/summary619c71e3…/arrayc500a1a9…723262B。SCIed62ebe4…/CIa52bb62b…/353pin7473f786…不改。signed矩阵等真Poisson三HY；旧AST-only拒绝，compose正确skipped。
 L1–16/7a97adc2…保完整low-even97/a与zC,0，(E−E0)(E−E0)*≤c*²Werr仅输出侧；真HY后可按signed tr(HY Werr)收费。先看实际主导再新消费，0旧Gram/target重算。
-帽Z joint新13pin五件已装：SCId909f2fc…/CI4dd0af86…/manifest6be86873…，原ed42 full193两cap shard012/013仅从43583838026原artifact14109363064整件SHA恢复，先逐state完整径向Bernstein max再加87ed2原193修补界，后求四width/三角导joint和；mean/4j/真实9/10保。0旧repair/ODE/FFT/target，尚待actual；βγK未由root域冒授。
+帽Z joint actual43674204314 child0/10门/4.990880255s，660原片5484..6143真[9/10,25/8]、0旧repair/ODE/FFT/target。SCI d909f2fc…/13pin6be86873…；native dd236bb3…71737B、process61896c15…6397B、summary67fa3c66…17371B。原193逐mode径向max再加87ed2修补，完整mean/4j保；A0<.842592508277、A1/64<.898277121481，两角导完整。仅原φ joint；固定Φ0组合及βγK全cap域仍续。
 
 ## Airy根、第一修正与全源：phase_inverse
 
