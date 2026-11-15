@@ -72,3 +72,93 @@ $$
 即使另行证明某个复高度或Chow类非零，也仍须支付到这里这个指定
 $p$-adic局部AJ泛函的桥；R817在7993的非零不自动传播到其他素数。
 本注没有关闭原跨 $p$ 非零、三原值线性行或全Sha主目标。
+
+## 5. 分歧补项的确切 Fourier 定义
+
+本节补核同一YZZ版本的§5.5（正文第69–71页）。
+记 $\mathcal E(g,\Phi)$ 为 $E'(g,0,\Phi)$ 的全纯投影，
+$S$ 为 $\Phi_v$ 非球向量的有限位集；星号表示非奇异Fourier部分。该节给
+$$
+\Theta+2\mathcal E
+ =\Theta_{\mathrm{sing}}+
+   \sum_{v\in S}\Delta_v,\qquad
+\Delta_v:=\Theta_v+2\mathcal E_v.
+\tag{3}
+$$
+Conjecture 5.5.1断言每个 $\Delta_v$ 是某Eisenstein级数的非奇异部分。
+**这仍是该版本的猜想，不是其坏位证明。**
+
+实际已证的Proposition 5.5.2只给代数模形式 $f_\ell$，满足
+$$
+\Theta+2\mathcal E=\sum_{\ell\in P'}f_\ell\log\ell,\qquad
+f_\ell^*=\frac{1}{\log\ell}\sum_{v\mid\ell}\Delta_v .
+\tag{4}
+$$
+这里 $P'$ 暂含为确保局部测试非零而引入的两个辅助位；
+结尾的辅助位独立性把最终补项支持缩回 $P$。
+
+在Theorem 1.3.3的证明中，取实际 $\varphi\in\sigma$ 后，等式(4)成为
+$$
+(\Theta,\varphi)+(2\mathcal E,\varphi)
+ =\sum_{\ell\in P'}(f_\ell,\varphi)\log\ell .
+\tag{5}
+$$
+其中 $(f_\ell,\varphi)$ 是 $f_\ell$ 的真正 $\sigma$ 尖点投影。
+若写 $(f_\ell,\varphi)=\Omega(\sigma)d_\ell$，
+其证明中的中间归一系数为
+$$
+c_\ell^{\mathrm{proof}}
+ =-\frac{8d_\ell}{\alpha(f,\widetilde f)}.
+\tag{6}
+$$
+这不是把(1)的所有全局周期重新吸入后的同名系数；(6)仅保该证明所用规范。
+因此原补项的消失需要控制这些尖点投影。
+所引等式没有把它们写成
+$L(1/2,\pi_L)$ 乘一个局部导数；中心根数为负不能单凭该形式理由删项。
+若另能证明(3)各局部差的Eisenstein性质，则其尖点投影才随之为零。
+
+## 6. 纯 $\lambda$ 与17处Artin投影不能独自删掉高度误差
+
+[R832](../results/R832-original-triple-chow-purity-and-rank-zero-contractions.md)
+已证明修复后的唯一端点类在Chow群中属于原 $\lambda_j$ 分量。
+这条来源纯性完整保留，但高度配对有两个输入，第二输入在对偶分量。
+
+具体地，令 $I$ 为17处有限Artin商，$\vartheta$ 为原非平凡有限角色。
+在系数域上若 $Z\in M_\vartheta$、$\widetilde Z\in M_{\vartheta^{-1}}$，
+任何 $I$ 不变双线性配对 $B$ 都满足
+$$
+B(\sigma Z,\sigma\widetilde Z)
+ =\vartheta(\sigma)\vartheta(\sigma)^{-1}
+   B(Z,\widetilde Z)
+ =B(Z,\widetilde Z).
+\tag{7}
+$$
+等价地，真正的对偶恒等式是
+$$
+B(e_\vartheta Z,\widetilde Z)
+ =B(Z,e_{\vartheta^{-1}}\widetilde Z),
+\tag{8}
+$$
+而非把第二输入也替成平凡分量。
+所以 $\lambda_j\otimes\lambda_j^\vee$ 中原17字符相消；
+非平凡 $\vartheta$ 不强迫高度或(5)的补项为零。
+这是双线性等变性的直接计算，不使用任何未证的局部高度消失。
+
+同样，某个 $\ell$-adic实现满足 $V^{I_{17}}=0$，
+本身没有给(3)的垂直相交核或(5)的尖点投影消失。
+要利用原CM对应消项，仍须在 $\Delta_v$ 的实际几何/Fourier定义上计算。
+本注没有把这个待算对应替换成实现的维数论证。
+
+## 7. 新 arithmetic Siegel–Weil 公式的实际层范围
+
+下表只记录已亲读正文的范围，不否定更一般公式的可能性。
+
+| 来源 | 已读定理或定义 | 与本题坏位的关系 |
+|---|---|---|
+| R. Chen–B. Zhu，*Arithmetic Siegel–Weil formula on the product of modular curves*，[arXiv:2610.20575](https://arxiv.org/pdf/2610.20575)，§8.4，第35–36页 | 标准层 $K^\circ=H(\widehat{\mathbf Z})$；一般 $K\subset K^\circ$、在 $S$ 外标准时，$\mathcal M_K$ 定义于 $\mathbf Z[1/S]$，遗忘映射在那里有限étale | 在 $2,3,17$ 增加本题层结构会反演这些位；该处构造本身不计算其垂直误差 |
+| Q. He–B. Zhu，*Intersections of Hecke correspondences on modular curves*，[arXiv:2502.19600](https://arxiv.org/pdf/2502.19600)，§1.1、Theorem 1.2.2 | 全局 $N$ 为奇数且平方自由；局部为 $\Gamma_0(\ell)$ 的 $H_0(\ell)$ 模型及其对偶密度 | 不覆盖原 $N=10404=2^2\,3^2\,17^2$ 的指定向量与积分模型 |
+| Q. He–Z. Zhang–B. Zhu，*Weighted special cycles on Rapoport–Zink spaces with almost self-dual level*，[作者全文](https://bqzhu14.github.io/assets/pdf/WeightedKR.pdf)、[arXiv:2504.07768](https://arxiv.org/pdf/2504.07768)，§1.1–1.2 | 主范围 $\ell>3$，特殊极大parahoric、$L^\vee/L\simeq\mathbf F_\ell$；权值是该模型的向量值特殊循环 | 不能仅因“weighted”字样就把本题平方导子depth-zero向量搬到该模型 |
+
+这些文献未在上述被核条款中给出原 $\Delta_2,\Delta_3,\Delta_{17}$ 的指定尖点投影。
+原 $(q,q^4)$ 端点、原有限测试及(2)第四槽继续保持；
+(3)–(8)也没有给R814指定类的跨 $p$ AJ非零。

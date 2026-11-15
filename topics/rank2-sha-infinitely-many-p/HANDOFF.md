@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：dcad772b2ee8c47d3314ee7e2dba2afad1431665；2026-11-15 23:21:34 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:21:33 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
+- 最近已读规则提交：29d2b79f1fbe5b46a5a184ee06603cae7769ff44；2026-11-15 23:23:34 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:21:33 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -25,7 +25,7 @@ R829旧同q0选定类完整Chow零。R830 q4*修复已付2/3/17全有限test vec
 R831共同目标Chow矩阵[[0,0,Z],[0,0,0],[−Z,0,0]]；任何old extraction只乘c0d2−c2d0。X0次数6、X1次数12、遗忘1632/816及W4绝对负号已付。
 R832真正Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，原全轨道值/BFH/KL/CM自扭付混合K点rank0，故Z=prλZ、三ordinary槽全零。仅h1用全忠实；Z非零、λ Chow维数/R814比例未付。
 R835固定λ、任意type(1,0)ψa且c+c^c=OK：a=ψa/ψa^c在原2/3/17恒1；新增split两处epsilon乘积ψa,q(−1)，全局乘积−1。因此γa=λ/(Na) type1/cond(34δ)cc^c，Wγ=−1、Lγ(1)=0。任何同最高λ三低权张量含Nγa，复秩≥2；这种固定互素导子修复不能保原simple zero/三mixed rank0，不排其他critical路线。
-[高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)保YZZ坏位Σc_l log l，Marannino非CM等门未付；[BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)原(2,−1)不由BDP12证明，刊本未得，不断言错误。CG2 Thm8.2.6保CWE22 §1.2.3(4)导子互素；仍缺实际πf[Ξ02]到canonical λ类，不把形式Hecke作用当该值。
+[高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)保YZZ真Δv=Θv+2Ev的σ尖点投影；Eisenstein性未付，λ⊗λ∨的17角色相消不杀误差。新ASW层范围未覆原平方导子，Marannino非CM门仍保；[BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)原(2,−1)不由BDP12证明，刊本未得，不断言错误。CG2 Thm8.2.6保CWE22 §1.2.3(4)导子互素；仍缺实际πf[Ξ02]到canonical λ类，不把形式Hecke作用当该值。
 
 [同一Katz三方向增补](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：原E17真实双变量二次项=A(X²+Y²)+BXY，故a2+ +a2−=4a2π，必须先保各分支真实中心归一。对应有限矩M20/M11/M02的模p³比较已付；全Sha无限时原K∈(X,Y)^4给三个矩各属p⁴，非将模p³误差强升。未给指定矩无限违约。
 

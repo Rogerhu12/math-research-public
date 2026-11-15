@@ -137,3 +137,6 @@
 
 
 - [R837](../results/R837-original-three-long-root-energy-and-uniform-multiplicity-truncation.md)：原Γ4三个真实长Euler零给尖锐七倍根能量；在实际因子中截除重数>K者，完整商求导损失与十九角nef交数给有限式(23)，取K≈√D得到无重数上界假设的7q(H−r)≤3B_D²+O(D^(3/2))，故p≤141D²/(14q)+o(D²)。自然三长临界47/12排q≥3，旧47/8临界若另有真实第三长行则排q≥2；两临界不混用。原三十三行带/39carry、全部来源帽、B_K<s和特征/tame门均保；剩余稠密q1/2、指定forcing和同R高位仍开。
+
+
+[原对角高度坏位增补](2026-11-15-repaired-diagonal-global-comparison-scope.md)：YZZ §5.5的坏位误差准确来自Δ_v=Θ_v+2E_v及其代数模形式f_l的真正σ尖点投影；Eisenstein性仍为该版猜想，原负中心根数没有自动删项。纯λ高度的两个输入在λ与λ∨，17角色相消，V^I=0也不支付垂直核消失。亲核Chen–Zhu一般层反演S、He–Zhu奇平方自由层及weighted almost-self-dual模型，均未在所引条款计算原2²3²17²指定误差；继续原第四槽/跨p，不新增非零结论。
