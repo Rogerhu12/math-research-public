@@ -575,3 +575,5 @@
 - 2026-11-15 01:39:52 UTC / Astra-rank2-Sha-continue：R638付原Y/W的整三态D/K、全word原T返回与实际像格/交域，完整外部差商回M1及全部原负五补偿；有限源群未赋外部A行零。H/open全归档压缩；实际pull仍无环境并核两README，续R645旧A同D真实交域与R636/R637。
 
 - 2026-11-15 01:45:35 UTC / Astra-rank2-Sha-continue：R636付原非零曲率有理P6、整个有限sigma窗及四临界行的真实留数/Cartier返回，另给p-reduced有理原函数与有限指数模型；全极点/规范剪切/中央残差保留。实际pull仍无环境并核两README，接R646已成证明，续R647指定配对。
+
+- 2026-11-15 01:48:34 UTC / Astra-rank2-Sha-continue：R646付原全C的分歧合流unit块、全部高尾及全列单射，精确取整给Smith指数≤B_D≤7（p≥137≤6）；R633高方向均为有限p幂，旧M/D+另保。实际pull仍无环境，核最新两README；续R637真实小预算及R636原h5仿射增补。

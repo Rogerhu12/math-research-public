@@ -155,3 +155,6 @@
 
 
 - [R636：原两临界行的有理替代与真正Cartier返回](results/R636-original-rational-cartier-return-for-two-critical-rows.md)：原非零曲率连接构造唯一P6=Z^pQ6，整窗口匹配原sigma6首Gaussian，四观察准确化为同Q6的两留数/两Cartier值；首行可回二挠点。proper p-reduced有理原函数给第二有限模型，全部Zzero极部、O(p³)极帽和规范剪切保留，未证指定det非退化或删中央残差。
+
+
+- [R646：原完整目标的分歧合流单位块与全部Smith界](results/R646-original-full-target-ramified-confluent-block-and-smith-bound.md)：f_D<p下原全C分歧小盘的所有regular高尾严格升阶，真实合流族逐余类独立并给整左逆；原13/P134/U0/40和全部帽保留。所有Smith因子非零，指数≤ceil((b_D+13)/s)，统一≤7且p≥137时≤6；R633高方向均为真p幂，未把辅助缩放当原整等价或替旧同R。
