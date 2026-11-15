@@ -16,7 +16,7 @@
 
 新warm4880394B/fead4e7b8c1c78b62c8adef0d122a09ea12e7e3a94b0586ba2e59a63c3b429af；原decoded status2620898B/8ad4ae64ccf4a84106a22db9f60c3abedfe4efae67d467b59aa6c06480b9bbde，公开gzip305169B/bbd61744b2457b40654573460fbd25433f406f3a41d79bbae4fd3f56e5a65d38。25查询17LEFT+8MID/51200行、nodes465..486+p/7439支持、zero[]，C4059及fulloutside包括465，完整H/原FD保持。
 
-84完整artifact14142830941/670263923B/fb8d56c1由已发布prefix25 reader9239b310读取，requestfb3779c5/shared8953，原79父565e/e790保留；root只取五小原件，完整byte读回不作下一科学gate。79及76/74完整formal/byte已付，详见[79完整附记](notes/2026-11-15-actual79-completed-byte-reader-addendum.md)和历史检查点；全chainQR未导出界限保持，不重跑旧数学。
+[84完整byte附记](notes/2026-11-15-actual84-completed-reader-and-primary-identity-addendum.md)、[123项衔接回执](notes/2026-11-15-actual84-completed-reader-primary-byte-crosswalk.json)及[原完整审计无损gzip](notes/2026-11-15-actual84-complete-original-byte-audit.json.gz)已保存：reader43668049680/source7181完整读取原670263923B/fb8d56c1，398原文件1021335590B；224domain/1454阵、108condensed/38完整阵42refs、14raw454456080B、11collocation/8mid全部已付。原17primary关系/64源全保，新增十observer源恰成74；没有R276调用，未导出chainQR仍不冒file-byte审计。原84 quarter-step科学不变，86同25继续；79/76/74已付不重跑。
 
 ### 1B. Native73：实际线搜索失败与全部十档模型下降
 
