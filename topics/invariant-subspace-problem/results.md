@@ -371,3 +371,5 @@
 - **实际返回投影及Riordan逆伴随后的完整暗矩。** [自足证明](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)先证E=High+Zfull闭和受真实S(t)运输，实际e=P_EY、帽e=P_hatE Kamb^-* P_EY保持原固定测试和零源正交。全部cut的重叠数仅ν≤h，暗矩分别付ν(r+1)²和νeC0²binom(r+2,2)²；再保整个真正交旗只花导数带宽与有限组合数，无额外h。原w/f双线性主项同时运输，平均误差由ν/Q及真实future控制；Riordan使用原R=ceil4expτ_m，不与R=d混用。额外q_h伴随、低暗Green/顺次MP尚未付，普通ISP未完成。
 
 - **二点单RHS的严格受限负结果。** [二点完整normal≤3第二延拓](results/R150-appendix-two-fourteen-second-heads-under-complete-normal-three-correction.md)以一个真实592单位RHS实付常rank592/增广593，受限首头恰14；185640首阶、259896第二、10200高齐次原产品全真。完整β2,Q仍0…1，先穷尽5100×3762正常3/4/5高块；不把当前负数或λ2读数当原h0障碍。
+
+- **同源位置平方权、全旗与物理排斥Hardy。** [完整证明](results/R271-appendix-actual-position-weighted-exchange-full-flags-and-exclusion-hardy.md)保同一个固定测试与真实投影缺陷，给位置平方权Epos(u)≤4r_x Qf、primitive行≤16r_x Qf，Qf≤Q||f−u||²。全部真尾核旗后的共同位置预算只增绝对常数，不乘h；全物理Fock的Gpos≥Ntail/4经含排斥碰撞的ground-state恒等及最大自然形式域闭合证明。真实primitive行保零模，不套物理Hardy。归一Q位置能量受固定测试逼近误差控制，顺次MP/两端partial相对界仍未付。

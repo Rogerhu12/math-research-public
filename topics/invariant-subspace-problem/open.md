@@ -140,3 +140,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **二点真Q第二连接只补一头。** 新入口从同原投影恢复15首头和14二阶头，保完整七incoming像及两H3齐次，只解一个592常单位RHS；成功可付β2,Q=0，失败只否normal≤3校正。第11步实际未回执前不预填，也不将λ2平方读数直接提升成h0障碍。
 
 **二点第11步actual更新。** [二点完整normal≤3第二延拓](results/R150-appendix-two-fourteen-second-heads-under-complete-normal-three-correction.md)以一个真实592单位RHS实付常rank592/增广593，受限首头恰14；185640首阶、259896第二、10200高齐次原产品全真。完整β2,Q仍0…1，先穷尽5100×3762正常3/4/5高块；不把当前负数或λ2读数当原h0障碍。
+
+**位置加权的真实下一接口。** [完整证明](results/R271-appendix-actual-position-weighted-exchange-full-flags-and-exclusion-hardy.md)保同一个固定测试与真实投影缺陷，给位置平方权Epos(u)≤4r_x Qf、primitive行≤16r_x Qf，Qf≤Q||f−u||²。全部真尾核旗后的共同位置预算只增绝对常数，不乘h；全物理Fock的Gpos≥Ntail/4经含排斥碰撞的ground-state恒等及最大自然形式域闭合证明。真实primitive行保零模，不套物理Hardy。归一Q位置能量受固定测试逼近误差控制，顺次MP/两端partial相对界仍未付。 继续把原完整返回负部或primitive真逆相对支配于这些同源位置形式，保全部来源及partial，不把两个独立范数简单相乘当联合预算。
