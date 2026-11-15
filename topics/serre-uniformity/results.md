@@ -477,3 +477,5 @@
 - **R831（已证明）**：[原EO完整Weil交换代数](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)。CRT二/三部分给old6的六个不同T特征值及S非零图连通，new2同理；两块绝对不可约且不等价，故End_Weil(EO)=span(I,P2)，char0及所有p>3成立。任意原36维Weil交换子的EO压缩亦在old上标量，进一步排抽象交换子降维FG/HJ；未称整个36维代数已分类，未给CM值非零或删primitive/Legendre。显式矩阵纸证，无新数值，SHA 806220f457f236a21fa702b78b1ad4e0cf5f97aa0751c2f9e89e5e805374f679。
 
 - **原R824准确关系到CM点的来源适配（工程已保存，真实关系待到）**：[方法](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)。单个新weight5准确stage及全129×280验证，由20尖点同轨道/2580>2566给原A=yB；非恒定共同因子不冒称保留1186值。adapter5a6a100a/变体a8a33d32显式真R824身份，原7b7a5483框架的共轭选根/三同源不变；共同denominator/content已消去，不重插。首CM值/jet全零再续高阶；当前无新exact发布，不预称beta或正规坐标完成。
+
+- **R832（显式接触阶与完整jet窗口，已证明）**：[原高度统一接触阶界](results/R832-original-height-explicit-uniform-contact-order-bound.md)。同R616/原c1/全部规范，第二类代表可选单极阶2G，原外积进入R=21G+4闭合系统；循环行全局极部与Wronskian给ord Eij≤R−1+binom(R,2)(6G−4)，原G=(p−1)²/4。所有真实常数组合都受界，故R716完整关系/提取器有预定窗口，无须先Ore或二阶T_p。保非代数周期/高度，界随p六次增长；未给单位/整盘无根，原(724.33)仍缺。SHA a25f743c88d2048f969f001cb0e7d5784fe6e7078f7b61a6deed523264758dd2。

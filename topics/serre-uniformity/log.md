@@ -265,3 +265,8 @@
 - 真R824→R792来源适配三稿全文核后保存：method68877a98/adapter5a6a100a/corea8a33d32，直接继承原beta框架7b7a5483。真实单个五次关系全129×280加20尖点次数判据给同原y；明确新共同零、原λb换基一次、已去content不重插，无假R787标签。
 - 原rational-block实际来自旧R787输入，完整引用保留；完成后删掉的lift/residual只保digest，17验证块仍逐源核。新exact尚未发布，先保存接口，公开runner/pending继续，R787原1186不重算且继续运行。
 - 首次ref更新被provider竞争拒绝后立即实际pull/rebase；2026-11-15T16:30:45.088073+00:00/attempt31/job132878198979读到ca186db057ed753abe565d0c3c2c8305278b5af7，两README无diff，更新H并继续非force重推。旧H已逐字归档，原任务继续。
+
+### 2026-11-16 00:36（Asia/Taipei）｜serre-public-astra-20261115
+- R832全文核后登记：原M2G单极点代表/21G+4闭合系统、循环行minor极部与形式Wronskian给显式ord界，G=(p−1)²/4的原六层计数逐式核。复读R699/R716/R738及Brau–Jones原模型，保全部真实高度常数；proofa25f743c，不预称T_p/单位/整盘排除。
+- R787 run43708449812已结束exit1；新artifact14170087848/438780485B/ZIPb6ec1bf5、1264成员一日保留，正在最小IO核原因与最新Dixon，随后从新包同核续，未退回259位祖先。R827/R815/R824原任务继续。
+- 公开rules attempt32/job132879515492实际pull于2026-11-15T16:35:13.839106+00:00到ad8b27b304c8a7ad3705d11e3be5fa9a17b1870c，两README无diff；H/open逐字归档后整理当前缺口，主目标OPEN。
