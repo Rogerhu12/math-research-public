@@ -1,0 +1,661 @@
+{
+  "kind": "actual_public_genuine_reference_signed_root_forcing_execution",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43692226895",
+  "run_attempt": "1",
+  "workflow_commit": "c7ff35e0ccc7c754942590c8c20af99efed8ebd2",
+  "worker_source_sha256": "fca0aacd7a4c1504f0d0fb9dcec7cd01eb2f2da9c0167542d54dc56b363102ff",
+  "source_budget_source_sha256": "869238d3824927a929b171d6830223d2723864f23149726444afc555b1e7e4d8",
+  "input_manifest_sha256": "4b72d34bb7b4d24195aa135255697a25173bcfb92ff7275e6d8b34c2ffd03597",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicitly_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "started_utc": "2026-11-15T07:57:50.580695+00:00",
+  "complete": true,
+  "actual_returncode": 0,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T07:57:50.969474+00:00",
+      "before": "c7ff35e0ccc7c754942590c8c20af99efed8ebd2",
+      "after": "c7ff35e0ccc7c754942590c8c20af99efed8ebd2",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T07:57:58.933224+00:00",
+      "before": "c7ff35e0ccc7c754942590c8c20af99efed8ebd2",
+      "after": "c7ff35e0ccc7c754942590c8c20af99efed8ebd2",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "actual_source_budget_processes": 1,
+  "old_numerical_enclosures_recomputed": 0,
+  "reproducible_data_published_to_repository": false,
+  "reproducible_data_uploaded_to_Releases": false,
+  "new_reproducible_data_artifact_uploaded": false,
+  "full_high_inverse_claimed": false,
+  "final_topic_complete": false,
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "actual_verified_input_count": 12,
+  "actual_verified_input_receipts_sha256": "722397b248758dfb16e1758041604cb06a98c29c84c6e826e7127baa2c649630",
+  "actual_input_origins": {
+    "exact_public_historical_blob": 7,
+    "exact_current_identical_legacy_input": 3,
+    "exact_current_text_input": 2
+  },
+  "actual_current_contract_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md",
+      "bytes": 14116,
+      "sha256": "052a0b23535c42523bc25734ed6366fd01a765c6a309b8ca88731b3ffdd707d8",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b",
+      "origin": {
+        "kind": "exact_current_identical_legacy_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+      "bytes": 24947,
+      "sha256": "869238d3824927a929b171d6830223d2723864f23149726444afc555b1e7e4d8",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "origin": {
+        "kind": "exact_current_identical_legacy_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-reference-signed-root-forcing-CI-inputs.json",
+      "bytes": 6861,
+      "sha256": "4b72d34bb7b4d24195aa135255697a25173bcfb92ff7275e6d8b34c2ffd03597",
+      "origin": {
+        "kind": "exact_current_separately_pinned_manifest"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "origin": {
+        "kind": "exact_current_separately_pinned_rules"
+      }
+    }
+  ],
+  "complete_immutable_Python_AST_closure_passed": true,
+  "complete_immutable_Python_AST_file_count": 3,
+  "complete_immutable_Python_AST_inventory_sha256": "2b732202b15bf773508e296c7836e0ad481b5e31e6900a659855660ab7f42dc8",
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+    "--repo",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-reference-signed-root-forcing-CI-inputs.json",
+    "--manifest-sha",
+    "4b72d34bb7b4d24195aa135255697a25173bcfb92ff7275e6d8b34c2ffd03597",
+    "--out-dir",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-output/consumers"
+  ],
+  "actual_scientific_checkout_commit": "c7ff35e0ccc7c754942590c8c20af99efed8ebd2",
+  "source_budget_child_wall_seconds": 0.7653538379999958,
+  "new_complete_signed_root_forcing_bounds_proved": true,
+  "actual_failure": null,
+  "output_hashes": [
+    {
+      "file": "consumers/conclusion.md",
+      "bytes": 6450,
+      "sha256": "66f02392f3cbbceac4523d7fe336cc74fbc145493ab9c8bc6355f496ad41a90e"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 11967,
+      "sha256": "160a5f8d0c2465fd3addf3e0450eed30ecbcb335a107d79a2172e85cc0f3edd2"
+    },
+    {
+      "file": "consumers/temporary-genuine-reference-root-forcing.json.gz",
+      "bytes": 37876,
+      "sha256": "47d8341bd48dedd8061ba7ca71fc7b49e5e63fe4e7fbf15dd905d469502f084f"
+    },
+    {
+      "file": "source-budget.stdout.log",
+      "bytes": 206,
+      "sha256": "c799afc5a025c1cc8c9ae2cca12b136dc6d60ac4ce2112350b83e2fad2926cc3"
+    }
+  ],
+  "actual_scientific_receipt": {
+    "complete": true,
+    "proved": true,
+    "actual_returncode": 0,
+    "failure": null,
+    "gates": [
+      {
+        "name": "the current signed-root source, complete algebra and manifest have exact reviewed identities",
+        "passed": true
+      },
+      {
+        "name": "all exact original root files and the newly proved signed identity were checked",
+        "passed": true
+      },
+      {
+        "name": "the original complete Taylor run actually succeeded and retained all old75 stage bytes",
+        "passed": true
+      },
+      {
+        "name": "the same true root, repaired finite family and fixed eta0 are retained",
+        "passed": true
+      },
+      {
+        "name": "the original complete complete-background-root-series keeps its exact old header and byte identity",
+        "passed": true
+      },
+      {
+        "name": "the original complete complete-local-operator-series keeps its exact old header and byte identity",
+        "passed": true
+      },
+      {
+        "name": "the original complete leading-complete-Q keeps its exact old header and byte identity",
+        "passed": true
+      },
+      {
+        "name": "the old complete repair and both physical mean slots remain in the original root background",
+        "passed": true
+      },
+      {
+        "name": "only original full root coefficients and the already paid scalar kappa are consumed",
+        "passed": true
+      },
+      {
+        "name": "the full old-angle mean and every signed Fourier coefficient satisfy F20 to F22",
+        "passed": true
+      },
+      {
+        "name": "both carrier signs, the old primitive and the independent physical even mean remain",
+        "passed": true
+      }
+    ],
+    "actual_mathematical_wall_seconds": 0.3784299789999963,
+    "source_sha256": "869238d3824927a929b171d6830223d2723864f23149726444afc555b1e7e4d8",
+    "algebra_sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b",
+    "input_manifest_sha256": "4b72d34bb7b4d24195aa135255697a25173bcfb92ff7275e6d8b34c2ffd03597",
+    "runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "original_complete_root_stages_read": 3,
+    "new_complete_signed_root_forcing_cases": 1,
+    "original_stage_receipts": [
+      {
+        "name": "complete-background-root-series",
+        "original_relative_file": "stages/complete-background-root-series.json.gz",
+        "bytes": 75245,
+        "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8",
+        "original_payload_sha256": "0f54892640daf514f1542291201722ba31644032269dac150feef62ca196ebe2",
+        "original_source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+        "original_manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+      },
+      {
+        "name": "complete-local-operator-series",
+        "original_relative_file": "stages/complete-local-operator-series.json.gz",
+        "bytes": 198895,
+        "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2",
+        "original_payload_sha256": "72009949f23a75d32ce8d15b56e97ef562aa5842977c4ee102c6c3fa65e0a7c3",
+        "original_source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+        "original_manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+      },
+      {
+        "name": "leading-complete-Q",
+        "original_relative_file": "stages/leading-complete-Q.json.gz",
+        "bytes": 80521,
+        "sha256": "0aa0da3c5260ebab0f64afaf0df07eab854988a9a630260714a783ef1c21d523",
+        "original_payload_sha256": "9bdb0e46d646ada2ff9605315eddd80c2d6ba333ec831f47daa6ab10a95993e2",
+        "original_source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+        "original_manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+      }
+    ],
+    "original_target_FFT_intrinsic_cubic_or_point_derivatives_recomputed": 0,
+    "original_fold_forcing_or_saved_Taylor_coefficients_recomputed": 0,
+    "original_natural_stage_bytes_modified": 0,
+    "new_ordinary_source_or_full_inverse_claimed": false,
+    "temporary_native_sha256": "47d8341bd48dedd8061ba7ca71fc7b49e5e63fe4e7fbf15dd905d469502f084f",
+    "temporary_native_bytes": 37876,
+    "temporary_native_is_not_published": true,
+    "reproducible_outputs_published_to_repository": false,
+    "reproducible_outputs_uploaded_to_Releases": false,
+    "new_reproducible_data_artifact_uploaded": false,
+    "complete_root_conclusion": {
+      "exact_point": "the original certified true root, physical piece2549",
+      "exact_complex_delta_square_halfwidth": "1/100000000",
+      "old_angular_root_mean_of_normalized_first_forcing": {
+        "real": {
+          "ball": "[+/- 5.65e-5]"
+        },
+        "imag": {
+          "ball": "[+/- 2.03e-5]"
+        }
+      },
+      "root_mean_modulus_upper": {
+        "ball": "5.999083248298120452091097831726074218750000000000000000000000000e-5"
+      },
+      "nonradial_quadratic_root_mean": {
+        "real": {
+          "ball": "[3.61712e-5 +/- 8.88e-11]"
+        },
+        "imag": {
+          "ball": "[+/- 2.08e-11]"
+        }
+      },
+      "nonradial_quadratic_root_mean_modulus_upper": {
+        "ball": "3.617128874111585901118814945220947265625000000000000000000000000e-5"
+      },
+      "amplitude_mean_is_not_independent_physical_even_mean": true,
+      "rational_frequency_conclusion": {
+        "exact_complex_z_square_halfwidth": "1/9409",
+        "all_input_j_abs_at_least": 97,
+        "physical_frequency": "4j",
+        "both_carrier_signs": true,
+        "full_intermediate_labels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "full_intermediate_denominator_modulus_lower": {
+          "ball": "0.02051227167248725891113281250000000000000000000000000000000000000"
+        },
+        "complete_one_plus_z_alpha_over_eta_modulus_lower": {
+          "ball": "0.9999982453882694244384765625000000000000000000000000000000000000"
+        },
+        "complete_root_potential_difference": {
+          "real": {
+            "ball": "[+/- 2.03e-5]"
+          },
+          "imag": {
+            "ball": "[+/- 2.03e-5]"
+          }
+        },
+        "root_potential_difference_modulus_upper": {
+          "ball": "2.868829287194785138126462697982788085937500000000000000000000000e-5"
+        },
+        "factored_root_difference_divided_by_z_modulus_upper": {
+          "ball": "0.1908146743662655353546142578125000000000000000000000000000000000"
+        },
+        "fixed_z_radial_derivative": true,
+        "independent_full_potential_upper_bounds_subtracted": false,
+        "only_new_rational_root_scalar_algebra": true
+      },
+      "complete_first_row": [
+        {
+          "exact_old_phi_width": "0",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.9356451101929617933174455360448931939753792069659855069450131836 +/- 5.00e-65]"
+            },
+            {
+              "ball": "[4.238391770336457569995914805100365110119639219860472504948787070 +/- 1.03e-64]"
+            },
+            {
+              "ball": "[21.50675177128593612865263505592711396713696094864601262505581126 +/- 3.89e-63]"
+            },
+            {
+              "ball": "[130.7288883405984434144177486207060132848868850747321531409376630 +/- 2.64e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        },
+        {
+          "exact_old_phi_width": "1/128",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.9694244273073242601170105094194642469531628125140295602618871907 +/- 2.43e-65]"
+            },
+            {
+              "ball": "[4.410484022250922720543214732634554060726214645442441484559304354 +/- 7.34e-65]"
+            },
+            {
+              "ball": "[22.55946236974885643251194310861980061157683191330379174952028246 +/- 2.06e-63]"
+            },
+            {
+              "ball": "[138.8688557524580938997143416211263960511299089049430837868612127 +/- 4.86e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        },
+        {
+          "exact_old_phi_width": "3/128",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[1.041183145125297002481338890083261537979920699560648660336749183 +/- 5.20e-65]"
+            },
+            {
+              "ball": "[4.780643169834513673825288064422775275068913132779811074031564229 +/- 2.50e-64]"
+            },
+            {
+              "ball": "[24.86855433597954509791139918190940919349720776871620544913105460 +/- 1.34e-63]"
+            },
+            {
+              "ball": "[157.1740356715932666019059795522317677974341316524050759881425999 +/- 1.89e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        }
+      ],
+      "complete_nonconstant_first_row": [
+        {
+          "exact_old_phi_width": "0",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.9355851193604788121129246250665759332331917069659855069450131836 +/- 5.00e-65]"
+            },
+            {
+              "ball": "[4.238391770336457569995914805100365110119639219860472504948787070 +/- 1.03e-64]"
+            },
+            {
+              "ball": "[21.50675177128593612865263505592711396713696094864601262505581126 +/- 3.89e-63]"
+            },
+            {
+              "ball": "[130.7288883405984434144177486207060132848868850747321531409376630 +/- 2.64e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        },
+        {
+          "exact_old_phi_width": "1/128",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.9693644364748412789124895984411469862109753125140295602618871907 +/- 2.43e-65]"
+            },
+            {
+              "ball": "[4.410484022250922720543214732634554060726214645442441484559304354 +/- 7.34e-65]"
+            },
+            {
+              "ball": "[22.55946236974885643251194310861980061157683191330379174952028246 +/- 2.06e-63]"
+            },
+            {
+              "ball": "[138.8688557524580938997143416211263960511299089049430837868612127 +/- 4.86e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        },
+        {
+          "exact_old_phi_width": "3/128",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[1.041123154292814021276817979104944277237733199560648660336749183 +/- 5.20e-65]"
+            },
+            {
+              "ball": "[4.780643169834513673825288064422775275068913132779811074031564229 +/- 2.50e-64]"
+            },
+            {
+              "ball": "[24.86855433597954509791139918190940919349720776871620544913105460 +/- 1.34e-63]"
+            },
+            {
+              "ball": "[157.1740356715932666019059795522317677974341316524050759881425999 +/- 1.89e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        }
+      ],
+      "complete_second_row_epsilon_plus": [
+        {
+          "exact_old_phi_width": "0",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.2642312792813624325465776463414574157245376953056633230611664434 +/- 3.46e-65]"
+            },
+            {
+              "ball": "[2.203045800705203242706876969394644280559381919762458726705530419 +/- 6.61e-65]"
+            },
+            {
+              "ball": "[19.19511937432384011752967988055467869938051555875975486802197187 +/- 3.80e-63]"
+            },
+            {
+              "ball": "[178.0297818178767541890798108023695939024498341549641993322183262 +/- 6.67e-63]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        },
+        {
+          "exact_old_phi_width": "1/128",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.2820427973184136617172043311123072513766912552072597335647376613 +/- 2.66e-65]"
+            },
+            {
+              "ball": "[2.358587614958129820244910949600657607251700952160671405079247031 +/- 4.78e-64]"
+            },
+            {
+              "ball": "[20.64281752782354009406521509086335981459269277311618980853218134 +/- 4.13e-63]"
+            },
+            {
+              "ball": "[192.8026002882766918555008741452703810300906051519524346899351552 +/- 1.82e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        },
+        {
+          "exact_old_phi_width": "3/128",
+          "derivative_orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "complete_joint_Wiener_derivative_upper": [
+            {
+              "ball": "[0.3215432802919009780439920276780403370284886591030059286670859536 +/- 2.26e-65]"
+            },
+            {
+              "ball": "[2.705983846135385839935844386871989709636907954444394665281231379 +/- 1.32e-64]"
+            },
+            {
+              "ball": "[23.91214139772435162133265396426382461005651739748237678663718420 +/- 6.22e-64]"
+            },
+            {
+              "ball": "[226.7092670550179593566452242612238144075155411998477819813504820 +/- 3.09e-62]"
+            }
+          ],
+          "normalized_angular_measure": true,
+          "physical_derivative_multiplier": "4ij",
+          "no_finite_output_projection": true
+        }
+      ],
+      "exact_carrier_sign_rule": {
+        "fb_minus": "fb_plus",
+        "fa_minus": "-fa_plus",
+        "same_complex_delta_without_conjugation": true
+      },
+      "complete_Fourier_support": {
+        "first": [
+          -384,
+          384
+        ],
+        "second": [
+          -384,
+          384
+        ],
+        "proved_max_absolute_label": 384,
+        "physical_multiplier": 4,
+        "noncircular": true
+      },
+      "complete_coefficients_enclosed_uniformly_before_sum_over_output_modes": true,
+      "parameter_reality_not_assumed": true,
+      "no_projection_back_to_background_degree96": true,
+      "old_circle_I_J_and_distributional_reference_seams_not_removed": true,
+      "independent_even_mean_equation_retained": true,
+      "genuine_new_w1_not_yet_solved": true,
+      "whole_root_piece_source_norm_proved": false,
+      "full_high_BVP_inverse_proved": false
+    }
+  }
+}
