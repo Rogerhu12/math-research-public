@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：7434228ac45d410812b3beee5ac2ac5d506f1884；2026-11-15 21:20:26 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
+- 最近已读规则提交：ffcd9085652f73f1adee7a839024390e7bc8d3a4；2026-11-15 21:21:14 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -20,7 +20,7 @@ R1–363、365–560、562–653、655–711、713–827已登记；R364/R561/R6
 
 R816/R820：固定E−11:y²=x³−11由模5/17二下降付rank≥2；导子66/ray360、全2/3/11 Schwartz、标准S66半特征、CM7/13唯一质量核和V66已付。完整普通Katz/通常Selmer、惰性signed整基/同椭圆单位混合权及全Euler阶乘给r+corank全Sha≤2ord原半因子；原导数非零即rank2及全Sha[p∞]有限。原κ−赋值、第11参考Euler12/11、u6=−11/17和198→66尺度保。
 R821：V66含ad²、charge33/17仍在旧B33；Hurwitz全来源把F8准确降F4，裸聚合(4,−6,8,−6)。四高轴必要系统的Jacobian unit已付；Γ4保39carry、十二尾行及末窗quartic p³。倍点h(nz)不代n²h(z)，形式秩不代中央独立/坏Smith/全核F4。
-R824：完整G0/charge40格中k=r+13+2h−s<min(13,ell+13)给末块真单位6a²C0u0²e0²，不升p²；准确读取窗的同R分支强制28/−11/3，native ξ先保后相消。相对修正属于真实仿射格，原Theta次数帽不得混Y。四中央实际代入λβ°−(λL)B4⁻¹b，倍点native缺陷完整保。待核原W_D零角二次帽在k13的窄增补；不得扩到任意增广格。
+R824：完整G0/charge40格中k=r+13+2h−s<min(13,ell+13)给末块真单位6a²C0u0²e0²，不升p²；准确读取窗的同R分支强制28/−11/3，native ξ先保后相消。相对修正属于真实仿射格，原Theta次数帽不得混Y。四中央实际代入λβ°−(λL)B4⁻¹b，倍点native缺陷完整保。[零角增补](notes/2026-11-15-r824-canonical-zero-angle-thirteenth-row.md)已付原W_D二次帽下k13真左行与单位36a⁻¹C0u0²e0²；可提升须r+2h≥s+1，不扩到任意增广格。
 [纯幂全重数预算](notes/2026-11-15-general-central-blocks-and-pure-power-multiplicity-budget.md)：N块首核两门准确，全部m的最小条件主比2(N−2)/(N−1)<2，不能仅用F^N比率排全核。四原首必要系数须读完整[z^(p+1)]/真实K低卷积；重写residue不增加独立条件。
 
 ## 原高权类与第四CM槽

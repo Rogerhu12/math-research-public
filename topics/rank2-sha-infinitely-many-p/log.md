@@ -451,3 +451,5 @@
 - 2026-11-15 21:19:51 UTC：R826固定低权三重积/完整四CM槽及全纯槽finite-polynomial公式成稿即推；亲核Besser/DR原文、全坏位角色、degree12旧向量和Frob分母，HKM仅核范围不用作证明输入。H/open先全文归档压缩，继续实际companion/cohom投影、原canonical比较及指定非零，不由复秩1外推跨p。
 
 - 2026-11-15 21:20:25 UTC：提前请求本小时实际git pull --rebase、两README差异与规则15盘点，原21:30期限不变；R826已单独推306e1435。继续同R mirror迹、四原首必要行及第四槽真实companion，不把API head核对当实际pull。
+
+- 2026-11-15 21:21:12 UTC：R824原零角二次帽的第13行增补成稿即推；核完整四块阶乘/charge40、native起阶和实际仿射基项，得到原全首像左对36a⁻¹C0u²e² unit。严格限原W_D/逐列二次帽，继续真mirror迹与全中央，不扩到任意新增V格。
