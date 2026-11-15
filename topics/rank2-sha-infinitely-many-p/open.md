@@ -251,3 +251,12 @@ R724附录C已付全环G/h的精确加法交数及完整平移二阶平均，含
 
 [R732](results/R732-original-type-five-full-cm13-and-two-eigenlines.md) 给整个S34/type5的最小多项式(T+1)(T+ω²)(T³+ω)、两条真实z5规范线和全部三投影。当前原冻结差的primitive三维块不删，投影经过真实CM全纤维时须保同门及所有伴随。
 继续两线的有限Schwartz/period/Katz负一，以及两已有q715/ζ715加原核列的联合相交；每条单独仿射不交不等于合法联合不交。两者真实J2均1（reader值50不是J2），同门同cut只作线性组合，原外部补偿依旧完整。
+
+
+### R731 与同源两测试联合的新接续
+
+[R731](results/R731-specified-mirror-normal-jet-and-two-actual-smith-p-factors.md)已付指定镜轴B模F²唯一及ρ≤2κ−h。若z_c首位被吸收且k+ρ<r，原显示格的两核列首Bockstein独立，Smith恰为Rv个unit加两p；z_c非零则Rv+1个unit加一p。高ρ分支与全部不带t^r的原低列仍须同一个R联立，不能用显示子格代完整WD。
+
+公开43702293882对同q715、ζ715和两真实核列的完整type5联合系统给rank5/核1维；实际J2=a+b、全π4=a。下一步使用固定5×5子式及旧实际CM密度付整逆，保持所有原正规来源/cut；旧五差reader的50不是q715的真实J2。R734负责这个完整构造，R735负责两线全有限角色/共同period/Katz识别，R733负责原两Kummer点的p-adic对数独立。全paired-T外部相反补偿仍须单独控制。
+
+[Brandt note](notes/2026-11-15-first-wild-brandt-second-moment-and-synchronized-pairs.md)§7.3–7.4付原指定norm fibre的c_f>0及固定α的全原矩阵系数；δ=√−3二阶同步项准确等D_p。第一层全零因而需其余同步项补−2D_p，仍未排除真实p-dependent同步和。

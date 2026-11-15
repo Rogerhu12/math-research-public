@@ -320,3 +320,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R730](results/R730-specified-ramification-class-linear-contact-bound-and-actual-mirror-kernel.md)：已证明原h≤4a_F+8b+3Δ及临界指定分歧类非零，完整FH2商由真实镜轴连接核读取；指定列若被吸收则产生独立原首核，原核一维仍是明确条件。
 
 - [R732](results/R732-original-type-five-full-cm13-and-two-eigenlines.md)：已证明原整个五维型5的全CM13算子，最小多项式(T+1)(T+ω²)(T³+ω)、两条z5规范线及全部投影；完整primitive三维块、真实单位门与Katz负一识别仍保。
+
+- [R731](results/R731-specified-mirror-normal-jet-and-two-actual-smith-p-factors.md)：已证明指定镜轴类的唯一首法向阶ρ≤2κ−h及原低行Bockstein；在明确k+ρ<r门下，与cube组成真三角单位子式，显示饱和子格恰两条p因子。保高ρ分支、全WD其余低列、同R和两13carry，不冒完整原像非零。

@@ -1,6 +1,6 @@
 # 第一 wild tame 平均的真实二阶 Brandt 式与同步匹配
 
-日期：2026-11-15。**状态：下述原有限 incidence 恒等式、对角 Brandt 部分、实际二位匹配及全 Haar 二阶平均已证明。没有给原固定 CM 基点的严格正下界。局部示例只排除从径向树关系直接推该下界，不是原固定全局向量的反例。**
+日期：2026-11-15。**状态：下述原有限 incidence 恒等式、对角 Brandt 部分、原指定 norm fibre 的正主项、实际二位匹配及全 Haar 二阶平均已证明。没有给原固定 CM 基点的严格正下界。局部示例只排除从径向树关系直接推该下界，不是原固定全局向量的反例。**
 
 沿用 R716 及
 [第一 wild/Rubin 注](2026-11-15-original-first-wild-rubin-factor-and-central-order.md)
@@ -329,3 +329,167 @@ $$
 但在完整 $\Delta$ 中，余下的 $\delta$ 通常必须取随 $p$ 变化的全局代表。此时 (15) 的层、函数和点评值常数也可能随 $p$ 变化，不能仍写成统一 $O(p)$。此外，某个固定非实 $\alpha$ 是否满足 (16)，正是实际 anti-Fermat 条件，不由原固定 ray 决定。
 
 因此 (18) 是原同步矩阵中一个真正可计算的固定来源子族；它没有把整个 $C^{\rm t}C$ 变成径向 Brandt 多项式，也没有证明原 $\sum_t A_t^2>0$。原相消若发生，仍须由其余真实同步项补足 (19) 已确定的这些项。
+
+
+## 7.3 原指定 norm fibre 的对角主项严格为正
+
+本小节只补齐 (7) 的正系数，不将它升级为 (3) 的正性。沿用同一个原有理向量 $f$，并写其固定 quaternionic 层为 $U=\widehat R^\times$。原模形式 conductor 是
+$$
+N_0=36\cdot17^2,\qquad v_3(N_0)=2>v_3(D_K)=1.
+$$
+BHKO 的 Lemma 3.11 因而直接适用，给
+$$
+\operatorname{nrd}(U)
+  =N_{K/\mathbf Q}(\widehat{\mathcal O}_K^\times).
+\tag{22}
+$$
+这里保持原 $2,3,17$ 局部向量；Definition 3.10 的原 universal 向量在所有好惯性素数都相同。固定有理归一只乘一个非零常数，不改变本小节结论。
+
+令 $c$ 为 reduced-norm 映射。因为 $K=\mathbf Q(\omega)$ 类数一，任意有限 $K$-idele 可写成 $\alpha u$，其中 $\alpha\in K^\times$、$u\in\widehat{\mathcal O}_K^\times$。于是
+$$
+N(\widehat K^\times)
+ \subset\mathbf Q_{>0}^{\times}\operatorname{nrd}(U).
+\tag{23}
+$$
+因此 BHKO 的 $X_U^+$ 是**一个** norm fibre，而非若干未知 fibre 的并。原 $x_0$ 在这个分量：其固定 CM 矩阵 $\varsigma^{(0)}$ 的 reduced norm 属于 $\mathbf Q_{>0}^\times N(\widehat K^\times)$，如该文 Proposition 5.8 证明所明示；在本曲线的 $2,3,17$ 均不分裂规范中，好惯性处的零深矩阵还具有行列式一。故
+$$
+X_U^+=c^{-1}(c(x_0)).
+\tag{24}
+$$
+
+原 $\psi_{17}$ 的根号为 $+1$。BHKO Proposition 5.12 对这个原 universal 向量给
+$$
+f|_{X_U^+}\ne0,\qquad f|_{X_U^-}=0.
+\tag{25}
+$$
+这是固定向量的分量定理，不是关于随 $p$ 变化的第一层周期的非消失断言。它也可由固定辅助惯性素数的深偶层非零推出：primitive 角色消去 stabilization 的旧层项，而类数一及偶深度保持 (24) 的原 norm fibre。无需将深度阈值对变化的 $p$ 一致化。
+
+用本篇 (7) 的正确稳定子权重，设
+$$
+c_f=
+\frac{\displaystyle\sum_{x\in X_U^+}w_x^{-1}f(x)^2}
+     {\displaystyle\sum_{x\in X_U^+}w_x^{-1}},
+\qquad
+w_x=[B^\times\cap xUx^{-1}:\mathbf Z^\times].
+\tag{26}
+$$
+$f$ 是实有理向量，所有 $w_x^{-1}>0$；由 (25) 得
+$$
+\boxed{c_f=(\Pi_{\rm norm}f^2)(x_0)>0.}
+\tag{27}
+$$
+所以对所有充分大的原好惯性 $p$，
+$$
+\boxed{
+D_p=\frac{c_f}{3}p(p+1)+O_{f,U}(p)>0.
+}
+\tag{28}
+$$
+这里的阈值和误差常数固定，不依第一 wild 角色或其第二位。
+
+保留实际异分支同步和
+$$
+E_p=\sum_{\substack{\delta\in\Delta\\\delta\ne1}}
+       \sum_{g\in G_2}f(x_2(g))f(x_2(\delta g)).
+$$
+则原第一层全零仍准确等价于
+$$
+D_p+E_p=0.
+\tag{29}
+$$
+在该情形，(28) 只迫
+$$
+E_p=-\frac{c_f}{3}p(p+1)+O_{f,U}(p).
+\tag{30}
+$$
+它没有排除这个真实、随 $p$ 变化的同步补偿。§7.2 的固定 $\alpha$ 子族仍不足以估计全部 $E_p$；§5 的全 Haar 平均亦不能替换它。
+
+本小节的外部输入只用 BHKO 同一
+[原文](https://arxiv.org/html/2408.13932v3)
+的 Lemma 3.11、Definition 3.10、Proposition 5.8 中的原 CM 基点规范以及 Proposition 5.12；类数一到单一 norm fibre、(26)–(30) 是上面的完整推导。没有新增计算或中央零条件。
+
+
+## 7.4 固定代数同步项的指定平均与原局部系数
+
+在本篇原向量上，§7.1 的 norm-fibre 与全内积之间还可准确比较；这一步不是对任意局部测试向量的断言。
+
+$s_\alpha$ 与原共轭嵌入的 $\widehat{\mathcal O}_K^\times$ 交换。故
+$$
+g_{0,f}^{-1}\iota(\widehat{\mathcal O}_K^\times)g_{0,f}
+ \subset U_\alpha\subset U.
+$$
+取 reduced norm 并用 (22)，上下包含迫
+$$
+\operatorname{nrd}(U_\alpha)
+ =\operatorname{nrd}(U)
+ =N(\widehat{\mathcal O}_K^\times).
+\tag{31}
+$$
+所以细化层的原 plus norm fibre 正是 $X_U^+$ 的完整逆像，没有新增 norm 分量。又 $\operatorname{nrd}(s_\alpha)$ 是 $K$-范数，右移保持这个分量。由 (25)，$f$、$R(s_\alpha)f$ 及 $F_\alpha$ 全部支撑于同一个原 plus fibre。
+
+在共同 adelic quotient 上用同一 Haar 测度；将它推至两个有限层时，自动带各自正确的稳定子权重。原 plus fibre 的 Haar 质量不随层细化改变。因此
+$$
+\boxed{
+(\Pi_{{\rm norm},\alpha}F_\alpha)(x_{0,\alpha})
+ =c_f\,\mathcal K_f(\alpha),\qquad
+\mathcal K_f(\alpha)=
+ \frac{\langle f,R(s_\alpha)f\rangle}{\langle f,f\rangle}.
+}
+\tag{32}
+$$
+这付清的是原指定 fibre，而不是把一个任意 CM 点换成 Haar 随机点。代回 (19)，对固定 $\alpha$ 且满足完整 $\ell_p(\alpha)=0$ 的 $p$，
+$$
+\sum_g f(x_2(g))f(x_2([\alpha]_p g))
+ =
+ \frac{c_f}{3}p(p+1)\mathcal K_f(\alpha)
+ +O_{\alpha,f,U}(p).
+\tag{33}
+$$
+
+本曲线的原坏素数 $2,3,17$ 全不分裂，且在 conductor 中都属于 BHKO Definition 3.4(b) 的部分。因此原 quaternionic test vector 在这些地点**由定义**固定于相应共轭 $K_\ell^\times$；局部矩阵系数确为一，并非把原 $\psi_{17}$ 的坏位角色任意删掉。好惯性地点的 $K_\ell^\times$ 是中心与 $\mathcal O_{K,\ell}^\times$ 的乘积，亦固定球向量。无穷表示平凡。于是只有分裂素数有非平凡因子。
+
+对 $\ell=\mathfrak l\bar{\mathfrak l}$，置
+$$
+e_\ell(\alpha)=
+ |v_{\mathfrak l}(\alpha)-v_{\bar{\mathfrak l}}(\alpha)|.
+$$
+原纯张量矩阵系数给
+$$
+\boxed{
+\mathcal K_f(\alpha)=
+ \prod_{\ell\ {\rm split}}\Phi_\ell(e_\ell(\alpha)),
+}
+\tag{34}
+$$
+其中仅有限因子不为一，而且
+$$
+\Phi_\ell(0)=1,\qquad
+\Phi_\ell(1)=\frac{a_\ell(E_{17})}{\ell+1},\qquad
+\ell\Phi_\ell(e+1)+\Phi_\ell(e-1)
+ =a_\ell(E_{17})\Phi_\ell(e)\quad(e\ge1).
+\tag{35}
+$$
+(34) 的 $a_\ell$ 是原曲线的真实 Hecke 特征值，包含其固定 $17$-local 算术；不能换成 $E_1$ 的特征值。$\alpha$ 或其逆给相同 Cartan 距离，故 (14) 的逆号不改变 (34)。
+
+最后，取固定 ramified 元素 $\delta=\sqrt{-3}$。其类 $d_0=[\delta]_p$ 对 $p>3$ 是 $\Delta$ 中的非平凡二阶元，且 $\ell_p(\delta)=0$。因 $\delta$ 只有 ramified/nonsplit 非中心分量，上述原局部不变性直接给
+$$
+R(s_\delta)f=f.
+$$
+所以这一个同步项不只是有主项，而是全量准确等于对角项：
+$$
+\boxed{
+f(x_2(d_0g))=f(x_2(g)),\qquad
+\sum_g f(x_2(g))f(x_2(d_0g))=D_p.
+}
+\tag{36}
+$$
+这也是原 $\Delta^{\rm alg}$ 的二阶作用，和 BHKO (5.5) 一致。因此原全第一层零会迫更精确的剩余补偿
+$$
+\boxed{
+\sum_{\delta'\in\Delta\setminus\{1,d_0\}}
+ \sum_g f(x_2(g))f(x_2(\delta' g))
+ =-2D_p.
+}
+\tag{37}
+$$
+本节没有估计 (37) 的左端。对随 $p$ 增长的其余全局代表，细化层误差仍不能从 (33) 冒作统一常数；固定 $\alpha$ 的可读性和全部同步和的控制依然不同。

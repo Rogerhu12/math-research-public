@@ -86,3 +86,7 @@ R724附录B：原primitive理想射线、严格正径向因子及固定短方向
 - R724 附录C：已证明原全O/p²的G/h准确加法交数（含非零p倍），原ψ17高斯指定零平移与完整平移二阶平均分别保留，未推出原严格正性。
 
 - [R732](../results/R732-original-type-five-full-cm13-and-two-eigenlines.md)：已证明原整个五维型5的全CM13算子，最小多项式(T+1)(T+ω²)(T³+ω)、两条z5规范线及全部投影；完整primitive三维块、真实单位门与Katz负一识别仍保。
+
+- [R731](../results/R731-specified-mirror-normal-jet-and-two-actual-smith-p-factors.md)：已证明指定镜轴类的唯一首法向阶ρ≤2κ−h及原低行Bockstein；在明确k+ρ<r门下，与cube组成真三角单位子式，显示饱和子格恰两条p因子。保高ρ分支、全WD其余低列、同R和两13carry，不冒完整原像非零。
+
+- Brandt note §7.3–7.4：原指定norm fibre的对角主系数严格正；固定代数同步项由原split Hecke球系数读取，原δ二阶项全量等D_p，其余全同步补偿仍保。
