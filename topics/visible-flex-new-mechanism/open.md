@@ -122,10 +122,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。下一R330评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
 
 
-### R330/R335：两个真实内部退化flux与整T已同时支付，续整包量
-
-[R330](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)对R324最终实际正解析prefactor包用z=p^(2/3)找到Af0且p,r>0的真点。原K=−r⁴/3−2Lf(Puu)/3，保真实尾/平台修正，通量精确−8a³(a²−b²)r⁵/45；两个对应实际copy与δK给−10ρ0⁵ρ1⁵C²(t1−t0)非零。成本−8/−7保R323十self；R297其余8T单位作真有限Laurent投影后，20×20块三角联付wholepure/十self/整T/两flux。R222/R302保所有基准与固定芽/profile/点，改变全局geom后用真实m*重取wc，flux规范不变。全T0只把平台化成逐q_i0，尚未付全部q/Ve/其他点/原特解/13同行；R335续原整包总flux而非再数行。
-
 
 ### Norm-memory首实际已付，下一同trial扩池与完整SOC重绑
 
@@ -134,7 +130,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
 
-[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R330两partial flux只保十个self，不能与本全E控制直接相加；具体δK的全Q可能非零，须真联合kernel/增强控制。R335继续原Ω完整Green尾，不以Q0冒全mixed或period0。
+[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
 
 
 
@@ -148,6 +144,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R335](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)全响应5Ω−16∫u‴πV=4C_tail保真二次尾。新[R338](results/R338-weight-minus-six-pure-response-total-flux-and-exact-tail-coordinate.md)逐原20标签手算尾，复用R207原三维pure坐标与完整Jacobi关系，C_tail=μ0M3ℓ_tail(πV)/6、ℓ(aρ0+bρ2+dρ3)=a+b+3d。故全13维R−6∩kerπ的整包Ω=0；K全部δ串亦Ω0但不授Q0。限定读出A=Ω−16Lπ/5−2μ0M3ℓ(π)/15消R−6，可真权投影得全R annihilator；尚未证它在U非零。下一读取真实U−6成本的完整输出，不重旧pure秩/13核；一般权/整circle两period与全E联合仍欠。
 
 
-### R336：原两flux后继的whole-self成本必须同账
+### R340：wholeE核局部响应与两实际Af通量已真联合，续全period
 
-[R336](results/R336-self-cost-of-the-flux-successor-prevents-naive-joint-control.md)从K原仿射尾A−8xI与完整δ全部输入项给Q(K)=0、Q(δK)=2∫u″²u‴²>0。故原两列span与kerE交只有K，两对应包保E时的像仅R(ρ0⁵C*,ρ1⁵C*)；当前E0背景需F0/ρ0⁵=F1/ρ1⁵才可只用此模块清双flux。R330原20门/det仍真，不能与R333wholeE控制直接拼接。下一须找真kerE第二列，或把self补偿的两flux代价纳入联合满射；不由本二维限制宣全R不满。
+[R340](results/R340-local-whole-pure-self-kernel-and-two-actual-degenerate-flux-controls.md)从完整[P,S]=−J(a″b″c″)给K̃=BP[P,S]/3及H̃=δK̃，π/全Q均0；任意不交rank-one实际圆上完整输出局部，无跨包/右尾。两对应实际Af点的通量是ρj⁵C*与−10xjρj⁵C*，C*=−8a³(a²−b²)r*⁵/45非0，原2×2det准确。只沿R333原E商构造截面，所有附加通量原型/桥/基准保留，增广响应基含两新列，有限复制收缩得(E,F0,F1)(S)=E(U)×R²。同一新全局几何保指定有理芽/最终profile和点，再以真实m*重取wc；Lf规范对两flux0，wholeQ同时付当前所有微包二次平台。R336旧两列限制仍真；NG0=0未发表推测已由NG0=5BPH_hook/3纠正。下一其他Af点、Ve、整包Ω、仿射平台/右常数、完整period像与13同k/所有段，不以两点替全period。R338限定annihilator的真实U−6值正接着处理。

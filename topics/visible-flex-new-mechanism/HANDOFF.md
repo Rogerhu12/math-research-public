@@ -29,7 +29,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人工已付。全Rp0首项不可删；72/81非rank，原period/Green/解析端iff不授未算门零。
 
-**R281解析端**：ψ乘正解析prefactor母给有限阶内部p/Af零点，真Tf/尾与共轭端germ有限iff均保；平台/flux仍须实付。
+R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 **R283–305**：旧rank-one有限N全third/全二层/72面积及40/42门控制真；R304完整C²基线非零排该类，不再加频率/F。原尾/端/有限基准见对应结果，不能推广弱rank-two。
 
@@ -43,11 +43,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R308–339弱hook通道**：Af0曲段给真rank-two/单hook0；三矩八copy完整third。R319/320同向/朝外、R328无常项5/2类已排，保原范围。R331 f0+cχ_R、c=O(L)/R=ηL与三宽Vandermonde补包cost O(L−1)，保负Ψ并付旧M三矩/新A0；R332真平移/反射12copy付A1。R334两α/Fκ±四实际强模块正锥R²，I2/Ψ真缩放Λ−5/Λ−7，正权Λ5付A2只耗Ψ O(Λ−2)。R337第三B0真平移多(2χ/3)sCθ，同C<0正中心架构严格非0，保该否定。**R339异号模块已完成**：真反向core使j0翻号、J/K/K1不变，原c线性方程/宽恢复/三补矩/R320全R²正锥得到C+>0且完整ψ+有限。固定负块最终X−，正块最终足够右有限X+，取w+=−C−X−/(C+X+)>0清B0，Ψ成本O(1/X+)保负储备；此后不能共同平移。R334四模块清残A2且B0全θ0，再全72零controller/原F★有限N清Ψ/三directed/指定层。因此同一新seed/g圆旧M三矩、新A三矩、B0、third及指定层全θ已付；B1/B2及其余全第四未付。
 
-**R312–330新端芽/同规范**：固定h=he(1+εσ²),κ≠0,ω常芽，真实安装/新seed。R324全19门在同实际圆有限N归We；R326八copy全E8 cubic三矩0、真实入矩阵X的wc=−XD清完整奇部/保平方初值，再全局第三Gram付We。指定完整端口ruling真零，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327当前解析最细包kerLf=每包u_i/平台χ_i+gap，gap对13门盲、平台真尾(0,−2A,2B)保；两特解后的13×2n兼容与降秩整除仍欠。**R330真实两退化flux已付**：最终同母两copy有Af0点p,r>0，原K值−8a³(a²−b²)r⁵/45非0；K/δK平移−10tK给准确2×2行列式。其−8/−7权保旧十self，再R297真谱投影8个T单位，同一20×20块三角实际wholepure+10self+整T+两flux0。先固定芽/profile/点，再R302全局几何联付；新m*的wc对flux0。**R336同成本联合限制**：原K左尾A−8xI，δK的完整Q=2I>0（I=∫u″²u‴²），span(K,δK)∩kerE仅K；两flux保E时只一维，不能直接叠R333全E控制。尚欠真kerE新列/含补偿成本的联合像；其余Af点/Ve、period像、13同k及其它路径段仍欠。
+**R312–340新端芽/同规范**：h=he(1+εσ²),κ≠0,ω常芽真实安装为新seed。R324同实际圆有限N全19门归We；R326八copy全E8 cubic三矩0，真实m*的wc=−XD清指定端口完整奇部，再同全局第三Gram付We；period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327当前解析最细包kerLf=每包u_i/平台χ_i+gap，gap13盲/平台真尾(0,−2A,2B)；两特解后13×2n兼容及降秩整除仍欠。R330两对应真实Af0点p,r>0与K/δK通量det真；R336 QδK=2I>0，原二维模块保E只一维，否定保留。**R340真wholeE核替代已付**：τS=[P,S]=−J(a″b″c″)，K̃=BPτS/3的完整响应−d²/3+(2/3)J[(φ″²)′d]；任意不交rank-one包上K̃=−Σa²(a²−c²)r⁴/3、H̃=δK̃=Σa²(a²−c²)(10xr⁴−8u′r³)/3，cross/右尾全0。两列π/全Q0，实际flux为ρj⁵C*及−10xjρj⁵C*，非zero det。沿原E商保新增通量全部原型/桥/基准作同一有限截面，真实(E,F0,F1)(S)=E(U)×R²；同新几何/固定芽profile/新m*的wc可兼wholepure/wholeQ/全部二次平台及两Af点flux0。G0=−δ(BPH_hook)/6且NG0=5BPH_hook/3，未发表NG0=0推测已纠正。其它Af/Ve/整包Ω/仿射尾/两period像/13同k及其它段仍欠。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main db77fc6b448a8b3850e80062bbfbbd88c70d4caa，双README blob同。API读取不冒实际pull。
+断连API复核main b63be8f9a152e7920028973b612a6cd77ed4651f，双README blob同。API读取不冒实际pull。

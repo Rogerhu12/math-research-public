@@ -571,3 +571,12 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 [完整诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)只消费run43741276060原11模型。m1/5/10都在新增行后返回，未尝试SOC；m5/10只各新增两网一个soft行，遗漏hard=0，原已有fine curvature+det行线性预测约+1e−7而真实约−9.964e−8/−1.451e−7，不能以漏掉曲率点解释。m1另漏4个fine strip hard。全部11试点metric遗漏项0、真实e/f非线性仍在。
 
 记忆83初次重建行、85各模型末行、92实际LP携带行不是独立方向数，本轮实际新增2方向；8次新metric行J0.1044s、12LP3.2630s、23方向11.5004s。active含优化中checkpoint，首J在active之前，112.835s差只能定位于初始化/首J与末复验/报告，缺分段字段不重跑补数。下一同一失败y扩池后重新绑base/J/primary/complete模型，再以同一y真残差尝试原SOC；分开主模型与重绑报告、保原新行记录/17guard/同预算，尚未运行。
+
+
+## R340：完整pure/self核的局部双响应同时支付两个真实Af通量
+
+[R340 全原式与真实截面](results/R340-local-whole-pure-self-kernel-and-two-actual-degenerate-flux-controls.md)直接给τS=[P,S]=−J(a″b″c″)，BPτS=−d²+2J[(φ″²)′d]。K̃=BPτS/3及H̃=δK̃在任何不交rank-one值包上为完整局部−Σa²(a²−c²)r⁴/3与Σa²(a²−c²)(10xr⁴−8u′r³)/3，全cross/左右尾准确0；任意紧u均π0/完整universalQ0。真实对应两包的Af0点给flux(K̃)=ρj⁵C*、flux(H̃)=−10xjρj⁵C*，C*=−8a³(a²−b²)r*⁵/45≠0，二阶det严格非0。
+
+增广响应像为E(R)×R²，只在R333原E商作真实截面，新增flux成本/原型/桥/复制基准全留；有限整数与收缩得到(E,F0,F1)(S)=E(U)×R²及紧集C1截面，不假固定点flux仿射不变。R302增强几何保固定有理芽/最终profiles/查询，wholepure/wholeQ/两flux同一新几何真零；原全Q还付所有微包二次平台，真实m*的同wc不改两flux。其他点/Ve/整包量/两period成员与13同规范仍欠。
+
+原δK−2G0确等H̃，但完整NG0=5BPH_hook/3≠0，不能以self平移常数推全成本N0。未发表推测已明确纠正；R336旧K/δK模块限制仍真。全纸面完成即推，无新执行。
