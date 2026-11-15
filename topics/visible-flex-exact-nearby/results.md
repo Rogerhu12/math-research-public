@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [BG：精确leading transport逆列与五项完整density0源](results/R133-supplement-exact-inverse-leading-transport-and-five-density-zero-sources.md)：有序相乘准确消去c_T*y并保留full q修正、SB物理频率逆与全部均值；新20正泛函只更新五整项，另26逐字HP。解析证明已核，数值待HP实际回执后公开Actions。
+
 - [准确normalized p列与完整十h源](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)：B_jp0保principal与y³/y²完整修正，h1消费DG p既成jets；η^-1、两Γ/M窗、SQ/RQJL/rQmean/uJL/uh两density共十整项，另21保最新S1/ER。8101e7e6，actual待新消费者。
 
 - [S1实际第一列density1三完整项](results/R133-supplement-actual-saved-genuine-first-column-density-one-SV-sources.md)：43724817779/1 child0/21，六DG/RV jets仅读、Γ1=M1<134108.745，SV<3.856841e8/V0mean<2667512.738/uJB<229898.081，pair<2.054790e10；其余28原字ER，完整mean/全部density0保。12263fd8/10784516，旧数学0。
