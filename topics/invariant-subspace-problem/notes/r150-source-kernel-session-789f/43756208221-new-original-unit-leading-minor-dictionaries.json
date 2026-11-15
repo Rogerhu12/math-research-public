@@ -1,0 +1,282 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "new-original-unit-leading-minor-dictionaries",
+  "executionSourceCommit": "d8a5f6d3232e1a580a0e309c8f443120b4c54d76",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-new-original-unit-leading-minor-dictionaries-789f.py",
+  "scriptSHA256": "653808b60f2c4a2d307e1546642892a3d4881d10033b00624e0296e452834dc7",
+  "argvTemplate": [
+    "--native-model",
+    "{work}/inputs/repo/native-normal-form-input.txt",
+    "--paid-full-receipt",
+    "{work}/inputs/repo/infinity-first-jet-receipt.json",
+    "--mapper-receipt",
+    "{scripts}/43740928483-higher-two-regular202-mappers-preparation.json",
+    "--left-receipt",
+    "{scripts}/43736746064-original-characteristic-zero-free13-projection.json",
+    "--full66-receipt",
+    "{scripts}/43756208221-infinity-complete-tenth-after-high-probe.json",
+    "--out",
+    "{work}/new-original-unit-leading-minor-dictionaries-receipt.json"
+  ],
+  "timeoutSeconds": 30,
+  "exitCode": 0,
+  "wallSeconds": 0.46469509700000344,
+  "fullTemporaryReceiptBytes": 6038,
+  "fullTemporaryReceiptSHA256": "e09e6aaeef8de337548e447ccf0c4b348dcf24347dffc6daa43cd2ea9cf8abb4",
+  "result": {
+    "allOriginalIndicesAndWeightsVerified": true,
+    "elapsedSeconds": 0.4074878119999994,
+    "format": "r150-new-original-unit-leading-minor-dictionaries-v1",
+    "outcome": "complete-original-minor-dictionaries-and-weight",
+    "status": "completed",
+    "parameters": {
+      "additional14OriginalSourceRowsOneBased": [
+        5520,
+        5521,
+        5522,
+        5523,
+        5524,
+        5525,
+        5537,
+        5538,
+        5539,
+        5540,
+        6154,
+        6168,
+        6171,
+        6184
+      ],
+      "additional14SourceWeightSum": 770,
+      "aiAssisted": "GPT-6 Astra Pro",
+      "all1007OriginalConstantPivotCoordinatesVerified": true,
+      "all3333OriginalPrebasisCoordinateRecordsVerified": true,
+      "all4367OutputWeightSum": 200200,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "binding": "28c53c39e757924c28a2c0b669641249a80e322cc8c9e4548960fc4dca9cc714",
+      "deleted13OriginalOutputMonomials": [
+        {
+          "indexZeroBased": 3001,
+          "monomialMomentIndices": [
+            9,
+            10,
+            10,
+            10,
+            10
+          ],
+          "outputWeight": 50
+        },
+        {
+          "indexZeroBased": 3002,
+          "monomialMomentIndices": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "outputWeight": 50
+        },
+        {
+          "indexZeroBased": 4002,
+          "monomialMomentIndices": [
+            9,
+            10,
+            10,
+            10
+          ],
+          "outputWeight": 40
+        },
+        {
+          "indexZeroBased": 4003,
+          "monomialMomentIndices": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "outputWeight": 40
+        },
+        {
+          "indexZeroBased": 4288,
+          "monomialMomentIndices": [
+            9,
+            10,
+            10
+          ],
+          "outputWeight": 30
+        },
+        {
+          "indexZeroBased": 4289,
+          "monomialMomentIndices": [
+            10,
+            10,
+            10
+          ],
+          "outputWeight": 30
+        },
+        {
+          "indexZeroBased": 4353,
+          "monomialMomentIndices": [
+            9,
+            9
+          ],
+          "outputWeight": 20
+        },
+        {
+          "indexZeroBased": 4354,
+          "monomialMomentIndices": [
+            9,
+            10
+          ],
+          "outputWeight": 20
+        },
+        {
+          "indexZeroBased": 4355,
+          "monomialMomentIndices": [
+            10,
+            10
+          ],
+          "outputWeight": 20
+        },
+        {
+          "indexZeroBased": 4363,
+          "monomialMomentIndices": [
+            7
+          ],
+          "outputWeight": 10
+        },
+        {
+          "indexZeroBased": 4364,
+          "monomialMomentIndices": [
+            8
+          ],
+          "outputWeight": 10
+        },
+        {
+          "indexZeroBased": 4365,
+          "monomialMomentIndices": [
+            9
+          ],
+          "outputWeight": 10
+        },
+        {
+          "indexZeroBased": 4366,
+          "monomialMomentIndices": [
+            10
+          ],
+          "outputWeight": 10
+        }
+      ],
+      "deleted13OutputWeightSum": 340,
+      "fullNew4354SquareMatrixBuilt": false,
+      "inputIdentity": {
+        "coefficientRing": "Z_(31)[[u]]",
+        "inputs": {
+          "full66_receipt": {
+            "bytes": 15355,
+            "sha256": "bd3bd1c9395562b2b34baed09864f2b2a5650f4f3a9da949c35f843e0b2cf0ad"
+          },
+          "left_receipt": {
+            "bytes": 52012,
+            "sha256": "2057846f5adb75ed84f20a144f4cb2da436f9b1db5674612ac376f9b4b503248"
+          },
+          "mapper_receipt": {
+            "bytes": 25756,
+            "sha256": "17bc63e12c112de4ec35e443cb6fc4897fab0c6ed5c3711cf9509ddcb634bc52"
+          },
+          "native_model": {
+            "bytes": 128145,
+            "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+          },
+          "paid_full_receipt": {
+            "bytes": 72072,
+            "sha256": "d904b1afcd6feb6d07e310e758869aa345342f7d013773aa0c433203291c438e"
+          }
+        },
+        "originalColumnsSHA256": "5d9d416096e2c6d0a8cf10a7a95ad83453d0a8c8e98758b3d7ab19f93720124e",
+        "originalRowsSHA256": "c9c64296a63ec83c67c97fbcbdc150152b6fbd823ab2ecd9de515797ed6fb141",
+        "source": {
+          "bytes": 10513,
+          "sha256": "653808b60f2c4a2d307e1546642892a3d4881d10033b00624e0296e452834dc7"
+        },
+        "theorem": "full integral Smith plus same original source free202 graph and original free13 left graph",
+        "version": "new-original-unit-leading-minor-v1"
+      },
+      "largeDataUploadedOrCommitted": false,
+      "leadingCoefficientComputedNumerically": false,
+      "naturalHomogeneousDegree": 8835,
+      "newComplementSourceSetSHA256": "36d196a8ad72f10bd50c84d6a1e6cedd8baf42798173774a7413f9d56e33c15e",
+      "newMatrixEliminationPerformed": false,
+      "newOriginalColumnSetSHA256": "5d9d416096e2c6d0a8cf10a7a95ad83453d0a8c8e98758b3d7ab19f93720124e",
+      "newOriginalRowSetSHA256": "c9c64296a63ec83c67c97fbcbdc150152b6fbd823ab2ecd9de515797ed6fb141",
+      "noLargeDeterminantComputed": true,
+      "noNewMatrixElimination": true,
+      "oldOrder243MinorUnchanged": true,
+      "originalP4340SHA256": "94c940a7b5ff4768e7e1b0820033eca3cabf19bb8958c7cab52c1e1eefb09837",
+      "originalTail1848SHA256": "c4a2b6d005c23a2df7ea71ceef3fea9f1f7dd46ad1e361077e85d571c98c0148",
+      "retained4354OutputWeightSum": 199860,
+      "sameE216AndCompleteFormalFree202DictionaryVerified": true,
+      "samePaid4340SourceAndOutputDictionariesVerified": true,
+      "sourceJ4354WeightHistogram": {
+        "Gamma:degree0": 6,
+        "Gamma:degree1": 66,
+        "Gamma:degree2": 315,
+        "Gamma:degree3": 634,
+        "N:degree0": 11,
+        "N:degree1": 121,
+        "N:degree2": 671,
+        "N:degree3": 2530
+      },
+      "sourceP4340WeightHistogram": {
+        "Gamma:degree0": 6,
+        "Gamma:degree1": 66,
+        "Gamma:degree2": 315,
+        "Gamma:degree3": 620,
+        "N:degree0": 11,
+        "N:degree1": 121,
+        "N:degree2": 671,
+        "N:degree3": 2530
+      },
+      "sourceWeightSum": 208695,
+      "theoremAffineDeterminantDegree": 8769,
+      "theoremDeterminantInfinityOrder": 66,
+      "theoremLeadingCoefficientIs31Unit": true,
+      "unitSourceWeightSum": 207925
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 21:21:38 UTC",
+      "beforeReadCommit": "5525d02503d18cc16dbfbededefd80b3d77611c4",
+      "originMainAfterPull": "d8a5f6d3232e1a580a0e309c8f443120b4c54d76",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 21:21:39 UTC",
+      "beforeReadCommit": "d8a5f6d3232e1a580a0e309c8f443120b4c54d76",
+      "originMainAfterPull": "d8a5f6d3232e1a580a0e309c8f443120b4c54d76",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 54,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 18523,
+    "logicalJsonSHA256": "ceb01cbf401c2b5bcf0df3e0448c090e3930fe4b4164a3b7b22622334d2898b9",
+    "itemCount": 54
+  },
+  "lastRulesReadCommit": "d8a5f6d3232e1a580a0e309c8f443120b4c54d76",
+  "summaryExcludesRecomputableArraysOnly": false
+}
