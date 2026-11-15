@@ -223,34 +223,46 @@ def main():
     p.add_argument("--results", type=Path, required=True)
     p.add_argument("--recovery", type=Path, required=True)
     p.add_argument("--work", type=Path, required=True)
+    p.add_argument("--mathematical-source-commit")
+    p.add_argument("--originating-run-id")
+    p.add_argument("--originating-run-attempt")
     args = p.parse_args()
     checkout, results, recovery, work = [x.resolve() for x in (args.checkout, args.results, args.recovery, args.work)]
-    run_id, attempt = os.environ["GITHUB_RUN_ID"], os.environ["GITHUB_RUN_ATTEMPT"]
+    execution_run_id, execution_attempt = os.environ["GITHUB_RUN_ID"], os.environ["GITHUB_RUN_ATTEMPT"]
+    run_id = args.originating_run_id or execution_run_id
+    attempt = args.originating_run_attempt or execution_attempt
     if not run_id.isdigit() or not attempt.isdigit():
         raise ValueError("numeric run and attempt required")
     if os.environ["GITHUB_REPOSITORY"] != "Rogerhu12/math-research-public":
         raise ValueError("fixed public repository only")
     if not os.environ.get("GH_TOKEN"):
         raise ValueError("Actions secret GH_TOKEN is required for terminal git")
-    source_commit = os.environ["GITHUB_SHA"]
+    execution_source_commit = os.environ["GITHUB_SHA"]
+    source_commit = args.mathematical_source_commit or execution_source_commit
     authentication = base64.b64encode(("x-access-token:" + os.environ["GH_TOKEN"]).encode()).decode()
     git_environment = dict(os.environ)
-    git_environment.update(GIT_CONFIG_COUNT="2",
+    git_environment.update(GIT_CONFIG_COUNT="4",
         GIT_CONFIG_KEY_0="http.https://github.com/.extraheader",
         GIT_CONFIG_VALUE_0="AUTHORIZATION: basic " + authentication,
-        GIT_CONFIG_KEY_1="credential.helper", GIT_CONFIG_VALUE_1="")
+        GIT_CONFIG_KEY_1="credential.helper", GIT_CONFIG_VALUE_1="",
+        GIT_CONFIG_KEY_2="pack.window", GIT_CONFIG_VALUE_2="0",
+        GIT_CONFIG_KEY_3="pack.depth", GIT_CONFIG_VALUE_3="0")
     source = json.loads((results / "actions-source.json").read_text())
     expected = source["rules_sha256"]
     if set(expected) != set(RULES):
         raise ValueError("exact two README rules required")
     if source["source_commit"] != source_commit:
-        raise ValueError("same actual source commit")
+        raise ValueError("same actual mathematical source commit")
+    if str(source["run_id"]) != run_id or str(source["run_attempt"]) != attempt:
+        raise ValueError("same actual original mathematical run")
     work.mkdir(parents=True, exist_ok=True)
     publication = results / "publication"
     publication.mkdir(exist_ok=True)
     receipt_path = publication / "publication-receipt.json"
     state = {"format": "r150-saturated-third-page-terminal-publication-v1", "status": "preparing",
         "run_id": run_id, "run_attempt": attempt, "source_commit": source_commit,
+        "publicationExecutionRunId": execution_run_id, "publicationExecutionAttempt": execution_attempt,
+        "publicationExecutionSourceCommit": execution_source_commit, "mathematicsRerun": False,
         "allowedResultDirectory": PREFIX + "/" + run_id + "-" + attempt,
         "sharedResearchIndicesEdited": False, "forcePushUsed": False,
         "rulesAtSource": expected, "pulls": [], "pushes": [], "stagingPushes": [],
@@ -262,7 +274,7 @@ def main():
         # Command-scoped Git environment only: no expanded credential is written.
         command = ["git"] + list(arguments)
         proc = subprocess.run(command, cwd=checkout, env=git_environment,
-                              capture_output=True, text=True, timeout=180)
+                              capture_output=True, text=True, timeout=900 if arguments and arguments[0] == "push" else 180)
         safe_stdout, safe_stderr = proc.stdout, proc.stderr
         token = os.environ.get("GH_TOKEN", "")
         if token:
@@ -296,7 +308,7 @@ def main():
         git("switch", "-c", branch)
         git("config", "user.name", "github-actions[bot]")
         git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
-        last_read = source_commit
+        last_read = execution_source_commit
         def pull_and_check():
             nonlocal last_read
             before = last_read

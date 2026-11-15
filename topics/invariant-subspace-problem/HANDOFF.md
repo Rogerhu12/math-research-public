@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** c222cd0d19460da39a0de7c22f4995b441fba396（2026-11-15 01:49:50 UTC，Actions run43664823340实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43664823340-1.json。
+- **最近成功实际 pull 与已读规则提交：** 333bf2acca3bd48df1b1603df54f3d156647d72a（2026-11-15 02:01:00 UTC，Actions run43665608882实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43665608882-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -12,22 +12,19 @@
 
 2026-11-15本地执行器恢复；旧工作树的/dev/shm Git目录已失，原文件全部保留不改。独立math-research-public-main浅clone后实际pull到5eedb0f30ff0a3ddbfb2b837628060fa918774c8（00:02:13 UTC观察完成），两README blob未变；API只准备，root Actions仍实际pull/rebase/push。磁盘仅约240MB可用，大数学继续本库Actions，复用全部已成数据/cache。root独占主线；normal接完整Bsat高页，boundary/literature接固定测试同源恢复。
 
-## R150：完整第二页已成，立即执行第三
+## R150：第三九目标全局部正，立即回提原式
 
-全旧来源/SHA/工件/常数与仍开范围保[前H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；A为6188源/4367输出，char0/F31(s)泛秩4354。h0度24，H0=(s−2)h0不同；char0身份未证。旧197自然Hnat的九目标modp6负性不等于全S2负性，不重旧197/selector。
+此前完整来源/SHA/所有未闭范围保[前H](notes/2026-11-15-handoff-before-third-all-nine-local-positive-789f.md)及递归快照。原A为6188源/4367输出，char0与F31(s)泛秩4354；h0度24、H0=(s−2)h0不同，char0未证。完整S2包、204核、20→15→10→5及208后继源全已付；不重旧197/selector或第二页。
 
-[完整S2包](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)给imB=(imA:p²)，全原modp6等价B的h0t模p4成员；第一页相关像U9/U7二维/J=2I，严格限Z_(31)[[s−2]]。[204源核](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)和[20→15→10→5](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)保真形式像/free/全部canonical carry，原算术只p6。
+**[完整第二](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)** run43662590949的数据d6e44520已推：rank4、J2=2I4、截面15001…15004，九目标第二均负；完整208源核最高1次，相关商21。其457恢复1.539GB、artifact14140872540/SHA346e7909…、所有原缓存和源均保。**[共同目标线](results/R150-appendix-saturated-second-target-eigenline.md)** 给V13秩13、连九raw秩14，九余为ρ2的[1,28,16,11,7,7,4,1,11]倍，s作用2；完整13×9差来源已核。
 
-**[完整第二实绩](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)：** run43662590949/job132654950774（源5a2f870c，数据d6e44520）新数学24.687697673秒，前13阶段全复用。第二像rank4、J2=2I4，截面标签15001…15004；九目标均未第二相容，共同315 dual九值[1,28,16,11,7,7,4,1,11]非零。它未消未算第三像，不是全原modp6否定。全204原来源/15项整数与10有效余量/104自由检查已核；完整F=[I−TC,(s−2)T]208生成元、最高1次（含4个精确零列），下一相关商21维。
+**[完整第三新实绩](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)：** run43664532571/job132660882060，源39c27f127fa63240629ecb60fe8e13628fee631f。26输入/6旧包全部核，九新阶段全部完成，数学91.020765506秒、封存7.075531332秒。第三像rank2，208真来源、原17五次整除、104自由条件及全315九正身份全部实核；九flags全true。实际解仅第三标签20011/20012两常数列、旧第二四常数列及U9修正；ρ2第三系数1/16。KrylovMaximumPower1。原全局modp6/特征零/真实费用仍false或未计算，不扩大结论。
 
-457恢复1538941791B/全部cache全保、658存储文件零fallback；recovery artifact14140872540（run43662590949），1026794241B/SHA346e790996cae9e1eafc51d961a7213ed515a4deb9a426750c7f260d9c409a77。原partial296.093730956秒/record1670已完全接上；封存复用344旧压缩/21新，仅8.681513281秒。数据发布9次pull/9次push最终成功，两README每次无变；全部读提交见[接续记录](notes/2026-11-15-r150-saturated-second-actual-continuation-789f.json)，最后01c2202d。
+197恢复440770011B零fallback、254存储文件均保。recovery artifact14141428008（222409603B/SHA c76693e0c3502c12e9074aadcba395198762e0fb7d3effaac1105892aa84fe84）；results14141826650（224982858B/SHA e9f0b00a28ea9d0e52de3cde46cd9cc2d964ed2dc5f50dc31b573ee8d1668e53）。完整小系统70591B/SHA786333a4…，回执17757B/SHA3bb98210…；详情与全部实际SHA见[实绩索引](notes/2026-11-15-r150-complete-third-local-positive-actual-789f.json)。
 
-**第三立即接：** [完整S3覆盖/执行接口](results/R150-appendix-complete-saturated-third-source-coverage.md)已证，代码bb8d533/5f9d513已AST。26实际输入/6包、208真来源/21维商，contract SHA b83fed83760597dc2bd2fcf3390640fb41f48a9dbca58a24778ed97c74c1b9ae、manifest SHA a7b4f3911657e9ad34023938e1177265b6aeceb9b28add12a3e38c956fc02379 已冻；第三入口已实际push39c27f127fa63240629ecb60fe8e13628fee631f并HTTP204调度；run43664532571/job132660882060正在计算。复用第二L4/G/V/L3，禁止重20项或旧页；四native每30秒/512MiB、数学共300秒，部分继续真实cursor。
+**当前发布故障与恢复：** 第三数学完成，初次唯一数据分支git push在180秒处超时；尚无main数据提交，prepared a09650e03375，不当数学失败。实际pull读4a2824de，两README无变。根随本提交调度publication-only恢复：只取上述两工件，不重数学；push限900秒、pack.window/depth=0，仍真实pull/rebase/main push，非快进立即续循环。目标目录notes/r150-saturated-third-page-actions-789f/43664532571-1/。
 
-第三负dual若成立才排任意次数原AX=p²h0T modp6，且只相应排至多31²分母的char0多项式源，不排更高31或参数分母。局部正仍须全315/原17/真实费用。[第二正分支1058](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)仅条件定理，本次无正目标未执行；第三正的高一层恢复须另付。
-
-
-**[第二后共同目标线](results/R150-appendix-saturated-second-target-eigenline.md)：** 完整315小系统实际0.047953145秒读出，已付V13秩13、添九raw秩14；九余类为ρ2的[1,28,16,11,7,7,4,1,11]倍，恰s=2特征线，13×9真来源身份全核。故第三九flags应全同，仍逐个检查；mixed回执显式失败，不冒作数学结果。第二总结已实际push7a5ecbec，run43663804186。第三入口26冻结输入/6旧包，单数学300秒、只存新第三数据；先实际推唯一数据分支，再实际pull/rebase/push main，降低并发大包反复传送。账号01:42:18核12库/3活动job/0错误，低于20。
+**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。新1348仅推导中预算，尚非完成证书。共同线与全第三S3覆盖不排char0或关闭ISP。
 
 ## 实际边界：同源两费与完整返回
 

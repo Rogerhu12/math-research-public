@@ -1,0 +1,83 @@
+name: ISP R150 publish saved complete third sources without rerunning mathematics
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-saturated-third-publication-recovery-789f
+  cancel-in-progress: false
+
+jobs:
+  publish-third-recovery:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-publication-recovery-789f.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore actual complete third result bytes
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-third-page-results-43664532571-1
+          run-id: 43664532571
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-third-publication-recovery/results
+      - name: Restore actual complete third source and checkpoint bytes
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-third-page-recovery-43664532571-1
+          run-id: 43664532571
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-third-publication-recovery/recovery
+      - name: Bind the completed original run and current README rules
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-publication-recovery-789f.py
+      - name: Publish the saved data with actual pull and immediate non-fast-forward rebase
+        id: publication
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$RUNNER_TEMP/isp-r150-third-publication-recovery/results" \
+            --recovery "$RUNNER_TEMP/isp-r150-third-publication-recovery/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-third-publication-recovery/work" \
+            --mathematical-source-commit 39c27f127fa63240629ecb60fe8e13628fee631f \
+            --originating-run-id 43664532571 --originating-run-attempt 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: isp-r150-third-publication-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/isp-r150-third-publication-recovery/results/publication
+      - name: Require actual terminal publication of every saved result
+        if: always()
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP'])/'isp-r150-third-publication-recovery/results/publication/publication-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          print(json.dumps(r),flush=True)
+          if r.get('status')!='pushed':
+              raise SystemExit('Saved complete mathematics retained; actual data publication still requires continuation')
+          PYCODE

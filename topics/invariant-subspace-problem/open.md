@@ -132,3 +132,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **gap与过滤器。** 真递减Gq给dq耗散、Xi(e)²≤4dq和同固定测试误差≤Xi(r)√dq；它不提供移动gap速率。完整G保高返回，商核不冒充physical核。EME≤2E(I−E)、JMJ≤2J(I−J)及全部幂耗散保留，实际主L配对仍开。所有其它旧open维持原范围，普通ISP完成标准不变。
 
 **完整第二后九目标只余一条特征线。** [精确小系统读出](results/R150-appendix-saturated-second-target-eigenline.md)给V13秩13、连九raw秩14，九余类为ρ2的非零倍[1,28,16,11,7,7,4,1,11]，最小式s−2；全315的13×9原基差身份已保存。第三208完整来源必须全九同成败，仍逐列核；全部负才得原p²h0模p6任意次数否定，正则继续完整原来源回提。冻结第三入口已随本提交实际发布后调度，目标char0与ordinary ISP均未闭。
+
+**第三208来源已全九局部正，转原式全球化。** [完整第三实绩](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md) run43664532571数学91.020765506秒、相关第三像rank2，九目标全315身份均正；实际只用两条第三常数列、四条第二列及U9。原17/p6全局身份与费用尚未回提。原数据分支push180秒超时，全部197恢复已存工件，根正publication-only恢复，不重数学；normal接真实四P来源链和完整W2回补。

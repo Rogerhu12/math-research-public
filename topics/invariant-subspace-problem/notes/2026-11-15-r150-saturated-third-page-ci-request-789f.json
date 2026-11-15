@@ -99,7 +99,7 @@
   "workflow_source_sha256": {
     ".github/workflows/invariant-subspace-r150-saturated-third-page.yml": "9cdee86a46ee325849073922917b631e7adb6175f4d2c0cfc77e324a01511ba9",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py": "5b6627a01a5fdf9bd780ad4394ec779c94ea9f6d0428bd97d76b5884ceca0298",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py": "4c7c1e48ff7b3c3cde7bfd811a18176ebfe32e90750bf586b27535c6f6f31342"
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py": "53e708e88fe2f7b9f538b5ce6af62c9cdecde80d6b6a13cfe33526a1aae68ee8"
   },
   "entry_python_files": [
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.py",
@@ -177,5 +177,13 @@
       }
     ]
   },
-  "created_utc": "2026-11-15 01:43:07 UTC"
+  "created_utc": "2026-11-15 01:43:07 UTC",
+  "publication_recovery": {
+    "originalRun": 43664532571,
+    "mathematicsRerun": false,
+    "firstStagingPushTimeoutSeconds": 180,
+    "pushTimeoutSeconds": 900,
+    "gitPackWindow": 0,
+    "gitPackDepth": 0
+  }
 }

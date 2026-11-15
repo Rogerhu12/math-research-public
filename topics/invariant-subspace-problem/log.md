@@ -690,3 +690,8 @@
 - 按根规矩8把最近六篇完整已证明正文登记results/，保原notes及冻结SHA，更新H/open/results的正式入口。
 - 第三入口实际push39c27f12、run43664532571/job132660882060；01:44:53实际pull读001a27bb，两README无差。
 - 本轮新增.github/workflows/invariant-subspace-r150-saturated-third-page.yml用于本课题208全来源计算；数学未由调度宣称完成。
+
+### 2026-11-15 Astra-ISP-789f：第三全九局部正与发布恢复
+- run43664532571数学91.020765506秒，208原第三来源全成、像rank2、九目标全315身份全正；全局原式及费用继续。
+- 197恢复440770011B全存工件；唯一数据分支push180秒超时，prepared a09650e03375，未报为数学失败。
+- 新.github/workflows/invariant-subspace-r150-saturated-third-publication-recovery.yml仅恢复发布，不重数学；根实际推送本结论并调度。
