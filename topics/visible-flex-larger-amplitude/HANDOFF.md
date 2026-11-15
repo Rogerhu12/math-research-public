@@ -4,9 +4,9 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:07:15 UTC root依根8经API读main 9679b1c7a7f180cc7272418bd43289367e53afce；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:06:05/a5108aa2290916893f83e1eec82e92bbfd5492fb；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
+规则同步记录：2026-11-15 11:11:53 UTC root依根8经API读main e38b3135b5d7a2426a69aee0721650a94c204cc1；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:06:05/a5108aa2290916893f83e1eec82e92bbfd5492fb；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
 
-只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
+只在公开Rogerhu12/math-research-public；科学计算/导入/测试仅本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
 root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可用时每push前/至少每小时真pull，NFF立即rebase重推。当前终端不可用，依根8仅集成<100KB文本；每次取最新main/双README并expected_sha普通前进，冲突重读合并，禁force。
 
@@ -26,13 +26,15 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101/d075af46/c756ede7保00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)真127第8九p/λ=.001/fresh-circle，110pins/29closure/四输入+两ready+78源、300min总/330science350job；run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 
-[九450 v2](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)5e95afdb/92cfb070只接真00e4/0433完整接受父或自身v2；全九冻结/K=k=0/338+112、fresh RHS/二分+全knots/当前H全J/FD/fullDN/finalaudit，max_nodes容1397以上，不重演H路径。[完整closed接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)e8deb413/69bbba26保physical/core/z0/FFT/材料图及原七元组/九schema；无真实450父。
+九450 v2为5e95afdb/92cfb070，只接真00e4/0433完整接受父或自身v2；全九冻结/K=k=0/338+112，二分+全knots及原全J/FD/fullDN/finalaudit。[完整closed接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)e8deb413/69bbba26保全physical/core/z0/FFT/材料与七元组；仍无真实450父。
 
 ## 原六H(s)与native方向
 
 [124入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48起science。真119第3六p/λ=.001，e830/557f、103pins/四输入/两ready/78源。同worker真zero→H(s)：首1/64，成功×2上限1/4，绑定数学拒绝/2，2^-20/64calls/300min仅partial；s1原H_*全词全J→FD/fullDN/finalJ/audit。原120首全H被D/S/A拒不证无解；IPC未知不冒数学拒绝。
 
-[113 R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)原stop128全步下降而refined未降，均未达2e−9；原64十档全拒。[133入口](notes/2026-11-15-request133-persistent128-execution-interface.md)CPP7789007e/launcher767a4c4b/bridge2657ddee/probe2683e8e1，37pins/真91+两ready+78源；fresh64全J/R273固定chord，持久128全226/原32×10/严格σ范数，不折64。4threads/18000s含1200replay、guard18330/330science350job；requestfff42780/wfbe43ebdf，matched-trace none/列0，replay不冒338×112/fullDN/finalJ/audit。run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6/job132783217957，10:34:17创建后science。全事件先输出，90KB不完整70；raw由launcher finally先清，下游必须清理前同job接真状态。
+[133入口](notes/2026-11-15-request133-persistent128-execution-interface.md)7789007e/767a4c4b/2657ddee/2683e8e1，37pins/真91+两ready+78源；fresh64全J/R273固定chord，持久128全226/原32×10/严格σ范数。4threads/18000s含1200replay、guard18330/330science350job，requestfff42780/wfbe43ebdf。run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6/job132783217957，10:34:17起science。matched-trace none/列0，replay不付338×112/fullDN/audit；全事件先出、90KB不完整70。原113见R288，未接受。
+
+[128位末态完整组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)七源bcca7371/7c59da15/c218f128/824b7440/4b0569a2/a0904ea0/ddbe1a49已发；共享真实root tape全224列、全112 QR边界、338端点、原物理audit分旗标。C-based物理jet不冒finite-root导数，全部native/fullDN false，未编译/未运行。原133 launcher先清raw，137须独立新owner在同job清理前接真末态；完整源/身份/预算/未访范围保留，不能SHA恢复。
 
 [R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[122](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59起science。33pins+真91/两ready/78源，fresh全J/R273→唯一packet→α0双policy7200s；sentinel受控停止非native接受，原10trial/finalJ/audit未执行，不冒全224J/IEEE导数。
 
@@ -44,15 +46,15 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 ## 连续几何、同g与接受场之后
 
-[全jet/mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)675ab8df/dbdedb45与帽a3ada50b保全FFT/mean/Nyquist/B/materialcut；[R282组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)0b52a408/4e31ad6b保完整两RP1/四门OR/未访后缀；曲率/D b1c2dfb9漏叶仍不付fullD/reach。
+R279–282已付条件几何；675ab8df/dbdedb45全jet/mixed、a3ada50b帽、0b52a408/4e31ad6b owner/四门OR/完整两RP1及b1c2dfb9曲率/D均保全，见[open§4](open.md)。未付叶不冒fullD/reach，实际同场余量仍缺。
 
-[九450完整metric](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)0c4353d1/4b13425a接0865全九nested实表达/69bb新guard/675六jet混合项/原a601四Loewner全DFS/两帽target0及9aa0真query；live来源标签不证现场，未有accepted450/实际metric，目标atlas与原标准4仍未付。
+[九450 metric](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)0c4353d1/4b13425a保全九实表达/675六jet混合/四Loewner/两帽/全DFS及9aa0 query；自报live来源不证现场，无accepted450/实际metric。
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给675共享准确Hermite/全角cut/反射/cuff帽的C²及强C²条件，同g atlas的C0/C1/C2条件独立。finite-Gauss/mask/clip不能靠小差冒恒等；modelC内cuff可平延拓、naturalRout非平。无实际闭场/embedding/reach/metric证书。
 
-[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)证明：末保留片满足正邻域/正权/非零dyadic初相位时，提前mask+clip使准确finite半径一阶jump非零，九C²控制不消它；若该对象就是g且a>0，则无C²准确等距。未核某实际descriptor前不作无条件断言，不推有限metric误差下界或课题完成。继续R300显式新连续g族，旧场只初猜、全量重求；不悄改同g。
+[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)：末片正邻域/正权/非零dyadic相位下，提前mask+clip有非零一阶jump，九C²控制不消。该对象若为正定g，则无C²准确等距；实际descriptor未核，不推有限metric下界或完成。R300显式新连续族正在建设，旧场仅初猜、全量重求。
 
-[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)81d061a6/9aa0da45保六primitive/1440片/准确深根族/自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446只完1378片、用尽200000panel，wholequery/E/Rout未付；原结果e18d07b6，需重做。
+R286的81d061a6/9aa0da45保六primitive/1440片/准确深根族/自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)200000panel只完1378片，wholequery/E/Rout未付；原result e18d07b6，已由136重新执行。
 
 [136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)/[R297](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)004010b6准确unit-panel及完整Acb分支；原模型C/1440片/六积分/200000panel/1800s保留，guard8仍核原全宽，点q=0不冒解析。9pins/request2b9945ac/wf992f41e9；run43707070768/sourcec1178bd2e17383a5a0f6bed1ec8fe1896704a528/job132790329190于11:03:43创建，原syntax/source/input preflight通过，进入原科学；无完整E/metric，旧9aa0消费者需显式v2适配。
 

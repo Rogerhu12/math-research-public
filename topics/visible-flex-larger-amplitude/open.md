@@ -48,6 +48,8 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [133持久128实际接线](notes/2026-11-15-request133-persistent128-execution-interface.md)及[完整数学接口](notes/2026-11-15-native-persistent128-original-stop-chord-interface.md)现已发布：独立CPP7789007e/launcher767a4c4b/bridge2657ddee/probe2683e8e1，旧33pin原值+新4=37；真91失败BASE、两ready和78源全部重新恢复。首fresh64全576J/R273只作固定近似chord；当前完整128残差形成全部R273行/节点惩罚，方向sigma128×lift(z64)，状态、残差、226输出持久不折64。原stop30×20/32方向×10档/严格σ范数全保留，异常前已有行保全，原事件在consumer前输出。4threads/18000秒含binding/编译及1200秒末独立fresh replay，guard18330秒，330science350job；原32×10不保证单job全付。request15507B/fff42780、workflow21177B/be43ebdf；显式matched-trace none/columns0，末replay只核完整射击/226词，不冒full224J、338×112端点或原物理audit。90KB删字段fallback必须不完整/exit70；原64受控sentinel不冒数学失败。raw消费清理后后继须从91重算有序前缀，不由SHA伪恢复。实际run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6/job132783217957于10:34:17创建；准备后进入原科学步骤，结果待读。实际103已不支持反复相邻±ULP建议，原J/R273仿射小残差亦不保证nonlinear十档接受。
 
+[128位真实末态完整组件接口](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)七件独立源码已发：共享root轨迹bcca7371、全段7c59da15、全112边界c218f128、物理查询packet824b7440、物理公式4b0569a2/程序a0904ea0、绑定launcher ddbe1a49。所有576段/224列、577节点、全129248×112边界缺陷、338端点及原audit全查询角行分别负责。共享原primal不省逐列F/C shadow或Cholesky变分，未执行加速不推预算足够；端点first-slope是有限trace方向，second仍原C-based物理程序差分，不假定C=F_e。所有native/fullDN flags保false，未编译/未科学执行。原133 launcher finally在bridge返回前已删末态/summary，不能后挂消费者；下一独立request137须新owner/bridge在同job清理前实接source-bound状态与物理packet，单一science绝对期限计入fresh64 J/R273和全部编译/读回，部分全列不得冒完整边界输入，独立audit仍预留真实范围。
+
 ### 2C. 原场midpoint471的实际模型
 
 [110实际](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)八fresh模型/FD均接受，但后七批最近拒绝集中未选MID471，末仅α1/2048，完整门仍false。末raw已清理，不能hash续算。

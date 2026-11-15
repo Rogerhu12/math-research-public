@@ -100,3 +100,5 @@
 - [request135：真实134末九参数和末半径的完整32批接续](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)：新ed78684f/24c5ff04/df856e9e、87+3源/26→27；仅真算法半径跨批继承，原数值助手/方向/final/停止及完整读回保持。实际是否改善须读公开run，不由R295推定收敛；没有新非零场接受。
 
 - [R298：原finite-Gauss/clip接缝与同一目标责任](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)（已证明，明确实际末片条件下）：正权与非零dyadic相位强制一阶jump，任意九C²控制不消；若该准确finite对象为正定目标，则C²准确等距不存在。未声称某实际表已满足前提，不推有限metric下界或课题完成；新连续g必须显式定义、全部重求值。
+
+- [128位真实末态的七组件与完整接口](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)：共享原有限root轨迹全列、完整112边界QR及原全行缺陷、338端点和独立物理audit，全部source-bound并保partial后缀。只已实现/未编译未执行，C-based物理jet不冒有限trace导数，native/fullDN始终未付；清理前真实接线由独立137继续。
