@@ -66,6 +66,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 **最新word actual43675575597/sourcef423160a已在第62列发现真实关系排除R177，值384。** 首62/77列已转，代表rank52、10完整原关系，旧B/R168/R174外1新等式；17.9188s/RSS165.293。2332原atoms中2171完整可达且严格q/qbar，161未用模板保全。完整cert295591/0a3ee52c与state551408/48c260b7已发布，cursor62无active；下一同源resume目录/main d23d6bee/receipt5d3a0cf2并--finish-all-77，只付剩余15列，复用已过atom人工2。
 
+[R182](results/R182-shared-word-original-identity-rejects-the-all-layer-positive-point.md)已从完整原式关系推出低层常数 **D0=−α−β**；旧必要外空间12→11，非完整真实head。原64投影转换保右锚、规范语法与两faithful分量，不以字面相消冒原函数证明。
+
 R177的全scalar正证和旧86/107/14实际仍正确，但该点不能定义真实泛函；不继续为它寻找负路径或重复必要LP。[条件解释](notes/R177-conditional-true-character-and-geometric-scope-20261115.md)未达到前提，不得实例化。完整原核完成后才选择下一真实子问题，不以新一式先追一系列外点。早两次输入失败及[FINITE窄修](notes/character-head-word-first-actual-manifest-failure-20261115.md)、[共享祖先窄修](notes/character-head-word-second-actual-shared-atom-failure-20261115.md)保存，均零研究前缀；当前source1ec5fab9，模块ec2022d8。
 
 
