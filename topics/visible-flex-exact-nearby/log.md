@@ -181,3 +181,8 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:55:31 UTC — 已知有限cut真正Wiener逆角与更尖physical γ门
 
 两README在892165349443726fee648e9686630d6bc791c3f0亲核未变。root全文亲读W423f4719/12880B及原J，逐项核有限base32/continuousZ96 repair支持、W6物理4j凸弦、h1/256与σ1/4096同闭球两门、真实mean/reciprocal/正逆角和J4六个新base条件。known Aσ差≤13|δ|/200，δ非0严格；δ0已用非严格齐次式且最终低门仍严格，未留0<0。故真实unknown η有γA0≤13|δ|/200+ηH1/15，独立充分H1≤63d/320=1.96875e−11；未评unknown。原实际cut43715426316成功结果/J18负余量保持；high8193与core图/全matching仍待。无新数值或重算。open第6节旧tail详细指数与义务压缩引用本次前e76a5e92同路径和原proof，所有条件保留。
+
+## 2026-11-15 12:57:11 UTC — 首次6个真negative cut的source→density新scalar部署
+
+两README在78d7a89e6517cf99d9f394ecda271ad1c78de2e3亲核未变。root全文SCI31744B/179cc14a、完整22pin manifest13687B/7c07d303、flow4283B/3db5ae21及worker37174B/28e2d96e相对已成G骨架全部差异已读，静态delimiter balance通过，AST/新数学只在本公开Actions。N14–18径向密度n_gT、完整mean与两有序τ门只用1328已成norm/forcing行、3完整body parts和原Cauchy两gain，CI不重复收费；各cut失败门保unnormalized界。2原ZIP/4完整member全SHA与原workflowhead核，只temporary，不重旧数学。预Git小stdout/容量owned delta/成功同身份复用保持。
+root亲读Green12:54过程40219B/b01bff29；真pull12:54:34.534806→a99b8d88728bdd0c5c07c7419fe624b29118901d两diff空。future2928=1886旧+1042新/past736/product928/groups0，childnull；旧scalar+1196仅诊断、signed W−103，无最终Green。H旧失败计数压缩保21f864c3同路径及原证据，不改变恢复授权。

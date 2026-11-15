@@ -143,7 +143,7 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
 
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)补原E6/E12的普通H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer。
-六固定cut用r_+−R保真ρ≤R；新scalar仅读1328旧norm/forcing及3 intrinsic原part，付n_gT与τ1/τ2后才授97局部inverse。完整root/真jump/positive两端/waist/return仍独立；失败局部门只留unnormalized完整界，不冒奇异。尚未actual执行。
+六固定cut用r_+−R保真ρ≤R；新scalar仅读1328旧norm/forcing及3 intrinsic原part，付n_gT与τ1/τ2后才授97局部inverse。完整root/真jump/positive两端/waist/return仍独立；失败局部门只留unnormalized完整界，不冒奇异。SCI179cc14a/worker28e2d96e/manifest7c07d303及22pin首次部署待actual；仅2原ZIP恢复4完整member至temporary，无新数组保存。
 
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；

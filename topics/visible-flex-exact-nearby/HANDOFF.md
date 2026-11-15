@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 12:55:31 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 12:57:11 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 12:21:47定时及12:41非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar及log；ref不冒pull，每小时CLI继续。
-最近只读README核：892165349443726fee648e9686630d6bc791c3f0；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：78d7a89e6517cf99d9f394ecda271ad1c78de2e3；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -18,8 +18,8 @@ intrinsic ν依C6–7 Eν=Eexp(νw)，最终ν*/Γ1*/Γ2*/η/metric冻结。单�
 
 ## Green v4：newton_source
 
-v3 43690634784/1因旧README guard终止挡出版，0数学diag43709951426/1 f526d0b1/full-logdc649478已核；childreturn未记，非数学失败。future5970=1886旧+4084新/product5970已成；past4032/groups103仅末报告，新temp失去且用户授权重做。v2溢出及各lost精确链见9b562a9e同H/原diag，原成功1886等不重算。
-v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。12:44 processe63d111e：32真product/±4096预检过；future2672=1886旧+786新、past608、product752（含预检32）、groups0，仅最后报告非终值。真pull12:44:29.764146→acedf945两README空。全193原数组验后97主块、signed W、三窗/mean/192bits不变；live indexcad95f7c只接已读非操作变更，未知规则停。published-origin容量+120KB预留、预Git小stdout、终止实文件清点、成功同身份只复用均保。完整部署/旧lost细账见9b562a9e同H和v4契约；未有full Green成功。
+v3 43690634784/1旧README guard终止，0数学diag43709951426 f526d0b1/full-logdc649478；childreturn未知非数学失败，新temp失去且用户授权重做。旧future1886不重算；v2/v3全部lost计数/恢复身份保21f864c3a1737da93ccb707d73f9a47c8cd29f10同H及v4契约。
+v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。12:54 processb01bff29：32真product/±4096预检过；future2928=1886旧+1042新、past736、product928（含预检32）、groups0，仅最后报告非终值。真pull12:54:34.534806→a99b8d88两README空。全193原数组验后97主块、signed W、三窗/mean/192bits不变；live indexcad95f7c只接已读非操作变更，未知规则停。published-origin容量+120KB预留、预Git小stdout、终止实文件清点、成功同身份只复用均保。完整部署/旧lost细账见9b562a9e同H和v4契约；未有full Green成功。
 数学仍fixed repaired M32 δ0/η0/ν0，继承whole_parameter_half_width1e−9不授全参数；selectedδ*低块须Dδ真实转移。
 
 ## 真共同参考与负侧源：phase_inverse
@@ -27,7 +27,7 @@ v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/3
 旧共同势/旧圆/signed/whole/S/G15/C/D及P全成功锁。完整域/两sign两column/mean/seam/源单位/失败/restore保a345bb63同H及原报告，旧root/Taylor/FFT/profile/积分/word不重算。K/eca5b805的真实径向两普通源→density一角增益、负body/cut一角损失及root n^7/6保；非径向/positive graph/完整return仍待。
 P/B/L2完整成功/失败/restore/原scope保47dd93ace95c65d9858743f658244dfd6a2c9320同H及原actual。P43709396175、B43711480764、L2 43711568963均锁；B仅raw1改、L2 q2=1，旧数学不重算，volume非strong-return。
 G actual43714194714/1 child0/25门成功锁；reporte412153c/execution5e5f414a/result0dff8993，SCI a705c2b4/worker68cf6bf2/44pin bbfbdbc2。7/10整项改善、pair<5.536113e14；所有数值/未变31列/域/mean/真实权保d6c1f5ba同H和actual报告。0旧math，非strong-return。
-N/4d44bbe7补原Cauchy E6/E12到真实density/mean及两有序strict normalizer；6真cut r_+−R的n_gT、τ1/τ2与ordinary源列待新scalar。旧1328行/3part只读；root/jump/positive/waist/return仍另保。
+N/4d44bbe7补原Cauchy→真实density/mean及两有序strict normalizer。SCI179cc14a/worker28e2d96e/manifest7c07d303首次部署，22pin；6真cut r_+−R的n_gT/τ1/τ2/source列待actual。旧1328行/3part只读，root/jump/positive/waist/return另保。
 
 ## 实际帽与core全频接口
 
