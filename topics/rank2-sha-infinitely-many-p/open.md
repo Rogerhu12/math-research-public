@@ -87,6 +87,8 @@ R817只在p7993证明三原I归一余数2522/2828/3696unit及三固定cycle独�
 R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
 附录已付实际CM companion的完整理想和、两项q系数及所读U特征−π；LLZ原权四critical germ的中心导数准确为Ωι34²c_jθ⁹Ωp I_j²，simple zero iff原I_j≠0。继续完整分子的cohomology投影与R814指定类的同规范全局比较，不能把两个不同critical对象直接相认。HKM新稿只核对公式范围；R826定理独立用已发表Besser证明，不把未核实预印本作输入。
 
+已亲核BB arXiv v1的CM–PR引用范围：BDP12 Thm2仅type(1,0)、Thm3.12明确k2/rj0，Remark6未付原(2,−1)；Kato–LLZ全Iwasawa身份不单独给指定特殊化非零。该引用链暂不支付原λ局部非零；不判断BB结论错误，刊本全文尚未取得。 详见[范围核查](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)。
+
 ### 深支：全profile、同R和指定Schur
 
 原M=c*U0w13J、P134/charge40、13free/26carry、十九角、conductor10980、p²/p³及所有余列完整保；低行右逆须保高尾。同R*+Kval继续全部normal/两13/d₂，不能将v_F=eξ自由选取。
