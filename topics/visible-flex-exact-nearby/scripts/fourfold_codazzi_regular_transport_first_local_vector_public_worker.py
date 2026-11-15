@@ -2,6 +2,7 @@
 """Public complete regular-transport first-local-vector reduction; persist only small conclusions."""
 from __future__ import annotations
 import argparse,ast,base64,hashlib,json,os,shutil,signal,subprocess,sys,time
+import re,urllib.error,urllib.parse,urllib.request
 from datetime import datetime,timezone
 from pathlib import Path
 PUBLIC="Rogerhu12/math-research-public"
@@ -33,6 +34,198 @@ def ball(v):
         return json.dumps(v,ensure_ascii=False,separators=(",",":"))
     return str(v)
 def cell(v):return str(v).replace("|","\\|").replace("\n"," ")
+
+def topic_tree_metadata(git,topic,repository):
+    """Read exact-HEAD Git tree metadata; never request a blob body or lazy-fetch its size."""
+    head=git("rev-parse","HEAD").stdout.strip()
+    def oid(value):
+        return isinstance(value,str) and len(value)==40 and all(c in "0123456789abcdef" for c in value)
+    if not oid(head):raise ValueError("the capacity audit requires an exact Git commit")
+    root_tree=git("rev-parse",head+"^{tree}").stdout.strip()
+    local_topic_tree=git("rev-parse",head+":"+str(topic)).stdout.strip()
+    if not oid(root_tree) or not oid(local_topic_tree):
+        raise ValueError("the capacity audit requires complete local commit and tree identities")
+    token=os.environ.get("GITHUB_TOKEN")
+    if not token:raise RuntimeError("the public metadata request requires its Actions token")
+    responses=[]
+    class NoMetadataRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self,request,fp,code,message,headers,newurl):
+            raise RuntimeError("the capacity metadata endpoint attempted a redirect")
+    opener=urllib.request.build_opener(NoMetadataRedirect())
+    def request_tree(tree,recursive=False):
+        url="https://api.github.com/repos/"+repository+"/git/trees/"+tree
+        if recursive:url+="?recursive=1"
+        request=urllib.request.Request(url,headers={
+            "Accept":"application/vnd.github+json",
+            "X-GitHub-Api-Version":"2022-11-28",
+            "Authorization":"Bearer "+token})
+        try:
+            with opener.open(request,timeout=45) as response:
+                if response.geturl()!=url:
+                    raise RuntimeError("the capacity metadata request was redirected")
+                data=response.read(16000001)
+        except urllib.error.HTTPError as error:
+            raise RuntimeError("the Git tree metadata request returned HTTP "+str(error.code)) from None
+        except urllib.error.URLError:
+            raise RuntimeError("the Git tree metadata request failed at transport") from None
+        if len(data)>16000000:raise ValueError("the Git tree metadata response exceeded its bounded size")
+        doc=json.loads(data)
+        if doc.get("sha")!=tree or doc.get("truncated") is not False or not isinstance(doc.get("tree"),list):
+            raise ValueError("a Git tree metadata identity or complete-response gate failed")
+        responses.append(dict(tree=tree,recursive=recursive,bytes=len(data),
+            sha256=hashlib.sha256(data).hexdigest(),truncated=False))
+        return doc["tree"]
+    # Resolve both topic components from the exact local HEAD root, then compare
+    # with Git's independently resolved HEAD:topic tree. No branch name is used.
+    tree=root_tree
+    for component in topic.parts:
+        entries=request_tree(tree)
+        matches=[entry for entry in entries if entry.get("path")==component]
+        if len(matches)!=1 or matches[0].get("type")!="tree" or matches[0].get("mode")!="040000":
+            raise ValueError("the authorized topic is not an exact tree at this commit")
+        tree=matches[0].get("sha")
+        if not oid(tree):raise ValueError("the topic path contains an invalid Git tree identity")
+    if tree!=local_topic_tree:
+        raise ValueError("the API and local exact-HEAD topic tree identities differ")
+    entries=request_tree(tree,recursive=True)
+    seen=set();blobs={};inventory=[];trees=0;gitlinks=0
+    for entry in entries:
+        path=entry.get("path")
+        if (not isinstance(path,str) or not path or path.startswith("/")
+            or any(part in ("",".","..") for part in path.split("/")) or path in seen):
+            raise ValueError("the complete topic tree contains an invalid or duplicate path")
+        seen.add(path)
+        kind=entry.get("type");mode=entry.get("mode");digest=entry.get("sha")
+        if not oid(digest):raise ValueError("a topic object has an invalid Git identity")
+        if kind=="blob":
+            size=entry.get("size")
+            if type(size) is not int or size<0 or mode not in ("100644","100755","120000"):
+                raise ValueError("a topic blob has no exact nonnegative metadata size or valid mode")
+            full=str(topic)+"/"+path
+            blobs[full]=dict(bytes=size,git_blob=digest,mode=mode)
+            inventory.append(dict(path=full,bytes=size,git_blob=digest,mode=mode))
+        elif kind=="tree":
+            if mode!="040000":raise ValueError("a nested topic tree has the wrong mode")
+            trees+=1
+        elif kind=="commit":
+            if mode!="160000":raise ValueError("a topic Git link has the wrong mode")
+            gitlinks+=1
+        else:raise ValueError("the complete topic tree has an unsupported entry type")
+    inventory.sort(key=lambda entry:entry["path"])
+    receipt=dict(method="exact_HEAD_Git_Trees_API_metadata_only",commit=head,
+        root_tree=root_tree,topic=str(topic),topic_tree=tree,
+        truncated=False,all_blob_sizes_checked=True,blob_count=len(blobs),
+        blob_bytes=sum(entry["bytes"] for entry in blobs.values()),
+        nested_tree_count=trees,gitlink_count=gitlinks,
+        complete_blob_metadata_inventory_sha256=hashlib.sha256(
+            json.dumps(inventory,sort_keys=True,separators=(",",":"),allow_nan=False).encode()).hexdigest(),
+        metadata_responses=responses,blob_bodies_requested=False)
+    return receipt,blobs
+
+def prior_failed_capacity_receipt(git):
+    """Read the exact old failure; no scientific code is imported or executed."""
+    PRIOR_RUN=43705772615
+    PRIOR_JOB=132786394695
+    PRIOR_COMMIT="fb3a6f2bbfa8d5d72266e709bcccd0ebd1848b18"
+    PRIOR_WORKER=TOPIC/"scripts/fourfold_codazzi_regular_transport_first_local_vector_public_worker.py"
+    PRIOR_WORKER_SHA="580a0aed23253f564a6f14504234acd1a32b9a1514ec29ad41ae41081140a526"
+    PRIOR_WORKER_BYTES=20293
+    token=os.environ["GITHUB_TOKEN"]
+    state=dict(kind="read_only_previous_capacity_failure",prior_run_id=PRIOR_RUN,
+        prior_job_id=PRIOR_JOB,prior_workflow_commit=PRIOR_COMMIT,started_utc=utc(),
+        gates=[],complete=False,prior_scientific_subprocess_started=None,
+        scientific_code_executed_by_diagnostic=False,original_log_body_persisted=False)
+    def gate(name,passed):
+        state["gates"].append(dict(name=name,passed=bool(passed)))
+        if not passed:raise ValueError(name)
+    class StopRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self,request,fp,code,message,headers,newurl):return None
+    opener=urllib.request.build_opener(StopRedirect())
+    def api(path):
+        request=urllib.request.Request("https://api.github.com/repos/"+PUBLIC+path,headers={
+            "Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",
+            "Authorization":"Bearer "+token})
+        try:
+            with opener.open(request,timeout=45) as response:
+                data=response.read(1000001)
+        except urllib.error.HTTPError as error:
+            raise RuntimeError("public job metadata HTTP "+str(error.code)) from None
+        except urllib.error.URLError:raise RuntimeError("public job metadata transport failed") from None
+        if len(data)>1000000:raise ValueError("public job metadata exceeded the bounded receipt input")
+        return json.loads(data)
+    try:
+        job=api("/actions/jobs/"+str(PRIOR_JOB))
+        gate("the exact original job belongs to the failed original workflow commit and run",
+            job.get("id")==PRIOR_JOB and job.get("run_id")==PRIOR_RUN
+            and job.get("head_sha")==PRIOR_COMMIT and job.get("status")=="completed"
+            and job.get("conclusion")=="failure")
+        state["prior_job_metadata"]={key:job.get(key) for key in
+            ("id","run_id","head_sha","status","conclusion","started_at","completed_at")}
+        state["prior_actual_steps"]=[{key:step.get(key) for key in
+            ("number","name","status","conclusion","started_at","completed_at")} for step in job["steps"]]
+        req=urllib.request.Request("https://api.github.com/repos/"+PUBLIC+"/actions/jobs/"+str(PRIOR_JOB)+"/logs",
+            headers={"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","Authorization":"Bearer "+token})
+        try:
+            with opener.open(req,timeout=45) as response:
+                raw=response.read(10000001);log_host="api.github.com"
+        except urllib.error.HTTPError as error:
+            if error.code not in (301,302,303,307,308):
+                raise RuntimeError("public job log endpoint HTTP "+str(error.code)) from None
+            location=error.headers.get("Location","");parts=urllib.parse.urlsplit(location)
+            if (parts.scheme!="https" or parts.username or parts.password or not parts.hostname
+                or not (parts.hostname.endswith(".blob.core.windows.net")
+                    or parts.hostname.endswith(".actions.githubusercontent.com"))):
+                raise ValueError("the original job log redirect is not an allowed public Actions log host")
+            # The signed public log URL is never stored or printed. No API token is forwarded.
+            try:
+                with opener.open(urllib.request.Request(location,headers={"Accept":"text/plain"}),timeout=45) as response:
+                    raw=response.read(10000001);log_host=parts.hostname
+            except urllib.error.HTTPError as asset_error:
+                raise RuntimeError("public Actions log asset HTTP "+str(asset_error.code)) from None
+            except urllib.error.URLError:raise RuntimeError("public Actions log asset transport failed") from None
+        except urllib.error.URLError:raise RuntimeError("public job log endpoint transport failed") from None
+        if len(raw)>10000000:raise ValueError("the original job log exceeded its bounded read")
+        text=raw.decode("utf-8")
+        gate("the complete original job log fits the bounded read and is strict UTF8",True)
+        state["original_job_log_identity"]=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+            complete=True,encoding="UTF-8",download_host=log_host,body_persisted=False)
+        lines=[re.sub(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z ?", "", line) for line in text.splitlines()]
+        starts=[i for i,line in enumerate(lines) if "Traceback (most recent call last):" in line]
+        gate("the original log contains a real complete Python failure traceback",bool(starts))
+        trace=[]
+        for line in lines[starts[-1]:]:
+            if line.startswith("##[group]") or line.startswith("##[error]Process completed"):break
+            trace.append(line)
+        trace="\n".join(trace)
+        gate("the genuine traceback itself is a bounded small failure conclusion",len(trace.encode())<=20000)
+        state["actual_traceback"]=trace
+        git("fetch","--filter=blob:none","--no-tags","origin",PRIOR_COMMIT)
+        old=git("show",PRIOR_COMMIT+":"+str(PRIOR_WORKER)).stdout.encode()
+        gate("the exact original worker is read unchanged from its immutable workflow commit",
+            len(old)==PRIOR_WORKER_BYTES and hashlib.sha256(old).hexdigest()==PRIOR_WORKER_SHA)
+        old_text=old.decode();ast.parse(old_text,filename=str(PRIOR_WORKER))
+        first_sync='git("config","user.email","41898282+github-actions[bot]@users.noreply.github.com");sync()'
+        audit='objects=git("ls-tree","-r","-l","HEAD","--",str(TOPIC)).stdout.splitlines()'
+        child_start='child=subprocess.Popen(cmd,cwd=work,env=ce,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)'
+        exact_command="'ls-tree', '-r', '-l', 'HEAD', '--', 'topics/visible-flex-exact-nearby'"
+        known=(first_sync in trace and audit in trace and "subprocess.TimeoutExpired" in trace
+            and exact_command in trace and "900 seconds" in trace
+            and old_text.count(first_sync)==1 and old_text.count(child_start)==1
+            and old_text.index(first_sync)<old_text.index(child_start))
+        gate("the actual stack stopped in the first metadata audit before the only scientific Popen",known)
+        state["prior_scientific_subprocess_started"]=False
+        state["prior_new_mathematical_stages"]=0
+        state["failure_classification"]="first_sync_git_ls_tree_size_metadata_timeout_before_science"
+        state["original_worker_identity"]=dict(path=str(PRIOR_WORKER),commit=PRIOR_COMMIT,
+            bytes=len(old),sha256=PRIOR_WORKER_SHA)
+        state["complete"]=True;state["failure"]=None
+    except Exception as error:
+        state["complete"]=False
+        state["failure"]=dict(type=type(error).__name__,message=str(error)[:1600])
+        if state["prior_scientific_subprocess_started"] is None:
+            state["failure_classification"]="not_yet_proved_by_this_receipt"
+    state["finished_utc"]=utc()
+    return state
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -94,14 +287,12 @@ def main():
         diff=git("diff",before,after,"--",*rules["readme_sha256"]).stdout
         state["readme_checks"].append(dict(time=utc(),before=before,after=after,actual_diff=diff,
             explicitly_reviewed_commit=rules["read_commit"]))
-        # Metadata only: no certificate or array body is read for capacity.
-        objects=git("ls-tree","-r","-l","HEAD","--",str(TOPIC)).stdout.splitlines()
-        sizes=[int(line.split("\t",1)[0].split()[3]) for line in objects
-            if line.split("\t",1)[0].split()[1]=="blob"]
-        state["current_topic_blob_bytes"]=sum(sizes)
-        state["current_topic_blob_count"]=len(sizes)
-        state["current_topic_metadata_commit"]=git("rev-parse","HEAD").stdout.strip()
-        state["current_topic_below_200000000_bytes"]=sum(sizes)<200000000
+        capacity,unused_blob_map=topic_tree_metadata(git,TOPIC,PUBLIC)
+        state["current_topic_capacity_metadata"]=capacity
+        state["current_topic_blob_bytes"]=capacity["blob_bytes"]
+        state["current_topic_blob_count"]=capacity["blob_count"]
+        state["current_topic_metadata_commit"]=capacity["commit"]
+        state["current_topic_below_200000000_bytes"]=capacity["blob_bytes"]<200000000
         save(out/"worker-process.json",state)
         if not state["current_topic_below_200000000_bytes"]:
             raise ValueError("actual topic Git blobs reach the200000000-byte hard limit")
@@ -118,6 +309,62 @@ def main():
         if v.get("complete") is True and v.get("input_manifest_sha256")==a.manifest_sha and v.get("source_budget_source_sha256")==a.pipeline_sha:
             print(json.dumps(dict(reused_existing_complete_conclusion=str(old.relative_to(root)),
                 original_run_id=v["run_id"],new_source_budget_processes=0,new_numerical_enclosures=0)),flush=True);return
+    # This run repairs only the prior capacity-audit infrastructure.  Its exact
+    # original stack must prove that the old scientific Popen was never reached.
+    prior=prior_failed_capacity_receipt(git)
+    state["previous_actual_failure_receipt"]=prior
+    state["previous_scientific_subprocess_started"]=prior["prior_scientific_subprocess_started"]
+    save(out/"worker-process.json",state)
+    if prior.get("complete") is not True or prior.get("prior_scientific_subprocess_started") is not False:
+        state["complete"]=False
+        state["new_complete_regular_transport_local_reduction_proved"]=False
+        state["actual_failure"]=dict(type="PriorScientificStartNotExcluded",
+            message="the exact original job log did not prove a first-sync failure before its scientific child",
+            diagnostic_failure=prior.get("failure"))
+        sync()
+        report=root/REPORTS/("run-"+state["run_id"]+"-"+state["run_attempt"])
+        report.mkdir(parents=True,exist_ok=True)
+        def diagnostic_snapshot():
+            text="\n".join([
+                "# Regular-transport infrastructure diagnosis: science not started in this run","",
+                "- Actual run: "+state["run_id"]+"/"+state["run_attempt"],
+                "- Original failed run: 43705772615/1; job 132786394695.",
+                "- Current scientific subprocesses: 0.",
+                "- Prior scientific subprocess started: "+str(prior.get("prior_scientific_subprocess_started")),
+                "- Complete original log identity: "+json.dumps(prior.get("original_job_log_identity"),sort_keys=True),
+                "- Diagnostic failure: "+json.dumps(prior.get("failure"),sort_keys=True),
+                "- Original SCI SHA256 retained: "+a.pipeline_sha,
+                "- Original17-pin manifest SHA256 retained: "+a.manifest_sha,"",
+                "## Actual original stack","",
+                "```text",prior.get("actual_traceback","The original complete traceback is not yet established."),"```","",
+                "No mathematical result or zero-work classification is inferred from elapsed workflow time.",
+                "The original failed run remains failed. Science stays blocked until its starting status is proved.",
+                "No original numerical enclosure, stage or source is recomputed.",""])
+            capacity,mapping=topic_tree_metadata(git,TOPIC,PUBLIC)
+            names=[str((report/name).relative_to(root)) for name in ("actual-result.md","execution.json")]
+            oldbytes=sum(mapping[name]["bytes"] for name in names if name in mapping)
+            state["publication_capacity_metadata"]=capacity
+            state["publication_base_topic_blob_bytes"]=capacity["blob_bytes"]
+            state["projected_topic_blob_bytes"]=0
+            while True:
+                raw=(json.dumps(state,separators=(",",":"),ensure_ascii=False,allow_nan=False)+"\n").encode()
+                projected=capacity["blob_bytes"]-oldbytes+len(text.encode())+len(raw)
+                if projected==state["projected_topic_blob_bytes"]:break
+                state["projected_topic_blob_bytes"]=projected
+            if projected>=200000000:raise ValueError("the small diagnosis exceeds actual topic capacity")
+            if len(raw)>60000 or len(text.encode())>60000:raise ValueError("the small diagnosis exceeds its text limit")
+            (report/"actual-result.md").write_text(text);(report/"execution.json").write_bytes(raw)
+        diagnostic_snapshot();owned=str(report.relative_to(root));git("add","--sparse","--",owned)
+        git("commit","-m","visible-exact: preserve unresolved regular-transport failure diagnosis")
+        while True:
+            result=git("push","origin","HEAD:refs/heads/main",check=False)
+            if result.returncode==0:break
+            if not any(word in result.stderr for word in ("non-fast-forward","fetch first","cannot lock ref","remote rejected")):
+                raise RuntimeError("diagnostic publication failed outside concurrent-main rebase")
+            sync();diagnostic_snapshot();git("add","--sparse","--",owned);git("commit","--amend","--no-edit")
+        print(json.dumps(dict(complete=False,report=owned,new_source_budget_processes=0,
+            original_failed_job_scientific_start=prior.get("prior_scientific_subprocess_started"))),flush=True)
+        raise SystemExit(1)
     hist=m["historical_input_commit"]
     if len(hist)!=40 or any(c not in "0123456789abcdef" for c in hist):raise ValueError("the input commit is not immutable")
     git("fetch","--filter=blob:none","--no-tags","origin",hist)
@@ -258,14 +505,12 @@ def main():
     def snapshot():
         text=conclusion()
         names=[str((report/name).relative_to(root)) for name in ("actual-result.md","execution.json")]
-        current=git("ls-tree","-r","-l","HEAD","--",str(TOPIC)).stdout.splitlines()
-        total=sum(int(line.split("\t",1)[0].split()[3]) for line in current
-            if line.split("\t",1)[0].split()[1]=="blob")
-        previous=git("ls-tree","-r","-l","HEAD","--",*names).stdout.splitlines()
-        oldbytes=sum(int(line.split("\t",1)[0].split()[3]) for line in previous
-            if line.split("\t",1)[0].split()[1]=="blob")
+        capacity,blob_map=topic_tree_metadata(git,TOPIC,PUBLIC)
+        total=capacity["blob_bytes"]
+        oldbytes=sum(blob_map[name]["bytes"] for name in names if name in blob_map)
+        state["publication_capacity_metadata"]=capacity
         state["publication_base_topic_blob_bytes"]=total
-        state["publication_capacity_metadata_commit"]=git("rev-parse","HEAD").stdout.strip()
+        state["publication_capacity_metadata_commit"]=capacity["commit"]
         state["projected_topic_blob_bytes"]=0
         while True:
             raw=(json.dumps(state,separators=(",",":"),ensure_ascii=False,allow_nan=False)+"\n").encode()

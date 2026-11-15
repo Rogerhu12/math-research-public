@@ -132,7 +132,10 @@ P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根�
 最小consumer已部署：17pins/467721B，1旧fold+4成功receipt/18系数/31项只读，
 仅新一次小域/connection/L1预算、1比率/3组合。实际43705772615/1的step9在11:03失败，
 此前AST/runtime成功；真实日志与科学启动状态待核，13门尚无回执。
-worker另以真实git blob元数据检查当前及两小文件出版后topic<200000000B。
+恢复worker7f7b9126/flow7a5df407仅改容量元数据与旧失败诊断：exact-HEAD API树
+严格核完整topic bytes及出版两小文件增量；原SCI/17pins冻结。
+先临时读旧job完整log并核bytes/SHA、真实首次sync的ls-tree超时stack及旧worker源码；
+仅证旧科学child未启动才启动原SCI，证据不足则只出版小失败诊断。旧failed run仍保留。
 其余30项及全部mean保持；本次旧成功比较也锁定不重算。
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；

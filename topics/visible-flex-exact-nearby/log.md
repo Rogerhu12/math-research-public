@@ -383,3 +383,11 @@ root亲读原E_ext/long/B、完整141锚和C0 forward证明后建立G，tail_con
 newton_source撰K、phase_inverse独核A25/V8/V15，root亲回读K全文与原C12–18、A19/A25/A26、V8/V14–15，再核完整积分及每个n/κ指数。正文blobed159d2a87585cc74989bceea120aed02a47e977 /10600B /SHA256 eca5b8054a5a3476eb4431516b81142005c28e522fb2b0ce45328d29f66a18e8。K8先分真实central/high区再积分，K12保两普通L²dr源，K14的Σmode sup和K16/K19两个输出分别计量；无新科学数值，旧成功参考列不重算。
 
 K只对真实参数且递增实T的径向reference成立；保C18输出/输入频率矩阵次序及首阶非径向耦合、真root n^7/6、mean、原seam和正端选择。此结论不授实际physical HH或全频Schur。发布前两README在7aec1c716a180ab8e94021c51a064f9f28c97491无差异。
+
+### 2026-11-15 11:09:01 UTC — 首局部消费者容量预检的失败恢复
+
+首run43705772615/1 job132786394695实为failure，AST/runtime已success而step9失败；此前901s仅是线索，尚未当成科学0的证明。phase给恢复worker blob549aa108a62ddf759a109f2bb6694801d7875e15 /37128B /SHA256 7f7b9126c299793d735d577550cc5aefc7b01230bb9874bdd7a5acfb7073740e；flow3824d96c9df5b8fa867e686de08b8602cdf4d3b6 /4322B /7a5df407093370a2d0db13d5d3bc83be01e925b38d24fb4b457aeeb198df5f48。root完整diff核对/静态delimiter通过，实际AST留本公开Actions。
+
+新容量只读exact-HEAD root/topic Git tree API元数据，独立核本地HEAD:topic tree一致、完整非truncated、全部blob size/mode/path，发布时再准确扣除两旧文件加上两新文件，<200000000。避免ls-tree -l在blob:none checkout懒取全部blob。新诊断先stdlib取旧job完整log临时核bytes/SHA与实际stack，再读原580a worker immutable字节及AST；必须证明真实首次sync ls-tree TimeoutExpired发生在唯一Popen之前才准原科学首次执行。否则只推两件真实小诊断，禁止猜未启动。token只发API主机，签名log redirect无token且URL不存，原log正文不入Git/Release/artifact。
+
+原SCI c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048、manifest8113b0d7e73c220a766947c198c09b6e66bd3a83210539fed6b4d6d5285e8e3f、17pins、child算法全部逐字不变。旧已成功数学0重算；此次仅恢复未证启动的新消费者。发布两README于3f436bbdb058edcc581ffe875108bf1dfa51e101未变。
