@@ -1,0 +1,111 @@
+{
+  "format": "r150-global197-i2-frozen-sources-v1",
+  "date": "2026-11-15",
+  "author": "ChatGPT (AI), literature_audit",
+  "status": "prepared-no-mathematics-executed",
+  "files": [
+    {
+      "name": "2026-11-15-r150-global197-i2-common-789f.hpp",
+      "blob": "1b6bc36d2c3586d2bad2792e6e639974724bec31",
+      "bytes": 11064,
+      "sha256": "a871e1ddb8e06c9580351fad6f3275f9076a639cd7b251c28c50f53a08427519"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-image-789f.cpp",
+      "blob": "64f217fb68e83296b34cc2489350b2977d4ac2ff",
+      "bytes": 7039,
+      "sha256": "73b23703d5519afa2e6e75fa4f90b06f06d0dc3d1849e1771008f50d59ac24fd"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-source-789f.cpp",
+      "blob": "320c709474b53b09e541c2e630a42a0991567b56",
+      "bytes": 22602,
+      "sha256": "281907d42d90ba1666f8df20cc08b3f573f21c710387401cb2ddb7d3d2325f74"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-transport-789f.cpp",
+      "blob": "d3869b2cc4e1608b491035a76b64eeb2e090cf30",
+      "bytes": 24225,
+      "sha256": "c2f195bb866a72923ecb7846b679f8c163a3ca60f29e58e199b003bc708f8aad"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-original-789f.cpp",
+      "blob": "6a0ee88ce7300bebb3150a45a3e64c9b9deec5b7",
+      "bytes": 13458,
+      "sha256": "8be9925cf90da48f8a7e6115d0d6b2d0374ce6de2ac92c1b9665d2b6def81afe"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-normal-789f.cpp",
+      "blob": "d684618165a08d25bd122a2666c2b455b4508cb9",
+      "bytes": 17662,
+      "sha256": "9b0eb1fa130ef556aa7179dcebbcdfb01fa1d260fe63f7051ff021bd6c4eeb89"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-closure-789f.py",
+      "blob": "7ba5a837ce010c299597c766c3d13004b544ccdd",
+      "bytes": 17625,
+      "sha256": "9071f4a3b48fdf277a6cc6e7c65f5dc0b5aea213dd6cf0b4affffc1eccb1a471"
+    },
+    {
+      "name": "2026-11-15-r150-global197-i2-runner-789f.py",
+      "blob": "20ca90c190fbc58657cf3054488894d59bf9d176",
+      "bytes": 27104,
+      "sha256": "fc1bfafdf11119390f19adef3f6230d76cf8d93d7bdaa95d439589a3f4ec77df"
+    }
+  ],
+  "unchangedDependencies": [
+    {
+      "name": "2026-11-14-r150-f31-bitplane-789f.hpp",
+      "bytes": 3030,
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    },
+    {
+      "name": "2026-11-14-r150-torsion-characteristic-789f.py",
+      "blob": "80bd9645d41f6c7975aa5dd6dbee8467abdada6a",
+      "bytes": 5002,
+      "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    }
+  ],
+  "inputManifest": {
+    "name": "2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+    "blob": "b1e3a87ea2840f794cdb2a829c300f9cdaa8fa8c",
+    "bytes": 7240,
+    "sha256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac"
+  },
+  "cli": [
+    "python",
+    "{scripts}/2026-11-15-r150-global197-i2-runner-789f.py",
+    "--inputs-root",
+    "{work}/global197-original-inputs",
+    "--input-manifest",
+    "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/global197-i2",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096",
+    "--through",
+    "final"
+  ],
+  "compilation": {
+    "separateBoundSeconds": 45,
+    "mathExecutedAtPreparation": false,
+    "localCompileExecuted": false,
+    "localExecUnavailable": true,
+    "cppStandard": "C++17",
+    "optimization": "-O3",
+    "packedRHSCompileDefine": "R150_TARGETS=31"
+  },
+  "outputs": {
+    "smallReceipt": "{work}/global197-i2/global197-i2-pipeline-receipt.json",
+    "completedBatches": "{work}/global197-i2/complete-batches.json",
+    "closureReceipt": "{work}/global197-i2/closure/global197-i2-closure-receipt.json",
+    "temporarySourceSystem": "{work}/global197-i2/closure/complete-global197-i2-source-system.json.gz"
+  },
+  "resume": "Use the same immutable sources/input manifest and --out. Time, resource cap and --max-new-batches are excluded from mathematical binding. A budget pause exits75 and never counts as a completed dependency.",
+  "paddedLastBatch": "All seven batches have31 columns. The seventh selects original K188..K198 and20 zero columns. The final consumer checks those20 original sources have cost-1 and zero complete820-state residues.",
+  "storage": "Only these UTF8 sources, parameters and small receipts/hashes may be published. All recovered/generated arrays and caches stay in this job."
+}

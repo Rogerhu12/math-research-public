@@ -487,3 +487,7 @@
 ## R271：固定原头的完整物理Gram带宽与同actual测试的全部一次MP小量（2026-11-15）
 
 [完整证明](results/R271-appendix-fixed-head-physical-gram-bandwidth-and-same-test-coherent-top-repair.md)用真实非酉Jordan相似并保G=S*S，H_J^0真grade块对角、K=(H0)^-1/2 H(H0)^-1/2谱[1,χm]且带宽d−1。直接Neumann在完整物理逆上控制低forcing到高grade尾，付实际预测top χm²(x+J+1)³ρm^(2ceil((J−d+2)/(d−1)))/(J+1)。固定m取J=d+ceil(6γm^-1 log(x+1))且Q≥R+J，截断相干代表保持同一个原V/K/u；连完整相干列MP预算，所有一次D†修正趋零。精确新残量仍为−C Q_D(C+D)fJ，未称真核；移动m的condition、carry与全部返回继续。
+
+## R150：完整全局第二系数像的197原来源与可续实算接口（2026-11-15）
+
+[完整原来源证明及执行接口](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)由全局colon L:31²精确识别I2(A)=F31[s]·(U7,R2_2,…,R2_198)，不同global q1只差已付第一像U1。197初始真除源费用177，完整原p³乘回后逐系数除p²，保4367输出/505自由/315tors及原s作用；paid F/B仅重放且全SHA相同。七批完整源DAG及最终204种子/J闭包是成功门，未预设秩。若actual维r，则精确t2=r−2、Δaff≤306−r及Ω120后的μ≤28−r；未执行完成前不代数值。

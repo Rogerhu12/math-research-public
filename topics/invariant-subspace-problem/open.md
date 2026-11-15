@@ -134,7 +134,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原G_reg同forcing/carry、Haar普通循环性、正常有限秩相容链及前文全部开放接口继续。普通ISP完整定理或反例出现前继续工作。
 
-- **全局第二系数像续查。** 原B像=L:31²，I2(A)恰U7和197真实R2的原s闭包；旧197只二点jets。新独立run43772109844已在8.054750272秒核完14个原历史输入，manifest a5d9cd78、两旧包299422058/160817149B精确SHA已核。恢复只在tmp，后续七批保全部505自由/315tors/J闭包；不预填秩或把旧局部rank5外推。
+- **全局第二系数像续查。** 原B像=L:31²，I2(A)恰U7和197真R2的s闭包；旧局部二点不能外推。[完整全局消费者/证明](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)已根/独立双审，run43772109844恢复14原件全真后排600秒/4GiB。31×7批保全部原17式/p³÷p²/620796系数槽/505自由/315tors/J闭包，末20padding源和820余量全零。r未知；actual后才据完整colon得t2=r−2、Δ≤306−r/μ≤28−r并精确分配primary。
 
 - **原正常商的完整来源接口。** [6012真源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)与[显式商泛函/无Ω倒置投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保全原120单位/13零输出/6012=5100+864+48。实际z_j=1、Mz=f²q给ℓ=zᵀ modf²，imMᵀ=kerℓ；多项式E取e_i−z_i e_j及f²e_j，Mᵀ=EV，三原det/f²的Σ-Bezout给VR=I。P=I−RV保全部rank34核，T=coker[B,H_M P]在原Σ局部化成立；新adj/R/P及完整W尾未实算。
 
