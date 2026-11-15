@@ -110,3 +110,5 @@
 - [R301：actual135真实半径继承的32批完整读回](results/R301-actual135-carried-radius-thirty-two-batches.md)：256接受/357trial，W仅到4.963213788986739、radius到9.5367431640625e−8，全部final false；86接受inner未达和72外拒inner已达、32行FD/Arb/圆、896文字身份及真末p/r全部保全。有限弱响应不证无根，继续独立完整merit全局化与原非零场。
 
 - [R299：同一次完整normal轨迹的原全三merit最小选择](results/R299-same-normal-trace-full-merit-selection.md)：有限集合不等式、同阈值条件接受、只读记录保原工作轨迹和局部Armijo推论完整证明；新helper d4c9cd44保全部normal/失败/完整state，原外门继续。无全链速度或根存在保证，138显式独立接线。
+
+- [R302：共享有限root轨迹的批列等价及完整112两端响应](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)：固定准确实分支的共享/全RK链式证明、完整112 QR传递与唯一性条件，保全部原行/两mean/338混合及独立物理audit边界；浮点pivot不证严格非共振，未给实际速度或native结果。

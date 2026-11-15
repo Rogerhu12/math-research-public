@@ -43,9 +43,11 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 ### 2B. 原native有限精度与固定trace方向
 
-[R288实际113](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)已结清run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768。输入恢复后完整实验实际完成：原stop128与refined128各base/alpha1、四次129248行/576stage无域拒绝，原stop全步严格下降.00012209605459741098949→.00011718707987942263382，refined全步.02783149326844054368→.02783350799348104264未降；都远未达原2e−9。原stop alpha.5只付189stage/42560行后7200秒预算partial、范数空；不是数学失败。随后原64十档全部执行/全拒，最后三档回基6.0618737006888706e−5，iteration0原线搜索失败/exit2，1freshJ/1R273/0word，无新finalJ/audit。CPP1b59cd10/bridge3655c81a/probeba3564ca保持；原packet实际6943RK子步/20829几何样本。所有raw已清，summary f1c7bf72/log255c0724。
+[R288实际113](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)保原完整读回：原stop128全步从.00012209605459741098949降至.00011718707987942263382，refined全步未降；均未达2e−9。原stop半步只完189stage后预算partial，原64十档全部拒/iteration0停止，无finalJ/audit。source8d68a39e/run43688981685原raw已清，完整身份/各policy/限制见正文，不盲重跑。
 
 [R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)和[JVP源](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)给实际有限root每步F/C、Cholesky、代回和226态RK固定分支变分，保C独立于F_e，不省近似solve的残差导数；不证明IEEE光滑、分支稳定或全224列J。[122实际入口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)由实际91原现场fresh全J/R273产生唯一packet，α0两policy实验，总7200s/首≤3600s；随后精确sentinel受控停止，原十trial/finalJ/audit未执行。run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/compute132757561652已exit3、report132790503311成功；原摘要27431B/98080d47已核。original3600s完488段/109536行，refined3294s完187段/42112行，均资源partial、全norm空、shadow mismatch0。[R303完整读回与范围证明](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)已登记：受控sentinel前原十trial未执行，无native/full224J/finalJ/audit；逐stage及2/1局部失败全文已清未复取，不能由counts猜索引或全部归因。入口8008.370981772s含fresh64前置，后继137单一deadline须从fresh开始。
+
+[R302完整共享轨迹/边界证明](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)已付准确实分支下单轨迹多列等价、原226态RK/mean/port及完整112两端QR消去与唯一性条件；全577响应和129248×112缺陷账保留。不是对IEEE映射求导，非零浮点pivot不证实非共振，338×112仍明确混合方法，C-based物理audit不冒finite-root径向导数。137同job真实末态接线继续，不先要求新的fixture或数值通过门。
 
 [高精度后继缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)仍须匹配全残差/J和独立实际cut/敏感度/audit；113下降不能直接作为完整native门。
 

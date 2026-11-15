@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:30:36 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 aa9e34c6bae8aefcb62c0d168a7d0752dc58f1f4。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 11:31:53 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 94d38cc629ec6275ecbdb41f0b827f192ec1fb9e。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public；科学计算/导入/测试仅本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -36,7 +36,7 @@ root唯一发布者；原临时克隆已丢，新部分克隆/tmp/visible-larger
 
 [133入口](notes/2026-11-15-request133-persistent128-execution-interface.md)7789007e/767a4c4b/2657ddee/2683e8e1，37pins/真91+两ready+78源；fresh64全J/R273固定chord，持久128全226/原32×10/严格σ范数。4threads/18000s含1200replay、guard18330/330science350job，requestfff42780/wfbe43ebdf。run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6/job132783217957，10:34:17起science。matched-trace none/列0，replay不付338×112/fullDN/audit；全事件先出、90KB不完整70。原113见R288，未接受。
 
-[128位末态完整组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)七源bcca7371/7c59da15/c218f128/824b7440/4b0569a2/a0904ea0/ddbe1a49已发；共享真实root tape全224列、全112 QR边界、338端点、原物理audit分旗标。C-based物理jet不冒finite-root导数，全部native/fullDN false，未编译/未运行。原133 launcher先清raw，137须独立新owner在同job清理前接真末态；完整源/身份/预算/未访范围保留，不能SHA恢复。
+[R302共享轨迹与完整响应证明](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)：准确实分支下共享root等价、全226RK和完整112 QR两端唯一性/全行读回；浮点非零pivot不证实非共振。[七组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)已发而未科学执行；338混合与C-based物理audit不冒全解析/径向trace导数，native/fullDN false。137独立新owner在清理前接真实128末态；不能SHA恢复。
 
 [R303实际122](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)：run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b，compute132757561652 exit3/report132790503311成功。original3600s完488段、refined3294s完187段，均预算partial/三全norm null/0 shadow mismatch，局部失败全文未复取。summary27431B/98080d47；1fresh64 J/R273，sentinel前无十trial，非native拒绝、无full224J/finalJ/audit。入口8008.370981772s含fresh前置；137须从fresh起单一deadline，不盲重跑。
 
