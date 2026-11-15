@@ -134,3 +134,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **首头正向恢复已准确消去，衰减仍开。** [完整双块和同gap身份](notes/2026-11-15-first-physical-head-exact-gauge-recovery-and-same-gap-scaling-789f-next.md)给原b1=−W1b′1/S，恢复代价只O(m³)，同时保原c1零源反馈。环境低核身份使同一左源、Gq及dq全部准确按相同因子缩放；已有b′1≤S/W1不能变成原列趋零，所缺恰b′1=o(S)。继续固定低forcing远孔传播或实际两费的额外约束；不将同一齐次预算重复计为新增尾阶。
 
 **扩大来源包的精度已付。** [整数carry及20→15→10→5合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)保同一q1、完整q cochain与原6188来源：R2模p4、D3模p3、D4模p2、D5模p均来自原p6。三次Smith各损5，先真实形式像/free后保有效项；第三纠偏必须用pκ8、pL3,2保持初值。先完整第二页独立保存全部204来源/10项余量，第三按实际新像接；新页尚未执行，全局正仍须原17及真实次数费用。
+
+**全局正向gauge锚。** [真实carry证明](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)对全部原借位位置付||B^k−B_m^k⊗I||≤α_m(k<d)，合真逆芽给||p_m(B)−G1,m||≤exp(−80d⁴)。由BM⊂N及M对B不变，P_M p_m(B)*w=d0w，得到全w配对锚和向量压缩界。固定正整数a同证；原孔截断的高尾配对、带gauge的实际最小投影误差、ordinary λ(B_m top)仍开，不能用未付τ速率乘环境大范数。
