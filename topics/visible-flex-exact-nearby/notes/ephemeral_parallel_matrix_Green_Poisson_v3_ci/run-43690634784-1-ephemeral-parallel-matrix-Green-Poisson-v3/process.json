@@ -146,6 +146,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T09:03:33.114875+00:00",
+      "before": "664026df7a8e29197e90bc10831ce894c46d5721",
+      "after": "aa622bafea7666f3888b8b10eff7d2ebc0a47979",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -188,6 +196,11 @@
       "time": "2026-11-15T08:43:29.264979+00:00",
       "final": false,
       "commit": "1a3cda291829b486965fcb0a85d64ecba5a67dff"
+    },
+    {
+      "time": "2026-11-15T08:53:31.992526+00:00",
+      "final": false,
+      "commit": "bfd0c0bd8787eaf1fa13accd534c792747d115ec"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -298,7 +311,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "664026df7a8e29197e90bc10831ce894c46d5721",
+  "last_read_commit": "aa622bafea7666f3888b8b10eff7d2ebc0a47979",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -354,40 +367,40 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T08:53:30.584000+00:00",
-  "wall_seconds": 4511.233812791,
+  "snapshot_utc": "2026-11-15T09:03:33.182148+00:00",
+  "wall_seconds": 5113.831960547,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T08:53:16Z",
+      "actual_utc": "2026-11-15T09:03:19Z",
       "streams": {
-        "future": 3136,
-        "past": 976,
-        "product": 1312
+        "future": 3328,
+        "past": 1104,
+        "product": 1488
       },
       "complete_groups": 0,
       "queued_groups": 0,
       "consumer_processes": 1,
       "done": false,
-      "original_temporary_receipt_sha256": "66992d1d7b1a793c761ea90db5ba81411f36896c0f6831bd599319d17d047b8f"
+      "original_temporary_receipt_sha256": "46de4367cc9b494a00dcb7aad949f216b0d4eef0cb10b672e8761b9d24e43864"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T08:53:01Z",
-      "completed_rows": 3136,
+      "actual_utc": "2026-11-15T09:03:04Z",
+      "completed_rows": 3328,
       "reused_rows": 1886,
-      "new_rows": 1250,
+      "new_rows": 1442,
       "done": false,
-      "seconds": 4116.436775218001,
-      "original_temporary_receipt_sha256": "46dcc412277b60147c2ba729307bbae2f599eab3bcd880d17bec2af26c1def29"
+      "seconds": 4719.482552786,
+      "original_temporary_receipt_sha256": "cd7f867e8f8df1852b24cd6c1b726a8db255a123258a072bf4077128807bbedf"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T08:53:01Z",
-      "completed_rows": 976,
+      "actual_utc": "2026-11-15T09:02:44Z",
+      "completed_rows": 1104,
       "done": false,
-      "seconds": 4116.948718011,
-      "original_temporary_receipt_sha256": "7a2adb5aa6ddfcfd2ba6c94f9ed3bd7f2ade200d7264436b183e346a01b90315"
+      "seconds": 4699.143340957,
+      "original_temporary_receipt_sha256": "25444e120b18ad7efae469386da56f947529904a57cfe19a46117a630c991cee"
     },
     "preflight": {
       "stage": "preflight",
@@ -407,19 +420,19 @@
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T08:52:33Z",
-      "completed_rows": 1312,
+      "actual_utc": "2026-11-15T09:02:51Z",
+      "completed_rows": 1488,
       "done": false,
-      "seconds": 4088.909502328,
+      "seconds": 4707.235912550999,
       "diagnostic_exponents": {
-        "local_complete_rounding_log2_upper": -114,
-        "old_scalar_error_diagnostic_log2_upper": 1745,
+        "local_complete_rounding_log2_upper": -117,
+        "old_scalar_error_diagnostic_log2_upper": 1883,
         "selected_product_norm_log2_upper": -6,
         "signed_error_norm_log2_upper": -104,
         "single_true_Di_norm_log2_upper": 2
       },
       "reused_same_run_preflight_rows": 32,
-      "original_temporary_receipt_sha256": "1f4259a9b6aa9bce7e14b5656756610e5c1feced1421d5e2d1102c4f262c24bc"
+      "original_temporary_receipt_sha256": "b91b8920e559d6bab101a7912da01317f1416c584e38de7d4d460f0305e9d7eb"
     }
   },
   "required_original_array_artifacts": 34,
