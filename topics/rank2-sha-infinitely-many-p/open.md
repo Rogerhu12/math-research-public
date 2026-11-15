@@ -123,3 +123,7 @@ O4仍缺原最早低增广a≤1的无限p或β(Q)真实全球位置；O6仍缺�
 ### R768：原normal的局部代表与实际全局消极
 
 [R768](results/R768-finite-fiber-normal-residue-and-original-global-pole-divisor.md) 已证明在准确b0=degY F(0,Y)>4k+2门下，原normal泛函由同t=0纤维除P外的有限分支读取；monic Weierstrass单位、非约化Grothendieck留数核和w/t单位全保。确定局部代表ω0=(a²/2)q t^(r−k−1)A_k dt/FY在P正则，完整原十九角/∞极由div(e³ω0)+Δ_C−3D_e准确计，极次数≥2κ+χ。真实全局延拓仍须res_E′ω+d_local∈V_E′⊥，没有以局部代表或RR维数付掉它。继续由这个确定局部数据判实际O_T*ω=d_k；b0额外门失败时补∞纤维，m=−v0F不能替b0。完整同R余块和v_F原残数继续保。
+
+### R767：原非零总行的完整条件五坐标
+
+[R767](results/R767-native-t-moment-and-complete-five-partner-boundary.md) 已证明原t正一的完整Y来源恰−22β^N Dω/21，完整Y/t环带负一行严格非零；同C六角平均后全浅域保H/f1/f3/f4四核，共深t首矩给真实五伙伴M5。每条原条件来源的五坐标由正5/11/17/23/29矩经固定单位三角逆准确读取，全部两算术线/primitive块保；有限完整分割之和回纯Dω。未赋各条件块非零或原中央新零，全部移动门/外补仍在。继续在真实条件矩上判断两算术幅度，并把P58实际来源/点域与全部补偿连回原中央；point-only投影不得越过无限log，原P≠bY Y误差须保。

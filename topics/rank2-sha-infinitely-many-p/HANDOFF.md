@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；持续研究，不以阶段结果或时长收尾。**
-- 最近已读规则提交：92f214bd7410e499390204436e1fa50ed3f607ed；2026-11-15 14:15:14 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:15:13 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
+- 最近已读规则提交：a012a27a2280e77e401fe089221e4190f5c58768；2026-11-15 14:19:04 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:19:02 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main，旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase重推至成功，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核根/题README；变动只读差异即执行、记提交。root15@708f058a变更已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 最新实际pull run43722439716/job132837121707，回执ci/rule-pull-20261115T140538.json；本地仍无可用执行环境，数学运行全公开Actions。
@@ -12,8 +12,8 @@
 
 ## 完整检查点与分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r767-r768.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–766、768–769已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md；open压缩前全文notes/2026-11-15-open-before-r767.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。theta续R764条件负一行的完整五伙伴来源与全部浅独占支；deep续R766实际主部小矩阵与vF全normal同R；literature续O4/O6完整Selmer最早节点；root续新三格算术桥和全来源联立。
+[压缩前全文](notes/2026-11-15-frontier-before-r767-r768.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–769已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md；open压缩前全文notes/2026-11-15-open-before-r767.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。theta续真实条件五矩/全部浅域及P/Y/t联合；deep续R768实际全局消极及同R；literature核原P58全Schwartz/点域兼O4/O6；root续R769合流矩阵/实际连接。
 固定四次E17及j0 E17/E24/E2312 rank2已付；全Selmer桥保完整Sha，仍须无穷不同p至少一条固定原J′非零。非中央负矩、有限p和附近变化来源均不完成。
 
 ## 普通原来源、点域与当前全域工作
@@ -31,6 +31,8 @@ R757原type0全六谱唯S质量核，另五质量/实三次rank0不代原中央�
 [四单反射](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)付h+=hW+e0/2分别偶、共同[2]全K多项式和六深度矩形；保x边界仅用于真正因子化测试，原q/Y/W不得忘输入。三CD/O域与W_j必须完整转置。
 
 R764已付新整数框架Gram(6,6,3,3,1,1)、det−18；t轴whole核心β且固定原Y/q*，Y/t完整矩形返回原J_S。三CD浅精确环带互斥、深交相同，O完整门m≥n才同域。真实W_j=P−aω^(2j)κ^m t，E→E⊥+(17+3ω)κ^m t；同域差只留1mod3幂，首κ^m∫q*t/P及p^(4m)尾保。实际条件type5来源未判负矩，全部浅独占支/失败/E与外部补偿继续保。
+
+R767已付Ω^-1Y_*(t q*e0)=−22β^N Dω/21，完整t环带负一行非零；C平均后全浅域H/f1/f3/f4四核保，共深首矩为真实五伙伴M5。条件五坐标经5/11/17/23/29正矩和固定单位三角逆读取，两arith/primitive全保；完整分割和回纯Dω，单条件值仍待算。公开run43723237144/job132839529955重建5纤维/reader成功，producer/args/hash见R767，输出不入库。
 
 ## 深支：原全部WD、指定低位与同R
 
@@ -57,4 +59,3 @@ R707/708 trace前缀、R714/717–725/729 height2/AH/CM仅确定原来源。R716
 O4原低增广a≤1/β(Q)、O6全Np有限/λ≤3与supersingular二次regulator仍开；AST线性和strict局部向量不代全Selmer。
 [2026 Wang稿核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)已证起始root与辅助level-raising条件矛盾，真实Nguyen/λ0步骤亦不成立；不采其完成声称。Kim2609最新全Sha判据仍须最早节点的指定全球点子群位置，literature继续实际加强，不用深节点非零替代。
 
-R767固定五坐标reader已请求公开Actions（request rank2-20261115-r767-original-five-coordinate-reader；producer scripts/check-r767-native-five-coordinate-reader.py，--workers=4，flint0.9.0）；只重建原5纤维/矩阵与纯t线，不赋条件矩值。输出不入库，完成后记run/hash。

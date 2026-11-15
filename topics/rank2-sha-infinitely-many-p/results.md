@@ -437,3 +437,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R769：新正导数全格的同charge合流theta返回](results/R769-original-confluent-theta-return-for-positive-derivative-grid.md)：已证明新(S,T,(S′)^6)全部原列的同charge合流theta返回：Q^j经明确非交换递推化为∂^rΘ^n，原P4^j零点消掉全部t=1分母，各列仍全纯且次数帽不增。实际系数矩阵为Σg_ri[−6(k−i)]^rθ_n,k−i，分母只7^(a+b+6c)(2n)^(6c)，p>204D时全为单位。原w/t共同饱和前缀相同、首行仅差(−1)^k；保全原列和全flag，未把各charge/导数分拆消失或证明中央估值改善。
 
 - [R768：原同纤维normal留数与完整全局极](results/R768-finite-fiber-normal-residue-and-original-global-pole-divisor.md)：已证明在准确b0=degY F(0,Y)>4k+2门下，原normal泛函由同t=0纤维除P外的有限分支读取；monic Weierstrass单位、非约化Grothendieck留数核和w/t单位全保。确定局部代表ω0=(a²/2)q t^(r−k−1)A_k dt/FY在P正则，完整原十九角/∞极由div(e³ω0)+Δ_C−3D_e准确计，极次数≥2κ+χ。真实全局延拓仍须res_E′ω+d_local∈V_E′⊥，没有以局部代表或RR维数付掉它。
+
+- [R767：原t非零总行与完整五伙伴条件来源](results/R767-native-t-moment-and-complete-five-partner-boundary.md)：已证明原t正一的完整Y来源恰−22β^N Dω/21，完整Y/t环带负一行严格非零；同C六角平均后全浅域保H/f1/f3/f4四核，共深t首矩给真实五伙伴M5。每条原条件来源的五坐标由正5/11/17/23/29矩经固定单位三角逆准确读取，全部两算术线/primitive块保；有限完整分割之和回纯Dω。未赋各条件块非零或原中央新零，全部移动门/外补仍在。公开run43723237144的固定reader通过，producer/参数/哈希见正文。
