@@ -1,0 +1,102 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "7124e588085f75976275426a83c50cd2e17dac13",
+  "job": {
+    "result": "R787-original-power5-function-relation",
+    "p": 41,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R787_projective_reconstruction.py",
+    "core_sha256": "PENDING_FINAL_PROJECTIVE_CORE",
+    "wrapper": "R787_projective_public.py",
+    "wrapper_sha256": "b2c4efda15f7a0f8857f24f0b20484f719a46f963666e691c25b2371c3fe9a9b",
+    "field_core": "R781_original_Laurent_prefix.py",
+    "field_core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "method": "notes/R787-original-projective-reconstruction-method.md",
+    "projective_method_sha256": "9a75fd871fc36ed451951038881723433908f4fea4664f62b6cb28428a63d7e1",
+    "original_method": "notes/R787-original-power5-relation-solver-method.md",
+    "R787_method_sha256": "1d91bfc7bdf61c40c4deda19833a5f50491630a61a7a25feb7a3a1e0b451204b",
+    "proof": "results/R786-original-power5-sections-and-129-Laurent-recovery.md",
+    "R786_proof_sha256": "c46008726fb18f52a5430b72c4994ce76164f11bea51044f1677278294f7011d",
+    "original_wrapper_sha256": "42157e0d95eb5d9aed28ef828a86dc5e7bec89e806e3e0a92aa0bcb1a36988b6",
+    "pinned_R787_configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+    "current_readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "original_readme_sha256": {
+      "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "retained_source": {
+      "archive_bytes": 438780485,
+      "archive_sha256": "b6ec1bf53540cd59e69309e445ef15a44e0dc64e9f298d2a065609647ea82340",
+      "artifact_id": 14170087848,
+      "artifact_name": "serre-global-R787-original-power5-function-relation-43708449812-1",
+      "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+      "expected_conclusion": "failure",
+      "manifest_bytes": 430709,
+      "manifest_file_count": 1262,
+      "manifest_sha256": "1b92c4e594f4d1d14cfd4b62fda8513511dc879a7c6e2c7d9f60de52dd5ca689",
+      "result": "R787-original-power5-function-relation",
+      "run_id": "43708449812",
+      "source_commit": "ac5998f333ab49c4747874e2e44b7ca4ccfa3acf",
+      "certificate_name": null,
+      "files": {
+        "core-receipt.json": "ec4673e2b51e4b3e47b2fbea4ac75c34c7923e90d47ab3f80110cf35f426e8f7",
+        "public-actions-input.json": "5d4561709388c6f14b4abdaae2b49dab2a81c9020d155be6de973ce48828b17b",
+        "run-receipt.json": "bf0764cf16e4c336b7beddec3b116ddc1c7dbba6f8f2d3f28b46441fb666c3d3",
+        "R787-prime-1000000753-chart.json.gz": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96",
+        "R787-prime-1000000753-selection.json.gz": "a420d94a9a2f56fa449946bac6379f437e7e53120a651d7df95b5f9ef9b07adb",
+        "R787-prime-1000000753-rational-blocks.json.gz": "fb8a82957474e657fc476aa2baa0d8ce9f4c8b6cc86c2b55a79e75913d610b3b",
+        "R787-prime-1000000753-dixon-00000430.json.gz": "00855d88fec4c18ec7cbfd4927dd72042d8e0372d1ac95498a0e5fcd9f118029",
+        "R787-retained-producer-inputs.tar.gz": "2f4371c94e36372b2eeb9291d75479ccbe2432abe741dc9ecbebab78e9046e92"
+      }
+    },
+    "retained_artifacts": {
+      "R781": {
+        "result": "R781-original-p41-inverse-free-Laurent-prefix",
+        "run_id": "43679703344",
+        "source_commit": "f0292795817a534937d35904e2e11275631e878d",
+        "artifact_id": 14148041703,
+        "artifact_name": "serre-global-R781-original-p41-inverse-free-Laurent-prefix-43679703344-1",
+        "archive_sha256": "b5dc71fa2f675c75ca0b6999192ec1de6ffed7486b9506bfb529c37823f286dd",
+        "manifest_sha256": "ce0554fab03fda8d124e9e0ee338335bca6f7b39ee8499550bbec36358a1a7fd",
+        "core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+        "certificate_name": "p41-original-inverse-free-Laurent-prefix-certificate.json",
+        "files": {
+          "p41-original-inverse-free-Laurent-prefix-certificate.json": "b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+        }
+      }
+    },
+    "checkpoint": {
+      "prime": 1000000753,
+      "digits": 430,
+      "lift_file": "R787-prime-1000000753-dixon-00000430.json.gz",
+      "chart_file": "R787-prime-1000000753-chart.json.gz",
+      "rational_blocks_file": "R787-prime-1000000753-rational-blocks.json.gz",
+      "selection_file": "R787-prime-1000000753-selection.json.gz"
+    },
+    "resume": null,
+    "workflow": ".github/workflows/serre-R787_projective.yml",
+    "projective_search_controls": {
+      "maximum_nodes": 96
+    }
+  }
+}

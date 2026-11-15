@@ -54,6 +54,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R787真实430位BudgetStop后立即续算**：run43708449812/sourceac5998f3完整430位，最新60765868B/SHA00855d88及430条历史由小IO43737168117实读。新run43737413555/job132883028161/source4092d1cc已进行，同core93d3d72b/wrapper42157e0d恢复新manifest1b92c4e5/1262条和原14分支，不回退259、不换R802。详见[430位断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)，当前无真实A/B。
 
+**原430位数域共同分母提取（已证方法，待新core运行）**：[projective契约](notes/R787-original-projective-reconstruction-method.md)9a75fd87保持原1186归一方向，28维格只提候选；同一个原整阶D乘全部2448个L值，free=D、Z及129×280全式和B非零才给同原y。整阶可非主理想，430位未保证足够；成功metadata保去内容后D/e及原scale。IO b2c4efda只消费已结束430lift与最小1380文件，不重算原14branch逆/Dixon，沿原数学RESULT保真实新core/source。当前pending不冒称A/B。
+
 **R809六原C已准确完成**：[实际结果](results/R809-certified-original-six-Hodge-normal-vectors.md)，run43712427063/source91fbd81e，84Q右端/full1380、S5=1234、p1000000007/minor29693114；13341.116785255秒，各最高项零给权4。原冻结verify全部成功；小IO run43733430148仅精读16件4.80MB取得真实manifest/cert/S5/minor，不重算旧行。保82^10、b/s与λ一次；A/B仍待真关系后追加，极理想/eta/高度未得。
 
 **R792/R804待真实准确关系**：原R792 core7b7a5483/wrappercdac2e93保c(f)=−ζ²f、原Fb唯一立方根/21次奇因子，不选同源核前像。[真R824关系入口](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)adapter5a6a100a/corea8a33d32/runner8991eb80已保存pending：任一完成新五次exact及17个129×280块给同原y，不等1186、不造R787、不重插denominator/content；新共同零实际判断。R804现core d8d1a395/wrapper1be08ad8按[双来源接口](notes/R804-original-CM-point-consumer-interface.md)分别消费真R792旧/新point字段；原8节点/例外点/T7/Gal/rho/vβ数学逐字未改。R824后[R809 A/B-only](notes/R809-original-A-B-normal-consumer-from-R824-method.md)corecdc381fc/runner eaf91a35已核pending，只复用原S5和p007逆求28Q/full1380，不重算六C；当前仍无新实际A/B。
