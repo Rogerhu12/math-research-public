@@ -361,3 +361,5 @@
 - [R167：完整最高层四单项Gram充分证书](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md) — 任意h共轭k=e^r y，Z=(y″,r′y′,r″y,(r′)²y)，完整I4=I0+∫Zᵀ(G0+θN1+ηN2)Z。全部10矩阵元素与f项/两个null边界导数准确列出，平端各项零。4×4 PSD配a≥0、ℓ+25a/9≥0充分证明全最高层非负，蕴含R165频率门；未证必要，Gram不可行不授反例，未付低层或外坐标良定义。
 
 - [R168：完整反射低层奇偶与四条真实头部关系](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md) — R145真h正反射与λS=λ、全开路径端点纤维给Γ缺陷β#；μ′=μJ8−β#在正仿射群共轭下仍协变，权−2唯一性迫完整修正action不变，不先假正性。β#=−4a_static(1)E_p2*，静态缺陷2a1kh保留；δ分层/微幅路径给b0,b2偶及b1奇。原ν26/41/61/67=0，有限维对偶分离给四Vi∈R−2+NU−1；不宣原R成员/独立rank或signed control。
+
+- [R169：真实幂路径的锐利四次门与可实现Gram方向](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md) — k=Kh^p保真ω，完整最高K² action化A(p)X+D(p)Y，sharp inf X/Y=(2p−2)²/9。全实p的A≥0与显式Ω≥0准确刻画该路径子类，Ω首次保留f；固定有限flat逼近、有限K及时间缩放给严格负方向。四单项Gram曲线ζ真实L²可逼近，ζᵀGζ=Ω，不把任意负特征向量当真路径；无新研究计算。
