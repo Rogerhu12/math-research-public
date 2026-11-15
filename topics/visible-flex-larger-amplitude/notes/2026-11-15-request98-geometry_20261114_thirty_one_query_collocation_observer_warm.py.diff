@@ -1,0 +1,41 @@
+--- actual94-frozen28/geometry_20261114_twenty_eight_query_collocation_observer_warm.py
++++ independent31/geometry_20261114_thirty_one_query_collocation_observer_warm.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Run the frozen twenty-eight-query warm with a read-only collocation observer.
++"""Run the frozen thirty-one-query warm with a read-only collocation observer.
+ 
+ Every original evaluate and weights call executes exactly once.  The
+ observer only reads arrays already returned by that call.  It locates the
+@@ -9,7 +9,7 @@
+ boundary, model action or additional trial.  Diagnostic exceptions are
+ reported without replacing the original state, vector, finite flag or
+ scientific decision.  The mathematical producer remains the original
+-twenty-eight-query schema; this execution wrapper has a separate source ledger.
++thirty-one-query schema; this execution wrapper has a separate source ledger.
+ """
+ from __future__ import annotations
+ 
+@@ -19,11 +19,11 @@
+ 
+ import numpy as np
+ 
+-import geometry_20261114_twenty_eight_query_condensed_warm as entry
++import geometry_20261114_thirty_one_query_condensed_warm as entry
+ 
+ HERE = Path(__file__).resolve().parent
+ SCHEMA = "original-return-collocation-location-observer-v1"
+-ENTRY_SHA = "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c"
++ENTRY_SHA = "1cf2d88dfeeba1ea542dabad261759151f1c6e30e29caece8fc2056fbe5f107e"
+ COLLOCATION_SHA = "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8"
+ ENGINE_SHA = "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
+ 
+@@ -75,7 +75,7 @@
+     identity = dict(schema=SCHEMA,
+         execution_wrapper_file=Path(__file__).name,
+         execution_wrapper_source_sha256=own_sha,
+-        original_twenty_eight_query_entry_source_sha256=ENTRY_SHA,
++        original_thirty_one_query_entry_source_sha256=ENTRY_SHA,
+         original_optimizer_schema=entry.SCHEMA,
+         observed_original_sources=expected,
+         actual_parent_warm_sha256=args.expected_resume_sha,

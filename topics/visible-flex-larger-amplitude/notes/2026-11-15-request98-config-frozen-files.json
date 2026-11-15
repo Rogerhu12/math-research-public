@@ -1,0 +1,43 @@
+{
+  "schema": "request98-source-only-frozen-delivery-v1",
+  "directory": "/tmp/visible-larger-request98",
+  "scientific_execution": false,
+  "git_or_dispatch_performed": false,
+  "files": [
+    {
+      "file": "build_request98_source_only.py",
+      "bytes": 16092,
+      "sha256": "fad73e340121ae2935dd5ccb730940db5b80fd2e9ad8cd5b98e70aaf40df6d8e"
+    },
+    {
+      "file": "check_request98_static.py",
+      "bytes": 10947,
+      "sha256": "8857e952a07df2a850fa074717661c601f6041d6ea303040b9375d3237966a00"
+    },
+    {
+      "file": "public-condensed-qp-request.json",
+      "bytes": 27611,
+      "sha256": "de47834ecc9f81437ae5bb5efb18a3368cf1b5006f2f6627d821e06c32a1df2d"
+    },
+    {
+      "file": "public-condensed-qp-request.json.diff",
+      "bytes": 29930,
+      "sha256": "6e1b7b7142b05d2db570b0cb9201b60544e7b83bd48c2dfa41243284b45d4935"
+    },
+    {
+      "file": "request98-static-check.json",
+      "bytes": 28343,
+      "sha256": "b8f9708411bb9d06165c5df5115b3cda6f5a7c35d49b0b22109137ec8ea0183a"
+    },
+    {
+      "file": "visible-larger-public-condensed-qp.yml",
+      "bytes": 27554,
+      "sha256": "7b8091cdedcf601bdd678c6b0a8c25b5d65b56ea86bed67db2fa7816a845aa92"
+    },
+    {
+      "file": "visible-larger-public-condensed-qp.yml.diff",
+      "bytes": 12414,
+      "sha256": "e743150d5a276b93181777897b45603a8b0b4a10b0880626cda571867e341b5f"
+    }
+  ]
+}

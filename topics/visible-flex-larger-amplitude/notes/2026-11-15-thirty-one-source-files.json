@@ -1,0 +1,45 @@
+{
+  "schema": "source-only-independent-thirty-one-query-files-v1",
+  "files": [
+    {
+      "file": "geometry_20261114_thirty_one_query_domain_operator.py",
+      "bytes": 34319,
+      "sha256": "44c82d410f1e52f45e6b87f9e9eb86b3aeccb0e937510f04561855360347128f",
+      "parent_file": "geometry_20261114_twenty_eight_query_domain_operator.py",
+      "parent_sha256": "25767045b9a26764bfdb89881832ec7da01de1ac86ebc491402c7b9801175cd0",
+      "diff_file": "geometry_20261114_thirty_one_query_domain_operator.py.diff",
+      "diff_sha256": "58d7589b7ab75c9ccb06386e55a898e8020d5da1a3ca25d04a6e4fcd1e655faa"
+    },
+    {
+      "file": "geometry_20261114_thirty_one_query_condensed_warm.py",
+      "bytes": 47119,
+      "sha256": "1cf2d88dfeeba1ea542dabad261759151f1c6e30e29caece8fc2056fbe5f107e",
+      "parent_file": "geometry_20261114_twenty_eight_query_condensed_warm.py",
+      "parent_sha256": "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c",
+      "diff_file": "geometry_20261114_thirty_one_query_condensed_warm.py.diff",
+      "diff_sha256": "819cf1752857500436f633623a84782f98f6874e2e87fb821d285e9ccaae63d4"
+    },
+    {
+      "file": "geometry_20261114_thirty_one_query_condensed_response.py",
+      "bytes": 2619,
+      "sha256": "1bc1f6e02e2d450b24df73aab6e660c4453fdbf088e9aa2b3054b5ae5a2d84d5",
+      "parent_file": "geometry_20261114_twenty_eight_query_condensed_response.py",
+      "parent_sha256": "3a3d5f2888b4d826c69e2949ae9ec5ef896c54cb04f9b2283a71051221d7c5d9",
+      "diff_file": "geometry_20261114_thirty_one_query_condensed_response.py.diff",
+      "diff_sha256": "4cf8d02edce66e3b593a7575e182851970c23cb426e2492368e3e3e3d1971852"
+    },
+    {
+      "file": "geometry_20261114_thirty_one_query_collocation_observer_warm.py",
+      "bytes": 16728,
+      "sha256": "1e2f1ff075daf761c496271b5d93d29178d7af098d2bc03ba0eb6b38328107a1",
+      "parent_file": "geometry_20261114_twenty_eight_query_collocation_observer_warm.py",
+      "parent_sha256": "fc5a3e4b35557a7056d96cd7ade6756b861f3667e44aea83d51e4f5cd59c7dfc",
+      "diff_file": "geometry_20261114_thirty_one_query_collocation_observer_warm.py.diff",
+      "diff_sha256": "57511d5e6a802e9ea73a823a25b1bf49c64e911de48c912cc739cd3cee6f4fb6"
+    }
+  ],
+  "actual94_warm_sha256": "292732a80175af1fc6328e68954a04587cedc871246d2db75b6dd1d7d46df9c0",
+  "actual94_original_status_sha256": "8b65e2f913e882fffc2a9d92998ea908f89981cd448afc0b81a367a5581ff237",
+  "source_modules_imported": false,
+  "scientific_computation_executed": false
+}

@@ -1,0 +1,195 @@
+--- actual94-frozen28/geometry_20261114_twenty_eight_query_domain_operator.py
++++ independent31/geometry_20261114_thirty_one_query_domain_operator.py
+@@ -1,15 +1,15 @@
+ #!/usr/bin/env python3
+-"""Twenty-eight original query grids from actual89: add LEFT487 and MID487.
+-
+-Retain all seventeen earlier left-RMS grids and all nine earlier
+-collocation midpoints. LEFT487 uses the original left Gauss fraction
+-and complete CubicHermiteSpline; MID487 uses state.middle[487] and
+-problem.mid[487]. Both retain the complete endpoint487/488 J/P and
+-direct scalar-control chains from the same one original Jacobian.
+-The endpoint union and local layout are derived from all query cells;
+-the runtime checks the complete assembled B column union. The original
+-C support formula and full outside offsets are retained, while the full
+-H condensation uses every new B-local column. No new acceptance gate.
++"""Thirty-one original query grids from the actual94 warm.
++
++Retain every earlier twenty-eight query in its original relative order.
++Add LEFT464 and LEFT486 at the original left Gauss fraction, and MID486
++at state.middle[486] and problem.mid[486]. The complete endpoint J/P and
++direct scalar-control chains come from the same one original Jacobian.
++The capture now includes cells464 and486; the only new endpoint is464.
++Derive B-local support from the complete typed-query endpoint union and
++check it against the assembled block-column union. Keep the original C
++support formula and all outside offsets. Form the complete H on every
++new B-local column. No original nonlinear or FD acceptance is replaced.
+ """
+ from __future__ import annotations
+ 
+@@ -26,12 +26,12 @@
+ 
+ 
+ HERE = Path(__file__).resolve().parent
+-SCHEMA = "captured-twenty-eight-query-original-RMS-and-collocation-midpoint-domain-v1"
++SCHEMA = "captured-thirty-one-query-original-RMS-and-collocation-midpoint-domain-v1"
+ FROZEN_OPERATOR_SHA = "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7"
+-ORIGIN_TWENTY_SIX_OPERATOR_SHA = "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8"
+-ORIGIN_TWENTY_SIX_OPERATOR_NAME = "geometry_20261114_twenty_six_query_domain_operator.py"
+-LEFT_INTERVALS = (465, 466, 467, 468, 469, 470, 471, 472, 473, 475, 477, 479, 480, 481, 482, 484, 485, 487)
+-MID_INTERVALS = (473, 475, 477, 479, 480, 481, 482, 484, 485, 487)
++ORIGIN_TWENTY_EIGHT_OPERATOR_SHA = "25767045b9a26764bfdb89881832ec7da01de1ac86ebc491402c7b9801175cd0"
++ORIGIN_TWENTY_EIGHT_OPERATOR_NAME = "geometry_20261114_twenty_eight_query_domain_operator.py"
++LEFT_INTERVALS = (464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 475, 477, 479, 480, 481, 482, 484, 485, 486, 487)
++MID_INTERVALS = (473, 475, 477, 479, 480, 481, 482, 484, 485, 486, 487)
+ LEFT_FRACTION = 0.17267316464601146
+ QUERY_SPECS = tuple(
+     dict(kind="left-RMS", interval=j, fraction=LEFT_FRACTION)
+@@ -47,34 +47,35 @@
+ # No previous local dimension or zero block is copied into this source.
+ LOCAL_LAYOUT_NODES = QUERY_ENDPOINT_NODES
+ ADDED_QUERY_SPECS = (
+-    dict(kind="left-RMS", interval=487, fraction=LEFT_FRACTION),
+-    dict(kind="collocation-midpoint", interval=487, fraction=.5))
++    dict(kind="left-RMS", interval=464, fraction=LEFT_FRACTION),
++    dict(kind="left-RMS", interval=486, fraction=LEFT_FRACTION),
++    dict(kind="collocation-midpoint", interval=486, fraction=.5))
+ 
+ 
+ def source_identity(capture):
+     if frozen.sha(Path(frozen.__file__)) != FROZEN_OPERATOR_SHA:
+         raise ValueError("The original captured full-angle operator changed")
+-    origin = HERE/ORIGIN_TWENTY_SIX_OPERATOR_NAME
+-    if frozen.sha(origin) != ORIGIN_TWENTY_SIX_OPERATOR_SHA:
+-        raise ValueError("The frozen twenty-six-query implementation origin changed")
+-    return {**capture.sources, ORIGIN_TWENTY_SIX_OPERATOR_NAME:ORIGIN_TWENTY_SIX_OPERATOR_SHA,
++    origin = HERE/ORIGIN_TWENTY_EIGHT_OPERATOR_NAME
++    if frozen.sha(origin) != ORIGIN_TWENTY_EIGHT_OPERATOR_SHA:
++        raise ValueError("The frozen twenty-eight-query implementation origin changed")
++    return {**capture.sources, ORIGIN_TWENTY_EIGHT_OPERATOR_NAME:ORIGIN_TWENTY_EIGHT_OPERATOR_SHA,
+         Path(__file__).name:frozen.sha(__file__)}
+ 
+ 
+ def capture_queries(problem, state, intervals=QUERY_INTERVALS):
+     """Deduplicate endpoint capture only; preserve every distinct query row."""
+     if tuple(intervals) != QUERY_INTERVALS:
+-        raise ValueError("Use the declared eighteen left-RMS plus ten original midpoint queries")
++        raise ValueError("Use the declared twenty left-RMS plus eleven original midpoint queries")
+     return frozen.EndpointJacobianCapture(problem, state, intervals=CAPTURE_INTERVALS)
+ 
+ 
+ class _LeftCaptureView:
+     """Read-only interval selection of the one complete original capture.
+ 
+-    This view compiles only the eighteen declared left-RMS blocks. It does
++    This view compiles only the twenty declared left-RMS blocks. It does
+     not create a capture, call a Jacobian, or change its parent's rows.
+     The complete operator restores the original full capture immediately
+-    after this component is compiled, with all current query endpoints465..488 from that same original capture.
++    after this component is compiled, with all current query endpoints464..488 from that same original capture.
+     """
+     intervals = LEFT_INTERVALS
+ 
+@@ -122,17 +123,17 @@
+     return arrays, reports
+ 
+ 
+-class TwentyEightQueryDomainOperator(frozen.FullAngleDomainOperator):
+-    """The same sparse full-coordinate interface, now with twenty-eight typed blocks."""
++class ThirtyOneQueryDomainOperator(frozen.FullAngleDomainOperator):
++    """The same sparse full-coordinate interface, now with thirty-one typed blocks."""
+     def __init__(self, problem, state, capture, fraction=LEFT_FRACTION, input_identity=None):
+         frozen.require_actions()
+         capture.assert_matches(problem, state)
+         if tuple(capture.intervals) != CAPTURE_INTERVALS or float(fraction) != LEFT_FRACTION:
+-            raise ValueError("Preserve all eighteen unique captured cells and the original left RMS rule")
++            raise ValueError("Preserve all twenty unique captured cells and the original left RMS rule")
+         sources = source_identity(capture)
+         started = time.monotonic()
+-        # Compile all eighteen declared left-RMS rows from the same capture.
+-        # All nine retained midpoints keep their original formula.
++        # Compile all twenty declared left-RMS rows from the same capture.
++        # All ten retained midpoints and the added MID486 keep the original formula.
+         left = frozen.FullAngleDomainOperator(problem, state, _LeftCaptureView(capture),
+             fraction=LEFT_FRACTION, input_identity=input_identity)
+         self.__dict__.update(left.__dict__)
+@@ -269,7 +270,7 @@
+         self.local_indices = frozen.readonly(np.concatenate((physical_layout, pcols)))
+         self.zero_layout_indices = frozen.readonly(np.empty(0, dtype=np.int64))
+         if not np.array_equal(self.local_indices, self.block_column_union_indices):
+-            raise ValueError("All declared local columns must belong to the actual twenty-eight-query blocks")
++            raise ValueError("All declared local columns must belong to the actual thirty-one-query blocks")
+         for block in blocks:
+             block["local_columns"] = frozen.readonly(np.searchsorted(self.local_indices, block["global_columns"]))
+         self.local_blocks, self.local_shape = tuple(blocks), (self.rows, len(self.local_indices))
+@@ -295,16 +296,19 @@
+     def description(self):
+         report = super().description()
+         report.update(schema=SCHEMA, source_sha256=self.sources,
+-            implementation_origin_source_sha256=ORIGIN_TWENTY_SIX_OPERATOR_SHA,
++            implementation_origin_source_sha256=ORIGIN_TWENTY_EIGHT_OPERATOR_SHA,
+             configured_in_independent_source_not_mutated_parent_module=True,
+             fraction=None, query_specs=[dict(row) for row in self.query_specs],
+             intervals=list(QUERY_INTERVALS), capture_intervals=list(CAPTURE_INTERVALS),
+             left_RMS_fraction=LEFT_FRACTION, original_collocation_midpoint_fraction=.5,
+-            row_order="eighteen left-RMS queries then midpoint473/475/477/479/480/481/482/484/485/487; each original physical phi index0..N-1",
++            row_order="twenty left-RMS queries then midpoint473/475/477/479/480/481/482/484/485/486/487; each original physical phi index0..N-1",
+             query_kind_and_fraction_are_per_block=True,
+             added_original_queries=[dict(row) for row in ADDED_QUERY_SPECS],
+-            original_left_RMS487_explicitly_added=True,
+-            original_midpoint487_explicitly_added=True,
++            original_left_RMS487_retained=True,
++            original_left_RMS464_explicitly_added=True,
++            original_left_RMS486_explicitly_added=True,
++            original_midpoint486_explicitly_added=True,
++            original_midpoint487_retained=True,
+             original_midpoint479_retained=True,
+             original_left_RMS479_separately_retained=True,
+             original_midpoint480_retained=True,
+@@ -326,7 +330,8 @@
+             original_midpoint482_separately_retained=True,
+             complete_capture_support_unchanged_from_parent=False,
+             complete_capture_adds_new_endpoint=True,
+-            added_original_capture_endpoints=[487, 488],
++            added_original_capture_endpoints=[464],
++            added_original_capture_intervals=[464, 486],
+             actual_query_endpoint_nodes=list(QUERY_ENDPOINT_NODES),
+             actual_query_endpoint_count=len(QUERY_ENDPOINT_NODES),
+             declared_contiguous_local_nodes=list(LOCAL_LAYOUT_NODES),
+@@ -349,8 +354,12 @@
+             retained_left_RMS485_reuses_captured_endpoint485_and486=True,
+             retained_left_RMS465_uses_captured_endpoint465_and466=True,
+             retained_midpoint479_reuses_captured_endpoint479_and480=True,
+-            added_left_RMS487_uses_captured_endpoint487_and488=True,
+-            added_midpoint487_uses_same_captured_endpoint487_and488=True,
++            retained_left_RMS487_uses_captured_endpoint487_and488=True,
++            added_left_RMS464_uses_captured_endpoint464_and465=True,
++            added_left_RMS486_uses_captured_endpoint486_and487=True,
++            added_midpoint486_uses_same_captured_endpoint486_and487=True,
++            original_midpoint486_uses_direct_state_middle_and_problem_mid=True,
++            retained_midpoint487_uses_same_captured_endpoint487_and488=True,
+             complete_B_capture_support_unchanged_from_parent=False,
+             complete_B_capture_includes_original_endpoint465=True,
+             complete_capture_includes_original_endpoint468=True,
+@@ -474,10 +483,10 @@
+             actual_supplied_direction_checked=direction is not None,
+             second_complete_Jacobian_constructed=False, native_tail_called=False,
+             new_scientific_acceptance_gate=False,
+-            scope="eighteen original left-RMS and ten original collocation-midpoint queries, each full finite phi grid")
++            scope="twenty original left-RMS and eleven original collocation-midpoint queries, each full finite phi grid")
+ 
+     def export(self, directory, row_chunk=256):
+-        """All twenty-eight kinds, original midpoint inputs and original fixed factors."""
++        """All thirty-one kinds, original midpoint inputs and original fixed factors."""
+         frozen.require_actions()
+         directory = Path(directory); directory.mkdir(parents=True, exist_ok=True)
+         if self._factor_cache is None:
+@@ -516,7 +525,7 @@
+             save(f"endpoint-{entry['node']:05d}-variant-{i:02d}.npz",
+                 physical_J=entry["physical"], parameter_P=entry["parameter"])
+         manifest = self.description(); manifest["files"] = files
+-        manifest["artifact_scope"] = "all twenty-eight typed finite B/Gamma/Pi grids, original middle/mid bytes and original A endpoint factors"
++        manifest["artifact_scope"] = "all thirty-one typed finite B/Gamma/Pi grids, original middle/mid bytes and original A endpoint factors"
+         path = directory/"manifest.json"
+         if path.exists():
+             raise FileExistsError("Do not overwrite the actual mixed-query manifest")

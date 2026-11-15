@@ -119,3 +119,9 @@ root全文22096B结论、八文件SHA、29原件、72真实dispatch源、15inner
 [96完整结论](notes/2026-11-15-actual96-inexact-p3-eight-full-step-acceptances.md)、[全部原读数](notes/2026-11-15-actual96-literal-readout.json.gz)、[2824项原字节审计](notes/2026-11-15-actual96-byte-audit.json.gz)及完整status/352events/8inner原文本已保存。root完整18563B正文、八SHA、21原件、72实际c43源码与已付97主控回执、8inner原数值tokens、55254JSON节点53206浮点词均核；四数学输入沿92完整payload，不冒本轮重读。八次首alpha1接受，2inner达原阈值、6未达仍由原full3 Armijo接受；最终unit/full112/native仍false。原末η.1模型弱残差retention .9923973591696935只说明当次局部滤波，不证明新η效果。
 
 97实际43676647334又接受八个首alpha1，merit16791.96200276451→15400.321596660777，末unit[-175.4927978505483,1.7091213848475404,-5.313809937131531e-8]；全部最终门仍false。末方向基点的原弱retention .9956458018520519说明下降变慢的局部模型机制。99决定从真末p试η.01；源核发现ce93 main硬锁η=.1，故必须独立新basename/schema和诚实新闭包，不能只改CLI或改写旧源。原Schur/inner/full3 merit/gdot/.2Armijo、8x20/12x20及全部final实现保持。新效果只由Actions实际输出决定。
+
+### 1K. 第98轮独立31查询从真实94继续
+
+[完整接口](notes/2026-11-15-thirty-one-query-condensed-interface.md)与[主控静态回执](notes/2026-11-15-request98-root-independent-static-readback.json)保存。独立四源44c82d41/1cf2d88d/1bc1f6e0/1e2f1ff0，唯一共享workflow7b8091cd/requestde47834e，真实父94 warm292732a8及原status8b65e2f9/gzip50e9075a均锁定。新增LEFT464、LEFT486、MID486，保旧28完整typed相对顺序；唯一新端点464，全部B/H8453列由真实支持重建，C仍原4059公式且计全部outside，包括464。完整原LEFT/MID J/P链、C调用、H恢复、候选比较、非线性/merit/RMS/BC/FD与λ270/512/200/17trial/1200/600/90/30预算保持。
+
+root完整读四源码diff、17099B接口、两配置diff和两纯静态checker；四原28文件及两基线配置与真实b75f Git逐字一致，67pins核当前实际Git/四新源。两冻结报告重放逐字相同，17核心AST、11shell/6inline以及132原字段节点/53浮点词核过，回执22657d44。仅源码、原字节和整数布局，不预填新方向、接受档或native成功。28本来支持own-schema恢复；本次31是由真实94三处失败选择的明确试验，非恢复障碍修补。
