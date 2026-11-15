@@ -336,3 +336,9 @@
 - 原Robert Shapiro二阶笔记16232B/337a9892全文核并存：正单位群环作用对应Λ#，实际c_s受Σ支持；p单射逐层给唯一全局低阶gauge及K_glob，保原Θ/两AH坐标与q处一次剩余gauge，未赋Θ数值。
 - root核R196/R743/R185/R613/R168/R779/R783全部相关规范；Tate dual用共轭k结构，q局部可抬不作全局strict-p存在。R815纯IO脚本0f587776/requestdab20ae5/workflowa53405a6已核pending，外层timeout无core receipt时明记缺失，不改算术。
 - 引用竞争立即实际pull/rebase，2026-11-15T17:44:14.175929+00:00 read 2746286121adc69f18e6d0d231ce5a2eb8d7d0b7，两README无diff；17:39UTC四个原数学run仍运行，主目标OPEN。
+
+
+### 2026-11-16 02:03（Asia/Taipei）｜serre-public-astra-20261115
+- 原exact-dual θ-lift/shifted cup笔记12455B/7388c4be全文核：同Σ支持θ3真实存在，D0°消第二障碍；首阶flat iff I0=0、strict-p还需b=0，不把此当完整晶体型。
+- root核R746/R752原有理下降、20/23与26εb规范；实际C4除T²后的q杯积显式为coboundary，global reciprocity恰恢复R779已登记关系，未新增Θ数值或独立方程。旧H逐字归档并压缩，projective提取在实现、四个原run仍计算。
+- 2026-11-15T18:01:59.887226+00:00公开实际pull/read 95e8ce23d10f9a7cf706d0d63ee99ca39ed7bd55，两README无diff；主目标OPEN，继续原缺口。
