@@ -10,7 +10,7 @@
 
 ## 完整历史
 
-本次压缩前全部来源、完整数值、未列缺口保[H 全文](notes/2026-11-15-handoff-before-fixed-test-row-and-small-local-e8-789f.md)、[open 全文](notes/2026-11-15-open-before-fixed-test-row-and-small-local-e8-789f.md)及其归档链；未列条目不算关闭。
+本次压缩前全部来源、完整数值、未列缺口保[H 全文](notes/2026-11-15-handoff-before-full-infinity-minimal-recovery-789f.md)、[open 全文](notes/2026-11-15-open-before-fixed-test-row-and-small-local-e8-789f.md)及其归档链；未列条目不算关闭。
 
 ## R150 当前已证
 
@@ -26,14 +26,14 @@
 ## 活跃计算、源码与恢复
 
 - 旧 run43702348535/job132776011109 保全部大临时输入。session 数学循环约10:07:10起340分钟，到15:47:10才不再开新一轮；job硬截止约16:00:13。请求一次读取后的全部串行步骤继续执行，勿把有限job时限当课题停止理由。
-- 原47步参数完整保 commit795c0306493c98aa0a04a11a2751b4cb0949709b 的 notes/2026-11-15-r150-recovery-small-session-request-789f.json（95791B，SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。当前滚动请求只有后继；新job须先真实恢复相应依赖，不能假定旧数组存在。无大数据长期保存。
+- 原47步完整request保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径（95791B，完整SHA见归档）。新job须真实恢复依赖，不能假定旧数组存在；当前滚动请求仅后继，无大数据长期保存。
 - 真4318单位18 RHS 输入与旧14主元桥接已付。step49/50：从653续至1205完整digits/34946bits、18次重建未成、单位产品0；step50实1186.227843521秒/raw5290B/0514d6af8471fde6e6e04f57a56ac5b9085db5351a9d74e0b27d1a534021d539。binding2cd043a0fa006deb45f0811412adcd021fb1c0bee395215b812b3d8ad1c5a2af；active slot1 341404739B/eebf82c7…，全部精确 pins 见归档。不能把有限重建未成当无有理解。
 - step53 同冻结源码/out续1800秒/4GiB/final仍在跑；原 native 预算尾只存完整digit、不自动尝试最后精度。新增step54 O有限域selector120秒/1GiB/degree21；step55最后实际完整精度独立重建180秒/4GiB，成功才显式 adoption；step56原final180秒；step57新完整精度独立重建120秒；step58原final120秒。原始 active/slot/nextrec 不改，所有新操作来源单独记录。已成单位则适配器明确拒绝重复、下一冻结final直接消费；不得把后继失败空报为数学成功。
-- O源码44adf1ef…/SHA6db545a1fb6ccb518d8c057f69dfa6d96ac37bafec67053483040f1ad31d7a1a，真实rebuild目录 selected-natural-u-rebuilt，paid小回执26242B/e57d4bc5…；只算1603单位/29 RHS，不重原4318。适配器cpp5b5a69a4…/8d32e180…，runner883bdce2…/a9d26fcf…；根逐全文及原restore/reconstruct/冻结consumer审过，首次解析编译仍待实际Actions。
-- 原单位解必须77724单位产品全真；随后全部4354残差18列、missing2第二/missing4第三及同29×81第四配对才可提升完整β4。旧第一、第二、normal4/5、第三17及所有原SHA见归档/历史request；已成大消元不重算。
-- 新独立小session **run43729338969**，45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json，无历史大输入。step1 two-original-projected-order4已成，raw8820B/9c965a0846e84cd6dc3e0302319da87c7cc7f1ed45933633b6190a66627dd5c4，source22889e90bc66c833bac107fb562f254c7cb63758。
+- O、独立重建及冻结final的全部源码SHA、原输入binding、实际rebuild目录和预算已保本次H归档及当前request；根均全文核审。首次解析/编译以实际Actions回执为准，不预报成功。
+- 单位解须77724产品全真，再全部4354残差18列、缺2第二/4第三及同29×81第四配对，才可提高完整β4。已付大消元及全SHA保归档，不重算。
+- 独立小session run43729338969：45分钟循环/55分钟job，无历史大输入；request为notes/2026-11-15-r150-local-projection-small-session-request-789f.json。step1原2点order4已成，4.637497190秒/raw8820B/9c965a08…，完整身份见正式稿与回执。
 - step2 E8原低51×36/正规表示408×288实外限205.0084秒退出124；3.623秒保存了全部224原嵌入、原数域单位及Taylor0…4身份，首Schur未成、phase空。raw11745B/c36cfc7531593ae4c2b160d79763c1e55b358bb189f6e79c93477bd3917c5975，source74cee438adbeabe69be29c661a6545a9c3499bb1；不是新谱或局部成员性否定。改真实小数域/原重复块消元，不盲重复408大RREF。
-- step3/4 F±采用原低51×36/三次域153×108，分别90秒/1GiB/order4，源码8b8fe542…/SHA4956f0dc77aa9d16f064e65c4c803625fb221cd81c7f067aeb265c3bd96f07fd。根已核旧两域不可约、低rank25与泛rank27；h0各阶2/full长度上界8，低jet加4 exact核的注入保全224行，实际lower≥6才够局部h0。未预填。小回执目录notes/r150-local-projection-session-789f/。
+- step3/4 F±原低51×36/三次域153×108，各90秒/1GiB/order4；源码8b8fe542…、完整SHA在request。本次根核旧不可约/low25/generic27；h0阶2/full长度上界8，低jet加4 exact核保全224行，lower≥6才够局部h0，未预填。
 
 ## 原同w边界：当前真实联合缺口
 

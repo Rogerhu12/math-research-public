@@ -1,18 +1,15 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "11986d7cc039ddf2db60e16337803fcd970cfc62",
-  "createdUtc": "2026-11-15 15:36:14 UTC",
-  "message": "research(isp): retain actual E8 prefix and run original cubic local projections",
+  "parentCommit": "b2e7bde956eea3698c98d93a78b3f3a3544b983f",
+  "createdUtc": "2026-11-15 15:37:39 UTC",
+  "message": "docs(isp): keep current handoff below limit and preserve full recovery identities",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-cubic-original-low-projection-local-smith-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-local-projection-small-session-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-full-infinity-minimal-recovery-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
