@@ -47,9 +47,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [IC逐分支首系数与共同root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7已完整解析核：F*=bu*v/η为root degree192场，T_F两窗同逆、完整F_J输入/输出≤JF+191含mean；ordered乘积的两个I给真正强gain，真density primitive共轭恰保两rank/physical mean。
 原PF非零root幅经共同radial gauge后，ci=−μ/2+v_i、co=μ/2+v_o；v_i/v_o必须由SN各branch通过真H与有序rotation取得。成功终点四列+half μerror+√jD给d0..3/C0..3；全signed Fourier给W4/3≤243C2/160<26C2/17，V可取四完整上界min。实μ的Dμ=P(1−μI/2)P逆范数≤1，incoming high有序分解及L2/H−4/3两χ门精确，E的强窗与完整finite/Schur费用仍待。root回读P/PF/CT/SN和全文，phase/tail独核；本项无新数值，无已付C、强E或incoming/R0。
 
-[GH完整强返回/physical高块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)需R:H(s−4/3)→Hs及χJ=128CsΛJ^-1/3<1正确域右逆，J97/C0≤1/32只是目标。actual完整C/R0/Rexp0、trueincoming/positive/root/head、角密度高阶费/β稳定、physicalfiniteborder/两H16输出、所有mean-source均待；phase与physical P96不对易，97..160旧带宽不穿过圆周逆。
-[PD完整增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保DFΔ=(f+r_f+rνκ,b+E′a)、rho15一导损/真实第四Robin/mean/腰输出，actualS非零、真regular逆/ν响应、D²tame/smoothing/Taylor和可求和迭代仍待。小E′不授同阶Neumann。
-[旧完整mean-trial到Z](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)08faefe0早已由43589465579/1 child0/10门支付全[0,25/8]的||q*−Z||<4.572198020300e−6；q*是原有限trial+独立mean校正，绝非真实PDE参数响应，成功旧数学不重。root回读summary9a3d38dd/process39d9ae0e确认。真正仍待原P17–22/24/L9的全频||qν−Z||负[0,rplus]≤.005，或同域||qν−q*||≤.004995427801979700；完整边界/连续背景变化/selectedδ/高频费用必须齐。实际γ低高域、全core/匹配及同一个最终曲面也未闭合。
+[GH强返回](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)须完整R:H(s−4/3)→Hs与χJ=128CsΛJ^-1/3<1；J97/C0≤1/32仅目标，phase不与physical P96对易，完整incoming/positive/root/normalizer/finite/mean/all-s费用未闭。
+[PD增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保rho15一导损、第四Robin/mean/腰、真regular逆/ν/非零S、D²tame/smoothing及可求和迭代；非同阶Neumann。全部准确式/域/费用逐字保aa68eac96e892932cb19ce1aa8a9add5f4d78cae同open/H及原proof。
+[旧mean-trial到Z](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)08faefe0/43589465579/1 child0/10锁：完整[0,25/8] ||q*−Z||<4.572198020300e−6，q*非真PDE响应。真全频||qν−Z||负[0,rplus]≤.005，或||qν−q*||≤.004995427801979700仍待，须全边界/背景/δ/高频。成功禁重，同态core/γ/匹配/最终曲面未闭。
 
 ## 3. 真实共同参考、完整源与强返回
 
@@ -79,7 +79,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [TN解析](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261及[完整实际两窗正规化](results/R133-supplement-actual-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)65432488：43752771157/1 child0/16、17pins/5AST，SCIc815e901/preGit541a4d03/67球root全核。原97两窗充分门均失败，实际同J=268435456给L2/H−4/3共同ordered逆约1.001672388/1.033996480。完整两gain R_N约1.712923777e9、F_S约3.747336834e9，后者全输入/输出≤J+191含mean；97..J−1/HL-LH保留，有限Schur未逆。RR原四列/同case总×K0一次约7.790848019e18，两完整旧对象原字同。真phase需ordered共轭、不得同moving Fourier投影；incoming/intervalflow/fullR0独立，旧成功禁重。
 
-[TC真实两branch密度与完整finite共轭](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5：G.2识别实际root-labelled Φσ；IN原正算法m3/F2给共同导数上下界。完整H2/adjoint/插值付L2/H−4/3两个density正逆，独立mean块为Id。TC14精确双chart main pullback与两rank，TC15用真正dualH4/3；不把两branch当同circle。TN ordered共轭后strong/finite只乘B0A−；P_J变真实共轭投影，finite变真span非finite Fourier。RR已含K0，只左乘B0且同case sum，不加未发生的输入图。root核G/S/IN原source与全文，peer核；4coordinate/finitefee和有序乘积待新public scalar，非wholeincoming/fullR0。
+[TC真实两branch密度与完整finite共轭](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5：G.2识别实际root-labelled Φσ；IN原正算法m3/F2给共同导数上下界。完整H2/adjoint/插值付L2/H−4/3两个density正逆，独立mean块为Id。TC14精确双chart main pullback与两rank，TC15用真正dualH4/3；不把两branch当同circle。TN ordered共轭后strong/finite只乘B0A−；P_J变真实共轭投影，finite变真span非finite Fourier。RR已含K0，只左乘B0且同case sum，不加未发生的输入图。root全文核403行SCI/532行worker、19pins499844B/4AST、3旧完整schema与runtime/23,16,28门、全cut/physical对象原字；peer核数学与52字段。SCIe05b4a9c/workerfa07b73b/manifest0e78cfa7/flowef43b63a本次自然部署，18新门、0archive/旧producer；4coordinate/finitefee与有序乘积待唯一public scalar，不授wholeincoming/fullR0。
 
 ## 4. 实际帽图与完整core接口
 
