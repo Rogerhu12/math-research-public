@@ -11,10 +11,10 @@ from pathlib import Path
 sys.dont_write_bytecode=True
 PINS={
  "2026-11-15-r150-original-f127-bitplane-789f.hpp":"03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
- "2026-11-15-r150-original127-normal-form-789f.cpp":"a3f6891dd2dc5ffb98611d806fa5e1b2b87200a8206143d95bdb335f93c5099f"
+ "2026-11-15-r150-original127-normal-form-789f.cpp":"46ef43c439aadb77a7458c97a0bce120846e6aa57d79bc9aed78d211242f81f8"
 }
-MODEL_SOURCE_SHA="76bcb04088c106271881a0dbb13eed508e52bf315830b85ff04e1cbf8776f784"
-FORMAT="r150-original127-normal-form-pipeline-v1"
+MODEL_SOURCE_SHA="a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349"
+FORMAT="r150-original127-normal-form-pipeline-v2"
 def check(ok,msg):
  if not ok:raise ValueError(msg)
 def canonical(x):return json.dumps(x,sort_keys=True,separators=(",",":")).encode("ascii")
@@ -26,6 +26,42 @@ def sha(path):
 def record(path):return {"file":path.name,"bytes":path.stat().st_size,"sha256":sha(path),"temporaryOnly":True}
 def atomic(path,obj):
  t=path.with_name(path.name+".tmp");t.write_bytes(canonical(obj)+b"\n");os.replace(t,path)
+def inspect_complete_normal_forms(path,binding,dictionary):
+ d=json.loads(dictionary.read_text())
+ rows=d["originalRemainingSources"];restored=set(d["newlyRestoredOriginalSourceIDs"])
+ check(d["originalSourceCount"]==6188 and len(rows)==d["remainingSourceCount"] and len(rows)+len(d["originalSelected3333"])==6188,
+       "complete original source partition at consumer")
+ zero=0;restored_zero=0;coefficient_count=0
+ restored_nonzero=[]
+ with path.open("rb") as f:
+  def read(n):
+   b=f.read(n);check(len(b)==n,"complete normal-form record");return b
+  check(read(8)==b"R15NF127" and read(64).decode()==binding,"complete normal-form identity")
+  ns,nt,q=struct.unpack("<III",read(12))
+  check((ns,nt,q)==(len(rows),9,1034),"dynamic complete normal-form dimensions")
+  for j in range(ns+nt):
+   raw,target,count=struct.unpack("<IHI",read(10))
+   check((raw,target)==((rows[j][2],0) if j<ns else (0,j-ns+2)),"every original source/target record")
+   check(count<=q,"normal-form support bound")
+   previous=0
+   for k in range(count):
+    c,length=struct.unpack("<HB",read(3))
+    check(previous<c<=q and 1<=length<=46,"normal-form component/degree bounds");previous=c
+    values=read(length);check(values[-1]!=0 and all(x<127 for x in values),"canonical original127 coefficient")
+    coefficient_count+=length
+   if j<ns:
+    zero+=count==0
+    if raw in restored:
+     restored_zero+=count==0
+     if count:restored_nonzero.append(raw)
+  check(f.read(1)==b"","complete normal-form EOF")
+ return {"allOriginalSourceRecordsVerified":True,"remainingSourceCount":ns,"targetCount":nt,
+         "originalZeroNormalFormCount":zero,"newlyRestoredSourceCount":len(restored),
+         "newlyRestoredZeroNormalFormCount":restored_zero,
+         "newlyRestoredNonzeroNormalFormCount":len(restored_nonzero),
+         "newlyRestoredNonzeroOriginalSourceIDs":restored_nonzero,
+         "canonicalPolynomialCoefficientCount":coefficient_count,
+         "noSourceDroppedBeforeOrAfterNormalForms":True}
 def main():
  ap=argparse.ArgumentParser()
  for k in ("model-out","sources-root","out"):ap.add_argument("--"+k,type=Path,required=True)
@@ -54,18 +90,21 @@ def main():
   for name,digest in PINS.items():
    check(sha(a.sources_root/name)==digest,"pinned original127 source "+name)
   mr_path=a.model_out/"original127-model-receipt.json";mr=json.loads(mr_path.read_text())
-  check(mr["format"]=="r150-original-fixed127-model-v1" and mr["status"]=="completed","paid exact127 model")
+  check(mr["format"]=="r150-original-fixed127-model-v2" and mr["status"]=="completed","paid exact127 model")
   mp=mr["parameters"]
   for k in ("all4433OriginalCoefficientChecks","all6188OriginalSourceLabelsVerified",
-            "all3333And2195SourcesPartitioned","allOriginalRowNormalizationConstantsAre127Units"):
+            "allOriginalSourcesPartitioned","allOriginalRowNormalizationConstantsAre127Units"):
    check(mp.get(k) is True,"original model gate "+k)
   check(mp["identity"]["sourceSHA256"]==MODEL_SOURCE_SHA,"fixed model-generator source")
+  remaining=int(mp["remainingSourceCount"])
+  check(mp["selectedSourceCount"]==3333 and remaining+3333==mp["originalSourceCount"]==6188,
+        "complete original6188 source coverage")
   model=a.model_out/mp["originalModel"]["file"];dictionary=a.model_out/mp["originalDictionary"]["file"]
   for path,key in ((model,"originalModel"),(dictionary,"originalDictionary")):
    check(path.stat().st_size==mp[key]["bytes"] and sha(path)==mp[key]["sha256"],"exact127 model output "+key)
   identity={"prime":127,"sources":PINS,"modelSource":MODEL_SOURCE_SHA,
             "modelSHA256":mp["originalModel"]["sha256"],"dictionarySHA256":mp["originalDictionary"]["sha256"],
-            "modelBinding":mr["binding"],"algorithm":"original3333 constant block then all2195 original rows and nine targets"}
+            "modelBinding":mr["binding"],"remainingSourceCount":remaining,"algorithm":"original3333 constant block then its complete6188-source complement and nine targets"}
   binding=hashlib.sha256(canonical(identity)).hexdigest();r["binding"]=binding
   r["parameters"].update({"identity":identity,"modelActualReceipt":record(mr_path),
     "seconds":a.seconds,"memoryMiB":a.memory_mib,
@@ -111,7 +150,7 @@ def main():
   r["parameters"]["nativeExitCode"]=code;r["parameters"]["nativeHardBudgetStop"]=timed_out
   check(native_receipt.exists(),"native produced no complete prebasis/row checkpoint")
   nr=json.loads(native_receipt.read_text())
-  check(nr.get("binding")==binding and nr.get("format")=="r150-original127-normal-forms-native-v1","native exact binding")
+  check(nr.get("binding")==binding and nr.get("format")=="r150-original127-normal-forms-native-v2","native exact binding")
   r["parameters"]["nativeStatistics"]=nr
   st=(a.out/"nf-progress.bin").read_bytes()
   check(len(st)==120 and st[:8]==b"R15NS127" and st[8:72].decode()==binding and st[-8:]==b"ENDNS127",
@@ -123,9 +162,10 @@ def main():
    check(p.stat().st_size>=n,"complete committed output prefix")
   r["parameters"]["wholeCommittedRows"]={"sources":ns,"targets":nt,"normalBytes":nf_size,"operationBytes":op_size,"textBytes":text_size}
   if code==0:
-   check((ns,nt)==(2195,9) and nr.get("status")=="completed" and nr.get("allOriginalRowsCompleted") is True,"complete all original normal forms")
-   check(nr.get("prebasisRank")==3333 and nr.get("components")==1034 and nr.get("noOriginalSourceDropped") is True,
+   check((ns,nt)==(remaining,9) and nr.get("status")=="completed" and nr.get("allOriginalRowsCompleted") is True,"complete all original normal forms")
+   check(nr.get("prebasisRank")==3333 and nr.get("components")==1034 and nr.get("noOriginalSourceDropped") is True and nr.get("all6188NativeOriginalSourceIdentitiesVerified") is True,
          "original source module exactly represented")
+   r["parameters"]["completeNormalFormAudit"]=inspect_complete_normal_forms(a.out/"nf-normal-forms.bin",binding,dictionary)
    r["status"]="completed";r["outcome"]="complete-original127-normal-forms";rc=0
   elif code==75:
    r["status"]="budget-checkpoint";r["outcome"]="original127-whole-row-prefix-retained";rc=75

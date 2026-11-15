@@ -50,7 +50,7 @@ int main(int argc,char **argv){try{
  auto seconds=[&](){return std::chrono::duration<double>(std::chrono::steady_clock::now()-started).count();};
  BitOps ops;const uint64_t arithmeticChecks=ops.verify();
  std::ifstream in(inputPath);std::string magic;in>>magic;
- need(magic=="R150_NATIVE_NF127_V1","exact original127 model header");
+ need(magic=="R150_NATIVE_NF127_V2","exact original127 model header");
  std::array<std::array<int,66>,11> Q{};
  std::array<std::array<std::array<int,11>,11>,11> L{};
  for(int e=0;e<11;e++){for(auto &v:Q[e])in>>v;for(auto &v:L[e])for(auto &a:v)in>>a;}
@@ -59,7 +59,7 @@ int main(int argc,char **argv){try{
  for(auto &s:selected)in>>s.e>>s.mult>>s.pivot>>s.raw;
  std::array<std::array<std::array<int,6>,66>,6> G{};
  for(auto &g:G)for(auto &v:g)for(auto &a:v)in>>a;
- int ns,nt;in>>ns>>nt;need(ns==2195&&nt==9,"all original remaining sources and targets");
+ int ns,nt;in>>ns>>nt;need(ns>0&&ns+count==6188&&nt==9,"complete original prebasis complement and targets");
  std::vector<Source> sources(ns);for(auto &s:sources)in>>s.e>>s.mult>>s.raw;
  std::vector<int> targets(nt);for(auto &x:targets)in>>x;
  need(bool(in),"complete original127 model");
@@ -75,6 +75,19 @@ int main(int argc,char **argv){try{
   for(int i=lo;i<11;i++)self(self,left-1,i,key+var[i],d);
  };
  for(int d=0;d<=5;d++)enumerate(enumerate,d,0,0,d);
+ std::unordered_map<uint64_t,int> originalMultiplierIndex;int originalMonomialCount=0;
+ for(int d=0;d<=3;d++)for(uint64_t key:mon[d])originalMultiplierIndex[key]=originalMonomialCount++;
+ need(originalMonomialCount==364,"all original multiplier labels");
+ std::vector<bool> originalSourceSeen(6189,false);
+ auto verifyOriginalSource=[&](const Source&s,bool pre){
+  need(s.e>=0&&s.e<(pre?11:17)&&originalMultiplierIndex.count(s.mult),"exact original multiplier/equation");
+  const int raw=17*originalMultiplierIndex.at(s.mult)+s.e+1;
+  need(s.raw==raw&&!originalSourceSeen[raw],"exact distinct original monomial-major source");
+  originalSourceSeen[raw]=true;
+ };
+ for(const auto&s:selected)verifyOriginalSource(s,true);
+ for(const auto&s:sources)verifyOriginalSource(s,false);
+ need(std::count(originalSourceSeen.begin(),originalSourceSeen.end(),true)==6188,"all original sources retained exactly once");
  std::array<std::unordered_map<uint64_t,int>,6> local;
  for(int d=1;d<=5;d++)for(int j=0;j<int(mon[d].size());j++)local[d][mon[d][j]]=j;
  std::array<Phase,6> phases;
@@ -232,14 +245,14 @@ int main(int argc,char **argv){try{
   st.write("ENDNS127",8);st.close();need(bool(st),"complete normal-form state");atomic_rename(tmp,statePath);
   const std::string receipt=prefix+"-native-receipt.json";
   std::ofstream r(receipt+".tmp");
-  r<<"{\"format\":\"r150-original127-normal-forms-native-v1\",\"status\":\""<<status<<"\",\"prime\":127,\"binding\":\""<<binding
-   <<"\",\"completedSources\":"<<progress.sources<<",\"completedTargets\":"<<progress.targets<<",\"fullSourceCount\":2195,\"fullTargetCount\":9"
+  r<<"{\"format\":\"r150-original127-normal-forms-native-v2\",\"status\":\""<<status<<"\",\"prime\":127,\"binding\":\""<<binding
+   <<"\",\"completedSources\":"<<progress.sources<<",\"completedTargets\":"<<progress.targets<<",\"fullSourceCount\":"<<ns<<",\"fullTargetCount\":"<<nt
    <<",\"prebasisRank\":3333,\"components\":1034,\"sameDegreeUnitProducts\":"<<prebasisProducts
    <<",\"actualChangedPivotPositions\":"<<changedPivots<<",\"forwardOperations\":"<<forwardCount<<",\"backwardOperations\":"<<backwardCount
    <<",\"normalOperations\":"<<progress.normalOperations<<",\"exhaustiveScalarArithmeticChecks\":"<<arithmeticChecks
    <<",\"prebasisReused\":"<<(reusedPrebasis?"true":"false")<<",\"wholeRowPrefixResumed\":"<<(resumedRows?"true":"false")
    <<",\"allOriginalRowsCompleted\":"<<((progress.sources==uint32_t(ns)&&progress.targets==uint32_t(nt))?"true":"false")
-   <<",\"noOriginalSourceDropped\":true,\"oldField31OperationsReused\":false,\"elapsedSeconds\":"<<seconds()<<"}\n";
+   <<",\"all6188NativeOriginalSourceIdentitiesVerified\":true,\"noOriginalSourceDropped\":true,\"oldField31OperationsReused\":false,\"elapsedSeconds\":"<<seconds()<<"}\n";
   r.close();need(bool(r),"small native receipt");atomic_rename(receipt+".tmp",receipt);
  };
  commit("prefix-ready");
@@ -315,6 +328,6 @@ int main(int argc,char **argv){try{
   }
   normal(r,0,j,index+1);progress.targets=index+1;commit("normal-form-target-prefix");
  }
- commit("completed");std::cout<<"{\"status\":\"original127-normal-forms-complete\",\"completedSources\":2195,\"completedTargets\":9,\"elapsedSeconds\":"<<seconds()<<"}\n"<<std::flush;
+ commit("completed");std::cout<<"{\"status\":\"original127-normal-forms-complete\",\"completedSources\":"<<ns<<",\"completedTargets\":"<<nt<<",\"elapsedSeconds\":"<<seconds()<<"}\n"<<std::flush;
  return 0;
 }catch(const std::exception&e){std::cerr<<"ORIGINAL127_NORMAL_FORM_FAILED "<<e.what()<<"\n";return 1;}}
