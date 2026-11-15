@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 MS，并纠正旧全文中的适用范围**：[真实 Maslov 符号算子与共同输入的出射次序](results/R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md)，实际out为UR B− Z^S、符号因子在右；TF与原sign精确对易，S/分支不获换序。完整根comm有17/8强界、两density ranks保，WE commonout需另付右同窗因子。IC/WY/CY/CYA已加精确更正，原成功scalar gap与分支费用不动，全incoming/fullreturn仍待。
+
 - **已证明 BF**：[保留有限因子与完整增广 incoming 方程](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)，真finite按实际projection/codomain和dual regularity分类；原head运输不丢高频。完整square分解后，两窗同一high inverse只检验完整strong，增广Schur精确保留有限项高高块和两physical mean。实际完整Ei/有限矩阵及其逆尚未取得。
 
 - **已证明 PGA**：[实际完整主因子逆的两窗对数界](results/R133-supplement-actual-complete-principal-inverse-logarithmic-certificates.md)，43770122351/1首次成功；完整A0/A1、V0/P0/B1/3/P4/3和两个log证书，20门/60字段齐。两optional Neumann失败完整保存、全mean同一ODE逆成立，未授物理incoming或Schur。

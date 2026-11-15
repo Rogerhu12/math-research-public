@@ -47,3 +47,8 @@
 已全文核BF e8e29c49并单独推；真finite与无限sign/second-reference明确区分，负窗dual及完整两mean/高高有限作用保。
 同两窗high只测完整strong，实际column/Schur/全incoming仍待；旧数学零重算。
 两README于e172017f108ca1a8a836e354a987cadbffb35b92只读核无变；完整旧H保4e60e029，压缩现行checkpoint不删义务。
+
+### 2026-11-15 22:47:17 UTC — actual Maslov order and corrected scope
+MS44038eae已全文/新增式亲核并独推；same-input out=UR B− Z^S，完整comm与paid右因子保。IC/WY/CY/CYA同结论窄更正，旧SCI/原球不动。
+SN原23b1250d/f85d8d49已核35固定字段零diff：11816、interval192、completefalse，原SC3 22:43 step9健康。
+两README于1785000fe88fd89b305cbb2d5884672284556ea9只读核无变；真实inverse、sign-leading reduction、finite/mean Schur及最终目标仍未成。

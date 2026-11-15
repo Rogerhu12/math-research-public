@@ -31,7 +31,7 @@ $$
 Indeed the multiplier norm is bounded by
 $1024|j|/\Lambda_j\le256$. This is a scalar inverse with one derivative of loss. It is not a bounded inverse on the same Sobolev space. The mean multiplier of $U_\Omega C_{\mu_*}$ is exactly $1$; the mean resonance for $\xi=1$, all modes below $97$, the independent physical means and the full finite border remain separate.
 
-No actual $E_i$, $E_o$, incoming inverse, full return remainder, finite Schur inverse, coupled PDE inverse or surface is claimed by this arithmetic result. CY's ordered ratio and normalization theorems retain all their stated prerequisites.
+No actual $E_i$, $E_o$, incoming inverse, full return remainder, finite Schur inverse, coupled PDE inverse or surface is claimed by this arithmetic result. CY's ordered ratio and normalization theorems retain all their stated prerequisites. The subsequent [MS](R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md) identifies the actual common-input order as $U_{R_\Omega}\mathcal B_-Z^{\mathcal S}\mathcal B_+^{-1}$, conditional on its complete incoming inverse. The completed scalar bound (CYA1) and inverse (CYA2) do not certify that whole operator: the transported infinite sign factor, its actual order, and any proposed scalar-leading reduction require their own proof. No successful arithmetic or recorded ball is changed by this clarification.
 
 ## CYA2. New finite interval and exact old identities
 

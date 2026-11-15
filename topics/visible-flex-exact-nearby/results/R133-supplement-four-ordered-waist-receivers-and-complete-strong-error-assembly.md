@@ -4,6 +4,8 @@
 
 新增的两个具体点是：SF 试探外的 $P=1-\Pi$ 在撤销腰部 normalizer 后留下一个真实腰部有限秩项；而实际状态误差进入 IC 主角坐标时，可以精确消去一对相邻真角算子，从而只对该项收费 $U_{\mathcal H^{-1}}$ 的 $L^2$ 范数。共同根输入因子和共同输入角始终留在右侧。所有旧有限块、两个物理均值和独立 PW 端口保留。
 
+**2026-11-15 共同输入次序补正。** [MS](R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md)证明：本文各支先各自除以$\Lambda_\sigma$的费用保持原义；若两支统一使用incoming右归一化，实际out为$U_{R_\Omega}\mathcal B_-Z^{\mathcal S}$，$Z^{\mathcal S}$是无限算子。已付WE费用转为这个common-input out须按MS.34支付右侧同窗因子。完整degree192和$J_F=1024$使实际$T_F^{\pm1}$与原sign投影精确对易，但不能据此跨过$\mathcal S^{-1}$或分支。所有两mean/finite/第二参考输入保留。
+
 ## 1. 固定对象、空间与四种标签
 
 采用 AW/SF 的同一已知连续参考
@@ -549,7 +551,7 @@ $$
  \Lambda_\sigma^{-1}T_F^{-1}\mathcal S^{-1}.
 \tag{WY.49}
 $$
-$\Lambda_\sigma^{-1}$ 位于原输入上，不能跨过非径向的 $T_F^{-1}$、$\mathcal S^{-1}$ 或 transported finite rows。应用 (WY.34) 只取消左边相邻的角算子，正好给 (WY.35)。
+$\Lambda_\sigma^{-1}$ 位于原输入上。对于TF已成的实际双高投影normalizer，完整degree192与$J_F=1024$给$[T_F^{-1},\Lambda_\sigma]=0$，证明见MS.10–12；这个特例不准把sign因子越过$\mathcal S^{-1}$、分支或transported finite rows。应用 (WY.34) 只取消左边相邻的角算子，正好给各自$\Lambda_\sigma$归一后的 (WY.35)。两支同一incoming归一后的实际out必须按MS.16保留右$Z^{\mathcal S}$。
 
 ### 11.5 最后才成为 IC、LN 的 signed 系数
 

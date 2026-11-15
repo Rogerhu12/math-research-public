@@ -6,6 +6,8 @@
 
 No new scientific computation is performed here. In particular, the old exponential arithmetic is not rerun or renamed as a Cayley calculation, and an interrupted signed-density prefix is not a terminal coefficient enclosure.
 
+**Common-input scope correction, 2026-11-15.** [MS](R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md) proves the actual ordered return, conditional on a complete incoming inverse, is $U_{R_\Omega}\mathcal B_-Z^{\mathcal S}\mathcal B_+^{-1}$. The principal ratio $T_oT_i^{-1}$, scalar Cayley identities and completed scalar gap remain valid in their stated spaces. Identifying CY.17 or CY.20 with the global physical return additionally requires a complete treatment of $Z^{\mathcal S}$ in its actual position. This has not been obtained merely from the scalar phase ratio. A left move retains MS.20's whole commutator; a scalar-leading reduction also must justify replacing the transported infinite sign operator. Sections CY4–5 therefore give conditional identities for maps satisfying their explicit scalar-leading hypothesis, rather than a completed identification of the actual global return.
+
 ## CY1. Same coefficients, same circle, same directed order
 
 Use the normalized physical circle of length $\pi/2$, with
@@ -151,7 +153,7 @@ In particular, the inverse on the right is paid on $H^{-4/3}$. Its $L^2$ bound c
 
 ## CY4. How complete incoming and outgoing errors enter
 
-The actual maps of IC, with every declared finite and mean conversion included or separately kept, have the form
+Assume, in addition to the independently normalized coefficient identities, that a complete scalar-leading reduction has actually established maps of the following form, with every declared finite and mean conversion included or separately kept. This is an additional hypothesis for the global common-input physical map, as the MS correction above explains:
 $$
  B_i=T_i+\mathcal E_i,\qquad
  B_o=\zeta U_{R_\Omega}(T_o+\mathcal E_o),\qquad \zeta^4=1 .
@@ -173,7 +175,7 @@ $$
        =(\mathcal E_o-\mathcal A\mathcal E_i)B_i^{-1}.
  \tag{CY.19}
 $$
-Hence the true return admits the new decomposition
+Hence the return of maps satisfying the additional hypothesis (CY.17) admits the decomposition
 $$
  B_oB_i^{-1}
    =\zeta U_{R_\Omega}
@@ -184,7 +186,7 @@ $$
 $$
 where $K_{\mathcal A,0}$ is the complete bound in (CY.10).
 
-This is a conditional full-map identity. If only the MI high-block inverse has been proved, its complete premultiplied finite Schur problem and both cross blocks must still be solved before using (CY.19) as a full inverse formula. One may instead keep (CY.19) as a typed block identity with all original finite operators present. Compressing a product and silently replacing it by a product of compressed factors is not permitted.
+This is a conditional identity under the complete scalar-leading hypothesis (CY.17). It does not remove or commute the transported infinite sign operator of MS.16. If only the MI high-block inverse has been proved, its complete premultiplied finite Schur problem and both cross blocks must still be solved before using (CY.19) as a full inverse formula. One may instead keep (CY.19) as a typed block identity with all original finite operators present. Compressing a product and silently replacing it by a product of compressed factors is not permitted.
 
 An old bound for a remainder relative to $1+M_cI$ does not automatically supply the new $\mathcal E$ of (CY.20). The displayed exact identities specify the additional information required.
 
@@ -375,7 +377,7 @@ Indeed, $|j|/\Lambda_j\le1/4$. A successful finite bound at least $1/1024$ would
 
 The first coefficients are those of the same explicit selected family and fixed directed waist convention. A later true-background stability theorem must supply its own changes before these bounds are transferred to a different background. The old scalar selected-parameter calculation does not do that automatically.
 
-The scalar factor $\zeta$ causes no missing arithmetic case: the set of fourth roots is closed under multiplication and division by $\zeta$. All finite Fourier rows below $97$, both physical mean rows, high-to-low and low-to-high maps, actual source columns and boundary/domain hypotheses retain their independent roles.
+A genuine scalar factor $\zeta$ causes no missing arithmetic case: the set of fourth roots is closed under multiplication and division by $\zeta$. This arithmetic observation does not turn $Z^{\mathcal S}$ into a scalar or justify reordering the actual common-input return. All finite Fourier rows below $97$, both physical mean rows, high-to-low and low-to-high maps, actual source columns and boundary/domain hypotheses retain their independent roles.
 
 The following small primary texts suffice to audit this analytic step:
 

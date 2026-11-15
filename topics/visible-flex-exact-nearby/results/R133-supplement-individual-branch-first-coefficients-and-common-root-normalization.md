@@ -6,6 +6,8 @@
 
 The common finite root function is removed by an actual invertible input operator. Its complete strong and finite rank costs are retained. The real scalar part of the incoming coefficient then has an exact diagonal inverse with norm at most one. This reduces the input needed by the incoming Neumann test without asserting that its remaining strong error, finite border or full inverse has been paid.
 
+**Common-input correction, 2026-11-15.** [MS](R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md) proves that the globally assembled outgoing map, with the incoming normalization used for both branches, is $U_{R_\Omega}\mathcal B_-Z^{\mathcal S}$, where $Z=\Pi_0+i\Pi_+-i\Pi_-$ and $Z^{\mathcal S}=\mathcal S Z\mathcal S^{-1}$. The $c_i,c_o$ and their individually normalized branch bounds below are unchanged. The scalar $\zeta$ notation in IC.20 must be restricted to its fixed-sector or separately justified scalar-leading model; it is not by itself the common-input global map. Moving the sign factor to the left requires the complete commutator in MS.20, and the common-input paid outgoing bound has the additional same-window factor in MS.34. Physical means and finite columns remain independent.
+
 ## IC1. Same family, root and directed convention
 
 Use the selected member of the exact repaired family, its original period $\pi/2$, physical frequencies $4j$, normalized measure and
@@ -198,7 +200,7 @@ $$
  U_{\mathcal H^{-1}}U_{X_+}=U_{R_\Omega}\mathcal S.
  \tag{IC.19}
 $$
-Apply the same incoming input chart $\mathcal S^{-1}$ to the two maps in IC.9. After the declared leading constants have been separated, their forms are
+Apply the same incoming input chart $\mathcal S^{-1}$ to the individually leading-normalized maps in IC.9. With $\zeta$ understood only in the fixed-sector or separately justified scalar-leading sense specified above, the former shorthand is
 $$
  \begin{split}
  B_i&=1+M_{c_i}I+\mathcal E_i,\\
@@ -244,7 +246,7 @@ $$
  +\|c_i\|_2\|p_\psi\|_{H^{4/3}}+\|c_i p_\psi\|_2,
  \tag{IC.24}
 $$
-and the corresponding formula for $o$ uses $\widehat E_-$ and $c_o$.
+and the corresponding formula for the individually normalized outgoing branch uses $\widehat E_-$ and $c_o$. This is not yet a common-input outgoing bound; MS.16 and MS.34 retain its right sign factor.
 Additional physical mean-realization maps and original finite rows are added if they have not already been included. The rotation costs one in these norms. Neither the leading radial gauge nor a nonunit Airy normalization is assigned norm one by convention.
 
 The root multiplier norm in IC.12 can be read from these same complete coefficients:
