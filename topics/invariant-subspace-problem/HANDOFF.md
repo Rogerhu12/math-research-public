@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 3a1573b09a2778199b0d9883af2cb9c55b6c3225（2026-11-15 02:34:31 UTC，Actions run43668292474实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43668292474-1.json。
+- **最近成功实际 pull 与已读规则提交：** d099bc7d202cdd25adcd15a6addc9b5528068618（2026-11-15 02:37:23 UTC，Actions run43668545458实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43668545458-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -24,7 +24,7 @@
 
 **[六槽实际1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)**：所选第三父ω3…8整数系数[344,409,327,102,1,16]；七raw q1、四真W2、一个第三主源、一个D2，成本177→373→469→665→761→957→1053→1249→1345。q1的s/t规范须同步q2 carry；中间p4仅U7/真p3 κ8/真p3 D2，不换未缩放κ9。第三改选差在完整W2，四次真P与所有315/505/原17均保。
 
-**新原式任务已冻结并接入：** [清单](notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json)12源码、3复用依赖、49输入533394601B/8旧包；manifest SHA7c3b8c1b…，contract8215f48e…。workflow invariant-subspace-r150-saturated-third-global.yml由本次实际发布后dispatch；5native各30秒、每过程1024MiB、共享数学300秒，旧二/三页不重算。唯一成功all-nine-original-p6-complete须九原17模887503681及六辅助原身份、全315和九实际费用≤1345全真；未运行前不称证书。所有中断来源/乘回/缓存均保，实际运输沿已成功方案。下一步直接接该实际回执；完成后仍继续char0/普通ISP。
+**新原式任务已冻结并接入：** [清单](notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json)12源码、3复用依赖、49输入533394601B/8旧包；manifest SHA7c3b8c1b…，contract8215f48e…。入口/复参数证明已实际推5003424a932068d07a7897cd8b6a625c6b04d238，root run43668292474成功；global实际run43668434588已启动（原式结果待回执）；5native各30秒、每过程1024MiB、共享数学300秒，旧二/三页不重算。唯一成功all-nine-original-p6-complete须九原17模887503681及六辅助原身份、全315和九实际费用≤1345全真；未运行前不称证书。所有中断来源/乘回/缓存均保，实际运输沿已成功方案。下一步直接接该实际回执；完成后仍继续char0/普通ISP。
 
 ## 实际边界：同源两费与完整返回
 
