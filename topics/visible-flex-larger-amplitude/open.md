@@ -86,3 +86,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### 1C续：107已发布
 
 [107同31临时续接接口](notes/2026-11-15-request107-same31-temporary-continuation-interface.md)已提交：wrapper2b4e9f21/requestf508c1e5/workflow5b762d40，原70源pins及1参数pin。真实98 pair→一轮同31完整模型→仅在真实新warm上原完整边界FD；无新warm不复制旧FD。查询、B/H/C/outside、所有原预算/门不改。原四数学输入从918f历史恢复，全部raw仅临时；等待实际新输出后直接继续。
+
+### 3A. R280双端相位联合已证明
+
+[R280](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)保留两个原R62单端门并以OR加入联合四次Sturm条件；端点可以随相位交替排除双法向弦。严格几何余量和有效连续包围下的空间—相位共同细分有限覆盖已证明，整圆单门分类仍不自动完备。新源c5548f28已登记；109只执行新增有理案例，不是证明登记门。实际同场位置/法向包围、完整覆盖与闭场仍须继续形成。

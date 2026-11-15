@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R280. 双端联合全相位法向球与严格余量下的有限覆盖](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)（已证明，条件几何定理）：保两个旧单端门，以OR加入双端叉积平方和减完整误差平方预算的四次有理Sturm门；解析例证明严格新增范围，保半角π端点。严格reach/曲率余量及有效连续包围下，空间—相位共同细分有限完成原R241覆盖；不把C²当有效误差程序，不称整圆分类自动完备，不造实际闭场或新求解门。
+
 - [R276. 完整原σ行的仿射无穷范数严格下降区间](results/R276-native-affine-infinity-descent-interval.md)（已证明，有限保存数组精确代数定理）：全部活跃行严格向内为正步下降充要条件，全部非零斜率首触界值给精确区间(0,α*)；原十档可行恰需2^-9<α*，等号仅持平。ρ=0、端点ε<ρ充分结论与整数全行算法完整处理；保cut/stage/far原σ，区分formed-L2、字面trial舍入及真正noJ，不增原native接受门或预判73成败。
 
 - [R275. 原no-J逐运算同一性与完整变分链](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)（已证明，冻结源码条件命题）：同ordinary/local-cusp/profile次序与相同浮点括号、原root/RHS及无写回捕获给成功返回时完整226态逐bits相同；feed-only原product-J与完整226×224链式变分保两mean及port。明确理想regular branch导数不等于字面浮点DF，不推J误差、Newton或闭面接受；原验收函数/阈值不变。
