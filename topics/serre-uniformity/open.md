@@ -164,17 +164,39 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 ## 当前原数据和最新接口
 
-压缩前完整输入、run/SHA、旧阶段与限制保存于[此次R791前open](notes/2026-11-15-open-before-R791-actual.md)，内接既有全部归档。已成数学不重跑。
+本次压缩前完整输入、run/SHA、旧阶段与限制逐字保存于[此次R793前open](notes/2026-11-15-open-before-R793.md)，内接全部旧归档；已成数学不重跑。当前H保活跃run和接续，正式结果保证明与准确来源。
 
 ### 原p41函数与高度输入
 
-R735/R738/R745/R754/R759原模型、拓扑、Hodge、周期、完整Hom格均已成，保αs/CRT6逆/ζ²一次/246及原c1=4424/c0；选index4 degree1206，非全局minimum。R764全格全部cusps/c0映O。R762商Y genus127、y∈L(Y)，R769完整degree≤693排除关闭。
+R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom与R759完整Z格rank12/O_K6均已成；原index4 degree1206不是全局minimum。R764全格全部cusps/c0映O，原fP=f0；保b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246及c1=4424。R762商Y genus127，R767真实M2正常生成，R769低degree≤693分支已关闭。
 
-R771原146/694/1514基与全部85stage已成。R774 run43631427773原H³至qY820完整560坐标和真e1已成；R781 run43679703344原M+280/Q的R0..142/κ幂144stage已成，准确递推无κ逆。R778原20cusps单L轨道及143完整Laurent条件证明已成。
+R774真实H³与cusp e1、R775完整K基及power6、R781准确R0..142、R786原1234五次基q0..128均已成功。各自 certified 结果和真实请求绑定全部source/run/文件SHA；R775旧18完成文件未改，R777保持备用。当前只新增关系、CM合成、除子和实际高度，不回头重跑旧producer。
 
-R775真实续算run43679160495已成M2/M6/M12=146/694/1514，power6=1506，旧18完成文件SHA不变；cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。R777已填真实生产者但无触发请求，完整M6/M12/694阶坐标方案保持备用。
+### R787：真实原L函数关系的公开求解
 
-当前R786直接power5与R787原L关系更小，详见后文；全部真实生产者绑定于请求和正式结果。原y/β/Poincaré/第二类period/高度jets尚未据基/前缀冒称已得，原先完整M78界仅备用。可重算表不入Git/Release，必要输入只1日active bundle续传。
+[求解方法](notes/R787-original-power5-relation-solver-method.md)直接消费已成R786/R781。14分裂分支共同主元与同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构须非零A/B通过全部特征零原关系才给y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，run43683912711/sourceeab5e58b仍运行。预算后接真实checkpoint；不预填核/关系/β/高度。
+
+### R790：原CM值与首粗导已准确完成
+
+[理论](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)及[实际结果](results/R790-certified-original-CM-fiber-jets.md)：run43688215703/source9e4074fd成功，146条原M2的ψ与dψ/dz、原82²尺度全部得到，194阶段和完整202文件SHA已核。实际5种子/10反射对；μ3投影和两个280次域迹保原5040项半迹，40P=−P短链提升，E6_alg=−c6及eta/Weil/反射方向不改。cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd，artifact14151827531。一日输入包继续保原R775 power2–5供R792，不重算旧输入。
+
+原y=A/B共同零≤154；155局部系数给值、156给首导。R790仅给原截面值与首导，不假定B(P1)非零；真实β、η、全局高度仍待生成。
+
+### R791：原Hom作用与完整η输入已实际完成
+
+[R791实际结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)对应公开run43686308194/source f945ef5d，cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46；0.118秒只消费既有R754/R759/R748，没有重算旧period/Hom。原$T_\gamma$确为21阶，原$f=f_4$不在$L^+$上，但$c(f)=-[\zeta^2]f$，故$f_R=[1-\zeta^2]f=f_4-f_6$，次数3618。原$e=\kappa v^\dagger v$的六个实域坐标及全部五维$F^0$和准确次数表已得到，尺度不置一。
+
+三次CM同源准确给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$、$P_{f_R}=E_y+(y^2-b)_0$，不必先恢复$x$。同一个原$h_j$的η在Pic类上可用较小的原加法映射，次数2970/1674/1800/3024/3339；显式主函数$\mathcal R_j$必须随Poincaré/局部高度运输，不丢常数。十二个实际CM切向全部非零，并由原$K[T]$的六次不可约性证明每个非零实际原Hom在$c_1$不分歧。原$y$有限且$y^2\ne b$时，只需粗一阶导数即可恢复原$x$方向。
+
+**仍待实际完成**：原$Y$函数域/RR除子运算、完整$E_y$与各加法极除子、五个η的Jacobian类、$\ker\eta$、原β与真正高度。此固定层输入并未解决上述缺口，更未给全$p$排除。R790已完成原CM值，R787继续生成原函数，原切向数值仅保一日临时后继输入，不写可重算坐标表进Git/Release。
+
+[原反射失败续记](notes/2026-11-15-sigma-matrix-research.md)已核R739真正可见的$p=41,h=37$：本原且$N_{37}=33$、Legendre值$19/9$非零，但$f_5=0,g_0=1$；因此把逐项单位反射限制到可见集也无效。仅复用旧准确结果，无新枚举。
+
+### R792：原CM分量的真实共轭选根与最小合成
+
+[R792](results/R792-original-beta-composition-and-Galois-cube-root.md)已证明：真实共轭关系使有限原$y_0$唯一决定$x_0=\zeta^2u_0$，其中$u_0\in F_b=\mathbf Q(b)$且$u_0^3=y_0^2-b$。最高21次Q因式分解与F_b内三次小gcd即可准确选根，无浮点方向。R787的$B=\lambda b,\sqrt{-3}$十四坐标、R790的$1,\zeta$与82²尺度、R775同SHA的power2–5递归全已对齐。因此实际共同零阶0或1时首jet足够原$\beta_C$和真实实下降同源像$v\beta$；更高共同零才继续原155项界。原A的同源核原像未恢复，原η/高度未算；core/wrapper正在接真实生产者，尚不预填点。
+
+[原六截面的真实稳定闭包](notes/2026-11-15-sigma-stable-space-research.md)已证明为$L(pO)$，维数$p$；$D$为单Jordan块，$D^6$同CM权块长$N/N+1$，所以不能补固定多个有理截面得到固定宽递推。原$\sigma^{12}$连接项必须保留；未筛critical全零与真正筛后全零均仍未排除。
 
 ### 原ordinary单位、dual及实际局部输入
 
@@ -204,7 +226,6 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 
 [R784](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)补上原未平均sigma加法：三个wedge共六个degree12截面、核秩6。全critical矩阵有显式左逆L Kfull=2^(p−6)I，三种独立同余通道可准确恢复每个原a_i；原primitive/Legendre对角权经对偶左逆给三通道表达(784.27)。因此无需再猜单个R782小矩阵可逆或假定筛与矩阵交换。必须进一步证明实际表达的非零或某个被筛单项非零；左逆本身没有排除有限域相消，也不是高度排根。
 
-R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。[公开run43679703344已成功](results/R781-certified-original-inverse-free-Laurent-prefix.md)：原R0..142、144实字段/逐阶stage全部通过原相位和准确递推校验，cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0。当前依R786已成power5短基接R787原L关系、原函数/β和完整高度；这些后继尚未计算，主目标仍OPEN。
 
 ### R785：原高度的最小块参数与规范首外积类
 
@@ -212,42 +233,8 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 
 [十二阶下降记录](notes/2026-11-15-sigma-matrix-research.md)保原两首pole给准确source 136650240B及全部整高带。全部常系数总阶12双导算子逐项消去高带时，λ7..λ12必同时模p为零，不能保critical项；源项还在允许p659零。此已排路线不重做，继续原f/g与Legendre的同本原标签共同零限制。
 
-### R786：当前直接执行的原power5函数恢复
+### R788之后的真实跨p sigma边界
 
-[R786](results/R786-original-power5-sections-and-129-Laurent-recovery.md)证明原5ℒ/1234截面足以表示同一个degree1206的y；kernel=28+h1≥28。129完整Laurent条件−1..127准确认证全球关系，weight10原半线性相位逐项保留，系数在Q(ξ+ξ^-1)。先以B0秩20消cusp常数，再用1234阶Q minor消A，真正待解缩为1326×1214 L；rank≤1186为理论界，尚无实rank或函数。新准确短基任务直接消费旧R775已成M2/power2..5/det六stage与原R771，生成1234条q0..128；R781真实R0..128和κ129已够。R777完整M6/M12方案保留备用，当前不自动触发其较大计算。
+[R788](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)原有限核(1+Φp)P(z+t)Q(z−t)、det36/rank6及全Schur已证；未筛critical全零迫六零行，不能移到仅primitive/Legendre筛后。R739真实p41/h37已在primitive及Legendre可见集内否定逐项单位反射，不重开有限窗。
 
-[R786准确短基已实际完成](results/R786-certified-original-power5-short-basis.md)：公开run43682100611/source dd262672成功，1234原基q0..128与原mod739逐条一致；证书dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9，原尺度82^10和40坐标全保。R787后继只消费此真短基与R781，先实际选主元/求原L关系，再做全部129阶准确认证；不预填rank、核或高度。
-
-### 原ordinary的平衡二阶jet与准确对偶互反接口
-
-[完整笔记](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)保留原cs的全两坐标：沿z=(1+T)^i−1的零/一阶严格零，二阶K给dR=(Ku−11/2)d0−iKq dq，Θ=−iKq，实际目标Kq≠11i仍未判。二阶exact-dual cup公式保全部作用、低阶交叉和曲线二阶修正，逐局部完整求和；不能用pure-p24替原巨大q的Θ。继续原cs Kummer/Shapiro二阶比较、真全球dual提升和全部支撑的局部值；此一般恒等式未提供实际数值算法。
-
-### R788：原完整核的跨p算术耦合
-
-[R788](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)把原首pole与三wedge完整核合并：Fp[z,t]/(z^p,t^p)中K=(1+Φp)P(z+t)Q(z−t)，Φp=−12B Σ偶r z^(p+1−r)t^r/[r(r−1)]，保同一个Cartier单位。先准确除p后约化，全部高整有限部、双pole及跨项按实际次数处理。原6×6minor det36给rank6与全部Schur约束，首次把低f/g和Cartier常数放入同一实际系统。未筛全critical零迫六完整零行，但真正目标只在原primitive/Legendre可见集逐项非零，不能偷换为未筛条件；继续该耦合的真实共同零界。
-
-### R787：真实原L函数关系的公开求解
-
-[求解方法](notes/R787-original-power5-relation-solver-method.md)已落实：直接消费完成的R786基与R781 Laurent；小20阶Q块精确消B0，大A/Schur块只在合法素数下求逆。14分裂分支共同主元和同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构仍只是候选，须全部char0原关系通过且B非零才给原y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，真实请求已推eab5e58b，run43683912711实际运行；rank/关系/β/高度不预填。活跃输入与阶段同一临时bundle转交，可直接续接而不重算旧生产者。
-
-[R775完整K定义基已成](results/R775-certified-original-K-defined-RR-bases.md)：公开run43679160495实际返回M2/M6/M12秩146/694/1514、原mod739 minors344/461/730；原18完成文件SHA不变，power6现1506。此项关闭，不再重复；R777真实生产者已齐仍保备用，原函数直接接R787。
-
-### R790：原CM点的准确正则化与有限求值
-
-[R790](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)证明ψ=T E6/E4²在原P1正则；原g_star属于ΓY，权零函数可在ζ求值而原X微分相位仍保。任意已认证A=yB的共同粗零阶≤154，155项足以求y值，156项给一阶；初始仅算原T至变形ε5。原K(U)模型中z=a−1=−ε³/(81B0²)+O(ε⁶)，真实E6_alg=−c6和eta分支明确；完整非CM zeta完成化经41倍加法精确消去，原C3三项核保方向并消二挠扩域。新§6.1先作μ3正则投影，再取原粗值/导数并作两个280次域迹，5040项半迹准确压为10对五阶jet；41挠点用40P=−P和根上导数−41的短倍点提升，无须重展除法多项式。保82²尺度及反射det负指数，不将裸ε系数强制平均下降。完整core981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6及专用公开请求已就绪，按5个实际accepted种子计算10对；原候选seed-image阶段数12已更正。首run43687770143因旧R735 ZIP不含manifest在准备阶段失败，核心未启动；仅加已哈希原Git metadata回退后，run43688215703/source9e4074fd已实际运行。同SHA的已成power2–5只随bundle保给β后继，未重算。原β/高度未得。
-
-### R791：原Hom作用与完整η输入已实际完成
-
-[R791实际结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)对应公开run43686308194/source f945ef5d，cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46；0.118秒只消费既有R754/R759/R748，没有重算旧period/Hom。原$T_\gamma$确为21阶，原$f=f_4$不在$L^+$上，但$c(f)=-[\zeta^2]f$，故$f_R=[1-\zeta^2]f=f_4-f_6$，次数3618。原$e=\kappa v^\dagger v$的六个实域坐标及全部五维$F^0$和准确次数表已得到，尺度不置一。
-
-三次CM同源准确给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$、$P_{f_R}=E_y+(y^2-b)_0$，不必先恢复$x$。同一个原$h_j$的η在Pic类上可用较小的原加法映射，次数2970/1674/1800/3024/3339；显式主函数$\mathcal R_j$必须随Poincaré/局部高度运输，不丢常数。十二个实际CM切向全部非零，并由原$K[T]$的六次不可约性证明每个非零实际原Hom在$c_1$不分歧。原$y$有限且$y^2\ne b$时，只需粗一阶导数即可恢复原$x$方向。
-
-**仍待实际完成**：原$Y$函数域/RR除子运算、完整$E_y$与各加法极除子、五个η的Jacobian类、$\ker\eta$、原β与真正高度。此固定层输入并未解决上述缺口，更未给全$p$排除。R790/787继续生成原函数与CM值，原切向数值仅保一日临时后继输入，不写可重算坐标表进Git/Release。
-
-[原反射失败续记](notes/2026-11-15-sigma-matrix-research.md)已核R739真正可见的$p=41,h=37$：本原且$N_{37}=33$、Legendre值$19/9$非零，但$f_5=0,g_0=1$；因此把逐项单位反射限制到可见集也无效。仅复用旧准确结果，无新枚举。
-
-### R792：原CM分量的真实共轭选根与最小合成
-
-[R792](results/R792-original-beta-composition-and-Galois-cube-root.md)已证明：真实共轭关系使有限原$y_0$唯一决定$x_0=\zeta^2u_0$，其中$u_0\in F_b=\mathbf Q(b)$且$u_0^3=y_0^2-b$。最高21次Q因式分解与F_b内三次小gcd即可准确选根，无浮点方向。R787的$B=\lambda b,\sqrt{-3}$十四坐标、R790的$1,\zeta$与82²尺度、R775同SHA的power2–5递归全已对齐。因此实际共同零阶0或1时首jet足够原$\beta_C$和真实实下降同源像$v\beta$；更高共同零才继续原155项界。原A的同源核原像未恢复，原η/高度未算；core/wrapper正在接真实生产者，尚不预填点。
-
-[原六截面的真实稳定闭包](notes/2026-11-15-sigma-stable-space-research.md)已证明为$L(pO)$，维数$p$；$D$为单Jordan块，$D^6$同CM权块长$N/N+1$，所以不能补固定多个有理截面得到固定宽递推。原$\sigma^{12}$连接项必须保留；未筛critical全零与真正筛后全零均仍未排除。
+[跨p零支撑](notes/2026-11-15-sigma-cross-p-zero-support-research.md)保非零C13源和完整微分式，但N+1高带未消；[稳定空间](notes/2026-11-15-sigma-stable-space-research.md)证明六有理截面的D与D6闭包均为L(pO)，同权链长N/N+1。固定宽递推路线关闭，完整σ12 zeta连接仍须处理；真正同标签三单位、实际高度以及全p排除均未证。

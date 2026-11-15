@@ -4,27 +4,21 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；日志Asia/Taipei。以远端main为准，不寻找或重推旧未推分支。
 
-已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次R792前H](notes/2026-11-15-handoff-before-R792.md)。
+已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次R793前H](notes/2026-11-15-handoff-before-R793.md)。
 
-**已读规则提交：8fd176f4a2e713846f7f16d30670e80760e2694f**（2026-11-15 07:21 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：b5e1301f23482585681dbe7b82fdd88cb1ae3b20**（2026-11-15 07:32 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
-- **R775真实续算已成**：run43679160495/source032899cc成功，M2/M6/M12秩146/694/1514、原mod739 minors344/461/730，power6维1506。原18个完成文件SHA全不变；32文件/25stage已核，core8b02496a未改。cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203、artifact14148883593；全部绑定见R775-certified结果。
-- **R777仅备用**：真R775生产者已齐且pending=false，无触发请求；不在R775成功后重开大M6/M12方案。原冻结core/参数见正式备用文件。
-- **R774已成**：原e1/H³至qY820、26块/108stage已复用；原run43631427773、全部尺度/绑定见正式结果及本次R792前H。
-- **R778已证**：20原cusps在L上单轨道；L关系143原Laurent项即全球，M2/M6/M12完整前缀13/41/82注入。原证明/全部输入保持。
-- **R781理论与实际Laurent已成**：run43679703344/sourcef0292795成功，原M+=L(ξ+ξ^-1)、280/Q，R0..142与κ幂/144stage逐SHA及等式全核；无κ逆，只复用R774已成前五块。cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0，artifact14148041703。core/proof/ZIP/全部参数见R781-certified结果与R787请求；原函数后继直接用R0..128/κ129，不重算。
-
-- **R786理论及准确短基已成**：原5ℒ degree1360/1234基、原y pole1206，129完整Laurent阶即全球。run43682100611/source dd262672成功，全部q0..128/40坐标与旧mod739比较；artifact14148389754、cert dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9，3740文件SHA已核。全部冻结绑定见R786-certified结果。B0/A消元1326×1214 L、rank≤1186仍只理论界。
+R774原H³/e1、R775全K定义RR基与power6、R781准确R0..142、R786全部1234基q0..128已实际成功；完整run/source/证书/输入SHA见各 certified 结果与本次R793前H。R775旧18完成文件SHA不变，power6维1506；原M2/M6/M12秩146/694/1514。R786原82¹⁰尺度、40坐标/旧mod739比较全保；原y pole1206、129阶全球关系界不变。R778的20 cusp单轨道已证。**不重算这些旧阶段，R777仅备用不触发。**
 
 - **R787原函数run43683912711实际运行中**：core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04；原R786+R781真artifact，14分裂分支同一主元/自由列=1，Dixon在原L整基逐阶全残差校验，仅模素数逆矩阵。只有非零A/B通过全部129×20 L准确代回才成功；原y/β/高度不预称已得。source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921；预算300min；active输入bundle随一日checkpoint续传，Git只小metadata。R777保持备用，R775完整基已成。
 
 ## 原CM与原同态新续点
 
-**R790证明及核心已成、CM值运行中**：$\psi=TE_6/E_4^2$去框架零，原$g_\star\in\Gamma_Y$、$E_{6,alg}=-c_6$和eta方向全保。共同粗零≤154；原变形$z=-\varepsilon^3/(81B_0^2)+O(\varepsilon^6)$。先μ3正则投影，5040项压成两个280次域迹，真实5种子/10对；40P=−P根上导数−41作短链提升。core981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6，绑定见正式请求。首run43687770143缺旧manifest在准备阶段失败未启动core；补原Git清单后run43688215703/source9e4074fd实际运行，数学未改。1日bundle保旧power2–5供R792；真实ψ/y/β/高度未预称已得。
+**R790原CM值已实际完成**：run43688215703/source9e4074fd，194阶段/146原M2值与首粗导、82²尺度，1101.720秒。5实际种子/10反射对，μ3投影后两个280次域迹；原g_star、E6_alg=−c6、完整zeta和z换参均保。core981eb543不变，cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd、artifact14151827531；全部202文件SHA已核。旧manifest准备失败已修且未跑数学。原power2–5保在新bundle供R792；真实y/β/高度尚缺，不能假定分母非零。见[R790实际结果](results/R790-certified-original-CM-fiber-jets.md)。
 
 **R791实际成功**：run43686308194/source f945ef5d、0.118秒；真实阶21作用、实/反实秩6、全部12个CM切向非零，尤其原index4。$c(f)=-[\zeta^2]f$，$f_R=[1-\zeta^2]f=f_4-f_6$、degree3618；原$f$仍degree1206。$e=\kappa v^\dagger v=3870+711s_1-801s_2-360s_3+612s_4+864s_5$，$d_0=25326$，原五维$F^0$全部落实。三同源给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$和极除子；同一$h_j$的η可用较小原映射，但保主函数修正。另证明全部非零实际Hom在$c_1$不分歧，非仅基向量。cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46，artifact14149997458；全部绑定见[R791结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。真实极除子/Jacobianη/β/高度仍缺；切向文件随直接后继转交。
 
