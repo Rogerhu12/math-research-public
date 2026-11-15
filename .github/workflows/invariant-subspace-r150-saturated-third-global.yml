@@ -15,7 +15,7 @@ jobs:
   saturated-third-global:
     if: github.repository == 'Rogerhu12/math-research-public'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     env:
       PYTHONDONTWRITEBYTECODE: "1"
     steps:
@@ -121,7 +121,7 @@ jobs:
       - name: Recover the six real auxiliary sources and all nine original identities
         id: exact
         continue-on-error: true
-        timeout-minutes: 20
+        timeout-minutes: 40
         run: |
           set -o pipefail
           python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py \
@@ -135,7 +135,7 @@ jobs:
             --current-recovery "$ISP_SAT_GLOBAL_CURRENT" \
             --third-recovery "$ISP_SAT_GLOBAL_THIRD" \
             --out "$ISP_SAT_GLOBAL_OUT" \
-            --math-seconds 300 --memory-mib 1024 --compile-seconds 30 \
+            --math-seconds 1200 --memory-mib 1024 --compile-seconds 30 \
             2>&1 | tee "$ISP_SAT_GLOBAL_OUT/results/actions-console.log"
       - name: Record actual original identities and retained continuation
         if: always() && env.ISP_SAT_GLOBAL_OUT != ''

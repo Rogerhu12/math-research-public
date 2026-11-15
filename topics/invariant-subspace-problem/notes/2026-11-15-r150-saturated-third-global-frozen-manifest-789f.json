@@ -58,15 +58,15 @@
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json",
-      "sha256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
-      "bytes": 19595,
-      "blob": "8cccff6cbe12292963cb8f6b0cf8d74b833f55f4"
+      "sha256": "bea01b85563790eb0325365e033df2c4e9d6a610d4c3b02189d2c3734e6bce0e",
+      "bytes": 20118,
+      "blob": "4f0e041c29a7e102c1c6be69f97be2faa6d15f52"
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-interface-789f.md",
-      "sha256": "e0dad56c7c41249f4e8f3469e6341110d88e3e9f9da6dd9aa8bd42002f2b795b",
-      "bytes": 7299,
-      "blob": "3b2b2cdf59c8278cf69a508a2006bde772081887"
+      "sha256": "2349382eb557f4a9d72e430bf76ec0f1144803013f5a2648e4490c012da16799",
+      "bytes": 7884,
+      "blob": "fd2d3eb892a51c64d54d0b5955d4c3b4d81efeab"
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-build-789f.json",
@@ -82,19 +82,26 @@
   },
   "inputContract": {
     "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json",
-    "blob": "8cccff6cbe12292963cb8f6b0cf8d74b833f55f4",
-    "sha256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
-    "bytes": 19595
+    "blob": "4f0e041c29a7e102c1c6be69f97be2faa6d15f52",
+    "sha256": "bea01b85563790eb0325365e033df2c4e9d6a610d4c3b02189d2c3734e6bce0e",
+    "bytes": 20118
   },
   "mainReceipt": "saturated-third-global-pipeline-receipt.json",
   "inputCount": 49,
   "artifactCount": 8,
   "nativeCompilations": 5,
-  "sharedMathematicalSeconds": 300,
+  "sharedMathematicalSeconds": 1200,
   "perChildMemoryMiB": 1024,
   "localPythonASTVerified": true,
   "newNative1345BoundsCompiled": false,
   "newMathematicsExecuted": false,
   "expectedCompleteOutcome": "all-nine-original-p6-complete",
-  "characteristicZeroIdentityAsserted": false
+  "characteristicZeroIdentityAsserted": false,
+  "executionBudgetRevision": {
+    "previousManifestSHA256": "7c3b8c1b96dabcd7b9ff46dcc827fdca0b47cb227e541347aee14f6ef3ba5ab7",
+    "previousContractSHA256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
+    "mathematicalSourceBytesUnchanged": true,
+    "originalFreezeFieldsDescribeOriginalSourcePreparation": true,
+    "newBudgetRunNotYetExecuted": true
+  }
 }

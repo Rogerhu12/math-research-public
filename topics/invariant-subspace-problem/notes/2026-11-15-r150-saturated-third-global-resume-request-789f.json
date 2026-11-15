@@ -1,29 +1,29 @@
 {
   "format": "r150-saturated-third-global-actual-resume-v1",
-  "created_utc": "2026-11-15 03:00:16 UTC",
-  "prior_run_id": 43669639448,
-  "prior_mathematical_source_commit": "308891645e6a9c8094fa220e839717c0daf80ec9",
+  "created_utc": "2026-11-15 03:23:00 UTC",
+  "prior_run_id": 43670796654,
+  "prior_mathematical_source_commit": "3493809f84c945ab5d026a6790a5b9e64446a6c4",
   "prior_actual_data_publication": {
     "status": "pushed",
-    "publishedCommit": "73587b603c8aaf902392b14aa654f3038d648321",
-    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43669639448-1",
-    "lastRulesReadCommit": "77d04c773a613069f9ae76c8938565f3a08b6cb3"
+    "publishedCommit": "4450179601946844a03fa705c2ea746ac37e21ed",
+    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43670796654-1",
+    "lastRulesReadCommit": "7c130fb94528de8f003a43e7049fb42768a64eec"
   },
-  "prior_recovery_manifest_sha256": "72873e54cc98d33e2f786f442206aab01ef40220e0d9087b8a1254853817e028",
-  "prior_recovery_files": 209,
-  "prior_recovery_bytes": 1346656162,
+  "prior_recovery_manifest_sha256": "90ef457c61bc51f0fc9fd34afc3aff162a73407706ce2b9903b79862015caf9a",
+  "prior_recovery_files": 314,
+  "prior_recovery_bytes": 2108880863,
   "prior_artifacts": [
     {
-      "id": 14143313908,
-      "name": "isp-r150-saturated-third-global-recovery-43669639448-1",
-      "bytes": 912768394,
-      "digest": "sha256:3aa7da49e24128af05145791ca2d49c8af3a5cc63e1bd26cc9eb10925660a7dc"
+      "id": 14144218208,
+      "name": "isp-r150-saturated-third-global-recovery-43670796654-1",
+      "bytes": 1400301120,
+      "digest": "sha256:6dc3171167876ac4df8878b2a439a17f67962f0a2359acf9762baf3e0225c2d7"
     },
     {
-      "id": 14143094507,
-      "name": "isp-r150-saturated-third-global-results-43669639448-1",
-      "bytes": 929674998,
-      "digest": "sha256:11595f684d7fdd3c9eee4e913ac0f4c79f8e39b0c876c0a4439bc7932850677e"
+      "id": 14144078717,
+      "name": "isp-r150-saturated-third-global-results-43670796654-1",
+      "bytes": 1422061988,
+      "digest": "sha256:fb0ddc447f0488f4853dd2d3447173a5242151fb694471d4930c674b3351ab93"
     }
   ],
   "prior_completed_stages": [
@@ -94,18 +94,37 @@
     {
       "name": "five-q3-image",
       "input_binding_sha256": "8c13b7b5f0a14d8f11fd88150560181389e76fa2652d8ae66feedd7a450eb5bd"
+    },
+    {
+      "name": "five-q3-VQ",
+      "input_binding_sha256": "52b9da733781d4225c522f2167454e23f9dbfafe210e5a3e5c7ac73a1b5bd600"
+    },
+    {
+      "name": "five-q3-original",
+      "input_binding_sha256": "30a7179f57f3cbe9531fe105c923b162abee651ee740f787130ce43f4b2b4507"
+    },
+    {
+      "name": "five-L4-p4",
+      "input_binding_sha256": "c1e4eb5145965f6e967dfb3bb8d86f290193dfefc48fd1c206b0ad864ae9e013"
+    },
+    {
+      "name": "projected-five-L4-p4",
+      "input_binding_sha256": "2657e027912eaf6682dff2e713536cbc90b0462229afd3257d0965104a09511e"
+    },
+    {
+      "name": "projected-five-L4-normal",
+      "input_binding_sha256": "a005584d5d58fdb9d6e01c462a96c1c9b16ca63dd82d79758f9c9356f3b787cc"
     }
   ],
-  "continuation_stage": "five-q3-VQ",
-  "completed_image_rows_preserved": 451,
-  "shared_mathematical_seconds": 300,
+  "continuation_stage": "projected-five-L4-whole-image",
+  "shared_mathematical_seconds": 1200,
   "per_child_memory_mib": 1024,
   "per_compilation_seconds": 30,
   "native_compilations": 5,
-  "freeze_unchanged": true,
+  "freeze_unchanged": false,
   "resume_entry_sha256": {
-    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml": "b7f488d86f7a44e2e1b515f1fb2eca80cec62c937cc644c292d293eb94598415",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py": "3c1b9a416a080fc84070369947c44354e272a52cf682e426fb4df717293e256e"
+    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml": "bd087116e6128e342aec4d52ef03fe5dff5d48219c55e08f478a0893faec7faa",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py": "5233e3f5790e7770e10a2886334f37404bd021b673aa4b97b6c55f3f9f0ad73e"
   },
   "exact_sparse_paths": [
     ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml",
@@ -140,7 +159,7 @@
   "old_local_pages_recomputed": false,
   "characteristic_zero_identity_asserted": false,
   "account_concurrency_observation": {
-    "utc": "2026-11-15 03:02:28 UTC",
+    "utc": "2026-11-15 03:22:01 UTC",
     "repositories_checked": [
       "Rogerhu12/awards",
       "Rogerhu12/bipartite-diophantine",
@@ -158,21 +177,21 @@
     "active_jobs": [
       {
         "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665419453,
-        "name": "ranges (26, 26)"
+        "run": 43671924759,
+        "id": 132683671396,
+        "name": "Continue metric_spectral_adaptive"
       },
       {
         "repo": "Rogerhu12/math-research-public",
-        "run": 43654510038,
-        "id": 132630213511,
-        "name": "ranges (26, 13)"
+        "run": 43671882961,
+        "id": 132683564697,
+        "name": "Follow-up condensedqp"
       },
       {
         "repo": "Rogerhu12/math-research-public",
-        "run": 43654510038,
-        "id": 132630213637,
-        "name": "ranges (27, 13)"
+        "run": 43670796654,
+        "id": 132680153887,
+        "name": "saturated-third-global"
       }
     ],
     "active_job_count": 3,
@@ -180,6 +199,21 @@
     "new_mathematics_job_count": 1,
     "maximum_concurrent_jobs": 20
   },
-  "reason": "The first continuation reused all nine prior complete stages, completed eight more including the actual global D2 and full315/505 correction, and saved five-q3 VQ image rows0..450 before the shared300-second clock. Reuse all17 complete caches and the actual451-row partial.",
-  "compact_actual_receipts_uploaded_before_full_packages": true
+  "reason": "The second continuation reused17 complete stages and completed five more, including all actual original17 divisibilities by31^4 for the five L4 sources and their whole-P transforms. Preserve all22 complete caches and314 actual recovery files; continue at the interrupted whole-image stage. The shared execution budget becomes1200 seconds; all native programs, original inputs, carry and mathematical stage bindings remain unchanged.",
+  "compact_actual_receipts_uploaded_before_full_packages": true,
+  "prior_incomplete_stage_last_progress": {
+    "phase": "old-quotient-mixture-image",
+    "label": 9810,
+    "additionalReductions": 4684801,
+    "remainderNonzero": 0,
+    "elapsedSeconds": 2.0065
+  },
+  "mathematical_source_bytes_unchanged": true,
+  "execution_budget_only_changed": true,
+  "execution_budget_revision": {
+    "previous_seconds": 300,
+    "current_seconds": 1200,
+    "contract_sha256": "bea01b85563790eb0325365e033df2c4e9d6a610d4c3b02189d2c3734e6bce0e",
+    "frozen_manifest_sha256": "92457d603075d4451554ae09c12a3f60f2f2339a549322ef7eb5247b5be63a35"
+  }
 }

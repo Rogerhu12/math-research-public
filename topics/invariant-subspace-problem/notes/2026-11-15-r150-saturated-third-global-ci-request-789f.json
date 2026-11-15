@@ -18,7 +18,7 @@
   ],
   "integer_modulus": 887503681,
   "original_target": "31^2*h0",
-  "shared_mathematical_seconds": 300,
+  "shared_mathematical_seconds": 1200,
   "per_child_memory_mib": 1024,
   "per_compilation_seconds": 30,
   "native_compilations": 5,
@@ -30,12 +30,12 @@
     "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
   },
   "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json",
-  "source_manifest_sha256": "7c3b8c1b96dabcd7b9ff46dcc827fdca0b47cb227e541347aee14f6ef3ba5ab7",
+  "source_manifest_sha256": "92457d603075d4451554ae09c12a3f60f2f2339a549322ef7eb5247b5be63a35",
   "contract_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json",
-  "contract_sha256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
+  "contract_sha256": "bea01b85563790eb0325365e033df2c4e9d6a610d4c3b02189d2c3734e6bce0e",
   "workflow_source_sha256": {
-    ".github/workflows/invariant-subspace-r150-saturated-third-global.yml": "a1a2fdba5f5f64fac3c43570816d9732f2ccb9ca95c4b4711429ace96f3d1cec",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py": "38bd6b223c3dcbeac65da54a46cb5f362717739205f46923fd84957ee8766663",
+    ".github/workflows/invariant-subspace-r150-saturated-third-global.yml": "02f9fa1a3f4f616e3fc3d4f4aa1effea5510644f5e9f678443e103d17548d3f5",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py": "56a80eb15f086098f19a5811d9193b54275c83ae3fce90b46ae765c4280b71b4",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py": "88787c85107667dc2273670725217221e892750f65c37da937deacdb80647e26"
   },
   "entry_python_files": [
@@ -217,11 +217,20 @@
     "runner": "ubuntu-latest",
     "cores": 4,
     "memory_gib": 16,
-    "job_timeout_minutes": 45,
+    "job_timeout_minutes": 90,
     "python": "3.12",
     "numpy": "2.2.6",
     "python_flint": "0.9.0",
     "cpp": "g++ C++17"
   },
-  "success_scope": "Only all nine actual original17 mod31^6 identities and full actual source costs at most1345 constitute success. No characteristic-zero identity."
+  "success_scope": "Only all nine actual original17 mod31^6 identities and full actual source costs at most1345 constitute success. No characteristic-zero identity.",
+  "execution_budget_revision": {
+    "previousSharedMathematicalSeconds": 300,
+    "sharedMathematicalSeconds": 1200,
+    "reason": "Two actual completed continuation rounds show saved VQ phases need longer uninterrupted verification; preserve every completed cache and exact partial array.",
+    "mathematicalProgramBytesUnchanged": true,
+    "previousContractSHA256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
+    "perChildMemoryMiBUnchanged": 1024,
+    "perCompilationSecondsUnchanged": 30
+  }
 }
