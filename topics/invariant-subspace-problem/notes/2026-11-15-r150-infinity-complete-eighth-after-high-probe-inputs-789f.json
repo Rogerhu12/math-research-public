@@ -1,0 +1,116 @@
+{
+  "format": "r150-infinity-complete-eighth-after-high-probe-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-15-r150-infinity-complete-eighth-after-high-probe-789f.py",
+    "blob": "957d5d5e33a411e1399d7cb3dd7aa4934a9b6187",
+    "bytes": 25269,
+    "sha256": "e4e0794c2fad47895a4c23af8b7a533465d4ceeeedb7e84cbd29c5ece4d8257b"
+  },
+  "interface": {
+    "path": "notes/2026-11-15-r150-infinity-complete-eighth-after-high-probe-interface-789f.md",
+    "blob": "17fb5d0f4ca7b1267318aa65025451507fa3b89d",
+    "bytes": 4832,
+    "sha256": "b63081fdf7dd6156f025878e0a61746473d4fb32bb82d0630efa296712b601af"
+  },
+  "inputs": [
+    {
+      "key": "generator",
+      "path": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    {
+      "key": "jet_actions",
+      "path": "notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "blob": "d244c869a1a3745c1a239c9abf2518e9e8c052",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    },
+    {
+      "key": "projection_consumer",
+      "path": "notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+      "blob": "74d4c918faf3d5b791493a94bd7df3000395805b",
+      "bytes": 37379,
+      "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+    },
+    {
+      "key": "sixth_consumer",
+      "path": "notes/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+      "blob": "854d36e3f8a064c442678667c6b282b0490f629b",
+      "bytes": 32142,
+      "sha256": "4d759c0efbc8a647bd5845b21da5e871de28f0d43ae6f2fc84c376afb472e328"
+    },
+    {
+      "key": "seventh_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43740928483-infinity-complete-seventh-after-high-probe.json",
+      "blob": "3e346e869e7abc38add4926133a72b61f66a99cb",
+      "bytes": 12517,
+      "sha256": "6faacedfb22582d79a2cefc73d97a8a11eeb0cdb024bc5c6d93de995a3102e65"
+    },
+    {
+      "key": "probe_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43756208221-infinity-eighth-original-high-forcing-probe.json",
+      "blob": "ca25fcd662cc4d5e53741223fc5a3556a93403d4",
+      "bytes": 7716,
+      "sha256": "337f1617beaaf9544501ef260e3bd29d7b83cb750e8d1046544fbe3823b872ed"
+    }
+  ],
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--projection-consumer",
+    "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+    "--sixth-consumer",
+    "{scripts}/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+    "--seventh-receipt",
+    "{scripts}/43740928483-infinity-complete-seventh-after-high-probe.json",
+    "--probe-receipt",
+    "{scripts}/43756208221-infinity-eighth-original-high-forcing-probe.json",
+    "--probe-receipt-sha256",
+    "337f1617beaaf9544501ef260e3bd29d7b83cb750e8d1046544fbe3823b872ed",
+    "--probe-out",
+    "{work}/infinity-eighth-original-high-forcing-probe",
+    "--checkpoint-dir",
+    "{work}/infinity-complete-eighth-after-high-probe",
+    "--out",
+    "{work}/infinity-complete-eighth-after-high-probe-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "temporaryInputs": [
+    {
+      "root": "{work}/infinity-eighth-original-high-forcing-probe",
+      "phase": "complete-two-original-eighth-forcings",
+      "bytes": 1895574,
+      "sha256": "01ec9a3dba3afed7e09ed2bb0846e7b1195210959099430420159eb5f178cb52"
+    }
+  ],
+  "actualHighBranch": "all original high forcing coordinates zero over Q",
+  "newLowShape": [
+    1088,
+    600
+  ],
+  "completeIncomingColumns": 11,
+  "originalCanonicalSourceRows": 5715,
+  "mathematicalSeconds": 180,
+  "memoryMiB": 2048,
+  "suggestedOuterSeconds": 240,
+  "nativeCompilations": 0,
+  "receipt": "{work}/infinity-complete-eighth-after-high-probe-receipt.json",
+  "gates": {
+    "status": "completed",
+    "outcome": "complete-original-eighth-connection-exact",
+    "allFullEighthHeadsCovered": true,
+    "allNineOrdersAll6188OriginalSourceRowsVerified": true,
+    "fullOriginalVerificationComplete": true
+  },
+  "largeDataPolicy": "recomputable arrays remain current-job temporary only",
+  "executionStatus": "frozen source; no local AST or mathematical execution"
+}
