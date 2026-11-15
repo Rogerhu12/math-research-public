@@ -239,3 +239,8 @@
 ## R232：原八包例外端芽的严格第四障碍
 
 [R232 完整证明与首次实际](results/R232-original-eight-packet-exceptional-port-obstruction.md)消费 run43699241372/sourceee9e2098 的新两能量目标：Lc<0、Ls>0，正立方根基四槽各同号，16bit有理区间亦严格分离0。13新人工通过，actual0.272817秒/RSS23.2383MiB；全部14段、真左二次尾、右锚与两阶接口均保留。结合R231，b0非零ke例外germ的完整ruling对原八包所有可容正宽度均失败，含已付准确三矩C∞近邻；不排其他圆/其他b/任意germ。原件9524B/675a8bc4与dev3059B/fd9a6f3a仅存来源和hash。下一新三矩圆/完整次层，原八包结案，不重算。
+
+
+## R234：权零一次端层被 whole pure 零响应消去
+
+[R234 完整关系和实际](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)消费同sourceee9e2098/run43699241372的endpoint job132766507930。12新人工通过，17新层、34真三次系数；宽门秩4，附三旧pure行后联合秩6，pure核的一次层像维3。新H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32的whole pure为0、λ+为1，而本T为0；fresh2694项原差直接验证，三pure和准确全0。T只指真权0/canonical mixed−2/首f-up,g0左平端，所以本T不能读λ，不冒完整所有端点/全权或period/ruling通过。actual11.409457秒/RSS112.6172MiB，85870整数操作/50bit；无新profile、quartic NF或旧pure评价。原件38943B/577157ad、dev8580B/5e1f237e、内存certificate94085B/bda761d5只留hash。该一次层路线已结束，继续尚欠p²极点和完整joint。

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:34:09 UTC实际pull后已读规则提交：`bdf73215f0d71f648fb1d1e678625df6effc9127`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 09:35:42 UTC实际pull后已读规则提交：`0a289e56da71d785ff36bd50ebe51a81c7953ce8`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -47,7 +47,7 @@ R228同h、新d=bh+aσ²/k=a/(2ε)−aσ²+C exp(2εσ²)，C=ke−a/(2ε)。C�
 
 **R225完整period range已付**：新合法解析ψP包重付三复矩/八包/J*。Lf全像准确iff全部常平台G''0、每包总flux0、内部q=F/(Ap²) Laurent禁k≤−ord(p)−2与residue、两平端u=p∫q真C∞延拓；右双零/平台自由连接还原Lf本身。u*=1/p给内部门全过而平端坏的Y反例，未冒canonical。U0上的完整O有限但基/像未付，Hper=O(U0)/O(R0)未知；Hper0才授真实fullperiod控制，λ杀kerO则严格障碍。有限原查询付光滑s密度；一般R0完整T保持/Morse另欠，δ链具备。不机械追加有限flux。
 
-**R226/R230平端层已付**：R226真指数积分给p¹非零有限首项迫gauge导数指数发散，p²保有限极点门，p³以上限左零通量支路可延；δ链真实二次尾扣后仅p⁴，非一般U/R。R230完整原DAG一次层G=P2+Tτf+p²A，τ是共同真三次尾函数、不可独立赋值。已指定ψP时λ=p'/p有理，L=D+λ有限次消掉多项式Volterra系数，准确判Tτf零或有限首项；未指定P/τ不得冒固定圆。已接首轮endpoint lane：H/16真R^(0)的mixed−2新层，加R116三旧pure行；非全权R0/λ因子化。raw I=∫r^x递推加左积分，正文正J按word长度换符号；不重旧四次NF/3974forcing。
+**R226/R230/R234端层已付**：p¹非零有限首项迫gauge指数发散，p²保有限极点门，p³以上只在左零通量支路可延；δ链扣真二次尾后仅p⁴，非一般U/R。完整原DAG一次层G=P2+Tτf+p²A，τ保真三次函数；指定ψP时L=D+p'/p有限消元判Tτf。43699241372/ee9e2098首actual12toy过，17新层宽秩4、合三旧pure行秩6；R234给H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，whole pure0、λ+1且本T=0，fresh2694项原差验证。T仅权0/mixed−2/首f-up,g0平端，不冒所有端层。一次层读λ路线结束；下一p²真实极点、内部/平台/通量及完整joint，不扩同读出。11.4095秒/112.62MiB，38943B/577157ad只存hash。
 
 ## 6. 保留边界
 
