@@ -1,0 +1,11 @@
+{
+  "request_id": "rank2-r685-public-check",
+  "checks": [
+    {
+      "engine": "node",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r685-new-carry-mass-and-actual-outside-filters.js",
+      "args": [],
+      "expected_sha256": "eb0a2b8c8116fad75b02d7849a557341b43c6d294fce8e4850f8416e16df0c3f"
+    }
+  ]
+}

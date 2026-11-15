@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：485b3b32781f3bd4523dad5c9721f22968e07662；2026-11-15 05:03:25 UTC核两README无变。实际CI pull 2026-11-15 04:47:11 UTC/eb0d34f13e82c95febb56f4369aaed4aa73d75bd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:03:24 UTC仍无环境。最迟2026-11-15 05:40 UTC再实际pull。
+- 最近已读规则提交：2f5155558b14930a22611f6af3baad8ce38440ea；2026-11-15 05:05:56 UTC核两README无变。实际CI pull 2026-11-15 04:57:52 UTC/1c3254d34c342e7a81234c09a01fdb5df700efe8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:05:55 UTC仍无环境。最迟2026-11-15 05:45 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 规则15新版已仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算证书/数据/Actions输出一律不存repo/Release，只留脚本参数run/SHA256，禁part/5MB且目录≤200MB。04:47库存29.8MB无超限；新Actions只读本题输出/计算SHA256并产immutable清单blob，不改ref；先核producer及依赖再普通删除，保历史与临时复现。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,9 +14,9 @@
 
 ## 记录、完整归档和分工
 
-R1–363、R365–560、R562–653、R655–684、R687及R679/R680增补已登记；R364/R561仍开，R654/R685–686/R688进行中。
+R1–363、R365–560、R562–653、R655–685、R687及R679/R680增补已登记；R364/R561仍开，R654/R686/R688–690进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r680-colored.md)、[open](notes/2026-11-15-open-before-r676.md)，沿归档链保全部旧条件。索引results.md、notes/PROOF-INDEX-R651-R700.md；压缩不关闭未付问题。
-root唯一metadata/ref写者；代理仅独有proof/script/data或immutable blobs。root R688原边界实际代数关系及中央联系；theta R685同q♯/真实角域/T过滤；literature R686同q♯实际Z-core与T失败支；deep R687已付真实来源接全M modp3，续原barE高尾/真Dψ像比较。
+root唯一metadata/ref写者；代理仅独有proof/script/data或immutable blobs。root R688原边界实际代数关系及中央联系；theta R690同qcd真正W边际及S72十三基；literature R686同q♯实际Z-core与T失败支；deep R687已付真实来源接全M modp3，续原barE高尾/真Dψ像比较。
 
 ## 原目标、固定来源和全部旧接口
 
@@ -33,7 +33,7 @@ R679新q♯=原q+11原核+前8核乘真实π4输出G^6/(bΩ6)，是真六/十二
 未切V_i,n=ε_i λ^(n+3N)JS，X_i,n=ε_i λ^(n+N)(1−λ2N)JS；P12=∏a1..12(T−λ²κa)的I/O/X也全回JS。新J8估值≥−8N及完整H8尾保；n>N且2n>vI时L深差仍v=3n−2N+vI。原T浅/全外部只迫补−Δ，未等同这些S域。R679增补同P12负一首乘κ33unit，新J8乘值72/两尾50,77保，准确v(P12Δ)=3n−2N+33+vI；T全外部乘P12(1)不能删。
 
 R678/682原八角域A深2r/Q环带r+m/L环带r+M+j，m0,1;j0..3，两实际q/Y/W观察不同。对六次q†，整三阶差商杀完整质量；同域差κ^(3M+3)B1−σM B0消负一项，以正二矩unit给r>2N+5M+14时v=3r+4M+5−2N，N4/M2/r34为107。两套全行同unit系数回(JS,6δJT)，完整外部为负主项，不是零。
-已付6Z三次稳定可用于q♯的同完整相对Mellin T−〈bY〉^(dw)S；十二次新增pair次数8质量仅有≥8r+3M+3−8N界，不能继承旧单行零质量。R685保固定r而M→M+2、所有不交换权和全部T/log尾。
+已付6Z三次稳定可用于q♯的同完整相对Mellin T−〈bY〉^(dw)S；十二次新增pair次数8质量仅有≥8r+3M+3−8N界，不能继承旧单行零质量。R685同q♯质量精确K8×四正八矩保；cd外T压为固定A_T，β^(r+M)后Q=(U−1)(U−λ²κ6)全Mellin消CD外X和未切V，CD内rest=−corner。N4/M2/r44给T中央v143、S≥145、质量≥339，但Q同时杀原中央列，不是新零。原13步opposite必共轭P13(κ6T2)，只杀低10项，余三高来源及log尾≥10(n−N)+156。
 
 ## 惰性：真实两位来源与共振余数
 

@@ -687,3 +687,5 @@
 - 2026-11-15 04:59:16 UTC / Astra-rank2-Sha-continue：按规则15新版新增题属公开provenance audit脚本/workflow，只读现有输出并计算SHA256/producer清单，必要contents:write仅创建immutable清单blob，不改ref/不存输出数据。先保完整复现依赖再按清单普通删除；R684已推1063ed7d，数学继续R685–688。
 
 - 2026-11-15 05:03:24 UTC / Astra-rank2-Sha-continue：R687付真实CM三位输入+原非共振低前缀恢复全旧M modp3，完整规范/H^-p/charge40/13带保；一位E加同低前缀已定整等价及同R第二代表，原Z⁺/Ψ_R全运输但不证非零。R684已推1063ed7d，规则15清单audit已发47c1f2a0，续R685–688。
+
+- 2026-11-15 05:05:55 UTC / Astra-rank2-Sha-continue：R685付同q♯全部新质量、固定A_T及整Mellin的CD外消去；余CD内真实补偿T143/S≥145且Q亦消中央列，原13步共轭/三高尾全保。附脚本并准确区分首次V8标签；题属公开small-check workflow执行取真实run/hash，不存输出、不作正文门。实际04:57:52 pull/两README无变回执同存；R687已推269fa393，续R686/R688–690。
