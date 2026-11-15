@@ -309,3 +309,5 @@
 - **R780（已证明，b≠0）**：[完整普通T范数像与自动深T条件](results/R780-exact-ordinary-T-norm-image-and-automatic-deep-T-condition.md)。真实ordinary transfer和unit Herbrand商给NT E_M=O[Γ,S]cs+O[S]us、EV商k由原y生成；指定ku⊕kn全部在xzX42(E_M/p)，显式ordinary原像三Norm严格零。因此第三Norm及原xzX41深度均不限制剩余η，不替原primitive/J相位，实际cs局部两坐标继续。
 
 - **R782（已证明）**：[原六次sigma截面的完整Hirota平方加法核](results/R782-original-sigma-six-Hirota-square-addition-kernel.md)。原F/G全部六倍阶双导数为c_mFG，完整生成函数是W²=(x³−4)²σ12；c1=−5184和c2=2^12·3^9·79均为允许p单位。准确critical N−1矩阵保同h和原Legendre/primitive接口，但与该筛选的兼容性及共同非零仍开，未把完整加法恒等式当高度排根。
+
+- **R783（已证明）**：[原ordinary障碍的规范二阶Robert系数与局部Norm自由度](results/R783-canonical-quadratic-Robert-local-coefficient-and-norm-freedom.md)。原cs在规范semilocal商中为A x²+B xz+I³，Θ=B−iA=13b，原Ω₂/ε=22−2Θ；坏值Θ11。证明辅助Norm原像选择无关，以及保两Norm/实结构的局部扰动自由度；真global ordinary改动在b≠0时模43为零。Θ实际值仍未求，不把局部自由度当global Robert值。

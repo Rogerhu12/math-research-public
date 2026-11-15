@@ -290,3 +290,8 @@
 - R775旧run43631335355实际exit124；23文件逐SHA核对，M2与power2..5/12×40seed已成、power6 rank1486 partial；原core不变，完整断点续跑预算300分钟，不重算旧阶段。
 - 04:55 UTC执行环境断连，按根8小文本API继续；已读137c5a877根15新规，取消未推Release方案并准备删可重算旧数据。修改本题R775 workflow延长预算/临时断点1天，未改其他课题。
 - 下一步核新run，R781独立Laurent、R783原ordinary局部输入、R784同标签sigma并行；主目标OPEN。
+
+## 2026-11-15 13:03 Asia/Taipei · serre-public-astra-20261115
+- R783证明原cs规范二阶系数Θ=B−iA=13b、Ω₂/ε=22−2Θ与辅助Norm原像选择无关；坏值Θ11，尚未求实际值。
+- 另证保持两Euler Norm/τ现实的局部扰动遍历二维输出，与b≠0时真实global ordinary合成Norm像43O u严格区分；根核原局部坐标、socle乘法和全局生成元，不把局部变动冒作Robert变动。
+- R775已由真实断点启动公开run43679160495/source032899cc；不重跑旧阶段。H/open/index同步，继续实际二阶reciprocity与全p sigma，终端仍不可用。

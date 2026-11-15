@@ -6,13 +6,13 @@
 
 本会话已部分克隆并实际pull main至b6dd686c404c15cc7744c5c26f32862055ea3c67，读根/本题README、H/open/log及当前notes。私有QUEUE已更新并终端推送55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境transport断连、unavailable；按根规矩8通过小文本GitHub API继续，不能将API读取称为实际pull。终端恢复后实际pull/rebase；至少每小时重试。
 
-**已读规则提交：eec337288c09c1e39af9500085a00bbf77a78725**（2026-11-15 04:59 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题840326974B，待普通提交删可重算数据到200MB内，不改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
+**已读规则提交：ec94abc10b11040f058d5c5bef2165d3cde777ca**（2026-11-15 04:59 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题840326974B，待普通提交删可重算数据到200MB内，不改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[接手前H](notes/2026-11-15-handoff-before-resume.md)及其before-R780归档链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
-- **R775已读真实超时断点，准备续跑**：旧run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540于20:38 UTC预算耗尽exit124；非数学失败。artifact14130299697，zipSHA15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540；23文件逐项SHA已核，manifest d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a。M2 rank146、power2..5 ranks418/690/962/1234与12×40原seed像均complete；power6 rank1486/processed18432未完。原core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee不改，resume完整复用；预算300分钟、workflow350。新run待请求提交后核实，不预称成功。
+- **R775真实断点续跑中**：旧run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540于20:38 UTC预算耗尽exit124；非数学失败。artifact14130299697，zipSHA15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540；23文件逐项SHA已核，manifest d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a。M2 rank146、power2..5 ranks418/690/962/1234与12×40原seed像均complete；power6 rank1486/processed18432未完。原core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee不改，resume完整复用；预算300分钟、workflow350。新run43679160495/source032899cc3bcd937497a857df0c271261fc709ae5已in_progress，成功待核。
 - **R777工程/9d6c4406已保存，未触发**：scripts/R777_exact_short_K_basis.py SHA4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；方法及全部wrapper/workflow SHA见原文件和before-R780归档。非触发pending请求SHA3bab514912ea92c843823c1a208d3b0b5686ad271a2efe800aff69faab6c6fbe；R775真成功后填actual artifact/cert/manifest、pending=false，写最终-request.json运行。
 - R777保82E1/126半trace/40det、block79/82^w，准确生成q142基。H³只读R774前两块/14ρ，用694阶Q矩阵/Dixon解14 RHS并核AX=I，原坐标82^6ρX；membership与R778注入认证。逐原行断点/数千stage清单gzip只artifact；根/代理已读完整源码/官方flint接口，无本地数学，未把模核当原y。
 - **R774已成/167165de**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，24.706959837秒；真e1、H³至qY820全560坐标/26块/108stage，D289bits且v739(D)=0，原模型分母2^24·3^1260。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、artifact14128247134；完整原尺度和输入SHA见结果。旧manifest位置失败在core前，已修，数学未重算。
@@ -29,19 +29,11 @@ R771/6e1b3ab9 run43628998192，301.126s，M2/M6/M12=146/694/1514，minor550/206/
 
 ## 原ordinary最新结论
 
-原p43、776bitq已Gaussian5排除，非Serre反例。保原P0/未平均P+、全部ordinary finite divisors，不能换ray或任意局部根。R720 C=9ib、L31+26b、r_y25+9b、Ω₂=ε(22+17b)，零iff b24；实际b未知。R185 flat=Aα−8i/1848u、Jflat=J−18；R755真dual保negative adjoint、q quadratic/cubic及2处cochain，Iα=ε(21σ₂+2bJ)，I0=Iα+7εb，原scalar参考9ε仅一次quadratic。
+原p43/776bitq已Gaussian5排除，非Serre反例；原P0/P+、全ordinary divisors、τ与scalar s11不变。旧完整链见[本次R783前H](notes/2026-11-15-handoff-before-R783.md)及open。
 
-R758/R761/R763/R766的原cocycle、两diagonal、ρ清零及d41非主化边界仍有效，完整式见原结果和归档。
+R720原Ω₂=ε(22+17b)，零iff b24，实际b未知。R755真dual保负adjoint/全部q二三次与2处cochain；R779指定nR=−in+(11/2)u对所有b真下降，dR=(9b/4)dq+B_Rd0、b=−3B1−5B45、Ω₂/ε=22−8B1+B45。R780完整NT像和三Norm/深度条件对原二维socle自动，不定η，不替primitive/J。
 
-R768/3afb4b55真dual full-divisor image唯一λe_q，实际βP(U)=−ft/9非零；T-Hilbert90/transfer给bλ=0。b≠0时真实类Norm/ordinary capitulation图迫真dual和dq下降到V=M^T ordinary；b0不外推，b24未排。
-
-R773/a668c4a1给无条件rμ(cs)=9；b≠0时完整EV的原us/cs/y格与二维socle已证，n=x40z42cs+i x41z41cs−x42z40cs、真UV=4n/C+ηu。完整直接q phase0不等于regularized pairing0；balanced augC已修−77p/154p。
-
-R776/4756ddd2（b≠0）真实global Kummer除法cochain减diagonal Hy，原q quadratic/f=s32给Iα/ε=32(1+i−18ibη)。所以18b Reη=1、Iα/ε=32+17b Imη=21σ₂+2bJ；flat η→η+8i复现7εb及原参考，ηI/σ₂/J/b未求。
-
-**R779/86b22789（所有b）**：指定nR=−in+(11/2)u无条件Γ/S不变且τ-real；全局和局部无μ43使H¹/H²下降项均零，唯一下降真Σ支持dR。Ucan=−4n+(5+21i)u、full-divisor Bockstein给dR=(9b/4)dq+B_Rd0，b0也适用。原dR,p=B1 b1+B45 b45满足b=−3B1−5B45、Ω₂/ε=22−8B1+B45。b≠0时dR=(9b/4)(dq+ηI d0)，I0/ε=32+25B1、Iα/ε=32+3B1−8B45。实际两B未求；原cs指定导数向量+已知u需86×2方程、varpi_s1938。R704原43Gamma embeddings对integral field坐标精度已够，但不提供cs值，不混multiplicative tensor。R783接快速原cs输入，不枚举巨大q-torsion。
-
-**R780/0cc1d068已证（b≠0）**：完整ordinary T norm像NT E_M=O[Γ,S]cs+O[S]us，EV商恰k、原y为生成元；用真实类transfer=0、H¹(T,E_M)=k及unit Herbrand1，不混field norms。原n/u均在xzX42(E_M/p)，给实际Ln/Lu∈X42E_M且三Norm严格0；因此R766的xzX41深度及第三Norm条件对整个ku⊕kn自动，不能定η，不替原primitive/J相位。证明SHA7d85e0522d2b7c091d8c38c3701c0672f28f504dac714f72c23529f8a4a6f870；实际cs局部值/B1/B45仍缺。
+**R783已证明**：在原semilocal单位商、以N_S(vq)=原P+[α_F]固定的基中，原cs模43有规范二阶项A x²+B xz+I³，Θ=B−iA=13b；因此b=10Θ、Ω₂/ε=22−2Θ，坏值恰Θ11。A/B不依赖辅助Norm原像。局部扰动xzγ21h0保两Euler Norm/τ-real却可改变全二维局部输出；这不是global ordinary改动，b≠0时真实NΓNSE_V=43O u使该global改动模43零。实际Θ未求，不能包装776bitq巨大挠点枚举为可行计算；后续须原Robert相位的二阶reciprocity，不能代任意Norm根或旧pure-p24。
 
 ## 全p sigma与真正高度缺口
 
