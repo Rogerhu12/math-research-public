@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0dd1eff590db0e9addcaf294131a12033b9024bc**（2026-11-15T10:07:27.639927+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：c4d5c13cf20a144252c8efa3144acbeac68c6b2a**（2026-11-15T10:08:46.599989+00:00 终端实际pull后已比较两README；无变化无需重读）。
 
 每结论立即推main；至少每小时实际pull，比较根/本课题README，变化只读diff并立刻遵守；非快进立即pull --rebase重推，禁止force。PAT仅CLI。root独占git与共享索引，各代理只交专属草稿。数学只在本公开仓库Actions；本地只读/IO/schema/hash/AST及纸面证明审核。根§15：可重算raw/证书不入Git或Release，只保脚本参数/source/run/输出SHA；必要输入/断点仅一日活跃bundle，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
@@ -45,7 +45,7 @@ R803保真Norm与b⁷/Nb、三同源、R794列方向、反实Lambda/s及原高�
 [Serre/Cartier](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)有独立单位C(x⁴ω)=4Bω/7但尚无保筛桥；
 [cosigma](notes/2026-11-15-sigma-cosigma-descent-and-closed-critical-channel.md)rank4核/x²σ⁶整行列零，总阶p−6仍旧F∧G。
 
-**原模参数heat与奇部已证明并登记**：[笔记](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)。一般(a,b)的L=6b∂a+a²∂b/3保原c=0；六截面heat准确闭合，但a=0不L稳定。在Δ=−432的E27:X³+16=Y²上，奇值连接D−M由显式v⁶=r(r⁴−1)覆盖平凡化，允许p≥41零p曲率。首p截断保Hasse源Az^(p−2)e2/12；A(P0)=0、DA(P0)=B，水平逆矩阵源两分量单位。尚未把横向单位运输成原critical/primitive系数非零；不得删边界源或把D当原D_z。首p oscillator和偶部入口正在独立证明/核对，未预填筛后结论。
+**原模参数heat与奇部已证明并登记**：[笔记](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)。一般(a,b)的L=6b∂a+a²∂b/3保原c=0；六截面heat准确闭合，但a=0不L稳定。在Δ=−432的E27:X³+16=Y²上，奇值连接D−M由显式v⁶=r(r⁴−1)覆盖平凡化，允许p≥41零p曲率。首p截断保Hasse源Az^(p−2)e2/12；A(P0)=0、DA(P0)=B，水平逆矩阵源两分量单位。尚未把横向单位运输成原critical/primitive系数非零；不得删边界源或把D当原D_z。[首p oscillator曲率](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)现已证明：Hasse A''=−XA/4、Cartier(A⁻²ω)=ω与D^(p−1)A⁻²=−1；在k(E)[z]/z^p准确有(D−O)^p=(A∂z+6DAz)²/12，P0上3B²z²、秩p−2。源式保全部先D后代值，不能把A(P0)=0先删。有限奇连接零曲率与完整oscillator非零曲率并存；偶部平凡化已交稿在审，critical/primitive支撑桥仍缺。
 
 ## 原规范与主问题仍开
 

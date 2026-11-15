@@ -375,3 +375,5 @@
 - **R804（已证明）**：[所选五原映射的整数循环复用与八步群律](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)。实际R794五个a(T)均整数，原C/C逆在GL5(Z)；只对这五元素成立。原六个U和六次P给relative-x/y完整群律，八节点保持原五低degree/N≤196；两图反对角立方理想与支撑拼接给准确极除子接口。真实DAG、全局saturation、η/刚性化/高度尚未算。
 
 - **原模参数heat与奇连接（已证明）**：[完整笔记](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)。保持c=0的六维heat矩阵、辅助E27上的显式奇部可分水平基与允许p零曲率，首p截断保Hasse边界源；DA(P0)=B且源基分量为单位。模参数与原z方向严格区分，critical/primitive共同非零仍未证明。SHA256 b0d436867df58fa240afb11a8dc627827b95e399659d1e3efef2e9b512461cab。
+
+- **首p oscillator曲率（已证明）**：[完整笔记](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)。原Hasse二阶方程、Cartier(A⁻²ω)=ω与D^(p−1)A⁻²=−1给完整有限算子曲率(A∂z+6DAz)²/12；P0上3B²z²、秩p−2。保持原Hasse边界源及先微分后代值，未把有限奇连接零曲率误作完整heat零曲率；critical/primitive非零仍缺。SHA256 b8a91945184161e5104749059d3eb29897815fc241bc34958826b11fd530270e。

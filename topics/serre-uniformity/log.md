@@ -569,3 +569,8 @@
 - 原sigma模参数heat笔记完整登记：六行作用及奇Lamé显式v⁶=r(r⁴−1)覆盖直接证明，全部允许p≥41可分/零p曲率，原点水平源分量单位；不将a=0错当L稳定。
 - root逐式核，原文Bunkova式(1)/Cor3.4与Rodriguez Villegas式(2.16)已打开核规范及Hasse q-expansion；首p截断的Az^(p−2)e2/12源不能删。SHAb0d436867df58fa240afb11a8dc627827b95e399659d1e3efef2e9b512461cab。无新扫描或本地数学执行，未筛/真正筛后critical仍开。
 - H逐字归档后压缩，R804已推56bb70f4；R787/R801继续，R803工程接续，全局极除子/规范高度与主目标OPEN。
+
+## 2026-11-15 18:08 Asia/Taipei · serre-public-astra-20261115
+- 完整登记原首p oscillator曲率：直接多项式全导数给Hasse ODE，全局简单零/无留数与O点首项给Cartier(A⁻²ω)=ω；有限lens变换和严格Jacobson式给完整曲率及P0秩p−2。
+- root手核全部算子系数与Cartier常数；原Hasse参数写明mathscr A_p(3,−1)=A(1,−1)，p-basis构造补成不循环证明。保Az^(p−2)边界源，不能先置A(P0)=0；SHAb8a91945184161e5104749059d3eb29897815fc241bc34958826b11fd530270e。
+- MH已推99efc113，非快进实际pull/rebase循环成功且两README差异空。全六偶部代数稿已返回待核，R803最小781项真实输入IO已过，R787/R801继续；主目标OPEN。
