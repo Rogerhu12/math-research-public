@@ -429,3 +429,7 @@
 ### R271 附录：同源二进制gauge全家预算与有限变差插值
 
 [完整证明](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)给全部1≤a≤2^(d−1)同一真实e47d⁴/8环境、e^-80d⁴全carry和最小投影误差。二进制Lagrange准确Σc_jH^(2^j)=I，总变差Π(1+2^-h)/(1−2^-h)<9，整组高孔项成为真实尾范数；同一实际r给保完整ordinary域的μ⁴≤9d0^-2 flat²R²及全窗必要不等式。ordinary联合封口/高返回预算仍开，未证明N=M。
+
+### R271 附录：复参数 gauge 正平均与普通右费的准确强度
+
+[完整证明](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)在原有限头幂零代数构造H_a，d次单位根正平均恰I，所有参数和a−1同在|a|≤2原预算；插值常数由<9降1，高孔二次型并回原尾范数。全部原源/自然域/真实最小投影保留，μ⁴≤d0^-2 flat²R²。Parseval准确给R²=d0²Σλ((log H)^k r/k!)²≥d0²λ(r)²，说明未免费降低ordinary目标；原封口和高返回仍待付，N=M未证。
