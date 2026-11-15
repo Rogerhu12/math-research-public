@@ -36,11 +36,13 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 [已关闭迭代的后台artifact接线](notes/2026-11-15-noJ-primal-live-background-artifact-wiring.md)完成源码/官方接口核对：SDK2.3.2在同job持续计算中流式上传，双迭代批次避单job500件限制；同id下载、显式digestMismatch=false及全部成员原SHA核同后才可释放已闭合large-arrays，原manifest/小记录保留。Node supervisor持有新增runtime凭据且不转给科学child，完整依赖锁/恢复入口仍待真实实现；本次未上传/删除原件。网络积压不保证32GiB总容量，storage错误与科学接受分记。
 
-### 1D. R259：实际80八次全步接受，低三根仍未解
+### 1D. R259：实际82又八次全步接受，低三根仍未解
 
-[actual80完整结论](notes/2026-11-15-actual80-damped-small-core-eight-full-steps.md)、[完整原status](notes/2026-11-15-actual80-complete-original-readout.json)、[29项字节回执](notes/2026-11-15-actual80-original-byte-audit.json)：run43664043053/source5a17ad80/job132659392179，eta1八方向全部首档alpha1接受，无域/merit拒绝；原merit65077006698.67736→15492237698.871113。finalp=[.09071772300091886,-.13939413969182854,-.12252606423015384]，原三方程=[206.4299715953469,-176013.15201356995,1950.1545213062855]。第三分量减小，第二分量绝对值增大，不能说三项均改善；candidate/success/native/nonzero仍false。
+[actual82完整结论](notes/2026-11-15-actual-request82-damped-resume-eight-full-steps.md)、[完整原status与读数](notes/2026-11-15-actual82-original-readout.json)、[完整字节审计](notes/2026-11-15-actual82-original-byte-audit.json)已保存。run43665944742/sourcef1a2c808/job132665204485，eta0.1八方向均首档alpha1接受，没有域/merit拒绝或回溯截断，八步预算用完。原merit15492237698.871288→11949245423.478903；finalp=[.07254576672993071,-.0403277008444164,-.11497411877394303]，单位三缺陷=[224.4830723005632,-154577.5000610159,2058.380235692375]。第二项绝对值改善，第一/第三项最终仍略高于初值；总merit下降不冒各项同时改善。candidate/success/native/nonzero仍false。
 
-52985B原status ebe5b50c及69源/11artifact件保全；四大输入仅actualActions receipt跨绑定，不冒本地payload重复核。原末FD/零core圆/494Arb叶只付声明a/ap范围，不是强C2、真实连续R或非零parent。82用实际父finalp、独立ownschema续接、显式eta0.1/8/20，冻结1691方向和3b9方程/未加权merit/Armijo/全部末端检查。root已完整读新源/接口/唯一工作流请求并核70源、7shell/4inlineAST；[82接线接口](notes/2026-11-15-request82-workflow-interface.md)、workflow00af4496/requestd10fddcc已接入原computations唯一触发路径。显式eta候选不预断成功或唯一原因，等待真实Actions原输出。
+54263B原status1e56d89c、70源/11原件/215检查保全，readout含完整原status。末FD三档7.60517568680229e-9/1.874469986361574e-9/5.09761710307341e-10；467 Arb叶/24split/0unresolved仅声明a/ap范围。完整699×453零core圆col3.8903884454211113e-16/BC0、原全部域通过，但不是非零幅度parent、强C2或真实连续R证明。大输入缺失payload处只按已有receipt跨绑定，原完整尾J本次未独立导出；81在actual78的高块不能继承到新p。
+
+85从真实82 finalp续同ec9a56fd ownschema，保1691方向/3b9方程与全部原门，仍eta0.1/8方向/20档；没有已拒试步要求扩大回溯或换η。草稿待root审读后原computations唯一触发，不预填未来run。80及此前完整结果已付，详见原notes，不重复计算。
 
 **高109实际81已完成：** [完整结果与模型范围](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。固定actual78参数和原699节点/112尾J，112 exact模式全部已读，高109保存有限系数两端行列式非零、全部单位入口映射存在，高Schur非奇异。另定义的声明实数Arb模型160/320/640位后仅解决高4–9，10–112仍未排零；所有right-cell/unit-map已定义，未遭预算截停。含零包络不是奇异证明，finite结论不能替换interval/连续结论。476原件/17完整阵/112exact/328Arb/3circle/69当前源全部已付byte scope，稠密两端矩阵和QR未形成。低三/横截/非零BVP未付，之后改p不能继承此点高块；这不成为native/prefix新gate。
 
