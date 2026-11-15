@@ -117,3 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### 162完整原C双图传播入口已发布
 
 [接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)与driver77731B/5440e2e0、reader19995B/befe77fc、request20703B/5b002d6f、workflow74330B/c9e30f35同时发布。原156的三输入、C3600、两闭query、深端112和原13pins保，新增3源共16；原R324/R312与R347都绑定。新严格pivot及幅符号/log链、全继承误差、逐cut候选合法商后hull，未声称物化原QF=1单列或全DN。完整112/25M/14400s/free2GiB，18900仅startup后clip计划、绑定时间排除，硬限250/360min，45min读回是预留计划。prepared记录只由完整commit spans支付；全mode/cut/leaf/unpaid逐原行读，大coeff/panel/commit仅全身份/行数，不冒逐值独核。四读回成功、同run/source marker及原PID/start_ticks/专属science组均静止才清理；活进程时只读错误前缀并明确未读未来尾部。geometry唯一核actual/R355；每条原partial/失败照实记，原native/BVP/闭合README责任不变。
+
+### R342：153实际完整C/cut与far工作量停止
+
+[R342全文](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)固定run43727856178/source35690c77/compute132853608396/report132872813297。原1440、六primitive、两闭query/cut两jet、R312全112返回；whole2888个resolution+1晚期积分未达工作精度。真实rFar0.05056158669090205/f64lef0e68a5235e3a93f（node8上端外下一binary64）；全112新far传播在m18/work-unit200000止，linear elapsed270.860472942，非1800墙钟。m2..16完成、m18 accepted14672但未完；当前row9616/piece1339/闭[3/512,1/128]深0，完整栈仅该项，后缀[9617,10387)，lastpaid9615/3/512及两含零区间全保，m20..224未启动。native只读partial并CurrentCGeometryUnpaid，actual_client_started=false/exitnull/request[0]未起，不能解释原十试探或填J/audit。完整10JSON/4重复report/全部原错误读，十亿字节科学大阵仅原身份和既定字段范围，不冒本地逐值复证。168据实际112×10387基础范围明确资源，并用独立严格两图源保完整误差/幅因子/所有inverse碎片；不只扩大cap宣称保障，也不把含0盒判真实共振。159真实结果仍由其自身返回决定。

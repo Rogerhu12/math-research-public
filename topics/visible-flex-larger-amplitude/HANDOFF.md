@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:29:02 UTC 已读 f10ea8eed59c12eab7907dffb6a6f5a38465772b，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:29:44 UTC 已读 37484bd49983ea3892af91375d9c07d42c0c6695，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推，未确认临时件不当已保存。
 
@@ -29,7 +29,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：43731669039/132865254053/source de638f2a，α1/8接受，W43.363003729098274→43.33605694766103，FD8.81884772255149e−10过；native/fullDN仍false。R334绑定错误、0/75776及全17未付，非预算/原模型拒；完整原读回及误差责任见R346。166配对原station/control身份，不猜实际总calls。
 
-163实际43732715988/source4e1decc7三个job成功；[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151读回。157大semantic工具未返正文，不冒FD/J/H已读。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件已发：只读原163/read157一次，必需完整矩阵结构、162FD/84trial及全部错误保，精确字节相等数组共用引用；5×76000B+18000B索引、总≤400000，6小report，无科学重算。首跑43735131654/132875931222已下载原163日志，最终index整数键编码失败，未读FD/J/H；仅键转str及编码异常保全，source56102085/requestdcd09ad5重发，amplitude核下一actual/R350。
+163实际43732715988/source4e1decc7三job成功；[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151读回，157大semantic工具未返正文。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)首跑43735131654在最终index整数键编码失败，FD/J/H未读；只键转str及错误保全后，新run43735578724/sourcef7e842db运行。5×76000B+18000B索引/总≤400000，原162FD/8outer/84trial完整选定范围；amplitude唯一核R350，不重科学。
 
 ## 完整native路径：145、155、160、161
 
@@ -45,7 +45,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)五件已发：driver5440e2e0/readerbefe77fc/request5b002d6f/workflowc9e30f35，16pins/原C3600/全112不变。严格pivot/全误差/幅符号log链、逐cut商后hull；prepared仅commit spans付。25M/14400s/free2GiB；18900资源计划仅startup后clip，绑定计时另列，硬限step250/job360，读回45min为预留非绝对保证。mode/cut/leaf/unpaid全行，大ledger仅身份；四读回过+同run/source marker+原owner静止才清。geometry核actual/R355，不预填数值。
 
-[153](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入，真r全逆像/新rFar112非除Robin，576/577、η1方向/η0全112/混合338/fresh audit，一条+0H；原32/10/2e−9，C3600/linear1800/sampling1800/native3600。[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)两mean、末整体非共振等责任保，QR不冒严格证明。
+[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：1440/六primitive/两域/cut/deep112齐，whole2888+1精度未付。新rFar0.05056158669090205，m2..16完成；m18 work-unit200000止/270.860472942s，row9616 piece1339闭[3/512,1/128]，后缀[9617,10387)，m20..224未起。原native CurrentCGeometryUnpaid/client未启动，32×10/+0H/J/338/audit全未起；大阵仅原身份非逐值独核。geometry以168保原112/误差/新严格projective表示及完整资源，不冒将含0盒判共振。
 
 [159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)λ.001/R320九p/699×453仅初猜，57pins、同job C/factory/sampler→真实H/J/原FD→453fullDN/fresh audit，8outer/17inner/32×10保。job360/science315/read45/BVP7200clip；signal停独立组、读错非零阻清理。自己E/Ep不被native覆盖，共同准确C/JSexp/无限DN另付。
 

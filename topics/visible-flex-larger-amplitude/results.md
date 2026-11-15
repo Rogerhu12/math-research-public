@@ -236,3 +236,5 @@
 - [Request167实际首次元数据编码失败及修复](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md#8-首跑真实读取层失败及本版最小修复)：43735131654已一次读原163日志，但整数outer键使最终index失败，原FD/J/H未据此认已读；仅输出键转str、最后编码异常保全，未重157科学。
 
 - [Request162：同一原C完整112双图传播与逐候选cut商接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：R347严格表示接原C/深端和16源闭包，完整幅因子/误差链保，25M共享工作次数；逐cut候选除法后hull，DN旗标独立。完整mode/cut/leaf/unpaid与原错误读回，prepared只按commit付，活owner及读错阻主动清理；源已发布，actual未预填。
+
+- [R342：实际153完整C与cut两jet返回，物理far第九模态耗尽工作量；native尚未启动](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：1440/两域/deep112已返回，whole2888+1工作精度未付；新rFar处m2..16完成，m18/200000次止，完整row9616闭栈、[9617,10387)及m20..224后缀保。原native client未启动，非试步拒；全部原日志摘要/错误及大阵未独核边界明确。

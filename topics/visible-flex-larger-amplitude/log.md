@@ -109,3 +109,7 @@
 ## 2026-11-15 16:29:02 UTC /root — 162同C完整112射影入口发布
 
 完整driver差异/reader全文/workflow66900B差异核后五件即发：5440e2e0/befe77fc/5b002d6f/c9e30f35，原C3600及16pins保，25M/14400s与严格双图/逐候选商分责。明确18900为资源计划、step250/job360硬限，绑定成本排除；四读回+同源marker+owner静止才清。geometry接actual/R355；API核f10ea8eed59c12eab7907dffb6a6f5a38465772b双README未变，真实pull记录保。
+
+## 2026-11-15 16:29:44 UTC /root — R342实际153完整未付范围
+
+[R342](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)28045B/22ead980全文核后即发：C/cut/deep齐，far m18/200000 work-unit止，原row9616闭栈/10387末索引及m20..224全保，native client未起而非数学拒。geometry接168，162已d23db7eb，167修复run43735578724；API核37484bd49983ea3892af91375d9c07d42c0c6695双README未变，真实pull行保。
