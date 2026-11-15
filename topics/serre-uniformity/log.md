@@ -50,3 +50,8 @@
 - R806 run43707290840已真实success，job132791001049全部步骤成功；artifact14161637987/203879878B/ZIP2f894721已从公开API核实，实际w0/cyclic/34组坐标待原manifest与carrier完整IO审读，不预填候选。
 - 共享终端仍离线，根§8小文本续推；新增只读rules-pull工作流，每次真实部分clone/pull --rebase并比较两README，只保一日receipt。当前实际已读仍ddd412d7/12:18UTC，未将API查询冒充pull。
 - R813真实Wronskian输入封装接续；R787/R809原数学作业继续，主目标OPEN。
+
+### 2026-11-15 20:37（Asia/Taipei）｜serre-public-astra-20261115
+- 激活R806成功产物纯IO审读，script c4f9f2a、workflow9cd549eb；原203879878B ZIP/全manifest、R805/R786 carrier每成员逐SHA，运行冻结wrapper.verify，不import数学core或flint，不重算Mw。
+- root逐行核真实producer/schema、原manifest与selected closure；只保小摘要及R811必要未改文件一日artifact，R813直接读原R806 carrier/固定逆。
+- 小文本CAS遇并发main变化后，均立即重跑rules job实际pull --rebase；2026-11-15T12:37:38.513224+00:00已读af80941c两README不变，再按新main重推。R787/R809继续，主目标OPEN。

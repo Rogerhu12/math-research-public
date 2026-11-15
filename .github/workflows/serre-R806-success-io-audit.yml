@@ -1,0 +1,46 @@
+name: Serre R806 success pure IO audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/scripts/R806_public_success_io_audit.py
+permissions:
+  contents: read
+  actions: read
+jobs:
+  original-success-io:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /topics/serre-uniformity/scripts/R806_public_success_io_audit.py
+      - name: Check the read-only audit source syntax
+        shell: python
+        run: |
+          import ast
+          from pathlib import Path
+          p = Path("topics/serre-uniformity/scripts/R806_public_success_io_audit.py")
+          ast.parse(p.read_text(encoding="utf-8"), filename=str(p))
+      - name: Verify the original success artifact without mathematical recomputation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R806_public_success_io_audit.py
+      - name: Retain only the IO summary and necessary unchanged continuation files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R806-success-io-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R806-io-audit/audit-output/
+          retention-days: 1
+          if-no-files-found: error
+          compression-level: 6
