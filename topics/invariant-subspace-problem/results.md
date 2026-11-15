@@ -151,3 +151,5 @@
 ### 2026-11-15：同选完整模31长度243、次数8527及条件目标成本230
 
 [完整证明](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)的新run43702348535保原数学源码、新输入真实绑定、51份已付前缀完整SHA。36个正Smith指数全部确定，末四17/18/18/21；$\deg\overline D=8527$ 给新的特征零次数下界。条件目标成本降为230，全部来源统一费仍8654；未把模31的243或cofactor222自动提升为Q下界。
+
+- [R150-appendix-infinity-nineteen-fourth-left-jets-order49-and-cost8648](results/R150-appendix-infinity-nineteen-fourth-left-jets-order49-and-cost8648.md)：完整3383显式+2805次数来源的十九条四阶左延拓；∞公共49/44、指定78/77/72、K89及同模31次数下条件费8648，目标225。完整第四连接下界及原成员性仍开。
