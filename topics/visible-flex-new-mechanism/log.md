@@ -425,3 +425,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 03:17:56 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交024d40babc233a946d20c6dd61db56746c04c1c9记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 03:18:18 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交416b6e1cb07c1c6a99ac9823781413afb11009ff记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 03:20:00 UTC，Astra-new-mechanism-9974ea84：adaptive21输入driver全文及新controller/反馈逻辑、完整人工回执与设计已读；86args逐项保持原20输入、21st763ff56d绑定正确。首trust1/4000/差比半减对原实际问题作新改变，原门/全池/预算保持；补谱full稀疏目录并注册native summary，公开单lane派发。raw9修复actual43671759155已success，接读新证书。
