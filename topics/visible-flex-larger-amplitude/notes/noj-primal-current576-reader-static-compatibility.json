@@ -1,0 +1,149 @@
+{
+  "schema": "noj-primal-current576-reader-static-compatibility-v1",
+  "AST_parse_passed": true,
+  "target_modules_imported": false,
+  "scientific_execution": false,
+  "original_artifact_read": false,
+  "source_bytes": 76963,
+  "source_sha256": "c062117765addc2acf7b82ca1aa6ad87027ebab8d32c75673af382d24dd26f06",
+  "checks": [
+    {
+      "function": "require",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "sha",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "file_sha",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "canonical_sha",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "read",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "write",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "load_byte_module",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "subset",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "scalar_view",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "number_record",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "descriptor_json",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "plain_receipt",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "merge_files",
+      "entire_AST_unchanged": true
+    },
+    {
+      "function": "audit_witness",
+      "entire_AST_unchanged": true
+    },
+    {
+      "scope": "all577 factor/constant, zero-triangle, formation, recovery-word byte checks",
+      "source_equal_after_declared_identity_label": true
+    },
+    {
+      "scope": "complete10 snapshot arrays/chunks/576 J stream and current-state binding",
+      "source_equal_after_declared_identity_label": true
+    },
+    {
+      "constant": "TRANSPORT_NAME",
+      "unchanged": true
+    },
+    {
+      "constant": "TRANSPORT_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "UTILITY_NAME",
+      "unchanged": true
+    },
+    {
+      "constant": "UTILITY_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "FACTOR",
+      "unchanged": true
+    },
+    {
+      "constant": "FACTOR_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "KERNEL",
+      "unchanged": true
+    },
+    {
+      "constant": "KERNEL_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "BYTE_IO",
+      "unchanged": true
+    },
+    {
+      "constant": "BYTE_IO_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "CORE_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "RUNTIME_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "EVALUATE_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "INTERNAL_SOLVE_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "TRIAL_SHA",
+      "unchanged": true
+    },
+    {
+      "constant": "MODEL_SCOPE",
+      "unchanged": true
+    },
+    {
+      "constant": "UNCHANGED",
+      "unchanged": true
+    },
+    {
+      "constant": "SHAPES",
+      "unchanged": true
+    }
+  ],
+  "actual73_run_and_source_pinned_after_actual_dispatch": true,
+  "result_interface_checks_keep_new_flow_separate_from_original_core_and_noJ": true
+}

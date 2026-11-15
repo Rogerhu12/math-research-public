@@ -63,13 +63,14 @@
                    'prefix21': 'root_20261114_read_completed_twenty_one_prefix.py',
                    'prefix21lambda27': 'root_20261114_read_completed_twenty_one_lambda27_prefix.py',
                    'prefix22': 'root_20261114_read_completed_twenty_two_prefix.py',
-                   'native61': 'exact_20261114_read_current576_artifact.py'}
+                   'native73': 'exact_20261115_read_noj_primal_current576_artifact.py',
+               'native61': 'exact_20261114_read_current576_artifact.py'}
         kind = request.get('readback_kind')
         if request.get('repository') != 'Rogerhu12/math-research-public' or kind not in readers:
             raise ValueError('Use an implemented original public-artifact reader')
         required = {readers[kind], 'exact_20261114_fetch_pinned_public_artifact.py',
                     'root_20261114_publish_actions.py'}
-        if kind == 'native61':
+        if kind in ('native61', 'native73'):
             required.add('exact_20261114_audit_damped_chain_bytes.py')
         pins = request['source_sha256']
         if set(pins) != required:
@@ -137,7 +138,8 @@
                   'prefix21':'root_20261114_read_completed_twenty_one_prefix.py',
                   'prefix21lambda27':'root_20261114_read_completed_twenty_one_lambda27_prefix.py',
                   'prefix22':'root_20261114_read_completed_twenty_two_prefix.py',
-                  'native61':'exact_20261114_read_current576_artifact.py'}[kind]
+                  'native73':'exact_20261115_read_noj_primal_current576_artifact.py',
+              'native61':'exact_20261114_read_current576_artifact.py'}[kind]
         pin = request['original_artifact']
         argv = [sys.executable, '-u', str(comp/reader)]
         for key in ('run_id','artifact_id','artifact_name','expected_size','expected_sha256'):
