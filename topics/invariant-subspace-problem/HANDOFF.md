@@ -20,7 +20,7 @@
 **同选无穷远常块：** [模31秩4318/真连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)保同4354来源/输出，不能混全矩阵4340/连接4。全部36自由来源仍标准I，任何有理核须全6188系数且4367整数乘回为零。
 [p32](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)实推057990186f；[p184的13真核](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)核心实推8c6304e，原完整证书/恢复已存。实际32→184为108.336960369秒；[184→200](results/R150-appendix-selected-infinity-exact-dixon-through-p200.md)新16位11.866769106秒，所有原乘回/自由I36真，无新核。
 [同已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)全非零，只排指定分子；[13核一次变量闭包](results/R150-appendix-paid-thirteen-infinity-kernels-source-degree-and-linear-shift-closure.md)低次4维、44乘积越界rank35，九合法乘积等旧核，扩张仍13维。
-**[真256的20核与条件8735](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)：** 200→256新56位27.216322355秒，20核全4367精确零/自由I独立，char0秩4318…4334。D∞≥20、单换列仅≥19，已有成员性才得费用8735；源码/参数/实际SHA已存，不存大证书。真486的23核/条件8732完整证明待下一条立即推；旧六临时资产当前Actions读取后删除。后继只由真486继续余13列，随后接同一子式char0连接/Smith；有限精度仍不作有理结论。
+**[真256的20核与条件8735](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)：** 200→256新56位27.216322355秒，20核全4367精确零/自由I独立，char0秩4318…4334。D∞≥20、单换列仅≥19，已有成员性才得费用8735；源码/参数/实际SHA已存，不存大证书。**[真486的23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**已成：新256→486实际108.172096014秒，slot8/9/15新增全4367精确核，char0同选列秩4318…4331；D∞≥23、换列≥22，条件费8732。全部真实源码字节/参数/SHA已提交；旧六临时资产本次Actions读取后删除。后继只由真486继续余13列，随后接同一子式char0连接/Smith；有限精度仍不作有理结论。
 
 ## 实际边界：同w、同源、全部返回
 
@@ -36,7 +36,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M仍开。原同w/未来/负前缀、初M3�
 ## 新规则15下的当前运行
 
 停止旧Release迁移；协调方已清理main约9.6GB，后续核当前topic≤200MB。已读两次差异及旧规则时发生的上传事实分别记小回执，不把旧要求当新授权。四个临时恢复tar及两个p256附件已服务端核SHA；只供当前Actions临时恢复真486，然后删除Release资产。可重算大输出不写Git/Release/持久工件，仅源码、参数、run和SHA入库。
-本地环境不可用；normal在恢复所有已运行源码的准确文本/生成器，literature给23核来源级一次乘法闭包脚本（10秒/512MiB，只原6188来源，继承真核身份）。优先这一可补余13方向的有限代数，再从真486续新位。根同步登记p200/20核8735/23核8732后继续开放问题。
+本地环境不可用；已运行7份数学小文本均按原SHA准确恢复；本次发布临时研究session及23核来源级一次乘法闭包脚本（10秒/512MiB，只原6188来源，继承真核身份）。优先这一可补余13方向的有限代数，再从真486续新位。session从p486只读恢复/删旧附件/清残留旧数据，实际运行小来源闭包并仅推参数/run/SHA摘要；可在同一临时job继续新请求，保持每次pull核两README及H。
 
 ## 其余仍开
 

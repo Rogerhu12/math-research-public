@@ -1,0 +1,155 @@
+{
+  "format": "isp-infinity-resume486-exact-input-locations-v1",
+  "rulesReadAtCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+  "persistentLargeDataAllowed": false,
+  "readOnlyHistoricalInputs": true,
+  "repository": "Rogerhu12/math-research-public",
+  "historicalInputs": [
+    {
+      "key": "model",
+      "scope": "repo",
+      "file": "r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+    },
+    {
+      "key": "forward",
+      "scope": "repo",
+      "file": "r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz"
+    },
+    {
+      "key": "backward",
+      "scope": "repo",
+      "file": "r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz"
+    },
+    {
+      "key": "selected",
+      "scope": "paid",
+      "file": "selected-infinity-minor-dag-receipt.json",
+      "bytes": 75700,
+      "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68",
+      "gitBlob": "c274db3e884f35acc64266b1ab8c64c05608900a",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-infinity-minor-dag-receipt.json"
+    },
+    {
+      "key": "point",
+      "scope": "bockstein",
+      "file": "actual-original-infinity-constant-model.json",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-constant-bockstein-789f/actual-original-infinity-constant-model.json",
+      "bytes": 87459,
+      "sha256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074",
+      "gitBlob": "f97873a2e1cbd6f6a25fae0b2af836ab02731196",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36"
+    },
+    {
+      "key": "kernel",
+      "scope": "bockstein",
+      "file": "actual-original-kernel36.bin",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-constant-bockstein-789f/actual-original-kernel36.bin",
+      "bytes": 222788,
+      "sha256": "c008e57b7a7e80312f8ba292bb24241d53bb59d4c57b2a8d07ec1017b9de0744",
+      "gitBlob": "9f78ca95f73d7d3ddab2b93646481bbc6950c663",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36"
+    },
+    {
+      "key": "previous",
+      "scope": "bockstein",
+      "file": "selected-infinity-constant-bockstein-pipeline-receipt.json",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-constant-bockstein-789f/selected-infinity-constant-bockstein-pipeline-receipt.json",
+      "bytes": 8877,
+      "sha256": "80ec709359d3530df19b075a7e4cdac7bfaa01a609c017258ed81fa658b90667",
+      "gitBlob": "10232e4b0ea549e15fc3cd6768ea91a1fb9aa9be",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36"
+    },
+    {
+      "key": "source-dag",
+      "scope": "dixon",
+      "file": "actual-selected-image-source-dag.bin.gz",
+      "bytes": 957557,
+      "sha256": "c50e7bb8558a7f637d9d6951f64ae002c96cdce06dfcb7d1a4619ea6dc07337a",
+      "gitBlob": "746781c791dcccf205c0927b4da120451f266392",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-kernels-789f/actual-selected-image-source-dag.bin.gz"
+    }
+  ],
+  "currentInputs": [
+    {
+      "key": "start-source",
+      "scope": "p486",
+      "file": "stage-p512/actual-p486-exact-source36.bin.gz",
+      "bytes": 22711275,
+      "sha256": "49dd910f4750a639c33f9ec751ef3c1449887ef2b5dae90a5c5358afb94c6842",
+      "rawBytes": 23286117,
+      "rawSHA256": "b89e9c8a6ab8b070ca53c888d4974659f26bd2c4889d02495abe3a1d90e44bc8"
+    },
+    {
+      "key": "start-receipt",
+      "scope": "p486",
+      "file": "stage-p512/actual-p486-receipt.json",
+      "bytes": 385,
+      "sha256": "d70ebd4b7552046f743644df71f09265a8218920e132e7abe9345e0887f37b44"
+    },
+    {
+      "key": "paid-exact-kernels",
+      "scope": "p486",
+      "file": "exact-rational-kernel-certificates.json.gz",
+      "bytes": 2133085,
+      "sha256": "24913665ab0ff6f1eb41c26caf3b50d1d2fc11cf8568a5611943e91d2c29c184",
+      "rawBytes": 5978318,
+      "rawSHA256": "fef92e0fd72647f4533236dded976ecb8038fe4b15d80b6af1200bbf6ee0dd09"
+    }
+  ],
+  "temporaryExistingRelease": {
+    "assetId": 749870028,
+    "name": "isp-789f-infinity-p486-recovery.tar",
+    "bytes": 242145280,
+    "sha256": "a9d8cf63d4173becb750c1155548fb0e148b5aae95af9ffb681d7ac949002df3",
+    "currentJobTemporaryReadOnly": true,
+    "doNotReupload": true,
+    "rootWillDeleteAfterUse": true
+  },
+  "nativeCLI": [
+    "native",
+    "native-model.txt",
+    "prepared-exact-model.txt",
+    "forward.bin",
+    "backward.bin",
+    "actual-p486-exact-source36.bin",
+    "paid-selected-image-source-dag.bin",
+    "prefix",
+    "remaining-seconds"
+  ],
+  "nativeHeaderMagic": "R150_SELECTED_INFINITY_DIXON_BIG_V1",
+  "nativePointCoefficients": [
+    17,
+    77
+  ],
+  "selectedSourceRows": 1021,
+  "selectedOutputRows": 1021,
+  "independentSourceRows": 985,
+  "freeRows": 36,
+  "sourceShape": [
+    6188,
+    36
+  ],
+  "outputShape": [
+    4367,
+    36
+  ],
+  "startExponent": 486,
+  "previousDigitsRecomputed": false,
+  "skipDixonIfSourceClosureProves36": true,
+  "workingFilesTemporaryOnly": true,
+  "publishOnlySmallReceiptSourceParametersAndSHA256": true
+}
