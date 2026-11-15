@@ -1,0 +1,101 @@
+{
+  "kind": "actual_public_correlated_adjacent_piece_first_Airy_source_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43675967042",
+  "run_attempt": "1",
+  "workflow_commit": "53e065a4f96c6795d245b088eeaccba482ed8850",
+  "worker_sha256": "359e7927bb108f5e080ff99120017b88fa3266546102fcdc1eaf9d33261aa5a5",
+  "manifest_sha256": "76cf792e1e223e4b45487f90c9a44dd64fcaf32e46c0f1a0a46f442eb4faa18a",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T04:16:10.974893+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T04:16:11.891579+00:00",
+      "before": "ee7c13f56b6d87b2f0fa1e9938fe29cb521c77e8",
+      "after": "cc59132a457e053012818c8ecc55433180e3dab5",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T04:16:24.877143+00:00",
+      "before": "cc59132a457e053012818c8ecc55433180e3dab5",
+      "after": "cc59132a457e053012818c8ecc55433180e3dab5",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "original_same_order_matrix_conversions_recomputed": 0,
+  "original_complete_Airy_profiles_recomputed": 0,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_complete_angular_tail_factors_recomputed": 0,
+  "only_new_two_neighbor_correlated_difference_and_complete_source_consumption": true,
+  "new_true_root_high_order_point_evaluation_requested": false,
+  "strict_original_completed_coefficient_and_amplitude_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "auxiliary_background_substituted_for_actual_neighbors": false,
+  "mathematical_source_sha256": "f553b1506dde1b1d80119fb77b084a43ee19e08e17f32f7139a4a1dddf53a739",
+  "original_artifact_receipts": [
+    {
+      "name": "whole_case_0",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-1000.json.gz",
+      "sha256": "929378ededdab70a761123597694433e569776194b51685e1ebb140b6f8eec78",
+      "bytes": 681376
+    },
+    {
+      "name": "whole_case_1",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-500.json.gz",
+      "sha256": "cb20faa53a70430b3ab488bb27d745bd7f30d9d819e186aa1a50c3a7cc090144",
+      "bytes": 1298608
+    },
+    {
+      "name": "whole_case_2",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-200.json.gz",
+      "sha256": "3b1a4c7db0daf8d2bdba82aa9e91e1e4460d3350ab9499d398cbe9665f876b74",
+      "bytes": 2970353
+    },
+    {
+      "name": "whole_case_3",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-100.json.gz",
+      "sha256": "cc56cef7ebebcce0c2327bfc3983df847ae7ce091398bd5ef706ebcddee14dc3",
+      "bytes": 3792857
+    },
+    {
+      "name": "whole_case_4",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-3-200.json.gz",
+      "sha256": "dca4f94130935f6861104e43087444b218de5a984f7cadecd542662cffdbb69c",
+      "bytes": 4664799
+    },
+    {
+      "name": "whole_case_5",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-50.json.gz",
+      "sha256": "602789829d5afc1d6a61ec7edfa3af4862b933ade6e769a6bbbb6eca4a89aa83",
+      "bytes": 5596452
+    }
+  ],
+  "matching_prefixes_requiring_original_artifact": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-correlated-adjacent-piece-first-Airy-sources-CI-inputs.json",
+    "--manifest-sha",
+    "76cf792e1e223e4b45487f90c9a44dd64fcaf32e46c0f1a0a46f442eb4faa18a",
+    "--out-dir",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-output/consumers"
+  ],
+  "complete_original_inputs_verified": 244,
+  "actual_scientific_checkout_commit": "cc59132a457e053012818c8ecc55433180e3dab5",
+  "mathematical_wall_seconds": 11.939959672999976
+}

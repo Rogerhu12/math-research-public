@@ -1,0 +1,27 @@
+{"complete": false, "proved": false, "failure": {"type": "AttributeError", "message": "'int' object has no attribute 'upper'"}, "new_stages": 28, "complete_pieces": 0, "complete_cases": 0, "new_complete_source_rows": 0, "copied_original_complete_rows": 0, "original_mathematical_stages_recomputed": 0, "native_sha256": "b46953d23b021359d1f98a55e820a28d2cfbce5fe2f7b93e3841d47fe0fe6d35", "seconds": 9.696490630000028}
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py", line 734, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py", line 594, in main
+    comparison=stage("complete-correlated-phase-forcing-and-w1-"+str(piece),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py", line 305, in stage
+    payload=pack(build())
+                 ^^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py", line 569, in compare
+    phase=A.phase_comparison(cwide,refwide,ex(h),ex(H),length,WIDE,PHASE_FLOW,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_Airy_algebra.py", line 309, in phase_comparison
+    kroot=c["k"].fractional(Q(1,2),c["k_gap"],c["k_gap"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_Airy_algebra.py", line 100, in fractional
+    total=scalar(1,self.n,self.pmax);term=scalar(1,self.n,self.pmax);coefficient=Q(1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_Airy_algebra.py", line 35, in scalar
+    r=zero(n,pmax);r.a[0,0]=(up(value),up(delta));return r
+                             ^^^^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_Airy_algebra.py", line 15, in up
+    def up(v):return abs(v).upper()
+                     ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'upper'
