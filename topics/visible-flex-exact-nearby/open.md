@@ -94,13 +94,13 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：全Gy/T1T2/F0–2/actual T_J差FJ/−Z_y均值；FA corrected除ng一次、cuterror乘sameT forward L2一次，ST literal√q给真L1dr primitive+两mean和无长度jump。SF44/45只difference，S连续而Z可跳；Q径二阶/K三阶/new norms/dr积分/Z jumps及waist/Ei/Eo/incoming/Schur/R0仍待。
 
-[WY四腰有序装配](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135：同Js左逆→Jσ→真U_X逆，root Λ右置；cut两I/two ranks/腰P rank全保，state只BH左费，Λ^-1 T_F^-1 S^-1不交换。FA exact quotient两ε同real，经SF/CT接IC/LN同系数。两physical mean/P97/finite/PW均保；Λ逆/TF/三窗/SF完整积分与全incoming/Schur/R0仍待。
+[WY四腰装配](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135/[WE完整输入审计](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md)49616d85：C*=CPC+CST4+CSF，SJ cut不二加；同Js左逆/Jσ/真U_X逆，Λ^-1TF^-1S^-1原序。state仅BH左消，CG整费不二KF；retained须真实norm或exactborder，paid不可冒完整Ei。两mean/P97/finite/PW与独立端口原序保，完整incoming/Schur/R0待。
 
 [KL实际同Ai幅度逆](results/R133-supplement-actual-correlated-terminal-Ai-leading-scalar.md)2ac6e803/43766439345/1 child0/16锁；解析dc48bdb4与14pins/2AST/11math/10完整copy/14球/SCI/preGit保proof。fullδ1e−8、两ε两σ同模KΛ<10.611，完整R0相关消、仅WX forward与off-bump根短预算，公共numerator原球保存。ng0一次、右Λ^-1TF^-1S^-1及U_X−σ原序、两mean/finite保；optional left/TF/SF/三系数窗/incoming/Schur仍分别待。
 
 [TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c/[TFA实际双窗](results/R133-supplement-actual-complete-common-root-normalizer-and-two-window-inverse.md)6e11a160：原43766881076/1 child0/14成功锁，12pins/3AST/9math/7全copy/20标量与SCI/preGit全保proof；F_A<185、JF1024，同一逆L2<1.048/负4/3<1.061及forward齐。finite≤1215与mean保，右乘后不冒有限input；two-I/finite完整before/after费用分别保存，禁二次乘逆。原degree192/full-complex域不移，Cσ/Eσ/incoming/Schur独立。
 
-[CG分开首系数与完整rank](results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md)a66ad4c4：own-row A1/κ和KL已存numerator/ST ngcut→Ccut三导；SJ真实完整c积分经H density→g三导，C=Ccut+g不倒扣upper。各自三乘子窗、C_I² dual、两p∞完整候选、WY两rank/独立腰P rank及TF/S原序费用齐。SJ actual未齐前不启动CG，完整mean/finite/其它reference与state-error独立。
+[CG分开首系数与完整rank](results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md)a66ad4c4：Ccut/g各三导/三窗、双rank/独立腰P/TF-S费用与fullmean全保proof，禁倒扣upper。五science现齐；四件静态包待root部署，actual尚待，state和其它finite/mean独立。
 
 [SJ完整径向](results/R133-supplement-complete-strict-radial-coefficients-from-saved-cubics.md)ccaaa1b1/[SJA实际全源](results/R133-supplement-actual-complete-strict-radial-first-symbol-defect.md)3176f8ae：原43768006977/1 child0/26成功锁，48pins/8AST/66字段/101新球与SCI/preGit保proof。3071行/2550真段，全D2 K3/Srr/Zr/两mean/finite/真dr/3070无length跳量齐；521同label桶仍全收费。C_SF3.24452606e111仅完整上界，已含FA cut，三c积分可原字复用；原对象/域保，incoming/Schur/真PDE待。
 
