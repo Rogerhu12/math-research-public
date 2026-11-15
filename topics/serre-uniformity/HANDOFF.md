@@ -4,11 +4,11 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：e5e1f510f3c1d4ec53ddfa82580165755d2b2971**（2026-11-15T16:25:17.841314+00:00；公开run43714581068/attempt29/job132876647047真实git pull --rebase origin main，两README无diff）。14:34UTC环境失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。完整前态逐字保[R827激活前H](notes/2026-11-15-handoff-before-R827-active.md)，内接全部历史；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：ca186db057ed753abe565d0c3c2c8305278b5af7**（2026-11-15T16:30:45.088073+00:00；公开run43714581068/attempt31/job132878198979真实git pull --rebase origin main，两README无diff）。14:34UTC环境失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。完整前态逐字保[新关系入口前H](notes/2026-11-15-handoff-before-R824-relation-adapter.md)，内接全部历史；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
-## 当前原始计算与来源（2026-11-15 16:26 UTC）
+## 当前原始计算与来源（2026-11-15 16:30 UTC）
 
 **R787原A/B仍运行**：run43708449812/job132794639922/sourceac5998f333ab49c4747874e2e44b7ca4ccfa3acf，core93d3d72b、wrapper42157e0d。旧5.15GB断点1517输出/1372输入全核；保1234/129×20/14分支，每prime只留最新完整lift。预算停同核续，不换R802。成功立即R792原CM值/β/立方根，再R804全部真点；不选未知同源核前像。[续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
 
@@ -24,7 +24,7 @@
 
 [R827充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)，最终proof17e9c828：原C两图monic20/单位常数给整Laurent拼接和flat商；两族原导数按a+2k齐次化，tδ−(a+2k)δt保像在原I_k。真实τ整多项式右逆＋σ∞rank272经proper/Nakayama迫char0 I_q=C；单点rank/函数域rank均不够。σ可用q+1递减jet，不再做第二图全HNF。
 
-**首实际消费者已激活**：core85916B/d9cf7739、helper38baf6b4、methodc55655f9和wrapper87825B/dbd8356e全文核毕；workflowbbb0b8ea，请求15242B/1804789d已填六个真来源，首q4/300min、cache=[]，无PENDING。[执行契约](notes/R827-original-modular-derivative-surjectivity-consumer-method.md)。R820双字段源已核一致。公开run43734420663/job132873746638/source400edecfeab313d1858cdb72bf18f8452ab9566a已进入消费阶段；q4不是答案。
+**首实际消费者已激活**：core85916B/d9cf7739、helper38baf6b4、methodc55655f9和wrapper87825B/dbd8356e全文核毕；workflowbbb0b8ea，请求15242B/1804789d已填六个真来源，首q4/300min、cache=[]，无PENDING。[执行契约](notes/R827-original-modular-derivative-surjectivity-consumer-method.md)。公开run43734420663/job132873746638/source400edecfeab313d1858cdb72bf18f8452ab9566a已进入消费阶段；q4不是答案。
 
 原ell1000000753/branch0/canonical1186：单位Schur给真实B的整lift，S5单位块给vB；必须保integral_B=lambda*b。W的8单位cyclic节点给MB，vg/vh的6/5点给Mg/Γ，保6724一次及σ负幂相消。B·d_i有272列/权5,6^144,7^127，只是子理想，额外零可使充分检验失败。旧同prime节点/逆/模image直接复用，首reusable_stage_sources=[]。先∞真minor，再τ完整Hermite/Bézout；missing-pivot不冒称总rank；增q复用全部已成变换和系数。尚无实际q；只有q4真通过才D约化/K1。
 
@@ -34,9 +34,9 @@ R811首乘法及完整char0极前像待A/B；helper09f21a90已实测generic五�
 
 ## 已成原输入，禁止重算
 
-[R820两图C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)：run43721747750/source7890fde1，两图rank/colength20、d271=20其余0；Cj=e_j−q_j e271，末P20，实际20链给Z primitive。600ZIP/598manifest/289输入全IO与冻结verify通过，artifact14164872449至Nov16 13:58UTC。
+[R820两图C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)已完整认证：20链/Z primitive、d271=20，其余0；R806原W、R813原vg/vh及各source/run/SHA/到期点，全部保[前H](notes/2026-11-15-handoff-before-R824-relation-adapter.md)与certified结果。R801/803/805/807、R797/799/800及R781 R0..142/κ幂已成；V6至141/V7至175/V8和V2..5至195。R805的[1,144,127]是次数计数，非272项EPS。缺尾只在实际消费者需要时补。
 
-R806 W（run43707290840/w=e2/τ）与R813 vg/vh（run43715253991/scale6724各一次）全IO已核，artifact14161637987/14162633303至Nov16 12:25/12:58UTC。R801/803/805/807、R797/799/800、R781 R0..142/κ幂已成；V6至141、V7至175、V8及旧V2..5至195。原R805 graded_free_basis_degrees是[1,144,127]计数，不能当272项EPS。来源/SHA/完整旧边界均保前H和各certified结果；V8缺尾真需才补。
+**R824新准确关系入口已审保存**：[方法](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)68877a98、adapter5a6a100a、R792变体a8a33d32继承冻结beta框架7b7a5483。任一真实新weight5 exact-generator及17个129×280验证块可给同原y，20×129>2566；共同分母/content不重插，非恒定共同零另验。真success或已结束断点均须绑定原stage；不伪装R787，不重算保留1186。当前尚无已发布新exact stage，runner/request继续pending，不预填CM点或A/B正规坐标。
 
 ## 全p sigma实际配对
 

@@ -260,3 +260,8 @@
 ### 2026-11-16 00:26（Asia/Taipei）｜serre-public-astra-20261115
 - R831完整纸证：原EO的old6/new2绝对不可约，T六值不同、S连通给End=span(I,P2)；任意36维Weil交换子压回EO亦old标量。char0/p>3均成立，补齐R828未分类的抽象交换子作用范围；不冒称FG非零或全部36维代数分类，proof806220f4。
 - 原R787/R815/R824准确续算与R827真实q4继续。16:25:17UTC公开rules attempt29/job132876647047实际pull到e5e1f510f3c1d4ec53ddfa82580165755d2b2971，两README无diff，H已更新；新的高度统一接触阶仍在纸证，不预记结论。
+
+### 2026-11-16 00:30（Asia/Taipei）｜serre-public-astra-20261115
+- 真R824→R792来源适配三稿全文核后保存：method68877a98/adapter5a6a100a/corea8a33d32，直接继承原beta框架7b7a5483。真实单个五次关系全129×280加20尖点次数判据给同原y；明确新共同零、原λb换基一次、已去content不重插，无假R787标签。
+- 原rational-block实际来自旧R787输入，完整引用保留；完成后删掉的lift/residual只保digest，17验证块仍逐源核。新exact尚未发布，先保存接口，公开runner/pending继续，R787原1186不重算且继续运行。
+- 首次ref更新被provider竞争拒绝后立即实际pull/rebase；2026-11-15T16:30:45.088073+00:00/attempt31/job132878198979读到ca186db057ed753abe565d0c3c2c8305278b5af7，两README无diff，更新H并继续非force重推。旧H已逐字归档，原任务继续。

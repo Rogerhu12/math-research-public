@@ -56,7 +56,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R809六原C已准确完成**：[实际结果](results/R809-certified-original-six-Hodge-normal-vectors.md)，run43712427063/source91fbd81e，84Q右端/full1380、S5=1234、p1000000007/minor29693114；13341.116785255秒，各最高项零给权4。原冻结verify全部成功；小IO run43733430148仅精读16件4.80MB取得真实manifest/cert/S5/minor，不重算旧行。保82^10、b/s与λ一次；A/B仍待真关系后追加，极理想/eta/高度未得。
 
-**R792/R804工程待A/B**：原R792 core7b7a5483/wrappercdac2e93保c(f)=−ζ²f、y0=sv0、原Fb唯一立方根/21次奇因子，不在未知同源核中选前像；CM值/首jet全零才增加高阶。R804 coreecd9fc2a/wrapper5126b836旧18项IO已核，随后消费R792七新项，保全部例外点/T7/原Gal/rho/vβ，不重求五个Laurent核。
+**R792/R804工程待真实准确关系**：原R792 core7b7a5483/wrappercdac2e93保c(f)=−ζ²f、原Fb唯一立方根/21次奇因子，不选未知同源核前像。另已核[真R824关系适配](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)：adapter5a6a100a/新corea8a33d32继承原框架，任一完成新五次exact及全129×280证书就给同原y；不等指定1186、不伪装R787、不重插共同分母/content。新截面共同零真实判断，全零才续更高jet；当前没有已发布新exact stage，保持pending。R804 coreecd9fc2a/wrapper5126b836继续消费实际CM点/全部例外点/T7/原Gal/rho/vβ，不重求五Laurent核。
 
 **已成原输入禁止重算**：R797/799/800与R801长尾、R803 M6混合比、R805正规整基、R807一次清极均完整IO认证；真实run/source/SHA保各certified结果与R820前归档。原θ=e0−112648621e1/282292255+223442698e2/282292255、λ3/4零；旧power2..5至195已齐。R806原w0=e2/n1乘法34×8列/full820与cyclic已准确认证，R813原g/h两S3各432位/full820/scale6724已准确认证，451ZIP/726输入及冻结verify全核。后继直接消费，不再重复旧前缀。V8 q196..201只在真实选中需要它的消费者时补；κ^N每函数一次。
 
