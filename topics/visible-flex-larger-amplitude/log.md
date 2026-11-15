@@ -315,3 +315,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 R291实际129原八批全读回
 
 [R291](results/R291-actual129-eight-nine-control-batches.md)完整正文已读并发表，原run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173、两jobs成功；64接受/171外trial/107拒绝，merit到6.426170559507028而全部原final仍false。20接受保inner tol=false，后5批所有评价无域异常，首1/32与完整Armijo拒绝逐原记录保留；原九列三档FD、Arb1524末叶/0未解、全453零圆/两RMS/边界和所有8批原读回身份已核，不将数值状态当完整非零场。只发表紧凑结论/来源，raw不入Git；131已从真实末九p准备，继续原科学源。132已push源185e4f3eb798fbca5fabab8ca928741cb4cd6446，run触发待读；130 compute132776702379正在原33科学步骤。
+
+### 2026-11-15 request131从实际129末九p继续
+
+[完整入口](notes/2026-11-15-actual129-final-nine-control-continuation131-interface.md)与三件参数/request/workflow已发布，root已读全部来源、原数字文字、完整差异与接口。recipe28acc474/request98d97b5a/workflow86551b13只改真正129最后成功批的九p及请求身份；原b15a/0865/824c/f57a、84+2/own26、原8×8/.1reset/3600s批间和全部FD/Arb/圆/final门不变。R291刚经实际pull/rebase后NFF立即再rebase推送成功为3e70c9af57f16593608979453c6a4dc21c45dd8d；双README未变。132实际run43702946191/source185e4f3e/job132777819446，10:12:29起所有恢复准备通过、step9科学执行；H压缩旧120/127重复数值，完整正文与open保留，无本地科学。

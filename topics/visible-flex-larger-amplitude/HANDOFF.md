@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:13:25 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 3adc02a82a76a8a0c60f15149a99b277f060be60；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3adc02a82a76a8a0c60f15149a99b277f060be60。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 10:14:20 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 0a3dc909323494fe68a051b87972c89d115b0c04；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0a3dc909323494fe68a051b87972c89d115b0c04。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -20,9 +20,9 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 ## 九控制真实搜索与完整非零场
 
-[127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)原8批64接受/130trial，W49.73979281434833→11.126800189953372，全final false/14接受inner tol=false/FD例外原记录保持，raw清。真末九p已分接128/129。
+[127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)真末九p已分别进入128/129，原完整数值/FD例外和raw删失边界保正文。
 
-[129 R291](results/R291-actual129-eight-nine-control-batches.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173，compute132773497339/report132774328966 success。8批64接受/171trial/107拒，fresh W11.126800189953256→6.426170559507028，unit首−3.5850158845837177，全部final仍false；20接受inner tol=false仍依原Armijo。后5批0域异常而首α1/32，完整8primary/64groups/8view已核，raw清。真第8末九p用于131原8批准备，不冒完整112/native接受。
+[129 R291](results/R291-actual129-eight-nine-control-batches.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173，compute132773497339/report132774328966 success。8批64接受/171trial/107拒，fresh W11.126800189953256→6.426170559507028，unit首−3.5850158845837177，全部final仍false；20接受inner tol=false仍依原Armijo。后5批0域异常而首α1/32，完整8primary/64groups/8view已核，raw清。真第8末九p进入[131入口](notes/2026-11-15-actual129-final-nine-control-continuation131-interface.md)：recipe28acc474/request98d97b5a/workflow86551b13，原b15a/0865/824c/f57a、84+2/own26/8×8/.1重置/全科学门不变，3600s批间/75science90job。push后核run，不冒完整112/native接受。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101与[runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保原00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128实际入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)已发布：真127第8末九p、λ=.001/fresh-circle，recipe739a2a00/request2ef24cc2/workflowdcdcfe05；110pins/29显式closure/原4输入+2ready+78源、300min单一deadline/330science/350job保持。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起step10science；无九正λ接受结果，不预接450。
 
@@ -32,9 +32,7 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 ## 原六H(s)与native方向
 
-[120实际](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)119第3真六p/λ=.001预检过，但首完整112H withJ在63.878s原D/S/A拒绝，lastIteration=null，无FD/fullDN/audit；87.784s非预算，不能称无解。
-
-[124入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48起，最近step10仍science。原e830/557f、103pins/四输入/两ready/78源；同worker真零→H(s)，首1/64，成功×2上限1/4，已绑定数学拒绝/2，最小2^-20/64calls/300min仅partial。noJ仍原Newton全J，s1复制原H_*词求全J→FD/fullDN/finalaudit；未知IPC/record不缩步或伪改last。第一zero不等于实际目标零。
+[124入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48起science。真119第3六p/λ=.001；原120首全H在D/S/A拒绝不证无解。e830/557f、103pins/四输入/两ready/78源；同worker真zero→H(s)，首1/64、成功×2上限1/4、绑定数学拒绝/2，2^-20/64calls/300min仅partial。s1取原H_*全词求全J→FD/fullDN/finalaudit；未知IPC/record不缩步，不由首zero冒实际目标为零。
 
 [113 R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)run43688981685：原stop128完整base→alpha1下降，refined未降，均未达2e−9；半步7200秒partial/norm空，随后原64十档全拒iteration0，无finalJ/audit。实际6943RK子步/1freshJ/1R273，raw清。exact实现持久128全状态/残差和原root策略，64 J只作明确近似chord；原32×10真实128接受、fresh replay/变分及cut/far/敏感度最终审计仍须实际付。
 
@@ -52,7 +50,7 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 [metric](notes/2026-11-15-same-shared-field-relative-metric-interface.md)a601保完整shared-B/Gram/四Loewner/材料pullback混合项、两尾/帽原target0，旧v3/v4之外九shape须真适配；不换B′/采样。[R285](results/R285-original-finite-selector-closed-cover.md)/65a29ec6证原48层first-match闭覆盖，但有限非恒定阶梯非连续，不冒g。
 
-[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)完整证明81d061a6：约定C、六共同primitive/真累计、q/D cusp消去、原准确深根族E二阶平圆领极限；内端cap/flat兼容与自然Rout不冒名义cut。[完整连续E生产器](notes/2026-11-15-stored-continuous-E-cover-interface.md)9aa0da45已发：全160×9/六积分/深根族/正速度/闭逆像及所有未付后缀，protected/finite join结构独立、严格宽界与工作精度分开。未选具体深根，不改旧finite语义，不预付a601/同场metric；[132实际入口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)已发：原三输入+78源、8当前pin/9公式源、whole-natural闭query、256bit/1800s工作/45science65job；request1b3d3348/query4fa2baa1/workflow35b4292b。push后核run，完整结果/query及全部未访后缀读取后清理。
+[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)完整证明81d061a6：约定C、六共同primitive/真累计、q/D cusp消去、原准确深根族E二阶平圆领极限；内端cap/flat兼容与自然Rout不冒名义cut。[完整连续E生产器](notes/2026-11-15-stored-continuous-E-cover-interface.md)9aa0da45已发：全160×9/六积分/深根族/正速度/闭逆像及所有未付后缀，protected/finite join结构独立、严格宽界与工作精度分开。未选具体深根，不改旧finite语义，不预付a601/同场metric；[132实际入口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)已发：原三输入+78源、8当前pin/9公式源、whole-natural闭query、256bit/1800s工作/45science65job；request1b3d3348/query4fa2baa1/workflow35b4292b。run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446/job132777819446已10:12:29起science；完整结果/query及全部未访后缀读取后清理。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真fullDN及自身final audited tail/config/port，完整physical/material/z0/mean→R249/sharedB/两帽。R274/R258 e372待同场非零见证；held可独立reach，但必须整个像/两帽/完整D。冻结g/全p/t再精化，有限phi不冒连续theta，数值不冒严格存在。
 
