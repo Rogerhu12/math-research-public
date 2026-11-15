@@ -182,7 +182,7 @@ $$
 所有权零函数不依赖被消去的共同非零微分尺度。
 
 $[41]$ 在特征零可分，所以原两个41挠点各有唯一形式延拓。
-可先用原41除法方程在 $r=1$ 的简单根作 Hensel 提升，
+可在 $r=1$ 的原简单41挠根作 Hensel 提升，
 再由曲线方程取常数项为1的 $v$。
 若第一点写成 $(r(\varepsilon),v(\varepsilon))$，
 第二点不需另做一次根选择：
@@ -193,6 +193,35 @@ Q(\varepsilon)=
 $$
 代入 (790.10) 以及唯一性即可证明它是原 $Q_*$ 的延拓。
 所有原标签 $aQ+bP$ 用同一形式群法生成。
+
+提升无需重新展开41除法多项式。
+对固定 $\varepsilon$，在 $r=1$ 附近取
+$$
+v(r)=\sqrt{(r^3+\varepsilon r+B_0)/d_0},\qquad v(1)|_{\varepsilon=0}=1,
+$$
+并用短倍点链计算
+$[40](r,v(r))=(r_{40},v_{40})$，令 $F(r)=r_{40}-r$。
+在原所求41挠分支上，$[40]P=-P$，故 $v_{40}=-v$。
+不变微分的恒等式 $[40]^*\omega_\varepsilon=40\omega_\varepsilon$ 给
+$$
+\frac{\partial r_{40}}{\partial r}=40\frac{v_{40}}v,
+\qquad F_r=-41
+\quad\text{在该根上，对全部 }\varepsilon\text{ 成立}.
+\tag{790.11a}
+$$
+因此若 $r$ 已准确至模 $\varepsilon^m$，则
+$$
+r_{\rm new}=r+F(r)/41\pmod{\varepsilon^{2m}}
+\tag{790.11b}
+$$
+将误差阶至少倍增。
+这是在真根处展开 $F(r)=-41(r-r_*)+O((r-r_*)^2)$ 的直接结论，
+不是以近似常数导数代替 Newton 步。
+倍点链可取 $1,2,4,5,10,20,40$；
+所有切线点都非二挠，唯一割线的 $4P$ 与 $P$ 不相等也不相反，
+故沿原分支所有分母都是单位。
+最后逐系数检查 $r_{40}=r$、$v_{40}=-v$，
+并把同一条准确倍点链的斜率用于 §5 的 $M_{40}$，不再重复这一已成阶段。
 
 这里须保留 Fourier 规范的六权负号。
 对格 $\Omega(\mathbb Z+\tau\mathbb Z)$，本篇统一定义
@@ -449,6 +478,128 @@ $$
 初始二阶 jet 中 $\delta=3sB_0+O(\varepsilon^3)$，更没有额外的平方根迭代。
 这项消去保留二标签的相对循环方向与原 $P_1$ 符号，不是将两种方向混为平均。
 
+### 6.1. 原 μ3 投影后，5040 项半迹准确压成两个 280 次域迹
+
+这一压缩作用于原 R775 的同一个半线性和，不更换选基。
+以 $\Phi_{\lambda,\mu}(\varepsilon)$ 记 (790.24)–(790.25) 已作完原模2三项循环和的值。
+其41部分按 (790.17) 取 $[21](aQ+bP)$，二部分仍取原标签的奇偶性。
+对原行标签 $(x,y)$，R771 的非分裂环面矩阵
+$$
+M(a,b)=\begin{pmatrix}a&-b\\b&a+b\end{pmatrix}
+$$
+准确对应乘以 $\alpha=(a+b)+b\zeta$：
+$$
+(ax+by)\zeta-bx+(a+b)y
+=\alpha(x\zeta+y),\qquad
+\det M(a,b)=N\alpha=a^2+ab+b^2.
+\tag{790.24a}
+$$
+原反射为
+$$
+F=\begin{pmatrix}-1&-1\\0&1\end{pmatrix}\pmod {41},
+\qquad F=I\pmod2.
+\tag{790.24b}
+$$
+它把 $x\zeta+y$ 变成 $x\zeta^2+y$，同时保持二标签；
+其行列式为 $-1$。
+这里矩阵是右作用于行标签，顺序不能反转。
+
+先在 $\Phi$ 中同时把两个41部分乘以 $\zeta$，而保持二标签。
+由 (790.11)、(790.14) 以及三项二标签的循环不变性，准确有
+$$
+\Phi_{\zeta R,\zeta S}(\varepsilon)
+=\zeta\Phi_{R,S}(\zeta\varepsilon).
+\tag{790.24c}
+$$
+该式也可逐项代入 (790.24) 核对：
+$r\mapsto\zeta r(\zeta\varepsilon)$、
+$v\mapsto v(\zeta\varepsilon)$、
+$e\mapsto\zeta^2e(\zeta\varepsilon)$，且
+$\delta(\zeta\varepsilon)=\delta(\varepsilon)$。
+二标签的共同循环已在 $\Phi$ 中求和，所以没有遗漏一个模2旋转。
+
+置 $c=3B_0/(8d_0)$。必须先定义完整的、正则的权零投影
+$$
+\mathcal P_{\lambda,\mu}(\varepsilon)
+=\frac{c}{\varepsilon^2}
+ \sum_{h=0}^2\zeta^h\Phi_{\lambda,\mu}(\zeta^h\varepsilon)
+=3c\sum_{k\ge0}\Phi_{3k+2}\varepsilon^{3k},
+\qquad \Phi_n=[\varepsilon^n]\Phi.
+\tag{790.24d}
+$$
+右端的负次项已由原三单位群的实际投影精确消去。
+所以它是该 CM 点附近对原粗参数正则的函数。
+不能在尚含 $\varepsilon^{-2},\varepsilon^{-1}$ 主部的
+$c\Phi/\varepsilon^2$ 上，直接把一个系数称为与框架无关的函数值。
+现在对正则函数 (790.24d) 取值及对原 $z=a-1$ 的导数，才得到内蕴量
+$$
+\mathcal P_{\lambda,\mu}(P_1)=3V_{\lambda,\mu},\qquad
+\frac{d\mathcal P_{\lambda,\mu}}{dz}(P_1)=3J_{\lambda,\mu},
+\tag{790.24e}
+$$
+$$
+V_{\lambda,\mu}=c\Phi_2,\qquad
+J_{\lambda,\mu}=-81B_0^2c\Phi_5.
+$$
+特别地，必须先乘 $-81B_0^2$ 才作后面的域迹；
+$\varepsilon$ 本身不是 Galois 固定的原粗参数。
+
+原 $G_{82}/\{\pm I\}$ 中，先分出模2的三项循环，
+再将非分裂正规化子写成 $T\sqcup FT$。
+每个 $T/\{\pm1\}$ 有840项；其三单位子群正是 (790.24d)，
+剩下 $T/\mu_6$ 有280项。
+R751 已证明 $\mathscr M=K(U)$ 是原41挠域的 $\mu_6$ 固定域，且
+$$
+\operatorname{Gal}(\mathscr M/K)=T/\mu_6,
+\qquad \sigma_\alpha(\xi)=\xi^{N\alpha}.
+\tag{790.24f}
+$$
+将原标记点换成 $[\alpha]P$，在同一个 $E_0$ 上比较权零函数，
+恰是 (790.24d) 的这个 Galois 作用。
+原二挠点在 $K$ 上、原 $P_1$ 的 eta 方向已固定；
+改用新标记点归一微分不会改变正则函数的值，
+也不会改变对原 $z$ 的导数。
+这一步用的是投影后的正则函数，而不是依赖标记点的裸变形系数。
+
+由 $\xi_{82}=-\xi^{21}$，$N\alpha$ 取其模82奇数提升时
+$\sigma_\alpha(\xi_{82})=\xi_{82}^{N\alpha}$。
+因此原 R775 recipe $(\lambda,\mu,j)$ 的两个真实输出准确为
+$$
+\boxed{
+\begin{aligned}
+\psi_{\lambda,\mu,j}(P_1)
+ &=3\operatorname{Tr}_{\mathscr M/K}
+ \bigl(\xi_{82}^{j}V_{\lambda,\mu}
+       +\xi_{82}^{-j}V_{\lambda F,\mu F}\bigr),\\
+\frac{d\psi_{\lambda,\mu,j}}{dz}(P_1)
+ &=3\operatorname{Tr}_{\mathscr M/K}
+ \bigl(\xi_{82}^{j}J_{\lambda,\mu}
+       +\xi_{82}^{-j}J_{\lambda F,\mu F}\bigr).
+\end{aligned}}
+\tag{790.24g}
+$$
+反射项的负指数来自 $\det F=-1$；它只改变41部分的标签，
+不能把两个二标签也复共轭。
+计数为 $3\cdot280\cdot3\cdot2=5040$，
+恰等于原40个 determinant coset 各126项的和，
+没有加入除以群阶的平均。
+所以 (790.24g) 的 $K$ 值是原函数的真实下降，不是把不下降的数据强制取平均。
+
+若 $P(U)$ 是原首一280次模数，迹还可直接用
+$$
+\operatorname{Tr}_{\mathscr M/K}(v)
+=[U^{279}]\bigl(v(U)P'(U)\bmod P(U)\bigr),
+\qquad \deg v<280,
+\tag{790.24h}
+$$
+分别作用于 $1,\zeta$ 的两个有理系数多项式。
+该式由 $P$ 的 Lagrange 插值或各单根的部分分式立即得出，
+不需重新生成280个 Galois 自同构。
+原146条 M2 recipe 实际只用了12个种子，因而先算每种子的
+两个反射方向，共24对的五阶 jet，再作146个上述准确迹即可。
+R786 保存的是 $82^2T$；后继输出须同时把本式的值和导数乘以 $82^2$，
+这样五次乘积的原 $82^{10}$ 尺度也逐项保持。
+
 ## 7. 实际计算的最小输入与分阶段边界
 
 新的 CM 核心可以独立于 R787 的线性求解，先生成原146个 $T_j$ 的
@@ -463,9 +614,11 @@ $\mathcal T_j\bmod\varepsilon^6$，继而由 (790.13) 给全部 $\psi_j(P_1)$
 
 旧模数、Weil pairing、原标签和已成选基不重算。
 新算术只是在同一字段上生成尚缺的 CM 变形/求值。
-每个 $T_j$ 必须准确核两项框架零，
-其 $\psi_j(P_1)$ 还应按原 $P_1\in Y(K)$ 检查确落在 $K$，
-不能靠平均或数值识别强制下降。
+每个原三单位投影必须准确核两项框架零；
+§6.1 用整个原半迹的分组恒等式生成 $K$ 值及 $K$ 粗导数，
+不以平均一个任意候选或数值识别替代下降。
+输出须记录原 recipe、全部相位、$82^2$ 尺度、
+对原 $z$ 的导数以及所消费原阶段的 SHA。
 
 R787 的实际整数 $L$ 坐标返回后，先把这些真实 $\psi_j(P_1)$
 按旧五次 recipes 相乘并代入 $\widetilde A,\widetilde B$。

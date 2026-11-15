@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：3c68957239d767f8b23bc8609d9fe975d18deb30**（2026-11-15 06:45 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：4df2cab748aba05877f9a7dfdb3b458863a3e75b**（2026-11-15 06:53 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -24,7 +24,7 @@
 
 ## 原CM与原同态新续点
 
-**R790已证明、CM数值待计算**：原ψ=T E6/E4²去阶3椭圆点的框架零；g_star∈ΓY使权零值在ζ直接求，X原h运输仍保。任意原A=yB的共同粗零阶≤154，155项给y值、156项给一阶；原变形z=a−1=−ε³/(81B0²)+O(ε⁶)。E6_alg=−c6和eta_alg=−4d0³δ已核，完整非CM zeta完成化后才用41倍加法。原C3迹显式消二挠扩域，先算146原ψ至ε³，复用旧5文件；不预称y/β/高度。证明SHA e7de066140abbffc708599b14a2890cdd09000d44c2694d5b9a70c48c5740c30。
+**R790已证明、CM数值待计算**：原ψ=T E6/E4²去阶3椭圆点的框架零；g_star∈ΓY使权零值在ζ直接求，X原h运输仍保。任意原A=yB的共同粗零阶≤154，155项给y值、156项给一阶；原变形z=a−1=−ε³/(81B0²)+O(ε⁶)。E6_alg=−c6和eta_alg=−4d0³δ已核，完整非CM zeta完成化后才用41倍加法。原C3迹消二挠扩域；先μ3正则投影再取值/粗导数，5040项压成两个280次域迹，12种子仅24对ε5 jets。原40P=−P根上F_r=−41，r↦r+F/41倍增提升；旧模数/ξ/标签/recipes不重算。82²尺度保留，CM数值待公开core。证明SHA 4f4014ae49c109d9fc1f20916a95948a431975e4fad98fc0fb0b0d9abe89b8bd。
 
 **R791原Hom/Galois/η输入公开工程已就绪，待实际run**：core11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d，真实R754/R759及R748首jets。计算Tγ阶21、共轭/Gram、原实下降、κ·v†v及全部五维F⁰，不设κ1；保η=(1/3)原y极除子组合。并准确收缩原12微分的h(c1)，index4非零时原y一阶足以定x。未运行前不预填矩阵/次数/非零，极除子/η/高度仍未算。方法与请求见R791独立文件。
 
