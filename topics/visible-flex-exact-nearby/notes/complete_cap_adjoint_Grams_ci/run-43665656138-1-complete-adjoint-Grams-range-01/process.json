@@ -33,7 +33,9 @@
         "/__w/_temp/complete-adjoint-range-01-output/native/complete7908-cap-adjoint-Grams-range-01.json.gz"
       ],
       "started_utc": "2026-11-15T02:05:22.518023+00:00",
-      "actual_returncode": null
+      "actual_returncode": 0,
+      "wall_seconds": 999.189839716,
+      "finished_utc": "2026-11-15T02:22:01.708300+00:00"
     }
   ],
   "readme_checks": [
@@ -132,6 +134,30 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:22:05.380964+00:00",
+      "before": "e66f6e377885193ad73ba28d9b150cf49edc8c20",
+      "after": "225256311627b55b2b0100a90b03eed63d661b17",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:22:07.827250+00:00",
+      "before": "225256311627b55b2b0100a90b03eed63d661b17",
+      "after": "8cfa837341d3da27d46b5bbb4baf1b7230ea4a7f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:22:09.920822+00:00",
+      "before": "8cfa837341d3da27d46b5bbb4baf1b7230ea4a7f",
+      "after": "e04e28f769bdabcb855b17492e3e24e0e9bdf8f0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -139,6 +165,11 @@
       "time": "2026-11-15T02:05:22.511724+00:00",
       "final": false,
       "commit": "1bc2549482ac918445cb31b61860ec9b9c9968e2"
+    },
+    {
+      "time": "2026-11-15T02:15:31.695639+00:00",
+      "final": false,
+      "commit": "00228a90908f519e22d887ea3bc8328f6f631921"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -183,7 +214,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "e66f6e377885193ad73ba28d9b150cf49edc8c20",
+  "last_read_commit": "e04e28f769bdabcb855b17492e3e24e0e9bdf8f0",
   "immutable_scientific_copy": "/__w/_temp/complete-adjoint-range-01-work/science",
   "plan_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
   "exact_recovery_scope": {
@@ -202,8 +233,8 @@
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
     "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc"
   },
-  "snapshot_utc": "2026-11-15T02:15:27.504736+00:00",
-  "wall_seconds": 631.8633905199999,
+  "snapshot_utc": "2026-11-15T02:22:05.473452+00:00",
+  "wall_seconds": 1029.832107164,
   "native_files": [
     {
       "logical_file": "evidence/actual-complete32-slice-plan-process.json",
@@ -214,8 +245,8 @@
     {
       "logical_file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
-      "bytes": 3205,
-      "sha256": "d25bbe0fa93578497b31da0b8368c37ea9b522396fec76dc837a68f8052abd34"
+      "bytes": 3456,
+      "sha256": "c05d45049fb62105994216159d5526f4796da6289d2aedd3664bfdcf4d376167"
     },
     {
       "logical_file": "evidence/original-artifact-downloads/14141144478.json",
@@ -232,11 +263,11 @@
     {
       "logical_file": "native/complete7908-cap-adjoint-Grams-range-01.json.gz",
       "file": "native/complete7908-cap-adjoint-Grams-range-01.json.gz",
-      "bytes": 1016508,
-      "sha256": "2f4d94ae470dd11f573f13b4f47ecebd4e5055ded221f2a658b72846b9652263"
+      "bytes": 1677997,
+      "sha256": "872177c4121b106de50fa3e9294a7d5968651ad5425b89fafb140c26745cbaa2"
     }
   ],
   "actual_completed_bundles": 0,
-  "actual_completed_quarters": 150,
-  "latest_scientific_native_sha256": "2f4d94ae470dd11f573f13b4f47ecebd4e5055ded221f2a658b72846b9652263"
+  "actual_completed_quarters": 248,
+  "latest_scientific_native_sha256": "872177c4121b106de50fa3e9294a7d5968651ad5425b89fafb140c26745cbaa2"
 }
