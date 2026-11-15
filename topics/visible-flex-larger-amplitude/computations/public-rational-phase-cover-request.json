@@ -1,0 +1,196 @@
+{
+  "schema": "R281-request111-exact-projective-phase-cover-execution-v1",
+  "request_number": 111,
+  "repository": "Rogerhu12/math-research-public",
+  "workflow": ".github/workflows/visible-larger-public-rational-phase-cover.yml",
+  "request_path": "topics/visible-flex-larger-amplitude/computations/public-rational-phase-cover-request.json",
+  "proof": "topics/visible-flex-larger-amplitude/results/R281-exact-rational-phase-disjunction-and-finite-cover.md",
+  "proof_sha256": "112d49e942c4a6728baf7f683d53dedf04a63f5efc4786c9e2b02a111cc0d6ee",
+  "source_pins": {
+    "geometry_20261115_rational_phase_cover.py": "f6214d1dc66f9890e99f5d9bbbc93fa0e6524acd6ac879f0058ea023ebc17537",
+    "geometry_20261115_joint_phase_normal_balls.py": "c5548f28bfe56a283403a7d16e1879c1c1243d0a0bc80761586fe50e1aec1466",
+    "root_mixed_phase_normal_balls.py": "ecea0ef58aa5755270807596da5512552ac52fab27e90492fcf85fab095716c6"
+  },
+  "readme_git_blobs": {
+    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "python_version": "3.12.14",
+  "sqrt_bits": 128,
+  "max_cells": 16,
+  "input": {
+    "cases": [
+      {
+        "name": "distance-and-normal-switch-across-projective-charts",
+        "moving_position": [
+          1,
+          0,
+          0
+        ],
+        "fixed_position": [
+          "1/2",
+          0,
+          2
+        ],
+        "moving_normal_centre": [
+          "-3/5",
+          0,
+          "4/5"
+        ],
+        "fixed_normal_centre": [
+          "3/5",
+          0,
+          "4/5"
+        ],
+        "moving_position_radius": 0,
+        "fixed_position_radius": 0,
+        "moving_normal_radius": 0,
+        "fixed_normal_radius": 0,
+        "tau": "6/5"
+      }
+    ]
+  },
+  "executions": [
+    {
+      "label": "complete-depth2",
+      "max_depth": 2,
+      "output_file": "complete-depth2.json",
+      "expected": {
+        "legacy_full_circle_certificate_pass": false,
+        "phase_cover_performed": true,
+        "complete_strict_phase_cover": true,
+        "all_phase_distance_or_no_double_normal_pass": true,
+        "processed_cells": 8,
+        "split_cells": 3,
+        "terminal_leaves": 5,
+        "certified_leaves": 5,
+        "unresolved_leaves": 0,
+        "maximum_processed_depth": 2,
+        "original_full_circle_normal_chord_pass": false,
+        "u_root_normal_distinct_real_roots": 1
+      },
+      "expected_leaves": [
+        {
+          "chart": "t",
+          "path": "",
+          "closed_interval": [
+            "-1",
+            "1"
+          ],
+          "depth": 0,
+          "certified": true,
+          "selected_gate": "moving"
+        },
+        {
+          "chart": "u",
+          "path": "00",
+          "closed_interval": [
+            "-1",
+            "-1/2"
+          ],
+          "depth": 2,
+          "certified": true,
+          "selected_gate": "moving"
+        },
+        {
+          "chart": "u",
+          "path": "01",
+          "closed_interval": [
+            "-1/2",
+            "0"
+          ],
+          "depth": 2,
+          "certified": true,
+          "selected_gate": "distance"
+        },
+        {
+          "chart": "u",
+          "path": "10",
+          "closed_interval": [
+            "0",
+            "1/2"
+          ],
+          "depth": 2,
+          "certified": true,
+          "selected_gate": "distance"
+        },
+        {
+          "chart": "u",
+          "path": "11",
+          "closed_interval": [
+            "1/2",
+            "1"
+          ],
+          "depth": 2,
+          "certified": true,
+          "selected_gate": "moving"
+        }
+      ]
+    },
+    {
+      "label": "limited-depth1",
+      "max_depth": 1,
+      "output_file": "limited-depth1.json",
+      "expected": {
+        "legacy_full_circle_certificate_pass": false,
+        "phase_cover_performed": true,
+        "complete_strict_phase_cover": false,
+        "all_phase_distance_or_no_double_normal_pass": false,
+        "processed_cells": 4,
+        "split_cells": 1,
+        "terminal_leaves": 3,
+        "certified_leaves": 1,
+        "unresolved_leaves": 2,
+        "maximum_processed_depth": 1,
+        "original_full_circle_normal_chord_pass": false,
+        "u_root_normal_distinct_real_roots": 1
+      },
+      "expected_leaves": [
+        {
+          "chart": "t",
+          "path": "",
+          "closed_interval": [
+            "-1",
+            "1"
+          ],
+          "depth": 0,
+          "certified": true,
+          "selected_gate": "moving"
+        },
+        {
+          "chart": "u",
+          "path": "0",
+          "closed_interval": [
+            "-1",
+            "0"
+          ],
+          "depth": 1,
+          "certified": false,
+          "selected_gate": null
+        },
+        {
+          "chart": "u",
+          "path": "1",
+          "closed_interval": [
+            "0",
+            "1"
+          ],
+          "depth": 1,
+          "certified": false,
+          "selected_gate": null
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "new_conditional_analytic_case_only": true,
+    "old_fixture_files_read": false,
+    "current_field_or_native_or_BVP_run": false,
+    "finite_budget_failure_is_geometric_failure": false,
+    "full_surface_or_actual_reach_certified": false,
+    "proof_registration_waits_for_this_run": false,
+    "raw_artifact_or_Release_upload": false,
+    "Git_mutation": false
+  },
+  "output_policy": "Runner-temporary complete records; only compact log/step summary with sources, recipe, input/output SHA and real run."
+}

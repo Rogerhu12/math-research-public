@@ -106,3 +106,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### R281 已证明并实现，接111实际换门案例
 
 [R281完整证明](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)已直接登记：两张RP1图保π，以degree4补齐反序；四门OR逐闭区间作准确Sturm，偶重内部零、共享端点和全部未付叶均完整。严格逐相位可付保证有限dyadic层完成。新解析配置旧整圆距离/两端/joint均未付，理论五叶depth2换门完成；111在公开Actions验证这一新案例与depth1预算未付语义，非新增审批门。真实闭场、球预算、空间块全覆盖仍未有。
+
+111已提交[独立执行接口](notes/2026-11-15-request111-rational-phase-cover-execution-interface.md)：同一新解析配置sqrt128/cells16，分别depth2与depth1，保旧四全圆fail及u根内部偶重根的准确Sturm计数。requestee9d115d/workflow7f5ff780，三源固定，实际run待回读；无旧fixture或实际场、无raw保存，不等本例才登记证明。

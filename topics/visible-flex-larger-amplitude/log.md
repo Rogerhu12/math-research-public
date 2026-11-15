@@ -17,3 +17,7 @@
 ## 2026-11-15 06:19:35 UTC /root — R281 两有理图连续换门定理
 
 [完整证明](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)及sourcef6214d1d直接登记索引。根已读完整证明与源码：两闭图齐次反序保π、Sturm严格正性保内部偶重根、四门OR、完整BFS叶分区与严格余量有限终止均明确。新解析例在t图整叶、u图四叶以移动端/距离换门，旧整圆门均失败。仅源码/AST，未本地科学；111准备实际depth2/depth1比较，当前未有闭面/reach。并修103笔记tol公式中一次字符串转义造成的制表符。
+
+## 2026-11-15 06:20:58 UTC /root — request111 相位换门与不足预算
+
+R281已在f465f468正式登记。本轮只执行唯一新解析配置的depth2/depth1两预算，分别预期完整五叶与两未付叶，并直接报告u根内部偶重根。root已读workflow/request/接口全文，source/math未更改；三源固定，job10min，contents只读，无旧场/raw上传或Git写，实际科学只在公开Actions。requestee9d115d/workflow7f5ff780；结果待读。

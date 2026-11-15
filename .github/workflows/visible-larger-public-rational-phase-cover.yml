@@ -1,0 +1,180 @@
+name: visible-larger R281 exact rational phase cover
+'on':
+  push:
+    branches:
+      - main
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-rational-phase-cover-request.json
+permissions:
+  contents: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-r281-rational-phase-cover
+  cancel-in-progress: false
+jobs:
+  phase_cover:
+    name: Exact two-chart switching and explicit insufficient-budget readout
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      R281_COMP: topics/visible-flex-larger-amplitude/computations
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_rational_phase_cover.py
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_joint_phase_normal_balls.py
+            /topics/visible-flex-larger-amplitude/computations/root_mixed_phase_normal_balls.py
+            /topics/visible-flex-larger-amplitude/computations/public-rational-phase-cover-request.json
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Bind the three frozen sources and the new analytic case
+        run: |
+          python - <<'PYBIND'
+          import ast, hashlib, json, os, subprocess
+          from pathlib import Path
+          comp=Path(os.environ['R281_COMP'])
+          recipe_raw=(comp/'public-rational-phase-cover-request.json').read_bytes()
+          assert hashlib.sha256(recipe_raw).hexdigest()=='ee9d115df498362d48507a7ee89a5f6be6345619fcb1eec611e8a2feaec8ffe7'
+          recipe=json.loads(recipe_raw)
+          assert recipe['request_number']==111
+          assert recipe['repository']==os.environ['GITHUB_REPOSITORY']=='Rogerhu12/math-research-public'
+          assert recipe['sqrt_bits']==128 and recipe['max_cells']==16
+          assert [row['max_depth'] for row in recipe['executions']]==[2,1]
+          for path,expected in recipe['readme_git_blobs'].items():
+              actual=subprocess.check_output(['git','rev-parse','HEAD:'+path],text=True).strip()
+              if actual!=expected:
+                  raise RuntimeError('README changed; read updated rules before computation: '+path)
+          for name,expected in recipe['source_pins'].items():
+              assert Path(name).name==name
+              raw=(comp/name).read_bytes()
+              assert hashlib.sha256(raw).hexdigest()==expected
+              compile(ast.parse(raw,filename=name),name,'exec')
+          temporary=Path(os.environ['RUNNER_TEMP'])/'r281-request111'
+          temporary.mkdir()
+          raw=(json.dumps(recipe['input'],indent=2,allow_nan=False)+'\n').encode()
+          (temporary/'input.json').write_bytes(raw)
+          print(json.dumps(dict(event='R281-111-sources-and-case-bound',
+              recipe_sha256=hashlib.sha256(recipe_raw).hexdigest(),
+              input_sha256=hashlib.sha256(raw).hexdigest(),
+              source_pins=recipe['source_pins'],AST_only_so_far=True,
+              old_fixture_files_read=False)))
+          PYBIND
+      - name: Execute the complete depth-two phase cover
+        timeout-minutes: 5
+        run: |
+          python -u "$R281_COMP/geometry_20261115_rational_phase_cover.py" \
+            --input "$RUNNER_TEMP/r281-request111/input.json" \
+            --out "$RUNNER_TEMP/r281-request111/complete-depth2.json" \
+            --sqrt-bits 128 --max-depth 2 --max-cells 16
+      - name: Execute the deliberately insufficient depth-one budget
+        timeout-minutes: 5
+        run: |
+          python -u "$R281_COMP/geometry_20261115_rational_phase_cover.py" \
+            --input "$RUNNER_TEMP/r281-request111/input.json" \
+            --out "$RUNNER_TEMP/r281-request111/limited-depth1.json" \
+            --sqrt-bits 128 --max-depth 1 --max-cells 16
+      - name: Emit exact compact phase partitions and hashes without raw upload
+        run: |
+          python - <<'PYREPORT'
+          import hashlib, json, os, sys
+          from pathlib import Path
+          comp=Path(os.environ['R281_COMP'])
+          temporary=Path(os.environ['RUNNER_TEMP'])/'r281-request111'
+          recipe_raw=(comp/'public-rational-phase-cover-request.json').read_bytes()
+          recipe=json.loads(recipe_raw)
+          input_raw=(temporary/'input.json').read_bytes()
+          reports,failures=[],[]
+          leaf_keys=('chart','path','closed_interval','depth','certified','selected_gate')
+          count_keys=('processed_cells','split_cells','terminal_leaves','certified_leaves',
+                      'unresolved_leaves','maximum_processed_depth')
+          for execution in recipe['executions']:
+              assert Path(execution['output_file']).name==execution['output_file']
+              raw=(temporary/execution['output_file']).read_bytes()
+              result=json.loads(raw)
+              assert result['schema']=='R281-exact-rational-two-chart-phase-cover-v1'
+              assert result['source_sha256']==recipe['source_pins']['geometry_20261115_rational_phase_cover.py']
+              assert result['frozen_R280_source_sha256']==recipe['source_pins']['geometry_20261115_joint_phase_normal_balls.py']
+              assert result['frozen_R62_source_sha256']==recipe['source_pins']['root_mixed_phase_normal_balls.py']
+              assert result['input_sha256']==hashlib.sha256(input_raw).hexdigest()
+              assert result['max_depth']==execution['max_depth'] and result['max_cells']==16
+              assert result['complete_case_count']==len(result['complete_records'])==1
+              case=result['complete_records'][0]
+              assert case['exact_input']==recipe['input']['cases'][0]
+              cover=case['phase_cover']
+              roots=[row for row in cover['complete_split_records']
+                     if row['chart']=='u' and row['path']=='']
+              root_normal_roots=(roots[0]['exact_gate_tests']['moving']['distinct_roots_in_open_interval']
+                                 if len(roots)==1 else None)
+              actual=dict(
+                  legacy_full_circle_certificate_pass=case['legacy_full_circle_certificate_pass'],
+                  phase_cover_performed=cover['performed'],
+                  complete_strict_phase_cover=cover['complete_strict_phase_cover'],
+                  all_phase_distance_or_no_double_normal_pass=case['all_phase_distance_or_no_double_normal_pass'],
+                  original_full_circle_normal_chord_pass=
+                      case['complete_original_R280_record']['original_normal_chord_pass_retained_separately'],
+                  u_root_normal_distinct_real_roots=root_normal_roots,
+                  **{key:cover[key] for key in count_keys})
+              leaves=[{key:row[key] for key in leaf_keys}
+                      for row in cover['complete_terminal_partition']]
+              selected_evidence=[]
+              for row in cover['complete_terminal_partition']:
+                  gate=row['selected_gate']
+                  selected_evidence.append(dict(chart=row['chart'],path=row['path'],
+                      reason=row['reason'],selected_gate=gate,
+                      exact_selected_gate_test=(row['exact_gate_tests'][gate] if gate else None)))
+              match=actual==execution['expected'] and leaves==execution['expected_leaves']
+              if cover['unresolved_means_geometric_failure'] is not False:
+                  match=False
+              if not match:
+                  failures.append(dict(label=execution['label'],expected=execution['expected'],
+                      expected_leaves=execution['expected_leaves'],actual=actual,actual_leaves=leaves))
+              reports.append(dict(label=execution['label'],actual=actual,
+                  legacy_alternatives=case['legacy_full_circle_alternatives'],
+                  leaves=leaves,selected_evidence=selected_evidence,
+                  u_root_tests=(roots[0]['exact_gate_tests'] if len(roots)==1 else None),
+                  matches_analytic_partition=match,
+                  full_output_bytes=len(raw),full_output_sha256=hashlib.sha256(raw).hexdigest(),
+                  finite_budget_failure_is_geometric_failure=False))
+          compact=dict(schema='R281-request111-actual-compact-phase-cover-readout-v1',
+              run_id=os.environ['GITHUB_RUN_ID'],run_attempt=os.environ['GITHUB_RUN_ATTEMPT'],
+              source_commit=os.environ['GITHUB_SHA'],repository=os.environ['GITHUB_REPOSITORY'],
+              python_version=sys.version.split()[0],source_pins=recipe['source_pins'],
+              recipe_sha256=hashlib.sha256(recipe_raw).hexdigest(),
+              input_sha256=hashlib.sha256(input_raw).hexdigest(),
+              executions=reports,analytic_comparison_failures=failures,
+              both_execution_results_match_analytic_case=not failures,
+              phase_sampling_used=False,old_fixture_files_read=False,
+              full_surface_certified=False,actual_reach_certified=False,
+              native_BVP_RHS_J_ODE_calls=0,raw_artifact_or_Release_uploads=0,
+              proof_registration_waits_for_this_run=False)
+          encoded=(json.dumps(compact,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n').encode()
+          print('BEGIN_R281_111_COMPACT_RESULT')
+          print(encoded.decode(),end='')
+          print('END_R281_111_COMPACT_RESULT')
+          print(json.dumps(dict(event='R281-111-compact-readout-sha256',
+              bytes=len(encoded),sha256=hashlib.sha256(encoded).hexdigest())))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as stream:
+              stream.write('# R281 request111 exact phase cover\n\n')
+              for row in reports:
+                  a=row['actual']
+                  stream.write('- '+row['label']+': certified leaves='+str(a['certified_leaves'])
+                      +', unresolved='+str(a['unresolved_leaves'])
+                      +', complete phase cover='+str(a['complete_strict_phase_cover'])
+                      +', matches analytic partition='+str(row['matches_analytic_partition'])+'.\n')
+              stream.write('\nUnresolved means only this finite certificate budget was insufficient; '
+                  'no geometric failure or surface reach claim. Complete raw results are not uploaded.\n')
+          if failures:
+              raise SystemExit('An exact phase partition differs from the declared analytic case; all compact actual diagnostics were emitted above.')
+          PYREPORT
