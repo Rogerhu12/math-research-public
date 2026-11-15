@@ -1,0 +1,60 @@
+name: Serre R787 projective ended search IO review
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R787_projective-public-ended-IO-request.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: serre-R787-projective-ended-IO
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R787_projective_ended_IO.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R787_projective-public-ended-IO-request.json
+            /.github/workflows/serre-R787_projective-ended-IO.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse IO-only source files
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root=Path("topics/serre-uniformity/scripts")
+          for name in ("R787_projective_ended_IO.py","R824_public_original_global_polar_generators.py"):
+              path=root/name
+              ast.parse(path.read_text(),filename=str(path))
+              print("AST_OK",name)
+          PY
+      - name: Read the actual ended run metadata without new mathematics
+        run: |
+          python topics/serre-uniformity/scripts/R787_projective_ended_IO.py \
+            --request topics/serre-uniformity/notes/R787_projective-public-ended-IO-request.json \
+            --output "$RUNNER_TEMP/R787-projective-ended-IO/output"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-R787-projective-ended-IO-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R787-projective-ended-IO/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn

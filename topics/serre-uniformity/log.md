@@ -372,3 +372,9 @@
 - projective run43745966802真实71.023573757秒exit2，有限候选耗尽、非节点预算、准确验算0阶；全manifest及1380输入SHA通过，结束note保存真实artifact/core/cert pins。固定候选失败不证430不足，先纯IO读拒绝原因，原同核Dixon继续。
 - 旧9783B H逐字归档并压缩；后继R792/R809未激活，原R815端点仍待真实产物。没有把workflow容错compute的success当关系成功，机器文件只在一日artifact。
 - 2026-11-15T18:28:08.763208+00:00实际pull/read 1692bdab69be514541aa37d4f898cd45d21ba837，两README无diff；主目标OPEN。
+
+
+### 2026-11-16 02:32（Asia/Taipei）｜serre-public-astra-20261115
+- 原projective ended纯IO脚本11571B/3332e864、请求d0c6f96d已核并激活；只Range核33文件中的非carrier输出，重用原验证的1380输入身份，不重下载189MB载体、不执行LLL或新数学。
+- 新增本课题.github/workflows/serre-R787_projective-ended-IO.yml用于读真实矩形/节点拒因及队列；一日artifact、contents/actions只读，实际AST在同次工作流首步。主目标OPEN。
+- 2026-11-15T18:31:02.705045+00:00实际pull/read 965985c273ed558baf769f0b48d12f289f0fa5f0，两README无diff。
