@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 13ab0c02ddba5946bc27c89ea9955341ad11a163（2026-11-15 22:47:29 UTC，Actions run43771226548实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43771226548-1.json。
+- **最近成功实际 pull 与已读规则提交：** 2acee7e26ed76438fd707e19f3241c8fec0cb8cd（2026-11-15 22:50:58 UTC，Actions run43771544662实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43771544662-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -49,4 +49,5 @@
 - **[实际低forcing正Gram](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** 真尾删除交叉正，DαZ=MαDZ/ΣMα≤I；完整creation行≤4I/3，双缺陷行≤8I/3并保GΔ/全部交叉，无Q或头维损失。原V不自动C不变；不把帽列认作ZR，顺次MP仍开。
 - **[连续尾势/源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z保全部碰撞；配置势夹在(1/3)Σ(i+n+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}完整源逆读数≤3(L+r+1)³/p；同u须联合(De,Dk)加2，不换Du/环境D†。
 - **[joined来源](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)与[同u coherent代表](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)：** 保Mq全高旗/零源与P p(D*)i0=Zp(−C*)的原同余，G≤Hcoh^-1。Q≥R+h−1时fcoh=Rcoh Hcoh^-1g是真vac来源的正交投影，原VQ/KQ/u全不变；总norm不增。整残量恰逐层占据方差，h≤2x时平方≤54x^-3||g||²；Ei fcoh非零须保留，不换较小defect套旧双正性，不付完整Green/帽逆。
+- **[原相干列随机池原像](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)：** Dq=ω−r全物理等式，||q||/最低费≤Sx/Sx+k+1，残量≤e^(−Sx+k/zx)||ω||；保全层12·512^k修复，k=o(x)时完整MP渐近最优。同fcoh低j一次D†残量趋零，全height及真实返回仍开。
 - 此正预算不付返回列、Feshbach逆或顺次MP相对位置负部。共同热/预解保D/C/cut/核旗/自然域；仅primitive f的L*Tf∈kerD³由[相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)、额外F2/全部partial；actual u/Tu表示仍开，L_U*u=−B*k不倒置。G_reg同forcing/carry、Haar普通循环性、正常有限秩链及open全部旧接口继续。
