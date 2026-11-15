@@ -42,3 +42,5 @@
 - [R667：原十一维核的可见单位质量与七来源完整S5消元](../results/R667-original-kernel-visible-mass-and-seven-source-contraction.md)：同一九行整核中构造实际δq，完整π4推前恒零，而其共同二阶质量在同ray相对密度一子族全N4有vδJ=−2N；两η固定函数/整提升全部保留。七个总S5矩给有限n的两个真实S共同域，原T混合cut、浅补域和外部准确补偿非零负一深支；未新增中央零。
 
 - [R668：原双S浅环带的四轴返回、实际递推与全外部词](../results/R668-original-double-s-shallow-annuli-and-exterior-words.md)：四Y全部交集/真实五词外部付清；Γ内E浅恰原A/Q/L/c/d/W同浅，正层q迫D*深并用完整四轴返回。固定剩余深度的原权对κ^j至多六次，S七阶递推及T同cut完整log级数均准确；保第零层、所有质量和原Y外部，不添中央零。
+
+- [R669：两原S共同来源的完整六维返回与双深度递推](../results/R669-original-double-s-six-dimensional-source-return.md)：七条件A源和完整pair通过零交叉Gaussian算子准确合回Ξ_j=σ34x^(17−3j)六基；原≤36次矩单位三角恢复全系数，对κ^N、κ^(n−N)各至多六次。固定N的七根λ²κ^a及固定差深度的七根λ16κ^(4h)为真实来源递推；原JS与全浅/外部同六观察返回，未新增中央零。

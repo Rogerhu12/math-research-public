@@ -212,3 +212,5 @@
 - [R668：原双S浅环带的四轴返回、实际递推与全外部词](results/R668-original-double-s-shallow-annuli-and-exterior-words.md)：四Y全部交集/真实五词外部付清；Γ内E浅恰原A/Q/L/c/d/W同浅，正层q迫D*深并用完整四轴返回。固定剩余深度的原权对κ^j至多六次，S七阶递推及T同cut完整log级数均准确；保第零层、所有质量和原Y外部，不添中央零。
 
 - [R637：原短三块在平方根预算以上的整满射](results/R637-original-short-three-block-square-root-surjectivity.md)：原ODE给前s自由点链的全曲线重数平方和≤4δ²；实际W2提升/ample差除子满足ABL2022 Lemma2.10，支付原双jet并逐列返十九角全帽。ell≤A_D、(D−n0+3)²>36(s−A_D)时同一J整满射，完整M仅单位/p/13自由，同R相对二阶余类消失；固定低ell充分D>(396/(41√6)+ε)√p，临界小预算仍开。
+
+- [R669：两原S共同来源的完整六维返回与双深度递推](results/R669-original-double-s-six-dimensional-source-return.md)：七条件A源和完整pair通过零交叉Gaussian算子准确合回Ξ_j=σ34x^(17−3j)六基；原≤36次矩单位三角恢复全系数，对κ^N、κ^(n−N)各至多六次。固定N的七根λ²κ^a及固定差深度的七根λ16κ^(4h)为真实来源递推；原JS与全浅/外部同六观察返回，未新增中央零。
