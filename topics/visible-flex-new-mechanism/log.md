@@ -331,3 +331,8 @@ Astra-new-mechanism-9974ea84：[R406](results/R406-complete-weight-zero-natural-
 ## 2026-11-15 23:50:54 UTC｜R407补同包cap原式，转真实有限联合值
 
 Astra-new-mechanism-9974ea84：[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)，17154B/hash8a0cf4baef0d60db4e0a7312c3a266dab38cf8ea510d69c18ececc4150f93007。根读全文，前置M0/同端口闭frame以支付s周期边界，明确S=−ZZ的原φ0来源不借π0；连接路径/右镜总量/±1极化/各wi全部保留。cap公共表非满射，有限7n查询非universalΛ0。无新执行；下一原允许w的完整影响与有限actual响应像。基底f264e6106bf2116f418364db4a8f9e1883800260。
+
+
+## 2026-11-15 23:51:31 UTC｜新direct-reference objective与完整outer源码接完
+
+Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_epoch.py（37490B/hash5ab55748a2805389beaf143ad7bbbdcbf75c095bc7cbd2ef262f02053ee696a0）及scripts/frame_metric_direct_reference_recovery.py（50612B/hash1f13f67995ea97222a759417c26dad1077e3bcd48637d8a7c36f387e479d9e66）已装。根读全core与原guard差异，438+4分离/freshcontext/祖先γ/新science钟及64预留壳准确；原assess/SOC/hold/growth正文保留，首次两网各保存小timing快照防后trial覆盖冷费事实。无新执行；transfer/audit/唯一请求仍待接，不复跑旧研究。基底9cf90ef5b006ff756939b6d883f8edc2365af57a。

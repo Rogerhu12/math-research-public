@@ -170,7 +170,7 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 
 ### 直接reference求值已源码闭合，准备最小新接口
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)证明SingleQ只用base三字段；新模块直接用原metric、height_jets、固定同锚primitive和九高度积分，保完整当前角场/二阶jets/原163→159J。原被覆盖查询积分及四角未用几何被准确删除，不把205.4483s全归于它们。新ordinary SHA诚实变更；原g/b0/坐标不变。旧epoch active241.314203844>120/LP仍10，不能续m7。[同进程迁移与新预算](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已闭：新科学1800s/64LP/160值（冷费全计），原LP10s/14门/Bcap1/4000不变；438法向精确unitball/ID核后fresh context，4attainer另附不覆盖，γ原8event/7commit保祖先hash不重训。3组9新人工、首次两ordinary由最终objective拥有后同进程消费J/模型/实际步；新constructor/outer接线中，未执行，不重旧开发/旧geometry，不存数组。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)证明SingleQ只用base三字段；新模块直接用原metric、height_jets、固定同锚primitive和九高度积分，保完整当前角场/二阶jets/原163→159J。原被覆盖查询积分及四角未用几何被准确删除，不把205.4483s全归于它们。新ordinary SHA诚实变更；原g/b0/坐标不变。旧epoch active241.314203844>120/LP仍10，不能续m7。[同进程迁移与新预算](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已闭：新科学1800s/64LP/160值（冷费全计），原LP10s/14门/Bcap1/4000不变；438法向精确unitball/ID核后fresh context，4attainer另附不覆盖，γ原8event/7commit保祖先hash不重训。3组9新人工、首次两ordinary由最终objective拥有后同进程消费J/模型/实际步；新constructor/outer已发布，transfer/audit接线中，未执行，不重旧开发/旧geometry，不存数组。
 
 
 ### R399新的第二period内部通道已实际付至四点
