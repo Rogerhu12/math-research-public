@@ -123,3 +123,8 @@
 
 
 官方run43775312697于23:31:54Z创建，source51a38839e6dd2763a3fbe2796715bcc0479d3b01、compute133000173495已入step6原依赖安装；amplitude唯一R424终态。八件及三调用原header逆变换已核，原89pins与全576×224/112/338×112/audit/19200及全部必要读回门保；尚未读到新科学结果。
+
+
+## R422 — 同一准确C完整闭点对与reach条件绑定
+
+[R422](results/R422-current-C-closed-pair-universe-and-reach-binding.md)、[完整接口](notes/2026-11-15-current-C-complete-reach-cover-interface.md)及60426B/3ea1ef9f源已全文核：同R416准确cut场/R417全marker两帽/R413原cuff，全部piece、两反射、闭q圆与self pair保；完整AA i≤j、CC三类、AC全积及两闭RP1/Sturm，不以旧worst或局部cuff免整rank。短路径直接用同场完整一jet并集，prefix s递增/tail r递减/下片负S，共同物理q接缝及材料逆运输保持，不借未付R418 metric。原R279全六jet曲率、四球OR、R282逐叶全membership和R24同帽graph引理分别沿原门；先全正则和零弦排除得嵌入，再由全pair/Kτ≤1得全相位reach≥原τ。D来自整个标记F0全部活动片和两帽，τ≥.03D上界另核；不重选K/τ、不借弱marker全局转移。闭DFS先记录后退休保当前/兄弟/全部未访，原大账本仅临时、单90KB必要。没有actual450、数值K/τ/D或实际覆盖，整像held/反射δE/全metric/数值影子与所有BVP终门仍未付，R425继续。

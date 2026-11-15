@@ -89,13 +89,15 @@
 
 [R419](results/R419-correlated-nominal-Robin-row-formation-with-complete-family-errors.md)/24c7681c保全部candidate/正幅度/全角，已提交候选只给关联名义角/w；同一可逆T联合形成、准确正max缩放后才转64，局部cap4096/原point预算/finally恢复256。全真实单位行族到实际最终字值差保持，不保证真族成员、共同C或小误差，表示工作partial与传播未付分明。
 
-[197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)十二件及R419全文/完整diff核后接线：旧187全部84pins逐值保→93，实际driver56/native30，原c2f515/91dd内核不改；真180九词/β1⁄16/fresh C/cut/factory/deep112→完整112族后才联合数值行→全577/576×steps采样→同owner H/J/FD/453/final。名义表示共享原point预算、cap4096，原18900+2700/7200 BVP和全部阈值保。最终字值沿raw→worker→native不再归一化，完整族差仍对同词；单90KB保全部数字行/地址/失败/未访，六原必要scope及quiet后清理保，无新科学门。R419排版与reader实际读取scope声明仅元数据同步；无实际197结果，exact唯一R420。 官方run43774486084于23:22:50Z创建，source68fa2d402bb7c3695b50a28739566abe6ece3511、compute132997520684已进入step8原93源码/参数绑定；exact唯一R420终态，尚不推定科学开始或接受。
+[197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)原84pins逐值保→93/driver56/native30；真180九词/β1⁄16/fresh C/cut/factory/deep112→全112族后联合行→原完整采样/同owner H/J/FD/453。表示cap4096共享point预算，18900+2700/7200及原全部门保；raw→worker→native同字值不再归一化，全族误差/六scope必要/quiet清理保，exact唯一R420。 官方run与当前状态见H；源/预算/旧细账逐字见[R422前检查点](notes/2026-11-15-open-checkpoint-before-R422.md)。
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)/[193](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)真72c十族/180九词+正零ξ、98pins/runtime69/native29；真453全门后同十词450新RHS/H/FD/338×112/final，共原7200钟/worker，全部原门不变。amplitude唯一R408，193不运行R409，raw清后须同job真再生。
 
 [R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)/[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)全节点/FFT/两mean/共享B/R249/原rCuff/marker/准确目标保；E不换B′。[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)/28417b93独立准确cut场所需三jet$(kv_*,k^2b_*,k^3c_*)$，旧v,b无结构等式但不判实际不相容；七root/全角/675六jet保，旧renderer不可冒新场。[R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)/0ff1fa60两帽全marker/六jet/Gram/曲率/球/闭分割与真实Shared类绑定，帽同图metric恒等。
 
-[R418](results/R418-current-C-complete-closed-relative-metric-source-interface.md)/28b7245a绑定R416/R400/R417同一场、原C四件小原件及现场binding、完整有效域/自然Rout下界/cut；原四Loewner与闭DFS保全112/反射/零mean/材料混合项/当前格栈和rank未访。固定C盒不随空间分格收紧，跨run精化重绑未接，不保证终止，work_resolution不作新门。上述均源/条件，无实际450/全metric/嵌入/reach/held；R422继续完整曲率/AA/CC/AC法向对，不借未验metric或静态网格替全phase。
+[R418](results/R418-current-C-complete-closed-relative-metric-source-interface.md)/28b7245a同R416/R400/R417及原C四件/binding/自然域/cut/原四Loewner闭DFS，保全112/反射/mean/材料混合项/当前格栈与未访。固定C盒不随空间分格收紧，跨run精化重绑未接，不保终止，work_resolution非门，无实际全metric。
+
+[R422](results/R422-current-C-closed-pair-universe-and-reach-binding.md)/[完整接口](notes/2026-11-15-current-C-complete-reach-cover-interface.md)/3ea1ef9f枚举同场所有piece/反射/self的完整AA/CC/AC及两闭RP1；全一jet并集给共同q跨缝路径，不借metric，帽负A/重叠/全部marker保。原R279/四球OR/R282逐叶membership/R24仅同帽图保持；全正则/曲率/全部pair和Kτ≤1才先嵌入后全相位reach。D为完整标记F0，原τ≥.03D上界另核；不重选常数/免整rank。全部DFS当前/兄弟/未访与单90KB保，没有actual450或数值K/τ/D及实际覆盖。R425继续整像held、固定H/全D与含反射δE；准确场/数值影子/原BVP与全metric仍各付。
 
 ## 4. 同一g闭合与真正九冻结450
 
