@@ -209,3 +209,5 @@
 - [R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601](results/R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601.md)：真29×58配对rank6、旧rank5及完整商同构给受限第三rank1；完整域余2及合法F31下界夹定β3=3。全部21第三头恰在旧22族中，显式λ3仍待付；∞114/110/110、K103给条件8597/8601/187，保原成员性前提与raw K101记录。
 
 - [R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600](results/R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600.md)：完整第八低核14投影4，保真实非平凡头组合及全部6188原乘回；加十恒等得14头、零点58/49、K104、最大Smith9…17。λ0…8九平方全零；配已付∞114/110/110给条件8596/8600/187，未把包络损失当完整第八正秩。
+
+- [R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)：原物理投影下，两权临界池的第二创建泄漏比精确为(1−t²)m−2t²+o(1)，bmax=1；奇数弱位和严格正无限弱尾保固定层满射，故无仅靠最大单权的普适绝对常数界。自足证明完整核/MP范围，不作为原固定连续尾或普通边界的反例。
