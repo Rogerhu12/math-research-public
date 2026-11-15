@@ -237,3 +237,5 @@
 - **零完整第八与最后两个正指数。** [自足证明](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)闭β8=1/15头、835380原产品、63/54/K109及条件8580/172；十二指数已定、余二只有六种可能。完整K8第七平方读数同头不变且全零，任意left10不能由其给h0模s11障碍；第八非零值仍须真实延拓。
 
 - **零完整第九、次大阶55与九目标模s11成员性。** [自足证明](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)完整β9=0/15头、928200原产品，余谱仅(10,10)/(10,11)、K111与条件8578/172。完整左cochain配对及逐Smith双湮灭给全部九原h0t_j模s11属于原有限来源像；若另付函数域像，零点torsion已清。E8在K9同头不变且非零，但存活到K11尚待原核验。
+
+- **零点完整十四正Smith谱与不可降低的三阶因子。** [自足证明](results/R150-appendix-zero-complete-positive-smith-spectrum-length66-and-sharp-cubic-target-factor.md)由完整β10=1和总长上界定正谱1⁴,3,4³,5,6,7,8,10,11，δ66/55、amax11、K112及条件8577/172。952952原产品与实际E8非零给任意ord(g)≤2的g t2不在局部像；原h0九目标模s11像成立，函数域像仍须独立付。full某最大子式s66系数31单位的存在性不替固定D单位首项。

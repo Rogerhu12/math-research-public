@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** ff5bfee690b4e2350eac8ea24f0058e9c8bde3bb（2026-11-15 14:32:16 UTC，Actions run43724873205实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43724873205-1.json。
+- **最近成功实际 pull 与已读规则提交：** e76a769cec1b98c1263fb46105d05a26b369acb3（2026-11-15 14:35:50 UTC，Actions run43725216889实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43725216889-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地14:21:09实际pull到39176227ae4f5191c1f4278bf5e697d25cb09add，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -18,14 +18,14 @@
 - 原A为4367×6188、泛秩4354；同选I,J各4354、权8770，常数Q/F31秩4318/核36。完整同选前三连接3/9/3，二阶24头、三阶21头；[17真第三cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)已核296072原产品，法≤4完整头17，四缺头坐标15/18/19/20。
 - [原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)给raw1/16可延头存在、完整β4∈[3,5]，λ4未构造。known来项13/full15缺2、第三显式17/full21缺4。完整H45原rank1736、高核1036/模旧130为906；Mstar4318常像加HF/T的全商rank12，只需实际18 RHS，未重906大核。
 - 同选D∞≥130、全部cofactor/原来源换列∞≥125。最新零因子K112下q8415…8528，非基/转移/目标三费8572/8577/172，统一条件8577。原九目标Q[s]成员性仍是前提。模31所选长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
-- 两端原全常数rank4340/coker27，各14正Smith；∞第一4/第二0。零完整前三至八已正式，最新[完整第九与模s11成员性](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)给β9=0/15头、δ次大=55；第十实际β10=1/14头，完整14正谱已由总长上界钉死为1⁴,3,4³,5,6,7,8,10,11。故零最大/次大阶恰66/55、最大正指数恰11；第十一仍须构造13自由头，不能把存在性当实际cochain。
+- 两端原全常数rank4340/coker27，各14正Smith；∞第一4/第二0。零完整前三至八已正式，最新[完整第九与模s11成员性](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)给β9=0/15头、δ次大=55；[完整正谱及三阶必要性](results/R150-appendix-zero-complete-positive-smith-spectrum-length66-and-sharp-cubic-target-factor.md)已正式：第十β10=1/14头，完整14正谱为1⁴,3,4³,5,6,7,8,10,11。故零最大/次大阶恰66/55、最大正指数恰11；第十一实际也完成β11=1/13头、965328原产品真；所得是十一阶cochain，可形式延拓的头已全，非已算完整函数域左核。
 - K112=sK111=s66(s−2)9(s+6)9F+²F−²E8²，degree112、lc5^6为31单位。原h0有s3；完整任意left10的λ0…7九平方零，经完整模s11双湮灭已证明全部九原h0t_j属于原有限来源模s11的像。若另付Q((s))像，零点全部torsion便已付清；十三自由坐标、其他点和全局Q[s]像仍开。
-- E6同头不变且rank1/kerK7；最新E8在K9及K10同头不变且非零。若E8在K11仍非零，将否定原h0目标的函数域像前提；当前尚无此结论。第十真实left10已可排(h0/s)t2的局部成员性（正式谱稿正核），不排h0本身。其余29曲线/GB/LLL/65521/uPhiY支撑等未列接口全保归档。
+- E6同头不变且rank1/kerK7；最新E8在K9及K10同头不变且非零。第十一实际E8在K11全零，故不由该值否定函数域像；λ9仍非零但当前代表可变。第十真实left10已严格排任意ord(g)≤2的g t2局部成员性，不排h0本身。其余29曲线/GB/LLL/65521/uPhiY支撑等未列接口全保归档。
 
 ## 临时同run：滚动请求与恢复
 
 - run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
-- 请求路径notes/2026-11-15-r150-recovery-small-session-request-789f.json，当前续步含累计step48=zero-complete-eleventh-full-incoming；180秒/2GiB，只4新/67旧单位列，保全部旧来项与原4367目标/6188来源。
+- 请求路径notes/2026-11-15-r150-recovery-small-session-request-789f.json，累计step48=zero-complete-eleventh-full-incoming已成55.241368715秒：low594/kernel69/zero66、13头/965328原产品；raw54057B/c7d982b2…、outer81032B/c7de3966…，checkpoint manifest32669B/cf5f7237…、binding9f988486…，pack40158×13逻辑94be72a9…；λ0…8九平方零、λ9/10/11有原代表值。
 - 第十一用独立compact源码104882a9…，只压缩逐列重复回执并显式接受旧9bf405d3祖先；全部数学、checkpointPhases/manifest/原物理/ranges及真实祖先SHA不改。第十outer93089B尚完整，换fork防外层94000B摘要删关键phase；旧源码不改。
 - 第九实际40.496545674秒，β9=0/15头、928200产品，raw76694B/91a6381c…、outer85402B/adc77b03…；checkpoint bindingff22e24c…、manifest29426B/a18b7754…。
 - 第十实际49.708861252秒，β10=1/14头、952952产品；checkpoint binding14e1c96e…、manifest31517B/10929f25…，raw83784B/88830dc2…、outer93089B/0cbedfd5…。complete-order-10 cochain35791×14，逻辑243296d6…；λ0…7零、λ8/9/10真实非零，下一看K11。

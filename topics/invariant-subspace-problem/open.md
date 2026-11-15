@@ -161,3 +161,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 
 
 **完整第九与零点有限成员性。** [自足证明](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)闭β9=0/15头、δ次大55，并用完整任意left10的低平方零与R=Q[s]/(s11)双湮灭证明九原h0t_j属于整个原矩阵模s11的像。若另付Q((s))像，则零点torsion全部清；函数域自由坐标仍开。最新实际第十β10=1已把完整14正谱定为1⁴,3,4³,5,6,7,8,10,11，δ66/55/K112；第十一真实构造13自由头并检查E8，未预填原成员性。
+
+**零完整正谱与最小必要幂已闭。** [完整证明](results/R150-appendix-zero-complete-positive-smith-spectrum-length66-and-sharp-cubic-target-factor.md)给14正指数1⁴,3,4³,5,6,7,8,10,11，δ66/55、amax11及K112/条件8577；存在某个full最大子式的s66系数为31单位，不识别成固定D。真实left10排任何ord(g)≤2的g t2局部像，所以原s³不可降为s²。随后第十一实际13头及965328原产品已成，E8在全部K11零、λ9仍是待运输读数；零谱子问题关闭，函数域自由余核、其他点与全局来源继续。
