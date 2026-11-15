@@ -1,0 +1,69 @@
+{
+  "kind": "actual_public_missing_true_root_intrinsic_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43661471951",
+  "run_attempt": "1",
+  "workflow_commit": "3d66dfdea73e82bad260c6981ba2ad7f69ff986a",
+  "worker_sha256": "8219e894f3b6be088169f92a4936da48d9b8705c4d8a36289c7e71ca08d1052a",
+  "manifest_sha256": "d367fdee726240d487e9f4aebd56b120c82a0e2befdd9430b0f787691b8e4b7a",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T01:06:53.683951+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T01:06:54.435892+00:00",
+      "before": "ccecd38637343eeb1277abce146f4b8d80afc9a5",
+      "after": "b2d48e236fa92a979c71994b55ec86434495cc7f",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:07:15.491880+00:00",
+      "before": "b2d48e236fa92a979c71994b55ec86434495cc7f",
+      "after": "1377826d89317b491f75036cafd63c3ea5bea5f1",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:07:18.332589+00:00",
+      "before": "17a8600fe2da04965ea7f85002f6814c9ebc0538",
+      "after": "c136bf4405b26dd8d4d754cdbb4b988f1606bc03",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_finite_derivative_orders_requested": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "strict_original_complete_root_jet_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-true-root-missing-intrinsic-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_intrinsic_jets_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-true-root-missing-intrinsic-jets-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-true-root-missing-intrinsic-jets-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-true-root-missing-intrinsic-jets-CI-inputs.json",
+    "--manifest-sha",
+    "d367fdee726240d487e9f4aebd56b120c82a0e2befdd9430b0f787691b8e4b7a",
+    "--out-dir",
+    "/__w/_temp/visible-exact-true-root-missing-intrinsic-jets-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-true-root-missing-intrinsic-jets-science/originals"
+  ],
+  "complete_original_inputs_verified": 66,
+  "actual_scientific_checkout_commit": "b2d48e236fa92a979c71994b55ec86434495cc7f",
+  "mathematical_wall_seconds": 20.30216399799997
+}
