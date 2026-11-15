@@ -40,7 +40,9 @@ run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，
 
 [后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)：持久128状态、全新残差右端、真实匹配变分/cut/二阶jet/audit仍待付。隐式J缺B⁻¹Dε，root残差小不界Dε，同4个RK现场亦不等有限停止程序exact J。等实际113证据决定，不另造无依据solver/fixture。
 
-### 115 第四奇形控制（刚发布，run待读）
+### 115 第四奇形控制（运行中）
+
+run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute132736414956，07:18:07UTC创建，正在原source/input恢复；实际结果待读。
 
 [完整接口](notes/2026-11-15-actual114-to-four-control-curved115-interface.md)：family9222390b、search3ca1bdf7、readerc0602e7a、recipebecfe390、request282d640e、workflowf1615b4e。原第二实际支撑添加θ·b₂(2x−1)，起点为真实114末三p及显式θ0；完整3×4响应/7×4正阻尼QR，两normal两tangent弯曲试探，原full3 W/.2Armijo/域/终检不变。新g设计族，函数独立不保证补秩；theta0数组对照仅报告，不作门。
 
@@ -56,8 +58,8 @@ R277–R281完整证明已登记。109/111条件有理例匹配，非实际曲�
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN及自己的final audited tail/config/port：完整physical/material/z0/mean→R249/shared quintic B/两帽，g不能换B′。R274/R258 adaptere372待同场非零见证。held可独立于reach预算读整个活动面与两帽，不能用材料点位移/core直径替整像。
 
-same-g v4冻结g/全部p/t范围，K=k0、activep空、T=M/state4M+2；699二分1397+knots需prepare/fullDN两处max_nodes>1200。有限phi不冒有限theta，数值不冒严格存在。
+same-g v4冻结g/全部p/t范围，K=k=0、activep空、T=M/state4M+2；699二分1397+knots需prepare/fullDN两处max_nodes>1200。有限phi不冒有限theta，数值不冒严格存在。
 
 ## 维护与重做范围
 
-既往已完成的95–114结果有正式note；110/113仍运行，115刚发布。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿仅geometry R282及代理正在做的后续工作；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。
+既往已完成的95–114结果有正式note；110/113/115仍运行。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿仅geometry R282及代理正在做的后续工作；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。

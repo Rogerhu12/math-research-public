@@ -97,3 +97,7 @@ run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，
 ## 2026-11-15 发布115第四控制完整三式搜索
 
 [完整接口](notes/2026-11-15-actual114-to-four-control-curved115-interface.md)及六运行文件已发布。family9222390b/search3ca1bdf7、reader c0602e7a、recipe1490B/becfe390、request29001B/282d640e、workflow15665B/f1615b4e。真实114三p加显式θ0，第二实际支撑奇形控制；完整3×4/7×4/两normal两tangent、原全三式门保留，新g与实际θ冻结平方终检分清。root全文读两数学源/全部差异/接口，静态工作未执行科学；新run待读。H重新压缩，保全部规则和实际责任。
+
+## 2026-11-15 115真实运行已启动
+
+run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute132736414956，07:18:07UTC创建。元数据在原source/input恢复步骤；没有读取或预填新的科学结果。
