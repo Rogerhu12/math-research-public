@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：bf4651140ff96afe9d92d9847c30005f2d0fe70b；2026-11-15 22:02:56 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:02:56 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
+- 最近已读规则提交：fe070cc8b4741fcffa788213ff09add160a3b12c；2026-11-15 22:03:49 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:02:56 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -12,8 +12,8 @@
 ## 完整归档与当前分工
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-global-height-scope.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–830已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者；deep做真mirror联合核及Y∞/固定边界；theta做四原中央完整K低卷积和同M Schur；literature写R831全2-old矩阵，再做新类与原canonical比较。证明成即分别推。
+R1–363、365–560、562–653、655–711、713–831已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者；deep做真mirror联合核及Y∞/固定边界；theta做四原中央完整K低卷积和同M Schur；literature做R831唯一端点类与原canonical比较。证明成即分别推。
 实际pull21:20:38/run43763145442/job132962200519，两README无变；回执ci/rule-pull-20261115T212038.json。22:02已提前请求下一实际pull，原22:10期限保持，待核回执。R818/run43757109911、R820/run43756861065、R830/v2 run43765677768/job132970102886均成功且日志已核；source/args/hash见各证，不复跑。R830初版17处把18阶norm-one元当288阶枚举元的错误已修。
 
 ## 原高权类、低权修复与指定非零
@@ -23,7 +23,7 @@ R817只在p7993付三个归一负二2522/2828/3696unit及固定cycle独立；R81
 R826付固定(2,2,2)四CM因子/全bad Euler/degree12；原λ在全纯第四槽，完整Besser两项及U=pφ⁻¹保。附录LLZ原critical germ=Ωιs(1−s²)Kprim(ν〈N〉^s)，simple zero iff原I≠0，原period/√17/Euler不删。
 R829付旧同q0类完整Chow零：Xi下拉、q_*ωf=0，Manin–Drinfeld使cusp CK相容，小对角平坦恒等提升到Chow；该旧类不能非零比例比较R814。
 R830改第三输入q4*，ωh4=4h(Q4)dQ/Q、Gh4=Gh(Q4)；2处DN，3/17有限T投影范数1/4及三非零cyclotomic数，compact induction付全部有限真实测试。新AJ分子〈ωf,[{4Gg h(Q4)−barπ Gh(Q4)g(Qp)}dQ/Q]〉，分母1+barπ/π²。**新global AJ/canonical比较仍开。**
-[R831在写]共同目标Z_ij才可比较：相邻old嵌入同经半level故零，W4反射i↔2−i且f符号−；须付完整Chow/degree，不能把不同old投影空间直接相认。
+[R831](results/R831-original-dyadic-old-space-and-unique-endpoint-class.md)已付完整共同目标Chow矩阵[[0,0,Z],[0,0,0],[−Z,0,0]]，任意old extraction只乘c0d2−c2d0；七项同低层零、W4反射/f符号−、X0/1次数和遗忘1632/816齐付。不可把不同old副本直接相认；唯一端点类和原canonical比较仍开。
 [高度范围核查](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)：已亲读YZZ2023 Thm1.3.3保Σc_l log l，本表示分歧{2,3,17}，R830不消补项；Marannino2026非CM/平方自由/判别式互素及指定p值非零假设不适用。没有以此证明新类非零。
 [BB范围核查](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)：BDP12仅type(1,0)，不付原(2,−1)；Kato–LLZ族身份不代中心值，BB刊本未得，不断言其错误。
 

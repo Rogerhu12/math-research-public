@@ -98,3 +98,6 @@
 
 
 [R828完整d参考运输](2026-11-15-r828-complete-d-reference-transport.md)：同一原M的完整log d参考运输已付：每个真实总charge列乘exp(Qh_d)，四中央FΘ(u)=F°(u+u_d)，同K1/C1上βΘ°=β°+χ2ΣzL、βact=βΘ°+a_pΣvL。全39carry、Hd高尾/末端quartic保；不声称χ2响应落im M，实际bΘ/native指定非零仍开。
+
+
+- [R831](../results/R831-original-dyadic-old-space-and-unique-endpoint-class.md)：原2处整个三维old空间在共同目标的Chow矩阵严格为[[0,0,Z],[0,0,0],[−Z,0,0]]：七项同低层消失、显式W4反射和f的绝对−1类型符号齐付。任意线性extraction仅乘c0d2−c2d0；保X0次数6、X1次数12、遗忘1632/816及全部AJ两项/同分母。唯一端点类/global AJ与原R814比较仍开。
