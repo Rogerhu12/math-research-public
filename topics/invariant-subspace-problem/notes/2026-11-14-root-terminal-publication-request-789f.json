@@ -1,16 +1,19 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "11ccb4f7774e5ee6670963f4909b3cd5050dc11c",
-  "createdUtc": "2026-11-15 06:30:50 UTC",
-  "message": "ISP: prepare the exact integer Koszul support core with reversible source operations",
+  "parentCommit": "e81b56dc8e9a95ec4276a756d11a3f96db825f4b",
+  "createdUtc": "2026-11-15 06:36:37 UTC",
+  "message": "ISP: solve the original integer Koszul support equations over Q",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-exact-outside-sparse-preparation-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-exact-rational-support-solve-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-exact-rational-support-solve-interface-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-remote-session-request-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
+    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
