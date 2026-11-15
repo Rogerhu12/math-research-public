@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **同g数值最新**：[旧complete-affine实际](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848已读六模型/54及106源/24输入；η.266401179156→.266381717617，12LP/5接受，9恢复805.206s、active35.287s，真实漂移与失败保留。旧exact159/163存在，后期完整池/reference切向向量缺失，不能冒恢复。
 
-**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值，active38.005145573s、prepare8.848614828s、process159.688904402s，差额未细分。bank7→9，21插入/0驱逐，12精确binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，下一同trial扩池后原模型完整重绑/SOC，非续旧预算。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
+**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值，active38.005145573s、prepare8.848614828s、process159.688904402s，112.835s非active差跨初始化/首J与末复验，未细分。bank7→9，21插入/0驱逐，12精确binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；下一同trial扩池重绑/SOC，保原17guard/报告对应，非续预算。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -50,4 +50,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 6284780f8faea9c6d9bcba12343844c1953c0031，双README blob同。API读取不冒实际pull。
+断连API复核main db77fc6b448a8b3850e80062bbfbbd88c70d4caa，双README blob同。API读取不冒实际pull。

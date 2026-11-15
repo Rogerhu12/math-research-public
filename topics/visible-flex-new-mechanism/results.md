@@ -564,3 +564,10 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 [R339 完整有限构造](results/R339-opposite-sign-weak-blocks-pay-the-third-Gaussian-zero-moment.md)加入真正相反朝向core：j0翻号而J0/Jx0/K0/K1不变。原内部常项线性式、R=ηL宽cutoff/三真实补矩包与R320全二维强正锥，实际构成C+=−4W8(J0+Jx0−Lj0)>0的新弱块；其完整Ψ系数ψ+有限并可取正。十二copy保全部实际中心，给B0=(2χ/3)C+X+sin²θ。固定负块最终X−，把新正块放在足够右但有限X+，取真实正四次权w+=−C−X−/(C+X+)；完整B0精确消掉、Ψ成本O(1/X+)保负储备。所有宽恢复/补包/尾成本已包含，不借signed幅或未支付常项。
 
 随后R334四实际强模块付当前完整A2，且R337已证明其B0全角0；最后原全72零控制器按同F★/有限N保面积和quartic，清Ψ、三directed及指定完整一层。同一最终圆付原M三矩、新A三矩、B0、三矩/完整third与上述层。真实有限中心固定后不再共同平移，最后只选包含既定坐标的合法正I、同右锚和共同正幅；最终新seed固定新g。B1/B2及其它第四/period/joint仍欠，继续下门。无新执行。
+
+
+## Norm-memory十一模型：三次扩池提前返回、同点曲率非线性与费用边界
+
+[完整诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)只消费run43741276060原11模型。m1/5/10都在新增行后返回，未尝试SOC；m5/10只各新增两网一个soft行，遗漏hard=0，原已有fine curvature+det行线性预测约+1e−7而真实约−9.964e−8/−1.451e−7，不能以漏掉曲率点解释。m1另漏4个fine strip hard。全部11试点metric遗漏项0、真实e/f非线性仍在。
+
+记忆83初次重建行、85各模型末行、92实际LP携带行不是独立方向数，本轮实际新增2方向；8次新metric行J0.1044s、12LP3.2630s、23方向11.5004s。active含优化中checkpoint，首J在active之前，112.835s差只能定位于初始化/首J与末复验/报告，缺分段字段不重跑补数。下一同一失败y扩池后重新绑base/J/primary/complete模型，再以同一y真残差尝试原SOC；分开主模型与重绑报告、保原新行记录/17guard/同预算，尚未运行。
