@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:35:42 UTC实际pull后已读规则提交：`0a289e56da71d785ff36bd50ebe51a81c7953ce8`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 09:40:10 UTC实际pull后已读规则提交：`31734d38bf13e5b88d9b15287751d552378eaaec`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **103历史最低**：43691833140/source2f25b5aa，η .26651075196396212/末bfbd7465；固定尾域锁步，完整见notes/entry-body103-first-actual-result-20261115.md。旧实例不重跑确认。
 
-**154 actual已消费**：43694686825/source71744524b9001226332866870515281d35f49910/job132752541415，notes/entry-tail154-first-actual-result-20261115.md。原B103/T51全uv可动、9height固定；尾.7725锁峰解除。四前缀各一次必要恢复，fc0d8139起η .26653564958657405→2ee6e90e末.26652257791835787；5接纳/8主LP/0SOC，降1.30717e−5未达1e−4参考/.26。恢复漂移大于新降幅，**未破103历史最低**。m1/m3已有.78曲率行非线性失败，m6硬门过但fineη增；新软行分支跳过SOC，不能说SOC失败。最后两高比率步已触发半径增长，但120.0745活动秒先到；18+2值、全880.5913秒、fine J85.1928秒，完整163J未降。末fineκ57.99998545、strip余3.90333e−8、帽高仅tol过；原门全过，新metric/reach门未付。下一准备原高度null入口与尾方向，SOC补行另案，不延同154预算。
+**154 actual已消费**：43694686825/source71744524/job132752541415，notes/entry-tail154-first-actual-result-20261115.md。原B103/T51全uv可动、9height固定，旧尾锁峰解除。四前缀各一次恢复，fc0d8139起η .26653564958657405→2ee6e90e末.26652257791835787；8主LP/5接纳/0SOC，降1.30717e−5未达1e−4/.26，恢复漂移大于新降幅，未破103历史最低。m1/m3已有.78曲率行失败，m6硬门过而fineη增；新软行分支跳SOC，不冒SOC失败。末两步高比率已增下一半径，120.0745秒先到；全880.5913秒，fine J85.1928秒。原门全过而帽高仅tol；新metric/reach未付。下一159高度null，不延同154预算。
 
 **159五高度设计已付**：notes/same-g-entry-tail-five-height-null-design-20261115.md。原九核8维选entry3/tail2，仍163物理族；入口.603后恢复，尾末片Wronskian严格正，可在.78取D0/D′非零。原盒/n_z/曲率投影未读则不授可行。准确H/九有理canonical与float评价分层，c3/c8耦合盒、物理Ms的∞/L1保留；新rH=4rB，B/T继承真实controller，原门/预算及SOC新soft返回不改。核心源码已审，driver在接；新增人工/实际未执行。
 
@@ -35,6 +35,8 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 **R223/R227真实Morse闭hook与例外端口已付**：M0/TκH、frame/Klein位移闭合、pure0/F8=0、全h Morse。R227在非零ke端口装h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h；先三维末frame IFT，再八M+真omega九IFT、全E IFT。内部omega保真实积分，原U/完整T保留；设计一般改g。
 
 **R229/R231/R232例外主层已付**：G候选pure quartic=−(l+b)³C_b²/64，三复矩使0；一般G左尾不可删，全b仅原多项式延拓。R231保所有local/chain/真history，物理支x+b及x+b+ke/he正时完整K/(hβ²)→sin²θ Lc+sin2θ Ls；Lc=E(Gff,Ggg−Gff)、Ls=E(Gff,Gfg)。43699241372/sourceee9e2098/job132766507913首次实际13toy过，原b0八包Lc严格负/Ls严格正，0.2728秒、23.24MiB；R232严格排全部可容正宽度及已付光滑近邻的例外germ，不排其他圆。原件9524B/675a8bc4只存hash。下一新三矩圆和完整次层，不重原八包。
+
+**R233另一圆已付**：四尺度a_j、v_j=1/∏(a_j−a_i)、w_j=|v_j|a_j³，逐包g=±f付三矩。保真x²尾后P/Q为带符号正bulk比，Sj=a_jS*；共同O2取sin2α=−P/Q同时清Lc/Ls。八复制先付完整三阶再另选角仍成立；此平面GL2可分离，旧首f-up/g0、F8非退化不继承。下一真正不可分离圆及完整次层，非第四通过。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
