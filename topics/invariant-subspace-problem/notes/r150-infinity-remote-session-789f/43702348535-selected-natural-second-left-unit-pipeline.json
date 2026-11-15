@@ -1,0 +1,183 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "selected-natural-second-left-unit-pipeline",
+  "executionSourceCommit": "ea3ff9d14e123e71846430a25986547a8e24b562",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-unit-pipeline-789f.py",
+  "scriptSHA256": "7bceace52b388011b0a3bd90e056e47d7cbea5712f093318bf519c94257052e1",
+  "argvTemplate": [
+    "--first-out",
+    "{work}/selected-natural-first-left-envelope",
+    "--rebuild-root",
+    "{work}/selected-natural-u-rebuilt",
+    "--primitive-equations",
+    "{primitive}",
+    "--unit-worker",
+    "{scripts}/2026-11-15-r150-selected-second-left-unit-solve-worker-789f.py",
+    "--out",
+    "{work}/selected-natural-second-left-unit",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 1.9179355440001018,
+  "fullTemporaryReceiptBytes": 3500,
+  "fullTemporaryReceiptSHA256": "993e7ce4764547ba62aadbb653e4d4e96e8948e07ba4a1ca57816c6651de704c",
+  "result": {
+    "format": "isp-selected-natural-second-left-unit-pipeline-v1",
+    "fullSelectedSecondConnectionComputed": false,
+    "largeDataUploadedOrCommitted": false,
+    "leadingUnitProved": false,
+    "mathematicalElapsedSeconds": 1.826085337999757,
+    "newDixonSourceDigitsComputed": 0,
+    "newOriginalRankPrimeComputed": false,
+    "old585RREFRecomputed": false,
+    "oldFirstRREFRecomputed": false,
+    "oldLargeNormalFormsRecomputed": false,
+    "outcome": "mod31-unit-profile-incomplete",
+    "phase": "complete",
+    "selectedSecondConnectionRankExactly9": false,
+    "sourceSupportExpansionNeeded": false,
+    "status": "completed",
+    "parameters": {
+      "binding": "7f7343b09d76063b26020ceaea1031cc450597b3bdf7745cc56b9061b642f632",
+      "inputIdentities": {
+        "coefficients": {
+          "bytes": 20580,
+          "sha256": "7ab537a3c8f9a3d13b924a23f37f8d4ce4fa7621e3608920404ed0051b2fd5c1"
+        },
+        "first_jets": {
+          "bytes": 1701626,
+          "sha256": "2aabfc92860f66942e7a8eb3d9254ab911e7b8b2f255d40bfaa1235ed4d482fe"
+        },
+        "first_rref": {
+          "bytes": 1515677,
+          "sha256": "3eae6c4d2b9d2c01187ea436665499555b3a8b9843bdd7ed2925b4551e0148d2"
+        },
+        "first_worker": {
+          "bytes": 1051,
+          "sha256": "013af2e79ba1e2db0ca310dfa0593803ad84d7a9e50251f56e908b45e15874fe"
+        },
+        "heads": {
+          "bytes": 633788,
+          "sha256": "3107ab8547071205466ff5b5aa2ef5f0e3ea81a976258a25184c9a0d7e709fe2"
+        },
+        "prepared": {
+          "bytes": 3244457,
+          "sha256": "2fabe7d680cc65e6098c4a9940d7f8e7c5eb21c0ffd57e5a168b0b348f53ba8a"
+        },
+        "primitive": {
+          "bytes": 65159,
+          "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+        },
+        "profile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        },
+        "selected": {
+          "bytes": 21285,
+          "sha256": "20373c07422701e37b9226fe1fe72cb8ee1e7848df505ebbacd92cf818093c2a"
+        }
+      },
+      "lastCorrectionKernelFreedomDimension": 36,
+      "memoryMiBPerProcess": 2048,
+      "oldFirstKernelFreedomDimension": 33,
+      "preparation": {
+        "actualPrimitiveM0RankModulo31": 1545,
+        "binding": "7f7343b09d76063b26020ceaea1031cc450597b3bdf7745cc56b9061b642f632",
+        "elapsedSeconds": 1.7265922319998026,
+        "exactM0RankOverQAlreadyPaid": 1546,
+        "fullSelectedSecondConnectionComputed": false,
+        "oldZeroRowRestrictionRankOverQ": 0,
+        "outcome": "mod31-unit-profile-incomplete",
+        "phase": "complete",
+        "sameSupportHeadDimensionUpperBoundFromOldZeroRows": 33,
+        "status": "completed",
+        "unitSolveNeededForCurrentSupport": false
+      },
+      "preparationOutputs": [
+        {
+          "bytes": 8998620,
+          "file": "complete-original-second-left-forcing.json.gz",
+          "sha256": "8ae7ffef9d7b0a56156f72b002956d4d8843cda66c00b07bff045f9ebd77f4f3"
+        },
+        {
+          "bytes": 366,
+          "file": "complete-old-zero-row-second-head-restriction.json.gz",
+          "sha256": "182f9bd91e7a95bff65f1a579d6a6d0490f869e817bd0e7ae5ba87c706d3114e"
+        }
+      ],
+      "preparedLastActualStatus": {
+        "actualPrimitiveM0RankModulo31": 1545,
+        "binding": "7f7343b09d76063b26020ceaea1031cc450597b3bdf7745cc56b9061b642f632",
+        "elapsedSeconds": 1.7265922319998026,
+        "exactM0RankOverQAlreadyPaid": 1546,
+        "fullSelectedSecondConnectionComputed": false,
+        "oldZeroRowRestrictionRankOverQ": 0,
+        "outcome": "mod31-unit-profile-incomplete",
+        "phase": "complete",
+        "sameSupportHeadDimensionUpperBoundFromOldZeroRows": 33,
+        "status": "completed",
+        "unitSolveNeededForCurrentSupport": false
+      },
+      "programIdentity": {
+        "bytes": 29556,
+        "sha256": "7bceace52b388011b0a3bd90e056e47d7cbea5712f093318bf519c94257052e1"
+      },
+      "secondsLimit": 300.0,
+      "sourceSupport": "same original I; lambda2 normal<=3; all4354 J rows",
+      "temporaryCheckpointDirectories": {
+        "completeUnitSolution": "unit-solve",
+        "fullOriginalResidualsAndJets": "full-products",
+        "preparation": "prepared"
+      },
+      "unitWorkerIdentity": {
+        "bytes": 16244,
+        "sha256": "a706713bb49b292c7256aa67b5cb1d75b81003175ef0b87e094e4f0efc03a8a9"
+      }
+    },
+    "events": [
+      {
+        "elapsedSeconds": 1.8179922340000303,
+        "exitCode": 0,
+        "phase": "prepare"
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 10:46:37 UTC",
+      "beforeReadCommit": "d8f61835d88ce7fcdc458dc262742b2fb5a8d070",
+      "originMainAfterPull": "ea3ff9d14e123e71846430a25986547a8e24b562",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 10:46:39 UTC",
+      "beforeReadCommit": "ea3ff9d14e123e71846430a25986547a8e24b562",
+      "originMainAfterPull": "86e3dc7569225eaee33fcf6fb74ca806468ff3e7",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 20,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 6861,
+    "logicalJsonSHA256": "18627e51f4bb6ad2c0d61974067aa2101c105f8be04e009ac25c1dfb9cecc24e",
+    "itemCount": 20
+  },
+  "lastRulesReadCommit": "86e3dc7569225eaee33fcf6fb74ca806468ff3e7",
+  "summaryExcludesRecomputableArraysOnly": false
+}
