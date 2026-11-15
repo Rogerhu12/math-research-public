@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，142完整九方向仍极小下降，R316结清后146改normal两P形成。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。[R311实际139](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已完成全1440/六primitive/whole-natural闭域界；query细分仍partial；144的完整cut两jet已由R322实际付。
+[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321完整终态](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)均付原128全129248行shooting容差和576×226独立逐word replay。140 run43713195661/source242c1f02：唯一α1真接受到9.68582474751023176032080482454992093e−11，38230B/7a66911e摘要两处原字同；stage/audit各g++ return1、未进科学，boundary/338缺完整前置未起，remaining15460s不冒预算停/数学拒。原stderr正文未转发已清；固定源码确定quoted非const string的ADL冲突，152按SHA只限定::quoted并全日志读回，完整原stage/all224/112/338/audit不删。[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)入口已修；144完整cut输入由R322付。
 
 完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，并接原139/137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 

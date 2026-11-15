@@ -532,3 +532,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 148同C完整112有限头通量执行
 
 [148完整接口](notes/2026-11-15-request148-same-C-complete112-finite-head-interface.md)22604B/8168867b与58317B/4531b5b3完整科学源、14655B/7b184233请求、48392B/9f6e48b4工作流读完即发。原144十一pins/三输入/query/预算逐项保；新全112far→flux同job绑定，全部cut闭交/同尺度/完整pending，列包含与h非零/商分开。linear1800排除setup、35min包全程/110minjob，四原小块后清raw，无预填值/旧J；API核双README非pull。
+
+## 2026-11-15 /root — R321真实140完整128与编译阻断
+
+[R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)13792B/49982cba424367fed23dedd9f984489b72d0f456cab817c78213da69c7019130全文读后即推；run43713195661两job success但native/fullDN全false，唯一α1到9.68582474751023176032080482454992093e−11且完整replay逐字同。stage/audit编译return1、boundary/338缺前置未起，15460s余量非预算拒；未读compiler正文与源级quoted ADL确定问题分开。152最小限定JSON名字+全文stderr继续原scope；148实际run43719446020/source da307af3登记。API核双README非pull。
