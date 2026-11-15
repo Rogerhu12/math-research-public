@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续 open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 7dfcbc00acf76c39a80d87bc00aef76a6d178b0c（2026-11-15 15:31:01 UTC，Actions run43730298829实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43730298829-1.json。
+- **最近成功实际 pull 与已读规则提交：** 3874a1f824b99f6f7d92d7e9b73daf3d43b1edbf（2026-11-15 15:32:13 UTC，Actions run43730412865实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43730412865-1.json。
 - 仅授权 Rogerhu12/math-research-public；根独占 main/H/open/results/log，代理交独占稿。每结论真实终端 push；非快进即 pull --rebase 再推、不 force。至少每小时及每推前实际 pull，核两 README，仅读新差异，已读 commit 记此。
 - 已读规则根 21bd547f56590b7f2dd279d0297efb289a9b2783、课题 4d6570e9cf346431ab781a1290076a6321aaaa00。token 仅 CLI、不落文件/日志。可重算矩阵/证书不存 Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执。topic≤200MB，API 小 UTF8<100KB；MD≤100KB、H≤10000B、open 尽量≤30KB、log 每条≤5行；数学美元符，不写根 LOG。
 - 无额外审核门槛；Actions 约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。当前本地托管执行不可用，既有 Actions 执行真实 pull/rebase/push；不能拿 API source commit 冒充实际主线推送。
@@ -20,7 +20,7 @@
 - 两端原全常数rank4340，各14正Smith。原完整∞首4/次0，[第三连接上界](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)已给β3≤1、δfull∞≥43/次大≥39，根已重新全文核对；不能把完整∞只记成首两页，也不能由zero谱搬运。
 - [真实局部投影长度差](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：len T=δA−δP，T=W/(L∩W)、W=(I²)≤5；差≤e即t^eW⊂L。170原行+54g倍行局部双向生成，g零点只除η单位。E8²首项31单位先剥后给2点δA≤30。
 - [负六完整局部闭合](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：真P/full谱1⁷,2,3、长度12/次大9/max3，W全在原局部像，九目标无需s+6，已纳K115。实7.521673933秒/raw8191B/0039c5bd…。
-- 新2点原order4实4.637497190秒、全P常133/连接7,1,1，已达泛秩142，所以P正谱恰1⁷,2,3、长度12。full仍仅12…30，T长≤18；不证明h0一阶足够，也不否定九目标。高于3不再提高此P长度；转原W或九目标。实际回执见新session。旧order17超时只说明该次首Schur未成。
+- [2点完整投影谱](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)：原order4实4.637497190秒、全P常133/连接7,1,1，已达泛秩142，所以P正谱恰1⁷,2,3、长度12。full仍仅12…30，T长≤18；不证明h0一阶足够，也不否定九目标。高于3不再提高此P长度；转原W或九目标。实际回执见新session。旧order17超时只说明该次首Schur未成。
 - [原Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)：O1834×1632常rank1603/29正指数；tors cokerO注入同B余核。Fp31 O最大≤21/总长≤243；Q总长≤Fp总长但Q最大不能用21。D≥δfull+σ、cofactor≥δsub+σ−amax、换列≥δfull+σ−amax；真Q δfull+σ≥243才付同D leading单位。新O数值尚未执行。
 
 ## 活跃计算、源码与恢复

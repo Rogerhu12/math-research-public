@@ -113,7 +113,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [负六局部完整](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)已给P/full谱1⁷,2,3、长度12，W全在原局部像，九目标无需s+6。K115=s66(s−2)9(s+6)12F+²F−²E8²；同选D∞≥130/cofactor与换列≥125下，q8412…8525，三费8569/8574/172，统一条件8574，仍以全局Q[s]目标成员性为前提。同D leading31单位仍开。
 
-[原局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保全部6188原来源、170+54g行，len T=δA−δP；E8²先剥模31碰撞给2点δA≤30。新实际2点order4已达P泛秩142，完整谱1⁷,2,3/长度12，只得T长≤18。继续提高这个P的阶数不再增加长度，应转原W或专门九目标，不能把充分准则未满足当目标不在像。
+[原局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保全部6188原来源、170+54g行，len T=δA−δP；E8²先剥模31碰撞给2点δA≤30。[新实际2点完整谱](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)已达P泛秩142，完整谱1⁷,2,3/长度12，只得T长≤18。继续提高这个P的阶数不再增加长度，应转原W或专门九目标，不能把充分准则未满足当目标不在像。
 
 E8原低51×36全jet加4个高pure exact核注入224×155全投影，真实数域正规表示408×288已排新独立run43729338969、180秒；lower≥4才足h0一阶，≥5才全W。其后处理F±与未知分母支持，不能用Dlin46当完整非线性源的支持界。
 
