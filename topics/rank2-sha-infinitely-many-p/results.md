@@ -356,3 +356,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 - [R746](results/R746-original-type-five-all-finite-p-character-squares.md)：已证明原两type5线在全部有限p角色上的精确平方，含完整tame角型与χ(34)^−1；全weight-disc延拓不误用torsion稠密，非法μ6角型原矩为零。真实ρ只p分歧及两局部导子全付，零值亦同身份；任意p-ram点公式/完整多线gate仍待接。
 
 - [R745](results/R745-finite-p-gates-algebraic-theta-sources-and-orthogonal-jets.md)：已证明原全有限p门经完整Fourier、BK formal torsion/Mumford译与正交partner jets回有限代数theta来源，所有混次Ω与中心相位保；G4为Ω倍原负一单位矩。完整Yκ返回亦有限化，但清分母真实index34·36²p及全部flat/level成本保，不冒裸S34或两线。点公式与域门仍开。
+
+
+- [R742](results/R742-fixed-seventeen-operators-and-same-gate-primitive-limit.md)：已证明原固定r的真实u极限只需≤r+124层有限门；完整Y17模块由K(17²)固定，旧射线给两返回固定算子及阶整除17关系。quarter-safe BK第一式保全相位，使同p门与17投影相容；两原负一分量各自完整非零，G4/双返回/paired外部反号仍全保，不冒原中央非零。
