@@ -54,3 +54,8 @@ H已压缩已成tail段，全部旧精确常数/未付门以71e2264同路径及�
 
 root从原P14、C joint表、真实signed S*=mV及H1完整97测试独立推Cδ1–27；tail逐式复核15–24及10通过。最终13815B/SHA81178d7471ee901ca77fc23ced9089ef6073931e66a597a0ca8741d22a55bd97。HC*保density/mean，primitive真实π/8；HC*差≤(E0/4+E1/32)H1，SHB的moving准确式−D−Dφ(Ih−<h>ψ)消裸composition。
 已有fullZ<19/Zφ<83，d1e−10，完整97行差≤(2^15·19+2^12·83)/10^10<1e−4，任意even L2未知高频同门；scalar Cmean与97任意组合保，不乘sqrt97。旧K是固定known解析背景，新actual K*另付max(sδ,1)cδκ*，1/5只在原实际cap域内授予，未证明core图或γ域。freshmain 2261e45d395aa1c78fd5670583d9f4a1f57261c6两README未变，继续体算子/ν/有限反馈门。
+
+### 2026-11-15 11:50:50 UTC — 同参数core/ν完整差与finite193双输出准则独推
+
+root从真F/DF逐项推D1–23，tail独核D1–8及D17–23全过。最终15214B/SHA92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635；ΔS_Q仅新metric下state差，intrinsic kΔQ0²另保；principal mean与rank mean、I真实1/4完整。有限LL费M0+384M1，LH仅97..288但不穿过composition/old J。
+真Fν的Kν/Jν变更及compact外0明确；完整响应defect另有global +(Aδ−A0)Z，边界−ΔB Z及真bν全保。root证明L²body×独立cut上的2×2收缩和重构同迹，不以body L²冒bounded trace；aY=G0P A0H与普通源gY区分。actual e/gY/pY/row费三门仍待，未报sameδ有限逆或完整ν .005已成。freshmain ff04572dad056c4a301eb16d757467a8a8f9c938两个README未变；继续新消费者/Greenv4和强返回。

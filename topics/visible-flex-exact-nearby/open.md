@@ -73,7 +73,11 @@ C0≤1/32只是cutoff97的充分目标，当前volume upper并非这个Cs。
 [Cδ完整97行参数转移](results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md)
 现已证明fixed旧K下|δ|≤1e−10时全even L2输入的97行差<1e−4；用真实HC*及旧伴随H1，
 mean/unknown high与signed m保，无sqrt97；actual K*差另加max(sδ,1)cδ/5，不能把新图冒旧K。
-算术δ*与finite193固定δ0的体算子/Poisson反馈门仍须真正转授；phase Fourier投影与原physical P96
+[Dδ体算子与finite193转移](results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md)
+现给完整M1∂φ+M0差、系数带192与LH97..288，并保真intrinsic Fν、global ΔAZ与边界负ΔB Z。
+双输出矩阵[[gB e,pB εL],[gC e,pC εL]]的三门才给sameδ有限逆；gY为普通源增益而非aY，
+whole/negative/cut输出、fullmean及未知high边界列独立保。实际e/gY/pY及三门仍须消费。
+phase Fourier投影与原physical P96
 不对易，须完整finite border及其Schur，不能把phase-tail逆称physical HH。
 H16–17给保source/finite response的body与9/10 cut两输出矩阵B；
 H18的97..160仅原raw moving A_HL，不传给old-circle逆J后的源。
