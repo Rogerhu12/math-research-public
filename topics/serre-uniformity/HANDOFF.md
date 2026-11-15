@@ -14,7 +14,7 @@
 
 **R787原函数run43683912711仍待结果**，source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921，06:06 UTC起，core预算300min；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。14分支共同主元/自由列=1，在原L整基全残差Dixon提升；须非零A/B通过完整129×20 L准确代回。预算停则读取真实断点同源续接，不重算完成阶段，不预称原函数/β/高度。
 
-**R797五新Laurent run43693453831仍待结果**，source05bf2b2b22d1435a20233f48cb34a78fc53e7154，corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。只用R774共同56三积与R794新微分，保4·mult/1722³、一次q移、原相位及R781除数3n+1；个别N170/172/176/193/196，不重算旧f4。最后清行还需各自κ^N，R797保存至κ^(N−1)，后继只补一次乘法，不多跑R_N。
+**R797五新Laurent run43693453831已success、完整输出待IO核**，source05bf2b2b22d1435a20233f48cb34a78fc53e7154，corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。只用R774共同56三积与R794新微分，保4·mult/1722³、一次q移、原相位及R781除数3n+1；个别N170/172/176/193/196，不重算旧f4。最后清行还需各自κ^N，R797保存至κ^(N−1)，后继只补一次乘法，不多跑R_N。
 
 **R792证明及工程冻结，唯一待R787。** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)保c(f)=−[ζ²]f、y0=√−3v0及Fb=Q(b)中唯一立方根；21次Q分解唯一奇次数因子+三次gcd。Fb仅指定实嵌入；共同零阶0/1用R790已成首jet，四值全零才需更高jet。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d，只有pending无active。三直接producer/父bundle与两旧Git小回执已核；保原14坐标及82尺度。只得β_C/真实vβ，不解原A有限同源核原像。
 
@@ -35,7 +35,7 @@
 
 **R800 run43696070150已success，完整输出待根IO审核回执。** sourceb53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c，artifact14153948656，ZIP16486501字节、SHA78ab2d6222f95015246dbfd4237c4ae2be8126971983bf6ee7173da8b1c83a4e。[方法](notes/R800-original-M2-tail-129-195-method.md)仅新增146原M2行q129..195，保82²/40ξ/20t、E1两符号除数和/126迹/40det相位。core417dd598/method5d1d299e/wrapper2783ff56；329原输入IO已核。旧前缀不重算。
 
-**R801**最小长尾/第二关系接口已写，根审中；两纯文本已用Git blob保全，尚未提交。proof293a039249037d21dfa386f0c70044c7825e5702；methodafb71230cdb08af8421181076fb27e723c86ca18。原f4只补V6 q109..141；新V7/V8尾分别至175/195，按真实recipe闭包，不把整套V6延到195。R787若成第一关系就直接s=τB，不重求旧y。ordinary负责此接口。
+**R801已证明并登记**：[长尾与原关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；扁平原recipe与准确消失阶闭包，不算整套V6到195。Schur真秩d−20已证，第二关系有限试取最多e(k−1)+1次；新7/8铅笔须补全部V3至136/149。R787若成就直接s=τB；未生成新长尾/关系/高度。proof b283280e、method a96d7c3b；ordinary写仅长尾core。
 
 **R802**原f4半线性奇偶下降证明已全文交叉核，待最终文字版提交；不改运行R787。c0固定ξ而反s，原扭曲经T41给q/v→−号；奇阶y系数在Fb(tξ)，偶阶在sFb(tξ)，R_n带s^(n mod2)。真实±全球截面给七次字段关系；新基必须最终恢复两原基右端并全129认证。未计算新rank/kernel。
 
