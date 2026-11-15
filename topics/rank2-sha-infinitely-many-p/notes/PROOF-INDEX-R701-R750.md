@@ -40,3 +40,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R716：原wild全局theta周期与精确中央L值](../results/R716-original-wild-global-theta-period-and-exact-central-l-value.md)：原S34的完整arch Heisenberg位移h=((x+y)/3,51(x−y))与2/3/17原向量逐处固定，p处p²正交基及χ^-1本征给真实全局theta-null。hK1延拓η，真正twist的p角色为χ²、导子p²/阶p、根号+1；Yang良好向量因子与p+1轨道范数给L(ψ17·tildeη,1)/Ω_R=48940416|S_p(r)|²/p。原边界零iff该实际L值零；原j0到此零及变化p第一wild层非零仍均未付，固定tower定理不替代。
 
 - [R718：原CM分布与唯一Gaussian共振](../results/R718-original-cm-distribution-and-unique-gaussian-resonance.md)：选择实际α≡1 mod6、αmodp生成Fp²×，Normα≤27p²，原σ(αz)/σ(z)^N是完整p整CM division polynomial。原U满足U(α6w)=U^N Rα exp(c(N−α^(p+1))w^s)，有限指数全整；tbar=c_p N0 q_p(α)，Nmodp²的Frobenius幂保。高度二窗只有n=s共振，原logU_s=0唯一补齐，故实际CM输入唯一恢复R717全部二位族和原首Cartier行；p变次数/全局极帽与中央进位缺口保持。
+
+R718标量增补：原Gaussian共振给准确tα=−[w^s]logRα；s<p的单位对数和原有理Cartier均读出完整q_pα，无独立标量二位输入。实际Nmodp²的Frobenius幂、全部Z1零点/CM核极点与旧预算成本仍保。

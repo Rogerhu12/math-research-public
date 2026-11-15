@@ -5,7 +5,7 @@
 R717 用两组实际第二位恢复原 sigma 整窗。
 本篇将这些数据进一步约束为同一个真实 CM 同源分布式的唯一解。
 只用一个明确的、次数随 p 增长的 CM division 多项式的模 p 约化，
-加上该同源标号的模 p² 数据，就能恢复原整个整窗。
+加上该同源范数的模 p² 数据，就能恢复原整个整窗；第7节从同一来源读回完整标量。
 这些代价仍在；不把原固定来源换成任意形式 forcing。
 
 ## 1. 一个存在且大小受控的实际 CM 标号
@@ -313,6 +313,83 @@ $m(q-6)(p^3-p^2)\mathcal D_2$ 极帽。
 真实低位进位；这些正是下一步的指定问题。
 
 本篇无新增数值执行或原根猜想，固定曲线与无穷素数的主目标仍未完成。
+
+## 7. 完整标量已包含于同一 division 来源
+
+(9) 在特征零成立，而且原规范是 $[w^s]\log U=0$。
+取 (9) 的准确对数第 s 行，得到
+$
+\boxed{\qquad t_\alpha=-[w^s]\log R_\alpha(w).\qquad}
+\tag{18}
+$
+这是原实际 $t_\alpha$ 的等式，不是另选一个使分布式可解的参数。
+因为 $s<p$，右边只使用 $R_\alpha$ 的前 s 项及 $1,\ldots,s$ 的单位分母，
+所以约化也准确：
+$
+\boxed{\quad
+\bar t_\alpha=-[w^s]\log\bar R_\alpha,\qquad
+q_p(\alpha)
+=-\frac{[w^s]\log\bar R_\alpha}{c_pN_0}.
+\quad}
+\tag{19}
+$
+
+因此第4节的足够输入可缩为
+$F_\alpha\bmod p$、原 $X\bmod w^L$、实际 $N\bmod p^2$ 和原 $c_p$。
+完整 $q_p(\alpha)$ 已由这些来源的低行给定，不能再独立变动。
+式 (11) 中 N 的第二位仍然需要：这一步只删除重复的标量输入，
+没有把 $\bar U^N$ 换成 $\bar U^{N_0}$。
+
+### 7.1 同一 Fermat 商的有理 Cartier 读取
+
+还可不经过通常对数，把 (19) 写成一个确切的原有理函数观察。
+令
+$
+g_\alpha=\frac{D\psi_\alpha}{\psi_\alpha}\in k(E),
+\qquad D=\frac{d}{\omega_E},
+\qquad \omega_E=\frac{dx}{2y},
+$
+均为第2节真实 division 函数的约化。
+由 $R_\alpha=z^{N-1}\psi_\alpha/\alpha$，特征零 Laurent 展开给
+$
+g_\alpha=\frac{1-N}{z}
+ +\frac{d}{dz}\log R_\alpha(z^6),\qquad
+[z^p]g_\alpha=(p+1)[w^s]\log R_\alpha.
+$
+约化后 $p+1=1$。
+R714 的真实参数 $Z_1$ 满足 $dZ_1=\omega_E$，
+并与原 z 的整截断一致到次数 $p^2-1$。
+$g_\alpha$ 在 O 至多有一阶极，
+故该坐标代换对其 Laurent 展开的首次影响在次数至少 $p^2-2>p$。
+因此
+$
+\bar t_\alpha=-[Z_1^p]g_\alpha.
+\tag{20}
+$
+
+输入微分 $Z_1^{-1}g_\alpha\omega_E$ 在 O 至多有二阶极。
+$\mu_6$ 型给 $g_\alpha(\zeta P)=\zeta^{-1}g_\alpha(P)$，
+所以其 $Z_1^0$ 系数为零；上述输入的留数也为零。
+Cartier 不保留二阶极，而唯一可能留下简单极的留数已为零。
+故
+$\mathscr C(Z_1^{-1}g_\alpha\omega_E)/\omega_E$
+在 O 正则。由 $dZ_1=\omega_E$ 的局部 Cartier 公式，
+$
+\boxed{\quad
+q_p(\alpha)
+=-\frac1{c_pN_0}
+\left(
+ \left.\frac{\mathscr C(Z_1^{-1}g_\alpha\omega_E)}
+ {\omega_E}\right|_O
+\right)^p .
+\quad}
+\tag{21}
+$
+(21) 读出整个原 Fermat 商；没有只取反共轭部分。
+
+这里保留所有 $Z_1$ 的其他零点和同一 $\alpha$ 核上的实际极点。
+Cartier 观察不是旧预算中的免费新列；
+从 (19) 或 (21) 得到的系数关系，也不替代原完整中央进位和固定 $\phi_m$。
 
 依赖：
 [R614](R614-original-addition-integrality-window-and-complete-newton-tail.md)；
