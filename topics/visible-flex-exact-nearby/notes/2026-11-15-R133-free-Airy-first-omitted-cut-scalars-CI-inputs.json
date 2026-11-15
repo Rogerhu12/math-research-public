@@ -1,0 +1,356 @@
+{
+  "kind": "complete_free_Airy_first_omitted_cut_scalar_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py",
+  "source_sha256": "bff4c15eff76251b512778125342e640878741e9f01f973acc2b0dfe539f3615",
+  "contract_publication_commit": "d358150130b7ff4771711c1e409d540f82dc56c0",
+  "original_worker_basis": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap_public_worker.py",
+    "git_blob": "520bcc58b315a4c5a67f9f22eab218f331ed319b",
+    "bytes": 46560,
+    "sha256": "e7a0fd432e601b699c465f745e7d32eca8c5381ed1722c7ff437375aa7198099",
+    "scope": "same completed current-only scalar infrastructure, adding exact immutable temporary history restoration"
+  },
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "all_inputs_are_current_small_texts": false,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "input_paths": {
+    "old_fold_majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "whole_native": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/whole-physical-root-piece-first-Airy-sources.json.gz",
+    "whole_process": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+    "whole_publication": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+    "original_fold_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "original_whole_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+    "original_whole_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-first-Airy-sources-CI-inputs.json",
+    "free_radius_stage": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz",
+    "new_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md",
+    "primitive_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md",
+    "ordered_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+    "original_Taylor_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension.py",
+    "original_IN_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_all_segment_Darboux_scalar_receivers.py",
+    "RR_execution": "topics/visible-flex-exact-nearby/notes/root_mean_value_saved_product_Darboux_receiver_ci/run-43750683671-1/execution.json",
+    "TN_execution": "topics/visible-flex-exact-nearby/notes/strict_cut_two_window_normalizers_ci/run-43752771157-1/execution.json",
+    "TC_execution": "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json",
+    "ST_execution": "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+    "new_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py"
+  },
+  "current_text_input_roles": [
+    "new_contract",
+    "primitive_contract",
+    "ordered_contract",
+    "original_Taylor_algorithm",
+    "original_IN_algorithm",
+    "RR_execution",
+    "TN_execution",
+    "TC_execution",
+    "ST_execution",
+    "new_source"
+  ],
+  "historical_input_roles": [
+    "old_fold_majorants_stage",
+    "adjacent_process",
+    "adjacent_publication",
+    "whole_native",
+    "whole_process",
+    "whole_publication",
+    "original_fold_algorithm",
+    "original_whole_algorithm",
+    "original_whole_manifest",
+    "free_radius_stage"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_all_segment_Darboux_scalar_receivers.py",
+    "topics/visible-flex-exact-nearby/notes/root_mean_value_saved_product_Darboux_receiver_ci/run-43750683671-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/strict_cut_two_window_normalizers_ci/run-43752771157-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/whole-physical-root-piece-first-Airy-sources.json.gz",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-first-Airy-sources-CI-inputs.json",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/whole-physical-root-piece-first-Airy-sources.json.gz": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-first-Airy-sources-CI-inputs.json": "d30c306e58f3e6be96768b983db4df840843455e2cc5147c84c6e2d7958e5aac",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz": "8b31b1c0030f892ec763d32ecf7b4968d468c5f93b30bbfe7408d6bf0b4892d5",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md": "24216c6d78f1261e16b9d53030fb2b899a94e9e9d8900e7fea79746ef32d96af",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md": "38e1495faf6d651401a94040566f9e59c1ccdd58732fc0aa4d176480c098210e",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension.py": "42048094f7c5e0ba3b83f10e9e6fcbc5cd4c5b3d67057f69241409a5a4be87a1",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_all_segment_Darboux_scalar_receivers.py": "726bdd98802c88e9c162f598ff983bc8a762d8cc8f8216164c56e6b960119874",
+    "topics/visible-flex-exact-nearby/notes/root_mean_value_saved_product_Darboux_receiver_ci/run-43750683671-1/execution.json": "a75da290077cf0e134834be5e35a0fa7cd55cd79104f5128d87eaee898af162b",
+    "topics/visible-flex-exact-nearby/notes/strict_cut_two_window_normalizers_ci/run-43752771157-1/execution.json": "7abb04effcb8009dafaeec65cf3474e5d045b92c555bb92118544cd47256ee3d",
+    "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json": "37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880272f9b92f902e",
+    "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py": "bff4c15eff76251b512778125342e640878741e9f01f973acc2b0dfe539f3615"
+  },
+  "mathematical_input_sha256": {
+    "old_fold_majorants_stage": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144",
+    "adjacent_process": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b",
+    "adjacent_publication": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c",
+    "whole_native": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d",
+    "whole_process": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145",
+    "whole_publication": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099",
+    "original_fold_algorithm": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783",
+    "original_whole_algorithm": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81",
+    "original_whole_manifest": "d30c306e58f3e6be96768b983db4df840843455e2cc5147c84c6e2d7958e5aac",
+    "free_radius_stage": "8b31b1c0030f892ec763d32ecf7b4968d468c5f93b30bbfe7408d6bf0b4892d5",
+    "new_contract": "24216c6d78f1261e16b9d53030fb2b899a94e9e9d8900e7fea79746ef32d96af",
+    "primitive_contract": "38e1495faf6d651401a94040566f9e59c1ccdd58732fc0aa4d176480c098210e",
+    "ordered_contract": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00",
+    "original_Taylor_algorithm": "42048094f7c5e0ba3b83f10e9e6fcbc5cd4c5b3d67057f69241409a5a4be87a1",
+    "original_IN_algorithm": "726bdd98802c88e9c162f598ff983bc8a762d8cc8f8216164c56e6b960119874",
+    "RR_execution": "a75da290077cf0e134834be5e35a0fa7cd55cd79104f5128d87eaee898af162b",
+    "TN_execution": "7abb04effcb8009dafaeec65cf3474e5d045b92c555bb92118544cd47256ee3d",
+    "TC_execution": "37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880272f9b92f902e",
+    "ST_execution": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637"
+  },
+  "expected_actual_gate_count": 24,
+  "expected_immutable_AST_files": 5,
+  "expected_input_count": 20,
+  "complete_input_bytes": 646657,
+  "runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320
+  },
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "runtime": {
+      "Python": "3.12.14",
+      "python_flint": "0.9.0",
+      "arithmetic_bits": 320
+    },
+    "exact_strict_cut": "76285779072683/320000000000000",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_real_delta_radius": "1/100000000",
+    "physical_root_piece": 2549,
+    "exact_fold_radius": "3/8000",
+    "exact_fold_strip": "3/128",
+    "exact_coefficient_strip": "1/32",
+    "exact_saved_free_radius": "9/1000000",
+    "exact_saved_free_width": "1/512",
+    "exact_new_amplitude_width": "1/1024",
+    "maximum_explicit_angular_derivative": 6,
+    "input_cutoff_abs_j": 97,
+    "physical_frequency": "n=4|j|",
+    "physical_signs": [
+      -1,
+      1
+    ],
+    "oscillatory_branches": [
+      -1,
+      1
+    ],
+    "reference_column": "same terminal Ai free P8 first column",
+    "radial_density_convention": "R_c=n_g(r_c)*T(q(r_c)); no extra reaction gauge",
+    "old_original_primitive_L2_norm": "1/4",
+    "old_complete_J_L2_upper": "0.825332620",
+    "old_contour_T_upper": "19/1000000",
+    "new_mean_exponent_lower": "1/2048",
+    "Ai_initial_modulus_upper": "1",
+    "Airy_error_domain": "all real t>0 and n>0",
+    "Airy_error_derivatives_taken": false,
+    "original_saved_norms_recomputed": false,
+    "normalizer_cutoff_is_separate_from_input_cutoff": true,
+    "finite_S_L_is_paid_as_a_complete_strong_norm": true,
+    "complete_physical_means_and_intermediate_projection_ranks_retained": true,
+    "expected_structural_gates": 24
+  },
+  "scope": {
+    "new_g_coefficients": 4,
+    "new_original_mean_terms": 6,
+    "new_inner_primitive_tail_groups": 2,
+    "new_outer_B_coefficients": 6,
+    "old_finite_Taylor_norms_original_tail_profiles_or_integrals_recomputed": 0,
+    "old_fold_J_TN_TC_or_ST_targets_recomputed": 0,
+    "old_binary_inputs_restored_temporarily": 3,
+    "old_archives_downloaded": 0,
+    "original_full_history_files_restored_temporarily": 10,
+    "original_historical_input_reference_manifest_sha256": "4718b4b818ec5d72537aa3a93e5825747a586ece87a086c7578ec6ec4c3b9ded",
+    "all_history_tuples_are_original_RV_frozen_inputs": true,
+    "complete_science_preserved_before_presentation_or_git": true,
+    "completed_science_reused_across_wrapper_only_changes_with_same_mathematical_identity": true,
+    "same_cut_forward_L2_error_fee_and_ng_inverse_input_fee_are_separate": true,
+    "TC_U_Phi_is_not_inverse_U_Phi": true,
+    "FS_finite_rank_mean_and_cross_terms_are_norm_paid": true,
+    "actual_waist_leading_incoming_outgoing_finite_Schur_or_full_R0_not_claimed": true
+  },
+  "files": [
+    {
+      "role": "old_fold_majorants_stage",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "adjacent_process",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "adjacent_publication",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "whole_native",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/whole-physical-root-piece-first-Airy-sources.json.gz",
+      "bytes": 44628,
+      "sha256": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "whole_process",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+      "bytes": 8346,
+      "sha256": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "whole_publication",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+      "bytes": 11945,
+      "sha256": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "original_fold_algorithm",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "original_whole_algorithm",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+      "bytes": 51126,
+      "sha256": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "original_whole_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-first-Airy-sources-CI-inputs.json",
+      "bytes": 39179,
+      "sha256": "d30c306e58f3e6be96768b983db4df840843455e2cc5147c84c6e2d7958e5aac",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "free_radius_stage",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz",
+      "bytes": 20924,
+      "sha256": "8b31b1c0030f892ec763d32ecf7b4968d468c5f93b30bbfe7408d6bf0b4892d5",
+      "restore_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+    },
+    {
+      "role": "new_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md",
+      "git_blob": "acfb0cfd9a2598c00a6b29c2db05041d0340cba9",
+      "bytes": 27814,
+      "sha256": "24216c6d78f1261e16b9d53030fb2b899a94e9e9d8900e7fea79746ef32d96af"
+    },
+    {
+      "role": "primitive_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md",
+      "git_blob": "ddc62b4539d640a950c2005505e08695f80910e7",
+      "bytes": 14772,
+      "sha256": "38e1495faf6d651401a94040566f9e59c1ccdd58732fc0aa4d176480c098210e"
+    },
+    {
+      "role": "ordered_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+      "git_blob": "7a2f4fc25f209cbd5909733c8b955f24ec0ef8c8",
+      "bytes": 12221,
+      "sha256": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00"
+    },
+    {
+      "role": "original_Taylor_algorithm",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension.py",
+      "git_blob": "354308bc385a77e17fa6d438e4fc669029c120fb",
+      "bytes": 53507,
+      "sha256": "42048094f7c5e0ba3b83f10e9e6fcbc5cd4c5b3d67057f69241409a5a4be87a1"
+    },
+    {
+      "role": "original_IN_algorithm",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_all_segment_Darboux_scalar_receivers.py",
+      "git_blob": "64f389601bd58a653969141525709ca470996000",
+      "bytes": 36387,
+      "sha256": "726bdd98802c88e9c162f598ff983bc8a762d8cc8f8216164c56e6b960119874"
+    },
+    {
+      "role": "RR_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/root_mean_value_saved_product_Darboux_receiver_ci/run-43750683671-1/execution.json",
+      "git_blob": "ef746ab2c3c0975eafe1fb4354d1a86cc1cc9510",
+      "bytes": 51791,
+      "sha256": "a75da290077cf0e134834be5e35a0fa7cd55cd79104f5128d87eaee898af162b"
+    },
+    {
+      "role": "TN_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/strict_cut_two_window_normalizers_ci/run-43752771157-1/execution.json",
+      "git_blob": "8aab98f7374398d01e9095176fe7166ee25fdc21",
+      "bytes": 39196,
+      "sha256": "7abb04effcb8009dafaeec65cf3474e5d045b92c555bb92118544cd47256ee3d"
+    },
+    {
+      "role": "TC_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json",
+      "git_blob": "5fa965e523f957432d09528641aad9f836be4561",
+      "bytes": 38057,
+      "sha256": "37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880272f9b92f902e"
+    },
+    {
+      "role": "ST_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+      "git_blob": "94eb4c7d643edc33f696d101753e4d23a7936a26",
+      "bytes": 47282,
+      "sha256": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637"
+    },
+    {
+      "role": "new_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py",
+      "git_blob": "056a3ac9e96cbe0598749dfa3beb4be7fb6993b5",
+      "bytes": 48693,
+      "sha256": "bff4c15eff76251b512778125342e640878741e9f01f973acc2b0dfe539f3615"
+    }
+  ]
+}
