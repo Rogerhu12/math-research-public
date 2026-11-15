@@ -1,0 +1,80 @@
+{
+  "kind": "actual_complete_direction_preserving_finite193_matrix_Green_v1",
+  "phase": "backward",
+  "complete": false,
+  "failure": null,
+  "gates": [
+    {
+      "name": "actual_complete5970_same_F_matrix_cover_and_original_four_rows",
+      "passed": true
+    },
+    {
+      "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+      "passed": true
+    },
+    {
+      "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+      "passed": true
+    },
+    {
+      "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+      "passed": true
+    },
+    {
+      "name": "original_complete_true_ordinary_L2_Green_kernel_and_process",
+      "passed": true
+    },
+    {
+      "name": "all5970_true_individual_weighted_jump_gains_and_actual_public_process",
+      "passed": true
+    },
+    {
+      "name": "complete_true97_boundary_including_mean_and_exact_nominal_matrix",
+      "passed": true
+    }
+  ],
+  "seconds": null,
+  "completed_rows": 238,
+  "actual_progress": {
+    "complete_rows": 238,
+    "last_complete_index": 237,
+    "phase": "backward",
+    "total": 5970
+  },
+  "reused_complete_rows": null,
+  "new_covariance_rows": null,
+  "new_forward_covariance_rows": null,
+  "complete_true_finite193_body_high_to_low_bounds": null,
+  "complete_finite193_directional_two_boundary_bound_proved": null,
+  "full_cap_infinite_high_trace_input_still_independent": null,
+  "negative_high_BVP_inverse_and_full_low_high_Schur_still_required": null,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "complete_saved_native_chunks": 8,
+  "all_old_F_C_Grams_targets_and_ports_recomputed": 0,
+  "native_sha256": "26e582ed16f0d6b1054f4ae2404401058f74d543b3dc5aadbf596256d0c8605a",
+  "actual_process_context": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43672023585",
+    "run_attempt": "1",
+    "worker_source_sha256": "3709858655e70ebe7bd334b4c1b0c070cdb8855ad31878a240229c4768b3e096",
+    "input_manifest_sha256": "3350a96fbea47ee33bb09cb6602cb1e978e8ba00a034c7f735dfb60bade99910",
+    "actual_readme_check_count": 4,
+    "latest_actual_readme_check": [
+      {
+        "time": "2026-11-15T03:38:14.021732+00:00",
+        "before": "a794462166b064abe259ac23ef199a6cb41ea8bf",
+        "after": "699f5cde131b155478df45e405c77da46387ac2f",
+        "changed": false,
+        "actual_diff": "",
+        "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+      }
+    ],
+    "actual_child_returns": [
+      {
+        "label": "all5970_complete97_future_directional_covariance_rows",
+        "actual_returncode": null
+      }
+    ]
+  }
+}

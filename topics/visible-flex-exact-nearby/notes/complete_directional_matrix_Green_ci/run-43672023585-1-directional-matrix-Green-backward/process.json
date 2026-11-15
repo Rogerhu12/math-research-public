@@ -8,7 +8,54 @@
   "workflow_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
   "worker_source_sha256": "3709858655e70ebe7bd334b4c1b0c070cdb8855ad31878a240229c4768b3e096",
   "started_utc": "2026-11-15T03:22:42.890977+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "all5970_complete97_future_directional_covariance_rows",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_directional_matrix_Green.py",
+        "--phase",
+        "backward",
+        "--matrix-run",
+        "43654510038",
+        "--array-root",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-array-artifacts",
+        "--arrays",
+        "/__w/_temp/visible-exact-directional-matrix-Green-output/matrices",
+        "--out",
+        "/__w/_temp/visible-exact-directional-matrix-Green-output/native/complete-directional-matrix-Green-backward.json.gz",
+        "--matrix-data",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-complete-same-F-5970-finish-43654510038-1/native/complete5970-same-F-directional-matrix-data.json.gz",
+        "--matrix-process",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-complete-same-F-5970-finish-43654510038-1/process.json",
+        "--profile",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-complete-5970-projectors-43594139132-1/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-complete-5970-projectors-43594139132-1/process.json",
+        "--green",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-complete-cut-Green-complete-43601964129-1/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-complete-cut-Green-complete-43601964129-1/process.json",
+        "--kernel",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-finite193-L2-Green-kernel-43633074696-1/native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+        "--kernel-process",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-finite193-L2-Green-kernel-43633074696-1/process.json",
+        "--impulse",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-cached-interface-impulse-43649423561-1/native/complete-all5970-cached-interface-impulse-gains.json.gz",
+        "--impulse-process",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-cached-interface-impulse-43649423561-1/process.json",
+        "--reviewed-impulse-process",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/science/topics/visible-flex-exact-nearby/notes/finite193_cached_interface_impulse_ci/run-43649423561-1-all5970-cached-interface-impulse-gains/process.json",
+        "--boundary",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/original-public-inputs/visible-exact-cut-projector-prepared-43594139132-1/native/complete-true-weighted-boundaries.json.gz",
+        "--nominal-cut",
+        "/__w/_temp/visible-exact-directional-matrix-Green-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
+      ],
+      "started_utc": "2026-11-15T03:28:11.434579+00:00",
+      "actual_returncode": null
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T03:22:43.395789+00:00",
@@ -33,9 +80,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:38:14.021732+00:00",
+      "before": "a794462166b064abe259ac23ef199a6cb41ea8bf",
+      "after": "699f5cde131b155478df45e405c77da46387ac2f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T03:28:11.431942+00:00",
+      "final": false,
+      "commit": "19c175d8f3a80ad014e4ba6206944022873f0f9f"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -69,7 +130,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "a794462166b064abe259ac23ef199a6cb41ea8bf",
+  "last_read_commit": "699f5cde131b155478df45e405c77da46387ac2f",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-directional-matrix-Green-work/science",
   "actual_input_sha256": {
     "matrix-data": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd",
@@ -91,9 +152,15 @@
   "required_original_array_files": 11970,
   "all_original_array_files_verified": 11970,
   "original_array_data_recomputed": 0,
-  "snapshot_utc": "2026-11-15T03:28:07.756915+00:00",
-  "wall_seconds": 324.866630159,
+  "snapshot_utc": "2026-11-15T03:38:14.085576+00:00",
+  "wall_seconds": 931.195296141,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-Green-outcome.json",
+      "file": "evidence/actual-latest-matrix-Green-outcome.json",
+      "bytes": 2698,
+      "sha256": "afec001470356650dc1e37f8ed7f9e668efcbce721eca17ebc9a8f7e6ecff756"
+    },
     {
       "logical_file": "evidence/original-all5970-impulse-artifact-process.json",
       "file": "evidence/original-all5970-impulse-artifact-process.json",
@@ -561,6 +628,62 @@
       "file": "evidence/original-complete97-weighted-boundary-process.json",
       "bytes": 13666,
       "sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00000-32.json.gz",
+      "file": "native/backward-complete-rows-00000-32.json.gz",
+      "bytes": 27648,
+      "sha256": "9897d3b00f9d52dcecfd01b7cecf4938033b3246055c9fde840a8e163aa92fa5"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00032-32.json.gz",
+      "file": "native/backward-complete-rows-00032-32.json.gz",
+      "bytes": 27865,
+      "sha256": "ec9787801b18b3b4cc3cf51d94b3f3bfa194b8b11752fe15d2ddf505b07201af"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00064-32.json.gz",
+      "file": "native/backward-complete-rows-00064-32.json.gz",
+      "bytes": 27903,
+      "sha256": "717db7e4ea1e421ed23deb1659703bcbc1c1bfb611b0cb8fee34589867a6b522"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00096-32.json.gz",
+      "file": "native/backward-complete-rows-00096-32.json.gz",
+      "bytes": 27887,
+      "sha256": "ed602753a90597a08965baf4845d7a236220a3a2700352e44f96fca37f093a76"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00128-32.json.gz",
+      "file": "native/backward-complete-rows-00128-32.json.gz",
+      "bytes": 27817,
+      "sha256": "952d27607ef0f7530fa7b251d1c0692726cf87e9afa3323197656ed48f9b520a"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00160-32.json.gz",
+      "file": "native/backward-complete-rows-00160-32.json.gz",
+      "bytes": 27915,
+      "sha256": "916bd2af4f75c92836fae5b2fc901deb7af7bc6abde9de9c0a658e6015fa0c06"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00192-32.json.gz",
+      "file": "native/backward-complete-rows-00192-32.json.gz",
+      "bytes": 27851,
+      "sha256": "6ca7dc1c0df9cf0e66382fb74b067f5b4ceb59ec34cb7abf529a0017cde31f00"
+    },
+    {
+      "logical_file": "native/backward-complete-rows-00224-14.json.gz",
+      "file": "native/backward-complete-rows-00224-14.json.gz",
+      "bytes": 12886,
+      "sha256": "37e01a201df00f8aeda781b69921e5b7054ec9682289ad2ba2134aa0e87fc5b9"
+    },
+    {
+      "logical_file": "native/complete-directional-matrix-Green-backward.json.gz",
+      "file": "native/complete-directional-matrix-Green-backward.json.gz",
+      "bytes": 2750,
+      "sha256": "26e582ed16f0d6b1054f4ae2404401058f74d543b3dc5aadbf596256d0c8605a"
     }
-  ]
+  ],
+  "actual_completed_directional_rows": 238,
+  "latest_scientific_native_sha256": "26e582ed16f0d6b1054f4ae2404401058f74d543b3dc5aadbf596256d0c8605a"
 }
