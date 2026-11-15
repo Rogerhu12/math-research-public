@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 13:33:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 13:34:06 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 13:23:55定时及13:32非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar/AJ及log；ref不冒pull，每小时CLI继续。
-最近只读README核：e2bbe93826b1229f4874ae3a6c4ac4f1048d0573；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：2a3300a9edec73c23e72f23127a0ae7d8222d13e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -30,7 +30,7 @@ AJ43718112378/1 child0/29门锁，report2ff53654/execution58462f96/result3fa0818
 
 N43716450174/1 child0/17门锁，report59ab1bb6/execution318dd25b/result72745bf3；22pin/6cut/完整域及失败保690b33bc同H/原actual。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709，旧G贡献<5.92509e14；root/jump实际列/positive/waist/return未付。
 
-RV/8e91d7a2证L1先消ℬ′b0e1、保ℬ″KJ+w0与iεTℬ′J+(2w0X+Xi w0)，L2只物理b1r/b1φ+全rank。SCI439b3ab1/worker7748c390/41pin49ac3ed2已部署；新13负h-tail+2整local，旧17stage/8成功receipt仅读，29列逐字AJ。27门待actual，非GH。
+RV/8e91d7a2精确L1抵消/L2物理b1和fullrank保。首43719397730/1 child1、13/14：误要求旧formatter失败publication.complete真；executioncb474bc8/result7d102ad6，new13tail/2local计数0。仅改该身份为false/child1，SCI d59893af/41pin4718b4b重部署，worker7748c390不改；27门待actual、29列逐字AJ，非GH。
 
 ## 实际帽与core全频接口
 

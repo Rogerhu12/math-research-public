@@ -178,7 +178,8 @@ def read_original_free_budgets(paths,pins,h,gate):
         and native["source_sha256"]==WHOLE_SOURCE and native["input_manifest_sha256"]==WHOLE_MANIFEST
         and native["runtime"]==RUNTIME and native["gates"]==process["mathematical_gates"]
         and len(native["gates"])==10 and all(g["passed"] for g in native["gates"])
-        and native["actual_local_numerator_is_unnormalized"] and publication["complete"])
+        and native["actual_local_numerator_is_unnormalized"]
+        and publication["complete"] is False and publication["actual_returncode"]==1)
     gate("the free numerator and free correction are on the same repaired piece parameter square and physical root",
         native["fixed_intrinsic_parameter"]=="eta_0"
         and Q(native["exact_complex_coefficient_delta_radius"])==Q(1,10**8)
