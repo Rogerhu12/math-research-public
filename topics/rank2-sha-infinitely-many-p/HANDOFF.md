@@ -6,20 +6,20 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9d34b3788576c5a97379ef64eea943118c51d24e；2026-11-15 03:31:59 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:31:58 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
+- 最近已读规则提交：acbb772614698de7007ea8bc13563ddf1fab5383；2026-11-15 03:35:07 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:35:06 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 记录、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–667已登记；R364/R561仍开，R637/R654/R668–670进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r666.md)、[open](notes/2026-11-15-open-before-r664.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
+R1–363、R365–560、R562–636、R638–653、R655–668已登记；R364/R561仍开，R637/R654/R669–671进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r668.md)、[open](notes/2026-11-15-open-before-r664.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：R666七条原Λ的33系数/准确N递推已付；续R669同完整来源深度全族/原门联系。惰性R654真实sigma modp²及R663中央到共振余数继续开；R606已含H^-p log不重登。
+- root：R666七条原Λ的33系数/准确N递推已付；续R669两S共同来源合回真实even S34六维基及原算术行。惰性R654真实sigma modp²及R663中央到共振余数继续开；R606已含H^-p log不重登。
 - theta：R667原11维核的实际可见δJ与七S5矩已付；续R670原Λ2全部5系数或33系数映射在实际核上的秩/可消性。
-- literature：R664已付；续R668真实E浅域的A/Q/L及cd返回、四Y词及完整cut。
+- literature：R668真实E浅域/四Y全词已付；续R671固定N、n→∞浅补域与原cd全返回，额外双Y cut完整保。
 - deep：R657/658及多Euler增补已付；续R637旧同R/全Padé，正在付实际双法向jet与约3.943√p大D门；尚未登记，不作已证使用。
 
 ## 原对象、射线和未闭旧线
@@ -47,13 +47,13 @@ R664 quarter同转q/Y/W给四真S/T行；Y0=A+Q,Y1=A+L，共深轴R,D10/E范数1
 
 R666新增：原七Λ的完整S29基为σ29x^a y^β，r=29−2a−3β遍历0..29除28；角k−2分别4/5/5/5/5/5/4系数，共33。两全核返回给F_k,N=κ^(kN)λ^-NΩ^k AΛ=Σ_h0..6 κ^(Nh)F_k,h,p；系数由原≤35次矩的单位三角完整恢复，固定有限theta格F_N−F_0∈κ^N格。真实测度满足∏_h(Shift−λ4κ^(4(h−k)))Λ_k,4r=0。只对固定测试直接用；T随N的cut/log仍完整运输。33映射秩尚未计算。
 R667实际δq来自Π_p e_CFG4，Π=I−B(A_pB)^−1A_p；九约束全部保持且完整π4推前恒零。归一δJ两η固定函数f±=(∓c*+d±τ)/(τ−1)，c*=(125125741+70916963ω)/571536非零；同ray相对密度一子族所有N4 vδJ=−2N，故该质量映射饱和。七S5总矩准确消另一pair轴，有限n S共同核全保；T仍混合cut。R665同负一深支δΔ非零，却被原浅与T外部无条件准确补偿，不能冒新算术零。
+R668四Y任三交=A/Q/L全深，所有邻/对面交与唯一外部给真实五词包含排除。Γ内E第j<n层准确=A/Q/L/c/d/W同浅；j≥1原q还迫D*deepj，完整四轴返a=(ηAχD)^jλ^(2n+2j)，保持Cperpunit/H_i深N−j及原E/G修正。固定剩余M/ℓ的权对κj degree≤6，S真七阶根λ16κ^(4a)；T/S单位cut同一，差为完整log(1+κj R)并保logbY质量。第零层及全部Y外部不删。
 同R594未加帽四全行基准0，门外负基准不删。固定CM稀疏单位仅供固定λκ多项式；旧负五I1未付，与负一分清。
 
 ## 惰性全中央、解析和全成本
 
 R624原Hadamard/完整addition三Gaussian、ψp四位、真实低残差保；R630原division p7误差/五商js/2s窗外二次unit付，指定非退化仍开。
 R636两真实Cartier及h5仿射−ℓκ5、R647同P2原S/T/U完整返回给g_mh=T_mh(h≤4),g_m5=T_m5−6κ5；j0迫T1=0及真实低商高约束。R649同模pΘ的两维比较提升改两a/p之det=−228072b/5unit；这些不是原sigma自由提升，R654须付其真实modp²条件。
-R614–619/625–627全窗/首坏带/Newton尾、R618 τ2=(2p−1)/(p(p²−1))保持。
 R632/635原所有p幂真实z半径RE/闭非Tate；u坐标原p次仍闭非Tate、p²次可过界，勿混。七积分含H38独立。
 
 R639整范数一CM极限给Ec=hTg,Tg±1整；原j0仅使零初值同解延每个R<RE。R660原Φ/B、完整边界轨道/首[z^(p+1)]A_m给闭X盘必须j0和Q^(p+1−m)|B；Hurwitz/复界迫大p首有理系数真0。
@@ -64,11 +64,10 @@ R643有限中央Gaussian正成本O(k(loglogk)²)不改bI3；七塔/全非中央S
 
 ## 原同R及全物理格
 
-全部C carry、R610 Ξ/Witt、原帽/连续前缀/Schur保持；旧M=c*U0m13J、19角/P134/charge40、13自由/26carry/conductor10980不删。
-R593/597/603/608同R全D+/两13尾、Qn/Qquad与结点Taylor见归档；实际余像仍开。
+原全C/carry/Witt/十九角/帽/前缀/Schur、旧M=c*U0m13J、P134/charge40/13自由26carry/conductor10980及R593–608同R全部尾/结点均保持，详完整前检；实际余像仍开。
 R620同帽整核、R631全Υ边界、R633首β保持；R629 bD≥s−13满射仅吸同R已过全J/p²后的第二A，真缺口bD≤s−14。
 R651原r≤ν≤13在强s窗/原帽下付同P整三jet/强t-Hensel/全低核/真实Dψ和完整p³，ν≥7的S(η0²R2)/2不删；先过barY+=πsbarZ+=0才读Ψ_R∈imTψ，指定非零未付。
 R646原全C高尾Smith e≤ceil((bD+13)/s)≤7，p≥137≤6，非原整等价；R648真实列p^j权旗标给μe=ce−δe+δ(e−1)，p≥6101早阶门自动，非有序前缀。
 R657同P完整1/2/3/固定≥4 Euler输出的特征零共同接触常数99/40、25/18、25/27、3/4；精确Hq/kq保全高尾与特征p端点。旧E²P仅ell短行，三S/T/U非三Euler，目标p核不能搬辅助p。
-R640 Wilson回G0W836/charge876全帽不添零；R642原Mc=(I−34F2s p²B/a)M保同P/R及ell+13/26carry，须先过全MQ2∈p²。
+R640 Wilson/charge876及R642同P/R完整p³/13与26carry按前检，未新增中央零。
 原Beta及广义Stieltjes正性不付原Padé；A2正密度可有理，不排其它AT。详原增补。R637继续。

@@ -40,3 +40,5 @@
 - [R666：原七条条件A来源的完整33系数与准确深度递推](../results/R666-original-conditional-a-sources-and-exact-depth-recurrence.md)：两whole核和C单位补项给归一整条来源对κ^N的至多六次多项式；完整S29按角型共33系数，经原≤35次矩的单位三角准确恢复。原测度全N4满足七阶递推，保全部λκ/原右逆/两η；只对固定测试直接使用，未冻结T移动cut/log或预称系数映射满秩。
 
 - [R667：原十一维核的可见单位质量与七来源完整S5消元](../results/R667-original-kernel-visible-mass-and-seven-source-contraction.md)：同一九行整核中构造实际δq，完整π4推前恒零，而其共同二阶质量在同ray相对密度一子族全N4有vδJ=−2N；两η固定函数/整提升全部保留。七个总S5矩给有限n的两个真实S共同域，原T混合cut、浅补域和外部准确补偿非零负一深支；未新增中央零。
+
+- [R668：原双S浅环带的四轴返回、实际递推与全外部词](../results/R668-original-double-s-shallow-annuli-and-exterior-words.md)：四Y全部交集/真实五词外部付清；Γ内E浅恰原A/Q/L/c/d/W同浅，正层q迫D*深并用完整四轴返回。固定剩余深度的原权对κ^j至多六次，S七阶递推及T同cut完整log级数均准确；保第零层、所有质量和原Y外部，不添中央零。
