@@ -73,7 +73,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)保存Z=a·diag(1,2^b)v，原QF=1幅因子/符号/log全保；完整继承盒参与矩阵误差，只在整个端点分量隔零时换chart，两个盒含0只能细分/partial。cut每候选保原闭管/非零幅度，严格T0隔零才形成2^bT1/(wT0)，各自合法商后hull；未付保有索引非除Robin族，不混不同尺度原列，端点pivot不付闭管高度。
 
-[162接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)保5440e2e0科学driver、befe77fc reader及原40定义/全16pins/同C/112；25M/14400s/free2GiB，18900只线性启动clip计划、输入绑定另计，实际硬限step250/job360。prepared仅commit spans付，全mode/cut/leaf/unpaid读，大ledger仅身份/行数；四读回+同源marker+静止owner才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑43735722483在原rules argv裸--处失败，0科学/0该run pull。仅接线及重发metadata修，request626e3111/workflow23442307；新run43736658472/sourceb5a36d87，geometry唯一核R358，不作159门。
+[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)核43736658472/sourceb5a36d87：C3363.2282989s全1440/六primitive/两闭域/cut/deep112齐，whole2609精度未付。m2传播100attempt/49commit，在row17/piece3/depth32双端点分量盒含0而不能合法pivot；19闭栈、rows18..14643及m4..224全未访、cut候选0。0.377631095s、resources.stop=null，非25M/14400s/free2GiB止；准确列非零不支付当前盒隔零，不作真实共振结论。原幅符号/log/因子链、误差/49span与全后缀保，四读回+同源marker+owner静止后raw已清。原[R355](results/R355-actual162-pre-science-argument-separator-failure.md)与[接线接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)保；下一步处理继承包围盒和射影相关性，不能只升全局预算。
 
 ### 3B. 准确九族与完整公共u目标误差
 
@@ -83,7 +83,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)公共u、准确L²与a(Lu)²、全部可能片/九支撑/数值两侧/中心差及同场η+δ+ηδ保；固定E盒不自动任意精化，实际δ<1与同一场metric前提另付。
 
-[R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)target127.386056539s/65535节点在65536cap前两子事务止；完整u盖32977叶/10468未决、unvisited0/transaction null/严格反证0，globalδnull/exit3，非900墙钟。[R349实际163补151](results/R349-actual163-original151-complete-log-reconstruction.md)已付原compute899965552B一次下载及470411元数据检查；新semantic378606B的五组完整重建，原result101961B/input62020B和完整覆盖收据已读取。65535节点/32977cover/10468frontier/32558双子事务与419片字符串覆盖全身份相符；节点区间值未全部打印到新log、未逐值重证，不从计数猜主因。原准确L及全局径向差完整整数区间见正文，globalδ仍null；没有科学重算、改变门或保存新raw。
+[R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)/[R349完整日志恢复](results/R349-actual163-original151-complete-log-reconstruction.md)：127.386056539s、65535节点/32977闭叶/10468未决，unvisited0、严格反证0/globalδnull/exit3，非900s墙钟。原899965552B日志在Actions一次读取，470411元数据检查、result101961B/input62020B与五账身份相符；节点区间未逐值重证，不从计数猜唯一主因。原L/径向差区间及完整资源/读回范围见两结果与[逐字检查点](notes/2026-11-15-open-checkpoint-through-R371-and-173.md)，未付同场metric责任保。
 
 [R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)准确共享L、cut中心collar/右锚last/coast、九项按支撑合并至8次及全共同u Bernstein已证；numeric自身anchor/width/系数/校准缺陷不归零。[165接口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)已发布1f2ec637，source61b98/request6beff06b/workflow10b6e44a，原20pins保共21；完整419闭片/全部支撑inside/outside/双端点/两子事务及C3600/两域300/target900/65536/32/320bits不变。四实际读回成功才清，exact核actual/R356；不缩原E语义盒、不从R349计数猜唯一瓶颈、不预填δ或同场metric。
 

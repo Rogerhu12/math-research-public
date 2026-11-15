@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:47:10 UTC 已读 331bbc2bbc4f36f7a5b9afa11c6bb58425a17991，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:54:33 UTC 已读 444035902907dc149caa953ab285a981f31417de，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -39,7 +39,7 @@
 
 [R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)：C/cut/deep112齐；m2/4/6/8 cut高度盒含0，m10在200000止；原全栈/后缀保，非共振反证。
 
-[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：5440e2e0/befe77fc、原C3600/112/16pins；严格pivot/全误差/幅因子链、逐cut商后hull，prepared仅commit付。25M/14400s/free2GiB，18900仅启动clip计划，硬限250/360min；完整mode/cut/leaf/unpaid读，大ledger仅身份，四读回+marker+owner静止才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑argv失败0科学；仅接线重发request626e3111/wf23442307，实际43736658472/sourceb5a36d87，geometry核R358。
+[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)：43736658472/sourceb5a36d87，C3363.2282989s全1440/六primitive/两域/cut/deep112齐；whole2609精度未付。m2仅100attempt/49commit，row17/piece3/depth32两端点分量盒均含0，严格pivot未付；19闭栈、rows18..14643及m4..224未起，cut候选0。0.377631095s非25M/14400s资源止；完整幅因子链/误差/49已付span保，无非法除法、无真实共振结论。四读回及marker/owner静止后raw已清；大ledger只身份。R355首argv失败与原接口/16pins留原文。
 
 [R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐；far m2..16完、m18在200000止，原9616闭栈/10387末索引/全后缀保。native未启动，不是原试步拒。
 
