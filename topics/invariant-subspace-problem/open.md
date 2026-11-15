@@ -154,3 +154,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **强尾位并头已付同一顶部流，剩完整比较。** [新完整证明](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)在同u_Q上给C=A+D_<、h=d+R、n+h+R<Q的真左最小和ΣXi_C²≤2hβ²；远孔/总孔差≤R，完整高返回修复与负图都保。R≈ρ^-1令远尾范数小于ρ，但不能直接控制新完整逆。当前足够目标为同源μ_C²≤κ_mXi_C²且κ_mh/Q=O(1)；κ_m=O(ρ^-1)足。新联块源跨R个原总孔层，不能偷换原单孔ordinary λ；继续强块完整Schur/低forcing比较。
 
 **同一36常核已完整提升p³²，继续精确Q核。** [原整数完整证明](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)由真p⁴只推进28位，全部原4367输出残差身份与自由I36保持；p⁸/p¹⁶/p³²新鲜整数乘回全真，84份源码/实际证据全保。非单位31-Smith赋值若非零≥32；108次平衡重建仍未成整列，char0仍4318…4340。后继以实际已存精度继续精确重建，不以有限精度成功代真Q核。
+
+**相邻强位配平的固定测试预算已成。** [完整证明](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)对原连续尾任意R保真实核/左空间/扩块/物理joined投影，固定对称输入误差≤sqrt(e^(2/m)−1)，同top两倍；全部反对称通道经真实Schur保留，有效Gram e^±(2/m)一致、回返能量O(1/m)。此为固定测试与同可行源比较，不直接搬运LGL/ordinary λ。继续同C源与完整两费，旧全源相对孔导数反例只排全源小导数，未排此入口。
