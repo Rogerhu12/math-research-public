@@ -82,7 +82,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)已直接登记。明确约定C保原binary冻结输入、浅160校准系数和全局lambda，将原派生关系解释为实函数，并保原准确深校准根类别；旧ready未独自固定全部实语义/唯一根规则，须明示该模型补充。六共同primitive按唯一真实累计原点形成R；正warp D=b+c|w_s|使真正径向导数q/D在cusp处有连续一阶导数，给w有限头C²及原深根族的E全域C²平圆领极限。内保护端cap/flat原两jet兼容和外cut相邻场两jet仍须实际支付。
 
-R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原准确深尾统一包围和真实径向逆像覆盖，可直接生产E而不先穷举48树；当前尚无实际执行/数值E输出。冻结lambda后的自然Rout不得重归一为名义binarycut；原有限Gauss/selector输出须另比较，G8/G16差不是误差界。可计算选根或明确根族、实际域识别及完整材料角pullback混合项均保留。geometry继续最薄独立连续E producer；不把当前有限场或R26另一65/64无限背景重标为已认证原g。
+R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原准确深尾统一包围和真实径向逆像覆盖，可直接生产E而不先穷举48树；当前尚无实际执行/数值E输出。冻结lambda后的自然Rout不得重归一为名义binarycut；原有限Gauss/selector输出须另比较，G8/G16差不是误差界。可计算选根或明确根族、实际域识别及完整材料角pullback混合项均保留。[独立连续E生产器及完整接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)现已发布：66415B/9aa0da45，完整1440片六primitive、真实自然Rout、准确深根族统一包络及闭径向逆像；正D/真实二阶式、原覆盖顺序和全部未付stack/suffix保持。源码给实际protected/finite join结构与模型条件，完整宽界和工作精度不同；具体深根选择、旧finite同连续身份及a601同场阈值均不冒完成。132将实际从原T112-config/两ready和78源恢复执行1800s全自然域query，不使用旧数值证书。
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
