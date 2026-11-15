@@ -97,3 +97,7 @@ root全文核新SCI、20pin、worker/flow及实际27645B execution/13866B结论�
 ## 2026-11-15 06:41:40 UTC — firstΓ低方向投影源和全层Schur独推
 
 root逐G全文及charged-scope补丁复核；newton独核G17及G23–30、phase独核G3–10/G20–24。DΓ来自真正权ODE，不用高阶光滑方向密度冒ℓ∞统一；Eell用C^P，六邻胞C#界按2^256支付。B_p里准确取消radialconstant cℓ_t/2cQℓ而保Hp/ψN及实际端口。固定D8反馈与holonomy-one真参数身份明确区分；非零affine荷未假授principal方向。只将状态改为已独核，不改公式，final SHA6d103b66bcd4322f3312312c686df822c082dfa0a099bedb38767f5ed95f94b0。README a750889d9453f1370bc6526df63fc59ca3a83a68两项无变。
+
+## 2026-11-15 06:44:59 UTC — 全4384角窗与1730真实导数损失独推
+
+root全文核T1–27及最终补丁；phase逐旧R/K全部2048用途与新T2–23完整指数复核。修正阶乘展示为AM–GM<2^(12r)，使3阶乘+其余4r确为40r；原13r单独展示不够。T26完整mean重建常数定为2^524289；T27明确O6/O10系数无Q/c^-1、M4全浅深supC<2^-12、两次tame与Π_A rank、finiteconnector独立source单位。新1730损失仅在两个实际严格余量重核后成立，不修改旧2050证明。root仅统一两处display dollar与状态。README 2e055d6402339f66ce95fdd347eedcc4f1971cd6两项无变，仍未完成背景迭代。

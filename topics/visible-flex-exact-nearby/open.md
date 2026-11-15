@@ -149,3 +149,9 @@ actual-result SHA844b88e2…、executiond4c48d61…；所有signed中间balls仅
 现行规则由137c5a877fb387a82cbde01f084d1fa67ee717aa根README差异授予；root blob74c08a36…、topic7e2b93d6…。[规则收据](notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json) SHA f2661bd5…：可重算证书/data/Actions输出不入Git、Release或新artifact，只scripts/args/run/SHA与小结论。题main≤200000000B，普通删除、不改历史/不force。原Release迁移计划在执行前已取消。
 
 cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，完成后消费小结论并核实际题树大小。需要旧输入时只从记录的删除前immutable public commit/path用git show到temporary science，或恢复已存在的旧artifact，逐原bytes/SHA核对；已成功数学禁止重算。无executor时connector只读写<100KB UTF8，严禁binary/gzip。真实pull及两README差异在H和runner记录分别保留；ref read不冒充pull。
+
+## 10. 全尾角窗已扩大，紧接真正背景 tame 与 smoothing
+
+[T1–27](results/R119-supplement-4384-angular-window-1730-loss-and-finite-tame-budgets.md) 已独核完整4384角网络：Bfin2^319488、rootcut2^491520λ、两向strong2^663552λ^(4/3)，旧T#/v#/五盒/径向单位不变，remaining差<2^-190000。r≤4416的三个阶乘以AM–GM各付12r，+4r与固定余项仍在预算；E4480完整mean/DN/Poisson/adjoint够用。weak新费2^2359296、body2^3145732；q=s+1728给s≤2656/source≤4386，1710高余净11/4及首cut余23都正。全部前缀、mean/height及独立外源保，Y_s≤2^8000000N_(s+1730)+2^4600000Bext_(s+1728)。完整ordinary二次含mean重建费2^524289，EN=αNk−βNθp−γNp的tame费2^196608并真实付N_(s+1)；不增加径向坏幂。G firstΓ源尚≤2114，未随T扩大。
+
+下一给背景依赖的tame逆或真正可保持的新背景域，并明确角平滑后的mean/Γ更新、三阶径向residual增量及所有外traces。现在的Y2656仍不自动回到H8196/residual4420域；不能以一句Nash–Moser或小常数掩盖1730真实损失。
