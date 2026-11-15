@@ -375,3 +375,9 @@ root纸面给free12改−1/2与静态SOS；lit/root分别只读全部B行和14�
 ## 2026-11-15 02:50:46 UTC — 同g谱分支目标20输入公开派发
 
 root全文读新库及589行driver、实施/CLI/人工；库最终仅JSON list与roundtrip小diff追加。实际门由旧recovery_decision独立保留；所有4317/2631 ID保留、0/1明确新分支，其余硬行不变。旧19路径/SHA逐项比对仅out改名，第20绑定f06c20fa完整零接纳报告。同y SOC、原控制器和资源不变，完整native摘要新增所有实际谱/旧Schur/η诊断表。公开新人工全入口再执行后运行真实新目标，不重旧实例。
+
+- 2026-11-15 02:50:59 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交308891645e6a9c8094fa220e839717c0daf80ec9记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 02:51:10 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交4236a5b6994a0aa0f530995e567fd6a52282719f记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 02:51:23 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交91fefda82ca19e1426cd3da83caae9bd787ba543记录于H；继续推送同一完整结论，无force。
