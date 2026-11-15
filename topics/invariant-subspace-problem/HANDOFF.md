@@ -42,7 +42,7 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w、原u_Q、future、
 - [连续尾](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)及[增长远孔窗口](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)保全部强位和完整核：Pstr≤s Pfar≤N、N≤floor(x/48)，同B_s(x)局部伴随费。
 - [原T精确运输](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)：u=N+s+1024、x=48u，G0输出孔<4u；carry在X3中≤B_s e^(-40u⁴)，用固定G3一次修正得TGtrue=Π，Π(T*)†=Gtrue*(I−PkerT)。固定s成本exp[O_s(log^(4/3)(N+2))]，仅乘积窗口。
 - [真实N⊥形式读数](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)：(s,N+1)真右逆经远位实际Ni平均，range落任意RanB^r、norm≤2B#；完整有限旗给(Gtilde−J)Π⊂N。原f∈N⊥（含W）的形式h有Πh=Gtilde*f；未假h∈H，不扩大MP域。
-- 实际返回为正向(C+D_x)Rr=−P_hi T J_b r；PEhat含全部零源Schur且不保孔数。n≈Q≫x窗口尚未运输，不能用伴随界直接乘正向残量，不能让增长B乘无速率tail后封口。Riordan右/裸/全旗及同窗误差已付；强gauge末端、原固定f Green O(R³)、普通两费仍开。
+- [同u完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)：真实顺次链c_j=−P_(p+j,j)u_(p+j)保头/尾旗和c_h=0，由u⊥K准确得μ_p²=−ΣRe〈P_j u,u〉。跨cut保同一层部分和，内部为N_(h,n)−I；现须实际负部预算O(Q)，未付该上界。裸旗仍比kerD^j差一出生，不能当零源删。完整正向返回(C+D_x)Rr=−P_hi T J_b r及PEhat范围保持，未将局部伴随界代正向。
 
 - [同一Neumann原列](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)：用真G7→3修正得G_reg输出X3、T G_reg=Π；carry的X7费≤B_s e^(-40u⁴)。原f∈N⊥形式h有Πh=G_reg*f，且||Πh−G0*f||≤B_s e^(-39u⁴)||f||。保原G0/同m,x，未删返回投影。
 

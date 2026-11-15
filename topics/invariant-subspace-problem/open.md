@@ -155,3 +155,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 ### 完整第二连接已闭，显式高像仍待构造
 
 [余维证明](results/R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623.md)保持原wrapper只实现下界的历史outcome，以真完整coker36和已验证source子空间29补出上界。ρ5/h1实际数据本身给β2=9及24维完整头空间；其normal5高部分真rank2，旧22显式族不能冒充24条完整代表。当前∞93/90/90与K101合并的条件费用为8623、目标分支207；不等于原目标成员性或完整Q Smith长度。
+
+
+### 同一真实顶部的负二次型入口
+
+[完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)在同u_Q、同cut上取合法顺次右链c_j=−P_(p+j,j)u_(p+j)，原头/尾旗与c_h=0均真；u⊥K给μ_p²=−Σ_j Re〈P_(p+j,j)u_(p+j),u_(p+j)〉。对同一窗口交换有限求和后，内部同层算子为旧顺次jet次数N_(h,n)−I，两端保精确部分和；不为每项另选来源。若这些真实短核部分和的Hermitian负部有O(Q)预算即可推进共同窗口，但该关键上界仍开。旧顺次/真幂Gram比未因此已付，bare少一出生不能视为完整零源；普通N=M未闭。

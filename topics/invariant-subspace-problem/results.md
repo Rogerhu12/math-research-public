@@ -200,3 +200,6 @@
 
 
 - [R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623](results/R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623.md)：实际真K29配对ρ5与完整source核余维7给完整第二rank恰9/24头存在；旧22显式，高normal像真rank2。∞93/90/90和K101给q8426…8576、条件三费8620/8623/207，原成员性仍是前提。
+
+
+- [R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)：同一真实u_Q的完整合法顺次右链将左能量准确变成顺次投影负二次型；跨cut保原同层部分和与全部旗，原返回在该标量中精确处理。负部O(Q)目标仍待证，未封普通N=M。
