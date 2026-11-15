@@ -20,7 +20,9 @@
 
 [R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)、[R321实际140](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付原完整128射击容差及独立逐word replay。140的stage/audit是编译return1，112/338未启动；原stderr已清，不能伪判为预算或数学拒绝。
 
-[152入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)run43722101766已终态，root正在完整读回；临时限定 std::quoted 接线修复后，从fresh91/64J/R273重做owner、576×224有限root切向、112边界、混合338和独立physical audit。55pins/19200s/原退出及门保，完整JSON字段与所有错误字节先读后清。未启动、partial和完成分列。
+[R337实际152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)已完整读回run43722101766：当前128唯一α1到9.68582474751023176032080482454992093e−11，原全部129248残差及576×226独立replay逐word同。stage/audit都因临时C++三冒号和stage BatchStats歧义编译return1，112/338缺前置而未启动；两个完整summary共1291成员、16原byte段和134stderr行及双job primary全核。它不是预算、域或共振反证，绿色只表示编排/传输结束。
+
+160继续[152原完整责任](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)：以独立v2修正词法与实际统计类型，从fresh91/64J/R273重做owner、576×224有限root切向、112边界、混合338和独立physical audit。55原pins及19200s/原退出与门保留并明确新增执行身份，完整JSON字段/错误先读后清。已清理raw不当可续状态，未启动、partial和完成分列。
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)/[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)的共享有限root、225Gram/226态/224列、因子与两次回代缺陷、完整129248×112仍是同一现场责任。不得把浮点pivot当严格非共振，或把有限root的实延拓当真正隐式根及IEEE程序导数。
 

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:11:34 UTC 已读 a82320e1dd0d3b88f491cbe2c875ae28e1221ce4，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:15:06 UTC 已读 5d5024736de60ca3459a35a303835b0c8c2e4b77，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -22,7 +22,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |---|---|---|
 |145 exact|43716379970 / 132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；来源过，step10科学运行|
 |150 exact|43721616091 / 132834627616|d1d4c01a283d20a1d20131ece43cdcfb05ce757d；R338完整，编译阻断；161修复中|
-|152 root|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；双job终态success，root全读中不推数学结论|
+|152 root|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；R337完整，后置编译阻断；160接修|
 |156 geometry|43724040548 / 132841952200|1ca4196b99b61428bc4ab216bbc713ba2e77023e；step9–11结束，step12全112有限头运行|
 |151 root|43724306509 / 132842781513|618a9369d2bd45210767e294726cec10be1cd2df；来源过，step10 C运行|
 |155 exact|43726543241 /132849600659|0aa9dca2d8029721cd1e820948699206a7da4388；来源过，step7科学运行|
@@ -30,13 +30,11 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源码/参数/时限/输出约定。
 
-## root：151/152实际与统一发布
+## root：151实际、152结论与160修复
 
 [151接口](notes/2026-11-15-request151-common-coordinate-target-enclosure-interface.md)：20pins/原147原子构造保持，C3600、旧两域各300、新target900/grid320/65536/depth32/目标1e−7。419粗盖、两子齐替父、全九支撑/可能片/两侧/R330保，全部frontier/中断事务读后清，具体来源见接口。
 
-[147 R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)：R323构造/基底已付；旧九p域/完整pending须151重生，实际δ和同场metric未付，固定E盒不保证任意精化。
-
-[152接口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)：R321的128下降/全replay已付，stage/audit编译return1、112/338未起，stderr已清。e609 shim仅临时quoted→::quoted；本次全链fresh91/64J/R273/owner/576×224/112/338/独立audit，19200s/55pins/原门保，全summary/错误读后清。
+[R337 actual152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)run43722101766/compute132836110295/report132851693655：全128唯一α1达9.68582474751023176032080482454992093e−11，129248残差/576×226独立replay逐word同；stage/audit真实三冒号/BatchStats编译return1，112/338未起。1291成员两整树/16byte段8stream/134stderr行及双job primary全核；原门保，全finalfalse。root160接独立v2重做原fresh91/64J/R273/128/全stage/112/338/audit，旧152不改，当前raw已清。
 
 ## exact：145/150实际与155源
 
@@ -44,14 +42,10 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [R338 actual150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)run43721616091双job success仅编排/读回；全128唯一α1到9.68582474751023176032080482454992093e−11、独立129248/576×226 replay逐word同。严格exporter编译return1：quoted三冒号及BatchStats歧义，完整642成员/149stderr行/两字节块全核，230列未起、全finalfalse，非预算/区间反证。exact以独立v2接161重做58原pins全链；旧原件不动，当前raw已清。
 
-[R333 actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)8真model/freshFD、27trial/8接受/19域拒；末physical .0071047205741851865、native/fullDNfalse。所选35非线性失域、未选MID489/490及大QP后验分列；完整原值/身份正文保，raw已清。
-
 [155接口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)已推0aa9dca2：fresh actual98另起8真model/freshFD，37=21LEFT+16MID（新489/490），24cells/29端点/B9805/75776角行/C4059/236036，全原门保；91pins/science175、job195含读回。完整trial先print再搬pair再清，always补batch/parent-after原status及全部失败字节。run43726543241 /132849600659已过来源并进入step7科学；无实际结论，exact负责原全读回。
 
 
 ## geometry：156实际与真正153
-
-[R327 actual148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)：C1800仅1432/1440，10pending及源后缀保；Rout/cut未付，深端112付，有限头0mode/0panel/0coeff，exit2是前置未付。raw已清。
 
 [156接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)8ce21c4d/84404a07/48eaecf2；只C1800→3600/E步75/job150，13源/R324科学4531/线性1800/全112/原门不变。实际work3600保，原点reader144身份不改，四完整块/pending/错误读后清，不借旧cut。
 

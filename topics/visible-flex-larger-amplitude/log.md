@@ -32,3 +32,8 @@
 ## 2026-11-15 15:11:34 UTC /root — R338实际150完整回放与编译阻断
 
 [R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)全文核后即发：run43721616091的当前128唯一α1达原tol，独立129248/576×226 replay逐word同；严格exporter编译因三冒号/BatchStats歧义return1，230列全未起，非预算或区间拒绝。642原成员整树/149stderr行和两字节块全核，raw已清；exact用独立v2继续161，root160复用修复152而不改旧源/原门。153前10来源/语法/环境步已过，step11 C运行。API核a82320e1dd0d3b88f491cbe2c875ae28e1221ce4双README未变，真pull记录保留。
+
+
+## 2026-11-15 15:15:06 UTC /root — R337实际152全128回放及末态编译阻断
+
+[R337](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)原全读回后即发：run43722101766唯一α1达原tol，129248/576×226独立replay逐word同；stage/audit编译return1的三冒号/BatchStats原因完整定位，112/338未起。1291成员两整树/16byte段8stream/134stderr行/双primary全部SHA核，无本地科学算术；root160接独立v2，原门不改。H压缩已完成147/148/141重复摘要，所有原责任仍在open及结果正文。API核5d5024736de60ca3459a35a303835b0c8c2e4b77双README未变，真pull行保留。

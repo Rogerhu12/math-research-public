@@ -198,3 +198,5 @@
 - [R336：完整九维残差二次模型平方及有限全局化边界](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)（已证明，条件代数与有限算法）：全三残差二次式平方保三/四次项，完整K/Hessian、12×9 ridge-QR准确下降与半径、全部九维候选池取有限最小。真实二阶余项、有限系数/导数/解误差与normal曲率另付；不证明球上全局最优、有限20档必接受或actual154唯一失配原因。157保原真实门另检。
 
 - [R338：实际150持久128回放及严格exporter编译失败](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)（实际Actions范围）：当前128唯一α1到9.68582474751023176032080482454992093e−11、完整129248残差与576×226独立replay逐word同。后置exporter三冒号/BatchStats歧义导致compile1，230列未起、certificate=null，非预算或区间反证；642成员整树及149stderr行/两字节块完整核。所有native/fullDN/最终证书仍false，161保持原数学源与门重算。
+
+- [R337：实际152完整128回放与末态组件编译阻断](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)（实际Actions范围）：唯一α1达原射击tol，完整129248残差/576×226独立replay逐word同；stage/audit实际三冒号及stage BatchStats歧义compile1，112/338未启动。1291语义成员两整树、16字节段/8流、134stderr行及双job primary全核；未触预算，全native/fullDNfalse。160保持原完整数学责任接独立v2后重算。
