@@ -1,0 +1,89 @@
+{
+  "format": "r150-global-projection-localized-row-module-input-v1",
+  "date": "2026-11-15",
+  "author": "AI (ChatGPT / literature_audit)",
+  "entrypoint": {
+    "path": "notes/2026-11-15-r150-global-projection-localized-row-module-dag-789f.py",
+    "blob": "250865f3f4d938336a3402eb639f04bd6bf5e81f",
+    "bytes": 22773,
+    "sha256": "91e5d19ae0ac1069dcf9a85229fd3be5e2b6308c4546be8027469cf9981b02d8"
+  },
+  "dependency": {
+    "path": "notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "blob": "178a474ace771c3c934ca85fb500fef3f79425ef",
+    "bytes": 34432,
+    "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+    "importOnly": true
+  },
+  "parent": {
+    "runId": "43756208221",
+    "binding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+    "checkpointDir": "{work}/original-global-projection-polynomial/checkpoints",
+    "manifest": {
+      "bytes": 5650,
+      "sha256": "c43828673dc6513c43042e4452c91d146e78a26a15b3b82aa3f9e8a87ff49aa9"
+    },
+    "candidateState": {
+      "file": "row-module-state-52d7d5f3b735ab0b3da8465f888485b0a29168b49502cfadb9770313f7c8dd4f.json.gz",
+      "bytes": 72400441,
+      "sha256": "42d998c95906cf0ad9e8cef8660b115027e4ad671b332ca6493bb025f237ff41",
+      "payloadSha256": "52d7d5f3b735ab0b3da8465f888485b0a29168b49502cfadb9770313f7c8dd4f",
+      "completedOriginalRows": 19,
+      "originalRowsStarted": 20,
+      "pendingCurrentRow": true,
+      "basisRows": 12,
+      "operationsAlreadyPaid": 2416
+    },
+    "coreLogicalSha256": "752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8",
+    "readOnly": true
+  },
+  "argvTemplate": [
+    "--core-source",
+    "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "--parent-checkpoints",
+    "{work}/original-global-projection-polynomial/checkpoints",
+    "--out",
+    "{work}/original-global-projection-localized-row-module",
+    "--through",
+    "gcd",
+    "--remaining-seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "limits": {
+    "mathematicsSeconds": 600,
+    "addressSpaceMiB": 4096,
+    "outerSeconds": 660
+  },
+  "output": {
+    "receipt": "{work}/original-global-projection-localized-row-module/localized-row-module-dag-receipt.json",
+    "checkpoints": "{work}/original-global-projection-localized-row-module/checkpoints",
+    "largeArtifacts": "temporary-only",
+    "immutablePayloadFiles": true
+  },
+  "mathematicalScope": {
+    "ring": "Q[s,Sigma0^-1]",
+    "sigmaFactors": [
+      "s",
+      "s-2",
+      "s+6",
+      "5s^3-25s^2+32s-8",
+      "5s^3+135s^2+864s+864",
+      "5s^8+50s^7+153s^6-936s^5-2888s^4+15936s^3-3392s^2-25472s+9600"
+    ],
+    "parentSourceLeavesMustActuallyVerify": 13,
+    "forward": "Exact original56 source identities over the stated localized ring",
+    "reverse": "All original56 rows reduce over Q[s] in the final weak Popov basis",
+    "doesNotAssertUnlocalizedRowModuleEquality": true,
+    "noCoreOrOld2416OperationsRecomputed": true,
+    "noOutsideGcdValuePredeclared": true,
+    "doesNotAloneProveOriginalH0GlobalMembership": true,
+    "finalCoprimalityWithEveryKnownSupportFactorActuallyChecked": true
+  },
+  "staticValidation": {
+    "priorDraftAST": "passed before final narrow edits",
+    "finalLocalASTAttempt": "exec-server unavailable; no execution",
+    "newMathematicsRun": false
+  }
+}

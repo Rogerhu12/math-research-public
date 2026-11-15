@@ -417,3 +417,5 @@
 - **∞完整第九秩零、次大阶恰55及两种完整终谱。** [实际有理证明](results/R150-appendix-infinity-complete-ninth-connection-zero-and-length65.md)给1088×600前缀592不增、15头/928200原十层产品；前九β=(4,0,1,3,1,1,1,1,0)。前12正指数和45，sub≤55迫第13=10，full≤66迫末项10或11；故full65…66/sub55/max10…11、AI67…68，完整第十足判全谱。R/Rout/U≤158、Rh*≤181、第三329；外Ω度d时M≤158−d/费8531−d。T∞长4…5仍只u5，不提前付Q高商26或同D leading单位。
 
 - **∞第十两原高强迫均零，完整两头低商已确定。** [实际原高证明](results/R150-appendix-infinity-tenth-high-zero-and-complete-two-head-quotient.md)核123760原低阶产品、完整5100×2高零及十二入射链原残差；代表λ8/9 normal2各45/75非零、incoming λ9有115非零全保。仅断完整高和为零，不断各summand分别零；余1088×601低式须全原十一阶乘回后决定β10及65/66终谱。
+
+- **完整原∞有理谱恰66，第十连接恰一。** [实际原来源证明](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)给1088×601 prefix592→593、14头及952952原十一层产品；全正谱 $1^4,3,4^3,5,6,7,8,10,11$，sub55/max11、AI68、T∞长5仍只u5。十三已定指数和55及同原F31上界66迫末项11，不需第11计算。Δaff≤315、R/Rout/U≤157、Rh*≤180；外Ω度d时M≤157−d/总乘子180−d/原源费8531−d、第三328−d。完整D31及具体坐标整性另证，不由此假定旧D leading单位或Q高商26。
