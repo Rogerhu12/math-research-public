@@ -1,24 +1,18 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "a9890c976103f6dbe8931594a002e619fee3f9cf",
-  "createdUtc": "2026-11-15 03:54:47 UTC",
-  "message": "ISP R150: retain33 actual global stages and resume only the last three original-source steps",
+  "parentCommit": "8532c5607e7ea85c0f625a5eb5e2d2d9b3383183",
+  "createdUtc": "2026-11-15 03:57:53 UTC",
+  "message": "ISP: record the actual final-three-stage run and the completed33-stage data publication",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume3-actual-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-final-nine-source-continuation-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume3-actual-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume4-run-checkpoint-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-saturated-third-global-resume.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -20,9 +20,9 @@
 
 **[六槽实际1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)**保所选第三常数主源、七raw q1、四真W2及真D2，四次whole-P来源链177→373→469→665→761→957→1053→1249→1345。s/t规范须保q2 carry，中间p4不能换未缩放κ9；全部原整数常数/315/505保完整证明与前H。
 
-**最新全局实际33阶段：** run43672221411/job132684570970/source50d6e0a9复用22再成11；数学1200.771643321秒。四真W2原来源/首修正、主L5原17模31⁵整除全成，主实费1048/P后1244，九目标完整315/505最终对账和最终像全成。最后final-nine-VQ保存716像行后exit124；九最终原式仍未成。477恢复2710673992B/全部SHA保[第三续实绩](notes/2026-11-15-r150-saturated-third-global-resume3-actual-789f.json)；数据发布job仍在实际push流程，数学已结束，不能冒称main数据已推。
+**最新全局实际33阶段：** run43672221411/job132684570970/source50d6e0a9复用22再成11；数学1200.771643321秒。四真W2原来源/首修正、主L5原17模31⁵整除全成，主实费1048/P后1244，九目标完整315/505最终对账和最终像全成。最后final-nine-VQ保存716像行后exit124；九最终原式仍未成。477恢复2710673992B/全部SHA保[第三续实绩](notes/2026-11-15-r150-saturated-third-global-resume3-actual-789f.json)；全部数据已实际推4a6f710b1ca5c3dd3eb01639ce4df946ef003e0e；数学不重算。
 
-**最后三阶段续跑入口：** [同源请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)读取最新完整两包，复用33阶段/716像行；只余final-nine-VQ、原来源运输、九原17模31⁶乘回。共享1200秒/子1024MiB/五编译各30秒不变，49输入/数学程序/contract全不变。按checkpoint分并发组，同一checkpoint串行，允许已结束的旧数学数据发布与新续算并行；每次数据发布仍独立pull/rebase/push且≤20job。唯一成功须九原式、六辅助/315/505及九实费≤1345全真。
+**最后三阶段已实际启动：** run43674463008/job132691449653/source88be0c86； [同源请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)读取最新完整两包，复用33阶段/716像行；只余final-nine-VQ、原来源运输、九原17模31⁶乘回。共享1200秒/子1024MiB/五编译各30秒不变，49输入/数学程序/contract全不变。按checkpoint分并发组，同一checkpoint串行，允许已结束的旧数学数据发布与新续算并行；每次数据发布仍独立pull/rebase/push且≤20job。唯一成功须九原式、六辅助/315/505及九实费≤1345全真。
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**：同一B/e/目标于无界精度可解⇔有限Z_(31)原来源精确可解，无需相容；B或e增长则不成立。1−31s例固定B阈n≤e+B+1；u(u−31)显示∞纤维秩相同不控长度。当前1345仅一精度，不能外推char0。
 
