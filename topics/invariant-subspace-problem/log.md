@@ -137,3 +137,8 @@ slot1 72645943B/SHA179b3645…，原小回执04efeded…；未记完整Schur或�
 
 新wrapper/helper逐差异审读，固定继承已付三stage及原顶核；排600秒/8GiB首个Dixon1列组，U只按本身行primitive，RHS逐列尺度恢复后核全部988原单位行。
 逐列candidate和verified分开落盘，同binding后续只解余列；完整原低Schur及6188乘回仍保，不预称新head/r1。
+
+## 2026-11-15 12:21 UTC — 第六实际Dixon首列通过并完整续接
+
+step22实际22.693180156秒；首非零col0 native1.376686214秒且988原单位行全真，7零列也已保存。只余281bit/52744bit两列，unit primitive最大130bit。
+同binding排step23最多32新组，600秒/8GiB，每列先candidate后全乘回，继续完整中低Schur及原6188验证；不重旧顶核/单位/col0，不预填新秩。

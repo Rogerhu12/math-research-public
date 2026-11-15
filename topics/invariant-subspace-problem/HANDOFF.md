@@ -11,7 +11,7 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-zero-sixth-actual-rhs-continuation-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-zero-sixth-rhs-complete-continuation-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：完整参数Smith与原成员性仍开
 
@@ -27,13 +27,13 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535，job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现22步。远端每步/每发布实际pull并核两规则，记录小回执。大数组仅同job临时；旧run43679903558已结束，p768/旧Dixon等只在具体需要时重建。
-- 同选selected-natural-u-rebuilt与selected-natural-first-left-envelope均保真实完整来源。旧第二selected-natural-second-left-regauged的36单位解18,124,389B/SHA9c3b02d2…继续复用。
-- normal4完整高核/全部130单位解/166残差与22原jet保selected-natural-second-left-normal-four-complete130，binding672a21c0de59ec537f5d19333524f92ceb71ad3621eec643b9c11cf3f3fce2d3；新解75,595,833B/SHAccfdf7db…、RREF25,174B/SHA7e060678…；原回执SHA6383e6db…，不重355.152873124秒。step21 H5实际Q/F31rank1287/单位18，30.715285713秒精确消786列后触150k工作门槛，余501列/950行、361878nnz/3996bit；slot1 SHA179b3645…，72,645,943B，全部DAG可续。完整高Schur/新头未成；先核原29来源零向量能否同端点配旧36forcing，避免不必要的大量新RHS。
-- 零第六祖先zero-sixth-full-source-checkpoint保verified residual6188×7（SHA d4c8142e…）、top2779×10（43,242,447B/SHAf36b8e55…）；第五完整cochain在zero-sixth-preparation。不重2GiB失败前已成顶核。
-- 第六step19外层660秒超时，inventory实核新binding b850dd94…仅三个verified stage：middle RHS2295×10/36.2MB（b58b78d8…）、常核990×2（526a9229…）、单位988²（1afff063…），无inverse。step22源a0fbc76c…/helper36356983…只解实际Dixon1列，600秒/8GiB；原行/列分别归一后恢复未缩放坐标，全988行乘回、逐列candidate/verified保存。新目录zero-sixth-rhs-columns-checkpoint，首次max-new-unit-groups1；原三stage只读继承。不预填第六头/r1。
-- 若第六完整完成，以低总核维nK和实际leading秩r读r1=14−(nK−r)，来自完整非pure4347+A1Q7的零head纤维。若r1<4，公共阶额外增4−r1；全部代数只在实际核完整后使用。公共最大新增a时，Kdegree99+a、当前条件费8627−a/目标209。不使用旧8634/222。
-- 七阶只在实际第六后按λ6高两块在旧3维H45核中的真实active投影决定至多3个新顶RHS；旧常单位可继承，不能用旧齐次核假定新forcing在像。λ4 pure10 incoming已被完整pure二阶lift吸收于low[A0,A1Q]，不重复求。
+- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现23步。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
+- 同选重建selected-natural-u-rebuilt、第一selected-natural-first-left-envelope、旧第二selected-natural-second-left-regauged均保完整来源；旧36单位解SHA9c3b02d2…不重95.542秒。normal4完整目录selected-natural-second-left-normal-four-complete130保130新解75.6MB/SHAccfdf7db…、166残差SHA7e060678…和22原jet，不重355.152873124秒。
+- normal5目录selected-natural-second-left-normal-five-high-elimination：H5实际Q/F31rank1287/单位18；30.715285713秒消786列后触150k工作门槛，余501列/950行、361878nnz/3996bit；完整slot1 SHA179b3645…、72,645,943B及DAG可续。完整高Schur/新头未成。旧29原source核确在J，正核同自然F0后配旧36forcing；读ρ−h（h为HF的实际配对rank）给完整β2下界，不能拿output36头代source核。
+- 零第六祖先zero-sixth-full-source-checkpoint保verified residual6188×7/SHA d4c8142e…及top2779×10/43.2MB/SHAf36b8e55…；第五4738×7 cochain在zero-sixth-preparation。旧全逆超时但zero-sixth-unit-continuation-checkpoint保verified RHS2295×10/SHA b58b78d8…、常核990×2/SHA526a9229…、unit988²/SHA1afff063…；不重这些阶段。
+- 现zero-sixth-rhs-columns-checkpoint的binding2ab96ac89edbf80802073e1278419af544682d9d7f6186ce27aa0fcc6559c7da。step22实际22.693180156秒：col0原988行乘回全真，native Dixon1.376686214秒；col3…9实际零均已存。col0 SHA c432a7af…/1,204,239B，原回执26404e7d…。只余col1(281bit)/col2(52744bit)，常单位primitive最大130bit。
+- step23同源a0fbc76c…/helper36356983…与同binding，600秒/8GiB/每组1列、最多32新组，续全部中低小Schur和原6188乘回；逐列归一恢复未缩放坐标，candidate/verified分存。尚无完整第六头/r1。
+- 第六完整后以低总核维nK和leading秩r读r1=14−(nK−r)。只有实际完整核可用；公共最大新增a使Kdegree99+a、条件费8627−a/目标209，旧8634/222失效。七阶按λ6高块在旧3维H45核的实际active投影，最多3个新顶RHS；不能由齐次核免费推新forcing在像。λ4 pure10 incoming已被完整pure二阶lift吸收，不重复。
 
 ## 原同w边界：返回和相邻孔通量仍开
 
