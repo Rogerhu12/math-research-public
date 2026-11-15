@@ -46,7 +46,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 活跃run43702348535；唯一请求notes/2026-11-15-r150-recovery-small-session-request-789f.json。9份历史8c6304e原输入均逐SHA核验且只存临时；不碰已删Release。32层的51份旧前缀完整SHA全同，第一Q RREF/33原jet等后继检查点现均可复用。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - 两端第五完整规范与H3rank988/null2/free164,494等已付常块均保临时检查点；沿原端点身份续，不重旧大正常形。
-- Q第二22头目录selected-natural-second-left-regauged：完整36RHS解9c3b02d2…已存，不重95.542秒解；binding/全SHA见H归档。normal4实际1.990318086秒完成高profile：1736×1485模31rank1355/unitdet25/free130，因自设64限额仅完成prefix，未Q高核。新M4/profile已存selected-natural-second-left-normal-four/high-profile，SHA c80ca9f3…/cbeccd17…；续接eabfa9bb按32/32/32/32/2批求实际130 RHS并存完整N/D，核全1736 Schur；仅解真新增方向；旧HF/T、两E、33+36自由保留。
+- [normal4完整高核](results/R150-appendix-selected-normal-four-high-kernel130-and-residual-intersection.md)：21.356861559秒，H4在Q/F31均rank1355，完整核130列及225680原高产品全真。目录selected-natural-second-left-normal-four-continue/high-kernel，SHA46b047a3…；保完整候选及五批解。下一仅新增130个旧M0′单位RHS，复用原36解/全残差；不重高块或高核。新残差必rank130，旧rank14，真实新增头数为两像交维i∈0…2，总头22+i；未算i，完整第二仍[9,11]，保两E及33+36自由。
 - [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：固定七条left5的λ0…λ5与九n_j²全部零，整截断λ≤5·h0n_j²恒零；非成员性。4738×7 pack在zero-sixth-preparation，逻辑SHAcf952faf…；第六2GiB运行187.548660079秒后FLINT退出−6，无数学回执。只读inventory确认zero-sixth-full-source-checkpoint已存verified residual6188×7（211242B/d4c8142e…）及top-kernel2779×10（43242447B/f36b8e55…），全SHA见run43702348535-zero-sixth-checkpoint-inventory.json；无middle/low。不重top，先减读取内存再续中层；全6188新乘回与最终头像尚未付，不计第六秩。
 
 ## 其余未闭
