@@ -126,3 +126,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **R828（已证明）**：[原惰性二部分等距与两个CM源零值](results/R828-original-inert-two-primary-parity-and-old-source.md)。原P₂=[[4,3],[3,4]]是模6二次模等距，真实交换Weil/CM并保EO；六old为+、G1/G5为−。原U/共同相位给允许二维W稳定，实际G两列FG/HJ零加交零迫W⊂old，从而两个原e_G及companion CM值均零，不能仅以投影零反推。16个二次模等距纸面全分类，保持EO者在剩余六old上皆标量，其余送EO→OE；只排该真实等距群再降维，未排所有抽象commutant。六old指定和及同primitive/Legendre仍OPEN。SHA d5c70b7dfa33140e0a8225ac8a0a5d0a11a5f42483e23eb39aee32fa18bf6764。
+
+
+**R829（复用既有p47源的准确有限结论）**：[原七项临界乘积](results/R829-reused-prime47-original-critical-products.md)。run43730863246/sourceb2e7bde9只消费R702旧A，七项19,32,29,21,8,20,33及交替和16 mod47；逐项原阶乘/Wilson一致。canonical2419B/SHA0f461cc4从完整日志纯IO重哈希吻合，artifact14168337214/平台ZIP89ad97f0一日保留。否定惰性j0未筛卷积普遍零猜想；不新增素数/系列/primitive/Legendre，不外推全部惰性p非零。proof SHA dbf48865070e4ff4a24e2c7c42abfc44de6a270dbf252b7477cdd46113003c2f。

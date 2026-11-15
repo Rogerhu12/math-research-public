@@ -209,3 +209,8 @@
 - 原R702的15个A_t完成源及R770阶乘/Wilson公式已读核；新增脚本仅转换七项原critical乘积与交替和，core d382bf4d/wrapper949096ea，预期值未硬编码。
 - 新增.github/workflows/serre-reused-p47-critical-products.yml执行这一固定公开消费者；AST在数学前、raw仅一日artifact。未重生旧sigma/A前缀、未扩素数扫描，实际输出待到。
 - 首推接口错误后立即实际pull/rebase至7e9a6bdfffede39b19532b65def103a3b4d6554b（2026-11-15T15:35:00.995574+00:00），两README无diff，基于最新main重推。
+
+### 2026-11-15 23:44（Asia/Taipei）｜serre-public-astra-20261115
+- R829公开实际run43730863246七项19/32/29/21/8/20/33、交替和16 mod47；仅复用旧R702，原两公式一致。完整日志canonical0f461cc4已IO重哈希，冻结verify成功；惰性j0普遍零猜想已排，不外推全p或同primitive/Legendre。
+- R824首scope run43729293174也已success，309.797776742秒，359manifest/7741输入全verify；原模profile完成，exact5/6仍0。小Range纯IO正接真实字段，后继R827无需重算。
+- 真实pull --rebase于2026-11-15T15:42:40.018442+00:00读a70229c1240967eba09d2f3f31437d07b73cb118，两README无diff；H逐字归档压缩，三项原长计算继续，主目标OPEN。
