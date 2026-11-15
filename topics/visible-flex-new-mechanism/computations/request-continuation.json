@@ -1,13 +1,13 @@
 {
-  "request": "one-D0-original-residual-with-reused-42-by-42-rational-pivot",
-  "created_at": "2026-11-15 00:30:32 UTC",
+  "request": "one-D0-original-residual-fix-shared-comparison-label-alias",
+  "created_at": "2026-11-15 00:34:02 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "D0_pivot_residual"
   ],
   "goal": "Consume completed D0 and the published R136 original pivot. Evaluate only new D0 and one raw linear combination of the old roots, with one original extra query if its polynomial is nonzero. No old response reconstruction or old column-by-column evaluation.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_D0_pivot_residual_probe.py": "60c9af74a49a0b4cec70f8501ddca6949942e506425a582a0880a73a1d830f18",
+    "topics/visible-flex-new-mechanism/scripts/literature_D0_pivot_residual_probe.py": "e6a4c15bfe95c587c4cde0cae26b33cf0bf4f54f0ea7b9cfb5c83026c98afbcd",
     "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
     "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
     "topics/visible-flex-new-mechanism/scripts/literature_rational_volterra_polynomial.py": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
@@ -33,5 +33,11 @@
   "previous_private_actual_pull_commit": "b2a4c84965609d677a650f47f63cd5e96c1fa726",
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
-  "task_complete": false
+  "task_complete": false,
+  "preceding_read_only_interface_failure": {
+    "run": "43658525976",
+    "source": "38fde5a460ac39c4d0b12b5e88309bceeb3ded22",
+    "new_profile_evaluations": 0,
+    "fix": "copy comparison lists before appending J; retain the frozen 41-column publication record"
+  }
 }

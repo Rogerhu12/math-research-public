@@ -182,6 +182,14 @@ def build_combination(ring,controls,coefficients):
     return answer
 
 
+def append_published_J(controls,labels,J):
+    # layer exposes its label list in the original publication record too.
+    # Appending in place would silently change that already-bound 41-column
+    # record before the full old pivot comparison.
+    return [*controls,J],[*labels,{"role":"published_J","candidate_id":0,
+                                  "original_mode_sha256":axis.J_HASH}]
+
+
 def solve_new_coordinates(matrix,values,prime):
     coefficients=poly.solve(matrix,values,prime)
     if any((sum(a*b for a,b in zip(row,coefficients))-value)%prime
@@ -254,8 +262,7 @@ def study(args,report,started):
         or j_response["retained_original_control_labels"]!=report["response_input"]["retained_original_control_labels"]
         or j_response["publication"]!=report["response_input"]["publication"]):
         raise ValueError("old 41 original columns differ from the completed J certificate")
-    controls.append(J)
-    labels.append({"role":"published_J","candidate_id":0,"original_mode_sha256":axis.J_HASH})
+    controls,labels=append_published_J(controls,labels,J)
     if sha(canonical(labels))!=OLD_LABELS_SHA:
         raise ValueError("the 42-column order differs from D0's completed comparison")
     matrix,pivot_queries,profiles,pivot_response=load_pivot(args,report)
@@ -358,6 +365,14 @@ def small_toy():
         or artificial_args.response_order!=3):
         raise AssertionError("the published response-reader argument interface changed")
     checks["existing_response_reader_argument_names_bound"]=True
+    old_controls=["U0","U1"];old_labels=[{"id":0},{"id":1}]
+    old_report={"retained_original_control_labels":old_labels}
+    extended_controls,extended_labels=append_published_J(old_controls,old_labels,"J")
+    if (old_controls!=["U0","U1"] or len(old_report["retained_original_control_labels"])!=2
+        or len(extended_controls)!=3 or len(extended_labels)!=3
+        or extended_labels is old_labels):
+        raise AssertionError("adding J changed the frozen original publication label list")
+    checks["append_J_preserves_shared_original_publication_labels"]=True
     prime=103
     matrix=[[2,1],[1,3]]
     values=[1,4]

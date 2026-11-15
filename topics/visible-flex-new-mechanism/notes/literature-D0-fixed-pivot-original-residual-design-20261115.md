@@ -205,7 +205,7 @@ ecd9edf2d461f6d4f6b9355e17e210ad435b20c53bc16baeda412258b8b3fabd
 
 ## 7. 人工开发和最小公开 CLI
 
-新代码只在本地跑过 **14 项小人工检查**：固定 pivot 的新列求解；真正有理坐标与模整数的区别；单组合 Schur 身份；pivot 哈希/重复行拒绝；两模式和虚部查询；非零多项式有限点保证；模零未决门；实际右原积分零锚；原式线性组合及可携双模式往返；冻结 helper 参数名绑定。
+新代码只在本地跑过 **15 项小人工检查**：此前 14 项固定 pivot、模坐标、Schur 身份、原式组合等接口检查，加一项针对本次实际故障的共享标签别名检查。后者明确验证追加 J 后旧发布字典仍保持原 41 列列表，而新比较空间独立扩到 42 列。
 
 没有读取实际原根或报告，没有评价研究 profile/D0，没有重跑旧列。
 
@@ -213,19 +213,19 @@ ecd9edf2d461f6d4f6b9355e17e210ad435b20c53bc16baeda412258b8b3fabd
 
 ~~~text
 literature_D0_pivot_residual_probe.py
-31849 B
-60c9af74a49a0b4cec70f8501ddca6949942e506425a582a0880a73a1d830f18
+32755 B
+e6a4c15bfe95c587c4cde0cae26b33cf0bf4f54f0ea7b9cfb5c83026c98afbcd
 ~~~
 
 开发报告：
 
 ~~~text
 D0-pivot-development.json
-6678 B
-ee7b387a1a5bf6291771104a53549eec59dc961b4e7a0491eb85fda47398c779
+6738 B
+846cb400b52045f98ffdcec23e461543c98a87f80021560d091519aa591102f2
 ~~~
 
-人工耗时 0.002988247 秒、RSS 14.875 MiB。此报告不冒公开 actual 回执。
+人工耗时 0.003270470 秒、RSS 14.875 MiB。此报告不冒公开 actual 回执。
 
 最小 Actions CLI：
 
@@ -235,4 +235,14 @@ python topics/visible-flex-new-mechanism/scripts/literature_D0_pivot_residual_pr
 ~~~
 
 三个实际目录、SHA、原 run/source 均有准确默认值；CLI 允许搬移文件路径，不允许悄悄更换其身份。新研究路径还检查 GITHUB_ACTIONS=true 和 GITHUB_REPOSITORY=Rogerhu12/math-research-public。
+
+## 8. 第一次公开回执与唯一接口修复
+
+run43658525976/source38fde5a460ac39c4d0b12b5e88309bceeb3ded22 的小主报告公开保留在 notes/actions-43658525976-1-D0_pivot_residual/。其状态为 implementation_check_failed，耗时 0.429821976 秒，阶段仍是 read_only_completed_D0_and_existing_original_comparison_block；新研究 profile 评价数为零。
+
+错误是追加 J 时沿用了 frozen layer helper 返回的同一个标签 list，而该 list 同时挂在已经绑定的旧 report.response_input 中。原位 append 把它从 41 列改为 42 列，随后与 R136 完整报告的只读身份比较正确地拒绝了这个被改写的元数据。
+
+修复只把 controls 和 labels 各自复制为新列表，再追加 J；旧来源记录保持原样。新增人工例直接复现并检查这一 alias 边界。原目标、原根、原矩阵、所有 SHA 绑定、查询策略和预算均不变，不重做已完成的旧代数或原评价。
+
+第一次回执不是数学阴性或资源退出；不修改它，也不将修复后的人工通过当作后继 actual 已成功。
 

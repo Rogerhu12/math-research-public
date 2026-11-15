@@ -62,6 +62,6 @@ R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B
 
 ## 6. 正在运行与未付终局
 
-当前几何run43658064177/source bf3497f2仅curvature_target_ladder在跑。D0 actual已登记R150，R153首run43658525976在新评价前因共享label列表append产生绑定误报，正在只修alias；目标/预算不变：重用旧42×42真pivot，只评价D0和一条原整数lift组合的新查询，不重42×96；模零仅未决。R151已登记，R154二十态纸证已发，tail核输入相位作用的实际可达性；不能预设锥不变。root独占Git/派算；已完G链和J成员均不再复算。
+当前几何run43658064177/source bf3497f2仅curvature_target_ladder在跑。D0 actual已登记R150，R153首run43658525976在新评价前因共享label列表append产生绑定误报，已只修alias并重派e6a4c15b；目标/预算不变：重用旧42×42真pivot，只评价D0和一条原整数lift组合的新查询，不重42×96；模零仅未决。R151已登记，R154二十态纸证已发，tail核输入相位作用的实际可达性；不能预设锥不变。root独占Git/派算；已完G链和J成员均不再复算。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
