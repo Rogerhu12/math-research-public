@@ -237,3 +237,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 σ1/512全Nraw q0<54.373309627/13315816.514291689，b有限prefix13315816.417922894、全尾<.096368796；q1/q2和三个宽度sup/Wiener分别保存，mean不能删。原43666029053 Hydrate39漏topic路径0数学，a24bfa3仅修path+flow pin；不重复旧科学。报告585e7229ac175ac1a196fdcf7c770573889a09a46df405829b0ce70d711742c6独推。
 
 原worker实际两pull02:09:24.323875→1cd8ff1bf19cee26d3d33522843f43dbd7929d91、02:09:49.382802→f6c34f25c172acb0d7cf3df39add2126d92ae21b，两README diff空；本次只读README核24f6758e235220b1927b026e69290550d1b9cd87不冒充pull。尚缺完整重建局部JP、九词/五mean、真seam/强返回/正weighted端口/全逆，继续whole original piece消费。
+
+## 2026-11-15 02:18:37 UTC — whole original root piece 完整源解析结论
+
+全文亲读P1–12并核根band两侧权、P15/16完整旧圆词序、最后J支付一次与旧outside非负逐行重组。合同17388B SHAd6369980d02cb9b998082d5b9e80a055abd54fdfe20eb09f26c4e97b0af57d33独推。使用原piece2549与原scalar germ；真实H*<1/6000/aux域仍为实际门，不能宣称物理延拓越过seam。复用已成48完整norm rows，所有新半径尾从正级数重付，sup/Wiener分开，局部Nraw只需q≤2，无未付w1四阶。保九词+五mean和全1079真实seam；完整corrected-trial seam/strong-return仍另付。phase继续最小consumer，只做新半径标量和积分，不重算已有目标/FFT/根/矩阵。只读README核621ecedcb4a918526b20911bdfbdc8a646d66972两blob未变。

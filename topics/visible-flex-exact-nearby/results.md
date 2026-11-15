@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 whole original root piece：完整第一修正源的解析消费定理。** [P1–12](results/R133-supplement-whole-physical-root-piece-complete-first-Airy-sources.md)在原piece2549及scalar germ真含域门下消费已成Taylor12/Nraw10范数，按新h支付原R1/6000全部尾；真实Airy JP、九个非局部词与五个独立mean项全保。根不确定带两侧分别付2√长度；外部旧行逐字复用，跨人工边界只重权，不从旧upper总量相减。未移动物理seam，实际数值consumer继续。
+
 - **R133 actual Nraw：全 signed 局部分子0..10与完整无限尾。** [证明及原生凭据](results/R133-supplement-actual-correlated-local-Airy-numerator-through-ten.md)：public43666374252/1实际child0/10门，26原stage逐字保、60新完整stage；固定η0/复δ≤1e−8/同根piece。σ1/512 q0两分量<54.373309627/13315816.514291689，完整sup/Wiener q0..2分开；b的有限prefix13315816.417922894、尾<.096368796，保所有均值。原hydrate失败0数学和仅路径修正保留；未授完整Airy JP源/非局部mean/seam/全逆。
 
 - [同提案真实端点与完整无限high输出Gram合同](notes/2026-11-15-R133-cap-adjoint-true-boundary-high-Gram-contract.md)：保真9/10 Hermite延拓、97左目标/独立mean、完整128 outer参考qstar+原正比较费，以及4096格/512保留模之外全部alias/解析尾。341pin五件已接公开Actions；κ和全even map来自真实repair/Hessian输入，未转授全帽后验或无限BVP。
