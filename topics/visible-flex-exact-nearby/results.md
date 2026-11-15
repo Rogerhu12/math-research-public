@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [LC：既成局部组件与高频 collar coercivity](results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md)：原4650完整保存的 U/V/nonmean/fullmean/Smean/drift 给逐分量 P 界，保连续修补、selected差和未知C0球。准确平方能量先吸 L/(a n)，再检 cp#AH/n，成功才给完整高输入吸收与半阶迹；十二候选实际门待公开计算。Root、phase全文及来源独核，旧源/积分均不重算。
+
 - [RW 实际六组加权帽后验与完整左端接收核](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)：43729429382/1、child0、15/15 完整门，六个独立χ门均通过。κ3/4 的右 physical ordinary pair≤5.620922e−8+1.890860γ、内端B≤2.874429e−8+2.293827γ；κ1/2 的Cmean≤1.921662e−8+.401425γ。所有mean/sourcepoint/outer/knownδ列保全；只是同实际帽后验，WA低迹尚未付。18pins与旧零计算独核；新局部源接收器继续推进。
 
 - [SB：保完整 selected 小源的 degree32 分带](results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md)：用 $z_\delta=P(Q-Q_\delta)$ 保留 NR/WC 已成完整残差，主低 shell 仍为33–96/225–288；known reference 的完整差和未知非线性差各自支付，避免 DB22 的粗基点 body triangle。径向 mean diagonal 只在真实 N0/N1 另付后收尖 mix；全部 mean、cutoff、drift、high费与两侧 receiver 义务保留。纯解析结论，root与两代理分别独核。

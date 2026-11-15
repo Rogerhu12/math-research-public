@@ -101,3 +101,11 @@ run43729429382/1 job132858381096，15:21:33→15:22:18 success；jobs2834B/e72d2
 κ3/4右physical5.620922e−8+1.890860γ/innerB2.874429e−8+2.293827γ，κ1/2 Cmean1.921662e−8+.401425γ。tail球右physical<5.622400e−8/innerB<2.876221e−8/Cmean<1.921975e−8。真moving80与fullselected10d费用各一次，未等同physical/moving频率。六行完整估计不拆开交叉min。known-affine预算主导仅为上界瓶颈，非actual residual下界；fullFC mean不可任意相减，WA低迹/左core/finitecut/窄MA/完整matching仍待付。
 
 RW三次真实pull 15:21:59.100330、15:22:05.309392→ce2b12c0f391a008343866ed9fe649f44d91ed28，15:22:11.594118→8142567c288c4731b5d40b81d350a399fec24028；两README全部空diff已亲读。容量198300454→projected198374631，完整metadata inventory78315cc2。SB推送15:22:44非FF已即时真CLI无环境后保远端重建成功；本轮只读README核2c3ce8b3477b50cb5ecbfad92760e6604701cf1f未变。
+
+### 2026-11-15 15:34:31 UTC — LC局部组件与两次高频吸收合同
+
+Root全文亲读c63bf110cc55d083b41bf60b8eeaf4d6ab98f519/12126B/58a13cda928c26a29333016d74d8b9b9a17ebc40e9898e2b44993340997f3326，phase另取原producer1292a1c0核128–200后全LC1–21通过。原4650容器ea174511/6223338B及4parts32b430a2只读；U/V各分量乘真实P，原α已付不重复；mean_v/full_S_mean不是intrinsic s，nonmean来自原独立字段不相减。LC5repair和LC9真Smean差、known1/4 primitive vs unknownπ/8逐项保。D原同窗ratio只读，无旧target/积分/7721恢复。
+
+LC15平方恒等因真实d/J0反对称与径向a成立；τ=L/(a_- n)<1后cp#=1/[a_-sqrt(1−τ)]、cr#=1+d cp#。再t=cp# AH/n<1吸完整high列，低shell/knownΔ/unknownΔ/χ′与mean全保；χ不可除，halftrace最后P只付一次。12候选=6rho×J96/288，每例含τ/t两个测试；未运行前无数字改善声明，失败候选完整保留。SCI将沿RW稳定worker独立新消费。
+
+Green15:26:02.978733原process436b7d52a1e07be52309a205fe1a6a1cf766bf29/50058B/97e8e62d894e714f5f73dd031473652d5c566816fc90ff7ee6c9bbcc9900e74e亲读；只变live/进度/README/容量等mutable字段，科学inputs全同。past3888@15:25:22，combined77groups@15:25:42；独立consumer稍晚36/29/13不冒同步78。future/product5970成功锁。真实pull15:26:01.494795 40a7a665→6a55e3e68a715d18b0e415aa3f4c9a3335e18b39两README空diff；容量198381041/inventorybbfb22b6。open第2节完整前状态ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f保所有旧单位/域/失败义务。当前只读README核149ec9b8d1bde530a25f4322cd946e5635f09c99未变。
