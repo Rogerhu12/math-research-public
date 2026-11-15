@@ -310,3 +310,11 @@ exec ac779c8c374e1d577f004eee3024f087d7e5034d/25000B/936633fcfb2cdc9ed3f0e108909
 B*=4.729884448094…、G*=13.861871568892…、a*=73092.471299520…、ell*=40035.449407099…是本次新scalar。两同CPA case各三完整original96 waist列、六个WA同d=1e−10球的一次乘积均成；原完整directed balls在actual，摘要小数不冒新球。γ入口/highbody/highcut/完整mean/其他四源/ν与真解独立。
 
 最末runner真pull18:59:23.174390至dc282749384a4416e89d2f544a139779983dbec0，三README空diff。该次记录topic199786696→199814608仅旧出版时容量，之后3d6fb已删1221901B，不作现在容量主张。temporary5046B/b4ac34e1与stdout236B/7621da6b只保hash，无新artifact/Release或数组Git。完成此子问题后继续SN/RR/TN/SC及完整core，无总验收宣称。
+
+## 2026-11-15 19:16:26 UTC：TN 两窗同一个正规化逆与强余项纯解析完成
+
+在 9236fcf0a21746eef528754d567c2992ea3a12c9 核两README不变。新增proof401edaeaf8d64f32e51af6faef7c34cb0172f35a/18847B/0ffa3261e3bb3fdea2cd05afd489b2e71b5587a2bba9432410c492e2ee64f2aa。root全文读并另亲取原S a223a263c3dea6e87e9e51364ee541946eed4c77及N da51581b623d4167ae9278af6892bc9a0591fb3f，逐式核TN4/5等于旧N8–10、TN7/8原positive fees、finite带192/384/fullmean、两个真实Sobolev窗。独核N−(1−A)=[A²−(1+B)^−1 B](1+A)^−1不交换A/B；A²的−1/3/2/3中间窗、high-output ΛJ−2/3及左B逆L2/右A逆负窗全部正确。F_S两端支持≤J+191且含mean，fee2CI S*Λ^(1/3)有完整dualH4/3条件。newton独核全文，phase作者和另一peer的threshold/strong核均保。未跑新数学。
+
+同P22 cut q由完成RR原记录读取，S*/S2*/整数J是尚未完成的新scalar；现合同不宣实际J97或任何incoming/全R0。97..J−1、HL/LH、两mean/真正phase共轭完整保；trace不冒interval。
+
+为遵H≤10KB/open≤30KB，活索引旧已成行与open第6节压缩；压缩前全部H/open/results/log逐字在547f47a7410843ee1187159222b26024d672940a相同路径保留，递归原archive不变，所有原常数/域/源单位/失败/restore及未付义务继续有效、成功禁重。修正NF过时索引：第五列已WL付，不误写仍待。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **TN 同 P.22 严格截面的两窗共同逆与完整强余项。** [全文](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261证明完整S/S2带宽192/384与显式有限J门；同L2/H−4/3 ordered逆、两gain strong remainder、完整F_S有限输入输出及dualrow/mean全部保留。root核原S/N和全文，两peer独核；新S*/S2*/J待public scalar。扩大有限块不授其Schur逆，真phase/incoming/R0独立。
+
 - **WL 实际完整 original96 腰部第五列与六个已知贡献已成。** [实际全文](results/R133-supplement-actual-complete-original96-waist-lifting.md)9a4d19bd：公开43749764738/1 child0/18、8pins/2AST；root独立复原SCI4bc0980f/preGit0cfb9ab7并逐字核34球。由原D正算法固定ε提新B*/G*，NF完整384/mean给a*/ell*；同CPA两case各三wY与WA腰球一次乘积均成，wholebody约3.248351886e−16/3.147989468e−16。没有重旧rows/积分/Green/WA，actualγ域、另四源、独立high/mean与真实PDE解仍待。
 
 - **SN 丢失参考续跑包与终点分导读出部署。** 在已发布 7edf79c7 恢复合同和 18a3a7f6 丢失范围下，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3 仅重建原314×4有限参考并读取1256成功预算，从next2831继续；207pins/8AST/21门设计。新终点保存双branch四导标量，完整physical A1/128尾且原H3公式不变；typed只读metadata暂错不杀正常child。root及两peer静态核通过，尚无新最终C，所有原mean/无限频/真实参数费用保留。
