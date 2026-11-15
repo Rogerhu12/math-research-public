@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：71744524b9001226332866870515281d35f49910**（2026-11-15 08:29 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：7cb86517c1de32da9ab87985e75fd2ece499617b**（2026-11-15 08:36 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R798前H](notes/2026-11-15-handoff-before-R798.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
@@ -33,7 +33,7 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending�
 
 **R797公开run43693453831运行中**（source05bf2b2b22d1435a20233f48cb34a78fc53e7154）：[五新Laurent方法](notes/R797-five-selected-original-Laurent-prefixes-method.md)及core/wrapper已完整审核。仅收缩旧R77456个共同G_iG_jG_k，新标量各自保4·mult/1722³与q移一阶；无原f4标量复用。真实新N170/172/176/193/196，保R781无逆递推除数3n+1、原v相位，全部新算术留Actions。corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。
 
-exact_height接R798，以真实1506独立短坐标和τ³V3嵌入构造固定乘法；不先求大有理逆。
+**R798证明已成，公开工程已冻结待审核启用**：[原六次幂选行坐标](results/R798-original-power6-row-coordinate-interface.md)由真实1506独立短行给Ψ_I；原三次幂积有生成证明，初次仅求690个τ³V3积并以两种完整1640坐标核验。任意外来短列/恢复原基系数必须全1640行代回，不能只验I。Dixon按固定矩形2AB<M重构，初次不执行大有理逆/恢复。proofcc245ea6、methodf7fd0900；实际短minor尚待Actions。
 
 **R799已证明**：[七、八次最小短基](results/R799-original-power7-power8-minimal-basis-construction.md)给维1778/2050、q95/108；两锚点秩恰1778−共同零次数，已成V6全部recipe只用M2锚点0/1/73，故这三个已无基点；其中存在pencil，保证V7及Sym²(A)V6=V8。只新增V6尾82..108；V8直接三因子，V7不扩108。ordinary继续工程，实际minor/新基未算。root R800另补原M2尾129..195，尚未运行。
 
