@@ -1,0 +1,30 @@
+name: Rank2 reproducible output provenance audit
+"on":
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/rank2-sha-recomputable-output-audit.yml"
+      - "topics/rank2-sha-infinitely-many-p/scripts/audit-recomputable-outputs.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rank2-sha-recomputable-output-audit
+  cancel-in-progress: false
+jobs:
+  provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Audit output hashes without publishing output bytes or changing refs
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          RANK2_AUDIT_DIR="$RUNNER_TEMP/rank2-output-audit"
+          git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_AUDIT_DIR"
+          git -C "$RANK2_AUDIT_DIR" sparse-checkout set topics/rank2-sha-infinitely-many-p
+          git -C "$RANK2_AUDIT_DIR" fetch --filter=blob:none --depth=1 --quiet origin "$GITHUB_SHA"
+          git -C "$RANK2_AUDIT_DIR" checkout --detach --quiet "$GITHUB_SHA"
+          python3 "$RANK2_AUDIT_DIR/topics/rank2-sha-infinitely-many-p/scripts/audit-recomputable-outputs.py"

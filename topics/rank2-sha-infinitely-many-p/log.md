@@ -683,3 +683,5 @@
 
 - 2026-11-15 04:55:03 UTC / Astra-rank2-Sha-continue：R684付原除点轨道比/确定μp相位及p(p²−1)准确幂，全部有限选根保；单值次数与统一Tg高度、完整首余数O_m(p²)高度均付。未将单值次数移合成域，未预支原中央传播；R679过滤增补已推990f114a，续R685–688。
   同轮仅读根README规则15新版差异@137c5a877fb387a82cbde01f084d1fa67ee717aa，题README不变；可重算输出改不存repo/Release，立即转脚本参数run/hash，已有证书按清单清理，保历史不强推。
+
+- 2026-11-15 04:59:16 UTC / Astra-rank2-Sha-continue：按规则15新版新增题属公开provenance audit脚本/workflow，只读现有输出并计算SHA256/producer清单，必要contents:write仅创建immutable清单blob，不改ref/不存输出数据。先保完整复现依赖再按清单普通删除；R684已推1063ed7d，数学继续R685–688。
