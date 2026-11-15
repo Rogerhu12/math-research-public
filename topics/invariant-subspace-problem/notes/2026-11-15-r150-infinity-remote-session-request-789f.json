@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "51b9b19f38061a351e1845724266d9c578916a05",
+  "rulesReadAtCommit": "a980668f7499dddcae1b62f49f1230c5eb43ac33",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -471,6 +471,25 @@
       ],
       "timeoutSeconds": 50,
       "receiptPath": "{work}/physical17-quadratic-multiplier/physical17-degree2-multiplier-receipt.json"
+    },
+    {
+      "id": "seven-exact-sparse-structure",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-seven-original-exact-sparse-structure-789f.py",
+      "scriptSHA256": "b61ec2545cd66cfc22ec0cdade64431bdf505ad130620f25c178f5244ddf2d13",
+      "argv": [
+        "--core",
+        "{work}/seven-original-exact-rational/seven-original-integer-core.json.gz",
+        "--profile",
+        "{work}/seven-original-exact-rational/seven-original-unit-row-profile.json",
+        "--out",
+        "{work}/seven-exact-sparse-structure",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 50,
+      "receiptPath": "{work}/seven-exact-sparse-structure/seven-original-exact-sparse-structure-receipt.json"
     }
   ]
 }

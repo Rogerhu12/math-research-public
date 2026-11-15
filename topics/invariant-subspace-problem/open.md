@@ -163,3 +163,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **[同原29条核曲线给43阶及条件8712](results/R150-appendix-selected-koszul-curves-infinity-order43-and-source-cost8712.md)：** full A∞的真Qrank4340已由原投影七整数核/F7夹逼。29维所选标准核各有同自然u全原无极点曲线；一阶连接的完整像损失给D/换列/cofactor阶≥43/42/41。K60后q≤8667，原h0目标已有Q[s]来源才得cost≤8712、非基≤8711；未付成员性/完整Smith/lc(D)单位。一般可提升常项s维给s+14阶与8741−s，常核数不能替代s。
 
 - **七原有理方向真实进度：** [run43679903558回执](notes/r150-infinity-remote-session-789f/43679903558-seven-original-exact-rational.json)在592.119801265秒预算到达，已保存原整数核心和原I内4318单位行列；七RHS的native求解未返回，新增核0不作为否定。Q范围仍4318…4325，下一先检查原稀疏/分次结构，完整残差和七组合仍未计算。
+
+- **[当前物理四次块真秩986与二次skew降次](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)：** run43679903558实际0.420009955秒，原1001×1122模31rank986及完整136常Koszul核给Qrank986。反对称C系数degree≤2且Cf的原来源degree≤3时，全交替三张量使Cf严格等于一次系数表示；同选支撑交仍29维。只闭这一扩展，degree≥3或整个Koszul模不外推。
