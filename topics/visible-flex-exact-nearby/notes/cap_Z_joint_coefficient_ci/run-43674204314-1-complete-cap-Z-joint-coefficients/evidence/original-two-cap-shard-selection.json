@@ -1,0 +1,35 @@
+{
+  "original_archive": {
+    "id": 14109363064,
+    "run_id": 43583838026,
+    "attempt": 1,
+    "name": "visible-exact-body-prepared-43583838026-1",
+    "size_in_bytes": 166702374,
+    "sha256": "34d95f5d263b210134da3ae5bb243df4369cd83fbdd196c068c9727b194cd710"
+  },
+  "original_prepared_manifest_sha256": "fd7594990ecc126e63a79198e00bbaf5912537ff1db480ade8ac82ff8917c893",
+  "original_success_process_sha256": "48ae4b765cf4d0ca9bbed76f2f34779114a27c03521e667cdb660fd7b7d056d4",
+  "complete_cap_inputs": [
+    {
+      "original_member": "trials/response/response-full.json",
+      "bytes": 11295,
+      "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6"
+    },
+    {
+      "original_member": "trials/response/response-full-part012.npz.gz",
+      "bytes": 2698989,
+      "sha256": "777337c853329f26719b148e34db079c5ca0ed34991aa40220f25624e4af0b3c"
+    },
+    {
+      "original_member": "trials/response/response-full-part013.npz.gz",
+      "bytes": 1517845,
+      "sha256": "4a863085ec89c7d7104b4fdf566f9ae380d22eb7b4e4f8b2146cd190c3b4b037"
+    }
+  ],
+  "original_complete_direction_certificate": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+  "exact_cap_domain": [
+    "9/10",
+    "25/8"
+  ],
+  "old_repairs_and_targets_recomputed": 0
+}
