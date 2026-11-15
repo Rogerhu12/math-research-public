@@ -306,3 +306,5 @@
 - [Request172：真实current-H完整R360割线分解](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)：13件/124pins、原145六p重生；same-X noJ与原十拒后3较小档诊断，准确全129248行分离b/Aq/s/d，原接受门保持。额外调用有缓存/时间影响；单份必要摘要、大见证不搬运，实际R369不预填。
 
 - [R375：同C两图Riccati比较传播与完整cut责任](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)（已证条件包含）：上下标量比较覆盖整个闭系数族，完整存在段与log/sign重构支付图内非零幅度，精确平衡/隔零切图、全部cut候选与中断后缀保持。从原根族重新计算，不缩旧失败盒，不预判177或全部112非共振。
+
+- [R345：actual161单field全230列严格认证](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：真实128末态唯一α1接受、全226独立replay；stage10/RK0/field0的224shape+6环境列320bit完整认证、两mean保。仅固定实际输入/trace的准确有限算法误差；上游/整RK、112/338/audit/native仍未付，子70传输由同job完整恢复，全部大表只身份。

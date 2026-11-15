@@ -249,3 +249,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:14:46 UTC /root — R375完整两图比较与原幅度重构
 
 22953B条件证明全文核后即发；补Riccati归一导数、全闭比较解存在、log符号、准确平衡/切图、全部cut与partial。177原全根族重生，168终态由geometry核R368；172/174真run补H，旧C历史压缩而完整范围留原文。新环境pwd仍exec-server缺失；API核a0f9e573e761a9640132ac6261a3f7175c3774d9双README未变，Actions真实pull保。
+
+## 2026-11-15 18:16:05 UTC /root — R345真实单field全部230列严格认证
+
+14251B完整范围结论已读即推；128原一次接受/replay与固定field230列分责，5583.405569128001s、全列complete/无未决，原子70仅传输并已恢复。全RK/112/338/audit/native未付，大科学表不重搬；160完整数值末段继续。API核d18eeeb0d75b454c4721d7f9f9e57a7f867735ae双README未变，真pull保。
