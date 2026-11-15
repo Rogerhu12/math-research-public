@@ -129,3 +129,5 @@
 - [R194：权零自由时长全路径判据及a=0边界准确解](results/R194-weight-zero-free-time-criterion-and-zero-acceleration-boundary.md) — 同一真实字符/μ的完整action必要a,b0,V非负；正性准确等价E={p0}到E所有曲线的磁性长度∫[2√(VG)+b1p dk]非负。有限正ε重参数支付所有退化点；存在零E值的局部Lipschitz上右导数支配势给等价端点表述。a=0时快速p collar无代价，完整iff c,A0,b0≥0、d=b2+2√cA0≥0、4b0d≥b1²，全部等号边界保留。只减少真H0后的正性问题，不冒形式系数真实或有限族存在。
 
 - [条件增长首轮的结果提炼失败](notes/trust-growth-observation-failure-20261115.md) — actual43680023529/source9b7c07f开发stdout passed、科学程序正常complete，随后只读printer递归展开98KB内部toy布尔触发20KB门，科学模型/门/增长表尚未打印。metadata-only发布成功，full8733103/1dc16d03、summary74795/21e8a9ca、dev98567/ff801919身份保全但无payload。仅修打印次序与诊断层级并公开恢复必要计算；不猜改善、接纳、退出原因或全门通过。
+
+- [R195：单边活动包中的真实非零第四ruling方向](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md) — f=C非零常值而g变化，w保三g矩时所有cross相位由二次生成元的Sobolev配对准确消去，得Bθw=−2sin²θ D_w S_s(g)。真实右尾/η/八维累计历史给固定几何像≤42；标准常段完整三次局部式的Euler首t10不属三矩adjoint首t4..6，四测试函数C4连续性给C∞准确补矩的非零有符号商线。周期不变，只改σ一次，R193二次障碍保持；无满射或第四解断言。
