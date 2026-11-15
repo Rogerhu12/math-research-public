@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 03:12:16 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 03:15:38 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root最近已核runner真pull：2026-11-15 02:59:20.267545 UTC 8383c71bde8f3f5bddbe1f8ec7929c20e986f08b（sameF26 process2c235c33…，两README diff空）。
 21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：c230da5e66156edaed505c59bdd8c64495445c1e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：720d00ef1717d4006994647c98039c07fe0c9db6；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public）；原相关AGENTS无。H9990B完整存notes/2026-11-15-handoff-before-whole-rootpiece-receipt.md（0e6e1b13…），含更早H9914/9918/9850/9797等完整链与旧native/失败/参数。旧open29021在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md，旧log在notes/2026-11-15-log-through-inner-source-deployment.md。成功科学与出版失败必须分记。
 
 ## 同一对象和总完成门
@@ -34,7 +34,7 @@ Taylor12 actual43664023495/19门、native758a2901…；b*完整43665091373/8门�
 Nraw actual43666374252 child0/10门，26原/60新，nativefbe1bce6…/process6396a554…；σ1/512 q0<54.373309627/13315816.514291689，b尾.096369，有限mean不可删。q1/q2与sup/Wiener见actual585e7229…；43666029053漏路径0数学失败保。
 whole-piece合同d6369980…及80pin五件SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…部署d549f0c。actual43669106351科学child0/10门、488.827716s、25新stage/4329原外行、9root/6case全成；native6668c9b2…44628B/process242d82b6…8346B。CI摘要duplicate complete TypeError，原失败与科学成功分记。
 零数学receipt已部署：source f285c6be…、独立40pin0a7e70dc…、worker760da59a…、flowc9e3508e…；原science/80pin一字不改。只核/提取25stage+6case，完整diag先gzip，真正摘要≤60000B；唯一自然5596452B SHA60278982…来自原436691artifact，0数学重算。待实际receipt后逐项记录源界并继续修正seam/正weighted端口/strong-return/cutoff，不以此授全高逆。
-径向R1–29/a13b5fde…保真实primitive D_j、两branch/j0、原J重建与seam/Duhamel；一阶d∂/正Cauchy增长仍付。phase正写同一T∞的逐模径向Liouville/两行普通源合同，原mean与4j算术不改。
+径向R1–29/a13b5fde…与common-T C1–22/8d4119cb…已证：原Tκ²=Kη²不随j变，z=j^-2将全部频率差精确收入可去奇零阶势；G/G∞保全mean，两ordinary源无需g2′，root保n1/3混合矩阵。主部准确∂T²+T∂X²，deformed两幅度保完整V及V_T；未知d∂/原I/J/j0/真实seam与正两端图仍独立付，未授新域/Green界或高逆。
 
 ## 外返回、新简单根和闭网络：tail_connector
 

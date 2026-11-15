@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **同一径向 Langer 坐标与完整两行源**：[C1–22](results/R133-supplement-common-radial-Langer-reference-and-complete-source-ports.md)保原Tκ²=Kη²及4j频率；用z=j^-2精确保留逐模零阶势/规范，ordinary两源无需径向求导，root混合权及两branch/mean不删。deformed Airy两幅度的主部与势修正已准确展开；仍需实际域/势/传播界和完整nonradial耦合。
+
 - **同对象提高角阶的真实边界**：[A1–20](results/R119-supplement-same-object-angular-bootstrap-and-physical-low-mode-obstruction.md)构造全部角窗有界、每胞charge和外迹均零的真实mean源，其二jet仅δ128；固定m4齐次真尾的物理指数在132与133之间。H2048额外δ128只属于remaining，不能给全解δ150。实际相关非线性源仍按更强域继续，原ζ131/profile不改。
 
 - **整原根分片科学全成与零数学收尾**：43669106351科学child0/10门，25stage/9root/6case、4329旧外行已保存；只因CI摘要重复complete字段失败。独立40pin receipt完整核验并提取原自然文件，原science/80pin/native不改，0数学重算。[过程记录](notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md)。尚缺真实修正seam、正weighted端口与完整高逆。

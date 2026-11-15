@@ -323,3 +323,11 @@ H9990B完整存notes/2026-11-15-handoff-before-whole-rootpiece-receipt.md，SHA0
 固定m4实际B_j相对理想误差可和；保整个真实允许线及E基，去真实规范后u_{j−1}=Λ4(1+e_j)u_j，2^132<Λ4<2^133。恢复真实height因子ρr4/20，得到实际物理下界δ^log2Λ4；有限径向cutoff可接外零解且所有mean charge/边界条件兼容。原C.12完整胞内flow和实际Q付两jet趋0。remaining角权公式多128层幂确对，但不作用mean/固定低模，也不声称2048阶完整门已做。
 
 因此后续转向实际Q余项与metric lift的小源子类；固定m4相对ζ131尚有>1层幂余量。仍必须支付原强角标签、mean积分、真实Γ/帽/ν耦合。同源无新数值计算。压缩H中旧资料已全部存在上一完整H9990归档，未丢任何native/失败/范围。c230da5e66156edaed505c59bdd8c64495445c1e两README blob核不变，真实pull记录沿用已核02:59runner。
+
+## 2026-11-15 03:15:38 UTC — common radial Langer参考及完整源/端口恒等式
+
+推最终C1–22，blob5fe6c61c14db1bcc560f5361eceb13e59cae1a8c（15993B、SHA8d4119cbd42577fc1ab498350f4a8fd77b2923f7e207db4c4519f7a345225392）。root全文读初稿并读最终差异，newton独立窄核C11–17和最终符号通过。初稿e6d45…的C21误写−T∂X²会留下2n²T；发布前已对照原L2/L8准确改成+T∂X²并同步两项正号，原正确C1–20与C11–16逐字不改。
+
+完整D_j按真实finite背景M≤96配对，a(z)−η=zα(z)、16(a²−η²)/z可去奇；原Tκ²=Kη²、κ*=a*^(2/3)，不改principal fold或4j算术。G∞吻合原closed-leading归一，G/G∞含完整trace积分及所有mean；C14保两ordinary源，C15保dT=κdr，C16保n1/3物理mixed root两列。C20–22 deformed基的完整势、势导数与一阶项全部显示；原I/J/mean及频率耦合乘法次序不动。
+
+没有任何新数值评估，也未宣称新公共复域/非零gap、径向势上界、正端口选择、完整seam或strong-return。实际unknown无限背景不继承有限M的z圆盘；不同canonical图/一阶d∂仍须原合同。后继以已有native系数做真正新增reference预算，所有成功target/FFT/Taylor工作不重复。只读README核720d00ef1717d4006994647c98039c07fe0c9db6两blob未变。
