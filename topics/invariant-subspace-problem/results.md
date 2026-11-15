@@ -231,3 +231,5 @@
 - [R150-appendix-zero-complete-fifth-connection-exact-one-factor105-and-cost8584](results/R150-appendix-zero-complete-fifth-connection-exact-one-factor105-and-cost8584.md)：完整第五β5=1/18头，含全部R3/R4旧像与整条s²T2/sT3回填；low589/kernel39/zero31，668304原产品全真。公共零阶59/50、K105、amax9…16；配selected∞130/125/125得q8422…8535、条件8579/8584/172。原九平方读数零仍不等于成员性。
 
 - **零完整第六恰一与首次平方非零。** [自足证明](results/R150-appendix-zero-complete-sixth-connection-exact-one-factor107-and-first-square-readout.md)保完整W5及s³T2/s²T3/sT4回填：low590/589、17真头、736372全原产品；公共阶61/52、K107、最大Smith9…14，条件费8582/172。λ6首个非零平方值已精确记录，未乘h0的t2在本有限模块有局部障碍；h0的s3尚未付足够阶延拓，不外推原成员性或ISP。
+
+- **零完整第七与第六读数的准确消失。** [自足证明](results/R150-appendix-zero-complete-seventh-connection-factor108-and-invariant-first-square-map.md)闭β7=1/16头、792064原产品，62/53/K108及条件8581/172。完整低K0…5所有代表九平方零给E6同头不变；rankE6=1且kerE6=K7，所以该六阶值无法形成h0模s10障碍。七阶λ7代表自由与八阶限制分别处理，原成员性仍开。
