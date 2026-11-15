@@ -76,6 +76,8 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证完整两图Riccati比较及全闭段存在、非零sign/log幅度、准确平衡/隔零切图和所有cut商责任；[177接口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)五件/17pins已发，science34606e3f/reader13cf/request1c77/wfef3c。保原f12f C/fe667 deep/5440来源与原三输入/两query；从原全深族独立重算112，不裁actual162失败盒。比较解全闭分母严格正才付真实ratio存在，完整(1,z0)乘Taylor余项；12bits为绝对工作目标，非原Duhamel相对界。全部cut闭交/候选商、prepared→commit与完整pending保。C3600/linear14400/25M/free2GiB/256bits/depth32及360job，18900 namespace仅startup clip不冒绝对kill。单份≤90KB必要112状态/原DN端点/stack/suffix；大见证不分包，读回/静止条件后才清。geometry核实际R379，fullcut不冒168/169的physicalfar或非线性BVP。
 
+[R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)已证同一原C的完整实角lift：φ′=βcos²φ−αsin²φ与两自治barrier全局存在；完整圈数/正log幅度/二幂换帧保原列。物理单位Robin由相关sin²+cos²范数下界取得，不要求单分量共同隔零；原QPi行须完整T/逆范数界。DN仍每一完整cut候选高度隔零后才可除。小段角增量的正内积界与完整指数余项给可实现核，但不保固定bits/预算/宽度改善；未访族/后缀/事务全保，不推177/179失败或native成功，也不加前门。
+
 ### 3B. 准确九族与完整公共u目标误差
 
 [R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)/[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)原准确core/两短Hermite窗/正coast/九C²控制和真实E/E_r/E_rr校准保；有效dyadic选择与有效精化前提不能由一次粗盒假填。旧134/149参数不自动属于新准确九族。

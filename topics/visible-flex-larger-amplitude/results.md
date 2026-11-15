@@ -331,3 +331,6 @@
 
 
 - [R381. 实际176r2完整反证位置与读回恢复](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)（实际纯metadata读取）：43748206814/source48e55d2e，单55100B/46ac562a核全32977 cover/32526 pending/32488 unresolved/38反证；全部numeric416，17正/21负速度叶连接成两个原闭u区间，未决原因也定位。708行首BOM只改解析视图、原1.48GB日志SHA不变，reader0不改165科学exit4或任何native/metric未付责任。
+
+
+- [R380. 完整Prüfer实角lift与取向Robin包围](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)（已证条件定理）：同原C的全实角与两自治比较流在有限有界系数下全局存在，保log正幅度/圈数和正二幂换帧；相关范数下界支付物理非除式单位行，原QPi须完整变换。小步正内积/Taylor余项给可实现外包核；DN仍另付全cut高度隔零，不保证实际精度或native/全场完成。

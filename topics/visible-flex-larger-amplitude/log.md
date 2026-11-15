@@ -303,3 +303,8 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:51:50 UTC /root — R381完整38速度反证位置
 
 13055B/77d2eafd全文读后单独即推；原全cover/pending/unresolved计数与38必要位置恢复，17正/21负两闭u区间及未决原因完整记录，不重算科学、不回填R374旧失败。原165 exit4保持，继续核当前C准确身份与coast可变参数；真pull已读d9336e76fe9948d642e6e079bbdf26946b6d42d4、双README未变。
+
+
+## 2026-11-15 18:54:35 UTC /root — R380全局Prüfer角与取向Robin
+
+19469B/8a51036f完整证明读完即单独推送；全局比较/正幅度/圈数/二幂换帧及完整QPi变换分责，单分量过零不阻角ODE、也不代高度非共振或native接受。178实际43749066353已回填；H缩写已结历史但所有责任在open/原结果保持。真pull读70d3dc81fbb1ce35017af5063d8ebac922a45b2d，双README未变。
