@@ -112,3 +112,5 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 根会话独占main/共享索引，子代理只专属稿。所有新数学只用本公开Actions，已成raw不入Git/Release或悬挂blob；公开一日artifact仅当前续接。非快进立即真实pull/rebase循环推，不force；两README每次pull查diff，读过SHA在HANDOFF。主目标仍OPEN，继续推进，不以阶段报告收尾。
 
 **R833原指定超奇异权六评价已精确识别**：[完整证明](results/R833-original-inert-supersingular-weight-six-and-quaternionic-evaluation.md)。同一原P0/微分/全tame level上Γν=β^(6−p)Cν^p，βhat(P0)=12B∈Fp*；原未筛和为(12B)^−5(−120c²/d0)^pΣκν^pΓν(P0)。old d^−6与全部共同相位保留，ε′(w)=ε(barw)^p按p mod24明确运输到R830权6特征。此SS函数全局存在并非指定CM值非零，也非任意JL向量；六项相消及同primitive/Legendre三单位仍真实开放。继续严格排tame M6同eigensystem、定位实际Serre-dual class与指定评价，不重做R830的同q级数filtration结论。
+
+**R834原指定源全局非零及准确Serre-dual test form已证**：[完整证明](results/R834-original-inert-source-nonzero-and-Hecke-Serre-dual-evaluation.md)。纸面实际a5(F3)=307i√2、F7相反，307为7mod12素数，故允许惰性p两组原T5特征不同单位；各组d1首系数κ单位给原V非零，负权Hasse商排全SS恒零，原W=β^(6−p)V^p全局非零。惯性{6−p,6p−1}排整个tame M6同特征，Hecke primary connecting map是同构且δW≠0。原KS配对12Σvu/β；原P0 delta值B，经e转置唯一lift为真实cusp form uP0,e，原未筛和=(12B)^−5K^p〈δW,uP0,e〉。真正缺此指定配对非零；连uP0,e是否非零亦未证明，不把有限域Hermitian式当实正定，不删原primitive/Legendre同h。

@@ -294,3 +294,8 @@
 - 原R824真关系→R792最小公开runner8991eb80/pending c945be74/workflowf8c68233全文核完并保存；只待真实已结束exact输入，当前pending不触发、不伪装R787或新beta。
 - 原五成功来源与新R824保持独立身份，原recipe/146 CM jets/两Hom矩阵/17准确检查段全闭包；同tag只恢复完成阶段，300min+15外层timeout/短宽限保最终manifest与一日bundle，未动数学核。
 - 首次引用竞争立即公开实际pull/rebase重推；2026-11-15T16:56:09.401025+00:00实际pull/read cdcff2436b119b50b6c714b9d39fc9a9b1b1346f，两README无diff。原R775/R786 artifact API已核有效至Nov16 05:52/05:41 UTC，实际关系发布后及时消费；主目标OPEN。
+
+### 2026-11-16 01:02（Asia/Taipei）｜serre-public-astra-20261115
+- R834完整证明登记：实际T5的±307i√2把两组原old源分开，指定V/W全局非零；惯性比较排tame M6同eigensystem，δ在实际Hecke primary部分同构，δW≠0。root核原角色/双理想项、Breuil原文两页、低权提升与全部局部化。
+- KS/原DA给12Σvu/β，P0 delta值B及转置投影唯一cusp test form明确；仍未给原指定配对或同h单位。proof SHA5fb2ec73，旧H逐字同目录归档压缩，保原Picard/高度缺口。
+- 2026-11-15T16:59:32.737781+00:00实际pull/read d55f1ca112bdbd1f4551ac7a31c81d1b3e178f22两README无diff；R787/815/824/827公开计算继续，主目标OPEN。
