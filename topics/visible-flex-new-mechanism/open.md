@@ -118,7 +118,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R232](results/R232-original-eight-packet-exceptional-port-obstruction.md)现消费43699241372/ee9e2098首次实际：13新toy全过，b0原八包Lc<0、Ls>0，四正根槽同号及16bit严格有理区间双证，严格排所有可容正宽度的例外germ及已付C∞近邻。保Gff真实左尾/14段/跨包正交，只算两新能量，不重旧c系数。改圆的首步见R233，继续完整次层与joint；不继续改变同原圆的宽度或预算，也不泛化成全部C²障碍。
 
-[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)纸面付另一三矩圆Lc=Ls0：四尺度Lagrange矩消去、Sj=a_jS*，sin2α=−P/Q严格位于(−1,1)，a=1,2,3,4给537/9305。保Gff真左尾；八复制先付完整三阶再对全部微包另选角。**该平面仍GL2可分离**，不继承旧first-f-up/g0或F8；R50只排带标准常状态段的旧分离实例，不能直接扩到非零ke例外germ。下一付真正不可分离且同样清领先门的新圆，继而完整次层；leading为零不冒joint成功。
+[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)以四尺度、真左尾正bulk和O2旋转付三矩/LcLs双零，八复制后另选角保完整三阶；原四尺度平面仍GL2可分离。[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)现去掉该限制：任意正I内构造P8非零的完整八包block，取相同t的α与π/2−α两根，在两个不交尺度副本上分别使用。真尾交叉能量只按E(x²,Z)=0消去，四射影方向排所有GL2分离；M0/TκH上的完整二三阶及LcLs0同付。新的第一F已改变旧指定gε，旧首g0/F8仍不继承；R50标准常段障碍不冒普遍。下一完整第四次层、全period与同w ruling，不能把领先双零当joint成功。
 
 ## O1：双圆领相位机制，保留备选
 

@@ -1,10 +1,10 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成；无满足README全部门的完整候选。不得以阶段报告、时长或单次预算结束。** 会话`Astra-new-mechanism-9974ea84`。root独占Git/Actions；联合首跑43699241372完成，33源绑定；两lane结果逐条消费登记。子题完成即接[open](open.md)，完整证明与实际见[results](results.md)，早期索引已按100KB限制分卷。
+**进行中，未完成；无满足README全部门的完整候选。不得以阶段报告、时长或单次预算结束。** 会话`Astra-new-mechanism-9974ea84`。root独占Git/Actions；联合43699241372两新结果已登记。子题完成即接[open](open.md)，完整证明与实际见[results](results.md)，早期索引已按100KB限制分卷。
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:40:10 UTC实际pull后已读规则提交：`31734d38bf13e5b88d9b15287751d552378eaaec`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 09:45:39 UTC实际pull后已读规则提交：`151b8474436ce1622afdc7e42aa227e2a8c8b64a`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -36,7 +36,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R229/R231/R232例外主层已付**：G候选pure quartic=−(l+b)³C_b²/64，三复矩使0；一般G左尾不可删，全b仅原多项式延拓。R231保所有local/chain/真history，物理支x+b及x+b+ke/he正时完整K/(hβ²)→sin²θ Lc+sin2θ Ls；Lc=E(Gff,Ggg−Gff)、Ls=E(Gff,Gfg)。43699241372/sourceee9e2098/job132766507913首次实际13toy过，原b0八包Lc严格负/Ls严格正，0.2728秒、23.24MiB；R232严格排全部可容正宽度及已付光滑近邻的例外germ，不排其他圆。原件9524B/675a8bc4只存hash。下一新三矩圆和完整次层，不重原八包。
 
-**R233另一圆已付**：四尺度a_j、v_j=1/∏(a_j−a_i)、w_j=|v_j|a_j³，逐包g=±f付三矩。保真x²尾后P/Q为带符号正bulk比，Sj=a_jS*；共同O2取sin2α=−P/Q同时清Lc/Ls。八复制先付完整三阶再另选角仍成立；此平面GL2可分离，旧首f-up/g0、F8非退化不继承。下一真正不可分离圆及完整次层，非第四通过。
+**R233/R235新圆已付**：四尺度Lagrange权与真实左尾正bulk付三矩和Lc/Ls双零；Sj=a_jS*。八复制先清完整第三槽，再取非零t=−P/Q的两根α、π/2−α，置于任意正I内两个不交正尺度block。真尾能量可加，四射影方向严格排所有GL2分离；完整M0/TκH几何上的二三阶保全。最终F重选会改旧指定gε；旧first-f-up/g0、F8不继承。仍欠完整第四次层/joint。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 

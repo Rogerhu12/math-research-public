@@ -249,3 +249,8 @@
 ## R233：四尺度三矩圆准确清掉两个例外领先能量
 
 [R233 完整构造](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)在任意正I内选四个同形缩放微包。Lagrange重心v_j与w_j=|v_j|a_j³使f/g逐包±并准确付三矩；真实G左尾保留，能量bulk的Sj=a_jS*>0。选共同旋转sin2α=−Σsign(v_j)v_j²a_j⁷/Σv_j²a_j⁷，严格绝对值<1，即Lc=Ls0；有理尺度给明确代数旋转。a=1,2,3,4例为537/9305，纸面分数代入，无新求积。可先作八等距cube幅复制以付完整第三ruling，再对完成八包重新选角；hook原单层结构和2×2三阶槽O2线性保完整二三阶。该圆仍GL2可分离，不继承旧首g0/F8非退化或解析退化类，也未付完整第四。它证明R232原圆的严格非零不普遍适用于所有圆；下一真正不可分离构造及完整次层。
+
+
+## R235：真正不可分离、完整三阶与例外领先双零兼容
+
+[R235 完整存在证明](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)在任意正活动I内付真实三矩圆，不能由任何常数GL2换成不交profiles，同时hook不可见、完整二三阶range和R231两个领先能量为0。等差四尺度使P*严格负；平移bulk为次数≤10多项式，八复制P8的形式L0值非零，所以可在合法开间距避有限根而保0<|t|<1。两不交正尺度block分别取α与π/2−α，真实x²左尾的交叉能量按紧槽正交消去，四条实际射影方向给不可分离。两个block使用同一几何/右锚/history起点，完整四第三槽相加。最终F另选后才冻结同一个gε，不冒沿R193旧目标的gauge；第四剩余层及period/joint仍欠。没有新求积或符号目标运行。
