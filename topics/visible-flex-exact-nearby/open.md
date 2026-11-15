@@ -173,6 +173,8 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 继续普通删两旧参数输出453256B，见[两件完整清单](notes/2026-11-15-two-additional-parameter-output-deletion-whitelist.json)。restore da6b6e3ae229bdcc6a59dbe42e8654c6845a3a81同path并核bytes/SHA；原成功仅原域，脚本/参数/小结论/失败不删、不重跑。
 另普通删R66外接与RMS布局两旧输出1152007B，见[精确清单](notes/2026-11-15-two-r66-rms-old-output-deletion-whitelist.json)。immutable restore cbb63584806fa90e7c5532170b5ac75abb1bdf0c同path+bytes/SHA，原scope/producer/args/小结论保，成功不重算。
 
+再依规则15普通删R64/R66/R91/R95四旧数值输出1049034B，见[四件精确清单](notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json)。restore dc10bb948416e2f89f4cd487867b6a06cceb5f48同path+bytes/SHA；13份小producer/proof/manifest及原参数/输入pin保，R66 collar55格不冒graft64，R95完整contact不冒尚未付gap；成功数学不重算。
+
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
 本机executor持续不可用，14:22:21定时及14:17两次非FF即时真pull均无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。root亲读runner SV14:10:23.119638→f584eb77a27ba508510a8ab29fb6ed938bdcc0cf、WC14:11:01.078340→868f4e139f7df0596613675e4aac00efd80f395d、Green14:15:21.938283→2319d0ca32343c59c54adb504a1be2c1830e8f07，两README diff均空；完整记录保log/actual，终端恢复即pull查差。

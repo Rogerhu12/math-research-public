@@ -1,0 +1,341 @@
+{
+  "schema": "R133_four_old_completed_reproducible_outputs_deletion_whitelist_v1",
+  "created_utc": "2026-11-15",
+  "repository": "Rogerhu12/math-research-public",
+  "restore_commit": "dc10bb948416e2f89f4cd487867b6a06cceb5f48",
+  "topic_directory": "topics/visible-flex-exact-nearby",
+  "audit_scope": "Metadata-only output audit; only small frozen manifests, producer scripts and retained proofs were read. No output body, binary, native data, or numerical computation was read/executed.",
+  "deletion_mode": "Ordinary Git tree deletion after root review and fresh metadata guards; no force/history rewrite; scripts, proofs, small manifests and original input identities retained.",
+  "fresh_guards_required": [
+    "All four current paths must still match the exact git_blob and bytes below.",
+    "All retained source/proof/manifest files must remain intact.",
+    "Do not treat this candidate whitelist as a completed deletion.",
+    "If a later job needs any deleted report, restore the identical accepted bytes from restore_commit; do not recompute accepted science."
+  ],
+  "immutable_restore_tree_chain": [
+    {
+      "path": "",
+      "tree": "d67b70af4e8b321c9f48d31479a612b8d04f4cf5"
+    },
+    {
+      "path": "topics",
+      "tree": "9f9eaef01b087ad9a98d47a5bff8d65154dbde15"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby",
+      "tree": "d4b2c04560072a40e50906b196ff1a2a20253e31"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes",
+      "tree": "980107e3db3179736a5942e2859e2caa9a971398"
+    }
+  ],
+  "evidence": {
+    "R91_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R91-factorized-source-ready-manifest.json",
+      "git_blob": "633651f7ff76fcc695d29c53158f41b9803ab672",
+      "bytes": 890,
+      "sha256": "9029638406785b054cc4e4f89065863ed70a6f33919d3d03215d677b3f37e00b"
+    },
+    "R64_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R64-actual-positive-collar-ready-manifest.json",
+      "git_blob": "908063dd63ec49277dad719a0a80976e32857e5b",
+      "bytes": 1013,
+      "sha256": "d7f580f241cdcd2e6118a75c581efbf8c5f529b5b1e0b5d97cb8c9b598c59cc8"
+    },
+    "R66_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R66-actual-family-graft-ready-manifest.json",
+      "git_blob": "a80ba1c4ae69b6f099ef98858b6b051512a276bb",
+      "bytes": 2627,
+      "sha256": "83c9fc76b6df8811a46971d0befb885eaf07451439a6ba31bd27132c08e859d1"
+    },
+    "R95_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R95-cap-outer-and-native-ready-manifest.json",
+      "git_blob": "b6a29e002ae33451861bf3ad40851211ba13d407",
+      "bytes": 14009,
+      "sha256": "f06533291379925d0f3fcf3a7abc464064a80edebe46dea4d1e3ca891ca04ac2"
+    },
+    "R87_input_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R87-finite-collar-ready-manifest.json",
+      "git_blob": "1ae83e5778ee581cc3a7d73603c8db903fbf6c1e",
+      "bytes": 2694,
+      "sha256": "878a4bbd0c2e0e6f482c60953188b27f2b69b3c4eedf1833e4cdbada5c1c4b42"
+    }
+  },
+  "entries": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-factorized-airy-source-budget.json",
+      "git_blob": "3697f4bb5aeaa51d55ba52f4d6179425138043fb",
+      "bytes": 383440,
+      "sha256": "26ae397b1e92e450cbb1a9131c544f5476919503a8dd03b59525c63af701032f",
+      "classification": "Reproducible numerical report; not a seed, source, proof, script, or instruction.",
+      "original_acceptance_scope": "Original R91 ready manifest complete=true; complete 56-term narrow-cutoff source budget. It does not establish the complete feedback inverse.",
+      "frozen_evidence": [
+        "R91_manifest"
+      ],
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_airy_factorized_source_budget.py",
+        "git_blob": "34cb60b0ab161b830622efaee8aa6fa1efde1f9a",
+        "bytes": 17491,
+        "sha256": "91fd06ef3126f6a1323de16b76aa8e45c522d37c6fe674ecc143104241f55e50"
+      },
+      "retained_proof": {
+        "path": "topics/visible-flex-exact-nearby/results/R91-airy-analytic-factorization-and-actual-source-budget.md",
+        "git_blob": "3bcb41c216174682fcde907113e170b467daa509",
+        "bytes": 12992,
+        "sha256": "954effc8639d3a4a42900f4f0165858782f8e7f4149429b236b67391c20029bb"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_airy_factorized_source_budget.py",
+        "args": [
+          "--input",
+          "notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz",
+          "--q-input",
+          "notes/2026-11-12-actual-root-v0-complex-strip.json.gz",
+          "--shear-input",
+          "notes/2026-11-12-positive-family-root-collar.json",
+          "--out",
+          "<scratch>/2026-11-12-actual-factorized-airy-source-budget.json"
+        ],
+        "scientific_execution_here": false,
+        "warning": "The exact original inputs must be restored by their existing immutable identities. This whitelist does not authorize recomputing accepted mathematics."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz",
+          "sha256": "786cc482a6890f8caf670a8131a0923dc1e2e2cb40faa96b269590baaf834f6e",
+          "bytes": 749234
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-v0-complex-strip.json.gz",
+          "sha256": "70cd03af5bd7930be7421933dc072c866357858503c43f56fedb5cde1edfdd6c",
+          "bytes": 1200524
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-positive-family-root-collar.json",
+          "sha256": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+          "bytes": 265160
+        }
+      ],
+      "restore": {
+        "commit": "dc10bb948416e2f89f4cd487867b6a06cceb5f48",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-factorized-airy-source-budget.json",
+        "method": "git show <commit>:<path> into runner scratch; verify original SHA256/bytes"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step4-actual-positive-cap.json",
+      "git_blob": "fbd0d33212afdec56cbcd1424879088b5ad41f82",
+      "bytes": 264350,
+      "sha256": "44aa2dfb783b975c6904b0a57335a2b7d809e07956a484984f6ef9df02840126",
+      "classification": "Reproducible numerical report; not a seed, source, proof, script, or instruction.",
+      "original_acceptance_scope": "R64 ready manifest complete=true, exact radial cover; 55 accepted closed cells, 0 failed. Actual fixed delta4 root-to-1/4 positive collar with both ports and mean; no complete exterior cap/global inverse.",
+      "frozen_evidence": [
+        "R64_manifest"
+      ],
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_actual_positive_cap.py",
+        "git_blob": "ba8a55ff79c64e2f2cd79b3e05519c54d75ef424",
+        "bytes": 16734,
+        "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+      },
+      "retained_proof": {
+        "path": "topics/visible-flex-exact-nearby/results/R64-actual-positive-collar-source-and-dn-input.md",
+        "git_blob": "3b54263a3282b116219ca4a6832193deefbf2186",
+        "bytes": 17354,
+        "sha256": "aa8ce28a1819f3fee2e04672763cbe5796ffd4e9375ab6c495d37f3702f16eb3"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_actual_positive_cap.py",
+        "args": [
+          "--object",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+          "--root-certificate",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_root_tight.json",
+          "--cut",
+          "1/4",
+          "--normalized-strip",
+          "1/128",
+          "--max-cell-width",
+          "1/4096",
+          "--quarter-nodes",
+          "256",
+          "--angles",
+          "512",
+          "--bits",
+          "160",
+          "--out",
+          "<scratch>/2026-11-12-step4-actual-positive-cap.json"
+        ],
+        "scientific_execution_here": false,
+        "warning": "The exact original inputs must be restored by their existing immutable identities. This whitelist does not authorize recomputing accepted mathematics."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+          "sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_root_tight.json",
+          "sha256": "03a0863733b25b6c4058a39590648dda2292a2943e783021747e3bc3f27c86f4"
+        }
+      ],
+      "restore": {
+        "commit": "dc10bb948416e2f89f4cd487867b6a06cceb5f48",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step4-actual-positive-cap.json",
+        "method": "git show <commit>:<path> into runner scratch; verify original SHA256/bytes"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-positive-family-root-collar.json",
+      "git_blob": "cd370ea1aed501db9ac32b414d6aa7a8819b28a4",
+      "bytes": 265160,
+      "sha256": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+      "classification": "Reproducible numerical report; not a seed, source, proof, script, or instruction.",
+      "original_acceptance_scope": "R66 ready manifest explicitly retains this already-pushed report with exact SHA/bytes; retained proof section 2 records all 55 cells accepted with no pending/failure, for each member's genuine root to 1/4. The separate 64-cell natural graft is not this deletion target.",
+      "frozen_evidence": [
+        "R66_manifest"
+      ],
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_positive_family_collar.py",
+        "git_blob": "c4ed0bc598636f5ce10820c128e683942ae18bfc",
+        "bytes": 7576,
+        "sha256": "9ea8a5fd0d554de6ffc700ca4f1c407d70c68c634065bda0b13f71887e67edf5"
+      },
+      "retained_proof": {
+        "path": "topics/visible-flex-exact-nearby/results/R66-actual-family-positive-collar-and-natural-exterior-graft.md",
+        "git_blob": "48e4624843962439ff8743acbfaf88c854377bc4",
+        "bytes": 17626,
+        "sha256": "79000b36b610cb1600437c70673e80f6edcb567e0e7ec0e140e7124221c17e30"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_positive_family_collar.py",
+        "args": [
+          "--center-object",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+          "--root-tube",
+          "notes/2026-11-12-beta-step3-germ-root-h1e5.json",
+          "--half-width",
+          "1/2000000",
+          "--cut",
+          "1/4",
+          "--normalized-strip",
+          "1/128",
+          "--max-cell-width",
+          "1/4096",
+          "--quarter-nodes",
+          "256",
+          "--angles",
+          "512",
+          "--bits",
+          "160",
+          "--out",
+          "<scratch>/2026-11-12-positive-family-root-collar.json"
+        ],
+        "scientific_execution_here": false,
+        "warning": "The exact original inputs must be restored by their existing immutable identities. This whitelist does not authorize recomputing accepted mathematics."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+          "sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-beta-step3-germ-root-h1e5.json",
+          "sha256": "55fb389d5c9937aff04f6b08ee75dea851c1718aed7619c0968e7dd03865669f",
+          "bytes": 11449
+        }
+      ],
+      "restore": {
+        "commit": "dc10bb948416e2f89f4cd487867b6a06cceb5f48",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-positive-family-root-collar.json",
+        "method": "git show <commit>:<path> into runner scratch; verify original SHA256/bytes"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-quarter-cut-cap-lift.json",
+      "git_blob": "840e81a7455d8666cd6af37fa0af95171e3a37bf",
+      "bytes": 136084,
+      "sha256": "a2cd3fd74dbbdedd514b2401616240a5c87bee5b98acd0f5e526e447e3bc718c",
+      "classification": "Reproducible numerical report; not a seed, source, proof, script, or instruction.",
+      "original_acceptance_scope": "R95 retained proof section 6: all 38 closed cells completed without unresolved cells. This is the same 1/4 physical-interface lift/contact and full dual-boundary output; it does not assert a completed primal/dual gap or final inverse.",
+      "frozen_evidence": [
+        "R95_manifest"
+      ],
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cut_cap_lift.py",
+        "git_blob": "9b384f6ba6cf01fbad05014f8eac0e667d00f043",
+        "bytes": 12066,
+        "sha256": "bc9c6d63a9c3600ae04b9426a1c82ce02e37f96217f87d3492940bf7b5e5a162"
+      },
+      "retained_proof": {
+        "path": "topics/visible-flex-exact-nearby/results/R95-quarter-cut-full-cap-lifts-and-dual-gap-contact.md",
+        "git_blob": "076134b758cf48602804694e9bd4c1c46f647f61",
+        "bytes": 10059,
+        "sha256": "473a37507fc1ec2db2c252c2132617daf394f7bd912a3822bc9f1d8b0a5163da"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_cut_cap_lift.py",
+        "args": [
+          "--trial",
+          "notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+          "--partition",
+          "data/cap_physical4_energy/body_native_0250_0800_narrow/element_000.json.gz",
+          "--closed-exterior",
+          "notes/2026-11-12-actual-closed-approximate-exterior.json",
+          "--bits",
+          "160",
+          "--primitive-nodes",
+          "256",
+          "--angles",
+          "1024",
+          "--max-depth",
+          "10",
+          "--out",
+          "<scratch>/2026-11-12-actual-quarter-cut-cap-lift.json"
+        ],
+        "scientific_execution_here": false,
+        "warning": "The exact original inputs must be restored by their existing immutable identities. This whitelist does not authorize recomputing accepted mathematics."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+          "sha256": "7bb50d93188dd4253ccea2d8731931ea82e212c66829e91ff49ec29bb9a291ac",
+          "bytes": 1729
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/cap_physical4_energy/body_native_0250_0800_narrow/element_000.json.gz",
+          "sha256": "8d653a5db31216f2bf1c07df1a644864cdf4da5510d1a46eaab27715d3cbe1b4",
+          "bytes": 133128
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-closed-approximate-exterior.json",
+          "sha256": "2d9dd3fec38a1f6b75bd41d858f9ef2cd0b7205a57ad9a5f6ee66996404aebbf",
+          "bytes": 16924
+        }
+      ],
+      "restore": {
+        "commit": "dc10bb948416e2f89f4cd487867b6a06cceb5f48",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-quarter-cut-cap-lift.json",
+        "method": "git show <commit>:<path> into runner scratch; verify original SHA256/bytes"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    }
+  ],
+  "total_output_bytes": 1049034,
+  "all_output_bodies_read": false,
+  "numerical_runs_started": 0,
+  "accepted_math_recomputed": 0,
+  "main_mutated": false
+}

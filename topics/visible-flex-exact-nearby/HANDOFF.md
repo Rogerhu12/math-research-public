@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 15:13:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 15:14:37 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 14:22:21定时及15:11:28非FF即时CLI均无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；继续每小时真CLI，ref不冒pull。root亲读runner BG14:56:07.491909→4d8c3cd964c152d65e49e3ffae0c08b022d0e701、Green15:05:49.831798→35690c7731f50e5124d2e722230eacbf8aee7a68，两README diff空。
-最近只读README核：e1f9127ff8569103293ee52eaa895cf25b331848；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：0b166cbd163233c727dd074e8abc8eafbace5f1d；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/open/log为dc10bb948416e2f89f4cd487867b6a06cceb5f48同路径，保8450/00df/24b/8994/acfd/a012/40eb及更早链；全部原输入/域/单位/mean/失败/restore/未付义务仍有效。
 
 ## 总验收与同一个对象
@@ -49,6 +49,6 @@ S/aba52db8、RG/90acb31e、C/0ada0f96、T/db1253a6条件exact tail：同physical
 
 ## 容量与持续执行
 
-五旧输出920170B/400607de restore ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561；两旧参数453256B/2f2b64e5 restore da6b6e3ae229bdcc6a59dbe42e8654c6845a3a81；R66/RMS两旧输出1152007B/3f07deff restore cbb63584806fa90e7c5532170b5ac75abb1bdf0c；均原path+bytes/SHA。其余7件/R80/R57/R56完整恢复链保dc10bb/8994及原清单；成功旧数学禁重。
-Green15:05真实origin/main容量199023820B；每consumer实核≤200MB/120KB预留，newton准备下批ordinary清理。
+此前五旧920170B/400607de、两参数453256B/2f2b64e5、R66/RMS1152007B/3f07deff及7件/R80/R57/R56完整immutable恢复链保52bc87b9fddedb75cec3ca93f7dd2eb0719a58a0同H/open/原清单，成功旧数学禁重。
+再普通删R64/R66/R91/R95四旧输出1049034B，清单ae406265；restore dc10bb948416e2f89f4cd487867b6a06cceb5f48原path+bytes/SHA，保全部小producer/proof/args/input pins。最近RJ真实投影199263450B为删除前值；后续consumer重核≤200MB/120KB预留。
 继续Green/同δSchur、完整source-to-trace/strong-return、真ν/腰/matching、同态低高γ/core图与连续tail闭合、单G最终几何。子题完成接open下一项；总验收未达不收尾、不等用户、不因时长停。
