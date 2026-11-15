@@ -109,3 +109,11 @@ root独核三件文本差异：SCI仅补一个')'，新SHA d4ea7d15874d602a833cf
 newton合同14175B SHA d054ee7553e98dbb4261a257fc3acf1320ef9f8c48a15fb948819773d2c750f6已推。root读A1–29及primary全频帽P1–19，核换测度S*=mV、分片Green跳跃负号、outer QJ号、Hessian转置和high primitive公式；tail独核Green/PH Iφ中的m^-2及反射才消失的两mean。准确κ来自同repairδ0原完整physical帽；未知输入不需额外角导，ordinary residual与Hessian分付、所有jump同源加权Cauchy。
 
 Wcap是完整无限high→原97行的Loewner预算，非旧97forward转置；与实际G_R*G_R≤HY接λmax/tr(HY Wcap)。实际伴随trial/WT/Werr尚缺，newton继续只用旧全系数和cached scalar jets作新proposal/验证，不重算target。全矩阵代理报告group12/13成功，其余续跑；完整Poisson首次43660061501只AST门通过且math正确skip，不写成数学成功。两README在b41c6f13ffbe56543d3593acb0b9023d8320e93c未变。
+
+## 2026-11-15 01:06:16 UTC — 部署仅缺失高根阶数的66pin公开计算
+
+SCI a3ff4be3d252dbbc5571924b36927760ace54db91b5e00477749b2f97ba9ace7（35811B）、CI25c5f2c11a359334c4c41f5fe9d5a747c4072fe0abc2bb6037a1893afaafa575（10007B）、worker8219e894f3b6be088169f92a4936da48d9b8705c4d8a36289c7e71ca08d1052a（19019B）、manifestd367fdee726240d487e9f4aebd56b120c82a0e2befdd9430b0f787691b8e4b7a（23931B）、flow4b5d68784f044105cc4eb70d800c5727204ab4ee5a981ea9047daa0447895f74（5922B）。原60pin逐项相同，只加原success-native/process/manifest、H1–9及新SCI/CI六项。root核原actual15门process27056B和native身份；不经connector读取gzip。
+
+只新scalar/F12..17六列、45mean/E11..16/四intrinsic10..15。原P0..11仅三角恢复未存辅助；旧scalar、F原raw、12error/36mean/E0..10/54checks保持，Nyquist只在新消费view用准确零。新germ/angle/trig/单位primitive/FFT/finite列各自然stage即时存，SCI封锁旧target/complete/tail入口。阶乘整数先Arb包络，普通binomial保准确。原intrinsic0..9只复制、输出只追加10..15；原kρ0..8亦保。科学全门、自然stageSHA与完整新scalar报告由CI实际核；摘要≤60KB、文件≤5MB，失败与成功原样存。
+
+root和phase核constructor/set_cell不调用FFT，root核DirectedFFT/NativeFFT缓存API；无可用本机执行环境（01:02后再次No usable execution environment），只作文本及括号一致性核，Python AST由公开Actions在新数学前执行。worker沿已成功infra，45minchild/50min驱动，前后实际pull/两README diff；非FF立即pull再推。此为部署，不是新导数已通过。两README在ae7e5af322c13ba8bbff6130a284272b48446568未变。
