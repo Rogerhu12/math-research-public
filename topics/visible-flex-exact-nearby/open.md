@@ -93,3 +93,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 每结论独推，非FF立刻真pull --rebase并重推至成功，禁force。至少每小时真pull后查两README，只读变化diff并即遵循，已读SHA进H。CLI07:39:24仍无executor，根规8例外只准<100KB UTF8小文本connector，禁binary/gzip；ref核不冒pull。已核runner07:39:23.553298真pull→20cccde1…/两README diff空。终端恢复立即pull核差。
 
 每个子问题做完直接接下一项；总门未达不收尾、不因时长或阶段报告停止。
+
+### signed根源实际失败后的同域修复
+
+43691675493/1的九入口/三stage通过，child1/0完整case/.360076374s，实际failure是primitive中间分母的矩形模长下界丢gap。根已全文读execution10454B/a8fc52ed…和actual-result1857B/f3f75785…。SCI唯一改用同矩形的Re下界≥193/9409>0；新SCI869238d3…/12pin4b72d34b…/flow8d678ae0…，worker fca0aacd…原样，等待新的真实run。原δ/z/全部96中间模/完整mean/非零门不变；不得宣称首次成功或0临时重复数学。

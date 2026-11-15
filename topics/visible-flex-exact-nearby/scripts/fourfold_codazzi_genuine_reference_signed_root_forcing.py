@@ -115,7 +115,7 @@ def rational_frequency_shift(c,qinf,kappa):
     minimum=arb(1)
     for mode in range(1,97):
         den=1-mode*mode*z
-        gap=abs(den).lower()
+        gap=den.real.lower()
         if not gap>0:raise ValueError("one complete primitive intermediate denominator lost its gap")
         minimum=min(minimum,gap)
         uj=fourier_r_jets(c["u"],mode,count)
