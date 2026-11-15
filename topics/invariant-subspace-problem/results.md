@@ -485,3 +485,7 @@
 ### R271 附录：原全尾增长对称块、两个有界交织及全部nuisance
 
 [自足全证明](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)按L(x)=floor(x^α)、α<1/2连续分块，有限总体矩给全尾η≤2^(2−2α)m^(2α−1)/(1−2α)。只在对称P上S_J^±1算子范数收敛到V±、V_-*V_+=I，双向真实L/D交织给完整原核/low-row/孔cut固定测试投影差≤sqrt(e^η−1)。J0=V_-*|kerL保全部原nuisance，真实最小lift Gram e^±η；原母提升接同w/同Q新top。没有假设全空间S∞有界、没有以新商冒充原切口源；真实spin容量、主池匹配与普通费用继续。
+
+### R150 附录：已证共同分母的23个居中候选全部失败
+
+[完整有限检查](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)从真K184和已证13核的438bit公分母D构造23条唯一居中6188整数来源，4367原整数乘回均已有非零选定输出；新增真核0。完整首非零精确值/所有非零计数/原输入散列保留，实际1.443612394秒，无新Dixon位。只排这些具体分子，未排同D无界高度、其他分母或未完成更高精度；当前char0秩仍4318…4340。
