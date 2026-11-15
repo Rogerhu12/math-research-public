@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：03571beed80256e0dd80ad4d0461a338c9f93be9；2026-11-15 05:52:05 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:52:03 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
+- 最近已读规则提交：8c1ab4bab5763273e1004734a9582e3e9d697f9a；2026-11-15 05:56:23 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:56:22 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史；每小时实际pull，每次核两README，只读差异立即执行。令牌仅临时终端，不入文件/回复。
 - 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出不存repo/Release，只留脚本参数run/hash。此次按audit43681121218移除148个明确生成输出2,645,461字节；临时历史输入runner保依赖，两个复现路径交公开Actions。旧3个-partN及无生成器的checker输入保留，未新增分块；目录27.60MB无5MB超限，继续真实mixed-I/O审计。
 - 规则12不设冻结/独审/复跑；规则13计算用公开Actions。题log每轮≤5行，单MD/API<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -17,8 +17,8 @@
 
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r694.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
 R1–363、365–560、562–653、655–688、690–692、694及R679/R680增补已登记；R364/R561/R654仍开。
-root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R689原barE高尾/同R真像；theta R693原中性G高块全31约束；literature R695四轴三态真word/13-19切集与非零角域。
-R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693首43681121212秩25、次43682050475的55列秩29均辅助不相容，非特征零排除；现公开--max-block=5 --taus=2,3真66列/108矩。无报告数据入库。
+root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R689原barE高尾/同R真像；theta R693原中性G/B全31约束；literature R695四轴三态真word/13-19切集与非零角域。
+R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693第三run43682680755双τ/两η的66纯G列秩29不相容，非特征零排除；公开续55G+11真B0列，保B的完整C/E转置。无报告数据入库。
 
 ## 固定目标和全部旧来源
 

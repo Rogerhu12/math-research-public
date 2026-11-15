@@ -2,7 +2,7 @@
 "use strict";
 /*
 R693: actual neutral G6-power extension of the R679 test.
-Run publicly: node check-r693-neutral-g12-four-source-adaptation.js --max-block=5 --taus=2,3
+Run publicly: node check-r693-neutral-g12-four-source-adaptation.js --max-block=4 --taus=2,3 --with-b
 No data files are read or written. The original R594 algorithm is executed
 in a child process and its output stays in memory. All requested degree blocks,
 all original 31 constraints, the full C_(6*(max_block+1)) term and every actual W coordinate
@@ -19,6 +19,8 @@ console.error("R693: recomputing original R594 rows");
 const all=JSON.parse(cp.execFileSync(process.execPath,[inputPath],{encoding:"utf8",maxBuffer:16*1024*1024}));
 const arg=process.argv.slice(2).find(x=>x.startsWith("--max-block="));
 const MAXBLOCK=arg?Number(arg.split("=")[1]):2;
+const WITHB=process.argv.includes("--with-b");
+let DEBOUND=6;
 assert(Number.isInteger(MAXBLOCK)&&MAXBLOCK>=2&&MAXBLOCK<=8,"max block must be between 2 and 8");
 const argTaus=process.argv.slice(2).find(x=>x.startsWith("--taus="));
 const TAUS=(argTaus?argTaus.split("=")[1]:"2").split(",").map(Number);
@@ -52,7 +54,7 @@ const clean=P=>Array.from(P,([k,c])=>[...dec(k),c]).filter(x=>x[4]);
 function mul(P,R,cap=CAP,zcap=30){
  const Z=new Map();
  for(const[a,b,c,z,v]of P)for(const[d,e,f,t,w]of R){
-  if(a+b+d+e>6||a+b+c+d+e+f>cap||z+t>zcap)continue;
+  if(a+b+d+e>DEBOUND||a+b+c+d+e+f>cap||z+t>zcap)continue;
   const k=enc(a+d,b+e,c+f,z+t);
   Z.set(k,md((Z.get(k)||0)+v*w));
  }
@@ -66,10 +68,10 @@ function add(P,R){
 }
 const linearCache=new Map();
 function linpow(v,n){
- const key=v.join(",")+":"+n;if(linearCache.has(key))return linearCache.get(key);
+ const key=DEBOUND+":"+v.join(",")+":"+n;if(linearCache.has(key))return linearCache.get(key);
  const out=[];
  for(let d=0;d<=n;d++)for(let e=0;e<=n-d;e++){
-  const g=n-d-e;if(d+e>6)continue;
+  const g=n-d-e;if(d+e>DEBOUND)continue;
   const c=md(fact[n]*iv(md(fact[d]*fact[e]*fact[g]))*pow(v[0],d)*pow(v[1],e)*pow(v[2],g));
   if(c)out.push([d,e,g,0,c]);
  }
@@ -118,9 +120,9 @@ function makeSource(i,endpoint=0,observation="S",zcap=30,cap=CAP,zero=false){
    "gen"+(6*h+6),Array.from({length:J},(_,j)=>get(6*h+6,j))])),
   unweighted:Array.from({length:J},(_,j)=>(get(0,j)["0,0,0"]||0)),terms:full.length};
 }
-function makePair(i,e,observation="S",zcap=30){
- const a=makeSource(i,e,observation,zcap,CAP,false);
- a.zero=makeSource(i,e,observation,zcap,CAP,true);
+function makePair(i,e,observation="S",zcap=30,cap=CAP){
+ const a=makeSource(i,e,observation,zcap,cap,false);
+ a.zero=makeSource(i,e,observation,zcap,cap,true);
  return a;
 }
 const generators={};
@@ -148,6 +150,71 @@ console.error("R693: full native W generator through z^72; original total moment
 const GW=makePair(0,1,"W",MAXZ),native=GW.unweighted;
 assert(native[0]===0&&native[1]===ne(6,12),"native W = 6 delta T");
 
+
+/* B0 is the integral, genuine Pi4-observable perpendicular to Y,W,C,D,G.
+ Its full returning weight is transported before the E-unit inverse.
+ At kappa=u=0 its value is Bperp, the first-four projection off A,Dstar. */
+const ombar=md(-1-om),pa=(a,b=0,d=1)=>[ne(a,b,d),md((a+ombar*b)*iv(d))];
+const padd=(x,y)=>x.map((v,j)=>md(v+y[j])),pneg=x=>x.map(v=>md(-v));
+const psub=(x,y)=>padd(x,pneg(y)),pmul=(x,y)=>x.map((v,j)=>md(v*y[j]));
+const pdiv=(x,y)=>x.map((v,j)=>md(v*iv(y[j])));
+const vadd=(x,y)=>x.map((v,j)=>padd(v,y[j])),vsub=(x,y)=>x.map((v,j)=>psub(v,y[j]));
+const vscale=(x,a)=>x.map(v=>pmul(v,a));
+const hp=(x,y)=>x.reduce((v,z,j)=>padd(v,[md(z[0]*y[j][1]),md(z[1]*y[j][0])]),pa(0));
+const perp=(v,a)=>vsub(v,vscale(a,pdiv(hp(v,a),hp(a,a))));
+let Bgeometry=null,Bweight=null,Bweight0=null,Bgenerators=null,BGW=null;
+function buildB(){
+ const Ar=[pa(1,2),pa(2,4),pa(3,1),pa(2,-1),pa(0),pa(0)];
+ const D4=[pa(1),pa(-1,-1),pa(0,-2),pa(0),pa(0),pa(0)];
+ const Cr=vscale([pa(1),pa(0),pa(-1),pa(1),pa(0),pa(0)],pdiv(pa(1),pa(1,2)));
+ const H1=[pa(-1),pa(2),pa(0,1),pa(1,1),pa(0),pa(0)];
+ const c=[pa(0),pa(0),pa(0),pa(0),pa(1),pa(0)];
+ const d=[pa(0),pa(0),pa(0),pa(0),pa(0),pa(1)];
+ const Dr=vadd(D4,vadd(c,vscale(d,pa(2,3))));
+ const Fr=vadd(Dr,Cr),Gr=vadd(vscale(H1,pa(13)),vscale(Fr,pa(3,-2)));
+ const Yr=vadd(Ar,vadd(c,vscale(d,pa(2))));
+ const Wr=vadd(Ar,vadd(vscale(c,pa(3,6)),vscale(d,pa(4))));
+ const Wpr=[pa(4,4),pa(2,4),pa(4,4),pa(0),pa(4,2),pa(4)];
+ const Br=[pa(426,263),pa(63),pa(121,342),pa(-305,79),pa(2,-71),pa(217,77)];
+ const Bformula=vscale(vsub(vsub(Wpr,vscale(Yr,pa(259,161,263))),vscale(Wr,pa(25,-119,263))),pa(263,0,2));
+ assert(Br.every((x,j)=>x.every((v,k)=>v===Bformula[j][k])),"B0 complete Pi4 row");
+ for(const [lab,V] of [["Y",Yr],["W",Wr],["C",Cr],["D",Dr],["G",Gr]])
+  assert(hp(Br,V).every(x=>x===0),"B0 perpendicular to "+lab);
+ assert(hp(Br,Br).every(x=>x===md(397656)),"B0 exact norm");
+ const Ds=perp(D4,Ar),Cp=perp(Cr,Ds),H1p=perp(H1,Ds);
+ const Er=vscale(Cp,pa(14)),Gp=vadd(vscale(H1p,pa(13)),vscale(Cp,pa(3,-2)));
+ const flat=V=>[
+ psub(pdiv(psub(V[0],V[2]),pa(6)),pdiv(V[3],pa(3)))[0],
+ pdiv(padd(V[0],V[2]),pa(2))[0],V[1][0],
+ pmul(pa(1,2,3),padd(psub(V[0],V[2]),V[3]))[0]];
+ for(const [lab,row,expected] of [["Dstar",Ds,[...D,lc[0]]],["Eperp",Er,[...E,lc[1]]],["Gperp",Gp,[...G,lc[2]]]])
+  assert(flat(row).every((v,j)=>v===expected[j]),"same entire five-input frame for "+lab);
+ const Bp=perp(perp([...Br.slice(0,4),pa(0),pa(0)],Ar),Ds);
+ let ab=null,selected=null;
+ for(let j=0;j<4&&!ab;j++)for(let k=j+1;k<4&&!ab;k++){
+  const det=psub(pmul(Er[j],Gp[k]),pmul(Er[k],Gp[j]));
+  if(det.some(v=>v===0))continue;
+  ab=[pdiv(psub(pmul(Bp[j],Gp[k]),pmul(Bp[k],Gp[j])),det),
+      pdiv(psub(pmul(Er[j],Bp[k]),pmul(Er[k],Bp[j])),det)];selected=[j,k];
+ }
+ assert(ab!==null,"Bperp basis solve");
+ const rebuild=vadd(vscale(Er,ab[0]),vscale(Gp,ab[1]));
+ assert(Bp.every((x,j)=>x.every((v,k)=>v===rebuild[j][k])),"full first-four Bperp=aEperp+bGperp");
+ const ae=ab[0][0],bg=ab[1][0];
+ Bweight=Object.fromEntries(Array.from({length:7},(_,j)=>[
+  "0,"+j+","+(6-j),md(cb(6,j)*pow(ae,j)*pow(bg,6-j))]).filter(x=>x[1]));
+ Bweight0={"0,0,6":pow(bg,6)};
+ Bgeometry={norm:397656,integral_row:"(426+263w,63,121+342w,-305+79w,2-71w,217+77w)",
+  projection:"Bperp=projection of first four B0 coordinates off A and Dstar",
+  residue_coefficients_Eperp_Gperp:ab,selected_basis_coordinates:selected,
+  E_inverse_scope:"Only P is mapped to P(D,0,G); Bperp^6 is NOT mapped to its E=0 value in the full branch",
+  C_zero_scope:"The C-zero branch separately replaces Bperp by b*G00"};
+ DEBOUND=12; Bgenerators={};
+ for(const [i,e] of [[0,0],[1,0],[0,1]])Bgenerators[i+"_"+e]=makePair(i,e,"S",30,12);
+ BGW=makePair(0,1,"W",MAXZ,12);DEBOUND=6;
+}
+if(WITHB){console.error("R693: complete independent B0^6 block, including its C and E transposes");buildB();}
+
 function analyze(TAU){
 const AP=all.matrix.Aplus.map(R=>R.map(ef)),AZ=all.matrix.Azero.map(R=>R.map(ef));
 const BM=all.polynomial_right_inverse.B.map(M=>M.map(R=>R.map(ef)));
@@ -169,10 +236,10 @@ const moment=(P,H)=>Object.entries(P).reduce((s,[k,c])=>{
 // Otherwise D+E<=6 trimming would lose high E terms that become G powers.
 const evalRow=(P,H,H0,eta)=>md(moment(P,H)+(TAU-1)*(moment(e0(P),H)+eta*moment(e0(P),H0)));
 
-function massGen(zero=false){
+function massGen(zero=false,requestedCap=CAP-2){
  const er=zero?E.map(()=>0):E,gr=zero?G.map((v,j)=>md(v-rat*E[j])):G;
  const Lc=zero?[lc[0],0,md(lc[2]-rat*lc[1])]:lc;
- const R=Array.from({length:3},(_,j)=>[D[j],er[j],gr[j]]),cap=CAP-2;
+ const R=Array.from({length:3},(_,j)=>[D[j],er[j],gr[j]]),cap=requestedCap;
  let P=add(mul(factor(1,f1,R[0],0,cap,0),factor(2,ss2,R[1],0,cap,0),cap,0),
   scale(mul(factor(3,f3,R[0],0,cap,0),factor(0,theta,R[1],0,cap,0),cap,0),pp-1));
  P=scale(mul(P,factor(1,sig,R[2],0,cap,0),cap,0),iv(42));
@@ -183,6 +250,18 @@ function massGen(zero=false){
   d,Object.fromEntries(T.filter(v=>v[0]+v[1]+v[2]===d).map(v=>[v.slice(0,3).join(","),v[4]]))]));
 }
 const MG=massGen(),MG0=massGen(true);
+let MGB=null,MGB0=null;
+if(WITHB){DEBOUND=12;MGB=massGen(false,10);MGB0=massGen(true,10);DEBOUND=6;}
+const polyMul=(P,Q)=>{
+ const out={};for(const[k,v]of Object.entries(P))for(const[l,w]of Object.entries(Q)){
+  const a=k.split(",").map(Number),b=l.split(",").map(Number),key=a.map((x,j)=>x+b[j]).join(",");
+  out[key]=md((out[key]||0)+v*w);
+ }return Object.fromEntries(Object.entries(out).filter(x=>x[1]));
+};
+const evalB=(P,H,H0,eta)=>md(moment(polyMul(P,Bweight),H)
+ +(TAU-1)*moment(polyMul(e0(P),Bweight),H)
+ +eta*(TAU-1)*moment(polyMul(e0(P),Bweight0),H0));
+
 const makeBasis=(N,J)=>{
  const sp=pw(sig,N,J),T=Array.from({length:J+1},()=>Array(J+1).fill(0));
  for(let j=0;j<=J;j++){
@@ -201,24 +280,30 @@ const addPoly=(P,R,c=1)=>{
 };
 let Pold={...base};cols.forEach((P,j)=>{Pold=addPoly(Pold,P,xp[j]);});
 const dcols=piv.map(j=>cols.reduce((P,C,i)=>addPoly(P,C,PI[i][j]),{}));
+const gcount=11*(MAXBLOCK+1);
 const extcols=Array.from({length:MAXBLOCK+1},(_,h)=>dcols.map(P=>shifted(P,6*h))).flat();
+if(WITHB)extcols.push(...dcols);
 const degreeAt=j=>6+6*Math.floor(j/11);
 const gen=(source,j,h)=>source["gen"+degreeAt(j)][h];
+const readRow=(P,j,src,bsrc,h,eta)=>j<gcount
+ ?evalRow(P,gen(src,j,h),gen(src.zero,j,h),eta)
+ :evalB(P,bsrc.gen12[h],bsrc.zero.gen12[h],eta);
+
 function build(eta){
  const M=[],old=[],labels=[];
  for(const[i,e]of [[0,0],[1,0],[0,1]])for(let h=0;h<6;h++){
   const src=generators[i+"_"+e];
-  M.push(extcols.map((P,j)=>evalRow(P,gen(src,j,h),gen(src.zero,j,h),eta)));
+  M.push(extcols.map((P,j)=>readRow(P,j,src,WITHB?Bgenerators[i+"_"+e]:null,h,eta)));
   old.push(evalRow(Pold,src.gen6[h],src.zero.gen6[h],eta));
   labels.push({source:"S",branch:i,endpoint:e,jet:6*h});
  }
  // W mass is already fixed by the same endpoint S mass. Do not count it twice.
  for(let h=1;h<13;h++){
-  M.push(extcols.map((P,j)=>evalRow(P,gen(GW,j,h),gen(GW.zero,j,h),eta)));
+  M.push(extcols.map((P,j)=>readRow(P,j,GW,BGW,h,eta)));
   old.push(evalRow(Pold,GW.gen6[h],GW.zero.gen6[h],eta));
   labels.push({source:"native 6delta T",jet:6*h});
  }
- M.push(extcols.map((P,j)=>evalRow(der2(P),MG[degreeAt(j)-2],MG0[degreeAt(j)-2],eta)));
+ M.push(extcols.map((P,j)=>j<gcount?evalRow(der2(P),MG[degreeAt(j)-2],MG0[degreeAt(j)-2],eta):evalB(der2(P),MGB[10],MGB0[10],eta)));
  old.push(evalRow(der2(Pold),MG[4],MG0[4],eta));labels.push({source:"normalized J2"});
  const target=[...Sjet,...Sjet,...Sjet,...native.slice(1),1];
  const rhs=target.map((x,i)=>md(x-old[i])),full=elim(M,rhs);
@@ -248,7 +333,7 @@ const data=candidates.map(c=>{
   assert(verified,"all thirty-one actual equations");
   sourceRows=mm(c.matrix,solution.map(x=>[x])).map((R,j)=>md(R[0]+c.old[j]));
   const W0=md(evalRow(Pold,GW.gen6[0],GW.zero.gen6[0],c.eta)+extcols.reduce((sum,P,j)=>
-   md(sum+solution[j]*evalRow(P,gen(GW,j,0),gen(GW.zero,j,0),c.eta)),0));
+   md(sum+solution[j]*readRow(P,j,GW,BGW,0,c.eta)),0));
   assert(W0===0,"native W mass also satisfied exactly");
  }
  return {...c,selected_columns:selected,selected_determinant:selectedDet,
@@ -257,16 +342,16 @@ const data=candidates.map(c=>{
 const result={
  format:"R693 actual neutral G6-power extension: three S sources, native W=6deltaT, and normalized J2",
  auxiliary:{p:pp,omega:om,tau:TAU,lambda:md((1-TAU)*iv(TAU)),kappa:0,u:0,b:1,Omega:1},
- actual_columns:"eleven original Pi4-zero columns times G^(6h)/(b^h Omega^(6h)), h=0,...,max_block",
- max_block:MAXBLOCK,
+ actual_columns:"eleven original Pi4-zero columns times G^(6h)/(b^h Omega^(6h)), h=0,...,max_block; with --with-b append the eleven ORIGINAL columns times B0^6/(b Omega^6)",
+ max_block:MAXBLOCK,with_B:WITHB,B_geometry:Bgeometry,
  degree_blocks:Array.from({length:MAXBLOCK+1},(_,h)=>6+6*h),column_count:extcols.length,constraint_count:31,
  constraint_order:"frozen S0 six jets; frozen S1 six jets; cd endpoint S six jets; native W jets 6,...,72; normalized J2=1",
  original_kernel_indices:piv,common_selected_columns:common,
  highest_original_total_moment:72+CAP,
  C_factor_coefficients_mod1009:bc,
  C_factor_definition:"-y(s/delta)*sigma(s/delta)^3, all C^(6h) through CAP retained",
- exact_trim:"D+E degree <=6 only after directly generating BOTH full and C-zero sources; G degree and total degree kept through CAP",
- block_ranks:candidates.map(c=>({eta:c.eta,ranks:Array.from({length:MAXBLOCK+1},(_,h)=>elim(c.matrix.map(R=>R.slice(0,11*(h+1)))).rank)})),
+ exact_trim:"G blocks: D+E<=6 only after separately precomposing both full and C-zero sources. B0 block: its own full degree12 generators with D+E<=12; E-zero acts only on the original P, and the C-zero multiplier is separately (b G00)^6.",
+ block_ranks:candidates.map(c=>({eta:c.eta,ranks:Array.from({length:MAXBLOCK+1},(_,h)=>elim(c.matrix.map(R=>R.slice(0,11*(h+1)))).rank),rank_with_B:c.rank})),
  native_W_jets:native,
  source_input_sha256:crypto.createHash("sha256").update(inputCode).digest("hex"),
  certificate:data,
@@ -278,7 +363,7 @@ return result;
 }
 const report={
  format:"R693 actual G6-power family at fixed auxiliary tau values",
- max_block:MAXBLOCK, taus:TAUS,
+ max_block:MAXBLOCK, taus:TAUS,with_B:WITHB,
  entries:TAUS.map(t=>{console.error("R693: exact row algebra at tau="+t);return analyze(t);}),
  outputs_persisted:false
 };

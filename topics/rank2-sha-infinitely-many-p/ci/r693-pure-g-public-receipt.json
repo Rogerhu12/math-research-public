@@ -1,0 +1,19 @@
+{
+  "request_id": "rank2-r693-six-blocks-two-auxiliary-points",
+  "run_id": 43682680755,
+  "source_commit": "84d58b0963e7d2c1b8dc991bdaf27d3b7dc46e84",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r693-neutral-g12-four-source-adaptation.js",
+      "args": [
+        "--max-block=5",
+        "--taus=2,3"
+      ],
+      "engine": "node",
+      "sha256": "8f8a882581e46e415248d1554dddd57f1d28cc39890e62c5b27a57067d5821ad",
+      "stdout_bytes": 44129,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false
+}
