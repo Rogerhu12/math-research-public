@@ -1,0 +1,98 @@
+{
+  "kind": "genuine_common_radial_reference_columns_and_complete_old_circle_inverse_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "manifest_path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-reference-columns-old-circle-CI-inputs.json",
+  "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "current_text_inputs": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md",
+    "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json"
+  ],
+  "legacy_artifact_inputs": [],
+  "input_paths": {
+    "columns_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md",
+    "potential_execution": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+    "fold_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md",
+    "original_fold_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "old_fold_majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json"
+  },
+  "mathematical_parameters": {
+    "arb_precision_bits": 320,
+    "fixed_intrinsic_parameter": "eta_0",
+    "minimum_absolute_fourfold_mode": 97,
+    "minimum_physical_frequency": 388,
+    "exact_real_reference_T_radius": "1/2000",
+    "reference_potential_modulus": 276,
+    "exact_old_rho_radius": "1/20000",
+    "exact_original_fold_radius": "3/8000",
+    "exact_original_fold_phi_strip": "3/128",
+    "exact_inverse_phi_strip": "1/64",
+    "exact_Wiener_phi_strip": "1/128",
+    "exact_complex_delta_square_halfwidth": "1/100000000",
+    "independent_even_mean_retained": true,
+    "both_carrier_signs_retained": true
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+      "bytes": 24060,
+      "sha256": "9596ebee08e95939cf1b8a9d46a9f32053bd4706cc77e2263a80d09ede99294c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+      "bytes": 15528,
+      "sha256": "0e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md",
+      "bytes": 9644,
+      "sha256": "edede2b11d5f798ebb98012dde34e92dc92fbbf4eed0511db396b8e94ac88015"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+      "bytes": 27645,
+      "sha256": "d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md",
+      "bytes": 14489,
+      "sha256": "63e76681a33b5dd319e7de0c14a6812a3d6ec5aede641fe066af25f28bf06d10"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    }
+  ],
+  "original_mathematics_recomputed": 0,
+  "new_mathematics": "Only scalar Volterra/gap constants, exact determinant/inverse derivatives and an explicitly narrower complete Wiener conversion.",
+  "scientific_output_policy": "Only necessary small final conclusions, gates, script/parameter/run identities and hashes persist. No reproducible certificate, array, artifact or Release is uploaded.",
+  "original_fold_source_role": "Pinned explanatory formula evidence only; parsed but never imported or executed by the new scalar consumer."
+}

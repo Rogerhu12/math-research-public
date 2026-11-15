@@ -155,3 +155,7 @@ cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，
 [T1–27](results/R119-supplement-4384-angular-window-1730-loss-and-finite-tame-budgets.md) 已独核完整4384角网络：Bfin2^319488、rootcut2^491520λ、两向strong2^663552λ^(4/3)，旧T#/v#/五盒/径向单位不变，remaining差<2^-190000。r≤4416的三个阶乘以AM–GM各付12r，+4r与固定余项仍在预算；E4480完整mean/DN/Poisson/adjoint够用。weak新费2^2359296、body2^3145732；q=s+1728给s≤2656/source≤4386，1710高余净11/4及首cut余23都正。全部前缀、mean/height及独立外源保，Y_s≤2^8000000N_(s+1730)+2^4600000Bext_(s+1728)。完整ordinary二次含mean重建费2^524289，EN=αNk−βNθp−γNp的tame费2^196608并真实付N_(s+1)；不增加径向坏幂。G firstΓ源尚≤2114，未随T扩大。
 
 下一给背景依赖的tame逆或真正可保持的新背景域，并明确角平滑后的mean/Γ更新、三阶径向residual增量及所有外traces。现在的Y2656仍不自动回到H8196/residual4420域；不能以一句Nash–Moser或小常数掩盖1730真实损失。
+
+### 旧圆真实逆已备完整合同，等实际标量门
+
+[H1–15](results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md) 将原fold真二次T因子按h/Rg缩放，完整determinant及Sherman–Morrison两路上界、ordered二角导与较窄Wiener均保符号/mean/两P/I/J。新SCI9596ebee…/9pin1869212f…只做新标量门，原势/target/FFT不重算；须消费实际run与rootcover/image/gap，再付正物理Schur和强返回。A实T列并不授旧复角列norm。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 H：真实共同参考列的完整旧圆逆预算](results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md)：以原4501B fold和已完成全复域势为输入，给H_V真行列式下界、完整逆矩阵及两角导、较窄完整Wiener界；两P/I/J/mean/两sign/真实seam保持。9pin公共标量consumer随本结论部署，实际正gap须待run；不重算旧势/fold/FFT，不持久化新data。
+
 - **R133 真共同径向两列、root shear与完整两源（2026-11-15）**：[A1–27](results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md) 从actual43685624307的V<276及完整T像，构造实T±1/2000上n≥388的两列，精确Wronskian n^{2/3}/π；完整shear<138n^-4/3<1/19，正两权21/20，负relative及inverse6/5、真实两端relative propagator10/9。两普通源不取g2径向导，原n幂/κ rootport、独立mean/实际positive行与seam保；没有授old complex angle或全strong return。15528B；blob62909c54de321da071a6bbc6e169e87b5888dde6；SHA2560e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49。
 
 - **R119 全4384角网络、1730损失与有限tame门（2026-11-15）**：[T1–27](results/R119-supplement-4384-angular-window-1730-loss-and-finite-tame-budgets.md) 在原高背景域保所有层权/cutoff/true outer/mean，Bfin=2^{319488}、双强4/3费2^{663552}、remaining<2^-190000；whole weak新费2^{2359296}。重新支付11/4径向余量及23首切口余量，得s≤2656的Y_s≤2^{8000000}N_(s+1730)+2^{4600000}Bext_(s+1728)。完整quadratic含mean2^{524289}，真实EN tame2^{196608}。20869B，blob3524417428a17201a76218c9104a179b417c16dc，SHA256faef376f094d52278c65516823a3b96d4fbe4d42b22b52480c889627c263ec5a。G源仍≤2114，尚未Nash迭代或背景域保持。
