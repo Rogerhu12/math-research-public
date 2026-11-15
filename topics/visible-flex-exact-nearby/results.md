@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **UTA 两端完整收费后原trial界与paid小计实际收紧**：[证明](results/R133-supplement-actual-full-normalizer-endpoint-replacement.md)（d23b71f8；43776528869/1）。新fullT保三整source/3070jumps及两mean，cut/waist两端归回同原TJ trial后whole选2.77275168792994…e92；WE原序小计1.63981108967766…e99，CG一次。22门/12steps、9pins/3AST、4原receipt/18球与SCI/preGit全核；六retained、全Ei/incoming/finite/return仍未付，成功不重。
+
 - **NPK 同一双均值正规化逆的周期核收紧**：[证明](results/R133-supplement-complete-normalizer-inverse-from-periodic-weighted-kernel.md)（1ab985bc）。精确weighted Green kernel同时保两个均值，range-one估计给K0≤1+(π/2)W0E0²；PIB接同一负窗及whole norm选择，完整global sign仿射保原窗序与CE条件。只需读旧NW exponential的新平方/积，无旧成功重算；实际新数值、完整CE与physicalincoming未授。
 
 - **SCA 完整97列有符号径向仿射及两帽域全部误差**：[证明](results/R133-supplement-actual-complete97-signed-radial-cap-affine.md)（3302361e；43754452928/1）。全部7908/32groups/128moments与3×97含mean系数完成；known uniform约3.84433e−13，完整两域affine约1.61721e−7。原未知body、左缺陷/shift、外端/height及独立mean齐；两whole3/4选择不拼系数min，旧Gram单位和embedded fees只一次。20门/12steps、32Git/36archive/8AST/23pull及SCI/preGit全核；low/core/BVP未授。

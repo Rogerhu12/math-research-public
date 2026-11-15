@@ -168,3 +168,7 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-15 23:49:41 UTC — NPK 周期weighted kernel解析结论独推
 
 两README在232978234e35f028bf8fa663190f695c45c41b36blob核无差。Root全文读0cfdef79/11251/1ab985bc，按CN13–16原双weightedmean核u0−weightedmean、固定t的G range长度1、归一L2与普通dt的π/2因子、a(t)/a(x)≤exp osc p≤E0²，得同CN完整逆且输出mean=m_f。PIB接同一负窗、旧新完整norm整选与global sign左右窗和forward因子原序保；不对不同affine候选逐系数min，CE未付/linear μ²费原样。Newton独立纯核亦通过；零新数值，计划仅在公开Actions消费旧NW原E0作新正平方/积，无新exp/log或旧积分。H/open压缩已成MI/PG/PIB/SEI/PSB/PTB/DZA摘要，逐字完整前页232978234e35f028bf8fa663190f695c45c41b36同路径保存全部球与条件，全部尚欠physical/high/bg/tame/finite义务显列不减。
+
+## 2026-11-15 23:54:32 UTC — UTA 完整actual端点替换独推，23:50真CLI复试仍无executor
+
+23:50:00已实际调用git pull --rebase origin main，环境返回No usable execution environment；不冒真pull，下一最晚11-16 00:50。随后710720bf4075a7c952e0d72159523e6a02689770两README blob/SHA精确无变，本次再核ef8d9fbdc0fd6251a7a9549dfb209d5361814023无差。UT唯一43776528869/1正式job133003952389全12steps、child0/22门锁。Root完整读原三小件与UTA，31处27种球/全部门标签原字同，18标量及7个整对象逐原输入同值；9input296854B digest ff202cb8和3AST64146e70按原序+LF完整复原，SCI22856/3817fbec及preGit31001/e36c531d lexical全同（只去后来23:46:07.883627 pull行）。9170/ba0978原process只引receipt。§1 report SHA少13字转录由root补回原64位，唯一文字修正成6072242c/23208/d23b71f8；科学/输入/数值不变。新界两端都付再same-operator wholemin；state+CG原序一次、原JS与两mean保。旧成功冻结，完整Ei/Eo/incoming/finite/return/背景未授；继续RD/NPK/未知帽body，未达总标准。
