@@ -465,3 +465,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R778**：[原全部S174完整角色、finite-χ负一平方与17不分歧点域](results/R778-original-degree174-full-characters-and-unramified-seventeen-point-fields.md)。全2×3×29谱和固定η/角/范数/primitive常数已付，所有存活finiteχ目标逐处root−；R772每个实际有限门的P负一行进入点坐标在17不分歧的有限point-log空间。完整正权Euler与R777平方锚定P核心β；不把代数系数的惯性混入点，不穿无限极限。
 
 - **R779**：[原三格D≤4的全部真实有理饱和旗标](results/R779-original-small-degree-complete-rational-saturated-flags.md)。公开逐行unimodular gcd/同核HNF准确求整个前缀整数核行像；D3/D4全部跳跃0..19/0..34，最大惰性负素数107/197，后者k34恰−1，无非坏ordinary负值。只断言这四个有限格；producer/参数/run/hash全存，输出不入库。
+
+- **R771**：[原r2完整有限纤维、联合末零角主部与全边界补偿](results/R771-original-r2-full-fiber-and-complete-boundary-compensation.md)。原完整列给4+a4真实联合主部块、明确源核及同R全M返回；该块三个完整纤维迹至多一维，末零角−2的全部补偿定位到其它原零角或d/fb/∞纤维。未把主部单位、裸留数或全trace认成指定近支normal非零。
