@@ -70,9 +70,19 @@ def prepare(a,h,started):
   for j in range(198):Cnew[i,j]=Z[i,j]
  if V10*Z!=U7*Cnew:raise ValueError("true seven correction for all198 next source relations")
  PM=block(h,b,r,"whole315PrimaryProjector");raw=block(h,b,r,"rawTargets")
- if PM*raw!=raw:raise ValueError("actual nine current raw targets all root2")
+ projected=PM*raw;outside=raw-projected;outsideSolution=h.solve_span(U9,outside)
+ if outsideSolution["indices"]!=list(range(9)):raise ValueError("same ordered true U9 source basis")
+ outsideCoordinates=outsideSolution["solution"]
+ if not all(outsideSolution["flags"]) or U9*outsideCoordinates!=outside:
+  save(a.out/"actual-target-outside-U9-failure.json",{"status":"failed","fullRawTargets":rows(raw),
+   "root2ProjectedTargets":rows(projected),"otherPrimaryTargets":rows(outside),
+   "candidateTrueU9Coordinates":rows(outsideCoordinates),"residual":rows(outsideSolution["residual"])})
+  raise ValueError("actual full targets outside root2 are not paid by true U9")
+ if PM*projected!=projected or not h.zero(PM*outside):raise ValueError("actual full target primary decomposition")
+ outsideInU7=U7*h.sub(outsideCoordinates,range(7),range(9))==outside
  copied=["globalTwoPrimaryBasis","localTwoPrimaryBasis","localTwoPrimaryLeftInverse"]
  mats=[("U7",U7),("U9",U9),("J9",J9),("V10",V10),("J10",J10),("whole315PrimaryProjector",PM),("rawTargets",raw),
+       ("root2ProjectedRawTargets",projected),("otherPrimaryRawTargets",outside),("trueU9OutsideTargetCoordinates",outsideCoordinates),
        ("oldSevenCancellation",C7),("trueV10Coordinates",C),("new198SevenCancellation",Cnew)]
  for k in copied:mats.append((k,block(h,b,r,k)))
  desc,system=h.save_system(a.out,"prepared-saturated-second.bin.gz",b"R150SP2A",[31,315,204,198,9],mats)
@@ -88,6 +98,11 @@ def prepare(a,h,started):
   "actualOld197SourceRecomputed":False,"all1834OriginalKernelDirectionsHaveExactBKernelLifts":True,
   "twoAdditionalExactRelationDirectionsRemoved":True,"allSixOldAndTwoTRelationsRetained":True,
   "newMathematicalSecondPageComputed":False,"targetLabels":TARGETS,
+  "fullRawTargetsPreserved":True,"all315TargetDecompositionVerified":True,
+  "otherPrimaryTargetsPaidByTrueU9":True,"outsideRoot2TargetsActuallyInU7":outsideInU7,
+  "rawTargetsAlreadyRoot2":h.zero(outside),"outsideRoot2TargetRank":outside.rank(),
+  "actualU9OutsideCoordinates":rows(outsideCoordinates),
+  "targetPrimaryScope":"root2 classes modulo true U9; the full315 raw targets and their paid other-primary correction are retained",
   "sourceScope":"full original S2 envelope; computation is its complete root2 local second page",
   "whole315ProjectorPolynomialAscending":r["projectorPolynomialAscending"],
   "twoPrimaryAnnihilatorAscending":r["twoPrimaryAnnihilatorAscending"],
@@ -98,7 +113,7 @@ def prepare(a,h,started):
  print(json.dumps({k:result[k] for k in ("status","complete204SourceKernelGenerationProved","all198TrueSevenCorrectionsVerified","allSixOldAndTwoTRelationsRetained","elapsedSeconds")}),flush=True)
 def readprepared(a,h):
  r=json.loads(a.prepared_receipt.read_text());b=h.actual(a.prepared_system,r["system"]["uncompressedSHA256"])
- if b[:8]!=b"R150SP2A" or r.get("status")!="completed" or not r.get("all198TrueSevenCorrectionsVerified"):raise ValueError("complete saturated second source preparation")
+ if b[:8]!=b"R150SP2A" or r.get("status")!="completed" or not all(r.get(k) for k in ("all198TrueSevenCorrectionsVerified","fullRawTargetsPreserved","all315TargetDecompositionVerified","otherPrimaryTargetsPaidByTrueU9")):raise ValueError("complete saturated second source preparation and full target scope")
  return r,b
 def complete(a,h,started):
  r,b=readprepared(a,h);state,J=h.load_state(a.notes_root,a.out)
@@ -121,9 +136,13 @@ def complete(a,h,started):
  D=B*Li*h.sub(D39,r["localTwoPrimaryPivotRows"],range(204))
  if M["globalTorsionTo39"]*D!=D39:raise ValueError("true projected second class reconstruction")
  U9=block(h,b,r,"U9");J9=block(h,b,r,"J9");target=block(h,b,r,"rawTargets");PM=block(h,b,r,"whole315PrimaryProjector")
- if PM*D!=D or PM*target!=target or J*U9!=U9*J9:raise ValueError("same root2 action and full current targets")
+ projectedTarget=block(h,b,r,"root2ProjectedRawTargets");outsideTarget=block(h,b,r,"otherPrimaryRawTargets")
+ outsideCoordinates=block(h,b,r,"trueU9OutsideTargetCoordinates")
+ if PM*D!=D or J*U9!=U9*J9:raise ValueError("same root2 source action and true U9")
+ if PM*target!=projectedTarget or target-projectedTarget!=outsideTarget or U9*outsideCoordinates!=outsideTarget:raise ValueError("same full315 target and exact paid other-primary correction")
  project,Jq,pivots,qr,Ui,Uf=h.quotient(J,U9)
  C0=project(D);qt=project(target)
+ if qt!=project(projectedTarget):raise ValueError("full targets and root2 projections must define the same U9 quotient classes")
  for j in list(range(6))+[202]:
   if not h.zero(h.sub(C0,range(306),[j])):raise ValueError("paid six old and t-e8 second classes must remain zero modulo U9")
  C=C0;full=D;cur=C0;fcur=D;oldrank=-1;maximum=0
@@ -185,7 +204,9 @@ def complete(a,h,started):
    "annihilatesTrueU9":True,"annihilatesCompleteLocalSecondPolynomialImage":True,
    "doesNotAnnihilateUncomputedThirdImage":True,"scope":"second page only; not a full original modp6 obstruction"})
  mats=[("all204Local143",Y),("all104FreeChecks",free),("all204Local39",D39),("all204Projected315SecondColumns",D),
-       ("U9",U9),("J9",J9),("rawTargets",target),("quotientAction",Jq),("completeSecondKrylov",C),
+       ("U9",U9),("J9",J9),("rawTargets",target),("root2ProjectedRawTargets",projectedTarget),
+       ("otherPrimaryRawTargets",outsideTarget),("trueU9OutsideTargetCoordinates",outsideCoordinates),
+       ("quotientAction",Jq),("completeSecondKrylov",C),
        ("full315SecondKrylov",full),("imageBasis",basis),("imageAction",JA),("sourceImageCoordinates",Csource),
        ("targetResidual",sol["residual"]),("localPositiveCombination",combo),("localPositiveU9Correction",correction),
        ("nextKernelImageVerifiedZero",kernelImage)]
@@ -205,6 +226,11 @@ def complete(a,h,started):
   "completeNextPolynomialSourceKernelSaved":True,"completeRelevantSaturatedThirdImageComputed":False,
   "globalAllOriginalSourceMod31SixDecisionComputed":False,"characteristicZeroIdentityAsserted":False,
   "originalS2EnvelopeComplete":True,"localPrimaryRoot":2,"localSecondQuotientDimension":25,
+  "fullRawTargetsPreserved":True,"all315TargetDecompositionVerified":True,"otherPrimaryTargetsPaidByTrueU9":True,
+  "fullAndProjectedTargetsAgreeModuloTrueU9":True,
+  "outsideRoot2TargetsActuallyInU7":r["outsideRoot2TargetsActuallyInU7"],
+  "actualU9OutsideCoordinates":rows(outsideCoordinates),
+  "targetPrimaryScope":"root2 second page modulo true U9; full315 raw targets and exact other-primary correction retained",
   "secondImageRank":rank,"KrylovMaximumPower":maximum,"sourceKernelGeneratorCount":204+rank,
   "sourceKernelMaximumDegree":degree,"sourceKernelFile":"complete-next-source-kernel.json",
   "individualTargetCompatible":flags,"compatibleTargetLabels":[x for x,ok in zip(TARGETS,flags) if ok],

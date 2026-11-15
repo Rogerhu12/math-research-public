@@ -650,3 +650,8 @@
 - 完整F1真Schur给H≥S/2、D0∈[S²/2,S²]及同u的Du/D²u/范数，m≥11；primitive残量与标量同时精确校正。
 - 原环境低核身份保Γ/source/零源/Gq完整两列恢复，未删低核反馈或换压缩逆；两列联合远孔预算仍开。
 - 每条结论实际推送；第二页输入断言按raw−P2raw∈U9最小修复，旧197/selector不重跑。
+
+### 2026-11-15 Astra-ISP-789f：原目标相关分量的实读定位与最小续跑
+- 只读已成315×9用0.051741805秒；九outside均非零、秩2，但完整身份都在U7的b1/b2/b6，raw/P2raw各秩9。
+- prepare/complete保全部原目标、投影、差和真实U9坐标；只改matrices/合同并同步manifest，native/solver/runner不变。
+- 两接口另按规则4纯数学格式修正；立即实际推/dispatch完整第二页，不重旧197/selector，无新高页结果预填。

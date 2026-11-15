@@ -26,9 +26,9 @@
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-original-transport-789f.md",
-      "blob": "3f60392317c77fbf325c3d54051ac31a2c54d4ed",
-      "sha256": "50ac585596465a7b6c2a54dc92852ad2d1e6be14b89c4d3a51669e28f478d041",
-      "bytes": 8039
+      "blob": "c38dd49f89cb918e8eae925439ce42f70c567667",
+      "sha256": "434184f67b3cdacd966afd7ec847b4f49ae2bb1108bc21ef970a8787d6d6a66f",
+      "bytes": 8025
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-normal-789f.cpp",
@@ -50,15 +50,15 @@
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.md",
-      "blob": "f6a13ca54fa58e0a375fe4a0a0861bb070ffa3fa",
-      "sha256": "32c734938ded94e5c7abdeba5466b04596ae69cd4eb048436a6b251085017b53",
-      "bytes": 7886
+      "blob": "9ce72e92f52a8b3c6b14bec61b82bc1dac93cadd",
+      "sha256": "4efa82e4dde49fa0253a1fd1215f432634af9c27a5a66879fa96ef031dcd07fb",
+      "bytes": 7768
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-matrices-789f.py",
-      "blob": "deb44bb6fd2aef90c7851bf6e97b6bcad2455a39",
-      "sha256": "e8446d6b337198fbeeee04d4d60c6f5ef38f5d4681db0dc5f92c03df3fb96f50",
-      "bytes": 17574
+      "blob": "ba02ac5302c773487f36840a2c20f4e3dc3901b9",
+      "sha256": "635bf00ee040a716485dbcfe2756bd84a0b4dfccc0fe56f63ea1c8418a354309",
+      "bytes": 20101
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-runner-789f.py",
@@ -80,9 +80,9 @@
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-contract-789f.json",
-      "blob": "7b40ac348a94e8a789ea92fe99ffae4b4b41ef5f",
-      "sha256": "28411e3f047d93221fc929c84a31529e749237e6c208d766187c27fe738890d9",
-      "bytes": 12891
+      "blob": "cd6719043a136cde76be3bacda8cbd47f0adab7a",
+      "sha256": "ed999eb8c095c9b14967b71d2590317dab0d07b81664b4f568e47b7743ca90f9",
+      "bytes": 13571
     }
   ],
   "reusedDependencies": {
@@ -120,5 +120,31 @@
   },
   "localCompilationPerformed": true,
   "localASTParsePerformed": true,
-  "newMathematicsExecuted": false
+  "newMathematicsExecuted": false,
+  "scopeRepair": {
+    "failedRun": 43659199975,
+    "mathematicalFailureStage": "prepare; no new source computation began",
+    "correction": "retain raw, P2 raw, raw-P2 raw and actual U9 coefficients; check every315 coordinate; compare quotient classes rather than assert raw=P2 raw",
+    "localChangedPythonASTParsePassed": true,
+    "nativeSourcesUnchanged": true,
+    "sharedBudgetAndInputsUnchanged": true,
+    "diagnosticFiles": [
+      {
+        "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-target-scope-readout-789f.py",
+        "blob": "feee745e3bef7f96791f11a790727de4ba5ee53a",
+        "sha256": "c2491a4dec1d5f9e1a43488ada16276cdd4d66e9bbabeb48a0b4a9954118df62",
+        "bytes": 2784
+      },
+      {
+        "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-target-scope-readout-789f.json",
+        "blob": "c7974b6481cc5eaca148444222bb6eac8ef29e98",
+        "sha256": "ce4b2ce5ed62d48a362af60ad4de4cddaa9a77c0dac3cf1f3270a6065f606c70",
+        "bytes": 1496
+      }
+    ],
+    "mathDelimiterCorrection": {
+      "rule": 4,
+      "scope": "Two accompanying Markdown interfaces only; dollar delimiters; no mathematics or executable source changed."
+    }
+  }
 }

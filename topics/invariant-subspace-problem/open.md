@@ -142,3 +142,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **第二页实际首跑修复。** run43659199975在新prepare断言原目标全属root2时停止；九列实际含其它分量，尚无新第二像或余量结果。保全部原目标，明确相关投影并修复输入合同后继续；旧197/selector不重跑，该失败不构成原来源成员的否定。
 
 **第二头真实Schur联合恢复。** [完整校正](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)以F1的真实b⊥块H和v=H⁻¹r给D0，m≥11付H≥S/2、D0∈[S²/2,S²]；同u的Du/D²u/范数及原Γ/source/零源/Gq两列式全保。下一项是h̃2和h21在同一完整Γ_CC⁻¹及同一q下的联合远孔传播，不能把显式primitive项已吸收误读为原源已趋零；a1仍须o(S)。
+
+**第二页范围修复已定位。** [只读实绩](notes/2026-11-15-r150-saturated-target-scope-readout-789f.json)核九outside均非零、秩2，但实际全在b1/b2/b6张成的U7中；raw/P2raw各秩9。新prepare保全部315原目标、投影、差及真实U9坐标，complete复核全向量身份后比较商类。最小修复续跑完整204来源；旧197/selector/native不改、不重跑旧数学。
