@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **完整 genuine 负侧源的复用合同已证明**：[C附篇](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)，16352B，SHA256 98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4。同已成功G15 fold/profile的正线性预算可从旧算法输入数的严格lower回读系数；三raw local、两准确J窗口、九有序词、五旧mean和独立physical mean均保，真实dr与uncertain-root积分单侧收费。不重算成功profile/norm，不从upper减项，不冒正graph或strong-return；实际消费待CI。
+
 - **锁定旧参考的帽Poisson比较现对新高度全球统一**：[R13a–b](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)，11379B，SHA256 e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6。同W_hat、同metric和物理θ上，I9对整个新fB球统一；旧D0/H0/K0(fB0)完全锁定，端导差.006006/.000751不要求fB1=fB0，故K*(γ,fB1)−K0(fB0)<1/5。接完整tail列后<1/5+2^-52000000，所有97/未知high/mean/affine保；不扩张到变metric或current-angle识别。
 
 - **实际帽完整网络 high/source 更新已付**：[HT附篇](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)，18679B，SHA256 fae2b82029de835fea4bd553556ce3a42e8838a7b738725f52b036fa696a44ef。先由旧正片真半阶端口与low逆构造新片，再付全high/deep有序消元；最高新增反馈2^-608928，high最大20609056<20971520，raw源32805408<33554432，原最终8388609/33554433及1734/1796窗口保持。所有mean、weak/atom、sB/sR/aw与一λ保；未screen输出额外2^41943040和完整Dact。该结果不是augmented匹配逆。

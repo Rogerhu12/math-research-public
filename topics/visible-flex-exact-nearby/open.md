@@ -103,8 +103,15 @@ w1/w1r/w1rr分别<227086.046676/79268255645/26074855745890286。
 这些只是幅度径导的完整列operator，不是physical residual，也不是lower bound。
 缺wφ⁴/Bφ³⁴/VTTT与正image margin已实际付；
 完整source/independent physical mean/positive graph/全high逆仍false。
-新成功profile/4operator不重跑；后继用已成结论的正线性性支付新有序amplitude。
-**当前下一接口：** 实际G15标量门与完整source消费；
+新成功profile/4operator不重跑。
+[C正线性复用与完整负源](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)
+现已证明：同fold/profile的完整budget是六个幅度jet界的正线性函数；
+仅对旧算法实际输入数取严格lower，不把函数upper当实际函数lower。
+三raw local保持原顺序，w1rr可准确拆出复用完整旧norm；
+两J窗口分别−8/3→−5/3与−5/3→−2/3，CV1保旧值另加新项，绝不相减。
+全部九词、五oldmean、独立physical mean、true dr与uncertain-root单侧权均明确。
+该recipe尚无新数值结论，phase正在制作只消费旧成功量的公开CI。
+**当前下一接口：** C recipe的实际完整source消费；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
 负侧可从同principal相位的真实oscillator两branch付全C² symbol，

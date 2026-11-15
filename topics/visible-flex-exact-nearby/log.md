@@ -305,3 +305,7 @@ root全文复核HT；newton独核N.5–12/N.16–21/D/L原端口构造、HT8–1
 ## 2026-11-15 10:02:07 UTC — 解除旧缓存比较中的保守同height限制
 
 root重读I.1–21和M.1–4；newton独立回读X/M、S.10–13及实际outer_diagnostics，确认中心固定、端导界对整个product统一。R新增13a–b，不改变旧fB0/cache/残差Hessian/physical θ；允许actual fB1不同，严格triangle仍给1/5。完整tail联动L*Fγ及value affine独立保留。新blob c4f5e34c3ddde6fde42968aa48b59b7ab8ef5731，11379B/SHA e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6；未重算任何成功数学。只读main 3ee6c53840032444b2b88bb4ff98d69f038239d3 两README未变，单结论独推；继续single-G全匹配。
+
+## 2026-11-15 10:02:47 UTC — 同成功G15的正线性回读与完整负源recipe
+
+root全文读C final be1625f69c3902bead4c3d2a7cc0185dff7aef31，16352B/SHA 98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4；newton亲读V/G/U后窄核C6–19及C1–5逻辑，phase核输入成功receipt和1328原行。B=−iεI+ΔB与w1rr只作准确加法拆分，C14两J窗及CV1再付项没有删旧mean或普通source；实际输出尚未声称存在。单结论独推，只读main 457cfe15e14e7a176629fc2bf2e22d17d003e979 两README未变。继续同原cover的实际source CI，不重复任何已成功数学。
