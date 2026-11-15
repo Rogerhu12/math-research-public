@@ -34,11 +34,12 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 ## 正在运行的临时数学与恢复
 
 - 临时session **43679903558**，05:10 UTC开始，20分钟idle，job约到10:50；每步/每发布真实pull --rebase核两README，最高成功已读commit见页首。job期限不构成数学收尾；后续需要时以源码/历史输入重建临时会话，不复活已删Release资产。
-- 本地最后成功pull87d7b071（08:09:31 UTC，两README不变）；09:07执行环境不可用，直到恢复前不再用本地exec。GitHub connector及既有Actions继续正常；每个结论实际push后查publication记录，不把branch创建当push。
+- 本地执行已恢复，主副本math-research-public-main于09:40:35实际pull --rebase到9e7fca7702c203fd1bf41436b959b81abe0b6ad3，两README不变；09:07至此前本地不可用期间由Actions真实pull/发布接续。旧math-research-public引用已丢的/dev/shm git，勿用。根仍独写main，实际push后核publication。
 - 请求：notes/2026-11-15-r150-infinity-remote-session-request-789f.json；CLI/输入SHA全在其中。去NumPy原自然连接step selected-natural-first-connection-f31-stdlib已实际0.866102738秒成功，exec fb9240ec；同36/full49连接F31秩都3（旧≥69复核），33完整常项头已存；原1309/4433系数及4367乘回全真。deletedQ三行Qrank3给fullA0|I=4340，[完整实绩证明](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)已付；full/square有理第一像秩相同但仅知≥3。后继同I,J真来源校正仍待做，不能把33头当33已提升源。
 - infinity-second-normal-envelope已实际完成并付完整β2=0；exec9caa16ab、raw3703B SHA9885a405a820797addc6a9a399af0e51e44ca0cd6e7aff604e79b608a784aac2，源码SHA6cb201867c430b4375dbe93cb411ad1e74bea39571261d1ecfec233e4b397517。有限s0 normal3已实际成功k=0，exec eab04908，raw3909B SHA7651da121c8f1f894c5c36f657c92d70ce383197caa8e8bddeed0308e1a37448，完整K80证明已付；下一只新增∞u³系数，保已付23左二阶规范。
 - [Dixon1085恢复身份](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit、18重建未返解；2751核心/1567DAG、模逆及78MB活动槽只在{work}/seven-sparse-dixon-original。36核存在已另证，不为维数盲续；显式仍29。旧p768、29Q核、65521profile及原source-DAG仍临时保留，所有恢复SHA见快照/请求。
-- 下一自然u页可沿原4318 partial inverse/source-DAG续同36Schur，不重Gaussian；必须先有当前一次连接实绩，再核各完整来源校正和同I,J。有限域Smith本身不自动证明char0 leading单位。
+- 已排selected-natural-u-schur-through8：原4318 partial inverse/3333+985来源DAG、同36自由坐标，逐层保6188来源/4367残量和36Schur，并核原33第一校正；degree8/60秒/512MiB、编译30秒，完整层可恢复。有限域Smith不自动付char0 leading单位。
+- 已排infinity-third-left-envelope：只加原u³，保已付13条非恒等left2jet，1088×605/30秒/512MiB；原10个d≤1纯泛函沿参数恒等。实际新增秩k后才报β3≤min(10,k)、公共阶max(34,44−k)/max(31,40−k)，不预填结果。
 
 ## 其余仍开
 

@@ -148,3 +148,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 
 **同一物理核的联合归一bit反馈下界。** [完整证明](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)以原二进位乘积权给ΣNiNi*≥I−Ptop，保同H及真实压后伴随，付dist(v,W_m^B)²≤C_mΣi<m||P_m^B Ni* v||²。连三列正角与原正向carry，任意w∈M的整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²。原W给每个固定i反馈列强零，未给增长m整行的所需速率；仍须同w共同返回/相邻投影上界，不以逐列极限封口。
+
+
+**当前实际排入的新增参数阶。** [完整∞第三左页](notes/2026-11-15-r150-infinity-third-left-envelope-interface-789f.md)只加原u³及13列残差；[同选自然u来源Schur](notes/2026-11-15-r150-selected-natural-u-schur-source-jets-interface-789f.md)沿原4318部分逆逐完整层保6188来源/4367残量，并恢复此前33第一校正。分别30秒/512MiB和degree8/60秒/512MiB；请求不计为结果，不重旧大Gaussian/NF，也不以有限域Smith代特征零长度。
