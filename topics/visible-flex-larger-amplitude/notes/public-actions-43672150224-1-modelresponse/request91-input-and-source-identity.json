@@ -1,0 +1,175 @@
+{
+  "schema": "public-actual83-four-row-request-source-identity-v1",
+  "source_commit": "b78f0dd1471a118d2ed21467602509d188c2ab67",
+  "request": {
+    "schema": "public-actual83-four-original-row-attribution-request-v1",
+    "repository": "Rogerhu12/math-research-public",
+    "request_number": 91,
+    "lanes": [
+      "modelresponse"
+    ],
+    "diagnostic": "fixed-actual83-four-complete-original-row-contributions-and-distinct-word-spacing",
+    "source_sha256": {
+      "exact_20261115_actual83_four_row_state_formation.py": "17659d25b5f24d21843c188f845247ce3a132a7462e28d7b4fbcdf59db17bc8c",
+      "exact_20261115_fetch_actual83_four_row_inputs.py": "e3dae97ae649dadd46cf77508e84b8573daaff30a77c14cc6f7c0a77a3bc6c92",
+      "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "root_20261114_publish_actions.py": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca"
+    },
+    "expected_readme_blobs": {
+      "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+      "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+    },
+    "minimum_free_bytes": 4294967296,
+    "python_version": "3.12.14",
+    "standard_library_only": true,
+    "inputs": {
+      "actual83": {
+        "run_id": 43668743706,
+        "artifact_id": 14143009723,
+        "artifact_name": "visible-mainline-modelresponse-43668743706-1",
+        "expected_size": 48375172,
+        "expected_sha256": "9eadec9633a1260597268a760b5870bf59bd18ef808e8c5eb6ac5e006df5634c",
+        "source_commit": "8d199eda5c1f1df162ded244e8dfd012e0c8d127"
+      },
+      "original73-j-chunk": {
+        "run_id": 43657001633,
+        "artifact_id": 14141540502,
+        "artifact_name": "visible-mainline-nojprimalnative-43657001633-1",
+        "expected_size": 1752742419,
+        "expected_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9",
+        "source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f"
+      }
+    },
+    "selected_original_J_chunk": {
+      "file": "native-noj-primal-current576-damped/iteration-002/snapshot/large-arrays/stage-jacobians-0002.f64le",
+      "bytes": 1605632,
+      "sha256": "fd117e2d3cfdd26ddfa584e5c75e521209f12ca16f098596ec61cab3e47f8677",
+      "shape": [
+        4,
+        224,
+        224
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "chunk_index": 2,
+      "row_start": 8,
+      "row_stop": 12
+    },
+    "watch_rows": [
+      {
+        "global_row": 2539,
+        "stage": 10,
+        "local_row": 187,
+        "component": "Pi76",
+        "input_node": 11,
+        "output_node": 10
+      },
+      {
+        "global_row": 2536,
+        "stage": 10,
+        "local_row": 184,
+        "component": "Pi73",
+        "input_node": 11,
+        "output_node": 10
+      },
+      {
+        "global_row": 2762,
+        "stage": 11,
+        "local_row": 186,
+        "component": "Pi75",
+        "input_node": 12,
+        "output_node": 11
+      },
+      {
+        "global_row": 2128,
+        "stage": 9,
+        "local_row": 0,
+        "component": "Q1",
+        "input_node": 10,
+        "output_node": 9
+      }
+    ],
+    "original_exact_result": {
+      "file": "actual73-exact-realized-step/large-arrays/result.json.gz",
+      "bytes": 26350,
+      "sha256": "60feb7732547dcd04ef2469c5a1adf7cef5fd93f714107ac41cdb8f71282ff61"
+    },
+    "original_probe_result": {
+      "file": "actual73-realized-trial/result.json",
+      "bytes": 2679,
+      "sha256": "7be2d7f0a98445e5efcd0ba146b7f8257483fa7593a54a6b389e8279f7fcf6ea"
+    },
+    "input_directory_names": {
+      "actual83": "request91-actual83",
+      "original73-j-chunk": "request91-original73-Jchunk"
+    },
+    "output_subdirectory": "actual83-four-row-attribution",
+    "scope": {
+      "new_scientific_arithmetic": true,
+      "byte_only_science_claimed": false,
+      "new_RHS_calls": 0,
+      "new_J_calls": 0,
+      "new_ODE_calls": 0,
+      "new_QR_factorizations": 0,
+      "new_solve_calls": 0,
+      "new_trials": 0,
+      "watch_row_count": 4,
+      "all_incoming_columns_per_row": 224,
+      "direct_outgoing_negative_identity_term_per_row": true,
+      "input_node_rule": "stage n uses node n+1",
+      "output_node_rule": "stage n subtracts node n",
+      "state_formation_from_original_actual_words": true,
+      "match_full_column_sums_to_actual83_exact_row_ledger": true,
+      "state_flow_output_and_normalized_norm_neighbor_spacings_separate": true,
+      "native_norm_not_divided_by_sigma_again": true,
+      "fixed_alpha_numerator": 1,
+      "fixed_alpha_denominator": 512,
+      "original_eta_tolerance_and_acceptance_unchanged": true,
+      "original73_complete_ZIP_download_and_SHA_required": true,
+      "original73_selected_payload_files": 1,
+      "original73_unselected_payload_CRC_claimed": false,
+      "selected_J_chunk_and_all15_original_probe_arrays_retained": true,
+      "scientific_payloads_under_large_arrays_artifact_only": true,
+      "no_new_scientific_acceptance_gate": true,
+      "future_run_or_result_identity_supplied": false
+    }
+  },
+  "request_sha256": "96aa71a7e56588ff28885236bf036b3465fddf5e62c7802414887b78a5078a23",
+  "verified_sources": [
+    {
+      "file": "exact_20261115_actual83_four_row_state_formation.py",
+      "bytes": 41270,
+      "sha256": "17659d25b5f24d21843c188f845247ce3a132a7462e28d7b4fbcdf59db17bc8c",
+      "AST_parsed": true,
+      "imported_or_executed": false
+    },
+    {
+      "file": "exact_20261115_fetch_actual83_four_row_inputs.py",
+      "bytes": 10726,
+      "sha256": "e3dae97ae649dadd46cf77508e84b8573daaff30a77c14cc6f7c0a77a3bc6c92",
+      "AST_parsed": true,
+      "imported_or_executed": false
+    },
+    {
+      "file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "AST_parsed": true,
+      "imported_or_executed": false
+    },
+    {
+      "file": "root_20261114_publish_actions.py",
+      "bytes": 14455,
+      "sha256": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca",
+      "AST_parsed": true,
+      "imported_or_executed": false
+    }
+  ],
+  "source_checkout_readme_blobs": {
+    "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "scientific_execution_claimed": false,
+  "future_scientific_step": "Exact four-row contributions and neighboring binary64 word analysis",
+  "output_route_only": "modelresponse; independent request91 schemas remain explicit"
+}

@@ -1,0 +1,138 @@
+{
+  "completed_utc": "2026-11-15T03:24:28.543624+00:00",
+  "current_actions_run_attempt": "1",
+  "current_actions_run_id": "43672150224",
+  "directories_read_only_mode": "0555",
+  "download": {
+    "HTTPS_only": true,
+    "actual_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9",
+    "actual_size": 1752742419,
+    "any_origin_change_removed_authorization": true,
+    "authorization_never_restored_after_origin_change": true,
+    "authorization_removed_on_every_origin_change": true,
+    "content_length": "1752742419",
+    "http_status": 200,
+    "redirect_count": 1,
+    "redirect_origins": [
+      {
+        "destination_host": "productionresultssa3.blob.core.windows.net",
+        "next_request_authorization": false,
+        "origin_changed": true,
+        "source_host": "api.github.com"
+      }
+    ],
+    "request_timeout_seconds": 60,
+    "signed_redirect_urls_recorded": false
+  },
+  "existing_output_directory_replaced": false,
+  "extraction": {
+    "all_original_payloads_extracted": false,
+    "directories": [
+      "native-noj-primal-current576-damped",
+      "native-noj-primal-current576-damped/iteration-002",
+      "native-noj-primal-current576-damped/iteration-002/snapshot",
+      "native-noj-primal-current576-damped/iteration-002/snapshot/large-arrays"
+    ],
+    "directory_count": 4,
+    "file_count": 1,
+    "files": [
+      {
+        "bytes": 1605632,
+        "crc32": "a507c2ef",
+        "final_mode": "0444",
+        "path": "native-noj-primal-current576-damped/iteration-002/snapshot/large-arrays/stage-jacobians-0002.f64le",
+        "selected_because": "the exact original stage8..11 raw J chunk, later cross-bound to actual83 input-binding",
+        "sha256": "fd117e2d3cfdd26ddfa584e5c75e521209f12ca16f098596ec61cab3e47f8677",
+        "symlink": false
+      }
+    ],
+    "original_archive_file_count": 5358,
+    "original_chunk_dtype": "<f8",
+    "original_chunk_index": 2,
+    "original_chunk_order": "C",
+    "original_chunk_sha256": "fd117e2d3cfdd26ddfa584e5c75e521209f12ca16f098596ec61cab3e47f8677",
+    "original_chunk_shape": [
+      4,
+      224,
+      224
+    ],
+    "original_scientific_modules_imported": false,
+    "original_stage_start": 8,
+    "original_stage_stop": 12,
+    "per_file_size_CRC_and_SHA256_verified": true,
+    "per_file_verification_scope": "Only the single extraction.files member; the complete original ZIP size/SHA was verified first",
+    "scientific_computation_performed": false,
+    "total_extracted_bytes": 1605632,
+    "traversal_symlinks_special_files_duplicates_and_encryption_rejected": true,
+    "unselected_original_file_count": 5357,
+    "unselected_original_payloads_inflated_or_CRC_checked": false,
+    "zip_member_count": 5358,
+    "zip_paths_checked_before_any_extraction": true
+  },
+  "files_read_only_mode": "0444",
+  "output_directory": "/home/runner/work/_temp/request91-original73-Jchunk",
+  "pinned_input": {
+    "artifact_id": 14141540502,
+    "artifact_name": "visible-mainline-nojprimalnative-43657001633-1",
+    "expected_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9",
+    "expected_size": 1752742419,
+    "run_id": 43657001633
+  },
+  "public_artifact_metadata": {
+    "created_at": "2026-11-15T01:33:57Z",
+    "digest": "sha256:3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9",
+    "expired": false,
+    "expires_at": "2026-12-15T01:32:59Z",
+    "id": 14141540502,
+    "local_request91_input_transport": {
+      "actual_pin": {
+        "artifact_id": 14141540502,
+        "artifact_name": "visible-mainline-nojprimalnative-43657001633-1",
+        "expected_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9",
+        "expected_size": 1752742419,
+        "run_id": 43657001633
+      },
+      "adapter_does_not_read_credentials": true,
+      "input_kind": "original73-j-chunk",
+      "kernel_network_and_final_publication_unchanged": true,
+      "kernel_source_file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "kernel_source_sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "original_source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+      "overridden_names": [
+        "PIN",
+        "SCHEMA",
+        "read_metadata",
+        "public_metadata",
+        "extract_verified_archive"
+      ],
+      "schema": "request91-two-actual-artifact-input-transport-v1",
+      "scientific_computation_performed": false,
+      "selected_extraction_only": true,
+      "source_file": "exact_20261115_fetch_actual83_four_row_inputs.py",
+      "source_sha256": "e3dae97ae649dadd46cf77508e84b8573daaff30a77c14cc6f7c0a77a3bc6c92"
+    },
+    "name": "visible-mainline-nojprimalnative-43657001633-1",
+    "size_in_bytes": 1752742419,
+    "updated_at": "2026-11-15T01:33:57Z",
+    "workflow_run": {
+      "head_branch": "main",
+      "head_repository_id": 1457408986,
+      "head_sha": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+      "id": 43657001633,
+      "repository_id": 1457408986
+    }
+  },
+  "publication": "Exclusive mkdir; verified child renames; receipt moved last; read-only sealing after moves; not atomic as a whole directory",
+  "repository": "Rogerhu12/math-research-public",
+  "runner_temp": "/home/runner/work/_temp",
+  "schema": "pinned-public-actual73-one-original-J-chunk-fetch-v1",
+  "scientific_computation_performed": false,
+  "source_file": "exact_20261114_fetch_pinned_public_artifact.py",
+  "source_sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+  "success": true,
+  "temporary_zip_removed": true,
+  "token_or_authorization_or_signed_URL_serialized": false,
+  "token_source": "GITHUB_TOKEN environment only",
+  "whole_directory_publication_atomic": false,
+  "zip_verified_before_extraction": true
+}
