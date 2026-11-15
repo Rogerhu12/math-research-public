@@ -69,3 +69,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 06:58:53 UTC /root — actual114曲率校正后仍仅极小接受
 
 [实际114](notes/2026-11-15-actual114-normal-correction-and-one-tiny-acceptance.md)：run43687426018/source dc032461b，8方向155候选仅dir5/trial14接受，其余7方向全20拒；W6958.225762769883→6958.225762766608，全部原final false。dir2全步两式已到目标而第一式更差；唯一接受inner tol=false，确认原外门未添内部否决。summary86389B/c4eca98c/status7197627B/4e7ee4fa，4487eval零异常、592J。115转独立第四控制与真实θ冻结平方视图，不称无根或局部极小；113已读完冻结接口待立即发布。
+
+## 2026-11-15 06:59:28 UTC /root — 发布113完整binary128原始映射实验
+
+已完整读新CPP/bridge/probe、原root/split/RK/cellFlow/evaluate、request/workflow及[接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)。真实113位传播全部226态与129248残差，保原noJ坐标/独立w,w2,E样本；两root停止配置交错base+十α，7200s仅独立child。整链超时已查，partial/error后同freshR273方向继续原64 32×10和终检；不冒新128J/audit/native接受。CPP1b59cd10/bridge3655c81a/probeba3564ca/requeste6703c76/workflowf94c9a85，唯一request push公开执行；无raw/静态回执入库。

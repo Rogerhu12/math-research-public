@@ -30,11 +30,13 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 107原raw已删，110从actual98 artifact14147700690真实重建新支线，不能由107 hash造场。尚未读回110任一完成批，不能填推测值。107正式为1/8接受：W43.363003729098274→43.33594286031892，最近1/4只LEFT464(query0已在31)RMS失败β²−.2683514415128212；新FD8.81884772255149e−10，col.007107481419519517、BC6.857449986338445e−9，success/newcoupled仍false。完整scope/SHAs见[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)。
 
-### 113：完整原始残差binary128（amplitude准备）
+### 113：完整原始残差binary128（已发布，运行待读）
 
-103已完整失败：[原结论](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)。run43681829913/source301d0b64/job132713895446，base/±ULP两个邻点均更坏，无selectedword；同freshJ完整R273成功（129248行/1153QR），仿射max约9.6856e−11，但原十档nonlinear全拒、末三档回基6.0618737006888706e−5；零接受、无finalJ/audit。parent临时cleanup PermissionError不是科学原因；不称普遍精度底线/无根。
+103已正式失败：[原结论](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)。run43681829913/source301d0b64/job132713895446，base/±ULP均未改善，同freshJ完整R273成功而原十档全拒、末三档回基6.0618737006888706e−5；零接受/no finalJ/audit，不称普遍精度底线。
 
-113草稿 `/tmp/native-primal113-source/`：GNU __float128真实113位，将同原binary64 geometry/tables/grid精确提升，root未知e=L−target、split RHS、全部226态RK、节点+αdelta、stageout−node、全部129248残差保持高精度。两配置原8e−14/5e−12和严格1e−28/5e−27按同α交错；先两base，再两份各十档，7200s显式实验预算，partial诚实保留，随后原64十档仍继续。使用同freshR273方向，旧64J仅近似方向，不能冒一致128J/最终audit。须导出actual profiles+cusp splitter真实子步数/hash，不用576×12猜。root已读初稿CPP1b59cd10/bridge3655c81a/probeba3564ca，等最终冻结及原公式对照。
+[113完整接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)已发布：CPP1b59cd10/bridge3655c81a/probeba3564ca/requeste6703c76/workflowf94c9a85；28源pin及actual91临时输入保持。root逐式读原root/split/RK/cellFlow/evaluate、完整新源/预算链。真实__float128113位覆盖e=L−target、226态RK、节点+αdelta及129248残差；原w/w2/E/角表/sigma精确提升，导出原noJ k/steps+cusp实际子步数/hash，不冒与withJ n*h逐位相同或精确连续ODE。
+
+两个root配置原8e−14/5e−12和1e−28/5e−27交错：先两base，再原十α。7200s仅独立128child，导出/额外64base/初J/R273另计，step320min/job350；partial/error后仍回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留。旧64J不冒一致128J；无新128接受或live锚。科学只公开Actions，raw临时，待实际run/读回。
 
 ### 114已完成，115扩独立控制（exact_refinement准备）
 
@@ -60,4 +62,4 @@ R277/R278/R279/R280/R281完整证明已登记，不再加证明审批或旧fixtu
 
 104普通清理已完成：run43682924785/source2cf540ca/job132717224569，commit2be1ad96删除8184已知可重算path/2641928364B，postpush8071files/168796207B；未知JSON未全分类，不称已清完全部第15条责任。[清理结论](notes/2026-11-15-rule15-request104-run43682924785-attempt1-metadata-cleanup.md)。无payload读、无历史重写。
 
-当前未推草稿只属113/geometry新工作，均无本地科学结果。完整早期open/log在检查点文件及Git历史。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。
+当前未推草稿只属115/geometry新工作，均无本地科学结果。完整早期open/log在检查点文件及Git历史。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。
