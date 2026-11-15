@@ -85,3 +85,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 ### 全深有源二jet已付，继续真实源域入口
 
 [R119 P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)已将D齐次结论延至完整root/graph/strict/positive particular；ordinary actual mixed图S_at1026→Gbody与物理C²常数全部付清。继续由实际producer/非线性源证明S_at及weak/metric两列的域成员，不能把fixed-t S2或原analytic224直接改名。完整mean/totalflux兼容、真实raw接缝和高度gauge不变。
+
+### 同97帽后验与方向Poisson消费已部署
+
+SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/compose消费真实完整native；原341/341/238 pins逐键不变。选取实际artifact child0/全部gates，数学成功后出版失败仍可消费；原>60KB过程整件留Actions，只有真正小摘要进正文。等全7908与boundary后先完整Wcap，再实际真Poisson的三HY；不重旧Gram/目标/试解。
