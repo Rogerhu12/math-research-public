@@ -118,6 +118,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)把R235下一两能量准确归约为Z=U−PV/Q。真实总体边界先由三矩消，再得微包S/T bulk；T平移≤9、伸缩0，未有固定符号。两互补同构block等幅给Mc=−4tZ、Ms=0，非零正幅/伸缩不能另调Mc。因此下一在完整三矩/第三参数族解UQ−PV=0、P≠0；不预设原R235已失败。
 
+[R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)已付上条Z标量：固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，完整真实UQ−PV的归一延拓以D0(ζ)为δ0值；N在(1/5,1/4)的简单根给一致解析IFT ζ(δ)，有限δ准确Z0且P>0/t非零。三矩/全部第三对每个参数本已准确，两个互补角同构block得真正不可分离、四能量同时0。下一完整h²σ4或整体ruling结构与全period/joint；不再重求已付四门，也不把有限δ IFT零误作同一旧目标gε。
+
 ## O1：双圆领相位机制，保留备选
 
 本题没有δE正下限。同轴双圆领可先行；若非轴对称环带与两端开圆领相接且度量旋转不变，相位可固定材料握持区而改变整像，允许如实δE=0。偏心/非平行端口另有完整端口门；帽材料刚体位移不是整体Hausdorff下界。R17只处理旋转参考的m≥2线性端口，m=1或非旋转参考须自己的完整方程。

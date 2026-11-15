@@ -284,3 +284,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R238：次层两能量准确归为同一标量Z
 
 [R238 完整归约](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)对已付三矩/完整第三的逐微包± block，令A=Gff=Ggg、X=Gfg、Y=Dfg，P=E(A,X)、Q=E(X,X)、U=E(A,Y)、V=E(X,Y)。领先双零旋转唯一确定sin2α=t=−P/Q，次层为Mc=−2tZ、Ms=cos2α Z，其中Z=U+tV。root与mechanism分别从D原式核二导与完整左边界；T bulk化为−∫x5W(3x²u″−5xu′+4u)(u‴)²/64，余W³W′边界0，T平移≤9且正伸缩不变。两互补同构block任意非零实幅给Mc=−2tZ(a1⁴+a2⁴)，所以不能再靠正幅或该缩放消Mc；准确新门为UQ−PV0。未判Z号，不排原R235实例或全部圆，继续新参数存在构造。
+
+
+## R239：完整三阶与例外四能量同时成立的不可分离新圆
+
+[R239 完整存在证明](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)在任意正活动I内构造真正有限宽度的C∞三矩圆，不能经GL2分离，且完整二三阶及Lc/Ls/Mc/Ms全部准确为0。固定偶χ与四节点a_i=c+δ(0,ζ,1,2)，八平移3jδ保持全部旧矩/第三槽；从完全局部S/T式换元，两个一阶宽度积分因奇性为0，真实八幅度及均值仍保。全部UQ−PV乘−δ29/(3K²B²c12)有一致解析延拓D0(ζ)+δR；N=2−9ζ−3ζ²+5ζ³−3ζ4在(1/5,1/4)有准确简单根，IFT给实际正δ而非只给极限零。P>0、t远离0/±1，双互补角与同构不交block保四门并给四射影方向。固定χ积分只作为准确常数，未运行求积/求根。新最终F另冻结新gε，旧F8/首g0和完整第四/joint没有继承；后续继续低层。
