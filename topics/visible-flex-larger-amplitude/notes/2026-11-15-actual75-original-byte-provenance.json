@@ -1,0 +1,73 @@
+{
+  "scope": "Original file bytes, JSON identities and integer shapes only; no local scientific arithmetic",
+  "run_id": 43660412919,
+  "job_id": 132648257063,
+  "source_commit": "3a0646db263f224acd347432967b93239faa836c",
+  "artifact_id": 14140061051,
+  "artifact_name": "visible-mainline-smallcoreresonance-43660412919-1",
+  "artifact_bytes": 229501,
+  "artifact_sha256": "8f3ec759580be25b39ba57ed3a1fc593b6862ff42d6eb3d136ef0990c2014c3e",
+  "root_full_zip_size_SHA_and_CRC_verified": true,
+  "original_files": [
+    {
+      "file": "exact-diagnostic-command.json",
+      "bytes": 1862,
+      "sha256": "55e28041081b3a2fb44716454caa06128842d5b6b3e1d516b92643cc443015f2"
+    },
+    {
+      "file": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "ee541fde9a248afbd8830a64030b6a2745d42e274f87520558ef2adc1bf0b202"
+    },
+    {
+      "file": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "request75-input-and-source-identity.json",
+      "bytes": 24908,
+      "sha256": "1bac3f1b267d54fbb38e798351312d976bc3f6d341527fa3405419d7d3f33029"
+    },
+    {
+      "file": "resonance/circle-reference.json.gz",
+      "bytes": 139251,
+      "sha256": "0ef37e4a328c733a70b7eee348f060c66927c96696ba70ad9c27b01598069a30"
+    },
+    {
+      "file": "resonance/complete-scalar-domain.json.gz",
+      "bytes": 72774,
+      "sha256": "4d03ac8856a21037da859f9a14d646a7b70681de352f3cec5491e6dc95b8f80e"
+    },
+    {
+      "file": "resonance/resonance-status.json",
+      "bytes": 18429,
+      "sha256": "665f1bd36a4a75eded331a4a9697c4ebaeaa411834365e405fe214c0439bd969"
+    },
+    {
+      "file": "small-core-resonance-readback.json",
+      "bytes": 17440,
+      "sha256": "89f212feb2d22a50571e841d2a2e1e24688ae70748358200753ee156a31f5def"
+    },
+    {
+      "file": "small-core-resonance.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "status_source_identity_and_saved_readback_match": true,
+  "circle_JSON_shape": [
+    699,
+    453
+  ],
+  "circle_JSON_original_decompressed_bytes": 3534137,
+  "circle_JSON_original_decompressed_sha256": "e251666b6a77702aaeda720cdf65184c2cf971aa81e5bdf582148822733809be",
+  "pre_JSON_binary64_bits_independently_preserved_claimed": false,
+  "scalar_original_decompressed_bytes": 389777,
+  "scalar_original_decompressed_sha256": "c087a53e65e206077a644921f72334290b8e1b15b4ab21f12b45c3be62aee73d",
+  "scalar_original_leaf_count": 444,
+  "scalar_status_fields_identical_to_original_certificate": true,
+  "original_source_identity_verified_file_count": 68,
+  "original_input_identity_count": 4,
+  "no_local_RHS_J_QR_norm_FD_or_interval_computation": true
+}
