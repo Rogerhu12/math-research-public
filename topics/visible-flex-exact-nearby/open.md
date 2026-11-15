@@ -312,7 +312,9 @@ actual fB∞连续H1859、统一<2^-54865000，像在H2相对紧。
 仍未授γ→tail的C1或H0-Lipschitz，也没有core selfmap。
 R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN源须保。
 [V真实core截面到physical γ](results/R133-supplement-physical-inner-curvature-data-from-true-moving-core-trace.md)
-已把该入口转成同一L截面h=v−v0的明确充分门：hH1≤1e−9/128、hH8193≤2^393000。
+原先给同一L截面h=v−v0的充分门。现[J完整shape/mean低转换](results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md)
+进一步证γA0≤||(h−j0μ)φ||2/16+|μ|/576≤||h||H1/15；低充分门改为hH1≤15e−9/128，
+高hH8193≤2^393000不变。J18明确同cut已知δZ和未知correction各列，均值不丢。
 相对Ĉ的真差给γA0≤hH1/2；(j^-1∂φ)^q全monomial一次one-high给物理高范数，
 不把moving97当physical有限谱。Cmean准确1/m；剩inner正是全B函数等式与该Cmean行。
 若以后真core+cap图在固定f的H3小球上连续且统一付这些trace门，C的紧far图可用Schauder闭合；
@@ -322,7 +324,7 @@ R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN
 近似state的a_r/a完整含<f2>/m。与同metric repaired reference比较保真实mean/rank，
 只用unknown C0与known两角导数、完整F/Fφ付E19–22 H1 cut公式。
 两侧必须同一连续state；真实jump须单独lift/边界form，不能拿任意L²端跳当ordinary源。
-实际系数和源/body数值尚未使E21≤1e−9/128；高8193窗口仍独立待付。
+实际系数和源/body数值须使E21/22达到J的新15e−9/128门（selected reference再付J18已知cut差）；高8193窗口仍待。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 

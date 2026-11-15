@@ -86,3 +86,7 @@ root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7
 读main ed4ce83df40f94bb51880401a0a228f2a0329311两README未变。root亲读execution20422f41645c2a4544bb8a0d79eddf771b45ff0386cc81b3ee97a32849586ef2/33131B、result e45666bae022c527ba46da82e72c547001f1cd25e676a3e7bcf6cd68188a130d/8711B及全报告；19门/child0/一子进程、.006179695s数学/.364547388s wall、24pins/6旧receipt/18coeff/31项全核。逐字比P仅raw1变化，20其余first+10mean/nonlocal完全同。q1 .00484865166239…，raw1 172273911175373.365…，first703957079676063.479…，combined703976779498563.761…；g两项现主导。scope继承的unchanged_amplitude宽泛label在报告明确限定，真正6新预算和3改善以表为准，成功SCI/回执不改不重跑。
 
 真实pull11:59:15.083168→d6096905两README空，容量该时197985390B/投影198027232B；预Gitstdout30308B/a4951d1d已记录。原临时native9103B/f205e4b7只哈希不持久化。root另亲读Green首processcbd0a557/16283B：12:00:23→0453ca70两README空，旧1886七门恢复，children空/无新预试断言，题当时198127072B。继续Green、g/y/q与Dδ；L2 q2=1无需额外merge数学。
+
+## 2026-11-15 12:07:34 UTC — 真实physical γ低门按shape/mean分离改善
+
+读main 505e87214fd4271a9fffe31099cdf85492070c50两README未变。J最终9008B/a23d28b4445a7c3a2391b28c8f6c50a785712d30568e30eafb92fb30f070ef7c。root从V原paid m0/j0/Cθ界逐式推出a=m0/m、tildev=av同normalized angle，k=a(h−j0μ)；reciprocal费<1/64、完整真实measure、Poincaré及a²给shape<1/16，mean≤1/576。tail独立逐核J12/J14–17与same-cut δZ通过。主范数关系改≤以涵零h，常数严格比较不变。γA0≤hH1/15使低充分门15e−9/128；当前actual core trace未冒已付，H8193及全B/Cmean/参数仍待。纯解析，无新数值运行。
