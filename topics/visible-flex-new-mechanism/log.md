@@ -434,3 +434,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:02:22 UTC｜R399新内部第二通道与两种分别的实际增强
 
 [R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)，14403B/hashae70234ae53bfac189c49c292ebe9aaeb9b476caa5ecf48fccc76376261aaa2a；根全文核，qY二阶jet符号与右锚分开。完整c相消、自伴Au0、raw部分积分、真实suffix、ε·ρ⁷与block星号成本均保；无重算旧rank，无无范围Λ引理扩张。立刻推此结论并继续其余内部门；基底98bf8b528b3423c3b2a5d526113cb79b3b6fb15c。
+
+
+## 2026-11-15 23:04:11 UTC｜R400把完整自然权零关口缩至三个原F0函数
+
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)，10930B/hashba3260a5d05fe202fdf09d9eff565075f6afc307da2655ff06960378e0750b8d。根全文核及R333/196原直和、两个kernel代表、normal赋值、严格action核对；全权→零权使用完整函数核而非两固定profiles。顺手纠正R333(6)状态键标题的ω/logh倒置，依据R196§4，原两根/项/系数不改不重算。继续具体F0原密度；基底fbd718f292ad3931092665ae6f9e9223b5f53fa8。

@@ -49,7 +49,7 @@ U_0=\mathcal R_0\oplus
 \]
 \(C_i\) 是 R196 的八矩归一化 \(F_0\) 原系数，采用原 normal index：
 \[
-C_4:\ (h,k,\log h,\omega)\text{ 指数 }(0,4,0,0),
+C_4:\ (h,k,\omega,\log h)\text{ 指数 }(0,4,0,0),
 \qquad
 C_6:\ (1,1,1,0).
 \tag{6}

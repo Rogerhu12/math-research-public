@@ -309,3 +309,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R399｜全E/全自然核中的新四维双period内部响应
 
 [R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)（14403B；SHA256 ae70234ae53bfac189c49c292ebe9aaeb9b476caa5ecf48fccc76376261aaa2a）。τ*=64(χ34−3χ32)−𝔍/2的完整a=2p²、b=−4r²−2pt、c0，𝔄自伴/𝔄u0给全部自然0；原partial=2p²(pw″−rw′)。负布局倒二微包真实n=2RTμ_last非零，十二实际副本C像ε·ρ⁷Pol≤3，≤4点与旧≤11 Hd组成全核独立像。保prototype、平台、清A与后校正全部成本，可实际(F,A,Hd,C)；另wholeE截面付这些≤4点双period逆germ，不能拼成wholeE+A。原余内部点/全Λ/十三行仍欠。纯纸证，无新执行。
+
+
+## R400｜全自然joint权零商与原正字符的三静态函数判据
+
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)（10930B；SHA256 ba3260a5d05fe202fdf09d9eff565075f6afc307da2655ff06960378e0750b8d）。沿原R196/R316/R333真U0=R0⊕span(C2,C4,C6)，完整自然Λ杀R，增强零权商恰span(n2,n4,n6)。利用全函数核真仿射稳定，ker(E,Λall)内λ+=1存在iff n2∈span(n4,n6)；若否，则原λ+下降且实际L+∫(h′/h)²>0成为严格联合阻断。未判这两个分支；H*不是正常H，不能删原F0/N0/Γ/尾。根核R196原状态表并将R333(6)元组标头次序改回(h,k,ω,logh)，C6为hkω，原列身份/系数/已付研究未变。无新执行。

@@ -162,9 +162,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
 
 
-R395旧十一K已付wholeE/Λall0和独立内部通量；其实际增强与新第二通道合并见下R399，旧Vandermonde不重做。
-
-
 ### R393完整Q4自然像已闭，低层仍是实际联合商关键
 
 [R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整函数像9维，−4/−2两个平移字符头在Q4四次速度上有准确非负平方action。旧E负权等像不能消去新增自然读出；Q4无零权也不授全Λ无零权。下一继续R130十四族中F0/三Q2的完整forcing/N0/N2/Γ/水平势，检验头能否延拓及低速项是否破坏非负；不重算已闭Q4/旧秩。
@@ -180,9 +177,9 @@ R395旧十一K已付wholeE/Λall0和独立内部通量；其实际增强与新�
 [R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)raw Hd含真实平台差，实际(P_LE,A,Hd)可指定，qE仍付原三项。全E0下C=RiHe+TiHd仅看真实ordered suffix三矩，K轨道准确盲；完整8-copy块首/末微包suffix0。另沿R345可实际wholeE0并同时清≤11对应首包d/e门，但不保双A，不能与另一实际截面拼接。一般点保𝔞_i(x;n_i)，继续其全响应像、Λall、全部内部点及13同规范。
 
 
-### R398低层不能整层消失，继续具体原密度
+### R400原正字符与全自然joint：三个静态函数是当前具体门
 
-[R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)从R393−2头与原R188定理严格推出F0/三个Q2不能同时对全部state自然零；反证保全U跨度、真实仿射、ΓM、平端势与M=T0实际action。仍需具体原L0/L2/N0/N2/Γ水平正规式；低层可能扩大像阻止头延拓，或留九维但改变全action。未授Λ(U0)或joint，不重做Q4/旧字符排除。
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)完整权零joint响应商=span{n2,n4,n6}，ni=Λall(Ci)。原H*/J4/J6来自F0加R，不能用正常H全零覆盖。全函数核仿射稳定；存在ker(E,Λall)内λ+=1 iff n2∈span(n4,n6)，反之原严格正action下降并阻wholeE/全Λ同零。两分支未定，下一保原N0/Γ/真尾求三个固定F0收缩，仍不删Q2；R398已排F0/Q2全层同时自然零。C6按R196为hkω，原R333键标题已校正，无新根/秩执行。
 
 
 ### 已付m7接口：十六人工复用，修复原epoch定义
