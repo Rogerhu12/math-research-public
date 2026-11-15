@@ -617,6 +617,72 @@ def log_time(text):
     return dt.datetime.fromisoformat(text.replace("Z", "+00:00"))
 
 
+
+def reference_pool_log_directory(data):
+    """Read all already-completed JSON records; output paths/hashes, never arrays."""
+    wanted = {
+        "row_indices", "added_row_indices", "active_original_rows",
+        "reference_height_exact", "reference_exact", "reference_state",
+        "reference_physical_state", "reference_identity",
+        "independent_coordinate_definition", "coordinate_definition",
+        "exact_binary64_physical_coefficients", "physical_parameter_coefficients_binary64",
+        "exact_original_physical_coefficients", "exact_binary64_independent_coordinates",
+        "initial_state", "final_state", "height_null_coordinates",
+        "coarse_pool", "fine_pool", "reference_physical_sha256",
+        "reference_evaluation_state", "original_row_ids",
+        "coarse_row_ids", "fine_row_ids"}
+    result = []
+    def visit(value, path, found):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                here = path + "." + key
+                if key in wanted:
+                    row = {"path": here, "shape": shape(item, 0), **fingerprint(item)}
+                    if isinstance(item, str) and SHA256.fullmatch(item):
+                        row["identity_sha256_value"] = item
+                    found.append(row)
+                if isinstance(item, (dict, list)):
+                    visit(item, here, found)
+        elif isinstance(value, list):
+            for index, item in enumerate(value):
+                if isinstance(item, (dict, list)):
+                    visit(item, path+"["+str(index)+"]", found)
+    parsed_count = 0
+    lexical_counts = {key: 0 for key in sorted(wanted)}
+    unparsed_candidate_lines = []
+    for number, raw in enumerate(io.BytesIO(data), 1):
+        line = ANSI.sub("", raw.decode("utf-8").rstrip("\r\n")).lstrip("\ufeff")
+        match = TIME_PREFIX.match(line)
+        body = match.group(2) if match else line
+        tokens = [key for key in wanted if '"'+key+'"' in body]
+        for key in tokens:
+            lexical_counts[key] += 1
+        if "{" not in body:
+            continue
+        start = body.index("{")
+        try:
+            obj, end = json.JSONDecoder(object_pairs_hook=no_duplicates).raw_decode(body[start:])
+        except (ValueError, ObservationError):
+            if tokens:
+                unparsed_candidate_lines.append({"original_line": number, "key_names": sorted(tokens),
+                    "line_bytes": len(raw), "line_sha256": digest(raw)})
+            continue
+        if not isinstance(obj, dict):
+            continue
+        parsed_count += 1
+        found = []
+        visit(obj, "$", found)
+        if not found:
+            continue
+        result.append({"original_line": number, "timestamp": match.group(1) if match else None,
+            "prefix": body[:start].strip()[:120], "payload_sha256": digest(body[start:start+end].encode("utf-8")),
+            "top_fields": sorted(obj), "locations": found})
+    return {"parsed_object_records": parsed_count, "lexical_key_line_counts": lexical_counts,
+            "records_with_exact_state_reference_or_pool_locations": result,
+            "unparsed_candidate_lines_metadata_only": unparsed_candidate_lines,
+            "no_numeric_values_reprinted": True, "no_reconstruction_or_science_executed": True}
+
+
 def parse_log(data, job):
     reports, native_actual, model_records, pull_records = [], [], [], []
     human_lines, publisher_lines = [], []
@@ -804,7 +870,8 @@ def run(args, context):
         "previous_full_development_readback_run": 43732214112,
         "original_report_fingerprint": fingerprint(dev["report"]),
         "no_check_reexecuted": True}
-    actual_semantic = actual_view(real, preview_actual)
+    actual_semantic = {key: real.get(key) for key in ('schema','status','phase','github_sha','github_run_id')}
+    context['all_record_reference_pool_directory'] = reference_pool_log_directory(log)
     context["complete_report_count_for_schema"] = 2
     context["original_actual_pull_records"] = compact_records(
         pulls + [{"from_report": which, **item} for which, obj in
@@ -817,30 +884,7 @@ def run(args, context):
             "BOM-normalized original native records must contain all six models")
     context["native_model_five_recovered_by_removing_only_leading_UTF8_BOM"] = True
     context["original_trials_and_failure_gates_already_read_in_run"] = 43734816216
-    native_directory = []
-    for row in models:
-        model = row["model"]
-        trials = []
-        for i, trial in enumerate(model.get("trials", [])):
-            trials.append({
-                "trial": i, "kind": trial.get("kind"),
-                "accepted_as_next_iterate": trial.get("accepted_as_next_iterate"),
-                "accepted_index": trial.get("accepted_index"),
-                "physical_state_sha256": trial.get("physical_state_sha256"),
-                "exact_independent_coordinates": {
-                    "shape": shape(trial.get("exact_binary64_independent_coordinates"), 0),
-                    **fingerprint(trial.get("exact_binary64_independent_coordinates"))},
-                "exact_physical_coefficients": {
-                    "shape": shape(trial.get("exact_original_physical_coefficients"), 0),
-                    **fingerprint(trial.get("exact_original_physical_coefficients"))},
-                "field_names": sorted(trial)})
-        native_directory.append({
-            "original_line": row["original_line"], "timestamp": row["timestamp"],
-            "model": model.get("number"), "payload_sha256": row["payload_sha256"],
-            "field_names": sorted(model), "linear_program_directory": shape(model.get("linear_program"), 1),
-            "trials": trials, "scale_feedback_update": small_scalars(model.get("scale_feedback_update")),
-            "SOC_hold_model_binding": model.get("SOC_hold_model_binding")})
-    context["native_checkpoint_directory_no_coefficient_values"] = native_directory
+    context["native_checkpoint_directory_previously_read_in_run"] = 43737522602
     context["old_human_tables_and_publisher_log_not_reprinted"] = {
         "human_line_count": len(human), "publisher_line_count": len(publisher),
         "previous_readback_run": 43732702362}
