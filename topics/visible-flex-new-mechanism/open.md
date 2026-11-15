@@ -95,6 +95,10 @@ R354的全偶反射/正ω桥及R357–360真实母、primitive/Green/有序尾�
 
 ### 自然总通量当前前沿：H主商恰12，十三读出实际可控
 
+## H 层完整性待核
+
+[立即边界](notes/H-layer-completeness-review-20261115.md)：R358/362/365/371对完整H的认定与特定实际13控制暂停引用，R374不发布。原−Y_n中λP(Y,n_acc)+γB(Y,n_acc)/h²须回R56/R73/R109核是否已入正规势；未核前不宣布遗漏或新curl。R370已显式用完整−Ψ(u,n)、R350平方项、R367 Green不自动受否定。以下旧H结论保为历史记录，当前受本段暂挂；优先完成原式复核。
+
 R344/352保完整ordered2+2三矩尾定义自然Λ∈(U/R)*，杀R且N协变；R350三个Abar在每个实际状态Λ0。R356真−9/−8全消但不授U层=R；R358真Hγ−7准确−∫r5/57600。R362完整H2三导平方及同锚C²余项给真−6非零，借已付R207消pure得Ω非零，不重旧秩。
 
 [R365](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)已完成全状态Dγ/Dδ、真三矩affine输运，保γ式−dDδ；[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)的全principal为±h^-8∫p(hx+d){L或r}Et²/480，p=z(1+z²)²。六真实平移及任意二阶jet的C²小振荡证明模C²恰12；原真−7非零C²元素属于H像，故完整H像≥13而非恰13。有限求值引理选13固定同窗同锚profile，actual H上满秩。

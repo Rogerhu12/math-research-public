@@ -514,3 +514,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R376：完整交叉角商与十五行正锥支付ZY0/WY1
 
 [R376-cubic-cross-identities-and-fifteen-target-cone-pay-ZY0-and-WY1.md](results/R376-cubic-cross-identities-and-fifteen-target-cone-pay-ZY0-and-WY1.md)。原B=∫(vrY″+r²Y′/2)保primitive和nonlegal μ1μ2，legal后等(SRY1−SSY1)/2；原FP2/FW1/FZ0完整变分给KWY1=−3SWY1/2，KZY0由SPY2/SWY1/SZY0全清。15主行的六weighted grades独立，真实copy偶平移平均在x次数≤10三角可逆；15有限正二jet/Hermite母与同Fnew最大minor给15χ，180实际交替列有严格正核，有限N十五根共同付完整ZY/WY并保旧13目标和18面积/T/Ψ/三F。余ZZ2和YY0，YY角商另由R377补R349已消、实际值未入本根。根全文、B/原self组合、graded逐列、R280§6–7母与布局无循环及真实正kernel范围核通过；无新执行。
+
+## H 层完整性待核（2026-11-15）
+
+[复核边界](notes/H-layer-completeness-review-20261115.md)：完整−Y_n恢复项的λP(Y,n_acc)+γB(Y,n_acc)/h²与R358/R365显示式待逐项核归属。R358/362/365/371的特定完整H、维12/≥13和相应实际13控制暂挂；R374未发布。不得以本问题自动否定显式保完整Ψ的R370、R350平方项或R367 Green。此条是问题登记，不是新数学结论。
