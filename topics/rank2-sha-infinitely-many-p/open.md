@@ -182,3 +182,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原四输入反射/保x边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：已证明同一原六输入的四个单反射与分别偶来源h+=hW+e0/2，完整四变量K多项式和whole S4锚给全部独立深度矩形。保x的三变量边界准确ω²νσ⊗[1/2]νσ⁴⊗νσ/84；原q/Y/W仍依被忘输入，全部权和单位门必须完整转置。三个CD/O域与移动W_j观察均明确，未添原中央零。
 
 续将真实三CD/O域与W_j转置逐项联立；未加权三变量边界只适用因子化测试，原最终q*、Yunit/log与被忘坐标耦合，不能以边界替代完整六变量积分。
+
+### R762：已付穿过原S的实际非零中央横向方向
+
+[R762](results/R762-original-through-s-cayley-family-and-nonzero-central-tangent.md) 由原σ⊗H33和完整Cayley族给∂uM(0,s)=d_p s𝕀_DS(s)；unit/质量不变，R761使∂uJ(0)≠0。若原J′S=0，它只是该来源族内的simple u-zero。完整positive/higher jets和p依赖深度门保；actual deep切向与冻结原ordinary eigline相差(β−λκ)zDS(κz)≠0。继续真正同一全局表示/全local-vector/period的fixed-Lp实现，或其他原中央路径；同范数、附近来源非零与p依赖小u均不能替代主目标。
