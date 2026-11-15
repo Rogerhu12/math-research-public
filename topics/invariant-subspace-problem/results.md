@@ -194,3 +194,6 @@
 
 
 - [R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)：X7→X3真修正使原Neumann列与N⊥规范形式读数相差≤B_s e^(−39u⁴)||f||，保同G0/原forcing和稳定范围，不假形式h全局L²。
+
+
+- [R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625](results/R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625.md)：完整原六阶15头，零头纤维给零点第一4/第二0；55/48、K101和最大Smith7…18。全部6188原来源真核，九平方至λ6全零；在∞91/88/88下条件来源费8625，原成员性仍为前提。

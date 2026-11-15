@@ -147,3 +147,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 ### 同一原有限Neumann列的规范forcing已付
 
 [正则一次修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)用既有G7→3而非只输出H的右逆，保持原G0并付全部carry的X7范数≤B_s e^(−40u⁴)。G_reg输出X3，故与有限J的差在M∩X3⊂N；原f∈N⊥（含W）的形式读数准确为Πh=G_reg*f，且与原G0*f之差≤B_s e^(−39u⁴)||f||。这给同一Neumann列可用的forcing身份；原PEhat、零源Schur及共同通量仍须真实处理，不能删去投影或任意乘无速率尾。
+
+
+### 零点完整第六与K101（已执行）
+
+[完整第六证明](results/R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625.md)保所有4347非pure校正和第五Q歧义；顶/中/低全核维10/9/15，leading5，五条原6188乘回均真。零头纤维15−5=10严格给第一rank4，配旧累计界得第二rank0；共15条left6给零点55/48、K101。原模31上界66/55给最大正Smith指数7…18，模s18判准仍须先付函数域像。当前∞91/88/88下q8426…8578、条件8625/目标209；后续∞改进另按同公式更新。全部λ0…6九平方零配对不代成员性。第七只从真8957×5 cochain接续、保全部齐次核。
