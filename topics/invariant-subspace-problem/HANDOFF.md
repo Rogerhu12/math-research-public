@@ -32,6 +32,8 @@
 - 累计step49首600实际到653完整digits/18938bits、16重建未成，非数学失败；binding2cd043a0…，p536870923。slot0=185877697B/ff745877…，inverse74580576B/29a660c2…，input9919512B/02a794f5…；raw5420B/ec62ce00…，全整digit除法真、77724单位产品尚未完成。累计step50同源码/out续1200秒/4GiB --through final，复用inverse/653位及所有完整阶段；先真单位解再全4354回填、2缺二阶/4缺三阶/joint24/21与29×81完整第四秩，未预填结果。
 - 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
 
+- 累计step51负六原投影入口73c11b1d…已审排60秒/1GiB：真224×155、170原行+54个g倍行，保918原one-normal及5100高行；只除η_i的局部单位，不除g。0…4阶完整unit-Schur实算；仅δP实达原全长上界12才闭九目标局部像，尚未报结果。
+
 ## 原同w边界：完整负部仍开
 
 M=kerT、N=closure BM、W=M⊖N，普通N=M未证。所有变换保同w、真正u_Q、future、负前缀、完整零核及固定层MP自然域；不能将bare α代ordinary λ或把局部伴随界代正向返回。
