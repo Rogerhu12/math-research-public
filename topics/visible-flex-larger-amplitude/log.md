@@ -157,3 +157,7 @@ run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c/compute13274438734
 ## 2026-11-15 08:06:49 UTC /root — 发布118仅新增真实MID471的32查询批次
 
 [完整接口](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)15286B/6369e047、六Python/两JSON/workflow已读全部新差异及生命周期；root核十件最终字节/AST与75个缓存原源身份。唯一变化32=20LEFT+12MID，capture/local8453/C4059/outside和完整模型/17trial/原FD/预算不变。首父真实98原31 pair，后续本job真实32 pair，不使用已删除110末场。worker336fc522/request1a446102/workflow96eeef3b独立公开触发，8批175/185min，无新raw持久件，无实际118结果先填。额外git show触发旧promisor读取后已中断，改用既有缓存原字节核对；未执行科学。
+
+## 2026-11-15 08:08:59 UTC /root — 118实际公开批次启动
+
+run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC创建。实际API确认已完成源/输入接线并进入原8批science，未先报数值。只用本仓Actions；root继续119六控制真实批次和非零112源。

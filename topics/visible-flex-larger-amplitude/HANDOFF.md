@@ -48,7 +48,7 @@ root接119：由真实117六末p做最多8个独立原8方向批次，各radius=
 
 [110实际](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)run43685348016/source8d4a3af1/job132724561759：8真实model+原FD全接受，显式8批停止，native/fullDN/success全false。各模型W不能跨行减；末alpha1/2048，后七批最近拒绝均为未选原midpoint471，末最近拒beta²−3.8894462797367524e−5。末physical .007107378585750384/BC6.276408182782244e−9；FD1.0788333791801373e−9。
 
-末warm c02da9e1/status90bfb02a已清理，不从hash恢复。[118完整配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)现已发布：32=20LEFT+12MID，只加真实MID471，capture/local8453/C4059/outside不变；从可恢复actual98原31 pair另起，随后传本job真实32 pair。75+worker源pins，worker336fc522/recipef5c0e2e6/request1a446102/workflow96eeef3b；8模型各fresh FD，λ270/全17trial/原预算，step175/job185min，无raw上传/新native门。待读取实际run。
+末warm c02da9e1/status90bfb02a已清理，不从hash恢复。[118完整配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)现已发布：32=20LEFT+12MID，只加真实MID471，capture/local8453/C4059/outside不变；从可恢复actual98原31 pair另起，随后传本job真实32 pair。75+worker源pins，worker336fc522/recipef5c0e2e6/request1a446102/workflow96eeef3b；8模型各fresh FD，λ270/全17trial/原预算，step175/job185min，无raw上传/新native门。实际run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC启动，已进入原8批science；尚无结果。
 
 ## 几何及接受场之后
 
