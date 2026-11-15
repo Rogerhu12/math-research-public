@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：224b0fcbd858c67ee907c2fc529cc6ebcd6bdb9c；2026-11-15 17:30:33 UTC核两README无变。实际CI pull 2026-11-15 17:17:31 UTC/215f89a0359c0d7df3af6b157592420f890f2f33（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:30:32 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
+- 最近已读规则提交：4228ecaeff6564c3dfe674224215357b0428b253；2026-11-15 17:33:26 UTC核两README无变。实际CI pull 2026-11-15 17:17:31 UTC/215f89a0359c0d7df3af6b157592420f890f2f33（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:33:25 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 
@@ -12,7 +12,7 @@
 
 ## 检查点、完整归档和分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r801.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[压缩前全文](notes/2026-11-15-frontier-before-r801.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md；[本次完整索引](notes/2026-11-15-results-index-before-r804.md)保此前全部条目。
 R1–363、365–560、562–653、655–711、713–803已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
 root唯一metadata/ref写者。root续更高b/原指定配对；deep续变动b目标p接触与原normal；theta续原负二算术连接/临界权；literature续R804零W缺陷的完整CM余域。
 固定E17及j0 E17/E24/E2312秩2已付；尚缺无穷不同p至少一条固定原J′非零。条件负矩、邻近来源、外部非零和有限p均非完成。
