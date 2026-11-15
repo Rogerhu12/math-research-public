@@ -461,3 +461,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R289：全部偶主空间的准确最大秩与真实十二包正锥
 
 [R289 完整证明](results/R289-universal-even-principal-space-and-positive-real-packet-cones.md)以原四α的三自由jet表示证明30外矩符号独立，S主从属/T新增，even普遍核只uv/pv；通常rank30、明确唯一正κ²例外rank29。正解析母包有限jet插值与原F真minor可同时实现最大空间，每χ原12交替包的Lagrange正核给全位置span正锥。只付主系统，完整基线/例外兼容与其他角C²门仍须原式处理，非32全量或主课题完成。literature全文独核通过。
+
+
+## R291：正 Gaussian 平方第二外矩是已付能量的完整身份
+
+[R291 完整证明](results/R291-exact-positive-Gaussian-square-moment-is-the-leading-energy.md)由原Y=Φp2=−2G与F_Y,2(u)=0，在whole w=YD真正紧的方向微分，保Yuu真实左尾，得到Q112=−ζ²I2(Yff,YD)=16ζ²(sin²θLc+sin2θLs)。所以R289的S主关系没有另一个C²兼容门；当前Lc/Ls已付即全角付此I2。仅这一外矩，不删E1²的I0/I1或其他乘积。root全文核原能量边项/4×4规范，literature独核通过。

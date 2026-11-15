@@ -153,7 +153,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### R285/289：全部主空间已经查明，继续完整兼容和全角
 
-[R289](results/R289-universal-even-principal-space-and-positive-real-packet-cones.md)在R285真实C²余项分解上，给32必要量普遍主rank通常30、唯一正κ²例外29；可从最初在同一正解析最大F母包与有限χ实现，每χ原12交替包插值正核给全位置span正锥。R286的even vρ关系已是完整恒等；E1²j2−16ζ²Lc完整差、例外uv关系及其他角C²项仍须原式处理。不能只解主投影就宣32全量/全θ/whole第四。
+[R289](results/R289-universal-even-principal-space-and-positive-real-packet-cones.md)在R285真实C²余项分解上，给32必要量普遍主rank通常30、唯一正κ²例外29；可从最初在同一正解析最大F母包与有限χ实现，每χ原12交替包插值正核给全位置span正锥。R286的even vρ关系已是完整恒等；[R291](results/R291-exact-positive-Gaussian-square-moment-is-the-leading-energy.md)现证Q112=16ζ²(sin²θLc+sin2θLs)，此完整差已付；例外uv及其他角C²项仍欠。不能只解主投影就宣32全量/全θ/whole第四。
 
 ### R283/288：当前紧微包一次端层已付，接平台与通量
 

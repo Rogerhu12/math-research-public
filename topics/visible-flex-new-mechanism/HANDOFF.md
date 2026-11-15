@@ -47,7 +47,7 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R283/288当前紧微包的canonical一次端层已全付**：原真实平台齐次式给cross一次层¼hρ(Rf′−Rxf)减真实s端势，闭周期后三个hρ权矩；whole pure0才消对称三次加权历史。R288原R56证明i≠j的C(ui;uj²)整体局域outer包：Zj仿射分子常导数与紧Vi端差使P左尾0，B/η/W原canonical随之外零。各diagonal可有真尾，但actual universal pure在其解析左端逐个付三历史矩；同尾延续整个左域。故当前真实profile不交圆的所有内部Q_e=P_e[Wfc]均0，两mixed目标一次指数全消。平台P″、端flux、内部Laurent/全period/joint仍欠；不推广仅导数分包step或任意第三初值。
 
-**R289全部主空间/正锥**：30个x^jαrαs自由jet符号独立，S主在其中、T新增1；even普遍核只uv和vρ。通常32必要量最大主rank30，2295t³+467t²+86t−8=0的唯一正t=κ²例外rank29。一个新正解析最大F母包及≤30形状可达到；每χ原12交替包用插值正核给全位置span正锥。完整E1²j2−16ζ²Lc差、例外关系与其他角C²项须另付，非32全量或whole第四。
+**R289全部主空间/正锥**：30个x^jαrαs自由jet符号独立，S主在其中、T新增1；even普遍核只uv和vρ。通常32必要量最大主rank30，2295t³+467t²+86t−8=0的唯一正t=κ²例外rank29。一个新正解析最大F母包及≤30形状可达到；每χ原12交替包用插值正核给全位置span正锥。R291已用原cubic Fp2,2=0及whole w=YD真紧证明Q112=16ζ²(sin²θLc+sin2θLs)，该差完整为零；仅此I2，例外uv和其他角C²仍欠，非全fourth。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -57,4 +57,4 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main e25d30d904162e12c8bf36ee4e9dae3d77445cc0，双README blob同。R289本地patch未确认落盘，已终止等待，完整小UTF8原稿另存发布。
+断连API复核main 067d502f8656876e43baf76c4bb20d795ee2d69d，双README blob同。R289本地patch未确认落盘，已终止等待，完整小UTF8原稿另存发布。
