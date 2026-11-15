@@ -59,9 +59,9 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
-指定点consumer已全文读及新人工通过，[设计与准确oracle边界](notes/character-minus2-explicit-static-positive-candidate-and-rational-oracle-design-20261115.md)公开。本提交single character_minus2_static_positive_candidate仅核四件绑定输入、唯一点及已付SOS的完整系数适用性；实际不求根/LP/RREF/积分，不宣真实泛函。
+[指定点实际](notes/character-minus2-static-positive-candidate-actual-20261115.md)43669803169已完整：68行全满足（64严格正，64–67四奇偶零），全部107值、14族与同μ/c/d准确符合R172/R173。无LP/RREF/求根/积分，完整系数正证适用。此点不再追加路径门；继续107normal+40R原关系及真实头部良定义性。
 
-**[R173](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md)已给明确全action严格正的外坐标点**：仅free12改−1/2，静态a=(k²+2)(k²−1/2)²+k²/4≥1/16，R172两层均不动，同μ固定。下一lit只核该指定点的68行/全部14族/μ/c/d，当前不调用cubic oracle或继续路径搜索；tail原147列关系判断其真实性。全部标量action正不证明U上真实泛函，非零字面余式也不证明原独立。
+**[R173](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md)已给明确全action严格正的外坐标点**：仅free12改−1/2，静态a=(k²+2)(k²−1/2)²+k²/4≥1/16，R172两层均不动，同μ固定。指定点68/14/μ核对现已由43669803169完成；不调用cubic oracle或继续路径搜索，tail原147列关系判断真实性。全部标量action正不证明U上真实泛函，非零字面余式也不证明原独立。
 
 [R172](results/R172-exact-highest-and-quadratic-certificates-for-the-updated-outer-point.md)已准确证明当前新点的完整最高action全路径非负、修正二次层逐点正定。若后继保这两个修正层且静态全非负，则所有路径条件均无法切掉那个点，须判断真实原函数关系/头部泛函良定义性。tail推进107normal+40R已存双mode原列的准确字面关系，lit推进当前静态多项式解析分离；不把外点当真字符，也不重跑最高层负路径搜索。
 

@@ -4,9 +4,9 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`2ec5ff86dfa70997e67765a4d16fcb84de9782bf`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`dea7592270e23d6b3ef29087271cdf47b35ec003`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 02:05:27 UTC实际pull至`3857c5fe74032419aca31773a2e6cd1c67b2c796`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0205.json。下一私有pull不晚03:05 UTC。
+私有2026-11-15 02:53:29 UTC实际pull至`6439d29b875126d271b8dee9a6907dfcca85e5cc`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0253.json。下一私有pull不晚03:53 UTC。
 
 研究几何、积分/ODE、优化、完整符号计算仅本公开GitHub Actions；本地仅纸面代数、源码/已发输出解析及小人工开发。不伪造Actions。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止冻结、复核、重复归档/重跑机械门；完整证明直接登记。H<10KB/MD<100KB/open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage，不git add .，不写根LOG。
 
@@ -32,7 +32,7 @@ R105共同有限真实U/R；R109仅整条M0时完整V≡∫L modR，L=v−B_mN�
 
 R127非零正障碍取N*λ0单整权，R145真k/ω反号迫偶权。R137全最高正⇒A逐态PSD；整A零点才迫H零，A恒零才迫Q4点态正。R140正性iff同一八矩μ下全部开平端∫(λL−μm)≥0；时长门A≥0,C4≥0,B+2√AC4≥0，不单判B正。权−2 A由R141四参数PSD，不先令J6/c0零。R148固定k sharp、R152/R155完整最高Sturm、R158秩一null路径已付，保H/Q4/真实ω。
 
-已成不重算：R149 G至N8九维商，N9G=−5670B_r0W19；R≥228、lineality/query237。R133整m8 ΠU=ΠR=T31/偶15、四块m8period0。R151 Jpure九基/31原依赖，R157 D0pure九基402项零，R160 J6pure六基；R159 pure+balanced忠实。3974原因子与314条A/H完整数据已由新head统一消费，不编旧forcing/W/N/NF/profile/孤立下一列。
+已成不重算：R149 G至N8九维商，N9G=−5670B_r0W19；R≥228、lineality/query237。R133整m8 ΠU=ΠR=T31/偶15、四块m8period0。R151/R157/R160原pure身份全部结案，R159两mode忠实；3974原因子与314条A/H已由完整head统一消费，不编旧forcing/W/N/NF/profile或孤立下一列。
 
 R120/R122有限真实控制保prototype/桥/基准但未付U。R84真倒行成本同号；span/闭锥不授实际负成本。R156输入相位仅α∈πZ保U/锥，mixed荷0不消。R93/R97同驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L不可拆。
 
@@ -52,6 +52,6 @@ finite43665971895/source05bb659b完整：107坐标、124外等式秩84/23旧自�
 
 R169真实k=Kh^p给A(p)=b+cp+dp²及显式四次Ω(p)全实p非负必要门；有限flat sharp inf X/Y=(2p−2)²/9，有限K再time付负全action。真实Gram曲线ζ的二次值即Ω，不授任意Gram负向。R170固定κ完整0/2/4充要A,D,C≥0且B+2√C(4√A/3+√D)≥0；A=a+bκ²,D=ℓ+mκ²+25A/9,B=b2(κ),C=a_static(κ)。全正有理t,s行等价；含所有临界端点，非一般vary-k结论。
 
-R172新点最高十数(1,1,−1,1,−1,−1,1,−1,1,1)有θ=η=−1的四正平方Gram，Q2另两正平方。**R173显式改旧free12/normal73为−1/2**，其余不动：仅五normal0/1/9/10/73改，完整14族中只F0 0/2改；a_static=(k²+2)(k²−1/2)²+k²/4≥1/16，同μ=(0,1,2,0,0,0,0,4)，全action≥∫h^-2/16>0。纸证已成，指定点consumer35719B/644b2897及新7人工已成，本提交single character_minus2_static_positive_candidate派发：只核68行/全14/μ，实际不调用oracle/LP/RREF；不再为此点求根/负路径。是否真实泛函未付，必须判原关系。tail以已存107normal+40R双mode原列作新字面Q关系，lit仅验证这个指定点；都仅Actions做实际研究，非零字面余式不授独立性。
+R172新点最高十数(1,1,−1,1,−1,−1,1,−1,1,1)有θ=η=−1的四正平方Gram，Q2另两正平方。**R173显式改旧free12/normal73为−1/2**，其余不动：仅五normal0/1/9/10/73改，完整14族中只F0 0/2改；a_static=(k²+2)(k²−1/2)²+k²/4≥1/16，同μ=(0,1,2,0,0,0,0,4)，全action≥∫h^-2/16>0。纸证已成，指定点actual43669803169/source7d296314完整：68全过（64严格正、4奇偶零），107值/14族/μ全匹配；.00769s/RSS25.430，cert9305B/b5b3dacf（raw34719/fdc79bfb），详notes/character-minus2-static-positive-candidate-actual-20261115.md；不再为此点求根/负路径。是否真实泛函未付，必须判原关系。tail以已存107normal+40R双mode原列作新字面Q关系，lit仅验证这个指定点；都仅Actions做实际研究，非零字面余式不授独立性。
 
 完整函数P0/ruling、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度仍欠。R98已结束正states universal P1，不重扫；特殊profile或固定N完整P0+NP1未排。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。预算只结束该次计算，主课题继续open。

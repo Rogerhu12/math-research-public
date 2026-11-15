@@ -375,3 +375,5 @@
 - [R172：新外点最高层与二次层的精确正证书](results/R172-exact-highest-and-quadratic-certificates-for-the-updated-outer-point.md) — 最高十数(1,1,−1,1,−1,−1,1,−1,1,1)在R167取θ=η=−1，4×4 Gram给四个有理正平方，全部真实平端最高action非负；修正Q2另有两个正平方。当前仍被R171静态负值排除。若后继保持这两个修正层且静态全域非负，则完整0/2/4 action对所有路径非负，继续路径网不能切，必须判原函数/头部关系是否允许该外点；不授真实泛函存在。
 
 - [R173：显式严格正的完整标量action与剩余真实性问题](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md) — 只改联合新点旧free12/normal73为−1/2；已存B的唯一五行支撑与14族F0 0/2行给a_static=(k²+2)(k²−1/2)²+k²/4≥1/16，同μ=(0,1,2,0,0,0,0,4)，Q2/最高保持R172精确正证。因此全部真实平端完整action≥∫h^-2/16>0，无须继续找负路径。指定点有限系统核对待公开回执，真实泛函良定义性仍须全部原关系/独立性，不能把标量正证冒充真实字符。
+
+- [R173指定点的公开实际：68行与全部十四族准确通过](notes/character-minus2-static-positive-candidate-actual-20261115.md) — run43669803169/source7d296314只改free12为−1/2，64行严格正、奇偶64–67四行零，107值/14族/同μ/c/d全存且匹配R172/R173。0.0076913s/RSS25.4297MiB，无LP/RREF/求根/新积分；gzip9305B/b5b3dacf。完整标量action正证已适用，下一必须判原函数关系，未授真实字符存在。
