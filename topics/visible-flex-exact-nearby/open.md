@@ -212,3 +212,7 @@ phase接新b*全nonlocal/mean消费并监Taylor实际；root统一发布完整�
 ### 连续伴随完整97 Gram 四格入口已装
 
 337pin六件只新消费原quarter0/64/4096/7907，原7908/64point与同一Hermite七数组复用；真交段与9/10延拓、有符号97 Gram/mean/无限tail/Hessian均保。newton_source监actual，随后复用成功四格扩全7908；真左输入误差、全外Robin/mean与高输出Gram并行补，不授full帽inverse。
+
+### 完整1024角窗已付，接物理平端C²重建
+
+[U1–28](results/R119-supplement-complete-1024-angular-Sobolev-network-and-physical-cap-Schur.md)在同五盒点重付全angle lag/commutator/source，Tsharp扩大后准确恢复旧high中的新增remaining频带，vsharp权mixed差<2^-4300000；完整mean强source逆<2，物理η0δ0帽Schur<2^-31000000。tail继续用remaining频率下限转层衰减，并重付high/deep/mean/真实root-strict-positive物理单位与C²；未授原解析标签、moving负阶Hessian或fullδ。
