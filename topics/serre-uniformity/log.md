@@ -560,3 +560,9 @@
 - 本地仅标准库小IO18次Range/266064B，读metadata和current，不导入数学、不下大lift；原612745716B carrier身份71b16a02由manifest保，完整恢复交原公共wrapper。
 - 只把resume切真artifact14179899060/bc2789d4并继续300min；原27+244 scope/free1186保留/配置不变，不回退已成profile或365位。无新原函数/高度。
 - 本push规则：本地真实pull至c7190df2c1a47270dea60af2ff44f4cde13ab431（2026-11-15T21:10:30.747448+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:12 Asia/Taipei — serre-public-astra-20261115
+- 登记并激活三列方法6d12fe13：真实We1=e271只需新W×已成第二列；core515e1555保四乘积原子断点/完整高6,7次零/2886同余与联合d012，原Wvg不重做。
+- wrapper3b573881消费真实P2 known8907fb65、scan25四pairs和原3037 carrier；删掉误把IO摘要注解当raw scan字段的一行断言，其余原tag/字节/来源严格保持。
+- 新LLL只针对新共同分母，旧49拒绝不搬入；early查col2/3，原七点全交换子/cyclic/Γ出口保持。300min/4pairs只是运行限额，无新数值预填。
+- 本push规则：本地真实pull至598951293035cb2e2fa705bc13e24cc1a5f59b8a（2026-11-15T21:12:20.910789+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
