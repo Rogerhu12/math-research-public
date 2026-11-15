@@ -173,3 +173,7 @@ R801已直接读取同q/58行/全E逆的实际E深Z²来源；四辅助值付六
 ### R804：负二的真实全局类与严格局部核
 
 原模34δ/18阶η的全球椭圆单位类z_j已实际构造，正Coleman、平滑30和共同√17基均已付；loc_bar=0且z_j∈完整Hf。原I_j,-2非零准确等价loc_p z_j非零，log估值为2+2v(I)，两个Euler方向不同。现在须排实际严格核，或保同源三项线性和控制原W补域；旧点AST及全局类非零本身都不替此门。见[R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)。
+
+### R809：真实连接的三角色比不能合并
+
+同q的PB4∇准确分成三个均整可逆的CM13比值分量，交换缺陷也整可逆；每条旧九阶线有全部三个新十八阶像，角色比χ17、χ17⁵、χ17³均保。旧负一与新负二相差非有限ψ/barψ角色，不是共同Tate twist。后续必须保同G2九项、同一unit及原W外部，不能用旧点AST替真实严格局部核。见[R809](results/R809-original-primitive-connection-three-cm13-components.md)。

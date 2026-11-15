@@ -143,3 +143,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R807](results/R807-original-projected-connection-and-native-second-source.md)：已证明原型五至型四协变导数的完整余商、两算术像及primitive三维同构，给唯一5×3原预像；同q/58行的两真实余行在旧ray两η/全N为单位，故实际二阶源不在未投影像或两算术投影像。完整半周期交换子逐项全纯且有X+b，准确degree1×33卷积与同一和变量unit保留，原负二及W外部非消失仍开。
 
 - [R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)：已从原模34δ全ray椭圆单位、实际范数/十八阶幂等元/扭曲和平滑30构造三个全局Soulé类，付共同Artin周期√17与正Coleman完整下降。真实局部log=−34²c_jθ9Ωp4 Elog I_j,-2²且Elog∈p²O×；另一普通局部化为零、全部Hf条件成立。严格局部核及原三项线性和仍未排除，不以全局类命名代非零。
+
+- [R809](results/R809-original-primitive-connection-three-cm13-components.md)：已精确分解同q原投影连接的三CM13比值分量，三者及完整交换缺陷均在原固定格整可逆。每条旧primitive线同时非零进入三条型四线，完整有限角色比分别χ17、χ17⁵、χ17³；同G2有九项准确运输，保半周期/ζ/和变量unit及原W外部，未把相同三次特征式当点表示相认。
