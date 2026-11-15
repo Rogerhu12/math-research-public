@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：afb06ee3ef654ce5c202767787780e1e9c087a29**（2026-11-15T09:47:28.120567+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：e14844ea847664e8f155b00034d412a902e31d31**（2026-11-15T09:51:46.134835+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 08:56 UTC环境失联时按根§8用小文本API保全并推cosigma、R801/R802与IO工程。09:31 UTC终端恢复，旧tmpfs已失；已重新部分克隆远端main，现恢复终端git提交/推送。公开IO亦有真实pull回执，不把GET叫pull。
 
@@ -39,7 +39,7 @@
 
 **R800准确尾已登记**：[结果](results/R800-certified-original-M2-tail.md)。run43696070150/source b53ef624，19.199005秒；146原M2 q129..195、82E1/200seed尾、6724/40ξ/20t、mod739和反演全过。439输出/429阶段及ZIP全SHA已核，cert3be34598，artifact14153948656；原0..128不重算。R801按需消费。
 
-**R801已证明并登记**：[长尾与原关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；扁平原recipe与准确消失阶闭包，不算整套V6到195。Schur真秩d−20已证，第二关系有限试取最多e(k−1)+1次；新7/8铅笔须补全部V3至136/149。R787若成就直接s=τB；未生成新长尾/关系/高度。proof b283280e、method a96d7c3b；ordinary写仅长尾core。
+**R801已证明并登记**：[长尾与原关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；扁平原recipe与准确消失阶闭包，不算整套V6到195。Schur真秩d−20已证，第二关系有限试取最多e(k−1)+1次；新7/8铅笔须补全部V3至136/149。R787若成就直接s=τB；未生成新长尾/关系/高度。proof b283280e、method a96d7c3b；仅长尾core ba9c52a3/wrapper11bdf084已激活。实际五组输入11/3457/1513/5343/153项全部IO核，旧p1..5实际依赖146/418/690/962/1234，所有锚点二/三乘均别名原recipe；源码AST/全文审通过。新尾实际成功仍待Actions。
 
 **R802已证明并登记**：[原半线性奇偶与七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)，proof2e8a3b19。c0固定ξ反s，原扭曲T41给q/v→−；y奇阶在Fb(tξ)、偶阶在sFb(tξ)，κ固定，R_m除s^(m mod2)。全球±截面掩码保82¹⁰，真实选基后固定B/反固定A在Fb求解；末端仅两右端恢复原1234基并全129×20认证。未算新r±/minor/kernel；不改R787、不重算其已成阶段。
 

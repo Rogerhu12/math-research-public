@@ -1,0 +1,133 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R801-original-power6-to8-long-tails",
+    "p": 41,
+    "primary_new_intervals": {
+      "6": [
+        109,
+        142
+      ],
+      "7": [
+        96,
+        176
+      ],
+      "8": [
+        109,
+        196
+      ]
+    },
+    "primary_frontiers": {
+      "6": [
+        142
+      ],
+      "7": [
+        170,
+        172,
+        176
+      ],
+      "8": [
+        193,
+        196
+      ]
+    },
+    "auxiliary_max_exponent": 195,
+    "generate_additional_pencil_V3_tail": false,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R801_original_long_tail_extension.py",
+    "core_sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d",
+    "wrapper_sha256": "11bdf0843cb2fa9e0dbe75c73b7b2300f58fec6d247a7597e0787bff986193b1",
+    "proof": "results/R801-original-minimal-long-tails-and-exact-relation-interface.md",
+    "R801_proof_sha256": "b283280e94a9b429d57a20e8bc1c3e40ce552a8eb06ca8ddb19a6d43d18fb6fd",
+    "method": "notes/R801-original-long-tail-extension-and-relations-method.md",
+    "R801_method_sha256": "a96d7c3b3e4665b1ca2cdd7383e08406fe3d4cc0b8a1bea0aa4a43d110a74126",
+    "workflow": ".github/workflows/serre-p41-original-long-tail-extension.yml",
+    "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "publication_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+    "retained_artifacts": {
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-power-6.json.gz": "05c5580b73eeba72b832e2a871221c19c482baf1c9656cab62a0c2c694ffafa1"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-power5-basis-index.json.gz": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      },
+      "R795": {
+        "result": "R795-exact-original-power6-short-basis",
+        "run_id": "43692029484",
+        "source_commit": "ac6d8fff1e1905539339bf1bec39365fd62312ba",
+        "artifact_id": 14152762920,
+        "artifact_name": "serre-global-R795-exact-original-power6-short-basis-43692029484-1",
+        "archive_sha256": "557bb851ffe175643aa2b759fab3f378afdd51ef5d665fd4508a2a1f22ab8248",
+        "manifest_sha256": "fb4a8f656c66d5ae10dee052baab79c07b43c7e7f19bb66b6e7d71be13b83ada",
+        "core_sha256": "2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac",
+        "certificate_name": "p41-exact-original-power6-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power6-short-basis-certificate.json": "c5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae",
+          "R795-exact-power6-basis-index.json.gz": "9c2d5a8731b491b464cc7580d1b504a4c7efac957a46b56a1fa7137049f06358",
+          "R795-exact-stages-manifest.json.gz": "37b3894e51f834bbe26113c2d4346de6a3f804114970a371e35783a105f3d064"
+        }
+      },
+      "R799": {
+        "result": "R799-original-power7-power8-short-bases",
+        "run_id": "43695571499",
+        "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+        "artifact_id": 14153724209,
+        "artifact_name": "serre-global-R799-original-power7-power8-short-bases-43695571499-1",
+        "archive_sha256": "b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477",
+        "manifest_sha256": "41640ebc6bc567c52b5f6ee840f59776769c7ba851ff24e405a7150267168933",
+        "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+        "certificate_name": "p41-original-power7-power8-short-bases-certificate.json",
+        "files": {
+          "p41-original-power7-power8-short-bases-certificate.json": "5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b",
+          "R799-exact-stages-manifest.json.gz": "b9cec9358d9adcf31f318dbe82853153e7f4ff318eed19853b8fb0187c4a280b",
+          "R799-original-power6-tail-index.json.gz": "1fcb5cb98c4a18bc02bbb2441a606eed1c7bba1fd7610e6ca6857e4fbfc22c6f",
+          "R799-original-power7-basis-index.json.gz": "b7889ae6e3ccf8607ce40215d68ca65f0075ac2f8638284690d8a4108e244847",
+          "R799-original-power8-basis-index.json.gz": "bc202037fb41aaa3138432c387ed8a69ae3f324cc6fc87c0fc5f50894155d2fd"
+        }
+      },
+      "R800": {
+        "result": "R800-original-M2-tail-129-195",
+        "run_id": "43696070150",
+        "source_commit": "b53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c",
+        "artifact_id": 14153948656,
+        "artifact_name": "serre-global-R800-original-M2-tail-129-195-43696070150-1",
+        "archive_sha256": "78ab2d6222f95015246dbfd4237c4ae2be8126971983bf6ee7173da8b1c83a4e",
+        "manifest_sha256": "1a651f6e0a3d51c8cb18d3b5fad18fb4d480f69e7bedd6e9fb10c7f80dbaf053",
+        "core_sha256": "417dd598711af310717aaa971898e426d829a5209150bd5ce57f51dffb2e2a6a",
+        "certificate_name": "p41-original-M2-tail-129-195-certificate.json",
+        "files": {
+          "p41-original-M2-tail-129-195-certificate.json": "3be34598ab86732a790e7e5aa463b9def210fb48e216b9a51171d122e20ce377",
+          "R800-stage-manifest.json.gz": "17c93ee59632ae0bda21beeac90a24d0bdbfe74bb34c333705475aac9c17322b",
+          "R800-original-M2-tail-index.json.gz": "13e6a2fa321ef67a16a7648fdf38f6ba95554677ba0b9fe6b76d5268db200da3"
+        }
+      }
+    },
+    "resume": null
+  }
+}

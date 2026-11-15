@@ -1,0 +1,74 @@
+name: Serre p41 original selected long tails
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R801-public-original-long-tail-extension-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R801-original-long-tail-extension
+  cancel-in-progress: false
+
+jobs:
+  original_long_tail_extension:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-original-long-tail-extension.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R801_original_long_tail_extension.py
+            /topics/serre-uniformity/scripts/R801_public_original_long_tail_extension.py
+            /topics/serre-uniformity/scripts/R786_public_exact_power5_short_basis.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R801-public-original-long-tail-extension-request.json
+            /topics/serre-uniformity/notes/R801-original-long-tail-extension-and-relations-method.md
+            /topics/serre-uniformity/results/R801-original-minimal-long-tails-and-exact-relation-interface.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python source syntax without executing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("R801_original_long_tail_extension.py", "R801_public_original_long_tail_extension.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+          PY
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Extend only missing intervals of the already selected original V6 V7 V8 bases
+        continue-on-error: true
+        timeout-minutes: 315
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R801_public_original_long_tail_extension.py compute
+      - name: Transfer the active checkpoint to the immediate continuation only
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R801-original-power6-to8-long-tails-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R801-original-power6-to8-long-tails/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Require all selected long tails and preserved original prefix identities
+        if: always()
+        run: python topics/serre-uniformity/scripts/R801_public_original_long_tail_extension.py verify

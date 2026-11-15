@@ -549,3 +549,8 @@
 - R797五个原低次数映射实际Laurent完成登记：N170/172/176/193/196，907个逐阶状态与15个scalar/H3/prefix，共922阶段；完整280Q字段、κ非零/cusp e1/原相位/逐阶ODE全核，2106.946833秒。
 - 公开IO核原ZIP及930输出全SHA、冻结wrapper与各前后阶段链，certf41ee0a2；只κ^(N−1)已成，后继κ^N各补一次，不重跑旧f4或多算R_N。
 - R799已CLI推0d773971，pull规则无变化；R801仅新增长尾准备激活，R787继续。原A/B、η、规范高度和主目标OPEN。
+
+## 2026-11-15 17:51 Asia/Taipei · serre-public-astra-20261115
+- R801仅长尾核心/公开wrapper/实际请求已启用，coreba9c52a3、wrapper11bdf084；只新增V6[109,142)、V7[96,176)、V8[109,196)，原recipe与准确消失阶闭包，严格区间乘法、stride79逐次约化、全局相位、mod739及可续断点保持。
+- exact全文核核心，ordinary真实IO核五组11/3457/1513/5343/153文件与完整来源链；旧p1..5依赖恰全146/418/690/962/1234，所有锚点二/三乘可别名原行。公开audit已AST核核心；本地仅IO/AST，无新数学运行。
+- 新增课题外workflow serre-p41-original-long-tail-extension.yml 执行该计算，显式blob:none、只读权限、一日断点artifact；根按真实回执登记结果，未自动推raw或执行未检查规则的发布pull。R787继续，主目标OPEN。
