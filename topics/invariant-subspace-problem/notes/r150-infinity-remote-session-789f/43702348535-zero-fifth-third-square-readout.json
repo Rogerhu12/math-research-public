@@ -1,0 +1,451 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "zero-fifth-third-square-readout",
+  "executionSourceCommit": "f01c3f97500b3c9bc5b0a8a25e0f799eb97a3096",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-paid-fifth-jets-third-square-readout-789f.py",
+  "scriptSHA256": "bb8d2690a1ea74984c05a9863fb7607c87f414eeac2b20d5f5458ff6c9fe05c4",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--normal-generator",
+    "{scripts}/2026-11-15-r150-zero-second-normal-envelope-789f.py",
+    "--fifth-generator",
+    "{scripts}/2026-11-15-r150-zero-fifth-joint-high-low-left-envelope-789f.py",
+    "--first-connection-receipt",
+    "{scripts}/43679903558-original-transverse-first-connection.json",
+    "--second-normal-receipt",
+    "{scripts}/43679903558-zero-second-normal-envelope.json",
+    "--third-receipt",
+    "{scripts}/43679903558-zero-third-left-envelope.json",
+    "--fourth-receipt",
+    "{scripts}/43702348535-zero-fourth-joint-high-low-left-envelope.json",
+    "--fifth-receipt",
+    "{scripts}/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+    "--out",
+    "{work}/zero-fifth-third-square-readout.json",
+    "--remaining-seconds",
+    "20",
+    "--second-pure-receipt",
+    "{scripts}/43679903558-zero-second-pure-envelope.json"
+  ],
+  "timeoutSeconds": 70,
+  "exitCode": 0,
+  "wallSeconds": 4.273404758000197,
+  "fullTemporaryReceiptBytes": 4085,
+  "fullTemporaryReceiptSHA256": "ed18d659840b5a90ed42f5caeb2073738846ff44ce5718e443e6723a5461a3c3",
+  "result": {
+    "allNineTargetsChecked": true,
+    "elapsedSeconds": 4.211737646000074,
+    "format": "r150-zero-paid-fifth-jets-third-square-readout-v1",
+    "scriptSHA256": "bb8d2690a1ea74984c05a9863fb7607c87f414eeac2b20d5f5458ff6c9fe05c4",
+    "status": "completed",
+    "thirdSquarePairingSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+    "parameters": {
+      "actualOriginalTarget": "(sum_a binom(j,a)(-s)^(j-a)*m_a)^2",
+      "all1088PaidSecondCanonicalCorrectionRowsVerified": true,
+      "all1088PaidThirdCanonicalCorrectionRowsVerified": true,
+      "all1700PaidPureSecondCanonicalCorrectionRowsVerified": true,
+      "allLaterActualLeadingHashesVerified": true,
+      "allOriginalTargetSubstitutionsVerified": true,
+      "allPaidLambda2TargetPairingsRemainZero": true,
+      "completeComovingTarget": "n_j^2",
+      "completeSecondCanonicalCorrectionSHA256": "a0a1c8d76f023c8d251b2c755f15afccf7798ef2359bed6e833d7d42e4cc5c8d",
+      "completeThirdCanonicalCorrectionSHA256": "6dcaf5a433aab32a30be647b7e6eac86d31d9854e4805d0136c47a11aa17a2e1",
+      "fifthQAmbiguityChangesOnlyLambda4": true,
+      "fourthQAmbiguityAtLambda3IsOneNormal": true,
+      "h0SixthPairingNineBySeven": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "h0SixthPairingSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "h0ThirdCoefficient": "-917294284800",
+      "h0ZeroOrder": 3,
+      "inputFiles": {
+        "fifthGenerator": {
+          "bytes": 57373,
+          "sha256": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b"
+        },
+        "fifthReceipt": {
+          "bytes": 18801,
+          "sha256": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41"
+        },
+        "firstGenerator": {
+          "bytes": 15328,
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        "firstReceipt": {
+          "bytes": 40996,
+          "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+        },
+        "fourthReceipt": {
+          "bytes": 12319,
+          "sha256": "6cf6884053d607ccfe5f0974d5c259ca80a9489c7b3b81c284202ca539f94455"
+        },
+        "secondGenerator": {
+          "bytes": 17924,
+          "sha256": "c8dde441995f3c9b57728a68ec7b29aa56e9abfbbee280fc334961b64e561403"
+        },
+        "secondNormalReceipt": {
+          "bytes": 33126,
+          "sha256": "2bf6ad79a39cace74510f195bae244abb620b4ca138a87c5c9b99d7cf2c282c8"
+        },
+        "secondPureReceipt": {
+          "bytes": 30519,
+          "sha256": "9fa21a1f33225c470af62e4186046ff93281f4647bcb126c32f239bf355f846a"
+        },
+        "thirdReceipt": {
+          "bytes": 40751,
+          "sha256": "8fae063a281b65d9dc8710597f886093c08ba44f53bb690b11e3b3f0e9b0d8cf"
+        }
+      },
+      "largeDataPersisted": false,
+      "memoryMiB": 512,
+      "noFourthFifthRREFRecomputed": true,
+      "noLargeNormalFormRecomputed": true,
+      "nonzeroThirdSquareTargets": [],
+      "notAMembershipObstructionWithoutActualSixthLift": true,
+      "rawNineByTwelveThirdPairing": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "rawNineByTwelveThirdPairingSHA256": "6c4cb68e82fa9e818fd1fa8a40f57c2ce3ac63e56774dfa00232b29b01b07ef3",
+      "scriptSHA256": "bb8d2690a1ea74984c05a9863fb7607c87f414eeac2b20d5f5458ff6c9fe05c4",
+      "sharedSeconds": 20.0,
+      "targetLabels": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targetSixthCoefficient": "h0[3]*lambda3(n_j^2), because all earlier pairings are zero",
+      "thirdPairingNineBySeven": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "thirdSquarePairingSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "zeroScope": "Zero pairs remain zero for every linear combination of these fixed seven jets and their one-normal Q ambiguity at lambda5; other fifth jets are not covered."
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 11:03:16 UTC",
+      "beforeReadCommit": "a2d02e47c7a380ed6afe806f3ce82a9567ea0305",
+      "originMainAfterPull": "f01c3f97500b3c9bc5b0a8a25e0f799eb97a3096",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 11:03:20 UTC",
+      "beforeReadCommit": "f01c3f97500b3c9bc5b0a8a25e0f799eb97a3096",
+      "originMainAfterPull": "f01c3f97500b3c9bc5b0a8a25e0f799eb97a3096",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 24,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 8233,
+    "logicalJsonSHA256": "1f8f56fb1180dc33ec47bb89695af0a52f8bda0489f23cfc27745d67cc2850f9",
+    "itemCount": 24
+  },
+  "lastRulesReadCommit": "f01c3f97500b3c9bc5b0a8a25e0f799eb97a3096",
+  "summaryExcludesRecomputableArraysOnly": false
+}
