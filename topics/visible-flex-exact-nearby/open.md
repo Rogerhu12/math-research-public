@@ -92,7 +92,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：全Gy/T1T2/F0–2/actual T_J差FJ/−Z_y均值；FA corrected除ng一次、cuterror乘sameT forward L2一次，ST literal√q给真L1dr primitive+两mean和无长度jump。SF44/45只difference，S连续而Z可跳；Q径二阶/K三阶/new norms/dr积分/Z jumps及waist/Ei/Eo/incoming/Schur/R0仍待。
 
-[WT真实腰部归一化](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8解析：D固定7/6/19/83、完整raw row0残差α一次、body nonmean+真实mean不乘α、Fν近腰0、两canonical修补径导0，付右RQ/RZ。SP原waist m/q/ng→新S/S2；J97和268435456各四门、另dyadic不覆失败。两窗同逆/finite≤J+191/fullT差≤J+575及两mean保；新scalar待Actions，非interval逆/Schur/未知PDE。
+[WT真实腰部归一化](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8解析：D固定7/6/19/83、完整raw row0残差α一次、body nonmean+真实mean不乘α、Fν近腰0、两canonical修补径导0，付右RQ/RZ。SP原waist m/q/ng→新S/S2；J97和268435456各四门、另dyadic不覆失败。两窗同逆/finite≤J+191/fullT差≤J+575及两mean保；新包7cde6f7f/fbcedfe8/4cec7ef0/019dd4f9（22small/4history/10AST/20门）待唯一Actions，非interval逆/Schur/未知PDE。
 
 ## 4. 实际帽图与完整core接口
 
