@@ -138,3 +138,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原中央剪切与固定表示门槛](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)：已证明真实保Gram参数下的完整Mellin一阶项，moving权、尺度质量和原全部有限门均保；Fourier变分zD的准确周期差说明固定theta cover内的遗漏连接。给同一固定Lp且完整局部单位平方时的中央零传播充分条件，并保实际Hecke权错位；当前尚未建立该固定表示身份。
 
 继续检验原完整automorphic/mixed-motive映射是否给固定Lp身份；同范数、finite-source关系和已付点非零本身均未给该身份，全部O_i补域和连接必须同时保留。
+
+- [R757](results/R757-original-type-zero-six-spectrum-and-order-nine-lines.md)：已证明原degree34 type0完整六谱；后三条primitive order9环面线的全2/3/17 Hecke角色、导子/root、Qζ9值域及准确三次实系数域齐付，非新E/Q。CM13全特征式和质量观察唯一核S给另五条质量非零，实际Yang给后三L(Ψ,1)>0；全权必须保阶18有限补偿，普通零权非零不赋中央导数零。
+
+续原S中央的全连接/固定表示，而非借另五条rank0或高维来源的零权值替代；前三原S/T/U及全部O_i实际域保持。

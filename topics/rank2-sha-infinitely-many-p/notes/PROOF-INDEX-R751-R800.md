@@ -13,3 +13,5 @@
 - [R754](../results/R754-original-finite-inertia-shares-and-etale-source-trace.md)：已证明原完整五伙伴的Künneth分解与规范étale平均在混合门上读零Y频率；Zunit的两个不同非零根给真实G/W/V平凡点份额(p−3)/(p−1)、1/(p−1)、1/(p−1)。原λHW、γλHV、全部深门/相位/质量保，原过滤后三份各非零且准确加回primitive；全外部仍相反，未添中央约束。
 
 - [R756](../results/R756-original-norm-three-map-and-complete-canonical-return.md)：已证明原Norm3在(t,Θ,Y)上的准确映射、固定v12清新极以及全部WD的显示公共乘子返回，最高charge为3D+ceil((36D+181)/47)，保十九角与指数系数成本。原G0比值、低轴h→h+a、完整Euler两jet及高度二Gaussian均保；充分上界不冒原3C同预算或新中央零。
+
+- [R757](../results/R757-original-type-zero-six-spectrum-and-order-nine-lines.md)：已证明原degree34 type0完整六谱；后三条primitive order9环面线的全2/3/17 Hecke角色、导子/root、Qζ9值域及准确三次实系数域齐付，非新E/Q。CM13全特征式和质量观察唯一核S给另五条质量非零，实际Yang给后三L(Ψ,1)>0；全权必须保阶18有限补偿，普通零权非零不赋中央导数零。

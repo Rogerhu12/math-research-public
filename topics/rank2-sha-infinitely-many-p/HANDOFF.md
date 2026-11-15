@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：8e665766b28003184e60493227ef71cc2176d30f；2026-11-15 12:40:55 UTC核两README无变。实际CI pull 2026-11-15 12:29:28 UTC/0d1e6ff09e857a2f3773ae45ca7f02461f4391ae（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:40:54 UTC仍无环境。最迟2026-11-15 13:15 UTC再实际pull。
+- 最近已读规则提交：47dd93ace95c65d9858743f658244dfd6a2c9320；2026-11-15 12:47:19 UTC核两README无变。实际CI pull 2026-11-15 12:29:28 UTC/0d1e6ff09e857a2f3773ae45ca7f02461f4391ae（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:47:18 UTC仍无环境。最迟2026-11-15 13:15 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境；API小文本接fresh head、拒推即重试pull --rebase。12:29:28实际pull run43714095022/job132811769665；回执ci/rule-pull-20261115T122928.json，两README差异空、blob核同。27,361,244B/1975文件无超限、旧3真实输入块保；下次13:15前。
@@ -13,7 +13,7 @@
 
 ## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-central-shear.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754、756；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r757.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754、756–757；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta续真同域词；literature续type0全Hecke谱；deep续原ξ/同R；root续中央桥/Norm3实际预算。
 固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
@@ -23,8 +23,7 @@ root唯一metadata/ref写者；代理只交proof/script/blob。theta续真同域
 
 R728全连接/P中央/尺度log、R739/744坏惯性、R745正交整矩、R747原e0/Y与p-primary唯一提升按前检；全gluing、移动门、O_i日志保。
 
-R748两Dk全χ|μ6=1：ρ=χΓk只p分歧；Katz=34c_kθ11Ωχ34^-1Ikχ²，ΩIkχ=Akχ logφkP、A²=εχ34 θ^(−k−12)/(34c_k)。good-pair/LZZ/localQ、dual型与负locus全部齐付，仅非零后GZ/Kolyvagin推rank1，无预设Sha。
-R751第二dyadic t_+为type3，同τk/正权ψ_(6−k)、degree34/half-character/坏处齐付；r_k取真首非零。仅χ(ζ)=ζ4存活，ρ在2/17/p分歧；映E1后17角色同Dk而2不同，A_+²=εχ34 θ^(−j−2r_k−2)/(34c_+)。R749有限pointtensor log单射及point-I_p平均杀全plus/非平凡χ，留ΣhatΦ−k(1)ΩIk1；自然trace不同、Q2⊗t²反例和全混合域保。
+R748原Dk全χ|μ6=1的good-pair、LZZ/localQ、dual及负locus齐付：ρ=χΓk只p分歧，ΩIkχ=Akχ logφkP、A²=εχ34 θ^(−k−12)/(34c_k)，仅非零后推rank1。R751第二dyadic type3全坏处分量/degree34/half-character保，合法χ(ζ)=ζ4、ρ分歧2/17/p，映E1后17同Dk/2异、A_+²=εχ34 θ^(−j−2r_k−2)/(34c_+)。R749全pointtensor单射，point-I_p杀plus/非平凡χ留ΣhatΦ−k(1)ΩIk1；自然trace及混合域不能简化，原Q2⊗t²反例保。
 
 R752原深伙伴/Z,Eunit全Y⊥，Y/W/V浅门只需第一degree34p，伙伴深度≤125。τk全块真二维Dk/P+k；2p canonical translates独立，唯一Φ±modp、Φ±(0)=0及角0/4。去Yunit的primitive整源=Ck,a,ℓDk，C=(120Ω6)^−1∫Y5ZEaφa 1_Z,Eunit Δℓ dμk；原过滤式逐p/k/r窗口至少一C非零。étale平均/下降取zero-Y系数c0，point平凡部p c0,−/(p−1)，不可删p或原λγ。
 
@@ -55,6 +54,8 @@ R736原B3/R10404坏2/3/17、2176→368/plus184/47整坐标；公开43705223442�
 [normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：whole j正、Gaussian真base A0∈4Z，下一位保全paired f；公开43705781851固定2048类仅0/2。同R全αj仅Qi/K；C_pv无限p非零及原中央→边界仍均开。全部脚本/参数/run/hash沿前检保，不存输出。
 
 
-## R756：实际Norm3全来源返回
+## 实际Norm3及全type0谱
 
-[R756](results/R756-original-norm-three-map-and-complete-canonical-return.md)：v=1−4t、A=v³−216t、φ=−27t/v³、B=Av14/d³，原Yδ=B Y³；原列全拉回只新增v^−12极。m=ceil((36D+181)/47)、a=ceil((2D+m)/4)、b1=ceil((2D+m)/3)、c=max(0,ceil((5D−3m+11)/6))，Γ=Y^m v12(th)^a(t−1)^b1d^c给ΓΨ*WD⊂W_(3D+m)，全十九角/固定p分母/指数系数界已付。原G0比值完整保；低轴h→h+a而非3h、Euler矩阵[[1,0],[m,3]]单位。完整Gaussian另有exp(34n t3w^s)，不可删。此为充分非最优返回，未回原3C同预算，未添中央零或改ξ。
+[R756](results/R756-original-norm-three-map-and-complete-canonical-return.md)：v=1−4t、A=v³−216t、φ=−27t/v³、Yδ=(Av14/d³)Y³；固定v12清全新极。显示Γ给ΓΨ*WD⊂W_(3D+ceil((36D+181)/47))，全19角/整性/指数成本保。原G0比值、h→h+a非3h、Euler[[1,0],[m,3]]及完整exp(34n t3w^s)保；非最优充分返回未付原3C或新中央零。
+
+[R757](results/R757-original-type-zero-six-spectrum-and-order-nine-lines.md)：原degree34 type0六谱：t+的j0/6/12为H3/H5/S，t−的j2/8/14为order9 torus线；l=j−9的实际Hecke Ψj导子34δ、root+、值域Qζ9，新形式系数域实三次，非E/Q。N13全特征式(X³+1)(X³+ω²)，全质量轨道唯一核S；其余5条质量非零。后三L(Ψj,1)>0，真全权ηjψbase^(2n+1)、eta阶18，仅n18才能写裸Ψj幂。原ray零权J=1−λ、Katz非零但导数未赋零；T/U另线丛。继续固定表示/连接与原中央桥。
