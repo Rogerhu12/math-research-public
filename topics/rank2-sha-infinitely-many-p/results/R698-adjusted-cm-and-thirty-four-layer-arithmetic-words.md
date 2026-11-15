@@ -438,8 +438,9 @@ A 三十四层/Y/Z 三轴共同核心，以及其全部未共轭词域的
 
 ## 公开复现
 
-独立程序 `check-r698-adjusted-cm-and-thirty-four-layer-return.js` 另行登记。
-完整正文先按规则12发布，不等待脚本或复跑。
+独立程序
+[check-r698-adjusted-cm-and-thirty-four-layer-return.js](../scripts/check-r698-adjusted-cm-and-thirty-four-layer-return.js)
+已随公开运行请求登记。完整正文先按规则12发布，未等待复跑。
 默认运行：
 $$
 \texttt{node scripts/check-r698-adjusted-cm-and-thirty-four-layer-return.js}.
