@@ -423,3 +423,9 @@ W1–19全文9814B/85169eb7…经tail独立核W5/W15/W17和源单位。S12复K�
 ### 2026-11-15 04:36:35 UTC：两真实邻片的完整相关源实际成功，六case全重组
 
 43676926141/1实际child0/14门/16.00390009s，原28完整stage原byte/header/payload不动、0重算，新50共78；27负邻行+1正邻行在6case全选，其他4215原行逐字复制。process9e8f1f92…37783B/native5754193c…42046B/worker ec4a322e…5488B/publication0cfbfcd3…26496B亲读，六完整Arb球及case SHA逐核。两piece源<7.6664964635865e13/<3.54177556479562e14；最小R.001完整负<1.44778643289190e20/正<9.68645446951086e19，最大R.02负<1.72833982802663e21/正<7.13868586074149e20。自然5.50MB新case整件artifact14146726654/19296171B/digest05cb9ea4…；不是数学失败。完整9词5mean/1079真缝/653ledger及原大径失败保，不授strong/cutoff。实际report补原artifact元数据后独推；open压缩前原文逐字归档，当前任务据实际数据更新。接public保存行诊断0旧enclosure重算，再选后继相关域/修正seam。README只读核64644c1d78f076af2e6ed71951b32220ad0eb301无变化。
+
+## 2026-11-15 04:48:09 UTC — 立即读根规15差异并应用Release储存要求
+
+准备独推T已审证明时freshmain检查发现根README改变、题README未变。root立即尝试真git pull --rebase，仍无usable execution environment；随后仅对已读旧blob6183b7…与新blobf9a8c9…读差。已读提交b6dd686c404c15cc7744c5c26f32862055ea3c67，新root SHA256701d37ef05f230bbb99c0dc9ef67ea91a3bd783dec005437dec75da806dd2c77。规8/10转引新增15：本题main必须≤200MB；>5MB证书/数据/Actions输出移public Release附件、原人工parts合回原件，先上传核SHA/写清单再普通删除、不改历史。不能继续仅依赖临时Actions artifact作为大文件最终存放。
+
+根新规已通知三代理；phase负责完整题数据迁移，新ton负责当前Green检查点安全保留/Release续接，root更新small-text出版readme guard和新诊断worker。现有旧source/manifest/rules收据不改名；新rules独立文件保前后hash和明确已读差异。所有数字任务仍只能public Actions，0旧成功数学重算。新规不改变题README总完成标准，也不新增审批/冻结门。freshmain 8f43e9256f0cd0405f4b04667417848c2451cd5c的两README核与已读提交已入H。

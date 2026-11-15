@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 04:36:35 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 04:48:09 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 04:29:31.424645 UTC 0326a07674e4c99a33995d1901463180a98e2f96（adjacent worker ec4a322e…5488B，两次README diff空）。04:28非FF立刻真pull仍无executor，freshhead第2次成功。
-21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：64644c1d78f076af2e6ed71951b32220ad0eb301；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+21:48起CLI报No usable execution environment；04:47新规差读前真pull再试仍同错。根规8仅connector<100KB UTF8文本/禁binary；只读ref不算pull。新规15：题main≤200MB、>5MB及旧人工parts合原件→public Release data-visible-flex-exact-nearby，先SHA验证上传/清单再普通删，禁改历史。phase迁移、newton保Green前缀续接，全部0旧数学重算。
+最近只读README核：8f43e9256f0cd0405f4b04667417848c2451cd5c；根f9a8c9c98c3107aaf88268fd602d9612bcdb15c6、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff b6dd686c404c15cc7744c5c26f32862055ea3c67；rules 7e2386e1d58546ef63872a88aabc2302cfded84914d2110b26d66bb478e8c6ee、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。此前H9821B逐字存notes/2026-11-15-handoff-before-full-delta-Sobolev-and-adjacent-actual.md；所有旧H/open/log归档链随其保留。成功科学/出版失败分记。 当前open此前完整原文另存notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md。
 
 ## 同一对象和总完成门

@@ -101,3 +101,9 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 每结论独推；非FF立刻真git pull --rebase并重推循环，禁force。至少每小时真实pull，随后核根/题README；变更只读差异立即执行，已读提交记H。当前CLI无executor，按根规8只用<100KB UTF8小文本connector，binary/gzip不进对话；自然>5MB只原Actions整件，不拆分/重压绕过，真摘要≤60000B。只读ref不是pull；runner实际pull与readme diff保留。终端恢复立即真pull核差，不新增审批门。
 
 每子问题完成即接本页下一项。总完成门未达不收尾，不因阶段报告或时长停止。
+
+## 7. 新根规15：立即迁移数据并保留全部成功数学
+
+root已在main b6dd686c404c15cc7744c5c26f32862055ea3c67读取根README差异，题README未变。新[已读规矩收据](notes/2026-11-15-R133-reviewed-public-CI-rules-release-storage.json)记录root blob f9a8c9c98c3107aaf88268fd602d9612bcdb15c6。每题main≤200MB；大于5MB的证书、数据及Actions输出均移本public Release data-visible-flex-exact-nearby（1000附件满后-2等）。旧人工parts先按原manifest合回完整文件、上传核SHA并写附件名/bytes/SHA/url/producer/params/run清单，随后普通commit从main删除。真自然shards保原自然身份，不猜测拼接，不改历史或强推。
+
+phase负责迁移脚本/实际Actions，newton处理当前Green下一真pull按新规安全停存及原完成prefix续接，root更新新诊断发布器。全部旧target/Gram/ODE/FFT/已成stage不重算；迁移后的同路径输入由公开Release清单复原并逐一核哈希。数学任务持续，完成标准不变。

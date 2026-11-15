@@ -1,0 +1,38 @@
+{
+  "kind": "explicitly_read_public_repository_rules_for_existing_CI",
+  "repository": "Rogerhu12/math-research-public",
+  "read_commit": "b6dd686c404c15cc7744c5c26f32862055ea3c67",
+  "root_readme_git_blob": "f9a8c9c98c3107aaf88268fd602d9612bcdb15c6",
+  "readme_sha256": {
+    "README.md": "701d37ef05f230bbb99c0dc9ef67ea91a3bd783dec005437dec75da806dd2c77",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "previously_read_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "read_changes": [
+    "Root rules8 and10 now refer to new mandatory rule15, replacing the advisory topic size target with a 200000000-byte maximum.",
+    "Every complete certificate, dataset or Actions output larger than5000000 bytes must be uploaded as an original natural GitHub Release asset, at most2000000000 bytes per asset.",
+    "The authorized public Release tag is data-visible-flex-exact-nearby, followed by -2 and further suffixes only after1000 assets.",
+    "Keep only asset filename, bytes, SHA256, download URL, generating source, parameters and actual run identity in repository manifests; do not artificially split or encode large data.",
+    "Existing artificial certificate parts must be reconstructed to the exact original whole file, uploaded and verified before a normal non-force main commit removes the parts; also migrate data necessary to keep this topic at or below200000000 bytes.",
+    "Public Actions uses GITHUB_TOKEN and contents:write for Release publication; root rules8 and14 still prohibit credential exposure and binary or large-content connector transfers.",
+    "The topic README and its mathematical completion criteria remain unchanged; no new numerical recomputation, freeze or approval gate is introduced."
+  ],
+  "scientific_input_manifests_and_sources_not_changed": true,
+  "new_unread_rules_must_still_be_reported_and_applied": true,
+  "large_data_policy": {
+    "rule": 15,
+    "topic_directory": "topics/visible-flex-exact-nearby",
+    "maximum_topic_bytes": 200000000,
+    "maximum_git_file_bytes": 5000000,
+    "maximum_release_asset_bytes": 2000000000,
+    "maximum_assets_per_release": 1000,
+    "release_tag": "data-visible-flex-exact-nearby",
+    "verify_before_normal_deletion": true,
+    "no_history_rewrite": true,
+    "no_artificial_data_splitting": true,
+    "original_completed_mathematics_must_not_be_recomputed": true
+  }
+}
