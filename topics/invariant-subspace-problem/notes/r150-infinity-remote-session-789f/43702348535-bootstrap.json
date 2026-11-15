@@ -1,0 +1,105 @@
+{
+  "format": "isp-minimal-historical-recovery-bootstrap-v1",
+  "runId": "43702348535",
+  "sourceCommit": "973c45a153b50707e67c8cebdedae4bf061d47cf",
+  "sessionScriptSHA256": "79ec5c7e9fbe8ccd7d192e894fe442a30fd60a258f325e5a21752a9026464283",
+  "historicalInputsVerified": [
+    {
+      "key": "model",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+    },
+    {
+      "key": "forward",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz"
+    },
+    {
+      "key": "backward",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz"
+    },
+    {
+      "key": "selected",
+      "bytes": 75700,
+      "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-infinity-minor-dag-receipt.json"
+    },
+    {
+      "key": "point",
+      "bytes": 87459,
+      "sha256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-constant-bockstein-789f/actual-original-infinity-constant-model.json"
+    },
+    {
+      "key": "kernel",
+      "bytes": 222788,
+      "sha256": "c008e57b7a7e80312f8ba292bb24241d53bb59d4c57b2a8d07ec1017b9de0744",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-constant-bockstein-789f/actual-original-kernel36.bin"
+    },
+    {
+      "key": "previous",
+      "bytes": 8877,
+      "sha256": "80ec709359d3530df19b075a7e4cdac7bfaa01a609c017258ed81fa658b90667",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-constant-bockstein-789f/selected-infinity-constant-bockstein-pipeline-receipt.json"
+    },
+    {
+      "key": "source-dag",
+      "bytes": 957557,
+      "sha256": "c50e7bb8558a7f637d9d6951f64ae002c96cdce06dfcb7d1a4619ea6dc07337a",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-kernels-789f/actual-selected-image-source-dag.bin.gz"
+    },
+    {
+      "key": "primitive",
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz"
+    }
+  ],
+  "historicalInputCount": 9,
+  "releaseAssetsUsedOrCreated": false,
+  "largeDataUploadedOrCommitted": false,
+  "workingDataTemporaryOnly": true,
+  "pulls": [
+    {
+      "utc": "2026-11-15 10:05:25 UTC",
+      "beforeReadCommit": "c66f749e43904742f8b8ea9778b9441a7b21dd95",
+      "originMainAfterPull": "973c45a153b50707e67c8cebdedae4bf061d47cf",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 10:05:27 UTC",
+      "beforeReadCommit": "973c45a153b50707e67c8cebdedae4bf061d47cf",
+      "originMainAfterPull": "973c45a153b50707e67c8cebdedae4bf061d47cf",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 2,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 687,
+    "logicalJsonSHA256": "0db95edbceaa1cf43a8f5a5f28f99d707e1f6a6a6ad4090ee317f727b0ec4b40",
+    "itemCount": 2
+  },
+  "lastRulesReadCommit": "973c45a153b50707e67c8cebdedae4bf061d47cf",
+  "summaryExcludesRecomputableArraysOnly": false
+}
