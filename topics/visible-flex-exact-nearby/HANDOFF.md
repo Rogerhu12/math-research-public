@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 13:25:08 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 13:26:01 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 13:23:55定时及13:09非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar/AJ及log；ref不冒pull，每小时CLI继续。
-最近只读README核：f8c9dc1a856fbc7feaceffd3f8e6453d5eef99a5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：95327c25a82cd4acb0c7b1013ba076053c2848ff；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -19,13 +19,13 @@ intrinsic ν依C6–7，最终ν*/Γ1*/Γ2*/η/metric冻结；单真G经P/9a5bcb
 ## Green v4：newton_source
 
 v3 43690634784/1旧README guard终止，0数学diag43709951426 f526d0b1/full-logdc649478；childreturn未知非数学失败，新temp失去且用户授权重做。旧future1886不重算；v2/v3全部lost计数/恢复身份保21f864c3a1737da93ccb707d73f9a47c8cd29f10同H及v4契约。
-v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。13:14 processf88c7067：32真product/±4096预检过；future3312=1886旧+1426新、past1056、product1360（含预检32）、groups0，仅最后报告非终值。真pull13:14:47.775148→9e62c9f2两README空。全193原数组验后97主块、signed W、三窗/mean/192bits不变；live indexcad95f7c只接已读非操作变更，未知规则停。published-origin容量+120KB预留、预Git小stdout、终止实文件清点、成功同身份只复用均保。完整部署/旧lost细账见9b562a9e同H和v4契约；未有full Green成功。
+v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。13:24 process5732c2f9：32真product/±4096预检过；future3488=1886旧+1602新、past1216、product1568（含预检32）、groups0，仅最后报告非终值。真pull13:24:53.546957→7b9cc1e9两README空。全193原数组验后97主块、signed W、三窗/mean/192bits不变；live indexcad95f7c只接已读非操作变更，未知规则停。published-origin容量+120KB预留、预Git小stdout、终止实文件清点、成功同身份只复用均保。完整部署/旧lost细账见9b562a9e同H和v4契约；未有full Green成功。
 数学仍fixed repaired M32 δ0/η0/ν0，继承whole_parameter_half_width1e−9不授全参数；selectedδ*低块须Dδ真实转移。
 
 ## 真共同参考与负侧源：phase_inverse
 
 负侧旧共同势/旧圆/S/G/C/D全成功锁，完整域、两sign/两column、mean/seam/源单位/失败和restore保6d87bc850bc8150bd6acbe87ee9df5b885beaf3e同H与原报告，旧root/Taylor/FFT/profile/积分不重算。K/eca5b805的真实径向两普通源→density与负body/cut映射已成，不转授完整非径向/positive/return。
-AJ/afeab152新精确T0=t+5dφ保fullmean，F=1/Q后cT与Xi由L=−Fr+dFφ−(t+4dφ)F、B+=x²+Ty²准确分解。全B逆/leading M逆/合并QG角jets、真实外RG径Cauchy与内H小量分付；新SCI32c45b33/workerc70791fe/50pin871240a7已部署，旧44pin零改；只新AJ scalar+10整项，待actual，非GH。
+AJ43718112378/1 child0/29门锁，report2ff53654/execution58462f96/result3fa08181；SCI32c45b33/workerc70791fe/50pin871240a7，旧44零改/14AST/旧math0。7/10整项改善，pair<4.527719e14、mean<2.046084e12；density0 RQJg<6.262692e9。3local原样，raw1/raw2/g1仍主导。完整T0 mean/外RG内H/cT-Xi jets/31列/径权保actual；非GH。
 P/B/L2全部成功/失败/restore保47dd93ace95c65d9858743f658244dfd6a2c9320同H与原actual；三旧run锁，B只raw1改、L2 q2=1，禁重算，volume非strong-return。
 G43714194714/1 child0/25门成功锁，reporte412153c/execution5e5f414a/result0dff8993；旧44pin/31列/真实域与径权保690b33bc同H及actual。pair<5.536113e14，后接AJ；0旧math，非strong-return。
 N43716450174/1 child0/17门锁，report59ab1bb6/execution318dd25b/result72745bf3；22pin/6cut/完整域及失败保690b33bc同H/原actual。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709，旧G贡献<5.92509e14；root/jump实际列/positive/waist/return未付。

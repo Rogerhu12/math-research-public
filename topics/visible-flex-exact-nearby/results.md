@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 AJ actual：保完整径向部分的角导与31项源界](results/R133-supplement-actual-retained-radial-angular-jets-and-complete-source-bounds.md)：public43718112378/1 child0/29门，7/10整项改善，完整pair<4.527719e14；density0 RQJg降至<6.262692e9。3local与所有未声明项原样保留；50pins/14AST，0旧math/径积分，非完整high逆或strong-return。
+
 - [R133 RV：准确径向抵消与负cover local预算](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)：L1在取模前取消ℬ′b0e1，L2改用物理b1径/角导与完整rank；旧有限Taylor和径权只读，strict-positive-addend lower与新h-tail给合法整项复用，仅local1/2可改；新scalar待，非完整high逆。
 
 - **已证明（MC 补费实际 MA）** [原始均值费用与五个恢复的完整高门](results/R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md)：公开43717700427/1 child0/12门，新增dM<4.963677e−20，五个ell2^-18 case全过；完整源下same-state条件H8193成立。其余十旧pass未重新授权；低H1/core仍未付，旧数学0重做。

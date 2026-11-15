@@ -128,7 +128,7 @@ density0=w0/density1=w1、严格inverse分支才减1、fullrank/n^-2/q=vg−vφp
 root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转授完整非径向首阶耦合、
 9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
 
-[AJ完整运输系数的角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)新证：T0=t+5dφ的全mean只留零阶，F=1/Q使cT/Xi经真实B+=x²+Ty²分解；QG/2与G^-1的角导先准确合并。原fold j/BT/BA/gap及外RG/内H两域给完整递推，μ/leading M逆不冒径向，普通高导不Cauchy收费径向常数。新SCI32c45b33/workerc70791fe/50pin871240a7已部署，原44pin零改/31列整项比；actual待，旧G不重算。
+[AJ完整运输系数角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)及[actual43718112378/1](results/R133-supplement-actual-retained-radial-angular-jets-and-complete-source-bounds.md)已成：child0/29门/math.21664545s，SCI32c45b33/workerc70791fe/50pin871240a7，旧44pin零改/14AST/0旧math。report2ff53654/execution58462f96/result3fa08181。完整T0=t+5dφ的radial mean保留，F=1/Q、全B逆、leading M逆与合并QG角jets完整；真实外RG径Cauchy和内H小量分付。7/10整项改善，pair<4.527719e14、mean<2.046084e12，density0 RQJg<6.262692e9；3local及未声明13first/8mean逐字G，主导raw1/raw2/g1仍完整。31列/真实六径权不重算，不授strong-return/GH。
 
 [RV准确径向抵消与负侧local预算](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)新证L1的ℬ′b0e1在取模前准确抵消，保ℬ″KJ+w0和iεTℬ′J+(2w0X+Xi w0)；L2改用完整物理b1r/b1φ及xy/y² rank，原1/n不改。新负cover h≤H从已存完整正算法预算减去同addend严格lower再加h-tail，绝不相减两个upper；finite Taylor、旧六row径积分不重算。只local1/2可换新整界，第三local/18nonlocal/10mean逐字最新AJ；新scalar未成，source-to-trace/GH仍待。
 
