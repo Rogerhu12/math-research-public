@@ -150,3 +150,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 [单调交换漂移的原算子界与平滑二次删除源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)已证明||ℒ*T||<90/x及同primitive源的完整真D†C1Tf、(D²)†C2Tf两列预算，来自同一y∈kerD³并有F2/F3正交拆分。后继必须付顺次伪逆新增的F2返回，不能把C2换D3或以完整(D²)†代顺次逆；实际同u混合仍未闭。
 
 [特定平滑源的顺次返回与二次窗口](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)已由R254真正primitive右逆支付D†Π1C1Tf，并保全部partial：对y=ℒ*Tf、f primitive，返回≤180/x+2048e^.5√(p+2)(x+p+2)^1.5/x²；p≤Q=L0h²、h/x有界时为O(Q)。当前缺口转为actual u或Tu的受控同源表示；不能把此特殊range自动等同实际端点。
+
+[原s=2十五条完整一阶首项](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)实际全185640原乘回并得9×15平方读数全零；任意同首项校正的读数由全22常核保证不变。尚未穷尽更高正常次数校正，完整第一连接仅知秩≤7；未构λ2、未证h0局部成员性。现只添唯一原弱方向的纯三次校正，复用原583单位及22实际RHS，检查是否增头。

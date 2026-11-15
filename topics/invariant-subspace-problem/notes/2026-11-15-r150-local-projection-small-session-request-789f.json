@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "2c75543b97a390b04b129ac0ddeacd18fa4bd200",
+  "rulesReadAtCommit": "107299cbfebb8f5af21ea1f37539e448896e14ee",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -159,6 +159,63 @@
       ],
       "timeoutSeconds": 225,
       "receiptPath": "{work}/original-characteristic-zero-free13-projection/original-characteristic-zero-free13-projection-receipt.json"
+    },
+    {
+      "id": "two-one-weak-cubic-first-jet-extension",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-one-weak-cubic-first-jet-extension-789f.py",
+      "scriptSHA256": "b529d51efeb7195f3783576035f7c5e32e9a94a3bb1f8c44582177ba9dc51843",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+          "sha256": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+          "sha256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43736746064-two-directed-original-left-two-jet-resume600.json",
+          "sha256": "2a75b4dba0b1e28902bc3a441ec7ce03a7e7fbdf46abfa5c138f4f7ab29b269a"
+        }
+      ],
+      "argv": [
+        "--paid-probe",
+        "{scripts}/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+        "--paid-receipt",
+        "{scripts}/43736746064-two-directed-original-left-two-jet-resume600.json",
+        "--paid-checkpoint-dir",
+        "{work}/two-directed-left2-checkpoint",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--constant-receipt",
+        "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+        "--checkpoint-dir",
+        "{work}/two-directed-cubic-left1-checkpoint",
+        "--out",
+        "{work}/two-directed-cubic-left1-receipt.json",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/two-directed-cubic-left1-receipt.json"
     }
   ],
   "previousSession": {
@@ -173,5 +230,5 @@
     "temporaryDataNoLongerAvailable": true,
     "oldStepsAreNotReplayed": true
   },
-  "mathematicalProgramStatus": "Original s2 first run completed constant-heads155x22 and rank583 constant kernel585x2; continue those immutable same-job checkpoints for600s. A single pinned legacy primitive input is restored for forthcoming exact Q13 work."
+  "mathematicalProgramStatus": "Actual Q13 primitive original kernel proved with characteristic-zero output projection length2; s2 restricted15 first heads have all9 square reads zero. Extend only by one true weak cubic against the verified immutable same-job parent cache."
 }

@@ -299,3 +299,7 @@
 ## 2026-11-15：明确平滑源的完整顺次返回已达二次窗口尺度
 
 [顺次MP返回和二次窗口费用](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)用原R254相容原像在真正primitive源上给完整逆上界，准确保留D†Π1C1Tf及两端partial，得到y=ℒ*Tf列的O(Q)返回。actual同u来源识别仍开，不以特殊列预算宣布N=M。
+
+## 2026-11-15：原二点十五首项与九平方零读数
+
+[真实一阶左jet的完整核验](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)在原6188来源上核全部两阶185640项，B秩583、增广秩590，首项恰15维且九平方一阶读数全零。同头任意完整校正读数不变；未证明全一阶首项分类、二阶延拓或局部成员性。
