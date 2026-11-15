@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual43695160055：完整加权Q门及端点余量](results/R133-supplement-actual-cached-weighted-cap-Q-and-endpoint-margins.md)：child0/21门/math1.277747273s；q_w<3.561348304031e−6<1e−5、K_e<4.898174641284，1346新mean Bernstein/28pin，其余旧数学0重算。全σ源/独立mean/真实outer/无限端尾保；实际scalar端image<6.827271113222e−10，满足E全部数字假设。仅消费报告，不冒全BVP；下一条单独应用E存在性。SHA256 ef8013989ea063657e9636415719fdf6fa27f8484765022d73d7361bc00d8d7a。
+
 - [R133 actual43694458725：整根片真实signed Taylor](results/R133-supplement-actual-whole-root-piece-signed-reference-Taylor-bounds.md)：child0/9门/math7.215183343s；67pin/54旧Taylor+2stage，0旧数学重算。三输出角窗保全部p≤2/q≤3/independent mean与旧R0、新Rs两全尾；实角fb/b1零阶<14.228337/14.600552、二径仍<1.526e12/1.569e12。只授完整幅度/forcing，不授新完整Nraw、complex角reference列或正Schur/全high。临时native SHA675453a8…不持久化；报告SHA4de2b07261105a786af546c1a3d9d78ddd8f91291f7a3a3da734ac8a57746423。
 
 - [R119 B：有限正则Nash归纳与完整端口条件](results/R119-supplement-finite-Nash-iteration-in-reference-graph-with-port-conditions.md)：真graph平滑v=S_Tu、w=−R_v S_Tf无二次截断，source loss1734/bg1796、a1856/b6396；p3000/增长5/4，high3500/400，全低误差≤C*T^-4220、高精确1*T320+C*T274。T0^126≥16C*与独立实际初残差门付body收敛/holonomy mean；第11节逐项保全Schur/height/ν/charges/commutator与augmented入口。旧94只同端口Sob转授，不冒全对象entry。SHA256 7ad04c3b8c1573ae9c5ddd0853efc421779a56aff99d676e879306746a775736。
