@@ -15,8 +15,8 @@
 - [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九实际费1339，全原来源/输出及carry真；不重旧模页，数据依规则仅历史可查。
 - **[真Q标准Koszul支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：** run43679903558/math33.711323768秒，原1603方块Dixon+全部1834残差，29列全6188来源/4367整数输出真，36自由像rank29、并旧23仍29。故旧23确属该空间，新增6真方向，char0同选秩4318…4325；标准族已穷尽，继续其外至多7个未定方向。
 - 同4354选列mod31秩4318/连接3/36自由I，勿混全6188秩4340/连接4。**[前29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)**实核0.063932317秒，top29det mod31=1、bottomQ全0；W∈Z_(31)，前29全有真规范核，剩余空间直和至多7维且全在标准族之外。删前29自由列保Q列像；七方向存在性未付。
-- [187注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)、[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)及[31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)均已付；ΓΦ=I，标准来源31饱和，但投影不保J。
-- [旧p768/闭包/LLL记录](notes/2026-11-15-handoff-before-twentynine-exact-kernels-789f.md)全部保留，不重已闭入口。[新六规范源高度](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)实际3.456136225秒，全6188余一致/全4367整数真；分母2356…3803bit、最大分子3868bit，六列均超p768平衡及乘积充分界，不排所有算法。
+- 标准1632族已证原来源注入、保成本头及31整左逆，ΓΦ=I、族31饱和；投影不保J，完整证明链接均在open及已得结果。
+- 旧p768/闭包/LLL入口均已闭，见[完整历史H](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。新六规范源完整同余/原整数乘回真，分母2356…3803bit超p768平衡界；不续旧候选或盲加位数。
 - 原17式线性rank8/二次rank17、m0/m1的31单位真消元已付；有限来源运输仍保。[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)须同费用/目标/分母指数于无界精度可解；p6不足。原D自然度8770、公共有限K60；任何条件降度须先有Q[s]成员性，模幂降度另需lc(D)31单位，均未证。
 
 - **[统一条件成本](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)：** 同选真核数c≥15给8755−c，换列只保c−1阶；当前29真核故条件cost≤8726、非基≤8725。仍须原目标成员性，lc(D)31单位及固定e全精度未付。
@@ -40,6 +40,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - **[真实相对孔Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)：** K=Σ[z^k](φ/z)^J T^k，TK=Kφ(T)、逆/全旗/裸商/首源g均精确；同g同余比较全/裸最小Gram。τ14=12.5d³+26.75d²+…，R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(-d³/64+54d²)→0。新头ψ_m(A+E)/d0保全部E混合，不运输左L，不相减Gram或称两费已付。
 
 - **[强Boolean完整Artin线性化](results/R271-appendix-strong-boolean-artin-linearization-and-physical-source-metric.md)：** 真有限代数α及物理V把全部ψ(A+E)混合化为分级L，完整左/右/裸来源均保；其真实V*V、全核Schur和差商逆不能删。本文特定α的N模型反向V*f1≥exp(25d⁴/4−105d³/8−O(dlogd))，只排该列廉价估计，不是Green反例，也不排其它Artin替换。
+
+- **[保强孔的真实线性规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω(B)=d0F(B)/B、W=ω(B)^Ns，逐行严格CW=WLω(B)；W及逆/伴随都固定强真空测试。完整核G=i*W*Wi、forcing=i*f保原总次数，Green输入为ω(B)^-* [f−W*WiG^-1i*f]。G逆跨次数与共同高孔残量尚须付；裸J(L)^-*虽可四次指数爆大，f0的真正Green恰零，不能拆估或外推反例。
 
 ## 当前临时计算会话与可恢复身份
 
