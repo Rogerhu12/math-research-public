@@ -17,3 +17,5 @@
 - 2026-11-15 06:58:04 UTC，Astra-new-mechanism-9974ea84：SOC缩放源码/设计根审完成即提交新单lane。完整helper/580行lib/driver均读，最后缺失/非有限/错误形状primal只拒proposal/禁dual而不破坏checkpoint。准确变量/辅助界/正行缩放与原单位对偶映射核过，全部验收和原预算保持；一次growth→一次strip→一新stage，实际controller和池/源码/系数绑定。新增人工完整IO已过，末guard仅对应新小mock，最终公共check将执行最终全部新人工；本地不重科学/旧开发。98args逐项只改index49输出名，21源码SHA绑定；workflow只增新lane/flag/98门/native-summary，printer不改。输出仅临时，科学表直接stdout。
 
 - 2026-11-15 06:59:33 UTC，Astra-new-mechanism-9974ea84：现有34列局域性纸证完整即推。root核准确B样条支撑、入口权恒1、T水平半转/竖直反射分别闭合、固定b/zc下逐圈Π六jet差，及B7末段有理式；新增六次独立性明确支持在(117/1000,tf)，不把入口加权五次误作全域五次。外域不动不付全域最大曲率、其他体段门或非局部reach，不预判必须增维。SOC首次run43687834522/sourcef03c4eb/job132731961031已启动，新科学尚未完成。前两条日志时间改为对应实际提交记录的UTC秒，科学内容不变。
+
+- 2026-11-15 07:04:19 UTC，Astra-new-mechanism-9974ea84：最后候选pure−4的独立consumer be5d2ffa/设计8eaa4017全文根审并派发。R139完整40响应只读pure，原basis身份与10旧依赖只核来源，不重复；N0全部负权参考减项、4非恒log模W及R0例外边界保。114势请求44已存/70必要输入恢复与本次197静态/62v2/78v4/≤164新收缩清楚分账。同Γ/全14族/R178–179原核、完整原列回代与stdout全别名坐标保留。只4本目标新人工，公开首次重走最终source的新开发后研究；工作流/发布器只加新lane，28源SHA，当前SOC run不重跑。
