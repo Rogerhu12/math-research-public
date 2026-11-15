@@ -1,0 +1,914 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43679903558",
+  "stepId": "koszul-exact-rational-support",
+  "executionSourceCommit": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-exact-rational-support-solve-789f.py",
+  "scriptSHA256": "0689aec8f35c098a3d1e831297b94102ec38596fe724ac63cdf4bbc9c012e7a2",
+  "argvTemplate": [
+    "--helper",
+    "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+    "--point-model",
+    "{selected_model}",
+    "--prepared-dir",
+    "{work}/koszul-exact-sparse-preparation",
+    "--out",
+    "{work}/koszul-exact-rational-support",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 345,
+  "exitCode": 0,
+  "wallSeconds": 33.847712049999245,
+  "fullTemporaryReceiptBytes": 18271,
+  "fullTemporaryReceiptSHA256": "1615d967b7e004803e82b8a057d106d0de7617788a5e573ed65d04f48f1aa47f",
+  "result": {
+    "format": "isp-exact-rational-selected-koszul-support-v1",
+    "status": "completed",
+    "secondsLimit": 300.0,
+    "memoryMiBPerProcess": 2048,
+    "oldNormalFormsRecomputed": false,
+    "newOriginalDixonDigitsComputed": 0,
+    "largeFilesTemporaryOnly": true,
+    "largeDataUploadedOrCommitted": false,
+    "allOriginal4367IntegerProductsZero": true,
+    "coreRows": 1808,
+    "coreVariables": 1632,
+    "unitRankModulo31": 1603,
+    "candidateGraphColumns": 29,
+    "mathematicalElapsedSeconds": 33.71132376800051,
+    "selectedStandardKoszulDimensionOverQ": 29,
+    "outsideSupportRankOverQ": 1603,
+    "complete36FreeImageRankOverQ": 29,
+    "unionWithPaid23FreeAxesRankOverQ": 29,
+    "newTrueIndependentDirectionsBeyondPaid23": 6,
+    "selectedOriginalMatrixRankLowerBound": 4318,
+    "selectedOriginalMatrixRankUpperBound": 4325,
+    "all1834OutsideSourceCoefficientsZero": true,
+    "completeKernelDimensionCertifiedOverQ": true,
+    "paid23FreeAxesContainedInNewExactImage": true,
+    "parameters": {
+      "binding": "10890e55000e9e0554b2488f333b899dbf224421e5bf091adc24d396348cc6a4",
+      "inputIdentity": {
+        "codeSHA256": "0689aec8f35c098a3d1e831297b94102ec38596fe724ac63cdf4bbc9c012e7a2",
+        "core": {
+          "bytes": 292828,
+          "sha256": "d9645a8cda617528a6c4a047291e56df6530cb81631e9579f4552a8f8dd3285c"
+        },
+        "original": {
+          "bytes": 814572,
+          "sha256": "0aa2d6d5c368b9885e279cd5b8e2cc7a59ba574ca161c0535193c30defe52d3d"
+        },
+        "helper": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428",
+        "point": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074"
+      },
+      "preparedBinding": "504e56f3cdd71d9527fbf7db4d0b37eff12c55e57b20a7292171c7d1c40806e0",
+      "declaredPaid23Slots": [
+        0,
+        1,
+        2,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        20,
+        22,
+        24,
+        3,
+        5,
+        6,
+        7,
+        21,
+        23,
+        25,
+        8,
+        9,
+        15
+      ],
+      "exactSolveDoesNotTreatMod31CoefficientsAsRational": true,
+      "temporaryFiles": [
+        {
+          "file": "exact-unit-block-profile.json",
+          "bytes": 14408,
+          "sha256": "bfd8526e2f0e591a974fae3fbb24f0a67042301cbf3f2176afba4d167f55f01e",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-unit-block-solution.json.gz",
+          "bytes": 2083118,
+          "sha256": "74716e223a73dae42ca08bda591cc809cb4be565f37a3559bd05f0b24cf979f2",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-unit-block-solve-receipt.json",
+          "bytes": 396,
+          "sha256": "f8f2129886ec143a1b910c1ba6052e49ad23db005475d2a6e7f187193640bb76",
+          "temporaryOnly": true
+        },
+        {
+          "file": "complete-original-outside-graph-residual.json.gz",
+          "bytes": 2867,
+          "sha256": "3876ac7a815a329d96c551cacc8ae32983ec5c99609a82429dd8bef3a46a39ab",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-koszul-source-coefficient-basis.json.gz",
+          "bytes": 1670175,
+          "sha256": "b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-000.json.gz",
+          "bytes": 49698,
+          "sha256": "33b089e3a3074c5b4ad3f01b52a4209bfa58bbe35ea45cf42819e6b0271b08a2",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-001.json.gz",
+          "bytes": 49887,
+          "sha256": "8151d368f17a6322babc88c6587c139cdf08584ab811b9b2d7e62201845d7aeb",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-002.json.gz",
+          "bytes": 50068,
+          "sha256": "64065c34fedd969d2faf0f1f383188cf8d3307f7f99a1322965d7900b01b8f6d",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-003.json.gz",
+          "bytes": 50203,
+          "sha256": "7af59a3909b2faa870eaaa35462349ec1dfdb1241afaeb5732efff67a32ad973",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-004.json.gz",
+          "bytes": 742801,
+          "sha256": "7d17d14c54bb833be138781620a42c990e413009444d45434f1701e87320d39d",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-005.json.gz",
+          "bytes": 48066,
+          "sha256": "f7d9b1cd58242295a9d7a5c5a8c78bca6943464020ee59e3bfa332836ebba8b6",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-006.json.gz",
+          "bytes": 48246,
+          "sha256": "8c6655e31cc6ebc399ebfaeb89b328480aacc1bafb2e04b4c96aa3a7ad69f321",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-007.json.gz",
+          "bytes": 48396,
+          "sha256": "1458cfa50639c6656121fd66af9cb841a3ac90290cb566bc48e2c5459c82ca45",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-008.json.gz",
+          "bytes": 48546,
+          "sha256": "4546005b185470b9f464d3a81d535492cc51166dfeb77ec5f9022d3c5f38949c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-009.json.gz",
+          "bytes": 690759,
+          "sha256": "e36269d9d7509685b0f241d86c9e6e670ba355c7d916f21ede0c475221e9c1f1",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-010.json.gz",
+          "bytes": 942105,
+          "sha256": "cb27fe436843bedb54c77497a62d3e53e114c2700fc051032a8024a28e290465",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-011.json.gz",
+          "bytes": 1482277,
+          "sha256": "dc5761b1346e7dc536705436afa6c1fa44114a1fdff1e54246df44cf210a1f91",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-012.json.gz",
+          "bytes": 50779,
+          "sha256": "b0d19259e39774ca3f3ff8bcb2ff18df39c8766612e16141b38146cf0e24c934",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-013.json.gz",
+          "bytes": 50985,
+          "sha256": "b50a9515b1bc74d20774ab33b38d87fd46da52a81f0ff4cccd19ee9de2d0ed34",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-014.json.gz",
+          "bytes": 51143,
+          "sha256": "021ac1a3d40dd1d565cbba7fd9852e15cf1338a3b092a1593892559f2a438d52",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-015.json.gz",
+          "bytes": 51286,
+          "sha256": "fad2565216b1add717156ae977b595a48ae1ba5bac32e9732ea5af49408c4ed9",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-016.json.gz",
+          "bytes": 50438,
+          "sha256": "9dc2c88261901f93ec7ed5334f3eb807eb8fb6a74b977a261231a88c7abedb0d",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-017.json.gz",
+          "bytes": 51175,
+          "sha256": "6cff9d29b3bfe973607d144dc3706d626dc923b2909391250896eb4c9857609e",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-018.json.gz",
+          "bytes": 65248,
+          "sha256": "efac03450a3712ffcb55f38b6e6b41af22843ed82f8f5d81137d76e90435fe11",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-019.json.gz",
+          "bytes": 65448,
+          "sha256": "fb294ee0eb9357c7fd24432dd41572cd483b665847ddd9dd4bcfe3483c90a43b",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-020.json.gz",
+          "bytes": 65631,
+          "sha256": "e6b138b93f5a636e60fafccdcb85c385f5801648898d5dfb98667ac31c3e7ff9",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-021.json.gz",
+          "bytes": 65798,
+          "sha256": "4e4d196004d3486b969ba23698fa43241f830139922267eae4b34c17648a8d9c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-022.json.gz",
+          "bytes": 997643,
+          "sha256": "f3467cc99f681d4a1cc8b4e428b8551f8618e2f008c585deaba641427972d391",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-023.json.gz",
+          "bytes": 1151813,
+          "sha256": "96bd1cf308fd0f38142703676cdff9cdd0e50f929c76f82a653b52d42ded4802",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-024.json.gz",
+          "bytes": 1861175,
+          "sha256": "fec27dbfeb9f186e23ad918e7d940290ffa3a64041d8bad41220950ceda90b97",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-025.json.gz",
+          "bytes": 65678,
+          "sha256": "126768fc754d61c4077bbbef47d4000765f9df286719a37ee0dc3d114ffc8a62",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-026.json.gz",
+          "bytes": 66352,
+          "sha256": "434605b53c387038456b60c7035d9d465b80ce41438e4c490c2a3e040694f794",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-027.json.gz",
+          "bytes": 96913,
+          "sha256": "742fa2fd1fb99dd21ff22f0254a486c79efca9f6c414998e99c8a19a0b2b4260",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-kernel-028.json.gz",
+          "bytes": 97005,
+          "sha256": "2c573077009d880a0c63695aa7e7b2a38b962e5e934dce843670d9c975e8b3d9",
+          "temporaryOnly": true
+        },
+        {
+          "file": "exact-selected-koszul-free36-image.json.gz",
+          "bytes": 29488,
+          "sha256": "24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249",
+          "temporaryOnly": true
+        }
+      ],
+      "verifiedColumns": [
+        {
+          "column": 0,
+          "sourceSHA256": "973dbac6a52ae3bfae4677593970c43a25fd7c885049cd1ea811990d015bd175",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-000.json.gz",
+            "bytes": 49698,
+            "sha256": "33b089e3a3074c5b4ad3f01b52a4209bfa58bbe35ea45cf42819e6b0271b08a2",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 391,
+          "nonzeroOriginalSourceRows": 793,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 1,
+          "sourceSHA256": "364d38a31cdfbefa5fd38e43ed6349908dc83285f9f785a8e9be375e6925dd18",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-001.json.gz",
+            "bytes": 49887,
+            "sha256": "8151d368f17a6322babc88c6587c139cdf08584ab811b9b2d7e62201845d7aeb",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 391,
+          "nonzeroOriginalSourceRows": 793,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 2,
+          "sourceSHA256": "cc318573e6165899de1ced0eaec58c840c3e2449fa17b7a1778b1d55a58ccf97",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-002.json.gz",
+            "bytes": 50068,
+            "sha256": "64065c34fedd969d2faf0f1f383188cf8d3307f7f99a1322965d7900b01b8f6d",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 391,
+          "nonzeroOriginalSourceRows": 793,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 3,
+          "sourceSHA256": "e7ee73482bd65210dd4e85a31619579128b840f86d86c4c4a23283bb57910738",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-003.json.gz",
+            "bytes": 50203,
+            "sha256": "7af59a3909b2faa870eaaa35462349ec1dfdb1241afaeb5732efff67a32ad973",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 391,
+          "nonzeroOriginalSourceRows": 793,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 4,
+          "sourceSHA256": "9b1008d7934c4393fcbd7271a787141e5809b7ff49f02c09d334127b91827d86",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-004.json.gz",
+            "bytes": 742801,
+            "sha256": "7d17d14c54bb833be138781620a42c990e413009444d45434f1701e87320d39d",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 1147,
+          "nonzeroOriginalSourceRows": 3603,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 5,
+          "sourceSHA256": "4e383df10b15f9acccff426547616681e12216aefc00348e9bac7a8491c47d7c",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-005.json.gz",
+            "bytes": 48066,
+            "sha256": "f7d9b1cd58242295a9d7a5c5a8c78bca6943464020ee59e3bfa332836ebba8b6",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 385,
+          "nonzeroOriginalSourceRows": 825,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 6,
+          "sourceSHA256": "8e8cd755c2fbe7b0ee035b697adac10f400e03bae7c721fbe17246ed77e05f27",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-006.json.gz",
+            "bytes": 48246,
+            "sha256": "8c6655e31cc6ebc399ebfaeb89b328480aacc1bafb2e04b4c96aa3a7ad69f321",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 385,
+          "nonzeroOriginalSourceRows": 825,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 7,
+          "sourceSHA256": "af9972b2ab872a7b22c73149ac4ca2d1ca40c723bfe13bf1d58cee3504d65d44",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-007.json.gz",
+            "bytes": 48396,
+            "sha256": "1458cfa50639c6656121fd66af9cb841a3ac90290cb566bc48e2c5459c82ca45",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 385,
+          "nonzeroOriginalSourceRows": 825,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 8,
+          "sourceSHA256": "e2f99140ec58136c7633336e56eb36170e54406ff0ff65c5c118958c460d89df",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-008.json.gz",
+            "bytes": 48546,
+            "sha256": "4546005b185470b9f464d3a81d535492cc51166dfeb77ec5f9022d3c5f38949c",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 385,
+          "nonzeroOriginalSourceRows": 825,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 9,
+          "sourceSHA256": "cbc2802342e26aff91e4c8a6f7e7248dfc0564d1ccfbed98415c66d17a78792f",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-009.json.gz",
+            "bytes": 690759,
+            "sha256": "e36269d9d7509685b0f241d86c9e6e670ba355c7d916f21ede0c475221e9c1f1",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 1096,
+          "nonzeroOriginalSourceRows": 3679,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 10,
+          "sourceSHA256": "65128a607c2fd84950da42f74f41f275de2c191babf5a3398bfbbe3924251c17",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-010.json.gz",
+            "bytes": 942105,
+            "sha256": "cb27fe436843bedb54c77497a62d3e53e114c2700fc051032a8024a28e290465",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 1364,
+          "nonzeroOriginalSourceRows": 3761,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 11,
+          "sourceSHA256": "bd866f325ad432d4e5b5613ad05d10f1878e2a4e8f31c0b1ada56ea7587cc130",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-011.json.gz",
+            "bytes": 1482277,
+            "sha256": "dc5761b1346e7dc536705436afa6c1fa44114a1fdff1e54246df44cf210a1f91",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 2071,
+          "nonzeroOriginalSourceRows": 3817,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 12,
+          "sourceSHA256": "3f331cb128d16cc2f7788efef48a67aaaa5fcec4b5e522f556a3c3e5d8ad57d2",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-012.json.gz",
+            "bytes": 50779,
+            "sha256": "b0d19259e39774ca3f3ff8bcb2ff18df39c8766612e16141b38146cf0e24c934",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 396,
+          "nonzeroOriginalSourceRows": 849,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 13,
+          "sourceSHA256": "dc1511b1c30ad63a598be85294f1cb66e6d9999621ed229144bfbe58f188acf6",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-013.json.gz",
+            "bytes": 50985,
+            "sha256": "b50a9515b1bc74d20774ab33b38d87fd46da52a81f0ff4cccd19ee9de2d0ed34",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 396,
+          "nonzeroOriginalSourceRows": 849,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 14,
+          "sourceSHA256": "a1bc2f967413ddd3071b588d58e85e8c2ee5f33236d8aa193cb7f4b047ad6037",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-014.json.gz",
+            "bytes": 51143,
+            "sha256": "021ac1a3d40dd1d565cbba7fd9852e15cf1338a3b092a1593892559f2a438d52",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 396,
+          "nonzeroOriginalSourceRows": 849,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 15,
+          "sourceSHA256": "9fc55f801941100e9cb4b25a0658638fe5ea8a28475d5d77efec9425962f1ea3",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-015.json.gz",
+            "bytes": 51286,
+            "sha256": "fad2565216b1add717156ae977b595a48ae1ba5bac32e9732ea5af49408c4ed9",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 396,
+          "nonzeroOriginalSourceRows": 849,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 16,
+          "sourceSHA256": "754a9d3a7387ca6591fc5883218c4085b488d69297a1f0c56be76451d47dcd89",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-016.json.gz",
+            "bytes": 50438,
+            "sha256": "9dc2c88261901f93ec7ed5334f3eb807eb8fb6a74b977a261231a88c7abedb0d",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 394,
+          "nonzeroOriginalSourceRows": 851,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 17,
+          "sourceSHA256": "a7713e2f62023e1311f70059897a7e8147f0be6a5dba2f77145dd0d193942f84",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-017.json.gz",
+            "bytes": 51175,
+            "sha256": "6cff9d29b3bfe973607d144dc3706d626dc923b2909391250896eb4c9857609e",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 398,
+          "nonzeroOriginalSourceRows": 851,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 18,
+          "sourceSHA256": "454f77961992d2107180c5cd783fef08b3f6ba7e63664ba3752b3dd0cf215252",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-018.json.gz",
+            "bytes": 65248,
+            "sha256": "efac03450a3712ffcb55f38b6e6b41af22843ed82f8f5d81137d76e90435fe11",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 480,
+          "nonzeroOriginalSourceRows": 838,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 19,
+          "sourceSHA256": "4fd92a4c88cdb858a6a6b215df66ff98a791da473b1a79bcb3b8cafe08a5d341",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-019.json.gz",
+            "bytes": 65448,
+            "sha256": "fb294ee0eb9357c7fd24432dd41572cd483b665847ddd9dd4bcfe3483c90a43b",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 480,
+          "nonzeroOriginalSourceRows": 838,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 20,
+          "sourceSHA256": "454833d1b7b309573d5839e1946f58c3d616ca9239465f218423b4570dfed2b8",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-020.json.gz",
+            "bytes": 65631,
+            "sha256": "e6b138b93f5a636e60fafccdcb85c385f5801648898d5dfb98667ac31c3e7ff9",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 480,
+          "nonzeroOriginalSourceRows": 838,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 21,
+          "sourceSHA256": "30c4afb303615d85e50220b769fac8a8ff8ec8887fefc79b92ce20f65ee7d55b",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-021.json.gz",
+            "bytes": 65798,
+            "sha256": "4e4d196004d3486b969ba23698fa43241f830139922267eae4b34c17648a8d9c",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 480,
+          "nonzeroOriginalSourceRows": 838,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 22,
+          "sourceSHA256": "81f4c74e67ddb844857e321f27656a037e645c6490dba38e06b143851bcf0a52",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-022.json.gz",
+            "bytes": 997643,
+            "sha256": "f3467cc99f681d4a1cc8b4e428b8551f8618e2f008c585deaba641427972d391",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 1373,
+          "nonzeroOriginalSourceRows": 3918,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 23,
+          "sourceSHA256": "be46ff9d88b4646a099e42e016e7a6495d9691ea20963c3c1bbb4bf6a6540a0a",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-023.json.gz",
+            "bytes": 1151813,
+            "sha256": "96bd1cf308fd0f38142703676cdff9cdd0e50f929c76f82a653b52d42ded4802",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 1556,
+          "nonzeroOriginalSourceRows": 3953,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 24,
+          "sourceSHA256": "d907c135b7eb58ae41f653a1f98f38ed4ad4e900b15b2cf1b1b3ea99dea1c66c",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-024.json.gz",
+            "bytes": 1861175,
+            "sha256": "fec27dbfeb9f186e23ad918e7d940290ffa3a64041d8bad41220950ceda90b97",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 2428,
+          "nonzeroOriginalSourceRows": 4009,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 25,
+          "sourceSHA256": "06e8891b902e77cda52a3ec5135a1133520f122fa51c1c2e8cbbc84695d9d085",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-025.json.gz",
+            "bytes": 65678,
+            "sha256": "126768fc754d61c4077bbbef47d4000765f9df286719a37ee0dc3d114ffc8a62",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 483,
+          "nonzeroOriginalSourceRows": 838,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 26,
+          "sourceSHA256": "17c0d9aa55ea0204e1b23f6f3b6aef09251a70e484d2ce01f63d202b37b284ce",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-026.json.gz",
+            "bytes": 66352,
+            "sha256": "434605b53c387038456b60c7035d9d465b80ce41438e4c490c2a3e040694f794",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 486,
+          "nonzeroOriginalSourceRows": 840,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 27,
+          "sourceSHA256": "44d79d148da4f0771fd9ae405bbd15e23496bc46ea604d8de816b6860228f20d",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-027.json.gz",
+            "bytes": 96913,
+            "sha256": "742fa2fd1fb99dd21ff22f0254a486c79efca9f6c414998e99c8a19a0b2b4260",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 658,
+          "nonzeroOriginalSourceRows": 899,
+          "all4367ExactIntegerProductsZero": true
+        },
+        {
+          "column": 28,
+          "sourceSHA256": "095fd5011074815ca0e47bb7ff1f073ae0cc7244493ef8fb992e2da3d1d49c97",
+          "certificate": {
+            "file": "exact-selected-koszul-kernel-028.json.gz",
+            "bytes": 97005,
+            "sha256": "2c573077009d880a0c63695aa7e7b2a38b962e5e934dce843670d9c975e8b3d9",
+            "temporaryOnly": true
+          },
+          "maximumSourceIntegerBits": 658,
+          "nonzeroOriginalSourceRows": 899,
+          "all4367ExactIntegerProductsZero": true
+        }
+      ]
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 05:10:24 UTC",
+      "beforeReadCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:38 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:40 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:45 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:47 UTC",
+      "beforeReadCommit": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "originMainAfterPull": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:48 UTC",
+      "beforeReadCommit": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "originMainAfterPull": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:17:55 UTC",
+      "beforeReadCommit": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "originMainAfterPull": "d2df6a718eaf3fdb08c5875a1296b9d5bc797fe9",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:19:44 UTC",
+      "beforeReadCommit": "d2df6a718eaf3fdb08c5875a1296b9d5bc797fe9",
+      "originMainAfterPull": "1f1dc3d0e9b17d3f124b642395506ebc7e068652",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:32:35 UTC",
+      "beforeReadCommit": "1f1dc3d0e9b17d3f124b642395506ebc7e068652",
+      "originMainAfterPull": "7dcf76d0cc3545dfd741553e32ddd1ab2d076d21",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:32:49 UTC",
+      "beforeReadCommit": "7dcf76d0cc3545dfd741553e32ddd1ab2d076d21",
+      "originMainAfterPull": "8238d63b1919fd6968b71d83c90af1c450a49eb4",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:39:37 UTC",
+      "beforeReadCommit": "8238d63b1919fd6968b71d83c90af1c450a49eb4",
+      "originMainAfterPull": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:39:52 UTC",
+      "beforeReadCommit": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "originMainAfterPull": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:53:36 UTC",
+      "beforeReadCommit": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "originMainAfterPull": "01257b6763f020c18074d829fff94dee9d663658",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:55:02 UTC",
+      "beforeReadCommit": "01257b6763f020c18074d829fff94dee9d663658",
+      "originMainAfterPull": "07363e56a1bb59c41c3ccc4341e640fd4d75146d",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:00:08 UTC",
+      "beforeReadCommit": "07363e56a1bb59c41c3ccc4341e640fd4d75146d",
+      "originMainAfterPull": "b0a612da885619690067cac0e90da621dba9dbf0",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:01:55 UTC",
+      "beforeReadCommit": "b0a612da885619690067cac0e90da621dba9dbf0",
+      "originMainAfterPull": "d4a694406c8fdbc8770a45df1e2ba62a4bf9f648",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:13:05 UTC",
+      "beforeReadCommit": "d4a694406c8fdbc8770a45df1e2ba62a4bf9f648",
+      "originMainAfterPull": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:13:07 UTC",
+      "beforeReadCommit": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "originMainAfterPull": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:32:03 UTC",
+      "beforeReadCommit": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "originMainAfterPull": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:32:04 UTC",
+      "beforeReadCommit": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "originMainAfterPull": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:37:30 UTC",
+      "beforeReadCommit": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "originMainAfterPull": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:38:04 UTC",
+      "beforeReadCommit": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+      "originMainAfterPull": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "lastRulesReadCommit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc"
+}
