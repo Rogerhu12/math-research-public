@@ -50,7 +50,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 已成且禁止重算：R774共同56Hodge三积，R775 M2/M6/M12及普通power1..6配方，R781原f4的R0..142与κ幂，R786原power1..5 q0..128，R790原146个M2的CM值/首粗导，R791原Hom/实下降，R794五维低次数η基，R795原1506个V6 q0..81，R796原CM的144条全局二次关系及length2，R798真实1506选行minor和690个τ³V3积。具体真实来源、耗时与输出SHA保各certified结果和上述归档。
 
-**R787**：run43683912711/source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23仍运行；原V5 1234列、129条件、14分支同主元同自由坐标，原L全残差Dixon。结果只认真实非零A/B及全部129×20准确代回。预算停按原源断点续接，不能用未知special h¹预填核维或丢弃已成阶段。
+**R787**：run43683912711/source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23于11:06:48UTC实际BudgetStop，未有原完整A/B。原V5 1234列、129条件、14分支同主元同自由坐标，core93d3d72b不变；artifact14159006977为5,148,711,108B/32652fdb，manifest613f436b共1517项。续算只改IO：逐全包哈希后恢复每prime最新完整Dixon及所有其它已成阶段、原输入包；原数学核/配置不变，不改用R802或预填kernel。结果仍只认真实非零A/B及全129×20准确代回。
 
 **R797/R799/R800**：公开run43693453831/43695571499/43696070150已success，完整输出已由公开纯IO run43699442183核过；三者的准确实际结果均已登记，原回执/每项SHA可直接消费。分别为五条新映射170/172/176/193/196条件的原Laurent；原V6尾82..108和新V7/V8最小短基；146原M2尾129..195。R797最后清行另需各自κ^N，仅增一次乘法，不能多跑R_N。所有raw仅一日活跃artifact/bundle。
 
@@ -62,15 +62,20 @@ R793保原V6 142条件、第二关系/rank1116及264维残余；固定degree272�
 
 **R802（已证明）**：[原半线性奇偶与七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)区分c0、σ−1与全局cY，原扭曲给q/v负号；原y奇阶在Fb(tξ)、偶阶在sFb(tξ)，κ固定，R_m带s^(m mod2)。原全球±截面掩码保82¹⁰，固定B与反固定A的非零关系可在七次Fb求解；七分支必须同自由归一，末端两真实右端恢复原1234基并全129×20认证。实际r±/minor/kernel尚未计算，当前不改R787。
 
-**R803（已证明）**：[单原映射复用与694维混合比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)给42项/1680Q行的准确M6注入、四条原补行和五个旧56张量新收缩；U0不重算，一个694有理块至多84右端并全行代回。保原T为Galois+目标同构，由Uj/U0、原A/B及Wronskian给真实x比和群律，不除未知整同源。真Norm与b⁷/Nb、符号变换主函数、反实Lambda/s、原R794矩阵和全部高度常数保持。较小符号路线m≤8、N≤202，仅真选该消费者时补V8 q196..201。R803公开仅混合比值任务run43702905620/source2a3f5be76已运行，core1233536f/wrapperb8cedc8f、781原输入实际IO全过；当前尚无新minor/混合坐标/极除子；全局函数约分/KM接口、2torsion刚性化及实际η/高度仍缺，不能以表达式存在代替这些工作。
+**R803（已证明）**：[单原映射复用与694维混合比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)给42项/1680Q行的准确M6注入、四条原补行和五个旧56张量新收缩；U0不重算，一个694有理块至多84右端并全行代回。保原T为Galois+目标同构，由Uj/U0、原A/B及Wronskian给真实x比和群律，不除未知整同源。真Norm与b⁷/Nb、符号变换主函数、反实Lambda/s、原R794矩阵和全部高度常数保持。较小符号路线m≤8、N≤202，仅真选该消费者时补V8 q196..201。[R803实际六组坐标已认证](results/R803-certified-original-M6-mixed-Hodge-ratios.md)：run43702905620/source2a3f5be76，2127.991746秒；原694块p1000000007/det637607829，84右端均368 Dixon位/full1680。31manifest项/33ZIP/781原输入已公开IO全核；这些右端不重解。全局函数约分/KM接口、2torsion刚性化及实际η/高度仍缺，不能以表达式存在代替这些工作。
 
 **R804（已证明）**：[原五低次数映射的整数循环复用](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)只读实际R794见证，五a(T)与C/C逆全整数；八个群律节点精确得到原五map。U6由原P线性组合，无第六混合求解；relative-x与y的DAG保原T⁷=ζ²、CM和完整Galois运输。仍原N≤196，函数合成无需五套Schur，β点值可在R792成功后先消费。两张反对角图的立方理想/min valuation及支撑saturation已严格给完整极除子公式；实际全局gcd/quotient/saturation适配尚缺，不能默认大算术闭点可拆小片。真正η、原刚性化和高度仍未求。
 
 **R804点消费者工程冻结pending**：[接口](notes/R804-original-CM-point-consumer-interface.md)，coreecd9fc2a/wrapper5126b836；原R791已含实际sigma/rho，四组25文件即可，不搬旧R754大包。旧R735/R791/R794三组18项IO全核；唯一待真实R792，未启用请求。Hom映射不同不能推出特化点不同，按实际点完整处理O/反点/二挠/doubling，核原T7=ζ²与八节点最终字，并用真群律核vβ。该点值任务不消费R803，不给原A有限核前像/极除子/η/高度。
 
-**R805（证明完成，实际adapter待执行）**：[正规两图及三重数缩小](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)、[完整契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)。原τ=e0、σ=e1+n e73在至多273候选有无基点铅笔，需真实690 minor；旧n=0模缺秩只复用、不误判特征零。R=S⊕S(−1)^144⊕S(−2)^127给272维原整基，primitive乘法/真实Krylov后在同一字段做两图HNF极理想，不能用奇异平面环代正规环。M6清极θ由5列残余核取得，3新增右端共一个V4块/full55项，不能把Uj直接塞V3。全部E_g=B+3D_g，B恰20cusp+P0；trace radical逐重数、两图重合/度数全验。六个Ddegree395/488/500/527/551/569，先按完整理想取V3非零u再flip，不假定569情形globally generated；标准degree272第二flip仅需≤297P。原ηprincipal为mathcalG³，三同源后mathcalG⁹R；真实多项式成本、二挠比较和c0刚性化仍保留。首工程pencil/graded basis已激活：core730a7d8f/wrapper0eddbd19，实际1272文件/34.9MB输入IO全过，n与minor仍待Actions。R806按需primitive与R807 M6清极工程继续；其余未输出，不预填η或高度。
+**R805（证明完成，实际铅笔/整基已认证，其余adapter待执行）**：[正规两图及三重数缩小](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)、[完整契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)。原τ=e0、σ=e1+n e73在至多273候选有无基点铅笔，需真实690 minor；旧n=0模缺秩只复用、不误判特征零。R=S⊕S(−1)^144⊕S(−2)^127给272维原整基，primitive乘法/真实Krylov后在同一字段做两图HNF极理想，不能用奇异平面环代正规环。M6清极θ由5列残余核取得，3新增右端共一个V4块/full55项，不能把Uj直接塞V3。全部E_g=B+3D_g，B恰20cusp+P0；trace radical逐重数、两图重合/度数全验。六个Ddegree395/488/500/527/551/569，先按完整理想取V3非零u再flip，不假定569情形globally generated；标准degree272第二flip仅需≤297P。原ηprincipal为mathcalG³，三同源后mathcalG⁹R；真实多项式成本、二挠比较和c0刚性化仍保留。[实际铅笔/整基](results/R805-certified-original-affine-pencil-free-basis.md)已由run43705580592完成：n1/p739/det509,488,332，1/144/127分次、690 S行及两个新积的41项齐；15.520676秒。完整1322输出manifest项/1324ZIP/1272原输入经公开IO run43706758013全核。此处选择和已成前缀不得重做；其余极理想/η/高度仍未执行。
 
 R791实下降三同源与R794低次数五基的双向变换保全原极化/η。C′:Y²=X³−27b、ψD=[1−ζ²]、微分因子3、主函数(-27)等全部常数必须保留；实际对称代表的二挠刚性化比较尚未求。
+
+
+**R806原primitive乘法已激活**：[执行契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)e73f66bd；run43707290840/source75b1d56c，coreb014f9b3/wrapperb199f040。R805/R786真实两组输入，原690行集不重选、272生成性V3右端、全820模筛和实际272 cyclic determinant；仅成功候选做34×8 Dixon/full820及带权支撑核。AST已通过，实际候选/非零minor/准确乘法尚待返回；不把幂环当整闭，不做无需求的巨大完整Q(z) Krylov逆。
+
+**R807原M6一次清极已激活**：[执行契约](notes/R807-original-M6-pole-clearing-execution-contract.md)09fd69d4，source2c44d025，cored92cf79b/wrapperd499a33b。真实三组997原文件；五个E6·e_i只作962选行准确投影，真实138×5残余核给θ，秩只知≤4。四条原M6乘θ坐标全1100认证，F692用已成投影合成，余三条同块；R805已成两积0..40项强制读取，只在λ需要时续41..54。无实际θ/残余秩/清极坐标；预算停仍保每个独立完成右端和当前准确残差。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
@@ -95,19 +100,3 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 ## 运行和续接
 
 根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787仍运行，R803混合比值运行，R801长尾已全输出认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
-
-## R806 原primitive乘法（2026-11-15）
-
-[执行契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)由R805完整两图证明导出；同一个原690行集、272生成性V3右端，先全820行模筛和真实272 cyclic minor，成功候选才Dixon恢复准确带权多项式矩阵。候选/素数/特化公平搜索有限成功见证已证，尚无实际primitive结果；不得把幂环当整闭或把乘法成功等同η/高度完成。下一步绑定R805成功run43705580592的真实IO摘要后激活。
-
-## R805 实际铅笔/整基已认证（2026-11-15）
-
-[实际结果](results/R805-certified-original-affine-pencil-free-basis.md)：n=1，素数739下三个det509/488/332，分次1/144/127和实际S690行已齐；完整输入/输出IO和原冻结verify均过。此处原铅笔/整基不再重做。直接下步R806 primitive乘法与R807一次M6清极；后者两项缺积的0..40项已成，必须只补41..54。原函数域转换、极理想、η和高度尚缺。
-
-## R807 一次原M6清极（2026-11-15）
-
-[执行契约](notes/R807-original-M6-pole-clearing-execution-contract.md)由R805 §7证明：原V4 962行55项形成1100×962；五个E6·e_i仅作选行投影，真实138×5残余核给θ，秩只知≤4，不预填。θ乘四条额外M6行最终全1100认证，三条额外右端共用同块；两项乘积的0..40项已由R805真正完成，必须仅续41..54。现无实际θ、残余秩或清极坐标，继续core与公开Actions。
-
-## R803 原混合 Hodge 比值已实际完成（2026-11-15）
-
-[完整结果](results/R803-certified-original-M6-mixed-Hodge-ratios.md)：六组×14原坐标全部在同一个694块Dixon368位完成，prime1000000007/det637607829，84列全1680行准确代回，2127.991746秒；公开IO核全部31manifest项/33ZIP/781原输入。此84右端不重解。直接接原R787 A/B、原函数运算和R807一次清极；函数DAG、极理想、η和高度尚未完成。

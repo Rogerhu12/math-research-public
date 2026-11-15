@@ -652,3 +652,7 @@
 ### 2026-11-15 19:14（Asia/Taipei）｜serre-public-astra-20261115
 - 全文审完并激活R807 cored92cf79b/wrapperd499a33b/requestd82e5c7f；method09fd69d4仅把已实际认证的R805两41项前缀改为必需输入，三组997原文件逐源绑定，原962块五投影/真实核/四full1100成员。
 - 新增本课题workflow `.github/workflows/serre-p41-original-M6-pole-clearing.yml`，公开AST/输入核后计算，一日续算包无raw Git/Release。R78711:06:48UTC真实BudgetStop，已着手续同core93d3d72b，保最新完整lift与全部其它阶段；R806继续。
+
+### 2026-11-15 19:15（Asia/Taipei）｜serre-public-astra-20261115
+- 将open主执行段同步为R803/R805真实完成、R806/R807已激活、R787实际BudgetStop与同核续算；合并末尾重复状态，完整旧文本归档，数学完成边界不放宽。
+- 继续R787流式续算工程、R809实际normal-vector转换证明与全p同h源配对；不重算已完成84右端、铅笔或乘积前缀。
