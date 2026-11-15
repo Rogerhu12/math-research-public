@@ -8,7 +8,44 @@
   "workflow_commit": "fa814be4c12408971dacc21039fd0e28c0500c5a",
   "worker_source_sha256": "ab34ab0edfeb69901b46b468255d9d74780a63742ade1bceec459ac226fb5cfe",
   "started_utc": "2026-11-15T02:13:48.759792+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "true_endpoints_complete97_Grams_and_all_infinite_high_trial_outputs",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_adjoint_boundary_high_Grams.py",
+        "--input-index",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/exact-original-boundary-high-inputs.json",
+        "--proposal-arrays",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/original-public-inputs/visible-exact-cached-cap-adjoint-proposal-v2-43662865692-1/proposal-state",
+        "--arrays",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-output/matrices",
+        "--out",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-output/native/complete97-true-cap-adjoint-boundary-and-high-Grams.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/original-public-inputs/visible-exact-cached-cap-adjoint-proposal-v2-43662865692-1/native/complete97-cached-physical-adjoint-proposal-v2.json.gz",
+        "--proposal-process",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/original-public-inputs/visible-exact-cached-cap-adjoint-proposal-v2-43662865692-1/process.json",
+        "--pilot",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/original-public-inputs/visible-exact-cap-adjoint-Gram-pilot-43664278200-1/native/complete97-ordinary-cap-adjoint-residual-Gram-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/original-public-inputs/visible-exact-cap-adjoint-Gram-pilot-43664278200-1/process.json",
+        "--local",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+        "--background",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-continuous-repair-physical-cap-background-v2-native.json.gz",
+        "--reference",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-physical-cap-linear-module-r09-v2-native.json.gz",
+        "--q-native",
+        "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-regular-r25over8-q256-long-ports-native.json.gz"
+      ],
+      "started_utc": "2026-11-15T02:14:28.729200+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 30.00108926500002,
+      "finished_utc": "2026-11-15T02:14:58.730778+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T02:13:49.638483+00:00",
@@ -25,9 +62,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:15:00.450173+00:00",
+      "before": "9f4f4cda529e4f81fdf1919c0a7221bf817aea27",
+      "after": "480e0d244fe560fcec0ccb10bccc5a7a0e133cd5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T02:14:28.727072+00:00",
+      "final": false,
+      "commit": "02f1e27e4c83459f56b7d7149d20b3c3a33874af"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -68,7 +119,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "9f4f4cda529e4f81fdf1919c0a7221bf817aea27",
+  "last_read_commit": "480e0d244fe560fcec0ccb10bccc5a7a0e133cd5",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap-adjoint-boundary-high-Grams-work/science",
   "actual_input_sha256": {
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
@@ -105,9 +156,15 @@
     "reference": "ad6efc2a226131245ff4197a0b5da2843578224368a340f7a50d383c03a1819b",
     "q-native": "2f2469091ae6893b56f869fc7753ed015cf9d7ebf2171ccd8c5a580dd770d4d2"
   },
-  "snapshot_utc": "2026-11-15T02:14:26.925640+00:00",
-  "wall_seconds": 38.166428284999995,
+  "snapshot_utc": "2026-11-15T02:15:00.491941+00:00",
+  "wall_seconds": 71.73272923500002,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-boundary-high-Grams-outcome.json",
+      "file": "evidence/actual-latest-boundary-high-Grams-outcome.json",
+      "bytes": 12209,
+      "sha256": "619f58890f7bfd2b9ef58d9624ee6155cb485b537ecd7bef2ed22c150cb462e5"
+    },
     {
       "logical_file": "evidence/original-artifact-downloads/14125124920.json",
       "file": "evidence/original-artifact-downloads/14125124920.json",
@@ -263,6 +320,14 @@
       "file": "evidence/original-successful-four-quarter-pilot-process.json",
       "bytes": 18714,
       "sha256": "643fd671a175b66c1808a04f3ca1490e8b3856acc2f14f9ecfc734d942f14002"
+    },
+    {
+      "logical_file": "native/complete97-true-cap-adjoint-boundary-and-high-Grams.json.gz",
+      "file": "native/complete97-true-cap-adjoint-boundary-and-high-Grams.json.gz",
+      "bytes": 24540,
+      "sha256": "6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92"
     }
-  ]
+  ],
+  "actual_completed_stages": 3,
+  "latest_scientific_native_sha256": "6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92"
 }
