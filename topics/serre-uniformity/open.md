@@ -215,3 +215,5 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R785：原高度的最小块参数与规范首外积类
 
 [R785](results/R785-original-Rosati-block-height-compression-and-leading-exterior-class.md)将R724完整高度矩阵严格压为每个活跃简单块一个Rosati不变cα；需原ι/Mα与ΣdimFα^+个真实配对，均可回原JY，不假设高度非退化。原首外积由s_i=2T_iλ_i0−λ_i1+2Θ_i1−4T_iΘ_i0模v_i=T_i−T_g决定，保CM点值与切向两列；v仅向量非零，选真非零v_i0作商。得到规范splitting不变类，但实际cα、Poincaré局部前缀及该类未输出，不能用Rosati或实正定代p进非零。继续真实参数求值及完整尾/Bézout。
+
+[十二阶下降记录](notes/2026-11-15-sigma-matrix-research.md)保原两首pole给准确source 136650240B及全部整高带。全部常系数总阶12双导算子逐项消去高带时，λ7..λ12必同时模p为零，不能保critical项；源项还在允许p659零。此已排路线不重做，继续原f/g与Legendre的同本原标签共同零限制。
