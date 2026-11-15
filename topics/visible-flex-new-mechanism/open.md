@@ -56,6 +56,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+[R178](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md)已证明固定颜色优先级局部唯一分解及完整word有限终止。当前新任务是在R174的77字面基上建立共同sound映射，pure旧40及31关系/J/D0已存代表直接复用；新balanced(2,2)需完整共享行。消费端明确是直接Φ还是逐基复用Ψ；二者均可用零和证明真实关系，但不能预设相同，也不能用非零word断言真实独立。完整关系证明必须绑定原列与各列转换，不能只给秩/残差计数。
+
 **[R177](results/R177-explicit-all-layer-positive-point-after-nine-original-relations.md)给出尊重九条原式关系的新全层正点**：静态=(1+k²)²/4，二次为(k′)²+(1+k²)v²+k²(k′−2kv)²/4乘h^-2，完整最高M=diag(1/16,11/48)配纯h正平方；全action≥∫h^-2/4。原23 y与十四族、同μ/c/d完整列出。[新指定点consumer](notes/character-minus2-raw-positive-candidate-design-20261115.md)29045B/415e1b67已成，8新人工全过；本提交single character_minus2_raw_positive_candidate派发，4输入/60s/256MiB，只保存86/107/14/九式准确核对，不LP/旧路径；该点任何新路径门都已由全正证支付，下一唯一真实性缺口是完整原函数核。
 
 [R176](results/R176-nine-literal-relation-cuts-and-exact-negative-power-path.md)已记录43671759155的完整86行准确外点与反例：M的det−9/16，真实k=K/h给有限K负最高action，p−1行值−81/4。该点结案，不继续单行LP迭代；root转明确12参数全正点（staticα=β1/4、最高M=diag(1/16,11/48)、低层显式平方），lit只核其86/全14族与同一μ，随后原函数良定义性仍是缺口。
