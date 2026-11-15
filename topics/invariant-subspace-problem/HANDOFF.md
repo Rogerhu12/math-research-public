@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 3b6640505d2434e1c739059d0e7df8ec1a8b3c89（2026-11-15 08:05:19 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** bb1d75675dc639f3f1ab74749798a5c11b2ac3a5（2026-11-15 08:07:17 UTC，Actions run43693005478实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43693005478-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 
 本地实际pull读73f76d741f3b47e9ab7837052bf8260a2a9c0722（2026-11-15 07:24:45 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，20分钟空闲/6h job上限。完整旧路径、哈希及接续状态保[本次H快照](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。
 
-- [七原方向续算](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)：密集592秒未返；精确总消1567，余2751/424921项。列内容实际2.807727007秒全除，2700非单位、最大系数3693→3691bit，仍一个2751结构块；原7RHS/完整DAG不改。已入队seven-row-content-profile（30s/2GiB）查B-only行内容、七真实分母及本job原生头/库路径。先逆列/行/RHS缩放再旧DAG；未添真核。原80,674,893B仅job临时，全部SHA见证明/回执。
+- [七原方向续算](results/R150-appendix-seven-core2751-all-row-contents-one.md)：密集592秒未返；精确总消1567，余2751/424921项/3691bit，单SCC。列归一后全2751行内容=1、七RHS分母=1，实核2.560350913秒。原80,674,893B全7RHS/DAG仅job临时；先逆列缩放再逆DAG。FLINT3.6.0轮子有，系统开发头/pkg-config无；已排native-flint-build-inventory查真实库/compiler，接可保存整步的原生Dixon，未添核。全部SHA见证明/小回执。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
 - 小回执在notes/r150-infinity-remote-session-789f/；原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，不重已闭模页/LLL/多素数。
