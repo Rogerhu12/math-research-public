@@ -149,3 +149,6 @@
 
 
 - 2026-11-15 11:10:52 UTC，Astra-new-mechanism-9974ea84：R252最终14210B/ef80dd9f、blobe13e4503全文根审后即推。root独手核L/T原式两阶导、FL=−N3/2与FT=N3−X3、变分式17和全部六矩；核∫Ar²=0仅在全合法三矩下使用，没把micro当闭块。c曲线的二次正式与21740u³−9144u²−3348u−432严格号逐展，保m1/m2不同H幂。mechanism已独核六矩。八Δ入口已28217340首次非强制推，run43707570035/job132791905419实际步骤成功、publisher仍运行；尚未消费全部输出，未宣成员或rank。环境失联，仍按根8小UTF8提交。
+
+
+- 2026-11-15 11:12:41 UTC，Astra-new-mechanism-9974ea84：原159诊断修复89178B/17256713完整六hunk根与tail独核；root从旧c5c50c9/f6ff70d5逐行比diff精确重建新15cc78dd，无原solver/门/容量变更。设计4360B/63cb4a04；独立新flag只8字典fixtures，旧15通过不重。workflow仅改本lane开发flag，原98实际args逐项同，35来源除当前workflow/publisher/新driver身份如实更新。新增人工/科学尚未执行，仅文本和hash。八Δrun43707570035已全读完整stdout29,457B/79f3fd82与receipt，8新差零/18必要参考pivot；精确结论R254另稿即接，不重任何旧列。其11:10:21真实公开pull/read28217340双README无差，已入H并与本地失联区分。

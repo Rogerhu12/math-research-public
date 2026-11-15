@@ -379,3 +379,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R252：另外两个完整Gaussian面积关闭当前偶微包圆的两条退化曲线
 
 [R252 完整证明](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)从R73 raw密度得B−1=d p0+e s1，d=6κ³/he、e=−κ(14κ²+1+4ε)/(4he)，d+7e永不零。保完整三矩/全部尾的六个交叉矩由原二次算子、cubic泛函变分和同锚IBP逐项推得。A−1,−3在c≠0迫M4=∫q″⁴=0，含旧a+3b曲线；c=0整曲线上D=2d(a+b)+e(11a+5b)满足D/κ>0，故N1=∫q′q″³=0时A−1,−2迫M1=∫xq″⁴=0。严格号由e0>d0>0、b<0、3a+b<0的完整有理区间证明，无扫描。R239偶微包各自N1零、未旋转M4/M1负，互补双block cos4α>1/2给最终ReM4/ReM1<0。于是当前圆在b=0、κ≠0、ε>0全例外端芽族均无完整第四ruling；真实二/三gauge在We内不能修。普通复矩非普遍正性，一般N1非零圆只受(24)关系，本稿不排任意圆/任意平移/任意芽或宣大参数全局安装。root全文独核五原算子二阶导、五cubic泛函/变分表及六矩、Gaussian余系数与曲线有理号；mechanism另逐矩独核。无新运行。
+
+
+## 原159恢复诊断的最小修复：保持原拒绝和全部科学输入
+
+[设计与新增检查范围](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)针对run43705209195确定的信息丢失，仅把新consumer返回的第六prefix.status、stage.error/budget、已有池/预检/J计数在原成功检查之前打印，并存失败main/native摘要；缺失字段保持不可用。新driver89178B/17256713相对旧f6ff70d5仅六处差异，根与tail逐行核对，原六源/成功handoff/门/容量/98生产参数未变。新增独立--check-prefix-diagnostic-only定义八个字典stub检查，真实走原失败分支及清理/摘要，不调用旧15开发或科学。公开首跑先该新增检查，再恢复必要输入并尝试此前未调用的hold；没有预称原未知异常已修复，也无持径效果结论。

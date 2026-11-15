@@ -126,6 +126,63 @@ def restored_height159_controller(stage,cfg,expected_source_controller):
         'new_stage_inherits_this_B_radius_and_streak_without_reset':True}
 
 
+
+def prefix_handoff_diagnostic(prefix,raw_binding):
+    """Read existing sixth-prefix metadata before any successful-status check.
+
+    This neither validates a restoration nor evaluates geometry. Missing fields
+    remain unavailable; no exception cause or attempted pool size is inferred.
+    """
+    def mapping(value):
+        return value if isinstance(value,dict) else {}
+    def pick(value,keys):
+        value=mapping(value)
+        return {key:copy.deepcopy(value[key]) for key in keys if key in value}
+    stage=mapping(prefix.get(PREFIX_STAGE));solver=mapping(stage.get('solver'))
+    snap=mapping(stage.get('checkpoint'));cfg=mapping(prefix.get('configuration'))
+    histories={}
+    for label,key,cap in [
+            ('coarse','active_row_pool_history','max_pool_rows'),
+            ('fine','fine_physical_row_pool_history','max_fine_physical_pool_rows')]:
+        history=snap.get(key);last=mapping(history[-1]) if isinstance(history,list) and history else {}
+        histories[label]=pick(last,['version','row_count','row_indices_sha256','total_full_grid_rows'])
+        histories[label].update(capacity=copy.deepcopy(cfg.get(cap)),
+            history_records=len(history) if isinstance(history,list) else None,
+            reason=pick(last.get('reason'),['kind','pool_capacity_would_be_exceeded','proposed_pool_rows']))
+    selected=mapping(snap.get('selected_two_grid_physical_point'))
+    return {'schema':'frozen-height159-handoff-existing-diagnostic-v1',
+        'temporary_raw_file':copy.deepcopy(raw_binding),
+        'prefix':pick(prefix,['schema','status','phase','github_sha','github_run_id','github_repository',
+            'artificial_inputs_only','optimization_active_seconds','run_audit_elapsed_seconds']),
+        'prefix_error':pick(prefix.get('error'),['type','message','traceback']),
+        'stage_status':copy.deepcopy(stage.get('status')),
+        'stage_error':pick(stage.get('error'),['type','message','traceback']),
+        'stage_budget_message':copy.deepcopy(stage.get('budget_message')),
+        'solver':pick(solver,['linear_program_invocation_count','primary_LP_invocation_count',
+            'correction_LP_invocation_count','shared_max_LPs','shared_max_values','shared_active_seconds']),
+        'completed_model_records':len(solver.get('models',[])) if isinstance(solver.get('models',[]),list) else None,
+        'checkpoint_counters':pick(snap,['physical_geometry_evaluations','total_full_value_physical_evaluations',
+            'jacobian_geometry_batches','jacobian_refreshes',
+            'fine_selected_Jacobian_refreshes','fine_selected_Jacobian_batches',
+            'jacobian_geometry_seconds','fine_selected_Jacobian_seconds',
+            'same_state_batch_ordinary_jet_differences_by_field','fine_batch_ordinary_replay_maxima',
+            'optimization_elapsed_seconds','initialization_elapsed_seconds']),
+        'initial_pre_LP_decision':copy.deepcopy(solver.get('initial_pre_LP_decision')),
+        'last_pre_LP_decision':copy.deepcopy(stage.get('last_pre_LP_decision')),
+        'pool_metadata':histories,
+        'selected_point':pick(selected,['physical_state_sha256','maximum_eta_on_both_grids',
+            'maximum_curvature_on_both_grids','new_metric_target_qualified_on_both_grids']),
+        'original_rejection_and_all_source_state_pool_and_gate_checks_unchanged':True,
+        'original_error_is_reported_not_replaced_by_a_guessed_cause':True,
+        'attempted_pool_size_unavailable_if_the_frozen_setter_raised_before_recording':True,
+        'no_coefficients_grid_arrays_row_ids_or_new_geometry_in_this_diagnostic':True}
+
+
+def print_prefix_handoff_diagnostic(diagnostic):
+    print('FROZEN159 PRE-HANDOFF DIAGNOSTIC: '+json.dumps(
+        diagnostic,ensure_ascii=False,sort_keys=True,allow_nan=False),flush=True)
+
+
 def handoff_restored_height159(prepared,prefix,raw_binding,*,artificial=False):
     """Validate and reuse the SAME exact height reference/H; no field is rebuilt."""
     require_frozen_prefix_sources()
@@ -317,6 +374,8 @@ def small_summary(report,out):
             'held','old_radius','new_radius','new_streak'],diagnostics)
         answer[STAGE]=result
     answer['necessary_height159_prefix_restoration_calls']=report.get('necessary_height159_prefix_restoration_calls',0)
+    if report.get('last_temporary_prefix_diagnostic') is not None:
+        answer['last_temporary_prefix_diagnostic']=copy.deepcopy(report['last_temporary_prefix_diagnostic'])
     answer['successful_SOC_radius_retention_definition']=copy.deepcopy(report.get('successful_SOC_radius_retention_definition'))
     for a,r in zip(answer.get('input_restoration_conclusions',[]),report.get('temporary_input_restorations',[])):
         if 'regenerated_final_equals_observed_height159_b429' in r:
@@ -392,6 +451,7 @@ def print_new_stage_outcomes(report):
 def run_pipeline(args,*,artificial=False,evaluate_only=False,process_started=None):
     started=time.monotonic() if process_started is None else process_started
     phase='public-environment-and-original24-input-contract';restorations=[];raw_bindings=[]
+    last_prefix_diagnostic=None
     invoked={'growth':0,'strip':0,'SOC':0,'body103':0,'tail154':0,'height159':0,'hold':0}
     try:
         require_frozen_prefix_sources()
@@ -464,6 +524,8 @@ def run_pipeline(args,*,artificial=False,evaluate_only=False,process_started=Non
                 process_started=started,prepare_seconds=time.monotonic()-started)
             binding=_temporary_binding(height_out);raw_bindings.append(binding)
             phase='height159-qualified-state-full-pools-reference-and-controller-handoff'
+            last_prefix_diagnostic=prefix_handoff_diagnostic(previous,binding)
+            print_prefix_handoff_diagnostic(last_prefix_diagnostic)
             new_prepared=handoff_restored_height159(prepared_height,previous,binding,artificial=artificial)
             restorations=list(new_prepared[3]['temporary_input_restorations'])
             print(soc.prefix_outcome_text(previous,restorations[-1],'entry-tail-height159'),end='',flush=True)
@@ -487,6 +549,7 @@ def run_pipeline(args,*,artificial=False,evaluate_only=False,process_started=Non
             'necessary_height159_prefix_restoration_calls':invoked['height159'],
             'new_scientific_solver_calls':invoked['hold'],
             'temporary_prefix_raw_bindings':raw_bindings,'temporary_input_restorations':restorations,
+            'last_temporary_prefix_diagnostic':copy.deepcopy(last_prefix_diagnostic),
             'process_total_elapsed_seconds':time.monotonic()-started,
             'error':{'type':type(error).__name__,'message':str(error),'traceback':traceback.format_exc()}}
         if invoked['hold'] and Path(args.out).exists():
@@ -965,14 +1028,142 @@ def developer_check():
         'research_candidate_constructed_evaluated_or_optimized':False}
 
 
+
+def prefix_diagnostic_developer_check():
+    """Only the new missing-error branch; no old suite, geometry or solver."""
+    import contextlib
+    import io
+    import sys
+    from types import SimpleNamespace
+    from unittest.mock import patch
+    module=sys.modules[__name__]
+    sentinel='new artificial frozen-prefix initialization exception'
+    fixture={'schema':height159.SCHEMA,
+        'status':'entry-tail-height159-controller-error-last-qualified-preserved',
+        'phase':'independent-final-same-exact-state-original384-and768-values',
+        'artificial_inputs_only':True,'github_sha':'new-array-source',
+        'configuration':{'max_pool_rows':100,'max_fine_physical_pool_rows':4096},
+        PREFIX_STAGE:{'status':'entry-tail-height159-recovery-error',
+            'error':{'type':'ValueError','message':sentinel},'budget_message':None,
+            'solver':{'linear_program_invocation_count':0,'primary_LP_invocation_count':0,
+                'correction_LP_invocation_count':0,'models':[],
+                'initial_pre_LP_decision':{'status':'new-array-preflight','may_call_LP':True}},
+            'last_pre_LP_decision':{'status':'new-array-preflight','may_call_LP':True},
+            'checkpoint':{'total_full_value_physical_evaluations':2,'jacobian_refreshes':0,
+                'optimization_elapsed_seconds':None,
+                'active_row_pool_history':[{'version':1,'row_count':3,'row_indices':[1,2,3],
+                    'row_indices_sha256':'artificial-coarse-pool'}],
+                'fine_physical_row_pool_history':[{'version':2,'row_count':4,'row_indices':[1,2,3,4],
+                    'row_indices_sha256':'artificial-fine-pool'}],
+                'selected_two_grid_physical_point':{'physical_state_sha256':'artificial-qualified-point',
+                    'maximum_eta_on_both_grids':.2,
+                    'physical_parameter_coefficients_binary64':['MUST_NOT_PRINT_MACHINE_COEFFICIENTS']}}}}
+    before=copy.deepcopy(fixture)
+    binding={'name':'artificial-frozen159.json','bytes':1,'sha256':'artificial-raw-binding'}
+    diagnostic=prefix_handoff_diagnostic(fixture,binding)
+    text=json.dumps(diagnostic,allow_nan=False)
+    direct=bool(diagnostic['stage_error']==fixture[PREFIX_STAGE]['error']
+        and diagnostic['prefix']['status']==fixture['status']
+        and diagnostic['stage_status']==fixture[PREFIX_STAGE]['status']
+        and diagnostic['pool_metadata']['fine']['capacity']==4096
+        and diagnostic['pool_metadata']['fine']['row_count']==4
+        and diagnostic['last_pre_LP_decision']==fixture[PREFIX_STAGE]['last_pre_LP_decision'])
+    omitted=bool('MUST_NOT_PRINT_MACHINE_COEFFICIENTS' not in text
+        and '"row_indices":' not in text and fixture==before)
+    missing=prefix_handoff_diagnostic({'schema':'artificial-without-stage'},binding)
+    no_guess=bool(missing['stage_status'] is None and missing['stage_error']=={}
+        and missing['last_pre_LP_decision'] is None
+        and missing['pool_metadata']['fine']['capacity'] is None)
+    class Problem:pass
+    class Gate:pass
+    restoration={'regenerated_final_equals_observed_SOC_ec76':False,
+        'regenerated_final_equals_observed_body103_bfbd':False,
+        'regenerated_final_equals_observed_tail154_2ee6':False}
+    prepared=((Problem(),None,Gate(),None,None,{},{}),{}, {},
+        {'temporary_input_restoration':restoration,'temporary_input_restorations':[restoration]},None,None)
+    counters={k:0 for k in ['growth','strip','SOC','body103','tail154','height159','new']}
+    temporary=[]
+    def stub(label):
+        def run(p,out,**kwargs):
+            counters[label]+=1;temporary.append(Path(out))
+            result=copy.deepcopy(fixture) if label=='height159' else {'schema':'prior-prefix-array-stub'}
+            atomic_save(out,result);return result
+        return run
+    def forbidden_new(*args,**kwargs):
+        counters['new']+=1;raise AssertionError('new scientific stage must not run after prefix error')
+    def forbidden_development(*args,**kwargs):
+        raise AssertionError('already completed development suites must not run')
+    directory='/dev/shm' if Path('/dev/shm').is_dir() else None
+    with tempfile.TemporaryDirectory(prefix='SOC-hold-prefix-diagnostic-only-',dir=directory) as folder:
+        args=SimpleNamespace(out=Path(folder)/'diagnostic-failure.json');printed=io.StringIO()
+        with contextlib.ExitStack() as stack:
+            stack.enter_context(patch.object(module,'require_frozen_prefix_sources',return_value=None))
+            stack.enter_context(patch.object(module,'FiveHeightField',Problem))
+            stack.enter_context(patch.object(module,'FiveNullHeightGate',Gate))
+            stack.enter_context(patch.object(module,'developer_check',side_effect=forbidden_development))
+            stack.enter_context(patch.object(module,'hold_check',side_effect=forbidden_development))
+            stack.enter_context(patch.object(growth,'prepare_run',return_value=prepared))
+            stack.enter_context(patch.object(soc,'prefix_outcome_text',return_value='new artificial prior prefix stub\n'))
+            for mod,label in [(growth,'growth'),(strip,'strip'),(soc,'SOC'),(body103,'body103'),
+                    (tail154,'tail154'),(height159,'height159')]:
+                stack.enter_context(patch.object(mod,'run_audit',side_effect=stub(label)))
+            for mod,name in [(strip,'handoff_restored_growth'),(soc,'handoff_restored_strip'),
+                    (body103,'handoff_restored_soc'),(tail154,'handoff_restored_body103'),
+                    (height159,'handoff_restored_tail154')]:
+                stack.enter_context(patch.object(mod,name,return_value=prepared))
+            stack.enter_context(patch.object(module,'run_audit',side_effect=forbidden_new))
+            # Only serialization is simplified; real run_pipeline and the real
+            # unsuccessful-status check in handoff_restored_height159 execute.
+            stack.enter_context(patch.object(module,'save_report',side_effect=atomic_save))
+            stack.enter_context(contextlib.redirect_stdout(printed))
+            result=run_pipeline(args,artificial=True,evaluate_only=True)
+        written=json.loads(args.out.read_text())
+        failure_kept=bool(result['error']['message']=='completed current temporary159 result required'
+            and written['last_temporary_prefix_diagnostic']['stage_error']==fixture[PREFIX_STAGE]['error']
+            and result['new_scientific_solver_calls']==0 and counters['new']==0
+            and all(counters[k]==1 for k in counters if k!='new'))
+        output_ok=bool(sentinel in printed.getvalue()
+            and 'FROZEN159 PRE-HANDOFF DIAGNOSTIC:' in printed.getvalue()
+            and 'entry-tail-height159-controller-error-last-qualified-preserved' in printed.getvalue())
+        cleaned=bool(temporary and all(not p.exists() for p in temporary))
+        with patch.object(height159,'small_summary',return_value={}):
+            summary=small_summary(result,args.out)
+        summary_ok=bool(summary['last_temporary_prefix_diagnostic']==written['last_temporary_prefix_diagnostic'])
+        marker={'schema':'new-prefix-diagnostic-dispatch-only','passed':True,'artificial_inputs_only':True}
+        devout=Path(folder)/'diagnostic-development.json'
+        with patch.object(module,'prefix_diagnostic_developer_check',return_value=marker), \
+                patch.object(module,'developer_check',side_effect=forbidden_development), \
+                patch.object(sys,'argv',[__file__,'--check-prefix-diagnostic-only','--out',str(devout)]), \
+                contextlib.redirect_stdout(io.StringIO()):
+            main()
+        dispatch=json.loads(devout.read_text()).get('passed') is True
+    checks={k:bool(v) for k,v in {
+        'original_status_error_budget_and_available_metadata_preserved':direct,
+        'machine_arrays_omitted_and_prefix_unchanged':omitted,
+        'unavailable_original_error_not_invented':no_guess,
+        'real_original_unsuccessful_status_check_still_rejects_before_new_science':failure_kept,
+        'original_inner_exception_printed_before_cleanup':output_ok,
+        'failure_native_summary_preserves_same_diagnostic':summary_ok,
+        'temporary_prefixes_cleaned_after_diagnostic_is_retained':cleaned,
+        'targeted_new_CLI_does_not_dispatch_old_development':dispatch}.items()}
+    return {'schema':SCHEMA+'-prefix-diagnostic-development-only',
+        'passed':bool(all(checks.values())),'checks':checks,'artificial_inputs_only':True,
+        'fixture_prefix_calls_are_dictionary_stubs_only':True,
+        'old_completed_development_suites_not_executed':True,
+        'geometry_solver_or_scientific_prefix_not_executed':True}
+
+
 def main():
     started=time.monotonic();parser=argparse.ArgumentParser(description=__doc__)
     for name in INPUTS:parser.add_argument('--'+name.replace('_','-'),type=Path)
     for name in SHA_NAMES:parser.add_argument('--expected-'+name+'-sha256')
     parser.add_argument('--check-only',action='store_true')
+    parser.add_argument('--check-prefix-diagnostic-only',action='store_true')
     parser.add_argument('--out',type=Path,required=True);args=parser.parse_args()
-    if args.check_only:
-        try:result=developer_check()
+    if args.check_only and args.check_prefix_diagnostic_only:
+        parser.error('choose one development branch')
+    if args.check_only or args.check_prefix_diagnostic_only:
+        try:result=prefix_diagnostic_developer_check() if args.check_prefix_diagnostic_only else developer_check()
         except Exception as error:
             atomic_save(args.out,{'schema':SCHEMA+'-development-error','passed':False,'artificial_inputs_only':True,
                 'source_files_sha256':implementation_hashes(),'process_total_elapsed_seconds':time.monotonic()-started,
