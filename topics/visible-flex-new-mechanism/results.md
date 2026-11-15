@@ -355,3 +355,5 @@
 - [权−2首次有限必要系统的准确外部候选](notes/character-minus2-finite-necessary-actual-20261115.md) — actual43665971895/source05bb659b完整2.005s/RSS167.5；107原坐标、124有理外等式秩84、23外自由，63必要半空间。保存非零准确外点而零双证；本系统未排除正字符，但外点不授真实泛函/完整action正性，秩84非真实头部维数。完整证书31976B/5658e056、raw143028B/dd539b08。下一消费候选具体缺失条件，不复算旧forcing/NF/六积分或原样增预算。
 
 - [R165：预设h后的完整k二次型与log-linear频率门](results/R165-prescribed-h-quadratic-highest-action-and-loglinear-frequency-gate.md) — 只读完整head7个Q4键，真字符后十最高标量；准确I4=I0[h]+Q_h[k]保全部面积/边界。k=e^r y在有限log-linear段给d t²+βt+γ≥0全t≥0，β=2d+g−e−c、γ=d+g+b+m+c+j，等价d,γ≥0且β+2√dγ≥0。完整平端截断、先形状后幅度再快缩付清，门仅必要；d=0条件迫c=f=0、g≥e，未授d=0/全正性。
+
+- [R166：首个有限外候选的静态负方向](results/R166-static-negative-direction-of-the-first-finite-character-candidate.md) — 从已发证书只读完整14正规多项式、23自由坐标与唯一μ，得a(k)=−k²+k⁴+k⁶，a(1/2)=−11/64。h1/k1/2/ω常值是真水平路径；固定连接及N个完整frame周期的全修正action=E−11Nτ/64，足够有限N严格负。只排这个外点；后继只加a(1/2)≥0一行，不重建旧124/63/六积分或宣整权无字符。
