@@ -161,3 +161,7 @@
 ### 2026-11-15 22:40 CST · serre-public-astra-20261115 · 惰性固定八运输
 - 已准备原36特征/八EO的准确source与FG/HJ运输、全矩阵续接；旧R812未序列化U故只恢复必要6×6基，不重跑六Frobenius案例。
 - core70e565af/wrapper2d61eb03与原proof全SHA固定，Sage10.6公开请求即激活；零值合法，不预填CM组合非零。H已归档。
+
+### 2026-11-15 22:44 CST · serre-public-astra-20261115 · R826
+- 已证原惰性一次原函数与权p−5 Gaussian companion theta的五次Katz比较；完整tame标架/oldform/12⁵/Hasse常数给原卷积=−120c²/d0指定CM和。
+- 外因子单位，指定和非零及同primitive/Legendre仍缺；root逐式核原规范与正则性，H归档后立即推送。

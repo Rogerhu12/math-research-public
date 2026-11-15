@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[惰性运输前H](notes/2026-11-15-handoff-before-inert-source-transport.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R826前H](notes/2026-11-15-handoff-before-R826.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -22,7 +22,7 @@
 
 ## 原极理想和导子后继
 
-R811首乘法core849bca27/wrapper2a1d1c28已审、R806齐，待R809 A/B；r5八模/九准确点，C-only不能触发。[两图证明](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)。[完整char0核/HNF工程已保存pending](notes/R811-original-streamed-polynomial-preimage-method.md)，coreec100a76/wrapper64f9bc9a已全文核，尚不触发；generic run43719858329四真实exit97恢复后五结果同SHAc5cd89b2，仅验证通用算法。
+R811首乘法core849bca27/wrapper2a1d1c28已审，真实R806齐、待R809 A/B；r5八模/九准确点，C-only拒绝。完整char0前像coreec100a76/wrapper64f9bc9a已全文核并保pending，不提前运行。[两图/源/通用exit97证书见R826前H](notes/2026-11-15-handoff-before-R826.md)。原P不可变、完整H/W和两向Laurent/全长认证不省。
 
 [R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已证：真实MAH=MBW给包含，双向Laurent拼接底环子格，实际τ degdet＋σ ord0det等于独立1206则完整。不先假定R理想、不必存全部char0 Euclid transcript。有限域须原b全部真因子×ζ两root恢复14块，不假设14次不可约；实际候选/全式/长度未得。[R824](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)已证完整极模自由生成权5/6/7，数为r、300−2r、r−28，总272/权和1604；[真实旧minor现已证r=28](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)，实际28权5＋244权6、无权7。原Laurent129/142/156条件逐全280Q坐标认证A_j=yB_j，V7中[(σ−z0τ)V6,τ^(7−a_j)B_j]的真实1778minor给满秩；全长1604−398=1206迫完整，无需首轮normal/MA/MB。[R824分层执行契约](notes/R824-original-global-polar-generator-consumer-method.md)已审，首scope27新权5＋244权6，保留旧1186给R787；公共U_N/Q_N用1521打包准确验全式。R781 R0..142已成；旧R787 ell1000000753/branch0的1186minor det296007862/原两消元minor均非零、全部源SHA已核；不新算R尾/H³。
 
@@ -44,10 +44,10 @@ R806原w0=e2/n1乘法34×8/full820和cyclic已成（run43707290840，10603输出
 
 [惰性Gaussian固定角色分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)已证：原harmonic7=四个CM形式F3/F7(level36)、G1/G5(level144)的八oldform分量，nebχ12；GC17八矩阵在Z[ζ8,1/2]整基，原一次原函数保1/d。p11mod12真实Hecke T²+p⁷、U_pJ=−p⁵V_pJ；整基＋原Q正则给八个原缩放CM值eν,p合法，FG=(c²/32)Σκνeν,p。指定组合非零仍缺。[固定八运输请求](notes/sigma-inert-Gaussian-source-transport-method.md)已准备（core70e565af/wrapper2d61eb03），只恢复旧未序列化U并算八新运输，保存U/两8×8全坐标；待实际run，不跑p窗口/旧六case。
 
+[R826](results/R826-original-inert-companion-theta-CM-pairing.md)已证p11mod12原Jν=θ_t⁵Cν,p，C是权p−5的Gaussian companion，保old d^(p−7)、p整分母与同一tame标架。原T_j=A D+jDA精确运Katzθ；五权在P0给−120 B⁵，含12⁵与P=λ^(6p)/d0，原未筛卷积=−120c²/d0·ΣκνCν,p^sharp(P0)。外因子单位，指定CM和的非零仍缺；不是固定代数数或标准七次Eichler。
+
 R816/818/819/821/823已成全p原Hom接口：实cusp域Qξ⁺与L互素单轨道；原K[T]=Qζ_(p+1)、Hom域rank1及cusp评价核稳定，全部非零原Hom在cusp不分歧。整格Φ_n(T)及C[1−ζ]像迫全cusp映O，Y原y每cusp简单极。原M2,1≠0还给c1不分歧，充分大前提用R729；不代p单位/高度。全部作用、比较尺度与原c0保上述归档及各完整证明。
 
 ## 主目标边界
 
-R735/R738/R745原4920陪集/800闭链/六Hodge、R754period/Hom、R759全Z格12/O_K6已成；保b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246、c1=4424/c0[2876,2822,2823]、Y genus127。R707 p41全部129盘=121排除+8CM/无Qcusp已关闭，禁重做分类。
-主剩R317：p>37、p2/5mod9、完整非分裂正规化子、a³+db³=1且p|b，D/bc无统一上界。R575正CM角色Ψθκ4根号负，旧逆扭秩零应用撤回；R616/R726充分大全p非挠/rank=dim/log同构只给高度输入。ordinary p43/776bitq已Gaussian5排除；真实Robert/Kummer/Shapiro/global dual仍缺，禁巨大q挠点枚举。
-R724 period/MW/Poincaré/universal extension/非p与有限Bézout接口、R785 Rosati压缩已证；实际eta/β/规范高度jets、(724.33)有限Bézout及全p存在仍未成。不得以实正定、有限计算或算法存在代主定理。
+原R735/738/745全部陪集/闭链/六Hodge、R754period/Hom与R759全Z格12/O_K6已成；原b=r0⁶、L/K7/M/L40、αs/CRT6逆/ζ²一次/246及c0/c1规范保R826前H和原证明。R707 p41完整129盘=121排除+8CM已关闭，禁重算分类。主剩R317允许p>37、p2/5mod9、完整非分裂正规化子、a³+db³1/p|b；D/bc无统一上界。R575正CMΨθκ4根号负，旧逆向秩零撤回；R616/726非挠/rank/log只给高度输入。R724完整MW/period/刚性化/全尾接口已证，实际eta/β、规范高度jets、(724.33)有限Bézout及全p存在仍缺；有限计算/实正定不代主定理。ordinary p43/776bitq已Gaussian5排除，真实Robert/Kummer/Shapiro/globaldual仍缺，禁巨大q挠点枚举。

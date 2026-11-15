@@ -116,3 +116,5 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 **R816一般p cusp轨道缺口已闭**：[证明](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。原Y_K标准level2p模型的准确剩余域为实Q(ξ_p)^+，c=3m−1与L/K次数m互素，Y_L/X_L全部cusps单轨道；X→Y原三次盖总分歧而剩余域不变。L定义截面全部cusps同阶。R818原首cusp系数char0非零及真实Hom存在、R819原K[T]=Q(ζ_(p+1))秩一与评价核稳定均已证，故每个非零实际primitive L-Hom在全部cusps不分歧；R821现以实际整Hom格/Φ_n(±1)=1证明全部cusp像O，原y在Y的cusp极均简单；非cusp极除子仍待真实函数。原r=x/a与η=h/a阶(p−2)/3；不把char0结论当p单位或同h三单位。
 
 **惰性固定八源实际执行已准备**：[方法](notes/sigma-inert-Gaussian-source-transport-method.md)。core70e565af/wrapper2d61eb03，Sage10.6；原R812未保存完整U，故只恢复必要6×6基，不重跑旧六案例。新36特征/八EO运输，保存U和两8×8全24有理坐标，零FG/HJ合法；真实run/CM值均待，不以矩阵可逆代指定组合非零。
+ 
+**R826（已证明）**：[原惰性companion theta的准确CM配对](results/R826-original-inert-companion-theta-CM-pairing.md)。逐原Gaussian理想给Jν=θ_t⁵Cν,p modp，C为权p−5，p|n项先约去分母留p⁵，old d^(p−7)保留；反∞型重指标仍全纯。共同tame1728层上原λ^k截面正则，T_j=A D+jDA运Katzθ，五权p−5…5p−1在P0给−120B⁵。原交替卷积准确=−120c²/d0·Σκν Cν,p^sharp(P0)，外常数全允许p单位；六个零行同时运输。指定CM和非零仍开、权随p变，不代同primitive/Legendre标签。SHA 3b82dfef8f09993b616a8ddc478004af6c79192f0e74eef201419363bd0621be。
