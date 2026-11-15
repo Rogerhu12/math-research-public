@@ -343,3 +343,5 @@
 - 2026-11-15 14:52 UTC，Astra-new-mechanism-9974ea84：R290完整E−2²三外矩与旧F低阶归属即推。原I2/累计primitive/实际五block总面积全保；root全文手核及R241联合IFT小κ来源，原四行kernel独核。仅提余三个真实标量，不冒已解。断连按根8小UTF8普通commit/非force，API复核c754c78ac8b90e7bb9ca525084c44d1591098bf5双README blob无差，实际pull时刻保持H。
 
 - 同次发布并发ref更新后即API读最新main cb5bb7e43d78254a34572d45afd4095b39010db1，双README及本题四状态文件无变；断连按根8在该parent重建普通commit/非force，不冒actual pull/rebase。
+
+- 2026-11-15 14:56 UTC，Astra-new-mechanism-9974ea84：R293全32必要观测真实有限N根完成即推。原两完整关系保证全向量/基线在S，正锥/正幅/30Jac/五block同时保真；新增合法F★从起点通用扩展，原低阶项未删，余角仍欠。R290已461a49af发布。断连按根8小UTF8/非force，API复核4f5667c169902ce016650ba99b92bbd771a100bb两README blob同，不冒实际pull；tail只并行核新扩展，不设等待门。

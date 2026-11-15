@@ -151,14 +151,14 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R278](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)加入a²/b²=1的真实gap包，准确ΔS0、Δ(Z/k)<0。五簇同宽q正权配0/2/4矩支付新增local门，原四变量真实IFT仍保三矩/全third/六能量和指定旧面积；有限A/N容量使S>0>Z/k，Q±仍可正幅配零。**下一必须联合ΔY1=ξ0Δ(Z/k)及另一Z even的Rshape总项，不能搬旧R271混合或把负方向当完整面积解。**与R277等背景/同F机制并行，优先处理其余准确ordered条件。
 
 
-### R285/289：全部主空间已经查明，继续完整兼容和全角
+### R289/291/293：全32必要量有限频率准确零，继续全角
 
-[R289](results/R289-universal-even-principal-space-and-positive-real-packet-cones.md)在R285真实C²余项分解上，给32必要量普遍主rank通常30、唯一正κ²例外29；可从最初在同一正解析最大F母包与有限χ实现，每χ原12交替包插值正核给全位置span正锥。R286的even vρ关系已是完整恒等；[R291](results/R291-exact-positive-Gaussian-square-moment-is-the-leading-energy.md)现证Q112=16ζ²(sin²θLc+sin2θLs)，此完整差已付；例外uv及其他角C²项仍欠。不能只解主投影就宣32全量/全θ/whole第四。
+[R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)用两条完整身份把所有真实有限N向量限制在同rank30空间，再以≤30χ/原12包正锥、完整基线及30真Jac根，付全部十乘积三外矩在π/2的准确零，保72面积/六能量/三矩/全third。初始κ²<.01避唯一例外；五最后block均保实际权/位置。可从起点以具体有限连续C² polynomial F★替原F，不能事后偷加C³观测。下一提余角真实self/ordered系数并付全角，再接零一层/period/joint；不是全fourth或主几何已成。
 
 ### R283/288：当前紧微包一次端层已付，接平台与通量
 
 [R288](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)在当前真实profile紧且不交的解析类，原R56跨包Cij整体局域，diagonal真左尾的三历史矩由actual universal whole pure逐个消去；因此R283所有内部Q_e自动0，两mixed目标不再有一次指数端障碍。真实尾并未消失，不用面积/能量冒推。下一支付原平台P″/零端flux与内部p/A退化；仅导数分包旧step圆或新增任意第三初值不在此证明范围。
 
-### R287/R290：已付两乘积，负二平方的完整余门已提取
+### R287/R290/R293：三个完整乘积已付
 
-R287原两χ七量有限N根已付H/L/M/U/V，保72面积/六能量及整个E−3²、E−3E−2。[R290](results/R290-complete-minus-two-Gaussian-square-and-fixed-low-jet-remainders.md)保原primitive/I2，证明初始小κ区间的完整E−2²低阶组合属原F、额外even角归已付总A01；准确余三sin²标量，未宣它们自动零。下一用R289全部主空间和R291完整关系同时处理32必要量真实基线，再付其他角与余七乘积。零一层、完整period/同w和主几何门仍欠。
+原H/L/M/U/V及R290负二平方三余门现已共同随R293全32根支付。全角E−3²、E−3E−2、E−2²为零，E1²的I2亦全角零；其余七乘积的额外even角仍须准确求解。R290原primitive/I2/旧F四行kernel与总A01保持，不把未求余角当自动零。下一全角C²校正self、零一层、完整period及同w joint继续。

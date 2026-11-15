@@ -476,3 +476,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R290：完整负二 Gaussian 平方的三外矩及真实低阶归属
 
 [R290 完整证明](results/R290-complete-minus-two-Gaussian-square-and-fixed-low-jet-remainders.md)保原I2一阶项和全D尾，逐项给E−2²三外矩、两累计primitive与even角余项。初始选择0<κ²<.01的原可安装区间，原self四行共同核(8,5,2,4,8)证明IB=LB+a²Δ/2、ID=LD−abΔ属旧F；未声称Δ/LB/LD各自固定。真实有序primitive合并后额外c²s²系数是已付总A01加原十矩消去项，完整平方只余三个明确sin²标量及完整固定低阶基线。三标量尚未付或宣独立。root全文手核、回读R241初选小参数合法性，literature独核四行/旧F来源；无新计算。
+
+
+## R293：全部32必要观测在真实有限频率同时为零
+
+[R293 完整证明](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)从最初小κ避唯一例外，R286/R291两条完整关系使全有限N32向量和基线始终在同rank30空间。R289同一正解析最大F母包、≤30χ及每χ原12包正核给全空间正锥；正幅完整基线根和30真Jac经一致C¹扰动给有限N全32准确零，不只投影。五最后block保实际权/位置、72面积/六能量/三矩/完整third及解析正prefactor。原全角身份进一步付E−3²、E−3E−2、E−2²及E1²的I2；余七乘积其他角未授零。
+
+从起点任意有限连续C² polynomial F★包含原F时，用解析最大minor见证与principal母包的多项式线同时实现，再以常秩同纤维纠正保整F★，上述有限N证明仍成立。该入口须先具体证明新增观测为C²；不允许偷加三阶导量或改变已冻结圆。原平台/flux/Laurent/零一层/period/joint和主几何门均保留。无新执行。
