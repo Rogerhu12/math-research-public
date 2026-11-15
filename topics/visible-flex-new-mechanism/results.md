@@ -117,3 +117,5 @@
 - [R188：权−2不存在非零正仿射字符](results/R188-no-nonzero-positive-affine-character-at-weight-minus2.md) — 完整五维head先迫m0；真实joint时间/k缩放给E≥0，准确周期族迫β=a，有限正平帽+紧支撑变分迫δ=(8α+14a)/17与α≥5a/2。完整平方身份后近复正弦的真实负action排全部非零余参；有限ε、周期数、常germ帽与ω约束齐全。此权函数核/head/正性全部结束，仍不授其他权、实际成本半群或闭曲面族。
 
 - [固定物理步代价首轮：11次两网接纳](notes/physical-step-cost-first-actual-result-20261115.md) — actual43676765171/sourceca4e5286同g/b0/163，η降1.0044e−5至.266540263797，κ57.9999862。12主/0SOC，唯一m2条带遗漏拒绝后补全，终全池4414/3790；所有r1/64000/真实norm1，ratio .775–.918，12LP预算退。细内strip−1.44e−10、帽高−2.78e−17仅原tol过；全部实际/失败/成本表已读，下一只条件增长trust，不放宽门或原样延预算。
+
+- [R190：完整权+2商消失与剩余偶权](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md) — 真实水平路径把N缩放差模W压成常势，原N0(1,1,1)=0支付基点常数；N2高于0、N0高于1的真权落W。完整v2/v4上界与八矩方向给正几何层+2入R，R115静态与同Γ/14族IBP合得U2=R2、H2=0。R105完整分子恢复递推得U权⊂[-9,3]；结合偶性与R188只余−8/−6/−4/0，尚无全锥或实际可达结论。
