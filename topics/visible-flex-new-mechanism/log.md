@@ -529,3 +529,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 04:41:42 UTC，Astra-new-mechanism-9974ea84：为消费新几何完整原件实际pull至93ca81c65560ce211713c9a41371b2c38f9bb1fb，双README原blob无差，H立即记SHA；无研究计算重跑。
 
 - 2026-11-15 04:42:43 UTC，Astra-new-mechanism-9974ea84：R187全文及R53原pure/总尾公式、R54真实h²首项迁移已读，root手核Möbius因子与归一尺度，完成即推。只排足够窄的R183类，保任意宽度与无常段分支。新几何full/native/dev/receipt/prepull已全部物化双SHA同，mechanism消费完整失败，未冒严格strip内余量。
+
+- 2026-11-15 04:43:47 UTC，Astra-new-mechanism-9974ea84：R189全文及R70第1–2节正则八参数/端口族来源已读；九参数块Jac、真实ω重建、Fréchet Baire与固定有限交换词适用，结论立即推。没有把端jets平误为常germ，也不冒去常段自动支付第四。

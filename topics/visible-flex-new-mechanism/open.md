@@ -46,7 +46,9 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R185](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md)给重叠八包的16维真实周期核及六矩固定右逆；消六矩不缩周期像。余10个显式合法周期不变方向的ruling只需0/cos2θ/sin2θ共30真s函数；仅有限充分接口，不能冒10像独立。period部分准确缩4个L_f目标，但完整joint不能据此限制所有相位。下一应支付原G_i及真实退化通量/共同ruling像，不继续只列新方向。
 
-[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。任意宽度的符号尚未定；literature已成无开常段真实桥稿R189，待读，随后须具体支付period/joint。
+[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。任意宽度的符号尚未定；[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)已给无开常段真实桥/闭hook几何，随后须具体支付period/joint。
+
+R189在固定有限K的R70正则解附近，用8矩+1真实ω终值的可逆Jac与端全jets平的Fréchet空间保全部约束，Baire去开常段；固定有限交换词再给M0/TκH闭几何。该存在证明不保证一个具体有限profile上的fourth像变为可解，也不保存原空间位移（Klein用新位移准确闭合）。下一必须挑可消费的完整目标/不变量，不再只抽象增加自由度。
 
 [R175](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md)已结清R174关系下的整个最高层：a≥0、ℓ+25a/9≥0及二阶M PSD充要，完整边界恒等及R169有理幂路径必要性齐全。下一新外点只读五数按此准确分离；通过即不再跑最高层路径/Gram，仍保低层、完整时长与原函数良定义门。
 
