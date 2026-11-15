@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [粗内端曲率与真实B端种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)：γ只需同反射A0/rγ≤1/128，M零宽帽图经真实两端long右宽0/左7L/16产生B端大角宽；P94与G全部seed/source整数界保持。不给未知γ复角值，固定γ的collar局部性不冒整个seed族Γ不变。另付H8176/rγ≤2^1048576后原F body Nash适用；far及内core匹配仍各自支付。
+
 - [实际wholeword复用负源43703879926/1](results/R133-supplement-actual-directed-word-genuine-negative-source-bounds.md)：child0/12门，96新分母式/16统一比较/4完整组合，旧数学0；14项严格收紧。完整nonlocal<4.111362e14、两行pair<3.606196e16、independent mean<5.266503e12；local原3.565082e16保持。当前主导转local_raw1，仍只volume upper，不授BVP/trace/strong-return。31项及16q完整保。
 
 - [真实Poisson Grams与actual帽完整Schur条件](results/R133-supplement-true-Poisson-Grams-actual-cap-transfer-and-complete-low-high-Schur.md)：固定旧body上τ=εp_cut<1可转授actual低97边界逆，保旧signed cap contraction，新完整扰动用εpY；合法Young Gram与真实GH/B的2×2 AB门明确。原ν .005门是[0,rplus]全频误差，消费P/L的[0,r*]功能，不冒全[0,.9]。γ入球/强hightrace/非线性余项/tail输入域与真参数行另付；无新数值通过声明。

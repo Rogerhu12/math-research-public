@@ -65,7 +65,8 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 因此需要全频||qν−Z||L²([0,rplus])≤.005；全[0,.9]的.00749不被换名。
 原physical fourth-mode及mean行、high源/真实seam/actualcap改动均保。
 零宽γA0入球、未知high Wiener trace和Ψ非线性余项是独立门；
-当前tail原解析γ入口尚待粗输入种子转授，有限H不自动给解析性。
+RG已用真实long分离端smoothing付粗γ种子与原body H8176入口；
+far新chart的H8193及实际core trace门仍须明确支付，有限H不自动给解析性。
 一般bordered矩阵只保当前真正出现的参数/荷；自由半面的height/frame是几何输出。
 Green final与上述GH/B/γ/参数门尚未由该条件定理支付。
 
@@ -253,6 +254,15 @@ L10返回映射准确相同，经L15唯一性Γ1准确不变；
 现已用真实E四态B迹支付nq+fq<2^-430 E(q+32)，
 把随u变化的高背景显式保在原E(s+1796)，抽出固定Bbarγ<2^2097152。
 对原γ Aσ/128输入（含γ=0），T0=2^1500000的常数门、低球及实际seed源门全过；
+[RG粗γ与真实B端种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)
+现已解除种子的正角宽要求：γ复偶A0/rγ≤1/128，使用M零宽值图，
+同一真long以右宽0/左宽7L/16构造实际B端宽度。全部94步/两mean/mixed源保，
+E'>39194024给原所有整数余量；G的E8192与三径source小量原样成立。
+这不对γ作复角求值，也不把整个seed(γ)差误说成仅支持collar；
+Γ*(a94(γ))可随γ变，只有固定γ的collar修改保同一Γ。
+固定realγ再付H8176/rγ≤2^1048576，就可按原F继续body Nash。
+新的far固定graph需额外H8193门，尚须相应定理明确接入，不能免费加17阶。
+
 原3500/400、1734/1796全部归纳给同一u∞的完整body F=0和holonomy mean。
 这是实际body存在性；nonlinear far端口二次残差、内帽/waist、height/frame和设计ν
 仍须联立。不能把proxy每步满足linearized外行当作nonlinear端值保持。
