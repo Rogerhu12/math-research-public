@@ -1,0 +1,1129 @@
+{
+  "format": "isp-selected-infinity-thirteen-exact-kernels-publication-v1",
+  "proofStatus": "completed",
+  "calculationStatus": "checkpointed-time-budget",
+  "startExponent": 32,
+  "completedExponent": 184,
+  "exactRationalKernelCount": 13,
+  "exactFull4367RationalKernelCount": 13,
+  "characteristicZeroSelectedRankBounds": [
+    4318,
+    4340
+  ],
+  "mathematicalElapsedSeconds": 108.33696036900801,
+  "allPreviousDigitsRetainedNotRecomputed": true,
+  "uploadComplete": false,
+  "uploadedFileCount": 184,
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-through256-789f.cpp",
+      "bytes": 19375,
+      "sha256": "3c7168211c585d1198e3c730ea1823839f3479e1279975cc37eb12db4128331f",
+      "blob": "1eec5bcf6be2c13869e92a6cde0ef71e02f8585b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume32-runner-789f.py",
+      "bytes": 19147,
+      "sha256": "1dfabcb889dd9a065c1fe471cb9ce1a5efd055528efd922d38503ae6478c982a",
+      "blob": "467c2f3d75a5a4c001a3967955794b6b5c5e4a9e"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md",
+      "bytes": 5406,
+      "sha256": "287a25d46dddee4d698008862c39e8b2abdb171b7233bd9d42382ae3750abc99",
+      "blob": "aa6d84de00abec6e9404aa0e96cc554450246bc3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/exact-rational-kernel-certificates.json.gz",
+      "bytes": 690600,
+      "sha256": "fbd6089ccf043af574e5c6c58c654e259732782c4a36d40af0ba8a7352078758",
+      "blob": "e8c5dd216ff734621976f6fa2ded127760a26bb5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/selected-infinity-dixon-through256-pipeline-receipt.json",
+      "bytes": 324788,
+      "sha256": "f3a6925cf4031f0485287e49905530931dcce290e1bf106c74fcf4bfb7c6d75d",
+      "blob": "87dbd323111776871b0c8ea92c573c4093c805f2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-digit-ledger.json",
+      "bytes": 208,
+      "sha256": "89447e07eb2f4f0033f3b0230fefd6d1535d7e7544a450acd4f95f9992572d9c",
+      "blob": "7e456d9839fc1dacca8dd0be86c479b33a6c7c01"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-initial-p64-exact-original-product.bin.gz.part000",
+      "bytes": 4500000,
+      "sha256": "30744032221310d4e44b77775badacf2657f554c0f7e008583ae993e40fec8b5",
+      "blob": "9bac3d0f62ba342b34224c0088bb504f951a0457"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-initial-p64-exact-original-product.bin.gz.part001",
+      "bytes": 394696,
+      "sha256": "713adbfffc5e0fd433bd9878fabb98825f682bc6cd8684110ef6b8c583439c90",
+      "blob": "c06419e67290ad96bfa60fae1c461736f6327332"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-initial-p64-exact-residual.bin.gz",
+      "bytes": 1518750,
+      "sha256": "698a6072aee31a5ddf150d38edc1637ff129ca5db85d8ab954337ec2bab09040",
+      "blob": "e5f5367330acd60d0f93010a333c2be69446d624"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p100-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "659cf89602de3a08ad9e8a2b5be65bc9047edcbf03a2ae269f419eae9d2dbfd8",
+      "blob": "fd67e16f9b2c3076cdc2247ae2e97d9b10b79636"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p100-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p101-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "dbe0e4ba758778971ea47f58125d4215cefea2d1542285c7732634f3861eabd6",
+      "blob": "b5445ce1e15ad254aaa05d8a2acfd93e323ac9a0"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p101-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p102-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "5db6ff31f3981f4f770454cbf1f724388fd62edaf520c6b46bfa3d15b7b0d59c",
+      "blob": "29db60fd8ff8dc75a30c5310c356da4fa202c3d3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p102-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p103-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "3dc508ee3b7c9ca3de423e10790ab5533182f12c9a141b54c39b98f1f93b6a0a",
+      "blob": "4ae04c139d52e1e1b57ba872a0be3f1de45736dd"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p103-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p104-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "8ae78fe6701131166a20832ce26bfd421fd9c6be6cc3abe4ec4947c01bd484df",
+      "blob": "499e73da97bb33ed0542ef5a7582a5c9074c6e33"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p104-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p105-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "9558a49498247517f46e2c35890875bce688558f11abbe5d3f4cd4602f95b479",
+      "blob": "e338215151cca0d07fa022912c12108dd399a7fc"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p105-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p106-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "cefb4ac11daa105718b5e0d2d70e27403b66c09f79f2ff52fdd7743934e83389",
+      "blob": "e4b51697adfcdb8d9870459d1b8dae3ecc8e7f3e"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p106-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p107-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "709ee524bf265e5a2c2be16ec0715045c8eeb56198ec07a9bd2c0e266ed62eaa",
+      "blob": "955efc9f53dddcde35f99e092e4f16b601c079d8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p107-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p108-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "f95f29ce6e2b5fd7c2f361468de28778fd7b9307a2f82cb338b024f6164f0b22",
+      "blob": "ccb46e8ba5d271615300a3db1d852a40a1196172"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p108-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p109-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "64a524c8abfcd14f6469281bb5201342c87b48fedaca2d6895d1d14d763c5eb8",
+      "blob": "da3fb0ece83939108b75a62f5574d7079aff8892"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p109-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p110-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "930517f8b0b474fb6cb8d7b0f45ae16342a3633d3f84d4c77546f9c3c300f2e7",
+      "blob": "ba83ca89569e780407d8055d7ec248f831ed3739"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p110-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p111-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "7dccd167eb74ae5b8f615acc27e4419bc4c422cfd1b5573f7c1e61ae1e7e5515",
+      "blob": "836656dd9c5ae237597fa8550740b389974d8fdf"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p111-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p112-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "dd71adf20b56414239dc850f14b24245f586ba4e83334a052ff2973b30cd6973",
+      "blob": "d2cfc25524725372cb391789df0a044e5512ed87"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p112-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p113-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "6aeb1ae4ce51e3b6cf5e18b9b26af4a9e88beb07b47aa41c31c5c677cc484a40",
+      "blob": "4890372202deb0efec8e83b399b4ef6f140e4bb1"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p113-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p114-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "b2fe88329e46dec178393f317a2b3a9497fdf1d842908dfe5d810b47a2da972f",
+      "blob": "b476bf8e995c8b946f8f14cd91192cd3e6124d4a"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p114-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p115-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p116-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p117-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p118-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p119-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p120-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p121-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p122-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p123-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p124-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p125-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p126-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p127-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p128-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p65-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p66-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p67-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p68-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p69-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p70-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p71-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p72-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p73-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p74-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p75-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p76-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p77-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p78-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p79-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p80-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p81-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p82-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p83-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p84-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p85-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p86-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p87-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p88-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p89-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p90-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p91-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p92-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p93-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p94-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p95-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p96-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p97-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p98-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p128/actual-p99-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p129-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p130-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p131-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p132-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p133-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p134-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p135-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p136-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p137-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p138-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p139-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p140-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p141-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p142-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p143-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p144-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p145-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p146-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p147-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p148-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p149-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p150-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p151-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p152-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p153-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p154-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p155-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p156-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p157-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p158-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p159-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p160-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p161-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p162-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p163-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p164-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p165-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p166-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p167-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p168-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p169-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p170-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p171-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p172-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p173-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p174-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p175-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p176-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p177-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p178-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p179-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p180-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p181-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p182-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p183-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-exact-original-product.bin.gz.part000",
+      "bytes": 4500000,
+      "sha256": "6ae7b3fb5ed67f5ee6127f47429dfd3d41fdb7d4a7ac083b6b6cd97ad7002fd9",
+      "blob": "d028e94e66cbfca220ad93e54508b39106541f98"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-exact-original-product.bin.gz.part001",
+      "bytes": 4500000,
+      "sha256": "d64fadc23337e9950106bbfe793425d0c9c59f0e6dff49f7269cdf5b12b3623f",
+      "blob": "d89423173e2572b4f523bdd1cf646720006f69f3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-exact-original-product.bin.gz.part002",
+      "bytes": 2206682,
+      "sha256": "f7f931fa3c7f3f23bb4fd30f91cdae66268dff4c57f9df88801955d90b855e7c",
+      "blob": "c8e8cb361be6bc91703ac17861cc44cb6ed8740f"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-exact-residual.bin.gz",
+      "bytes": 1518684,
+      "sha256": "6df53fb8a73abc4d92a1bc3ef1dd01324814058a66cbb6e29fb103fc1a386e05",
+      "blob": "ff05a5f2e3e010b38de93aefaa8f44d3b6ceeb26"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-exact-source36.bin.gz.part000",
+      "bytes": 4500000,
+      "sha256": "943560fdc543450450a51fccbda30a02bf5396e8635ae143e98fcb47bbcf3078",
+      "blob": "2ba367f6e5ef0d90c6053df63220be9a1053e9e0"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-exact-source36.bin.gz.part001",
+      "bytes": 4223275,
+      "sha256": "2cd61573a08d40a66f7228ce17bd23e64f90ac89e7f9e21f409c8eca5f4e0b17",
+      "blob": "95dac89c934aa9bc2993b0d2a2d540bbce02ba62"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-receipt.json",
+      "bytes": 385,
+      "sha256": "c92c23695b219d9a3a4449a21fa548c79efc6147dde72b92714d7dc82a7a43a1",
+      "blob": "33886bdd6f026021b3da2a4639ebc27312dda628"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p256/actual-p184-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p33-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p34-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p35-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p36-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p37-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p38-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p39-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p40-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p41-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p42-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p43-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p44-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p45-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p46-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p47-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p48-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p49-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p50-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p51-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p52-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p53-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p54-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p55-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p56-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p57-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p58-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p59-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p60-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p61-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p62-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p63-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-dixon-after32-789f/stage-p64/actual-p64-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    }
+  ],
+  "originalAgentManifestBlob": "379d9a400bfcab186237e055773d130832f067ed",
+  "coreProofCertificateComplete": true,
+  "lastP184SourceProductResidualComplete": true,
+  "allListedStoredBytesVerified": true,
+  "fullRecoveryUploadStillInProgress": true,
+  "originalExpectedStoredFiles": 348
+}
