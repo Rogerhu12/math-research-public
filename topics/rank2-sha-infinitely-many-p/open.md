@@ -156,7 +156,7 @@ R621将同一原B_C⊗σ完整送入F_B六度核，绝对相位−ω²及所有D
 
 **原全部Newton与中央。** R614–619付H唯一L极点、log唯一ps二阶极点、首/次整块与全无限尾；j0只约束完整和，不逐项赋零。R618准确R₂=p^-τ₂，τ₂=(2p−1)/(p(p²−1))，全g_n≥−floor6nτ₂；R622第二连接的同一j保所有W_k(q)，删权无新中央值。R623两Gaussian野域degree p²、sigma对角degree p，七原积分独立；两个Π0U不论j0都在对角域，不能增维。R632将原sigma p域/七积分独立推至全S≤R<R_E；未将全p²域、中央Tate解无证外推。
 
-**原Frobenius幂。** R625–627原B^(p^e)、e≤p−2的整窗n<qL，q=e+1；全r<s首坏带至多一分母，r≥1 residue=b^(qL)binom(6r,q)[w^r]logB。e≤5原S/T两条幂真二行unit及完整前缀范数已付，H38首坏qL+1。R632原f4/f1/S/T/H38归一B^p准确R_E=p^-1/(p²−1)、闭非Tate，H闭盘范数与开盘真实逆全付。真实度p^e、共同首阶p^e和全来源预算必须保；这些单位不依赖j0。**R635继续：** 所有e的边界、原中央连接与全D/k真层，不能免费扩源。
+**原Frobenius幂。** R625–627原B^(p^e)、e≤p−2的整窗n<qL，q=e+1；全r<s首坏带至多一分母，r≥1 residue=b^(qL)binom(6r,q)[w^r]logB。e≤5原S/T两条幂真二行unit及完整前缀范数已付，H38首坏qL+1。R632原f4/f1/S/T/H38归一B^p准确R_E=p^-1/(p²−1)、闭非Tate，H闭盘范数与开盘真实逆全付。真实度p^e、共同首阶p^e和全来源预算必须保；这些单位不依赖j0。R635进一步付全部e≥1及任意p|N的正整数幂B^N仍准确R_E/闭非Tate：H边界缩减1−U^(p²−1)的简单非零零点阻止原z闭盘延拓；d0参考以完整边界M_e−1的严格主导值处理。u侧指数延过边界不等原z可逆，来源度N不省。**R639继续：** 原中央连接的真实解空间和全D/k真层，反复升幂没有扩大原盘。
 
 **原指定det。** R624真Hadamard指定行=det(c,d₂)/8；原S12 addition保持坐标除子、全部Gaussian三项、低R₁/R₂及实际a/p。ψp四位数据合法恢复同det。R630付整个L窗Qp=pH−p²HA/6+p³HA²/72 modp⁴（A=p logK）、原numerator p⁷误差、五个整商首阶js和unit系数C_s^j/j!。真正二次项始于2s，指定det只到2s−1；全端点两真实卷积不删。**R636继续：** 用原来源把实际二次/端点单位返回指定det或完整中央；尚未证明det、forcing或j非零。[全块矩阵与规范](notes/2026-11-15-canonical-all-block-matrix-and-wilson-boundary.md)和[Beta范围](notes/2026-11-14-original-beta-powers-and-nikishin-scope.md)仍在。
 

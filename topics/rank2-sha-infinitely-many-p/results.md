@@ -131,3 +131,6 @@
 
 
 - [R634：原T伴随的单层完整返回与同单位反射比较](results/R634-original-whole-t-companion-and-reflected-unit-comparison.md)：真实C六旋转保whole S72，原ρ1第二态给KW=X/KEW=εX及全部W/EW矩形；同q和全五伴随保留，原T每层伴随深度返回。W±同单位条带的完整奇次首矩接原P1/I1及三个补偿，Vdeep支属p⁴；反射W−并未获得原T或中央零身份。
+
+
+- [R635：原来源全部p幂的同一形式群边界](results/R635-all-original-powers-and-formal-logarithm-boundary.md)：原H边界缩减1−U^(p²−1)给全部简单非零零点；e≥2的u侧指数虽延过边界，完整乘积仍为单位且边界偏离一有准确主导值。由原正向代换同时付d>0及H38的d0，全部p^e乃至任意p|N正整数幂准确R_E且闭非Tate；原次数/零阶和中央未付范围保留。
