@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "kind": "immutable_signed_genuine_reference_root_forcing_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+  "scientific_source_sha256": "e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1",
+  "input_paths": {
+    "Taylor_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+    "Taylor_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+    "Taylor_publication": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/publication.json",
+    "background_stage": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+    "operator_stage": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-series.json.gz",
+    "leading_Q_stage": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-Q.json.gz",
+    "original_Taylor_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor.py",
+    "original_Taylor_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-old-rho-first-Airy-Taylor-CI-inputs.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md",
+    "algebra": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+      "bytes": 88854,
+      "sha256": "758a2901d194e9d54ec10bb5004014ee34a972c35367589fd5c86afce3f30c9f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+      "bytes": 34792,
+      "sha256": "42ab23b97ce922b042b8291af46cfe8c44ffd7e90ba1e2a6049caef263b7224e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/publication.json",
+      "bytes": 55427,
+      "sha256": "dc7d7f0fca329f4e16af276ea762ab9316285e803d0816b6b8ec01fe3896e7d3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-series.json.gz",
+      "bytes": 198895,
+      "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-Q.json.gz",
+      "bytes": 80521,
+      "sha256": "0aa0da3c5260ebab0f64afaf0df07eab854988a9a630260714a783ef1c21d523"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor.py",
+      "bytes": 42441,
+      "sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-old-rho-first-Airy-Taylor-CI-inputs.json",
+      "bytes": 10222,
+      "sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md",
+      "bytes": 14116,
+      "sha256": "052a0b23535c42523bc25734ed6366fd01a765c6a309b8ca88731b3ffdd707d8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+      "bytes": 24947,
+      "sha256": "e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd"
+    }
+  ],
+  "legacy_artifact_inputs": [],
+  "mathematical_parameters": {
+    "prec_bits": 320,
+    "runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_fixed_intrinsic_parameter": "-7789843107295549/4611686018427387904",
+    "exact_complex_delta_square_halfwidth": "1/100000000",
+    "exact_complex_z_square_halfwidth": "1/9409",
+    "minimum_absolute_input_label": 97,
+    "physical_frequency": "4j",
+    "both_carrier_signs": true,
+    "exact_old_phi_widths": [
+      "0",
+      "1/128",
+      "3/128"
+    ],
+    "angular_derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "complete_output_maximum_absolute_label": 384,
+    "original_true_root_only": true,
+    "physical_piece": 2549,
+    "reference_root_diagonal_difference": "factored F.22; no unrelated upper-bound subtraction",
+    "retained_original_complete_stage_count": 3
+  },
+  "execution_scope": {
+    "new_work": "Signed complete root Fourier/rational algebra in F.20--F.22 and its complete joint coefficient norms.",
+    "old_target_FFT_intrinsic_repair_fold_or_Taylor_recomputation": 0,
+    "original_input_bytes_modified": false,
+    "independent_physical_even_mean_retained": true,
+    "genuine_new_w1_not_solved": true,
+    "whole_piece_source_norm_or_full_inverse_claimed": false,
+    "temporary_native_only": true,
+    "repository_outputs": "Small actual conclusion and execution metadata only.",
+    "release_or_new_artifact_uploads": false
+  }
+}

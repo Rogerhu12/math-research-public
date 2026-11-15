@@ -147,3 +147,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:47:03 UTC — 三径源到四径状态、有损1734接口独推
 
 根读76f06347300ad61493c8bda2bfd5c935a50ee631两README未变，J全文及J6/7准确残差符号、四步递推/角索引、J18 metric单位、J20先消mean与J22/23均核；newton另核J6/7和J16–21，未重复代授network常数。父N已推b6a1e3e3…，J最终仅改已证明状态，14361B/SHA7977c82003462001e800626c9bc5374085aac9fcdd73d89e21278de2f68c4234。保piecewise第四bump导、原第三jet跳、独立mean/height/外荷和source graph义务，无新数值。紧接graph/smoothing与EN真实近似逆缺陷，不因本接口完成而停止。
+
+## 2026-11-15 07:49:38 UTC — signed根源最小12pin公开计算部署
+
+根读取cb4794b42c00114ccf28f59ade9e48e763e7a39e，两README未变。根全文审SCI、manifest12pin、flow及成功worker机械差异；对原共同C1核alpha=-ibΣℓuℓv−ℓ/(1−ℓ²z)，fixed-z两阶Q1保KrW，root F20/F21所有系数/mean与±carrier准确。newton独核两数学函数通过。SCI e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1、manifest bed0fdb7a293ddaf2408585d5530b81b9c7277f16e22be1763fee732211a351e、worker fca0aacd7a4c1504f0d0fb9dcec7cd01eb2f2da9c0167542d54dc56b363102ff、flow b3e7ab4cf0fbb7e0f9bb08bcabfdf90264547a59e4159866a34be2f5adadfe0e；静态括号通过，完整AST/新数学只公开Actions。原3stage实际header、Taylor75旧字节、全uniformδ/z和原physicalmean均保；没有新data上传。

@@ -1,0 +1,85 @@
+name: visible-exact signed genuine-reference root forcing
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-genuine-reference-signed-root-forcing.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-genuine-reference-signed-root-forcing
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-reference-signed-root-forcing-CI-inputs.json
+  PHASE_MANIFEST_SHA: bed0fdb7a293ddaf2408585d5530b81b9c7277f16e22be1763fee732211a351e
+  PHASE_PIPELINE_SHA: e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1
+  PHASE_WORKER_SHA: fca0aacd7a4c1504f0d0fb9dcec7cd01eb2f2da9c0167542d54dc56b363102ff
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+  REVIEWED_RULES_SHA: f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd
+
+jobs:
+  genuine-reference-signed-root-forcing:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-reference-signed-root-forcing-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source and exact original algebra before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          q=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py')
+          assert hashlib.sha256(q.read_bytes()).hexdigest()=='9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b'
+          ast.parse(q.read_text(),filename=str(q))
+          PY_SOURCE
+      - name: Install the identical completed scientific runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Check the full immutable AST closure and assemble only the new complete signed root forcing
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-genuine-reference-signed-root-forcing-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-genuine-reference-signed-root-forcing-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.

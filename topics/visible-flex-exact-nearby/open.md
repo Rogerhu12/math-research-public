@@ -34,7 +34,7 @@ phase_inverse负责。原fold/leading/Taylor forcing/w1/Nraw/b*/1328/六profile�
 
 [新F带符号第一源](results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md)已保f_b^V=f_b+V_j、f_a不变及完整n^-1/^-2/^-3修正和旧六余项。真正root大径向项精确消去；全old-angle mean仍为V_j−V∞+141〈C²〉/(140κ²)，C²为bilinear非绝对值。finite-z的Q1及Kr项不能删。新w1^V必须保新根常数，旧w1不改名。
 
-下一项：最小公共consumer只消费原accepted root/background/operator/leading-Q stages，组装新完整Laurent系数和rational-z项，支持到|k|384，保complexδ、全mean、±j。不相减两个上界冒signed消去。扩至原整片还须V(T)准确复合、所有Taylor/reciprocal尾、实际nonzero-entry、两P/I/J/mean/seam；随后完成真实positive Schur、强返回和cutoff97充分性。
+最小公共consumer现已部署：SCI e55a078a…/worker fca0aacd…/12pin bed0fdb7…/flow b3e7ab4c…。只消费原accepted root/background/operator/leading-Q三stage，原75阶段字节不变，组装新完整Laurent系数和rational-z项，支持到|k|384，保complexδ、全mean、±j。直接读取真实run及0/1/128/3/128的q0..3完整范数，不将两个上界相减冒signed消去。扩至原整片还须V(T)准确复合、所有Taylor/reciprocal尾、实际nonzero-entry、两P/I/J/mean/seam；随后完成真实positive Schur、强返回和cutoff97充分性。
 
 ## 4. 已付全δ线性帽、附近真外行与尚缺的实际入口
 
