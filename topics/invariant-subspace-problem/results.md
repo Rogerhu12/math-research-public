@@ -66,3 +66,5 @@
 - **[当前物理四次块真秩986与二次skew降次](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)：** run43679903558实际0.420009955秒，原1001×1122模31rank986及完整136常Koszul核给Qrank986。反对称C系数degree≤2且Cf的原来源degree≤3时，全交替三张量使Cf严格等于一次系数表示；同选支撑交仍29维。只闭这一扩展，degree≥3或整个Koszul模不外推。
 
 - **[原full∞第一连接≤7与共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：** 同自然u的真实切向M=c y²+d sym(yy′)使全部17式O(u²)，故任意原6188核的第一连接20个纯切向坐标全零。真4340常秩的余空间还剩7维，β_Qrank≤7；十四正Smith指数至少七个≥2，全部最大子式共同u21。未付精确rank/全厚度，与指定D的43阶不能相加。
+
+- **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
