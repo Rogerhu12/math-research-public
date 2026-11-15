@@ -57,3 +57,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 2026-11-15 05:50:37 UTC tail完成C1–29，root全文核并要求物理r/残差mathfrak r分离、补完整高角Nemytskii而非仅四次径向chain rule、前置真实R_s域。phase核C4/6/8纯尺度；newton独核C18–29显式Λ/l/T（无1/q）、rt δ12/rtt δ8/strict integral δ7/TV δ0及32seam、weighted投影、非解mean抵消、κ2′先投影后恢复真mean通过。最终18825B/SHAad1fc17b…独推，只有符号证明，不新数值，不授full inverse。README核46653675949dc9835f297ca223121a75d3e1e9d3仍同。
 
 2026-11-15 05:55:08 UTC root独读actual-result全文、execution21门/49自然阶段/13行（11+2）、两片entry/exit和全部9词5mean、六case完整总界，并与原adjacent报告六旧总界逐项对照。报告9846B/SHAf3a372ce…单独推；真实science10.658338976s、wall11.187589111s区别保，原4305行逐字copy/78选择引用、0旧重算。latest runner真pull05:50:08.043082→31afacea…两README diff空，Green三流首实际count已读取，尚无最终界。顺手仅修I jump公式display分隔，当前SHAece60de2b024228b768582ffe8d7bd14b72122d304b6db0d04706ff42f89e629，数学未改。只读README核d0a4bc9065168ca581a48762c5994e1fd3dd6681仍同。
+
+## 2026-11-15 06:11:03 UTC — 未知 outer 角的完整 good tangent
+
+全文核 U.1–U.25；tail 独核 U.20–U.24 曲率号、Π0 相位和两 mean。将已核14,211B小证明独推：真实 good 变量与 raw composition 的方向正则区别明确，全部 scalar/affine/cut residual 保留。root另读 Green v2 process34295B，真pull 06:01:04.324292→b0a612da885619690067cac0e90da621dba9dbf0，两 README diff空；当前2448future(1886旧)/448past/576product，0groups，未总界。发布前只读README e335b329641fbc78c451bafa6285bf9be66a2ff1 无变。
