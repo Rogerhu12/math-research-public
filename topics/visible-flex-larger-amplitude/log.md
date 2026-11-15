@@ -85,3 +85,7 @@ run43687907457/source7308ea/job132732158878在首快照前退出；旧driver从H
 ## 2026-11-15 发布113历史输入最小修复
 
 [完整接线](notes/2026-11-15-native113-frozen-input-restoration-interface.md)：原两ready从公开8bd26710准确blob恢复到runner临时目录，经原client既有env槽消费，原三科学源/28pin/全部数值预算不变。request13124B/ce294b5e、workflow17706B/db8a479b；只读父包owned目录补owner权限供终清理，不改数据。新run待读，首跑失败不作数值结论。
+
+## 2026-11-15 113修复后第二run已启动
+
+run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建。实际job元数据到历史两输入恢复步骤；尚未读回科学结果。H压缩114的已完成原值到正式note，保所有未付责任。
