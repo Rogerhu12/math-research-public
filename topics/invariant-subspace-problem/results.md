@@ -411,3 +411,5 @@
 - **实际位置二阶与全部真正交旗已完整运输。** [自然闭域证明](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)以位置skew的形式相对界和真投影反馈给||Gposu||≤40QΔ；原返回/q/帽/帽q范数常数240/530A0/530C0/1040C0A0，乘Q√νΔ。逐位adD³=0给Lpos*真实上2带，全部Fj的二阶矩平方和O(νQ²Δ²)，不乘旗高。原u用z0=f−u保缺陷，环境B对易与PE反馈均在自然域证明；未将正预算当顺次MP负部或ordinary N=M。
 
 - **∞完整第八恰一、15原头与长度至少64。** [完整有理证明](results/R150-appendix-infinity-complete-eighth-connection-one-fifteen-heads-and-length64.md)实付1088×600前缀578/580/591→592、核8/新增头1，835380原九层产品及11incoming高回填全真。前八β=(4,0,1,3,1,1,1,1)，fullQ64…66/sub54…55/max10…12、AI66…68、T∞长3…5仍只u5。Δaff≤317、R/Rout/U≤159、Rh*≤182/第三330；外Ω度d时同源费8531−d、余乘子159−d。下一独一额外头的第九真实高与12incoming仍实算。
+
+- **∞第九真实高零且十二incoming全部运输。** [完整原高证明](results/R150-appendix-infinity-ninth-high-zero-and-twelve-incoming-source-maps.md)核实际唯一额外头、55692原低阶产品及5100×1高零；代表λ8normal2有75非零，incoming λ8有115非零均保留。实际3.528101774秒，余完整1088×600低式须保全部来源、592前缀及十层原乘回；不由本次高零提前判β9。
