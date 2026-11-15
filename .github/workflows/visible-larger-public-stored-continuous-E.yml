@@ -1,0 +1,297 @@
+name: visible-larger original stored convention-C continuous E closed cover
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-original-stored-continuous-E-request.json
+permissions:
+  contents: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-stored-continuous-E
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Original full 160-cell source and six primitives with all-deep continuous cover
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    permissions:
+      contents: write
+    outputs:
+      scalar_summary: ${{ steps.scalar.outputs.scalar_summary }}
+      scalar_summary_bytes: ${{ steps.scalar.outputs.scalar_summary_bytes }}
+      scalar_summary_sha256: ${{ steps.scalar.outputs.scalar_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/*.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/results/R286-original-stored-continuous-integral-and-metric-bridge.md
+      - name: Establish request132 owned temporary namespace
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          git config --global merge.stat false
+          mkdir "$RUNNER_TEMP/visible-stored-continuous-E132"
+          echo "VISIBLE_BASE=$RUNNER_TEMP/visible-stored-continuous-E132" >> "$GITHUB_ENV"
+          echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Install only the explicit rigorous interval runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Bind actual scientific source and explicit complete closed query
+        run: |
+          python - <<'PYPINS'
+          import ast,hashlib,json,os,re,subprocess
+          from pathlib import Path,PurePosixPath
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          raw=(comp/'public-original-stored-continuous-E-request.json').read_bytes();request=json.loads(raw)
+          assert request['schema']=='public-original-stored-continuous-E-request-v1'
+          assert request['request_number']==132 and request['lanes']==['storedcontinuousE']
+          assert request['repository']=='Rogerhu12/math-research-public'
+          assert request['scientific_entry']=='geometry_20261115_stored_continuous_E_cover.py'
+          assert request['source_count']==len(request['source_sha256'])==8
+          verified=[]
+          for name,expected in request['source_sha256'].items():
+            assert PurePosixPath(name).name==name and re.fullmatch(r'[0-9a-f]{64}',expected)
+            data=(comp/name).read_bytes();assert hashlib.sha256(data).hexdigest()==expected,name
+            if name.endswith('.py'):compile(ast.parse(data,filename=name),name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+          source=ast.parse((comp/request['scientific_entry']).read_bytes())
+          constants={node.targets[0].id:ast.literal_eval(node.value) for node in source.body
+            if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name)
+            and node.targets[0].id in ('PINS','PROOF_SHA','REVISION')}
+          assert constants['PINS']==request['original_formula_source_sha256']
+          assert constants['REVISION']==request['original_source_revision']
+          proof=request['proof'];data=(repo/proof['file']).read_bytes()
+          assert len(data)==proof['bytes'] and hashlib.sha256(data).hexdigest()==proof['sha256']==constants['PROOF_SHA']
+          for name,expected in request['reviewed_README_blobs'].items():
+            assert subprocess.check_output(['git','hash-object',name],text=True).strip()==expected
+          item=request['query_recipe'];data=(repo/item['file']).read_bytes();query=json.loads(data)
+          assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
+          assert query['schema']=='R286-original-stored-convention-C-closed-queries-v1'
+          assert query['queries']==[dict(id='whole-original-source-natural-continuous-domain',
+            kind='whole-natural-domain',left_closed=True,right_closed=True)]
+          assert query['config_sha256']==request['inputs']['config']['sha256']
+          assert query['calibration_ledger_sha256']==request['inputs']['calibration_ledger']['sha256']
+          assert query['stored_reference_sha256']==request['inputs']['stored_reference']['sha256']
+          assert request['scientific_parameters']==dict(deep_definition='original-exact-root-family',
+            precision_bits=256,integral_absolute_bits=96,integral_relative_bits=80,
+            integral_evaluation_limit=100000,value_width_bits=24,max_depth=48,query_depth=12,
+            max_panels=200000,max_query_nodes=200000,budget_seconds=1800)
+          assert not any(request['retention'][k] for k in ('upload_artifact','upload_release','publish_raw_to_git'))
+          assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==os.environ['GITHUB_SHA']
+          print(json.dumps(dict(event='request132_source_and_query_identity',run_id=os.environ['GITHUB_RUN_ID'],
+            source_commit=os.environ['GITHUB_SHA'],request_sha256=hashlib.sha256(raw).hexdigest(),
+            sources=verified,proof=proof,query_recipe=item,complete_scope=request['complete_scope'],
+            scientific_parameters=request['scientific_parameters'],no_science_started=True)),flush=True)
+          PYPINS
+      - name: Restore exactly the original config and both saved-ready byte inputs
+        run: |
+          python - <<'PYINPUTS'
+          import hashlib,json,os,subprocess
+          from pathlib import Path,PurePosixPath
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request=json.loads((comp/'public-original-stored-continuous-E-request.json').read_bytes())
+          commit='8bd267107cc8710d371f3b62c02986655ac965b0'
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          assert head==os.environ['GITHUB_SHA']
+          if subprocess.run(['git','cat-file','-e',commit+'^{commit}'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:
+            subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags','--filter=blob:none','--depth=1','origin',commit],check=True)
+          base=Path(os.environ['VISIBLE_BASE']);inputs=base/'original-inputs';inputs.mkdir(exist_ok=False)
+          records={}
+          for role,item in request['inputs'].items():
+            assert item['historical_public_commit']==commit
+            relative=PurePosixPath(item['file'])
+            assert not relative.is_absolute() and '..' not in relative.parts
+            assert str(relative).startswith('topics/visible-flex-larger-amplitude/notes/')
+            assert Path(item['runtime_basename']).name==item['runtime_basename']
+            blob=subprocess.check_output(['git','rev-parse',commit+':'+str(relative)],text=True).strip()
+            if 'git_blob' in item:assert blob==item['git_blob']
+            raw=subprocess.check_output(['git','cat-file','blob',blob])
+            assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256'],role
+            path=inputs/item['runtime_basename']
+            with path.open('xb') as stream:stream.write(raw);stream.flush();os.fsync(stream.fileno())
+            records[role]=dict(source_path=str(relative),git_blob=blob,bytes=len(raw),sha256=item['sha256'],temporary_file=str(path))
+          assert set(records)=={'config','calibration_ledger','stored_reference'}
+          assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==head
+          print(json.dumps(dict(event='request132_original_geometry_bytes_restored',historical_public_commit=commit,
+            source_commit=head,inputs=records,raw_inputs_not_rewritten_or_rearchived=True,
+            no_accepted_tail_or_field_input_consumed=True)),flush=True)
+          PYINPUTS
+      - name: Restore the unchanged original public source subset once
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+          import os
+          from pathlib import Path
+          from exact_20261114_public_resume import prepare_public_source
+          base=Path(os.environ['VISIBLE_BASE'])
+          source=prepare_public_source(Path.cwd(),base/'original-public-source',base)
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+          PYSOURCE
+      - name: Produce the complete original continuous E cover with honest partial scope
+        id: science
+        timeout-minutes: 45
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-original-stored-continuous-E-request.json';request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          old={name:value['blob'] for name,value in runner.BASELINES.items()};runner.BASELINES=baselines
+          print(json.dumps(dict(event='request132_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
+            old_embedded_blobs=old,reviewed_current_blobs=request['reviewed_README_blobs'],
+            period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_rule_change_stop_retained=True)),flush=True)
+          base=Path(os.environ['VISIBLE_BASE']);inputs=base/'original-inputs'
+          argv=[str(comp/request['scientific_entry']),'--runtime-computations',str(comp),
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],'--proof',str(repo/request['proof']['file']),
+            '--queries',str(repo/request['query_recipe']['file']),'--queries-sha256',request['query_recipe']['sha256'],
+            '--out',str(base/'continuous-E')]
+          for role,option in (('config','config'),('calibration_ledger','ledger-ready'),('stored_reference','stored-ready')):
+            item=request['inputs'][role]
+            argv.extend(['--'+option,str(inputs/item['runtime_basename']),'--'+option+'-sha256',item['sha256']])
+          for key,value in request['scientific_parameters'].items():
+            argv.extend(['--'+key.replace('_','-'),str(value)])
+          # Auth exists only for the original rule-sync parent; the numerical
+          # child executes the unchanged source without GitHub token variables.
+          bootstrap="import os,runpy,sys; [os.environ.pop(k,None) for k in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')]; sys.argv=sys.argv[1:]; runpy.run_path(sys.argv[0],run_name='__main__')"
+          command=[sys.executable,'-u','-c',bootstrap,*argv]
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*command]
+          raise SystemExit(runner.main())
+          PYRUN
+      - name: Read actual complete metadata and unresolved suffixes without new scientific arithmetic
+        id: scalar
+        if: always()
+        run: |
+          python - <<'PYSCALAR'
+          import collections,hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['VISIBLE_BASE']);out=base/'continuous-E'
+          def digest(path):
+            h=hashlib.sha256();count=0
+            with path.open('rb') as stream:
+              for block in iter(lambda:stream.read(1048576),b''):h.update(block);count+=len(block)
+            return dict(file=str(path.relative_to(base)),bytes=count,sha256=h.hexdigest())
+          summary=dict(schema='request132-original-continuous-E-actual-scalar-summary-v1',
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            compute_step_outcome='${{ steps.science.outcome }}',
+            source_result=None,query_results=None,complete_unpaid_scope=None,
+            actual_accepted_field_not_claimed=True,readout_performs_no_new_scientific_arithmetic=True)
+          result=out/'result.json'
+          if result.is_file():
+            desc=digest(result);record=json.loads(result.read_bytes())
+            assert record['schema']=='R286-original-stored-convention-C-continuous-E-cover-v1'
+            summary['original_result_file']=desc;summary['source_result']=record
+            query=record['query_results'];path=out/query['file'];qraw=path.read_bytes()
+            assert len(qraw)==query['bytes'] and hashlib.sha256(qraw).hexdigest()==query['sha256']
+            summary['query_results']=json.loads(qraw)
+            unpaid=record['ledgers']['complete_unpaid_scope'];path=out/unpaid['file']
+            actual=digest(path)
+            assert actual['bytes']==unpaid['bytes'] and actual['sha256']==unpaid['sha256']
+            counts=collections.Counter();source_suffixes=[];query_suffixes=[];first_issue=None;rows=0
+            with path.open('rb') as stream:
+              for raw in stream:
+                item=json.loads(raw);rows+=1;kind=item['kind'];counts[kind]+=1
+                if first_issue is None:first_issue=item
+                if kind=='unvisited-source-piece-suffix':source_suffixes.append(item)
+                if kind=='unvisited-query-suffix':query_suffixes.append(item)
+            assert rows==unpaid['rows']
+            summary['complete_unpaid_scope']=dict(original_ledger=actual,rows=rows,
+              exact_row_count_by_kind=dict(counts),first_original_issue=first_issue,
+              all_unvisited_source_piece_suffixes=source_suffixes,all_unvisited_query_suffixes=query_suffixes,
+              other_closed_panel_rows_are_in_recomputable_ledger_not_silently_claimed_paid=True)
+          else:
+            summary['failure_scope']='No final producer result; inspect original child stderr and rule-sync outcome; no scientific completion is inferred.'
+          rules=base/'rule-sync'/'runner-result.json'
+          if rules.is_file():summary['rules_runner_result']=dict(original_file=digest(rules),value=json.loads(rules.read_bytes()))
+          raw=json.dumps(summary,ensure_ascii=False,separators=(',',':'),allow_nan=False).encode()
+          if len(raw)>90000:
+            print(json.dumps(dict(event='request132_actual_scalar_summary_too_large',bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),no_truncation_and_no_success_relabel=True)),flush=True)
+            raise SystemExit(70)
+          print('BEGIN_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(raw.decode())
+          print('END_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          checksum=hashlib.sha256(raw).hexdigest()
+          print(json.dumps(dict(event='request132_actual_scalar_identity',bytes=len(raw),sha256=checksum,
+            hash_scope='compact UTF8 JSON excluding separator LF',raw_upload=False)),flush=True)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+            stream.write('scalar_summary='+raw.decode()+'\n')
+            stream.write('scalar_summary_bytes='+str(len(raw))+'\n')
+            stream.write('scalar_summary_sha256='+checksum+'\n')
+          PYSCALAR
+      - name: Remove only request132 temporary inputs and recomputable output after actual readout
+        if: always()
+        run: |
+          python - <<'PYCLEAN'
+          import json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          target=Path(os.environ.get('VISIBLE_BASE',str(root/'visible-stored-continuous-E132')))
+          try:
+            assert target.name=='visible-stored-continuous-E132'
+            assert not target.is_symlink() and target.resolve().is_relative_to(root) and target.resolve()!=root
+            if target.is_dir():shutil.rmtree(target)
+            print(json.dumps(dict(event='request132_owned_temporary_payload_removed',
+              raw_outputs_or_recovered_inputs_not_uploaded=True)),flush=True)
+          except Exception as error:
+            print(json.dumps(dict(event='request132_owned_cleanup_error',error=repr(error),
+              separate_from_scientific_partial_or_complete_result=True)),flush=True)
+          PYCLEAN
+  report:
+    name: Actual continuous model scope and output hashes only
+    needs: compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SCALAR_SUMMARY: ${{ needs.compute.outputs.scalar_summary }}
+      SCALAR_SUMMARY_BYTES: ${{ needs.compute.outputs.scalar_summary_bytes }}
+      SCALAR_SUMMARY_SHA256: ${{ needs.compute.outputs.scalar_summary_sha256 }}
+      COMPUTE_RESULT: ${{ needs.compute.result }}
+    steps:
+      - name: Print bounded original readout with honest unavailable case
+        run: |
+          python - <<'PYREPORT'
+          import hashlib,json,os
+          text=os.environ.get('SCALAR_SUMMARY','')
+          if not text:
+            text=json.dumps(dict(schema='request132-actual-continuous-E-output-unavailable-v1',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              compute_job_result=os.environ.get('COMPUTE_RESULT'),continuous_E_completion_not_claimed=True),separators=(',',':'))
+            raw=text.encode()
+          else:
+            raw=text.encode();assert len(raw)==int(os.environ['SCALAR_SUMMARY_BYTES'])<=90000
+            assert hashlib.sha256(raw).hexdigest()==os.environ['SCALAR_SUMMARY_SHA256'];json.loads(raw)
+          print('BEGIN_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(text)
+          print('END_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(json.dumps(dict(event='request132_report_identity',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+            hash_scope='compact UTF8 JSON excluding separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),
+            raw_artifact_release_git_upload=False)))
+          PYREPORT

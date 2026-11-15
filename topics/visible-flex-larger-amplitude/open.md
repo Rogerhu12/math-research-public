@@ -52,7 +52,7 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 118末warm/status已清理，原SHA只作身份；原8摘要按JSON加一LF核身份、16子进程均exit0，完整原log382986B/1c81a9c6已读。
 
-[130明确33查询实验](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)现已发布，选择从可恢复98原31 pair直接另起轨迹，未重做118也不冒续其删失末点。相对原32只加MID483，相对首98输入实际增加471/483；capture21而端点25/local8453/C4059/outside不变，80原及新pin+worker1、全部原模型/17trial/新warm完整FD保持。recipe6fc6cac9/request53d4e417/workflow25d81c4d，原8批/10500s批间、175/185分钟资源合同，push触发后核实际run。未选MID472/LEFT463及QP后验责任由新真实输出决定，不能预称改善或最终接受。
+[130明确33查询实验](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)现已发布，选择从可恢复98原31 pair直接另起轨迹，未重做118也不冒续其删失末点。相对原32只加MID483，相对首98输入实际增加471/483；capture21而端点25/local8453/C4059/outside不变，80原及新pin+worker1、全部原模型/17trial/新warm完整FD保持。recipe6fc6cac9/request53d4e417/workflow25d81c4d，原8批/10500s批间、175/185分钟资源合同，实际run43702578242/source690ca0f924f069c6b8c2134ca83bc856918c2e89已10:08:00启动。未选MID472/LEFT463及QP后验责任由新真实输出决定，不能预称改善或最终接受。
 
 ## 3. 闭合与固定同一g精化
 
@@ -84,7 +84,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)已直接登记。明确约定C保原binary冻结输入、浅160校准系数和全局lambda，将原派生关系解释为实函数，并保原准确深校准根类别；旧ready未独自固定全部实语义/唯一根规则，须明示该模型补充。六共同primitive按唯一真实累计原点形成R；正warp D=b+c|w_s|使真正径向导数q/D在cusp处有连续一阶导数，给w有限头C²及原深根族的E全域C²平圆领极限。内保护端cap/flat原两jet兼容和外cut相邻场两jet仍须实际支付。
 
-R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原准确深尾统一包围和真实径向逆像覆盖，可直接生产E而不先穷举48树；当前尚无实际执行/数值E输出。冻结lambda后的自然Rout不得重归一为名义binarycut；原有限Gauss/selector输出须另比较，G8/G16差不是误差界。可计算选根或明确根族、实际域识别及完整材料角pullback混合项均保留。[独立连续E生产器及完整接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)现已发布：66415B/9aa0da45，完整1440片六primitive、真实自然Rout、准确深根族统一包络及闭径向逆像；正D/真实二阶式、原覆盖顺序和全部未付stack/suffix保持。源码给实际protected/finite join结构与模型条件，完整宽界和工作精度不同；具体深根选择、旧finite同连续身份及a601同场阈值均不冒完成。132将实际从原T112-config/两ready和78源恢复执行1800s全自然域query，不使用旧数值证书。
+R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原准确深尾统一包围和真实径向逆像覆盖，可直接生产E而不先穷举48树；当前尚无实际执行/数值E输出。冻结lambda后的自然Rout不得重归一为名义binarycut；原有限Gauss/selector输出须另比较，G8/G16差不是误差界。可计算选根或明确根族、实际域识别及完整材料角pullback混合项均保留。[独立连续E生产器及完整接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)现已发布：66415B/9aa0da45，完整1440片六primitive、真实自然Rout、准确深根族统一包络及闭径向逆像；正D/真实二阶式、原覆盖顺序和全部未付stack/suffix保持。源码给实际protected/finite join结构与模型条件，完整宽界和工作精度不同；具体深根选择、旧finite同连续身份及a601同场阈值均不冒完成。[132完整实际请求](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)已发布：原T112-config/两ready按历史8bd26710完整字节恢复、78原源和8当前pin/9公式源，query4fa2baa1只whole-natural闭域；request1b3d3348/workflow35b4292b、256bit/1800s工作/45science65job，实际完整result/query和所有未访问source/query后缀读回后清理。未传任何接受场或旧数值证书，push后核run。
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 

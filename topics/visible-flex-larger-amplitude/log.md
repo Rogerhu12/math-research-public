@@ -307,3 +307,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 request130原MID483完整查询新增
 
 [完整接口](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)和十件源/参数/workflow已发布，root完整读四科学源、helper/worker/recipe/request/workflow全部差异及16945B接口。相对32只加真state.middle[483]/problem.mid[483]及完整端点J/P/direct-scalar，新增capture483而端点/local/C不扩；首父硬锁98原31，后父只真实own33，不重演或假续118。原75pin逐保加5及worker1，所有原atomic模型/FD/预算/规则runner/清理合同保持，无本地科学/fixture。helper原末LF按冻结字节保持，不为格式改变源身份。push触发后登记实际run继续。
+
+### 2026-11-15 request132完整连续E自然闭域运行入口
+
+[完整接口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)及四件request/query/workflow文本全部读完并发表；原3输入/78源恢复，8当前pin和9公式源/正式9aa0科学源与81d061证明保持。明确256bit/1800s工作、45/65分钟平台、全1440×6/准确深根族/自然Rout；always读实际result和query、未访source/query后缀与完整unpaid身份，再仅清本请求临时根，无raw上传或本地科学。130已由公开push触发run43702578242/source690ca0f9，10:08:00创建；122/124/128仍各自科学步骤执行。
