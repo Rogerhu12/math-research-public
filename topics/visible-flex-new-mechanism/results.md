@@ -304,3 +304,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R398｜完整静态与速度二次自然读出不能同时恒零
 
 [R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)（7815B；SHA256 742a5737b0895b1753643496e03d90c166a7b0d68d76717a808a57b28a26a90b）。反设四低族自然零，R130完整十四族/R350/382给全自然像恰R393九维Q4；−2头复合Λ为非零杀R真实字符，完整M=T0路径的实际action为∫h_s⁴/(32h⁶)≥0，矛盾R188。ΓM、全部原history和水平平端势准确保留。只证明至少一真实低族非零；具体state/族、全自然像/零权和actual联合商仍欠。root全文及R188完整原定理/作用范围核对，无新执行。
+
+
+## R399｜全E/全自然核中的新四维双period内部响应
+
+[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)（14403B；SHA256 ae70234ae53bfac189c49c292ebe9aaeb9b476caa5ecf48fccc76376261aaa2a）。τ*=64(χ34−3χ32)−𝔍/2的完整a=2p²、b=−4r²−2pt、c0，𝔄自伴/𝔄u0给全部自然0；原partial=2p²(pw″−rw′)。负布局倒二微包真实n=2RTμ_last非零，十二实际副本C像ε·ρ⁷Pol≤3，≤4点与旧≤11 Hd组成全核独立像。保prototype、平台、清A与后校正全部成本，可实际(F,A,Hd,C)；另wholeE截面付这些≤4点双period逆germ，不能拼成wholeE+A。原余内部点/全Λ/十三行仍欠。纯纸证，无新执行。

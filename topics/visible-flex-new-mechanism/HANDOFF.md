@@ -43,6 +43,9 @@ Gaussian R388完整R0/R4=正系数D4=∫(f″²−u″²)²，无P分母；对�
 
 [R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)已排F0/三个Q2全部自然读出恒零：若皆零则全自然像=R393九维Q4，−2头复合Λ成非零真实仿射字符；完整固定端M=T0路径的ΓM、正导数势/真history全保后action=∫h_s⁴/(32h⁶)≥0，违R188。至少一个低族真非零；未定具体族/状态/零权，继续完整低层密度，不将Q4头冒全U正字符。
 
+
+[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)新增τ*=64(χ34−3χ32)−𝔍/2，完整c0/a2p²，𝔄自伴且𝔄u0；八响应wholeE/Λall0。真实partial=2p²(pw″−rw′)，Af点无Af因子；原负布局倒二微包n=2RTμ_last非零。12真副本的C像ε·ρ⁷Pol≤3，至多4对应点可与旧≤11 Hd联调；实际(F,A,Hd,C)及另一个wholeE0/Hd0/C0截面各自成立，不拼wholeE+A，不授其它点/13门。qY已用r†纠正锚符号，根全文核。
+
 ## 5. 继续
 
 数值先修正同m7评估定义恢复，复用已通过16人工收据并累计失败费用，再执行尚未支付的LP11/原SOC12，保全规则与成本，不重跑旧工作。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。

@@ -162,9 +162,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
 
 
-### R395全自然核中的内部独立性已付
-
-[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)原十一K列本身属于R71⊂R，完整E0/Λall0，不需新H/Abar分解。保R345旧对应点满秩及R391真简单零，partial独立且非零产生真实log逆障碍；不重算旧Vandermonde。增强线性响应商不增，尚非actual path。继续R392的F=P_LE/双固定Λ加这些partial的实际三角增强，全部prototype/后校正/有序平台成本保入同一有限n。
+R395旧十一K已付wholeE/Λall0和独立内部通量；其实际增强与新第二通道合并见下R399，旧Vandermonde不重做。
 
 
 ### R393完整Q4自然像已闭，低层仍是实际联合商关键
@@ -190,3 +188,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### 已付m7接口：十六人工复用，修复原epoch定义
 
 [首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)：run43771970034真实入口在评估定义哈希门停止，新科学入口0/LP0/新accepted0；原最佳点保留。16人工全过且只复用。必要准备14.667315975秒、恢复0.086260152秒、总18.621493514秒保留，恢复费累进同120秒。下一静态核原定义字段，不跳门、不改375历史/438当前/原模型/12LP/40value/10秒LP。修复后仅尚未执行的LP11/SOC12，必要缓存/J计剩余预算。
+
+
+### R399新的第二period内部通道已实际付至四点
+
+[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)原τ*全c0/a2p²/𝔄u0，八响应保wholeE/Λall0；partial在Af点为2p²(pw″−rw′)，不沿旧Af因子。真负布局倒二微包suffix非零、12副本C像准确ε·ρ⁷Pol≤3，≤4第二通道与≤11 Hd块三角独立。可实际(F,A,Hd,C)，另可actual wholeE0并付≤4点两个germ；两截面不拼。其它退化点、全Λ及13同规范仍欠；下一继续原Z内其它c0局部方向的真实内部像。
