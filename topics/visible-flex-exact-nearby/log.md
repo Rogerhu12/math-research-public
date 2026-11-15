@@ -117,3 +117,11 @@ SCI a3ff4be3d252dbbc5571924b36927760ace54db91b5e00477749b2f97ba9ace7（35811B）
 只新scalar/F12..17六列、45mean/E11..16/四intrinsic10..15。原P0..11仅三角恢复未存辅助；旧scalar、F原raw、12error/36mean/E0..10/54checks保持，Nyquist只在新消费view用准确零。新germ/angle/trig/单位primitive/FFT/finite列各自然stage即时存，SCI封锁旧target/complete/tail入口。阶乘整数先Arb包络，普通binomial保准确。原intrinsic0..9只复制、输出只追加10..15；原kρ0..8亦保。科学全门、自然stageSHA与完整新scalar报告由CI实际核；摘要≤60KB、文件≤5MB，失败与成功原样存。
 
 root和phase核constructor/set_cell不调用FFT，root核DirectedFFT/NativeFFT缓存API；无可用本机执行环境（01:02后再次No usable execution environment），只作文本及括号一致性核，Python AST由公开Actions在新数学前执行。worker沿已成功infra，45minchild/50min驱动，前后实际pull/两README diff；非FF立即pull再推。此为部署，不是新导数已通过。两README在ae7e5af322c13ba8bbff6130a284272b48446568未变。
+
+## 2026-11-15 01:09:25 UTC — 高根补算实际12门成功，接Taylor7..12
+
+root独立核process41444B SHA c7ff69243d3f724f539cd0ee95c2b0ba219caa5ffba47ff9b084387255e78e5b、worker2947B e3d3b0124c871b1aff641c5dbccfac9eddf6e7110ff2ee977e5af29ab31cc6f3、publication14832B 486c321c2878870e526891c5cecec2a5b205062590d398e45adb03dba6ef1a44。run43661471951 child0/12门，actual sciencecheckout b2d48e236fa92a979c71994b55ec86434495cc7f；数学19.648447472999976秒，驱动20.30216399799997秒。native ec702cffb8d1dcb25cdb01eaa89127b1f0044ae1cd3cee9e6e293e8165250480（619835B），44自然stage全原SHA推、最大509394B。
+
+真实新增6scalar/6FFT/6finite/6error/6norm/45mean/6E/24intrinsic，旧finite/scalar/error/mean/energy/intrinsic/aux/tail重算计数全0，原54checks及全部旧prefix最终门逐项相同。新的高阶ordinary数值只作完整Taylor输入，不能单凭大导数尺度推断算子大小；原两完整aux的十二Cauchy候选均保，选择R1/2000,k5。正半径/E/rotation三gap未变。
+
+runner 01:06:54.435892、01:07:15.491880、01:07:18.332589真pull均README diff空，最后至c136bf4405b26dd8d4d754cdbb4b988f1606bc03；一次发布非FF已立即pull重推实际成功。当前只读README核760832f3516e1f3360ad2cf62215caccda71292d未变。actual结论单独推，root继续同一个w1的Taylor7..12，只追加原75stage之外未付高阶。
