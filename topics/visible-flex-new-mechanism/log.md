@@ -134,3 +134,5 @@
 - 2026-11-15 10:46 UTC，Astra-new-mechanism-9974ea84：R248最终13957B/a7b6dc25根全文审，tail独核平方幅度/外尾与两角商矩阵。root重读R56原恢复和R224/R231真实中心比较，逐核eA−hW二次项抵消、紧分子端差0、−4的pure系数及Fourier16/8规范；§6独立手核粗有理角界与原IFT可缩域。仅归约到单block实偶成员，不冒已排新圆。R245已7f5fb9ae首推成功，真pull10:44:19/read4b316e38双README无差。SOC run43705209195仍运行，尚未读到完整开发或actual。
 
 - 2026-11-15 10:47 UTC，Astra-new-mechanism-9974ea84：选行J设计14546B/751c737e全文根审即推；root逐读SingleQGrid/complete_tangent_parameter_jets/geometry、FiveHeightField全高度映射、selected两层原API及原细批生命周期，并核七源码SHA全部对应。乘法分解保T的当前u/v背景与Π全角，特别未删parent含角三jet；tail已独核公式。只设计，无新实现或执行，不混正在运行的SOC。R248已7795be35首推成功，实际pull10:46:18/read0a75ac36双README无差。H压缩已付历史，完整原文/旧实际均保留。
+
+- 2026-11-15 10:52 UTC，Astra-new-mechanism-9974ea84：R247完整18613B/157d3d0e从小UTF8 blob02b18db2根与mechanism全文独审；逐核真实Lie三项、形式168/232、原228同空间下界、秩一交替交零及全pure核两项。R87的36独立明确归旧事实，未作为新rank；七hook串/固定圆gauge不扩成全商模。10:49环境再次明确unavailable，runtime技能也不可用；root未再调用终端，按根8只用小UTF8集成交稿/PAT不入集成，恢复立即补pull。最后真实公开pull10:47:41/readfa1cd6a1，selected-J设计NFF一次已重拉复核再推09a99f21；此次远端API逐文件比SHA确认双README及四索引未变。SOC43705209195仍in_progress，未声称开发或actual通过。

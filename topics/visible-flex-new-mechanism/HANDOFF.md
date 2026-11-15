@@ -4,11 +4,11 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。远端检查2026-11-15 10:51:41 UTC/`4d7c28f0a5aef7baff7a7918f0e435097593a9aa`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch signal9后已单线程重拉，规则无差，详见log。
 
-真实研究计算及当前新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法和既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅存源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。现用partial/sparse `/dev/shm/visible-recovered-0931-9974ea84/{public,private}`；09:31终端恢复后已补实际pull并恢复terminal Git。
+真实研究计算及当前新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法和既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅存源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。2026-11-15 10:49 executor再次明确unavailable；按根8仅GitHub集成小UTF8暂交，PAT不进入集成。恢复后立即partial/sparse与真实pull。
 
 ## 2. 完成门
 
@@ -18,7 +18,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**103/154已归档**：103历史η .266510751964；154 run43694686825/71744524末.266522577918未破103。来源/恢复漂移/全成本见原actual，不重已付科学。
+**103/154已归档**：103历史η.266510751964；154末.266522577918，未刷新；全来源/恢复漂移/费用见原actual，不重科学。
 
 **159首actual已全消费**：43701558227/ef8c1cdb/job132773631115，见原actual。新开发/33来源全过；c9a5 η.266520536442→b429 .266491207122，降2.93293e−5但未.26/1e−4参考。8主/1SOC、8接纳，20值+2末值，活动120.313/总896.907秒。m6仅fine8曲率失败被SOC修回而旧规则仍减半；原双网/准确九盒过、帽高仅tol、外域jets0/g/b0不变，κ57.9999896仍欠reach。
 
@@ -46,7 +46,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R248全四次谐波已归约**：不交微包q=Σc_i u_i，完整P(q)=Σc_i²c_j²Qij；真实第三外尾仿射，与别包紧Y导数准确正交，二阶跨尾保留。逐包g=±f使P实，旋转乘e^−4iα。R239可取−1/2<t<0，互补两角矩阵可逆，故总偶cos4/sin4入We iff两个未旋转block的实P_e各入We；尚未判其成员，继续单block准确门。
 
-**第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
+**第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 
 **R216/R224/R228已排类**：flat、标准k=ω0 Morse指数h及C≠0增长偶k，由−8c6/λ排原R193圆/已付近邻全允许宽度。只延解析身份，不延几何，不冒普遍刚性或新圆。
 
@@ -58,7 +58,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R242/R244首平台与八d通量联合已付**：K整δ链恰11维，δ11零、原F*同构Pol≤10；八flux核Q_L·Pol≤2。真实首gap双尾扣第一左comp，核内两列minor首项5040βγV L12且V>0；有限L后affine压回I保rank10。同HE减响应得pure0/λ1/F8d0/首pair0/TB0，两首germ光滑。只新选ψP圆，不授旧冻结圆或actualsigned成本。
 
-**R246完整八平台接口已付**：E_j右方全尾和，D_j另扣当前comp；De=D³C/C0≠0。8F+8E在本11维模单射，余1维必在其他E露出。八E差插值R、P0=C(D)^−1 I³R，前三F定二次余项；五F+八D给13独立iff关系/唯一修正，e-flux另验。本模∩完整period可解核=0，十三关系不冒全R0障碍；下一整个响应/完整range。
+**R246完整八平台接口已付**：真实E_j全尾和、D_j扣当前comp；De=D³C/C0≠0。8F+8E在11维模单射；八E插值/三积分及前三F构造唯一P，其余五F+八D给13独立iff关系，e-flux另验。本模完整period核0，不能冒全R0障碍。
+
+**R247完整响应结构已付**：完整B=2[X,Y]给56独立Jacobi，288列压为232维呈示；旧原函数下界228，余核≤4。W36为R87旧事实；R71维164..168。ΔW=ΔW71给八χ_j及全R_p0=(R71∩kerπ)+B(E,spanχ)，未漏第三非零而第四pure零方向。E=V4⊕V2、W71=2V6⊕V4⊕3V2；hook七串给56形式pure0方向，非实际秩。下一八χ的具体对角提取/完整O像；固定圆商不自动sl2。
 
 ## 6. 保留边界
 

@@ -14,9 +14,7 @@
 
 ### 159首轮已消费；下一成功SOC的严格条件持径
 
-[154首轮实际](notes/entry-tail154-first-actual-result-20261115.md)43694686825/source71744524/job132752541415已完整读。原B103/T51、9height固定，尾.7725/.78现在可动；同g/b0/163/永久c0与原盒不变。四前缀只一次必要恢复，初fc0d8139、末2ee6e90e；新η .26653564958657405→.26652257791835787，8主LP/5接纳/0SOC。**未刷新103历史最低.26651075196396212**，恢复起点漂移大于新阶段降幅。入口/体段/尾最终fine峰.266522410612/.266522577918/.266522343982，固定外域rho0，旧支持锁峰已消除。
-
-m1/m3已有fine .78曲率行预测+1e−7却真负，m6硬门全过而fine度量增；新软行返回分支使SOC实际0。最后两步高比率/两块触界，原控制已增下一半径但120.0745活动秒先到；18共享值+2最终、全880.5913秒，fine selected J85.1928秒。原全部两网门过，fineκ57.99998545/帽高仅tol过；.26和最终reach门仍欠。完整设计与原费用见原note，不延同154预算，不把未调用SOC说成无primal。
+[154首轮实际](notes/entry-tail154-first-actual-result-20261115.md)43694686825/source71744524/job132752541415已全消费；B103/T51、九height固定，同g/b0/163/c0原盒。四必要前缀后η.26653564958657405→.26652257791835787，8主/5接纳/0SOC，未刷新103。支持锁峰已消除，末全门过而.26未到；恢复漂移及全部费用/失败门见原note。
 
 [五高度完整设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)已付：从[原九高度null核](notes/same-g-nine-height-zero-integral-entry-directions-20261115.md)选入口3+尾2，154切向+5=159独立坐标仍在原163物理族。入口.603后恢复，尾两列在末开片Wronskian严格正；.78可取D=0而D′非零，此时该点metric/normal不变、仅II径向增n_z D′。当前原盒及紧曲率特征投影须在必要初始化内实读，不授可行或下降。
 
@@ -80,7 +78,9 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)在新选合法ψP圆给同HE的whole pure0/λ1、首gap双平台0/F8d0/T0/B0，两首端germ光滑。整δ链11维，首gap真实comp减项使核内2×2子式非零；不授实际signed成本。
 
-[R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)现给本模的完整八平台接口：E_j右方全尾和、D_j逐包扣当前comp，De=D³C且C0非零。8F+8E已经单射，R244余1维必在另一e平台露出。由八E差插值R，再C(D)^−1 I³R与前三F构造唯一P；剩五F+八D为13独立准确iff关系。额外e-flux须用同P再验，不能继续任调。**下一转完整响应R0的真实生成/模分解及R225完整观测像；本M的13关系不等于全R0消去式。** 其他平台、各内部Laurent、总flux、两端germ和同w ruling均保未付。
+[R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)给本11维模完整八平台接口：8F+8E单射，原余1维必在另一e平台露出；八E差插值、C(D)^−1 I³R和前三F给唯一P，其余五F+八D为13独立iff关系，额外e-flux另验。本模不能继续任调，也不把这些关系冒全R0障碍。
+
+[R247](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)现转全部响应：完整B=2[X,Y]的Jacobi压288至232维呈示，旧下界228给余核≤4；不是fullperiod只有四障碍。E=V4⊕V2及W71真实28维分解已付，W36沿R87既有证据。R208同对角覆盖给八χ_j和全R_p0=(R71∩kerπ)+B(E,spanχ)；只找第三对角核会漏另一项。hook七串给56形式pure0方向，j0八列在固定圆L_f像内，j>0不自动继承。**下一仅提取八个Δτ_j相对旧18交换子对角的真实γ坐标与新原差，补完整χ；不重151/152/3974或旧P1。随后接整个pure核和R225全部平台/flux/内部Laurent/平端观测像，同w ruling仍欠。** 新消费者尚未运行。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
@@ -148,4 +148,4 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根README最新137c5a第15条已执行：可重算机器输出不入仓库或Release，后继只交源码、完整参数、run、SHA与科学结论。计算环境已于2026-11-15 05:46恢复，根8临时例外结束；当前partial/sparse clones实际pull/push并逐次核双README，真正研究仍只公开Actions。主课题继续，不以此报告收尾。
+根README第15条已执行：可重算机器输出不入仓库/Release，只保源码、完整参数、run、SHA和结论。2026-11-15 10:49 executor再次明确unavailable；最后公开真实pull为10:47:41，私有10:17:36。按根8临时仅GitHub集成小UTF8交稿，PAT不入集成；远端逐次核双README，不冒称实际pull，环境恢复即补真实pull。研究及新增人工仍只公开Actions，主课题继续。

@@ -349,3 +349,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 同一159维场的选行Jacobian径向分解设计
 
 [完整设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)从当前七源给等价评价：153旧uv列为九径向乘17角模式，另Q单列；对每个角模式先构造F0=TqY、F1=∂sTqY、F2=∂s²TqY及同全角Π，原六位置jet的微分分成R/R′/R″三个系数。先把三个虚方向交原selected_spectral_parameter_jacobian收缩，再按L0R+L1R′+L2R″展开九径向列；五准确null高度直接给Z/D/D′竖直列。普通行微分基点必须使用当前非零τ的159全值，不能用九参考高度旧几何；原Xt/Xst/Xtt沿parent定义，不把去零模FFT原函数当θ导数恒等。全部11行、完整384/768角网、原rowID/池/门/预算保持，评价来源另记身份，浮点重排可能改末位及路径。形状估计只说明无需全角163列大张量，不宣实测速率或RSS；无新实现、测试或科学运行。root全文及关键源码逐式核，tail独核六jet乘法分解；是否采用留给本轮SOC实际所揭示的必要新步骤。
+
+
+## R247：完整响应的Jacobi呈示、232上界与穷尽pure核分解
+
+[R247 完整证明](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)以固定F的向量场X_A=Φ_A(F−φ²)、Y_τ=τ(φ;F−φ²)逐项保完整槽，得B_A=2[X_A,Y_τ]及56条独立完整Jacobi关系。E⊗Λ²E/Λ³E维168，加八旧额外模板响应64维给232呈示；R147同完整R的原函数下界228使0≤余核≤4、R71维164..168。W36/28交换子/八额外类独立本为R87已付，另用秩一张量与交替三张量交零再推旧事实，不虚报新rank。R208的ΔW=ΔW71允许选χ_j=τ_j−γ_j∈kerΔ，准确穷尽R_p0=(R71∩kerπ)+B(E,spanχ)，两个像未宣直和。E=V4⊕V2、W71=2V6⊕V4⊕3V2；完整非零hook有七维δ串，给V10⊕2V8⊕2V6⊕2V4⊕V2共56维形式pure核输入，实际像另判。固定圆j0的八hook响应已在L_f像内，δ后不能当固定圆不变；O(U0)/O(R_p0)仍未知。列清既存W-only原根及八个新同对角提取的最小规格，不重旧152/3974/151列或完整response。root与mechanism全文独核；全部为纸证/继承旧原式，无新科学运行。
