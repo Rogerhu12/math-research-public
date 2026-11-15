@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **两新物理片非零入口完整源实算完成**：[实际43682479300/1](results/R133-supplement-actual-next-physical-pieces-nonzero-entry-complete-sources.md)，child0/21门、49新stage/13新完整行；六半径各13行选入，4305旧行逐字、0旧数学重算。最小R.001完整源负<7.448677497188e19、正<4.717220050477e19；两条真实入口E/F/ell及全部mean保留。源界改善，strong-return/high inverse仍缺。
+
 - **非解背景径向 jets 与真实 holonomy 重建（声明域内已证）**：[C1–29](results/R119-supplement-off-shell-controlled-radial-jets-and-exact-holonomy-retraction.md)，实际residual前三scaled jets的δ16保留，root三导仍δ13，完整高角逆幂/strict密度与TV不新增负层幂；weighted投影、几何proxy切向与mean小根二阶重建保普通mean。固定metric、未授全nearby网络逆。
 
 - **common-T 参考的完整旧圆 primitive、J 与 mean 接口（精确解析）**：[I3–14](results/R133-supplement-common-radial-reference-old-circle-primitive-and-mean-interface.md)保真实potential矩阵的rank-one修正、两个old P、完整有限余项、跨reference seam的真实原子和独立even mean；精确径向mean压缩保额外n^-2有序项。新增gap、参考两列和强输出数值仍待，不冒用free Airy界。

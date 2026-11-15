@@ -154,12 +154,16 @@ C1–23（SHA730ffff4e641615aafdafdda12bb3b147bf227a6c4386b9d4165a7efb4ab7699）
 
 ## 两块外邻片完整非零入口消费者已部署
 
-SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd9547ccc…、131pin manifest4a3e28f6…，由已成domain whole gate续接真实2547/2551。完整30旧stage/49norm+background/6case按原身份消费；新phase入口E、first-correction入口F、全mean log常数ell逐真seam继承，ray严格用旧入口宽及新域的较小值。source仍全九nonlocal词/五independent mean，Nraw不额外除mu，whole-row整行选择。worker c0c4c16a…/flow38627ecb…仅公开Actions/temp数据/小结论和execution；当前只部署，待actual child、完整gates与6case数值，不转授strong-return/全逆。
+SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd9547ccc…、131pin manifest4a3e28f6…，由已成domain whole gate续接真实2547/2551。完整30旧stage/49norm+background/6case按原身份消费；新phase入口E、first-correction入口F、全mean log常数ell逐真seam继承，ray严格用旧入口宽及新域的较小值。source仍全九nonlocal词/五independent mean，Nraw不额外除mu，whole-row整行选择。worker c0c4c16a…/flow38627ecb…已实际43682479300 child0/21门通过，49新stage/13新行、6case各13选入/4305旧行copy；实际报告见下条。仅小结论/execution，0旧数学重算/0data上传；仍不转授strong-return/全逆。
 
 ## common-T 旧圆 I/J 与 mean 接口已准确展开
 
-I3–14/SHA8f036ea17cd3681ccfe8ed67914543279e9606d5ede8f70198288c62ee66f552：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。
+I3–14/SHAece60de2b024228b768582ffe8d7bd14b72122d304b6db0d04706ff42f89e629：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。
 
 ## 已付残差控制的径向域与准确 holonomy 重建
 
 C1–29/SHAad1fc17b90c226149e806fde173f0ecf0d8deb5d107f7a8cf8bd78ad89fefdc1 新增 R_s=B_(s+4)+N_(s+4)^[3]≤2^-2097152（0≤s≤4416，输入至4420），区别于任意Ct4球。ct/c=2A+4，physical残差的δ16转换保留，root第三source导δ13；J/D等逆幂在完整有限Sob代数绝对求和。fixed-t true residual diagonal/v_t项、strict κres及一次TV不增加原负层幂。相容ordinary source用Π_A0保〈A0N〉=0而不删ordinary mean；proxy准确切向，mean小根二阶重建先读P⊥再恢复全mean，避免未付κ2第四导。固定metric，不将ordinary相容子类代替一般ν/Γ/weak端荷。继续全层high/middle/deep网络、真正/伴随外图、参数列及可重复smoothing。
+
+## 两外邻片实际完整源结论已成
+
+run43682479300/1 child0/21门，数学10.658338976s；新49stage（临时）、13完整行，6case各13选入且4305旧行逐字。报告f3a372ce…、实际小结论6b6db7c5…/executiona4718587…；全部131pin与11源码AST真过、原78中只读30必要阶段，0旧包络重算。最小R.001完整负/正源分别<7.448677497188e19、4.717220050477e19；最大R.02分别<8.737298521586e20、3.559569762900e20。旧failed大半径与九词五mean/1079seam仍在。新片完整entry/exit E/F/ell及两真实ray都已付；下一片整域/新ray仍须独立门。此次没有新排名，不能猜下一主导片；源整体仍未强返回闭合，common-T新势/两列/有序old I/J继续。

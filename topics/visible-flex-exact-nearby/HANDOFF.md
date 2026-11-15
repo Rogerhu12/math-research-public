@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 05:50:37 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 05:55:08 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用 public Rogerhu12/math-research-public 及自己的 Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真 pull --rebase 重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
-本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已全文核最新runner真pull：05:40:04.983631 UTC 06ac32c97fc68e5b7ae0d654b0f216353cf7d40d（Green v2，两README diff空）。非FF即时CLI仍无executor；freshhead重推不伪称pull。
+本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已全文核最新runner真pull：05:50:08.043082 UTC 31afacea2911252f0dad7044401aa1349dd54747（Green v2，两README diff空）。非FF即时CLI仍无executor；freshhead重推不伪称pull。
 CLI自21:48无executor，最近05:32:55非FF即时重试同错。根规8仅connector<100KB UTF8/禁binary；ref读非pull。现规15（137c5a…）取代Release版：可重算data/证书/Actions输出不保存，repo/Release/新artifact均不放，只script/args/run/SHA及结论；题main≤200MB。原历史/旧artifact仅暂存恢复、禁重算旧数学。清理SCI40c0f3df… run43679889657/1仍在逐原bytes SHA/普通删；实际结果须核。
-最近只读README核：46653675949dc9835f297ca223121a75d3e1e9d3；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：d0a4bc9065168ca581a48762c5994e1fd3dd6681；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public→/tmp/visible-exact-0df9-workspace/math-research-public，AGENTS无。前H完整链现存notes/2026-11-15-handoff-before-finite-Sobolev-nearby-body-ball.md（1c212853…，9742B）；再前H/全部原native/artifact/pin见其链。open归档notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md；log归档notes/2026-11-15-log-through-off-shell-Jacobi-and-finite-principal-phase.md。本H只保当前接口；不得把压缩当作删除历史门。
 
 ## 同一对象与总完成门
@@ -21,7 +21,7 @@ geometry43584188751/26只在同η0真闭C²解/fullC0≤1e−4/|δν|≤1e−5/�
 
 有限193 actual43635487128/8负ν误差.003509417445587仅有限；旧全L².007490301792401。原6391Gram/5970/cross/impulse/正high/失败全保，禁重算。
 同F5970 run43654510038 child0/7：4旧+5966新，native7e1a5709…；science time原null。原backward最终1886/320bit由唯一artifact14146873569/de4e8dbd…复用，native09df7651…/processd2119ed8…。
-Green v1 run43680721302 child1/7身份门、0新数值，失败为old impulse无换行SHA误用matrix换行SHA。已修v2 SCIf33345d1…/CI53d672d2…/362pins81fcf32f…；run43681612825/1已启动，7原门、199历史文件、13856旧array/34array artifacts全核。05:40首过程仍prepare，尚不报新流或最终界。E合同b3bcba13…保三流/三dyadic完整球/192bit原1e−30门/真Vcutex/sameC signed97全帽。无旧F/C/Gram/target重算、无新data上传。
+Green v1 run43680721302 child1/7身份门、0新数值，失败为old impulse无换行SHA误用matrix换行SHA。已修v2 SCIf33345d1…/CI53d672d2…/362pins81fcf32f…；run43681612825/1已启动，7原门、199历史文件、13856旧array/34array artifacts全核。05:50实际新流：future2096=1886旧+210新、past256、product272，尚0group/未最终界。E合同b3bcba13…保三流/三dyadic完整球/192bit原1e−30门/真Vcutex/sameC signed97全帽。无旧F/C/Gram/target重算、无新data上传。
 全7908 run43665656138 child0/2/63.764484s，native4e505e02…/arrayd6bb53d5…：HS<.001546601378/Hessian<2.373981e−8/coefftail<7.195238e−10。endpoint/high43666716585 child0/10/native6a845f62…。
 全频帽43671537267 child0/9，same97 Wcap true_body_nested，CHCH*≤Wcap、||CH||<.000943，含unknown≥97/mean/真outer/Hessian；native56efa27c…/arrayc500a1a9…。L/7a97a…保low-even97，真HY后以signed tr(HY Werr)付输出误差，不entrywise minima。待真实三HY/最终contract，未全逆。
 
@@ -30,8 +30,8 @@ Green v1 run43680721302 child1/7身份门、0新数值，失败为old impulse无
 原Taylor/Nraw/b*/1328转换/六profile及失败见前H。whole43669106351数学25stage/4329旧行/9root已成；formatter-only receipt43671024244补齐。1079真缝/653ledger/两branch/mean/η0/复δ≤1e−8保。
 邻片43676926141 child0/14：28旧+50新=78stage、28新行/4215旧行逐字；native5754193c…/process9e8f1f92…。原case R.02自然5500010B仅旧artifact14146726654。
 诊断43679322008 child0/6、4383原行：全6case负piece2547/正2551主导，local最大，nonlocal RQ_J_gd。新E/ae529c46…真缝继承非零phase/first correction/ell_e，ray也保旧entry宽。
-整域43680556665 child0/15/0.039724915s：两整片germ/Rg/RHO/RC全过、五片exact knots同、0旧数学；结论8bd0ae3d…/execution5c43b693…。新SCI9e81e2bc…/helperd9547ccc…/131pins4a3e28f6…已root全文核并部署；worker c0c4c16a…/flow38627ecb…只做2547/2551完整非零entry比较，真history+a3d84/唯一case5旧artifact双SHA/全AST/900s，0旧重算、仅小结论/实际execution。待actual run与全部ray/source门，不先报新界。
-common-T c/V P/8b5ad0ab…先消ηr/η；G'/G=B−c逐缝继承，g2无导/root n1/3混合trace/j0独立。新I/8f036ea1…保真实reference seam的old-circle原子−n^-1 IΣ[U(B_jw)]δ及递推/径向界面源；精确H_V=H−n^-2 yVE12、det=−Bplus(1−ζ)、有序rank-one逆和完整old I/J有限递推、两P/全部mean及gd^V额外n^-2项已付；新gap/两列/全势导数/强输出/正两端图未数值，不借free Ai。J只在原已证奇偶域使用。
+整域43680556665 child0/15/0.039724915s：两整片germ/Rg/RHO/RC全过、五片exact knots同、0旧数学；结论8bd0ae3d…/execution5c43b693…。新非零entry actual43682479300 child0/21门/10.658338976s：49新stage、两片13行（11+2），六case各全13选入/4305旧行逐字。报告f3a372ce…/小结论6b6db7c5…/executiona4718587…；0旧重算/0data持久化。最小R.001完整源负<7.448677497188e19、正<4.717220050477e19；9词5mean/1079缝保，未strong-return。SC9e81e2…/helperd9547…/131pin4a3e28…，下一看真实新主导/新V预算，不盲猜片号。
+common-T c/V P/8b5ad0ab…先消ηr/η；G'/G=B−c逐缝继承，g2无导/root n1/3混合trace/j0独立。新I/ece60de2…保真实reference seam的old-circle原子−n^-1 IΣ[U(B_jw)]δ及递推/径向界面源；精确H_V=H−n^-2 yVE12、det=−Bplus(1−ζ)、有序rank-one逆和完整old I/J有限递推、两P/全部mean及gd^V额外n^-2项已付；新gap/两列/全势导数/强输出/正两端图未数值，不借free Ai。J只在原已证奇偶域使用。
 
 ## 外返回、有限正则尾与全网络：tail_connector
 
