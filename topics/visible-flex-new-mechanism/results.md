@@ -529,3 +529,10 @@ R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定
 [R335 全部原式](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)从原E8的统一D³形式D²(gD²)+D(hD)+c，保紧输入/紧系数自伴边界，再为有尾函数另保G(a,b)=a″b−a′b′+ab″。正式π是raw pure的1/16；全响应准确5Ω−16Lπ=4C_tail，C_tail=G(qE,T)−G(qA,bB)+G(qB,bA)，并列真实μ/ν三矩尾表。L/[P,R]给Ω−16Lπ/5=2μ0M3/15，三不交bump构成严格非零实紧反例；不将该非pure0反例外推为pure核像非零。
 
 全第三对角核Z十八方向响应Ω恒0；若complex紧输入自身三矩全0，原尾全消，clean16/5成立。非零实紧微包μ0>0，不适用。一般real pure核/wholeE核Ω像仍待付，不能由universal self或形式D³伴随直接断言。root纸核完整分部积分、系数和反例；仅改开头为“未执行求积/符号程序”以明确手推与执行区别，无新程序或人工。
+
+
+## R336：通量后继δK的完整self严格非零，保wholeE时原两列只余一维
+
+[R336 完整短证](results/R336-self-cost-of-the-flux-successor-prevents-naive-joint-control.md)保正式Q=1/4[x²]：K(u²,0)=A−8xI、I=∫u″²u‴²，δ输出给8Ix²，全部输入变分仍紧且K尾仿射，故QδK=2I、QK=0。非负连续密度I=0迫(u″²)′=0及紧u=0，故对非零实u严格正。π两列都0，所以span(K,δK)∩kerE准确为RK；两真实对应包flux只在(ρ0⁵C*,ρ1⁵C*)一条线上，可清E0背景的充要兼容式是F0/ρ0⁵=F1/ρ1⁵。
+
+这保R330原二十门及非零行列式，并解释其未声称wholeQ0的原因。R333实际wholeE校正自身带flux成本，不能凭两个各自满射结论拼成联合控制。限制只作用于明确二维模块，未判全R的联合像，后续继续真E核/补偿全代价。原式纸证，无新程序、人工或求值。

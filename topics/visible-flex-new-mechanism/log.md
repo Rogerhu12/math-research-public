@@ -80,3 +80,5 @@
 - 2026-11-15 17:29:21 UTC，Astra-new-mechanism-9974ea84：R334全文与R267原§§3–5根读即推，22794B/SHA256 54340e4e7c081cbb831f8b7c176a5a2f3757ce4287eff5a1dd1eff68d30b12b1；四实际正幅I2方向/全式Λ−5与ΨΛ−7支付第二完整面积，原弱负储备/全部宽成本与最终有限N保真。续R337第三面积，不重已付门。API核c30e7ea00a9ae06356409d5fdae289dfecf2210d双README同。
 
 - 2026-11-15 17:32:07 UTC，Astra-new-mechanism-9974ea84：R335全文根读即推，15186B/SHA256 b586585790ed47f14bd7f6dc4ed6c74ccc9e6dd7ffa68ed72e59458f92cbe6d3；完整原三导/Green尾/pure16规范及严格反例，全Z与complex三矩clean边界明确，续R338真−6/pure/E核像。整理open中R334已付的三项旧面积待办，历史保results。API核32d3aea74de267a1ffb5c3a113dcf52cdb830197双README同。
+
+- 2026-11-15 17:32:47 UTC，Astra-new-mechanism-9974ea84：R336根原式推导、tail成稿后全文即读推，9964B/SHA256 7b522d17734bed39cec4c9c7e476407c68542939910f645c82e8a13bbd86c0d8；QδK=2∫u″²u‴²及两flux保E一维真限制，保原R330/333准确范围，续实际联合。删除H两段已被wholeE覆盖的旧摘要，不删原结果。API核0ee7c333e9ffe5bd856877115bf6e8a4c723aabd双README同。

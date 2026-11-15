@@ -150,3 +150,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R335/R338：全响应整包flux的真实Green修正，继续纯核/联合核像
 
 [R335](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)保原E8完整D³自伴与两次不同Green边界：正式π=raw/16，5Ω−16∫u‴πV=4C_tail，C_tail完全由原二次左尾μ/ν三矩给出。L/[P,R]使clean16/5差2μ0M3/15≠0，不能只用形式自伴丢原尾。全Z十八方向Ω0；complex紧输入自身三矩0才全R clean，非零实micro不满足。一般R∩kerπ及R∩kerE上的真实像仍欠，R338续原−6全标签尾像；与R330内部flux、R333wholeQ控制分别保准确范围。
+
+
+### R336：原两flux后继的whole-self成本必须同账
+
+[R336](results/R336-self-cost-of-the-flux-successor-prevents-naive-joint-control.md)从K原仿射尾A−8xI与完整δ全部输入项给Q(K)=0、Q(δK)=2∫u″²u‴²>0。故原两列span与kerE交只有K，两对应包保E时的像仅R(ρ0⁵C*,ρ1⁵C*)；当前E0背景需F0/ρ0⁵=F1/ρ1⁵才可只用此模块清双flux。R330原20门/det仍真，不能与R333wholeE控制直接拼接。下一须找真kerE第二列，或把self补偿的两flux代价纳入联合满射；不由本二维限制宣全R不满。
