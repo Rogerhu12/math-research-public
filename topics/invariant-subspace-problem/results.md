@@ -170,3 +170,6 @@
 
 
 - [R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：九原平方目标完整运输，当前17条零点left5与h0t_j均为0 mod s6；原λ2的9×3、λ3的9×12及现七条对应9×7全部精确零。λ3预读还不构成六阶提升，原成员性保持开放。
+
+
+- [R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：同原I,J第二自然左jet22头及全95788产品，Q第二rank∈[9,11]；同选D91/cofactor88/原换列88、K99下条件统一费8627与目标209。保两E完整自由及原成员性前提，normal4/5仍开。

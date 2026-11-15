@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** c9c96f3431a0ec6a8213e2359186531fb851f822（2026-11-15 11:09:12 UTC，Actions run43707512576实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43707512576-1.json。
+- **最近成功实际 pull 与已读规则提交：** 3fed3a9fe1b65873d376ed8c706e64a2f6a47bbb（2026-11-15 11:10:49 UTC，Actions run43707649519实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43707649519-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -11,16 +11,17 @@
 
 ## 完整旧状态与当前入口
 
-全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-strong-head-continuous-tail-and-original-target-pairing-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
+全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-selected-second22-and-cost8627-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
 
 ## R150：常数层已闭，完整参数长度与原成员性仍开
 
 - 原A为4367×6188、泛秩4354，同I,J4354/H8770；h0度24、H0=(s−2)h0不同。[常数模型](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)真Q585rank556/29左核、全954乘回，同方阵Q/F31秩4318/核36；原31单位块给D31规范，已显式29核及p768一致，完整细节保H全文。
 - [完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：高normal≥3的3762维全在selected像；full余20pure+29，square余10pure+26，Q/D31/F31一致。所有36常核full一阶可提升，不等于额外七条完整formal曲线。
-- [特征零自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：原I,J不动，same u/core绑定717dd4bf；新2618×1582 RREF秩1549、常校正1546，33头全143682原产品真（91.644258104秒）。完整头ΛC与校正EX给全部第一族λ0=ΛCc、λ1=EXc+Λd，保36维歧义。D31[[u]]真剥I4318/uI3/u²T，第二页Q秩≥9；下一须24独立left2头，未付Q长度243或lc单位。此次未另验额外13输出行。
-- [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0。[零点第五页](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)：17.967190507秒，同九第四头真实高rank988/低rank586，七新头加十恒等头、全6188真。累计≤4/4/5/8/10、公共s53/s47；K99=s39K60，degree99、lc5^6为31单位。不假零点r1=4/β2=0。配∞82/81/75，q8428…8589，条件非基8633/transfer8634/目标222，统一8634，仍须原成员性。
-- [∞第五页](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：15.752552958秒，完整高2295×999 rank988/低1088×603 rank586，七第五头加十恒等头；前五累计≤4/4/5/8/10，公共53/47。29精确曲线给指定82/81/75。两端包络余rank2均不是完整第五下界；第六须新增2805三normal来源。
-- [同一原子式完整模31长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做并推：run43702348535/selected-natural-u-minimal-rebuild32，math10.855262523秒/native9.937256051，51份已付前16层数组全SHA同。36正指数全部确定，末四17/18/18/21，max21；同选cofactor公共阶222。deg Dbar=8527，char0 degD8527…8688，K99下q8428…8589，现条件target222、统一费8634。lc(D)31单位当且仅当char0 v∞=243，尚未证。新binding43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600。
+- [特征零自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：同I,J/u，33头全部143682原产品真；λ0=ΛCc、λ1=E_oldXc+Λd，保36常核自由。D31[[u]]消I4318/uI3给第二Q下界9，未另验额外13输出。
+- [第二真22头与条件费8627](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：新gauge只换1坐标，fielddet11/M0′31rank1546/unitdet5；103.869162799秒、全95788原产品，normal≤3完整头22维，故9≤Qβ2≤11，未排normal4/5。36/33/22阈值给同选D阶≥91/cofactor≥88，原换列正则Laplace≥88；K99下q8428…8580，非基8624/transfer8627/目标209，统一条件8627，原成员性未付。
+- [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0。[零点第五页](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)：17.967190507秒，同九第四头真实高rank988/低rank586，七新头加十恒等头、全6188真。累计≤4/4/5/8/10、公共s53/s47；K99=s39K60，degree99、lc5^6为31单位。不假零点r1=4/β2=0。当时条件8634；当前费用按上条22头更新。
+- [∞第五页](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：15.752552958秒，完整高2295×999 rank988/低1088×603 rank586，七第五头加十恒等头；前五累计≤4/4/5/8/10，公共53/47。29精确曲线给指定82/81/75，已被22头的91/88/88改进。两端包络余rank2均不是完整第五下界；第六须新增2805三normal来源。
+- [同一原子式完整模31长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做并推：run43702348535/selected-natural-u-minimal-rebuild32，math10.855262523秒/native9.937256051，51份已付前16层数组全SHA同。36正指数全部确定，末四17/18/18/21，max21；同选cofactor公共阶222。deg Dbar=8527，char0 degD8527…8679，K99下q8428…8580，现条件target209、统一费8627。lc(D)31单位当且仅当char0 v∞=243，尚未证。新binding43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600。
 - [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)给同一active来源因子的全部j子式最小j权和，删列由wedge支付。旧29曲线外一阶1834×29真Qrank29、固定常组合t2=0；允许uPhiY纠偏的最大支撑维数仍开，不重旧1603块。
 - 原九模31⁶证书费1339已全成，仍不付Q[s]成员性、固定e无界精度或lc(D)31单位；常数31饱和不付参数leading单位。旧mod31仿射gcd315仅其原范围，不直接升char0。旧1632标准族/二次skew降次、LLL候选、单65521均已完成，不重做。
 
@@ -41,7 +42,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 活跃run43702348535；唯一请求notes/2026-11-15-r150-recovery-small-session-request-789f.json。9份历史8c6304e原输入均逐SHA核验且只存临时；不碰已删Release。32层的51份旧前缀完整SHA全同，第一Q RREF/33原jet等后继检查点现均可复用。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前两端第五完整规范均保临时检查点，不重旧大正常形。
-- Q一阶33头、两端第五17头均已实成。Q第二首次实际1.826085338秒：1736旧零行T限制rank0，M0仅除行content后31rank1545，故未进U solve、未付第二rank9。完整forcing8998620B/SHA8ae7ffef9d7b0a56156f72b002956d4d8843cda66c00b07bff045f9ebd77f4f3已在prepared/；新gauge实际换1坐标、fielddet11/unitdet5；103.869162799秒付22二阶头、95788原产品，9≤Qβ2≤11。完整36RHS单位解18,124,389B/SHA9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d可复用；扩normal4先求旧1736零行的新核，不重约96秒解。[九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)实际1.509597193秒：九×三原λ2与九×七第五配对全零，h0[3]=−917294284800；仅该17条left5无障碍，未付成员性。λ3平方实际4.211737646秒，原9×12及现9×7也全零；尚未付left6。第六须保H4/H5及全部2805顶行，并附已存λ4/5平方读数。
+- Q第二已成22头，临时目录selected-natural-second-left-regauged；binding c40049455e9f310607586b55cc271ca00636dc954f0de63693d0da886a6d067e。完整36RHS单位解18,124,389B/SHA9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d已保存，后继先求normal4在旧1736零行的新核，只为真新方向续解，不重95.542秒解；旧HF/T及两E/33+36自由保留。
+- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：λ2原9×3/现9×7及λ3原9×12/现9×7全零；只当前固定17条left5无障碍，未付成员性/left6。第六须保H4/H5及全部2805顶行，先输出完整第五cochain包及λ4/5平方读数。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
