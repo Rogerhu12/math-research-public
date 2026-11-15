@@ -397,3 +397,9 @@ K只对真实参数且递增实T的径向reference成立；保C18输出/输入�
 GH final blob9ad82f957eefb16b6fbb760ee1461af900334ff8 /18606B /SHA256 0ffb191ad3367f4b6725b40bbc04c986ab45dd134aa185ca529ff890d539bc78。root完整核H3–11右预条件/graph域与1/3 bootstrap、H13–17有限Schur和两输出、H22离约束链式法则；phase/tail分别独审关键代数。root另亲读原Q4 a1fc9e7及actual M32 body-cross8e7af76：97..160带宽属完整raw moving A_HL，I保频的两乘中间128，2×2 J(K)绝非old-circle inverse J。修订明列不转授该support给已消元/共轭后的源。
 
 所需actual全强norm、同δ*、完整incoming/normalizer/source-to-return/两输出及physical-phase finite border均未冒已付。P16只用ν解phase且保原第四Robin和mean，腰振幅为输出；H22保E′a，无自由same-order Neumann。C0≤1/32是解析充分目标，不是新数值执行。压缩前tail H详单在c9c96f3431a0ec6a8213e2359186531fb851f822同路径；其原所有源单位、指数和未付门继续有效。发布两README在d70e89b2b0ded8a694dfcce1e94bf90c25b483ec未变。
+
+### 2026-11-15 11:14:16 UTC — 两次实际启动失败的独立只读日志诊断
+
+恢复43707514815/1 job132791691389也step9失败（11:09:39–11:09:51），此前AST/runtime均成功，尚无小execution目录。不依据12s推断科学或API故障。新独立diag仅标准库取两个固定failed job元数据/完整log临时核bytes/SHA，并保真实末stack（完整性/字节/SHA明确）；没有新capacity预门、SCI import或任何科学child。先stdout印≤40KB过滤摘要，再按原D稳定pull/README/非FF循环推两小文件（合计≤40KB），不声称当前精确容量。
+
+root全文审读diag，改掉不需要的‘separately authorized allowance’措辞；新worker 5317a803d7f3bef291779d1d7cf265c4ce3c8000 /12661B /SHA256 e5c2b39b3bc190f04ec956dc00d457261766f892ec5ee9fc98084021e9bd28c5，flow b0a57ca09bf1bb580126dca08d0f367d577ffced /2725B /f5fa6e13ede8b0c9fdd6b77b247780921c5d5880a1454a6903fe305bdf798dd9。静态delimiter通过，AST留公开Actions。原完整log不入Git/Release/artifact，token只发API，签名下载URL不留存。原SCI/17pins全不动，未重触发数学。发布两README在2c44d02595d57c22b5ea2c10defa93f63252061d未变。
