@@ -63,6 +63,11 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PW完整正七port→mixedroot→waist](results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md)246c81ac与[actual43734233535/1](results/R133-supplement-actual-seven-positive-ports-to-complete-waist-density.md)6a763e7b已成：child0/21门/3AST；exec35295B/f17516d3、result8861B/ab086826，root17pin/36球29unique/原8×7 hash、四outer/三mean及SP四gain/RJproduct全逐字核，预Git33374B/7e56ca37准确重建。七waist完整列约88533.21/796.801/11167.586/88533.21/88533.21/69833.506/18699.705，同一普通源两不交分区可用11195.976 joint列。a_i=9 C_R(u_i+1_s)，s仍独立；B_F含root全finitehead/两mean，不由外端mean代入。raw stable输入153/16另计，output9只付一次，四rawjump/四outer/三独立mean原单位保留；负rootjump用C_R、strict jump用C_1且无长度，ordinary另C_O/C_2。所有旧图/SP/RJ数学零重算。下一真trial正cutoff普通源、stable trace、finitehead/physical seam以及完整strong R0/incoming仍待，不把大sufficient bound作障碍或原H−1作raw L2。
 
+[PC真positive Airy与完整strong修正](results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md)5368abae已完成解析独核，尚非新数值结果。same实|δ|≤1e−8、η0/rootpiece2549、n=4|j|≥388，true terminalAi与非零βnBi都保；同CA实际高度/导数、正profile、两窗口所有9word/5mean及独立evenmean用原正系数全行与true-dr积分，不把负profile/负权积分移到正侧。18旧positive系数仅转换预算，在q+>1时不能clip1，ER只对完整候选取min。
+χ同时乘两原曲率行，真实source χg+χ′h，再保PH L(PLχh)。Z7/Z5的完整无限和与physicaltransition长度、两sign均付；finitehead用同shift原全矩阵exp-lag J/L/B的.z，绝非旧Sobolevmax。全部原1328行/complete mean在临时恢复中核原区间。
+g1默认读DG完整signed-disk三jets；root亲读其producer及anchored_coefficients.D全RG×1/32定义，适用双侧。RJ负六rowmax禁作正界，p1仅0..2，可选row公式所缺p1三阶必须另新Cauchy，不能暗升阶。旧4501B stage/14幅度/全部word只读不重。
+在有限输入先定义正高块correction（stable0/head0/external0），有Y(e+)≤ω1C+，物理pair≤9ω1C+，其中C+=Cvol,+ +Ccut,+ +CF||KFH||。负续接包含真实rootjump、−PLhroot、原负源，故strong correction≤9CRω1C+ +CR CF+CO C−。trial本身真stable非零且一般对H−4/3输入不有界，不能删。原旧artifact14128707026、ZIP05d77d28/member3c8c4f3c暂恢复、零旧数学重算；新完整positive scalar consumer继续。genuine trial展开/βn/完整incoming/normalizer/finitecross/全R0与GH仍独立。
+
 ## 4. 实际帽图与完整core接口
 
 本节全部原域/mean/λ/height/κ/affine/unknown-high/真实97行及失败恢复细账保eb29cd5c4db75c5694d32d45451ec81119d4af09同open第4节和原文；成功旧计算不重算，未付义务不删。

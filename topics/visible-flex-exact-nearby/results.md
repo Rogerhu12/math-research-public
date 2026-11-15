@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 genuine positive Airy cutoff and strong correction](results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md)：真terminalAi/非零βn的正profile、全9word/5mean/true-dr、χ′两原曲率行和PH L(PLχh)给完整positive source及finitehead；同shift全矩阵.z、Z7/Z5全和与两sign保。DG完整disk g1可读，RJ负rowmax及未存三阶不得转用。独立correction有strong≤9CRω1C+ +CR CF+CO C−，trial真stable不删；新标量与完整incoming/R0/GH尚待。
+
 - [R133 actual selected-parameter finite193 feedback](results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md)：43737257903/1 child0/15结构门；固定原physicalcap κ0的三strict全部通过、sameδ三窗四列完整。κ1/5 actualcap粗差的cutdiag/det失败且不输出逆，非奇异结论；待付真实complete差须低于FA5约.0029415074114的球下端或另证完整97作用。root45原球42unique、13pins和预Git复原全核，旧数学0；νvolume列不代全ν，高块/waist/真实core仍独立。
 
 - [R133 actual complete finite193 Green and true97 Poisson](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)：43711315338/1 child0/14门，4×5970记录/187组完整；whole/negative/cut各普通g、true97 p、specialized a、same-input c全付。旧1886零重算，17原球/全source与边界mean/signed covariance已核；固定原M32对象，sameδ转移、fullhigh/trueν Schur和非线性仍待。

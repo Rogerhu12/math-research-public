@@ -291,3 +291,14 @@ root完整读execution/science/report/证明/全部job，45球42unique逐字匹�
 同δ≤1e−10、η0、unscaled raw pair/normalizedcircle/fullmean/whole ordinary与true97行不改。CS完整shape/mean ε约8.209067e−8；κ0的body/cut/det三门全pass、det约.76510868，三窗ordinary/right97/highbody/highcut四列已付。κ1/5的cutdiag/det未过，全部原球保留，不做不正分母除法，不推实际奇异。FA5 sufficientκ球约.0029415074114仍待真实完整cap差严格低于其下端；小位移、删mean或缩γ自动删旧χH项均不合法。νvolume负≈.05928136仍缺旧response/真实ν边界/waist/particular。完整high/physicalγ域/全core未获。
 
 runner16:46:03.039673及16:46:13.772334真pull均到506de085，两README diff空。其199616270B projected为后续五文件清理之前快照。root本次只读双README核1a33c440ac3ec69324c26b3db815ce7f2be2f5f2仍同blob，非真pull；本机CLI无环境的定时义务保留。压缩前H/open/results/log逐字保2c75543b97a390b04b129ac0ddeacd18fa4bd200同path，递归历史完整，未删域/失败/源单位/未付义务。下一真实97 cap差/左腰非线性receiver，与正Airy和完整c0/R0并行；总标准未达继续。
+
+## 2026-11-15 16:57:44 UTC — PC完整positive Airy、cutoff与strong correction解析合同
+
+单独发布37079B/blob35f3ddaec691c2d7c636ec43da3f52605ed6b329/SHA5368abae4c66f73800c16d5f2b906ddaa0f1d62d07e9bd9a3ca539061bdf5d68。root全文读候选PC1–37及两轮final全部diff，独推14正profile、两window泛函、18旧正budget转换/ER完整min、G21所有source、χ两原曲率/真实dr、G11重建n7/6、Z7/Z5与finitehead contour、PH L(PLχh)、有界correction延拓及负续接；newton独核PC18–19/26–31通过。没有运行新数学。
+
+root另全文读A主文62909c54/0e56cf64及actual43688459733/16门，CA确同terminalAi A11/14/19两profile常数，非渐近式；M主文a0006605/394068a9、producerfa0f2429/f3a5d7b0的Budget.record/width_budget/1328输出原字段说明全exp-lag双Schur .z同shift界，保mean扩展、reflection在界后，不能以globalSobolevmax代替。
+最终核实际jet字段发现RJ p1只有两component各0..2，缺p1三阶，因此未发表的row方案不得暗升阶。最终default改DG complete_g_angular_derivative_upper；root亲读producer6212e060/7d28ab5f的direct_physical_sources及main输入/输出顺序，g在负六row前由全signeddisk D/Q/QT/rank/14amp构成。又亲读anchored源27427dd6/410675cf的114–174与421–455/477–520：D来自fullRG×WIDTH1/32，selected aux cases各实际proved，原全aux failed仍保，物理仅原germ交段。旧负gmax禁作正界；optional p1'''须独立新Cauchy。
+
+合同使用same实δ≤1e−8、η0、n≥388，trueAi+非零βnBi。完整ordinary positive source、finitehead和cutoff读出给C+；correction指定stable0/roothead0/external0，trial真stable非零保持。strong correction≤9CRω1C+ +CR CF+CO C−，并非完整strong return或incoming逆。原run43632464994/1 artifact14128707026的ZIP7900304/05d77d28b89d57ff475de07dc0e41974f7408e76821c2edcb81609e49303daa1与member7873296/3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b只临时恢复，不重matrixwords/negativeintegrals，不发布新artifact。
+
+双README在d4f76ae46d24177ef2ae20507c5ffa29e50a4a1e逐blob未变。下一phase继续新positive标量消费，newton完整c0正H3输运、tail真实97 cap差、root有限非线性receiver并行；同对象总标准未达。
