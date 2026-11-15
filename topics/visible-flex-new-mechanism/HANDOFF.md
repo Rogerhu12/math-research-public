@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **f
 
 一LP、全步α1接纳；保3887粗行+94细行，两网全部组与遗漏违反0，4共享值+2最终同参数值。活动1.456s、初始化360.338s、总378.031s、RSS1521448KiB。源码8a91bd17/5e7450df、完整raw1924380B/534230f1、gz278479B/e0fe0f7c、原生summary48019B/1ccd45ea；全部trial系数与粗细池保存。fine峰t.135/θ369π/384，曲率峰t.7875/π2。详见notes/curvature-mixed-grid-target70-actual-result-20261115.md。
 
-下一从d0d635和原粗细池作65→60→55→50→45→40→35→30→25→20→16短阶梯；只有两网实际达到当前目标才降低。共享12LP/40粗细值/120s，不逐阶段重置，不换g/163/height mean384/盒/容差；失败只回最后合格态。mechanism编新源，尚未实际。末三行54/53支持纸证仅备选，不启用。
+下一从d0d635和原粗细池作65→60→55→50→45→40→35→30→25→20→16短阶梯；只有两网实际达到当前目标才降低。共享12LP/40粗细值/120s，不逐阶段重置，不换g/163/height mean384/盒/容差；失败只回最后合格态。新源02bb1eff/6dde89c7已派curvature_target_ladder；14输入/共享预算人工过，原生summary用列名行表，12模型72trial压力60007B。末三行54/53支持纸证仅备选，不启用。
 
 ## 4. 完整第四成本：当前已付结构
 
@@ -43,7 +43,7 @@ R141已证单权、N*λ0字符的加速度真协变：A_hh=h^(σ−2)a(k)、A_hk
 
 R145以真实k/ω反号、h保持正和同右锚原递推证明完整V的奇偶身份；负H仅有限Laurent代数延拓。闭锥基点无关且SC=C，故R127的非零正字符只能偶整权；不能据此把奇权分量或J当作实际负控制。
 
-R148给固定k的sharp最高action门：a≥0、d+(3−σ)²a/9≥0 iff该一维全部平端h非负。权−2得λ(D0+25J/9)≥0；D0实际43657526246完成：只两项未约化N2响应，完整Q4^v−D0P3v−B_m2N2对原42维块仍余205项，非成员未证；原根已存待R150。此门不证全action或J双向支付。
+R148给固定k的sharp最高action门：a≥0、d+(3−σ)²a/9≥0 iff该一维全部平端h非负。权−2得λ(D0+25J/9)≥0；D0实际43657526246完成：只两项未约化N2响应，完整Q4^v−D0P3v−B_m2N2对原42维块仍余205项，非成员未证；R150实际note已发，12新原根14497B/ecd9edf2可直接消费。此门不证全action或J双向支付。
 
 R146已把五族协变提升到整个U/R：H^e[F(S_Hd)]=P[F(S)]，ω_j=N^jω0/j!模R。已发314状态记录化为80个起始条目（每族16）；非独立维数/成员/可调性结论。任意仿射不变Z及一般pure成员可用此缩减，当前仍仅检J。
 
@@ -62,6 +62,6 @@ R143实际43656084792/source82f3a12完成：J[-4]减R133固定六列，392项原
 
 ## 6. 正在运行与未付终局
 
-run43655713308的G7/mixed几何及43656084792的J均已success。G9已登记R149，链结束；D0已complete未决，当前仅general_pure_J_membership；几何阶梯修摘要大小后接另一槽。mechanism负责几何actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
+run43655713308的G7/mixed几何及43656084792的J均已success。G9已登记R149，链结束；D0已complete未决且R150已登记；J完整pure实际43657785023也已success待R151。当前仅curvature_target_ladder研究lane。mechanism负责几何actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

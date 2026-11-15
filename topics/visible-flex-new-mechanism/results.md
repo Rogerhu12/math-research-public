@@ -309,3 +309,5 @@
 - [R149：第九次G平移成员，商轨道恰九维](results/R149-ninth-G-membership-and-exact-nine-dimensional-orbit-quotient.md) — actual43657083833/source daf7ef2原两mode共同证明N⁹G=−5670B_r0(W19)，W19为v2原索引19；结合此前九个不同真权非成员，dim(A_G/R8)=9恰好。G链结束，不派N10。新块2列仅上界，不滥加R维数；保至少237已付共同查询，J仍外于整个A_G。立即接完整D0、一般pure J和几何阶梯。
 
 - [R152：固定h最高action与Sturm–Liouville二次型等价](results/R152-fixed-h-Sturm-Liouville-highest-action.md) — 用ψ=|k′|^(3/2)准确换元，任意有限时间平端k最高action非负iff∫[(4/9)cψ′²+eψ²]≥0。已付可数单调弧、零速度集a.e.及真实finite flat-cap反构造；e不必逐点非负。只一维最高层，完整h/k联动、低阶乘子及真实可达仍欠。
+
+- [R150实际：完整h轴D0仍未决，原根已保存](notes/literature-h-axis-sharp-actual-20261115.md) — 43657526246/source0d5df18完整保v4分部积分和两条未约化N2收缩，13.469s/RSS222.539；D0对已证42维空间仍205项sound余，非成员/符号均未证。12个完整新根gzip14497B，后继直接消费，不重做两收缩。

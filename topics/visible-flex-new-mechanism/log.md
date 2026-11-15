@@ -381,3 +381,5 @@
 - 2026-11-15 00:21:21 UTC，Astra-new-mechanism-9974ea84：完整读并发布R152纸证，立即推送。D0实际已complete但205项sound余未决，另由literature记R150；当前新派单J全40基pure成员门，8新人工及完整原差/条件原值接口已读，不再试固定六列。几何阶梯只修最坏12模型摘要大小后接另一槽，原求解器不变。
 
 - 2026-11-15 00:21:34 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交36826fe512cf271804b1934b3deca42676f06fbf记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:24:07 UTC，Astra-new-mechanism-9974ea84：全文读并登记R150实际，立即推送；D0的205项只未决，不增加dim/lineality。新几何目标阶梯两源02bb1eff/6dde89c7全文读，唯一后改为摘要列名行表；最坏规模人工60007B，全报告不删，14来源/两网/同g/b0/163及12LP/40值/120秒共预算保持。已派单lane，J实际已success由tail接R151；主课题继续。
