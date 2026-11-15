@@ -96,7 +96,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 ### ordinary真实值与原全局对偶
 
-原p43、776bit q已Gaussian5排除，不是Serre反例。R773/776/779/780原格/cochain/real/NT像已成，三个Norm/深度自动，不决定真实Robert值。R783原Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ，坏值Θ=11；平衡jet Θ=−iKq，坏Kq=11i。实际Robert/Kummer/Shapiro、global dual、Θ仍缺。保Euler因子和一次交叉相位，不做巨大q挠点枚举；真K子域乘积/43次幂及小11次角色都不能代χ±1。
+原p43、776bit q已Gaussian5排除，不是Serre反例。R773/776/779/780原格/cochain/real/NT像已成，三个Norm/深度自动，不决定真实Robert值。R783原Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ，坏值Θ=11；平衡jet Θ=−iKq，坏Kq=11i。[实际Shapiro笔记](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892从同一c_s构造Λ#受Σ支持类，p-localization单射逐层给唯一全局低阶gauge和K_glob；−iK_glob+(11i/2)u=d_R，q处完整杀零后唯一a_q满足Θ=i a_q。保原k-linear exact dual的共轭结构和二次restriction因子；q的局部θ-lift不自动给全局strict-p lift。另一侧实际global dual及Θ数值仍缺。保Euler因子和一次交叉相位，不做巨大q挠点枚举；真K子域乘积/43次幂及小11次角色都不能代χ±1。
 
 ## 当前推进顺序与固定边界
 
