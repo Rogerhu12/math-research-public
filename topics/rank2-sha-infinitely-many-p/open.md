@@ -203,3 +203,5 @@ R718标量增补已付：原tα=−[w^s]logRα在特征零成立，完整q_pα�
 ### R720：固定低度 CM 共同约束原整窗
 
 固定α±=1±6ω、Norm31/43，原division多项式为x³中5/7次；真实六倍乘积及全部Gaussian标量均已付。独立Norm/反Norm生成元的初等计数给密度一惯性p，任固定Cp（亦p^(1+ε),ε<1/3）窗口只有n=s共同共振，故原U由两固定分布唯一恢复。接续其与固定φ/原中央carry的非零联系；不冒R708二次窗，不将CM pullback作为同预算新列。
+
+[原两斜门](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)已全源返回同Yunit：μ|Li deep=λℓ(RY^ℓPLi,κℓ)_*μ，完整权随t=κℓ作≤30次E位移。原paired Mellin首导数准确回Σk u^k/k·(M1k(t)−M3k(t))，deg_t≤30+k，全部负矩与尾在；继续k1的实际冻结t0差及全t多项式，不将正混合行冒负矩。近消差只含vZ=vE<ℓ，两支不交；固定有限排除p|19·61·22699·64111已明记。

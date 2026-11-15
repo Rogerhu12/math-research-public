@@ -4,7 +4,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同p的全Sha[p∞]有限。**主目标未完成，QUEUE进行中；跨上下文持续，不等阶段确认。**
 
-- 最近已读规则提交：7ee700b9c6e9e595f2f1540c28855cef1024258f；2026-11-15 08:40:56 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:40:55 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
+- 最近已读规则提交：36b55cffd976a4fff13c5b717c3a33c4d53f2729；2026-11-15 08:48:24 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:48:23 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。只写Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次比根/题README、仅读差异即遵守并记提交。本地exec无环境；API仅非强制追加，拒推立即本地pull --rebase重试并接新head再推，循环至成功；实际CI与本地失败分记。
@@ -60,3 +60,5 @@ R697/701消最高项须保完整3C。一般μ=m3cF为+3；两个真实∞矩另�
 R709原平面Q_D<s时目标p前缀全单位，阈≈141D²/2，无Δ_D；exact ker_Q旗标另门297/20。临界47/8均不满足，旧五z/primitive vpΔ_D=0保。
 两cube notes保全原预算：模3光滑cube排除；19角Pic轨道给3ql(s−r)≤2B_D²+48l²b，临界ql≤8/3，q3全排，q2迫原F自身偶。未知R不自动偶。
 [极端carry短行](notes/2026-11-15-extreme-carry-multiplied-actual-forcing.md)：ell=r、s=2h+1，先乘同μ后全目标=iotaξ((m|C)e(b_su²/(2a)+3tξ)) modt^(h+1−r)。保原ξ0，不改Pfact；全部行由同F实际forcing恢复。r1同R矩阵已给，unit常数不判非零。R712继续全真实像、两13carry/d2，不以接口重排冒非零。
+
+[两斜门完整返回](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)已付：原全六输入μ|Li deepℓ=λℓ(RY^ℓ PLi,κℓ)_*μ，由R664全联合及Y核单射约去，不认whole10710标量。q移位为t的≤30次整权；原paired负矩准确为λ^(2n+2N)Σk u^k/k·(M1k(t)−M3k(t))，deg≤30+k，t1差零但t−1是unit。全部C支/原Yunit/尾保；近消分区另排固定p|19·61·22699·64111，不改高幂ray。
