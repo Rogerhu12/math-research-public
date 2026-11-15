@@ -142,3 +142,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **通用维数型两费路线已排。** [四头/十一位真反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)在完整右对偶及规范负图都保留时给μ=1、Xi²→0，排任意nilpotent头κ(h)。原A_m/连续尾不同，继续实际权与同W来源。
 
 **原首位的实际Schur入口。** [统一物理度量与完整top来源](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)已支付N/Y首位的绝对常数消元、全left参数(x,b)、原B理想及全部head/bare旗。P=K−T²，||T||<13/20，核Gram∈[I,569/400]；W由V*Gx=0严格表示。下一直接研究原同W forcing对P*=K*−T*²的真实像、全kerP*最小化及两费返回，保实际top b，不把度量界当逆界。
+
+
+**真实bosonic wandering的定量硬核正角。** [三列完整证明](results/R271-appendix-three-collective-columns-hardcore-angle-and-bosonic-wandering.md)对全部横向Fock源给Σj=0²||(I−Qhc)(a*)^jg/√j!||²≥p²||g||²；原N/Y头的真实H^-1顶源、最高三头行及κ0=e^-1070严格给距离≥3e^-1070/[20(m+4)C_m^(3/2)]，logC_m=O(m logm)。这是局部bosonic wandering与硬核的正角；原w∈M仅有到bosonic核的正向超小误差，P_m^B B*w反向投影仍无速率，且核内range分量可抵消非硬核部分。继续同W共同Schur/返回，不以该角度外推N=M。
