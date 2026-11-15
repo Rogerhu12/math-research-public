@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 13:04:40 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7371da22ab83c808684883702bab979cf1bd0b6c。
+规则同步记录：2026-11-15 13:13:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3b2df31a555b9466911c9b0b3e9b45c7df576c41。
 
 集成复核：2026-11-15 13:12:41 UTC API读取main 009407054771d1cd690443aedb1c6a15fae1c1cc，双README21bd/bff未变；不是git pull。147四件完成即发，原144所有范围/预算保，新R323/全九构造直接本库Actions，无本地科学或AST声称。
 
