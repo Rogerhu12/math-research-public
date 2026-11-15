@@ -1,0 +1,103 @@
+{
+  "kind": "selected_cut_shape_mean_public_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_sha256": "745fc480b101dbd7ca035c11826d2d0208c4d2db3568e0bbb4214fa401ddbb19",
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_cut": "9/10",
+    "raw_response_side": "left",
+    "response_sine_modes": 96,
+    "response_cosine_modes": 96,
+    "independent_even_mean": true,
+    "response_degree": 96,
+    "base_degree": 32,
+    "delta_half_width": "1/10000000000",
+    "response_repair_pair_A0": "0.0000000000000002292",
+    "physical_gamma_radius": "1/1000000000",
+    "physical_gamma_fraction": "1/128",
+    "physical_gamma_low_neighbourhood_H1": "1/1024",
+    "old_base_jacobian_angle_A0_bound": "1/16",
+    "ordinary_circle_measure": "normalized circle in the same original moving angle",
+    "physical_response_amplitudes_not_scaled_by_alpha": true,
+    "full_raw_mean_not_replaced_by_original_mean_flow_correction": true,
+    "zero_old_target_trial_angle_repair_matrix_or_Green_recomputation": true,
+    "no_core_existence_unknown_correction_or_low_selfmap_claim": true
+  },
+  "input_paths": {
+    "boundary": "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/native/known-waist-and-true-cap-sources.json.gz",
+    "boundary_process": "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/process.json",
+    "base_cut": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz"
+  },
+  "current_only_paths": [
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-cut-shape-mean-contract.md",
+    "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/process.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_moving96_physical128_C_matrix.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_response_true_boundary_sources.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean_CI.py"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/native/known-waist-and-true-cap-sources.json.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean.py": "745fc480b101dbd7ca035c11826d2d0208c4d2db3568e0bbb4214fa401ddbb19",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean_CI.py": "c7c83418a890245f224a04e7dc41dadaa80eee7223c00c7a1f1c458eda3eecce",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-cut-shape-mean-contract.md": "67e20185e59f29cb9d02a6320648cf102d0b6137b172188ec5a3fc07bb3e97ba",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_response_true_boundary_sources.py": "79796ab53f20088da1ef11261be81e2ce548c16772c991eb9d5e8148b2b23204",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_moving96_physical128_C_matrix.py": "36f8d6e47eaea2e9154d1e1683158a25a90bddcf158bfb488f4c51ab44ebea5c",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md": "a23d28b4445a7c3a2391b28c8f6c50a785712d30568e30eafb92fb30f070ef7c",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+    "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/process.json": "6ff7f39ab70150f99eebb8a880fb0f52867574b25e122b59d95c1a0105e2609e",
+    "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/native/known-waist-and-true-cap-sources.json.gz": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7"
+  },
+  "original_completed_inputs": {
+    "boundary_public_run": "43599771405/1",
+    "boundary_native_bytes": 89319,
+    "boundary_complete_gates": 10,
+    "raw_trace_slots": 193,
+    "base_candidate_slots": 65,
+    "base_phase_coefficients": 32,
+    "original_trial_evaluation_repeated": false,
+    "original_angle_or_C_matrix_recomputed": false,
+    "base_whole_eta_box_consumed_only_as_enclosure_for_fixed_eta0": true
+  },
+  "execution": {
+    "python": "3.12.14",
+    "packages": {
+      "python-flint": "0.9.0"
+    },
+    "mathematical_runtime": "public Actions only",
+    "new_recomputable_outputs_persisted": false,
+    "new_Release_uploads": false,
+    "new_Actions_artifacts": false,
+    "metadata_file_limit_bytes": 60000,
+    "complete_scientific_stdout_receipt_before_terminal_publication": true,
+    "stdout_receipt_limit_bytes": 59000,
+    "initial_extra_topic_capacity_reserve_bytes": 120000
+  },
+  "scope": {
+    "ordinary_full_pair_and_true_mean": true,
+    "physical_amplitudes_no_alpha": true,
+    "same_cut_signed_shape_before_norm": true,
+    "complete_shape_A0_and_phi_A0": true,
+    "continuous_direction_repair_fee_once_per_complete_pair": true,
+    "low_remaining_radius_only_for_a_separately_bounded_unknown_correction": true,
+    "core_existence": false,
+    "unknown_correction_bound": false,
+    "low_physical_gamma_selfmap": false,
+    "old_boundary_residual_or_Port_Gram_changed": false
+  }
+}

@@ -268,6 +268,8 @@ SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24
 若另已造同collar真H1解并在相应C0球，则same cut H8193差<2^377904<2^393000；高门不构成core存在。
 五个selected代表低H1充分门全false，最小界.000389113仍远大于J的15e−9/128；上界大不证明实际误差大。
 完整已知δZ cut shape/mean与未知correction须分列，实际低γ和core图继续。
+[cut shape/mean消费契约](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)首次部署，SCI745fc480/workerc7c83418/manifest95541c2e。
+只从两旧native的193真实幅度/65 base端点构造signed shape，保完整mean、A0/角A0/L2与连续repair；J18低剩余量和CS行费实际值待run，未知correction不代入。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。

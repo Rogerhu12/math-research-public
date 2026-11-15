@@ -1,0 +1,76 @@
+name: visible-exact selected cut shape and mean
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-selected-cut-shape-mean.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-selected-cut-shape-mean
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  CUT_SHAPE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-cut-shape-mean-CI-inputs.json
+  CUT_SHAPE_MANIFEST_SHA: 95541c2e2bd7cd7547d13319fdacdaf3a0d8ba1eb1ac675fd4d68480b6994b57
+  CUT_SHAPE_SCI_SHA: 745fc480b101dbd7ca035c11826d2d0208c4d2db3568e0bbb4214fa401ddbb19
+  CUT_SHAPE_WORKER_SHA: c7c83418a890245f224a04e7dc41dadaa80eee7223c00c7a1f1c458eda3eecce
+  CUT_SHAPE_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  CUT_SHAPE_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  selected-cut-shape-mean:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the small scientific entry and existing conclusions
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean_CI.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-cut-shape-mean-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+            /topics/visible-flex-exact-nearby/notes/selected_cut_shape_mean_ci/
+      - name: Check the independently pinned worker and complete input manifest
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          python - <<'PY_CUT_SHAPE'
+          import ast,hashlib,json,os,pathlib
+          w=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean_CI.py')
+          assert hashlib.sha256(w.read_bytes()).hexdigest()==os.environ['CUT_SHAPE_WORKER_SHA']
+          ast.parse(w.read_text(),filename=str(w))
+          p=pathlib.Path(os.environ['CUT_SHAPE_MANIFEST'])
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['CUT_SHAPE_MANIFEST_SHA']
+          m=json.loads(p.read_bytes())
+          assert m['source_sha256']==os.environ['CUT_SHAPE_SCI_SHA']
+          r=pathlib.Path(os.environ['CUT_SHAPE_RULES'])
+          assert hashlib.sha256(r.read_bytes()).hexdigest()==os.environ['CUT_SHAPE_RULES_SHA']
+          PY_CUT_SHAPE
+      - name: Install the identical directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Consume the saved complete cut coefficients and compute the new shape and mean scalars
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean_CI.py
+          --repo "$GITHUB_WORKSPACE"
+          --work "$RUNNER_TEMP/visible-exact-selected-cut-shape-mean"
+          --manifest "$CUT_SHAPE_MANIFEST" --manifest-sha "$CUT_SHAPE_MANIFEST_SHA"
+          --rules "$CUT_SHAPE_RULES" --compute-minutes 20
+      # Rule15: no numerical native, large audit, Release or Actions artifact is retained.

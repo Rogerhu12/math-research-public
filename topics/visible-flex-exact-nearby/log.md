@@ -154,3 +154,9 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 两README在74f5296a6aa06539580ecbd9591a1284e1984a4e亲核未变。root亲读43714674603/1完整42073B conclusion618bd148与16232B processdbe7fe24，12身份/覆盖门、91逐case verdict和5完整代表case全核；child0/math1.182760990s。15通过的ell/rho网格完整保于reportc6c8969e/11371B；两大rho全部失败不删。最大rho2^-20的各门严格通过，但只对独立已存在连续双侧真H1state给高cut。所有selected低γ充分门false，最后rho2^-36仅能付较弱2^-10邻域，不能冒low selfmap/core存在。
 
 17原pins/4历史文件全核；原7296/7721身份与mean保，无旧目标/残差/repair/Green重算。预Git完整stdout42819B/21082201；temp475142B/2d83b544不留data/artifact。末真pull12:36:41.678653→61679f18ef8986657e8d4f730e33364cc41acbb4两README空。元数据base198757478B，精确本次投影198808648B含4096余量，为该提交时点。12:41 root非FF即时真CLI仍无环境，fresh CAS第2次已成功；当前未有rule变化。H/open详细旧公式保46b3c697同路径，未取消条件或授权旧成功重算。
+
+## 2026-11-15 12:45:00 UTC — 同cut193全幅度与shape/mean首次scalar部署
+
+两README在0831ba7aad597fec3c3938837fce055f8dc0ecc5亲核未变。部署SCI745fc480/16748B、成功collar继承worker c7c83418/27984B。root读全SCI/contract、worker全部diff、manifest/flow；newton核norm/source单位，tail亲读CS27确认修复。仅contract C14a两处display单$改为双$$以保tag，正文数学/SCI完全不改：最终contract67e20185/9975B、manifest95541c2e/6993B、flow91a5af29/3732B。
+
+原raw193 physical响应不乘alpha，base65 exactfinite+offset才用alpha；真m0来自完整scalar，j0形状先signed消去再norm，mean仍独立，连续EZ/384EZ只按完整pair一次。新求和给两分量A0/角A0/L2、真实signed mean、shape A0/phiA0/L2与J18充分unknown余量，旧trial端点/target/angle/C-matrix/repair/Green不重做。首AST/数门只公开Actions；尚未有实际cut界或core/low自映射结论。H旧tail全分账保46b3c697同H不取消。
