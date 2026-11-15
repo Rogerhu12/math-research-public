@@ -211,9 +211,10 @@ RG用M零宽图、同真long右宽0/左宽7L/16与E'>39194024，解除未知γ�
 [A更紧低常数](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)
 保真实两行能量、speed中的<f2>/m、完整mean/rank/χ外η与finite差商；两侧必须同一连续H1 state，真实jump独立lift，不能当ordinary L2源。完整式与原待付义务保46b3c697同open及原文。
 
-[collar实际43714674603/1](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)的child0/12门、91case及15pass保持原记录618bd148/dbe7fe24，但旧complete-source解释已更正。
-[MC原始响应mean身份](results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)证明旧非负预算界b0=s0+rraw,mean e2，完整fδ新增δrraw,mean；ordinary/factorial需补d||P rmean||2，正角导及>96投影源不变。原完整高门授权暂撤，只读原40parts/7721的signed mean、真交长与K后重评已保留5case；禁止重跑旧91case。未重评的另外10case不因5case通过而恢复授权。新[MC消费包](notes/2026-11-15-R133-raw-response-mean-collar-fee-CI-inputs.json)已部署SCI7547ece2/worker804a001d/13pin5157dfea；12身份门、2新mean窗/5case，actual待。
-五个旧低H1充分门皆false，最小.000389113仅旧上界，补正费不会转成通过；actual unknown/core存在/同一双侧H1与C0球仍待。
+[旧collar43714674603/1](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)的91case/15pass保原618bd148/dbe7fe24。
+[MC](results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)更正b0=s0+rraw,mean e2；[MA actual43717700427/1](results/R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md)已补+δrraw,mean：child0/12门、2域140/2原行、5case全过，executionc5424be2/reportbe2de85d，旧math0。
+窄窗Pmean L2<4.963677e−10、d费<4.963677e−20；ordinary/factorial补齐、正角导/>96投影源不变。仅ell2^-18和rho2^-20/24/28/32/36这5例恢复same-state真双侧H1/C0球条件下H8193<2^377904，其余10旧pass未授权。
+五个低H1充分门仍false，最小.000389113为上界；实际unknown、真core存在与低γ继续。
 [cut shape/mean消费契约](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)及[actual43715426316/1](results/R133-supplement-actual-selected-cut-shape-mean-and-component-bounds.md)成功锁：child0/9门/math.027363467s，SCI745fc480/workerc7c83418/manifest95541c2e。
 report048c84d5/conclusion5d74a0f2/process82b7c376；193真实幅度/base32 signed shape、全mean/连续repair均保，0旧math。
 未乘d的xi/xiφ/ζ/ζφ/mean/shape A0上界分别.241363696/.991176944/.601228813/2.456459299/.003278096/.597994429，直接供CS完整行费。

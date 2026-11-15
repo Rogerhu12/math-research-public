@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（MC 补费实际 MA）** [原始均值费用与五个恢复的完整高门](results/R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md)：公开43717700427/1 child0/12门，新增dM<4.963677e−20，五个ell2^-18 case全过；完整源下same-state条件H8193成立。其余十旧pass未重新授权；低H1/core仍未付，旧数学0重做。
+
 - **已证明（源身份更正 MC）** [原始响应独立mean与最小领圈补费](results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)：旧mean-completed正预算只界b0=s0+rraw,mean e2；完整ordinary/factorial新增d||P rmean||2，正角导及>96源不变。旧15/91记录保留但完整源高门授权暂撤，待新5case补费；不改旧成功数学。
 
 - [6个负侧cut实际读出](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)：43716450174/1 child0/17门，R=.005/.01/.015/.02的两归一化逆通过，.001/.002未过保raw。R=.005完整ordinary→density增益1.070261672、root/jump15.135785709；source/G31项与全部mean保、0旧math，非完整return/GH。

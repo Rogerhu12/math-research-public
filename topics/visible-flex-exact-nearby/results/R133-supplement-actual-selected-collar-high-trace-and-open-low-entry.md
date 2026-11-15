@@ -13,8 +13,11 @@ proves the missing fee and the exact corrected decomposition. Until that fee
 has been evaluated, the historical 15/91 count does not establish the intended
 complete-source high-trace criteria. All numerical records below are retained
 as historical values; every high-trace implication that uses them additionally
-requires the corrected source gate. The low physical inner-curvature entry
-remains unproved.
+requires the corrected source gate.
+[MA, actual run 43717700427/1](R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md)
+has now paid that gate for exactly the five retained cases with $\ell=2^{-18}$.
+The other ten historical scalar passes remain uncorrected. The low physical
+inner-curvature entry remains unproved.
 
 This report consumes the accepted complete small conclusion. It does not
 rerun any old numerical calculation or alter a failed case.

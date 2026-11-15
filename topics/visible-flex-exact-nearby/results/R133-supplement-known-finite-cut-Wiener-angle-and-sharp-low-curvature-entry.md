@@ -383,6 +383,10 @@ solution and $C^0$ hypotheses **and** after the independent raw mean fee
 in [MC.12--MC.16](R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)
 has passed the corrected complete-source gate. The historical uncorrected
 15/91 scalar count supplies neither that gate nor (W.31).
+[MA.7--MA.8](R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md)
+now pays the corrected high gate for exactly five retained $\ell=2^{-18}$
+cases. Their same-state solution and $C^0$ hypotheses, and the independent
+low requirement (W.31), are still required.
 
 The complete cut execution continues to record its original
 J.18 upper bound $1.03068214097169\ldots\cdot10^{-11}$ and its
