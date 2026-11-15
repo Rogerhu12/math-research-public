@@ -115,3 +115,7 @@ R707/708 trace前缀、R714/717–725/729高度二/AH/CM只确定同一真实来
 O4仍缺原最早低增广a≤1的无限p或β(Q)真实全球位置；O6仍缺全Np有限/λ≤3无限p。supersingular regulator的H=cℓℓ^t尚可存，AST线性独立与strict局部向量不足。
 
 [2026 Wang稿审计](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md) 已自含证明其起始root、辅助level-raising必要条件冲突，真实Nguyen与λ0论证亦不补缺；不采其完成声明。Kim2609的全Sha判据仍要求最早节点在指定全球点子群；Macias Castillo–Sano的usual Selmer Fitting等式保首非零I₂，Angurel深节点/IMC不保证Θ₂，fine Selmer不代全群，Fornea rank2外积非零仍是猜想。继续实际原始性/全球位置，不以扩大辅助节点或rank1公式替目标。
+
+### R769：原新三格的完整合流系数矩阵
+
+[R769](results/R769-original-confluent-theta-return-for-positive-derivative-grid.md) 已证明新(S,T,(S′)^6)全部原列的同charge合流theta返回：Q^j经明确非交换递推化为∂^rΘ^n，原P4^j零点消掉全部t=1分母，各列仍全纯且次数帽不增。实际系数矩阵为Σg_ri[−6(k−i)]^rθ_n,k−i，分母只7^(a+b+6c)(2n)^(6c)，p>204D时全为单位。原w/t共同饱和前缀相同、首行仅差(−1)^k；保全原列和全flag，未把各charge/导数分拆消失或证明中央估值改善。接续在同一完整前缀核上估实际合流矩阵；原来源系数不拆成环境自由列，较小p按实际列分母保成本，完整Smith不能借未证明整的t/w全行变换。

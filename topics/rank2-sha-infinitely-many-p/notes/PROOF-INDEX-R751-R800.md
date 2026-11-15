@@ -37,3 +37,5 @@
 - [R764](../results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md)：已证明原整数正交六轴与whole S6绝对核，新轴t同时逐点固定Y和最终q*，给完整Y/t矩形及原中央零传播。三个CD域在精确浅环带互斥、深交相同；原O全失败门须m≥n才同域，移动E和归一W_j均保。共同域差仅留1mod3幂，首项为同原q/失败/E条件下的真实type5负一行；全部浅独占支和外部补偿仍在，未赋该条件行零或非零。
 
 - [R766](../results/R766-actual-principal-part-normal-functional-and-specified-small-obstruction.md)：已证明R765选定normal行准确下降到原实际主部像V_E′并杀全部H0(N³)；原n0/2/3列给d_k(v_k)=1的明确单位主部，完整低r右逆高尾保。高接触和指定单位行同解恰O_T(v_k)∈O_T(ker d_k)；若对偶O_T*ω=d_k有解，显示Λ_ω逐列杀全原M且对原cube首forcing取单位c_k。未判定该实际成员性，其他normal/两13/d₂仍由同R满足。
+
+- [R769](../results/R769-original-confluent-theta-return-for-positive-derivative-grid.md)：已证明新(S,T,(S′)^6)全部原列的同charge合流theta返回：Q^j经明确非交换递推化为∂^rΘ^n，原P4^j零点消掉全部t=1分母，各列仍全纯且次数帽不增。实际系数矩阵为Σg_ri[−6(k−i)]^rθ_n,k−i，分母只7^(a+b+6c)(2n)^(6c)，p>204D时全为单位。原w/t共同饱和前缀相同、首行仅差(−1)^k；保全原列和全flag，未把各charge/导数分拆消失或证明中央估值改善。
