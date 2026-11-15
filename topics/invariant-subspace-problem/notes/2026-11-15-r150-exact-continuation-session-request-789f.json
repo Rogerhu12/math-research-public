@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "fc1f4ee7ce513e1872ba8ce13ccc55be7b83f319",
+  "rulesReadAtCommit": "4f1365300b70831550d544df119d738b2531eff5",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1120,6 +1120,61 @@
       ],
       "timeoutSeconds": 660,
       "receiptPath": "{work}/original-global-projection-localized-row-module/localized-row-module-dag-receipt.json"
+    },
+    {
+      "id": "new-original-minor-historical-dictionary-recovery",
+      "requires": [
+        "infinity-complete-tenth-after-high-probe"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-paid-original-minor-dictionary-recovery-789f.py",
+      "scriptSHA256": "4ac755756e4365d1dcda104479aec31f42ce7664760e2c888166a9d97370e6e3",
+      "sources": [],
+      "argv": [
+        "--out-dir",
+        "{work}/inputs/repo",
+        "--out",
+        "{work}/new-original-minor-historical-dictionary-recovery-receipt.json"
+      ],
+      "timeoutSeconds": 120,
+      "receiptPath": "{work}/new-original-minor-historical-dictionary-recovery-receipt.json"
+    },
+    {
+      "id": "new-original-unit-leading-minor-dictionaries",
+      "requires": [
+        "new-original-minor-historical-dictionary-recovery"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-new-original-unit-leading-minor-dictionaries-789f.py",
+      "scriptSHA256": "653808b60f2c4a2d307e1546642892a3d4881d10033b00624e0296e452834dc7",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-higher-two-regular202-mappers-preparation.json",
+          "sha256": "17bc63e12c112de4ec35e443cb6fc4897fab0c6ed5c3711cf9509ddcb634bc52"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43736746064-original-characteristic-zero-free13-projection.json",
+          "sha256": "2057846f5adb75ed84f20a144f4cb2da436f9b1db5674612ac376f9b4b503248"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-infinity-complete-tenth-after-high-probe.json",
+          "sha256": "bd3bd1c9395562b2b34baed09864f2b2a5650f4f3a9da949c35f843e0b2cf0ad"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{work}/inputs/repo/native-normal-form-input.txt",
+        "--paid-full-receipt",
+        "{work}/inputs/repo/infinity-first-jet-receipt.json",
+        "--mapper-receipt",
+        "{scripts}/43740928483-higher-two-regular202-mappers-preparation.json",
+        "--left-receipt",
+        "{scripts}/43736746064-original-characteristic-zero-free13-projection.json",
+        "--full66-receipt",
+        "{scripts}/43756208221-infinity-complete-tenth-after-high-probe.json",
+        "--out",
+        "{work}/new-original-unit-leading-minor-dictionaries-receipt.json"
+      ],
+      "timeoutSeconds": 30,
+      "receiptPath": "{work}/new-original-unit-leading-minor-dictionaries-receipt.json"
     }
   ],
   "previousSession": {
@@ -1128,5 +1183,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Full original rational infinity spectrum is exactly [1,1,1,1,3,4,4,4,5,6,7,8,10,11], length66, submax55; ordinary ISP remains open. Continue original global projection row module from actual completed19/pending20 prefix via localized units and exact source DAG, with all forward and reverse gates; no gcd predeclared."
+  "mathematicalProgramStatus": "Ordinary ISP remains open. Full rational infinity66 and D31 Smith/source kernel proved; original global P localized row-module600 continues from paid19 rows. A different original maximal minor is proved to have infinity order66 and leading31unit; queue only historical text recovery and exact dictionary/weight verification, not a large determinant evaluation."
 }

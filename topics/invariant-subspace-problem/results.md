@@ -425,3 +425,5 @@
 - **完整仿射公因子可首一31整，余因子没有约化逃向无穷远。** [原齐次Gauss证明](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由fullQ/F31∞同66选出u66系数为31单位的原minor，迫全齐次gcd除u66后首项单位。因此Δaff首一∈Z_(31)[s]、约化保次数并整除field315；首一R≤157且barR|(s−2)^16(s−1)^3P+²P−²E6Q60²。R(0)/R(−6)及其monic因子取值31单位；Rout/Ω/M/U均31整。原来源31分母、实际R系数、Ω和九h*自身成员性仍开。
 
 - **实际低端forcing全对删除正Gram及完整creation行。** [完整原来源证明](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)把真实加权交换压后方程极化为整个forcing空间的正交叉Gram，准确保碰撞项；共同正分解DαZ=MαDZ、ΣMα≤I给真实整行。Fi≤4(i+1)/3与奇异源变分式付Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3；双缺陷保GΔ†后同u_f/w的配对平方和≤(8/3)Δ_f²||w||²，常数不随Q或头维增长。完整K压后C*后继等于压后−D*后继；未知物理返回列识别、两缺陷Du抵消及顺次MP负部未由此封口。
+
+- **一组明确新原行列给degree8769、首项31单位的最大子式。** [原坐标证明](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)以同核补RΦ1632∪F_H202的真实块三角单位证明J*=P4340+14active E列张满整im，原13free输出的补I*识别饱和像；cokerB*=完整fulltors，故∞66且u66系数31单位。实际字典权H8835给degree8769；新cofactor阶≥55、新原列replacement阶≥66。其小字典读器核5份完整输入及全4340/14/13原索引，不声称实算新大det或旧O149/高26。
