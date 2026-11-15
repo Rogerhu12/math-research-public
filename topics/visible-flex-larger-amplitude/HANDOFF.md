@@ -30,13 +30,13 @@
 
 [R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[方向源码](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)已发布CPP8c40b4c7/launcher8229212b/bridge61e21ded，含原113两源。实际F/C分别微分、逐Cholesky/两代回及接受更新；n=0仅dt，全部226/RK/cut/576stage/far。仅一次完整delta，无全224J/native/fullDN/finalaudit，不冒IEEE光滑/branch稳定/误差界。未运行。exact接122：真实91 context/H/state/target/scales/far、两ready/78源→fresh64 J/R273δ→新packetα=0两policy；7200s总/首3600s、次不以首通过为门，worker受控结束非数学判决。small-core四输入不是该native现场输入，不加无用恢复门。
 
-### 119已结清；120非零112及121接续
+### 120完整非零112运行；121已结清、123九控制
 
-[119八批实际](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)run43693462669/source6fffce1f/compute132748791692/report132749530039成功，8批各原8方向全接受、显式批数停止。W1056.4579275781534→739.9479122854005，末unit首项−38.46941285550693；unit/full112/native/nonzero/success全false。末3×6最小奇异3.2653479765584335、前三列.41668210491439717、radius.00078125，不推导无根/极小/秩丢失。全部trial/FD/scalar/零circle已读，正常可选省略有身份非over-budget；真实status→summary→recipe，raw已删。117及119全数值/身份见正式note。
+[119](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)8批各8接受，末W739.9479122854005/全部final false；原完整读回及身份在note，raw已删。[121实际](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)run43694950669/sourceda16069e/compute132753318793 failure、report132754032982 success；5科学批各8接受/exit0，W739.9479122853971→738.1754024784359，所有原final false。第5正常摘要93000B超90000，fallback16702B/24c3b370，wrapper70是transport。五status/trace均真实读全并删；normal只有前4，last_recipe仍第4 c130d445，不冒第五trial细项已读。第5原status4646850B/cfe09440，完整3×6最小数值奇异.0068574945219558045不证明秩丢失/无根。
 
-121从第8批真实六末p重启独立8批，各radius=.1；原e154/79464/3e2c、24闭包/8×20/12×20/final不变。末recipe1568B/cb2e9c83、summary77719B/74926bcb、status1977219B/33e7b1fd。[121五件已发布](notes/2026-11-15-actual119-to-six-control-batches121-interface.md)：wrapper8ac33f77/recipe cb2e9c83/requestae4d1b17/workflow8f5ea35d。84源及实际HEAD/原24闭包已核，原reader117正常省略非失败、true status→recipe保持；3600s仅批间、step75/job90min，run43694950669/sourceda16069e/job132753318793，08:32:04UTC创建，已进原science未读结果；不能hash伪恢复raw。
+123由第5真实末六p加eta三零扩原支撑b_i(2x−1)²，参数/完整身份见note。amplitude做独立family/search/recipe/workflow，geometry薄reader；完整3×9/12×9/2normal+7tangent/九列FD/新域，原8×20/12×20/完整三式门保留。固定六个shape设计后仍原3active/453圆，不让807f吃九参数。每方向完整trial独立≤90KB块/原SHA，primary只完整元数据与块身份，无截行/新门。尚无123源发布或run。
 
-[120完整请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)六件已root全文读并发布：wrapperef4e977c/reader3f22a074/recipe1b9f8dc7/request6006acdf/workflowd6ffd544，99源绑定实际HEAD+新2源。选119第3批真实末p（非第8），summary73546B/4ec08e23/status1568824B/10c31f1d；前三列最小奇异23.479971346554226仅作初猜依据。λ=.001只缩前三core目标/对应初猜，不缩scalar。入口807f、client1cdf0e14、原01930无initialCheckpoint；4输入/2历史ready/78源真实恢复。三odd固定/三p active，453全态/高109自由；真当前H+完整J→原FD→同owner原banded/core/native/finalJ+audit，全部原门。300min部分运行/330step/350job、2700s规则、90KB诚实摘要后清临时，无raw上传。实际run43694844403/sourceace38440324f09471482826136584da38960c417，08:30:44UTC创建，job132752997196已进原完整场science未读结果；低三阈值不作启动门，成功后冻全六设计转450维same-g。
+[120请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)run43694844403/sourceace38440/job132752997196，08:30:44UTC创建且原science运行，未读结果。用119第3批真六p、λ=.001只缩前三core目标/一阶种子；wrapperef4e977c/reader3f22a074/request6006acdf/workflowd6ffd544、99源。807f/1cdf0e14/原01930配置无checkpoint，4数学输入/2ready/78源真实恢复。三odd固定/三p active/453全态/高109自由；真当前H全J→原FD→同owner原fullDN/native/finalJ+audit，全门保留。300min部分运行/330step/350job，90KB诚实读回后清临时，无raw。低三不作启动门；成功后λ续大目标，最终冻全六设计转450维same-g。H(s)同worker接口待root发布，非已运行补救。
 
 ### 118补真实midpoint471，运行中
 
@@ -58,4 +58,4 @@ same-g v4冻结g/全p/t范围，K=k=0/activep空/T=M/state4M+2；699二分1397+k
 
 ## 维护与重做范围
 
-已完成95–117各结果在正式note，113/118/120/121运行、119已结清、122接线。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
+已完成95–117各结果在正式note，113/118/120运行，119/121已结清，122与123接线。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
