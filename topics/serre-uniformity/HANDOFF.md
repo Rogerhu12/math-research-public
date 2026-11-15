@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：c4d5c13cf20a144252c8efa3144acbeac68c6b2a**（2026-11-15T10:08:46.599989+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：efdce2133626a8e1b2e6626e8ac3d14f35d9b8c2**（2026-11-15T10:11:52.278445+00:00 终端实际pull后已比较两README；无变化无需重读）。
 
 每结论立即推main；至少每小时实际pull，比较根/本课题README，变化只读diff并立刻遵守；非快进立即pull --rebase重推，禁止force。PAT仅CLI。root独占git与共享索引，各代理只交专属草稿。数学只在本公开仓库Actions；本地只读/IO/schema/hash/AST及纸面证明审核。根§15：可重算raw/证书不入Git或Release，只保脚本参数/source/run/输出SHA；必要输入/断点仅一日活跃bundle，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
@@ -18,7 +18,7 @@
 
 **R801长尾run43701282817运行**：source92961ce5b5a526109c3ba6c101961dc3c3100a85、job132772758246，09:51 UTC起；coreba9c52a3/wrapper11bdf084，proofb283280e/methoda96d7c3b。只V6[109,142)、V7[96,176)、V8[109,196)，五组输入与真实recipe闭包IO已核。只补准确依赖低幂尾；新函数/η/高度未成。完整[关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)保Schur真秩d−20及第二关系rank690+e；七/八次铅笔另需全V3至136/149。R787成功第一关系直接τ(A,B)。
 
-**R803数学已证，core/wrapper工程在审**：[证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)、[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。原M6维694，42项/1680Q行；原690行直接读取，四补行E4·M2[0/73]、E6、eta12。旧U0/H³和56张量不重算，五新mixed；一个694Q块至多84右端/full1680char0。实际5组为R774/R775/R786/R794/R759，R774原25.5MB artifact仍活跃。core静态交叉审核通过并修rejected-minor续接glob，尚无实际minor/坐标结果。
+**R803数学已证，真实混合比值任务已激活**：[证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)、[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。原M6维694，42项/1680Q行；原690行直接读取，四补行E4·M2[0/73]、E6、eta12。旧U0/H³和56张量不重算，五新mixed；一个694Q块至多84右端/full1680char0。实际5组为R774/R775/R786/R794/R759，R774原25.5MB artifact仍活跃。core1233536f/wrapperb8cedc8f已激活，request1e04be73；全部781项(64/6/698/7/6)实际IO通过，最小输入31.8MB。核心静态全文/交叉审与AST通过，保统一重构界、full1680代回和硬中断断点；尚无实际minor/坐标结果，运行号待取。
 
 ## 已成输入及准确复用
 

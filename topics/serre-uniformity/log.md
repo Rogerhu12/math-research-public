@@ -574,3 +574,8 @@
 - 完整登记原首p oscillator曲率：直接多项式全导数给Hasse ODE，全局简单零/无留数与O点首项给Cartier(A⁻²ω)=ω；有限lens变换和严格Jacobson式给完整曲率及P0秩p−2。
 - root手核全部算子系数与Cartier常数；原Hasse参数写明mathscr A_p(3,−1)=A(1,−1)，p-basis构造补成不循环证明。保Az^(p−2)边界源，不能先置A(P0)=0；SHAb8a91945184161e5104749059d3eb29897815fc241bc34958826b11fd530270e。
 - MH已推99efc113，非快进实际pull/rebase循环成功且两README差异空。全六偶部代数稿已返回待核，R803最小781项真实输入IO已过，R787/R801继续；主目标OPEN。
+
+## 2026-11-15 18:11 Asia/Taipei · serre-public-astra-20261115
+- R803原M6混合比值工程完整审阅并启用：root全文核core/wrapper，exact独立核数学与实际原SCALARS/H³规范；ordinary真实IO核R774/R775/R786/R794/R759共64/6/698/7/6=781文件及父来源，未执行本地数学。
+- core1233536f、wrapperb8cedc8f冻结，request1e04be73689e0a88799b0d5363c3a691ae765e448ffce1e34ee2273806486346。一个694模逆、六组14真实右端、Dixon精确除余/统一矩形重构/full1680char0，已修rejected-minor筛选及完成后旧lift硬中断窗口；原U0与56张量不重算。
+- 新增课题外workflow serre-p41-original-M6-mixed-Hodge-ratios.yml：blob:none、contents/actions只读、一日artifact，无自动publish。真实minor/混合坐标待Actions；R787/R801继续，R804 β点与R805全局除子接口接续，主目标OPEN。

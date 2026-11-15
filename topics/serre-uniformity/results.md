@@ -377,3 +377,5 @@
 - **原模参数heat与奇连接（已证明）**：[完整笔记](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)。保持c=0的六维heat矩阵、辅助E27上的显式奇部可分水平基与允许p零曲率，首p截断保Hasse边界源；DA(P0)=B且源基分量为单位。模参数与原z方向严格区分，critical/primitive共同非零仍未证明。SHA256 b0d436867df58fa240afb11a8dc627827b95e399659d1e3efef2e9b512461cab。
 
 - **首p oscillator曲率（已证明）**：[完整笔记](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)。原Hasse二阶方程、Cartier(A⁻²ω)=ω与D^(p−1)A⁻²=−1给完整有限算子曲率(A∂z+6DAz)²/12；P0上3B²z²、秩p−2。保持原Hasse边界源及先微分后代值，未把有限奇连接零曲率误作完整heat零曲率；critical/primitive非零仍缺。SHA256 b8a91945184161e5104749059d3eb29897815fc241bc34958826b11fd530270e。
+
+- **R803（公开工程已成，实际请求已启用）**：[执行契约](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)。四条原M6短补行与五混合前缀，一个694模解算器服务六组14右端，Dixon精确残差/统一重构界及全1680行准确代回；781个真实旧输入完整IO核通过，最小31.8MB源bundle。core1233536f/wrapperb8cedc8f，尚无新minor、坐标或高度结果。
