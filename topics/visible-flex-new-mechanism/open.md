@@ -134,7 +134,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
-[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)/[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3及36odd。[R269](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)在最终位置各解四变量IFT后正幅混合，付完整A1,−3和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)完整保单包μ²和有序尾，以平方密度镜对称及两quartic和再付全A−1,−2 I0，无新参数或执行。**下一剩18形式even（非rank），尤其I1/I2及其余面积，再接完整period/同w。** 各block先求真根，不平移旧能量根或强加混合后统一αβ；R262/268只排原居中类。
+[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3、36odd和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)真左尾/平方密度反射再付A−1,−2 I0。[R271](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)以原P,Y第一self及ordered U01两号，在预选共同新大正I内六final block各先四变量IFT，再Q正幅配平/三个严格比值夹持，联合付A1,−3 I0/I1。**下一剩16形式even（非rank）：该pair I2及其余面积，随后完整period/同w。** 不平移旧根、不授任意冻结窄I，不搬旧F8/旧g；不同block α无需相同。
 
 ## O1：双圆领相位机制，保留备选
 

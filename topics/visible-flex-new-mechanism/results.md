@@ -316,3 +316,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R273 完整证明](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)从原Φp0/Φs1与Φr1/Φs0四对nonlegal self推得准确N=∫u′u″³、M=∫xu″⁴与μ²项；Green+μ²/2及三条未消尾逐项保留，再合原Γ跨项成−k∫φ″²J(f″²−φ″²)。合法零矩仅使其准确化为s²∫FJ(F−G)−2cs∫FJK，不擅删后项。R270实际有限δ的普通/同源伴随、ρ0/20两排序均使F,G关于共同中心为偶，故第一配对为零；local N偶部为0、M偶部由每个实际α的两quartic恒等及两类中心均值0清掉。
 
 任意完整平移/正幅保持该偶零，八完整副本保留它，十二完整副本再付全部odd；各完整block内槽三矩已0，真实跨块核消失，最终正幅混合仍保全角I0。无需新母参数、再IFT或新执行，和R270全部已付门共同成立。形式even余18非rank，A−1,−2 I1/I2及其余完整第四仍欠。root全稿逐式核，literature独立全文核原尾/有限δ/完整复制与最后混合，无新增验证门。
+
+
+## R271：六个最终完整 block 正幅联合支付 A1,−3 的 I0/I1
+
+[R271 完整建设证明](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)从原Φr0/Φp2推第一self=−m0m2/2，完整local差−m0m2及Green+m0m2/2均保；合法复圆pure恒零只授E22=E04，仍欠真实ordered even。两镜像排序准确给E04,1=−W m²ξδU01；全cell求和U01=na(64q+1){16(Bρ−64A)(n²−1)/3+A(3ρ²/2−512)}，保宽ν与全局cell中心。ρ0/20给严格反号，且S1/S0→kρξ、kρ>0。
+
+先按严格k0 JL<k20 JM<k0 JR选六个最终不交正位置，每处独立解R270全四变量IFT、保所有旧门/严格号，再每组两真实正幅清Q并保比值夹持。最后三组以显式正权(rR−rM)/sL、(rM−rL)/sR、(rR−rL)/(−sM)准确联合清S0/S1。各完整inner三矩0杀原跨项，不把有符号span冒实际控制。共同I先按R105/R114/R223固定有限几何/全部桥的紧包络，再在x>−infω+η正半轴选大有限I/右锚/最后位置；先选后IFT，非扩大旧冻结圆或搬旧F8/度量。R273与所有先前whole零共同保持，formal even余16非rank；I2/其他面积/period/同w仍欠。root全文核原式/号/夹持/正权与I顺序，仅澄清α,γ,s,z仍是未知量；无新科学执行。
