@@ -580,3 +580,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:13:42 UTC /root — R332 全九二阶merit模型与真实直线试探
 
 [R332完整证明](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)11110B/fcb285e8已核：完整3×9×9二阶forward、JᵀJ加全部残差Hessian、固定相对坐标、移位下降及有限解残差项、含Cauchy的候选池模型下降；直线Armijo只局部保证，normal还含g·q″。有限谱/50位/FD不冒区间证，20档不保证接受。154真149末p50配新radius=.01另身份，原W/域/最终门保，实际全源接线继续。
+
+## 2026-11-15 14:16:04 UTC /root — R327 原148 C头资源未付，有限头未开始
+
+[R327全文](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)21569B/37acee98已核：run43719446020/source da307af3、compute step12 failure/report success，四原JSON块两job逐字同。原C1800.010812505s只1432/1440，sqrtE_B真ResourceStop、10pending及1433..1439后缀全保，Rout/cut未付；深112全付，有限头0mode/0panel/0coefficient、exit2为前置未付，非ODE/共振失败。156只C重建3600并保原13pins/线性1800/全112/数学门，151亦明确同预算调整；H压成当前完整接续，历史正文不删。

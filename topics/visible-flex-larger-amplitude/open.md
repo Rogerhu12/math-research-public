@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321完整终态](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)均付原128全129248行shooting容差和576×226独立逐word replay。140 run43713195661/source242c1f02：唯一α1真接受到9.68582474751023176032080482454992093e−11，38230B/7a66911e摘要两处原字同；stage/audit各g++ return1、未进科学，boundary/338缺完整前置未起，remaining15460s不冒预算停/数学拒。原stderr正文未转发已清；固定源码确定quoted非const string的ADL冲突，[共同限定入口](notes/2026-11-15-native128-explicit-JSON-qualification-interface.md)e609fb0a已发表，五原→派生全SHA/12、9、4、49、2处逐字逆核；[152完整入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)五件/55pins已发0bee3ef1/run43722101766，保完整stage/all224/112/338/audit与19200s；临时编译源仅限定::quoted，全部stage/column/原错误清理前无损分段，原exit/依赖不改。[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)入口已修；144完整cut输入由R322付。
+[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付原全128 shooting容差与独立逐word replay；140 stage/audit编译return1，112/338缺前置，非预算/数学拒。原stderr已清，共用e609 shim明确临时::quoted修复。[152](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)0bee3ef1/run43722101766重做全576×224/112/338/独立audit，55pins/19200s/原退出门保，完整stage/column/错误先读后清。
 
 当前来源/run/规则/恢复见[HANDOFF](HANDOFF.md)，完整历史及原值由[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)接更早正文。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
@@ -52,7 +52,7 @@
 
 [R289实际118](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)的八个32-query模型曾指向未选MID483，末raw已清；130从可恢复actual98原31 pair另起33查询，相对32只加483，相对首父加471/483，21capture/25端点/8453local/C4059及全部outside保持。
 
-[R309实际130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)已结清7model/7FD、33trial/26拒及11:38:40规则exit77；第八未知不补造。独立35保原33并加LEFT463/MID472，22capture/26端点/8791local、C4059/outside/236036及原门保持。
+[R309 actual130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)已付7model/FD、33trial/26拒及规则exit77，第八未知不补。141完整35保原33加LEFT463/MID472，22capture/26端点/8791local/C4059/outside/236036及原门，实际如下。
 
 [141 R333完整实际](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579、job132807257922全success，8model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。已选LEFT463/464、MID471等真实非线性仍失域，所有71680线性slack非负不替原域；后两批未选MID489/490，末五拒所选35均合法，最终仅1/32接受。512行/200dual后验仍有大值，不冒QP最优。8摘要/全部试探/FD/原pair/规则SHA正文保，原末场已清。155从真实重生35链同job交给独立37模型，或明确actual98新轨迹；必须扩全capture/B端点/局部支持，不能只加query标签，不承诺大步。
 
@@ -132,6 +132,8 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 
 [R322实际144完整cut两jet](results/R322-actual144-original-cut-twojet-and-complete-domain.md)run43715729122/sourcead4a4345，compute132816731637/report132824742430全success；两原scalar/cut块逐字同。原binarycut点完整1head叶、5refine，E>1/Er严格负/Err跨零，全部dyadic正文保，cut E宽目标true不冒导数宽门。全1440/六primitive/whole域完成，whole2891合法粗叶+1晚期sqrtE_B预算未付，无source/query后缀；原result24892B/d8519761、cut5684B/8d7f730c后清。147/148按真实原输入重生即消费，不拼摘要冒全ledger；有限头h非零/DN、新场/同场metric仍未付。
+
+[148 R327实际](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)run43719446020/source da307af3，compute step12 failure/report success。C1800.010812505s只1432/1440，10pending+1433..1439全文保，Rout/cut=null；深端112全付，finite-head 0mode/0panel/0coefficient、exit2因前置未付，非ODE/共振。156保原13pins/线性1800/全112及门，仅明确C重建3600/E步75/job150再算；原raw已清，不借旧cut盒充本次。
 
 ### 新C完整物理绑定与真正非线性provider
 
