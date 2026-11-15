@@ -1,0 +1,136 @@
+{
+  "kind": "cohomological_normalizer_windows_sign_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_sha256": "c8352847b0bd8df141c4aeb97d4dab372b807d7d18546d2b93659f95011cd75f",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cohomological_normalizer_windows_sign.py",
+  "scientific_source_sha256": "c8352847b0bd8df141c4aeb97d4dab372b807d7d18546d2b93659f95011cd75f",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md",
+  "contract_sha256": "1469fdd05417284743e7857aabe0324ee67ccb1b7dbaa003461364d8c9447938",
+  "input_read_commit": "6cb41ee10eb925de47fbcf5bf6a70bbd61b36b8f",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "original_SEI_run": "43773319871/1",
+    "physical_frequency_factor": 4,
+    "physical_period": "pi/2",
+    "continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "continuous_response_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+    "selected_parameter_absolute_upper": "0.00000000009368259853002",
+    "selected_common_input_order": "S = U_H_inverse U_X_minus = U_(X_minus o H_inverse)",
+    "only_same_selected_actual_parameter": true,
+    "independent_physical_mean_coordinates": 2,
+    "exact_difference": "v=v_o-v_i",
+    "exact_cohomological_equation": "w(x-Omega)-w(x)=v(x)",
+    "exact_primitive": "p=I w; mean(w)=mean(p)=0",
+    "actual_normalizer": "N=Id+M_w I",
+    "complete_windows": [
+      "L2",
+      "H^(-4/3)"
+    ],
+    "adjoint_intermediate_window": "H^(1/3)",
+    "physical_two_primitive_rational_upper": "1/2",
+    "expected_actual_gate_count": 20,
+    "current_input_count": 9,
+    "old_successful_scientific_calls_allowed": 0,
+    "one_new_low_order_exponential": true,
+    "high_order_or_old_log_exponentials_allowed": false,
+    "complete_C_E_supplied": false,
+    "complete_physical_incoming_or_finite_inverse_or_return_claimed": false
+  },
+  "expected_actual_gate_count": 20,
+  "input_paths": {
+    "new_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cohomological_normalizer_windows_sign.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md",
+    "SEI_execution": "topics/visible-flex-exact-nearby/notes/individual_principal_energy_terminal_density_ci/run-43773319871-1/execution.json",
+    "SEI_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_individual_principal_energy_terminal_density.py",
+    "CN_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md",
+    "LN_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md",
+    "PIB_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md",
+    "CY_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md",
+    "ZD_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-strong-sign-density-conjugation-and-global-Cayley-return.md"
+  },
+  "current_text_input_roles": [
+    "new_source",
+    "contract",
+    "SEI_execution",
+    "SEI_source",
+    "CN_contract",
+    "LN_contract",
+    "PIB_contract",
+    "CY_contract",
+    "ZD_contract"
+  ],
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": 0,
+  "all_inputs_are_current_small_texts": true,
+  "old_scientific_source_files_are_identity_evidence_not_imported": true,
+  "old_SN_SEI_PG_PIB_targets_recomputed": false,
+  "new_reproducible_data_persistence_or_artifact_upload_allowed": false,
+  "output_scope": {
+    "only_complete_SEI_terminal_derivatives_read": true,
+    "same_selected_actual_difference_v_o_minus_v_i": true,
+    "true_cohomological_w_and_p": true,
+    "first_weighted_mean_second_primitive_mean_and_physical_means_retained": true,
+    "one_new_low_order_exponential": true,
+    "high_order_or_old_log_exponential": false,
+    "two_optional_Neumann_tests_not_structural_failure": true,
+    "complete_evaluated_norm_and_log_only_candidate_kept_separate": true,
+    "same_N_inverse_on_both_windows": true,
+    "global_second_sign_commutator_retained": true,
+    "conditional_affine_complete_C_E_coefficients_only": true,
+    "complete_C_E_supplied": false,
+    "physical_incoming_inverse_or_finite_Schur_or_full_return": false
+  },
+  "file_count": 9,
+  "total_pinned_input_bytes": 219503,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/individual_principal_energy_terminal_density_ci/run-43773319871-1/execution.json",
+      "bytes": 46192,
+      "sha256": "b0088f831471f29d41624e487586fbb9f4801ef7837f9b4dd3c29a57e51b3d29"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md",
+      "bytes": 19754,
+      "sha256": "1469fdd05417284743e7857aabe0324ee67ccb1b7dbaa003461364d8c9447938"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md",
+      "bytes": 11316,
+      "sha256": "2d74b71c0584cb5ec1af849b6fb5756e48da58bf313d72be62d582d557d23acb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md",
+      "bytes": 19320,
+      "sha256": "4e58b1371d9527c7137cae284172c862f3a395e85d601f2b417f18cf70a901fd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md",
+      "bytes": 15615,
+      "sha256": "427387a2f3836d95b5f79546f0c6d41e8d6307abbb76611073d2801364fda9db"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md",
+      "bytes": 13407,
+      "sha256": "53a3dd1dd637a61aec843262d51a2686ef9cf13f5478df4c62b93437db1c6da6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-strong-sign-density-conjugation-and-global-Cayley-return.md",
+      "bytes": 18961,
+      "sha256": "715f28768139356001ef66840939e4defa547f953a59caea613f3fc6d6841a76"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cohomological_normalizer_windows_sign.py",
+      "bytes": 36682,
+      "sha256": "c8352847b0bd8df141c4aeb97d4dab372b807d7d18546d2b93659f95011cd75f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_individual_principal_energy_terminal_density.py",
+      "bytes": 38256,
+      "sha256": "f75a8f905b89a5527d52271c3e1fd682d43cf7f90d8b4b865f16efdcc75f8723"
+    }
+  ]
+}

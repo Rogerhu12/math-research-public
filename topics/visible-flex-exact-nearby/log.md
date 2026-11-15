@@ -140,3 +140,7 @@ CE仍完整未付；新scalar仅原SEI八导只读后组合，旧成功不重。
 2026-11-15 23:33:24 UTC PTB：root完整解析证明正窗linear高coeff、adjoint/dual负窗少一导及exact DA的tame界；全部Fourier/mean/primitive保，无新数值。
 只scalar fixedcircle组件，actual高阶输入/真背景/坐标导数/fullphysical tame未授；已成源链完整范围移notes小页55e973ed/b2560cdc，未付义务全保原页及open4–7。
 双README读取a28cb9639816b52823a73283c01b14fbf2602440未变；本机22:59:32真CLI无executor，根规8小文本例外继续。
+
+2026-11-15 23:35:06 UTC NW新consumer部署：root全文523行数学、602行worker对SEI成功basis完整diff、9current/219503B/2AST/20门/71字段、旧SEI完整identity/schema与全部source literal核齐。
+SCI c8352847/worker c58a65f5/manifest d66bc4a1；仅新truew组合/一次exp(P0)/完整两norm与3log/global sign仿射，CE未付不冒fullreturn。新workflow .github/workflows/visible-cohomological-normalizer-windows-sign.yml用于本题公开Actions，flow3f0f1003。
+双README读取7c81e522531c48bb4cfcee636e754e377fcaf41b未变；仅等待唯一自然run并做其它解析，旧成功不重；本机22:59:32真CLI无executor。
