@@ -44,4 +44,4 @@ Geometry completesR279 continuous curvature certificate fromcomplete finiteC2 fi
 Storage3mjs482cdf9b/aec52b5a/8e0ec7aa published/notdeployed:2sealediterations/batch,SDKfinalid/sameiddigestMismatchfalse/fullmembersSHA/fsynccatalog beforesealedrawrelease. No scientificrawdeleted;retainactivepartial/logs,no totalbound.19calls428267349504fixedB/32GiBonlyonecall. SDK43668049747 formal046b929f/21original120checks complete;realpackage3876fc4e/lock9451fd2e,install+constructoronly/noartifactAPI. Neverhandwritelock.
 /tmp4.9GB/workspace63GB;no repeatbigZIP. Completedduplicates hardlinked afterSHA+fullbytes,allpathsretained(7e612c58),neverwriteraw. ZIPrelease receipts kept,noGitgc. Rootsoletransport.
 
-规则同步记录：2026-11-15 03:19:57 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7382628b89595eebfc381a78653517c097c95c79。
+规则同步记录：2026-11-15 03:23:25 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4450179601946844a03fa705c2ea746ac37e21ed。
