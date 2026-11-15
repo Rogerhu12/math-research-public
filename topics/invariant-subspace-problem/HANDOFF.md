@@ -26,6 +26,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 
 - [真实四头两费反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)排任意nilpotent头κ(h)，即使规范负图/全右对偶都保留。它不是原A_m、连续尾或同w反例；不再用通用收缩单独封口。
 - [原首bit完整Schur](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)：K≤e^-1070、T<13/20，P=K−T²，kerA=JkerP、Jx=(x,−Tx)，Gram[I,569/400]，W=JG^-1kerV*。V_Q全参数保两分量实际top b、head/bare旗与零源；left费比较(33/20)²。完整Green仍约束P*z=r并对全kerP*最小化；小Gram不付逆。继续原同W forcing及原无限even系数。
+- [三列硬核正角](results/R271-appendix-three-collective-columns-hardcore-angle-and-bosonic-wandering.md)：对全部横向g∈ker a，Σj=0²||(I−Qhc)(a*)^j g/√j!||²≥p²||g||²；真实局部boson wandering=R(H^-1e_top⊗g)，最高三头保原κ0=e^-1070，距离≥3e^-1070/[20(m+4)C_m^1.5]。logC_m=O(m logm)，全出生/全孔真。原w到boson核仅正向超小，P_m^B B*w反向无速率且可与range分量非硬核相消，未付原W封口。
 - Riordan已付完整右/裸/全部旗、真实eY配对运输及同窗误差O(C0²h/Q)→0，不运输整个左L。Ĉ用V0；W_h仅在kerL_lin与V0相等，完整强孔Gram的逆不保原次数。强gauge末端q_h测试与返回主项仍开，必须用原Cg而非Boolean头作全局锚。
 - 等权长池Green已付L≥2d的完整公式；加入早强位必须改A_rest及全部Gram。原连续尾固定f Green O(R³)、共同高孔残量与ordinary两费仍未付；特定Artin大列不下界真实Green。
 

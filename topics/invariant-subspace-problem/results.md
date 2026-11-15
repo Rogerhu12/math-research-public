@@ -104,3 +104,6 @@
 
 
 - **原自然第一连接的完整49/36接口及输出限制秩4340。** [全原证明](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)：run43679903558实核0.866102738秒，独立复核旧模31秩3/阶≥69；新增完整49连接同3、全部33原常项头与4367自然一阶产品。deletedQ三行真Qrank3付fullA0|I=4340和full/square有理第一像同秩，仍只知≥3；未把常项头当已存来源校正或leading单位。
+
+
+- **三列集体creation的全横向硬核正角。** [自足证明](results/R271-appendix-three-collective-columns-hardcore-angle-and-bosonic-wandering.md)经两模正交展开付全g∈ker a的三列碰撞≥p²||g||²；真实bosonic wandering=R(H^-1e_top⊗g)，原N/Y最高三头行给距离≥3e^-1070/[20(m+4)C_m^(3/2)]，全出生/全孔且logC_m=O(m logm)。原W仍欠反向P_m^B B*w速率及共同抵消控制，未把正向近核当wandering。
