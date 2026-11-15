@@ -379,3 +379,5 @@
 - [R173指定点的公开实际：68行与全部十四族准确通过](notes/character-minus2-static-positive-candidate-actual-20261115.md) — run43669803169/source7d296314只改free12为−1/2，64行严格正、奇偶64–67四行零，107值/14族/同μ/c/d全存且匹配R172/R173。0.0076913s/RSS25.4297MiB，无LP/RREF/求根/新积分；gzip9305B/b5b3dacf。完整标量action正证已适用，下一必须判原函数关系，未授真实字符存在。
 
 - [谱恢复首次实际三次接纳与曲率活跃](notes/spectral-metric-recovery-first-actual-result-20261115.md) — run43669710846/sourcec33955d7同g/b0/163，m2SOC/m5主/m8SOC使双网最大η .267199566824→.266932648992，终态574dd0；κ升至57.979122863仍过硬58及原全部物理门（帽高按既定tol），.26未到。全24谱slack对η−.26吻合至1.11e−16，目标权重偏差已消；全部满trust.001、后段曲率越界，m5实际/预测仅.0139。完整4386/2950池与raw5501200B保留，12LP/24值/活动75.566s/总375.498s；下一明确缩步控制，非连续等距/reach证书。
+
+- [R174：九个新原函数关系与严格正外点的排除](results/R174-nine-original-character-relations-and-rejection-of-the-positive-outer-point.md) — actual43670254711/source952cf792完整147列，字面rank77/kernel70，全部70依赖两mode原存储fresh核零；旧B/R168外九式独立。首原式−V0+V1−V2+V3=0，而R173给−2，故该完整标量正点不能定义真实λ。九式给12维必要线性外空间（静态2/二次5/最高5）、a_static=(1+k²)(α+βk²)及最高c=−b,d=b/4等五关系；不授真实head维数/字符存在。38.592s/RSS140.637MiB，cert41109B/5d929f4f；后继只增九式±，不重原消元。
