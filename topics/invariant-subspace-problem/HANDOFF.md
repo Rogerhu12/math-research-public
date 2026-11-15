@@ -26,7 +26,7 @@
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**：同一B/e/目标于无界精度可解⇔有限Z_(31)原来源精确可解，无需相容；B或e增长则不成立。1−31s例固定B阈n≤e+B+1；u(u−31)显示∞纤维秩相同不控长度。当前1345仅一精度，不能外推char0。
 
-**条件来源界：** [原子式降度](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)与下条∞cofactor付8801；仅证明有Q[s]解时可同界选取。若同一D最高系数31单位，模31ⁿ也能保同B/e降度；该单位条件、实际成员性及固定31分母均未证。
+**[条件来源界8740](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)**：所有换列最大子式已含Kh(74次)，准确除有限K(60次)后用D/K整理外源；非零D模31含完整315次gcd，故deg(D/K)≥255，上界8696。目标项费用≤8496、外源及转回≤8740。只证明已有Q[s]解可同界选取；若额外lc(D)为31单位则各模精度可保同B/e，实际成员性/该单位条件仍未证。
 
 **[所选原子式∞](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)**已实际推edd35f86：原所选常秩4318/连接3，模31余36方向为3阶一、33阶≥2，v∞≥69；全部来源/矩阵保存。char0只[4318,4340]，cofactor至少13阶付条件来源8801；不称14块或lc(D)单位。
 
