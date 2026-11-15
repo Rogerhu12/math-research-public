@@ -146,3 +146,8 @@
 ### 2026-11-15：原第三页完整三normal合法核与次数定位
 
 [完整证明](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)由原系数保全部3383非自动行及2805自动行，得完整三normal合法核仅2维且无总次数5分量。增广rank585仅说明固定延拓范围剩一方向，不冒称full第三连接下界；公共43/39与现有来源费保持。
+
+
+### 2026-11-15：同选完整模31长度243、次数8527及条件目标成本230
+
+[完整证明](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)的新run43702348535保原数学源码、新输入真实绑定、51份已付前缀完整SHA。36个正Smith指数全部确定，末四17/18/18/21；$\deg\overline D=8527$ 给新的特征零次数下界。条件目标成本降为230，全部来源统一费仍8654；未把模31的243或cofactor222自动提升为Q下界。
