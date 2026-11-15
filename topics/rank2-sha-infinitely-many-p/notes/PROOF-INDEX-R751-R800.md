@@ -59,3 +59,5 @@
 - **R773 公开执行增补**：同一原q*的真实共同帽/U失败域已证负一非零。run43726080626/job132848187370保原50/quarter、两核、M5/E逆/M-unit/U300；四辅助点两arith分量非零，固定CM密度引理付旧ray相对密度1、两η和所有N4单位。固定五维归一极限与两个P分母给共同W差准确赋值m+v*p；原JT′=0只强制完整外部反号同赋值，不能删补域。producer/参数/hash见[R773附录A](../results/R773-native-common-hat-domain-and-five-conditional-moment-return.md)。
 
 - **R776**：[原S174的三进绝对Weil谱与精确δ²导子](../results/R776-original-degree174-three-primary-absolute-weil-spectrum.md)。原α87/ψ/splitting给三线(ω,−1)=(1,+),(ω,+),(ω,−)，原Schr三球norm3/6/6及全174维半特征身份；两新增Hecke角色导子精确δ²、uniformizer−i/+i，未删奇sector。继续2/29全张量与原theta–Katz平方。
+
+- **R775**：[原仿射三格的完整惰性p-曲率及实际首共振](../results/R775-original-affine-inert-p-curvature-and-native-first-resonance.md)。显式A^p−A=2(Q^p−Hp)EΘ+Rp∂Q，单位常数准确匹配原Gaussian；p>204D原有限来源算子核仅常数，完整像支付t/Q帽的3s/p增长。每个原非恒定单项式首w^(K+s)分母单位；未把它替同一有序饱和旗标或原中央桥。
