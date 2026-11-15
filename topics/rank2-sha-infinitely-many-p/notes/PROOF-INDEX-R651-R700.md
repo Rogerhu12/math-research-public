@@ -52,3 +52,5 @@
 - [两Euler第一Gaussian前缀的必要下界](2026-11-15-two-euler-first-gaussian-prefix-floor.md)：原真实余类u*=13+A_D及全部帽给有限整数必要门；对所有允许辅助比例p/D≥9/2统一优化得441/400，严格高于旧47/48达37/300。即使联合首层合流矩阵全秩也不能跨该截止；保真实regular高尾/新饱和和目标p短矩阵为未排方向。
 
 - [R673：原乘p分子的四位收缩与真实sigma模p²来源](../results/R673-original-multiplication-numerator-and-canonical-second-lift.md)：同一Θ=xσ²的准确乘法分子给(1−p^-2φ*)logΘdag=Gp，原t^{<p}窗真实φ∈p6tR，整收缩四位且唯一。分子modp4/Hmodp3即恢复实际Θdagmodp²，全部整除/首次p4修正付清；三原全P_m和H^-hp修正给真实第二中央类，排比较提升的自由高位但未证指定非零。
+
+- [R674：同一测试的双S算术适配、保负一非零与六步返回](../results/R674-original-double-s-arithmetic-adaptation-and-negative-one.md)：原11核加两S目标/同J_N的完整13×13整逆，在同ray密度一族全N4给固定N独立n的q†，两t0整源为原S单位倍且归一J=1。原C第六矩/九行/全π4和其余六模式全保；六步滤确实提原JS，并保负一深差精确赋值3n−2N+15+vI。两S补偿与T补偿仍是不同真实域，未从其各自过滤值预支中央矛盾。
