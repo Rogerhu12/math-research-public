@@ -192,3 +192,5 @@
 - [R657两Euler增补：真实共同前缀与25/18接触常数](notes/2026-11-15-r657-original-two-euler-prefix.md)：同一原P的Φ(P)/Φ(EP)联合连续前缀取Hu=max(Nu,Cu−Nu+1)，导出族及全部特征p端点付全列秩和同Smith界；固定未正规双jet共同接触≤(25/18+o(1))D²。未假设E保持旧核，也未命中旧47D²/48截止，原同R/两13carry仍开。
 
 - [R661：原odd-five全部有限型与两条log行的同一Katz返回](results/R661-original-odd-five-characters-and-two-logarithmic-rows.md)：全五Schwartz型/period给ρ=χψ0/barψ0和E10000的ψB，三原行读取同一角色线m0、m1、m−1。两真实log行准确是非零Katz值的反圆分对数导数加log〈5〉，原周期/Euler和所有M0/H±/W失败支保留；值非零不被升级为指定导数非零。
+
+- [R662：原Y环带外部质量与完整W补偿的准确抵消](results/R662-original-annulus-exterior-and-exact-w-compensation.md)：同q_N与Y/(κ^r p^m)归一给全原S行、真实A外部首二行及严格有限层误差；外部零阶质量为unit，尺度三角项恰抵消R659非齐次差。原T另留B±=b_L L±b_Y Q的完整混合unit/log行Θ±，全五型和外部反号保留，未将强制差认中央矛盾。

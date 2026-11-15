@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ce66191995167e0e748b128223a1a36c7221a450；2026-11-15 02:52:23 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:52:22 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：ea428733e8540bc5513938ab433e63a774c524e7；2026-11-15 02:55:09 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:55:08 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43668151048/job132672040900于02:31:03实际pull成功、两README差异空；回执ci/rule-sync-receipt-2026-11-15T023103Z.json。本地仍断连，下次最迟03:20 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,13 +14,13 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–661已登记；R364/R561仍开，R637/R654/R662–664进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r661.md)、[open](notes/2026-11-15-open-before-r655.md)。
+R1–363、R365–560、R562–636、R638–653、R655–662已登记；R364/R561仍开，R637/R654/R663–665进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r662.md)、[open](notes/2026-11-15-open-before-r655.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R660实际边界共振理想已付；续R663同原中央与此整商的联系，O4/O6保留。
-- theta：R659原M0,N单位/全W补偿非齐次差已付；续R662两中央对完整补偿的真约束、H±联立。
+- theta：R662原外部质量/完整W抵消已付；续R665混合Θ±实际行与H±，同R664联立。
 - literature：R661两log行的完整Katz返回已付；续R664同一实际三点/原门关系，R654真modp²保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
 
@@ -39,9 +39,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 R567/594同q/全坏集、R599–634全native/RV两态、四球和EY/EW移权保持；11自由方向对RV不可见，W−不认T，M1接原I1/B1及三个补偿。
 
-R638原三态D/K整饱和、D²=K²=(DK)^4=I，真实四轴/λ外系数及word全原T返回保留。
-有限来源群不等物理域：reduced word Smith(0,r)，异首交域p^r；Yunit/Wunit切集不同。
-两中央0仅给外部B0，外部A′差商仍为M1及全部补偿；ΛB的EY核−ελ、质量(1+ελ)52/3与隐藏q门保持。
+R638原D/K三态/四真实轴/全word原T返回照归档；有限来源群≠物理域，Yunit/Wunit不同。外部A′差商仍含M1/I1全补偿，ΛB的EY核−ελ/质量52(1+ελ)/3保持。
 
 R645真实Y^n∩A^(2n)=A^(2n)Q5^n，μ0全返回χ65^nλ^(3n)；原S/T总行及外部均保。
 共同变量的q两门差(1−κ^(2n))aA，交集迫A∈p^N，与A词的Yunit严格不交。
@@ -51,7 +49,8 @@ R650固定q门D_i在W操作下增(z−1)γ_i W，γ0=−(6+ω)/60、γ1=−(61+3
 实际A门5D1=(5,5ω²,−10ω,0,−6ω,3ω)，六C支whole odd1755核χ65λ；整K_A返回Ehatunit/Aperpunit，E/G/log全部κ^N D1项保持。
 R653同一det−5 joint全S5²五项给K=(-M0ℓD,6bH−IΣ,-1+3bFH+ℓZ,1,−A0,3ΩA1)。
 同门Q/p^m环带差=−mM0(1−χ65λ)log⟨λ²⟩。
-R659全D0四层和Esharp完整核心保补域，M0,N模p=−λ^(N−1)P(λ)/(b(1+λ))，P固定二次且常数非零；同ray稀疏删后所有N∈4Z正均unit。全W补偿相应差严格非零，未给原两中央或任一失败支赋值。
+R659全D0四层和Esharp完整核心保补域，M0,N模p=−λ^(N−1)P(λ)/(b(1+λ))，P固定二次且常数非零；同ray稀疏删后所有N∈4Z正均unit。全W补偿相应差非零。
+R662原S全Y-shell质量0，真实A外部O_m首二行=a5^m(M0(1−a5),M0ℓD+m log⟨λ²⟩M0(1−a5))；若JS′0，外部log恰补R659全部W差。原T留下B±=b_LL±b_YQ的全混合Θ±unit/log与外部负号，五型全保，未成矛盾。
 R655原Σ5=σ17^5全Schwartz/period识别χ导子10、负点barψE80；严格L′>1/50+Rubin–BDP给IΣ,-1≠0，准确Lp=5c5θ11ΩpI²，当前ray χ65=−1。不赋其它log行/失败支零。
 R661全五型给同线K(m)=Lp(ψBρ^m)，ψB为E10000 rank0，ρ=χψ0/barψ0；2ℓD/(1−β)=KD′/(dKD)+log〈5〉，2ℓZ,1/[Ωp(1−βκ)]=KZ′/(dKZ)+log〈5〉。m−1非零不决定m0/1导数，保原H±与全W失败支。
 同R594未加帽四全行基准0，门外负基准不删。
