@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：dc752ac7ec2d0b088d736aab5058d01470db602f**（2026-11-15T18:13:40.950537+00:00；公开R805只读run43706758013/attempt2/job132907824310真实git pull --rebase origin main，两README SHA与本会话最近已读相同）。旧rules run43714581068已达50次重跑限额，本次仅借已成IO任务作pull、在旧baseline差异处停止，未重跑数学；新rules请求本提交触发。14:34UTC终端失联，根§8小文本接口回退。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-projective-reconstruction.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)。
+**已读规则提交：5dede87b218de1c63d779f802661b96dafb7d70b**（2026-11-15T18:15:39.491963+00:00；新公开rules run43745726410/attempt1/job132908462072真实git pull --rebase origin main，两README无diff）。旧run43714581068已达50重跑限额，R805只读pull过渡无新数学。14:34UTC终端失联，根§8小文本接口回退。全前态保[此前H](handoff-archive-2026-11-15-before-projective-reconstruction.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
@@ -22,7 +22,7 @@ R824已成28权五/300权六profile、lower56+244、U129/U142，exact5/6仍待�
 
 [R827判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)：真σ∞rank272＋τ整个多项式Hermite/Bézout才经proper/Nakayama给char0 I_q=C。272个B·d_i仅子理想，额外零可使充分检验失败；单点/函数域rank不够。只有q4真通过才D约化/K1，当前未得；增q复用完整变换。
 
-**原430位projective消费者已完成证明/IO，core在核**：[方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87，独立wrapper b2c4efda/workflow7a561bcf及pending8ef36fe6。整阶s²=−3、28维格逐同一D候选，free=D/其余free零、Z展开及129×280准确式+B非零才成功；去内容后标度D/e。原1372载体全hash后选1380最小文件，无14branch逆/旧行/Dixon重算；成功沿原数学RESULT和recipe，但新core/source/tag真实独立。无430位成功保证；待真core SHA即激活。
+**原430位projective消费者已激活请求**：[方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87、core e0a5ad95/46538B、wrapper b2c4efda/workflow7a561bcf，root全文核完并提交真active请求，run待读。同整阶s²=−3的28格/五固定矩形、至多96完整节点，原free=D、Z展开及129×280准确式+B非零才成功；去内容后D/e。1372旧载体全hash后选1380必要文件，无14branch逆/旧行/Dixon重算；沿原数学RESULT/recipe及R792兼容载体名，真实新core/source/tag独立。无430位成功保证，失败只保真实候选/原子队列。原同核续算不动。
 
 ## 已成原源与实际函数后继
 

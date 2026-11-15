@@ -354,3 +354,9 @@
 - 原430位projective方法11401B/9a75fd87已证并存，root核原整阶s²=−3、28格/固定矩形交叉积唯一性、同D/free/Z及完整129×280出口，直接读Suranimalee2021§1.3.5–6；无已成功或430足够声明。
 - 最小IO wrapper41579B/b2c4efda、workflow5321B/7a561bcf及pending8ef36fe6全文核并存；旧1372源全hash后只保1380必要文件，成功recipe/carrier兼容实际R792、core/source独立，当前核心仍在核，未激活新算术。旧9665B H逐字归档压缩。
 - 旧rules run达平台50重跑限额；R805只读job132907824310于2026-11-15T18:13:40.950537+00:00真实pull/read dc752ac7ec2d0b088d736aab5058d01470db602f，两README与最近已读SHA相同，旧baseline差异使任务在数学/下载前结束；本提交更新请求启动新只读规则run，主目标OPEN。
+
+
+### 2026-11-16 02:17（Asia/Taipei）｜serre-public-astra-20261115
+- 原projective独立core46538B/e0a5ad95全文核后激活真实请求；整阶乘法/28LLL/五固定矩形/96节点、原free模式及Z/content、逐m准确129×280与原R787同式。LLL符号同步到δ/n见证，未凭短向量宣布成功。
+- 原已成430lift与1380输入只读，完整chunk/LLL/node/queue和逐阶验算原子续接；R792真源/recipe与载体兼容，去内容后保D/e。AST留同一次真实Actions首步，未本地算术、不添独立测试gate；仍运行原四任务。
+- 2026-11-15T18:15:39.491963+00:00新rules run43745726410/job132908462072实际pull/read 5dede87b218de1c63d779f802661b96dafb7d70b，两README无diff；主目标OPEN。
