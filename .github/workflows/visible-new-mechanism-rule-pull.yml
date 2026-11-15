@@ -1,0 +1,66 @@
+name: visible-flex hourly actual pull and rule review
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-rule-pull.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-hourly-rule-only
+  cancel-in-progress: false
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-new-mechanism-rule-pull.yml
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py
+            /topics/visible-flex-new-mechanism/computations/request-rule-pull.json
+      - name: Actually pull both repositories and report only rule differences and queue status
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          root=Path.cwd()
+          topic='topics/visible-flex-new-mechanism'
+          request_path=topic+'/computations/request-rule-pull.json'
+          raw=Path(request_path).read_bytes()
+          request=json.loads(raw)
+          source=os.environ['GITHUB_SHA']
+          for path,expected in request['source_sha256'].items():
+              if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:
+                  raise RuntimeError('pinned rule-only source changed: '+path)
+          sys.path.insert(0,str((root/topic/'scripts').resolve()))
+          import read_original_actions_log as reader
+          def emit(tag,value):
+              print(tag+' '+reader.encoded(value).decode('utf-8'),flush=True)
+          emit('RULE_ONLY_REQUEST',{'source_commit':source,'request_bytes':len(raw),'request_sha256':hashlib.sha256(raw).hexdigest(),'scientific_or_development_execution':False})
+          public=reader.actual_pull(root,request,source)
+          emit('RULE_ONLY_PUBLIC_PULL',public)
+          reader.require(public['passed'],'public README changed or pull failed; root must read only the diff and apply it')
+          private={}
+          try:
+              reader.private_rule_pull(request,private)
+          finally:
+              emit('RULE_ONLY_PRIVATE_PULL',private)
+              os.environ.pop('MR_TOKEN',None)
+          emit('RULE_ONLY_COMPLETE',{'passed':True,'scientific_or_development_execution':False,'old_work_replayed':False,'recomputable_payload_published':False})
+          PY

@@ -184,3 +184,5 @@
 - 2026-11-15 20:16:17 UTC，Astra-new-mechanism-9974ea84：完成即推R368，15996B/SHAf3bd69cc25d91661ea1254ce5aaa087969a1273cc5f93706b6d5da39fd4737e2；literature全式，root核真实cubic/whole紧变分/7维copy秩与有限根。四完整对称乘积同点已付，保全部18面积与R364新角商；未授其它history/period/主课题完成。API7bff268dae6c9c2a73ee5ebb72786cca15e2eafc双README同；actualpull19:35，无新执行。
 
 - 2026-11-15 20:17:37 UTC，Astra-new-mechanism-9974ea84：完成即推R367，13016B/SHAd077984d8bfd77785ad68e0e647f1dd97ad12b7ef1619ab1c26a49a3df2d32e3；mechanism原式，root全Green/非紧变分/δ方向系数手核。已识别非零N2真实校正但明确ambient范围；继续全Q4的真实chain和Q2，不重旧根/科学。API75909265711a5c72e8807b81e5642369a172ddaf双README同；lastactualpull19:35。
+
+- 2026-11-15 20:18:20 UTC，Astra-new-mechanism-9974ea84：安装独立实际pull/双README核对工作流（rule-only workflow before first request 20261115-2018），仅复用已付stdlib reader的actual_pull/private_rule_pull，不研究/人工/旧工作复跑；先workflow后单独请求，完成后直接读原receipt更新H。API6343583c579fbe940ca633f0f286c4d639dc090b规则blob未变，不冒实际pull。
