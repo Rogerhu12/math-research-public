@@ -23,3 +23,6 @@
 - 2026-11-15 22:34:26 UTC visible-exact-astra-0df9：两旧derived interval NPZ恢复白名单35b1173d/17376/da74b983先推，773501B；restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path，未删。
 - root全文名单并亲读两原membership核SHA；agent完整五层fresh tree、producer/args/原44fixed+19296phase+3mean成功与限域保全，原root证书和active SN/SC/WE/PG输入不改。不读二进制、不重成功数学。
 - b811cfce956d254834a1df852fe4dab930243e7b两README空diff；freshguard普通删后部署PG，WE原43769746581/1已22门成功待actual proof，SN/SC3保持原run。
+
+- 2026-11-15 22:34:41 UTC visible-exact-astra-0df9：逐件fresh main metadata核两derived NPZ path/blob/bytes后普通删773501B；先推名单bce4d622795073848065214742750ceece20cbb9，完整restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path/原SHA。
+- 原membership/root/H/producer/proof、候选及失败和active输入全保，未改history/未读binary/未重数学；bce4d622795073848065214742750ceece20cbb9两README空diff。继续PG部署与WE actual/原SN/SC3。
