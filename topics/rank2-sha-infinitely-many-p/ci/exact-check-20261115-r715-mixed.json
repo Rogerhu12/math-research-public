@@ -1,0 +1,28 @@
+{
+  "request_id": "rank2-20261115-r715-mixed-shell",
+  "run_id": 43692498497,
+  "source_commit": "485147531c43435382f0ea1cf1fa4cf72e3f138f",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r715-native-z-mixed-moments.js",
+      "script_sha256": "0cc3bdc982c25e922e6b7692c5333925305dfa166850467c5ccf288bf323d004",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12",
+        "--mixed-order=5"
+      ],
+      "engine": "node",
+      "sha256": "5c38a035894f8bcee6dedf7f452942bfbcd8892fd64a94a51fad363556110228",
+      "stdout_bytes": 47888,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132745898625,
+  "workflow": "Rank2 small exact public checks",
+  "note": "only script parameters/run/hash are retained; generated stdout stays in public run logs"
+}
