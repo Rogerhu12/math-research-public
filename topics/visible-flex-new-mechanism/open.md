@@ -72,54 +72,11 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
-[R178](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md)及[R179](results/R179-universal-independence-of-fixed-color-remainder-words.md)已经给规范两根表的真实函数含义；旧pure依原转换和规范语法复用，不重40/31或70字面关系。
+**权−2已结案。** [R186](results/R186-complete-weight-minus2-function-kernel-and-five-dimensional-character-head.md)给真U−2维52、R40独立、响应商维12、完整H−2维5，147列完整95维原函数核。[R188](results/R188-no-nonzero-positive-affine-character-at-weight-minus2.md)严格排除全部非零正字符：完整joint缩放、周期积分、有限正平帽变分和近复正弦负action覆盖全部边界。旧R177等外点早已不尊重原函数核；不再跑此权旧77/40/70/86、必要LP、RREF或负路径。
 
-**[R186](results/R186-complete-weight-minus2-function-kernel-and-five-dimensional-character-head.md)完整呈示已闭合**：77列/154两根规范转换给U−2真维52、R40真独立、响应商维12；全部66分母+七新式给真正H−2维5，147列完整核95。真实五参数(α,β,a,δ,m)，最高矩阵det−161m²/64迫正字符m0，剩R186(26)完整四参action。root正在写全路径排除链R188，tail独立核有限边界；不再编77/旧RREF/必要LP。全原件stored/raw双SHA已核，历史保守标签由R179纸证解释。
+**下一：其余偶权完整正性。** 只读已有raw族/状态权库存，优先统一纸面排除；若需新实际，只消费已有3974根、N0/N2与五族，不重新生成forcing、profile或已完成word。选择完整同权head及真实D分母，避免孤立列和必要外点链。R127把闭锥正性障碍缩成杀R、N*λ=0的单整数权字符；R145迫偶权。R140必须用同一八矩μ和所有真实开平端路径的完整action，不能逐路径选μ。
 
-[R182](results/R182-shared-word-original-identity-rejects-the-all-layer-positive-point.md)已从完整原式关系推出低层常数 **D0=−α−β**；旧必要外空间12→11，非完整真实head。原64投影转换保右锚、规范语法与两faithful分量，不以字面相消冒原函数证明。
-
-R177的全scalar正证和旧86/107/14实际仍正确，但该点不能定义真实泛函；不继续为它寻找负路径或重复必要LP。[条件解释](notes/R177-conditional-true-character-and-geometric-scope-20261115.md)未达到前提，不得实例化。完整原核完成后才选择下一真实子问题，不以新一式先追一系列外点。早两次输入失败及[FINITE窄修](notes/character-head-word-first-actual-manifest-failure-20261115.md)、[共享祖先窄修](notes/character-head-word-second-actual-shared-atom-failure-20261115.md)保存，均零研究前缀；当前source1ec5fab9，模块ec2022d8。
-
-
-[R176](results/R176-nine-literal-relation-cuts-and-exact-negative-power-path.md)已记录43671759155的完整86行准确外点与反例：M的det−9/16，真实k=K/h给有限K负最高action，p−1行值−81/4。该点结案，不继续单行LP迭代；root转明确12参数全正点（staticα=β1/4、最高M=diag(1/16,11/48)、低层显式平方），lit只核其86/全14族与同一μ，随后原函数良定义性仍是缺口。
-
-**原关系actual43670254711已完整：R173正标量action点被真实原函数关系排除。** 147字面列rank77/kernel70；70依赖全做两mode原存储fresh核零，旧B/R168后9新独立式。指定点违反18条真式，首条值−2。[R174](results/R174-nine-original-character-relations-and-rejection-of-the-positive-outer-point.md)完整登记9式、首原式−V0+V1−V2+V3=0及12维线性必要外空间；静态准确降为(1+k²)(α+βk²)，全非负iffα,β≥0。证书41109B/5d929f4f保留；rank77仅字面矩阵，不是真实头部维数。
-
-[九式增量实现](notes/character-minus2-nine-literal-equalities-necessary-system-design-20261115.md)31639B/1861db94已成，新9人工通过；首次43671414958因workflow稀疏清单漏raw147目录在读入前失败（0新增等式/LP）；已补目录并复用同源公开九人工，实际43671759155/source26e00d13完整，具体新点已由R176排除，下一直接检验更强全正指定点。只在旧23坐标及68必要半空间上加入9条新等式的±必要行，沿用准确双证接口（180s/512MiB）。旧B已包含ν18=0；不重147消元、旧RREF、六路径、静态求根或完整head生成。R173曾通过68行并有全0/2/4标量正证，但不尊重原关系，故不是真实λ；这个指定点结案，不继续为它找负路径。真实字符是否存在由更新系统继续判断，不以字面非零推原独立。
-
-[R172](results/R172-exact-highest-and-quadratic-certificates-for-the-updated-outer-point.md)已准确证明当前新点的完整最高action全路径非负、修正二次层逐点正定。若后继保这两个修正层且静态全非负，则所有路径条件均无法切掉那个点，须判断真实原函数关系/头部泛函良定义性。tail推进107normal+40R已存双mode原列的准确字面关系，lit推进当前静态多项式解析分离；不把外点当真字符，也不重跑最高层负路径搜索。
-
-[R171](results/R171-static-negative-interval-of-the-parity-corrected-outer-candidate.md)已排联合新外点：a_static(1/2)=0但a_static(2/3)=−371/11664。完整静态为p(k²)、deg p≤3；下一仅对当前准确p解析端点、无穷和正局部极小，严格负输出有理k，全半轴非负输出准确证书。不能仅逐格追加k，也不能把本点边界导数条件强加所有未知字符。
-
-[R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。[联合实际](notes/character-minus2-static-parity-actual-20261115.md)43668125602已完整结束：68条必要半空间仍有新有理外点，原63/124/RREF/六积分保持，四错误degree全扫；旧23仅坐标接口，不称更新后自由度。新点完整14系数正按已有真实门解释，旧数据不重算。
-
-[R167](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md)给完整最高层有限充分证书：四单项Z的常4×4 Gram加两个真边界参数，PSD及R148轴向门即充分。后继点若取得准确证书可转低层/真实关系；Gram不可行不等于有负路径，不为已排旧点重测。
-
-[R166](results/R166-static-negative-direction-of-the-first-finite-character-candidate.md)已严格排首外点：a(1/2)=−11/64，μ=(0,0,2,0,0,0,0,0)，完整14族/23自由坐标已存。真实常段及固定两连接+整frame周期实现负全action。该行已由联合43668125602追加，保旧RREF/63行/六积分；此具体旧点结案，不当整锥或真字符全排。
-
-[R165](results/R165-prescribed-h-quadratic-highest-action-and-loglinear-frequency-gate.md)已将本权最高action准确化为I0[h]+固定h的四阶k二次型，全部H/Q4保留。log-linear共轭给 d t²+(2d+g−e−c)t+(d+g+b+m+c+j)≥0 全t≥0的必要门；有严格负点才定向补一条有理t行，不盲扩网。该子类通过不授一般h或完整低层正性。
-
-[首次有限必要实际](notes/character-minus2-finite-necessary-actual-20261115.md)完整保存精确候选、x=By、全部旧行及六条路径积分。新工作先据该候选补有来源的一条静态/全路径必要条件或真实原关系；不原样重跑系统、不扩旧状态网/时长/资源。外秩84/自由23不是真实头部秩；双号所有自由坐标的准确非负Q证书完整后才可排权−2正字符。
-
-R164已把权−2的同一矩阵乘子全部消元：c/d取自同一F0参考导数，唯一μ由R164式30确定；兼容式是Lie cocycle自动关系，不能重复计障碍。十四个修正标量系数精确为h^(σ−e)f(k)，ω/logh消去；完整正性等价于全平端r=logh、k的∫e^-2r P≥0，保全部0/2/4层。新数据consumer须保参考导数，后继必要系统直接用唯一μ，不给各路径独立选μ。
-
-令 $A_G=R8+\operatorname{span}\operatorname{Orb}(G)$。R118至R147已依次证明G至N⁸G非成员；真权1至−7的响应维7,16,29,40,44,40,29,16,7。同一pure尾核给 $\dim R8\ge228$，$s=\dim(A_G/R8)=9$，$\dim A_G\ge237$。
-
-R120把整个 $A_G$ 放进真实闭成本锥lineality；R122保所有prototype/桥/N²/N³基准，依次有限缩放、中央复制、响应复制，在同一个合法光滑三矩圆上真实支付至少237个共同查询。不能授任意预给窄区间、总长或控制盒。
-
-**R136已否定 $U=A_G$。** 真权−2的 $J=[h^{-4}]\bar A_{hh}$ 属U，却由原41/42子式证不在 $R8_{-2}+\mathbb RN^3G$，故不在整个 $A_G$。因此 $\dim U\ge238$；这额外1只属真实span，不加入lineality或有符号控制数。完成G平移链仍不能穷尽完整成本。
-
-**R153进一步证明D0∉A_G+RJ。** 43658922081仅用旧42×42原pivot、新D0和一条原组合，在mixed−2实查询t1/70给ΛD0≡379682857、43阶子式267072587 mod2147483647。因此U/A_G≥2、U≥239；实际lineality/联合查询仍237。pure模零不作一般成员；R157 actual43659795254已用九个存储基给D0新的402项完整原差恒零；旧40基/31依赖未重算。E_D恰43维、pure像9、pure核34，D0整个轨道亦pure入R；该门结束，不另派D0平移链。
-
-立即推进两个仍未完成的新门：
-
-**G链已经结束。** R149的公开43657083833以两mode同一原系数证N⁹G=−5670B_r0(W19)∈R8，结合九个不同真权非成员给s恰9。禁止再派N10或复算旧块；新权−8的两个NF独立代表未作真实维数下界使用。
-
-1. **真实正性/lineality。** R127把任何未消正性障碍缩为杀R8+OrbG、N*λ=0、单整数权的非零正λ；R145真实曲率反号进一步迫其权为偶数。R137已证逐状态加速度矩阵PSD；整个矩阵为零的状态迫H1/H2为零，A恒零才迫Q4点态非负。R140更证λ正iff杀R8并存在同一八矩μ，使所有开平端水平P有 $\int(\lambda L-\mu m)\ge0$；时长缩放的A/B/C4必须满足A≥0、C4≥0、B+2√(AC4)≥0，B不能单独判正。直接利用已存五族支撑和真实仿射协变约束新J；不把模素数非零当实数符号，不盲扫余九目标。
-2. **一般pure J已结束，接完整D0与剩余族。** R151实际43657785023用九个既有响应给J的398项完整原差恒零，31条新pure依赖全核零；配R131旧40子式的9条pure行，真dimπ(R−2)=9、核31。J整个轨道pure入响应，五族七个ω后继一并付清，N⁷[J]=0仅模R；完整J仍在A_G外，不能加入实际signed-control计数。不重跑旧六列或J成员。后继先用五族协变缩减状态生成任务，不盲扫79项。
-
-
-完成这些仍须完整P0函数与ruling同付、双collar、所有高阶及收敛，继而有限连续等距族。R93/R97的真实同驱动约束始终保留：$\int kh=0$、$\int hk\omega=L+E=-\int(F/h)k\rho$、$(S^2-1)E\ge L$；primitive不能独立指定，积分式不能逐点置零，非零密度不能冒非零period。
+R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链与237共同query/lineality、R162 J6成员分离已结案，不追孤立rank。R159两根忠实、R178终止和R179规范word普适单射可用于新同权问题；不为历史保守输出标签重跑。
 
 ## O1：双圆领相位机制，保留备选
 
@@ -137,52 +94,4 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、已发输出解析和小人工开发。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-### R141已付的字符约束
-
-对R127所允许的正字符，真实五族协变先消ω；权−2的J0/J1/J4/J6评价必须满足a0,a2,c0≥0、4a2c0≥b1²，J2/J3/J5/J8评价为零。J非成员不代表λJ=0；尚需所有权及同一μ的完整action门。几何末三行54维准确入口保持性质已登记，当前实际仍全163维，只有实际证据需要时才作子空间方向诊断。
-
-### R151已付一般pure像与剩余完整商
-
-一般pure的权−2响应像恰九维；同一m8尾仅六维，准确丢失三维一般pure方向。E=R−2+span(G³,J)恰42维且pure核33；G/J轨道商都可取pure恒零代表。这仍未证明πU=πR或完整mixed支付。完整依据与九项系数见R151，旧R143候选未决只保留历史，不再作为门。
-
-### R148的新一维必要门
-
-固定k、只变正h的最高action非负iff a(k)≥0且d(k)+(3−σ)²a(k)/9≥0，sharp常数由保平端的显式过渡付清。权−2/k0给λ(D0+25J/9)≥0。R150实际已从已发v4及未约化N2形成完整Q4^v−D0P3v−B_m2N2的D0，205项sound余在R150时未决，现由R153原有理分离排除42维比较空间；不以原v4速度项代替，不把此一维门当全action充分条件。
-
-### R152的互补一维门
-
-固定h而真实取ω_s=k_s/(2h)，最高action全平端k非负 iff Sturm–Liouville型二次型∫[(4/9)c(k)ψ′²+e(k)ψ²]对全Cc∞非负。证明已处理无限多转向、零速度集和有限时间平端逼近；e可局部负，不授完整联动action。R153已用旧42×42子式、新D0与单组合原查询完成严格分离，不逐列重跑42×96，不以模坐标冒有理身份。D0/K0是A_G+RJ之外的新真实span方向，正性、实际逆元仍未付；pure的D0九基Q关系已由R157原差证明；下一用R159拟成的(2,2)忠实表示研究完整mixed，不重复pure。
-
-### R155完整最高层曲线判据
-
-对全部真实水平Γ=(h,k,ω)，保持完整面积H和Q4，重参数给aΓt″²+bΓt″t′²+cΓt′4；准确势eΓ=cΓ−bΓ′/3。全部最高action非负iff所有曲线的∫[(4/9)aΓψ′²+eΓψ²]非负，有限时间平端反构造及γ=P充分性已证。这不替代完整L0/L2/同一μ，仍需确定非零正泛函是否存在。
-
-### R156排除普适输入相位平均捷径
-
-输入q→e^{iα}q保持当前canonical U或真实成本闭锥，当且仅当α∈πZ，此时操作恒等。所有canonical路径在g0输入为θ偶函数，f0输入有θ四阶零；R81真实hook响应的旋转违反这些必要身份，合法圆右尾同样给反例。输出−2模式含输入荷4/2/0，有限相位平均保非零荷0；固定F改变和输出移相未付为真实控制。继续真实正性/混合成本，不再假设此操作能降到U/R。
-
-### R158的秩一边界检查
-
-权−2正字符若a0=0,c0>0且4a2c0=b1²，令β=b1/(2c0)。全null速度路径有k=K h^-β及真实ω积分（β=−1为log），完整L4逐点等于Eβ(S)h_s⁴。该受限类非负iffEβ逐state非负，Eβ含全部Qhat4(S;1,−βk/h)及β(β+1)[c0β(β+1)+p1−βq0]k²/h⁶；固定时长3的真平端路径给必要性。只处理PSD边界，未知Q4、内部与全action仍欠。
-
-### R157已结束D0的一般pure门
-
-任意同右collar输入有D0[-4]=K_D[-4]，九项准确有理系数见R157。402项完整原差fresh零，全部新资料在43659795254原证书。G³/J/D0三个独立新商都能取pure零代表，权−2已证43维空间的pure核为34；U≥239、已付lineality/query237保持。R159已用完整二槽极化把pure零的mixed成员门减为忠实(2,2)原根；不以此预告整个U、实际符号或最终ruling已付。
-
-### R159忠实balanced入口与下一唯一目标
-
-已证完整V由pure和mixed双次数(2,2)两张原函数表忠实决定。pure先消后，R151的31条已存准确关系组成整个响应核真基；连G³/J/D0的三个已付pure零代表，已知比较空间为34维，不另复验维数。R160已付R136的J6=[h⁻²]Abar_kk一般pure六列准确身份。该Ξ原差已由R161完成，随后R162严格证J6∉E_D；这里保留历史入口，不再派同一计算，c0仍不可置零。保全部原函数锚/实系数，不盲扫20种状态或把投影当实际负成本。
-
-### R161实际后的J6完整问题
-
-唯一Ξ(J6−K6)原差502项留176项sound代表，45cycle fallback；实际完整但数学未决，不断言差非零或J6非成员。R160 pure准确身份保持，c0/b1无新增零条件。R162现已完成隐式43原分离，J6∉E_D；该子门结束，继续顶部的完整同权字符任务，不补旧42单列新行、不重NF/pure或旧核。
-
-### 新增实际请求（2026-11-15 01:54:37 UTC）
-
-完整字符十四族consumer与SOC metric行内裕量consumer已各核源码及新增人工接口，本提交两lane并行公开运行。前者首次补缺失9族、复用5族/40原响应/2旧N2收缩，完整T/D及参考c/d同存；若部分预算只续未成cache。后者从6ba089及4224/1197池，在真实门不变下继续55。实际结果到达即消费下一项，不能以运行预算结束课题。
-
-R164 §10新增已付规范化推论：八参考态将μ缩为(0,2a(0),2a(1),0,0,0,0,8a(0))并迫c=0，μm2=−a(0)(h_s/h)²。只是真实字符后的数值关系，完整原式保持；后继完整必要系统本已含这些等式，不重复计障碍。当前实际run43665345551双lane见H。
-
-### 完整十四族已生成，直接进入有限必要系统
-
-[首次完整head实际](notes/character-head-minus2-first-complete-actual-20261115.md)：76新收缩＋2已发收缩全部完成，107原记录和66分母组合，33.327秒；Q4_0/1在本真权两mode原式零。head生成任务结束，不续缓存、不再重跑。single character_minus2_finite_necessary已绑定main/receipt/export，源码与6路径/全坐标精确证书接口见其design。保全部层、唯一μ、原R=0与真实外空间边界；不能把float不可行或外部候选当真实正性结论。
+根README最新137c5a第15条已执行：可重算机器输出不入仓库或Release，后继只交源码、完整参数、run、SHA与科学结论。当前计算环境不可用，按根8使用GitHub小文本例外；真正研究仍只公开Actions。环境恢复后立即实际pull核双README。主课题继续，不以此报告收尾。
