@@ -470,3 +470,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R368：两个原cubic恒等与七维真实锥支付整个PY
 
 [完整证明](results/R368-two-exact-cubic-identities-and-seven-target-control-pay-the-PY-product.md)，15996B/SHA256 f3bd69cc25d91661ea1254ce5aaa087969a1273cc5f93706b6d5da39fd4737e2。任意紧u的I0(u,Puu)=0、I2(u,Yuu)=0，后者保J2左二次尾、全IBP无u/x故覆盖负域。仅沿真紧YD/PD变分，原whole QPY0=−I0(Pff,YD)−A0、QPY2=−I2(Yff,PD)+A2，旧面积零后整角准确线性D；PY1全偶反射零，无新C²角商假设。旧5+PY0/2原principal经PZ2+6ePY0，三χ实际位置系数为6次/4次/两2次/三个常量，R/V/U真满秩且e≠0给7维；36实际列严格正核，原Fnew保持R364 local T，有限N完整7根保18面积/Ψ/三F并付P²/PW/PZ/PY整角。root逐Y一二导/J2 IBP/whole变分与7维逐级秩纸核。余10函数位置不冒rank，R369续ZZ/ZW。
+
+## R367：原N2的完整Green收缩与非零四次速度校正
+
+[完整证明](results/R367-exact-N2-Green-contraction-and-nonzero-quartic-velocity-correction.md)，13016B/SHA256 d077984d8bfd77785ad68e0e647f1dd97ad12b7ef1619ab1c26a49a3df2d32e3。原N2完整外槽N(f;u²)=c[Ql_f a−θJ(Qf‴a)]，D³N为明确自伴四阶式；紧trace−aL²的非紧二次尾变分另有−Green，不能无条件微分。正式pure1/8与真实有序2+2/三矩输运给Λhat B_EN=8(S+2aLα+2G/3)/5。h1/γ0/δ1上q=−M/4、a=−(Qr²+2M)/16，原积分完整化为−∫eQ²r³t²/80+∫e(9+e²)r5/2400+∫er³(M−μ)/240；真C²余项和正窗口有限高频给严格非零。root逐trace/Green/因子/δ方向所有IBP手核。这里只完成原Q4不可删ambient校正，不授B_m2N2单独U成员/整个Q4非零，也不冲突R356全U最低权相消。下一R370保C_A m2链/D0P3v后合真正Q4，N0/Q2亦未付。

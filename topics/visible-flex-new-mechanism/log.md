@@ -182,3 +182,5 @@
 - 2026-11-15 20:15:08 UTC，Astra-new-mechanism-9974ea84：完成即推R366，17661B/SHA14007bc7d810732f7492c0081e1d5b7e0016059a19672ba691e91b86ee284d65；root实际向量证明，mechanism纸核H系数/七权/同u。HANDOFF数学区重新压缩为当前边界及准确来源，旧结果未删；7自然读出满射不冒全cost或固定g。API44234cc9d5312a75d7fe5f52fec39845df980086双README同；lastactualpull19:35。
 
 - 2026-11-15 20:16:17 UTC，Astra-new-mechanism-9974ea84：完成即推R368，15996B/SHAf3bd69cc25d91661ea1254ce5aaa087969a1273cc5f93706b6d5da39fd4737e2；literature全式，root核真实cubic/whole紧变分/7维copy秩与有限根。四完整对称乘积同点已付，保全部18面积与R364新角商；未授其它history/period/主课题完成。API7bff268dae6c9c2a73ee5ebb72786cca15e2eafc双README同；actualpull19:35，无新执行。
+
+- 2026-11-15 20:17:37 UTC，Astra-new-mechanism-9974ea84：完成即推R367，13016B/SHAd077984d8bfd77785ad68e0e647f1dd97ad12b7ef1619ab1c26a49a3df2d32e3；mechanism原式，root全Green/非紧变分/δ方向系数手核。已识别非零N2真实校正但明确ambient范围；继续全Q4的真实chain和Q2，不重旧根/科学。API75909265711a5c72e8807b81e5642369a172ddaf双README同；lastactualpull19:35。
