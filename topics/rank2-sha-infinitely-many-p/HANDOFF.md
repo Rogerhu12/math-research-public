@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：2bd3bd400042e9e0d0640af4ab1ea23274b5f3c4；2026-11-15 17:07:45 UTC核两README无变。实际CI pull 2026-11-15 16:36:58 UTC/efa8df2dabb41e526474678c43c4577430ab96d7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:07:44 UTC仍无环境。最迟2026-11-15 17:20 UTC再实际pull。
+- 最近已读规则提交：77fb39d46a32bce0b0aa92ec867a1e49ba4f4b58；2026-11-15 17:09:59 UTC核两README无变。实际CI pull 2026-11-15 16:36:58 UTC/efa8df2dabb41e526474678c43c4577430ab96d7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:09:58 UTC仍无环境。最迟2026-11-15 17:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 
@@ -13,14 +13,14 @@
 ## 检查点、完整归档和分工
 
 [压缩前全文](notes/2026-11-15-frontier-before-r797.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-R1–363、365–560、562–653、655–711、713–797已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
-root唯一metadata/ref写者。root正成文R799全b3/q0非零；deep续R802剩余原normal；theta完成R798算子待推、续R801实际二阶；literature续R800第四格同观察。
+R1–363、365–560、562–653、655–711、713–797、799已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
+root唯一metadata/ref写者。root续更高b/原指定配对；deep续R802剩余原normal；theta完成R798算子待推、续R801实际二阶；literature续R800第四格同观察。
 固定E17及j0 E17/E24/E2312秩2已付；尚缺无穷不同p至少一条固定原J′非零。条件负矩、邻近来源、外部非零和有限p均非完成。
 
 ## 正在执行、未推内容与下一动作
 
 R797分类完整已推；其producer随本文提交公开Actions：scripts/check-r797-original-r2-y-factor-b3.py，参数--max-order 64 --remaining-examples 20，完整64 mask/十九角，59KB stdout硬限，结果未预认。
-R799窄producer公开run43738777466/job132887136518成功，source6de3892a333e211e2ac4297f3a426489cca21b99；三个原κ9系统(p,h)=(293,23),(311,24),(317,25)全rank9/aug10，完整全窗证明尚待写推。脚本SHA73582a7581a64143e4f0ac10c7322bc9e8c0499e55055884eca7de67d1bd5cc6；stdout1082B/SHA2316656ed7c73a748522afabcf84928e65e000229ea808fed076aab95c37c31c。
+R799已排原q0≠0全部b=b0=3强窗，覆盖r2/3/4及每个ell，不只mq0/ell1。k0使p=12h+6r−1，旧单位子式付大h，κ≥9/κ≤11唯一类把剩余压为(293,23),(311,24),(317,25)；原九列各rank9/aug10，故此支必须b≥4。run43738777466/job132887136518及producer/hash见证；q0零及变动b不外推。
 R798全halfperiod/type4 CM13公开run43738922048/job132887560988通过，source198f22cee3cb170f88766b574596e669daaf76f2；原B0 type4投影rank3/char X³+ω，type5 rank2保两arith并杀primitive3。完整证明待推；scriptSHAf6a1fe72d01b0c804059a06395c5a9c5d78e54d5742a6ca9af957febec9661b3，stdout6407B/SHA8c750112266267b5640f09d66981634f16da8aa7556909d3e5475b37866b2d1d，flint0.9.0/--workers=4。
 后继R801实际q二阶reader尚未入main：blob41cc9c37535966a27fbb321f52ebed88b0fa3514，scripts/check-r798-native-second-z-source.js；参数--max-block=4 --taus=2,3 --with-b --b-g-blocks=3 --neutral-degree=12。须先读脚本再公开执行；未执行不能认实际负二非零。
 

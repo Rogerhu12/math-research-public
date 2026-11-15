@@ -503,3 +503,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R793**：[原W正交帽轴、固定条件来源与第四块J/E返回](results/R793-original-w-orthogonal-hat-axis-and-fourth-cell-j-e-return.md)。真实degree2808整轴/旧ray/Theta锚付全三态z°偶核，并得保W的独立双轴框架；原D°的J/z双返回保U300及Yunit/log。第四块实际两门表使用同W观察，列为原T、行为J条件来源；全部逆Y、W深补域和不同E门明确保留。
 
 - **R797**：[原零常数charge的移动因子、六十四格与完整三次几何门](results/R797-original-zero-constant-charge-moving-factor-and-complete-cubic-gates.md)。r2余支q=Y qtilde的H度0/1/2及移动/零点根全保，原50+13+1 mask和每charge帽准确给出；三次全十九角给κ≥3χ−18≥9+6z。实际接触右端保−t^z/−d^ct^z及全部H未知列；公开producer随文提交，未预认全p排除。
+
+- **R799**：[原常数charge非零的全部三次强窗全素数排除](results/R799-original-all-cubic-nonzero-constant-charge-windows-excluded.md)。R792的r2/3/4,k0及同p/h关系联旧单位子式排全部大h；准确κ把有限部分压到三原九列系统，公开各rank9/aug10。因此q0非零的整个b=b0=3强窗不存在，覆盖所有允许ell/mq；此支必须b≥4，零常数支另保。
