@@ -86,15 +86,11 @@ R189的真实桥与有限约束迁移已由R220/R223/R227加强；已付低阶/M
 
 R162的J6非成员、R186/188原权−2核及正字符均已结；来源/范围见原稿，不重旧107记录、3974forcing或NF。
 
-[R208](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)已从完整旧151列sound覆盖与通用同锚原式证明：所有πR都有jet≤2代表。WΔ=(W71)Δ不授完整W相同或真dim18；第三交换子的外局部q″项对称相消，再用线性q‴原函数消阶和Fréchet归纳。故真高jet规范余词可准确证非成员；完整pure−4中的N与动态项必须各自支付，不能默认模R删高jet。
-
-[R209](results/R209-complete-canonical-pure-costs-have-second-jet-representatives.md)现已给完整动态pure二阶jet表示，非仅响应：R56真实三/四阶分子、N*=∫a²dr与原N参考差、先微分再零history的Ds(U²+2C)=0合成v−B_mN≡Ds(a³q‴/6) mod A2，常germ端势零。因此πU也无真高jet规范行；不是凭R208删动态项，也不判πU=πR。参考辅助连接在universal延拓中只作系数证明，不移动原profile区间。
+[R208](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)/[R209](results/R209-complete-canonical-pure-costs-have-second-jet-representatives.md)已分别给完整响应和动态pure的jet≤2代表；完整N与动态项/真history均保，不能由此授P=πR。已付原高jet消阶不重做。
 
 ### 已结束的子问题与可复用结论
 
-R37/R45/R52只给完整有限低阶；frame/位移/M/T/右锚不可删。R98已排正states的universal P1，固定profile及P0+NP1仍未排。R84真倒行第四成本同号，线性span/闭锥不是实际逆元。
-
-R105/R109/R130给完整有限U、局部密度与14状态族span，14非维数；非零M时N²/N³保留。3974原forcing、五族648完整根、m8纯period、31维旧pure商都已消费，不重编。R146/R154的20状态正仿射轨道是代数生成，不授正实际控制。旧细节和准确来源统一见results及对应R文，当前只推进下列尚未付joint。
+R37/R45/R52只付有限低阶，frame/位移/M/T/右锚不可删；R98只排正states universal P1，固定profile与P0+NP1未排。R105/R109/R130保完整有限U和非零M的N²/N³；3974原forcing、五族648根和旧pure商已消费不重编。R84倒行成本同号，span/闭锥不是实际逆元；准确来源保results。
 
 ### 已结完整商与当前joint
 
@@ -135,6 +131,10 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 八χ首次run43712266529已由R261消费，8新人工/8科学目标通过、53来源吻合；人读全系数直接复用，机器payload不发布，不重复原编译或冒fixed-circle rank。
 
 [R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3、36odd和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)真左尾/平方密度反射再付A−1,−2 I0。[R271](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)以原P,Y第一self及ordered U01两号，在预选共同新大正I内六final block各先四变量IFT，再Q正幅配平/三个严格比值夹持，联合付A1,−3 I0/I1。16形式even仍未付（非rank），但下述R275已阻断原小h族完整面积。 不平移旧根、不授任意冻结窄I，不搬旧F8/旧g；不同block α无需相同。
+
+### R277：同Gaussian数据的高阶形状纤维，继续联合能量与六个剩余even
+
+[R277](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)已证明全部self平移系数/三矩是C²多项式，在最初选择的真最大秩母包附近可用实际minor准确保全F，有限高频改变C³正bulk。等背景格点的真实ordered前缀与对称核准确付30even，原完整8/12copy付36odd。单个R<0包及其全部copy的同F连续路径先取一个有限N、再IVT付Lc=0，Ls保0；全部72观测值同时保持而非只付local。**下一同一F纤维真实联合支付Lc/Mc，并处理余六even：A1,−2的I0/I1、A1,−3的I0/I2、A−1,−2的I1/I2。**不把六条当rank；剩两能量/完整period/同w与有限g仍欠。该新最大秩母包不自动继承R274解析端芽，需另付其端条件。
 
 ## O1：双圆领相位机制，保留备选
 

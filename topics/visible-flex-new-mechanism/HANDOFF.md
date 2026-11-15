@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`ebcb1b6aa4047976444ef2332bdb98dfd60245f9`；时间2026-11-15 13:33:14 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`4bdd66450010492d5e673c307dfc227ec0735ace`；时间2026-11-15 13:35:42 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -42,6 +42,8 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 **R269/271正幅构造**：ρ0/20两排序各有S0/Q所需双号；六最终正位置分别先解完整四变量IFT，再每组Q正幅配平、三个严格比值夹持正幅联合付全A1,−3 I0/I1。共同新大正I按有限几何/桥紧包络后预选，非任意冻结窄I或求根后搬移。不同block α可异。仍16形式even非rank；I2/其它面积、period/同w/有限族欠。旧R262/268居中失败保原范围。
 
 **R275当前小h族已排除full面积**：原四self/Green及完整J(xDρ)给Z=−kS−km²δUρ+64naδ(1−q²)Rshape，k=−κ(1173κ⁶+177κ⁴+122κ²+8)/(256he³)≠0。有限cell准确D_B²恒等及真实母尺度给共同(1−c*)S−c*Z/k<0；任意当前ρ0/20、普通/伴随、充分小h/δ且原A≥10的有限正幅混合，若ΣS=0则ΣZ/k>0。因此R271圆不能full面积；不撤已付等式，不排一般圆。**下一第三斜率/不同实平方质量或另一母分支，不能再以原族加位置修复。**
+
+**R277新同数据高阶机制**：原18self全部平移系数与三矩有真实C²多项式延拓，保Green与有序尾。从最初选择光滑最大秩even母包，真minor+ker等式保完整有限观测F；C²小/C³大的有限高频与固定光滑纠正使正bulk S无界。等背景b_i²=B、R_i∈{−B/2,8B}的有限17进制/Prouhet格点准确付30even，原8/12copy再付36odd。完整Lc同形严格负；只改一个R<0包及全部copy，在F恒定路径上固定一个有限N、IVT准确付Lc=0，Ls亦保0。余6even、Mc及其它层/period仍欠，非指定旧母纤维或rank声明。下一同F联合调Lc/Mc，再付剩even。
 
 **R264/266平台原尾**：G″=(aw″)′+bw′−J(cw)，Λ=a(pw″−p′w′)+wJ(cf)−fJ(cw)，Λ′=pG″。一般全部平台/flux iff各活动总∫cw0及非零平台(aw″)′+bw′0；对控制总和施加。常F≠0源像F²(P2D4+2P2′D3)三维，完整K另含Q2且Q2″=−Jcw，不自由置零或授输入二次。
 

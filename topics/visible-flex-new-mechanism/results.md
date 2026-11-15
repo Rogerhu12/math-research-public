@@ -346,3 +346,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [完整公开实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)消费43716860154/a7bb0a16/job132820200829：三组新增开发全部通过，6.578352177秒；45请求源/97递归源/24旧输入与receipt全符。首次缺人工峰列表的失败保留，不追认未留结果。唯一新科学阶段η.2664285858004584→.2663989905276839，原粗细14门及精确物理盒全过；.26/参考1e−4/最终1e−6均未达。11primary+1SOC、10新接受，26共享完整值+2独立末验，active43.325110951秒、新audit48.6728821秒；七必要恢复各一次1175.76680778秒另账。
 
 新选行coarse/fine J累计7.329029662/15.966314138秒，虚参数轴≤27，原163/159完整全角J张量0。冻结父projection说明仍过时，明确由真实执行与源判断，不改历史报告或为标签重跑；不同轨迹旧费用不作同点受控加速。m5SOC全17守卫真，持径.000125被m6实际使用；m6ratio.11484仍按原规则缩半，m8fineη反升且学习1coarse+5fine行拒收，未证明收敛更好。末cap余量/原容差、固定g/b0/精确高度零积分、同态两网差及全费用均保完整note。下一真实改模型/自由度，不延原12LP/120秒或重复已付新阶段。
+
+
+## R277：保全部 Gaussian 观测的真实高阶形状纤维，有限圆支付首能量
+
+[R277 完整证明](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)从原self的cubic变分与真实Green尾出发，所有三导只线性出现，准确IBP后得到C²连续多项式；把全部18self平移系数与3矩纳入有限F，便保持任意既定不交布局的全72观测和原ordered history。从最初选光滑非零最大秩母包，用真实r阶minor的有限IFT及邻域ker DF*=ker DF准确保全部F，不假任意旧母纤维正则。有限N^-5/2振荡的C²扰动小、三导N^1/2，而固定光滑纠正三导小，原正bulk S/N有严格正积分极限。
+
+新的等平方背景b_i²=B、R_i=a_i²−B∈{−B/2,8B}由有限17进制和二进制Prouhet付R/T十阶矩。全部E04的self+真实ordered前缀分别次数≤8/5，故18条全零；R²=15BR/2+4B²再付3个Γ0 pair的9条及3对称核条，共30even。原M0/TκH真实闭hook、八copy全第三及十二copy36odd完整保留。完整Lc同形严格负；只替一个R<0基本包及全部真实copy，F恒定、正能量无界，选一个有限N后沿真实连续路径IVT使Lc=0，Ls亦零。余6even、Mc与其它层未付，不能从这条存在证明宣完整joint/大幅同g族。root全文核原R259的Q/Green/72式、R183全第三以及R238真实bulk边界；mechanism独核格点代数，无新科学执行。
