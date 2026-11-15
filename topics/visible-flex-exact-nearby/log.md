@@ -57,3 +57,8 @@ SN原23b1250d/f85d8d49已核35固定字段零diff：11816、interval192、comple
 SCI14c1cf4a全文、PG-success worker差异及6current/2AST manifest/flow静核齐；15门/54字段、saved五球/原log不变，仅两正项一log整min，无exp。
 四件一次部署，等待唯一自然public Actions；完整stdout先Git、120KB reserve与success复用原机制保，未提前声称计算成功。
 两README于d347baab5bcdf18b5ad094d6a553e0cffdb6393c只读核无变；无旧数学重算，无signed gate或全incoming结论。
+
+### 2026-11-15 22:53:55 UTC — DX4 complete same-map fourth derivatives
+FA actual完整strip与旧source身份已核；DX4给cut4/flow4/waist3–4/selectedψ3–4正公式，完整第四链式各项齐，旧TC/WX低导不重算。
+仅解析证明，无新本地数值；同selected/两mean/真正map顺序保。H未付细节保2607c567与open后压缩索引，未取消义务。
+两README于317b6a36a6a64b5eada80da6aced149762098f7e只读核无变，完整sign界与真实incoming/finite/非线性接口继续。

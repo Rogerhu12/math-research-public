@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 DX4**：[由已成切口与传播界支付真实四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)，FA完整复条带给真正cut第四导，WX原正传播积给两向任意短段第四变分，再原序组成waist及selected共同输入第三/四导。旧TC/WX低导原字复用，AC全tail给H四导，无射线/KAM重算。新标量尚未评估。
+
 - **已证明 MS，并纠正旧全文中的适用范围**：[真实 Maslov 符号算子与共同输入的出射次序](results/R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md)，实际out为UR B− Z^S、符号因子在右；TF与原sign精确对易，S/分支不获换序。完整根comm有17/8强界、两density ranks保，WE commonout需另付右同窗因子。IC/WY/CY/CYA已加精确更正，原成功scalar gap与分支费用不动，全incoming/fullreturn仍待。
 
 - **已证明 BF**：[保留有限因子与完整增广 incoming 方程](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)，真finite按实际projection/codomain和dual regularity分类；原head运输不丢高频。完整square分解后，两窗同一high inverse只检验完整strong，增广Schur精确保留有限项高高块和两physical mean。实际完整Ei/有限矩阵及其逆尚未取得。

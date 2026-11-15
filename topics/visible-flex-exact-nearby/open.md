@@ -42,6 +42,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 $C_*=C_{PC}+C_{ST,4}+C_{SF}$，SJ已含cut不能再加。左序同Js逆→Jσ→真U_X−σ逆，右$\Lambda_\sigma^{-1}T_F^{-1}\mathcal S^{-1}$。state左角恰约消到H逆，费用$A_{\rm state}=B_{H,0}K_{W,0}K_\Lambda K_{F,-}K_{\mathcal S^{-1},-}$；CG完整coeff费用原字加一次。两ε同一完整bound不用√2，若合两σ须实际pair规则。
 $C_{\rm paid}=A_{\rm state}C_*+C_{\rm coeff}$只覆盖已付部分。root/head/oppositesign/独立两mean、低input $(1-P_{97})T_F^{-1}\mathcal S^{-1}$、realization $(\psi'-1)\Pi$及全部high-finite交叉须真实norm收费或保持实际border；unpaid不默认为0。PW独立ports只左$B_{H,0}K_{W,0}|\ell|^{-1}$，无实际从a映射不得右乘TF/S；stable trace不重复列新独立port。
 
+[DX4真实四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)6b493e37已证明FA fullstrip3/128的Xφ−1/Tφ给cut第四导；旧TC cut第三导、WX M/F/G及正算法给新flow4/waist3–4，再AC完整H3/H4与真逆链式法则给selectedψ3–4。旧ψm/ψ2/所有已成flow原字读取，不重ray/KAM、不从remainder求导。新scalar消费仍待，供完整运输sign强费。
+
 [MS真实共同输入的Maslov次序](results/R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md)44038eae已证：实际incoming为$\mathcal B_+$，out为$U_R\mathcal B_-Z^{\mathcal S}$，条件fullreturn为$U_R\mathcal B_-Z^{\mathcal S}\mathcal B_+^{-1}$。$Z^{\mathcal S}=\mathcal S(\Pi_0+i\Pi_+-i\Pi_-)\mathcal S^{-1}$是无限算子；根TF实际双高projection与完整degree192使其与原sign精确对易，不能推S或分支可换序。搬左必须保整comm，根$[M_cI,Z]$有$17W_{1/3}(c-\langle c\rangle)/8$强界及两density ranks。已有normalized WE费转commonout须新乘$z_-^\#=\|S\|_-\|S^{-1}\|_-$，paid comm用$z_-^\#+z_0^\#$；均未新算。IC/WY/CY/CYA的现行正文已明确纠正，旧成功算术与球不动，scalar gap不能冒实际global return。
 
 [CYA](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7/43757868884/18只native Jβ、actualselected |j|≥97、γ1/1024、一导loss逆256；7416signed/root全覆盖成功锁。全ES、旧R0、Ei/Eo/Bi−1、真背景与Schur仍待。
