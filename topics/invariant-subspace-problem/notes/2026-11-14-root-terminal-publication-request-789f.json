@@ -1,24 +1,20 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "ecd6ba956c05727a5e259fa7fefb5d47cbd18baa",
-  "createdUtc": "2026-11-15 04:31:26 UTC",
-  "message": "ISP: prove complete source Stein calculus and finalize saved data one main commit at a time",
+  "parentCommit": "7a76d00a738f2c134ecb7d079395e60c60623a24",
+  "createdUtc": "2026-11-15 04:33:01 UTC",
+  "message": "ISP: prove growing symmetric-tail blocks with bounded intertwiners and complete nuisance quotient",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-finalize-advertised-global-data-789f.py",
-    ".github/workflows/invariant-subspace-r150-finalize-advertised-global-data.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json",
+    "topics/invariant-subspace-problem/results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-growing-symmetric-blocks-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-finalize-advertised-global-data.yml"
-  ]
+  "dispatchWorkflows": []
 }

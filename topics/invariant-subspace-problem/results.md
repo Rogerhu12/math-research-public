@@ -481,3 +481,7 @@
 ### R271 附录：强联块真实源的Stein缺陷与完整Schur解析演算
 
 [全证明](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)保持完整/裸右域与真实左最小：C_s*LC_s=I+U*D*DU−(P_KCU)*(P_KCU)，配两右收缩和I≤δ²B/G^-1，得全部源在L+B、L+G^-1均||C_s^k||≤sqrt(k+1)δ^k。原逆芽完整截到新h−1，δ<ρ时H_C−I两真实Schur范数≤16d0²ε δ/ρ；负图仅由准确S_b伴随保留。原环境Jordan条件数/全孔MP界均未使用；仍不把S_b/S_f互比或直接付flat，主两费比较继续。
+
+### R271 附录：原全尾增长对称块、两个有界交织及全部nuisance
+
+[自足全证明](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)按L(x)=floor(x^α)、α<1/2连续分块，有限总体矩给全尾η≤2^(2−2α)m^(2α−1)/(1−2α)。只在对称P上S_J^±1算子范数收敛到V±、V_-*V_+=I，双向真实L/D交织给完整原核/low-row/孔cut固定测试投影差≤sqrt(e^η−1)。J0=V_-*|kerL保全部原nuisance，真实最小lift Gram e^±η；原母提升接同w/同Q新top。没有假设全空间S∞有界、没有以新商冒充原切口源；真实spin容量、主池匹配与普通费用继续。

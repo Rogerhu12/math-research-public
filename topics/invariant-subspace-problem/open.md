@@ -158,3 +158,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **相邻强位配平的固定测试预算已成。** [完整证明](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)对原连续尾任意R保真实核/左空间/扩块/物理joined投影，固定对称输入误差≤sqrt(e^(2/m)−1)，同top两倍；全部反对称通道经真实Schur保留，有效Gram e^±(2/m)一致、回返能量O(1/m)。此为固定测试与同可行源比较，不直接搬运LGL/ordinary λ。继续同C源与完整两费，旧全源相对孔导数反例只排全源小导数，未排此入口。
 
 **强联块真实源的解析Schur预算已证。** [完整Stein缺陷证明](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)在同C_s=A_m+D_<上保两右链/左最小零源，给||C_s^k||_{L+B,L+G^-1}≤sqrt(k+1)δ^k，δ<ρ时完整至h−1的逆芽近恒等误差16d0²ε δ/ρ。不是旧A_m全源孔导数界，也没有把两种Schur互比。继续同w真C^g与C低远孔及共同有限封口；固定原测试另有窄目标||(C*)†f||²=O(R³)，尚未证。
+
+**全尾增长等权块归约已保真。** [两个有界交织的全证明](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)取连续块长floor(x^α)、α<1/2，真实对称P上V±近包含、V_-*V_+=I；原/配平完整核与low-row、top固定测试误差随m趋零，全部nuisance由真实商J0保留。母提升接同w/同Q，未使用环境无界S∞。新spin块容量保真，但主池allstar长度与原A_m尚未匹配；当前重点固定测试(C*)†(e_a⊗vac)的O(R³)平方范数及共同有限封口。
