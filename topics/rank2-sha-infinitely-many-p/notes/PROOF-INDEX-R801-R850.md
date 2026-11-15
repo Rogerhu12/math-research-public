@@ -158,3 +158,6 @@
 
 
 [R838 原端点p-depletion增补](../results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：附录A在原q/q⁴端点下用真实U作用与exact θ(G_gG_h(Q⁴))逐项消元，给Hν=4θ⁻¹g_j^[p]·(g_k−πVg_k)(Q⁴)及AJ=(E1β/Eβ)·P_f,p,ℓ*·a1(Tℓ*^(e−1)Pcrit Hν)，其中E1β=1−π⁻²、Eβ=(1+barπ/π²)(1+π⁻¹)²(1+barπ⁻¹)。原第二项已计入，depleted primitive的U零使第三输入可准确普通稳定化；全投影/e/原局部向量与归一保，未付读数非零或canonical比例。
+
+
+[R838 实际变权临界主极项](../results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：附录B用Coleman finite-slope完整Hecke像/稠密经典权排幂零，Hsu变权tangent给R=E[[τ]]、τ=Tℓ*、x=uτ^e；faithful a1 duality使权二纤维恰为原完整块。实际Hida输入的normalized eigencomponent为Cν=bν/w′，相对残数精确保bν(0)=u(0)dν，故lim eτ^(e−1)Cν=dν。原AJ是同非零period/Euler倍的最高主极项；非noble原点未套noble特殊值定理，也未认第一分支普通或主极项非零。

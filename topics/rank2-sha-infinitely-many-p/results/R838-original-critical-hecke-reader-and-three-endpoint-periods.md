@@ -625,3 +625,267 @@ $4\,\mathcal G_j(Q)\mathbf h_x(Q^4)$ 是 weight-$x$ 的真实
 本附录不由这份来源的存在推出某个临界三重积函数的非零、
 不把其对偶 period 认作 $\mathscr P_{f,p,\ell_*}$，
 也不新增 R814 canonical 类比较。
+
+
+## 附录 B. 实际变权输入的临界主极项
+
+本附录把附录 A 的输入放入真实普通 CM Hida 支，
+再沿原第一形式的临界 eigencurve 分支读取。
+不假定该临界点 noble，也不将它放入要求 noble 的特殊值定理。
+所得是完整 normalized eigencomponent 的主极项恒等式。
+
+固定一个研究素数 $p$、(18) 的 $\ell_*$，
+写 $e=e_p$。以下形式、局部环和坐标均可随 $p$ 改变。
+
+### B.1 完整局部 Hecke 环与实际权映射
+
+在权二点附近，取包含原 $U=-\pi$ 的有限 slope bundle，
+再按原良好 Hecke 特征局部化；记其形式模块为 $\mathscr M$，
+实际 Hecke 像为 $\mathscr A$。
+令 $x$ 是权空间在原 weight-two 点的解析参数，
+$x=0$ 表示权二。必要时缩小邻域并扩充 $E$。
+
+这里使用的是完整 Hecke 像，不先对它取约化。
+它确实约化，理由如下。在足够小的权邻域，
+$\mathscr M$ 是有限自由权模，$\mathscr A$ 忠实嵌入其 endomorphism
+环，所以没有权变量扭。
+取该邻域内 Zariski 稠密、经典权 $k$ 充分大的整数点。
+Coleman classicality 使给定 bounded-slope 部分全为经典形式；
+若 $k>2h+2$，其中没有 $p$-new 部分，同一 $p$-old 新形式的
+两个根也不可能同时处于 slope $\le h$。
+良好 Hecke 与 $U$ 因此在这些纤维上半单。
+任何 $\mathscr A$ 的幂零元素在每个这样的纤维均为零；
+它在 $\operatorname{End}(\mathscr M)$ 中的全部解析矩阵系数
+遂由稠密性为零。这排除了完整 Hecke 像中另藏的幂零结构。
+tame old multiplicity 不改变本论证：良好 Hecke 在其经典重数空间
+上为标量，而当前基点的 tame conductor 恰是 $N$。
+
+Hsu §2.1 明确把这个 eigencurve 点的切空间注入其变形函子 $D$，
+并由 Proposition2.2/Corollary2.3 给 $\dim_E D(E[\epsilon]/\epsilon^2)=1$。
+这是**变权**切空间结论，而非只用 fixed-weight 的 (14)。
+eigencurve 局部维数为1，故此点的局部环正则；
+其完备环是一份 $E[[\tau]]$。
+由于权切向量在此为零，(18) 的 $T_{\ell_*}$ 可取为实际参数：
+$$
+\boxed{
+\widehat{\mathscr A}=E[[\tau]],\qquad
+\tau=T_{\ell_*},\qquad
+x=w(\tau)=u(\tau)\tau^e,\qquad u(0)\ne0 .
+}
+\tag{B1}
+$$
+式中没有从 $\dim\mathcal M[\mathfrak m^2]=2$ 猜整个长度为2。
+
+说明 (B1) 中指数恰为原 $e$ 也可不依赖额外的局部多重性约定。
+令 $B=E[[x]]$、$R=\widehat{\mathscr A}$，
+并把 $\mathscr M$ 完备为 $\mathcal M_B$。
+同 (15) 的 Nakayama/忠实性证明在 $B$ 上给
+$$
+R\xrightarrow{\sim}\operatorname{Hom}_B(\mathcal M_B,B),
+\qquad
+a\longmapsto\big(H\mapsto a_1(aH)\big).
+\tag{B2}
+$$
+确实，模整个局部极大理想的对偶生成元仍由
+$a_1(f_\beta)=1$ 给出；若一个 Hecke 元素杀此生成元，
+便杀整个对偶，因忠实性而为零。
+所以 $R$ 是有限自由 $B$-模，且
+$$
+\mathcal M_B\simeq\operatorname{Hom}_B(R,B).
+\tag{B3}
+$$
+在 $x=0$ 的纤维，(B2) 保真并给本篇的 $A_p$ 与 $\mathcal M_p$。
+故 $\operatorname{length}_E R/(x)=e_p$，
+即 $\operatorname{ord}_\tau w=e_p$。这同时支付 finite-flat 范围，
+而非只认局部曲线上的某一条 quotient branch。
+
+### B.2 原 CM Hida 输入及其泛纤维系数
+
+令 $\mathbf h_{k,x}$ 为通过原
+$g_{k,\alpha}=g_k-\pi Vg_k$ 的 normalized ordinary CM Hida 支，
+其权与 $x$ 所表示的第一形式权相同。有限 $\eta_k^{-2}$、
+原 $17\delta$ tame conductor 及 $Q^4$ 退化保持。
+第二输入固定为附录 A 的实际 weight-zero 函数 $\mathcal G_j$。
+于是
+$$
+\mathscr H_{\nu,x}
+=4\mathcal G_j(Q)\mathbf h_{k,x}(Q^4)
+\tag{B4}
+$$
+是相应权的真实过收敛尖点形式族。
+选择共同 dagger 邻域后，乘法与 finite-slope spectral projector
+均连续并与该变权族相容。
+以同一 Hecke packet 投影 (B4)，得到
+$$
+H_\nu(x)\in\mathcal M_B,\qquad
+H_\nu(0)=\mathsf P_p\mathcal H_{\nu,p}.
+\tag{B5}
+$$
+这里是完整 packet 投影；没有以固定 tame Chow 幂等元代替它。
+(B4) 的 $4$ 仍是原端点的同一固定标量。
+
+原普通支的存在也可从完整 CM 整理想式看出：
+删去 $\mathfrak p$ 倍理想后，所有保留的 $\psi_0(\mathfrak a)$
+为 $p$ 单位；在原 Teichmüller 分支上对其 principal-unit 部分
+取解析幂，给通过
+$\eta_k^{-2}\psi_0$ 的 ordinary CM 家族。
+有限角色与所有坏处来源不变。
+这不是从仅有逐系数极限推过收敛；
+使用的是原 ordinary CM Hida 家族及其标准过收敛实现。
+
+在权映射的泛纤维，Hecke 代数可分。
+令 $f_\tau$ 为该点的完整 normalized eigenform，
+$a_1(f_\tau)=1$。把 $H_\nu(w(\tau))$ 投到这一条 eigenline，
+写为
+$$
+\operatorname{pr}_{\tau}H_\nu(w(\tau))
+=\mathscr C_\nu(\tau)\,f_\tau .
+\tag{B6}
+$$
+$\mathscr C_\nu$ 是实际泛纤维 normalized eigencomponent 的系数，
+因而是局部 meromorphic germ。
+本定义不以一个未知 Petersson period 再归一 $f_\tau$。
+
+### B.3 相对残数支付全部单位因子
+
+取 $R=E[[\tau]]$ 作为 $B=E[[x]]$ 代数，$x=w(\tau)$。
+定义相对残数
+$$
+\operatorname{Res}_{R/B}(a)
+=
+\operatorname{res}_{z=0}
+  \frac{a(z)\,dz}{w(z)-x}.
+\tag{B7}
+$$
+右边按 $x$ 展开理解：其 $x^n$ 系数为
+$\operatorname{res}_{z=0}a(z)w(z)^{-n-1}dz$。
+这给 $B$-线性映射 $R\to B$。
+其模 $x$ 配对为
+$$
+(a,b)\longmapsto
+[z^{e-1}]\frac{a(z)b(z)}{u(z)} ,
+\tag{B8}
+$$
+矩阵在 $1,z,\ldots,z^{e-1}$ 下反三角，反对角系数为
+$u(0)^{-1}$。故该配对 perfect。
+由 Nakayama，(B7) 给完整的
+$R\simeq\operatorname{Hom}_B(R,B)$ 同构。
+
+因此对 (B5) 有唯一的 $b_\nu(\tau)\in R$，使
+$$
+H_\nu(x)(a)
+=\operatorname{Res}_{R/B}(a\,b_\nu)
+\quad(a\in R),
+\tag{B9}
+$$
+其中左侧采用 (B2)–(B3) 的原 $a_1$ q-duality。
+在泛纤维用简单根分解 (B7)，每条 eigenline 的 normalized
+系数恰为
+$$
+\boxed{\mathscr C_\nu(\tau)=\frac{b_\nu(\tau)}{w'(\tau)}.}
+\tag{B10}
+$$
+这一步可在有限可分分裂域中逐根用
+$\operatorname{res}_{z=t_i}a(z)b(z)\,dz/(w(z)-x)
+=a(t_i)b(t_i)/w'(t_i)$ 核验；
+随后按 Galois 对称性下降。没有删除 $w$ 的单位因子。
+
+原最高 Hecke 读数为
+$$
+\begin{split}
+d_\nu
+&=a_1\!\left(T_{\ell_*}^{e-1}
+             \mathsf P_p\mathcal H_{\nu,p}\right)\\
+&=H_\nu(0)(\tau^{e-1})
+ =[z^{e-1}]\frac{z^{e-1}b_\nu(z)}{u(z)}
+ =\frac{b_\nu(0)}{u(0)} .
+\end{split}
+\tag{B11}
+$$
+所以准确是 $b_\nu(0)=u(0)d_\nu$。
+又 $w'(\tau)=e\,u(0)\tau^{e-1}+O(\tau^e)$，
+得到无遗漏单位的主极项：
+$$
+\boxed{
+\lim_{\tau\to0} e\,\tau^{e-1}\mathscr C_\nu(\tau)
+=d_\nu .
+}
+\tag{B12}
+$$
+整数 $e$ 在此完整保留；未认它是 $p$ 单位。
+极限也可等价读成相应 Laurent 系数，因而不依赖一条未指定的
+逼近序列。$\mathscr C_\nu$ 的极阶至多 $e-1$；
+恰为 $e-1$ 当且仅当 $d_\nu\ne0$。
+
+### B.4 原第四槽就是同一临界主极项
+
+把 (B12) 代回 (A14)：
+$$
+\boxed{
+\mathcal A_{\nu,p}
+=
+\frac{\mathcal E_{1,\beta}}{\mathcal E_\beta}
+ \,\mathscr P_{f,p,\ell_*}\,
+ \lim_{\tau\to0}
+       e\,\tau^{e-1}\mathscr C_\nu(\tau),
+\qquad \nu=4,10,16 .
+}
+\tag{B13}
+$$
+三条式子共用原 $e,\ell_*,\tau,\mathscr P_{f,p,\ell_*}$；
+三份 (B4) 保相同 finite-flat normalization。
+因此它们的主极项是原三个实际端点值的同规范 vector，
+不是三个各自挑选的 meromorphic 插值函数。
+
+本式也准确保留其适用边界。
+一般 critical CM 点不满足 noble 假设；
+本附录没有调用一个要求 noble 的三重积特殊值公式来定义原点的值。
+(B6)由完整 q-duality 定义，(B12)由相对残数证明。
+若要把 $\mathscr C_\nu$ 与某篇文章的三重积 p-adic L-function
+相认，仍须支付该文的 dual-vector、Atkin–Lehner、
+变权 old-vector 与 period 规范。
+尤其第一形式的临界 eigencurve 分支不因此成为一个普通 CM Hida 支，
+不能将全族当作三份 CM theta 家族直接套 Artin 分解。
+
+(B13)没有证明主极项非零。
+它也没有把原点的端点类相认 R814 的 canonical 类；
+所提供的新实际接口是：原第四槽现在是明确真实输入 (B4)
+在完整临界 Hecke 分支上的最高主极项。
+这里无新增数值计算。
+
+**本附录依据。** Coleman 的有限 slope bundle/classicality、
+Hsu §2.1 的完整变权切空间注入与 Proposition2.2/Corollary2.3
+沿正文第9节的已发表原文。
+相对残数和 q-duality 的全部归一已在 (B2)–(B12) 自含证明。
+可对照 Graham–Pilloni–Rodrigues Jacinto，
+*p-adic interpolation of Gauss–Manin connections on nearly
+overconvergent modular forms and p-adic L-functions*，
+Compositio Math. **161** (2025), 2380–2441，
+[DOI 10.1112/S0010437X25102479](https://doi.org/10.1112/S0010437X25102479)，
+Proposition7.2 的 universal q-expansion 与 §7.1.2、Definition7.14：
+其 noble 假设没有在本附录原 critical 点上被假定成立。
+
+
+补充的 primary 位置如下：
+
+- R. F. Coleman, *P-adic Banach spaces and families of modular forms*,
+  Invent. Math. **127** (1997), 417–479，
+  [已发表原文扫描](https://wstein.org/people/coleman/papers/p-adic_banach_spaces.pdf)：
+  §A4，Theorem A4.3 的 Riesz 分解、Remarks A4.4 的真实投影、
+  Theorem A4.5 的有限 projective 模块（印刷页437–438）；
+  §B5 的 Hecke 家族及 Lemma B5.4 的 specialization 相容性，
+  Proposition B5.6 的 perfect $a_1(TH)$ pairing（印刷页465–466）。
+  本附录 (B1)–(B5) 使用这些 finite-slope families 输入，
+  不是仅引正文的 Coleman1996 固定权结论。
+- M.-L. Hsieh, *Hida families and p-adic triple product L-functions*，
+  [作者全文](https://www.math.ntu.edu.tw/~mlhsieh/research/TRIPLE3.pdf)，
+  §8.1，印刷页97，$\theta_\psi(S)$ 的完整整理想定义及其后
+  primitive Hida-family 断言。
+  其模数 $\mathfrak c$ 只需素于 $p$；本篇取原
+  $\mathfrak c=17\delta$，并在原 weight-two 算术点附近取支。
+  此处只用该普通 CM 家族构造，不套后文要求第一形式普通的
+  三重积 factorization。
+  同一个构造可在 Castella–Do
+  [作者全文](https://web.math.ucsb.edu/~castella/Schoen-cm.pdf)
+  §3.4.1、式(3.16)（PDF第24页）核对；其算术角色式中的
+  geometric Artin 规范与本篇原 $\beta_k$ 的 avatar 同步运输。

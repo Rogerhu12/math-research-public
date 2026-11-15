@@ -533,3 +533,5 @@
 - 2026-11-15 23:51:18 UTC / Astra-rank2-Sha-continue：提前请求下一次实际pull --rebase及两README差异/规则15盘点；两条新增结论均已分别推送，日志时间校正为相应提交前的实际时钟。继续原指定读数与restricted Euler像，不以规则同步中断研究。
 
 - 2026-11-15 23:52:22 UTC / Astra-rank2-Sha-continue：23:51:29实际CI pull/run43777047575/job133005590314成功，head9cf90ef5，两README差异空且blob不变；库存30,388,126B/2221文件、无超限/3旧真实输入块。回执与已读提交入H，下一实际pull最迟00:35；续原critical系数与四共同Cartier输入。
+
+- 2026-11-15 23:58:26 UTC / Astra-rank2-Sha-continue：R838附录B付原完整finite-flat临界分支与实际Hida输入，residue精确消u(0)得lim eτ^(e−1)Cν=dν，保原AJ全部Euler/period；Coleman1997/Hsu/Hsieh原文已核，不借noble公式。H先全归档，续主极项非零/原λ比较；root续R839实际CM曲线表达。
