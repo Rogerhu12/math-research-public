@@ -128,3 +128,7 @@ DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄d
 2026-11-15 23:25:07 UTC PSB：root完整解析与phase/newton分别核2/3–5/6–7；全mean、双边adjoint/dual、nilpotent/Bessel权及有序resolvent齐，无新数值。
 完整同一principal每固定Hs与coefficient邻域成立；实际高导、真PDE背景入口/tame/fullincoming不冒授。已成索引窄压，逐字前页保e0d74db25a5db1a7e3df06ea8f0905d568aff366同H/open，未付义务不减。
 双README读取16982df447fed53497252e49ed91f88720dfc1c2未变；本机22:59:32真CLI无executor，继续根规8小文本例外。
+
+2026-11-15 23:26:29 UTC BT：root全文及两peer实际cutoff/dual/mean/factor核通过；Q97 TF逆双消、transported idempotent与sign有限unitary、根FF两侧1215精确，未作新数值。
+完整retained六类审计保actual columns/dual/square与独立functional ports；radial head和变化有限映射积分不冒finite，原paid不减。SC3 root只读原step9健康/前8success，未重启。
+双README读取674d8d8079c5079a3b101faaceb44de796744473未变；本机22:59:32真CLI无executor，根规8小文本例外继续。

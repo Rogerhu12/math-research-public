@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [BT真实运输head因子与retained审计](results/R133-supplement-concrete-transported-head-factors-and-retained-operator-audit.md)：实际Q97 TF逆双消，旧head负窗dual免KF/joint免√193，commonout sign只有限unitary；root有限两侧/实际均值与cross保真LV。径向head和逐r有限映射的积分不自动finite，已付SJ/CG/WE完整保留；actual square/columns/无限余项/Schur仍待。
+
 - [PSB主项所有固定Sobolev窗与精确coefficient扰动](results/R133-supplement-complete-principal-Sobolev-bootstrap-and-coefficient-perturbations.md)：完整mean同号Fredholm onto；同L2逆/adjoint的有限nilpotent导数多项式给正负及fractional同一逆，无递推小量假设；实coefficient邻域与有序resolvent/高阶导数全证。实际高导/真背景membership/fullincoming另付，未作新数值。
 
 - [SEIA实际独立主项能量门与同一双窗逆](results/R133-supplement-actual-individual-principal-energy-gates-and-two-window-inverse-bounds.md)：原43773319871/1 child0/20且2/2门pass，真实ci>0/co<0；两支shared inverse norm K0<1.034、K−<7.823。八导/真H误差/完整mean、每支窗whole候选与原fallback全保；107处89种原球、SCI/preGit、9pins/3AST精确核齐，未授fullincoming。

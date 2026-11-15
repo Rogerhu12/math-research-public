@@ -25,7 +25,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 ## 2. 当前主因子、强误差与待闭合的逆
 
-本节以及下节全部旧全式、单位、原球、失败/lost与恢复点保本页前档和原proof；成功旧数学禁重。[PGA实际主逆](results/R133-supplement-actual-complete-principal-inverse-logarithmic-certificates.md)5557d848原43770122351/1 child0/20成功锁，17current/4AST/60字段；L0约6.257145e14、原L−约1.6906629e22均log不是norm，两optional false不冒ODE失败；[WEA实际装配](results/R133-supplement-actual-paid-waist-strong-error-assembly.md)c85797c5原43769746581/1 child0/22成功锁，12pins/2AST/9math。五新正组合、完整paid上界1.91881943e118及6 retained register保全；继续真实finite/mean Schur，不以paid费用冒全$E_i$。
+本节及源链全部旧式/球/SCI/preGit/单位/域/失败lost逐字保c508a96fe6fc3a5cb1b2779093008636a1e2aa25同open及原proof。PGA/PIBA原巨log仍是有效完整候选，不冒norm；WEA原43769746581/1 child0/22的paid1.91881943e118只已有state+coeff，六retained与全incoming义务不减。旧成功禁重。
 
 [PF](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf/[CT](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保两row、old I/−SI、root有限函数0/g1hat、真X−density、χ/Taylor差/mean/jump/residual；scalar不代函数。
 [SNA完整有符号非mean终态](results/R133-supplement-actual-complete-signed-nonmean-density-H3-validation.md)4214de05：唯一43751213826/1真实12steps success、child0/21、complete/newtargettrue，exec4dbde1fc/42242/eccb4ce4；SCI22817/8fea75ce逐字复原。207pins/13,612,391B/193history+14current/8AST/16roles/34pull全部核，93处91种球逐字。3146interval/cursor0，12584=1256旧预算只读+11328新；[原恢复7edf79c7](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)仅lost314×4参考重建、旧hash未冒核。两qG完整H3约93.669，双支各四导、完整transport/finite-angle尾、trueH D/ε/√j与signed μ已存，最终nonmean H3上界6968848.525只该系数。成功冻结不重；全incoming/强return/finite/背景未授。
@@ -40,6 +40,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [SEI独立能量合同](results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md)268be1a8及[SEIA完整实际成功](results/R133-supplement-actual-individual-principal-energy-gates-and-two-window-inverse-bounds.md)87055721：唯一43773319871/1、12steps/child0/20，2/2signed门pass，真正$c_i>0,c_o<0$。exec e1532b81/46192/b0088f83、SCI35198/e830e10b、preGit38060/bf61fe8d、9pins245579B/3AST/61字段及107处89种球全核。SN完整八终态导数经真H D/√j与独立μ误差一次→每支四导/四完整sup，signed μ保全，用原宽ball下端而非偷换较紧endpoint；两支κ>35.748。全部候选、signed gap与独立division record、四energy norm/四log、每支每窗整选及shared max均原字保存，shared $K_0<1.034,K_-<7.823$ 是同一主逆的真实norm。完整scalar mean与两physical mean继续；大旧log fallback原样保留、0exp，旧SN/PG/PIB及本SEI成功均禁重。fullphysical incoming/finite Schur/return/背景仍未授。
 [BF真实有限因子与增广Schur](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)e8e29c49已证明：旧low head经原右TF逆/S逆有完整dual因子而非新角有限支撑；两mean、primitive/density及显式有限projection可保实际$LV$，完整sign/second-reference/PW函数空间输入不因此有限。对实际square $B=T+E+LV$，同两窗高逆仅需完整strong的$\chi=K_0C_E\Lambda_J^{-4/3}<1$；增广Schur精确保留$PUVP$及所有physical mean，实际columns、matrix entries与inverse仍待。
 [SE自然stable口Fredholm与准确消去](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md)22201747由完整root Fourier与原parity J证明$S_{nat}=D_c+K$且K增2/3；对应共同输入s=0/−4/3的自然窗为−7/6/−5/2，index0而未授cutoff97可逆。只有完整实际Ai incoming injective后，stable同侧坐标C才onto并在完整return准确消去；不需要新C逆数值，独立第二输入/正侧其余ports/两mean及rough bulk费用继续保留。
+
+[BT实际运输head与retained分类](results/R133-supplement-concrete-transported-head-factors-and-retained-operator-audit.md)b5c2f844证明$Q_{97}T_F^{-1}=T_F^{-1}Q_{97}=Q_{97}$，故旧head真实dual为$E_{97}^*S^{-1}$，joint无$\sqrt{193}$，scalar0行精确$\Pi$而非physical mean。运输head是$S Q_{97}S^{-1}$的非正交idempotent；其commonout右sign只finite unitary $Z_{97}$，无整$z_-$费。rootFF两侧≤1215、固定端FT、density/mean/cross给实际finite因子；所需真实columns/dual未自动付。径向193角head仍无限，逐$r$有限映射的传播积分亦不自动finite；SJ/CG/WE全paid保持。六register逐项分类已齐，完整square/独立functional ports/未付无限项/actual finite matrix和inverse继续待。
 
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
 
@@ -111,7 +113,7 @@ SF add09111完整Gy/T1T2/F0–2/FT/FJ/−Zy两mean源、√q注入、真dr/无le
 
 [SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
 
-SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1在22:34原step9健康，完整affine待；禁取104306B大log/禁重成功。
+SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1在23:25原step9健康，完整affine待；禁取104306B大log/禁重成功。
 
 ## 5. 新94链、真实B collar和实际body种子
 
