@@ -197,3 +197,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:40:30 UTC /root — actual121五批原计算与摘要上限分开结清
 
 [实际结果](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)：run43694950669/sourceda16069e，5 science均exit0/各8接受/原final全false，末W738.1754024784359/最小数值奇异.0068574945219558045。前四全部trial、初末FD/Arb/circle已读；第五fallback仍保final与六列FD。原正常摘要93000B超过90000，wrapper70为transport；原执行顺序核实read_status在schema停止前，五status/trace确读全且全删，last_recipe仅4。第5全trace3525返回/0异常/J393返回，不能将读回stop归因科学拒绝。源/所有五摘要/状态/链/日志SHA已登记，无raw入库。123明确从第5真六p加eta三个0并独立分段reader，113/118/120继续，不因工程stop设新科学门。
+
+## 2026-11-15 08:41:17 UTC /root — 原同worker完整H向量续接的条件接口
+
+[完整接口](notes/2026-11-15-original-same-worker-full-height-continuation-interface.md)10108B/0d8b0c81已全文读。实际TailClient/worker/core合同区分首非零与既有正H收敛last、noJ请求和Newton内部fullJ、数学拒绝与IPC/record失败。最后直接原H_*数组、真fullJ/原FD/同owner fullDN/finalaudit不变；s、core λ、曲面t严格分开。尚无参数选择/新source/run或补救结果，120仍原实验，按其实际阶段决定。无本地科学。

@@ -36,7 +36,7 @@
 
 123由第5真实末六p加eta三零扩原支撑b_i(2x−1)²，参数/完整身份见note。amplitude做独立family/search/recipe/workflow，geometry薄reader；完整3×9/12×9/2normal+7tangent/九列FD/新域，原8×20/12×20/完整三式门保留。固定六个shape设计后仍原3active/453圆，不让807f吃九参数。每方向完整trial独立≤90KB块/原SHA，primary只完整元数据与块身份，无截行/新门。尚无123源发布或run。
 
-[120请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)run43694844403/sourceace38440/job132752997196，08:30:44UTC创建且原science运行，未读结果。用119第3批真六p、λ=.001只缩前三core目标/一阶种子；wrapperef4e977c/reader3f22a074/request6006acdf/workflowd6ffd544、99源。807f/1cdf0e14/原01930配置无checkpoint，4数学输入/2ready/78源真实恢复。三odd固定/三p active/453全态/高109自由；真当前H全J→原FD→同owner原fullDN/native/finalJ+audit，全门保留。300min部分运行/330step/350job，90KB诚实读回后清临时，无raw。低三不作启动门；成功后λ续大目标，最终冻全六设计转450维same-g。H(s)同worker接口待root发布，非已运行补救。
+[120请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)run43694844403/sourceace38440/job132752997196，08:30:44UTC创建且原science运行，未读结果。用119第3批真六p、λ=.001只缩前三core目标/一阶种子；wrapperef4e977c/reader3f22a074/request6006acdf/workflowd6ffd544、99源。807f/1cdf0e14/原01930配置无checkpoint，4数学输入/2ready/78源真实恢复。三odd固定/三p active/453全态/高109自由；真当前H全J→原FD→同owner原fullDN/native/finalJ+audit，全门保留。300min部分运行/330step/350job，90KB诚实读回后清临时，无raw。低三不作启动门；成功后λ续大目标，最终冻全六设计转450维same-g。[H(s)同worker接口](notes/2026-11-15-original-same-worker-full-height-continuation-interface.md)已发布0d8b0c81：完整112 H向量、真收敛last→s=1原全J/FD，noJ仍原Newton withJ；真零点不保证首正点warm，IPC/record异常停编排，不冒数学拒绝。待120真实阶段再决定是否实施，未运行。
 
 ### 118补真实midpoint471，运行中
 

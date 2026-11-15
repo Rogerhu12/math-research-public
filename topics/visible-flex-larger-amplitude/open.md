@@ -85,3 +85,5 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [R283有限trace方向实现](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)已发布CPP8c40b4c7/launcher8229212b/bridge61e21ded；原113两源不变，完整F/C/实际Cholesky和代回/226态RK/129248行的新单方向，未实际运行，不冒全224J/native/fullDN或branch/舍入证明。122接实际91原context和fresh64 J/R273 delta→新packet，非由旧hash重造现场；两原policy、α=0独立实验。121已实际run43694950669/sourceda16069e/job132753318793，08:32:04UTC创建并进入原science；120 job132752997196同已进完整场science，结果仍待真实读回。
 
 [actual121正式结果](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)：5原科学批各8接受/exit0，末W738.1754024784359、unit第一式−38.42330959663998，全部原final false。第5正常摘要93000B引原fallback，wrapper70为传输停止；五status均读全/删，前4正常摘要/第5final已读，不能冒第五trial细项。123由真实第5六p+三个0添加二次支撑控制，并用每方向独立90KB分段保全trial；原数学门不动。
+
+[原同worker完整H(s)续接接口](notes/2026-11-15-original-same-worker-full-height-continuation-interface.md)已发表，仅为120若证据支持冷初猜改进时的独立方案。保完整112 H/原尾g/32×10和真实收敛last；noJ不省Newton fullJ，零点warm ratio无效不保证首正点可达。最后s=1全J/原FD/同owner fullDN/finalaudit仍实付；IPC/record写失败不盲缩步，未选s参数/未派发，不改807f或113。
