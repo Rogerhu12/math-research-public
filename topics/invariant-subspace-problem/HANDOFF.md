@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 0d2c91f49bf82952e8413ffc995a8227f45f71b9（2026-11-15 03:38:41 UTC，Actions run43673279640实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43673279640-1.json。
+- **最近成功实际 pull 与已读规则提交：** 1b9b1f60de303cf9d7236e9ede5d7cb1b20e0ae7（2026-11-15 03:41:46 UTC，Actions run43673498645实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43673498645-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 全部未列状态/旧来源保[完整H](notes/2026-11-15-handoff-before-strong-tail-block-flow-789f.md)及递归快照；原open未列问题不视为关闭。
@@ -26,7 +26,7 @@
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**：同一B/e/目标于无界精度可解⇔有限Z_(31)原来源精确可解，无需相容；B或e增长则不成立。1−31s例固定B阈n≤e+B+1；u(u−31)显示∞纤维秩相同不控长度。当前1345仅一精度，不能外推char0。
 
-**条件来源界：** [原子式降度](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)与下条∞cofactor付8801；仅证明有Q[s]解时可同界选取。若同一D最高系数31单位，模31ⁿ也能保同B/e降度；该单位条件、实际成员性及固定31分母均未证。
+**[条件来源界8740](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)**：所有换列最大子式已含Kh(74次)，准确除有限K(60次)后用D/K整理外源；非零D模31含完整315次gcd，故deg(D/K)≥255，上界8696。目标项费用≤8496、外源及转回≤8740。只证明已有Q[s]解可同界选取；若额外lc(D)为31单位则各模精度可保同B/e，实际成员性/该单位条件仍未证。
 
 **[所选原子式∞](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)**已实际推edd35f86：原所选常秩4318/连接3，模31余36方向为3阶一、33阶≥2，v∞≥69；全部来源/矩阵保存。char0只[4318,4340]，cofactor至少13阶付条件来源8801；不称14块或lc(D)单位。
 

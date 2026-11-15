@@ -147,7 +147,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **固定来源界的31进下降及当前原式续算。** [完整定理](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)要求同一B、同一目标、同一分母指数e；无界精度可解才推出真实Z_(31)来源，精度间不必相容。1−31s及u(u−31)分别排无界来源次数和只看∞纤维秩的捷径。global首轮已实际推6d6bf1a4，九阶段/七q1及全carry已成，六q2保存1021像行后时钟止，九原式仍开；按[固定续接请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)继续。
 
-**原char0成员性已有条件固定界8814。** [原子式降度证明](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)仅用已证非零的原8770齐次子式与原行列权；有Q[s]解即可选同一cost8814。不能据此称实际有解或分母31指数≤2。若能证明该真实D的最高系数31单位，可把各模精度任意来源降到同B/e，再接全精度下降；等价的该子式∞消失阶比较仍未付。现由下条∞证据加强条件界8801；继续最新全局检查点，不重原局部页。
+**原char0成员性的条件来源界现为8740。** [公共子式因子降度全证明](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)保同一原8770子式和所有输出：换列子式除K后转回，deg(D/K)在255…8696，给已有Q[s]解的共同成本8740。只是有限界，不证明实际有解或31分母指数≤2。lc(D)31单位时才可把全模精度降到固定B/e并接下降；该∞条件仍未付，继续真实全局原式及36核提升。
 
 **同一原子式∞压缩已实算，char022亏损仍开。** [完整证据](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)给选定1021常rank985/真连接3，原4354常秩4318、模31v∞≥69；不能混成全矩阵1007/4或char0结论。须直接处理原char0常块，当前4318≤rank≤4340、余块14…36。已知char0上界付cofactor至少13阶并把条件来源界加强8801，但lc(D)单位/全部精度/实际成员性仍未付。
 
