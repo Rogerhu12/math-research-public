@@ -117,3 +117,9 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 ### 共同径向势的稳定表达已齐
 
 [P1–12](results/R133-supplement-cancellation-preserving-common-radial-potential-and-ports.md)现把 c 和 V 中重复 η_r/η 先作准确代数消去，保 z=j^-2 的所有有限背景因子及 bilinear 复参数。G_r/G=B−c 逐真缝继承非零入口，两普通源仍含 g2 与 c g2、没有 g2_r，root混合 n1/3 trace/独立 j0 保。下一消费者须在原合法common domain实际付 η/k/Abar/a/κ及有限分母gap、势/传播和原old-circle/非径向principal费用；本恒等式未给数值门。
+
+### 下一两片的非零入口与整域实际门
+
+[E1–16](results/R133-supplement-nonzero-entry-continuation-to-the-next-physical-pieces.md)保原2549→2548→2547及2549→2550→2551：cubic差递推含非零常数，phase/first correction只继承连续值，径向jets按新片单侧方程重建。G/Gbar除A比还保ell_e，若旧未保存须明确新增entry预算。ray gate同时含旧phase/修正strip，不可重置相位误差或G。
+
+已部署 `visible-exact-dominant-outer-piece-domain-comparison.yml`，SCI43abdfca…/manifest9c5aac33…/workere5b06714…：只从历史a3d84原2index+2shard核五整片exact dyadic knots、两target真实侧/原germ/Rg/RHO/RC。无旧target/FFT/cubic value/norm或78stage重算。等待实际run结论；径向域即使通过，后续新条带/完整源/真seam算子仍分别待付。

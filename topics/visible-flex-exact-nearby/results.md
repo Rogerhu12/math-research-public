@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 补充 E1–16：下一真实物理片的非零入口继承](results/R133-supplement-nonzero-entry-continuation-to-the-next-physical-pieces.md)：2547/2551 继承前片的 phase、normalized correction 和 log G 径向常数；exact cubic repair 逐缝递推，实际 ray 同时受旧入口 strip 和新局部 strip 约束。条件合同不授新域或源界；整片域消费者已接公开 Actions。
+
 - [R133 补充 P1–12：共同径向势与双源端口中的准确消去](results/R133-supplement-cancellation-preserving-common-radial-potential-and-ports.md)：在取区间上界前消去重复 η_r/η；同一完整 V、G 和两物理源行保所有有限频率/mean/真正接缝。只需至二阶径向 jet；不授新势界、径向域或高频逆。
 
 - [R119补充 O1–22：非解背景真Jacobi与几何散度的准确残差差](results/R119-supplement-exact-off-shell-divergence-Jacobi-and-narrow-residual-defect.md)：EN=αNk−βNθp−γNp无新δ逆幂，保〈A0EN〉=〈NDA0〉及两mean/通量；metric reference后完整+ψN与EN都保。H66小近邻仅扩s≤64二次代数门<2^524288Y64Ys；不从已知解逆转授任意背景逆。
