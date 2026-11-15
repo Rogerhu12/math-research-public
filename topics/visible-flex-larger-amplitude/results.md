@@ -146,3 +146,5 @@
 - [Request142：全部九方向重新形成响应的一批实际入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)：真138末p及radius3.814697265625e−7，完整9基各原complex重评/实际方向再评，原度量G及三种动作分列；R299 helper d4c9、原8×20/12×20和全部FD/Arb/453圆/final保留。93+5pins/父29当前31、一批8方向，原normal轨迹可随方向变化；未声称精度提高、根或native接受。
 
 - [R315：actual124完整高度路径十三次原拒绝与规则中断](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)：零H真实收敛，13正s/130原trial均stage0 D/S/A域拒，当前withJ基点已返回；第15call尚执行即规则SIGTERM，非科学预算耗尽或已返回数学拒绝。全15行、完整原试探范围/来源与e252相对指标分母解释保留；未到s1/338J/FD/fullDN/audit，145转完整当前H/R273候选且不减原门。
+
+- [Request143：原连续C完整112深端区间实际入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)及[producer](notes/2026-11-15-continuous-C-complete112-deep-far-producer-interface.md)：R312同一原准确根族、F159/物理node160、256bit全112 Robin，mode2准确0来自原定义；11现源+5原公式/三历史输入/R286-R312，完整行流仅临时核后清。未预填有限头、cut域/分母、DN或非线性接受。

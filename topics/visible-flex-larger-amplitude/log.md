@@ -456,3 +456,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R315实际124全高度路径及规则退出
 
 [R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)20524B/449c9f3b全文已读并立即发表：zero真收敛、13正s/130域拒与第15 in-flight规则SIGTERM分开，原withJ/15行/全部试探/来源身份保全，e252 relative分母不能冒绝对爆炸或唯一warm原因。145接当前H完整R273候选并保原10档noJ/全112/最终门；root终端失联，依根8仅小文本集成快进且API核21bd/bff，不冒git pull；H保真实同步行。open原29766B整体存至142检查点，只压缩已有正文重复，完整责任不丢。
+
+## 2026-11-15 /root — Request143完整连续C深端图实际入口
+
+[143总接口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)及fe66789e源/0c14cb0a说明/requestc5e9931a/wf93bcf11b全文已读；失联后四件原byte/SHA准确恢复，接口只去临时static归档措辞，bb538c89。11现pin/三输入/两proof/Binder与全112F159/256bit范围保，所有Arb只公开Actions，无raw/static回执入Git；本次依根8小文本原子快进并真API核21bd/bff，不冒pull。R315已发表bdda6d5a；原完整范围和未付有限头/cutDN保留，request push触发实际运行。

@@ -12,7 +12,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:32:00 UTC API读取main 1d92fd0f5505b7318d8071741489889949ff4840，双README21bd/bff未变；不是git pull。143未推件正在小文本恢复。
+集成复核：2026-11-15 12:33:10 UTC API读取main 28430d0c2bb28826a67c94a7819f8845c038c5b5，双README21bd/bff未变；不是git pull。143五件原hash恢复并本次集成，不含raw/static回执。
 
 ## 真正完成标准
 
@@ -54,9 +54,9 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 原132/136 partial与cap积分修复责任见R293/R304/R306及open。139已全1440/六primitive和whole-natural闭域合法E界，query进一步细化仍partial，未冒1e−6或原finite同g；R311原日志与完整结果正在发表。
 
-[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。factory650a/numeric93cc/augmentedb154待root全文发布。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振与新producer继续。
+[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。factory650a/numeric93cc/augmentedb154待root全文发布。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振继续。[143完整入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)fe66789e/requestc5e9931a/wf93bcf11b：F159/256bit、11+5源/三原输入，全112深端包围；逐行临时核后清，待实际run。
 
-[R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给共享Hermite/全角cut/反射/cuff帽及强C²条件；同g atlas仍另责。[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)在明确末片条件下证明finite mask/clip一阶jump，九C²控制不消；实际descriptor未核，不推有限metric下界或完成。
+[R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给准确C²结构，[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)给条件finite clip障碍；实际field/atlas/有限误差仍未付。
 
 九冻结450只接真接受父/自身v2，5e95/92cf保全九/空K=0、338+112、全部knots与二分/全J/FD/fullDN/finalaudit；e8de/69bb closed与0c43/4b13 metric保全physical/core/z0/material/mean/六jet/四Loewner/两帽/DFS。原闭面54079等待真实final audited tail/config/port，R249共享B和R274非零见证、全t reach/D/整像held同场；无实际450或闭场。完整接口与未付清单在[open§3–4](open.md)，固定g/p/t后精化至机器或原solver容差。
 
