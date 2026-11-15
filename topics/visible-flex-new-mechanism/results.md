@@ -405,3 +405,5 @@
 - [共同word第二次共享库存接口失败及完整祖先修复](notes/character-head-word-second-actual-shared-atom-failure-20261115.md) — actual43675170178的2manifest人工过，真实阶段0.350s/0预算检查因整共享表含未用a/b/c而失败，尚无word/消元。新源1ec5fab9仅解码77完整−4/−2根的全部原祖先，保2332整表及hash；可达foreign与缺祖先仍拒绝。2新人工过，六原输入与数学保持，旧失败原件不改。
 
 - [R180：固定圆不可见第三hook与准确有符号第四周期gauge](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md) — 真实Klein闭合带可取M0而T=κH非零，R46圆仍付完整二/三阶range。独立二阶w在f/g支撑邻域仿射，三交叉矩0使新增三阶恢复合法；R83与hook循环准确给ΔV=2κH(wθ;f²)=−6κC a(θ)(f″)²。任意有限正负C，sin²只调mixed/0，保同目标与0/π种子且无未知偶次周期成本。仅第四period控制线，未付第四ruling；独立w不属原零incoming规则，不冒已绕过canonical正性或完成主题。
+
+- [R181：第四周期gauge的退化自伴方程与多包方向](results/R181-degenerate-self-adjoint-equation-for-fixed-circle-period-gauges.md) — p=f′、q=f″、u=w′给L_f″=(A_fu′)′−6(qq′)′u，A_f=6pq′−2q²，保原右锚两常数及真实左仿射尾。允许w的双collar/六交叉矩准确转为u的ODE/均值0/六矩；pG″=[A_f(pu′−qu)]′迫每个内部A_f零点累计积分0，非充分。多包独立仿射斜率给多个可任意取符号的完整mixed周期方向，仍未付第四ruling或满射。
