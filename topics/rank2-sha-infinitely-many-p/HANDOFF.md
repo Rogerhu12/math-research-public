@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：390a091879e1e63344ee9f11035e491d3a1f297f；2026-11-15 21:34:09 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:34:08 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
+- 最近已读规则提交：9e9bf3edfd6eb232ec397952b6f04b807b9f3997；2026-11-15 21:40:48 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:34:08 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -12,7 +12,7 @@
 
 ## 完整归档与工作状态
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r828.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿完整归档链保全部旧来源、常数、十九角/ray、run/hash、撤回及未闭门；压缩不撤限制。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r829.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿完整归档链保全部旧来源、常数、十九角/ray、run/hash、撤回及未闭门；压缩不撤限制。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–828已登记；R364/R561/R654/R712及主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep同R的mirror联合核与分歧/边界，theta四原[z^(p+1)]真实共同零，literature第四CM槽/companion与原canonical比较；完整证明成即单独推。
 实际pull21:20:38/run43763145442/job132962200519成功，heada7635bd3，两README差异空，回执ci/rule-pull-20261115T212038.json；22:10前再pull。R818/run43757109911与R820/run43756861065全日志已核，源/args/SHA在原证，无复跑门。最近ref瞬时错误均立即尝试pull并新head非强制重推成功。
 
@@ -40,7 +40,7 @@ R768旧r1窗撤；正确3b0+degQ0≤4r+2、强窗r≥3k+2。R782/792非零q0原r
 R790保移动H/原q/ell1,2，实际factor Schur βHP=Δ/p；ell2完整左对含n²τ与−τ(C_ell)，C_ell=(6/a)Hcal^-1QeV²。全障碍/native/非F²余列、两13及高尾均保，不scalar化q或猜Smith指数。
 R808同R原点二光滑支λ与2λ/3、δ=h；近支仅h+r，零亏m_R=2。ell≤r全短式−3B(z−λ)(z−2λ/3)，远支=(ψ+2g)/3、normal±a^-1w^hCu³；原轴单位函数/下一阶native保。全局仅2h≤BD.C，局部分裂不代全局分量。
 R813/R822：原k0,s=2h+r,r<h且同M primitive p³→同R J p²。覆盖C×E0的真实u=−x/y给Omega_R=t^r(ER)|C(dζ_F+xω0)，首p−1系数γ=−5(6h)(6h−1)q0u0⁴/(34ae0)unit，物理b^s。准确Xi=Omega/u^p下降C，ResP=γ/6；IBP后非固定tame分歧极≤m−1，真GRes分子W_sFt²E²R/Y²。FH列化Trace_Z(W_sFtH)：光滑可非零，奇点总迹零；未固定jets的H2→Z满射不代mirror/联合核。完整γ/6+G_F(R)+B_F(R)=0保六纤维/十九角/水平框/剩余域迹，Cartier非零不代全M左余核。
-当前需把同R全部行固定后的res_Z Kmir≅ev_Z kerα与上述迹及全部边界联立。q=T−h>κ时α*由H0(ωC N^-1(qP))对原B0/(2η)+EH配对；真B0→Z在h>κ时单射，不能自由拆值/导数。
+当前联立同R全部行固定后的res_Z Kmir≅ev_Z kerα、真分歧迹与全部边界；α*读B0/(2η)+EH，B0→Z在h>κ时单射，不自由拆值/导数。[对数主部接口](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：原mirror迹已准确写为−Res_P(AH de/e)−全部边界；同真实长轴的候选主部2Aηde延拓当且仅当对全部H1列留数为零，且唯一。短M额外十三行在r≤11必须保留；即使延拓也只付α*两项相消，未证明裸迹落α*像或指定同R障碍非零。
 
 ## 原全nef几何与profile门
 
@@ -50,8 +50,6 @@ R825原次数帽a≤4b+e−m、z≤min(2,e−3)给r2/k0的p≤24(e+2)D+24e−493
 R827精确κ=47b²/12+2bτ−Σ_Nm_i²/n_i−V，0≤B∞C−e≤√(47V/12)，全原r2 τ≤13/4。临界κ/b²→47/12迫十九μij/b→1/ni、u/b→1、e/b→47/12。完整整数来源B_D.C≤D(B∞C)+35b/6；p>47b²+156b+38支付全r2 profile（含H和R802唯一+1）的一维核kG及下一单位行。真实Δ/p仍未知，不代全M。
 R787短/全门h−11>m2与h+1>m2；R795/802全profile门h+1>B_(b+ε).C，不得用较小H0(C)的h>κ替。R805全部已分类profile的h≤6γ+2a+10b+2z−6及R743两连接359κ/96 unit保；均未判指定forcing。H3 Serre行不自动杀全部WD。
 
-## 普通及其它保持的主门
+## 其余主门与完整原接口
 
-普通q*=R734、50/58行、两核六支及旧ray两η/全N/13/19按全文保；q≠cd。R749有限carrier、R753禁无限投影、R533/540负矩反射门保。R773–801全EYW深/浅/外补保；R780§6(28)撤，R786 NormC1。R800同Ψ不增central；R801/807/809负二仍三I线性和/ζ伴随，CM13可逆不代非零。
-R812 A=S(2z)/64、B=U136−A保每前缀/Smith/13carry，SB体积D²/10、canonical i≥4j；纯起阶不改主项。R756/758预算177/47最优；R760三维仍缺同源central传播/严格aI+3bI<6。R769/770全ζ/两ε、R775增帽及R779/781有限unit前缀保，不复跑。
-R709单位/flag门141/2、297/20未覆盖47/8；R736全Hecke/2048类仍缺C_pv∞p非零/central→边界/annulus o(p²)。O4早项a≤1/δ²∞p、O6全Np有限/λ≤3∞p、supersingular二次regulator、quartic/O3/O7均开；AST/strict/fine/深节点不代全Selmer。全部撤回文献推论见全文链。
+普通R734同q/50与58行、两核六支、原ray两η/13/19，R773–801完整EYW深浅外补、R780§6撤回/R786 NormC1，均按[前检全文](notes/2026-11-15-frontier-before-r829.md)及open继续。O4全Hilbert迹早项、O6完整Np/λ≤3、quartic/O3/O7、R364/R561/R654/R712、supersingular二次regulator仍开；AST/strict/fine不代全Selmer。R812完整同charge/Smith/13carry、R756/758预算177/47、R760三维传播、R709/R736单位/flag/annulus门及全部未付项见同归档，不因压缩关闭。

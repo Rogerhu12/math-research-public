@@ -94,7 +94,7 @@ R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601�
 原M=c*U0w13J、P134/charge40、13free/26carry、十九角、conductor10980、p²/p³及所有余列完整保；低行右逆须保高尾。同R*+Kval继续全部normal/两13/d₂，不能将v_F=eξ自由选取。
 R782/792非零q0的r2/3/4、k0和零q0移动H分类保；r2零支q=Yqtilde且degH≤2。R799/803/810已排r2全部q的b3/b4全部p，剩b≥5，不外推随p增长b或未分类支。
 R790含完整H/原q及ell1,2；实际factor βHP=Δ/p，ell2全左对含n²τ−τ(C_ell)，C_ell=(6/a)Hcal^-1QeV²。native、非F²余列、两13与高尾未删。R808同R两个原点分支δ=h，近支仅h+r；ell≤r全短式、远支(ψ+2g)/3和normal±a^-1w^hCu³已付，局部分裂不代全局分解。
-R813/R822把原同R的Cartier单位准确下降为C上Xi=Omega/u^p，ResP=γ/6非零；分部积分后真实非固定分歧GRes分子W_sFt²E²R/Y²。FH列的实际Trace_Z(W_sFtH)在光滑分歧可非零、奇点总迹零；H2→Z满射只有在未固定jets时可用。当前待付mirror/联合核上的迹与十九角/六纤维/水平边界同像，完整γ/6+G_F(R)+B_F(R)=0不能只留原点。
+R813/R822把原同R的Cartier单位准确下降为C上Xi=Omega/u^p，ResP=γ/6非零；分部积分后真实非固定分歧GRes分子W_sFt²E²R/Y²。FH列的实际Trace_Z(W_sFtH)在光滑分歧可非零、奇点总迹零；H2→Z满射只有在未固定jets时可用。当前待付mirror/联合核上的迹与十九角/六纤维/水平边界同像，完整γ/6+G_F(R)+B_F(R)=0不能只留原点。[对数主部接口](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：原mirror迹已准确写为−Res_P(AH de/e)−全部边界；同真实长轴的候选主部2Aηde延拓当且仅当对全部H1列留数为零，且唯一。短M额外十三行在r≤11必须保留；即使延拓也只付α*两项相消，未证明裸迹落α*像或指定同R障碍非零。
 R815全Mori/nef锥、原S无基点已付；R819/R825夹界(b−m)e+bm≤κ≤2be−m²、χ≥2b+m均保。R823整个最小面给完整整截面/dualizing基，原r2得p≤120D−421；R825给p≤24(e+2)D+24e−493+24min(2,e−3)，故有界e与固定近最小余量排除。尚存真正e随D增长的二次区。
 R827全r2 τ≤13/4、准确平方差及B_D.C≤D(B∞C)+35b/6，使p>47b²+156b+38时整个profile核kG/下一行unit成立，实际临界比下最终自动成立。它保R802唯一+1角成本与移动H；仍须证明唯一Δ/p非零并接入全M指定左行。R795门h+1>B_(b+ε).C不准换成小H0(C)的h>κ。
 R805全profile/tame/最高移动极的h≤6γ+2a+10b+2z−6继续有效；R743两连接单位秩不代指定forcing。H3 Serre行须先核全部原WD列才是可用左行。

@@ -84,3 +84,5 @@
 - [R828](../results/R828-original-four-high-axis-reflection-and-native-central-compatibility.md)：R828付四原近顶轴全精度C_r=H_p(−8)^rP_r(p)−8^s、两平面关系和实际参数恢复；原a_p=6(p−3)H_p/(p+1)+pR_low，完整低卷积与q_p(2)三阶进位保，模p H_p=−a_p/18。原w三角整运输给u*=a_pv+χ2z，四中央必要b+a_pB4v+χ2B4z=0与全p⁴相容检验、同native Schur均准确；未证实际b违背约束，不以两参数式代原非零。
 
 - [CM–PR引用范围核查](2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)：已亲核BB arXiv v1的CM–PR引用范围：BDP12 Thm2仅type(1,0)、Thm3.12明确k2/rj0，Remark6未付原(2,−1)；Kato–LLZ全Iwasawa身份不单独给指定特殊化非零。该引用链暂不支付原λ局部非零；不判断BB结论错误，刊本全文尚未取得。
+
+- [原mirror迹与十三行尾带](2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：原mirror迹已准确写为−Res_P(AH de/e)−全部边界；同真实长轴的候选主部2Aηde延拓当且仅当对全部H1列留数为零，且唯一。短M额外十三行在r≤11必须保留；即使延拓也只付α*两项相消，未证明裸迹落α*像或指定同R障碍非零。
