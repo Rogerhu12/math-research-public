@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CS：按shape/mean和两个伴随范数分付完整97行](results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md)：精确角差只依ζ−j0〈ζ〉；旧K*L2≤108、导数≤2^16分别收费，给完整unknown-high/mean scalar row费，actual K*仍独立。尚未代入新的真实cut scalars。
+
 - [G actual：完整factored transport与companion源界](results/R133-supplement-actual-factored-transport-and-complete-companion-source-bounds.md)：43714194714/1 child0、25门、7/10完整term改善；first<5.536012e14、独立mean<3.338316e12、pair<5.536113e14，13first/8mean及全local逐字B。原两窗/mean/真实dr/root包络保；仅新scalar，不授strong-return。
 
 - [F：selected parameter 的完整 finite193 scalar 反馈合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)：真实 ordinary g、right p 与原完整 signed a/c 四列保三输出窗；κ0/κ1/5分开三门后转移，给严格充分阈值并保所有ν/waist/high独立义务。最终Green成功后才运行，不预报过门。

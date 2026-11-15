@@ -59,6 +59,7 @@ C0≤1/32只是cutoff97的充分目标，当前volume upper并非这个Cs。
 [Cδ完整97行参数转移](results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md)
 现已证明fixed旧K下|δ|≤1e−10时全even L2输入的97行差<1e−4；用真实HC*及旧伴随H1，
 mean/unknown high与signed m保，无sqrt97；actual K*差另加max(sδ,1)cδ/5，不能把新图冒旧K。
+[CS shape/mean分付97行](results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md)进一步分K*L2≤108/导数≤2^16，仅角换导数付后者；真mean与unknown high全保，实际cut六标量待新消费。
 [Dδ体算子与finite193转移](results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md)
 现给完整M1∂φ+M0差、系数带192与LH97..288，并保真intrinsic Fν、global ΔAZ与边界负ΔB Z。
 双输出矩阵[[gB e,pB εL],[gC e,pC εL]]的三门才给sameδ有限逆；gY为普通源增益而非aY，

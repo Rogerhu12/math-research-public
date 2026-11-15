@@ -142,3 +142,9 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 两README在b5e705eaa55e6721c2e7cab5652e2b7a67d57c23亲核未变。root亲读43714194714/1完整小execution5e5f414a/42646B和result0dff8993/15746B，源a705c2b4/manifestbbfbdbc2/worker68cf6bf2精确；child0/25门/math.171296691s。7旧receipt、44pin、1328完整旧row和同6row、18coeff、8wholeword仅读；新10wholeterm中7改善，其余三保旧。逐payload确认13first/8mean/所有local aggregate完全同B，无多余改写。报告e412153c/15201B保全部新比较/31账/5aggregate/域/计数/失败空及source-to-wave未付范围。
 
 最后真pull12:31:11.540373→cf37396cbe2b5065de2501b203b83830731f260e，根/题diff均空。原topic198602517B/14089blob，此run两小结论投影198660909B；只为该提交时点。完整预Git stdout42795B/45b3ffa1，temporary native27369B/e9fe0bc3不持久化。成功锁定不重跑，继续complete coupled readout/strong-return及原local主导项。
+
+## 2026-11-15 12:41:02 UTC — CS完整97行的shape/mean细分
+
+两README在22fde7d52b9fbd8acc44643d220305ea1acc20b7亲核未变。新CS/06ec6f0a（12573B）由原Cδ真实adjoint与local moving identity逐式分账：U0/U1/V0/V1、真M及Wiener shapeS0，T=S0/12保fourfold primitive；known cap test的zeroth≤108与first≤65536分别使用，仅q1取导数费，完整local/primitive/mean/unknown-high和新capκ另付。newton独核CS10–26/28所有有理系数通过。final仅澄清前四输入可取pointwise bound（A0亦足），shape仍必须A0，CS9无范数混淆。无新数值运行，待同193 cut真实scalar后一次加入尚未执行的finite feedback。
+
+另亲读Green v4 12:34 process4b718094/39121B：真pull12:34:25.094824→c22c2e7e，两README空；future2480=1886旧+594新/past448/product560/groups0为各自最后报告，childreturn仍null，combined较早2464不当终值。
