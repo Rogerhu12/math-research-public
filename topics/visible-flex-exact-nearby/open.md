@@ -89,6 +89,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [SA完整有符号仿射接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba已root全文/双peer核。D0 value方程的Hessian准确相消，原formal普通Gram直接用，不重复WH；完整97保真实outer/均值/jump/selected Sδ左缺陷。新IBP+knownforwardΘ三类128physical moments共同供97列，完整指数/径向尾仍需actual。SA24保γδ/center差与signed源关联给实际bδ，SA22保ordinary/Gauss/端/左/outer全部费。新vector/actual误差与小门待，原QR/7908 residual norm禁重。 新SA29–31将known端变−<zL,ΔWδL>、左误差变eLδ·(yL−ΔLδ)，从而knownselected端仅用两forwardΘ矩；SA26改用tildeB，完整ELδ/两mean不消，Yδ可宽用YL+||ΔLδ||，不能冒全体trial recenter。
 
+[SC精确径向扣除与完整known-cap矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2：$W_{\rm ref}=(0,1/s)$同时从known body及两端减去，三类128完整物理Fourier矩共享给97列。centered $C,A$正确保mean；角指数完整tail、径二阶Taylor和whole third remainder，准确积Hermite交段。SC18a逐7908原row验单candidatepiece及其原midpoint；root核原core.from_saved689bf2c5，无跨片延拓或假新intrinsic中心。selected端原193/修补/固定角，target费96无sqrt97；A15原proof1311fa38核repaired外端1.3e−15/2.05e−19及全f球，height不双算。原unknown y/Yw/rho/ZR及所有formalGram/left/outer/jump/mean fees保，旧QR/7908禁重。新SCI准备中，未授actual affine小门。
+
 ## 5. 新94链、真实B collar和实际body种子
 
 [P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、[G真实B种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)、[F固定输入body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、[RG粗γ种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)已给同真X/H值图及首q transition高度jets/Hermite lift。全部awB/κmean/globalλ/三径ordinary源/broken第三第五jet、四态B迹、94步和精确指数逐字保00dfdc3c4b4fa92ca88705b490ac4b01f01a3686本路径本节；不删未付义务、不重成功数学。

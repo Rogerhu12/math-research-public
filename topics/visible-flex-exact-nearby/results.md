@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SC精确径向扣除与完整帽仿射矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)：三类128完整Fourier矩共享97列，二阶径Taylor/完整third与exp尾；逐7908单candidatepiece/原midpoint强门避免跨片漏洞。A15 repaired外端两费/全f球及unknown全部预算保，actual新积分待。
+
 - [DR首实际失败与已成free产品](results/R133-supplement-actual-strict-Darboux-receiver-failure-and-preserved-free-products.md)：43748529142/1 child1/21已过门，旧wholeK严格负号未证；domain、两R/p全moduli和四ΓwΓp H−1成功锁，不能把late0计数当0math。原SCI与preGit精确复原；g/physical未算，高导数组只hash不可假复用。
 
 - [SN第五实际停止与已成prefix](results/R133-supplement-actual-signed-density-interruption-and-preserved-prefix.md)：43746794222/1 metadata502终止child，科学failure=null；1256新subcells和双四error成功锁、完整SCI SHA精确复原。记录lost365535907B reference/source仅hash；限定只重建丢失nominal参考，禁重已成误差预算，完整C仍待。

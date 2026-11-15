@@ -266,3 +266,7 @@ SCI c296d256be72fac4f7b7c4f1e5d82c10437b550b/45808/SHA8f8553ca9da27962c8e907eeb9
 ## 2026-11-15 18:56:00 UTC — DR首运行失败门与四个成功free receiver分别锁定
 
 root全文核phase actual报告19437B/e3a5faa4；公开43748529142/1 child1/21gates，31pins/8AST均过，仅旧wholeK不能证strict−K。完整science13623/1dbae62c与preGit28388/a5263408精确复原，三完整JSON和23球逐字一致、jobs3240/8881b6b5核。domain/R2,R3/p2,p3/四ΓwΓp成功，late counters0不作0math；高导数组仅hash，temporary{}，g/physical尚未算。原body member实1167787B/ada96633；samegerm rc→root/νbump0只域核，不预授signedK1。下一新g-only只读已成moduli，保持J原窗/P⊥/两mean/单位；其余normalizers/incoming/R0未付。原IN完整内容归档2f8be6b634ed5786e0c0fa963f28d061df40d396同H/open，成功禁重。cf1f802d51a439aea222de6f201a85dd6862d5ce双README原blob未变。
+
+## 2026-11-15 18:57:43 UTC — SC完整known-cap affine解析合同
+
+root读SC完整初稿并对v2仅SC18a差异核；双peer分别核径向精确扣除/三矩/所有端号与mean、Taylor三导/target96/外端fee。亲读原core a7ff6a1f/21822/689bf2c5 from_saved，确每原row单candidatepiece且ownmidpoint；新consumer要求逐7908重验该数据门，不授跨片延拓。亲读原A15完整proof80c56756/12356/1311fa38，repaired1.3e−15/2.05e−19/反射Bmean0及全normalized fB dotA²≤2^-60域保持，height不双付。final SC20669B/927c3ba2，只解析新合同，actual新moments与小门未跑；旧QR/Gram/7908 producer不重。H尾部归档21ad67119ea940c72c368c7874c9d0cba01b3f99，全部源/域/失败/恢复保留。e52e49272ed65e95bb6940b8334a4a71714f48fd两README未变。
