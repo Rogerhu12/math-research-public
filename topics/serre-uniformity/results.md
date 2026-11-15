@@ -412,3 +412,6 @@
 
 
 - **R809（证明/执行契约已完成，实际坐标待Actions）**：[原S5正规向量与有界乘法认证](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[契约](notes/R809-original-S5-normal-coordinate-consumer-method.md)。原1234列S5、69阶×20=1380行，共用一个真实新minor；先原R803/R807六个τθU_j的84Q右端，R787成功后追加A/B28且不换公共身份。保82^10、原b/s两块及B_fld=λb换基、τ因子最高项零；只补所需缺尾。实际normal向量经Mw的cyclic first-column/commutator及weighted bound给唯一乘法；只有限域数值Krylov逆，A/B各8点、r4各7点插值。尚无S5实际minor/新坐标或极理想。 proof SHA68793d3f3911d6c2ab3d530575634a70953580c221c4c4fed5fa542a2ed88a40；method SHA88aed12d9e958601faeb45a47e46097942801d69a5ce4aacb4bce6c4ca9153ce。
+
+
+- **R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope待真实R806/R809 A/B。 proof SHA263d8a15085c3fc053dac1df546ad0c3efb565d67ce312c78ec6e5ddb4dccf78；method SHA5b4b736071600f4b8d4b58d9028f54dc48be852584c61e865d18885f4b608d7d。

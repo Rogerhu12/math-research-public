@@ -79,6 +79,8 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R809（证明/执行契约已完成，实际坐标待Actions）**：[原S5正规向量与有界乘法认证](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[契约](notes/R809-original-S5-normal-coordinate-consumer-method.md)。原1234列S5、69阶×20=1380行，共用一个真实新minor；先原R803/R807六个τθU_j的84Q右端，R787成功后追加A/B28且不换公共身份。保82^10、原b/s两块及B_fld=λb换基、τ因子最高项零；只补所需缺尾。实际normal向量经Mw的cyclic first-column/commutator及weighted bound给唯一乘法；只有限域数值Krylov逆，A/B各8点、r4各7点插值。尚无S5实际minor/新坐标或极理想。
 
+**R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope待真实R806/R809 A/B。
+
 ### 全p sigma：同一个真正可见标签的三个单位
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。

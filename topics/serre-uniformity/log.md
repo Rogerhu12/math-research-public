@@ -20,3 +20,8 @@
 ### 2026-11-15 19:46（Asia/Taipei）｜serre-public-astra-20261115
 - 登记R809完整证明/契约：root全文核1234/1380注入、原θU清极/τ最高项零、λb到原b两块换基、固定矩形重构与分层目标；有界commutant/实际cyclic给唯一乘法，ordinary独立核该引理。proof68793d3f/method88aed12d，无新数学计算。
 - 先六个真实清极目标84Q右端，后R787真成功追加A/B28，不重解已成列；实际θ的λ3/4零，无不存在的pair尾输入。R807实际结果已推7c9e3ff5，R809core/真实wrapper继续。
+
+### 2026-11-15 19:49（Asia/Taipei）｜serre-public-astra-20261115
+- R811完整证明/契约登记：root全文核齐次平凡化t^r、unimodular全核及逆时间左乘、两图次数与Laurent互含；原主函数/Norm/三同源常数不因理想HNF丢失。proof263d8a15/method5b4b7360。
+- 实施采用R809已证weighted bound后九个固定准确点，证明r5 commutator全部系数零，first-column逐系数；非随机点筛。原五函数微分未实现仍明确待后继，首core只做实际A/B乘法入口，不预填极除子。
+- R809两稿已推51e7cb4a，root继续core全文审核、代理真实源IO；H逐字归档压缩，R806/R787继续，主目标OPEN。

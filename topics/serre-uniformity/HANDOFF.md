@@ -4,17 +4,17 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：6a58c68481a6541a2a5e0c4094cb8b237f7f555d**（2026-11-15T11:49:02.288236+00:00 实际pull --rebase；根/本课题README无差异）。
+**已读规则提交：3ee8c03b4dae6898e7054bd7dad0d043b94b37e3**（2026-11-15T11:50:38.481003+00:00 实际pull --rebase；根/本课题README无差异）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
-10:50UTC终端失联时按根§8小文本集成；11:30恢复，新部分clone/pull后改回CLI。此前完整状态/公式/source/run/SHA逐字保[R807实算前H](notes/2026-11-15-handoff-before-R807-result.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
+10:50UTC终端失联时按根§8小文本集成；11:30恢复，新部分clone/pull后改回CLI。此前完整状态/公式/source/run/SHA逐字保[R811前H](notes/2026-11-15-handoff-before-R811.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
 
 ## 正在运行与立即消费者
 
-**R787** run43683912711/sourceeab5e58bbf951c48ccf13a109bbdf0b0289a6f23于11:06:48UTC BudgetStop，无完整关系；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04不改。artifact14159006977，5,148,711,108B/SHA32652fdb，manifest613f436b/1517项；同核续算run43708449812/sourceac5998f3已运行：wrapper42157e0d/request583e43be，逐1517输出及1372原输入真SHA后保每prime最新完整Dixon/全部其它stage；旧大向量仅SHA历史。数学核/prepare_inputs/producer身份不变，success不裁证书inventory。原V5=1234、129条件/14分支全L；成功立即接R792，不改用R802。
+**R787**：[实际BudgetStop及同核续算](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。旧run43683912711/sourceeab5e58b、core93d3d72b未改；5.15GB断点artifact14159006977的1517输出/1372原输入逐SHA后只保每prime最新完整lift及全部其它已成stage。当前run43708449812/sourceac5998f3、wrapper42157e0d/request583e43be运行。原V5=1234、129条件/14分支全L不改，尚无A/B；成功立即R792，不换R802。
 
-**R792** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)及工程冻结，仅pending待R787。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d/wrappercdac2e93be2082ee9a9401db44c944689a6d853d541b0819a4d1408c84134b3e。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根；21次Q分解唯一奇因子+三次gcd。先原CM值/首jet，四值全零才补高jet。只真β_C/vβ，不选原A有限核前像。
+**R792** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)及工程冻结，仅pending待R787。core7b7a5483e560f2d2/wrappercdac2e93be2082ee。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根；21次Q分解唯一奇因子+三次gcd。先原CM值/首jet，四值全零才补高jet。只真β_C/vβ，不选原A有限核前像。
 
 **R803已实际成功**：[结果](results/R803-certified-original-M6-mixed-Hodge-ratios.md)，run43702905620/source2a3f5be7；694块p1000000007/det637607829，84右端均368 Dixon位/full1680，2127.991746秒。31输出manifest/781原输入经冻结verify全核。artifact14158313322至Nov16 10:47:43UTC；cert9b2854ac。84列不重算。
 
@@ -35,6 +35,8 @@ R806 run43707290840/source75b1d56c已运行，[primitive契约](notes/R806-origi
 **R807已实际认证**：[原清极结果](results/R807-certified-original-M6-pole-clearing.md)，run43707939269/source2c44d025；375.019515秒，962minor p1000000007/det290159643，真实残余rank2/kernel3。θ=e0−112648621e1/282292255+223442698e2/282292255；λ3/4零，无新增pair尾。五投影488位，成员690/691/693为336/464/472位，692旧投影组合；四full1100。1003manifest/997原输入经公开IO run43709814489冻结verify全过；cert2680e922，原artifact14159481627，小续接14159593339至Nov16 11:37:45UTC。
 
 **R809证明/契约已成**：[S5正规向量](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。1234列/69×20完整注入；先六τθU_j的84Q右端，后R787真实A/B28追加，不换公共身份。保82尺度/原b/s、λ换基及τ最高项零。有界commutant/真实cyclic唯一认证乘法，模数值逆不作巨大Q(z)逆。core自审及wrapper准备，尚无新坐标。
+
+**R811已证**：[完整极理想前像/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。r5九固定点＋weighted bound准确验全部commutator；第二图t^r D M D^-1。unimodular列核投影给满前像，Laurent互含与τ全长＋σ零纤维长度验全除子，不拆闭点/不重计。原DAG常数不随HNF首一化改变；微分桥仍待实际输入。core首scope准备，须等R806/R809真实A/B。
 
 R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号备用m≤8/N≤202仅真选时补V8 q196..201。R793/R798 V3/V6 span/colon/flip和原主函数保持；真实η、对称代表二挠比较、c0刚性化及高度仍缺。
 
