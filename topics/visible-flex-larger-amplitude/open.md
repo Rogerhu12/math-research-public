@@ -92,6 +92,8 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [连续C固定power4十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)明确在原R323准确基底追加ξ，support1=[L0,L0+δA]，h=δA²·64x³(1−x)³(2x−1)^4，同表达三jet/零延拓/C²与准确自然L/公共u保持。独立factory十项表、degree10完整域、新numeric(3,10)/物理层(0,3,10)、七shape固定453和全冻450接点已列；原178 LiteralTenModel硬复制旧base/mesh/J，不能仅换profile冒新C响应。设计没有实际参数/域/求解或门；support1 ξ不能代coast参数修复，180独立继续。
 
+[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已核原core/准确C/全根族/cut/R323窗口/九个准确dyadic系数，证明165反证适用于169及179冻结初点的同一准确目标，不冒literal IEEE结论。numeric416明确coast，但未返的accurate分支列表不补称唯一。该段只有p3/theta3/eta3直接作用，L不随九系数变；中心−κ+2LC·theta3及其必要带已证，未代入实际LC/中心或推全搜索无解。180恢复原165小绑定与历史core，在同准确构造上真实缩放coast三系数并重付全部域，输出可供完整BVP的新参数；support1 ξ不代这项修复。181独立实现R380全角传播，均不修改179或新增接受前门。
+
 ### 3C. 当前C自己的零场与完整453非零BVP
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。

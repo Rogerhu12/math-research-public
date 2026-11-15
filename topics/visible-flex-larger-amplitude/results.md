@@ -334,3 +334,6 @@
 
 
 - [R380. 完整Prüfer实角lift与取向Robin包围](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)（已证条件定理）：同原C的全实角与两自治比较流在有限有界系数下全局存在，保log正幅度/圈数和正二幂换帧；相关范数下界支付物理非除式单位行，原QPi须完整变换。小步正内积/Taylor余项给可实现外包核；DN仍另付全cut高度隔零，不保证实际精度或native/全场完成。
+
+
+- [R383. 准确R323同一目标与coast控制必要带](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)（已证身份/解析结论）：完整原core/C根族/cut/窗口/准确九p一致使165的严格speed反证传到169/179初点；不混numeric分片标签与准确唯一分支。coast只受p3/theta3/eta3，中心速度−κ+2LC·theta3给必要开带，未代入新数值/证明全搜索无解；原小字段可在Actions重建同目标供180真实修域。
