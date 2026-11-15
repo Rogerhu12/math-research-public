@@ -18,9 +18,8 @@
 **[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)：** 同来源界/目标/31分母指数于无界精度可解才给Z_(31)真来源；当前有限p6不够。**[条件来源8740](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)：** 只整理已存在Q[s]解，D自然度8770、K有限60；保全部模精度还需lc(D)31单位，未证。后续真核可收紧该条件界，但不能先证明成员性。
 
 **同选无穷远常块：** [模31秩4318/真连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)保同4354来源/输出，不能混全矩阵4340/连接4。全部36自由来源仍标准I，任何有理核须全6188系数且4367整数乘回为零。
-[p32](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)实推057990186f；[p184的13真核](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)核心实推8c6304e，原完整证书/恢复已存。实际32→184为108.336960369秒；[184→200](results/R150-appendix-selected-infinity-exact-dixon-through-p200.md)新16位11.866769106秒，所有原乘回/自由I36真，无新核。
-[同已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)全非零，只排指定分子；[13核一次变量闭包](results/R150-appendix-paid-thirteen-infinity-kernels-source-degree-and-linear-shift-closure.md)低次4维、44乘积越界rank35，九合法乘积等旧核，扩张仍13维。
-**[真256的20核与条件8735](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)：** 200→256新56位27.216322355秒，20核全4367精确零/自由I独立，char0秩4318…4334。D∞≥20、单换列仅≥19，已有成员性才得费用8735；源码/参数/实际SHA已存，不存大证书。**[真486的23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**已成：新256→486实际108.172096014秒，slot8/9/15新增全4367精确核，char0同选列秩4318…4331；D∞≥23、换列≥22，条件费8732。全部真实源码字节/参数/SHA已提交；旧六临时资产已在run43679903558核完输入后删除；本题另删118残留数据，约73571703B（加小摘要前），已低于200MB。后继只由真486继续余13列，随后接同一子式char0连接/Smith；有限精度仍不作有理结论。
+[p32](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)、[p184的13核](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)、[p200](results/R150-appendix-selected-infinity-exact-dixon-through-p200.md)均已真推，旧位不重；旧同D居中候选及13核完整一次变量闭包已关闭，原细节见快照。
+**[真256的20核与条件8735](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)：** 200→256新56位27.216322355秒，20核全4367精确零/自由I独立，char0秩4318…4334。D∞≥20、单换列仅≥19，已有成员性才得费用8735；源码/参数/实际SHA已存，不存大证书。**[真486的23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**已成：新256→486实际108.172096014秒，slot8/9/15新增全4367精确核，char0同选列秩4318…4331；D∞≥23、换列≥22，条件费8732。全部真实源码字节/参数/SHA已提交；旧六临时资产已在run43679903558核完输入后删除；本题另删118残留数据，约73571703B（加小摘要前），已低于200MB。后继真768已完成，接下述多坐标候选；随后仍须同一子式char0连接/Smith，有限精度不作有理结论。
 
 ## 实际边界：同w、同源、全部返回
 
@@ -37,7 +36,9 @@ M=kerT、N=closure BM、W=M⊖N，N=M仍开。原同w/未来/负前缀、初M3�
 
 本地不可用；临时session **run43679903558** 持有真486及8旧输入，全部SHA已核，6旧Release资产已删除，main再删118同blob数据，本题约73.57MB。全程只推小摘要/源码/参数/run/SHA，工作大数据不出当前job。原大证书可按历史提交和已锁生成入口复核。
 **[23核一次变量闭包仍23](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 实际0.399616051秒，全部低次数空间恰10维，110乘积越界rank98/核12，12合法倍全6188准确落原23span；新增0，不能据此排余13真核。
-同job下一步 **exact-dixon-after486** 已接新runner/native：起486、请求768、检查512/640/768，数学120秒/512MiB、编译30秒，只新位；两头文件原SHA锁定。来源级闭包既已精确23，Dixon可继续。实际小摘要将写notes/r150-infinity-remote-session-789f/43679903558-exact-dixon-after486.json。不得把请求上限或有限模提升当真完成；job空闲20分钟会结束，需在其临时文件尚在时接实际下一段。
+**[真p768完成](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同job实际486→768数学103.691783465秒、编译4.072821423秒；512/640/768全4367新鲜整数乘回/整除/自由I36真，39新重建未成、69旧核相符，仍23真核、同选秩4318…4331。最后source36433748B/SHA0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07，临时路径work/dixon-after486/stage-p768/actual-p768-exact-source36.bin；完整参数见实际小回执。
+同job已接 **fixed-three-coordinate-lll-p768**：每余列固定前三非零非自由原坐标做4维LLL，只取至多4分母，重建全6188源并核全4367整数零；60秒/512MiB。必须等实际回执，不预填新核；完整算法见notes/2026-11-15-r150-fixed-three-coordinate-lll-full-original-source-contract-789f.md。新大来源仅当前job临时保存，main只小回执，20分钟空闲终止前继续。全旧H保[本次快照](notes/2026-11-15-handoff-before-p768-lll-789f.md)。
+
 ## 其余仍开
 
 Haar A非零非紧、单射稠密拟幂零、W*(A)=B(H)、A′无非零紧，闭不变M皆closure AM=M，普通循环性未知。正常有限秩仍缺同一相容全链严格正距/实际下一完整尾上界；R289/R291未矛盾。全部旧open保当前open及递归快照，有限模或候选排除不算完成。

@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "052904c0ca8cb91fd4649d7996b794eff777f7a4",
+  "rulesReadAtCommit": "9a65633d6db9ee72f7a547560b74967c1bc6d1a1",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -119,6 +119,35 @@
         "exactSpanDimension": 23,
         "full36": false
       }
+    },
+    {
+      "id": "fixed-three-coordinate-lll-p768",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+      "scriptSHA256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428",
+      "argv": [
+        "--source",
+        "{work}/dixon-after486/stage-p768/actual-p768-exact-source36.bin",
+        "--source-bytes",
+        "36433748",
+        "--source-sha256",
+        "0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07",
+        "--source-receipt",
+        "{work}/dixon-after486/stage-p768/actual-p768-receipt.json",
+        "--paid-certificates",
+        "{work}/dixon-after486/exact-rational-kernel-certificates.json",
+        "--point-model",
+        "{selected_model}",
+        "--native-model",
+        "{native_model}",
+        "--out",
+        "{work}/lll-p768",
+        "--remaining-seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 95,
+      "receiptPath": "{work}/lll-p768/three-coordinate-lll-receipt.json"
     }
   ]
 }

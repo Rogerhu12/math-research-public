@@ -1,24 +1,22 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "052904c0ca8cb91fd4649d7996b794eff777f7a4",
-  "createdUtc": "2026-11-15 05:17:26 UTC",
-  "message": "ISP: prove full linear source closure of23 kernels and continue exact p486 digits",
+  "parentCommit": "9a65633d6db9ee72f7a547560b74967c1bc6d1a1",
+  "createdUtc": "2026-11-15 05:30:44 UTC",
+  "message": "ISP: prove exact p768 continuation and enqueue full-source LLL candidates",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-through1024-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume486-runner-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-resume486-actions-interface-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-resume486-small-source-manifest-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-dixon486-session-launcher-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-fixed-three-coordinate-lll-full-original-source-contract-789f.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-selected-infinity-exact-dixon-through-p768.md",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-remote-session-request-789f.json",
-    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-p768-lll-789f.md",
+    "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

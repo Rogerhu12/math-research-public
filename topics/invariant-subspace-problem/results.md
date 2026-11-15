@@ -513,3 +513,5 @@
 ### R150 附录：23条真核的全部低次数与一次变量闭包仍为23维
 
 [自足证明](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)对完整来源先证低次数空间10维/top rank13；110一次乘积的越界块rank98，12准确零列穷尽其有理核，全部12合法来源倍均经6188坐标核为原23列组合。因此允许所有越界抵消后的闭包仍23维，无新核。实际run43679903558数学0.399616051秒，仅来源运算，不重Dixon或原乘回；完整脚本、参数、run和SHA保留。
+
+- **同36原来源精确Dixon至p768。** 见[完整证明](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：run43679903558从486仅接新282位，512/640/768全原4367整数乘回/自由I36通过，仍23真有理核、同选列char0秩4318…4331；39重建未完成不作无核判定。脚本/参数/run/SHA保留，工作大数据仅临时。
