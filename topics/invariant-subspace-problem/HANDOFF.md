@@ -29,12 +29,11 @@
 ## 活跃执行与恢复
 
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
-- 旧P Hermite/localized爆长路线失败：19行后另57步MemoryError，候选未验证、无Ω，完整恢复身份保前态；不盲续。
-- 新minor并发失败已立即重拉重推；历史字典/五输入全核保前态。
+- 旧P Hermite/localized失败与minor并发重拉恢复身份保前态；不重走爆长路线。
 
 - **[全56单核Bockstein已完成](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒、21paid/2870square/42RHS/56Ax/56纠偏全真，g=f60、Ω=f²。exec7fe5575b，raw4927B/93bcf19e，binding3456b533，gen54；临时cert39654723B/147a40fa/payload0ca29224。源码49a8a83e/全部pins见interface；旧177MB replay状态仅流式SHA核，不重core/det。
 
-- **全局197真R2：** run43772109844始22:57:13/350min，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；14原件实际8.054750272秒全核，raw5199/8323772d。step2[完整消费者](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)排600秒/4GiB、源码fc1bfafd/closure9071f4a3，31×7保原p³÷p²/全505/315/J/DAG。r未填；完成才用t2=r−2、Δ≤306−r/μ≤28−r。数组只tmp，旧live与每步pull核规均保。
+- **全局197真R2：** run43772109844始22:57:13/350min，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；14原件8.054750272秒全核。[消费者](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)首600秒实际582.40937125秒/75：K2…125全124列与26stage完成，b05-q1真checkpoint。raw29698/978cf538、outer68e2ece0、binding3cdbc436；同源码fc1bfafd/同out续step3-resume600，不重已付。全197/505/315/J闭包才报r和t2=r−2、Δ≤306−r/μ≤28−r；数组只tmp。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
