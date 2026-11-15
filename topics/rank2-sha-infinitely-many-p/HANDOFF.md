@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：dc752ac7ec2d0b088d736aab5058d01470db602f；2026-11-15 18:13:43 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:02:28 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
+- 最近已读规则提交：31e2a9bf985007ac16a37778a040b944f9bcdd6a；2026-11-15 18:26:43 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:26:41 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -12,16 +12,15 @@
 
 ## 完整归档、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r809.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r810.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 
 R1–363、365–560、562–653、655–711、713–807、809已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
 root唯一metadata/ref写者；root 原二阶真实负矩；deep R808原完整指定配对；theta 原负二的全同源局部与中央传播；literature 原全局类的严格局部核/真实补域。完整证明一成即单独推，随后继续未闭门。
 
 ## 当前执行与未推状态
 
-R801/R803的正式run43739961915/job132890717650成功，producer/参数/hash见两篇原证。R803替代首次仅报告>59KB的失败run；无旧输出待恢复。
-R807已登记；公开run43742915855/job132899794982成功；原半周期/同q重建，参数/全部输入与输出hash见原证，无待恢复输出。
-R808未登记，无数学run执行中。R809公开run43744465644/job132904598912已成功；原8纤维重建三比值分量，参数和全部hash在正式原证。
+R801/R803/R807/R809的公开run均成功，全部producer/参数/hash在正式原证；R803旧报告超限已恢复，无遗失结果。
+R808未登记。R810新producer检查原r2/b4/b0=3的全部HP：零角(1,0,0,0)、n4带t、完整κ/χ及H低系数，原五型由z0包络覆盖。公开请求rank2-r810-original-quartic-all-primes-20261115，参数--max-order 96 --remaining-examples 12/flint0.9.0；结果未判，不外推高b。
 
 ## 普通：固定原源、完整域与真正中央
 
@@ -36,7 +35,7 @@ R785–796完整J1512/P696/t24/quarter、Π3、同q六支均保；J深三输出�
 
 R798/R801完整PB：型五恰两arith、primitive3全杀；型四rank3/charX³+ω。原E深Z²=λ2NΩ² P4F2；同q原六系数在旧ray两η/全N均unit，真实Yunit正四×Z²矩unit。K上三维循环性和σ(2z)²σ26因子已付。指定负二仍λ2NΩ²Σd_j I_j,-2，不能从系数或正矩推出非零；ζ伴随和原W全部浅补保。
 
-R806原型四三线的完整order18角色、Schwartz、全权平方与负二Katz身份已付；负二为权差3，反射古典权4中央root−，同CM型Katz乘子却+1。原三项线性组合、p²Euler、有限Artin/Soulé未付门保，不从相反CM型零推出本支零。
+R806原型四三线的完整order18角色、Schwartz、全权平方与负二Katz身份已付；负二为权差3，反射古典权4中央root−，同CM型Katz乘子却+1。原三项线性组合、p²Euler保；Artin/Soulé构造已见R804，实际严格局部核仍开，不从相反CM型零推出本支零。
 
 R804原模34δ全ray椭圆单位先取真实H×E0[p∞]范数、η幂等元/扭曲/除平滑30，已建三个全球z_j。共同Artin基√17、Elog=p²单位付log_j(loc_p z_j)=−34²c_jθ9Ωp4 Elog I_j,-2²，估值2+2v(I)。loc_bar=0、坏位H1=0使z_j∈完整Hf；仍须排严格局部核，非零全球类不代局部非零/原三项线性和。
 

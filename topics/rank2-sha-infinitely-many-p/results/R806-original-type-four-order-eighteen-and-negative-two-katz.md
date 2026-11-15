@@ -9,6 +9,8 @@ R761 的型五 primitive 块：二者虽有同一个 CM13 多项式，
 这里给出这个实际型四块的完整算术身份，并先排除一个具体障碍：
 原负二 Katz 支的自对偶函数方程乘子为 $+1$，并不被符号强制整零。
 
+后续补充：[R804](R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)已从原全 ray class 单位支付第8节保留的实际十八阶全局类及共同 Artin 周期；指定局部非零与原线性负二行仍未完成。
+
 ## 1. 原三维空间与全部有限标签
 
 固定

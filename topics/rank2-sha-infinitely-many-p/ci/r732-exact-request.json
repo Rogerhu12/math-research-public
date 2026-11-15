@@ -1,12 +1,15 @@
 {
-  "request_id": "rank2-r809-original-primitive-connection-cm13-20261115",
+  "request_id": "rank2-r810-original-quartic-all-primes-20261115",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r806-primitive-connection-cm13-intertwining.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r810-original-r2-quartic-full-profiles.py",
       "args": [
-        "--workers=4"
+        "--max-order",
+        "96",
+        "--remaining-examples",
+        "12"
       ],
       "include_stdout": true
     }
