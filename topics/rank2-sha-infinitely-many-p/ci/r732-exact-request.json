@@ -1,11 +1,16 @@
 {
-  "request_id": "rank2-r820-four-source-fmpq-output-retry-20261115T2014",
+  "request_id": "rank2-r818-original-three-complex-derivatives-20261115T2020",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r820-original-four-source-angle-and-jacobian.py",
-      "args": [],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r818-original-three-complex-central-derivatives.py",
+      "args": [
+        "--terms",
+        "2048",
+        "--bits",
+        "384"
+      ],
       "include_stdout": true
     }
   ]
