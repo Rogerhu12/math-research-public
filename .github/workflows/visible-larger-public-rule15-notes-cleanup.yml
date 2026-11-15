@@ -49,8 +49,8 @@ jobs:
           name = 'root_20261115_rule15_prune_notes_metadata.py'
           source = (comp/name).read_bytes()
           recipe = (comp/'public-rule15-notes-cleanup-request.json').read_bytes()
-          assert hashlib.sha256(source).hexdigest() == '7e0dfcb584ad1e03ce2df5a8b8c45508372edd2341fac22e1d9d46f5628d49bb'
-          assert hashlib.sha256(recipe).hexdigest() == '9418f57b5b6d6a4d182b3a390d61cdb6962188fd3ac8326fc01d99e24b0c0192'
+          assert hashlib.sha256(source).hexdigest() == '2465b3dd0e50acfc63b026e7fd73cd15d0c58e401fb925b9d47974b2e31d014c'
+          assert hashlib.sha256(recipe).hexdigest() == '078a1297f8d4c1c259c0f89f1c55e6af419200ca4319951532d25708a94fba03'
           parsed = json.loads(recipe)
           assert parsed['request_number'] == 104
           assert parsed['script_sha256'] == hashlib.sha256(source).hexdigest()

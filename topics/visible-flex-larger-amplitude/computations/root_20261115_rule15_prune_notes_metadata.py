@@ -535,7 +535,7 @@ def main():
              "Staged changes exceed the exact whitelist and one own compact note")
         git(repo, ["-c", "user.name=github-actions[bot]", "-c",
                    "user.email=41898282+github-actions[bot]@users.noreply.github.com",
-                   "commit", "--no-gpg-sign", "-m",
+                   "commit", "--quiet", "--no-gpg-sign", "-m",
                    "visible-larger: remove regenerable notes payloads under rule15"])
         note_receipt = dict(file=note_rel, bytes=len(note_raw), sha256=digest(note_raw))
         restart = False
