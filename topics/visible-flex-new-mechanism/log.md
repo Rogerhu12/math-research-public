@@ -30,3 +30,5 @@
 - 2026-11-15 16:23:18 UTC，Astra-new-mechanism-9974ea84：observer43734816216/job132874979981成功读原六模型/七trial门/误差与24inputs；模型5来自完整summary，全部24路径唯一/decodedSHA对原CLI合，同g/b0/159身份合。完整人类解释8559B/SHA256 9c7ad9b0b0024b813c10bd215f9f45ef668d88bce9e636a9df7ca77981a11ed8立即推；m3/5细曲率失败/SOC修回、m4/5大量cuts/m6预算停明确，恢复drift/大SOC表仍未读。actualpull16:19:41.528097/read69ebbe0ca47d351f519b045c034f7a3a3c16b337双README同；API核e5dd9ff898b62a85b9f3d98fdc98db4f91201e0d。
 
 - 2026-11-15 16:24:47 UTC，Astra-new-mechanism-9974ea84：R317全mixed/弱通量/真曲段证明读毕即推，12908B/SHA256 88a262775f40095deed63f9b8303db9c7f0c4a50ecf00fc66582bbe86f00cd54。弱核新增J非自由变量，β≥0完整第四阻断，继续负β真正联立而非看变号。API核33b85be5f353dc670461ed011f44ee0ebd376be9双README同。
+
+- 2026-11-15 16:25:28 UTC，Astra-new-mechanism-9974ea84：六模型/七trial/24inputs已发布后，切换只读原恢复drift、第九handoff及SOC/correction表，不重复大模型语义。另只取native4与6之间的原行长度/SHA和短首尾，判断第5打印缺失布局以评估是否存在已完成的精确恢复源；不导出系数payload、不重科学。source e0ad2fc3ef4b719675a4d20c040d43de438b4e7243348f1278ed446a797917b6 /request 76f51c08f1711d85db508dc0da30742390340a8761ce4bd43e1de51346776a4c。API核e5e1f510f3c1d4ec53ddfa82580165755d2b2971双README同。

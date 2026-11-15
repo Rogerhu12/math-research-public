@@ -527,42 +527,24 @@ def table_view(value):
 
 
 def actual_view(report, preview):
-    keys = ("schema", "status", "phase", "github_sha", "github_run_id",
-            "github_repository", "prepare_elapsed_seconds", "optimization_active_seconds",
-            "process_total_elapsed_seconds", "run_audit_elapsed_seconds", "peak_rss_kib_linux")
+    keys = ("schema", "status", "phase", "github_sha", "github_run_id", "github_repository",
+            "prepare_elapsed_seconds", "optimization_active_seconds", "process_total_elapsed_seconds")
     result = {key: report[key] for key in keys if key in report}
-    result["previous_readback_runs"] = [43732214112, 43732702362, 43733275356]
+    result["previous_six_model_gate_error_and_24_input_readback_run"] = 43734816216
     result["source_files_sha256_previously_read"] = {
         "source_count": len(report["source_files_sha256"]),
         "all_bindings_rechecked_against_receipt_here": True,
         **fingerprint(report["source_files_sha256"])}
+    for key in ("input_restoration_conclusions", "ninth_handoff_summary"):
+        require(key in report, "original restoration field missing: " + key)
+        preview.field(result, key, shallow_semantic(report[key]), 54000, required=True)
     stage = report.get(STAGE)
     require(isinstance(stage, dict), "original actual report lacks its stage")
-    selected = {k: v for k, v in stage.items() if scalar(v)}
-    records = stage.get("complete_new_affine_model_and_error_records")
-    require(isinstance(records, list) and records, "missing original complete model summary records")
-    result["original_complete_summary_model_count"] = len(records)
-    require(any(record.get("model") == 5 for record in records),
-            "original complete summary lacks the specifically unread fifth model")
-    focused = [summary_model_view(value, preview, "$." + STAGE + ".models[" + str(i) + "]")
-               for i, value in enumerate(records)]
-    preview.field(selected, "complete_new_affine_model_and_error_records",
-                  focused, 44000, path="$." + STAGE, required=True)
-    for key in ("trial_decision_columns", "trial_decision_gate_code_order", "model_table",
-                "trial_table", "correction_table", "accepted_table", "SOC_hold_diagnostic_table"):
+    for key in ("SOC_hold_diagnostic_table", "correction_table"):
         if key in stage:
-            value = stage[key]
-            if isinstance(value, list) and all(isinstance(x, str) for x in value):
-                value = {str(i): item for i, item in enumerate(value)}
-            else:
-                value = table_view(value)
-            preview.field(selected, key, value, 50000, path="$." + STAGE, required=False)
-    selected["original_stage_fields_not_reprinted"] = sorted(set(stage) - set(selected))
-    preview.field(result, STAGE, selected, 53000, required=True)
-    for key in ("input_byte_streams", "state_identities", "input_restoration_conclusions",
-                "ninth_handoff_summary", "algorithm_stage_scope", "error", "pipeline_failure"):
-        if key in report:
-            preview.field(result, key, shallow_semantic(report[key]), 62000, required=False)
+            preview.field(result, "original_stage_" + key, table_view(stage[key]), 76000, required=False)
+    result["original_stage_fields_not_reprinted"] = sorted(set(stage) - {
+        "SOC_hold_diagnostic_table", "correction_table"})
     result["original_top_level_fields_not_reprinted"] = sorted(set(report) - set(result))
     return result
 
@@ -806,26 +788,21 @@ def run(args, context):
     context["native_model_record_count"] = len(models)
     context["native_model_numbers_observed"] = [row["model"].get("number") for row in models]
     context["summary_not_native_printer_supplies_model_five"] = True
-    gate_records = []
-    for row in models:
-        model = row["model"]
-        if model.get("number") != 3:
-            continue
-        trials = []
-        for trial in model.get("trials", []):
-            selected = {key: trial[key] for key in (
-                "kind", "alpha_exact", "accepted_as_next_iterate", "physical_state_sha256")
-                if key in trial}
-            for key in ("coarse_decision", "fine_decision", "fine_violation_groups",
-                        "curvature_nonlinear_defect_diagnostic"):
-                if key in trial:
-                    selected[key] = preview_extra.compact(shallow_semantic(trial[key]), "$.native_model3." + key)
-            trials.append(selected)
-        gate_records.append({"model": 3, "original_line": row["original_line"],
-                             "timestamp": row["timestamp"], "trials": trials,
-                             "original_full_model_sha256": row["payload_sha256"]})
-    context["previously_unread_native_model3_gate_and_curvature_diagnostics"] = compact_records(
-        gate_records, 5000, preview_extra, "$.native_model3")
+    context["original_trials_and_failure_gates_already_read_in_run"] = 43734816216
+    neighbors = {row["model"].get("number"): row["original_line"] for row in models}
+    layout = []
+    if 4 in neighbors and 6 in neighbors and neighbors[6] - neighbors[4] <= 4:
+        for number, line_bytes in enumerate(io.BytesIO(log), 1):
+            if neighbors[4] < number < neighbors[6]:
+                clean = ANSI.sub("", line_bytes.decode("utf-8").rstrip("\\r\\n"))
+                match = TIME_PREFIX.match(clean)
+                body = match.group(2) if match else clean
+                layout.append({"original_line": number, "line_bytes": len(line_bytes),
+                               "line_sha256": digest(line_bytes),
+                               "timestamp_recognized": match is not None,
+                               "native_model_marker_offset": body.find("COMPLETE AFFINE OUTER MODEL "),
+                               "body_prefix": body[:180], "body_suffix": body[-120:]})
+    context["layout_only_between_native_models_four_and_six"] = layout
     context["old_human_tables_and_publisher_log_not_reprinted"] = {
         "human_line_count": len(human), "publisher_line_count": len(publisher),
         "previous_readback_run": 43732702362}
@@ -854,7 +831,7 @@ def run(args, context):
         "original_process_total_elapsed_seconds": real.get("process_total_elapsed_seconds"),
         "original_peak_rss_kib_linux": real.get("peak_rss_kib_linux"),
         "readback_only": "Values above are copied from the pinned original reports.",
-        "unexpanded_detail": "All six complete-summary model records are projected; raw arrays and unselected native payloads remain in the original log."}))
+        "unexpanded_detail": "Restoration and SOC records are projected after the prior six-model read. Raw arrays remain in the original log."}))
     return rows
 
 

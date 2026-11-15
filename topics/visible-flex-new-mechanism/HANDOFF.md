@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已消费159前序**：容量/hold、因子化J及旧选行仿射的全部原门/失败/漂移/费用保对应notes，不重已付阶段。旧选行affine43722283235 η.266419188→.266401179，m6漏峰/曲率及m5 e/f非线性保原记录，50/102源24输入已核。
 
-**完整两网actual六模型已读**：[原结果](notes/complete-affine-first-actual-result-20261115.md)/[六模型](notes/complete-affine-six-model-interpretation-20261115.md)，run43728280256/7329385/job132854922848：η.266401179156→.266381717617，两网14门/精确盒过，κfine57.999983395；高度margin−5.6e−17仍保。9恢复805.206121s、新active35.287169s、总845.020544s，16+2值；54/106源核receipt，24输入路径及decodedSHA对CLI全合，同g/b0/159身份。6模型/7trial，10primary+2SOC=12LP；m3/5 primary细曲率58.000001945/58.000009623失败、SOC修回并持B.000125。m4/5需358/342cuts；m5首LP全norm负改善而补cut后真改善，m6只余1LP、全norm负改善即预算停，非驻点。七步无遗漏硬行，完整affine与selected差仅0/~5.6e−17，实际非线性约3.8e−7～1.7e−6。开发所有新续项已过/首6方向源绑复用。剩9恢复drift/SOC大表仍专读；下一新中心重建原ID/norm支持方向，不直接搬旧A/b或只延预算。
+**完整两网actual六模型已读**：[原结果](notes/complete-affine-first-actual-result-20261115.md)/[六模型](notes/complete-affine-six-model-interpretation-20261115.md)，run43728280256/7329385/job132854922848：η.266401179156→.266381717617，两网14门/精确盒过，κfine57.999983395；高度margin−5.6e−17仍保。9恢复805.206121s、新active35.287169s、总845.020544s，16+2值；54/106源核receipt，24输入路径及decodedSHA对CLI全合，同g/b0/159身份。6模型/7trial，10primary+2SOC=12LP；m3/5 primary细曲率58.000001945/58.000009623失败、SOC修回并持B.000125。m4/5需358/342cuts；m5首LP全norm负改善而补cut后真改善，m6只余1LP、全norm负改善即预算停，非驻点。七步无遗漏硬行，完整affine与selected差仅0/~5.6e−17，实际非线性约3.8e−7～1.7e−6。开发所有新续项已过/首6方向源绑复用。9恢复drift/第九handoff/SOC大表专读已提交；下一新中心重建原ID/norm支持方向，不直接搬旧A/b或只延预算。
 
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
@@ -56,4 +56,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 33b85be5f353dc670461ed011f44ee0ebd376be9，双README blob同。API读取不冒实际pull。
+断连API复核main e5e1f510f3c1d4ec53ddfa82580165755d2b2971，双README blob同。API读取不冒实际pull。
