@@ -16,7 +16,7 @@
 
 [选行J首次实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16已消费：三新开发过；η.266428586→.266398991、两网14门/盒过，11primary+1SOC/10接纳，active43.32511秒，七恢复1175.76681秒独立。m6真用heldB后ratio.11484、m8漏行拒绝；45/97来源与24输入合。全部旧失败/漂移保原note，不授同点性能改善；后继用新模型处理真实缺陷。
 
-[仿射谱首完整实际](notes/affine-spectral-metric-model-first-actual-20261115.md)已消费，原门过而η仍.266401179，0SOC；所有来源/恢复分账保原note。下一[完整两网方向分离器](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已纸证设计：当前中心原全角JVP给四个凸max，只新attainer补原行J/cut；全初值/ρ修复、完整误差分账及旧incumbent保全。显式新子类复用冻结outer/3inner/12LP/120s/40值与原真门。四新源文本继续，首新人工只在public后九必要恢复一次及唯一新stage，不能预称本m6必修或重跑旧目标。
+[仿射谱首完整实际](notes/affine-spectral-metric-model-first-actual-20261115.md)已消费，原门过而η仍.266401179，0SOC；所有来源/恢复分账保原note。下一[完整两网方向分离器](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已纸证设计：当前中心原全角JVP给四个凸max，只新attainer补原行J/cut；全初值/ρ修复、完整误差分账及旧incumbent保全。显式新子类复用冻结outer/3inner/12LP/120s/40值与原真门。四新源/接线已文本完成，54源码/98args/24输入绑定，仅out改变；新增人工及九必要恢复一次/唯一新stage的首public请求已提交，待消费真实日志。不得预称m6已修或重跑旧目标，预算/原门保持。
 
 ### 仍须支付
 

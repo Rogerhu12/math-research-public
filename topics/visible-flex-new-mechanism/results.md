@@ -497,3 +497,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R294 完整证明](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)给全pair原尾β与六sl2和核Γ⁺。额外even系数准确为Σ(R²−4T²)Khat加三原矩面积，其中Khat=Kself−Γ⁺(m,m)/2；原local变分/完整Green身份先抵消C³平方，唯一线性u'''经真实IBP降C²，平移次数≤10。明确从起点新F⁺含旧F与最多330校正self平移系数，非旧F归属或rank宣称。原等背景格点十矩清self，R280真A01/A02/A12清ordered cross，所有实际copy/正权保留。
 
 接R293任意F★的正解析最大秩纤维与有限N全32根，原odd包装及新even消元共同付全部十对称Gaussian乘积、三外矩、全θ；与72面积/六能量/三矩/完整third在同一实际有限频率圆上成立，故整个二层history已付。root全文核Green锚、Γ因子、local变分C²降阶、实际三矩/权及选择顺序；tail核F★入口，均无执行。零/一层、完整ruling/period/joint及主几何门仍欠。
+
+
+## 完整两网仿射方向分离器：四源完成并请求首公共实际
+
+四新源实现原全θ解析单方向、两网×±四个凸max与原点切面；显式子类复用冻结outer/inner，完整rho初值/返回修复/旧incumbent与误差分账保真。新原行J失败耗时也计一次；root完成源文本、driver差异及接线读取，mechanism独核方向与第九handoff。54直接源码、98研究参数与24输入绑定，研究向量仅out改变。新增人工先公共Actions，随后九段必要恢复各一次和唯一新stage；原12LP/120s/40值与全部真门保留。首请求已提交，所有passed/效果均等实际日志，不重旧人工或把恢复当新研究。payload继续只临时，仓库仅元数据与人读结论。

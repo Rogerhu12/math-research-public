@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159因子化首actual已消费**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16。三新开发过；η.266428586→.266398991、双网14门/准确盒过，11primary+1SOC/10新接纳，active43.32511秒；七恢复1175.76681秒独立。m5持B由m6真用但ratio.11484缩半，m8漏行拒绝。45/97来源/24输入全核；旧标签与首fixture失败原note保留，不授同点加速或重跑。
 
-**仿射谱actual与下一完整模型**：[首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，35新开发过；η.266419188→.266401179、双网14门/精确盒过，8模型/12LP/0SOC/7接纳，40cut/18+2值；active16.997316秒、八恢复569.558425秒分账，50/102源码与24输入全核。m6漏峰且已选曲率失败，m5 e/f非线性另欠，不授SOC新路径验证。[完整两网方向分离器设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已完成纸证：只用原全θ解析单方向JVP作粗细×±四个凸max，attainer才补原de/df切面，全rho初值/修复/旧incumbent保真；显式子类复用原outer/3inner/12LP/120s/40值/全部真门。四新源正在文本实现审查；仅blob保存未执行，九必要恢复后唯一新stage待接线。
+**仿射谱actual与下一完整模型**：[首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，35新开发过；η.266419188→.266401179、双网14门/精确盒过，8模型/12LP/0SOC/7接纳，40cut/18+2值；active16.997316秒、八恢复569.558425秒分账，50/102源码与24输入全核。m6漏峰且已选曲率失败，m5 e/f非线性另欠，不授SOC新路径验证。[完整两网方向分离器设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已完成纸证：只用原全θ解析单方向JVP作粗细×±四个凸max，attainer才补原de/df切面，全rho初值/修复/旧incumbent保真；显式子类复用原outer/3inner/12LP/120s/40值/全部真门。四新源及接线已文本完成，54源码/98args/24输入准确绑定；仅改研究out。新增人工与九必要恢复一次/唯一新stage的首公共请求已提交，未预授passed/改善；全成本仍原12LP/120s/40值。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -57,4 +57,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main dc10bb948416e2f89f4cd487867b6a06cceb5f48，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 19f4c75e4de0c0f68a1c7630ffdc2e319e5d17fc，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

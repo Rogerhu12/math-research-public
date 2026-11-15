@@ -349,3 +349,5 @@
 - 2026-11-15 14:57 UTC，Astra-new-mechanism-9974ea84：R292真实平台完整二次式、跨包三矩history及双后缀递推完成即推。root全文核P/B/K原尾、β/τ积分、pure交叉因子和i/j槽；保self q_i，不从矩锥开集冒平台自动零。R293已4d8c3cd发布。断连API复核f5dd6070be15841c84f0870b29e381a944409698双规则blob同；根8小UTF8/非force，不冒实际pull。
 
 - 2026-11-15 15:00:03 UTC，Astra-new-mechanism-9974ea84：R294完整校正self/原β/sl2和核/三真面积与新F⁺构造完成即推。root全文核因子、Green锚、仅线性最高jet降C²及有限平移/实际copy；tail并行核R293通用F★与R294§5/7通过，未作等待门。整个二层Gaussian history同圆已付，零一层和period/joint继续。R292已10a5327发布；其日志分钟校为实际14:57。断连API复核dc10bb948416e2f89f4cd487867b6a06cceb5f48双规则同，不冒actualpull。
+
+- 2026-11-15 15:02:48 UTC，Astra-new-mechanism-9974ea84：完整两网方向分离器4源/首请求提交。root全读新developer、driver差异/编排、原冻结caller和workflow/publisher接线；四源UTF8字节/SHA与agent声明一致，54 bindings/98args仅index49 out变化。无本地新执行，首新人工及九必要恢复/唯一新stage交公开Actions；完整ordinary真门与所有原预算不变。断连根8小UTF8/非force，API规则复核19f4c75e4de0c0f68a1c7630ffdc2e319e5d17fc双blob同，actualpull仍按H，runner将先实际拉两仓并检查原QUEUE。

@@ -1,19 +1,19 @@
 {
-  "request": "first-affine-ef-spectral-primary-with-shared-LP-ledger-and-error-accounting",
+  "request": "first-complete-two-grid-affine-directional-separator-with-original-shared-ledger",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "metric_height159_affine_spectral"
+    "metric_height159_complete_affine"
   ],
-  "goal": "Run only new affine-model, observable/cache and eighth-handoff artificial checks in public Actions, then restore eight necessary frozen inputs once each and run one new affine-e/f spectral primary stage. Keep the same Field/H/reference, fixed g/b0, exact159-to163 map, complete original pools, capacity, real terminal successful-SOC controller and all actual gates. Preserve the norm curvature of the metric envelope; do not extend any solver budget or claim old restoration as new progress.",
+  "goal": "Run only new complete-grid JVP, four-maxima protocol, error accounting and ninth-handoff development in public Actions; then restore the nine necessary prior stages once each and run one new complete-grid affine-e/f primary. Retain the same actual Field/H/reference, fixed g/b0, exact159-to163 map, original grids, all true hard gates, complete learned pools, capacities and real terminal SOC controller. Charge every new directional or selected-row derivative to the original active clock and keep all existing LP/value/time limits.",
   "parameters": {
-    "source_bindings_count": 50,
-    "scientific_source_bindings_count": 47,
-    "native_summary_stage": "metric_height159_affine_spectral_stage",
-    "native_summary_filename": "metric-height159-affine-spectral-audit-summary.json",
-    "development_schema": "same159-affine-ef-spectral-primary-after-eight-restorations-v1-development",
+    "source_bindings_count": 54,
+    "scientific_source_bindings_count": 51,
+    "native_summary_stage": "metric_height159_complete_affine_stage",
+    "native_summary_filename": "metric-height159-complete-affine-audit-summary.json",
+    "development_schema": "same159-complete-grid-affine-ef-after-nine-restorations-v1-development",
     "development_pass": "passed=true and development.all_passed=true",
-    "actual_schema": "same159-affine-ef-spectral-primary-after-eight-restorations-v1",
-    "actual_complete": "complete-two-grid-height159-affine-spectral-audit",
+    "actual_schema": "same159-complete-grid-affine-ef-after-nine-restorations-v1",
+    "actual_complete": "complete-two-grid-height159-complete-affine-audit",
     "research_argument_count": 98,
     "original_decoded_input_SHA_bindings": 24,
     "only_inherited_research_argument_changed": "--out value at index49",
@@ -25,14 +25,15 @@
       "tail154",
       "declared-capacity159",
       "declared-capacity-SOC-hold",
-      "factorized-selected-J"
+      "factorized-selected-J",
+      "selected-affine-spectral"
     ],
     "new_stage_count": 1,
     "new_capacity_reservations": 0,
     "same159_and_same163_physical_family": true,
     "same_runtime_Field_H_reference_and_frozen_g_b0": true,
     "original_complete_row_pools_versions_history_and_capacity_retained": true,
-    "controller": "actual factorized terminal next_soc_hold_trust replay, including held radius, streak and unfinished model; never historical-state forcing",
+    "controller": "actual selected-affine terminal successful-SOC controller, including held radius, streak and unfinished model; no historical-state forcing",
     "shared_limits": {
       "shared_LPs": 12,
       "shared_values": 40,
@@ -43,35 +44,38 @@
     "new_primary_inner_cap": 3,
     "maximum_new_cut_rounds_per_outer": 2,
     "metric_smoothing_epsilon_exact": "1/100000000",
-    "returned_prediction": "rho_aff from all selected affine e/f norm rows and original rho_out, never the cut-LP auxiliary",
-    "returned_auxiliary": "rho_hat=max(rho_aff, LP returned rho); full original hard, step-norm and all accumulated cut residuals checked",
-    "incumbent": "minimum repaired rho_hat plus unchanged physical step penalty; normal budget stops may retain it, raised exceptions retain original last actual accepted state",
+    "complete_grid_direction": "analytic original-family single direction for all owned coarse/fine points using each original complete-theta periodic projection; five null-height columns included; no complete-grid times159 Jacobian",
+    "complete_model": "all old selected affine norm functions plus four complete original-grid convex maxima, coarse/fine times minus/plus; original-row cuts only at actual maximizers, ties choose lowest original ID",
+    "returned_prediction": "rho_full from all four original-grid affine e/f maxima, all original selected functions and original rho_out; full zero-step initial rho separately recorded",
+    "returned_auxiliary": "max(rho_full, cut-LP returned rho), preserving original hard, norm and all accumulated-cut feasibility before incumbent comparison",
+    "prediction_pool_mutations": false,
+    "new_attainer_row_derivatives": "inherited exact selected radial contraction only at new original attainers; reuse already selected identical cuts",
+    "new_directional_and_row_J_seconds_charged_to_original_active_clock": true,
+    "error_accounting": "preserve old selected four terms, add complete-affine minus selected-affine and complete-actual-smooth minus complete-affine; rounded actual total candidate evaluated with accepted-base binding",
     "SOC": "frozen correction uses minimum scalar-row slack at the same step and original RHS; hypothetical affine RHS is diagnostic only",
-    "candidate_quality": "same accepted-base affine model evaluated at actual rounded total candidate minus base",
-    "new_observed_error_accounting": "norm curvature, actual e/f nonlinearity, omitted full-grid rows and smoothing bias; consume original value caches; no invented fine-grid observation",
     "all_new_checks_first_public_Actions": true,
     "old_developer_suites_executed": false,
     "local_new_checks_or_research_executed": false,
-    "first_syntax_compilation": "public Actions py_compile before only new development",
+    "first_syntax_compilation": "public Actions py_compile of four new sources; old frozen suites not replayed",
     "source_text_review_completed": true,
     "all_recomputable_payloads_temporary_metadata_only": true,
     "prior_actual": {
-      "run": "43716860154",
-      "source": "a7bb0a16f4ba434a4e88c4f0519ccc4f7806c498",
-      "job": "132820200829",
-      "initial_eta": 0.2664285858004584,
-      "final_eta": 0.2663989905276839,
-      "historical_final_state_not_forced": "53de322a2df47420f4d0e1765e4b1bc3152d6cb85faf0401bcc3da6d81012497",
-      "last_held_radius_was_used_by_next_model": true,
-      "m6_low_ratio_cause_not_inferred_without_observables": true
+      "run": "43722283235",
+      "source": "bb33192ccd5866280ffed6c13a02febd29d8f361",
+      "job": "132836684400",
+      "initial_eta": 0.2664191879334471,
+      "final_eta": 0.26640117915606165,
+      "m6_omitted_grid_error": 0.000015479290733866335,
+      "m6_selected_curvature_failures_also_retained": true,
+      "new_stage_has_no_preclaimed_improvement": true
     }
   },
   "jobs": {
-    "metric_height159_affine_spectral": {
+    "metric_height159_complete_affine": {
       "development": [
-        "--check-affine-spectral-only",
+        "--check-complete-affine-only",
         "--out",
-        "@OUT@/metric-height159-affine-spectral-development.json"
+        "@OUT@/metric-height159-complete-affine-development.json"
       ],
       "research": [
         "--input",
@@ -123,7 +127,7 @@
         "--expected-feasible-curvature-sha256",
         "87945a59c206618ca2da5fe0b31f8a5961c1bef085704aa5bf27494c7daecf32",
         "--out",
-        "@OUT@/metric-height159-affine-spectral-audit.json",
+        "@OUT@/metric-height159-complete-affine-audit.json",
         "--fixed-target-audit",
         "topics/visible-flex-new-mechanism/notes/actions-43653520539-1-curvature_feasible_steps/curvature-feasible-steps-audit.json.gz",
         "--expected-fixed-target-sha256",
@@ -218,17 +222,21 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows.py": "b6c9fff497c0f22c5a12546c47349cc0274ed493f895547fc5c65cf99ba3d403",
     "topics/visible-flex-new-mechanism/scripts/frame_selected_row_radial_jacobian_development.py": "46aeefbbd7549150d8d03018b0038ec4389a7392a9efc2d7f25299c7575c8d39",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows_audit.py": "65b3dbb4318d6809a6cdfc053171c48f8f74a27b265586853c2858e8d63a4bb6",
-    ".github/workflows/visible-new-mechanism-continuation.yml": "52490e5b7704183bdce7792394a9e1c292b924d4a05fcfd0e3251693b63f5ad8",
-    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "ef45959fe93200010e02ddf70e7591a6fa3e32c44cdeba06a7a27fda2553ffaf",
-    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_affine_spectral_model.py": "da7fd80070f428de904ea018098a59d811a90d9d54d5ca67a8ed3d3a0b6403a8",
     "topics/visible-flex-new-mechanism/scripts/frame_selected_row_metric_observables.py": "83ec95f6a48a01e0da7cb034a4c7615864f6e896ca088e99dcd17168de1a0754",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_affine_spectral.py": "5506a1696290869f1d0d7a2ef914663c09435d5d6f17b75c94ddb6cea8aae86d",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_affine_spectral_development.py": "024d2d6e5ff2e537acf3d661931cba0d3380a89baeee19f8aee69ec0b0775482",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_affine_spectral_audit.py": "a62c20944a66a04679a5ae4a156e2e64b4e9331d976125a3f23a1a2356a2df4c"
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_affine_spectral_audit.py": "a62c20944a66a04679a5ae4a156e2e64b4e9331d976125a3f23a1a2356a2df4c",
+    "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_oracle.py": "ab81812f596cf3fc4f1c8d188aec785b289db2fb2c6959e32c2d69250faa91e9",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine.py": "4b64858cec01566e17c2530c8b95c5855d57820454c13dde3cc5aec215217346",
+    "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_development.py": "b40f6724261a8af8e6531b13a2694866e07c92b47651654f3f3549243b5ce2e8",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine_audit.py": "53fca85db35b39c16f2388c7d154536f125a9be8b78525e78b7cdec23f1980f8",
+    ".github/workflows/visible-new-mechanism-continuation.yml": "cded03911b43bd2462213398bd39a595a3a1a7e137c2b4bbd19f79b8ae8067fb",
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "57510063341ab222e17fe058eb6d3b756bc5349b007ad10c25eb22196fc95268",
+    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41"
   },
   "sync_private_rules": true,
-  "private_rule_sync_lane": "metric_height159_affine_spectral",
+  "private_rule_sync_lane": "metric_height159_complete_affine",
   "private_rule_sync_expected_blobs": {
     "README.md": "5ba164843b1f5802184178a82d786264404873a3",
     "topics/visible-flex-new-mechanism/README.md": null
