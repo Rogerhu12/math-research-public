@@ -268,3 +268,7 @@ mechanism在R378混合项复核中指出完整−Y_n的P/B恢复项可能未计�
 ## 2026-11-15 21:11:51 UTC — 按单Markdown上限整理结果索引
 
 results已到91665B，将首段R304–R343及同期数值索引原样移至results-index-R304-R343-and-numerics-20261115.md并保当前入口；完整原稿/运行结论均不删。仅文档分卷，非研究重跑；R358以后更正通知留当前索引。
+
+## 2026-11-15 21:13:50 UTC — 覆盖soft普通扩径三源完成，待公开首次检查
+
+根通读core及outer对已付源全部差异、完整4组20断言；逐文件元数据与agent一致。新增前置整数ID守卫、真实中心eta、nominal只核apply/预测用actual d、scan/cache四maxima同一性；old pair显式清双计数且不改原报告。三新源码与[实现记录](notes/complete-model-covered-soft-ordinary-growth-implementation-20261115.md)已发布，旧130不改。新dev尚未运行，driver/workflow/request接线继续，不冒检查已过。
