@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：60bf7fe4ecc77b501efccf5b935d642076b8560d；2026-11-15 09:24:50 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:24:49 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
+- 最近已读规则提交：05d39dd6a573f8a1d8e72431de0ff00527638741；2026-11-15 09:30:38 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:30:37 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
@@ -15,18 +15,16 @@
 
 ## 检查点与责任
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r725.md)沿链保全部来源、预算、坏集与旧门；摘要不关闭旧问题。
-R1–363、365–560、562–653、655–700、701–711、713–726已登记；R364/R561/R654/R712与主目标仍开。入口results.md和notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；deep原同R全像/R726两残列；theta同q冻结负矩；literature原first-wild非实补偿；root全窗低极帽与中央carry。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r727.md)沿链保全部来源、预算、坏集与旧门；摘要不关闭旧问题。
+R1–363、365–560、562–653、655–700、701–711、713–727已登记；R364/R561/R654/R712与主目标仍开。入口results.md和notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；deep原同R全像/指定z_c；theta R728原负矩c/Z返回；literature原同步矩阵/非实和；root原Cartier/中央carry。
 
 固定E17/E24/E2312 rank2为R294/398/469；完整Selmer桥2+corankSha≤2ordJ，需同一无限p族至少一条固定原J′非零。O4原δ^aεw的a≤1无穷p、O6 q_p=1无穷p按open继续。
-旧ray/13/19/M3/D*、19角/五z及primitive坏因子保；R659只添61/277。CRT含17²，mod289=(273,87)、迹170，禁换δ类。π0取E1的2δ-primary，π17=π24=−π0，λ=−barπ0^-1，β=−λ，κ=pλ²，Ωunit。ρ0=−σ^⊗6/84、half-quarter/18物理96/原pair均保。
+全部原ray/CRT/δprimary、λβκΩ、19角/五z、原ρ0/half-quarter/18物理96及有限坏因子按前检完整保持；不改这些规范。
 
 ## 普通：固定原q、混合关系与真实斜门
 
-R594/692/695来源、R698全部A34及补域、R702整45逆/八关系/E三态、p>163/旧ray密度1/全N4均在前检。
-R713双冻结保原(Γ01−Γ03)∩CD_N的完整T/S log、所有浅/外部/移位。
-R715同50实列得q715/纯ζ715：正规目标及J2=1，整个FZ=0；两q无独立B块。仅完整cd尾升p2N，附角域不能继承。P30全J2/8/14/20/26、负一Δ=3n−2N+vI保。
+R698全部补域、R702整45逆/E三态、R713双冻结的全T/S log与浅/外部/移位按前检。R715同50实列q715/ζ保正规目标/J2=1且FZ=0，无独立B；只有完整cd尾升p2N。全P30中央及负一Δ预算保。
 R719固定52行/149列（无quarter）在Q(ω)(τ)读取J2=c·v+κRκ+uRu；清固定分母与Δ坏集后，原两q的k2..5某组合unit。全1200身份/三次界/仿射项已付；run43694974589/job132753387780，ci/exact-check-20261115-r719-boundary.json。真实Yunit正矩与E深/浅相反unit保，不能冒负矩非零。
 
 [两斜门](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)：Li=34Yi−29Y（i1,3），全μ|Li深ℓ=λℓ(RY^ℓPLi,κℓ)_*μ；变基det−17/34。完整q的E位移≤30次，原paired负矩是同Yunit的Σk u^k/k·(M1k−M3k)(κ^ell)，deg≤30+k，完整C支/log尾保。S测度B_N(t)=t(t−1)C_N(t)、deg≤28。§7同q完整首差D_N(t)型5、deg≤31；偶步P31准确抽出I_−1(D_N(0))，高k尾p2N，全配对S被杀，但T外部为同值相反补偿；五个原负矩未付。
@@ -41,7 +39,7 @@ R694–707原W/F恰p、Klein/Hall/wildχ、固定分母保；vtrace=1/(p−1)+vB
 R708原trace零iff首p−2条b_i modp零，亦可J≈α(p−1),α>3/4；b_(h−1)=g_c,h，全Gaussian三角整逆及窗dJ−6保。原j0未推出逐行零。
 R710全J_i=(-1)^i i!(mc)^(-i−1)ε_i，H尾≥H+1+v(H!)；j0iff全部真实carry整。全Q法向、实际pC0及b_e=g_c,p+(d−m)h_ea1保。一般同连接整forcing+j0余数像pO⊕O^(e−1)，不能冒固定φ。
 R711/714第六Cartier的实际η/7κ5及低商保。R717 AH只pk、s+pk(k<s)需原第二位，全U_npV^p卷积保。
-R718/720：原U(α6w)=U^N Rα exp(tαw^s)，tα=−[w^s]logRα完整保q_pα；一般Nmodp²不可删。固定α±=1±6ω、Norm31/43给5/7次F±，乘积φ6−ω²xψ6²。box计数得坏p O(X^0.9/logX)、共同六次群阶>X^1.2/12。
+R718/720两固定α±=1±6ω、Norm31/43、5/7次原F±给密度一e_CM>X^1.2/12；完整Gaussian/Fermat商与实际整数幂保。
 R721：h_p=(x²/y)Σ_{j<s}a_j(b/y²)^j，a1=−3/5、a_j=(6j−3)/(6j−1)a_(j−1)全unit；H−h_p=O(z^p)。Zhat=Z+cp^-1h_p^p保DZ=1及全q窗，准确且同类最小极帽M_pD2，M_p=p(2s−1)；3M_p个单零和真实留数保。
 R723：原AH已知行补CM共振；pk共振iff e_CM|(k−s)，s+pk iff e_CM|k。密度一e_CM≥s使每个未知行有unit分母，固定division与原X第一位唯一重建全U modw^L和首Cartier。X全窗从xZhat²读；通用AH高精度仍保。尚需同原解到R710carry/R708前缀；CM不免费回旧WD。
 R725已付：共同S2=(x²/y²)P2(ξ)帽2LD2，三原A_m帽mLD2；直接Q_m(ξ)、deg≤L匹配至z^(q+5)，帽2LD2独立m。直接Cartier输入二挠极全消，但Zhat其余单零要付h+1极及全部真留数；有限部帽Z0。实际分子N=Zhat·C(Θ)/ω帽M_pD2，N^p=−Zhat^p D^(p−1)(Zhat^(-h−1)Q_m)保全局正则项；全g_h=(D^hN(O)/h!)^p。未付中央到前缀。
@@ -65,4 +63,7 @@ R722：T_J=s−r−1/T_M=s−r−14，T>2κ/h>κ时物理核/kF²嵌原值与首
 新增§4.1：Z>0截源无F²来源核，残物理核给公共t阶≥r+1的真原首核，与t阶恰r的Pfact直和，dim K1≥1+dim I_cut。若实际K1仅kPfact，整截源两残列也unit；当前未证明此条件。
 R726已付：j0=ell−k≤3的μ_j0五角均保且只3charge，第三短块整消；完整首强迫εt^νv*，ν=h+ell−r−1，V1/f2/normal高尾保。κ<ν<T、T>2κ时退出同D截源00单位块；证明仅需min(T,h+ν)>2κ。两残列、其余WD及同R/p³/两13carry仍在。
 
-同冻结脚本已交两残余列的型5多项式/gcd及E2/E4/CM7余式窄读数；不重选q或加行，辅助因子不作特征零结论。
+冻结因子窄算43699142657/132766169803：四点两残余多项式gcd1，E2/E4/CM7候选均不整除；仅有限域定位。R728继续原五负矩的σ′·S33/c/(c+Z)完整来源。
+
+R727两charge已付：原角平衡U=d^c和A=t²m_tan d^(c−1)∈H1只须b≥2，截源两jet整分裂。取λ(K)=[t0Y^i*]K/f_i*(0)，L=kerλ，λ(F)=1/λ(A)=0。R547真单位块仅vertical H2/F²＋F²L，原cube p因子保；此商两残列准确(0,16c z_c)，z_c来自qt^rFUA。不能把两个单位块秩相加；同R全像继续。
+Brandt §7固定α且实际ell_p(α)=0时，同步双点可搬为固定away-p的Fα：原CM轨道严格由细化层(Bp²−p−1)读，保真实norm-fibre和O_α(p)。全部p-dependent δ不能套统一误差。

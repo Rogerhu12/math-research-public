@@ -225,3 +225,107 @@ $-\text{该顶点的父值}/p$。
   §3、§5，原固定 test vector、Shimura 集及 CM 点。本文没有借其固定 $p$ 的深层满射取代第一层同步矩阵。
 
 本注无数值计算，也不提出新的中央零假设。
+
+
+## 7. 在原轨道上确实可用的 norm-fibre 平均
+
+这里把第2节的对角式扩成一个完整、但量词有限的双点式。
+
+固定 $\alpha\in K^\times$，先排除其分子、分母及原层的有限坏素数。原 CM 基点写为 $x_0=[g_0]$，并在原嵌入下记 $a=\iota(\alpha)\in B^\times(\mathbf Q)$。令
+$$
+s_\alpha=g_{0,f}^{-1}a_f^{-1}g_{0,f}.
+\tag{14}
+$$
+在本篇好 $p$ 处，$a_p$ 为极大紧子群中的元素；右乘其分量不改变球向量。故在以下公式中，也可将 $s_\alpha$ 的 $p$ 分量改为一。无穷分量因原 quaternionic 权二对应的无穷表示平凡而不产生额外因子。原所有坏位分量则完整保留。
+
+取固定细化层
+$$
+U_\alpha=U\cap s_\alpha U s_\alpha^{-1},
+\qquad
+F_\alpha(x)=f(x)f(xs_\alpha).
+\tag{15}
+$$
+这是该细化层有限 Shimura 集上的真实函数。除已经排除的有限素数外，$(U_\alpha,F_\alpha)$ 与 $p$ 无关。没有将坏位矩阵系数改为一。
+
+记 $[\alpha]_p$ 为 $\alpha$ 在
+$$
+\mathcal O_{K,p}^{\times}/
+ \bigl(\mathbf Z_p^\times(1+p^2\mathcal O_{K,p})\mu_6\bigr)
+ \simeq G_2
+$$
+中的类。它属于原 tame 因子 $\Delta$ 当且仅当
+$$
+\ell_p(\alpha)=0,
+\tag{16}
+$$
+这里 $\ell_p$ 是 R724 的完整 ideal anti-Fermat 角色。条件 (16) 含实际第二位，不能用固定模数同余代替。
+
+若 (16) 成立，令 $\delta=[\alpha]_p$。全局 $a^{-1}$ 的左乘及环面的交换性给出逐点的准确恒等
+$$
+f(x_2(\delta g))=f(x_2(g)s_\alpha)
+\qquad(g\in G_2).
+\tag{17}
+$$
+例如用 $x_2(g)=[\iota(g)_p g_0 a_{p,2}]$ 表示原点，左乘 $a^{-1}$ 在 $p$ 处准确消去 $\iota(\alpha)_p$，在其余有限处留下 (14)。在 $p^2$ 稳定子和全局单位商中的选择不会改变两端。
+
+由于 $s_\alpha$ 与原 CM 单位在相应嵌入下交换，原三元单位商对 (15) 仍成立。故同一个半径二球面式给
+$$
+\boxed{
+\sum_{g\in G_2}f(x_2(g))f(x_2(\delta g))
+=
+\frac13\{B_{p,\alpha}^2-(p+1)I\}F_\alpha(x_{0,\alpha}).
+}
+\tag{18}
+$$
+$x_{0,\alpha}$ 是原基点在细化层中的指定提升；$B_{p,\alpha}$ 是该层真正带重数的 Brandt 邻接算子。这不是对另一个基点求平均，也没有添加 $K_p$ 积分。
+
+因此固定 $\alpha$ 后，真实 norm-fibre 谱分解确实给出
+$$
+\boxed{
+\sum_g f(x_2(g))f(x_2(\delta g))
+=
+\frac{p(p+1)}3
+  (\Pi_{{\rm norm},\alpha}F_\alpha)(x_{0,\alpha})
++O_{\alpha,f,U}(p).
+}
+\tag{19}
+$$
+这里的投影是细化层的全部 reduced-norm 字符投影，必须取原指定 fibre。证明与 (7) 相同：norm 字符在半径二算子上的特征值为 $p(p+1)$，其余特征值为 $a_p^2-(p+1)=O(p)$；固定层上的点评值常数不依 $p$。
+
+更一般地，对任何固定层上的固定函数 $F$，实际单点 CM 轨道就有
+$$
+\frac1{|G_2|}\sum_g F(x_2(g))
+=
+(\Pi_{\rm norm}F)(x_0)+O_F(p^{-1}).
+\tag{20}
+$$
+所以原 norm-fibre 平均的确能从原环类轨道得到。对同步双点，(18)–(19) 说明何时能把它严格化为这样的单点函数；所需固定 away-$p$ 来源不能省略。
+
+### 7.1 与完整 Haar 矩阵系数的区别
+
+若 $\alpha$ 还满足足够强的固定坏位同余，则 (14) 在所有原坏位固定 $f$。在好位把 $\alpha$ 的有理公因子约去后，其非中心分量只在分裂素数出现。全 Haar 平均可准确写成
+$$
+\int F_\alpha
+=\|f\|_2^2
+ \prod_{\ell\mid N(\alpha)}
+       \varphi_{\pi_\ell}(d_\ell),
+\tag{21}
+$$
+其中 $d_\ell$ 是真实 Cartan 距离；球系数保持
+$$
+\varphi_\ell(0)=1,\quad
+\varphi_\ell(1)=\frac{a_\ell(f)}{\ell+1},\quad
+\ell\varphi_\ell(n+1)+\varphi_\ell(n-1)
+ =a_\ell(f)\varphi_\ell(n).
+$$
+无该坏位同余时，在 (21) 中保留实际坏位矩阵系数。
+
+(21) 不自动等于 (19) 的指定 norm-fibre 值。后者要保完整 $\Pi_{{\rm norm},\alpha}$；特别不能将所有 norm 分量的平均替代原 CM 分量。
+
+### 7.2 这一式子尚不覆盖全部同步交叉和
+
+对一个固定有限集合的 $\alpha$，(19) 的误差可统一；只对其中满足原 (16) 的素数使用对应行。如果不同固定 $\alpha$ 的商不属于 $\mathbf Q^\times\mu_6$，则除有限个 $p$ 外它们在 $G_2$ 中的类不同：类相同会迫一个固定非零虚部代数整数被 $p^2$ 整除。
+
+但在完整 $\Delta$ 中，余下的 $\delta$ 通常必须取随 $p$ 变化的全局代表。此时 (15) 的层、函数和点评值常数也可能随 $p$ 变化，不能仍写成统一 $O(p)$。此外，某个固定非实 $\alpha$ 是否满足 (16)，正是实际 anti-Fermat 条件，不由原固定 ray 决定。
+
+因此 (18) 是原同步矩阵中一个真正可计算的固定来源子族；它没有把整个 $C^{\rm t}C$ 变成径向 Brandt 多项式，也没有证明原 $\sum_t A_t^2>0$。原相消若发生，仍须由其余真实同步项补足 (19) 已确定的这些项。
