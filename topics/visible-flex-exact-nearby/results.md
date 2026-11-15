@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 完整真实 outer commutator 扩至4480阶（2026-11-15）**：[E.1–E.10](results/R133-supplement-extended-finite-jet-outer-commutator-window.md) 保原8192 finite jets，DN差/独立Poisson/实际E_B统一费2^{131072}；原2176阶2^{65536}门不改。E_B准确写Pµ[-a C_L+a T+b∂]，a=µT−µL、b=µLdL−µTdT，rank-projection只需A0负半阶输出，最坏(q+5)!512^{q+5}全组合付清。8671B；blobce06d2befc6a4e8aaf07ebac1c24bf9a479591c9；SHA256cdbb5b5612bc3dedee42f9f5754ecd681fc56ca22f79f9cfabdd438d9741e4d9。仅外口扩窗，完整高阶tail及tame仍须另付。
+
 - **R119 finite-Sobolev nearby 背景上的完整尾部 proxy inverse（2026-11-15）**：[I.1–I.39](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 在R≤2^{-8192000}的H8196+窄residual三jets域，完整finite角/两窗4/3/同表示Schur给全high/deep/remaining/mean逆；真实Cauchy多项式bootstrap先于scattering/model<2，保全部source/反向输出/affine cut/mean flux。Y_s≤2^{7500000}N_{s+2050}+2^{4300000}Bext_{s+2048}，0≤s≤64。J的新有限jet E_B/型/adjoint接口已显式付费，真Jacobi EN、Γ重选与tame仍不由proxy逆自动关闭。37845B；blob6bd7ba8716457ea499f99af7c46cb07c48373a3a；SHA2561e4df044af399ce60e9ed195e28896489f5b4041d3fa5f75648ee7802cffe887。
 
 - **R133 finite jets 下真实 nonlinear long、完整 DN/Poisson/未匹配能量（2026-11-15）**：[J.1–J.32](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 在σ=0完整Wiener重作原C_R固定点，再以8192阶有限参数曲线和real covariance支付全signed Schur。完整DN差<2^{128}(F+ε)，2176阶comm<2^{65536}(F+ε)；独立curvature Poisson保s_Bε和all means。真实E_B/mean projection/同j密度、非自伴型与adjoint俱保；whole-form门eta_C+2^{150}(n+F+ε)<1/2。F帽M8212球与tail H8196真实B trace给全部输入，无未知analytic假设。23074B；blobaa0a1e667c93663d64b281d8045bdc118e6587c8；SHA256f7f1c86442e350c18c5e5861212c796b2e11fa84f6671ae83fee0cc2d275eb93。未完成帽全nonlinear row/参数Schur/global matching。

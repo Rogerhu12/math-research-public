@@ -85,3 +85,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:28:50 UTC — 部署共同径向势最小新消费者
 
 root全文核SCI/worker/flow/20pin manifest，newton独核derivative/k尾、原s mean恢复、Abar与c/W/V/VT/VTT。纠正原小process按60KB分支保存整证书的问题：现始终剔除signed中间balls，只必要最终界和执行指纹发布。数学函数不改；原historical a3d84d905ce72e3a854874bbe98d119623f3f8de 输入逐bytes/hash暂存恢复，0artifact/0旧重算。静态delimiter通过，实际AST由Actions；真pull/readme和非FF重推守卫保留。README d5eba2cfe560f7e4ce0860eb241050fa95489165两项无变。
+
+## 2026-11-15 06:35:36 UTC — true outer 4480阶 finite commutator
+
+newton核E_B准确signed抵消与total-jet账，tail全文核E1–10；修正文一处J19错号为J11/J24及原N19。实际rankone mean行保，未把A0当A1乘子；q+5≤4485的factorial/有限Leibniz与signed Schur全纳2^131072。独推，原J尖常数仍保。root另核Green最新17570B/fdc6cda4…精简process：06:31:16真pull→57453dd6…两README空、3216future/1088past/1504product/0groups。README 68e7391ff7007fc0460fa48b90063cbab6eda4fb两项无变。
