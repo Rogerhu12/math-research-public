@@ -265,3 +265,7 @@ R689已付原Kred=K−FH_top整最高项消去、十九角/真实双边界及同
 ### R703：带完整p²相位的原全迹有限和
 
 真实Hall lift及Klein绝对公共因子已付，原迹准确为norm-r圆上e_p(τ_m(v))·A_m(v/p)的和，其中τ=(m/2)det((v^p²−v)/p,v)，保完整p²代表。固定幅度有限Fourier ℓ1=O(log²p)含边界跳跃，Parseval只给均方根不界最大值。R704/R705继续精确wild-character/环Fourier及指定小矩形section上的和界；非平凡统一幂次节省、原迹非零和j到R699全有限条件仍开。
+
+### R705：原wild Weil投影与原section
+
+原χ恰等于Fermat-det相位且导子p²/阶p，完整Norm1 torus把W/F次数加强为恰p；原幅度在绝对p²维Weil模型中，原迹准确为单重wild角色投影。全环Fourier的绝对常数+1及原矩形completion全权已付，未获幂次界或非零。 原χ、标准内积及原固定theta向量全部指定；R704/R706继续真实短块/局部Bessel及固定权收益，不用抽象投影范数或普通conic界代替。原j0到R699的2p−3位及全高Q仍开。
