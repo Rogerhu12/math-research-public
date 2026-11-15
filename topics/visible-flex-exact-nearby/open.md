@@ -91,7 +91,13 @@ child0/26门/math.174257719s，25pin/17history/原7background+1fold
 36mean及其余134仍采用旧完整界；零阶和strong-return没有因此闭合。
 这次成功的新RF代数也不得重算。
 
-**当前下一接口：** G15 genuine两列的完整Fourier输出算子；
+[V genuine两列完整算子](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)
+已证明G15的all-output recipe：central与两真实oscillator branch、正负输入、
+两个列及输出mean、三个真实circle maps、全near/far Schur均保。
+V19–24显付欠缺的wφ⁴/Bφ³⁴/VTTT真Cauchy margin，
+V25–33保四个完整operator项、五old mean及独立physical even-mean。
+该recipe的新标量消费仍待，旧S/table不重算。
+**当前下一接口：** 实际G15标量门与完整source消费；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
 负侧可从同principal相位的真实oscillator两branch付全C² symbol，

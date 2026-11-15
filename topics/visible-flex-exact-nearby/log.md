@@ -253,3 +253,9 @@ README只读核983edc8321b3ff7bf85ffd587e32f11cba6a2236无变。root全文核T1�
 两README在aec89f5eb1968702b9f745c2c17fd628ff04301c只读核无变；root全文核I1–30，tail亲读原C/P/S后独核完整Q两源、90/54/6模块、old H_R符号/单次resolvent及各物理单位。采用保守<1/5，不用漏βQ的旧.01922估计，不借旧小例κ常数。完整97行保Pperp HC0、constant input、全部高回馈和affine≤ρ；只固定同fB/旧坐标，独立height列与背景变换均显列。正文18677B/SHA d25a2614149605faa41ddf7826a69f375ccadaa480ebe6c1a651c1651e191e40。
 
 root亲读Green09:33 process74265245…/42080B/cd4a3f40…及14次README检查：最新真pull09:33:42.135206到3957ff05d5e31113df6424408502fd143c62e2f2，两diff空；future3904/past1472/product2480/0groups、无失败。09:28:36本机定时真pull仍无execution environment，记录不冒成功。H压缩前全文精确保存在13e7795cf9b6432bc1153ef529335cb02db9c6a4:HANDOFF.md，所有旧门和恢复链继续有效。
+
+### 2026-11-15 09:36:41 UTC — genuine负侧全列operator公式独推
+
+README只读核bcba060691dde346d39336687a8375ecb5c21a7f无变。root全文读V1–33，手核oscillator n幂、q_t及central二导链式，newton独核V5–15与SCI数学三函数，tail亲读原seam A1–4后核V16–24。全输出mean/两列row symbol、φ无关频率分区、near/far Schur和三个真实circle maps保持；未以负侧列界冒正growing图。V19–24明确旧order3表没有wφ⁴，V25–33源/mean/physical trace完整账仍需真正消费者。最终fa639ec…20436B/SHA36fc2a7a7fc6fa6f683e2e9a7559cc81246f6e91bea2fc50a57c1ba2d9b7eb6f，只格式/四operator+五mean措辞改进，无旧数学重跑。
+
+前一I发布首推非FF时已立即CLI git pull --rebase，环境仍缺失；按规则小UTF8例外重新取main、两README和文件后第二次CAS成功1cc2b2177742a6775fb2911a9f9879bdbf564c7d，未force。继续O局部/完整D传输与实际CI。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 V：真实负侧两列的完整输出算子和源账](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)：以实际oscillator恒等式付两genuine列、正负输入、central+两branch与三circle-map的C² symbols，全near/far Schur含输出mean。补齐wφ⁴/Bφ³⁴/VTTT的独立宽度；三local、四完整nonlocal、五old mean、physical even-mean、两普通源/Piola/真实trace/正graph分别保。尚待新标量消费及完整返回，旧S成功不重算。20436B/SHA256 36fc2a7a7fc6fa6f683e2e9a7559cc81246f6e91bea2fc50a57c1ba2d9b7eb6f。
+
 - [R133 I：实际帽内端Poisson扰动与完整97接口](results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md)：同fB/固定physical模块的真实K*−K0<1/5，完整Q两源、旧残差Hessian、真实outer两差与所有mean均保；X≤18γ/Z≤.009γ，独立fB列<1/25 dotH²。原97行使用Pperp HC0全像，affine≤ρ、未知high/mean和背景坐标变换不删，HY与全参数Schur未冒闭。18677B/SHA256 d25a2614149605faa41ddf7826a69f375ccadaa480ebe6c1a651c1651e191e40。
 
 - [R119 T：正collar principal不变与单一frame重建](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)：完整p族返回不变→L值图相同；显式gh/coframe/Ωt与dΩ=qJD^-3/2 residual保真实径向phase。只有真PDE与全Cauchy/mean matching才由一次frame/位置积分接续，holonomy-one和四重周期给真实位置闭合；off-shell种子不被称等距面。两独立端frame/一λ/inner/ν仍留，最终Γ1冻结后的固定metric族入口另付。SHA256 8cd57dc6b7998efc3dfd36c961067ff02c058af369ece1889ab7fe60a124e39d。

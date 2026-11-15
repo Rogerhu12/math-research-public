@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:35:59 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:36:41 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推，非FF立即真pull --rebase再推至成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，09:28:36定时及09:18非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:33:42.135206 UTC 3957ff05d5e31113df6424408502fd143c62e2f2，两README diff空；ref读不冒pull，每小时继续CLI尝试。
 根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector只UTF8<100KB、禁binary/gzip。旧输入runner从immutable commit/path或既有artifact临时恢复。H≤10KB/open≤30KB。
-最近只读README核：aec89f5eb1968702b9f745c2c17fd628ff04301c；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：bcba060691dde346d39336687a8375ecb5c21a7f；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前全部逐字检查点保存在13e7795cf9b6432bc1153ef529335cb02db9c6a4:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
 
 ## 总完成门与固定对象
@@ -26,7 +26,7 @@ v2 43681612825/1 child1/0groups的Arb→binary64溢出，临时新future2340/pas
 
 完整Taylor/Nraw/profile/九词五mean/seam/ledger旧链见压缩前H，仅恢复。共同势43685624307、旧圆43688459733、signed根43692226895已成；complex全列/正Schur独立。
 whole Taylor43694458725/1九门/4de2b072…，原Rs3/40000全mixed/mean/两尾；二径fb/b1仍1.526e12/1.569e12，不猜tail份额。G/c3267f91…有序μC无除T、三local、六oldcircle/五mean，先消共同径向项；Vr同fullmean而非离根z0势，finite曲率项全保。
-S/ee408a3c…实际43698106023/1 child0/26门/math.174257719s：RF3/20000域/像/路径全过，final Rs3/40000/σ1/256不变。报告a9a45228…，execution3896925b…/result3a271393…全读。25pins/17history/7bg+1fold只恢复；native27514B/59c06d1a…不存。144导数只10项fb二径改善，36mean/其余134沿用旧；零阶和strong return未冒闭。SCI564759dc…/manifesta6fbb28d…/workera0799512…，成功RF不重算。phase接G15全输出真列/源。
+S/ee408a3c…实际43698106023/1 child0/26门/math.174257719s：RF3/20000域/像/路径全过，final Rs3/40000/σ1/256不变。报告a9a45228…，execution3896925b…/result3a271393…全读。25pins/17history/7bg+1fold只恢复；native27514B/59c06d1a…不存。144导数只10项fb二径改善，36mean/其余134沿用旧；零阶和strong return未冒闭。SCI564759dc…/manifesta6fbb28d…/workera0799512…，成功RF不重算。V/36fc2a7a…20436B已付G15两genuine列/正负输入/old mean的全输出公式：central+两oscillator branch、C² symbol/真实三circle-map、完整near/far Schur。V19–24补wφ⁴/Bφ³⁴/VTTT真margin；V25–33全3local/四nonlocal+五mean/独立physical mean/source/trace/positivegraph单位明确。root全文/newton与tail窄核；新标量消费待，旧S不重算。phase接完整source与strong return。
 
 ## 全网络、有限迭代与新94链：tail_connector/root
 
