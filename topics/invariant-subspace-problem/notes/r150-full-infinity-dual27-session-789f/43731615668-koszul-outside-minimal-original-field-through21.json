@@ -1,0 +1,932 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43731615668",
+  "stepId": "koszul-outside-minimal-original-field-through21",
+  "executionSourceCommit": "e238d925a11a50a0098ffda39ce243c4afbfeda6",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-outside-minimal-field-smith-selector-789f.py",
+  "scriptSHA256": "c4b92e5db24165f2d0e1f36f20759a9554239c2aaba84f73984e154604e7f161",
+  "argvTemplate": [
+    "--native-model",
+    "{native_model}",
+    "--primitive-equations",
+    "{primitive}",
+    "--selected-receipt",
+    "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json",
+    "--paid-schur-summary",
+    "{scripts}/43702348535-selected-natural-u-minimal-rebuild32.json",
+    "--out",
+    "{work}/koszul-outside-minimal-field-smith",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "1024",
+    "--maximum-degree",
+    "21"
+  ],
+  "timeoutSeconds": 220,
+  "exitCode": 0,
+  "wallSeconds": 13.202008035999938,
+  "fullTemporaryReceiptBytes": 15832,
+  "fullTemporaryReceiptSHA256": "eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6",
+  "result": {
+    "format": "isp-original-koszul-outside-minimal-field-smith-v1",
+    "status": "completed",
+    "phase": "complete",
+    "field": 31,
+    "characteristicZeroSmithComputed": false,
+    "leadingCoefficientUnitProved": false,
+    "old1603RationalSolveRepeated": false,
+    "old4318EliminationRepeated": false,
+    "lostTemporaryInputsUsed": false,
+    "largeDataUploadedOrCommitted": false,
+    "all4433OriginalParameterIdentitiesVerified": true,
+    "allOriginalNaturalCoefficientsMatched": true,
+    "sameOriginalKoszulFamilyRetained": true,
+    "all1834OutsideRowsRetained": true,
+    "mathematicalElapsedSeconds": 13.088630369999919,
+    "pythonFlintVersion": "0.9.0",
+    "actualOriginal1603UnitVerified": true,
+    "completedNaturalDegree": 21,
+    "all126643OriginalConstantSourceProductsZero": true,
+    "allOriginalSelectedSourceSupportVerified": true,
+    "constantOutsideRank1603Verified": true,
+    "originalKoszulConstantRank1632Verified": true,
+    "all29OriginalConstantSourcesIndependent": true,
+    "all1603OriginalUnitJetRowsZero": true,
+    "all1834OriginalOutsideJetCoordinatesRetained": true,
+    "all29FreeFamilyCoordinatesVerified": true,
+    "outcome": "complete-outside-field-smith",
+    "completeOutsideSmithLengthComputed": true,
+    "outsideTorsionLengthModulo31": 149,
+    "outsideMaximumPositiveExponentModulo31": 14,
+    "outsidePositiveExponentCount": 29,
+    "outsideFreeCokernelRank": 202,
+    "parameters": {
+      "binding": "87f3d53e716c7aa48e29e8089a33944ef72a7a9b7f56ebd8f64ed10c89be3886",
+      "inputIdentity": {
+        "version": "original-outside-field-minimal-v1",
+        "source": {
+          "bytes": 24174,
+          "sha256": "c4b92e5db24165f2d0e1f36f20759a9554239c2aaba84f73984e154604e7f161"
+        },
+        "inputs": {
+          "native_model": {
+            "bytes": 128145,
+            "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+          },
+          "primitive_equations": {
+            "bytes": 65159,
+            "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+          },
+          "selected_receipt": {
+            "bytes": 75700,
+            "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+          },
+          "paid_schur_summary": {
+            "bytes": 26242,
+            "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+          }
+        },
+        "sameOriginalJSHA256": "130984d8bba68b633607c25a6610bb6bdb2cb6c8bc1d536d6ed31ab7b2dda4f9",
+        "paidSelectedBinding": "43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600",
+        "field": 31,
+        "familyOrder": "i<j lex; factor1,m0,...,m10; +Fj*ei-Fi*ej",
+        "originalShape": [
+          6188,
+          1632
+        ],
+        "outsideShape": [
+          1834,
+          1632
+        ],
+        "naturalDegree": 10
+      },
+      "secondsLimit": 180.0,
+      "memoryMiB": 1024,
+      "requestedMaximumDegree": 21,
+      "paidSelectedLength31": 243,
+      "paidSelectedMaximumExponent31": 21,
+      "maximumDegreeIsInclusive": true,
+      "newCharacteristicZeroSolve": false,
+      "newOriginalOutsideFieldProfile": true,
+      "nonzeroOutsideCoefficientsByDegree": [
+        43196,
+        23015,
+        24468,
+        24218,
+        24555,
+        24162,
+        2042,
+        2195,
+        2109,
+        1867,
+        1717
+      ],
+      "originalOutsideRowsSHA256": "4574b6621c57c201e33c6aa3b538bcb49955e999e4cb46916f272510816d3ee2",
+      "temporaryFiles": [
+        {
+          "file": "outside-original-field-unit-profile.json",
+          "bytes": 14297,
+          "sha256": "0f1933f019078e481ed0540ac5d4a6f85ef3fdd7d46fa2600157041337bb25aa",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-constant-unit-inverse-field31.bin",
+          "bytes": 2569697,
+          "sha256": "70a1eb05cf3589c887e295cfef1db35de7f922fc048a8646756e69b0ab059c32",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-constant-unit-cache.json",
+          "bytes": 253,
+          "sha256": "7de967bf2fb94310d236644a7e3c0b0f3b5106017c74803b4caf51728513d2f0",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-0.bin",
+          "bytes": 47416,
+          "sha256": "1a719c168e326c66c7a6613d47f52dc7b4f27799037e76d1fd47f7054f485505",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-0.bin",
+          "bytes": 53274,
+          "sha256": "433b566775d66ff00ad23061c89c84b7d2ab28a1959588bd7b19b6c8e927f96f",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-0.bin",
+          "bytes": 6787,
+          "sha256": "7f9355bf4bbe7fea7459a45f246ff438b9016cba507d2224fded1fc26442acfc",
+          "temporaryOnly": true
+        },
+        {
+          "file": "actual-original-selected-koszul29-field31.bin",
+          "bytes": 179540,
+          "sha256": "09c3db136f5b9f1b52b15d5df3951dca1470d106f5a523f6cd12e3416a3a85a2",
+          "temporaryOnly": true
+        },
+        {
+          "file": "actual-original-selected-koszul29-products-field31.bin",
+          "bytes": 126731,
+          "sha256": "6f5c0f6d30123684553b574b5ac2e76abc7d9627f99208df0c7deed0e48c4651",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-1.bin",
+          "bytes": 47416,
+          "sha256": "11324754bad8a153083e236fe7f9f29b1a35cab2b17147fd863a9052828a2c98",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-1.bin",
+          "bytes": 53274,
+          "sha256": "0e23af6146f2141760de2ee193ab723a581fd84c16665b787cc2161fb8fb217c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-1.bin",
+          "bytes": 6787,
+          "sha256": "1c2275f4856453d95fc16204fd5fcb71fdedef3a5565f0368cc5f744d46ef581",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-2.bin",
+          "bytes": 47416,
+          "sha256": "047546922045099d008e52f86dd3736eb0bc1bdb4f93155f58c24aced21427b4",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-2.bin",
+          "bytes": 53274,
+          "sha256": "3022c5f0ae5d8f4138f32d323167b2af6a73de76f85c2d300d5f784c0facfefb",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-2.bin",
+          "bytes": 6787,
+          "sha256": "3cafbdc268676e174412af22eea6cf0497669a81fb6f049649ade281b84b8ec9",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-3.bin",
+          "bytes": 47416,
+          "sha256": "a87a0db778c35f7a2a5aea106bea24b59ba7a71fdb62c78b21b7e044f81b1dd6",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-3.bin",
+          "bytes": 53274,
+          "sha256": "e6d4abd57c317633ebc6d84dc6ffcdbb07728b8798743defd32532c59b7d9b3a",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-3.bin",
+          "bytes": 6787,
+          "sha256": "c320d64231ce1377a6750c97dcd51a8f9d2cb7ad98b8b73a7abcd37fef86e352",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-4.bin",
+          "bytes": 47416,
+          "sha256": "9e78877484f5c0db67e0ae28ba18e220a4bfb180ddb16017e5b995d5bd7d7bf8",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-4.bin",
+          "bytes": 53274,
+          "sha256": "98525faa219d5198728e25e218c4a98c3cacc3f6aa146b1302005870a6197396",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-4.bin",
+          "bytes": 6787,
+          "sha256": "db456b81780a3d242de6e7c162637a50e627a738219790259384135649713a1c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-5.bin",
+          "bytes": 47416,
+          "sha256": "0c04f595e01102450b79a2dffe369bfc54e180a0bd6763bb7b5e5e32934b90de",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-5.bin",
+          "bytes": 53274,
+          "sha256": "c1271b9174da8ecd299620c4d6538b686baa6dbf1cd0b2c19faa359bde7825a7",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-5.bin",
+          "bytes": 6787,
+          "sha256": "6facff777d4417d8de0aa1c3e52819d92924c16dce224f59f0b57966a3dfae6b",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-6.bin",
+          "bytes": 47416,
+          "sha256": "4d9135b6012bc2ae105d7c53e6a1f9e4de8f8ed6f314c6fbaf3defbafea6d70d",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-6.bin",
+          "bytes": 53274,
+          "sha256": "8895d330f9967f6a5b311152114fd46d56e90a237b98e9880bef1b8738bf2ab3",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-6.bin",
+          "bytes": 6787,
+          "sha256": "74198912522b250abaf671627dadd340027a2ff6a9bc15221a2c2ea9d4d5fe33",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-7.bin",
+          "bytes": 47416,
+          "sha256": "3de657ddaf1814f3ee0d58eec4d319d737f934aab1fbcd3295033fe22c3a3d8b",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-7.bin",
+          "bytes": 53274,
+          "sha256": "7cf03ce1fa0e135d34f188b69adea4fb9cf1e10ebb7e8f21a0d967e07dab1a9d",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-7.bin",
+          "bytes": 6787,
+          "sha256": "d86804cf82acb9c7dee69ad89e7be226bae8eecf3752836ffcb69fe89da1161a",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-8.bin",
+          "bytes": 47416,
+          "sha256": "86a544a876204f3c4ca4be8dc5c69cb399377df99a65a16d77b9608d62afa6a3",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-8.bin",
+          "bytes": 53274,
+          "sha256": "fa2e20b5cad9cc0e688f8cf13858ab7ad56b723ebe9efb53f0ce62ab5ec3c82c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-8.bin",
+          "bytes": 6787,
+          "sha256": "9cd2a3751d7c752ad5ca0922af89cef1be8e4f1357fa6f1b583e05385999b798",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-9.bin",
+          "bytes": 47416,
+          "sha256": "a0eedb53fd00e5788ea26145a7ad7ae3006aaa53827f0020d5ad23501e42738a",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-9.bin",
+          "bytes": 53274,
+          "sha256": "c345be944ca65476e02d228fc158ca623ef3a10e3be3540e927d8e3b43656da2",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-9.bin",
+          "bytes": 6787,
+          "sha256": "6b28075d8d4469383230c1116c6e8f0ccca728a24665c2c52dd758467f2208f4",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-10.bin",
+          "bytes": 47416,
+          "sha256": "a621745f026c81957a9ed9ece3e41a2e93423592556b7fd3bc8f576d6f7a4ea2",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-10.bin",
+          "bytes": 53274,
+          "sha256": "0783a8052eff23815c7fc5df6f6ef787b19112acc54a005de79f2cdc4eff4332",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-10.bin",
+          "bytes": 6787,
+          "sha256": "50d146a9aaecc8828e3880d82b7a8d9766af068ebd229608d8aae3524a950641",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-11.bin",
+          "bytes": 47416,
+          "sha256": "4990d30a307af2bea2f6093c730bb44f1f86c17b8db0ae9cbab542aa051f86cb",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-11.bin",
+          "bytes": 53274,
+          "sha256": "7212e63ea0de448b78e0d930c1b65bc73fe9b48942f890d38c6d18f98e3f1ed9",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-11.bin",
+          "bytes": 6787,
+          "sha256": "9283f36220d5d7f8864002b7c5c6431293975519e83d25f4c644fc0c823bea72",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-12.bin",
+          "bytes": 47416,
+          "sha256": "4ec27624b5eb5776e77add628aa78f25a9c95d1aaf51687eb7b666ad7b65865b",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-12.bin",
+          "bytes": 53274,
+          "sha256": "75bf8a22349e116c4840e1592ca890e326c069154e5cfc469727a4cdc59997a7",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-12.bin",
+          "bytes": 6787,
+          "sha256": "dc2ab862ecabd05ea2771562ba8832791836fdf3135bef97908256f7b32d3a7e",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-13.bin",
+          "bytes": 47416,
+          "sha256": "9a0ac564d8d173603e4a15dec7107bc17a5dd846ac13cc6c9ee57811ce6acc53",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-13.bin",
+          "bytes": 53274,
+          "sha256": "940361b7e89b7368240dfcb3424bd4efe17dd35b9d110d7ccf4255e6b328201e",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-13.bin",
+          "bytes": 6787,
+          "sha256": "9b52fbe159988f5ee70212f29c60aea6f4624969ef4e8083cda0cd51b3919613",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-14.bin",
+          "bytes": 47416,
+          "sha256": "9a1492f0f6ebaba95d7e60269ce20e5b446161ea4099f64847c2da44a5476115",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-14.bin",
+          "bytes": 53274,
+          "sha256": "5cd7d6f69d9286bb0a7a3d13dfdf8fb0fce956e6f5a8b9af2901329bf62d3831",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-14.bin",
+          "bytes": 6787,
+          "sha256": "8e2d0181203c09617163cd415d2e8fcef45cce52c27c56d8db1e30d140cf7eeb",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-15.bin",
+          "bytes": 47416,
+          "sha256": "e8e0d45edd7e1be9df3d82f6ba3c016baf9768ca4be1b3acd428d8445a075534",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-15.bin",
+          "bytes": 53274,
+          "sha256": "14c93a92dba6405aa505268ef736290631f7438defff23bb6c21c8ccfcaf787f",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-15.bin",
+          "bytes": 6787,
+          "sha256": "1e218efba212aa5e4d722028494ae83463b59a950a4b46314211f343eada0937",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-16.bin",
+          "bytes": 47416,
+          "sha256": "e5a8df9796f4582559717387d9c3fa2883ca5c76b7135b7d63ad3bfad96022b7",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-16.bin",
+          "bytes": 53274,
+          "sha256": "bd8a154e3904b97b306d8ea607aa48cf573b6ff6f18a70d04393a84abdd42ccd",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-16.bin",
+          "bytes": 6787,
+          "sha256": "4a64da38cf75598fae79eb229078c1e27a724de40ce88263e7ff2a309ab9d59c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-17.bin",
+          "bytes": 47416,
+          "sha256": "818bf11c7aa58729035d2ae93c5d932464a53adf7e944112e21106f58dd249a6",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-17.bin",
+          "bytes": 53274,
+          "sha256": "1c6f22f4a5bc9b3e16beaddf2ddb5b019ede0809351be4567ca5cd61d7c101e1",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-17.bin",
+          "bytes": 6787,
+          "sha256": "5705b9db0f4a6107dd3c02c401f589bedfa20f664771dbf24fff56e6fe15bcfc",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-18.bin",
+          "bytes": 47416,
+          "sha256": "f0a4dc5019d71be1a1961dd8dce48b220eacca8de94f296c2468ddbc26735a17",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-18.bin",
+          "bytes": 53274,
+          "sha256": "c0b2c55ab18d36a812f4de97b801f3257fb9cb3fa5e349abaf8d254a5a546c7c",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-18.bin",
+          "bytes": 6787,
+          "sha256": "f034df9edb86c867d93063176f26eca5a64976e4855fdaad1f0b333c737a67fb",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-19.bin",
+          "bytes": 47416,
+          "sha256": "4f0a8c5268a649b631508559477e4fd6de94c7e3a2e8e0a6fee3fc644707f7c0",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-19.bin",
+          "bytes": 53274,
+          "sha256": "8cee653e17481a1784c157748ddd25f1911c0191b01f79dba0ae635746d4a108",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-19.bin",
+          "bytes": 6787,
+          "sha256": "10ba935215533ddf0b542686aaf267677754957aac0d17c7caced088395f6e21",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-20.bin",
+          "bytes": 47416,
+          "sha256": "403ea0b353159c298c34fa2a1fc4ee4f04d19ddcd180e1d93b831bec98f1a6e1",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-20.bin",
+          "bytes": 53274,
+          "sha256": "eb3eaace2ea9219d1856555ad3f3d17f4a85df19a4fc891c0f0730f7719188c2",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-20.bin",
+          "bytes": 6787,
+          "sha256": "1ded9d9b416ccbb5e5848ecf2e9b61b47e0dceaff046ff25fae1edb0486b38a6",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-source-21.bin",
+          "bytes": 47416,
+          "sha256": "12dcefee7ed5450c6ff035deb73f03da46e38eb8b368c483ecfa49b88c9f56bc",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-residual-21.bin",
+          "bytes": 53274,
+          "sha256": "a7da1dae068d429694bb4f2bb8936e8eea0dc246e6f1eafd7e5011031b8df9eb",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-schur-21.bin",
+          "bytes": 6787,
+          "sha256": "156e3d711068e3e92b5b9ae5bacd2db6eff730ddad620c6de41a6da523dcbba8",
+          "temporaryOnly": true
+        },
+        {
+          "file": "outside-complete-jet-ledger.json",
+          "bytes": 12725,
+          "sha256": "7296eb2086bfd367824c120cb65ecf815affefb448516dea053d1e3b4a48e6f8",
+          "temporaryOnly": true
+        }
+      ],
+      "constantUnitRank": 1603,
+      "outsideSchurShape": [
+        231,
+        29
+      ],
+      "freeFamilyColumns": [
+        1452,
+        1453,
+        1454,
+        1455,
+        1462,
+        1512,
+        1513,
+        1514,
+        1515,
+        1516,
+        1518,
+        1523,
+        1524,
+        1525,
+        1526,
+        1527,
+        1536,
+        1548,
+        1560,
+        1561,
+        1562,
+        1563,
+        1564,
+        1565,
+        1569,
+        1572,
+        1596,
+        1608,
+        1620
+      ],
+      "unitOutsideRowPositionsSHA256": "aa25e2eb34103bee8369c71e0e7f5ea4bfb7ab8d489c89d761605d2274b72308",
+      "unitFamilyColumnsSHA256": "29fde565f7694343eae1aa47defb591b6966e600b2549ead469befa3ab4000a3",
+      "originalFreeRows36": [
+        1271,
+        1204,
+        1205,
+        1256,
+        1206,
+        1223,
+        1257,
+        1156,
+        1207,
+        1224,
+        2393,
+        3328,
+        4093,
+        2326,
+        3261,
+        4501,
+        4026,
+        4281,
+        4502,
+        4587,
+        2327,
+        2378,
+        3262,
+        3313,
+        4027,
+        4078,
+        4248,
+        4282,
+        4503,
+        1716,
+        1733,
+        1750,
+        1767,
+        1784,
+        1801,
+        1818
+      ],
+      "smallSeriesSmith": {
+        "complete": true,
+        "paidExponents": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          5,
+          6,
+          8,
+          8,
+          9,
+          10,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "unresolvedCount": 0,
+        "torsionLength": 149,
+        "maximumPositiveExponent": 14,
+        "freeCokernelRank": 202,
+        "steps": [
+          {
+            "uExponent": 0,
+            "rows": 231,
+            "columns": 29,
+            "availableDegree": 21,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 1,
+            "rows": 231,
+            "columns": 29,
+            "availableDegree": 20,
+            "constantRank": 2,
+            "unitRows": [
+              0,
+              202
+            ],
+            "unitColumns": [
+              11,
+              25
+            ]
+          },
+          {
+            "uExponent": 2,
+            "rows": 229,
+            "columns": 27,
+            "availableDegree": 19,
+            "constantRank": 10,
+            "unitRows": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              185,
+              190,
+              198,
+              201,
+              219
+            ],
+            "unitColumns": [
+              0,
+              1,
+              4,
+              16,
+              17,
+              18,
+              19,
+              23,
+              24,
+              25
+            ]
+          },
+          {
+            "uExponent": 3,
+            "rows": 219,
+            "columns": 17,
+            "availableDegree": 18,
+            "constantRank": 3,
+            "unitRows": [
+              0,
+              1,
+              195
+            ],
+            "unitColumns": [
+              7,
+              14,
+              15
+            ]
+          },
+          {
+            "uExponent": 4,
+            "rows": 216,
+            "columns": 14,
+            "availableDegree": 17,
+            "constantRank": 3,
+            "unitRows": [
+              0,
+              1,
+              182
+            ],
+            "unitColumns": [
+              8,
+              11,
+              13
+            ]
+          },
+          {
+            "uExponent": 5,
+            "rows": 213,
+            "columns": 11,
+            "availableDegree": 16,
+            "constantRank": 1,
+            "unitRows": [
+              193
+            ],
+            "unitColumns": [
+              3
+            ]
+          },
+          {
+            "uExponent": 6,
+            "rows": 212,
+            "columns": 10,
+            "availableDegree": 15,
+            "constantRank": 1,
+            "unitRows": [
+              190
+            ],
+            "unitColumns": [
+              2
+            ]
+          },
+          {
+            "uExponent": 7,
+            "rows": 211,
+            "columns": 9,
+            "availableDegree": 14,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 8,
+            "rows": 211,
+            "columns": 9,
+            "availableDegree": 13,
+            "constantRank": 2,
+            "unitRows": [
+              192,
+              196
+            ],
+            "unitColumns": [
+              4,
+              8
+            ]
+          },
+          {
+            "uExponent": 9,
+            "rows": 209,
+            "columns": 7,
+            "availableDegree": 12,
+            "constantRank": 1,
+            "unitRows": [
+              192
+            ],
+            "unitColumns": [
+              4
+            ]
+          },
+          {
+            "uExponent": 10,
+            "rows": 208,
+            "columns": 6,
+            "availableDegree": 11,
+            "constantRank": 2,
+            "unitRows": [
+              196,
+              203
+            ],
+            "unitColumns": [
+              1,
+              5
+            ]
+          },
+          {
+            "uExponent": 11,
+            "rows": 206,
+            "columns": 4,
+            "availableDegree": 10,
+            "constantRank": 1,
+            "unitRows": [
+              198
+            ],
+            "unitColumns": [
+              0
+            ]
+          },
+          {
+            "uExponent": 12,
+            "rows": 205,
+            "columns": 3,
+            "availableDegree": 9,
+            "constantRank": 1,
+            "unitRows": [
+              201
+            ],
+            "unitColumns": [
+              1
+            ]
+          },
+          {
+            "uExponent": 13,
+            "rows": 204,
+            "columns": 2,
+            "availableDegree": 8,
+            "constantRank": 1,
+            "unitRows": [
+              198
+            ],
+            "unitColumns": [
+              1
+            ]
+          },
+          {
+            "uExponent": 14,
+            "rows": 203,
+            "columns": 1,
+            "availableDegree": 7,
+            "constantRank": 1,
+            "unitRows": [
+              200
+            ],
+            "unitColumns": [
+              0
+            ]
+          }
+        ]
+      },
+      "largeDataRemainOnlyInCurrentJob": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 16:00:23 UTC",
+      "beforeReadCommit": "cf04b1ce3d745d01ae52c86d315a877bb950a8a1",
+      "originMainAfterPull": "e238d925a11a50a0098ffda39ce243c4afbfeda6",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 16:00:36 UTC",
+      "beforeReadCommit": "e238d925a11a50a0098ffda39ce243c4afbfeda6",
+      "originMainAfterPull": "e238d925a11a50a0098ffda39ce243c4afbfeda6",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 8,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2745,
+    "logicalJsonSHA256": "bb2cdaecdbbc554f733e981b4f8c2305f012de32c063fff0b1355aab535e4422",
+    "itemCount": 8
+  },
+  "lastRulesReadCommit": "e238d925a11a50a0098ffda39ce243c4afbfeda6",
+  "summaryExcludesRecomputableArraysOnly": false
+}
