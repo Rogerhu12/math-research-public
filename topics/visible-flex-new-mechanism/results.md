@@ -218,3 +218,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R382：整个H层的自然总通量普遍为零，Q4是真正新类
 
 [完整证明](results/R382-universal-cancellation-of-the-corrected-H-total-flux-and-independent-Q4.md)。补后self的四j系数为紧导数，得两精确A/B表达式；M/T系数分别为(2QL³)′/(−QrL²)′及(−2QrL²)′/(Qr²L)′，保原M′/T′后与全local多项式准确抵消。连R381全部真尾与原正规化/affine输运，Λu(H1(S))=Λu(H2(S))=0对所有实际S/紧u成立。旧具体7/13自然通量H控制不能恢复；不授H算子零或属于R。R370独立完整δ⁴读出及真紧三bump给Qδ4∉R+spanH，未授实际成本可达。11628B/SHA256 a72c9536d6bdb289ddbad61651cc40b1a665b0491a85aa48253d0df6b0bd6481。
+
+## R384：完整纯δ4自然像的准确二维与有限正锥
+
+见[R384-exact-two-dimensional-natural-image-and-positive-cone-of-Q4.md](results/R384-exact-two-dimensional-natural-image-and-positive-cone-of-Q4.md)。R370完整成本给N(Q(d))=(X+dM)/80，R382全H自然像0；同窗口两个三bump平移使X=x0M、M>0，故该系数族模共同Λ核的像恰二维。非负有限组合的像准确为{0}及aX+bM(a>0)，闭包边界a0,b≠0不是有限实现；有限中心区间对应b/a加权均值区间。没有把U/R全维数、线性span、正锥或单固定Λ的两号混作实际二维闭环控制。原低阶/桥/history/同g仍另付。
