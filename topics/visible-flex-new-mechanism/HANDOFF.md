@@ -47,7 +47,7 @@ R148固定k sharp门：a≥0、d+(3−σ)²a/9≥0 iff全平端h的最高action�
 
 R146给五族整个U/R协变H^e[F(S_Hd)]=P[F(S)]、ω_j=N^jω0/j!。R154用真实(k,ω)反号五族符号(+,-,+,-,+)，将五族全部状态化为h1/ω0/k0,1,2,3的20个状态值正仿射轨道span。S在有限正缩放实span内，七点插值准确；不是dim20/实际控制/有限点正性。原80逐权条目仍可用于实际消费，不盲扫。
 
-R152固定h平端k的最高action非负iff一维∫[(4/9)cψ′²+eψ²]≥0；e可局部负。R155提升为全部水平曲线Γ的准确Sturm型族iff全部L4 action非负：aΓ=VᵀAV，bΓ=2VᵀAAcurve，eΓ=cΓ−bΓ′/3，完整面积H/速度Q4与真水平导数保持；有限时间flat cap、充分性γ=P均付。仍不授L0/L2/同一μ正性。
+R152固定h最高action给一维Sturm充要门（e可局部负）；R155扩为全部水平曲线Γ的二次型族iff全部L4 action非负，保面积H/完整Q4/水平总导数和有限flat实现，不授L0/L2/统一μ。R158在权−2边界a0=0,c0>0,4a2c0=b1²上，β=b1/2c0，全部null速度路k=K h^-β且ω按真方程积分（β−1含log）；逐点L4=Eβ h_s⁴，故该受限类非负iff全state Eβ≥0。Eβ保完整五项Q4和H，不推PSD内部或全正性。
 
 ## 5. 已付pure层与最小新原差
 
@@ -62,6 +62,6 @@ R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B
 
 ## 6. 正在运行与未付终局
 
-几何43658064177已登记，mechanism开发原预算内SOC二阶恢复接口，仍全163和两网原门。D0 full分离已登记R153，R157新源c296f72b已派单D0 pure：只读R151九基/旧代表，新Q求解+fresh原差，不用mod lifts、不重40/旧评价。R156已发，tail续pure零后的二槽结构；literature续R158秩1正性边界。root独占Git/派算。
+几何43658064177已登记，mechanism开发原预算内SOC二阶恢复接口，仍全163和两网原门。D0 full分离已登记R153，R157新源c296f72b已派单D0 pure：只读R151九基/旧代表，新Q求解+fresh原差，不用mod lifts、不重40/旧评价。R156已发，tail续pure零后的二槽结构；R158秩1边界纸证已发。root独占Git/派算。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

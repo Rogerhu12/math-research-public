@@ -323,3 +323,5 @@
 - [R153：D0超出全部响应、G轨道与J的原有理分离](results/R153-D0-original-separation-beyond-response-G-and-J.md) — actual43658922081/source a6398571复用42×42原pivot，仅评价新D0和一条旧根组合；mixed−2实查询t1/70给ΛD0≡379682857、43阶det267072587 mod2147483647。实成员系数由原Q pivot唯一化，故D0/K0∉A_G+RJ，U/A_G≥2、U≥239；lineality/query仍237。pure模零只未决，0旧逐列评价/新响应/N2重编，3.701s/RSS95.484。
 
 - [R156：输入相位旋转只有平凡角保持canonical成本空间](results/R156-input-phase-rotation-fails-canonical-cost-invariance.md) — 完整路径二槽表保全history；所有V在g0输入偶、f0输入有四阶相位零，R81真实hook响应给反例，严格得IαU⊆U（亦闭锥）iff α∈πZ。−2输出含输入荷4/2/0，五相位平均保非零荷0；固定F重置有明确余项，输出移相虽形式平均零也不保U。不授新正泛函，保普适/特殊圆范围。
+
+- [R158：秩一PSD边界的完整null曲线充要门](results/R158-rank-one-PSD-null-curve-highest-action-criterion.md) — 权−2、a0=0、c0>0、4a2c0=b1²时，加速度型为c0h^-2(b+βka/h)²。全null速度路为k=Kh^-β并保真ω积分，完整面积及五项Q4给逐点L4=Eβh_s⁴，受限路径非负iff全state Eβ≥0。有限时长3的光滑flat实现，不除零速度，不推PSD内部/全action/实际可达。

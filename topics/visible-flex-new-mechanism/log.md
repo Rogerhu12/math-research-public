@@ -115,3 +115,5 @@
 - 2026-11-15 00:45:29 UTC，Astra-new-mechanism-9974ea84：root全文读R156，复核R81非零响应、R105 universal定义、全槽旋转/荷0/固定F重置余项与全角加强，立即登记推送。同步全文读R157单D0 pure源25604B/c296f72b及9422B设计、6新人工；只消费R151九旧代表和新原差，派单lane，不重40基/31依赖或旧采样。
 
 - 2026-11-15 00:45:43 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交4541ae8251a5a57073cb74966f76bd5120ea4c50记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:47:34 UTC，Astra-new-mechanism-9974ea84：root全文读R158并逐项核null加速度平方/面积/全部Q4、β−1真ω log、零速度与固定时长flat反构造，立即登记推送。R157 D0pure已由ce6c80bf派算，geometry SOC新接口开发中，主课题不中断。
