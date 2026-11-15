@@ -498,9 +498,11 @@ $Y\circ P_{W,\kappa}$，原深域必须按该整矩阵转置，
 $$
 \texttt{node scripts/check-r692-four-axis-three-state-and-unit-partition.js}
 $$
-脚本无外部依赖；公开 Actions 运行时将打印暂态证书和 SHA256。
-本稿提交时未在会话 V8 执行该数值检查；
-真实公开 run 标识与输出散列由主线程运行后登记。
+脚本无外部依赖。公开 Actions [run 43681737790](https://github.com/Rogerhu12/math-research-public/actions/runs/43681737790)
+已在提交 `8505164beda8b5116f14ed8db08e2cb00b154261`、无额外参数执行成功；
+113条准确检查通过，stdout 7303字节，SHA256：
+`3a6b0cd274654bbf53ea2fc6382c1839bf265abb55ba7d46a50e5788660fd4de`。
+没有提交暂态证书或在会话 V8 重跑。
 
 脚本核三态矩阵、四挠二挠投影的全部16标签、
 四态来源轨道、显示关系及四条轴的成对单位行列式。
