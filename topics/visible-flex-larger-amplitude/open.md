@@ -48,6 +48,12 @@
 
 [已关闭迭代的后台artifact接线](notes/2026-11-15-noJ-primal-live-background-artifact-wiring.md)完成源码/官方接口核对：SDK2.3.2在同job持续计算中流式上传，双迭代批次避单job500件限制；同id下载、显式digestMismatch=false及全部成员原SHA核同后才可释放已闭合large-arrays，原manifest/小记录保留。Node supervisor持有新增runtime凭据且不转给科学child，完整依赖锁/恢复入口仍待真实实现；本次未上传/删除原件。网络积压不保证32GiB总容量，storage错误与科学接受分记。
 
+### 1D. R259：实际80八次全步接受，低三根仍未解
+
+[actual80完整结论](notes/2026-11-15-actual80-damped-small-core-eight-full-steps.md)、[完整原status](notes/2026-11-15-actual80-complete-original-readout.json)、[29项字节回执](notes/2026-11-15-actual80-original-byte-audit.json)：run43664043053/source5a17ad80/job132659392179，eta1八方向全部首档alpha1接受，无域/merit拒绝；原merit65077006698.67736→15492237698.871113。finalp=[.09071772300091886,-.13939413969182854,-.12252606423015384]，原三方程=[206.4299715953469,-176013.15201356995,1950.1545213062855]。第三分量减小，第二分量绝对值增大，不能说三项均改善；candidate/success/native/nonzero仍false。
+
+52985B原status ebe5b50c及69源/11artifact件保全；四大输入仅actualActions receipt跨绑定，不冒本地payload重复核。原末FD/零core圆/494Arb叶只付声明a/ap范围，不是强C2、真实连续R或非零parent。82用实际父finalp、独立ownschema续接、显式eta0.1/8/20，冻结1691方向和3b9方程/未加权merit/Armijo/全部末端检查。root已完整读新源及接口，唯一工作流读完即推；阻尼候选没有预断成功或唯一原因。
+
 ## 2. 接受场闭合、固定g与全t精化
 
 已发布[完整闭面执行入口](notes/2026-11-14-accepted-full-DN-shared-closed-followup-interface.md)：真fullDN和自己的final audited tail/config/port→完整physical/material/z0/mean→R249首单元→共享quintic B与两帽；只用自己的完整readout，不加旧A mean，目标g不替换为B′。实际接受输入仍缺，未造request。
