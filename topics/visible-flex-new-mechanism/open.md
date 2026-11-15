@@ -115,3 +115,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R325 后续：朝内真实弱核已付原障碍四行
 
 [R325](results/R325-inward-weak-hook-circles-pay-three-directed-rows-and-the-one-history-compatibility.md)在同一个新圆准确支付完整third、A−2−3的三外矩/全θ、三directed及指定完整一层/全θ。朝内反射给面积2LM增长、强isotropic正幅支付后Ψ有严格负首项，真实强宏块给正值，正幅整块组合清Ψ。所有跨完整块真实二次尾消配对已逐原I2证明，初选F★含∫u″4保Ψ不漂；两evenχ×原12交替点的实际R3正锥与有限N全基线根清三行。下一R328仍须新弱强圆其余完整面积/对称乘积、零/一层、其他端口、canonical平台/flux/period及同一规范joint，不把强宏块自身72面积当整个新组合已付。
+
+
+### R323/R329：全pure与全self联合闭锥已满，实际半群最小余门C4/C6
+
+[R323](results/R323-full-pure-self-cone-and-complete-negative-weight-response-control.md)用R314/322的完整权移证明−8 self0、−6两完整坐标；从原四c密度和E8二导手展八响应，保真实μ0²/2尾并消元，覆满−4八完整坐标。配合真pure像等号、已付±2与H*排0权，E=(π,全Q)实际闭锥=E(U)。R222/R302已可真实联付wholepure及两个负权共10个普适self坐标；一般闭锥满不授whole E实际半群。剩余零权商至多由C4/C6张成，R329先纸面核其同权pure校正后全Q是否进入已付13列像，真需新执行也只两根/完整source，不重H或rank7。全mixed换槽/其它尾及固定圆同gauge两函数联合商仍另欠。

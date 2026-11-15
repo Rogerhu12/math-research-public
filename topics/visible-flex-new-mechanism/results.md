@@ -463,3 +463,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R325 完整真实构造](results/R325-inward-weak-hook-circles-pay-three-directed-rows-and-the-one-history-compatibility.md)保R320朝外严格否定，改用朝内反射：右侧左向5/2曲段与真实镜像使面积m1=(2LM+常)sin²θ；固定Q4/cs强修正后，strong isotropic正四次幅支付全部三外矩。准确Ψ=C+(2LM/9)(N/P−7)，而7P−N=40+614t+530t²+4092t³+306t⁴严格正，故一个有限L给负值。完整strong宏块给正Ψ，以真实正幅组合清零，没有借signed成本。
 
 未先假三行零的完整一层恒等保F0/F1/F2余项，新增H_L0全原式证明其全相位仅s²/cs；原12副本清cs。不同完整三矩块的真实二次左尾对I0/1/2严格正交，所有所用行可加。初选同F★加入∫u″4保持Ψ，弱核心不动，只在strong包改形；三主方向矩阵det32ad*非零，两evenχ及12实际交替点产生R3正锥，有限N的完整C1根付三directed并使原一层全θ为零。共同大正I/最终位置/母包/幅/N/新seed与g选择顺序明示。其余完整fourth、其它面积、period/joint、高阶与主目标未付；没有新执行。
+
+
+## R323：整个 pure/self 联合实际闭锥满，两个负权十坐标已有真实联控
+
+[R323 完整证明](results/R323-full-pure-self-cone-and-complete-negative-weight-response-control.md)保成本σ到self的σ−2权移与R314全T/Euler表达，给−8整self0、−6二维完整上界，并由R313/R303真响应覆盖。对−4列出A/B/C/D/F3/F/G和非局部Z=μ0²/2八个完整独立坐标，从原c密度与E8二导手写八真实响应全表；含K1的−Z/4及K6的+Z。逐原IBP及八列消元最后−26f=0，完整像等于响应像；无新程序或人工执行。
+
+联合E=(π,全universal Q)的核真仿射稳定，负权联合像已覆盖，旧±2排除、R316 H*排零权正字符，所以真实联合闭锥为整个E(U)。R222/R302另给wholepure+−6两/−4八共十个普适坐标的真实有限同时截面。根把有限查询论证精确写在E(U)上，未称self单独分离U。whole E实际半群仍欠R206的零权可逆接口，准确缩到C4/C6两原完整成本；R329继续此最小门。完整B两个mixed目标、同一gauge ruling和主目标未付，λ+对真实非空成本严格正仍有效。
