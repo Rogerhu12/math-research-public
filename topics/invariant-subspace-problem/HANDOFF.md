@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open；有限模型、候选排除或阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** a84a1eb4a36ea40499ddf739ec0058de6c158d32（2026-11-15 04:33:55 UTC，Actions run43677311491实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43677311491-1.json。
+- **最近成功实际 pull 与已读规则提交：** 28a35be3745a63cc4f59f46725fdee50f0b54711（2026-11-15 04:34:44 UTC，Actions run43677371373实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43677371373-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿和证据blob。每结论立即推；每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。
 - 根迁移授权仅Rogerhu12/math-research-public；token仅CLI临时环境。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、job≤6h、账号≤20并行。数学用美元符；Markdown≤100KB、H≤10000字节、log每条≤5行；原数据>1000000B压缩、每存储文件≤5000000B，分片4500000B。
 - 全部未列状态、实际来源/SHA/旧限制保[本次完整H](notes/2026-11-15-handoff-before-growing-symmetric-blocks-789f.md)及递归快照；未列open不视为关闭。根本地sparse，原树文件保留；大任务在本库Actions。
@@ -22,7 +22,7 @@
 **原选列∞：** [模31常秩4318/连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)给同4354子式36余方向/3阶一/33阶≥2，v∞Dbar≥69；不能混同全矩阵4340/连接4。char0所选秩当前4318…4340，余块14…36。
 
 **[同36核原整数Dixon至p³²](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)**已实际推057990186f6ab671a8e0e32f80eae7b654047377：由已推p⁴只推进28位、14.592554667秒，全部4367残差/自由I36及p⁸/p¹⁶/p³²新鲜乘回全真；84证据24916470存储字节。非单位31-Smith若非零赋值≥32，此轮无真Q核。
-**[第184位13真Q核已证](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)：** 同36自由槽中13列完整6188有理系数重建、4367原整数乘回精确零，自由I列保证独立；同选4354支撑，故当前秩界仍4318…4340。32→184只接152位、108.336960369秒；64/128/184原乘回全真。13核完整整数证书、原程序/主回执及184来源/产品/残差所有分片已先存；[当前184文件清单](notes/2026-11-15-r150-selected-infinity-thirteen-exact-kernels-core-publication-manifest-789f.json)32463848B，其余348总清单的恢复仍上传不丢。共同分母LCM438bit、分子最高471bit；30秒固定D检查已实际1.443612394秒且余23列未成，仅排这些居中候选，待独立小结论提交。后继从真184接192/200或原syzygy乘变量扩张，严保同选列与自由块，不重旧位；随后接char0连接/Smith。
+**[第184位13真Q核已证](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)：** 同36自由槽中13列完整6188有理系数重建、4367原整数乘回精确零，自由I列保证独立；同选4354支撑，故当前秩界仍4318…4340。32→184只接152位、108.336960369秒；64/128/184原乘回全真。13核完整整数证书、原程序/主回执及184来源/产品/残差所有分片已先存；[当前184文件清单](notes/2026-11-15-r150-selected-infinity-thirteen-exact-kernels-core-publication-manifest-789f.json)32463848B，其余348总清单的恢复仍上传不丢。共同分母LCM438bit、分子最高471bit；[已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)实际1.443612394秒/30秒512MiB，无新Dixon位，23列原整数乘回均非零；仅排这23个分子，不排同D的无界高度或别的分母，完整回执已存。后继从真184接192/200或原syzygy乘变量扩张，严保同选列与自由块，不重旧位；随后接char0连接/Smith。
 
 ## 实际边界：同一源与全部返回
 
