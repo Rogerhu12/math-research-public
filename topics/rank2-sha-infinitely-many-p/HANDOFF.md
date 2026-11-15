@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：b5930d87235ca80a3c8cb1a049c72c2305be4234；2026-11-15 16:26:03 UTC核两README无变。实际CI pull 2026-11-15 16:00:07 UTC/cf04b1ce3d745d01ae52c86d315a877bb950a8a1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:26:02 UTC仍无环境。最迟2026-11-15 16:45 UTC再实际pull。
+- 最近已读规则提交：d23db7eba55d73bafcb6f2c8d7f82d87f1d85b3c；2026-11-15 16:29:14 UTC核两README无变。实际CI pull 2026-11-15 16:00:07 UTC/cf04b1ce3d745d01ae52c86d315a877bb950a8a1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:29:13 UTC仍无环境。最迟2026-11-15 16:45 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 最新实际pull 16:00:07/headcf04b1ce/run43732958967/job132869280519；回执ci/rule-pull-20261115T160007.json。
@@ -12,9 +12,9 @@
 
 ## 检查点、量词与分工
 
-[压缩前全部正文](notes/2026-11-15-frontier-before-r784.md)沿归档链保所有常数、十九角、ray、原来源、坏集和run/hash。[open全文](notes/2026-11-15-open-before-r782.md)保全部旧未付接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-R1–363、365–560、562–653、655–711、713–785、787已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
-root唯一metadata/ref写者；deep续全非F²余列/指定normal，theta接R786同q的J深固定有限来源，literature接R789真实CM观察和全补域；root正执行R788原b3五型全大p子式gcd及剩余有限p十九角类/κ强窗；producer已提交，未预支排除或存在结论。
+[压缩前全部正文](notes/2026-11-15-frontier-before-r786.md)沿归档链保所有常数、十九角、ray、原来源、坏集和run/hash。[open全文](notes/2026-11-15-open-before-r782.md)保全部旧未付接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+R1–363、365–560、562–653、655–711、713–787已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+root唯一metadata/ref写者；deep续全非F²余列/指定normal，theta续J-only五维负一与原Cauchy行，literature接R789真实CM观察和全补域；root正执行R788原b3五型全大p子式gcd及剩余有限p十九角类/κ强窗；producer已提交，未预支排除或存在结论。
 已付固定E17及j0 E17/E24/E2312秩2；仍须无穷不同p至少一条固定原J′非零。有限p、条件负矩或附近来源非零均非完成。
 
 ## 普通：同q的非零条件行、完整补域及实际第三中央
@@ -22,9 +22,9 @@ root唯一metadata/ref写者；deep续全非F²余列/指定normal，theta接R78
 原q*=R734同50行/5×5整逆、两核、六支，N4、λ=−barπ0^-1、β=−λ、κ=pλ²、η±与旧ray相对密度1全保。q与cd返回ΦN不能互换。R735/748/751两arith点、R761 primitive9点域和R778全部174有限χ/17不分歧P点域已付；point-only投影只作用固定有限点空间，R753禁穿无限极限。
 
 R773原帽/U失败真实负一非零：同q全部L546/M78/E次数逆/M-unit/U300；公开run43726080626的两η算术幅度经固定CM密度付全N4。除λ2NβN后固定五维极限I*p≠0；两个P分母保pN误差，原共同W差赋值m+v*p。原JT′0只迫完整外部反号；不得删补域。
-R777 B0=(e0−ωhW)/cB，Y总边际0、W为T；P/t-only q作用βN，全部174/两态核与四unit恒等式G′=−A1′−B1′保。负二/负五、174负一/负四及全质量保持；R533/R540排未经finite角色/CM型校准的m→−1−m反射。帽/CD/U/E按真实投影转置，P收缩不保原帽。
+R777 B0的Y总边际0、W为T；P/t-only q作用βN，全部矩形/四unit恒等式G′=−A1′−B1′保。全负二/负五、174负一/负四和质量仍在；R533/R540禁未校准finite角色的负矩反射。P收缩不保原帽，所有门须转置。
 
-R780原U136/E2312同q表：EYW深N时B0Y0、B1Y=λ2N/cB([1/2]U+δω²S/2)，两态W都T；奇W深逆Y准确传JU′。近消=λA1−λ²shadow，移动E/Y与质量保。**旧§6(28)已更正**：帽只Eperp深；帽∩Wdeep迫t/Eunit，与第三Edeep相斥；帽∩Edeep恰tdeepN。未投影的E浅需完整Ξ/reference。
+R780原U136/E2312同q第三行已付：E深B1Y=λ2N/cB([1/2]U+δω²S/2)，两态W为T；奇W深逆Y/近消shadow及全部质量保。旧§6(28)已更正：帽仅Eperp深，帽∩Wdeep是Eunit且与Edeep相斥；帽∩Edeep恰tdeepN。
 
 R784付真实E浅纯U关系：P_U投影后系数cN=((52/3)βN−λ2N)/cB≠0；原216个s=ζbarα/α分支来源σ_s=α^-1 D_s*QαB0，保全部canonical纤维。m奇时
 A1/216+Σs≠1 a_s A_s+Σs a_s C_s=λm cN〈2〉^-dpw JU。
@@ -37,14 +37,16 @@ R785三态完整偶框架：J1512、P696/t24全部quarterflat及旧完整中心�
 帽可只返Z0，q不变但Jdeep和仿射U失败保。物理E=−17(25+48ω)Z0/144+h0t−1841J/72，Π3缩放固定J截距；2m≥N才把EdeepN准确回JdeepN，保逆归一观察/全补域。公开run43732407817的87核通过，全部producer/hash见证。
 R762穿S真实剪切的非零中央横导仍未得同固定Lp身份；四盘/A34/T/反射/17gluing等按完整归档，全外部继续保。
 
+
+R786原J深完整来源已付：同q三态先J核再L546/M78，保原六支/E次数逆/M-unit第二项，π3_*(1_Jdeep qμ)=λNβN π3_*(Φtilde_N(u)μ)；第四输出J→uJ。全π3中性βN给浅支同一固定有限carrier。E深浅共同平面对应J深浅；纯Y/W外部=λr A−λ3r F，两根过滤器精确，保全部质量。mixed T外部=λr A_W−λ3r D(κr)，D为同联合Cauchy；B0全部不含t项消失，首−dp aκr/bY·M_N±。M+ +M−=−22βNΩ Iω/21≠0，但完整外部继续承担该非零。帽/U必须保第四输出及真实仿射门。J-only五坐标已读R773原first_return，尚未单付其负一。
+
 ## 深支：实际因子、指定normal与同一个R
 
 原M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角及首p²/p³全保。R495 H1(mC)=0非H1(BD−C)=0；R741 FH2 unit/p与R743缩放M单位秩均非全flag。R738计数只到h>3κ/2，未覆9κ/8。
 R750真实V_E′、全部值左核和低r右逆高尾保；值解后同R联立normal/两13/d₂。实际vF=eξ不可任选，改F整提升须同步R。R755合法全cube值Bockstein0、满足原eE门时限制Smith全p；其它WD列仍可吸收。R766原列单位d_k(v_k)=1及成员性O_T(v_k)∈O_T(ker d_k)未判；指定全局左证书O_T*ω=d_k仍缺。
 
-R768原帽迫3b0+degQ0≤4r+2，联b0>4k+2得r≥3k+2/k≤3；r1增补空范围已撤回。实际r2/ell1/k0、b0=m3、degQ0≤1/p≡11mod12未认存在强接触F。
-原qt²/ordP≥2给最高二维层、L2/Q2全尾，首p²指定−3B平方主部；同S两输出和常数铅笔唯一核2保。ωord=2c0qt dt/FY只局部，全边界极≥2κ+χ+1；全球延拓及同R全normal/两13/p³仍开。
-R771 mq0完整4+a4联合主部/真余核与同R全M已付。三normal全trace至多1；非顶全零、顶只qb−1/(κa4 fb)(1,b−1,(b−1)²)。末零角−2由其它零角或d/fb/∞全补+2，不代指定ψ。
+R768原次数门3b0+degQ0≤4r+2及r≥3k+2/k≤3保；r1增补空范围已撤回。实际r2/ell1/k0、b0=m3、mq0仍待完整强接触判定。原qt²低二阶L2/Q2全尾、固定−3B平方主部、同S两输出和常数铅笔核2保；局部ωord非全球左行，同R全normal/两13/p³仍开。
+R771 mq0完整4+a4联合主部、真余核、同R全M保。三normal全trace至多1；裸末零角−2由其它零角或d/fb/∞全补，不代指定ψ。
 
 R782 r2/mq0迫F0=λd^c，G=F/F0常数1；scalar投影t²A G³∈W3b、degA≤2/A0unit。端点δd+δ∞≤1；Fp五mask{1,t−1,(t−1)²,h7,d²}，一般域≤15mask。全r_n/E_n见(19)/(23)，原ρ=dΘ17、h<s给H_profile x=(−1,0,...)；参数数目不代实际可解性。
 各型cube是新候选不替旧P2。旧q→q(t,0)差保值及ell1第三块，却留first-normal e³qΔ,C t^h u(b_su²+6at²ξ) modt^(2h−11)；ξ/carry与同R不删。续五型强接触/原几何及指定normal像；mq1和其它合法窗口也保。

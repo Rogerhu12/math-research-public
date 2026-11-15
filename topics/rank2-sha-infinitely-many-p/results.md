@@ -481,3 +481,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R784**：[原第三中央、E浅共同帽与实际四单位CM管族](results/R784-third-central-shallow-hats-and-four-unit-cm-tubes.md)。原全CM投影消掉Ξ外谱后，216条真实W_s管/逆Y和完整E浅补域准确组成cN·JU；恒等支原近消，其余支物理P/t/W/Vt四unit，全部canonical来源与局部scale质量保。只返Z0仍保同q、J深及仿射失败门；完整有限和零未被拆成各项零。
 
 - **R787**：[原因子零增charge返回与全F²来源的准确normal核](results/R787-original-factor-return-and-whole-square-source-normal-kernels.md)。五型/≤15型G乘deg≤2固定L即回W_b；全部D2/D3的实际Gauss基与整饱和已付。短M核由h−11门、完整J核由h+1门判，最后2α+3u0β及两门间≤12维/13carry全保；R782实际尾归完整T2指定像，未删除原非F²余列。
+
+- **R786**：[同一原测试的J深完整三输出及真实E深浅外部](results/R786-original-j-depth-three-output-and-native-e-exteriors.md)。原三态J/L546/M78全返回保同q与六支/unit第二项，J深浅落同一固定有限来源，帽/U仍保第四J输出。纯Y/W外部准确两模式；mixed T外部保完整联合Cauchy，第一系数两支之和为原非零Dω负一。未将外部补偿置零，已有first_return只作其真实来源读取。
