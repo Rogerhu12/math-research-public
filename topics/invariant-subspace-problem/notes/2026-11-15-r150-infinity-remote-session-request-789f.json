@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "2e055d6402339f66ce95fdd347eedcc4f1971cd6",
+  "rulesReadAtCommit": "7f6f123f05860ce691ec1fc0770ec42a592d63b3",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -361,6 +361,68 @@
       ],
       "timeoutSeconds": 45,
       "receiptPath": "{work}/exact29-free-graph/exact29-free-graph-receipt.json"
+    },
+    {
+      "id": "six-normalized-koszul-p768",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-six-normalized-koszul-p768-source-check-789f.py",
+      "scriptSHA256": "11f8512c805e68e6ecddc5032832d474ac96f28ad0e84c52cf6b0b8fafdf138e",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--source",
+        "{work}/dixon-after486/stage-p768/actual-p768-exact-source36.bin",
+        "--source-receipt",
+        "{work}/dixon-after486/stage-p768/actual-p768-receipt.json",
+        "--point-model",
+        "{selected_model}",
+        "--prepared-dir",
+        "{work}/koszul-exact-sparse-preparation",
+        "--exact-dir",
+        "{work}/koszul-exact-rational-support",
+        "--normalizer",
+        "{work}/exact29-free-graph/top29-exact-source-normalizer.json.gz",
+        "--out",
+        "{work}/six-normalized-koszul-p768",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 85,
+      "receiptPath": "{work}/six-normalized-koszul-p768/six-normalized-koszul-p768-receipt.json"
+    },
+    {
+      "id": "single-prime65521-selected-rank",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-single-prime65521-selected-rank-789f.py",
+      "scriptSHA256": "999116e6f02c1597c677692e40b76d2c15b302ad635bdba27c7f9f72945e82d9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--point-model",
+        "{selected_model}",
+        "--prepared-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--out",
+        "{work}/single-prime65521-selected-rank",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 85,
+      "receiptPath": "{work}/single-prime65521-selected-rank/single-prime65521-selected-rank-receipt.json"
     }
   ]
 }
