@@ -498,3 +498,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R373：完整W²角商与五形状十一行共同支付
 
 [R373-complete-W-square-angular-quotients-and-eleven-target-control.md](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)。原F_W0与F_W2在合法整个q的真紧Wq²方向变分，KWW0由PZ0消、KWW2含完整A2并由(8,5,2,4,−4)实部关系消，两全角只余sin²值。新WW0添v²常行，WW2消旧位置二次行后常量含非零u²；ηκ>0以全小κ范围严格有理界证明。五明确有限jet、正偶母Hermite/多项式近似及同Fnew最大minor给五实际χ。原真实偏移/交替列2高+4二次+5常满11，60列严格正核，同有限N十一根付完整W²并保原九行及全部18面积/T/Ψ/三F。余六位置而非rank；全period仍欠。根全文/完整K两系数/η界及jet秩手核，无新执行。
+
+## R375：完整Y第二cubic与同一十三行根支付ZY2、YY2
+
+[R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md](results/R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md)。原FY2恒等0沿真紧ZD/YD变分：QZY2=−I2(Yff,ZD)+area，QYY2=−I2(Yff,YD)，保Yff二次左尾。I2(p2,w)=0是x²二导与2一导的准确抵消，付完整block加法；面积/12副本后两函数只有sin²实际值。新principal位置8/10最高系数−3eWcR/2、WcR/4，与旧11行≤6独立；原五χ60实际列/十二点正kernel覆盖≤10，联合rank13，同有限N十三根恢复全部旧十一目标、18面积/T/Ψ/三F。余ZZ2/ZY0/WY1/YY0四完整函数，非rank或已付角商；period/joint未完。根全读及原变分/I2尾/高次系数/正kernel范围纸核通过，无新执行。

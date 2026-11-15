@@ -175,3 +175,7 @@ R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩ta
 ### R373 已付完整W²，继续六个位置
 
 [R373](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)保WW0/2完整cubic、A2与真实尾，原PZ0和R372五积分比清两角商；五实际χ/60列的11维正锥和同一有限N精确根同时保持原九行/18面积/T/Ψ/三F。现在余ZZ2、ZY0/2、WY1、YY0/2；尤其ZZ2的真C²角商仍欠，不能用新增principal冒称零。
+
+### R375 已付ZY2/YY2，继续四个完整角函数
+
+[R375](results/R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md)保Yff二次左尾与I2两项，FY2≡0沿真紧ZD/YD变分使两全角线性D；旧面积/12副本后只余两sin²值，无新C²角商。位置8/10最高项独立于旧11行，五χ/60列原正kernel恰覆盖≤10，同有限N十三根保持所有旧门。当前余ZZ2、ZY0、WY1、YY0；不称四个可自由调scalar，先另付各完整角商。period/history/joint继续。
