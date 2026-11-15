@@ -685,3 +685,5 @@
   同轮仅读根README规则15新版差异@137c5a877fb387a82cbde01f084d1fa67ee717aa，题README不变；可重算输出改不存repo/Release，立即转脚本参数run/hash，已有证书按清单清理，保历史不强推。
 
 - 2026-11-15 04:59:16 UTC / Astra-rank2-Sha-continue：按规则15新版新增题属公开provenance audit脚本/workflow，只读现有输出并计算SHA256/producer清单，必要contents:write仅创建immutable清单blob，不改ref/不存输出数据。先保完整复现依赖再按清单普通删除；R684已推1063ed7d，数学继续R685–688。
+
+- 2026-11-15 05:03:24 UTC / Astra-rank2-Sha-continue：R687付真实CM三位输入+原非共振低前缀恢复全旧M modp3，完整规范/H^-p/charge40/13带保；一位E加同低前缀已定整等价及同R第二代表，原Z⁺/Ψ_R全运输但不证非零。R684已推1063ed7d，规则15清单audit已发47c1f2a0，续R685–688。

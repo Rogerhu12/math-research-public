@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：1113f3a3b5e2b32d8085a60136164fe218bfd873；2026-11-15 04:59:16 UTC核两README无变。实际CI pull 2026-11-15 04:47:11 UTC/eb0d34f13e82c95febb56f4369aaed4aa73d75bd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 04:59:16 UTC仍无环境。最迟2026-11-15 05:40 UTC再实际pull。
+- 最近已读规则提交：485b3b32781f3bd4523dad5c9721f22968e07662；2026-11-15 05:03:25 UTC核两README无变。实际CI pull 2026-11-15 04:47:11 UTC/eb0d34f13e82c95febb56f4369aaed4aa73d75bd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:03:24 UTC仍无环境。最迟2026-11-15 05:40 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 规则15新版已仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算证书/数据/Actions输出一律不存repo/Release，只留脚本参数run/SHA256，禁part/5MB且目录≤200MB。04:47库存29.8MB无超限；新Actions只读本题输出/计算SHA256并产immutable清单blob，不改ref；先核producer及依赖再普通删除，保历史与临时复现。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,9 +14,9 @@
 
 ## 记录、完整归档和分工
 
-R1–363、R365–560、R562–653、R655–684及R679/R680增补已登记；R364/R561仍开，R654/R685–688进行中。
+R1–363、R365–560、R562–653、R655–684、R687及R679/R680增补已登记；R364/R561仍开，R654/R685–686/R688进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r680-colored.md)、[open](notes/2026-11-15-open-before-r676.md)，沿归档链保全部旧条件。索引results.md、notes/PROOF-INDEX-R651-R700.md；压缩不关闭未付问题。
-root唯一metadata/ref写者；代理仅独有proof/script/data或immutable blobs。root R688原边界实际代数关系及中央联系；theta R685同q♯/真实角域/T过滤；literature R686同q♯实际Z-core与T失败支；deep R687真实两位来源接旧M完整modp3。
+root唯一metadata/ref写者；代理仅独有proof/script/data或immutable blobs。root R688原边界实际代数关系及中央联系；theta R685同q♯/真实角域/T过滤；literature R686同q♯实际Z-core与T失败支；deep R687已付真实来源接全M modp3，续原barE高尾/真Dψ像比较。
 
 ## 原目标、固定来源和全部旧接口
 
@@ -55,4 +55,5 @@ R657同P多Euler完整前缀常数99/40、25/18、25/27、3/4；旧第三只有e
 R672/680直接目标p的两长jet：r≥1、H=s−Δ，kerJ/真K2K3 Δ0、仅kerM Δ13；原清角M_D=5D+4−(Dmod2)。完整重复/切向根能量≥4(H−r)，真实Euler forcing∈H0(3C+L)、LC≤8degY，所有原B_D及接触曲线nef。
 R680着色增补按真实全局因子用w(1)=1,w(m)=4(m−1)，同色内部判别式整体乘w，异色乘mn；准确负项−3(m−2)²C_i²保。得4q(H−r)≤3B_D²+32D，统一p≤6(M_D+Δ)−1+9B_D²/(2q)+48D/q，主141/(8q)。一般D≥sqrt(8/141)√p≈0.238√p；临界p/D²→47/8排q≥4，q3恰临界不能删线性项。几何forcing不免原来源返回成本。
 
+R687 T=−t、w=tH6、a†=−34Cs/d及g/a整差同步，原t^s=pεH^−d使三位Bα得两位E再补t<s原exact三位即可全M modp3；全H^-p/charge40/U0/P134/13保。两位分子仅barE加同低三位时，余高二位只作I+p²(17/a†)m(H^-dV)Dε目标整单位，同已过首提升P+pR的第二代表严格不变。Z⁺差从w^(s+ν)起、H0/H1全越截止；ν≥7活项保，不当指定非零。
 R683全原十九角/全部b≥p曲线/显示klt边界及W2提升给R_N=48/47+sqrt((48/47)²+36N/47)，D−5>3R_N时两N-jet整满射。真mod12乘子成本12m与原低行右逆回旧J；ell≤3时D−17>3R_(s−3)，主sqrt(54/47)√p≈1.072√p。完整M仅L−26 units/26p/13free。0.413√p临界gcd1/2/3和同R指定forcing仍开；Beta/广义Stieltjes正性不付原Padé，全部旧O4/O6依序继续。

@@ -87,3 +87,6 @@
 
 - [R684：原除点轨道比、确定相位与完整规范统一高度](../results/R684-original-division-orbit-phase-and-uniform-height.md)：同原CM除点多项式给C_T=ψα(T)^d/∏Hψα(T_h)∈K0(E[p])，R681系数准确C_T²。原Tg的p(p²−1)次方=ε_TC_T，ε_T∈μp由至u^d原jet唯一选定，正确根不变；单值次数≤2p(p²−1)²。固定倍点/挠点高度给h(Tg)≤2C_E+log2+logν/(ν−1)统一界，完整首共振余数高度O_m(p²)，不预支其非零或j0传播。
 
+
+- [R687：原CM真实提升到完整旧矩阵及同修正第二类](../results/R687-original-cm-three-digit-matrix-and-complete-same-correction-transport.md)：T=−t、w=tH6和a†的完整规范配对，三位Bα给两位E，再由原非共振低前缀补第三位，真实t^s=pεH^−d即恢复全M modp³。仅两位分子加同低前缀也确定其第三精度整等价类；未知高位只作I+p²K目标单位，同P+pR第二代表不变。原Z⁺/Ψ_R、两13带和ν≥7活项全部运输，指定非零仍开。
+
