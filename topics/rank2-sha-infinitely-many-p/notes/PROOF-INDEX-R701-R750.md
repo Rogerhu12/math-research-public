@@ -62,3 +62,5 @@ R724附录：真实anti-Fermat指示h=1_G−p^-1 1_R×在整个O/p²上有F±h=p
 R722截源§4.1：实际额外两坐标给公共t阶≥r+1的真原首核，故dim K1≥1+dim I_cut；只有已证原首核一维时才得全截源饱和。
 
 R724后续[原Brandt二阶与同步匹配](2026-11-15-first-wild-brandt-second-moment-and-synchronized-pairs.md)：全incidence、norm-fibre对角、真实κ_p(a)及全Haar正均值均付；缺失紧方向不从固定CM基点免费平均。
+
+两斜门note §7：同q715/ζ的真实型5首差为t的≤31次，偶步P31精确提取冻结负一矩；完整S被杀且T外部相反值保留，来源非零不能替代负矩或原中央非零。

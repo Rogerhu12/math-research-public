@@ -4,13 +4,13 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：c38e227bd96730225b9e639e2bf36c2d94901e69；2026-11-15 09:16:43 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:16:42 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
+- 最近已读规则提交：c720226f3a35ad121a5a88e3babe7b9037bd259b；2026-11-15 09:18:08 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:18:06 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
 - 规则12不设冻结/独审/复跑门；规则13数学计算全用公开Actions。规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：不存可重算输出/不新分块，只留脚本、参数、run/hash。
 - H<10KB、MD/API文本<100KB、open尽量<30KB、单文件<5MB、题目录≤200MB；题log每轮≤5行，不写根LOG。
-- 最近实际pull08:39:25/run43695517196/job132755047417，headbcda802f775facb68d37ca6d884d50119d646e81；两README逐blob无变，26,274,119B/1876文件、无超限、旧3输入块保。下一最迟09:25 UTC；ci/rule-pull-20261115T083925.json。
+- 最近实际pull09:16:58/run43698479232/job132764137970，head2a5b30535e502b0b4e5df88f77402932a41ea334；两README独立逐blob无变，26,458,987B/1892文件、无超限，旧3输入块保。下一最迟10:00 UTC；ci/rule-pull-20261115T091658.json。
 - [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)：已普通删除206个可重算输出；79未匹配/2自读/3旧分块先核真实生成器，历史/真实输入保。
 
 ## 检查点与责任
@@ -29,7 +29,7 @@ R713双冻结保原(Γ01−Γ03)∩CD_N的完整T/S log、所有浅/外部/移�
 R715同50实列得q715/纯ζ715：正规目标及J2=1，整个FZ=0；两q无独立B块。仅完整cd尾升p2N，附角域不能继承。P30全J2/8/14/20/26、负一Δ=3n−2N+vI保。
 R719固定52行/149列（无quarter）在Q(ω)(τ)读取J2=c·v+κRκ+uRu；清固定分母与Δ坏集后，原两q的k2..5某组合unit。全1200身份/三次界/仿射项已付；run43694974589/job132753387780，ci/exact-check-20261115-r719-boundary.json。真实Yunit正矩与E深/浅相反unit保，不能冒负矩非零。
 
-[两斜门](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)：Li=34Yi−29Y（i1,3），全μ|Li深ℓ=λℓ(RY^ℓPLi,κℓ)_*μ；变基det−17/34。完整q的E位移≤30次，原paired负矩是同Yunit的Σk u^k/k·(M1k−M3k)(κ^ell)，deg≤30+k，完整C支/log尾保。S测度B_N(t)=t(t−1)C_N(t)、deg≤28，只给配对S额外ell+1；k1负矩冻结t0未付。
+[两斜门](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)：Li=34Yi−29Y（i1,3），全μ|Li深ℓ=λℓ(RY^ℓPLi,κℓ)_*μ；变基det−17/34。完整q的E位移≤30次，原paired负矩是同Yunit的Σk u^k/k·(M1k−M3k)(κ^ell)，deg≤30+k，完整C支/log尾保。S测度B_N(t)=t(t−1)C_N(t)、deg≤28。§7同q完整首差D_N(t)型5、deg≤31；偶步P31准确抽出I_−1(D_N(0))，高k尾p2N，全配对S被杀，但T外部为同值相反补偿；五个原负矩未付。
 全(Y,Z)桥Edeep=λ2Nρcd，Eshallow=λN原plane−λ2Nρcd；附E门须先回来源。近消分区另排19·61·22699·64111，不改高幂ray。
 冻结公开43697687827/132761748164在τ2,3/η±同50整逆上，五差使rank50→52，两分支十行亦52；四处q/ζ差非零，只作实际辅助定位。ci/exact-check-20261115-r719-frozen-native.json。
 已交同脚本窄续：去J2后的旧49行+五差能否读取J2；另限无quarter的frozen/cd/W/F1；抽两新方向及三关系。没有新适配/新矩阵，Q(ω)提升另付。

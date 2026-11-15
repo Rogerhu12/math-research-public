@@ -370,3 +370,126 @@ $$
 代价被准确写成原 q 的有限 E 位移及同一个 Y-unit 域上的
 完整条件负矩。它没有解决这些移位负矩与原算术总行的全部补偿；
 R719 的有限正混合矩关系仍须与 (18) 区分。
+
+
+## 7. 同一五维负一来源的确切偶步提取
+
+这一节保持 R715 的同一 $q_N$ 或同一 $\zeta_N$，不调整其
+五十个实际系数；p、N 在全部序列移位中固定。
+把 (18) 的第一个条件负矩写成一个完整来源：
+$$
+\mathcal D_N(t;z)=\Omega^{-1}
+ \int e^{Yz/\Omega}
+ \{Z_1(t)\phi_{1,N}(t)-Z_3(t)\phi_{3,N}(t)\}\,d\mu_0 .
+\tag{24}
+$$
+两条 $L_i$ 和所有位移权方向均与 Y 正交。
+故每个 t 系数都属于原标准 $\mathcal S_{34}$ 的型5空间，
+没有改变原 Y 的平坦特征。
+完整基仍是 R713(25) 的
+$$
+\Xi_j^{(5)}(z)=-b^j\sigma(z)^{34}x(z)^{13-3j}y(z),
+\qquad 0\le j\le4 .
+\tag{25}
+$$
+其首阶分别为 $5,11,17,23,29$，首系数为 $b^j$；
+这些固定 b 因子在当前射线上都是单位。
+于是存在唯一的整系数多项式 $d_{j,N}(t)$，使
+$$
+\mathcal D_N(t;z)=\sum_{j=0}^4d_{j,N}(t)\Xi_j^{(5)}(z),
+\qquad \deg_t d_{j,N}\le31 .
+\tag{26}
+$$
+这里的 p、N 依赖仍是 R715 的完整实际
+$(\lambda,\kappa,u,\eta)$ 依赖，$u=\kappa^N$；
+不将这些系数当成与 p 无关的常数。
+
+由 (11) 在 $t=1$ 的逐点相同，$\mathcal D_N(1)=0$，
+所以所有 $d_{j,N}$ 被 $t-1$ 整除。
+与 (18b) 不同，两个冻结的零阶 Y 来源相同
+**不**给 $\mathcal D_N(0)=0$。
+
+对原 Y-unit 域定义
+$$
+\mathcal I_{-1}(F)
+=\Omega\int_{Y\ {\rm unit}}Y^{-1}\,d\nu_F .
+\tag{27}
+$$
+此处的 $\Omega$ 正是 (24) 的规范，故
+$$
+M_{1,1,N}(t)-M_{3,1,N}(t)
+=\mathcal I_{-1}(\mathcal D_N(t))
+=\sum_{j=0}^4d_{j,N}(t)\mathcal I_{-1}(\Xi_j^{(5)}).
+\tag{28}
+$$
+(28) 保留五个原负一矩，并没有以正矩或来源非零代替它们。
+R540 的 S6 角色和 R655 的 S5 负一非零定理都不能直接赋值给 (27)。
+
+令 $\mathsf T_2$ 表示同一实际序列 $n\mapsto n+2$，置
+$$
+\mathscr P_{31}^{(2)}
+=\prod_{a=1}^{31}(\mathsf T_2-\lambda^4\kappa^{2a}),
+\qquad
+U_{31}^{(2)}=\prod_{a=1}^{31}(1-\kappa^{2a})\in\mathcal O^\times .
+\tag{29}
+$$
+它作用于各个 n 的原实际门和原归一观察；没有冻结移位后的 cut。
+固定 N，$\ell=n-N\ge1$，$s=(-1)^\ell$。
+由 (18)、(26) 和 (28)，第 $k=1$ 项的
+$t^j=\kappa^{j\ell}$ 部分在 $\mathsf T_2$ 下的特征值是
+$\lambda^4\kappa^{2j}$。
+(29) 因而准确杀掉 $1\le j\le31$，而其常数项乘
+$\lambda^{124}U_{31}^{(2)}$。
+第 $k\ge2$ 项属于 $p^{2N}\mathcal O$；
+(29) 的所有系数整，有限的62层移位不会降低这个尾界。
+所以得到同一 native 行的真正负一提取：
+$$
+\boxed{
+\mathscr P_{31}^{(2)}\mathcal R'_{N,n}(0)
+=
+\frac{d_p\,s\,u}{b_Y}\,
+ \lambda^{2n+2N+124}U_{31}^{(2)}
+ \mathcal I_{-1}(\mathcal D_N(0))
++p^{2N}\mathcal O .
+}
+\tag{30}
+$$
+单位因子全部显示；本式未主张右侧首项非零。
+若另外支付
+$v_p(\mathcal I_{-1}(\mathcal D_N(0)))<N$，
+才可据 (30) 得到精确赋值
+$N+v_p(\mathcal I_{-1}(\mathcal D_N(0)))$。
+该条件不是本节的已付输入。
+
+最后把此提取放回 R713 的完整外部等式。
+记 $\mathcal I^S_{\mathrm{pair}}=\mathcal I^S_{0,n}
++\mathcal I^S_{1,n}$，T 和 O 同样记号。
+由 (18b)，整个配对 S 来源是
+$\lambda^{2n+2N}\mathcal B_N(\kappa^\ell)$，
+其 t 次数至多30且常数项为零。
+因此对整个 Mellin 变量 w，
+$$
+\mathscr P_{31}^{(2)}\mathcal I^S_{\mathrm{pair}}(w)=0 .
+\tag{31}
+$$
+R713(14) 是未删补域的完整恒等式
+$\mathcal O^Z_{\mathrm{pair}}=-\mathcal I^Z_{\mathrm{pair}}$，
+而配对 V、X 全行均零。故 (30) 的全域归属准确是
+$$
+\boxed{
+\begin{aligned}
+\mathscr P_{31}^{(2)}(\mathcal I^T_{\mathrm{pair}})'(0)
+ &=\mathscr P_{31}^{(2)}\mathcal R'_{N,n}(0),\\
+\mathscr P_{31}^{(2)}(\mathcal O^T_{\mathrm{pair}})'(0)
+ &=-\mathscr P_{31}^{(2)}\mathcal R'_{N,n}(0).
+\end{aligned}}
+\tag{32}
+$$
+第一式保了 $B'(0)\mathcal I^S_{\mathrm{pair}}(0)$：
+它随整个 (31) 消去，并非预先删除局部质量。
+第二式显示即使以后证明 (30) 非零，仍有同一原 T 外部的相反补偿；
+不能把它单独认作原 $J'_T$ 非零。
+
+本节无需新增数值计算。它把原实际两斜门及完整 q 的
+首混合行准确缩到 (27) 的五维固定负一泛函，
+并把所有高 k 尾、有限移位和真正外部补项同时保留。
