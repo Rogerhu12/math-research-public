@@ -437,3 +437,5 @@
 - **R813（实际准确完成）**：[两个原Wronskian正规向量](results/R813-certified-original-Wronskian-normal-vectors.md)，run43715253991/source74f5296a。复用690逆，两Q右端432 Dixon位/full820；g/h scale均6724/1，分母828/1931位，core67.613511668秒。完整451ZIP/449manifest/726原输入与冻结verify已核，无本地数学。R815真实输入已齐；不预填Mg/Γ/极理想。结果SHA a2f41569eb7c5017989623b45148e483d9f176a796d3aa423fa9e71d9e9b7738。
 
 - **R818（已证明）**：[原primitive首cusp系数与实际全cusp不分歧Hom存在](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)。互素cyclotomic导子使E^Fp/E1的首Fourier系数泛函为同构，原u_h非零给全部primitive Hodge线char0 cusp非零；由真实L-isogeny的Hom拉回基与R816单轨道，得至少一个实际Hom在全部cusps不分歧。原正twist/CRT/αs/tame项保留，比较尺度只用于非零，不宣称p单位或高度。SHA adf5939ac7bf10186d1eba6b16180df2944941d548dcfe0aeb7808f7d15534ec。
+
+- **R811 generic模块实际验证成功（非原CM结果）**：[结果](results/R811-certified-generic-polynomial-module-validation.md)。公开run43719858329/source3018f798在Q(c,ζ)、c⁷=2上准确消去(u−α)，两图闭式H/W、原P完整方程、Laurent互含和degree1全过；四个真实exit97边界续算后五数学文件字节SHA均c5cd89b2。2.405270309秒；原ZIP/summary/65个直接引用spec已IO核。仍待原A/B，未给原极除子。

@@ -100,3 +100,8 @@
 - R818纸证登记：root全文核并回读R588/R592/R575/R727/R745，首Fourier泛函在E^Fp/E1上同构，保CRT的−r/6、tame第二项从Q4起和真实u_h非零；明确原Hom比较尺度不被预填。proof adf5939a。
 - 原L-isogeny拉回的真实Hom基张成Hodge，加R816单cusp轨道得到一个原Hom全cusp不分歧；仅char0，未给p单位或同h配对。R819/R821/R823新稿逐条核，不重申R729已有m1结论。
 - R815 run43719622321/source2a3300a9在数学步；R811 generic run43719858329/source3018f798成功，真实四中断均97后恢复、五数学文件同SHAc5cd89b2，完整IO正登记。R787/R809继续，主目标OPEN。
+
+### 2026-11-15 21:43（Asia/Taipei）｜serre-public-astra-20261115
+- R811 generic实际成功登记：非平凡共同因子、完整核/两图闭式/全矩阵方程/Laurent互含与degree1，四次真实exit97后均复原；五数学结果同SHAc5cd89b2，2.405270309秒。
+- 原run43719858329/source3018f798/artifact14164256301，956925B ZIP3815dcfb、825成员；root读summary3056B/badee1a4与65直接引用spec，raw不入Git，不重算数学。此非原CM结果，不作R815激活门。
+- R818已推de30bb7f，13:41:58.883759UTC实际pull/read868de22c两README无diff；R815/R787/R809继续。R819/R820/R821/R822/R823原数学后继逐项核，主目标OPEN。
