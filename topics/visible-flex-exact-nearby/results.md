@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 全方向有限193 Green 双扫描合同与执行入口（2026-11-15）**：[G.1–G.10](notes/2026-11-15-R133-complete-directional-matrix-Green-contract.md)。完整 signed Q/W 协方差、同 Q/R 的准确换基、two-dyadic V 真跳、全体 ordinary 残差、真实96/97边界及独立 cut trace 已在同一后验恒等式中展开。两128源通道只在最终作算子三角和；原F/Gram/ports不重算。234pin入口接实际5970同F矩阵成功结果后在公开Actions计算；本条不报告尚未产生的双扫数值，也不授无限BVP逆。
+
 - **R119 闭mean真实兼容及完整 fixed-C_R 规范逆（2026-11-15）**：[Z1–28](results/R119-supplement-new-closed-mean-compatibility-gauge-and-complete-fixed-CR-inverse.md)。在实际物理平端高度有限、total mean flux为零的域上构造全源 generalized inverse；强source方程闭合 mixed mean，真实兼容恰为 La g=0，核恰为一个物理常高度方向。最后根准确密度/通量式证明 Laσ≠0；指定高度后与Y同权的全频解界<2。原强source/label与帽内 C_R 响应仍须联立，未声称完整PDE或ν门。
 
 - **R119 新外完整 mixed Schur 与 closed 非mean inverse（2026-11-15）**：[完整证明](results/R119-supplement-new-outer-complete-mixed-weighted-Schur-and-closed-nonmean-inverse.md)。同一新简单根背景/公共五盒点，真实固定 C_R 返回与 Dirichlet comparator 区分；全频浅平台、原 high 双 Poisson、无限 deep-low 的源窗均保。双逆谱权的完整差 <2^-5800000，实际非mean块 vRv<2。actual 正返回只收 norm2，不借 Schur 酉；两 mean、通量兼容、高度 gauge、强标签和真实帽反馈继续另闭。

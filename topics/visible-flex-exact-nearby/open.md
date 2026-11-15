@@ -180,3 +180,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 3. Leading旧mean run43652283078 child0/10门，原8项/独立mean/正侧全部复用；R.001负源 upper713577.173144，原RQJ粗费仍在。[内窗I合同](results/R133-supplement-fixed-inner-first-correction-complete-old-circle-source-contract.md)现以59pins公开consumer消费已成Taylor：原完整κz八词、Y九项、独立even mean、真local JP S(μL0w1)、实/复Airy全尾及原dr积分。初次部署不先授数值通过。[严格外段E合同](results/R133-supplement-ordered-old-radial-transport-and-strict-exterior-first-correction-derivatives.md)由phase消费同一w1、Fρ、leading第三导及原物理seams；同一解分积分，不加人工端口。其后须付正侧原weighted端口、所有真实seam与完整strong return/充分cutoff。
 4. 新外 O/F/J/C 已证完整principal、两个strong窗、同一无限Γ1/Γ2、固定scalar高反馈和五盒全频径向公共点。实际两行1291/2与全浅层cut平台均重付；真实fixed-C_R外线v_t=M²v/mean v0t=0，与N参考的指数差单列。下一项是在同一v+权和同一端口表示完成非径向remaining/闭mean商，随后把独立CR、完整帽、两曲率mean、ν、两个Γ与原强标签source同时联立。径向公共点或给定CR非mean逆都不单独满足README。
 5. 以上全逆门完成后立刻接真实ν方向||qν−Z||≤.005、非线性状态球/holonomy/全部matching，最后消费原条件性几何门。finite193的.003509417445587仍不是完整ν门。未达到总标准继续下一个缺口，不停在阶段结果上。
+
+### 完整方向 Green 双扫描入口已装（2026-11-15）
+
+G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；待v4 43654510038的全5970完整native/实际child/gates成立后自动接两次signed covariance扫描。旧225pin及impulse101pin均保持。每行保存真实前缀，全部真实97右边界/mean、body残差和每个V跳保留，cut迹独立计算。拿到实际结果即接完整high/low反馈；当前未以合同替代数值或全ν门。
