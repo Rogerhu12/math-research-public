@@ -547,3 +547,5 @@
 - **同选列标准Koszul支撑交严格29维、六个真新方向。** [全原整数结果](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：run43679903558实际33.711323768秒，原1603单位块及全部1834残差给Qdim29，29列全6188/4367乘回、36自由Qrank29真；并旧23仍29，借自由坐标单射严格补齐旧核成员性。所选char0秩4318…4325，标准族穷尽，余七非Koszul尚未构造。
 
 - **真核数的统一条件来源界与当前8726。** [完整降度证明](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)对同选常块c≥15个真核给cost≤8755−c；换入外来源只自动保c−1阶，不能误省一阶。当前29真核严格付条件8726、非基8725；原目标成员性与lc(D)31单位仍是未付条件。
+
+- **等权长池的完整伴随Green列与真实头幂预算。** [自足公式与证明](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)在L≥2d保真实H^-1核投影、全部forcing坐标、顶下有限列及MP正交；给列平方≤(4/S) C(A,S/4)〈H^-1f,f〉。原A_m四次真幂得到具体exp(O(m²))适用区间，余强位全部幂和Gram必须更换，未代原连续尾封口。
