@@ -384,3 +384,8 @@
 ### 2026-11-15：同一母提升的正向gauge联合费用与低零源核反馈（789f）
 
 [证明](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)对原c26母提升逐步保持纯新尾右逆R′、新bit0修复像和同一个原k_p，把p_m直接插入联合跨块。其绝对系数h_m在原ζ_p=d0/(4R_p)上≤4d0<1，故R h_m g_p exp(2R g_p)仍受原e/2系数界、全部真实权及e^-2·16^p预算。每个p_m(B)c_p均直接可和，给||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，没有先取大环境gauge范数。结合真实全局carry，原w∈W满足||P_K(m,Q)G1* w||≤θ_m||w||，θ_m=8e^-2d⁴+e^-80d⁴≤e^-d⁴，Q全c26。此为一个准确反馈方向；反向压缩、真正V最小投影的非自伴交叉、高孔自配对及ordinary右费仍未支付，未证明N=M。
+
+
+### 2026-11-15：第二物理头的真实一孔Schur校正与完整两列恢复（789f）
+
+[证明](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)在原一孔层精确保F1=DD*=SI−2Z+bb*，对b⊥真块H取v=H⁻¹r并设D0=S²−s2−2<r,v>。原尾m≥11给H≥S/2及S²/2≤D0≤S²；u=D*(b+2v)满足Du=2D0 b/S、D²u=2D0Ω、||u||²=2D0。该同一校正的真低核T(u/W2)给完整环境恒等式，经全部Γ_CC⁻¹后保原source/零源双块，并在原物理Gq给Gq(f2−βf1)=−αW2·Gqh̃2/(2D0)−αW2·Gqh21/(SW1)。原primitive残量准确进入h̃2，标量也同步由S²−s2改成D0，未先取发散裸范数或删除低核反馈。单列及完整原像范数已付；两列在同一切口、同一原源上的联合远孔小量仍未付，未证明N=M。
