@@ -160,3 +160,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R759](results/R759-original-cm13-connection-and-primitive-type-five-block.md)：已证明协变导数穿原全CM13迹的division-log修正及其在S上的全纯严格非零；原D_S还含两条已识别点线之外的非零primitive三维块，给明确线性见证。完整unit负一Mellin、连接近消与原J_S的准确补偿同时保留，非零截面未冒非零中央值。
 
 继续真实primitive型五的全坏处角色/点域及合法跨块恒等式，原全unit/有限χ/连接与mixed门不能因CM投影删除。
+
+- [最终q*的原三阶不变性与同权两态](notes/2026-11-15-final-carry-t-invariance-and-same-weight-states.md)：已证明完整六支次数逆逐点T不变，实际50列及两核修正全部继承，原λκu/深浅门/混次权不变。完整同权两态、三条W轴边际及scalar核心齐付；q依ξ4且cd域移动，未把不变性传给返回后ΦN或外部。
+
+继续原O_i在T三域上的真实转置及自由ξ4完整积分；既有π3/π4边际仍受neutralζ715约束，不能据T不变直接添中央零。

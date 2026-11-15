@@ -407,3 +407,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 [实际剪切附录A](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md#附录-a-原全来源的-angular-commutator-与-first-jet-的实际块)已证明原全部门下的精确角commutator：原边际读Π0,Y，物理first jet读Π5,Y⊗Π1,伙伴；先投S线则后者消失。保完整moving权、finiteχ及二阶尺度项，仍需合法跨块连接传播原中央零。
 
 - [R759](results/R759-original-cm13-connection-and-primitive-type-five-block.md)：已证明协变导数穿原全CM13迹的division-log修正及其在S上的全纯严格非零；原D_S还含两条已识别点线之外的非零primitive三维块，给明确线性见证。完整unit负一Mellin、连接近消与原J_S的准确补偿同时保留，非零截面未冒非零中央值。
+
+- [最终q*的原三阶不变性与同权两态](notes/2026-11-15-final-carry-t-invariance-and-same-weight-states.md)：已证明完整六支次数逆逐点T不变，实际50列及两核修正全部继承，原λκu/深浅门/混次权不变。完整同权两态、三条W轴边际及scalar核心齐付；q依ξ4且cd域移动，未把不变性传给返回后ΦN或外部。
