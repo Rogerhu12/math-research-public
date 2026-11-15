@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新 2026-11-14 20:26:25 UTC UTC。**总任务未完成，继续研究。** 本文列当前实际缺口；此前40283B任务记录完整保存在 [旧任务记录](notes/2026-11-14-open-before-infinite-cap-and-return.md)，其失败记录、参数范围及原source合同继续有效。已证组件及实际数值结论只按各自正文的范围使用。
+更新 2026-11-15 00:06 UTC。**总任务未完成，继续研究。** 本文列当前实际缺口；此前40283B任务记录完整保存在 [旧任务记录](notes/2026-11-14-open-before-infinite-cap-and-return.md)，其失败记录、参数范围及原source合同继续有效。已证组件及实际数值结论只按各自正文的范围使用。
 
 ## 1. 固定对象与总完成门
 
@@ -171,42 +171,12 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 
 [P1–32](results/R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md)对新固定stop对象付整个正区、真实long/mean、未匹配EB及完整源；没有在根collar外端补条件。实际Airy正逆<2，余项双侧4/3强窗已含low/mean与全角lag。tail继续原long的远端screening及完整Frechet列，转为同空间Schur小量并保帽反馈，再接第五形状盒/两Γ/联合相位；旧对象证据全部留用原范围。
 
-### 较大域v2续算已装，零重算所有已成前缀
+### 2026-11-15：当前完整输入与下一实际缺口
 
-28pins834136B中原20path/bytes/SHA逐项不变；新sourcee4720dc7430f9f4be7dfdb901ec5ac7cf1f0bb260ed9298fc250c58d3c8fdeb9直接import原已实跑410675源。固定旧native a6f622与child1过程，整小case/两coeff/rootanchor做对象及hash一致性门；原failedcase另全保。仅新大域特征速度积分交与fold/leading/forcing，逐stage存盘；原域、inverse门和物理cover不改。待公开Actions实际，不先授通过。
+原本节逐步记录完整保存在 [更新前任务记录](notes/2026-11-15-open-before-complete-inner-source.md)。原失败、域限制和完整source合同继续有效，以下按目前实际结果继续。
 
-### 第一修正的根值和低阶项可精确剥离
-
-[J1–19](results/R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md)已证完整leading矩阵正规化与有限Taylor递推。phase只新算同一root germ所需高阶intrinsic/forcing jets，复用全部已成域及低阶记录；剩余Taylor尾再付Cauchy。root另接任意w1的旧circle I/J和独立mean源；两条线不重复target，最终同一trial与真seam保持。
-
-### 同一F三角与完整方向Gram的四格新计算
-
-[G1–18合同](notes/2026-11-14-R133-same-F-triangular-matrix-Green-contract.md)已证并装112pin公开入口：复用原四F和43594139132原frame slices0/8/15，新97补空间、准确endpoint patch、同F真inverse误差、三通道signed193 Gram及全物理metric。原105pins逐项不变，旧成功数学不重算；完整source差另以edge_y Gram支付，不虚构独立输入。先核实际四格，再接全5970矩阵递推及真实跳/两边界缺陷，不能以local通过授全BVP。
-
-### 旧mean准确合并与w1非局部源合同已闭合
-
-[Y1–14](results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md)证明ΠDU(w)=ΠU(gd)，可把leading旧M_D改善为min{原费,M0(gd)}。firstcorrection直接S密度用原完整矩阵z_K，保九项I/J及独立mean；另保原g_K费/(4J0)选项。root接公开消费者，复用原1328矩阵words/全部旧profiles，只新相关mean包络和w1实际幅度源积分；不把正侧增长Airy当无权负侧算子。
-
-### 较大辅助fold已实际成功，继续同w1的准确根项
-
-[新actual报告](results/R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md)核43647998272 child0与新14门，全部旧前缀零重算。两域在原germ交内是同一个w1，可在共同物理cover上逐分量取合法min；不能把小域sup搬到整个大域。第二L0w1局部upper已降到1.9108e10，仍由Cauchy径向二阶主导；phase接准确root jets/Taylor尾，root接Y1–14全I/J/mean。原seam/外片/正低mean/有限头反馈仍需完整预算。
-
-### 5970真实接口跳的方向后验费用已具合同并部署
-
-[I1–11](notes/2026-11-14-R133-cached-signed-Green-all-interface-impulse-contract.md)与101pin公开入口复用原finite193 Green和6391 L²缓存，只新左右平方扫与5970单位跳费用。signed负rate不乘积分upper来假造exp，metric/mean/sec-tan两列/虚waist均保。供新矩阵V舍入真实jump消费；多个跳作用同一source必须合法三角或完整相关界，不能免费平方相加。原两完整成功artifact只读，待actual。
-
-### 真long屏蔽已接完整DN与固定帽曲率外口，继续联合五盒
-
-[N1–28](results/R119-supplement-actual-long-screening-complete-Sobolev-DN-and-cap-facing-port.md)保完整4Z未知高度、真实C_R→f*反馈、两height/flux mean及独立帽侧Z，得到同空间返回极小差；原粗N_L不冒O(X)。帽曲率meanB_R/meanC_R/Robin仍是输出，未从共同偶帽图偷转全4Z。tail继续真实新外负分量两根、strict段、两Γ及五盒相位，再与原内部开口/强源标签联立。
-
-### 四格同F方向Gram实际通过，扩展仅计算未完成格
-
-[实际报告](results/R133-supplement-actual-four-same-F-triangular-source-Grams.md)核43648579604 child0/15门及4新数组；0/76/3300/5969全帧、同F真inverse、三source/metric均成。直接复用这四sameF结果，后继只扩5966尚缺格。相邻shared Q及同R的两补帧换基可作为准确零长度三角事件，真实V dyadic误差仍另付接口impulse；不能把局部矩阵upper/迹当最终BVP响应。
-
-### 固定η0根的高阶输入
-
-H1–12已给出[完整高阶jet路径](results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md)，复用两成功辅助域的完整尾误差，只新增原真实根区间有限F0..11及均值产品。下一公开执行须保54个低阶认同、全mean/三分母gap/每个已成前缀；其后才接旧ρ直接w1 Taylor及尾余项。其余η同根、全I/J和充分cutoff均未授。
-
-### 全5970格同F矩阵接线
-
-[完整D1–12合同](notes/2026-11-14-R133-complete-same-F-directional-matrix-data-contract.md)已核：四格sameF actual保持，5966新格32互斥组生成完整128方向/193 signed source-output矩阵；原m_k/E只消费同一canonical A，不能取Arb中点另立模型免误差。完成范围后仍需真双扫、V跳、真97帽/均值/腰及body和cross误差的同一后验恒等式，不从覆盖推出全逆。
+1. 同F原四格 run43648579604 child0/15门；原5970 impulse run43649423561 child0/11门，单跳全窗/负窗 upper 分别121146.604996/56766.695864，同源多跳仍须triangle。全矩阵v4 run43654510038 正计算5966缺格：225pins、原plan与四格复用；v2全32空失败和v3 prepare失败完整留存。相关性端点修复只先消同一F0，不改变Δ整球费用。32组互斥、首16组已运行，已有原生前缀，尚不宣称覆盖完成。接下来消费所有完整H/J/T数组，完成双方向97/96协方差扫、V真跳、真97帽及独立cut trace，然后才判断全BVP/νSchur。
+2. 高根 v2 run43651259105 child0/15门，完整0..9内蕴及54低阶对照通过。旧ρ Taylor run43653825736 child0/20门，258新cubic行/75自然stage，0旧FFT/aux重算；完整 forcing/w1到6、输出模1536、全复δ同η0。主系数采用已勘误μ=Q²B+，leading a0=GB−。固定内窗local第二幅度sup已由1.9108e10降到781421.481649（width1/512、仍是幅度sup）。完整报告见 [actual Taylor](results/R133-supplement-actual-complete-old-radial-first-Airy-Taylor-bounds.md)。
+3. Leading旧mean run43652283078 child0/10门，原8项/独立mean/正侧全部复用；R.001负源 upper713577.173144，原RQJ粗费仍在。[内窗I合同](results/R133-supplement-fixed-inner-first-correction-complete-old-circle-source-contract.md)现以59pins公开consumer消费已成Taylor：原完整κz八词、Y九项、独立even mean、真local JP S(μL0w1)、实/复Airy全尾及原dr积分。初次部署不先授数值通过。[严格外段E合同](results/R133-supplement-ordered-old-radial-transport-and-strict-exterior-first-correction-derivatives.md)由phase消费同一w1、Fρ、leading第三导及原物理seams；同一解分积分，不加人工端口。其后须付正侧原weighted端口、所有真实seam与完整strong return/充分cutoff。
+4. 新外 O/F/J/C 已证完整principal、两个strong窗、同一无限Γ1/Γ2、固定scalar高反馈和五盒全频径向公共点。实际两行1291/2与全浅层cut平台均重付；真实fixed-C_R外线v_t=M²v/mean v0t=0，与N参考的指数差单列。下一项是在同一v+权和同一端口表示完成非径向remaining/闭mean商，随后把独立CR、完整帽、两曲率mean、ν、两个Γ与原强标签source同时联立。径向公共点或给定CR非mean逆都不单独满足README。
+5. 以上全逆门完成后立刻接真实ν方向||qν−Z||≤.005、非线性状态球/holonomy/全部matching，最后消费原条件性几何门。finite193的.003509417445587仍不是完整ν门。未达到总标准继续下一个缺口，不停在阶段结果上。
