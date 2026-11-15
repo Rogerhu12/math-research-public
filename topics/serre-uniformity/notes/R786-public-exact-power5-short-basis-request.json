@@ -1,0 +1,57 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R786-exact-original-power5-short-basis",
+    "p": 41,
+    "basis_bound_qY": 128,
+    "ordinary_power": 5,
+    "ordinary_power_dimension": 1234,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R786_exact_power5_short_basis.py",
+    "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+    "method": "results/R786-original-power5-sections-and-129-Laurent-recovery.md",
+    "method_sha256": "c46008726fb18f52a5430b72c4994ce76164f11bea51044f1677278294f7011d",
+    "proof": "results/R786-original-power5-sections-and-129-Laurent-recovery.md",
+    "R786_proof_sha256": "c46008726fb18f52a5430b72c4994ce76164f11bea51044f1677278294f7011d",
+    "descent_proof": "results/R772-original-RR-descent-and-exact-function-recovery-certificates.md",
+    "descent_proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
+    "workflow": ".github/workflows/serre-p41-exact-power5-short-basis.yml",
+    "retained_artifacts": {
+      "R771": {
+        "result": "R771-p41-original-quotient-RR-bases",
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_id": 14127715743,
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "archive_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+        "certificate_name": "p41-original-quotient-RR-basis-certificate.json",
+        "files": {
+          "p41-original-quotient-RR-basis-certificate.json": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f"
+        }
+      },
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43631335355",
+        "source_commit": "00295b27a3f7367028ccee84eb867b5aeadc7540",
+        "expected_conclusion": "failure",
+        "artifact_id": 14130299697,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43631335355-1",
+        "archive_sha256": "15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540",
+        "manifest_sha256": "d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "files": {
+          "R775-determinant-cosets.json.gz": "759d6f7643032fa358a0da02417d576f5d6f89a3996f9e6fb4b3bf954c52ecac",
+          "R775-basis-M2.json.gz": "51113988c90b301cb6117fec5c294b77110e1826bf00229b7993ba82144f5d3d",
+          "R775-basis-power-2.json.gz": "734a61e967c51ba3c9cd93eaff1a81fba165600110abb941dfdbbeed41b6ebe4",
+          "R775-basis-power-3.json.gz": "00361e5155c429de5c54b613b8a3cb46ac9530c554e1a812823748bb2bf5fe18",
+          "R775-basis-power-4.json.gz": "85beb7662eee64f4eca9e205314a6625506e3041bea199985489c7cf1f62dd4e",
+          "R775-basis-power-5.json.gz": "7aff6faa89a91649db5549bbf9360647534bff6f9586ce3f5963e322d33c30ba"
+        }
+      }
+    },
+    "resume": null
+  }
+}

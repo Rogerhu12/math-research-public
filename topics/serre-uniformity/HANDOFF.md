@@ -6,18 +6,19 @@
 
 本会话已部分克隆并实际pull main至b6dd686c404c15cc7744c5c26f32862055ea3c67，读根/本题README、H/open/log及当前notes。私有QUEUE已更新并终端推送55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境transport断连、unavailable；按根规矩8通过小文本GitHub API继续，不能将API读取称为实际pull。终端恢复后实际pull/rebase；至少每小时重试。
 
-**已读规则提交：e2e587dbcf6d349c80920b278a70776972bb3494**（2026-11-15 05:29 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题已由公开run43679907787普通删除2016项/775633196B，实际64952729B（含metadata），低于200MB；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156与逐项SHA见2026-11-15-reproducible-data-removal-summary.json，未改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
+**已读规则提交：f9afc65028c7d79ca57c969668aebdce8607f16f**（2026-11-15 05:40 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题已由公开run43679907787普通删除2016项/775633196B，实际64952729B（含metadata），低于200MB；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156与逐项SHA见2026-11-15-reproducible-data-removal-summary.json，未改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
-- **R775真实断点续跑中**：旧run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540于20:38 UTC预算耗尽exit124；非数学失败。artifact14130299697，zipSHA15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540；23文件逐项SHA已核，manifest d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a。M2 rank146、power2..5 ranks418/690/962/1234与12×40原seed像均complete；power6 rank1486/processed18432未完。原core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee不改，resume完整复用；预算300分钟、workflow350。新run43679160495/source032899cc3bcd937497a857df0c271261fc709ae5已in_progress，成功待核。
-- **R777已按新规适配，未触发**：原core SHA4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a不变；session新、预算300/350分钟，Git只脚本参数/run/输出SHA，小证书与rawlog不发布。pending绑定正在运行的R775 run43679160495/source032899cc；producer_inputs_pending仍true、artifact/cert/manifest仍null。待真成功后填实际输入写最终-request.json运行，不能提前触发。
-- R777保82E1/126半trace/40det、block79/82^w，准确生成q142基。H³只读R774前两块/14ρ，用694阶Q矩阵/Dixon解14 RHS并核AX=I，原坐标82^6ρX；membership与R778注入认证。逐原行断点只一日活跃转交，持久只输出SHA；根/代理已读完整源码/官方flint接口，无本地数学，未把模核当原y。
+- **R775真实断点续跑中**：run43679160495/source032899cc3bcd937497a857df0c271261fc709ae5；旧run43631335355预算exit124的23文件逐SHA核，M2与power2..5全complete、power6 rank1486/processed18432 partial。原core不改/预算300分钟。完整绑定见原request和R786；无需等待本任务最后一层即可用已成power5恢复函数。
+- **R777完整M6/M12方案保持备用，未触发**：原准确core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a已保存。pending仍true，无最终请求；当前优先R786直接power5，不在R775成功后自动重开较大的H³694阶坐标/M12任务。
 - **R774已成**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475；真e1、H³至qY820全560坐标/26块/108stage。artifact14128247134，全部原尺度/证书/manifest SHA见正式结果及请求；已复用，不重算。
 - **R778已证**：20原cusps在L上单轨道，保M/L40。L系数A/B只须143个原Laurent项−e..142−e准确零便全球相等，rank2720/kernel308；基q142、实际e1只Q427，旧800已够。M2/M6/M12完整40坐标前缀13/41/82注入。证明SHA见请求。
 - **R781理论与实际Laurent已成**：原g=−diag(1,−1)T^-40给v=ξ^-10u下M+=L(ξ+ξ^-1)、280/Q；v=κw后(R−wR′)^3=Ã(R²−c*w²)²，Rn只除3n+1，无κ逆。原143项化2860×3028 L，须全部准确代回。公开run43679703344/sourcef0292795817a534937d35904e2e11275631e878d成功，R0..142、144stage逐SHA/等式全核；core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751，cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0，artifact14148041703。完整参数/manifest/ZIP SHA见R781-certified结果；只复用R774前五块，下一接真R777。实际函数/β/高度未有。
+
+- **R786已证明并启动准确短基**：原5ℒ degree1360、维1234；原y pole1206给kernel=28+h1≥28，129完整Laurent阶−1..127即全球。weight10原相位无额外标量，basis系数下降Q(ξ+ξ^-1)；B0秩20与A有理块消元后1326×1214 L、rank≤1186只理论界。只用旧R775已成6stage和R771，不等power6；core4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851，proof c46008726fb18f52a5430b72c4994ce76164f11bea51044f1677278294f7011d。新request含全部真实绑定，公开run待核；R781已成R0..128/κ129直接复用，准确函数核仍未算。
 
 ## 已完成原p41输入，不重复
 
