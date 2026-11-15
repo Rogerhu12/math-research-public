@@ -303,3 +303,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 原连续E完整生产源码
 
 [完整接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)与66415B/9aa0da45源码全部逐段读取后发表，已pin正式R286文本81d061a6。代码实现全部160×9原cap/flat/cut/正weight、六primitive严格实range/Acb积分、真实自然Rout及完整闭径向逆像；原准确深根存在前提和全允许根族界、内保护端/有限接缝、全部pending/suffix与partial分别保留。源码未执行，未本地科学或fixture；不填未来E/场或原metric阈值，132从原三输入/78来源实际执行准备中。
+
+### 2026-11-15 request130原MID483完整查询新增
+
+[完整接口](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)和十件源/参数/workflow已发布，root完整读四科学源、helper/worker/recipe/request/workflow全部差异及16945B接口。相对32只加真state.middle[483]/problem.mid[483]及完整端点J/P/direct-scalar，新增capture483而端点/local/C不扩；首父硬锁98原31，后父只真实own33，不重演或假续118。原75pin逐保加5及worker1，所有原atomic模型/FD/预算/规则runner/清理合同保持，无本地科学/fixture。helper原末LF按冻结字节保持，不为格式改变源身份。push触发后登记实际run继续。

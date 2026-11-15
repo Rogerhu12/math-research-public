@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:06:16 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 05758705b1e0a22786f88329f02b75219d30ffc7；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 05758705b1e0a22786f88329f02b75219d30ffc7。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 10:07:52 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 99efc1130cd693a84d61ba69a27b52838e58b8a1；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 99efc1130cd693a84d61ba69a27b52838e58b8a1。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -22,7 +22,7 @@ root唯一Git/pull/push/ref及workflow发布者；每条结论立即推，每pus
 
 [123](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)/[125 R284](results/R284-actual125-nine-control-eight-further-acceptances.md)各8接受/17trial，真实九末p顺接；121第五fallback transport缺口不补造，原记录见open。
 
-[126 R287](results/R287-actual126-eight-nine-control-batches.md)run43699369075/sourceb80ec2ad：8批64接受/112trial，W279.1236575692574→49.739792814348064，20接受inner tol=false保原Armijo；完整原读回/allfinal false/raw清，真末点已接127。
+[126 R287](results/R287-actual126-eight-nine-control-batches.md)原8批64接受/112trial、全final false、raw清；真末九点已实际接127，完整责任见正文。
 
 [127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda302：8批64接受/130trial/66拒绝，fresh W49.73979281434833→11.126800189953372，unit首项−4.717371832840097，全final false。14接受inner tol=false、FD第5末1.092813e−7、末Arb1499叶/0未解及全部圆保原记录；8primary/64groups/8fullview身份核同、raw清。末真九p接128/129；[129入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173、compute132773497339/report132774328966均success，原8批/全部科学源保持，原日志待读，不冒科学接受。
 
@@ -44,7 +44,9 @@ root唯一Git/pull/push/ref及workflow发布者；每条结论立即推，每pus
 
 ## 真实原场查询继续
 
-[118 R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)run43693006085/sourcebb1d7567：8新模型/8新FD、51trial/8接受/43拒绝，末alpha1/256、physical .007107083459932941，全部final false。后4批最近拒绝落MID483，其他域责任保留。amplitude正做130：从可恢复实际98原31父另起33查询轨迹，相对118仅增MID483，21capture/25原端点/local8453/C4059及原门不变；不冒续118已删末点。8摘要JSON+LF身份核同，原log382986B/1c81a9c6，raw清。
+[118 R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)8模型/8FD、51trial/8接受/43拒绝，末alpha1/256、physical .007107083459932941，全部final false；后4最近拒绝MID483，其他责任保留，末raw已清。
+
+[130实际33查询入口](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)已发：从可恢复98原31 pair另起轨迹，相对32只增MID483、首输入相对31新增471+483；21capture/25原端点/local8453/C4059/outside/原A/H/λ270/17trial/全FD不变。完整六源见接口；worker63dc6829/recipe6fc6cac9/request53d4e417/workflow25d81c4d；80pins+worker、原8批/10500s批间/175science185job。push后核run，不冒续118已删末点。
 
 ## 连续几何、同g与接受场之后
 

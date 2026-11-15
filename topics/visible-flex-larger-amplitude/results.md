@@ -60,3 +60,5 @@
 - [九冻结450完整物理/材料/闭面消费者](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)：e8deb413/69bbba26显式绑定v2及全部九scalar，保原完整jet/tail/审计/两帽/sharedB；新guard不授权旧scalar连续证明，没有新接受或闭场结果。
 
 - [R286连续E完整区间生产器](notes/2026-11-15-stored-continuous-E-cover-interface.md)：9aa0da45明确约定C、全部1440源片/六primitive、准确深根全允许族、自然Rout/闭逆像及未付后缀；独立于原48有限selector，尚无实际数值E或同场metric结果。
+
+- [request130：完整原33查询、MID483实际约束](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)：保32全部查询只增483，从真98原31另起轨迹，capture21/端点25/local8453/C4059；原八模型/八新FD及所有门保持，不伪续删失118场。

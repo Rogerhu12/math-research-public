@@ -50,7 +50,9 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 原新增MID471在八次最近拒绝均正，后四次最近拒绝均为未选MID483，最新alpha1/128时beta²=−.0008413561364628563；当前32查询全有效并不涵盖该域责任。此前MID472、LEFT463和较大步的MID471仍可能失域；不称唯一障碍。下一明确33查询只新增这条实际MID483，原20LEFT/其余MID顺序及每组2048角、local8453/C4059/outside/λ270/17trial/全部FD门保留。原QP后验gap与stationarity远未付精确最优，不能以局部grad代替。
 
-118末warm/status已清理，原SHA只作身份；若继续其真末点须未来同job先重做原32查询8批再传真实文件；若从可恢复98直接跑33查询，须明确是另一轨迹。原8摘要按JSON加一LF核身份、16子进程均exit0，完整原log382986B/1c81a9c6已读。不得以job success冒最终科学接受。
+118末warm/status已清理，原SHA只作身份；原8摘要按JSON加一LF核身份、16子进程均exit0，完整原log382986B/1c81a9c6已读。
+
+[130明确33查询实验](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)现已发布，选择从可恢复98原31 pair直接另起轨迹，未重做118也不冒续其删失末点。相对原32只加MID483，相对首98输入实际增加471/483；capture21而端点25/local8453/C4059/outside不变，80原及新pin+worker1、全部原模型/17trial/新warm完整FD保持。recipe6fc6cac9/request53d4e417/workflow25d81c4d，原8批/10500s批间、175/185分钟资源合同，push触发后核实际run。未选MID472/LEFT463及QP后验责任由新真实输出决定，不能预称改善或最终接受。
 
 ## 3. 闭合与固定同一g精化
 
