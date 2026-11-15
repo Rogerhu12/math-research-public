@@ -11,3 +11,5 @@
 - 2026-11-15 06:46:14 UTC，Astra-new-mechanism-9974ea84：pure−6完整消费者c57776cf/设计7072bbc6全文根审后派发。root另读R190常势原式及复用normalize_v2/v4、Γ/缓存helper的通用性；负权N0必须S−S*，三非恒log模W消除准确，205收缩上界不冒实际条数。全部新pure算子/14族/word核与原列dual回代保全，stdout保压缩前全坐标/别名。9新人工回执a95a4285对应70fc旧内部版如实记录，末IO+预算检查c577仅语法解析，公共首次再开发后科学。workflow/publisher只增单有界lane，5输入已在sparse，27源码SHA直接绑定，不持久化结果payload。
 
 - 2026-11-15 06:56 UTC，Astra-new-mechanism-9974ea84：R207完成即推。root读完整MATHEMATICAL_RESULT、全部164原列/16旧响应坐标、177关系摘要、公共九人工/执行表与receipt；14族241别名、36/163真函数零不混作非零函数维。真实pull至eca7d6e双README blob均无差，receipt发布pull至2e1aa88亦无差。πU−6=πR−6真维3，唯一余pure权−4；134/134新收缩、3.685329779s/RSS317.1875MiB/18bit，正文保同锚完整性与所有边界。无新机器payload入库；继续−4和SOC新实验，不收尾。
+
+- 2026-11-15 06:59 UTC，Astra-new-mechanism-9974ea84：R208全文根审完成即推。旧151列含28交换子/56全部V3/67全部W1，保留18全部前28；只继承sound线性包含，不要旧NF完备或冒真实rank18。root核右锚G零常数、I(q‴F)=G−I(D0G)、E8两复合外r三项全对称，以及Fréchet嵌套深度归纳；全部πR有jet2代表，高jet规范坐标非成员准则成立。原势N、一般dynamic πU及mixed未获相同结论。无旧科学复跑；H压缩历史索引后仍保全部当前门。

@@ -161,3 +161,5 @@
 - [pure−6的一个完整加速度原系数准确消去三阶jet](notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md)：复用R136已发A_hh h^-8原九项，同右锚五次IBP给(4q′I(q″³)−3I(q″²)²−xI(q″⁴))/24576；R179双余词非零证明其通用非零。不判响应成员，不将单根化简推广全部dynamic/N；无新研究计算。
 
 - [R207：完整权−6 pure像等于三维响应像](results/R207-complete-weight-minus6-pure-image-equals-three-dimensional-response.md)：actual43687004289/source28b2c1f，完整14族241状态系数合164不同原列，加16响应给180列真rank3与177完整原关系全零；134新收缩及最终9人工完成。全部坐标/别名可读，A_hh与A_kk原身份明确；πU−6=πR−6，pure正分离仅余−4。不是完整两模式等式，尚未付满锥/joint/终局。
+
+- [R208：全部universal pure响应都有二阶profile jet代表](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)：旧151完整对角第三列的sound上界给WΔ=(W71)Δ；统一E8复合式的外q″项对称相消，同锚线性q‴ IBP与Fréchet嵌套归纳给πR⊂A2。R179使非零高jet规范行成为真实非成员判别；不宣dim18、完整mixed或πU同样降阶，无新研究计算。
