@@ -398,3 +398,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R353：三个真实正中心支付WY的完整第一外矩
 
 [完整证明](results/R353-ordered-tails-and-three-positive-centers-pay-the-positive-minus-two-first-moment.md)，2026-11-15，21733B/SHA256 cc0220819dd9e21ae66f31ae5026421a19b721e624c9e36d401e40e8d5d80d6a。原RY/SY第一self与Green、bK3跨尾全保，真实强block中心式∂ξD1=D0+bPY1。原四IFT保持C0真零，两排序×普通/伴随在三个正中心给六行(p,z,2ξp,2ξz,−ξ²p,ξ²m)，概率同均值/加权二矩与Vandermonde明确付rank6/严格正核。固定有限A再正δ，包含母参数漂移和δ³中心常项；C0同权D1项保留后逐接C1/C2为24列12目标正锥。S5正幅/Ψ成本S−2支付同弱圆第13个面积外矩WY-I1并保Ψ/三directed/指定层。PY三矩、WY零和二矩及整第四/period/joint未付；新模块PYI1真代价未删。无新执行。
+
+## 历史m10首次完成扩池SOC，原两网恢复门通过
+
+[完整实际](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66118948254c9c8fa376092c41b807ec62，12618B/SHAe5bb843af5e1b421633e99a7658c1111d1de55855a9590ef63d0149ed71fb006。新正向1过，已付负1/旧17执行0。same-y/x缓存恢复普通0，扩池真J/完整绑定后唯一SOC原RHS求解，独立末验η .2663651531755449、κ57.99998339149647、原硬/旧metric/盒通过；η比历史x降2.850761611661312e−6，.26仍未达。8新值/1新SOC、active40.444155993s、过程286.264737843s。旧hold false、原y学习未删，nextB1/16000；不是当前主线best后继或全局收敛/连续reach证明。原log4071522B/SHA8238f26dc3f436564da3afb7657f00c3d33160476b81b8602342a9f29ff127f6，payload只stdout/临时；继续真实主线与有依据的独立控制改进。

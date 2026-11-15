@@ -122,13 +122,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### m10首次恢复已过，扩池捕获缓存接口失败；修复后完成唯一SOC
+### m10扩池SOC已首次完成；续新布局半径政策和真实主线后继
 
-原expanded run43744903357/5fa2424的7模型仍只执行旧same-layout路径，新expanded生产0；当前主线bestη.266347520761/fineκ57.999988521，原门过、.26欠。原norm run43741276060的m10失败x/y/完整两池/9bank可恢复，历史11primary留1slot；不虚构旧wall余量。
+[实际结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66118948254c9c8fa376092c41b807ec62。新正向缓存人工1过，负1/旧17只读复用；exact x/y原14门/两factory/9bank准确。same-y恢复与xrebind普通值增量均0；扩池8193×159真J及完整模型绑原IDs/池5,8，同失败y求唯一SOC，原scalar RHS保、原单位残差0。z保y的η，两网最大η .2663651531755449、fineκ57.99998339149647；独立末验原硬/旧metric/盒全过，新.26仍假。
 
-新run43748050775/job132915623212/source1f794c77已完成7新恢复/签名人工全过、原10检查及117依赖只读复用；x/y的两网η/曲率差全0、14gates同，原scalar/J两factory历史签名重放过，仅两个evaluation元数据叶不同，其余物理/IDs/e/f/de/df全严格。9bank/state hash07a1f00全同，新y确实重获72480/144960两个ID/完整池5,8。随后冻结capture→full_views(y)因扩池后epigraph_cache None报错，0rebind、0SOC、新ordinary4、末验0，属于接口失败，不是负算法结果。active35.496937388s，x ordinary初始化226.895550283s，process280.088787387s；原x保留、没有z。
-
-[完整失败边界](notes/observed-m10-post-learning-capture-failure-20261115.md)已保。新driver在capture前用原evaluate/fine重装同y，实际counter/IDs/versions/物理SHA全核、要求0新普通值，miss如实收费并停止。新43749820822/job132921093515旧7/10复用过；两缓存人工charged-miss过，restore组容差返回coarse完整阵导致fine形状拒绝，科学全0。现[仅正向fixture修补](notes/observed-m10-cache-fixture-tolerance-failure-20261115.md)已挂，续未过组；已过1/7/10按原DEV/未变闭包复用，生产全不改。原117科学源、source cfg、sameg/b0/159/163、source12LP/40值/120active/SOC10s全保，原y学习不删，不能冒hold。科学payload只runner/stdout；首43747845778的sparse缺项发生科学前0执行，原失败note保。仍只对历史x比较，不用它替换当前更佳主线；全完成门欠。
+只新6普通+2末验=8值、1SOC（11历史primary只记账），active40.444156s/过程286.264738s，完整费用/失败/哈希保原note。原hold false、B1/16000/streak0：y学1/1未删，z新行0/0；expanded模型base-to-total ratio .937958仍不自动符合旧same-layout guard。下一只从原17条件的确切失败与新完整绑定出发研究独立‘已覆盖新行且小校正’半径政策，再接run43744903357的当前主线真末态.266347520761；不得重播m10、偷偷重置旧状态或放宽gates/RHS/科学预算。全部README完成门仍欠。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
