@@ -118,3 +118,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### actual108 已完整回读，112缩域重算方向
 
 [实际108结论](notes/2026-11-15-actual108-full3-trust-original-armijo-exhaustion.md)：run43684544925/source34691ac1，只有1方向/20档，零异常/零accept，原Armijo全拒且非8方向预算停。最后两档W有微降但仍大于原充分下降界，不能称完全无下降。初末同106p/W；summary35439B/d252d24a、status170855B/9397507a。112保所有原门，8次完整方向总预算含拒绝，整组20档未过则半径/4并重算全3列QR；不改p、不标接受、不重试同方向。113另从103原primal低位传播切入，同门精度问题仍待实际。
+
+[112完整接口](notes/2026-11-15-actual108-to-rejection-radius-retry112-interface.md)现已发布：sourceb9fff58b/readerb7202f60/request5840314f/workflowc2c1d4c7，actual108 recipe1112B/98d5d9e0。76主pin+2metadata，父16/当前17，旧108只用于真实来源不执行main。8个完整方向总预算含拒绝、每方向20原试探，失败只quarter半径并在同p/state/J重求全三列；接受后原更新/freshJ/终检不变。最多160原trial以紧凑列结构读回，不改90KB或科学门。110实际43685348016/job132724561759已进入原连续批次；111已success待摘要。

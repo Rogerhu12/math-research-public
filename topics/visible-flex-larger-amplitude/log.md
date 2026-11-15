@@ -33,3 +33,7 @@ root已读完整新增编排器、workflow、request和接口。源a1ba1cd8在�
 ## 2026-11-15 06:26:10 UTC /root — actual108 原充分下降不足
 
 [完整实际结论](notes/2026-11-15-actual108-full3-trust-original-armijo-exhaustion.md)：一个正阻尼完整3列QR方向20档全未过原Armijo，零评价异常/零accept；末两档微降但不满足.2界，非“无下降”或预算终止。μ1.149954644371713/radius.1/gdot−.013222618975603466，首末同106。summary35439B/d252d24a,status170855B/9397507a，原终检全部保持scope。112准备失败后半径/4重算方向，不改原接受门；113独立补偿/高精度primal继续。
+
+## 2026-11-15 06:29:31 UTC /root — request112 拒绝后缩半径重算完整方向
+
+root已读科学/reader/request/workflow全部相对108差异及完整接口。仅新整组拒绝后的quarter重算策略，p/state/J不采用拒绝点；8方向总预算含拒绝，原20trial/完整3列QR/原最终块保持。actual108真recipe98d5d9e0，sourceb9fff58b/request5840314f/workflowc2c1d4c7。独立公开Actions/report与原规则监控；无本地科学，接口公式按根规则4统一$$。110实际43685348016正在连续原模型，111实际完成等待读回。
