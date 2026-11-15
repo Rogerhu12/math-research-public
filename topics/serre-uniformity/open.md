@@ -64,7 +64,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R839短RR已激活**：[纸证](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)1a0bfda4/[方法](notes/R839-original-short-RR-and-fixed-anchor-kernel-method.md)3336310d。core0a027c2d/wrapperdee4e8fb消费五组2782旧文件，原391raw块移位拼2866×2886，实际2451/415/395子式依次才给T11/Q5/295条M3(D)准确单位solve基。source-tag111621ab，原p753 S5逆复用，两锚仅在该新地方作必要乘积；无新V11尾/旧导数/旧逆。推送启动待登记run，秩和D空间尚未预填。
 
-**原CM值实际已成，正式记录接入中**：[原单位块纸证](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)/[执行接口](notes/R787-implicit-CM-value-consumer-interface.md)。run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 branch unit，特征零B0非零/准确有限y表达式已得，518位y/y′完整十四乘回。final5de210b5，246stage，artifact14185198226/0ae63e2c至Nov16 23:13:32；四组176源carrier89.84MB/e28a33f3。准确展开false，RR仅candidate。接既有R791(791R.16)消根式和真实h0定义原点DAG，不另立旧公式新定理；eta/height未得。
+**R840原CM值与首jet已成**：[正式结果](results/R840-certified-original-implicit-CM-value-and-first-jet.md)run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 unit，准确有限y/y′表达式和518位十四坐标乘回已成。final5de210b5/manifestbe2a58b2/config2a3bd8ce，246stage；artifact14185198226/0ae63e2c至Nov16 23:13:32，四组176源carrier89.84MB/e28a33f3。255小件纯IO完成。两组14个RR均candidate，准确展开false。接既有R791(791R.16)与原h0构造β_C及下降点DAG，保原v/κ；eta/height未得。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 

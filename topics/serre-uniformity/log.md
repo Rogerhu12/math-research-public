@@ -675,11 +675,11 @@
 - R837真实run43770995901/job132986722252已success，正式源与1213minor回执接入；修正R787518结束笔记的方法文件链接，原结论不变。
 - 本push规则：本地真实pull至9d790b6a2cf758b344ba29e8639508e5184d64e1（2026-11-15T22:51:19.120594+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 07:16 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 07:20 Asia/Taipei — serre-public-astra-20261115
 - R837正式实际成功：原P0之146值、397维U及原两锚已成，u22项/v418项，实际1213minor665846025；共同零恰原21点，首a0rank900只有限记录。
 - run43770995901/sourcefa17c77f，14.224秒、141stage/1413输入；final83234905/manifestfe2aee5e，artifact14184475817/ea610ed2、必要carrier c17f51a9；本地仅既成输出IO。
 - 原二阶gcd395实际已过，正式R838正接；R839短核与14坐标CM新consumer并行。H/open压缩前逐字归档，旧限制继续生效。
-- 本push规则：本地真实pull至1cf679b578409ccf4ec6cedf45fbae167b1c7540（2026-11-15T23:16:06.803919+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至cbf63a8b48dcacd79aa1e5f41c359f2cf408837d（2026-11-15T23:20:49.857440+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ## 2026-11-16 07:12（Asia/Taipei）— R838完整原二阶理想与最小三阶
 - 规则：实际pull提交36c804948443234d39c10d338b8ba0fb4c194316；两README SHA不变，推前按原流程再核。
@@ -709,3 +709,9 @@
 - R839核心0a027c2d/包装dee4e8fb绑定2782实际原文件、source-tag111621ab；真实T11/Q5/两锚核三步分别要求2451/415/395，不预填秩或准确坐标。
 - CM run43773420733实际35.797080241秒完成，全14 B0 unit、准确有限y表达式和518位y/y′已成；final5de210b5，展开旗标false，结束小件纯IO正在接回。
 - 新数学仅公开Actions；旧391块/同prime S5逆和CM原输入均复用，接既有R791消根公式，不重复登记旧结论。
+
+## 2026-11-16 07:19（Asia/Taipei）— R840原CM值及首jet实际完成
+- 规则：实际pull提交1cf679b578409ccf4ec6cedf45fbae167b1c7540；上次NFF已立即pull重试成功，两README不变；本次推前再核。
+- run43773420733/sourcec3bcfc0d实际35.797080241秒，全14 B0 unit与准确有限y/y′表达式已成，518位完整十四坐标乘回；final5de210b5/manifestbe2a58b2。
+- 两组各14有理重构仅candidate，准确展开false；246stage/176原输入，结束255小件纯IO不重数学，完整来源和边界写入R840。
+- 接已有R791(791R.16)及原h0消费β_C/下降点DAG；原v/κ、全局η与规范高度边界保留，主目标继续OPEN。
