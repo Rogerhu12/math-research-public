@@ -381,3 +381,6 @@
 
 
 - [R394. 原160真实128位一步接受、完整audit与阶段映射预算停](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 89269B完整必要回传原一次α1接受/shooting容差与独立replay；stage8000s仅20/576、全部556未完成地址齐，boundary/endpoint未起。独立audit576/7488完整，但仅C-based有限程序，原native/fullDN仍false；原摘要98321B传输70与科学局部预算分责，完整提速后继继续。
+
+
+- [连续C固定power4十控制三源码组件](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)：准确factory十项表与degree10、numeric完整3×10及参数投影分责、物理薄层七shape冻453/全十冻450已实现。真180九点加显式ξ，不造新域/J/accepted；局部0/半/1三jet盲点与完整probe/RK响应分责，未来入口保内部可见站且不增秩门。旧178/183/184/185均未改。

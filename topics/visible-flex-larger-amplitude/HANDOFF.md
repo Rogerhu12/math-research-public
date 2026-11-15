@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:19:35 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7b59f32287b484a75e3e5ed0294bac74e3e6c14e。
+规则同步记录：2026-11-15 20:20:36 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9c0e3263200f63ea61420d0d691b7ef763263feb。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -23,10 +23,10 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |160/182 R359/R394 root|182r3 43757046032/442413b6；原16043729874541/b34692d0|89269B必要齐；128α1容差过/audit齐，stage8000s仅20/576，boundary/endpoint未起；完整算子提速续|
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
-|175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
+|175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|已终态，exact完整读R372；原37/FD与后置闭段诊断分责|
 |184 R391 exact|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|compute132943014084已启动；真180点→新C/factory→全角112 far→原453|
-|183 R390 amplitude|43755955047 /126c05170e77a29cc86e4a98681c724c51f0de7b|compute132939972890已入科学；真十词/固定S/16×原8/global2400s，整20拒即止|
-|181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
+|183 R390 amplitude|43755955047 /126c05170e77a29cc86e4a98681c724c51f0de7b|compute/report已终态success，amplitude唯一完整读R390；后继185待真实十词|
+|181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|已终态，exact核R385；full C/deep与后续Prüfer未付分责|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -58,7 +58,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [181完整入口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)保原19pins/C3600/深族112/cut/事务、全角lift/正log/二幂、Taylor正dot及逐候选物理单位Robin，DN独立隔零、不造nativeμ；head14400/25M/256bits/depth32/norm1/4/18900启动clip/360job和读回清理保。184必须接真实farμ的QPi变换，exact唯一负责。
 
-[R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)保新support1/power4同三jet、degree10/自然L/u及十控制和453/450接点；旧178表不能只换profile。该ξ不修coast；R351/173/R363/R366/R370完整响应证明仍保。
+[连续十族组件](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)72c4635e factory/7dedb713 numeric/a248e957物理薄层及15364B接口已发、完整diff已读：准确R323基底+support1/power4十项、自然L/u、七shape冻453/全十冻450。须真180来源与显式ξ，不造域/J/接受；0/半/1三jet零仅局部采样结论，未来入口保内部实际站/全响应。旧178模型不可换标签；R351/173/R363/R366/R370责任保。
 
 [184完整接口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源+20191B总接口已核：2edb/c961/4d50/0adf/3bb5/4cef、owner2344/pipeline9fee/request867f/wf60ef；原59→74pins。e5ab/ba8按原180真九词/SHA恢复→新C/真factory，不重修旧域或伪造result。R380全角/实际μ、逐候选QPi逆范数归一后hull，原112/338/453/FD/全门及预算不改；namespace18900/sampling实际clip/单90KB必要与条件清理保，exact读R391。初域语义可传，新shadow/J/FD/metric/活动p另付。geometry接185全3校正，amplitude接连续十组件。
 

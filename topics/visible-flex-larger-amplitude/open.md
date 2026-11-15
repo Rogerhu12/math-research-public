@@ -88,7 +88,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R374首176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)未完整返回；[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)55100B完整付32977cover/32526pending/32488unresolved/38反证：numeric416、17正/21负两个原闭u区间，未决32484宽度/3速度/1两者。BOM只改解析、原流SHA保，不重科学/不回填首176，也不冒每叶唯一准确分支。新p须重付全域；R383准确同一性及R384真实新域分责。
 
-[连续C固定power4十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)明确在原R323准确基底追加ξ，support1=[L0,L0+δA]，h=δA²·64x³(1−x)³(2x−1)^4，同表达三jet/零延拓/C²与准确自然L/公共u保持。独立factory十项表、degree10完整域、新numeric(3,10)/物理层(0,3,10)、七shape固定453和全冻450接点已列；原178 LiteralTenModel硬复制旧base/mesh/J，不能仅换profile冒新C响应。设计没有实际参数/域/求解或门；support1 ξ不能代coast参数修复，180独立继续。
+[连续C十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)及[三实际源码组件](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)已发：factory72c4635e/numeric7dedb713/augmented a248e957，完整三个diff与15364B接口已核。原R323准确基底只添support1/power4，十项表/degree10同体三jet/自然L/u保；真实180九recipe加显式ξ，ξ0仅同函数限制不冒新实际。完整3×10、七shape冻453/全十冻450已有可调用视图，实际J/FD/场和同g证书未付，旧184九消费者不能吞十schema。端点/中心准确三jet全零仅局部盲点，未来完整入口保内部真实采样，不据此推整J零/非零或另设秩门；support1不修coast。
 
 [R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已核原core/准确C/全根族/cut/R323窗口/九个准确dyadic系数，证明165反证适用于169及179冻结初点的同一准确目标，不冒literal IEEE结论。numeric416明确coast，但未返的accurate分支列表不补称唯一。该段只有p3/theta3/eta3直接作用，L不随九系数变；中心−κ+2LC·theta3及其必要带已证，未代入实际LC/中心或推全搜索无解。180已在同准确构造选出β1/16全域点，见R384；support1 ξ不代这项修复。181独立实现R380全角传播，均不修改179或新增接受前门。
 
