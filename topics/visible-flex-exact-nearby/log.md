@@ -49,3 +49,7 @@ runner00:24:04.151912真pull4aea83bc…、00:24:06.346016真pull731044d9…，�
 root全文核B1–25及全部积分系数，另读原M.4–7/M.12/M.16–17补共迹依据。令B=tildeB+b*(X)、b*=f_b(0,X)，精确有MZ*=N(0,b*)；原有序radial方程保而输入改为g_a=f_a+2iεTb*′、g_b=f_b−b*。Qτ=a tρ严格径向，路径只实r/复角；paired E/O先相消才取norm，原物理seam全部跨越并付forcing跳。B22/23已在真实路径重新证明1/9、1/5等系数，含非径向余项；完整b*及mean仍重构入w1，不把真实源删零。
 
 新合同仅解析恒等式及条件scalar majorant；path宽度/固定X lift/完整root Fourier/所有forcing跳须实际付费。phase继续最小consumer、外段actual和完整非local。两README核6b1c411def5c7c54f88d5f9e01cc86aaa4502388无变化；未完成课题继续。
+
+### 2026-11-15 00:38:20 UTC：固定内窗raw局部源完整实角二阶合同
+
+已证K1–11：旧Taylor p≤2/q≤3表复用，缺W04仅从原width1/512带sup的四个Cauchy候选取min；small auxiliary D0..3/Dr0..2和width1/32系数sup支付完整乘积θ²。原PQ/profile、4矩阵转换、非local/mean/径向权不改，只新增Nraw real jets→全Airy→local积分。实际candidate是否更小须公开Actions，未把大upper当下界。root继续五件入口；两README核57681cdee70da36c092117620062b4412050dfeb无变。
