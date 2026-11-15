@@ -252,3 +252,10 @@ T在全U由九个固定原跨包查询定义，实际pure校正期间亦合法�
 [R299 完整证明](results/R299-complete-centered-ruling-angular-reduction-by-corrected-pure-self-fibers.md)从R296原幅度多项式取a0，准确证明pure-ruling self Kσ=bZZ+4bYC为C²；它不同于仍有C³平方的period q。R292(20)加真实二阶尾端差给完整有序Γ=−2Πμ(ell)·Uν/h+μ·aβν/h，保原因子2/4与全部history。hatK=K−Γself/2准确消左锚，moving-collar证明平移次数≤10。
 
 R56/R243的真实有限s函数空间由有限点评价忠实承载；把hatK的11平移系数明确加入初选Fang，R293通用有限C²纤维入口合法。原等背景十矩与三真实有序面积使整个Ξσ恒零，故全中心rulingθ=sin²θ rulingπ/2，实际偶部modWe同；同一新圆可保全二层/72面积/三矩/全third/六能量及正解析prefactor。未给未编译n/rank，不把有限采样当整个函数判零。剩余确为π/2四一层全函数与零层We商，仍未支付它们、其他s段或全period/joint。原式纸证，无新执行。
+
+
+## R302：χ原型的整字结构稳定，九矩与单self可兼容Morse/共振germ
+
+[R302 完整证明](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)核χ30/32/37/40来自真实R77 area及完整R71 lift；A(a)A0^R Lχ正则前缀保基点Tχ并保2V_A0成本。整个长块含旧后缀允许自由h，九原约束只保M0/端口/frame，τ可漂移。R101同名共享原型及当前整块真倒行使完整字对每个扰动仍M=T0，所有漂移成本保留；此结构补R225所留实现条件，未用diagonal替代完整第三槽。
+
+在全部新基准上重建R222增强C1截面，全(pure,T9,q单u)方程用I/4I导块恢复目标，再以先frame后九约束安装真正κe/ε二维开邻域中的ε=κe²/4。新增观测是固定原query，其自由h导数有光滑s密度；精确约束内jet满射/有限坏点投影给Morse，Klein用改后真实位移闭合。故新窄几何类可实际指定整T和一个固定u的self。root全文读，mechanism独核R101整词/九约束关键；未授全部self、另一冻结Gaussian圆或完整period/ruling/同g有限族。无新执行。

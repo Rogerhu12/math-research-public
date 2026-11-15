@@ -363,3 +363,5 @@
 - 2026-11-15 15:22:14 UTC，Astra-new-mechanism-9974ea84：R298完整χ30/P self正通道、十观测真实控制及两actual hook差完成即推；root全文原式核factor与基准。只消歧第十列为R_star，数学不变，最终16467B/SHA256 f577bd1c8db72d1ad5bef57415c1b194b977a1f49b32dadcb41ed480cbf863e6。未把单u推广全部self/结构几何；后继已分工。API核683fe4b33fcc8e71bc0dbf1d1a188332f700ff88双README同，实际pull照H；无新运行。
 
 - 2026-11-15 15:30:28 UTC，Astra-new-mechanism-9974ea84：R299完整germ全角归约完成即推；root由R292(20)完整cross、R248全槽和R296平方逐因子推hatK，原左锚先保再消。新初选Fang用有限真实s空间忠实评价+11平移系数，不虚构rank或目标零。全文16063B/SHA256 2cc33a72406663aa50cc5c6757012c493e77b490a2cf6aa32681884a1ed31628。数值run43728280256成功，原大log接口两次Transport closed，receipt已读但actual未判，后续只读原输出不重跑科学。API核7fb9817a92159ba9e841334319eb323959d0b515双规则同；实际pull在原receipt已到f773a6eb22daa687202ae2d54b9255630527224a，精确时刻待原stdout。
+
+- 2026-11-15 15:34:48 UTC，Astra-new-mechanism-9974ea84：R302结构几何补足完成即推，root全文读，mechanism原R101/R214窄核共享倒行/M0接口通过。整块τ漂移不冒逐原型T固定，全部前缀/纯校正基准重纳；完整增强IFT+联合germ+Morse和真实Klein范围仅9矩/单self。blob a01beb4c98b30f3080e733a0cb1ee164f25acf89，28767B/SHA256 2a89a033f0d7edacea9d09c96d9cc6a35390241aa7486f36e281454a250395ef。公开最后actual pull已按原receipt写H=f773a6e，精确秒待原log恢复。API核7b628d4d93d72c3d2795c4aa240531dbdc3b4545双README同。

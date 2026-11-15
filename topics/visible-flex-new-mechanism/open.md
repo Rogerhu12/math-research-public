@@ -157,10 +157,8 @@ R293/294从起点F⁺已联合付全部二层×全角、72面积/三矩/全third
 
 **下一真正支付剩余π/2全函数**：四一层完整Laurent系数、零层We商，核实际主秩及每条principal关系的完整低阶基线；不再只逐角重复。保初选Fang的有限N构造与所有旧门，不能后加冻结约束；54/52只是生成元上界。其他s段/奇部、全period/同w及主几何仍欠。
 
-### R288/292/295/297：平台矩阵已能真实支付，须联合结构几何和self
+### R288/292/295/297/298/302：平台与单self已兼容新Morse/共振几何
 
-[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)保YW全右累计/后缀；[R295](results/R295-final-grid-forces-zero-platform-matrix-and-exact-self-history-principal.md)由当前最右三组high/low迫整T_B0且各q_i0，q有准确C³平方主部+完整C²余项，不能冒低阶纤维。[R297](results/R297-ordered-platform-matrix-surjective-pure-zero-responses-and-real-control.md)原χ32/37/40准确c的D²+D³证书给九个矩阵单位响应，全U九实际查询承载T，R222一般m9保所有成本基准后给真实闭hook(pure0,T任意)，特别T0；λ+仍正，反走本身同号。
+R292保YW真右累计，R295由末真实high/low迫整T_B0、各self q_i0；q有C³主平方，不能冒低阶纤维。R297原χ32/37/40的c矩给九单位响应，保所有基准的R222 m9取得actual纯零/T任意。R298 χ30/P又给T0而完整q=3/512∫u″²u‴²>0；九矩加单个预固定u的self可真m10控制，两actual矩阵零hook整q差非C²。
 
-[R298](results/R298-zero-platform-matrix-with-nonzero-self-response-and-ten-observation-control.md)给χ30/P完整T0响应而q_u=3/512∫u″²u‴²>0；九矩加一个预固定非零u的self有严格三角十列，R222真实m10保基准支付。两actual T0闭hook的整self差=3t/64∫u″²u‴²，证明矩阵零不普遍灭最高jet；未付全模板q_i或整函数。
-
-**下一联合新响应的完整M/T结构稳定族、Morse与κ/ε共振germ安装，以及所有self q_i和后续full period/同w。** R297未授既定Gaussian族/单包self或其他观测，可达集合不可相加。矩阵零不自动使self主部零，需原包内Φ而非其左二次尾。已付方向人工源绑定复用，run43728280256已成功结束，原大日志传输失败，正在从原运行恢复可读观察，未判actual改善。
+[R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。**下一同一选型下支付全部self/完整period/同w，并核与Gaussian母包的选择次序。** 单个预固定u不等于所有最终q_i或整self函数，分别满射不能相加。数值run43728280256已成功，原大日志读取连续传输closed，补只读原log的公共观察步骤，未判actual改善。

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后实际pull/read `45a12d31acd31733be329e38415766339031ebab`，2026-11-15 15:03 UTC：run43727663245预检15:03:23，发布15:03:31—34另同SHA pull，精确秒未打印；双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后已证actual pull/read `f773a6eb22daa687202ae2d54b9255630527224a`，2026-11-15 run43728280256发布receipt：从7329385实际pull到该SHA，双README无差，原stdout尚在恢复，不虚构精确秒；前次精确预检15:03:23。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 15:03:27 UTC实际pull/read `dece04bc03915d3124624a9c963d743681fc7021`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
@@ -47,7 +47,7 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 **R293/294全部二层history已付**：初选0<κ²<.01，R289普遍rank30；R286/R291两完整关系使全有限N32向量在同空间，≤30χ/原12包正锥及30真Jac根付全部π/2外矩/Lc/Mc。R294给任意pair真实β/六sl2和核Γ⁺；Khat=Kself−Γ⁺(m,m)/2经原local变分消C³²，仅线性u'''准确IBP成C²，平移≤10。**从起点新F⁺**含旧F和30×11校正self系数（条目非rank）；同F⁺格点十矩与总A01/A02/A12清全even余角，12副本清odd。R293合法F★扩展给同一正解析有限N圆，全部十对称乘积×三矩×全θ和72面积/六能量/三矩/全third同零，即整个二层Gaussian history。零/一层、完整ruling、平台/flux/Laurent/period/同w与最终几何仍欠，未称旧冻结F无偿增约束。
 
-**R292/295/297/298平台与self**：保YW右累计Vθ=4Σ右i≤j a_i²d_jQij；最右真high/low和三矩Vandermonde迫整T_B0、每q_i0。R297原χ32/37/40的c=D²密度+D³项给σ=(64χ32,−32χ37,64χ40)，16B_pj(σ_i)映九矩单位；T在全U有原查询。R222 m9保全部基准给actual闭hook(pure0,T任意)，λ+仍正/真倒行同号。**R298 χ30/P**的T0而完整self=3/512∫u″²u‴²>0；加单个预固定u可真m10联调(pure,T,q_u)。共同m9校正的两actual矩阵零hook，整q差=3t/64∫u″²u‴²，故T0不灭C³主项。仅单u数值可控，非全部q_i/整函数；未兼容既定Morse/共振germ。R295 q=−1/8∫[∫kQΛ²/h]u‴²+全C²，u²主项M0消，其余不能偷入低阶F。继续结构几何与全self/period/joint。
+**R292–302平台/self与结构几何**：原全后缀迫T_B0、各q_i0。R297 χ32/37/40三c矩证书给9单位，原query延拓全U；R298 χ30/P给T0且完整q=3/512∫u″²u‴²>0，9矩+单个预固定u有真m10控制，公共校正两actual hook整q差非C²。R302四χ实际来源+成对正则前缀保基点τχ/全基准；自由h遍及整原型，只保M0让τ漂移，R101共享整块真倒行仍准确M=T0。新全部基准重建增强截面，再全(pure,T9,q单u)IFT，联合κe/ε二维安装+有限光滑密度Morse/Klein闭合，故该窄几何类也能指定T与单self。**非全q函数/全部最终母包，不能预授与Gaussian形状选择兼容。** R295 q平方主部+完整C²仍保；真倒行成本同号、λ+正，不偷换成C²纤维。下一全self/全period与同w。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -59,4 +59,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 7fb9817a92159ba9e841334319eb323959d0b515，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 7b628d4d93d72c3d2795c4aa240531dbdc3b4545，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
