@@ -566,3 +566,9 @@
 - wrapper3b573881消费真实P2 known8907fb65、scan25四pairs和原3037 carrier；删掉误把IO摘要注解当raw scan字段的一行断言，其余原tag/字节/来源严格保持。
 - 新LLL只针对新共同分母，旧49拒绝不搬入；early查col2/3，原七点全交换子/cyclic/Γ出口保持。300min/4pairs只是运行限额，无新数值预填。
 - 本push规则：本地真实pull至598951293035cb2e2fa705bc13e24cc1a5f59b8a（2026-11-15T21:12:20.910789+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:29 Asia/Taipei — serre-public-astra-20261115
+- 读回R827 run43734420663的真实核心BudgetStop/exit124：原q4 σ∞272×1360秩272，完整子式det695832206；证书25b2cb95，未代τ全多项式检验。
+- τ当前fa6297cd保33839完整操作，phase gcd_row/pivot_row24/next_other_column1248，非总秩。manifest2609de21/72997项，artifact14180474398/ce9a6a97；本地两次纯IO，无新数学。
+- 只将resume切真已结束源，同core/helper/六生产者/q4/300min续接全部原子状态；R824365续算43762208712进行，三列43762388370已exit2等待实际小IO。
+- 本push规则：本地真实pull至448ea81bd12f8c035ac87c043be701e6f8b63736（2026-11-15T21:29:58.816274+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

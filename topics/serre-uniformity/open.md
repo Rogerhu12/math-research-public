@@ -81,7 +81,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 
-**R825原重数提取已证**：[原结果](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)及[AB入口](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保原89579f79算术、28字段与σ齐次项，仅pending。原E=21固定点+3D，r=y/δy给Jk=R∩(I_(3k+1)+rJ_(k+1))，只适原m0/1mod3；安全K395非实际。P=MaMb/Q=δa·b−a·δb及两图齐次项、272×816全核秩544必须全部投影，不用一般理想商或ambient迹；真实I/P/Q/D待。全SHA与详细公式见本次open归档。
+**R825原重数提取已证**：[原结果](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)及[AB入口](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保原89579f79算术、28字段与σ齐次项，仅pending。原E=21固定点+3D，r=y/δy给Jk=R∩(I_(3k+1)+rJ_(k+1))，只适原m0/1mod3；安全K395非实际。P=MaMb/Q=δa·b−a·δb及两图齐次项、272×816全核秩544必须全部投影，不用一般理想商或ambient迹；真实I/P/Q/D待。全SHA见归档。
 
 **R820小有限代数入口已证且实际完成**：[完整实际结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1、36.411901553秒；原两图rank20/colength20，292步/5380非monic，只有d271=20，600ZIP/598manifest/590stage/289输入全核。原273个S3 q0行/F20值/两锚点及Z^-eps规则保留，C直接供R814，不重算或等大导子。
 
@@ -113,9 +113,9 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 ## 当前推进顺序与固定边界
 
-完整此前执行/来源逐字保[本次open归档](notes/2026-11-15-open-before-R832.md)，内接全部原证明；当前run/source/断点以HANDOFF为准。
+此前执行/来源保[本次open归档](notes/2026-11-15-open-before-R832.md)，内接全部原证明；当前run/source/断点以HANDOFF为准。
 
-1. 原函数工程继续R827的真实q4两图充分检验、R824的准确27+244方向和R815完整Mg/Γ；R787旧430位BudgetStop已核，新run43737413555从438MB包同核续算中。原1234行/基/旧模分支不重算。R827尚无实际终止层，只有全τ多项式生成与σ∞rank272都过才能转移到char0。
+1. 原函数工程继续R827的真实q4两图充分检验、R824的准确27+244方向和R815完整Mg/Γ；R787旧430位BudgetStop已核，新run43737413555从438MB包同核续算中。原1234行/基/旧模分支不重算。[R827真q4断点](notes/R827-q4-infinity-rank-and-Hermite-checkpoint-continuation.md)已得σ∞rank272/det695832206；τ33839完整操作/pivot_row24尚未完，仅换真实resume同核继续。全τ多项式生成尚缺，不以纤维满秩代全局终止。
 2. 任一实际完成R824五次关系或原R787关系均可在真实来源绑定后给原y。已保存R824→R792入口；新共同零实际判断，后继CM点/R809 A,B正规向量/R811极理想/R825原D和eta依真输出接续。所有旧C0..5、曲率输入、基和算子来源保持不变。
 3. 原全p sigma仍缺同一primitive h的Legendre及两Cartier单位。R812全split未筛单位、R829旧p47和16、R826固定八运输/R828两new零、R830 conductor-p权6lift都直接复用。R831完整EO交换代数已成：任意Weil交换子压回EO在old6上标量，不能再用其降FG/HJ。继续真实conductor-p与指定Eisenstein CM配对，不把同Hecke特征当实际同一test vector。
 4. 原高度已得下列显式接触阶界，下一缺口仍是实际高度/周期与全尾的共同根证书。不能因知道一个有限截止阶，就任择高度常数或断言原整盘无非中心根。
