@@ -92,6 +92,8 @@ phase_inverse负责完整负侧。此前逐字源链、所有源单位/域/succe
 [P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、[G真实B种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)、[F固定输入body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、[RG粗γ种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)已给同真X/H值图及首q transition高度jets/Hermite lift。全部awB/κmean/globalλ/三径ordinary源/broken第三第五jet、四态B迹、94步和精确指数逐字保00dfdc3c4b4fa92ca88705b490ac4b01f01a3686本路径本节；不删未付义务、不重成功数学。
 零宽真M帽/long不要求未知γ复宽；Γ1锁同负principal，Γ2随a94(γ)选后fixed-γ内冻结，seed差非仅collar。T0=2^1500000、3500/400/loss1734/bg1796保持；下节S同解exact body/far/holonomy，core/腰/ν及实际γ域仍独立。
 
+[NC嵌套局部化与直接高频H1迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)558f47f7给BN≤r^NB0+kΣr^jE、保完整selected低/shell/χ′源，再对真实p=zφ另检t1。Mδ2≤128M1+384E1、actualD1与B10全mean保留；固定h=1/(40N)和两χ80给完整五列，双端FTC因子1和最终P仅一次。此H1迹免8193插值，独立tail高域仍待；6rho×2J×N1..64新scalar待Actions，未知low/shell/body没有因此被赋值。
+
 ## 6. 完整exact tail、连续选解及真实参数列
 
 本节已成tail的全部原域、指数、source/state单位、mean/荷、loss与未付条件逐字保e76a5e92aa7ba49215f74f2dbf7a443fb1d01056同路径第6节及下列原文；成功计算不重算，压缩不删除义务。
@@ -160,19 +162,10 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 
 ## 8. 执行规则与当前可恢复记录
 
-只用public Rogerhu12/math-research-public及自身Actions做新数学。
-本机/代码模式仅文字、静态核和来源元数据；成功旧数学不重跑。
-根规15只保script/args/run/SHA和真正小结论；
-可重算data/证书/新数组不入Git/Release/新artifact。
-原输入只从immutable公开commit/path或已有artifact临时恢复并核SHA。
+只用public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核和来源元数据。成功旧数学禁重。根规15仅script/args/run/SHA/真正小结论；data/证书/新数组不入Git/Release/新artifact，旧输入immutable公开history/path/已有artifact临时核SHA恢复，各consumer核topic≤200MB及120KB预留。
 
-规则15继续普通删5件旧R59/R6/RMS可重算输出920170B，见[五件精确清单](notes/2026-11-15-five-additional-old-output-deletion-whitelist.json)。恢复ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561:原path并核bytes/SHA；代码、参数、小结论与失败说明保留，禁止重跑成功数学。
-旧R57/R56/R80/后7件所有成功删除/恢复链保ec6c38bc同open/H及原清单；各新消费者实核200MB。
-继续普通删两旧参数输出453256B，见[两件完整清单](notes/2026-11-15-two-additional-parameter-output-deletion-whitelist.json)。restore da6b6e3ae229bdcc6a59dbe42e8654c6845a3a81同path并核bytes/SHA；原成功仅原域，脚本/参数/小结论/失败不删、不重跑。
-另普通删R66外接与RMS布局两旧输出1152007B，见[精确清单](notes/2026-11-15-two-r66-rms-old-output-deletion-whitelist.json)。immutable restore cbb63584806fa90e7c5532170b5ac75abb1bdf0c同path+bytes/SHA，原scope/producer/args/小结论保，成功不重算。
+全部旧输出普通删除、完整参数/原域/producer和精确恢复清单保b04a6a5f7abfd1574608750392fe559413d8a259本路径第8节与HANDOFF递归原档，无historyrewrite。最近四件R64/R66/R91/R95删1049034B，清单notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json/ae406265，restore dc10bb948416e2f89f4cd487867b6a06cceb5f48:path+bytes/SHA；更早ec6c38bc/da6b6e3a/cbb63584全部清单和失败原字保留，成功数学不重算。
 
-再依规则15普通删R64/R66/R91/R95四旧数值输出1049034B，见[四件精确清单](notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json)。restore dc10bb948416e2f89f4cd487867b6a06cceb5f48同path+bytes/SHA；13份小producer/proof/manifest及原参数/输入pin保，R66 collar55格不冒graft64，R95完整contact不冒尚未付gap；成功数学不重算。
-
-每结论独推；非FF马上真CLI pull --rebase后保远端循环到成功，禁force。每小时真pull查两README，只读变化diff立即遵循并记H。15:20检查本轮CLI仍无executor；根规8准<100KB UTF8 connector，禁binary/gzip/ref冒pull。root亲读runner RJ15:10:25.173318→55285b73、Green15:15:55.814391→40a7a665，两README空diff。Green该commit完整容量198171914B；后续重核≤200MB/120KB预留。
+每结论独推，非FF立即真CLI pull --rebase后保远端循环至成功，禁force；每小时真pull后查两README只读diff立即遵新规记H。15:20定时/15:22:44非FF CLI无executor，根规8限<100KB UTF8 connector，禁binary/gzip与ref冒pull。root亲读Green15:46:16.350045真实pull→710f16b432b8fa6ad360442a17400b247d3d2c75，双README空diff，容量198703571B；后续consumer再实核。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

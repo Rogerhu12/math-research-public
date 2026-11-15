@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 NC：嵌套collar局部化与直接投影后一阶角迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)。有限次零阶局部化后，直接角导能量与双端FTC给完整五输入列的H1高迹；保actual drift、全mean、两截断费用和独立t1门。该迹不需8193插值，但不授low/core或独立tail高域。SHA256 558f47f743ccbfbb14c5305a56a699900e472b03183037951d0b26be33983df9。
+
 - [R133 LC 实际：保存的正collar组件及十二个高频强制估计](results/R133-supplement-actual-saved-positive-collar-components-and-high-frequency-coercivity.md)。43731225532/1科学child0、16结构门与12候选全通过；原出版大小失败完整保留，日志原SHA无损恢复，未重算。最宽域已有a>3.669992340与J96/288 half增益<.916441681/.905987576；全部低/shell/highcutoff/mean保留，未知body/cut仍待。结论567dc8a07e18d65ba5957cd010279218c6672da768f999b24dfc081e6215a70e。
 
 - [R133 CN：全圆周一阶正规化的显式逆与完整强余项预算](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)。不用小范数假设，准确保留两个均值和有限秩，给全频T逆及其强余项收费；scalar exponential二阶余项亦完整保留。结论SHA256 427387a2f3836d95b5f79546f0c6d41e8d6307abbb76611073d2801364fda9db；actual完整c/R0、GH门及物理有限border未付。
