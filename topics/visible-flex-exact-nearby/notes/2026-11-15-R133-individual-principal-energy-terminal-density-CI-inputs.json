@@ -1,0 +1,139 @@
+{
+  "kind": "individual_principal_energy_from_terminal_density_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_sha256": "f75a8f905b89a5527d52271c3e1fd682d43cf7f90d8b4b865f16efdcc75f8723",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_individual_principal_energy_terminal_density.py",
+  "scientific_source_sha256": "f75a8f905b89a5527d52271c3e1fd682d43cf7f90d8b4b865f16efdcc75f8723",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md",
+  "contract_sha256": "268be1a8766bad61335e1b47e15dad6686a2de1116caa880e1d007081a57d44c",
+  "input_read_commit": "064a031d83a5ac039dba9b388f68a6a22e1ec2cb",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "original_SN_run": "43751213826/1",
+    "original_PIB_run": "43771317443/1",
+    "exact_real_SN_transport_half_width": "1/10000000000",
+    "true_angle_only_at_original_selected_parameter": true,
+    "selected_parameter_absolute_upper": "0.00000000009368259853002",
+    "physical_frequency_factor": 4,
+    "physical_period": "pi/2",
+    "continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "continuous_response_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+    "selected_common_input_order": "S = U_H_inverse U_X_minus = U_(X_minus o H_inverse)",
+    "principal_factors": [
+      "T_ci = Id + M_ci I",
+      "T_co = Id + M_co I"
+    ],
+    "inverse_windows": [
+      "L2",
+      "H^(-4/3)"
+    ],
+    "adjoint_intermediate_window": "H^(1/3)",
+    "independent_physical_mean_coordinates": 2,
+    "complete_SN_derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "optional_signed_tests": 2,
+    "supremum_candidates_per_branch": 4,
+    "expected_actual_gate_count": 20,
+    "current_input_count": 9,
+    "old_successful_scientific_calls_allowed": 0,
+    "direct_exponential_evaluation_allowed": false,
+    "complete_physical_incoming_or_finite_inverse_or_return_claimed": false
+  },
+  "expected_actual_gate_count": 20,
+  "input_paths": {
+    "new_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_individual_principal_energy_terminal_density.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md",
+    "IC_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md",
+    "LN_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md",
+    "PIB_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md",
+    "SN_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py",
+    "SN_helper": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py",
+    "SN_execution": "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43751213826-1/execution.json",
+    "PIB_execution": "topics/visible-flex-exact-nearby/notes/principal_inverse_adjoint_bootstrap_ci/run-43771317443-1/execution.json"
+  },
+  "current_text_input_roles": [
+    "new_source",
+    "contract",
+    "IC_contract",
+    "LN_contract",
+    "PIB_contract",
+    "SN_source",
+    "SN_helper",
+    "SN_execution",
+    "PIB_execution"
+  ],
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": 0,
+  "all_inputs_are_current_small_texts": true,
+  "old_scientific_source_files_are_identity_evidence_not_imported": true,
+  "old_SN_PG_PIB_targets_recomputed": false,
+  "new_reproducible_data_persistence_or_artifact_upload_allowed": false,
+  "output_scope": {
+    "only_complete_SN_terminal_never_prefix": true,
+    "same_selected_actual_ci_co_with_true_density": true,
+    "signed_mu_and_all_means_retained": true,
+    "separate_true_H_error_once_per_branch": true,
+    "two_optional_signed_tests_not_structural_failure": true,
+    "whole_branch_window_candidates_and_shared_maxima": true,
+    "saved_PG_PIB_fallback_never_recomputed": true,
+    "direct_exponential_evaluation": false,
+    "physical_incoming_inverse_or_finite_Schur_or_full_return": false
+  },
+  "file_count": 9,
+  "total_pinned_input_bytes": 245579,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/principal_inverse_adjoint_bootstrap_ci/run-43771317443-1/execution.json",
+      "bytes": 19100,
+      "sha256": "c892c96aefd81584c65dae3415c42cd48ff020b37132725babbcd7474d3f680a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43751213826-1/execution.json",
+      "bytes": 42242,
+      "sha256": "eccb4ce4e7f8c783079e4400cd7a978214817d8092f50cd2bb8f1acbcf3d6ea6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md",
+      "bytes": 11316,
+      "sha256": "2d74b71c0584cb5ec1af849b6fb5756e48da58bf313d72be62d582d557d23acb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md",
+      "bytes": 18327,
+      "sha256": "a5717f1d2be8ba7e11b43b53a052f419c8bb25ef198a9c2bf1acda16ea5f7cea"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md",
+      "bytes": 17211,
+      "sha256": "268be1a8766bad61335e1b47e15dad6686a2de1116caa880e1d007081a57d44c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md",
+      "bytes": 13407,
+      "sha256": "53a3dd1dd637a61aec843262d51a2686ef9cf13f5478df4c62b93437db1c6da6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_individual_principal_energy_terminal_density.py",
+      "bytes": 38256,
+      "sha256": "f75a8f905b89a5527d52271c3e1fd682d43cf7f90d8b4b865f16efdcc75f8723"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py",
+      "bytes": 19425,
+      "sha256": "217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py",
+      "bytes": 66295,
+      "sha256": "6c63241ae5ad865952620f68d63670604875b460e51b083ecb66127cb785b339"
+    }
+  ]
+}
