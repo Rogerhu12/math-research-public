@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "5d91f478f34cddc7f28c4243386890f0e7b85afb",
+  "rulesReadAtCommit": "7acf18ba28b29550117544e5e7b42b923587f6c5",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -721,6 +721,29 @@
       ],
       "timeoutSeconds": 25,
       "receiptPath": "{work}/paid-infinity-jet-cache-locator-receipt.json"
+    },
+    {
+      "id": "zero-second-pure-envelope",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-second-pure-envelope-789f.py",
+      "scriptSHA256": "874ca61fe167563859d628f56c296628e4992cc708e36af5f493f09d0e5dd5ec",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--first-connection-receipt",
+        "{work}/original-transverse-first-connection-receipt.json",
+        "--out",
+        "{work}/zero-second-pure-envelope-receipt.json",
+        "--remaining-seconds",
+        "10"
+      ],
+      "timeoutSeconds": 30,
+      "receiptPath": "{work}/zero-second-pure-envelope-receipt.json"
     }
   ]
 }

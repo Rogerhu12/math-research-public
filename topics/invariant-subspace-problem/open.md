@@ -117,6 +117,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 585投影亦准确识别同I删去三线性输出，不偷非纯来源独立。原Dixon1085位/31466bit与1567DAG仍临时保存，18次重建未返解；只在需要显式来源时同binding接续，不再为常核维数盲加位数。旧Koszul族1632、二次skew降次、LLL/闭包/单65521均已完成，不重做。下一最小接口保真实自然u及同I,J，常数31饱和不能替D_h首非零系数单位。
 
+
+[完整∞第二连接与公共31](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)已实核38×10包络全零及全部1700左校正，纯20泛函可提至u³；真实β2≤3，δ4354≥31、δ4353≥28。下界不等于首项单位。有限s0对应新小任务正执行，保r1≤4未知恰值，未预填K77；原29精确形式核曲线与完整Smith的组合加强单独证明。
+
 ### 强联块同w、同源普通封口
 
 [强尾并头](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)保C=A_m+D_<、h=d+R、同u_Q、真左最小、两费、负图及全部高返回。仍须μ²≤κXi²且κh/Q有界，κ=O(h)足；不能将裸费和ordinary完整右费互换。
