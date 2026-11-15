@@ -176,3 +176,9 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-15 23:56:30 UTC — RD 根处精确首导与完整stable门独推
 
 两README在e856cf63679fc22f77380987b5c25b15ef6d9b9d核无变。Root全文读RD439a6fae，另亲取I/O/G/A/P/SE全部小primary核tag：G2 root expansion得t2，I19第二transport与O19完整mean得Da0和a*=Da0−b；RD19按DF减PM_bPF逐项重推，正PM_bΠrank不删。N6765382c/15756/0f1383da原N1矩阵亲核：F^-1的n^(1/6)与(p+g)^−1/2及g=n^−1/3恰给RD21，无额外n权。DLMF官方9.2.3–6亲开核Ai/Bi初值关系；非零shear保且g_n>17/57，非wholepass。J恒等式与P_H N^(1/3)J给e，R0能出低频所以I费r0/4，非r0/N*。全部whole multiplier/signed高输入/windows/mean与finite自然逆前提齐。正文仅补N原件身份、125对inline与1对display换GitHub math delimiters，数学不改；最终24b35235/17725/34eec24f。UTA前一次非FF已即时真CLI重试仍无executor，保remote重建第二次成功；无force。继续freeDa1收紧、SC未知包络及纯metadata容量核，未达总标准。
+
+## 2026-11-15 23:59:27 UTC — OM 旧浮点报告纯metadata审计部署，科学计数零
+
+两README在4bc182102a1bdfee5a3674471573accae9ce4fd9无变。根规15容量需清理；两个定义affine对象的d5jet/parameter方向NPZ已排除，不动。两旧r0235 dealiased报告720495B的完整restorecommit b9c7cde9、path/Gitblob/size已锁，但正文status/exception与SHA256尚缺小证据，故部署纯metadata新OM（4dd7a5d6/21315/c22e023d；826e1cc2/3949/32c695a8；197868e5/3008/0483d22a），仅公开runner原样读两blob核SHA1+size+SHA256/JSON status与原边界/endpoint。Root全文读336行source/manifest/flow，capacity函数与成功UT逐字相同；无numpy/flint/producer或科学子进程，完整failure/false状态保且audit complete不冒旧success。所有旧大正文临时不经connector、不上传artifact/Release/arrays、未删除原件；唯一≤30KB完整metadata先atomic/stdout后普通Git。真正pull后双README精确核，新diff停供root读，非FF立即真rebase保remote。新增共享.github workflow仅为本题容量核；200MB硬限仍用，科学120KB reserve不适用于零科学metadata而后继科学仍需满足。
+
+最后只为原JSON可能含NaN/±Infinity增加parse_constant的显式原token标签与计数，普通字段不改、原字节/hash不变；metadata complete仍不冒旧report success。旧未部署草稿尺寸检查在任何commit/run前拦住，未作科学或metadata child，直接部署已核最终三件。

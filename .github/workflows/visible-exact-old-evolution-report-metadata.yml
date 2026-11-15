@@ -1,0 +1,65 @@
+name: visible-exact old evolution report metadata
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-old-evolution-report-metadata.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-old-evolution-report-metadata
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OM_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-old-evolution-report-metadata-inputs.json
+  OM_MANIFEST_SHA: 32c695a896b8f71d6a20314178846878e93f01e8d9ad0ec2c9815c6e41182fa7
+  OM_SOURCE_SHA: c22e023d4632ae3a9feb7e0f98ebbf5c734e5dcd08f2ca72c3428f595245f6f0
+
+jobs:
+  old-evolution-report-metadata:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 20
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Check out only new metadata code manifest and exact READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_evolution_report_metadata.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-old-evolution-report-metadata-inputs.json
+      - name: Verify the exact small source manifest and Python AST
+        run: |
+          python - <<'PY_METADATA'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_evolution_report_metadata.py')
+          m=pathlib.Path(os.environ['OM_MANIFEST'])
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['OM_SOURCE_SHA']
+          assert hashlib.sha256(m.read_bytes()).hexdigest()==os.environ['OM_MANIFEST_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_METADATA
+      - name: Read immutable reports only for complete hashes and original metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_evolution_report_metadata.py
+          --manifest "$OM_MANIFEST" --manifest-sha "$OM_MANIFEST_SHA" --source-sha "$OM_SOURCE_SHA"
+          --out "$RUNNER_TEMP/visible-exact-old-evolution-report-metadata"
+      # Exactly two old report bodies are read temporarily in the runner.
+      # Zero scientific arithmetic, producer calls, old enclosures, artifacts, Releases or deletion.
+      # Complete status/exception/source/endpoint metadata is saved and printed before tiny Git publication.
+      # Both READMEs are hash-checked after each real pull; new rules fail with the actual diff.
+      # The200MB topic limit applies; a scientific120KB reserve does not apply to this zero-science audit.

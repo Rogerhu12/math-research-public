@@ -151,7 +151,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 执行规则与当前可恢复记录
 
-本轮两旧派生smoothing/uniform-tail NPZ的[精确清单](notes/2026-11-15-two-old-smoothing-and-tail-snapshot-deletion-whitelist.json)fd57e301/cdfd4345已先推：合721358B，恢复提交903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd同path。源/参数/两原小结论和limitations均保，完整SN/SC3/PG/WE/PIB及待DZ/SEI无依赖。已核fresh current blob/size后普通删两path；不重算成功数学。
+旧smoothing/uniformtail两NPZ已按[先推白名单](notes/2026-11-15-two-old-smoothing-and-tail-snapshot-deletion-whitelist.json)fd57e301/cdfd4345普通删721358B，恢复903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd同path；所有源/原小结/activepins保。OM纯metadata包c22e023d/32c695a8/0483d22a已部署，仅runner读两旧r0235浮点报告720495B查hash/status/exception/边界/endpoint，科学0；原件尚未删，待实际小metadata判读。
 
 只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
 

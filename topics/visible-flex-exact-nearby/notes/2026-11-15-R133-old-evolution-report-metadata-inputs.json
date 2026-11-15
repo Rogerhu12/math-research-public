@@ -1,0 +1,76 @@
+{
+  "kind": "immutable_old_evolution_report_metadata_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_evolution_report_metadata.py",
+  "source_git_blob": "4dd7a5d6635a5c72205d750b9819c9175eae08f6",
+  "source_bytes": 21315,
+  "source_sha256": "c22e023d4632ae3a9feb7e0f98ebbf5c734e5dcd08f2ca72c3428f595245f6f0",
+  "restore_commit": "b9c7cde9c28a38d9d7db2ad03fcfd3835578ac6b",
+  "reports": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-evolution-r0235-n512-floating.json",
+      "git_blob": "e7fe4210bae462d8360d967534f3425c9e1756e7",
+      "bytes": 360313
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-evolution-r0235-n1024-floating.json",
+      "git_blob": "de04339caa70cc10e4c55aaf3e9ea18fdfc719b8",
+      "bytes": 360182
+    }
+  ],
+  "original_total_report_bytes": 720495,
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "reviewed_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1",
+  "scientific_computations": 0,
+  "producer_calls": 0,
+  "old_math_recomputed": 0,
+  "new_numerical_enclosures": 0,
+  "delete_any_file": false,
+  "root_deletion_decision_separate_after_complete_metadata": true,
+  "new_artifacts": 0,
+  "new_Releases": 0,
+  "new_arrays": 0,
+  "large_original_report_bodies_only_runner_temporary": true,
+  "source_uses_git_blob_sha1_and_size_before_JSON_metadata_extraction": true,
+  "complete_original_SHA256_computed_in_runner_without_producer_execution": true,
+  "complete_report_status_exception_requested_and_finished_boundary_source_and_endpoint_retained": true,
+  "all_original_failed_statuses_retained_without_success_relabel": true,
+  "metadata_complete_does_not_assert_original_report_success": true,
+  "output": "topics/visible-flex-exact-nearby/notes/old_evolution_report_metadata_ci/run-RUN_ID-RUN_ATTEMPT/actual-report-metadata.json",
+  "publication": {
+    "complete_payload_stdout_before_Git": true,
+    "complete_receipt_bytes_at_most": 30000,
+    "topic_bytes_strictly_below": 200000000,
+    "scientific_120000_reserve_not_applied_because_no_scientific_child": true,
+    "real_pull_before_read_and_publication": true,
+    "dual_README_exact_hash_check": true,
+    "new_rules_or_changed_frozen_source_fail_with_actual_diff": true,
+    "only_one_owned_tiny_metadata_file": true
+  },
+  "provenance_evidence_not_execution_inputs": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R126-Codazzi-candidate-and-diagnostics.md",
+      "git_blob": "adfe97699fa73cd9ae24d3db8837e4ec3fda7ffa",
+      "bytes": 8714,
+      "sha256": "68acb99affa62507776252d4b6b23d7199ab0442c72f4b8bb561adc50a741b30",
+      "scope": "section2: completed sampled endpoints at .235 for512 and1024, reports separate from preserved endpoint candidates; not a continuous PDE certificate"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_evolution_probe.py",
+      "git_blob": "0d3f34154e92282d3876f099585ec3c4438f92ca",
+      "bytes": 11127,
+      "sha256": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+      "scope": "producer read as text only; report JSON emitted separately from endpoint NPZ; never imported or executed here"
+    }
+  ],
+  "excluded_preserved_inputs": [
+    "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+    "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+    "notes/2026-11-13-waist-cauchy-evolution-r0235-n512-floating.json",
+    "all endpoint NPZ, exact candidate/native inputs, producer sources and dependencies"
+  ],
+  "original_nonfinite_JSON_constants_if_any_preserved_as_explicit_tagged_tokens": true
+}
