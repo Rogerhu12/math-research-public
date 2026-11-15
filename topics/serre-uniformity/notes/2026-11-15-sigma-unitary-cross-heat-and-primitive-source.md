@@ -486,6 +486,63 @@ R739 的 $p=41,h=37$ 筛内反例仍有效。
 本笔记没有证明未筛或筛后 critical 非零，没有重新计算任何有限素数窗口。
 没有将完整非整普通 sigma 模 $p$ 化，也没有从高 Hurwitz 块重新提取已登记的同核条件。
 
+### 8.1. 惰性族的中央链及其 Legendre 尺度
+
+若 $p=12k+11$，则 $N=2k+1$。原 $P^{(5)}_{FG}(P_0)$ 的最低项
+$(6B)^5z^6t^4$ 位于整数差 $d=2$ 的链。在 critical 总次数 $p-1$ 上，
+该链唯一对应
+$$
+h=(p+3)/2=6k+7,\qquad i=j=k.
+$$
+因为 $h=(p+1)/2+1$ 且 $h$ 为奇数，
+$\gcd(h,p+1)=\gcd(h,2)=1$。所以这个标签自动通过原本原筛；
+它仍需要三个独立的实际单位
+$$
+f_k,\qquad g_k,\qquad P_{(p+1)/2}(1/s).
+$$
+最低项的单位与整条链保持性本身不证明这个高项的单位。
+
+准确的 Legendre 约化是
+$$
+P_{(p+1)/2}(x)=P_{(p-3)/2}(x)\quad\text{in }\mathbb F_p[x].
+\tag{UH30}
+$$
+它由 $P_n={}_2F_1(-n,n+1;1;(1-x)/2)$ 的有限多项式公式得到：
+$n$ 与 $p-1-n$ 的两个参数模 $p$ 互换，较低次数后的系数为零。
+令 $r=(p-1)/2$，Legendre 导数公式进一步给
+$$
+P_{r-1}(x)=xP_r(x)-2(1-x^2)P_r'(x)\quad\bmod p.
+\tag{UH31}
+$$
+在原 $x=1/s$，有 $x^2=-1/3$。若用
+$\lambda=(1-x)/2$ 把 $P_r$ 写成 Legendre 曲线的 Hasse 多项式，则
+$$
+\lambda(1-\lambda)=1/3,\qquad
+j(\lambda)=
+256\frac{(1-\lambda+\lambda^2)^3}{\lambda^2(1-\lambda)^2}
+=\frac{2048}{3}.
+\tag{UH32}
+$$
+这不是原 $j=0$ 曲线。原 $B=DA(P_0)$ 的单位性不能直接用于
+(UH31) 的这个 Hasse 值或导数。
+
+在该辅助曲线实际 supersingular 的素数处，
+$P_r(x)=0$ 是单根，因而 (UH31) 确给中央 Legendre 因子非零。
+这里的简单性也可直接由 Legendre 方程证明：$x^2\ne1$，
+次数 $r<p$，一个共同零 $P_r=P_r'=0$ 将逐阶迫出全部 Taylor 系数为零。
+但原允许条件并未证明这条 $j=2048/3$ 曲线总是 supersingular，
+所以这不是全部惰性素数的中央单位定理。
+
+现有精确输出须按其真实索引使用：
+[R829](../results/R829-reused-prime47-original-critical-products.md)
+在 $p=47$ 给中央 $f_3g_3=21\ne0$，只是一项已认证的原乘积；
+该消费者没有计算中央 Legendre 因子。
+[R706](../results/R706-exact-window-through-200000-and-original-sigma-zero.md)
+在 $p=137147$ 给出的零为 $g_N=0$、$N=22857$，
+不是这里 $k=11428$ 的中央系数。
+这些已成记录既不证明、也不否定一般中央三单位命题。
+本节没有执行新的素数计算。
+
 ## 原规范依赖
 
 - 原 [R697](../results/R697-original-sigma-six-sections-and-integral-square-roots.md)：sigma-six、theta 标架、普通导数和原 CM 乘子。

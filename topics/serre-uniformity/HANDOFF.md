@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：8d9024facee93e77897116bb94523fa8e4d00078**（2026-11-15T18:58:27.109266+00:00；rules run43745726410/job132920777731真实git pull --rebase origin main，两README无diff）。root README SHA6979d793、topic35f82f3d。旧rules run43714581068达50次限额；只重跑新专用rules job，不重跑数学workflow的rules依赖。终端14:34UTC失联，根§8小文本接口回退。完整前H逐字保[此次归档](handoff-archive-2026-11-15-before-R815-projective-method.md)，内接全部前态；open完整前版在[双probe前归档](notes/2026-11-15-open-before-projective-two-probe.md)。
+**已读规则提交：c7417ce0fe65f24a45f9e421868517218ba00442**（2026-11-15T19:07:08.057508+00:00；rules run43745726410/job132923414758真实git pull --rebase origin main，两README无diff）。root README SHA6979d793、topic35f82f3d。旧rules run43714581068达50次限额；只重跑新专用rules job，不重跑数学workflow的rules依赖。终端14:34UTC失联，根§8小文本接口回退。完整前H逐字保[此次归档](handoff-archive-2026-11-15-before-R815-projective-method.md)，内接全部前态；open完整前版在[双probe前归档](notes/2026-11-15-open-before-projective-two-probe.md)。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -44,7 +44,7 @@ R775/R786至Nov16 05:52/05:41UTC，R786 index已在后载体；R790的146CM行07
 
 sigma须同一primitive/Legendre h的三原单位；R739反例/R741与R737不同密度不拼。旧R808/810、p²/Hirota/固定六维支路闭，保[K,P_T]。R826/828/830/831八原源/两G零/真实conductor-p/old6不可约直接复用。R833/834源全局非零与SS/Serre-dual识别已成，指定uP0,e/配对仍缺，不代原CM值。
 
-[新unitary交叉heat](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)1df7c782保实际三同源/原36theta/full72及原整段FG；∇=D−M−∂z∂t/6−3Xzt/2，双向Frobenius/两边/角点全保。按整数差的原Legendre×primitive权W水平，指定FG/degree p+1源等于6⁶B⁷Σ原同h项，非零仍未知。μℓ只在共同jet作用，不称原36全局稳定；FG一次横向源零，不能用全向量单位替它。
+[新unitary交叉heat](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保实际三同源/原36theta/full72及原整段FG；∇=D−M−∂z∂t/6−3Xzt/2，双向Frobenius/两边/角点全保。按整数差的原Legendre×primitive权W水平，指定FG/degree p+1源等于6⁶B⁷Σ原同h项，非零仍未知。μℓ只在共同jet作用，不称原36全局稳定；FG一次横向源零，不能用全向量单位替它。中央p12k+11/h6k+7自动primitive，但f_k/g_k/Legendre仍缺；Legendre关联j2048/3，非原j0，R706零g_N不反证中央。
 
 ordinary p43/776bitq已Gaussian5排除。[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892、[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一K_glob/Θ=i a_q、同Σ θ3/共轭k；C4除T²杯积只复现R779，无独立数值/完整晶体，Θ未知，禁巨大q枚举。
 
