@@ -15,16 +15,18 @@
 - K158=s66(s−2)12(s+6)12F+⁶F−⁶E8⁴，deg158/lc5^16为31单位；同选D真v∞130…243、deg8527…8640、q8369…8482。leading31单位仍缺，不用形式约化代整来源。
 - [零点全闭](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)：全谱1⁴,3,4³,5,6,7,8,10,11，长66；九s³tj入像/t2恰需3，965328原产品。负六P/full同谱1⁷,2,3/长12，W全入像；F±低3,3且F±²W、E8低2,2且E8W已付。W=(I²)≤5秩4212，len(W/(L∩W))=δA−δP保持全部原来源。
 - s2原P长12/谱1⁷,2,3，full真Q12…28。[完整β1,Q=7](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)已覆盖normal4/5，完整首项15，九tj modt²/九h0tj modt³有原来源；正谱1⁷,a,b仍未定。当前fullF11前三页为7,0,1/末项≥4，同原P11却为7,1,1/长12，差在完整反馈。继续第四页与全左核九目标modt5配对；field结果不自动升Q。
-- 原full∞F31长66/次大55/max11，O1834×1632的F31长149/max14，真Q尚不能取等。当前H旧下界43/39需并入已存在的真实第五left-jet53/47；该稿和原回执已重新核到，随下一独立projective结论修正。O真Q29…149。
+- 原full∞F31长66/次大55/max11，O1834×1632的F31长149/max14，真Q尚不能取等。[真第五left-jet](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)已经付53/47：真full∞53…66、次大47…55、max≤19，δA_I,Q55…68；近期43/39是摘要漏记，已纠正。O真Q29…149。
 - [原真Q十三核投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)λ_I=2/十二单位；Q(u)核全部Z_(31)[[u]]整、freeI、80444原产品。精确式vdetB=δfull+2+σO+δhigh；F31为243=66+2+149+26，Q三项等号仍缺，leading单位必要δhigh,Q≥26。
 - [216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)：原1632 Koszul常子式mod31=15，故[Φ_H,E216]整可逆；SE27×216泛秩14、核202。两DVR同秩不保证共同整基。
 - [完整原高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)实际付源19406948/外左7252608原产品、两freeI、194单位及正谱1³,2,4,5²,7（长26/max7）。两精确列证明模块身份和原21消去界，第7阶已全退出。八自由坐标只标完整向量，下一步是真Q源映射；不搬F31图。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)有十七式明确来源，弱列阶降一；所有其余二次项/共动反馈保留。正常pencil非幂零，不能普适有限Neumann倒置。
 
+- [完整射影确定因子与额外乘子](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)将同原仿射F31长315与自然∞长66合为381次射影gcd上界。重新核到旧真Q第五延拓已付∞53/次大47，故Δ=t53K158^hR_h，degR_h≤170、degΔaff≤328，且同一个非零R使全部九Rh0tj进入原十七式/乘子次数≤3来源，deg(Rh0)≤194；R系数、原h0成员性与来源费仍未付。同步收紧真full∞为53…66、次大47…55、max≤19、δA_I为55…68。
+
 ## 活跃实际执行与恢复
 
 - run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull读两规则。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json；7历史输入、216、full32/O35、两正规202、完整运输及P11均已实付。工作大数组只在本job临时目录，约20:14结束前需继续增量或按需恢复；不以时限结束研究。
-- full32/O35各66旧文件全部比对，独立支付loss11/14；完整高商16.187683781秒。原s2第一4.541098008秒、三阶5.351822671秒、P11诊断0.954176738秒；下一第四阶复用同4345单位DAG和L1/L2/L3，仅新增A4/L4及全Toeplitz配对。
+- full32/O35各66旧文件全部比对，独立支付loss11/14；完整高商16.187683781秒。原s2第一4.541098008秒、三阶5.351822671秒、P11诊断0.954176738秒；已排two-full-original-schur-four-and-targets-field11（180秒/2GiB），复用同4345单位DAG和L1/L2/L3，仅新增A4/L4，再以7372×88完整Toeplitz核付全部九h0模t5配对；执行前不预填谱。
 - 旧43731615668/43731613530/43736746064/43702348535皆已结束，旧tmp不假用。必要恢复按原源码/原参数重建并逐hash核；全部回执与历史输入manifest在前H归档链。当前normal代理补真Q∞第五incoming，literature代理核s2第四与真Q第二，boundary代理继续实际混合返回。
 
 ## 原同w边界：缺陷已付，完整返回继续

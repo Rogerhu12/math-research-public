@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "a0f9e573e761a9640132ac6261a3f7175c3774d9",
+  "rulesReadAtCommit": "29fedf2d7f2c5f280b197df959ab9de6419134c3",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -487,6 +487,83 @@
       ],
       "timeoutSeconds": 60,
       "receiptPath": "{work}/two-projected-field11-diagnostic/two-same-original-projected-field11-diagnostic-receipt.json"
+    },
+    {
+      "id": "two-full-original-schur-four-and-targets-field11",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-schur-four-and-targets-field11-789f.py",
+      "scriptSHA256": "666ce92cbeccbf16ad7205c722c842d34cf079d9bd438c7ffc3e5321a5692e39",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-first-connection-field11-789f.py",
+          "sha256": "5033e098f01b7daf0b64e2c15291935c972c2459e1dc338c14887fdfde238e7c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-first-connection-field11-native-789f.cpp",
+          "sha256": "f2e5bf564781eb7dabce1a9c7c277389af65410b2f91adee996fc4274fa7df76"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-two-coefficients-through-four-789f.py",
+          "sha256": "7b0ec2814a716e236d2dce048d0c8b1b6cea6bca8400e54d846b8e403aa1b7b9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-schur-four-reused-native-789f.cpp",
+          "sha256": "dddffc59c5ab8f9fea24954d4e53c3fe30d5a706313c081c8e38cd3fd09c8699"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-two-full-original-first-connection-field11.json",
+          "sha256": "aebdd169ec950f7eb4c17b7e9ac4dc30ecb205dfc6a2d9476af9d4d03ebc9d3a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-two-full-original-schur-through-three-field11.json",
+          "sha256": "0d721310db73560427a1c14a59c08853387c9761e117cb0dcaf24951b9aa2ac8"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43729338969-two-original-projected-order4.json",
+          "sha256": "693da6446a6f04cba2c343ea49d9d3466caad1aebd056e91db338163b20d3332"
+        }
+      ],
+      "argv": [
+        "--first-driver",
+        "{scripts}/2026-11-15-r150-two-full-original-first-connection-field11-789f.py",
+        "--first-native-source",
+        "{scripts}/2026-11-15-r150-two-full-original-first-connection-field11-native-789f.cpp",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--two-four-generator",
+        "{scripts}/2026-11-15-r150-original-comoving-two-coefficients-through-four-789f.py",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-two-full-original-schur-four-reused-native-789f.cpp",
+        "--first-receipt",
+        "{scripts}/43740928483-two-full-original-first-connection-field11.json",
+        "--parent-receipt",
+        "{scripts}/43740928483-two-full-original-schur-through-three-field11.json",
+        "--projection-receipt",
+        "{scripts}/43729338969-two-original-projected-order4.json",
+        "--first-checkpoint-dir",
+        "{work}/two-full-first-field11",
+        "--parent-checkpoint-dir",
+        "{work}/two-full-schur-three",
+        "--checkpoint-dir",
+        "{work}/two-full-schur-four",
+        "--out",
+        "{work}/two-full-schur-four-out",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/two-full-schur-four-out/two-full-original-schur-four-and-targets-field11-receipt.json"
     }
   ],
   "previousSession": {
@@ -496,5 +573,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Complete original high quotient executed:194 units and positive spectrum1,1,1,2,4,5,5,7, length26/max7, all original transports/products verified. s=2 field11 full through3 has1^7,3 and one unresolved direction; inspect same actual projected155 coordinates before choosing further full computation. Q high/source-flat and target-local questions remain open."
+  "mathematicalProgramStatus": "Complete original high quotient F31:194 units and positive1,1,1,2,4,5,5,7; Q source flatness remains open. s2 full field11 through3:1^7,3 and last>=4; same actual projected P11:1^7,2,3. Add exactly new fourth coefficient/22-column unit solve using all paid L1/L2/L3, then complete original truncated left-kernel pairing of all9 h0 targets. No field pairing is promoted to Q membership."
 }
