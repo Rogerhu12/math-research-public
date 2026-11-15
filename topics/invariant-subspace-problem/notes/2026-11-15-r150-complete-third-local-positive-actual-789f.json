@@ -1,0 +1,299 @@
+{
+  "format": "r150-complete-third-local-positive-actual-v1",
+  "mathematicalRun": 43664532571,
+  "mathematicalJob": 132660882060,
+  "sourceCommit": "39c27f127fa63240629ecb60fe8e13628fee631f",
+  "pipeline": {
+    "format": "r150-saturated-third-page-continuous-source-v1",
+    "status": "completed",
+    "prime": 31,
+    "nativeModulus": 887503681,
+    "targetMultiplier": "31^2*h0",
+    "targetLabels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "originalS2EnvelopeComplete": true,
+    "oldSecondPageRecomputed": false,
+    "oldQ1Q2Q3Recomputed": false,
+    "allTrueOriginalThirdSourcesComputed": true,
+    "completeRelevantSaturatedSecondImageReused": true,
+    "completeRelevantSaturatedThirdImageComputed": true,
+    "completeOriginalS2SourceCoverageRetained": true,
+    "globalAllOriginalSourceMod31SixObstructionVerified": false,
+    "globalAllOriginalSourceMod31SixDecisionComputed": false,
+    "characteristicZeroIdentityAsserted": false,
+    "allCompatibleTargetsOriginalIdentityVerified": false,
+    "fullOriginalAllNineMod887503681IdentityVerified": false,
+    "finitePositiveSourceBudgetsVerified": false,
+    "finite_budget_verified": false,
+    "individualTargetCompatible": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "compatibleTargetLabels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "originalMod31SixObstructedTargetLabels": [],
+    "completedOriginalTargetLabels": [],
+    "actualFinalSourceCostsBySlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "sharedMathematicalSecondsLimit": 300,
+    "perChildAddressSpaceMiBLimit": 512,
+    "perCompilationSecondsLimit": 30,
+    "nativeCompilations": 4,
+    "localRoot": 2,
+    "precisionChain": [
+      10,
+      5
+    ],
+    "deadlineRule": "Four unchanged native compilations precede one shared mathematical deadline. Reuse the actual completed second sources; compute only their complete next kernel, q4, and original p5 products. Save real source arrays, original product prefixes and every stage cache. Lossless compression level1 follows the mathematical clock.",
+    "gzipCompressionLevel": 1,
+    "inputContractSHA256": "b83fed83760597dc2bd2fcf3390640fb41f48a9dbca58a24778ed97c74c1b9ae",
+    "nativeDataLineageBindingSHA256": "ba82a176631a4534a75bc725855276a72155b10afbe8e0820ef0ae59c7224300",
+    "localInputBindingSHA256": "b9ee33dae8c004c2d727198370239418865aa7427dad1b33d979a2f550920830",
+    "mathematicalElapsedSeconds": 91.02076550599998,
+    "thirdSourceCount": 208,
+    "incomingSecondRank": 4,
+    "thirdImageRank": 2,
+    "outcome": "third-page-all-local-compatible-global-continuation-required",
+    "continuationRequired": "For every locally compatible target restore the selected global original sources and complete all17 identities. A complete negative concerns this original p2h0 modulo p6; the characteristic-zero R150 goal remains open.",
+    "packagingStatus": "completed",
+    "packagingBinaryFiles": 144,
+    "packagingUncompressedBytes": 440293425,
+    "packagingElapsedSeconds": 7.0755313320000255,
+    "recoveryFiles": 197,
+    "recoveryBytes": 440770011,
+    "losslessGeneratedBinaryFiles": 144
+  },
+  "stages": {
+    "saved-entire-third-source-preparation": {
+      "status": "completed",
+      "elapsedSeconds": 0.8654056729999979,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "true-third-M4-corrected-ten": {
+      "status": "completed",
+      "elapsedSeconds": 3.4072705479999854,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "third-q4-normal-ten": {
+      "status": "completed",
+      "elapsedSeconds": 17.936867441999993,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "third-q4-complete-ten": {
+      "status": "completed",
+      "elapsedSeconds": 36.12049926899999,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "third-q4-ten-vq": {
+      "status": "completed",
+      "elapsedSeconds": 5.102291502000014,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "third-q4-ten-original": {
+      "status": "completed",
+      "elapsedSeconds": 12.203587362000007,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "all-genuine-third-sources": {
+      "status": "completed",
+      "elapsedSeconds": 2.0591190270000084,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "all-third-local-state": {
+      "status": "completed",
+      "elapsedSeconds": 11.066766653000002,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    },
+    "complete-saturated-third-page": {
+      "status": "completed",
+      "elapsedSeconds": 0.8397118440000213,
+      "reusedCompletedActualStage": null,
+      "exitCode": 0
+    }
+  },
+  "selectedRecovery": [
+    {
+      "file": "all-genuine-third-sources/all-genuine-third-sources-original6188-integer-jets.bin",
+      "bytes": 51577700,
+      "sha256": "95a5a1ae8e48a71f803f92db355e3dfe0dc0b8dfb360901a755a5b9867b62f5c"
+    },
+    {
+      "file": "complete-third/complete-saturated-third-page-receipt.json",
+      "bytes": 17757,
+      "sha256": "3bb98210ccf8a7941f2a9a71c0d8d1a5fc8c0e11891c26d0e76d8079fa413619"
+    },
+    {
+      "file": "complete-third/complete-saturated-third.bin.gz",
+      "bytes": 70591,
+      "sha256": "786333a4baa562a15e38666a31207e3ce0179e03a0e9505da2d6a4cc5fbe7c2c"
+    },
+    {
+      "file": "prepared-third/prepared-saturated-third-receipt.json",
+      "bytes": 273461,
+      "sha256": "2f719b403ffa9a0c592524606392831479cc2bd39c49fc0eb9176fae21eb6c1e"
+    },
+    {
+      "file": "prepared-third/prepared-saturated-third.bin.gz",
+      "bytes": 51557,
+      "sha256": "52fb3260fc139f662b71d583a35837f0e243b11708f50214524ad45bf5e2760b"
+    },
+    {
+      "file": "prepared-third/third-q4-root2-ten.spec",
+      "bytes": 1286,
+      "sha256": "8f5e6b405386784f2c6c86f02237730c9212e5254c15b1a4e70132e3d641627f"
+    },
+    {
+      "file": "prepared-third/third-state-crt8.spec",
+      "bytes": 1286,
+      "sha256": "f1ff0f357e5056891fd0a144ff32d4b2b607f48ed0140aa7a161325d6151c0fa"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 14141826650,
+      "name": "isp-r150-saturated-third-page-results-43664532571-1",
+      "bytes": 224982858,
+      "digest": "sha256:e9f0b00a28ea9d0e52de3cde46cd9cc2d964ed2dc5f50dc31b573ee8d1668e53"
+    },
+    {
+      "id": 14141792172,
+      "name": "isp-r150-saturated-third-page-publication-43664532571-1",
+      "bytes": 17079,
+      "digest": "sha256:c8cb0de1424fac1e2ca9b5f3f0c0411b2beeccf0ceadb03986fad833dfa97165"
+    },
+    {
+      "id": 14141428008,
+      "name": "isp-r150-saturated-third-page-recovery-43664532571-1",
+      "bytes": 222409603,
+      "digest": "sha256:c76693e0c3502c12e9074aadcba395198762e0fb7d3effaac1105892aa84fe84"
+    }
+  ],
+  "selectedThirdSources": [
+    {
+      "index": 10,
+      "label": 20011,
+      "coefficients": [
+        [
+          1
+        ],
+        [
+          28
+        ],
+        [
+          16
+        ],
+        [
+          11
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          11
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "label": 20012,
+      "coefficients": [
+        [
+          16
+        ],
+        [
+          14
+        ],
+        [
+          8
+        ],
+        [
+          21
+        ],
+        [
+          19
+        ],
+        [
+          19
+        ],
+        [
+          2
+        ],
+        [
+          16
+        ],
+        [
+          21
+        ]
+      ]
+    }
+  ],
+  "thirdSourcePolynomialsAreConstant": true,
+  "originalGlobalIdentityVerified": false,
+  "characteristicZeroIdentityVerified": false,
+  "initialPublication": {
+    "status": "failed-before-main-push",
+    "reason": "unique data branch push timed out after 180 seconds",
+    "dataBranch": "isp-789f-data-43664532571-1-a09650e03375",
+    "dataCommitPrepared": "a09650e033757f0cb774ad21a00fe69189cd6345",
+    "lastRulesReadCommit": "4a2824deaf68a6fd1a55ae464aa87737956a42f7",
+    "allRecoveryFilesPreserved": true,
+    "actualMainPushCount": 0
+  },
+  "publicationOnlyRecovery": {
+    "mathematicsRerun": false,
+    "pushTimeoutSeconds": 900,
+    "gitPackWindow": 0,
+    "gitPackDepth": 0
+  }
+}
