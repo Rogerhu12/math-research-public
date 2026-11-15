@@ -5,7 +5,7 @@ The polynomial V is the proved original source in R816, not an output cache.
 """
 from fractions import Fraction as Q
 from math import gcd as igcd
-from flint import fmpq_poly
+from flint import fmpq_poly, fmpq
 import json
 
 def tr(a):
@@ -53,7 +53,7 @@ def val(a,b):
     return r
 def enc(a):return [str(x) for x in a]
 def factor(a):
-    c,fs=fmpq_poly([str(x) for x in a]).factor()
+    c,fs=fmpq_poly([fmpq(x.numerator,x.denominator) for x in a]).factor()
     out=[{"polynomial": [str(f[i]) for i in range(f.degree()+1)],
           "multiplicity":n} for f,n in fs]
     return {"constant":str(c),"factors":out}
