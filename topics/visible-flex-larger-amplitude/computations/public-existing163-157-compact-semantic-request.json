@@ -4,8 +4,8 @@
   "repository": "Rogerhu12/math-research-public",
   "reader": {
     "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing163_157_compact_semantic_readback.py",
-    "bytes": 57407,
-    "sha256": "aa37ae1295e24eaa2d98edf396f933a1291444bdfcb1ddb6879f484fd8b3d042"
+    "bytes": 56910,
+    "sha256": "45f4e3cfb710408e5069aa1e43cc734bce29ade602675456df5caa69aadb382a"
   },
   "helper": {
     "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py",
@@ -380,9 +380,9 @@
     "missing_GN_solution_requires_original_reason_or_exception": true,
     "one_scientific_conclusion_only": true,
     "maximum_summary_bytes": 90000,
-    "FD_output": "Original level scalar maxima/flags, all actual failed/exception checks and exact indexes; when a level records no maximum, retain its nine original scalar errors without recomputing a maximum",
-    "all8_outer_output": "Original full nine-gradient/selected directions/actions/slopes, stopping/failure fields and terminal gradients; large origin J/H and other terminal K/H identities only",
-    "all84_trial_output": "Complete original alpha/gate/Armijo/merit/three-residual/reason/normal-scalar rows, original accepted parameter words; no giant trajectory transport",
+    "FD_output": "18 original maxima/flags in a literal column table plus every true failed/exception check; no large successful perturbation data",
+    "all8_outer_output": "One original nine-gradient, actual labelled path direction/action/slope and terminal gradient per outer; no repeated full path_status, relative coordinates or generic GN scalar trees",
+    "all84_trial_output": "All original alpha/gates/Armijo/merit/three-residual/reason/normal scalar rows; model prediction only at actual accepted points; no duplicate per-trial path vectors",
     "optional_last_terminal_matrix_subset": "One actual last 3x9K/9g/9x9H and GN/QR small arrays; if whole summary exceeds90KB, explicitly replace this optional subset by identity-only scope",
     "no_key_dictionary_scalar_encoding_tensor_references_or_large_table_parts": true,
     "whole807621_byte_prior_selected_set_not_transmitted_or_claimed_root_read": true,
@@ -417,5 +417,23 @@
     "actual_index_sha256": "c3b85e519242b1afa67e396c7500062da2953f5749e2bb82d177d2500eb5ab4f",
     "policy": "Reduce transmitted scientific scope to one original-word conclusion; do not encode/split large data through tools",
     "original_scientific_sources_and_results_changed": false
+  },
+  "single_summary_scope_revision": {
+    "actual_run_id": 43736840046,
+    "read_job_id": 132881204950,
+    "report_job_id": 132881284886,
+    "source_commit": "0b0cf5ce9e10f16bac3fc7b8b4179edff9479368",
+    "actual_failure": "Single scientific conclusion still exceeds90000bytes",
+    "bytes_after_optional_matrix_removed": 165947,
+    "original_failure_summary_bytes": 2676,
+    "original_failure_summary_sha256": "b53fe15eb2aca9fe2d1a330a1aac7ddebc26b9ebea006646645f8174fb48a680",
+    "field_sizes": {
+      "outer_models": 58600,
+      "physical_trials": 51502,
+      "initial_and_final": 16545,
+      "FD": 11355
+    },
+    "change": "Explicit scalar whitelists and one copy of each actual path vector; omit duplicated provenance/projection/GN trees; no encoding or large-table splitting",
+    "scientific_sources_changed": false
   }
 }

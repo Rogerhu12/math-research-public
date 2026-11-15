@@ -8,13 +8,13 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，按根8用官方集成小文本。API复核 2026-11-15 16:51:37 UTC 已读 bb09d0386fb2711ba9ccd468c6b9f33e4b81f920，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 16:52:06 UTC 已读 a9ec6c1419f44f81065e88d784522ad01412a08a，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
 完成须固定g、连通闭C²嵌入、全t强C²族；固定有内点H且diamH≥.2D，整像Hausdorff δhold≥.2D，含反射δE>0，全t reach≥.03D，全域相对metric算子≤1e−6，D取完整闭F0。冻结g/全p/尾帽/t后精化网格、M、tailsteps/角度至机器或原solver容差；多个<5MB网格按raw规则再生，说明严格存在缺口，继续加强比例。
 
-原M112/T112/N2048、699节点、453态/236036自由度、三active/109自由core、全physical/H/C/B/outside/域/尾保留；每模型fresh W/J，不能跨模型减merit或以T96/零H/低三代全系统。**只有M96开放前缀被接受，无闭合非零场。**
+原M112/T112/N2048、699×453/236036、3active/109自由core及全physical/H/C/B/outside/域/尾保；每模型fresh W/J、禁止跨模型减merit或降系统。**仅M96开放前缀接受，无闭合非零场。**
 
 ## 实际运行及唯一读回责任
 
@@ -29,7 +29,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复�
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：原α1/8接受/FD过，后置R334绑定失败0/75776；原实际总control calls未导出，不能倒填166的74。原raw已清，完整范围见原文。
 
-163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)两跑43735131654/43735578724分别编码/807621B选集超限；后者核490组/14095 metadata。新sourceaa37ae12/requestaeefe7af，只单份≤90KB真正结论：Actions全读，root看原FD层/8方向/84trial必要标量和可选一个terminal矩阵；大J/H只身份，禁编码拆传，amplitude唯一R350并续R351/164。
+163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)三次实际编码/选集807621B/单结论165947B超限均保；490组/14095项已核。新source45f4e3cf/requestb242e3ff：只一份≤90KB原FD层/8真实方向/84trial必要标量，可选末矩阵；大表留Actions，禁编码拆传。amplitude唯一实际R350，并行164。
 
 ## 完整native路径：145、155、160、161
 

@@ -254,3 +254,5 @@
 - [R351完整七状态伴随helper实现接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)：原698cell七状态/三ratio全变分、112终端与三列反传，保r/mid/sqrt/direct q/start及全部行；真实新shape独立来源与完整112动作。源12a95d40已发，未运行数值或冒准确导数/rank证书，164继续真实扩展族。
 
 - [R343：实际145当前正H五次完整R273方向与原十试步停止](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：零H过，首正s1/64四接受后末十残差拒；全19trial/五129248行形成账/实际来源与清理范围齐。0DSA、非预算止；保存模型约.208不冒真实映射导数或非零场接受，final链未启动。
+
+- [Request167第三次实际超限与必要原标量单份减重](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md#7-实际单份版本仍超限后的精确减重)：43736840046完整原组/metadata已读，结论165947B真实失败；新45f4e3cf/b242e3ff只去重复树，保原FD层、8方向及84trial责任，禁大数据编码拆传，实际新结果未预填。

@@ -145,3 +145,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 16:51:37 UTC /root — R343正H完整系统实际结论
 
 完整读R343 15580B/e8e5f09a后即发：145五fresh J/R273、四接受、末十残差拒/0DSA，形成账与真实noJ分责，未预填FD/final。下一步支付同一正H方向映射差距，171独立推进。API核bb09d0386fb2711ba9ccd468c6b9f33e4b81f920双README未变，真pull记录保留。
+
+## 2026-11-15 16:52:06 UTC /root — 167单结论去重复字段
+
+核全32440B修订diff后发45f4e3cf/b242e3ff/7e74b26b；第三跑单结论165947B失败原记，删重复树保18FD层/8真实方向/84原trial，数值不重算、大表不传。另确认R351 helper已于69acabba提交。改.github对应workflow绑定，API核a9ec6c1419f44f81065e88d784522ad01412a08a双README未变，真pull保。

@@ -596,12 +596,7 @@ class ReadSemantic:
 
 
 def compact_scientific_readout(selector):
-    """One actual semantic conclusion, not an encoded reconstruction of data.
-
-    All full original groups have already been parsed and the required shapes
-    checked. This returns selected original fields only; omitted large arrays
-    remain explicitly identity-only. No new numeric statistic is evaluated.
-    """
+    """One original-word conclusion; deliberately not the full selected data."""
     by_name={row["name"]:row for row in selector.sections}
     def value(name):
         if name not in by_name:
@@ -610,169 +605,160 @@ def compact_scientific_readout(selector):
     def fields(name):
         item=value(name)
         return item.get("original_fields",item) if isinstance(item,dict) else item
+    comparison=selector.original_receipt["actual154_recorded_literal_comparison"]
+    flags={key:item for key,item in selector.top_scalars.items()
+           if isinstance(item,bool) or item is None or key in (
+               "schema","search_stop_reason","phase","stop_reason","exception","error",
+               "current_original_three_equation_merit","final_original_three_equation_merit",
+               "final_relative_trust_radius","decimal_digits","last_completed_stage")}
     answer=dict(schema=SCHEMA+"-single-scientific-conclusion",
-        all_full_original_groups_read_inside_Actions=True,
-        all_original_large_selected_fields_transmitted=False,
-        complete_large_J_H_FD_and_internal_tables_independently_read_by_root=False,
-        original_selected807621_bytes_not_claimed_read_or_reconstructed=True,
-        no_dictionary_reference_binary_or_chunked_large_data_transport=True,
-        source_scope="Original words selected from successful163; no157 science or derivatives rerun",
-        original_status_and_view_identity=selected(selector.original_receipt,(
-            "original_status","complete_scalar_view","complete_primary","original_chain",
-            "actual154_recorded_literal_comparison")),
+        scope=dict(all490_original_groups_read_inside_Actions=True,
+            all_original162_FD_checks_and_required_matrix_shapes_read_inside_Actions=True,
+            all_large_original_data_transmitted=False,
+            complete_large_J_H_FD_and_internal_tables_independently_read_by_root=False,
+            original807621B_selection_not_transmitted_or_reconstructed=True,
+            no_dictionary_binary_encoding_or_large_data_partition=True),
+        original_identity=selected(selector.original_receipt,(
+            "original_status","complete_scalar_view","complete_primary","original_chain")),
         original_input_sha256=value("original-input_sha256"),
-        literal_model_binding=value("original-literal_model_binding"),
-        original_consumed_source_identity=ident(value("original-consumed_source_sha256")),
-        original_consumed_source_count=len(value("original-consumed_source_sha256")),
-        original_all_top_scalar_fields=selector.top_scalars,
+        literal_binding_identity=ident(value("original-literal_model_binding")),
+        original154_to157_comparison=dict(original_identity=ident(comparison),
+            original_binding_fields=primitives(comparison),
+            recorded_arrays=[selected(x,("name","exact_recorded_descriptors_equal"))
+                             for x in comparison["recorded_arrays"]],
+            recorded_scalar_fields={name:row["exact_recorded_words_equal"]
+                                    for name,row in comparison["recorded_scalar_fields"].items()}),
+        original_source_closure=dict(identity=ident(value("original-consumed_source_sha256")),
+                                     count=len(value("original-consumed_source_sha256"))),
+        original_flags_and_stop=flags,
+        all_top_scalar_fields_identity=ident(selector.top_scalars),
         complete_domain_projection=value("complete_scalar_domain_at_binary64_projection"),
         complete_circle_projection=value("original_complete_circle_check_at_binary64_projection"),
-        original_chain_scalar_fields=primitives(selector.chain),
-        original_complete_chain_identity=ident(selector.chain),
+        complete_original_chain_identity=ident(selector.chain),
         complete_original_error_rows=value("all-original-error-rows"),
-        FD=[],initial_and_final={},outer_models=[],physical_trials=[])
-    state_keys=(
-        "parameters","unweighted_full3_merit","low_equations_used","unit_diagonal_defects",
-        "forward_primal_equation_words_equal_to_real_state","terminal_Robin_terms",
-        "scalar_node_and_mid_minimum_radius","source_circle_node_and_mid_minimum_radius",
-        "source_circle_node_and_mid_minimum_beta2","radius_cell_denominator_minimum_absolute",
-        "high_right_leak_max","high_free_core_Schur_elimination_computed",
-        "high_mode_nonresonance_proved","same_literal_coefficient_model_not_reformed_continuous_metric",
-        "raw_original_table_accuracy_not_certified","derivative_accuracy_or_exact_rank_not_certified")
+        initial_and_final={},FD_levels=[],FD_failures=[],outer_models=[],physical_trials=[])
     for phase in ("initial","final"):
         state=fields(phase+"-persistent-state")
         projection=value(phase+"-binary64-projection")
-        description=projection["description"]["original_fields"]
-        curvature=fields(phase+"_ambient_curvature")
-        answer["initial_and_final"][phase]=dict(original_fields=selected(state,state_keys),
-            selected_persistent_state_fields_identity=ident(state),
-            full112_residual_identity=ident(state["complete_first_order_right_residual"]),
-            full112_native_height_identity=ident(state["complete_first_order_native_height"]),
-            complete_three_by_nine_forward_response_identity=ident(state["complete_three_by_nine_forward_response"]),
-            original_binary64_projection=projection["projection"],
-            binary64_original_fields=selected(description,(
-                "parameters","low_equations_used","unit_diagonal_defects","singular_values",
-                "first_three_column_singular_values","old_four_column_singular_values",
-                "old_six_column_singular_values","numerical_parameter_condition",
-                "high_right_leak_max","source_circle_node_and_mid_minimum_beta2",
-                "scalar_node_and_mid_minimum_radius","numerical_singular_values_are_not_a_transversality_proof")),
-            original_second_J_minus_first_J=value("original-"+phase+"_second_J_minus_first_J"),
-            complete_ambient_J_identity=ident(curvature["complete_three_by_nine_J"]),
-            complete_ambient_H_identity=ident(curvature["complete_three_by_nine_by_nine_H"]),
-            matrices_only_identity_covered_here=True)
+        desc=projection["description"]["original_fields"]
+        robin=state.get("terminal_Robin_terms",[])
+        answer["initial_and_final"][phase]=dict(
+            original_fields=selected(state,(
+                "parameters","unweighted_full3_merit","low_equations_used","unit_diagonal_defects",
+                "forward_primal_equation_words_equal_to_real_state",
+                "scalar_node_and_mid_minimum_radius","source_circle_node_and_mid_minimum_radius",
+                "source_circle_node_and_mid_minimum_beta2","radius_cell_denominator_minimum_absolute",
+                "high_right_leak_max")),
+            Robin_columns=["mode","Robin_first_term","Robin_second_term","actual_unit_subtraction","unsigned_term_sum"],
+            Robin_rows=[[row.get(key) for key in ("mode","Robin_first_term","Robin_second_term",
+                         "actual_unit_subtraction","unsigned_term_sum")] for row in robin],
+            original_binary64_parameters=projection["projection"].get("actual_binary64_parameters"),
+            original_binary64_fields=selected(desc,(
+                "low_equations_used","unit_diagonal_defects","singular_values",
+                "first_three_column_singular_values","numerical_parameter_condition")),
+            full_projection_identity=ident(projection),
+            complete112_right_identity=ident(state["complete_first_order_right_residual"]),
+            original_axis_J_identity=ident(state["complete_three_by_nine_forward_response"]),
+            original_second_J_minus_first_J=value("original-"+phase+"_second_J_minus_first_J"))
     fd_names=("initial-persistent-first-FD","final-persistent-first-FD",
         "initial-binary64-first-FD","final-binary64-first-FD",
         "initial_second_axis_difference_checks","final_second_axis_difference_checks")
+    answer["FD_columns"]=["collection","level","step","valid","attempted_field","attempted",
+                         "checked_field","checked","original_maximum_relative_error","check_count","original_level_sha256"]
     check_keys=("column","parameter","step","actual_step","valid","attempted","complete",
-        "relative_error","exception","error","traceback")
+                "relative_error","exception","error","traceback")
     for name in fd_names:
-        for level_index in range(3):
-            record=value(name+"-level-"+str(level_index))
-            level=record["original_level_fields"]
-            checks=record["checks_by_parameter"]
-            failed=[]
-            for index,row in enumerate(checks):
+        for li in range(3):
+            record=value(name+"-level-"+str(li))
+            level=record["original_level_fields"];checks=record["checks_by_parameter"]
+            ak="all_nine_axes_attempted" if "all_nine_axes_attempted" in level else "all_nine_columns_attempted"
+            ck="all_nine_axes_checked" if "all_nine_axes_checked" in level else "all_nine_columns_checked"
+            answer["FD_levels"].append([name,li,level.get("step"),level.get("valid"),
+                ak,level.get(ak),ck,level.get(ck),level.get("maximum_relative_error"),
+                len(checks),record["complete_original_level_identity"]["sha256"]])
+            for ci,row in enumerate(checks):
                 if (row.get("valid") is False or row.get("complete") is False
                         or row.get("attempted") is False
                         or any(row.get(key) is not None for key in ("exception","error","traceback"))):
-                    failed.append(dict(check_index=index,original_fields=selected(row,check_keys),
+                    answer["FD_failures"].append(dict(collection=name,level=li,check=ci,
+                        original_fields=selected(row,check_keys),
                         complete_original_check_identity=row["complete_original_check_identity"]))
-            meta=primitives(level)
-            item=dict(collection=name,level_index=level_index,
-                original_level_scalar_fields=meta,
-                original_check_count=len(checks),
-                complete_original_failed_or_exception_checks=failed,
-                original_level_identity=record["complete_original_level_identity"],
-                original_maximum_not_recomputed=True,
-                large_perturbation_and_difference_tables_not_transmitted=True)
             if "maximum_relative_error" not in level:
-                item["all_original_check_scalar_fields_because_level_has_no_original_maximum"]=[
-                    selected(row,check_keys) for row in checks]
-            answer["FD"].append(item)
-    model_keys=("path","physical_path","origin_merit","original_relative_radius",
-        "original_formed_relative_gradient","complete_finite_model_points_evaluated",
-        "model_optimizer_completed","model_stop_reason","unvisited_model_update_indices",
-        "selected_global_candidate","selected_model_reference","selected_full_three_model_residual",
-        "selected_model_merit","selected_model_predicted_reduction",
-        "actual_relative_direction","actual_nine_parameter_direction","scaled_direction_L2",
-        "actual_direct_full3_action","formed_axis_action","direct_minus_formed_axis_action","actual_full3_slope",
-        "selected_model_point_not_an_accepted_physical_point",
-        "finite_model_minimization_not_a_global_optimality_certificate")
-    fallback_keys=("actual_nine_parameter_direction","scaled_direction_L2",
-        "actual_direct_full3_action","actual_full3_slope","original_unweighted_full3_slope",
-        "positive_damping_mu","damping_mu","chosen_damping","chosen_damping_mu",
-        "singular_value_truncation","all_nine_columns_retained","weak_columns_not_discarded")
-    terminal_keys=("index","current_relative_point","local_step_radius","complete",
-        "full_three_model_residual","full_three_model_merit","complete_nine_model_gradient",
-        "full_model_gradient_norm","selected_candidate","selected_model_trial","selected_model_merit",
-        "reason","unvisited_candidate_indices","original_GN_QR_solve_recorded","original_GN_no_solution_reason")
+                answer.setdefault("FD_original_scalar_checks_where_no_max_was_recorded",[]).append(
+                    dict(collection=name,level=li,rows=[selected(row,check_keys) for row in checks]))
+    answer["FD_scope"]="All162 checks parsed; print18 original level maxima/flags and every original failed/exception check. Large perturbation/difference tables remain identity-only; no maximum or error recomputed."
     trial_keys=("trial_index","alpha","accepted","original_Armijo_bound","actual_merit",
-        "actual_unit_equations","actual_path_model_predicted_reduction","reason","exception",
-        "normal_stop_reason","normal_target_met","normal_returned_constraint_error",
-        "normal_selected_sample","normal_attempts","normal_returns","normal_domain_failures",
-        "normal_iteration_count","normal_internal_trial_count","normal_same_trace_sample_count")
-    all_trial_columns=list(TRIAL_COLUMNS)+["normal_terminal_original_fields","original_primary_prediction"]
-    indices=[all_trial_columns.index(key) for key in trial_keys]
+        "actual_unit_equations","reason","exception","normal_stop_reason","normal_target_met",
+        "normal_returned_constraint_error","normal_selected_sample","normal_attempts",
+        "normal_returns","normal_domain_failures","normal_iteration_count",
+        "normal_internal_trial_count","normal_same_trace_sample_count")
+    columns=list(TRIAL_COLUMNS)+["normal_terminal_original_fields","original_primary_prediction"]
+    indices=[columns.index(key) for key in trial_keys]
     for i in range(8):
-        original=selector.outer[i]
-        dm=original["direction_model"]["original_fields"]
+        original=selector.outer[i];dm=original["direction_model"]["original_fields"]
         terminal=selector.terminals[i]
         gn=terminal["complete_residual_GN_preconditioner"]["original_fields"]
-        item=dict(outer=i,origin=selected(original,(
-                "iteration","residual","merit_before","relative_radius","accepted",
-                "accepted_path","path_status","radius_update","reason")),
-            direction=selected(dm,model_keys),
-            origin_complete_J_identity=ident(dm["complete_three_by_nine_J"]),
-            origin_complete_H_identity=ident(dm["complete_three_by_nine_by_nine_H"]),
-            origin_pilot_J_identity=ident(dm["original_first_forward_axis_J"]),
-            terminal=selected(terminal,terminal_keys),
-            terminal_complete_K_identity=ident(terminal["complete_three_by_nine_model_J"]),
-            terminal_complete_H_identity=ident(terminal["complete_nine_by_nine_model_Hessian"]),
-            terminal_original_GN_fields=primitives(gn),
-            selected_original_outer_fields_identity=ident(original),
-            complete_original_terminal_identity=value("outer-"+str(i)+"-last-internal-model")["complete_original_terminal_identity"])
+        paths=[]
+        for path,record in original.get("path_status",{}).items():
+            paths.append(dict(path=path,original_fields=selected(record,(
+                "started","trial_count","stop_reason","reason","direction_model_error",
+                "unvisited_trial_indices","actual_full3_slope","actual_direction","actual_direct_response"))))
+        item=dict(outer=i,
+            origin=selected(original,("residual","merit_before","relative_radius","accepted","accepted_path","reason")),
+            origin_original_nine_gradient=dm["original_formed_relative_gradient"],
+            original_primary_model_scalars=selected(dm,(
+                "complete_finite_model_points_evaluated","model_optimizer_completed","model_stop_reason",
+                "unvisited_model_update_indices","selected_model_reference",
+                "selected_model_merit","selected_model_predicted_reduction","scaled_direction_L2")),
+            actual_paths=paths,
+            terminal_original_fields=selected(terminal,(
+                "index","local_step_radius","complete","full_three_model_residual",
+                "full_three_model_merit","complete_nine_model_gradient","full_model_gradient_norm",
+                "selected_candidate","selected_model_trial","reason","original_GN_QR_solve_recorded",
+                "original_GN_no_solution_reason")),
+            original_GN_scalars=selected(gn,(
+                "complete","reason","exception","ridge","square_root_ridge","formed_relative_L2",
+                "normal_matrix_used_for_solve")),
+            unprinted_origin_J_identity=ident(dm["complete_three_by_nine_J"]),
+            unprinted_origin_H_identity=ident(dm["complete_three_by_nine_by_nine_H"]),
+            unprinted_terminal_K_identity=ident(terminal["complete_three_by_nine_model_J"]),
+            unprinted_terminal_H_identity=ident(terminal["complete_nine_by_nine_model_Hessian"]),
+            original_terminal_identity=value("outer-"+str(i)+"-last-internal-model")["complete_original_terminal_identity"])
         if "original_QR_readback" in gn:
-            item["terminal_original_QR_scalar_fields"]=primitives(gn["original_QR_readback"])
-            item["terminal_QR_complete_object_identity"]=ident(gn["original_QR_readback"])
-        if "fallback_direction_model" in original:
-            fb=original["fallback_direction_model"]
-            item["fallback_direction"]=selected(fb["original_fields"],fallback_keys)
-            item["fallback_complete_object_identity"]=fb["complete_original_identity"]
+            qr=gn["original_QR_readback"]
+            item["original_QR_scalar_fields"]=selected(qr,(
+                "original_linear_residual_L2","original_linear_residual_Linf",
+                "formed_augmented_stationarity_L2","complete","rank","reason","exception"))
+            item["unprinted_complete_GN_and_QR_identity"]=ident(gn)
         answer["outer_models"].append(item)
-        rows=[[row[index] for index in indices] for row in selector.trials[i]]
+        rows=[[row[j] for j in indices] for row in selector.trials[i]]
         answer["physical_trials"].append(dict(outer=i,
-            original_path=value("outer-"+str(i)+"-complete-actual-trial-selection")["rows"][0][all_trial_columns.index("path")]
-                if rows else None,
-            rows=rows,
-            complete_original_selected_trial_identity=ident(selector.trials[i]),
-            accepted_parameter_words=[dict(trial_index=row[all_trial_columns.index("trial_index")],
-                actual_parameters=row[all_trial_columns.index("accepted_actual_parameters")],
-                actual_decimal_displacement=row[all_trial_columns.index("accepted_actual_decimal_parameter_displacement")])
-                for row in selector.trials[i] if row[all_trial_columns.index("accepted")] is True]))
+            original_path=selector.trials[i][0][columns.index("path")] if rows else None,
+            rows=rows,complete_original_selected_trial_identity=ident(selector.trials[i]),
+            accepted_parameter_words=[dict(trial_index=row[columns.index("trial_index")],
+                actual_parameters=row[columns.index("accepted_actual_parameters")],
+                actual_decimal_displacement=row[columns.index("accepted_actual_decimal_parameter_displacement")],
+                original_prediction=row[columns.index("actual_path_model_predicted_reduction")])
+                for row in selector.trials[i] if row[columns.index("accepted")] is True]))
     answer["physical_trial_columns"]=list(trial_keys)
-    answer["physical_trial_scope"]=dict(all_original_trial_count=84,
-        all_original_gate_merit_residual_and_reason_rows_selected=True,
-        slope_read_from_that_outer_actual_primary_or_fallback_direction=True,
-        complete_normal_trajectories_and_all_trial_full112_vectors_identity_only=True,
-        no_missing_or_unexecuted_field_filled=True,
-        no_new_scientific_acceptance_or_accuracy_gate=True)
-    last=selector.terminals[7]
-    lastgn=last["complete_residual_GN_preconditioner"]["original_fields"]
+    answer["physical_trial_scope"]=dict(all84_original_gate_merit_residual_reason_rows=True,
+        actual_slope_and_direction_in_corresponding_outer_actual_path=True,
+        complete_normal_trajectories_and_trial_full112_vectors_not_transmitted=True,
+        prediction_printed_for_actual_accepted_points_only=True,
+        null_means_original_field_missing_or_null_not_inferred=True)
+    last=selector.terminals[7];gn=last["complete_residual_GN_preconditioner"]["original_fields"]
     answer["one_last_terminal_complete_matrices"]=dict(outer=7,
         complete_three_by_nine_K=last["complete_three_by_nine_model_J"],
         complete_nine_gradient=last["complete_nine_model_gradient"],
         complete_nine_by_nine_H=last["complete_nine_by_nine_model_Hessian"],
-        original_GN_QR_solve_recorded=last["original_GN_QR_solve_recorded"],
-        GN_original_fields=selected(lastgn,(
-            "complete_solution","complete_augmented_rhs","complete_stationarity_residual",
-            "complete","reason","exception","ridge","square_root_ridge","formed_relative_L2")),
-        original_QR_readback=lastgn.get("original_QR_readback"))
-    answer["other_selected_original_fields_identity"]=ident(selector.sections)
+        actual_internal_relative_point=last["current_relative_point"],
+        original_GN_fields=selected(gn,("complete_solution","complete_augmented_rhs",
+            "complete_stationarity_residual","reason","exception")),
+        original_QR_readback=gn.get("original_QR_readback"))
     answer["transmission_scope"]=dict(
-        original807621B_selected_set_not_transmitted_or_reconstructed=True,
-        original_large_tables_not_encoded_or_partitioned_for_tools=True,
-        complete_selected_matrix_subset="Only one last terminal K/g/H/GN/QR; others identities and required original scalars",
-        root_full_matrix_or_FD_perturbation_table_read_not_claimed=True)
+        complete_selected_matrix_subset="Only last terminal K/g/H and its small GN/QR arrays if90KBallows",
+        all_other_matrices_and_perturbations_root_not_independently_read=True,
+        large_data_not_encoded_split_or_reconstructed=True)
     return answer
 
 
