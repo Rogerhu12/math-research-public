@@ -335,3 +335,7 @@
 ## 2026-11-15：同一高核商的两套正规202映射
 
 [实际正规核与精度回收](results/R150-appendix-two-regular202-mappers-and-independent-precision-recovery.md)在F31中逐原单位Schur回填得到216×202和231×202的21阶核，119988/128876原small产品全零、两自由块I202。分别用full32/O35支付11、14损失；完整6188/1834原坐标运输与高商另行核验，未提升特征零。
+
+## 2026-11-15：实际固定测试的全部暗对阶乘矩
+
+[同一实际来源的多参数投影证明](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)以原V/K精确相似和4^r r!混合导数界，得到物理/真primitive暗对阶乘矩4r!(σ²/x)^r与平方根指数尾。对先投真实Π_j的来源仅增(r+1)²，无j/h/Q，原坏见证读数不需交换投影；完整MP和低暗分量预算仍须另证。
