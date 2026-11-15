@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **CP actual加权帽内端差与两个finite193逆严格通过**：[完整证明](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7；公开43741463694/1 child0/18，5 prerequisites及两域各3strict全pass。γA0半径1e−9与1e−9/128分别得κ≈.0019952502133/.00196507842537，det≈.24612876846/.25397668235；Hilbert双分量+独立Cmean重新起门，未借旧Wiener界。三窗四独立输入/完整mean均保，原κ1/5失败不改。exec6865e7e8、science77ed0069、预Git983fac65、50个有向球root逐核；成功禁重。仅同真实帽域内inner pair与条件finite逆，actual entry/affine/chart/height/腰/high/全ν仍待。
+
 - 2026-11-15：[PC actual完整正侧Ai截断与强修正](results/R133-supplement-actual-genuine-positive-Airy-cutoff-and-complete-strong-correction.md)（34946B/SHA b2acc64af2f848bb3fa20b6ff2694aa072a3299b5a206145cb9d765c4901d802）由公开43740173506/1 child0/30门完成。45pin/14AST、13旧成功小回执、1328双rows/44jets全部核；2新正交格/42源项产品/4完整无限和与fullmean。完整positive ordinary pair约9.64997e7，cutoff约1.27790e30、finitehead约1.43026e12，完整s0 waist强修正约1.018228e33；145带半径球/124unique均原字从receipt抄录。真实Ai+βn、χ′两原曲率行、有限头和两mean、PW原负乘积全部保。仅H−4/3→原waist density L2pair+两mean的强修正列，不授incoming/fullR0/其他s；大upper不推实际算子大。root全文新science/报告/primary与26951科学、37559预Git原byte hash复核；旧数学0，成功结果锁定不重。
 
 - 2026-11-15：[SN signed非mean密度输运及完整H3验证](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)（19046B/SHA6e90617095bfea61a916dcba2a5bd5ad162c696e50b03ee15f7fefd40079679c）完成新目标的解析合同。精确非mean消A2、a_e=−dφφ/2及B1/d1稳定可去商不丢signed乘积；真实mean沿用3146旧积分/rootTaylor和完整δ导费。signed finite reference的全max(N+192,384)残差、四状态H3能量、seam与真径向measure逐项保。SN24–30读同selected physical A1/128的E0/E1及原有限G，给逆密度三导完整矩阵/真measure，末C≤KH(||q−^G||H3+||q+^G||H3+|μ|Ej)。root全文、phase非mean恒等、tail终端与H3指定独核通过；新数学仍待公开Actions，旧ray/KAM/积分不重，完整strong remainder和全局匹配不由此授予。
