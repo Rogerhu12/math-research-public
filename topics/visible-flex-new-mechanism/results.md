@@ -483,3 +483,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R293 完整证明](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)从最初小κ避唯一例外，R286/R291两条完整关系使全有限N32向量和基线始终在同rank30空间。R289同一正解析最大F母包、≤30χ及每χ原12包正核给全空间正锥；正幅完整基线根和30真Jac经一致C¹扰动给有限N全32准确零，不只投影。五最后block保实际权/位置、72面积/六能量/三矩/完整third及解析正prefactor。原全角身份进一步付E−3²、E−3E−2、E−2²及E1²的I2；余七乘积其他角未授零。
 
 从起点任意有限连续C² polynomial F★包含原F时，用解析最大minor见证与principal母包的多项式线同时实现，再以常秩同纤维纠正保整F★，上述有限N证明仍成立。该入口须先具体证明新增观测为C²；不允许偷加三阶导量或改变已冻结圆。原平台/flux/Laurent/零一层/period/joint和主几何门均保留。无新执行。
+
+
+## R292：真实零平台、有序三矩核和保留的第四自历史
+
+[R292 完整证明](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)从原R56给平台x²系数，保真实YW右累计B4；局部Y零不能删除它。跨包Cij的完整η0/β式及紧端IBP将Qij准确化为三矩双线性式；actual whole pure给QZii=−4Qii、QZij=−2Qij和整个有序Vθ=4Σ右i≤j a_i²d_jQij，D槽指标是j。二次cross另化为原m(s)二阶齐次history的3×3型T_B，不设独立可调或定号；self q_i保全部真尾。
+
+全部平台二次零准确iff每包R/T两条后缀递推；最右两双角非共线迫两self和一个真实cross零，允许全局二/三阶gauge不能修。合法微包幅/平移/宽度给真实三矩像开集，但whole pure仅付Z²/YW相消，不能据此把self当三矩函数或自动零。root全文核原平台收集、cross IBP/真实右锚、因子四及指标/后缀；下一T_B与q_i实际消元，端flux/Laurent/joint仍欠。无新计算。

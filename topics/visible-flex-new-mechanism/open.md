@@ -144,20 +144,17 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
-### R275/R278：旧双斜率障碍已定位，第三斜率带来真实新方向
+### R275/R278 保留备选
 
-[R275](results/R275-first-moment-obstruction-for-the-small-width-two-slope-family.md)保原self/Green和J(xDρ)，证明原小h、ρ0/20、A≥10两坡正幅族若S0即Z/k>0；只改旧中心无效，不排一般圆。
-
-[R278](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)加入a²/b²=1的真实gap包，准确ΔS0、Δ(Z/k)<0。五簇同宽q正权配0/2/4矩支付新增local门，原四变量真实IFT仍保三矩/全third/六能量和指定旧面积；有限A/N容量使S>0>Z/k，Q±仍可正幅配零。**下一必须联合ΔY1=ξ0Δ(Z/k)及另一Z even的Rshape总项，不能搬旧R271混合或把负方向当完整面积解。**与R277等背景/同F机制并行，优先处理其余准确ordered条件。
-
+原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
 
 ### R289/291/293：全32必要量有限频率准确零，继续全角
 
 [R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)用两条完整身份把所有真实有限N向量限制在同rank30空间，再以≤30χ/原12包正锥、完整基线及30真Jac根，付全部十乘积三外矩在π/2的准确零，保72面积/六能量/三矩/全third。初始κ²<.01避唯一例外；五最后block均保实际权/位置。可从起点以具体有限连续C² polynomial F★替原F，不能事后偷加C³观测。下一提余角真实self/ordered系数并付全角，再接零一层/period/joint；不是全fourth或主几何已成。
 
-### R283/288：当前紧微包一次端层已付，接平台与通量
+### R288/292：一次端层已付，真实零平台递推待解
 
-[R288](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)在当前真实profile紧且不交的解析类，原R56跨包Cij整体局域，diagonal真左尾的三历史矩由actual universal whole pure逐个消去；因此R283所有内部Q_e自动0，两mixed目标不再有一次指数端障碍。真实尾并未消失，不用面积/能量冒推。下一支付原平台P″/零端flux与内部p/A退化；仅导数分包旧step圆或新增任意第三初值不在此证明范围。
+当前不交紧profile的canonical一次指数层由R288全付。[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)继续保第四YW右累计，给Vθ=4Σ右i≤j a_i²d_jQij；跨包Qij有原三矩双线性式，二次系数T_B只需真实二阶history，self q_i仍含原完整第三/第四尾。全部平台准确iff逐包R/T两后缀递推；最右两双角非共线迫两self与一个cross为零，全局矩和允许gauge不能代付。真实矩像有内点但未授self依三矩。下一具体处理T_B矩阵、q_i的最高jet和兼容，不把未知C³量塞进F★；随后正确flux、内部Laurent/全period及同w joint。
 
 ### R287/R290/R293：三个完整乘积已付
 

@@ -33,7 +33,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右三常数/左尾；43712266529八新人工已过不重。全Rp0=(R71∩kerπ)+B(E,χ8)，不可删首项。R259/263的72全角条目和81有序状态非rank；右inner三矩0才消cross，12完整copy付36odd，平移≤10和内部history均保。
 
-**R267/270/271/273旧有限圆**：三矩/全third/六能量、若干even及36odd已付；完整证明见results。R275严格排原小h双斜率族full面积，不再加位置重试；R278用真实第三斜率gap包脱离原半平面，但仍非full，保备选。
+旧有限圆及R275双斜率障碍、R278第三斜率备选见results；不重旧族，不外推一般不可能性。
 
 **R277/279/280全72面积圆**：全self/三矩真C²多项式F与最大秩同纤维；真实两编码给三面积双号，五完整block先定正四次权/位置，再同F有限N根付六能量。完整self/Green/history保留，非数值候选；原证明见各R，后续对称乘积/period/joint不由此自动付。
 
@@ -49,6 +49,8 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R290完整E−2²**：原三外矩保I2一阶项/两累计primitive。初选0<κ²<.01时，原self四行共同核(8,5,2,4,8)证明IB=LB+a²Δ/2、ID=LD−abΔ确属旧F；真有序合并使额外c²s²系数归已付总A01，完整平方仅余三个sin²标量。三标量已随R293全32消元支付；C²不等于自动旧F固定。
 
+**R292真实零平台**：保YW右累计B4，完整平台二次式和跨包Qij只依真实三矩/原m(s)；actual pure给Vθ=4Σ右i≤j a_i²d_j Qij。全部平台iff每i的R_i q_i+Σj>iR_jT_B(μ_i,μ_j)=0及T_i对应式。T_B是原二阶history的准确3×3双线性型，q_i自历史保留；最右两(R,T)非共线迫q两项及crossT_B0。真矩像开集不授q由μ决定；不能用全局矩或gauge消此门。下一真消元，不泛称平台已付。
+
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
 **旧局部接口**：R226–240仅首HE零芽；R242/244新ψP圆11维δ链八flux+首gap rank10，非旧圆全period。R246该模8F+8E单射、余13兼容和e-flux仍须付；不冒全R0。R243有限jet iff仍无实际n。
@@ -57,4 +59,4 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 4f5667c169902ce016650ba99b92bbd771a100bb，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main f5dd6070be15841c84f0870b29e381a944409698，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
