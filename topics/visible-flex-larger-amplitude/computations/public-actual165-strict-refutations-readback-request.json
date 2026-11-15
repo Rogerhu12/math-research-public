@@ -4,8 +4,8 @@
   "repository": "Rogerhu12/math-research-public",
   "purpose": "Read only the immutable actual165 compute log; verify full original records internally and return one bounded summary of all38 locations, necessary original a/as counterexample bounds and unresolved metadata. No scientific recomputation.",
   "source_entry": "root_20261115_read_actual165_strict_refutations.py",
-  "source_bytes": 28097,
-  "source_sha256": "07d3b2608bf4f9614ed74465ddb40f068f130f69f1e5208912bfc3ab6bddb631",
+  "source_bytes": 32670,
+  "source_sha256": "2e5717de6c1d00059e995f398384bd5758f9e2c8f2657484bd651d66cf950371",
   "original_run_id": 43736208020,
   "original_job_id": 132879253906,
   "original_source_commit": "1f2ec637430e5c6b27b1a93720e106539281a156",
@@ -102,5 +102,33 @@
     "process_exit_code": 70,
     "no_split_or_reassembly_fallback": true,
     "original_scientific_conclusion_not_changed": true
-  }
+  },
+  "readback_projection_revision": 2,
+  "actual_output_schema": "actual165-original-log-selected38-bounded-columns-readback-v2",
+  "previous_actual_readback": {
+    "run_id": 43746302206,
+    "job_id": 132910242777,
+    "source_commit": "97a99672e779d4b1f4aadcdb6adb6c7198187378",
+    "source_sha256": "07d3b2608bf4f9614ed74465ddb40f068f130f69f1e5208912bfc3ab6bddb631",
+    "new_job_log_bytes": 27353,
+    "new_job_log_sha256": "870588b883b3aaaae5d2e4b4bb9c02ef6a1ec29ece3f06ff2bb83e46911b7b46",
+    "actual_summary_bytes": 2388,
+    "actual_summary_sha256": "b222781546adbd8f7bfe477241aa1147d424dbae8dd94bf157673aab60b4d94f",
+    "selected38_found_but_table_not_returned": true,
+    "full_metadata_count_check_failed": true
+  },
+  "original_compute_full_log_from_actual176": {
+    "bytes": 1486048285,
+    "sha256": "4ab8c6d688a27869353bb428288d467502c7aed6ad8cd96140a6cfaea508aea2",
+    "prior_run_observation_only": true,
+    "new_stream_identity_independently_recorded_not_assumed_identical": true
+  },
+  "revision2_changes": [
+    "Single set of column names plus38 literal rows; remove repeated node and enclosure/line receipt fields.",
+    "Keep every original finish count assertion; selected38 observation and full-count completeness remain separate.",
+    "Accept JSON event separator whitespace and record original event/segment-label distributions and bounded identities of relevant nonobject-prefixed lines.",
+    "Do not assume the observed310/46 differences are lost logs or repair scientific counts.",
+    "The original single90000-byte bound and no-output-segment rule are unchanged.",
+    "Strip one physical-line-leading UTF8 BOM only for timestamp/JSON parsing, record its count, and keep all original raw bytes and hashes unchanged; repeated BOM was directly observed in actual170 official job log, not assumed to explain actual165 counts."
+  ]
 }

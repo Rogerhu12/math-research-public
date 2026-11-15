@@ -4,7 +4,7 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:40:38 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4f1d345ecbb6675deef88f6682af6c468dcc2196。
+规则同步记录：2026-11-15 18:41:48 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 5a77a2140aa75e7ba3e151319c8076dc22a9d532。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
@@ -41,7 +41,7 @@
 
 [R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：43741519736/sourcede9a730a，C1440/cut两jet/新419片数值profile/deep112齐；九控制域10657未决/15未访，未称全域过。m2仍49commit/100attempt后row17/depth32双pivot含0，19栈/required[18,10387)/其余111模式保，资源stop=null；0far/0单位行，BVP/H/J/FD未启动。六读回后原raw已清。179准备接R375原族到物理far/R357单位行及原完整453，实际R382，不改原169门。
 
-[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：原1.48GB日志到EOF且38已找到，但cover/pending/unresolved计数不齐；95577B超90KB，2388B明确70，38位置表未返回。r2保计数门、分离38与全cover状态并修原行首BOM解析，exact核新R381；不预判310/46差额原因。大enclosure仅内部字节核，不新算科学。R341/R349历史和R352共享Bernstein表达式保。
+[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：原1.48GB日志到EOF且38已找到，但cover/pending/unresolved计数不齐；95577B超90KB，2388B明确70，38位置表未返回。[176r2](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)已发reader2e5717de/request3ba3e2a2/wf41fe2cdf：原finish逐字同，38列式必要表与全cover状态分离；只解析副本剥行首BOM，原hash/offset保。exact核R381，不预判差额或补科学值。大enclosure仅内部字节核，不新算科学。R341/R349历史和R352共享Bernstein表达式保。
 
 ## 九/十控制与幅度
 

@@ -94,7 +94,7 @@ R296/R301/R307/R316/R320/R329和[R335实际154](results/R335-actual154-full-nine
 
 [R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as尚未读，Actions仅取原保存字段；同场metric/native仍未付。
 
-[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：原log1486048285B完整到EOF，实际找到38唯一反证，但cover32667/32977、pending32480/32526、unresolved32442/32488不齐，finish ValueError。必要95577B超90KB仅返2388B/exit70，38具体位置/a/as表未返；不是新科学反证或R356撤销。修订仅去重复metadata、公开38表与全cover独立状态并处理真实行首BOM，所有原计数门保留；不能把170格式观察预断为165差额原因。新实际R381仍待执行，175不以此为门。
+[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：原log1486048285B完整到EOF，实际找到38唯一反证，但cover32667/32977、pending32480/32526、unresolved32442/32488不齐，finish ValueError。必要95577B超90KB仅返2388B/exit70，38具体位置/a/as表未返；不是新科学反证或R356撤销。修订仅去重复metadata、公开38表与全cover独立状态并处理真实行首BOM，所有原计数门保留；不能把170格式观察预断为165差额原因。[176r2](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)四件已发2e5717de/3ba3e2a2/41fe2cdf，finish全部原计数检查逐字保；合法JSON空白/原行首单BOM只改解析副本，原流/行SHA与offset不动，列式38必要表去重复且单≤90KB，完整cover仍可独立失败。1500s/4GiB/35min原界不变，exact核新R381；175不以此为门。
 
 ### 3C. 当前C自己的零场与完整453非零BVP
 

@@ -48,7 +48,7 @@ jobs:
           repo=Path.cwd();comp=repo/'topics/visible-flex-larger-amplitude/computations'
           path=comp/'public-actual165-strict-refutations-readback-request.json'
           raw=path.read_bytes()
-          assert hashlib.sha256(raw).hexdigest()=='c0e938965b9f4824e58d7d302d7d66bd65e88c38cb055a5b73aa289ed81529ec'
+          assert hashlib.sha256(raw).hexdigest()=='3ba3e2a207476c7596a06f42df8e46dd11255d13ba5140a72780bbe4605a2b7b'
           request=json.loads(raw)
           assert request['request_number']==176
           source=(comp/request['source_entry']).read_bytes()

@@ -289,3 +289,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:39:24 UTC /root — R365完整端点参考与末点范围
 
 14138B/9e4892a4全文核后即推；原四trial/FD和29×17域/338界、629末点gap/148η分别支付，未访13档、统一整段/IEEE/native责任明确。原日志行首BOM只作解析，不改变原字节；不搬1.05GB大账或追加数组审计门。真实pull已读656b4c2d17050c130730a60d1f673183fc92497e，双README未变。
+
+## 2026-11-15 18:41:28 UTC /root — 176r2行首BOM与独立38表读回
+
+19369B与9531B两完整diff已读，原finish逐字同及最终source/request/wf绑定核后四件即发2e5717de/3ba3e2a2/41fe2cdf。只处理真实JSON空白/单行首BOM，原字节身份不动；38表与全cover状态分开、单90KB，不预断165差额主因。真实pull已读5abed1112bda247391e5b84863cc30acc7f38911，双README未变。

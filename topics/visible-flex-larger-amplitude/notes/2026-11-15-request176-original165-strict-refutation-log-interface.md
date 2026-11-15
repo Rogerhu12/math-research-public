@@ -1,6 +1,6 @@
 # Request176：actual165原38条严格反例的只读日志定位
 
-这是独立的Actions元数据读回任务，补R356中尚未亲读的38个具体u区间。它只读取已经完成的actual165日志；不重跑C、cut、R323、factory、区间包围、profile、导数、FD或native，不计算新的有理数/浮点差、范数、多项式或域不等式。175及其他求解不以它为前置门。未来真实结论编号R374，当前不预填任何38条的位置或bounds。
+这是独立的Actions元数据读回任务，补R356中尚未亲读的38个具体u区间。它只读取已经完成的actual165日志；不重跑C、cut、R323、factory、区间包围、profile、导数、FD或native，不计算新的有理数/浮点差、范数、多项式或域不等式。175及其他求解不以它为前置门。首跑真实限制已记录为R374；本修订只改必要metadata布局/输入格式诊断，不预填仍未返回的38条位置或bounds。
 
 ## 1. 唯一原来源
 
@@ -14,9 +14,9 @@
 
 | 文件 | UTF-8字节数 | SHA256 | 小文本blob |
 |---|---:|---|---|
-| root_20261115_read_actual165_strict_refutations.py | 28097 | `07d3b2608bf4f9614ed74465ddb40f068f130f69f1e5208912bfc3ab6bddb631` | `f683958d69697e0ca5e38ca9723addf17fe56c76` |
-| public-actual165-strict-refutations-readback-request.json | 5217 | `c0e938965b9f4824e58d7d302d7d66bd65e88c38cb055a5b73aa289ed81529ec` | `8359877fe39bc9dc76569563db3116ff3cecf4e6` |
-| visible-larger-public-actual165-strict-refutations-readback.yml | 6477 | `3919128037850ae017676bb7e35f008aefec9e1bc44f51969fe8212a09ee23ad` | `bf2764be0dfd9e989db19c9e92fc5962112ffc2b` |
+| root_20261115_read_actual165_strict_refutations.py | 32670 | `2e5717de6c1d00059e995f398384bd5758f9e2c8f2657484bd651d66cf950371` | `fc17fe82d7e24365c31898f29bac37abc711cfc6` |
+| public-actual165-strict-refutations-readback-request.json | 7083 | `3ba3e2a207476c7596a06f42df8e46dd11255d13ba5140a72780bbe4605a2b7b` | `9d87a6b05e902ccea0f7d4586e76c152caada03e` |
+| visible-larger-public-actual165-strict-refutations-readback.yml | 6477 | `41fe2cdf8bce4dbcd2577c2a2566fb14a4538ff0a6f710caad99fe50321140f6` | `b75fe165e07ed6e92d337ce46434fa006a3b3585` |
 
 接口另给自身最终身份。只有新reader和原165 emitter源码参与源码字节核；旧94125B源码仅read_bytes/hash，绝不import。其余C/数学闭包不被重新执行，也不把旧科学source hash冒成本次科学计算。
 
@@ -110,6 +110,24 @@ python -u root_20261115_read_actual165_strict_refutations.py \
   --out "$RUNNER_TEMP/visible-actual165-refutations-176"
 ~~~
 
-工作流独立trigger/concurrency，cancel-in-progress=false，不动原165或175。固定request SHA c0e938965b9f4824e58d7d302d7d66bd65e88c38cb055a5b73aa289ed81529ec，reader SHA07d3b2608bf4f9614ed74465ddb40f068f130f69f1e5208912bfc3ab6bddb631。新源码仅文本成文和SHA核；未本地AST、import、下载巨log或科学执行。公开Actions的正常ast.parse检查文本语法，绝不增加科学fixture门。
+工作流独立trigger/concurrency，cancel-in-progress=false，不动原165或175。固定request SHA 3ba3e2a207476c7596a06f42df8e46dd11255d13ba5140a72780bbe4605a2b7b，reader SHA2e5717de6c1d00059e995f398384bd5758f9e2c8f2657484bd651d66cf950371。新源码仅文本成文和SHA核；未本地AST、import、下载巨log或科学执行。公开Actions的正常ast.parse检查文本语法，绝不增加科学fixture门。
 
 现在尚未取得这38个实际位置，不能据此选择某个新的形状/参数或局部细分。176实际读回后才可用原u/piece/support信息判断具体下一调整；它本身不调整九参数、不证明新域、不恢复已删场，也不是任何原模型或native接受条件。
+
+## 9. actual176 后的明确修订2
+
+首跑实际run43746302206/source97a99672e779d4b1f4aadcdb6adb6c7198187378/job132910242777内部找到38唯一节点，但完整计数扫描为32667 cover、32480 pending、32442 unresolved，未达到绑定原32977/32526/32488。原reader保完整count检查并报ValueError；必要摘要95577B超界，最终只返2388B明确70。R374保留该真实失败，不能用本修订覆盖它。
+
+新输出schema为 actual165-original-log-selected38-bounded-columns-readback-v2。所有原finish检查正文逐字保留，不更改原目标计数，不降低原字节核对范围。selected38_full_enclosure_links_observed/complete_necessary38_table_returned与readback_complete分开：若将来仍是计数不齐，允许真实已找到且逐原enclosure联结的38行出现在≤90000B失败摘要内，同时完整count状态仍false/reader非零。没有把此布局变化写成科学成功。
+
+38行改为一次columns+原行数组，公共reasons和terminal_reason各只列一次，去除重复node_id和同一enclosure/row SHA副本。每行仍保原u两端、piece、depth、分类、原a/as准确上下整数和各自binary_exponent、原radius/speed反证布尔、pending/enclosure完整bytes/SHA及两处原log/event位置身份。没有删掉反证必要字段或重新评估不等式。
+
+新输入观察仅把event冒号周围合法JSON空白纳入词法识别，记录原event和分段label分布，以及最多12条相关但非JSON-object前缀行的bytes/SHA/位置，不返回其科学正文。原emit_segments对大final-cover/pending仍使用同event字面label，当前白名单已覆盖；尚无证据将310/46差额归于某个未覆盖label。因此这些新计数只供定位真实输入格式，不自动补事件、不预判日志丢失。
+
+原旧日志全字节在Actions再流式一次；先前1486048285B/4ab8c6d688a27869353bb428288d467502c7aed6ad8cd96140a6cfaea508aea2仅为actual176实测来源，新的下载仍独立记其完整或prefix身份。新请求仍1500秒/4GiB/35min，90000B上限和禁止输出分段完全不变。若必要表仍超界仍70/readbackfalse，不提供完成保证。没有本地AST、日志下载或科学执行，也不重跑165科学。
+
+## 10. 官方拼接日志的行首 BOM 解析
+
+实际170官方job132896377831的完整log为4443980B/SHA429a69f20aecbe99dbffe13c72168243bebc4b716da000c3300c03570fb4df71，内部直接观察到3个UTF8 BOM。某行以BOM再接timestamp和原JSON起始；仅先用timestamp正则会漏掉该行。去除每一原物理行开头的单个BOM用于解析后，原170全部8个语义document及1230个member的各自原bytes/SHA完全核回，包括原Hermite_transfer[364]。这是已观察的日志格式事实，不是165差额的预定解释。
+
+176r2仅在解析副本先识别并剥去该3字节前缀，再执行原timestamp/JSON逻辑；原log_hash、total_bytes、raw行SHA和byte_offset均先按原行处理，保持BOM在完整原字节身份中。新utf8_bom_prefixed_raw_line_count只记录实际观察数。没有宽松吞任意前缀、没有改变任何原科学值或finish计数断言。若165还有其他缺口，仍原样返回计数未完成和已找到38条的独立状态。

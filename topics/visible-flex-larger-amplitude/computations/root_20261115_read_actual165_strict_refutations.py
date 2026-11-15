@@ -22,7 +22,7 @@ import urllib.parse
 import urllib.request
 
 REPOSITORY="Rogerhu12/math-research-public"
-SCHEMA="actual165-original-log-complete38-domain-refutations-readback-v1"
+SCHEMA="actual165-original-log-selected38-bounded-columns-readback-v2"
 REQUEST_SCHEMA="actual165-original-log-domain-refutations-readback-request-v1"
 RUN=43736208020
 JOB=132879253906
@@ -39,6 +39,7 @@ EXPECTED_COVER=32977
 MAX_LINE_BYTES=1048576
 MAX_RELEVANT_EVENT_BYTES=4194304
 TIMESTAMP=re.compile(rb"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d+)?Z ")
+EVENT_WORD=re.compile(rb'"event"\s*:\s*"(request165_[A-Za-z0-9_-]+)"')
 INTERESTED={
     "request165_final_complete_cover_leaf",
     "request165_full_pending_or_refuted_interval",
@@ -178,7 +179,10 @@ class Scan:
         self.unresolved_count=0;self.refuted_occurrences=0
         self.by_reason=Counter();self.by_reason_set=Counter();self.by_piece=Counter();self.by_depth=Counter()
         self.cover_refutations={};self.pending_refutations={}
-        self.selected=[];self.duplicates=[];self.original_result=None
+        self.duplicates=[];self.original_result=None
+        self.input_event_counts=Counter();self.input_label_counts=Counter()
+        self.nonobject_relevant_count=0;self.nonobject_relevant_examples=[]
+        self.utf8_bom_prefixed_raw_lines=0
         self.result_receipt=None;self.original_result_occurrences=[]
         self.original_primary_identity=[];self.malformed_relevant=[]
         self.contradictions=[];self.current_offset=0
@@ -257,11 +261,8 @@ class Scan:
             self.duplicates.append(dict(scope="pending-refutation",key=list(key),
                 previous_source_location=previous["source_location"],current_source_location=location))
         else:self.pending_refutations[key]=item
-        # Full records are compared only inside Actions. The sole final short
-        # summary carries each unique location and only its necessary original
-        # a/as counterexample bounds; duplicate occurrences remain metadata.
-        if key not in {tuple(row["original_node_identity"]) for row in self.selected}:
-            self.selected.append(dict(original_node_identity=list(key),record=item))
+        # Keep each linked unique row once; column names and repeated metadata
+        # are supplied once by necessary_refutation_table(), never per object.
 
     def complete_segment(self,label,value,raw,location):
         if label=="complete-target-result":
@@ -283,11 +284,26 @@ class Scan:
         self.log_hash.update(line);self.total_bytes+=len(line);self.lines+=1
         self.check()
         require(len(line)<=MAX_LINE_BYTES,"Original raw line exceeds explicit metadata transport limit")
-        payload=TIMESTAMP.sub(b"",line,count=1).rstrip(b"\r\n")
-        if not payload.startswith(b"{"):return
-        # Skip unrelated original step/compiler/scientific JSON without turning
-        # this task into a second large ledger audit.
-        if b'"event":"request165_' not in payload:return
+        parse_line=line
+        if parse_line.startswith(b"\xef\xbb\xbf"):
+            self.utf8_bom_prefixed_raw_lines+=1
+            parse_line=parse_line[3:]
+        # Official concatenated job logs may repeat a UTF8 BOM at file boundaries.
+        # Only parsing ignores that prefix; raw line and full-stream hashes keep it.
+        payload=TIMESTAMP.sub(b"",parse_line,count=1).rstrip(b"\r\n").lstrip()
+        event_word=EVENT_WORD.search(payload)
+        if event_word is None:return
+        if not payload.startswith(b"{"):
+            self.nonobject_relevant_count+=1
+            if len(self.nonobject_relevant_examples)<12:
+                self.nonobject_relevant_examples.append(dict(raw_log_line=self.lines,
+                    raw_log_byte_offset=offset,raw_log_line_bytes=len(line),
+                    raw_log_line_sha256=sha(line),
+                    recognized_event_word=event_word.group(1).decode("ascii"),
+                    prefix_bytes_before_event=event_word.start()))
+            return
+        # Both canonical and whitespace-separated original JSON event syntax
+        # are read. Unknown labels are counted, never guessed as paid leaves.
         try:value=parsed(payload)
         except Exception as error:
             relevant=any(name.encode("ascii") in payload for name in INTERESTED|LABELS|
@@ -298,6 +314,10 @@ class Scan:
                     error_message=str(error)))
             return
         event=value.get("event") if isinstance(value,dict) else None
+        if isinstance(event,str):self.input_event_counts[event]+=1
+        if event in ("request165_complete_metadata_begin","request165_complete_metadata_segment"):
+            label=value.get("label")
+            if isinstance(label,str):self.input_label_counts[event+":"+label]+=1
         location=dict(raw_log_line=self.lines,raw_log_byte_offset=offset,
             raw_log_line_bytes=len(line),raw_log_line_sha256=sha(line))
         if event=="request165_complete_metadata_begin":
@@ -348,6 +368,42 @@ class Scan:
             "The selected pending set equals the retained refuted cover set")
         return True
 
+    def necessary_refutation_table(self):
+        """Only literal field selection/column layout; no a/as comparison."""
+        columns=["node_id","numeric_piece","u_left","u_right","depth",
+            "classification","reason_indices","terminal_reason_index",
+            "radius_refuted","speed_refuted","a_exponent2","a_lower","a_upper",
+            "as_exponent2","as_lower","as_upper",
+            "pending_bytes","pending_sha256","enclosure_bytes","enclosure_sha256",
+            "pending_log_location","pending_event_bytes","pending_event_sha256",
+            "cover_log_location","cover_event_bytes","cover_event_sha256"]
+        reason_strings=[];terminal_strings=[];rows=[]
+        for row in self.pending_refutations.values():
+            reason_ids=[]
+            for text in row["reasons"]:
+                if text not in reason_strings:reason_strings.append(text)
+                reason_ids.append(reason_strings.index(text))
+            terminal=row["terminal_reason"]
+            if terminal not in terminal_strings:terminal_strings.append(terminal)
+            a=row["accurate_a"];v=row["accurate_as"]
+            for bound in (a,v):
+                require(all(k in bound for k in ("binary_exponent","lower_integer","upper_integer")),
+                    "Copy the original exact fixed-grid bound fields")
+            cover=row["original_final_cover_record"]
+            rows.append([row["node_id"],row["numeric_piece"],*row["closed_public_u"],row["depth"],
+                row["classification"],reason_ids,terminal_strings.index(terminal),
+                row["accurate_radius_domain_rigorously_refuted"],row["accurate_speed_domain_rigorously_refuted"],
+                a["binary_exponent"],a["lower_integer"],a["upper_integer"],
+                v["binary_exponent"],v["lower_integer"],v["upper_integer"],
+                row["original_pending_record"]["bytes"],row["original_pending_record"]["sha256"],
+                row["original_complete_enclosure"]["bytes"],row["original_complete_enclosure"]["sha256"],
+                row["source_location"],row["original_event_bytes"],row["original_event_sha256"],
+                cover["source_location"],cover["original_event_bytes"],cover["original_event_sha256"]])
+        return dict(columns=columns,reason_strings=reason_strings,terminal_reason_strings=terminal_strings,
+            rows=rows,original_literal_a_as_inequalities_not_recomputed=True,
+            complete_enclosure_and_unnecessary_jet_target_fields_not_returned=True)
+
+
     def summary(self):
         result=self.original_result or {}
         keys=("schema","run_id","source_commit","source","phase","procedure_complete",
@@ -374,7 +430,17 @@ class Scan:
             unresolved_reason_combination_counts=dict(sorted(self.by_reason_set.items())),
             unresolved_numeric_piece_counts=dict(sorted(self.by_piece.items(),key=lambda x:int(x[0]))),
             unresolved_depth_counts=dict(sorted(self.by_depth.items(),key=lambda x:int(x[0]))),
-            selected_original_refutation_locations_and_bounds=self.selected,
+            selected_original_refutation_locations_and_bounds=self.necessary_refutation_table(),
+            selected38_full_enclosure_links_observed=(
+                len(self.pending_refutations)==EXPECTED_REFUTED
+                and set(self.pending_refutations)==set(self.cover_refutations)
+                and self.original_result is not None),
+            selected38_observation_does_not_replace_full_cover_count_check=True,
+            utf8_bom_prefixed_raw_line_count=self.utf8_bom_prefixed_raw_lines,
+            input_event_counts=dict(sorted(self.input_event_counts.items())),
+            input_segment_label_counts=dict(sorted(self.input_label_counts.items())),
+            nonobject_relevant_line_count=self.nonobject_relevant_count,
+            nonobject_relevant_line_identity_examples=self.nonobject_relevant_examples,
             original_full_result_and_complete_enclosures_verified_in_Actions_only=True,
             complete_scientific_enclosure_payload_reprinted=False,
             identical_original_duplicate_events=self.duplicates,
@@ -466,10 +532,12 @@ def main():
         output.update(scan.summary())
         output["elapsed_metadata_scan_seconds"]=time.monotonic()-started
         output["reader_exit_code"]=code
-        output["all38_necessary_original_locations_and_bounds_selected"]=output["readback_complete"]
+        output["all38_necessary_original_locations_and_bounds_selected"]=(
+            output.get("selected38_full_enclosure_links_observed") is True)
         output["new_output_segment_protocol_used"]=False
         full=write(args.out/"result.json",output)
-        summary=dict(output,actual_readback_result=full,summary_complete=True,transport_complete=True)
+        summary=dict(output,actual_readback_result=full,summary_complete=True,transport_complete=True,
+            complete_necessary38_table_returned=output["all38_necessary_original_locations_and_bounds_selected"])
         raw=canonical(summary)
         if len(raw)>90000:
             # Keep the actual internal scan result, but never split scientific
