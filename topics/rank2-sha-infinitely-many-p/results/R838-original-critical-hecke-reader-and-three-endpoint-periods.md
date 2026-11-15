@@ -456,3 +456,172 @@ $a_1(T_{\ell_*}^{e_p-1}\mathsf P_p\,\cdot)$，并保留全部来源。
   [R831](R831-original-dyadic-old-space-and-unique-endpoint-class.md)、
   [R832](R832-original-triple-chow-purity-and-rank-zero-contractions.md)：
   原有限角色、实际端点、完整两项杯积、次数与纯 $\lambda$ 来源。
+
+
+## 附录 A. 原两项杯积的准确 p-depletion 化简
+
+本附录始终保留 (5) 的实际 $(q,q^4)$ 端点、(6) 的杯积顺序
+及第2节的完整临界投影。下述化简在同一上同调 functional 下进行；
+不是从原 Fourier 展开中删去第二项。
+
+为减轻符号，固定 (2) 的一组 $(j,k)$，置
+$$
+g=g_j,\quad h=g_k,\quad
+h_2=4h(Q^4),\quad H_2=G_k(Q^4),\quad
+\mathcal L(F)=\langle\omega_f,[F\,dQ/Q]\rangle.
+\tag{A1}
+$$
+于是
+$$
+\theta H_2=h_2-\bar\pi Vh_2,\qquad
+UG_j=\bar\pi^{-1}G_j,\qquad
+UH_2=\bar\pi^{-1}H_2,\qquad
+\mathcal L(UF)=-\pi\mathcal L(F).
+\tag{A2}
+$$
+因为 $p$ 为奇数，$U,V$ 与 $Q\mapsto Q^4$ 交换；
+故这里的 $4$ 和两个原函数没有重新归一。
+
+### A.1 同一杯积的两项逐项消元
+
+写
+$$
+A=\mathcal L(G_jh_2),\quad
+B=\mathcal L(gH_2),\quad
+C=\mathcal L(G_jVh_2),\quad
+D=\mathcal L(H_2Vg).
+$$
+实际 q 算子满足
+$$
+U(F\cdot VH)=(UF)H .
+\tag{A3}
+$$
+(A2)、(A3) 因而给
+$$
+C=-A/p,\qquad D=-B/p .
+\tag{A4}
+$$
+另一方面，$\theta(G_jH_2)$ 是同一 ordinary dagger 上的 exact
+微分，故其 proper 杯积为零。由 (4)、(A2)，
+$$
+0=A+B-\bar\pi(C+D)
+  =(1+\pi^{-1})(A+B).
+\tag{A5}
+$$
+$\pi\ne-1$，所以 $B=-A$。把此结论代回原两项，得到
+$$
+\boxed{\mathcal L(F_{\nu,p})=(1-\pi^{-1})A.}
+\tag{A6}
+$$
+这里用掉了原第二项和一个真实 exact 微分；
+没有把该项本身赋零。
+
+令
+$$
+\mathcal G_j
+=\theta^{-1}g_j^{[p]}
+=(1-\bar\pi^{-1}V)G_j .
+\tag{A7}
+$$
+等号由
+$g_j^{[p]}=(1-\pi V)(g_j-\bar\pi Vg_j)$、
+$\theta^{-1}V=p^{-1}V\theta^{-1}$ 及零常数规范得到。
+特别 $\mathcal G_j$ 是同一个 weight-zero 过收敛函数，且
+$$
+U\mathcal G_j=0.
+\tag{A8}
+$$
+
+再记 $E=\mathcal L((VG_j)h_2)$。因
+$Uh_2=(\pi+\bar\pi)h_2-pVh_2$，(A2)–(A4) 给
+$$
+-\pi E=(\pi+\bar\pi)A-pC
+      =(\pi+\bar\pi+1)A .
+$$
+故
+$$
+\boxed{
+\mathcal L(\mathcal G_jh_2)
+=(1+\pi^{-1})(1+\bar\pi^{-1})A.
+}
+\tag{A9}
+$$
+所有等式都是完整 q 恒等式与原 proper 杯积的结果；
+无需假定 $e_p=2$ 或某个低阶 Fourier 截断。
+
+### A.2 第三输入可以准确取普通稳定化
+
+令原第三输入的 ordinary stabilization 为
+$$
+h_\alpha=h-\pi Vh,\qquad
+h_{2,\alpha}=4h_\alpha(Q^4)=h_2-\pi Vh_2 .
+\tag{A10}
+$$
+(A3)、(A8) 给 $U(\mathcal G_jVh_2)=0$，而 (A2) 中
+$\pi\ne0$，所以
+$$
+\mathcal L(\mathcal G_jVh_2)=0,\qquad
+\mathcal L(\mathcal G_jh_{2,\alpha})
+=\mathcal L(\mathcal G_jh_2).
+\tag{A11}
+$$
+这是在同一个临界 functional 下证明的精确替换；
+不把 $h$ 的两份稳定化作为同一个全局 Chow 向量。
+
+定义实际 depleted 输入
+$$
+\mathcal H_{\nu,p}
+=4\,(\theta^{-1}g_j^{[p]})(Q)\,
+             (g_k-\pi Vg_k)(Q^4).
+\tag{A12}
+$$
+它仍保原2处相异退化和3、17处的全部局部向量。
+由 (6)、(A6)、(A9)、(A11)，
+$$
+\boxed{
+\mathcal A_{\nu,p}
+=
+\frac{1-\pi^{-1}}
+ {(1+\bar\pi/\pi^2)(1+\pi^{-1})(1+\bar\pi^{-1})}
+ \,\mathcal L(\mathcal H_{\nu,p}).
+}
+\tag{A13}
+$$
+也可记
+$$
+\mathcal E_\beta
+=(1+\bar\pi/\pi^2)(1+\pi^{-1})^2(1+\bar\pi^{-1}),
+\qquad
+\mathcal E_{1,\beta}=1-\pi^{-2},
+$$
+使 (A13) 的因子恰为
+$\mathcal E_{1,\beta}/\mathcal E_\beta$。
+这些因子都非零；没有将其预先认作单位。
+符号中的下标 $\beta$ 指原第一形式的 critical root $-\pi$。
+
+最后，由 (27)：
+$$
+\boxed{
+\mathcal A_{\nu,p}
+=\frac{\mathcal E_{1,\beta}}{\mathcal E_\beta}
+ \,\mathscr P_{f,p,\ell_*}\,
+ a_1\!\left(T_{\ell_*}^{e_p-1}
+                 \mathsf P_p\mathcal H_{\nu,p}\right).
+}
+\tag{A14}
+$$
+因此 (A12) 与 (5) 是同一端点值的两种完整输入，
+比较因子已经逐项支付。$\mathsf P_p$ 仍不可删去，
+也没有把 (A14) 改成一个 ordinary-forms 投影。
+
+(A12)还明确给出可供后续变权使用的来源：
+第二形式固定，使用实际 $\theta^{-1}g_j^{[p]}$；
+第三形式取通过 $g_{k,\alpha}$ 的普通 CM Hida 支。
+把该支的 weight-$x$ 形式写成 $\mathbf h_x$，则
+$4\,\mathcal G_j(Q)\mathbf h_x(Q^4)$ 是 weight-$x$ 的真实
+过收敛输入，在 $x=2$ 恰为 (A12)。
+这里的 $4$ 固定为本篇端点规范；若选择另一套变权 old-vector
+规范，必须保留相应的显式解析标量。
+本附录不由这份来源的存在推出某个临界三重积函数的非零、
+不把其对偶 period 认作 $\mathscr P_{f,p,\ell_*}$，
+也不新增 R814 canonical 类比较。

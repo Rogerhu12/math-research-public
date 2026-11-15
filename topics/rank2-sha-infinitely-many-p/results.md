@@ -278,3 +278,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [共同Cartier插入与固定载体](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：固定torsion笔记§10–12已付共同纯不可分曲率域上的完整普通迹零，以及原Cartier行的非中心插入−Tr(M_fνD^(p−1))|q。循环迹严格降至同一固定M²载体，四原点矩阵全为ανeO、charpoly为T^(M²−1)(T−αν)，det(I+ΣuνBν)=1+Σuναν；保全部真实初始值、p³极帽和CM frame。未将普通迹零当首行零，也未从固定载体推出非零。
+
+
+[R838 原端点p-depletion增补](results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：附录A在原q/q⁴端点下用真实U作用与exact θ(G_gG_h(Q⁴))逐项消元，给Hν=4θ⁻¹g_j^[p]·(g_k−πVg_k)(Q⁴)及AJ=(E1β/Eβ)·P_f,p,ℓ*·a1(Tℓ*^(e−1)Pcrit Hν)，其中E1β=1−π⁻²、Eβ=(1+barπ/π²)(1+π⁻¹)²(1+barπ⁻¹)。原第二项已计入，depleted primitive的U零使第三输入可准确普通稳定化；全投影/e/原局部向量与归一保，未付读数非零或canonical比例。

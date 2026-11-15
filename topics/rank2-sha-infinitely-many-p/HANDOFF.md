@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：ccc94341bcab2c33e4732fcb9d6bce517b6243f3；2026-11-15 23:50:06 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
+- 最近已读规则提交：710720bf4075a7c952e0d72159523e6a02689770；2026-11-15 23:50:46 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -25,7 +25,7 @@ R832真正Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，原全轨道值/BFH/KL/C
 R835固定λ与type(1,0)的ψa，导子c+c^c=OK迫γa=λ/(Nψa/ψa^c)根数−1：原2/3/17比角色恒1，新增split反射/全局−1齐付。故同最高λ三低权张量复秩≥2，不能保原simple zero/三mixed rank0；不排其他critical路。
 [高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)保YZZ Δv=Θv+2Ev的σ尖点投影，Eisenstein性未付；λ⊗λ∨角色相消不杀坏位误差，新ASW范围未覆原平方导子。Marannino非CM门、CG2导子互素门均保。[BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)原(2,−1)不由所引BDP12证明，刊本未得，不断言错误。
 
-R838原f完整critical块A_p=E[t]/t^e、exact=mM；实际良好惰性ℓ*使t=Tℓ*。a1(Tℓ*^(e−1)Pcrit Fν)准确读同一cohom商，三端点AJ共用非零P_f,p,ℓ*/(1+barπ/π²)。Htop由全e系数归一唯一，cup顺序/原X1尺度保；不预设e=2。Pcrit随p并读无限尾，不能删原第二项或认固定tame投影。指定读数非零/R814比例仍开。
+R838原完整critical块A_p=E[t]/t^e、exact=mM，良好惰性ℓ*可取t=Tℓ*；a1(Tℓ*^(e−1)Pcrit F)读cohom商，三端点共用非零P_f,p,ℓ*，不预设e2。附录A逐项exact/U消元把原两项改为Hν=4θ⁻¹g_j^[p](g_k−πVg_k)(Q⁴)，AJ=(E1β/Eβ)P·a1(Tℓ*^(e−1)Pcrit Hν)；E1β=1−π⁻²，Eβ=(1+barπ/π²)(1+π⁻¹)²(1+barπ⁻¹)。原第二项贡献/4与全尺度保，因子非零不预认单位。Pcrit随p读全尾，不可删；指定系数非零/R814比例仍开。
 
 [原E17 Katz三方向](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：同双变量二次项A(X²+Y²)+BXY给a2+ +a2−=4a2π，须先运输各原中心归一；真实M20/M11/M02模p³比较和全Sha无限时直接K∈(X,Y)^4⇒各矩p⁴齐付，无指定矩无限违约或j0外推。
 
