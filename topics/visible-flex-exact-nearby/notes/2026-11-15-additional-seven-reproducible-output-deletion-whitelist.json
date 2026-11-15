@@ -1,0 +1,88 @@
+{
+  "kind": "metadata_only_additional_reproducible_output_deletion_whitelist",
+  "repository": "Rogerhu12/math-research-public",
+  "immutable_restore_commit": "cd35520c121fafb4914a23f883b7b78a5668c2df",
+  "actual_metadata_body_reads": false,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over56.json.gz",
+      "git_blob_sha": "c54027df44312efbf57fe8f4c137829d8dec9537",
+      "bytes": 312359,
+      "sha256": "30001c1a7e7de13e89924163cdbf79c95a5a1e2269430d9f5ee93038c12f2e80",
+      "classification": "completed or explicitly failed reproducible directed-computation output; exact scripts, parameters, success/failure scope and output identity retained in original small manifest and proof",
+      "classification_primary": "notes/2026-11-12-R73-small-parameter-angular-strip-frozen-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over48.json.gz",
+      "git_blob_sha": "6a4cdf5038e6405c45a2d59a515bc6e447641e04",
+      "bytes": 301976,
+      "sha256": "a1846d8cdf3db47d82c876c96bf80971e1356b7454d88c5816b5449d2110985c",
+      "classification": "completed or explicitly failed reproducible directed-computation output; exact scripts, parameters, success/failure scope and output identity retained in original small manifest and proof",
+      "classification_primary": "notes/2026-11-12-R73-small-parameter-angular-strip-frozen-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_second_gap_1over48.json.gz",
+      "git_blob_sha": "d9b3cc79cc5d71303e0155584a570238cf8a1ae9",
+      "bytes": 316756,
+      "sha256": "5676d00ce8f09d10dda6aec1ee3302d1a457ded0d7c24082d0fd5ef44a5dde31",
+      "classification": "completed or explicitly failed reproducible directed-computation output; exact scripts, parameters, success/failure scope and output identity retained in original small manifest and proof",
+      "classification_primary": "notes/2026-11-12-R73-small-parameter-angular-strip-frozen-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density419.json.gz",
+      "git_blob_sha": "3f23dbb07059cb8e9c86273f31066f2bf468358f",
+      "bytes": 186816,
+      "sha256": "dd78e021c15430005cfbcd15de5909db56d34a5b684732066f32f2890a7a3d2b",
+      "classification": "completed or explicitly failed reproducible directed-computation output; exact scripts, parameters, success/failure scope and output identity retained in original small manifest and proof",
+      "classification_primary": "notes/2026-11-12-R84-actual-parameter-density-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_local_integrals419.json.gz",
+      "git_blob_sha": "19f610bcc7e61bcfde1f6343a8340718da3e34e6",
+      "bytes": 219568,
+      "sha256": "608456edd77e9e23bf4ba94add65bd237bed03c76a042804baeea127f63adc0b",
+      "classification": "completed or explicitly failed reproducible directed-computation output; exact scripts, parameters, success/failure scope and output identity retained in original small manifest and proof",
+      "classification_primary": "notes/2026-11-12-R84-actual-parameter-density-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_uniform_parameter_density419_h1e12.json.gz",
+      "git_blob_sha": "9143a4d5f25ae564ead89634b51dd23f4ddae0c6",
+      "bytes": 214105,
+      "sha256": "31906f61f726168a541c387dfc7d5008a0fc1b0003a95238b4d9485ea40ddf12",
+      "classification": "completed or explicitly failed reproducible directed-computation output; exact scripts, parameters, success/failure scope and output identity retained in original small manifest and proof",
+      "classification_primary": "notes/2026-11-12-R84-actual-parameter-density-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/R111/ac0d_complete/complete_cap_parameter_comparison.json.gz",
+      "git_blob_sha": "00ddc6d579f4dbd1874a15f8bba045556806f71d",
+      "bytes": 458332,
+      "sha256": "02b2126762e9a3aff3313637aab97d3b7d7081826170e54a4d993e9acd7d9282",
+      "classification": "reproducible full collector output; four original commands, exact source intervals, original output SHA and complete flag retained in execution_manifest; small complete_cap_parameter_summary retained",
+      "classification_primary": "data/R111/ac0d_complete/execution_manifest.json"
+    }
+  ],
+  "exact_metadata_total_bytes": 2009912,
+  "original_small_manifests_and_proofs_retained": true,
+  "no_input_seed_or_source_deleted": true,
+  "normal_deletion_only": true,
+  "no_history_rewrite": true,
+  "restore_instruction": "git show <immutable_restore_commit>:<exact path> into temporary runner work, then verify original bytes/SHA; no successful mathematics rerun",
+  "proof_metadata": [
+    {
+      "path": "notes/2026-11-12-R73-small-parameter-angular-strip-frozen-manifest.json",
+      "blob": "43a56f453f85997fa39feec76c13db2367c5eef4"
+    },
+    {
+      "path": "notes/2026-11-12-R84-actual-parameter-density-ready-manifest.json",
+      "blob": "bcc7c0661252bf637c12ae906789e67d9b8ba461"
+    },
+    {
+      "path": "data/R111/ac0d_complete/execution_manifest.json",
+      "blob": "fc3f694606b2a30b3f094005c65587abf314f9cb"
+    }
+  ],
+  "source_tree_metadata": {
+    "phase_ring_continuation": "aa6264454c19c0caca79137c3a935032a0e98cca",
+    "R111_ac0d_complete": "15b3c4e1e7809caffa16aab660e1836bd6bd25e4"
+  }
+}

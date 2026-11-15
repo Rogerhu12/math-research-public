@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 11:43:52 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 11:44:43 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机最后真pull：11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 11:22:44定时及11:14非FF即时pull仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读Green27次README空diff，最新11:24:29→391f90372f1f2eed07b1fca0a8808c44f2738c0f；第三diag真pull11:26:58→89e8efa9e47abeda59747ccafdb5d8a494f2aa1a两README空。ref不冒pull，每小时CLI继续。
-最近只读README核：77b2125f968bbcc13025c4008cedbee45d02192b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：c998a7aa88112e4c31236540644fe40b10176ac7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、对象和最终族
@@ -39,17 +39,15 @@ S/19071536…三HY条件消费：pY=√||HY||，ε=max(||S0||,1)||HC0||/5，τ=�
 GH/0ffb191a…证完整R:H(s−4/3)→Hs右预条件门χ=128CsΛJ^-1/3<1、graph域逆及高窗bootstrap；同δ身份、physical/phase finite border与两物理输出必须实付，phase-tail不冒HH。H22保离相位约束的E′a乘法项；C0≤1/32仅目标。
 V/58eccc17…现付真实moving h=v(L)−v0(L)到physical γ=Pne(C−Ĉ)：hH1≤1e−9/128、hH8193≤2^393000足S两门，完整mean=1/m保。直接(j^-1∂φ)^q一high≤2^655360，无unknown复角；实际trace两门及全B函数/Cmean仍待core解。
 
-## 完整tail网络、粗种子与非线性far
+## 完整tail与同一几何对象
 
-N/J/A完整network与3径source→4径state、loss1734/bg1796保持；D/O/HT两N2低门/最高反馈已成，8388609/33554433及未screen Dact不变，精确账见71e2264旧H。
-P/G的同94/Gseed E8192<2^-54866996、source<2^-5275847456锁定。RG/90acb31e…给粗γ的同种子；E'>39194024、B宽7L/16与真实端分离保。Γ2(a94(γ))可变，每固定γ后冻结。
-S/aba52db8…§11在实际γ A0/rγ≤1/128、H8193/rγ≤2^1048576付exact body+far；U=w+L∂qγ(f)，fL∂=0使J逆nilpotent；E_s^+加2^440||fB||H(s+3)，额外端导由真两行恢复。affine/非径linear/二次项、两comm、mean/Hp独立保，1734/1796不增。
-ρ+=2^-33554432、C+=2^167772160(1+Bbarγ)^8、T0=2^1500000，3500/400归纳给F=0、bγ=0、holonomy，E1856差<2^-1700000000。端核5530265<6291456，最高窗不扩。
-S40–41/T/db1253a6…已给物理C²整盘和全角作用。C/0ada0f96…新证同RG seed确定的γH8193→exact tail E1856+连续、fB H1859统一<2^-54865000且H2相对紧；真实weighted Γ2/共同reference/完整holonomy proxy差分及6396插值全付。仅连续，未授C1/H0-Lip/core selfmap；Hp/第二Γ真实列不能删或冒R fixedmetric tiny列。
+S/aba52db8已在真实γ A0/rγ≤1/128、H8193/rγ≤2^1048576上付exact body+far：F=0、bγ=0、holonomy，E1856差<2^-1700000000；1734导损/bg1796、低20/源1794与最高6396窗、额外B端三导/全部mean保，精确网络N/J/A/D/O/HT账见71e2264旧H。RG/90acb31e给同94种子，Γ2(a94(γ))可变而每γ固定后冻结。
+C/0ada0f96证γH8193→确定exact tail E1856+连续，fB H1859统一<2^-54865000、H2相对紧；真实Γ2权、共同reference、完整holonomy proxy差分及6396插值均已付。只连续，未授C1/H0-Lip/core selfmap；Hp/第二Γ真列不能删或冒R fixedmetric tiny列。
+S40–41与T/db1253a6已付物理C²整盘、全部角作用与条件同轴；完整输入域/参考及一次height/frame续接见原篇。新的有限Sob外部几何不需旧解析标签，core/fullC0/相位/内匹配仍独立。
 
 ## 单G几何与继续执行
 
 T/db1253a6…接M/6ead36a1…：同B全四态/曲率mean和一次height/frame续接；core须解完整B/C/Cmean、腰u0、原physical第四Robin/mean及P16设计ν相位行，振幅为输出，不另加固定α行。腰a'=E'=B=0镜像后两真盘同轴、同材料equivariance。自由安放没有两个独立世界锚；实际给定荷仍保。
 G/d468f875…现直接证新E1856 exact外部的曲率<2、length<8e−6和同world位置/normal，保κ；零宽long差分商补mean，先乘w/a支付大A。旧B/d3b5e0de…的完整141锚费、整数mean锁定及43584188751/26几何门已全部成，不重算。尚需同G的fullC0≤1e−4/|δν|≤1e−5/η0、全core/phase匹配及γ低/高域，才授最终几何；不另留bF/bQ或旧解析标签假设。
-旧R80/R57/R56普通删除/恢复链全见71e2264旧H。P actual在d830399时topic199565991B、两报告投影199609669B，仅该次；newton正找可删自然旧data以维持200MB硬限。
+规则15新增普通删除7件旧可重算R73/R84/R111输出2009912B，清单7cd779e4/5792B；恢复cd35520c121fafb4914a23f883b7b78a5668c2df:原path后核bytes/SHA，禁重算成功。旧R80/R57/R56链见71e2264旧H。P在d830399时投影199609669B是旧时点，当前每消费者另核200MB。
 继续Green三HY→实际完整Schur、L1/强返回/truehigh、实际core/ν/waist全匹配、真实core图/γ迹门与连续tail闭合、单G全域几何。子问题完即接open下一项；未达总验收不收尾，不等用户，不因时长停。
