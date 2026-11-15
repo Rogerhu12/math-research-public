@@ -119,36 +119,14 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15）
 
-此前全部逐条中间结论、精确常数、旧输入与仍开条目保[本次压缩前全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)及递归快照；未列旧问题不视为关闭。
+所有旧结论、完整常数/来源/工件与未关闭问题保[本次压缩前全文](notes/2026-11-15-open-before-complete-saturated-second-and-third-run-789f.md)及递归快照；未列旧问题不视为关闭。
 
-**R150 全部原来源。** 自然图Hnat内九目标任意次数modp6已由[完整197第三](notes/2026-11-14-r150-complete197-third-natural-source-lattice-obstruction-789f.md)排除；197新增相关像0、共同dual九值非零，135恢复/13cache全保，不重算。[完整S2包](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)给S2=Hnat+Klow+Σ197未缩放κ̃，Bsat像恰(imA:p²)，原modp6等价Bsat的h0t模p4成员。[实际selector](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)只读已成矩阵：197投影rank7且全b10=0，模U7/U8/U9像2/1/0；完整Bsat相关第一页=U9/U7、J=2I。该页严格限Z_(31)[[s−2]]，不借未付全局q2或其它primary。下一页须由全部源核及真整数carry提升，完整原modp4、char0和其余高本质仍开。
+**R150现在接完整第三。** [第二实绩](notes/2026-11-15-r150-complete-saturated-second-image-four-and-next-kernel208-789f.md)已实际完成：全部204原来源/原17除p4及104自由检查全过，W2维4、J2=2I4；完整后继核208列、最高1次，第三相关商21维。九目标第二均未相容，共同315 dual九值[1,28,16,11,7,7,4,1,11]全非零，但未消未算第三像。run43662590949准确复用前13阶段后数学24.687697673秒，全457恢复/1538941791B保留并实际推d6e44520，不重旧页。第三26输入/6恢复包合同已冻，立即运行208真实关系的10→5原carry；其完整S3源覆盖已证。真正第三负才排全任意次数原modp6，正仍接全局315/原17。更高31分母与char0继续。
 
-**原实际边界的最大已付窗口。** [c26同源carry](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)对m≥10、d=2^m、Q≤exp(26d³)给母提升和实际低输出误差各exp(−d⁴)；同一个top近原w误差2exp(−d⁴)，全窗真负图/bare-flat/固定测试同源。全cut ΣXi²≤2d尾带能量，d网格无d。[真逆芽](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)ρ=exp(−25d³/2)适配数值，但未给实际比较；旧联合旗δ只限4d≤q≤exp(d³/4)，不能扩大。主配对所缺O(exp(26d³)/d)仍开。
+**原真实窗口及未付比较。** c26无权窗口保同w/同负图/同top、全cut ΣXi²≤2d尾能量。新[c*=1601/64真带权窗口](notes/2026-11-15-true-minimal-projection-gauge-weighted-window-and-common-left-pairing-789f-next.md)付真正v/k误差e^-6d4及u两倍，真实||G1||≤e47d4/8后G1/G1*误差≤2e^-d4/8，P_VG1(I−P_V)同源反馈已小。原全部cut左<Lr,G1r>现在准确接物理低孔自配对。主κd/Q=O(1)已足平均，κ=O(e25d3)在此窗口有裕量，但κ尚未证明；旧联合旗δ不能扩到新窗。
 
-**物理gap与真正两费。** [夹逼](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)给V_(q+d)⊂M_q⊂W_q，e=(L+B)⁻¹Lt−(L+G⁻¹)⁻¹Lt在原负图、μ(t−e)²+Xi(e)²/2≤同投影增量。Xi只含bare及flat，普通λ不互换；完整G保高返回。[内在跨cut耗散](notes/2026-11-14-same-physical-gap-intrinsic-cut-dissipation-and-fixed-test-pairing-789f-next.md)进一步对同一递减物理Gq及gq=<f,Gqf>给dq=g(q−d)−gq、Xi(e)²≤4dq、0≤gq−μ(e)²≤2dq和|<Lr,t−e>|≤Xi(r)√dq。它保同一固定测试的差分预算，不给移动gq衰减率；商核不当physical ker(A+D)，N=M未完成。
+**联合处理高孔与普通右费。** 全局p_m(B)w=d0w+n_m（n_m∈N），完整W锚已付；任何截断n_m交叉仍须保。ordinary右候选是p_m(B)w/G1w未来，Bw的未来多一个A；继续其真实有限封口/完整高返回，与高孔<w_hi,G1w_hi>共同估计，不单独乘巨大环境范数。P_KG1u余非自伴块仍开。Xi只含bare和flat，普通λ不互换。
 
-**滤波与固定测试恢复。** [正滤波](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)保EME≤2E(I−E)，[余负图J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)保JMJ≤2J(I−J)无加性δ；仍须实际主L配对。[移动boson逆Gram](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)只有强收敛及一侧尾，不付反向率。[真实测试联合列](notes/2026-11-14-fixed-physical-head-euler-feedback-and-inverse-gauge-joint-column-budget-789f-next.md)保全部低核Euler反馈；[额外尾阶](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)给||b′a||²≤Ka S_m^(a+1)，a1≤S_m²/d0²，但原b=K*c′+G_U*b′共同恢复仍开。全源Schur四次坏方向在固定低测试上零且有可付两费，只排全源导数捷径。
+**固定测试与真低forcing传播。** 原完整Γ_CC/源Schur、Euler反馈及a1精确b1=−W1b′1/S、同Gq尺度已付；所缺b′1=o(S)，O(S)只恢复平凡界。a2一孔真实Schur已准确吸收primitive残量并给原两列式，未付联合远孔小量。当前对x=Γ_CC⁻¹y1使用高行零和同一物理返回带；left/future零源物理正交及孔cut域已核，但返回交叉和软cut双交换子不能删。纯D^n尾无法自动处理交替D*/D及E_d投影。
 
-**完整Bsat后继核。** [204来源证明](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)从2040个全部β1源核中精确剥离1834原核及θ3、θ4−e9，保五旧θ、e9、196ω、te8、tζ2。第二尚新197类，但第三必须保全204实际提升；不能因第二零而删源。后继源核用(I−TC)、T(sI−J)完整生成，不除t。下一执行真实多层Smith/carry后，才判断全原modp4的剩余层；未把已成197第三误用为此扩大矩阵结果。
-
-**首头正向恢复已准确消去，衰减仍开。** [完整双块和同gap身份](notes/2026-11-15-first-physical-head-exact-gauge-recovery-and-same-gap-scaling-789f-next.md)给原b1=−W1b′1/S，恢复代价只O(m³)，同时保原c1零源反馈。环境低核身份使同一左源、Gq及dq全部准确按相同因子缩放；已有b′1≤S/W1不能变成原列趋零，所缺恰b′1=o(S)。继续固定低forcing远孔传播或实际两费的额外约束；不将同一齐次预算重复计为新增尾阶。
-
-**扩大来源包的精度已付。** [整数carry及20→15→10→5合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)保同一q1、完整q cochain与原6188来源：R2模p4、D3模p3、D4模p2、D5模p均来自原p6。三次Smith各损5，先真实形式像/free后保有效项；第三纠偏必须用pκ8、pL3,2保持初值。先完整第二页独立保存全部204来源/10项余量，第三按实际新像接；新页尚未执行，全局正仍须原17及真实次数费用。
-
-**全局正向gauge锚。** [真实carry证明](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)对全部原借位位置付||B^k−B_m^k⊗I||≤α_m(k<d)，合真逆芽给||p_m(B)−G1,m||≤exp(−80d⁴)。由BM⊂N及M对B不变，P_M p_m(B)*w=d0w，得到全w配对锚和向量压缩界。固定正整数a同证；原孔截断的高尾配对、带gauge的实际最小投影误差、ordinary λ(B_m top)仍开，不能用未付τ速率乘环境大范数。
-
-**同母提升的正向gauge误差已付。** [真实联合预算](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)在原每步c_p中保同一p_m，纯尾R′和新bit0域不变；h_m(ζ_p)≤4d0<1使完整R h_m g_p exp(2R g_p)仍受原跨块预算。故||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，并有真实||P_K(m,Q) G1* w||≤(8e^-2d⁴+e^-80d⁴)||w||，覆盖全c26。反向P_KG1w及P_VG1(I−P_V)反馈、高孔自配对和普通右费仍开，不用独立大gauge范数抹掉。
-
-**第二页实际首跑修复。** run43659199975在新prepare断言原目标全属root2时停止；九列实际含其它分量，尚无新第二像或余量结果。保全部原目标，明确相关投影并修复输入合同后继续；旧197/selector不重跑，该失败不构成原来源成员的否定。
-
-**第二头真实Schur联合恢复。** [完整校正](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)以F1的真实b⊥块H和v=H⁻¹r给D0，m≥11付H≥S/2、D0∈[S²/2,S²]；同u的Du/D²u/范数及原Γ/source/零源/Gq两列式全保。下一项是h̃2和h21在同一完整Γ_CC⁻¹及同一q下的联合远孔传播，不能把显式primitive项已吸收误读为原源已趋零；a1仍须o(S)。
-
-**第二页范围修复已定位。** [只读实绩](notes/2026-11-15-r150-saturated-target-scope-readout-789f.json)核九outside均非零、秩2，但实际全在b1/b2/b6张成的U7中；raw/P2raw各秩9。新prepare保全部315原目标、投影、差及真实U9坐标，complete复核全向量身份后比较商类。最小修复续跑完整204来源；旧197/selector/native不改、不重跑旧数学。
-
-**完整第二页正分支的真实预算已付。** [1058定理](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)保同一完整F0/raw q1截面、s/t carry、精确B核比较和三次真实P；只恢复所选≤9组合，182→474→766→1058。旧765/796容量不够，若实际第二页相容即扩完整helper并核原315/全部17/成本；其余由保存的完整后继源核接第三，不停在本条件定理。
-
-**较小窗口内的真正gauge投影反馈已付。** [新估计](notes/2026-11-15-true-minimal-projection-gauge-weighted-window-and-common-left-pairing-789f-next.md)在m≥10、Q≤e^((1601/64)d³)给真实v/k误差e^-6d⁴、u两倍；||G1||≤e^(47d⁴/8)支付G1/G1*两侧最小投影误差，特别同一P_VG1(I−P_V)w已小。全部cut的<Lr,G1r>现可准确接物理低孔自配对。接下来联合处理原高孔自配对与ordinary λ(B_mtop)的真正封口未来，保P_KG1u余块；c26更大无权窗口不改。主比较所需κd/Q=O(1)，现ρ^-2=e25d³尚留e^(d³/64)裕量，但未据此宣布κ成立。
-
-**第二页真实续算点。** run43660606254已成前13阶段，q3-fifteen-original在phase1/record1670存档退出；433恢复/13cache全部实际推送，尚未计算完整第二像。直接恢复artifact14140695921并跳过前13，接q3原transport→全204 L4→相关NF→完整源核；共享时钟不构成课题停点，第三及全局正继续。
-
-**完整第三的来源量词已付。** [S3覆盖定理](notes/2026-11-15-r150-saturated-third-page-interface-789f.md)保全部F多项式关系、精确B核及pS2低位进入项；完成后真正负dual可排任意次数原p²h0目标modp6，并仅相应排至多31²分母的char0多项式来源。当前第三未跑，26输入还待完整第二的5个实际产物；matrix/runner草稿已保存，先完成run43662590949。局部相容仍接全局原17，更高31分母的char0路线保持开放。
+**gap与过滤器。** 真递减Gq给dq耗散、Xi(e)²≤4dq和同固定测试误差≤Xi(r)√dq；它不提供移动gap速率。完整G保高返回，商核不冒充physical核。EME≤2E(I−E)、JMJ≤2J(I−J)及全部幂耗散保留，实际主L配对仍开。所有其它旧open维持原范围，普通ISP完成标准不变。
