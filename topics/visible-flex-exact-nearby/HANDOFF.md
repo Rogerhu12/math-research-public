@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 10:02:47 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 10:03:13 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步与恢复
 
 只在public Rogerhu12/math-research-public和自身Actions做新数学；本机/代码模式只文字/静态核。每结论独推；非FF立刻真pull --rebase并循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 09:28:36定时/09:54非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull09:53:48.349228→af766074f7f7c5a583d5028ec25cf934e8f726ad，两README diff空；ref不冒pull，每小时继续CLI尝试。
 根规15：可重算data/证书/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB。普通删留历史，旧成功数学禁重算，失败lost temp明确重做。原inputs runner从immutable公开commit/path或旧artifact临时恢复。无executor例外connector只UTF8<100KB，禁binary/gzip。H≤10KB/open≤30KB。
-最近只读README核：457cfe15e14e7a176629fc2bf2e22d17d003e979；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：d50c20fb34e7d51eb64ba6274c8b341e36e8f931；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：cb5f156113af15290124329363032f961afa4316:HANDOFF.md，串3ed8919/e10f0c7/13e7795/7abd313及notes/2026-11-15-handoff-before-new-object-94-chain.md；所有旧输入身份/成功/失败/restore链/未付门不变。results与open逐字归档均由前H和当前open链接定位，不取消原义务。
 
 ## 总验收、同对象与参数身份
@@ -45,7 +45,7 @@ HT/fae2b820…完整high/source账已付：最高新反馈2^-608928，三high位
 ## 新94链、种子、迭代与frame
 
 P/83381f93…同fixed-stop94链已付；reflection同物理轴/全复标签，wide incoming/mixed另付。Ra2^-55000000、β94=66624、far<2^-5280041760。G/7570b240…真实B collar d2^-1024/单侧5jet Hermite、原首q transition/aw比/全mean源3jets；整个p族负输入不变→Γ1值图准确不变，Γ2冻结。种子E8192<2^-54866996、source Zs^[3]<2^-5275847456，κ/一λ/第五broken跳保。
-B/7ad04c3b…Nash a1856/b6396、p3000/Tnext=T^5/4、v=S_Tu/w=−R_vS_Tf无二次截断；high3500/400、低−4220、高1*T320+C*T274。若另付B*≤2^6000000，T0=2^1500000使实际初门全过；单个G的完整augmented Schur、端列/Hp/设计ν/commutator仍未授；族按P几何构造，不另造ν族IFT。
+F/16b2f923…实际body Nash已付：固定γ的原Aσ/128输入，真B迹nq+fq<2^-430 E(q+32)，变化high仍留E；固定Bbarγ<2^2097152，T0=2^1500000/全部初门已过。原a1856/b6396/loss1734/bg1796、3500/400归纳给完整body F(u∞)=0。不是全闭G：nonlinear far/inner、Hp/mean-height/ν/端口Schur仍待。原B及全参数身份保；族按P几何构造。
 T/5483db28…单frame已付：Ωt=q(1+K)(V−P)/(B√D)，dΩ=qJD^-3/2 residual；真PDE+全Cauchy/mean才由一个frame/位置周期重建。off-shell种子非等距面；两已指定端frame/全mean/未screen跨度/一λ保。
 
 ## 体积与下一执行

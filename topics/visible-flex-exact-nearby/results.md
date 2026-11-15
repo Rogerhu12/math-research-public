@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **同一个实际种子的完整 body Nash 存在性已付**：[F附篇](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)，13091B，SHA256 16b2f923cd6d251c9ca29bddc2c4d02ef1929004bba94547595ae65931eaeb23。真实finite state/高度单位给nq+fq<2^-430 E(q+32)，固定γ外系数Bbarγ<2^2097152；所有变化high只出现一次，T0=2^1500000全部常数及实际初残差门成立。原3500/400和1734/1796归纳给body F(u∞)=0、holonomy和内部真traces；nonlinear far、内帽、mean-height/frame和设计参数尚未联立，未称全闭G。
+
 - **完整 genuine 负侧源的复用合同已证明**：[C附篇](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)，16352B，SHA256 98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4。同已成功G15 fold/profile的正线性预算可从旧算法输入数的严格lower回读系数；三raw local、两准确J窗口、九有序词、五旧mean和独立physical mean均保，真实dr与uncertain-root积分单侧收费。不重算成功profile/norm，不从upper减项，不冒正graph或strong-return；实际消费待CI。
 
 - **锁定旧参考的帽Poisson比较现对新高度全球统一**：[R13a–b](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)，11379B，SHA256 e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6。同W_hat、同metric和物理θ上，I9对整个新fB球统一；旧D0/H0/K0(fB0)完全锁定，端导差.006006/.000751不要求fB1=fB0，故K*(γ,fB1)−K0(fB0)<1/5。接完整tail列后<1/5+2^-52000000，所有97/未知high/mean/affine保；不扩张到变metric或current-angle识别。

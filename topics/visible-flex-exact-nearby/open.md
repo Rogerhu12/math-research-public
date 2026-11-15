@@ -212,13 +212,18 @@ L10返回映射准确相同，经L15唯一性Γ1准确不变；
 原far残差不能直接当ordinary源，但这个转换现已做完。
 修补区仍有非zero PDE residual，要由迭代消去。
 
-若同一个actual外部问题另外支付B*≤2^6000000，
-T0=2^1500000满足原有限Nash全部常数及实际初残差门。
-B*和全augmented入口目前仍是独立未付项。
+[F固定实际帽输入与body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)
+现已用真实E四态B迹支付nq+fq<2^-430 E(q+32)，
+把随u变化的高背景显式保在原E(s+1796)，抽出固定Bbarγ<2^2097152。
+对原γ Aσ/128输入（含γ=0），T0=2^1500000的常数门、低球及实际seed源门全过；
+原3500/400、1734/1796全部归纳给同一u∞的完整body F=0和holonomy mean。
+这是实际body存在性；nonlinear far端口二次残差、内帽/waist、height/frame和设计ν
+仍须联立。不能把proxy每步满足linearized外行当作nonlinear端值保持。
 
 ## 6. 当前主攻：实际外行、两独立N2门与完整增广迭代
 
-root处理实际Φ→long局部form/tame；
+实际Φ→long局部form/tame、完整high/source和固定γ的body Nash已付；
+root/tail继续nonlinear far端行及全增广匹配。
 [D完整两actual外传输](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)
 已付全finite connector/Poisson后的weighted差合同。
 同short及明确zero-input真fixed-CR reference保finite反射/EB0，
@@ -226,7 +231,7 @@ d1792是±1796的真实physical Hhalf→H−half差，无sB归一。
 先单独闭正片半阶Neumann、再high/deep，最后Lnew ΔU Rold保全部长程；
 完整双逆v#差<2^3000000 d1792，d≤2^-3500000足付第二N2门。
 B源→remaining<2^1500000、相容完整tail→normalized fB<2^3100000/sB，
-独立mean/flux/height/λ均保。root实际O局部门及新高常数账继续。
+独立mean/flux/height/λ均保，O局部门与HT新高常数账已成。
 
 [N两层全网络](results/R119-supplement-two-level-full-network-tame-inverse-and-complete-sources.md)
 在低R1856≤2^-8192000、高至8192仅finite时付原proxy及projected

@@ -309,3 +309,7 @@ root重读I.1–21和M.1–4；newton独立回读X/M、S.10–13及实际outer_d
 ## 2026-11-15 10:02:47 UTC — 同成功G15的正线性回读与完整负源recipe
 
 root全文读C final be1625f69c3902bead4c3d2a7cc0185dff7aef31，16352B/SHA 98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4；newton亲读V/G/U后窄核C6–19及C1–5逻辑，phase核输入成功receipt和1328原行。B=−iεI+ΔB与w1rr只作准确加法拆分，C14两J窗及CV1再付项没有删旧mean或普通source；实际输出尚未声称存在。单结论独推，只读main 457cfe15e14e7a176629fc2bf2e22d17d003e979 两README未变。继续同原cover的实际source CI，不重复任何已成功数学。
+
+## 2026-11-15 10:03:13 UTC — actual fixed γ 的外预算、真实seed与body Nash闭合
+
+root全文读F以及原A/B全文核同域、source单位、投影残差与端口边界；newton独核E.2/3/17/22→O13真实81·2^-440迹费，phase核固定高因子和全部幂。F final61d12e570edb9910286010fcfb1379ca53dd91f7，13091B/SHA 16b2f923cd6d251c9ca29bddc2c4d02ef1929004bba94547595ae65931eaeb23。不是取sup_n Aq，固定Bbarγ乘显式E高状态；same γ=0或原Aσ/128均有actual seed，全部body Nash入口已付。F(u∞)=0不自动消nonlinear far/inner/height/frame端行；立即继续这些真实联立条件。D.2现行aec404…已是正确μT，误读旧摘录不修改正确正文。单结论独推，只读maind50c20fb34e7d51eb64ba6274c8b341e36e8f931两README未变。
