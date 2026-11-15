@@ -43,7 +43,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - [七原方向Dixon1085位](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：run43679903558数学580.880945931秒，p536870923到1085位/31466bit，18重建未返解。原2751核心/1567DAG不重做，native FLINT3.4.0；实际逆30MB/活动槽0的Z/N/p^k78MB已存，全部SHA见注。同out={work}/seven-sparse-dixon-original可接1085。先查同J纯切向小秩上界再定是否需显式七解，未添真核。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
-- 同J纯投影已成：pure144/nonpure4210；I为10纯+132一横+4212高横，删十纯及m6/m7/m8。不据nonpure计数判独立，不免费删selected共动来源。下一核585维二横投影r2，若真实r2=556才夹4318；先小结构，Dixon1085原状态保留。
+- 同J纯投影已成：pure144/nonpure4210；I为10纯+132一横+4212高横，删十纯及m6/m7/m8。不据nonpure计数判独立，不免费删selected共动来源。已排[585维二横原投影](notes/2026-11-15-r150-selected-second-transverse-projection-interface-789f.md)，30s/512MiB；实际r2=556才夹4318，先核完整左核/原乘回及I删3行。Dixon1085原状态保留。
 
 ## 其余仍开
 
