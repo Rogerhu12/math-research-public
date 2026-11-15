@@ -363,3 +363,6 @@
 
 
 - [R382. 实际179首个真实physical-far屏障与未启动完整453](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)（实际完整必要读回）：43749949418/ccf1b023，C1440/cut/deep112及新419profile返回；m2真实rFar在row17/piece3/depth32下闭屏障未正，58paid/110work/.173086674s非资源。全11栈/[18,10387)/111未起及0far/0unit保，H/J/FD/BVP未启动；五原块齐，report failure仅传播原partial，六读回/静止后清。后继184换全实角并接真实可行coast点，原完整系统门保。
+
+
+- [Request183：真实178r3十词的同owner128方向续算](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)：七件/114+11pins，原45→46，仅新producer编排6b55最多16×8，批首fresh10J、固定157尺度/全局2400s，整20拒或非预算stop即止。原全3门/120FD/Arb/453保，128行及trial计数/分类/极值/异常/身份单90KB；大表不搬运，未预填实际R390/native。

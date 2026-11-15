@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-182前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-request182.md)，链回R389、R387与更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
+183前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-request183.md)，链回182及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -52,7 +52,9 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)/[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)/[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)保准确隔离零2jet、同坐标G/H、odd/even全响应span与不交箱max型C²界；共享node不重复，odd零不排除value方向。[R376实际174](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)1397站/602允许全用，负完整slope但20finite域过/full3全拒，ξ0/W同157；120FD/Arb2456叶0未决/453及80909B摘要齐，全部finalfalse，不推全形状驻点或同g精化。
 
-[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）固定新形状与正尺度S，对完整A=JS作AᵀΠ=Q₃R，Rᵀy=−ΠᵀF、z=Q₃y给满行秩时最小S范数联合方向；径向截取保Jd=−θF，完整Cauchy回退也给负准确斜率。明确Q←QH顺序/三方程pivot及准确c_A，形成算术误差、真实非线性余项与固定20档仍分责，不作rank/新阈值门。178独立true157父固定164支撑1/k4；旧九S=.01max(1,|p157|)、Sξ=.01、缩放半径1全程固定，最多8×20/每接受fresh十列，初末120FD与全部原终态保；这不是单减ξ或更换目标。[178完整接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)原八件已发：search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8，原读回身份保旧接口；45当前闭包/112+10源表，2400s child/50science/65job。实际算术失败或非负Newton形成斜率才Cauchy；整20拒绝不在同点机械重试，保全部实际trial/错误/未访后缀单≤90KB。只支持当前157初配方，接受父后继必须真实输出另接；R377/R387/R389已结，183/R390接真末十词；不预填后继改善/native。
+[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)保完整转置主元QR/最小S范数、径向clip/全Cauchy下降；准确代数和形成误差/真实非线性/固定20档分责，不增rank阈值或换权重。[178原接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)固定support1/k4、157尺度/半径1、8×20、120FD/全终门；6b55/3e5不改，R377/R387/R389各自事实与清理范围保。
+
+[183完整续算接口](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)七件已发：57569d47/eed7c6a5/8b9d994b、真178r3十词recipe ea0aa4ea/request6a5ef150/wf a14fc2eb。原112+10逐值保→114+11、当前45→46；同一Decimal50 owner/全局2400s直接调用6b55最多16×8，后续批首fresh全10J。仅原八方向预算词允许继续，整20拒或非预算stop即止；ξ不清零，不用旧九反事实点或重算157固定S。初末120FD/Arb160/14/453投影及全final保，未到达不补成功。128方向/16块必要行、全部trial计数/分类/原极值/异常/身份和未访明确；J/d/Jd/trial核shape，Q/R仅读取/身份，不冒root逐值读。单90KB/reader300s、child2400+90宽限/50science65job，完整必要/wait后清、超限不分包。amplitude唯一核R390，185全三校正独立，无新实际成功预填。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 
