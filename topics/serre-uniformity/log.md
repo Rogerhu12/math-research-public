@@ -309,3 +309,8 @@
 - R804双真实beta来源接口已核并保存：core d8d1a395/wrapper1be08ad8/interface de20f75a，旧/新R792各按实际RESULT/点字段/stage/bundle取源；新请求9a4613b5仍pending，旧请求仅同步合法SHA。
 - root逐行核所有源读取差异，PointArithmetic及reference()以后数学与原稿byte-identical；完整R791由R794 carrier提供，原8节点/特殊点/T7相位/真正vβ及同源核边界全保。未激活或计算任何新点。
 - 2026-11-15T17:11:56.514851+00:00实际pull/read f8ddbc38c9844cecf6f5434ae9bcf9103edf6369两README无diff；旧9591B H逐字同目录归档并缩状态，4个公开数学run继续，主目标OPEN。
+
+### 2026-11-16 01:16（Asia/Taipei）｜serre-public-astra-20261115
+- 原Poincaré/period审计17324B/8676a741全文核并存notes，不新立R：完整坏处零给真实A全局d_h；同一代数UE提升使U_i=2D_i a_i−G_iL_i线性化，保原κ/全局角色标度/非p项与因子2。
+- 原首项仍是(a_i,L_i,U_i−L_iP_i)三列的指定二次period子式；root纸核符号及R785对应，直接读Iovita–Werner§1、Besser原规范、Brion反仿射与Pham2022非交换AST范围，未误推T_p非零或η不变。
+- 2026-11-15T17:14:39.329492+00:00实际pull/read 66d8e9d100ccac2e50a893557dae645d189d726e两README无diff；原4公开数学run继续，主目标OPEN。
