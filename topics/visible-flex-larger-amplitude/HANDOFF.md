@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 20:53:50 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cb792299000b07a353890807d298a5ad29bf3648。
+规则同步记录：2026-11-15 20:55:46 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 50340af71221ecd4f0dcaca58c12b8a2de6f82c5。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -25,7 +25,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |184/R391|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|exact：compute132943014084，新C步骤；真180→fresh C/factory→112far→原453|
 |185/R395|43759673057 /fe5f7cc2bc612d009d25e859a877bf3f9e766ecd|geometry：compute132951426792/report132952034624已结束；唯一原必要读回中，完整结论另刊|
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：compute132950069367，新C步骤；正端点核→真180→全112far→原453|
-|186/R397|未派发，九件已冻|amplitude：原160 same-job真父重生+完整hoisted stage及boundary/endpoint/audit；root审源码|
+|186/R397|九件独立源码已发布，run待绑定|amplitude唯一读实际：真160 same-job父重生/576×224 hoisted stage及原boundary/endpoint/audit；64pins/原预算|
 |188/R399|未派发，五件已冻|exact：R398同一H(t)闭段继承接原175全629gap/17档；root审原事务/受控信号提交|
 |189/R401|尚无请求/运行|geometry：R395刊后从真185末十词续多块原完整校正；原2400s及末门不变|
 |R400连续十族接口|源码准备中，未派发科学|geometry：真continuous10→冻结450 writer/reader/shared guard，不用finite185改标签|

@@ -482,3 +482,7 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ### 2026-11-15 维护：186/188前完整恢复点
 将open原29664B逐字存[检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)，合并已刊事实与重复来源，§4–6完全保留；HANDOFF压缩到当前真实run/源/未付责任。
 185终态由geometry唯一读，186/188源码继续核，189/R401仅预留后继；未增加科学门或把job绿当接受。每pull双README照常核并记录。
+
+### 2026-11-15 request186：完整128后继已发布
+六独立源/request/workflow/20516B接口全部已读，原58→64pins；D6共享与两模态子树外提保原括号/归约及通用fallback，四消费者与原预算不变。
+真同job父重生，单90KB必要及quiet后清，不分包/编码；源码不代实测提速/逐词一致或native，actual R397待amplitude唯一读。

@@ -20,7 +20,7 @@
 
 [R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 43757046032/442413b6、89269B/35f0397f必要齐；128首方向α1把norm1.2209605459741099e−4降至9.6858247475102318e−11，replay同，余31方向/9档未访。stage8000s仅20/576，20..575完整未付地址保正文；boundary/endpoint未起。audit576/7488齐，仅C-based有限程序；原98321B摘要70与stage预算独立，global未耗尽，IEEE/连续metric/native/fullDN未付。R388/R393不回填，已清末state须真实重生。
 
-[160原完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)保576×224、112/338与全部原门；186/R397从原same-job真父重生，独立D6同括号共享与模态hoist，原58pins+6、原预算和全部四消费者保持。header ab246a53/stage03ab73e1只共享重复工作，不预称速度/逐词运行一致；一般geometry参数走原R305 fallback，必要单≤90KB及静止后清。未派发前只作源码责任，不预填实际。
+[160原完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)保576×224、112/338与全部原门；186/R397从原same-job真父重生，独立D6同括号共享与模态hoist，原58pins+6、原预算和全部四消费者保持。header ab246a53/stage03ab73e1只共享重复工作，不预称速度/逐词运行一致；一般geometry参数走原R305 fallback，必要单≤90KB及静止后清。[186完整入口](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)九件全文/完整diff与64pins已核，本次源码发布触发独立Actions，actual R397未预填。
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)只付固定stage10/RK0/field0全230列320bit有限算法误差，42969B必要齐；不付上游/全RK/576J/112/338/audit/native。[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)/[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)、R314/R325保225Gram/226态/224列、因子/两回代缺陷。固定trace实延拓不代真F_e/隐式根/动态分支稳定/IEEE/准确非共振。
 

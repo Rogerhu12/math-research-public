@@ -405,3 +405,7 @@
 
 
 - [R398. 同一Hermite路径的嵌套闭段域继承](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)：原完整453准确路径H_q(t)不随二幂档位改变；G2_j(t)是可变点态余项，不需子盒嵌套。直接strict父闭段的全称域命题覆盖较小闭段；188保原629gap、同query/角/身份及17档事务，直接分类与继承来源分开。不回填175，不代IEEE、连续角或完整非零终门。
+
+## 2026-11-15 — Request186：完整当前128链与保原运算图的R305外提
+
+[完整接口](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)及六独立源/request/workflow已核发布，原58pins逐值保留→64；D6同primitive共享值、frequency×momentum与flux子树缓存保持各输出原归约/括号，非空geometry方向用原R305 fallback。新stage/header逐字临时编译副本与原v2 qualified fallback同目录，原compiler flags不改。它从真91/fresh64/R273重做same-job持久128父、replay及全576×224→112boundary→338×112endpoint/独立audit，原19200/6000/1200与8000/600/600/1800及全部原门不变；没有独立小benchmark/fixture。原owner/probe只有明确内存接线/必要读回/末清理延迟，逐字反向替换可恢复旧源。单≤90KB原必要scope保全试步/原evaluation/全stage地址、错误与科学70/协议70分责，大成功列只身份；读回完整/子进程reap/quiet后清，失败不拆编码。只付完整可执行来源责任，不预称速度、whole-stage逐词运行一致、原R283导数/IEEE或native；actual R397由amplitude唯一读。

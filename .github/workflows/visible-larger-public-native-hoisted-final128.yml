@@ -1,0 +1,464 @@
+name: visible-larger hoisted complete128 original final components
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-native-hoisted-final128-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  nativehoistedfinal128:
+    name: Fresh complete128 full chain with hoisted stage and one necessary readback
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    outputs:
+      scalar_summary: ${{ steps.necessary_readback.outputs.scalar_summary }}
+      scalar_summary_sha256: ${{ steps.necessary_readback.outputs.scalar_summary_sha256 }}
+      scalar_summary_bytes: ${{ steps.necessary_readback.outputs.scalar_summary_bytes }}
+    concurrency:
+      group: visible-larger-public-native-hoisted-final128
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish fresh temporary request186 directories
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-native-hoisted-final186"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-native-hoisted-final186" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+        echo "VISIBLE_PARENT91=$RUNNER_TEMP/actual91-hoisted-final186-parent" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install unchanged native-reader dependencies
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+    - name: Bind sources, old raw guess, budgets and explicitly reviewed rules
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        raw=(comp/'public-native-hoisted-final128-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-native-persistent128-hoisted-final-components-request-v1'
+            or request.get('repository')!='Rogerhu12/math-research-public'
+            or request.get('request_number')!=186 or request.get('lanes')!=['nativehoistedfinal128']):
+            raise ValueError('Use exactly the independent request186')
+        required={
+            "exact_20261114_fetch_pinned_public_artifact.py",
+            "exact_20261114_native_allrows_dyadic_residual.py",
+            "exact_20261114_native_damped_chain_qr.py",
+            "exact_20261114_noj_primal_current576_damped_chain_qr.py",
+            "exact_20261114_noj_primal_current576_damped_system.py",
+            "exact_20261114_public_resume.py",
+            "exact_20261114_seeded_zero_tail_client.py",
+            "exact_20261114_true_tail_client.py",
+            "exact_20261115_actual83_four_row_state_formation.py",
+            "exact_20261115_native_word_first_candidate.py",
+            "exact_20261115_native_word_first_current576_chain_qr.py",
+            "exact_20261115_native_word_first_current576_system.py",
+            "exact_20261115_native_word_first_parent.py",
+            "geometry_20261114_native_captured_band_correction.py",
+            "geometry_20261114_noj_matched_variational_engine.mjs",
+            "geometry_20261114_noj_primal_current576_damped_solve.py",
+            "geometry_20261114_noj_primal_current576_damped_solve_hook.mjs",
+            "geometry_20261115_native128_qualified_json_components.py",
+            "geometry_20261115_native128_qualified_json_components_v2.py",
+            "geometry_20261115_native_batched_stage128.cpp",
+            "geometry_20261115_native_boundary128.cpp",
+            "geometry_20261115_native_final128_bridge.mjs",
+            "geometry_20261115_native_final128_components.py",
+            "geometry_20261115_native_final128_packet.mjs",
+            "geometry_20261115_native_final128_same_job.py",
+            "geometry_20261115_native_hoisted_operator_final128.py",
+            "geometry_20261115_native_hoisted_operator_final128_bridge.mjs",
+            "geometry_20261115_native_hoisted_operator_final128_same_job.py",
+            "geometry_20261115_native_hoisted_operator_stage128.cpp",
+            "geometry_20261115_native_hoisted_operator_trace128.hpp",
+            "geometry_20261115_native_noj_neighbor_current576_solve.py",
+            "geometry_20261115_native_noj_neighbor_proposal.mjs",
+            "geometry_20261115_native_operator_final128.py",
+            "geometry_20261115_native_operator_final128_bridge.mjs",
+            "geometry_20261115_native_operator_final128_same_job.py",
+            "geometry_20261115_native_operator_qualified_final128_bridge.mjs",
+            "geometry_20261115_native_operator_qualified_final128_same_job.py",
+            "geometry_20261115_native_operator_qualified_v2_final128_bridge.mjs",
+            "geometry_20261115_native_operator_qualified_v2_final128_same_job.py",
+            "geometry_20261115_native_operator_stage128.cpp",
+            "geometry_20261115_native_operator_trace128.hpp",
+            "geometry_20261115_native_persistent128.cpp",
+            "geometry_20261115_native_persistent128.py",
+            "geometry_20261115_native_persistent128_bridge.mjs",
+            "geometry_20261115_native_persistent128_probe.py",
+            "geometry_20261115_native_physical128.hpp",
+            "geometry_20261115_native_physical_final128.cpp",
+            "geometry_20261115_native_primal128.cpp",
+            "geometry_20261115_native_primal128_bridge.mjs",
+            "geometry_20261115_native_primal128_probe.py",
+            "geometry_20261115_native_shared_trace128.hpp",
+            "geometry_20261115_native_trace122_experiment.mjs",
+            "geometry_20261115_native_trace122_probe.py",
+            "geometry_20261115_native_trace_variation128.cpp",
+            "geometry_20261115_native_trace_variation128.py",
+            "geometry_20261115_native_trace_variation128_bridge.mjs",
+            "geometry_20261115_native_word_first_current576_solve.py",
+            "geometry_20261115_native_word_first_current576_solve_hook.mjs",
+            "numerical-tail-slope-jacobian.mjs",
+            "root_20261114_current576_rules_runner.py",
+            "root_20261115_fetch_native_word_parent91.py",
+            "root_20261115_native_hoisted128_necessary.py",
+            "tail_frozen_worker.mjs",
+            "tail_resumable_engine.mjs",
+        }
+        if len(request['source_sha256'])!=64 or set(request['source_sha256'])!=required:
+            raise ValueError('Pin all58 unchanged actual160 sources plus6 independent hoisted/necessary sources')
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+            if Path(name).name!=name or not isinstance(expected,str) or not re.fullmatch(r'[0-9a-f]{64}',expected):
+                raise ValueError('Every source must have a basename and a complete SHA256')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the triggering science checkout')
+        readmes={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip()
+            for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')}
+        if readmes!=request['reviewed_README_blobs']:
+            raise ValueError('The explicitly reviewed source-checkout rules changed')
+        if (request['eta']!='1' or request['original_max_iterations']!=32 or request['original_trial_count']!=10
+            or request['original_solve_tolerance']!=2e-9 or request['node_heap_mib']!=6144
+            or request['exact_workers']!=2 or request['max_factor_bytes']!=2147483648):
+            raise ValueError('Preserve original native budgets/tolerance and explicit eta')
+        experiment=request['persistent128_experiment']
+        if (experiment['owner_total_seconds']!=6000 or experiment['threads']!=4
+            or experiment['fresh_replay_reserve_seconds']!=1200
+            or experiment['root_policy']!='original' or experiment['matched_trace']!='none'
+            or experiment['final_stage_columns_requested']!=0
+            or experiment['full_original_row_count']!=129248
+            or experiment['complete_state_dimension']!=226
+            or experiment['stage_count']!=576 or experiment['input_node_count']!=577
+            or experiment['global_total_seconds']!=19200
+            or experiment['readback_cleanup_reserve_seconds']!=120
+            or experiment['component_science_caps']!={'stages':8000,'boundary':600,'endpoint':600,'audit':1800}
+            or experiment['component_overhead_upper_seconds']!={'stages':345,'boundary':720,'endpoint':345,'audit':345}):
+            raise ValueError('Use explicit complete mathematical scope and bounded whole-science resources')
+        if (experiment['component_launcher']!='geometry_20261115_native_hoisted_operator_final128.py'
+            or experiment['component_launcher_mode']!='--operator-components'
+            or experiment['stage_report_schema']!='native-persistent128-word-preserving-hoisted-contracted-trace-stage-maps-v1'
+            or experiment['component_report_schema']!='native-persistent128-hoisted-contracted-trace-final-components-launch-v1'
+            or experiment['stage_reference_columns']!='none'
+            or [experiment[k] for k in ('stage_first_stage','stage_stages','stage_first_column','stage_columns')]!=[0,576,0,224]):
+            raise ValueError('Use the explicit new stage implementation and complete requested range')
+        if any(request['retention'][k] for k in ('upload_artifact','upload_release','publish_raw_to_git')):
+            raise ValueError('Request186 keeps recomputable raw data temporary only')
+        print(json.dumps(dict(event='native186_request_identity',source_commit=head,
+            run_id=os.environ['GITHUB_RUN_ID'],request_sha256=hashlib.sha256(raw).hexdigest(),
+            verified_sources=verified,reviewed_README_blobs=readmes,
+            failed73_is_only_an_initial_guess=True,failed95_is_not_an_anchor=True,
+            no_science_started=True)),flush=True)
+        PYPINS
+    - name: Check independent bridge and unchanged flow/worker syntax without execution
+      run: |
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_persistent128_bridge.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_hoisted_operator_final128_bridge.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_final128_packet.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_trace122_experiment.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_trace_variation128_bridge.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_primal128_bridge.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_matched_variational_engine.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_frozen_worker.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_resumable_engine.mjs"
+        node --version
+        python --version
+    - name: Record compiler identity; each frozen launcher compiles its own actual executable
+      run: |
+        command -v g++
+        g++ --version
+    - name: Record temporary capacity without reserving32 rounds of raw archives
+      run: |
+        python - <<'PYSPACE'
+        import json,os,shutil
+        print(json.dumps(dict(event='native186_temporary_capacity',
+            disk=shutil.disk_usage(os.environ['RUNNER_TEMP'])._asdict(),
+            max_factor_bytes=2147483648,
+            correction_payload_removed_after_consumption=True,
+            no_accumulated32round_archive=True,
+            scientific_iteration_and_tolerance_unchanged=True)),flush=True)
+        PYSPACE
+    - name: Fetch pinned existing actual91 input temporarily
+      timeout-minutes: 25
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        python -u - <<'PYFETCH'
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-native-hoisted-final128-request.json').read_text());item=request['inputs']
+        argv=[sys.executable,'-u',str(comp/'root_20261115_fetch_native_word_parent91.py')]
+        for name in ('run_id','artifact_id','artifact_name','expected_size','expected_sha256'):
+            argv+=['--'+name.replace('_','-'),str(item[name])]
+        argv+=['--out',os.environ['VISIBLE_PARENT91']]
+        raise SystemExit(subprocess.call(argv))
+        PYFETCH
+    - name: Restore unchanged78 original public source files temporarily
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),
+            Path(os.environ['RUNNER_TEMP'])/'native-hoisted-final186-public-original-source',
+            Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Restore the two exact historical frozen-geometry inputs temporarily
+      run: |
+        python - <<'PYFROZEN'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-native-hoisted-final128-request.json').read_text())
+        item=request['frozen_geometry_inputs'];commit=item['historical_public_commit']
+        if not re.fullmatch(r'[0-9a-f]{40}',commit):
+            raise ValueError('A complete immutable historical commit is required')
+        expected_env={'VISIBLE_FLEX_FROZEN_LEDGER_READY','VISIBLE_FLEX_FROZEN_STORED_READY'}
+        if len(item['files'])!=2 or {row['environment'] for row in item['files']}!=expected_env:
+            raise ValueError('Restore only the original two client input slots')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:
+            raise ValueError('Retain the triggering science checkout')
+        exists=subprocess.run(['git','cat-file','-e',commit+'^{commit}'],
+            stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode==0
+        if not exists:
+            subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags',
+                '--filter=blob:none','--depth=1','origin',commit],check=True)
+        root=Path(os.environ['RUNNER_TEMP']).resolve()
+        directory=Path(os.environ['VISIBLE_OUT']).resolve()/'frozen-geometry-inputs'
+        if not directory.is_relative_to(root):
+            raise ValueError('Historical inputs must remain inside this runner temporary tree')
+        directory.mkdir(parents=True,exist_ok=False)
+        restored=[]
+        for row in item['files']:
+            relative=Path(row['path'])
+            if (relative.is_absolute() or '..' in relative.parts
+                or relative.parent.as_posix()!='topics/visible-flex-larger-amplitude/notes'):
+                raise ValueError('Use only the explicitly pinned historical notes paths')
+            blob=subprocess.check_output(['git','rev-parse',commit+':'+relative.as_posix()],text=True).strip()
+            if blob!=row['git_blob']:
+                raise ValueError('Historical input Git blob differs: '+relative.name)
+            raw=subprocess.check_output(['git','cat-file','blob',blob])
+            digest=hashlib.sha256(raw).hexdigest()
+            if len(raw)!=row['bytes'] or digest!=row['sha256']:
+                raise ValueError('Historical input bytes differ: '+relative.name)
+            target=directory/relative.name
+            with target.open('xb') as stream:stream.write(raw)
+            with open(os.environ['GITHUB_ENV'],'a') as stream:
+                stream.write(row['environment']+'='+str(target)+'\n')
+            restored.append(dict(environment=row['environment'],path=row['path'],
+                git_blob=blob,bytes=len(raw),sha256=digest,temporary_file=str(target)))
+        if subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()!=head:
+            raise ValueError('Input restoration must not change the science checkout')
+        print(json.dumps(dict(event='native186_frozen_inputs_restored',
+            historical_public_commit=commit,science_checkout=head,inputs=restored,
+            existing_original_client_environment_slots=True,
+            unchanged_original_calibration_and_geometry_checks=True,
+            no_ready_payload_written_to_git_release_or_artifact=True,
+            no_new_native_solution_or_anchor=True)),flush=True)
+        PYFROZEN
+    - name: Original absolute-deadline current128 owner and complete hoisted R305 final chain
+      id: persistent_experiment
+      timeout-minutes: 330
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+        request=json.loads((comp/'public-native-hoisted-final128-request.json').read_text())
+        if Path(runner.__file__).resolve()!=comp/'root_20261114_current576_rules_runner.py':
+            raise ValueError('Use the pinned original metadata runner')
+        if hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()!=request['source_sha256']['root_20261114_current576_rules_runner.py']:
+            raise ValueError('Original rules runner source changed')
+        wanted=request['reviewed_README_blobs']
+        if set(wanted)!={'README.md','topics/visible-flex-larger-amplitude/README.md'}:
+            raise ValueError('Both explicitly reviewed README identities are required')
+        baselines={}
+        for name,expected in wanted.items():
+            raw=(Path(os.environ['GITHUB_WORKSPACE'])/name).read_bytes()
+            blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+            if blob!=expected:raise ValueError('Reviewed README bytes changed: '+name)
+            baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+        old={name:item['blob'] for name,item in runner.BASELINES.items()}
+        runner.BASELINES=baselines
+        print(json.dumps(dict(event='native186_explicit_rules_baseline_update',
+            unchanged_runner_sha256=request['source_sha256']['root_20261114_current576_rules_runner.py'],
+            old_embedded_blobs=old,reviewed_current_blobs=wanted,
+            period_seconds=runner.PERIOD_SECONDS,
+            original_pull_rebase_diff_and_stop_on_new_rules_retained=True)),flush=True)
+        out=Path(os.environ['VISIBLE_OUT'])
+        experiment=request['persistent128_experiment']
+        bootstrap="import os,runpy,sys; [os.environ.pop(k,None) for k in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')]; sys.argv=sys.argv[1:]; runpy.run_path(sys.argv[0],run_name='__main__')"
+        sys.argv=[runner.__file__,'--out',str(out/'rule-sync'),'--command',
+            sys.executable,'-u','-c',bootstrap,str(comp/'geometry_20261115_native_hoisted_operator_final128_same_job.py'),
+            '--total-seconds',str(experiment['global_total_seconds']),
+            '--readback-cleanup-reserve-seconds',str(experiment['readback_cleanup_reserve_seconds']),
+            '--final-stages-seconds',str(experiment['component_science_caps']['stages']),
+            '--final-boundary-seconds',str(experiment['component_science_caps']['boundary']),
+            '--final-endpoint-seconds',str(experiment['component_science_caps']['endpoint']),
+            '--final-audit-seconds',str(experiment['component_science_caps']['audit']),
+            '--seconds',str(experiment['owner_total_seconds']),
+            '--threads',str(experiment['threads']),
+            '--fresh-replay-reserve-seconds',str(experiment['fresh_replay_reserve_seconds']),
+            '--matched-trace',experiment['matched_trace'],
+            '--final-stage-columns',str(experiment['final_stage_columns_requested']),
+            '--original91-directory',os.environ['VISIBLE_PARENT91'],
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],
+            '--out',str(out/'native-work')]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Read one necessary original metadata summary after the actual child stops
+      id: necessary_readback
+      if: always()
+      timeout-minutes: 2
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261115_native_hoisted128_necessary.py" \
+          --owned-root "$VISIBLE_OUT/native-hoisted-final128-owned-work" \
+          --probe-directory "$VISIBLE_OUT/native-work" \
+          --close-record "$VISIBLE_OUT/native186-child-close.json" \
+          --request "$VISIBLE_COMPUTATIONS/public-native-hoisted-final128-request.json" \
+          --out "$VISIBLE_OUT/necessary-summary.json"
+    - name: Remove only this request's regenerable temporary inputs and outputs
+      if: always()
+      run: |
+        python - <<'PYCLEAN'
+        import json,os,shutil,stat
+        from pathlib import Path
+        root=Path(os.environ['RUNNER_TEMP']).resolve()
+        def unlock_own_readonly_archive_directories(path):
+            changed=0
+            for current,_,_ in os.walk(path,topdown=True,followlinks=False):
+                directory=Path(current);info=directory.lstat()
+                if not stat.S_ISDIR(info.st_mode) or info.st_uid!=os.getuid():
+                    raise ValueError('Refuse to chmod a non-directory or a directory not owned by this job')
+                mode=stat.S_IMODE(info.st_mode)
+                wanted=mode|stat.S_IRUSR|stat.S_IWUSR|stat.S_IXUSR
+                if wanted!=mode:
+                    os.chmod(directory,wanted,follow_symlinks=False);changed+=1
+            return changed
+        out=root/'visible-native-hoisted-final186'
+        summary=out/'necessary-summary.json';close=out/'native186-child-close.json'
+        allowed=False;reason='necessary-summary-or-child-close-receipt-absent'
+        if summary.is_file() and close.is_file():
+            value=json.loads(summary.read_bytes());closed=json.loads(close.read_bytes())
+            allowed=(value.get('schema')=='native-hoisted128-complete-chain-necessary-readback-v1'
+                and value.get('summary_complete') is True and value.get('transport_complete') is True
+                and value.get('cleanup_allowed') is True and closed.get('child_reaped') is True)
+            reason='necessary-complete-and-original-child-reaped' if allowed else 'necessary-readback-or-quiet-not-complete'
+        names=('visible-native-hoisted-final186','actual91-hoisted-final186-parent',
+               'native-hoisted-final186-public-original-source')
+        matching=[]
+        if allowed:
+            tokens=[str(root/name).encode() for name in names]
+            for proc in Path('/proc').iterdir():
+                if not proc.name.isdigit() or int(proc.name)==os.getpid():continue
+                try:
+                    if proc.stat().st_uid!=os.getuid():continue
+                    command=(proc/'cmdline').read_bytes()
+                except (FileNotFoundError,ProcessLookupError):continue
+                except OSError as error:
+                    matching.append(dict(pid=proc.name,error=repr(error)));continue
+                if any(token in command for token in tokens):matching.append(dict(pid=proc.name))
+            if matching:allowed=False;reason='request-owned-path-process-still-observed-or-unreadable'
+        if not allowed:
+            print(json.dumps(dict(event='native186_final_cleanup_skipped',reason=reason,
+                matching_processes=matching,no_raw_upload_follows=True,
+                runner_teardown_may_reclaim_temporary_files=True,
+                not_a_scientific_acceptance_gate=True)),flush=True)
+        else:
+            for name in names:
+                path=root/name
+                try:
+                    if path.exists():
+                        if path.is_symlink() or not path.resolve().is_relative_to(root):
+                            raise ValueError('Refuse cleanup outside this runner temporary root')
+                        if name=='actual91-hoisted-final186-parent':
+                            changed=unlock_own_readonly_archive_directories(path)
+                            print(json.dumps(dict(event='native186_owned_archive_directory_modes_restored',
+                                name=name,directories_changed=changed,follow_symlinks=False,
+                                file_bytes_and_scientific_results_unchanged=True)),flush=True)
+                        shutil.rmtree(path)
+                    print(json.dumps(dict(event='native186_temporary_tree_removed',name=name,
+                        necessary_summary_and_owned_quiet_observed=True,
+                        no_raw_upload_followed=True)),flush=True)
+                except Exception as error:
+                    print(json.dumps(dict(event='native186_cleanup_error',name=name,
+                        error=repr(error),not_a_native_acceptance_test=True)),flush=True)
+        PYCLEAN
+  report:
+    name: Actual186 one necessary current128 owner and four-component conclusion
+    if: always()
+    needs: nativehoistedfinal128
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    env:
+      ACTUAL186_SUMMARY: ${{ needs.nativehoistedfinal128.outputs.scalar_summary }}
+      ACTUAL186_SHA256: ${{ needs.nativehoistedfinal128.outputs.scalar_summary_sha256 }}
+      ACTUAL186_BYTES: ${{ needs.nativehoistedfinal128.outputs.scalar_summary_bytes }}
+      ACTUAL186_COMPUTE_RESULT: ${{ needs.nativehoistedfinal128.result }}
+    steps:
+    - name: Print only the actual bounded summary or explicit missing-report status
+      run: |
+        python - <<'PYREPORT'
+        import hashlib,json,os
+        raw=os.environ.get('ACTUAL186_SUMMARY','').encode()
+        if raw:
+            if len(raw)>90000:raise ValueError('The explicit bounded scalar transport limit was exceeded')
+            if hashlib.sha256(raw).hexdigest()!=os.environ['ACTUAL186_SHA256']:
+                raise ValueError('Actual scalar output SHA differs')
+            if len(raw)!=int(os.environ['ACTUAL186_BYTES']):raise ValueError('Actual scalar bytes differ')
+            value=json.loads(raw)
+            if value.get('schema')!='native-hoisted128-complete-chain-necessary-readback-v1':
+                raise ValueError('Use the actual request186 summary')
+            print('BEGIN_VISIBLE186_NECESSARY_SUMMARY')
+            print(raw.decode())
+            print('END_VISIBLE186_NECESSARY_SUMMARY')
+            print(json.dumps(dict(event='actual186_scalar_summary_identity',bytes=len(raw),
+                sha256=hashlib.sha256(raw).hexdigest(),compute_result=os.environ['ACTUAL186_COMPUTE_RESULT']),separators=(',',':')))
+        else:
+            print(json.dumps(dict(event='actual186_scalar_summary_missing',
+                compute_result=os.environ.get('ACTUAL186_COMPUTE_RESULT'),
+                no_scientific_values_or_success_inferred=True,native_accepted=False),separators=(',',':')))
+        PYREPORT
