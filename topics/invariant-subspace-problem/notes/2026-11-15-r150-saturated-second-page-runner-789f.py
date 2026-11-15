@@ -47,7 +47,7 @@ def main():
  for k in ("notes-root","t96-recovery","all198-recovery","seven-recovery","current-recovery","ninth-recovery","old200-recovery","third197-recovery","selector-receipt","out"):p.add_argument("--"+k,type=Path,required=True)
  p.add_argument("--five-recovery",type=Path,default=None)
  p.add_argument("--math-seconds",type=float,default=300);p.add_argument("--memory-mib",type=int,default=512);p.add_argument("--compile-seconds",type=int,default=30)
- p.add_argument("--resume-recovery",type=Path);p.add_argument("--prepare-only",action="store_true")
+ p.add_argument("--resume-recovery",type=Path);p.add_argument("--resume-results",type=Path);p.add_argument("--prepare-only",action="store_true")
  a=p.parse_args()
  if min(a.math_seconds,a.memory_mib,a.compile_seconds)<=0:raise ValueError("positive explicit bounded execution")
  root=Path(__file__).resolve().parent;notes=a.notes_root.resolve();out=a.out.resolve();out.mkdir(parents=True,exist_ok=True)
@@ -255,28 +255,55 @@ def main():
   if started is not None:receipt["mathematicalElapsedSeconds"]=time.monotonic()-started
   save()
  finally:
+  sealing_started=time.monotonic()
   certificates=results/"certificates";certificates.mkdir(exist_ok=True);files=[];texts=[]
+  previous={};previous_root=None;reused_binary=0;new_binary=0
+  if a.resume_results:
+   previous_root=a.resume_results.resolve()
+   previous_manifest=json.loads((previous_root/"certificate-manifest.json").read_text())
+   previous={x["originalFile"]:x for x in previous_manifest["files"]}
   for q in sorted(recovery.rglob("*")):
    if not q.is_file():continue
-   relative=q.relative_to(recovery);flat=str(relative).replace("/","__")
+   relative=q.relative_to(recovery);flat=str(relative).replace("/","__");current_sha=sha(q)
    if q.suffix in (".json",".mix",".recipe",".txt",".spec") and q.stat().st_size<=1_000_000:
-    dest=results/flat;shutil.copyfile(q,dest);texts.append({"originalFile":str(relative),"file":dest.name,"bytes":q.stat().st_size,"sha256":sha(q)});continue
+    dest=results/flat;shutil.copyfile(q,dest);texts.append({"originalFile":str(relative),"file":dest.name,"bytes":q.stat().st_size,"sha256":current_sha});continue
+   old=previous.get(str(relative))
+   if old and old["uncompressedBytes"]==q.stat().st_size and old["uncompressedSHA256"]==current_sha:
+    copied=[];combined=hashlib.sha256();combined_size=0
+    for part in old["parts"]:
+     src=(previous_root/part["file"]).resolve()
+     if not src.is_relative_to(previous_root) or not part["file"].startswith("certificates/"):
+      raise ValueError("Previous certificate path outside the paid result directory")
+     if not src.is_file() or src.stat().st_size!=part["bytes"] or sha(src)!=part["sha256"] or part["bytes"]>4_500_000:
+      raise ValueError("Previous paid compressed bytes differ: "+str(relative))
+     with src.open("rb") as stream:
+      while chunk:=stream.read(1<<20):combined.update(chunk);combined_size+=len(chunk)
+     dest=results/part["file"];dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(src,dest)
+     copied.append(dict(part))
+    if not copied or combined_size!=old["compressedBytes"] or combined.hexdigest()!=old["compressedSHA256"]:
+     raise ValueError("Previous complete compressed identity differs: "+str(relative))
+    files.append(dict(old));reused_binary+=1
+    print(json.dumps({"phase":"lossless-sealing-reused-paid-compressed-bytes","file":str(relative),"uncompressedBytes":q.stat().st_size,"elapsedSeconds":time.monotonic()-sealing_started}),flush=True)
+    continue
+   print(json.dumps({"phase":"lossless-sealing-new-file","file":str(relative),"uncompressedBytes":q.stat().st_size,"compressionLevel":1,"elapsedSeconds":time.monotonic()-sealing_started}),flush=True)
    temporary=results/(flat+".gz.tmp")
    with q.open("rb") as src,temporary.open("wb") as dst:
-    with gzip.GzipFile(filename="",mode="wb",fileobj=dst,mtime=0) as gz:shutil.copyfileobj(src,gz)
-   item={"originalFile":str(relative),"uncompressedBytes":q.stat().st_size,"uncompressedSHA256":sha(q),
+    with gzip.GzipFile(filename="",mode="wb",fileobj=dst,mtime=0,compresslevel=1) as gz:shutil.copyfileobj(src,gz)
+   item={"originalFile":str(relative),"uncompressedBytes":q.stat().st_size,"uncompressedSHA256":current_sha,
     "compressedBytes":temporary.stat().st_size,"compressedSHA256":sha(temporary),"parts":[]}
    with temporary.open("rb") as src:
     part=1
     while data:=src.read(4_500_000):
      dest=certificates/(flat+".gz" if item["compressedBytes"]<=4_500_000 else flat+f".gz.part{part:03d}")
      dest.write_bytes(data);item["parts"].append({"file":str(dest.relative_to(results)),"bytes":len(data),"sha256":hashlib.sha256(data).hexdigest()});part+=1
-   temporary.unlink();files.append(item)
+   temporary.unlink();files.append(item);new_binary+=1
   atomic_json(results/"certificate-manifest.json",{"format":"r150-saturated-second-lossless-certificates-v1","pipelineStatus":receipt["status"],"partialCheckpointIsNotIdentity":True,"files":files})
   atomic_json(results/"text-recovery-manifest.json",{"format":"r150-saturated-second-exact-text-recovery-v1","completeStageCachesIncluded":True,"files":texts})
   saved=[{"file":str(q.relative_to(recovery)),"bytes":q.stat().st_size,"sha256":sha(q)} for q in sorted(recovery.rglob("*")) if q.is_file()]
   atomic_json(results/"recovery-manifest.json",{"format":"r150-saturated-second-complete-recovery-v1","pipelineStatus":receipt["status"],"files":saved})
-  receipt.update(recoveryFiles=len(saved),recoveryBytes=sum(x["bytes"] for x in saved),losslessGeneratedBinaryFiles=len(files));save()
-  print(json.dumps({k:receipt.get(k) for k in ("status","outcome","mathematicalElapsedSeconds","secondImageRank","individualTargetCompatible","completeRelevantSaturatedSecondImageComputed","completeNextPolynomialSourceKernelSaved","completeRelevantSaturatedThirdImageComputed","recoveryBytes")}),flush=True)
+  receipt.update(recoveryFiles=len(saved),recoveryBytes=sum(x["bytes"] for x in saved),losslessGeneratedBinaryFiles=len(files),
+   artifactSealing={"reusedPaidCompressedFiles":reused_binary,"newCompressedFiles":new_binary,"newCompressionLevel":1,"allActualRawFilesRetained":True,"elapsedSeconds":time.monotonic()-sealing_started})
+  save()
+  print(json.dumps({k:receipt.get(k) for k in ("status","outcome","mathematicalElapsedSeconds","secondImageRank","individualTargetCompatible","completeRelevantSaturatedSecondImageComputed","completeNextPolynomialSourceKernelSaved","completeRelevantSaturatedThirdImageComputed","recoveryBytes","artifactSealing")}),flush=True)
  if receipt["status"] not in ("completed","prepared-no-mathematical-stage-executed"):raise SystemExit(1)
 if __name__=="__main__":main()

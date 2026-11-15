@@ -62,9 +62,9 @@
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-runner-789f.py",
-      "blob": "7dfd74f4bb1c81d89106801436d223006cfe510d",
-      "sha256": "33089ee40b9cd08b6eac883bbd9ef4f4e3f875c147a5ba74b23c8579a6ce5276",
-      "bytes": 23497
+      "blob": "8c4e31f26513883e2004f7bf4d395b78f216173c",
+      "sha256": "33478fe89975ac7b209d9f886962f5591356a380766fd96accde428af42f36d3",
+      "bytes": 25708
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-interface-789f.md",
@@ -83,6 +83,12 @@
       "blob": "cd6719043a136cde76be3bacda8cbd47f0adab7a",
       "sha256": "ed999eb8c095c9b14967b71d2590317dab0d07b81664b4f568e47b7743ca90f9",
       "bytes": 13571
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-resume-check-789f.py",
+      "blob": "8003545468836a16074248e47f77076a815f3af8",
+      "sha256": "dd5ada5bd5a4f40ad75b1fbdfc002984c17c3dd78ca5b50bce365a5dd3d869f7",
+      "bytes": 2478
     }
   ],
   "reusedDependencies": {
@@ -146,5 +152,48 @@
       "rule": 4,
       "scope": "Two accompanying Markdown interfaces only; dollar delimiters; no mathematics or executable source changed."
     }
+  },
+  "resumeContinuation": {
+    "run_id": 43660606254,
+    "run_attempt": 1,
+    "source_commit": "4824d0153c7d09944788bf83c9797f68cb3dcf59",
+    "published_result_commit": "93503418a37fd2646f2f537899cafcef0a06b3b7",
+    "artifact": {
+      "id": 14140695921,
+      "name": "isp-r150-saturated-second-page-recovery-43660606254-1",
+      "bytes": 865969907,
+      "digest": "sha256:fa7c360f7fb39e8fa79d62fa9f668a0f774a3577d13c0202e30012b45ccbb2bc"
+    },
+    "previous_result_directory": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43660606254-1",
+    "recovery_manifest_sha256": "462e78d7649c65425e530a9a219db751eee6a2639a7fbbb245997ba621f42c5e",
+    "certificate_manifest_sha256": "90136f07dea9ef299158a834985fab082d3677da2f4aae8923fa33d1340a76f2",
+    "actual_recovery_files": 433,
+    "actual_recovery_bytes": 1239127670,
+    "completed_stage_names": [
+      "saved-saturated-source-preparation",
+      "q1-twenty-vq",
+      "q1-twenty-original",
+      "true-L2-twenty",
+      "L2-normal-twenty",
+      "q2-complete-twenty",
+      "q2-twenty-vq",
+      "q2-twenty-original",
+      "true-L3-twenty",
+      "true-198-next-relations",
+      "next-relations-normal-fifteen",
+      "q3-complete-fifteen",
+      "q3-fifteen-vq"
+    ],
+    "continue_stage": "q3-fifteen-original",
+    "native_data_binding": "ba82a176631a4534a75bc725855276a72155b10afbe8e0820ef0ae59c7224300",
+    "partial_transport_binding": "1949195815b727e7ba16e2bf87b1a7528be951465ff82cba1cb7137fb19ddba9",
+    "partial_transport_phase": 1,
+    "partial_transport_next_record": 1670,
+    "native_mathematical_sources_and_stage_bindings_unchanged": true,
+    "runner_change_scope": "Only optional saved-result reuse and lossless sealing. Reuse exact paid gzip bytes for unchanged raw files; level1 only for new files; print sealing progress.",
+    "local_python_ast_passed": true,
+    "workflow_yaml_parsed": true,
+    "shared_new_mathematical_seconds": 300,
+    "mathematics_executed_during_preparation": false
   }
 }

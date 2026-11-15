@@ -133,6 +133,9 @@ def outcome():
   'scope':'Complete second page of the full original S2 source matrix; third page and global positive recovery require continuation.',
   'full_original_all_nine_mod887503681_identity':False,'characteristic_zero_identity_asserted':False,
   'partialCheckpointIsNotIdentity':True,'rootOwnsSharedResearchIndices':True}
+ expected=req.get('resume',{}).get('completed_stage_names',[])
+ reused=[name for name in expected if r.get('stages',{}).get(name,{}).get('reusedCompletedActualStage') is True]
+ result['resumedCompletedStages']={'expected':expected,'actuallyReused':reused,'allExpectedStagesReused':reused==expected}
  save(out/'actions-outcome.json',result);print(json.dumps(result),flush=True)
 def main():
  p=argparse.ArgumentParser();p.add_argument('--mode',choices=['source','restore','outcome'],required=True)
