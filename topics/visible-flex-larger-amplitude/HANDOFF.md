@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:37:46 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e0398609d10bad88f9b6ce64387d75f0f48e8afb。
+规则同步记录：2026-11-15 19:38:30 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1a2bbdc0ae0fea899b921e8a9d63e936fa592541。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -61,7 +61,7 @@ R377首178与R387 r2均child0/8接受，却116585/91342B超90KB；原末p未返�
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)保新support1/power4同三jet、degree10/自然L/u及十控制和453/450接点；旧178表不能只换profile。该ξ不修coast；R351/173/R363/R366/R370完整响应证明仍保。
 
-[coast→BVP组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)37ea旧比较过严，语义修订已全文diff核、接口待齐：同原C全根族/core/cut/窗口/准确九p/DAG可按R383传初点全域，不要求新旧盒或provenance相等；新shadow/J/FD/metric及活动p另付。后继须真实新factory result与实际selected原件，不能伪造；正在接完整可运行入口。
+[coast→BVP语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c/34871B已发，完整原20585B diff与18569B接口已读；按R383核同C全根族/core/cut/窗口/准确九p/DAG，初点全域可传，不要求两盒相等/子集。新shadow/J/FD/metric及活动p另付，原179四字段外不改。exact接真实180 summary→按原来源重建selected两件并核原SHA→fresh factory→原BVP；不改环境伪来源或伪造factory.result。
 
 ## 恢复与保存
 

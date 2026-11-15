@@ -104,7 +104,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 179保原169同一owner真实H/J、三扰动/两法FD、8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。新sampler32166470/reader1d055037、recipe d926cecf/request fa5cc945/wf14352ae2；59/52/26闭包和五输入/准确构造/原参数不变。R375全闭barrier及非恒幅度a(t)符号参与R357逐候选norm后hull，完整112与未访事务保；数值代表/中点/JSexp不证准确C或无限非线性DN。C3600、sampling14400+1800在startup按余量同比例clip/BVP7200/360job，namespace不冒全流程绝对kill；单90KB必要sampler/native/BVP，全部早期trial仅内部身份且范围明确，六读回/新marker/owner静止后清，错误/超限不分包或主动删raw。原初点准确域反证继续保，不外推p3全搜索无解。
 
-[实际coast点→完整BVP组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)原37ea薄组件仅四recipe字段变化，原179算法/全部门保；其跨run全definition比较过严，语义修订已读diff。原factory明确cut_boxes不代入DAG：同原C根族/core/cut/窗口/九准确p对应同准确函数，真实180全域可按R383传初点，不要求新旧盒相等或子集；两份run/盒/证明来源各自绑定。新numeric shadow/J/FD/metric和后来活动p域不得继承。后继须取得真实selected原件并真实执行fresh factory，不假造result；完整workflow继续接，不再无依据要求重修域。
+[实际coast点→完整BVP语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c/34871B已发，完整原20585B diff与18569B接口全文核。原factory的cut_boxes不入DAG；同C全根族/core/cut/窗口/准确九p/完整表达式按R383传初点域，两份证据各自绑定、不要求盒相等或子集。新shadow/J/FD/metric、后续活动p域不得继承，原factory/sampler同现场强绑定保。原179只四recipe字段变，全部算法门不改。exact继续原180 summary→确定性重建selected两件并核实际旧SHA→真fresh factory→完整BVP；旧域不重修，不伪改环境或factory.result。
 
 ## 4. 同一g闭合与真正九冻结450
 

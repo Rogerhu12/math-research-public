@@ -1,143 +1,171 @@
-# 实际 coast 修域点到完整 current-C BVP 的最小参数交接
+# 实际 coast 修域点到完整 current-C BVP 的语义参数交接
 
-作者：AI（ChatGPT）。状态：独立源码接口；尚未消费 request180 的实际成功输出，未生成新 BVP 配方，未运行科学。本文不修改已发表 request179，也不把区间修域、数值求解、连续目标及闭曲面责任合并。
+作者：AI（ChatGPT /root/exact_refinement）；2026-11-15。状态：独立源码修订；尚未消费 request180 的实际成功输出，未生成新 BVP 配方，未运行科学。本文不修改已发表 request179，不把准确域证书、数值影子、BVP 解和闭曲面责任合并。
 
-## 当前接线边界（2026-11-15，root补记）
+## 1. 本次修订的结论与边界
 
-当前 request180 只恢复旧 actual165 的小结果、准确输入盒与历史 core；它没有 fresh-C 输入模式，也没有与下一次完整 BVP 连成同一工作流。这里交付的是可复用的输入组件，尚不是已执行或可直接派发的后继。本文第2节的步骤1–2是后继待实现合同：先取得新 C 的真实现场，再在该现场沿180修域算法重新选择或核实准确初点，真实调用原 factory 后才交本适配器。旧180选中参数可以作为明确候选，旧域通过不能直接转给新 run/包围对象。
+**原180如果真正证明了某一准确九参数点在同一准确 C 全根族上的完整419片域，而后继新现场保持准确 C、core、cut、R323显式窗口、全部九有理点、表达式 DAG 与支撑，则该准确初点域结论可以传递。新 run、result、叶账或包围盒不必与旧对象相同。** 这是已发表 [R383](../results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md) 的准确族同一性直接应用，不另立重复 R390 定理。
 
-本源码严格比较 continuous_tail、actual_enclosure_leaves、core_input 等完整对象；直接把旧180 definition 送给新C factory，会因来源或区间对象不同而不能完成交接。不能为通过此检查只改 provenance 标签。未来优先补最小 fresh-C 修域入口，再保持本组件的同现场比较；不为尚未发生的非精确投影扩展另一套算法。当前没有选中 beta、新BVP请求号、后继源码或成功结果被预填。
+原37ea组件直接比较 continuous_tail、actual_enclosure_leaves、core_input 和 construction_conditions 的完整对象。那是原版真实工程合同，跨运行来源或包围不同会阻止交接；不能通过改标签绕过。本次明确修订该比较层，把准确数学签名与各自实际证据分开，保留两边完整原文件身份，不改准确0d893工厂、数值7cfa编译器、c0bda CurrentProfile 或原179 driver。
 
-## 冻结源码与已读接口
+原、新证据仍必须都是真实输出。后继原 factory 必须用真实 selected recipe 在当前 job 运行，原 CurrentProfile/native sampler 必须消费这个新现场。没有实际 selected、原完整域未付或九词投影改变准确初点时，不生成直接 BVP 输入。本文没有预填 beta、九参数、selected 文件、后继请求号、run 或接受结果。
 
-本次独立源码 [geometry_20261115_accurate_coast_selected_bvp_inputs.py](../computations/geometry_20261115_accurate_coast_selected_bvp_inputs.py)：21,230 B，SHA256 `37ea635a6673e6cac3b41622ae3557075904184d6371c48385e335afaa43c6cf`，Git blob `7a7e7b7e76d1cf71ab63f3963c2fec2df835c48d`。独立读取原源码和 request180 producer 已明确字段后写成；没有本地 import、AST、编译、求解或实际运行。这次只创建小文本 blob，没有移动 branch/ref。
+当前180只从旧 actual165 的实际原字段修域，并无 fresh-C 输入模式。本修订说明：若准确对象相同，不必仅因新包围不同而重新选择修域点；若实际上又选择了不同 beta、窗口或九系数，就必须按那个新点的真实证据说明。R386 的缩放存在性也不能代替真实180所选点的完整域结论。
 
-| 原直接依赖 | 字节 / SHA256 |
+## 2. 冻结源码与准确基线
+
+本次更新同路径 [geometry_20261115_accurate_coast_selected_bvp_inputs.py](../computations/geometry_20261115_accurate_coast_selected_bvp_inputs.py)：
+
+| 项目 | 完整身份 |
 |---|---|
-| `geometry_20261115_continuous_nine_scalar_factory_v3.py` | 42,270 / `0d89370df95c6063cb336182d87137705d5e4ddb87625a3fb1b58b35695a621e` |
-| `geometry_20261115_continuous_nine_scalar_numeric_v3.py` | 22,469 / `7cfab12ebb8bf4a948336e7c605ea096a9597be43a4582f166f9067850ea4b60` |
-| `geometry_20261115_continuous_C_full112_binding.py` | 42,658 / `c0bda3350b30b9659c326112eaf8f411d0bb6f825a7a3f81fcc6c7502ed3f952` |
-| `geometry_20261115_current_C_riccati_full453_physical_dn.py` | 63,057 / `76c51a05c8ce40f78225aa3bfbd5db2b1ac39e0d6fb7f8b84f02e0dfaafd122f` |
+| 新源码 | 34,871 B；SHA256 e5ab2a8cd5e6f787b9ef37121b1adfba9ea3236ee227b93f31f1f78577b494f2；blob 5dabcf646c9589c3e7bb67d5348023c4f834a821 |
+| 已发表基线 | commit ba74d562d06244ce31100eb2fd1b3c99b0ad3ee1，同路径；21,230 B；SHA256 37ea635a6673e6cac3b41622ae3557075904184d6371c48385e335afaa43c6cf；blob 7a7e7b7e76d1cf71ab63f3963c2fec2df835c48d |
+| 完整源码差异 | 20,585 B；SHA256 72ed66c0ae3cc52a56e2f892bbbcd9e5eaa537bea97642231a2371c5963caf5f；临时审阅 blob 4e4e769b5ad03396cd2e523b3244025e254b66ff，可由两版源码重得，不要求另存仓库 |
+| 原已发表接口 | 同本文路径，14,723 B；SHA256 2f53b04d3c94f71e0add4a875cadb63b571b36b3260a7924ad1fb665bdd8e4f6；包含原 root 补记，不以更早短稿冒基线 |
+| 数学依据 | R383，17,682 B；SHA256 71b1b3061c0cf613237fa2fb1f6fc622f267f353e9e3486376ca63d6f058b4ed |
 
-原模板为 `current-C-riccati-full453-physical-DN179-recipe.json`，10,294 B / `d926cecf92f35cf4c7ae8cc86ad243287846d73df98c78e8ba1005c568ab8811`，已发布 source `ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad`。实际 selection producer 的最终源码 SHA 由未来公开 request 与必需 CLI 参数同时绑定，不在这里预填未冻结或未来实际结果的身份。
+原4个直接依赖逐字不变：
 
-已有目标结构与范围沿 [R300](../results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)、[R383](../results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md) 及 [request179 总接口](2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)。本次没有重复建立新数学验收标准。
-
-## 1. 唯一选用的直接路径
-
-接收原 request180 producer 真实返回的 selected_profile。其准确九系数来自同一 R323/R300-v3 完整表达式，原 C 语义叶、core、长度、cut、全部控制支撑保留。先逐个读取 producer 的实际 binary64 原词，并以完整有理恒等式核该词恰表示对应准确系数。九项全部满足时，使用这些原词生成原 request179 三活动参数配方；初始准确九点完全一致。
-
-本接口不实现一个尚未发生的非精确投影分支。若实际 selected_profile=null，或者任一准确系数与其实际词不同，报告直接交接未完成、保留原来源及投影差，不生成 BVP 配方。这个输入身份结果不是原 BVP 的新域门、容差、试步或数学失败。
-
-共同 2 的负整数次幂缩放通常保留原 binary64 系数的准确表示，但本入口不预先据此宣布任何实际九点可表示；必须读取真实输出。
-
-## 2. 原源码的准确接点
-
-已有原 driver geometry_20261115_current_C_riccati_full453_physical_dn.py 的 read_recipe 接收九个有限数字，prepare_problem 依次创建 CurrentProfile、three-active view、完整338物理状态和112 core，保3个活动参数。因此当前问题仍453维，原 source seed 的全部物理/core分量仅作初猜，公共 u 重参数化后所有新 RHS 重新求值。
-
-现有 CurrentProfile 来自 geometry_20261115_continuous_C_full112_binding.py。它的 bind_definition 要求真正原 factory result 与 definition 双向一致，包含原 producer SHA、原九系数、实际新 recipe、core、完整 C 输入及真实 cut 两jet。不能把 request180 自己的 selection result 改标签成原 factory result。
-
-最小无需改原科学源的顺序为：
-
-1. 同 job 生成原完整 C 及实际 cut 两jet，并按原 R323 产生原待修域表达式。
-2. 执行 request180，保其真正选中的新 recipe、准确 definition 和完整必要摘要；没有选中便明确没有本接口的实际初点。
-3. 用该新 recipe 及同一个实际 C、cut、core 文件，真实调用冻结的原0d893 factory。其结果可以继续报告域未决；不增加新的 factory 域通过要求。此步用于取得原 binder 要求的真正 producer 结果，不能伪造。
-4. 独立薄参数适配器完整核三方数学定义、九个准确系数、实际词和原源，生成原179输入格式的新配方。
-5. 原179 driver 消费这一真实新 factory 结果和新配方，经当前 profile 实际 H、同一 live native/J、原 FD、原完整 BVP、原末 fresh audit 继续。实际请求号由未来明确请求给定，本接口不预造。
-
-第3步是新增真实原 factory 调用，必须计入未来资源计划；不是免费已付步骤。它仍使用现有完整两个域遍历实现和原预算。适配器不重新执行原域算术，更不把其成功作为另一个 BVP 门。
-
-## 3. 输入及实际出处
-
-适配器只接受真实文件和明确 SHA，不发网络请求。所有科学数据在同 job 的自有临时目录，读取完整原 bytes 后绑定；不从 Git/Release 拉取已删除的 raw。
-
-| 输入 | 来源与用途 |
+| 文件 | 字节 / SHA256 |
 |---|---|
-| selection summary及SHA | 原 request180 原摘要，含选中点及逐词投影；未出现真实结果不能填入 |
-| selection source及SHA | 同 checkout 的准确原 producer，来源由未来明确请求 pin |
-| selected recipe | request180 输出的真实新有理配方，原 bytes 不重序列化后冒原件 |
-| selected definition | request180 用原 factory.definition 实际产生的新准确数学对象 |
-| factory directory/result SHA | 用新 recipe 真实调用冻结原 factory 的结果 |
-| 原179 BVP模板 | 已发布 ccf1b023… 的完整原配方，固定SHA d926cecf…，只取已明确算法/初猜合同 |
-| 4个直接旧源 | 原 factory、numeric、CurrentProfile binding、完整179 driver，逐源码SHA核同 |
-| 实际未来 BVP 请求号 | 显式 CLI 数值，不以179/180冒后继实际运行 |
+| geometry_20261115_continuous_nine_scalar_factory_v3.py | 42,270 / 0d89370df95c6063cb336182d87137705d5e4ddb87625a3fb1b58b35695a621e |
+| geometry_20261115_continuous_nine_scalar_numeric_v3.py | 22,469 / 7cfab12ebb8bf4a948336e7c605ea096a9597be43a4582f166f9067850ea4b60 |
+| geometry_20261115_continuous_C_full112_binding.py | 42,658 / c0bda3350b30b9659c326112eaf8f411d0bb6f825a7a3f81fcc6c7502ed3f952 |
+| geometry_20261115_current_C_riccati_full453_physical_dn.py | 63,057 / 76c51a05c8ce40f78225aa3bfbd5db2b1ac39e0d6fb7f8b84f02e0dfaafd122f |
 
-其他完整源闭包仍由原 driver/request 的原检查承担，适配器不会把4个直接源核误称完整科学闭包已经执行。
+原 BVP 模板仍为 current-C-riccati-full453-physical-DN179-recipe.json，10,294 B / d926cecf92f35cf4c7ae8cc86ad243287846d73df98c78e8ba1005c568ab8811，source commit ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad。实际 selection producer 的最终源码身份由未来公开 request pin 及必需 CLI 参数绑定；不在这里预填尚未实际产生的结果身份。
 
-## 4. 比较的准确数学对象
+## 3. 为什么不同包围仍可对应同一准确目标
 
-比较原 schema/source、完整参数顺序、九准确系数、表达式 DAG、所有 pieces、全部支撑、所有根节点、core_end、cut_radius、root_choice、连续尾完整身份、core来源、实际 E0/E1/E2 闭盒及构造条件。cut 控制的语义值保持原 C 中的值；区间中点从不写回准确目标。
+原0d893的 build_expression(kernel,geometry,recipe,cut_boxes,cut) 中，cut_boxes 形参没有被读取。准确表达式从三个 semantic-cut-leaf 节点 E0/E1/E2 构造，不以区间中点、端点或某次积分结果当准确系数。κ、d、δA、δB、第一支撑和 core_end 来自真实 recipe 的准确值；原 core 由固定 a9a25d shared-jet 源及所选 geometry 构造。准确总长和全部支撑仍是同一个表达式 DAG 的节点。
 
-同 job 原 factory 的操作性域遍历可能产生不同计时和报告文件 SHA，所以不能用一次新的 result SHA 强迫原 selected definition 原 bytes 完全相同。两件完整原字节身份各自保留，同时比较所有数学定义字段；不把未比较的操作日志宣称成数学恒等证据。准确九系数按有理值比较，零的数值表示符号由原 binary64 word 独立保留。
+记 Ω 为固定准确 C 定义允许的全部原根序列，e(ω) 为同一 cut 上的 E、E_r、E_rr。准确族可写成：
 
-需要同一实际 C/cut/core 输入对象；不可将后来重算而包围不同的 cut 盒或其他根族悄悄替换。若这些身份/表达式不同，交接明确失败，不把“同一个模型名”视为同一实际目标。
+$$
+a_{\omega,p}=F(\mathrm{core},R,\mathrm{recipe},p;e(\omega)).
+$$
 
-## 5. 九词与有限搜索影子的区别
+当 Ω、F 的全部准确常数和九有理点 p 相同，旧、新运行描述同一组函数。旧域证书若已证明全部 ω、全部闭片的 a>0 和 |a_s|<1，这个全称命题直接适用于新的现场；无需要求两个包围盒相等或互含。
 
-对第 i 项，实际 producer 给出准确有理数 c_i、binary64 原词 w_i、其文字值及投影差。适配器按原词解码 x_i，核文字值回到同一16位十六进制词，核 finite，核 Q(x_i)=c_i，核 producer 自己的 represented_exactly 与准确投影差。这是准确字词身份，不是科学重求解。
+原旧盒可能是语义叶族的外包乘积，旧域证明甚至对该乘积中的更多独立组合成立。另一新盒也包住同一语义族但含有不同的额外组合时，传递的仍是原准确族命题，**不声称新独立盒中的每一点都被旧证明覆盖**。新盒过宽导致 fresh interval 遍历未决，不能单独否定已有准确命题。
 
-九词全匹配只说明初始参数点没有投影换目标。数值 profile 仍会用已披露的 semantic leaf 中点和有限多项式运算；原数值长度、有限接缝词和完整 RHS 不能因此被认作同一准确 C 的已认证求值。原 public u 下准确长度 L_true 和数值长度 L_numeric 的区别、R326 比较责任以及准确目标 metric 误差责任全部保留。
+本次不扩大为任意源码等价识别：准确 C 源及祖先、原三输入和数学字段必须按下表一致。若原根族改变、只证明单个根、选用新的 selector、改变实际 κ/d/δA/δB/support、cut/core 或九系数，就不能从旧初点证书借结论。一个全族证书可涵盖其内部单一根选择，但改变所选根仍不等于已证明同一个具体场；本适配保持 chosen_root_scope 一致。
 
-原 p1/p2/p3 仍可在 BVP 内活动，theta1..3/eta1..3 仍冻结为真实修域点词；不新增活动参数、不删控制。当原求解走到新 p 时，request180 对初点的准确域结论不自动覆盖后继 p。最终接受点需按其自己的准确系数支付连续域/metric责任。
+R386 对 βp 给出的可行缩放论证与此兼容；β 的实际选择不会改变原 C 或长度表达式，但不同 βp 是不同准确初点。真正被消费的是原180实际完整域断言，不是存在一个足够小 β 的纸面结论。
 
-## 6. 只允许更改的配方字段
+## 4. 源码执行的字段分层
 
-生成配方继续使用原179输入 schema，因为原 driver 支持这一输入格式；它不是伪造一个179实际结果。原 source_commit/run_id 在真实科学执行中由原 driver 记录。
+| 层 | 必须比较或保内部一致的内容 | 不要求跨运行相同、但各自保存的证据 |
+|---|---|---|
+| 准确 C 来源 | f12f及9aa0/0040祖先；原公式源集合的完整 bytes/SHA；原 config/calibration_ledger/stored_reference 三输入的 bytes/SHA及原 decoded 身份；原 source revision | file路径、checkout、source-origin 文档位置、runtime与工作预算 |
+| 原数学 C | 完整160浅段表、physical_parameters、冻结 warp、原 fingerprints、原 calibration interpretation、完整 convention | 积分面板/叶数、误差宽度、计时、resource 状态和具体输出文件 |
+| 全根族 | original-exact-root-family；对 half-to-two 内所有原根的统一包围；原根存在性；未数值挑根、未重选warp、未把自然外半径改为nominal cut等原声明；chosen_root_scope同值 | 某次 root-family 包围账本、自然外半径盒、query result SHA |
+| 准确 cut | definition.cut_radius、physical.rCut、original_binary_cut.exact_rational；完整点 query 的原 id/index/kind、左右闭端点；cuff坐标 | 其他查询的执行情况、完整 query 文件路径和实际 SHA |
+| 准确 core | geometry_pointer、selected_geometry_canonical_sha256、a9a25d准确 shared-jet 源、core_end；全部准确多项式由DAG/pieces再次保留 | 承载 geometry 的完整外层文件名和其他元数据；两份完整原文件 receipt 仍各自保留 |
+| 原 R323 recipe | 同一真实 selected recipe 的 bytes/SHA；准确κ、d、δA、δB、core_end/cut、first_support.left及stored_width、collar_mode、root_choice和九有理点 | 两次 factory 的域报告、计时、输出路径 |
+| 完整表达式 | schema/source/exact_definition、参数顺序、全部 expression_nodes/pieces/local_interval、three_true_supports、derived_expression_roots及原语义flags、R300证明身份 | actual_enclosure_leaves、construction_conditions的实际边界、base_domain 工作报告 |
+| 每个实际来源 | 各自 selection/recipe/definition/factory result/C input/读回之间的完整原身份绑定 | 不覆盖旧 run/source，不把旧 result 改标签为新结果 |
 
-只改 request_number、initial_nine_parameters、initial_parameter_origin，并新增 actual_selected_coast_input_binding。其余模板键逐JSON值比较不变，包括：
+三原 C 输入及原公式源仍比较完整字节身份，只有 receipt.file 不作为准确系数。core 的数学核是明确选中的 canonical geometry、pointer 和固定准确构造源；完整承载文件 receipt 不丢，只不强迫两个外层文件的无关元数据相同。
 
-- lambda=.001、完整699×453原初猜及历史8bd2671身份、原五数学输入；
-- 完整112模态/338物理/112core/3活动，341左/112右边界；
-- 原17内试探、outer8、max1200、RMS1e-6、BC1e-11、FD5e-5；
-- native32轮、原10档、严格下降、tol2e-9、eta1修正、eta0全112敏感度；
-- 当前 R375/R357 true-far、真实mu、完整候选取向单位行以及全部未付范围；
-- 同一 live client、当前 H/J 和原 fresh audit；
-- 原资源/信号/读回及条件清理策略。
+准确 JSON 数值按其原有限词对应的有理数比较；布尔、字符串、列表和对象结构单独保留。原九系数用准确有理比较，原 binary64 word 的零符号另行保存。完整 DAG/pieces 直接比较固定源产生的全部结构，没有删项、只比抽样或只比某个摘要计数。
 
-新 factory 调用消耗未来实际资源；原 namespace 仅启动剩余裁剪的性质不改变。不能把工作计划的剩余时间说成全链必完成保证。
+实际 C 的绑定仍要求原 source f12f、祖先9aa0/0040和原 cut reader1c39，原语义叶列表为 E(R)、dE/dr(R)、d2E/dr2(R)，coefficient_midpoints_substituted=false，original_producer_encloses_every_admissible_root_sequence=true。原 convention 中准确实关系、原dyadic浅段、全根覆盖、未重选/未数值挑根等字面 flags 必须保原义；不从模型名推断相同函数。
 
-## 7. 输出与未付范围
+## 5. 旧域证书必须是真的完整419片证书
 
-正常适配器产生一个小 original179格式配方和独立自己的 result；生成配方有实际 bytes/SHA。报告保全部输入身份、9项准确系数/词/投影差、数学字段相同比较哈希、原 factory 域状态和允许的字段改动列表。没有 J、残差、全状态、数组、准确场或成功证书输出。
+原 selection schema 保持 request180-accurate-R323-coast-three-coefficient-repair-v1。适配器先读取真实 selected_profile；空值明确没有初点。非空时核：
 
-单份必要摘要≤90000B；超限不分块，只报原bytes/SHA和未完整返回。源身份/实际文件错误记录原错误，直接未选/非精确投影记录其真实原因。适配器本身没有 BVP/native调用；它不清理任何上游数据。后继 workflow 仍必须在真实原读回完成且进程停止后按所有权清理。
+- 原 request_number=180、full_accurate_nine_domain_proved=true。
+- selected.semantic_C_remains_original_all_root_family=true、full_length_expression_unchanged=true。
+- 原 all418_unchanged_piece_domain.complete=true。
+- 原 unchanged_target_geometry 的 complete_accurate_piece_count/coast_piece/unchanged_piece_count 分别为419/416/418。
+- selection 源、原factory源、目标schema、全九顺序、selected beta 与顶层 beta、selected recipe/definition 全文件 bytes/SHA 相符。
 
-本接口不是新求解验收门，不宣称 request180 已有成功结果，不把原当前BVP或闭曲面问题当已完成。它准备的是实际修域点一旦生成后可以直接使用的、来源严格区分的输入接点。
+这些是原证书范围与来源的核对，不新增 a、a_s 或 BVP 数值门。原顶层完整布尔由418个不变片和选中coast片的完整域证明共同决定；本适配引用被实际source pin绑定的producer合同，明确不独立重算或重复审阅全部域ledger。
 
-## 8. 准确选中协议与 CLI
+各自完整 definition 已绑定原文件 bytes/SHA。report 另以 selected/fresh 两份 evidence 保存完整 continuous_tail 和 actual_input_binding 的 canonical bytes/SHA，原 result/input/query plan/query result/leaf ledger/cut readout receipts、原readout run/source、完整core/recipe receipt及三叶盒和construction_conditions的canonical身份。canonical身份明确不是原文件bytes身份，二者不混。
 
-消费 schema 为 `request180-accurate-R323-coast-three-coefficient-repair-v1`。顶层必须来自实际 request180；`selected_profile` 非空时，原 `full_accurate_nine_domain_proved` 必须为 true。这个原布尔由完整418个不变片与 coast 片的已完成域遍历一起决定；本适配只引用被冻结 producer 的这个合同，不冒重新读取或重算全部域 ledger。
+构造条件不做跨运行相等比较。原0d893 factory 在产生definition前已要求 construction_conditions.all_strict_conditions_proved；这项原责任没有被绕过，也未被本适配重复改成另一套门。fresh factory 的完整给定九点域遍历可以报告未决；旧全族准确证书的传递不需要 fresh factory 再返回同一个域布尔。
 
-`selected_profile` 中实际读取：
+## 6. 九个原词与新数值影子的独立责任
 
-- `parameter_order`、`nine_parameters_exact`、`beta_exact`；
-- `recipe` 和 `accurate_definition` 的完整 bytes/SHA；
-- `factory_source_sha256`、`new_selection_source_sha256`、`continuous_model_schema`；
-- `semantic_C_remains_original_all_root_family`、`full_length_expression_unchanged`；
-- `binary64_projection.all_nine_exactly_representable` 和全部9项 `parameters` 行：parameter、accurate_rational、binary64_value、binary64_word、represented_exactly、exact_projection_difference。
+对每个 c_i，实际180输出准确有理值、binary64原词、原文字值、represented_exactly和准确投影差。适配器解码little-endian 8字节原词 x_i，核原文字值回同一词、finite、Q.from_float(x_i)=c_i，以及原投影差 Q.from_float(x_i)-c_i。九项全部准确相等，才生成直接原179格式输入；任一投影非零都不把近似点冒原选中点。
 
-投影差的符号明确为 `Q.from_float(binary64_value) - Q(accurate_rational)`。原 word 是 little-endian 8字节、16个十六进制字符；负零也按实际词保留。准确零本身不编码符号，两层责任分别保存。
+这不证明数值profile是准确目标的认证求值。原7cfa NumericContinuousNineProfile 对每个新actual_enclosure_leaves取 (lo+hi)/2 后转 binary64，再以原顺序执行DAG、多项式、查找分片、全部控制、长度和导数。新包围变化可能改变这些数值字词，而准确语义叶不变。
 
-当前 producer 的原临时文件名为 `selected-accurate-nine-recipe.json` 和 `selected-accurate-nine-definition.json`。不要求这些 raw 将来常驻仓库；未来同 job 必须真实重新生成。只从历史必要 summary 拿一串参数而没有本次原准确对象和来源，不满足这个输入接口。
+因此下列责任不能从旧域证书继承：
 
-CLI 各身份均在实际文件生成后计算：
+- 新数值 shadow 的实际 radius/speed 域、有限接缝字词和新public-u查找；
+- 当前完整 RHS、Jacobian、FD、native currentH、原fullDN/末fresh J和audit；
+- 准确与数值两层的共同u误差、metric、同一根共同实现或连续场完成；
+- 后继active p1/p2/p3变动后的准确域。
 
-```text
-python geometry_20261115_accurate_coast_selected_bvp_inputs.py
-  --selection-summary ACTUAL_SELECTION_SUMMARY
-  --selection-summary-sha256 ACTUAL_SELECTION_SUMMARY_SHA256
-  --selection-source PINNED_ACTUAL_SELECTION_SOURCE
-  --selection-source-sha256 PINNED_ACTUAL_SELECTION_SOURCE_SHA256
-  --selected-recipe ACTUAL_SELECTED_RECIPE
-  --selected-definition ACTUAL_SELECTED_DEFINITION
-  --factory-directory ACTUAL_ORIGINAL_FACTORY_OUTPUT
-  --factory-result-sha256 ACTUAL_ORIGINAL_FACTORY_RESULT_SHA256
-  --template-bvp-recipe ORIGINAL179_TEMPLATE
-  --code-directory CURRENT_PINNED_COMPUTATIONS
-  --bvp-request-number EXPLICIT_ACTUAL_NEXT_REQUEST_NUMBER
-  --out NEW_OWNED_TEMPORARY_DIRECTORY
-```
+原初点的theta1..3/eta1..3仍固定为真实selected词，原p1/p2/p3仍活动。没有新增/删减控制。初始准确域结论只付这个准确九点；不能把它扩到整个搜索邻域。
 
-上面的大写词只是参数位置，不是新请求或实际结果。入口强制 `GITHUB_ACTIONS=true` 与原 repository；真正 original factory result 的 run_id/source_commit 必须为当前同 job。原完整 mathematical keys 比较完成后，新配方输出名为 `current-coast-selected-BVP-recipe.json`，来源摘要为 `result.json`。
+## 7. 可执行的最小真实接线顺序
 
-退出码0表示本次输入绑定和新配方生成完成；3表示没有实际选中对象或不能直接保准确点的投影；2表示完整原来源/字段不符或原读取异常；70表示单摘要超限未完整返回。任何码都不等于原 BVP 科学接受或拒绝。原科学调用、输入完整性和最后读回仍由实际未来工作流负责。没有当前场、没有实际 beta、没有新请求号、没有接受结论被预填。
+1. 取得实际180选中的summary、源码、recipe、definition和完整身份。可以来自仍保有真实文件的前一现场，或明确的真实重生；不能由已删raw的hash制造原件。
+2. 在后继job重建原C及实际cut两jet；用完全相同的selected recipe、准确core和cut真实调用冻结0d893 factory。记录这个新现场自己的run、C result、cut readout、definition和两次原域遍历。
+3. 本适配器比较准确数学签名及全部九词，分别保旧证据和fresh证据，生成原179输入格式的新recipe。
+4. 原179 driver消费真实新factory和新recipe，照原CurrentProfile、same-job C/native sampler身份检查进入实际H/native/J/FD/fullDN/final audit。
+
+c0bda bind_definition 和76c51 bind_current_native 中原强绑定仍逐字不变：新factory和新sampler必须属于同一当前job、同一实际C result及准确cut。这里没有用旧certificate替代新的factory result或native geometry。旧、新跨现场的语义同一性只由本薄组件处理。
+
+新C重建、原factory调用和后续科学都要计入实际预算，未预付。原factory仍运行原两个域遍历及原预算；新的完整域未决不是额外 BVP 拒绝，但原factory若未实际生成definition，就没有可供原binder消费的对象。
+
+当前180临时输出名为 selected-accurate-nine-recipe.json 和 selected-accurate-nine-definition.json。若这些文件已经清理而只剩hash，本现成文件协议不能假装恢复；必须明确采取真实重生或另一个已授权的数据获取流程。本次没有建立raw常驻仓库/Release/Artifact，也没有造未来selected结果。
+
+## 8. 输入、CLI和输出
+
+适配器不联网，只读实际文件和明确SHA：
+
+| 输入 | 原责任 |
+|---|---|
+| selection summary及SHA | 实际180必要摘要、原完整419/全根族范围及selected point |
+| selection source及SHA | 当次实际producer源码，未来request明确pin |
+| selected recipe/definition | 原selected记录绑定的完整实际文件 |
+| factory目录/result SHA | 当前job用相同recipe真实运行原0d893后的完整结果 |
+| 原179 BVP模板 | 固定d926cecf，完整原算法/初猜/资源合同 |
+| code目录 | 原4个直接依赖源码字节核对；不冒完整科学闭包已经运行 |
+| 后继请求号 | CLI明确给定，不用179/180冒未来run |
+
+原CLI保持：
+
+    python geometry_20261115_accurate_coast_selected_bvp_inputs.py
+      --selection-summary ACTUAL_SELECTION_SUMMARY
+      --selection-summary-sha256 ACTUAL_SELECTION_SUMMARY_SHA256
+      --selection-source PINNED_ACTUAL_SELECTION_SOURCE
+      --selection-source-sha256 PINNED_ACTUAL_SELECTION_SOURCE_SHA256
+      --selected-recipe ACTUAL_SELECTED_RECIPE
+      --selected-definition ACTUAL_SELECTED_DEFINITION
+      --factory-directory ACTUAL_ORIGINAL_FACTORY_OUTPUT
+      --factory-result-sha256 ACTUAL_ORIGINAL_FACTORY_RESULT_SHA256
+      --template-bvp-recipe ORIGINAL179_TEMPLATE
+      --code-directory CURRENT_PINNED_COMPUTATIONS
+      --bvp-request-number EXPLICIT_ACTUAL_NEXT_REQUEST_NUMBER
+      --out NEW_OWNED_TEMPORARY_DIRECTORY
+
+大写词只是参数位置。入口仍要求 GITHUB_ACTIONS=true 和原公开 repository。实际factory的run_id/source_commit必须为当前job，输出目录全新且不能拥有任一输入。
+
+输出 current-coast-selected-BVP-recipe.json 与独立result.json。report新增 accurate_initial_domain_certificate_transfer，准确记录：
+
+- 相同原C全根族、准确core/cut/windows/DAG/支撑和初始九点。
+- 旧真实完整419片域断言保留，可传给这个语义族。
+- 旧/新run证据分别绑定；无需盒相等或互含。
+- 新独立盒的全部点未获证。
+- 新数值shadow/J/FD/metric及后续active p未继承，实际BVP/native接受未创建。
+
+原schema仍为 actual-accurate-coast-selected-words-to-original-current-BVP-inputs-v1；新增嵌套语义传递schema为 R383-same-accurate-family-initial-point-domain-transfer-v1，不改变selection schema或原179 recipe schema。
+
+只改原模板的request_number、initial_nine_parameters、initial_parameter_origin，并新增actual_selected_coast_input_binding。其他键逐JSON值不变，包括lambda=.001、完整699×453源初猜及历史来源、112模态/338物理/112core/3活动、341左/112右边界、原outer/inner/FD阈值、native32×10/2e−9/严格下降、eta1修正与eta0全112敏感度、R375/R357 true-far/真实mu/全部候选、live client及原fresh audit。初猜仍只是初猜。
+
+单份必要summary≤90000B；大完整对象只留原身份，不拆包。退出0仅为输入绑定与新配方完成；3为没有实际selected或不能准确保点；2为原来源/字段/读取不符；70为摘要超限未完整返回。任何码都不是BVP科学接受或拒绝。适配器没有native/J/科学调用，也不清理上游数据。
+
+## 9. 修改范围和未执行项
+
+纯源码文本核对显示12个原函数逐字不变：require_actions、digest、canonical、unique、read_json、check_descriptor、safe_member、q、nine_rationals、parameter_projection、checked_sources、main。只调整same_accurate_definition和bind，增加8个签名/receipt辅助函数。4个旧直接源pin、BVP模板pin、原schema/CLI/退出码/90KB上限全保。
+
+这次读取了原0d893 build_expression、cut_jet_from_actual_cover、definition/main，f12f bind_inputs，7cfa全部叶/表达式编译段，c0bda bind_definition/CurrentProfile及76c51 bind_current_native/prepare_problem。已确认cut_boxes不参与准确构造，当前现场强绑定仍未放宽，新的数值shadow确实重新取当前叶盒中点。
+
+没有本地AST、import、编译、区间算术或科学执行。实际未来workflow承担正常语法检查；不另造fixture、审批或数学接受门。完整差异仅供源码审阅，可由已发表基线和新源码重得。
