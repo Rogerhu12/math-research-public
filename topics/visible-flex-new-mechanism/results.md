@@ -203,3 +203,5 @@
 - [R222：完整pure与八个固定圆通量的真实同时支付](results/R222-simultaneous-real-pure-and-eight-flux-control.md)：增强观测E(U)=P⊕R8、E(R)=πR⊕R8，真实商保Q。δ方向拆有限原响应，在每组真实prototype追加pure校正清基准但保mixed；R212全pure C1截面清全部剩余pure，其未知通量成本留有界函数，最后有限n收缩付F8。得固定有限词C1增强目标截面及pure0/八flux0真实闭hook，λ+仍正；不授完整period/ruling、十元组或Morse兼容。
 
 - [R221：任意gauge的完整ruling矩映射与joint右逆](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)：准确η极化/physical配对、18局部+24累计history函数给126profile矩，加6合法性矩；指定包类全部kerLf为活动区Cf+B与所有常平台自由函数，端迹/平台Gram给完整132矩像与右逆。先付两个period函数门及五相位45几何span残量，再48×135矩阵和有限降秩可去奇点条件准确iff全相位第四range。保三合法性行、sin种子、平方项/全部history；未验实际目标，尺寸非rank。
+
+- [R223：整pure、八通量与全域Morse的精确兼容](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)：正则有限原语库先选，再固定I/圆/右锚；F8的固定ξ积分/平台值经完整history Duhamel给光滑s变分密度，不产生s点源。先全E IFT准确保所有目标，再共同核点2jet与有限零集投影使全h Morse，含全部背景/复制/校正；Klein按新位移闭合。每目标局部C1截面保持偶germ和增强成本，不宣任意大紧集全局Morse截面或fullperiod/ruling。

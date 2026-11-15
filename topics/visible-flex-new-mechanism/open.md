@@ -112,7 +112,7 @@ R186/R188完整权−2函数核/正性已结；R190给U2=R2。R192/R194完整权
 
 R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链与237共同query/lineality、R162 J6成员分离已结案，不追孤立rank。R159两根忠实、R178终止和R179规范word普适单射可用于新同权问题；不为历史保守输出标签重跑。
 
-[R219](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)进一步给同一合法八包的八个修正退化通量，在全部pure-zero真实响应上满射R8。修正项准确消去右方packet的二次平台尾，未删history；K_PR的δ^0..δ^7与sl2恒等式给Vandermonde非零。所有全I二阶gauge均被八读出消掉，故λ+不能由它们读出；另左pair加任意一个通量满射R3，**未证左pair加全八通量的十元组满射**。[R222](results/R222-simultaneous-real-pure-and-eight-flux-control.md)现已真实同时支付整pure与八通量，且给固定有限词C1目标截面。准确增强响应像为πR⊕R8，商仍Q=P/πR；原型分组先实际清pure基准，全部mixed成本保留，末用R212全pure截面及有限整数收缩解F8。Klein按改后真实位移给pure0/F8=0闭hook；不把有符号响应冒路径。完整period及同w ruling仍欠，R223继续共同偶非平germ/Morse与增强目标的精确兼容。
+[R219](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)进一步给同一合法八包的八个修正退化通量，在全部pure-zero真实响应上满射R8。修正项准确消去右方packet的二次平台尾，未删history；K_PR的δ^0..δ^7与sl2恒等式给Vandermonde非零。所有全I二阶gauge均被八读出消掉，故λ+不能由它们读出；另左pair加任意一个通量满射R3，**未证左pair加全八通量的十元组满射**。[R222](results/R222-simultaneous-real-pure-and-eight-flux-control.md)现已真实同时支付整pure与八通量，且给固定有限词C1目标截面。准确增强响应像为πR⊕R8，商仍Q=P/πR；原型分组先实际清pure基准，全部mixed成本保留，末用R212全pure截面及有限整数收缩解F8。Klein按改后真实位移给pure0/F8=0闭hook；不把有符号响应冒路径。完整period及同w ruling仍欠，[R223](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)已精确兼容共同偶非平germ、全部增强目标与全域Morse。先正则有限库后固定I/圆；固定ξ通量的完整Duhamel导数仍为光滑s密度，全E IFT后有限jet扰动保所有调用和新位移。每指定目标有局部C1 Morse截面，不宣任意大紧集全局截面。下一R224检查偶germ下Bθ偶部与K0的准确商；现有Morse/八flux结果不使该门自动过。
 
 ## O1：双圆领相位机制，保留备选
 
