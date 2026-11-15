@@ -314,3 +314,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R400｜全自然joint权零商与原正字符的三静态函数判据
 
 [R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)（10930B；SHA256 ba3260a5d05fe202fdf09d9eff565075f6afc307da2655ff06960378e0750b8d）。沿原R196/R316/R333真U0=R0⊕span(C2,C4,C6)，完整自然Λ杀R，增强零权商恰span(n2,n4,n6)。利用全函数核真仿射稳定，ker(E,Λall)内λ+=1存在iff n2∈span(n4,n6)；若否，则原λ+下降且实际L+∫(h′/h)²>0成为严格联合阻断。未判这两个分支；H*不是正常H，不能删原F0/N0/Γ/尾。根核R196原状态表并将R333(6)元组标头次序改回(h,k,ω,logh)，C6为hkω，原列身份/系数/已付研究未变。无新执行。
+
+
+## R401｜同一真实偶包镜点的四个period内部通量
+
+[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)（9462B；SHA256 b2fb1c16871f97522eb190344ca6a6603803f1cfc1c093980a8ef37f8cbd1104）。原左collar同锚积分给K0/K1两Hd det=−20y h*²，tau*的两原尾给两C det=2r(p+yr)(4a³p²)²>0；全部在wholeE/Λall核，真四行block星号保留。原成本协议分别实现wholeE0与镜点双period，或(P_LE,两A,四raw)紧目标截面；不拼更强joint。root手工核两个上端积分及两C行，既有profiles不换；未证明只此两Af根，余period/13门继续。

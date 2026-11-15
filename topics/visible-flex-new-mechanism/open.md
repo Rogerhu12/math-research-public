@@ -167,9 +167,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整函数像9维，−4/−2两个平移字符头在Q4四次速度上有准确非负平方action。旧E负权等像不能消去新增自然读出；Q4无零权也不授全Λ无零权。下一继续R130十四族中F0/三Q2的完整forcing/N0/N2/Γ/水平势，检验头能否延拓及低速项是否破坏非负；不重算已闭Q4/旧秩。
 
 
-### R396实际F/双固定Λ/对应partial联合已付
-
-[R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)把R395 m≤11列加入R392真实截面：保块三角左下实际值、K前缀真正仿射安置、清A原型×n及后A全partial成本，一次有限n收缩同时解所有目标。未付商仍C⊕R²，qE三项原基准未删；没有推广Λall、wholeE或其它Af点。继续全自然像低层、actual商、R394完整period/13同规范。
+R396的实际P_LE/双A/旧partial增强成本全部保留，现继续R399/401内部增强；qE的三项原基准仍欠。
 
 
 ### R397原累计量与两个period的准确剩余map
@@ -190,3 +188,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R399新的第二period内部通道已实际付至四点
 
 [R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)原τ*全c0/a2p²/𝔄u0，八响应保wholeE/Λall0；partial在Af点为2p²(pw″−rw′)，不沿旧Af因子。真负布局倒二微包suffix非零、12副本C像准确ε·ρ⁷Pol≤3，≤4第二通道与≤11 Hd块三角独立。可实际(F,A,Hd,C)，另可actual wholeE0并付≤4点两个germ；两截面不拼。其它退化点、全Λ及13同规范仍欠；下一继续原Z内其它c0局部方向的真实内部像。
+
+
+### R401同包两个镜像退化点的四通量实际联调已付
+
+[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一最终偶包的ξ±y处，K0/K1两Hd与τ*真linear/quadratic尾两C成4×4可逆block；所有原型/倒行/桥/Klein和后置截面成本保留。分别actual wholeE0且两点d/e0，或actual(P_LE,A,四raw)，不拼wholejoint。R391只授有限简单根，不授仅一对；下一读原ψ/保护区及同19值纤维，研究全部Af根/全部包条件，不重做这四行。

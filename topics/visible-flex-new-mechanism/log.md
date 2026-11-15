@@ -439,3 +439,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:04:11 UTC｜R400把完整自然权零关口缩至三个原F0函数
 
 [R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)，10930B/hashba3260a5d05fe202fdf09d9eff565075f6afc307da2655ff06960378e0750b8d。根全文核及R333/196原直和、两个kernel代表、normal赋值、严格action核对；全权→零权使用完整函数核而非两固定profiles。顺手纠正R333(6)状态键标题的ω/logh倒置，依据R196§4，原两根/项/系数不改不重算。继续具体F0原密度；基底fbd718f292ad3931092665ae6f9e9223b5f53fa8。
+
+
+## 2026-11-15 23:06:14 UTC｜R401同包镜点四行闭合后继续全部根
+
+[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)，9462B/hashb2fb1c16871f97522eb190344ca6a6603803f1cfc1c093980a8ef37f8cbd1104；根全文核并按原V0/V1密度手工分部积分得到h*=−8a³Rr⁵/45及−10xh*，原同锚未删平台。新C两尾和完整实际成本范围核过，无执行/求根/旧rank重跑。立即推此结论，继续余根与原静态全自然函数；基底064a031d83a5ac039dba9b388f68a6a22e1ec2cb。
