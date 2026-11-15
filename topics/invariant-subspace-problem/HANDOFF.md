@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 全部旧状态、来源、失败路线和未列开放问题保[压缩前H](notes/2026-11-15-handoff-before-position-second-moment-789f.md)、[压缩前open](notes/2026-11-15-open-before-position-second-moment-789f.md)及其归档链；未列不算关闭。当前入口以open为准。
+- 本次精确前态保[整核前H](notes/2026-11-15-handoff-before-integral-kernel-and-positive-gram-789f.md)；全部旧状态、来源、失败路线和未列开放问题保[压缩前H](notes/2026-11-15-handoff-before-position-second-moment-789f.md)、[压缩前open](notes/2026-11-15-open-before-position-second-moment-789f.md)及其归档链；未列不算关闭。当前入口以open为准。
 
 ## R150：原模块、已付结果与当前缺口
 
@@ -16,7 +16,7 @@
 - [二点完整Q已闭](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)：全高rank3760/两Q核，完整第二592→593、第三593→594，321776原产品；正谱 $1^7,2,3$、长12/free13，P同长故整个W局部入像。不再排4/5；F11长14只为算术跳变。零点长66、九 $s^3t_j$ 入像且t2恰需3；负六full/P长12、W入像；F±²W与E8W已付，完整来源保归档。
 - [原∞P完整61](results/R150-appendix-infinity-original-projection-exact-length61-and-full-length-gap-five.md)：谱 $1^4,3,4^3,5,6^2,7,8,10$，保54真实eq8/u²，1342796新产品及668304第五复核。[常高完整核](results/R150-appendix-infinity-complete-high-constant-kernel-two.md)全5100×3762 rank3760/两Q列10200乘回，normal4/5校正穷尽；31单位图不自动给164/494规范Q基整性。
 - **[完整∞有理谱已闭合](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)：** 第十1088×601 prefix578/580/592/593，kernel8/head1/full14、β10=1；952952原十一层产品全真。全正谱 $1^4,3,4^3,5,6,7,8,10,11$，full66/sub55/max11、AI68、T∞长5仍只u5灭杀。4340单位/13自由/右核1834；不用再算第11定谱。完整higher incoming与12入射类均保留；与F31全有序谱相同的整性推论另证。
-- [十三真Q核](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)付λI=2/整核/freeI/80444原产品；[216直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)保1632 Koszul块。[高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)仅F31长26/max7；$vD=\delta_{\rm full}+2+\sigma_O+\delta_{\rm high}$，F31为243。Q的O29…149、高商等号及同D leading31单位仍开。同D权8770/阶130…243/次数8527…8640、q8369…8482。
+- **[完整D31 Smith与同E202核](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)：** Q/F31全有序谱同，逐单位Schur后仅对整块零常数除u，得Z_(31)[[u]]真Smith、完整右核1834自由/良好约化。原1632 Koszul直和及同E216的14方向全退出给K202自由；同原202 freeI经Nakayama为单位，已付其规范D31核存在性，未声称新Q数组实算。原十三Q左核仍λI=2/80444产品；旧O29…149与高商F31长26及旧D leading单位仍开。旧D权8770/阶130…243/次数8527…8640，vD=full+2+σO+δhigh。
 - [射影gcd381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)配∞66给Δaff≤315、R=Δaff/K158次数≤157；K158=s66(s−2)12(s+6)12F+6F−6E8⁴。[全局删二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)给h*=h0/(s−2)与h0成员性等价、R(2)≠0；九Rh*tj全局来源、总乘子≤180。[同九费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)保原输出，当前三支8526/8531/328；实际R系数/高度/31分母未算。
 - [最小目标湮灭式](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)为 $s^3F_+^aF_-^bE_8^cU$，a,b≤2/c≤1，$U\mid R_{\rm out}$，U/Rout与Σ0=s(s−2)(s+6)F+F−E8互素。U是否1仍开。[外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)付Ω|Rout、U|Rout/Ω，d=degΩ≤157，M=Rout/Ω给九Mh*tj全局来源/degM≤157−d，总≤180−d；同I/J/B与K158Ω给统一来源费8531−d、第三328−d。Ω实际未求出，不预填Q60。
 - [原P符号56×22及实际core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)：Σ0外分离120单位/13自由，保全部Γ、全部22子式gcd准确为ΔP外支撑。run43756208221/11.513223331秒实际核原17式、P0/P1、224×13自由核、双H9、63×22及119×22graph。仅剥已知单位后641非零/degree126/位数409与213；逻辑SHA752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8。
@@ -24,9 +24,9 @@
 ## 活跃执行与恢复
 
 - 活跃run43756208221始于20:06:58，350分钟loop/360分钟job；每30分钟/每步/push前实际pull核两README。request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp根/home/runner/work/_temp/isp-source-kernel-session-43756208221。旧run43740928483全部18步已付，不假用跨job临时数据。
-- 新job从小源码重做第五、P、常高、第六、第七高/低；所需phase与manifest逐完整历史bytes/SHA匹配。恢复仅gzip时间和paid RREF用时元数据，不改数学条目；新实际用时另记。全回执统一notes/r150-source-kernel-session-789f/，未满足requires不执行。
-- 第十已实际完成（run43756208221，9.751827312秒，RREF2.722068921秒）；完整receipt为43756208221-infinity-complete-tenth-after-high-probe.json、外SHA bd3bd1c9395562b2b34baed09864f2b2a5650f4f3a9da949c35f843e0b2cf0ad，verified临时pack1380995B/7e24eb52。下一为D31完整核/同E202及原minor整性，未把full同谱当旧选D leading单位。
-- 原全局P的gcd600停于同ce358eac state42d998c9（72.4MB临时），无Ω。只读统计实际1.309897159秒：完成19行/第20待约化、12候选basis/2416步；basis degree83/int24452bits，provenance degree133/分子44184/分母19960bits，raw146.46MB。[localized DAG续法](notes/2026-11-15-r150-global-projection-localized-row-module-dag-interface-789f.md)源码250865/91e5d19a已全读，排600秒/4GiB（外660）：保同current/2416步，先核13根原56来源，再全56反约化/全部支撑互素；只剥Σ单位，不重core、不把S相等说成Q[s]相等。
+- 本job必要第五/P/高核/第六/第七已从小源码重做，全部父phase及manifest旧bytes/SHA匹配；仅恢复gzip时间/paid用时元数据，数学不改。所有实际回执保notes/r150-source-kernel-session-789f/。
+- 第十实际9.751827312秒/RREF2.722068921，952952原产品全真；外receipt bd3bd1c9、verified临时pack1380995B/7e24eb52。完整证据见上述66证明。
+- P的gcd600停于原state42d998c9（临时72.4MB）：19行完成/第20待约化、12basis/2416步；只读统计付basis24452bits/provenance44184bits，raw146.46MB。[localized DAG](notes/2026-11-15-r150-global-projection-localized-row-module-dag-interface-789f.md)250865/91e5d19a已排600秒/4GiB/外660，续同current，核13原根/全56反约化/Σ互素，不重core或预填Ω。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
