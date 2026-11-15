@@ -81,3 +81,5 @@
 - **R785**：[原三态的偶深两框架、真实单帽轴和物理E截距](../results/R785-original-three-state-even-frames-and-exact-e-gate.md)。完整J1512/t24/P696中心及quarterflat付清后，Π3共同深2m核为λ6m；R/Z0单轴与两个正交框架任意偶矩形均保同q。帽的Z0单轴返回保J/失败门，物理E留固定J截距，共同足够深时Edeep才准确回Jdeep；未赋新中央零。公开87项精确几何/中心及全部hash保。
 
 - **R782**：[原r2立方因子的常数刚性、五个角型与完整非齐次接触矩阵](../results/R782-original-r2-five-profile-factor-and-inhomogeneous-contact-gate.md)。mq0下F0只能λd^c，scalar投影保原W3b；端点亏损和Fp五mask/一般≤15mask及逐charge全帽已付。真实接触变为H x=(−1,0,...)，新cube只首核候选；保旧同P的first-normal实际ξ尾，不把分类或环境参数数目替指定余类。
+
+- **R784**：[原第三中央、E浅共同帽与实际四单位CM管族](../results/R784-third-central-shallow-hats-and-four-unit-cm-tubes.md)。原全CM投影消掉Ξ外谱后，216条真实W_s管/逆Y和完整E浅补域准确组成cN·JU；恒等支原近消，其余支物理P/t/W/Vt四unit，全部canonical来源与局部scale质量保。只返Z0仍保同q、J深及仿射失败门；完整有限和零未被拆成各项零。

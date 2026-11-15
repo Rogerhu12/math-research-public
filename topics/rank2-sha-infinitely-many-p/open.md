@@ -86,7 +86,7 @@ R777仅P/t边际的q作用严格βN JT，四unit仍G′=−A1′−B1′。完�
 
 更正后的R780准确给：同q*/EYW深N上B0的Y边际0，B1的Y为λ2N/cB·([1/2]U136+δω²S/2)，两态W仍T；奇W深真实逆Y观察给独立JU约束。原E2312/136周期缩放、全部scale质量保留。
 
-原R780(28)的错误包含已撤回：共同帽只Eperp深；帽∩Wdeep迫t/Eunit，和第三E深行相斥；帽∩Edeep恰tdeepN。裸帽W返回必须用完整E浅Ξ及其参考/外谱，三central后仍留JΞ′−dp log〈2〉JΞ(0)。继续真实E浅完整CM切集族与R783四个E分区、原R_j的同源关系。不得将G或HV冒第三来源，也不得把CM投影穿未运输的W/帽门。
+原R780(28)的错误包含已撤回：共同帽只Eperp深；帽∩Wdeep迫t/Eunit，和第三E深行相斥；帽∩Edeep恰tdeepN。裸帽W返回必须用完整E浅Ξ及其参考/外谱，三central后仍留JΞ′−dp log〈2〉JΞ(0)。R784现已付原216分支的真实E浅纯U关系：系数cN=((52/3)βN−λ2N)/cB非零，A1/216+Σs≠1 a_s A_s+Σs a_s C_s=λm cN〈2〉^-dpw JU（m奇）。恒等帽支近消，另215支在原P/t/W/Vt四unit；各保σ_s=α^-1D_s*QαB0及实际逆Y，所有E浅补域C_s与log〈s〉局部质量保。只返回Z0保持原q，却保J深和uJJ+uZκN Z0失败门。**继续这个完整和与R783四个E分区及原R_j的同源关系**；物理四unit位置不把源改成裸B0，不把CM投影穿未运输的门。
 
 R762原穿S剪切族中央横导非零只给可能simple-u-zero；真正同固定Lp及全部local/gluing身份仍未付，附近来源非零不代原S中央。
 
