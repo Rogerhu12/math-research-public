@@ -18,7 +18,7 @@
 
 ### 1B. 完整128末态、物理审计与严格有限trace
 
-[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保v2、fresh91/64J/R273/128及19200s，不互作门。原160report仅child70/四flag未返；[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流完整/0错却92966B超限，[R393实际182r2](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)90136B仍超90000、exit70，四组件/trial仍未返、清理skip。[182接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)全部原行/key/null/错误/未访保；r3 1536a011/378d9707/d6bf649a本次发布，只将19条reader恒定自述指向精确request，固定净减866B非预填实际；单90KB/1200s/32GiB/35min不变、不分包。root唯一核真实正文；全576×224、112/mixed338/audit责任不变。
+[R394原160完整必要读回](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 43757046032/442413b6，89269B/35f0397f齐、无新科学。原128方向0/α1真接受，norm1.2209605459741099e−4→9.6858247475102318e−11、独立replay同；32×10的余31方向/9档未访不作拒。stage8000s仅20/576，20..22完成8/12、23完成7/12、24..575零步及全部13步例外见正文；boundary缺stages、endpoint缺boundary均未起。独立audit576/7488全齐，但C-based有限程序/非IEEE等价/非连续metric，native/fullDN仍false。原98321B摘要70与真实局部预算分责，global未耗尽。R388/R393读回旧失败不回填；原末state已清不凭SHA续。保持[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)全部576×224/112/338/原门，下一完整算子等价提速与同job真父重生正在接，不缩维或以额外独审作门。
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：128一次α1接受/replay齐，stage10/RK0/field0全230列320bits认证，0未决；仅固定输入/trace准确有限算法误差。原子70由同job恢复，42969B摘要齐，大列账只身份。上游/整RK/576J、112/338/audit/native/fullDN未付，160继续。
 

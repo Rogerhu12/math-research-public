@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:17:10 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 af3908c70ea337e15bbf5a31fa42c0ca6c6933bd。
+规则同步记录：2026-11-15 20:19:35 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7b59f32287b484a75e3e5ed0294bac74e3e6c14e。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -20,11 +20,11 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 |请求/结论负责人|run / source|当前职责|
 |---|---|---|
-|160/182 R359/R388/R393 root|原16043729874541/b34692d0；r2 43756253033/3b987774|原流完整/0错；r2必要90136B仍超90KB→70，四组件/trial未返；r3 1536a011/378d9707本次触发，仅归并19条固定自述|
+|160/182 R359/R394 root|182r3 43757046032/442413b6；原16043729874541/b34692d0|89269B必要齐；128α1容差过/audit齐，stage8000s仅20/576，boundary/endpoint未起；完整算子提速续|
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
-|184 R391 exact|本次完整入口触发，未预填run/source|真180 β1/16→原来源恢复/新C/真factory→R380全部112 far→原453/FD/final|
+|184 R391 exact|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|compute132943014084已启动；真180点→新C/factory→全角112 far→原453|
 |183 R390 amplitude|43755955047 /126c05170e77a29cc86e4a98681c724c51f0de7b|compute132939972890已入科学；真十词/固定S/16×原8/global2400s，整20拒即止|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
 
@@ -44,7 +44,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 ## 正在推进的完整入口
 
-[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流3234095B完整但92966B超限；[R393实际182r2](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)仍90136B>90000、exit70，四组件/trial未返，清理skip。原科学不变，r3 1536a011/378d9707/d6bf649a已发，只将19条顶层恒定自述指向精确request；净减固定866B非预填新实际。全部原字段/未访及单90KB保，root唯一读。
+[R394原160完整读回](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)182r3 89269B/35f0397f完整：128α1把norm1.22096e−4降至9.6858247475e−11，replay同；stage8000s仅20/576，stage20..575全部未付地址已读，boundary/endpoint未起。audit576/7488齐但仅C-based有限程序，native/fullDN仍false；原98321B摘要70与stage预算分别保。原末state已清不凭SHA续，amplitude查等价提速、root接完整后继。R388/R393旧超限不回填，182必要读回后清。
 
 [R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)保m2 row17/piece3/depth32下屏障未正、58/110非资源、11pending+[18,14644)/111未起/0cut；必要读回/静止后清，不证准确极点，181续。
 

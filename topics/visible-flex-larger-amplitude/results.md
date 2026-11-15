@@ -378,3 +378,6 @@
 
 
 - [Request182r3：固定范围自述共享，完整必要科学正文不裁](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)：r2仍超136B后，仅把19条reader自身恒定顶层说明合并为精确request的四scope引用，固定净减866B。原owner/四组件/全部trial/错误/未访和原数值词逐字保，单90KB及原预算不变；新实际仍由root读，不回填前两失败。
+
+
+- [R394. 原160真实128位一步接受、完整audit与阶段映射预算停](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 89269B完整必要回传原一次α1接受/shooting容差与独立replay；stage8000s仅20/576、全部556未完成地址齐，boundary/endpoint未起。独立audit576/7488完整，但仅C-based有限程序，原native/fullDN仍false；原摘要98321B传输70与科学局部预算分责，完整提速后继继续。

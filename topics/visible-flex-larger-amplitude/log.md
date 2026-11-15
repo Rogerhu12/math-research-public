@@ -428,3 +428,8 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 20:14:48 UTC /root — 182r3只归并固定范围自述
 
 13141B完整四件diff已读即推；reader1536a011/request378d9707/wfd6bf649a只移19个自身恒定顶层policy到精确request，全部原科学/错误/试步/未访原样。固定净减866B不冒实际已回传，90KB与预算/条件清理保；184已推cd4598157eaeae933a3c04cbef986c146c902908，exact接唯一R391。最近真pulle94c5962fa155d86877a9f1f0bdf28d0abdca30d双README未变，发布前再pull。
+
+
+## 2026-11-15 20:17:39 UTC /root — R394原160完整终态与真实stage瓶颈
+
+182r3单89269B含LF/35f0397f必要全文核后即单独推；ownerα1容差过/replay同、stage20/576预算止和全部556地址、独立audit576/7488全齐分别保，boundary/endpoint未起不冒数值拒。原摘要70/global未超时/有限C审计责任分清，完整stage等价提速续，183已终态由amplitude唯一读R390；184真run43756949463已回填。最近真pullf099a63004f2d354f6c81412bacb1c47b891f9d5双README未变，发布前再pull。
