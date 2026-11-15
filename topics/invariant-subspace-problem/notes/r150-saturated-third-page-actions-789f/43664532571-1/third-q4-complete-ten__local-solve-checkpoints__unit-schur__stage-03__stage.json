@@ -1,0 +1,183 @@
+{
+  "binding": "6e382f7275ff0904f6180be41e78ee95829655b6ae05f768cb3731ef9e25996c",
+  "depth": 3,
+  "format": "isp-local-unit-schur-f31-v1",
+  "incoming": {
+    "G": "801b7323e60cec6cd01abe82560a2a3d550989a7189ea36d160e3971fd422c17",
+    "cols": 5,
+    "column_labels": [
+      950,
+      951,
+      952,
+      953,
+      956
+    ],
+    "nrhs": 208,
+    "precision": 7,
+    "rhs": "96850cb3e25fd4ea904b7f1bb2ebe649e9926287d1f572e8b60b45a083c4f96d",
+    "row_labels": [
+      471,
+      472,
+      801,
+      802,
+      965,
+      966,
+      967,
+      1020,
+      1021,
+      1022,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033
+    ],
+    "rows": 18
+  },
+  "matrices": {
+    "Ainv_B": {
+      "bytes": 42,
+      "cols": 3,
+      "compression": "none",
+      "decoded_bytes": 42,
+      "decoded_sha256": "350497e424a8dc0e22de95a05f2e0b4c5f8eadefd865c682e8f384531d998980",
+      "file": "Ainv_B.bin",
+      "precision": 7,
+      "rows": 2,
+      "sha256": "350497e424a8dc0e22de95a05f2e0b4c5f8eadefd865c682e8f384531d998980"
+    },
+    "Ainv_rhs": {
+      "bytes": 2912,
+      "cols": 208,
+      "compression": "none",
+      "decoded_bytes": 2912,
+      "decoded_sha256": "53dbf4c8eb02b4f3bfc95f501c520b27c16f0fa875094e682a6d66bc0231db98",
+      "file": "Ainv_rhs.bin",
+      "precision": 7,
+      "rows": 2,
+      "sha256": "53dbf4c8eb02b4f3bfc95f501c520b27c16f0fa875094e682a6d66bc0231db98"
+    },
+    "G": {
+      "bytes": 630,
+      "cols": 5,
+      "compression": "none",
+      "decoded_bytes": 630,
+      "decoded_sha256": "801b7323e60cec6cd01abe82560a2a3d550989a7189ea36d160e3971fd422c17",
+      "file": "G.bin",
+      "precision": 7,
+      "rows": 18,
+      "sha256": "801b7323e60cec6cd01abe82560a2a3d550989a7189ea36d160e3971fd422c17"
+    },
+    "rhs": {
+      "bytes": 26208,
+      "cols": 208,
+      "compression": "none",
+      "decoded_bytes": 26208,
+      "decoded_sha256": "96850cb3e25fd4ea904b7f1bb2ebe649e9926287d1f572e8b60b45a083c4f96d",
+      "file": "rhs.bin",
+      "precision": 7,
+      "rows": 18,
+      "sha256": "96850cb3e25fd4ea904b7f1bb2ebe649e9926287d1f572e8b60b45a083c4f96d"
+    },
+    "schur": {
+      "bytes": 336,
+      "cols": 3,
+      "compression": "none",
+      "decoded_bytes": 336,
+      "decoded_sha256": "23b282bcbd8412ae1926d7f0b99487644090e987a315225cc19bee762c30c760",
+      "file": "schur.bin",
+      "precision": 7,
+      "rows": 16,
+      "sha256": "23b282bcbd8412ae1926d7f0b99487644090e987a315225cc19bee762c30c760"
+    },
+    "schur_rhs": {
+      "bytes": 23296,
+      "cols": 208,
+      "compression": "none",
+      "decoded_bytes": 23296,
+      "decoded_sha256": "36ae7b106e25d0c08c28e7ef4da385e94462e0a08f671c460f674093ed801514",
+      "file": "schur_rhs.bin",
+      "precision": 7,
+      "rows": 16,
+      "sha256": "36ae7b106e25d0c08c28e7ef4da385e94462e0a08f671c460f674093ed801514"
+    },
+    "unit_inverse": {
+      "bytes": 28,
+      "cols": 2,
+      "compression": "none",
+      "decoded_bytes": 28,
+      "decoded_sha256": "d32572ff44faa3ceba04751197939d5eb3776d465ab9815414295fbc411960a2",
+      "file": "unit_inverse.bin",
+      "precision": 7,
+      "rows": 2,
+      "sha256": "d32572ff44faa3ceba04751197939d5eb3776d465ab9815414295fbc411960a2"
+    }
+  },
+  "remaining_column_labels": [
+    952,
+    953,
+    956
+  ],
+  "remaining_columns": [
+    2,
+    3,
+    4
+  ],
+  "remaining_row_labels": [
+    471,
+    472,
+    801,
+    802,
+    965,
+    966,
+    967,
+    1020,
+    1021,
+    1022,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033
+  ],
+  "remaining_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "row_label_meaning": "retained row slots after preceding Schur eliminations",
+  "unit_column_labels": [
+    950,
+    951
+  ],
+  "unit_columns": [
+    0,
+    1
+  ],
+  "unit_rank": 2,
+  "unit_row_labels": [
+    1026,
+    1027
+  ],
+  "unit_rows": [
+    10,
+    11
+  ]
+}
