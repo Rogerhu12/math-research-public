@@ -139,3 +139,6 @@ R741 [完整FH2增补](2026-11-15-r741-complete-fh2-first-bockstein-injectivity.
 
 
 - [R747](../results/R747-original-source-restoration-and-p-primary-gate-model.md)：已证明双完整W/V返回连同投影/移动门逆搬原e0与原Y，来源保全部正交矩及真实质量。p-primary提升唯一，共同[barπ^M]覆盖给degree34p^M、M125足够且倍率p-unit，指定返回无额外36²成本；全bad向量/t_+及自然下降保，未把全34或完整log外部冒两原点线。
+
+
+后卷：[R751–R800](PROOF-INDEX-R751-R800.md)。只登记完整结论，编号空缺仍开。

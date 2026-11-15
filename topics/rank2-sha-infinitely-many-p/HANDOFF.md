@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：3b322c57823b9691c02c15244862e51492dbc3ab；2026-11-15 12:03:42 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:03:41 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
+- 最近已读规则提交：f1f4ce7d041f2a501bc841b353c8d27c96b5a91c；2026-11-15 12:05:48 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:05:48 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境；API仅小文本追加，拒推立即尝试pull --rebase并接fresh head循环。CI实际pull与本地失败分记。11:55:55 run43711278156/job132803152030，回执ci/rule-pull-20261115T115555.json；27,211,719B/1964文件无超限，旧3真实输入块保；下次实际pull最迟12:40。
@@ -13,7 +13,7 @@
 
 ## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r748.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–749；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r748.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–749、753；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta已付R747，续全坏处谱与中央关系；literature已付R748，续全p-Schwartz谱；deep已付R743，续R750完整WD同R。root已付R749 point-only投影，续原中央桥。
 固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
@@ -53,3 +53,5 @@ R707/708原三m全trace零iff原g_h模p前缀（全p−2或αp,α>3/4）；m136�
 R716第一wild阶p/导子p²/root+，L/Ω=48940416|S_r|²/p；边界零iffΦp因子，j34另加边界零才λ≥p+3，μ0无统一λ。R724完整同步含有理9π/(17√3)、非实anti-Fermat及高斯尾；需整annulus o(p²)，指定平移0不冒Haar平均。
 R736原B3/R10404坏2/3/17、2176→368/plus184/47整坐标；公开43705223442核47→7→1，base0/值0,±1,±2/c_int81/68。全A_t由primitive Normβp²、ell_p=t读取，全modp²二位保；A_t∈2Z、ΣA0。
 [normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：whole j正、Gaussian真base A0∈4Z，下一位保全paired f；公开43705781851固定2048类仅0/2。同R全αj仅Qi/K；C_pv无限p非零及原中央→边界仍均开。全部脚本/参数/run/hash沿前检保，不存输出。
+
+R753：point-only投影在Cp数值拓扑不连续：固定L=K(t)、a_n∈L有界且趋logQ2/logQ4，a_n logQ4→logQ2却投影前者全0/后者非0。只有实际有限point载体、逐系数代数极限（如Qbar(u)正则0）才可交换。原完整log有无限负j矩，有限点公式+数值尾界不够；R742先在有限来源取真Φ∞再识别不受此限制。

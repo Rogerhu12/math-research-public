@@ -10,6 +10,8 @@
 - [R551–R600证明索引](notes/PROOF-INDEX-R551-R600.md)：由此前卷链查更早证明。
 - [R601–R650证明索引](notes/PROOF-INDEX-R601-R650.md)：当前分卷；R620/R621等未登记项仍在推进。
 
+- [R701–R750证明索引](notes/PROOF-INDEX-R701-R750.md)；[R751–R800证明索引](notes/PROOF-INDEX-R751-R800.md)：当前接续，未登记编号仍未付。
+
 ## 新增结论
 
 - [R692：原四轴三态、三中央及真实四单位切集](results/R692-original-four-axis-three-state-and-arithmetic-unit-cuts.md)：同q♯全[2]覆盖上付Y/Z的R与W/V的K三态和真实RY物理反射；任意真核心词像格的逆像W观察完整回原JT，三原算术投影同词运输。第三中央进入真实Y深/Zunit支、参考有同环带非零差；四-unit有限depletion及全13/19 CM切集保，质量用转置，不把投影穿过W深。
@@ -371,3 +373,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R747](results/R747-original-source-restoration-and-p-primary-gate-model.md)：已证明双完整W/V返回连同投影/移动门逆搬原e0与原Y，来源保全部正交矩及真实质量。p-primary提升唯一，共同[barπ^M]覆盖给degree34p^M、M125足够且倍率p-unit，指定返回无额外36²成本；全bad向量/t_+及自然下降保，未把全34或完整log外部冒两原点线。
+
+
+- [R753](results/R753-discontinuous-point-projectors-and-finite-carrier-limits.md)：已证明点因子投影在Cp数值拓扑不连续，原Q2/Q4及固定数域有界系数即给显式序列；单凭p^N数值尾不能投影无限和。准确有限载体/逐系数代数极限准则允许同一正则有理系数族的极限，保R742已付次序；原完整log的无限负j矩与中央桥仍开。
