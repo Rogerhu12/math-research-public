@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 12:16:33 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 fdbd2ac2c593d0904568c5335e11893f42336334。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 12:17:18 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 8ed8626e997d540a92b891775e24e87b9ca7e1af。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -30,15 +30,15 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 | 请求 | run / compute | source / 起始UTC | 当前责任 |
 |---|---|---|---|
-| [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001；11:47仍science |
+| [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001；12:17compute失败/report成功，原读回继续 |
 | [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；11:47仍science |
-| [137原全列](notes/2026-11-15-request137-persistent128-precleanup-final-components.md) | 43709832101 / 132798770009 | f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3 / 11:37:35 | 11:53已exit70，owner child1/summary空；原freshJ/packet已付，R313逐真原因续读，140修实接线 |
+| [137原全列](notes/2026-11-15-request137-persistent128-precleanup-final-components.md) | 43709832101 / 132798770009 | f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3 / 11:37:35 | 实际exit70；R313原freshJ/packet和907s/child1空summary已结清，140修入口 |
 | [138同轨迹择优](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md) | 43710284131 / 132800138064 | 0be175792723e0663809146e3922e7052e906c09 / 11:43:21 | 全32/256接受/358试探，R307全normal回读及916字节身份已结清；142改完整方向形成 |
 | [139连续E](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md) | 43710988676 / 132802263809 | 431ec67492ab99b63b42a9a1d962bea0a2cdaf0b / 11:52:08 | 10pins/三原输入/原预算；preflight全部success，science在跑，R311留实际回读 |
 
 124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
 
-137先于owner被入口分派阻断；R313分开真实日志和源码推断。140首参数/完整stderr、新operator及原19200s总cap/全部science cap/独立audit预留，不能伪接已清现场。
+[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)907.237564652s/outer70/child1，无guard/owner128摘要，global deadline未耗尽；fresh64/J/R273/two packets完成。固定argv membership确定入口阻断，异常正文属源码推断、非日志原值。140首参数/完整stderr、新operator及原全scope/预算，不伪接已清现场。
 
 旧规则runner可能按真实README变化退出；只读实际完整原结果并以新已读基线明确再生，不绕过或伪确认，不取消现有任务。
 

@@ -440,3 +440,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R312连续C完整112深尾与有限头证明
 
 [R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)26907B/036289ed全文及常数/方向/Green/截尾链已读，直接发表；保同一原准确根族、全112、真物理端点F+1，mode2准确0，有限头只在真实h不含0后才得DN。未冒旧e788、新全频非线性图或实际非共振；下一深端producer和新九族继续。141已真实run43712613111/job132807257922/sourcea7ce5579并science在跑；根/题21bd/bff按每次真pull核，未完成不停。
+
+## 2026-11-15 /root — R313实际137前owner入口阻断完整读回
+
+[R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)10365B/e1bafac3全文及原12945B摘要004d2f8c已核，fresh64/J/R273/两packet真实完成，907.237564652s/child1/outer70且global未耗尽。固定argv membership错误的充分源码推导与原日志缺异常正文分列；没有128评价或数学拒绝，不废133已证真实结果。140五件已读至workflow及总接口，接下来直接公开执行；124实际compute失败/report成功，原日志续取，不预填原因。

@@ -138,3 +138,5 @@
 - [Request141完整35查询及全支持执行入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)：R309真实失效驱动，保33加完整LEFT463/MID472；71680行、22capture/26节点/8791local，C4059/全236036/outside/17trial/FD保持。真实98原31初父→同job own35，85+worker86pins/原预算/新21bd规则，未预填实际结果或最终接受。
 
 - [R312：连续C原准确根族的完整112深尾及有限头连接](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)（已证明）：n≥160、F≥159的全模态统一扰动/Green收缩，深尾Robin和明确截尾误差，mode2准确斜率0及线性高度C²平零。真实有限头传递总得Robin，须逐h≠0才得DN；未假填实际cut/根selector/非共振，也不替全频非线性图、mean或几何验收。
+
+- [R313：actual137在owner之前的入口阻断与明确140修复](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)：fresh64全J/R273/两packet真实完成，907.237564652s、child1/outer70、无guard或owner128摘要且总预算未耗尽；原64仿射残差不冒128结果。argv membership的固定源码与实际命令确定启动缺陷，具体异常文字只属源码推断；没有128试探或数学拒绝。全部原报告/log/关键身份及140首参数/传输修复边界明示。

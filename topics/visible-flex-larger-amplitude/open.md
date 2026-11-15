@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。137已实际exit70/owner child1/summary空，R313完整读回、140修真实接线；139仍须真实整域结果。
+[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。139仍须真实整域结果。
 
 完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至139检查点](notes/open-checkpoint-through-request139-2026-11-15.md)，并接原137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
@@ -37,6 +37,8 @@
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)与[七组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)付准确实共享root/全226RK/112 QR两端/577响应与全129248×112缺陷；浮点pivot不证非共振，338混合及C-based物理jet不冒finite-root径向导数。
 
 [137同现场入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)run43709832101/sourcef9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3，fresh起19200s总、120s读回，owner6000含1200replay、stages8000/boundary600/endpoint600/audit1800依实际剩余截并先保audit，完整失败/未访/90KB70；原133和七源不改，不预言全224能按时完。
+
+[R313实际137完整读回](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)保真实12945B摘要、两个原log及全部J/QR/delta/packet身份；完整64仿射残差不冒128 owner结果，7488/6943导出查询不冒已执行audit。固定源码按argv全局membership误识guard命令尾的--owner-child，充分确定启动阻断；原日志未捕获具体ValueError正文，论文式源码推断与实际观测分列。没有128初始norm/trial/接受/末态/后继组件，不能称数学拒绝。原133 R308有效且不由137重复失败取消；140首位置分派/原stderr无损传输与原watcher marker接线。
 
 [R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。140同job新接线继续，137不改；total cap含绑定/编译，另保原science cap和父绝对期限，不预言速度或误差界，不添fixture。
 
