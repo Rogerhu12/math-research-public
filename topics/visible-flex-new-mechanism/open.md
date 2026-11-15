@@ -155,3 +155,5 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
 - **R384已付/继续边界**：纯δ4完整系数族的自然像恰二维及其有限正锥已证，全部H自然像0。固定u的标量两号可由中心穿越获得，但必须另付快脉冲矩阵、真倒行、固定端口桥、Klein及全部基准；不直接升级实际二维或固定g。
+
+- **R383已付/继续完整0及1history**：实际低层Ω±模块与同17根已使同一偶弱圆的十个Gaussian对称乘积（三外矩、全角）和18area/T/Ψ/三directed同时零。其证明保实际共享母、ordered Γ、有限秩和所有强弱基线。剩余完整0/1history函数、canonical第四period与同g joint不由有限Gaussian表自动支付；接原式下一项，不移植旧geometry结论。

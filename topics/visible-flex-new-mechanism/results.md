@@ -222,3 +222,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R384：完整纯δ4自然像的准确二维与有限正锥
 
 见[R384-exact-two-dimensional-natural-image-and-positive-cone-of-Q4.md](results/R384-exact-two-dimensional-natural-image-and-positive-cone-of-Q4.md)。R370完整成本给N(Q(d))=(X+dM)/80，R382全H自然像0；同窗口两个三bump平移使X=x0M、M>0，故该系数族模共同Λ核的像恰二维。非负有限组合的像准确为{0}及aX+bM(a>0)，闭包边界a0,b≠0不是有限实现；有限中心区间对应b/a加权均值区间。没有把U/R全维数、线性span、正锥或单固定Λ的两号混作实际二维闭环控制。原低阶/桥/history/同g仍另付。
+
+## R383：真实低层母纤维支付最后Ω，十个Gaussian对称乘积全角同时零
+
+见[R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)。保一个原编码位置的全部真实copies共母，固定半母3矩+9个reflection-even self实际和+J/K。原有序缺陷证明全局常微分关系只有矩二次式，有限Laurent minor在实际不交开域并置、加3regularizer、同母最大秩/常秩IFT付真实双侧纤维。完整尺度/Γ不对称/Euler最高四导u²、xuv两列证O独立，产18area/J/K/third均0而Ω±的两个真实强模块。其正幅H³/伸缩H使Ψ成本H−4，精确补弱基线Ω并保负Ψ；再R379同17行/204真列有限N根，全部十乘积三个外矩全θ同点零，Ψ逐fiber原式固定。母只需非零实偶，非点态正。根审§3–4及模块衔接、机制独核原表/实际copy/具体非span；不继承旧geometry wholeE/g/period。
