@@ -939,6 +939,88 @@
       ],
       "timeoutSeconds": 90,
       "receiptPath": "{work}/original-global-projection-row-statistics/row-module-checkpoint-statistics.json"
+    },
+    {
+      "id": "infinity-tenth-original-high-forcing-probe",
+      "requires": [
+        "infinity-complete-ninth-after-high-probe"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-next-original-high-forcing-probe-789f.py",
+      "scriptSHA256": "9438d69051a9bac1a0e0f0b0b2214dc4277b81214f778900adfd02fab6a4df18",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+          "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+          "sha256": "4d759c0efbc8a647bd5845b21da5e871de28f0d43ae6f2fc84c376afb472e328"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-infinity-small-original-projection-smith.json",
+          "sha256": "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-infinity-complete-normal345-high-field31.json",
+          "sha256": "0f6cbe9bb23601be632d0045f35839b922e16e4d893aca6b9d4e2f849cbd9141"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-eighth-original-high-forcing-probe-789f.py",
+          "sha256": "cb246cfd93d03e3a842f47c6084f4bc3a4c3889f8fdbd740d2b68b22d27b123e"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-infinity-complete-ninth-after-high-probe.json",
+          "sha256": "ef106d3f18b736ed0c5c76c0c0699d324ee2565ba92eecbcf400f6f5afb5035e"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--projection-consumer",
+        "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+        "--sixth-consumer",
+        "{scripts}/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+        "--high-probe-helper",
+        "{scripts}/2026-11-15-r150-infinity-eighth-original-high-forcing-probe-789f.py",
+        "--projection-receipt",
+        "{scripts}/43740928483-infinity-small-original-projection-smith.json",
+        "--high-receipt",
+        "{scripts}/43740928483-infinity-complete-normal345-high-field31.json",
+        "--previous-receipt",
+        "{scripts}/43756208221-infinity-complete-ninth-after-high-probe.json",
+        "--previous-receipt-sha256",
+        "ef106d3f18b736ed0c5c76c0c0699d324ee2565ba92eecbcf400f6f5afb5035e",
+        "--previous-source-sha256",
+        "1b2a164808837c25c645f84da7012e4d6dc428527c8e0710787530f58250e3f1",
+        "--projection-out",
+        "{work}/infinity-small-original-projection-smith",
+        "--high-out",
+        "{work}/infinity-complete-normal345-high-field31",
+        "--previous-out",
+        "{work}/infinity-complete-ninth-after-high-probe",
+        "--checkpoint-dir",
+        "{work}/infinity-tenth-original-high-forcing-probe",
+        "--out",
+        "{work}/infinity-tenth-original-high-forcing-probe-receipt.json",
+        "--order",
+        "10",
+        "--remaining-seconds",
+        "90",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 130,
+      "receiptPath": "{work}/infinity-tenth-original-high-forcing-probe-receipt.json"
     }
   ],
   "previousSession": {

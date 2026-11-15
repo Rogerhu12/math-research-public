@@ -413,3 +413,5 @@
 - **∞完整第八恰一、15原头与长度至少64。** [完整有理证明](results/R150-appendix-infinity-complete-eighth-connection-one-fifteen-heads-and-length64.md)实付1088×600前缀578/580/591→592、核8/新增头1，835380原九层产品及11incoming高回填全真。前八β=(4,0,1,3,1,1,1,1)，fullQ64…66/sub54…55/max10…12、AI66…68、T∞长3…5仍只u5。Δaff≤317、R/Rout/U≤159、Rh*≤182/第三330；外Ω度d时同源费8531−d、余乘子159−d。下一独一额外头的第九真实高与12incoming仍实算。
 
 - **∞第九真实高零且十二incoming全部运输。** [完整原高证明](results/R150-appendix-infinity-ninth-high-zero-and-twelve-incoming-source-maps.md)核实际唯一额外头、55692原低阶产品及5100×1高零；代表λ8normal2有75非零，incoming λ8有115非零均保留。实际3.528101774秒，余完整1088×600低式须保全部来源、592前缀及十层原乘回；不由本次高零提前判β9。
+
+- **∞完整第九秩零、次大阶恰55及两种完整终谱。** [实际有理证明](results/R150-appendix-infinity-complete-ninth-connection-zero-and-length65.md)给1088×600前缀592不增、15头/928200原十层产品；前九β=(4,0,1,3,1,1,1,1,0)。前12正指数和45，sub≤55迫第13=10，full≤66迫末项10或11；故full65…66/sub55/max10…11、AI67…68，完整第十足判全谱。R/Rout/U≤158、Rh*≤181、第三329；外Ω度d时M≤158−d/费8531−d。T∞长4…5仍只u5，不提前付Q高商26或同D leading单位。
