@@ -126,3 +126,5 @@
 - [R306：完整cap的三端点primitive与保真实余责积分](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)（已证明）：完整w跨cap C²、χ恒1及闭区间导数同号下三原积分端点式，保全部端点分支与原六全宽门；真实ResourceStop受支持转传及已付prefix/未付后缀，不改数学域或预算，不预言139完成。
 
 - [request139：完整cap端点积分与真实预算partial执行](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)：v3 f12f7470保0040/9aa0及原数学定义，10源/三原输入/三证明/whole-query，原256bit/200000panel/1800秒/六full-width条件；只改有证明的三endpoint积分和确捕ResourceStop传输，完整prefix/未付域原值读回后清理。
+
+- [R309：actual130七批33查询与真实规则退出](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)：7warm/7freshFD、33trial/26拒，全部原最终flags false；11:38:40规则变化exit77，第八完整返回未知。完整域失败给MID472/LEFT463新支持责任，已选MID483负而线性可行保原门；全QP/FD/试探/原pair与摘要身份、重演边界均明示，下一独立35查询从真实98另起。

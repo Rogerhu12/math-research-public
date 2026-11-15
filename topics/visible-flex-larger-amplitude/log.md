@@ -416,3 +416,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — Request139完整cap端点积分实际入口
 
 [139接口](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)四件已全文diff/接口读后发布：新89307B源f12f7470、request3c210929、原workflow新1e93333a；root独立核10源/3proof/新21bd规则与原参数/query不变，仅AST及字节元数据。完整w端点式、各原分量全宽门、真实ResourceStop与prefix/完整pending保持；同namespace always读回/清理，不存新raw。R306先独立推3aef1818；本次request push直接原public Actions计算，139结果未预填，连续g/far graph和137完整final继续。
+
+## 2026-11-15 /root — R309实际130七完整pair和规则停止
+
+[R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)保全部33trial/26域拒、7真warm/7freshFD、全QP后验大值及字节身份；七原JSON+LF逐字核，末场已清不hash续。规则round2在11:38:40真pull见新README退出77，第八完整结果未知；下一独立35查询按实际MID472/LEFT463扩完整B支持8791而原C/outside/门不变。138全部success、两原log已CLI取交R307；139真run43710988676已科学。H改为当前责任，旧open全文29789B移notes至139检查点，更新已完成/在跑事实，原正文/历史链接保全；所有科学仍公开Actions。
