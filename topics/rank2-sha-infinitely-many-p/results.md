@@ -298,3 +298,5 @@ R707/R708第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=91�
 - [R714：原高度二有理参数与全部首Cartier窗](results/R714-original-height-two-rational-parameter-and-full-first-cartier-window.md)：原对数导数的真实平坦式给(ζcirc+r)^p=c_p(z0−Z)+O(u^(p²−p−1))；指定Z1=Z+c_p^−1(G+r)^p再用导数和μ6型排完剩余误差，匹配全部原整degree<p²。DZ1=1、真实极帽(p³−p²)D2全保。全部h≤p−1的原有理Cartier观察先减实际简单极再求值，坐标误差完全付；原前五块直接回g_h，第六块仍为g6+(m/2)η，两m组合消共同η但不删实际低商。
 
 R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O，准确估值a+i+1+v(i!)；原全normal Taylor双和及每个精度的有限三角截断均保，边界高度不能删除a≥1的真实法向导数。
+
+- [R717：原完整Artin–Hasse返回及第二位支持](results/R717-original-height-two-artin-hasse-return-and-second-digit-support.md)：原整U唯一Artin–Hasse因子a_n=f_n或f_pk−f_k^p/p全部整；高度二全窗只有X_pk、X_(s+pk)各s−1个原指标需要第二位，其余第一位直接由R714的xZ1²读取。共同U_np V^p给三m全首块的准确有限卷积；支付实际二位后Σ_AH恢复原sigma至q，全部h≤p−1 Cartier行直接等原g_h。完整极帽m(q−6)(p³−p²)D2和j0/prefix缺口保持。
