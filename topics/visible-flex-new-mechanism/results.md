@@ -334,3 +334,10 @@ expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不
 [原字段与恢复证明](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)只消费run43741276060/c30e7ea已完成日志：m10的accepted index7给完整x159/163，唯一α1 trial给完整y159/163，物理SHA分别10b0a3b208ccb13919227d2b459995bffbe86dd528f0f1f136098d7b75adba1d、627c9474c4f3d2cb9c28c248f1ae06251274e1c1d50a2097280fc93e57d4d290。m10旧池4417/4091各新增1，唯一后继m11用4418/4092且学习0，故完整末池即其新池。原separation强保peak，soft whole-grid0/唯metric_plus omitted1确定新增ID72480/144960；原末池各删一次得旧池，四列表hash全部有原字段与明确口径。
 
 原reference/cfg、9bank事件及B1/8000齐；原primary账前十模型累计11，尚有一个12LP格。普通全网缓存/J未保存，逐模型active-clock checkpoint也未保存，不能声称历史wall剩余。后继仅对该冻结失败trial首次作新expanded SOC并另记必要恢复费用，不重跑旧primary/优化、不扩预算或捏造可行结果。源码中，所有新执行仍只公开Actions。
+
+
+## R345：完整局部whole-E核十一链与至多11个对应退化通量的真实联合控制
+
+[R345原式证明](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)：K0=BP[P,S]/3的代数δ轨道在不交rank-one输入上由(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4生成，Kn=−Σa²(a²−c²)n![z^n]/3。jet流手解、全部cross/尾0，不作真实非仿射坐标变换。只在真实R71用最高H5，NK_n=n(n−11)K_(n−1)，严格δ11=0而前11列非零/H权互异；它们全部π/完整universalQ/整包Ω0。不是全R δ闭合或全E核维数。
+
+在R324/R340同一个最终实际有理端口圆，跨原8×12copy选同基本Af退化点的至多11个对应副本，真实g翻号保。flux_j(Kn)=ρj⁵pn(tj)，pn次数n、首项C*(−1)^n10!/(10−n)!非零，原C*=−8a³(a²−b²)r*⁵/45给准确Vandermonde。故(E,F1..Fm)(R)=E(R)×R^m；沿原E商保全部原型/桥/复制基准取得(E,F1..Fm)(S)=E(U)×R^m与紧集C1截面。同新几何、固定profiles/查询和真实m*的同wc可兼wholeE/全部二次平台/m点flux0。更多对应点此十一模块恰Pol≤10、十二点十一阶差商0；不授全R障碍、同包任意点或全period。没有与R343弱圆未经证明合并；余Af/Ve/完整period/同规范继续。
