@@ -113,7 +113,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [高H45满行](results/R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads.md)给rank1736、高核1036/模旧130为906；新低商rank904/核2只维数已付。最新实际4318常单位由真核36自由I选行，113204/155448产品核真；HF/T primitive模31仅4，不能当完整Qrank12。改用已付真Q旧14主元张满36列，以14+4 RHS保全旧来项，随后真实全4354回填；尚无新有理解或missing2第二cochain。
 
-同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K111下q8416…8529，原非基/转移/目标三费8573/8578/172，统一条件8578。九原目标Q[s]成员性仍是前提。模31完整长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
+同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K112下q8415…8528，原非基/转移/目标三费8572/8577/172，统一条件8577。九原目标Q[s]成员性仍是前提。模31完整长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
 
 [零完整第八](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)已正式闭合；第九实际β9=0，前九4/0/1/3/1/1/1/1/0、15完整头及928200原产品全真。十二已定正指数1⁴,3,4³,5,6,7,8和45，余两只(10,10)/(10,11)。故公共阶65/55、次大阶55精确，K111=s65(s−2)9(s+6)9F+²F−²E8²、最大正Smith10…11。原系统模s11仍须先付Q((s))像；13自由坐标/其他点/全局像保持开放。第十仅5新/62旧单位列，可区分剩余两谱；下一准备13自由头仍实际验证。
 
@@ -159,3 +159,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 
 [两权临界池与满射弱尾](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)给完整物理第二创建泄漏随m线性增长的精确源；加入正弱位和严格正ℓ1∩ℓ2无限弱尾仍保当前固定层全部满射与任意大泄漏。因此仅用hardcore、满射、平方可和及bmax，不能得到绝对常数c的B2B2*≤c bmax² I。该可选尾不是原b_j=(j+1)^−2，未反证原同u_Q的负部预算；继续真实连续尾位置结构和完整层间抵消。
 
+
+**完整第九与零点有限成员性。** [自足证明](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)闭β9=0/15头、δ次大55，并用完整任意left10的低平方零与R=Q[s]/(s11)双湮灭证明九原h0t_j属于整个原矩阵模s11的像。若另付Q((s))像，则零点torsion全部清；函数域自由坐标仍开。最新实际第十β10=1已把完整14正谱定为1⁴,3,4³,5,6,7,8,10,11，δ66/55/K112；第十一真实构造13自由头并检查E8，未预填原成员性。
