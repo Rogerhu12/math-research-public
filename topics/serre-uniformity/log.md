@@ -488,3 +488,9 @@
 - 原70个q块/146行可严格早拒；未来真实>430 current允许直接C′≡D Cnew检验。均为未执行接口，不冒称新模层/C拒绝，不降低原129阶正面出口。
 - 终端恢复、blob:none/depth1/sparse克隆完成；push前本地实际pull至11c769ce66e0cbd65ca0b4de4eda1641c5fa0b13（2026-11-15T20:09:21.599845+00:00），两README SHA6979d793/35f82f3d无diff；前H/open逐字归档后压缩活页。
 - R815修正run43755027718/job132937184138/sourcee1d8a956同次AST通过、数学在行，规则pull该source无diff；R78756仍在行。
+
+### 2026-11-16 04:20 Asia/Taipei — serre-public-astra-20261115
+- 登记原X6权一源7a937bb1：原P_i/Q/T_j定Fermat坐标、E=6ρx_F与原CM点；ρ(τ0)=Ω·2β/α，η相位/全十八项不换。
+- 平方准确为−72Σa·dlog(y_F−a)，Cartier交换α0/α1；原目标仍两变量same-h primitive/Legendre平方筛，Cayley u⁵/Sym5分母保，未冒称非零。
+- R78756实际56新候选全拒/旧引用0/队列耗尽；R815两列run43755027718实际exit2/errornull。两者小IO正读实际字段，不猜首失败阶或候选数。
+- 本push规则：本地真实pull至475f7cb4c6f4a0053929eda89d56f0326551a216（2026-11-15T20:21:51.004988+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

@@ -103,7 +103,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **原unitary交叉heat与同h投影接口已证**：[完整笔记](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4。实际H/J/C三同源、完整36theta及full72整模型；原CM整段FG不换。∇=D−M−∂z∂t/6−3Xzt/2，双向Frobenius及两边/角点全保，P0曲率6B²zt。首p按整数差的原Legendre×primitive权W真正水平，∇^(p−1)(W Lz²Lt³R)指定FG/度p+1准确等于6⁶B⁷Σ原同h项；非零仍未知。μℓ仅有共同jet作用，不称原36全局稳定；原FG一次横向源为零，不能用全向量单位替它。旧R739反例仍有效。 这使用不同的实际极化家族，不重开旧6I family已排除的对角延伸；有限W不需完整几何test-vector标记，真正缺口收紧到该指定齐次源非零。§8.1证p=12k+11中央h=6k+7自动primitive，Legendre约化P_(p+1)/2=P_(p−3)/2及辅助j=2048/3；原j0的B单位不能替中央三单位。R829的p47中央乘积21已成，R706的p137147零在g_N而非g_k，不重复扫描。
 
-**原六挠Kronecker权一平方接口已证**：[完整证明](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5。原十八项/固定全六层权一E、Gaussian/Maaß全部尺度给归一δ₂^(p−6)(E²)≡−192Σ f_i²g_(N−1−i)²/Q_(6i+7)，Q_h=(h−2)…(h+2)均unit。它只是不丢原相位的未筛卷积；有限域相消尚未排除。X6 genus1及E²/η⁴有理，但临界系数需Cayley u^5且u非X6有理函数，须保真正Sym5 Gauss–Manin因子；不把标量Cartier或全局非零代指定primitive/Legendre同h单位。
+**原六挠权一平方与X6源已证**：[Kronecker推导](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5给原十八项归一δ₂^(p−6)(E²)=−192Σf_i²g_j²/Q_h，Q_h均unit。[原标记X6](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1从实际P_i/Q/T_j得x_F³+y_F³=2、E=6ρx_F及原CM点；固定Ω/η相位给mathcalE²/η⁴=108x_F²/((1−ζ)(x_F³−1))，mathcalE²dq/q=−72Σa·dlog(y_F−a)。标量Cartier交换α0/α1，但临界Cayley u⁵/Sym5分母仍须保留。原same-h目标是两变量的primitive/Legendre平方筛，不能对角化后用全局非零或标量Cartier代替；指定非零仍开放。
 
 ### ordinary真实值与原全局对偶
 
