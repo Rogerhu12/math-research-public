@@ -164,23 +164,17 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 ## 当前原数据和最新接口
 
-截至R781的完整原公式、每一限制、实际run/artifact/stage SHA逐字归档于[before-R780](notes/2026-11-14-open-before-R780.md)，并接此前全部归档。所有正式结果继续有效，已成数学不重跑。
+压缩前完整输入、run/SHA、旧阶段与限制保存于[此次R791前open](notes/2026-11-15-open-before-R791-actual.md)，内接既有全部归档。已成数学不重跑。
 
 ### 原p41函数与高度输入
 
-R735/R738/R745原模型、4920cosets/800闭链、六Hodge800，R754完整period/Hom核和R759完整整数格均已完成。保原b=r0⁶、αs、CRT6逆、ζ²一次、微分246、c1=4424/c0[2876,2822,2823]；选index4 degree1206不是全局minimum。R764完整整数格所有cusps/c0送O，fP=f0；R762原μ3商Y genus127、u=Q³，真实y∈L(Y)。R769 degree≤693穷尽闭合，非零≥696，不扩可选SVP。
+R735/R738/R745/R754/R759原模型、拓扑、Hodge、周期、完整Hom格均已成，保αs/CRT6逆/ζ²一次/246及原c1=4424/c0；选index4 degree1206，非全局minimum。R764全格全部cusps/c0映O。R762商Y genus127、y∈L(Y)，R769完整degree≤693排除关闭。
 
-[R771实际基](results/R771-certified-original-quotient-RR-bases.md)run43628998192，M2/M6/M12=146/694/1514、模739原minor550/206/140，85stage/artifact14127715743直接复用。R767原Dstar=t²Δ给L(2(t)0)，R772原det半线性trace给K定义基但cusp仍M/L40；rank2720/kernel308。备用原M78微分恒等式界10660保持全部相位，优先短界。
+R771原146/694/1514基与全部85stage已成。R774 run43631427773原H³至qY820完整560坐标和真e1已成；R781 run43679703344原M+280/Q的R0..142/κ幂144stage已成，准确递推无κ逆。R778原20cusps单L轨道及143完整Laurent条件证明已成。
 
-[R774实际立方](results/R774-certified-original-Hodge-cube-and-cusp-order.md)run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，在24.706959837秒给真e1、H³至qY820完整560坐标/26块/108stage；D289bits且v739(D)=0，821×7原模比较通过。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、manifest4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222、artifact14128247134；原模型分母2^24·3^1260。旧manifest位置失败在core前，包装已修，无旧数学重算。
+R775真实续算run43679160495已成M2/M6/M12=146/694/1514，power6=1506，旧18完成文件SHA不变；cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。R777已填真实生产者但无触发请求，完整M6/M12/694阶坐标方案保持备用。
 
-[R775 K定义基已实际完成](results/R775-certified-original-K-defined-RR-bases.md)：run43679160495/source032899cc续接旧预算断点，原18完成文件SHA不变，M2/M6/M12为146/694/1514，power6为1506；cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。只保来源/结果/SHA，原表一日活跃转交；R777继续备用，当前R787较小直接方案。
-
-[R778短恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)已证原20cusps是单L轨道；143个完整M系数−e..142−e准确零迫A=yB全球，仍rank2720/kernel308。基q142，实际e1原Hodge Q427已在旧800中；完整40坐标的M2/M6/M12前缀13/41/82注入。不能以单modξ代真实L方程。$/$$最终证明SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727。
-
-[R777准确短基工程](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)已推9d6c4406，未触发：82E1整数常数、全部126半trace/40det、block79、每权82^w给M6/M12原q142；H³只读R774前两块/原ρ，用694阶Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX，由已知membership与R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；按新根15只保脚本参数/run/输出SHA，活跃断点一日转交。R775新run43679160495已成功，备用pending文件已填artifact14148883593、真实cert/manifest；producer_inputs_pending=false，但无触发request，因R786/R787较小方案正在执行而保持备用。
-
-[R781真实切向下降](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)用原g=−diag(1,−1)T^-40给v=ξ^-10u下M+=L(ξ+ξ^-1)，20/L、280/Q；整数Chebyshev无1/2，L不缩。原κ=H³首项非零，v=κw后R0=1、Ãn=κ_(n+1)κ^(n−1)、c*=246^6bκ4，(R−wR′)^3=Ã(R²−c*w²)²逐阶只除3n+1。原143关系清为246³κ^(n+2)A_n+Σκ^jR_(n−j+1)B_j=0，即2860×3028 L；须准确全部代回。λb整monic、primitive280向量×ρ和分母界S^nΔn完整保留；Laurent阶段只用真R774，可先于R775/R777运行，关系矩阵随后接真K基。实际函数/β/第二类period/Poincaré/高度jets及R724 Bézout均未输出，全p证书存在仍开。
+当前R786直接power5与R787原L关系更小，详见后文；全部真实生产者绑定于请求和正式结果。原y/β/Poincaré/第二类period/高度jets尚未据基/前缀冒称已得，原先完整M78界仅备用。可重算表不入Git/Release，必要输入只1日active bundle续传。
 
 ### 原ordinary单位、dual及实际局部输入
 
@@ -245,3 +239,5 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R791：原Hom作用与η除子的真实输入工程
 
 [R791方法](notes/R791-original-Hom-Galois-and-eta-divisor-method.md)由原R754/R759构造Tγ、复共轭、实际实下降和全部次数，保Tγ⁷=[ζ²]/阶21。由原Gram恢复CM Hermitian配对并求κ·v†v，再给覆盖原五维F⁰的真实矩阵与η=(1/3)极除子组合；全部相位/原极化不置一。另直接收缩R748原六CM首jets与十二微分，实际判原index4在c1是否分歧。core11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d，专用公开请求就绪；输出待实际run。原y的极除子和Jacobian运算仍未实现，不能将该recipe当η值或高度。
+
+[跨p零支撑新记录](notes/2026-11-15-sigma-cross-p-zero-support-research.md)给六行p+6准确源，C13=−481/27720对全部允许p为单位；另给有限微分源恒等式并严格排除原六截面的有理scalar gauge闭合。完整N+1高带仍在，未证真实primitive/Legendre可见集与乘积非零集相交；不得把未筛六零行假设移到筛后失败。

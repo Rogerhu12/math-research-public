@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：f7147419a96024d50121cec3d577c0f2cf5fd5d9**（2026-11-15 06:37 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：3c68957239d767f8b23bc8609d9fe975d18deb30**（2026-11-15 06:45 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -38,21 +38,14 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom�
 
 ## 全p sigma与真正高度缺口
 
-R770/73f1d9b3保同一本原h=6a+1：原(p²M2h/ζ)²=(1296αsB⁵P6a UhVh)²。原Legendre有限平均/Möbius primitive筛给准确双线性配对；非零足够但未证，不选signed平方根。R765单位残差总指标N+1，所需N−1；三同源把degree6改18，不能当原六维theta空间自作用。
+主目标余R317 p>37、p2/5mod9、完整非分裂正规化子、a³+db³1、p|b，变化D/bc无上界。实际正CM角色Ψθκ4根号负，逆κ4秩零应用已撤回。R616非挠接口和R726充分大全p非消失/rank=dim/log同构已成，不给高度排根。R707 p41全129盘=121排除+8CM且无Qcusp已经关闭；R7065992素数窗/R719与R722的137147/R739两定点均不重做。
 
-**R782已证**：原F=xσ6、G=−xyσ6满足D^(6m)F·G=c_mFG，生成函数W²；D5=−120W²、c1=−5184、c2=2^12·3^9·79均按原规范。三标签/Legendre/primitive筛不与该矩阵自由交换，高c_m单位未证；完整证明与SHA见R782，原首外积及非零仍开。
+**同一本原标签仍缺**：R770准确平方与Legendre/Möbius配对保同h，真正条件是N_h与两个Cartier同h三单位。R734某N单位、R741至少半数N单位，不能和R737低η比例拼接。R730全尾/R742整数η及R744次数≤3的真正Weierstrass因子已证；深度4/5/6实际根与高度仍须求。原KS不设单位，完整Abel等距不替正秩有理点排除。
 
-R730全尾/R737均方/R742整数η给大p某η≤1和完整p7等距；R744全p4 Weierstrass次数≤3，Qp额外根仅深度4/5/6，实际因子/高度缺。R741密度/R734某primitive N单位不能拼同h两Cartier。R706/R7225992素数及137147、R739两定点、R707 p41全129盘=121排除+8CM且无Qcusp皆已闭合不重跑，非全p证明。
+R782原Hirota六倍阶关系、R784三wedge/六截面与L Kfull=2^(p−6)I均已证，权筛准确运输但仍未非零。R788有限环K=(1+Φp)P(z+t)Q(z−t)、det36/rank6和完整Schur把原Cartier源接入；未筛critical全零迫六零行，不可用于仅primitive筛后全零。D12常系数逐项消高带会同时消critical，p41旧证书否定单位反射零支撑，均已登记不重做。
 
-主目标余R317 p>37、p2/5mod9、完整非分裂正规化子、a³+db³1、p|b，D/bc无上界。实际正CM Ψθκ4根号−，逆κ4秩零应用已撤回。R616原β非挠iff指定L′g+Lg−非零；R726对全部充分大允许p已证非挠、rank=dim/log同构，非高度排根。
+[跨p零支撑续记](notes/2026-11-15-sigma-cross-p-zero-support-research.md)进一步证明六行p+6源中C13=−481/27720始终单位；有限微分式K(Kzz−Ktt)−Kz²+Kt²=2κ(z^(p−1)−t^(p−1))K²亦保真Cartier源。但N+1高带未消；原六截面无有理scalar gauge的常数域微分闭合。真正primitive/Legendre可见集的乘积非零仍开，不新增有限扫描。
 
-**主要缺口仍为真实高度**：R690/694/696坏靶Ω={0}；R634外积消A但保Y/常数。R724原Y splitting因子2、第二类period、MW Hecke基及ell=yᵀL^-ᵀHL^-1eη（不反演H）、实际Poincaré/universal-extension和非p局部项全保。原q/β坐标、实际高度jets及(724.33)有限Bézout全尾证书未生成，全p证书存在未证明。Abel不回零不能替正秩有理点排除。其余O3/O4/O6见open及完整归档，完成标准不降。
+**真正高度仍为主要缺口**：R690/694/696原坏靶Ω={0}；R634消A高度矩阵但保Y/Picard/常数。R724完整规范含因子2、第二类period、原MW Hecke轨道、ℓ=yᵀL^-ᵀHL^-1eη以及Poincaré/universal-extension/非p项；未反演H。实际η/β坐标、完整高度jets、(724.33)有限Bézout及其全p存在仍未生成/证明。
 
-**R784已证**：原全核为六degree12截面的三wedge、秩6；critical矩阵有整数左逆L K=2^(p−6)I，原primitive/Legendre权准确运输，不假设筛交换。R788进一步耦合原首pole与完整核，仍缺真正非零。
-
-
-**R785已证明**：原活跃简单块End_Q^0=F；实际同源ι/原极化M=λ0^-1ι∨λYι与F稳定Lagrangian给hY=ΣTr(cα x*ᵗMαy)，cα*=cα。所需高度参数降至ΣdimFα^+，可全在原JY配对，保分母。真正首外积类为[s_i] mod Qp(v_i)，v_i=T_i−T_g仅向量非零；s_i=2T_iλ_i0−λ_i1+2Θ_i1−4T_iΘ_i0，保原CM值和切向两列。类不随允许A/Y splitting变；实际值、非零/赋值及完整Bézout仍待。详见R785。
-
-D12降阶已完整排查，见notes/2026-11-15-sigma-matrix-research.md：首pole源项136650240B，仍有N项高带；在p659源项也零。全部常系数总阶12算子逐项消高带必同时消critical系数。仅关闭该线性策略，继续原同标签零支撑。
-
-**R788已证**：于Fp[z,t]/(z^p,t^p)，原核=(1+Φp)P(z+t)Q(z−t)，Φp=−12B Σ偶r z^(p+1−r)t^r/[r(r−1)]。原高块整有限部全消，p除法先准确抵消，低6×6 minor det36使秩恰6，给全部Schur关系。未筛critical全零会迫六完整零行；仅primitive筛后全零不能套此条件。继续真筛后共同非零，详见R788。最新前H归档notes/2026-11-15-handoff-before-R788.md。
+R785把高度压为原ι/极化M下ΣTr(cα x*ᵗMαy)，需ΣdimFα^+真实参数，原分母全保。首外积类[s_i] mod Qp(v_i)，s_i=2Tiλi0−λi1+2Θi1−4TiΘi0，v_i=Ti−Tg仅向量非零；CM值与切向两列同时保，A/Y允许splitting不变。实际类非零/赋值未求，不用Rosati实正定代p进非零。完整历史和全部符号见[此次R791前H](notes/2026-11-15-handoff-before-R791-actual.md)、open及归档链。
