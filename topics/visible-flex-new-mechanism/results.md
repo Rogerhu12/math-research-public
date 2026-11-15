@@ -319,3 +319,5 @@
 - [R155：完整最高第四action的真实曲线Sturm型充要判据](results/R155-complete-highest-action-curve-Sturm-Liouville-equivalence.md) — 任意水平Γ重参数保完整面积与Q4，得到aΓt″²+bΓt″t′²+cΓt′4；flat端使eΓ=cΓ−bΓ′/3准确。全部真实平端L4积分非负iff所有Γ上的∫[(4/9)aΓψ′²+eΓψ²]≥0。有限时间flat反构造与γ=P/ψ覆盖支撑的充分性完整，不假定Γ正则或有限转向；不授低阶完整action或实际逆元。
 
 - [曲率短阶梯首轮跨65、合格态降至63.5172](notes/curvature-target-ladder-first-actual-result-20261115.md) — 43658064177/source bf3497f2同g/b0/163，五次两网接纳到d1ca5f，全部原物理门过，60未到。9LP/40共享值耗尽，活动52.59s；模型7/8的α1/32仍metric超门且缩trust未缩实际提案。全系数/池/试探完整保存，下一修真实步长或二阶恢复，不原样续预算。
+
+- [R153：D0超出全部响应、G轨道与J的原有理分离](results/R153-D0-original-separation-beyond-response-G-and-J.md) — actual43658922081/source a6398571复用42×42原pivot，仅评价新D0和一条旧根组合；mixed−2实查询t1/70给ΛD0≡379682857、43阶det267072587 mod2147483647。实成员系数由原Q pivot唯一化，故D0/K0∉A_G+RJ，U/A_G≥2、U≥239；lineality/query仍237。pure模零只未决，0旧逐列评价/新响应/N2重编，3.701s/RSS95.484。

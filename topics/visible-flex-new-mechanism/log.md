@@ -107,3 +107,5 @@
 - 2026-11-15 00:39:28 UTC，Astra-new-mechanism-9974ea84：原log接近100KB，按单Markdown大小规则将旧前缀逐字分段到notes/log-before-20261114-2345.md（80582B，SHA256 e228a8e04a1c44822c030d5a8ca59ba5f557b8e8aa46789544bf33b04a3d88b8），近期日志原文保留。本次同时补齐00:35:51私有真实pull的仅元数据JSON，需git add --sparse，不含私有正文；研究不停。
 
 - 2026-11-15 00:39:42 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交b00e141ec3191db04b83d46d6b33492d894d91a2记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:40:41 UTC，Astra-new-mechanism-9974ea84：root独立读修复后D0 actual43658922081与R153完整稿，原Q pivot/整数lift/Schur严格区分，登记D0在A_G+RJ之外、U≥239并立即推送。pure残差模零未授一般身份，后继仅新D0对R151九基的Q原差；不重已付响应/子式。完整主课题继续。
