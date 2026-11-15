@@ -1,0 +1,52 @@
+{
+  "schema": "original-return-collocation-location-observer-v1",
+  "entry": {
+    "schema": "original-return-collocation-location-observer-v1",
+    "execution_wrapper_file": "geometry_20261114_twenty_eight_query_collocation_observer_warm.py",
+    "execution_wrapper_source_sha256": "fc5a3e4b35557a7056d96cd7ade6756b861f3667e44aea83d51e4f5cd59c7dfc",
+    "original_twenty_eight_query_entry_source_sha256": "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c",
+    "original_optimizer_schema": "exact-constraint-twenty-eight-query-condensed-complete-H-warm-v1",
+    "observed_original_sources": {
+      "geometry_20261114_twenty_eight_query_condensed_warm.py": "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
+    },
+    "actual_parent_warm_sha256": "8985f7a5f146f0e98af04d5b1fc3d86648c7e6007403d9be54b1ed8ca4143fc9",
+    "actual_parent_status_sha256": "c78528682d239d941ccc1391df004c8da3b51d60b6315c6d30334828d0204540",
+    "observer_source_sha256": {
+      "geometry_20261114_twenty_eight_query_collocation_observer_warm.py": "fc5a3e4b35557a7056d96cd7ade6756b861f3667e44aea83d51e4f5cd59c7dfc"
+    },
+    "mathematical_source_ledger_and_schema_unchanged": true,
+    "original_evaluate_called_once_per_original_request": true,
+    "original_weights_called_once_per_original_request": true,
+    "extra_RHS_calls": 0,
+    "extra_Jacobian_calls": 0,
+    "extra_profile_boundary_or_model_calls": 0,
+    "extra_trials": 0,
+    "full_physical_scope": "all intervals and all original physical components",
+    "row_order": "interval-major physical collocation, then all original right boundary rows",
+    "row_weight_scope": "the original base-state Wr returned once for this model, frozen across trials",
+    "no_trial_fmid_weight_recomputation": true,
+    "observer_exceptions_do_not_replace_original_return_or_gate": true,
+    "numerical_result_or_acceptance_claimed_by_observer": false
+  },
+  "instances": [
+    {
+      "original_evaluate_calls": 13,
+      "original_weights_calls": 1,
+      "observer_errors": 0,
+      "original_weight_array_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "5584dc8d4fd7569dc9b21af9bd2804cbf82e077e0835dd446c69fd65907828ea",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    }
+  ],
+  "mathematical_source_files_modified": false,
+  "original_runtime_objects_restored": true,
+  "scientific_decisions_not_replaced": true
+}
