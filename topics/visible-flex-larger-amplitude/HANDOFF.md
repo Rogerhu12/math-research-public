@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:30:45 UTC 已读 9c2fcc91b73a1d3399f3dd1fe585b369d1153d2a，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:31:22 UTC 已读 026e105b67a4eae4afac7849dfce25cae52f5c7b，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -53,7 +53,7 @@
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082，微降不证准确根，全finalfalse。真实末九p50和半径见原文；R350补必要标量，禁搬154值。
 
-[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保七状态/完整112伴随。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发：112+10pins、actual157末九p50/六候选选一，独立十族fresh forward及原20档/full3/strict slope/Armijo；初末120项FD及原终态保，2400s/50min science/65min job，实际43741113847/source39e6ff80，amplitude核R364。[R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)局部零jet响应span已证；173定位helper未选父，不冒rank或同g换形状精化。
+[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保七状态/完整112伴随。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发：112+10pins、actual157末九p50/六候选选一，独立十族fresh forward及原20档/full3/strict slope/Armijo；初末120项FD及原终态保，2400s/50min science/65min job，实际43741113847/source39e6ff80，amplitude核R364。[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)补R363同站不同商的G/H两jet完整span；173仍仅奇形状，未选父/未认证rank，同g须冻结形状。
 
 [R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：准确V=(sqrt(P)C−νQB)/(aW)及完整方向V″，全338投影/115零行，闭段正界给显式M；原e0/e1与Hermiteδ0/δ1/执行误差全保。纯证明，无数值M/安全步长；接R334全段未付责任，不设原求解新门。
 

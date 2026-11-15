@@ -124,3 +124,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R362及169工程重发
 
 [R362](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)完整读首169 run43739904996/source82fe6b4b两日志168013B/46c237a7与9594B/c35b80f4：自身YAML未稀疏检出，原preflight前缀通过但整体失败，临时dispatch尚未写；C skipped、后继全部未exec科学。八原栈、两个unavailable primary/三个缺primary、真实rules pull与读回不全故cleanup-skipped保，非数学拒。只增sparse一行与request真实来源metadata并两处SHA更新，41ccd380/887dc763重发；原recipe/58/51/25源及全部数学/预算逐值不改。geometry核下一actual/R367，不能将修复提交当执行成功。164已实际43741113847/source39e6ff80，由amplitude核R364。
+
+### R366：同坐标不同商的完整值/斜率响应
+
+[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)已证按真实逻辑输入聚合G=Σw/a、H=−Σwb/a²；偶六次/奇七次严格局部零2-jet形状分别给ε²H/εG，完整C²允许形状响应span与两列矩阵同秩。只在单输入或准确共同q时可退化为单列；形成q词相同不证明该前提，odd全零也不排除value方向。无实际G/H/rank/新步，原full3/FD/接受门不改。173只odd；确需value方向另立真实新族，固定形状后同g精化不得重新挑站或缩宽。

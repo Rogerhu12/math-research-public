@@ -278,3 +278,5 @@
 - [Request164：伴随选择独立十控制族并执行真实原门](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)：九件/112+10pins，actual157末九p50重生、六新形状实际完整三响应选一，fresh十列forward定方向与原20档Armijo；初末120项FD/完整终态保。新形状字面采样与准确连续模型分责，源码发布不预填实际改善、rank或非零场。
 
 - [R362：首次169因工作流自身稀疏检出缺件而未起科学](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)：run43739904996/source82fe6b4b两原日志完整，首YAML缺件与后继七次dispatch缺件分责，C skipped/BVP未exec；规则真pull、primary unavailable和清理保留范围齐。随同最小接线/真实retry metadata重发，原科学与门不变。
+
+- [R366：同坐标不同逻辑商输入的完整值与斜率形状响应](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)（已证，无新数值）：完整聚合G/H由偶六次/奇七次局部零2-jet基逐一实现，精确刻画允许C²空间span/rank/左零空间及原merit斜率；准确公共q与形成词等同分开。173维持odd范围，不预填实际秩或全场接受。

@@ -193,3 +193,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:30:45 UTC /root — R362首169工程停止及最小重发
 
 12673B/a2e2e479全文与三件完整diff核后即发：自身YAML未稀疏检出导致dispatch未写、科学未exec，八栈/两原日志/cleanup-skipped全保。新增一行sparse与真实retry metadata，两request SHA同步41ccd380/887dc763，原全部recipe/pins/数学/预算逐值同。164已43741113847；API核9c2fcc91b73a1d3399f3dd1fe585b369d1153d2a双README未变，真实pull记录保留。
+
+## 2026-11-15 17:31:22 UTC /root — R366完整同站两jet响应
+
+全文证明及amplitude独立核后即发：按真实逻辑输入计G/H、偶/奇局部基给ε²H/εG，全允许span/rank/斜率与误差条件明确；单输入退回R363，odd零分数不排除值方向。无科学运行或新门，173scope不扩；数学分隔符按根规范。API核026e105b67a4eae4afac7849dfce25cae52f5c7b双README未变，真实pull记录保留。
