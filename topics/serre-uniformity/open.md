@@ -54,7 +54,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R787原A/B仍运行**：run43708449812/sourceac5998f3从旧run43683912711的5.15GB BudgetStop断点同核恢复，core93d3d72b未改。1517输出/1372输入全SHA核后，只保每prime最新完整Dixon及其它已成stage；原V5=1234、129条件/14分支、同主元/自由坐标不变。尚无真实A/B，末端须全129×20准确代回；预算停则同核续算，不换R802。成功立即R792实际CM值/立方根及R809 A/B追加。
 
-**R809原S5运行**：run43712427063/source91fbd81e，core dedb5d61/wrapper3616aac1，[原方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。四组4117输入已核；六τθU_j共84Q右端、1234列/1380行，A/B后追加28右端同一basis/身份。保82^10、b/s与λ换基一次、τ最高项零，只补真正缺尾。尚无实际minor/新坐标。
+**R809六原C已准确完成**：[实际结果](results/R809-certified-original-six-Hodge-normal-vectors.md)，run43712427063/source91fbd81e，84Q右端/full1380、S5=1234、p1000000007/minor29693114；13341.116785255秒，各最高项零给权4。原冻结verify全部成功；小IO run43733430148仅精读16件4.80MB取得真实manifest/cert/S5/minor，不重算旧行。保82^10、b/s与λ一次；A/B仍待真关系后追加，极理想/eta/高度未得。
 
 **R792/R804工程待A/B**：原R792 core7b7a5483/wrappercdac2e93保c(f)=−ζ²f、y0=sv0、原Fb唯一立方根/21次奇因子，不在未知同源核中选前像；CM值/首jet全零才增加高阶。R804 coreecd9fc2a/wrapper5126b836旧18项IO已核，随后消费R792七新项，保全部例外点/T7/原Gal/rho/vβ，不重求五个Laurent核。
 
@@ -122,7 +122,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 **R826固定八运输已准确完成**：[六单位系数与两零通道](results/R826-certified-inert-Gaussian-source-transport.md)，run43725592504/sourced3a42168。FG/HJ的G1/G5准确0；F3/F7各d1/2/4系数清分母Norm仅2/3/11，对全p≥41单位。原source det−8192、完整运输det分母11^16/整Norm2^600·3^432·11^320；U6×6/源8×8/运输8×8全部24坐标已保存。canonical39280B/SHA916e1b95从完整日志重哈希，公开全manifest verify成功，artifact14165618753/17813B/平台ZIP7f0bd3bd至Nov16 14:40:58UTC。原未筛式缩六CM值，未知和仍可相消，不代primitive/Legendre同h。result SHA a37f2e4f5635a2183822ad4fccd7f38fb21d6213301e1bb53c961aa97697663c。
 
 
-**R827（已证明充分判据，尚无实际终止层）**：[原两图模满射与导数层终止](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)。实际C的monic20/单位常数给整拼接/flat商；两族原导数按a+2k齐次化，tδ−(a+2k)δt保原I_k包含。两张完整多项式Bézout右逆经proper支撑/Nakayama迫char0 I_q=C，不能用单点rank。单位Schur/S5定义真实p整canonical B，原W的8个cyclic单位节点与vg/vh的6/5点允许直接取得MB/Mg/Γ真实约化，无须先等全char0 CRT；所有真实节点/整性/原源与两图满射仍待。仅若q4实际通过才得D约化/K1，当前未作此断言。 §5.1进一步给同样完整的较小证书：τ整个k[z]右逆＋σ在t=0的实际rank272；全球source与局部Nakayama覆盖余下∞，σ仅需q+1阶递减精度jet，省第二个整多项式HNF。 proof SHA 17e9c828e01e652b1a73281bf2249ae2b39133faae3cf22384a5fd6d6a3d4a71。
+**R827（充分判据已证，首真实q4请求已激活；尚无实际终止层）**：[原两图终止](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)。原C monic20/单位常数给整拼接/flat商，按a+2k齐次化原导数；整个τ多项式右逆＋σ∞实际rank272经proper/Nakayama迫char0 I_q=C，单点或函数域rank不够。σ只需q+1递减jet。真实p整canonical B经原Schur/S5单位块，8/6/5个原cyclic单位节点给MB/Mg/Γ；ell1000000753/branch0/free1186及λb保留。core d9cf7739/helper38baf6b4/wrapper dbd8356e，六来源全真请求1804789d、首q4/300min/cache=[]；R809 source91fbd81e已success，不等A/B全char0。先∞再τHermite，全部变换/系数断点复用；只有q4实际通过才D约化/K1。proof17e9c828，未预填答案。
 
 
 **R828（已证明）**：[原惰性二部分等距与两个CM源零值](results/R828-original-inert-two-primary-parity-and-old-source.md)。原P₂=[[4,3],[3,4]]是模6二次模等距，真实交换Weil/CM并保EO；六old为+、G1/G5为−。原U/共同相位给允许二维W稳定，实际G两列FG/HJ零加交零迫W⊂old，从而两个原e_G及companion CM值均零，不能仅以投影零反推。16个二次模等距纸面全分类，保持EO者在剩余六old上皆标量，其余送EO→OE；只排该真实等距群再降维，未排所有抽象commutant。六old指定和及同primitive/Legendre仍OPEN。SHA d5c70b7dfa33140e0a8225ac8a0a5d0a11a5f42483e23eb39aee32fa18bf6764。

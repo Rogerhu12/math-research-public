@@ -4,15 +4,15 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7f68e1b83c2d579c861fccb9b770c6e7d2a32436**（2026-11-15T16:02:44.492628+00:00；公开run43714581068/attempt26/job132870040564真实git pull --rebase origin main，两README无diff）。14:34UTC环境失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。完整前态逐字保[R809输出读取前H](notes/2026-11-15-handoff-before-R809-output.md)，内接全部历史；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：4d986fea825886472bb2def9a47b51c4cee5b8fc**（2026-11-15T16:11:41.588302+00:00；公开run43714581068/attempt27/job132872684711真实git pull --rebase origin main，两README无diff）。14:34UTC环境失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。完整前态逐字保[R827激活前H](notes/2026-11-15-handoff-before-R827-active.md)，内接全部历史；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
-## 当前原始计算与来源（2026-11-15 16:04 UTC）
+## 当前原始计算与来源（2026-11-15 16:14 UTC）
 
 **R787原A/B仍运行**：run43708449812/job132794639922/sourceac5998f333ab49c4747874e2e44b7ca4ccfa3acf，core93d3d72b、wrapper42157e0d。旧5.15GB断点1517输出/1372输入全核；保1234/129×20/14分支，每prime只留最新完整lift。预算停同核续，不换R802。成功立即R792原CM值/β/立方根，再R804全部真点；不选未知同源核前像。[续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
 
-**R809原S5已success**：run43712427063/job132806699613/source91fbd81eb539c07f11e21116e71def91fdab5254；core dedb5d61/wrapper3616aac1。冻结verify报C0..5/84Q RHS/full1380、p1000000007/minor29693114。artifact14168728276/545778174B/平台ZIP1ec83d6c910e119bfc9f82b35520b493a235b8dea1ddba247b60e46f00c8a550至Nov16 15:52:48UTC。已激活小Range来源读取（scripte2f9be61/request99dcdd86/workflow29e1c1fc），取manifest/cert/S5index/minor给R827，不重读大坐标/重算1234行。A/B不在首scope，后增28同身份。[原方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。
+**R809六原C已准确完成**：[结果](results/R809-certified-original-six-Hodge-normal-vectors.md)，run43712427063/source91fbd81e，84Q/full1380、S5=1234、p1000000007/minor29693114、13341.116785255秒；各最高项零给权4。原冻verify完整成功；小IO run43733430148/source1674f17b仅读16件4.80MB，manifest84908131/cert8c117fa1/S5f6f6f0ee/minord631c024。原artifact14168728276至Nov16 15:52UTC，小IO14168779933至16:05UTC。原82^10/b/s/λ一次，A/B不在此scope，未得极理想/eta/高度。R827全真来源已齐，不重算1234行。
 
 **R815原Mg/Γ仍运行**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0，53原输入全核。Mg六模/七准确点、Γ五模/七嵌套点；We0=e1、Γe0=0/Γe1=vh与完整[[Γ,W]+MgW′,W]=0给唯一性，不独立CRT Mh。首prime1000000007不同R827的753，不能混缓存。[方法](notes/R815-original-normal-derivation-operator-method.md)。
 
@@ -24,7 +24,7 @@
 
 [R827充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)，最终proof17e9c828：原C两图monic20/单位常数给整Laurent拼接和flat商；两族原导数按a+2k齐次化，tδ−(a+2k)δt保像在原I_k。真实τ整多项式右逆＋σ∞rank272经proper/Nakayama迫char0 I_q=C；单点rank/函数域rank均不够。σ可用q+1递减jet，不再做第二图全HNF。
 
-**首实际消费者**：core85916B/d9cf7739、finite helper38baf6b4、methodc55655f9已全文核并推7f68e1b8；[执行契约](notes/R827-original-modular-derivative-surjectivity-consumer-method.md)。wrapper dbd8356e/87825B待root全文读，workflowbbb0b8ea；请求待刚结束R809的真实源摘要后激活，目标q4不是答案。
+**首实际消费者已激活**：core85916B/d9cf7739、helper38baf6b4、methodc55655f9和wrapper87825B/dbd8356e全文核毕；workflowbbb0b8ea，请求15242B/1804789d已填六个真来源，首q4/300min、cache=[]，无PENDING。[执行契约](notes/R827-original-modular-derivative-surjectivity-consumer-method.md)。R820同列同时保存normal_basis_index/exact_original_normal_basis_column与first_dependent_power/monic_diagonal_degree，两套字段一致，不改算法。首run待提交后读回，q4不是答案。
 
 原ell1000000753/branch0/canonical1186：单位Schur给真实B的整lift，S5单位块给vB；必须保integral_B=lambda*b。W的8单位cyclic节点给MB，vg/vh的6/5点给Mg/Γ，保6724一次及σ负幂相消。B·d_i有272列/权5,6^144,7^127，只是子理想，额外零可使充分检验失败。旧同prime节点/逆/模image直接复用，首reusable_stage_sources=[]。先∞真minor，再τ完整Hermite/Bézout；missing-pivot不冒称总rank；增q复用全部已成变换和系数。尚无实际q；只有q4真通过才D约化/K1。
 
@@ -40,17 +40,11 @@ R806 W（run43707290840/w=e2/τ）与R813 vg/vh（run43715253991/scale6724各一
 
 ## 全p sigma实际配对
 
-真正缺口：同一primitive/Legendre可见h的三个原单位。R739 p41/h37排逐项反射；R741/R737各自标签不能拼。R808原period/split/Howe与R810单位偶矩/链非退化已闭，P_T非水平，保[K,P_T]/Kraw。先D后SS，原αs/6及全部八源保留；高p²/Hirota/固定六维D闭包/已排对角水平延伸不重开。
+真正缺口仍是同一primitive/Legendre可见h的三个原单位。R739逐项反射反例、R741/R737标签不可拼、R808/810与全部已闭边界保[前H](notes/2026-11-15-handoff-before-R827-active.md)及原结果；不重开高p²/Hirota/固定六维闭包，保非水平P_T及[K,P_T]。
 
-[R812](results/R812-certified-split-prime-unfiltered-apolar-unit.md)六case给全p≥41、p5mod12未筛交替卷积单位；Norm坏素数仅2/3/5/11，不代原同h筛。原p11mod12 harmonic7是一次q原函数，非七次Eichler；全SS常系数端项恒等已排，单j0未排。
-
-[GC八源](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)及[R826真实运输](results/R826-certified-inert-Gaussian-source-transport.md)已成，run43725592504/sourced3a42168，U/两8×8全24坐标保artifact14165618753至Nov16 14:40UTC，canonical916e1b95日志重哈希。G1/G5的FG/HJ零、六old系数全允许p单位。
-
-[R826 companion](results/R826-original-inert-companion-theta-CM-pairing.md)原J=θ_t⁵C、权p−5；T_j运θ_q，原q_*给12^5，未筛式=−120c²/d0·Σκν Cν,p^sharp(P0)。[R828](results/R828-original-inert-two-primary-parity-and-old-source.md)真实P₂和交零论证迫G两CM值零；保EO等距对余六old皆标量，不代表全Weil commutant。六项指定和仍OPEN。
-
-[R829](results/R829-reused-prime47-original-critical-products.md)：run43730863246/sourceb2e7bde9只复用旧R702；七项19/32/29/21/8/20/33、交替和16 mod47，canonical0f461cc4日志重哈希。否定惰性j0普遍零，不新扫素数/重算旧系数，不代同primitive/Legendre。
-
-[R830](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)，最终10385B/344a1cad、commit845d230d：χ_p=ω^(1−p)精确p+1阶，εχ_pw⁵给原J权六Hecke lift，导子3p/6p、level36p²/144p²、old1/d。tame θ⁵C权6p，负权/Hasse简单零及Igusa权同余给filtration恰6p，不能去p导子降tame权6；某SS非零不定位P0。继续真实conductor-p与指定Eisenstein CM六项/原h配对。
+[R812](results/R812-certified-split-prime-unfiltered-apolar-unit.md)给全split p≥41未筛交替卷积单位，未代同h；[R829](results/R829-reused-prime47-original-critical-products.md)只复用R702，p47七乘积19/32/29/21/8/20/33、和16，否定惰性j0普遍零，不外推全p。
+[R826 companion](results/R826-original-inert-companion-theta-CM-pairing.md)保原q_*/12^5及−120c²/d0，固定八源运输准确成，R828迫G1/G5两CM值零，余六old指定和OPEN。
+[R830](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)已推845d230d/344a1cad：χp=ω^(1−p)真p+1阶，εχpw⁵给权6、导子3p/6p、level36p²/144p² lift，原old1/d；tame θ⁵C的filtration恰6p。某SS非零不定位P0，不能去p导子降tame权6。继续真实conductor-p Gaussian到指定Eisenstein CM六项/原h配对；有限字符同R727只为depth-zero，不省infinity5的Hodge/period运输。
 
 ## 主目标与已闭边界
 
