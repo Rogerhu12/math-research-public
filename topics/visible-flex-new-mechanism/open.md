@@ -10,17 +10,19 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[最新SOC等价缩放实际](notes/soc-equivalent-scaling-first-actual-20261115.md)43687834522/sourcef03c4eb/job132731961031已完整消费。一次growth、一次strip只恢复未持久化必要输入（8/10条accepted含起点），新阶段10主模型/2SOC/12LP、10真实接纳至
-`ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664`。
-粗/细η .26651100522045557/.26651100509492442，fineκ57.999989440433026、内条带余3.887938476720976e−8；旧167/625、硬58及原物理门均过，新.26未到。末池4417/3988、半径约1/32000/streak1。完整全部trial门、同点defect、原单位dual/残差与原g/b0/163身份见正文。
+[103列首轮实际](notes/entry-body103-first-actual-result-20261115.md)43691833140/source2f25b5aa/job132743956019已完成并完整读取。一次growth→strip→SOC仅恢复必要输入643875e4→267c41ff→ec76，不强求历史hash；新阶段1LP/1两网试探/1接纳、0SOC，末态
+`bfbd7465044bd742b48d731f0f381ef015e32fa0867b20442488be9bd9831b1a`。
+两网eta .26651073966292449/.26651075196396212，fineκ57.999989440433026、条带余4.3969304031055145e−8，原全门通过，新.26未到。固定外域t=.7725,θ=pi/2的eta=.26651073136454873，剩余下降空间2.06e−8<原最小接纳drop1e−7，下一模型在J/LP前准确退出。预测比.925、只用.03997r，不是半径或预算阻塞；不延同103列预算。完整外域六jet/metric、全域b/中心和60固定系数保持，真实全门/8defect/全部计数见正文。
 
 ### 立即下一步
 
-两次未接纳主步准确由曲率越界拒；新归一SOC均最优且有有限primal，原单位残差0/1.06e−22、随后两网实际门通过。其同点曲率行余差由约1e−7降至1e−10。活动101.822s、全process720.832s（含必要准备606.942s），12LP计数退出；细Jac66.022s仍主导，不能只报SOC约.78秒或再延同预算。缩放保原准确LP可行/最优集，不保证同浮点轨迹，不能反推旧超时唯一成因。
+选择原有154个uv列两块控制：原103入口/体段保持rB=1/4000，加入原剩余51尾uv列rT=1/32000，共同缩放控制；9高度列暂固定。只以此解除.7725锁峰，不增加basis或变g/b0/原系数盒；原curvature58、strip和两网门不动，物理∞步代价须按块权准确处理。当前仅设计/源码开发，未宣已有效下降。所有前缀只作必要输入各恢复一次，成本分账、接受真实合格末态与全部学习池，不强求旧hash。
 
-**决定性新状态：末metric峰移至t=.09、theta=3pi/2。** 既有34体段列在此六jet准确不动，所以不能单独严格降低当前全域max；不派发此strict-max子族。[103列完整支持证明](notes/same-g-entry-body103-support-20261115.md)已完成：S=[0,54)∪[81,129)∪{153}，保60原列；W2/W5的完整ramp与入口O(x5)/O(x8)、Q止.36、逐圈Π使[0,tc]及[.765,L]外域六jet严格不变，.78曲率峰保持。轴上T值固定不代表角原函数或E固定。[新103受限算法](notes/same-g-entry-body103-restricted-step-design-20261115.md)首轮公开actual43691833140/source2f25b5aa/job132743956019运行中：r=cap1/4000、streak0，原12LP/40共享值/120活动秒，fullJ仍163；外域完整双soft给rho_out、常量hard/帽高只用原tol，inside零J保留，proposal正floor仅可变域，每轮固定域锁峰在J前退出。SOC只对新受限数组作准确正缩放等价。helper/lib/driver全文及最终人工已过；当前无新科学下降结论。固定b/平均Xs下界在本次必要初始化同次读取，完整原两网门及初末同态值输出；总下降1e−4仅诊断参考，未达到也不重跑延同预算。
+初始化同时读取的b(.09)=1.0432470144212365、b²−1=.08836433309882352来自普通值缓存；Jensen原式给固定b必要下界，浮点评价未作额外认证门。它低于.26，非此次阻塞，却提示永远固定9height不能通向1e−6；后续可用原高度零总积分方向保持同b0/g及共同帽高，须独立真实全门。
 
-旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[strip](notes/strip-reserve-first-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)与源码全部保留。后继只为必要输入各恢复一次growth→strip→SOC，完整状态/池/g/b0及旧实际控制器如实记录、成本分账；103新阶段另明示r/cap1/4000、streak0，不继承旧fullspace控制器或强求任何旧canonical/hash。全连接同g精化、全域/全时reach与宏观幅度仍欠。
+本次新活动1.5756s/audit14.358s，必要准备778.513s/全792.871s；总降2.53256e−7未达1e−4参考，但不改原接纳门。完整J仍163，不能用小LP约.276s替代完整费用。
+
+[103支持](notes/same-g-entry-body103-support-20261115.md)及[算法](notes/same-g-entry-body103-restricted-step-design-20261115.md)保完整入口ramp/原Q，精确外域[0,tc]∪[.765,L]；轴上T不变不意味着ΠT/E不变。更早[SOC](notes/soc-equivalent-scaling-first-actual-20261115.md)、[strip](notes/strip-reserve-first-actual-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[physical](notes/physical-step-cost-first-actual-result-20261115.md)与[读取失败](notes/trust-growth-observation-failure-20261115.md)完整保留，不重科学为确认。全连接同g精化、全域/全时reach与宏观幅度仍欠。
 
 ### 仍须支付
 
