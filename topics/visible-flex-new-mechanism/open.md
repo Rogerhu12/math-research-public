@@ -20,7 +20,7 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。首次43705209195内部异常丢失；[诊断修复](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)run43707849695/f9d8da4e的八新检查全过，完整原异常明确为159初始化fine union超4096，旧池4049行、0LP/0J/0活动秒，hold未调用。**下一结构化容量预留 Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保旧行与旧学习余槽；第6明确新容量输入生产、hold若再次初始化独立登记一次，后续容量不增长。** 这是新算法配置，不称原完整参数恢复；原实际门/12LP/40值/120秒/reference/H保持。尚无新实现或actual，[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)也仍未实现。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** 新helper/driver已静态审，尚未公开新增人工/actual；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
 
 ### 仍须支付
 
