@@ -288,3 +288,5 @@ R707/R708第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=91�
 - [R709：原平面目标p前缀与真实饱和旗标cutoff](results/R709-original-plane-target-prime-prefix-and-saturated-flag-cutoff.md)：原平面的单值接触由全十九角/重复因子给Q_D=M_D+3B_D²+8D；Q_D<s时目标p连续普通前缀是整分裂单射、全单位Smith，阈p>6Q_D−1且无Δ_D坏素数。另付exact ker_Q∩原系数格的全部真实旗标层cutoff，二次门297/20；不称各短前缀像饱和，不扩五z来源/primitive塔，原同R forcing仍开。
 
 - [R702：四十五条真实中性测试与完整三态算术门](results/R702-forty-five-neutral-tests-and-complete-three-state-arithmetic-gate.md)：完整半周期/四挠整周期及隐藏⊥L给八条全参数关系、真正15维余空间，45条原中性实列的非零子式付同ray密度1/全N4整的新q30，新增深度成本0。原U0=S/U1=0、cd=S、W=6δT/J2=1同时保持；同Edeep的三态Y回S与原new、W回(T,T,−T)，四核真词同门返回。完整Eshallow Xi/参考/外谱、A34移动门及P30高项保，未将单深支当总矛盾。
+
+- [R711：原第六Cartier行与共同Frobenius误差消去](results/R711-original-sixth-cartier-row-and-shared-frobenius-error.md)：首次越过R647五块：原第六Cartier输入有简单极，有限部须减1/Z；完整行T6=g6+(m/2)η+7κ5 a_m^+保实际首Frobenius误差和z/Z修正。原两m组合消η，a低行组合再消U_s，仍保原≤p+1窗的固定分子残差。j0侧为γ_m^6(L5/p6)/120，真实除商不删；未证明指定非退化。
