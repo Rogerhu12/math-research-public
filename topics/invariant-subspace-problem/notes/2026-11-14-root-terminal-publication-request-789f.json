@@ -1,21 +1,25 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "56e4840e278a7a5288498bb96c44a3007677ee9e",
-  "createdUtc": "2026-11-15 15:15:28 UTC",
-  "message": "research(isp): prove Koszul torsion embedding and resume native18 from digit1205",
+  "parentCommit": "87c131f1cda02a90da5d66e8c8c9ad440d6f9f25",
+  "createdUtc": "2026-11-15 15:20:13 UTC",
+  "message": "research(isp): close original minus-six local membership and start small finite projections",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-koszul-torsion-and-native1205-continuation-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-minus-six-closure-and-independent-local-session-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-recovery-small-session-request-789f.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-local-projection-small-session-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-local-projection-small-session-request-789f.json",
+    ".github/workflows/invariant-subspace-r150-local-projection-small-session.yml",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-local-projection-small-session.yml"
+  ]
 }

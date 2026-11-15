@@ -1,0 +1,46 @@
+{
+  "format": "isp-independent-small-local-projection-session-v1",
+  "rulesReadAtCommit": "87c131f1cda02a90da5d66e8c8c9ad440d6f9f25",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "largeDataPersistenceAllowed": false,
+  "releaseAssetsUsedOrCreated": false,
+  "historicalInputs": [],
+  "maximumIdleSeconds": 2700,
+  "closeSessionWhenStepsComplete": false,
+  "steps": [
+    {
+      "id": "two-original-projected-order4",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-original-projected-local-smith-789f.py",
+      "scriptSHA256": "867cc7f715913b6cd3dc5b8bcdd84969fee765df0930593e9066ebda26417e8f",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--out",
+        "{work}/two-original-projected-order4-receipt.json",
+        "--remaining-seconds",
+        "90",
+        "--memory-mib",
+        "1024",
+        "--max-order",
+        "4"
+      ],
+      "timeoutSeconds": 110,
+      "receiptPath": "{work}/two-original-projected-order4-receipt.json"
+    }
+  ]
+}

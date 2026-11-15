@@ -11,15 +11,15 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-koszul-torsion-and-native1205-continuation-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-minus-six-closure-and-independent-local-session-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：当前已证与未付范围
 
 - 原A为4367×6188、泛秩4354；同选I,J各4354、权8770，常数Q/F31秩4318/核36。完整同选前三连接3/9/3，二阶24头、三阶21头；[17真第三cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)已核296072原产品，法≤4完整头17，四缺头坐标15/18/19/20。
 - [原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)给raw1/16可延头存在、完整β4∈[3,5]，λ4未构造。known来项13/full15缺2、第三显式17/full21缺4。完整H45原rank1736、高核1036/模旧130为906；Mstar4318常像加HF/T的全商rank12，只需实际18 RHS，未重906大核。
-- 同选D∞≥130、全部cofactor/原来源换列∞≥125。最新零因子K112下q8415…8528，非基/转移/目标三费8572/8577/172，统一条件8577。原九目标全局Q[s]成员性仍是前提；函数域像与零点局部像现均已付。模31所选长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
+- 同选D∞≥130、全部cofactor/原来源换列∞≥125。最新K115下q8412…8525，非基/转移/目标三费8569/8574/172，统一条件8574。原九目标全局Q[s]成员性仍是前提；函数域像与零点局部像现均已付。模31所选长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
 - 两端原全常数rank4340/coker27，各14正Smith。零点完整β1…11=4,0,1,3,1,1,1,1,0,1,1；正谱1⁴,3,4³,5,6,7,8,10,11，δ最大/次大66/55、amax11，最后13自由头、965328原产品。原完整∞仅首4/次0，不能由zero谱搬运。
-- K112=sK111=s66(s−2)9(s+6)9F+²F−²E8²，degree112/lc5^6为31单位。[泛型像回接与零点精确费用](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已核旧13泛函及142+4212夹逼，九平方原≤3来源Q(s)像此前已证；完整mod s11双湮灭及amax11现给全九s³t_j在Q[s]_(s)/Q[[s]]真像，t2局部消去理想恰s³。十三自由余核的泛型目标配对已清；其余有限点与全局Q[s]成员性继续。
+- K115=s66(s−2)9(s+6)12F+²F−²E8²，degree115/lc5^6为31单位。[泛型像回接与零点精确费用](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已核旧13泛函及142+4212夹逼，九平方原≤3来源Q(s)像此前已证；完整mod s11双湮灭及amax11现给全九s³t_j在Q[s]_(s)/Q[[s]]真像，t2局部消去理想恰s³。十三自由余核的泛型目标配对已清；其余有限点与全局Q[s]成员性继续。
 - 原h0零点s³现在无条件恰足且不可降低；任意k阶真左jet九平方读数必O(s^(k−2))，第十一λ9非零只是允许的末端torsion，不能据此否泛型像。零谱/零点目标子问题关闭，不再排第十二；其它点、未知分母支持和固定D leading31单位继续。旧29曲线/GB/LLL/65521/uPhiY等范围保归档。
 
 - [真实局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)已证明len(W/(L∩W))=δA−δP，差≤e即t^eW⊂L。170+54g局部双向生成不除g；原E8²首项31单位先剥，2点δA≤30。充分δP阈值−6:12、2:29、F±:6、E8:4；数域长度不乘域次，E8不可约性已核。尚无新投影结果。
@@ -30,14 +30,13 @@
 
 - run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
 - 当前request路径同历史；累计step48完整第十一实55.241368715秒、13头/965328原产品，raw c7d982b2…/outer c7de3966…，完整精确SHA与checkpoint保小回执及H归档。
-- 第十一独立compact源码104882a9…仅压重复元数据，数学/物理/祖先身份全保；不重已闭零点计算。
-- 4318常单位前缀实1.627509135秒，113204/155448产品真，但HF/T primitive模31仅4，未假完整12。18RHS桥接实1.072890655秒，真Q旧14主元[0,1,2,13,14,18,20,25,26,28,29,30,31,32]加四目标，全跨度已证；没有新有理解。
+- 原4318单位、真Q旧14主元加4目标的18RHS桥接均已付；旧HF/T primitive模31rank4未当全12。所有输入完整SHA/原低cochain/常块规范保本次归档及真实回执。
 - 累计step49/50真Dixon从653续至1205完整digits/34946bits，18次重建未成、单位产品仍0；step50实1186.227843521秒，raw5290B/0514d6af8471fde6e6e04f57a56ac5b9085db5351a9d74e0b27d1a534021d539。binding2cd043a0…，active slot1=341404739B/eebf82c7…，逆/input同旧；不当数学失败。累计step53同源码/out续1800秒/4GiB/final，先真单位解再全4354回填2第二/4第三/完整第四；不能预填。预算末仅存完整digit、不自动尝试该最后精度。
 - 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
 
-- step51负六已实7.521673933秒，raw8191B/0039c5bd…：投影正谱1⁷,2,3/δP=12，全部原6188投影及Schur真。δA=12、W局部包含及九目标无需s+6，正式收口稿正编；旧入口73c11b1d…/所有g倍保原值。
+- [负六完整局部闭合](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)实7.521673933秒，raw8191B/0039c5bd…：投影1⁷,2,3/长度12夹原δA=12，full谱同、max3/sub9，W真局部包含，九目标无需s+6。所有原6188投影/Schur核真；新K115与条件8574已正式。
 
-- 累计step52原s=2投影867cc7f7…已审排120秒/1GiB/order17，真224来源如−6且不除g。先剥已付E8²再模31，原全局部长≤32−2=30；仅实际投影长下界≥29才付h0的一次s−2。未报实际谱。
+- step52原2点order17/120秒在首Schur完成前超时，系数0…17/全6188投影/常rank133已核，phase空；raw4131B/4427c371…，未报谱。新独立轻量session用同源order4先实测，后续逐阶checkpoint；请求notes/2026-11-15-r150-local-projection-small-session-request-789f.json，无历史大输入、45分钟/新run号待回执。原native大数组继续旧run。
 
 ## 原同w边界：完整负部仍开
 
