@@ -18,7 +18,7 @@
 
 [R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)及[独立接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)保完整9个原complex响应、真实相对度量G、12×9增广QR、全部方向及原门；有限QR不冒准确正交，内部相消未界。原[142入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)93+5pins/父29当前31从真138末p另起，R299/8×20/12×20/FD/Arb/453圆不变。
 
-[R316实际142](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)完整1批/8方向/14外trial/8接受，原W4.963213789290328→4.963213789045492、末radius1.9073486328125e−7，全部finalfalse。136parts/8groups/991133B全view身份匹配；56normal/146内trial/230样本/全部80额外原complex均有真实返回；9改选、直接救回0、6接受targettolfalse。四次20档全拒后段参数和残差词重复，2×2已形成矩阵的QR不显病态不付形成误差；同点real/complex实部词不同，整列FD不证弱方向精度。146保真末p、全部9J/原QR/12×20/R299/外20与FD/Arb/453圆/final，独立改固定两P的完整3×2直接complex响应，原新probe和失败全读；不冒同轨迹、精度已修复或新接受门。
+[R316实际142](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)已付完整8方向/14外trial/8接受、56normal/146内trial/230样本/80额外complex；136parts/8groups/991133B原view同。W4.963213789290328→4.963213789045492，全finalfalse，四次20档后段p/残差同word。完整QR不证响应形成精度，整列FD不证弱组合；146直接两P和149全持久精度的实际后继见R320/R329，不冒同轨迹或新增接受门。
 
 ## 2. 真正接受的非零完整112场
 
@@ -44,7 +44,7 @@
 
 [137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已结清fresh64/J/R273后的argv工程阻断，无128或后继科学；[140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付独立重生128接受，原末raw已清。152按完整来源重算所有组件，不恢复SHA。
 
-[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。[140完整同job入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现已发布52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，修首参数识别、实际stderr和原watcher传输。原actual91重新生成fresh64/R273/current128，清理前完整576×224新stage/全112boundary/混合338/独立audit；19200s总cap含绑定编译，保原science caps/父绝对期限及audit预留，完整/partial/未启动分列，native/fullDN仍false。不改137，不预言速度或误差界，不添fixture。
+[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付准确实Gram收缩/角点共享及完整225矩/226态/224列，名义factor/两回代缺陷及其导数不能忽略。[三源接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)保950e1810/86782f80/a2ee773c，独立schema沿现场全boundary/338/audit，不冒旧dL同值。[140完整入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)52pins/原19200s含绑定编译及独立audit预留不变；实际已由R321结清，152全链重生，完整/partial/未启动分列，不加fixture或速度/误差预言。
 
 [R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)/[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)付整数向外、完整113root/225Gram/226态/224shape+6环境、SPD/严格逆界及primal误差传播。[150完整入口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)五件已发d1d4c01a/run43721616091、compute132834627616科学运行，58pins保原52，同jobfresh91→64J/R273→真owner→stage10/step0/field0全部230列320bits；19200总限/owner6000/cert9000+1650，原exit70/summaryfalse保留，全部JSON值与所有stderr逐字读后清。无实际界预填；C不冒F_e/真F根/分支稳定/IEEE导数，全RK/129248/112/338/physical及native仍另付，不改140/145门。
 
@@ -134,3 +134,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 
 [R322实际144完整cut两jet](results/R322-actual144-original-cut-twojet-and-complete-domain.md)run43715729122/sourcead4a4345，compute132816731637/report132824742430全success；两原scalar/cut块逐字同。原binarycut点完整1head叶、5refine，E>1/Er严格负/Err跨零，全部dyadic正文保，cut E宽目标true不冒导数宽门。全1440/六primitive/whole域完成，whole2891合法粗叶+1晚期sqrtE_B预算未付，无source/query后缀；原result24892B/d8519761、cut5684B/8d7f730c后清。147/148按真实原输入重生即消费，不拼摘要冒全ledger；有限头h非零/DN、新场/同场metric仍未付。
+
+### 新C完整物理绑定与真正非线性provider
+
+[新绑定接口](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)及源c0bda335已全文核发：实际factory/result/definition/C盒、全九参数和453/450/459视图，原完整物理flow/R252边界、全部旧场公共u重参数与fresh全RHS、真实112非除Robin及有条件线性图。线性对象明确拒绝solve，原中点不冒共同真根。153继续同C完整576-stage采样、独立零shape初猜/非除Robin、真currentH/root/RK/mean/full112、η=0全112敏感度和338/fresh audit；逐节点可除不能从cut可除推出，R331证明待交。

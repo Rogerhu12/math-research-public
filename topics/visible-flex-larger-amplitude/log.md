@@ -564,3 +564,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:02 UTC /root — R329 全持久精度改善normal但完整merit仍慢
 
 [R329全文](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)27289B/7bd6ccb2已完整核读：actual149 run43720604504/source94b13951，两job全success、15groups/128段原JSON重建27982134、chain17106B逐字同。8方向11外trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，全finalfalse；11normal均一次Newton/β1达标，仍三次外拒真增W。完整112、全部FD/投影Arb/453及真p50/半径正文保，未冒连续证书；154转完整二阶全3模型，原门不降。152已推0bee3ef1/run43722101766，两次NFF后立即rebase推成功。
+
+## 2026-11-15 14:04:25 UTC /root — 新C全112 profile与BVP绑定
+
+[完整接口](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)17984B/cd5b77f5、源42658B/c0bda335全文已核；8直接源码身份与AST通过，无本地科学。实际factory/定义/同C绑定、九参数与453/450/459、全旧场公共u重参数/fresh完整RHS、原R252全角边界和全112Robin/商责任保留；线性对象solve明确拒绝，未制造非线性DN/338或接受场。153继续真C采样/无图初猜/完整全局响应，R331待证明；R329已推23a78deab，152实际job132836110295已入科学。
