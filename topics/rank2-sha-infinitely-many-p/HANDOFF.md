@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：d23db7eba55d73bafcb6f2c8d7f82d87f1d85b3c；2026-11-15 16:29:14 UTC核两README无变。实际CI pull 2026-11-15 16:00:07 UTC/cf04b1ce3d745d01ae52c86d315a877bb950a8a1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:29:13 UTC仍无环境。最迟2026-11-15 16:45 UTC再实际pull。
+- 最近已读规则提交：d67b79ba8f16fcff0499b4acc19207ec58b19ddd；2026-11-15 16:29:55 UTC核两README无变。实际CI pull 2026-11-15 16:00:07 UTC/cf04b1ce3d745d01ae52c86d315a877bb950a8a1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:29:54 UTC仍无环境。最迟2026-11-15 16:45 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 最新实际pull 16:00:07/headcf04b1ce/run43732958967/job132869280519；回执ci/rule-pull-20261115T160007.json。
@@ -14,7 +14,7 @@
 
 [压缩前全部正文](notes/2026-11-15-frontier-before-r786.md)沿归档链保所有常数、十九角、ray、原来源、坏集和run/hash。[open全文](notes/2026-11-15-open-before-r782.md)保全部旧未付接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 R1–363、365–560、562–653、655–711、713–787已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
-root唯一metadata/ref写者；deep续全非F²余列/指定normal，theta续J-only五维负一与原Cauchy行，literature接R789真实CM观察和全补域；root正执行R788原b3五型全大p子式gcd及剩余有限p十九角类/κ强窗；producer已提交，未预支排除或存在结论。
+root唯一metadata/ref写者；deep续全非F²余列/指定normal，theta续J-only五维负一与原Cauchy；R791窄reader公开请求中，仅读原raw0/raw1谱，不改q或重适配，literature接R789真实CM观察和全补域；root正执行R788原b3五型全大p子式gcd及剩余有限p十九角类/κ强窗；producer已提交，未预支排除或存在结论。
 已付固定E17及j0 E17/E24/E2312秩2；仍须无穷不同p至少一条固定原J′非零。有限p、条件负矩或附近来源非零均非完成。
 
 ## 普通：同q的非零条件行、完整补域及实际第三中央
