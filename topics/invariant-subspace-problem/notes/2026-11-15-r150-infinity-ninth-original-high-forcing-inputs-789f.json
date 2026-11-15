@@ -1,0 +1,175 @@
+{
+  "format": "r150-infinity-ninth-original-high-forcing-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-15-r150-infinity-next-original-high-forcing-probe-789f.py",
+    "blob": "6a7c58b0757e4a22d2ec94117e62fb57792a43ae",
+    "bytes": 17026,
+    "sha256": "9438d69051a9bac1a0e0f0b0b2214dc4277b81214f778900adfd02fab6a4df18"
+  },
+  "inputs": [
+    {
+      "key": "generator",
+      "path": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    {
+      "key": "jet_actions",
+      "path": "notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "blob": "d244c869a1a3745c1a239c9abf2518e9e8c052",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    },
+    {
+      "key": "projection_consumer",
+      "path": "notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+      "blob": "74d4c918faf3d5b791493a94bd7df3000395805b",
+      "bytes": 37379,
+      "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+    },
+    {
+      "key": "sixth_consumer",
+      "path": "notes/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+      "blob": "854d36e3f8a064c442678667c6b282b0490f629b",
+      "bytes": 32142,
+      "sha256": "4d759c0efbc8a647bd5845b21da5e871de28f0d43ae6f2fc84c376afb472e328"
+    },
+    {
+      "key": "projection_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43740928483-infinity-small-original-projection-smith.json",
+      "blob": "f61ab124bfc80c1571aedb71de3bd302914bb32b",
+      "bytes": 28395,
+      "sha256": "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207"
+    },
+    {
+      "key": "high_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43740928483-infinity-complete-normal345-high-field31.json",
+      "blob": "e15d48a06cce50da69f8caf91e08affc91794db4",
+      "bytes": 12776,
+      "sha256": "0f6cbe9bb23601be632d0045f35839b922e16e4d893aca6b9d4e2f849cbd9141"
+    },
+    {
+      "key": "high_probe_helper",
+      "path": "notes/2026-11-15-r150-infinity-eighth-original-high-forcing-probe-789f.py",
+      "blob": "7cb134ac36908579cb66729aeaebac7b7b2fb16d",
+      "bytes": 22404,
+      "sha256": "cb246cfd93d03e3a842f47c6084f4bc3a4c3889f8fdbd740d2b68b22d27b123e"
+    },
+    {
+      "key": "previous_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43756208221-infinity-complete-eighth-after-high-probe.json",
+      "blob": "ab2fd8b702ab95ced1e974d2dd24540c64d42045",
+      "sha256": "9c549e7fa9afbfa1e03aeb6844cda9a3ccd985357650612d114abc1ac0eb677a",
+      "bytes": 13454
+    }
+  ],
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--projection-consumer",
+    "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+    "--sixth-consumer",
+    "{scripts}/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+    "--high-probe-helper",
+    "{scripts}/2026-11-15-r150-infinity-eighth-original-high-forcing-probe-789f.py",
+    "--projection-receipt",
+    "{scripts}/43740928483-infinity-small-original-projection-smith.json",
+    "--high-receipt",
+    "{scripts}/43740928483-infinity-complete-normal345-high-field31.json",
+    "--previous-receipt",
+    "{scripts}/43756208221-infinity-complete-eighth-after-high-probe.json",
+    "--previous-receipt-sha256",
+    "9c549e7fa9afbfa1e03aeb6844cda9a3ccd985357650612d114abc1ac0eb677a",
+    "--previous-source-sha256",
+    "e4e0794c2fad47895a4c23af8b7a533465d4ceeeedb7e84cbd29c5ece4d8257b",
+    "--projection-out",
+    "{work}/infinity-small-original-projection-smith",
+    "--high-out",
+    "{work}/infinity-complete-normal345-high-field31",
+    "--previous-out",
+    "{work}/infinity-complete-eighth-after-high-probe",
+    "--checkpoint-dir",
+    "{work}/infinity-ninth-original-high-forcing-probe",
+    "--out",
+    "{work}/infinity-ninth-original-high-forcing-probe-receipt.json",
+    "--order",
+    "9",
+    "--remaining-seconds",
+    "90",
+    "--memory-mib",
+    "2048"
+  ],
+  "previousCompleteSourceSHA256": "e4e0794c2fad47895a4c23af8b7a533465d4ceeeedb7e84cbd29c5ece4d8257b",
+  "previousCompleteBinding": "a7e0fb67ccb7a92a8d98f8fcafd5442c64bb241fea5b59630e3644421f54b96e",
+  "previousCompleteManifestSHA256": "f669ac4f6db4954abed7ba2b3ffc3d85fdcbc73e31927975dc41b339ba7532f6",
+  "temporaryInputs": [
+    {
+      "root": "{work}/infinity-small-original-projection-smith/temporary",
+      "phase": "Q-smith-state",
+      "bytes": 12208895,
+      "sha256": "839af8f6f6ae87d75c2cfcd206323a0ceb6193dd49a398134fdb8448e693b5ae"
+    },
+    {
+      "root": "{work}/infinity-small-original-projection-smith/temporary",
+      "phase": "original-projection-coefficients",
+      "bytes": 267400,
+      "sha256": "94cffcf53fe22e7693e4c22bd67b237fe9d65933a50571891647c378a4b98034"
+    },
+    {
+      "root": "{work}/infinity-complete-normal345-high-field31/native-result",
+      "file": "complete-high-row-operations.bin",
+      "bytes": 17397186,
+      "sha256": "758ce33a0ca22e07fa15defa9fe99738df781880b48e43938ab58669bad7d71c",
+      "optionalWhen": "original rational high forcing exactly zero"
+    },
+    {
+      "root": "{work}/infinity-complete-eighth-after-high-probe",
+      "phase": "prepared-complete-low",
+      "bytes": 1957402,
+      "file": "prepared-complete-low-cea2fd78c43d28a63f0755c38c3d2ef1ceb4454e335ef330a9c9a35f59e9da54.json.gz",
+      "sha256": "cea2fd78c43d28a63f0755c38c3d2ef1ceb4454e335ef330a9c9a35f59e9da54",
+      "temporaryOnly": true
+    },
+    {
+      "root": "{work}/infinity-complete-eighth-after-high-probe",
+      "phase": "complete-eighth-cochains-verified",
+      "bytes": 1067051,
+      "file": "complete-eighth-cochains-verified-670b77067daff765b91ae4de5f7ba0f7cdfdf5be4593d1832768a021679c2950.json.gz",
+      "sha256": "670b77067daff765b91ae4de5f7ba0f7cdfdf5be4593d1832768a021679c2950",
+      "temporaryOnly": true
+    }
+  ],
+  "originalOrder": 9,
+  "completePreviousHeadCount": 15,
+  "projectedNextHeadCount": 14,
+  "newQuotientRepresentativeColumns": 1,
+  "completePriorIncomingColumns": 12,
+  "originalHighShape": [
+    5100,
+    1
+  ],
+  "requiredOriginalLowerProductCoordinates": 55692,
+  "mathematicalSeconds": 90,
+  "memoryMiB": 2048,
+  "suggestedOuterSeconds": 130,
+  "nativeCompilations": 0,
+  "receipt": "{work}/infinity-ninth-original-high-forcing-probe-receipt.json",
+  "completion": {
+    "status": "completed",
+    "outcome": "actual-original-next-high-forcing-inspected"
+  },
+  "noNinthRankPreclaimed": true,
+  "largeDataPolicy": "recomputable arrays temporary in the current job only",
+  "executionStatus": "frozen source; no local AST, compilation or mathematical execution",
+  "interface": {
+    "path": "notes/2026-11-15-r150-infinity-ninth-original-high-forcing-interface-789f.md",
+    "blob": "a6c2750c68b777adfd7f77236f65f3fd96a41d42",
+    "bytes": 5982,
+    "sha256": "edd11803582e8c980f4240b1e1cb6aae0e24345687c73ad69dbb0bc2cdd53e39"
+  }
+}
