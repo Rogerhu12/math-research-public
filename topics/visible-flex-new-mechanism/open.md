@@ -94,7 +94,7 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 [R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)现已从完整原CA m2/BN2、−Ψ、两P/B history与有序真尾推得 ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)。完整加速度及速度势逐state准确抵消，余ρ消全部真实primitive而无丢左尾；全局部C²多项式式保全部五速度槽。纯δ式回R370，h1d0混合γδ³=∫(7x²−1)r⁵/160−∫xvr⁴/16，偶母平移的二次项证明比R384 X/M多一真正函数方向。它是整个Q4的读出，尚非整个U/同g joint；Q2/静态等不能因该式被免费局部化。
 
-R384准确二维自然像/有限正锥，R385仅一个固定Λ的真实任意实值及紧集C1截面保持。接多个固定profile的实际联合：须共同有限正核、矩阵/frame/固定端口桥、全部非零基准、完整reverse/Klein和一个有限参数向量IFT。当前γ/δ真实速度两号也不等于实际成本逆元；不跳到actual3或E=(π,Q)与Λ共同可达。继续有理芽period与同规范joint时逐实际范围使用。
+R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。下一把真实wholeE与两Λ接口共同支付，不能仅从Λ杀响应R就忽略实际prototype/桥基准的商分量。
 
 ### R327/R330：把已付端口后的同规范联合门落实到实际列
 
@@ -149,4 +149,4 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 - **R383有限表保持，R387/R388阻断同芽全部连续首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)的P R4−B*R0为严格正倍D4，不除P且保全合法gauge；同种子连通C²首阶轨道恒f。下一不同端芽/第三结构，不把非圆当已逃逸；首阶恒定高阶才动及主题一般C²机制不在此结论内。
 
-- **R385已付/继续joint**：完整Q4脉冲已真实支付一个固定Λ的任意实值及紧集有限型C1截面，完整M/T/scalar/frame/位移闭合、ω下界与全部基准保真。不同profile的joint、原whole pure/self/其他读出保持和同一g未付；接完整非纯δ四次槽，不复活H旧非零或从R384二维span跳到实际二维。
+- **R385→R390实际joint2已付，继续wholeE联合**：两个起点固定自然Λ可在同一真实M/T0、scalar/frame/空间闭路径上任意指定，完整非零桥基准和Klein偏置均付；每紧集一个有限ε/C1截面。wholeE/其它读出/同一g及全部period仍欠，接原实际响应商的联合问题。

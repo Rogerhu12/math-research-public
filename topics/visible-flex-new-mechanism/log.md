@@ -354,3 +354,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:07:21 UTC｜R389原整包通量与零端germ iff落地
 
 [R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)，18336B/hashd8f50f2f77d53f6a999c1f8978e6fbd6340d846cfd5185090805646229dfd03c。真实有序mixed全函数、自然3+2、±ai³/(2τ)、R∩kerπ盲性与当前解析零端iff均完整；未计算当前实际ω值，不宣全U局部、actual wholeE/Λ joint或13行已解。根/peer核过，平台一处补原R225局部Lf″避免p0除法，作者确认同规范无因子。继续内部实际目标与joint；无研究执行。基底fe2d869861f3f7b31d95e7933a123989494f0aca。
+
+
+## 2026-11-15 22:08:43 UTC｜R390两个固定Λ的actual joint2落地
+
+[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)，16592B/hash863665fa80b38b56a255988cd9ca6c0b34e4e41e41e50ef174dfc5a9271b3f69。正核不是仅span：固定两profiles与全部状态后，四正脉冲真实桥/真reverse/全部基准/单有限ε二维求解/Klein偏置全保，精确R²可达/C1截面。root与literature独立完整纸审通过，无求积/符号/人工。H/open已区分actual2、函数像≥3和未付wholeE/同g；接R392实际响应E与Λ联合。数值resume43767357527仍待原输出。基底3198158aea6a78e32c7e4c62f45ce4b754ac2718。

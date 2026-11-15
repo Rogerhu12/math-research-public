@@ -254,3 +254,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R389｜有理端口的有序自然通量与全部零端germ
 
 [R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)（18336B；SHA256 `d8f50f2f77d53f6a999c1f8978e6fbd6340d846cfd5185090805646229dfd03c`）。完整pure3+1/2+2给全函数有序mixed分解，保右方全部真实尾；同一个Λ的单包与有序3+2精确给两actual period的±ai³/(2τ)整包通量。R∩kerπ全对这组门盲，不是任意π0 U；最右包必Λun0。R345同actual wholeQ0与R276/288当前解析端类下，全零端逆germ iff该通量组0。平台仿射值、内部Laurent/residue、真特解与13同规范仍欠。根全文/系数/边项审，mechanism独核全函数与因子；根指出平台不能除p后作者回读R225(3)补准确局部Lf″身份，无执行。
+
+
+## R390｜两个固定自然总通量的真实联合控制
+
+[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)（16592B；SHA256 `863665fa80b38b56a255988cd9ca6c0b34e4e41e41e50ef174dfc5a9271b3f69`）。固定两镜像紧profile/共同锚、三状态与端口，完整γ/δ四列有严格正核及二维像。四真实水平脉冲经M0有限桥、完整同号reverse、固定端口运输，全部非零基准保为统一O_C1(1)。同一有限ε、两个正幅四次变量的二维收缩/IFT给任意紧目标；Klein按(y−bK)/4准确闭空间位移。所得M/T/scalar/frame/位移闭合、ω下界、任意R²与紧集光滑截面均实际支付。未保wholeE/其它读出/13同规范/冻结g，不宣actual3。根全文与符号/正核/水平式/缩放/传递/Klein核，literature全文独立审通过；未执行研究。

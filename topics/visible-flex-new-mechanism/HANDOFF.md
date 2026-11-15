@@ -18,7 +18,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**旧数值完整记录保留、不重跑**：m10原same-y扩池失效及8193×159真J见[原记录](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)；扩池hold首26checks见[记录](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)；SOC预留首19checks/59bank与m7inexact见[记录](notes/soc-pair-reservation-first-actual-result-20261115.md)。
+旧数值失败、恢复漂移与已付开发收据完整保在[open](open.md)及当前[原实际记录](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)的来源链；不重跑。
 
 **数值唯一继续点**：[covered首实际](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)，run43762868037/job132961344492/source4f136530；η.2663015219132816→.2662701215525791/fineκ57.99998346840656。140绑定/4新组20过；原14门/盒/167/625过，.26欠。6模型4普通+2旧same-layout SOC全α1接受；9primary+2SOC=11，末1按no-unpaired未用。新covered proposal/使用0（合格4均newsoft0），m1增长/两次hold均旧规则；不归因新规则、不重播等事件。input4432/4358→首/末4432/4451(1/2)，8trial学习0；bank59→375/hash470bf8bb…，physical6ef6682e…，末B.00025/双streak0。1303memory重装+377真新cuts；total324.293553086s/active35.064484719s、初验234.362847179s与pre-active首J全记；RSS2247600KiB。
 
@@ -36,7 +36,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 [R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)从完整CA m2/BN2校正、−Ψ(u,n)、ZZ两history导数及两有序真尾，准确得到 ΛQ4[γ,δ]=−∫Q[γu′−(γx+δ)u″]⁴u‴/(32h⁸)，Q=1+(hx+d)²。两真尾令完整加速度与速度势逐state抵消，余ρ保所有左值、两次紧IBP消primitive；有全C²多项式呈示，无余项。h1d0混合γδ³读出=∫(7x²−1)r⁵/160−∫xvr⁴/16；偶母平移二次项7Mb²/160证明在R384 X/M外，完整函数像至少3，非actual3。R370纯δ4=∫(hx+d)r⁵/(80h⁷)准确回得；原真正U成员与H外独立保持。
 
-**实际控制已付的范围**：R384 h1纯δ族自然像恰span(X,M)二维、有限正锥0或aX+bM(a>0)，非actual2。R385纯δ快脉冲τ=ε^(3/2)，先固定有限桥补M0才用R109；原真reverse保Yb/第三反号第四同号，中心桥及完整Klein保全部非零基准。每紧目标一次有限ε给一个固定自然Λ的任意实值/C1截面，M/T/scalar/frame/位移闭合和ω下界真付。共同profile联合正核/桥与向量IFT仍须另证；一般新几何，不授同g/嵌入reach。
+**实际两自然通量joint已付R390**：[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)从起点固定两窄镜像profiles、共同锚/域、三状态S0/S±及端口。纯δ列A(1,−1)、纯γ列−B(1,−1)、两个d±D列，A/B>0，严格正核(1,3A/B,1,1)、后两列det−4ADm≠0。四真实水平脉冲τ=ε^(3/2)，矩阵O(√ε)；有限桥先M0、真reverse再T0，同端口运输保全部基准，真实向量cost=2c4ε^(−1/2)Σzi⁴vi+O_C1(1)。固定两正幅，另两四次幅在同一有限ε对整紧目标做二维收缩/IFT；最后原Klein用(y−bK)/4，保非零bK并闭全部位移。准确任意R²/C1截面、M/T/scalar/frame/空间闭合与ω下界；未保wholeE/其它Λ/同规范period或冻结g。R384函数像二维、R385实际一标量为旧子结论；R386函数像≥3仍不授actual3。
 
 **旧强/弱圆几何的范围**：R304/306先排rank-one，R311排固定包连续轨道；R325/R354再实际安装朝内弱hook与完整反射、受控ω桥，先有限profiles后he/Ω，x+ω>1。新seed/g从未继承旧wholeE/Morse/period。现在R388在该Gaussian芽/M0/TκH结构下进一步排所有同种子连通C²首阶轨道，见下。
 
