@@ -289,3 +289,7 @@ H9850B完整存notes/2026-11-15-handoff-before-shifted-Sobolev-and-whole-rootpie
 ## 2026-11-15 02:49:58 UTC 完整low-even97伴随与真Poisson边界差接口独推
 
 README在 efb3b6f4c89cf6dbe044d0ab38f422669ce786a4 未变。原H9918B逐字归档SHA256 88ffda682804e6902eef2cebd57096dfbce5c55d674bad0f2210db2f27bb22bb，压缩主H的旧Airy过程，原身份/失败/参数域均由归档保留。新L1–16稿SHA256 7a97adc27d884c507e44a79df4c7e45d5c9071ce1fbbfd820bbed733391880a6由root完整读取，核A.25、H_B1/H_C1及带signed m的分部积分，独立mean a与zC,0不相等也保留；tail已独核。E−E0的PSD上界只在输出侧，真G_R已成后才消费HY，不能反用证明G_R。此项仅解析接口，没有新数学计算、没有现成low输出数值。活跃wholepiece43669106351继续。
+
+## 2026-11-15 02:51:05 UTC 原moving实际反射子类的完整帽—尾桥独推
+
+README在 4236a5b6994a0aa0f530995e567fd6a52282719f 未变。新增R1–17 SHA256 b5f0b7819380660ea8a60f7743317313d57411a36e9bc4caaa61e1096499ac2c，root核原moving完整B.1–B.19、连续修补V.1–V.4、显式Z的Q.1–Q.3、G.17–G.22、R119实际119.7–10/C.29–31及真长图B.8–B.19。tail逐项核§5–7。A(JQ)=−A(Q)给实际奇偶子类A和全部同类导数精确0，原角点固定时a≡0，因此非解中心的aRφ项也确实为零而R仍保。Piola弱源Ft偶/Fθ奇、真实total mean和高度gauge不删；真b0分子奇/密度偶，其一般全方向公式保持。S的既有负阶/高阶完整帽—尾界仅限制不放大，因而适用于原F的实际反射存在性子类；不称为whole-body逆，不消去Γ返回相位、νSchur、非线性或最终几何。

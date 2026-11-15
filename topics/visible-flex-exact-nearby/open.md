@@ -56,13 +56,13 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 [Z闭mean](results/R119-supplement-new-closed-mean-compatibility-gauge-and-complete-fixed-CR-inverse.md)保物理平端高度、totalflux兼容La g=0和常高度唯一核；fixed-CR全部源与mean不能删。全4Z cap-long中的真B0是χmean((V−P)(D^-1/2−1))，不可冒作Darboux totalflux。waist曲率Bmean仍要与主体联立。
 
-[L物理帽尾](results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md)已在Z∈H^-3/2消独立CR，Cf<2^40、QZ<2^64 aBwB ε、TB<2^1200000/(aBwB)，全反馈<2^-32000000。原ac与repair物理η0δ0成立；下述S1–24已另付Fcov的负阶/高阶Hessian，原F相位和fullδ仍缺。
+[L物理帽尾](results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md)已在Z∈H^-3/2消独立CR，Cf<2^40、QZ<2^64 aBwB ε、TB<2^1200000/(aBwB)，全反馈<2^-32000000。原ac与repair物理η0δ0成立；下述S1–24已另付Fcov的负阶/高阶Hessian，[R反射接口](results/R133-supplement-exact-reflection-sector-and-original-moving-cap-tail-bridge.md)已证实际存在性子类的原F规范相位准确为零；一般all4Z及fullδ范围仍按各自原合同。
 
 [U完整1024角窗](results/R119-supplement-complete-1024-angular-Sobolev-network-and-physical-cap-Schur.md)重新付B*=2^65536、真实commutator与全lag，Tsharp=max(2^1048704J²δ^-9,2^1056768)、vsharp=2^-600000J^-4165δ^(1073/32)。同公共点从旧full inverse准确恢复新增remaining频带，mixed差<2^-4300000、全mean强source逆<2，物理η0δ0帽反馈<2^-31000000。
 
 [D强层衰减与物理平端C²](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)已证：w=δ^-64，remaining H1024→H9给δ939/32，actual mean向外因果Green与完整双PoissonF³保留；完整有序D.3源域的所有root状态W_-2H8<2^1600000G。齐次深尾按真实root/strict/positive三段支付物理二jet<2^131072J12δ^-32，连层δ54得δ22且保ρ/ε_s，故真实平端C²延拓成立。P1–31已支付完整有源particular及明确actual mixed源域；weak/BV原子仍只保原单侧迹，非紧参数/Γ列须真正入域。[K固定径向完整源](results/R119-supplement-fixed-radial-root-sources-and-complete-ordinary-C2-inverse.md)已另付原fixed-t普通源入口：保持径向的真实角规范、完整两行/两mean，零根particular只正向估计，接线反向仅用既有齐次核。原S2β控制S_t1026，给同一有源物理C²。继续实际metric/Γ弱端迹及非线性输出空间；不能从有限阶输出直接升analytic224。
 
-[G完整角规范与残差Hessian](results/R133-supplement-complete-normalized-angle-gauge-and-residual-Hessian.md)已证：全4Z Eh含真正weighted rank-one常数，原moving source符号J=[[0,K],[-1,0]]；A=〈dv/m−γu〉、Fcov=F−AQφ精确物理共轭。恢复原F的线性方程须保a′=DA[h]、aRφ体源及真端点a，非解中心不能删。固定η0δ0给定全部物理端口下新Z≤J旧Z、未知Hessianχ<1/128；真正long B0反馈仍单独付。[S1–24](results/R133-supplement-shifted-Sobolev-complete-gauge-Hessian-and-cap-tail-Schur.md)已付真B0与−3/2≤s≤1024残差共轭：通常物理M_s逆<2^262145、Cf_cov<2^400000，完整帽尾反馈<2^-31000000。继续全δ、原F有限phase联立、ν与最终holonomy；不转授原analytic224。
+[G完整角规范与残差Hessian](results/R133-supplement-complete-normalized-angle-gauge-and-residual-Hessian.md)已证：全4Z Eh含真正weighted rank-one常数，原moving source符号J=[[0,K],[-1,0]]；A=〈dv/m−γu〉、Fcov=F−AQφ精确物理共轭。恢复原F的线性方程须保a′=DA[h]、aRφ体源及真端点a，非解中心不能删。固定η0δ0给定全部物理端口下新Z≤J旧Z、未知Hessianχ<1/128；真正long B0反馈仍单独付。[S1–24](results/R133-supplement-shifted-Sobolev-complete-gauge-Hessian-and-cap-tail-Schur.md)已付真B0与−3/2≤s≤1024残差共轭：通常物理M_s逆<2^262145、Cf_cov<2^400000，完整帽尾反馈<2^-31000000。[R1–17](results/R133-supplement-exact-reflection-sector-and-original-moving-cap-tail-bridge.md)已在实际u奇/v偶子类证明A、DA及全部同类导数精确0，原F继承S同一δ0帽—尾界，真long b0也精确0；C0/通量/高度和非zero腰行均保。一般all4Z相位仍按G联立。继续fullδ、径向Γ返回相位、ν与最终holonomy，不转授原analytic224。
 
 ## 6. 真ν、参数Schur、非线性及最终闭合
 

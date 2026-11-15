@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 R1–17：实际反射子类的原 moving 帽—尾桥。** [证明](results/R133-supplement-exact-reflection-sector-and-original-moving-cap-tail-bridge.md)，SHA256 `b5f0b7819380660ea8a60f7743317313d57411a36e9bc4caaa61e1096499ac2c`。从完整原方程、真实连续中心/Z、径向参数及尾物理式证明反射不变；角规范A及同类导数恒零，真实b0同类恒零。固定η0δ0原F因此继承S的完整Cf<2^400000与反馈<2^-31000000；保C0/通量/高度、全非zero腰行。一般all4Z相位、径向Γ相位和主体闭合不转授。
+
 - **R133 L1–16：完整 low-even97 伴随与方向边界差。** [证明](notes/2026-11-15-R133-complete-low-even-adjoint-and-directional-boundary-defect.md)，SHA256 `7a97adc27d884c507e44a79df4c7e45d5c9071ce1fbbfd820bbed733391880a6`。准确恢复此前high投影消去的真实moving mean，保独立输入a及physical trial mean；后验矩阵在正确输出坐标给(E−E0)(E−E0)*≤c*²Werr，可消费已证真Poisson的signed方向trace。无新数值改善或循环逆证明。
 
 - **R119 K1–34：固定径向根源与原普通源物理C²逆。** [完整证明](results/R119-supplement-fixed-radial-root-sources-and-complete-ordinary-C2-inverse.md)，SHA256 `b22c900a3fbfd0417b590188e2dc5aa6dc7b599004d15a82c7a560d5b3ea0120`。仅同径向截面改变角坐标，准确保 total-flux mean 与高度 mean；根能量、实际两端仿射接线、所有浅前缀及深层权均已付。原 S2β→S_t1026<2^16384，继得完整普通源物理δ22 C²；不授解析输出、未核弱端迹或主课题闭合。
