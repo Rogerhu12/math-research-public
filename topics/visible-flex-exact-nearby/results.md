@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [H1：固定旧帽的完整97边界伴随一角导数界](results/R133-supplement-small-first-angular-adjoint-bound-for-fixed-known-M32-cap.md)：真实known复平移保完整B0/C0与residual Hessian，Kpair<16、comm≤4096；97个实际moving测试同时有伴随H1≤63072<2^16，无sqrt97。仅旧known解析fB；供sameδ有限边界行转移，不授rough全图comm或完整core逆。
+
 - [实际P：完整第一局部向量的regular-transport收紧](results/R133-supplement-actual-regular-transport-first-local-vector-reduction.md)：公开43709396175/1 child0/13门，17原pins/旧数学0；q1<.483791321412289，完整pair<1.772092107010686e16，其余20first+10mean逐字保。原根包络/dr/outer J全保，第一local仍主导，完整high inverse仍待。
 
 - [F：完整transport首矩阵的准确因子分解](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)：M=G U_-²与U_+M=G B_+U_-合并L13全部三项，非主导两矩阵对角准确相消；完整G0(MZ)不另付ZX，仍保n^-2真rank导数、q的vφ与全部mean。新完整g预算尚待实际公开消费者。

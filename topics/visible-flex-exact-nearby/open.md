@@ -67,6 +67,9 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 明确R:H(s−4/3)→Hs时，χJ=128CsΛJ^-1/3<1给正确graph域的
 Hs→H(s−1)右预条件逆；高窗可在已成低逆后bootstrap，不要求每窗另小。
 C0≤1/32只是cutoff97的充分目标，当前volume upper并非这个Cs。
+[H1旧帽的完整97伴随](results/R133-supplement-small-first-angular-adjoint-bound-for-fixed-known-M32-cap.md)
+已由known复平移和完整mean/Hessian给Kpair<16、comm≤4096，实际moving97测试H1≤63072<2^16；
+只用于旧known解析fB算子的有限边界行变化，不断言粗背景同阶composition差小。
 算术δ*与finite193固定δ0须真正转授；phase Fourier投影与原physical P96
 不对易，须完整finite border及其Schur，不能把phase-tail逆称physical HH。
 H16–17给保source/finite response的body与9/10 cut两输出矩阵B；
