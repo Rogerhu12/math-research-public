@@ -1,0 +1,181 @@
+{
+  "format": "r150-saturated-third-page-fixed-request-v1",
+  "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
+  "retained_third_source_count": 208,
+  "incoming_second_image_rank": 4,
+  "third_relevant_quotient_dimension": 21,
+  "target_labels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "integer_modulus": 887503681,
+  "original_target": "31^2*h0",
+  "shared_mathematical_seconds": 300,
+  "per_child_memory_mib": 512,
+  "per_compilation_seconds": 30,
+  "native_compilations": 4,
+  "local_taylor_center": 2,
+  "local_input_precision": 10,
+  "local_class_precision": 5,
+  "old_second_page_mathematics_recomputed": false,
+  "old_q1_q2_q3_mathematics_recomputed": false,
+  "characteristic_zero_identity_asserted": false,
+  "frozen_input_count": 26,
+  "artifact_input_count": 22,
+  "inputs_by_scope": {
+    "notes": 4,
+    "ninth": 2,
+    "t96": 4,
+    "all198": 3,
+    "seven": 1,
+    "old200": 1,
+    "second": 11
+  },
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "artifact_sources": [
+    {
+      "scope": "t96",
+      "run": 43597823809,
+      "id": 14114364261,
+      "name": "isp-r150-t96-graph-recovery-43597823809-1",
+      "bytes": 299422058,
+      "digest": "sha256:970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241"
+    },
+    {
+      "scope": "old200",
+      "run": 43605503242,
+      "id": 14118112895,
+      "name": "isp-r150-high-kernel-bockstein-recovery-43605503242-1",
+      "bytes": 160817149,
+      "digest": "sha256:c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b"
+    },
+    {
+      "scope": "all198",
+      "run": 43619888599,
+      "id": 14124017685,
+      "name": "isp-r150-all198-second-bockstein-recovery-43619888599-1",
+      "bytes": 117446956,
+      "digest": "sha256:ba81a8aaafc236b15e90f0998ee3c0122634b99dda9f36c88d8d6c3b578b8117"
+    },
+    {
+      "scope": "seven",
+      "run": 43630666145,
+      "id": 14127663630,
+      "name": "isp-r150-seven-saturation-recovery-43630666145-1",
+      "bytes": 50572502,
+      "digest": "sha256:9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4"
+    },
+    {
+      "scope": "ninth",
+      "run": 43638830039,
+      "id": 14130842468,
+      "name": "isp-r150-ninth-first-recovery-43638830039-1",
+      "bytes": 32846922,
+      "digest": "sha256:5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855"
+    },
+    {
+      "scope": "second",
+      "run": 43662590949,
+      "id": 14140872540,
+      "name": "isp-r150-saturated-second-page-recovery-43662590949-1",
+      "bytes": 1026794241,
+      "digest": "sha256:346e790996cae9e1eafc51d961a7213ed515a4deb9a426750c7f260d9c409a77"
+    }
+  ],
+  "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-frozen-manifest-789f.json",
+  "source_manifest_sha256": "a7b4f3911657e9ad34023938e1177265b6aeceb9b28add12a3e38c956fc02379",
+  "contract_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-contract-789f.json",
+  "contract_sha256": "b83fed83760597dc2bd2fcf3390640fb41f48a9dbca58a24778ed97c74c1b9ae",
+  "workflow_source_sha256": {
+    ".github/workflows/invariant-subspace-r150-saturated-third-page.yml": "9cdee86a46ee325849073922917b631e7adb6175f4d2c0cfc77e324a01511ba9",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py": "5b6627a01a5fdf9bd780ad4394ec779c94ea9f6d0428bd97d76b5884ceca0298",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py": "4c7c1e48ff7b3c3cde7bfd811a18176ebfe32e90750bf586b27535c6f6f31342"
+  },
+  "entry_python_files": [
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py"
+  ],
+  "execution_environment": {
+    "runner": "ubuntu-latest",
+    "python": "3.12",
+    "python_flint": "0.9.0",
+    "numpy": "2.2.6",
+    "native_compilations": 4
+  },
+  "scope": "Complete related root2 third image of the complete original S2 envelope. A negative dual excludes the corresponding original p2h0 target modulo p6 at every polynomial source degree and thus characteristic-zero h0 sources with coefficients in p^-2 Z_(31). A local positive still requires global original-source restoration; higher p-denominators and parameter denominators are not excluded.",
+  "local_entry_python_syntax_performed": true,
+  "new_mathematics_executed": false,
+  "continuation_required": "Continue every locally compatible target through global source restoration and all17 identities. If all nine are negative continue the characteristic-zero R150 problem; do not treat the finite modulo-p6 conclusion as R150 completion.",
+  "paid_target_line_readout": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-target-line-readout-789f.json",
+  "paid_target_line_readout_sha256": "bad8c9b2c51c204e014628f4aac22c4320d057756108bdf5aa302d2ebbda6432",
+  "account_concurrency_snapshot": {
+    "atUtc": "2026-11-15 01:42:18 UTC",
+    "ownedNonarchivedRepositories": 12,
+    "runningRuns": 3,
+    "activeJobs": 3,
+    "queuedJobs": 0,
+    "queryErrors": 0,
+    "records": [
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43664278200,
+        "jobs": [
+          {
+            "id": 132660093658,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "id": 132660129277,
+            "status": "in_progress",
+            "conclusion": null
+          }
+        ]
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43664236768,
+        "jobs": [
+          {
+            "id": 132659970694,
+            "status": "in_progress",
+            "conclusion": null
+          }
+        ]
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43663914259,
+        "jobs": [
+          {
+            "id": 132658998992,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "id": 132659028813,
+            "status": "in_progress",
+            "conclusion": null
+          }
+        ]
+      }
+    ]
+  },
+  "created_utc": "2026-11-15 01:43:07 UTC"
+}

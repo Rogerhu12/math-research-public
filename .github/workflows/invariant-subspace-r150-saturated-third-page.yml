@@ -1,0 +1,181 @@
+name: ISP R150 complete saturated third page and all original mod31six sources
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-saturated-third-page-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  saturated-third:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-target-line-readout-789f.json
+            /.github/workflows/invariant-subspace-r150-saturated-third-page.yml
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-integer-jets-789f.cpp
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-common-789f.hpp
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-normal-789f.cpp
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-original-transport-789f.cpp
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-vq-789f.cpp
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-ci-request-789f.json
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-contract-789f.json
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-frozen-manifest-789f.json
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-interface-789f.md
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-matrices-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-runner-789f.py
+            /topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt
+            /topics/invariant-subspace-problem/notes/r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map-receipt.json
+            /topics/invariant-subspace-problem/notes/r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map.bin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bind all208 third sources and the full original-source scope
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py --mode source
+      - name: Restore exact t96 sources from completed run 43597823809
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-third-page-t96-download
+      - name: Restore exact old200 sources from completed run 43605503242
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-high-kernel-bockstein-recovery-43605503242-1
+          run-id: 43605503242
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-third-page-old200-download
+      - name: Restore exact all198 sources from completed run 43619888599
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-third-page-all198-download
+      - name: Restore exact seven sources from completed run 43630666145
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-seven-saturation-recovery-43630666145-1
+          run-id: 43630666145
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-third-page-seven-download
+      - name: Restore exact ninth sources from completed run 43638830039
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-ninth-first-recovery-43638830039-1
+          run-id: 43638830039
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-third-page-ninth-download
+      - name: Restore exact second sources from completed run 43662590949
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-second-page-recovery-43662590949-1
+          run-id: 43662590949
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-saturated-third-page-second-download
+      - name: Require every exact original input and retain only the frozen selected files
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py --mode restore
+      - name: Install the exact finite-field dependency and record the compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0 numpy==2.2.6
+          python3 -m pip show python-flint numpy > "$ISP_SAT_THIRD_OUT/results/python-runtime-versions.txt"
+          g++ --version > "$ISP_SAT_THIRD_OUT/results/compiler-version.txt"
+      - name: Compute all208 genuine third sources with one shared300-second clock
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 20
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_SAT_THIRD_T96" \
+            --old200-recovery "$ISP_SAT_THIRD_OLD200" \
+            --all198-recovery "$ISP_SAT_THIRD_ALL198" \
+            --seven-recovery "$ISP_SAT_THIRD_SEVEN" \
+            --ninth-recovery "$ISP_SAT_THIRD_NINTH" \
+            --second-recovery "$ISP_SAT_THIRD_SECOND" \
+            --out "$ISP_SAT_THIRD_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_SAT_THIRD_OUT/results/actions-console.log"
+      - name: Record the actual third-page result and required continuation
+        if: always() && env.ISP_SAT_THIRD_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py --mode outcome
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_THIRD_OUT != ''
+        with:
+          name: isp-r150-saturated-third-page-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_SAT_THIRD_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_THIRD_OUT != ''
+        with:
+          name: isp-r150-saturated-third-page-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_SAT_THIRD_OUT }}/recovery
+      - name: Publish this actual result directory with real pull and immediate rebase retries
+        id: publication
+        if: always() && env.ISP_SAT_THIRD_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_SAT_THIRD_OUT/results" \
+            --recovery "$ISP_SAT_THIRD_OUT/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-saturated-third-page-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_THIRD_OUT != ''
+        with:
+          name: isp-r150-saturated-third-page-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_SAT_THIRD_OUT }}/results/publication
+      - name: Require complete third-page data and successful publication
+        if: always() && env.ISP_SAT_THIRD_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_SAT_THIRD_OUT'])/'results/actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Third-page continuation incomplete; all actual arrays and checkpoints retained')
+          pp=Path(os.environ['ISP_SAT_THIRD_OUT'])/'results/publication/publication-receipt.json'
+          publication=json.loads(pp.read_text()) if pp.exists() else {}
+          print(json.dumps(publication),flush=True)
+          if publication.get('status')!='pushed':
+              raise SystemExit('Actual mathematical outputs retained; real Git publication requires continuation')
+          PYCODE

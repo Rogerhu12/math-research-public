@@ -1,0 +1,141 @@
+{
+  "format": "r150-saturated-third-page-frozen-manifest-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "runner": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-runner-789f.py",
+  "contract": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-contract-789f.json",
+  "interface": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-interface-789f.md",
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-matrices-789f.py",
+      "blob": "bb8d533b577a48c4d4774a49f8c04edd83067c09",
+      "sha256": "4ac44ec9353bc5cf7514843bc48777b92f46d3e28c90bfb60685527f2f742a6d",
+      "bytes": 17315
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-runner-789f.py",
+      "blob": "5f9d5137e34e9fa888dede63feeb346681935156",
+      "sha256": "d8b435857406783c8b9fe27a6930176e2cc46be316c9918eea953a43a6b4fc26",
+      "bytes": 23910
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-interface-789f.md",
+      "blob": "b329c92154ff1b28522efb69fa55cfc26ed06c21",
+      "sha256": "0b530651e0ab4cfa88a39dfae16155b274cf91bb0e1975b41441204fb497bd5d",
+      "bytes": 9793
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-contract-789f.json",
+      "blob": "a5402eb17520712ce5a6dbd1f2f89e22328d7f4f",
+      "sha256": "b83fed83760597dc2bd2fcf3390640fb41f48a9dbca58a24778ed97c74c1b9ae",
+      "bytes": 14624
+    }
+  ],
+  "reusedDependencies": {
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-common-789f.hpp": "1dc5005fd19003c77cce9620dd7f723b910db1c5ea3540e49a13fb93f440594f",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-vq-789f.cpp": "429030fce16e9d15713855116a41b4362643e0cea703c6ffd46d55f593904376",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-original-transport-789f.cpp": "2badc86d75c91c2a7f9450b454f7408bdd9c36bbd2dc69a434258a2f345cf669",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-normal-789f.cpp": "23164f35a13016867d729c213807c20ef51f11a1e149606c067f0dd2e931caf1",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-integer-jets-789f.cpp": "ed435457ee1d911077970fc7d5131dc052b16e36aba768c8c54fa907d99e40ce",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.py": "55c0733578098726897cdf32eba1b017f22ed86f2a6f8c9b2a555b19457e7f7e",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b"
+  },
+  "inputCount": 26,
+  "artifactCount": 6,
+  "nativeModulus": 887503681,
+  "nativeCompilations": 4,
+  "compileSecondsEach": 30,
+  "sharedMathematicalSeconds": 300,
+  "perChildMemoryMiB": 512,
+  "mainReceipt": "saturated-third-page-pipeline-receipt.json",
+  "completedOutcomes": [
+    "complete-root2-third-obstruction",
+    "third-page-partial-local-compatible-global-continuation-required",
+    "third-page-all-local-compatible-global-continuation-required"
+  ],
+  "completionRequired": {
+    "status": "completed",
+    "originalS2EnvelopeComplete": true,
+    "oldSecondPageRecomputed": false,
+    "oldQ1Q2Q3Recomputed": false,
+    "allTrueOriginalThirdSourcesComputed": true,
+    "completeRelevantSaturatedSecondImageReused": true,
+    "completeRelevantSaturatedThirdImageComputed": true,
+    "completeOriginalS2SourceCoverageRetained": true,
+    "characteristicZeroIdentityAsserted": false,
+    "allCompatibleTargetsOriginalIdentityVerified": false,
+    "fullOriginalAllNineMod887503681IdentityVerified": false,
+    "finitePositiveSourceBudgetsVerified": false,
+    "finite_budget_verified": false
+  },
+  "outcomeSpecificScope": {
+    "complete-root2-third-obstruction": {
+      "allNineLocalFlags": false,
+      "globalAllOriginalSourceMod31SixObstructionVerified": true,
+      "globalAllOriginalSourceMod31SixDecisionComputed": true,
+      "originalMod31SixObstructedTargetLabels": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "third-page-partial-local-compatible-global-continuation-required": {
+      "localPositiveCountRange": [
+        1,
+        8
+      ],
+      "globalAllOriginalSourceMod31SixObstructionVerified": false,
+      "globalAllOriginalSourceMod31SixDecisionComputed": false,
+      "negativeLabelsExactlyComplementLocalPositiveLabels": true
+    },
+    "third-page-all-local-compatible-global-continuation-required": {
+      "allNineLocalFlags": true,
+      "globalAllOriginalSourceMod31SixObstructionVerified": false,
+      "globalAllOriginalSourceMod31SixDecisionComputed": false,
+      "originalMod31SixObstructedTargetLabels": []
+    }
+  },
+  "actualPaidSecond": {
+    "runId": 43662590949,
+    "jobId": 132654950774,
+    "dataCommit": "d6e445205653e2ab4296a47d2b6c94358b84a80e",
+    "recoveryArtifactId": 14140872540,
+    "recoveryArtifactBytes": 1026794241,
+    "recoveryArtifactSHA256": "346e790996cae9e1eafc51d961a7213ed515a4deb9a426750c7f260d9c409a77",
+    "localInputBindingSHA256": "ba82a176631a4534a75bc725855276a72155b10afbe8e0820ef0ae59c7224300",
+    "secondImageRank": 4,
+    "sourceKernelGeneratorCount": 208,
+    "sourceKernelMaximumDegree": 1,
+    "all204ActualIntegerSecondSourcesVerified": true,
+    "individualSecondPageCompatible": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "sourceKernelFormula": [
+      "I-T*C",
+      "T*(sI-J)"
+    ],
+    "partialRun43660606254IsNotUsedAsFinalSecondInput": true
+  },
+  "localASTParsePerformed": true,
+  "newNativeSources": false,
+  "newMathematicsExecuted": false,
+  "freezeScope": "Only exact contract and frozen manifest added after the actual complete second result. The two previously published Python mathematical sources and root interface are unchanged."
+}

@@ -1,0 +1,378 @@
+{
+  "format": "r150-complete-s2-saturated-third-page-input-contract-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "prime": 31,
+  "nativeModulus": 887503681,
+  "targetMultiplier": "31^2*h0",
+  "targetLabels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "inputs": {
+    "model": {
+      "scope": "notes",
+      "relative": "r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "bytes": 128145
+    },
+    "ninthIntegerModel": {
+      "scope": "ninth",
+      "relative": "inputs/original-integer-31squaredh0-mod887503681.txt",
+      "bytes": 38998,
+      "sha256": "5d418686b82665f7e988a0624440e70f44f0c6ba06c124b44fa85f7c17d04e7a"
+    },
+    "ninthIntegerModelReceipt": {
+      "scope": "ninth",
+      "relative": "inputs/original-integer-31squaredh0-mod887503681.txt.json",
+      "bytes": 691,
+      "sha256": "68938651aa48475dcc695bf9547ca3e7f6edc96061fb3352a9facbd9bd7d877f"
+    },
+    "graph": {
+      "scope": "t96",
+      "names": [
+        "reweighted-basis.bin"
+      ],
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+      "bytes": 101365853
+    },
+    "normalTrace": {
+      "scope": "t96",
+      "names": [
+        "nf-reduction.bin"
+      ],
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b",
+      "bytes": 101244784
+    },
+    "forward": {
+      "scope": "t96",
+      "names": [
+        "nf-forward.bin"
+      ],
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "bytes": 2378937
+    },
+    "backward": {
+      "scope": "t96",
+      "names": [
+        "nf-backward.bin"
+      ],
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "bytes": 3052119
+    },
+    "kernels": {
+      "scope": "all198",
+      "relative": "inputs/kernels.bin",
+      "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f",
+      "bytes": 2200126
+    },
+    "fourK2": {
+      "scope": "all198",
+      "relative": "inputs/fourK2.bin",
+      "sha256": "653867bccc606ec234c65eacfbb014fe14e055fcd50f2ea3f2506344d2aad8c7",
+      "bytes": 2236198
+    },
+    "selectedK2": {
+      "scope": "all198",
+      "relative": "selected-delta/selected-delta-primitive-source-mod29791.bin",
+      "sha256": "5ab8223d69912ea5b102f71ad3439b3860594188386fce9b82f937944c90a554",
+      "bytes": 4700740
+    },
+    "newOriginal": {
+      "scope": "seven",
+      "relative": "seven-and-current-original/seven-and-current-original-primitive-source-mod923521.bin",
+      "bytes": 17260416,
+      "sha256": "0258b6690b107a3cd45d9f6ace7ddb3003bb64ff1345ab0eab7ac4d650c49f34"
+    },
+    "oldK": {
+      "scope": "old200",
+      "names": [
+        "kernel-original-kernels.bin"
+      ],
+      "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88",
+      "bytes": 48275717
+    },
+    "state": {
+      "scope": "notes",
+      "relative": "2026-11-14-r150-torsion-state.bin-789f.gz",
+      "sha256": "5d86da2405f357c165d80d7fc2def5f419163b1e5d5a14bc9fa33fc05fafb60c",
+      "bytes": 145540
+    },
+    "jetMap": {
+      "scope": "notes",
+      "relative": "r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map.bin",
+      "sha256": "3f291285db5a6e97a5db977b3402dbdcc9f7b9e5fb8a48d31b0e219e89e71716",
+      "bytes": 181038
+    },
+    "jetMapReceipt": {
+      "scope": "notes",
+      "relative": "r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map-receipt.json",
+      "sha256": "5d3e09b26487355b32f20600764664def3dee0be34120e1c8202307eda5526df",
+      "bytes": 34774
+    },
+    "secondPreparedReceipt": {
+      "scope": "second",
+      "relative": "prepared-second/prepared-saturated-second-receipt.json",
+      "bytes": 18840,
+      "sha256": "f8ffc939972363e79d0027946c5268c32f869e90adc6fead115fbd29b0ea1ca4"
+    },
+    "secondPreparedSystem": {
+      "scope": "second",
+      "relative": "prepared-second/prepared-saturated-second.bin.gz",
+      "bytes": 42012,
+      "sha256": "691717421b0b7558f7ca053054c6c3f23bde5aa96fc93f36a744ad1171c4ba03"
+    },
+    "secondL3Source": {
+      "scope": "second",
+      "relative": "true-L3-twenty/true-L3-twenty-original6188-integer-jets.bin",
+      "bytes": 97616387,
+      "sha256": "6a1180f153e3305510554b54f35894955a2863459db665315f80f36e34beddb3"
+    },
+    "secondL3ProductReceipt": {
+      "scope": "second",
+      "relative": "true-L3-twenty/true-L3-twenty-integer-product.json",
+      "bytes": 2292,
+      "sha256": "9a2695faf1c706d6eb85879978a29eb68211672e9901b5c4c8a3acd67037920f"
+    },
+    "Gcache": {
+      "scope": "second",
+      "relative": "q1-twenty-vq/q1-twenty-vq-actual-G-root2.bin",
+      "bytes": 21118452,
+      "sha256": "bf23bec6ebc0e90910988c9acabe1bdacd760af8c49d84aea4990419590cb219"
+    },
+    "Vcache": {
+      "scope": "second",
+      "relative": "q1-twenty-vq/q1-twenty-vq-actual-V-root2.bin",
+      "bytes": 45377672,
+      "sha256": "f52714e4acf271965cf8cdeb272dbfa74d588f61104489c99eac90740fbfa35b"
+    },
+    "secondCompleteReceipt": {
+      "scope": "second",
+      "relative": "complete-second/complete-saturated-second-page-receipt.json",
+      "bytes": 22107,
+      "sha256": "50e8aa0cecafc697b1d52a43792e095be35c4dadc71eff07b861569591d092b7"
+    },
+    "secondCompleteSystem": {
+      "scope": "second",
+      "relative": "complete-second/complete-saturated-second.bin.gz",
+      "bytes": 72934,
+      "sha256": "f20487d290193e738a5df67dccdf0c6d11c1c0b9e224dbd310fdc1a0180acaf7"
+    },
+    "secondKernel": {
+      "scope": "second",
+      "relative": "complete-second/complete-next-source-kernel.json",
+      "bytes": 137217,
+      "sha256": "f136d6f396831091766bf10cf77421af7dbedf58ab9f87a417b00133e38dfe7d"
+    },
+    "secondL4Source": {
+      "scope": "second",
+      "relative": "all204-genuine-second-sources/all204-genuine-second-sources-original6188-integer-jets.bin",
+      "bytes": 75834648,
+      "sha256": "f85acb472648b3ebe898e8180cce6fdf8bc65acee81af719c94567f7164bee69"
+    },
+    "secondL4ProductReceipt": {
+      "scope": "second",
+      "relative": "all204-genuine-second-sources/all204-genuine-second-sources-integer-product.json",
+      "bytes": 2533,
+      "sha256": "ae311ccc363503b886a4b94a8b15cc622a171d02a9a98d43ec4c51f8419c734d"
+    }
+  },
+  "dependencies": {
+    "2026-11-15-r150-saturated-local-common-789f.hpp": "1dc5005fd19003c77cce9620dd7f723b910db1c5ea3540e49a13fb93f440594f",
+    "2026-11-15-r150-saturated-local-vq-789f.cpp": "429030fce16e9d15713855116a41b4362643e0cea703c6ffd46d55f593904376",
+    "2026-11-15-r150-saturated-local-original-transport-789f.cpp": "2badc86d75c91c2a7f9450b454f7408bdd9c36bbd2dc69a434258a2f345cf669",
+    "2026-11-15-r150-saturated-local-normal-789f.cpp": "23164f35a13016867d729c213807c20ef51f11a1e149606c067f0dd2e931caf1",
+    "2026-11-15-r150-saturated-integer-jets-789f.cpp": "ed435457ee1d911077970fc7d5131dc052b16e36aba768c8c54fa907d99e40ce",
+    "2026-11-15-r150-saturated-local-unit-solve-789f.py": "55c0733578098726897cdf32eba1b017f22ed86f2a6f8c9b2a555b19457e7f7e",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-ninth-first-common-789f.hpp": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531",
+    "2026-11-14-r150-ninth-first-matrices-789f.py": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a",
+    "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+    "2026-11-14-r150-local-jet-unit-schur-helper-789f.py": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b",
+    "2026-11-15-r150-saturated-third-page-matrices-789f.py": "4ac44ec9353bc5cf7514843bc48777b92f46d3e28c90bfb60685527f2f742a6d"
+  },
+  "inputCount": 26,
+  "artifactCount": 6,
+  "nativeCompilations": 4,
+  "compileSecondsEach": 30,
+  "sharedMathematicalSeconds": 300,
+  "perChildMemoryMiB": 512,
+  "mainReceipt": "saturated-third-page-pipeline-receipt.json",
+  "completedOutcomes": [
+    "complete-root2-third-obstruction",
+    "third-page-partial-local-compatible-global-continuation-required",
+    "third-page-all-local-compatible-global-continuation-required"
+  ],
+  "completionRequired": {
+    "status": "completed",
+    "originalS2EnvelopeComplete": true,
+    "oldSecondPageRecomputed": false,
+    "oldQ1Q2Q3Recomputed": false,
+    "allTrueOriginalThirdSourcesComputed": true,
+    "completeRelevantSaturatedSecondImageReused": true,
+    "completeRelevantSaturatedThirdImageComputed": true,
+    "completeOriginalS2SourceCoverageRetained": true,
+    "characteristicZeroIdentityAsserted": false,
+    "allCompatibleTargetsOriginalIdentityVerified": false,
+    "fullOriginalAllNineMod887503681IdentityVerified": false,
+    "finitePositiveSourceBudgetsVerified": false,
+    "finite_budget_verified": false
+  },
+  "outcomeSpecificScope": {
+    "complete-root2-third-obstruction": {
+      "allNineLocalFlags": false,
+      "globalAllOriginalSourceMod31SixObstructionVerified": true,
+      "globalAllOriginalSourceMod31SixDecisionComputed": true,
+      "originalMod31SixObstructedTargetLabels": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "third-page-partial-local-compatible-global-continuation-required": {
+      "localPositiveCountRange": [
+        1,
+        8
+      ],
+      "globalAllOriginalSourceMod31SixObstructionVerified": false,
+      "globalAllOriginalSourceMod31SixDecisionComputed": false,
+      "negativeLabelsExactlyComplementLocalPositiveLabels": true
+    },
+    "third-page-all-local-compatible-global-continuation-required": {
+      "allNineLocalFlags": true,
+      "globalAllOriginalSourceMod31SixObstructionVerified": false,
+      "globalAllOriginalSourceMod31SixDecisionComputed": false,
+      "originalMod31SixObstructedTargetLabels": []
+    }
+  },
+  "actualPaidSecond": {
+    "runId": 43662590949,
+    "jobId": 132654950774,
+    "dataCommit": "d6e445205653e2ab4296a47d2b6c94358b84a80e",
+    "recoveryArtifactId": 14140872540,
+    "recoveryArtifactBytes": 1026794241,
+    "recoveryArtifactSHA256": "346e790996cae9e1eafc51d961a7213ed515a4deb9a426750c7f260d9c409a77",
+    "localInputBindingSHA256": "ba82a176631a4534a75bc725855276a72155b10afbe8e0820ef0ae59c7224300",
+    "secondImageRank": 4,
+    "sourceKernelGeneratorCount": 208,
+    "sourceKernelMaximumDegree": 1,
+    "all204ActualIntegerSecondSourcesVerified": true,
+    "individualSecondPageCompatible": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "sourceKernelFormula": [
+      "I-T*C",
+      "T*(sI-J)"
+    ],
+    "partialRun43660606254IsNotUsedAsFinalSecondInput": true
+  },
+  "nativeSourceIdentity": {
+    "rawRows": 6188,
+    "outputComponents": 4367,
+    "originalEquations": 17,
+    "selectedOriginalSourceRows": 5528,
+    "prebasisRows": 3333,
+    "normalFormComponents": 1034,
+    "imageRows": 1021
+  },
+  "precisionChain": [
+    10,
+    5
+  ],
+  "savedSecondIntegerSourcePrecision": 15,
+  "savedSecondEffectivePrecision": 10,
+  "savedGAndVPrecision": 20,
+  "maximumSmithExponent": 5,
+  "actualThirdSourceDirections": 208,
+  "trueU9RelevantDimension": 7,
+  "incomingSecondRank": 4,
+  "root2PrimaryDimension": 32,
+  "thirdRelevantQuotientDimension": 21,
+  "localQuotientDimension": 143,
+  "allLocalFreeChecks": 104,
+  "globalTorsionDimension": 315,
+  "fullFirstImageBasis": {
+    "labels": [
+      "b8",
+      "D3_K2"
+    ],
+    "trueOriginalDivisorExponents": [
+      3,
+      3
+    ],
+    "D2TailCoordinatesInB8B9": [
+      10,
+      11
+    ],
+    "useP4Kappa9InsteadOfP3D2": false
+  },
+  "targetPrimaryHandling": {
+    "full315RawTargetsPreserved": true,
+    "root2ProjectorAppliedExplicitly": true,
+    "fullOutsideU9IdentityRequired": true,
+    "actualOutsideInU7AlreadyVerified": true,
+    "rawEqualsProjectionRequired": false
+  },
+  "sourceKernelHandling": {
+    "retainAll204Parents": true,
+    "retainAll208PolynomialGenerators": true,
+    "sourcePolynomialVariable": "s",
+    "integerTaylorVariable": "t=s-2",
+    "canonicalIntegerSConvertedModulo31SixBeforeAnyFieldReduction": true,
+    "knownTrueKernelDirectionsRetainedOrExplicitlyPaid": true
+  },
+  "bindingPolicy": {
+    "oldNativeHeader": "actual second G/V data-lineage binding",
+    "newContinuation": "all exact inputs plus source fingerprints",
+    "eachStage": "portable source/input/recipe/spec context, reject mismatched partial checkpoints",
+    "absolutePathsExcludedFromSemanticBinding": true
+  },
+  "nativeCheckpoints": "Actual packed VQ arrays; portable two-slot original H/RHS/DAG raw-beta arrays; complete integer product accumulators plus exact original row prefixes; local normal arrays/cochains; exact Schur unit blocks/backfill/full G verification.",
+  "compressionThresholdBytes": 1000000,
+  "gzipPartMaximumBytes": 4500000,
+  "gzipCompressionLevel": 1,
+  "outputScopeFields": [
+    "individualTargetCompatible",
+    "compatibleTargetLabels",
+    "originalMod31SixObstructedTargetLabels",
+    "completedOriginalTargetLabels",
+    "actualFinalSourceCostsBySlot"
+  ],
+  "outputs": {
+    "mainReceipt": "results/saturated-third-page-pipeline-receipt.json",
+    "certificateManifest": "results/certificate-manifest.json",
+    "textRecoveryManifest": "results/text-recovery-manifest.json",
+    "recoveryManifest": "results/recovery-manifest.json",
+    "recovery": "recovery/",
+    "stageCaches": "recovery/stage-cache/",
+    "stageContexts": "recovery/stage-context/"
+  },
+  "scope": "Complete related root2 third image of the complete original S2 envelope. A negative dual excludes the corresponding original p2h0 target modulo p6 at every polynomial source degree and thus characteristic-zero h0 sources with coefficients in p^-2 Z_(31). A local positive still requires global original-source restoration; higher p-denominators and parameter denominators are not excluded.",
+  "requiredContinuation": "Continue every locally compatible target through global source restoration and all17 identities. If all nine are negative continue the characteristic-zero R150 problem; do not treat the finite modulo-p6 conclusion as R150 completion.",
+  "localASTParsePerformed": true,
+  "newNativeSources": false,
+  "nativeAlreadyCompiledAndExecutedInActualSecondRun": true,
+  "newMathematicsExecuted": false,
+  "workflowTrigger": "workflow_dispatch by root after actual terminal git publication"
+}
