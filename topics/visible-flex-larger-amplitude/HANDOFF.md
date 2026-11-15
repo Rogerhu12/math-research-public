@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 12:02:14 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 9f69befb876f3a8efcb864150270ccddc7f339a1。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 12:03:25 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 077da04134d9ca7ce012edb408769493379825c6。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -24,7 +24,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。[新operator接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c已全文读并发布，完整225矩/226态/全部224列和名义缺陷读回保持，独立schema不冒旧dL字同值。140同job新接线继续，137不改；总cap含编译，独立science cap和父绝对期限均保。
 
-[122 R303](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)original488/refined187段均partial、全norm空；单方向不付全224列、已清局部失败不补造，入口8008.370981772s含fresh。原113全部policy责任见R288，不重跑昂贵已结清对照。
+[122 R303](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)原488/精化187段partial、全norm空；单方向不付全224列，已清局部不补造。原113责任R288不重跑。
 
 ## 公开Actions实时索引
 
@@ -46,7 +46,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)、[135 R301](results/R301-actual135-carried-radius-thirty-two-batches.md)均完整32批256接受；135 W仅到4.963213788986739、radius到9.5367431640625e−8，全final false。完整真p/r/FD/Arb/453圆及896字节身份在正文，不由整列FD或弱σ推无根。
 
-[R299](results/R299-same-normal-trace-full-merit-selection.md)证同一次完整normal轨迹全三merit择优，保12×20原工作及失败/外门，局部支配不保证未来链。138从与135相同的真134末p/.000390625起步，90+4pins/29闭包、8×20/32批/3600s批间/零接受stop保持，全部normal records已取等R307。R310新9方向complex response理论/helper50044473及接口待全文读，不预选新父、不冒弱方向更准。
+[R299](results/R299-same-normal-trace-full-merit-selection.md)证同一次完整normal轨迹全三merit择优，保12×20原工作及失败/外门，局部支配不保证未来链。138从与135相同的真134末p/.000390625起步，90+4pins/29闭包、8×20/32批/3600s批间/零接受stop保持，全部normal records已取等R307。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与helper50044473/完整接口已读发布：全九新方向重评、原度量下块G、有限QR及原真实外门；直接动作仍含内部消去，不冒精度改善，142据真实138另接。
 
 [130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)：run43702578242/source690ca0f924f069c6b8c2134ca83bc856918c2e89完整7批33trial/7warm接受/7freshFD；11:38:40规则round2真实变化exit77，第8完整返回未知。最近拒绝MID472/LEFT463，末还含selected MID471；linear可行不保证非线性域。全部native/fullDN false，末raw已清。root继续独立35查询：保原33再加MID472/LEFT463，新增capture463/node463→26端点/8791local，C4059/全outside/原门不变；从可恢复98另起，不伪续130末。完整来源、试探/后验/身份见正文。
 

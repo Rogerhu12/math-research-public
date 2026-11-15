@@ -130,3 +130,5 @@
 - [R309：actual130七批33查询与真实规则退出](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)：7warm/7freshFD、33trial/26拒，全部原最终flags false；11:38:40规则变化exit77，第八完整返回未知。完整域失败给MID472/LEFT463新支持责任，已选MID483负而线性可行保原门；全QP/FD/试探/原pair与摘要身份、重演边界均明示，下一独立35查询从真实98另起。
 
 - [R305新数值算子源码及完整final消费接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)：共享角点六偏导/独立225矩作用/真实名义factor两回代，完整226RK、224状态列、mean/port和原残差；新schema逐层保留至原boundary/338/audit，不冒旧运算图字同值或方向误差界。仅源/AST已核，140在原全局期限内实际执行；total cap含编译，science cap另明示，未改137。
+
+- [R310完整九方向响应与有限误差责任](results/R310-complete-nine-directional-response-basis-and-finite-error.md)（已证明，固定有限公式及明示局部条件）：可逆全9换基须保原度量G，完整12×9正阻尼目标、严格下降和半径单调性；旧J乘Q不修旧形成误差，直接complex-step只改变动作形成路径。真实曲线原点导数含目标动作不一致修正，内部传递/终端相消仍未界；独立helper50044473/全接口已发布，无实际新科学或新增门。

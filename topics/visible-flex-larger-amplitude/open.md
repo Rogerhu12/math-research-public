@@ -16,7 +16,7 @@
 
 [138实际入口](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)：run43710284131/source0be175792723e0663809146e3922e7052e906c09，compute132800138064/report132801971383全success。与135同真134末p/.000390625、90+4pins/29闭包、完整外8×20/内12×20/32批3600s批间及全部final/零接受stop保持；13.9MB原完整normal日志已CLI取，amplitude正在无科学重算地重建全32行及全部内试探/selector R307。
 
-R310准备完整9方向重新评价的complex response基底与误差责任，helper50044473不改138、不预选后继父、不增科学门；直接弱方向评价不自动消除内部传递/末端消去。读R307后再决定实际新入口。
+[R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与[helper及接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)现已全文读后发布：全9方向原complex-step重评、完整12×9增广QR及原相对参数度量下块G，全部方向/原试探门保留。旧J乘Q不恢复旧列丢失信息；直接动作仍有scalar/2×2链/终端相消误差，有限QR不冒准确正交。直接/基模型/旧轴动作分别保留，实际曲线原点导数含目标动作不一致修正。142必须据R307真实138父和原责任独立接线，不改138或新增一致性门。
 
 ## 2. 真正接受的非零完整112场
 

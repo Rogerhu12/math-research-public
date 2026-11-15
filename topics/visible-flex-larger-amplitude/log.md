@@ -424,3 +424,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R305共享算子及完整final消费者源码
 
 [完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c和bc0990全文读后发布；root核实际字节/Python AST，未编译或本地科学。完整literal Gram/226RK/224列/mean/port和原名义缺陷保留，新算子schema绑定同job真实128状态并传播至原boundary/338/audit；独立total/science cap与父绝对期限保持，未预言速度/误差界/native。137继续原入口，140接新源直接实际计算，不加fixture或审批门。
+
+## 2026-11-15 /root — R310完整九方向响应与原度量证明源码
+
+[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)及helper50044473/接口3dd44343全文读后发布；完整9新方向重评与12×9正阻尼QR、下块G和原实际d/S半径不变，旧JQ不恢复丢失信息，finite QR不冒准确正交。直接/新模型/旧轴动作及真实曲线原点导数责任明示，内部消去不由complex-step自动支付；仅AST/hash，无本地科学。138已全返回待R307逐原值登记，142据此独立接线，原8×20/12×20/FD/Arb/453圆及全部原门保持，不新增fixture。
