@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `69ebbe0ca47d351f519b045c034f7a3a3c16b337`，2026-11-15 16:19:41.528097 UTC，observer43734816216实际pull已最新，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `c818ac3f4c9b1a0ab3c9fc674fa2d6770548e18d`，2026-11-15 16:31:12.898955 UTC，run43735872441实际pull并核双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 16:02:23.127321 UTC实际pull/read `dd9aad351d1ca8847bca06cadd03a0bc0a3162ae`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
+私有2026-11-15 16:31:15.566113 UTC实际pull/read `dc99543da830ee95eadc86a5fd30af7b45a10b48`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。16:29再试本地环境仍unavailable，仅按根8小UTF8集成发布；API不冒实际pull，恢复即补实际pull/双规则检查。
 
@@ -34,11 +34,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 **R281解析端接口**：ψ乘偶多项式给最大F母包/全区正prefactor，p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。真Tf/尾和共轭端germ有限iff均保；平台/flux仍须实际支付。
 
-**R283–305旧输入的已付范围**：rank-one紧微包上canonical交项/真尾局域与一次指数层已付，不推广新rank-two。R293/294同正解析有限N圆付72面积/六能量/三矩/third/全二层history；R299真self/Γ清角Ξ，R300/305 free42/even40主控制仍真。但R304完整C²基线严格非零，该旧类不可再加F/频率/预算；各原式/端假设留原稿。
+**R283–305旧输入已付范围**：rank-one包canonical/真尾局域、R293/294有限N全角72面积/六能量/三矩/third/全二层、R299真self/Γ角Ξ、R300/305 free42/even40主控均真；R304完整C²基线严格非零，不再对被排类加F/频率/预算。全部范围与端假设在原稿，不能推广新rank-two。
 
 **R292–302平台与几何接口**：完整后缀迫T9/逐self零。R297真χ32/37/40给9单位；R298 χ30/P整q=3I/512>0，非C²。R302保四χ原型基准/共享整词真倒行；自由h跨整词、只保M0让τ漂移，再全pure/T9/单预固定self增强IFT与κe/ε安装、Morse/Klein闭合，可真指定有限目标。通常选择新seed/g；非全q函数/全母包兼容。倒行成本同号、λ+正，完整period/同w仍欠。
 
-**R303–314完整self**：移动左尾≤5/c10真端消给q(u_c)≤9，H6×p2十N链为pure/T核，可19观测联控。R307/309全[c9]=D9 I、[c8]=D8 I+D9(9I1−3J)，清一母全平移⇒普适次数≤7，非全Q。R310 KJ整q=J=∫u′u″u‴²，even母全移/幅/宽盲。R313𝔍×P/R/S/U/T五维N块=4链+常链，F=2∫u′²u‴²−∫u″4/6≥∫u″4/18，核span(J,F)与旧核I由反射/宽度分离，self像≥15、24真观测联控。
+**R303–313完整self**：q(u_c)≤9，十N链T/pure核给19真观测。R307/309全[c9]/[c8]含D9I、D8I+D9(9I1−3J)，一母全移清后普适≤7。R310整q=J=∫u′u″u‴²，even母全部移/幅/宽盲。R313五根为4链+常链，F=2∫u′²u‴²−∫u″4/6≥∫u″4/18；核J/F与旧I反射/宽度分离，self像≥15、24真query联控，非全Q。
 
 **R314完整self局部化**：pure零总V的有序不交缺陷恰μuᵀTμv；保原ℓ/J²尾及全部三角边界，两次Euler最高阶递降给q=N_T+∫L三jet，T0 iff完整局部。九矩承载全非局部商，L含原三阶平方/全部C²，Euler全部六jet三次字面系数忠实。**R316已提交公开Actions**：完整权零13维响应pure核+H共14新self；读48旧pure值，不重旧秩/查询/3974，先12新人工。member以fresh原差T/Euler零+重构判，非额外NF零；结果未出，不授全Q/全λ或同w。
 
@@ -49,11 +49,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 **R308/317/319弱hook通道**：内部f=A(x−β)^(5/2)、紧g给AfW0而W≠0；三左复幅真三矩、八完整copy消四ruling，再仅对全θ组合施period/range，完整三阶已付且第二hook非零。R317保全mixed新修正/真尾。R319更早面积I0=−(a+3b)/3∫u″²f″f‴排所有同向幂段，β任何号均不可；补包为全导0，真实copy正四次权。正反基本对分别在最终位置完成三阶，再两完整块等幅合并，两个无x相位系数准确互反，整θ这一I0真零。下一同一正反圆的I1/I2/一层/第四period与joint，不能当有限flex。
 
-**R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。R315已实际以有限N圆清整角E²三门与全部E8交换面积，保三矩/third；新B真尾/Green/corrected-self、初选Fnew、四交替包正锥全付。log有序history残数清零，local+chain残数、单E、有理及全joint仍欠。
+**R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。R315已实际以有限N圆清整角E²三门与全部E8交换面积，保三矩/third；新B真尾/Green/corrected-self、初选Fnew、四交替包正锥全付。R318从R56/R73全式得local+chain residue=κ²ℒ，真内尾τ=m2x/ξ=−m1x²/4/ν=−m2x²/4逐项cross0；self外矩C²、平移≤8，初选增加27系数，整个log全θ清。单E准确七幂h^−4…h²，最高行−κH(V,2)/24为新mixed能量；degree9第五交替包与前三6/7/8正锥同付。余六singleE、有理We商、period/joint仍欠。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 3af5aa1b6ef6002201284c63744e9c8c65031af5，双README blob同。API读取不冒实际pull。
+断连API复核main ad8b27b304c8a7ad3705d11e3be5fa9a17b1870c，双README blob同。API读取不冒实际pull。
