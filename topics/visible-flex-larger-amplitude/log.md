@@ -556,3 +556,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 150同job真owner与完整固定字段230列严格消费者
 
 [150完整接口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)22079B/78e8a196及runtime40195B/44f88868、bridge17751B/476c8f78、request32920B/f6171df8、wf25462B/10277015全文/差异核即发；原52pins+6，三严格数学源和共用e609不变。fresh91/全J/R273/owner重生后stage10/step0/field0完整230列320bits，19200总限/cert9000+1650，逐原JSON值和全部错误字节先读后清；原70/summaryfalse与科学未决分开，无新fixture门/数值通过预设。
+
+## 2026-11-15 14:02 UTC /root — request152 完整128末态链与清理前全读回
+
+[五件接口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)及相对140全部差异已核：原52pins全同+3=55，helper7c6b0268/bridge0ccbc824/request9b69f497/workflow7cc94e0b。完整fresh91/64J/R273/持久128后全576×224、112、混合338及独立audit，原19200s/各cap/数学门不变；临时源码仅共同shim显式::quoted。完整summary树/全部stage与column/所有原错误字节在清理前分段，原returncode/依赖保持，不冒编译或科学成功。150 run43721616091/job132834627616已进入科学；无本地科学与raw留库。
