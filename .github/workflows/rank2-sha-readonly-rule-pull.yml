@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Sparse public clone, actual pull, and README difference
         shell: bash
+        env:
+          RANK2_RULE_GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           RANK2_RULE_SYNC_DIR="$RUNNER_TEMP/rank2-sha-rule-sync"
@@ -55,7 +57,7 @@ jobs:
               print("RANK2_RULE_DIFF_END")
           api = "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/"
           def tree(sha, recursive=False):
-              req = urllib.request.Request(api + sha + ("?recursive=1" if recursive else ""), headers={"User-Agent": "rank2-readonly-rule-sync", "Accept": "application/vnd.github+json"})
+              req = urllib.request.Request(api + sha + ("?recursive=1" if recursive else ""), headers={"User-Agent": "rank2-readonly-rule-sync", "Accept": "application/vnd.github+json", "Authorization": "Bearer " + os.environ["RANK2_RULE_GITHUB_TOKEN"]})
               with urllib.request.urlopen(req, timeout=60) as response:
                   data = json.load(response)
               if data.get("truncated"):
