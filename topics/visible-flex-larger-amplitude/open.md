@@ -72,6 +72,8 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)已证同一原C的完整实角lift：φ′=βcos²φ−αsin²φ与两自治barrier全局存在；完整圈数/正log幅度/二幂换帧保原列。物理单位Robin由相关sin²+cos²范数下界取得，不要求单分量共同隔零；原QPi行须完整T/逆范数界。DN仍每一完整cut候选高度隔零后才可除。小段角增量的正内积界与完整指数余项给可实现核，但不保固定bits/预算/宽度改善；未访族/后缀/事务全保，不推177/179失败或native成功，也不加前门。
 
+[181完整执行接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)五件独立源已发：science93880B/250474d7、reader30300B/e020b7e9、request dc8647bb、wf9d2c9af8；原177全部17pin/三输入/C参数/far参数不变，新增两源完整19pin。41原函数及系数正文保；完整实角/正幅度/准确换帧与每候选相关非零范数直接实现R380，全部112/cut/事务/未访保，不假设177/179终态。C3600、head14400/25M/256bits/depth32/360job；norm1/4支付正dot小增量，完整Taylor矩阵误差仍作用全部初列，非新BVP门。原物理(u,k)单位Robin先逐候选归一再hull，DN仍高度隔零；没有实际nativeμ，不冒QPi/338/mean/非线性接受。namespace18900仅启动裁剪，四读回/本run marker/owner静止后才清；必要单90KB保112状态、原DN或单位行端点、全stack/suffix/原错误，超限不分包不清。exact唯一核实际R385，当前未预填新结果。
+
 ### 3B. 准确九族与完整公共u目标误差
 
 [R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)/[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)原准确core/两短Hermite窗/正coast/九C²控制和真实E/E_r/E_rr校准保；有效dyadic选择与有效精化前提不能由一次粗盒假填。旧134/149参数不自动属于新准确九族。

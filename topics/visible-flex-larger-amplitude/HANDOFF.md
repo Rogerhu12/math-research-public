@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:11:25 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 40c3bb3c22f46c4a2a8b1051f4a90d9cb5864281。
+规则同步记录：2026-11-15 19:15:23 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 8b3f830668d536a7e702d0236d3eeb74b9de378e。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -27,6 +27,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |177 R379 geometry|43747934170 /d7540200dcf5e10378471620915aa29a39389862|原全根族112两图Riccati/cut，17pins|
 |178 R377 amplitude|43749066353 /d9336e76fe9948d642e6e079bbdf26946b6d42d4|已结束：科学8接受/child0，reader70，完整末点未返；r2 R387修订中|
 |179 R382 geometry|43749949418 /ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
+|181 R385 exact|本次独立源码发布，实际run待官方metadata|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -46,9 +47,9 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 177按R375全闭段两图比较/存在、非零sign-log幅度和全cut，从原根族重算，不裁旧盒；完整初值乘Taylor余项/每候选合法商/事务/后缀保。C3600/linear14400/25M/256bits/depth32/360job；12bits绝对工作目标，namespace仅startup clip。单必要90KB，失败不清。
 
-[R377实际178](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)child0/diagnostic-completed、8次接受/八方向预算止，wrapper44.280902993s无墙钟/信号/异常；reader116585B>90KB/70，最终5678B/0f36d8de仅fallback。原末merit/十p/逐trial/120FD/final正文未返，970456B status已清，不能凭SHA造父。178r2由amplitude只改必要摘要/完整8方向与trial去重复、读回成功且owner静止才清；科学search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8及原门不变，须新真实运行，R387。R378代数条件/178完整接口保初父/尺度/45闭包/112+10源/全部终态，不预判新轨迹。
+[R377实际178](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)child0/8接受/44.280902993s，reader116585B>90KB/70；5678B fallback没有完整末merit/十p/逐trial/120FD/final，status已清，不能造父。178r2 R387仅改必要摘要去重复及成功读回+owner静止才清；search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8与全部原门不变，必须新实际运行。
 
-[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件已发，geometry核R382：新R323 profile→R375 physicalfar→R357取向单位行→完整453。sampler32166470/worker600950b4/client48764a4c/driver76c51a05/launcher ed141b63/reader1d055037；recipe d926cecf/request fa5cc945/wf14352ae2。原59/52/26闭包、五输入/准确构造/3active6freeze/全H/J/FD/112338/32×10/2e−9/audit不减；每候选保非恒幅度a(t)符号，先norm再hull。单必要90KB、六读回/marker/静止后才清，超限不分包。177非前门，C3600/采样14400+1800启动比例clip/BVP7200/360job及全部后缀保；初点R381反证仍有效。
+[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件/59pins已发；完整R375幅度管→逐候选R357单位行→原453，同owner当前H/J/FD/338112/32×10/2e−9/audit保。初点R381反证仍有效；单90KB必要、六读回/marker/静止后才清；C3600、采样14400+1800启动clip、BVP7200/360job及全部后缀见原接口。
 
 [R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已证165→169及179冻结初点是同一准确目标；原38速度反证可传，numeric416不能冒每叶唯一准确分支。准确coast仅p3/theta3/eta3直接作用，L不随九p变；中心a_s=−κ+2LC·theta3给必要带，未代入LC或预判全搜索无解。
 
@@ -56,7 +57,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)已证coast共同β的显式充分域界：同准确base余量r_*>0/LC≤Λ、κ<1，C0/C1完整三项给β≤min(1,r_*/(2Λ²C0),(1−κ)/(2ΛC1))，保a≥r_*/2和|as|≤(1+κ)/2；零系数分支、强C²/同长度/全部其它片责任及有限dyadic档与固定预算区别保。不新加门，不预填180结果。
 
-R380已证全局Prüfer实角lift/两比较/正log幅度/准确二幂换帧；物理Robin相关范数下界与原QPi完整变换分责，DN仍全cut高度隔零。181 R385由exact据此实现独立同C/全根族112/cut入口，不改177/179、不假设其失败，也不保证固定bits/宽度成功。
+[181完整入口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)五件已冻结发布，exact核R385；science250474d7/reader e020b7e9/request dc8647bb/wf9d2c9af8，原17pins保+2新。R380全实角lift/正log幅度/二幂换帧与完整Taylor正dot实现，原C3600/深族112/cut/transaction保；head14400/25M/256bits/depth32，norm1/4是算法步长，非BVP新门。逐候选物理单位Robin先归一后hull，DN独立高度隔零，未提供nativeμ不造QPi行；18900启动clip/360job、单90KB必要和四读回+静止清理全保。
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)已发12414B/a93f1ce6：新support1=[L0,L0+δA]/power4同三jet、degree10域/自然L/公共u、独立(3,10)层/七shape固定453/全冻450接点；旧178硬复制base/mesh/J，不能只换profile。此ξ不修coast，180优先其实际域债。R351/173/R363/R366/R370完整伴随/全站/G/H/span仍有效，不新增rank门。
 
