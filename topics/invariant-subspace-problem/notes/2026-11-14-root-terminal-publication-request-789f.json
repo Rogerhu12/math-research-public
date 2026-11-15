@@ -1,18 +1,24 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "c3bd159d6f5e2ba97fa8eeb751b6362833df31ad",
-  "createdUtc": "2026-11-15 21:38:19 UTC",
-  "message": "ISP: finite 31-local defect and eight original divided columns bound affine degree by 307",
+  "parentCommit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+  "createdUtc": "2026-11-15 21:40:29 UTC",
+  "message": "ISP: thirteen true divided columns bound affine degree302; queue exact minor upper certificates",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-thirteen-divided-columns-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-open-before-thirteen-divided-columns-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-thirteen-true-divided-columns-affine-degree302-and-residual-envelope144.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-three-minor-determinant-upper-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-three-minor-determinant-upper-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-continuation-session-request-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

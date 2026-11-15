@@ -613,3 +613,7 @@ run43756208221实际0.407487812秒核5完整SHA/3333+1007原索引及全部字�
 ## 2026-11-15 21:38:19 UTC — 有限31缺陷与八真除源仿射界307
 新原unit-leading D*使genericim缺陷C有限D31模，C/31C嵌入fieldtors315、rank_D C=degΔaff；完整β给t1=2，七/八全商真除源给至少8系数31 tors方向。
 Δaff≤307/全齐次≤373、R≤149/Mh*≤172−d/第三320−d，主费8531−d不变；315无单精度截止含义。逐pull核两README差异后实际push。
+
+## 2026-11-15 21:40:29 UTC — 十三真除源仿射界302与原三minor入队
+同p²h0目标的旧X modp5和新Y modp6给A(Y−X)/p5真整数列；旧全商T13独立及s谱付Δaff≤302/齐次≤368、R≤144与(s−1)(s−2)^5P+²P−²E6Q60²包络。
+原三minor源4ae559a6排180秒/2GiB/外240，复用paidcore，整Bareiss全除式/原来源/pivot双槽核；非恒定仅Ω上界。H/open完整归档，逐pull核两README后实际push。
