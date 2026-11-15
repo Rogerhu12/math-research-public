@@ -359,3 +359,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R742](results/R742-fixed-seventeen-operators-and-same-gate-primitive-limit.md)：已证明原固定r的真实u极限只需≤r+124层有限门；完整Y17模块由K(17²)固定，旧射线给两返回固定算子及阶整除17关系。quarter-safe BK第一式保全相位，使同p门与17投影相容；两原负一分量各自完整非零，G4/双返回/paired外部反号仍全保，不冒原中央非零。
+
+
+- [R743](results/R743-normalization-genus-and-actual-two-kernel-rank-improvement.md)：已证明原六固定纤维/低共振ODE迫正规化亏格h≤6γ+2a+14b−6；d<p的残余线系用primitive t+cY及完整复合次数得有限有效核界。临界两核上界13κ/32、17κ/48，使同预算全H3单位秩≥359κ/96+oκ；原奇点/J与M长度/同R全保，未断言指定forcing非零。
