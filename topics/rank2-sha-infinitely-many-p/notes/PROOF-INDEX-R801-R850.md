@@ -152,3 +152,6 @@
 
 
 - [R838](../results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：对原f的完整critical块，Coleman权二quotient及Hsu I²维二给A_p=E[t]/t^e、exact=mM；选真正良好惰性ℓ*使t=Tℓ*，不用e=2附加门。最高泛函a1(Tℓ*^(e−1)Pcrit Fν)准确读原Ξ02两项的cohom商，三端点AJ共用同一非零P_f,p,ℓ*/(1+barπ/π²)，全old反对称矩阵和X1/1632等尺度保。完整归一代表/所有有限系数权已付；Pcrit随p并可读无限尾，不能将低于p的未投影卷积当此读数。未证指定系数非零或R814 canonical比例。
+
+
+[共同Cartier插入与固定载体](2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：固定torsion笔记§10–12已付共同纯不可分曲率域上的完整普通迹零，以及原Cartier行的非中心插入−Tr(M_fνD^(p−1))|q。循环迹严格降至同一固定M²载体，四原点矩阵全为ανeO、charpoly为T^(M²−1)(T−αν)，det(I+ΣuνBν)=1+Σuναν；保全部真实初始值、p³极帽和CM frame。未将普通迹零当首行零，也未从固定载体推出非零。

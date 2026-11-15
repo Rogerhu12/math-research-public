@@ -498,6 +498,205 @@ $\alpha_{p+1}$ 不能同时为零，或把它们的原 native Schur
 曲率非零及原点之外的 (26)，都不能替代这一判定。
 原四完整中央及所有低卷积继续保留。
 
+## 10. 完整普通迹为零，所读首行仍需原非中心插入
+
+以下均在一个固定 theta 数据的好剩余域中进行；必要时先作完美
+常数域扩张，使全部 $E[M]$ 点和固定根单位有定义。令
+$$
+K=k(E_b),\qquad K_0=K^p,\qquad
+H=E[M],\qquad L=K^H,\qquad F=K_0^H=L^p.
+\tag{34}
+$$
+这里 $[K:K_0]=p$、$[K_0:F]=M^2$、$[K:F]=pM^2$。
+后一有限群扩张是可分的；$L/F$ 则是纯不可分的 $p$ 次扩张。
+所有四个原来源使用同一个 (34)，不随来源另选一个载体。
+
+先核一个不能省掉的迹区别。对 $m\mid M$、$p\nmid m$，令
+$$
+\mathscr D_m=D+mG_M.
+$$
+由 (14) 代 $m\mapsto-m$，
+$$
+\mathscr D_m^p=mH_M^p.
+\tag{35}
+$$
+$H_M\in L$，而其原点首项为
+$(3b/5)M^4z^5$；故 $DH_M\ne0$，从而 $H_M\notin F$。
+因此
+$$
+\mathcal E_m=F[T]/(T^p-mH_M^p)
+\tag{36}
+$$
+是纯不可分的 $p$ 次域。令 $T$ 作用为 $\mathscr D_m$，
+便把 $K$ 变成一个 $\mathcal E_m$ 向量空间，维数为 $M^2$。
+
+若一个 $F$-线性算子 $A$ 与 $\mathscr D_m$ 交换，
+则它是 $\mathcal E_m$-线性的，因而
+$$
+\boxed{
+\operatorname{Tr}_{K/F}(A)
+=\operatorname{Tr}_{\mathcal E_m/F}
+ \bigl(\operatorname{Tr}_{K/\mathcal E_m}(A)\bigr)=0.
+}
+\tag{37}
+$$
+最后的零来自纯不可分域迹，而不是来源或首系数为零。
+特别，(16) 的真实 $T_\tau$、(27) 的完整 $\widetilde A$、
+以及它们和 $\mathscr D_m$ 的任意有限多项式组合，都满足 (37)。
+
+所以仅取完整 connection/Heisenberg 交换代数中的普通矩阵迹，
+确实不会读出原 $\alpha_\nu$。下节给出的非中心插入是指定的，
+不能用 (37) 中的一个多项式算子替换它。
+
+## 11. 原 Cartier 行的准确矩阵迹
+
+因 $DZ_M=1$，$1,Z_M,\ldots,Z_M^{p-1}$ 是 $K/K_0$ 的基。
+对任意 $f\in K$，准确写成
+$$
+f=\sum_{i=0}^{p-1}a_i Z_M^i,\qquad a_i\in K_0,
+\qquad \pi_M(f)=a_{p-1}.
+\tag{38}
+$$
+Wilson 等式给
+$$
+D^{p-1}f=-a_{p-1}.
+$$
+而 $D^{p-1}$ 的矩阵只有从 $Z_M^{p-1}$ 到 $1$ 的一个
+非零元 $-1$。若 $\mathsf M_f$ 表示乘 $f$，逐列读迹得到
+$$
+\boxed{
+\pi_M(f)
+=-D^{p-1}f
+=-\operatorname{Tr}_{K/K_0}(\mathsf M_fD^{p-1}).
+}
+\tag{39}
+$$
+这保留了全部 $p$ 个 Frobenius 系数 $a_i$；没有把它们替换为
+特征零初始值。由于 $dZ_M=\omega_E$，Cartier 的 $p$-基公式正是
+$$
+\mathcal C(f\omega_E)=\pi_M(f)^{1/p}\omega_E.
+\tag{40}
+$$
+
+现取四个**已经固定的原输入**
+$$
+f_\nu=Z_M^{-2}\widehat A_{\nu,M},\qquad
+c_\nu=\pi_M(f_\nu)\in K_0.
+\tag{41}
+$$
+(23)、(24)、(39) 给
+$$
+c_\nu(O)=\overline{\alpha_\nu}.
+\tag{42}
+$$
+在每个非零 $\tau\in H$，(26) 则给
+$$
+\operatorname{ord}_\tau f_\nu\ge n_\nu p-2.
+$$
+在该点以微分参数展开，Cartier 只读指数
+$p-1+pr$。故
+$$
+\operatorname{ord}_\tau
+ \bigl(\mathcal C(f_\nu\omega_E)/\omega_E\bigr)
+ \ge n_\nu-1,
+\qquad
+\operatorname{ord}_\tau c_\nu\ge p(n_\nu-1)>0.
+\tag{43}
+$$
+因此 (42) 是这一固定 torsion 纤维上唯一可能非零的值。
+这一步使用真实 (26)，并未删除 CM13 的 frame。
+
+把 (39) 沿可分塔 $K_0/F$ 取迹，令 $q$ 为共同 quotient
+$E_b^{(p)}/H^{(p)}$ 的原点，得到四条共同读取：
+$$
+\boxed{
+\overline{\alpha_\nu}
+=
+-\left.
+\operatorname{Tr}_{K/F}
+   (\mathsf M_{f_\nu}D^{p-1})
+\right|_q.
+}
+\tag{44}
+$$
+确切地，右边等于
+$\sum_{\tau\in H}c_\nu(\tau)$，而 (42)、(43) 只留下原点项。
+所有被评价的迹函数在 $q$ 正则；这由它们在整个有限纤维上的
+局部正则性和有限 étale 下降得到。
+
+(44) 与 (37) 没有冲突：$D^{p-1}$ 是原 Cartier 插入，
+不是 $\mathscr D_m^{p-1}$。在完整 theta 群下，
+$$
+T_\tau D T_\tau^{-1}
+=D-mD\log g_\tau.
+\tag{45}
+$$
+所以把 $D^{p-1}$ 搬过 $T_\tau$ 时，必须保留 (45) 的全部
+非交换幂和 (8)–(10) 的原绝对倍率。将其换为一个 commuting
+connection 多项式会改变指定行。
+
+## 12. 固定 $M^2$ 载体和准确的原点特征多项式
+
+(44) 还可严格降到固定维数，但未知首行不会因此消失。
+
+令 $\iota:K_0\hookrightarrow K$。由 (38)、(39)，
+$$
+D^{p-1}=-\iota\pi_M.
+$$
+$\pi_M$ 满射，所以 $D^{p-1}$ 的 $F$-rank 恰为 $M^2$。
+有限维迹的循环恒等式给
+$$
+-\operatorname{Tr}_{K/F}
+   (\mathsf M_{f_\nu}D^{p-1})
+=
+\operatorname{Tr}_{K_0/F}(B_\nu),
+\quad
+B_\nu=\pi_M\mathsf M_{f_\nu}\iota.
+\tag{46}
+$$
+因 $\pi_M$ 为 $K_0$-线性，
+$$
+\boxed{B_\nu(a)=c_\nu a,\qquad a\in K_0.}
+\tag{47}
+$$
+故四条原行确实由同一个 $M^2$ 维有限 torsion 载体上的四个
+乘法矩阵读取。矩阵条目由 (20)、(38)、(41) 完全指定；
+$M^2$ 固定，不意味着这些条目或原 $p^3$ 极帽与 $p$ 无关。
+
+在 $q$ 附近取该有限 étale 代数的整模型。其几何原点纤维为
+$\prod_{\tau\in H}k$，(47) 在这个分解中逐项乘
+$c_\nu(\tau)$。由 (42)、(43)，
+$$
+\boxed{
+B_\nu(q)=\overline{\alpha_\nu}\,e_O,\qquad
+\operatorname{char}_{B_\nu(q)}(T)
+=T^{M^2-1}(T-\overline{\alpha_\nu}),
+}
+\tag{48}
+$$
+其中 $e_O$ 是原点因子的同一个秩一幂等元。
+四个来源并未拥有四个不同的非零 torsion 特征方向。
+
+对任意固定标量 $u_\nu$，还准确有
+$$
+\boxed{
+\det\!\left(I+\sum_\nu u_\nu B_\nu(q)\right)
+=1+\sum_\nu u_\nu\overline{\alpha_\nu}.
+}
+\tag{49}
+$$
+当 $M>1$ 时，$\det B_\nu(q)=0$ 与 $\alpha_\nu$ 是否为零无关；
+删去公共零特征方向后的单个特征值正是原未知
+$\overline{\alpha_\nu}$。因此一般表示非零、曲率非零或一个
+未经 (48) 专门化的有理范数非零，都不能替代原四行不能同时零。
+
+(44)–(49) 的实际作用是给出**共同而非猜测的载体与指定插入**。
+它们没有把原四 $f_\nu$ 改成自由测试，也没有把
+$\chi_2$ 响应放入原 $M$ 的像。若要推进原 native Schur，
+下一步仍必须利用 (41) 中同一个
+$\mathcal P_{2,M}$ 与四个完整 $R_\nu$ 的真实共同结构，
+而不是从这个固定载体本身另取一个中央零条件。
+
 ## 依赖
 
 - [R636](../results/R636-original-rational-cartier-return-for-two-critical-rows.md)：
