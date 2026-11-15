@@ -54,7 +54,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)保完整转置主元QR/最小S范数、径向clip/全Cauchy下降；准确代数和形成误差/真实非线性/固定20档分责，不增rank阈值或换权重。[178原接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)固定support1/k4、157尺度/半径1、8×20、120FD/全终门；6b55/3e5不改，R377/R387/R389各自事实与清理范围保。
 
-[183原完整接口](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)保七件/114+11/46闭包、6b55同owner16×8/固定S/全局2400s、整20拒即止、初末120FD/Arb/453和单90KB/条件清理。实际已由R390支付此有限运行范围；185独立全3校正须fresh完整3×10、原未加权W/严格slope/同cA，临时点不污染owner，有限校正失败/预算/原拒分责，不新增normal目标阈值门。
+[183原完整接口](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)七件/114+11/46闭包、原6b55/固定S/2400s/120FD/Arb/453/单90KB与条件清理保，实际R390已付其有限运行。[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)及独立helper3bec3b7b已发：每原α冻结p/F/W/Jd/slope/bound，完整3×10纠全3 affine偏离、同原S球投影；每实际点先原W/Armijo，只有被拒后偏离下降才动临时点。owner仅接原门通过点。C²/满行秩条件下误差二次校正与小α接受已证，固定3×20/20α不保证；数值导数/秩/实际成功未付，不新增normal阈值。185/R395接真183末点/一块8方向/2400s与全部原终消费者，实际未预填。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 

@@ -387,3 +387,6 @@
 
 
 - [R390. 实际183完整128方向与1133次全3回溯](results/R390-actual183-complete-ten-128-direction-continuation.md)：87144B必要齐，128接受/1005拒/1133域过，19步1/128后109步1/256，675.6139s非资源；W4.957836→4.923932而F3升.296505，全部非零终门仍false。真实末十词、16块/128行范围、120FD/域/453及清理责任齐，185完整全3路径校正接该实际父。
+
+
+- [R392. 完整三残差的十参数预测与法向校正](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)：在C²/完整3行满秩条件下，固定全3 affine目标的最小S范数校正给二次偏离估计、小α下投影不活跃且原Armijo可接受；数值有限3×20不保证。独立3bec3b7b helper直接复用原6b55方向，先原W接受、后临时偏离下降，owner不变量保；185实际R395另付。

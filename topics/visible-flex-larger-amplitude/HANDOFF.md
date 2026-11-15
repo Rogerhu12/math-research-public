@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:22:42 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 53e5d4f85a9a6c0ddc0335040bfb00546a5f09c6。
+规则同步记录：2026-11-15 20:23:47 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 159a739622e264ea8dd1f0a400c0cb7ab0fd40d5。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -48,7 +48,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)保m2 row17/piece3/depth32下屏障未正、58/110非资源、11pending+[18,14644)/111未起/0cut；必要读回/静止后清，不证准确极点，181续。
 
-[R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)真十词接183；[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)87144B/57437aa3必要齐：16×8全128接受、1133trial/1005原全3拒/域全过，19×1/128与109×1/256，675.6139s无资源partial；W4.957836→4.923932但第三unit .112950→.296505。120FD/160bit域/原453参考齐、全部非零终门false。完整128行范围/初末十词/S/原门保正文，必要/wait后清；geometry185只接真末点、全3 affine-target校正，实际R395；R392条件证明先独立发。
+[R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)真十词接183；[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)87144B/57437aa3必要齐：16×8全128接受、1133trial/1005原全3拒/域全过，19×1/128与109×1/256，675.6139s无资源partial；W4.957836→4.923932但第三unit .112950→.296505。120FD/160bit域/原453参考齐、全部非零终门false。完整128行范围/初末十词/S/原门保正文，必要/wait后清；geometry185只接真末点、全3 affine-target校正，实际R395；[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)条件证明与3bec3b7b helper已发；全3目标/同S球/owner不变量保，有限3×20不保证。
 
 [R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)：43749949418/ccf1b023，五必要块齐，report红色只传播compute/BVP未付。C1440/deep112齐，真实rFar首m2同row17/piece3/depth32下屏障未正，58paid/110work/.173086674s非资源；11栈+[18,10387)/111未起、0far/0unit，BVP未启动。六读回/静止后清；全部59pins/原453/FD/预算责任保原接口，184接全实角。
 
