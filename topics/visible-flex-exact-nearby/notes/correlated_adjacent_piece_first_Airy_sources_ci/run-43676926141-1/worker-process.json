@@ -1,0 +1,124 @@
+{
+  "kind": "actual_public_correlated_adjacent_piece_first_Airy_source_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43676926141",
+  "run_attempt": "1",
+  "workflow_commit": "f111751254dc2bc3af41d5a647dca8b5d9b391e7",
+  "worker_sha256": "602321a58faf7135750609832618a481bb548fb0101941498db29b6b7acf3c11",
+  "manifest_sha256": "57b978dbff16590d593686a8c7b98b8374aae532b500ec88cf975d3ab3821695",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T04:29:10.596519+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T04:29:10.896151+00:00",
+      "before": "0326a07674e4c99a33995d1901463180a98e2f96",
+      "after": "0326a07674e4c99a33995d1901463180a98e2f96",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T04:29:31.424645+00:00",
+      "before": "0326a07674e4c99a33995d1901463180a98e2f96",
+      "after": "0326a07674e4c99a33995d1901463180a98e2f96",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_same_order_matrix_conversions_recomputed": 0,
+  "original_complete_Airy_profiles_recomputed": 0,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_complete_angular_tail_factors_recomputed": 0,
+  "only_new_two_neighbor_correlated_difference_and_complete_source_consumption": true,
+  "new_true_root_high_order_point_evaluation_requested": false,
+  "strict_original_completed_coefficient_and_amplitude_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "auxiliary_background_substituted_for_actual_neighbors": false,
+  "mathematical_source_sha256": "fa344d170bca13c3faec22034aabbeab27da6116daef59f45c128c011998758d",
+  "original_artifact_receipts": [
+    {
+      "name": "whole_case_0",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-1000.json.gz",
+      "sha256": "929378ededdab70a761123597694433e569776194b51685e1ebb140b6f8eec78",
+      "bytes": 681376
+    },
+    {
+      "name": "whole_case_1",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-500.json.gz",
+      "sha256": "cb20faa53a70430b3ab488bb27d745bd7f30d9d819e186aa1a50c3a7cc090144",
+      "bytes": 1298608
+    },
+    {
+      "name": "whole_case_2",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-200.json.gz",
+      "sha256": "3b1a4c7db0daf8d2bdba82aa9e91e1e4460d3350ab9499d398cbe9665f876b74",
+      "bytes": 2970353
+    },
+    {
+      "name": "whole_case_3",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-100.json.gz",
+      "sha256": "cc56cef7ebebcce0c2327bfc3983df847ae7ce091398bd5ef706ebcddee14dc3",
+      "bytes": 3792857
+    },
+    {
+      "name": "whole_case_4",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-3-200.json.gz",
+      "sha256": "dca4f94130935f6861104e43087444b218de5a984f7cadecd542662cffdbb69c",
+      "bytes": 4664799
+    },
+    {
+      "name": "whole_case_5",
+      "run_id": "43669106351",
+      "path": "whole/consumers/cases/radius-1-50.json.gz",
+      "sha256": "602789829d5afc1d6a61ec7edfa3af4862b933ade6e769a6bbbb6eca4a89aa83",
+      "bytes": 5596452
+    }
+  ],
+  "accepted_scalar_coercion_prefix": {
+    "run_id": "43675967042",
+    "run_attempt": "1",
+    "native_sha256": "b46953d23b021359d1f98a55e820a28d2cfbce5fe2f7b93e3841d47fe0fe6d35",
+    "process_sha256": "da9445d1a11f4d956a949b36fbfb45a7a417f0465c66208a09e141170b79e573",
+    "publication_sha256": "e1944e1f94564ba0aa4c2fb3ad5bdaab5506f9c6c8484c97e31732eee3c24017",
+    "source_sha256": "f553b1506dde1b1d80119fb77b084a43ee19e08e17f32f7139a4a1dddf53a739",
+    "algebra_sha256": "1860872f56baf809517693473bb43cb3e897c2c082c5b2e6b7b38cfeaa59eb53",
+    "input_manifest_sha256": "76cf792e1e223e4b45487f90c9a44dd64fcaf32e46c0f1a0a46f442eb4faa18a",
+    "runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "complete_original_stage_count": 28,
+    "original_stage_headers_and_payloads_unchanged": true,
+    "old_scalar_failure_preserved": {
+      "type": "AttributeError",
+      "message": "'int' object has no attribute 'upper'"
+    },
+    "original_mathematical_stages_recomputed": 0
+  },
+  "matching_prefixes_requiring_original_artifact": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-correlated-adjacent-piece-first-Airy-sources-CI-inputs.json",
+    "--manifest-sha",
+    "57b978dbff16590d593686a8c7b98b8374aae532b500ec88cf975d3ab3821695",
+    "--out-dir",
+    "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-output/consumers"
+  ],
+  "complete_original_inputs_verified": 279,
+  "actual_scientific_checkout_commit": "0326a07674e4c99a33995d1901463180a98e2f96",
+  "mathematical_wall_seconds": 19.30911970000001
+}
