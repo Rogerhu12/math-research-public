@@ -84,3 +84,6 @@
 
 - [R679同十二步过滤的完整负一返回](2026-11-15-r679-twelve-step-negative-one-return.md)：原q♯首βκ³模态经P12乘κ³³单位，J8首κ⁹乘数值72及两完整尾50/77均保。n>N、2n>vI时精确v(P12Δ)=3n−2N+33+vI；同一S过滤已回JS，T全浅/外部仍准确补其负值，两个实际观察尚未相认。
 
+
+- [R684：原除点轨道比、确定相位与完整规范统一高度](../results/R684-original-division-orbit-phase-and-uniform-height.md)：同原CM除点多项式给C_T=ψα(T)^d/∏Hψα(T_h)∈K0(E[p])，R681系数准确C_T²。原Tg的p(p²−1)次方=ε_TC_T，ε_T∈μp由至u^d原jet唯一选定，正确根不变；单值次数≤2p(p²−1)²。固定倍点/挠点高度给h(Tg)≤2C_E+log2+logν/(ν−1)统一界，完整首共振余数高度O_m(p²)，不预支其非零或j0传播。
+
