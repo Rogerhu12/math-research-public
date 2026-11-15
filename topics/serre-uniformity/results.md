@@ -451,3 +451,5 @@
 - **R823（已证明，在原M2,1≠0下；充分大全p由R729）**：[每个非零原primitive L-Hom在原c1不分歧](results/R823-original-primitive-Hom-CM-nonramification.md)。有理c1/s=a−1使λ(Tv)=ρσλ(v)，评价核在原E-rank1 Hom中只能0/全体；实际isogeny的Hom拉回基和原M2/16非零排全体。保c_h/β常数/c0与真正整Hom；R729已有common m1仅复用，不新增数值阈值、p单位、深度4结论或height外积精确阶。SHA 383cfc2184297dc5f485d8255db11a650b0e4aac703fa89c18da36b18b40db7e。
 
 - **R820实际完整成功**：[原有限cusp代数和两图完整理想](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)，run43721747750/source7890fde1，36.411901553秒。两图真实rank20/colength20/292步/5380非monic系数，d271=20其余0；全部关系/准确非零20minor/两图运输通过。600ZIP/598manifest/590stage/289原输入和冻结verify全IO；原C可直接消费，不重算大导子像。20链另给原Z实际生成F20，未给一般极理想/eta/高度。SHA 7a9293bdb2f0fe345ba3a482702264054bde747aa75a6dec6d33f345398e3ce8。
+
+- **R824（已证明）**：[原极点模权5/6/7自由生成与有限纤维认证](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)。真实g127/degH272/degE1206给dimM6=300/M7=572，Koszul给生成数r、300−2r、r−28，共272/权和1604。原Laurent完整129/142/156条件认证包含，V7真实1778纤维minor认证满秩，sheaf全长1604−398=1206迫完整，不等MA/MB或normal换基。原r与候选仍待；R781旧至142不重算，只有权7真需要才追加13尾。SHA 3a32e69f5ff3fb74ad7b262357e6b9d00da5e1f4348f65b1cdc0705d6fef7be1。

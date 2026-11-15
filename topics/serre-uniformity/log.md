@@ -133,3 +133,7 @@
 ### 2026-11-15 22:06（Asia/Taipei）｜serre-public-astra-20261115
 - R820原实际两图理想登记：run43721747750/source7890fde1，36.411901553秒，rank20/colength20/各292步/5380非monic，真实d271=20；20链纸推Z生成F20。结果 7a9293bd。
 - 原600ZIP/598manifest/590stage/289输入全IO＋冻结verify过，ZIPd09c6d70/artifact14164872449至Nov16 13:58:47UTC；机器raw不入Git。C直接接R814，H逐字归档压缩，R787/R809/R815仍运行，主目标OPEN。
+
+### 2026-11-15 22:08（Asia/Taipei）｜serre-public-astra-20261115
+- R824 root全文核Koszul/准确RR300与572/各次Hilbert等维自由性，原Laurent完整pole界与246³κ式、纤维V7 quotient及两图逐列t^a运输均过。proof 3a32e69f；权和1604给实际包含+满秩后的全长1206，未预填r/生成元。
+- R781已成R0..142与原H³第五块保直接复用；正只读R787旧minor决定是否实际r28可省权7，不改正在运行core。R820完整实际结果已推c4dcefc12，主目标OPEN。
