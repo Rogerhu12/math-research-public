@@ -258,3 +258,5 @@
 - [R695：原CM共同核心、真实词像格与A/Z双门](results/R695-original-cm-word-domains-and-a-z-carries.md)：固定奇覆盖上全CM fibre逐支与四轴三态及A两层核心交换，外单位s=ζbarα/α保全部216真实共轭词域及三原算术行；A端十二次Δ和浅双H门全保。原A²W/WA²两域在非零角域交叠而返回深k−1/k−3，完整参考差消未知JH′，未删任何补域或将不同来源相认。
 
 - [R696：原绝对根的共同p²域与线性高度迹](results/R696-original-absolute-roots-p2-field-and-linear-height-trace.md)：所有a_T的p根同在F2并共享次数≤p的W/F，F2全次数及唯一p位付清；规范b=−Tg^d/a给原全H迹与全G传播。固定倍点循环付h(w)≤常数，非零实际边界v≤O(p/logp)，不添j0传播/高Q/无穷非零。
+
+- [R698：保旧17²类的A三十四层返回与完整CM算术词](results/R698-adjusted-cm-and-thirty-four-layer-arithmetic-words.md)：固定[68] A/Q覆盖上旧gπ²奇部分阶17，whole A34准确为耦合二挠核；adjusted CM13/19与之逐项交换。保所有角型的固定来源在同一原A/Y/Z真词上返回S/new/参考，原Π0不穿A深，H双门/12次差及W/V补域完整保留。
