@@ -16,7 +16,7 @@
 
 **R792** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)及工程冻结，仅pending待R787。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d/wrappercdac2e93be2082ee9a9401db44c944689a6d853d541b0819a4d1408c84134b3e。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根；21次Q分解唯一奇因子+三次gcd。先原CM值/首jet，四值全零才补高jet。只真β_C/vβ，不选原A有限核前像。
 
-**R803** [证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)/[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。run43702905620/source2a3f5be764ecd335e7980557800d15959574bc8e，10:12UTC起in_progress；core1233536f/wrapperb8cedc8f/request1e04be73。原M6维694、42项/1680Q行，四补行为E4M2[0/73]/E6/eta12；U0与56旧张量不重算，五mixed共一694Q块/最多84右端/full1680。781原输入实际IO全过、最小31.8MB；统一重构界与硬中断断点全审。尚无实际minor/新坐标。
+**R803** [证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)/[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。run43702905620/source2a3f5be764ecd335e7980557800d15959574bc8e，10:47:57UTC已success、待完整产物IO；core1233536f/wrapperb8cedc8f/request1e04be73。原M6维694、42项/1680Q行，四补行为E4M2[0/73]/E6/eta12；U0与56旧张量不重算，五mixed共一694Q块/最多84右端/full1680。781原输入实际IO全过、最小31.8MB；统一重构界与硬中断断点全审。尚无实际minor/新坐标。
 
 **R801长尾已完整认证**：[结果](results/R801-certified-original-power6-to8-long-tails.md)。run43701282817/source92961ce5，796.738575秒；V6到141/V7到175/V8到195，完整30781输出/30773stage、1.05GB ZIP、10477原bundle成员及冻结verify逻辑全核。cert1fbcd66f，artifact14156204348至Nov16 10:06UTC。实际全部power2..5也到195；七八铅笔V3至136/149缺口已关闭，直接复用。无新函数/极除子/高度。
 
@@ -29,7 +29,7 @@
 **R804原五map复用与真点**：[整数循环/八节点证明](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)、[点接口](notes/R804-original-CM-point-consumer-interface.md)。五a(T)、C/C逆全整数，仅这五元素；原degree1485/1521/1602/1674/1728、N≤196，保T⁷=ζ²/全Gal。点coreecd9fc2a/wrapper5126b836/request087bbd4e已推0a75ac360，只有pending待R792；四组25文件契约，旧三组18项真IO全核。按实际点坐标分O/碰撞/二挠，核原Hom字与vβ；不选A有限核前像。全局反对角两图/支撑saturation接口已证，未实际执行。
 
 **R805原整环/极除子**：[证明](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)，proofb48d9f8d/methoddf706176。两锚秩690−degG，自由S模度数1/144/127，两正规图272整基；primitive必须真实Krylov，平面幂基非整闭替代。M6以θ∈H−2E清极，5残余核+3右端/full55项。E_g=B+3D_g，B=20cusps+P0、P1不分歧；逐重数trace radical，最大D569完整ideal作V3两flip，padding≤297P。G=u/v保全标量，ηprincipal mathcalG³、三同源mathcalG⁹R。
-最小core730a7d8f/wrapper0eddbd19/request4b2c6331：run43705580592/source9f960b8e0b2fa825ab1391e86db4e1383ffdd700已success，job132785817999 compute/verify均过；artifact14158193403，55,714,523B/cea9ac5d，到Nov16 10:45:54UTC。**完整输出IO尚待公开审计，未登记真实n/minor**。原1272文件/34.9MB输入已核；仅缺积、铅笔/补基/690 S行，无primitive/极理想/η。R806 primitive与R807 M6清极契约/工程继续准备，旧alias和完成断点直接复用。
+最小core730a7d8f/wrapper0eddbd19/request4b2c6331：run43705580592/source9f960b8e0b2fa825ab1391e86db4e1383ffdd700已success，job132785817999 compute/verify均过；artifact14158193403，55,714,523B/cea9ac5d，到Nov16 10:45:54UTC。**完整输出IO公开审核已激活，未登记真实n/minor**；脚本`R805_public_success_io_audit.py` SHA5ae35d0c，逐全产物/1272原输入验哈希及冻结verify，并真实部分clone/pull和两README差异记录。原1272文件/34.9MB输入已核；仅缺积、铅笔/补基/690 S行，无primitive/极理想/η。R806 primitive与R807 M6清极契约/工程继续准备，旧alias和完成断点直接复用。
 
 R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号备用m≤8/N≤202仅真选时补V8 q196..201。R793/R798 V3/V6 span/colon/flip和原主函数保持；真实η、对称代表二挠比较、c0刚性化及高度仍缺。
 

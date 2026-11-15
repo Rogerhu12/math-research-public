@@ -619,3 +619,8 @@
 - R808完整新证明登记：root回读R727全g整矩阵系数，独立逐式核原轨道格Gram radical商、Frob-Hermitian、Sym简单性与原split规范；原Tζ平均像、period加号/covariant减号、γ^(p−1)和链中心r!均保全。SHAc24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
 - 只关闭原有限商/period/split与Hasse链的准确识别；实际sigma原z/t系数仍须完整Kraw混合及同h源配对，不冒称primitive单位。无有限扫描或本地新数学。
 - 终端约10:50UTC再次unavailable，按根§8仅小文本集成；R804工程已推0a75ac360。R805真实success但完整输出IO尚待公开审计，最近真实pull仍10:46:02UTC/read9f960；两README经API只读比较未变，公共实际pull审计准备中。H逐字归档压缩，R787/R803继续，R806/R807接续，主目标OPEN。
+
+### 2026-11-15 19:03（Asia/Taipei）｜serre-public-astra-20261115
+- R808已推dc4e7fe；R805 run43705580592与R803 run43702905620均success，尚未用未读的实际minor代结论。
+- 终端仍失联，按根§8通过小文本集成激活R805完整纯IO审核：逐输出及1272原输入SHA、原冻结verify、真实部分clone/pull和两README diff；下一步读实际摘要推进R806/R807。
+- 新增本课题公共workflow `.github/workflows/serre-R805-success-io-audit.yml`，仅读contents/actions并保留一日临时续算摘要；无数学重算、无raw Git/Release。
