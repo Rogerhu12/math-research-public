@@ -1,0 +1,268 @@
+{
+  "kind": "saved_positive_collar_components_public_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15 15:35:10 UTC",
+  "source_sha256": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
+  "expected_scientific_gate_count": 16,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_interval": [
+      "17/20",
+      "19/20"
+    ],
+    "exact_cut": "9/10",
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "original_parameter_half_width": "1/1000000000",
+    "selected_delta_half_width": "1/10000000000",
+    "original_complete_rows": 4650,
+    "original_native_bytes": 6223338,
+    "original_native_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "original_parts": 4,
+    "centre_pair_A0_repair": "0.000000000000000003861",
+    "centre_pair_angle_A0_repair": "0.00000000000000001970",
+    "centre_even_mean_repair": "0.000000000000000000005842",
+    "canonical_response_pair_A0": "19",
+    "canonical_response_pair_angle_A0": "83",
+    "rho_candidates": [
+      "1/10000",
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "high_projection_labels": [
+      96,
+      288
+    ],
+    "physical_frequency_factor": 4,
+    "candidate_count": 12,
+    "energy_tests_per_candidate": [
+      "tau_below_one",
+      "t_below_one"
+    ],
+    "actual_mean_sign_is_a_separate_candidate_prerequisite": true,
+    "triangular_cutoff_derivative_upper": "20",
+    "ordinary_radial_measure": "dr",
+    "angular_measure": "normalized moving circle",
+    "same_real_continuous_two_sided_H1_true_solution_required": true,
+    "actual_ordinary_residual_is_zero": true,
+    "full_low_mean_retained": true,
+    "source_integrals_recomputed": false,
+    "new_unknown_cut_body_or_receiver_norm_supplied": false,
+    "old_target_Fourier_trial_convolution_residual_repair_mean_flow_Green_calls": 0
+  },
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity_CI.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md",
+    "old_producer": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+    "centre_repair": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+    "D_receipt": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "canonical_direction": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "E_energy": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md",
+    "PE_projection": "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+    "SB_selected": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "original_parts_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json"
+  },
+  "current_only_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity_CI.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part000.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part001.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part002.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part003.bin.gz"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity_CI.py": "02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md": "58a13cda928c26a29333016d74d8b9b9a17ebc40e9898e2b44993340997f3326",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md": "8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md": "4b74cc1d45b530081b3edd4816a94a0973b0c7cfc6f7d255c83c91e80445a1ac",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md": "e94ed0d73b6299970482073efbd7bdd3302e323956b1dbe3c7bbb9f48895e058",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json": "32b430a27a20726f095098902afdb93e656ea746eb81bce09a559e6f65787fd3",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part000.bin.gz": "a61bcdd91f82fd7cb5a4a7597a5f562b71dfa7cc1852a5c5c9d412683bc3c698",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part001.bin.gz": "0ed24c0e1cf024518c4d403e94bb78dd1b9b6ca0c36310aea44409379f0a64bf",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part002.bin.gz": "0b185958e5b885fbdeadb23c7c22b33f580d176a6233d8dfb6be05dd1a574331",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part003.bin.gz": "ce2ffa4bbed3544cf4155ed08580f4b9b11fe568d5816f0c961eeaa7efccdfb0"
+  },
+  "file_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py",
+      "bytes": 28113,
+      "sha256": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity_CI.py",
+      "bytes": 33759,
+      "sha256": "02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md",
+      "bytes": 12126,
+      "sha256": "58a13cda928c26a29333016d74d8b9b9a17ebc40e9898e2b44993340997f3326",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+      "bytes": 21756,
+      "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+      "bytes": 11484,
+      "sha256": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+      "bytes": 40659,
+      "sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+      "bytes": 8753,
+      "sha256": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md",
+      "bytes": 13671,
+      "sha256": "8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+      "bytes": 7638,
+      "sha256": "4b74cc1d45b530081b3edd4816a94a0973b0c7cfc6f7d255c83c91e80445a1ac",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md",
+      "bytes": 8839,
+      "sha256": "e94ed0d73b6299970482073efbd7bdd3302e323956b1dbe3c7bbb9f48895e058",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json",
+      "bytes": 2244,
+      "sha256": "32b430a27a20726f095098902afdb93e656ea746eb81bce09a559e6f65787fd3",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part000.bin.gz",
+      "bytes": 1950613,
+      "sha256": "a61bcdd91f82fd7cb5a4a7597a5f562b71dfa7cc1852a5c5c9d412683bc3c698",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part001.bin.gz",
+      "bytes": 1959762,
+      "sha256": "0ed24c0e1cf024518c4d403e94bb78dd1b9b6ca0c36310aea44409379f0a64bf",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part002.bin.gz",
+      "bytes": 1978863,
+      "sha256": "0b185958e5b885fbdeadb23c7c22b33f580d176a6233d8dfb6be05dd1a574331",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part003.bin.gz",
+      "bytes": 220953,
+      "sha256": "ce2ffa4bbed3544cf4155ed08580f4b9b11fe568d5816f0c961eeaa7efccdfb0",
+      "source": "exact_old_history_temporary"
+    }
+  ],
+  "complete_small_input_count": 11,
+  "complete_small_input_bytes": 189259,
+  "original_native": {
+    "kind": "complete_current_moving_positive_body_coefficients_v1",
+    "bytes": 6223338,
+    "sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "rows": 4650,
+    "restored_only_in_temporary_storage": true,
+    "mathematics_recomputed": false
+  },
+  "old_D_success": {
+    "run_id": 43713242980,
+    "attempt": 1,
+    "child_returncode": 0,
+    "gates": 12,
+    "execution_sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+    "whole7721_rows_recomputed_or_restored": false
+  },
+  "execution": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320,
+    "compute_minutes": 20,
+    "only_public_Actions_math": true,
+    "new_data_artifacts": false,
+    "new_Release_uploads": false,
+    "complete_small_prepublication_payload_limit": 59000,
+    "prepublication_status_limit": 1000,
+    "complete_small_conclusion_limit": 60000,
+    "pre_math_complete_conclusion_capacity_reserve_bytes": 120000,
+    "existing_success_reuse_required": true
+  },
+  "scope": {
+    "new_rho_cases": 6,
+    "new_frequency_candidates": 12,
+    "energy_tests_per_candidate": 2,
+    "actual_mean_prerequisite_separate": true,
+    "exact_whole_collar": [
+      "17/20",
+      "19/20"
+    ],
+    "genuine_cut": "9/10",
+    "saved_full_fields_include_physical_alpha": true,
+    "saved_full_S_mean_and_actual_moving_mean_retained": true,
+    "centre_and_canonical_direction_repairs_distinguished": true,
+    "high_rank_mean_output_only_after_exact_projection": true,
+    "all_low_mean_source_and_cutoff_columns_retained": true,
+    "old_NR_WC_MA_source_integrals_recomputed": false,
+    "old_target_Fourier_trial_convolution_residual_repair_mean_flow_Green_calls": 0,
+    "active_Green_edited": false,
+    "narrow_MA_domain_extended": false,
+    "unknown_cut_body_or_receiver_norm_supplied": false,
+    "actual_low_inner_gamma_entry_proved": false,
+    "core_existence_or_global_matching_proved": false,
+    "original_residual_source_rows_restored": false
+  }
+}

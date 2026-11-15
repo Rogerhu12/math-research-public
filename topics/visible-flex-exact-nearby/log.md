@@ -117,3 +117,7 @@ Final9fc2e2c565738b1a6d0fc5962703e01f43b483bf/20730B/ae01c213b63ae618e4657b59666
 同fixedη0、ν0+δ全|δ|≤1e−8，原3071 native23a7554a/8499033B只读。repair+19d/83d、compact Kδ/Gδ、T′与w′/w″、qδ/q0全径导费用逐项保；原group C−<4.386425547仅读旧定理，新Jq和2×2 chronological products才是新数学。原H1四态流、group积分/exp与target零重算。SP31全非负因子覆盖所有source插时，普通源真实dr/L2→L1带sqrt长度，impulse无长度；N输入不重复strict逆/正normalizer，waist与反向保全部n_g上下/q上下。RJ只接此operator自己的完整volume贡献，root/jump/正七ports/finiteborder/KAM/GH仍未闭。
 
 本轮同时回读旧B原e561b822/15703B/f5f980a全篇，确认fullδ P37与stable1/25/B13在旧B中已完成，不另发重复转移证明。新的SP数值消费者编写中；只读README核83b80cdc8ff62010f4230c5cb60cf7a8af5cbb44不变。
+
+### 2026-11-15 15:40:43 UTC — LC 新局部组件四件部署
+
+根逐字读完整 SCI28113B、完整manifest15785B、worker33759B对RW已成版差异和flow3829B；phase独核LC1–21与case_row/high_constants，newton独核restore_original/checked_inputs/saved_row_components及原21756B producer。冻结SHA依次02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea、02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb、3a172b9e41587c50bd8f3112b3ef98b0c33a736a75b1204e2d627ef82767766c、1cdec3b7f400fc0e03859a53f41344f18e336cc0c9cdcf8c8b5fb333b925fe6c。16pins=11小输入189259B+4旧binary parts及manifest，原6223338B/4650行只在runner临时恢复SHA ea174511，禁旧target数学。静态delimiter/全部hash/receipt唯一与bytes核通过；AST和16结构门/12候选实际τ,t及mean前置门只由新公开Actions给出。flow push自动启动，不重复dispatch；真实pull/双README差异/120KB预留/完整预Git/成功复用继承。此提交只部署，不报科学pass。最近README只读ed85b1e8053b78b2ab4f35e505539e4a8bd02880双blob未变。

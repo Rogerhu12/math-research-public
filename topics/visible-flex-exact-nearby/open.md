@@ -145,7 +145,7 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 
 [DB degree32准确分带](results/R133-supplement-degree32-reference-band-cancellation-and-finite-receivers.md)65357a91给新的条件式：H96主要线性输入仅33..96、H288仅225..288，fullmean/ΔA/Δd/χ′和两侧interface费仍保；selected高投影与base相同，直接消费MA7的2^377903，不需MA8完整base2^377904。DB19保完整cL/两高输出。active Green未保存局部F/J、无receiver hook，旧input-side Gram不能给新shell；至多whole范数乘有界投影。此篇无新数值，左/右ordinary body、局部receiver和同态低门继续待付。
 [SB selected源与32模拆分](results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md)e94ed0d7把同一degree32主算子直接作用selected zδ，精确known ΔA/Δd与未知差均另付，保NR/WC完整 fδ 小源；无需给selected shell添加DB22的粗δPZ body triangle。J≥96只准确消known rank输出，全mean仍保；SB17径向diagonal给较尖mix需另付actual N0/N1。root全文/newton SB13–15/phase SB4–12及17–18独核，无新数值、未声称新receiver/γ低门成立。
-[LC原行组件与高频强制估计](results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md)58a13cda仅读4650完整字段，逐分量P保mean/nonmean/Smean/repair；原D小receipt给同窗ratio。真实平方恒等先检τ=L/(a n)<1，再检t=cp#AH/n<1，成功才授吸收后的cp/cr及halftrace；完整source、selected两低shell、χ′与mean未删。6rho×2J=12候选仍待公开实际门，独立窄MA和未知body/cut域不自动成立。
+[LC原行组件与高频强制估计](results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md)58a13cda仅读4650完整字段，逐分量P保mean/nonmean/Smean/repair；原D小receipt给同窗ratio。真实平方恒等先检τ=L/(a n)<1，再检t=cp#AH/n<1，成功才授吸收后的cp/cr及halftrace；完整source、selected两低shell、χ′与mean未删。6rho×2J=12候选四件SCI02fc50c4/worker02bc473c/manifest3a172b9e/flow1cdec3b7已部署，16pins/16结构门待公开实际；独立窄MA和未知body/cut域不自动成立。
 
 ## 7. 单一frame、同对象几何及最终族
 
