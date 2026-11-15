@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。远端检查2026-11-15 11:14:21 UTC/`3118252fb5b7e72fb108594970b339fe65f7c262`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。远端检查2026-11-15 11:18:14 UTC/`fa35c182eb4e6f4e17894fec7fbae748086e079d`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有最后实际pull2026-11-15 10:17:36/read `1fd7800079cfee8a43ff6ec4a187f6f9124abc86`。11:13:43 API/read `fba7100f73f20172d8753a438c25abf560acbe22`根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行本会话进行中；该API检查非实际pull，环境恢复立即补。
 
@@ -60,7 +60,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R246完整八平台接口已付**：真实E_j全尾和、D_j扣当前comp；De=D³C/C0≠0。8F+8E在11维模单射；八E插值/三积分及前三F构造唯一P，其余五F+八D给13独立iff关系，e-flux另验。本模完整period核0，不能冒全R0障碍。
 
-**R247完整响应结构已付**：B=2[X,Y]及56 Jacobi给232呈示，旧228下界使余核≤4、R71维164..168；W36归R87。全R_p0=(R71∩kerπ)+B(E,spanχ)，不可漏首项；E=V4⊕V2、W71=2V6⊕V4⊕3V2，hook七串56形式输入不授实际rank/固定圆不变。下一[八χ设计](notes/third-diagonal-eight-lifts-design-20261115.md)已根全文审：新源075b106b、lane third_diagonal_eight_lifts，18旧输入各一次恢复+八新原差fresh对角；19来源/30研究args。公开首跑43707570035/28217340已启动，新增人工/actual待读全输出，不重151/152/3974/旧P1。后继完整O像/全pure核仍欠。
+**R247/R254完整响应与第三核已付**：B=2[X,Y]给232呈示、旧下界228，R71维164..168；W36归R87。43707570035/28217340的八γ/完整χ原差全部fresh Δ零，29,457B/79f3fd82；0.27905秒/RSS30.0039MiB，18必要参考全pivot及R179真语法给dimΔW18、Z7110/Z18，Z71≅V6⊕V2。全R_p0=(R71∩kerπ)+B(E,spanχ)仍保两项；64新定义非rank、无新第四响应。下一余V2具体式/完整hook及O像，不重八目标或旧151/152/3974。全文见R254。
 
 ## 6. 保留边界
 

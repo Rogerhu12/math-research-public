@@ -80,7 +80,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)给本11维模完整八平台接口：8F+8E单射，原余1维必在另一e平台露出；八E差插值、C(D)^−1 I³R和前三F给唯一P，其余五F+八D为13独立iff关系，额外e-flux另验。本模不能继续任调，也不把这些关系冒全R0障碍。
 
-[R247](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)完整B=2[X,Y]的Jacobi给232呈示，旧下界228使余核≤4，并非fullperiod仅四障碍。全R_p0=(R71∩kerπ)+B(E,spanχ)保两项；hook七串56形式pure0输入不授实际rank/固定圆不变。[八χ最小消费者](notes/third-diagonal-eight-lifts-design-20261115.md)已全文审，源075b106b：只恢复旧18必要对角参考，八个新γ在原28完整交换子求坐标，原有颜色χ再以fresh map证Δχ0。公开lane third_diagonal_eight_lifts首跑先新增八人工再actual，19来源/30args；尚未声称passed/成员。随后接整个pure核和R225全部平台/flux/内部Laurent/平端O像，同w ruling仍欠，不重151/152/3974或旧P1。
+[R247](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)给232呈示/旧下界228。[R254实际](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)43707570035/28217340现付八个准确γ与完整χ，所有fresh Δχ0；必要18参考全pivot经R179真规范单射给dimΔW18、Z7110/Z18，Z71≅V6⊕V2。0.27905秒/RSS30.0039MiB、19来源和全部坐标/hash已全消费。全R_p0=(R71∩kerπ)+B(E,spanχ)不可漏首项，64响应只是定义、实际零新响应。**下一具体化余V2/一般K_f hook完整响应，随后R225所有平台/flux/内部Laurent/平端O像与同w ruling。** 不再重八目标、18输入或旧151/152/3974/P1。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
