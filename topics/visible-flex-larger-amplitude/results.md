@@ -54,3 +54,5 @@
 - [九冻结450 v2显式H(s)父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)：5e95afdb/92cfb070分别绑定00e4或0433真实producer及完整来源/H回执，原两有限标量路径/450求解数学保持；无实际父、参数或run，回执不冒缓存/接受。
 
 - [request129：actual127第8真末九p原批次继续](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)：原84+2/own26/全部科学源与8批资源合同保持，只换真实参数来源及传输身份；recipe3971018d/request45f221e1，无未来接受预填。
+
+- [request128：实际127真末九p完整112高度路径](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)：λ=.001/fresh-circle，原e830同owner H(s)端点全J→FD/fullDN/finalJ/audit，110pins与原输入/预算保持；新实验非实际接受。

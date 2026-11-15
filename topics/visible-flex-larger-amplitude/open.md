@@ -32,7 +32,7 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [九控制三active完整入口](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)00e4d2c3保持。[新九H(s)完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101已显式接原e830 helper，同worker真zero→全部112H_*端点全J→原FD→同owner完整band/fullDN/finalJ/audit，固定六shape/三active453及全部原门不改；新schema保真实producer身份。无需低三先达阈值才尝试有限正λ。
 
-[独立九runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保原进程组、TERM/KILL、300min单一deadline和90KB真实字段协议；全部bootstrap primary行保持，具名细节省略即summary_complete=false。原e830事件名仍带124为源码标签，不冒新run。该薄外壳当前只接fresh-circle真实初猜，未伪实现accepted-parent文件转发。真实128将明确取actual127第8末九p/λ=.001，尚未执行；无实际九正λ场或接受父。
+[独立九runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保原进程组、TERM/KILL、300min单一deadline和90KB真实字段协议；全部bootstrap primary行保持，具名细节省略即summary_complete=false。原e830事件名仍带124为源码标签，不冒新run。该薄外壳当前只接fresh-circle真实初猜，未伪实现accepted-parent文件转发。[128明确入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)已发布：actual127第8末真九p/λ=.001/fresh-circle，recipe4868B/739a2a00、request24859B/2ef24cc2、workflow17040B/dcdcfe05。原124全部103pin不变并增7个九来源，总110；29显式closure/四输入/两ready/78源、300min整体/330science/350job及全部原FD/fullDN/finalJ/audit保持。独立push实际run随后登记；尚无九正λ接受场，不自动接450/closed。
 
 ### 2B. 原native有限精度与固定trace方向
 

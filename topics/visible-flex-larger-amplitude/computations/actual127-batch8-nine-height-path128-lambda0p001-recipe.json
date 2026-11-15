@@ -1,0 +1,126 @@
+{
+  "schema": "explicit-nine-control-height-path-nonzero112-recipe-v1",
+  "parameter_order": [
+    "p1",
+    "p2",
+    "p3",
+    "theta1",
+    "theta2",
+    "theta3",
+    "eta1",
+    "eta2",
+    "eta3"
+  ],
+  "active_parameter_indices": [
+    0,
+    1,
+    2
+  ],
+  "frozen_parameter_indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "initial_nine_parameters": [
+    0.32187323564609926,
+    0.21204423511345535,
+    0.3992005008064338,
+    -0.08290967451783622,
+    -0.021154050830509367,
+    0.8576496337449642,
+    0.9744108740349993,
+    0.6297613969180598,
+    0.43487814523197305
+  ],
+  "lambda_target": 0.001,
+  "field_modes": 112,
+  "field_angular_quadrature": 2048,
+  "initial_guess_kind": "fresh-circle-low-three-linear",
+  "source_input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "initial_parameter_origin": {
+    "kind": "literal actual127 eighth batch terminal nine parameters; unaccepted circle-resonance candidate, not a complete nonzero field or a native parent",
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43700393105",
+    "source_commit": "47bda30230e7aea8a85b5ecd039832c023249f87",
+    "compute_job_id": "132770038307",
+    "report_job_id": "132770558044",
+    "selected_batch_one_based": 8,
+    "final_batch_of_origin_run_selected": true,
+    "parameter_field": "final.parameters",
+    "original_status": {
+      "bytes": 1812905,
+      "file": "nine-control-curved-status.json",
+      "sha256": "1c4e24d005620ec08e87bf4450cd69e8d5d2f1203922a73cf122b1c9c859ab74"
+    },
+    "compact_summary": {
+      "bytes": 62531,
+      "sha256": "bc100938dfdc657560e84d52b49f5432cfb94c7b4e2d251bd1147ced09033bd5"
+    },
+    "complete_scalar_view": {
+      "canonical_json_bytes": 117124,
+      "canonical_json_sha256": "14c627634a1196c3ae144e17c6d2751caf3714cc7fcad1fcaae4e3751e1bca3b",
+      "schema": "original-nine-control-full3-curved-trust-scalar-view-v1"
+    },
+    "producer_file": "geometry_20261115_small_core_nine_control_curved_recipe.py",
+    "producer_sha256": "824c0967e5de5cc9079a80018b66b1232c78ce406a6de4e0d7ab4cdee876bdaf",
+    "family_file": "geometry_20261115_small_core_nine_control_family.py",
+    "family_sha256": "086572f9a9fc172d671f050e9b343b66c4a57c5c88867537a1e8a3daa5ab9629",
+    "batch_driver_file": "geometry_20261115_nine_control_temporary_batches.py",
+    "batch_driver_sha256": "b15a6571a1ebc5dc72f1037212fd86a10d7a5848957c2faca4ae9e7fd69f21bb",
+    "source_point_first_three_column_singular_values": [
+      155168023.90545163,
+      235918.84464137818,
+      5.317869964775124
+    ],
+    "source_point_complete_nine_column_singular_values": [
+      162443088.66135123,
+      308922.9520063631,
+      12.921473215918594
+    ],
+    "source_point_unit_diagonal_defects": [
+      -4.717371832840097,
+      -0.0018359077734816124,
+      -8.732263938333927e-06
+    ],
+    "source_point_original_merit": 11.126800189953372,
+    "low_three_threshold_passed": false,
+    "complete_first_order_right_threshold_passed": false,
+    "native_solution_claimed": false,
+    "nonzero_field_accepted": false,
+    "source_response_numbers_are_provenance_not_a_rank_or_root_proof": true,
+    "lambda_is_an_explicit_new_experiment_parameter_not_a_saved_result": true,
+    "old_status_log_J_merit_or_field_payload_not_loaded_as_current_state": true
+  },
+  "height_continuation": {
+    "schema": "explicit-original-complete112-height-path-policy-v1",
+    "initial_positive_increment": 0.015625,
+    "accepted_increment_multiplier": 2,
+    "maximum_increment": 0.25,
+    "mathematical_refusal_increment_multiplier": 0.5,
+    "minimum_increment": 9.5367431640625e-07,
+    "maximum_bootstrap_requests": 64,
+    "includes_zero_and_final_J_requests": true,
+    "zero_request_jacobian": false,
+    "intermediate_request_jacobian": false,
+    "endpoint_request_jacobian": true,
+    "bootstrap_audit": false,
+    "endpoint_uses_original_H_star_words": true,
+    "total_scientific_wall_clock_seconds": 18000,
+    "resource_limits_are_not_mathematical_nonexistence_claims": true
+  },
+  "height_path_s_scales_the_actual_fresh_complete112_H_not_lambda_or_surface_phase": true,
+  "zero_tail_anchor_is_only_linear_initial_guess_data_not_actual_current_H_response": true,
+  "current_H_and_complete_J_are_new_original_worker_outputs": true,
+  "all_nine_literal_coefficients_defining_new_g_are_preserved": true,
+  "six_added_shape_coefficients_are_fixed_only_three_original_controls_active": true,
+  "low_three_root_not_required_as_a_new_gate": true,
+  "no_accepted_nonzero_field_or_native_parent_claimed": true
+}

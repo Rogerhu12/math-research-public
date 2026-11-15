@@ -291,3 +291,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 request129从actual127真末九p接续
 
 [完整接口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)和recipe2288B/3971018d、request41954B/45f221e1、workflow18134B/7f33349e已发布。root已读完整request/workflow差异和原第8参数/primary身份；原family0865/search824c/wrapperb15a/readerf57、84+2/own26、.1重置/8×8/全FD/Arb/圆/final门不改。source闭包/科学输入/runtime/batch合同逐原文本保持，无本地科学/新增测试或接受门；真正原读回后继续，128非零实验独立。
+
+### 2026-11-15 request128完整九控制高度路径发布
+
+[完整接口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)和recipe739a2a00/request2ef24cc2/workflowdcdcfe05已发布；root已读完整相对124差异和16546B接口。真正127第8末九p只作新λ=.001/fresh-circle初猜，110pins/29显式closure/原四输入两ready及78源恢复保持；原0433/d075/c756/e830源码不改、300min单一截止、原端点全J/FD/fullDN/finalaudit完整。无本地科学或附加fixture门，push触发后核run。129的compute132773497339/report132774328966已success，实际科学原字段尚待读，仍不冒接受；H压缩历史段落并保全部责任与来源。
