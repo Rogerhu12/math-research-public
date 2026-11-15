@@ -126,3 +126,8 @@
 ### 2026-11-15：二十二条全原左三阶延拓与43/39
 
 [完整证明](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)以同一1088行包络的实际base582/aug583构造12个新延拓，配10个全参数纯泛函，保全部6188源；只得第三连接上界1。真实Smith下界43/39、同选72/71/67与 $K_{80}$ 条件费8663均已证明，未宣称第三连接恰为1。常数及第一页两域同秩的31单位块允许完整模31第二连接零的运输。
+
+
+### 2026-11-15：原固定29曲线的外一阶映射单射
+
+[证明与实绩](results/R150-appendix-fixed-koszul-curve-first-outside-rank29-and-no-constant-second-support.md)在2.028866967秒内完成29列精确有理秩，得rank29、固定二阶支撑维数0，不重1603消元。准确区分常组合与允许参数修正的原曲线；现有29/28源因子保持。
