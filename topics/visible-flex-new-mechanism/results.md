@@ -369,3 +369,10 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 [R308 完整构造](results/R308-genuine-derivative-rank-two-circles-with-one-hook-and-complete-third-range.md)选紧f在严格内部为(x−b)^(5/2)，非零紧g放该内部曲段；AfW=0给完整右锚弱hook零，W非零在开集。三左实偶包的复幅平方由真实三点Vandermonde唯一解补三复矩，新增包W0，全局弱hook不变；双hook分类证第二hook必非零。
 
 在任意既定合法活动I内缩放放置八个完整配平副本，二阶场全局域，七次差分精确消四原三阶ruling。最后仅对完整θ forcing施原period/range：H(φ;ff−φ²)=sinθ H(g;ff)=0，不误要求四个形式槽各自periodic。得到同真实几何、同一新选seed目标的完整三阶圆及统一O(ε4)余差；不沿用旧seed的g，不授完整第四、嵌入/reach或有限flex。下一实际求本rank-two输入的全mixed/ordered第四条件。纯纸证，无新执行。
+
+
+## R315：新二次高度芽的整角 E² 三门已付，对数有序 history 同步消去
+
+[R315 完整证明](results/R315-full-angle-arctangent-square-gates-and-ordered-history-cancellation.md)对B=aR−2eL+eU+tT（t=−ε/4非零）列真实二次左尾/全部polynomial作用、三个Green项与完整Γ，校正self为真C²观测。从起点选Fnew保持三矩、全部E8交换面积与B²校正self；真实三矩wedge包装清全部额外角项。
+
+三个principal位置多项式准确次数6/7/8，含全部真实复制正权；四个high/low交替包的全三minor同号给严格正核及全R³正锥。在Fnew真实纤维内有限频率/有限幅IFT消完整三值基线，从而所有θ的E²三门真零，原三矩/完整third保持。新log的有序history residue精确写成三个原交换子组合，同构造已清；仍保local+chain residue未付，单E/有理成员/全period与同w亦欠。无新运行，不靠增频修被排旧Gaussian类。

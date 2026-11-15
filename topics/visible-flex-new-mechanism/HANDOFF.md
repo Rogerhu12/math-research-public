@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `bf4b5d3acdb9a1b22cf07bf6ea5b19dfd0d6da05`，2026-11-15 16:14:52.012977 UTC，observer43734302729实际pull快进，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `bce8f1931cf91095a2fb86bb15a0c5fc7debcaf5`，2026-11-15 16:16:43.382137 UTC，observer43734539629实际pull快进，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 16:02:23.127321 UTC实际pull/read `dd9aad351d1ca8847bca06cadd03a0bc0a3162ae`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
@@ -36,7 +36,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 **R283–305旧输入的已付范围**：rank-one紧微包上canonical交项/真尾局域与一次指数层已付，不推广新rank-two。R293/294同正解析有限N圆付72面积/六能量/三矩/third/全二层history；R299真self/Γ清角Ξ，R300/305 free42/even40主控制仍真。但R304完整C²基线严格非零，该旧类不可再加F/频率/预算；各原式/端假设留原稿。
 
-**R292–302平台/self与结构几何**：原全后缀迫T_B0、各q_i0。R297 χ32/37/40三c矩证书给9单位，原query延拓全U；R298 χ30/P给T0且完整q=3/512∫u″²u‴²>0，9矩+单个预固定u有真m10控制，公共校正两actual hook整q差非C²。R302四χ实际来源+成对正则前缀保基点τχ/全基准；自由h遍及整原型，只保M0让τ漂移，R101共享整块真倒行仍准确M=T0。新全部基准重建增强截面，再全(pure,T9,q单u)IFT，联合κe/ε二维安装+有限光滑密度Morse/Klein闭合，故该窄几何类也能指定T与单self。**非全q函数/全部最终母包，不能预授与Gaussian形状选择兼容。** R295 q平方主部+完整C²仍保；真倒行成本同号、λ+正，不偷换成C²纤维。下一全self/全period与同w。
+**R292–302平台与几何接口**：完整后缀迫T9/逐self零。R297真χ32/37/40给9单位；R298 χ30/P整q=3I/512>0，非C²。R302保四χ原型基准/共享整词真倒行；自由h跨整词、只保M0让τ漂移，再全pure/T9/单预固定self增强IFT与κe/ε安装、Morse/Klein闭合，可真指定有限目标。通常选择新seed/g；非全q函数/全母包兼容。倒行成本同号、λ+正，完整period/同w仍欠。
 
 **R303–314完整self**：移动左尾≤5/c10真端消给q(u_c)≤9，H6×p2十N链为pure/T核，可19观测联控。R307/309全[c9]=D9 I、[c8]=D8 I+D9(9I1−3J)，清一母全平移⇒普适次数≤7，非全Q。R310 KJ整q=J=∫u′u″u‴²，even母全移/幅/宽盲。R313𝔍×P/R/S/U/T五维N块=4链+常链，F=2∫u′²u‴²−∫u″4/6≥∫u″4/18，核span(J,F)与旧核I由反射/宽度分离，self像≥15、24真观测联控。
 
@@ -49,11 +49,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 **R308真实弱hook三阶构造**：紧f在内部J为(x−b)^(5/2)，非零紧g⊂J使AfW0而W≠0；三左复幅Vandermonde精确付三复矩，不改弱hook。任意合法I内八个完整配平副本以七次差分消四ruling；仅对全θ组合付周期/range，单槽不要求各自periodic。第二hook确非零，真正导数rank-two；同几何新选seed目标的完整三阶圆已付、余差O(ε4)。完整第四及原平台/尾/同w尚欠，不能继承旧rank-one端局域或宣布有限flex。
 
-**R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。尚无过全门输入；下一实际付新E²/log/一层及全joint。
+**R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。R315已实际以有限N圆清整角E²三门与全部E8交换面积，保三矩/third；新B真尾/Green/corrected-self、初选Fnew、四交替包正锥全付。log有序history残数清零，local+chain残数、单E、有理及全joint仍欠。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main e7ea7c3f26a521e1b86501c883c85ef581936906，双README blob同。API读取不冒实际pull。
+断连API复核main 02128f2429696f45014664cf70b60c8cd67e8a33，双README blob同。API读取不冒实际pull。
