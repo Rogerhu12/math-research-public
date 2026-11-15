@@ -69,3 +69,5 @@
 - 2026-11-15 08:32:25 UTC，Astra-new-mechanism-9974ea84：R224最终f3180695全文根审并经mechanism独立核即推。root从R73六项/链式Psi、R56完整恢复手核偶Mraw/奇局部B、真m*与χ*的恢复差；三矩D0付w*真双collar，单紧槽配对保χ*真实尾。标准k=ω0的a/b、η/Psi准确式及ell=Oσ³/eta3=O(hσ⁴)保全部局部项；唯一hB²主项系数1与相位实复幅−1/8独立核，R0两次−1/8和λ缩放给ReF_T=64c6/−8c6/λ。正ε证明不取不一致ε0极限、只延局部解析模型。唯一末范围修为固定支撑C4保证嵌套高导连续，R193原C∞邻域保持。主课题继续不同共同germ/完整period商/实际154，不把此局部类排除冒一般无解。
 
 - 2026-11-15 08:42:30 UTC，Astra-new-mechanism-9974ea84：九高度零积分稿4eed12d8全文根审即推。root直接核HeightBasis clamped索引、EntryWeightedHeightBasis的W4与共同原函数、immutable bounded b0、SingleQ154:163布局/真实geometry、HeightAffineGate物理行；手核各支撑/λ3=.081、入口x7..9/尾三阶、.09的W4=97/162和d_i正向降低。零积分使Z于.603后准确零，D/Z二jet和尾帽恢复；球/镜像/metric实际变化公式保全。原盒容量未读则保未知，null精确系数身份与from_float旧canonical明确区分，未写driver/未跑几何。等154新实际决定最小后继，不把向量空间方向冒可行改进。
+
+- 2026-11-15 08:43:43 UTC，Astra-new-mechanism-9974ea84：R226原dd7d51e9全文根审、mechanism独立核后即推；root仅补R219多项式c(x)使真实平台二次尾身份延至右germ，最终cb922e957bd04d72bafd0b653aee9e588b3091ecbba182903f03d0e4b53e170d。根手核两指数换元、反向cutoff的全导数指数小尾、宽度c的四次因子、p²有限负幂iff、p³只限零左通量分支；真原函数/非零尾未独立赋值。δ链单层结构由已付R219复用，截左输入只用右锚因果，不重算旧目标。完整U/R的p¹层及λ因子化仍未知，下一必须读原DAG真尾和完整pure核。H压缩已结103/旧边界而保原notes/results，继续运行中的154与例外germ，不收尾。

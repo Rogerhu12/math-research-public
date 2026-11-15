@@ -72,7 +72,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R183](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md)已构造真正重叠的导数分包圆：原平台有三条实射影方向，不能GL2变为不交；三个左补偿包准确付三复矩，八个完整包付四条第三ruling，H在该平面全三次槽为零。保八个独立有符号mixed方向；下一处理同一圆完整period和ruling模原二阶矩像的共同匹配，不能直接套R50不交假设。
 
-[R181](results/R181-degenerate-self-adjoint-equation-for-fixed-circle-period-gauges.md)已给L_f的准确退化自伴ODE、同右锚两常数、双collar/七线性约束与每个A_f零点的累计通量必要门；多包斜率给独立有符号方向。R183真正重叠圆已付低阶；下一具体解周期与第四ruling的共同线性匹配，不把通量必要条件当充分。只控制第四period，完整第四ruling仍欠；既有R50不交常段障碍不删除，不为该已排实例重跑计算。原canonical U/条件λ只管零incoming规则，不能未经证明延至此独立w；也不能以新增方向宣布第四可解。
+[R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)已把R225左平端具体化：p=±e^(−c/t)a下衰减/增长积分余项真C∞，非仅渐近。一次层非零有限首jet迫u指数发散，二次层须有限负幂条件，三次及以上在左零通量分支自动可延。R219特定δ^nK的真单层右尾扣准确二次平台尾后仅p⁴层，故其平台修正germ观测全零；不能代表一般U/R。**下一消费完整原DAG的真实最低p¹/p²层，先R201明确pure零H，再比较完整R0；尾值保原整体表达式，目标是R225完整商或λ因子化，不再只追加八链同类flux。**
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 

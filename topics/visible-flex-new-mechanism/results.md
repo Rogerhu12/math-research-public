@@ -213,3 +213,5 @@
 - [R224：偶germ完整ruling不变量及正ε严格障碍](results/R224-even-germ-ruling-invariant-and-positive-epsilon-obstruction.md)：任意全I二阶gauge的完整Bθ偶部准确落三矩W_e，真二/三历史经同锚恢复只改该空间，得到整个偶germ ODE。标准k=ω0时保chain/局部第三恢复，B=−σ/8−ε²σ³/6、K/(hB²)极限的第四实复幅准确−8c6/λ；故任意ε>0、原R193八包/已付光滑邻域所有合法宽度均失败。仅延拓局部解析模型，非实际路径、非ε0近似；一般端口和任意R199新圆仍另欠，Morse不等于通过此门。
 
 - [原九高度的零总积分入口方向](notes/same-g-nine-height-zero-integral-entry-directions-20261115.md)：准确总积分λ给8维核，d_i=−e_i+(λ_i/λ3)e3、i0..2在.09严格降低b，位置全二jet于t≥.603恢复；共同帽高/尾帽/strip真不变，活动区其他全门需重评。原盒的补偿容量仍未知，严格null须准确仿射参数化而非九字段独立舍入；此时仅纸面方向，不预定154之后的实际派发。
+
+- [R226：平端精确指数层与既有响应链的不可见性](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)：两个换元/全阶指数支配给真C∞归一积分；p¹非零首层迫u以−p^-1 t^(ν+8)/(16c⁴)发散，p²保有限负幂条件，p³以上在零左通量分支可延。R219完整单层J和多项式真尾给δ^nK在每个首f上升端仅p⁴余项，平台修正germ观测为0；一般U/R与λ读出未付，不能用八flux满秩替代完整端点判据。
