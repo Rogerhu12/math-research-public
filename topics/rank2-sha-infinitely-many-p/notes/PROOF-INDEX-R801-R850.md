@@ -107,3 +107,6 @@
 
 
 [R822十九角Euler与完整α配对](2026-11-15-original-global-euler-frames-and-complete-alpha-residue-pair.md)：逐十九吹起框证明E保持全部H_m，e∈H1、EH∈H2；精确canonical除子及conductor下降条件齐付。原D_E(B0)=EH|Z良定义并读真实2Z jet；完整Gorenstein Serre配对给α*ω(B0)=ResP(B0ω/(2ηe))−〈D_E(B0),ω|Z〉。两端必须来自同一全局ω，非约化普通乘法迹不作完美配对；指定Trace是否在此真像仍开。
+
+
+- [R833](../results/R833-original-euler-image-and-negative-horizontal-cokernel.md)：原全D_E像准确为在Z_-=C∩H_-上消失的全部Z值，余核H2^0/F0H1^0；完整r2平衡给z_-=u−μd1−μ∞1≤2。核用原H1及至多5列零charge V准确呈示，关系(2cF+L0,cF0²+F0L0)；在此核上α准确化为[B0/(2ηe)]。原高前缀、同一E_q与指定trace仍须联立，不以全像结论代真Bh/kerα满射。
