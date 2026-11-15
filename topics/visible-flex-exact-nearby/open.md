@@ -111,9 +111,9 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ、正侧两条原run、AD完整Wronskian与SF exact
 
 [SA完整有符号仿射接收](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba原全式/域保7794d473同open/H/proof。Hessian准确消去仅formalGram，全97/mean/outer/jump、selected左端与缺陷关联费用都保；SA29–31用known左端减Δ而body/outer仍原y，非global recenter。旧QR/7908成功禁重。
 
-[SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
+[SC合同](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2/[SCA完整actual](results/R133-supplement-actual-complete97-signed-radial-cap-affine.md)3302361e原43754452928/1 child0/20、12steps成功锁。7908原quarters/32groups/4pilot/31joins/128物理矩/真[.9,25/8]/完整3×97 signed系数含独立mean已保存；32Git/36archive/8AST/23pull、SCI23672/f0838341、preGit32824/9f40e616全核。known uniform约3.844325705e−13已含全部指数/radial/δ3尾，嵌入费不二加；两帽域whole选RW3/4后完整affine分别约1.617206199781e−7/1.617206199315e−7。body Y仍ρ√(R−L)existence支，formal+13ρQ主导；真实y原中心不换，左E_Lδ/Y_L+10d/outer/height/两mean全保。shared-node value jump此对象准确0，不删其他PDE接缝。仅完整边界affine，不授lowtrace/core/selfmap/全BVP；γ域/未知段/actualchart H1/独立高频/腰/matching仍待。
 
-SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1正式12steps已全success（root已核），完整科学读出及恢复身份待核；禁取104306B大log/禁重成功。
+SC1/2失败62bdfc64/f98d1f32及限定lost保[失败proof](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)和SCA第10节。SC2首row部分new未存、完整row/group/model0、旧math0；SC3仅schema/constructor已审窄修，成功锁不重。原全参数/pins/策略与所有旧费用逐字保1196f5362cebbf0b85e7868a366617ac3ea9dea9同open；485160B最终大log禁取。
 
 ## 5. 新94链、真实B collar和实际body种子
 

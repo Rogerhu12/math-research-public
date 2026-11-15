@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **SCA 完整97列有符号径向仿射及两帽域全部误差**：[证明](results/R133-supplement-actual-complete97-signed-radial-cap-affine.md)（3302361e；43754452928/1）。全部7908/32groups/128moments与3×97含mean系数完成；known uniform约3.84433e−13，完整两域affine约1.61721e−7。原未知body、左缺陷/shift、外端/height及独立mean齐；两whole3/4选择不拼系数min，旧Gram单位和embedded fees只一次。20门/12steps、32Git/36archive/8AST/23pull及SCI/preGit全核；low/core/BVP未授。
+
 - **NWA 完整实际normalizer两窗与global sign条件系数**：[证明](results/R133-supplement-actual-cohomological-normalizer-windows-and-global-sign-correction.md)（b7fc4876；run43775614821/1）。20门/12steps、9pins/2AST、71字段与SCI/preGit完整核；同一N实际L2/负窗逆界分别约2.47494e73/1.88584e79，两optional false不否定逆。第二comm和Cayley完整有序界A+B CE保全mean；完整CE/physicalincoming/finite/return仍未供，旧成功锁。
 
 - [FC真实Ai图的无循环有限Fredholm补全](results/R133-supplement-finite-Fredholm-completion-of-the-actual-regular-Ai-graph.md)：同一smooth kernel/cokernel构造固定W，使自然stable与Csharp同两窗可逆；真实Poisson补列覆盖原整个given-head图，rest ports/均值不动。完整incoming逆确成后共同右因子精确消；实际rank/列/dual/finiteinverse与参数uniform仍待，未声称原C核0。

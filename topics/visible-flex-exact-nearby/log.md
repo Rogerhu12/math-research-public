@@ -160,3 +160,7 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-15 23:47:01 UTC — NWA 原成功完整证明独推
 
 两README在bbb46ed4e39485d0d3bc67f3502f622f03cf5497复核无差。Root全文读原NWA与NW/source/原SEI，独立核唯一43775614821/1 job133001107895全部12steps；9input219503B摘要ca4497f6和2AST摘要9cf0f10e按原数组序/无LF完整复原。execution lexical数值保原，SCI24234/55019238和21字段preGit27805/362a7562精确复原；7原完整对象及payload a1684441同值、正文72处66种球逐字全匹配，不读临时gzip。原证明仅14处norm反斜线排版与7/8个预先已发布输入计数澄清，最终blob8a1aba36/30563/b7fc4876；无数学变化。两optional false保，正常ODE/adjoint同逆已成；两weightedmean/physicalmean/三log与一次低阶exp/全affine CE条件/独立linear μ²费齐。大upper不作lower，全部fullphysical/incoming/finite/core未付。逐条保存推送，继续UTactual与SC3完整证明。
+
+## 2026-11-15 23:47:59 UTC — SCA 完整97仿射及所有未知费用独推
+
+两README在485ae41e7118503199bd1d2acfa8257da1ad7869复核无变。Root已全文读24004B/3302361e proof和原完整science/error accounting，47处42种球逐字全同，20门标签/真verdict全同；原job12steps全success。32Git inputs（23current451182B+9history）、36原archive、8AST/23真pull摘要已逐原metadata核，未取binary或485160B大log。SCI23672/f0838341和preGit32824/9f40e616精确lexical复原；41178/3ff0process只引原receipt不冒复原。7908完整真实dr/4pilot/128测试、3×97含mean/完整δ与指数尾齐；known≈3.844e−13不可冒完整affine≈1.617e−7。两whole3/4候选Y仍existence支，(D+13ρQ)Y约1.61720234e−7，真实左10d/缺陷与outer完整保；body/outer y非左端重排后的新中心。SC1/2失败与限定lost保，旧math不重。H/open仅压已成摘要，逐字前页1196f536保所有原scope；继续新未知体域包络与UTactual，未达总标准。
