@@ -58,3 +58,5 @@
 - [R675：原cd端点、完整六系数和真实非S来源](../results/R675-original-cd-endpoint-and-complete-six-source-return.md)：j=n=N原cd域真同R669 t=1共同E深门；全部λκu/C补项及第六矩给完整六系数与两来源quarter身份。原固定右逆的全留数表准确消(1+λ)分母，质量A0非零及固定CM范数计数给同ray密度一族全N4完整/Yunit质量均unit，故实际端点非S线；保完整外部/log，不把质量升级为中央导数。
 
 - [R677：同一适配测试的端点不相容与完整外部过滤](../results/R677-adapted-cd-endpoint-and-complete-exterior-filters.md)：R674实际q†代全端点，给同ray密度一族全N4质量unit/off-S；原九行及两t0源回S的整个J仿射族也不可能再使t1端点回S，显示2×2真实行列式付不相容。全n真实I同域及P6 O/X准确相反的额外来源、P7公倍数全保；各外部unit质量和全部尺度log不删除。
+
+- [R672：目标p内两jet加权根能量与charge同余限制](../results/R672-original-two-jet-weighted-root-energy-and-charge-congruence.md)：保原ODE完整判别式及重复/切向因子，两个真实长零迫加权根能量≥4(H−r)，全次数上界6(M_D−r)B+3B²。charge单模q以U=Y^q降次而首共振仍非零，实际临界预算排q≥8及单mod12块；真K2/K3用完整Δ0门。稠密混合核、第三短行和同R第二forcing仍开，无辅助素数替换。
