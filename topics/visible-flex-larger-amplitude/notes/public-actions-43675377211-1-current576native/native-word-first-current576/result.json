@@ -1,0 +1,279 @@
+{
+  "accepted_prefix": false,
+  "actual_error": "FloatingPointError(\"Actual complete finite tail rejected: {'failed': 'Error: multiple-shooting line search failed at 0.000060618737006888706', 'residual': None, 'lastIteration': {'iteration': 0, 'norm': 6.0618737006888706e-05, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858, 'chartCondition': None}}\")",
+  "actual_original_converged_flag": null,
+  "actual_original_failure_message": "Error: multiple-shooting line search failed at 0.000060618737006888706",
+  "actual_traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_word_first_current576_solve.py\", line 295, in main\n    response = client.solve(prior[\"height\"], jacobian=True, audit=True)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_true_tail_client.py\", line 265, in solve\n    raise FloatingPointError(\"Actual complete finite tail rejected: \" + str(\nFloatingPointError: Actual complete finite tail rejected: {'failed': 'Error: multiple-shooting line search failed at 0.000060618737006888706', 'residual': None, 'lastIteration': {'iteration': 0, 'norm': 6.0618737006888706e-05, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858, 'chartCondition': None}}\n",
+  "actual_worker_exit_code": 0,
+  "bridge_failure": null,
+  "complete_original_native_loop_requested": true,
+  "complete_tail_matching": false,
+  "current_R273_directions_returned": 0,
+  "current_correction_summary": {
+    "bytes": 8715,
+    "file": "current-correction-summary.json",
+    "sha256": "456c27ae24f4d5cc45744988aa011a4e82c3f1aa6d318c992e6a7488c79154d0"
+  },
+  "current_direction_source_sha256": "4c887fbb4a16e0d2219969043e708c2d49c446f0ac75ba1dc3e6e17f7d2ee314",
+  "current_directions_returned": 1,
+  "current_system_source_sha256": "2c6c012d9f2306f2ac13d240510eb8086b74d2b60ff318aa9e359dd72c05a3a8",
+  "elapsed_seconds": 1863.593109387,
+  "eta_binary64": {
+    "classification": "finite",
+    "float64le_hex": "000000000000f03f",
+    "value": 1.0
+  },
+  "eta_cli_text": "1",
+  "factor_engine_source_sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+  "first_word_correction_counts_inside_original_total32": true,
+  "fresh_withJ_snapshots": 1,
+  "hook_sha256": "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3",
+  "independently_identified_withJ_flow_replaced": true,
+  "model_scope": "R273-original-sigma-complete-chain-with-explicit-eta-and-sigma-column-coordinates",
+  "native_accepted": false,
+  "new_primal_variational_source_sha256": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9",
+  "old_J_never_substituted_for_current_fresh_J": true,
+  "old_saved_model_used_only_for_first_candidate_selection": true,
+  "only_core_nonlinear_correction_call_replaced": true,
+  "only_nonlinear_correction_call_replaced": false,
+  "original_final_endpoint_J_and_audit_retained": true,
+  "original_max_iterations": 32,
+  "original_native_requests": 1,
+  "original_ready_describes_original_constructor_only": true,
+  "original_response": {
+    "bytes": 1332038,
+    "file": "native_0001.json.gz",
+    "sha256": "576ac4c323fa290e640fb35458557821fb7fa8dccfa709cc4bdd5cd5ecf90a76"
+  },
+  "original_tolerance": 2e-09,
+  "parent_binding": {
+    "bytes": 41348,
+    "file": "input-binding.json.gz",
+    "path": "/home/runner/work/_temp/visible-native-word-first/current576native/native-word-first-current576/parent91/input-binding.json.gz",
+    "sha256": "447e758e714db6e9c4180a0ae0ecb56672d9977cde8a6b733b5d6f01690e35f6"
+  },
+  "parent_failed73": {
+    "actual91_binding": {
+      "bytes": 80724,
+      "file": "input-binding.json.gz",
+      "sha256": "0119e12bfc7f98732189b76b3fdfa23ae05229937a8ea998c9aa38890ff11d0a"
+    },
+    "actual91_pin": {
+      "artifact_id": 14145200674,
+      "artifact_name": "visible-mainline-modelresponse-43672150224-1",
+      "expected_sha256": "78b8ae3da20890c5726f7f53228ffeeb8a7fae41eb2c12477139089860aea2b6",
+      "expected_size": 10267458,
+      "run_id": 43672150224
+    },
+    "actual91_result": {
+      "bytes": 13347,
+      "file": "result.json.gz",
+      "sha256": "0b7200064336361ecb36b0627495fca298b7af758ed37d34d6ae6b1a1898db04"
+    },
+    "actual91_source_commit": "b78f0dd1471a118d2ed21467602509d188c2ab67",
+    "complete_parent_eight_array_sha256": {
+      "base-states": "f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6",
+      "cut-residual": "12e751094f28b905e020e94c8e86db6ebdeadfb7bfe03c3406599174e427628b",
+      "cut-target": "e2ea4563e7afc7d993db2ebc29ef63a1d853355c9d1ceeaf10f296b84391a14d",
+      "end-residual": "30939371bf346ff34a7534d70f1c42ff3b1dd35f708ba6a046b34dd30fef7f28",
+      "original-far-graph": "395804bb32582680dd544c6278862f51919c7598b3a1a526f1194f18deffda54",
+      "original-scales": "ecbfd55d5f1dde8f8918818a257f9f2b7638344395d253d7c0844ff407abfecc",
+      "physical-height": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+      "stage-residuals": "04ec3639e1a3ec4965ff4d7532bbe606e54aed895dd0523dc743702b0bd9e1f7"
+    },
+    "imported_worker_predictor": false,
+    "initial_guess_only": true,
+    "native_accepted": false,
+    "original_base_stage_out_not_exported_or_reconstructed": true,
+    "original_exact_result": {
+      "bytes": 26350,
+      "file": "result.json.gz",
+      "sha256": "60feb7732547dcd04ef2469c5a1adf7cef5fd93f714107ac41cdb8f71282ff61"
+    },
+    "original_native_outcome_receipt_only": {
+      "bytes": 3166,
+      "file": "original-native-outcome.json",
+      "sha256": "5d3f36ddbd19b11f92cf34e3f868f69d81cd76d579c17d8f042cba20b1c94baf"
+    },
+    "original_native_scope": {
+      "mode": "original-result",
+      "original_actual_error": "FloatingPointError(\"Actual complete finite tail rejected: {'failed': 'Error: multiple-shooting line search failed at 0.000060618737006888706', 'residual': None, 'lastIteration': {'iteration': 2, 'norm': 6.0618737006888706e-05, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858, 'chartCondition': None}}\")",
+      "original_correction_journal": {
+        "bytes": 8150,
+        "file": "current-corrections.jsonl",
+        "sha256": "c15a610712fe0a285636c23ecd8d5f1bae6a8897e1c86a5ebc685bfebf9e5dd6"
+      },
+      "original_correction_summary": {
+        "bytes": 11100,
+        "file": "current-correction-summary.json",
+        "sha256": "fc754fbf8bf88f70ae8b644510233fec435c3da97e7e942498604981c2e46805"
+      },
+      "original_failure_message": "Error: multiple-shooting line search failed at 0.000060618737006888706",
+      "original_max_iterations": 32,
+      "original_native_accepted": false,
+      "original_producer_outcome_not_changed": true,
+      "original_result": {
+        "bytes": 7583,
+        "file": "result.json",
+        "sha256": "ade4fdac3adce104cb4e216e9d2f40b219bfca47d2c027ac548e6c65f65ab394"
+      },
+      "original_tolerance": 2e-09,
+      "original_trial_journal": {
+        "bytes": 3481,
+        "file": "native_trials.jsonl",
+        "sha256": "7e9fa84cfaf2f0117df13d85394381c98b25c38dc1ae25b5d2661c0e56f6405b"
+      }
+    },
+    "original_probe_input_binding": {
+      "bytes": 116398,
+      "file": "input-binding.json.gz",
+      "sha256": "1f3ca8876c307dd7b9d7f69ab45d57953e97fe052d6d9d0843e7c3e1f65f66a3"
+    },
+    "original_probe_result": {
+      "bytes": 2679,
+      "file": "result.json",
+      "sha256": "7be2d7f0a98445e5efcd0ba146b7f8257483fa7593a54a6b389e8279f7fcf6ea"
+    },
+    "original_snapshot_result_receipt_only": {
+      "bytes": 1313,
+      "file": "result.json",
+      "sha256": "2f9bf170c0366e9d5adaf003a9d0746f28a536171a32339e8a5f502313495e92"
+    },
+    "schema": "actual73-failed-current-base-via-complete-actual91-v1",
+    "source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+    "source_native_call": 1,
+    "source_nonlinear_iteration": 2,
+    "source_public_run": 43657001633,
+    "source_snapshot_sequence": 2,
+    "state_raw_sha256": "f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6"
+  },
+  "requested_full_DN_Jacobian": true,
+  "requested_full_finite_audit": true,
+  "schema": "native-word-first-current576-damped-solve-result-v1",
+  "small_output_files": [
+    {
+      "bytes": 10564,
+      "file": "actual-current-method-identities.json",
+      "sha256": "1c4e7d2c0d9f21f3b70cc7deb52519fe6a0017bf19afddaecd6a342777f6ac17"
+    },
+    {
+      "bytes": 9650,
+      "file": "core-instrumentation.json",
+      "sha256": "346c28041e9ee66439d570a04d0dd7c0339662da8af4b8466cba54ca3724804d"
+    },
+    {
+      "bytes": 8715,
+      "file": "current-correction-summary.json",
+      "sha256": "456c27ae24f4d5cc45744988aa011a4e82c3f1aa6d318c992e6a7488c79154d0"
+    },
+    {
+      "bytes": 2754,
+      "file": "current-corrections.jsonl",
+      "sha256": "dc7999b814ab5708eb261a1da819ab2675259f1440102578dd6f994589883dc6"
+    },
+    {
+      "bytes": 2161,
+      "file": "current-input-config.json",
+      "sha256": "eab58b67fa1810821ca7a09300d8b703f44bbcc396358d22af19d6eb47ac95dc"
+    },
+    {
+      "bytes": 11562,
+      "file": "current-solve-spec.json.gz",
+      "sha256": "31d68c88acca1f1c7d4a189d5d6ae8ef3dafd50226fc369eff644be3919c1635"
+    },
+    {
+      "bytes": 764,
+      "file": "engine-loader-instrumentation.json",
+      "sha256": "21f111bebc4b04c275aeb6fc2b3c835bfb91735ac02667e56bc0d07d5740ee04"
+    },
+    {
+      "bytes": 6188,
+      "file": "failed73-seed-binding.json",
+      "sha256": "396690978f8521b28beaba6a8686698e90f5a4b942f4d698d2d8f9965bfde0f8"
+    },
+    {
+      "bytes": 53801,
+      "file": "fresh-constructor-provenance.json",
+      "sha256": "0c11d4269467258fd813b6e9c022210d6a123943f58946e1f30b310c3869df61"
+    },
+    {
+      "bytes": 1332038,
+      "file": "native_0001.json.gz",
+      "sha256": "576ac4c323fa290e640fb35458557821fb7fa8dccfa709cc4bdd5cd5ecf90a76"
+    },
+    {
+      "bytes": 2525,
+      "file": "native_capacity.json",
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "bytes": 25255,
+      "file": "native_intent.json",
+      "sha256": "f74baf51eb50f54d99e5e067effe1d2dc1dd52eebe26f5a09f0768bacf752419"
+    },
+    {
+      "bytes": 1315450,
+      "file": "native_iteration.json.gz",
+      "sha256": "c9dcafcd8e3f567b24efc672706a46c61c0a9b200728259e019196637508558b"
+    },
+    {
+      "bytes": 6849,
+      "file": "native_ready.json.gz",
+      "sha256": "2c4233e6077d96fd5f9ee248f49df1dd60a14f4d275559a99b9adc69dc3732d8"
+    },
+    {
+      "bytes": 2591,
+      "file": "native_runtime-config.json",
+      "sha256": "8f41b6d1a9f74c57c7b0469ec5c8ab95cbaebd58440d7c1ec913b641c919a764"
+    },
+    {
+      "bytes": 0,
+      "file": "native_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4537,
+      "file": "native_trace.jsonl",
+      "sha256": "c741584e21a33c7773cd1b13993c66fc88c464b60559cc4b16e464537d32a293"
+    },
+    {
+      "bytes": 1873,
+      "file": "native_trials.jsonl",
+      "sha256": "7722a22d7cb9f9a8ee7da03eccbfaaba6dd84af99c635e2ffe9c2eeaab06b130"
+    },
+    {
+      "bytes": 52899,
+      "file": "original-live-identity-before-failed73-seed.json",
+      "sha256": "8a93c6845efe43cf570971569943eb56ddefca6cb1325596c33a00b3f6c24529"
+    },
+    {
+      "bytes": 12005,
+      "file": "primal-flow-installation.json",
+      "sha256": "75787807f5422d777b0a604f277b9301a25eceab8cd51b1c9baa46d47d0be87b"
+    },
+    {
+      "bytes": 24576,
+      "file": "verified-launch-intent.json",
+      "sha256": "7fb422bc00ad726b16e73c0a00d5d89c6280e163f3b2effab3c8546a010612dd"
+    },
+    {
+      "bytes": 1071,
+      "file": "worker-instrumentation.json",
+      "sha256": "6c48059164dbd29a34c184822697c383ec4202afe55f2043df623caa246b3d66"
+    }
+  ],
+  "source_sha256": "69c9a8d5cccfcfdcdda35c475b089609c789747803a7b363a17fb67c5bae28d0",
+  "spec_sha256": "31d68c88acca1f1c7d4a189d5d6ae8ef3dafd50226fc369eff644be3919c1635",
+  "specification": {
+    "bytes": 11562,
+    "encoding": "json-gzip",
+    "file": "current-solve-spec.json.gz",
+    "raw_bytes": 40543,
+    "raw_sha256": "b2c453d265faeeb46b95c44c97dbc9baa90dc9459d7c6c36c44066c347db10b5",
+    "sha256": "31d68c88acca1f1c7d4a189d5d6ae8ef3dafd50226fc369eff644be3919c1635"
+  },
+  "success": false,
+  "task_completed": false,
+  "word_candidate_source_sha256": "d9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226",
+  "word_directions_returned": 1
+}
