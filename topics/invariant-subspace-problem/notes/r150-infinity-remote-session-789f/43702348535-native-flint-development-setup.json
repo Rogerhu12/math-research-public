@@ -1,0 +1,90 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "native-flint-development-setup",
+  "executionSourceCommit": "f6b2a24e3bdd8948ddbc3c5b83a716520dea4345",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-native-flint-development-setup-789f.py",
+  "scriptSHA256": "ccc3bc319c2666a48b1a7b7676e1860a0cfdfed3858bd8f1ae0bd5d41e049965",
+  "argvTemplate": [
+    "--out",
+    "{work}/native-flint-development-setup-receipt.json"
+  ],
+  "timeoutSeconds": 210,
+  "exitCode": 0,
+  "wallSeconds": 4.124575072999505,
+  "fullTemporaryReceiptBytes": 3627,
+  "fullTemporaryReceiptSHA256": "3c8e8cfe25e4cfd2b53107355c40a93cdbc488536b0bf79a09c316858a974748",
+  "result": {
+    "elapsedSeconds": 4.062882309000997,
+    "format": "isp-native-flint-development-setup-v1",
+    "largeDataUploadedOrCommitted": false,
+    "status": "completed",
+    "parameters": {
+      "actualInstallation": {
+        "argv": [
+          "sudo",
+          "-n",
+          "apt-get",
+          "install",
+          "-y",
+          "--no-install-recommends",
+          "libflint-dev"
+        ],
+        "exitCode": 0,
+        "stderr": "\nRunning kernel seems to be up-to-date.\n\nRestarting services...\n\nService restarts being deferred:\n systemctl restart hosted-compute-agent.service\n\nNo containers need to be restarted.\n\nNo user sessions are running outdated binaries.\n\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\n",
+        "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nSolving dependencies...\nThe following additional packages will be installed:\n  libflint22 libmpfr-dev\nSuggested packages:\n  libmpfr-doc\nThe following NEW packages will be installed:\n  libflint-dev libflint22 libmpfr-dev\n0 upgraded, 3 newly installed, 0 to remove and 4 not upgraded.\nNeed to get 5275 kB of archives.\nAfter this operation, 15.5 MB of additional disk space will be used.\nGet:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [152 B]\nGet:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libflint22 amd64 3.4.0-1 [4714 kB]\nGet:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 libmpfr-dev amd64 4.2.2-3 [317 kB]\nGet:4 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 libflint-dev amd64 3.4.0-1 [245 kB]\nFetched 5275 kB in 0s (15.0 MB/s)\nSelecting previously unselected package libflint22:amd64.\n(Reading database ... \n(Reading database ... 5%\n(Reading database ... 10%\n(Reading database ... 15%\n(Reading database ... 20%\n(Reading database ... 25%\n(Reading database ... 30%\n(Reading database ... 35%\n(Reading database ... 40%\n(Reading database ... 45%\n(Reading database ... 50%\n(Reading database ... 55%\n(Reading database ... 60%\n(Reading database ... 65%\n(Reading database ... 70%\n(Reading database ... 75%\n(Reading database ... 80%\n(Reading database ... 85%\n(Reading database ... 90%\n(Reading database ... 95%\n(Reading database ... 100%\n(Reading database ... 213647 files and directories currently installed.)\nPreparing to unpack .../libflint22_3.4.0-1_amd64v3.deb ...\nUnpacking libflint22:amd64 (3.4.0-1) ...\nSelecting previously unselected package libmpfr-dev:amd64.\nPreparing to unpack .../libmpfr-dev_4.2.2-3_amd64v3.deb ...\nUnpacking libmpfr-dev:amd64 (4.2.2-3) ...\nSelecting previously unselected package libflint-dev.\nPreparing to unpack .../libflint-dev_3.4.0-1_amd64v3.deb ...\nUnpacking libflint-dev (3.4.0-1) ...\nSetting up libmpfr-dev:amd64 (4.2.2-3) ...\nSetting up libflint22:amd64 (3.4.0-1) ...\nSetting up libflint-dev (3.4.0-1) ...\nProcessing triggers for libc-bin (2.43-2ubuntu2.4) ...\n"
+      },
+      "headerExistedBefore": false,
+      "headerExistsAfter": true,
+      "headerVersionLines": "#define __FLINT_VERSION 3\n#define __FLINT_VERSION_MINOR 4\n#define __FLINT_VERSION_PATCHLEVEL 0\n#define FLINT_VERSION \"3.4.0\"\n#define __FLINT_RELEASE __FLINT_RELEASE_NUM(__FLINT_VERSION, __FLINT_VERSION_MINOR, __FLINT_VERSION_PATCHLEVEL)",
+      "maximumInstallSeconds": 180,
+      "package": "libflint-dev",
+      "packageVersion": {
+        "argv": [
+          "dpkg-query",
+          "-W",
+          "-f=${Version}",
+          "libflint-dev"
+        ],
+        "exitCode": 0,
+        "stderr": "",
+        "stdout": "3.4.0-1"
+      },
+      "temporaryJobEnvironmentOnly": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 14:17:14 UTC",
+      "beforeReadCommit": "09d8da38c2fc2d9d7c947d3c1c501a9686ede7b9",
+      "originMainAfterPull": "f6b2a24e3bdd8948ddbc3c5b83a716520dea4345",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 14:17:18 UTC",
+      "beforeReadCommit": "f6b2a24e3bdd8948ddbc3c5b83a716520dea4345",
+      "originMainAfterPull": "f6b2a24e3bdd8948ddbc3c5b83a716520dea4345",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 91,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 31214,
+    "logicalJsonSHA256": "d997d375e2a20da44e7ed34b7bb941e2f41c410f546fbc9145c4eb556b077221",
+    "itemCount": 91
+  },
+  "lastRulesReadCommit": "f6b2a24e3bdd8948ddbc3c5b83a716520dea4345",
+  "summaryExcludesRecomputableArraysOnly": false
+}
