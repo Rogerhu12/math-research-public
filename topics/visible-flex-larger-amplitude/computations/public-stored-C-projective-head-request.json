@@ -1,0 +1,420 @@
+{
+  "schema": "public-stored-C-projective-head-request-v1",
+  "request_number": 162,
+  "repository": "Rogerhu12/math-research-public",
+  "lanes": [
+    "storedCprojectivehead"
+  ],
+  "scientific_entry": "geometry_20261115_stored_continuous_E_cover_v3.py",
+  "source_sha256": {
+    "geometry_20261115_stored_continuous_E_cover_v3.py": "f12f747041783dbb54b16ac2bdb0c3aeeade93e6bc7f276bde9dd81f424df7df",
+    "geometry_20261115_stored_continuous_E_cover_v2.py": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea",
+    "geometry_20261115_stored_continuous_E_cover.py": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed",
+    "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "closure_bounded_point_cache.mjs": "35289a4de44ec409bc211f82c7a1bee81a10c6bc1c5fb31e4ca9a8634cc09043",
+    "exact_20261114_closed_background.mjs": "be358bf780c88ebd85cdf07d9e8d2cc3b37ca20a4d8ea3a1ba69e7c40c2c4e1b",
+    "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
+    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "geometry_20261115_stored_C_v3_cut_twojet_readout.py": "1c39b242224824b361cbe5d28ea838b7e4824f5506a05302c662f045f735aeed",
+    "geometry_20261115_stored_continuous_C_far_graph.py": "fe66789e7d94ab014662250e90642ab7fda3084b39c00b93836459220b33bb2a",
+    "geometry_20261115_stored_C_finite_head_flux.py": "4531b5b35093fa9c0010f9fdbd6700dcf4b099c076b5a3d69d20ccafda8af87d",
+    "geometry_20261115_stored_C_finite_head_projective.py": "5440e2e0457b360120c180a2531e3db899d8534cf6366183fd68d111ede18216",
+    "root_20261115_projective_head_scalar_readout.py": "befe77fc70e67260b475073adfa749ebce6e727c956703c7cbc79afe8389e9c3",
+    "root_20261115_current_C_native_scalar_readout.py": "2f2386afab07e5acc9b6ec155f782cb1ba1c8df5a879607effd5985c151784ff"
+  },
+  "source_count": 16,
+  "original_formula_source_sha256": {
+    "runtime:tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "runtime:strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "runtime:closure_bounded_point_cache.mjs": "35289a4de44ec409bc211f82c7a1bee81a10c6bc1c5fb31e4ca9a8634cc09043",
+    "runtime:exact_20261114_closed_background.mjs": "be358bf780c88ebd85cdf07d9e8d2cc3b37ca20a4d8ea3a1ba69e7c40c2c4e1b",
+    "scripts:closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "scripts:closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "original:tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "original:general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "original:f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f"
+  },
+  "original_source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "proof": {
+    "file": "topics/visible-flex-larger-amplitude/results/R286-original-stored-continuous-integral-and-metric-bridge.md",
+    "bytes": 37491,
+    "sha256": "81d061a6db372a531a119d54298a68d1b9804a7e08fea0fd33bc5fe75a809efb",
+    "published_commit": "90b232d861000cb1ce94a6d5420836c1d89f910a"
+  },
+  "inputs": {
+    "config": {
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "runtime_basename": "tail-config.json",
+      "historical_public_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
+      "role": "complete unchanged original physical configuration; finite mode settings do not define a new field"
+    },
+    "calibration_ledger": {
+      "file": "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "historical_public_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
+      "git_blob": "4fa8a8a7ae5d482cd0eaf35790db85201bbac4a3",
+      "bytes": 109004,
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "runtime_basename": "ledger-ready.json"
+    },
+    "stored_reference": {
+      "file": "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+      "historical_public_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
+      "git_blob": "b6c44fe237750f13c8b10366f15525b481a74e09",
+      "bytes": 29774,
+      "sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+      "runtime_basename": "stored-ready.json"
+    }
+  },
+  "query_recipe": {
+    "file": "topics/visible-flex-larger-amplitude/computations/original-stored-continuous-E144-queries.json",
+    "bytes": 1303,
+    "sha256": "4e59c69fae54045e100180e2d7576b848423a503394ff0b4dd87f6e219b7fd59"
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "scientific_parameters": {
+    "deep_definition": "original-exact-root-family",
+    "precision_bits": 256,
+    "integral_absolute_bits": 96,
+    "integral_relative_bits": 80,
+    "integral_evaluation_limit": 100000,
+    "value_width_bits": 24,
+    "max_depth": 48,
+    "query_depth": 12,
+    "max_panels": 200000,
+    "max_query_nodes": 200000,
+    "budget_seconds": 3600,
+    "analytic_guard_bits": 8
+  },
+  "complete_scope": {
+    "finite_head_cells": 160,
+    "pieces_per_cell": 9,
+    "finite_head_pieces": 1440,
+    "all_six_primitive_names": [
+      "A",
+      "B",
+      "sqrtE_A",
+      "sqrtE_B",
+      "w_A",
+      "w_B"
+    ],
+    "infinite_deep_cells": "all n >= 160",
+    "deep_root_interval": [
+      "1/2",
+      "2"
+    ],
+    "deep_root_choice_resolved": false,
+    "natural_outer_radius_computed_from_complete_primitives": true,
+    "full_closed_query_plan_preserved": true,
+    "all_unpaid_panels_and_suffixes_preserved_temporarily": true,
+    "finite48_tree_executed": false,
+    "original_finite_output_relabelled": false,
+    "R26_numerical_certificate_used": false,
+    "actual_accepted_field_supplied": false,
+    "no_original_metric_threshold_or_acceptance_gate_added": true,
+    "original_config_binary_cut_is_first_point_query": true,
+    "original_whole_natural_domain_is_second_query": true,
+    "actual_complete_cut_leaf_twojet_readout_required": true,
+    "derivative_width_not_an_additional_acceptance_test": true,
+    "complete_physical_frequencies": "2,4,...,224",
+    "deep_port_F": 159,
+    "physical_deep_node": 160,
+    "actual_new_interval_linear_ODE": true,
+    "physical_coordinates": [
+      "u",
+      "k=dH/dr"
+    ],
+    "internal_continuous_flux_coordinates": [
+      "u",
+      "j=w*k"
+    ],
+    "no_extra_source_length_or_old_Pi_port": true,
+    "all_original_cut_inverse_fragments_and_closed_tubes": true,
+    "original_QF_one_column_normalization_restored": false,
+    "complete_unstarted_modes_and_current_spatial_stack": true,
+    "cut_DN_only_if_each_actual_height_interval_excludes_zero": true,
+    "nonlinear_DN_existence_or_nonzero_tail_not_inferred": true,
+    "original_QF_one_column_retained_as_verified_nonzero_factorization": true,
+    "materialized_original_QF_one_cut_rectangle_not_claimed": true,
+    "chart_normalization_requires_strict_nonzero_actual_endpoint_interval": true,
+    "amplitude_sign_log_and_all_pivot_factors_retained": true,
+    "whole_inherited_box_in_Taylor_Duhamel_not_replaced_by_midpoint": true,
+    "cut_candidate_quotients_formed_before_any_hull": true,
+    "differently_scaled_Robin_rows_retained_as_indexed_family": true,
+    "no_unconditional_chart_or_DN_or_convergence_guarantee": true
+  },
+  "execution": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "science_step_timeout_minutes": 75,
+    "job_timeout_minutes": 360,
+    "rules_sync_period_seconds": 2700,
+    "declared_work_budget_is_partial_scope_not_mathematical_failure": true,
+    "numerical_child_has_no_GitHub_token": true,
+    "cut_twojet_readout_step_timeout_minutes": 10,
+    "far_step_timeout_minutes": 5,
+    "linear_step_timeout_minutes": 250,
+    "report_timeout_minutes": 5,
+    "original_v3_work_budget_seconds": 1800,
+    "new_linear_work_budget_seconds": 14400,
+    "separate_rule_sync_parent_for_linear_step": true,
+    "current_v3_work_budget_seconds": 3600,
+    "namespace_science_deadline_seconds": 18900,
+    "readback_reserve_seconds": 2700,
+    "complete_linear_and_rule_readback_timeout_minutes": 30,
+    "minimum_free_disk_bytes": 34359738368,
+    "linear_free_bytes_reserve": 2147483648,
+    "actual_linear_budget_clipped_to_namespace_deadline_remaining": true,
+    "original32_10_BVP_or_metric_gates_not_changed": true
+  },
+  "retention": {
+    "raw_temporary_only": true,
+    "upload_artifact": false,
+    "upload_release": false,
+    "publish_raw_to_git": false,
+    "complete_result_and_query_metadata_in_bounded_stdout": true,
+    "temporary_ledgers_and_original_inputs_readout_then_always_removed": false,
+    "retain_only_script_parameters_run_hash_and_compact_conclusion": true,
+    "cut_twojet_exact_readout_is_separate_bounded_stdout_block": true,
+    "far_and_linear_each_have_separate_bounded_stdout": true,
+    "no_combined_large_primary": true,
+    "complete_original_mode_cut_candidate_cut_leaf_unpaid_rows_in_semantic_stdout": true,
+    "large_panel_coefficient_and_factor_streams_identity_and_row_count_only": true,
+    "large_stream_identity_does_not_imply_independent_numeric_audit": true,
+    "semantic_helper_bytes_per_block": 90000,
+    "original_error_byte_segment_size": 12000,
+    "cleanup_requires_complete_actual_readback_marker_and_readback_steps": true,
+    "raw_if_readback_fails_retained_only_until_runner_destruction": true
+  },
+  "evaluation_strategy": {
+    "schema": "R306-complete-cap-endpoint-and-supported-budget-six-integral-strategy-v3",
+    "preserved_original_producer_source": {
+      "file": "geometry_20261115_stored_continuous_E_cover.py",
+      "bytes": 66415,
+      "sha256": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed"
+    },
+    "current_producer_schema": "R286-original-stored-convention-C-continuous-E-cover-v3",
+    "original_model_schema_unchanged": "R286-original-stored-continuous-model-convention-C-v1",
+    "original_six_full_width_goal_unchanged": true,
+    "exact_map": "I_k=(b-a)*M_k*integral_0^1 f_k(a+(b-a)*t)/M_k dt",
+    "actual_recovered_full_width_checked": true,
+    "analytic_guard_bits_not_a_certificate": true,
+    "pointwise_q_zero_is_not_treated_as_a_proof_of_holomorphy": true,
+    "all_cap_and_cusp_branches_retained": true,
+    "all_original_work_budgets_unchanged": false,
+    "proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md",
+      "bytes": 13875,
+      "sha256": "6f3593306fa66098c73f2aaa12ca21788263c24eac6f31c881bb52308b601ea1"
+    },
+    "preserved_unit_panel_producer_source": {
+      "file": "geometry_20261115_stored_continuous_E_cover_v2.py",
+      "bytes": 77697,
+      "sha256": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea"
+    },
+    "unit_panel_proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md",
+      "bytes": 15793,
+      "sha256": "3505389d22bc63f6d7b5c7cde62e36e856d94993841fc7eb3cdd034ff92a10e0"
+    },
+    "endpoint_primitive_components": [
+      "A",
+      "sqrtE_A",
+      "w_A"
+    ],
+    "endpoint_premises": [
+      "original_chi_identically_one",
+      "complete_closed_panel_w_derivative_has_one_proved_sign",
+      "complete_positive_w_after_original_cap_flat_valley_cut_overwrites"
+    ],
+    "no_raw_cap_branch_requirement": true,
+    "all_possible_original_endpoint_branches_hulled": true,
+    "full_six_components_preserved": true,
+    "existing_valid_full_width_goal_allows_skipping_only_that_Acb_component": true,
+    "callback_budget_transport": {
+      "global_exception_class_unchanged": "ResourceStop(Exception)",
+      "requires_actual_caught_ResourceStop": true,
+      "supported_transport_type": "ValueError",
+      "never_inferred_from_elapsed_or_unrecorded_SystemError": true,
+      "original_pending_and_source_suffix_retained": true
+    },
+    "incomplete_head_prefix_has_separate_identity_not_natural_Rout": true,
+    "only_declared_upstream_wall_budget_changed": false,
+    "current_C_evaluation_identical_to_actual156": true,
+    "original_C_3600_and_all_integral_parameters_unchanged_from_actual156": true,
+    "independent_projective_finite_head_and_explicit_resource_plan": true
+  },
+  "preceding_actual_execution": {
+    "request_number": 139,
+    "run_id": "43710988676",
+    "source_commit": "431ec67492ab99b63b42a9a1d962bea0a2cdaf0b",
+    "compute_job_id": "132802263809",
+    "result_sha256": "74ecaa93eed9f3ec0f78edb777f858e5b13fbdad916551ca116a976de5ad9c38",
+    "scalar_summary_sha256": "8ed43445ca84981899c68da46615e9a3781ce4b327e0116faab44dd6bedf7cb3",
+    "role": "Actual full1440/six-primitive and whole-domain completion motivates an explicitly first original-cut point query and complete-leaf twojet readout; no prior numerical ledger is an input",
+    "preserved_physical_inputs_and_budgets": false,
+    "original_whole_natural_query_retained": true,
+    "point_query_order_change_explicit": true,
+    "current_run_result_or_success_predeclared": false,
+    "preserved_physical_inputs": true,
+    "explicit_current_upstream_wall_budget_seconds": 3600
+  },
+  "cut_twojet_readout": {
+    "file": "geometry_20261115_stored_C_v3_cut_twojet_readout.py",
+    "bytes": 19023,
+    "sha256": "1c39b242224824b361cbe5d28ea838b7e4824f5506a05302c662f045f735aeed",
+    "schema": "R286-v3-original-binary-cut-complete-twojet-hull-v1",
+    "point_query_id": "original-binary-config-cut-point",
+    "complete_original_leaf_stream_hashed": true,
+    "all_point_leaves_E_Er_Err_exact_dyadic_hull": true,
+    "new_readout_arithmetic_is_Actions_only": true,
+    "original_domain_bounds_cross_checked": true,
+    "no_new_integral_or_ODE_or_J": true,
+    "original_E_only_work_goal_unchanged": true,
+    "no_derivative_width_gate": true,
+    "partial_source_or_point_returns_null_jet": true,
+    "summary_independent_of_original_scalar_block": true,
+    "scalar_summary_limit_bytes": 90000
+  },
+  "deep_far": {
+    "file": "geometry_20261115_stored_continuous_C_far_graph.py",
+    "bytes": 16333,
+    "sha256": "fe66789e7d94ab014662250e90642ab7fda3084b39c00b93836459220b33bb2a",
+    "schema": "R312-original-C-root-family-complete112-deep-far-enclosure-v1",
+    "proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R312-continuous-C-complete112-zero-tail-and-head-connection.md",
+      "bytes": 26907,
+      "sha256": "036289ed624b59456cfee700217f442d26104cae76bf33d9affd8ec618c9ac73"
+    },
+    "parameters": {
+      "far_port": 159,
+      "precision_bits": 256
+    },
+    "original_three_byte_inputs_reused_same_job": true,
+    "no_old_zero_J": true
+  },
+  "finite_head": {
+    "file": "geometry_20261115_stored_C_finite_head_projective.py",
+    "bytes": 77731,
+    "sha256": "5440e2e0457b360120c180a2531e3db899d8534cf6366183fd68d111ede18216",
+    "schema": "R347-original-C-complete112-projective-cut-family-enclosure-v1",
+    "proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md",
+      "bytes": 15106,
+      "sha256": "29f79e1fff0fb872f1ae4920ff4ecbe459ca8aeb84f8dea639dd4bbe42f577f0"
+    },
+    "parameters": {
+      "precision_bits": 256,
+      "budget_seconds": 14400,
+      "max_panels": 25000000,
+      "max_depth": 32,
+      "local_defect_bits": 12,
+      "panel_norm_limit": "1/2",
+      "taylor_terms": 24,
+      "max_geometry_cache_records": 65536,
+      "free_bytes_reserve": 2147483648
+    },
+    "requires_actual_same_job_cover_result_and_far_result": true,
+    "actual_result_sha256s_computed_at_runtime": true,
+    "midpoint_matrix_is_exact_dyadic_with_full_variation_bound": true,
+    "whole_initial_box_and_Taylor_Duhamel_errors_retained": true,
+    "coarse_valid_panel_not_rejected_as_mathematical_failure": true,
+    "original_R324_proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R324-continuous-C-finite-head-flux-and-closed-tube.md",
+      "bytes": 14346,
+      "sha256": "f99acd8b025b38f5f2cdacbc8e129debbb48467587e72f92f74df5065fcad796"
+    },
+    "original_physical_column_preserved_as_factorization": true,
+    "no_materialized_original_QF_one_hull_claim": true,
+    "all_original_cut_leaf_members_and_partial_transactions_retained": true,
+    "strict_chart_pivot_and_every_candidate_DN_denominator_separate": true
+  },
+  "preceding_actual_deep_execution": {
+    "run_id": 43714438444,
+    "source_commit": "a809a7ebb9883f6c5cdbc49f401b2ea0c2fc7a77",
+    "result_sha256": "cad937a1ae6a688324650eea2c352f43eb7f9dc0f01236fe4250702b63086c1a",
+    "scope": "all112 deep far only; no cut DN; this request recomputes actual raw within its own job"
+  },
+  "historical_retry_of_actual148_not_current_experiment": {
+    "request_number": 148,
+    "run_id": "43719446020",
+    "source_commit": "da307af38f4c9ae29fdb650603342da53a181060",
+    "compute_job_id": "132828030323",
+    "report_job_id": "132836205506",
+    "actual_cover_result_sha256": "50572f01210e23a5e37b17f43206afa6f48676e2c78bb40ddf22594e95cf84b7",
+    "complete_original_source_pieces": 1432,
+    "original_source_piece_count": 1440,
+    "first_unpaid_original_piece": 1432,
+    "remaining_original_piece_suffix": {
+      "first": 1433,
+      "stop": 1440
+    },
+    "cut_columns_started": 0,
+    "old_upstream_wall_budget_seconds": 1800,
+    "new_upstream_wall_budget_seconds": 3600,
+    "linear_wall_budget_seconds_unchanged": 1800,
+    "source_or_mathematical_object_changed": false,
+    "prior_raw_output_is_not_a_current_input": true,
+    "new_success_predeclared": false
+  },
+  "binding_work_budget_scope": {
+    "finite_head_binding_function": "original_core",
+    "ignored_only_for_object_comparison": [
+      "query_input",
+      "runtime",
+      "work_parameters"
+    ],
+    "actual_current_work_parameters_still_retained": true,
+    "preserved_original_R324_source_sha256": "4531b5b35093fa9c0010f9fdbd6700dcf4b099c076b5a3d69d20ccafda8af87d",
+    "current_projective_source_sha256": "5440e2e0457b360120c180a2531e3db899d8534cf6366183fd68d111ede18216",
+    "original_C_mathematical_parameters_inputs_and_sources_unchanged": true
+  },
+  "projective_readout": {
+    "file": "root_20261115_projective_head_scalar_readout.py",
+    "bytes": 19995,
+    "sha256": "befe77fc70e67260b475073adfa749ebce6e727c956703c7cbc79afe8389e9c3",
+    "standard_library_helper": {
+      "file": "root_20261115_current_C_native_scalar_readout.py",
+      "bytes": 29751,
+      "sha256": "2f2386afab07e5acc9b6ec155f782cb1ba1c8df5a879607effd5985c151784ff"
+    }
+  },
+  "original156_request": {
+    "file": "public-stored-C-finite-head-retry-request.json",
+    "bytes": 16157,
+    "sha256": "8ce21c4d006fe26eb53d4fcba87bf2b72c4f84856bd60be4d128ecb2599d6a92",
+    "source_commit": "1ca4196b99b61428bc4ab216bbc713ba2e77023e"
+  },
+  "preceding_actual156": {
+    "run_id": "43724040548",
+    "source_commit": "1ca4196b99b61428bc4ab216bbc713ba2e77023e",
+    "compute_job_id": "132841952200",
+    "report_job_id": "132853824667",
+    "formal_result": "results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md",
+    "all1440_C_pieces_and_deep112_returned": true,
+    "complete_cut_modes": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "original_complete_mode_height_intervals_contained_zero": true,
+    "original_shared_panel_budget": 200000,
+    "first_unfinished_mode": 10,
+    "prior_scientific_raw_not_a_current_input": true,
+    "new_success_not_predeclared": true
+  },
+  "explicit_resource_rationale": {
+    "original_required_source_panels_per_mode": 14644,
+    "full112_baseline_requires_each_original_required_panel_per_mode": true,
+    "old200000_shared_attempt_budget_cannot_cover_even_full112_unsplit_baseline": true,
+    "new_budget_is_explicit_work_plan_not_an_empirical_success_prediction": true,
+    "projective_method_addresses_representation_and_budget_only_addresses_work_scope": true
+  }
+}

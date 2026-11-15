@@ -105,3 +105,7 @@
 ## 2026-11-15 16:27:25 UTC /root — 167实际编码错误最小修复
 
 首跑43735131654/read132875931222真实失败，原163日志8265333B/caa25be9完整下载，最后index整数键编码拒；不填FD/J/H科学值。四件完整8918B差异读后发source56102085/requestdcd09ad5，仅字符串键和原错误小index；amplitude接下一actual。API核70be7e0977d3cfaa8c155ad60db57f7d9e6514dc双README未变，真实pull行保留。
+
+## 2026-11-15 16:29:02 UTC /root — 162同C完整112射影入口发布
+
+完整driver差异/reader全文/workflow66900B差异核后五件即发：5440e2e0/befe77fc/5b002d6f/c9e30f35，原C3600及16pins保，25M/14400s与严格双图/逐候选商分责。明确18900为资源计划、step250/job360硬限，绑定成本排除；四读回+同源marker+owner静止才清。geometry接actual/R355；API核f10ea8eed59c12eab7907dffb6a6f5a38465772b双README未变，真实pull记录保。

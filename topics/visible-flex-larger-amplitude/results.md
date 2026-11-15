@@ -234,3 +234,5 @@
 - [Request167：实际163日志内157必要完整科学字段的小报告读回](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)（纯元数据入口）：一次原163/read157 GET，全语义/身份核；保初末162FD、全8outer J/H/梯度、末K/g/H/QR和84真实trial，必需矩阵结构缺失明确失败。仅完全相同原数组字节共用引用，5×76000B+≤18000B索引/总≤400000，6report；超限诚实留错误，不重科学、不冒巨大内表逐值已读或实际秩。
 
 - [Request167实际首次元数据编码失败及修复](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md#8-首跑真实读取层失败及本版最小修复)：43735131654已一次读原163日志，但整数outer键使最终index失败，原FD/J/H未据此认已读；仅输出键转str、最后编码异常保全，未重157科学。
+
+- [Request162：同一原C完整112双图传播与逐候选cut商接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：R347严格表示接原C/深端和16源闭包，完整幅因子/误差链保，25M共享工作次数；逐cut候选除法后hull，DN旗标独立。完整mode/cut/leaf/unpaid与原错误读回，prepared只按commit付，活owner及读错阻主动清理；源已发布，actual未预填。

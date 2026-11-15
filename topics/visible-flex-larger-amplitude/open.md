@@ -113,3 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### 167实际编码失败及最小修复
 
 首跑43735131654/source e5dd9ff8/read132875931222只读原163语义日志一次，8265333B/caa25be9f57c9d69e3ab8e1764d4ef4431eacbfd40726953df76803dcdafb160；最终metadata index的internal_coverage整数outer键被原encoder拒，compute29026B/d10df854ab0becb8b29fcf006b2c8fac13e76b73a43d6c1a45b020e4da92fd9c，尚未付原157 FD/J/H逐值读回。四件最小修改只将输出键转str并保最终编码完整异常为小failure index，原选定字段、shape、预算和科学源不改；新source56102085/requestdcd09ad5，下一actual由amplitude唯一读。
+
+### 162完整原C双图传播入口已发布
+
+[接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)与driver77731B/5440e2e0、reader19995B/befe77fc、request20703B/5b002d6f、workflow74330B/c9e30f35同时发布。原156的三输入、C3600、两闭query、深端112和原13pins保，新增3源共16；原R324/R312与R347都绑定。新严格pivot及幅符号/log链、全继承误差、逐cut候选合法商后hull，未声称物化原QF=1单列或全DN。完整112/25M/14400s/free2GiB，18900仅startup后clip计划、绑定时间排除，硬限250/360min，45min读回是预留计划。prepared记录只由完整commit spans支付；全mode/cut/leaf/unpaid逐原行读，大coeff/panel/commit仅全身份/行数，不冒逐值独核。四读回成功、同run/source marker及原PID/start_ticks/专属science组均静止才清理；活进程时只读错误前缀并明确未读未来尾部。geometry唯一核actual/R355；每条原partial/失败照实记，原native/BVP/闭合README责任不变。
