@@ -129,3 +129,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:48 UTC /root — R282局部owner与完整mixed组合器
 
 [完整源码接口](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)13494B/cd24dc49及两新源15454B/0b52a408、28554B/4e31ad6b已完整读过，最终四处差异另核。真实field/rho/完整FFT含mean和Nyquist、实际材料角与半径membership、严格cross-Gram、原全相位及R281逐叶OR，空间×两RP1闭覆盖和全部rank/未决栈保留。只源/参数/接口入库，静态回执不入库，无科学执行或真实接受场；不预填全reach。H压缩已完成115/116原值至正式note，保当前责任。
+
+## 2026-11-15 07:53 UTC /root — 修正R282源目录
+
+将刚提交的两个新源从scripts普通移至接口指定的computations，与原loader和依赖同目录；原字节/SHA及数学不变，未运行科学。不存在额外来源或复算门。
