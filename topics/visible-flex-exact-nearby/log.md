@@ -387,3 +387,7 @@ run43674204314/1真实child0、10门、660原片5484..6143，数学4.990880255s�
 ## 2026-11-15 04:01:26 UTC — 部署原闭行帽本征常数消费
 
 root全文核newton_source五件SCI b0e930d6…、CI79ccf028…、18pin f1ddde2a…。来源为原4650闭行的intrinsic字段，不是field-dependent系数；真实帽交段、完整germ/ην、γK positivity、原四parts整体SHA核明确，0旧target/grid/repair/660 Bernstein重算。新SCI只计算已成闭球的完整最大上端，实际计算仍仅公开Actions。H9873B逐字归档f5545de0…。root亲读Green37022B process0bb19425…的六真pull，末03:58:26.270753→cfe1885367d9cad926f5d436cb7f8bbc04680d95，两README diff空；715/5970仍运行。只读README核b75f41fa32b8ead9bb5121b725a0afe1a2f5ae5c，五件独推。
+
+## 2026-11-15 04:04:35 UTC — 部署两真实邻片相关射线完整源
+
+phase_inverse科学SCI dd0cd551…51508B、algebra1860872f…24469B，root全文核三角jet、K15/原K3尾、exact C0修补差及rho导号、signed均值/forcing顺序、复strip真实系数、全部两ray与完整源。newton窄核cubic/整行选择，tail核N5–10/N17–23；SCI仅新增两邻片消费。root写CI4fe4c38a…/worker359e7927…，phase全文核原case/oldserial/各payload/selection与0数学adopt。原whole publicationfc3a190…确认native名与六case原SHA，artifact14143946126整件19.29MB元数据核；manifest244项09c89e02…83150B保80旧pins与150 Taylor。自然large stage不人为拆分，成功piece sum/selection/summary即时独立保存。实际AST及所有新数学仍只公开Actions；尚无运行数值。只读README核d1df9d97eded2277c3da18aa6f50ce6cf12a0349，六件立即独推。

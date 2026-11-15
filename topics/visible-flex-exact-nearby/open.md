@@ -143,3 +143,7 @@ P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-
 ### 2026-11-15 cached complete intrinsic cap bounds deployed
 
 新18pin五件只消费原ea174511…4650闭行的β/γ/K intrinsic，帽区准确[9/10,25/8]按所有真实交段取有向max。恢复原32b430a2…manifest的4旧parts、6223338B原gzip，禁止新分片或旧target/grid重算。同η0/原ν0与same_intrinsic_cap_v2/germ逐行核。SCIb0e930d6…/CI79ccf028…/manifestf1ddde2a…；actual后与已成660 joint及P19/O14结合，当前部署未冒实际常数。
+
+### 2026-11-15 two genuine neighboring pieces: complete consumer deployed
+
+N1–25合同已接244pin六件：SCI dd0cd551…/algebra1860872f…/CI4fe4c38a…/worker359e7927…/manifest09c89e02…。原80输入与150 Taylor阶段保，原436691 artifact14143946126的六case按原SHA恢复到work；自然>5MB只留artifact。真正2548/2550的修补后signed cubic差、两principal ray、ΔA/X/G/forcing/w1两导及原9非局部/5均值源由同实际R.001 profile消费。只按整行完整上界合法选择，不减旧upper；所有片外原行逐字保。piece sum、case选择与六summary各自不可变stage；完整child0可0新数学adopt，部分恢复不重旧成功sum/min。当前只部署，不称新数值缩界/端口/strong return。

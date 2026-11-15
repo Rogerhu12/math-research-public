@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：两相邻真实片的相关射线完整源合同](results/R133-supplement-correlated-adjacent-piece-rays-and-first-Airy-source-transfer.md)已接244pin六件公开消费者：保存原80输入、150 Taylor阶段、六完整原case；只新增2548/2550相关差及其完整源行，全部非零入口、两ray、mean、旧I/J与真实接缝保留，待实际输出。
+
 - [R133：既成完整正区闭行到帽区本征常数的消费合同](notes/2026-11-15-R133-cached-complete-cap-intrinsic-contract.md)：18pin五件从原4650行精确恢复，核同η/ν/germ与全帽覆盖，消费β/γ/K闭球的完整上端；新660联合界仅原样引用，尚待实际执行。
 
 - [R133：实际完整帽区193方向逐模联合界](notes/2026-11-15-R133-actual-complete-cap-Z-joint-coefficient-bounds.md)：43674204314 child0/10门/660片，原Z联合A0<.842592508277、A1/64<.898277121481，四宽×三角导全付，0旧目标/修补/残差重算；完整mean与真实9/10保留。

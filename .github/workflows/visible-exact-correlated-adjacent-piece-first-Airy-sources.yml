@@ -1,0 +1,127 @@
+name: visible-exact correlated sources on the two true neighboring pieces
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-correlated-adjacent-piece-first-Airy-sources.yml']
+  workflow_dispatch:
+    inputs:
+      resume_run:
+        description: 'Optional exact adjacent-piece run whose accepted immutable stages and whole cases will be reused'
+        required: false
+        type: string
+        default: ''
+      resume_attempt:
+        description: 'Original attempt for the optional exact prefix artifact'
+        required: false
+        type: string
+        default: '1'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-correlated-adjacent-piece-first-Airy-sources
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-correlated-adjacent-piece-first-Airy-sources-CI-inputs.json
+  PHASE_MANIFEST_SHA: 09c89e02b98915040f183560ed9d0ea31c5eeb683ad4bb3d056a74d4407aa10d
+  PHASE_PIPELINE_SHA: 4fe4c38a19def350dd0081f8586bc29158ee8aac6095f178b9f25b4a909df128
+  PHASE_WORKER_SHA: 359e7927bb108f5e080ff99120017b88fa3266546102fcdc1eaf9d33261aa5a5
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+
+jobs:
+  complete-correlated-adjacent-piece-first-Airy-sources:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 65
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact consumer entry points
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-correlated-adjacent-piece-first-Airy-sources-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Verify the separately pinned publication worker
+        run: |
+          python - <<'PY_WORKER'
+          import hashlib,os,pathlib
+          path=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources_public_worker.py')
+          assert hashlib.sha256(path.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA'], 'publication worker changed'
+          PY_WORKER
+      - name: Hydrate244 exact inputs preserving150 original Taylor stages and all complete exterior sources
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources_public_worker.py
+          --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the complete pinned Python source closure without running mathematics
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['PHASE_MANIFEST']).read_text())
+          for entry in manifest['files']:
+              path=pathlib.Path(entry['path'])
+              if path.suffix=='.py':
+                  ast.parse(path.read_text(),filename=str(path))
+          PY_SOURCE
+      - name: Install the pinned original numerical environment
+        run: >-
+          python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Set the actual result path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-correlated-adjacent-piece-first-Airy-sources-output" >> "$GITHUB_OUTPUT"
+      - name: Prepare a separate optional prefix directory
+        run: mkdir -p "$RUNNER_TEMP/visible-exact-correlated-adjacent-piece-first-Airy-sources-prepared"
+      - name: Restore the original complete six-case root-piece artifact without recomputing mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-whole-physical-root-piece-first-Airy-sources-43669106351-1
+          run-id: 43669106351
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-correlated-adjacent-piece-first-Airy-sources-prepared/whole
+      - name: Restore an explicitly selected complete adjacent-piece prefix
+        if: ${{ inputs.resume_run != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-correlated-adjacent-piece-first-Airy-sources-${{ inputs.resume_run }}-${{ inputs.resume_attempt }}
+          run-id: ${{ inputs.resume_run }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-correlated-adjacent-piece-first-Airy-sources-prepared/resume
+      - name: Compare only the two true neighbors and reuse all unchanged complete rows
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources_public_worker.py
+          --mode run --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-correlated-adjacent-piece-first-Airy-sources-science"
+          --prepared "$RUNNER_TEMP/visible-exact-correlated-adjacent-piece-first-Airy-sources-prepared"
+          --out-dir "$RUNNER_TEMP/visible-exact-correlated-adjacent-piece-first-Airy-sources-output"
+      - name: Preserve every true native and failure record
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-correlated-adjacent-piece-first-Airy-sources-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 6
+          retention-days: 90
+          if-no-files-found: error
