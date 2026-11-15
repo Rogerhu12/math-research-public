@@ -351,3 +351,11 @@ root全文核S新增§11，并与newton独核核对：incoming fB=0的B宽7L/16�
 root全文审P及最终265B根阶说明，独立推导P7–18/P21–24；newton独立核全新恒等与原fold/positive-consumer接线。w1=M(A,B)，两条原regular transport给P(A,B)，leading矩阵intertwiner的正号iε b0J和E12左乘顺序均保；公共connection按准确和消去，非两个upper相减。P18根商由Aφ=O(ρ)及T/ρ真gap或leading首行可去。
 
 root亲读旧actual43698106023报告表格，确认完整RT=1/2000、forcing strip1/128、amplitude strip3/512与同参数方盒；新image/gap和实际改善仍待Actions。原18个正线性系数、6行/true dr/rootband只读，uniform比率比较算法预算数lower，非函数lower。正文15907B/blob232c4e3cbe0a4f4d839d2ea4bef48d55b98cdb6f/SHA256 df741e5a387a4d7bc382336f7b8ee42da72e4725730aaa4adaeb2f4553ffd3eb。推前main 7f5fb9ae5346d47b1ac5618fd49aa4ffc8a3fb54 两README未变；每结论独推，继续完整core/高逆。
+
+### 2026-11-15 10:47:23 UTC — P26保完整根包络，部署唯一新L1标量consumer
+
+P§7补明Cnew是共同|ρ|^-1/4包络的系数；原六行cJ及平方|ρ|^-1/2 dr/one-sided根带全保。root核补充正文及修显示式，未改数学算法。最终proof16517B/SHA c559a2af9288b0c36021c5670c3c1c70eac38b514c9b9d066dd913982fa4479a。
+
+root全文读33577B SCI与manifest/flow，worker相对成功D的完整差异；newton独核数学三函数/域/旧预算比率。17pins467721B（原D共享12逐字，14current+3history）；旧成功fold/4receipt/18系数/31项只读，只有新1个L1预算、1比率/3组合。公共AST闭包与13实际门待runner，代码模式仅delimiter/文字/SHA元数据。SCI c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048；manifest8113b0d7e73c220a766947c198c09b6e66bd3a83210539fed6b4d6d5285e8e3f；worker580a0aed23253f564a6f14504234acd1a32b9a1514ec29ad41ae41081140a526；flow5ad3512ea1c28df7111c89616eae5e185ab98610b3254f52a0ffe1eda139265b。
+
+worker新增真实ls-tree topic bytes/count/head与出版两小文件准确delta容量门，严格<200000000；无旧数学重算/新data保存。open压缩已完成组件的冗余细账，逐字恢复802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e:open.md；未付义务全保。推前main e953335cc49c282de46bbaa832e6872b6c65188c 两README未变。等待实际新门同时继续其它核心问题。

@@ -313,10 +313,15 @@ $$
 $$
 Only the amplitude is continued in the complex old angle. This does not use an unproved complex genuine-column operator norm.
 
-These six real angular budgets can be inserted into the already accepted 18 positive-linear comparison coefficients for the identical fold, genuine-column profiles, label partition and negative physical cover. That yields a new complete all-output norm
-mathcal A^V(L_1):H^(-4/3)->H^(-5/3), with both signs, both columns and the output mean. The original fixed column operator and profiles are not reevaluated.
+These six real angular budgets can be inserted into the already accepted 18 positive-linear comparison coefficients for the identical fold, genuine-column profiles, label partition and negative physical cover. Their output C_new is the coefficient of the same common column envelope. At each real negative-side circle away from the root,
+$$
+ \|\mathsf S^V(L_1):H^{-4/3}_{|j|\ge97}\longrightarrow H^{-5/3}\|
+       \le |\rho|^{-1/4} C_{\rm new}.
+ \tag{P.26}
+$$
+Both signs, both genuine columns and the output mean are included. C_new alone is not asserted to be a radius-independent pointwise operator norm. The original fixed column operator and profiles are not reevaluated.
 
-The old successful complete L_1 norm was itself a positive algorithmic budget. Its strict positive lower endpoint can therefore be used exactly as in D.6--D.9 of the two-window reuse theorem: if C_new is the new complete coefficient, beta_old is that lower endpoint, and q=min(1,C_new/beta_old), then the accepted local_raw_1 radial L2 bound may be multiplied by q. The original outer J, exact physical dr and uncertain-root charge remain. This compares the same entire local vector and never subtracts the old w_1,rr contribution from an upper bound.
+The old successful complete L_1 norm was itself a positive algorithmic budget. Its strict positive lower endpoint can therefore be used exactly as in D.6--D.9 of the two-window reuse theorem: if C_new is the new complete coefficient, beta_old is that lower endpoint, and q=min(1,C_new/beta_old), then the accepted local_raw_1 radial L2 bound may be multiplied by q. The original outer J, exact physical dr and uncertain-root charge remain. More explicitly, each of the same six original row intersections retains its complete c_J,1(row) and the squared common envelope |rho|^(-1/2) dr; the original one-sided uncertain-root bound is unchanged. The new ratio only multiplies the shared complete coefficient of this identical measure and never reapplies or cancels the radial envelope. This compares the same entire local vector and never subtracts the old w_1,rr contribution from an upper bound.
 
 The current two other local vectors, all directed-word and old-mean source terms, the independent physical even-mean terms and their complete actual radial integrals are read unchanged. A new pair bound is formed only from complete valid component bounds, retaining an old complete bound whenever it is better.
 

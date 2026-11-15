@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "kind": "immutable_inputs_for_regular_transport_first_local_vector_reduction_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_transport_first_local_vector.py",
+  "scientific_source_sha256": "c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048",
+  "input_paths": {
+    "old_fold_majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "amplitude_execution": "topics/visible-flex-exact-nearby/notes/correlated_whole_reference_scalar_budget_ci/run-43698106023-1/execution.json",
+    "potential_execution": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+    "complete_genuine_execution": "topics/visible-flex-exact-nearby/notes/complete_genuine_negative_sources_ci/run-43702688640-1/execution.json",
+    "complete_genuine_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_genuine_negative_sources.py",
+    "ordered_source_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md",
+    "whole_scalar_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md",
+    "old_genuine_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md",
+    "directed_source_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_word_genuine_source_reuse.py",
+    "directed_source_execution": "topics/visible-flex-exact-nearby/notes/directed_word_genuine_source_reuse_ci/run-43703879926-1/execution.json",
+    "directed_reuse_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md",
+    "original_scalar_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_whole_reference_scalar_budget.py",
+    "original_fold_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md",
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_transport_first_local_vector.py"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+      "bytes": 27645,
+      "sha256": "d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/complete_genuine_negative_sources_ci/run-43702688640-1/execution.json",
+      "bytes": 25715,
+      "sha256": "bca0f97d7c610f8f2572e61d1e1442a8b9c256a4c5429253682b6d803e3a21c3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_whole_reference_scalar_budget_ci/run-43698106023-1/execution.json",
+      "bytes": 45554,
+      "sha256": "3896925b758840c4bbf2ce910141ca8a93d725d56bf22b5002e9c0b2486004af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_word_genuine_source_reuse_ci/run-43703879926-1/execution.json",
+      "bytes": 37863,
+      "sha256": "2c5cba2e7351267e090d0ca6c06cfecbb21309c039a7844937ee64026254f1d0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md",
+      "bytes": 16022,
+      "sha256": "ee408a3c1c2dcfaf24ab04ffa2b65eecff14c10311951a1b93937dcf88b516cf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md",
+      "bytes": 16517,
+      "sha256": "c559a2af9288b0c36021c5670c3c1c70eac38b514c9b9d066dd913982fa4479a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md",
+      "bytes": 22688,
+      "sha256": "c3267f91b1d1e767acbe2b1a1e33507f4811f3f944cdece305d2bed49c54da4e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md",
+      "bytes": 16352,
+      "sha256": "98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md",
+      "bytes": 10607,
+      "sha256": "9f4f5f9b225fe3981068c665c2326b39183449a7d2fa57debc51a9cea9f5c7e0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_genuine_negative_sources.py",
+      "bytes": 47184,
+      "sha256": "b0648a3bc244e6671176ac096c759b3e70e57d8c04b75bd4dd74442bfcaf95c0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_whole_reference_scalar_budget.py",
+      "bytes": 38253,
+      "sha256": "564759dceb4b38dd37fdd275d0fa3e22cdf2efa271cd9ef1049c6cfa4ff121f6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_word_genuine_source_reuse.py",
+      "bytes": 28955,
+      "sha256": "1aa46093bba5150d636cc7c6ef4f5b080447fc2c75d7438b2e52ae5fa6b5d0af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_transport_first_local_vector.py",
+      "bytes": 33577,
+      "sha256": "c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048"
+    }
+  ],
+  "legacy_artifact_inputs": [],
+  "current_text_input_roles": [
+    "amplitude_execution",
+    "potential_execution",
+    "complete_genuine_execution",
+    "complete_genuine_source",
+    "ordered_source_contract",
+    "whole_scalar_contract",
+    "old_genuine_contract",
+    "directed_source_algorithm",
+    "directed_source_execution",
+    "directed_reuse_contract",
+    "original_scalar_algorithm",
+    "original_fold_algorithm",
+    "contract",
+    "scientific_source"
+  ],
+  "mathematical_parameters": {
+    "cutoff_abs_j": 97,
+    "physical_frequency": "4j",
+    "physical_root_piece": 2549,
+    "exact_full_physical_cover": "893368603925465506687/21990232555520000000000000",
+    "exact_negative_cover": [
+      "2147184947341121/9007199254740992",
+      "2383968743003/10000000000000"
+    ],
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "original_fold_radius": "3/8000",
+    "original_fold_phi_strip": "3/128",
+    "original_canonical_radius": "1/2000",
+    "original_canonical_forcing_strip": "1/128",
+    "original_canonical_amplitude_strip": "3/512",
+    "new_canonical_radius": "1/3000",
+    "new_canonical_strip": "5/1024",
+    "actual_old_phi_strip": "1/256",
+    "complete_old_coefficient_strip": "1/32",
+    "input_window": "H^(-4/3) both genuine columns and both signs",
+    "first_source_window": "ordinary L2_r H^(-2/3)",
+    "independent_mean_window": "ordinary L2_r constants",
+    "original_complete_source_run": "43703879926/1",
+    "original_positive_calibration_run": "43702688640/1",
+    "original_scalar_forcing_run": "43698106023/1",
+    "fixed_intrinsic_parameter": "eta_0",
+    "real_parameter_values_for_final_operator_only": true,
+    "complete_complex_delta_square_for_scalar_bounds": true,
+    "original_radial_integrations_recomputed": 0,
+    "arithmetic_bits": 320
+  },
+  "execution_scope": {
+    "new_mathematics_only_public_Actions": true,
+    "original_complete_fold_stages_read": 1,
+    "original_successful_small_receipts_read": 4,
+    "original_positive_linear_coefficients_read": 18,
+    "original_complete_source_terms_read": 31,
+    "new_complete_subproduct_budgets": 1,
+    "new_complete_regular_local_vector_budgets": 1,
+    "new_fixed_positive_operator_comparisons": 1,
+    "new_complete_uniform_factors": 1,
+    "new_complete_scalar_recombinations": 3,
+    "old_numerical_enclosures_recomputed": 0,
+    "old_forcing_transport_Taylor_RF_or_profile_recomputed": 0,
+    "old_operator_words_or_positive_calibration_recomputed": 0,
+    "old_source_rows_or_radial_integrals_recomputed": 0,
+    "original_natural_stage_bytes_modified": 0,
+    "all_nine_words_five_old_mean_and_ten_physical_mean_terms_retained": true,
+    "last_left_E12_uses_only_b0_and_b0_T": true,
+    "comparison_denominator_is_old_algorithm_budget_not_true_function_lower": true,
+    "original_complete_directed_comparisons_recomputed": 0,
+    "physical_to_wave_readout_positive_graph_unknown_high_inverse_or_strong_return_claimed": false,
+    "reproducible_data_native_or_artifact_published": false
+  }
+}

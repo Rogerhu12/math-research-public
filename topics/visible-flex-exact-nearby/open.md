@@ -66,7 +66,7 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 原physical fourth-mode及mean行、high源/真实seam/actualcap改动均保。
 零宽γA0入球、未知high Wiener trace和Ψ非线性余项是独立门；
 RG已用真实long分离端smoothing付粗γ种子与原body H8176入口；
-far新chart的H8193及实际core trace门仍须明确支付，有限H不自动给解析性。
+S§11已明确far的固定H8193域；实际core trace仍须满足该门，有限H不自动给解析性。
 一般bordered矩阵只保当前真正出现的参数/荷；自由半面的height/frame是几何输出。
 Green final与上述GH/B/γ/参数门尚未由该条件定理支付。
 
@@ -77,61 +77,35 @@ phase_inverse负责。原root/Taylor/Nraw/1328、六profile、九个有序词、
 任何新计算须精确说明新增部分；旧successful target/fold/FFT/
 transport/Taylor/profile/moment/源行只恢复。
 
-共同势actual43685624307已付完整δ/z及共同T像。
-actual43688459733付旧圆真实两列/逆/实角导。
-这些实轴列界不自动给复角全输出范数、正两端图或完整high逆。
-根点signed43692226895十一门已成；首次abs-gap失败43691675493保留。
-根点小mean不能升级成整片source norm。
+共同势43685624307、旧圆43688459733、根点signed43692226895、whole Taylor43694458725、
+S43698106023、G15 43700281022、C43702688640全部成功锁定。
+本段压缩前逐字细账在802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e的同一路径open.md；
+所有原域/失败/计数/身份继续有效，不重算任何成功数学。
 
 [G完整有序源](results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md)
-已给不除T的μC旧变量式、三local向量、六oldcircle余项、
-五mean、物理两普通源以及physical/reference seam。
-whole forcing先消同完整mean径向项，Vr来自Gbar；
-离根z0势不是Vr，finite频率曲率项
-−16K(2ηα+zα²)完整保留。
+保不除T的μC旧变量式、三local、六oldcircle余项、五mean、
+两个physical普通源和真实seam；Vr须来自同完整mean Gbar，
+finite-z项−16K(2ηα+zα²)保留，离根z0势不替代Vr。
+[whole Taylor](results/R133-supplement-actual-whole-root-piece-signed-reference-Taylor-bounds.md)
+及[S actual](results/R133-supplement-actual-correlated-whole-reference-scalar-bounds.md)
+付同piece2549全参数方盒、三width/p≤2/q≤3/mean、两完整尾、
+RF3/20000、final Rs3/40000/σs1/256、canonical RT1/2000/SF1/128/SA3/512及全部路径。
+S26门仅改善144导数中10项fb二径，134项/36mean保旧；不由此授strong-return。
 
-[whole Taylor实际43694458725](results/R133-supplement-actual-whole-root-piece-signed-reference-Taylor-bounds.md)
-在原Rs3/40000付全piece2549、三width/p≤2/q≤3/mean及两完整尾。
-实角fa/fb/a1/b1<.280094/14.228337/2.495771e−5/14.600552，
-二径fb/b1仍1.526e12/1.569e12。不得凭总数猜tail占比。
+[V完整genuine列](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)
+与[G15 actual](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)
+付central/两oscillator分支、两signed/两列/outputmean、三个真实circle maps和near/far Schur。
+所有wφ⁴/Bφ³⁴/VTTT与image margin已付；它们只是幅度operator，
+不授physical residual、正growing图或完整high逆。旧profile/四operator锁定。
 
-[S合同](results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md)
-及[actual43698106023](results/R133-supplement-actual-correlated-whole-reference-scalar-bounds.md)
-现已支付新RF3/20000、原final Rs3/40000/σs1/256的全部域、
-反像、特征路径和完整相关预算。
-child0/26门/math.174257719s，25pin/17history/原7background+1fold
-只恢复，旧数学0重算。144导数只10项fb二径更小，
-36mean及其余134仍采用旧完整界；零阶和strong-return没有因此闭合。
-这次成功的新RF代数也不得重算。
+[C正线性复用](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)
+与[C actual完整负源](results/R133-supplement-actual-complete-genuine-negative-physical-sources.md)
+已付18个完整positive系数、三raw local、九词/五oldmean/独立physicalmean、
+两J窗口−8/3→−5/3和−5/3→−2/3、原六行true dr及uncertain-root单侧权。
+只对旧算法正预算数取lower，不取真实函数lower，不相减upper。
+完整21+10项L²结论与所有原来源保在小execution；每个根包络|ρ|^-1/4和平方权|ρ|^-1/2 dr均保。
+旧RF/forced solve/系数校准/源行/径向积分全部不重算；本段旧较松总界由下一D和P继续消费。
 
-[V genuine两列完整算子](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)
-已证明G15的all-output recipe：central与两真实oscillator branch、正负输入、
-两个列及输出mean、三个真实circle maps、全near/far Schur均保。
-V19–24显付欠缺的wφ⁴/Bφ³⁴/VTTT真Cauchy margin，
-V25–33保四个完整operator项、五old mean及独立physical even-mean。
-[G15实际43700281022/1](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)
-已success：child0/16门/math.005862355s，12pins=9current+3history，
-原fold1/成功receipt3只恢复，旧target/Taylor/RF等0重算。
-同root片全输出w0单侧L²<2.252232219784；
-w1/w1r/w1rr分别<227086.046676/79268255645/26074855745890286。
-这些只是幅度径导的完整列operator，不是physical residual，也不是lower bound。
-缺wφ⁴/Bφ³⁴/VTTT与正image margin已实际付；
-完整source/independent physical mean/positive graph/全high逆仍false。
-新成功profile/4operator不重跑。
-[C正线性复用与完整负源](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)
-现已证明：同fold/profile的完整budget是六个幅度jet界的正线性函数；
-仅对旧算法实际输入数取严格lower，不把函数upper当实际函数lower。
-三raw local保持原顺序，w1rr可准确拆出复用完整旧norm；
-两J窗口分别−8/3→−5/3与−5/3→−2/3，CV1保旧值另加新项，绝不相减。
-全部九词、五oldmean、独立physical mean、true dr与uncertain-root单侧权均明确。
-[actual完整negative物理源43702688640/1](results/R133-supplement-actual-complete-genuine-negative-physical-sources.md)
-已success：child0/17门/math.174329938s；19pins、原1328行/5receipt只读，
-新校准1/jet1/local3/源行6/真dr6/正比较298，旧数学0。
-两真实列、双signed、全部old-circle输出/mean、两J窗及独立physical mean均保。
-完整local<3.56508187941e16、first<7.89419979862e20、mean<6.95217991777e13，
-pair<7.89419979862e20。报告和小execution保21+10项完整L²结论；逐行数组只temp。
-最大的已付upper来自两density的RQJg，不能解释成真残差lower或不可能性。
-本次成功g/derivative/积分不得重算。
 [D两窗wholeword复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)
 已从原KΛ完整指数lag范数证明：旧κ5/3成本同时付两真正J窗口。
 可直接读取旧43632464994半径1/1000 case的八个完整word maxima，
@@ -153,6 +127,10 @@ P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
 原S已成RT1/2000、forcing角1/128、amplitude角3/512全文核对；
 新R1/3000、角5/1024的实际像门、connection和积分预算待公开Actions。
 通过后六角jet用18个已成正线性系数转换，同一个local预算数比率可复用旧6行/dr/rootband。
+P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根权的点值norm。
+最小consumer已部署：17pins/467721B，1旧fold+4成功receipt/18系数/31项只读，
+仅新一次小域/connection/L1预算、1比率/3组合，13门等待实际Actions。
+worker另以真实git blob元数据检查当前及两小文件出版后topic<200000000B。
 其余30项及全部mean保持；本次旧成功比较也锁定不重算。
 精确g传输、physical trace与强返回仍另付，尚无新数值改善声明。
 
@@ -423,7 +401,7 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，10:24:25定时及10:32非FF即时pull仍返回无环境；
+本机executor持续不可用，10:24:25定时及10:44非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
 ref读取不叫pull。最新亲读runner真pull10:34:03.729439
 到1d98178f310505ebee0172836d64fc0a4dfa74f6，20次两README diff均空。
