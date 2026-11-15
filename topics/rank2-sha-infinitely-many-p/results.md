@@ -184,3 +184,5 @@
 - [R656：同一整数证书的四次高度与保全例外的九格强制非整](results/R656-quartic-certificate-height-and-exception-tolerant-inert-jets.md)：R658二次jet经R652同一整流/确定行给原A_D的log高度O(D4logD)，p>J+M且p∤A才用闭边界定理。全部p|A、p>X的原九格成本≤20kH/X；完整饱和旗标遂在任意4<θ<7强迫p>CDθ、p∤A的真非整层，未把这些层认成原中央非零。
 
 - [R655：原sigma五次的完整Schwartz身份与负一单位矩非零](results/R655-original-sigma-five-schwartz-and-rank-one-negative-moment.md)：全2/3/5局部向量、有限角色χ与α5/2原周期识别真正σ17^5；负点为E80的共轭Katz值，完整角色分类/导子225及严格L′>1/50付解析rank1，Rubin–BDP给IΣ5,−1≠0。准确系数5c5θ11Ωp保留，当前ray定χ65=−1；未赋其余带门系数或W失败支零。
+
+- [R659：原冻结门质量的单位与完整W补偿的强制非齐次差](results/R659-original-frozen-gate-mass-and-full-compensation.md)：保原M3/全部旧ray后CRT添π0≡−1 mod61,277；全D0四层、完整Esharp核心/伙伴和原九行Laurent首项付M0,N≡−λ^(N−1)P(λ)/(b(1+λ))，P固定且常数非零。稀疏坏集外同一无限族全部正四倍N质量unit，原Q环带及全W补偿差严格非零；两失败支/五型/移动cut不删。
