@@ -135,3 +135,5 @@ $\bigl(\|\mathcal L u_f\|^2+\|\mathcal L^*u_f\|^2\bigr)^{1/2}\le24\|f\|/x$。
 Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carry 及前文其余开放接口继续保留。
 
 [纯三次高核唯一性及无增头](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)证明无切向纯cube切片恰一维；实际增广rank591、kernel17、head仍15，故该切片已经排完。由原第二一次正常核构造的独立切向cube仍须实际低Schur验证；未声称全990高核只有这两条。
+
+[真实切向三次增量](results/R150-appendix-two-tangent-coupled-cubic-correction-and-unchanged-fifteen-heads.md)实际仍无增头：增广rank592、核17、head15、全185640原乘回和九零读数。两三次方向的相容系数均零。下一步以完整H3的模11下界和两真Q核上界作夹逼；全normal4/5与完整第一连接仍须另付。
