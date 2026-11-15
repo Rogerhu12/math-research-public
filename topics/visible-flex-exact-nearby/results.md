@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 O：实际两输入帽的long tame、完整物理型与独立源](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)：直接用真实Φ输出和两rough输入，保q≤8144/全known-lag/one-high/adjoint/mean。明确O21域内，完整actual对真fixed-CR参考d1792<2^-6000000；接D后双逆v#差<2^-3000000，独立两个N2低门均付。γ域匹配、高Cq新账/augmented/frozen-metric族仍独立；μL sB源、sR比、未screen跨度与一λ保。17797B/SHA256 efd2a51305feb0822bbcf911ab2ccdc4090f9f71b61b4d50a11a9dfafbd00524。
+
 - [R119 D：两actual外行到完整mixed双权Schur](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)：物理d1792无sB；先正片两半阶Neumann与三个真实Poisson端口，再high/deep，完整Lnew ΔU Rold保非zero长程。双逆v#差<2^3000000 d；d≤2^-3500000支付独立N2门。B源和反向height列<2^1500000及2^3100000/sB、两mean/未screen跨度/独立荷均保；zero fixed-CR参考保finite反射。18706B/SHA2566b2dee9564e0c175e0d0bdbcc969e5824008905c23c0cc42390fd5cfcc90f28f。
 
 - [R133 V：真实负侧两列的完整输出算子和源账](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)：以实际oscillator恒等式付两genuine列、正负输入、central+两branch与三circle-map的C² symbols，全near/far Schur含输出mean。补齐wφ⁴/Bφ³⁴/VTTT的独立宽度；三local、四完整nonlocal、五old mean、physical even-mean、两普通源/Piola/真实trace/正graph分别保。尚待新标量消费及完整返回，旧S成功不重算。20436B/SHA256 36fc2a7a7fc6fa6f683e2e9a7559cc81246f6e91bea2fc50a57c1ba2d9b7eb6f。

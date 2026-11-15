@@ -214,13 +214,24 @@ B源→remaining<2^1500000、相容完整tail→normalized fB<2^3100000/sB，
    **经过全部真实finite connector和Poisson**。
    局部门不能替代该门；两个actual图之差的deep/long程项不准设0。
 
-旧[K两层long](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md)
-以Z/(3.3e−10)低≤1/16为域；当前实际帽trace不在这个充分小球。
-必须用actual Φ输出f*≤1e−8、M的真两输入导数，
-从同一Dirichlet/weighted long核重新实例化。
-非mean的远端screening与未screen的mean-height跨度分别收费；
-保sB、sR/sB、aw(R)、独立f*source、Robin及两mean。
-known-only lag与rough输入的全Fourier核不可混同平移不变参考。
+[O actual两输入cap→long](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)
+现已直接以M的ΦdotA²<1e−8和真实两输入导数重实例化，
+不要求实际帽trace属于旧K的Z/(3.3e−10)≤1/16球。
+q≤8144的Cq=2^{384(q+32)+262144}保full known-only lag、
+one-high/真实adjoint/rank-one/mean与物理单位；
+Γ/ν/metric方向仍另列。O21明确R1856与γ低/高输入域，
+给A1824<2^-7000000及actual相对radial<2^-6167547。
+旧合法zero-input真fixed-CR reference仍含finite反射/EB0，
+其相对radial<2^-7996412，故两actual d1792<2^-6000000。
+结合D得到完整双逆v#差<2^-3000000，
+**两个独立N2低门现已在O21域内支付**。
+这不使未知inner匹配γ自动落入该域，也不删其独立输出。
+
+新最高C8144=2^3401728不同于旧K；
+完整N high/tame/source费用仍须显式重新记账，tail正在逐项核。
+独立γ列保sBε，f*source准确为−μL sB DgK，
+physical远端height须除sR；meanheight aw(L)/165、两曲率mean、
+一λ及全inner读出不screen，Robin/weak/原子/独立荷保持。
 
 [J三径source](results/R119-supplement-three-radial-source-jets-four-state-jets-and-1734-loss.md)
 只要求ordinary源前三径导，state四径，s≤6396/bg s+1796≤8192。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:40:27 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:41:08 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步与恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推；非FF立即真pull --rebase并循环推到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后executor不可用，11-15 09:28:36定时/09:35非FF即时尝试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull09:33:42.135206到3957ff05d5e31113df6424408502fd143c62e2f2，两README diff空；ref核不冒pull，每小时继续CLI尝试。
 根规15：可重算data/证书/Actions输出不存Git/Release/新artifact；只script/args/run/SHA/小结论。题main≤200MB、普通删留历史；旧成功数学禁重算，失败lost temp准确披露重做。原inputs仅runner从immutable公开commit/path或已有artifact临时恢复。无executor例外connector仅UTF8<100KB，禁binary/gzip。H≤10KB/open≤30KB。
-最近只读README核：9e7fca7702c203fd1bf41436b959b81abe0b6ad3；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：47bda30230e7aea8a85b5ecd039832c023249f87；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文精确保存在e10f0c768ee8b3ee849f19602eac77b6d7efecc7:本文件，串13e7795…/7abd313…及notes/2026-11-15-handoff-before-new-object-94-chain.md；所有旧输入身份/成功/失败/restore链和未付门继续有效。results归档notes/2026-11-15-results-through-actual-cap-and-height.md SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f；open前页notes/2026-11-15-open-before-actual-two-input-cap-and-graph-seed.md SHA12bcd17a…完整保留。
 
 ## 总验收、同对象与参数身份
@@ -27,7 +27,7 @@ v2 43681612825/1 child1/0groups的Arb转binary64溢出，临时future2340/past18
 共同势43685624307、旧圆43688459733、signed根43692226895成功，旧完整Taylor/Nraw/profile/九词五mean/seam/ledger链仅恢复。G/c3267f91…有序μC无除T/3local/6oldcircle/5mean，先消共同径向项；Vr同fullmean而非离根z0势，finite曲率项完整。
 whole43694458725在原Rs3/40000付mixed/mean/两尾；二径fb/b1仍1.526e12/1.569e12。S/ee408a3c…actual43698106023/1 child0/26门/math.174257719s付新RF3/20000域/像/路径，final Rs3/40000/σ1/256不变。报告a9a45228…，execution3896925b…/result3a271393…全读。25pin/17history/7bg+1fold只恢复、native27514B/59c06d1a…不存。144导数只10项fb二径改善，36mean/其余134沿用旧；成功RF不重算。
 V/36fc2a7a…20436B已付两genuine列/正负输入/oldmean全输出recipe：central+两branch、C²symbol/真实三circlemap、near/far Schur；补wφ⁴/Bφ³⁴/VTTT真margin，3local/4full operator+5mean/独立physical mean/Piola/trace/正graph均分账。root全文/newton与tail独核。
-新CI e10f0c768ee8b3ee849f19602eac77b6d7efecc7：SCI617bf821…/manifestaadf3e2b…/workerb35eb73b…/flowb1190da4…；12pin271951B，原fold1/成功receipt3只恢复，仅新profile1/operators4/缺导数1，真实结果待。完整source/negative波读出/positive graph/strong return独立；phase并核真正extrinsic参数和冻结接口。
+新CI e10f0c768ee8b3ee849f19602eac77b6d7efecc7：SCI617bf821…/manifestaadf3e2b…/workerb35eb73b…/flowb1190da4…；12pin271951B，原fold1/成功receipt3只恢复，仅新profile1/operators4/缺导数1；run43700281022/1 active，真实结果待。完整source/negative波读出/positive graph/strong return独立；phase并核真正extrinsic参数和冻结接口。
 
 ## 实际帽、两rough输入与97接口
 
@@ -40,7 +40,7 @@ I/d25a2614…18677B/commit1cc2b217…已付actual K*−K0<1/5：X≤18γ/Z≤.00
 
 N/b6a1e3e3…两独立低门：state R1856≤2^-8192000、远端完整双逆v# Schur H1792<2^-400000，高8192仅finite。J/7977c820…3source径→4state径、loss1734/bg1796、s≤6396；A/2bcb7d4e…低E20 source1794无T损，全Hp端口保。
 D/6b2dee95…18706B新完整外传输：同short/真fixed-CR reference Z0=fB0=0，保finite反射/EB0。d1792是两actual NB−EB物理Hhalf→H−half的±1796界，无sB；正片先半阶Neumann建图，high/deep先各自闭合，Lnew ΔU Rold保全部长程。全双权差<2^3000000 d，d≤2^-3500000即N2；B源→remaining<2^1500000，compatible tail→fB<2^3100000/sB；mean/height/独立荷保。root全文/newton及phase窄核。
-root O actualΦ local tame/form待独推：改用M两输入，不套旧Z/(3.3e−10)≤1/16球；q≤8144/Cq2^{384(q+32)+262144}，actual局部与真zero-reference完整差<2^-6000000，需按D传输。高C8144新增费用由tail逐N核，不能冒旧B_hi。weak源、f*src真−μLsBDgK、sR/sB、meanheightaw(L)/165及一λ不screen。
+O/efd2a513…17797B actualΦ local/form已付：M两输入/q≤8144/Cq2^{384(q+32)+262144}；O21明确γ低/高域内A1824<2^-7000000，actual-vs-radial<2^-6167547、真zero-reference<2^-7996412，故d<2^-6000000。接D完整双权差<2^-3000000，两N2低门在此域已付；未知innerγ域匹配另付。高C8144新增费tail核，不能冒旧B_hi。f*src=−μLsBDgK、sR/sB、meanheightaw(L)/165/一λ保。
 
 ## 新94链、种子、迭代与frame
 

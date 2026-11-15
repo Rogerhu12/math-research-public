@@ -269,3 +269,7 @@ phase核出ν的设计身份，root亲读原C0几何14208B全文，C6–7明确E
 ### 2026-11-15 09:40:27 UTC — 完整两actual外Schur传输独推
 
 README核9e7fca7702c203fd1bf41436b959b81abe0b6ad3无变。root全文读D1–27并回读原I.2–7/完整source域；newton独核D10–12三个真实端口/两半阶分母，phase独核D13–26新deep先Neumann、左右new/old与2476402双权。固定参考明确为原uniform I/Y合法Z0=fB0=0的真fixed-CR行，仍保有限长反射/EB0/affine mismatch，绝非Dirichlet comparator。未粗化指数2967937<3000000；high/deep/两个canonical mean/独立physical荷及未screen meanheight均保，不先借待证新remaining逆。最终18706B/SHA6b2dee9564e0c175e0d0bdbcc969e5824008905c23c0cc42390fd5cfcc90f28f。O实际局部门下一独推；高Cq变化仍待tail逐账，并未冒旧N high费用。H全文压缩前精确保存在e10f0c768ee8b3ee849f19602eac77b6d7efecc7:HANDOFF.md，全部旧未付门/恢复链继续。
+
+### 2026-11-15 09:41:08 UTC — actual两输入cap→long局部与两N2低门独推
+
+README核47bda30230e7aea8a85b5ecd039832c023249f87无变。root全文手推并核O1–27；newton独核O8–20 product Cauchy、fullkernel/trueadjoint与holonomy total-flux零mean，tail亲读原E/S/旧K后核O21–27物理单位与真reference。修独立f*source准确−μL sB DgK、阶窗p≤8176，显列ε/rB最多2^60已含固定8192bit费用；reference A=n1824+n64+ε≤2n1824+ε的因子2留足。旧Z小域不用于当前actual帽；只zero-reference在旧K合法域重实例化，finite反射/EB0并未设0。actual-vs-radial<2^-6167547/ref<2^-7996412→d<2^-6000000，再用刚发布D给完整weighted差<2^-3000000。两N2低门仅在O21明确输入域已付；未知inner匹配γ、高费用账、完整设计ν与冻结全部intrinsic后的extrinsic族仍保。最终17797B/SHAefd2a51305feb0822bbcf911ab2ccdc4090f9f71b61b4d50a11a9dfafbd00524，无新数字执行。
