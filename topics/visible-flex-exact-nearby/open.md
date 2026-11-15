@@ -125,7 +125,10 @@ pair<7.89419979862e20。报告和小execution保21+10项完整L²结论；逐行
 乘本次已经成功的各项L²界，再作完整和/min；原g/导数/dr积分全部保持。
 SV只是同一背景operator的两窗费用，真正genuine Bj修正仍在原幅度中。
 两个外部CJ/meanfactor不误删，21 first与10 physical-mean项完整保。
-该新标量消费尚待公开Actions，精确g传输相关式另推。
+新标量consumer已审部署：SCI1aa46093…/manifest5ce9aceb…/worker5dfaebbe…，
+27pins中原C十九项每个dict原样，仅新增96分母式/16比率/4完整组合。
+真正AST与新标量计算只在公开Actions；96逐行比率仅临时。
+等待真实run返回；精确g传输相关式继续推。
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
