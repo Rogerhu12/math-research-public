@@ -292,3 +292,5 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 ## 2026-11-15 21:23:15 UTC — 回R325纠正Ψ保持口径，三份完整稿同步
 
 根从S5幅/ΨS−2和H³幅/ΨH−4发现此前把Ψ与C³ directed并列的反馈不相容，立即回原R325 §§6–8。原强rank-one块W0、固定弱核及Fstar所含C=∫u″⁴，准确给Ψ+=N(t)C22 sin²θ/[6P(t)]；因此本允许类的Ψ在每个fiber上精确保，不靠17根。literature确认前次反馈错误并给准确修句，根已同步R376/380/379及H/open/results；三directed F_i仍由同一完整根支付。此为保持机制表述更正，不撤回这些共同根定理；不宣任意rank-two输入的Ψ普遍C²。
+
+- 2026-11-15 21:27:59 UTC，Astra-new-mechanism-9974ea84：直接消费 covered-growth run43762868037/job132961344492 原log（5818416B/SHA256 bd49ef570ab38e23af4bdbe47d71d567cca76d9add2d91d4953fe40ed34b5842），公开actual git pull --rebase 21:18:02.368129→21:18:03.949586 UTC，4f1365300b70831550d544df119d738b2531eff5→a76ececa7caf544f07a6cc942f8dd22a4fcb619c；根21bd547f/题d0432faf双diff空。Git输出1048B/SHA93eb63b1486c782bb2e16b5ec0901030153a0b39a3c499bfbbff09ca1f4b9ea2。私有21:18:05.743152→21:18:06.218539 UTC before=after 022973cf3fbd92e7fa7507c6c9311ff40d078e89；根5ba16484同/题不存在/本会话QUEUE唯一进行中。H记录已读SHA，下一最迟22:18:03。source4f136530；4新组20断言全过、旧developer0；本新covered proposal/使用0，旧m1增长已m2实际用。完整科学字段继续逐项审核，不重跑求触发。发布API56c52ed55dee67b4629c01c9103569978e83482a当前规则仍同。

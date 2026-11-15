@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `aca67097b60b7eacdcf20798395ce6d4d1ab2845`，2026-11-15 20:32:58.355408 UTC，SOC_PAIR run43758666042双README空diff；下一最迟21:32:58。每次pull核双README，有变只读差异即执行并记SHA，至少每小时actual pull；每结论即推，NFF立即rebase/核规则/再推不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `a76ececa7caf544f07a6cc942f8dd22a4fcb619c`，2026-11-15 21:18:03.949586 UTC，covered-growth run43762868037双README空diff；下一最迟22:18:03。每次pull核双README，有变只读差异即执行并记SHA，至少每小时actual pull；每结论即推，NFF立即rebase/核规则/再推不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 20:33:02.572077 UTC实际pull/read `43dbc0b185aad941d3d59218dd4f505c24d4c818`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行本会话进行中。root已读job132948276657两actual receipt；API读取不冒pull。
+私有2026-11-15 21:18:06.218539 UTC实际pull/read `022973cf3fbd92e7fa7507c6c9311ff40d078e89`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行本会话进行中。root已读job132961344492两actual receipt；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **覆盖保径旧实际**：[完整结论](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)run43753280651/job132931742484/source52a48854。4新组26checks过/旧执行0；7模型8trial/12primary/0SOC，η.266324155092。m6growth后m7全步fineκ58.000002383拒且LP耗尽，half过后B.000125；新qualified/后继使用0，下降非新法收益，不重同阶段。
 
-**主LP/SOC预留首实际**：[完整结论](notes/soc-pair-reservation-first-actual-result-20261115.md)run43758666042/job132948276657/aca67097。4新组19checks过；7普通首全步接受，11primary(2/2/3/1/1/1/1)/0SOC，末1LP按no-unpaired未用，原12未尽。m7局部ceiling返回真实repaired/inexact，gap4.19023e−7>tol3.84584e−7、原行残差2.47e−20；实际仍两网接受。η.266324155092→.266301521913/fineκ57.9999873612，原门/旧metric过/.26欠。22bank恢复→59(24cc1f35…)；4419/4277输入→首4419/4357→末4432/4358；physical0c1d344d…，B.000125/streak1。373memory行重装+58新cuts，非431全新；16共享值+2末验，active29.468092885s/total172.223713764s。134绑定(130脚本/4workflow)与原cfg/g/b0/159及12/40/120/10不变；不重旧检查/同阶段等SOC。下一[covered-soft growth设计](notes/complete-model-covered-soft-ordinary-growth-design-20261115.md)已付有限网格覆盖依据/完整同x实际d缓存绑定，旧legacy1继承、新covered0；两次合格才原×2/cap1/4000，旧或新pair含at-cap清两计数。保真实学习/原hard-shrink/fallback/inexact，缺缓存不补算。covered-growth首次请求已提交，140绑定（135脚本/5workflow）；仅4新组20断言及一次当前best延续，旧19/26/cache只读复用。run待GitHub分配，实际尚未读；科学前actual pull双规则/私有QUEUE。
+**主LP/SOC预留首实际**：[完整结论](notes/soc-pair-reservation-first-actual-result-20261115.md)run43758666042/job132948276657/aca67097。4新组19checks过；7普通首全步接受，11primary(2/2/3/1/1/1/1)/0SOC，末1LP按no-unpaired未用，原12未尽。m7局部ceiling返回真实repaired/inexact，gap4.19023e−7>tol3.84584e−7、原行残差2.47e−20；实际仍两网接受。η.266324155092→.266301521913/fineκ57.9999873612，原门/旧metric过/.26欠。22bank恢复→59(24cc1f35…)；4419/4277输入→首4419/4357→末4432/4358；physical0c1d344d…，B.000125/streak1。373memory行重装+58新cuts，非431全新；16共享值+2末验，active29.468092885s/total172.223713764s。134绑定(130脚本/4workflow)与原cfg/g/b0/159及12/40/120/10不变；不重旧检查/同阶段等SOC。下一[covered-soft growth设计](notes/complete-model-covered-soft-ordinary-growth-design-20261115.md)已付有限网格覆盖依据/完整同x实际d缓存绑定，旧legacy1继承、新covered0；两次合格才原×2/cap1/4000，旧或新pair含at-cap清两计数。保真实学习/原hard-shrink/fallback/inexact，缺缓存不补算。covered-growth首次请求已提交，140绑定（135脚本/5workflow）；仅4新组20断言及一次当前best延续，旧19/26/cache只读复用。run43762868037/job132961344492/source4f136530已success；root已读原log，4新组20项全过/旧检查执行0。新covered增长proposal/实际使用均0，旧规则m1半径.000125→.00025并由m2真LP使用；m4在cap消费旧pair。完整科学结果正在独立核读，不复跑强求新规则事件。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
