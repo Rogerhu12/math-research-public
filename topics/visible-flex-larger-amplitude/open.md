@@ -60,27 +60,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 
 最终须固定g/参数/t范围精化误差到机器或原solver容差，证明/核查全t强C²嵌入与reach，提供数个各<5MB网格，明确数值到严格存在的真实缺口；全部README条件前持续工作，并继续更强幅度目标。完整证明按根规矩12直接登记results/index，不加独立审核关卡。
 
-**77原候选搜索结论：** [完整两方向/20trial报告](notes/2026-11-15-actual77-small-core-first-step-and-twelve-trial-rejection.md)及[原status](notes/2026-11-15-actual77-original-status.json)已保存。run43661078498/source1200c137/job132650310904流程success而candidate=false；首方向1/128接受，p=(.09307073916632971,-.1321108634591744,-.1241786723386648)，merit65080884368.11076；第二方向12档全部拒到1/2048，单位共振207.58149305614725/−173667.38459813764/316229.92453749187未解。最终圆域有效但仅零core参考，494 Arb叶只声明a/ap；不当大核parent。78从真final p续原8步并使用旧源已支持20回溯，68源/四数学输入/三目标/原域/容差不改，不预言下降或native成功。
-
-**78完整结果：** [八方向/144试探结论](notes/2026-11-15-actual78-small-core-eight-tiny-Newton-steps.md)、[完整读数](notes/2026-11-15-actual78-complete-original-readout.json)、[字节范围](notes/2026-11-15-actual78-original-byte-audit.json)已保存。真实run43662193286/source11b5d25c/job132653733174流程success但candidate=false；每轮第18个2^-17才接受，32原域拒/104有限merit拒/8接受，最终merit65077006698.67795且三共振仍大。最终零core圆与494 Arb叶只保各自范围，非非零BVP。80转为独立列尺度正阻尼6×3增广LS，保原三方程、未加权merit、.2 Armijo/20档及全部域/候选tol；不再机械续同Newton小步。高109诊断独立继续。
-
-**79同24重新建模请求：** [冻结接口](notes/2026-11-15-request79-same-twenty-four-query-relinearization.md)及[静态回执](notes/2026-11-15-request79-static-check.json)保存；workflow41fd5398/requestfb8985c3从真76新warm bba24c1f/原status a1a67b9a续一次。51源、24查询、7101支持、fullH/C外项、λ270、512/200、17trial、全部预算和FD不改；原半步LEFT466和MID486双失域不归因成单个漏查点。只更新父字节/透明gzip身份及历史别名，未执行本地科学，待实际run。
-
-**R277高核两端工具已证明：** [完整恒等式及消元证明](results/R277-complete-two-end-chain-determinant-and-high-core-elimination.md)直接入results/index。全部节点2×2链以伴随矩阵积给完整两端行列式，覆盖某些右块奇异的情形；高109必须逐个排零，现有零高残差并非排除齐次高解。所有右块可逆时再给原单位入口Schur，浮点有限系数/Arb声明实模型/真正尾导数不混用。独立全112/699消费者在准备；不等待它才继续80低三搜索，也不预称共振或非零BVP。
-
-**76完整字节附记已完成：** [原导出范围](notes/2026-11-15-actual76-completed-byte-reader-addendum.md)/[回执](notes/actual76-completed-reader-addendum.json)：reader43662815323/source4fcb0ab0真success，215domain/1396NPY、108condensed/38完整数组、14raw415120992B、71源；17primary关系与62源子集核同。五原报告、此前四公开报告及新warm均对应，11collocation/8mid载荷保全。全链QR因子仍原未导出；不重科学/不重下640MB，不改变79同24推进。
-
-**80独立阻尼请求已发布：** [算法接口](notes/2026-11-15-small-core-damped-search-interface.md)/[实际接线](notes/2026-11-15-request80-workflow-interface.md)，source1691c7d9、workflow723872f5、request5ba4e95c。真78完整status09031496的final p、显式η=1、8轮/20档，69源/四原输入/runtime及原科学门保留；完整新方向/FD/Arb/零core圆另存damped-search-status，成功不预言。
-
-**73终态更新：** 原run43657001633 step12 exit2，原log只给native_accepted=false/snapshots3/directions3/residual=null；不得将null当norm或猜失败原因。完整1752742419B artifact14141540502/ZIP3430597b已保全，publisher另因NFF后HANDOFF规则记录冲突失败。正在同包Actions导出原result/trace/trials、完整byte及独立R276精确affine曲线；仅恢复出版，不重跑73科学。
-
-**81完整高109独立请求已发布：** [双模型消费者接口](notes/2026-11-15-R259-complete-high109-two-end-diagnostic-interface.md)/[工作流](notes/2026-11-15-request81-high109-independent-workflow-interface.md)，sourcef60db29e、workflowfa8b7fe5/request4fdfe80c。真实78四原件先保全，全112模/699节点/698cell逐模；有限L/R精确dyadic与声明实scalar/圆的Arb160→320→640分开。1800s/4Mbit显式资源预算，边界耗尽如实partial，不将低三失败候选作为启动gate；真尾导数误差/连续高非共振/低三根/横截/非零BVP仍需各自支付。
-
-**73完整原件及独立R276接线已发布：** [同包接口](notes/2026-11-15-actual73-shared-artifact-readback-and-R276-interface.md)固定真实artifact14141540502/1752742419B/3430597b，helperd97eb11b先原字节导出result/完整trace/trials/各实际iteration，再调用未改c062 reader。独立bd4科学step从同核验根读取实际result/partial SHA，全部原129248行/十alpha保持；不重J/QR/试探，不改原outcome。workflow3cd2eba4/request60097d67同时用当前22e恢复旧current576native出版。原日志范围见[原字段](notes/2026-11-15-actual73-official-log-readout.json)，具体失败原因仍等原件。
-
-**R278已完成：** [项目化归一化、原零集及局部消元证明](results/R278-finite-resonance-projective-normalization-and-local-elimination.md)已直接登记。正反向有限链的非零条件、奇异右块/零向量例外、根处Jac和离根商法则、原unit早停与完整112候选阈值分开。第三原方程已有合法根及非零偏导才可非线性局部二维缩减；当前候选尚未提供这些存在前提。后续saved输出诊断不成为native/prefix或本证明的新审核门。
-
-**真实SDK工程结果：** [完整锁构建与干净安装](notes/2026-11-15-actual-native-live-SDK-lock-and-clean-install.md)已保存；run43668049747/source7181/job132671745626全success。所有21原件在 `notes/public-actions-43668049747-1-native-live-sdk-build/`，含真实package3876fc4e和完整lock9451fd2e（266依赖项），禁脚本生成锁及独立npm ci均0，SDK2.3.2 constructor实际加载成功。120项字节/来源核对通过；没有SDK artifact方法、科学计算或supervisor部署，原glob弃用warning保留，不虚称安全审计或跨平台保证。
+**77至90历史已归档：**完整逐条结论见[截至99的原open](notes/open-checkpoint-through-request99-2026-11-15.md)。77/78原Newton小步、80/87/90旧阻尼及全部字节附记均已付；当前实际低三推进是93→96→97→99，不回头重复旧科学。R277完整两端链与高109消元、R278项目化/条件消元已入results；高109非共振和合法非零核仍须真实证据。73完整失败、83/91原字节诊断已付，95按原完整native门继续。SDK原锁构建与干净安装只支付构造器，API操作由独立100工程试验补查。
 
 ### 1F. 实际89接受1/32；94补两处真实487失败
 
@@ -131,3 +111,9 @@ root完整读四源码diff、17099B接口、两配置diff和两纯静态checker�
 [完整算法与接线接口](notes/2026-11-15-request99-actual97-independent-eta0p01-interface.md)、[主控原字节核对](notes/2026-11-15-request99-root-independent-static-readback.json)保存。新producer f43c20ea固定η=.01、新schema `R278-original-three-equation-inexact-p3-restoration-LM-eta0p01-v1`；旧ce93硬锁.1完整保留且不执行。12个原函数/类与整个try/search/final/finally正文逐字相同，保实际d3、normal+Schur、inner最后有限点、原full3 merit/J斜率/.2 Armijo以及8×20/12×20/全部原最终门。
 
 初父只取实际97 status d55b5338/233256B的final.parameters，真实13源闭包不改贴；新producer14源、request原72+1为73。workflow5a562ff1/request05d12abc动态科学调用正文、public78恢复和读回不变。root已读三完整diff/12990B接口/静态checker，73实际15b2028e及当前Git payload、当前公开父件完整字节、640字面节点462浮点词与9fdcfdee整报告重放已核，回执0223afaf。最后97方向弱retention来自试探前基点，仅说明本次较小阻尼试验动机；不预言改善、根或非零BVP。
+
+### 1M. 实际89完整已导出载荷附记完成
+
+[完整附记](notes/2026-11-15-actual89-complete-exported-bytes-appendix.md)、[摘要及原件身份](notes/2026-11-15-actual89-complete-reader-appendix-summary.json)和[主控核对](notes/2026-11-15-actual89-complete-reader-root-independent-byte-readback.json)保存。reader43676206729/source0d3da53d/job132696813693全success，原科学89的413成员、381 descriptor联结、232domain NPZ/1510NPY/79完整typed组、108condensed NPZ/38完整数组/42引用、14raw454456080B、15evaluate/8mid packet和77来源均有实际Actions记录。root全文9147B附记与33475B纯字节reader、77真实032c Git源、17原关系、18小原件及整冻结输出重放已核，receipt310d2094。
+
+三份完整原audit/transport/summary以无损gzip保存原bytes，不重序列化。R276与原出版恢复均未请求，绿色通用步骤是no-op；正常小包publisher单独实际执行。未导出的完整H链式factor仍无payload审计；本地也未重取687MB科学ZIP。原1/32接受和全部未完成BVP/native标志保持，98科学推进不以此附记为新门。
