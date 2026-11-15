@@ -351,3 +351,6 @@
 
 
 - [R379. 实际177完整cut比较的首屏障未付](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)（实际读回）：全C1440/point/deep112成立后，m2仅58paid/110attempt，在row17/piece3/depth32下闭屏障分母未证正；0.298331719s且resource stop=null，不能归为预算或准确共振。全部11栈/后缀[18,14644)/111未起/0cut/0高度与7ledger读回范围齐，四摘要原字节同一；条件清理已删raw，181独立原根族实角继续，原所有终门仍未付。
+
+
+- [R389. 实际178r3八次完整十维接受与真实续点](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)（原记录/数值证据）：43753070697/source195cd2d42f，80163B必要完整返回8接受61试步；W4.963213787524→4.957835964023，第三unit却升到.112950142747，原全终门仍false。初末p/F/W、8接受/clip、代表拒档与120FD12层/域/453/清理责任完整记录；原大方向/61trial表已读但不再归档。真实非零ξ末点供183独立续接，固定尺度/原接受门保持。
