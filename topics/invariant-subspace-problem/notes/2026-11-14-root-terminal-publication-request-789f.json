@@ -1,13 +1,15 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "106e9bdfe0643b577db0a848a7ef593f58c3de47",
-  "createdUtc": "2026-11-15 16:32:13 UTC",
-  "message": "Prove original deleted-output length two and remaining higher-kernel length twenty-six",
+  "parentCommit": "1c2ff7189c7a49e86ca7835aca224ea821a9a103",
+  "createdUtc": "2026-11-15 16:39:43 UTC",
+  "message": "Bound original output minors over Q and start directed original s2 target-jet test",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-local-projection-small-session-request-789f.json",
     "topics/invariant-subspace-problem/results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
@@ -15,5 +17,7 @@
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-local-projection-small-session.yml"
+  ]
 }
