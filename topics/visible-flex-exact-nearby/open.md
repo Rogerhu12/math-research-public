@@ -68,7 +68,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 
 [N完整network两层tame](results/R119-supplement-two-level-full-network-tame-inverse-and-complete-sources.md)已独推：低R1856≤2^-8192000/high至8192只finite，q1792..8128、输出64≤s≤6400/source loss1730。cross-sign一高费用933888<1048576；真实secondΓ scalar gap用角192/state-source196重新消费B的实际低假设，已知flat保持原R*。projected第一Γ的低D8从Y64读source1794/bg1802，反馈<2^-7900000；完整状态gain2^8388609、高背景只乘低源的系数2^33554433。所有mean/独立height/weak/ordinary/完整浅深前缀保。变化outer的独立weighted外门仍须实际证明，不能由局部A1824门推出；真EN仍是有损缺陷，未称真实reduced导数已有无损逆。
 
-三径source→四径state稿已有准确两行递推、mean/physicalheight和broken jet合同；loss1734、s≤6396/bg s1796≤8192，Γ源需piecewise第四bump导，原第三jet跳/原子不能删。依赖完整network最后正文，不能从这条jet inverse直接称迭代完成。
+[J三径source→四径state](results/R119-supplement-three-radial-source-jets-four-state-jets-and-1734-loss.md)已独推：准确两行递推只需g_ttt，保mean/physicalheight、原分片四态/weak原子与独立metric lift；loss1734，64≤s≤6396/bg s1796≤8192，gain2^10485760、高背景只乘低源2^37748736。Γ源需piecewise第四bump导，原第三jet跳不删；三径二次与准确EN缺陷费2^1572864。此为同一真实源/状态接口，仍需下面graph尺度、实际smoothing及收敛门，不把finite jet inverse称完成迭代。
 
 ## 7. 真source graph与可重复非线性迭代
 

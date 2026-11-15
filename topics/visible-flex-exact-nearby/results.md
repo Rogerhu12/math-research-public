@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：三径向 ordinary 源到四径向真实状态的完整 jet 逆。** [J1–23](results/R119-supplement-three-radial-source-jets-four-state-jets-and-1734-loss.md)以准确两行及scaled Leibniz递推，只有g_ttt、无第五profile导。N网络后为真实loss1734、64≤s≤6396、背景s1796≤8192；gain2^10485760、高背景低源系数2^37748736。mean/原子/一侧jets/metric lift/physicalheight保，先P⊥消二次mean径导再恢复完整Π_A；三径quadratic与EN费2^1572864。broken正则不自动给跨片兼容，Nash与实际入口仍待。
+
 - **2026-11-15：完整网络在低阶小、高阶仅有限背景上的两层 tame 逆。** [N1–29](results/R119-supplement-two-level-full-network-tame-inverse-and-complete-sources.md)保低R1856≤2^-8192000、高至8192有限、全proxy/projected第一Γ源，输出64≤s≤6400、真实loss1730。最高未知只乘低系数，高背景只乘低源；cross-sign GN全费933888<1048576，第二Γ scalar gap以实际低192/196阶重付。D8由Y64读1794/1802，低Schur<2^-7900000。全部mean/weak/height/真adjoint/浅深前缀保，变化outer weighted门及真实EN/Nash仍独立。
 
 - **2026-11-15：第二次精确清理已实际通过容量门。** [run43690692511/1实际publication](notes/data_cleanup_confirmed_outputs/run-43690692511-1/publication.json)确认普通删除九件7607204B、提交1fae319aa2ac67d722bf16b2391053dcb90bb407的topic为199048373B<200000000。首轮超限结果保留；0数学/0旧11834重读/0新数据上传，原history/参数/源码不改。完整路径/blob/bytes/SHA/producer/run身份清单30803B/SHA75901041…，恢复用121e4ce6…原提交。容量是该实际快照的结论，后续新增仍须维持。

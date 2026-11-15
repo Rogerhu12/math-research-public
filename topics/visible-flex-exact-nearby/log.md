@@ -143,3 +143,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:46:29 UTC — 完整network两层tame、真实secondΓ低入口独推
 
 根读03a177d15143330239a2a0b5b39446819203367e，两README未变。N原稿全文、cross-sign v2差异及v3低Γ/gap修订均亲读；phase独核N5–12与N14–26全常数/索引，并回读C9a/B6–31确认192→196、Rβ2^196608 R1856、已知flat原R*及标量gap。N26从未授s8尖窗改为已付Y64→D8，ordinary1794/bg1802，所有既定bits不变。根只修两条独立display美元行及已证明状态；最终30598B/SHAb6a1e3e33555ff009790f1afba0df0afca9124f05b2b10305d866ca290502889。本篇证明proxy/projected反馈tame，EN/非线性smoothing/真实变化外端weighted门不预称完成；无新数值。
+
+## 2026-11-15 07:47:03 UTC — 三径源到四径状态、有损1734接口独推
+
+根读76f06347300ad61493c8bda2bfd5c935a50ee631两README未变，J全文及J6/7准确残差符号、四步递推/角索引、J18 metric单位、J20先消mean与J22/23均核；newton另核J6/7和J16–21，未重复代授network常数。父N已推b6a1e3e3…，J最终仅改已证明状态，14361B/SHA7977c82003462001e800626c9bc5374085aac9fcdd73d89e21278de2f68c4234。保piecewise第四bump导、原第三jet跳、独立mean/height/外荷和source graph义务，无新数值。紧接graph/smoothing与EN真实近似逆缺陷，不因本接口完成而停止。
