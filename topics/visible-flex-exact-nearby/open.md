@@ -39,6 +39,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [SEI独立主项能量门](results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md)268be1a8已证明完整SN终态八列经真H的D/√j与μ误差一次→各支四导、四整sup候选和W1/3费。signed μ须下端距0与整V作严格κ；只有κ>0才给K0=1+V/κ及PIB同一负窗逆。failed optional保signed gap/空energy值和PG/PIB原fallback，不冒奇异；每支每窗整选后两支max，0exp，实际新数值待Actions。
 [BF真实有限因子与增广Schur](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)e8e29c49已证明：旧low head经原右TF逆/S逆有完整dual因子而非新角有限支撑；两mean、primitive/density及显式有限projection可保实际$LV$，完整sign/second-reference/PW函数空间输入不因此有限。对实际square $B=T+E+LV$，同两窗高逆仅需完整strong的$\chi=K_0C_E\Lambda_J^{-4/3}<1$；增广Schur精确保留$PUVP$及所有physical mean，实际columns、matrix entries与inverse仍待。
+[SE自然stable口Fredholm与准确消去](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md)22201747由完整root Fourier与原parity J证明$S_{nat}=D_c+K$且K增2/3；对应共同输入s=0/−4/3的自然窗为−7/6/−5/2，index0而未授cutoff97可逆。只有完整实际Ai incoming injective后，stable同侧坐标C才onto并在完整return准确消去；不需要新C逆数值，独立第二输入/正侧其余ports/两mean及rough bulk费用继续保留。
+
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
 
 [WY](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135/[WE](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md)49616d85：

@@ -86,3 +86,8 @@ binary未取、旧成功数学未重。两README在d6a7d38339ff3d087f51b169abcbc
 SEI0f83547b/268be1a8全文核：SN八列+真H/μ误差一次、四sup整选、strict signedκ、pass才两窗energy，fail保PG/PIB，0exp；独推解析结论。
 原SN43751213826/1真实success/child0/21、3146interval/cursor0，SCI22817/8fea75ce已root lexical精确复原；旧1256只读+新11328，成功不重。
 README于a78a59d685e6bfcfe50d2dcb9f98cf15aa62268a核无变；actual SN证明与SEI新consumer继续，fullincoming/finite/mean/core未宣称。
+
+### 2026-11-15 23:06:19 UTC — natural stable trace and exact conditional elimination
+SEeb7b1bb1/22201747全文及P19–20/A19–20/O2/IN28–30原式核：完整root增2/3、parity J每固定Hs、自然−7/6/−5/2窗Fredholm index0。
+只有full实际Ai incoming injective才stable C onto与同侧diag(C,Id_rest)准确消，第二同graph reference免额外数值逆；独立ports/mean/finite/roughbulk保。
+新数学仅解析无旧算术重做。两README于2fcaa6682327436880deb78911bbc310a55e9e68无变；继续完整Ei/实际border/原SC3。

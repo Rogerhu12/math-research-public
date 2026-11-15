@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SE: natural stable-port Fredholm structure and exact common-reference elimination](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md) — complete root gain and index zero on natural Sobolev windows; cancellation is conditional on complete actual incoming injectivity, with all independent ports retained.
+
 - [SEI: individual principal energy gates from complete terminal density columns](results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md) — proved directed terminal-only derivative conversion, optional signed energy bounds and complete same-window comparisons; SN43751213826/1 complete input is frozen, new scalar arithmetic pending.
 
 - **已证明 ZD**：[完整符号密度共轭与有序 global Cayley 返回](results/R133-supplement-strong-sign-density-conjugation-and-global-Cayley-return.md)，C4真实图经三IBP和完整两sign Fourier和给Z^S−Z强费，独立输入meanrank全保。实际out转straight Z及后续非均值共轭均保各自完整sign交换子；原CYA scalar gap只在这些operator前提实付后使用。无新数值、无全incoming/finite逆宣称。
