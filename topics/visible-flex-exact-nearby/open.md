@@ -149,3 +149,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 当前真实全模正帽已存在；继续真实高度、内端与全网络
 
 [X1–16](results/R133-supplement-actual-all-mode-positive-cap-existence-at-repaired-M32-centre.md)已经将actual21门与完整E收缩合并：同ac1/440866的物理帽对允许复偶γ/fB存在、闭球内唯一、解析依赖，含全部未知模/Cmean/trueouter；不再把此局部存在列作未付门。接H小宽实际高度→新同对象94链、实际finite-Sob Φ与inner输出/唯一λ/全augmented端口。Green97/强返回/ν及完整geometry依旧未闭。
+
+### 实际帽到真实long高度已接上；接新对象94及有限Sob Φ
+
+[H1–22](results/R133-supplement-small-positive-width-true-cap-to-long-height-readout.md)已在σ1/8192付完整CR逆与实际Φγ：dotA²σ<1e−8、完整DfB<2^35，含mean和唯一高度规范。新94必须用同固定stop/同Γ/真实有限尾fB(a)，大宽仅从完整long Green新构造。zero-width有限Sob扩展须重新保全部parity辅助均值/多线性绝对核，不能从当前analytic小球免费得到。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 H：实际小正角宽的帽到真实long高度读出](results/R133-supplement-small-positive-width-true-cap-to-long-height-readout.md)：同σ1/8192的完整CR逆，LC^-1<9、r_f1e−8、Lip<.001475；actual E/X输入进入真域，Φγ dotA²σ<1e−8、fB半球完整导数<2^35、γ半球导<20。全部Fourier/两mean/finite-length reflection/物理aw与唯一λ均在；F21 far标签行仍独立，不授大标签宽或全matching。SHA256 4480f77b9e9b2f727c9fcf2f2a88884961bfa05637195e040eef3926a6035774。
+
 - [R133 X：当前修补M32中心的实际全模正帽存在性](results/R133-supplement-actual-all-mode-positive-cap-existence-at-repaired-M32-centre.md)：43695160055的21门实际补E12后，同η0/ac1/440866与物理[.9,25/8]，复偶γ≤1e−9/fB dotA²σ≤2^-60、σ1/8192，完整非线性帽在ρ3e−6/端ζ9.9e−10闭球内存在且唯一；Lip<.881，原Gauss–Codazzi/真outer/Cmean全保。γ-Lip<26、fB半球导<2^43、σ/2有限角导已付；不授极小高Sob邻球或全闭曲面匹配。SHA256 8b49cd59f90b8869dca4be635b80a7f7e34c04af4b8632ad772b0a9b45bfcd86。
 
 - [R133 actual43695160055：完整加权Q门及端点余量](results/R133-supplement-actual-cached-weighted-cap-Q-and-endpoint-margins.md)：child0/21门/math1.277747273s；q_w<3.561348304031e−6<1e−5、K_e<4.898174641284，1346新mean Bernstein/28pin，其余旧数学0重算。全σ源/独立mean/真实outer/无限端尾保；实际scalar端image<6.827271113222e−10，满足E全部数字假设。仅消费报告，不冒全BVP；下一条单独应用E存在性。SHA256 ef8013989ea063657e9636415719fdf6fa27f8484765022d73d7361bc00d8d7a。
