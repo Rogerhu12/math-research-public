@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SN第五实际停止与已成prefix](results/R133-supplement-actual-signed-density-interruption-and-preserved-prefix.md)：43746794222/1 metadata502终止child，科学failure=null；1256新subcells和双四error成功锁、完整SCI SHA精确复原。记录lost365535907B reference/source仅hash；限定只重建丢失nominal参考，禁重已成误差预算，完整C仍待。
+
 - [R133：从已成正算法读取完整腰部延拓与第五列](results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md)：D的完整M0/M1正项与whole-core maxima严格给bK/GK上界，固定旧d1e−10不随δ归零。新a96/ell0和同CPA两case的三窗wY均有显式式；WA腰贡献可直接读已成同d球。不重40parts/原积分/Green，仅数值待新小consumer，其他源与actual解不授。
 
 - [R133：实际exact selected腰输入与原96行](results/R133-supplement-actual-exact-selected-waist-data-and-original96-rows.md)：43747940791/1 child0/13门，base全65bitwise过、Z193/两zero-repair成功身份只读。exact三rational与四uniformmax全证，d1e−10 norm<8.923e−26且base/direction均非exact0；SCI完整33字段及preGit字节哈希root核。仅独立腰输入，ell0/CPA第五列与PDE未授，成功不得重跑。
