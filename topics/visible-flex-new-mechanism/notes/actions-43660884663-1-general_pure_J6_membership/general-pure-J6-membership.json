@@ -1,0 +1,1561 @@
+{
+  "J6_input": {
+    "candidate_id": 6,
+    "complete_export": {
+      "all_five_complete_families_included": true,
+      "contains_original_expression_not_only_hashes": true,
+      "content_scope": "five-complete-two-mode-normal-acceleration-families",
+      "filename": "acceleration-layer-mixed-original-expressions.json.gz",
+      "original_root_term_count": 79291,
+      "persisted": true,
+      "profile_atom_count": 1917,
+      "raw_bytes": 1909429,
+      "raw_sha256": "7c1e0bda999d2c8958d7e5fdf6d9460f30eb6003eb1c69172ba1ca948dfeac38",
+      "root_count": 648,
+      "stored_bytes": 318634,
+      "stored_sha256": "b3227509c891a2e86e9bcc7823e3d6b3abb0a9ff80975b2e1162a0911739146e",
+      "supplemental_to_mathematical_certificate": true
+    },
+    "decoded_research_target_roots": 1,
+    "family": "A_kk",
+    "family_record": {
+      "family": "A_kk",
+      "original_mode_sha256": {
+        "-2": "19e1c92b975c9e59df6e2e09432a5cb9c824412fface2b85b47161a7aa10e18f",
+        "-4": "9f28420162242f5899bcbf4bb2398b793935ebad021b8f57bbd1fe129f4a0ab1"
+      },
+      "profile_weights": [
+        -2
+      ],
+      "requested_weight_original_mode_sha256": {
+        "-2": "19e1c92b975c9e59df6e2e09432a5cb9c824412fface2b85b47161a7aa10e18f",
+        "-4": "9f28420162242f5899bcbf4bb2398b793935ebad021b8f57bbd1fe129f4a0ab1"
+      },
+      "roots": {
+        "-2": "family_0191_-2",
+        "-4": "family_0191_-4"
+      },
+      "state_key": [
+        -2,
+        0,
+        0,
+        0
+      ]
+    },
+    "main": {
+      "bytes": 57753,
+      "filename": "acceleration-layer-mixed.json",
+      "sha256": "baccbf48f39a7fb3296ca4e8a933d18f246a8db317423846e66d9c46374b2745"
+    },
+    "mixed_original_hash_only_source_bound": "19e1c92b975c9e59df6e2e09432a5cb9c824412fface2b85b47161a7aa10e18f",
+    "mixed_root_decoded": false,
+    "original_pure_root": "family_0191_-4",
+    "other_family_roots_decoded": 0,
+    "producer_W_N2_v4_forcing_recompiled": false,
+    "publication": {
+      "commit": "1177f251dc3d9455adf88b585e4c0e4bd6f7e69b",
+      "driver": {
+        "bytes": 47656,
+        "filename": "literature_acceleration_layer_mixed.py",
+        "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+      },
+      "lane": "acceleration_layer_mixed",
+      "matched_export": "acceleration-layer-mixed-original-expressions.json.gz",
+      "matched_main": "acceleration-layer-mixed.json",
+      "run": "43654534244"
+    },
+    "receipt": {
+      "bytes": 35241,
+      "filename": "receipt.json",
+      "sha256": "3c147ca2edaa03d4c27fa0694adca26764c0f98c8fde363387359d8fddccc494"
+    },
+    "selected_record": {
+      "aliases": [
+        {
+          "family": "A_kk",
+          "state_key": [
+            -2,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "id": 6,
+      "original_mode_sha256": {
+        "-2": "19e1c92b975c9e59df6e2e09432a5cb9c824412fface2b85b47161a7aa10e18f",
+        "-4": "9f28420162242f5899bcbf4bb2398b793935ebad021b8f57bbd1fe129f4a0ab1"
+      },
+      "roots": {
+        "-2": "selected_0006_-2",
+        "-4": "selected_0006_-4"
+      }
+    },
+    "state_key": [
+      -2,
+      0,
+      0,
+      0
+    ]
+  },
+  "coefficient_arithmetic": {
+    "coefficient_nodes": 2,
+    "field": "Q",
+    "limits_check_calls": 7498,
+    "profile_atoms": 2116
+  },
+  "completion": "complete",
+  "elapsed_seconds": 0.1904849520000056,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43660884663",
+  "github_sha": "b41c6f13ffbe56543d3593acb0b9023d8320e93c",
+  "input_pure_basis": {
+    "archived_original_roots_decoded": 9,
+    "archived_word_representatives_decoded": 9,
+    "complete_certificate": {
+      "content_scope": "one J and the complete weight-minus-two pure response membership question",
+      "filename": "general-pure-J-membership-certificate.json.gz",
+      "input_original_columns_recompiled": false,
+      "new_pure_column_representatives": 40,
+      "original_root_count": 73,
+      "raw_bytes": 456216,
+      "raw_sha256": "9859368ec20e0923cc168199a7ecb82eff0beac5fa191f1b6388e67cfd1aa550",
+      "stored_bytes": 84283,
+      "stored_sha256": "af46437f676716a20051bf3bad5a96235398dcf8a45c179d1395bc1f9d84712e"
+    },
+    "global_R116_columns": [
+      0,
+      48,
+      88,
+      112,
+      41,
+      73,
+      81,
+      193,
+      170
+    ],
+    "labels": [
+      {
+        "archived_original_position": 0,
+        "global_R116_column": 0,
+        "new_index": 0,
+        "original_pure_sha256": "88499f5c9ab1f0a0a15d8cd5dba3e1241ebd9432c8778824dee97fd1899fcfcf",
+        "original_root": "original_pure_column_00",
+        "quadratic_index": 0,
+        "third_index": 0,
+        "third_original_sha256": "abaf05b445a67ba5244461402066c36052e095095587927878a94f1e3982b7a2",
+        "weight_block_original_column": 0,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "2b7668d5e8d60abd71021b29c22e5bf9852f6041d8a40996448d2decdc9f503c",
+          "terms": 52
+        }
+      },
+      {
+        "archived_original_position": 1,
+        "global_R116_column": 48,
+        "new_index": 1,
+        "original_pure_sha256": "3d2f3d96fd5510461337b1ee1bb86023ebcd56eef257267fcad9e64ef24ee6ab",
+        "original_root": "original_pure_column_01",
+        "quadratic_index": 0,
+        "third_index": 6,
+        "third_original_sha256": "d5addb93c2cf80a60e444b2a884d18d9577158d3ef8042282993e4d56468dc39",
+        "weight_block_original_column": 1,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "81e919f7b88b7b945cc16f2735d088827a86fd19bee7c3b7de1ae5957d6bc45a",
+          "terms": 42
+        }
+      },
+      {
+        "archived_original_position": 2,
+        "global_R116_column": 88,
+        "new_index": 2,
+        "original_pure_sha256": "a12a9d8431d061e570b43579cc550449e12b5cd6cb8feb0f2fa358bc92cecf58",
+        "original_root": "original_pure_column_02",
+        "quadratic_index": 0,
+        "third_index": 11,
+        "third_original_sha256": "c38ea99fe6227f06594b2a5831d976a860247ff8ac25595af4b457f8c7d62d07",
+        "weight_block_original_column": 2,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "5794b64f1c6dc4bc3ea82481a768bde8c995b25cf9a001fd7b76a58a2d2f704c",
+          "terms": 39
+        }
+      },
+      {
+        "archived_original_position": 3,
+        "global_R116_column": 112,
+        "new_index": 3,
+        "original_pure_sha256": "38edd1c4e1c88dbb2a492f4edba8b209ebc41398a73439d09eac0cf5ea4896bf",
+        "original_root": "original_pure_column_03",
+        "quadratic_index": 0,
+        "third_index": 14,
+        "third_original_sha256": "99ceb97f81ba22f03776f27d4b2fc28b671022ebbfb0e32b39756b9985bd19da",
+        "weight_block_original_column": 3,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "fd7ee170f53913c2d19009f4a7529c11054434db671f1249fd0d2299d1bc66f1",
+          "terms": 37
+        }
+      },
+      {
+        "archived_original_position": 8,
+        "global_R116_column": 41,
+        "new_index": 4,
+        "original_pure_sha256": "9fca56d18af75eaa6baf7133f41d901283468d66cc3a307b81b13fe7f5a30674",
+        "original_root": "original_pure_column_08",
+        "quadratic_index": 1,
+        "third_index": 5,
+        "third_original_sha256": "7194e5d2ef91f17d9551148ed17f4ea05a9eba8e9d3b8ac3a075a5a012939811",
+        "weight_block_original_column": 8,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "e19f9c6eb014eb01a8966c7cc7af3723477524a082770dc0ea7ef184bc836b2a",
+          "terms": 53
+        }
+      },
+      {
+        "archived_original_position": 9,
+        "global_R116_column": 73,
+        "new_index": 5,
+        "original_pure_sha256": "3caa38d9f4ab17eae7f35d0c122ccb26eb33cccbab109a2a47f40c12b7a587b1",
+        "original_root": "original_pure_column_09",
+        "quadratic_index": 1,
+        "third_index": 9,
+        "third_original_sha256": "785155ee982710fb95a14a62691adf567347c58901f77c3f7e7dc36641b3fb4e",
+        "weight_block_original_column": 9,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 1,
+          "sha256": "30fc9fad50ba67ef7f2ede0a261d474b205f31431c521d69dd92ec6a583d3824",
+          "terms": 14
+        }
+      },
+      {
+        "archived_original_position": 10,
+        "global_R116_column": 81,
+        "new_index": 6,
+        "original_pure_sha256": "24c7fcb15edd72d831b54b0b3a89204085301a92b36d9ff0f8b98978bd73dc94",
+        "original_root": "original_pure_column_10",
+        "quadratic_index": 1,
+        "third_index": 10,
+        "third_original_sha256": "406692985982a1e6610a631fbc26af111d9fd8c22bf58ef73d18b00fbb5598ff",
+        "weight_block_original_column": 10,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "c4240fe6b84496e60c6ce39cba1bc1fd60d91729707c42b0d90d8b7ba2b291f7",
+          "terms": 13
+        }
+      },
+      {
+        "archived_original_position": 12,
+        "global_R116_column": 193,
+        "new_index": 7,
+        "original_pure_sha256": "c75d7d2d51c2156f68ca7c17f12fd9f31eb0505cb06cbb14a8eb9b418a728ae4",
+        "original_root": "original_pure_column_12",
+        "quadratic_index": 1,
+        "third_index": 24,
+        "third_original_sha256": "aaf991686caea0fb9f38c97530864d38193b2bd5edb4ec0d1ae6d8114920410d",
+        "weight_block_original_column": 12,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "b6bece9effbc14d920fa9610f7da4e78a04356138d18fd2855cf04b22a091081",
+          "terms": 31
+        }
+      },
+      {
+        "archived_original_position": 19,
+        "global_R116_column": 170,
+        "new_index": 8,
+        "original_pure_sha256": "b871bf4d2f5d91eb5ac7ac1c453d955c739192bdbce42e201f93c0eb227555d6",
+        "original_root": "original_pure_column_19",
+        "quadratic_index": 2,
+        "third_index": 21,
+        "third_original_sha256": "8ce172ccbd14be41ed330362ec87966788102d59f2889aad12efe932f4d0a05f",
+        "weight_block_original_column": 19,
+        "word_summary": {
+          "max_local_jet_order": 2,
+          "max_word_length": 2,
+          "sha256": "1ba8031789e21c5f6ccf94f4378cc11840a136ba0e2b3acccb3034025db75e44",
+          "terms": 35
+        }
+      }
+    ],
+    "main": {
+      "bytes": 45019,
+      "filename": "general-pure-J-membership.json",
+      "sha256": "98442251ed15b708a70e3fcbbdb2ae6cf76c8c1873aa21345354a5a320a9cfac"
+    },
+    "old_original_pure_dependencies_consumed": 31,
+    "old_original_pure_dependencies_recomputed": 0,
+    "old_pure_roots_renormalized": 0,
+    "old_true_pure_span_upper_bound": 9,
+    "original_positions": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      12,
+      19
+    ],
+    "publication": {
+      "commit": "c606688a842bd811106ff2844e1161a4f34c159e",
+      "driver": {
+        "bytes": 37092,
+        "filename": "literature_general_pure_J_membership.py",
+        "sha256": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc"
+      },
+      "lane": "general_pure_J_membership",
+      "matched_export": "general-pure-J-membership-certificate.json.gz",
+      "matched_main": "general-pure-J-membership.json",
+      "run": "43657785023"
+    },
+    "receipt": {
+      "bytes": 35841,
+      "filename": "receipt.json",
+      "sha256": "31d6380160437b0098d33d35e4b722c79cd780d351f614a4e48901100a9d0fa4"
+    },
+    "true_independence_source": "R151 section 3"
+  },
+  "input_regularity": {
+    "colors": [
+      "q"
+    ],
+    "maximum_input_jet": 4,
+    "reachable_atoms": 330
+  },
+  "limits": {
+    "IBP_calls_per_normalizer": 500000,
+    "atoms": 100000,
+    "certificate_bytes": 1500000,
+    "full_report_bytes": 2000000,
+    "main_bytes": 90000,
+    "memory_polling_mib": 1024,
+    "nodes": 500000,
+    "rational_bits_in_span": 8192,
+    "seconds": 180.0,
+    "terms": 120000
+  },
+  "nine_archived_representative_span": {
+    "actual_function_dimension_claimed": false,
+    "columns": 9,
+    "dependent_representatives": 0,
+    "independent_column_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "representative_rank": 9
+  },
+  "normalizer_statistics": {
+    "one_new_original_difference": {
+      "right_IBP": {
+        "cycle_fallbacks": 0,
+        "first_level_shuffle_rewrites": 10,
+        "power_shuffle_rewrites": 3,
+        "primitive_calls": 221,
+        "unique_high_jet_rewrites": 133,
+        "weight_zero_not_rewritten": 0
+      },
+      "word": {
+        "all_depth_shuffle_calls": 3,
+        "cycle_fallbacks": 0,
+        "max_shuffle_product_word_length": 2,
+        "max_word_length_seen": 2,
+        "nonempty_word_polynomial_IBP": 9,
+        "primitive_calls": 17,
+        "shuffle_cache_entries": 3,
+        "unique_high_jet_IBP": 0
+      }
+    },
+    "only_new_target": {
+      "right_IBP": {
+        "cycle_fallbacks": 0,
+        "first_level_shuffle_rewrites": 1,
+        "power_shuffle_rewrites": 0,
+        "primitive_calls": 41,
+        "unique_high_jet_rewrites": 24,
+        "weight_zero_not_rewritten": 0
+      },
+      "word": {
+        "all_depth_shuffle_calls": 1,
+        "cycle_fallbacks": 0,
+        "max_shuffle_product_word_length": 2,
+        "max_word_length_seen": 2,
+        "nonempty_word_polynomial_IBP": 0,
+        "primitive_calls": 10,
+        "shuffle_cache_entries": 1,
+        "unique_high_jet_IBP": 0
+      }
+    }
+  },
+  "one_J6_proposal": {
+    "coefficients_are_exact_Q_not_modular_lifts": true,
+    "coefficients_in_consumed_original_positions": [
+      [
+        0,
+        "-1/64"
+      ],
+      [
+        2,
+        "-1/64"
+      ],
+      [
+        4,
+        "-1/128"
+      ],
+      [
+        5,
+        "-1/32"
+      ],
+      [
+        6,
+        "-5/128"
+      ],
+      [
+        7,
+        "1/256"
+      ]
+    ],
+    "coefficients_in_original_global_columns": [
+      [
+        0,
+        "-1/64"
+      ],
+      [
+        88,
+        "-1/64"
+      ],
+      [
+        41,
+        "-1/128"
+      ],
+      [
+        73,
+        "-1/32"
+      ],
+      [
+        81,
+        "-5/128"
+      ],
+      [
+        193,
+        "1/256"
+      ]
+    ],
+    "fresh_original_difference_checked_even_if_word_solve_unresolved": true,
+    "fresh_original_normal_form": {
+      "max_local_jet_order": 0,
+      "max_word_length": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "terms": 0
+    },
+    "nonzero_representative_is_not_nonmembership": false,
+    "original_difference_root": "one_J6_proposed_original_difference",
+    "original_difference_sha256": "53958fd1febb5dd07595e9a807c3576923dfc8c00408fe463941d3560458cfab",
+    "original_difference_terms": 307,
+    "original_identity_proved": true,
+    "target_word_summary": {
+      "max_local_jet_order": 2,
+      "max_word_length": 2,
+      "sha256": "9b673df17058db26733569e1a1599a533485a72b0035ab8a5c3a3ca099aed341",
+      "terms": 16
+    },
+    "word_solve_remainder": {
+      "max_local_jet_order": 0,
+      "max_word_length": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "terms": 0
+    }
+  },
+  "original_J6_pure": {
+    "mode": -4,
+    "original_sha256": "9f28420162242f5899bcbf4bb2398b793935ebad021b8f57bbd1fe129f4a0ab1",
+    "original_terms": 62,
+    "profile_affine_weight": -2
+  },
+  "peak_rss_mib": 57.9921875,
+  "phase": "complete_one_J6_general_pure_question",
+  "portable_original_certificate": {
+    "content_scope": "one-original-J6-pure-solve-against-nine-archived-originals",
+    "filename": "general-pure-J6-membership-certificate.json.gz",
+    "mixed_original_roots_decoded": 0,
+    "old_basis_or_dependencies_recomputed": false,
+    "original_root_count": 11,
+    "raw_bytes": 101758,
+    "raw_sha256": "bd9eabce279313b74dc51adfc1b55c4bac72369544fb7a1ec33c296cfdc246d6",
+    "stored_bytes": 15080,
+    "stored_sha256": "03e4e377632a7bfea3225d8ef27339bf26567f5aaa818ec7d23f9ce1a74568bd"
+  },
+  "result": {
+    "actual_cost_sign_or_signed_control_claimed": false,
+    "all_general_pure_costs_in_response_proved": false,
+    "balanced_mixed_J6_member_proved": false,
+    "complete_two_mode_J6_member_proved": false,
+    "general_pure_J6_member_proved": true,
+    "general_pure_J6_nonmember_proved": false,
+    "profile_affine_weight": -2,
+    "pure_mode": -4,
+    "status": "general_pure_J6_member_identity_proved"
+  },
+  "schema": "visible-flex-general-pure-J6-archived-basis-membership-v1",
+  "scope": "one complete J6 pure target against nine archived true bases",
+  "source_hashes": {
+    "complete_five_family_producer": {
+      "driver": {
+        "bytes": 47656,
+        "filename": "literature_acceleration_layer_mixed.py",
+        "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+      },
+      "factor_input_interfaces": {
+        "colored": {
+          "bytes": 15738,
+          "filename": "literature_colored_profile_algebra.py",
+          "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+        },
+        "driver": {
+          "bytes": 22205,
+          "filename": "literature_local_fourth_derivative_factors.py",
+          "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
+        },
+        "dual_receipt_reader": {
+          "bytes": 19492,
+          "filename": "literature_full_phase_rational_dual.py",
+          "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+        },
+        "endpoint": {
+          "bytes": 21532,
+          "filename": "literature_closed_c1_endpoint.py",
+          "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+        },
+        "exact": {
+          "bytes": 33718,
+          "filename": "literature_pure_bulk_exact_membership.py",
+          "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+        },
+        "formal": {
+          "bytes": 33169,
+          "filename": "literature_range_profile_algebra.py",
+          "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+        },
+        "local": {
+          "bytes": 30635,
+          "filename": "literature_local_third_bridge_decompose.py",
+          "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+        },
+        "original_expression_io": {
+          "bytes": 32096,
+          "filename": "literature_full_m8_tail_response_projection.py",
+          "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+        },
+        "scaling_interfaces": {
+          "bytes": 37293,
+          "filename": "literature_total_P1_scaling_blocks.py",
+          "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+        },
+        "static_expression_producer": {
+          "bytes": 38857,
+          "filename": "literature_local_fourth_quotient.py",
+          "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+        },
+        "v2_producer": {
+          "bytes": 35368,
+          "filename": "literature_full_phase_bridge_exact.py",
+          "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+        },
+        "words": {
+          "bytes": 32310,
+          "filename": "literature_pure_bulk_word_normal_form.py",
+          "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+        }
+      },
+      "original_expression_helpers": {
+        "G_input_producer": {
+          "bytes": 16444,
+          "filename": "literature_static_G_rational_dual.py",
+          "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+        },
+        "driver": {
+          "bytes": 26885,
+          "filename": "literature_G_first_translation.py",
+          "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+        },
+        "original_producer_dependencies": {
+          "colored": {
+            "bytes": 15738,
+            "filename": "literature_colored_profile_algebra.py",
+            "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+          },
+          "driver": {
+            "bytes": 38857,
+            "filename": "literature_local_fourth_quotient.py",
+            "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+          },
+          "dual_receipt_reader": {
+            "bytes": 19492,
+            "filename": "literature_full_phase_rational_dual.py",
+            "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+          },
+          "endpoint": {
+            "bytes": 21532,
+            "filename": "literature_closed_c1_endpoint.py",
+            "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+          },
+          "exact": {
+            "bytes": 33718,
+            "filename": "literature_pure_bulk_exact_membership.py",
+            "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+          },
+          "formal": {
+            "bytes": 33169,
+            "filename": "literature_range_profile_algebra.py",
+            "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+          },
+          "local": {
+            "bytes": 30635,
+            "filename": "literature_local_third_bridge_decompose.py",
+            "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+          },
+          "scaling_interfaces": {
+            "bytes": 37293,
+            "filename": "literature_total_P1_scaling_blocks.py",
+            "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+          },
+          "v2_producer": {
+            "bytes": 35368,
+            "filename": "literature_full_phase_bridge_exact.py",
+            "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+          },
+          "words": {
+            "bytes": 32310,
+            "filename": "literature_pure_bulk_word_normal_form.py",
+            "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+          }
+        },
+        "polynomial_evaluator": {
+          "bytes": 19803,
+          "filename": "literature_rational_volterra_polynomial.py",
+          "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+        },
+        "publication_identity_helper": {
+          "bytes": 32096,
+          "filename": "literature_full_m8_tail_response_projection.py",
+          "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+        },
+        "static_input_and_report_helper": {
+          "bytes": 24202,
+          "filename": "literature_constrained_static_fourth.py",
+          "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+        }
+      }
+    },
+    "completed_archived_basis_solver": {
+      "completed_D0_input_helper": {
+        "driver": {
+          "bytes": 32755,
+          "filename": "literature_D0_pivot_residual_probe.py",
+          "sha256": "e6a4c15bfe95c587c4cde0cae26b33cf0bf4f54f0ea7b9cfb5c83026c98afbcd"
+        },
+        "published_D0_and_original_interfaces": {
+          "driver": {
+            "bytes": 31222,
+            "filename": "literature_h_axis_sharp_coefficient.py",
+            "sha256": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b"
+          },
+          "published_layer_helpers": {
+            "driver": {
+              "bytes": 47656,
+              "filename": "literature_acceleration_layer_mixed.py",
+              "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+            },
+            "factor_input_interfaces": {
+              "colored": {
+                "bytes": 15738,
+                "filename": "literature_colored_profile_algebra.py",
+                "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+              },
+              "driver": {
+                "bytes": 22205,
+                "filename": "literature_local_fourth_derivative_factors.py",
+                "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
+              },
+              "dual_receipt_reader": {
+                "bytes": 19492,
+                "filename": "literature_full_phase_rational_dual.py",
+                "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+              },
+              "endpoint": {
+                "bytes": 21532,
+                "filename": "literature_closed_c1_endpoint.py",
+                "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+              },
+              "exact": {
+                "bytes": 33718,
+                "filename": "literature_pure_bulk_exact_membership.py",
+                "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+              },
+              "formal": {
+                "bytes": 33169,
+                "filename": "literature_range_profile_algebra.py",
+                "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+              },
+              "local": {
+                "bytes": 30635,
+                "filename": "literature_local_third_bridge_decompose.py",
+                "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+              },
+              "original_expression_io": {
+                "bytes": 32096,
+                "filename": "literature_full_m8_tail_response_projection.py",
+                "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+              },
+              "scaling_interfaces": {
+                "bytes": 37293,
+                "filename": "literature_total_P1_scaling_blocks.py",
+                "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+              },
+              "static_expression_producer": {
+                "bytes": 38857,
+                "filename": "literature_local_fourth_quotient.py",
+                "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+              },
+              "v2_producer": {
+                "bytes": 35368,
+                "filename": "literature_full_phase_bridge_exact.py",
+                "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+              },
+              "words": {
+                "bytes": 32310,
+                "filename": "literature_pure_bulk_word_normal_form.py",
+                "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+              }
+            },
+            "original_expression_helpers": {
+              "G_input_producer": {
+                "bytes": 16444,
+                "filename": "literature_static_G_rational_dual.py",
+                "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+              },
+              "driver": {
+                "bytes": 26885,
+                "filename": "literature_G_first_translation.py",
+                "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+              },
+              "original_producer_dependencies": {
+                "colored": {
+                  "bytes": 15738,
+                  "filename": "literature_colored_profile_algebra.py",
+                  "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+                },
+                "driver": {
+                  "bytes": 38857,
+                  "filename": "literature_local_fourth_quotient.py",
+                  "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+                },
+                "dual_receipt_reader": {
+                  "bytes": 19492,
+                  "filename": "literature_full_phase_rational_dual.py",
+                  "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+                },
+                "endpoint": {
+                  "bytes": 21532,
+                  "filename": "literature_closed_c1_endpoint.py",
+                  "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+                },
+                "exact": {
+                  "bytes": 33718,
+                  "filename": "literature_pure_bulk_exact_membership.py",
+                  "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+                },
+                "formal": {
+                  "bytes": 33169,
+                  "filename": "literature_range_profile_algebra.py",
+                  "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+                },
+                "local": {
+                  "bytes": 30635,
+                  "filename": "literature_local_third_bridge_decompose.py",
+                  "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+                },
+                "scaling_interfaces": {
+                  "bytes": 37293,
+                  "filename": "literature_total_P1_scaling_blocks.py",
+                  "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+                },
+                "v2_producer": {
+                  "bytes": 35368,
+                  "filename": "literature_full_phase_bridge_exact.py",
+                  "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+                },
+                "words": {
+                  "bytes": 32310,
+                  "filename": "literature_pure_bulk_word_normal_form.py",
+                  "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+                }
+              },
+              "polynomial_evaluator": {
+                "bytes": 19803,
+                "filename": "literature_rational_volterra_polynomial.py",
+                "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+              },
+              "publication_identity_helper": {
+                "bytes": 32096,
+                "filename": "literature_full_m8_tail_response_projection.py",
+                "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+              },
+              "static_input_and_report_helper": {
+                "bytes": 24202,
+                "filename": "literature_constrained_static_fourth.py",
+                "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+              }
+            }
+          }
+        }
+      },
+      "completed_pure_basis_producer": {
+        "bound_original_inputs": {
+          "driver": {
+            "bytes": 24639,
+            "filename": "literature_general_pure_J_identity.py",
+            "sha256": "ddacad3474844368e3546f4e4b0f92e71eb276363cd283ad4f300259e8161f63"
+          },
+          "five_family_producer": {
+            "driver": {
+              "bytes": 47656,
+              "filename": "literature_acceleration_layer_mixed.py",
+              "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+            },
+            "factor_input_interfaces": {
+              "colored": {
+                "bytes": 15738,
+                "filename": "literature_colored_profile_algebra.py",
+                "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+              },
+              "driver": {
+                "bytes": 22205,
+                "filename": "literature_local_fourth_derivative_factors.py",
+                "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
+              },
+              "dual_receipt_reader": {
+                "bytes": 19492,
+                "filename": "literature_full_phase_rational_dual.py",
+                "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+              },
+              "endpoint": {
+                "bytes": 21532,
+                "filename": "literature_closed_c1_endpoint.py",
+                "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+              },
+              "exact": {
+                "bytes": 33718,
+                "filename": "literature_pure_bulk_exact_membership.py",
+                "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+              },
+              "formal": {
+                "bytes": 33169,
+                "filename": "literature_range_profile_algebra.py",
+                "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+              },
+              "local": {
+                "bytes": 30635,
+                "filename": "literature_local_third_bridge_decompose.py",
+                "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+              },
+              "original_expression_io": {
+                "bytes": 32096,
+                "filename": "literature_full_m8_tail_response_projection.py",
+                "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+              },
+              "scaling_interfaces": {
+                "bytes": 37293,
+                "filename": "literature_total_P1_scaling_blocks.py",
+                "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+              },
+              "static_expression_producer": {
+                "bytes": 38857,
+                "filename": "literature_local_fourth_quotient.py",
+                "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+              },
+              "v2_producer": {
+                "bytes": 35368,
+                "filename": "literature_full_phase_bridge_exact.py",
+                "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+              },
+              "words": {
+                "bytes": 32310,
+                "filename": "literature_pure_bulk_word_normal_form.py",
+                "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+              }
+            },
+            "original_expression_helpers": {
+              "G_input_producer": {
+                "bytes": 16444,
+                "filename": "literature_static_G_rational_dual.py",
+                "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+              },
+              "driver": {
+                "bytes": 26885,
+                "filename": "literature_G_first_translation.py",
+                "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+              },
+              "original_producer_dependencies": {
+                "colored": {
+                  "bytes": 15738,
+                  "filename": "literature_colored_profile_algebra.py",
+                  "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+                },
+                "driver": {
+                  "bytes": 38857,
+                  "filename": "literature_local_fourth_quotient.py",
+                  "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+                },
+                "dual_receipt_reader": {
+                  "bytes": 19492,
+                  "filename": "literature_full_phase_rational_dual.py",
+                  "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+                },
+                "endpoint": {
+                  "bytes": 21532,
+                  "filename": "literature_closed_c1_endpoint.py",
+                  "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+                },
+                "exact": {
+                  "bytes": 33718,
+                  "filename": "literature_pure_bulk_exact_membership.py",
+                  "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+                },
+                "formal": {
+                  "bytes": 33169,
+                  "filename": "literature_range_profile_algebra.py",
+                  "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+                },
+                "local": {
+                  "bytes": 30635,
+                  "filename": "literature_local_third_bridge_decompose.py",
+                  "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+                },
+                "scaling_interfaces": {
+                  "bytes": 37293,
+                  "filename": "literature_total_P1_scaling_blocks.py",
+                  "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+                },
+                "v2_producer": {
+                  "bytes": 35368,
+                  "filename": "literature_full_phase_bridge_exact.py",
+                  "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+                },
+                "words": {
+                  "bytes": 32310,
+                  "filename": "literature_pure_bulk_word_normal_form.py",
+                  "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+                }
+              },
+              "polynomial_evaluator": {
+                "bytes": 19803,
+                "filename": "literature_rational_volterra_polynomial.py",
+                "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+              },
+              "publication_identity_helper": {
+                "bytes": 32096,
+                "filename": "literature_full_m8_tail_response_projection.py",
+                "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+              },
+              "static_input_and_report_helper": {
+                "bytes": 24202,
+                "filename": "literature_constrained_static_fourth.py",
+                "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+              }
+            }
+          },
+          "pure_original_identity_helpers": {
+            "driver": {
+              "bytes": 18430,
+              "filename": "literature_general_pure_G_identity.py",
+              "sha256": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7"
+            },
+            "original_G_input_helper": {
+              "bytes": 16444,
+              "filename": "literature_static_G_rational_dual.py",
+              "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+            },
+            "original_producer_dependencies": {
+              "colored": {
+                "bytes": 15738,
+                "filename": "literature_colored_profile_algebra.py",
+                "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+              },
+              "driver": {
+                "bytes": 38857,
+                "filename": "literature_local_fourth_quotient.py",
+                "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+              },
+              "dual_receipt_reader": {
+                "bytes": 19492,
+                "filename": "literature_full_phase_rational_dual.py",
+                "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+              },
+              "endpoint": {
+                "bytes": 21532,
+                "filename": "literature_closed_c1_endpoint.py",
+                "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+              },
+              "exact": {
+                "bytes": 33718,
+                "filename": "literature_pure_bulk_exact_membership.py",
+                "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+              },
+              "formal": {
+                "bytes": 33169,
+                "filename": "literature_range_profile_algebra.py",
+                "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+              },
+              "local": {
+                "bytes": 30635,
+                "filename": "literature_local_third_bridge_decompose.py",
+                "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+              },
+              "scaling_interfaces": {
+                "bytes": 37293,
+                "filename": "literature_total_P1_scaling_blocks.py",
+                "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+              },
+              "v2_producer": {
+                "bytes": 35368,
+                "filename": "literature_full_phase_bridge_exact.py",
+                "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+              },
+              "words": {
+                "bytes": 32310,
+                "filename": "literature_pure_bulk_word_normal_form.py",
+                "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+              }
+            },
+            "polynomial_evaluator": {
+              "bytes": 19803,
+              "filename": "literature_rational_volterra_polynomial.py",
+              "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+            },
+            "publication_identity_helper": {
+              "bytes": 32096,
+              "filename": "literature_full_m8_tail_response_projection.py",
+              "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+            },
+            "pure_normalizer": {
+              "bytes": 24699,
+              "filename": "literature_linear_third_bridge_quotient.py",
+              "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+            },
+            "pure_normalizer_dependencies": {
+              "exact": {
+                "bytes": 33718,
+                "filename": "literature_pure_bulk_exact_membership.py",
+                "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+              },
+              "formal_compiler": {
+                "bytes": 33169,
+                "filename": "literature_range_profile_algebra.py",
+                "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+                "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+              },
+              "local": {
+                "bytes": 30635,
+                "filename": "literature_local_third_bridge_decompose.py",
+                "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+              },
+              "word": {
+                "bytes": 32310,
+                "filename": "literature_pure_bulk_word_normal_form.py",
+                "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+              }
+            },
+            "static_input_and_report_helper": {
+              "bytes": 24202,
+              "filename": "literature_constrained_static_fourth.py",
+              "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+            }
+          },
+          "weight_minus_two_producer": {
+            "G_input_producer": {
+              "bytes": 16444,
+              "filename": "literature_static_G_rational_dual.py",
+              "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+            },
+            "driver": {
+              "bytes": 39670,
+              "filename": "literature_G_translation_successor.py",
+              "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+            },
+            "frozen_first_translation_helpers": {
+              "bytes": 26885,
+              "filename": "literature_G_first_translation.py",
+              "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+            },
+            "original_producer_dependencies": {
+              "colored": {
+                "bytes": 15738,
+                "filename": "literature_colored_profile_algebra.py",
+                "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+              },
+              "driver": {
+                "bytes": 38857,
+                "filename": "literature_local_fourth_quotient.py",
+                "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+              },
+              "dual_receipt_reader": {
+                "bytes": 19492,
+                "filename": "literature_full_phase_rational_dual.py",
+                "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+              },
+              "endpoint": {
+                "bytes": 21532,
+                "filename": "literature_closed_c1_endpoint.py",
+                "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+              },
+              "exact": {
+                "bytes": 33718,
+                "filename": "literature_pure_bulk_exact_membership.py",
+                "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+              },
+              "formal": {
+                "bytes": 33169,
+                "filename": "literature_range_profile_algebra.py",
+                "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+              },
+              "local": {
+                "bytes": 30635,
+                "filename": "literature_local_third_bridge_decompose.py",
+                "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+              },
+              "scaling_interfaces": {
+                "bytes": 37293,
+                "filename": "literature_total_P1_scaling_blocks.py",
+                "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+              },
+              "v2_producer": {
+                "bytes": 35368,
+                "filename": "literature_full_phase_bridge_exact.py",
+                "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+              },
+              "words": {
+                "bytes": 32310,
+                "filename": "literature_pure_bulk_word_normal_form.py",
+                "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+              }
+            },
+            "polynomial_evaluator": {
+              "bytes": 19803,
+              "filename": "literature_rational_volterra_polynomial.py",
+              "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+            },
+            "publication_identity_helper": {
+              "bytes": 32096,
+              "filename": "literature_full_m8_tail_response_projection.py",
+              "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+            },
+            "static_input_and_report_helper": {
+              "bytes": 24202,
+              "filename": "literature_constrained_static_fourth.py",
+              "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+            }
+          }
+        },
+        "driver": {
+          "bytes": 37092,
+          "filename": "literature_general_pure_J_membership.py",
+          "sha256": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc"
+        }
+      },
+      "driver": {
+        "bytes": 25604,
+        "filename": "literature_general_pure_D0_membership.py",
+        "sha256": "c296f72becff4366297e3b9f00db97425b1aa5b15c10ba7625932966ae7c8f1f"
+      }
+    },
+    "completed_pure_basis_producer": {
+      "bound_original_inputs": {
+        "driver": {
+          "bytes": 24639,
+          "filename": "literature_general_pure_J_identity.py",
+          "sha256": "ddacad3474844368e3546f4e4b0f92e71eb276363cd283ad4f300259e8161f63"
+        },
+        "five_family_producer": {
+          "driver": {
+            "bytes": 47656,
+            "filename": "literature_acceleration_layer_mixed.py",
+            "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+          },
+          "factor_input_interfaces": {
+            "colored": {
+              "bytes": 15738,
+              "filename": "literature_colored_profile_algebra.py",
+              "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+            },
+            "driver": {
+              "bytes": 22205,
+              "filename": "literature_local_fourth_derivative_factors.py",
+              "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
+            },
+            "dual_receipt_reader": {
+              "bytes": 19492,
+              "filename": "literature_full_phase_rational_dual.py",
+              "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+            },
+            "endpoint": {
+              "bytes": 21532,
+              "filename": "literature_closed_c1_endpoint.py",
+              "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+            },
+            "exact": {
+              "bytes": 33718,
+              "filename": "literature_pure_bulk_exact_membership.py",
+              "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+            },
+            "formal": {
+              "bytes": 33169,
+              "filename": "literature_range_profile_algebra.py",
+              "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+            },
+            "local": {
+              "bytes": 30635,
+              "filename": "literature_local_third_bridge_decompose.py",
+              "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+            },
+            "original_expression_io": {
+              "bytes": 32096,
+              "filename": "literature_full_m8_tail_response_projection.py",
+              "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+            },
+            "scaling_interfaces": {
+              "bytes": 37293,
+              "filename": "literature_total_P1_scaling_blocks.py",
+              "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+            },
+            "static_expression_producer": {
+              "bytes": 38857,
+              "filename": "literature_local_fourth_quotient.py",
+              "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+            },
+            "v2_producer": {
+              "bytes": 35368,
+              "filename": "literature_full_phase_bridge_exact.py",
+              "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+            },
+            "words": {
+              "bytes": 32310,
+              "filename": "literature_pure_bulk_word_normal_form.py",
+              "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+            }
+          },
+          "original_expression_helpers": {
+            "G_input_producer": {
+              "bytes": 16444,
+              "filename": "literature_static_G_rational_dual.py",
+              "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+            },
+            "driver": {
+              "bytes": 26885,
+              "filename": "literature_G_first_translation.py",
+              "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+            },
+            "original_producer_dependencies": {
+              "colored": {
+                "bytes": 15738,
+                "filename": "literature_colored_profile_algebra.py",
+                "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+              },
+              "driver": {
+                "bytes": 38857,
+                "filename": "literature_local_fourth_quotient.py",
+                "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+              },
+              "dual_receipt_reader": {
+                "bytes": 19492,
+                "filename": "literature_full_phase_rational_dual.py",
+                "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+              },
+              "endpoint": {
+                "bytes": 21532,
+                "filename": "literature_closed_c1_endpoint.py",
+                "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+              },
+              "exact": {
+                "bytes": 33718,
+                "filename": "literature_pure_bulk_exact_membership.py",
+                "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+              },
+              "formal": {
+                "bytes": 33169,
+                "filename": "literature_range_profile_algebra.py",
+                "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+              },
+              "local": {
+                "bytes": 30635,
+                "filename": "literature_local_third_bridge_decompose.py",
+                "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+              },
+              "scaling_interfaces": {
+                "bytes": 37293,
+                "filename": "literature_total_P1_scaling_blocks.py",
+                "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+              },
+              "v2_producer": {
+                "bytes": 35368,
+                "filename": "literature_full_phase_bridge_exact.py",
+                "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+              },
+              "words": {
+                "bytes": 32310,
+                "filename": "literature_pure_bulk_word_normal_form.py",
+                "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+              }
+            },
+            "polynomial_evaluator": {
+              "bytes": 19803,
+              "filename": "literature_rational_volterra_polynomial.py",
+              "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+            },
+            "publication_identity_helper": {
+              "bytes": 32096,
+              "filename": "literature_full_m8_tail_response_projection.py",
+              "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+            },
+            "static_input_and_report_helper": {
+              "bytes": 24202,
+              "filename": "literature_constrained_static_fourth.py",
+              "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+            }
+          }
+        },
+        "pure_original_identity_helpers": {
+          "driver": {
+            "bytes": 18430,
+            "filename": "literature_general_pure_G_identity.py",
+            "sha256": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7"
+          },
+          "original_G_input_helper": {
+            "bytes": 16444,
+            "filename": "literature_static_G_rational_dual.py",
+            "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+          },
+          "original_producer_dependencies": {
+            "colored": {
+              "bytes": 15738,
+              "filename": "literature_colored_profile_algebra.py",
+              "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+            },
+            "driver": {
+              "bytes": 38857,
+              "filename": "literature_local_fourth_quotient.py",
+              "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+            },
+            "dual_receipt_reader": {
+              "bytes": 19492,
+              "filename": "literature_full_phase_rational_dual.py",
+              "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+            },
+            "endpoint": {
+              "bytes": 21532,
+              "filename": "literature_closed_c1_endpoint.py",
+              "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+            },
+            "exact": {
+              "bytes": 33718,
+              "filename": "literature_pure_bulk_exact_membership.py",
+              "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+            },
+            "formal": {
+              "bytes": 33169,
+              "filename": "literature_range_profile_algebra.py",
+              "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+            },
+            "local": {
+              "bytes": 30635,
+              "filename": "literature_local_third_bridge_decompose.py",
+              "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+            },
+            "scaling_interfaces": {
+              "bytes": 37293,
+              "filename": "literature_total_P1_scaling_blocks.py",
+              "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+            },
+            "v2_producer": {
+              "bytes": 35368,
+              "filename": "literature_full_phase_bridge_exact.py",
+              "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+            },
+            "words": {
+              "bytes": 32310,
+              "filename": "literature_pure_bulk_word_normal_form.py",
+              "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+            }
+          },
+          "polynomial_evaluator": {
+            "bytes": 19803,
+            "filename": "literature_rational_volterra_polynomial.py",
+            "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+          },
+          "publication_identity_helper": {
+            "bytes": 32096,
+            "filename": "literature_full_m8_tail_response_projection.py",
+            "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+          },
+          "pure_normalizer": {
+            "bytes": 24699,
+            "filename": "literature_linear_third_bridge_quotient.py",
+            "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+          },
+          "pure_normalizer_dependencies": {
+            "exact": {
+              "bytes": 33718,
+              "filename": "literature_pure_bulk_exact_membership.py",
+              "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+            },
+            "formal_compiler": {
+              "bytes": 33169,
+              "filename": "literature_range_profile_algebra.py",
+              "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+              "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+            },
+            "local": {
+              "bytes": 30635,
+              "filename": "literature_local_third_bridge_decompose.py",
+              "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+            },
+            "word": {
+              "bytes": 32310,
+              "filename": "literature_pure_bulk_word_normal_form.py",
+              "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+            }
+          },
+          "static_input_and_report_helper": {
+            "bytes": 24202,
+            "filename": "literature_constrained_static_fourth.py",
+            "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+          }
+        },
+        "weight_minus_two_producer": {
+          "G_input_producer": {
+            "bytes": 16444,
+            "filename": "literature_static_G_rational_dual.py",
+            "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+          },
+          "driver": {
+            "bytes": 39670,
+            "filename": "literature_G_translation_successor.py",
+            "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+          },
+          "frozen_first_translation_helpers": {
+            "bytes": 26885,
+            "filename": "literature_G_first_translation.py",
+            "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+          },
+          "original_producer_dependencies": {
+            "colored": {
+              "bytes": 15738,
+              "filename": "literature_colored_profile_algebra.py",
+              "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+            },
+            "driver": {
+              "bytes": 38857,
+              "filename": "literature_local_fourth_quotient.py",
+              "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+            },
+            "dual_receipt_reader": {
+              "bytes": 19492,
+              "filename": "literature_full_phase_rational_dual.py",
+              "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+            },
+            "endpoint": {
+              "bytes": 21532,
+              "filename": "literature_closed_c1_endpoint.py",
+              "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+            },
+            "exact": {
+              "bytes": 33718,
+              "filename": "literature_pure_bulk_exact_membership.py",
+              "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+            },
+            "formal": {
+              "bytes": 33169,
+              "filename": "literature_range_profile_algebra.py",
+              "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+            },
+            "local": {
+              "bytes": 30635,
+              "filename": "literature_local_third_bridge_decompose.py",
+              "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+            },
+            "scaling_interfaces": {
+              "bytes": 37293,
+              "filename": "literature_total_P1_scaling_blocks.py",
+              "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+            },
+            "v2_producer": {
+              "bytes": 35368,
+              "filename": "literature_full_phase_bridge_exact.py",
+              "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+            },
+            "words": {
+              "bytes": 32310,
+              "filename": "literature_pure_bulk_word_normal_form.py",
+              "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+            }
+          },
+          "polynomial_evaluator": {
+            "bytes": 19803,
+            "filename": "literature_rational_volterra_polynomial.py",
+            "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+          },
+          "publication_identity_helper": {
+            "bytes": 32096,
+            "filename": "literature_full_m8_tail_response_projection.py",
+            "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+          },
+          "static_input_and_report_helper": {
+            "bytes": 24202,
+            "filename": "literature_constrained_static_fourth.py",
+            "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+          }
+        }
+      },
+      "driver": {
+        "bytes": 37092,
+        "filename": "literature_general_pure_J_membership.py",
+        "sha256": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc"
+      }
+    },
+    "driver": {
+      "bytes": 23040,
+      "filename": "literature_general_pure_J6_membership.py",
+      "sha256": "48afb00617c5c5251bde7ab2f7782740ff43bf4318cfd78193137c3343c0f745"
+    }
+  },
+  "work_scope": {
+    "mixed_research_roots_decoded": 0,
+    "modular_lifts_used_as_Q_coefficients": false,
+    "new_balanced_or_other_mixed_targets": 0,
+    "new_general_pure_targets": 1,
+    "new_profile_evaluations": 0,
+    "new_response_formulas": 0,
+    "old_N2_v4_forcing_recompiled": 0,
+    "old_basis_roots_renormalized": 0,
+    "old_pure_dependencies_recomputed": 0
+  }
+}
