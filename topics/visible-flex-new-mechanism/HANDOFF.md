@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:33:49 UTC实际pull后已读规则提交：`a210ab7b24a816d7d0777b3184a4c7bdf5239e9d`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:40:47 UTC实际pull后已读规则提交：`918943f467450fb47bb71c4561adebed3966b146`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
+私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
 真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。当前partial/sparse clones在`/dev/shm/visible-recovered-9974ea84/{public,private}`；旧磁盘满/丢失.git仍保工作文件。05:46起恢复真实终端pull/push，先前根8例外已结束。
 
