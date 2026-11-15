@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 24bf4f9c557eb4b2aded767ad3e8871ae02cea36（2026-11-15 10:32:22 UTC，Actions run43704550874实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43704550874-1.json。
+- **最近成功实际 pull 与已读规则提交：** 4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6（2026-11-15 10:34:52 UTC，Actions run43704759898实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43704759898-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。selected-natural-u-minimal-rebuild32已实际完成新输入重建与32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - 零点K95正式稿已推。∞cubic单列仍k1；[完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。核自由[164,494]，全部总degree5三normal坐标强制零。两相位检查点仍在新job。
-- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接及∞第五阶，不重复已闭RREF。
+- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接保完整33+36族；∞第五已入队（SHA0e8a04b7，30秒/512MiB），保三项真实高残量及λ4的QB歧义，未预填r。不重复已闭Q RREF。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭

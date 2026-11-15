@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "d72d8ea6368ab0f8335cf71246d746e45992d5e8",
+  "rulesReadAtCommit": "4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -399,6 +399,71 @@
       ],
       "timeoutSeconds": 230,
       "receiptPath": "{work}/selected-natural-first-left-envelope/selected-natural-first-left-envelope-rebuilt-pipeline-receipt.json"
+    },
+    {
+      "id": "infinity-fifth-joint-high-low-left-envelope",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-fifth-joint-high-low-left-envelope-789f.py",
+      "scriptSHA256": "0e8a04b75d85708305cbcb645da4df13348aabf3b71951cc2ff72bd05f5513ba",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+          "sha256": "6cb201867c430b4375dbe93cb411ad1e74bea39571261d1ecfec233e4b397517"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-original-transverse-first-connection.json",
+          "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-second-pure-envelope.json",
+          "sha256": "a16ecefa8669222653aacd1a8fb7fb10c858e44d91a117b09db7a851f1da6b98"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-second-normal-envelope.json",
+          "sha256": "cf9d9439fb2ca44921cb4f2614cf3400d5045783e4e9842321c0fdb3aef540da"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-third-left-envelope.json",
+          "sha256": "8df6d0f6ec01a1fcebd9234adc963ad2e73ab3481089f2d5063d805fdfb58f45"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-infinity-third-complete-cubic-normal-kernel.json",
+          "sha256": "1d9420ac3d318a5058c7f47acda6942f9126cd21c5871de2b4d4618ecf60688b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-infinity-fourth-joint-high-low-left-envelope.json",
+          "sha256": "df342766441ffed18a1d2dd56405ecd2885b01cd4cb7ecf5e69b2ad725e25a35"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--normal-generator",
+        "{scripts}/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+        "--first-connection-receipt",
+        "{scripts}/43679903558-original-transverse-first-connection.json",
+        "--second-pure-receipt",
+        "{scripts}/43679903558-infinity-second-pure-envelope.json",
+        "--second-normal-receipt",
+        "{scripts}/43679903558-infinity-second-normal-envelope.json",
+        "--third-receipt",
+        "{scripts}/43679903558-infinity-third-left-envelope.json",
+        "--complete-cubic-receipt",
+        "{scripts}/43702348535-infinity-third-complete-cubic-normal-kernel.json",
+        "--checkpoint-dir",
+        "{work}/infinity-fifth-joint-checkpoint",
+        "--out",
+        "{work}/infinity-fifth-joint-left-envelope-receipt.json",
+        "--remaining-seconds",
+        "30",
+        "--fourth-receipt",
+        "{scripts}/43702348535-infinity-fourth-joint-high-low-left-envelope.json"
+      ],
+      "timeoutSeconds": 80,
+      "receiptPath": "{work}/infinity-fifth-joint-left-envelope-receipt.json"
     }
   ]
 }
