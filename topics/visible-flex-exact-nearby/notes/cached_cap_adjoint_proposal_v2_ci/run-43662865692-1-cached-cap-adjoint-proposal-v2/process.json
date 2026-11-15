@@ -1,0 +1,268 @@
+{
+  "kind": "actual_public_cached_complete97_cap_adjoint_proposal_process_v2",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43662865692",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "3f1e3353f2bf15cd06ce2954d80b305bf3648d31",
+  "worker_source_sha256": "de387aaf02696fb1794cb0843028d898b0f3cde21bb3816e4e67199c0ca32368",
+  "started_utc": "2026-11-15T01:24:17.048453+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T01:24:18.062901+00:00",
+      "before": "7ada25a81375e262d70c6096768e62cc0a610993",
+      "after": "067aed719b9ba26a50ecf9f950bab460c57e8566",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:24:32.632153+00:00",
+      "before": "067aed719b9ba26a50ecf9f950bab460c57e8566",
+      "after": "067aed719b9ba26a50ecf9f950bab460c57e8566",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "new-adjoint-proposal",
+  "complete_matrix_run": "None",
+  "complete_matrix_attempt": "None",
+  "original_targets_F_C_source_Grams_output_Grams_and_scalar_ports_recomputed": 0,
+  "complete_finite193_directional_two_boundary_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "new_array_storage": "original public Actions artifacts only",
+  "complete_rows_reused_despite_later_publication_failure": true,
+  "exact_repaired_centre_definition": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+  "physical_state_dimension": 257,
+  "independent_input_columns": 97,
+  "original_scalar_whole_domains_recomputed": 0,
+  "original_native_point_domains_recomputed": 0,
+  "original_forward_cap_columns_recomputed_or_transposed_as_certificate": false,
+  "complete_continuous_adjoint_bound_proved": false,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "full_actual_scientific_state_saved_on_success_or_failure": true,
+  "publication_failure_does_not_invalidate_prior_mathematical_success": true,
+  "input_manifest_sha256": "af838e4127505e8744e140833f30037f8c4103dad08f2a11dc229932666045f3",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "067aed719b9ba26a50ecf9f950bab460c57e8566",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-cap-adjoint-proposal-v2-work/science",
+  "actual_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "quarter-plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
+    "quarter-plan-process": "82a44b78e3e3af3e0b1285a828a7aba2026dcc5b04001996bd228243baccca43",
+    "quarter": "770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298",
+    "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
+    "native-points": "41156aa8ac5b124b2ccca96e2f52b210edf1a3f5c170fdf839e66bf0602725b8",
+    "native-points-process": "e773364b578f4dae3f7f420cf75a223052d1b2a469e3de1d291a5ac3a68ee4ee",
+    "range-0-256": "02cfd7c9945180adcdb208f0e6101b3c9da37c0deca8b012160c89ea7148ccb8",
+    "range-0-256-process": "ae5ae042e6983fcb66cac83b12b066758baf58944af487f541f6eeda003ecb34",
+    "range-256-512": "04bff7029a899685af2a4ae9326041a07168242a8c892d60e505c1b5ca8a2137",
+    "range-256-512-process": "c892d2c8322a4635afc4d9007e47a686571c379d362f00ab45f0d3ef31499dd2",
+    "range-512-768": "59b665075652821572996a2bb4b38a380cce787e8138ed71ddcc92663bc53788",
+    "range-512-768-process": "962a963da1ce117e461a3cd658c4769f59bd12d0a91cd0eed317bcc638d42a35",
+    "range-768-1024": "bb8f593e21e9eedaf0f173f3c29c833944198eb220c44c262dd438e966e7145e",
+    "range-768-1024-process": "55908efe12ab21cf84c29e670f487912ecbec038a143a9b56f47a2e2bbc3f32a",
+    "range-1024-1280": "5afd5f617fc85b669d3e8018043ed312b7e30ae10c11c011be0c939e1c29476a",
+    "range-1024-1280-process": "3976469661b5c53894ca8982ee5f3c2faa9e1111051e434eb510fc13da8e1da8",
+    "range-1280-1536": "d3945ab69d90dddaec660e369e4982a3e1eb04243c4b555557b2711a3d127b79",
+    "range-1280-1536-process": "6a744fabd4ba9ef3b35e58bfe6f40d45d1c131550d72de6cb0b005835ad36ef6",
+    "range-1536-1792": "3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881",
+    "range-1536-1792-process": "20b69a27f551a6fe434eb537ad763d1578876eb9907b2ff269f6c46aaaebb271",
+    "range-1792-1977": "0a4ef5ee7924839bcc53ccf04fe85d8011c865b25a10eba59a66553331a14563",
+    "range-1792-1977-process": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
+  },
+  "original_piece_selector_failure_native_sha256": "f6cdd51f5776ea66435212188cd5db2518f225c24c240823ee7f726e389757d0",
+  "original_already_selected_intrinsic_array_sha256": "d566f329d4596d93d4a81acc74e716caa3e76f3c198763042284c0564aa53891",
+  "original_completed_QR_blocks_recomputed": 0,
+  "one_sided_piece_is_now_chosen_from_exact_left_node": true,
+  "original_complete_two_endpoint_containment_gate_unchanged": true,
+  "snapshot_utc": "2026-11-15T01:24:32.667658+00:00",
+  "wall_seconds": 15.619920577000002,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125124920.json",
+      "file": "evidence/original-artifact-downloads/14125124920.json",
+      "bytes": 534,
+      "sha256": "f04e75611ee9ddf0e661ea72d25e498f1328ff6bd81782ea27f68b5bfb573477"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125261105.json",
+      "file": "evidence/original-artifact-downloads/14125261105.json",
+      "bytes": 524,
+      "sha256": "46d30c0666efc8b313f7d7cac727a8367c634a21ef70b61ca3602e41eb70b7ce"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125388223.json",
+      "file": "evidence/original-artifact-downloads/14125388223.json",
+      "bytes": 533,
+      "sha256": "cd00f0a22cbb13fc6af1a22a57252a3ee735bc1f35230eefb7b1af00a5be6c9d"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125634227.json",
+      "file": "evidence/original-artifact-downloads/14125634227.json",
+      "bytes": 534,
+      "sha256": "35b46e04d5caacc6c55ebe57cddbdd2a23933be83ce9280b79a5926b13114247"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125689191.json",
+      "file": "evidence/original-artifact-downloads/14125689191.json",
+      "bytes": 534,
+      "sha256": "6af0b645561ff04d1521c361b9f90bbe87bc0470d5e3cf5ae19f577442bb8a90"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125908545.json",
+      "file": "evidence/original-artifact-downloads/14125908545.json",
+      "bytes": 532,
+      "sha256": "224d3e29873e2f22d5ff0f7190ba7533f02ebdc8759ac1c8d4d0b8f8a0b22e75"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126180206.json",
+      "file": "evidence/original-artifact-downloads/14126180206.json",
+      "bytes": 532,
+      "sha256": "e2fa6a422692f7f80c3e48cd5a8a306f436378ce493b4f25b6689b9abc90a8b7"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126423123.json",
+      "file": "evidence/original-artifact-downloads/14126423123.json",
+      "bytes": 532,
+      "sha256": "a779e6706411d7b1462ce32df36fd93f4859fe2e2b5f7f895bd241c7d2779dc6"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126599359.json",
+      "file": "evidence/original-artifact-downloads/14126599359.json",
+      "bytes": 528,
+      "sha256": "fe40a0164b2069b1090be32750d10c43e8d1cea0d700932a11bc93be3d732b3d"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126660303.json",
+      "file": "evidence/original-artifact-downloads/14126660303.json",
+      "bytes": 536,
+      "sha256": "4c5692f1abba4d62d343c7e8ac26b743bf5c39da1632ffbbab8d80311dfcf237"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14130321022.json",
+      "file": "evidence/original-artifact-downloads/14130321022.json",
+      "bytes": 527,
+      "sha256": "f4fb731011f9cfb91ddd34b9abde248a900db1ab134e2176fb615b05284d5e5d"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14140547779.json",
+      "file": "evidence/original-artifact-downloads/14140547779.json",
+      "bytes": 524,
+      "sha256": "a90977bdf03a6bd916cb9e52f95473790cbba1ba47c71dbb686b7a08e094bc9e"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-plan-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-plan-43623547711-1.json",
+      "bytes": 11904,
+      "sha256": "82a44b78e3e3af3e0b1285a828a7aba2026dcc5b04001996bd228243baccca43"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1.json",
+      "bytes": 10390,
+      "sha256": "3976469661b5c53894ca8982ee5f3c2faa9e1111051e434eb510fc13da8e1da8"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1280-1536-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1280-1536-43623547711-1.json",
+      "bytes": 10083,
+      "sha256": "6a744fabd4ba9ef3b35e58bfe6f40d45d1c131550d72de6cb0b005835ad36ef6"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1536-1792-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1536-1792-43623547711-1.json",
+      "bytes": 10083,
+      "sha256": "20b69a27f551a6fe434eb537ad763d1578876eb9907b2ff269f6c46aaaebb271"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-256-512-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-256-512-43623547711-1.json",
+      "bytes": 9142,
+      "sha256": "c892d2c8322a4635afc4d9007e47a686571c379d362f00ab45f0d3ef31499dd2"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-512-768-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-512-768-43623547711-1.json",
+      "bytes": 8827,
+      "sha256": "962a963da1ce117e461a3cd658c4769f59bd12d0a91cd0eed317bcc638d42a35"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-768-1024-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-768-1024-43623547711-1.json",
+      "bytes": 8369,
+      "sha256": "55908efe12ab21cf84c29e670f487912ecbec038a143a9b56f47a2e2bbc3f32a"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-missing-native-point-Hessian-43635264409-1.json",
+      "file": "evidence/original-processes/visible-exact-missing-native-point-Hessian-43635264409-1.json",
+      "bytes": 24191,
+      "sha256": "e773364b578f4dae3f7f420cf75a223052d1b2a469e3de1d291a5ac3a68ee4ee"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-finish-43626024582-1.json",
+      "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-finish-43626024582-1.json",
+      "bytes": 16508,
+      "sha256": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1.json",
+      "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1.json",
+      "bytes": 10051,
+      "sha256": "ae5ae042e6983fcb66cac83b12b066758baf58944af487f541f6eeda003ecb34"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1.json",
+      "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1.json",
+      "bytes": 9086,
+      "sha256": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
+    },
+    {
+      "logical_file": "evidence/original-selected-intrinsic-proposal.json",
+      "file": "evidence/original-selected-intrinsic-proposal.json",
+      "bytes": 326,
+      "sha256": "c0e4839621f562300aadd9ffe88671c1e30c7b9ac28bf3ce6049e17cfbae0567"
+    },
+    {
+      "logical_file": "evidence/original-zero-QR-adjoint-failure-artifact-process.json",
+      "file": "evidence/original-zero-QR-adjoint-failure-artifact-process.json",
+      "bytes": 15257,
+      "sha256": "d272e3978e36059c5be461b6456746c52035046578b76798cdd3d601ea127391"
+    },
+    {
+      "logical_file": "evidence/original-zero-QR-failure-and-exact-selection-reuse.json",
+      "file": "evidence/original-zero-QR-failure-and-exact-selection-reuse.json",
+      "bytes": 890,
+      "sha256": "3a172f3488d8b2847ca1460255ec2d5dca734bf43c208e61aee0d6040ffcd026"
+    }
+  ]
+}
