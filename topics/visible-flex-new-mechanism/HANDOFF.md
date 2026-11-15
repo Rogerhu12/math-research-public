@@ -49,19 +49,18 @@ R146给五族整个U/R协变H^e[F(S_Hd)]=P[F(S)]、ω_j=N^jω0/j!。R154用真�
 
 R152固定h最高action给一维Sturm充要门（e可局部负）；R155扩为全部水平曲线Γ的二次型族iff全部L4 action非负，保面积H/完整Q4/水平总导数和有限flat实现，不授L0/L2/统一μ。R158在权−2边界a0=0,c0>0,4a2c0=b1²上，β=b1/2c0，全部null速度路k=K h^-β且ω按真方程积分（β−1含log）；逐点L4=Eβ h_s⁴，故该受限类非负iff全state Eβ≥0。Eβ保完整五项Q4和H，不推PSD内部或全正性。
 
-## 5. 已付pure层与最小新原差
+## 5. 已付pure层与剩余mixed门
 
-完整因子43651096112保存N0/N2和全两mode v2/v4共3974原根，gzip9daddeaf/raw58e450c4；不得重编forcing/W/旧N。R134三Abar/两H只依v4，N2速度二次只改变速度四次，完整L2/Q4仍须保N2。
+完整因子43651096112存N0/N2和两mode v2/v4共3974原根，gzip9daddeaf/raw58e450c4；不得重编forcing/W/旧N。R134五个A/H族只依v4，但完整L2/Q4仍须原N2。
 
-R133的packet-only IBP实际43653293263保全P/A/R端势，1009正规packet余项全0，Π8(U4)=Π8(R8)=T（31/偶15）。R116同一四块C保全部桥/基准，15查询在evenT同构，故整个Π8V_C(c,r)≡0；整m8层已结束，不重跑。证书483512B/a62173b3（raw4472950B/3e0b01e2）。
+R133对完整1009正规packet保全端势证明Π8(U)=Π8(R)=T（31/偶15）；R116既有四块同一C已使整个Π8V_C恒零。m8层结束，不重复；证书483512B/a62173b3。不能推广一般pure或mixed。
 
-R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B_p2(W1)[-4]/128，398项原差sound归零；1新pure、0mixed/profile/tail。原证书9533B/412dbe8f、main16657B/c02d93af。整个G轨道一般pure入响应像，(A_G∩kerπ)/(R∩kerπ)≅A_G/R；不授全U。
+R138原398项差证一般G[-4]=B_p2(W1)[-4]/128，故整个G轨道pure入R，完整非零商能取pure零代表。R151 actual43657785023/source c606688再证J九项原响应身份：31新pure依赖及398项目标原差全零；与R131旧40子式的9条pure行合得dimπ(R−2)=9、响应pure核31，Π8再丢3维。J七个ω条目pure可付、N⁷[J]=0仅模R；旧R143六列问题不重跑。
 
-**R151已解决一般pure J。** actual43657785023/source c606688消费40旧pure基，31新原依赖核零，J的398项原差准确零；九项Q系数/全局列映射见R151。与R131旧40子式的9条pure行合得dimπ(R−2)=9、完整pure核31，Π8再丢3维。G³/J两个独立新类都有pure零代表，42维E的pure核33。J七个ω后继pure入R、N⁷[J]=0仅模R；整个G/J轨道pure可付，不授J负成本/全U。零新响应/profile/tail/mixed，证书84283B/af46437f。R143旧六列不重跑。
-
+**R157 actual43659795254/source ce6c80bf已证D0一般pure。** 只读R151九原基/旧代表，D0新402项原差fresh零（faf4f97b）；九项Q系数/全局列见R157，未用模lifts，0旧40/31或新采样。0.138s/RSS34.281，11根证书15463B/f5355a03。真实E_D=R−2+span(G³,J,D0)恰43维、pure像9、pure核34。三个轨道都可取pure零代表；U≥239、lineality/query237不变，J/D0实际正负仍未付。当前不证πU=πR，不另开D0平移链。
 
 ## 6. 正在运行与未付终局
 
-几何43658064177已登记，mechanism开发原预算内SOC二阶恢复接口，仍全163和两网原门。D0 full分离已登记R153，R157新源c296f72b已派单D0 pure：只读R151九基/旧代表，新Q求解+fresh原差，不用mod lifts、不重40/旧评价。R156已发，tail续pure零后的二槽结构；R158秩1边界纸证已发。root独占Git/派算。
+几何43658064177已登记；mechanism新SOC源3bc2df4e/cd01144d与15输入人工已过，root待全文读后在原12LP/40值/120s预算内派算，仍全163/两网原门。R157已登记，tail写R159纯零后的双次数(2,2)忠实二槽表示；不把投影作实际锥对称。root独占Git/派算。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

@@ -119,3 +119,5 @@
 - 2026-11-15 00:47:34 UTC，Astra-new-mechanism-9974ea84：root全文读R158并逐项核null加速度平方/面积/全部Q4、β−1真ω log、零速度与固定时长flat反构造，立即登记推送。R157 D0pure已由ce6c80bf派算，geometry SOC新接口开发中，主课题不中断。
 
 - 2026-11-15 00:47:49 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交bb9b44893b00673d51531296ab8c45670d762964记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:51:21 UTC，Astra-new-mechanism-9974ea84：root独立读R157公开主报告、完整原差/系数/资源和论文，D0一般pure九项身份已证明，权−2pure核34准确；立即推送并结束此门，不复算40基/31依赖/采样或开新平移链。几何SOC两源与15输入人工刚完成，root接全文读取，主课题继续。
