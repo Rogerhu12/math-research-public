@@ -33,3 +33,5 @@
 - [R763](../results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md)：已证明新U=(S′)^6在原(t,Θ,Q=1+xζ/y)上的准确六次式，旧场上六次覆盖与原点正规化成本均保；Norm3的Q返回为(3(1−4t)Q+12t)/(1+8t)。完整ε/ε²目标保affine ζ项，去charge204 Gaussian后实际首共振p系数仍为单位a；全Gaussian三同源还带非零未定第二位修正。原新三格斜率及中央传播未付，不套旧WD。
 
 - [R765](../results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md)：已证明原完整F整除来源的准确最低t阶r_F及下界ceil((m−2)/4)_+；k<r_F时，原第三单位行13+k排除全部F整除首次修正。任何完整R须给非零实际restriction并消到N0=s−13，同时命中代表无关normal行ν_k=−c_k≠0；全部19角/U0/w13/carry保，该行不冒全左核，真正高接触像与全normal同R仍开。
+
+- [R764](../results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md)：已证明原整数正交六轴与whole S6绝对核，新轴t同时逐点固定Y和最终q*，给完整Y/t矩形及原中央零传播。三个CD域在精确浅环带互斥、深交相同；原O全失败门须m≥n才同域，移动E和归一W_j均保。共同域差仅留1mod3幂，首项为同原q/失败/E条件下的真实type5负一行；全部浅独占支和外部补偿仍在，未赋该条件行零或非零。

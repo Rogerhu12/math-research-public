@@ -198,3 +198,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 ### R765：真正非F高接触restriction及指定normal行
 
 [R765](results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md) 给完整F整除空间的准确零角r_F。k<r_F（特别ell1/k0/m≥3）时，第三单位行排除整个该空间；完整R须有非零restriction、ord≥s−13，并在真实restriction像上满足代表无关ν_k=−c_k≠0。接续计算这个高接触像上的ν_k，并与全部normal/两13/d₂使用同一个R；该必要行不杀全WD，不能直接冒原forcing非零。
+
+### R764：真正同域差的原条件首行
+
+[R764](results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md) 已证明原整数正交六轴与whole S6绝对核，新轴t同时逐点固定Y和最终q*，给完整Y/t矩形及原中央零传播。三个CD域在精确浅环带互斥、深交相同；原O全失败门须m≥n才同域，移动E和归一W_j均保。共同域差仅留1mod3幂，首项为同原q/失败/E条件下的真实type5负一行；全部浅独占支和外部补偿仍在，未赋该条件行零或非零。接续计算保全部五伙伴的t正一收缩，连同全部CD/O/E门识别条件来源；不能以裸边际、全矩形零或单个条件非零删去其余环带。
