@@ -88,11 +88,11 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [连续C固定power4十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)明确在原R323准确基底追加ξ，support1=[L0,L0+δA]，h=δA²·64x³(1−x)³(2x−1)^4，同表达三jet/零延拓/C²与准确自然L/公共u保持。独立factory十项表、degree10完整域、新numeric(3,10)/物理层(0,3,10)、七shape固定453和全冻450接点已列；原178 LiteralTenModel硬复制旧base/mesh/J，不能仅换profile冒新C响应。设计没有实际参数/域/求解或门；support1 ξ不能代coast参数修复，180独立继续。
 
-[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已核原core/准确C/全根族/cut/R323窗口/九个准确dyadic系数，证明165反证适用于169及179冻结初点的同一准确目标，不冒literal IEEE结论。numeric416明确coast，但未返的accurate分支列表不补称唯一。该段只有p3/theta3/eta3直接作用，L不随九系数变；中心−κ+2LC·theta3及其必要带已证，未代入实际LC/中心或推全搜索无解。180恢复原165小绑定与历史core，在同准确构造上真实缩放coast三系数并重付全部域，输出可供完整BVP的新参数；support1 ξ不代这项修复。181独立实现R380全角传播，均不修改179或新增接受前门。
+[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已核原core/准确C/全根族/cut/R323窗口/九个准确dyadic系数，证明165反证适用于169及179冻结初点的同一准确目标，不冒literal IEEE结论。numeric416明确coast，但未返的accurate分支列表不补称唯一。该段只有p3/theta3/eta3直接作用，L不随九系数变；中心−κ+2LC·theta3及其必要带已证，未代入实际LC/中心或推全搜索无解。180已在同准确构造选出β1/16全域点，见R384；support1 ξ不代这项修复。181独立实现R380全角传播，均不修改179或新增接受前门。
 
 [R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)已证coast共同β的显式充分域界：同准确base余量r_*>0/LC≤Λ、κ<1，C0/C1完整三项给β≤min(1,r_*/(2Λ²C0),(1−κ)/(2ΛC1))，保a≥r_*/2和|as|≤(1+κ)/2；零系数分支、强C²/同长度/全部其它片责任及有限dyadic档与固定预算区别保。不新加门，不预填180结果。
 
-[180完整入口](notes/2026-11-15-request180-accurate-coast-three-coefficient-repair-interface.md)五件/23源已发595bf01c/630c288e/3df438b8/ee7044e4。Actions恢复原165三必要成员/历史core/config，原factory重建419片；固定418证一次，coast三系数共同β按1..2^-16,0共18档，全419域才选，精确九词/投影差/全失败未访保。恢复600s/科学900s含重建、固定418上限300s/65536节点、候选8192/depth28/256bits，单90KB与真实child wait清理，原21源不改、不重C/巨差额网格。R384由amplitude核，不预填实际β或BVP。
+[R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)43753422569/source636bbc3060，完整64284B/503d2e7d必要已返：固定418片420叶全部证明；β1,1/2,1/4,1/8各有严格速度反证（另8未决/原未访范围保），β1/16的完整coast5nodes/3叶全证。全419准确a>0、|as|<1及全C根族齐；完整九有理参数/word投影零，13更小档未访，4.607932s无资源partial。recipe2136B/cc87d932、definition377615B/f568b816已真实生成后按读回/wait清，重生源已发；不再重复418/coast域诊断作门。[180接口](notes/2026-11-15-request180-accurate-coast-three-coefficient-repair-interface.md)保全部23源/预算。184/R391接真实新C/factory/完整BVP，活动p、新numeric/J/FD/fullDN/metric与几何仍未付。
 
 ### 3C. 当前C自己的零场与完整453非零BVP
 

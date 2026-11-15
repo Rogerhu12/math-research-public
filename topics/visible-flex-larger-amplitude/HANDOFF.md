@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:44:00 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 fba9a62758d9291b759ecc08601333cd3b896ef3。
+规则同步记录：2026-11-15 19:46:41 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e7ffda2427de91de56224eaf6e923fdc3f3d0791。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -24,7 +24,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
-|180 R384 amplitude|43753422569 /636bbc30601cb577266219ed66bb2759d285badc|已结束：真实β1/16/完整419域true，必要64284B齐；R384全文待刊|
+|184 R391 exact|真实180父已取得，完整入口在接，未派发|β1/16真实九词/旧域语义传递→新C/真factory→原179完整453/BVP|
 |183 R390 amplitude|独立真十词续算源正在接，未派发|R389真末ξ非零；固定原157尺度，16×原8方向/global2400s，整20拒即止|
 |179 R382 geometry|43749949418 /ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
@@ -53,7 +53,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已证165→169及179冻结初点是同一准确目标；原38速度反证可传，numeric416不能冒每叶唯一准确分支。准确coast仅p3/theta3/eta3直接作用，L不随九p变；中心a_s=−κ+2LC·theta3给必要带，未代入LC或预判全搜索无解。
 
-[180 R384完整入口](notes/2026-11-15-request180-accurate-coast-three-coefficient-repair-interface.md)五件595bf01c/630c288e/3df438b8/ee7044e4已发，23源。仅Actions恢复165三小原件/历史core/config，原factory重建同准确419片；其余418真实证一次，coast三系数共同β按1..2^-16,0共18档，完整域才选。恢复600s/科学900s含重建、固定418最多300s，原Q Bernstein/全部失败未访/单90KB/真实wait后清；不重C/旧巨差额网格，不预填β。
+[R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)已刊：43753422569/source636bbc3060，64284B/503d2e7d必要齐。固定418/420叶全证，前β1..1/8四档各严格反证，β1/16 coast5nodes/3叶全证；全419准确a>0/|as|<1，完整九有理词/word投影零。4.607932s无资源partial，13未访按计划保；原C不重算，完整读回/wait后清。selected recipe cc87d932/2136、definition f568b816/377615，按已发恢复源可再生；新numeric/BVP/同g几何仍未付，184接。
 
 [R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)给准确coast共同β的显式域充分界、强C²/同长度和有限档责任；余量r_*/Λ必须真实支付，不预填180。
 

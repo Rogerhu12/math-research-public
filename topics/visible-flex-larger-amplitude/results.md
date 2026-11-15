@@ -354,3 +354,6 @@
 
 
 - [R389. 实际178r3八次完整十维接受与真实续点](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)（原记录/数值证据）：43753070697/source195cd2d42f，80163B必要完整返回8接受61试步；W4.963213787524→4.957835964023，第三unit却升到.112950142747，原全终门仍false。初末p/F/W、8接受/clip、代表拒档与120FD12层/域/453/清理责任完整记录；原大方向/61trial表已读但不再归档。真实非零ξ末点供183独立续接，固定尺度/原接受门保持。
+
+
+- [R384. 实际180完整准确coast域与唯一选中九参数](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)（实际精确有理/区间域证明）：43753422569/source636bbc3060，β1/16为声明18档首个完整419片域通过者；前四档各严格speed反证、固定418全过、选中coast5nodes3叶全过。全C根族保，九有理参数均准确binary64可表；原64284B必要齐，旧C未重算、4.607932s、条件清理已完成。真实新recipe/definition可按源再生供184；新numeric/BVP/native/metric/闭场尚未付。
