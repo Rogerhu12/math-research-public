@@ -39,7 +39,7 @@ newton_source监视，root最终消费。
 - v2 43681612825/1的finite Arb转binary64溢出、0group失败保留。
   临时新future2340/past1800/product4331已失，v3明确重做；
   不把旧1886成功前缀重算，不从进度计数伪造矩阵。
-- 当前v3 run43690634784/1仍运行。SCI1d8383a8…、
+- v3 run43690634784/1现已completed/failure，job132740339581 step7在11:35:03退出，step8成功打印小process；真实final计数/原因由0数学日志诊断取回，非人工取消。SCI1d8383a8…、
   worker c06a5758…、369pin637c7bdf…与helper2e5dbdb5…保持。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
@@ -48,8 +48,9 @@ root已读11:24过程48681B/SHA3bfa4b08…：future5970=1886旧+4084新及produc
 past3808，combined85groups/118queued/3consumers，无failure；Werror log2≤−101。
 真正数学仍fixed repaired M32 δ0、原η0/ν0；继承process字段1e−9并非BVP全参数域。
 现成高相位gap在selectedδ*，同一对象的有限低块转移与非线性phase保持仍须接。
-继续三流、187groups、三个完整HY及final，逐组结果不等于全局门已过。
-v4两个同选点优化仅standby，当前v3不改不取消。
+当前先恢复已打印的最终小process/真实stack并核清lost新临时结果；旧成功1886/5970F/7908/同97不重算。
+v4两个同选点优化仍须根审，首次启动前接已读新README record；不能假当前v3仍运行。
+187groups、三个完整HY及final尚未全成，逐组结果不等于全局门已过。
 
 新Gram保完整signed $W$、任意指数dyadic正权、真实全193乘积、
 同97均值/切口与最终 $C^*HC$；不能逐entry取min或用有限sample
