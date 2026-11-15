@@ -121,3 +121,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:34:55 UTC /root — 新四控制到完整112的真实源码边界
 
 [完整接口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)11640B/bce38137已读并发布。root额外核原full_dn_solve目标、physical_test完整入口与R259全文：旧main直接取原前三coefficients，没有λ；固定θ三active453维或另选真实minor须新明确坐标身份，不能重标v3warm/accepted。完整112横截/高109、rawφ一阶初猜、当前H真实native/finalJ/audit及接受后的450维same-g位置写明。只有source/条件接口，没有新solver、请求或数值。
+
+## 2026-11-15 07:40:30 UTC /root — R283 原有限root执行分支的完整变分
+
+[R283全文](results/R283-finite-root-trace-differentiation-with-literal-tables.md)12475B/60459586及[具体113接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)9182B/0c7700b4已直接登记。root核113实际C++六函数：独立literal cosine/sine/gram与w/w²/E、F与C分别定义、e从0的有限更新、正Cholesky逐循环/前后代回、拒绝分支及完整RK/cut/stage/far范围一致。未声称实际C与F_e已测不等，未把IEEE舍入或小残差冒导数证明，无新science/fixture/solver，113不变；amplitude继续监测并协助117摘要器。

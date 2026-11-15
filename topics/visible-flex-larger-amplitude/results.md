@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R283. 固定字面表和执行分支的有限root完整变分](results/R283-finite-root-trace-differentiation-with-literal-tables.md)（已证明，条件有限实算术定理）：原113的root残差F与独立gram迭代矩阵C分别定义，不假定C=F_e；按真实有限更新/回溯分支给完整方向归纳，并逐Cholesky/前后代回求导。近似线性solve还含D残差，小root/线性残差不界其导数；强制trace的实延拓、邻域分支稳定和IEEE舍入范围分清。全部RK现场、226态及原cut/stage/far责任保留，无实际新J/solver或接受锚。
+
 - [R282. 局部交叉 Gram 积分门与完整 cuff 相位责任](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)（已证明，条件几何定理）：在单射材料图上以 m|Δu|²严格切向下界同时排除不同点的零弦与双法向；完整collar/B系数给统一全相位小图，保真实theta=Phi(phi)+alpha及准确接缝。按全部rank×空间×两RP1闭相位叶支付membership与原R281 OR，正确商对角不要求正距离、不整rank豁免；旧R241/R24保持，未有实际场余量或reach。
 
 - [R281. 两张有理相位图上的换门覆盖与有限终止](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)（已证明，条件几何与准确有理算术定理）：两RP1闭图以齐次四次式准确反序，保π端点；原距离/两单端/joint四门OR按闭区间Sturm严格支付，含内部偶重根及共享端点。严格逐相位可付则有限dyadic深度完成，有限预算未付不推几何失败。新解析例旧整圆四门均失败而五叶换门完成；源码已接，实际球包围、完整空间覆盖和闭面/reach仍待真实场。

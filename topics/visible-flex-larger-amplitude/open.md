@@ -14,6 +14,8 @@
 
 [113完整执行接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)已发布：CPP1b59cd10/bridge3655c81a/probeba3564ca/requeste6703c76/workflowf94c9a85，28源pin及原actual91输入。完整binary128 primal：节点更新、动量root差变量e=L−target、split RHS、全部226态RK、stageout−node、cut/far及129248残差保持113位；原geometry/tables/grid按原binary64值提升。两个内层停止配置交错评价同base+十α，7200s独立实验预算到期诚实partial后仍回原64完整十档；导出/额外原64base另计，科学step320min/job350min承载整链。首跑run43687907457在首快照前因旧driver从HEAD读已清理历史JSON退出，[原故障与SHA](notes/2026-11-15-actual113-first-run-missing-historical-input.md)已记录；CPP编译成功但无128残差。[工程修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已发布 requestce294b5e/workflowdb8a479b，两原ready从8bd26710临时恢复到原client已支持的env槽；三科学源及所有数值参数不动；第二run43688981685/source8d68a39e/job132735373768已启动，实际结果待读。原64J仅给当前方向，若实验支持改进，随后再做一致高精度求解/J/audit；不能直接以实验下降替换native完成门。 [后继最小接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)现明确持久128 owner、全残差右端、原64J近似作用及匹配cut/敏感度/audit缺口；隐式近似J省略B⁻¹Dε，不能从小root残差推小导数误差。
 
+[R283固定trace完整变分](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[具体113接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：原C由独立gram形成，不默作F_e；有限root每一步连同C/Cholesky/代回求导才能表达固定分支实延拓，近似线性solve还含D残差。它不证明当前branch稳定、IEEE舍入光滑或实际新J，不改113。
+
 ### 1B. 110同31查询真实连续模型
 
 [实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)的同31原1/8接受已完整读回，最近1/4只有原query0 LEFT464的RMS失败；原success/newcoupled仍false。不能仅凭下降称BVP完成或因远档未选点无故扩大查询。

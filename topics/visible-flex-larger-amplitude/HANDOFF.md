@@ -26,35 +26,33 @@
 
 ### 110 同31查询连续真实批次
 
-run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，06:25:12UTC创建，科学步骤仍运行。sourcea1ba1cd8/requestef159a8a/workflow3363acf2，见[完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)。最多8批/175min科学/185minjob；每批原1-model1200s/λ270/512×200/17trial不变，须新warm原FD通过才传同job真实warm/status；45min规则监控保留，消费后临时数据删除。未读完成批。
+run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，06:25:12UTC创建，科学仍运行、未读完成批。[完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)：sourcea1ba1cd8/requestef159a8a/workflow3363acf2，最多8批/175min科学/185minjob；每批原1-model1200s/λ270/512×200/17trial，真实新warm原FD通过才传下一批，45min规则监控。107raw已删，从actual98 artifact14147700690重建，不从hash伪造warm；[107实际](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)见原note，仍非BVP/native。
 
-107raw已删，110从actual98 artifact14147700690重建新轨迹，不从hash伪造warm。[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)同31原1/8接受/FD通过，最近1/4仅已选LEFT464 RMS失败，仍非BVP/native。
+### 113 完整binary128原始残差（仍运行）
 
-### 113 完整binary128原始残差
+第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建；全部setup/历史恢复成功，07:34:48UTC科学step14仍运行，amplitude只读监测。[首跑故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)在首快照前HEAD缺已清理JSON，无J/方向/128残差。
 
-第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建，已通过全部setup/历史恢复，正在科学步骤；amplitude只读监测，尚无128结果。原[first失败](notes/2026-11-15-actual113-first-run-missing-historical-input.md) run43687907457/source7308ea在首快照前从HEAD取已删JSON退出；CPP编译成功，但无J/方向/残差。
+[113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md) CPP1b59cd10/bridge3655c81a/probeba3564ca与28源pin不变；[input修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md) requestce294b5e/workflowdb8a479b只恢复公开8bd26710两原ready至既有env，终清理补owner权限，无科学改变。
 
-[113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md) CPP1b59cd10/bridge3655c81a/probeba3564ca与28源pin不变；[修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md) requestce294b5e/workflowdb8a479b只恢复8bd26710两原ready至既有env，ledger109004B/563a9997、stored29774B/c1c44f23；owned只读父目录终清理补权限，不改数据。
+真实__float128113位覆盖e=L−target/226态RK/129248残差，geometry/角表/scales原64字面值；两root配置/原noJ网格不变。7200s只128child，导出/64base/初J/R273另计，step320min/job350；partial后仍回原64完整solve/finalJ/audit。旧64J非一致128J，无新接受锚。[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)同freshJ完整R273后十档全拒，不是普遍精度底线。
 
-真实__float128113位覆盖e=L−target/226态RK/129248残差，geometry/角表/scales原64字面值；两root配置和原noJ网格不变。7200s只128child，导出/64base/初J/R273另计，step320min/job350；partial后仍回原64完整solve/finalJ/audit。旧64J非一致128J，无新接受锚。[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)相邻词无改善、完整R273后十档全拒，非普遍精度底线。
-
-[后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)：持久128状态、全新残差右端、真实匹配变分/cut/二阶jet/audit仍待付。隐式J缺B⁻¹Dε，root残差小不界Dε，同4个RK现场亦不等有限停止程序exact J。等实际113证据决定，不另造无依据solver/fixture。
+[后继状态接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)保持久128 owner/全残差/真实变分/cut/二阶jet/audit缺口；小root残差不界Dε。[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[具体接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已证明：固定trace逐步传播实际F和独立gram矩阵C，不假定C=F_e；逐Cholesky/代回实导数与省略线性D残差的数值近似分清，IEEE舍入不冒可微。未改113/生成J/新solver；等实际输出决定。
 
 ### 115/116 四控制已读回，继续实际末点
 
-[115实际](notes/2026-11-15-actual115-four-control-eight-real-acceptances.md)run43689328906/sourcec9eb007d：8方向全接受/14外trial，W6958.22576276662→1236.0078724708558，全部final false；14eval域异常全在dir3/α1。summary69434B/282c363f、status1069255B/b542147b，源family9222390b/search3ca1bdf7/readerc0602e7a；完整来源和旧114见note。
+[115实际](notes/2026-11-15-actual115-four-control-eight-real-acceptances.md)run43689328906/sourcec9eb007d：8方向接受/14外trial，W6958.22576276662→1236.0078724708558，全部final false。summary69434B/282c363f、statusb542147b；family9222390b/search3ca1bdf7/readerc0602e7a，完整来源/114见note。
 
 [116实际](notes/2026-11-15-actual116-eight-smaller-acceptances-and-weaker-response.md)run43690052251/source4f4dbf700ee0732f6e7bd245f35808592ac82607、compute132738618085/report132738810907完成。沿[116接口](notes/2026-11-15-actual115-four-control-continuation116-interface.md) recipe3cab39d5/request45cd4dd9/workflow9cabbd3c，same源及22→22，初radius明确重置.1。8方向全接受/27外trial/零全拒，W1236.0078724708571→1234.283357373182；末p=[.43234616540612814,.1783653778144092,.5751222087274236,.016140885548593657]，unit=[−49.684657180215,−.03944148553951741,−9.621600240219177e−6]，全部unit/full112/success/native/nonzeroλ仍false。
 
 116末radius=.000390625，3×4最小奇异.19378008756935441、前三列.16017404141989777，响应变弱只是浮点证据，不是极小/无根证明；981eval零异常/131J，多个接受inner tol=false，原full3门独立。summary77038B/d24aa292（不含LF）、status1603983B/5e5b634c、trace1486228B/a7adda6a。四列FD全完成但整列归一误差不等最弱奇异值相对误差界。fresh初W/J不冒父逐位值。
 
-新Arb841叶/398split/0未解，仅声明a/ap实表达；theta冻结原3p/K3/T112零corecircle完整物理/domain检查通过，非非零父场。Gauss导数兼容/C²/roundoff/Frenet、高109/横截/非零λ/native/finalJ/audit仍未付。exact_refinement比较后继同源8批与其他支撑odd独立控制，尚无新run/响应；不盲称四控制无根，不等阶段回复。
+新Arb841叶/398split/0未解，仅声明a/ap实表达；theta冻结原3p/K3/T112零corecircle完整物理/domain检查通过，非非零父场。Gauss导数兼容/C²/roundoff/Frenet、高109/横截/非零λ/native/finalJ/audit仍未付。117准备另两支撑odd控制：明确[p1,p2,p3,theta1,theta2,theta3]、起点[p1,p2,p3,0,116theta,0]；完整3×6/9×6、2normal+4tangent、原8×20/12×20及全门保留。原115/116源不改，无新run/响应。
 
 [非零112实际入口边界](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)已明确：旧main硬取coefficients[:3]/v3warm且无λ，须独立新scalar/三active视图/λ目标绑定；不能重标旧accepted。R259完整112及高109、rawφ初猜、当前H/native/audit保留；仅实际接受后冻结全部设计值转450维same-g。
 
 ## 几何及接受场之后
 
-R277–R282完整证明已登记。109/111条件有理例匹配，非实际曲面证书；[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md) run43685039861/summary7898B/7279b591。不再加fixture/审批。
+R277–R283完整证明已登记。109/111条件有理例匹配，非实际曲面证书；[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md) run43685039861/summary7898B/7279b591。不再加fixture/审批。
 
 [固定帽球](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md) sourcea3ada50b；[完整活动jet及mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md) source675ab8df/dbdedb45。准确共有节点/全FFT/sharedB/materialcut/唯一SE2表达自身求六jet和完整归一化法向球；真实RαA∪C全部活动×两帽rank及未访问后缀。source-only，无真实接受场/run；共同cuff零弦仍未付local，旧static-base+R24保持。[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)及[最薄接线](notes/2026-11-15-R282-local-owner-input-and-phase-ledger-contract.md)已登记：同图cross-Gram严格界支付不同点，完整collar/B给全phase小图；真实theta=Phi(phi)+alpha，按全部rank×空间×phase闭叶，不整rank豁免。geometry继续独立local owner/完整组合器源码，尚无实际余量/run。
 
