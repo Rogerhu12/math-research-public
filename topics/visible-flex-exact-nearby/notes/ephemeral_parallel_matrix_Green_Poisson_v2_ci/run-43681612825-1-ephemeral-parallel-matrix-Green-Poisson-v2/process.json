@@ -170,6 +170,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T07:01:24.902287+00:00",
+      "before": "1198bb4159aa59adb1e2825341a4385b139e861a",
+      "after": "db12dd289c2d9bb0c4573a2c642709a9a0c452c5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -212,6 +220,11 @@
       "time": "2026-11-15T06:41:20.842241+00:00",
       "final": false,
       "commit": "a750889d9453f1370bc6526df63fc59ca3a83a68"
+    },
+    {
+      "time": "2026-11-15T06:51:23.562372+00:00",
+      "final": false,
+      "commit": "2c12c02da8d1df228f1e113f2b57af13e373d187"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -267,7 +280,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1198bb4159aa59adb1e2825341a4385b139e861a",
+  "last_read_commit": "db12dd289c2d9bb0c4573a2c642709a9a0c452c5",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -323,48 +336,48 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T06:51:22.095424+00:00",
-  "wall_seconds": 4476.507886417001,
+  "snapshot_utc": "2026-11-15T07:01:24.958738+00:00",
+  "wall_seconds": 5079.371200879001,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T06:51:08Z",
+      "actual_utc": "2026-11-15T07:01:12Z",
       "streams": {
-        "future": 3728,
-        "past": 1504,
-        "product": 2896
+        "future": 4064,
+        "past": 1696,
+        "product": 4064
       },
       "complete_groups": 0,
       "queued_groups": 0,
       "consumer_processes": 1,
       "done": false,
-      "original_temporary_receipt_sha256": "93f3c27d7285bb8091e6ae181c8ce38ac120a8f6373d6a7dcea9a7996e40b4dd"
+      "original_temporary_receipt_sha256": "ff11151fa1417cd79207b75a0ebaa8dc866cc2dde53583408a413cfa1378470a"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T06:51:12Z",
-      "completed_rows": 3744,
+      "actual_utc": "2026-11-15T07:01:19Z",
+      "completed_rows": 4080,
       "reused_rows": 1886,
-      "new_rows": 1858,
+      "new_rows": 2194,
       "done": false,
-      "seconds": 4258.2412818230005,
-      "original_temporary_receipt_sha256": "8937d2c9b1647608269f5d7a0196f14adccb4cf2d8fe9f7a615e3cc03778da59"
+      "seconds": 4865.076755306,
+      "original_temporary_receipt_sha256": "98935095b4e4642454a58341920f747db1fab1b4148ba82709fe56df1e4eac4b"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T06:51:20Z",
-      "completed_rows": 1520,
+      "actual_utc": "2026-11-15T07:00:52Z",
+      "completed_rows": 1696,
       "done": false,
-      "seconds": 4265.786013207,
-      "original_temporary_receipt_sha256": "5f2c3eeb2b4746d6cc0190b970bb97585413793819b23ba4ba8deda23bb5542a"
+      "seconds": 4837.784691741001,
+      "original_temporary_receipt_sha256": "9903c412db658b3ce156153a76279457b83b716af7f349049d858b3f22cee97c"
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T06:51:19Z",
-      "completed_rows": 2928,
+      "actual_utc": "2026-11-15T07:01:18Z",
+      "completed_rows": 4080,
       "done": false,
-      "seconds": 4265.508974469,
-      "original_temporary_receipt_sha256": "dd606eb1d577b9b4d0345c88d14e2787efb78334924c9afc8bf56267c3e07c3e"
+      "seconds": 4864.375314362001,
+      "original_temporary_receipt_sha256": "8dc1db9ddfb79b1be21f5496d9217bcb6ed5565433d402ca48f78a9a929b10f9"
     }
   },
   "required_original_array_artifacts": 34,
