@@ -137,13 +137,15 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R349：四个完整Gaussian面积同付，续PY/WY六外矩
+### R353：四个完整面积与WY第一矩同付，续五个未付外矩
 
-R343全RS self/方差、真实双排序与普通/伴随给B1/B2四目标正核；R346真Fκ/J母纤维付C0，R348全Green第一self与实际中心导数付C1。弱核心/三个最终正中心全保，最后同F★/有限N复原Ψ/三行/指定层。
+[R349](results/R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)保原RS self/方差、母Fκ/J/Green全式，R343 B1/B2、R346 C0、R348 C1及新增C2成十目标严格正核，Ψ成本S−2；原弱中心不动，四pair M/A/B/C全部三矩准确同付。
 
-[R349](results/R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)新付C2：原SLY2为完整负平方和、SUY2=−5SLY2，真实Y左纯x²尾使I2 Green两项0；不是假紧。∂SLY2=(SUY1−SLY1)/2，原Fκ0上Γλμ准确只乘J；同真τ±/两α母与全copy得C2=Kδ[Λκ(1−q²)Jξ4+(d−5e)δ²Rξ²/2+δ4Θ]，Λκ非0、Θ真积分。固定最后正中心后有限δ给双号/二维正锥，完整权−1与旧−5..−2成有限10目标正核；S5正幅解(0,0,0,0,−r/S4)，Ψ成本S−2可小。原弱块不移，全12矩/全θ同付，非全72。
+[R353](results/R353-ordered-tails-and-three-positive-centers-pay-the-positive-minus-two-first-moment.md)新增整个WY第一矩D1。完整nonlegal RY/SY self及bK3尾给强block ∂ξD1=D0+bPY1；R270四变量真IFT令每列C0准确0。两排序×普通/伴随的六归一坐标为(p,z,2ξp,2ξz,−ξ²p,ξ²m)，p两号、z/m随排序同变号。三正中心概率同均值且(m/z)二矩相抵，12列有严格正核和rank6；分开中心、有限A后正δ恢复全部self/ordered/copy余项。再加入C0同权真实D1上块及C1/C2伸缩，得24列12目标正锥，S5正幅保旧12矩且付D1，Ψ成本S−2；最后同F★有限N付Ψ/三directed/指定层。
 
-仍欠PY与WY两pair各三外矩，共12形式even位置非rank；PY I1两个even只一共同标量。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限式F=B2_04/k*−D1主项A(2731/16+ρ²/2−4q)，保非负方差/全部母余量，大A正。B2/D1同−4权，现有强正锥不能无条件扩新标量；但旧八目标正核给真实D1负纠正且Ψ成本H−3。当前weak残差正号未证，故D1未付。[R351](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)新增完整D1=Qf(g)+μ0gμ2g/4：Q的三个系数显式用原Pf/Yf，IBP只紧outer g，全尾保。Af0幂段Pf二次令V0=0；右向主系数有严格负平方分解；左向必须保Yu″(β−)=−225A²β4/64，真势常数73/12严格正，实际C∞截尾误差Oε²保号，有限频率g给两个真实rank-two弱核心。它们尚未三矩配平，不是完成旧门的正corrector。R347负向可用R349十目标正核保12矩延伸；正方向仍须原R263 partial-block Γ、补矩与旧门完整入账。root续这项完整配平/当前三中心依赖；literature续WY全self/有序bK3。须保一般weak完整Y平移/所有未付pair；其它完整层/period/同规范仍欠。
+当前同弱圆已付13个外矩；剩PY三矩及WY第零、第2矩，共10形式even位置非rank，PY I1两个even共一标量。literature继续D2的原self+μ2尾，不能把退阶差坐标自动算满秩；root继续PY完整正纠正/真实域。
+
+[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限B2/k*−PYI1>0给保R349旧12矩的廉价负PYI1；R353新模块自己的PY1真代价仍在。[R351](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)完整Qf(g)+μ0gμ2g/4保原尾，右幂核心负、左幂核心保非零Yu″端迹后正；均是真rank-two，但未做三矩/有序Γ/旧门配平，不冒完整正corrector。原R263 partial-block尾及一般weak Y平移必须保留。其余完整层/period/同规范仍欠。
 
 
 ### R344/R350/R352：自然全U总通量读出，续其它真实成本层

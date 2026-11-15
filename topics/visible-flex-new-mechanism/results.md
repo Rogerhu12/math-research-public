@@ -394,3 +394,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R352：整个原U的有序三矩尾映射与自然总通量商类
 
 [完整证明](results/R352-ordered-three-moment-tail-map-and-natural-total-flux-quotient.md)，2026-11-15，13672B/SHA256 98a3d30c844e5fcc90d288e5de00c004c81bf593e1b19536bae224b9d9216272。原R56同锚第二场的左尾由真实三矩及完整s-history线性决定；对左u/右w，rawpure2+2=−2K(Zu,T_μw)−4K(Yu,RangeH(Yu,T_μw))，Γ的1/8、1/4规范全保。三实际bump矩基证明该尾映射在原U中独立于路径表示，只依赖πV。R344所有辅助方案于是给同一完整函数，Λ_u成为自然(U/R)*五次profile读出，且Λ_u(NV)=−D_uΛ_u(V)[u′]。未删二阶/三阶左尾或其它αβ³period项；不是全U零/非零值判定。R350三加速度平方Λ0保持，继续H1/H2/其它normal及真实period/joint。不执行新科学或重复旧计算。
+
+## R353：三个真实正中心支付WY的完整第一外矩
+
+[完整证明](results/R353-ordered-tails-and-three-positive-centers-pay-the-positive-minus-two-first-moment.md)，2026-11-15，21733B/SHA256 cc0220819dd9e21ae66f31ae5026421a19b721e624c9e36d401e40e8d5d80d6a。原RY/SY第一self与Green、bK3跨尾全保，真实强block中心式∂ξD1=D0+bPY1。原四IFT保持C0真零，两排序×普通/伴随在三个正中心给六行(p,z,2ξp,2ξz,−ξ²p,ξ²m)，概率同均值/加权二矩与Vandermonde明确付rank6/严格正核。固定有限A再正δ，包含母参数漂移和δ³中心常项；C0同权D1项保留后逐接C1/C2为24列12目标正锥。S5正幅/Ψ成本S−2支付同弱圆第13个面积外矩WY-I1并保Ψ/三directed/指定层。PY三矩、WY零和二矩及整第四/period/joint未付；新模块PYI1真代价未删。无新执行。
