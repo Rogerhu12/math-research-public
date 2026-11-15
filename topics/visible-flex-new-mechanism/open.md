@@ -134,9 +134,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R339：第三面积B0由真实异号弱块支付，续其B1/B2
+### R341：第三面积B0/B1同一真实圆已付，续B2
 
-[R339](results/R339-opposite-sign-weak-blocks-pay-the-third-Gaussian-zero-moment.md)实际反向core令j0翻号而J/K/K1保持；原c方程、远宽cutoff/三个矩补包、R320真实二维正锥完整支付，得到C+>0弱宏块及有限完整ψ+。负块最终中心X−固定，正块最终正中心X+足够右有限，正四次权−C−X−/(C+X+)准确清R337的B0全角，Ψ新增O(1/X+)保负储备。R334四模块清完整A2且各自B0全θ0，最后原全72零controller/同F★有限N清Ψ、三完整行及指定层，原两完整面积/third全保。同一最终新seed/g，不声称固定旧g。已有块此后不能共同搬移。下一第三面积B1/B2、其它Gaussian门/全period/同规范joint，须保所有最终中心与原尾成本；不重复已付B0或R337同号架构。
+[R341](results/R341-companion-directions-and-three-centers-pay-the-third-Gaussian-first-moment.md)保完整真平移：B1^s=B1+sB0+(a+b)(sA1+s²A0)+χ(sR1+s²R0)。中心弱宏块B0/R1为0但C非0，B1保12copy方差。由原R275四self表得μ0=μ1=0时S=Lκ+(k*/2)∫J(q″²)²；R267初始Fκ=0同母而非最终六能量根，普通/伴随两实际方向在有限大间距给相反even差，完整局部余项保留。两模块B0/R1/C0，B1平移不变，真Λ−5对ΨΛ−7使正权修补便宜；R334四模块先付A2。两负弱块权1−p,p、一正块权−C−/(RC+)；最终中心x1,x2,Y=RX显式解一/二矩，取有限大X保证0<x1<Y<x2且全部支撑不交，bloc含全部方差与强模块成本。原F★/72零controller最后清Ψ/三完整行/指定层。因此同一最终新seed/g保M/A三矩并新增B0/B1全θ；不再整体平移。下一B2及其他完整Gaussian、period与同规范，不重复已付一阶或删除χsR2真尾。
 
 
 ### R335/R338：真实Green尾的权−6因子化已付，续真实U值

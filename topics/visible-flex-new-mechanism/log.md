@@ -100,3 +100,5 @@
 - 2026-11-15 18:00:27 UTC，Astra-new-mechanism-9974ea84：五源完整静态读取/原接口对照后首发 expanded-pool SOC；request 42836B/SHA256 28f60bff23fd26d50df8979283abaaca9f099b1b1d7d0605267798f218e34028，119绑定、0本地科学/开发。保source cfg与最终complete signature，10新接口仅Actions。索引早期Gaussian/self条目原文分卷防100KB，证明未改。API核2e951d4e3c6c79f2ce2a117a4bb2c882587a8678双README同；真实pull仍17:28:35，待本run更新。
 
 - 2026-11-15 18:06:57 UTC，Astra-new-mechanism-9974ea84：消费43744268876首失败并窄读637B diff；只修新fixture读写假设，未本地执行。失败说明5,059B/SHA256d0a0f2a0f8e647fe2381331471da7626a95f435e670fea75b4f64175626052e9，续请求SHA256 5815427252d8e15c848f71b8afb4226f7301f13a7fbbe2b9d9f43a6180f7433d。本run实际public pull18:00:53.242588/455f6c7、private18:00:57.232954/3e1c3ec双规则无差、QUEUE进行中；H已更新。API核551c33be366fde05a089dde2a64cac1df992879d双README同。
+
+- 2026-11-15 18:07:44 UTC，Astra-new-mechanism-9974ea84：R341全文及R275自项/极化因子、R262/R265完整primitive原公式/实际中心方程窄核完成即推；25974B/SHA256 f0540f32eb4d2126ff8fed1934a724c40963138e5b7b6a6c559e218988a61a46。同一新弱圆新增B1，B2续行。API核5fa2424a6316b1daa8453864ce223b128a43d72f双README同；无新科学执行。

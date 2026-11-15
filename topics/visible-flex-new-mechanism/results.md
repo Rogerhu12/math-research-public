@@ -292,3 +292,10 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 ## 扩池SOC首新人工失败：只读缓存样例最小修复并续未完首次科学
 
 [失败原日志和边界](notes/expanded-pool-SOC-first-development-readonly-fixture-failure-20261115.md)：run43744268876/job132903998961/source455f6c7；92,856B原log SHA256 ec8e5b383b7dd53d2dcc0dfecedbe2ce93e3e1bc1cf8c69f0c9fe5182c7370a8。新增fixture企图原地写FullGridValues只读rows，报ValueError；新10检查未返回，transfer/bank实际/科学LP均未到达。旧112绑定匹配、旧12与旧optimizer执行0。只将fixture模拟live缓存改为可写副本并恢复原对象，开发源20,175B/SHA2561bc4fbee6c7212d1d5e3a67efecab69f8bab92ee7fe37d00294710b3fe653a66；生产源码/模型/RHS/验收/预算全不变。新请求继续尚未完成的第一次科学，未宣修复通过或SOC有效。
+
+
+## R341：伴随方向、完整自项与三个最终中心支付第三高斯面积一阶矩
+
+[R341 完整建设性证明](results/R341-companion-directions-and-three-centers-pay-the-third-Gaussian-first-moment.md)从真平移保B1新增χ(sR1+s²R0)与原12copy方差。R275四self原表给完整S=Lκ+(k*/2)(ℓμ0²+∫J(q″²)²)−k*μ0μ1，合法整体μ0/μ1为0才化简。用R267初始Fκ=0真实母、R265包内伴随及原R262有序和，普通/伴随在先固定的有限大间距给B1两even系数差的相反符号，所有local/primitive自项和高低真实方差保留；不是只看leading或借六能量零点。四A2模块和两新强模块均B0/R1/C0，B1平移不变；宽Λ的真实B1/Ψ比例Λ−5/Λ−7让这些修补正成本任意小。
+
+两负弱块权1−p,p与一正弱块权w=−C−/(RC+)；p<1/R、R足够大先留负Ψ储备。六强块付A2和B1差后，把其真实残值与全部copy方差收入bloc，再以x1=X−√{p[(R−1)X²+S*/C−]/(1−p)}、x2=[X−(1−p)x1]/p、Y=RX，S*=−3bloc/(2χ)，准确清B0/B1。足够大但有限X使0<x1<Y<x2且完整支撑严格不交；直接选最终位置，不穿越碰撞路径，不事后共移。最后原全72零controller及同F★有限N恢复Ψ/三行。故同一实际新圆M0..2、A0..2、B0/B1、third、指定完整层全θ联合成立；B2/其他完整第四、period、同g有限flex及主课题仍欠。全纸面，无新执行。
