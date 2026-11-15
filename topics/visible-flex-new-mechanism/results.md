@@ -221,3 +221,5 @@
 - [R227：可实现的非零ke二次曲率例外端口](results/R227-realizable-quadratic-k-even-ports-and-the-exceptional-germ.md)：h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/he exp(−εσ²)准确满足水平方程/偶拼接/正H作用。变k的frame变化先由R70末frame三外参IFT支付，再原八M+omega九IFT、全E目标与Morse；原U/完整第三结构/真history及Klein闭合保留。新W准确含σ²，hkG_b为不同最高二阶层；不宣完整quartic/period/ruling通过，零ke中心不在新例外。
 
 - [R229：例外G主算子的准确四次边界身份](results/R229-p2-energy-boundary-identity-for-exceptional-germs.md)：G_b=z²J[z⁴(f/z)″(g/z)″]/8于z>0准确，二次恢复A左尾为z²C_b/8不可删；完整E_b(A,A)+2E_b(q,G_b(q,A))=−(l+b)³C_b(q)²/64。两边原多项式延至全b，合法三复矩使C_b=0而准确消该候选quartic；未支付完整canonical ruling其余相位/次层，不继承R224/R228的T正性。
+
+- [154列首次实际：解除尾域锁峰，五次接纳后仍仅小量改善](notes/entry-tail154-first-actual-result-20261115.md)：43694686825/source71744524，8主LP/5接纳/0SOC，η .26653564958657405→.26652257791835787；四必要前缀恢复漂移大于新降幅，未刷新历史.26651075196396212。m1/m3已有尾曲率行二阶失配、m6硬门过而fineη增，新软行分支均先返回，未调用SOC；两块最后仍高比率触界，120活动秒先到。18+2值/全880.5913秒，完整163J占主耗时；原有限门过，.26/reach/连续门未付。下一原高度null入口+尾方向，SOC补行另案。

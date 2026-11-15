@@ -8,7 +8,7 @@
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`6bed2b018e150f9c56df4be520cf7f347c2e06eb`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`cfb41361aa2601ef7a5441fdb14d9f21f0eedd00`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
 
 ## 2. 完成门
 
@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **103 actual已消费**：43691833140/source2f25b5aa，notes/entry-body103-first-actual-result-20261115.md。历史最低η .26651075196396212/末bfbd7465保留；原固定尾域.7725锁峰使下一J前退出，非半径/预算失败。完整费用/全部门在原note，旧SOC/96defect不重跑确认。
 
-**154两块首轮运行43694686825/source71744524b9001226332866870515281d35f49910/job132752541415**：原B103 r1/4000/T51 r1/32000/9height固定；支持(tc,tf)，原.7725/.78峰可变，g/b0/163/永久c0不变。helper796d6498/lib650b4b0d/driver5d10b3b3及完整设计已审；主步物理∞/SOC物理L1、全部原门/残差/163J不变，新SOC域仅域内缩放等价。预算12LP/40value/120活动秒，每LP10秒。growth→strip→SOC→103各一次必要恢复，真实合格态/全池分账、不强迫hash。新人工及27源/98args接线已核，只交源码/参数/run/SHA。**154已成功完成，root正在完整读新输出；actual note即后登记。**
+**154 actual已消费**：43694686825/source71744524b9001226332866870515281d35f49910/job132752541415，notes/entry-tail154-first-actual-result-20261115.md。原B103/T51全uv可动、9height固定；尾.7725锁峰解除。四前缀各一次必要恢复，fc0d8139起η .26653564958657405→2ee6e90e末.26652257791835787；5接纳/8主LP/0SOC，降1.30717e−5未达1e−4参考/.26。恢复漂移大于新降幅，**未破103历史最低**。m1/m3已有.78曲率行非线性失败，m6硬门过但fineη增；新软行分支跳过SOC，不能说SOC失败。最后两高比率步已触发半径增长，但120.0745活动秒先到；18+2值、全880.5913秒、fine J85.1928秒，完整163J未降。末fineκ57.99998545、strip余3.90333e−8、帽高仅tol过；原门全过，新metric/reach门未付。下一准备原高度null入口与尾方向，SOC补行另案，不延同154预算。
 
 **原九高度的零积分方向已付**：notes/same-g-nine-height-zero-integral-entry-directions-20261115.md。λ·d0核8维；d_i=−e_i+(λ_i/λ3)e3，i0..2、λ3=.081，正步降低b(.09)，位置全二jet于t≥.603恢复、尾帽/共同帽高/strip真不变。盒内补偿槽容量待当次实际态，活动区metric/镜像/球/曲率仍需全门。准确有理null参数化不同于逐项float舍入；未实现/未派发，不因较低b下界强行跑无效strict-max。
 
@@ -43,7 +43,7 @@ R228同h、新d=bh+aσ²/k=a/(2ε)−aσ²+C exp(2εσ²)，C=ke−a/(2ε)。C�
 
 **R221完整joint接口**：任意w的Bθ为18局部速度+24真实history×三矩，126profile矩加六合法性矩=132；非rank。指定包类全kerLf为活动区Cf+B/常平台自由匹配，端迹+平台Gram给准确全核矩像。先付两个原period成员，再付五相位K0在45几何span内，最后48×135矩阵的增广子式/有限降秩消极点准确iff，保种子和原三合法行。尚无实际目标通过。
 
-**R225已给完整period range**：新合法解析导数包p/A只有有限有限阶内部零；ψ×正多项式逼近保正确J*，重付三矩/八包。全I解Lf(w)=G iff全部常平台G''0、每包总flux0、内部q=F/(Ap²) Laurent禁k≤−ord(p)−2及residue、两平端u=p∫q真实C∞可延。保右collar双零/左affine，平台调∫u0还原Lf本身。u*=1/p给所有内部门通过却平端失败的Y反例，未冒canonical成员。真实U0有限双目标的完整观测O含全部germ，其响应商Hper=O(U0)/O(R0)仍未知；Hper0才可R222真实付fullperiod，λ|kerO0则严格障碍。R96原查询F=CQ付光滑s密度，非有限维冒可停止采样。Morse另需完整三槽T保持实现，δ链具备，一般R0未付。继续决定该完整商，不机械追加flux。
+**R225完整period range已付**：新合法解析ψP包重付三复矩/八包/J*。Lf全像准确iff全部常平台G''0、每包总flux0、内部q=F/(Ap²) Laurent禁k≤−ord(p)−2与residue、两平端u=p∫q真C∞延拓；右双零/平台自由连接还原Lf本身。u*=1/p给内部门全过而平端坏的Y反例，未冒canonical。U0上的完整O有限但基/像未付，Hper=O(U0)/O(R0)未知；Hper0才授真实fullperiod控制，λ杀kerO则严格障碍。有限原查询付光滑s密度；一般R0完整T保持/Morse另欠，δ链具备。不机械追加有限flux。
 
 **R226平端层已付**：p=±e^(−c/t)a，两个指数积分的归一比值真C∞；G''=p t^νv+p²A、v(0)≠0迫u~−p^-1 t^(ν+8)v0/(16c⁴)发散，p²层保有限负幂条件，p³及以上仅在左零通量Cp分支可延。特定δ^nK的完整单层J/真二次尾给G''−G''(a)=p⁴A，所以平台修正后端点观测全0；非一般U/R，也不排R222未知mixed基准。下一只消费完整原DAG的最低端层，真实尾值不自由化。
 
