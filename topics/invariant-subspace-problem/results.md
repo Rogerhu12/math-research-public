@@ -453,3 +453,7 @@
 ## R150：饱和商的31缺陷由原13左核的完整小presentation决定（2026-11-15）
 
 [独立证明](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)用原π满射与全部fullgeneric13左核给G=V/N≅imQᵀ。输入通过逐系数31单位分母门后，H=cokerQᵀ有限D31且J=Tor(G/pG)≅H[p]，χJ=ΔH,F31/barΔH,Q。十个完整独立Dlin²轴D-free，剩原3×30的maxminor gcd恰等211个显式表达式的gcd；两域独立计算q，完整保E8在s1/s2的约化碰撞。小消费者只读paid157898B相位与父回执，逐2015原坐标核验；本条是有明确整性输入条件的完整理论/执行接口，不预报J维数或目标成员。
+
+## R150：九平方来源合成秩一截面的 Bell 十六次自然幂（2026-11-15）
+
+[原生成元完整公式](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)在固定y=v(s)的原17截面写b_r=Σb_jz_j。九个μh*z_j²原来源经十次鸽巢得μh*b_r^10；s/F±/E8四完整纤维的全部W来源经CRT给b_r²=ΣDνFν+qE，q=sF+F−E8且q³/h*多项式。差立方合成μb_r^16=Σ[RqE³Aν+μb_r^10KrDν]Fν，degree_m≤26。当前μ=Rout/Ω已存在；μ1后才闭全部rank-one均值。不能把截面身份直接提升全gradR3或把μ/h*当实际算子逆；非rank-one且ess(T3)≥4仍开。

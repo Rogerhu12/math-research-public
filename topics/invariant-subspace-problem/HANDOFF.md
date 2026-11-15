@@ -11,20 +11,22 @@
 
 ## R150：原模块、已付结果与当前缺口
 
-原 $A:6188\to4367$ 泛秩4354，原17式乘次数≤3；W=(I²)≤5秩4212。九目标h0=s³(s−2)F+²F−²E8全局成员性仍开；即便闭合，六模式F³仍须原自然Bell逆幂入gradR3。
+原 $A:6188\to4367$ 泛秩4354，W=(I²)≤5秩4212；17式只在归一rank-one均值y=v(s)截面。九h0全局成员仍开，不能换成全部gradR3。
 
 - [有限点与原目标](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)二点full=P长12且W入像；零点长66/九s³tj入像/t2恰3，负六full=P12，F±²W/E8W已付。h*=h0/(s−2)全局Q等价/deg23。
 - [D31完整Smith/同202核](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)完整∞66、真Smith/全核1834良好约化、1632/E216原直和、同202freeI整核；原13左核λI=2。旧O149/高26/旧D leading与新结论分开，详前态。
 - [新原始子式](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)原核补单位给cokerB*=fulltors；H8835/∞66/degree8769/leading31单位，replacement≥66/cofactor≥55。实际字典及五输入全核，不造大det。
 - **[已有来源统一8655](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)：** 保D*=detB*、monicK158，q8611/leading31单位/全部Pℓ整；既有Ax≡31^e b mod31^n保同e/n降费max(8655,τ+1)。固定e任意高n才exact；e0任意次数mod961负证仍真。
 - [仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)Δaff及monic Rout/Ω/M/U均31整；R(0)/R(−6)31单位，R(2)仅Q非零。新包络见下；原来源31分母另问。
-- **[有限31缺陷](results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md)与[root2前五系数31谱/300](results/R150-appendix-root2-coefficient31-spectrum-through-five-and-affine-degree300.md)：** C有限D31、C/pC嵌fieldtors315、rank_D C=degΔaff。monic annihilator/Hensel/flat completion保真实p-kernel，全球B像=L:p²，完整B三页successive2/4/2给root2系数p谱m1…5=(1,4,2,4,2)。连root1两类，至少15 tors方向/系数p长度≥44；Δaff≤300/齐次≤366、R/Rout/U≤142，barR|(s−1)(s−2)^3P+²P−²E6Q60²。九真差源v_j=A(Y−X)/p5各exact p阶5，非原h0分母结论；p≥6指数仍开，单p6不变char0目标。
+- **[有限31缺陷](results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md)与[root2五层/300](results/R150-appendix-root2-coefficient31-spectrum-through-five-and-affine-degree300.md)：** C有限D31、C/pC嵌field315、rankC=degΔaff；完整B三页给root2 p谱(1,4,2,4,2)，全球≥15 tors方向/系数长≥44。Δaff≤300、R≤142，barR|(s−1)(s−2)^3P+²P−²E6Q60²；九真差源exact p阶5，非h0分母。
 - [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，d=degΩ≤120；九Mh*tj全局原成员，degM≤142−d/总乘子165−d、源费8531−d。最小目标式s³F+^aF−^bE8^cU，a,b≤2/c≤1，U与Σ0互素；Ω/U未定。
 - [原P的56×22 core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)Σ0外准确保全部原maxminor gcd；原来源、自由核及完整graph已核，logical752d21d7…，不重算。
 
 - **root2剩余预算严格分拆：** 上述300定理§8证明0→C/pC→fieldtors315→J→0，其中J=Tor(G/pG)、G=V/N。若u=f2−16、v=Σa≥6 m_a(2)、w=dimJ2，则u+v+w=3且皆非负；不能把J误作有理余因子或高p指数。完整B第四页若actual=3才一次闭root2，当前不报值。正独立用已付13左核的小Q计算J，原目标仍开。
 
-- **[原13左核读饱和缺陷J](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)：** π真满射/全generic13给G≅imQᵀ；逐系数31整门通过后H=cokerQᵀ有限D，J=H[p]、χJ=ΔH,F31/barΔH,Q。十独立Dlin²轴D-free，可只算原3×30的完整211式gcd（两域各自q），保E8约化碰撞。source7f092c23已排120秒/1GiB/外150，只读paidQ157898B/b4cd0264与parent11075B/7db7d243；未报J数。budget exit75不可作成功依赖。
+- **[原13左核读饱和缺陷J](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)：** π真满射/全generic13给G≅imQᵀ；逐系数31整门通过后H=cokerQᵀ有限D，J=H[p]、χJ=ΔH,F31/barΔH,Q。十独立Dlin²轴D-free，可只算原3×30的完整211式gcd（两域各自q），保E8约化碰撞。source7f092c23已排120秒/1GiB/外150，只读paidQ157898B/b4cd0264与parent11075B/7db7d243；首run只因repo父回执路径缺失失败；已经sources复制同11075B到scripts再120秒。未报J数；budget75不作成功依赖。
+
+- **[rank-one Bell十六次原桥](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)：** 当前μ=Rout/Ω已给μ b_r^16∈原截面理想，九平方鸽巢10次+四完整纤维CRT给明确17来源/degree_m≤26。μ1才闭rank-one；全gradR3的非rank-one且ess(T3)≥4仍开，不倒置μ/h*作算子逆。
 
 ## 活跃执行与恢复
 
@@ -32,7 +34,7 @@
 - 旧P Hermite/localized爆长路线失败：19行后另57步MemoryError，候选未验证、无Ω，完整恢复身份保前态；不盲续。
 - 新minor并发失败已立即重拉重推；历史字典/五输入全核保前态。
 
-- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** 3原minor实113.562242秒/各3311整除，Ω仅已证整除U=f60²。全56 source0e111c23首180+续300秒已付19 unit pivots/11058 Schur+1232原核，剩37×3；后一math288.5526042秒，无split/closed。gen19 state-slot-1 10744842B/fa04fe35、payloadf0694329、binding862cca4d均临时。已排同out/source再300秒/2GiB/外360，仍依赖成功det步，不重core/det/19pivot；未报Ω。receipt后缀complete-original56-local-outside-gcd-300.json。
+- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)/全56实况：** Ω|U=f60²，source0e111c23已付全部modf 21 unit pivots/11165 Schur核、35×1余零，故f|Ω、60≤d≤120。第二300秒转f² replay5后failed，gen27 state-slot-1 177991821B/06892236、payload669cddad、binding862cca4d；不盲续大state。已排只读raw6043B/26917bb0诊断，无Ω120声明；core/det/已付profile不重。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
