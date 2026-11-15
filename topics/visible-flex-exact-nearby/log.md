@@ -53,3 +53,9 @@ root全文核B1–25及全部积分系数，另读原M.4–7/M.12/M.16–17补�
 ### 2026-11-15 00:38:20 UTC：固定内窗raw局部源完整实角二阶合同
 
 已证K1–11：旧Taylor p≤2/q≤3表复用，缺W04仅从原width1/512带sup的四个Cauchy候选取min；small auxiliary D0..3/Dr0..2和width1/32系数sup支付完整乘积θ²。原PQ/profile、4矩阵转换、非local/mean/径向权不改，只新增Nraw real jets→全Airy→local积分。实际candidate是否更小须公开Actions，未把大upper当下界。root继续五件入口；两README核57681cdee70da36c092117620062b4412050dfeb无变。
+
+### 2026-11-15 00:42:30 UTC：71pin内窗真实角导local消费者已装
+
+science2151125d…19907B、CIebacf347…6774B、worker275a965d…16106B、manifest88374241…22270B、flow3c1b815c…5952B。原64pins逐字保留，再pin完整inner实际native/process/原manifest/实际报告/K合同及两新入口；无外部artifact重下载。读真实17门、2原stage、四matrix转换、四原径向权和全非local/mean，只新增K1–11局部θ²、真实Airy candidate与四changed-local积分，取新/旧同空间bound的min。
+
+已亲核productrule全部导数、D/Dr范围、原宽1/32的T0/V0/vartheta Cauchy、W04原复带费用、PQ次序和raw μL0w1。原profile payload与small case SHA完整识别；没有按不同浮点文本误比同一Arb数。公开job先AST再math，45/50min child/wrapper、前后真pull、每naturalstage和行保存且精确续接；数学成功与出版失败分开。尚无本次数值结论。README只读核8b3d25818ea1fcdd9e5a4dc856fa12daa72c5fff无变，继续外段/全矩阵/强空间任务。

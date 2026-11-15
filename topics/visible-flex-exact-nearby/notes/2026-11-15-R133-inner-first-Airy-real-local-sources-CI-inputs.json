@@ -1,0 +1,446 @@
+{
+  "kind": "complete_inner_real_local_first_Airy_exact_public_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "arb_precision_bits": 320
+  },
+  "purpose": "Reuse the exact complete inner-source run, both original stages, all four converted matrices, physical radial weights, complete nonlocal and mean terms. Compute only missing full real angular local jets, an independent complete real Airy local bound, and changed-local source-square integrals.",
+  "input_paths": {
+    "inner_native": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/inner-first-Airy-complete-sources.json.gz",
+    "inner_process": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/process.json",
+    "original_inner_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-inner-first-Airy-complete-sources-CI-inputs.json",
+    "Taylor_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+    "Taylor_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json",
+    "auxiliary_native": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+    "auxiliary_process": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json"
+  },
+  "external_completed_natives": [],
+  "complete_inner_identity": {
+    "run_id": "43657933806",
+    "run_attempt": "1",
+    "actual_returncode": 0,
+    "mathematical_gates": 17,
+    "native_sha256": "6b5e6c646f02b48d82f25e12a41b329e7ab71d649b39d29c1608ef03a1fd847e",
+    "native_bytes": 25724,
+    "process_sha256": "e54c7505255182567a65d7b93af18726dced7cedc8b2284841e268582402946b",
+    "process_bytes": 20208,
+    "source_sha256": "0b0dc7b3b5c747dd8935f77c75554c60f2b08fd40a6cf5dd27c7c81f5c945fbf",
+    "manifest_sha256": "76faab17f11d84dd47e5f4e71695393deba10d6a962ac648ce0b8f3b5a91786b",
+    "successful_stage_payloads": {
+      "new-inner-Airy-profile-and-exact-PQ-jets": "9809a086152cbf69649dea0a0fcc90710411897caa02863992294530ca2f87b2",
+      "all-inner-amplitudes-and-complete-Airy-operators": "1f46b066ae07b7d06cf9678040aa4bab0a04232b80f24a899819cef7eea3a0a8"
+    },
+    "complete_matrix_conversions": 4,
+    "complete_integral_rows": 4
+  },
+  "Taylor_identity": {
+    "run_id": "43653825736",
+    "run_attempt": "1",
+    "source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+    "manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad",
+    "native_sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719",
+    "native_bytes": 52843,
+    "process_sha256": "eebbbf37419729069c28ef3cd7c7d34f02154b8c391b0cfa9ca093de8855a356",
+    "process_bytes": 48844,
+    "actual_child_returncode": 0,
+    "complete_gates": 20,
+    "complete_natural_stages": 75
+  },
+  "auxiliary_identity": {
+    "run_id": "43647998272",
+    "run_attempt": "1",
+    "native_sha256": "84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077",
+    "native_bytes": 20319,
+    "process_sha256": "855730f8bf86d04c6cc7622e1881f9fc29a2af754694dfaf5dad16012b98544e",
+    "process_bytes": 46443,
+    "complete_smaller_case_unchanged": true
+  },
+  "all_original64_input_pins_unchanged": true,
+  "mathematical_parameters": {
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "input_cutoff": 97,
+    "physical_frequency": "4|j|",
+    "missing_W04_paid_strip": "1/512",
+    "coefficient_Cauchy_width": "1/32",
+    "physical_inner_interval": [
+      "1191939371497/5000000000000",
+      "2384058743003/10000000000000"
+    ]
+  },
+  "prefix_recovery": {
+    "same_source_manifest_runtime_and_all_original_natives": true,
+    "successful_new_stage_payloads_and_rows_reused": true,
+    "prior_math_success_is_separate_from_publication_success": true,
+    "cross_source_prefix_reuse": false
+  },
+  "scope": {
+    "raw_local_numerator_is_mu_L0_w1": true,
+    "all_nonlocal_terms_and_independent_even_mean_unchanged": true,
+    "all_original_physical_seams_retained": true,
+    "positive_raw_source_only": true,
+    "full_strong_return_or_cutoff97_inverse_claimed": false,
+    "actual_PDE_branch_claimed": false
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part005.npz.gz",
+      "bytes": 2698707,
+      "sha256": "ce29c19c81e77cb2f2ea9b70edc59af96a869116fa96e2e5375ffa4d61927917"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json",
+      "bytes": 11295,
+      "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "bytes": 1638,
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part001.npz.gz",
+      "bytes": 2738003,
+      "sha256": "3aeb38bf0577207cafcad3a59e43ed5a04a4c9cf9a703c4c3c4088c963a09106"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+      "bytes": 6750,
+      "sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "bytes": 7851,
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-exact-fold-cancelled-sources-CI-inputs.json",
+      "bytes": 12121,
+      "sha256": "c7c772e582a3d9197ab20e9df1c8efb1ad4ff0c881ea597c6e720e44fe85012d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-inner-first-Airy-complete-sources-CI-inputs.json",
+      "sha256": "76faab17f11d84dd47e5f4e71695393deba10d6a962ac648ce0b8f3b5a91786b",
+      "bytes": 25258
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-negative-old-mean-compression-CI-inputs.json",
+      "bytes": 11916,
+      "sha256": "3a107f5b268af999f336dd8efa7bef0ef4769c05c741aafd3c04de65b49e7204"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-old-rho-first-Airy-Taylor-CI-inputs.json",
+      "bytes": 10222,
+      "sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_seam_operators_ci/run-43625828234-1/consumers/actual-first-Airy-seam-operators.json.gz",
+      "bytes": 904977,
+      "sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+      "bytes": 20319,
+      "sha256": "84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json",
+      "bytes": 46443,
+      "sha256": "855730f8bf86d04c6cc7622e1881f9fc29a2af754694dfaf5dad16012b98544e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+      "bytes": 30595,
+      "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+      "bytes": 49990,
+      "sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/exact-fold-cancelled-sources.json.gz",
+      "bytes": 3180936,
+      "sha256": "0ceafc2ba2adb8c1e14ab74c3059b0a0fde39446855df0889dec741f1cb61cfe"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/process.json",
+      "bytes": 36740,
+      "sha256": "67bf926abf9066d8f09dd8fbb16cd439770203b5e551c2fa374ef42f9abfc3b8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/manifest-373af63c2d6357a0.json",
+      "bytes": 20483,
+      "sha256": "373af63c2d6357a01210dc2d746d26fea79758f6c9068f5bef68d06c671ecef6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43656438723-1/consumers/inner-first-Airy-complete-sources.json.gz",
+      "bytes": 12436,
+      "sha256": "76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43656438723-1/consumers/process.json",
+      "bytes": 15314,
+      "sha256": "ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/inner-first-Airy-complete-sources.json.gz",
+      "sha256": "6b5e6c646f02b48d82f25e12a41b329e7ab71d649b39d29c1608ef03a1fd847e",
+      "bytes": 25724
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/process.json",
+      "sha256": "e54c7505255182567a65d7b93af18726dced7cedc8b2284841e268582402946b",
+      "bytes": 20208
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/source-bac8b991fb2672017.py",
+      "bytes": 31319,
+      "sha256": "bac8b991fb2672017f14b1068282eb7876aa93eda6f198f3bedd6c5e2f23c095"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+      "bytes": 4837715,
+      "sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+      "bytes": 52843,
+      "sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json",
+      "bytes": 48844,
+      "sha256": "eebbbf37419729069c28ef3cd7c7d34f02154b8c391b0cfa9ca093de8855a356"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/radial_reference_Airy_sources_ci/run-43635999157-1/consumers/process.json",
+      "bytes": 53604,
+      "sha256": "54f24e5d4750a3607acfaa1e1b11e7ea58eb390a8270d07c5e78b7f77943b15d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/radial_reference_Airy_sources_ci/run-43635999157-1/consumers/radial-reference-Airy-sources.json.gz",
+      "bytes": 3434233,
+      "sha256": "fec8740c26064b973c61828a960c3e5c7e864b83542222c155b9e56474c39853"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_root_high_intrinsic_jets_v2_ci/run-43651259105-1/consumers/process.json",
+      "bytes": 27056,
+      "sha256": "3b06c881b8b00f8bb830653b3eb290b09687b0a2576320b605ba758e2e706abe"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_root_high_intrinsic_jets_v2_ci/run-43651259105-1/consumers/true-root-high-intrinsic-jets-v2.json.gz",
+      "bytes": 570579,
+      "sha256": "38a8ba8d2998a75ddb863fe9b486defd756a22488e1c3a96ed8bf54581877e8f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-exact-fold-cancelled-source-budgets.md",
+      "bytes": 9007,
+      "sha256": "d8b7531b012fb2e3a03dc7887dad91d8bb68379f74c328982bfa528869c0aca4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-fixed-inner-first-Airy-complete-sources.md",
+      "sha256": "fce34ea266a8c352c8610ae06a8ede7edde1132ee57d9a487134bb8d00ef73b5",
+      "bytes": 8248
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-analytic-Airy-columns-and-complete-exponential-Fourier-bound.md",
+      "bytes": 12757,
+      "sha256": "3569172db9568d70fba2973660ceb790fb125432fad1d4823c3fbe422fe4d115"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+      "sha256": "16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841",
+      "bytes": 12056
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-angular-jets-for-inner-first-Airy-local-source.md",
+      "sha256": "b1f0f0c3c1a297ad1d3cd1ed51a1f3e0db3e85dae2be13a5913eb4a17946cd12",
+      "bytes": 6000
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-direct-angular-matrix-jets-for-analytic-Airy-sources.md",
+      "bytes": 8159,
+      "sha256": "35025593b433132475f5b42065d9bcc01b33a501d5e932741df384eab33fbb3a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+      "bytes": 11462,
+      "sha256": "394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md",
+      "bytes": 12231,
+      "sha256": "2429213db52c189de3db7f7b4db6841cc6ad712ae538192b9aaf7ddc3a1136f7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-fold-matrix-cancellation-and-leading-inverse-defect.md",
+      "bytes": 8721,
+      "sha256": "8ca5e54a1072e801acb3622cce8c6f04c6240691d000453804f46899d57a96a5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-fold-source-envelopes-and-integral-reuse.md",
+      "bytes": 8916,
+      "sha256": "fcd0998fe542068b104bbfe43107d8d509b77562ecca5129b30af42c9a3d1589"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md",
+      "bytes": 17618,
+      "sha256": "3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md",
+      "bytes": 12186,
+      "sha256": "55baa5f04d83a170ed422b6266c51e31f55c6471e04a5ac1fcac138eb2406d0c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md",
+      "bytes": 15780,
+      "sha256": "a798e93d73aa64115cb43313985054e0d682a41fd1393f4efea4704301699e3a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-fixed-inner-first-correction-complete-old-circle-source-contract.md",
+      "bytes": 9219,
+      "sha256": "77bfc0059ccd56a1814eca086bec47c5a83e8e4f3dbc816321c0f9e953fbd4e6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-complex-branch-symmetry-and-old-Taylor-Wiener-tail.md",
+      "bytes": 6744,
+      "sha256": "48940b32d96bd90da2bfe6dda488fbdcb71e021b2e1d063c22ba2417c1aa740e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-old-radial-first-Airy-Taylor-and-complete-Fourier-root-recurrence.md",
+      "bytes": 15707,
+      "sha256": "b816799ebab8350babaef537b756540b80db2482148f41ff39bf46a73a5b686a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-piecewise-real-root-fold-and-closed-forced-Airy-transport.md",
+      "bytes": 12114,
+      "sha256": "ee319621da07bd95e30708779128f6ac88ba7af5fade2f266cf03f0ee67965af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md",
+      "bytes": 10026,
+      "sha256": "1fe11cfbeece7fd334d24a0259c6156f6245953763664fb09fb1b596e9a4c607"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-real-root-remainder-budgets-and-radial-matrix-parts.md",
+      "bytes": 8889,
+      "sha256": "3bade0ac1358b845dbcbf16777baadc4f28437db4d31fcf1d227fdcb7db21bca"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md",
+      "bytes": 10507,
+      "sha256": "5db44117f45393480675e097441b3791a8be69ab35311e24426ab156ffc9f9e7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py",
+      "bytes": 37219,
+      "sha256": "ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_seam_operators.py",
+      "bytes": 26022,
+      "sha256": "9c71989fc069bb6cc35bcb18c03f5ca73b20a33d57387b6a2be2b5a48aefe71a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_analytic_Airy_old_circle_sources.py",
+      "bytes": 31946,
+      "sha256": "439a29e2f1a3273bf9901d6a6ddfae075fb88a308d9a9e2a665cf839fc3e0dc7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading_v2.py",
+      "bytes": 15648,
+      "sha256": "e4720dc7430f9f4be7dfdb901ec5ac7cf1f0bb260ed9298fc250c58d3c8fdeb9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources.py",
+      "bytes": 27730,
+      "sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_fold_cancelled_sources_CI.py",
+      "bytes": 9661,
+      "sha256": "0fe34702c3d536450a79ba1d9a28db6fff3d935537d8130b8fe9832ac8195714"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_fold_cancelled_sources.py",
+      "bytes": 26652,
+      "sha256": "52426ffbf1286f3ab06138879c03feb3795f5300a9e1f1e6625f6b1e2cf6a689"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources_CI.py",
+      "bytes": 8681,
+      "sha256": "e52145f7696fc3ecf886ee7fbf6c6c8f19512d425af150294422ee88a86cfba9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources.py",
+      "bytes": 40131,
+      "sha256": "0b0dc7b3b5c747dd8935f77c75554c60f2b08fd40a6cf5dd27c7c81f5c945fbf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_real_local_sources_CI.py",
+      "sha256": "ebacf347838f89ccc293f991bc2a5d7fd18e738ebe916b430e95b1bea0aa5a9b",
+      "bytes": 6774
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_real_local_sources.py",
+      "sha256": "2151125d2e8c4bb20d0f470f385e2ca670ed9aaf91dd82f4f52cc192954e277b",
+      "bytes": 19907
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources.py",
+      "bytes": 27569,
+      "sha256": "56b68983f36bb3d88e1427081ba9e60a8f6cf43dcd9578a0d925e1834292555d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_old_mean_compression_CI.py",
+      "bytes": 9195,
+      "sha256": "7465a23e484200dd159e96ad1d00b83bc71d4847f2ed4dd1a39649e42823f886"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_old_mean_compression.py",
+      "bytes": 24260,
+      "sha256": "ae618221d85a51759f9e469937444d58385b1c77284e64611a6350ea2aff459e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_CI.py",
+      "bytes": 9011,
+      "sha256": "f1b824aad8d104d59876f86ccf9528fdb70124219502391c32cd173c89d444aa"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor.py",
+      "bytes": 42441,
+      "sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold_resume_v2.py",
+      "bytes": 37715,
+      "sha256": "840d7ae96c023f0f1055516cfefe62f22a8f46a3f8a0ea2974553b32760eb112"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets_v2_CI.py",
+      "bytes": 9107,
+      "sha256": "faeca86c1942fea6f700923e56eba3769fcd292eb4400909254464df59475bfc"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets_v2.py",
+      "bytes": 27819,
+      "sha256": "c3bb77f96f05ceedd05a0fc4cda39d591065d4ee2203fd7b05be79169d04709d"
+    }
+  ]
+}
