@@ -12,8 +12,6 @@
 
 [103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)与[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)均已消费，完整原门/失败/恢复漂移/费用保原note，不重跑。[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)给原163族内159独立坐标、准确H/盒/原物理步长；首159新阶段η.266520536442→.266491207122，m6细网曲率由SOC修回而下一B缩半，.26/1e−4仍欠。
 
-容量/成功SOC持径与选行J因子化的已付实际、失败、漂移和来源/费用均见对应notes及results，不重旧阶段；当前后继从真实当前恢复点继续，不能借旧最终数值强制重播。最新消费边界如下。
-
 [旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)失败范围保原件。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)已从同原run43728280256完整summary读6模型/7trial：η.266401179156→.266381717617，最终双网14门/盒过，κfine57.999983395。10primary+2SOC耗尽12LP；m3/5细网原曲率失败由SOC修回并保B.000125，七步无遗漏硬行。m4/5需358/342新cuts；m5首LP完整norm为负改善，补342cut后改善，m6仅余1LP且完整norm负改善，有限模型停止非驻点。已评价步完整预测覆盖差近零，剩实际e/f非线性3.8e−7～1.7e−6。54/106源和24路径/decodedSHA已核，同g/b0/159/163不变；9恢复805.206121s/新active35.287169s、16+2值分账不变。新开发全过，首6方向源绑复用不重。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)已完成：旧历史末态不复现被如实保留，未重试或强制旧SHA；第九handoff同原H/reference/pools/controller，m3/5的17个hold guard与4个bind均真，半径是取消暂缩而非新增长。原native第五模型行首有BOM，完整字节和JSON存在；新reader只去识别前导BOM并读其精确159/163、reference/池/cut容器目录，所有数值payload留runner内存。下一新算法携原ID/norm方向，在新接受中心重建有效支持cut；直接从原已完成checkpoint恢复，不再机械跑九段优化，不能搬旧A/b、重锚高度或只续预算。未达.26或主1e−6，η不冒δhold。
 
 ### 仍须支付
@@ -129,7 +127,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [恢复性](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)已付原43741276060 m10 x/y完整159/163、bank9及新池；原m11无池变化，原sep证唯一72480/144960，删后旧4417/4091版本4/7精确。历史前10模型11primary、SOC0，剩一个slot；不虚构未存的历史wall余量。
 
-[唯一新设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)源码两份54.7/12.6KB、原119绑定全同，含workflow共122；request-observed-m10-soc由独立public workflow调度。先读原run成功10检查/117源，不重执行；只执行新7 JSON/签名域人工。恢复同x原J并重放旧两factory签名，只有两个evaluation metadata叶允许变，e/f/de/df/ID/物理全严格；当前最终binding另取两factory之后。y原门/两新ID必一致，冻结capture保actual d、原只读y；扩池只重新J，saved-x ordinary命中须实际计数0。scalar/full gain都过原floor才唯一SOC，共享历史slot12/LP10s，active120从旧J前起、ordinary含末验≤8。无primary/回溯/递归；z按全原门/降幅验、原y学习不删所以不得hold。对历史x比较，不能冒当前globalbest后继。首次新7及分支结果待消费，任何partial/error按原件保且不冒complete。README全部完成门仍欠。
+[唯一新设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)源码两份54.7/12.6KB、原119绑定全同，含workflow共122；request-observed-m10-soc由独立public workflow调度。先读原run成功10检查/117源，不重执行；只执行新7 JSON/签名域人工。恢复同x原J并重放旧两factory签名，只有两个evaluation metadata叶允许变，e/f/de/df/ID/物理全严格；当前最终binding另取两factory之后。y原门/两新ID必一致，冻结capture保actual d、原只读y；扩池只重新J，saved-x ordinary命中须实际计数0。scalar/full gain都过原floor才唯一SOC，共享历史slot12/LP10s，active120从旧J前起、ordinary含末验≤8。无primary/回溯/递归；z按全原门/降幅验、原y学习不删所以不得hold。对历史x比较，不能冒当前globalbest后继。首次43747845778/job132914985984在driver前核源read_bytes缺未检出的旧workflow，人工/科学全0；[失败原件](notes/observed-m10-first-launch-sparse-dependency-failure-20261115.md)保。只增sparse旧workflow/新自身hash，122源仍全绑；新7与分支首次执行待消费。全部完成门仍欠。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门

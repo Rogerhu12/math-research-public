@@ -437,7 +437,7 @@
     "topics/visible-flex-new-mechanism/computations/request-norm-memory-transfer.json": "de25f342cd79b3f37e058052c5ff126d191a7d4a9f3cecae6aca9829858016a8",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_soc_audit.py": "5a69407ea22297c0af8558643f45aa8a50588670697143d5ed23c2b63126685e",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_soc_development.py": "918702d5f6a6a25014fe2f0bc8235a60fafa38bc8c87d8c1bb8dbb3d6fdea5ca",
-    ".github/workflows/visible-observed-m10-soc.yml": "a3a290ff0d09bfe0397db28bdf6273ca99b98404ac54095e98ae3e714ad39928"
+    ".github/workflows/visible-observed-m10-soc.yml": "97bb49675db6d7bf5c4d09d3b5c39a16b01bf47d2c9b29dc4ea715b605ad7f92"
   },
   "historical_m10": {
     "source_model": 10,
@@ -593,5 +593,20 @@
     },
     "completed_interface_checks": 10,
     "old_interface_executions_this_run": 0
+  },
+  "first_launch_interruption": {
+    "run_id": "43747845778",
+    "job_id": "132914985984",
+    "source_commit": "8ad75d67d80cf6874024badda234dbd1e6682391",
+    "stage": "workflow-source-binding-file-read-before-driver",
+    "reason": "sparse checkout omitted the already pinned predecessor workflow",
+    "new_development_calls": 0,
+    "new_ordinary_geometry_calls": 0,
+    "new_primary_LPs": 0,
+    "new_SOC_LPs": 0,
+    "old_development_calls": 0,
+    "repair": "include only the missing pinned predecessor workflow in sparse checkout; scientific sources unchanged",
+    "log_bytes": 93233,
+    "log_sha256": "db1935eb3fbe2dce710693c602b5c8239140a287b802de8af81541e02b83ab49"
   }
 }

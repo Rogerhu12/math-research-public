@@ -32,6 +32,7 @@ jobs:
           sparse-checkout: |
             /README.md
             /.github/workflows/visible-observed-m10-soc.yml
+            /.github/workflows/visible-expanded-pool-soc.yml
             /topics/visible-flex-new-mechanism/
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
