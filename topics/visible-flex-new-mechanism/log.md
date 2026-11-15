@@ -493,3 +493,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 04:09:57 UTC，Astra-new-mechanism-9974ea84：第二输入失败note、完整选根闭包差异与2新人工全文已读。1ec5fab9保持77完整两根/原表SHA且严格拒绝可达foreign，局部只人工无真实选根计算；注册独立新人工入口，同30真实args立即派发。压缩H已发历史，主题不停。
 
 - 2026-11-15 04:10:09 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交a69f1cfd5e77b9ddb112dcf0b43fc5472e945c1f记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 04:11:38 UTC，Astra-new-mechanism-9974ea84：R180全文及R81/R83传递、R46逐s六次平移、R37 Klein八边/R72端口适用节已读；补明a为2π周期，完整纸证立即推送。全T零并非固定圆低阶必要，独立二阶gauge给准确有符号第四period线，但ruling/高阶仍欠。继续L_f退化ODE/多包和重叠圆，不重旧不交实例。

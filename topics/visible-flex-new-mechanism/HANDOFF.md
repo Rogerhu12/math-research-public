@@ -50,6 +50,8 @@ R176 actual43671759155/source26e00d13：九式±给86行，0.434s/RSS91.484、0�
 
 R178固定色局部唯一/word终止，R179的Euler逐色剥离与L包包含排除已付规范word普适单射（固定collar/真实共轭齐备）。R159两根完整规范表即真核；旧pure验绑定转换/语法即可复用，Ψ=Φ不重40。word前两实际43674559905(b2c4e202)/43675170178(dd7b89f2)均在输入阶段零研究进度失败：首为旧FINITE缺冗余身份，第二为共享库存未用中间色；9原toy及2manifest toy均已公开过。两失败note完整保留。新driver79108/1ec5fab9只解码77完整−4/−2根的全部祖先，保2332原表/hash；可达foreign仍拒绝，模块ec2022d8不变。2新人工0.002877s过，公开仅此入口+同六输入30args/240s/1024MiB已派发，不重旧toy。每新关系存77/147/23与原两根；首条切点保存cursor，随后--finish-all-77，完整核通过才授真实字符。
 
-条件解释notes/R177-conditional-true-character-and-geometric-scope-20261115.md已成：若全核通过，R163延拓λ=λ−2Π−2杀R/NU，R109同germ/frameI/M0完整V满足λV≥∫h^-2/4>0；未预设条件成立。原乘子须μraw=μ+λ̃Γ。只排universal或满足λ杀代入核的固定圆；R105/R96仅给存在faithful特选圆，R83只覆盖其指定incoming历史。不授所有特殊圆/任意gauge失败。
+条件解释note仍仅在全核通过后授全U字符与M0 canonical λV≥∫h^-2/4；μraw=μ+λ̃Γ，固定圆须λ杀代入核，faithful仅存在特选圆。未授任意gauge。
+
+**R180新实际自由度已证**：Klein八边由R71/R72真实桥给闭浸入、M0/T=κH≠0；H在R46不交圆的低阶槽零，全部二/三阶range仍付。二阶独立w在f/g支撑邻域仿射，六交叉矩0使真实三阶补偿合法；R83+hook循环给ΔV=2κH(wθ;f²)=−6κC a(θ)(f″)²，任意有限正负C、周期a且0/π零。sin²只改mixed−2/0、不改pure−4。无未知C²周期成本，但第四ruling仍欠、R50不交常段障碍保持；不把独立w当原零incoming U，未推翻条件λ。下一纸推gauge退化ODE/多包与真正重叠圆，不重旧不交数值。
 
 完整P0/ruling、高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度仍欠。R98正states universal P1已结案；特殊profile或固定N完整P0+NP1未排。Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。预算仅结束单次计算，主课题继续open。

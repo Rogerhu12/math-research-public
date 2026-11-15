@@ -34,6 +34,12 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ## O4：完整真实第四成本、ruling 与有限连续族
 
+### 新入口：固定圆不可见的第三算子与二阶齐次校正
+
+[R180](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md)已给真实闭合低阶例：Klein八边保M0、T=κH≠0，H在所选R46圆的低阶通道不可见，完整二/三阶range仍成立。对f/g支撑邻域准确仿射w，交叉三矩逐项0；补真实三阶后，第四周期准确变为V−6κC a(θ)(f″)²，C可正负，a为周期函数且0/π零。sin²选择不动pure−4，保同几何/目标/圆，没有未知C²周期成本。
+
+下一推导L_f(w)=H(w;f,f)的准确退化ODE及真正range限制，研究多包独立符号方向与重叠圆。只控制第四period，完整第四ruling仍欠；既有R50不交常段障碍不删除，不为该已排实例重跑计算。原canonical U/条件λ只管零incoming规则，不能未经证明延至此独立w；也不能以新增方向宣布第四可解。
+
 [R175](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md)已结清R174关系下的整个最高层：a≥0、ℓ+25a/9≥0及二阶M PSD充要，完整边界恒等及R169有理幂路径必要性齐全。下一新外点只读五数按此准确分离；通过即不再跑最高层路径/Gram，仍保低层、完整时长与原函数良定义门。
 
 [R170](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md)已完整支付固定k的0/2/4 action：A,D,C≥0与B+2√C(4√A/3+√D)≥0充要，等价全t,s∈Q正的B+4(tA+C/t)/3+sC+D/s≥0。只在新点有严格违例时定向选有理κ,t,s；不盲加时长/参数网，不把B单独判负。

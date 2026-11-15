@@ -403,3 +403,5 @@
 - [曲率内余量首轮：三次微小接纳与主目标代价竞争](notes/curvature-proposal-reserve-first-actual-result-20261115.md) — actual43674194002/sourcef2ee2cd8三接纳至b0bf，η.2665503077505/κ57.999983377，旧两网门过/.26未到。末m4–7曲率通过、真实改善8.86e−9与预测比.99963，却不足原drop1e−7；后SOC已约.34s成功，故下一不优先缩SOC。11LP/30值/active55.03s后旧mintrust退；4407/3711池、raw8404480/11ba3032保全。现范数代价随trust缩小放大，下一仅改物理范数标定，原门/预算保持，未预称更大可行下降。
 
 - [共同word第二次共享库存接口失败及完整祖先修复](notes/character-head-word-second-actual-shared-atom-failure-20261115.md) — actual43675170178的2manifest人工过，真实阶段0.350s/0预算检查因整共享表含未用a/b/c而失败，尚无word/消元。新源1ec5fab9仅解码77完整−4/−2根的全部原祖先，保2332整表及hash；可达foreign与缺祖先仍拒绝。2新人工过，六原输入与数学保持，旧失败原件不改。
+
+- [R180：固定圆不可见第三hook与准确有符号第四周期gauge](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md) — 真实Klein闭合带可取M0而T=κH非零，R46圆仍付完整二/三阶range。独立二阶w在f/g支撑邻域仿射，三交叉矩0使新增三阶恢复合法；R83与hook循环准确给ΔV=2κH(wθ;f²)=−6κC a(θ)(f″)²。任意有限正负C，sin²只调mixed/0，保同目标与0/π种子且无未知偶次周期成本。仅第四period控制线，未付第四ruling；独立w不属原零incoming规则，不冒已绕过canonical正性或完成主题。
