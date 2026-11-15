@@ -44,9 +44,9 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读10:03过程43766B/SHAad45b74a…：future4800=1886旧+2914新、
-past2064/product4112；首完整组[3968,4000)在10:03:22已成。
-combined为1group/5queued/1consumer，无failure；Werror log2≤−102。
+root已读10:13过程44222B/SHAd7fdc68d…：future5152=1886旧+3266新、
+past2272/product4576；6完整groups，最新[4096,4128)。
+combined为6groups/26queued/1consumer，无failure；Werror log2≤−102。
 继续三流、187groups、三个完整HY及final，逐组结果不等于全局门已过。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
@@ -289,9 +289,10 @@ v=S_Tu、w=−R_v S_Tf没有第二截断；a1856/b6396、
 低−4220、高1*T320+C*T274均保。
 
 完整A22端口缺陷、DΠ_A[v]f、L=J−EN/c、EN各真项继续存在。
-参数高度Hp仅在同截面差中相消；跨端ΔHp、未screen meanheight、
-一个λ、ν及所有独立荷须同augmented近似右逆联立。
-body/holonomy mean收敛不等于全部外匹配。
+参数高度Hp仅在同截面差中相消；跨端ΔHp、未screen meanheight与一个λ
+仍须准确保留。ν及实际给定的独立荷须联立；当前自由安放单半面路线
+依T§9把height/frame作为同次重建的输出，而不额外预设两世界锚。
+body/holonomy mean收敛不等于真实far和内帽/core全匹配。
 当前E/L/B冻结最终Γ2、沿Γ1*(u)设计一个最终metric的成员。
 原C6–7的ν也是intrinsic设计参数，最终ν*/Γ1*/Γ2*/η及其它metric数据
 须一次选定后全部固定。
@@ -312,15 +313,26 @@ Rτ G S−τ后作同四块真实静态曲率替换，即得共同最终metric�
 Ω_t=q(1+K)(V−P)/(B√D)，dΩ=qJD^-3/2 residual dt∧dθ。
 只有PDE residual=0时dΩ=0，才可由一个共同frame/位置积分。
 四重周期与holonomy-one给真实位置周期。
-matching完整height和slope包含mean后，可以将尚待安装的一侧
-接到同一frame；两个已独立指定的端frame仍须真正比较。
-不得以off-shell种子的Cauchy匹配称已存在等距面。
+matching完整height和slope包含mean后，由一个共同frame/位置接续；
+两个确已独立指定的端frame才需额外比较。不得以off-shell种子称已存在等距面。
 
-先闭上完整无限Green/strong-return/cutoff、真ν响应及全参数Schur，
-然后在上述可重复域中完成augmented迭代和C²全层连接。
-所有原平盘、真实seams、holonomy、waist Bmean、cap内Cmean、
-height/flux/frame及四marker都属于同一个族。
-最后才消费第1节的条件几何并检查README所有验收项。
+T新增§9现已准确接原[完整两迹与腰反射M](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md)：
+当前只求存在的单半面路线没有预先独立指定两个世界锚。
+同一个真tail须解完整PDE、holonomy、真平盘及T22非线性far，
+用同一实际fB和holonomy小根匹配完整四态/曲率mean；
+在同一个B截面接合一次mean-height积分常数后，由T17单一frame接续。
+内core的T23仍须解全函数B、C非mean及独立Cmean，保腰u0/物理振幅/设计ν。
+完整第二形式匹配后，原M3–8已给同一次径向重建及C²全圈接缝，
+不新增函数位置方程。腰a'=E'=B=0及真上平盘给M9–11镜像闭C²浸入；
+下半面只是同一个上半面的镜像，不是另一个独立帽问题。
+
+这些条件仍须真正求解。跨端ΔHp、未screen meanheight/aw(L)/165、
+一个整体λ以及bF/bQ仍是同一次重建的实际输出，必须付G17/G24几何误差。
+它们在自由安放路线中不是额外指定的世界坐标等式；
+若另给独立flux/height/frame数据，原A/B的一般增广逆义务仍适用。
+
+继续完整无限Green/strong-return/cutoff、真ν响应及实际core/帽/tail匹配，
+再在同一个闭G上核平盘、全域几何和README验收，最后用P静态marker相位族。
 
 ## 8. 执行规则与当前可恢复记录
 
@@ -341,8 +353,8 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
 本机executor持续不可用，09:28:36定时及09:54非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull10:03:51.806710
-到54b5171fef8585078f6ceeff870b4be4cfe252dc，两diff空。
+ref读取不叫pull。最新亲读runner真pull10:13:55.854700
+到ebf7789134ebe11a80d4fa489e6f3423024db968，18次两README diff均空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
