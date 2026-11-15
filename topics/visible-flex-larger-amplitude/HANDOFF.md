@@ -4,7 +4,7 @@
 
 ## Rules and execution
 
-规则同步记录：2026-11-15 06:22:41 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 973b5ed832d565f4080da6c5add3ca82b980c21a。
+规则同步记录：2026-11-15 06:22:49 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d6931986c8015268a36513d51708df89eb432fca。
 
 Only public Rogerhu12/math-research-public and its Actions for ALL scientific execution/arithmetic/imports/RHS/J/ODE/RK/optimization. No private repo, force push, history rewrite or token in files/logs/Git/connector/reply. PAT only transient CLI. Complete proofs directly results+index; root rule12 cancels extra freeze/reviewer/byte-audit gates. Preserve original scientific acceptance conditions.
 
