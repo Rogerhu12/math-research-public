@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 P3a：两真平盘的同向作用可由全局几何推出](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)：标准有效材料circle action在两S不变平盘共轭为次数±1的平面旋转；G24星形保证轴只交两中心，去极点轨道同伦使两绕数相同。全局选一次方向即得两盘逐点固定所需equivariance，允许不同固定offset，无额外PDE/族IFT。单个G及原全域假设仍待。更新全文SHA256 9a5bcb141b337037297c8a832e4bd7dd5ab42557827be24ff41c107d308387d2。
+
 - [R133 actual G15：真实负侧全输出列已实际通过](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)：public run43700281022/1 child0/16门/math.005862355s，12pin=9current+3history，旧数学0。两genuine列/正负输入/输出mean/3circle-map全保，w0 L²<2.252232219784；w1及径导上界仍大，未冒完整physical source或high return。真Cauchy缺导与image margin已付，native5294B仅SHA不存。9941B/SHA256a6749378a5f846c738baedfdee6fc4be6eb8a089b9ef92b8e693fc23e83d89b7。
 
 - [R133 P：冻结全部metric参数后的准确相位与固定marker族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)：真正族参数是几何角τ，ν/η/Γ只设计一个G并冻结。单个真G、两盘同一action-equivariance（允许固定不同offset）及原全域几何门→Rτ G S−τ再作同四块真实曲率patch，给共同metric、C²连续、固定H及含反射非全等；未标记phase仍全等。无需另解ν族IFT；单个G/全匹配/几何仍待。13012B/SHA256473260bec7280863f9c67f90225b9ad56042315ea5f298f6a64a8cf2bc320af6。

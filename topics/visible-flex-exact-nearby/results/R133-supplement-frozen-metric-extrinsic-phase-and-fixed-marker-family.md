@@ -45,6 +45,39 @@ $$
 $$
 The same material circle action acts on both disks. Their fixed angular offsets $\alpha_+$ and $\alpha_-$ may differ; the axis, offsets and both heights are chosen once and are not separately realigned at different times. The intrinsic requirement is the actual equivariance $G\circ S_\tau=R_\tau G$ on each disk, not a simultaneous choice of two zero-angle origins. Equality here is an exact two-dimensional disk statement, not a boundary circle or an approximate flatness estimate. The period, global reconstruction, physical $B,C$ matching and height conditions needed for this input are the ones retained in [the full physical trace theorem](R133-supplement-full-physical-trace-matching-and-waist-reflection.md).
 
+### 2.1. A geometric verification of the two disks' common orientation
+
+The equivariance in (P.3) need not be an additional PDE condition. Suppose the
+original $S$ is the standard effective material circle action, free away from
+its two poles, and the two polar material disks are $S$-invariant. Suppose
+their images under $G$ are the two round flat disks centred on the same axis,
+and the single-surface hypotheses (P.15) and (G.17) hold.
+
+The positive support condition makes $G$ a star-shaped embedding by the
+original theorem's radial-projection argument. On either flat disk,
+$G S_\tau G^{-1}$ is an isometry of that Euclidean disk, since (P.2) holds.
+It fixes the centre. Its connected circle group is therefore a planar
+rotation group $R_{k_\pm\tau}$, where $k_\pm$ is an integer.
+The standard action is free off its poles, so $|k_\pm|=1$.
+
+Star-shapedness and the opposite signs of $z_\pm$ show that the image meets
+the common axis exactly at the two disk centres. Join an ordinary point
+in the upper material disk to one in the lower disk by a path in $M$ avoiding
+the two poles. Applying $S_\tau$ along this path and then $G$ gives a homotopy
+of their orbit loops in $\mathbb R^3$ minus that axis. Their winding numbers
+about the axis are equal. Hence
+$$
+                         k_+=k_-\in\{1,-1\}. \tag{P.3a}
+$$
+A single choice of positive angular orientation makes both equal to $1$,
+which proves the required common equivariance. Equivalently, without
+renaming the original action, use the same $R_{k_+\tau}$ on both disks.
+The fixed offsets $\alpha_\pm$ remain arbitrary and need not coincide.
+
+This argument uses the single global geometric hypotheses. It does not infer
+equivariance merely from two invariant disk images, nor from approximate
+flatness, and it does not assert that the still-required exact $G$ exists.
+
 ## 3. Exact unmarked phase and its genuine velocity
 
 Let $R_\tau$ be rotation about the common $z$-axis through angle $\tau$. Define

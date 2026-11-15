@@ -1,20 +1,20 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:48:37 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:50:15 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步与恢复
 
 只在public Rogerhu12/math-research-public和自身Actions做新数学；本机/代码模式只文字/静态核。每结论独推；非FF立刻真pull --rebase并循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 09:28:36定时/09:35非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull09:43:45.427780→0f896b57384f3de880bfb5202c9ef773064a2c74，两README diff空；ref不冒pull，每小时继续CLI尝试。
 根规15：可重算data/证书/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB。普通删留历史，旧成功数学禁重算，失败lost temp明确重做。原inputs runner从immutable公开commit/path或旧artifact临时恢复。无executor例外connector只UTF8<100KB，禁binary/gzip。H≤10KB/open≤30KB。
-最近只读README核：04c7143f474149ecb9f30e59ad8125273313b887；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：3163b6d8382bee5ff96501487c1a5d7627f72aca；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：7c9190eb20527983319520b6e73d14b65cde715e:HANDOFF.md，串3ed8919/e10f0c7/13e7795/7abd313及notes/2026-11-15-handoff-before-new-object-94-chain.md；所有旧输入身份/成功/失败/restore链/未付门不变。results与open逐字归档均由前H和当前open链接定位，不取消原义务。
 
 ## 总验收、同对象与参数身份
 
 同一连通闭C²嵌入、C²连续精确固定度量族；有内点材料H逐点固定、diam≥.2D、held≥.05D、含反射δE>0、全族reach≥.03D、四不同非共面静态marker、purephase刚体。**未完成，不等用户。**
 candidate ac1d5b98…/6145-M32-N512-[0,25/8]、repair440866a3…、Zdef6a71cb81…/native87ed2f61…全身份在前H及原报告；不换对象。Qδ=Q0+δZ仅近似，||q*−Z||<4.572198020300e−6。finite193误差.003509417445587仅有限；旧全L².007490301792401>.005，真正设计ν inverse/Schur仍需≤.005。
-原C0几何C6–7明确Eν=E exp(νw)：ν是intrinsic设计参数。最终ν*/Γ1*/Γ2*及其它metric数据必须全固定，再以准确原extrinsic参数构造整族，不能称ν变化为同metric flex。P/473260be…13012B准确族入口已核：单个真G+双盘G∘Sτ=RτG（可固定不同相位offset）+原G14/G17/G24→RτGS−τ和四块同一静态曲率marker给共同metric/C²连续/固定H/非全等；不需另解ν族IFT。未标记phase仍刚体，全闭单G及其几何/平盘条件仍未付。
+原C0几何C6–7明确Eν=E exp(νw)：ν是intrinsic设计参数。最终ν*/Γ1*/Γ2*及其它metric数据必须全固定，再以准确原extrinsic参数构造整族，不能称ν变化为同metric flex。P/9a5bcb14…准确族入口已核：标准有效action/同轴真盘/G24星形→两盘绕轴同向，从而G∘Sτ=RτG（可不同固定offset）；单个真G+原G14/G17/G24→RτGS−τ和四块同一静态曲率marker给共同metric/C²连续/固定H/非全等；不需另解ν族IFT。未标记phase仍刚体，全闭单G及其几何/平盘条件仍未付。
 geometry43584188751/26仅在同η0真闭C²解/fullC0≤1e−4/|δν|≤1e−5/全部matching下给held>.05075888242、reach≥800/25039、Hdiam≥360/511、markers145..148。全无限反馈、strong return/cutoff97、设计ν/全mean/height/frame/接缝及固定metric族尚未闭。
 
 ## Green v3：newton_source
