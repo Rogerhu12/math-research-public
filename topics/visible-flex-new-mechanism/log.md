@@ -579,3 +579,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 06:10:18 UTC，Astra-new-mechanism-9974ea84：R199完整证明已全文读、修正归属后即登记。root核单实极化、右因果三角packet行列式、b+tq*最高4m项、严格单调小扰动、复三矩Vandermonde与EId、八包第三mixed保留及H^(3/2)归一。R105的U确只由M=T0定义，已显式补真实BB^rev的T相消/V同号故V_B=半倍真实成本入U；不直接塞入T非0 hook。新圆全pure门准确，原step/λ读出/完整fourth均未冒付。新strip请求已成功源c594eeb/run43684152565，待实际结果。
 
 - 2026-11-15 06:12:06 UTC，Astra-new-mechanism-9974ea84：R202完整纸证完成即登记；tail独立核闭包/等变/dual pointed/拉回条件，root读R127原单权提取（末权m+j）、R145保颜色反号、R188及R190确切范围。Cp=clπC不可删closure；R201纯权0全在响应中直接排0，只余−8/−6/−4因子化正字符。既成全λ+无法下降，无新编译/计算；BBrev正半倍只付M0 hook成本归属，不冒实际逆元。推进存量21列新pure门与最低权完整纸推。
+
+- 2026-11-15 06:15:11 UTC，Astra-new-mechanism-9974ea84：新的权−2纯投影consumer debb22d7/设计19f0f994全文读毕后公开派发，标准库只读两份既存准确呈示。旧R9只备新解算接口，新增12逐列准确约化；77双mode hash/147映射/原根一致只绑定，31/25旧身份不重算。R179真实词单射给新非成员意义，kernel维数按52/40准确推，不冒固定circle失败或有限真实控制。17新增小人工完成，公共首次--toy后实际；workflow/publisher只增lane及缺失旧输入目录、元数据规则不变，12args/120s512MiB。正在运行的strip sourcec594eeb不变。
