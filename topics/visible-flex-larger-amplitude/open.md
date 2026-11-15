@@ -34,7 +34,7 @@
 
 R314/R325即使实际完成也只付固定准确有限trace条件包含，不代真 $F_e$、真正隐式root、动态分支稳定、IEEE、全部RK/112/338/physical或native。原未付字段不能由传输成功改写；150 raw已清，161完整重算，不凭hash恢复。真实run43729456722/source ce2b12c0f391a008343866ed9fe649f44d91ed28已启动，实际由exact负责。160复用同一v2继续完整152最终门，两个请求各自独立源/并发组，不相互作前置门。
 
-### 1C. 37查询及真实非线性域：155在跑，158实现中
+### 1C. 37查询及真实非线性域：155在跑，158独立诊断入口
 
 [R333实际141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)八个真模型/八次fresh FD，27trial/8接受/19域拒；末physical .0071047205741851865，native/fullDN仍false。三项责任分开：已选查询的真实非线性失域，未选MID489/490失域，512行/200dual后验仍大而未证QP最优。一阶全部71680 slack非负不能替真实域。
 
@@ -42,7 +42,12 @@ R314/R325即使实际完成也只付固定准确有限trace条件包含，不代
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)已证原严格角域等价于 $a>0$ 及 $P=a^2|d\times e|^2-\nu^2|d|^6>0$，准确仿射查询完整八次/Bernstein与真实Hermite/RMS端点RHS缺陷传递。当前系数和整段二阶界未付，不给155加前置门，不由有限N2048行冒连续角。
 
-158正把该工具接到独立一次真实98→37原model/FD之后：保最终原z、各interval原chunk J/P及原evaluate/query返回，不从Bz倒造输入或按同node强并不同word。仿射多项式、真实试点缺陷和表示舍入差分列；没有整段RHS二阶界就不称17档之间连续安全。诊断partial不改原model/FD判定，未派发或预填结果。
+[158完整入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)三新源及request/workflow/接口已发。真实actual98另起一次原37模型和新warm原FD尝试，原155四科学源及全部90pins保留，加worker与三源为94、三参数。只观察已有调用返回的最终原z、完整方向、各interval独立J/P与原query/角值，不从Bz反造输入或合并不同word的chunk；捕获额外成本计入原墙钟，不宣称与155截止轨迹逐字同。
+
+独立后置consumer准确形成全部75776角行、九系数、17闭区间Bernstein；完整实际已访点的原normal/cross词、准确P和453项Hermite恒等分拆逐项保。affine参考、实际点态RHS余项、端点/query/方向表示误差分开，缺整段二阶界就不称α连续安全；N2048不冒连续角。原model/FD先完整读回，后置结果不重判原接受。
+
+global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reserve180；四临时账共8GiB非每件，完整记录写入后才计数，停止保所有未访行/角/分量范围。job135/science110/readback15分钟，完整语义/原错误字节always读后才独占清理，不增raw artifact。未本地科学、AST或预填未来158结果，实际由exact核收。
+
 
 ## 2. 九控制低三条件：157实际已付范围与完整原记录恢复
 

@@ -1,0 +1,177 @@
+name: visible-larger original37 complete R334 post-model diagnostic
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-thirty-seven-R334-diagnostic-request.json
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-larger-thirty-seven-R334-post-model
+  cancel-in-progress: false
+jobs:
+  original37-and-independent-R334:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 135
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Fixed scientific checkout and independent request158
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md
+      - name: Original Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Original packages and bounded Git metadata output
+        run: |
+          set -euo pipefail
+          git config --global merge.stat false
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Bind complete original sources and independent post-model readout
+        run: |
+          set -euo pipefail
+          python - <<'PYPINS'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          repo=Path.cwd()
+          comp=repo/'topics/visible-flex-larger-amplitude/computations'
+          request_path=comp/'public-thirty-seven-R334-diagnostic-request.json'
+          raw=request_path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='2d678acda0e17dcd716c5d42574496e586046a7add0802729aaf95ed4d677428'
+          request=json.loads(raw)
+          assert request['request']==158 and request['repository']=='Rogerhu12/math-research-public'
+          assert request['maximum_original_models']==1 and request['diagnostic_seconds']==1800
+          assert request['global_science_seconds']==6000 and request['cleanup_readback_reserve_seconds']==180
+          assert request['declared_source_pin_count']==len(request['required_source_sha256'])==94
+          base_raw=(comp/'public-thirty-seven-model-recipe.json').read_bytes()
+          assert hashlib.sha256(base_raw).hexdigest()==request['original_recipe']['sha256']
+          base=json.loads(base_raw)
+          assert base['request']==155 and len(base['source_sha256'])==90
+          assert base['schema']=='actual98-thirty-seven-model-and-FD-recipe-v1'
+          assert all(request['required_source_sha256'][name]==digest for name,digest in base['source_sha256'].items())
+          assert request['original_model_flags']==base['model_flags']
+          assert request['parent_artifact']==base['parent_artifact']
+          assert request['parent_warm']==base['parent_warm'] and request['parent_status']==base['parent_status']
+          assert request['query_specs']==base['query_specs']
+          assert request['reviewed_README_blobs']==base['reviewed_README_blobs']
+          for name,digest in request['required_source_sha256'].items():
+              assert Path(name).name==name
+              source=(comp/name).read_bytes()
+              assert hashlib.sha256(source).hexdigest()==digest,name
+              if name.endswith('.py'):ast.parse(source.decode('utf-8'),filename=name)
+          for name,digest in request['required_parameter_sha256'].items():
+              assert Path(name).name==name
+              assert hashlib.sha256((comp/name).read_bytes()).hexdigest()==digest,name
+          proof=request['proof'];proof_raw=(repo/proof['path']).read_bytes()
+          assert len(proof_raw)==proof['bytes'] and hashlib.sha256(proof_raw).hexdigest()==proof['sha256']
+          for name,blob in request['reviewed_README_blobs'].items():
+              body=(repo/name).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(body)).encode()+b'\0'+body).hexdigest()
+              assert actual==blob,name
+              print(json.dumps(dict(event='request158_actual_rule_bytes',path=name,git_blob=actual,
+                  bytes=len(body),sha256=hashlib.sha256(body).hexdigest())))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          print(json.dumps(dict(event='request158_sources_and_scope_bound',
+              original_sources=90,original_batch_worker=1,new_capture_consumer_orchestrator=3,
+              total_sources=94,parameters=3,original_models=1,all_queries=37,rows=75776,alpha_count=17,
+              new_scientific_arithmetic_is_post_model=True,diagnostic_is_original_acceptance_gate=False)))
+          PYPINS
+      - name: Address the original retained historical inputs without switching source
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --filter=blob:none --depth=1 origin 918fdb11dbb7a424b6149b405e2c7fab3cc0c737
+      - name: One original37 model and real warm FD, then independent R334 arithmetic
+        timeout-minutes: 110
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-thirty-seven-R334-diagnostic-request.json'
+          request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==request['required_source_sha256'][Path(runner.__file__).name]
+          wanted=request['reviewed_README_blobs']
+          assert set(wanted)=={'README.md','topics/visible-flex-larger-amplitude/README.md'}
+          baselines={}
+          for name,expected in wanted.items():
+              raw=(repo/name).read_bytes()
+              blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert blob==expected,name
+              baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+          runner.BASELINES=baselines
+          print(json.dumps(dict(event='request158_explicit_reviewed_rules_baselines',
+              reviewed_README_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,
+              original_real_pull_rebase_diff_and_stop_unchanged=True,
+              fixed_scientific_checkout=os.environ['GITHUB_SHA'],
+              global_science_seconds=request['global_science_seconds'],
+              diagnostic_seconds=request['diagnostic_seconds'],
+              original_science_then_independent_diagnostic=True)),flush=True)
+          out=Path(os.environ['RUNNER_TEMP'])/'visible-R334-158-rules'
+          work=Path(os.environ['RUNNER_TEMP'])/'visible-R334-158'
+          sys.argv=[runner.__file__,'--out',str(out),'--command',
+              sys.executable,'-u',str(comp/'geometry_20261115_R334_thirty_seven_same_job.py'),
+              '--repo-root',str(repo),'--request',str(request_path),'--work',str(work)]
+          raise SystemExit(runner.main())
+          PYRUN
+      - name: Read complete original trials and independent diagnostic before cleanup
+        if: always()
+        timeout-minutes: 15
+        run: |
+          set -euo pipefail
+          comp="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations"
+          python -u "$comp/geometry_20261115_R334_thirty_seven_same_job.py" \
+            --repo-root "$GITHUB_WORKSPACE" \
+            --request "$comp/public-thirty-seven-R334-diagnostic-request.json" \
+            --work "$RUNNER_TEMP/visible-R334-158" --mode readback
+      - name: Remove only request158 already read temporary payload
+        if: always()
+        run: |
+          set -euo pipefail
+          comp="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations"
+          python -u "$comp/geometry_20261115_R334_thirty_seven_same_job.py" \
+            --repo-root "$GITHUB_WORKSPACE" \
+            --request "$comp/public-thirty-seven-R334-diagnostic-request.json" \
+            --work "$RUNNER_TEMP/visible-R334-158" --mode cleanup
+          python - <<'PYCLEAN'
+          import json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          path=root/'visible-R334-158-rules'
+          if path.exists():
+              if path.is_symlink() or path.resolve().parent!=root:
+                  raise ValueError('Only the independent request158 rules mirror is owned')
+              shutil.rmtree(path)
+          print(json.dumps(dict(event='request158_rule_mirror_removed',
+              raw_artifact_uploads=0,Release_uploads=0,Git_data_publication=0)))
+          PYCLEAN

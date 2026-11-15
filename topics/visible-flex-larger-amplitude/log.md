@@ -61,3 +61,7 @@
 ## 2026-11-15 15:44:12 UTC /root — R340实际157四接受与四完整normal拒绝
 
 [R340](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)原chain29684B逐字核后发布：84真实trial、4直线接受/80normal拒，W仍4.963213787524104728…、全finalfalse；后段末位下降不冒有效准确精度。compute传输失败与descriptor/合同分明，未据completion flag假核162FD/矩阵，163只读原日志补全；保存完整末九p/半径及准确秩必要关系。API核3633db9832438a93a946faa69d69380a376fb5cd双README未变，真实pull行保留，终端恢复补pull。
+
+## 2026-11-15 15:45:34 UTC /root — request158完整原模型后置多项式诊断
+
+[158接口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)三新源全文与接口核后即发：真实98一次原37model/新warm FD先行，94源三参数；仅捕获实际返回，独立后置75776行×17档/九系数及实际453 Hermite恒等分拆，原chunk身份不混并。global6000/diagnostic1800/reserve180，完整未访范围和错误读后清；未预填结果或本地科学/AST。H压缩已完成150/152重复摘要，原责任均在正文/open；API核78b3a92e16a6b75ec154997e03f9c8b7577bc177双README未变，真pull行保留。

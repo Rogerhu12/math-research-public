@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:44:12 UTC 已读 3633db9832438a93a946faa69d69380a376fb5cd，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:45:34 UTC 已读 78b3a92e16a6b75ec154997e03f9c8b7577bc177，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -35,13 +35,13 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [R341 actual151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：run43724306509 compute失败/report132859348081成功，原target127.386056539s到65535/65536节点，两子事务前止；完整u盖32977叶/10468未决、strict反证0、globalδnull、exit3，非900s墙钟。report四块逐字SHA核，巨量compute一次Transport closed未取，不能冒全frontier独核；amplitude163只读恢复，R320九p及同场metric责任保。
 
-[R337 actual152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)run43722101766全128唯一α1达9.68582474751023176032080482454992093e−11、129248/576×226 replay同；stage/audit三冒号/BatchStats编译1，112/338未起，1291成员/16byte段/134stderr行全核，raw已清。[160接口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)五件已发，55原pins全留+3=58；fresh91/64J/R273/128→全576×224、112、混合338/audit，19200与原门保；仅v2词法/类型资格化、完整读后清。尚无实际160结果，root负责全读回。
+[R337 actual152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)完整128/replay已付，stage/audit编译失败、112/338未起；全部原范围见正文。[160接口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins，fresh91/64J/R273/128后全576×224、112、混合338/audit，19200与原门/完整读后清保，仅v2词法/类型修复；root负责actual160全读回。
 
 ## exact：145、155实际与161修复
 
 [145接口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)保真124六p/λ.001、原warm/fallback/last、全currentH/J/R273η1、10trial/32iter/2e−9、338/FD/fullDN/audit。首正s1/64真正原数学拒即止本实验，不盲减半13次；异常/未返调用另记。
 
-[R338 actual150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)run43721616091全128唯一α1达原tol、完整replay同；exporter三冒号/BatchStats编译1，230列未起。642成员/149stderr行完整核、raw已清。[161接口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)本次发：原58pins全留+新3=61，shared v2(5e68f581)仅临时词法/类型修复；fresh91/64J/R273/128后stage10/step0/field0原230列/320bits，19200全局/6000owner/1200replay/1200export/9000cert和完整原字节/JSON读回保。未有实际161结果，不冒全RK/112/338或native。
+[R338 actual150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)完整128/replay已付，exporter编译阻断、230列未起。[161接口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins/shared v2，仅临时词法/类型修复，fresh91/64J/R273/128后stage10/step0/field0原230列/320bits，19200与完整JSON/错误读回保；exact负责actual161，不冒全native。
 
 [155接口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)已推0aa9dca2：fresh actual98另起8真model/freshFD，37=21LEFT+16MID（新489/490），24cells/29端点/B9805/75776角行/C4059/236036，全原门保；91pins/science175、job195含读回。完整trial先print再搬pair再清，always补batch/parent-after原status及全部失败字节。run43726543241 /132849600659已过来源并进入step7科学；无实际结论，exact负责原全读回。
 
@@ -61,7 +61,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)原154全FD/70trial责任及[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)全九维模型证明保。后继先据完整JᵀF/三行响应/曲率分清形成误差与实际秩，有限候选空不等于驻点；不机械追加微步或放宽严格slope/Armijo。
 
-[R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)证a>0、P=a²|d×e|²−ν²|d|⁶>0等价、完整仿射八次/Bernstein与真Hermite RHS缺陷/全乘积误差。当前系数/二阶界未付，不充155门；exact继续158原98→37真model/FD后的全查询诊断，未派发。R327–R333缺失索引已由2961014补齐。
+[R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)原a/P等价、八次/Bernstein及真Hermite缺陷保。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)六件本次发：真实98另起一次原37model/新warm FD后，捕获原z/每chunk J/P/已有返回；独立消费者全75776行×17档×9系数和实际453缺陷/形成差，94源3参数。global6000/diagnostic1800/reserve180秒，job135/science110/readback15分钟；不冒连续α/角安全，不改原155门，无本地AST/科学或未来结果。exact负责实际。
 
 ## 未付责任与恢复
 
