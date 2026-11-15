@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "87da9285c68b2df0be69cf0b8c6400f03268f6a8",
+  "rulesReadAtCommit": "3f9a23d27dcf80340fd98cd5fba59b0abf3763e1",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1019,6 +1019,28 @@
       ],
       "timeoutSeconds": 30,
       "receiptPath": "{work}/zero-sixth-unit-continuation-checkpoint-inventory.json"
+    },
+    {
+      "id": "selected-natural-second-left-normal-five-high-elimination",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-five-high-elimination-789f.py",
+      "scriptSHA256": "8c671b279161dad3dce4e0caeed3ed49f9911ac6844dba705bf040e2ebcf1a3d",
+      "sources": [],
+      "argv": [
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--normal-four-out",
+        "{work}/selected-natural-second-left-normal-four-complete130",
+        "--out",
+        "{work}/selected-natural-second-left-normal-five-high-elimination",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 120,
+      "receiptPath": "{work}/selected-natural-second-left-normal-five-high-elimination/normal-five-high-elimination-receipt.json"
     }
   ]
 }

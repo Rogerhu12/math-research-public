@@ -1,0 +1,66 @@
+{
+  "H4AttachedColumns": 2,
+  "H4CompensationNonzero": true,
+  "H5Columns": 2,
+  "actualFrozenWhileASTExecuted": true,
+  "allOriginalMatrixKernelProducts": [
+    "0",
+    "0",
+    "0"
+  ],
+  "committedStateSHA256": "1739e9ba47af9033885506a082dc966e5b0089ef47347c84ba9bb85d3dcebc19",
+  "completeKernelDimension": 1,
+  "completeRunPivots": 2,
+  "completeSchurRows": [
+    [
+      0,
+      [
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    ]
+  ],
+  "entireCommittedMathematicalStateAndDAGUnchanged": true,
+  "exactReverseSubstitutedKernel": [
+    "-2",
+    "0",
+    "1",
+    "1"
+  ],
+  "executionEnvironment": "local Python in independent /tmp; not GitHub Actions",
+  "format": "isp-normal-five-high-elimination-small-validation-v1",
+  "frozenSourceBytes": 20716,
+  "frozenSourceSHA256": "8c671b279161dad3dce4e0caeed3ed49f9911ac6844dba705bf040e2ebcf1a3d",
+  "independentOriginalMinorDeterminant": -1,
+  "interruptedCommittedPivots": 1,
+  "interruptedUncommittedPivotDiscarded": true,
+  "mathematicalElapsedSeconds": 0.05462024500593543,
+  "newResearchMatrixComputed": false,
+  "originalRectangularMatrix": [
+    [
+      2,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      3,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "status": "completed"
+}
