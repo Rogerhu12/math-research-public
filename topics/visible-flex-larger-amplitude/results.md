@@ -524,3 +524,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R277. 完整两端二阶块链的行列式与自由高核心消元](results/R277-complete-two-end-chain-determinant-and-high-core-elimination.md)（已证明，完整有限矩阵恒等式）：保持全部节点/两端及固定行列序，det A=−ell·prod(−adj(R)L)e1，整系数多项式延拓覆盖奇异右块；不能把初值图失效判成BVP奇异。逐一非零的全部高109完整行列式给齐次高核唯一零；仅当所有右块可逆才用单位入口Schur对角。有限保存系数、Arb声明实模型和真正尾导数范围分清，低三根/横截/非零BVP仍待实际支付，无额外数值或审核门。
 
 R277 的实际有限模型消费者：[actual81全部高109精确非奇异与区间边界](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。只绑定actual78参数、原699节点与保存完整尾J；Arb声明模型仍有103高模未排零，低三共振与非零BVP没有随之成立。
+
+- [R278. 有限共振链的项目化归一化、零集与局部消元](results/R278-finite-resonance-projective-normalization-and-local-elimination.md)（已证明，完整有限条件代数定理）：原两端链在明确非零子域以正范数归一化保零集、根处Jacobian秩与两个比例坐标；保留零向量/奇异右块例外及R277完整系统。原unit停止阈值、完整112候选标志与归一化阈值分开，离根导数须含分母导数，复数步须合法局部延拓；真实第三方程根与非零偏导才给非线性二维IFT消元。无低三根/非零场或原科学门变更，不等待数值消费者才登记。

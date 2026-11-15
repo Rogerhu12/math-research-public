@@ -85,3 +85,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **81完整高109独立请求已发布：** [双模型消费者接口](notes/2026-11-15-R259-complete-high109-two-end-diagnostic-interface.md)/[工作流](notes/2026-11-15-request81-high109-independent-workflow-interface.md)，sourcef60db29e、workflowfa8b7fe5/request4fdfe80c。真实78四原件先保全，全112模/699节点/698cell逐模；有限L/R精确dyadic与声明实scalar/圆的Arb160→320→640分开。1800s/4Mbit显式资源预算，边界耗尽如实partial，不将低三失败候选作为启动gate；真尾导数误差/连续高非共振/低三根/横截/非零BVP仍需各自支付。
 
 **73完整原件及独立R276接线已发布：** [同包接口](notes/2026-11-15-actual73-shared-artifact-readback-and-R276-interface.md)固定真实artifact14141540502/1752742419B/3430597b，helperd97eb11b先原字节导出result/完整trace/trials/各实际iteration，再调用未改c062 reader。独立bd4科学step从同核验根读取实际result/partial SHA，全部原129248行/十alpha保持；不重J/QR/试探，不改原outcome。workflow3cd2eba4/request60097d67同时用当前22e恢复旧current576native出版。原日志范围见[原字段](notes/2026-11-15-actual73-official-log-readout.json)，具体失败原因仍等原件。
+
+**R278已完成：** [项目化归一化、原零集及局部消元证明](results/R278-finite-resonance-projective-normalization-and-local-elimination.md)已直接登记。正反向有限链的非零条件、奇异右块/零向量例外、根处Jac和离根商法则、原unit早停与完整112候选阈值分开。第三原方程已有合法根及非零偏导才可非线性局部二维缩减；当前候选尚未提供这些存在前提。后续saved输出诊断不成为native/prefix或本证明的新审核门。
