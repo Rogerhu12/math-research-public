@@ -152,3 +152,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 [特定平滑源的顺次返回与二次窗口](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)已由R254真正primitive右逆支付D†Π1C1Tf，并保全部partial：对y=ℒ*Tf、f primitive，返回≤180/x+2048e^.5√(p+2)(x+p+2)^1.5/x²；p≤Q=L0h²、h/x有界时为O(Q)。当前缺口转为actual u或Tu的受控同源表示；不能把此特殊range自动等同实际端点。
 
 [原s=2十五条完整一阶首项](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)实际全185640原乘回并得9×15平方读数全零；任意同首项校正的读数由全22常核保证不变。尚未穷尽更高正常次数校正，完整第一连接仅知秩≤7；未构λ2、未证h0局部成员性。现只添唯一原弱方向的纯三次校正，复用原583单位及22实际RHS，检查是否增头。
+
+[实际投影的逐位压后伴随谐和](results/R271-appendix-actual-fixed-test-exchange-adjoint-harmonic-equations-and-full-generator-budget.md)直接给原u_f交换行4/x、整旗36/x，以及双边联合发生器范数24||f||/x；零源反馈保真实k，||L_U*u_f||≤12||k||/x。未反解L_U、未把u_f当已付primitive平滑列像；原两端和同w锚保持。
