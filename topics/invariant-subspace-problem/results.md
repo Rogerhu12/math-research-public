@@ -475,3 +475,7 @@
 ## R150：全56原行的外投影除子恰120，余乘子21与来源8411/8535（2026-11-15）
 
 [完整原来源证明](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)在71.12834121秒复用21paid主元、核2870方块坐标/两次42原RHS行，完成全部56个Mx=fE与E−My；全部Bockstein为零，故精确Ω=f60²。各不可约支撑恰一个指数2，原投影coker≅S13⊕S/(f²)。结合实际J1/Δaff≤299，得278≤degΔaff≤299、μ=Rout/Ω≤21、九μh*tj全局Q成员/总乘子≤44，三支费用8406/8411/192。monic Ω31整后保原D*不缩放，全部精度既有解统一费max(8535,τ+1)。μ1、原九h*自身成员及全正常商仍开；完整原6012零投影源和34核方向继续。
+
+## R271：原连续尾相干列的随机池原像及完整MP低高度渐近（2026-11-15）
+
+[完整构造与证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)在原无限连续权内给Dq_k=ω_k−r_k，逐坐标残量为全部外位Bernoulli不入池概率；q相对标量必要费≤Sx/Sx+k+1，||r||≤exp(−Sx+k/zx)||ω||。准确保R234全层12·512^k右逆而非primitive逆，得任意k=o(x)完整D†相干列渐近最优。精确相消||D†η_j||²=−σj²+αj²||D†ωj−1||²给同fcoh低j正交残量一次MP小量。任意r真幂的同池候选及少于r位准确残量也已付；全height一致修复、实际C+D返回及普通N=M继续。

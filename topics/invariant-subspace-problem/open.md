@@ -143,3 +143,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **全局第二系数像续查。** 原B像=L:31²，故I2(A)恰由U7及197条真实R2的原s作用闭包生成；旧197方向只付二点jets，不能外推全315像。继续从有界原q1恢复完整多项式、核全部505自由及315tors坐标，不预填新增维数。
 
 - **原正常商的完整来源接口。** [严格presentation](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)将原6188源经120单位后分为56个G尾和6012=5100+864+48真零投影源，完整W商为coker[B,H kerGᵀ]；rank34核必须保。倒精确Ω后可用56列H(I−JGᵀ)，J须真det/adj来源。下一步补原17式normal2多项式并同步全尾运输；现未数值构造B/H、不认4212免费单位。
+
+- **原连续相干列的全层MP。** [随机池完整证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)构造同D的q与精确r，候选相对最低费≤Sx/Sx+k+1、残量≤e^(−Sx+k/zx)；用真全层12·512^k修复得k=o(x)完整D†渐近最优，同fcoh低j一次MP小量。任意r步误差恰外池少于r位概率。k≈x、C+D返回和全partial仍开；原A_m含多降阶，不以假grade令H^-1g截低层。

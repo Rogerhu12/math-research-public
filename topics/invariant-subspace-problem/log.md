@@ -680,3 +680,7 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 ## 2026-11-15 22:52 UTC — 完整原外除子Ω=f60²，余乘子21
 step32实际71.12834121秒/exit0；全部21paid/2870square/42RHS/56Ax/56纠偏真，g=f，原投影tors恰S/(f²)。
 正式稿ce427066已全根审；μ≤21/总44/三费8406,8411,192，已有解D31统一8535。保raw4927/93bcf19e与完整临时cert身份，未宣μ1；实际pull核规后push。
+
+## 2026-11-15 22:59 UTC — 连续尾相干列的随机池原像与完整MP渐近
+逐坐标核Dq=ω−r、实际norm/指数残量及任意r真幂少位事件；亲读R234全层右逆，不把primitive多项式费误用于r。
+完整k=o(x) MP达到标量下界、同actual fcoh低层一次MP残量小；dc019c39全根审。全height与真返回未闭，实际pull核两README后push。
