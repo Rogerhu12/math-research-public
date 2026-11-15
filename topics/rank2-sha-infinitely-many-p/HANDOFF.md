@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c2a79a7e986c2510abb300c84791c6339e46bf29；2026-11-15 01:18:53 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:18:52 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
+- 最近已读规则提交：7ada25a81375e262d70c6096768e62cc0a610993；2026-11-15 01:24:03 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:23:59 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐完整结论即登记推送，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用本公开Actions。课题log每轮≤5行，单MD/API文本<100KB，H<10KB，open尽量<30KB，文件<5MB。
 - 令牌仅临时终端，不入文件/回复。实际环境断连期非强制API追加，恢复即pull；非快进立刻实际pull --rebase、核规则、新head接父、重推至成功。
@@ -14,12 +14,12 @@
 
 ## 已发表、归档及接续
 
-R1–363、R365–560、R562–635及R640已登记；R364/R561仍开，R636–639进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r640.md)、[open](notes/2026-11-15-open-before-r630.md)；沿归档链保全部旧条件，压缩不关闭问题。
+R1–363、R365–560、R562–635及R639–640已登记；R364/R561仍开，R636–638/R641进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r639.md)、[open](notes/2026-11-15-open-before-r630.md)；沿归档链保全部旧条件，压缩不关闭问题。
 入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob。
 
-- root：R635已发表；续R639原完整中央连接的真实解空间/全预算，不再重复升幂扩盘。
+- root：R639全R_E内完整中央连接已发表；续R641原全来源/真实旗标成本，普通与惰性中央均保。
 - deep：R633全原C首Bockstein已发表；续R637原较小预算/完整Dψ高尾，同R旧截止不换。
 - theta：R634已发表；续R638真实反射W−算术身份/共同单位与Ydeep补偿消元。
 - literature：R624/R630已发表；续R636指定det的实际返回/非零，不另开泛查。
@@ -80,14 +80,19 @@ R625–627原B^(p^e)（e≤p−2）在n<(e+1)L整，端点residue=(-1)^e d b^(qL
 全0<r<s首坏带p倍系数=b^(qL)binom(6r,q)[w^r]logB。
 e≤5原S/T两行detunit、前缀范数=p乘来源范数；H38首坏qL+1。
 真实度p^e及两幂共同首阶p^e不省；全部指数/p²指标已付，不依赖j0。
-R632原f4/f1/S/T/H38归一B^p准确R_E=p^-1/(p²−1)，闭非Tate；
-u参数logK_n=(-1)^n∏(6j−4)/(6j−1)/n，闭R_E唯一n=s临界；原H闭Tate、u(z)仅开盘逆。
-S≤R<R_E原sigma域degree p、七原积分仍独立，不把全p²Gaussian域或R622中央解无证外推。
+R632原五归一B^p准确R_E=p^-1/(p²−1)/闭非Tate；开盘真实u逆与闭盘正向范数全付。
+全S≤R<R_E原sigma域degree p、七原积分独立；不扩全p²Gaussian域。
+R635任意正整数p|N的B^N仍准确R_E/闭非Tate：H缩减1−U^(p²−1)有简单非零零点，
+d>0用H零点、d0用M_e−1准确值e−1+1/(p−1)排闭Tate。真实度N/首阶不省。
 K(τ)=Theta_old(−τ)^3，z=uH(τ)，不能认t_old=−bw。
-R635全部e≥1、乃至任意p|N的正整数幂B^N准确R_E/闭非Tate；
-H在边界缩减1−U^(p²−1)，有p²−1个简单非零零点、z(u_T)=0。
-e≥2的u侧K幂已延过R_E，但全M_e单位且边界M_e−1准确估值e−1+1/(p−1)；
-d>0用H零点，d0用该非一值，均排原z闭Tate。源度N/原零阶保持，无新中央约束。
+
+R639原prime-to-p CM除法的范数一极限给Pζ(u)=h(ζz(u))/h(z(u))∈1+u²O[[u]]；
+T=(∏ζPζ)^(1/d)整，Fc=Π0logh、Ec=expFc、h/Ec=T^-1，全R<R_E Tateunit。
+原J_n=C_n/(1−6n)的全carry给p^-1<r<R_E^d时||q_c/c−1||<1；
+完整∂X+m q_c逆保同j，dEc^-mΠ0Um=R_m−j Ec^-m，j0 iff延全部R<R_E。
+两中央Π0Um在全原p域不论j0都已属域，不添局部维数；全正规来源系数
+v(g^c_k)≥−floor((ks−1)/L)。Fc−cX始X²，指定两窗逐项不变；σ/Ec仍保uH/T。
+T是整形式函数，未认k(E)有理；多charge、十九角/帽/同R/全Dk旗标成本尚须付。
 
 ## 原同R forcing与实际全格
 

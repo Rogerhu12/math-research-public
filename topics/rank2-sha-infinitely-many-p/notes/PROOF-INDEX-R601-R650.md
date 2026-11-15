@@ -129,3 +129,6 @@
 
 
 - [R640：原Wilson来源经固定conductor返回canonical格](../results/R640-fixed-wilson-source-return-to-the-original-canonical-lattice.md)：原U=1正规化的全部306个共轭付q_c的a305d229整除及次数3433界；清极商逐项证明S189 c B19⊂V836，并把原三Wilson全函数经x²W13/G0送入同格。全部十九角、次数帽和charge876成本保留，未添中央零或移动旧同R观察。
+
+
+- [R639：完整原中央规范与整个形式群内盘的同一缺陷](../results/R639-complete-original-central-gauge-and-full-formal-disc-stokes.md)：原prime-to-p CM除法的范数一极限给h/Ec的完整u整单位；J全进位界使完整中央连接在全内盘严格常数主导。真实Banach逆与原小盘比较保同一j，j0等价延到所有R<R_E，原两投影全范围已属同p域；指定临界两行不变，未添局部维数或免费旗标成本。
