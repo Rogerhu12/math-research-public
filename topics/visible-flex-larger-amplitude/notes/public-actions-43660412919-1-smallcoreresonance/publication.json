@@ -1,0 +1,84 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-15T00:54:06.928225+00:00",
+  "source_commit": "3a0646db263f224acd347432967b93239faa836c",
+  "run_id": "43660412919",
+  "run_attempt": "1",
+  "lane": "smallcoreresonance",
+  "files": [
+    {
+      "source": "exact-diagnostic-command.json",
+      "bytes": 1862,
+      "sha256": "55e28041081b3a2fb44716454caa06128842d5b6b3e1d516b92643cc443015f2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/exact-diagnostic-command.json",
+      "published_bytes": 1862,
+      "published_sha256": "55e28041081b3a2fb44716454caa06128842d5b6b3e1d516b92643cc443015f2"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "ee541fde9a248afbd8830a64030b6a2745d42e274f87520558ef2adc1bf0b202",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "ee541fde9a248afbd8830a64030b6a2745d42e274f87520558ef2adc1bf0b202"
+    },
+    {
+      "source": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/public-source-restore.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "request75-input-and-source-identity.json",
+      "bytes": 24908,
+      "sha256": "1bac3f1b267d54fbb38e798351312d976bc3f6d341527fa3405419d7d3f33029",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/request75-input-and-source-identity.json",
+      "published_bytes": 24908,
+      "published_sha256": "1bac3f1b267d54fbb38e798351312d976bc3f6d341527fa3405419d7d3f33029"
+    },
+    {
+      "source": "resonance/circle-reference.json.gz",
+      "bytes": 139251,
+      "sha256": "0ef37e4a328c733a70b7eee348f060c66927c96696ba70ad9c27b01598069a30",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/resonance/circle-reference.json.gz",
+      "published_bytes": 139251,
+      "published_sha256": "0ef37e4a328c733a70b7eee348f060c66927c96696ba70ad9c27b01598069a30"
+    },
+    {
+      "source": "resonance/complete-scalar-domain.json.gz",
+      "bytes": 72774,
+      "sha256": "4d03ac8856a21037da859f9a14d646a7b70681de352f3cec5491e6dc95b8f80e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/resonance/complete-scalar-domain.json.gz",
+      "published_bytes": 72774,
+      "published_sha256": "4d03ac8856a21037da859f9a14d646a7b70681de352f3cec5491e6dc95b8f80e"
+    },
+    {
+      "source": "resonance/resonance-status.json",
+      "bytes": 18429,
+      "sha256": "665f1bd36a4a75eded331a4a9697c4ebaeaa411834365e405fe214c0439bd969",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/resonance/resonance-status.json",
+      "published_bytes": 18429,
+      "published_sha256": "665f1bd36a4a75eded331a4a9697c4ebaeaa411834365e405fe214c0439bd969"
+    },
+    {
+      "source": "small-core-resonance-readback.json",
+      "bytes": 17440,
+      "sha256": "89f212feb2d22a50571e841d2a2e1e24688ae70748358200753ee156a31f5def",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/small-core-resonance-readback.json",
+      "published_bytes": 17440,
+      "published_sha256": "89f212feb2d22a50571e841d2a2e1e24688ae70748358200753ee156a31f5def"
+    },
+    {
+      "source": "small-core-resonance.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660412919-1-smallcoreresonance/small-core-resonance.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43660412919"
+}
