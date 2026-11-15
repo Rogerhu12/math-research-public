@@ -347,3 +347,7 @@
 ## 2026-11-15：完整原高核商的八个正方向
 
 [原双运输、精确列及完整Smith谱](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)实际16.187683781秒完成：194单位、正谱1³,2,4,5²,7，原26659556产品和两freeI全真，第7阶全部方向退出。两精确列及原21消去子支付模块身份和截止；8自由坐标只是完整向量标识，不是单项式syzygy，Q高谱仍未提升。
+
+## 2026-11-15：同一实际投影缺陷支付双边发生器和全部暗矩
+
+[同一实际投影的缺陷预算](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)把全阶暗矩和联合L/L*中的固定||f||换成ζ=||f−P_Vf||+||P_Kf||：交换行ζ²/x、联合发生器12ζ/x、全旗高矩4(r+1)²(2r+1)r!(σ²a_x)^rζ²。原最小投影窗口明确付P_Uw→w（全合法Q窗一致），故limsupζ≤√2||f−w||；没有速率则仍不能乘增长MP费用，完整同源混合返回继续。

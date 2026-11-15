@@ -153,3 +153,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [全部真正交旗的联合高暗矩](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)现完整求和全部jet：利用每个H_i的真三带及r阶投影差导数双侧j±r支撑，系数为16(r+1)²(2r+1)r!，无height/Q。低暗方向和顺次MP混合返回仍开。高核商F31实际完整谱已为1³,2,4,5²,7、194单位，源/外左全原运输通过；下一真Q八方向不能由此自动lift。
 
 [完整原高核商的八个正指数](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)已经完成全部原source/O左运输、26659556产品、原始自由块和同Jc配对；F31高商恰194单位加1³,2,4,5²,7，总26/max7。8自由字典已按完整原向量定位，特征零同模块/整基仍待。s2实际P11长12且二页rank1，full11二页rank0的差不能归为P退化。
+
+[同一实际投影的缺陷预算](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)把全阶暗矩和联合L/L*中的固定||f||换成ζ=||f−P_Vf||+||P_Kf||：交换行ζ²/x、联合发生器12ζ/x、全旗高矩4(r+1)²(2r+1)r!(σ²a_x)^rζ²。原最小投影窗口明确付P_Uw→w（全合法Q窗一致），故limsupζ≤√2||f−w||；没有速率则仍不能乘增长MP费用，完整同源混合返回继续。
