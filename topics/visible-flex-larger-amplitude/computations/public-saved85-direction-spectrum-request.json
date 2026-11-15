@@ -1,0 +1,127 @@
+{
+  "schema": "public-saved85-direction-spectrum-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 88,
+  "lanes": [
+    "modelresponse"
+  ],
+  "rationale": "Read the exact complete actual85 status once and apply the frozen saved-data consumer to its eight stored 3x3 column-scaled local models. Report direct A SVD, residual projections, original saved-direction consistency, and explicit eta0.01/0.001 local linear predictions. This does not evaluate the original model, reconstruct a field or Jacobian, rerun a nonlinear trial, alter any accepted decision, or wait for the separate projective-boundary consumer.",
+  "diagnostic_entry": "geometry_20261115_saved85_direction_spectrum.py",
+  "diagnostic_source_unchanged": true,
+  "source_sha256": {
+    "geometry_20261115_small_core_damped_resume.py": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+    "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+    "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+    "geometry_20261114_direct_operator_cell.py": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce",
+    "geometry_20261115_saved85_direction_spectrum.py": "20fcaa266aa1716be9ab910d2ab988d2259dc56e013b13d3cedccd69be9a9d20",
+    "root_20261114_publish_actions.py": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca"
+  },
+  "source_pin_scope": "Exactly eleven original status-consumed source payloads, hashed but not imported, plus the frozen saved-data consumer and the unchanged modelresponse publisher: thirteen pins.",
+  "original_status": {
+    "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+    "bytes": 54251,
+    "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a",
+    "schema": "R259-original-three-equation-column-scaled-LM-resume-v1"
+  },
+  "original_run": {
+    "run_id": 43667636063,
+    "source_commit": "c9daab1a9f7b1330c6099450bd018bfab9026b0d",
+    "job_id": 132670464205,
+    "artifact_id": 14143056682,
+    "artifact_bytes": 268505,
+    "artifact_zip_sha256": "708ce51fb634552d376013d05b57e4f42cdc07d699e25753a2af0a2ea36e5775",
+    "original_status": {
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+      "bytes": 54251,
+      "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a",
+      "schema": "R259-original-three-equation-column-scaled-LM-resume-v1"
+    },
+    "scientific_step_conclusion": "success",
+    "original_readback_step_conclusion": "success",
+    "artifact_step_conclusion": "success",
+    "publisher_step_conclusion": "failure",
+    "publisher_failure": "RuntimeError: Preserve a unique rule-read line and the original HANDOFF size bound",
+    "publication_recovery_scope": "The original status is the restored public original; completed science is not repeated for publication.",
+    "diagnostic_completed": true,
+    "scientific_candidate_success": false,
+    "original_damping_cli_text": "0.1",
+    "original_directions": 8,
+    "original_candidate_backtracks": 20,
+    "original_accepted_alpha_each": 1.0
+  },
+  "original_mathematical_input_sha256_receipts": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "original_mathematical_input_payloads_read_again": false,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "OPENBLAS_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1,
+    "MKL_NUM_THREADS": 1,
+    "scipy_required": false,
+    "flint_required": false,
+    "node_required": false,
+    "public78_restore_required": false
+  },
+  "diagnostic": {
+    "comparison_damping": [
+      "0.01",
+      "0.001"
+    ],
+    "original_saved_damping_cli_text": "0.1",
+    "stored_direction_count": 8,
+    "original_J_shape": [
+      3,
+      3
+    ],
+    "stored_scaled_A_shape": [
+      3,
+      3
+    ],
+    "original_augmented_shape": [
+      6,
+      3
+    ],
+    "SVD_target": "original saved scaled A directly; never augmented sigma squared minus eta squared",
+    "alternative_eta_scope": "Predictions of the saved local model only, without nonlinear/domain evaluation or acceptance"
+  },
+  "output_directory": "saved85-direction-spectrum",
+  "output_status": "saved-direction-summary.json",
+  "output_schema": "R259-saved-actual85-three-by-three-direction-spectrum-v1",
+  "complete_analysis": "saved85-direction-spectrum/large-arrays/saved-direction-analysis.json",
+  "publication_lane": "modelresponse",
+  "publication_scope": "Bounded original status, summary, command, runtime/source/request receipts and partial errors use the existing lane; complete derived large-arrays report remains in the same full artifact.",
+  "job_timeout_minutes": 15,
+  "consumer_step_timeout_minutes": 5,
+  "scope": {
+    "original_eight_saved_models_retained": true,
+    "one_consumer_invocation": true,
+    "original_status_modified": false,
+    "original_RHS_J_tail_FD_or_optimizer_called": false,
+    "original_nonlinear_trial_repeated": false,
+    "original_acceptance_redecided": false,
+    "new_candidate_accepted": false,
+    "full_BVP_acceptance_claimed": false,
+    "scientific_model_source_imported": false,
+    "four_large_math_input_payloads_fetched_or_read": false,
+    "full_original_science_artifact_downloaded": false,
+    "public78_source_restore_performed": false,
+    "local_linear_prediction_claimed_nonlinear_acceptance": false,
+    "projective_geometry_consumer_included": false,
+    "direct_SVD_is_not_a_rigorous_rank_or_transversality_certificate": true,
+    "diagnostic_is_not_a_new_candidate_or_scientific_acceptance_gate": true,
+    "all_svd_and_arithmetic_only_in_public_Actions": true
+  },
+  "requested_at": "2026-11-15T02:59:56.984256+00:00"
+}

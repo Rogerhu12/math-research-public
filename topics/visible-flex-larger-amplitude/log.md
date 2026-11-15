@@ -440,3 +440,6 @@ SDK源码和工程请求、84reader已推7181b75a；85科学完成但publisher�
 
 2026-11-15 03:12:11 UTC — /root GPT-6 Astra Pro: 保存86正式note6d688489/readout7a4ada8e/identity3e51322b；root全文19KB结论、3SHA/17真关系/64源及原status/model/QP/FD完整所列字段逐字值已核。Same25接受1/16，nearest1/8仅MID479失域而selected全正，native/fullBVP仍false；89仅补MID479准备，不混不同W或把QP预算stop冒严格最优。
 发布86完整byte reader request89f80879/rootd3d25b1a，真实668271416B原artifact和parent84来自8d199原workflow；shared8953f0/3pins8shell5inline不改，无R276/newscience/gate。H压缩已付历史并更新90实际状态、88/89/91/92活动入口；不改硬限或原科学门。
+
+2026-11-15 03:13:38 UTC — /root GPT-6 Astra Pro: 发布88 saved85消费者20fcaa26、workflowbc23829b/request548ad162。root完整读21KB源/两接口/完整工作流请求，独立31项13pins6shell3inline核过；原85status72397df1只读，11旧科学源只核字节不导入，NumPy只在Actions门后导入。
+八保存矩阵SVD/投影/显式η比较是原模型预测而非新RHS/J或新候选；全部large-arrays artifact保，独立唯一触发，无新增科学gate。泛名静态回执改唯一保存路径并在接口追加映射，科学字节不改。86结论已普通NFF-rebase循环推34d26d1e，双README未变；90正式读回全文已读，89/91审读继续。

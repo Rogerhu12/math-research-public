@@ -1,0 +1,176 @@
+name: visible-larger saved actual85 direction spectrum and local damping predictions
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-saved85-direction-spectrum-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  modelresponse:
+    name: Saved85 direct3x3 SVD and explicit eta0.01/0.001 linear predictions
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: visible-larger-public-saved85-direction-spectrum
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/README.md
+          /topics/visible-flex-larger-amplitude/HANDOFF.md
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261115_small_core_damped_resume.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261115_small_core_damped_search.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_small_core_resonance.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_constrained_trust_warm.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_constrained_collocation.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_full_dn_augmented.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_full_dn_boundary.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_physical_test_boundary.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_lifted_modes_profile.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_full_prefix_operator.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261114_direct_operator_cell.py
+          /topics/visible-flex-larger-amplitude/computations/geometry_20261115_saved85_direction_spectrum.py
+          /topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py
+          /topics/visible-flex-larger-amplitude/computations/public-saved85-direction-spectrum-request.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json
+    - name: Establish one independent saved-data output
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-saved85-direction-spectrum/modelresponse"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-saved85-direction-spectrum/modelresponse" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install only the pinned NumPy saved-array runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 2>&1 | tee "$VISIBLE_OUT/numpy-install.log"
+    - name: Bind the original actual85 status and precisely thirteen source payloads
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess,traceback
+        from pathlib import Path,PurePosixPath
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path(os.environ['GITHUB_WORKSPACE'])
+        record=dict(schema='public-saved85-direction-spectrum-input-and-source-identity-v1',phase='binding',diagnostic_execution_claimed=False,verified_sources=[])
+        try:
+            raw=(comp/'public-saved85-direction-spectrum-request.json').read_bytes();request=json.loads(raw)
+            if (request.get('schema')!='public-saved85-direction-spectrum-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=88 or request.get('lanes')!=['modelresponse']):
+                raise ValueError('Use the single explicit actual85 saved-model spectrum request88')
+            expected_sources={'geometry_20261115_small_core_damped_resume.py': 'ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a', 'geometry_20261115_small_core_damped_search.py': '1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728', 'geometry_20261114_small_core_resonance.py': '3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5', 'geometry_20261114_constrained_trust_warm.py': '5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2', 'geometry_20261114_constrained_collocation.py': '70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8', 'geometry_20261114_full_dn_augmented.py': 'f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e', 'geometry_20261114_full_dn_boundary.py': '4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2', 'geometry_20261114_physical_test_boundary.py': '3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681', 'geometry_20261114_lifted_modes_profile.py': '13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5', 'geometry_20261114_full_prefix_operator.py': 'a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703', 'geometry_20261114_direct_operator_cell.py': '1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce', 'geometry_20261115_saved85_direction_spectrum.py': '20fcaa266aa1716be9ab910d2ab988d2259dc56e013b13d3cedccd69be9a9d20', 'root_20261114_publish_actions.py': '22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca'}
+            if request.get('source_sha256')!=expected_sources or len(expected_sources)!=13:
+                raise ValueError('Retain precisely the eleven original source payloads plus consumer and publisher')
+            if (request.get('diagnostic_entry')!='geometry_20261115_saved85_direction_spectrum.py' or request.get('diagnostic_source_unchanged') is not True or request.get('diagnostic',{}).get('comparison_damping')!=['0.01','0.001']):
+                raise ValueError('Use the frozen20fc consumer and both explicit local-model predictions')
+            expected_status={'file': 'topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json', 'bytes': 54251, 'sha256': '72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a', 'schema': 'R259-original-three-equation-column-scaled-LM-resume-v1'}
+            expected_input_receipts={'accepted': 'b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff', 'prepared': '0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714', 'tail_anchor': 'e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51', 'tail_config': '01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5'}
+            if request.get('original_status')!=expected_status or request.get('original_mathematical_input_sha256_receipts')!=expected_input_receipts or request.get('original_mathematical_input_payloads_read_again') is not False:
+                raise ValueError('Bind the original status and old input receipts without rereading four large inputs')
+            if (request.get('output_directory'),request.get('output_status'),request.get('output_schema'),request.get('publication_lane'))!=('saved85-direction-spectrum','saved-direction-summary.json','R259-saved-actual85-three-by-three-direction-spectrum-v1','modelresponse'):
+                raise ValueError('Keep the consumer output identity and bounded publication route explicit')
+            record.update(request=request,request_sha256=hashlib.sha256(raw).hexdigest())
+            for name,digest in expected_sources.items():
+                if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',digest):raise ValueError('Explicit source basename and SHA required')
+                data=(comp/name).read_bytes()
+                if hashlib.sha256(data).hexdigest()!=digest:raise ValueError('Source changed: '+name)
+                compile(data,name,'exec')
+                record['verified_sources'].append(dict(file=name,bytes=len(data),sha256=digest,mathematical_import_or_call=False))
+            rel=PurePosixPath(expected_status['file'])
+            if rel.is_absolute() or '..' in rel.parts:raise ValueError('The existing public status path must stay within the repository')
+            parent_raw=(repo/str(rel)).read_bytes();parent=json.loads(parent_raw)
+            if len(parent_raw)!=expected_status['bytes'] or hashlib.sha256(parent_raw).hexdigest()!=expected_status['sha256']:
+                raise ValueError('Original actual85 status bytes changed')
+            original_consumed={name:value for name,value in expected_sources.items() if name not in ('geometry_20261115_saved85_direction_spectrum.py','root_20261114_publish_actions.py')}
+            if parent.get('consumed_source_sha256')!=original_consumed or parent.get('input_sha256')!=expected_input_receipts:
+                raise ValueError('Retain all eleven true source bindings and four original input receipts')
+            if (parent.get('schema')!=expected_status['schema'] or parent.get('phase')!='diagnostic-completed' or parent.get('diagnostic_completed') is not True or parent.get('success') is not False or parent.get('native_nonlinear_solver_called') is not False):
+                raise ValueError('Saved input is the completed actual85 diagnostic, never an accepted nonlinear field')
+            head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+            if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
+            record.update(phase='bound',source_commit=head,verified_original_status=expected_status,
+                original_input_bindings_are_receipts_not_reaudited_payloads=True,
+                source_checkout_readme_blobs={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip() for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')})
+        except Exception as error:
+            record.update(phase='binding-exception',error=repr(error),traceback=traceback.format_exc())
+            raise
+        finally:
+            (out/'request88-input-and-source-identity.json').write_text(json.dumps(record,indent=2,allow_nan=False)+'\n')
+        PYPINS
+    - name: Analyze the eight saved 3x3 models once with explicit local eta predictions
+      id: saved_spectrum
+      timeout-minutes: 5
+      run: |
+        python -u - <<'PYCONSUMER' 2>&1 | tee "$VISIBLE_OUT/saved85-direction-spectrum.log"
+        import json,os,subprocess,sys,traceback
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path(os.environ['GITHUB_WORKSPACE'])
+        request=json.loads((comp/'public-saved85-direction-spectrum-request.json').read_bytes())
+        argv=[sys.executable,'-u',str(comp/'geometry_20261115_saved85_direction_spectrum.py'),
+            '--status',str(repo/request['original_status']['file']),
+            '--comparison-damping',*request['diagnostic']['comparison_damping'],
+            '--out',str(out/request['output_directory'])]
+        record=dict(schema='saved85-direction-spectrum-single-command-v1',argv=argv,original_nonlinear_solver_invocations=0,consumer_invocations=1,completed=False)
+        try:
+            (out/'saved85-direction-spectrum-command.json').write_text(json.dumps(record,indent=2)+'\n')
+            result=subprocess.run(argv,check=False)
+            record.update(completed=True,returncode=result.returncode)
+        except Exception as error:
+            record.update(error=repr(error),traceback=traceback.format_exc())
+            raise
+        finally:
+            (out/'saved85-direction-spectrum-command.json').write_text(json.dumps(record,indent=2)+'\n')
+        raise SystemExit(result.returncode)
+        PYCONSUMER
+    - name: Read original output scope and preserve any partial result
+      if: always()
+      run: |
+        python - <<'PYREAD'
+        import hashlib,json,os,traceback
+        from pathlib import Path
+        out=Path(os.environ['VISIBLE_OUT']);path=out/'saved85-direction-spectrum'/'saved-direction-summary.json'
+        record=dict(schema='saved85-direction-spectrum-original-output-readback-v1',original_summary_present=path.is_file(),numerical_model_or_array_action_performed=False)
+        try:
+            if path.is_file():
+                raw=path.read_bytes();value=json.loads(raw)
+                record.update(original_summary=dict(file=str(path.relative_to(out)),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),
+                    original_fields={key:value.get(key) for key in ('schema','phase','diagnostic_completed','source_sha256','comparisons_requested','verified_original_status','binding_scope','full_analysis','field_RHS_J_tail_FD_or_optimizer_called','new_candidate_accepted','existence_or_transversality_proved','error')},
+                    stored_rows_reported=len(value.get('rows',[])),original_decisions_not_changed=True)
+        except Exception as error:
+            record.update(readback_error=repr(error),traceback=traceback.format_exc())
+        finally:
+            (out/'saved85-direction-spectrum-readback.json').write_text(json.dumps(record,indent=2,allow_nan=False)+'\n')
+        print(json.dumps(dict(original_summary_present=path.is_file(),readback_only=True)),flush=True)
+        PYREAD
+    - name: Preserve original status, full analysis, source receipts and every partial failure
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-modelresponse-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-saved85-direction-spectrum/modelresponse/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded saved-model evidence with ordinary pull and rebase
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane modelresponse

@@ -1,0 +1,148 @@
+{
+  "schema": "saved85-direction-spectrum-source-only-check-v1",
+  "passed": true,
+  "source": {
+    "file": "geometry_20261115_saved85_direction_spectrum.py",
+    "bytes": 21290,
+    "sha256": "20fcaa266aa1716be9ab910d2ab988d2259dc56e013b13d3cedccd69be9a9d20"
+  },
+  "original_status": {
+    "file": "/tmp/visible-larger-recovery-2207/actions-debug/visible-mainline-smallcoreresonance-43667636063-1/small-core-damped-resume/damped-resume-status.json",
+    "bytes": 54251,
+    "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a"
+  },
+  "eight_original_direction_field_shapes_checked": true,
+  "eleven_consumed_source_bytes_checked": [
+    {
+      "file": "geometry_20261115_small_core_damped_resume.py",
+      "bytes": 15452,
+      "sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a"
+    },
+    {
+      "file": "geometry_20261115_small_core_damped_search.py",
+      "bytes": 13733,
+      "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
+    },
+    {
+      "file": "geometry_20261114_small_core_resonance.py",
+      "bytes": 25799,
+      "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5"
+    },
+    {
+      "file": "geometry_20261114_constrained_trust_warm.py",
+      "bytes": 19341,
+      "sha256": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2"
+    },
+    {
+      "file": "geometry_20261114_constrained_collocation.py",
+      "bytes": 18309,
+      "sha256": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8"
+    },
+    {
+      "file": "geometry_20261114_full_dn_augmented.py",
+      "bytes": 11311,
+      "sha256": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e"
+    },
+    {
+      "file": "geometry_20261114_full_dn_boundary.py",
+      "bytes": 10619,
+      "sha256": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2"
+    },
+    {
+      "file": "geometry_20261114_physical_test_boundary.py",
+      "bytes": 6269,
+      "sha256": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681"
+    },
+    {
+      "file": "geometry_20261114_lifted_modes_profile.py",
+      "bytes": 6016,
+      "sha256": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5"
+    },
+    {
+      "file": "geometry_20261114_full_prefix_operator.py",
+      "bytes": 40466,
+      "sha256": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703"
+    },
+    {
+      "file": "geometry_20261114_direct_operator_cell.py",
+      "bytes": 20431,
+      "sha256": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce"
+    }
+  ],
+  "imports": [
+    {
+      "line": 9,
+      "names": [
+        "__future__"
+      ]
+    },
+    {
+      "line": 11,
+      "names": [
+        "argparse"
+      ]
+    },
+    {
+      "line": 12,
+      "names": [
+        "hashlib"
+      ]
+    },
+    {
+      "line": 13,
+      "names": [
+        "json"
+      ]
+    },
+    {
+      "line": 14,
+      "names": [
+        "math"
+      ]
+    },
+    {
+      "line": 15,
+      "names": [
+        "os"
+      ]
+    },
+    {
+      "line": 16,
+      "names": [
+        "pathlib"
+      ]
+    },
+    {
+      "line": 17,
+      "names": [
+        "struct"
+      ]
+    },
+    {
+      "line": 18,
+      "names": [
+        "sys"
+      ]
+    },
+    {
+      "line": 19,
+      "names": [
+        "traceback"
+      ]
+    },
+    {
+      "line": 293,
+      "names": [
+        "numpy"
+      ]
+    }
+  ],
+  "consumer_imported_locally": false,
+  "mathematical_operations_executed_locally": false,
+  "scope": "AST/source text and original JSON/SHA/integer dimensions only. The SVD/norm/filter/model code was not executed.",
+  "source_only_final_formula_checks": {
+    "damped_quadratic_uses_actual_stored_A_action": true,
+    "separate_original_J_action_retained": true,
+    "candidate_success_distinguished_from_successful_scientific_step": true
+  }
+}
