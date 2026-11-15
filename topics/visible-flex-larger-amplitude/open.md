@@ -4,7 +4,7 @@
 
 [133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321完整终态](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)均付原128全129248行shooting容差和576×226独立逐word replay。140 run43713195661/source242c1f02：唯一α1真接受到9.68582474751023176032080482454992093e−11，38230B/7a66911e摘要两处原字同；stage/audit各g++ return1、未进科学，boundary/338缺完整前置未起，remaining15460s不冒预算停/数学拒。原stderr正文未转发已清；固定源码确定quoted非const string的ADL冲突，[共同限定入口](notes/2026-11-15-native128-explicit-JSON-qualification-interface.md)e609fb0a已发表，五原→派生全SHA/12、9、4、49、2处逐字逆核；[152完整入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)五件/55pins已发0bee3ef1/run43722101766，保完整stage/all224/112/338/audit与19200s；临时编译源仅限定::quoted，全部stage/column/原错误清理前无损分段，原exit/依赖不改。[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)入口已修；144完整cut输入由R322付。
 
-完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，并接原139/137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
+当前来源/run/规则/恢复见[HANDOFF](HANDOFF.md)，完整历史及原值由[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)接更早正文。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
 目标仍为README完整闭C²族/同g/嵌入/reach/整像held/全域metric/固定参数精化，达最低比例后继续加强；不在阶段、时长或单批预算处结束。
 
@@ -135,4 +135,4 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 ### 新C完整物理绑定与真正非线性provider
 
-[新绑定接口](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)及源c0bda335已全文核发：实际factory/result/definition/C盒、全九参数和453/450/459视图，原完整物理flow/R252边界、全部旧场公共u重参数与fresh全RHS、真实112非除Robin及有条件线性图。线性对象明确拒绝solve，原中点不冒共同真根。153继续同C完整576-stage采样、独立零shape初猜/非除Robin、真currentH/root/RK/mean/full112、η=0全112敏感度和338/fresh audit；逐节点可除不能从cut可除推出，R331证明待交。
+[新绑定接口](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)及源c0bda335已全文核发：实际factory/result/definition/C盒、全九参数和453/450/459视图，原完整物理flow/R252边界、全部旧场公共u重参数与fresh全RHS、真实112非除Robin及有条件线性图。线性对象明确拒绝solve，原中点不冒共同真根。153继续同C完整576-stage采样、独立零shape初猜/非除Robin、真currentH/root/RK/mean/full112、η=0全112敏感度和338/fresh audit；[R331完整证明](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)已付零shape/两mean、非除Robin/原port、非末−I满秩和末整体非共振、η=0全112与完整338；cut可除不推出逐节点可除，数值QR不冒严格非共振。

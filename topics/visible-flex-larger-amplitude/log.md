@@ -572,3 +572,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:11:05 UTC /root — R333 八个35-query真pair及MID489/490
 
 [R333](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)已完整核读：actual141 sourcea7ce5579/run43712613111/job132807257922全success，8model/8FD、27trial/8接受/19域拒，8原summary全SHA、全部27行35点数组范围及原输入输出链核同。末physical .0071047205741851865，全native/fullDNfalse；已选非线性曲率和未选MID489/490各自保，末五拒所选35全合法，最后α1/32。原512/200 QP后验大值不冒最优；原末warm/status已清，155按真来源重算并扩完整支持，未用SHA假续。
+
+## 2026-11-15 14:12:42 UTC /root — R331 无逐节点高度图的完整尾链与敏感度
+
+[R331完整证明](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)24156B/044ae2a9全文已核：合法原系数下零shape根/全部shape残差为零但两mean真实保留；物理列经原Q/Π坐标给非除Robin并保port。完整非末前沿由原−I满秩，只有末整体块决定η=0非共振；η>0仅非线性方向，完整112高度响应另解η=0并保338/mean/原d_c形成字词。未把数值QR、cut可除、线性尾或midpoint称新C非线性解；153继续真实系数及运行源。

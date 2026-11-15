@@ -4,9 +4,9 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 14:11:28 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1b1ca05393f56cbe1160d5b48ed6a768b9e02df2。
+规则同步记录：2026-11-15 14:12:51 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3b9bddab7ab1a0f89eb79666ee1365afa20ea8d5。
 
-集成复核：R329已推23a78deab，新C绑定已推db77f490；R333实际141八pair全文已核本次发。152运行0bee3ef1/run43722101766。R331/R332证明待根核；151因实际148原C1800不足，正明确增重建预算而不改数学。
+集成复核：R329已推23a78deab，新C绑定已推db77f490；R333已推7248eef2。152运行0bee3ef1/run43722101766。R331完整证明已核本次推；R332已读待单独推；151因实际148原C1800不足，正明确增重建预算而不改数学。
 
 仅公开 Rogerhu12/math-research-public。科学算术/模块导入/数值测试/科学编译只在本库Actions；root只源/证明/原JSON词法与字节/语法/Git。PAT仅CLI瞬时用，不入文件/提交/回复/连接参数。root唯一发布，agent独立/tmp源交接。
 
@@ -39,7 +39,7 @@
 
 [147 R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)run43717814570/source3b2df31a、compute132823027880/report132832524225均success。真cut两jet同R322；R323 d=1/524288、eA=eB=1/1024、κ1/2，419pieces定义d783cac1。基底452叶完整；原九p301s后1735passed/12766terminal/13stack，未决不冒真实域失败；raw未留全pending坐标，151须重生完整frontier。数值ℓ2.723563252110879，418seams仅207全jetword同，不能冒准确C²。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)已付公共u准确L²、全分支/支撑、中心差及同场η+δ+ηδ；151固定网格消费者由exact主写，未给实际δ/metric。
 
-**geometry / 148及153新C完整BVP。** [144 R322](results/R322-actual144-original-cut-twojet-and-complete-domain.md)付原cut1叶/5refine、两jet/合法域，全1440/六primitive/两域完整；whole2891粗叶+1晚期积分未付，无source/query后缀，raw已清。R312/143 R318全112深尾及R324通量/Taylor+Duhamel/完整cut hull已付。148源58317B/4531b5b3，13sources/5proof、同job C/cut/far/flux，新linear1800不含binding、外步35min/job110min，四原报告读后清，R327留实际148；逐h非零才准DN。[新C完整绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)两件全文已核发：源42658B/c0bda335、note17984B/cd5b77f5；真factory/定义/C、453/450/459、完整旧场公共u和fresh全RHS、112原Robin/商均分清，无非线性client。153需本次C完整采样、非除Robin/零shape独立初猜、真currentH/非线性及η=0完整112敏感度；不能把cut可除扩张全部节点。R331证明待交。
+**geometry / 148及153新C完整BVP。** [144 R322](results/R322-actual144-original-cut-twojet-and-complete-domain.md)付原cut1叶/5refine、两jet/合法域，全1440/六primitive/两域完整；whole2891粗叶+1晚期积分未付，无source/query后缀，raw已清。R312/143 R318全112深尾及R324通量/Taylor+Duhamel/完整cut hull已付。148源58317B/4531b5b3，13sources/5proof、同job C/cut/far/flux，新linear1800不含binding、外步35min/job110min，四原报告读后清，R327留实际148；逐h非零才准DN。[新C完整绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)两件全文已核发：源42658B/c0bda335、note17984B/cd5b77f5；真factory/定义/C、453/450/459、完整旧场公共u和fresh全RHS、112原Robin/商均分清，无非线性client。153需本次C完整采样、非除Robin/零shape独立初猜、真currentH/非线性及η=0完整112敏感度；不能把cut可除扩张全部节点。[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)已全文核付：零shape保两mean、非除式Robin及原port、全非末−I前沿满秩/末全局秩、η>0方向与η=0全112敏感度、完整338和原d_c字词。未给实际非共振/新非线性结果。
 
 **amplitude / 154全3二阶全局化。** [149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)已核并本次发表，run43720604504/source94b13951，compute132831559151/report132832211642均success；15groups/128段全重建1,202,255B/27982134，原chain17106B两job逐字同。8方向11外trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，末radius9.536743164062500529395592033937711917701562924776E−8；全finalfalse。全部11normal一次Newton/β1达标，0内拒/域异常，55样本全选working；三个外拒仍真增W，非精度已解全局化。原54投影FD/Arb/453与新54持久点FD各记，Decimal50非区间/高精度原表。真实p50九字符串见R329，154原样用、另立探索radius=.01和完整3×9×9二阶forward/全merit Hessian；直线试探与旧normal回退分记，原W/Armijo/域/final不变，R332待完整证明。
 
