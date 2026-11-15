@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:44:18 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0861ea264cf91c41e73f638b7cd21624878997d4。
+规则同步记录：2026-11-15 20:44:56 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 52be70b0e2e8b14098ec5e3fb96cda1aec8940ef。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -20,19 +20,19 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 |请求/结论负责人|run / source|当前职责|
 |---|---|---|
-|160/182 R359/R394 root、186 R397 amplitude|182r3 43757046032/442413b6；原16043729874541/b34692d0|89269B必要齐；128α1容差过/audit齐，stage8000s仅20/576，boundary/endpoint未起；186完整同job后继接线中|
+|160/182 R359/R394 root、186 R397 amplitude|182r3 43757046032/442413b6；原16043729874541/b34692d0|89269B必要齐；128α1容差过/audit齐，stage8000s仅20/576，boundary/endpoint未起；186同job后继接线中，ab246a头/03ab73stage同括号hoist已审未派发|
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37α1/8/新FD过，629gap齐；5400s诊断partial，完整角域后继保|
 |184 R391 exact|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|compute132943014084已启动；真180点→新C/factory→全角112 far→原453|
-|183/185 R390/R395 geometry后继|18343755955047/126c0517；185本次源发布触发|185六运行件/完整接口已核，真183末点→8×20/每α3×20全3校正→原120FD/Arb/453；actual R395待付|
+|183/185 R390/R395 geometry后继|18343755955047/126c0517；18543759673057/fe5f7cc2|185compute132951426792：117+12pins/原输入/语法已过，恢复原源；全3校正→原终门，R395待付|
 |181/187 R385/R396 exact|18143751399744/9236fcf0；18743759238493/6a272aae|187compute132950069367准备步骤已起；正端点续真180→freshC→112far→原453，actual R396待付|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
 ## 已刊历史与完整恢复
 
-全部原证明/参数/run/失败/未访/清理责任保[results](results.md)、[open](open.md)及[notes/2026-11-15-open-checkpoint-before-requests185-187.md](notes/2026-11-15-open-checkpoint-before-requests185-187.md)。R343同145/172、R344真37/171、R353/354/365/372闭域、旧九/十literal和R358/367/368/379/382双pivot/屏障事实均保原结果；失败不充接受父、点态不充统一整段、finite域不充C²/IEEE。R372实际175原37α1/8和新FD过、629gap齐；5400s只43910完整角事务，q21 angle902/trial6未提交、后15query未访，闭区间继承后继仍须核同一路径。
+全部原证明/参数/run/失败/未访/清理责任保[results](results.md)、[open](open.md)及[notes/2026-11-15-open-checkpoint-before-requests185-187.md](notes/2026-11-15-open-checkpoint-before-requests185-187.md)。R343同145/172、R344真37/171、R353/354/365/372闭域、旧九/十literal和R358/367/368/379/382双pivot/屏障事实均保原结果；失败不充接受父、点态不充统一整段、finite域不充C²/IEEE。R372实际175原37α1/8和新FD过、629gap齐；5400s只43910完整角事务，q21 angle902/trial6未提交、后15query未访，[R398](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)已付同一准确H(t)闭段包含：G2_j可变且盒无需嵌套，只从直接strict父段继承；188/R399保629gap/17档原事务、直接与继承分计，未回填175。
 
 ## 正在推进的完整入口
 
@@ -58,4 +58,4 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 ## 恢复与保存
 
-[178前完整open检查点](notes/2026-11-15-open-checkpoint-before-request178.md)链回全部旧结果；open §4–6未减。notes保存完整接口，computations与公开workflows是实际源。未推源丢失按H/接口记录重做；186尚未派发，185本次发布、187已起，actual未预填；已清raw只能真实重算，不凭SHA恢复。179发布树abdd74a9的完整Git metadata为8665文件/182282267B，无≥100KB的MD或>5MB文件；未知旧JSON未全语义分类。新成果立即逐条推送，持续下一未付子题。
+[178前完整open检查点](notes/2026-11-15-open-checkpoint-before-request178.md)链回全部旧结果；open §4–6未减。notes保存完整接口，computations与公开workflows是实际源。未推源丢失按H/接口记录重做；186/188未派发，185/187已起，actual未预填；已清raw只能真实重算，不凭SHA恢复。179发布树abdd74a9的完整Git metadata为8665文件/182282267B，无≥100KB的MD或>5MB文件；未知旧JSON未全语义分类。新成果立即逐条推送，持续下一未付子题。

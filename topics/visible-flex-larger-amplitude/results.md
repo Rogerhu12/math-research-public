@@ -402,3 +402,6 @@
 
 
 - [Request185. 真实183末点的全三残差预测与法向校正完整入口](notes/2026-11-15-request185-complete-three-normal-ten-predictor-interface.md)：原117+12 pins、完整48来源，六新运行件和接口已核；一个8×20块内每α最多3×20校正，原S/Armijo与owner不变量保，2400s包含原120FD/Arb/453终消费者。actual R395未预填；临时下降、有限域或资源partial不冒非零场成功。
+
+
+- [R398. 同一Hermite路径的嵌套闭段域继承](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)：原完整453准确路径H_q(t)不随二幂档位改变；G2_j(t)是可变点态余项，不需子盒嵌套。直接strict父闭段的全称域命题覆盖较小闭段；188保原629gap、同query/角/身份及17档事务，直接分类与继承来源分开。不回填175，不代IEEE、连续角或完整非零终门。

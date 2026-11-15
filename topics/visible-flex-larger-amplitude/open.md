@@ -38,7 +38,7 @@
 
 原完整453/338/115常数、29端点/37query×2048×17及G0+tG1+t²G2真实余项族保持。629个uniform Hermite gap全齐/最高P14；后置5400.00465502s退出3，无科学异常、global未耗尽。43910完整角事务/746470步原记录中702379证/44091未决/0反证；q0..20全角提交，q21仅0..901，q21 angle902/trial6未提交，q22..36全未访。各17档已证/未决集合、所有原数值和不完整范围见正文；对原1⁄8只三个LEFT query全证，不补完整37闭域。whole IEEE/连续角站/native/fullDN仍未付，真实读回后清，不凭新warm SHA续。
 
-[175完整接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)原六源/103pins、正sin基线、10800总/5400诊断/8GiB/单90KB及原门保持。后继研究同一真实路径的闭区间包含继承，核原G/余项语义，不冒实际新评价或补原175；171求解独立继续。
+[175完整接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六源/103pins、正sin、10800总/5400诊断/8GiB/单90KB与原门保持。[R398](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)已证：H_q(t)本身不依档位，G0/G1同源、G2_j(t)可变外包无需相互嵌套；同query/角直接strict父闭段含全部更小闭段。188/R399仍先付原629gap，17项整角事务后提交，直接/继承分计且缺依赖不补。此条件推论不重算或回填175，不代IEEE/连续角/native；171独立继续。
 
 ## 2. 九控制残差与新的形状方向
 
