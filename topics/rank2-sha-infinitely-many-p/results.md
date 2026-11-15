@@ -266,3 +266,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [固定挠点与真实Frobenius初始资料](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：先固定M覆盖四theta群/CM13，给绝对Mumford倍率、半特征与完整cocycle；Z_M=[M]*Z/M严格平移不变，G_M=[M]*G/M−DlogΨ_M/M²保原曲率−mH_M^p。真实P_(2,M)投影保四原α及Fermat/Gaussian修正，极帽为固定M²倍p³；非零E[M]处ord P≥p是已算初始资料。原有限theta群给指定延拓交织，不能代裸几何trace；CM13裸迹首α=α，真实S迹为−γα，完整frame差(−γ−1)α、范数21单位。未把该差赋零或推出四α不能同零，原native Schur继续。
+
+
+[R837 实权与线性余项增补](notes/2026-11-15-r837-real-nef-root-weights-and-linear-multiplicity-cost.md)：对真实因子重数取c1=1,c2=4,c_m=7(m−2)及λ_m=√c_m，只作实交数权，不改来源；全部最近根/截断仍给七倍能量，实nef子和≤B_D且Σc_mLC_i≤56D。故所有有限参数7q(H−r)≤3B_D²+56D；原两长同法给4q(H−r)≤3B_D²+32D，完全去掉B_K<s及重数上界。准确p门保6(M_D+Δ)−1和共同48D/q线性项，误差改O(D)；两个真实临界和剩余密集q1/2、同R/全部carry不变。

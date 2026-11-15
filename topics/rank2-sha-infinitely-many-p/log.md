@@ -519,3 +519,5 @@
 - 2026-11-15 23:23:33 UTC：高度范围原注增补成稿即推，亲核YZZ§5.5实际Δv/尖点投影与证明归一，双线性λ⊗λ∨排除单角色消项捷径；Chen–Zhu/He–Zhu/weighted KR正文层范围已核。继续原Ξ02 critical接口和指定CM类，复高度/固定p非零均不外推跨p。
 
 - 2026-11-15 23:28:34 UTC：固定torsion连接/完整Frobenius初始资料成稿即推，逐核绝对Mumford、曲率、Fermat/Gaussian项、四α及所有固定极；非零torsion至少p阶零与CM13完整frame差已精确支付。H先全文归档；继续真实theta延拓/native行和指定forcing，不以裸trace或曲率代原非零。
+
+- 2026-11-15 23:36:45 UTC：R837实nef根权增补成稿即推，完整最近根/截断及同factor判别式支付给56D/32D有限余项，完全去截除门并保准确目标p常数；无新算术条件或运行。继续真实q1/2仿射forcing、同R镜轴、完整theta frame及R838实际critical读数。
