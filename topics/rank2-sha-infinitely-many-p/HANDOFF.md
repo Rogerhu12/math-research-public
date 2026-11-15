@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：36f34599ea8fcc72c0289b75345629984395a4f3；2026-11-15 11:08:45 UTC核两README无变。实际CI pull 2026-11-15 10:54:02 UTC/2e8e90dc72343a4132c2be0ac489b168b4ecf072（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:08:43 UTC仍无环境。最迟2026-11-15 11:40 UTC再实际pull。
+- 最近已读规则提交：cbc8a3e9cb0ebe7b8994fe46f565aff09c23afc5；2026-11-15 11:18:19 UTC核两README无变。实际CI pull 2026-11-15 10:54:02 UTC/2e8e90dc72343a4132c2be0ac489b168b4ecf072（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:18:18 UTC仍无环境。最迟2026-11-15 11:40 UTC再实际pull。
 - 首次全文读旧库根/题README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推；禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次核两README，仅读差异即照办、记提交。本地exec无环境；API非强制追加，拒推即尝试pull --rebase并接新head循环推；CI实际pull与本地失败分记。
 - 规则12无冻结/独审/复跑门；13数学计算全用公开Actions；15@137c5a877fb387a82cbde01f084d1fa67ee717aa不存可重算输出/不新分块，只留脚本、参数、run/hash。
@@ -14,8 +14,8 @@
 
 ## 完整前检与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r740.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–741；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep已付R741，续完整res_C W_D与同R；theta已付R740，续Yκ全观察与G4；literature核p-ram BDP线性公式；root续实际中央桥。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r740.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–741、744；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep已付R741，续完整res_C W_D与同R；theta已付R740，续Yκ全观察与G4；literature核p-ram BDP线性公式；root已付R744三原曲线点空间，续实际中央桥。
 固定E17/E24/E2312的rank2和完整桥2+corankSha≤2ordJ已付；仍需同一无限p族至少一条固定原J′非零。O4低增广/O6相对类群按open保，有限p/局部负矩非零不算完成。
 
 ## 普通：原负矩、primitive与十七惯性
@@ -55,3 +55,5 @@ R738平衡c/二维家族在原角帽/极度门下给独立Z值；全吸收产生
 R741：原前两块Vη=β0−η0β1/a在H=h+k+ρ准确单位，ρ≤2κ−h<qT使原M行13+H<s。完整低整提升抵消，ξ项更高，ordinary carry给单位。任意全WD首次R须R|C=−Vηβ modt^min(2h,s−δ0)，故非F整除；保持F·B整变形须A|C首项(e b_su²/2a)t^(k−r)，有真极。Vη不杀全首像/垂直块，换PB+pA须同步运输R−A；仍需真实限制商与全部同R/p³。
 
 R741完整FH2增补已付：首核F Kmir，全部非cube由Vη检出、cube由第三块单位行检出，实际Smith 1^(2κ+χ−aη),p^(aη+1)且无p²。只限qt^rF H2；完整WD非F列的restriction仍可能吸收，不升级总像。
+
+R744：三原曲线span已分离；E17/E24点域17不分歧，E2312须2和17皆不分歧。M=K(17^(1/6))的σ在各E1像为−ω²/1/ω，Q2/Q4为ω/ω²；先投cubic再√2惯性2，AST付全p代数系数log分离。E2312二处门必需：(-8,30√2)经原φ确回Q2；不冒完整条件积分已有所需点身份。
