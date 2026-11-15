@@ -213,3 +213,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 17:40:39 UTC /root — 175完整query域合同及父来源
 
 全文核闭段余项族/参数仿射/14次P后发表设计，root明确独立actual98父与真实原37/FD顺序，不从170未来场或已清SHA续接；没有新数值或请求派发。169重试已43741519736，162刚终态由geometry核R358；API核1e7ec387346f44ee6cff6da24d2e3e2a280727e3双README未变，真pull记录保。
+
+## 2026-11-15 17:44:46 UTC /root — R371实际164r2真实全拒与未读范围
+
+10380B/df3f917d全文核后即发：run43742275745/sourcebab76df4的producer0/20全拒/accepted0，与reader70/148101B超限分责；原section尺寸/两日志/fallback5243B齐，具体trial/FD/域原值未传且已清。amplitude修真正小读回并继续173/174，不能把新跑冒旧恢复；API核2746286121adc69f18e6d0d231ce5a2eb8d7d0b7双README未变，真pull保。

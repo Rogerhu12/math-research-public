@@ -288,3 +288,5 @@
 - [R364：首164完整绑定的Decimal／JSON类型误拒](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：setup/表已构造而0 tracked模型调用，完整canonical binding与recipe同，六候选/20trial/FD/final未开始。两日志/原摘要/错误/清理全核；仅改既有encoded完整比较和必要来源pins，r2保原父/数学/预算重发。
 
 - [Request175完整闭段query角域设计与actual98父选择](notes/2026-11-15-request175-complete-Hermite-query-domain-design.md)：保真实singleton b/C来源、共同t二次Hermite系数族及全部453行；准确query域P需完整14次/15系数，不能套端点9系数。独立原37/FD后诊断的父明确为actual98，尚无175运行，原IEEE/求解门保持分责。
+
+- [R371：actual164 r2全20试探拒绝与小摘要超限](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：producer0/流程返回/accepted0来自原stop及控制流；reader70因148101B超90KB，非科学或资源异常。两日志及5243B原fallback齐；候选/逐trial/FD/Arb/圆正文未传且raw已清，原值未补造，后续若再跑另立实际结论。
