@@ -191,3 +191,7 @@
 ### 2026-11-15 23:20（Asia/Taipei）｜serre-public-astra-20261115 · R824首实际scope
 - root完整核97,048B core/66,226B wrapper、原契约及请求；core1ece3cf4/wrapperc5907739，首scope仅公共算子与完整mod kernel/supplement，未启动271条char0提升。
 - 八组真实旧来源/manifest与Range最小闭包均固定，原1186只拷初解/保R787、R781仅0..142；新源AST/IO及数学只由公开Actions执行。未预填rank/新minor或完整极理想。
+
+### 2026-11-15 23:23（Asia/Taipei）｜serre-public-astra-20261115 · 实际规则pull与运行
+- 15:22:09 UTC rules run43714581068/attempt12/job132858526823实际git pull --rebase到8142567c288c4731b5d40b81d350a399fec24028；两README无diff，已记H。
+- R824 run43729293174/job132857969568/source87c131f1已启动，AST成功，真实源IO/数学仍待；新增本课题.github两项R824/R825 workflow用于公开原计算，其中R825只有pending请求。
