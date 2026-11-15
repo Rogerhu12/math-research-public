@@ -207,3 +207,5 @@
 - [R223：整pure、八通量与全域Morse的精确兼容](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)：正则有限原语库先选，再固定I/圆/右锚；F8的固定ξ积分/平台值经完整history Duhamel给光滑s变分密度，不产生s点源。先全E IFT准确保所有目标，再共同核点2jet与有限零集投影使全h Morse，含全部背景/复制/校正；Klein按新位移闭合。每目标局部C1截面保持偶germ和增强成本，不宣任意大紧集全局Morse截面或fullperiod/ruling。
 
 - [同g154列两块主步与SOC完整设计](notes/same-g-entry-tail154-two-block-design-20261115.md)：原B103半径1/4000、T51半径1/32000、9height固定，原.7725/.78峰进入可变域；主步物理∞/SOC物理L1、原单位残差和完整163 Jacobian/两网门保留。新SOC域与旧域不同，缩放等价只限域内。四前缀各一次必要输入恢复，12LP/40value/120活动秒独立分账；新人工检查和27源/98args接线已核，首个公开真实结果待读。
+
+- [R225：完整period值域、平端germ和有限真实观测商](results/R225-complete-period-range-flat-end-germs-and-finite-observation-quotient.md)：合法解析ψP包重付三矩/八包及正确J*，完整Lf像由平台、总flux、全部Laurent、真实双平端延拓准确iff；右锚/平台连接付Lf本身，p简单零的辅助极点不误排。u*=1/p通过全部内部门却坏平端，未宣canonical成员。真实U0上的完整O有限但基/像未付；Hper0才授R222完整period控制，λ杀kerO则给严格障碍。有限原查询付光滑s密度；Morse另需完整第三结构保持，不能由diagonal覆盖替代。
