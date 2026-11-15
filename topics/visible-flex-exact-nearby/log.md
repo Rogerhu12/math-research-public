@@ -144,3 +144,7 @@ CE仍完整未付；新scalar仅原SEI八导只读后组合，旧成功不重。
 2026-11-15 23:35:06 UTC NW新consumer部署：root全文523行数学、602行worker对SEI成功basis完整diff、9current/219503B/2AST/20门/71字段、旧SEI完整identity/schema与全部source literal核齐。
 SCI c8352847/worker c58a65f5/manifest d66bc4a1；仅新truew组合/一次exp(P0)/完整两norm与3log/global sign仿射，CE未付不冒fullreturn。新workflow .github/workflows/visible-cohomological-normalizer-windows-sign.yml用于本题公开Actions，flow3f0f1003。
 双README读取7c81e522531c48bb4cfcee636e754e377fcaf41b未变；仅等待唯一自然run并做其它解析，旧成功不重；本机22:59:32真CLI无executor。
+
+2026-11-15 23:36:40 UTC UT：root全文/原SF39–43及SJ三函数独核，phase源/跳/newton端点peer齐；改fullT后两端/mean/jumps完整，返回oldtrial才whole-min，新scalar尚未执行。
+SC3原43754452928/1正式12steps全success，root只读核；science/exec/report原小件锁，下一核完整affine读出与recovery，不重跑。
+双README读取4f7272430734c1df7e5fd5cc3bdd5d2de01da4c8未变；本机22:59:32真CLI无executor，继续根规8小文本例外。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [UT fullT试探及完整端点截断替换](results/R133-supplement-full-normalizer-trial-and-endpoint-cutoff-defect-replacement.md)：精确改变trial并完整返回旧trial，以SJ三原正积分/全jump与新两endpoint替FJ体费；cut径向因子准确消、腰同TJ逆纠正保。新endpoint仅Λ^(1/3)，回原算子后whole-min及WE原序新paid可用；无新数值、无total减上界或retained删除。
+
 - [PTB完整scalar principal tame估计](results/R133-supplement-tame-principal-inverse-with-linear-high-coefficient-dependence.md)：full Fourier product/primitive低界/精确吸收使正窗逆对高cHs线性；adjoint同一负窗对cH(s−1)线性；有序DA保一次primitive增益及全部mean。只依赖fixed低Wiener与实际K，真实背景/全operator tame独立，未作数值。
 
 - [NW真实cohomological normalizer双窗及第二global sign合同](results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md)：只读SEI真八导，CN双mean逆/一次exp低阶primitive/PIB w负窗与whole候选全证；第二[N,Z]与Cayley全误差保正确两窗次序及显式未付CE仿射项。linear μ²与Cayley cubic分域，无新数值或fullincoming声明。

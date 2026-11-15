@@ -51,6 +51,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 $C_*=C_{PC}+C_{ST,4}+C_{SF}$，SJ已含cut不能再加。左序同Js逆→Jσ→真U_X−σ逆，右$\Lambda_\sigma^{-1}T_F^{-1}\mathcal S^{-1}$。state左角恰约消到H逆，费用$A_{\rm state}=B_{H,0}K_{W,0}K_\Lambda K_{F,-}K_{\mathcal S^{-1},-}$；CG完整coeff费用原字加一次。两ε同一完整bound不用√2，若合两σ须实际pair规则。
 $C_{\rm paid}=A_{\rm state}C_*+C_{\rm coeff}$只覆盖已付部分。root/head/oppositesign/独立两mean、低input $(1-P_{97})T_F^{-1}\mathcal S^{-1}$、realization $(\psi'-1)\Pi$及全部high-finite交叉须真实norm收费或保持实际border；unpaid不默认为0。PW独立ports只左$B_{H,0}K_{W,0}|\ell|^{-1}$，无实际从a映射不得右乘TF/S；stable trace不重复列新独立port。
 
+[UT完整T试探与截断缺陷端点替换](results/R133-supplement-full-normalizer-trial-and-endpoint-cutoff-defect-replacement.md)c2734ab5已解析核：full $T=(1+SI)(1+Z_2I^2)$无需逆，完整源差等$(\partial_r-\mathcal G)E_T$并保两mean和反向所有jump。SJ已独立存的leading/Q/mean三整积分与全部3070jump直接复用，不由total减fJ上界。新$F_T:H^{-4/3}\to L^2$只需endpoint $\Lambda_{J_s+191}^{1/3}$；cut $n_g(r_c)B_c=B_{\rm free}^{[1]}$精确消，腰$n_g(0)E_T(0)$及同WT $T_{J_s}^{-1}F_T(0)$完整保。两端都付并返回原trial后才与旧SJ whole min；可用WE原四项新组paid，CG只一次、不二KF。旧成功不重；真正新数值、六retained/fullincoming/finite/whole return均待。
+
 [DX4四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)6b493e37以FA fullstrip3/128、旧TC/WX完整lower jets及AC真H逆证明完整cut/flow/waist/ψ三四导；不从remainder求导，旧ray/KAM不重。全部新scalar已由DZA成功支付。
 
 [MS实际共同输入次序](results/R133-supplement-exact-Maslov-sign-operator-and-common-input-outgoing-order.md)44038eae：incoming=$B_+$，out=$U_RB_-Z^{\mathcal S}$，完整return须$U_RB_-Z^{\mathcal S}B_+^{-1}$；$Z^{\mathcal S}=S(\Pi+i\Pi_+-i\Pi_-)S^{-1}$无限。仅实际TF与原sign精确对易，不授S/分支交换；搬左保wholecomm、根$17W_{1/3}(c-\Pi c)/8$强费及两density ranks。WE转commonout/paidcomm的整$z_-^\#$/$z_-^\#+z_0^\#$已由DZA新付。IC/WY/CY/CYA现行窄纠正，原成功球不变，scalar gap非global return。
@@ -110,7 +112,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ、正侧两条原run、AD完整Wronskian与SF exact
 
 [SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
 
-SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1在23:25原step9健康，完整affine待；禁取104306B大log/禁重成功。
+SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1正式12steps已全success（root已核），完整科学读出及恢复身份待核；禁取104306B大log/禁重成功。
 
 ## 5. 新94链、真实B collar和实际body种子
 
