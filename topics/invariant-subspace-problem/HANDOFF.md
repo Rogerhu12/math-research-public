@@ -27,16 +27,16 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现27步；闲等限3600秒以保下一源码审校期间的临时数据。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
+- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现28步；闲等限3600秒以保下一源码审校期间的临时数据。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
 - 同选重建selected-natural-u-rebuilt、第一selected-natural-first-left-envelope、旧第二selected-natural-second-left-regauged均保完整来源；旧36单位解SHA9c3b02d2…不重95.542秒。normal4完整目录selected-natural-second-left-normal-four-complete130保130新解75.6MB/SHAccfdf7db…、166残差SHA7e060678…和22原jet，不重355.152873124秒。
 - normal5已付H5 Q/F31rank1287/单位18、786步，余501列/950行；72.6MB slot1 SHA179b3645…与DAG保原目录，不重算。step24原29source全126643产品真、ρ5/h1，余维七已闭β2=9；29×36配对及原来源保same-source-koszul29-second-pairing。
 - 零第六祖先顶核、三块旧单位/RHS及第五cochain仍在原临时目录，完整来源见本次H归档；不重43.2MB顶核或旧988完整逆。
 - 零第六完整目录zero-sixth-rhs-columns-checkpoint，binding2ab96ac8…，129.615791128秒；middle核9/low核15/leading5、全部原6188行真。8957×5 cochain 41405B/SHA78395e9f…，完整outer67743B/SHA0f30617b…；全部单位/RHS/核可续。
 
 - step25第七实际7.783896053秒完成，low1088×599 rank584/Schur2、kernel15/headI5/零头10，所有6188行真。目录zero-seventh-reused-high-checkpoint；binding9524a187…，完整13304×5 pack54547B/SHAf081bc97…，raw34098B/SHA872fdfc0…；高齐次核2及低582单位可直接续第八。
-- step26第三实际3.149170639秒：287364原产品全真，29×58 rank6/b1、21头投影；完整第三3正式已付。目录same-source-koszul29-third-pairing，raw11769B/SHA954f135c…，配对152226B/SHA912a7775…、投影45993B/SHAc8e25e15…。下一仅21 RHS解[B0ᵀ,HF,T]；规范零核60另保33已知运输，共93自由，不重normal5/906解。
+- 第三实际原产品及21头已完整，目录same-source-koszul29-third-pairing，raw954f135c…、配对912a7775…、投影c8e25e15…。已排step28源7040ff01…，30秒/2GiB：合成完整4354×21右端，同步运输头比例，实核旧1736零行；零时产21单位输入，非零则保高forcing转支撑。未解λ3；下一页规范60核加已知33运输必须保全。
 
-- 已排step27第八：源37417c1b…，180秒/2GiB；逐元素核真第七pack全部高块，保原6188与完整高核2、低582单位，仅新5 RHS，Q歧义加在λ7。没有重旧消元或全逆，未预填新秩。
+- step27第八实际9.086597737秒完成，leading4/c8≤13、原6188全真，零点58/49；正式稿随后独立刊入。目录zero-eighth-reused-high-checkpoint，binding534c9238…，17651×4 pack187354B/SHAdde7ce7f…、raw35278B/SHA6790eb6e…；λ0…8九平方全零，下页必须按4头续。
 
 ## 原同w边界：返回和相邻孔通量仍开
 
