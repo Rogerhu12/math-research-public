@@ -1,0 +1,53 @@
+{
+  "all_completed_primal_states_bitwise_equal": true,
+  "candidate_module": {
+    "bytes": 8624,
+    "file": "geometry_20261114_noj_matched_variational_engine.mjs",
+    "sha256": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9"
+  },
+  "elapsed_seconds": 19.900148261,
+  "every_requested_case_returned": true,
+  "hook_sha256": "f80b2a1ba38f546144d9ec21f344bc1483fd259dcbef35b8d12f2ab66b9b11fb",
+  "input_native_result": {
+    "bytes": 6891,
+    "file": "result.json",
+    "sha256": "b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef"
+  },
+  "input_snapshot_result": {
+    "bytes": 1301,
+    "file": "result.json",
+    "sha256": "5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286"
+  },
+  "native_accepted": false,
+  "no_TailClient_solve_called": true,
+  "old_saved_J_payloads_read": false,
+  "original_native_solve_calls": 0,
+  "original_state_sha256": "b34daaf8ad1841b452707c669236ba38731d1f97506af4bbfe1a22e39d814013",
+  "probe_completed": true,
+  "schema": "actual61-noJ-matched-variational-probe-launcher-v1",
+  "selected_stages": [
+    11,
+    12
+  ],
+  "source_sha256": "51e4ae727e05e5cfaeb7a104617eef94dee2a4d1a9671bd2897f77e0dc4b62d1",
+  "specification": {
+    "bytes": 47199,
+    "encoding": "json-gzip",
+    "file": "matched-primal-spec.json.gz",
+    "raw_bytes": 378720,
+    "raw_sha256": "c0b2471da11aba74487311bcb66e422f846634546156224bf067a1436a3a14a0",
+    "sha256": "9c44b48347cc2ac4e2188a14bc08b2212129180389626934ccf6ddeb066d152a"
+  },
+  "summary": {
+    "bytes": 12744,
+    "file": "summary.json",
+    "sha256": "4198f3e8969ee28d38a2c6135eee3b07ebcde9382411fed3996831ab1af11e65"
+  },
+  "task_completed": false,
+  "verified_launch": {
+    "bytes": 16509,
+    "file": "verified-launch-intent.json",
+    "sha256": "1621aba18c6e6ad0a26f132b1aea96a1822c3e387bd162dd2a1b726d88c7702c"
+  },
+  "worker_exit_code": 0
+}
