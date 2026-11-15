@@ -52,7 +52,7 @@
 
 原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
 
-[R275](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)已给出原noJ逐运算及完整mean的条件同一性证明，理想regular branch链式变分与字面浮点导数分开。71按[接口](notes/2026-11-14-noJ-matched-variational-primal-identity-and-interface.md)运行43656397000/source3df227cb，实际stage11/12对照；13源pins/9shell/5inlineAST通过。完整新单call续解73按失败61末态初猜准备，保持原32/10/容差/finalJ/audit，不能把单段位相同当原生接受。
+[R275](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)已给出原noJ逐运算及完整mean的条件同一性证明，理想regular branch链式变分与字面浮点导数分开。71按[接口](notes/2026-11-14-noJ-matched-variational-primal-identity-and-interface.md)运行43656397000/source3df227cb，实际stage11/12对照；13源pins/9shell/5inlineAST通过。71实际已成功，两个选定段的完整226态、postport、两个mean及和逐bits同原noJ，新fullT/J真实产生；没有完整native接受。73随即按[完整续解接口](notes/2026-11-15-noJ-primal-current576-native-continuation-interface.md)与[新snapshot/QR接口](notes/2026-11-15-noJ-primal-current576-adapter-and-QR-interface.md)派发：只把失败61末态作初猜，真实新flow固定f9b292c4、每轮current576 J与R273重建，原32/10/2e−9/final sensitivity/audit保持；18源pins/9shell/4inlineAST核同。单call32GiB保全全部原阵与因子/行账，320min计算时每2700秒真实pull/核双README；不以单段位相同或来源核添新科学门。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 

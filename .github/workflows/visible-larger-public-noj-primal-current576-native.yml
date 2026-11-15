@@ -1,0 +1,190 @@
+name: visible-larger full noJ-primal current576 native continuation
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-native-noj-primal-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  current576native:
+    name: Resume failed61 raw state through the original noJ primal and full current576 R273
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    concurrency:
+      group: visible-larger-public-noj-primal-current576native
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Bound maintenance and establish an independent new-flow output directory
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-noj-primal-current576/current576native"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-noj-primal-current576/current576native" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+        echo "VISIBLE_SELECTED61=$RUNNER_TEMP/actual61-noJ-selected" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install unchanged native-reader dependencies
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+    - name: Bind complete source closure and the failed61 initial-guess request
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-native-noj-primal-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-noj-primal-current576-native-request-v1'
+            or request.get('repository')!='Rogerhu12/math-research-public'
+            or request.get('request_number')!=73 or request.get('lanes')!=['current576native']):
+            raise ValueError('Use exactly this independent failed61/noJ-primal native continuation')
+        required={'exact_20261114_fetch_pinned_public_artifact.py', 'exact_20261114_native_allrows_dyadic_residual.py', 'exact_20261114_native_damped_chain_qr.py', 'exact_20261114_noj_primal_current576_damped_chain_qr.py', 'exact_20261114_noj_primal_current576_damped_system.py', 'exact_20261114_public_resume.py', 'exact_20261114_seeded_zero_tail_client.py', 'exact_20261114_true_tail_client.py', 'geometry_20261114_current576_same_state_noj_probe.py', 'geometry_20261114_fetch_actual61_noj_selected.py', 'geometry_20261114_native_captured_band_correction.py', 'geometry_20261114_noj_matched_variational_engine.mjs', 'geometry_20261114_noj_primal_current576_damped_solve.py', 'geometry_20261114_noj_primal_current576_damped_solve_hook.mjs', 'root_20261114_current576_rules_runner.py', 'root_20261114_publish_actions.py', 'tail_frozen_worker.mjs', 'tail_resumable_engine.mjs'}
+        if not required.issubset(request['source_sha256']):
+            raise ValueError('Pin the complete new flow, bridge, R273, input and publication source closure')
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+            if Path(name).name!=name or not isinstance(expected,str) or not re.fullmatch(r'[0-9a-f]{64}',expected):
+                raise ValueError('Every source must have a basename and a complete real SHA256')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Requested source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the triggering science checkout')
+        readmes={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip()
+            for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')}
+        intent=dict(schema='public-noj-primal-current576-native-request-identity-v1',
+            source_commit=head,current_run=os.environ['GITHUB_RUN_ID'],request=request,
+            request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,
+            source_checkout_readme_blobs=readmes,scientific_execution_claimed=False,
+            failed61_is_only_a_raw_initial_guess=True,native_acceptance_claimed=False,
+            output_route_only='current576native; new flow and result schemas identify the independent continuation')
+        (out/'noj-primal-current576-request-identity.json').write_text(json.dumps(intent,indent=2)+'\n')
+        print(json.dumps(dict(source_commit=head,verified_sources=len(verified),
+            python_sources_compiled_not_imported=True)),flush=True)
+        PYPINS
+    - name: Check new flow, hook and original worker syntax without scientific execution
+      run: |
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_primal_current576_damped_solve_hook.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_matched_variational_engine.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_frozen_worker.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_resumable_engine.mjs"
+        node --version
+        python --version
+    - name: Reserve32 GiB for original32 rounds, every fresh J, complete factors and integer ledgers
+      run: |
+        python - <<'PYSPACE'
+        import json, os, shutil, subprocess
+        from pathlib import Path
+        base = Path(os.environ['VISIBLE_OUT'])
+        before = shutil.disk_usage(base)._asdict()
+        removed = []
+        required = 34359738368
+        if before['free'] < required:
+            for name in ('/usr/local/lib/android','/usr/share/dotnet','/opt/ghc'):
+                path = Path(name)
+                if path.exists() and path.is_dir() and not path.is_symlink():
+                    subprocess.run(['sudo','rm','-rf','--',name], check=True)
+                    removed.append(name)
+        after = shutil.disk_usage(base)._asdict()
+        record = dict(before=before, after=after, unused_ephemeral_runner_SDKs_removed=removed,
+            required_free_bytes=required, original_max_iterations=32,
+              input_archive_bytes=2335870174,input_archive_removed_after_verified_selected_extraction=True,
+            fixed_binary_payload_bytes_per_round=704385296,
+            exact_ledger_JSON_and_log_sizes_are_data_dependent=True,
+            original_iteration_or_tolerance_not_changed=True, all_scientific_payloads_retained=True)
+        (base/'runner-storage-reservation.json').write_text(json.dumps(record, indent=2)+'\n')
+        print(json.dumps(record), flush=True)
+        if after['free'] < required:
+            raise RuntimeError('Insufficient runner storage for the complete original iteration budget')
+        PYSPACE
+    - name: Fetch the complete fixed61 archive and retain only the failed final-state input evidence
+      timeout-minutes: 25
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        python -u - <<'PYFETCH' 2>&1 | tee "$VISIBLE_OUT/original61-selected-fetch.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-native-noj-primal-request.json').read_text());item=request['inputs']
+        argv=[sys.executable,'-u',str(comp/'geometry_20261114_fetch_actual61_noj_selected.py')]
+        for name in ('run_id','artifact_id','artifact_name','expected_size','expected_sha256'):
+            argv+=['--'+name.replace('_','-'),str(item[name])]
+        argv+=['--out',str(Path(os.environ['RUNNER_TEMP'])/'actual61-noJ-selected')]
+        raise SystemExit(subprocess.call(argv))
+        PYFETCH
+        cp "$RUNNER_TEMP/actual61-noJ-selected/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual61-selected-fetch-receipt.json"
+    - name: Restore all78 unchanged original public source files and their origin receipt
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source = prepare_public_source(
+            Path.cwd(), Path(os.environ['RUNNER_TEMP'])/'noj-primal-current576-73-public-original-source',
+            Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Continue native from the exact failed61 raw state with real pull and periodic rule synchronization
+      id: native_continuation
+      timeout-minutes: 320
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_current576_rules_runner.py" \
+          --out "$VISIBLE_OUT/rule-sync" --command \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_primal_current576_damped_solve.py" \
+          --native-directory "$VISIBLE_SELECTED61/native-current576-damped" \
+          --native-result-sha256 b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef \
+          --snapshot-directory "$VISIBLE_SELECTED61/native-current576-damped/iteration-003/snapshot" \
+          --snapshot-result-sha256 5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286 \
+          --source-topic "$VISIBLE_SOURCE_TOPIC" \
+          --eta 1 --node-heap 6144 --exact-workers 2 \
+          --max-factor-bytes 2147483648 \
+          --out "$VISIBLE_OUT/native-noj-primal-current576-damped" \
+          2>&1 | tee "$VISIBLE_OUT/native-noj-primal-current576-damped.log"
+    - name: Preserve every new-flow snapshot, original trial outcome, complete factor and exact ledger
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-nojprimalnative-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-noj-primal-current576/current576native/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded results with ordinary rebase and README checks
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" \
+          --results "$RUNNER_TEMP/visible-noj-primal-current576/current576native" --lane current576native

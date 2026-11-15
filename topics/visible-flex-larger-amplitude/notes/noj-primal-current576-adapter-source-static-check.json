@@ -1,0 +1,19 @@
+{
+  "scope": "source transformation, parse and hash only; no target import or mathematical execution",
+  "base_system_sha256": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90",
+  "base_qr_sha256": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f",
+  "outputs": [
+    {
+      "file": "exact_20261114_noj_primal_current576_damped_system.py",
+      "bytes": 27150,
+      "sha256": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3",
+      "ast_parse": true
+    },
+    {
+      "file": "exact_20261114_noj_primal_current576_damped_chain_qr.py",
+      "bytes": 27750,
+      "sha256": "70bc10dfb31717b662265485d10a15028365dbba5db85ccf9c8f592226e33955",
+      "ast_parse": true
+    }
+  ]
+}
