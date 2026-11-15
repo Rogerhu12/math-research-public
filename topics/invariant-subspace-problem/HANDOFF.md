@@ -3,9 +3,9 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 4c4df1bdc7c2725d57c277f5491f99126f66b36e（2026-11-15 01:36:38 UTC，Actions run43663804186实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43663804186-1.json。
+- **最近成功实际 pull 与已读规则提交：** 001a27bb64a7be1abc8bc37f8b4079482d4beb30（2026-11-15 01:44:53 UTC，Actions run43664440336实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43664440336-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
-- 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用$及$；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
+- 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
 
 ## 当前执行
@@ -22,9 +22,12 @@
 
 457恢复1538941791B/全部cache全保、658存储文件零fallback；recovery artifact14140872540（run43662590949），1026794241B/SHA346e790996cae9e1eafc51d961a7213ed515a4deb9a426750c7f260d9c409a77。原partial296.093730956秒/record1670已完全接上；封存复用344旧压缩/21新，仅8.681513281秒。数据发布9次pull/9次push最终成功，两README每次无变；全部读提交见[接续记录](notes/2026-11-15-r150-saturated-second-actual-continuation-789f.json)，最后01c2202d。
 
-**第三立即接：** [完整S3覆盖/执行接口](notes/2026-11-15-r150-saturated-third-page-interface-789f.md)已证，代码bb8d533/5f9d513已AST。26实际输入/6包、208真来源/21维商，contract SHA b83fed83760597dc2bd2fcf3390640fb41f48a9dbca58a24778ed97c74c1b9ae、manifest SHA a7b4f3911657e9ad34023938e1177265b6aeceb9b28add12a3e38c956fc02379 已冻；根正做实际Actions入口。复用第二L4/G/V/L3，禁止重20项或旧页；四native每30秒/512MiB、数学共300秒，部分继续真实cursor。
+**第三立即接：** [完整S3覆盖/执行接口](notes/2026-11-15-r150-saturated-third-page-interface-789f.md)已证，代码bb8d533/5f9d513已AST。26实际输入/6包、208真来源/21维商，contract SHA b83fed83760597dc2bd2fcf3390640fb41f48a9dbca58a24778ed97c74c1b9ae、manifest SHA a7b4f3911657e9ad34023938e1177265b6aeceb9b28add12a3e38c956fc02379 已冻；根已冻结实际Actions入口并随本提交发布后自动调度。复用第二L4/G/V/L3，禁止重20项或旧页；四native每30秒/512MiB、数学共300秒，部分继续真实cursor。
 
 第三负dual若成立才排任意次数原AX=p²h0T modp6，且只相应排至多31²分母的char0多项式源，不排更高31或参数分母。局部正仍须全315/原17/真实费用。[第二正分支1058](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)仅条件定理，本次无正目标未执行；第三正的高一层恢复须另付。
+
+
+**[第二后共同目标线](notes/2026-11-15-r150-saturated-second-target-line-readout-789f.md)：** 完整315小系统实际0.047953145秒读出，已付V13秩13、添九raw秩14；九余类为ρ2的[1,28,16,11,7,7,4,1,11]倍，恰s=2特征线，13×9真来源身份全核。故第三九flags应全同，仍逐个检查；mixed回执显式失败，不冒作数学结果。第二总结已实际push7a5ecbec，run43663804186。第三入口26冻结输入/6旧包，单数学300秒、只存新第三数据；先实际推唯一数据分支，再实际pull/rebase/push main，降低并发大包反复传送。账号01:42:18核12库/3活动job/0错误，低于20。
 
 ## 实际边界：同源两费与完整返回
 
