@@ -102,8 +102,10 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 每子问题完成即接本页下一项。总完成门未达不收尾，不因阶段报告或时长停止。
 
-## 7. 新根规15：立即迁移数据并保留全部成功数学
+## 7. 最新根规15：可重算数据不保存，普通删至≤200MB
 
-root已在main b6dd686c404c15cc7744c5c26f32862055ea3c67读取根README差异，题README未变。新[已读规矩收据](notes/2026-11-15-R133-reviewed-public-CI-rules-release-storage.json)记录root blob f9a8c9c98c3107aaf88268fd602d9612bcdb15c6。每题main≤200MB；大于5MB的证书、数据及Actions输出均移本public Release data-visible-flex-exact-nearby（1000附件满后-2等）。旧人工parts先按原manifest合回完整文件、上传核SHA并写附件名/bytes/SHA/url/producer/params/run清单，随后普通commit从main删除。真自然shards保原自然身份，不猜测拼接，不改历史或强推。
+root又在main137c5a877fb387a82cbde01f084d1fa67ee717aa读到根README差异；题README仍未变。现行[已读规矩收据](notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json)记录root blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7。它明确取代几分钟前的Release计划：能由已提交script/参数重新生成的证书、数据和Actions输出，一律不保存，repo/Release均不放；只提交script/参数/run/输出SHA，结论写实际script/args/run/result。无任何Release上传；未发布的共享Release helper与迁移草稿已取消。
 
-phase负责迁移脚本/实际Actions，newton处理当前Green下一真pull按新规安全停存及原完成prefix续接，root更新新诊断发布器。全部旧target/Gram/ODE/FFT/已成stage不重算；迁移后的同路径输入由公开Release清单复原并逐一核哈希。数学任务持续，完成标准不变。
+phase负责本题main可重算data/旧人工parts的普通删除，保原脚本、参数、run、哈希及结论，题目录≤200MB。不改写历史或强推。确实需要旧文件时，用记录的完整删除前public commit与path执行git show恢复到临时science树，逐字核原manifest；旧artifact只作已成计算的临时输入。
+
+newton负责原Green失败artifact最新成功prefix的临时恢复，并让下一完整计算链在同runner内消费结果；新输出不再持久上传。root的六case诊断消费同一原件，只登记脚本/参数/run/输出SHA和实际结论，不复算旧norm。所有数学任务继续，题README总完成标准保持。

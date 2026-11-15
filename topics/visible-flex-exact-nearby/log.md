@@ -445,3 +445,11 @@ root逐式合并W主体和T真实long外图，保持同一个G0与同一物理M_
 原physical fB保Hs+2而不是pulled norm改名；真实τ/τ逆由原小角图在复域构造，仅在实圆做未知源换元。Faà di Bruno、密度伴随和插值给2^131072，最终完整源<2^2400000。原DΨ0 inverse在实际反射方向另逐项计费，moving L∞rHs<2^2600000，不交换radial sup/ℓ²。全部mean/jump/height/真正B0/C0、正长反射和原residual Hessian保留。文件11565B SHA256 e0ec4a90c68329350b95f974ac036729f3c0a83ea7a2da8c94a2fdafc9a538b6；无新增数值计算。
 
 X仅闭显式Qδ处完整帽线性门；同域非线性修正、变化强尾背景及精细97参数误差仍各自继续。根新规15已实施发布器迁移；freshmain 990f114a79cd15aa5e8b6bcf7034cbd38aa64adb两README未变，已读b6dd686c…记录在H。
+
+## 2026-11-15 04:57:40 UTC — 根规15再次更新，立即取消Release计划
+
+root准备发布储存helper时freshmain guard发现根README再次变动；真git pull --rebase仍无executor。已仅读上一版f9a8c9…到现74c08a…差异，提交137c5a877fb387a82cbde01f084d1fa67ee717aa、root SHA256c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970，题README未变。
+
+现规15为『可重算数据不保存』：repo与Release都不放，只script/参数/run/输出SHA，计算结论须明示真实script/args/run/result；题main≤200MB。旧数据普通删除，需要时git show精确删除前publiccommit:path进临时科学目录。此前短暂Release规则被明确取代。共享helper只读/blob草稿而尚未commit到main，任何Release均未上传；已立即通知三代理停止Release方向，不将旧政策记录冒作当前规则。
+
+新规则收据独立文件保前后差异；phase转main数据删除/newton转同runner临时Green恢复/root转临时六case诊断。当前原Green完整失败artifact14146873569/286134725B/de4e8dbd…元数据已读，用于不重复成功数学；真正停止字段仍在恢复检查中。数学不因储存变化停工，无新增审批门。freshmain 1063ed7dbb24b7a0422d72714b5b335511f6b226两README与已读新hash核对，H更新。

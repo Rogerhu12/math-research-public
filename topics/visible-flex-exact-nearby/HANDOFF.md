@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 04:54:12 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 04:57:40 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 04:39:00.501766 UTC 918fdb11dbb7a424b6149b405e2c7fab3cc0c737（Green process476b5e9c…46209B，10次README diff空）。04:28非FF立刻真pull仍无executor，freshhead第2次成功。
-21:48起CLI报No usable execution environment；04:47新规差读前真pull再试仍同错。根规8仅connector<100KB UTF8文本/禁binary；只读ref不算pull。新规15：题main≤200MB、>5MB及旧人工parts合原件→public Release data-visible-flex-exact-nearby，先SHA验证上传/清单再普通删，禁改历史。phase迁移、newton保Green前缀续接，全部0旧数学重算。
-最近只读README核：990f114a79cd15aa5e8b6bcf7034cbd38aa64adb；根f9a8c9c98c3107aaf88268fd602d9612bcdb15c6、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff b6dd686c404c15cc7744c5c26f32862055ea3c67；rules 7e2386e1d58546ef63872a88aabc2302cfded84914d2110b26d66bb478e8c6ee、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+21:48起CLI无executor；04:55根规再变前真pull仍同错。根规8只准connector<100KB UTF8/禁binary，只读ref非pull。现规15（137c5a…）取代Release版：可重算data/证书/Actions输出不保存，repo/Release均不放，只script/args/run/SHA及结论；题main≤200MB。phase普通删/保历史恢复manifest；newton原artifact仅临时续接Green，0旧数学重算。
+最近只读README核：1063ed7dbb24b7a0422d72714b5b335511f6b226；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。此前H9821B逐字存notes/2026-11-15-handoff-before-full-delta-Sobolev-and-adjacent-actual.md；所有旧H/open/log归档链随其保留。成功科学/出版失败分记。 当前open此前完整原文另存notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md。
 
 ## 同一对象和总完成门
