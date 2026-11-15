@@ -194,6 +194,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T10:03:51.806710+00:00",
+      "before": "af766074f7f7c5a583d5028ec25cf934e8f726ad",
+      "after": "54b5171fef8585078f6ceeff870b4be4cfe252dc",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -266,6 +274,11 @@
       "time": "2026-11-15T09:43:47.036959+00:00",
       "final": false,
       "commit": "b2a38f2b928107ea41b41877c6bd60d11d4b4cb3"
+    },
+    {
+      "time": "2026-11-15T09:53:49.969929+00:00",
+      "final": false,
+      "commit": "29481555310c8b3301e8aa31f02470a467192046"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -376,7 +389,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "af766074f7f7c5a583d5028ec25cf934e8f726ad",
+  "last_read_commit": "54b5171fef8585078f6ceeff870b4be4cfe252dc",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -432,40 +445,51 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T09:53:48.427427+00:00",
-  "wall_seconds": 8129.077240849999,
+  "snapshot_utc": "2026-11-15T10:03:51.883141+00:00",
+  "wall_seconds": 8732.532953767,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T09:53:33Z",
+      "actual_utc": "2026-11-15T10:03:35Z",
       "streams": {
-        "future": 4352,
-        "past": 1808,
-        "product": 3536
+        "future": 4800,
+        "past": 2048,
+        "product": 4096
       },
-      "complete_groups": 0,
-      "queued_groups": 0,
+      "complete_groups": 1,
+      "queued_groups": 5,
       "consumer_processes": 1,
       "done": false,
-      "original_temporary_receipt_sha256": "98f5c0cc38042b6f2733b8025c5457af9a77915117f6dab26aeab1ffa2a64b13"
+      "original_temporary_receipt_sha256": "e187b6eea1d2044048f1661ef3858366daf846fcd0ac8eb0f6bb4e026ca00df4"
+    },
+    "consumer-0": {
+      "stage": "consumer-0",
+      "actual_utc": "2026-11-15T10:03:22Z",
+      "completed_groups": 1,
+      "last_group": [
+        3968,
+        4000
+      ],
+      "done": false,
+      "original_temporary_receipt_sha256": "cb00e971aafcab6340bc1870aaef09e5e062fe385490ed9d7abd24c27d660c37"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T09:53:34Z",
-      "completed_rows": 4368,
+      "actual_utc": "2026-11-15T10:03:27Z",
+      "completed_rows": 4800,
       "reused_rows": 1886,
-      "new_rows": 2482,
+      "new_rows": 2914,
       "done": false,
-      "seconds": 7749.568790706,
-      "original_temporary_receipt_sha256": "012ecd69b8e3a2cb6417f0efcefae2b58b7785c429dba70161da878c04f5a658"
+      "seconds": 8342.588919236001,
+      "original_temporary_receipt_sha256": "a18d54bbe767361bfe427428862eb0c286acebc04566eb03db7c83e7c3d92bca"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T09:53:22Z",
-      "completed_rows": 1808,
+      "actual_utc": "2026-11-15T10:03:38Z",
+      "completed_rows": 2064,
       "done": false,
-      "seconds": 7737.167319565,
-      "original_temporary_receipt_sha256": "8aa4e3bf13e7ec7261dfccd8b75466976df15581156b30bbc15d0b901297139c"
+      "seconds": 8353.643863993,
+      "original_temporary_receipt_sha256": "50e0d7593ab8b085af44033d6846e9c38721598a2833bb4bb7fede6c1c02d6a0"
     },
     "preflight": {
       "stage": "preflight",
@@ -485,19 +509,19 @@
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T09:53:41Z",
-      "completed_rows": 3552,
+      "actual_utc": "2026-11-15T10:03:37Z",
+      "completed_rows": 4112,
       "done": false,
-      "seconds": 7757.199251134999,
+      "seconds": 8352.756093898,
       "diagnostic_exponents": {
-        "local_complete_rounding_log2_upper": -115,
-        "old_scalar_error_diagnostic_log2_upper": 3397,
+        "local_complete_rounding_log2_upper": -113,
+        "old_scalar_error_diagnostic_log2_upper": 3790,
         "selected_product_norm_log2_upper": -5,
         "signed_error_norm_log2_upper": -102,
-        "single_true_Di_norm_log2_upper": 1
+        "single_true_Di_norm_log2_upper": 2
       },
       "reused_same_run_preflight_rows": 32,
-      "original_temporary_receipt_sha256": "837c58a31dbf0c382f719faed53e76f50e27f68f1d708c7e819c2911c1fcd780"
+      "original_temporary_receipt_sha256": "e58dd852097a8a4ddb3436effd571570d6474fbbe57dab41754d083d5c856664"
     }
   },
   "required_original_array_artifacts": 34,
