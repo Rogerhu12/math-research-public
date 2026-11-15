@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 12:17:18 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 8ed8626e997d540a92b891775e24e87b9ca7e1af。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 12:18:44 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 2b7183a313ddb04eb67bea37107830674511c49a。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -22,7 +22,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：run43704718358/source4f0ea9a，current128 RHS新R273唯一α=1接受，完整576段/129248行norm9.68582474751023176032080482454992093e−11达原2e−9并正常停。独立fresh128全残差/576×226逐字一致；全224J/338/audit/native/fullDN未付，末态e0f20c36已清不可SHA恢复，下一140实际新现场，不盲调η。
 
-[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。[新operator接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c已全文读并发布，完整225矩/226态/全部224列和名义缺陷读回保持，独立schema不冒旧dL字同值。140同job新接线继续，137不改；总cap含编译，独立science cap和父绝对期限均保。
+[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。[新operator接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c已全文读并发布，完整225矩/226态/全部224列和名义缺陷读回保持，独立schema不冒旧dL字同值。[140完整新入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4；首参数/全stderr/watcher修复，原19200s总cap含编译/独立science caps/父绝对期限/audit预留均保。
 
 [122 R303](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)原488/精化187段partial、全norm空；单方向不付全224列，已清局部不补造。原113责任R288不重跑。
 
@@ -32,9 +32,8 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 |---|---|---|---|
 | [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001；12:17compute失败/report成功，原读回继续 |
 | [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；11:47仍science |
-| [137原全列](notes/2026-11-15-request137-persistent128-precleanup-final-components.md) | 43709832101 / 132798770009 | f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3 / 11:37:35 | 实际exit70；R313原freshJ/packet和907s/child1空summary已结清，140修入口 |
-| [138同轨迹择优](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md) | 43710284131 / 132800138064 | 0be175792723e0663809146e3922e7052e906c09 / 11:43:21 | 全32/256接受/358试探，R307全normal回读及916字节身份已结清；142改完整方向形成 |
 | [139连续E](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md) | 43710988676 / 132802263809 | 431ec67492ab99b63b42a9a1d962bea0a2cdaf0b / 11:52:08 | 10pins/三原输入/原预算；preflight全部success，science在跑，R311留实际回读 |
+| [140新算子final](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md) | 本次发布后取真实run | actual91重新生成fresh64/R273/current128 | 576×224新stage/全112boundary/混合338/独立audit，同job清理前执行 |
 
 124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
 

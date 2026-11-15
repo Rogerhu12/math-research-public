@@ -14,7 +14,7 @@
 
 [R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)付准确阻尼模型下降与有限误差修正；[R299](results/R299-same-normal-trace-full-merit-selection.md)付同一次完整normal原全merit择优，原工作/12×20/失败/外门不变。局部比较不保证整链更好。
 
-[138实际入口](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)：run43710284131/source0be175792723e0663809146e3922e7052e906c09，compute132800138064/report132801971383全success。与135同真134末p/.000390625、90+4pins/29闭包、完整外8×20/内12×20/32批3600s批间及全部final/零接受stop保持；13.9MB原完整normal日志已CLI取，amplitude正在无科学重算地重建全32行及全部内试探/selector R307。
+[138实际R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)已结清全32批/256接受/358trial/全部normal及916字节身份，末W4.963213789290057/radius3.814697265625e−7，全finalfalse。同调用直接救回0，142从真末父改全9方向形成；原外8×20/内12×20和全部final保持。
 
 [R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与[helper及接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)现已全文读后发布：全9方向原complex-step重评、完整12×9增广QR及原相对参数度量下块G，全部方向/原试探门保留。旧J乘Q不恢复旧列丢失信息；直接动作仍有scalar/2×2链/终端相消误差，有限QR不冒准确正交。直接/基模型/旧轴动作分别保留，实际曲线原点导数含目标动作不一致修正。142必须据R307真实138父和原责任独立接线，不改138或新增一致性门。
 
@@ -40,7 +40,7 @@
 
 [R313实际137完整读回](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)保真实12945B摘要、两个原log及全部J/QR/delta/packet身份；完整64仿射残差不冒128 owner结果，7488/6943导出查询不冒已执行audit。固定源码按argv全局membership误识guard命令尾的--owner-child，充分确定启动阻断；原日志未捕获具体ValueError正文，论文式源码推断与实际观测分列。没有128初始norm/trial/接受/末态/后继组件，不能称数学拒绝。原133 R308有效且不由137重复失败取消；140首位置分派/原stderr无损传输与原watcher marker接线。
 
-[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。140同job新接线继续，137不改；total cap含绑定/编译，另保原science cap和父绝对期限，不预言速度或误差界，不添fixture。
+[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。[140完整同job入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现已发布52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，修首参数识别、实际stderr和原watcher传输。原actual91重新生成fresh64/R273/current128，清理前完整576×224新stage/全112boundary/混合338/独立audit；19200s总cap含绑定编译，保原science caps/父绝对期限及audit预留，完整/partial/未启动分列，native/fullDN仍false。不改137，不预言速度或误差界，不添fixture。
 
 ### 2C. 完整原场域约束与下一35查询
 

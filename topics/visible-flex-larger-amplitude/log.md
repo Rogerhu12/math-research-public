@@ -444,3 +444,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R313实际137前owner入口阻断完整读回
 
 [R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)10365B/e1bafac3全文及原12945B摘要004d2f8c已核，fresh64/J/R273/两packet真实完成，907.237564652s/child1/outer70且global未耗尽。固定argv membership错误的充分源码推导与原日志缺异常正文分列；没有128评价或数学拒绝，不废133已证真实结果。140五件已读至workflow及总接口，接下来直接公开执行；124实际compute失败/report成功，原日志续取，不预填原因。
+
+## 2026-11-15 /root — Request140新R305算子同现场final实际入口
+
+[140接口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)及五件全文/相对137完整diff已读后发布：f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，原47+新5共52pin逐字核；原owner两metadata逆回不变，原数值循环/全部范围及原预算保留。修实际137首参数/全stderr与原watcher，完整stage→112boundary→混合338及独立audit仅同新真实现场，native/fullDN仍false。仅源/AST/Node/Bash/身份核，无本地科学或C++；push直接公开Actions，R313已推8c173e33，旧137不改。
