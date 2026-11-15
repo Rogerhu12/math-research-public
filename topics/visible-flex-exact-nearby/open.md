@@ -158,4 +158,4 @@ SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd954
 
 ## common-T 旧圆 I/J 与 mean 接口已准确展开
 
-I3–14/SHA320cf3bbe2231520ce88545538b906862675d844f0af7c8e6220475383beca11：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。
+I3–14/SHA8f036ea17cd3681ccfe8ed67914543279e9606d5ede8f70198288c62ee66f552：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。
