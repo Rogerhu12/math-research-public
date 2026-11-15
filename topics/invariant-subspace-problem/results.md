@@ -555,3 +555,5 @@
 - **29真核的自由像在Q中也恰前29轴。** [完整小矩阵证明](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)实核top29det mod31=1、Q归一bottom7×29全零；故29个D整规范来源全存在并与原p768全来源同余。原真核直和分成29Koszul及至多7维非Koszul补空间，删除前29自由列保Q列像，未宣布余七存在。
 
 - **原Y逆芽也有领先12.5的真实负轴障碍。** [独立全证明](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)先保R=2r*内全部真实分母和导数符号，原负轴首临界给RψY<4e20 r*，无需假设该点单根。领先指数不能固定降小；安全次阶半径、Green和回返费用分别保原范围。
+
+- **新六规范真核的实际高度与全部p768同余。** [完整记录](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)实际3.456136225秒，六列全部6188来源同余和4367新整数乘回真；分母2356–3803bit、分子最高3868bit，均不满足该精度的平衡/乘积充分条件。准确解释旧恢复未成与真核存在相容，不排所有算法；核数仍29。

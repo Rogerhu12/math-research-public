@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 9e4074fd9c99ab3af6bfad363b674e57f938800f（2026-11-15 07:03:47 UTC，Actions run43688220087实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43688220087-1.json。
+- **最近成功实际 pull 与已读规则提交：** 6a4d4b5f361e9c855d6dffd73032e73850254ede（2026-11-15 07:06:42 UTC，Actions run43688449242实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43688449242-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -14,9 +14,9 @@
 
 - [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九实际费1339，全原来源/输出及carry真；不重旧模页，数据依规则仅历史可查。
 - **[真Q标准Koszul支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：** run43679903558/math33.711323768秒，原1603方块Dixon+全部1834残差，29列全6188来源/4367整数输出真，36自由像rank29、并旧23仍29。故旧23确属该空间，新增6真方向，char0同选秩4318…4325；标准族已穷尽，继续其外至多7个未定方向。
-- 同4354选列mod31秩4318/连接3/36自由I，勿混全6188秩4340/连接4。**[前29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)**实核0.063932317秒，top29det mod31=1、bottomQ全0；W∈Z_(31)，前29全有真规范核，剩余空间直和至多7维且全非Koszul。删前29自由列保Q列像；七方向存在性未付。
+- 同4354选列mod31秩4318/连接3/36自由I，勿混全6188秩4340/连接4。**[前29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)**实核0.063932317秒，top29det mod31=1、bottomQ全0；W∈Z_(31)，前29全有真规范核，剩余空间直和至多7维且全在标准族之外。删前29自由列保Q列像；七方向存在性未付。
 - [187注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)、[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)及[31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)均已付；ΓΦ=I，标准来源31饱和，但投影不保J。
-- [真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)三个全原检查点/自由I36真，当时仍23；[旧23完整一次闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)严格仍23。52/26/39确定LLL候选全原乘回非零，该入口结束，不再盲增位或换观察行。
+- [旧p768/闭包/LLL记录](notes/2026-11-15-handoff-before-twentynine-exact-kernels-789f.md)全部保留，不重已闭入口。[新六规范源高度](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)实际3.456136225秒，全6188余一致/全4367整数真；分母2356…3803bit、最大分子3868bit，六列均超p768平衡及乘积充分界，不排所有算法。
 - 原17式线性rank8/二次rank17、m0/m1的31单位真消元已付；有限来源运输仍保。[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)须同费用/目标/分母指数于无界精度可解；p6不足。原D自然度8770、公共有限K60；任何条件降度须先有Q[s]成员性，模幂降度另需lc(D)31单位，均未证。
 
 - **[统一条件成本](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)：** 同选真核数c≥15给8755−c，换列只保c−1阶；当前29真核故条件cost≤8726、非基≤8725。仍须原目标成员性，lc(D)31单位及固定e全精度未付。
@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；当前六规范列高度/完整p768同余与唯一65521原4367×4325秩，随后七非Koszul；不续多素数。20分钟空闲/6h job上限，不持久化大数据。
+本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；六列高度/同余已成，65521原rank仍4318，下一只解余七真Q；不续多素数。20分钟空闲/6h job上限，不持久化大数据。
 
 - 29真Koszul目录work/koszul-exact-rational-support；basis.gz1670175B/SHA b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808，free36.gz29488B/SHA24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249；完整29列证书散列见实际小回执。
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
