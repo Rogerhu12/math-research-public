@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** f44e943989d93799d66e80d99d98c8fc4557c055（2026-11-15 16:04:17 UTC，临时研究session run43731615668实际pull --rebase，两README无差异；详见notes/r150-full-infinity-dual27-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 400edecfeab313d1858cdb72bf18f8452ab9566a（2026-11-15 16:15:35 UTC，Actions run43734456061实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43734456061-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -14,10 +14,10 @@
 - 原A4367×6188、泛rank4354；同选I,J各4354/总权8770，常rank4318/核36。完整前三连接3/9/3，第二24/第三21头；已成17真第三/296072原产品。完整β4∈[3,5]，λ4未造，来项15缺2、第三21缺4。
 - 同选D∞≥130、全部cofactor/原来源换列≥125。K158=s66(s−2)12(s+6)12F+⁶F−⁶E8⁴，deg158/lc5^16是31单位；q8369…8482，三费8526/8531/172、统一条件8531。**原h0九目标全局Q[s]成员性仍是前提**。同D leading31单位未付：真Q v∞130…243，等于243才单位；degD8527…8640。
 - [零点与旧泛型像回接](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已闭：全正谱1⁴,3,4³,5,6,7,8,10,11，δ66/次大55/max11；全九s³t_j在原局部像，t2消去理想恰s³。β1…11及965328原产品保正式稿。末端jet非零不否泛型像，不再第十二。
-- 两端原全常rank4340/14正Smith。[原完整∞第三](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)已付β1=4/β2=0/β3≤1、δfull≥43/次大≥39；不能只记首两页，也不能搬zero谱。
+- 原full∞常rank4340/14正Smith。[新完整原模31谱及余28](results/R150-appendix-full-original-infinity-mod31-length66-and-output-projection-gap28.md)实际正谱1⁴,3,4³,5,6,7,8,10,11/长66/次大55/max11/自由13；真Q仅δfull43…66、次大39…55、max≤27，不能搬模31单个指数。
 - [局部差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：T=W/(L∩W)，W=(I²)≤5，lenT=δA−δP；差≤e即t^eW⊂L。170原行+54g倍行保全6188来源，g零点只除η单位；E8⁴先剥31碰撞现给2点full≤28。
 - [负六全闭](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：P/full正谱1⁷,2,3/长12/max3，W全在原局部像，九目标无需s+6。[2点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)实4.637497190秒、正谱亦1⁷,2,3/长12，但full现仅12…28，T长≤16；不证明亦不否定h0一阶够，已转原W/九目标而非提高同P阶数。
-- [Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)：O1834×1632常rank1603/29正指数，tors cokerO注入同B。Fp31最大≤21/总长≤243，Q仅总长≤Fp总长。D≥δfull+σ、cofactor≥δsub+σ−amax、换列≥δfull+σ−amax；真Q δfull+σ≥243才付leading单位。新O未出数值。
+- [O完整模31谱](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)：O1834×1632、常rank1603/29正指数，总149/max14；Q仅29≤σ≤149。原两项δfull_Q+σ_Q≤215<243，故该固定两项判据已不可能封leading单位。精确分解vdetB=δfull+λ_I+σ+δ_high；模31 λ_I+δ_high=28，λ_I为原左核在同I^c上的13×13行列式阶，δ_high为漏掉的202自由商指数。下一计算定位两项，尚未分别赋值。
 
 ## 已结束旧session与最小恢复
 
@@ -31,8 +31,9 @@
 - [F±完整局部结论](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)：真三次数域低谱各3,3/长度6/自由9，低jet加4exact纯核注入原完整P，得6≤δP≤δA≤8、T长≤2，六共轭点F±²W及原h0九目标均已付。数学9.738919457/10.510911032秒；raw15732B/19c6a404c77dd26afb59da72fbe7219c477c8a7e86602f725030bf887f0ddd4b与15793B/06db12970af9b8f791f734e113b87d4ccf18947fab17fa6384dcac37ade670ba。不是完整P/full精确谱6。
 - [解析双Dlin与E8局部](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已闭：真实51行经单位变换降27行/24零行，M2整提升不除g，底H⊕H的有限coker满射给δS≥2v(Dlin)。E8得4≤δP≤δA≤5、T≤1、E8W及九h0目标局部来源，全八共轭点覆盖；没有报exact4/5。原2点上界降28/T≤16。新真小域实际14.265291455秒已完成：low谱2,2/长4/自由9，全单位与原Schur真；raw20945B/d371f188c758a45fd5bf5c711407f00f24c77e31160853fd8ed9e3badc294514。该low已闭，不加阶。
 - 新full∞ run43731615668（15:45起45分钟/55分钟job）只核6历史输入。manifest notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json，blob00c4da90…/SHAf845995bd1bce3410baea46ec968892621a48465aad62092798f372b7d6f00e8；历史commit8c6304e273e64b0544d3dd58bc0e48a672a87c36。
-- full27首次compile6.793秒/native2.421秒退出1，4433原系数真，但all3333 prebasis identity断言失败；无新jet。已定位旧F/B只消同m次数，真实A0仍有严格降次数pre尾，须按原pivot顺序单位三角消去并保完整伴随尾；v2已根审并排180秒/1GiB/21，独立out full-infinity-natural-dual-schur-v2，nativee4968077…/runnerc173cf44…；所有主尾严格降次数、正向和伴随完整保尾，不删校验。失败raw4291B/81a8881e81d2eb0fdcb59a59851866c58e5038b319624436612471fde4aca73c。
-- O最小入口真实13.08863037秒完成全部0…21，constant1603/全29原来源/126643产品真；Fp31完整谱1²,2^10,3³,4³,5,6,8²,9,10²,11,12,13,14，总长149/max14。sourcee238d925a11a50a0098ffda39ce243c4afbfeda6，raw15832B/eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6。真Q仅σ≤149，不能填等号；正式谱稿在审。全局h0仍余s=2和未知异常支持。
+- full27 v2已成功：sourcef44e943989d93799d66e80d99d98c8fc4557c055，math9.075420298/compile4.526625665，raw21358B/540fd2d44e7d49f9d4284d8966e9994397320f145e353c1560c7807f76caf9b4。1,711,875 pre尾均降m次数1，全4340单位/6188残量及80444形式核常产品真；out full-infinity-natural-dual-schur-v2的L/S 0…21仍临时可用。首版I3333失败已显著标注，v2未删原校验。
+- O最小入口真实13.08863037秒完成0…21，126643原产品真；sourcee238d925a11a50a0098ffda39ce243c4afbfeda6，raw15832B/eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6。新的G_I13消费者正在准备，须同I^c/真实mapper精度；不得把旧21系数误说足所有G阶。
+- local新排原9×9 Ay^-1RY在s=4,3,5的精确pencil（30秒/512MiB），核全99物理产品与charpoly/1…9幂，仅检验普适幂零设想，不预报全s。全局h0仍余s=2和未知异常支持。
 
 ## 原同w边界：正交旗后继续真正返回
 

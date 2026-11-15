@@ -263,3 +263,7 @@
 - **原低投影双Dlin下界与E8全部局部目标。** [完整解析证明](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)用51行真实单位降27、M2整提升、有限coker到H⊕H满射付δS≥2v(Dlin)。E8全八根δP≥4/δA≤5/T≤1，九h0目标局部条件关闭；2点上界28/T≤16，K158/条件费8531。全局支持与二点目标仍开。
 
 - **E8 真小数域低谱准确2,2。** [同篇第九节](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)真实Q[α]/E8运算14.265291455秒达rank27，所有原单位/完整Schur/224嵌入检查通过；低长4/free9，全P/full仍仅4…5，不再盲加同低矩阵阶数。
+
+- **原full无穷远模31完整谱与遗漏28的精确分解。** [完整证明](results/R150-appendix-full-original-infinity-mod31-length66-and-output-projection-gap28.md)以真实单位三角pre尾及全部6188来源得到正谱1⁴,3,4³,5,6,7,8,10,11/总66/次大55/max11/13形式核；真Q仅43…66、39…55、max≤27。vdetB=δfull+λ_I+σO+δ_high，模31后两未知项和28。
+
+- **同一原外支撑O完整长度149。** [独立实际证明](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)全部29指数付齐/max14、真实1603单位与126643原产品通过；真Q仅29≤σ≤149。结合fullQ≤66，固定两项判据至多215，不能达到243，转原输出投影及202自由商。
