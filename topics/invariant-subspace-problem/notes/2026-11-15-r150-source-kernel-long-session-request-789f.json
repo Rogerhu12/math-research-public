@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "37682caf3f077579a64e94305d71eaeb111a7296",
+  "rulesReadAtCommit": "0050433b3f6b3d8773166c5829dd438da4abe370",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1013,6 +1013,73 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/infinity-complete-sixth-two-projection-failures-receipt.json"
+    },
+    {
+      "id": "infinity-seventh-original-high-forcing-probe",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-seventh-original-high-forcing-probe-789f.py",
+      "scriptSHA256": "2f8f22933ed5dd8d87869d6db3db0e571385233df86972dca5ff4e5dbcebe3f5",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+          "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+          "sha256": "4d759c0efbc8a647bd5845b21da5e871de28f0d43ae6f2fc84c376afb472e328"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-infinity-small-original-projection-smith.json",
+          "sha256": "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-infinity-complete-sixth-two-projection-failures.json",
+          "sha256": "9f126c0bd4d2cd15f44257d3a21e13d6987beb2061f7bbf6e9146e7a1c771ba4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-infinity-complete-normal345-high-field31.json",
+          "sha256": "0f6cbe9bb23601be632d0045f35839b922e16e4d893aca6b9d4e2f849cbd9141"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--projection-consumer",
+        "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+        "--sixth-consumer",
+        "{scripts}/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+        "--projection-receipt",
+        "{scripts}/43740928483-infinity-small-original-projection-smith.json",
+        "--sixth-receipt",
+        "{scripts}/43740928483-infinity-complete-sixth-two-projection-failures.json",
+        "--high-receipt",
+        "{scripts}/43740928483-infinity-complete-normal345-high-field31.json",
+        "--projection-out",
+        "{work}/infinity-small-original-projection-smith",
+        "--sixth-out",
+        "{work}/infinity-complete-sixth-two-projection-failures",
+        "--high-out",
+        "{work}/infinity-complete-normal345-high-field31",
+        "--checkpoint-dir",
+        "{work}/infinity-seventh-original-high-forcing-probe",
+        "--out",
+        "{work}/infinity-seventh-original-high-forcing-probe-receipt.json",
+        "--remaining-seconds",
+        "60",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 100,
+      "receiptPath": "{work}/infinity-seventh-original-high-forcing-probe-receipt.json"
     }
   ],
   "previousSession": {
@@ -1022,5 +1089,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "S2 complete Q spectrum1^7,2,3, W locally in image; global (s-2) removable for all nine targets. Infinity P complete61, fullQ61..66; complete high5100x3762 Q rank3760/kernel two proved. Queue complete sixth1088x598 with nine prior incoming and only two projection failures; actual rank not prefilled. If beta6=1, seventh high forcing must include actual normal2/3 lambda6."
+  "mathematicalProgramStatus": "S2 complete Q spectrum1^7,2,3 and local W image closed. Infinity P61, fullQ62..66 with complete sixth beta6=1 and 17 actual heads; queue actual seventh high forcing before any seventh lift. Known support removed gives Rout/U degree<=161 and nine Rout h* sources cost8531. Original P symbolic Schur56x22 proved over Q[s,Sigma0^-1], actual gcd remains open."
 }

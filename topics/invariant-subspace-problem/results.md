@@ -395,3 +395,5 @@
 
 
 - **原无穷远完整第六连接恰1、17头与总长下界62。** [完整证明](results/R150-appendix-infinity-complete-sixth-connection-one-seventeen-heads-and-length62.md)实付全低1088×598前缀578/580/589增至590，核8、17独立首项与736372原七层产品；前六秩 $(4,0,1,3,1,1)$。fullQ长62…66、次大52…55/max10…14、原选出δAI64…68，差商长1…5。射影界同步给R/Rout/U次数≤161、共同Rh*≤184，原source费8531不变。新增λ6normal2/3完整保留，第七高forcing不假零。
+
+- **原P在已知临界支撑之外准确缩减到56×22。** [原来源证明](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)在 $S=\mathbb Q[s,\Sigma_0^{-1}]$ 上用13归一核、54真g行、3纯列及7份同一H9单位，得 $\operatorname{coker}_S P^{\mathsf T}\simeq S^{13}\oplus\operatorname{coker}_S G^{\mathsf T}$。四物理次数层给 $\widetilde G=h^4G$ 为多项式；其全部22阶子式gcd在Σ0外准确等于ΔP。保全部Γ及来源，未预报gcd、有限域因子或九目标全局成员性。
