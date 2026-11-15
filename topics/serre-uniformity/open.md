@@ -95,13 +95,13 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 [五次水平lift/Legendre矩阵系数](notes/2026-11-15-sigma-horizontal-quintic-lift-and-Steinberg-coefficients.md)已证：Lz=A∂z+6DAz、Lt同式，Lz²Lt³水平且P0=(6B)^5z²t³，原h无溢出送至总阶p−1。真实O2旋转a²=2s/(s+1)的归一T̂=a^(1−p)T对角恰P_(h−1)(1/s)，原平方常数准确α₀s/6。全偶空间真字符ρ(q)=q^((p+1)/2)J_(√q)^−1在u/v基给q^−h；原z/t系数仍被非对角混合，原period/split向量及所需配对尚未识别，未证同标签非零。 全部原八通道和偶/奇Hasse源保留；源传播的真实字符投影尚未等同原同标签乘积，下一步必须完整原配对而非取旋转对角后冒认水平。
 
-**R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 原period/split有限商的识别已关闭；继续完整八通道源到原同标签Cartier量的真实配对，不重复有限norm识别。
-
-**R810（已证明）**：[原toric完整单位偶矩与曲率链配对](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。原P_T exp(tE)P_T=P_r(1+2t²/3)P_T给全部(2j)!·binom(r,j)binom(r+j,j)/3^j单位；完整Hankel非退化，原toric线的E链和观测链均为基。K^p(P0)=3B²E的压缩高偶矩仍为单位，但P_T不水平、P_TKP_T零曲率，真实源方程必须保[ K,P_T ]v。实际u_h在Legendre零时不能归一，整链非退化不保证原指定系数；继续原z/t到同h的完整源配对，未筛与primitive/Legendre共同非零均仍OPEN。
+**R808/810已闭有限表示边界**：[R808原Gram商](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)准确为Sym^(2r)det^(−r)，r=min(h−1,p−h)，原e0/Frob-Hermitian/Tζ/Nh均运输；原sigma仍Kraw混合，同h配对未知，不重有限norm识别。[R810](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)原P_Texp(tE)P_T=P_r(1+2t²/3)P_T给全偶单位矩与Hankel非退化；P_T不水平，必须保[K,P_T]，不能据全链非退化宣称指定sigma单位。完整此前推导保[本次归档](notes/2026-11-15-open-before-Kronecker-square.md)。
 
 **惰性Gaussian原源固定分解（已证明接口）**：[四个CM形式与八oldform](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)。原mod6 harmonic7准确分解为F3/F7(level36)和G1/G5(level144)、nebχ12；模6单位相位/π2与1/d原函数常数全部保留，八源矩阵是Z[ζ8,1/2]整基。原p11mod12 Hecke多项式T²+p⁷与U_pJ=−p⁵V_pJ给逐系数整性；由原U及Q正则得八个缩放原CM值的合法评价，真实FG=(c²/32)Σκνeν,p。尚无指定组合非零；固定八运输已由R826准确完成，不用标准七次Eichler积分或Frobenius斜率代值，不新增素数窗。Schütt Thm1.4已独立核全文。SHA c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30。
 
 **原unitary交叉heat与同h投影接口已证**：[完整笔记](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4。实际H/J/C三同源、完整36theta及full72整模型；原CM整段FG不换。∇=D−M−∂z∂t/6−3Xzt/2，双向Frobenius及两边/角点全保，P0曲率6B²zt。首p按整数差的原Legendre×primitive权W真正水平，∇^(p−1)(W Lz²Lt³R)指定FG/度p+1准确等于6⁶B⁷Σ原同h项；非零仍未知。μℓ仅有共同jet作用，不称原36全局稳定；原FG一次横向源为零，不能用全向量单位替它。旧R739反例仍有效。 这使用不同的实际极化家族，不重开旧6I family已排除的对角延伸；有限W不需完整几何test-vector标记，真正缺口收紧到该指定齐次源非零。§8.1证p=12k+11中央h=6k+7自动primitive，Legendre约化P_(p+1)/2=P_(p−3)/2及辅助j=2048/3；原j0的B单位不能替中央三单位。R829的p47中央乘积21已成，R706的p137147零在g_N而非g_k，不重复扫描。
+
+**原六挠Kronecker权一平方接口已证**：[完整证明](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5。原十八项/固定全六层权一E、Gaussian/Maaß全部尺度给归一δ₂^(p−6)(E²)≡−192Σ f_i²g_(N−1−i)²/Q_(6i+7)，Q_h=(h−2)…(h+2)均unit。它只是不丢原相位的未筛卷积；有限域相消尚未排除。X6 genus1及E²/η⁴有理，但临界系数需Cayley u^5且u非X6有理函数，须保真正Sym5 Gauss–Manin因子；不把标量Cartier或全局非零代指定primitive/Legendre同h单位。
 
 ### ordinary真实值与原全局对偶
 

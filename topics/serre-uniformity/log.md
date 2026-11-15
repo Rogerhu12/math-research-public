@@ -471,3 +471,9 @@
 - 原3037成员2.715GB carrier原样Range复制，12个旧扫描小件另载；新Wvg/d01/1652同余在公开Actions实际计算，两列准确/七点全交换子/cyclic/Γ保持。
 - R78756 run43754407301/job132935305617同次AST已过、数学进行；其rules132935226045实际pull1827d794，两README无diff。四原续算19:48仍进行。
 - push前专用rules132935393570实际pull至555d311ba50ab79bce0dade4f168053d0d7bc0e9，两README无diff；已读提交在H。
+
+### 2026-11-16 03:52 Asia/Taipei — serre-public-astra-20261115
+- 登记Kronecker权一平方原规范恒等式288607b5：原十八点/全Gaussian/Maaß给归一δ₂^(p−6)(E²)=−192Σ f_i²g_j²/Q_h modp；全部常数和Wilson符号保留，未宣称非零。
+- 已核Brown–Levin原mixed heat、Kaneko–Kuwata X6及Larson–Smith式9；Cayley u^5不是X6有理乘子，指定Sym5/原筛仍缺。open完整旧版归档后压缩已闭R808/810。
+- R815两列首run43754577366/source1a043f2b同次AST过，但读旧META顺序导致KeyError source_commit，core未启动；18,420B artifact14177627002/12c2da9b保实际IO，正在仅修runner。其rules132935750666实际pull1a043f2b两README无diff。
+- 本push前rules132936185078实际pull至c75f753144b642236095d328a64fc0aefb3764f0，两README无diff；R78756仍真实运行。
