@@ -604,3 +604,8 @@
 - 原五次水平lift/旋转系数登记：root逐式核[K,Lz]=[K,Lt]=0、P0准确乘(6B)^5z²t³、p−1齐次原h不溢出；完整旋转对角用binomial/Legendre给a^(p−1)相位，归一后与R770原平方准确匹配α₀s/6。
 - 保全部8有限通道和两个Hasse边界；全偶空间ρ(q)与q^−h方向逐式核，原z/t与u/v两基严格分开。实际原period/split识别与配对非零仍缺，未用可逆旋转代同标签乘积。SHA7df880f263d6fd06a35a5d152ef34239cc9e0e16f1eec0f5283e0afcf4ecca5f，无本地数学或有限扫描。
 - 对角障碍已推ae1b0fbee，actual pull两README无变化；R787/R803继续，R805core与R804点consumer工程接续，主目标OPEN。
+
+## 2026-11-15 18:44 Asia/Taipei · serre-public-astra-20261115
+- R805最小工程启用：root core/wrapper/workflow全文静态核、ordinary独立核原phase/79与39打包/alias及三组真实秩接口，exact真实1272文件SHA/size/schema全部IO通过；无本地新数学。core730a7d8f、wrapper0eddbd19，active request SHA4b2c6331a3ba8350818dda820f09c869f66892d97fb1eedf9b2cc209fc091460。
+- 原候选n从1起、坏素数仅记录模秩；真690 minor后取原144一次补基及实际127二次补列，形成690原S行，全41×20坐标/82⁶尺度核。源码保断点和旧recipe复用，不冒称primitive、极理想或η完成。新增课题外workflow serre-p41-original-affine-pencil-free-basis.yml，仅read/blob:none/一日artifact。
+- H逐字归档压缩；五次lift已推5f36d3fb8，两README差异空。R787/R803继续，R804点消费者待R792，R806 primitive/R807 M6清极继续准备。主目标OPEN。

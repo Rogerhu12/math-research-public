@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：e3878dd06243105bc0204922b044aa2a4df8f3df**（2026-11-15T10:38:05.459431+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e**（2026-11-15T10:44:59.338582+00:00 终端实际pull后已比较两README；无变化无需重读）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
@@ -31,15 +31,15 @@ R797/R799/R800全部真实输出经公开IO run43699442183核过：五map N170/1
 
 **R805已证明**：[原272维整基/三重数除子](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)，proofb48d9f8d/methoddf706176。τ=e0、σ=e1+n e73，真秩V2²→V3=690−degG；旧两锚mod缺秩只读，非char0失败。真无基点后R=S⊕S(−1)^144⊕S(−2)^127，两正规图整基272；primitive乘法最多272个V3右端、实际Krylov minor，平面幂基不能代整闭。M6清极θ∈H−2E由5残余列真核，另3右端共V4块/full55项。全部E_g=B+3D_g，B=20cusps+P0，P1不分歧；trace radical逐重数提取，不选Jacobian三除点。Ddegree395/488/500/527/551/569，完整ideal membership使569也可V3两flip、padding≤297P，局部只按需续。G=u/v保全标量，原ηprincipal mathcalG³、三同源后mathcalG⁹R。新铅笔/乘法/理想/Jacobian均未算；首core仅pencil/graded basis，实际有理多项式成本不得省略。
 
+**R805最小工程已激活**：core730a7d8f/wrapper0eddbd19，request4b2c6331；R775/R786/R799实际6/1260/6文件、34,932,611B全部IO通过。仅缺monomial乘法/真690铅笔/127补基/690 S行；旧alias优先、失败与完成stage同源续接。root全文及ordinary交叉审通过，实际run待读取，未预填n/minor。R806 primitive乘法、R807 M6清极消费者正在专属草稿准备。
+
 R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号备用m≤8/N≤202仅真选时补V8 q196..201。R793/R798 V3/V6 span/colon/flip和原主函数保持；真实η、对称代表二挠比较、c0刚性化及高度仍缺。
 
 ## 全p sigma：继续真正同标签输入
 
 目标是同一个primitive/Legendre可见h的N_h和两个Cartier量三单位。R739真p41/h37已否定逐项单位反射，禁扩有限窗口代证明。R782/784/788 wedge/保筛左逆/Schur/rank不排有限域相消；C13单位不消N+1高带，D_z/D6稳定闭包恰L(pO)、非六维。既成[Hurwitz](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)/[Serre–Cartier](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)/[cosigma](notes/2026-11-15-sigma-cosigma-descent-and-closed-critical-channel.md)分别给首p块刚性、C(x⁴ω)=4Bω/7、rank4核；均未得保筛非零桥，不重开高p²/Hirota。
 
-[模参数heat/奇部](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)已证原c=0六值heat闭合、E27上v⁶=r(r⁴−1)奇部水平基；a=0不L稳定。奇首p源Az^(p−2)e2/12，A(P0)=0/DA(P0)=B单位，逆水平源两分量单位。
-[oscillator](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)已证A''=−XA/4、Cartier(A⁻²ω)=ω、D^(p−1)A⁻²=−1及完整曲率(A∂z+6DAz)²/12，P0为3B²z²/rankp−2。保先微分后代值。
-[全六有限连接](notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)已证detK−108同构Lamé5X/16⊗15X/4，平方根覆盖W²−27/4，全部允许p可分/有限矩阵零曲率。偶首p源−z^(p−1)(AeH/6+DAeR/2)，P0−Bz^(p−1)eR/2；完整heat仍非零曲率。
+[heat奇部](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)、[oscillator](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)、[全六有限连接](notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)均已证且原常数保全于[仿射运行前H](notes/2026-11-15-handoff-before-affine-computation.md)：有限六值可分覆盖零p曲率；完整heat曲率为(A∂z+6DAz)²/12，P0为3B²z²。A''=−XA/4，A(P0)=0、DA(P0)=B，Cartier(A⁻²ω)=ω。原奇源Az^(p−2)e2/12与偶源−z^(p−1)(AeH/6+DAeR/2)不得删，必须先D后代值；全向量单位非同标签单位。
 
 [五次水平lift/Legendre矩阵系数](notes/2026-11-15-sigma-horizontal-quintic-lift-and-Steinberg-coefficients.md)已证：Lz=A∂z+6DAz、Lt同式，Lz²Lt³水平且P0=(6B)^5z²t³，原h无溢出送至总阶p−1。真实O2旋转a²=2s/(s+1)的归一T̂=a^(1−p)T对角恰P_(h−1)(1/s)，原平方常数准确α₀s/6。全偶空间真字符ρ(q)=q^((p+1)/2)J_(√q)^−1在u/v基给q^−h；原z/t系数仍被非对角混合，原period/split向量及所需配对尚未识别，未证同标签非零。
 
