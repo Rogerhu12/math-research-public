@@ -55,7 +55,7 @@ jobs:
           spec.loader.exec_module(module)
           root = Path(os.environ["RUNNER_TEMP"]) / "serre-R787-rules-pull"
           (root / "audit-output").mkdir(parents=True, exist_ok=True)
-          module.pull_and_compare(root, "f59c795c69c05bed6efa45a937ab352def8e5972")
+          module.pull_and_compare(root, "506de085110d7249a7641b13e0b8cd715ad3cab9")
           PY
       - name: Retain the actual rules pull receipt for immediate parent review
         if: always()
