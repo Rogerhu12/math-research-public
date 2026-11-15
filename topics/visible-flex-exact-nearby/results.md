@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 actual NC/BD direct H1 trace** — [完整12双五列及实际运行](results/R133-supplement-actual-nested-collar-localization-and-direct-first-angular-trace.md)（5451c5f766f6f1c0a97bdf7a3e7ed411a3f5b183bce1cd0493ce25c0cf850f7c）：43733916510/1 child0，16结构+12角导门全部通过，768组/1536公式。J96/J288分别整row选N13/N39；两独立mean、全source及same-state/wholecollar前提保留，未知low/shell没有赋值，独立MA高域不扩张。完整science35707B/83e06a28、process3157ed35、reportb88b9e54与46305B预Gitbe17391b已核，旧科学零重算。
+
 - [R133 PW：完整七个正区输入经混合根迹到腰部density](results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md)。原负一阶七port与已成SP完整连接，保root稳定输入、全有限头/两mean、raw输入/输出转换、所有ordinary与affine单位。新正标量系数待实际；无新BVP/strong inverse结论。SHA256 246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562。
 
 - [R133 PF：逐点根有限部与完整真射线一阶系数](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)。重建完整两波行及原primitive后，证明root标签上的有限项函数为零；真Jacobian给新增g1hat反项，得到完整c0的有序收敛积分和waist density转换。SHA256 5856c8cf5fac8c75997a6e3d8c9aba1ad88cb136d1ae184985164d1745aab026；全H3范数、强余项、有限border和真core未授。

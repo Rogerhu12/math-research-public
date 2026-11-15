@@ -185,3 +185,13 @@ Green16:06:28 process7c062042/52701/780eb272全差亲读，future/product各5970
 root全文SCI036dd32b/37395/268e033e（585行）、worker3caf7d0d/33474/9633be71（508行），manifest6ec4c65e/11522/8c3d9c45与flow7e6eda84/4232/7046effc均亲核；source PARAMETERS原JSON与manifest递归semantic exact，17个当前小pin共379017B/3个py只AST。newton三数学函数及worker三指定段独核通过。全7root+7waist新列、raw stable/4jump+dualcut/4exterior/可选jointvolume仅新320bit正标量；old8×7仅exact hash引用，3外端mean/负源jump/RJ全product原字copy，21新结构门。无旧graph/Riccati/Cauchy/strict/source重算，无旧native/archive恢复。worker保单一public child、临时native不发布、全结论预Gitstdout、两owned小文件/实际容量120KB预留、真pull双README和非FF立即rebase循环。此commit仅部署；唯一pushrun待取，未声称actual新列。
 
 同时已亲取NCBD唯一43733916510/1 jobs2818B/96d830d3：job132872203592 headb17528a1，16:09:58→16:10:37所有step success；完整science752b95c0/35707/83e06a28、process897b8bff/15995/3157ed35、report8f1c8d15/9765/b88b9e54已按原SHA取回，待root逐项结果审查后单条发表。成功冻结不rerun。tail完成PF16–29指定核并亲读原S全文：actual密度、g1hat、mean/seam依据一致，补记独核。最新只读README4e37d89018adb35004b0267aac847ff741dd6d3f未变。
+
+## 2026-11-15 16:21:47 UTC — actual NC/BD完成，下一几何优化继续
+
+同公共run43733916510/1与job132872203592（16:09:58–16:10:37 success）root完整审科学/过程/报告/证明：child0，0.07085503000000415数学秒、1.0004606199999984墙秒；16结构门+12 t1门全pass，768 triples/1536完整公式。9原pin/参数逐结构核，证明132球120unique逐字符串同science83e06a289105254022cba13ae23ff102ce384c1ae9e2ade468e5cdc979654df6。原preuves明确full低两独立means；root只补该措辞，final proof 17438B/5451c5f766f6f1c0a97bdf7a3e7ed411a3f5b183bce1cd0493ce25c0cf850f7c，无数学值更动。四个LaTex科学球逐字核原值，区间只用upper。
+
+预Git payload根按原Python sorted keys文字编码（保数字key字典序）重建46305B/SHA be17391bd7da8067d56c50c81504af46ae6a06079bd6056ac3af323ff870057e准确一致；JS对象的整数key枚举初稿SHA不等，仅编码审计差异已解决，不是数学失败，不曾rerun。临时审计1261253B/323d80d1不入库。旧LC包装失败/无损恢复完整保留。
+
+J96 N13/J288 N39；同一N两条完整五列，不能entrymin。最宽J96 BD high条件项1.2053114469697388e−8尚超入口budget；rho2^-24 source+high约7.19536203e−12仍缺shell/low，J288极小high也不消shell。下一NG使用更多outer-to-inner宽度，分别保每个候选全行；old固定a1/40仅copy，LC/NC既成系数只读。免8193插值并非独立高域已付，wholewide C0/双侧same-state/两mean与实际低门仍待。
+
+Green16:16小process53246B/aff40dbfe1d339bf74223f9294190d9e84fdb5f92ba5b12f85fedd9868bda888全文相对16:06差异已核，past5184、combined160/queued162，其余两流5970done；childnull/completefalse。真pull16:16:32.416039→d3829338116517acd17cf4a883a853c490fbbcd9，两README空diff；容量199170652B/inventory2d22d1be。未相加异步consumer计数。发布只读README核c14381ad4a23ae7e5175454d46bf86bd492144df；旧H/open全页保9026e9394566e97c1ee5c085d70d7698cc9c21bd，压缩仅索引，不取消旧域/失败/待付条件。
