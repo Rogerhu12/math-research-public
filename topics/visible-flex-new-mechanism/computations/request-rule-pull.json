@@ -1,7 +1,7 @@
 {
-  "request": "visible-new-mechanism-rebase-after-concurrent-main-20261115-2156",
+  "request": "visible-new-mechanism-rebase-after-concurrent-main-20261115-2250",
   "repository": "Rogerhu12/math-research-public",
-  "goal": "Immediately perform actual git pull --rebase after the guard-request ref raced with concurrent main; compare root/topic README and private rules before retrying any research publication.",
+  "goal": "Immediately perform actual git pull --rebase after the R397 ref update raced with concurrent main; compare both README files and private rules before retrying the unconfirmed conclusion.",
   "expected_readme_blobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
@@ -18,5 +18,11 @@
   "scientific_or_development_execution": false,
   "old_work_replay": false,
   "payload_publication": false,
-  "completion_claim": false
+  "completion_claim": false,
+  "concurrent_update": {
+    "rejected_parent": "137e0238071eacafcf2810acef85a84bdb70341c",
+    "unconfirmed_commit": "ea380e314a4b5b588edabda9042816e626220d64",
+    "observed_main": "e14b4ba4595b5921f667a3afc6064180b46cea9e",
+    "research_retry_blocked_until_actual_pull_receipts_read": true
+  }
 }
