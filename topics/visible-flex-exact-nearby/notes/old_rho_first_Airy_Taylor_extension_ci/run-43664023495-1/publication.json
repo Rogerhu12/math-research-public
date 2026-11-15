@@ -1,0 +1,1461 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43664023495",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T01:38:57.422099+00:00",
+      "before": "5a17ad802c28a0a00f2776201cea4cef27f68da7",
+      "after": "5a17ad802c28a0a00f2776201cea4cef27f68da7",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:40:32.307071+00:00",
+      "before": "5a17ad802c28a0a00f2776201cea4cef27f68da7",
+      "after": "608cab996b9f406492205ac38a1e75ac0117cf9b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/complete-natural-stage-inventory.json.gz",
+      "bytes": 15601,
+      "sha256": "703daa918e5fa379e7338784180d0d981386db43a4827de29bef920eff12cc62"
+    },
+    {
+      "file": "consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+      "bytes": 88854,
+      "sha256": "758a2901d194e9d54ec10bb5004014ee34a972c35367589fd5c86afce3f30c9f"
+    },
+    {
+      "file": "consumers/complete-old-rho-first-Airy-Taylor-through-twelve.stdout.log",
+      "bytes": 338,
+      "sha256": "5cc86b89a6a88762699f335c4646e9f9f2e45afc045db8fc51ec5e8a29d466d5"
+    },
+    {
+      "file": "consumers/complete-process-before-readable-summary.json",
+      "bytes": 65933,
+      "sha256": "bbf7afe66ee2422b3ca15eee57a2e1d1843d0e961cbd68f90eabeac70c0489f0"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 34792,
+      "sha256": "42ab23b97ce922b042b8291af46cfe8c44ffd7e90ba1e2a6049caef263b7224e"
+    },
+    {
+      "file": "consumers/stages/background-drift-degree-009.json.gz",
+      "bytes": 2967,
+      "sha256": "824308ac8f29bbd8bd9fe93c1f780916f08122973d3e56e3ea9221ba527c0123"
+    },
+    {
+      "file": "consumers/stages/background-drift-degree-010.json.gz",
+      "bytes": 3019,
+      "sha256": "1a56fe8e2d960516c65d933d9fa9483df5fe5f124e4f8647da521bc96f5bc486"
+    },
+    {
+      "file": "consumers/stages/background-drift-degree-011.json.gz",
+      "bytes": 2930,
+      "sha256": "2aecbc5ecbcdc17de867b39acd1e8ae741882e65bd2102a8fc8320a80bc4a6cd"
+    },
+    {
+      "file": "consumers/stages/background-drift-degree-012.json.gz",
+      "bytes": 2999,
+      "sha256": "be3b08059e445d47ad2aaba295359d91db2677ee1720c1955a81a1830312573e"
+    },
+    {
+      "file": "consumers/stages/background-drift-degree-013.json.gz",
+      "bytes": 2877,
+      "sha256": "456d4618d9a73c49a210ca469cdc36e288dacc8bf7a61fe47ed6f27b94d92cc4"
+    },
+    {
+      "file": "consumers/stages/background-drift-degree-014.json.gz",
+      "bytes": 2990,
+      "sha256": "5c17769b3dbb6c8c5a6407eb895f2e566eec66ccf0bd8d376cb66b84915a71f5"
+    },
+    {
+      "file": "consumers/stages/background-inputs-degree-009.json.gz",
+      "bytes": 710,
+      "sha256": "6cb4d4e6ca18d55e6cf4a0bd34cb83369859531277a89e5fc7c3bfd82fd2412c"
+    },
+    {
+      "file": "consumers/stages/background-inputs-degree-010.json.gz",
+      "bytes": 708,
+      "sha256": "776a318054075009fbce068fa60283210457aef08669832eee6a8ea8200e7cba"
+    },
+    {
+      "file": "consumers/stages/background-inputs-degree-011.json.gz",
+      "bytes": 706,
+      "sha256": "a1338d6eee2f541ad7be5b4b7827ddf86deffa01649c69bfa4d3e6847c843dfb"
+    },
+    {
+      "file": "consumers/stages/background-inputs-degree-012.json.gz",
+      "bytes": 709,
+      "sha256": "37a24fdbbcb769ec120e6abfe437b1afdea85d9358ec5526d0a63fd76a7e2b67"
+    },
+    {
+      "file": "consumers/stages/background-inputs-degree-013.json.gz",
+      "bytes": 705,
+      "sha256": "e7df1c5c498916408251b029a39b30b0e1e1bb93693657ea8801b6ebaece6786"
+    },
+    {
+      "file": "consumers/stages/background-inputs-degree-014.json.gz",
+      "bytes": 710,
+      "sha256": "258985308d00b24509aeedf6af2a2d9507533ea080ad578116193ad452dc53a8"
+    },
+    {
+      "file": "consumers/stages/background-main-degree-009.json.gz",
+      "bytes": 2567,
+      "sha256": "b2dc49e1bb4002a17862b255b89502341d91a60dec7c724b2455ae3d11426771"
+    },
+    {
+      "file": "consumers/stages/background-main-degree-010.json.gz",
+      "bytes": 2568,
+      "sha256": "37cc350e1312e337a64aefeb5a38297e32558284bb1659093f1aaecdc3888606"
+    },
+    {
+      "file": "consumers/stages/background-main-degree-011.json.gz",
+      "bytes": 2584,
+      "sha256": "091802bd56f486618818d92febf917075c502c725c2540ccee33aff8fc62dbea"
+    },
+    {
+      "file": "consumers/stages/background-main-degree-012.json.gz",
+      "bytes": 2610,
+      "sha256": "190e2bb66de2642a7abf2b5b578eaae3df1d174ca59a286235afb7da2366c5dd"
+    },
+    {
+      "file": "consumers/stages/background-main-degree-013.json.gz",
+      "bytes": 2597,
+      "sha256": "24472cffdb3252e1f9c8959ed1842626e8300f8f95a4bf14fb2c0d1f0cb831b5"
+    },
+    {
+      "file": "consumers/stages/background-main-degree-014.json.gz",
+      "bytes": 2579,
+      "sha256": "fe31ad9aef63a35c81c3dd001f0f60d94da7b289a9681d2603860e042544bdc9"
+    },
+    {
+      "file": "consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-degree-007.json.gz",
+      "bytes": 28708,
+      "sha256": "57c8812e5209c5882faca592aa2d9687a66c453324023c10649cc9515deaf90d"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-degree-008.json.gz",
+      "bytes": 28607,
+      "sha256": "365fd7338933760b21232fb9528c5c0f7748dd6af278fadc53741c26375991cd"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-degree-009.json.gz",
+      "bytes": 28335,
+      "sha256": "1137a2b6ceda5df8c0fd9075e6a004ebc3be09bbc13cffc528256d7cded23fc9"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-degree-010.json.gz",
+      "bytes": 28536,
+      "sha256": "e0aecdf4c98a7eed266dae418c07e5196bde8679911ce9e903d2513e7604e81b"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-degree-011.json.gz",
+      "bytes": 28426,
+      "sha256": "af4110991964cf1a94a7263220d0326656e36b9f9071eb4e6b9b85f9af75d2be"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-degree-012.json.gz",
+      "bytes": 28169,
+      "sha256": "e84fd44e3992a9d4b409a53b28b7358bdbfc556adeea809dabd0f65af0a22406"
+    },
+    {
+      "file": "consumers/stages/complete-local-operator-series.json.gz",
+      "bytes": 198895,
+      "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2"
+    },
+    {
+      "file": "consumers/stages/complete-normalized-transport-coefficients.json.gz",
+      "bytes": 426441,
+      "sha256": "ff6e78959bdd6c07076ef1bf2f6d4864ea24751d37715e63f907e39bcca12cce"
+    },
+    {
+      "file": "consumers/stages/complete-old-derivative-budget-0_1.json.gz",
+      "bytes": 9612,
+      "sha256": "764e8ffbc5af823809a37e91ac04bd9d6fada1ca3ccc5c16ccd081054e675d02"
+    },
+    {
+      "file": "consumers/stages/complete-old-derivative-budget-1_1024.json.gz",
+      "bytes": 9595,
+      "sha256": "7b3c4d3993bad567ed375c127c49f21189d7f51b757fee14fd2aa7d5b9c41bd5"
+    },
+    {
+      "file": "consumers/stages/complete-old-derivative-budget-1_512.json.gz",
+      "bytes": 9589,
+      "sha256": "16c7d2f540fd9d38b6340b96289e45a8e7a54c9e3fcd174d4045ac2b20c9a189"
+    },
+    {
+      "file": "consumers/stages/complete-old-derivative-budget-N12-0_1.json.gz",
+      "bytes": 9618,
+      "sha256": "5964c85d6827d41955e49e16c347666c676241a6a8a9ca2dd45fa6c67954fafb"
+    },
+    {
+      "file": "consumers/stages/complete-old-derivative-budget-N12-1_1024.json.gz",
+      "bytes": 9623,
+      "sha256": "d40864554435ca5d782e6e6bf72b47ecb6f1122adebf3d88ed3ecaa62dfcc6db"
+    },
+    {
+      "file": "consumers/stages/complete-old-derivative-budget-N12-1_512.json.gz",
+      "bytes": 9677,
+      "sha256": "b5af8b1032221e2e3cdbe29df00f7198b3caf0b3ac98d9b9baff94dcf28895f6"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-000.json.gz",
+      "bytes": 4421,
+      "sha256": "c51b07ca3bd78422f4655070f18e1d760aca9953423999fce94737a04ebc567e"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-001.json.gz",
+      "bytes": 10387,
+      "sha256": "35a459b6ed8f047adde8f6b34dd527a34dbdbc22fc4fe812ffc31722a12283e2"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-002.json.gz",
+      "bytes": 15298,
+      "sha256": "5ee0693759865d7f57084c55afad785c61eb35ea453d53e2bce7363425a3ae9b"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-003.json.gz",
+      "bytes": 20173,
+      "sha256": "5f50cb0dff88aeab1036a1e1f47cb27a38112d840662eb94c46e08b1b5813869"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-004.json.gz",
+      "bytes": 25092,
+      "sha256": "b63aa11d5c47f5645b2e4322c16b5d2a61a97363c591b3f49a66fa516c1e8023"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-005.json.gz",
+      "bytes": 29840,
+      "sha256": "4fd0e9b0b09829c8e709cc525f3d987d5a20f07d13ccf2e18bb29d982c473ee8"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-006.json.gz",
+      "bytes": 34835,
+      "sha256": "4fd2b3889cde56e0128b0a1f5a3b3d99f378413c6c7c39522e7d73cca2e7df93"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-007.json.gz",
+      "bytes": 39936,
+      "sha256": "aaa92f4c43d1300e307bbabd7a8dfc7aa15289eaaf90263861db8e4cddc30130"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-008.json.gz",
+      "bytes": 44934,
+      "sha256": "ba0f7fc3737ea00aa95c76bd8e2c4fdc4ca368360b22478a185c952e30c03afb"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-009.json.gz",
+      "bytes": 49900,
+      "sha256": "4c6efe73556c13c670ebeb6543766f3bd3e9345c2c1342d0e553723f14ed8738"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-010.json.gz",
+      "bytes": 54521,
+      "sha256": "15f9560b1b9ab4112f2fb09b5d8cfc9398838cb7b24c67b2d137c7488746975a"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-011.json.gz",
+      "bytes": 59501,
+      "sha256": "e5d8d1f0376bb0c8982524a699e45cd7adb69871ea87a6deedae9badf6229b12"
+    },
+    {
+      "file": "consumers/stages/first-correction-degree-012.json.gz",
+      "bytes": 64694,
+      "sha256": "78bbf8769be5d7bcf2835e5e5c7583836ead8f192c76f28632959e6b0feb7869"
+    },
+    {
+      "file": "consumers/stages/fold-degree-000.json.gz",
+      "bytes": 493,
+      "sha256": "a2778840c3443b4b4d659917565b4cac313eaa8b6ca021f484df8df8f407ba97"
+    },
+    {
+      "file": "consumers/stages/fold-degree-001.json.gz",
+      "bytes": 4711,
+      "sha256": "7c50f51da47ad3618e75a605ebff9138c497f1844264034c38bb4fa9bcfbae0c"
+    },
+    {
+      "file": "consumers/stages/fold-degree-002.json.gz",
+      "bytes": 8261,
+      "sha256": "c7d79aac477b6ee2f91b25757843fcf6a4099d5c924b517ff24d4b3addd07ccc"
+    },
+    {
+      "file": "consumers/stages/fold-degree-003.json.gz",
+      "bytes": 12943,
+      "sha256": "def89dfb5587be6021eb273ff2b73261c20f56907afd4942b9f90f5ea1fb4354"
+    },
+    {
+      "file": "consumers/stages/fold-degree-004.json.gz",
+      "bytes": 17935,
+      "sha256": "5a645262d6c974a3e2f79a89a1c535e662da9ed1ced211b3ec3a24661e4325fe"
+    },
+    {
+      "file": "consumers/stages/fold-degree-005.json.gz",
+      "bytes": 22962,
+      "sha256": "1d6c7cf5a447009a48591b657fa6727909b26ba8a443bf3d734302c9ef4335fc"
+    },
+    {
+      "file": "consumers/stages/fold-degree-006.json.gz",
+      "bytes": 27916,
+      "sha256": "252e44b55af435edf39be6627bd96576b19c51735b6c28dd8a7d012de678d6a4"
+    },
+    {
+      "file": "consumers/stages/fold-degree-007.json.gz",
+      "bytes": 32776,
+      "sha256": "8bc5f37614c9c59c24e5e0bf6e2830ec6cb8f820f46c5c9575bc9d515ea6c7f4"
+    },
+    {
+      "file": "consumers/stages/fold-degree-008.json.gz",
+      "bytes": 37724,
+      "sha256": "87e8520848581fb32698ecf00ff688a002f905bc4ca009064bab7631ab1308ff"
+    },
+    {
+      "file": "consumers/stages/fold-degree-009.json.gz",
+      "bytes": 42724,
+      "sha256": "e53d17a9b359a82d10513c71dc6f821727f5eab6dc37388b3a540ecdc1b03de9"
+    },
+    {
+      "file": "consumers/stages/fold-degree-010.json.gz",
+      "bytes": 47403,
+      "sha256": "b7d2ac0a33d354e1853de282bb521c740b7b5498825d5d1b7a3212092811bea1"
+    },
+    {
+      "file": "consumers/stages/fold-degree-011.json.gz",
+      "bytes": 52344,
+      "sha256": "cc06b52b5e684d8ed9a10ae81d6a94b6dc34e2fd7809197e5f5827c4d96aa908"
+    },
+    {
+      "file": "consumers/stages/fold-degree-012.json.gz",
+      "bytes": 57175,
+      "sha256": "516e089c57601139cbb36d5ee9f8127a152e1db53a2e1b2733237f2b591b0f15"
+    },
+    {
+      "file": "consumers/stages/fold-degree-013.json.gz",
+      "bytes": 61947,
+      "sha256": "b62d9ef41e7a6814fe8bd7afcfdde1eb744c5822a5a71b5dcd15ccb66d46959d"
+    },
+    {
+      "file": "consumers/stages/fold-degree-014.json.gz",
+      "bytes": 66816,
+      "sha256": "639437f264430b111eba49317266292b910fdbbd9b8926a3ec2e4b95947db51b"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-000.json.gz",
+      "bytes": 15497,
+      "sha256": "8165351ceb3b2e84200201cb5829c3b25e2fc072a8cda6d29390c4e3aad8d2af"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-001.json.gz",
+      "bytes": 25208,
+      "sha256": "b66d40db793a496b2dc8e4cf932ebde0feeafa8c6a3e230af282a485138fbfa5"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-002.json.gz",
+      "bytes": 35302,
+      "sha256": "277ba89907ad9812162a16c98ac620164185a01c967814c5c0057845ddb0bdd3"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-003.json.gz",
+      "bytes": 45280,
+      "sha256": "36781f1663cd3d463bdca60d61f45fad1f3c5e27d6212647734a4888da518fe0"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-004.json.gz",
+      "bytes": 55082,
+      "sha256": "97afa59e75df1de7811951b1d76ab98bbf0ed77944b34abdd8c29d0856085edb"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-005.json.gz",
+      "bytes": 65192,
+      "sha256": "221d4573da31f2227ee06eb2579273085ed28f68e838314fbf0351d6f587a54e"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-006.json.gz",
+      "bytes": 74683,
+      "sha256": "02e84ecb1b9925189623404b88201c6ff951fd0e0accd5a2fe025f6a9cd8fdc1"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-007.json.gz",
+      "bytes": 84588,
+      "sha256": "0ca45d4271c2f95775cf779ad81f9f3bf7b32de7bbd4bf8812b84012e3c6e8f8"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-008.json.gz",
+      "bytes": 94460,
+      "sha256": "10739c72277c96511ecf3b8041fbc286df526e3d2e02a1a3bda8b2b0a35195c8"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-009.json.gz",
+      "bytes": 104246,
+      "sha256": "2c719d497101983268927a7c26623e1fb8e3aaa1285bff5428b7b970cfc16245"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-010.json.gz",
+      "bytes": 114016,
+      "sha256": "55a9ac4af61a56ec1695464e74f96892c27af30ada58a4a08fa66cc164969c84"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-011.json.gz",
+      "bytes": 123588,
+      "sha256": "47abe98bf9b1b22f14cd9be3c4cb4124bbf64531e18da5921fbd4ded1118b7a0"
+    },
+    {
+      "file": "consumers/stages/forcing-degree-012.json.gz",
+      "bytes": 133285,
+      "sha256": "e4de78de5b252683d13f239227ee6a4d374da58773d53d315c6bfe7c4a625ecb"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-000.json.gz",
+      "bytes": 721,
+      "sha256": "8a890f4715f4da1f719853582d5c5647210eb110d54fadc4d5b057de103bd716"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-001.json.gz",
+      "bytes": 947,
+      "sha256": "208a6c3cb8930fe7798aa5be9253c51f1e583ce88da25952d07d807dc57fee81"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-002.json.gz",
+      "bytes": 943,
+      "sha256": "6115d303615168bef54f65a67ae4205e15ac1b28db7f80ef5822bf562dc457f2"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-003.json.gz",
+      "bytes": 941,
+      "sha256": "806aee068a2bdec6b79d613e7d9dc691682a8ba640e0c7a95b17b08522e7be3a"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-004.json.gz",
+      "bytes": 942,
+      "sha256": "70444bebe0f02134d920f2d849f65927d3822e2df5241a1e82ecfcb2c8447d94"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-005.json.gz",
+      "bytes": 948,
+      "sha256": "d2e04a6725c40a2cf6a8beeb2ce1bbf743ed4988acbc6bf6eacb9a045e27bd3f"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-006.json.gz",
+      "bytes": 944,
+      "sha256": "044ac9033dc82e06db07bfaa4c3f25c5cbf0c0c4156ede5fb7eca23e5f676388"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-007.json.gz",
+      "bytes": 1012,
+      "sha256": "a37ab7272c982dae8af38cfcb4eb1fdcf52c6f70d3965a0cc961bd9ee6ff0a52"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-008.json.gz",
+      "bytes": 1024,
+      "sha256": "58b2b1e0950d05f810a426e0d81164cc28c7d2ae37c7044b8f45242108ce32a3"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-009.json.gz",
+      "bytes": 1026,
+      "sha256": "bee579f9eaf1a608bc3b441e022649ae415dbeb487b6e33669bbd338c6c051ee"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-010.json.gz",
+      "bytes": 1025,
+      "sha256": "ffbc862c5d855728a8547f19eb580a642d2d6e25cd36f4ca398e534ea75fd309"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-011.json.gz",
+      "bytes": 1022,
+      "sha256": "71c7444e9079daa588a404a8f6dea3b6b8e2b1edd23aa527313cb01297c83fa4"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-0_1-degree-012.json.gz",
+      "bytes": 1023,
+      "sha256": "3cc6f3bbade827d1c0cff99ddc2d68478bcbb365fe4042034fe8dd6e93e615e1"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-000.json.gz",
+      "bytes": 725,
+      "sha256": "c04cdcea3916d85a9693a59ce8b8a3e1c9d792d0244c4291a653d3440ade5a81"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-001.json.gz",
+      "bytes": 955,
+      "sha256": "fadfa506070353854dba4327b36aaceafa340d9ff982d3a9b74a7fe6d8e7f4bd"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-002.json.gz",
+      "bytes": 949,
+      "sha256": "aa383e8a872a9954f8213e24a954c8e0aafc9dc73cd3a4931f5145a9032ca44e"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-003.json.gz",
+      "bytes": 950,
+      "sha256": "eb3c586f1ffced61d098cb3128612c7c662089021c6ba9601ca71bf620bfac4a"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-004.json.gz",
+      "bytes": 951,
+      "sha256": "6325b85f73494adf0e31e0716e4a5216b8f087d4c187e08a4c2eb8b3a2a42639"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-005.json.gz",
+      "bytes": 951,
+      "sha256": "d0b63943f5ac89060785ae803d15659e87258866784aa28d22bd0264c53c5780"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-006.json.gz",
+      "bytes": 953,
+      "sha256": "fe9077b531f7205c762b7290e9cc79c6749ca5ca84b3e971561b94ee6da21a57"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-007.json.gz",
+      "bytes": 1023,
+      "sha256": "e1c5c6d6d24e1d99d86e65500d1e8238933fcd0b576a70c94ed5b5882a0b65ea"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-008.json.gz",
+      "bytes": 1027,
+      "sha256": "9b085ac22bd339c321797a503feefab03ddd4f64cf6eb06961cce33c9fce6979"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-009.json.gz",
+      "bytes": 1019,
+      "sha256": "f22f515b0cf1e87e8c221120cc4562966631937e61b0dd0c3fc4ff7bf123c2e3"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-010.json.gz",
+      "bytes": 1023,
+      "sha256": "7872e9dc880e55efaa52bdbc6b5e69c91e36531132c837a205b2286665b13204"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-011.json.gz",
+      "bytes": 1026,
+      "sha256": "da4e23ce96491b3edbed0a290271ed8355366e021a543d1c0c140c6226ced2a1"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_1024-degree-012.json.gz",
+      "bytes": 1025,
+      "sha256": "6d7873e3fee297ce99cf4467ef99850f1be063f8f4efe4ef3ec6122212b8b2b6"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-000.json.gz",
+      "bytes": 721,
+      "sha256": "edf0c59a4d78b539591a33814e9f66f262481c39a3c27cce7513ec0c30ae44a2"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-001.json.gz",
+      "bytes": 950,
+      "sha256": "152f69eea18664cc1455f7d0047aad84830d6dd76fc2e6e54f0ce494f87a7653"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-002.json.gz",
+      "bytes": 948,
+      "sha256": "218c12bbb54e892552b3d6abddc88ddc7665ccdfa7518b70a77fdc3f50b553ac"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-003.json.gz",
+      "bytes": 945,
+      "sha256": "2f2b080a16b0e9a18078b7bfa55866a0957f34ef7e1cba9d57befabd9b93ef99"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-004.json.gz",
+      "bytes": 951,
+      "sha256": "0ef0978e0400b035b92d7216fefdd694e9fc84f8ffc20dfaa4458a5139495dab"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-005.json.gz",
+      "bytes": 953,
+      "sha256": "ba61723b0bea51d3cb47ccaf255232b26f242f1b949bdc2f4323a5085543026f"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-006.json.gz",
+      "bytes": 946,
+      "sha256": "1cb2a06396ae417b5a5ff58931cc4b898815b150ae5f1b267bdfb5d98bd7c221"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-007.json.gz",
+      "bytes": 1020,
+      "sha256": "10fec85d295b0c6cc8953f9b4f0e3f07ac90fd204d31cb4c4185a8639d517642"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-008.json.gz",
+      "bytes": 1021,
+      "sha256": "e6f6fe1344a7ae69fdfc774621dcf981c04e1cfba06ba8fbac99fb1f91656607"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-009.json.gz",
+      "bytes": 1029,
+      "sha256": "fae90a719d8298130d7c266f51492a0700afaa1ad8d572f50c63d5528d9ee695"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-010.json.gz",
+      "bytes": 1022,
+      "sha256": "b6792e060747737ad90e23e880c22945e32c59e8cb8e3e3c67b40a972a131f27"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-011.json.gz",
+      "bytes": 1022,
+      "sha256": "3eb0426e1aeacb71072badeaca92efdc290d2e766bffba92c5ccffa3bc08eb3a"
+    },
+    {
+      "file": "consumers/stages/full-Fourier-norm-1_512-degree-012.json.gz",
+      "bytes": 1022,
+      "sha256": "1daa368c5b9f6d08a29c764493ce6da12bacbe2d9924f9d28beef8b846eae850"
+    },
+    {
+      "file": "consumers/stages/helper-A-minus-one-third-through-fourteen.json.gz",
+      "bytes": 243314,
+      "sha256": "a7af45e0376902d918a7ffabbed0047f1ff93b1d0db4ba4312b12ac4dbcbcce7"
+    },
+    {
+      "file": "consumers/stages/helper-A-two-thirds-through-fourteen.json.gz",
+      "bytes": 243272,
+      "sha256": "e045d7497ec05ab4540c6f347441af70bc8e4274c13552adc09aa30f1c0c2385"
+    },
+    {
+      "file": "consumers/stages/helper-complete-AC-local-potential-through-twelve.json.gz",
+      "bytes": 48072,
+      "sha256": "5c4333033f5c8036a0ded793bb9fa2ecc694c9473bce6686a91fbba7de8a9d79"
+    },
+    {
+      "file": "consumers/stages/helper-complete-G-Xphi-product-through-fourteen.json.gz",
+      "bytes": 243371,
+      "sha256": "b94860c549432f5f64a125f078bf1307cba18e476e676d6822dcd58daa0902a9"
+    },
+    {
+      "file": "consumers/stages/helper-complete-G-fractional-product-through-fourteen.json.gz",
+      "bytes": 242948,
+      "sha256": "fc07028e7c38bd58c03e0c93b5486842d1c5717bd5d923a8b20d6f4eef888c83"
+    },
+    {
+      "file": "consumers/stages/helper-complete-K-v-square-through-thirteen.json.gz",
+      "bytes": 25290,
+      "sha256": "aa2a853670d9a61e6e27ab009d109a2840011a1bf7d03074763c2180e34c6a0e"
+    },
+    {
+      "file": "consumers/stages/helper-complete-Q-logpart-through-twelve.json.gz",
+      "bytes": 25380,
+      "sha256": "389fe9ea35097ee2a7001d76c2b8f91c483ee185ef406dfa94002b75349d1a5e"
+    },
+    {
+      "file": "consumers/stages/helper-complete-Q-square-through-fourteen.json.gz",
+      "bytes": 242584,
+      "sha256": "29236b8bdbd98fe1cb60a54e51b7b083864a9dccdc541334cad26ccf8c7dfecf"
+    },
+    {
+      "file": "consumers/stages/helper-complete-T-angular-derivative-through-fourteen.json.gz",
+      "bytes": 209864,
+      "sha256": "8bd5065f787e03a01db3b9bb9036aa73a541d8237c24c54847971407728f65a7"
+    },
+    {
+      "file": "consumers/stages/helper-complete-T-angular-square-through-fourteen.json.gz",
+      "bytes": 176739,
+      "sha256": "5c6ab1aaa0290613a4f0e097151da48b2451548dc45fd131401554b876384132"
+    },
+    {
+      "file": "consumers/stages/helper-complete-T-b0-through-twelve.json.gz",
+      "bytes": 124722,
+      "sha256": "43f2bf018b18b452932c1c06109fa61879a51a9d1f60e7a5714a1beab10c2046"
+    },
+    {
+      "file": "consumers/stages/helper-complete-T-rho-through-thirteen.json.gz",
+      "bytes": 209415,
+      "sha256": "d3534d126f239131540d9a1a1c90b56cedda3bbfbc515effeb6e8b1f4702299d"
+    },
+    {
+      "file": "consumers/stages/helper-complete-T0-d-through-twelve.json.gz",
+      "bytes": 48855,
+      "sha256": "e30b6e09e96d237ae8ff5e0baa9980787f55b13d1ca5ed9364eca84938ed10a6"
+    },
+    {
+      "file": "consumers/stages/helper-complete-a0-phi-derivative-through-fourteen.json.gz",
+      "bytes": 243262,
+      "sha256": "5468473e13caed6306e838c93a04d4b36d2eb09331f86c525858d84f83fef313"
+    },
+    {
+      "file": "consumers/stages/helper-complete-a0-phi-second-through-fourteen.json.gz",
+      "bytes": 242333,
+      "sha256": "f43d7715e6cf0313096a4a8c0f8a8998671f8320ec4860918e6afd761a26f9d7"
+    },
+    {
+      "file": "consumers/stages/helper-complete-a0-rho-derivative-through-thirteen.json.gz",
+      "bytes": 242362,
+      "sha256": "86f4b9900ee96af775fe0522343d1c6e84f47a4f0f15fdb4e5e64e9f32282915"
+    },
+    {
+      "file": "consumers/stages/helper-complete-a0-rho-phi-through-thirteen.json.gz",
+      "bytes": 243650,
+      "sha256": "fee136067abbfa0bef003cead62982b5024ea5073ccb1735501bdead272cbe7d"
+    },
+    {
+      "file": "consumers/stages/helper-complete-a0-rho-second-through-twelve.json.gz",
+      "bytes": 239692,
+      "sha256": "54265aadc71e540b521eb4cd5cd21c124c6108e27e6c82ab72a6566abd05facf"
+    },
+    {
+      "file": "consumers/stages/helper-complete-b0-determinant-inverse-through-twelve.json.gz",
+      "bytes": 150696,
+      "sha256": "08e3f50409117eca1c8f8b07e5fad6caefe0d0abf379582e20a15c60a08d9b6a"
+    },
+    {
+      "file": "consumers/stages/helper-complete-b0-phi-derivative-through-fourteen.json.gz",
+      "bytes": 209192,
+      "sha256": "13636169a4d9a0290806b31d725c68dcc8b3cada560534b56c5899093fc5e999"
+    },
+    {
+      "file": "consumers/stages/helper-complete-b0-phi-second-through-fourteen.json.gz",
+      "bytes": 208817,
+      "sha256": "9805c5e3359bb1516683b671160b578caf743e24fcc857508b2a0324825ad97f"
+    },
+    {
+      "file": "consumers/stages/helper-complete-b0-rho-derivative-through-thirteen.json.gz",
+      "bytes": 209037,
+      "sha256": "dec8e5e3787699c1d36a53ac386fc834b0113fec8a06ee296f139de376caac34"
+    },
+    {
+      "file": "consumers/stages/helper-complete-b0-rho-phi-through-thirteen.json.gz",
+      "bytes": 209396,
+      "sha256": "73ea64629b39a356c0eb2ee212638bdc81407f7b48785823db543392530d5a43"
+    },
+    {
+      "file": "consumers/stages/helper-complete-b0-rho-second-through-twelve.json.gz",
+      "bytes": 208092,
+      "sha256": "7704cd7a3657af6f98456ca2feb0a4a6ee2c158f5fc324d74980f8a852011827"
+    },
+    {
+      "file": "consumers/stages/helper-complete-background-mean-v-through-fourteen.json.gz",
+      "bytes": 804,
+      "sha256": "24091e49d056066f664c5fd8a84457b765b9b8f4c67f19d5e9ebfc61bd94b6ad"
+    },
+    {
+      "file": "consumers/stages/helper-complete-background-primitive-S-through-fourteen.json.gz",
+      "bytes": 30640,
+      "sha256": "efa33af01926aef25633453a75c5ba71e46bc0c341f0b659f49f494b6568e206"
+    },
+    {
+      "file": "consumers/stages/helper-complete-background-u-square-through-fourteen.json.gz",
+      "bytes": 14197,
+      "sha256": "b20574e944496c629bc3a32f2d407911f756a44655827c928c41553f735d8514"
+    },
+    {
+      "file": "consumers/stages/helper-complete-background-v-square-through-fourteen.json.gz",
+      "bytes": 22688,
+      "sha256": "fc888eb117f7ec87422baad4316d35171ce85e2624b3d509a2fd9c24758e900e"
+    },
+    {
+      "file": "consumers/stages/helper-complete-beta-K-product-through-twelve.json.gz",
+      "bytes": 747,
+      "sha256": "770039c8c2577fcd1c2ee78746c7eebf010894549972b2e0b0919307d0636da6"
+    },
+    {
+      "file": "consumers/stages/helper-complete-beta-eta-product-through-twelve.json.gz",
+      "bytes": 821,
+      "sha256": "6c9029fff39bbf3bbf256cf4f369110ab8055236d4ddfa31df75d3ca24b97d66"
+    },
+    {
+      "file": "consumers/stages/helper-complete-bloc-angular-derivative-through-thirteen.json.gz",
+      "bytes": 27447,
+      "sha256": "7594027db2028e4fa8dc70f46914e90d89bf7c0b5556f39edb0cd4adae5bfe6a"
+    },
+    {
+      "file": "consumers/stages/helper-complete-bloc-argument-through-thirteen.json.gz",
+      "bytes": 27153,
+      "sha256": "eeec463b051e1752d1b3be2eefdb64a86ad2ef92eb713bb68c06852d26c353b3"
+    },
+    {
+      "file": "consumers/stages/helper-complete-chi-rho-through-thirteen.json.gz",
+      "bytes": 243270,
+      "sha256": "0b9490fb6a58456216eb98f087a3752b81758a9419fc5d00dda2e87e4d82e9a8"
+    },
+    {
+      "file": "consumers/stages/helper-complete-d-angular-derivative-through-thirteen.json.gz",
+      "bytes": 27045,
+      "sha256": "713eb92383470e7ab3fe1dc52e2b406176cecdecf37bae2349478cc60d685a7e"
+    },
+    {
+      "file": "consumers/stages/helper-complete-ell-angular-derivative-through-thirteen.json.gz",
+      "bytes": 26604,
+      "sha256": "1ee0c73b091edbbecf5258b528bcddd7d95c7df686796af132c02fd0ff39964b"
+    },
+    {
+      "file": "consumers/stages/helper-complete-epoly-angular-derivative-through-twelve.json.gz",
+      "bytes": 25645,
+      "sha256": "114958392f5fcf28cd38bc2bf0a5ef3d9afa66d860dbfc23a0e86cf76dec59e6"
+    },
+    {
+      "file": "consumers/stages/helper-complete-epoly-argument-through-thirteen.json.gz",
+      "bytes": 26969,
+      "sha256": "7e60bd7f7c2428281750f63c11c437d418524560fecc934521afd1121f7b9539"
+    },
+    {
+      "file": "consumers/stages/helper-complete-eta-inverse-through-twelve.json.gz",
+      "bytes": 812,
+      "sha256": "a582d864e09e93e9f50b70c83fb9619aef0a6276d5b8088fed3282302a6c9775"
+    },
+    {
+      "file": "consumers/stages/helper-complete-eta-log-rho-through-twelve.json.gz",
+      "bytes": 814,
+      "sha256": "ad8116ce4f286cfba382d8573202c7a179c9272d84a0faabe6a42febefeae41c"
+    },
+    {
+      "file": "consumers/stages/helper-complete-eta-square-through-twelve.json.gz",
+      "bytes": 817,
+      "sha256": "24ccc5a5e2fbaacbcb3128df78ced827f7ce1f1884b580dd82438732604fa31f"
+    },
+    {
+      "file": "consumers/stages/helper-complete-u-angular-u-product-through-twelve.json.gz",
+      "bytes": 14574,
+      "sha256": "de721886b910b80dfbcdec70fccb8da7eefd2dcf9d1fdecddc4acc31549c7f99"
+    },
+    {
+      "file": "consumers/stages/helper-complete-u-v-product-through-thirteen.json.gz",
+      "bytes": 22218,
+      "sha256": "f9b445d37ccfb72f351e7fe804c3a859382a883cdeeb68fce1cfb8cca491f40b"
+    },
+    {
+      "file": "consumers/stages/helper-complete-v-u-angular-product-through-twelve.json.gz",
+      "bytes": 19992,
+      "sha256": "30a7bb7ea73099d551e4bb2c36852bf78b07032c4ad4015dcdee516a3dedbd1e"
+    },
+    {
+      "file": "consumers/stages/helper-complete-v-v-angular-product-through-twelve.json.gz",
+      "bytes": 21175,
+      "sha256": "5056078b90ce4de7c0304de2a73873fc4df82c52cfba93ea6d8318179dd66450"
+    },
+    {
+      "file": "consumers/stages/helper-complete-vartheta-Q-through-twelve.json.gz",
+      "bytes": 241693,
+      "sha256": "ede1bbd9a53babc6ba7a413cf0ced5348aecadb99ede50a17234584195da203f"
+    },
+    {
+      "file": "consumers/stages/helper-new-unsaved-leading-determinant-inverse-through-twelve.json.gz",
+      "bytes": 178907,
+      "sha256": "277934d9e2bc88b04fa97a40fc18696ada0c6d20da1beab7ab3eadd2bd7bad8b"
+    },
+    {
+      "file": "consumers/stages/helper-new-unsaved-leading-determinant-through-twelve.json.gz",
+      "bytes": 179105,
+      "sha256": "66ace58b9b3008befdc416c2d1b009df3a6a39972b8967f4ed64c71416f52e9e"
+    },
+    {
+      "file": "consumers/stages/helper-normalized-A-one-sixth-through-fourteen.json.gz",
+      "bytes": 243116,
+      "sha256": "6b7cb4fb8fc20faf386ef0a16d3ed02609d543b2684660eb2ad9c5dfe81ddeb6"
+    },
+    {
+      "file": "consumers/stages/helper-normalized-k-minus-one-quarter-through-fourteen.json.gz",
+      "bytes": 798,
+      "sha256": "b839ad9e7dab5b0127bd04ad98487f06d32b5b89167bba98de1d8849a6da74a8"
+    },
+    {
+      "file": "consumers/stages/helper-radial-EG-transport-coefficients-through-thirteen.json.gz",
+      "bytes": 846,
+      "sha256": "4ba0a848dcd04f7dc3f438a948576f35c5820bc08d531090074f6e3dd2b93bbe"
+    },
+    {
+      "file": "consumers/stages/helper-radial-k-half-through-fourteen.json.gz",
+      "bytes": 783,
+      "sha256": "ac0a2d4436a21ffa425f31e21a1a19abf8fba13a3d21a790ffc269a40c10151a"
+    },
+    {
+      "file": "consumers/stages/leading-B_minus-degree-009.json.gz",
+      "bytes": 21497,
+      "sha256": "a8b81205ebe9d6cab8593f234b15d9e95299374e799066410cd1c7f0ec0c9af2"
+    },
+    {
+      "file": "consumers/stages/leading-B_minus-degree-010.json.gz",
+      "bytes": 23838,
+      "sha256": "c626f6c2d93299b45ce1f3e454d86e9de06dd5f0b867c35d4d11df80d2fb8e1b"
+    },
+    {
+      "file": "consumers/stages/leading-B_minus-degree-011.json.gz",
+      "bytes": 26325,
+      "sha256": "4f374d36a90caa0fe81fc10b35530609d13a327105774715b2f489de073f8179"
+    },
+    {
+      "file": "consumers/stages/leading-B_minus-degree-012.json.gz",
+      "bytes": 28770,
+      "sha256": "eebc26c74d94fa6ca7f2727352715a24cebc398677173e18f8b77d54ef621ba6"
+    },
+    {
+      "file": "consumers/stages/leading-B_minus-degree-013.json.gz",
+      "bytes": 31121,
+      "sha256": "68ba1bf8a42462b6d1dfb92d264c1f66f94673098f88134fb865d9aa72c15cfe"
+    },
+    {
+      "file": "consumers/stages/leading-B_minus-degree-014.json.gz",
+      "bytes": 33690,
+      "sha256": "e1718e278f7fbc97b9f1e649131ebb6939ba41416d59a31c307275a803e392ee"
+    },
+    {
+      "file": "consumers/stages/leading-B_plus-degree-009.json.gz",
+      "bytes": 21502,
+      "sha256": "3a160b813bd50a74ff2e6b908845ab8885b242156fc2f57154fb7a34c280db20"
+    },
+    {
+      "file": "consumers/stages/leading-B_plus-degree-010.json.gz",
+      "bytes": 23843,
+      "sha256": "4909310185bbe966aaf4db26b49661f07ebd0a74e39bc8ed516efc37b9b5f87b"
+    },
+    {
+      "file": "consumers/stages/leading-B_plus-degree-011.json.gz",
+      "bytes": 26326,
+      "sha256": "9f4ba17e64b6cb0700a87dbbc0b76472307e0d67fa421ced9c52a75dd03af940"
+    },
+    {
+      "file": "consumers/stages/leading-B_plus-degree-012.json.gz",
+      "bytes": 28761,
+      "sha256": "a6ec19a8111464ab68ea5a205851d9dd27f5cfeecbde2d92892b844250e651db"
+    },
+    {
+      "file": "consumers/stages/leading-B_plus-degree-013.json.gz",
+      "bytes": 31114,
+      "sha256": "0396987c98077d997c8bc9c4f1bc7d548bf45fdcc064403d502f791f37f5df95"
+    },
+    {
+      "file": "consumers/stages/leading-B_plus-degree-014.json.gz",
+      "bytes": 33680,
+      "sha256": "ba4b15ea9505145db6285766fae4f1157026f73951da7c71e7b47d855303f273"
+    },
+    {
+      "file": "consumers/stages/leading-EG-degree-009.json.gz",
+      "bytes": 559,
+      "sha256": "1e1e7526b8c26508f5bdba2b06166edd7edc7eae2194ebf6ae83bbc851ad3609"
+    },
+    {
+      "file": "consumers/stages/leading-EG-degree-010.json.gz",
+      "bytes": 559,
+      "sha256": "58acd42dddfa3ad379d012c19c212b31226cf07720bfa95f6094773e5b6986ee"
+    },
+    {
+      "file": "consumers/stages/leading-EG-degree-011.json.gz",
+      "bytes": 559,
+      "sha256": "fe403371a617c9530687a7626abcad2bc903050f15f2139cce87f3ef1a2c9914"
+    },
+    {
+      "file": "consumers/stages/leading-EG-degree-012.json.gz",
+      "bytes": 559,
+      "sha256": "ecc2c3e98d3f28bd8986e120796babe4f67b1ec6e044f9ea58ab054f9d6bcc93"
+    },
+    {
+      "file": "consumers/stages/leading-EG-degree-013.json.gz",
+      "bytes": 558,
+      "sha256": "5460f54095f6bafb241041e673e40aa0bf5089df1da4060a8d33e363e542d61b"
+    },
+    {
+      "file": "consumers/stages/leading-EG-degree-014.json.gz",
+      "bytes": 559,
+      "sha256": "7fb620cdf97f43ed8ee1d38ad78add9ba971c86c8362f1d3fcd91099872eeaf0"
+    },
+    {
+      "file": "consumers/stages/leading-G-degree-009.json.gz",
+      "bytes": 21584,
+      "sha256": "38640529fcb34b358f96d13e23fdb94a529a4a5d1c3ff01f59fe91e38de5c7ce"
+    },
+    {
+      "file": "consumers/stages/leading-G-degree-010.json.gz",
+      "bytes": 23904,
+      "sha256": "2d642276156dba1d1817b39b6d68d35179e335a0dfae54f780e4724a48797907"
+    },
+    {
+      "file": "consumers/stages/leading-G-degree-011.json.gz",
+      "bytes": 26344,
+      "sha256": "e2d6cc99b0a02bc0f00508e252a3392a9c2c762ca6ed0d4b8c7428b21c0fc7dc"
+    },
+    {
+      "file": "consumers/stages/leading-G-degree-012.json.gz",
+      "bytes": 29044,
+      "sha256": "e6dc7093896417fbd01a941e168e0c92bc3d3705b764e7b37780260d3508ca23"
+    },
+    {
+      "file": "consumers/stages/leading-G-degree-013.json.gz",
+      "bytes": 31236,
+      "sha256": "6ceb89f7bb7d7a70e34c75d8339495569a5f0cbaf660c95ac167238bd0239c41"
+    },
+    {
+      "file": "consumers/stages/leading-G-degree-014.json.gz",
+      "bytes": 33506,
+      "sha256": "01668ecddcbfa6415770b0b62a9bf867040a790bddee7e562388fb9067a505a8"
+    },
+    {
+      "file": "consumers/stages/leading-Q-degree-009.json.gz",
+      "bytes": 21487,
+      "sha256": "ae6e190a3a69cf255c609fb562b6dd7aaede0c0fe58be6077c9fe9bbed0c0c64"
+    },
+    {
+      "file": "consumers/stages/leading-Q-degree-010.json.gz",
+      "bytes": 23936,
+      "sha256": "0d4094ef25b3d89ebac869d37da335b55729326c48c4bd90642b38e5798c7ea7"
+    },
+    {
+      "file": "consumers/stages/leading-Q-degree-011.json.gz",
+      "bytes": 26559,
+      "sha256": "9c692c0f98d862b9305b0efc8d018d418a9e5fa1d7c1392c19129f969063c35a"
+    },
+    {
+      "file": "consumers/stages/leading-Q-degree-012.json.gz",
+      "bytes": 28848,
+      "sha256": "5aa51a2ae7f5b40878f8d61013c9c046029e2605433c94a8e9a62210eb09221f"
+    },
+    {
+      "file": "consumers/stages/leading-Q-degree-013.json.gz",
+      "bytes": 31320,
+      "sha256": "ab6b569b52ec8e5421d2431d1cf4ac4f09640f77ebeea216ed34d7cdff7a591a"
+    },
+    {
+      "file": "consumers/stages/leading-Q-degree-014.json.gz",
+      "bytes": 33709,
+      "sha256": "5313d6d8825720dc1b44b57e68c777ff41afbd64078b4b955c5aab631b2cfae4"
+    },
+    {
+      "file": "consumers/stages/leading-T-degree-009.json.gz",
+      "bytes": 19089,
+      "sha256": "aac9ffd9731d52365aba100a5a4712e3d4e666bf208b774b90c9ef947857e21d"
+    },
+    {
+      "file": "consumers/stages/leading-T-degree-010.json.gz",
+      "bytes": 21602,
+      "sha256": "9f86a9e1ac5b0100fb23c938b62575dc0cebe4ecbf9f0bd8befe483ba6dec7e1"
+    },
+    {
+      "file": "consumers/stages/leading-T-degree-011.json.gz",
+      "bytes": 23983,
+      "sha256": "ac5a6dd820e9bbec9841e35385c31b998da094afb85709377b2f7b656dbb7308"
+    },
+    {
+      "file": "consumers/stages/leading-T-degree-012.json.gz",
+      "bytes": 26411,
+      "sha256": "2de6c557f14a33157f61ff077d1f4a268069b6e9163bf4cfd90fb32075667144"
+    },
+    {
+      "file": "consumers/stages/leading-T-degree-013.json.gz",
+      "bytes": 28769,
+      "sha256": "ea6ea525ac712c2346f27b6ec448d5061bdb89989cb2ad6dd5642df60900baef"
+    },
+    {
+      "file": "consumers/stages/leading-T-degree-014.json.gz",
+      "bytes": 31429,
+      "sha256": "f7368d9379d1d23c4d01dfbf4ab97c3401609d7564e9b2dbd48fb3bcee6a3430"
+    },
+    {
+      "file": "consumers/stages/leading-Xp-degree-009.json.gz",
+      "bytes": 21491,
+      "sha256": "b1bdfe96f7b36153a3fc813f4c0aa6d94d9e0bed2252a0b2f88850e67a5ace57"
+    },
+    {
+      "file": "consumers/stages/leading-Xp-degree-010.json.gz",
+      "bytes": 23939,
+      "sha256": "451f0a86bfb2fc4108d4c55d3a3d181f4f7336d78b0b81dab73226901f06f177"
+    },
+    {
+      "file": "consumers/stages/leading-Xp-degree-011.json.gz",
+      "bytes": 26383,
+      "sha256": "b0e210198346ca7477f86694373ba31219f45f380e9ee2e35a4f79028e011723"
+    },
+    {
+      "file": "consumers/stages/leading-Xp-degree-012.json.gz",
+      "bytes": 28631,
+      "sha256": "95489acf859052be6362ce3f909e30da542e874bb07eab3cb25954b19664093b"
+    },
+    {
+      "file": "consumers/stages/leading-Xp-degree-013.json.gz",
+      "bytes": 31088,
+      "sha256": "7004e28125730c1a802f7574742914c590068c8de6cac07e4fffbd10fc8d1750"
+    },
+    {
+      "file": "consumers/stages/leading-Xp-degree-014.json.gz",
+      "bytes": 33709,
+      "sha256": "95d99747be925d00cfd6c3d06771eed8f364d33ecbf74e8c66fbf5f5efc315df"
+    },
+    {
+      "file": "consumers/stages/leading-a0-degree-009.json.gz",
+      "bytes": 21412,
+      "sha256": "5821fdc3e3b48be37ec3d059db5738cb25544a1cc598d351b2fc66e9a693da77"
+    },
+    {
+      "file": "consumers/stages/leading-a0-degree-010.json.gz",
+      "bytes": 23946,
+      "sha256": "3a962a3189fb90a5aed40f8734dbd1fc322ac6971e273f904eeab6a0fbd48e3b"
+    },
+    {
+      "file": "consumers/stages/leading-a0-degree-011.json.gz",
+      "bytes": 26457,
+      "sha256": "91f04be6b41c8901ef2af0890db0e2f94c4e822416935fd8caeeb3bcc478e449"
+    },
+    {
+      "file": "consumers/stages/leading-a0-degree-012.json.gz",
+      "bytes": 28834,
+      "sha256": "c48b1e5139daad8b604498ffd47b52c8292582116773a75fd35c96354e14c20c"
+    },
+    {
+      "file": "consumers/stages/leading-a0-degree-013.json.gz",
+      "bytes": 31181,
+      "sha256": "b34808391dd8214638f2e15bc76ceabc3bf7eddddaeaee5cd9e8f4ff4d0da8b5"
+    },
+    {
+      "file": "consumers/stages/leading-a0-degree-014.json.gz",
+      "bytes": 33563,
+      "sha256": "0d5a1fd112eb367cd7cdc921f521162e3b0e66c88b55803704a022f1d11c4dd1"
+    },
+    {
+      "file": "consumers/stages/leading-b0-degree-009.json.gz",
+      "bytes": 19113,
+      "sha256": "470ed3e75fbf33a139ba96ef8a482d6d0584d966e8706b85731f4a034eafd843"
+    },
+    {
+      "file": "consumers/stages/leading-b0-degree-010.json.gz",
+      "bytes": 21660,
+      "sha256": "63ccc0b780517fb6c67a4ff9c7049f8423237f353522878b383e6e9795eb83e2"
+    },
+    {
+      "file": "consumers/stages/leading-b0-degree-011.json.gz",
+      "bytes": 24025,
+      "sha256": "ed60457d99b633f2c845cd999b4e639e9f2f18ec90daf7ed79216bf47d7cfbd4"
+    },
+    {
+      "file": "consumers/stages/leading-b0-degree-012.json.gz",
+      "bytes": 26510,
+      "sha256": "9f9c6e535c8c46737a948f07eecb88f83904cb6926e49d39f0567b1c4f3bd9ad"
+    },
+    {
+      "file": "consumers/stages/leading-b0-degree-013.json.gz",
+      "bytes": 28968,
+      "sha256": "1af21e896eabe2c16535d3b9437b95e563fc9f92bfa01f9b83b980523f38003d"
+    },
+    {
+      "file": "consumers/stages/leading-b0-degree-014.json.gz",
+      "bytes": 31232,
+      "sha256": "7544017a5e36df6a2a31a6572909c020e8d33f968636a94ec1e57ba4fd37a9b9"
+    },
+    {
+      "file": "consumers/stages/leading-complete-B_minus.json.gz",
+      "bytes": 80612,
+      "sha256": "8d76fb11b91e8c528472509184cef8ff69ea4c895899c4075695abb4723e445b"
+    },
+    {
+      "file": "consumers/stages/leading-complete-B_plus.json.gz",
+      "bytes": 80608,
+      "sha256": "04f8d570f08d3dc12b48413f1de02a18f6e0c5f16f8a074ff734639b71b3096b"
+    },
+    {
+      "file": "consumers/stages/leading-complete-EG.json.gz",
+      "bytes": 628,
+      "sha256": "c9c8b5029fe9519ee70587b47bf37c78d6d6fe0c9b7fcbb39517f573230eb1a8"
+    },
+    {
+      "file": "consumers/stages/leading-complete-G.json.gz",
+      "bytes": 80489,
+      "sha256": "65ed2a948486f338156c261624b3e708d217549f37aabd71aff1b525263d5c85"
+    },
+    {
+      "file": "consumers/stages/leading-complete-Q.json.gz",
+      "bytes": 80521,
+      "sha256": "0aa0da3c5260ebab0f64afaf0df07eab854988a9a630260714a783ef1c21d523"
+    },
+    {
+      "file": "consumers/stages/leading-complete-T.json.gz",
+      "bytes": 62096,
+      "sha256": "7be8b1c013adc7d23f08db629816078b6cb2b43a846c6d9a9704a5bddee62ab5"
+    },
+    {
+      "file": "consumers/stages/leading-complete-Xp.json.gz",
+      "bytes": 80704,
+      "sha256": "30b3a923dee052fbf80131e9de352dd32f8a14757db30b8291395a427a9d3389"
+    },
+    {
+      "file": "consumers/stages/leading-complete-a0.json.gz",
+      "bytes": 80591,
+      "sha256": "8db5ceaafad9bf5fd99fca4d325b186aceeb6e3c06a48be6bbb1db38a78fc683"
+    },
+    {
+      "file": "consumers/stages/leading-complete-b0.json.gz",
+      "bytes": 61978,
+      "sha256": "712b1b252b569b9f0a120a91d4dc6128cd4bb5807082b4b5c5ba08e851e02171"
+    },
+    {
+      "file": "consumers/stages/leading-complete-mu.json.gz",
+      "bytes": 80258,
+      "sha256": "8a7e39ec810f458e89941ec5cb4aeaa990d38dd12d47929124874a876e07cc43"
+    },
+    {
+      "file": "consumers/stages/leading-complete-mu_inverse.json.gz",
+      "bytes": 80700,
+      "sha256": "04676296651f55ef802fe1114201a460741486d8b992835b9b887f22d9d251a7"
+    },
+    {
+      "file": "consumers/stages/leading-mu-degree-009.json.gz",
+      "bytes": 21482,
+      "sha256": "2c5255958c079b506cb15a5ca8bcec6c8404c6a446484ae7f0957c70302350bf"
+    },
+    {
+      "file": "consumers/stages/leading-mu-degree-010.json.gz",
+      "bytes": 23972,
+      "sha256": "c8b9ba1a66a4ee74ae7ff2558de597e34b3a77f37f6f62917e26828cb791578d"
+    },
+    {
+      "file": "consumers/stages/leading-mu-degree-011.json.gz",
+      "bytes": 26542,
+      "sha256": "1b2353fa7261003f0aa56e73c545133e982893b9ade79eb4ceb2b01fd3903f50"
+    },
+    {
+      "file": "consumers/stages/leading-mu-degree-012.json.gz",
+      "bytes": 28920,
+      "sha256": "df365fe4923e1bc4ec4ed7e4f05f8b3df414ac30f05d0fc85be8acdbc04c8a55"
+    },
+    {
+      "file": "consumers/stages/leading-mu-degree-013.json.gz",
+      "bytes": 31183,
+      "sha256": "f0a23845e44393f5b81d2e3889b11608ca9af4b03fba996cdc540e98bef6e448"
+    },
+    {
+      "file": "consumers/stages/leading-mu-degree-014.json.gz",
+      "bytes": 33557,
+      "sha256": "1751f93baa0c759454d5c1ff6a3f61e0ed42dfb91be6cfe9b90948a0006f1a56"
+    },
+    {
+      "file": "consumers/stages/leading-mu_inverse-degree-009.json.gz",
+      "bytes": 21616,
+      "sha256": "7cf56602742da39910671bc5d6cc54c21e8fcafe444822b91153bb2674d5216c"
+    },
+    {
+      "file": "consumers/stages/leading-mu_inverse-degree-010.json.gz",
+      "bytes": 24011,
+      "sha256": "ab2f80c4069689b1de86f24e49438b8797bf9a0dc8d36e8cf1f76e89fd0d9ede"
+    },
+    {
+      "file": "consumers/stages/leading-mu_inverse-degree-011.json.gz",
+      "bytes": 26309,
+      "sha256": "0735eb79d9dcbf6294df68f3ef13e0604836a226036132aa11fcf647c172c49e"
+    },
+    {
+      "file": "consumers/stages/leading-mu_inverse-degree-012.json.gz",
+      "bytes": 28781,
+      "sha256": "59f5d3bb2ac5fbf74d64d1802be09a50fb146fed731de851dd1db22ba1e56e2a"
+    },
+    {
+      "file": "consumers/stages/leading-mu_inverse-degree-013.json.gz",
+      "bytes": 31355,
+      "sha256": "f93e9279e4ef0f8d280fb6ed08f066d7bb3491e022cb9f0fb000d0122916e5dd"
+    },
+    {
+      "file": "consumers/stages/leading-mu_inverse-degree-014.json.gz",
+      "bytes": 33699,
+      "sha256": "8fad0a33abcbbb78432c4186dcb8c76e3c107b29a27307c0798511cea556a6e1"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-007.json.gz",
+      "bytes": 6334,
+      "sha256": "c5d70b967d3184a672daff645ac0161317bed72789ae3f792b517170ae4f283c"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-008.json.gz",
+      "bytes": 6386,
+      "sha256": "5027dba19c21eef529ebe09609ecb054449c765b62261ecb5ed100a8ea776256"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-009.json.gz",
+      "bytes": 6307,
+      "sha256": "8a6fd0ff53407c42ecd68fbc9fb7d0b06fc116a96773a8e2355b8c82a5ebd9a7"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-010.json.gz",
+      "bytes": 6330,
+      "sha256": "fe694a18a550f13a817221b0e5f23d632bced68e77ba27102547a1602f51ddb0"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-011.json.gz",
+      "bytes": 6352,
+      "sha256": "5645ec7383812bffbb0703c511e06da501422fe00c904cfade97afaddc5b4625"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-012.json.gz",
+      "bytes": 6374,
+      "sha256": "8bb9ae1feee4cf262f548b70296cb7418c40bb439c6d61af540fb8bd205621da"
+    },
+    {
+      "file": "consumers/stages/local-multipliers-degree-013.json.gz",
+      "bytes": 4539,
+      "sha256": "6918cca7e54449bfa6b144a33b13bf87cee7a5872cb7b9dac08b560c290b92c7"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-000.json.gz",
+      "bytes": 8098,
+      "sha256": "3fdf9257996d22743d5d00d7dba26988c8182de56e9d103f51392fdeb52eb50a"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-001.json.gz",
+      "bytes": 12855,
+      "sha256": "182dc12d979f920763d89adf41790144e3b9cd7bf313ebea0c4732f4a4100f9b"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-002.json.gz",
+      "bytes": 17856,
+      "sha256": "75d69375fa0197e2d9428f7d644ecf1c7b0af008014ed65be5c551a0816c8ce8"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-003.json.gz",
+      "bytes": 22741,
+      "sha256": "537a143f3a31c518d845487fcacaaff25402e2d9114b03027e0871d9e7def6bd"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-004.json.gz",
+      "bytes": 27768,
+      "sha256": "42ecae4102e521cdc7a2ada3ac098fefc387ebab9f82fe3c637faffe5edfa2ca"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-005.json.gz",
+      "bytes": 32599,
+      "sha256": "cd630f10dd89f1fe776c62b32470a934ec6182143a4f8910a1d1f320d958a490"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-006.json.gz",
+      "bytes": 37545,
+      "sha256": "e41ea6dea01cc72d56b37d308279b5ce1659237c4c1f245162a3e5e6b062e906"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-007.json.gz",
+      "bytes": 42491,
+      "sha256": "9d8e7e3e0293710bfb816167d2f9adbdd9505582d501e16a66d46e0b2848afd0"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-008.json.gz",
+      "bytes": 47528,
+      "sha256": "688d4ef3babe555003a74f534e2e239559504c5c1921980c2a2a9d60f2bdb255"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-009.json.gz",
+      "bytes": 52512,
+      "sha256": "5fd1782460b30398a123551a5cd273675c9ec13b791f1acc994c7430d9bbb0bb"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-010.json.gz",
+      "bytes": 57167,
+      "sha256": "e0f7942b6b02f8973f5e36aaf50fbb9439c9a13e27cec2d60a2d41e050edc1e5"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-011.json.gz",
+      "bytes": 61947,
+      "sha256": "4e37cd3ccb8520b5e01929a3363304b1db6cdded8908b88d4124657e75de6731"
+    },
+    {
+      "file": "consumers/stages/normalized-forcing-degree-012.json.gz",
+      "bytes": 66768,
+      "sha256": "75108419cd435610f75f66525c74af139acbd04ce143a62d61dd850133832648"
+    },
+    {
+      "file": "consumers/stages/normalized-transport-coefficients-degree-007.json.gz",
+      "bytes": 163238,
+      "sha256": "e09a9d63991e0cbe98999561bcee54e4c8087acd724a22490406f35aef48c8a7"
+    },
+    {
+      "file": "consumers/stages/normalized-transport-coefficients-degree-008.json.gz",
+      "bytes": 190102,
+      "sha256": "e519ba6d4436b02fdd3cb70dbab2b7c43a4acd383c83899e5d6fad7c0f046db7"
+    },
+    {
+      "file": "consumers/stages/normalized-transport-coefficients-degree-009.json.gz",
+      "bytes": 217022,
+      "sha256": "e96410e9b225ca9d4eb6bc83b7e384dcec6ba2891349f2c2c8013104e8a17111"
+    },
+    {
+      "file": "consumers/stages/normalized-transport-coefficients-degree-010.json.gz",
+      "bytes": 242906,
+      "sha256": "8eda2359b93f74a871767540aa80b6f31872654fe468a12bc18f5edbe8767acf"
+    },
+    {
+      "file": "consumers/stages/normalized-transport-coefficients-degree-011.json.gz",
+      "bytes": 270414,
+      "sha256": "ef21c14926a1320539267695e10fd35641ec40b63e13fc1fbc27fb3b523166af"
+    },
+    {
+      "file": "consumers/stages/normalized-transport-coefficients-degree-012.json.gz",
+      "bytes": 297160,
+      "sha256": "454ed06e6970b38a45245831adfad8b67b065f31dda64e161979d08c00d656cc"
+    },
+    {
+      "file": "consumers/stages/transport-degree-000.json.gz",
+      "bytes": 4445,
+      "sha256": "df91d38f9f6158873c62fab1190c73d504dbfe1cb8a367733353af6ddf6f602a"
+    },
+    {
+      "file": "consumers/stages/transport-degree-001.json.gz",
+      "bytes": 10476,
+      "sha256": "975a575e3ef4743e5dee3d8e08e77665a6df0cf77c9e200b3aae3c66e8fdb117"
+    },
+    {
+      "file": "consumers/stages/transport-degree-002.json.gz",
+      "bytes": 15297,
+      "sha256": "aeef4b0b7f5675f587ca10f88e9132666770445e995ac4545037eeeda41bfe0a"
+    },
+    {
+      "file": "consumers/stages/transport-degree-003.json.gz",
+      "bytes": 20352,
+      "sha256": "16195a5e231f9cc43150cef4e3483e74f3f8792e31a98cdc8bacf7cc7cebf50d"
+    },
+    {
+      "file": "consumers/stages/transport-degree-004.json.gz",
+      "bytes": 25160,
+      "sha256": "00ee802e1cb5eeb0726f23367f18cfb71c8160c6a037e9a22dce942e0d3d738c"
+    },
+    {
+      "file": "consumers/stages/transport-degree-005.json.gz",
+      "bytes": 30091,
+      "sha256": "2cd8573b1a44eb193ffa90126151c3d66e4f28261c6d0eb9c6f615c665213ee7"
+    },
+    {
+      "file": "consumers/stages/transport-degree-006.json.gz",
+      "bytes": 35105,
+      "sha256": "1ab3926fdcfe073f492e2fda2034d2e2442052998407e8f23764bd69e25ab666"
+    },
+    {
+      "file": "consumers/stages/transport-degree-007.json.gz",
+      "bytes": 40040,
+      "sha256": "d796b385988150089d50fc26eedb7d17e19cc80e1d4a389202a8730aed84da8d"
+    },
+    {
+      "file": "consumers/stages/transport-degree-008.json.gz",
+      "bytes": 44985,
+      "sha256": "28d469331082bf9482c76d7bd6727a38265e354a5bb12de2cbd37f8a24610f49"
+    },
+    {
+      "file": "consumers/stages/transport-degree-009.json.gz",
+      "bytes": 49914,
+      "sha256": "77c5abeb1e454b9408424dfdd7609c61251eff81a240bfbe7feea46416f7d594"
+    },
+    {
+      "file": "consumers/stages/transport-degree-010.json.gz",
+      "bytes": 54723,
+      "sha256": "cedd449e4291a14d25ebd3e3b9af35e7daa41f06edbfe8172d3b596b510337ef"
+    },
+    {
+      "file": "consumers/stages/transport-degree-011.json.gz",
+      "bytes": 59571,
+      "sha256": "00107e32d35a96d6fc8908681ed39dae76e881a13488e03903aaa7e8442eb69c"
+    },
+    {
+      "file": "consumers/stages/transport-degree-012.json.gz",
+      "bytes": 64599,
+      "sha256": "1ef8ee73f75d542318db34d9a2dcb6c4fd5a1582452d3104a08ab558cfb374b8"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 146,
+      "sha256": "1ffb2f1210e379e44600ca6ad9227799960f61f0e40f91f84413e7d7b578e37b"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2678,
+      "sha256": "d585014b5c80b806b4a2f22a49c19f4798b22924d62908a4e5a992add02046eb"
+    }
+  ],
+  "byte_identical_files_omit_only_duplicate_original_sha256": true,
+  "true_PDE_branch_or_final_family_claimed": false
+}
