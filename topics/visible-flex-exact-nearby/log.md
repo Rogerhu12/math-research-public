@@ -175,3 +175,7 @@ root全文核a7ff7c71…报告与43692226895/1 execution4abbe1ff…23306B、resu
 ## 2026-11-15 08:07:44 UTC — 整片signed共同势与真正新w1有限配方独推
 
 root全文核T/c0408ef4…18116B并从C.11独导T.5、核真实image域/σ递推/ℬ Fuchsian积分/T.19最高阶和T.24双Cauchy系数尾；newton独核T18–25。root亲读原fa344d17…SCI136–155及473–485确认f0=fa/f1=fb、F0=Fb/F1=Fa、Z0=A/Z1=B和各majorant域，禁止按序猜行。原old12 firstcorrection不重算，只准确signed增量；T.26全μ/n、n⁻2/⁻3与old-circle/physical mean/真seam仍保。新公开consumer编写中，无数值预判。两README只读核8cf8281c01938a5723bcd321d9d2b01fbd1ae069不变。
+
+## 2026-11-15 08:10:31 UTC — 窄源图approximate right inverse单独发表
+
+root全文核A/2bcb7d4e…：A10先证明图像正则再吸收、A13低E20真正source1794无T、A15完整high1734/bg1796和EN fee；phase独核A18三Taylor及A19–24完整端口/唯一global λ通过。原G30亲读，不重复收EN[Hp]；general charged仍不识别为Γ值导。finite Nash与全boundary Schur未预称。另root已亲读v3 08:03小process9a051a67…37970B，真pull08:03:15.758257→485147531c43435382f0ea1cf1fa4cf72e3f138f两README空，future2256/past240/product384/0groups；全Green仍待。当前ref核f305e0aa376e7c782190cc4c231bb0b303553287。

@@ -109,3 +109,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 ### 已成整根片新第一修正的完整有限配方
 
 T/c0408ef4…给真实σ=barT⁻¹(Tactual)、signed fv=(fb+V,fa)与w1V=旧w1+(Tb0,a0)ℬ(T)，ℬ径向积分保持新非零根常数；degree12只用原intrinsic15/leading14/correction12。Rs=3/40000和角1/128内的完整双Cauchy尾先付系数uniform界再和，含全部Fourier/mean，原f0=fa/f1=fb不混。下一步公开执行新scalar/有限Laurent相加并评估整片范数，保原物理seams、全部old-circle I/J、μ local source与n⁻k input归属；当前无新整片数值或full high inverse。
+
+### 已成窄源图近似右逆；迭代须保完整端口缺陷
+
+A/2bcb7d4e…先从残差方向式读回L0v，故真进入E_s；低E20/source1794无cutoff损，高1734导损/bg+1796仍在原8192窗。exact缺陷仍是P⊥EN，fullmean有DΠA[v]f。低E20代数probe经三Taylor付one-high导数差，不在probe调用N/β逆。所有边界是b+P(v)，参数高度Hp只有同截面相消；唯一global λ规范一端，另一端ΔHp与height/span/flux/ν列必须Schur。接finite Nash归纳时不能以body收敛称全局matching。
