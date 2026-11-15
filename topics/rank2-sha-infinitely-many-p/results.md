@@ -180,3 +180,5 @@
 - [R657：原连续长前缀的全列单射与二次接触界](results/R657-original-long-ordered-prefix-and-quadratic-contact-bound.md)：原合流单位行全部位于k*=1+max_u(u+s(Cu−1))之前，故真正连续前缀保全列秩与Smith上界ceil((bD+13)/s)。同一个固定未正规G0W_D借辅助惰性素数得最大接触≤(99/40+o(1))D²；完整高尾/帽/13与40保留，未把长前缀搬进旧M或R644五源。
 
 - [R658：同一五来源辅助空间的真实Gaussian子式与二次jet界](results/R658-original-auxiliary-gaussian-minor-and-quadratic-jet-bound.md)：辅助惰性q>max(K,M,101)，π^(q+1)=q下完整H/regular高尾严格落π；真实行r+j(q+1)只读j<q，整Vandermonde给有理子式准确vq=−KM(M+1)/2。原K66D/M72D的连续jet因此≤(5184+o(1))D²，保全部原函数与分母；其他p的分子坏集仍须计成本。
+
+- [R656：同一整数证书的四次高度与保全例外的九格强制非整](results/R656-quartic-certificate-height-and-exception-tolerant-inert-jets.md)：R658二次jet经R652同一整流/确定行给原A_D的log高度O(D4logD)，p>J+M且p∤A才用闭边界定理。全部p|A、p>X的原九格成本≤20kH/X；完整饱和旗标遂在任意4<θ<7强迫p>CDθ、p∤A的真非整层，未把这些层认成原中央非零。

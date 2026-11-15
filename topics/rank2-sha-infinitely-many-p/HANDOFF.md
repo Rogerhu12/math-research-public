@@ -6,20 +6,20 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：28fb7abe8478ac336f8860fc2f01e21a2193f48b；2026-11-15 02:30:54 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:30:53 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
+- 最近已读规则提交：54ab8da553742187120a7f03a49152173acdaa11；2026-11-15 02:33:54 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:33:54 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
-- 只读Actions43665493710/job132663812985实际pull成功且规则差异空，回执ci/rule-sync-receipt-2026-11-15T015747Z.json；本地仍断连，下一次最迟02:50 UTC。
+- 只读Actions43668151048/job132672040900于02:31:03实际pull成功、两README差异空；回执ci/rule-sync-receipt-2026-11-15T023103Z.json。本地仍断连，下次最迟03:20 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R657–658已登记；R364/R561仍开，R637/R654–656/R659进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r658.md)、[open](notes/2026-11-15-open-before-r648.md)。
+R1–363、R365–560、R562–636、R638–653、R656–658已登记；R364/R561仍开，R637/R654–655/R659–660进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r656.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：续R656以R658二次jet把同整证书降到四次高度，并在全九格付例外成本；原传播/O4/O6保留。
+- root：R656同A_D四次高度及九格全部坏素数成本已付；续R660原中央到全源的实际传播，O4/O6保留。
 - theta：R653全S5²/原四K分离已付；续R659真实M0/H±和W失败支。
 - literature：R649已付；R655窄核σ5负一矩完整有限角色，R654真modp²连接保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
@@ -83,9 +83,8 @@ R641五正规C_i的真实H阶2/5/28/38/66给任意正幂准确R_E；
 Tg首项−bu6/210且边界值非根号一，h/Ec所有正幂同边界；
 R644现对任意固定D构造有理jet长度J_D及Δ_D≠0；p>max(101,J_D)、v_pΔ_D=0时，整个原degree≤D空间的闭RE Tate元仅常数。
 全p²−1简单边界零点与真实Tg整性付所有p依赖系数/同权抵消；辅助维66D(72D+1)不作免费原格。
-R652原五变量degree7系统+已发表Binyamini Cor1给J_D≤Λ_D−72D，Λ_D=64(210D+24)^5。
-整证书A_D的log高度O(D7logD)，p>Λ_D且p∤A_D才进定理；大坏素数Σvlogp/p=O(D²logD)，不省成无例外cutoff。原中央→闭RE仍未付。
-R658同原u^KL(KO)h≤M经aux q的真子式付J≤K+M(q+1)=(5184+o(1))D²；vqΔ=−KM(M+1)/2，完整H/regular高尾严格π，不删除其他p分子坏集。
+R652付原五变量degree7整流；R658同u^KL(KO)h≤M的aux q真子式给J≤K+M(q+1)=(5184+o(1))D²，vqΔ=−KM(M+1)/2，全H/高尾严格π。
+R656同一整证书A_D现log高度H=O(D4logD)，p>J+M、p∤A才进闭边界定理。所有p|A、p>X的九格成本≤20kH/X；任意4<θ<7，全部真旗标强迫p>CDθ、p∤A的非整层。中央→所有层整/闭RE仍缺。
 R643固定有限中央指标的Gaussian正成本O(k(loglogk)²)，不改bI3；真实负收益/增长条件另付。
 
 ## 原同R与完整物理格
@@ -109,8 +108,6 @@ R648每列r=u+sj真含p^j，M0全Smith仅1/p；K=ker barM0，dJ=dim(K∩FJ)、δ
 R657原k*=1+max_u(u+s(Cu−1))连续前缀全列单射，保同Smith上界；固定未正规G0W_D接触≤(99/40+o(1))D²，不搬旧M/R644五源。
 
 R640完整Wilson回G0W836，charge876/全帽保持，不添中央零。
-R642仅对辅助M_c去D_c=Ec/e^cX而保首Gaussian：先合法κ=34c、a=34pc，
-原Γ+标准B(f0,f1,f2)=(0,0,πf1)、B²0，M_c=(I−34F2s p²B/a)M modp³；
-全ell+13/两13carry保，同P/R过MQ2∈p²后第二代表逐项相同。不称全Ec删除或全C整共轭。
+R642保首Gaussian的辅助M_c=(I−34F2s p²B/a)M modp³，B(f0,f1,f2)=(0,0,πf1)、B²0；同P/R先过全MQ2∈p²后第二代表相同，ell+13/26carry全保。
 
 原Beta割线排直接定号Nikishin，未排其它AT；2026文献未给新固定来源跨p非消失输入。
