@@ -1,0 +1,52 @@
+{
+  "accepted_original_trial_indices": [
+    3
+  ],
+  "completed": true,
+  "full_array_payload_audit_performed": false,
+  "identity": {
+    "bytes": 33778,
+    "file": "2026-11-15-actual94-primary-identity-readback.json",
+    "sha256": "19b656a9b806253c557fcdd4790e82d7c1524d14c5aec357eab4572cb33bac9f"
+  },
+  "identity_checks_passed": true,
+  "job_id": 132692676503,
+  "literal_original_readout": {
+    "bytes": 96871,
+    "file": "2026-11-15-actual94-original-readout.json.gz",
+    "sha256": "5b19d03159648ba10bffecbc874a39b469dc560f06dddd2bad2fb843bd956ab8"
+  },
+  "mathematical_computation_performed": false,
+  "original_scientific_result_not_reclassified": true,
+  "original_status_flags": {
+    "FD": {
+      "full_BVP_solved": false,
+      "nonlinear_native_at_current_H_solved": false
+    },
+    "status": {
+      "accepted_warm_steps": 1,
+      "new_coupled_finite_acceptance": false,
+      "optimization_progress": true,
+      "success": false
+    },
+    "warm": {
+      "complete_closed_surface": false,
+      "new_coupled_finite_acceptance": false,
+      "success": false
+    }
+  },
+  "quick": {
+    "bytes": 57559,
+    "file": "2026-11-15-actual94-original-quick-readout.json.gz",
+    "sha256": "a763d8ce978bb5f0f74270acb09edb489d2405ce978691d3ce8f2a9295204781"
+  },
+  "run_id": 43674854261,
+  "schema": "actual94-published-primary-readback-execution-v1",
+  "source_commit": "b75f41fa32b8ead9bb5121b725a0afe1a2f5ae5c",
+  "source_reader_sha256": "35c9c98beee3b8bd33314b814652036e0ff9534bd551ff3483aa4222cc84c3bc",
+  "support": {
+    "bytes": 45739,
+    "file": "2026-11-15-actual94-original-B-C-H-support-readout.json.gz",
+    "sha256": "a8eef1dcd800afe78b9733b847c6a3a7c975be64d08c6abd46b8e4ea63aa6c40"
+  }
+}
