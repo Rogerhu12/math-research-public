@@ -423,3 +423,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R762：穿过原S的真实Cayley家族与非零中央切向](results/R762-original-through-s-cayley-family-and-nonzero-central-tangent.md)：已证明真实σ⊗(S/σ)来源经Gram(34,33/34)的Cayley族穿过原S；u∈pZp原unit切割/质量严格不动，完整Mellin切向为d_p s𝕀_DS，R761给中央横向导数非零。原J′若零，在此族中是simple-u-zero；完整正权/higher jets/赋值门均付。实际deep切向与冻结原even-core的差(β−λκ)zDS(κz)严格非零，附近来源尚无同固定Lp身份。
 
 - [R763：正导数新增坐标的仿射ζ与完整Gaussian运输](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md)：已证明新U=(S′)^6在原(t,Θ,Q=1+xζ/y)上的准确六次式，旧场上六次覆盖与原点正规化成本均保；Norm3的Q返回为(3(1−4t)Q+12t)/(1+8t)。完整ε/ε²目标保affine ζ项，去charge204 Gaussian后实际首共振p系数仍为单位a；全Gaussian三同源还带非零未定第二位修正。原新三格斜率及中央传播未付，不套旧WD。
+
+- [原剪切附录B：完整有理period与十七处gluing](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)：附录B已证明原Cayley有理酉作用的dual/row规范及完整toric-period共轭，原17球线经E[17]完美gluing含全部17对(j,−j)。S的τ12/伙伴6与真实first jet的τ3、1/7/13及其伙伴不同；先投原角色会删掉已付非零切向。已核发表原文Theorem5.6适用完整period，未把未投影斜限制冒同一Katz函数。

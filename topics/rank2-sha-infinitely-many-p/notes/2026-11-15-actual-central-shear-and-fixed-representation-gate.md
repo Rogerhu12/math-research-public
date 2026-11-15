@@ -427,3 +427,154 @@ R752 的 $D_k$ 与 $P_{+,k}$ 及其不同乘法角角色必须按其完整组合
 而已知 point-log 的 shear first jet 来自实际 off-diagonal 型5/型1块。
 若有合法跨块 raising/connection 恒等式，必须同时支付这次角权转移、完整坏处角色、周期差(15)与 moving 权。
 原第一边际的中央零本身没有删除该 off-diagonal 来源。
+
+
+## 附录 B. 原 Cayley 家族的全局酉作用与完整十七处 gluing
+
+以下针对 R762 的实际来源，不排除另一种尚未构造的 automorphic 实现。
+记 $H_{33}=S/\sigma$，并固定原两输入
+$\nu_\sigma(c)\otimes\nu_{H_{33}}(v)$，
+$Y=c+v$、$Z=(33c-v)/34$。
+R762 的 $r=33/1156$、$a=(1-r u^2/4)/(1+r u^2/4)$、
+$b=u/(1+r u^2/4)$ 给出实际矩阵
+$$
+g_u=
+\begin{pmatrix}
+a&-b/34\\
+33b/34&a
+\end{pmatrix},
+\qquad
+(c_u,v_u)^t=g_u(c,v)^t,\qquad
+c_u+v_u=aY+bZ .
+\tag{B1}
+$$
+这里 $(c,v)^t$ 是两个**物理观察**组成的列，式 (B1) 使用观察的 dual/row Gram 作用。准确的恒等式是
+$$
+g_u D g_u^*=D,\qquad D=\operatorname{diag}(1,33),
+$$
+而不是通常在向量列上书写的 $g_u^*Dg_u=D$。
+若把原 Hermitian 向量空间记为 $V=(K^2,D)$，真正用于通常列向量规范的有理酉元是
+$$
+G_u=g_u^*,\qquad G_u^*D G_u=D.
+$$
+等价地，可在对偶空间 $V^*$ 上使用 (B1) 的 $g_u$。
+以下全局 Weil/toric 作用使用 $G_u$（或按此约定运输后的对偶作用），
+不把两个矩阵规范混用。对有理 $u$，这个完整有理酉作用合法；
+它不被附录 A 的 first-jet 周期差否定。
+
+### B.1 有理共轭真正搬运的是完整 toric period
+
+令 $T_{Y,Z}=U(KY)\times U(KZ)$，其中观察与向量轴按上述 Hermitian 对偶识别。
+对自守函数 $f$ 和通常列向量规范的有理酉元 $G$（本家族取 $G=G_u$），
+Haar 测度按共轭运输后准确有
+$$
+\mathcal P_{T,\alpha}(R_G f)
+ =
+\mathcal P_{G^{-1}TG,\ \alpha\circ\operatorname{Ad}_G}(f).
+\tag{B2}
+$$
+这是利用左 $U(V)(K)$ 不变性 $f(tG)=f(G^{-1}tG)$ 后的变量替换。
+把无穷处作用转到有限 Schwartz 时，须同时执行这个整个有理元的
+共轭及其局部 splittings；(B2) 不把未积分的 theta 值改成 period。
+
+原发表定理是 Borade–Franzel–Girsch–Yao–Yu–Zelingher，
+*On tori periods of Weil representations of unitary groups*，
+Selecta Mathematica **31** (2025), Article 49，
+§4.2.2 与 Theorem 5.6
+（[原文](https://doi.org/10.1007/s00029-025-01047-4)）。
+其 seesaw 从固定全局 toric 角色 $\alpha,\beta$ 出发，要求
+$\beta=(\chi_W^{-2}\chi_V)\circ j^{-1}\,
+\alpha|_{K^1}$、各处完整 root/splitting 条件及指定 toric period。
+它判定这个 period 在整个 theta lift 上是否恒零。
+它没有断言未作 $\alpha$ 投影的任意 Jacobi 斜限制都等于该 period。
+
+### B.2 原来源的全部十七处配对
+
+用 R735/R761 的共同 $E_1$、原加性角色和极化规范。
+原 $\sigma$ 与任意标准 $H_{33}$ 截面的17处因子都是球向量：
+$17\nmid2\cdot3\cdot33$，标准 degree33 的有限 theta 系数仅在
+$2,3,11$ 处改变。回 $b=17$ 的固定微分伸缩恢复原周期和代数标量，
+不把共同框的球向量重新选成一个分歧17向量。
+
+17处的两原格自对偶。整 unipotent 的二次相位在格上为1，
+单位伸缩保持格，自对偶 Fourier 变换保持格指示函数；
+原未分歧 unitary splitting 在这些单位上平凡。
+所以原两输入的**对角** norm-one 环面固定其完整17处 tensor。
+
+整伙伴 $w=34w_0$ 的实际加法图是
+$$
+(z,w_0)\longmapsto(z+33w_0,z-w_0).
+\tag{B3}
+$$
+其 pullback 正是 $S_{34}\otimes S_{1122}$。
+在17-primary 部分，(B3) 的 kernel 是整个 $E[17]$；
+其 canonical lift 在两因子上给互为对偶的 Heisenberg 作用。
+旧球线的像因此是两十七维 Schrödinger 模之间的
+canonical perfect gluing tensor。此断言也可不使用 theta 常数：
+两个不可约 Heisenberg 模的对角不变空间为一维，
+其非零不变 tensor 对应一个非零 intertwiner，
+由不可约性可逆。实际 pullback 非零，所以该 intertwiner 是完美配对。
+整体标量及相位由 (B3) 的原 pullback 固定；此处只使用其非零性，
+没有据此计算任何未给出的 toric-period 常数。
+
+设第一轴的有限环面为 R757 的
+$g_0=2+4\delta$、$\tau_j(g_0)=\zeta_{18}^j$。
+第二轴的标签按**同一个对角环面的实际作用**定义，所有
+quadratic splitting 均随上述 Heisenberg 对偶运输。
+十七维模只缺 $j=9$。完整 gluing 表是
+$$
+\begin{array}{c|rrrrrrrrrrrrrrrrr}
+j_Y&0&1&2&3&4&5&6&7&8&10&11&12&13&14&15&16&17\\ \hline
+j_Z&0&17&16&15&14&13&12&11&10&8&7&6&5&4&3&2&1 .
+\end{array}
+\tag{B4}
+$$
+每一对都非零：完美 intertwiner 限制到每个单重本征线仍可逆。
+(B4) 并未说对伙伴取值或取某个 jet 后每一对都存活。
+它正好说明不能在取值之前删去那些整 tensor 分量。
+
+(B1) 的对偶作用，等价地通常向量规范中的 $G_u$，与对角环面交换，
+通常不与 $T_{Y,Z}$ 的两个独立因子交换。
+固定整个 Weil 空间因而没有冻结原第一轴的有限 Hecke 角色。
+
+### B.3 原非零 tangent 位于哪些真实分量
+
+原
+$$
+F(z,w)=
+ \sigma(z+33w/34)H_{33}(z-w/34)
+$$
+满足 $F(z,0)=S(z)$、$\partial_wF(z,0)=D_S(z)$。
+R757 的同向标签中，$S$ 属于 $\tau_{12,Y}$；
+R761 的完整公开分解则为
+$$
+D_S=\frac{11}{21}D_\omega+R_{\rm prim},\qquad
+D_\omega\in\tau_{3,Y},\qquad
+R_{\rm prim}\in\tau_{1,Y}\oplus\tau_{7,Y}\oplus\tau_{13,Y}.
+\tag{B5}
+$$
+结合 (B4)，相应伙伴标签依次为
+$6$（原 S 边际）、$15$（$D_\omega$ first jet）及
+$17,11,5$（primitive first jets）。
+这些不同角色均在同一实际 tensor 中，并非新添的独立输入。
+
+设 $\Pi_{12,Y}$ 是第一轴完整17处投影。
+其有限作用与伙伴求导交换，故
+$$
+\left.\partial_w\Pi_{12,Y}F(z,w)\right|_{w=0}=0,
+\qquad
+\left.\partial_wF(z,w)\right|_{w=0}=D_S(z)\ne0.
+\tag{B6}
+$$
+因此先在全 joint 上保原 Katz 角色，再作同一 first jet，
+得到的来源已经不是 R762 的非零 tangent。
+
+结论限定为这个实际接口：
+(B1) 对应的有理酉元 $G_u=g_u^*$ 与 period 共轭 (B2) 都合法；
+现成定理作用于全 $\alpha$-period，而 R762 使用的是未投影斜限制。
+若要证明原同一 $L_p$ 的单位因子身份，必须额外证明该 period
+准确等于 R762 的整条 $\mathcal M(u,s)$，包括
+(B4)–(B6) 的 cross-block 和实际 p-local 向量。
+只投影后应用 seesaw 会换掉已支付的非零切向来源。
+本附录不从这一具体区别推出任何一般“无 automorphic 实现”定理，
+也不添加原中央零条件。
