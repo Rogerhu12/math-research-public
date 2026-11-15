@@ -28,3 +28,5 @@ R707/R708原第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=
 - [R713：双冻结与真实配对混合余量](../results/R713-symmetric-frozen-sources-and-exact-paired-mixed-remainder.md)：同R702真实45整逆改六参数右端，付双冻结(1,1)且保持cd/W/三态/J2；I/O/X同系数，真实J换元留下(Γ01−Γ03)∩CD_N，交域A/Q/L深严格消。CD上T/S同unit cut后保全log(1+Z/(bYX_n))及每个移位。纯中性差所有正规来源/词行零却J2=1，故负一深支仍须原混合补偿；真正首行定位同qcd的S34型5五维Z一阶来源。
 
 - [R710：原中央全阶单位核与完整边界余量](../results/R710-original-all-order-central-kernel-and-exact-boundary-remainder.md)：在原同连接逐非交换词付整数分母权与i!，得到全部i的J_i=(-1)^i i!(mc)^(-i−1)ε_i、ε_i∈1+pO；全部H尾≥H+1+v_p(H!)，原j0等价全部真实carry整并保下一跳p^(1+v(H+1))。完整B=R+QC和正则项保，首正则值为−p²C0/γ，C0≡b_e且原b_e=g_c,p+(d−m)h_ea1。仅同连接整forcing+j0的Q余数像恰pO⊕O^(e−1)，不冒原固定φ，故算术prefix仍须原全局来源。
+
+- [R714：原高度二有理参数与全部首Cartier窗](../results/R714-original-height-two-rational-parameter-and-full-first-cartier-window.md)：原对数导数的真实平坦式给(ζcirc+r)^p=c_p(z0−Z)+O(u^(p²−p−1))；指定Z1=Z+c_p^−1(G+r)^p再用导数和μ6型排完剩余误差，匹配全部原整degree<p²。DZ1=1、真实极帽(p³−p²)D2全保。全部h≤p−1的原有理Cartier观察先减实际简单极再求值，坐标误差完全付；原前五块直接回g_h，第六块仍为g6+(m/2)η，两m组合消共同η但不删实际低商。
