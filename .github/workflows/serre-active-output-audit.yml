@@ -1,0 +1,42 @@
+name: Serre active-output IO audit and rule pull
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/serre-uniformity/notes/p41-active-output-audit-request.json'
+      - 'topics/serre-uniformity/scripts/p41_active_output_audit.py'
+      - '.github/workflows/serre-active-output-audit.yml'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: serre-active-output-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/p41_active_output_audit.py
+            /topics/serre-uniformity/notes/p41-active-output-audit-request.json
+      - name: Actual partial clone and pull; verify existing complete outputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -u topics/serre-uniformity/scripts/p41_active_output_audit.py
+      - name: Preserve bounded IO receipts and rule diff
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-active-output-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-active-output-audit/
+          retention-days: 1
+          if-no-files-found: warn

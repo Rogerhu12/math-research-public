@@ -8,6 +8,8 @@
 
 08:56 UTC共享环境失联，旧tmpfs克隆暂不可访问；依根§8用小文本GitHub API保全和提交，未声称执行了新本地pull。API另核53ecc1a270bf01ea98f33c6f1eb712c4c9b75d7a（2026-11-15 09:03:23 UTC）两README逐字未变。最近真实pull仍上述08:46。恢复终端后立即pull；若失联持续，将由本公开Actions执行实际pull并返回规则差异，不把API GET叫作pull。
 
+**公开纯IO审核请求已启用**：scripts/p41_active_output_audit.py + serre-active-output-audit workflow，读取R800/R799/R797真实ZIP、全manifest和原wrapper verify，AST检查R801；先实际部分克隆/pull并比较两README，不执行数学核心。等待真实run/回执。
+
 完整旧公式/绑定逐字保于[R802前H](notes/2026-11-15-handoff-before-R802.md)、[失联前H](notes/2026-11-15-handoff-before-api-recovery.md)及其归档链；[旧open](notes/2026-11-15-open-before-R795.md)。旧raw清理run43679907787已成；不再用Release保存数据。
 
 ## 在运行与待消费接口

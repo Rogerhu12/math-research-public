@@ -1,0 +1,72 @@
+{
+  "session": "serre-public-astra-20261115",
+  "task": "IO only: inspect existing R797/R799/R800 outputs, syntax only R801; actual partial-clone pull and README diff",
+  "last_read_rules_commit": "4811fdaa6344e68340787d251f4e8416245ce859",
+  "last_read_rule_sha256": {
+    "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+    "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "audit_script_sha256": "bf7fc739499f51449b4f29e0f130118dbcdfa2eb01c34720ba7cbb1017469a61",
+  "io_helpers_sha256": {
+    "R786_public_exact_power5_short_basis.py": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "p41_public_actions_recovery.py": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e"
+  },
+  "syntax_only_blobs": [
+    {
+      "file": "R801_original_long_tail_extension.py",
+      "blob_sha": "0c7124bfd3049d62ffdccf8f38b4d2da318ea389",
+      "bytes": 43832,
+      "sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d"
+    }
+  ],
+  "targets": [
+    {
+      "label": "R800",
+      "result": "R800-original-M2-tail-129-195",
+      "source_commit": "b53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c",
+      "run_id": "43696070150",
+      "artifact_id": 14153948656,
+      "artifact_name": "serre-global-R800-original-M2-tail-129-195-43696070150-1",
+      "archive_bytes": 16486501,
+      "archive_sha256": "78ab2d6222f95015246dbfd4237c4ae2be8126971983bf6ee7173da8b1c83a4e",
+      "wrapper_path": "topics/serre-uniformity/scripts/R800_public_original_M2_tail.py",
+      "wrapper_sha256": "2783ff56f98bf9acdef4102eb0e7a6a0493224284d514705f1646e5fe53248a5",
+      "request_path": "topics/serre-uniformity/notes/R800-public-original-M2-tail-request.json",
+      "request_sha256": "709c0944070db0af4c7a6b0d83d6a0be6ebf52bfdb275f5bb9e2e6b1f67bbc15",
+      "core_sha256": "417dd598711af310717aaa971898e426d829a5209150bd5ce57f51dffb2e2a6a",
+      "certificate_name": "p41-original-M2-tail-129-195-certificate.json"
+    },
+    {
+      "label": "R799",
+      "result": "R799-original-power7-power8-short-bases",
+      "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+      "run_id": "43695571499",
+      "artifact_id": 14153724209,
+      "artifact_name": "serre-global-R799-original-power7-power8-short-bases-43695571499-1",
+      "archive_bytes": 453521743,
+      "archive_sha256": "b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477",
+      "wrapper_path": "topics/serre-uniformity/scripts/R799_public_original_power7_power8_short_bases.py",
+      "wrapper_sha256": "f74313ac65b2b34cc8079e3506e97c8ca60211a2cf92fcd64df01bc49f6211a4",
+      "request_path": "topics/serre-uniformity/notes/R799-public-power7-power8-short-bases-request.json",
+      "request_sha256": "5b726dc8d7f5e2b81141d1246a110eeb97341804b50f16b1cf90fb02636572f1",
+      "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+      "certificate_name": "p41-original-power7-power8-short-bases-certificate.json"
+    },
+    {
+      "label": "R797",
+      "result": "R797-five-original-low-degree-Laurent-prefixes",
+      "source_commit": "05bf2b2b22d1435a20233f48cb34a78fc53e7154",
+      "run_id": "43693453831",
+      "artifact_id": 14154283549,
+      "artifact_name": "serre-global-R797-five-original-low-degree-Laurent-prefixes-43693453831-1",
+      "archive_bytes": 902836624,
+      "archive_sha256": "d140f4ff8101a87c000e16babcf9b2ed9520b39852b1e4ad16ddc36899b315dd",
+      "wrapper_path": "topics/serre-uniformity/scripts/R797_public_five_original_Laurent_prefixes.py",
+      "wrapper_sha256": "aa795f1c3f5c1ab5de992d8c4bfb7950f5c63e2e779ff566c2474364a99d5f75",
+      "request_path": "topics/serre-uniformity/notes/R797-public-five-original-Laurent-prefixes-request.json",
+      "request_sha256": "7c24f2e5460a28e19a3569ac4683044a1046343ce8d8a5f88d001eb9629eae19",
+      "core_sha256": "fd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086",
+      "certificate_name": "p41-five-original-low-degree-Laurent-prefixes-certificate.json"
+    }
+  ]
+}

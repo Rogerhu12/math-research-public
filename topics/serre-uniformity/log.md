@@ -529,3 +529,8 @@
 - R802完整登记：区分三种字段共轭及原扭曲T41，证明y/κ/R准确奇偶字段与全球±掩码、非零关系的七次Fb下降；末端恢复两条原1234坐标并全129×20认证，保持原目标/基点/尺度。
 - root全文复核且ordinary交叉核；统一坐标明确ã−=−a−/3、反向a−=−3ã−，proof2e8a3b19。未执行新rank/kernel或替换正在运行的R787；H逐字归档后压缩。
 - R801仅长尾core已保全待公开AST/输入IO，R797/R799/R800实际输出审核接续；真正β/η/高度与主目标OPEN。
+
+## 2026-11-15 17:28 Asia/Taipei · serre-public-astra-20261115
+- 新增公开纯IO审核脚本/请求与课题外 .github/workflows/serre-active-output-audit.yml，原因是终端环境失联但三个实际输出须读取；只下载已成功R800/R799/R797、核ZIP及每文件SHA并调用冻结wrapper的IO verify，不重跑数学核心。
+- workflow先用blob:none部分克隆，实际git pull --rebase origin main，再对4811fdaa已读提交比较根与课题README；有差异即输出diff并留待根读后继续，不把API GET当pull。另对已保全R801核心仅AST，不import/执行。
+- raw不入Git/Release，摘要与规则差异只一日artifact；后续真实结论须按输出登记。R787继续，主目标OPEN。
