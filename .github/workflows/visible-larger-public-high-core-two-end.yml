@@ -1,0 +1,179 @@
+name: visible-larger complete high109 two-end diagnostic
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-high-core-two-end-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  high109:
+    name: Retain every mode in the actual78 circular two-end system
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: visible-larger-public-high-core-two-end
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/request78-input-and-source-identity.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/resonance-status.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/circle-reference.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/complete-scalar-domain.json.gz
+    - name: Establish an independent high109 output and preserve source checkout identity
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-high-core-two-end/high109"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-high-core-two-end/high109" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install the unchanged original operator runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind all69 sources and preserve actual78 packets before new arithmetic
+      run: |-
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path,PurePosixPath
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path.cwd()
+        raw=(comp/'public-high-core-two-end-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-high-core-two-end-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=81 or request.get('lanes')!=['high109']):
+            raise ValueError('Use the one explicit high109 request81')
+        if request.get('scientific_entry')!='exact_20261115_r259_high_core_two_end.py' or request.get('publication_lane')!='smallcoreresonance':
+            raise ValueError('Retain the independent scientific entry and existing publication lane')
+        expected={'retained_modes':112,'free_high_modes':109,'original_nodes':699,'two_end_dimension_per_mode':1398,'arb_bits':160,'arb_max_bits':640,'budget_seconds':1800,'maximum_integer_bits':4000000,'floating_transfer_inverse_used':False,'new_parameter_search':False,'new_native_tail_call':False,'new_RHS_or_FFT_J_call':False,'low_three_resonance_is_required_to_start':False}
+        if request.get('diagnostic')!=expected:raise ValueError('Retain the explicit complete-model and diagnostic resource scope')
+        if request.get('output_directory')!='high109-diagnostic':raise ValueError('Use the distinct high109 output directory')
+        if len(request['source_sha256'])!=69:raise ValueError('Retain the 68 original sources plus the new consumer')
+        required={'exact_20261115_r259_high_core_two_end.py','geometry_20261114_small_core_resonance.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_full_prefix_operator.py','geometry_20261114_direct_operator_cell.py','exact_20261114_public_resume.py','source-dependencies.json','root_20261114_publish_actions.py'}
+        if not required.issubset(request['source_sha256']):raise ValueError('Missing required scientific or publication source identities')
+        if request['source_sha256']['root_20261114_publish_actions.py']!='22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca':raise ValueError('Use the unchanged publisher22e')
+        verified=[]
+        for name,digest in request['source_sha256'].items():
+            if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',digest):raise ValueError('Explicit local source identity required')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=digest:raise ValueError('Frozen source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=digest))
+        def checked(item):
+            rel=PurePosixPath(item['file'])
+            if rel.is_absolute() or '..' in rel.parts or not str(rel).startswith('topics/visible-flex-larger-amplitude/'):
+                raise ValueError('Explicit public topic input required')
+            data=(repo/str(rel)).read_bytes()
+            if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise ValueError('Original input changed: '+str(rel))
+            return data
+        inputs=[]
+        for key,item in request['inputs'].items():checked(item);inputs.append(dict(name=key,**item))
+        parent=request['parent_candidate']
+        if (parent['run_id'],parent['source_commit'],parent['request_number'])!=(43662193286,'11b5d25c436d84d734a73d4609092bde749daea5',78):raise ValueError('Retain the actual78 producer tuple')
+        expected_parent={'identity':('request78-input-and-source-identity.json',28516,'57a5d443b0f13193a385a40a13c5dc038dae768e97095074e08a6edca5fc5b58'),'status':('resonance/resonance-status.json',50438,'09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40'),'circle':('resonance/circle-reference.json.gz',139996,'6c56f190c6e07538582bc6271caa6abe9d8eb5c59362579b8f87ee6d13f8afb1'),'scalar_domain':('resonance/complete-scalar-domain.json.gz',79207,'8efa0be35549651bf8f8369cf7587c0b7cda240cebad67569686a9be9242be71')}
+        parent_root='topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/'
+        if set(parent['files'])!=set(expected_parent):raise ValueError('Retain all four original parent packets')
+        preserved=out/'parent78-original';preserved.mkdir()
+        original_packets={}
+        for key,(relative,size,digest) in expected_parent.items():
+            item=parent['files'][key]
+            if (item['file'],item['bytes'],item['sha256'])!=(parent_root+relative,size,digest):raise ValueError('Retain actual78 original bytes: '+key)
+            data=checked(item);original_packets[key]=data
+            target=preserved/relative;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+        prior_status=json.loads(original_packets['status']);prior_identity=json.loads(original_packets['identity'])
+        if prior_identity['source_commit']!=parent['source_commit']:raise ValueError('Parent source commit identity differs')
+        if prior_status['input_sha256']!={key:item['sha256'] for key,item in request['inputs'].items()}:raise ValueError('Retain all four original mathematical inputs')
+        if prior_status['final']['parameters']!=parent['final_parameters']:raise ValueError('Retain the actual78 saved candidate parameters')
+        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual78 consumed source bytes')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
+        receipt=dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_parent_packets=parent['files'],parent_originals_preserved_before_new_science=True,parent_low_candidate_is_a_gate=False,scientific_execution_claimed=False)
+        (out/'request81-input-and-source-identity.json').write_text(json.dumps(receipt,indent=2)+'\n')
+        print(json.dumps(dict(source_commit=head,source_count=len(verified),input_count=len(inputs),parent_packets=4)),flush=True)
+        PYPINS
+    - name: Restore the original78 public numerical sources once
+      run: |-
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'high109-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Diagnose every original112 chain and all109 free high modes
+      timeout-minutes: 45
+      run: |-
+        python -u - <<'PYDIAGNOSTIC' 2>&1 | tee "$VISIBLE_OUT/high109-two-end.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);repo=Path.cwd();out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((comp/'public-high-core-two-end-request.json').read_text());d=request['diagnostic'];parent=request['parent_candidate']
+        argv=[sys.executable,'-u',str(comp/request['scientific_entry'])]
+        for key in ('accepted','prepared','tail_anchor','tail_config'):argv+=['--'+key.replace('_','-'),str(repo/request['inputs'][key]['file'])]
+        prior=out/'parent78-original'
+        argv+=['--resonance-directory',str(prior/'resonance'),'--parent-identity',str(prior/'request78-input-and-source-identity.json')]
+        for field,flag in (('identity','parent-identity-sha256'),('status','status-sha256'),('circle','circle-sha256'),('scalar_domain','scalar-domain-sha256')):argv+=['--'+flag,parent['files'][field]['sha256']]
+        argv+=['--producer-run-id',str(parent['run_id']),'--producer-source-commit',parent['source_commit']]
+        for key in ('arb_bits','arb_max_bits','budget_seconds','maximum_integer_bits'):argv+=['--'+key.replace('_','-'),str(d[key])]
+        argv+=['--out',str(out/request['output_directory'])]
+        (out/'exact-high109-command.json').write_text(json.dumps(dict(argv=argv,diagnostic=d,parent_run=parent['run_id'],new_resonance_search=False,new_native_RHS_or_J_call=False,one_independent_diagnostic_invocation=True),indent=2)+'\n')
+        raise SystemExit(subprocess.call(argv))
+        PYDIAGNOSTIC
+    - name: Copy the original scalar report without a new numerical test
+      if: always()
+      run: |-
+        python - <<'PYREAD'
+        import hashlib,json,os
+        from pathlib import Path
+        out=Path(os.environ['VISIBLE_OUT']);path=out/'high109-diagnostic'/'summary.json'
+        if not path.is_file():
+            report=dict(original_summary_present=False,scope='No diagnostic summary was written; preserve the full log and all partial files',scientific_success_not_claimed=True)
+        else:
+            raw=path.read_bytes();report=json.loads(raw)
+            report.update(original_summary=dict(file='high109-diagnostic/summary.json',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),copied_existing_original_summary_only=True,mathematical_computation_performed_by_this_readback=False)
+        data=(json.dumps(report,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
+        if len(data)>=90000:
+            large=out/'large-arrays';large.mkdir(exist_ok=True);(large/'complete-high109-readback.json').write_bytes(data)
+            report={key:report[key] for key in ('schema','phase','diagnostic_completed','elapsed_seconds','exception','budget_exhaustion','original_summary') if key in report}
+            report.update(complete_readback='large-arrays/complete-high109-readback.json',complete_original_fields_retained_in_artifact=True,mathematical_computation_performed_by_this_readback=False)
+            data=(json.dumps(report,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
+        (out/'high109-readback.json').write_bytes(data)
+        print(json.dumps(dict(report='high109-readback.json',bytes=len(data),original_summary_present=path.is_file())),flush=True)
+        PYREAD
+    - name: Preserve all matrix, integer, Arb and partial evidence first
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-high109-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-high-core-two-end/high109/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded high109 reports using the unchanged existing lane
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane smallcoreresonance

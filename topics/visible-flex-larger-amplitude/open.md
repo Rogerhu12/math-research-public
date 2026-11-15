@@ -115,3 +115,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **80独立阻尼请求已发布：** [算法接口](notes/2026-11-15-small-core-damped-search-interface.md)/[实际接线](notes/2026-11-15-request80-workflow-interface.md)，source1691c7d9、workflow723872f5、request5ba4e95c。真78完整status09031496的final p、显式η=1、8轮/20档，69源/四原输入/runtime及原科学门保留；完整新方向/FD/Arb/零core圆另存damped-search-status，成功不预言。
 
 **73终态更新：** 原run43657001633 step12 exit2，原log只给native_accepted=false/snapshots3/directions3/residual=null；不得将null当norm或猜失败原因。完整1752742419B artifact14141540502/ZIP3430597b已保全，publisher另因NFF后HANDOFF规则记录冲突失败。正在同包Actions导出原result/trace/trials、完整byte及独立R276精确affine曲线；仅恢复出版，不重跑73科学。
+
+**81完整高109独立请求已发布：** [双模型消费者接口](notes/2026-11-15-R259-complete-high109-two-end-diagnostic-interface.md)/[工作流](notes/2026-11-15-request81-high109-independent-workflow-interface.md)，sourcef60db29e、workflowfa8b7fe5/request4fdfe80c。真实78四原件先保全，全112模/699节点/698cell逐模；有限L/R精确dyadic与声明实scalar/圆的Arb160→320→640分开。1800s/4Mbit显式资源预算，边界耗尽如实partial，不将低三失败候选作为启动gate；真尾导数误差/连续高非共振/低三根/横截/非零BVP仍需各自支付。
