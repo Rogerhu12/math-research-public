@@ -146,3 +146,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 [真原二次能量与参数导数来源](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)提供12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ；不用对理想求导。真实弱正常列的导数系数比唯一线性指数降一阶，s=2为一次；其余二次项与共动三次反馈仍须保原来源联合消去，尚不关闭九h0目标。
 
 [原二阶commutator、真jet两带与热跨旗](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)已付ad_D³ℒ*=0、真带宽r≤s≤r+2，以及所有孔层统一的||Π_r T(I−Π_(s−1))||≤10(16/17)^(s−r)。另有反向heat原链残量≤e^.5/x；不把残量经未付右逆修成合法源，顺次MP/实际返回仍开。
+
+[单调交换漂移的原算子界与平滑二次删除源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)已证明||ℒ*T||<90/x及同primitive源的完整真D†C1Tf、(D²)†C2Tf两列预算，来自同一y∈kerD³并有F2/F3正交拆分。后继必须付顺次伪逆新增的F2返回，不能把C2换D3或以完整(D²)†代顺次逆；实际同u混合仍未闭。

@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 2c75543b97a390b04b129ac0ddeacd18fa4bd200（2026-11-15 16:50:01 UTC，临时研究session run43736746064实际pull --rebase，两README无差异；详见notes/r150-local-projection-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 69acabba7e22782a5c56c14ee9060a058028eb53（2026-11-15 16:51:14 UTC，Actions run43737786366实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43737786366-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -26,7 +26,7 @@
 - [F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)已闭：低谱3,3/长6，6≤δP≤δA≤8，F±²W。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)δlow≥2vDlin；E8低谱2,2/长4、4≤δP≤δA≤5，E8W。对应九h0局部均付；已闭low不增阶，未知完整Γ有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)在4/3/5的原81+99产品真，4点非零trace排普适有限几何逆，未否九目标。
 - **活跃local run43736746064**于16:40:01起45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2首180s已成常头155×22和首常核585×2/rank583；raw2205B/77a06e99fec91ca12a0d9ae72aeb7e7b7711335717e7a08f418113fc474e1404。尚未首读数；同tmp two-directed-left2-checkpoint续600s，不重做已成RREF。保非零F1pure、全22常校正、λ1≤normal2/λ2≤normal3和全6188原行；零读数不证成员性。
-- Q13下一步只需原primitive历史gzip；已排只读恢复，完整blob/解压SHA均核，落本job inputs/repo。normal_annihilator构造真K∞、原17式比例、原free13归一/完整整性；审后追加同job，禁止拿有限域2免费当Q上界。
+- Q13下一步只需原primitive历史gzip；已排只读恢复，完整blob/解压SHA均核，落本job inputs/repo。normal_annihilator构造真K∞、原17式比例、原free13归一/完整整性；已全文审读排同job original-characteristic-zero-free13-projection（180s/1GiB）；仅9/13小块，155整性、80444原乘积后才报Qλ。禁止拿有限域2免费当Q上界。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)：12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ均原17式常数M来源。真弱列导数系数a−1、s2一次；其余二次项及共动三次反馈仍开，不能称九t n_j²已在像。
 
 ## 原同w边界：正交旗后继续真正返回
@@ -35,9 +35,10 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w/真u_Q/future/负前
 
 - 同顶部完整顺次链与双线性式保全部两端partial；固定R=d,h=2d,Q=L0h²的原误差一致，晚cut future落正交global孔带。若实际同u合并负部≤c_mQ||F_mu_m||²且Σ1/c_m发散可迫w=0；允许c_m=O(m logm)，上界仍开。
 - [原全模型19/10下界](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)给真E3负部≥q^(19/10)/(4(x+1)^1.5)−1.5，已排整个短核统一QlogQloglogQ；坏向量未识别为实际同w，近线性窗全部height继续。
-- [固定测试交换行/同top双线性](results/R271-appendix-actual-fixed-test-adjacent-swap-row-and-same-top-bilinear-pairing.md)：同u_f=(P_V−P_K)f有全部n/i≥x的Σ||P_i^-u_f,n||²≤8||f||²/x；固定finite f逼近w后每late cut左锚≥7||w||²/16，完整来源和两端保留。
-- **新[整条真实正交jet旗](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)**：单对[D,H_i]与D对易，H_i真旗只升一级；自伴性给三对角，完整酉输运生成元范数≤2。故全部n/条带r/i≥x的Σ||P_i^-F_r u_f,n||²≤49||f||²/x，无Q/h/log损失。真实正交条带不等于非正交顺次MP，其返回混合仍开。
-- [保原D的交换resolvent](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)：V_i=S_iU_iS_i^-1与D对易；闭直和ℒ实部≥2交换形式−(2/x)I，R_x=(I+xℒ/4)^−1范数≤2，与D/C/孔cut对易、保持核旗、R/R*强趋I。整合法右链差在同K_Q，故paired commutator零且完整两端/原w锚保全；不称与正交投影或MP对易。future输入v有交换能量≤||v||²/x、||ℒRv||≤12||v||/x、全部正交条带行≤81||v||²/x。A_nR非正交返回仍开。
+- [固定测试同top](results/R271-appendix-actual-fixed-test-adjacent-swap-row-and-same-top-bilinear-pairing.md)：实际u_f全n/i交换行≤8||f||²/x，fixed finite f给late左锚≥7||w||²/16，完整两端保留。
+- [完整正交jet旗](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)给同u_f全部n/r/i交换行≤49||f||²/x；真旗与顺次MP不可替，非正交返回仍开。
+- [保D交换resolvent](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)：R=(I+xℒ/4)^−1范数2，保D/C/孔cut/核旗，R/R*强趋I；future能量1/x、ℒ残量12/x、整旗行81/x。整合法右链差落同K_Q，paired交换真，非正交返回未付。
 - [统一扇形与全阶热平滑](results/R271-appendix-weighted-exchange-sectorial-form-all-order-heat-smoothing-and-same-top-pairing.md)：ℒ+4I/x的数值域在π/4扇形，T_x=e^(−xℒ/4)范数≤e^.5，同一个T给全部||ℒ^kT||≤e^1.5 k!(8/x)^k；完整正交旗行<160||v||²/x。T/T*强趋I、保D/C/孔cut/真实核旗，原同u paired身份与全部partial保留；T A_n真实返回预算仍开。
 - [原交换两带与heat跨旗](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)已核ad_D³ℒ*=0及显式C2；真正交旗仅r≤s≤r+2，非对角两带用原交换形式控制。θ=17/16的加权heat范数<10，跨旗≤10(16/17)^(s−r)；||[D,T*]||≤e^.5/x。只是T自己的衰减/真实误差，未付顺次MP混合返回。
+- [单调漂移/真联合MP源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)：occupation完整望远镜给|| (ℒ−ℒ*)v||≤8x^−1/2√e(v)+4||v||/x，Domℒ=Domℒ*且||ℒ*T||<90/x。primitive f同y=ℒ*Tf∈kerD³给D†C1Tf=F2y+F3y、(D²)†C2Tf=F3y，两列≤90||f||/x。仅该原特定源，不能换D3或顺次D†D†；实际返回仍开。
 - 原G_reg同一Neumann forcing/carry、正常有限秩相容链、Haar普通循环性及其余所有未闭接口保归档。继续实际来源联合预算，不把新正预算误报为ISP完成。

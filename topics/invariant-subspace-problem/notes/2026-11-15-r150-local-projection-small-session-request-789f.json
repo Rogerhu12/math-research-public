@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "f171f535dac243f033b85a7d45748892c350d89d",
+  "rulesReadAtCommit": "2c75543b97a390b04b129ac0ddeacd18fa4bd200",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -116,6 +116,49 @@
       ],
       "timeoutSeconds": 650,
       "receiptPath": "{work}/two-directed-left2-receipt.json"
+    },
+    {
+      "id": "original-characteristic-zero-free13-projection",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-characteristic-zero-free13-projection-789f.py",
+      "scriptSHA256": "d9bf01ed8f621345104fb63805f298ecf72348a07c83c93c0bc6a1b6f16f1f6b",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-full-infinity-original-dual27-v2-through21.json",
+          "sha256": "2782f380fe5731fd4766fb05fa94a6fa38c36d2d5e491bd63dd1149adc3a9388"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-full-kernel-deleted-original-output-projection.json",
+          "sha256": "28b2605d03746fb5d1a4398c36d22650239d7989f5b68463ed9d6c9f99c5f830"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+          "sha256": "b803d92f159bf26bc9b4a80bbaf5a150ff8f17e81e201b0a99e845b7777038e4"
+        }
+      ],
+      "argv": [
+        "--primitive-equations",
+        "{work}/inputs/repo/original-primitive-integer-equations.json.gz",
+        "--physical-generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--paid-full-summary",
+        "{scripts}/43731615668-full-infinity-original-dual27-v2-through21.json",
+        "--paid-projection-summary",
+        "{scripts}/43731615668-full-kernel-deleted-original-output-projection.json",
+        "--generic-rank-proof",
+        "{scripts}/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+        "--out",
+        "{work}/original-characteristic-zero-free13-projection",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 225,
+      "receiptPath": "{work}/original-characteristic-zero-free13-projection/original-characteristic-zero-free13-projection-receipt.json"
     }
   ],
   "previousSession": {

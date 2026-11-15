@@ -291,3 +291,7 @@
 ## 2026-11-15：原加权交换的两带结构与热跨旗指数界
 
 [精确二阶commutator与热跨旗界](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)证明真正交核旗仅对角加两个上带，利用其相对交换形式控制得到统一加权heat范数<10及跨旗指数尾10(16/17)^(s−r)。同时给T*的原D交换误差和真实链残量；非正交返回未由此关闭。
+
+## 2026-11-15：真实单调漂移界及特定联合源的完整MP预算
+
+[原漂移和二次删除联合源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)保occupation望远镜，得到整个闭域Domℒ=Domℒ*、||ℒ*T||<90/x；同primitive源的D†C1Tf与完整(D²)†C2Tf均受90/x控制。顺次返回额外F2项、原D3及普通N=M仍开。
