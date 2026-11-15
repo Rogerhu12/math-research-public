@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [相关完整local Airy分子与Taylor尾](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)：准确保D=−∂ρ−d∂φ及μ=Q²B+，Nraw0..10各Fourier signed项先合并；同旧复product给全部n≥11的正U/V尾、角Leibniz及独立sup/Wiener费用，mean与两ε branch全保。解析合同已证；新数值改善须公开Actions实际门，未授完整nonlocal/strong-return。
+
 - [完整7908帽伴随Gram覆盖合同](notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-contract.md)：原四格实际结果及同一257×97 Hermite提案逐字复用，32互斥范围仅补7904新格；保九类97 signed covariance、独立mean、完整Hessian/无限尾与真实9/10到25/8径向链。五件/341pin已接公开Actions，尚无全覆盖actual，不转授边界/high或无限BVP。
 
 - **R133 根值剥离的完整 old-circle 源合并入口（2026-11-15）**：44仓库pin+9原artifact文件逐字复用原27pin和root/directed两原件，仅消费1036新导数行的完整九词/五mean，3323原source payload及其大半径summary逐字保。完整算子分别取同一w1的两个合法上界之小者，不改物理对象或丢mean/seam。SCI314c092b…、manifestbd17d377…；公开Actions待actual，未授正weighted端口、完整seam修正或strong-return。

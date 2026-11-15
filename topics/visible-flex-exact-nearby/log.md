@@ -201,3 +201,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 01:59:51 UTC — 完整7908伴随主体Gram接公开Actions
 
 读main 084d2a293d0709eace0d39aa871cd68fec9e3a23，两README blob不变。root全文核新science26973B/CI26002B/合同9618B/workflow33720B；341pin manifest67434B与原337逐键零变，新增4pin身份准确，代码分隔核通过而Python AST留公开Actions。32×248互斥范围只补7904，原四格全部signed97矩阵/whole-coefficient-tail/Hessian/均值权原样，finish按真闭格链合成九Gram。原1.125GB提案只prepare取一次，原值/导数byte slice不重科学；各range保存原子prefix，原成功native即使出版失败仍可复用，真正数学失败不无改重跑。自然大数组仅原Actions，10min真pull/两README差异核、90日artifact保留。已核sameF00 process04c630fb…16562B真pull01:55:20.044720→5a3b9bcd…，diff空；root新CLI探测仍No usable execution environment。新全覆盖尚待actual，左右端/high输出与真实ν/非线性继续。
+
+### 2026-11-15 02:00:20 UTC — 相关完整local Airy分子和高阶尾合同
+
+读main 20ecf0d35a3f6f43a00393cc6bc4b7b5de1cfbed，两README不变。root全文核N.1–N.12及式N.1–N.17，blob0ecfdae7…14646B/SHA68ad0339…；逐项核D²−T0D展开、signed K及μ、ε反对称、degree10只需w1到12、乘积Cauchy hockey-stick因子、正U/V尾、角Leibniz和S0..4。有限项先signed相加，完整旧R1/6000/Σ1/128和复δ1e−8尾不删；条带sup与Wiener明确分付。只读既有26stage的新数值consumer由phase继续，未预设改善，不重算原280stage，不转授完整nine-word或物理seam/strong-return。
