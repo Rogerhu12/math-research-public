@@ -401,3 +401,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原四个单位盘与A34移动门](notes/2026-11-15-four-native-discs-and-a34-moving-threshold.md)：已证明四轴实际物理矩阵的射影自由词作用、全部有限不交分区和无限剩余Σ∞，完整反向字母的平面κ倍率不删。A34经原共同E/Z缩放的整像及Y-unit/全观察/三十次权准确写出，精度随n增长到n+34；来源有限关系不代真实同域关系。
 
 - [R750较小实际Bockstein与留数输入](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)：已证明乘B0将整个真实左行转到H0(ωN^-1(LP−D_B))，native eξ准确为同一个整F的长度L普通首Bockstein。完整Gaussian≤13极与正则部均保；所需g modp²/η0全在原首共振前，仍未证明指定留数非零或完整normal/第三块同R。
+
+- [R758](results/R758-full-norm-three-multiplier-space-and-optimal-leading-budget.md)：已证明原Norm3全部统一有理乘子空间的准确直和；四类旧角的逐列等号、新极v12与精确无穷远帽f_m−1给完整充要条件。任何非零分量m≥ceil((36D+65)/47)，最小目标预算夹在3D+该下界与R756上界之间，相差至多3个charge；177/47主阶最优，特定F/非乘法返回及同R仍开。

@@ -15,3 +15,5 @@
 - [R756](../results/R756-original-norm-three-map-and-complete-canonical-return.md)：已证明原Norm3在(t,Θ,Y)上的准确映射、固定v12清新极以及全部WD的显示公共乘子返回，最高charge为3D+ceil((36D+181)/47)，保十九角与指数系数成本。原G0比值、低轴h→h+a、完整Euler两jet及高度二Gaussian均保；充分上界不冒原3C同预算或新中央零。
 
 - [R757](../results/R757-original-type-zero-six-spectrum-and-order-nine-lines.md)：已证明原degree34 type0完整六谱；后三条primitive order9环面线的全2/3/17 Hecke角色、导子/root、Qζ9值域及准确三次实系数域齐付，非新E/Q。CM13全特征式和质量观察唯一核S给另五条质量非零，实际Yang给后三L(Ψ,1)>0；全权必须保阶18有限补偿，普通零权非零不赋中央导数零。
+
+- [R758](../results/R758-full-norm-three-multiplier-space-and-optimal-leading-budget.md)：已证明原Norm3全部统一有理乘子空间的准确直和；四类旧角的逐列等号、新极v12与精确无穷远帽f_m−1给完整充要条件。任何非零分量m≥ceil((36D+65)/47)，最小目标预算夹在3D+该下界与R756上界之间，相差至多3个charge；177/47主阶最优，特定F/非乘法返回及同R仍开。
