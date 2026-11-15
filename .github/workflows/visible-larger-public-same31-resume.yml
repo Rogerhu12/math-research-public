@@ -1,0 +1,136 @@
+name: visible-larger same31 temporary continuation
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-same31-resume-request.json
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-larger-same31-temporary-continuation
+  cancel-in-progress: false
+jobs:
+  original-same31-model:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Fixed scientific checkout and explicit request
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/computations/
+      - name: Original Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Original numerical packages and bounded Git metadata output
+        run: |
+          set -euo pipefail
+          git config --global merge.stat false
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Check actual source pins and reviewed rule bytes
+        run: |
+          set -euo pipefail
+          python - <<'PYPINS'
+          import ast,hashlib,json,os,subprocess
+          from pathlib import Path
+          repo=Path.cwd()
+          comp=repo/'topics/visible-flex-larger-amplitude/computations'
+          request=json.loads((comp/'public-same31-resume-request.json').read_bytes())
+          assert request['request']==107 and request['repository']=='Rogerhu12/math-research-public'
+          assert len(request['source_sha256'])==request['declared_source_pin_count']==70
+          for name,digest in request['source_sha256'].items():
+              assert Path(name).name==name
+              raw=(comp/name).read_bytes()
+              assert hashlib.sha256(raw).hexdigest()==digest,name
+              if name.endswith('.py'):ast.parse(raw.decode('utf-8'),filename=name)
+          for name,digest in request['parameter_sha256'].items():
+              assert Path(name).name==name
+              assert hashlib.sha256((comp/name).read_bytes()).hexdigest()==digest,name
+          for name,blob in request['reviewed_README_blobs'].items():
+              raw=(repo/name).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert actual==blob,name
+              print(json.dumps(dict(event='request107_actual_rule_bytes',path=name,git_blob=actual,
+                  bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          print(json.dumps(dict(event='request107_source_bytes_checked',sources=70,
+              parameters=len(request['parameter_sha256']),local_science_executed=False)))
+          PYPINS
+      - name: Make only the original historical input commit addressable
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --filter=blob:none --depth=1 origin 918fdb11dbb7a424b6149b405e2c7fab3cc0c737
+      - name: Original one model and complete boundary FD under unchanged rule monitor
+        timeout-minutes: 55
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-same31-resume-request.json'
+          request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==request['source_sha256'][Path(runner.__file__).name]
+          wanted=request['reviewed_README_blobs']
+          assert set(wanted)=={'README.md','topics/visible-flex-larger-amplitude/README.md'}
+          baselines={}
+          for name,expected in wanted.items():
+              raw=(repo/name).read_bytes()
+              blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert blob==expected,name
+              baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+          runner.BASELINES=baselines
+          print(json.dumps(dict(event='request107_explicit_reviewed_rules_baselines',
+              reviewed_README_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,
+              original_pull_rebase_diff_stop_unchanged=True,
+              fixed_scientific_checkout=os.environ['GITHUB_SHA'])),flush=True)
+          out=Path(os.environ['RUNNER_TEMP'])/'visible-same31-107-rules'
+          sys.argv=[runner.__file__,'--out',str(out),'--command',
+              sys.executable,'-u',str(comp/'geometry_20261115_actual98_same31_temporary_resume.py'),
+              '--repo-root',str(repo),'--request',str(request_path)]
+          raise SystemExit(runner.main())
+          PYRUN
+      - name: Remove only this request's regenerable runner payload
+        if: always()
+        run: |
+          python - <<'PYCLEAN'
+          import json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          for path in sorted(root.glob('visible-same31-107-*')):
+              if path.is_symlink() or not path.resolve().is_relative_to(root):
+                  raise ValueError('Refuse cleanup outside owned request107 temporary paths')
+              if path.is_dir():shutil.rmtree(path)
+              elif path.is_file():path.unlink()
+              print(json.dumps(dict(event='request107_owned_temporary_removed',
+                  basename=path.name,raw_uploads=0,science_acceptance_changed=False)))
+          PYCLEAN

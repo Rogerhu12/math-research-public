@@ -82,3 +82,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### 1D续：实际106非预算停止
 
 [实际106正式结论](notes/2026-11-15-actual106-twelve-budget-batches-and-original-backtrack-stop.md)：13批，前12批原八方向预算完成，末批原20回溯全拒。最终p=[.46303192429838314,-.1928229026382781,.6316434990702386]，目标6958.2257628163525、unit首项−117.96801026297652，unit/full112/native均false。原J数值condition3.0696898319753705e11且real-FD有效，不据此断言无根或精度底线。108按这次真实非预算首因改进方向/参数图，鲜重原3eq并保原门；不再盲续同η=.01批次。
+
+### 1C续：107已发布
+
+[107同31临时续接接口](notes/2026-11-15-request107-same31-temporary-continuation-interface.md)已提交：wrapper2b4e9f21/requestf508c1e5/workflow5b762d40，原70源pins及1参数pin。真实98 pair→一轮同31完整模型→仅在真实新warm上原完整边界FD；无新warm不复制旧FD。查询、B/H/C/outside、所有原预算/门不改。原四数学输入从918f历史恢复，全部raw仅临时；等待实际新输出后直接继续。
