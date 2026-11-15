@@ -229,3 +229,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 17:55:21 UTC /root — R356实际165有限目标界及严格速度域反例
 
 16109B/418acc9d全文与严格refuted源码语义核后即发；C齐、全32977半径正且δ<1，38严格速度反证不能被预算partial掩盖。完整原四帧身份/原整数界、32488未决及未读38位置保，未宣称完整result或大账逐值审完。API核52681c1ae76ff798e5f945986d96df6a75db9df5双README未变，真pull保；exact继续原日志定位及175，169未来活动p独立重付域。
+
+## 2026-11-15 17:56:23 UTC /root — 164r3真正小结与同科学新实际
+
+23191B完整diff/6380B接口核后五件即发，reader0fed29ad；wrapper只一pin、workflow只名/两pin，request只真实r2来源及读回范围，原科学/recipe/政策逐字保持。全20档/六候选三响应/FD失败与原终态保，硬90KB不抬、不拆raw；新run由amplitude核R373。API核f9994205cbd0880339cb83cd4dd3278fa2843eaa双README未变，真pull保。

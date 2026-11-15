@@ -19,7 +19,7 @@ PRODUCER='geometry_20261115_adjoint_selected_ten_control_recipe.py'
 PRODUCER_SHA='1998fa8062ca91d798fe13ef60e2dc4ee08e5709c871d88346e81692852cad2b'
 PRODUCER_SCHEMA='R259-adjoint-selected-ten-control-one-real-full3-direction-v1'
 STATUS_NAME='adjoint-selected-ten-control-status.json'
-SCHEMA='request164-independent-ten-control-original-compact-readback-v1'
+SCHEMA='request164-independent-ten-control-focused-compact-readback-v2'
 LIMIT=90000
 
 
@@ -34,8 +34,7 @@ def digest(raw):
 
 def identity(value):
     raw=encoded(value)
-    return dict(canonical_bytes=len(raw),canonical_sha256=digest(raw),
-                scope='canonical original JSON values, not independently recomputed science')
+    return dict(canonical_bytes=len(raw),canonical_sha256=digest(raw))
 
 
 def file_identity(path):
@@ -119,8 +118,9 @@ class Readback:
             self.fd_checks+=len(checks);self.fd_levels+=1
             self.fd_failures.extend(failures)
             result.append(dict(**pick(level,['step','valid','maximum_relative_error',
-                'all_ten_columns_attempted','all_ten_columns_checked','parameter_order']),
-                recorded_column_indices=columns,complete_check_count=len(checks),
+                'all_ten_columns_attempted','all_ten_columns_checked']),
+                all_ten_column_indices_checked_in_order=columns==list(range(10)),
+                complete_check_count=len(checks),
                 complete_original_checks_identity=identity(checks),
                 actual_failures_and_exceptions=failures,
                 all_perturbed_parameter_and_equation_tables_transported=False))
@@ -130,13 +130,13 @@ class Readback:
         if value is None:
             return dict(present=False)
         keys=['parameters','parameter_encoding','unweighted_full3_merit','low_equations_used',
-            'unit_diagonal_defects','high_right_leak_max','terminal_Robin_terms',
+            'unit_diagonal_defects','high_right_leak_max',
             'low_mode_trajectory_max_by_mode','scalar_node_and_mid_minimum_radius',
             'source_circle_node_and_mid_minimum_radius','source_circle_node_and_mid_minimum_beta2',
             'radius_cell_denominator_minimum_absolute','high_free_core_Schur_elimination_computed',
             'high_mode_nonresonance_proved','same_literal_coefficient_model_not_reformed_continuous_metric',
             'raw_original_table_accuracy_not_certified','derivative_accuracy_or_exact_rank_not_certified',
-            'forward_primal_equation_words_equal_to_real_state','parameter_order','response_shape',
+            'forward_primal_equation_words_equal_to_real_state','response_shape',
             'singular_values','first_three_column_singular_values','original_nine_column_singular_values',
             'numerical_parameter_condition','numerical_singular_values_are_not_a_transversality_proof',
             'actual_circle_R_minus_supplied_a_node_max','low_original_collocation_tangent_residual_max',
@@ -166,6 +166,8 @@ class Readback:
                 self.matrix(response['complete112_response'],112,10,path+'.forward_response_report.complete112_response')
                 result['complete112_forward_payload_identity']=identity(response['complete112_response'])
         result['full_original_description_identity']=identity(value)
+        if 'terminal_Robin_terms' in value:
+            result['terminal_Robin_terms_identity']=identity(value['terminal_Robin_terms'])
         return result
 
     def catalogue(self,rows):
@@ -177,7 +179,7 @@ class Readback:
             self.required(row,['catalogue_index','support_index','power','full_response',
                 'selection_score','eligible_complete_finite_response'],'catalogue['+str(i)+']')
             response=row.get('full_response',{})
-            result.append(dict(**pick(row,['catalogue_index','support_index','power','definition',
+            result.append(dict(**pick(row,['catalogue_index','support_index','power',
                 'actual_unweighted_merit_derivative','full3_response_L2','selection_score',
                 'eligible_complete_finite_response','formed_adjoint_merit_derivative_nonzero',
                 'score_is_finite_arithmetic_not_a_rank_or_accuracy_certificate']),
@@ -185,10 +187,8 @@ class Readback:
                 response=pick(response,['complete','adjoint_complete_three_response',
                     'formed_local_forward_complete_three_response','actual_adjoint_minus_formed_forward',
                     'complete112_response_canonical_sha256','complete_forward_cells',
-                    'terminal_state_action','direct_terminal_q_action','direct_terminal_three_contribution',
-                    'initial_state_action','fixed_start_justification',
+                    'direct_terminal_q_action','direct_terminal_three_contribution',
                     'actual_full3_merit_directional_action','actual_full3_merit_directional_action_from_local_forward',
-                    'ratio_reformation_word_differences','shape_sample_identity',
                     'new_trial_or_acceptance_performed'])))
             for key in ('adjoint_complete_three_response','formed_local_forward_complete_three_response',
                         'actual_adjoint_minus_formed_forward'):
@@ -220,22 +220,53 @@ class Readback:
         out['complete112_by_nine_formed_local_forward_identity']=identity(full)
         return out
 
-    def trials(self,rows):
+    def trials(self,rows,original_nine_words):
         result=[]
         for i,row in enumerate(rows):
+            path='trials['+str(i)+']'
             self.required(row,['trial','alpha','seed_parameters','original_Armijo_bound',
-                'original_full3_slope','accepted'],'trials['+str(i)+']')
-            self.vector(row.get('seed_parameters'),10,'trials['+str(i)+'].seed_parameters')
-            out=pick(row,['trial','alpha','seed_parameters','original_Armijo_bound','original_full3_slope',
-                'accepted','actual_merit','actual_parameters','actual_unit_equations',
+                'original_full3_slope','accepted'],path)
+            self.vector(row.get('seed_parameters'),10,path+'.seed_parameters')
+            out=pick(row,['trial','alpha','original_Armijo_bound','original_full3_slope',
+                'accepted','actual_merit','actual_unit_equations',
                 'actual_scalar_node_and_mid_minimum_radius','actual_circle_node_and_mid_minimum_beta2',
                 'all_original_finite_primal_domain_guards_passed','reason','exception'])
+            for key in ('seed_parameters','actual_parameters'):
+                if key not in row:
+                    continue
+                words=row[key]
+                self.vector(words,10,path+'.'+key)
+                same=isinstance(words,list) and len(words)==10 and words[:9]==original_nine_words
+                out[key+'_old_nine_words_equal_recorded_initial']=same
+                out[key+'_new_shape_coefficient']=words[9] if isinstance(words,list) and len(words)==10 else None
+                if not same:
+                    # Preserve every unexpected value; compactness never hides a changed old coordinate.
+                    out[key+'_complete_unexpected_words']=words
+                    self.metadata_errors.append(dict(path=path+'.'+key,
+                        reason='original nine words differ from the explicitly recorded fixed coordinates'))
             if 'actual_full112_right' in row:
-                self.vector(row['actual_full112_right'],112,'trials['+str(i)+'].actual_full112_right')
+                self.vector(row['actual_full112_right'],112,path+'.actual_full112_right')
                 out['complete112_right_identity']=identity(row['actual_full112_right'])
-                out['first_three_actual_full112_right_rows']=row['actual_full112_right'][:3]
             result.append(out)
         return result
+
+    def zero_extension(self,value,path):
+        if not isinstance(value,dict):
+            self.metadata_errors.append(dict(path=path,reason='expected original zero-extension object'))
+            return dict(present=False,original_identity=identity(value))
+        key='fields' if 'fields' in value else 'array_readback'
+        flag='encoded_words_equal' if key=='fields' else 'byte_identical'
+        rows=value.get(key,[])
+        if not isinstance(rows,list):
+            self.metadata_errors.append(dict(path=path+'.'+key,reason='expected original comparison rows'))
+            rows=[]
+        failed=[row for row in rows if not isinstance(row,dict) or row.get(flag) is not True]
+        return dict(present=True,original_identity=identity(value),
+            original_scalar_flags=scalar_fields(value),
+            comparison_rows=len(rows),comparison_rows_identity=identity(rows),
+            all_recorded_rows_true=all(isinstance(row,dict) and row.get(flag) is True for row in rows),
+            actual_nontrue_or_malformed_comparison_rows=failed,
+            matching_array_descriptors_and_repeated_parameter_words_transported=False)
 
 
 def compact_rules(directory):
@@ -305,7 +336,7 @@ def build(status,raw,directory,rules,compute_outcome):
                 original=pick(value,['schema','source','base_primal_source_sha256','canonical_binding_sha256',
                     'parameter_dimension','parameter_order','old_parameter_columns','new_shape_column',
                     'decimal_digits','rounding','original_mesh_nodes','field_and_tail_modes',
-                    'complete_original_tail_J_consumed','arrays',
+                    'complete_original_tail_J_consumed',
                     'new_control_table_words_are_binary64_source_samples_then_exact_lifts',
                     'new_shape_table_formation_recomputed_in_Decimal',
                     'no_discrete_rounding_derivative_or_interval_accuracy_certificate',
@@ -321,13 +352,14 @@ def build(status,raw,directory,rules,compute_outcome):
             out[name]=dict(identity=identity(value),original_scalars=scalar_fields(value),
                 binding_identity=identity(value.get('binding')),
                 selected_original_fields=pick(value,['counts','local_unvisited_suffix','reverse_unvisited_prefix',
-                    'local_primal_word_mismatch_cells','formed_arrays','start_cotangent',
-                    'direct_terminal_ratio_response','terminal_original_equation_word_comparison',
+                    'local_primal_word_mismatch_cells','terminal_original_equation_word_comparison',
                     'terminal_original_full112_word_comparison']))
     out['original_nine_adjoint_comparison']=reader.original_nine(status.get('original_nine_adjoint_comparison'))
     out['complete_six_candidate_catalogue']=reader.catalogue(status.get('catalogue',[]))
-    for name in ('zero_extension_literal_readback','zero_extension_binary64_readback',
-                 'selected_shape_actual_new_model_comparison','initial_projection_contract','final_projection_contract'):
+    for name in ('zero_extension_literal_readback','zero_extension_binary64_readback'):
+        if name in status:
+            out[name]=reader.zero_extension(status[name],name)
+    for name in ('selected_shape_actual_new_model_comparison','initial_projection_contract','final_projection_contract'):
         if name in status:
             out[name]=status[name]
     if 'selected_shape' in status:
@@ -340,7 +372,7 @@ def build(status,raw,directory,rules,compute_outcome):
     out['final']=reader.description(status.get('final'),'final')
     out['initial_binary64_projection']=reader.description(status.get('initial_binary64_projection'),'initial_binary64_projection',True)
     out['final_binary64_projection']=reader.description(status.get('final_binary64_projection'),'final_binary64_projection',True)
-    out['all_original_real_trials']=reader.trials(status.get('trials',[]))
+    out['all_original_real_trials']=reader.trials(status.get('trials',[]),status.get('original_nine_parameter_words'))
     out['complete_planned_real_trial_rows']=[
         dict(index=i,visited=i<len(status.get('trials',[])),
              actual_trial=status['trials'][i].get('trial') if i<len(status.get('trials',[])) else None,
@@ -389,10 +421,18 @@ def build(status,raw,directory,rules,compute_outcome):
     out['original_readback_coverage']=dict(catalogue_rows=len(status.get('catalogue',[])),
         original_real_trial_rows=len(status.get('trials',[])),planned_real_trial_rows=20,
         fd_original_levels=reader.fd_levels,fd_original_column_checks=reader.fd_checks,
-        fd_actual_failures_and_exceptions=reader.fd_failures,
+        fd_actual_failures_and_exceptions_count=len(reader.fd_failures),
+        fd_actual_failures_and_exceptions_identity=identity(reader.fd_failures),
+        fd_failures_full_original_details_location='each description / original_three_step_complete_ten_axis_FD / actual_failures_and_exceptions',
         metadata_errors=reader.metadata_errors,
         required_available_recorded_fields_complete=not reader.metadata_errors,
         large_original_tables_identified_but_not_transported=True,
+        canonical_identity_scope='original JSON values; metadata-only serialization, no scientific recomputation',
+        omitted_payload_categories=['matching zero-extension array descriptors',
+            'repeated trial old-nine words', 'candidate local-state and ratio-action tables',
+            'terminal Robin detail tables', 'complete literal-binding array descriptor lists',
+            'adjoint start/terminal weight matrices', 'complete FD perturbation tables'],
+        full_scientific_tables_not_independently_read_by_downstream_recipient=True,
         no_accuracy_certificate_from_metadata_or_FD=True)
     return out,not reader.metadata_errors
 

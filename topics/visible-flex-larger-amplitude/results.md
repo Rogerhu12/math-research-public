@@ -296,3 +296,5 @@
 - [R358：实际162完整C/deep112与首次射影pivot未付](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)：C全1440/六primitive/cut/deep112齐；m2仅49commit后双端点盒含0，depth32停止而非全局资源耗尽。19闭栈/后缀与m4..224、cut候选0完整保，无真实共振结论；全部小读回与清理范围已核。
 
 - [R356：实际165的有限目标上界与严格速度域反证](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：完整32977闭叶全正半径/有限δ<1；38严格速度域反证与32488未决、65535节点资源止同时存在，受控exit4。四小摘要及源语义已核，38位置和大账未逐值读；固定R320结论不推广到整个family或169未来p。
+
+- [164r3：保原科学与全部实际失败的紧凑读回](notes/2026-11-15-request164-focused-readback-r3-interface.md)：五件/完整四diff已核；只改reader与引用，逐20trial/六候选/FD失败及全部终态必要标量保留，重复固定词和匹配大表仅身份。原producer/recipe/门/预算不变，硬90KB；后续实际另记R373，不冒已清r2恢复。

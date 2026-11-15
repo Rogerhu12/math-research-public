@@ -2,18 +2,26 @@
   "schema": "public-adjoint-selected-ten-control-real-direction-request-v1",
   "repository": "Rogerhu12/math-research-public",
   "request_number": 164,
-  "engineering_revision": 2,
+  "engineering_revision": 3,
   "previous_actual_failure": {
-    "run_id": "43741113847",
-    "source_commit": "39e6ff8006f3c792a6672804e1fc1e3049767b86",
-    "compute_job_id": "132894269288",
-    "report_job_id": "132894506668",
-    "compact_summary_bytes": 12736,
-    "compact_summary_sha256": "eed3e357555f320bcf273fccc8fe90ea15d3cfdb3769d7eb839a51884f61756b",
-    "failure_stage": "direct runtime Decimal binding versus JSON string dictionary comparison; setup and table formation completed, zero tracked primal/forward/second calls",
-    "result_reference": "results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md"
+    "run_id": "43742275745",
+    "source_commit": "bab76df48309984c2b78d898bdc84dc4019ca51f",
+    "compute_job_id": "132897836261",
+    "report_job_id": "132898181128",
+    "producer_exit_code": 0,
+    "reader_exit_code": 70,
+    "original_status_bytes": 565694,
+    "original_status_sha256": "7cbba62b0db919a4d15c0b5dd609932a0ef01a4ae57b36d582f660461a0824e0",
+    "untransported_summary_bytes": 148101,
+    "untransported_summary_sha256": "6733294343997e17bb9f57fce4b5822778b6c52c457d8350afb8844d18114856",
+    "compact_fallback_bytes": 5243,
+    "compact_fallback_sha256": "d7de8945e492caeb91713ec00709cdce687a8c1e4cd3fe5cb92bc3aad258e24a",
+    "actual_stop_reason": "All original20 real trials rejected; initial independent ten-state retained",
+    "accepted_point_count": 0,
+    "failure_stage": "producer completed; compact metadata exceeded the original 90000-byte bound",
+    "result_reference": "results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md"
   },
-  "engineering_change": "Compare complete bindings through the existing frozen encoded/clean lossless Decimal-to-string JSON contract. No fields removed, no tolerance, no scientific gates or recipe changed.",
+  "engineering_change": "Only the compact metadata reader and its pins change: retain every actual trial and all scientific failure records, remove repeated fixed coordinates and matching zero-extension/terminal/weight payloads. One genuine conclusion with original 90000-byte bound, expected 40000-60000 bytes, no encoded or split raw transport. The same science executes again as a new actual, not recovery of the deleted r2 status.",
   "failed_run_is_not_a_new_parent": true,
   "lanes": [
     "smallcoreresonance"
@@ -133,7 +141,7 @@
     "geometry_20261115_adjoint_selected_ten_decimal_model.py": "8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7",
     "geometry_20261115_literal_seven_state_adjoint.py": "12a95d40929cc7799761e56c33eadc9e5fbe16fa3eacf0d0be94c56ea3452b0f",
     "geometry_20261115_adjoint_selected_ten_control_recipe.py": "1998fa8062ca91d798fe13ef60e2dc4ee08e5709c871d88346e81692852cad2b",
-    "geometry_20261115_adjoint_selected_ten_control_temporary.py": "d9b969a948e7afb661d4f1d9aa81371000692f234de5da7beef91670b4a8d289"
+    "geometry_20261115_adjoint_selected_ten_control_temporary.py": "263aaa24b3cf78d194058490a0547ffd66471de09f52a540ac6137c17d6c1df8"
   },
   "workflow_support_source_sha256": {
     "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
@@ -145,7 +153,7 @@
     "root_20261115_nine_control_decimal_scalar_readout.py": "18583ca2f78b19976ce2d68b999556ff1139f07e0d842a575d1c9188bbd8b5dc",
     "root_20261115_nine_control_decimal_curvature_scalar_readout.py": "263dd544395734d1a0e4c227655157f536541be40ff41d0dabce92778d75cb5a",
     "root_20261115_nine_control_decimal_residual_quadratic_scalar_readout.py": "a49ebce03156e8ee620ea7cab62e51c32f2a924458ad6d2320e85cf91398897d",
-    "root_20261115_adjoint_selected_ten_control_scalar_readout.py": "54d38cc81927e0aae686613ab8384b1591402c71fd3488f4b66e4844e1f1562e"
+    "root_20261115_adjoint_selected_ten_control_scalar_readout.py": "0fed29ad22913b7c0cf041de5023d9191bcfc46c3674cafb09e77ed37143c47c"
   },
   "source_closure": {
     "origin_producer": {
@@ -438,7 +446,7 @@
   "output_status_schema": "request164-one-independent-ten-control-temporary-experiment-v1",
   "scientific_output_status": "adjoint-selected-ten-control-status.json",
   "scientific_output_status_schema": "R259-adjoint-selected-ten-control-one-real-full3-direction-v1",
-  "reader_schema": "request164-independent-ten-control-original-compact-readback-v1",
+  "reader_schema": "request164-independent-ten-control-focused-compact-readback-v2",
   "readout_contract": {
     "one_compact_conclusion": true,
     "hard_ASCII_JSON_bound": 90000,
@@ -455,7 +463,16 @@
     "source_recipe_input_and_original_status_identity": true,
     "explicit_missing_fields_or_oversize_readback_failure": true,
     "readback_size_or_metadata_failure_is_not_mathematical_rejection": true,
-    "complete_original_child_error_text_before_owned_cleanup": true
+    "complete_original_child_error_text_before_owned_cleanup": true,
+    "target_conclusion_ASCII_bytes": [
+      40000,
+      60000
+    ],
+    "repeated_trial_old_nine_coordinates": "one recorded vector plus exact original JSON-word comparisons; unexpected differences retained in full",
+    "matching_zero_extension_and_terminal_weight_payloads": "complete canonical identities and original flags; every nontrue comparison retained, not full raw tables",
+    "full_original_scientific_tables_not_wholly_transported_or_independently_read": true,
+    "prior_r2_deleted_status_not_recovered": true,
+    "same_science_new_actual_required": true
   },
   "job_timeout_minutes": 65,
   "scientific_step_timeout_minutes": 50,

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:55:21 UTC 已读 52681c1ae76ff798e5f945986d96df6a75db9df5，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:56:23 UTC 已读 f9994205cbd0880339cb83cd4dd3278fa2843eaa，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -53,7 +53,7 @@
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082，微降不证准确根，全finalfalse。真实末九p50和半径见原文；R350补必要标量，禁搬154值。
 
-[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保全七状态/112。[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：43742275745/sourcebab76df4，producer0/完整20全拒/accepted0；reader70因148101B超90KB，5243B fallback已读，各trial/FD/域原值未传且raw已清。原源1998fa80/门/预算不变；amplitude仅改必要小读回，重跑属新实验。[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)G/H完整span与[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)不交odd箱已证；173 helper2d2d84eb已发、174独立真157父固定形状继续。
+[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保全七状态/112。[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：43742275745/sourcebab76df4，producer0/完整20全拒/accepted0；reader70因148101B超90KB，5243B fallback已读，各trial/FD/域原值未传且raw已清。[164r3](notes/2026-11-15-request164-focused-readback-r3-interface.md)五件已发，reader0fed29ad/requeste14936fe/wf7ea5a78d；原1998/recipe/门/预算不变，单份必要标量目标40–60KB/硬90KB，新实际R373待返，不冒旧raw恢复。[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)G/H完整span与[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)不交odd箱已证；173 helper2d2d84eb已发、174独立真157父固定形状继续。
 
 
 ## 闭合、精化与恢复

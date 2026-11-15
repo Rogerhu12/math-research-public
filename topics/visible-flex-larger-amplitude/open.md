@@ -53,9 +53,9 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 164 producer及全child各2400s、TERM90s、reader300s/30s、science50min/job65min；资源止/结构错误保原状态，单份≤90KB必要标量，大表仅身份，无raw上传。新shape表仍为binary64采样再准确提升，非高精连续函数证书；有限空池/全拒/近词尾小步不证函数空间驻点。原nine optimizer不再跑，旧module只用于完整来源绑定，不把十维发给旧九维owner；首跑R364及后继R371由amplitude核，全部非线性native/闭场成功仍未预填。
 
-[R364首164](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：43741113847/source39e6ff80已setup/建表，完整binding2984B/ad491与recipe编码同，Decimal对JSON字符串直接比较误拒；0 tracked原模型调用/六候选与20trial未起。[164r2接口](notes/2026-11-15-request164-canonical-binding-retry-interface.md)仅完整encoded比较与pins/真实来源metadata，producer1998fa80；原recipe/112+10/45消费/门/预算保。
+[R364首164](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：43741113847/source39e6ff80已setup/建表，Decimal/JSON类型误拒，0 tracked模型调用，六候选/20trial未起。r2以完整encoded绑定修复，producer1998fa80；全部原recipe/112+10pins/45消费/门/预算保持，原绑定2984B/ad491与完整错误范围见结果及历史接口。
 
-[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：run43742275745/sourcebab76df4，producer0/diagnostic-completed、原stop20全拒、accepted0，非资源止；consumer返回不等于FD/域门通过。reader70因候选摘要148101B/67332943超90KB，原status565694B/7cbba62b已清；两log/fallback5243B/d7de8945逐字核，真实section尺寸保。所选候选、逐trial数值/拒因、FD误差/有效、Arb/圆门值未读，不能据字节数填数；仅改必要原标量小读回，不能以新运行冒旧raw恢复。无接受父，173/174仍独立actual157，不新增rank或读取门。
+[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：43742275745/sourcebab76df4，producer0/完整20全拒/accepted0，返回不等于FD/域门通过；reader70因148101B超90KB，565694B原status已清，5243B fallback与两日志齐。逐trial/候选/FD/Arb/圆原值未读不补造。[164r3接口](notes/2026-11-15-request164-focused-readback-r3-interface.md)仅reader及pins/真实r2元数据五件重发：0fed29ad/e14936fe/7ea5a78d；保全部20实际值/六候选三响应/120FD覆盖与全失败、原域/终门，重复旧九词仅一次、匹配大表仅身份。目标40–60KB未实测、硬90KB不变，producer1998/recipe/全部科学与预算不变；新实际由amplitude核R373，不能冒恢复旧raw。173/174独立真157父，无新rank或读取门。
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)的隔离七次零2-jet形状给单一准确商响应εw/a；[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)对同坐标不同逻辑输入聚合G=Σw/a、H=−Σwb/a²，偶/奇基给ε²H/εG，完整允许C²响应span/rank/左零空间已证。共享node权只计一次，相同形成q词不证明准确公共q；奇池全零不排除值方向，无实际rank或误差认证。
 
