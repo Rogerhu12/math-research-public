@@ -150,10 +150,10 @@ tail_cost实现独立controller/checkpoint-aware objective、显式新outer与�
 
 [R352](results/R352-ordered-three-moment-tail-map-and-natural-total-flux-quotient.md)现从原canonical完整第二尾支付整个U的辅助独立性：p_n=[(1+d²)n0+2hdn1+h²n2]/8h，W_n是真∫(K0p−λp_s)，原尾分子各仿射。rawpure2+2恰−2K(Zu,Tn)−4K(Yu,RangeH(Yu,Tn))，故Γ对右包只通过三矩线性进入，整个输出而非仅积分成立。任意真实有序矩匹配方案给同一G_V,u(μu)，且G只依赖πV；自然Λ在U/R上定义、五次profile并满足N协变。真左尾/全部s-history/可能αβ³period项均未删，不宣全U类零或非零。
 
-[R350](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)已付原R134三个Abar_hh/hk/kk所有状态值及实际跨度Λ0：原a′、第三accel及qq″正规化β全保，ΩΠ=5Ωself+2a_Lj_L/h²，真实有序2+2收缩−3a_L(v)j_L(u)/h²、a_L原三矩线性，所以尾准确抵消。下一H1/H2、静态、速度二/四次全normal密度（含N0/N2响应），利用R352同一明确读出逐层算值；任意形式模板未证属于U前不冒可调真实成本。逐包平台、更多Af、整period与13同规范仍欠。
+[R350](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)已付原R134三个Abar_hh/hk/kk所有状态值及实际跨度Λ0：原a′、第三accel及qq″正规化β全保，ΩΠ=5Ωself+2a_Lj_L/h²，真实有序2+2收缩−3a_L(v)j_L(u)/h²、a_L原三矩线性，所以尾准确抵消。[R358](results/R358-nonzero-total-flux-class-of-a-true-velocity-acceleration-cost.md)现已付一个真H商：S*=(1,1,1)，V*=−2H1−4H2，Λ(Π−7V*)=−∫u″5/57600；原c2保第二history导数，ZZ完整P/B与两ordered tail不可删，R129正规curl/R130真实U/affine真权共同桥接。三真偶bump给非零，故U/R≠0；非成本半群/候选不可解。下一H其余真权、静态、速度二/四次全normal密度（含N0/N2响应），沿R352同一明确读出逐层算值；任意形式模板未证属于U前不冒可调真实成本。逐包平台、更多Af、整period与13同规范仍欠。
 
 
-[R356](results/R356-lowest-two-full-self-weights-and-universal-total-flux-cancellation.md)完整消费R203动态双线性层：保二阶history b′=C及b两端0，最低Σ(U−9)=0；次层全函数Σ(U−8)只落TR与r4跨度，动态项−r4∫fC²不删，TR真实左仿射尾非零但与u‴总配对零。经原有限仿射Volterra/faithful与c多项式桥转真权，π两层0使自然Λ也零。未宣两模板都可达、U−8=R或全U总Λ零，继续H1/H2和−6等层。
+[R356](results/R356-lowest-two-full-self-weights-and-universal-total-flux-cancellation.md)完整消费R203动态双线性层：保二阶history b′=C及b两端0，最低Σ(U−9)=0；次层全函数Σ(U−8)只落TR与r4跨度，动态项−r4∫fC²不删，TR真实左仿射尾非零但与u‴总配对零。经原有限仿射Volterra/faithful与c多项式桥转真权，π两层0使自然Λ也零。未宣两模板都可达、U−8=R或全U总Λ零，R358已补一个H真权−7非零类，继续其它H系数和−6等层。
 
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
 

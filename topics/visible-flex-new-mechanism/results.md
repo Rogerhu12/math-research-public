@@ -434,3 +434,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R360：完整PY第二self与六维中层锥支付全部18Gaussian反对称外矩
 
 [完整证明](results/R360-complete-positive-negative-second-self-and-six-dimensional-middle-cone.md)，20169B/SHA256 271da1798f8ba8af4006d4a439edda5851e33b8a60acb0f2cea69432474e8fce。原PY2完整self=−2RY1−2SY1−μ1μ2，保原Y输出/Green，真实Γ接成T12；D三矩后T12只common，pure商=2(a−b)RY1p/b。R357 Q/S/V经det−3b²/4的真实平移图给三有序行，J/Ksh两个真母坐标在两α给三local行，12实际列中6锥。接R359低4及C2得12行24列满秩/严格正核；有限S5幅+右逆小残差准确保旧17付PY2，ΨS−2及末F★支付同时保。**同实际偶弱圆全18外矩/72角位置零**；对称乘积/全history/period/joint、同g有限嵌入等未授。root全文读，原R353/349手核self/Green/T12及完整三层cost，无执行；正文修正母公式交叉引用并明确24列。
+
+## R358：真实速度—加速度成本的非零总通量商类
+
+[完整证明](results/R358-nonzero-total-flux-class-of-a-true-velocity-acceleration-cost.md)，18792B/SHA256 14f7bf0f5d56fd861fb1f1aeea1aea6795ec2914aeb618d45f13727ef6eae799。原H1/H2在S*=(1,1,1)的V*=−2H1−4H2属于实际U；完整第二history导数A_s=m2使c2准确归约，ZZ原P/B两项与两真ordered尾全部保。完整速度curl的ε−9系数=−∫u″5/15360，经15/4正规因子及原affine真权得**Λ(Π−7V*)=−∫u″5/57600**。三个不交真实偶bump的r=u″零0/1矩且∫r5>0，故实际U/R非零。不是正成本障碍、不是指定路径实现或全部period不解。root全文读原R56/R73/R76/R129关键链，手核a/m2、ZZ尾、完整curl及三IBP/真权因子；原少ZZ项的未发正号草稿已纠正，无新增执行。
