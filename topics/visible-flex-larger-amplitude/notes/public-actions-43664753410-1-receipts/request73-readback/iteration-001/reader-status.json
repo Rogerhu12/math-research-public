@@ -1,0 +1,191 @@
+{
+  "schema": "current576-iteration-reader-status-v1",
+  "iteration": 1,
+  "directory": "iteration-001",
+  "producer_record": {
+    "native_call": 1,
+    "nonlinear_iteration": 1,
+    "snapshot_sequence": 1,
+    "iteration_directory": "iteration-001",
+    "snapshot_completed": true,
+    "linear_direction_returned": true,
+    "source_current_withJ_norm": {
+      "value": 6.749978282929229e-05,
+      "float64le_hex": "c5655f70d5b1113f",
+      "classification": "finite"
+    },
+    "snapshot": {
+      "file": "iteration-001/snapshot/result.json",
+      "bytes": 1312,
+      "sha256": "48de35dbfd6978ced6850cc7f6e33d772a9aabd42b1709492146a8a90a4e1288"
+    },
+    "current_state_sha256": "a45516548d6a4862da3d1a7e1c86b37a3cd97a6eed00fc34ea00ff4cbc0ee0ef",
+    "qr_exit": {
+      "schema": "noj-primal-current-native576-synchronous-QR-exit-v1",
+      "native_call": 1,
+      "nonlinear_iteration": 1,
+      "snapshot_sequence": 1,
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "stdout": {
+        "file": "qr.stdout.log",
+        "bytes": 5832,
+        "sha256": "4314fa90be39fc09faed33241c290b500c140b3cff959daa130ca156f79e7835"
+      },
+      "stderr": {
+        "file": "qr.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "direction": {
+      "schema": "noj-primal-current-native576-returned-correction-v1",
+      "native_call": 1,
+      "nonlinear_iteration": 1,
+      "snapshot_sequence": 1,
+      "current_state_sha256": "a45516548d6a4862da3d1a7e1c86b37a3cd97a6eed00fc34ea00ff4cbc0ee0ef",
+      "snapshot_result": {
+        "file": "result.json",
+        "bytes": 1312,
+        "sha256": "48de35dbfd6978ced6850cc7f6e33d772a9aabd42b1709492146a8a90a4e1288"
+      },
+      "result": {
+        "file": "result.json.gz",
+        "bytes": 4593,
+        "sha256": "0ffbebe0af547a515e4f5badf3668b283c180b922f6ed564e3e8b6392d7dc09c"
+      },
+      "input_binding": {
+        "file": "input-binding.json.gz",
+        "bytes": 73286,
+        "sha256": "f1cbaf4f234d04bd7e3a5ed1c15345eebb7d322e0327a7e046e0b34c1adbb86d"
+      },
+      "direction_checkpoint": {
+        "file": "native-direction-checkpoint.json.gz",
+        "bytes": 1368352,
+        "sha256": "065b21cd9a210646ab3c643572ade1e795acc57897b3652567e68a720ae3f87e"
+      },
+      "array_manifest": {
+        "file": "output-array-manifest.json.gz",
+        "bytes": 57448,
+        "sha256": "5ac1f09d9261512cac2eb7ad5beaeaacc9444de99ed6b95fbaf2e95e9a5ebc5a"
+      },
+      "native_delta": {
+        "name": "complete-original-coordinate-delta",
+        "file": "large-arrays/complete-original-coordinate-delta.f64le",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          577,
+          224
+        ],
+        "bytes": 1033984,
+        "sha256": "1de947f4b3625dde52cc0ad7d2eb6bd9e20dcbb8c3bc2b4196a8199fb6a05ac8",
+        "role": "Actual full binary64 sigma*z product, no threshold or removed mode; original exact readback follows",
+        "finite": 129248,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 22
+      },
+      "new_matrix_identity_sha256": "bcbf0e418f338e3366fdb569d4549b46ee52b64756bd9e3e13a8b12bc38e6ed0",
+      "restored_negative_zero_count": 22,
+      "complete_current576_original_coordinates": true,
+      "no_cut_or_far_projection": true,
+      "chartCondition_not_computed": true,
+      "returned_maxChartCondition": null,
+      "original_ten_noJ_trials_follow": true,
+      "no_extra_L2_or_exact_defect_acceptance_gate": true,
+      "native_accepted": false
+    }
+  },
+  "byte_audit_passed": true,
+  "complete_qr_scope_verified": true,
+  "snapshot": {
+    "result": {
+      "file": "result.json",
+      "bytes": 1312,
+      "sha256": "48de35dbfd6978ced6850cc7f6e33d772a9aabd42b1709492146a8a90a4e1288"
+    },
+    "context": {
+      "file": "context.json.gz",
+      "bytes": 8718,
+      "sha256": "3754620c894e6a0ee08e1d1be05e53a66e0b0b544c05b9c7390f0f9749ecee2a",
+      "raw_bytes": 71833,
+      "raw_sha256": "46d76144e902181e21abc971a7c162b7bed889314db26ae6cd761d9dbfe676ea",
+      "encoding": "json-gzip"
+    },
+    "manifest": {
+      "file": "array-manifest.json",
+      "bytes": 171210,
+      "sha256": "bc1e18e89c1c865b3824d4e01669c4ed653e7cba29c085a0d86ef39b3fa3bf70"
+    },
+    "native_call": 1,
+    "nonlinear_iteration": 1,
+    "snapshot_sequence": 1,
+    "current_state_sha256": "a45516548d6a4862da3d1a7e1c86b37a3cd97a6eed00fc34ea00ff4cbc0ee0ef",
+    "arrays": 10,
+    "J_blocks": 576,
+    "complete_raw_bytes": 234318472,
+    "complete_chunks": 583,
+    "raw_array_sha256": {
+      "base-states": "a45516548d6a4862da3d1a7e1c86b37a3cd97a6eed00fc34ea00ff4cbc0ee0ef",
+      "stage-residuals": "8f61608581d1bc77504c49df55026a133a7d4d8247248d97d603f3d9ed166b41",
+      "stage-out": "aab2c9e736aa9cf753d6ad2d941128392735035b03da3db5fe7abf7a40c172f6",
+      "original-scales": "ecbfd55d5f1dde8f8918818a257f9f2b7638344395d253d7c0844ff407abfecc",
+      "cut-residual": "f545ed8af2a7a31771ad9c3fc0d8fedbc12caf98392f6bd0dbda1d6ce45e4652",
+      "end-residual": "c9bbe07064cb8b75e8613dc2a2d0e7a83f765987b51844fdd560c25077389df2",
+      "original-far-graph": "395804bb32582680dd544c6278862f51919c7598b3a1a526f1194f18deffda54",
+      "physical-height": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+      "cut-target": "e2ea4563e7afc7d993db2ebc29ef63a1d853355c9d1ceeaf10f296b84391a14d",
+      "stage-jacobians": "80148fa3e8d518d9d9256081c162595763f3bdb44db27260f1a88a84fa2db9ed"
+    },
+    "first_state_is_failed61_raw_initial_guess": false,
+    "primal_flow_implementation": {
+      "schema": "original-noJ-matched-primal-captured-variational-v1",
+      "source_file": "geometry_20261114_noj_matched_variational_engine.mjs",
+      "source_sha256": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9",
+      "original_dependencies": {
+        "local_cusp_grid": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+        "product_jacobian": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+      },
+      "only_flowStateWithJacobian_replaced": true,
+      "original_root_rhs_rk4_unchanged": true,
+      "complete_state_dimension": 226,
+      "shape_dimension": 224,
+      "captured_root_feed_only": true,
+      "installation_receipt": {
+        "file": "primal-flow-installation.json",
+        "bytes": 12005,
+        "sha256": "e83758bda98bdd22f358331e560fbc8e76692b1fe339bf2bf023dc79fc610b9e"
+      }
+    },
+    "saved_original_norm": {
+      "value": 6.749978282929229e-05,
+      "float64le_hex": "c5655f70d5b1113f",
+      "classification": "finite"
+    },
+    "saved_original_minA": {
+      "value": 0.9999999999759498,
+      "float64le_hex": "cfb1fcffffffef3f",
+      "classification": "finite"
+    },
+    "saved_original_minD": {
+      "value": 0.9999999999999858,
+      "float64le_hex": "80ffffffffffef3f",
+      "classification": "finite"
+    },
+    "actual_cut_and_far_arrays_not_reformed": true,
+    "fresh_evaluate_claim_bound_to_original_source_and_complete_snapshot": true,
+    "nonlinear_state_update_not_recomputed": true
+  },
+  "audit": {
+    "file": "iteration-001/byte-summary.json",
+    "bytes": 13870,
+    "sha256": "f61f84b4160fe131a73ea8c364712012f24bb2f022f19edd61d3697af7159b98",
+    "raw_bytes": 13870,
+    "raw_sha256": "f61f84b4160fe131a73ea8c364712012f24bb2f022f19edd61d3697af7159b98",
+    "encoding": "json"
+  },
+  "complete_existing_files": 1772
+}

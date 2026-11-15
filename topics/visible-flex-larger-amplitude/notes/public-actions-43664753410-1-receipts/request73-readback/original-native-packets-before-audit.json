@@ -1,0 +1,52 @@
+{
+  "schema": "actual73-original-packets-before-byte-audit-v1",
+  "original_artifact": {
+    "run_id": 43657001633,
+    "artifact_id": 14141540502,
+    "artifact_name": "visible-mainline-nojprimalnative-43657001633-1",
+    "expected_size": 1752742419,
+    "expected_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9"
+  },
+  "original_source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+  "original_result_present": true,
+  "original_fields": {
+    "schema": "native-noj-primal-current576-damped-solve-result-v1",
+    "native_accepted": false,
+    "actual_original_failure_message": "Error: multiple-shooting line search failed at 0.000060618737006888706",
+    "actual_error": "FloatingPointError(\"Actual complete finite tail rejected: {'failed': 'Error: multiple-shooting line search failed at 0.000060618737006888706', 'residual': None, 'lastIteration': {'iteration': 2, 'norm': 6.0618737006888706e-05, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858, 'chartCondition': None}}\")",
+    "original_tolerance": 2e-09,
+    "original_max_iterations": 32,
+    "fresh_withJ_snapshots": 3,
+    "current_R273_directions_returned": 3,
+    "requested_full_DN_Jacobian": true,
+    "requested_full_finite_audit": true
+  },
+  "original_result": {
+    "file": "native-noj-primal-current576-damped/result.json",
+    "bytes": 7583,
+    "sha256": "ade4fdac3adce104cb4e216e9d2f40b219bfca47d2c027ac548e6c65f65ab394"
+  },
+  "original_correction_summary_descriptor": {
+    "bytes": 11100,
+    "file": "current-correction-summary.json",
+    "sha256": "fc754fbf8bf88f70ae8b644510233fec435c3da97e7e942498604981c2e46805"
+  },
+  "packet_count": 35,
+  "original_iteration_directory_names": [
+    "iteration-000",
+    "iteration-001",
+    "iteration-002"
+  ],
+  "complete_original_packet_manifest": {
+    "file": "large-arrays/original-native-packet-manifest.json.gz",
+    "bytes": 2411,
+    "sha256": "8ccda84a131c166644e3db550bbf334adeaa16bd8ac8cec9620c843009fc3cdb",
+    "raw_bytes": 14541,
+    "raw_sha256": "8cd08c24dd50385de214bb4c36bcfb8f720b1d761e91232ea1028a749d4b638c"
+  },
+  "original_result_and_journals_exported_before_complete_byte_audit": true,
+  "original_compressed_packets_not_reserialized": true,
+  "mathematical_computation_performed": false,
+  "scientific_success_inferred": false,
+  "original_outcome_not_changed_by_audit_or_future_R276": true
+}

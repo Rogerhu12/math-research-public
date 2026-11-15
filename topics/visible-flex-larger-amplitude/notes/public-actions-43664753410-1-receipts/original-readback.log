@@ -1,0 +1,33 @@
+{"artifact_id": 14141540502, "artifact_name": "visible-mainline-nojprimalnative-43657001633-1", "event": "pinned_public_artifact_metadata_verified", "expected_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9", "expected_size": 1752742419, "repository": "Rogerhu12/math-research-public", "run_id": 43657001633}
+{"archive_bytes": 1752742419, "archive_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9", "artifact_id": 14141540502, "event": "pinned_public_artifact_ready", "extracted_bytes": 2139890233, "extracted_files": 5358, "output_directory": "/home/runner/work/_temp/original-completed-43657001633", "receipt_file": "_pinned_public_artifact_receipt.json", "receipt_sha256": "a350efdc072031d6b38455fb1653f9cbacb7f14fa03cef7269570273917ea7fd", "repository": "Rogerhu12/math-research-public", "run_id": 43657001633, "scientific_computation_performed": false, "success": true}
+{"event": "actual73_original_packets_preserved", "packet_count": 35, "original_result_present": true, "original_fields": {"schema": "native-noj-primal-current576-damped-solve-result-v1", "native_accepted": false, "actual_original_failure_message": "Error: multiple-shooting line search failed at 0.000060618737006888706", "actual_error": "FloatingPointError(\"Actual complete finite tail rejected: {'failed': 'Error: multiple-shooting line search failed at 0.000060618737006888706', 'residual': None, 'lastIteration': {'iteration': 2, 'norm': 6.0618737006888706e-05, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858, 'chartCondition': None}}\")", "original_tolerance": 2e-09, "original_max_iterations": 32, "fresh_withJ_snapshots": 3, "current_R273_directions_returned": 3, "requested_full_DN_Jacobian": true, "requested_full_finite_audit": true}, "summary": {"file": "original-native-packets-before-audit.json", "bytes": 2381, "sha256": "1df96c78dd153d1fe94e6e35e952f84fbb1ca1de119d95a3ec5f2c2f0fa9df52", "raw_bytes": 2381, "raw_sha256": "1df96c78dd153d1fe94e6e35e952f84fbb1ca1de119d95a3ec5f2c2f0fa9df52"}}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 128, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 256, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 384, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 512, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 640, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 768, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 896, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 1024, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 0, "arrays": 1152, "total": 1168}
+{"event": "current576_iteration_byte_readback", "iteration": 0, "passed": true, "complete_qr_scope": true}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 128, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 256, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 384, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 512, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 640, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 768, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 896, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 1024, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 1, "arrays": 1152, "total": 1168}
+{"event": "current576_iteration_byte_readback", "iteration": 1, "passed": true, "complete_qr_scope": true}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 128, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 256, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 384, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 512, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 640, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 768, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 896, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 1024, "total": 1168}
+{"event": "current576_saved_array_bytes", "iteration": 2, "arrays": 1152, "total": 1168}
+{"event": "current576_iteration_byte_readback", "iteration": 2, "passed": true, "complete_qr_scope": true}

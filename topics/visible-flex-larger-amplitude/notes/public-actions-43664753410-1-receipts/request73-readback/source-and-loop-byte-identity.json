@@ -1,0 +1,158 @@
+{
+  "schema": "noj-primal-current576-complete-loop-source-byte-audit-v1",
+  "source_files": [
+    {
+      "file": "exact_20261114_native_allrows_dyadic_residual.py",
+      "bytes": 36438,
+      "sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f"
+    },
+    {
+      "file": "exact_20261114_native_damped_chain_qr.py",
+      "bytes": 42340,
+      "sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33"
+    },
+    {
+      "file": "exact_20261114_noj_primal_current576_damped_chain_qr.py",
+      "bytes": 27750,
+      "sha256": "70bc10dfb31717b662265485d10a15028365dbba5db85ccf9c8f592226e33955"
+    },
+    {
+      "file": "exact_20261114_noj_primal_current576_damped_system.py",
+      "bytes": 27150,
+      "sha256": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3"
+    },
+    {
+      "file": "exact_20261114_seeded_zero_tail_client.py",
+      "bytes": 21980,
+      "sha256": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776"
+    },
+    {
+      "file": "exact_20261114_true_tail_client.py",
+      "bytes": 19526,
+      "sha256": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09"
+    },
+    {
+      "file": "geometry_20261114_current576_same_state_noj_probe.py",
+      "bytes": 21595,
+      "sha256": "fc2c61d35e6eb3b1e8d836f46b75c7dc5ec2f2f69bcd483410a289434637099b"
+    },
+    {
+      "file": "geometry_20261114_native_captured_band_correction.py",
+      "bytes": 36867,
+      "sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390"
+    },
+    {
+      "file": "geometry_20261114_noj_matched_variational_engine.mjs",
+      "bytes": 8624,
+      "sha256": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9"
+    },
+    {
+      "file": "tail_frozen_worker.mjs",
+      "bytes": 5149,
+      "sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054"
+    },
+    {
+      "file": "tail_resumable_engine.mjs",
+      "bytes": 4193,
+      "sha256": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_current576_damped_solve.py",
+      "bytes": 20279,
+      "sha256": "938fbec22f0733fff6ceb22e6e9b7a9e12942c12d1eae31c608d8f517702df8c"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_current576_damped_solve_hook.mjs",
+      "bytes": 53665,
+      "sha256": "099798e9c57f09b82f7532ea184d124446aeeb2cdbafe452390cb794b8db405d"
+    },
+    {
+      "file": "exact_20261114_audit_damped_chain_bytes.py",
+      "bytes": 34986,
+      "sha256": "5618d29c41d95d668c959b05cee8295ce4285b2a50961277f557f8cfb717b440"
+    },
+    {
+      "file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+    }
+  ],
+  "original_specification": {
+    "bytes": 50477,
+    "encoding": "json-gzip",
+    "file": "current-solve-spec.json.gz",
+    "raw_bytes": 386189,
+    "raw_sha256": "123a302089f1ccfc74d5af2999e66802406dc3836744214848b40ac93b30f371",
+    "sha256": "59536f64dc44c912dadef955fe9028136b875b776b1fd45d0eda4e66a6155c55"
+  },
+  "parent_receipts": {
+    "native_accepted": false,
+    "native_result": {
+      "bytes": 6891,
+      "file": "result.json",
+      "sha256": "b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef"
+    },
+    "schema": "actual61-failed-native-final-snapshot-anchor-v1",
+    "snapshot_context": {
+      "bytes": 8339,
+      "file": "context.json.gz",
+      "sha256": "c42bd7ddc98489b2b22ddd7f641b05913d3a816f8ba43b640d1ae415ec1da4e7"
+    },
+    "snapshot_manifest": {
+      "bytes": 171205,
+      "file": "array-manifest.json",
+      "sha256": "a7525246aabfeab518e3f7f9cda6529da4f60b032c1834acc7b3686679ee24bc"
+    },
+    "snapshot_result": {
+      "bytes": 1301,
+      "file": "result.json",
+      "sha256": "5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286"
+    },
+    "source_native_call": 1,
+    "source_nonlinear_iteration": 3,
+    "source_snapshot_sequence": 3,
+    "state_raw_sha256": "b34daaf8ad1841b452707c669236ba38731d1f97506af4bbfe1a22e39d814013",
+    "summary": {
+      "bytes": 12691,
+      "file": "current-correction-summary.json",
+      "sha256": "f75e96707b7af6f191777145108c646c9aa863082b882dbdfc5b15e316bceeed"
+    }
+  },
+  "parent_payloads_not_redownloaded_by_this_reader": true,
+  "failed_parent_used_only_as_raw_initial_guess": true,
+  "original_core_and_actual_public_method_sources_verified": true,
+  "independent_flow_implementation": {
+    "schema": "original-noJ-matched-primal-captured-variational-v1",
+    "source_file": "geometry_20261114_noj_matched_variational_engine.mjs",
+    "source_sha256": "f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9",
+    "original_dependencies": {
+      "local_cusp_grid": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+      "product_jacobian": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+    },
+    "only_flowStateWithJacobian_replaced": true,
+    "original_root_rhs_rk4_unchanged": true,
+    "complete_state_dimension": 226,
+    "shape_dimension": 224,
+    "captured_root_feed_only": true,
+    "installation_receipt": {
+      "file": "primal-flow-installation.json",
+      "bytes": 12005,
+      "sha256": "e83758bda98bdd22f358331e560fbc8e76692b1fe339bf2bf023dc79fc610b9e"
+    }
+  },
+  "installed_unique_engines": 8,
+  "installed_stage_count": 576,
+  "original_withJ_flow_is_not_claimed_unchanged": true,
+  "original_max_iterations": 32,
+  "original_tolerance": 2e-09,
+  "parent_old_withJ_norm_only_provenance": {
+    "classification": "finite",
+    "float64le_hex": "48e8edcddbd8143f",
+    "value": 7.952539043101878e-05
+  },
+  "original_eta": {
+    "classification": "finite",
+    "float64le_hex": "000000000000f03f",
+    "value": 1.0
+  }
+}

@@ -1,0 +1,129 @@
+[main 7ca6b96] visible-larger: preserve actual current576native continuation 43657001633
+ 107 files changed, 13500 insertions(+)
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/_pinned_public_artifact_receipt.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/actual61-selected-fetch-receipt.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/actual-current-method-identities.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/core-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/current-correction-summary.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/current-corrections.jsonl
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/current-input-config.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/current-solve-spec.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/engine-loader-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/failed61-seed-binding.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr-exit.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr-launch.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr.stderr.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr.stdout.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/current576-exact-readback.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/current576-row-resolution.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/current576-worst-witness.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/factor-index.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/factor-report.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/formed-stage-inventory.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/input-binding.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/native-direction-checkpoint.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/output-array-manifest.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/result.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/qr/summary.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/returned-correction.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/snapshot/array-manifest.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/snapshot/context.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/snapshot/core-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/snapshot/flow-return-metadata.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/snapshot/primal-flow-installation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-000/snapshot/result.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr-exit.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr-launch.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr.stderr.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr.stdout.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/current576-exact-readback.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/current576-worst-witness.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/factor-index.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/factor-report.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/formed-stage-inventory.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/input-binding.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/native-direction-checkpoint.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/output-array-manifest.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/result.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/qr/summary.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/returned-correction.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/snapshot/array-manifest.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/snapshot/context.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/snapshot/core-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/snapshot/flow-return-metadata.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/snapshot/primal-flow-installation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-001/snapshot/result.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr-exit.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr-launch.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr.stderr.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr.stdout.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/current576-exact-readback.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/current576-worst-witness.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/factor-index.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/factor-report.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/formed-stage-inventory.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/input-binding.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/native-direction-checkpoint.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/output-array-manifest.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/result.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/qr/summary.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/returned-correction.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/snapshot/array-manifest.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/snapshot/context.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/snapshot/core-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/snapshot/flow-return-metadata.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/snapshot/primal-flow-installation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/iteration-002/snapshot/result.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_0001.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_capacity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_intent.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_iteration.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_ready.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_runtime-config.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_stderr.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_trace.jsonl
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/native_trials.jsonl
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/original-live-identity-before-failed61-seed.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/primal-flow-installation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/public-inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/public-inputs/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/result.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/verified-launch-intent.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/native-noj-primal-current576-damped/worker-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/noj-primal-current576-request-identity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/original61-selected-fetch.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/public-source-preparation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/public-source-restore.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/publication.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/mirror-created.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/runner-identity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/runner-result.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/science-launch.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/sync-0000-attempt-0000.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/sync-0000-attempt-0001.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/sync-0000-completed.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/sync-0001-attempt-0000.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/sync-0001-attempt-0001.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/rule-sync/sync-0001-completed.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native/runner-storage-reservation.json
+From https://github.com/Rogerhu12/math-research-public
+ * branch            main       -> FETCH_HEAD
+   4a2824d..7dc5551  main       -> origin/main
+Rebasing (1/1)Successfully rebased and updated refs/heads/main.
+[main 1dd0afa] visible-larger: record actual publisher pull and unchanged rules
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/Rogerhu12/math-research-public
+ ! [remote rejected] HEAD -> main (cannot lock ref 'refs/heads/main': is at af52752c44562e21bdb40b3b8f40856c48dc7a47 but expected 7dc5551415521c93b35eb2923d82161edd8d1a65)
+error: failed to push some refs to 'https://github.com/Rogerhu12/math-research-public'
+
+From https://github.com/Rogerhu12/math-research-public
+ * branch            main       -> FETCH_HEAD
+   7dc5551..af52752  main       -> origin/main
+Rebasing (1/2)Rebasing (2/2)Successfully rebased and updated refs/heads/main.
+[main 5bade59] visible-larger: record actual publisher pull and unchanged rules
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/Rogerhu12/math-research-public
+   af52752..5bade59  HEAD -> main
+
+Published topics/visible-flex-larger-amplitude/notes/public-actions-43657001633-1-current576native

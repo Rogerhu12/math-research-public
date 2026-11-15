@@ -1,0 +1,31 @@
+{
+  "schema": "actual73-original-fetch-export-and-byte-audit-route-v1",
+  "source_sha256": "d97eb11b51ff621f10d31a4da5aa942bca405ec36a64dd298e551eddc1d0e9d7",
+  "reader_sha256": "c062117765addc2acf7b82ca1aa6ad87027ebab8d32c75673af382d24dd26f06",
+  "original_artifact": {
+    "run_id": 43657001633,
+    "artifact_id": 14141540502,
+    "artifact_name": "visible-mainline-nojprimalnative-43657001633-1",
+    "expected_size": 1752742419,
+    "expected_sha256": "3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9"
+  },
+  "original_source_commit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
+  "original_extraction_completed": true,
+  "original_packets_exported": true,
+  "mathematical_computation_performed": false,
+  "R276_not_called_by_this_step": true,
+  "transport_receipt": {
+    "file": "_pinned_public_artifact_receipt.json",
+    "bytes": 1740436,
+    "sha256": "a350efdc072031d6b38455fb1653f9cbacb7f14fa03cef7269570273917ea7fd"
+  },
+  "original_packets": {
+    "file": "original-native-packets-before-audit.json",
+    "bytes": 2381,
+    "sha256": "1df96c78dd153d1fe94e6e35e952f84fbb1ca1de119d95a3ec5f2c2f0fa9df52",
+    "raw_bytes": 2381,
+    "raw_sha256": "1df96c78dd153d1fe94e6e35e952f84fbb1ca1de119d95a3ec5f2c2f0fa9df52"
+  },
+  "original_byte_reader_returncode": 0,
+  "original_and_partial_outputs_not_removed": true
+}
