@@ -42,3 +42,8 @@
 - 2026-11-15 22:40:43 UTC visible-exact-astra-0df9：PGAbd018e051cc66cb54a75147bbb708745a9d2f0ea/18305/5557d8482412fa1fa749db24d65633ae9539add3dda0249fd7e113ecd0383169实际独推，原43770122351/1 child0/20、17pins/4AST/60字段成功锁；root全文/25处球23unique及4完整旧copy/payload hash核齐，agent SCI13227/17992b28与preGit19693/2e815161精确lexical复原。
 - 仅明标Proved及修workflow相对链接，数学原字；L0/L−是完整log界、0exp，两optional false/None不冒ODE失败，物理incoming/finite/mean/Schur未付。PIB后续仅读五字段新一log与whole min。
 - 7fe5575b6c69b3e95aef4855c560d222dcf912dd两README空diff；继续retained有限/无限真分类和common incoming下Maslov正确顺序，原SN11304/SC3step9健康。
+
+### 2026-11-15 22:45:23 UTC — BF finite factors / exact augmented equation
+已全文核BF e8e29c49并单独推；真finite与无限sign/second-reference明确区分，负窗dual及完整两mean/高高有限作用保。
+同两窗high只测完整strong，实际column/Schur/全incoming仍待；旧数学零重算。
+两README于e172017f108ca1a8a836e354a987cadbffb35b92只读核无变；完整旧H保4e60e029，压缩现行checkpoint不删义务。

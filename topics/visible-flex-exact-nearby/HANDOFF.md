@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 22:40:43 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 22:45:23 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 22:23:24定时CLI失败，下一≤23:23。原SN真pull22:35:15.526737→a388ad2f738cc010cd04524a0bf2a0a2c2368c65，两README空diff；ref读取不冒真pull。
-最近只读README核：7fe5575b6c69b3e95aef4855c560d222dcf912dd；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：e172017f108ca1a8a836e354a987cadbffb35b92；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -24,12 +24,16 @@ SC3唯一43754452928/1，部署555d311；helper6f868faf/SCI41b8f50c/manifestcd28
 
 ## 当前新链与下一实际计算
 
-WYebf87135/WE49616d85：同Js左逆→Jσ→真U_X逆，Λ^-1TF^-1S^-1原序。C*=CPC+CST4+CSF(cut已含)，state仅BH左消；CG费整读不二KF。全mean/P97/finite/PW保，retained须真实norm或exactborder，paid不冒完整Ei。
-SJccaaa1b1/SJA3176f8ae，原43768006977/1 child0/26成功锁；48pins/8AST/66字段/101新球及SCI/preGit保proof。18原parts→3071行/2550段，全D2 K3/两mean/finite/真dr/3070无length jumps齐，C_SF完整3.24452606e111仅上界。三c积分原球供CG；521同label桶仍付全跳。旧math0，真实incoming/Schur/真PDE未付。
-KLdc48bdb4/KLA2ac6e803，原43766439345/1 child0/16成功锁；14pins/2AST/11math/10全copy/14球及SCI/preGit保proof。完整R0相关消去，same terminal-Ai四phase同模KΛ<10.611、公共numerator原球保存。只WX forward+off-bump根短费用，ng0除一次；右Λ^-1TF^-1S^-1/两mean/finite保，optional left未算。
-TF652a9a2c/TFA6e11a160，原43766881076/1 child0/14成功锁；12pins/3AST/9math/7全copy/20标量及SCI/preGit保proof。完整root F_A<185，JF1024，同一逆L2<1.048/负4/3<1.061，原finite≤1215及mean保；two-I与finite的before/after费各保存，右序不换。实际Cσ/Eσ/incoming/Schur独立。
-PG0a5e4ad7：CG h0/h1+TF F_A/degree192+WX ψ′/ψ″给个别ci/co A0/A1；MI shifted I先增一导，b在H−1/3乘，付同一L2/负4/3逆和logK，保全mean/selected域，无ψ‴。PGA5557d848原43770122351/1 child0/20成功锁，17pins/4AST/60字段，execc2f1168f/26173/95a0fafb，SCI13227/17992b28和preGit19693/2e815161齐。两完整log界已成、两optional false不冒ODE失败，0exp。PIB2d74b71c新伴随两级增益给K−≤1+CI B+CI²BV K0，同一逆全mean与log候选保，phase制仅读五PG字段的新consumer。全Ei/finite/Schur仍待。
-CGa66ad4c4唯一43768992861/1 child0/21成功锁、job12步success；SCIbb4ed26/18985/a68095bb、execd8137a54/11800/f7588f8c，9pins/2AST/6math。cut/g/branch三导/三窗/dual/coeff完整1.03665941336e32；TF after-right不二KF。CGA13e7b13d实际证明已独推，全部50处球/44unique原字；WEA c85797c5原43769746581/1 child0/22成功锁，12pins/2AST/9math；SCIac0046da/18532/3d73b56f、exec2be9c4dd/8c1cc71f，完整五新组合/三输出/SCI-preGit保proof。paid1.91881943e118只上界，六retained exact-border-unpaid，全Ei/incoming未付。
+至PIB/PGA的完整交接保4e60e02933122a159d1538ddd863a5d17483423c同H/open/log；下列成功SCI/原球/全部身份和scope见各actual proof，旧成功禁重。
+WYebf87135/WE49616d85：左同Js逆→Jσ→真U_X逆，右Λ^-1TF^-1S^-1；C*=CPC+CST4+CSF(cut已含)，state只BH左消，coeff整读不二KF。全mean/P97/PW保，paid不冒完整Ei。
+SJ/SJA3176f8ae，43768006977/1 child0/26；48pins/8AST，18parts→3071行/2550段/3070真jumps，K3/两mean/finite/dr齐；C_SF=3.24452606e111仅上界，三c积分供CG，521同label桶全付。
+KL/KLA2ac6e803，43766439345/1 child0/16；完整R0相关消去、同Ai四phase KΛ<10.611，WX forward/offbump根短/ng0一次，原右序保。
+TF/TFA6e11a160，43766881076/1 child0/14；F_A<185/JF1024，同一L2<1.048、负4/3<1.061；finite≤1215/两mean/two-I和before/after费独立保，真实C/E/incoming仍待。
+CG/CGA13e7b13d，43768992861/1 child0/21；SCIbb4ed26/18985/a68095bb、execd8137a54/f7588f8c，9pins/2AST。cut/g/branch三导三窗/dual/rank全成，coeff1.03665941336e32，TF after-right不二KF。
+WEA c85797c5，43769746581/1 child0/22；SCIac0046da/18532/3d73b56f、exec2be9c4dd/8c1cc71f，12pins/2AST。五新组合与paid1.91881943e118已成，仅normalizedbranch；六retained未付，登记名不证明finite或全Ei。
+PG0a5e4ad7/PGA5557d848，43770122351/1 child0/20；17pins/4AST/60字段，execc2f1168f/26173/95a0fafb，SCI13227/17992b28、preGit19693/2e815161。CG h0/h1+TF F_A/degree192+WX ψ′/ψ″→ci/co A0/A1及同一L2/负4/3 inverse。两完整log界成、两optional false非ODE失败，0exp。
+PIB2d74b71c已证伴随H1/3→H4/3/duality：K−≤1+CI B+CI²BV K0，log候选L0+log(1+CI B+CI²BV)，保全mean与selected域。phase封只读PG五字段新consumer，不重算旧量；optional同号门未获signed输入。
+BF e8e29c49已证：真finite须实际L/V与负窗dual，旧head非新角head；完整square B=T+E+LV且全E有CE后，χ=K0 CE ΛJ^-4/3只收strong，高逆同两窗。增广Schur保PUVP/两physicalmean/全部finite，不需其small；infinite sign/secondreference不得塞finite。实际columns/矩阵/逆未成。
 
 ## 已成功源链索引
 

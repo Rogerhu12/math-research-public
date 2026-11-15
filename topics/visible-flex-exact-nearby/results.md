@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 BF**：[保留有限因子与完整增广 incoming 方程](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)，真finite按实际projection/codomain和dual regularity分类；原head运输不丢高频。完整square分解后，两窗同一high inverse只检验完整strong，增广Schur精确保留有限项高高块和两physical mean。实际完整Ei/有限矩阵及其逆尚未取得。
+
 - **已证明 PGA**：[实际完整主因子逆的两窗对数界](results/R133-supplement-actual-complete-principal-inverse-logarithmic-certificates.md)，43770122351/1首次成功；完整A0/A1、V0/P0/B1/3/P4/3和两个log证书，20门/60字段齐。两optional Neumann失败完整保存、全mean同一ODE逆成立，未授物理incoming或Schur。
 
 - **已证明 PIB**：[完整主因子逆的伴随逐级增益](results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md)，已有完整L2逆经H1/3、H4/3和duality给同一负窗逆及无需exp的新log候选；保全mean，optional同号门尚无actual signed输入。
@@ -18,7 +20,7 @@
 
 - [SJA：实际完整严格径向首符号缺陷](results/R133-supplement-actual-complete-strict-radial-first-symbol-defect.md) `3176f8ae`：公开原run43768006977/1、child0、26门成功，48pins/8AST、3071真cut行/2550合格段、全部3070接缝及两物理mean/finite费用完整。得到可原字读取的三角导系数积分与完整 C_SF 上界；其原球约3.24452606e111，只证有限上界，不作实际大小或完整逆判断。101新球、完整SCI/preGit及原身份全保存，旧成功数学零重算。
 
-- [PG：由一阶角导数支付同一完整主因子双窗逆](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md) `044d95c8`：CG个别首系数预算、TF根带宽与WX已成ψ′/ψ″给真实A0/A1；MI shifted primitive先从H−4/3增至H−1/3，再乘非均值系数。证明H1实系数下同一完整逆、两mean配对和可保存logK，不需未取得的ψ‴或SN终点；数值consumer仍须CG成功，完整physical Ei/finite/Schur独立。
+- [PG：由一阶角导数支付同一完整主因子双窗逆](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md) `0a5e4ad7`：CG个别首系数预算、TF根带宽与WX已成ψ′/ψ″给真实A0/A1；MI shifted primitive先从H−4/3增至H−1/3，再乘非均值系数。证明H1实系数下同一完整逆、两mean配对和可保存logK，不需未取得的ψ‴或SN终点；数值consumer仍须CG成功，完整physical Ei/finite/Schur独立。
 
 - [TFA：实际共同根正规化与同一双窗逆](results/R133-supplement-actual-complete-common-root-normalizer-and-two-window-inverse.md) `6e11a160`：唯一公开Actions `43766881076/1`、14/14门成功；完整根系数给出 `J_F=1024`，同一逆的 L2 与 H−4/3 界分别小于1.048、1.061。原有限补项≤1215、两physical mean、two-I中间窗与原右乘次序全部保留；before/after费用各自保存，旧成功数学零重算。
 

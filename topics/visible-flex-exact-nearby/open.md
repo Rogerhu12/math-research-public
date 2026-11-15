@@ -35,6 +35,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [MI](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca实主因子完整两mean逆/Jensen $d_\theta\ge1$；
 [PG](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md)0a5e4ad7用CG h0/h1、TF F_A/degree192及WX ψ′/ψ″给完整ci/co A0/A1，不需ψ‴。由V0/P0/W1/3(b)/W4/3(p)给同一L2/负4/3逆与logK；shifted primitive先增一导，b在H−1/3乘，H1平滑闭合双侧逆，完整mean不删。只selected同对象，实际consumer接已成CG，不能巨大exp或log值冒norm。
 [PIB伴随增益](results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md)2d74b71c从实际L2 inverse构造adjoint u，再H1/3→H4/3增益/duality得同一负窗逆 $K_-\le1+C_I B+C_I^2BV K_0$。完整mean/selected域保，新log为 $L_0+\log(1+C_I B+C_I^2BV)$，只和原PG同窗whole bound取min；不算exp。optional同号门可给 $K_0\le1+V/\kappa$，但现有unsigned输入不授signed gap。
+[BF真实有限因子与增广Schur](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)e8e29c49已证明：旧low head经原右TF逆/S逆有完整dual因子而非新角有限支撑；两mean、primitive/density及显式有限projection可保实际$LV$，完整sign/second-reference/PW函数空间输入不因此有限。对实际square $B=T+E+LV$，同两窗高逆仅需完整strong的$\chi=K_0C_E\Lambda_J^{-4/3}<1$；增广Schur精确保留$PUVP$及所有physical mean，实际columns、matrix entries与inverse仍待。
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
 
 [WY](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135/[WE](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md)49616d85：
