@@ -32,7 +32,7 @@
 
 [实际98完整读回结论](notes/2026-11-15-actual98-thirty-one-quarter-step-and-rms-barrier-compact.md)：102v3实际43682529851输出83396B/SHA5fb8012e，原五件已核。最近半步虽同权目标下降0.11320131726990468，LEFT464/465原RMS仍失败，两点已在31；四分之一步31点全正且左右RMS零失败，col=.00710763096028075、BC=7.837078403973583e−9，仍不是BVP完成。第107轮从真实98 warm/status在同31重新线性化，保完整B/H/C/outside和所有原预算/门。v3摘要已在90KB内，但整个model对象相等身份项false导致exit2，另六项true；保留此事实并解释写入范围，不再重算98或加新科学门。
 
-### 1D. 低三方程：105又八接受，106连续原批次
+### 1D. 低三方程：106真实非预算停止，108改进方向
 
 R277两端链/高109消元与R278项目化/条件消元已直接入results；实际高109非共振、合法非零核及非线性尾仍须真实证据。原R259零core圆参考不等于非零大幅解。92内层门阻塞已排除，93/96/97/99/101的原完整三方程Armijo接受均有正式结论，不重旧科学或旧字节审核。
 
@@ -40,7 +40,7 @@ R277两端链/高109消元与R278项目化/条件消元已直接入results；实
 
 [实际105结论](notes/2026-11-15-actual105-recipe-eight-accepted-restorations-compact.md)：run43680931993/source28b59a6f/job132711175414，38trial中30full3Armijo拒绝、8接受，前六α1/16后两α1/8，零评价异常。freshW13116.490604299248→11845.748285989865，父101末位不同如实保留。末p=[.4976392922339909,-.2670862030502635,.5984780843750176]，unit=[-144.75696204631936,52.31556662313988,2.0239218417525406e-9]，全部unit/full112/native仍false；仅外预算停止。原scalar声明域984叶、unresolved0和圆参考finite均只按自身范围。
 
-106从这次真实p/run/source/status2f8ad344/log-summary73774bce生成短recipe，以独立stdlib orchestration最多64次运行同3169：每次仍η=.01、8×20/12×20、同原所有门与freshJ。只有真实原budget stop且原unit未过才继续；异常/非预算stop/unitstop照原停止，无预设收敛。[106完整接口](notes/2026-11-15-request106-frozen-recipe-batches-interface.md)已发布：batch0805b44d/reader c5ce5766/workflowf9494887/request540a17f5，75主pins加2metadata支撑，child仍15。原45分钟真实pull监控保持；独立report job只给<90KB原标量与SHA，root不下载长compute日志。106实际run43682474213/source500fb2ac/job132715859020正在原批次步；独立report尚未输出。
+106从这次真实p/run/source/status2f8ad344/log-summary73774bce生成短recipe，以独立stdlib orchestration最多64次运行同3169：每次仍η=.01、8×20/12×20、同原所有门与freshJ。只有真实原budget stop且原unit未过才继续；异常/非预算stop/unitstop照原停止，无预设收敛。[106完整接口](notes/2026-11-15-request106-frozen-recipe-batches-interface.md)已发布：batch0805b44d/reader c5ce5766/workflowf9494887/request540a17f5，75主pins加2metadata支撑，child仍15。原45分钟真实pull监控保持；独立report job只给<90KB原标量与SHA，root不下载长compute日志。106实际run43682474213已完成13批，最后一批原20回溯全拒，所有最终门false；详见下方实际106正式结论，108针对真实首因继续。
 
 ## 2. 接受场闭合、固定g与全t精化
 
@@ -71,13 +71,13 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 
 终端04:53至05:43不可用，期间使用根第8条授权小文本通道；现shell=bash恢复。旧workspace满且旧checkout无Git元数据，root在/tmp/visible-larger-root-git-106完成新的blob:none/sparse部分克隆，05:44:26真实pull。两README74c08a36/bff8aea2未变；此后所有发布已回终端Git，每push前真实pull/rebase并在H记录，非快进即循环重拉/推。
 
-104元数据发现notes约2.789GB，不能只删public-actions目录。保守已识别8184件可重算raw约2.642GB，保代码/配置/参数/manifest/结论及未知JSON，预计本题约168.5MB。小选择器将在Actions按旧tree3832eb52@52704ecd与当前同path/OID匹配作普通index删除；不取大payload，不改历史，不删后来新结论。保留真正复算脚本/参数和历史输入来源；清理与科学并行。
+104已完成普通清理：[实际回执](notes/2026-11-15-rule15-request104-run43682924785-attempt1-metadata-cleanup.md)，run43682924785/job132717224569/source2cf540ca，普通commit2be1ad96删除当前同path/OID的8184件已知可重算数据共2641928364B。实际postpush课题8071文件/168796207B，低于200MB；没有重写历史/取科学payload/上传artifact或Release。未知JSON保留，不声称完整分类。原输入只按8bd26710历史临时恢复，T112配置及代码仍在main。
 
 - 102v3 nowuses original98 scalar-only compactJSON with alltrials/queries/failedpoints represented, section-byte diagnostics before unchanged90KB limit; sourcee2e8ec32/workflow36294c78/requestb7ac8455. Actual98 science unchanged; wait for real v3 output before choosing107 query delta.
 
-- 104 ordinary Rule15 cleanup nowhas exactmetadata/OID selector (7e0dfcb5), expected8184 knownregenerable mainpaths removed without rewritinghistory. New/changed/unknown files retained; no image/PDF assumption. AwaitactualActions receipt, thenrecordcounts andlastreadcommit. Doesnotblock science.
+- 104 metadata cleanup已真实完成；科学任务持续。以后新workflow设merge.stat=false，避免Git pull默认diffstat触发无关大blob读取。
 
-104实际43682589310在普通Git commit默认摘要阶段试取未下载旧blob而停，GIT_NO_LAZY_FETCH保留、main未删；用quiet commit窄修复后立即重跑原metadata清理。
+104首次43682589310在Git commit默认摘要阶段被no-lazy-fetch阻止；quiet commit窄修复后的43682924785成功，不放开payload读取。
 
 ### 1D续：实际106非预算停止
 
