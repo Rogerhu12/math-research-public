@@ -1,0 +1,225 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "selected-natural-first-characteristic-zero-left-envelope",
+  "executionSourceCommit": "deb3581cfb417ccb0039bb11898540c080cc3697",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-first-left-envelope-rebuilt-runner-789f.py",
+  "scriptSHA256": "3e7b9ea6875f52961ddfaff2615afd3481ef85bbd75b8b1d5b76cebb94ee9bf2",
+  "argvTemplate": [
+    "--rebuild-root",
+    "{work}/selected-natural-u-rebuilt",
+    "--point-model",
+    "{selected_model}",
+    "--projected-engine",
+    "{scripts}/2026-11-15-r150-selected-second-transverse-projection-789f.py",
+    "--envelope-engine",
+    "{scripts}/2026-11-15-r150-selected-natural-first-left-envelope-789f.py",
+    "--out",
+    "{work}/selected-natural-first-left-envelope",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "1024"
+  ],
+  "timeoutSeconds": 110,
+  "exitCode": 75,
+  "wallSeconds": 55.0850944419999,
+  "fullTemporaryReceiptBytes": 4869,
+  "fullTemporaryReceiptSHA256": "10077d89f1b16133d143f983c11b17cefd1119cb011ddce8d59c2e3efb38b428",
+  "result": {
+    "format": "isp-rebuilt-same-IJ-natural-first-left-envelope-pipeline-v1",
+    "status": "checkpointed-time-budget",
+    "phase": "actual-natural-first-left-envelope",
+    "oldLargeEliminationRecomputed": false,
+    "newDixonDigitsComputed": 0,
+    "newPrimeComputed": false,
+    "lostRational585CacheReconstructionRequired": true,
+    "largeDataUploadedOrCommitted": false,
+    "leadingUnitProved": false,
+    "mathematicalElapsedSeconds": 55.02007526800003,
+    "outcome": "checkpointed-time-budget",
+    "error": "exact new envelope incomplete; original sparse system/whole completed RREF or jets are retained",
+    "parameters": {
+      "binding": "69b179dd9a10089e285160425211bd0af0c75f7e1c520ac9fc349c394076c655",
+      "inputIdentities": {
+        "reconstructionReceipt": {
+          "bytes": 14906,
+          "sha256": "81e0f05da228f523369513ced5eb0a085f7364ef53a2a6219e90ed94502a900e"
+        },
+        "selectedModel": {
+          "bytes": 21285,
+          "sha256": "20373c07422701e37b9226fe1fe72cb8ee1e7848df505ebbacd92cf818093c2a"
+        },
+        "unitProfile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        },
+        "pointModel": {
+          "bytes": 87459,
+          "sha256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074"
+        },
+        "projectedEngine": {
+          "bytes": 11181,
+          "sha256": "d94b1f0be704c5eb7aee756a98a5d7a2097e66a331709c4e300434f78dbd7e9d"
+        },
+        "envelopeEngine": {
+          "bytes": 20823,
+          "sha256": "4901fa8fcebbda69a9c6042cdf20f622083c8e75285b19051bba47f435dc2ac9"
+        },
+        "wrapper": {
+          "bytes": 12026,
+          "sha256": "3e7b9ea6875f52961ddfaff2615afd3481ef85bbd75b8b1d5b76cebb94ee9bf2"
+        }
+      },
+      "secondsLimit": 60.0,
+      "memoryMiB": 1024,
+      "reconstructionRootIsTemporary": true,
+      "originalIAndJVerifiedByAll51PrefixIdentities": true,
+      "actualEnvelopeReceipt": {
+        "bytes": 2812,
+        "sha256": "1a7b28dac19ab40dd88177f0a1f12b0ace7a053a28ced525326184d227021dd0"
+      },
+      "actualEnvelopeBinding": "717dd4bfc621d633c40c01ffd0e35345828ffc98b9edf25b10989153ece49d91",
+      "actualEnvelopeStatistics": {
+        "format": "isp-same-IJ-natural-first-rational-left-envelope-v1",
+        "status": "budget-exhausted",
+        "phase": "exact-small-left-envelope",
+        "old585RREFRecomputed": false,
+        "old4318EliminationRecomputed": false,
+        "newPrimeComputed": false,
+        "newDixonDigitsComputed": 0,
+        "fullSelectedFirstSchurMatrixOverQComputed": false,
+        "largeDataUploadedOrCommitted": false,
+        "leadingUnitProved": false,
+        "mathematicalElapsedSeconds": 52.382505019000064,
+        "all4354OriginalConstantLeftProductsZero": true,
+        "error": "uncompleted exact worker; complete preparation/RREF/jet stages remain temporary"
+      },
+      "actualEnvelopeParameters": {
+        "binding": "717dd4bfc621d633c40c01ffd0e35345828ffc98b9edf25b10989153ece49d91",
+        "inputIdentity": {
+          "codeSHA256": "4901fa8fcebbda69a9c6042cdf20f622083c8e75285b19051bba47f435dc2ac9",
+          "inputs": {
+            "selected_model": {
+              "bytes": 21285,
+              "sha256": "20373c07422701e37b9226fe1fe72cb8ee1e7848df505ebbacd92cf818093c2a"
+            },
+            "unit_profile": {
+              "bytes": 21066,
+              "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+            },
+            "coefficients": {
+              "bytes": 20580,
+              "sha256": "7ab537a3c8f9a3d13b924a23f37f8d4ce4fa7621e3608920404ed0051b2fd5c1"
+            },
+            "first_receipt": {
+              "bytes": 10251,
+              "sha256": "ba9dd3e9204ec20a7d74310c6414e69d3f00db961051e8ecc88ca90be29743d2"
+            },
+            "projected_input": {
+              "bytes": 170401,
+              "sha256": "ae6cd5ca8e1b9c9ea46bdfb7d9f3a15bc1cefb312e2a867504833ba3c8e09bb2"
+            },
+            "left_kernel": {
+              "bytes": 709324,
+              "sha256": "85315e40939ab61fb8afe4ac0d56c97a5f5c022428c783db47449fd84ee4f7bc"
+            }
+          },
+          "originalSelectedRows": 4354,
+          "headSupport": "normal<=2, sameI",
+          "correctionSupport": "normal1..3, sameI, constant-coker gauge removed"
+        },
+        "secondsLimit": 57.369185789000085,
+        "memoryMiBPerProcess": 1024,
+        "temporaryFiles": [
+          {
+            "file": "same-original-natural-left-envelope-integer-input.json.gz",
+            "bytes": 3244457,
+            "sha256": "2fabe7d680cc65e6098c4a9940d7f8e7c5eb21c0ffd57e5a168b0b348f53ba8a",
+            "temporaryOnly": true
+          },
+          {
+            "file": "complete-same-I-characteristic-zero-left-heads.json.gz",
+            "bytes": 633788,
+            "sha256": "3107ab8547071205466ff5b5aa2ef5f0e3ea81a976258a25184c9a0d7e709fe2",
+            "temporaryOnly": true
+          },
+          {
+            "file": "left-envelope-worker-receipt.json",
+            "bytes": 278,
+            "sha256": "b8f1ca88cb7d434eafdc6ee89f792f7a6dccf6a881e4ccc1c5dc3513faa0b6e2",
+            "temporaryOnly": true
+          }
+        ],
+        "originalSourceCount": 4354,
+        "activeOriginalSourceCount": 2618,
+        "omittedOriginalSourceCount": 1736,
+        "correctionVariables": 1546,
+        "headVariables": 36,
+        "preparedColumns": 1582,
+        "originalIntegerNonzeros": 73434,
+        "fullCorrectionSupportCount": 1572,
+        "constantCokernelGaugeRemoved": 26,
+        "naturalF1PureCoefficientsZero": false,
+        "lastWorkerStatus": {
+          "status": "running",
+          "phase": "exact-rref",
+          "binding": "717dd4bfc621d633c40c01ffd0e35345828ffc98b9edf25b10989153ece49d91",
+          "preparedIdentity": {
+            "bytes": 3244457,
+            "sha256": "2fabe7d680cc65e6098c4a9940d7f8e7c5eb21c0ffd57e5a168b0b348f53ba8a"
+          },
+          "elapsedSeconds": 0.097704216000011
+        }
+      },
+      "actualRational585RebuildReceipt": {
+        "bytes": 7177,
+        "sha256": "5e2113c77c9a166690665562ecaebb2c0c0dff60123fc612bfb687a3a6da1386"
+      },
+      "temporaryCheckpointLocations": {
+        "rational585": "rebuilt-rational585",
+        "rational585Cache": "rational585-completed-cache.json",
+        "originalEnvelopeAndExactRREF": "left-envelope"
+      }
+    },
+    "events": [
+      {
+        "rational585WorkerExitCode": 0,
+        "elapsedSeconds": 2.6207336209999994
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 10:22:11 UTC",
+      "beforeReadCommit": "f3c0f906fb951b0dc723250ac485d447aae0ee84",
+      "originMainAfterPull": "deb3581cfb417ccb0039bb11898540c080cc3697",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 10:23:06 UTC",
+      "beforeReadCommit": "deb3581cfb417ccb0039bb11898540c080cc3697",
+      "originMainAfterPull": "deb3581cfb417ccb0039bb11898540c080cc3697",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 8,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2745,
+    "logicalJsonSHA256": "549432c62dd2d87669f822d6256a225054fa90bb35e6922b0b288eb13fe083bf",
+    "itemCount": 8
+  },
+  "lastRulesReadCommit": "deb3581cfb417ccb0039bb11898540c080cc3697",
+  "summaryExcludesRecomputableArraysOnly": false
+}
