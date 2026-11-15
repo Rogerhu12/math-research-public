@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：71c08c3aa64427f4b1446a6d11901991818c3281**（2026-11-15T23:09:49.567788+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
+**已读规则提交：f67585b4dd7d62bd1c5981cd6f56434a08d1a946**（2026-11-15T23:11:05.368116+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -31,7 +31,7 @@
 
 **R839短RR新入口**：[完整纸证](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)以原三层391raw块移位拼2866×2886之T11矩阵；须实际2451子式，再双τ/σ嵌入给415行Q5、真两锚给830×690/395子式，才准确取得295条M3(D)的单位solve基。原R827391块/p753已有S5逆、R8091234原行已纯IO取齐；不做新V11尾/旧导数/旧逆。代码及公共wrapper接入中，尚未填秩或D坐标，eta/height未得。
 
-**真隐式关系与CM新消费者**：[2420原单位块](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)8d5b58a5由真核维28给原free1186准确adj/det关系、全129/280；权6的2692块定义全部300真隐式B，均非展开坐标。ordinary实现真实518的四CM响应及十四坐标商：全14branch单位才整体取逆，旧6724^5/κ/ζ只一次；RR候选须真bordered零或准确行空间乘回才能进旧R792。
+**原CM新消费者已激活**：[2420原单位块纸证](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)8d5b58a5定义原free1186准确关系；[首次执行接口](notes/R787-implicit-CM-value-consumer-interface.md)消费真实518、R790146值/首jet、原recipes，四组176件。core d0e94bee / wrapper12727d7c，只新增双数乘积/eZ/四响应/十四环标量逆；保已带负号Z、6724^5仅一次。实际B0非零才给有限点表达式，全14unit才整体商；RR建议恒candidate，准确展开false。待登记新run，不改旧R792成功入口；beta/eta/height未得。
 
 ## 后继来源与期限
 

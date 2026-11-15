@@ -1,0 +1,150 @@
+{
+  "job": {
+    "budget_minutes": 300,
+    "core": "R787_implicit_CM_value.py",
+    "core_sha256": "d0e94bee98802169b9e1dfec186143deda7745bf2cdad420e683a75eb1969ddc",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "p": 41,
+    "producer_inputs_pending": false,
+    "proof": "notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md",
+    "proof_sha256": "8d5b58a5f6e9748805af3c032de1bae955543b1855535b6c51f0ca9cd6947820",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "result": "R787-original-implicit-CM-value",
+    "resume": null,
+    "sources": {
+      "R775": {
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "certificate": {
+          "bytes": 37687,
+          "file": "p41-original-K-defined-RR-basis-certificate.json",
+          "sha256": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203"
+        },
+        "configuration_sha256": "b2640a49f24fd023831090a2003b7eac6b15e79c617f921252de18b89a81f9fc",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "expected_conclusion": "success",
+        "manifest_bytes": 9209,
+        "manifest_file_count": 32,
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "original_readme_sha256": {
+          "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "selected_file_count": 10,
+        "selected_files_sha256": "c845a27128a6e24200867c9d9c2cc4f43d6debbdcf733c265823c2310078dfd5",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "wrapper_sha256": "884ec806c3e833b3b226c816c8fc98cabba809ae0c21e2140fc3d45f40b460c8"
+      },
+      "R786": {
+        "archive_bytes": 111049026,
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "certificate": {
+          "bytes": 8510,
+          "file": "p41-exact-original-power5-short-basis-certificate.json",
+          "sha256": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+        },
+        "configuration_sha256": "fb62a25c326ece7550813849457e39479d17eec2d7fd31741e7e65e84feb9061",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "expected_conclusion": "success",
+        "index": {
+          "bytes": 70056,
+          "file": "R786-exact-power5-basis-index.json.gz",
+          "sha256": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35"
+        },
+        "manifest_bytes": 1085673,
+        "manifest_file_count": 3740,
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "original_readme_sha256": {
+          "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "selected_file_count": 6,
+        "selected_files_sha256": "49f405c24bbc29ca8b1808bd255e447ddf041ad1d1fd2d00ef1f093b46bd1520",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "wrapper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec"
+      },
+      "R787": {
+        "accepted_checkpoint_exit_codes": [
+          1
+        ],
+        "archive_bytes": 451202899,
+        "archive_sha256": "343bee0a0fb5bf8d9143d2dbc8b8d8fc0f0da3649bbb1d94748ef34f19d87249",
+        "artifact_id": 14181899102,
+        "artifact_name": "serre-global-R787-original-power5-function-relation-43737413555-1",
+        "checkpoint": {
+          "bytes": 73180954,
+          "file": "R787-prime-1000000753-dixon-00000518.json.gz",
+          "sha256": "4997a05b79ab9e7c7f9286fc483b1f459ff6e23fa18df5344bd8ef0eb80f10f5"
+        },
+        "configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+        "expected_conclusion": "failure",
+        "manifest_bytes": 430709,
+        "manifest_file_count": 1262,
+        "manifest_sha256": "7a22beb22912c1d5c4c56a5faa577a529f6c5dab5bb4ea5251e9cd5c4264ba3f",
+        "original_readme_sha256": {
+          "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R787-original-power5-function-relation",
+        "run_id": "43737413555",
+        "selected_file_count": 8,
+        "selected_files_sha256": "6847db28ecaa65f6055807c3b2ea7f73c1f8302b7f827b74448ed44d209e0de9",
+        "source_commit": "4092d1cc4d1156bc24a10ff820fd39c5713e8ad7",
+        "wrapper_sha256": "42157e0d95eb5d9aed28ef828a86dc5e7bec89e806e3e0a92aa0bcb1a36988b6"
+      },
+      "R790": {
+        "R775_input_bundle": {
+          "bytes": 7203487,
+          "file": "R790-retained-producer-inputs.tar.gz",
+          "sha256": "d7d906c40c45408ab9889fd9c9a43a6fc000b87dcedcd507046b4a9e5a236cde"
+        },
+        "archive_bytes": 50949334,
+        "archive_sha256": "605aaaaefc5dc44f459ca4b8567204530e69a36134a52ac9614941c4219ddff2",
+        "artifact_id": 14151827531,
+        "artifact_name": "serre-global-R790-original-CM-fiber-jets-43688215703-1",
+        "certificate": {
+          "bytes": 24966,
+          "file": "p41-original-CM-fiber-jets-certificate.json",
+          "sha256": "672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd"
+        },
+        "configuration_sha256": "3c1c22446e0a2707576b83038d24bed30bce2a48e0e64bb0c9ef11403c82afed",
+        "core_sha256": "981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6",
+        "expected_conclusion": "success",
+        "manifest_bytes": 54939,
+        "manifest_file_count": 202,
+        "manifest_sha256": "49b5ccda0bbe3bc9d06a263fa3b15632f34b97ce518bc3825002583fb74afa60",
+        "original_readme_sha256": {
+          "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R790-original-CM-fiber-jets",
+        "run_id": "43688215703",
+        "selected_file_count": 152,
+        "selected_files_sha256": "d961a382e7333257164413b9eb4c075f59fd40d08b1588c5f6aa9559e3b2fc84",
+        "source_commit": "9e4074fd9c99ab3af6bfad363b674e57f938800f",
+        "stage_manifest": {
+          "bytes": 11949,
+          "file": "R790-stage-manifest.json.gz",
+          "sha256": "5816cb3bb26fb5748017d3ace5ee65f1c1b87faf39675e6f05289ac0dd48de0b"
+        },
+        "wrapper_sha256": "ba59c9407b44e15a26a415939fcaa54947b598bde4c0fe497c5b4948444161e1"
+      }
+    },
+    "wrapper": "R787_implicit_CM_value_public.py",
+    "wrapper_sha256": "12727d7c002872c293f3eff2f161016eadb248e9de4429a7c68987ad98bc1bc4"
+  },
+  "rules_last_read_commit": "71c08c3aa64427f4b1446a6d11901991818c3281",
+  "session": "serre-public-astra-20261115"
+}

@@ -64,7 +64,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R839短RR新入口**：[完整纸证](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)以原三层391raw块移位拼2866×2886之T11矩阵；须实际2451子式，再双τ/σ嵌入给415行Q5、真两锚给830×690/395子式，才准确取得295条M3(D)的单位solve基。原R827391块/p753已有S5逆、R8091234原行已纯IO取齐；不做新V11尾/旧导数/旧逆。代码及公共wrapper接入中，尚未填秩或D坐标，eta/height未得。
 
-**真隐式关系与CM新消费者**：[2420原单位块](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)8d5b58a5由真核维28给原free1186准确adj/det关系、全129/280；权6的2692块定义全部300真隐式B，均非展开坐标。ordinary实现真实518的四CM响应及十四坐标商：全14branch单位才整体取逆，旧6724^5/κ/ζ只一次；RR候选须真bordered零或准确行空间乘回才能进旧R792。
+**原CM新消费者已激活**：[2420原单位块纸证](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)8d5b58a5定义原free1186准确关系；[首次执行接口](notes/R787-implicit-CM-value-consumer-interface.md)消费真实518、R790146值/首jet、原recipes，四组176件。core d0e94bee / wrapper12727d7c，只新增双数乘积/eZ/四响应/十四环标量逆；保已带负号Z、6724^5仅一次。实际B0非零才给有限点表达式，全14unit才整体商；RR建议恒candidate，准确展开false。待登记新run，不改旧R792成功入口；beta/eta/height未得。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
