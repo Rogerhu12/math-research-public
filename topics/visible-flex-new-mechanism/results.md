@@ -115,3 +115,5 @@
 - [R189：无开常状态段的准确桥与闭合hook几何](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md) — R70固定有限K正则八矩参数加一个h参数支付真实ω终值，9×9 Jac可逆；端全jets平的Fréchet扰动中每个有理常状态坏集闭且无内点，Baire给任意有限阶贴近的准确无常段桥。frame/端值/矩守恒，R71固定有限交换词、R72桥及Klein新实际位移闭合仍得M0/TκH和R183完整三阶。只移除R187常段前提，不给具体数值桥、第四range或有限族。
 
 - [R188：权−2不存在非零正仿射字符](results/R188-no-nonzero-positive-affine-character-at-weight-minus2.md) — 完整五维head先迫m0；真实joint时间/k缩放给E≥0，准确周期族迫β=a，有限正平帽+紧支撑变分迫δ=(8α+14a)/17与α≥5a/2。完整平方身份后近复正弦的真实负action排全部非零余参；有限ε、周期数、常germ帽与ω约束齐全。此权函数核/head/正性全部结束，仍不授其他权、实际成本半群或闭曲面族。
+
+- [固定物理步代价首轮：11次两网接纳](notes/physical-step-cost-first-actual-result-20261115.md) — actual43676765171/sourceca4e5286同g/b0/163，η降1.0044e−5至.266540263797，κ57.9999862。12主/0SOC，唯一m2条带遗漏拒绝后补全，终全池4414/3790；所有r1/64000/真实norm1，ratio .775–.918，12LP预算退。细内strip−1.44e−10、帽高−2.78e−17仅原tol过；全部实际/失败/成本表已读，下一只条件增长trust，不放宽门或原样延预算。
