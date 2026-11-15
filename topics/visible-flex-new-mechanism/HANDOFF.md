@@ -23,15 +23,13 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **m10扩池SOC首成功**：[结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66。已付same-y/xrebind普通值0、8193×159真J、原RHS唯一SOC，历史ηz .266365153176/fineκ57.9999833915，原门过/.26欠。旧hold仍false：标签1/字段5/版本1/真学习1；y学1/1、z0/0、扩池ratio.937958；原三失败保。z差于主线best，不重m10。
 
-**覆盖保径首实际已收**：run43753280651/job132931742484/source52a48854，4新人工组全过，旧组执行0；7models真实主线η.266347520761→.266324155092，fineκ57.999989994，原门过/.26欠。accepted expandedSOC/新qualified/下模型使用均0，**新策略实际未触发**，下降不可归因于新规则，按约不重同阶段。末physical1275ae1d…，主线输出/完整费用/池bank由root与tail_cost读取、立刻另发实结论；本次双actual pull已上记。原cfg/g/b0/159与所有门不改，旧m10较差点不替主线。
+**覆盖保径首实际**：[完整结论](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)run43753280651/job132931742484/source52a48854。4新组26checks过/旧执行0；7模型8trial/12primary LP/0SOC，η.266347520761→.266324155092/fineκ57.999989994。m6旧growth提B.00025，m7全步fineκ58.000002383拒且LP耗尽，half过后B.000125/streak0。新qualified/后继使用0，下降不归新法，不重同阶段。末physical1275ae1d…、池4419/4277/bank22(c952c53a…)；18共享值+2末验，active54.926908441s/total300.339942435s。原门/旧metric过，.26/主门欠；下一原12LP内primary/SOC机会分配。原cfg/g/b0/159不改。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
 ## 4. 纸证的当前边界
 
-R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人工已付。全Rp0首项不可删；72/81非rank，原period/Green/解析端iff不授未算门零。
-
-**旧强圆/安装边界**：R283–305有限N全third/72面积/40–42门仍真，但R304完整C²排不交rank-one类，不再增频。R297真9单位/R302全词倒行增强IFT保原文；M0固定τ可漂，不授全q/实际逆元；芽/Morse/Klein通常换seed/g。
+R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴/K=−J³Af保真尾；72/81非rank。旧R283–305有限N门仍真，R304阻断rank-one后不再增频。R297/302完整倒行增强IFT保原范围，M0固定τ可漂不授全q/逆元；芽/Morse/Klein通常换seed/g。
 
 **R314–333完整pure/self**：全self=九T有序项+局部Euler六jet忠实坐标，真权σ→左二次尾Q权σ−2。R316 H*为π0/全Q0/λ+1，13核self rank7旧实际已付不重。R323全Q−8零/−6二维/−4八维闭锥覆满；R333消费run43740129876的C4/C6 MEMBER与fresh差，原R126编号保。仅E(U0)=E(R0)维10/零权商0，非全权等像。真实商截面/全部原型桥基准/有限复制收缩给E(S)=E(U)、紧集C1截面；wholepure/wholeQ/T0可付，非任意不相容积。λ仍正，mixed/period/同规范仍欠。
 

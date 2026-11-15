@@ -450,3 +450,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R362：完整H2的真C²余项及权−6 pure核总Ω非零
 
 [完整证明](results/R362-full-H2-C2-remainder-and-nonzero-weight-minus-six-pure-kernel-flux.md)，13950B/SHA256 b29f166e6dd3d0e1f2813238bdc00f4fc8b1457612ddb2f9d3b5240e2e62dac2。原R358完整curl的bulk与ZZ项/两tail先准确消势，H̃δ=+4H2；唯一C³²为(1/1920)∫x(1+x²)²r(ur−v²/2)t²，全部余项ℒ+BLKγδ−2ALKδδ显式保真jA/jB/左值。两j原式降C²，再按同锚outer规则消一次t；真−6通过有限Laurent系数提取保C²余式。固定正窗口的真光滑uN→u0于C²而三导平方增长，得到严格非零。R207完整πU−6=πR−6三基只读消费，唯一坐标减Rπ给**W6⁰∈U−6∩kerπ、ΩW6⁰=ΛW6≠0**，关闭R338；−4/−2同式亦非零。未授wholeQ/真实半群。root全文手核curl、所有系数、j的两IBP、真权/正窗口，并实读R207/R338，不重旧根/秩/科学。
+
+## 扩池小SOC保径首次实际：真实改进，新增分支未触发
+
+[完整实际](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)，17133B/SHA256 cf81b61e54fa45906fea2391a81336f8ec3c3aaa02819070d1131b71523e781a。公开run43753280651/job132931742484/source52a48854：4组26新check全过、旧执行0，7models/8trial/12primary LP/0SOC，η降至.26632415509189855，fineκ57.999989993517644。m6原growth提B.00025，m7全步fineκ58.000002383失败且共享LP耗尽，随后half接受/B回.000125。新策略qualified/后继使用均0，下降不可归因它。末池4419/4277、bank22、18共享值+2末验、active54.926908441s、总300.339942435s；原硬门/旧metric/盒过，.26与连续/README主门仍欠。报告保全部source/run/原log/model hashes、微负cap浮点余量与费用scope。后继明确转原预算内primary/SOC机会分配，不重复阶段等触发。

@@ -29,17 +29,13 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ## O4：完整真实第四成本与新首阶机制
 
-### R304：当前不交实 rank-one 圆类已严格排除，转真正不同的输入
+### 旧强圆的完整阻断与真正不同的入口
 
-[R304](results/R304-positive-one-history-remainder-excludes-disjoint-real-rank-one-circles.md)在初选共振端芽 h=h_e exp(κ²σ²/4)、0<κ²<.01 上证明完整低阶障碍。对于 f=Σa_i u_i、g=Σb_i u_i、实紧且支撑不交的 u_i，旧完整 A−1,−3 面积给全角 Σc_i²d_i C_i=0（C_i=∫u_i″4>0）。三个旧 directed 条件消去同一 E−3 一层行的主部分后，准确余量为 −c_P Dκ Σd_i²C_i。全角又迫 A4=5C22、E4=C22，故 π/2 的实际系数严格为正；正负κ同结论。原 Green/有序尾、非紧单包 self 及合法二阶/三阶gauge的同We偶商全保。
+R304/306在0<κ²<.01原Gaussian芽、保全Green/有序尾/合法gauge后，严格排不交及重叠导数rank-one（W=g′f″−f′g″=0）圆。R311另排固定rank-one包空间任何连续幅值轨道；增频、变宽、母形、包序、斜率、椭圆或更多同类列均不能绕过。只是这些族的结论，不称一般C²刚性。
 
-**整个此类不可继续用增频、变宽/母形、变包序、变斜率、正幅块混合或增加principal坐标修复。** 不要求等B或同F，故此前第三斜率也不能在同一结构/端芽下绕过。此前已付必要条件及主秩定理仍真，但不构成完整joint解。不推广到一般重叠profile、不同合法端芽或一般C²曲面刚性。
+R308真弱入口只需单hook AfW0，允许Af=0曲开段内W≠0；紧光滑双hook同时0才迫W0。R317原physicalβ≥0朝外族被完整mixed阻断；R319全部单向族被完整A−2,−3 I0阻断，与β正负无关；R320付真反射三矩后朝外双向族仍被原一层正余量排。当前Gaussian有效入口已转R325及下方R354–361朝内偶弱圆，不能继承旧rank-one局域/自动零。
 
-当前直接后继：
-
-1. [R306](results/R306-derivative-rank-classification-and-overlapping-profile-Gaussian-obstruction.md)已从完整mixed原式推广正障碍至所有导数rank-one（W=g′f″−f′g″=0）重叠圆，原C²/ordered/Green尾全保。紧光滑双hook同时0⇔W0：若W非零段则两导数为正仿射的3/2幂，有限端点迫C³爆破。一般固定seed只须弱H(g;ff)=0⇔AfW0，第二hook不是普遍必要门。regular弱核类亦被排；真正剩余入口是Af=0的曲开段内W≠0。[R308](results/R308-genuine-derivative-rank-two-circles-with-one-hook-and-complete-third-range.md)已实际完成：紧f在内部等于(x−b)^(5/2)，g为该曲段内非零紧函数，AfW0而W≠0；三个左复幅包以可逆三点矩阵精确补三复矩。八完整配平副本的七次差分付四条真实ruling，再对完整θ forcing用弱hook付period/range；第二hook确非零，得到同几何新seed目标的全相位完整三阶圆，误差O(ε4)。[R317](results/R317-exact-weak-hook-mixed-correction-and-nonnegative-branch-obstruction.md)已完整算出弱通量新增J：全mixed一层为−DκD4+Γκ(J+7C/12)，全部local/chain/Green/inner真尾保留。原面积迫Z=C，曲段真值为Σ(75A²/192)∫(9x+5β)g″²；乘回cP后两系数均正，因此物理β≥0的R308子族完整第四仍阻断。[R319](results/R319-one-sided-weak-hook-area-obstruction-and-reflected-block-cancellation.md)进一步从完整A−2,−3的I0得到更早必要式∫u″²f″f‴=0：全部同向幂段的f″f‴=±225A²/32，与β正负无关；补包贡献为全导0，因此所有单向R308圆都排除，负β不能绕过。新的真实入口是正反基本对分别在最终位置完成八copy第三range，再等四次幅合并两个完整块；两个无显式x的相位系数精确互反，整θ这一I0已付。[R320](results/R320-complete-reflected-area-payment-and-outward-one-history-obstruction.md)现付该面积全部三矩：真右常尾给反射(m0,m1,m2)→(−m0,m1−dm0,−m2+2dm1−d²m0)，整体偶性化为m1；明确16轴bump原型与两真实相位给Q4零、四旋转向量R/A=3√2/4>1形成全R²正锥。最终六对实际包络先固定再选正四次幅，A−2,−3全θ三外矩零并保三矩/弱hook/完整third。随后同一朝外反射类仍被原一层严格排：J=−K/3、Cd>K/3、D4=4(K+R)，若三directed过则真实系数>BκK/9>0；覆盖负branch及所有strong-hook修正。下一R325真正把右半改左向或重排朝向/侧，不用branch平移绕过；所有其他面积/全角一层/period/joint须原式，不继承旧rank-one局域。
-2. [R311](results/R311-continuous-rank-one-profile-orbits-are-rigid-under-the-complete-low-order-gates.md)已逐参数证明固定rank-one包空间任意连续轨道刚性：旧面积/三个directed门/新一层迫ci²=ai²，连通初值迫ci=ai，零ai亦覆盖。三矩本身允许真实sqrt(ai²+tv_i)非圆轨道，阻断来自更完整门。因此仅换圆为椭圆、高维幅值曲线或非GL2轨道不再是后继；必须离开这个固定包空间或改初始合法端芽。
-3. [R312](results/R312-quadratic-height-ports-and-rational-arctangent-logarithmic-ruling.md)已给可从初始安装的新端芽 h=he(1+εσ²),k=κ≠0,ω=ωe常数，原9参数横截安装保M/frame/ωend/完整词及闭合。它选择新seed/g，之后固定，非旧g事后变更。完整M、history=mrat+E Bε及第三log项已显式：E=atan(√εσ)/√ε、L=log(1+εσ²)。全偶ruling严格分Rrat+E RE+E²R2+L RL，两极monodromy给有理词独立，必要且充分系数门为R2=RL=RE0及Rrat∈We=span{1,h,h^-1}。同We全gauge商由原恢复/真尾直接证明，不套R243仅Gaussian范围。[R315](results/R315-full-angle-arctangent-square-gates-and-ordered-history-cancellation.md)已建设性支付新芽整角E²三门：从初选Fnew保真实B² corrected-self/全部E8交换面积/三矩，原Green和三wedge全保；三个位置principal次数6/7/8，四真实high/low交替包给正核与全R³锥，再有限N IFT消完整基线，非仅principal。原三矩/完整third同步保持。[R318](results/R318-complete-local-log-residue-and-a-first-single-arctangent-gate.md)已从R56/R73全式准确恢复local+chain residue κ²ℒ，保所有速度/chain/真实J；不同微包cross整体为0，self外矩C²、平移次数≤8。从初始F再加明确27项，整个log全θ清，原E²门保留。单E是h^−4…h²七幂，最高行−κH(V,2)/24准确为−I2(BD,Vf²)，principal degree9与原6/7/8加第五实际交替包给全R4正锥，有限N同付。[R321](results/R321-complete-single-arctangent-gates-and-ten-dimensional-joint-control.md)现已支付全部七singleE行：完整原幂表与三个E²门的principal精确满10，正判别量K³+24K²ε+16(7+19κ²)ε²，真偶母与全copy不降维。从起点再加187条可冗余corrected-self观察，真实Γ/β/local尾齐备；十一实际交替包×有限χ给全R10正锥，finiteN IFT消完整基线，并以三ordered-wedge/true-self全角还原。故同一个实际圆E²/log/E全部为零。[R324](results/R324-complete-rational-quotient-and-nineteen-dimensional-local-ruling-control.md)进一步从完整R56的P/B/η/chain/U（含原中心常数）证明entire Rrat只在h^−7…h⁴，去We后恰9门、没有范围外C²-only余行。九余式以C=bW/e检出次数0/1/2/4/5/6/8/9/10及非零首项，和原十行严格合19。真实偶母/复制不降维，重新逐原尾接R299 whole pure-self/Γ；初选25几何函数×11平移的275个可冗余C²观察，12真实交替包×有限χ正锥，有限N对全部完整基线给19真零。因此同一新圆E²/log/E全零且整个Rrat∈We，完整局部中心偶商已付。[R326](results/R326-one-global-second-gauge-pays-the-complete-rational-port-and-preserves-joint-cost.md)用原八复制得到全E8三次矩零，真实入矩阵X对应wc=−XD是一个全局合法二阶规范；它准确清整个指定端口奇部，保所有平方与第三初值，随后同一个全局第三Gram家族支付We三系数。指定端口完整ruling已付，但完整周期变为Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。下一同一k须3合法矩、7个σh幂及3个Eh系数全零且2τLf k=−Vc；13仅列行不授rank/像。还须其它全部段的同k ruling及光滑相位/种子，不能独立逐端口重锚。
+另一分支R312初装新有理芽h=he(1+εσ²)、k=κ，其E=atan(√εσ)/√ε、L=log(1+εσ²) monodromy给完整ruling iff；R315/318/321/324原真尾、有限N全角正锥现已付全部E²/log/E及Rrat∈We共19门。R326同全局wc=−XD加合法第三Gram付指定端口，但同时改变两period；同一k还须3合法矩、7σh幂、3Eh系数和2τLf k=−Vc。R327的13行兼容、降秩整除、其它段同k ruling与相位/seed仍欠；不能逐端口重锚。所有详细原式/有限复制/失败保原results。
 
 ### 已付有限原式可复用，不能把低阶保持当自动零
 
@@ -122,13 +118,15 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### 扩池SOC首实际成功；独立覆盖后保径与主线11bank续跑
+### 数值当前best：覆盖保径首实际完成，下一原预算内SOC机会
 
-[m10实际结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66：same-y与xrebind普通值0，8193×159新J、原scalar RHS唯一SOC/残差0；历史ηx .266368003937→z .266365153176，fineκ57.9999833915，原硬/旧metric/盒过、.26欠。新8值/1SOC、active40.444156s/过程286.264738s，旧10/7/cache已付组只读复用。旧hold8false严格保：1标签、5旧同布局诊断字段缺、1池版本确变、1原y学习1+1；z新0/0与扩池ratio.937958不自动授旧guard通过。
+[首实际](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)：run43753280651/job132931742484/source52a48854，7models/8trials、12primary LP/0SOC，η.266347520761→.266324155092，fineκ57.999989994。四组26新checks全过，旧科学/人工重跑0；新expanded-retain qualified与后继使用均0，策略未触，不将下降归新法，也不原样再跑等触发。
 
-[新独立设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)已根全文审。仅两full trials/一次SOC，y除曲率外全原门过；学到的差集ID全soft0/1，live rebound context核覆盖，x上两factory最终binding/原J/M/宽度/盒/cfg对齐，z全过且不再学行；原完整预测用实际z−x、ratio≥.5、corr≤B/10、total≤1.1B，旧唯一缩径原因仅y曲率则保B/streak0，否则精确旧返回。旧17报告/原学习不改，原scalar RHS和所有预算不改，新策略未执行。[五源接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)已写并进入唯一公开首跑，125Python/3workflow绑定；新4组人工，旧组执行0，root直接读取其实际结果后继续。
+m5/6各用3inner LP；m6旧growth把B提.00025，m7全步fineκ58.000002383失败（其余原门/下降过、无新行），最后第12LP已耗尽所以SOC0；原half过后B.000125/streak0。当前真checkpoint physical1275ae1da1bdf0779ff143e90b7177613b8011aa56a1781e3c31363ba1996be7，池4419/4277、ordered bank22 hash c952c53a45396f3cdfef89853eb856ffa26f45089703a884e63c1a57956d97f9。18共享值+2末验，active54.926908441s/过程300.339942435s，原cfg/g/b0/159/163/门全保。.26和主1e−6欠；浮点cap微负值按原tol保，不冒连续证书。
 
-tail_cost实现独立controller/checkpoint-aware objective、显式新outer与仅必要新人工；root接transfer/audit/request/workflow。新outer使用已付same-y cache恢复，不重其人工。唯一后继从run43744903357主线m7真末态η.266347520761、physical981e092c…、原ordered11bank d5b1b9d6…、池4418/4188、B1/8000/streak0接续；旧9条构造器不偷填/删条，显式原RememberingCompleteObjective入口恢复完整context。单次原12LP/40值/120active/10SOC，无旧重播、不延预算、不回历史较差z；若未触新规则准确未验证，继续主任务其它未付门。
+[历史m10](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)已付same-y/xrebind普通值0、真J和唯一SOC；旧hold8false及扩池ratio.937958保，历史z更差不回退。五源[设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)/[接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)及旧check均只读消费。
+
+下一有证据的新子问题：在原12 LP总额内，为已经全网准确定义且修rho的incumbent预留SOC机会，逐原式保binding/RHS/实际门/40值/120active与原fallback；先付明确控制器及只覆盖新逻辑的人工，不延预算/不重上一阶段。收益待唯一新公开运行，不预宣。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门

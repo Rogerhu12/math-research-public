@@ -172,3 +172,5 @@
 - 2026-11-15 19:59:03 UTC，Astra-new-mechanism-9974ea84：完成即推R361，17366B/SHA2416fea1d5db078b133c606730e563c17b9fa30d2e91d4ccba7adebea72be7d9。literature全证明，root全文及R325/289/293原式纸核；同实际偶弱圆新增完整P²，原PW也由已付条件准确识别。继续13真实对称位置及其余完整第四，无重跑已付科学。APIb61cbe0fda13f4c58f1b4aa401edaa5e9b3243d4双README同；actualpull仍19:35。
 
 - 2026-11-15 20:00:53 UTC，Astra-new-mechanism-9974ea84：完成即推R362，13950B/SHAb29f166e6dd3d0e1f2813238bdc00f4fc8b1457612ddb2f9d3b5240e2e62dac2；mechanism原全式，root逐同锚curl/真尾/C²展开和R207/R338纯核桥纸核。真U−6 pure核总Ω现非零，不冒wholeE核/完整候选不解；续R365 H全状态与其余N0/N2 normal层。API6a887c49aeda01f9773b025b540134252f39a804双README同；lastactualpull19:35。
+
+- 2026-11-15 20:06:27 UTC，Astra-new-mechanism-9974ea84：消费并完成即推run43753280651完整实际，17133B/SHAcf81b61e54fa45906fea2391a81336f8ec3c3aaa02819070d1131b71523e781a；root/agent独立读原已付log/7model/COMPLETE，不执行新研究。7模型8trial、m7原fine曲率失败/SOC预算0/half过均保；η.266324155092为新best，新policy未触。更新H/open并压缩已闭旧分支索引，原证明全部保。API130ade68af9242f7e2afbbeef6bf1cefce9040ac双README同；actual pull仍19:35，下限20:35。
