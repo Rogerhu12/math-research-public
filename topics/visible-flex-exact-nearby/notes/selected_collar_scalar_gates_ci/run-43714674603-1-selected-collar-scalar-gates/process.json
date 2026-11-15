@@ -1,0 +1,269 @@
+{
+  "kind": "actual_public_selected_collar_scalar_gate_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43714674603",
+  "run_attempt": "1",
+  "started_utc": "2026-11-15T12:36:32.020676+00:00",
+  "workflow_commit": "2356c84b816a6fdc6818771c9e28eba32af17b0a",
+  "worker_source_sha256": "cfdb8ecd1c4e12354d7f944f26c8548edb3740b20f301224d04d5364ffe5e19c",
+  "actual_source_sha256": "e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee",
+  "input_manifest_sha256": "e6b4867f8fd614225d6dcedaba5b0a2e6df5550655c43a56c30c47eef5766ae6",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T12:36:32.269586+00:00",
+      "before": "bde6d6a19f5691704aa963b5ef9b97b3a0b854a1",
+      "after": "bde6d6a19f5691704aa963b5ef9b97b3a0b854a1",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    },
+    {
+      "time": "2026-11-15T12:36:37.034069+00:00",
+      "before": "bde6d6a19f5691704aa963b5ef9b97b3a0b854a1",
+      "after": "bde6d6a19f5691704aa963b5ef9b97b3a0b854a1",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
+  "original_recomputable_inputs_only_in_temporary_storage": true,
+  "new_recomputable_data_persisted": false,
+  "new_Actions_artifacts": false,
+  "new_Release_uploads": false,
+  "complete_nonlinear_endpoint_invariance_proved": false,
+  "complete_nonlinear_cap_solution_proved": false,
+  "full_infinite_BVP_inverse_proved": false,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "reviewed_rules_sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+  "last_read_commit": "bde6d6a19f5691704aa963b5ef9b97b3a0b854a1",
+  "package_versions": {
+    "python-flint": "0.9.0"
+  },
+  "python_version": "3.12.14 (main, Sep 19 2026, 03:35:30) [GCC 14.2.0]",
+  "historical_hydration": {
+    "files": 17,
+    "historical_files": 4,
+    "full_temporary_receipt_sha256": "2b0dbd634831dd6f969e28ba485a34aa8ba2d09ae4272b373a71eb20c0b1ef3e",
+    "restored_into_checkout": false,
+    "old_mathematics_executed": false
+  },
+  "actual_original_input_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+      "sha256": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+      "bytes": 1910756,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+      "sha256": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+      "bytes": 1947563,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+      "sha256": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf",
+      "bytes": 571365,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+      "sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+      "bytes": 1814,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+      "bytes": 2461,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md",
+      "sha256": "3cacd96609c488eda2cc20e2c618cc697c277ec7a22931e0f63a78f3c3197387",
+      "bytes": 11750,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+      "sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+      "bytes": 18829,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+      "sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+      "bytes": 40659,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+      "sha256": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+      "bytes": 11484,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+      "sha256": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+      "bytes": 8753,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md",
+      "sha256": "bd31916b47acd8b28f45ec25a35b46413f97b95071561f717df72dd05452f76c",
+      "bytes": 23826,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md",
+      "sha256": "8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9",
+      "bytes": 13671,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md",
+      "sha256": "8d7d1bc46b57ed9598c268afc784a4e096a10f6a07b26cfdbc3a023607f0f11d",
+      "bytes": 13748,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md",
+      "sha256": "a23d28b4445a7c3a2391b28c8f6c50a785712d30568e30eafb92fb30f070ef7c",
+      "bytes": 9008,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md",
+      "sha256": "b6527f39acaa562e8954a3b4dad2683d5929fb5937c1db90d6ee800f15dea3b9",
+      "bytes": 6018,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py",
+      "sha256": "e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee",
+      "bytes": 24702,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates_CI.py",
+      "sha256": "cfdb8ecd1c4e12354d7f944f26c8548edb3740b20f301224d04d5364ffe5e19c",
+      "bytes": 27944,
+      "source": "exact_current_file"
+    }
+  ],
+  "all_pinned_inputs_verified": true,
+  "actual_parameters": {
+    "arithmetic_bits": 320,
+    "exact_cut": "9/10",
+    "available_intrinsic_collar": [
+      "17/20",
+      "19/20"
+    ],
+    "delta_half_width": "1/10000000000",
+    "sigma": "1/4294967296",
+    "angular_order": 8193,
+    "half_length_exponents": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "raw_C0_pair_radii": [
+      "1/10000",
+      "1/65536",
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "original_background_pair_A0": "7",
+    "original_background_angle_A0": "6",
+    "continuous_response_pair_A0": "19",
+    "continuous_response_angle_A0": "83",
+    "centre_repair_A0": "0.000000000000000003861",
+    "centre_repair_angle_A0": "0.00000000000000001970",
+    "centre_repair_mean": "0.000000000000000000005842",
+    "response_repair_A0": "0.0000000000000002292",
+    "reference_angular_degree": 96,
+    "reference_drift_angular_degree": 192,
+    "complete_source_species_degrees": [
+      96,
+      160,
+      224,
+      288
+    ],
+    "ordinary_angular_measure": "normalized circle; full pair including both means",
+    "ordinary_radial_measure": "dr",
+    "true_unknown_ordinary_residual": "0",
+    "unknown_hypothesis": "one continuous two-sided real H1 solution in the stated raw C0 pair ball",
+    "zero_old_target_or_grid_recomputation": true,
+    "core_existence_or_low_physical_gamma_selfmap_claimed": false
+  },
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-selected-collar-scalar-gates/immutable-science",
+  "snapshot_utc": "2026-11-15T12:36:36.818957+00:00",
+  "wall_seconds": 4.798300076000004,
+  "published_topic_capacity_metadata": {
+    "method": "published_origin_main_Git_Trees_API_metadata_only",
+    "commit": "bde6d6a19f5691704aa963b5ef9b97b3a0b854a1",
+    "root_tree": "7f405790565783f62bcb8ce23a4b670f610fdb96",
+    "topic": "topics/visible-flex-exact-nearby",
+    "topic_tree": "96bb9d012a33de69d0adac4968aa2879d897da53",
+    "truncated": false,
+    "all_blob_sizes_checked": true,
+    "blob_count": 14096,
+    "blob_bytes": 198746247,
+    "nested_tree_count": 5576,
+    "gitlink_count": 0,
+    "complete_blob_metadata_inventory_sha256": "f1ea8a79b0e38677ad9a5cc7d3f5078fac8f9e97d6345be7448ac70079f46128",
+    "metadata_responses": [
+      {
+        "tree": "7f405790565783f62bcb8ce23a4b670f610fdb96",
+        "recursive": false,
+        "bytes": 861,
+        "sha256": "8091acc110212cbe39a2cafaa7006c4f6b7814fb9ae8c5e814708039e6e3c39d",
+        "truncated": false
+      },
+      {
+        "tree": "e918ca4bee204c38036915dd128c414a3860852f",
+        "recursive": false,
+        "bytes": 1846,
+        "sha256": "91e1d0c42a51f9a6c0e5657076f8e485be09ce1c21beea4c5adbb40b2a7a5c28",
+        "truncated": false
+      },
+      {
+        "tree": "96bb9d012a33de69d0adac4968aa2879d897da53",
+        "recursive": true,
+        "bytes": 6485589,
+        "sha256": "5f516ca38cfb6ce78fe29719b9e0626fed5ea8e60d5a7f68a718bb8ecafa6838",
+        "truncated": false
+      }
+    ],
+    "blob_bodies_requested": false
+  },
+  "publication_is_final_attempt": false,
+  "pre_math_small_conclusion_capacity_reserve_bytes": 120000,
+  "pre_math_topic_bytes_with_reserve_upper": 198881412,
+  "projected_topic_bytes_upper": 198761412
+}
