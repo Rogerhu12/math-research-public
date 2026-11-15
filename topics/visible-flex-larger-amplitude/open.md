@@ -124,3 +124,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### actual111 完整相位分区已完成
 
 [实际111结论](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md)：run43685039861/source77d65ad2/job132723637032，两预算均精确匹配。depth2实际8cells/3splits/5付叶；depth1实际4cells/1split/1付+2未付。u根的同号正端点仍因内部偶重零根数1而拒，π/共享端点无漏。摘要7898B/7279b591；没有实际surface/reach。继续真实闭面连续球接线，不能把现有静态空间对当混合旋转对或从条件例创造场。
+
+### actual112 六极小接受，末方向仍全拒
+
+[实际112结论](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)：run43685696741/sourcea7ea4292，八方向中六次原Armijo极小接受，0/7各20拒；W6958.2257628163525→6958.225762769887，全部unit/full112/native仍false。summary80385B/09f1525d、status1030933B/02d85cf1。末方向线性Jd3约−.000145而全步实际d3−168.67，逐列FDvalid不提供近消去组合相对误差保证。114保完整原方向/接受门，改为后两式法向—切向弯曲路径，检验真实曲率首因；不得以微小接受或预算结束宣布收敛。

@@ -41,3 +41,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 06:31:03 UTC /root — actual111 完整换门与诚实预算未付
 
 [实际结论](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md)：深度2五闭叶全付，深度1两个u叶明确预算未付，所有解析预期匹配。u根moving端点41/25均正但内部Sturm根数1，准确拒绝；旧四整圆门均false。summary7898B/7279b591，full38169B/876be9cd与28682B/010f91f3，不存raw。R281不等此例审批，已完成；下一补真实连续球producer与实际native/小核主线。
+
+## 2026-11-15 06:41:40 UTC /root — actual112 六极小接受与末方向全拒
+
+[实际112结论](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)：run43685696741/sourcea7ea4292，八方向中六次原Armijo极小接受，0/7各20拒；W6958.2257628163525→6958.225762769887，全部unit/full112/native仍false。summary80385B/09f1525d、status1030933B/02d85cf1。末方向线性Jd3约−.000145而全步实际d3−168.67，逐列FDvalid不提供近消去组合相对误差保证。114保完整原方向/接受门，改为后两式法向—切向弯曲路径，检验真实曲率首因；不得以微小接受或预算结束宣布收敛。
