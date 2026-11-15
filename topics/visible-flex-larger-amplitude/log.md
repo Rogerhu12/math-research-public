@@ -373,3 +373,8 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 19:38:06 UTC /root — 准确初点域按同一函数语义交接
 
 34871B/e5ab2a8c源码完整20585B diff及18569B/cb7984ca接口全文核后即推；修原37ea跨run证据相等的过严条件，以R383同准确全根族/九点/DAG传域，两边原来源仍各自全绑定。新numeric/J/FD/metric及活动p另付，原179/factory/sampler强绑定不改；真实selected恢复与完整后继入口继续。最近真pull已读ce9445471fd45aead121fa0f66bb62683e532712双README未变，发布前再pull。
+
+
+## 2026-11-15 19:41:36 UTC /root — 实际coast两原参数文件确定性恢复入口
+
+16759B/ba8fb7f3源码全文读后独立即推，配完整接口；只按真实180摘要来源重建原recipe/definition并核整bytes/SHA，不改环境、不造factory.result、不重C/域搜索，默认300s。当前恢复收据与旧证据分开，184/R391继续完整原BVP接线；183/R390预留真十词长续算。最近真实pull1a2bbdc0ae0fea899b921e8a9d63e936fa592541双README未变，发布前再pull。
