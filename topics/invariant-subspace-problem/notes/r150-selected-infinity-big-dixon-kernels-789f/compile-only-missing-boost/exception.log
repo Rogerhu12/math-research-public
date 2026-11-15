@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/789f3e887d7c/normal_s2_next/2026-11-15-r150-selected-infinity-constant-big-dixon-runner-789f.py", line 91, in main
+    if receipt["compile"]["exitCode"]:raise RuntimeError("compile failed or incomplete")
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: compile failed or incomplete
