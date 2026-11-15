@@ -1,0 +1,371 @@
+{
+  "kind": "actual_public_common_reference_columns_old_circle_execution",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43688459733",
+  "run_attempt": "1",
+  "workflow_commit": "6a4d4b5f361e9c855d6dffd73032e73850254ede",
+  "worker_source_sha256": "8f8a81a7364b80bc75331303015da745f8d71e7d5930d76f3e83c375def24352",
+  "source_budget_source_sha256": "9596ebee08e95939cf1b8a9d46a9f32053bd4706cc77e2263a80d09ede99294c",
+  "input_manifest_sha256": "1869212f28702ae915787a6b5189406b13e6824b93e436a8650fa83e86b11f99",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicitly_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "started_utc": "2026-11-15T07:07:17.617353+00:00",
+  "complete": true,
+  "actual_returncode": 0,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T07:07:17.936647+00:00",
+      "before": "e4544af41ac8076402ec2eb82d7a448e58bbcc24",
+      "after": "e4544af41ac8076402ec2eb82d7a448e58bbcc24",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T07:07:23.486571+00:00",
+      "before": "e4544af41ac8076402ec2eb82d7a448e58bbcc24",
+      "after": "e4544af41ac8076402ec2eb82d7a448e58bbcc24",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "actual_source_budget_processes": 1,
+  "old_numerical_enclosures_recomputed": 0,
+  "reproducible_data_published_to_repository": false,
+  "reproducible_data_uploaded_to_Releases": false,
+  "new_reproducible_data_artifact_uploaded": false,
+  "full_high_inverse_claimed": false,
+  "final_topic_complete": false,
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "actual_verified_input_count": 9,
+  "actual_verified_input_receipts_sha256": "b0a1706eac780925333f07e19a64da137dbd73e20f48611ac8f3bee0d542c5d7",
+  "actual_input_origins": {
+    "exact_current_text_input": 4,
+    "exact_current_identical_legacy_input": 2,
+    "exact_public_historical_blob": 3
+  },
+  "actual_current_contract_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+      "bytes": 24060,
+      "sha256": "9596ebee08e95939cf1b8a9d46a9f32053bd4706cc77e2263a80d09ede99294c",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+      "bytes": 15528,
+      "sha256": "0e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md",
+      "bytes": 9644,
+      "sha256": "edede2b11d5f798ebb98012dde34e92dc92fbbf4eed0511db396b8e94ac88015",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+      "bytes": 27645,
+      "sha256": "d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-reference-columns-old-circle-CI-inputs.json",
+      "bytes": 5926,
+      "sha256": "1869212f28702ae915787a6b5189406b13e6824b93e436a8650fa83e86b11f99",
+      "origin": {
+        "kind": "exact_current_separately_pinned_manifest"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "origin": {
+        "kind": "exact_current_separately_pinned_rules"
+      }
+    }
+  ],
+  "complete_immutable_Python_AST_closure_passed": true,
+  "complete_immutable_Python_AST_file_count": 2,
+  "complete_immutable_Python_AST_inventory_sha256": "ff1e858860cf883b6cdfdd11af60b8a9647ce678249a8744806b96c35a89eae4",
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-common-reference-columns-old-circle-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+    "--repo",
+    "/__w/_temp/visible-exact-common-reference-columns-old-circle-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-common-reference-columns-old-circle-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-reference-columns-old-circle-CI-inputs.json",
+    "--manifest-sha",
+    "1869212f28702ae915787a6b5189406b13e6824b93e436a8650fa83e86b11f99",
+    "--out-dir",
+    "/__w/_temp/visible-exact-common-reference-columns-old-circle-output/consumers"
+  ],
+  "actual_scientific_checkout_commit": "e4544af41ac8076402ec2eb82d7a448e58bbcc24",
+  "source_budget_child_wall_seconds": 0.4145359369999966,
+  "new_genuine_reference_and_old_circle_bounds_proved": true,
+  "actual_failure": null,
+  "output_hashes": [
+    {
+      "file": "consumers/conclusion.md",
+      "bytes": 8437,
+      "sha256": "1d619b1a5edd7baacbc6df6c8d8909c20fe3d377afaaca4ab667f83a972109eb"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 8593,
+      "sha256": "1d900a3b9e8ff9031bde33106205be7c66903cde5b960db614ea1b76106f1008"
+    },
+    {
+      "file": "consumers/temporary-common-reference-columns-old-circle.json.gz",
+      "bytes": 3570,
+      "sha256": "4d7f5654ae7bab79640fdd0e2596a66a706e89b02eb340796ed3b68c5269701e"
+    },
+    {
+      "file": "source-budget.stdout.log",
+      "bytes": 199,
+      "sha256": "7bf4cc2280cf7b7fc9a8b89527dbff9be5e2402ffa0ea1943b7f2d0fb690a29e"
+    }
+  ],
+  "actual_scientific_receipt": {
+    "complete": true,
+    "proved": true,
+    "actual_returncode": 0,
+    "failure": null,
+    "gates": [
+      {
+        "name": "the new complete scalar consumer and manifest have their exact independently reviewed identities",
+        "passed": true
+      },
+      {
+        "name": "all exact input bytes and both new complete analytic contracts were verified",
+        "passed": true
+      },
+      {
+        "name": "the original complete potential run actually succeeded with every true gate and no old recomputation",
+        "passed": true
+      },
+      {
+        "name": "the complete potential case retains eta0, all high modes, both signs and the whole complex explicit box",
+        "passed": true
+      },
+      {
+        "name": "the actual complete potential modulus and disk pay the chosen entire real reference interval",
+        "passed": true
+      },
+      {
+        "name": "the original full fold is reused with its unique unchanged accepted stage lineage",
+        "passed": true
+      },
+      {
+        "name": "the complete real reference interval fits the paid rational Volterra thresholds",
+        "passed": true
+      },
+      {
+        "name": "the complete root normalization is nonzero and retains its full n to minus four thirds shear",
+        "passed": true
+      },
+      {
+        "name": "both positive weighted columns and both negative relative directions obey their complete bounds",
+        "passed": true
+      },
+      {
+        "name": "the smaller product covers the whole physical root piece and keeps both positive angular margins",
+        "passed": true
+      },
+      {
+        "name": "the actual old fold image lies inside both the real reference interval radius and the full complex potential disk",
+        "passed": true
+      },
+      {
+        "name": "the previously proved complete potential value and both derivatives are consumed without recomputation",
+        "passed": true
+      },
+      {
+        "name": "the full complex old-circle determinant keeps the genuine Bplus factor and all high input modes",
+        "passed": true
+      },
+      {
+        "name": "the full ordered inverse and both angular derivatives are finite on the same complex product",
+        "passed": true
+      },
+      {
+        "name": "the narrower complete Wiener bounds include both output signs and the true zero mode",
+        "passed": true
+      },
+      {
+        "name": "all old-circle projections, physical positive ports, true seams and the independent mean remain in scope",
+        "passed": true
+      }
+    ],
+    "actual_mathematical_wall_seconds": 0.004610519999999951,
+    "source_sha256": "9596ebee08e95939cf1b8a9d46a9f32053bd4706cc77e2263a80d09ede99294c",
+    "input_manifest_sha256": "1869212f28702ae915787a6b5189406b13e6824b93e436a8650fa83e86b11f99",
+    "runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "original_target_FFT_intrinsic_or_point_derivatives_recomputed": 0,
+    "original_saved_characteristic_or_Fourier_coefficients_recomputed": 0,
+    "original_complete_potential_or_fold_bounds_recomputed": 0,
+    "original_reproducible_inputs_modified": 0,
+    "numerical_reference_column_samples_computed": 0,
+    "original_mean_and_reference_interface_conditions_retained": true,
+    "real_reference_columns_proved": true,
+    "complex_old_circle_inverse_matrix_proved": true,
+    "full_complex_angle_column_norm_proved": false,
+    "full_high_inverse_claimed": false,
+    "reference_columns": {
+      "exact_real_T_interval": [
+        "-1/2000",
+        "1/2000"
+      ],
+      "complete_potential_modulus_used": 276,
+      "all_abs_j_at_least": 97,
+      "physical_frequency": "n=4|j|",
+      "lambda_at_minimum_frequency_lower": {
+        "ball": "[53.19708277293264996775085900162198977248875211326892688284223366 +/- 1.11e-63]"
+      },
+      "positive_Volterra_exponent_upper": {
+        "ball": "[0.02075301769295005766971377492880318390544582091074898400810253490 +/- 3.38e-66]"
+      },
+      "negative_Volterra_exponent_upper": {
+        "ball": "[0.06519752792399090058409664653325670072015439205821846927307654717 +/- 4.45e-66]"
+      },
+      "root_a_distance_from_one_upper": {
+        "ball": "[0.01059410277393984769267643023192675418288297866771545006340595948 +/- 1.88e-66]"
+      },
+      "root_a_modulus_lower": {
+        "ball": "[0.9894058972260601523073235697680732458171170213322845499365940405 +/- 1.82e-65]"
+      },
+      "root_shear_coefficient_of_n_to_minus_four_thirds_upper": {
+        "ball": "[99.41567642326956353687833735759681366579072978273787712628361303 +/- 3.40e-64]"
+      },
+      "root_shear_uniform_modulus_upper": {
+        "ball": "[0.03513008799829790563389920673633849516283238827755964185125491433 +/- 1.59e-66]"
+      },
+      "exact_root_relative_matrix": "[[1,0],[beta_n,1]]",
+      "exact_Wronskian": "n^(2/3)/pi",
+      "complete_positive_Ai_weighted_height_and_derivative_factor": {
+        "ball": "[1.031901934147027058083943996292780079325286283141004088574561466 +/- 1.12e-64]"
+      },
+      "complete_positive_Bi_weighted_height_and_derivative_factor": {
+        "ball": "[1.020969859004046144686314424101035551725195315867167688363057592 +/- 1.05e-64]"
+      },
+      "negative_relative_basis_and_inverse_factor": {
+        "ball": "[1.104866635278713746882797987053563980000014584373137793171846143 +/- 2.15e-64]"
+      },
+      "negative_complete_relative_propagator_and_inverse_factor": {
+        "ball": "[1.067369838911039856733595767393546557699892001871735647444298799 +/- 7.01e-65]"
+      },
+      "both_independent_columns_retained": true,
+      "both_carrier_signs_retained": true,
+      "ordinary_two_source_rows_retained": true,
+      "ordinary_g2_radial_derivative_used": false,
+      "physical_positive_boundary_row_selected_by_Ai_terminal_data": false,
+      "complex_T_uniform_column_bound_claimed": false,
+      "physical_mean_is_not_z_zero_limit": true,
+      "numerical_reference_column_samples_computed": 0
+    },
+    "old_circle_inverse": {
+      "exact_old_rho_radius": "1/20000",
+      "exact_original_fold_radius": "3/8000",
+      "exact_original_fold_phi_strip": "3/128",
+      "exact_inverse_phi_strip": "1/64",
+      "exact_Wiener_phi_strip": "1/128",
+      "exact_full_physical_root_cover": "893368603925465506687/21990232555520000000000000",
+      "old_fold_image_modulus_upper": {
+        "ball": "[0.0002319978377376413910390106880109948229516858151796691151384746223 +/- 3.20e-68]"
+      },
+      "actual_common_potential_image_radius_lower": {
+        "ball": "[0.0007429560501680405148374516366694093888676229432699305021969848895 +/- 4.87e-68]"
+      },
+      "full_physical_root_piece_covered": true,
+      "physical_other_cubic_identity_claimed": false,
+      "complete_free_Bplus_modulus_lower": {
+        "ball": "[0.9999880505123326358099389617176321525660584689769307523457956981 +/- 3.33e-65]"
+      },
+      "complete_deformed_determinant_modulus_lower": {
+        "ball": "[0.9999880505123326357709688359607718977503099216231600801529646147 +/- 1.15e-65]"
+      },
+      "full_zeta_modulus_upper": {
+        "ball": "[3.897059143546200275747901854816568875584142327450344727446371817e-20 +/- 1.29e-84]"
+      },
+      "complete_HV_angular_derivative_bounds": [
+        {
+          "ball": "[1.000005979343161610464234906907902572892919637639737857959477336 +/- 1.61e-65]"
+        },
+        {
+          "ball": "[0.0007653559246861394220680842115293302937136178864458188130990059518 +/- 7.36e-69]"
+        },
+        {
+          "ball": "[0.1959311167196516920494295581515085551906861789301296161533455237 +/- 4.11e-65]"
+        }
+      ],
+      "complete_inverse_HV_angular_derivative_bounds": [
+        {
+          "ball": "[1.000017929045071877667285663426121546315191898613837729761035848 +/- 2.94e-65]"
+        },
+        {
+          "ball": "[0.0007653833691339030398484290994480837059728243308145195210218770891 +/- 1.10e-68]"
+        },
+        {
+          "ball": "[0.1959393141006769595340174558249000069267886928790908022432271163 +/- 2.83e-65]"
+        }
+      ],
+      "complete_composed_V_angular_derivative_bounds": [
+        {
+          "ball": "275.1961069107055664062500000000000000000000000000000000000000000"
+        },
+        {
+          "ball": "[0.0001220344682726119412345198445302467414239697696707809643599804678 +/- 1.12e-68]"
+        },
+        {
+          "ball": "[0.01562041202056386867221720107094401984179853309049037160468057003 +/- 4.25e-66]"
+        }
+      ],
+      "exact_positive_conversion_margin": "1/128",
+      "complete_two_signed_Fourier_conversion_factor": {
+        "ball": "[64.00520824856425399105885426250191561982969386753946838987702582 +/- 2.18e-63]"
+      },
+      "inverse_constant_subtraction": "-i epsilon times identity, retained exactly",
+      "complete_inverse_Wiener_angular_derivative_bounds": [
+        {
+          "ball": "[1.000382715965857285840053227833616858827281705892793553461171534 +/- 1.99e-64]"
+        },
+        {
+          "ball": "[0.04898852193140319008326282394320081493048635806322774619044702504 +/- 5.61e-67]"
+        },
+        {
+          "ball": "[12.54113660309467117273689771418520695527824361674275742144355075 +/- 4.24e-63]"
+        }
+      ],
+      "same_strip_sup_called_Wiener": false,
+      "only_two_angular_derivatives_paid": true,
+      "full_mean_output_retained": true,
+      "physical_primitive_projection_retained": true,
+      "full_J_inverse_or_parity_domain_extended": false,
+      "actual_reference_seam_jumps_retained": true,
+      "old_original_fold_majorants_recomputed": 0,
+      "final_complex_old_circle_inverse_matrix_paid": true,
+      "full_complex_angle_reference_column_norm_paid": false,
+      "full_strong_return_or_high_BVP_inverse_paid": false
+    },
+    "temporary_native_sha256": "4d7f5654ae7bab79640fdd0e2596a66a706e89b02eb340796ed3b68c5269701e",
+    "temporary_native_bytes": 3570,
+    "temporary_native_is_not_published": true,
+    "reproducible_data_published_to_repository": false,
+    "reproducible_data_uploaded_to_Releases": false,
+    "new_reproducible_data_artifact_uploaded": false
+  }
+}
