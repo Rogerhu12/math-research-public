@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:11:02 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:12:18 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推，非FF立即真pull --rebase再推至成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
-最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及08:44非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:03:33.114875 UTC aa622bafea7666f3888b8b10eff7d2ebc0a47979，两README diff空；ref读不冒pull，每小时继续CLI尝试。
+最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及08:44非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:10:46.492374 UTC a39a3783181ae671015efca4c55120d4269ad1c5，两README diff空；ref读不冒pull，每小时继续CLI尝试。
 根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector只UTF8<100KB、禁binary/gzip。旧输入runner从immutable commit/path或既有artifact临时恢复。H≤10KB/open≤30KB。
-最近只读README核：59b8045f6865a14588aef1a22a30334faf01edf1；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：62e272e64dc5d4b1805795038a6dcaad60f3a726；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前全部逐字检查点保存在7acf18ba28b29550117544e5e7b42b923587f6c5:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
 
 ## 总完成门与固定对象
@@ -27,7 +27,7 @@ v2 43681612825/1 child1/0groups：finite Arb转binary64溢出，失去新future2
 全部原Taylor/Nraw/六profile/完整九词五mean/seam/ledger身份和成功失败见压缩前H，仅恢复。actual共同势43685624307/old-circle43688459733两实列/根点signed43692226895已成，不授complex两列或正物理Schur。
 整片whole Taylor actual43694458725/1九门，报告4de2b072…；67pin/54旧Taylor+2stage、零旧重算。fa/fb/a1/b1实角<.280094/14.228337/2.495771e−5/14.600552，二径fb/b1仍1.526e12/1.569e12。full mixed/mean/两尾保，不能猜tail份额。
 G/c3267f91…已付有序μC无除T、三local向量、六old-circle余项和五mean；两负窗及physical/reference seam分账。whole相关forcing先signed消共同径向项；Vr由同fullmean Gbar，非离根z0势；ΔV0/ΔR/μM0及−16K(2ηα+zα²)保。G36给同域ΔA特征积分。G15真列范数/正graph/strong return独立。
-S/ee408a3c…完整scalar合同已独推（16022B）：新RF3/20000、原final Rs3/40000/σs1/256，所有域/像/路径、零点、rawmatrix有序cancel与双全尾保；实际新域门/数值尚待。SCI9b513cf6…、25pin25ca0b4a…、worker6aec30dc…/flow35957926…root审查；只新RF disk球代数，旧producer禁重跑。phase接G15源列。
+S/ee408a3c…完整scalar合同已独推（16022B）：新RF3/20000、原final Rs3/40000/σs1/256，所有域/像/路径、零点、rawmatrix有序cancel与双全尾保；实际新域门/数值尚待。SCI9b513cf6…/564759dc…、25pin25ca0b4a…/a6fbb28d…、worker6aec30dc…/a0799512…、flow35957926…/431ab636…已全读静核并部署。25pin1667339B/原20身份保；只新RF disk球代数、旧producer禁重跑。等待actual run/全部门，phase接G15源列。
 
 ## 全网络、有限迭代与新94链：tail_connector/root
 
@@ -49,6 +49,6 @@ M两未知γ/fB zero-width稿390a2462…19903B/e3654041…待root全读/tail独�
 ## 体积与当下执行
 
 旧11834+后9件cleanup链保。R80 run43695779341/1普通删除321489B，commit24b79b60…；恢复269ec92a4543276d0dea7b0f01ed130c8b684902/path。后topic199529155B尚未含receipt及新小稿。
-正在同worker部署两件已全文分类旧computed输出普通删除：R57 parameter_N_interval.json（f3a2a6ef…526295B/b52537b7…）及R56 parameter_complex_angle_1over256.json（bbec05ce…779017B，SHA由runner实际stream记录）。原R57/R56报告和两producer已全读，所有输入/参数/code/结论保留；只精确path/blob/bytes版本，遇新版本保留，truepull/README/无限非FF，零数学/Release/artifact。实际run/删除/体积随后补，未预称成功。
+两件R57/R56旧computed输出已实际普通删除：run43697955403/1成功、commit499ec549b2c32d7205126782835376533739aff7，1305312B；精确恢复a39a3783181ae671015efca4c55120d4269ad1c5/path。原manifest12636B/SHA052a9483…，process5458B/a8554168…、publication7082B/45fc4b01…已全读。该删除提交topic198417837B（未含7082B publication及后续小稿），零新旧数学/上传/historyrewrite，所有未列inputs/code/结论保。
 
 每子问题完成即接open下一项；不得停在阶段报告、时限或“下一步建议”上。
