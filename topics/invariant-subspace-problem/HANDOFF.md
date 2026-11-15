@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 当前完整前态保[H](notes/2026-11-15-handoff-before-external120-and-relative-normal-789f.md)/[open](notes/2026-11-15-open-before-external120-and-relative-normal-789f.md)及全部归档链；原来源、失败路线和未列问题均保留，未列不算关闭。当前入口以open为准。
+- 当前完整前态保[H](notes/2026-11-15-handoff-before-global197-i2-session-789f.md)/[open](notes/2026-11-15-open-before-global197-i2-session-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。当前入口以open为准。
 
 ## R150：原模块、已付结果与当前缺口
 
@@ -15,12 +15,9 @@
 
 - [有限点与原目标](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)二点full=P长12且W入像；零点长66/九s³tj入像/t2恰3，负六full=P12，F±²W/E8W已付。h*=h0/(s−2)全局Q等价/deg23。
 - [D31完整Smith/同202核](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)完整∞66、真Smith/全核1834良好约化、1632/E216原直和、同202freeI整核；原13左核λI=2。旧O149/高26/旧D leading与新结论分开，详前态。
-- [新原始子式](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)原核补单位给cokerB*=fulltors；H8835/∞66/degree8769/leading31单位，replacement≥66/cofactor≥55。实际字典及五输入全核，不造大det。
 - **[全精度已有来源统一8535](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60²已完整核且monic31整；保原D*=detB*、只首一K158Ω，q8491/leading31单位/全部Pℓ整。既有Ax≡31^e b mod31^n保同e/n降费max(8535,τ+1)；固定e任意高n才exact，单p6不够，e0 mod961负证仍真。
-- [仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)Δaff及monic Rout/Ω/M/U均31整；R(0)/R(−6)31单位，R(2)仅Q非零。新包络见下；原来源31分母另问。
 - **[有限载体与精确J1/299](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)：** C有限D31、C/pC恰fieldtors/J长314、rankC=degΔaff。root2 p谱前五(1,4,2,4,2)，全球≥15 tors方向/系数长≥44；Δaff≤299/齐次≤365、R≤141，barR|(s−1)(s−2)²P+²P−²E6Q60²。九真差源exact p阶5，非h0所需分母。
 - **[完整外投影Ω120/余乘子21](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60²、投影coker=S13⊕S/(f²)，全Δaff∈[278,299]。μ=Rout/Ω≤21，九μh*tj全局Q成员，总乘子≤44，三源费8406/8411/192。不报μ1、九h*自身来源或精确p²h0。
-- [原P的56×22 core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)Σ0外准确保全部原maxminor gcd；原来源、自由核及完整graph已核，logical752d21d7…，不重算。
 
 - **[原正常商的完整来源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)：** A经原120单位/13零输出后保[[Gᵀ,0],[H,B]]，B有6012=5100+864+48真零投影源，T=coker[B,H kerGᵀ]；核秩34全保。B/H的W尾尚未数值构造，不由4212维数免费消高块。
 
@@ -36,6 +33,8 @@
 - 新minor并发失败已立即重拉重推；历史字典/五输入全核保前态。
 
 - **[全56单核Bockstein已完成](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒、21paid/2870square/42RHS/56Ax/56纠偏全真，g=f60、Ω=f²。exec7fe5575b，raw4927B/93bcf19e，binding3456b533，gen54；临时cert39654723B/147a40fa/payload0ca29224。源码49a8a83e/全部pins见interface；旧177MB replay状态仅流式SHA核，不重core/det。
+
+- **全局197真R2独立会话：** request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；350分钟/30分及每步pull，旧live不重启。manifest b1e3a87e/a5d9cd78保14原件、旧T96/old200两包SHA和历史ref0d642288。只恢复必要成员到新job tmp，step1恢复300秒/2GiB；actions:read只读旧包，绝不新传数组。I2=原U7/197真R2的s作用闭包，须全505自由与315tors；七批实算/实际维数待后续源码核验。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 

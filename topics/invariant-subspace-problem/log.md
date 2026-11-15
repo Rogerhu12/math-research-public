@@ -684,3 +684,7 @@ step32实际71.12834121秒/exit0；全部21paid/2870square/42RHS/56Ax/56纠偏�
 ## 2026-11-15 22:59 UTC — 连续尾相干列的随机池原像与完整MP渐近
 逐坐标核Dq=ω−r、实际norm/指数残量及任意r真幂少位事件；亲读R234全层右逆，不把primitive多项式费误用于r。
 完整k=o(x) MP达到标量下界、同actual fcoh低层一次MP残量小；dc019c39全根审。全height与真返回未闭，实际pull核两README后push。
+
+## 2026-11-15 23:08 UTC — 全局197第二像最小原件恢复
+核旧T96/old200 artifact实际元数据与完整SHA，固定manifest b1e3a87e/a5d9cd78及14必要原件；只恢复旧包选定成员/4历史小件，不重旧Gaussian或后继大链。
+新增独立350分钟会话和actions:read，首步恢复300秒/2GiB；源fe0e3dff全审、每步实际pull核规则并小回执push。原live/已付Ω120仍保，197全局结果未预填。
