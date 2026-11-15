@@ -169,3 +169,7 @@ run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，
 ## 2026-11-15 08:14:23 UTC /root — 发布六系数三active的完整非零112入口
 
 [完整接口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)14657B/1e714343及source42683B/807f6a35全文与最后三处补读完成，核原core接受全流程/banded完整函数/complete_preflight/真实TailClient。六系数明确实公式与finite求和路径、λA目标/rawφ种子、同owner真实H FD、原所有行/17trial/8outer/final J+audit均保；不改旧v3来源或继承accepted96。原配置无initialCheckpoint，两ready历史env/78源责任明确。只有源/接口，低三阈值不作新增启动门；120实际λ=.001请求接线，未执行科学或预填结果。
+
+## 2026-11-15 08:15:39 UTC /root — 119实际公开六控制链运行
+
+run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，08:13:08UTC创建；API已确认进入原独立八方向批次science，未先报结果。发布119时一次非快进已由原helper立即pull --rebase并再推成功，两README仍原blob。非零112入口已随3dd0bbc0正式推送，120接线继续。

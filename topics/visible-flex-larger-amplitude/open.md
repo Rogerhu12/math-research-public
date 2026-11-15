@@ -16,7 +16,7 @@
 
 [R283固定trace完整变分](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[具体113接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：原C由独立gram形成，不默作F_e；有限root每一步连同C/Cholesky/代回求导才能表达固定分支实延拓，近似线性solve还含D残差。它不证明当前branch稳定、IEEE舍入光滑或实际新J，不改113。
 
-[119已发布](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)：wrapper b9db240d/request7a99ec41/workflow66ba3f93，全部原六维science/reader不改。由真实117末六p作最多8独立原8方向批，每批显式radius=.1、全部final检查；读真status+原summary后才传本run/source/末六p。批间3600s、原75/90min、逐份≤90KB原摘要；资源/不完整停止不冒数学拒绝，尚无119run或结果。
+[119已发布](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)：wrapper b9db240d/request7a99ec41/workflow66ba3f93，全部原六维science/reader不改。由真实117末六p作最多8独立原8方向批，每批显式radius=.1、全部final检查；读真status+原summary后才传本run/source/末六p。批间3600s、原75/90min、逐份≤90KB原摘要；资源/不完整停止不冒数学拒绝。实际run43693462669/source6fffce1f/job132748791692已进science，尚未读回结果。
 
 ### 1B. 110实际与118新增midpoint471真实连续模型
 
