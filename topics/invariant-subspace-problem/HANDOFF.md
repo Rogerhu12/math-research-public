@@ -24,7 +24,7 @@
 
 **最新第二续实际：** run43670796654/job132680153887/source3493809f复用17再成5阶段；数学300.0078725秒，五L4原17模31⁴整除全部真，实际费757、whole-P后953。22完整cache、314恢复2108880863B全保，manifest SHA90ef457c61bc51f0fc9fd34afc3aff162a73407706ce2b9903b79862015caf9a；在projected-five-L4-whole-image末段exit124。小回执已全SHA核，九最终原式尚未成。[完整实绩](notes/2026-11-15-r150-saturated-third-global-resume2-actual-789f.json)保全部阶段/工件；数据已实际推4450179601946844a03fa705c2ea746ac37e21ed，最后读规则7c130fb9。
 
-**第三次续算入口：** [准确续跑请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)读取上述最新两包并复用22完整阶段/全部314恢复，从未成whole-image继续。仅执行预算300→1200秒，五native/矩阵/runner/carry和49原输入字节不变；五编译各30秒、子1024MiB、job90分钟。根结论发布也改精确文件sparse，避免每次下载全题大数据。唯成功仍九原17模31⁶、六辅助/315/505及九实际费≤1345全真；固定B/e的全精度与char0仍继续。
+**第三次续算已启动：** run43672221411/source50d6e0a9； [准确续跑请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)读取上述最新两包并复用22完整阶段/全部314恢复，从未成whole-image继续。仅执行预算300→1200秒，五native/矩阵/runner/carry和49原输入字节不变；五编译各30秒、子1024MiB、job90分钟。根结论发布也改精确文件sparse，避免每次下载全题大数据。唯成功仍九原17模31⁶、六辅助/315/505及九实际费≤1345全真；固定B/e的全精度与char0仍继续。
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**：同一B/e/目标于无界精度可解⇔有限Z_(31)原来源精确可解，无需相容；B或e增长则不成立。1−31s例固定B阈n≤e+B+1；u(u−31)显示∞纤维秩相同不控长度。当前1345仅一精度，不能外推char0。
 

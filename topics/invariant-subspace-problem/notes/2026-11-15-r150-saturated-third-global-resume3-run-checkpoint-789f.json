@@ -1,0 +1,33 @@
+{
+  "format": "r150-saturated-third-global-resume3-run-checkpoint-v1",
+  "atUtc": "2026-11-15 03:25:38 UTC",
+  "entryPublication": {
+    "status": "pushed",
+    "sourceCommit": "bfca51e95764c3a4d32ddaf0857c946f8eb04166",
+    "publishedCommit": "50d6e0a9949ff9fc8ba0adfc3264fe60042ed76c",
+    "runId": "43672211363",
+    "runAttempt": "1",
+    "lastRulesReadCommit": "b78f0dd1471a118d2ed21467602509d188c2ab67",
+    "dispatches": [
+      {
+        "workflow": "invariant-subspace-r150-saturated-third-global-resume.yml",
+        "ref": "main",
+        "httpStatus": 204,
+        "registrationAttempts": 1
+      }
+    ]
+  },
+  "mathematicalRunId": 43672221411,
+  "jobs": [
+    {
+      "id": 132684570970,
+      "status": "in_progress",
+      "conclusion": null
+    }
+  ],
+  "priorCompleteStages": 22,
+  "sharedMathematicalSeconds": 1200,
+  "mathematicalProgramsUnchanged": true,
+  "actualMathematicalCompletionNotYetObserved": true,
+  "characteristicZeroIdentityAsserted": false
+}
