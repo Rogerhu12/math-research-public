@@ -241,3 +241,8 @@
 - 保存R827已全文核的core85916B/d9cf7739、finite helper38baf6b4及methodc55655f9；原B/整性/同p缓存/8-6-5节点/9-7-7恒等/σ短jet/τ全多项式和失败分支均保原契约，不新增generic测试gate，未激活缺源请求。
 - R809实际run43712427063已success，原冻结verify报六C/84Q/full1380、prime1000000007/minor29693114；小IO读取真实manifest/index正在准备，A/B仍待R787，不能误称函数已成。
 - 2026-11-15T16:01:29.891225+00:00真实pull读096b9b0bd10c7882491f372df6bdab3b411d0b9e，两README无diff；R830已推845d230d，R824准确续算运行，主目标OPEN。
+
+### 2026-11-16 00:04（Asia/Taipei）｜serre-public-astra-20261115
+- 激活R809已结束成功产物的小Range纯IO读取：scripte2f9be61/request99dcdd86/workflow29e1c1fc，root全文核；自举不可变reference/manifest后取cert/S5/minor/六normal索引，不下载1234行、大坐标或旧bundle，不重算数学。
+- R827 core/helper/method已推7f68e1b8；wrapper87825B/dbd8356e已收待全文主审，真实R809源读后直接激活首q4充分检验。H逐字归档压缩；R634早已给E_ij非恒零不重证，height代理继续原T_p缺口。
+- 真实pull 2026-11-15T16:02:44.492628+00:00读7f68e1b83c2d579c861fccb9b770c6e7d2a32436，两README无diff；R787/R815/R824续算运行，主目标OPEN。
