@@ -98,3 +98,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### actual109 已完成，继续相位分区
 
 [三有理案例实际结论](notes/2026-11-15-actual109-joint-phase-three-rational-cases.md)：run43684128674/job132720890896/source0dda7609，三例均匹配；联合严格扩展、原OR保留、π等号拒绝均实际成立。摘要2820B/e91c170a，完整临时输出21821B/d7df856f。没有实际闭面/reach；R281继续两RP1相位图上的精确有理闭区间换门覆盖，不将本轮视为完成标准。
+
+### actual103 已完成：邻词与完整 R273 均未接受
+
+[实际103结论](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)：run43681829913/job132713895446，base/±ULP三次原完整noJ均无严格改善，返回同freshJ完整R273；129248行exact affine max约9.6856e−11，但原十档nonlinear全拒、最后三档回基，零accept/no finalJ/audit。summary3327B/865250bd，原response1332010B/6cdeafa8。继续原primal表示/精度路线的具体证据，不反复猜相同词，也不称普遍精度底线；所有完成门仍未付。

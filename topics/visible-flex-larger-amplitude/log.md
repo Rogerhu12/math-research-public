@@ -9,3 +9,7 @@
 ## 2026-11-15 06:16:10 UTC /root — actual109 三个有理案例通过
 
 [实际109结论](notes/2026-11-15-actual109-joint-phase-three-rational-cases.md)：公开run43684128674/job132720890896，三例解析预期全部匹配。第一例两旧门false而joint true；第二例joint false但旧OR true；第三例有限坐标多项式正、π余量0，严格门正确false。摘要2820B/e91c170a，完整临时输出21821B/d7df856f；无相位采样/native/BVP或实际reach。R280证明先前已登记，继续R281有理区间换门，不加新审核门。
+
+## 2026-11-15 06:17:46 UTC /root — actual103 原完整科学停止
+
+[实际结论](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)：三次fullnoJ建议无改善，完整R273成功后十档仍全拒，非QR/桥接异常。仿射exact残差约9.6856e−11不代非线性接受；零accept/no finalJ/audit。原summary3327B/865250bd、response1332010B/6cdeafa8、joblog88780B/434923f0。原parent临时清理有PermissionError如实登记，非科学首因。下一native route看原primal精度/表示，107与108已完成待实际标量读回。
