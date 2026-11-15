@@ -339,3 +339,5 @@
 - [继承成功尺度后的两网曲率59.5101与曲线回退入口](notes/curvature-inherited-scale-first-actual-result-20261115.md) — actual43662323270/sourcebb41e860仅初始trust.001，同g/b0/163/原门。model3/4原步α1/8、1/32两次合格接纳到78b36，κ59.7113→59.5101、fineη.267199864505；55未达。模型3后无遗漏，末池4208/1176，SOC6虽大降metric余差仍不合格；末SOC7有LP无值不认。12LP/40值、活动30.688s/总256.541s。下一保同预算，仅把失败SOC后的直线回退改为含已有修正的二次曲线，全门仍验。
 
 - [R163：十四族完整八矩cocycle与同权字符商](results/R163-complete-normal-coefficient-cocycle-and-single-weight-character-head.md) — 真实端点纤维和时长权给F0/Q2同一C_g(M)=Σa_i(M)F0(gS_i*)，完整最高十族无cocycle。正确群复合(HH′,d′+H′d)，低阶平移为∂ω−c(m)。因此Hσ=Uσ/(Rσ+N Uσ+1)=(Rσ+Tσ)/(Rσ+Dσ)，Dσ只用同一权σ全部14族与静态参考导数。权−2无需另编−1或profile平移；保完整N2/pure+balanced，不预报维数或正性/实际period完成。
+
+- [R162：J6完整原式分离与35维balanced核](results/R162-J6-original-separation-and-35-dimensional-balanced-kernel.md) — actual43663137188/source0700d815只新J6和一条旧42整体原和，利用R153残差作隐式43消元；mixed−2实部t1/35给ΛJ6≡1266268570、新44det1176345646 mod2147483647，严格排实成员。与R160/R159合得E6维44、pure像9、核/balanced像35；U≥240，lineality/query仍237。3.984s/RSS100.527、10原根存135334B，无旧NF/列重跑。J6∈R已否定，J6∈R−2+N U−1仍未定；转完整字符任务，不继续孤立维数链。
