@@ -151,19 +151,17 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R278](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)加入a²/b²=1的真实gap包，准确ΔS0、Δ(Z/k)<0。五簇同宽q正权配0/2/4矩支付新增local门，原四变量真实IFT仍保三矩/全third/六能量和指定旧面积；有限A/N容量使S>0>Z/k，Q±仍可正幅配零。**下一必须联合ΔY1=ξ0Δ(Z/k)及另一Z even的Rshape总项，不能搬旧R271混合或把负方向当完整面积解。**与R277等背景/同F机制并行，优先处理其余准确ordered条件。
 
 
-### R285 后续：全部对称乘积的真实基线与新 shape 控制
+### R285/289：全部主空间已经查明，继续完整兼容和全角
 
-[R285](results/R285-principal-splitting-of-symmetric-Gaussian-products.md)准确分离30对称外矩的三阶平方主项及保全尾的C²余项。固定母包/单χ/全部copy时，连Lc/Mc的32必要量主向量只在次数≤10位置空间，span≤11；下界5来自R284。下一计算原mixed外矩和新shape的独立比值，或求真实左核兼容；不能把C²余项称旧F已经固定，也不能凭增加同χ位置宣完整控制。未付全部角、0/1层、canonical period/同w和主几何门。
-
+[R289](results/R289-universal-even-principal-space-and-positive-real-packet-cones.md)在R285真实C²余项分解上，给32必要量普遍主rank通常30、唯一正κ²例外29；可从最初在同一正解析最大F母包与有限χ实现，每χ原12交替包插值正核给全位置span正锥。R286的even vρ关系已是完整恒等；E1²j2−16ζ²Lc完整差、例外uv关系及其他角C²项仍须原式处理。不能只解主投影就宣32全量/全θ/whole第四。
 
 ### R283/288：当前紧微包一次端层已付，接平台与通量
 
 [R288](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)在当前真实profile紧且不交的解析类，原R56跨包Cij整体局域，diagonal真左尾的三历史矩由actual universal whole pure逐个消去；因此R283所有内部Q_e自动0，两mixed目标不再有一次指数端障碍。真实尾并未消失，不用面积/能量冒推。下一支付原平台P″/零端flux与内部p/A退化；仅导数分包旧step圆或新增任意第三初值不在此证明范围。
 
-### R286 后续：负三—负二乘积的两条原完整余门
+### R286 两余门已由R287支付
 
-[R286](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)已保全D三矩、第三左尾与I2一阶导，六条P/R、P/S原外矩准确归约。H0/H1/H2后零外矩自动过，另须4aJ1+(2a+5b/2)C0=0和−(a+b)K3+4aJ2−(2a+b)C1=0；C0严格正。固定单χ的J1/H0 principal比值不随位置变。下一从最初选两evenχ，严格联立七量正balance与同F有限N根；不同χ比值已有原式理由，不能把它当完整支付。
-
+[R286](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)完整六式保全D尾及I2低阶；U/V已由R287真实两χ七量根支付，不再另待解。固定单χ共线仍真，不能凭增加同χ位置宣任意新门可控。
 
 ### R287 已支付两乘积；继续其余真实系数
 

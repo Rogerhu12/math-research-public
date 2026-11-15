@@ -8,7 +8,7 @@
 
 私有2026-11-15 14:14:00 UTC实际pull/read `6eb7f1f968522b9aaa7b54ec8e41e16f6a13978e`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
-真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。13:20终端恢复，旧/dev/shm检出已清空；重建 `/dev/shm/visible-recovered-1320-9974ea84/{public,private}`，两仓均blob:none/depth1/sparse。现在恢复终端Git，不再用根8断连写入例外。
+真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。14:34确认本地环境再次unavailable，仅按根8小UTF8集成发布；API不冒实际pull，恢复即补实际pull/双规则检查。
 
 
 ## 2. 完成门
@@ -35,13 +35,9 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R267/270/271/273旧有限圆**：三矩/全third/六能量、若干even及36odd已付；完整证明见results。R275严格排原小h双斜率族full面积，不再加位置重试；R278用真实第三斜率gap包脱离原半平面，但仍非full，保备选。
 
-**R277/279/280新圆**：真实全self/3矩构成C²多项式F；从最初选最大秩母包、真minor/ker同F。真实17进制/TM两编码给三有序面积双号，五完整block先固定正四次权/位置，再逐block同F高频有限N准确根付能量；全部72 Gaussian面积及六识别能量同零。保完整self/Green与history，非数值候选。下一十个对称乘积/四个一层/零层及period/joint；面积不自动付它们，解析兼容见R281。
+**R277/279/280全72面积圆**：全self/三矩真C²多项式F与最大秩同纤维；真实两编码给三面积双号，五完整block先定正四次权/位置，再同F有限N根付六能量。完整self/Green/history保留，非数值候选；原证明见各R，后续对称乘积/period/joint不由此自动付。
 
-**R264/266平台原尾**：G″=(aw″)′+bw′−Jcw，Λ=a(pw″−p′w′)+wJcf−fJcw，Λ′=pG″。全平台/flux iff各活动总势矩∫cw0及非零平台局部项0，控制组合只付总和。非零F平台局部像F²(P2D4+2P2′D3)维3，完整K仍含Q2″=−Jcw；不把局部源零当全K零。
-
-**R272/274全Z零端**：最初选解析ψP，EL有限宽根保内部p/AH有限退化；逐包比例全Z Kfg0、flux自动0。correction完整period仍需各包总势矩/内部Laurent，精确kernel才给C∞端。未算实际矩阵或fullRp0/joint。
-
-**R276原canonical端界**：R56真实恢复给G=P+Tf+p²t^-4B，保Π2/Π3历史及右锚。原EL类的一次层准确有限化；平台/flux先付时逆germ光滑iff一次层零。非零首层p^-1发散不能由Cp修复，完整period仍欠控制解。R281支付新解析纤维适配。
+**平台/全Z旧接口R264/266/272/274/276**：G″=(aw″)′+bw′−Jcw，真Green Λ′=pG″；非零F平台局部像仅三维但完整Q2″=−Jcw不得删。全Z逐包比例Kfg0、flux自动0，只correction还需总势矩/内部Laurent。canonical原式G=P+Tf+p²t^-4B保完整history；R288现付当前紧微包Tf，平台/flux仍欠，非全Rp0/joint。
 
 **R281解析同F圆**：固定ψ×偶多项式C²稠密，真minor多项式线给全区正P0及解析纠正/χ。R280先定布局权再同F有限N根，保72面积/六能量与prefactor全区正。真实p=t^-2 a_e exp(−c/t)、内部p/AH有限退化；保整个canonical Tf，D+ψ′/ψ有限消积分、频率独立及亚纯性排全平例外。平台/flux先付时端门准确有限iff，实际值原欠。
 
@@ -51,6 +47,8 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R283/288当前紧微包的canonical一次端层已全付**：原真实平台齐次式给cross一次层¼hρ(Rf′−Rxf)减真实s端势，闭周期后三个hρ权矩；whole pure0才消对称三次加权历史。R288原R56证明i≠j的C(ui;uj²)整体局域outer包：Zj仿射分子常导数与紧Vi端差使P左尾0，B/η/W原canonical随之外零。各diagonal可有真尾，但actual universal pure在其解析左端逐个付三历史矩；同尾延续整个左域。故当前真实profile不交圆的所有内部Q_e=P_e[Wfc]均0，两mixed目标一次指数全消。平台P″、端flux、内部Laurent/全period/joint仍欠；不推广仅导数分包step或任意第三初值。
 
+**R289全部主空间/正锥**：30个x^jαrαs自由jet符号独立，S主在其中、T新增1；even普遍核只uv和vρ。通常32必要量最大主rank30，2295t³+467t²+86t−8=0的唯一正t=κ²例外rank29。一个新正解析最大F母包及≤30形状可达到；每χ原12交替包用插值正核给全位置span正锥。完整E1²j2−16ζ²Lc差、例外关系与其他角C²项须另付，非32全量或whole第四。
+
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
 **旧局部接口**：R226–240仅首HE零芽；R242/244新ψP圆11维δ链八flux+首gap rank10，非旧圆全period。R246该模8F+8E单射、余13兼容和e-flux仍须付；不冒全R0。R243有限jet iff仍无实际n。
@@ -58,3 +56,5 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
+
+断连API复核main e25d30d904162e12c8bf36ee4e9dae3d77445cc0，双README blob同。R289本地patch未确认落盘，已终止等待，完整小UTF8原稿另存发布。

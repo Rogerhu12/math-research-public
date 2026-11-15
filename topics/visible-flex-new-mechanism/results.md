@@ -456,3 +456,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R288 完整证明](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)以原R56完整恢复证明不同包的C(ui;uj,uj)整个field局域outer包。内二阶Zj在outer包上是真实仿射分子，常x导数与紧初阶Vi的完整端差使P左尾准确0；原B=J/(2h)、η、characteristic RHS和同一canonical初值随后给外部全0，未删除包内一次项或重锚history。
 
 单包diagonal C(ui;ui,ui)虽可有非零左尾，M0/TκH对角恒零给s周期；已实际安装的universal whole pure在该ui的解析左端，由原一次/二次指数分离迫其三个加权历史矩全零。无需单ui满足实零三矩。完整C(f;fg)在任一零平台只余diagonal真尾，线性提取后各项分别0，故全部内部Q_e=P_e[Wfc]自动消失，R283两个mixed目标一次层全零。R281/287当前不交紧profile与不同有限N母包均适用；不适用于只导数分包的旧step圆或任意新增第三初值。平台P″和端flux先付时逆端因此C∞；这些前提及内部Laurent、ruling/joint仍未支付。root全文回读R56核，mechanism独核全cross局域链；无新计算。
+
+
+## R289：全部偶主空间的准确最大秩与真实十二包正锥
+
+[R289 完整证明](results/R289-universal-even-principal-space-and-positive-real-packet-cones.md)以原四α的三自由jet表示证明30外矩符号独立，S主从属/T新增，even普遍核只uv/pv；通常rank30、明确唯一正κ²例外rank29。正解析母包有限jet插值与原F真minor可同时实现最大空间，每χ原12交替包的Lagrange正核给全位置span正锥。只付主系统，完整基线/例外兼容与其他角C²门仍须原式处理，非32全量或主课题完成。literature全文独核通过。
