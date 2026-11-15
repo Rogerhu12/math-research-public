@@ -43,7 +43,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **弱Gaussian圆R308–359**：Af0真rank-two/单hook与8/12copy保third/odd。R353正域13矩，R355独立有限宽补WY2；R354原完整反射二次尾正交、Ψ/三F偶给新偶分支16矩。负域真安装由先正后负boost、同ω下界M桥、NH0平移hook/真逆夹心/Klein闭合；先全部有限profiles后初选he，使x+ω>1。新seed/g不继承另一几何pure/wholeE/Morse/period/joint。
 
-**R357/359新17矩**：R357真宽平台简单根/8TM原子/三母minor给Fκ=J=Ksh0和J/Ksh自由；两排序+第三gap五簇真0/2/4矩、有限容量给六列(Q,S,V)正半3D正锥。R359原R275/R278精确ell=B1pure+kPY0pure=Rloc W，Rloc=−G Ksh/2+RJ J，κ>0时G>0，真W=𝒲δ n(1−q²)(H²−6H+1)>0。J=Ksh0三锥映ell0，加Ksh±两列得8列同权(B1,PY0)四锥；完整镜像保odd零，接R354 M8投影D1/C0及C2得10行36列正核，S5幅付P0/ΨS−2，末同F★控制器保新旧门。**整偶圆17外矩，仅PY2欠**，所有finite尺度在新几何前选；root续R360完整PY2。V是镜像前参数，不冒镜像后P1自由。
+**R357/359/360完整18面积矩**：R357真宽平台简单根/8TM原子/三母minor给Fκ=J=Ksh0和J/Ksh自由；两排序+第三gap五簇真0/2/4矩、有限容量给六列(Q,S,V)正半3D正锥。R359原R275/R278精确ell=B1pure+kPY0pure=Rloc W，Rloc=−G Ksh/2+RJ J，κ>0时G>0，真W=𝒲δ n(1−q²)(H²−6H+1)>0。J=Ksh0三锥映ell0，加Ksh±两列得8列同权(B1,PY0)四锥；完整镜像保odd零，接R354 M8投影D1/C0及C2得10行36列正核，S5幅付P0/ΨS−2，末同F★控制器保新旧门。**R360已付唯一PY2**：原self PY2=−2RY1−2SY1−μ1μ2，补Γ保T12，pure商只剩RY1；(Q,S,V)给三有序行/J,K给三local行，12列真中6锥，接低4/C2得12行24列。S5正核+PY2残差S−2右逆保旧17，Ψ成本S−2、末F★。**同实际偶弱圆全18反对称外矩/72角位置零**；全部finite尺度在新几何前选。对称乘积/history/period/joint未付，literature续真PP0与完整对称scope。V是镜像前参数，不冒镜像后P1自由。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one局部生成式保全cross/尾0、wholepure/self/Ω0；11对应真实Af点flux的十次多项式Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 

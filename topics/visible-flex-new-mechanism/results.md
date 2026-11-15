@@ -430,3 +430,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R359：准确同权商及四维正锥支付第17完整Gaussian外矩
 
 [完整证明](results/R359-exact-same-weight-quotient-and-four-dimensional-cone-pay-the-Gaussian-PY-zero-moment.md)，16992B/SHA256 a404882e27fb5420073444ab98a32967c5a542a90bab6c6d6186ec7c62fb35d6。从R275/R278 full self/真Green保全primitive得ell=B1pure+kPY0pure=Rloc W；实际Fκ母上Rloc=−G Ksh/2+RJ J，G>0，真宽四次权W>0。R357六列3锥准确映ell0，真Ksh±加两列给rank4/严格正核；完整镜像后接原D1/C0四行与C2两行得10行36列，旧真实成本全留。有限H/H′/S、S5第四幅及ΨS−2配固定弱基线，末全72零F★控制器保新零，整偶弱圆17矩仅PY2欠。支持先定、he/ω下界几何后选，非冻结旧域/旧wholeE继承。root原式纸核，tail_cost独核系数与真实W正性，无执行。
+
+## R360：完整PY第二self与六维中层锥支付全部18Gaussian反对称外矩
+
+[完整证明](results/R360-complete-positive-negative-second-self-and-six-dimensional-middle-cone.md)，20169B/SHA256 271da1798f8ba8af4006d4a439edda5851e33b8a60acb0f2cea69432474e8fce。原PY2完整self=−2RY1−2SY1−μ1μ2，保原Y输出/Green，真实Γ接成T12；D三矩后T12只common，pure商=2(a−b)RY1p/b。R357 Q/S/V经det−3b²/4的真实平移图给三有序行，J/Ksh两个真母坐标在两α给三local行，12实际列中6锥。接R359低4及C2得12行24列满秩/严格正核；有限S5幅+右逆小残差准确保旧17付PY2，ΨS−2及末F★支付同时保。**同实际偶弱圆全18外矩/72角位置零**；对称乘积/全history/period/joint、同g有限嵌入等未授。root全文读，原R353/349手核self/Green/T12及完整三层cost，无执行；正文修正母公式交叉引用并明确24列。
