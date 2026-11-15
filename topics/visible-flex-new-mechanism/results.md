@@ -295,3 +295,5 @@
 - [R144：第七次G平移分离与230个真实共同查询](results/R144-seventh-G-translation-and-230-query-control.md) — 新权−6的20完整两mode列经4原依赖成16维，原16/17有理子式证明N⁷G非成员，8≤s≤10。与同一pure像31合得核≥191、R8≥222、A_G/lineality/共同查询≥230；R136的J只使U≥231。12.777s/RSS125.238，全部42根导出。仅派下一N⁸G权−7，不重复旧块。
 
 - [R145：真实曲率反号与偶权正字符](results/R145-true-curvature-reflection-and-even-positive-characters.md) — 负缩放仅作有限Laurent代数延拓，真实几何保持h正、同输入和右锚；逐R56递推证V反号路径=SV，零矩桥证明闭锥基点无关及SC=C。非零正仿射字符只能偶整权；没有据此宣称奇权分量实际可取负或J已付。
+
+- [R148：固定曲率轴的sharp最高action符号门](results/R148-sharp-one-dimensional-highest-action-positivity.md) — 对全部正平端h，Aσ≥(3−σ)²Bσ/9且显式过渡证明常数sharp；aA+dB非负iff a≥0且d+(3−σ)²a/9≥0。权−2使λ(D0+25J/9)≥0，D0须由完整Q4提取。只一维最高层，不授全部action或实际控制。
