@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`10f9e0abab5c1b3e392b1cc4d29f9365c66a1f93`；时间2026-11-15 13:59:24 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`72e56747067de9020306d4db85c4cca2161a3378`；时间2026-11-15 14:01:33 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -33,19 +33,19 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右三常数/左尾；43712266529八新人工已过不重。全Rp0=(R71∩kerπ)+B(E,χ8)，不可删首项。R259/263的72全角条目和81有序状态非rank；右inner三矩0才消cross，12完整copy付36odd，平移≤10和内部history均保。
 
-**R267/270/273旧有限正宽圆**：同源TM3/odd母扰动和四变量真实IFT付三矩/全third/六能量、全A−2,−3/A−1,−3、36odd、A1,−1 I0及A−1,−2 I0。R271六最终位置先各IFT，再Q正幅与三比值混合付A1,−3 I0/I1；I按有限几何/桥包络先选，不迁旧g/F8。正面等式仍真，但此小h双斜率族已被下条排除full面积；不再增其位置重复试解。完整证明均保results。
-
-**R275旧双斜率小h族已排除**：原self/Green和J(xDρ)给共同(1−c*)S−c*Z/k<0，当前ρ0/20、普通/伴随、A≥10的有限正幅混合若ΣS0则ΣZ/k>0。范围只原小h两坡族，原已付等式不撤；不再以该族加位置修复。
+**R267/270/271/273旧有限圆**：三矩/全third/六能量、若干even及36odd已付；完整证明见results。R275严格排原小h双斜率族full面积，不再加位置重试；R278用真实第三斜率gap包脱离原半平面，但仍非full，保备选。
 
 **R278第三斜率真实新方向**：加入a²/b²=1的有限gap包，Dreal不变，保全部原future尾得ΔS0、Δ(Z/k)=−Σμmid J(xDreal)<0。五gap簇同low宽q的严格正权配0/2/4矩，准确支付新增local even预算；r>0新高坡和原四变量真IFT保三矩/全third/六能量及指定旧面积。固定有限n/r/h后取大有限Λ/N，再δ小，负响应δA^(3/2)超过旧δA，得S>0>Z/k并保Q±，可正幅付Q0。仍ΔY1=ξ0Δ(Z/k)，另Z even保Rshape总项，不能冒独立控制或full面积。
 
-**R277/279/280新圆已付全部Gaussian与六能量**：全self平移系数/3矩为真C²多项式F；最初选光滑最大秩母包，真minor+ker等式保完整F，不假旧纤维正则。等B、R∈{−B/2,8B}有限格点先付30even/36odd。R280保完整self/Green消对称核，余六式恰由A01/A02/A12三有序矩面积给出；交换17进制R与TM符号两层真实编码，累计平方界给A01双号。五最终完整block正四次权以实际平移律联合清三面积，所有72原条目准确零，非rank。全部位置/权先固定，再逐block用R279三真实high–low–high向量的正balance、同F N^-3扰动和完整能量C¹收敛，选一个有限N的准确根付Lc/Mc；odd与共振一般身份给六识别能量全0。未枚举巨量序列，非数值候选。**下一十个对称二history乘积、四个一层及零层原系数，另有canonical period/同w ruling；面积零不自动支付这些门，解析端适配另付。**
+**R277/279/280新圆已付全部Gaussian与六能量**：全self平移系数/3矩为真C²多项式F；最初选光滑最大秩母包，真minor+ker等式保完整F，不假旧纤维正则。等B、R∈{−B/2,8B}有限格点先付30even/36odd。R280保完整self/Green消对称核，余六式恰由A01/A02/A12三有序矩面积给出；交换17进制R与TM符号两层真实编码，累计平方界给A01双号。五最终完整block正四次权以实际平移律联合清三面积，所有72原条目准确零，非rank。全部位置/权先固定，再逐block用R279三真实high–low–high向量的正balance、同F N^-3扰动和完整能量C¹收敛，选一个有限N的准确根付Lc/Mc；odd与共振一般身份给六识别能量全0。未枚举巨量序列，非数值候选。**下一十个对称二history乘积、四个一层及零层原系数，另有canonical period/同w ruling；面积零不自动支付这些门；解析端由下述R281适配，实际系数仍欠。**
 
 **R264/266平台原尾**：G″=(aw″)′+bw′−Jcw，Λ=a(pw″−p′w′)+wJcf−fJcw，Λ′=pG″。全平台/flux iff各活动总势矩∫cw0及非零平台局部项0，控制组合只付总和。非零F平台局部像F²(P2D4+2P2′D3)维3，完整K仍含Q2″=−Jcw；不把局部源零当全K零。
 
 **R272/274全Z零端接口**：在最初选ψ=exp[−1/(1−y²)]后按原顺序求真有限宽根；EL奇扰动保持p=t^-2 a∞e^-c/t、内部p/AH退化有限。最细包局部比例使全Z Kfg0，逐包flux自动0；其correction完整period iff各包总势矩+内部Laurent，端germ由精确kernel自动C∞。未算实际矩阵/rank，非全Rp0或joint。
 
 **R276原canonical端界**：从R56保真Π2/Π3与全s历史得V2余p²t^-4、V3余pt^-2+p³t^-8，完整四阶G=P+Tf+p²t^-4B；不加任意高jet齐次gauge。实际f=Aψ+ψ³R有理扰动使T(ψ³R)无害；真实一次Lψ用D+ψ′/ψ有限消成有理Qn，恒零iffQn0。平台/零端flux已付时逆germC∞ iff Lψ0；非零首层给−p^-1 t^(r+8)b0/(16c⁴)，不能由Cp修复。故原canonical有限period条件为真平台/flux/内部Laurent/各端Qn及原右锚，尚无实际控制解；不重R240，R277新母不自动继承解析芽。
+
+**R281新解析同F圆**：固定ψ×偶多项式在even C²域稠密；真实minor沿多项式线给P0全区正的最大秩母包和解析纠正方向。χ=ψQ保R279正balance/C¹有限N根，最终ψ[P0+ΣaP+zN^-3QcosNy]全区prefactor正；可从最初接R280五块，全部72面积/六能量同零。真实p=t^-2 a_e exp(−c/t)、内部p/AH零有限。保最后圆全canonical尾，整个Tf经D+ψ′/ψ有限消积分，清分母后不同频率多项式指数独立，端门等价有限准确系数零并排非零全平例外。平台/flux已付时这恰iff逆germ光滑；未求实际尾/系数/rank，不授period或joint。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 

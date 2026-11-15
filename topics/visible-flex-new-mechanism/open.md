@@ -128,13 +128,13 @@ R224/R228标准/增长曲率偶芽已由原八包c6排除，R232另严格排原�
 
 八χ首次run43712266529已由R261消费，8新人工/8科学目标通过、53来源吻合；人读全系数直接复用，机器payload不发布，不重复原编译或冒fixed-circle rank。
 
-[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3、36odd和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)真左尾/平方密度反射再付A−1,−2 I0。[R271](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)以原P,Y第一self及ordered U01两号，在预选共同新大正I内六final block各先四变量IFT，再Q正幅配平/三个严格比值夹持，联合付A1,−3 I0/I1。16形式even仍未付（非rank），但下述R275已阻断原小h族完整面积。 不平移旧根、不授任意冻结窄I，不搬旧F8/旧g；不同block α无需相同。
+R267/270/271/273已付旧有限正宽圆三矩/全third/六能量、36odd及若干指定even，完整证明与准确范围见results；R275已排该原小h双斜率类full面积，不能再增位置重复试解。R278第三斜率保原等式且逃出原半平面，仍留备选，不冒全Gaussian。
 
 ### R277/R279/R280：全部 Gaussian 面积和六识别能量已联合支付
 
 [R277](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)/[R279](results/R279-finite-frequency-fiber-control-pays-both-even-profile-energies.md)的真实最大秩F纤维保持全部72观测；[R280](results/R280-ordered-three-moment-areas-and-five-block-Gaussian-cancellation.md)在原self/Green及对称cross准确消后，将余六式化为A01/A02/A12三个真实有序矩面积。17进制R/二进制TM两层编码交换给A01严格双号；五最终完整block的正四次权按原平移律同时清三个面积，全部72条准确为零。最后位置/权先定，再各block按R279同F有限N真实根付Lc/Mc，原odd/共振一般微包式给六能量全0。不是从条件数推rank，未枚举巨量序列或提供数值候选。
 
-**下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** 还须从最初构造解析同F母包才能用R276端门；不能由全部面积零推whole第四可解。更高阶收敛/同g有限族/全时嵌入reach仍欠。
+**下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** [R281](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)已从最初用ψ×偶多项式真最大秩母包、解析同F有限N根接R280：全72面积与六能量同零且p=t^-2 a_e exp(−c/t)、内部退化有限。整个canonical Tf保最后真尾，经共轭微分和频率独立化为有限准确系数；平台/flux已付时这些系数零iff端逆germ光滑。**下一提取实际尾并支付这些系数、平台/通量/内部Laurent，非再证明有限性。** 高阶收敛/同g有限族/全时嵌入reach仍欠。
 
 ## O1：双圆领相位机制，保留备选
 

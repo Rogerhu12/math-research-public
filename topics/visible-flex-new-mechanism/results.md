@@ -388,3 +388,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R280 完整证明](results/R280-ordered-three-moment-areas-and-five-block-Gaussian-cancellation.md)从原E22−E04保self/Green，以R²−4T²=7BR/2及十阶矩先消完整self和cross对称部；六余式准确落A01/A02/A12三有序楔积，原Gaussian非零系数给该类准确iff，非rank声明。真实矩m(1,t,t²+ν)给A01=−m²∫(FR²−4FT²)、A02相应一次矩、A12保GR²−4GT²−ν(FR²−4FT²)，第二累计H²项不省。
 
 两层有限编码i=kL+j与i=jK+k均保R/T十阶矩。整块TM的FR≤8B而FT长段增长给A01>0；细TM的FT≤3B、每段R完整平方配方下界给A01<0，无枚举/点质量近似。先做完整8/12copy后实际中心化，按三面积准确平移律，在C、C±D放正模板、C±ell放负模板，以w=(χ−−χ++ell²)/D²∈(0,1)的严格正四次权联合清三个面积；所有inner三矩0杀跨块原核。全部72Gaussian条件因此准确零。所有最后位置/权先固定，再每block用R279同F有限频率真实根付Lc/Mc，odd及一般共振式给六识别能量全0；面积一字不变。root全文核原核反对称表、两累计恒等、前缀严格界、中心化ν消差和正权/支撑/能量次序；仍欠十个对称二history乘积、四个一层及零层原系数、完整period/同w及有限g族，未宣主课题完成。
+
+
+## R281：新全 Gaussian/六能量圆可从最初取解析包，canonical 端门准确有限化
+
+[R281 完整证明](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)先证固定平端ψ乘偶多项式在共同支撑even C²域稠密，近似实际最大minor及有限方向，再沿ψ至该点的多项式直线避有限根，同时得P0全区正与u0″(0)非零。纠正方向和χ=ψQ都固定解析；R279同F、能量C¹收敛及有限N准确根保留，最后真实profile为ψ[P0+ΣaP+zN^-3QcosNy]且前因子正。R280的A01/m²权及χ差独立母包，故五实际block可先定再解析求根，全部72 Gaussian与六能量同零。
+
+每个最终端p=t^-2 a_e exp(−c/t)，a_e解析非零；内部p/AH零有限且有限阶。使用R276从R56给的一般canonical界G=P+Tf+p²t^-4B，保最后圆的所有真实尾和整个Tf。D+ψ′/ψ有限消局部矩积分，清分母得到有限多项式×不同频率指数；湮灭算子证明其独立，Tf零iff全部有限系数零。非零亚纯共轭微分排除非零全平商；原平台及零通量分支已付时，这些准确系数门恰iff逆解C∞，非零则有p^-1指数发散。实际尾、平台/通量、内部Laurent和系数未评价，完整period/同w/joint与主几何门仍欠。root全文复核密度、真实minor线、正前因子、有限内部退化、有限消积分、频率独立和逆端条件，没有执行新计算。
