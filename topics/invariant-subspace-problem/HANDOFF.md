@@ -31,7 +31,7 @@
 **[所选原子式∞](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)**已实际推edd35f86：原所选常秩4318/连接3，模31余36方向为3阶一、33阶≥2，v∞≥69；全部来源/矩阵保存。char0只[4318,4340]，cofactor至少13阶付条件来源8801；不称14块或lc(D)单位。
 
 
-**[所选常数第一Bockstein为零](results/R150-appendix-selected-infinity-constant-bockstein-zero.md)**：60秒/512MiB任务实际1.610578836秒，36原核支撑同4354源；完整4367×36原mod961产品全除31，只商所选985像，36×36余阵全零。源/产品/余阵全存，17原整数∞行与既有char0系统有理比例全核。仅排31-Smith估值1，char0仍[4318,4340]；所选输出外13维不删。现复用同基补36源并Dixon提升/有理重建，区分所选方阵核与完整4367核。
+**所选常数36核已到p⁴：** [第一β全零](results/R150-appendix-selected-infinity-constant-bockstein-zero.md)已实际推652c13d9；[同基Dixon三位全证据](results/R150-appendix-selected-infinity-dixon-through-p4-and-exact-kernel-boundary.md)实际3.267447488秒，p²/p³/p⁴规范自由来源均I36、全部4367×36原产品零，所选外13维此次实核。985来源DAG/各位修正/前后产品全存；非单位31-Smith若非零赋值≥4。108次平衡重建未完成，精确Q核仍0、char0秩仍[4318,4340]。下一120秒/512MiB由真p⁴起用大整数残差推进p⁸/p¹⁶/p³²并原式精确核有理重建，不重前三位。
 
 ## 实际边界：同源两费与完整返回
 

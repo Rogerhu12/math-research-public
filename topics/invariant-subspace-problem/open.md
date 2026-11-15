@@ -153,4 +153,4 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **强尾位并头已付同一顶部流，剩完整比较。** [新完整证明](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)在同u_Q上给C=A+D_<、h=d+R、n+h+R<Q的真左最小和ΣXi_C²≤2hβ²；远孔/总孔差≤R，完整高返回修复与负图都保。R≈ρ^-1令远尾范数小于ρ，但不能直接控制新完整逆。当前足够目标为同源μ_C²≤κ_mXi_C²且κ_mh/Q=O(1)；κ_m=O(ρ^-1)足。新联块源跨R个原总孔层，不能偷换原单孔ordinary λ；继续强块完整Schur/低forcing比较。
 
-**所选常数36核第一31-Bockstein为零，接真核重建。** [完整原乘回](results/R150-appendix-selected-infinity-constant-bockstein-zero.md)仅排所选方阵31-Smith估值1，char0秩仍4318…4340。继续同4318单位基的36RHS Dixon提升和有理重建，只有精确原整数乘回且独立才计char0核；所选4354输出与完整4367的13个额外方向分别记录，不因所选商零删除。
+**同一36常核已完整提升p⁴，继续精确Q核。** [Dixon完整证明](results/R150-appendix-selected-infinity-dixon-through-p4-and-exact-kernel-boundary.md)保同4318单位源/自由I36，p²/p³/p⁴全部4367产品均零，非单位31-Smith赋值若非零≥4；108次平衡重建未得整列，char0仍4318…4340。下一只从实际p⁴检查点继续大整数残差、p⁸/p¹⁶/p³²及精确原整数乘回，不将有限精度成功当真核。
