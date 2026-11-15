@@ -11,7 +11,7 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-zero8-and-third21-scope-fix-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-zero9-envelope-and-complete-third-restart-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：完整参数Smith与原成员性仍开
 
@@ -27,18 +27,13 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现31步；闲等限3600秒以保下一源码审校期间的临时数据。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
-- 同选重建selected-natural-u-rebuilt、第一selected-natural-first-left-envelope、旧第二selected-natural-second-left-regauged均保完整来源；旧36单位解SHA9c3b02d2…不重95.542秒。normal4完整目录selected-natural-second-left-normal-four-complete130保130新解75.6MB/SHAccfdf7db…、166残差SHA7e060678…和22原jet，不重355.152873124秒。
-- normal5已付H5 Q/F31rank1287/单位18、786步，余501列/950行；72.6MB slot1 SHA179b3645…与DAG保原目录，不重算。step24原29source全126643产品真、ρ5/h1，余维七已闭β2=9；29×36配对及原来源保same-source-koszul29-second-pairing。
-- 原零六祖先、顶核和旧单位阶段完整来源见归档，后继仍读完整零六目录；不重43.2MB顶核或旧完整逆。
-- 零六完整校正、middle/low核与所有单位/RHS在zero-sixth-rhs-columns-checkpoint（binding2ab96ac8…），后继只读复用；129.615791128秒实绩和全SHA见原小回执。
-
-- 第七和更早已成临时来源均保原目录，完整索引及旧失败记录见本次归档。
-- 第三支撑v2实1.01186529秒完成：M0全空行1922/旧1736之外186，全部21 RHS在旧高行严格零，来源及比例全保。目录third21-forcing-support-preparation-v2，raw d808ccef…；input5511912B/SHA675fea9c…，完整RHS4617848B/SHA22d41ddb…。旧v1错误与失败原回执不改。step31已排21单位列，源22e0a697…、300秒/4GiB，有理行比例核原32466产品；full4354及λ3仍待后续，旧36/130不重。
-
-- step27第八实际9.086597737秒完成，leading4/c8≤13、原6188全真，零点58/49；正式已刊。目录zero-eighth-reused-high-checkpoint，binding534c9238…，17651×4 pack187354B/SHAdde7ce7f…、raw35278B/SHA6790eb6e…；λ0…8九平方全零，下页必须按4头续。
-
-- 已排step30第九源a05d50d2…，180秒/2GiB：真第八17651×4输入、598完整低变量、Q歧义只加λ8；全部高块逐元素核，4个新RHS及原6188逐行核后才报新头。
+- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现31步，idle3600秒。每步/每发布真实pull核两规则；大数组仅同job临时，全部来源/完整SHA见实际小回执与本H归档。
+- 原selected-natural-u-rebuilt、selected-natural-first-left-envelope、selected-natural-second-left-regauged均完整保留。旧36单位解SHA9c3b02d2…、normal4完整130解75.6MB/SHAccfdf7db…及166残差7e060678…不重；normal5仍保786步后的72.6MB slot1/179b3645…和全部H4/DAG，余501列未付。
+- same-source-koszul29-second-pairing保真29源/29×36；same-source-koszul29-third-pairing保287364原产品、29×58 rank6/配对912a7775…、21头投影c8e25e15…及全部22原R3。完整第三3已证，下一须显式λ3和全部低页补偿。
+- 支撑v1把旧1736行误作全部空行，输入0.152秒失败(raw027e5950…)原样保留。v2已核M0实1922空行/额外186及21高列全零；third21-forcing-support-preparation-v2保原RHS4617848B/22d41ddb…和input5511912B/675fea9c…；全部整条cochain比例保存。
+- step31实际26.761078061秒，21个新1546单位解与32466原产品全真；third21-unit-solve内完整候选9850907B/SHA92f80233…、worker2131B/f65f843b…，raw3705B/15682db0…。完整4354残差及四层cochain尚未核；消费者32637B/89a1e354…待主审后续，不重这些单位列，下一页规范60+已知33自由仍保全。
+- 零六完整数据在zero-sixth-rhs-columns-checkpoint（binding2ab96ac8…）；原高零head核2、低582单位和已成RHS可复用。零八zero-eighth-reused-high-checkpoint保17651×4 pack187354B/dde7ce7f…及真实头比例，已付K104/58,49。
+- [固定第九](results/R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary.md)实9.063365441秒，low598变量rank586/kernel12/head2/零头10，原12376产品及λ0…9平方全零；21998×2 pack17432B/b2ac2a10…在zero-ninth-reused-high-checkpoint，raw33003B/a4084770…。两头不提高Smith/K104，不盲续第十；下一恢复完整23个left2，借完整β2=0及全高核2计算完整第三页，保全部较低阶自由。
 
 ## 原同w边界：返回和相邻孔通量仍开
 
