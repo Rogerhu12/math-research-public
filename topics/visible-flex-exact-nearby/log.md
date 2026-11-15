@@ -52,3 +52,8 @@
 MS44038eae已全文/新增式亲核并独推；same-input out=UR B− Z^S，完整comm与paid右因子保。IC/WY/CY/CYA同结论窄更正，旧SCI/原球不动。
 SN原23b1250d/f85d8d49已核35固定字段零diff：11816、interval192、completefalse，原SC3 22:43 step9健康。
 两README于1785000fe88fd89b305cbb2d5884672284556ea9只读核无变；真实inverse、sign-leading reduction、finite/mean Schur及最终目标仍未成。
+
+### 2026-11-15 22:48:17 UTC — deploy the one new principal adjoint bootstrap
+SCI14c1cf4a全文、PG-success worker差异及6current/2AST manifest/flow静核齐；15门/54字段、saved五球/原log不变，仅两正项一log整min，无exp。
+四件一次部署，等待唯一自然public Actions；完整stdout先Git、120KB reserve与success复用原机制保，未提前声称计算成功。
+两README于d347baab5bcdf18b5ad094d6a553e0cffdb6393c只读核无变；无旧数学重算，无signed gate或全incoming结论。
