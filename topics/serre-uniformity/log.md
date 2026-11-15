@@ -275,3 +275,7 @@
 - R787最新已结束failure的438780485B产物接续最小Range IO：run43708449812/artifact14170087848/ZIP b6ec1bf5，逐来源读取真实core错误、manifest、最新完整lift与历史指针，不重算数学或退回259位祖先。
 - 新script92626d74/request0315e92b/workflow14fc27d4全文核绑定与原字段，复用冻结R824 Archive；只一日小metadata产物，最新大lift临时IO后删除。R815/R824/R827三项公开精确计算仍进行。
 - 2026-11-15T16:41:54.802304+00:00公开真实pull/read 6d7c7422888a1bdf02e6eba7183954f5fc49a6fb，两README无diff；遵守根§8小文本fallback及§15 raw不进Git/Release，主目标OPEN。
+
+### 2026-11-16 00:44（Asia/Taipei）｜serre-public-astra-20261115
+- R787小IO43737007567在历史producer根README与当前README被误要求同hash处停；已分别绑定原source ac5998f3根c6db597c与当前6979d793，当前规范guard保持，两者不是数学来源变化。
+- 仅修两条历史README断言和请求原始pin，scriptc2d47380/request450026ee；重新公开IO读取同一新失败包，未重做数学。2026-11-15T16:43:27.647980+00:00真实pull/read a692194e14894edade8520cd1e0c8a24c9b962ea，两README无diff。

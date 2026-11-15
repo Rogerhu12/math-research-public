@@ -108,8 +108,8 @@ def run(out):
         assert initial["job"]["wrapper_sha256"] == request["original_wrapper_sha256"]
         assert core_receipt["complete"] is False
         assert run_receipt["core_receipt_sha256"] == files["core-receipt.json"]["sha256"]
-        assert initial["root_readme_sha256"] == request["readme_sha256"]["root"]
-        assert initial["topic_readme_sha256"] == request["readme_sha256"]["topic"]
+        assert initial["root_readme_sha256"] == request["original_readme_sha256"]["root"]
+        assert initial["topic_readme_sha256"] == request["original_readme_sha256"]["topic"]
         logs = {}
         for name in ("public-actions-run.log", "core.log"):
             if name in files:
