@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 519a8624502d43e567184510f394dcfe3f3ba84c（2026-11-15 00:50:42 UTC，Actions run43660130530实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43660130530-1.json。
+- **最近成功实际 pull 与已读规则提交：** 66fbe05b642e0ea0899836342fe64bc50e95b06f（2026-11-15 00:55:36 UTC，Actions run43660538454实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43660538454-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用$及$；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-second-head-schur-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -24,7 +24,7 @@
 
 **[完整204后继](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)** 由2040全β1源核剥1834真Bsat精确核及θ3、θ4−e9而来；保θ1/2/5/6/7、e9、ω3…198、te8、tζ2。ωj=ζj−(aj−15bj)e8−17bjζ2。第二尚新196ω+tζ2共197类，第三必须保全204真实第二提升；完整下一核以(I−TC)、T(sI−J)给，含非恒定关系。
 
-**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。**第二页实际首跑未成。** run43659199975/job132644502808源b00e141e，四编译/30输入通过，prepare 0.144303541秒因误设`PM*raw==raw`停止；recovery 0、尚无新矩阵结果。[回执](notes/r150-saturated-second-page-actions-789f/43659199975-1/saturated-second-page-pipeline-receipt.json)已实推f118500f。正确旧条件为raw−P2raw∈U9；normal正保raw/P2raw/差及真实U9坐标，最小修复新prepare/合同。冻结源/运行身份保[完整H](notes/2026-11-15-handoff-before-second-head-schur-789f.md)。30输入/7包、四编译各30秒/512MiB、数学共300秒，不重旧197/selector。第二完整后即接第三或全局原17，不将断言失败记数学负性。
+**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。**第二页输入范围已最小修复，立即续跑。** 首run43659199975四编译/30输入通过，prepare0.144303541秒误设raw=P2raw而止，恢复0、数据f118500f。只读旧315×9实绩0.051741805秒核九outside均非零、秩2，完整raw−P2raw=U9 C且仅b1/b2/b6三行，实际在U7。保raw/P2raw/outside/全U9系数；只改新matrices/合同，native/solver/runner不变；两接口另按规则4纯格式修正。新manifest SHA29e3d73ace3e45de3618250f3066a9c62a6937ae68639354629b50262e808a10，contract SHAed999eb8c095c9b14967b71d2590317dab0d07b81664b4f568e47b7743ca90f9。30输入/7包、四编译各30秒/512MiB、数学共300秒；不重旧197/selector。第二后即接第三/全局原17，无负性或正证书预报。
 
 ## 实际边界：同源两费、完整gauge与真实投影
 

@@ -221,7 +221,7 @@
     "2026-11-15-r150-saturated-local-normal-789f.cpp": "23164f35a13016867d729c213807c20ef51f11a1e149606c067f0dd2e931caf1",
     "2026-11-15-r150-saturated-integer-jets-789f.cpp": "ed435457ee1d911077970fc7d5131dc052b16e36aba768c8c54fa907d99e40ce",
     "2026-11-15-r150-saturated-local-unit-solve-789f.py": "55c0733578098726897cdf32eba1b017f22ed86f2a6f8c9b2a555b19457e7f7e",
-    "2026-11-15-r150-saturated-second-page-matrices-789f.py": "e8446d6b337198fbeeee04d4d60c6f5ef38f5d4681db0dc5f92c03df3fb96f50",
+    "2026-11-15-r150-saturated-second-page-matrices-789f.py": "635bf00ee040a716485dbcfe2756bd84a0b4dfccc0fe56f63ea1c8418a354309",
     "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
     "2026-11-14-r150-ninth-first-common-789f.hpp": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531",
     "2026-11-14-r150-ninth-first-matrices-789f.py": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a",
@@ -332,5 +332,21 @@
   },
   "executionPerformedAtFreeze": false,
   "requiredContinuation": "After this actual full second result, immediately use saved complete source kernel for third and/or restore positive original polynomial sources. This page is not a stopping point for R150.",
-  "workflowTrigger": "workflow_dispatch by root after actual terminal git publication"
+  "workflowTrigger": "workflow_dispatch by root after actual terminal git publication",
+  "targetPrimaryHandling": {
+    "full315RawTargetsPreserved": true,
+    "root2ProjectorIsAppliedExplicitly": true,
+    "otherPrimaryTargetCorrection": "actual U9 coordinates; all315 identities checked before source mathematics",
+    "rawTargetsEqualRoot2ProjectionRequired": false,
+    "fullAndProjectedTargetsAgreeModuloTrueU9Required": true,
+    "actualReadout": {
+      "sourceRun": 43653360404,
+      "outsideRank": 2,
+      "allNineOutsideNonzero": true,
+      "outsideInU7": true,
+      "readoutSeconds": 0.051741805000347085
+    },
+    "failedRunRepaired": 43659199975,
+    "repairScope": "target scope only; all four native sources and local solve source unchanged"
+  }
 }
