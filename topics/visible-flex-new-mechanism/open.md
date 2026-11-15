@@ -163,3 +163,7 @@ R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩ta
 ### R372 新支付：完整 ZZ 第零角函数
 
 [R372](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)保真primitive A2，原三面积与已付T使ReJ=ReK=0，完整角商严格消去；第九principal在四χ上增独立二次方向，48个真实正幅列给同一有限N九根，全部旧五对称乘积/18面积/T/Ψ/三行共同保持。只支付ZZ0、ZZ1仍反射0。当前继续ZZ2、ZY0/2、WW0/2、WY1、YY0/2八位置及其余history/period；不能把角商或新行当全乘积已付。
+
+### R370 新支付：完整正规δ⁴成本的精确五次通量
+
+[R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)保原C_A m2、第三history两种P_s、三次速度势−∂dσ/3及有序1/3、2/3双尾，完整Qδ4=16Q04∈U准确给Λ=∫(x+d)(u″)^5/80。单ambient项严格非零但被原C_A项整项抵，不能删除后单算；完整结果是C²而非C³主式。d0真−6借已付R207响应消pure给Ω=∫x(u″)^5/80。接着完整Q2/其它Q4及与H全像的准确关系；不能从C²就判新独立方向或正半群双向可达。

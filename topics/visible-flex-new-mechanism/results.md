@@ -486,3 +486,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R372：完整ZZ0角商与同一有限频率九行控制
 
 [R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)。合法整个q的真紧Zq²允许原FZ0变分，完整KZZ0含A2；保primitive边项后由PY0/PZ2/ZW1三已付面积和T=0得ReJ=ReK=0，五积分沿(8,5,2,4,−4)，整个角商0。原四χ/真实偏移的新行余−9ed(d+4e)V/(d+6e)≠0，2高/4二次/3常满9；48实际列有严格正核，有限N完整C1根同时保持旧P²/PW/PZ/PY/ZW、18面积/T/Ψ/三行并付ZZ0全角。只ZZ0；ZZ2及其它七反射允许位置仍欠。根全文审与tail独核三关键块通过；补明full面积I、diagonal2I规范。新证明未运行程序。
+
+## R370：完整δ⁴正规成本及精确C²总通量
+
+[R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)。原h1、γ0、w=d_s方向的完整Qδ4=16Q04由R130为U成员；保C_A m2、−Yn/P_s链式、原三次势−∂dσ/3、非紧Green与两真实有序尾。C_A项整项抵R367的B_m2N2，原C³项准确消，self残∫er5/64与三矩项，ZZ/YC两尾各为三矩项负值；故Λ_u(Qδ4)=∫(x+d)(u″)^5/80。真−6借原R207消pure得Ω=∫x(u″)^5/80，非零。根逐式独推核心IBP/余项抵消；不授其余Q4、Q2、相对H独立或全半群控制。纸面证明未运行新计算。

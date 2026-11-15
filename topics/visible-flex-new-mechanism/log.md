@@ -206,3 +206,7 @@ request-soc-pair-reservation.json：33631B，SHA256 4ac9b699a252931fe29a209b17ba
 ## 2026-11-15 20:33:15 UTC — R372 完整ZZ0角商和九行联合有限支付
 
 根全文审核未挂blobc1658041…，tail独核原R275四表合并、五self系数/primitive和新principal二次项；根加入full area=I、diagonal=2I澄清。17642B，SHA256 7a69f9d6ffab5a6427df04a3978da6c26c325c1d03abbfaef479a9b58535d300。得到同一最终弱圆的ZZ0全角真零，旧五乘积/18面积/T/Ψ/三行保持；余8位置与其它history/period仍未付。纸证，无新符号/求积/人工/研究执行；完成即普通提交推送。
+
+## 2026-11-15 20:35:18 UTC — R370 完整δ⁴与全部历史/真尾抵消
+
+读blob9e07e3e8…；15979B，SHA256 a1f414e4934f509b6958cc2790e7aff9d7d02854d9bbcfcf1ce8445950096338。根全读，并纸面独立重推(19)、(32)两式、(33)(34)、ZZ完整(35)、σY导数到(38)、TY(40)(41)，保每个primitive端项，均一致。只完整正规行使用R130的U成员资格；单ambient不升格。Qδ4读出精确∫(x+d)r5/80，pure校正按原R207不重旧秩。完整Q2/其它Q4/actual联合仍欠，立即发布后继续。
