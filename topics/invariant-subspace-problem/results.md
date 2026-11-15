@@ -94,3 +94,5 @@
 - **完整无穷远第二连接纯消去与公共31阶。** [自足证明](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)：run43679903558实核0.251053230秒，38×10纯包络零、1700原校正全真；全部20纯泛函有真实左二阶jet，配原完整(v0,v1)给β2≤3。十四正Smith有4个=1、至多3个=2、至少7个≥3，故δ4354≥31、δ4353≥28。只付下界，不预称精确秩/leading单位；有限K70合并公共齐次下因子度至少101。
 
 - **完整Smith与精确来源曲线的子式因子引理。** [自足证明](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)对任意k阶子式给v≥δ_k+t，其中t个所选常项有完整精确原核曲线；active来源小子式含u^t，输出小子式无极点。原29曲线与δ4354≥31/δ4353≥28给60/59/56；任意analytic目标换列只沿cofactor取56。K70下q245…8640、条件来源费8685，未付成员性或leading31单位。
+
+- **同选完整原像的49／36维余空间。** [自足推论](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)由rank4318=3762+556精确证明全部三横及以上输出在selected像；full余为20pure+29，square删三线性行后为10pure+26。原小矩阵F31rank556由已付秩夹逼必然成立，D31自由余模亦保留；给自然B1×旧kernel36的准确接口与Schur leading-unit条件，不删除共动来源校正或预报新连接秩。
