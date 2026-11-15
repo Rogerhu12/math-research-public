@@ -4,9 +4,9 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`f1a2c80826d106d1c92db7aeffd1dbfcd84625c6`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`1cd8ff1bf19cee26d3d33522843f43dbd7929d91`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 01:14:42 UTC实际pull至`3fe10fac0761eaea17af836b4e47d0f0b6a0e6eb`，两规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0114.json。下一私有pull不晚02:14 UTC。
+私有2026-11-15 02:05:27 UTC实际pull至`3857c5fe74032419aca31773a2e6cd1c67b2c796`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0205.json。下一私有pull不晚03:05 UTC。
 
 研究几何、积分/ODE、优化、完整符号计算仅本公开GitHub Actions；本地仅纸面代数、源码/已发输出解析及小人工开发。不伪造Actions。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止冻结、复核、重复归档/重跑机械门；完整证明直接登记。H<10KB/MD<100KB/open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage，不git add .，不写根LOG。
 
@@ -20,11 +20,11 @@
 
 core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163参数，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-**最新arc actual43663914259/sourcee4f7cdd7：59.51010→57.81237，55未到。** 完整合格态 **6ba089c693bba96381a3b41860ce65098ea81d63ace6e3467eb2d10eb33f4bb5**；384/768 κ57.812350106/57.812374625，η.267199476805/.267199980810。fine metric余1.919e−8、strip余2.199e−6、mirror.100024999447、cap.14270420084310498余2.22e−16、ball².990443956404、minz.02、盒0。仍远离metric1e−6；τ.061要κ≤16.39344，另欠全时/非局部reach。
+**最新reserve actual43665345551/source0aae9a6a：57.81237→56.98197，55未到。** 完整合格态 **512de71f983e86521dda4250e387ed1449ce29626763f49accde94bdc89666a9**；384/768 κ56.981941121/56.981967571，η.267199536620/.267199566824。fine metric余4.332e−7、strip余4.371e−6、mirror.099581735005、cap.14270420084310498余2.22e−16、ball².990423635737、minz.02、盒0。metric远离1e−6；τ.061要κ≤16.39344，另欠全时/非局部reach。
 
-四次接纳model2/4/5/6均x+p/2+w/4，原α0=1；主trust1/1000。m5/6完整SOC粗过而fine四个已知metric_plus余差5.285e−8/3.905e−8被拒绝，低κ57.753/57.523不可用。末池4224/1197；12LP=7原+5SOC，32值=18粗+14细，活动46.238s/初始化257.202s/总318.343s，RSS2138632KiB。末独立2值不优化。Xs/Xss是径向导数，精化差仅有限比较不包围。
+model3/6/8三次均完整SOC α1接纳；主trust1/1000，SOC metric行提案floor1e−6为原行单位，不放宽η。m1 SOC粗过fine超预算仍拒；全部遗漏保留，末池4240/1310。12LP=8主+4SOC，26值=13粗+13细，另末独立2值；活动40.918s、初始化221.756s、总274.782s，RSS2330844KiB。同状态Xs/Xss径向精化差6.682e−6/.00601078只是有限比较不包围。
 
-完整notes/curvature-soc-parabolic-first-actual-result-20261115.md；raw3893785B/8cf39763，gz494832B/ff24a0d2，summary53423B/10348ca6。旧run保留不重跑。下一仅给SOC的metric±提案RHS添加原行单位1e−6内裕量：max(γmax(c(x),0),1e−6)，不是放宽真实η门；从6ba089及全4224/1197池，用18输入独立consumer，同12LP/40值/120s、原抛物线回退。reserve库9158fea8/driver2cbf0f66新人工29.39s通过；本提交双lane公开派发。同g/b0/163/高度均值384/primitive/盒/真实验收均不变；54/53备选不启用。
+完整notes/curvature-soc-metric-reserve-first-actual-result-20261115.md；raw3783820B/c5387614、gz459225B/63c7148b、summary54457B/95510435。旧目标55失败保留。下一从512de及全4240/1310池固定**硬κ≤58**，恢复η预算**13/50=.26**，旧已合格预算167/625；是新约束角色，不称55通过。同g/b0/163/高度均值384/primitive/盒/帽保持。fine从7→11完整两jet，旧ID不改；metric±为软恢复，其余及曲率硬。真实接纳两网所有硬门、旧预算且直接maxη下降；只有完整新预算通过才登记.26达成。独立19输入consumer正在实现，未运行。
 
 ## 4. 完整第四成本：已付结构与禁止外推
 
@@ -58,6 +58,6 @@ R163完整14族：最高10族H^eF(gS)=P_gF(S)，F0/Q2带同一C_g=Σa_i(M)F0(gS_
 
 R164已付全部可行μ协变，权−2唯一由同一F0的c/d给出；Lie兼容自动。新增§10八参考态精确消元：任意真实该权字符有μ=(0,2a(0),2a(1),0,0,0,0,8a(0))，c=0；μm0=a(0)(k²−1)−a(1)kh，μm2=−a(0)(h_s/h)²。a(1)是值非系数。仅字符后数值关系，原U cocycle不可删，外必要等式已包含不重计。修正14族=h^(σ−e)f(k)，完整正性iff全部平端r=logh,k有∫e^-2rP≥0，保0/2/4层及面积，不推P点态正。
 
-43665345551的head和reserve两job均success；几何新actual正核读，原合格6ba089在新结论确认前仍有效。后继本提交single **character_minus2_finite_necessary**，源45116B/d4c3751c；13人工0.703s/61.672MiB（标签修订前原源身份保留，公开首次development用新源）。精确全107坐标外等式消元、6条有理多项式路×5时长/静态/PSD/sharp必要行，双号非负Q Farkas全成才排权−2正字符；外部可行不授真实泛函。固定240s/1024MiB，完整head字节绑定已齐。literature跟实际；mechanism接reserve结果及固定硬κ降η（须fine7→11完整二jet）；root独占Git。
+43665345551的head/reserve实际均已消费，当前几何状态见§3。后继本提交single **character_minus2_finite_necessary**，源45116B/d4c3751c；13人工0.703s/61.672MiB（标签修订前原源身份保留，公开首次development用新源）。精确全107坐标外等式消元、6条有理多项式路×5时长/静态/PSD/sharp必要行，双号非负Q Farkas全成才排权−2正字符；外部可行不授真实泛函。固定240s/1024MiB，完整head字节绑定已齐。literature跟实际；mechanism接reserve结果及固定硬κ降η（须fine7→11完整二jet）；root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
