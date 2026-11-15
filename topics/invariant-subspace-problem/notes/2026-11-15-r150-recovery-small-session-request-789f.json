@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "fc47c1193519eb3e918a8834ba62f064e045aad0",
+  "rulesReadAtCommit": "47dd93ace95c65d9858743f658244dfd6a2c9320",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1228,6 +1228,91 @@
       ],
       "timeoutSeconds": 210,
       "receiptPath": "{work}/same-source-koszul29-second-pairing/same-source-koszul29-second-pairing-receipt.json"
+    },
+    {
+      "id": "zero-seventh-reused-complete-high-kernel",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+      "scriptSHA256": "b46ca6a4fc594b53687d692986229edc97ca770e21ac6332703eaf998c9e0b67",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+          "sha256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+          "sha256": "4e63c72c550e8f90c022b086d3758f8e7b12edf4fb16a0ef387bc1a92f97366a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-sixth-actual-rhs-columns-complete-continuation.json",
+          "sha256": "0f30617b728af521fe9d928e37a0ee04a2274abd9d148e033a23c29c20ff10f1"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+        "--sixth-receipt",
+        "{scripts}/43702348535-zero-sixth-actual-rhs-columns-complete-continuation.json",
+        "--sixth-checkpoint-dir",
+        "{work}/zero-sixth-rhs-columns-checkpoint",
+        "--checkpoint-dir",
+        "{work}/zero-seventh-reused-high-checkpoint",
+        "--out",
+        "{work}/zero-seventh-reused-high-receipt.json",
+        "--through",
+        "final",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--unit-algorithm",
+        "dixon",
+        "--unit-batch-columns",
+        "1",
+        "--max-new-unit-groups",
+        "32"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/zero-seventh-reused-high-receipt.json"
+    },
+    {
+      "id": "same-source-koszul29-third-pairing",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-same-source-koszul29-third-pairing-789f.py",
+      "scriptSHA256": "3d54a3c8359667149792ad98a66bebe8f5487ccca8492725307958a3df2664b2",
+      "sources": [],
+      "argv": [
+        "--first-out",
+        "{work}/selected-natural-first-left-envelope",
+        "--second-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--pairing-out",
+        "{work}/same-source-koszul29-second-pairing",
+        "--primitive-equations",
+        "{primitive}",
+        "--out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--seconds",
+        "120",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/same-source-koszul29-third-pairing/same-source-koszul29-third-pairing-receipt.json"
     }
   ]
 }
