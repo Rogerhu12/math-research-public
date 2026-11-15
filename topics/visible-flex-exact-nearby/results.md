@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [DZA实际四阶角度与global sign已付subtotal](results/R133-supplement-actual-fourth-angle-global-sign-and-standardout-subtotal.md)：原43773671216/1 child0/24；完整15高导、两sign与独立meanrank、commonout及straight-sign subtotal均已付。全部14pins/4AST/25原球/六欠费、SCI/preGit核齐；fullincoming/finite/return/背景仍待。
+
 - [DZF: first fourth-angle/sign run and legacy payload-hash failure](results/R133-supplement-first-fourth-angle-sign-run-and-legacy-payload-hash-failure.md) — run43773126387/1 stopped at input gate11 before every new scalar routine; exact failure, full partial science and no-LF hash mismatch preserved, with new/old/lost scientific work all0.
 
 - [SNA: actual complete signed nonmean density and H3 validation](results/R133-supplement-actual-complete-signed-nonmean-density-H3-validation.md) — public run43751213826/1 succeeded with all21 gates, complete terminal derivative columns and true-angle data; preserved1256 budgets plus11328 new suffix cells, with all207 inputs and exact science bytes audited.

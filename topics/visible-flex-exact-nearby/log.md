@@ -116,3 +116,7 @@ DZFcedd4672/5847fcad全文及原SCI/exec/report亲核，43773126387/1 child1、1
 DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄diff核；仅旧TC payload去LF、三render真scope与身份，数学/所有旧pins原字。
 首run实际new/old/lost0；现14current403160B/4AST/24门，等唯一新自然run，不重旧成功。root与newton独核差异通过。
 两README于72563b9c8aaedd7a0da8f8607691ebadbb32efd9无变，原完整partial/失败均保；继续SEI实际证明和真实retained算子分类。
+
+2026-11-15 23:23:14 UTC DZA：root亲核全文、原12steps、14pins/4AST、25原球/六register及30处27种球；SCI26909/05036749和preGit37280/4af14c0b精确复原，旧数学0。
+唯一43773671216/1 child0/24，D强界及standardout已付subtotal保存；完整Ei/Eo/incoming/finite/return/背景仍待，成功禁重。
+本次双README读取68fa2d402bb7c3695b50a28739566abe6ece3511，blob未变；本机22:59:32真CLI无executor，继续根规8小文本例外，未冒真pull。
