@@ -111,13 +111,13 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 截至本次的完整来源、旧参数和全部证明链接保[本次开放问题快照](notes/2026-11-15-open-before-new-selected-first-lift-789f.md)；已闭结果按下述最新状态续接，未列旧缺口不关闭。
 
-原17式/6188来源/4367输出的同选J支撑内已有29条真实Koszul核，前29规范自由轴在Q上全成且31整；已穷尽标准1632族、二次skew系数也不扩它，高阶整个Koszul模不外推。旧六规范源/p768、确定LLL、唯一新65521秩均已实成，不重复。删前29自由列后的4325原列只余七方向待精确分类，同选Q秩4318…4325。
+原17式/6188来源/4367输出的同选J支撑内已有29条真实Koszul核，前29规范自由轴在Q上全成且31整；已穷尽标准1632族、二次skew系数也不扩它，高阶整个Koszul模不外推。旧六规范源/p768、确定LLL、唯一新65521秩均已实成，不重复。删前29自由列后的4325原列只余七方向待精确分类，同选Q秩已由新纯投影缩至4318…4324。
 
-当前原4318单位系统经1567精确主元化为2751核心，列内容已全除，行内容/RHS新分母均1；可恢复原生Dixon正在同job执行，先逆列缩放、逆完整DAG，再接原4367残差消费者。详见本页末尾最新任务及H；单位解不是七真核证书。
+原4318单位系统经1567精确主元化为2751核心；可恢复Dixon实际到1085位/31466bit，18次重建未返解，全部状态临时保存。先核小投影结构，必要时同binding续算；单位解本身不是七真核证书。
 
-29条同自然u全源曲线给指定D/换列/cofactor≥43/42/41；有限K70及原目标已有Q[s]成员性的前提下，条件来源cost≤8702。九原式模31⁶实际cost1339不付无界精度；原Q[s]成员性、lc(D)31单位及完整Smith仍开。
+[同J纯投影112及零包络](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)实核0.308893546秒：纯来源144、投影rank112、全部32×7第一连接包络为零。Qrank4318…4324、常核至少30维且全部可full来源提升至u²，显式仍29；指定D/换列/cofactor≥44/43/42，有限K70下原Q[s]成员性条件cost≤8701。九模31⁶费1339不付成员性、lc(D)单位或全Smith。
 
-[新核的一阶最小接口](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)证明：若实得d≤7真补核，完整27余空间中Θ=ΠA1W秩为b，则s=29+d−b个常项可提至u²。无需实际求新4318阶右端即可得D/换列/cofactor≥s+14/s+13/s+12；保原K67时条件cost≤8734−s。当前只可代s=29；Θ未算不得预填。常数31饱和也不付D的首非零系数单位。
+[新核的一阶最小接口](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)证明：若实得d≤7真补核，完整27余空间中Θ=ΠA1W秩为b，则s=29+d−b个常项可提至u²。无需实际求新4318阶右端即可得D/换列/cofactor≥s+14/s+13/s+12；保原K67时条件cost≤8734−s。当前完整包络已实际为零，因此可代s≥30；新增显式七核仍未求出。下一从原17×77取585维≤二横投影，r2实际返回后才用3762+r2上界；常数31饱和不付D首系数单位。
 
 ### 强联块同w、同源普通封口
 
@@ -164,6 +164,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **[1541个新增真枢轴与完整2751核心](results/R150-appendix-exact-low-fill1541-and-original-seven-core2751.md)：** 原七RHS问题在8.242471283秒精确新增1541步，总1567步，原4318单位系统严格化为2751核心/424921项；coeff3693bit、RHS3677bit。完整状态封存3.925719243秒，达到固定工作门槛时只保完整已提交pivot；原源/DAG/7RHS均保，Q核数仍29。后继只查正列内容、真实块结构和本job底层FLINT版本，按实际状态继续。
 
-**七原方向当前单位系统。** [列内容/SCC](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)及[全行内容=1](results/R150-appendix-seven-core2751-all-row-contents-one.md)已实核：2751单块、系数3691bit、七RHS分母1、1567完整主元。[可恢复原生Dixon](notes/2026-11-15-r150-seven-sparse-dixon-original-interface-789f.md)现已排600s/2GiB，逐整位/每64逆代保真状态，先逆列缩放再原DAG，接冻结4367消费者；只全原核验后更新29真核及4318…4325秩。
+**七原方向当前单位系统。** [列内容/SCC](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)及[全行内容=1](results/R150-appendix-seven-core2751-all-row-contents-one.md)已实核：2751单块、系数3691bit、七RHS分母1、1567完整主元。[可恢复原生Dixon](notes/2026-11-15-r150-seven-sparse-dixon-original-interface-789f.md)已实际到1085位/31466bit未返解，全部状态临时保存；必要时从同out接续、逆列缩放/DAG后核全4367。当前新纯投影另证至少30维存在及Qrank≤4324，不必把显式大数组当存在证明的前置条件。
 
 **通用维数型两费路线已排。** [四头/十一位真反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)在全部高低旗/完整右对偶/规范负图均保留时给μ=1、Xi²→0，所以任意nilpotent头不存在κ(h)。原A_m及连续尾不属该族，继续原实际权、共同Green残量与同w来源，不再试以nilpotence/通用收缩单独封口。
