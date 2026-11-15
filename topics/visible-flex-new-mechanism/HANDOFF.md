@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `5bd23ca68b587a41a987b9da3359338162c682e5`，2026-11-15 16:02:19.255003 UTC，observer43733152157实际pull已最新，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `a5c6902ac02bcd98083607b01b24b83e72d0ae4f`，2026-11-15 16:03:36.362937 UTC，observer43733275356实际pull已最新，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 16:02:23.127321 UTC实际pull/read `dd9aad351d1ca8847bca06cadd03a0bc0a3162ae`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已消费159系列**：容量/hold、因子化J与选行仿射actual全部见对应notes，不重已付阶段。旧选行仿射43722283235/bb33192：η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰/已选曲率失败、m5 e/f非线性保原记录。active16.997316s、八恢复569.558425s分账，50/102源24输入核合。所有旧失败/漂移/费用仍保原件。
 
-**完整两网actual已首读**：[真实结果](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过，κfine57.999983395；高度margin仍有−5.6e−17，容差eligible不冒精确非负。9必要恢复805.206121s、新活动35.287169s、总845.020544s，16+2完整值；54直接/106递归源对receipt全合，开发所有新续项过/首方向6源绑复用。只读observer43732214112得实际report，原checkpoint已读：5打印模型、10primary/2SOC/12LP、末B.000125、有限模型停滞；context转义恢复，原模型scalar专读首次91124>90KB结构退出；原source106映射免重印但逐项再核，完整模型误差待消费；不重科学。旧首array并列incumbent误断言已修正、失败原件仍保。下一原模型/误差/恢复漂移消费。
+**完整两网actual已首读**：[真实结果](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过，κfine57.999983395；高度margin仍有−5.6e−17，容差eligible不冒精确非负。9必要恢复805.206121s、新活动35.287169s、总845.020544s，16+2完整值；54直接/106递归源对receipt全合，开发所有新续项过/首方向6源绑复用。只读observer43732214112得实际report，原checkpoint已读：5打印模型、10primary/2SOC/12LP、末B.000125、有限模型停滞；context转义恢复，原模型scalar已取1/2/3/4/6；原summary有六记录而native漏5，须从原summary补读5及全部误差/输入；原source106逐项核；不重科学。旧首array并列incumbent误断言已修正、失败原件仍保。下一原模型/误差/恢复漂移消费。
 
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
@@ -44,7 +44,7 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 
 **R292–302平台/self与结构几何**：原全后缀迫T_B0、各q_i0。R297 χ32/37/40三c矩证书给9单位，原query延拓全U；R298 χ30/P给T0且完整q=3/512∫u″²u‴²>0，9矩+单个预固定u有真m10控制，公共校正两actual hook整q差非C²。R302四χ实际来源+成对正则前缀保基点τχ/全基准；自由h遍及整原型，只保M0让τ漂移，R101共享整块真倒行仍准确M=T0。新全部基准重建增强截面，再全(pure,T9,q单u)IFT，联合κe/ε二维安装+有限光滑密度Morse/Klein闭合，故该窄几何类也能指定T与单self。**非全q函数/全部最终母包，不能预授与Gaussian形状选择兼容。** R295 q平方主部+完整C²仍保；真倒行成本同号、λ+正，不偷换成C²纤维。下一全self/全period与同w。
 
-**R301/303/307/309完整self**：保真移动左尾≤5，U的q(u_c)∈Pol≤9（c10由∫kh m²0消）；H6×p2整T0，10真N链给全Pol≤9，同母全中心可与pure/T9真19观测联调。完整[c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u‴²>0，D9=∫kh m_p2 m_t1/16+∫k h_s m_p2/128；D8=−∫(k/h)(L²+hmΩ/2+m²/16)/8，L/Ω为原真实history。R9=−Ktop/1080、R8=−NKtop/9720给pure/T核三角单位，真11观测联控。已清一母全平移⇒同几何D9=D8=0，**所有母次数≤7**；R310新KJ=64B_P(χ34−3χ32) pure/T0，完整q=J=∫u′u″u‴²，真紧母可J≠0，even母全部平移/幅/宽皆盲；全self像≥11，十个同母观测不忠实。低层/全Q与joint仍欠，不恢复被排圆类。
+**R303–313完整self**：保移动左尾≤5与c10真实端消，U的q(u_c)∈Pol≤9；H6×p2整T0的十N链覆盖固定母全平移，可与pure/T9真19观测联调。完整[c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)原history式见R307/309，清一母全平移⇒所有母次数≤7，非全Q。R310 KJ完整q=J=∫u′u″u‴²，even母全平移/幅宽皆盲，真紧母可J≠0。R313完整𝔍根×P/R/S/U/T给五个pure/T核self，保全部C²项与真affine尾；N=4链+常链，常F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。其N核span(J,F)与十链核I宽度次数−8/−7/−9分离，有限幂零交零，**全self像≥15**；九矩+十五真query可24观测联控。完整Q(U)与响应像、Gaussian/joint仍欠，不恢复被排类。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -55,4 +55,4 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 7f68e1b83c2d579c861fccb9b770c6e7d2a32436，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 1674f17b3efcb6010cd69608cfcb70941c24f116，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

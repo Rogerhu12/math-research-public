@@ -334,3 +334,10 @@ D8是有限原查询定义的全U线性观测；D9(NV)=0、D8(NV)=9D9(V)。R8=�
 [R310 完整证明](results/R310-full-self-direction-invisible-to-all-translates-of-even-profiles.md)用原c_(χ34−3χ32)=D³(u′u″)/32−D²(u″²)/64，与真实P左常尾配完整query，得KJ=64B_P(χ34−3χ32) pure0/T9零、q_u(KJ)=∫u′u″u‴²，无剩余C²项。保全部右锚与非零c二次矩，不将T0推广到任意E8。
 
 Euler六jet在cutoff×(y+y²/2+y6/720)处为−2，真紧变分严格给J≠0母，未求积。J平移不变、反射变号，故任意even母的全部中心/幅/正宽皆盲。对R303十维同母模先在even母全平移评价，再用非even见证，证全self函数像≥11；十母查询加指定非even母一点与九矩/pure可真实三角联付。非整个Q或joint可解，不能复活R304/R311被排类。
+
+
+## R313：完整𝔍根五维零矩 self 模块，与旧十链交零
+
+[R313 完整证明](results/R313-complete-five-dimensional-J-self-module-and-fifteen-dimensional-image.md)从c𝔍=4D³(u′u″)−2D²(u″²)与完整query，得到统一q(B_E𝔍)=−∫(u′u‴+u″²/2)(Φ_Eu²)″。对P/R/S/U/T的真实affine左尾，c前两矩0给全部九矩零；全文五二导/十IBP显式给全部self，U/T的低阶D、C、E项全保。
+
+S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构为4链+常链，核span(J0,F)；旧H十链的self核是I0。有限幂零不变空间的非零交必含共同核，而反射与允许开区间内宽度次数−8/−7/−9排此交，故全self真像≥15。十五真实profiles可选忠实评价，配九矩/pure给24实际观测联控；不是全Q维数或一般joint解。R310与B_P𝔍/2仅self/T同，不冒完整成本同。纯纸证，无新执行。
