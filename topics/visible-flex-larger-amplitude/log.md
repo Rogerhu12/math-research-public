@@ -201,3 +201,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:41:17 UTC /root — 原同worker完整H向量续接的条件接口
 
 [完整接口](notes/2026-11-15-original-same-worker-full-height-continuation-interface.md)10108B/0d8b0c81已全文读。实际TailClient/worker/core合同区分首非零与既有正H收敛last、noJ请求和Newton内部fullJ、数学拒绝与IPC/record失败。最后直接原H_*数组、真fullJ/原FD/同owner fullDN/finalaudit不变；s、core λ、曲面t严格分开。尚无参数选择/新source/run或补救结果，120仍原实验，按其实际阶段决定。无本地科学。
+
+## 2026-11-15 08:47:29 UTC /root — actual120首次真实当前H被原尾域检查拒绝
+
+[原结果](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)已读两个完成job的完整19463B/4f2be484摘要并逐字核。699节点/中点/两RMS预检全过，首完整112H withJ在63.87812351699999s由原D/S/A拒绝；无iteration/J/FD/fullDN/audit，wrapper87.784s/exit1非预算。owner关闭及readout后清理真实完成，不用hash伪恢复。不据此称无解或浮点底线；124接完整同worker H(s)独立实施，保全部原门；122/123继续。H把已结清119/121详情缩至正式note，保全部主线责任，无本地科学。

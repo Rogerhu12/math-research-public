@@ -544,3 +544,5 @@ R279 的同场汇总源码：[完整曲率与完整闭F0直径接口](notes/2026
 - [R283单方向实现](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)：CPP8c40b4c7/launcher8229212b/bridge61e21ded，逐原有限root轨迹、完整226态与129248行；source-only，无全列J/native/finalaudit或分支误差证书。
 
 - [actual121五批与传输停止](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)：5科学批各8接受/exit0，末W738.1754024784359且最终全false；第五93000B摘要导致原fallback与wrapper70，五status实际读全/删，未印trial不冒可恢复。123从第五真实参数另起九控制。
+
+- **actual120原首H域拒绝**：run43694844403/sourceace38440，完整前缀预检通过，首真实完整112H withJ被原D/S/A拒绝，无J/FD/fullDN/audit，非预算；summary19463B/4f2be484。见[原值、身份与后续责任](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)。
