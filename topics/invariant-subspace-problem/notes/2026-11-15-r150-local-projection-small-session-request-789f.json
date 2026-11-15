@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "e5c807e9a3fe4e9d6434eae84263edccd0e6efd1",
+  "rulesReadAtCommit": "66d8e9d100ccac2e50a893557dae645d189d726e",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -232,6 +232,104 @@
       ],
       "timeoutSeconds": 200,
       "receiptPath": "{work}/high216-original-dictionary-restore.json"
+    },
+    {
+      "id": "higher-kernel-original-216-source-preparation",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-higher-kernel-original-216-source-preparation-789f.py",
+      "scriptSHA256": "29c1fd1a5a79d6de469260ee408a9ae5778f709e089250688824d0eb79dbf8eb",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-full-infinity-original-dual27-v2-through21.json",
+          "sha256": "2782f380fe5731fd4766fb05fa94a6fa38c36d2d5e491bd63dd1149adc3a9388"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+          "sha256": "b803d92f159bf26bc9b4a80bbaf5a150ff8f17e81e201b0a99e845b7777038e4"
+        }
+      ],
+      "argv": [
+        "--primitive-equations",
+        "{work}/inputs/repo/original-primitive-integer-equations.json.gz",
+        "--native-model",
+        "{work}/inputs/repo/native-normal-form-input.txt",
+        "--paid-full-receipt",
+        "{work}/inputs/repo/infinity-first-jet-receipt.json",
+        "--paid-full-summary",
+        "{scripts}/43731615668-full-infinity-original-dual27-v2-through21.json",
+        "--generic-rank-proof",
+        "{scripts}/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+        "--out",
+        "{work}/higher-kernel-original-216-source-preparation",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 100,
+      "receiptPath": "{work}/higher-kernel-original-216-source-preparation/higher-kernel-original-216-source-receipt.json"
+    },
+    {
+      "id": "two-tangent-coupled-cubic-first-jet-extension",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-tangent-coupled-cubic-first-jet-extension-789f.py",
+      "scriptSHA256": "459538fc066f2df2372752c1a32ba33b6f2abe8f1ecd0ac44787cefd44214628",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+          "sha256": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+          "sha256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-one-weak-cubic-first-jet-extension-789f.py",
+          "sha256": "b529d51efeb7195f3783576035f7c5e32e9a94a3bb1f8c44582177ba9dc51843"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43736746064-two-one-weak-cubic-first-jet-extension.json",
+          "sha256": "2342b75a4c4c57015157e8df8c19d7ae617fe4a1863ffd7b24abad3211b113a6"
+        }
+      ],
+      "argv": [
+        "--paid-probe",
+        "{scripts}/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+        "--paid-cubic-source",
+        "{scripts}/2026-11-15-r150-two-one-weak-cubic-first-jet-extension-789f.py",
+        "--paid-receipt",
+        "{scripts}/43736746064-two-one-weak-cubic-first-jet-extension.json",
+        "--paid-checkpoint-dir",
+        "{work}/two-directed-cubic-left1-checkpoint",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--constant-receipt",
+        "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+        "--checkpoint-dir",
+        "{work}/two-directed-tangent-cubic-left1-checkpoint",
+        "--out",
+        "{work}/two-directed-tangent-cubic-left1-receipt.json",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/two-directed-tangent-cubic-left1-receipt.json"
     }
   ],
   "previousSession": {
@@ -246,5 +344,5 @@
     "temporaryDataNoLongerAvailable": true,
     "oldStepsAreNotReplayed": true
   },
-  "mathematicalProgramStatus": "Exact Q13 projection length2 proved. Pure weak cubic tested: no new s2 first head (15), all original products and square-zero reads verified. Restore only two pinned historical source dictionaries for actual 216-column preparation."
+  "mathematicalProgramStatus": "Pure weak cubic slice completely classified and actual augmentation gives rank591 with unchanged15 first heads and zero square reads. Test one independent tangent-coupled cubic RHS. Independently prepare the actual original216 source complement from exact primitive curves and paid unit dictionaries."
 }
