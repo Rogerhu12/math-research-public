@@ -38,7 +38,7 @@
 
 116末p=[.43234616540612814,.1783653778144092,.5751222087274236,.016140885548593657]；summary77038B/d24aa292（不含LF）、status1603983B/5e5b634c。四列FD不等最弱奇异相对误差界。新Arb841叶0未解、theta冻结原3p/K3/T112零corecircle通过，Gauss兼容/C²/roundoff/Frenet及非零场未付。旧family9222390b/search3ca1bdf7/reader c0602e7a冻结。
 
-117总包/tmp/visible-small-core-six117已备待root发布：参数[p1,p2,p3,theta1,theta2,theta3]，起点[p1,p2,p3,0,116theta,0]，old4列[0,1,2,4]；新family79464f9c/search e154afe2/reader3e2c0515。完整3×6/9×6、2normal+4tangent、原8×20/12×20与全门保留；六列FD均尝试、三odd冻结原平方检查、新scalar域重付。无新run/响应；原四控制8批暂停。
+[117完整接口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)已发布，唯一request push触发：参数[p1,p2,p3,theta1,theta2,theta3]，起点[p1,p2,p3,0,116theta,0]，old4列[0,1,2,4]；新family79464f9c/search e154afe2/reader3e2c0515。完整3×6/9×6、2normal+4tangent、原8×20/12×20与全门保留；六列FD均尝试、三odd冻结原平方检查、新scalar域重付。recipe4f40206d/request7147dbda/workflowf3e7a17e，81+2 pin及父22→新24闭包；初radius明确重置.1。新run待读，未预填响应；原四控制8批暂停。
 
 [非零112入口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)：旧main硬取coefficients[:3]/v3warm、无λ。amplitude写独立六系数/三odd冻结profile、λ目标/真实初猜薄入口，保原112/高109/rawφ/当前H/native/finalJ/audit，不伪accepted；目前无低三接受/非零场/request。实际接受后全部设计冻结转450维same-g。
 

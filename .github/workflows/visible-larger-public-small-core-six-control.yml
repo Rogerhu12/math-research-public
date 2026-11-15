@@ -1,0 +1,238 @@
+name: visible-larger six-control scalar design with complete three resonances
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-small-core-six-control-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-small-core-six-control
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Actual116 four parameters plus two independent odd controls
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      scalar_summary: ${{ steps.scalar.outputs.scalar_summary }}
+      scalar_summary_bytes: ${{ steps.scalar.outputs.scalar_summary_bytes }}
+      scalar_summary_sha256: ${{ steps.scalar.outputs.scalar_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
+    - name: Establish independent temporary metadata paths
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-small-core-six-control-curved"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-small-core-six-control-curved" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install unchanged original operator runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind true116 mapped recipe and all81 plus2 source identities
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-small-core-six-control-request.json').read_bytes();request=json.loads(raw)
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==117
+        assert request['schema']=='public-small-core-six-control-curved-recipe-request-v1'
+        assert request['lanes']==['smallcoreresonance']
+        entry='geometry_20261115_small_core_six_control_curved_recipe.py'
+        assert request['execution_entry']==entry
+        assert request['source_sha256'][entry]=='e154afe28c588ce0c2ae936d4304b67ec84e2b46c96b03e48ce4113e2401a761'
+        assert request['source_sha256']['geometry_20261115_small_core_six_control_family.py']=='79464f9c6af8863d3c65254701a858f067881b22ca80dba24bacf2bfea484acf'
+        assert request['source_sha256']['geometry_20261115_small_core_full3_curved_normal_recipe.py']=='be37ce213ddfd87972b5edc241a0b220fe0f424c553f5836b5df337ff1dd980e'
+        assert request['source_sha256']['geometry_20261115_small_core_full3_trust_recipe.py']=='5d3540150390f0e820200ba4a210eb2bc8d06bc025a0a677160df97d72e6f4c1'
+        assert request['source_sha256']['geometry_20261115_small_core_full3_retry_trust_recipe.py']=='b9fff58becdfdcfdb4877cd789a3160510c7c2895005239d8989bb7673c2ea20'
+        assert request['scientific_entry']==entry
+        assert request['source_sha256']['geometry_20261115_small_core_inexact_p3_eta_0p01_recipe.py']=='3169b2d3ea821a244d9f27611cd6c5cb3b239cf0e7f9bbbd7f49ac9d5f1dc9ee'
+        expected={'parameters': [0.43234616540612814, 0.1783653778144092, 0.5751222087274236, 0.0, 0.016140885548593657, 0.0], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'initial_relative_radius': 0.1, 'candidate_steps': 8, 'normal_iterations': 12, 'normal_backtracks': 20, 'normal_target_tolerance': 1e-08}
+        assert request['diagnostic']==expected
+        for path,blob in request['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed: read and apply new rules'
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(line.startswith('规则同步记录：'.encode()) for line in handoff.splitlines())==1,'Retain the existing unique rule-sync line; do not bypass original Runner'
+        verified=[]
+        for group,expected_count in [('source_sha256',81),('workflow_support_source_sha256',2)]:
+         assert len(request[group])==expected_count
+         for name,digest in request[group].items():
+          assert PurePosixPath(name).name==name
+          b=(comp/name).read_bytes();assert hashlib.sha256(b).hexdigest()==digest,name
+          if name.endswith('.py'):compile(ast.parse(b,filename=name),name,'exec')
+          verified.append(dict(group=group,file=name,bytes=len(b),sha256=digest))
+        closure=request['source_closure']['current_producer']
+        assert len(closure)==24 and len(request['source_closure']['origin_producer'])==22
+        assert all(request['source_sha256'][name]==digest for name,digest in closure.items())
+        item=request['parameter_recipe'];p=repo/item['file'];recipe_raw=p.read_bytes()
+        assert len(recipe_raw)==1869==item['bytes']
+        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='4f40206d6b08ff6e232c7239677e90730496ffbc230e19d671e145c50b497e67'
+        recipe=json.loads(recipe_raw)
+        assert recipe['schema']=='R259-explicit-six-control-odd-shape-recipe-v1'
+        assert recipe['literal_parameters']==expected['parameters'] and recipe['origin']==item['origin']
+        assert recipe['family']==item['family']
+        assert recipe['family']=={'schema': 'three-original-supports-even-odd-C2-controls-v1', 'support_indices': [0, 1, 2], 'original_even_controls': 3, 'new_parameter_count': 6, 'parameter_order': ['p1', 'p2', 'p3', 'theta1', 'theta2', 'theta3'], 'old_four_column_indices': [0, 1, 2, 4], 'newly_added_odd_column_indices': [3, 5], 'formula': 'sum p_i*b_i + sum theta_i*b_i(x)*(2*x-1), i=1,2,3', 'zero_new_odds_reduces_to_previous_four': True}
+        assert len(recipe['literal_parameters'])==6 and recipe['literal_parameters'][3]==0 and recipe['literal_parameters'][5]==0
+        assert recipe['origin']['producer_file']=='geometry_20261115_small_core_four_control_curved_recipe.py'
+        assert recipe['origin']['producer_schema']=='R259-four-control-full-three-two-normal-curved-trust-recipe-v1'
+        assert recipe['origin']['producer_sha256']==request['source_sha256']['geometry_20261115_small_core_four_control_curved_recipe.py']
+        assert request['source_closure']['origin_producer']=={name:digest for name,digest in closure.items() if name not in (entry,'geometry_20261115_small_core_six_control_family.py')}
+        assert request['trust_radius_restart']['actual116_last_recorded_radius']==0.000390625
+        assert request['trust_radius_restart']['request117_initial_radius']==0.1
+        assert request['trust_radius_restart']['continuation_of_stored_trust_state'] is False
+        assert request['new_scalar_family']['zero_added_odd_bitwise_equality_is_not_an_acceptance_or_execution_gate'] is True
+        assert recipe['origin']['run_id']=='43690052251' and recipe['origin']['source_commit']=='4f4dbf700ee0732f6e7bd245f35808592ac82607'
+        assert recipe['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        history=request['original_input_history_commit'];fetched=False
+        def original(item):
+         global fetched
+         rel=PurePosixPath(item['file'])
+         assert not rel.is_absolute() and '..' not in rel.parts and str(rel).startswith('topics/visible-flex-larger-amplitude/')
+         p=repo/str(rel)
+         if not p.is_file():
+          if not fetched:
+           subprocess.run(['git','fetch','--filter=blob:none','--no-tags','origin',history],check=True)
+           fetched=True
+          b=subprocess.check_output(['git','show',history+':'+str(rel)])
+          p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
+         b=p.read_bytes()
+         assert len(b)==item['bytes'] and hashlib.sha256(b).hexdigest()==item['sha256'],str(rel)
+        for item in request['inputs'].values():original(item)
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request117-source-input-identity',source_commit=head,request_sha256=hashlib.sha256(raw).hexdigest(),source_count=81,workflow_support_source_count=2,origin_child_source_count=22,current_child_source_count=24,parameter_recipe_sha256=request['parameter_recipe']['sha256'],old_publisher_executed=False,raw_output_retention=False)),flush=True)
+        PYPINS
+    - name: Restore original78 public numerical source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'small-core-six-control-curved-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Fresh six-control full3 curved candidates with unchanged original gates
+      id: science
+      timeout-minutes: 75
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve();repo=Path(os.environ['GITHUB_WORKSPACE']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((comp/'public-small-core-six-control-request.json').read_text())
+        if Path(runner.__file__).resolve()!=comp/'root_20261114_current576_rules_runner.py':
+         raise ValueError('Use the pinned original metadata runner')
+        wanted_source=request['workflow_support_source_sha256']['root_20261114_current576_rules_runner.py']
+        if hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()!=wanted_source:
+         raise ValueError('Original rules runner source changed')
+        wanted=request['reviewed_README_blobs']
+        if set(wanted)!={'README.md','topics/visible-flex-larger-amplitude/README.md'}:
+         raise ValueError('Both explicitly reviewed README identities are required')
+        baselines={}
+        for name,expected in wanted.items():
+         raw=(repo/name).read_bytes()
+         blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+         if blob!=expected:raise ValueError('Reviewed README bytes changed: '+name)
+         baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+        old={name:item['blob'] for name,item in runner.BASELINES.items()}
+        runner.BASELINES=baselines
+        print(json.dumps(dict(event='request117_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_diff_and_stop_on_new_rules_retained=True)),flush=True)
+        argv=[sys.executable,'-u',str(comp/request['execution_entry'])]
+        for key in ('accepted','prepared','tail_anchor','tail_config'):
+         argv+=['--'+key.replace('_','-'),str(repo/request['inputs'][key]['file'])]
+        argv+=['--parameter-recipe',str(repo/request['parameter_recipe']['file']),'--parameter-recipe-sha256',request['parameter_recipe']['sha256']]
+        for key in ('initial_relative_radius','candidate_steps','backtracks','normal_iterations','normal_backtracks','normal_target_tolerance','candidate_resonance_tolerance','interval_bits','interval_depth'):
+         argv+=['--'+key.replace('_','-'),str(request['diagnostic'][key])]
+        argv+=['--out',str(out/request['output_directory'])]
+        print(json.dumps(dict(event='request117_six_control_full3_curved_argv',argv=argv,new_six_control_family=True,old_four_column_indices=[0,1,2,4],new_odd_column_indices=[3,5],stored_parent_radius=.000390625,new_family_initial_radius=.1,stored_radius_continued=False,complete_three_by_six_response=True,complete_two_normal_four_tangent_path=True,zero_added_odd_comparison_is_not_gate=True,rejected_direction_multiplier=.25,eight_total_directions_count_rejections=True,p3_restoration_called=False,inner_target_not_outer_gate=True,normal_iterations=12,normal_backtracks=20,scientific_source_sha256=request['source_sha256'][request['scientific_entry']])),flush=True)
+        sys.argv=[runner.__file__,'--out',str(out/'rule-sync'),'--command',*argv]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Pass compact original scalars to separate report job
+      id: scalar
+      if: always()
+      run: |
+        python "$VISIBLE_COMPUTATIONS/root_20261115_small_core_six_control_curved_scalar_readout.py" \
+          --directory "$VISIBLE_OUT/small-core-six-control-curved" \
+          --rules-directory "$VISIBLE_OUT/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}"
+    - name: Remove temporary recomputable scientific payloads after scalar readout
+      if: always()
+      run: |
+        python - <<'PYCLEAN'
+        import json,os,shutil
+        from pathlib import Path
+        base=Path(os.environ['VISIBLE_OUT']).resolve();target=base/'small-core-six-control-curved'
+        if target.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+        if target.is_dir():shutil.rmtree(target)
+        print(json.dumps(dict(event='request117_temporary_scientific_payloads_removed',relative_directory=target.name,raw_artifact_or_Release_upload=False)),flush=True)
+        PYCLEAN
+  report:
+    name: Small original scalar readout only
+    needs:
+    - compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+    - name: Print bounded original summary and exact output SHA
+      env:
+        SCALAR_SUMMARY: ${{ needs.compute.outputs.scalar_summary }}
+        SCALAR_SUMMARY_BYTES: ${{ needs.compute.outputs.scalar_summary_bytes }}
+        SCALAR_SUMMARY_SHA256: ${{ needs.compute.outputs.scalar_summary_sha256 }}
+        COMPUTE_RESULT: ${{ needs.compute.result }}
+      run: |
+        python3 - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('SCALAR_SUMMARY','')
+        if not text:
+         payload=dict(schema='request117-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
+         raw=json.dumps(payload,sort_keys=True,separators=(',',':')).encode()
+        else:
+         raw=text.encode('utf-8')
+         if len(raw)>90000:raise ValueError('Compute job output exceeded the explicit small summary bound')
+         if len(raw)!=int(os.environ['SCALAR_SUMMARY_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['SCALAR_SUMMARY_SHA256']:
+          raise ValueError('The original compute-to-report JSON output identity changed')
+         json.loads(raw)
+        print('BEGIN_VISIBLE117_SCALAR_SUMMARY')
+        print(raw.decode('utf-8'))
+        print('END_VISIBLE117_SCALAR_SUMMARY')
+        print(json.dumps(dict(event='visible117-scalar-summary-sha256',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'])),flush=True)
+        PYREPORT

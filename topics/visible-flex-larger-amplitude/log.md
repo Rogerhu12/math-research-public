@@ -130,10 +130,14 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 
 [完整源码接口](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)13494B/cd24dc49及两新源15454B/0b52a408、28554B/4e31ad6b已完整读过，最终四处差异另核。真实field/rho/完整FFT含mean和Nyquist、实际材料角与半径membership、严格cross-Gram、原全相位及R281逐叶OR，空间×两RP1闭覆盖和全部rank/未决栈保留。只源/参数/接口入库，静态回执不入库，无科学执行或真实接受场；不预填全reach。H压缩已完成115/116原值至正式note，保当前责任。
 
-## 2026-11-15 07:53 UTC /root — 修正R282源目录
+## 2026-11-15 07:48:54 UTC /root — 修正R282源目录
 
 将刚提交的两个新源从scripts普通移至接口指定的computations，与原loader和依赖同目录；原字节/SHA及数学不变，未运行科学。不存在额外来源或复算门。
 
-## 2026-11-15 08:02 UTC /root — actual110八个真实模型及midpoint限制
+## 2026-11-15 07:52:54 UTC /root — actual110八个真实模型及midpoint限制
 
 [实际110](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)run43685348016/source8d4a3af1：8原model+FD全接受、显式8批结束，全部native/fullDN仍false。各模型merit分行记录；末alpha1/2048，后七批最近拒绝均为未列入31约束的midpoint471，末beta²−3.8894462797367524e−5。八份原summary含LF字节/SHA均核，raw已清理。接32-query补该真实点，从actual98另启真实轨迹，原门不变；H重写压缩保全部当前责任。
+
+## 2026-11-15 07:53:43 UTC /root — 发布117六控制完整三式实验
+
+[完整接口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)15535B/4b443c7f及六运行件已读并发布；数学源79464f9c/e154afe2、reader3e2c0515、recipe4f40206d/request7147dbda/workflowf3e7a17e。root核全部差异、方向/normal关键全文及真实116四p映射，old4列[0,1,2,4]、81+2 pins/22→24闭包，原门及8×20/12×20保留。新.github工作流仅为本课题公开计算，唯一request触发；raw和静态回执不入库，未本地执行科学。并按实际Git时间校正两条先前手写日志时间。
