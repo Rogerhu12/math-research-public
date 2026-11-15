@@ -23,9 +23,9 @@
 
 ## 活跃实际执行与精确恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README；约20:14结束前增量或重建，不因时限停研究。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，前13步已actual完成，第14步第三单RHS已入队，大数组只在本job临时。
-- 第12步P61实付34.995920669秒、1342796新原产品+668304第五复核；tmp infinity-small-original-projection-smith/temporary含Q完整state，旧第五tmp infinity-fifth-true-incoming-checkpoint保持。第13步高17实付4.196554438秒，5100×3762 rank3760，两真Q核10200产品真；完整β2,Q=1/第二14正式稿已核。二点父tmp two-one-true-q-second的592单位/X2/S2复用，第14步仅续第三唯一RHS，180秒/4GiB（外210），子tmp two-one-complete-q-third。
-- 全源码、参数、binding、SHA及旧恢复清单保本次H归档和各正式稿；旧43731615668/43731613530/43736746064/43702348535已结束，tmp不可假用。literature继续二点至max5封点，normal补∞P外第六，boundary接位置预算的实际逆；根管逐结论实际push与H/open/log。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README；约20:14结束前增量或重建，不因时限停研究。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，前14步已actual完成，第15步∞完整常高核已入队，大数组只在本job临时。
+- 第12步P61实付34.995920669秒、1342796新原产品+668304第五复核；tmp infinity-small-original-projection-smith/temporary含Q完整state，旧第五tmp infinity-fifth-true-incoming-checkpoint保持。第13步高17实付4.196554438秒，5100×3762 rank3760，两真Q核10200产品真；完整β2,Q=1/第二14正式稿已核。二点父tmp two-one-true-q-second的592单位/X2/S2复用，第三actual5.484秒、593→594，β3=1/13头、Q谱长12、差模零，正式稿核中；子tmp two-one-complete-q-third。第15步∞完整常高核60秒/2GiB（外100），仅付5100×3762全块。
+- 全源码、参数、binding、SHA及旧恢复清单保本次H归档和各正式稿；旧43731615668/43731613530/43736746064/43702348535已结束，tmp不可假用。literature封二点并转下个有限子题，normal补∞P外第六，boundary接位置预算的实际逆；根管逐结论实际push与H/open/log。
 
 ## 原同w边界：已付测试运输，完整返回仍开
 
