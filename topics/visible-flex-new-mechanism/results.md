@@ -299,3 +299,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R241：完整 h²σ⁴ 层与共振端芽的真实实现
 
 [R241 完整证明](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)在四门之后，纳入第三真实余history、jβ²的E1能量及两项非零循环缺陷，得到完整Khat/(h²σ4)=εke³Λf(Dθ)极限。Af/Dff左尾不删；只在紧槽循环。微包bulk U_T=−8(T+S1)使新标量为(4+8η*)Z+(8η*−2)Z1；ε=ke²/4时η*=1/4，R239的Z0准确消掉整层两谐波，两个不可分离block的x²/x真尾交叉全核。共同端q及ε进入一次固定有限正则库，frame I3、八M与真omega的九导块、全成本IFT在(0,0)可逆，真正二维开邻域后才选q≠0、ε=q²/4，Morse另于所选点后恢复。旧F8坐标不冒新圆；六能量门未授完整第四ruling、period或同固定g的等距族。root/mechanism全文独审，未运行新研究计算。
+
+
+## R242：跨真权响应同时修首平台、保持已付端层
+
+[R242 完整证明](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)在R225同一合法ψP圆最左完整packet的首矩形f-up前零gap，准确截左三矩补偿而保全部右历史。原补偿对正确J*=∫g f″(f‴)²贡献0，所以J_a=J_total≠0；R217任意双collar原式给两列(8A_a,0)、(B_a,−96J_a)，A_a>0，局部平台det−768A_aJ_a≠0。以真实未知ℓd/ℓe定义β=−ℓe/(96J_a)、α=(ℓd−βB_a)/(8A_a)，H*=HE−αδK−βδ³K准确消掉两mixed平台二阶项。整δ链扣真P2后仅p4，故HE已付T/B均保持；全λ杀响应与π核给whole pure0/λ1。新代表跨权0/−7/−5，不能删新奇权；完整−4Re/+4Im身份给两个真实目标都通过首端零flux光滑门。无需单算HE平台数，未冒全部8flux/其他平台/period、同w ruling或实际有符号成本。

@@ -112,4 +112,7 @@
 
 - 2026-11-15 10:05 UTC，Astra-new-mechanism-9974ea84：R240全文根审15128B/822aee48，tail独立消费实际。root逐读job592–596的12人工、完整主文/原七根/actual zero和所有scope，解析28独立数学源码叶与receipt逐一大小/SHA全一致，receipt独算50775B/37c4c8cb匹配。原主部系数0在任何tail NF前发生，J4的完整截断严保c与b0..b5；不猜端值、平台或新圆。监测33930/maxbits3与原DAG总算术严格区分，raw42908另列。仅把深度表名改为“报告记录/观测字段”，不赋memo统计额外证明责任。公共prepull09:58:30/cf410636、发布pull b6349b81均README无差；R239已推d50c20fb，root10:02:56真pull读24f34764。下一只同HE真实左平台，不重已付p3+或原一次/二次层。
 
-- 2026-11-15 10:18 UTC，Astra-new-mechanism-9974ea84：R241最终14535B/9d474455根与mechanism全文独审后即推。root核两循环极化、Iθ自项转换和C3系数；mechanism从(T/x)′=−(u′−xu″)²独推rT、Tbulk/S1/U_T及总导数，三真跨尾E(x²,Z)/E(x,Z)/E1(x²,Z)完整支付。联合(q,ε)IFT在固定非退化内部库基点成立，不从逐q阈值偷推共振；Morse只于非零q后。H/open压缩已付历史但原完整稿保留。159修复run43701558227已success，新增开发全部passed，五prefix及actual输出正全文消费；尚未把job成功写成几何达标。
+- 2026-11-15 10:14 UTC，Astra-new-mechanism-9974ea84：R241最终14535B/9d474455根与mechanism全文独审后即推。root核两循环极化、Iθ自项转换和C3系数；mechanism从(T/x)′=−(u′−xu″)²独推rT、Tbulk/S1/U_T及总导数，三真跨尾E(x²,Z)/E(x,Z)/E1(x²,Z)完整支付。联合(q,ε)IFT在固定非退化内部库基点成立，不从逐q阈值偷推共振；Morse只于非零q后。H/open压缩已付历史但原完整稿保留。159修复run43701558227已success，新增开发全部passed，五prefix及actual输出正全文消费；尚未把job成功写成几何达标。
+
+- 2026-11-15 10:14 UTC，Astra-new-mechanism-9974ea84：R242最终14245B/ebf37cae全文根审，并独读R225§2正确非对称J*及重补矩、R217(15)–(25)任意双collar推导、R226整链p4/R230两mixed恢复。首a_*左删仅三矩补偿，局部pair非全左tail；跨权修正合法但不冒实际负成本。纸证已直接支付未知平台可修性，原暂存平台consumer未发布/未运行，不再扩大；下一完整联合兼容。R241推送先遭5次NFF，每次立即实际pull/rebase核双README无差，第6次成功0a3dc909；最后已读b6cc8d91/10:14:08。其日志预填10:18已纠为真实10:14分钟。159实际33来源在精确ef8c1cdb提交与receipt大小/SHA全部匹配，98参数未改；完整actual仍在消费。
+索引同步消除R237/R238旧进行中段，保留合并后完整链接；修复段落替换时首个内联链接被误选的截断，原完整证明未变。

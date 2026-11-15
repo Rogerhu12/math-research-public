@@ -72,11 +72,11 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)给p¹有限首项的指数失败、p²有限极点门和p³以上左零通量延拓；特定δ链扣真二次尾后仅p⁴，不能代表U/R。[R230](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)付G=P2+Tτf+p²A，τ保同右锚三次函数和shuffle；指定解析ψP时(D+p'/p)有限有理消元判Tτf，不猜有限jet。
 
-[R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)已消费43699241372/ee9e2098：12新增人工全过，17新层/34cubic，宽门秩4、合三旧pure行秩6，两门均member。H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32满足whole pure0、λ+1和本T0，fresh2694项原差验证；pure核的一次层像维3。T明确只真权0、canonical mixed−2、首f-up/g0左平端。**本一次层读λ路线结束，不机械加同类查询或扩别权。** 下一必须处理p²真实有限极点、完整内部/平台/通量门，或全period/ruling共同算子。未指定P/真实τ，不冒固定圆成员、完整端点像或全权R225响应商；raw旧I符号/真耦合/外锚jet顺序保持。
+[R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)已在43699241372/ee9e2098给whole pure0/λ1/首T0的同HE=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，fresh2694项346ea2a1原差验证。T只真权0/canonical mixed−2/首f-up,g0；一次层读λ路线结束，不机械重扫17层或扩别权。
 
-[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)现给二次层准确有限观测：同首f-up/g0且真实平台/一次层已付、左零通量时，G=P2+p²B+p³C的u=w′光滑当且仅当t⁴B无负Laurent主部；保实际c和光滑a，u(0)=−[t⁴B](0)/(3c²)。[单HE新入口](notes/character-zero-quadratic-endpoint-principal-design-20261115.md)已提交：只恢复C2/R0/R1/R2/R3/R4/R10七必要根，以实际可达J给严格Ud/K截断，提取degree2真尾负主部。首actual43701766182的12新人工过，实际J4的全部负主部在原式已零（NF0），条件性germ门已读，[R240完整实际](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)已登记；平台P2″继续未付。该有限条件不替代另一端、内部/平台/通量或完整joint；不重原17一次层。
+[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)进一步支付同HE的二次主部：43701766182的12新人工过，实际J4完整负主部在原式已零，NF0。首f-up/g0零flux且平台通过时，u光滑 iff t⁴B无负主部；whole pure0/λ1/T0/B0联合成立仍不能读λ。平台本身未数值评价，p3+已自动光滑不再算。
 
-[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)确认同HE的whole pure0/λ1/一次T0/二次主部0同时成立，所以这两个局部观测联合也不能读λ。实际raw系数先于NF全零，非J≤2自动分支；原P2″尚未评价。下一只针对同七必要根消费共同左零collar平台，先查真来源身份，不从一般T0推平台零；不加p3+自动光滑层，不扩全权/所有端点。
+[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)用完整δK/δ³K直接修同HE首平台：最左packet首矩形f-up前有零gap，截左补偿后J_a=J_total≠0；两平台列det−768A_aJ_a≠0，准确αβ给H*=HE−αδK−βδ³K。两新增权−7/−5保whole pure0/λ1，且同锚真P2+p4A保两个mixed的T/B，故首端两零flux germ完整光滑。**单HE平台求值无需再运行，首平台+一次/二次局部联合读λ路线结束。** 不偷投回真权0，不宣八flux/其他平台已保或实际成本已实现；下一先审『本首平台pair+8flux』的完整联合响应结构，再进入R225其余完整兼容。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
@@ -116,9 +116,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)/[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)已给三矩/完整第三及LcLs0的不可GL2分离新圆：两个不交同构block用α、π/2−α，真实尾E(x²,Z)=0后四射影方向保留。新的第一F另冻结新gε，旧首g0/F8不继承；不把领先双零当joint。
 
-[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/
-
-[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)把R235下一两能量准确归约为Z=U−PV/Q。真实总体边界先由三矩消，再得微包S/T bulk；T平移≤9、伸缩0，未有固定符号。两互补同构block等幅给Mc=−4tZ、Ms=0，非零正幅/伸缩不能另调Mc。因此下一在完整三矩/第三参数族解UQ−PV=0、P≠0；不预设原R235已失败。
+[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)已把完整h²σ6的两门归为Z=U−PV/Q，双互补block等幅给Mc=−4tZ、Ms=0；完整local/history和真尾皆保，不能靠正幅/伸缩另调Mc。该门现由R239解清。
 
 [R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)以固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，在三矩/第三准确族内解真实UQ−PV=0。归一延拓D0(ζ)+δR在δ0的简单根给有限正δ准确IFT零，P>0/t非零；双block完整四门0。
 
