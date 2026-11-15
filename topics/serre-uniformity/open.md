@@ -223,3 +223,7 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 [R786](results/R786-original-power5-sections-and-129-Laurent-recovery.md)证明原5ℒ/1234截面足以表示同一个degree1206的y；kernel=28+h1≥28。129完整Laurent条件−1..127准确认证全球关系，weight10原半线性相位逐项保留，系数在Q(ξ+ξ^-1)。先以B0秩20消cusp常数，再用1234阶Q minor消A，真正待解缩为1326×1214 L；rank≤1186为理论界，尚无实rank或函数。新准确短基任务直接消费旧R775已成M2/power2..5/det六stage与原R771，生成1234条q0..128；R781真实R0..128和κ129已够。R777完整M6/M12方案保留备用，当前不自动触发其较大计算。
 
 [R786准确短基已实际完成](results/R786-certified-original-power5-short-basis.md)：公开run43682100611/source dd262672成功，1234原基q0..128与原mod739逐条一致；证书dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9，原尺度82^10和40坐标全保。R787后继只消费此真短基与R781，先实际选主元/求原L关系，再做全部129阶准确认证；不预填rank、核或高度。
+
+### 原ordinary的平衡二阶jet与准确对偶互反接口
+
+[完整笔记](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)保留原cs的全两坐标：沿z=(1+T)^i−1的零/一阶严格零，二阶K给dR=(Ku−11/2)d0−iKq dq，Θ=−iKq，实际目标Kq≠11i仍未判。二阶exact-dual cup公式保全部作用、低阶交叉和曲线二阶修正，逐局部完整求和；不能用pure-p24替原巨大q的Θ。继续原cs Kummer/Shapiro二阶比较、真全球dual提升和全部支撑的局部值；此一般恒等式未提供实际数值算法。

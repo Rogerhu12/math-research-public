@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：88e9752a84f15669cc021fa55d7565f8bdf8dc2d**（2026-11-15 05:50 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：c310272eeb224d0c3833257f37bc776494fdc4f7**（2026-11-15 05:51 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -35,6 +35,8 @@ R771/6e1b3ab9 run43628998192，301.126s，M2/M6/M12=146/694/1514，minor550/206/
 R720原Ω₂=ε(22+17b)，零iff b24，实际b未知。R755真dual保负adjoint/全部q二三次与2处cochain；R779指定nR=−in+(11/2)u对所有b真下降，dR=(9b/4)dq+B_Rd0、b=−3B1−5B45、Ω₂/ε=22−8B1+B45。R780完整NT像和三Norm/深度条件对原二维socle自动，不定η，不替primitive/J。
 
 **R783已证明**：在原semilocal单位商、以N_S(vq)=原P+[α_F]固定的基中，原cs模43有规范二阶项A x²+B xz+I³，Θ=B−iA=13b；因此b=10Θ、Ω₂/ε=22−2Θ，坏值恰Θ11。A/B不依赖辅助Norm原像。局部扰动xzγ21h0保两Euler Norm/τ-real却可改变全二维局部输出；这不是global ordinary改动，b≠0时真实NΓNSE_V=43O u使该global改动模43零。实际Θ未求，不能包装776bitq巨大挠点枚举为可行计算；后续须原Robert相位的二阶reciprocity，不能代任意Norm根或旧pure-p24。
+
+原完整ordinary二阶jet见[平衡jet笔记](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)：沿z=(1+T)^i−1得K，dR=(Ku−11/2)d0−iKq dq，Θ=−iKq，坏值Kq=11i；保Euler首项造成的二阶修正。完整exact-dual二阶cup含全部一次交叉项，原Kummer/Shapiro比较及真实对偶提升仍待，未求Θ。
 
 ## 全p sigma与真正高度缺口
 

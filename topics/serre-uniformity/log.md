@@ -340,3 +340,8 @@
 - 执行环境恢复后重新部分克隆，05:47 UTC实际pull main至3516c330；与前已读f9af比两README无差异，H记实际SHA，恢复终端git提交。
 - R786公开run43682100611成功：1234原power5基完整q0..128/40坐标与旧mod739逐条吻合；root核实际ZIP、manifest及3740文件全部SHA/size，无本地数学重算。登记R786-certified并同步H/open/index。
 - 后继R787直接消费R786与R781求原L关系，R777大方案保备用。R775原续跑继续；实际映射/β/高度尚未输出，主目标OPEN。
+
+## 2026-11-15 13:51 Asia/Taipei · serre-public-astra-20261115
+- 推出原完整ordinary平衡二阶jet K：保Euler首项和τ-compatible曲线，原Θ=−iKq，dR两坐标及B1/B45全部保留；K对辅助Norm原像/共同Γ分支选择无关。
+- 写出假定实际primal与exact-dual cocycle时的完整二阶cup/reciprocity，明确所有低阶交叉和曲线二阶修正。root核公式，并修正群元43次幂表述与局部角色零的充分条件表述。
+- 记录为研究笔记而非实际Θ计算；原Kummer/Shapiro比较、dual提升及局部Frobenius值仍缺。H/open同步；R786实际结论已推46653675，R775仍运行，原L关系求解工程继续。
