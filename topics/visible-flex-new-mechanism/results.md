@@ -309,3 +309,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 选行 Jacobian 首开发缺键：0 次科学恢复，最小人工修复
 
 [完整首失败记录](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)消费43716207246/a99b8d88/job132818219795：新人工4.491779401秒在known_fine_metric_locations缺键退出，七真实恢复和新优化均0。第一组虽返回但输出未存，不声称passed。公开receipt 53133B/61eb5d72，97完整源和42显式科学绑定保留；不是几何不可行结论。driver只在labelled fixture明确空峰列表、各新开发分组立即打印实际返回对象；73477B/65b3dbb4，生产/前三源/原预算/98研究args不变。更新唯一driver请求绑定，继续未完成新开发与首次科学。公开和私有实际pull及NFF后rebase/规则复核均已完成，完整SHA记HANDOFF；API读取仍不冒实际pull。
+
+
+## R273：真实左尾与平方密度反射自动支付 A−1,−2 第零外矩
+
+[R273 完整证明](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)从原Φp0/Φs1与Φr1/Φs0四对nonlegal self推得准确N=∫u′u″³、M=∫xu″⁴与μ²项；Green+μ²/2及三条未消尾逐项保留，再合原Γ跨项成−k∫φ″²J(f″²−φ″²)。合法零矩仅使其准确化为s²∫FJ(F−G)−2cs∫FJK，不擅删后项。R270实际有限δ的普通/同源伴随、ρ0/20两排序均使F,G关于共同中心为偶，故第一配对为零；local N偶部为0、M偶部由每个实际α的两quartic恒等及两类中心均值0清掉。
+
+任意完整平移/正幅保持该偶零，八完整副本保留它，十二完整副本再付全部odd；各完整block内槽三矩已0，真实跨块核消失，最终正幅混合仍保全角I0。无需新母参数、再IFT或新执行，和R270全部已付门共同成立。形式even余18非rank，A−1,−2 I1/I2及其余完整第四仍欠。root全稿逐式核，literature独立全文核原尾/有限δ/完整复制与最后混合，无新增验证门。
