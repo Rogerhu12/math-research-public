@@ -81,3 +81,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:24:17 UTC — nearby full-tail proxy inverse 独推
 
 全文核I1–39及最终差异；phase亲读原strict-density S14–29/W26/U9–11/R8–11，核非循环Cauchy→scattering/model顺序、δ^-79/统一δ^-96、有限阶Bfin与双窗强费用；newton核I30–35 residual符号/两mean/weak唯一性，root核J接口/完整源。低输出加inhomogeneous一位费用后仍<2^524288。完整37845B证明独推，非Jacobi同域Neumann/非最终族。另读Green35518B/088a57b5…，实际真pull06:21:12.005280→77d65ad2b07185f8b3c4caec87aae5f62d846e17，两README diff空；latest2944future(1886旧)/880past/1232product/0groups。H已归档 cc5e19a13b6e226336604b309be7e72232889db60163ef990f335ba4abc84f76 并保当前接口。README c816fc533c27f94584a3da5cc6ae3761ab446a37两项无变。
+
+## 2026-11-15 06:28:50 UTC — 部署共同径向势最小新消费者
+
+root全文核SCI/worker/flow/20pin manifest，newton独核derivative/k尾、原s mean恢复、Abar与c/W/V/VT/VTT。纠正原小process按60KB分支保存整证书的问题：现始终剔除signed中间balls，只必要最终界和执行指纹发布。数学函数不改；原historical a3d84d905ce72e3a854874bbe98d119623f3f8de 输入逐bytes/hash暂存恢复，0artifact/0旧重算。静态delimiter通过，实际AST由Actions；真pull/readme和非FF重推守卫保留。README d5eba2cfe560f7e4ce0860eb241050fa95489165两项无变。

@@ -1,0 +1,198 @@
+{
+  "kind": "exact_common_radial_potential_complete_derivative_budget_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arb_precision_bits": 320
+  },
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "purpose": "Only new complete scalar potential, derivative, common-coordinate gap and ordinary-source budgets; no original target, FFT, point derivative or saved characteristic coefficient is recomputed.",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py",
+  "scientific_source_sha256": "042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7",
+  "input_paths": {
+    "higher_native": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/true-root-missing-intrinsic-jets.json.gz",
+    "higher_process": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/process.json",
+    "intrinsic_domain_native": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/auxiliary-root-complex-third-jets.json.gz",
+    "intrinsic_domain_process": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/process.json",
+    "Taylor_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+    "Taylor_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "background_stage": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+    "Taylor_publication": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/publication.json",
+    "old_fold_majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-minimal-complete-common-radial-potential-and-derivative-budget.md",
+    "background_main_9": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-009.json.gz",
+    "background_main_10": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-010.json.gz",
+    "background_main_11": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-011.json.gz",
+    "background_main_12": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-012.json.gz",
+    "background_main_13": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-013.json.gz",
+    "background_main_14": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-014.json.gz"
+  },
+  "legacy_artifact_inputs": [],
+  "mathematical_parameters": {
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_complex_delta_square_halfwidth": "1/100000000",
+    "exact_complex_z_square_halfwidth": "1/9409",
+    "all_absolute_fourier_labels_at_least": 97,
+    "physical_angular_frequency": "4j",
+    "exact_intrinsic_Cauchy_radius": "1/2000",
+    "support_radii": [
+      "3/8000",
+      "1/4000"
+    ],
+    "exact_radial_radii": [
+      "9/1000000",
+      "1/20000",
+      "1/10000",
+      "1/6000"
+    ],
+    "original_characteristic_coefficient_degrees": [
+      0,
+      14
+    ],
+    "original_intrinsic_derivative_orders": [
+      0,
+      15
+    ],
+    "max_new_intrinsic_derivative_order": 5,
+    "max_new_root_quotient_derivative_order": 4,
+    "old_fold_analytic_phi_width": "3/128",
+    "old_fold_auxiliary_radius": "3/8000",
+    "whole_physical_root_piece": 2549
+  },
+  "exact_reuse": {
+    "original_point_derivatives_recomputed": 0,
+    "original_target_or_FFT_evaluations": 0,
+    "original_characteristic_coefficients_recomputed": 0,
+    "original_complete_background_stage_files": 1,
+    "original_additional_characteristic_stage_files": 6,
+    "old_stage_headers_and_payloads_unchanged": true,
+    "both_carrier_signs_and_independent_even_mean_retained": true
+  },
+  "storage_rule": {
+    "reviewed_rules_path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+    "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+    "temporary_full_native_and_stage_files": true,
+    "publish_only_small_conclusion_and_execution_metadata": true,
+    "upload_new_certificates_to_main": false,
+    "upload_new_certificates_to_Release": false,
+    "upload_new_certificates_to_Actions_artifacts": false
+  },
+  "scope": {
+    "same_original_root_piece_auxiliary_extension_only": true,
+    "whole_complex_bilinear_delta_family": true,
+    "all_integer_j_above_cutoff_included": true,
+    "old_T_inverse_image_radius_is_new_actual_gate": true,
+    "no_ordinary_g2_radial_derivative": true,
+    "complete_reference_columns_claimed": false,
+    "positive_green_or_full_high_inverse_claimed": false,
+    "true_PDE_branch_claimed": false
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/auxiliary-root-complex-third-jets.json.gz",
+      "bytes": 432808,
+      "sha256": "6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/process.json",
+      "bytes": 38267,
+      "sha256": "a6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+      "bytes": 88854,
+      "sha256": "758a2901d194e9d54ec10bb5004014ee34a972c35367589fd5c86afce3f30c9f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+      "bytes": 34792,
+      "sha256": "42ab23b97ce922b042b8291af46cfe8c44ffd7e90ba1e2a6049caef263b7224e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-009.json.gz",
+      "bytes": 2567,
+      "sha256": "b2dc49e1bb4002a17862b255b89502341d91a60dec7c724b2455ae3d11426771"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-010.json.gz",
+      "bytes": 2568,
+      "sha256": "37cc350e1312e337a64aefeb5a38297e32558284bb1659093f1aaecdc3888606"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-011.json.gz",
+      "bytes": 2584,
+      "sha256": "091802bd56f486618818d92febf917075c502c725c2540ccee33aff8fc62dbea"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-012.json.gz",
+      "bytes": 2610,
+      "sha256": "190e2bb66de2642a7abf2b5b578eaae3df1d174ca59a286235afb7da2366c5dd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-013.json.gz",
+      "bytes": 2597,
+      "sha256": "24472cffdb3252e1f9c8959ed1842626e8300f8f95a4bf14fb2c0d1f0cb831b5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-014.json.gz",
+      "bytes": 2579,
+      "sha256": "fe31ad9aef63a35c81c3dd001f0f60d94da7b289a9681d2603860e042544bdc9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/publication.json",
+      "bytes": 55427,
+      "sha256": "dc7d7f0fca329f4e16af276ea762ab9316285e803d0816b6b8ec01fe3896e7d3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/process.json",
+      "bytes": 41444,
+      "sha256": "c7ff69243d3f724f539cd0ee95c2b0ba219caa5ffba47ff9b084387255e78e5b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/true-root-missing-intrinsic-jets.json.gz",
+      "bytes": 619835,
+      "sha256": "ec702cffb8d1dcb25cdb01eaa89127b1f0044ae1cd3cee9e6e293e8165250480"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-minimal-complete-common-radial-potential-and-derivative-budget.md",
+      "bytes": 12776,
+      "sha256": "cae161da962d9dc6e8f53934ebdf5b2410f75718439736f1b61d673ed6fe6fe5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py",
+      "bytes": 30953,
+      "sha256": "042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b"
+    }
+  ]
+}

@@ -175,3 +175,7 @@ run43682479300/1 child0/21门，数学10.658338976s；新49stage（临时）、1
 ## 变化背景上的全 tail proxy inverse 已完成，继续 Γ 与可迭代尺度
 
 [I1–39](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 已在R≤2^-8192000的原物理域付完整high/deep/remaining/mean、两侧强4/3及全部原source；remaining差<2^-350000。相同fixed真long行含全C_R反馈/affine荷，新nonlinear行更新按J完整能量接口，cap未知仍通过独立曲率口联立。ordinary body平端χ=0不清掉外flux荷。输出Y≤64且真实损失2050，下一做Γ低方向投影列/真参数Schur及能够维持H8196/residual三jets的tame尺度。单靠截平滑Y64不足以自动抵消2050损失；须实际闭完整迭代账。
+
+## common-T 新scalar potential/gap消费者已部署
+
+SCI042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7、20pin manifest44555290…、workerf67fa3f9…/flow6fab4a57…只恢复原root0..15、完整M3复域、旧a0..8与6个a9..14。新增四radial radius的Abar尾/复gap、signed c/W/V/VT/VTT、真实T inverse-image与两普通源预算；不重做旧系数/FFT/target。所有signed中间balls仅temporary；只小实际结论/run/SHA入Git，无artifact。尚待实际run，不预授reference两列/old-circle gap/strong-high inverse。
