@@ -1,0 +1,72 @@
+name: Serre p41 original beta composition
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R792-public-original-beta-composition-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: serre-R792-original-beta-composition
+  cancel-in-progress: false
+
+jobs:
+  original_beta_composition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-original-beta-composition.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R792_original_beta_composition.py
+            /topics/serre-uniformity/scripts/R792_public_original_beta_composition.py
+            /topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py
+            /topics/serre-uniformity/scripts/R786_public_exact_power5_short_basis.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R792-public-original-beta-composition-request.json
+            /topics/serre-uniformity/results/R792-original-beta-composition-and-Galois-cube-root.md
+            /topics/serre-uniformity/computations/R786-exact-original-power5-short-basis/43682100611-1/core-receipt.json
+            /topics/serre-uniformity/computations/R786-exact-original-power5-short-basis/43682100611-1/public-actions-input.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Compose the original beta and its real descent image
+        continue-on-error: true
+        timeout-minutes: 315
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R792_public_original_beta_composition.py compute
+      - name: Transfer the active checkpoint to the immediate continuation only
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R792-original-beta-composition-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R792-original-beta-composition/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Publish only script parameters run and output hashes
+        if: always()
+        continue-on-error: true
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R792_public_original_beta_composition.py publish
+      - name: Require an actual original beta point
+        if: always()
+        run: python topics/serre-uniformity/scripts/R792_public_original_beta_composition.py verify
