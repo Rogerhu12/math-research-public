@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read two failed public job logs and publish only bounded failure metadata; never run science."""
+"""Read the third actual failure log and any recoverable small stdout receipt; never run science."""
 from __future__ import annotations
 import argparse,base64,hashlib,json,os,re,subprocess,urllib.error,urllib.parse,urllib.request
 from datetime import datetime,timezone
@@ -7,8 +7,7 @@ from pathlib import Path
 PUBLIC="Rogerhu12/math-research-public"
 TOPIC=Path("topics/visible-flex-exact-nearby")
 REPORTS=TOPIC/"notes/regular_transport_log_diagnostic_ci"
-JOBS=((43705772615,132786394695,"fb3a6f2bbfa8d5d72266e709bcccd0ebd1848b18"),
-      (43707514815,132791691389,"c9c96f3431a0ec6a8213e2359186531fb851f822"))
+JOBS=((43708483581,132794666828,"81ae4cf1bca04cdd1cd65d3a4e8ec28ad21884a3"),)
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def utc():return datetime.now(timezone.utc).isoformat()
 def main():
@@ -28,7 +27,7 @@ def main():
     env.update(GIT_TERMINAL_PROMPT="0",GIT_CONFIG_COUNT="1",
         GIT_CONFIG_KEY_0="http.https://github.com/.extraheader",
         GIT_CONFIG_VALUE_0="AUTHORIZATION: basic "+base64.b64encode(("x-access-token:"+token).encode()).decode())
-    state=dict(kind="two_actual_regular_transport_failure_logs",repository=PUBLIC,
+    state=dict(kind="third_actual_regular_transport_failure_log",repository=PUBLIC,
         run_id=os.environ["GITHUB_RUN_ID"],run_attempt=os.environ["GITHUB_RUN_ATTEMPT"],
         workflow_commit=os.environ["GITHUB_SHA"],source_sha256=a.source_sha,rules_sha256=a.rules_sha,
         started_utc=utc(),readme_checks=[],jobs=[],new_scientific_subprocesses=0,
@@ -97,6 +96,31 @@ def main():
             text=raw.decode("utf-8")
             lines=[re.sub(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z ?", "", line)
                 for line in text.splitlines()]
+            marked=[i for i,line in enumerate(lines)
+                if line.startswith("BEGIN_R133_REGULAR_LOCAL_SMALL_RESULT ")]
+            record["recoverable_small_stdout_blocks_found"]=len(marked)
+            if marked:
+                if len(marked)!=1:raise ValueError("the real job log has multiple small-result blocks")
+                i=marked[0]
+                if i+2>=len(lines) or lines[i+2]!="END_R133_REGULAR_LOCAL_SMALL_RESULT":
+                    raise ValueError("the real small-result block has no exact closing marker")
+                identity=json.loads(lines[i].split(" ",1)[1])
+                payload_raw=(lines[i+1]+"\n").encode()
+                if (len(payload_raw)>59000 or len(payload_raw)!=identity.get("bytes")
+                    or hashlib.sha256(payload_raw).hexdigest()!=identity.get("sha256")):
+                    raise ValueError("the complete stdout small-result identity failed")
+                payload=json.loads(payload_raw);execution=payload.get("execution",{})
+                if not (payload.get("kind")=="recoverable_regular_transport_small_result_v1"
+                    and payload.get("native_or_stage_data_included") is False
+                    and str(execution.get("run_id"))==str(run_id)
+                    and execution.get("source_budget_source_sha256")=="c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048"
+                    and execution.get("input_manifest_sha256")=="8113b0d7e73c220a766947c198c09b6e66bd3a83210539fed6b4d6d5285e8e3f"):
+                    raise ValueError("the recovered small result belongs to another scientific input")
+                record["recoverable_small_stdout_identity"]=identity
+                record["recovered_scientific_execution_status"]={key:execution.get(key) for key in (
+                    "run_id","run_attempt","complete","actual_returncode","actual_source_budget_processes",
+                    "actual_failure","source_budget_source_sha256","input_manifest_sha256","output_hashes")}
+                print(lines[i],flush=True);print(payload_raw.decode(),end="",flush=True);print(lines[i+2],flush=True)
             starts=[i for i,line in enumerate(lines) if "Traceback (most recent call last):" in line]
             trace=[]
             if starts:
@@ -126,7 +150,6 @@ def main():
         state["jobs"].append(record)
     state["complete"]=all(row["complete"] for row in state["jobs"])
     state["finished_utc"]=utc()
-    # This exact bounded summary is printed even if the later small Git publication fails.
     filtered=json.dumps(state,ensure_ascii=False,separators=(",",":"),allow_nan=False)
     if len(filtered.encode())>40000:raise ValueError("the filtered stdout diagnostic exceeds40000bytes")
     print("BEGIN_BOUNDED_ACTUAL_FAILURE_DIAGNOSTIC",flush=True)
@@ -137,7 +160,7 @@ def main():
     def snapshot():
         text=["# Actual regular-transport failure logs: read-only diagnosis","",
             "This public run executes no scientific process, imports no mathematical producer, and requests no Git Trees or blob-size audit.",
-            "The two original failures remain failures. Their elapsed time alone proves no scientific status.","",
+            "The original failed run remains failed. Its elapsed time alone proves no scientific status.","",
             "Only exact full-log identities and bounded real stacks are retained. Full logs remain temporary.",""]
         for row in state["jobs"]:
             text += ["## Original job "+str(row["job_id"]),"",
@@ -145,6 +168,8 @@ def main():
                 "- Workflow commit: "+row["workflow_commit"],
                 "- Complete log identity: "+json.dumps(row.get("complete_log_identity"),sort_keys=True),
                 "- Diagnostic error: "+json.dumps(row.get("failure"),sort_keys=True),
+                "- Recoverable small stdout block count: "+str(row.get("recoverable_small_stdout_blocks_found")),
+                "- Recoverable scientific identity: "+json.dumps(row.get("recoverable_small_stdout_identity"),sort_keys=True),
                 "- Complete original stack retained: "+str(row.get("actual_stack_is_complete")),"",
                 "```text",row.get("actual_stack_or_error_lines","No original stack has yet been established."),"```",""]
         text += ["The source and scientific17-pin manifest are unchanged. These receipts do not assert the current exact topic size.",
@@ -158,7 +183,7 @@ def main():
         if total>40000:raise ValueError("the two small diagnostic files exceed40000bytes together")
         (report/"actual-result.md").write_text(text);(report/"execution.json").write_bytes(raw)
     snapshot();owned=str(report.relative_to(root));git("add","--sparse","--",owned)
-    git("commit","-m","visible-exact: record two actual infrastructure failure logs")
+    git("commit","-m","visible-exact: diagnose the actual third failure without scientific replay")
     while True:
         result=git("push","origin","HEAD:refs/heads/main",check=False)
         if result.returncode==0:break

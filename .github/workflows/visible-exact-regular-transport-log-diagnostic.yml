@@ -1,4 +1,4 @@
-name: visible-exact two actual regular-transport failure logs
+name: visible-exact third actual regular-transport failure log
 
 on:
   push:
@@ -17,12 +17,12 @@ concurrency:
 env:
   PYTHONDONTWRITEBYTECODE: '1'
   RECEIPT_SOURCE: topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_transport_log_diagnostic_public_worker.py
-  RECEIPT_SOURCE_SHA: e5c2b39b3bc190f04ec956dc00d457261766f892ec5ee9fc98084021e9bd28c5
+  RECEIPT_SOURCE_SHA: 4097d328a2b5f3f91a42cc4a0e48b6718fd127a4a55d61344b815a2f04b77ec2
   REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
   REVIEWED_RULES_SHA: f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd
 
 jobs:
-  two-failure-log-diagnostics:
+  third-failure-log-diagnostics:
     runs-on: ubuntu-latest
     container: python:3.12.14-trixie
     timeout-minutes: 20
@@ -55,7 +55,7 @@ jobs:
           r=pathlib.Path(os.environ['REVIEWED_RULES'])
           assert hashlib.sha256(r.read_bytes()).hexdigest()==os.environ['REVIEWED_RULES_SHA']
           PY_RECEIPT
-      - name: Read two exact failed job logs and publish only bounded infrastructure evidence
+      - name: Read the exact third failed log and its bounded recoverable result marker
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: >-

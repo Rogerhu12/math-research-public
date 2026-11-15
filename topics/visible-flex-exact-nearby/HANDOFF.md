@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 11:20:46 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 11:26:21 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机最后真pull：11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 10:24:25定时及11:14非FF即时pull仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读Green26次README空diff，最新11:14:26→449c328fea5243ea339c020d05fee9bb4d2a82e8；另diag真pull11:14:54→265813b46d190618cab5b0f6b4ba8cb54ddcf788两README空。ref不冒pull，每小时CLI继续。
-最近只读README核：ac5998f333ab49c4747874e2e44b7ca4ccfa3acf；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：07fc7e39fb595ea0a788bfc0a2a9a5733a930c86；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e:HANDOFF.md；串连0f2a9fc/38e1f57/25855ae及原notes归档。所有旧输入完整身份、成功/失败、restore与未付门保留；results/open归档按前H/原链接恢复。
 
 ## 总验收、对象和最终族
@@ -28,7 +28,7 @@ run43690634784/1 active，worker07:38:19.350836/340min、13:18期限；不改不
 C/98d3a516…actual43702688640/1 child0/17，reportc3b9ddaa/executionbca0f97d；19pins/1328行/18系数/31项锁定，原两J窗/physicalmean及全部身份见原报告。
 K/eca5b805…新证真实径向两普通源→density的一角增益，负body/严格负cut各一角损失；保κ/dr、n^-7/6、两列/两sign。root点仍n^7/6混合单位；非径向首阶耦合/真实seam/正图/mean/完整return未付，不能直接当GH。
 D/9f4f5f9b…actual43703879926/1 child0/12门/math.186610706s；report87ab6001/execution2c5cba2e/result9e88dfd3全核，27pins/96denom/16factor/4totals成功锁定。完整nonlocal<4.111362e14、first/pair<3.606196e16、mean<5.266503e12；主导local_raw1，仅volume upper。
-P SCIc479aaec/manifest8113b0d7、17pins/13门冻结。diag43707945899/1：首43705772615首次sync超时child0；次43707514815已结束1child，非FF出版rebase后未公开HEAD树404，exit/gates未知、temp失且无artifact/remote receipt。用户已授权未推结果重做；新workera68f2d69/flowbda661b7仅重做此失去的新消费者，容量用公开origin/main+精确owned小blob增量，出版前印完整≤59000B结论/门/identity。原S/C/D全0重算，L/0926ee25待P actual。
+P SCIc479aaec/manifest8113b0d7、17pins/13门冻结。diag43707945899/1：首43705772615首次sync超时child0；次43707514815已结束1child，非FF出版rebase后未公开HEAD树404，exit/gates未知、temp失且无artifact/remote receipt。用户已授权未推结果重做；新workera68f2d69/flowbda661b7仅重做此失去的新消费者，容量用公开origin/main+精确owned小blob增量，出版前印完整≤59000B结论/门/identity。第三43708483581也失败，先纯日志diag核实际stack/可恢复块，不重跑数学。L/0926ee25待P actual。
 
 ## 实际帽与core全频接口
 
