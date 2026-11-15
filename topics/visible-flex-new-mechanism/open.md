@@ -54,6 +54,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+**[R173](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md)已给明确全action严格正的外坐标点**：仅free12改−1/2，静态a=(k²+2)(k²−1/2)²+k²/4≥1/16，R172两层均不动，同μ固定。下一lit只核该指定点的68行/全部14族/μ/c/d，当前不调用cubic oracle或继续路径搜索；tail原147列关系判断其真实性。全部标量action正不证明U上真实泛函，非零字面余式也不证明原独立。
+
 [R172](results/R172-exact-highest-and-quadratic-certificates-for-the-updated-outer-point.md)已准确证明当前新点的完整最高action全路径非负、修正二次层逐点正定。若后继保这两个修正层且静态全非负，则所有路径条件均无法切掉那个点，须判断真实原函数关系/头部泛函良定义性。tail推进107normal+40R已存双mode原列的准确字面关系，lit推进当前静态多项式解析分离；不把外点当真字符，也不重跑最高层负路径搜索。
 
 [R171](results/R171-static-negative-interval-of-the-parity-corrected-outer-candidate.md)已排联合新外点：a_static(1/2)=0但a_static(2/3)=−371/11664。完整静态为p(k²)、deg p≤3；下一仅对当前准确p解析端点、无穷和正局部极小，严格负输出有理k，全半轴非负输出准确证书。不能仅逐格追加k，也不能把本点边界导数条件强加所有未知字符。
