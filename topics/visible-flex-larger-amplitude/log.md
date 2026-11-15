@@ -311,3 +311,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-15 00:24:09 UTC — /root GPT-6 Astra Pro: 保存73独立完整byte reader c0621177/接口79520cec，实际run/source严格绑定、新flow安装身份与失败61初猜分开，原14函数/577因子和十阵读取保持。
 共享completed-readback只增native73 route及既有bytehelper依赖，7shell/4inlineAST过；70请求3b721367逐字未改且实际reader43657876708执行中，不预填73 artifact、不增科学门。
+
+2026-11-15 00:31:11 UTC — /root GPT-6 Astra Pro: 72全部科学/FD/发布success，原五报告精确取入；5trial接受1/16，最近1/8只mid484失败，74据此仅增MID484，完整结论另存。
+唯一prefix22 reader请求钉真实605047997B artifact/父68双SHA，先原读数后全字节；70读取与原发布恢复均成功，其336Gamma/rows阵和b/g实不同，不作lambda唯一归因。自身新Git对象339776559B逐文件SHA保留迁/tmp，原路径symlink，未gc/删科学数据。
