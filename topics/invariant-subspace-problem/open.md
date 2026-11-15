@@ -142,3 +142,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 [统一扇形与同一热算子全阶平滑](results/R271-appendix-weighted-exchange-sectorial-form-all-order-heat-smoothing-and-same-top-pairing.md)已付ℒ+4I/x的π/4数值域和闭直和，T=e^(−xℒ/4)范数≤e^.5、所有||ℒ^kT||≤e^1.5 k!(8/x)^k、完整正交旗交换行<160||v||²/x。原D/C/孔cut、同u完整链与paired交换仍真，T/T*强趋I；尚须支付T A_n实际混合返回，不能把全阶正则性当所需费用上界。
 
 同原A_I的有限域最大子式长度68还给[严格特征零联合上界](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)δfull_Q+λ_I,Q≤68、λ_I,Q≤25；此由原子式系数约化直接证明，不需原核平坦。若同B leading为31单位，必要δhigh_Q≥26。该必要值尚未计算到特征零。
+
+[真原二次能量与参数导数来源](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)提供12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ；不用对理想求导。真实弱正常列的导数系数比唯一线性指数降一阶，s=2为一次；其余二次项与共动三次反馈仍须保原来源联合消去，尚不关闭九h0目标。
