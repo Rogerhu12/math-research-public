@@ -428,4 +428,6 @@
 
 - **原末项的全SS同权恒等障碍（已证明）**：[笔记](notes/2026-11-15-sigma-endpoint-global-Hasse-obstruction.md)。两原末项权p−11且p整；Δ乘其Fp常系数组合不能在全部SS等于非零常数倍DA。简单Hasse零/权2商不存在与Tate常数1/12给矛盾；单j0专属CM congruence未排除。SHA 436a90382bc81cb734f151d061d43988f91d4cccd98d10bcf2309591744c61fc。
 
-- **R815执行契约（证明沿R813/R814，实际矩阵待计算）**：[原Wronskian乘法与正规连接](notes/R815-original-normal-derivation-operator-method.md)。复用冻结R811框架，两个原Q向量的真实scale只一次；g/h六模插值七准确终验，Γ五/六且完整非齐次式/两图修正。实际三个目标/813824有界系数位置只为存储界；不预填非零数、矩阵或极理想。method SHA49612c053825c8c8973172106e6323d6abdc6d762fb9670df9d78712ca2345d9。
+- **R815首次执行契约（未执行即由R817缩小；实际矩阵待计算）**：[原Wronskian乘法与正规连接](notes/R815-original-normal-derivation-operator-method.md)。复用冻结R811框架，两个原Q向量的真实scale只一次；g/h六模插值七准确终验，Γ五/六且完整非齐次式/两图修正。实际三个目标/813824有界系数位置只为存储界；不预填非零数、矩阵或极理想。method SHA49612c053825c8c8973172106e6323d6abdc6d762fb9670df9d78712ca2345d9。
+
+- **R817（已证明）**：[不独立重构Mh的原导子准确认证](results/R817-original-normal-derivation-without-separate-h-multiplier.md)。T_G=[G,W]+MgW′的完整commutator及首列先给Mh，再由cyclic唯一给G=Γ；实际We0=e1把列条件化为Ge0=0/Ge1=vh。嵌套残差最大次数6，Γ须七固定准确点，五模点仍足；Mg六/七。仅重构Mg/Γ，省295936有界系数位置，实际算术仍待。proof SHA 2fc18cdc4bd264b2d2dbc9f80b885574764d8844d9ee3725960b5b76b684c80b。
