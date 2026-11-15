@@ -276,17 +276,17 @@ s_f[F]=(L_q+H_q)^{-1}U_q^*F.
 \tag{5.1}
 $$
 所有逆按已付的原共同源与自然闭形式解释。为区分非零源链和完整投影，令
-$
+$$
 \mathcal T_b s=(U_qs,-J_{b,q}s),\qquad
 \mathcal T_f s=(U_qs,-J_{f,q}s),
-$
+$$
 左右分块分别是 $\le q$ 与 $>q$ 的物理孔层。完整 Riesz 代表准确为
-$
+$$
 \boxed{
 P_{\mathcal M_q}F=P_{\mathcal K_q}F+\mathcal T_b s_b[F],\qquad
 P_{\mathcal K_{q+h}}F=P_{\mathcal K_q}F+\mathcal T_f s_f[F].}
 \tag{5.1a}
-$
+$$
 因此两者保留同一个完整左零源分量；$\mathcal T_b s_b$ 或 $\mathcal T_f s_f$ 单独不等于完整物理投影。其余右零源已由各自真正右最小列的物理正交性处理。
 
 若多项式 $p$ 的次数 $\le q$，那么 $p(D^*)i_0g$ 仍是一个合法低端 forcing；(2.3)–(2.5) 以及 $\mathcal K_q$ 的同式同时给

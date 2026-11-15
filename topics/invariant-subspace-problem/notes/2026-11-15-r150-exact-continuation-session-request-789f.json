@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "ff40f57d8c0df767cc8780e93c787045087f834a",
+  "rulesReadAtCommit": "81650105225be9f97505e3404d7c46e23e74a52d",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1263,6 +1263,42 @@
     },
     {
       "id": "complete-original56-local-outside-gcd-300",
+      "requires": [
+        "original-three-minor-determinant-upper-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-complete-original56-local-outside-gcd-789f.py",
+      "scriptSHA256": "0e111c2334bf62e4b4404d84c8af5e9f62ee99a6b64f766bad541c126b1e7fa4",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+          "sha256": "4ae559a6b1b5efdf3d88e1f59bc987895f0f6ab5ec8dd2d61d5a55db3ef9a1be"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        }
+      ],
+      "argv": [
+        "--upper-source",
+        "{scripts}/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+        "--core-source",
+        "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+        "--parent-checkpoints",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--upper-out",
+        "{work}/original-three-minor-determinant-upper",
+        "--out",
+        "{work}/complete-original56-local-outside-gcd",
+        "--remaining-seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/complete-original56-local-outside-gcd/complete-original56-outside-gcd-receipt.json"
+    },
+    {
+      "id": "complete-original56-local-outside-gcd-300-second",
       "requires": [
         "original-three-minor-determinant-upper-180"
       ],
