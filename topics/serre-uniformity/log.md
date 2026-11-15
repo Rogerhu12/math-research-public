@@ -459,3 +459,8 @@
 - 正式登记R795公开run43692029484成功：1506条原六次幂基q0..81、82¹²、40ξ与20t坐标，全部旧mod739及反演准确验证，核心22.7376432秒。原basis/recipe/基点不变。
 - root核实际ZIP、全部1515输出/1507阶段SHA与schema、原次序尺度和run/source/core链；仅IO，无本地数学。大manifest/准确表不入Git或Release，旧1/5输入随一日活跃包给后继。
 - H逐字归档后重新压缩，open/index同步。R796局部二次图与R797五新Laurent工程已冻结待启用，R787仍运行；μ33/原β/η/规范高度及全p主目标仍OPEN。
+
+## 2026-11-15 16:10 Asia/Taipei · serre-public-astra-20261115
+- R796原CM二次局部图证明与公开工程已审并启用：原M2 q0..27及已成R790点/首导给416个独立二次积、144全局关系，完整char0代回保证真正形式支。当前length2，只建立基础图，高N按实际需要逐阶增。
+- root完整核core/wrapper、适配尺度/λ、416或832有理块求解、1120K坐标代回和断点链；ordinary独立交叉读。官方python-flint0.9 numer_denom/solve接口核对；原148+148文件和146recipe由实际wrapper IO验证，无本地数学。
+- proof8bf26624、method2f9c5252、core636cf738冻结。R795实际结果已推05974f96，R787仍运行，R797待启用；不预填新图或高度。

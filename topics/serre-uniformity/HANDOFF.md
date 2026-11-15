@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：87d7b071baa3aa03c9fb0182d386d7818f3dada2**（2026-11-15 08:09 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：ab94f6e164c54e008445119277d62086c50de3cc**（2026-11-15 08:10 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R796前H](notes/2026-11-15-handoff-before-R796.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
@@ -29,7 +29,7 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending�
 
 [R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)：V3/V6=690/1506，固定μ33只需q0..81；原V6关系142项足够，旧R781 y已够。固定s=τB后再求u，真实rank1116给264维W_F、degree426残余。一般d令m=ceil((d+254)/272)，f0=272m−d；保$G=s/(fτ^{m-3})$全部常数及原c0刚性化。K上局部代数后扩L，不混字段；全部非零实际Hom在20 cusp不分歧。实际新矩阵/η/高度尚缺。
 
-**R796待登记/启用**：exact_height的二次局部图证明及工程冻结；只用旧M2 q0..27与R790点/首导，适配τ、σ及144个二重零截面，选416个W_P二次单项式，完整char0代回144关系，得到x=Q(t,x)、Jacobian I144。当前目标length2只求真实全局图；高N按真实消费需要新增，不自动算155/290。proof8bf2662434d8117be5514cfbe9ba19fa089167c6e7bab76c079daded66fe40d4，core636cf73825ff99b11b44c7186fd4ef5af9dcbb311949cdd0c03e08ea424218c6。
+**R796证明和工程已启用，实际结果待run**：[原二次局部图](results/R796-original-CM-local-chart-from-quadratic-sections.md)及core/wrapper全部已审；只用旧M2 q0..27与R790点/首导，适配τ、σ及144个二重零截面，选416个W_P二次单项式，完整char0代回144关系，得到x=Q(t,x)、Jacobian I144。当前目标length2只求真实全局图；高N按真实消费需要新增，不自动算155/290。proof8bf2662434d8117be5514cfbe9ba19fa089167c6e7bab76c079daded66fe40d4，core636cf73825ff99b11b44c7186fd4ef5af9dcbb311949cdd0c03e08ea424218c6。
 
 **R797待审核/启用**：ordinary_local冻结五个新映射Laurent工程。仅收缩旧R77456个共同G_iG_jG_k，新标量各自保4·mult/1722³与q移一阶；无原f4标量复用。真实新N170/172/176/193/196，保R781无逆递推除数3n+1、原v相位，全部新算术留Actions。corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。
 

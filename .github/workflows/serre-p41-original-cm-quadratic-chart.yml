@@ -1,0 +1,64 @@
+name: Serre p41 original CM quadratic chart
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R796-public-original-CM-quadratic-chart-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R796-original-CM-quadratic-chart
+  cancel-in-progress: false
+
+jobs:
+  original_cm_quadratic_chart:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-original-cm-quadratic-chart.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R796_original_CM_quadratic_chart.py
+            /topics/serre-uniformity/scripts/R796_public_original_CM_quadratic_chart.py
+            /topics/serre-uniformity/scripts/R786_public_exact_power5_short_basis.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R796-public-original-CM-quadratic-chart-request.json
+            /topics/serre-uniformity/notes/R796-original-CM-quadratic-chart-method.md
+            /topics/serre-uniformity/results/R796-original-CM-local-chart-from-quadratic-sections.md
+            /topics/serre-uniformity/results/R793-original-RR-pole-divisors-and-CM-local-algebra.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Prepare the source-bound original quadratic chart and requested jets
+        continue-on-error: true
+        timeout-minutes: 337
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R796_public_original_CM_quadratic_chart.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R796-original-CM-quadratic-chart-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R796-original-CM-quadratic-chart/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Require exact global relations and the actual requested length
+        if: always()
+        run: python topics/serre-uniformity/scripts/R796_public_original_CM_quadratic_chart.py verify

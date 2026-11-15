@@ -345,3 +345,5 @@
 - **R795（方法及公开工程已成）**：[普通power6 q0..81方法](notes/R795-exact-ordinary-power6-prefix-method.md)。只由真实R775配方和R786旧power1/5生成1506条新82¹²尺度行，保原40/20坐标、mod739与逐项反演，不重算旧E1/短基/Laurent，不预称μ33或高度已得。
 
 - **R795（公开准确计算已完成）**：[原1506条六次幂短基](results/R795-certified-original-power6-short-basis.md)。run43692029484/sourceac6d8fff，22.7376432秒完成q0..81、82¹²及40ξ/20t坐标，原mod739/反演逐项通过。certc5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae；全部1515输出SHA已核，只新增缺失power6，旧生产者不重算。固定μ33、实际极除子/η/高度仍须求。
+
+- **R796（已证明，公开基础图请求已启用）**：[原CM二次截面局部图](results/R796-original-CM-local-chart-from-quadratic-sections.md)。只读原146个M2前28项和R790值/首粗导，416个真实独立二次积经完整K坐标代回给144关系；x=Q(t,x)在原点的Jacobian I144，唯一形式支逐阶仅用乘法。K上原相位/尺度及λ保留，高N只按消费需要追加；当前length2，实际关系与后继点/η/高度尚待Actions。
