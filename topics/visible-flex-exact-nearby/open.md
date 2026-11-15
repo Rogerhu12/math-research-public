@@ -24,7 +24,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 ## 2. 当前主因子、强误差与待闭合的逆
 
-本节以及下节全部旧全式、单位、原球、失败/lost与恢复点保本页前档和原proof；成功旧数学禁重。PG已部署SCI08b8d1d9/worker1af8afc7/manifestfebb8578/flowfa7b2436，17current/4AST/20门，唯一push待识别；WE paid已部署SCId02efe46/workere9c606d0/manifest098c0906/flow41f4fe83，12pins/2AST/9math/22门，唯一push待识别。仅五个新正组合，retained register完整；继续真实finite/mean Schur，不以paid费用冒全$E_i$。
+本节以及下节全部旧全式、单位、原球、失败/lost与恢复点保本页前档和原proof；成功旧数学禁重。PG已部署SCI08b8d1d9/worker1af8afc7/manifestfebb8578/flowfa7b2436，17current/4AST/20门，唯一push待识别；[WEA实际装配](results/R133-supplement-actual-paid-waist-strong-error-assembly.md)c85797c5原43769746581/1 child0/22成功锁，12pins/2AST/9math。五新正组合、完整paid上界1.91881943e118及6 retained register保全；继续真实finite/mean Schur，不以paid费用冒全$E_i$。
 
 [PF](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf/[CT](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保两row、old I/−SI、root有限函数0/g1hat、真X−density、χ/Taylor差/mean/jump/residual；scalar不代函数。
 [SN恢复](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7仅lost314×4 pointnominal320bit，旧1256预算/next2831禁重。唯一43751213826/1、b8bd86a，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST；22:26原346354b5/17185/d72c1ecf为10792=1256+9536，interval448/cursor5589467537525383/144115188075855872，双H3prefix2.813998528016974。34固定字段原字，complete/targetfalse、return/supervisionnull；真pullb9e9a4db、两README空diff。仍须双支四导四列/全A1/128尾/mean/原H3完整terminal，prefix不作终点C。

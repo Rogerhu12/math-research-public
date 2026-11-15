@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 WEA**：[实际已付腰部强误差装配](results/R133-supplement-actual-paid-waist-strong-error-assembly.md)，43769746581/1首次成功；三完整状态差、独立port因子、有序state因子和paid总上界均成，原CG整费一次。六retained仍exact-border-unpaid，未授完整Ei/Eo、incoming、Schur或R0。
+
 - **已证明 CGA**：[实际完整切口与传播首系数](results/R133-supplement-actual-separate-cut-and-propagated-first-coefficients.md)，43768992861/1首次成功；Ccut/g/branch各三导与三乘子窗、完整dual/rank和有序coeff上界齐，TF after-right复用一次。state/retained/完整Ei/incoming/Schur仍独立。
 
 - [WE：完整腰强误差的现行输入与保留行审计](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md) `49616d85`：把已有WY35–36逐项接到PC/ST/SJ全状态差与CG系数费；SJ的cut已含，TF after-right不重复收费，BH左消仅用于state。paid与retained严格分开，保两physical mean、运输P97有限列和独立PW端口原序；尚不能把paid数当完整Ei或测试Schur。未执行新数值数学。

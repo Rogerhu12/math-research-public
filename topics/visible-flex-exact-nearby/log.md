@@ -30,3 +30,7 @@
 - 2026-11-15 22:35:09 UTC visible-exact-astra-0df9：PG current-only四件部署，SCI08b8d1d9/worker1af8afc7/manifestfebb8578；17pins351865B、4AST/20门/60完整字段，root全文407行SCI及294行WX worker差异和manifest/flow静态核。
 - 合同为最终58cae91c/0a5e4ad7，仅读成功CG/TF/WX，新增原序A0/A1、完整nonmean/primitive及两log和独立strict门，0exp/0旧math；两optional失败不冒完整逆失败。两旧derived NPZ已守名单普通删91ddf07a，120KB freshreserve仍强制。
 - 新增题外.github/workflows/visible-principal-inverse-first-derivatives.yml仅本题新principal任务；99b0002ae7061099391f4df7f031a245b5c80ff3两README空diff。沿唯一push，WE已22门成功、SC3原22:34 step9，继续全retained与原SN。
+
+- 2026-11-15 22:35:41 UTC visible-exact-astra-0df9：WEA2fd76d54/18914/c85797c5实际独推；原43769746581/1 child0/22与全部jobsteps成功，SCI18532/3d73b56f、exec12841/8c1cc71f、report8315/5cab746e锁。
+- root全文/14处原球、整SJ与整CG copy/12input digest核齐；agent其余旧copy与SCI canonical/27182B preGit90dd183d精确复原，10259B process仅引原worker记录。state/paid同打印球不删小CG项，完整五新组合只paid，6 retained/全Ei/incoming/R0仍false。
+- a7477d1f29d46a09be9039a741e6d941b882cd5d两README空diff；PG唯一自然push待实际，继续retained分类/主逆更尖adjoint估计与原SN/SC3。
