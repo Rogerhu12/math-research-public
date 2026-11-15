@@ -545,3 +545,5 @@
 - **原选列的标准Koszul支撑交模31恰29维。** [实际完整证明](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)：run43679903558在1.575719778秒核全1834外坐标、rank1603及36自由像rank29，像恰前29轴、比旧23新增六模方向。Q支撑交仅上界29；D整规范e29…e35若将来成为真核则必非标准Koszul。原真核仍23，正作有理提升。
 
 - **同选列标准Koszul支撑交严格29维、六个真新方向。** [全原整数结果](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：run43679903558实际33.711323768秒，原1603单位块及全部1834残差给Qdim29，29列全6188/4367乘回、36自由Qrank29真；并旧23仍29，借自由坐标单射严格补齐旧核成员性。所选char0秩4318…4325，标准族穷尽，余七非Koszul尚未构造。
+
+- **真核数的统一条件来源界与当前8726。** [完整降度证明](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)对同选常块c≥15个真核给cost≤8755−c；换入外来源只自动保c−1阶，不能误省一阶。当前29真核严格付条件8726、非基8725；原目标成员性与lc(D)31单位仍是未付条件。
