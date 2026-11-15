@@ -1,0 +1,27 @@
+{
+  "request_id": "rank2-20261115-r715-first-z",
+  "run_id": 43691642194,
+  "source_commit": "25fdaddb02cdaf2a247264c87c7f8ad5add44eb6",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r715-native-z-first-moment.js",
+      "script_sha256": "1f62063eb999b984be4c702fc598ef8e621f1e9af63af19c22a6da26e7d53325",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
+      ],
+      "engine": "node",
+      "sha256": "a366b3a2ae25d76c6783cd4402bad4a569fd4d4e2520f80e07949bc6df5c6bb6",
+      "stdout_bytes": 32286,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132743359410,
+  "workflow": "Rank2 small exact public checks",
+  "note": "stdout is reproducible in the named public run; no generated output file is committed"
+}

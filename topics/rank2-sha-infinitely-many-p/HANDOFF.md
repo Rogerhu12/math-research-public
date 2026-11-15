@@ -5,17 +5,17 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：2f25b5aacea5664574c18aa795c662fdeede3eab；2026-11-15 07:52:45 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:52:44 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
+- 最近已读规则提交：8374a72b4c4cc72d1791469425061ca9aceccfb2；2026-11-15 07:55:11 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:55:10 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
 - 本地exec无环境；API只非强制追加。拒推立即本地pull --rebase重试、新head核规则接父再推，循环至成功；CI实际pull与本地失败分记，环境恢复即本地pull。
-- 07:16:15实际pull/run43689190153/job132735991302，两README无变；库存25,796,973B/1836文件，旧3分块真实输入。下一最迟08:05 UTC。
+- 07:52:56实际pull/run43691909760/job132744155022，两README无变；库存26,027,756B/1854文件，旧3分块真实输入。下一最迟08:40 UTC。
 - [规则15复现入口](notes/2026-11-15-recomputable-output-provenance.md)：元数据清单/临时历史runner；theta-plane与R466→471已在43683428893同SHA复现。余79未匹配/2自读/3旧分块须核真实生成器，不按文件名删。
 
 ## 完整前检、索引与分工
 
-压缩前全部内容：[HANDOFF](notes/2026-11-15-frontier-before-r711.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
+压缩前全部内容：[最近HANDOFF](notes/2026-11-15-frontier-before-r715.md)（内连R711前完整档）、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
 R1–363、365–560、562–653、655–700、701–711、713–714已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
 root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root后续原两谱Frobenius/实际非退化；deep R712原指定forcing/同R实际像；theta R715同qcd五维Z一阶来源；literature R716原固定φ的全局限制。
 
@@ -24,14 +24,14 @@ root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。r
 j0 E:y²=x³+17,+24,+2312的rank2为R294/398/469，完整Selmer桥2+corankSha≤2ordJ；须同一无穷p族至少一条固定原J′非零。quartic E17/E136/E389、R364、O4原δ^aεw的a≤1∞p、O6 q_p=1∞p/全核Np仍按open依序。
 全部ray/13/19/M3/D*坏集与规范沿完整前检；R659只添61/277不增25/81。旧CRT含17²，模289=(273,87)、迹170，禁换δ类。π0为E1的2δ-primary，π17=π24=−π0；λ=−barπ0^-1、β=−λ、κ=pλ²、Ωunit。ρ0=−σ^⊗6/84，两h/half-quarter/18物理96来源/原pair全部保持。
 
-## 普通：同q的三态算术已付，浅补域仍开
+## 普通：真实三态与混合首行
 
-R594旧全native/RV/word/C来源、五型七Λ/质量/log在归档；依N新测试不搬固定P递推。R692三态R/K、真实RY/词像格逆观察及R695全216CM纤维、外尺度ζbarα/α、原12次Δ/双H门保。四unit depletion用质量转置，不把原Pnew/PH穿过移动深门。
-**R702** 新同q最高30：45条实际中性列，原π4保；几何整周期/隐藏⊥L付半周期a=ω²/2、全E4零及19−4=15维/八依赖。真实λκu的整逆经旧ray单位密度付全N4同时整，p>163，新增深度成本0。U0=S、U1=0、cd=S、nativeW=6δT、J2=1。
-EdeepN的Y三态=λ2N(S,ω²S/2+[1/2]new,ω²S/2−[1/2]new)，W三态=λ2N6δ(T,T,−T)；真实new尺度和log保，同门四核真词逆观察回三原中央。公开43689632357/job132737328611，四点45minor423/725、892/296，全53行通过；ci/exact-check-20261115-r702-fixed.json。
-**R713** 同45整逆取双冻结(1,1)，实际J换元剩(Γ01−Γ03)∩CD_N，交域严格消；T/S同unit cut后保完整log(1+Z/(bYX_n))。原Eshallow Xi/参考/外谱/尺度质量全保。真实中性差正规来源/词全零但J2=1，负一深支仍须原混合补偿；下一条是同qcd的S34型5五维Z一阶来源。
-R693/R702 P30全J2/8/14/20/26保，原负一Δ估值3n−2N+vI（n>N且2n>vI），I非零非unit；cd-T缩Z观察不是nativeW，全近相消/尺度质量/补域仍须同域联立。
-**R698** whole A34在[68] A/Q盖上=B2，adjustedCM13/19逐项交换，未Π0来源给原A/Y/Z真词S/new/H。Π0不穿A深；AdeepN+34及shallow34≤vA<N+34、原H双门/12次权差、全非principal/W/V补域保持。公开43685270950/ci/exact-check-20261115-r698.json。
+全部原R594五型七Λ/质量/log、R692三态R/K与真实词像格、R695全216 CM纤维保完整前检；依N新测试不搬固定P递推。
+**R702** 原π4中性q最高30，45实列的整逆在旧ray密度1/全N4同时成立，新增深度0、p>163。半周期/四挠整周期/隐藏⊥L付全部八关系与15维余空间。U0=S/U1=0、cd=S、nativeW=6δT、J2=1；Edeep的Y三态=λ2N(S,ω²S/2+[1/2]new,ω²S/2−[1/2]new)，W=λ2N6δ(T,T,−T)。完整Eshallow Xi/参考/外谱、尺度质量与原四核真词保。公开43689632357/132737328611、ci/exact-check-20261115-r702-fixed.json。
+**R713** 同45整逆六目标任取，付双冻结(1,1)。真实J换元留下(Γ01−Γ03)∩CD_N，交域A/Q/L深严格消；CD上T/S同unit cut，保log(1+Z/(bYX_n))及每移位自己的域。原浅Xi未变，Href/外谱浅行仍λN倍、全质量/log保。真实中性差全部正规来源/词行0但J2=1，因此这些行不杀负一深支。
+P30保J2/8/14/20/26，原负一Δ估值3n−2N+vI，n>N、2n>vI，I非零非unit；cd缩Z的T观察不等nativeW，所有近相消和补域仍要同域联立。
+**R698** whole A34在[68] A/Q盖上=B2；旧17²ray及adjustedCM13/19交换全保。未Π0来源回原A/Y/Z真词S/new/H，Π0不穿A深。AdeepN+34、shallow34≤vA<N+34、原H双门/12次权差及W/V失败支保；公开43685270950。
+R715计算已成功43691642194/132743359410：原149实列完整五维Z首源令rank45→50，四点50minor631/828、813/809；双冻结与全正规零/J2=1均可再令FZ=0。只记实际计算；完整同ray论证写成后立即推，再批做k1..5全部28混合源，有限壳不冒全joint。
 
 ## 惰性：真实原迹、3/4高度与原Gaussian前缀
 
@@ -54,6 +54,6 @@ R614/R647全部原addition整窗、三P_m、H^-p/真低除商和五Cartier坐标
 
 **R714** 指定Z1=Z+c_p^−1(G+r)^p与原整截断z0全degree<p²吻合：粗q−p−1误差由D及μ6型补齐。DZ1=1，极帽(p³−p²)D2与全部零点保。全h≤p−1 Cartier先减真实简单极，坐标差全付；前五块=g_h，第六块=g6+(m/2)η，原双m消η仍保真实低商与后续全部模型差。
 
-[真实cube轨道](notes/2026-11-15-cube-factor-orbits-and-even-critical-reduction.md)：19角伸缩全Pic不变，轨道长l给3ql(s−r)≤2B_D²+48l²b；47/8临界需ql≤8/3，q3全排、q2迫原不可约F自身偶。整提升/未知R不自动偶，指定forcing仍开。R715公开准备同qcd五维Z一阶/原ζ_N检测，保全53旧行、149实列及全C/E。
+[真实cube轨道](notes/2026-11-15-cube-factor-orbits-and-even-critical-reduction.md)：19角伸缩全Pic不变，轨道长l给3ql(s−r)≤2B_D²+48l²b；47/8临界需ql≤8/3，q3全排、q2迫原不可约F自身偶。整提升/未知R不自动偶，指定forcing仍开。R715全53旧行/149列及C/E保持。
 
-07:52 UTC已提前提交实际CI pull请求rank2-20261115-after-r714，待回执；此前实际07:16/最迟08:05门仍保。R715公开run43691642194/job132743359410已成功，正在读取同来源五行结果。
+07:52:56实际CI pull已核两README无变，回执ci/rule-pull-20261115T075256.json；实际与本地exec无环境分记。
