@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已消费159系列**：容量/hold、因子化J与选行仿射actual全部见对应notes，不重已付阶段。旧选行仿射43722283235/bb33192：η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰/已选曲率失败、m5 e/f非线性保原记录。active16.997316s、八恢复569.558425s分账，50/102源24输入核合。所有旧失败/漂移/费用仍保原件。
 
-**完整两网actual已首读**：[真实结果](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过，κfine57.999983395；高度margin仍有−5.6e−17，容差eligible不冒精确非负。9必要恢复805.206121s、新活动35.287169s、总845.020544s，16+2完整值；54直接/106递归源对receipt全合，开发所有新续项过/首方向6源绑复用。只读observer43732214112得实际report，原checkpoint已读：5打印模型、10primary/2SOC/12LP、末B.000125、有限模型停滞；context转义恢复，原模型scalar已取1/2/3/4/6；原summary有六记录而native漏5，须从原summary补读5及全部误差/输入；原source106逐项核；不重科学。旧首array并列incumbent误断言已修正、失败原件仍保。下一原模型/误差/恢复漂移消费。
+**完整两网actual已首读**：[真实结果](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过，κfine57.999983395；高度margin仍有−5.6e−17，容差eligible不冒精确非负。9必要恢复805.206121s、新活动35.287169s、总845.020544s，16+2完整值；54直接/106递归源对receipt全合，开发所有新续项过/首方向6源绑复用。只读observer43732214112得实际report，原checkpoint已读：5打印模型、10primary/2SOC/12LP、末B.000125、有限模型停滞；context转义恢复，原模型scalar已取1/2/3/4/6；原summary有六记录而native漏5，已提交原summary专读5及全部误差/24输入/恢复；原source106逐项核；不重科学。旧首array并列incumbent误断言已修正、失败原件仍保。下一原模型/误差/恢复漂移消费。
 
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
@@ -56,4 +56,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 6f027a11c52d2bf0d2c526aaf9758572c3060447，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 9026e9394566e97c1ee5c085d70d7698cc9c21bd，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

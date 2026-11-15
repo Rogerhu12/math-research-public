@@ -305,7 +305,9 @@ def error_view(value):
     if not isinstance(value, dict):
         return value
     result = small_scalars(value)
-    for key in ("difference_terms", "complete_model_difference_terms"):
+    for key in ("difference_terms", "complete_model_difference_terms",
+                "maximum_slack_difference_terms", "norm_curvature_direct_and_stable_diagnostic",
+                "row_actual_ef_nonlinearity", "row_spectral_curvature"):
         if key in value:
             result[key] = small_scalars(value[key])
     for key in ("complete_affine_four_maxima",):
@@ -434,34 +436,67 @@ def development_view(report, preview):
     return preview.compact(result)
 
 
+def summary_model_view(value, preview, path):
+    result = small_scalars(value)
+    primary = value.get("finite_primary")
+    if isinstance(primary, dict):
+        selected = small_scalars(primary)
+        if isinstance(primary.get("inner_LPs"), list):
+            selected["inner_LPs"] = [small_scalars(item) for item in primary["inner_LPs"]]
+        result["finite_primary"] = selected
+    for key in ("cut_rounds", "inherited_SOC_budget_comparisons",
+                "physical_values_or_Jacobians_inside_inner_solver"):
+        if key in value:
+            result[key] = preview.compact(value[key], path + "." + key)
+    complete = value.get("complete_original_grid_model")
+    if isinstance(complete, dict):
+        result["complete_model_summary"] = small_scalars(complete.get("summary", {}))
+        oracle = complete.get("oracle", {})
+        result["original_oracle_statistics"] = oracle.get("statistics", {})
+        result["original_oracle_initial_four_maxima"] = oracle.get("initial_four_maxima")
+    if isinstance(value.get("actual_metric_errors"), list):
+        result["actual_metric_errors"] = [
+            {**small_scalars(item), "decomposition": error_view(item.get("decomposition"))}
+            for item in value["actual_metric_errors"]]
+    result["unexpanded_original_field_names"] = sorted(set(value) - set(result))
+    result["original_complete_summary_model_fingerprint"] = fingerprint(value)
+    return result
+
+
 def actual_view(report, preview):
-    result = {k: v for k, v in report.items() if scalar(v)}
+    keys = ("schema", "status", "phase", "github_sha", "github_run_id",
+            "github_repository", "prepare_elapsed_seconds", "optimization_active_seconds",
+            "process_total_elapsed_seconds", "run_audit_elapsed_seconds", "peak_rss_kib_linux")
+    result = {key: report[key] for key in keys if key in report}
+    result["previous_readback_runs"] = [43732214112, 43732702362, 43733275356]
     result["source_files_sha256_previously_read"] = {
         "source_count": len(report["source_files_sha256"]),
-        "original_full_mapping_read_in_observer_run": 43732214112,
         "all_bindings_rechecked_against_receipt_here": True,
         **fingerprint(report["source_files_sha256"])}
-    for key in ("final_selection_validation", "value_evaluation_counts", "error", "pipeline_failure"):
+    for key in ("input_byte_streams", "state_identities", "input_restoration_conclusions",
+                "ninth_handoff_summary", "algorithm_stage_scope", "error", "pipeline_failure"):
         if key in report:
-            preview.field(result, key, report[key], 30000, required=True)
+            preview.field(result, key, report[key], 23000, required=True)
     stage = report.get(STAGE)
-    if isinstance(stage, dict):
-        selected = {k: v for k, v in stage.items() if scalar(v)}
-        for key in ("checkpoint", "solver", "last_pre_LP_decision",
-                    "complete_original_row_floor_and_nonlinear_defect_records"):
-            if key in stage:
-                preview.field(selected, key, stage[key], 12000, path="$." + STAGE)
-        remaining = {k: v for k, v in stage.items() if k not in selected}
-        selected["unexpanded_stage_fields"] = preview.omit(
-            remaining, "$." + STAGE + ".unexpanded_stage_fields",
-            "original model human lines and focused directories follow; final grids were already read in observer 43732214112",
-            directory=True)
-        preview.field(result, STAGE, selected, 30000, required=True)
-    skipped = {k: v for k, v in report.items() if k not in result}
-    result["unexpanded_top_level_fields"] = preview.omit(
-        skipped, "$.unexpanded_top_level_fields",
-        "focused model/checkpoint/pull observation; original final gates already consumed from run 43732214112",
-        directory=True)
+    require(isinstance(stage, dict), "original actual report lacks its stage")
+    selected = {k: v for k, v in stage.items() if scalar(v)}
+    records = stage.get("complete_new_affine_model_and_error_records")
+    require(isinstance(records, list) and records, "missing original complete model summary records")
+    result["original_complete_summary_model_count"] = len(records)
+    require(any(record.get("model") == 5 for record in records),
+            "original complete summary lacks the specifically unread fifth model")
+    focused = [summary_model_view(value, preview, "$." + STAGE + ".models[" + str(i) + "]")
+               for i, value in enumerate(records)]
+    preview.field(selected, "complete_new_affine_model_and_error_records",
+                  focused, 44000, path="$." + STAGE, required=True)
+    for key in ("trial_decision_columns", "trial_decision_gate_code_order", "model_table",
+                "trial_table", "correction_table", "accepted_table", "SOC_hold_diagnostic_table",
+                "scale_feedback_updates"):
+        if key in stage:
+            preview.field(selected, key, stage[key], 44000, path="$." + STAGE, required=True)
+    selected["original_stage_fields_not_reprinted"] = sorted(set(stage) - set(selected))
+    preview.field(result, STAGE, selected, 67000, required=True)
+    result["original_top_level_fields_not_reprinted"] = sorted(set(report) - set(result))
     return result
 
 
@@ -688,7 +723,12 @@ def run(args, context):
                                       "source_count": len(actual_sources),
                                       "development_mapping_equals_actual": True}
     preview_dev, preview_actual, preview_extra = Preview(), Preview(), Preview()
-    dev_view = development_view(dev["report"], preview_dev)
+    dev_view = {
+        "schema": dev["report"].get("schema"),
+        "passed": dev["report"].get("passed"),
+        "previous_full_development_readback_run": 43732214112,
+        "original_report_fingerprint": fingerprint(dev["report"]),
+        "no_check_reexecuted": True}
     actual_semantic = actual_view(real, preview_actual)
     context["complete_report_count_for_schema"] = 2
     context["original_actual_pull_records"] = compact_records(
@@ -696,28 +736,39 @@ def run(args, context):
                  (("development", dev["report"]), ("actual", real))
                  for item in walk_records(obj, {"actual_pull", "actual_git_pull"})],
         2500, preview_extra, "$.original_actual_pull_records")
-    context["native_actual_printer"] = compact_records(native, 3500, preview_extra,
-        "$.native_actual_printer")
-    context["native_human_printer_lines"] = preview_extra.omit(human,
-        "$.native_human_printer_lines", "domain tables were consumed; this observation prioritizes original model/trial/error scalars")
     context["native_model_record_count"] = len(models)
-    context["native_model_directories_and_focused_fields"] = compact_records(
-        models, 48000, preview_extra, "$.models",
-        transform=lambda row, i: {k: v for k, v in row.items() if k != "model"} |
-            {"focused_model": model_view(row["model"], preview_extra, "$.models[" + str(i) + "]")})
-    context["publisher_short_log"] = compact_records(
-        publisher[-24:], 3000, preview_extra, "$.publisher_short_log")
-    context["publisher_log_scope"] = {
-        "matched_original_publisher_step_timestamps": True,
-        "matched_line_count": len(publisher), "last_lines_requested": 24,
-        "earlier_publisher_lines_not_expanded": max(0, len(publisher) - 24)}
+    context["native_model_numbers_observed"] = [row["model"].get("number") for row in models]
+    context["summary_not_native_printer_supplies_model_five"] = True
+    gate_records = []
+    for row in models:
+        model = row["model"]
+        if model.get("number") != 3:
+            continue
+        trials = []
+        for trial in model.get("trials", []):
+            selected = {key: trial[key] for key in (
+                "kind", "alpha_exact", "accepted_as_next_iterate", "physical_state_sha256")
+                if key in trial}
+            for key in ("coarse_decision", "fine_decision", "fine_violation_groups",
+                        "curvature_nonlinear_defect_diagnostic"):
+                if key in trial:
+                    selected[key] = preview_extra.compact(trial[key], "$.native_model3." + key)
+            trials.append(selected)
+        gate_records.append({"model": 3, "original_line": row["original_line"],
+                             "timestamp": row["timestamp"], "trials": trials,
+                             "original_full_model_sha256": row["payload_sha256"]})
+    context["previously_unread_native_model3_gate_and_curvature_diagnostics"] = compact_records(
+        gate_records, 9000, preview_extra, "$.native_model3")
+    context["old_human_tables_and_publisher_log_not_reprinted"] = {
+        "human_line_count": len(human), "publisher_line_count": len(publisher),
+        "previous_readback_run": 43732702362}
     context["extra_omissions"] = preview_extra.omissions
     context["observation_scope"] = {
         "no_science_or_development_executed": True,
         "no_payload_file_artifact_release_or_commit_created": True,
         "original_payloads_only_in_memory": True,
         "models_and_trials_not_fully_expanded": True,
-        "source_hashes_only_printed_in_actual_report": True,
+        "source_hashes_already_read_and_rechecked_without_reprinting": True,
         "omission_hashes_describe_unexpanded_original_values_not_validation": True,
         "numerical_claims_not_recomputed_or_certified": True}
     rows = []
@@ -736,7 +787,7 @@ def run(args, context):
         "original_process_total_elapsed_seconds": real.get("process_total_elapsed_seconds"),
         "original_peak_rss_kib_linux": real.get("peak_rss_kib_linux"),
         "readback_only": "Values above are copied from the pinned original reports.",
-        "unexpanded_detail": "Original model/trial traces remain unexpanded; directories, hashes and original human printer are supplied."}))
+        "unexpanded_detail": "All six complete-summary model records are projected; raw arrays and unselected native payloads remain in the original log."}))
     return rows
 
 
