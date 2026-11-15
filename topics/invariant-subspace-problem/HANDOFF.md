@@ -8,38 +8,38 @@
 - **新根规则15（再次更新）已读并立即执行：** 可由已提交脚本/参数重算的数据一律不保存，Git/Release都不放；只提交脚本、参数、run编号、输出SHA。禁止分片绕5MB，topic≤200MB。协调方已普通删除本题notes大目录约9.6GB，历史仍可按旧commit取回。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，题README仍4d6570e9cf346431ab781a1290076a6321aaaa00。规则8不准二进制经工具分块编码传送；共享本地已不可用，使用本库Actions真实git同步/数学。
 - Markdown≤100KB、H≤10000B、log每条≤5行；数学美元符。规则12无额外审核门槛；Actions约4核16GB、job≤6h、账号≤20任务。全文旧状态/常数/来源保[新规则前完整H](notes/2026-11-15-handoff-before-rule15-release-migration-789f.md)及递归快照，未列open不关闭。
 
-## R150：固定模已成，真实特征零继续
+## R150：当前精确源及未付条件
 
-原A为6188来源/4367输出，泛秩4354；h0度24，不是H0=(s−2)h0。普通ISP及目标char0成员性仍开。
+原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。普通ISP及char0目标成员性仍开。完整旧H与所有已证常数保[本次快照](notes/2026-11-15-handoff-before-joint-source-recovery-789f.md)，不重已经关闭的页。
 
-**[九原17模31⁶全证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)**已实推076150be，run43674463008只续末三阶段537.367185056秒；九31²h0t_j原6188源/4367输出/未缩放17式、六辅助/315/505/整数carry全真，九实费1339。全部数据曾实推0d642288，现依新规删除；[审计](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)与已提交源码参数/原SHA保留，不重旧阶段。六槽真实1345界、七raw q1、四真W2及p4禁未缩放κ9保旧完整证明。
+- **[九原17模31⁶全证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)：** run43674463008、最后三阶段537.367185056秒，九31²h0t_j全原17式/6188源/4367输出及六辅助、315/505、整数carry全真，九实费1339。全部数据曾实推main0d642288，现按新规删可重算数据，历史与[审计](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)保身份；无需重跑旧二/三页。
+- **[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)：** 同来源界/目标/31分母指数于无界精度可解才给有限Z_(31)解；当前p6不够。原固定子式D自然度8770、公共有限K60；条件费用必须先有Q[s]成员性，保模降度另需lc(D)31单位，均未证。
+- **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
+- **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同run43679903558只接486→768，实际数学103.691783465秒/编译4.072821423秒，512/640/768全4367新鲜整数乘回及自由I36真；39重建未成、69旧核相符，仍23真核。有限31-Smith估值下界不作有理核。
+- **[23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 0.399616051秒，低次恰10，110乘积越界rank98/核12，12合法倍全6188等原23span；新增0，不能排余13核。旧13核闭包及同D居中候选已闭。
+- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。normal正准备同K768余13自由方向的共同格变换，以全原零及自由块Q秩计真新增，不增旧位数、不重NF。
 
-**[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)：** 同来源界/目标/31分母指数于无界精度可解才给Z_(31)真来源；当前有限p6不够。**[条件来源8740](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)：** 只整理已存在Q[s]解，D自然度8770、K有限60；保全部模精度还需lc(D)31单位，未证。后续真核可收紧该条件界，但不能先证明成员性。
+## 同w边界：完整返回仍须费用估计
 
-**同选无穷远常块：** [模31秩4318/真连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)保同4354来源/输出，不能混全矩阵4340/连接4。全部36自由来源仍标准I，任何有理核须全6188系数且4367整数乘回为零。
-[p32](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)、[p184的13核](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)、[p200](results/R150-appendix-selected-infinity-exact-dixon-through-p200.md)均已真推，旧位不重；旧同D居中候选及13核完整一次变量闭包已关闭，原细节见快照。
-**[真256的20核与条件8735](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)：** 200→256新56位27.216322355秒，20核全4367精确零/自由I独立，char0秩4318…4334。D∞≥20、单换列仅≥19，已有成员性才得费用8735；源码/参数/实际SHA已存，不存大证书。**[真486的23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**已成：新256→486实际108.172096014秒，slot8/9/15新增全4367精确核，char0同选列秩4318…4331；D∞≥23、换列≥22，条件费8732。全部真实源码字节/参数/SHA已提交；旧六临时资产已在run43679903558核完输入后删除；本题另删118残留数据，约73571703B（加小摘要前），已低于200MB。后继真768已完成，接下述多坐标候选；随后仍须同一子式char0连接/Smith，有限精度不作有理结论。
+M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2及所有自然逆域保留。Xi²=bare²+flat²，λ²=<G^-1r,r>、μ²=<Lr,r>，ordinary λ不准互换。
 
-## 实际边界：同w、同源、全部返回
+- [真实带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)保c*=1601/64、ρ=e^-12.5d³、同top误差及原p_m(B)的W锚。复参数正平均已给μ⁴≤d0^-2 flat²R²，R²≥d0²λ²，仍缺同源全窗ordinary返回预算。
+- **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，n+h+R<Q时原同u给真实左最小、完整两费及负图；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1使远D范数δ<ρ。目标μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证，不能沿旧d窗用ρ^-2。
+- **[首段损耗/源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** Cs*K Cs+I≤δ²K对K=B和H=G^-1成立；抵消左+I，在Sb=L+B、Sf=L+H均||Cs^k||≤δ^k。自足有限模型给圆盘演算sup|f|，完整逆芽到h−1误差4d0²εδ/ρ。零源/裸商平方保留，不相减推出H−B收缩。
+- **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** E=高部⊕裸零源，E0=E⊖完整零源，Rret=Jf−Jb、Rret*Rret=H−B。Rret Cs=−T0Rret−KJb，真行[T0,K]≤δ；kerCs上Rret=0，负图=Ran Cs的Sb伴随。完整未压缩(C+T)Rret=−Phi T Jb在E0单射，必须保零源输出。真未来<Y,Rret r>=μ²+α²；不能倒用压缩Sylvester免费估逆。
+- [相邻配平](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)与[全尾增长块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)已保L(x)=floor(x^α)、α<1/2，对称P上的有界V±、真核/top/孔cut和全部nuisance最小lift Gram e^±η。没有全环境S∞、原LGL或ordinary λ运输；spin容量及allstar匹配仍保。
+- **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
+- 旧Gq耗散不提供移动gap率；原低forcing逆Γ高行零/返回带、a1缺o(S)、a2一孔已付但联合远孔未闭。旧全源孔导数坏族已由flat支付且固定低测试恰零，只排全源小导数。完整细节见快照与各原证明。
 
-M=kerT、N=closure BM、W=M⊖N，N=M仍开。原同w/未来/负前缀、初M3后M2与全部自然逆域保留；Xi²=bare²+flat²、λ²=<G^-1r,r>、μ²=<Lr,r>，普通λ不可互换。旧完整常数保H快照。
-- **[真实带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)：** c*=1601/64，ρ=e^-12.5d³，v/k误差e^-6d⁴、u两倍；G1/G1*误差≤2ζ||w||、ζ=e^-d⁴/8。原d窗κd/Q=O(1)够，κ=O(ρ^-2)有裕量但未证。全局p_m(B)的W锚保留；ordinary右候选须其未来，Bw缺A，终端/高返回/P_KG1u未付。
-- **[复参数正平均](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)：** 高孔配对平均恰原尾，μ⁴≤d0^-2flat²R²；R²=d0²Σλ((logH)^k r/k!)²≥d0²λ(r)²，仍需同源全窗ΣR²≤K_mn_m||w||²及K_md/n_m=O(1)。
-- **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，同u、n+h+R<Q时真左最小/完整两费/负图保留；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1令远D范数δ<ρ；剩κh/Q=O(1)，κ=O(ρ^-1)足而未证，新源跨R原总孔层。
-- **[首段损耗与真源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 完整/裸右链准确扣首段给C_s*BC_s+I≤δ²B及H=G^-1同式；与左C_s*LC_s中的+I抵消，在S_b=L+B、S_f=L+H均||C_s^k||≤δ^k。自足有限nilpotent模型给圆盘演算sup|f|，完整逆芽至h−1的近I误差从16降4d0²εδ/ρ。全部零源/裸商正平方保留，仍不准两右不等式相减为H−B收缩，主两费未闭。
-- **[相邻配平](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)和[全尾增长块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)：** 连续L(x)=floor(x^α)、α<1/2，对称P上有界V±近包含、V_-*V_+=I，双向L/D交织保真核/top/孔cut；全部nuisance最小lift Gram e^±η、η→0。没有全空间S∞，没有运送原LGL/ordinary λ，spin容量/allstar匹配未付。
-- **当前窄入口：** 固定f=e_a⊗vac，保PkerC f后，同top远零孔行把<u,f>化为−<u1,D_>*(C*)†f>；足够目标||(C*)†f||²=O_a(R³)未证。另一候选同真左像上的commutator≤Cδ²Xi_C²亦未证。boundary/literature继续保强回返/低forcing，不用环境gap或一般头Jordan条件数替代。
-- **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** 同物理E=高部⊕裸零源、E0=E⊖完整零源；Rret=Jf−Jb、Rret*Rret=H−B，真实行[T0,K]≤δ且Rret Cs=−T0Rret−KJb。Rret在kerCs上恰零；完整未压缩(C+T)Rret=−Phi T Jb在E0单射，须保零源输出。真未来配对<Y,Rret r>=μ²+α²；ordinary κ仍未闭。
-- 旧gap/低forcing与a1/a2、返回带、全源孔导数已付坏族详见[完整旧H](notes/2026-11-15-handoff-before-complete-return-789f.md)，不要把其已关闭排除当主封口。
+## 当前临时计算会话与可恢复身份
 
+本地执行器不可用，实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最后数学步骤05:32:49 UTC完成，20分钟空闲截止前接共同恢复；最长job6h，未许可大数据持久化。
 
-## 当前远程运行与新规实绩
-
-本地不可用；临时session **run43679903558** 持有真486及8旧输入，全部SHA已核，6旧Release资产已删除，main再删118同blob数据，本题约73.57MB。全程只推小摘要/源码/参数/run/SHA，工作大数据不出当前job。原大证书可按历史提交和已锁生成入口复核。
-**[23核一次变量闭包仍23](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 实际0.399616051秒，全部低次数空间恰10维，110乘积越界rank98/核12，12合法倍全6188准确落原23span；新增0，不能据此排余13真核。
-**[真p768完成](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同job实际486→768数学103.691783465秒、编译4.072821423秒；512/640/768全4367新鲜整数乘回/整除/自由I36真，39新重建未成、69旧核相符，仍23真核、同选秩4318…4331。最后source36433748B/SHA0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07，临时路径work/dixon-after486/stage-p768/actual-p768-exact-source36.bin；完整参数见实际小回执。
-同job已接 **fixed-three-coordinate-lll-p768**：每余列固定前三非零非自由原坐标做4维LLL，只取至多4分母，重建全6188源并核全4367整数零；60秒/512MiB。必须等实际回执，不预填新核；完整算法见notes/2026-11-15-r150-fixed-three-coordinate-lll-full-original-source-contract-789f.md。新大来源仅当前job临时保存，main只小回执，20分钟空闲终止前继续。全旧H保[本次快照](notes/2026-11-15-handoff-before-p768-lll-789f.md)。
+- p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
+- paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
+- 会话请求 notes/2026-11-15-r150-infinity-remote-session-request-789f.json；新步骤必须新id，sources及scriptSHA全锁，完整候选小元数据放parameters供sanitise保存。主只推小文本；生成大来源留job，禁止旧二进制工具/Release上传。
+- 全部实际小回执在notes/r150-infinity-remote-session-789f/；6旧Release资产已删除，main另删118生成数据，本题约73.57MB。原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，入口/参数/哈希已入main。
 
 ## 其余仍开
 
-Haar A非零非紧、单射稠密拟幂零、W*(A)=B(H)、A′无非零紧，闭不变M皆closure AM=M，普通循环性未知。正常有限秩仍缺同一相容全链严格正距/实际下一完整尾上界；R289/R291未矛盾。全部旧open保当前open及递归快照，有限模或候选排除不算完成。
+Haar A非零非紧、单射稠密拟幂零、W*(A)=B(H)、A′无非零紧，闭不变M皆closure AM=M，普通循环性未知。正常有限秩仍缺同一相容全链严格正距/实际下一完整尾上界；R289/R291未矛盾。完成一个子问题立即接open；不以有限模、候选排除或阶段报告收尾。
