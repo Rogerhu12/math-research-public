@@ -67,3 +67,8 @@ FA actual完整strip与旧source身份已核；DX4给cut4/flow4/waist3–4/selec
 PIBA aafebb76完整proof已亲读；43771317443/1 child0/15，13处10unique球全原字，五PG/6input/2AST digest及SCI9197/preGit15007独立全重建匹配。
 新log−wholemin改善但非norm；原L0/五球/mean保，后取真正SN终态测signed门。SN原c9010fdf/48d9b878至interval64，35固定字段零diff仍未终点。
 两README于15644659e4f157a9730430e24e7033ec486ac651只读核无变；旧完整H保33106181，压缩当前成功索引不减未付义务。
+
+### 2026-11-15 22:55:49 UTC — full sign-density correction and ordered Cayley bridge
+ZD715f2876全文已亲核并独推；三IBP/完整双sign HS/独立meanrank齐，actualout与N共轭两次sign correction保其原序和两窗。
+DX4提供同一ψ C4新输入，原CYA四root只读，不新增gap计算；tail将封仅新positive scalar包，完整retained/incoming/Schur仍待。
+两README于68f92b9cb16677278dfbc7f8e13bdf7189e41d9c只读核无变，旧成功冻结，无本地数值。

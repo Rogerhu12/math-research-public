@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 ZD**：[完整符号密度共轭与有序 global Cayley 返回](results/R133-supplement-strong-sign-density-conjugation-and-global-Cayley-return.md)，C4真实图经三IBP和完整两sign Fourier和给Z^S−Z强费，独立输入meanrank全保。实际out转straight Z及后续非均值共轭均保各自完整sign交换子；原CYA scalar gap只在这些operator前提实付后使用。无新数值、无全incoming/finite逆宣称。
+
 - **已证明 PIBA**：[实际完整主逆的伴随增益](results/R133-supplement-actual-complete-principal-inverse-adjoint-bootstrap.md)，唯一43771317443/1、child0/15、54字段齐；新负窗log约6.25714501323944e14并由wholemin选中，原L0/五PG球和两optional结果原字保。SCI与preGit完整重建、零exp及零旧数学重算，仅同selected principal inverse，不授物理incoming/Schur。
 
 - **已证明 DX4**：[由已成切口与传播界支付真实四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)，FA完整复条带给真正cut第四导，WX原正传播积给两向任意短段第四变分，再原序组成waist及selected共同输入第三/四导。旧TC/WX低导原字复用，AC全tail给H四导，无射线/KAM重算。新标量尚未评估。
