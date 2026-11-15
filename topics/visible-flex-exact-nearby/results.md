@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 Q1–27：完整非线性 ordinary 源与两Γ参考高度。** [证明](results/R119-supplement-exact-nonlinear-ordinary-sources-and-Gamma-reference-height-lifts.md)，SHA256 `f7c6f75853594e2866bc7e99139734356d7f6d9aa69867545963f768a8ebf610`。真实metric变分先保dotK=k−ψ(1+K)，准确分离hψ_t=awψ及全部height/flux端列；原六项邻胞费后，DΓ余source满足S_t<2^200000X||dot a||224，固定metric Taylor余项满足<2^200000Y*²。只对已给strong方向，不将K有限输出冒称可再次进入analytic224。
+
 - **R133 径向参考 R1–29：完整物理 Fourier 对角及真实 mean。** [证明](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)，SHA256 `a13b5fdef9aeb531bebff9b882b913554bb449a4dce72c67d4c342af50e84710`。从原N.3保完整primitive有限和，二态参考过根不除K；真实even mean、两branch、ordinary weak重建、physical输出label、全部seam与ordered Duhamel均保。尚无新参考Green数值界，offdiag含一阶d∂，不冒称小扰动或full高逆。
 
 - **R133 R1–17：实际反射子类的原 moving 帽—尾桥。** [证明](results/R133-supplement-exact-reflection-sector-and-original-moving-cap-tail-bridge.md)，SHA256 `b5f0b7819380660ea8a60f7743317313d57411a36e9bc4caaa61e1096499ac2c`。从完整原方程、真实连续中心/Z、径向参数及尾物理式证明反射不变；角规范A及同类导数恒零，真实b0同类恒零。固定η0δ0原F因此继承S的完整Cf<2^400000与反馈<2^-31000000；保C0/通量/高度、全非zero腰行。一般all4Z相位、径向Γ相位和主体闭合不转授。

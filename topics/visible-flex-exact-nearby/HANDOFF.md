@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 02:53:26 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 03:01:25 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
-最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 02:34:14.158409 UTC ac2497f9f7ecd6c6b06a3bae832950bfbbb99267；同97select原process10c4e073…两README diff空。
+最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 02:59:20.267545 UTC 8383c71bde8f3f5bddbe1f8ec7929c20e986f08b；sameF26原process2c235c33…两README diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：79f0a07e27420a7c1551e8a935314e94133a214c；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4424f9c45f8866f54872e876430b8a3dd56aec1b；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
-前H9918B存notes/2026-11-15-handoff-before-reflection-and-low-even-adjoint.md（88ffda68…），含H9850/9797/9946/9769/9756完整历史链；旧open29021B在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md（45a8a8db…）。旧log存notes/2026-11-15-log-through-inner-source-deployment.md；原actual/native/失败/参数/逐行证明全保。
+前H9914B存notes/2026-11-15-handoff-before-nonlinear-Gamma-sources.md（37eebb1c…），含H9918/9850/9797/9946/9769/9756完整历史链；旧open29021B在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md（45a8a8db…）。旧log存notes/2026-11-15-log-through-inner-source-deployment.md；原actual/native/失败/参数/逐行证明全保。
 
 ## 同一对象和总完成门
 
@@ -22,9 +22,9 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 ## 主体、完整方向 Green 与帽：newton_source
 
 有限193 actual43635487128/8/native7fcd5bec…负ν误差.003509417445587<.005仅有限模型；全L².007490301792401、χH.003840162。原6391Gram/5970接口、cross/impulse/正high全部身份与失败链在前H9850B及原报告完整保，禁重算。
-同F5970：225pin v4 43654510038运行，root核group11 child0/13门/192新，SCIe2cedf88…/CI71b203d5…/manifest8d334ee7…。原E1–4先消同F0、1e−35门、全Δ与旧失败保。234pin方向Green/238pin真97右Poisson已装（3350a96f…/94e46b22…）；全5970后自动back→forward→Poisson，保同输入signed covariance/body/jump/真BR/独立mean/cut，尚未授全逆。
-A1–29/d054ee75…后验保S*=mV、真Robin/mean/jump/全high/Hessian；actual提案43662865692与四格43664278200全保。全7908 run43665656138（SCI6b3a47a5…/CI86c2a02b…/341pin baf3a428…）仅补7904，原4逐字；root核range00 child0/246新/3门、nativecb7d64d9…/process492fdc92…，尚待全覆盖。原1.125GB提案一次读取、每range原字节slice/10min真pull。
-真端点/high actual43666716585 child0/10门/3stage，SCI41052363…/manifestb753b786…、native6a845f62…/process9b4aaf5f…；真9/10/mean/outer正fee/4096+512全尾保。trWT<1.132443e−9、trWL<1.833309e−19、κ<13.367450、c*²<.010388235。
+同F5970 run43654510038，225pin v4 SCIe2cedf88…/CI71b203d5…/manifest8d334ee7…；root核group11 child0/13门/192新，E先消同F0/1e−35门保。234pin Green/238pin Poisson已装（3350a96f…/94e46b22…），全5970后back→forward→Poisson；同输入signed covariance/真BR/mean/cut全保，未授全逆。
+A1–29/d054ee75…保全部97方向/Robin/mean/全high/Hessian；原提案43662865692、四格43664278200保。全7908 run43665656138（SCI6b3a47a5…/CI86c2a02b…/341pin baf3a428…）只补7904；root核range00 child0/246新/3门、nativecb7d64d9…；待全覆盖，原大提案与字节slice只Actions/10min真pull。
+真端点/high actual43666716585 child0/10门/3stage，native6a845f62…/process9b4aaf5f…；真9/10/mean/outer正fee/全尾保。trWT<1.132443e−9、trWL<1.833309e−19、κ<13.367450、c*²<.010388235。
 同97后验P1–7/1298eb96…五件SCIed62ebe4…/CIa52bb62b…/353pin7473f786…已装，原341/341/238键零改；先全Wcap再真Poisson后三HY。实际artifact child/gates消费保数学成/出版失败，>60KB原process整件留Actions/真摘要，不人工拆；43668305566已AST/select实成，核原boundary artifact process2c52a359…，Poisson仅AST被拒，未新后验数学。
 
 L1–16/7a97adc2…已另证同一adjoint trial完整low-even97输出，保a与实际zC,0；(E−E0)(E−E0)*≤c*²Werr只在输出侧，真Poisson HY可按signed tr(HY Werr)收费。未新数值；由实际主导分量决定后续是否消费，0旧Gram重算。
@@ -34,14 +34,15 @@ L1–16/7a97adc2…已另证同一adjoint trial完整low-even97输出，保a与�
 原root/forcing/1079seam、moment/1328转换/六profile及失败身份见前H9918B/actual，禁重算。μ=Q²B+、leading a0=GB−，两branch/同复δ/九old-circle词与五独立mean不删。aux v2 43647998272原小13/大14门native84e2bd1b…；高intrinsic43661471951到15，Taylor12 actual43664023495 child0/19门、原75+新205stage，native758a2901…/process42ab23b9…；固定η0、复δ≤1e−8、原R1/6000/Σ1/128和内窗9e−6保。
 旧内窗43659519776、外段43657793725、完整circle43660841558均成；b*剥离43663147595保7norm/1tail/6profile/653seam/1036新、3323fallback，后三大径fixedX/正optical失败保。b*完整actual43665091373 child0/8门，native2a387a9d…31133B/processa7c42cca…55665B，0转换/profile重算；前三R负<4.834450e20/6.332163e20/8.952481e20，正<1.155745e22/1.422447e22/1.960789e22。R.02自然5630289B SHA6324952d…只原artifact；fullprocess100236B c89ba87c…禁connector读取。
 Nraw actual43666374252 child0/10门，SCIe9024812…/39pin bc34acdc…，nativefbe1bce6…60456B/process6396a554…34986B，26原/60新。σ1/512 q0<54.373309627/13315816.514291689，b尾仅.096369、有限mean不能删；全部q1/q2及sup/Wiener差异见actual585e7229…。原43666029053漏topic路径0数学失败已修。
-whole-piece P1–12/d6369980…保真piece2549、48已成norm、h*<1/6000完整尾、九词+五mean、rootband双侧、outside原payload。80pin五件SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…部署d549f0c，actual43669106351运行；78旧pins/唯一external不变，atomic stage/case中断逐字恢复、summary独立stage。背景/forcing跳不改；修正seam/正weighted端口/strong-return/cutoff仍缺。径向参考R1–29/a13b5fde…已证：真实primitive D_j/两branch/j0、原J重建与seam/Duhamel全保；尚无实际径向Green界，一阶d∂/正Cauchy增长不删。
+whole-piece P1–12/d6369980…保真piece2549、48已成norm、h*<1/6000完整尾、九词+五mean、rootband双侧、outside原payload。80pin五件SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…部署d549f0c，actual43669106351科学child0/10门、488.827716s、25新stage/4329原外行、6case全成；native6668c9b2…44628B/process242d82b6…8346B。CI摘要duplicate complete TypeError，phase正零数学finalizer，原科学/manifest不改。背景/forcing跳不改；修正seam/正weighted端口/strong-return/cutoff仍缺。径向参考R1–29/a13b5fde…已证：真实primitive D_j/两branch/j0、原J重建与seam/Duhamel全保；尚无实际径向Green界，一阶d∂/正Cauchy增长不删。
 
 ## 外返回、新简单根和闭网络：tail_connector
 
 同R/η/bump新stop6460b0ae，A/P/N/O/F/J/C、全mean/两weak/参数原生身份和旧失败链见前H9797B及各原证明，旧三根逆不转授。真实五盒公共点好测度>1−93/16384；浅cut=max(Tj,2^131072)、深≥8193、邻Ω比<2^20、fixedCR v_t=M²v/mean0、actualR仅norm2。
 Y1–28/f6ac5411…双逆权mixed差<2^-5800000。Z1–28/897a09a9…完整强source解h=g+ΔS(cλ+R0h)，La g=0恰totalflux兼容，常高度唯一核、gauge逆<2。B1–28/7d1f7b1d…全4Z cap–long保真B0/wR²，完整L2反馈<.9；径向角规范及四quarter位置周期另证。L1–28/fba382d3…物理cap–tail用H^-3/2，Cf2^40/QZ2^64 sBε/TB2^1200000/sB，反馈<2^-32000000，真远端源根H1另付。
 U1–28/a31da63d…完整0≤s≤1024窗：B*=2^65536，Tsharp=max(2^1048704J²δ^-9,2^1056768)，vsharp=2^-600000J^-4165δ^(1073/32)，同公共点补齐remaining频带；mixed差<2^-4300000，强source/mean逆<2，物理η0δ0帽反馈<2^-31000000。全B0/C0、raw cB、totalflux辅助τ及高度gauge保。
-D1–30/655a89d3…w=δ^-64强层逆，完整有序G域root状态W_-2H8<2^1600000G；actual mean向外因果/双PoissonF³。齐次深尾三段C²<2^131072J12δ^-32，最终物理δ22与ρ/ε_s保；P1–31有源二jet已证：真实root/graph/strict/positive源及weak两迹全保，graph无除ζs；actual mixed图S_at1026→Gbody<2^1600000 εCρ,ε S_at，最终C²<2^3400002J20δ22(外G+εC S_at)。原浅前缀/δ8192^-485/4全付；K1–34/b22c900a…另证固定t完整两行/两mean能量、两端仿射源接线与真正源域；S_t<2^16384 S2β，给同一普通源C²<2^3400002J20δ22(外G+εC S_t)，不再需mixed图norm。analytic224输出、metric/Γ弱端迹、fullδ/ν非线性仍缺；下述R另证实际反射类的原F规范相位和waist Bmean精确零，非zero腰行仍保。
+D/P/K（655a89d3…/a4bab7cc…/b22c900a…）已证完整强层、有源二jet与fixed-t ordinary入口：root W_-2H8<2^1600000G；真实root/graph/strict/positive源和weak两迹保，graph不除ζs。S_t1026<2^16384 S2β，完整物理C²<2^3400002J20δ22(外G+εCρ,ε S_t)，全部浅前缀/δ8192^-485/4/Cartesian尺度另保。有限阶输出尚不返analytic224；metric/Γ weak端迹、fullδ/ν非线性继续。R另付实际反射类原F规范相位与waist Bmean恒零，非zero腰行保。
+Q1–27/f7c6f758…新证：完整Taylor普通余项与两Γ metric源；先取已知参考height hψ_t=awψ，剩余源为nψt+n²ψ。原六项邻胞N6<2^132C#后，DΓ真联合Cauchy给S_t<2^200000X||dot a||224，固定metric余项<2^200000Y*²；两mean/实际height与flux端列全保。仅给原strong方向的输入域，K输出尚不保证下一轮同域。先核同对象提高角阶能否改善δ22，不改ζ131或深profile。
 
 ## 完整角规范与残差桥：root
 

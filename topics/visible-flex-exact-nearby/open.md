@@ -84,7 +84,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 ### 全深有源二jet已付，继续真实源域入口
 
-[R119 P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)已将D齐次结论延至完整root/graph/strict/positive particular；ordinary actual mixed图S_at1026→Gbody与物理C²常数全部付清。K1–34已证明原fixed-t S2β→S_t1026及完整有源物理C²，不要求混合根图producer。继续核实际非线性源和weak/metric两列的域成员及真实弱端迹；有限阶输出不能直接改名为原analytic224。完整mean/totalflux兼容、真实raw接缝和高度gauge不变。
+[R119 P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)已将D齐次结论延至完整root/graph/strict/positive particular；ordinary actual mixed图S_at1026→Gbody与物理C²常数全部付清。K1–34已证明原fixed-t S2β→S_t1026及完整有源物理C²，不要求混合根图producer。Q1–27已付给定strong方向的固定metric非线性ordinary余项与两Γ的参考height lift/剩余小源，完整六项邻胞和联合Cauchy均计入。继续真实weak端迹及可迭代的输出状态域；有限阶输出不能直接改名为原analytic224。完整mean/totalflux兼容、真实raw接缝和高度gauge不变。
 
 ### 同97帽后验与方向Poisson消费已部署
 
@@ -101,3 +101,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 完整逐模径向参考已证，继续实际范数与强返回
 
 [参考R1–29](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)准确取原N.3完整Fourier对角，保D_j primitive排除中间零模、双态/真实even mean以及与原Airy试解的完整残差差。二态径向ODE不除K；scalar factorization另需A_j非零门，j=0独立。原1079seam/653ledger、原J与physical输出m全保；Nraw幅度常数不是可删除的物理零模。继续在同一公共Actions验证真正径向Green/参数窗/源norm及nonradial d∂费用，不能因对角已取走就授全高逆。
+
+### 非线性与两Γ的实际普通源输入已付，继续输出域闭合
+
+[Q1–27](results/R119-supplement-exact-nonlinear-ordinary-sources-and-Gamma-reference-height-lifts.md)保完整Taylor分式余项和所有mean；总高度metric方向的径向参考项不能假称小，先准确积分hψ_t=awψ，再付剩余nψt+n²ψ。原N6六项邻胞<2^132C#，全联合DΓ真实复盘Cauchy后给S_t<2^200000X||dot a||224；固定metric余项<2^200000Y*²。真实height/flux端列、整体ρ/ε尺度和有限外支集独立保。此输入来自原strong方向；K输出缺同域迭代权限，须继续强域恢复或实际tame inverse。先核提高角阶改善同对象深衰减的路线，未修改深profile/ζ131。

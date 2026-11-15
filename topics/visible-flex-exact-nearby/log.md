@@ -297,3 +297,11 @@ README在 4236a5b6994a0aa0f530995e567fd6a52282719f 未变。新增R1–17 SHA256
 ## 2026-11-15 02:53:26 UTC 完整Fourier径向参考R1–29独推
 
 根与题README在 79f0a07e27420a7c1551e8a935314e94133a214c 未变。原件blob9425775abb7facb14b4ba127ce6c6bd3b353251d，17544B，SHA256 a13b5fdef9aeb531bebff9b882b913554bb449a4dce72c67d4c342af50e84710。root完整读新稿和原N.3–N.9，核D_j有限和、全部符号/primitive零模、复parity、j0真实mean、j>96 pair公式、二态det及weak factorization；tail独核D_j/parity/j0。R24–29严格保Etr=Rtr+ΔGVtr、输出labelm、原root trace、ordered真实seam a−J及Duhamel。ΔG的d∂仍一阶、正区两态Cauchy有增长列，故此稿只是完整解析参考/条件norm接口，没有新数值结论，不重原Nraw或target。
+
+## 2026-11-15 03:01:25 UTC 完整非线性普通源与Γ参考高度Q1–27独推
+
+README于 4424f9c45f8866f54872e876430b8a3dd56aec1b 未变。root完整读sameF26 process14107B/SHA2c235c33a4edd48701903f2efabef0969f819485bfbe63d878d9a39e4e7cdaef，真pull02:59:20.267545→8383c71bde8f3f5bddbe1f8ec7929c20e986f08b；两README差异空，科学child仍活跑，不误称完成。原H9914B逐字归档SHA256 37eebb1c681657553538492d09c2acaa6ecfd540472887ceb33db63a500e828d。
+
+新Q稿SHA256 f7c6f75853594e2866bc7e99139734356d7f6d9aa69867545963f768a8ebf610。root完整核原119.7–10/C.2/C.23–33/U.2、J.1/J.11–18/Y.7和六项邻胞P.3；修正初稿将N6免费换成C#的缺费，正式稿付N6<2^132C#、Q25 2^340/Q26 2^480，最终2^200000范围仍成立。明确A_s为解析角宽，非导数阶；Q23的C#X吸收另从全层预算支付。Taylor分式、metric总高度的dotK常数1、Euler恒等式、参考lift和尺度均完整保；没有从K有限输出反推strong输入。
+
+root另完整读wholepiece原process8346B/242d82b6…，科学child0/10门/25新stage/6case全成，native6668c9b2…44628B；仅摘要duplicate complete TypeError。phase正按原SCI/manifest/native零数学整理，原失败和所有结果保留，不重算488.827716秒的成功数学。
