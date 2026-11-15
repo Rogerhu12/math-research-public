@@ -496,3 +496,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 ## R332：原L/U平移和反射把新面积I1也支付到全相位
 
 [R332 完整原式](results/R332-true-translation-and-reflection-pay-the-next-Gaussian-area-moment.md)保原右锚与L/U自身显式x变换，其新增commutator是δ(d*+7e*)J(u″Dslot)/3；原旧三面积全零后，才得到新I0/I1/I2的普通三角移位。R331十二copy前的真中心偶pair使PD/LD/UD紧奇，完整polar二导偶，因而A1=C0A0；π/2的A0=0后，十二真实copy清全部cs和位置一次项。最终强控制块与同F★有限N保新I0/I1全θ0，原third/旧面积/Ψ/三行/一层均保持。I2在此后是实际平移不变量，仍须新的真实支付。无程序或人工执行。
+
+
+## R330：当前实际微包两退化通量和整有序矩阵的二十观测真实联控
+
+[R330 全部原式与实现](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)使用R324最终解析紧包而不换旧母。z=(u′)^(2/3)给严格内部Af0、u′/u″>0；原响应K及Lf真恒等在该点给明确非零−8a³(a²−b²)(u″)^5/45。两原对应copy保平台二导修正，K/δK全原代数给精确Vandermonde，故不是行数授秩。−8/−7真成本权使这两列对旧十self零，联合矩阵真实块三角；再对R297另外8个T单位作R322真谱投影，得wholepure+10self+全T+两flux的20观察联控，T00已在旧Z坐标，不重计。
+
+R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定局部芽、最终profiles与点，再选择新全局几何；m*允许漂移，R326实际wc对这些flux恒0。指定端口旧19条件保持。全部q_i、其它退化点/Ve、period像及13同规范兼容仍欠；此为两个真必要门的支付，不是完整第四或固定旧g上的自由响应。没有程序/人工执行。

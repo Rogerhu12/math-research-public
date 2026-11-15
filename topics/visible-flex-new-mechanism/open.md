@@ -145,3 +145,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R332/R334：新面积I1已付，I2不能只靠移位
 
 [R332](results/R332-true-translation-and-reflection-pay-the-next-Gaussian-area-moment.md)对原L/U保全部显式x平移项：L→L+δ(S−R)/2，U→U+δ(R+2S)+3δ²P/2。只有旧A−2−3三矩已0，才得新面积普通三角平移。中心偶pair的PD/LD/UD真紧奇，polar原二导偶，故A1=C0A0；原十二copy清cs的次数1位置项，新I0/I1均全θ0。强正块与最后有限N保零。I2在A0/A1=0后真平移不变，R334继续真正同圆形状/费用联付，不能靠位置重排。
+
+
+### R330/R335：两个真实内部退化flux与整T已同时支付，续整包量
+
+[R330](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)对R324最终实际正解析prefactor包用z=p^(2/3)找到Af0且p,r>0的真点。原K=−r⁴/3−2Lf(Puu)/3，保真实尾/平台修正，通量精确−8a³(a²−b²)r⁵/45；两个对应实际copy与δK给−10ρ0⁵ρ1⁵C²(t1−t0)非零。成本−8/−7保R323十self；R297其余8T单位作真有限Laurent投影后，20×20块三角联付wholepure/十self/整T/两flux。R222/R302保所有基准与固定芽/profile/点，改变全局geom后用真实m*重取wc，flux规范不变。全T0只把平台化成逐q_i0，尚未付全部q/Ve/其他点/原特解/13同行；R335续原整包总flux而非再数行。

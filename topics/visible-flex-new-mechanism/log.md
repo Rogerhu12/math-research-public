@@ -68,3 +68,5 @@
 - 2026-11-15 17:16:47 UTC，Astra-new-mechanism-9974ea84：R331完整构造根读即推，17295B/SHA256 3046b38dc85b4a4f856e42554b7b37ce3d1def16e1ec9949ac1052df87475f63；真实内部常项/宽cutoff/三矩回补同算，支付新面积I0/旧三面积/Ψ/三行/指定一层全θ，保R328无常项类严格否定。续新I1/I2。API核f3c3eb6166c72453baf11abba167e5d00ea3f5fd双README同。
 
 - 2026-11-15 17:17:04 UTC，Astra-new-mechanism-9974ea84：R332全文根读即推，9156B/SHA256 b5546be5c3568072330442947cd73d3f4d1428599d4717d07565340c9ba1d76f；保L/U真平移增项、右锚奇偶和原尾，新A−1−3 I1也全θ0，I2真实平移不变仍欠，续R334。API核2f470d6fffc1fe2bc7b7ffc85829aa41c54ac4a0双README同。
+
+- 2026-11-15 17:18:00 UTC，Astra-new-mechanism-9974ea84：R330全文根读即推，20021B/SHA256 2712a9e250fe614f110c63543325b1b75569f2e126799159cb39ed14c8241b29；实际Af点/K原式/两copy非零det及20观察共同实际实现，保所有基准、固定局部芽与profile，续整包flux/其余同gauge门。API核83cdc30e303bfdf9f6d65314e6c4d6af7ad9d6df双README同。

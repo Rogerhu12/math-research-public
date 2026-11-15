@@ -37,7 +37,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R292–302平台与几何接口**：完整后缀迫T9/逐self；R297真9单位，R298 χ30/P整q=3I/512非C²。R302保四χ原型/共享整词真倒行、自由h跨全词、M0固定而τ可漂移，增强IFT真指定有限pure/T/query并安装新芽、Morse/Klein闭合；通常先选新seed/g，不授全q/全部母包/实际逆元，完整period/同w仍欠。
 
-**R303–313前序self**：全平移≤9，十N链I与五𝔍链J/F全独立；even母对J盲，F≥∫u″4/18。c9/c8真实尾见原稿。有限query已由以下全self门推进，不重增孤立rank。
+**R303–313**：前序完整尾与self独立性见原稿，现已推进whole-self门，不重孤立rank。
 
 **R314/322完整self**：pure0的有序缺陷μuᵀTμv；保ℓ/J²真尾，两次Euler降阶给q=N_T+∫L三jet，T九矩承载全非局部，Euler六jet三次系数忠实。真实R有限Laurent谱/原右锚给成本σ的self缩放σ−2，跨权支付等价同权。**R316实际MEMBER**：[准确H*](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)，run43735872441/ca186db/job132878270740，新12人工过，13比较像rank7=增广7、37忠实行；原R126 old编号H*满足π0/整Q0/λ+1，fresh2497项T/Euler与重构0/selfword0。非全mixed0或signed实际控制。**R323完整联合闭锥已满**：权−8整self0；−6由两真实响应覆盖J0/I1；−4保Z=μ0²/2的八完整坐标由八明确原响应覆盖（全原式/尾/手消元，不新计算）。结合真pure像与H*排所有正字符，E=(π,Q)实际闭锥=E(U)。R222/302还给wholepure+十负权self坐标真实有限联调；整个联合实际半群仍欠零权C4/C6两门，R329两新根/13旧列复用源码已读并首次提交Actions，8新接口人工后两目标；不重旧self/pure。全mixed双函数/同circle同gauge商仍欠，不重复已知λ阻断的wholeXi成员门。
 
@@ -47,11 +47,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R308–331弱hook通道**：Af0曲段真rank-two/单hook0，三矩八copy完整third。R319/320排同向/朝外，R325朝内付旧A−2−3三矩、三directed和指定原一层；R328新A−1−3 I0排全部无常项5/2曲段（K=−2J/5,J<0迫Ψ>0），该否定保留。**R331真实内部常项逃逸已付**：f=f0+cχ_R，c(L)由新面积精确解且O(L)；R=ηL远宽cutoff、三实际Vandermonde矩补包的quartic成本O(L−1)。原J/Jx/K保真，旧面积付后新I0全θ0，负Ψ−constL仍在。强正宏块/同F★/两even高频/12位置有限N联付Ψ、三directed和指定一层，完整third保持；通常新seed/g。R332保L/U真实平移增项，由旧三面积抵消，中心偶pair/12copy准确兼付新I1全θ；I2平移不变仍欠，R334续。
 
-**R312–327新端芽/同规范联合接口**：h=he(1+εσ²),κ≠0,ω常，真实安装保M/frame/词/闭合，先选seed再固定g。R315/318/321/324的E²/log/E/有理全19门，在同一实际圆有限N精确归We。R326用八copy全E8三次矩0及真实入矩阵X的全局wc=−XD，清完整奇部、保平方/第三初值，再同一全局第三Gram付We。**指定端口完整ruling已付**，period准确变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327沿R221核当前解析最细包p/Af有限阶零点可跨，kerLf=每包u_i/平台χ_i两列+间隙；间隙13门全盲，平台真尾(0,−2A,2B)不可丢。先解两原period特解，再13×2n真列矩阵Cθβ=−Aθk0；保解析秩降整除/种子额外一阶、光滑周期，13非rank。尚无两period像或该finite兼容成立；R330续实际门值及全路径其它段，不冒完整第四/主目标。
+**R312–330新端芽/同规范**：固定h=he(1+εσ²),κ≠0,ω常芽，真实安装/新seed。R324全19门在同实际圆有限N归We；R326八copy全E8 cubic三矩0、真实入矩阵X的wc=−XD清完整奇部/保平方初值，再全局第三Gram付We。指定完整端口ruling真零，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327当前解析最细包kerLf=每包u_i/平台χ_i+gap，gap对13门盲、平台真尾(0,−2A,2B)保；两特解后的13×2n兼容与降秩整除仍欠。**R330真实两退化flux已付**：最终同母两copy有Af0点p,r>0，原K值−8a³(a²−b²)r⁵/45非0；K/δK平移−10tK给准确2×2行列式。其−8/−7权保旧十self，再R297真谱投影8个T单位，同一20×20块三角实际wholepure+10self+整T+两flux0。先固定芽/profile/点，再R302全局几何联付；新m*的wc对flux0。逐包q、其余点/Ve、两period像、13同k及其它路径段仍欠；续R335真实整包flux，不冒fullmixed。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 2f470d6fffc1fe2bc7b7ffc85829aa41c54ac4a0，双README blob同。API读取不冒实际pull。
+断连API复核main 83cdc30e303bfdf9f6d65314e6c4d6af7ad9d6df，双README blob同。API读取不冒实际pull。
