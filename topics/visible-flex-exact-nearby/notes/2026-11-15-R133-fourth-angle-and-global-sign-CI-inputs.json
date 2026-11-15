@@ -2,7 +2,7 @@
   "kind": "fourth_angle_and_global_sign_public_inputs_v1",
   "public_repository": "Rogerhu12/math-research-public",
   "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_budgets.py",
-  "source_sha256": "245da4db1e6e105d5a753ab8917a3f2b0b1633214dba7e69fc81a36c7e52cd6b",
+  "source_sha256": "5909e8da91d61bd2646941e18190fdd20dc98370e4563ff41526449658f75b28",
   "contract_git_blob": "82fabb439b60f6587ec5704a91d4502071c5d2c6",
   "contract_publication_commit": "c3cce53015c7783a36102bfc5961cddaafa9b817",
   "complete_proof_dependencies": [
@@ -100,8 +100,8 @@
     "topics/visible-flex-exact-nearby/results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md"
   ],
   "file_sha256": {
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_budgets.py": "245da4db1e6e105d5a753ab8917a3f2b0b1633214dba7e69fc81a36c7e52cd6b",
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_public_worker.py": "8d0c64522b1a08664e5d8612c210e56952ab9e50a0fd2457b4286ab4557814ac",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_budgets.py": "5909e8da91d61bd2646941e18190fdd20dc98370e4563ff41526449658f75b28",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_public_worker.py": "61a11736b8976fbb4dbabfa1070c38ba7da095a061770e059e419ff6ecf60ff7",
     "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
     "topics/visible-flex-exact-nearby/notes/free_Airy_first_omitted_cut_scalars_ci/run-43763658978-1/actual-scientific-conclusion.json": "2985b74e314f39fc52d587dae193fd5eacb12d75ea42c45bc88fe73848dc64f2",
     "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json": "37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880272f9b92f902e",
@@ -131,7 +131,7 @@
   "expected_actual_gate_count": 24,
   "expected_immutable_AST_files": 4,
   "expected_input_count": 14,
-  "complete_input_bytes": 402464,
+  "complete_input_bytes": 403160,
   "scientific_runtime": {
     "Python": "3.12.14",
     "python_flint": "0.9.0"
@@ -233,16 +233,16 @@
     {
       "role": "source",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_budgets.py",
-      "git_blob": "181e0aaa70149b7f92178cc686014d1cd77e4844",
-      "bytes": 38593,
-      "sha256": "245da4db1e6e105d5a753ab8917a3f2b0b1633214dba7e69fc81a36c7e52cd6b"
+      "git_blob": "cb830aea9fab242eadaf8c7757481bdb7e1b9289",
+      "bytes": 38598,
+      "sha256": "5909e8da91d61bd2646941e18190fdd20dc98370e4563ff41526449658f75b28"
     },
     {
       "role": "worker",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fourth_angle_and_Maslov_sign_public_worker.py",
-      "git_blob": "7df9ce4274942020d9917a15417c3901584c4251",
-      "bytes": 54906,
-      "sha256": "8d0c64522b1a08664e5d8612c210e56952ab9e50a0fd2457b4286ab4557814ac"
+      "git_blob": "5a0dab67d56a4b1d4876b1f8ee822c1a80636319",
+      "bytes": 55597,
+      "sha256": "61a11736b8976fbb4dbabfa1070c38ba7da095a061770e059e419ff6ecf60ff7"
     },
     {
       "role": "rules",

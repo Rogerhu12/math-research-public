@@ -111,3 +111,8 @@ H已成WE细账保71c08c3a同H/open不减义务。两README于097258b23a727d8a0a
 DZFcedd4672/5847fcad全文及原SCI/exec/report亲核，43773126387/1 child1、10pass+11fail；新三routine未入，new/old/lost0，14pin/4AST通过。
 旧TC无LF2d050a0e与带LFb30ac7c9根独核；SCI5079/b125与preGit8213/3b884732全重建。失败render泛称有sign/WEcopy两句明确不成立，原件保。
 先独推此记录，只旧hash比较+render条件最窄修待续。两README于a2696418880e725cdae160befb0a0c6b11dda5c5无变；不重成功旧数学。
+
+### 2026-11-15 23:13:48 UTC — minimal DZ metadata correction after preserved failure
+DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄diff核；仅旧TC payload去LF、三render真scope与身份，数学/所有旧pins原字。
+首run实际new/old/lost0；现14current403160B/4AST/24门，等唯一新自然run，不重旧成功。root与newton独核差异通过。
+两README于72563b9c8aaedd7a0da8f8607691ebadbb32efd9无变，原完整partial/失败均保；继续SEI实际证明和真实retained算子分类。

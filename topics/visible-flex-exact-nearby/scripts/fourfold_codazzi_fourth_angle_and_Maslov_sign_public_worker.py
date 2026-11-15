@@ -313,7 +313,7 @@ def render(state,science):
       "- Source SHA256: "+state["source_sha256"],
       "- Manifest SHA256: "+state["input_manifest_sha256"],
       "- Complete scientific file: [actual-scientific-conclusion.json](actual-scientific-conclusion.json).",
-      "- Original completed scientific records read: "+str(s.get("original_completed_scientific_receipts_read",0)),
+      "- Original-record complete-audit counter: "+str(s.get("original_completed_scientific_receipts_read",0))+" (assigned only after every input gate).",
       "- Old rays, KAM, integrals, coordinates, normalizers or scientific sources reevaluated: 0.",
       "- Original binaries or archives restored; new arrays, Releases or artifacts persisted: 0.",""]
     if ready:
@@ -362,23 +362,32 @@ def render(state,science):
         lines.append("- "+key+": run "+str(v.get("run"))+"/"+str(v.get("attempt"))+
             "; original file SHA256 "+str(v.get("original_file_sha256"))+
             "; all "+str(v.get("gates"))+" original gates retained.")
-    lines+=["","## Exact unpaid remainder","",
-      "The complete original six-row WE register is preserved verbatim in the scientific file. "
-      "The following current obligations are not assigned a numerical norm or finite-rank status:",""]
+    lines+=["","## Exact unpaid remainder",""]
+    if s.get("copied_original_WE_retained_register_read_verbatim"):
+        lines+=["The complete original six-row WE register is preserved verbatim in the scientific file. "
+          "The following current obligations are not assigned a numerical norm or finite-rank status:",""]
+    else:
+        lines+=["The input audit stopped before the complete WE register was copied. Its original "
+          "unpaid obligations remain in the pinned WE record; none is assigned a zero norm here.",""]
     for row in s.get("retained_row_register",[]):
         lines.append("- "+row["id"]+": "+row["formula"]+".")
     lines+=["","## Structural gates",""]
     lines+=["- "+("PASS" if g["passed"] else "FAIL")+": "+g["name"] for g in s.get("gates",[])]
     if state.get("actual_failure"):
         lines+=["","## Actual failure","",json.dumps(state["actual_failure"],ensure_ascii=False,sort_keys=True)]
-    lines+=["","## Exact scope","",
-      "This is a known strong-error subtotal on the same selected S and terminal-Ai reference. "
-      "The complete infinite sign difference is bounded, but this does not pay every remaining "
-      "opposite-sign or second-reference block. Both physical matching means, transported low input, "
-      "complete incoming error and inverse, the second global Cayley sign commutator and the actual "
-      "finite Schur inverse remain explicit. Full E_i/E_o, whole return R0, a nonlinear background "
-      "and a final surface are not asserted.","",
-      "## Actual README pulls",""]
+    lines+=["","## Exact scope",""]
+    if ready:
+        lines+=["This is a known strong-error subtotal on the same selected S and terminal-Ai reference. "
+          "The complete infinite sign difference is bounded, but this does not pay every remaining "
+          "opposite-sign or second-reference block. Both physical matching means, transported low input, "
+          "complete incoming error and inverse, the second global Cayley sign commutator and the actual "
+          "finite Schur inverse remain explicit. Full E_i/E_o, whole return R0, a nonlinear background "
+          "and a final surface are not asserted.",""]
+    else:
+        lines+=["This incomplete run proves no complete new sign bound or standardout subtotal. "
+          "Only the recorded completed gates and saved partial fields apply. All original unpaid "
+          "operator, physical mean, finite-column and incoming/Schur obligations remain unpaid.",""]
+    lines+=["## Actual README pulls",""]
     for r in state.get("readme_checks",[]):
         lines.append("- "+r["time"]+" -> "+r["after"]+"; README diff empty: "+str(r["actual_diff"]==""))
     return "\n".join(lines)+"\n"

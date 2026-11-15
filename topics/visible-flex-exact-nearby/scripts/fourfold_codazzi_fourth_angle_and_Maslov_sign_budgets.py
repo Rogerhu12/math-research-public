@@ -140,7 +140,7 @@ def checked_inputs(a,doc):
          and ta["no_real_angle_jet_promoted_to_complex_strip"] is True
          and ta["exact_strict_cut"]==cut
          and wa["TC_complete_density_coordinate_read_verbatim"]==td
-         and wa["TC_complete_density_coordinate_payload_sha256"]==digest(canonical(td))
+         and wa["TC_complete_density_coordinate_payload_sha256"]==digest(canonical(td)[:-1])
          and wa["TC_source_sha256"]==tc["source_sha256"]
          and wa["TC_input_manifest_sha256"]==tc["input_manifest_sha256"])
     flow=wx["complete_shorter_flow_derivative_conclusion"]
