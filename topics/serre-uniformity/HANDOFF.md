@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：4a3be5259b8d3adafa3b6c43f820ec7e71ab87fa**（2026-11-15T20:46:18.725057+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。终端已恢复，工作区/workspace/scratch/09e43497d694/math-research-public，blob:none/depth1/main/sparse；备用rules43745726410；旧43714581068已达50次限额。完整此前H在[固定C前归档](handoff-archive-2026-11-15-before-fixed-C-next-digit.md)，open在[同次归档](notes/2026-11-15-open-before-fixed-C-next-digit.md)，全部旧pins/断点由此接续。
+**已读规则提交：e15d107adbe0e08fea539ff3d3ee5bb219934db9**（2026-11-15T20:52:43.949158+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。终端已恢复，工作区/workspace/scratch/09e43497d694/math-research-public，blob:none/depth1/main/sparse；备用rules43745726410；旧43714581068已达50次限额。完整此前H在[固定C前归档](handoff-archive-2026-11-15-before-fixed-C-next-digit.md)，open在[同次归档](notes/2026-11-15-open-before-fixed-C-next-digit.md)，全部旧pins/断点由此接续。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -13,7 +13,7 @@
 | 任务 | run / job | source commit | 状态 |
 |---|---|---|---|
 | R787原430位同核续算 | 43737413555 / 132883028161 | 4092d1cc4d1156bc24a10ff820fd39c5713e8ad7 | core93d3d72b / wrapper42157e0d，预算约21:47后 |
-| R787固定C前缀Ω | 真实请求已激活，待平台run回读 | 本次提交 | core01f96568/runnerd363d0e9，98D/branch0/146行/300min |
+| R787固定C前缀Ω | 43759938677 / 132952339244 | 53ef6c84a175645d66bea73c1eeca8b9825e9ca0 | core01f96568/runnerd363d0e9，98D/branch0/146行/300min，数学进行 |
 | R815原425-prime续算 | 43748439850 / 132916821952 | a108ce1e72958b296dcca7ff55710c94e8ed16ef | core80516ff9 / wrapperab725da0，原目标/prime/mode不变 |
 | R824准确27+244 | 43732499815 / 132867842693 | 442f3d16a9b914154e8b81bc61597d650044fd61 | core1ece3cf4 / wrapperc5907739，约20:50后 |
 | R827首真q4 | 43734420663 / 132873746638 | 400edecfeab313d1858cdb72bf18f8452ab9566a | cored9cf7739 / wrapperdbd8356e，约21:20后 |
@@ -23,7 +23,7 @@
 **固定C前缀Ω已激活、实际值待读回**：[证明](notes/R787-original-fixed-C-next-digit-obstruction-and-shared-source-contract.md)5c4ab25c/[执行契约](notes/R787-original-fixed-C-prefix-obstruction-method.md)01f4a93d。core68124B/01f96568、runner45929B/d363d0e9；98个原D、branch0/69A70B/146行、300min，复用原selection κ逆/A模逆。正残差先在280坐标除M再分支，每D为DΩ0+P(Cy qC)，自由qC=0/去content前D。非零严格排固定C，全零只前缀必要；5块及候选三阶段原子保存。无新normalized Dixon位数/原129准确关系/beta/height。未来真>430 current须独立来源mode。
 
 **R815425续算与两列消费者**：[425断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保425prime/12707bits/last1000008791/Γ未开始；原80516/849bca27及Mg六模七准确/Γ五模七嵌套不改。[首列诊断](notes/R815-projective-first-prefix-ended-and-known-columns.md)91a0456a的58候选全拒，旧RR/格不重做。
-[两列方法](notes/R815-original-two-known-columns-reconstruction-method.md)c373d52e及[实际诊断](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)0b41821e：真实Mg e1=Wvg/1652同余/高项零，d01=6485bits。run43755027718/job132937184138/sourcee1d8a95631eb11d1df0ccba4a781b05b6dd45c62，core00087968/runner58d65088，20.024秒/49不同候选全z0[0,1]拒、4pairs/28格/84行含8零D、scan next25未尽。小IO43757804827核manifestcdf06cf3/194项/准确两列8907fb65；artifact14178355802/03c3c592，3037旧carrier/current不重读。首META错误在核心启动前，已仅修IO。两列不能称完整Mg分母，R806列1首小IO43759405039误读旧顶层result，已按原configuration最小修为readerbf8ec98f重读；不重W，等真乘法链。
+[两列方法](notes/R815-original-two-known-columns-reconstruction-method.md)c373d52e及[实际诊断](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)0b41821e：真实Mg e1=Wvg/1652同余/高项零，d01=6485bits。run43755027718/job132937184138/sourcee1d8a95631eb11d1df0ccba4a781b05b6dd45c62，core00087968/runner58d65088，20.024秒/49不同候选全z0[0,1]拒、4pairs/28格/84行含8零D、scan next25未尽。小IO43757804827核manifestcdf06cf3/194项/准确两列8907fb65；artifact14178355802/03c3c592，3037旧carrier/current不重读。首META错误在核心启动前，已仅修IO。两列不能称完整Mg分母，R806小IO43759938598已核We1=e271，故Mg第271列=W×已成第二列；数值尚未执行，保高次全乘/2886同余。
 
 **R824/R827边界**：R824首28权五/300权六profile、lower56+244已成，准确272未成；1186归R787，原129/142/280Q、1521打包及κ/246一次保留，r28不补143..155。全生成后才1778纤维minor/1206。R827需真σ∞rank272+τ全多项式Hermite/Bézout；B·d_i只是子理想，单点/函数域rank不够。ell753/branch0/free1186/6724一次不改，尚无D/K1。
 
@@ -47,7 +47,7 @@ sigma须同一primitive/Legendre h的三个原单位；R739反例、R741与R737�
 
 [Kronecker平方](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5给归一δ₂^(p−6)(E²)=−192Σf_i²g_j²/Q_h。[原X6显式源](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1从原P_i/Q/T_j得x_F³+y_F³=2、E=6ρx_F和原CM点；保Ω/η相位后mathcalE²dq/q=−72Σa·dlog(y_F−a)。标量Cartier交换α0/α1已证；实际临界Cayley u⁵/Sym5分母框架及same-h两变量筛不能删除，未筛及原筛非零均未得。
 
-[原PF/Schwarz与Lagrange源](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959：D0ρ″−24U²ρ′−8Uρ=0，原t=−2A/(3αC)，K=αCx/12。首p整范围给S_(p−6)=−[U^(p−1)]x²A⁵/(D0C⁵)/4374；C首次p分母在U^(p+1)，不能当全局p整。保C^-5和双留数same-h筛，未证非零。
+[原PF/Schwarz与Lagrange源](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959保t=−2A/(3αC)、S_(p−6)=−[U^(p−1)]x²A⁵/(DC⁵)/4374。[原PF Cartier](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给Car(dU/(DA²))=κdU/D，κ=4/a_*²=−8c_r为unit，原rank1幂零p曲率与有限Wronskian1−κU^pJ均已证。C首次p分母/修正不能删；原C^-5和双变量same-h筛非零仍缺。
 
 ordinary p43/776bitq已Gaussian5排。[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892及[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一K_glob/Θ=i a_q、同Σ θ3/共轭k；C4除T²杯积只复现R779，无独立Θ实际值，禁巨大q枚举。
 

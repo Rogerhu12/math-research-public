@@ -536,3 +536,9 @@
 - 同修R806小IO43759405039/job132950661416的KeyError result：冻结旧stage把result放configuration，readerbf8ec98f只改该读法，complete/tag/SHA全保；旧source/10小件不变。
 - 首IO12源小件在artifact14179901391/5590071B/f589bbdd，无数学启动；其rules132950590548真实pullf9da5f7925150613ae26219ac5d36ac09ee2fa23，两README无diff。
 - 本push规则：本地真实pull至4a3be5259b8d3adafa3b6c43f820ec7e71ab87fa（2026-11-15T20:46:18.725057+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 04:52 Asia/Taipei — serre-public-astra-20261115
+- 登记原PF cusp Cartier稿152a9cc6：完整A根/三cusp/∞给Car(dU/(DA²))=κdU/D，κ=4/a_*²=−8c_r单位；原列连接p曲率及符号已证。
+- 有限Wronskian1−κU^pJ和Car(JdU/(DA²))=dU/(UD)准确保首p修正；仍不删C^-5、不由rank1曲率代同h筛后的非零。
+- Ω run43759938677/job132952339244数学进行；R806修正IO43759938598实际We1=e271，下一列公式已证未算。二者rules真实pull53ef6c84，两README无diff。
+- 本push规则：本地真实pull至e15d107adbe0e08fea539ff3d3ee5bb219934db9（2026-11-15T20:52:43.949158+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
