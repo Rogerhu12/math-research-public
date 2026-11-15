@@ -431,3 +431,5 @@
 - **R815首次执行契约（未执行即由R817缩小；实际矩阵待计算）**：[原Wronskian乘法与正规连接](notes/R815-original-normal-derivation-operator-method.md)。复用冻结R811框架，两个原Q向量的真实scale只一次；g/h六模插值七准确终验，Γ五/六且完整非齐次式/两图修正。实际三个目标/813824有界系数位置只为存储界；不预填非零数、矩阵或极理想。method SHA49612c053825c8c8973172106e6323d6abdc6d762fb9670df9d78712ca2345d9。
 
 - **R817（已证明）**：[不独立重构Mh的原导子准确认证](results/R817-original-normal-derivation-without-separate-h-multiplier.md)。T_G=[G,W]+MgW′的完整commutator及首列先给Mh，再由cyclic唯一给G=Γ；实际We0=e1把列条件化为Ge0=0/Ge1=vh。嵌套残差最大次数6，Γ须七固定准确点，五模点仍足；Mg六/七。仅重构Mg/Γ，省295936有界系数位置，实际算术仍待。proof SHA 2fc18cdc4bd264b2d2dbc9f80b885574764d8844d9ee3725960b5b76b684c80b。
+
+- **R816（已证明）**：[原一般p实cyclotomic尖点域与互素单轨道](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。核原u=24s(2t−1)下降、norm列标签{±n}及算术d^-1，准确cusp域Q(ξ_p)^+；c=(p−1)/2=3m−1与[L:K]=m互素，原Y_L/X_L皆一个cusp闭点。a³=t在每cusp总分歧3且剩余域不变；L截面消失阶均等。未外推p41 Hom/秩一或p单位。proof SHA 9492e526f7ea0098ee9d5889cbfe92391c67840c82736e34aa3e8b4505165642。

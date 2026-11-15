@@ -80,3 +80,8 @@
 - R817纸面认证完成：T_G嵌套交换子/首列与cyclic唯一消去独立Mh，实际e2化为Γ两列条件；Γ五模/七准确点，Mg六/七，原vh/scale/两图保留。root逐式核次数与CB′顺序，proof 2fc18cdc；R815未执行前缩为两实际目标。
 - R813原run43715253991已于12:58UTC成功，两Q右端/full820/冻结verify全通过；实际451文件artifact14162633303，完整输出IO正读，不预填digits/坐标。R787/R809继续，R811完整极理想工程与generic续算验证准备。
 - H全文归档压缩；并发拒后立即重跑公开run43714581068/attempt10实际pull/read44480cd2（2026-11-15T13:17:09.265464+00:00），两README无差异；原三算子旧契约明确标为被替代，主目标OPEN。
+
+### 2026-11-15 21:24（Asia/Taipei）｜serre-public-astra-20261115
+- R816原一般p尖点结论登记：root回读R575/R725/R772与Zywina原Lemma5.2，核算术右乘/d^-1、实剩余域、c=3m−1互素和原a³=t的总分歧；char0同阶不代p单位。proof 9492e526。
+- 终端恢复，新partial clone并实际pull/rebase；13:20:35UTC已读329c622d，两README无差异，改回CLI推。H逐字归档并压缩，原所有未闭条件保留。
+- R813本地纯IO全451ZIP/输入carrier/冻结verify成功，原432位、两scale6724/1、core67.613512秒；真实字段已交R815，不导入数学core/flint。R787/R809继续，R811 generic公开验证准备，主目标OPEN。
