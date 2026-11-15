@@ -139,3 +139,5 @@
 - [增长恢复实际：两次增长、六次接纳与细网条带阻断](notes/trust-growth-recovered-actual-20261115.md)：43681388902同g真实η降至.26653464896453305，新.26未达；11次细网拒绝已有strip充分原因，下一只改提案余量。
 
 - [R198：最右单profile完整period对全部二阶gauge不变](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)：f全部右支撑之外L_f任意w严格0，固定目标准确退sin⁴θ P_B(g)；R183只需一有理下降step，保真实s历史，尚待零/非零判定。
+
+- [R201：权零pure像等于响应像，正字符无法由pure读出](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)：公开19列/42行准确rank3，给原三项有理关系及H∈kerπ、λH=1；核16/13，完整正性仍成立，未构造实际pure零成本。
