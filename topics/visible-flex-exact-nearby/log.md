@@ -75,3 +75,8 @@ v3实际failure原因/完整log及最后报告counts只引43709951426/1 f526d0b1
 ## 2026-11-15 11:58:25 UTC — 正预算分离成立并部署首次新tail消费者
 
 读main d0ceaf1233a473d89651e95c7e953a8424e057d2两README未变。root全文审fedf17ff契约和新SCI数学路径，亲读原whole源a0f12f84 derivative_budget234–258及原C b0648a3b positive_linear_calibration/CompleteOperator/local_vectors，确认原tail纯正加和无min，C两个min分支含相同正addend。只减该数值addend的严格lower，不减函数error upper；有限系数和完整rest不丢。原P17文件逐dict全保，新24pin688041B。仅新产品域、6完整二径/角0..2尾、完整rest和local1比率/全和；新源e0541949，manifest5e2618c4，worker276d2adf，flowb2cb21a8。static delimiter通过，worker与已成P稳定版diff只角色/门/去原P取证，published-origin容量和≤59KB预Gitstdout保持。已有同身份成功复用不再算。全部新数值只交public Actions；实际域门/child退出/改善待run。
+
+## 2026-11-15 11:59:35 UTC — 第二local完整rank契约与首次消费者
+
+读main 0b038041918431c90e55c05146489ac13d9819fc两README未变。root全文审L2契约f0496e7e、SCI11940389数学及manifest/worker差，phase此前独立全文、tail独立rank复核。E12顺序、regular b、完整complex z方盒rank gap、两分量xy/y²及原1/n均保；只newR1/4000/全scalar，5成功receipt/18系数/31项原读。23pin602844B，P原17pin逐dict不变，accepted_first_local_update模式明确，不倒回D的raw1。root修唯一native hash清单路径与SCI一致（加入rank），worker仅该一行，SCI不动；最终worker2fbca963/manifestdf685783/flow3e9039f8，静态delimiter通过，actual AST在public。16门和实际结果待run；与newtail实际后只读合并。
+root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7进行中，不预报preflight数学成功。

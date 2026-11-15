@@ -145,12 +145,16 @@ first<1.772092028752768e16、完整pair<1.772092107010686e16；其它20first+10m
 已从原whole Taylor正算法和C两支min逐式证明共同正addend，可减其严格lower回读finite/rest，
 不是相减函数误差upper。首次24pin消费者已部署，P原17pin零改；仅新6个二径0..2角导完整tail、
 RT3/5000新product门与完整local1预算，保原所有mean/finite系数/n≥13/两Fourier尾和当前P全ledger。
-实际新产品门/改善待首次run；旧S/C/D/P不重算。
+实际run43711480764/1（head985e20ff）进行中，新产品门/改善待核；旧S/C/D/P不重算。
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
 G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。
 L16–18另给exact inverse首列及rank外积，w0完整两分量保xy/y²根零；
 未新增determinant域或数值收紧。
+[L2完整第二local消费](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)
+现付E12完整第二行与真实xy/y² rank，保原raw2已付1/n。首次23pin/acceptedP模式已部署，
+只新R1/4000完整域、complex频率方盒determinant及全两分量预算，P原17pin零改；
+实际16门/数值改善待run。newtail与L2各保当前P，二者actual之后只读合并，不重其旧数学。
 [F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)
 进一步用M=G U_-²、U_+M=G B_+U_-在取模前合并L13三项；两额外矩阵的对角准确消失，
 G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。

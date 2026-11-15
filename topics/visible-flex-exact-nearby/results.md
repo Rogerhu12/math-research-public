@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 完整第二local向量与真实rank消费契约](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)：E12先取完整第二行、xy/y²两rank与regular quotient；complex频率平方域的determinant门及新R1/4000完整预算交首次public run，原raw2的1/n只用一次，保P其余全ledger。未预报实际改善。
+
 - [R133 同正预算分离与第一local完整Taylor尾替换](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)：原whole算法finite+两正尾及C两支min共同addend逐式付，严格lower只用于同数值预算，回读finite/rest后保全部尾/mean/Piola。新RT3/5000产品和6完整导数尾交public首次消费者，未预报数值改善。
 
 - [R133 双侧正collar的完整残差能量与H1 cut](results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md)：真实drift能量交叉项消失，speed导数保残差mean；完整rank/mean/Fφ及两侧seam给E19–22显式内迹。只需unknown C0、known两角导数；实际低trace门和8193窗口不在本结论中。
