@@ -262,3 +262,7 @@ SCI c296d256be72fac4f7b7c4f1e5d82c10437b550b/45808/SHA8f8553ca9da27962c8e907eeb9
 ## 2026-11-15 18:55:21 UTC — SN第五运行停止、成功prefix及精确lost边界
 
 亲读公开43746794222/1完整execution/全部jobs；metadata HTTP502导致supervisor终止child−15，scientific failure=null。204pins/8AST/17门、314旧interval/1256新subcells，SCI17323/97f2e921按递归字典序JSON逐字复原。cursor34092249179194657/144115188075855872、双四error和下个2831mean/speed均保存；365535907B gzip7a83abf8仅hash，完整LP/reference/source数组与prefix maxima已失。先在本H/actual记录，仅准同冻结算法重建丢失reference：314×4、point Taylor/old endpoint midpoint，禁重成功prefix residual/parameter/Gram/角root。无旧refhash不冒核/不以suffix max冒全程；完整target/C未付。新proof10764B/18a3a7f6。压缩前H/open逐字归档19dfd4c6d8cb6ad3cdb253c93293cebe1378648e，所有旧域/义务与成功禁重保留。发布前6f095d6e2d7b86be1718f4119e77cbea67b77d9c双README原blob未变；runner末真pull18:46:34到11d82903全空diff。
+
+## 2026-11-15 18:56:00 UTC — DR首运行失败门与四个成功free receiver分别锁定
+
+root全文核phase actual报告19437B/e3a5faa4；公开43748529142/1 child1/21gates，31pins/8AST均过，仅旧wholeK不能证strict−K。完整science13623/1dbae62c与preGit28388/a5263408精确复原，三完整JSON和23球逐字一致、jobs3240/8881b6b5核。domain/R2,R3/p2,p3/四ΓwΓp成功，late counters0不作0math；高导数组仅hash，temporary{}，g/physical尚未算。原body member实1167787B/ada96633；samegerm rc→root/νbump0只域核，不预授signedK1。下一新g-only只读已成moduli，保持J原窗/P⊥/两mean/单位；其余normalizers/incoming/R0未付。原IN完整内容归档2f8be6b634ed5786e0c0fa963f28d061df40d396同H/open，成功禁重。cf1f802d51a439aea222de6f201a85dd6862d5ce双README原blob未变。

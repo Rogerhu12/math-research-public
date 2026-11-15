@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 18:55:21 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 18:56:00 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 18:44:44本轮定时CLI及每次非FF即时CLI仍失败。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；下一定时真CLI≤19:44，ref不冒pull。runner18:39:40.392329真pull4781aac81b53ad3179a51e53909e45d89f5ffe87双README空diff。
-最近只读README核：6f095d6e2d7b86be1718f4119e77cbea67b77d9c；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：cf1f802d51a439aea222de6f201a85dd6862d5ce；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保19dfd4c6d8cb6ad3cdb253c93293cebe1378648e同路径，递归30337/b13dfa/f010/656b/66d375/31e2/908da2/3f716/96001/5fd5旧档；全部域/mean/单位/失败/restore/未付义务保留，成功禁重。
 
 ## 同一个对象与总验收
@@ -26,9 +26,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ、SP/PW、PC及PF/CT全部已成源/mean/两sign/�
 SN6e906170/准备77e36f22锁；第四nonfinite/lost保3f716。第五43746794222/1由metadata502监督杀child−15，科学failure=null，17门/204pins/8AST，execd2855e79/SCI97f2e921精确root复原。314旧interval/1256新subcells已成，cursor34092249179194657/144115188075855872；双sign四error保actual18a3a7f6，末第三导2.042376224657383并非合成H3。下个2831 mean/speed已成。365535907B新gzip7a83abf8只有hash，LP/ref系数失；先记录lost再仅重建314×4的point名义源/mean midpoint/refrecurrence，禁重成功残差/parameter/gram/角root。旧prefix maxima未存，不以suffix冒全程；无旧refhash不冒比对。worker暂态重试和reference恢复尚待，target/C=false。runner18:46:34真pull11d82903双README空diff。
 AC6527fa46保C≤2^20||c0−μH′||H3；CN427387a2旧linear路线μ²/4不得删。ENed2ff38e仅直接signed R=ζUΩexp(McI)+Eexp0后给e26C[Rexp0+67|μ|C/8+131C²/512]，不可upper相减改名。
 GH0ffb191a须完整R:H(s−4/3)→Hs且χJ=128CsΛJ^-1/3<1，J97/C0≤1/32仅目标；incoming/stable/normalizer/finitecross/全s/mean/真β/νSchur未付。PD58bdf173真DF/rho15一导损/第四Robin/mean/腰/D²/smoothing/迭代全部保f010，非同阶Neumann。
-INd4ac47aa保根β input n^-4/3非HS、全τ27产品/两inhom/完整mean；S仅ordered域消，双χ/有限三行/dualH4/3/P22≠SP .005cut全保656b原文。
-IN实际8d27fee5：43746008734/1 child0/23锁，exec81648388/report3bfc773c/SCI6c49494a/preGit15a81425及94球root核。m3>.9999986308459；全τ24coeff/14运用/六receiver/五inhom成功，10旧receipt只读。density0 H−1/density1 L2/extra H−5/3/完整mean保；physical J/L/B/eta/ng/q/freeR2/R3/CDar/incoming/R0待。
-DR0e80f086已root/双peer核：原P⊥/J typed窗/η−1/CI/ng/Tq与两mean，freeR2/R3 φ4/rφ3/原H freegap/input n^-m一次。SCI8f8553ca/worker811685d7/manifest5c7cd6f9/flowed90cf89本次部署；31pins（27小UTF8 814638B全核+4旧binary仅runner），两原archive metadata过，body成员旧bytes未存仅SHA锁并20MB限，实际bytes将记录。唯一自然run待取；数值/normalizer/incoming/fullR0尚待。
+INd4ac47aa/actual8d27fee5：43746008734/1 child0/23、exec81648388/SCI6c49494a/preGit15a81425及94球全核，旧10receipt只读；τ24coeff/14运用/六receiver/五inhom保全mean，density0 H−1/density1 L2/extra H−5/3。根β input n^-4/3非HS、τ27产品/双χ/finite三行dualH4/3/ordered S原域全保2f8be6b634ed5786e0c0fa963f28d061df40d396同H/open及IN原文；P22≠SP.005。physical四项转DR，normalizer/incoming/R0待。
+DR0e80f086/partial e3a5faa4：43748529142/1 child1、21门/31pins/8AST，旧wholeK不能证strict−K；非点态K错。execdd72c476/SCI1dbae62c/preGita5263408均root精确复原；domain/R2,R3/p2,p3与四raw H−1 Γw/Γp成功保存，late计数0不作0math。原高导数组仅hash、temporary{}不含，禁重已成；g/physical未算。body原member实际1167787B/ada96633，samebody3070含rc→root，νbump0；新signedK1 FTC与g-only盘界尚待，不借.005门。P⊥/J原H−5/3→H−2/3/η−1/CI/ng/Tq/两mean不改，normalizer/circle/incoming/R0仍待。
 
 ## 同态core/帽、低高trace与几何：tail_connector / root
 
