@@ -90,6 +90,8 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [M真实第一local](results/R133-supplement-direct-genuine-first-local-residual-from-negative-mixed-jets.md)及[actual43721735003/1](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)已成child0/23门/math.008657345，reportea28b65a/executionb8588530/result5f1ad2e5；SCI b4bc768e/workerba0c59e7/26pin1055c823。只新10mixed/2角4、14低jet仅读，M16 E第一行准确消去前保full μ/V/Xi/b0/T可去，八完整物理项/原C算法lower/两域/mean不删。raw1<5.399608e10、local<5.443134e10、first<3.714349e11/pair<3.714351e11，mean<3.401970e8原字；其余30项逐字DG，root核74报告球均源原字。E是当前大upper非真实下界；phase继续canonical b0=T²b2新域最小预算，不重M10mixed。非full逆/GH。
 
+[SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)证明B_jw0的主列G(−sx,−y)及保y²/y³的全rank修正；full径向G和均值不删。新负h限制/四角jet后，原18coeff给Γ=A(t)+A(tφ)、M=A(tφ)，完整七项SV词/独立uJB word及真实W2只读。只比较density0 SV、V0mean、uJB三整项，M43721735003最新账本其余28原字。原inversegap仅真实n≥388、全φ与δ；不冒独立complex-z逆。合同5374f2b0、SCI44021afb/worker0b5368da/69pin5306e66c已root全核，23实际门待，非source-to-wave/GH。
+
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
 原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。
 完整root/真jump实际列、positive两端/strict传播/waist/ray-KAM/完整return仍独立；17门不授GH/核心存在。
