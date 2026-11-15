@@ -1,0 +1,56 @@
+name: Rank2 read-only actual pull and rule differences
+"on":
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/rank2-sha-readonly-rule-pull.yml"
+      - "topics/rank2-sha-infinitely-many-p/ci/rule-sync-request.json"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-sha-readonly-rule-pull
+  cancel-in-progress: false
+jobs:
+  actual-pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      RANK2_RULE_SYNC_DIR: ${{ runner.temp }}/rank2-sha-rule-sync
+    steps:
+      - name: Sparse public clone, actual pull, and README difference
+        shell: bash
+        run: |
+          set -euo pipefail
+          git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_RULE_SYNC_DIR"
+          git -C "$RANK2_RULE_SYNC_DIR" sparse-checkout set --no-cone '/README.md' '/topics/rank2-sha-infinitely-many-p/README.md' '/topics/rank2-sha-infinitely-many-p/ci/rule-sync-request.json'
+          git -C "$RANK2_RULE_SYNC_DIR" checkout --quiet main
+          git -C "$RANK2_RULE_SYNC_DIR" -c merge.stat=false pull --rebase --no-stat --quiet origin main
+          python3 - <<'PY'
+          import datetime, json, os, pathlib, subprocess
+          root = pathlib.Path(os.environ["RANK2_RULE_SYNC_DIR"])
+          def git(*args):
+              return subprocess.check_output(["git", "-C", str(root), *args], text=True).strip()
+          request = json.loads((root / "topics/rank2-sha-infinitely-many-p/ci/rule-sync-request.json").read_text())
+          head = git("rev-parse", "HEAD")
+          baseline = request["last_rules_read"]
+          subprocess.run(["git", "-C", str(root), "fetch", "--filter=blob:none", "--depth=1", "--quiet", "origin", baseline], check=True)
+          paths = ["README.md", "topics/rank2-sha-infinitely-many-p/README.md"]
+          diff = git("diff", "--no-ext-diff", "--no-renames", baseline, head, "--", *paths)
+          result = {
+              "kind": "rank2_actual_ci_git_pull",
+              "actual_git_pull_success": True,
+              "utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+              "head": head,
+              "last_rules_read": baseline,
+              "request_id": request["request_id"],
+              "readme_blobs": {p: git("rev-parse", head + ":" + p) for p in paths},
+              "rules_changed": bool(diff),
+              "scope": "read-only sparse CI checkout; local workspace remains separate"
+          }
+          print("RANK2_RULE_PULL_RECEIPT " + json.dumps(result, ensure_ascii=False))
+          if diff:
+              print("RANK2_RULE_DIFF_BEGIN")
+              print(diff)
+              print("RANK2_RULE_DIFF_END")
+          PY

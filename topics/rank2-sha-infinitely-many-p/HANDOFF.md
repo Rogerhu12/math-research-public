@@ -6,14 +6,15 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ea1279cab66e40403163177e72c16c7668556de8；2026-11-15 01:52:44 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:52:43 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
+- 最近已读规则提交：ffe069ab4fa924c611736f12a43c313a6d408cb5；2026-11-15 01:55:04 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:55:02 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
+- 只读Actions rank2-sha-readonly-rule-pull已请求实际pull及规则差异，成功日志待取；与本地断连分记。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–643及R646已登记；R364/R561仍开，R637/R644/R645/R647/R648进行中。
+R1–363、R365–560、R562–636、R638–643及R646–647已登记；R364/R561仍开，R637/R644/R645/R648/R649进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r636-supplement.md)、[open](notes/2026-11-15-open-before-r638.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
@@ -21,7 +22,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 - root：R639/641完整gauge与准确边界、R643中央正成本次主量已付；续R644真实全源传播及open其余算术接口。
 - theta：R638已发表；续R645原Y/W与旧A/W同D的真实交域、全部q/单位测试和补偿。
-- literature：R636前五块及h5仿射已付；续R647原S/T/U完整Cartier与中央残差。
+- literature：R647原S/T/U完整Cartier已付；续R649同源真实必要式的算术非零。
 - deep：续R648全C带权旗标Smith细分与R637旧小预算同R/全Padé/26carry，两目标不混。
 
 ## 原对象、ray及未闭旧支线
@@ -80,6 +81,10 @@ A4=xQ6、A1=−Z³xyQ6：cℓ=ResO(Aℓω)，dℓ2=−D^(p−1)(Aℓ/Z)(O)。
 规范重标保全算子/两行剪切；未证指定detunit，不删原R1/R2/a/p。
 增补：Z=z−κ5 z^(5p)+…，κ5=(3b/5)^p/c_p；h2..4真实Cartier行Tℓh=dℓh，h5为dℓ5=Tℓ5−ℓκ5。
 fullFc保γ2Tℓ3+γ3Tℓ2+γ4cℓ全部三角项，前两窗仍逐项不变。
+
+R647同一P2=−(D−2G)^(p−1)Z^(p+1)、Θp=xP2给原S/T/U完整有理模型，保全部多项式/O(p³)极帽/Z的3p个零。
+原g_mh=T_mh(h≤4)，g_m5=T_m5−6κ5；j_m0给T_m1=0、T_m2=γm(g_m1/p)bar及T_m5+γm^5 B_m5/24=6κ5。
+B_mh是原低部分和除p^h，不自由/不删除；第三条只在另假设j1360时加入，fullFc全三角保。
 
 R614–619整窗/坏带/Newton尾、R625–627原p^e首坏带及真实源成本照前检；R618 τ₂=(2p−1)/(p(p²−1))。
 R632原sigma全S≤R<R_E度p/七积分独立不外推全p²域；R635任意p|N正幂准确R_E/闭非Tate，H边界根和d0单位全保。

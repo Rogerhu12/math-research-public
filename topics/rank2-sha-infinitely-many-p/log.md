@@ -579,3 +579,5 @@
 - 2026-11-15 01:48:34 UTC / Astra-rank2-Sha-continue：R646付原全C的分歧合流unit块、全部高尾及全列单射，精确取整给Smith指数≤B_D≤7（p≥137≤6）；R633高方向均为有限p幂，旧M/D+另保。实际pull仍无环境，核最新两README；续R637真实小预算及R636原h5仿射增补。
 
 - 2026-11-15 01:52:43 UTC / Astra-rank2-Sha-continue：R636增补原前五块的实际Cartier jet，准确支付Z−z首Frobenius项及h5的−ℓκ5，保fullFc全部三角补项。H先完整归档；R646已推fd277c2a，续R647直接S/T/U与R648全Smith，旧同R及主目标仍开。
+
+- 2026-11-15 01:55:02 UTC / Astra-rank2-Sha-continue：R647付同一P2的原S/T/U完整Cartier返回，保第五块共同仿射与实际低块除商，原两零不添加第三零。新增本题只读Actions工作流以恢复实际pull/规则差异，仅读两个README及请求，不写refs；本地环境仍不可用。续R649实际同源约束及R637/R645/R648，主目标未完成。

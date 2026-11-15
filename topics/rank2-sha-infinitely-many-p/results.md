@@ -158,3 +158,5 @@
 
 
 - [R646：原完整目标的分歧合流单位块与全部Smith界](results/R646-original-full-target-ramified-confluent-block-and-smith-bound.md)：f_D<p下原全C分歧小盘的所有regular高尾严格升阶，真实合流族逐余类独立并给整左逆；原13/P134/U0/40和全部帽保留。所有Smith因子非零，指数≤ceil((b_D+13)/s)，统一≤7且p≥137时≤6；R633高方向均为真p幂，未把辅助缩放当原整等价或替旧同R。
+
+- [R647：三条原算术来源的共同有理替代与前五块Cartier必要式](results/R647-original-three-source-rational-model-and-five-cartier-conditions.md)：同一P2/Θp匹配三条原完整多项式，全部h≤5准确Cartier与留数返回；第五块共同−6κ5，原j0必要式保实际低块除商及fullFc全部三角。全部二挠极帽/Z零点/真实尺度保持，第三j0不从两零推出。
