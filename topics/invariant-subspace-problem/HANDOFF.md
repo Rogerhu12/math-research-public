@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 全部精确来源、旧参数及未列开放问题保[本次压缩前H](notes/2026-11-15-handoff-before-directed-s2-and-jet-band-decay-789f.md)和其中open/H归档链；未列不算关闭，open.md继续作目录。
+- 全部精确来源、旧参数及未列开放问题保[本次压缩前H](notes/2026-11-15-handoff-before-two-jet-budget-continuation-789f.md)和其中open/H归档链；未列不算关闭，open.md继续作目录。
 
 ## R150 已证与真正缺口
 
@@ -19,22 +19,15 @@
 - [负六全闭](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：P/full正谱1⁷,2,3/长12/max3，W全在原局部像，九目标无需s+6。[2点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)实4.637497190秒、正谱亦1⁷,2,3/长12，但full现仅12…28，T长≤16；不证明亦不否定h0一阶够，已转原W/九目标而非提高同P阶数。
 - [O完整模31谱](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)：O1834×1632、常rank1603/29正指数，总149/max14；Q仅29≤σ≤149。原两项δfull_Q+σ_Q≤215<243，故该固定两项判据已不可能封leading单位。精确分解vdetB=δfull+λ_I+σ+δ_high；模31现已[定位λ_I=2、δ_high=26](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)；同I^c的12单位行加单标量始13u²，δA_I=68。同原A_I子式约化另给Q联合δfull+λ≤68、λ≤25；Q原始核未核，不能搬λ≤2，leading单位必要δhigh_Q≥26。
 
-## 旧session与完整恢复历史
+## 会话、已闭局部与当前恢复
 
-- run43702348535已15:46:14 UTC结束，仅至step53；末1692完整digits/49069bits、19重建未成，不否有理解。O/维护/末位重建/final后排未执行，旧tmp已不可用。
-- 原47步请求commit795c0306493c98aa0a04a11a2751b4cb0949709b、后排CLI/pins、全部最终slot/raw身份保[本次H归档](notes/2026-11-15-handoff-before-directed-s2-and-jet-band-decay-789f.md)。后继按必要输入重建，不重跑47步，不持久化可重算大数组。
-
-## 最小会话与后继恢复
-
-- local run43731613530已完成F±和E8；精确source/raw/SHA见H归档。[F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)低谱各3,3/长6，6≤δP≤δA≤8，F±²W及九h0目标已付。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)给δlow≥2vDlin；真E8低谱2,2/长4，4≤δP≤δA≤5，E8W已付。完整Γ未知有限支持仍开，已闭low不再加阶。
-- full∞ run43731615668于16:30:40成功结束，local run43731613530于16:30:38成功结束，tmp不再可读；full只需6历史输入按需重建。manifest notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json，blob00c4da90…/SHAf845995bd1bce3410baea46ec968892621a48465aad62092798f372b7d6f00e8；历史commit8c6304e273e64b0544d3dd58bc0e48a672a87c36。
-- full27 v2原全部4340单位/6188残量、1711875降次数pre尾已真，谱66/最大11；原0…21临时层随已结束job丢失，源码/最小6输入及所有SHA保H归档与完整谱正式稿，首次v1失败仍保留。
-- O最小入口长149与G_I长2均已实际完成，完整原产品通过，原数据随job结束丢失。G仅用mapper0…10/884884原乘积，未续native；source/raw/全部SHA及重建方案保[投影正式稿](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)与H归档。
-- [正常pencil非幂零](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)：s=4/3/5原有理计算0.049385118秒，完整81+99产品真；s4非零trace排全正常有限几何级数逆，不否九目标/全部Γ反馈，勿重试此捷径。全局h0仍余s=2和未知异常支持。
-
-- 活跃local run43736746064于16:40:01启动；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json，仅排原s2定向left2（逐SHA源码/全部CLI在request）。保F1pure、全22常头与常校正；先λ1≤normal2，非零才造λ2≤normal3，全6188乘回。零读数不证成员性。Q13待审后追加同job。
-
-- [原二次能量与真参数导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)已解析全核：12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ，均原17式的常数M来源。正常唯一弱指数a的真实弱列给固定M导数系数恰a−1；s2恰一次。但其余正常二次项和共动三次反馈−4/3 tr(KMKMK dotM)未消，不能宣称九t n_j²归属。
+- 旧run43702348535至step53/1692完整digits/49069bits/19次重建未成；后排未执行。全部CLI/最终slot/SHA在H归档，tmp已失，不重跑47步。
+- full run43731615668与local43731613530均16:30成功结束，tmp不可取。full v2完整谱66、O149、G2/高商26已推；重建只按notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入和同选小receipt，source/raw/SHA见各正式稿。
+- [F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)已闭：低谱3,3/长6，6≤δP≤δA≤8，F±²W。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)δlow≥2vDlin；E8低谱2,2/长4、4≤δP≤δA≤5，E8W。对应九h0局部均付；已闭low不增阶，未知完整Γ有限支持仍开。
+- [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)在4/3/5的原81+99产品真，4点非零trace排普适有限几何逆，未否九目标。
+- **活跃local run43736746064**于16:40:01起45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2首180s已成常头155×22和首常核585×2/rank583；raw2205B/77a06e99fec91ca12a0d9ae72aeb7e7b7711335717e7a08f418113fc474e1404。尚未首读数；同tmp two-directed-left2-checkpoint续600s，不重做已成RREF。保非零F1pure、全22常校正、λ1≤normal2/λ2≤normal3和全6188原行；零读数不证成员性。
+- Q13下一步只需原primitive历史gzip；已排只读恢复，完整blob/解压SHA均核，落本job inputs/repo。normal_annihilator构造真K∞、原17式比例、原free13归一/完整整性；审后追加同job，禁止拿有限域2免费当Q上界。
+- [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)：12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ均原17式常数M来源。真弱列导数系数a−1、s2一次；其余二次项及共动三次反馈仍开，不能称九t n_j²已在像。
 
 ## 原同w边界：正交旗后继续真正返回
 
