@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：实际全部5970格同F方向矩阵](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)：43654510038 的32互斥范围和finish全部成功，4原格逐字复用、5966新格，7完整覆盖门，193状态/128高频方向/均值和真实测度全保；Green43672023585已启动，局部覆盖不替代全双边界逆。
+
 - [R133：实际全频帽 high→原97后验](notes/2026-11-15-R133-actual-full-frequency-cap-high-to97-posterior.md)：43671537267/1 科学 child0、九门，完整 signed Wcap 保全 unknown even |j|≥97/独立mean/真端点与Hessian，||CH||<0.000943；等待真 Poisson 的三个 HY 作同输入方向收缩。
 
 - **完整7908伴随主体实际通过**：[actual报告](notes/2026-11-15-R133-actual-complete7908-cap-adjoint-residual-Grams.md)43665656138 finish child0/2覆盖门；4pilot逐字+7904新，9个全97 signed Gram、真9/10/mean/无限系数费全保。真实普通残差HS<.001546601378，尚须实际端点/high合成Wcap与真Poisson三HY，不授全帽逆。

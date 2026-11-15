@@ -115,3 +115,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 2026-11-15 actual full-frequency cap posterior
 
 43671537267/1 完成同97全频帽后验，CH CH*≤Wcap，||CH||<.000943（[实际报告](notes/2026-11-15-R133-actual-full-frequency-cap-high-to97-posterior.md)）。全部7908 body、真实左右/outer mean、高频尾和Hessian已收费，原矩阵 signed 保留。该项闭合；继续真正完整Poisson的 whole/negative/cut 三 HY，切口迹独立，全无限反馈和非零参数转移仍开放。
+
+### 2026-11-15 complete5970 same-F data finished
+
+43654510038 的32范围及finish真实全部成功，原4+5966覆盖全部5970闭区间，同F逆误差/完整signed源和输出Gram/真实Q及ρ端点全保（[实际报告](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)）。数据生产子项闭合；Green43672023585已实际启动，继续双扫坐标、所有真实graph舍入跳跃、完整waist/regular mean边界及独立cut迹，再连接Poisson/Wcap。
