@@ -241,3 +241,13 @@ root全文12selected geometry/完整两五列/三conditional/source/scope、16�
 新6144组12288完整式，12旧pair只copy；J96全a1/200,N23、J288全a1/1000,N76。最宽J96 NC/BD已知源+条件high均<1.012e−11。实际整row放大与sqrt(1+384²)<385给完整H1<1.012e−11+385cL+min(145ZS+748ZL,489ZS+10ZL)；若未知三量满足≤9.5e−12，得1.962e−11<1.96875e−11。rawpair第二component正是W的η，无新√2/二次角转换；fullmean/P一次和原moving角全保。该门尚未actual，same-state两侧H1/wholewideC0/残差0及独立MA域仍须证明。Green若为Q−Q0，cut与body各保selectedδZ；inputGram不授shellreceiver。
 
 公共真pull16:32:32.710437→106e9bdf、16:32:35.383327→同、16:32:40.653696→7705aa375a506301b3e35a0265ee934449bcd150，双README全空diff。另root完整结构diff亲读Green16:36 process18ac88c5/54343B/17d4ef40ab06f9a3f2e64ec5ce36aa29c0d77e6d7bfd730cfbbf9ddd0fb5619b：past5952、future/product5970、combined184而后consumer各72/65/48均false，childnull；不合异步计数授final。真pull16:36:42.963470→b6c715d2f37f274ad4cb188b68bca3f6dc77249b，两README空diff，容量199395078B。H压缩逐字archive106e9bdf同路径，原条件不取消。root只读README核fc2e53fc246d3eba6a4f8019af8b124f9d12e5e8。
+
+## 2026-11-15 16:41:16 UTC — EN完整指数正规化与直接匹配的强余项
+
+root完成纯解析证明并以blob90fb4fa875bf36d3e36cc57d787bb6f119fa5b76/12247B/SHA ed2ff38ecb1dd23b3619cfc4bf641ce11b0350b79c66b376b77c4c116883f64a独立提交。newton完整亲读EN1–22、tail指定EN14–22全文双积分/两空间次序/旋转方向独核通过；无新数值或旧数学重跑。
+
+固定同真实角/physical4j/normalized measure、c=μ+v、C=||v||H3与CN全频w_-−w=v。新假设必须actual直接验证R=ζUΩexp(McI)+Eexp0，完整root/positive/incoming/strict/head/mean及density高阶变化全在余项。T=exp(MwI)准确逆；L2/H−4/3双向norm分别≤e^(C/2)/e^(51C/4)，constant input固定而nonmean可贡献mean，所有物理mean行保。
+
+全[I,Mb]三项及[Aa,Ab]四项含两个rank；I²强范数ι=17^(2/3)/16<1/2。完整W2(v)≤C由625/1024平方界；K(w_,c)≤ι(67|μ|C/4+131C²/128)，|μ|K(1,w)≤ι67|μ|C/4。μI在两个全Sob空间skew，增长只由nonmean给。Trotter三角area1/2与左右X/Y次序给指数103C/4、51C/2，原Eexp0运输53C/4；统一base强界e^(26C)[Rexp0+67|μ|C/8+131C²/512]，scalar相位e^(−iμ/(4j))正确。
+
+无独立μ²仅因新假设已含完整scalar exp。若仅旧Rlin已付，Eexp=Elin−ζUΩ(exp(McI)−Id−McI)须完整signed验证；旧norm triangle仍付scalar二阶费，CN不改。CT完整c并不授新Eexp；更高Sobolev各自需multiplier/commutator，actual有限border/physicalphase投影/两输出/mean/真ν与GH门仍待。root只读README核e99194686f73a489fb5a98ec66063bdd8f1a01e5。

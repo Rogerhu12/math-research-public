@@ -49,6 +49,8 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 
 [CN全圆周一阶正规化的显式逆](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2：T=Id+MwI可由实周期一阶ODE全频准确求逆，无额外小C或finite-cutoff假设；保两mean和全部有限秩。以完整c的C=||c−μ||H3、K0=1+2C exp(17C/8)，强余项Rexp≤K0[(1+13C)R0+3|μ|C+C²/16]+μ²/4，常μ的scalar-exp二阶费也全付；不把β/Xi标量代完整c。actual C/R0、真背景phase稳定、GH数值门和physical有限border仍待。
 
+[EN完整指数正规化](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)ed2ff38e给新条件路线：须直接验证完整 $\mathscr R=\zeta U_\Omega e^{M_cI}+\mathscr E_{\exp,0}$；$T=e^{M_wI}$ 全圆周准确可逆，全部mean/rank保留。两空间commutator/Trotter与scalar $\mu I$ skew给base strong $e^{26C}[R_{\exp,0}+67|\mu|C/8+131C^2/512]$。C=0无独立scalar平方费，因输入已是完整指数；CN旧linear-reference的μ²/4仍保。若从旧Elin转来，必须另付完整signed $E_{\exp}=E_{\rm lin}-\zeta U_\Omega(e^{M_cI}-Id-M_cI)$，不得upper相减。实际C/Rexp0、角密度高阶差、incoming/positive/root/head/全mean、高阶Sobolev/physicalfiniteborder/GH数值门均待。
+
 [AC真实共轭的完整H3 density转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46：旧43588332723的真实H′ A1/128界付H四导；c=(c0/H′)∘H⁻¹、μmean不变，C≤2^20||c0−μH′||H3，全physical4j/measure/有限rank保。完整c0−μH′的三导仍待，不能用c0−μ或β标量替代；不重KAM。
 
 [PF逐点root有限部与完整真ray首系数](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf：全两row/oldI/错相−SI精确消去后，Broot的函数有限项0；第二反项g1hat=g1pt+g0dφ*必须保actual Jacobian。Bρ=J+a+(H+)−J−a−(H−)，减g0ρ^-5/2及g1hatρ^-3/2后可积，腰部c0=X−′(Croot∘X−)。同root/waist方向、radial gauge、两mean和seam阶数全保；旧scalar均值结论不代非mean。完整H3 norm与强R0尚未actual，下一新函数消费不得重旧scalar/ray/KAM。
