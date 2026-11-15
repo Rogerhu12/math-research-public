@@ -19,11 +19,11 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-旧complete-affine：run43728280256/7329385/job132854922848；[原记录](notes/complete-affine-first-actual-result-20261115.md)保9恢复/六模型失败与费用，0重跑。
+旧complete-affine 43728280256/7329385失败、9恢复/六模型/费用保原note，不重跑。
 
-**Norm-memory实际**：[原结论](notes/norm-memory-first-actual-result-20261115.md) run43741276060/c30e7ea/job132894771246，同g/b0/H与完整159/163；11模型/12primary/8接受使η.266381717617→.266366277975，bank7→9；m1/5/10学新行提前退，m5/10真曲率失配见[诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)。0旧optimizer，原12LP/40值/120s全保。
+**Norm-memory**：run43741276060/c30e7ea/job132894771246，同g/b0/H/159/163；11模型12primary/8接受η.266381717617→.266366277975，bank7→9；m1/5/10新行退，m5/10曲率失配原诊断保。原12LP/40值/120s不变，不重旧优化。
 
-**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。费用/计时边界见原记录，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；末物理SHA见新记录。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。**旧m10完整可恢复已付**：原x/y159/163、9bank/新两池齐；删唯一72480/144960得旧4417/4091池。历史11LP留1，逐模型wall余量未存。下一唯一同点新SOC源码中，旧primary0，不延预算等触发。
+**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。费用/计时边界见原记录，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；末物理SHA见新记录。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。**旧m10完整可恢复已付**：原x/y159/163、9bank/新两池齐；删唯一72480/144960得旧4417/4091池。历史11LP留1，逐模型wall余量未存。**m10唯一新SOC已发**：[设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)/request-observed-m10-soc，旧primary0、历史11LP账只允新slot12；先复用旧10检查，执行新7恢复/签名人工，原J重放仅2evaluation metadata差；原x/y两网核同/新两ID必同。active120从旧J前起、SOC10s/ordinary≤8，rebind须真saved-x命中；0新primary/回溯/递归，待首次实际，不能称通过。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -50,4 +50,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 5317c0cd20dbd17588020b9f4e29f4b1dd1dfe2d，双README blob同。API读取不冒实际pull。
+断连API复核main 7963c0abd917836830424ba3c6649d051bd46290，双README blob同。API读取不冒实际pull。

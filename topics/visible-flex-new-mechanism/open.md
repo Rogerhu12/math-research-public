@@ -123,11 +123,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### 扩池SOC首次完整实际已付；新分支未触发，续既有失败点可恢复性
+### m10唯一新扩池SOC已发：消费同一已观察失败点的首次新分支
 
-[run43744903357首次完整实际](notes/expanded-pool-SOC-first-actual-result-20261115.md)：十新检查过、117/119依赖逐项同；source cfg不变，完整reference163/final159/physical163、两池/controller与9方向07a1f00…准确续接。7模型/7接受、9primary+3原same-layout SOC=12，η.266366277975→.266347520761，fineκ57.999988521、原两网硬门/盒过，.26未到。新expanded rebound records空：没有失败primary学新行的入口，下降不能归新分支。m2/m6原17hold真，m3接受修正后fine新1拒hold，m7primary接受后fine新1；不洗学习历史。末bank11/B1/8000/streak0；22+2值、active29.836s/process164.992s，初始ordinary105.456s和recovery含首J47.770s分账，非受控加速比较。
+[扩池首实际](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/5fa2424新10检查过，原cfg/159/163/两池/bank9准确；7模型9primary+3旧SOC使η.266366277975→.266347520761，原门过但.26欠。新expanded rebound生产0，下降不能归该分支，旧费用/失败原件保。
 
-[旧m10准确可恢复](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)已由原norm日志付：accepted[7]与唯一α1 trial含完整x/y159及physical163，xSHA10b0a3b…、y627c9474…；m10前池4417/4091、各新1，m11同新4418/4092且added0，因此新池就是完整末池。原separation强保true-η peak，两唯一metric_plus新ID72480/144960，末池各删一次准确得旧池hash；9bank原事件完整，前11primary留一个原LP。原ordinary/J未存、逐模型clock余量未存，必须将恢复费用明记，不能捏造历史剩余秒。下一只在该既有失败m10首次调用同core expanded SOC，旧primary0/新SOC1/原12账11→12，不再扩m5或延预算等触发。原[扩池合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)仍要求同x/y新池/完整binding、原scalar RHS与full预测分账、调用前LP账/原12/40/120/原17guard，新旧报告精确对应、真双网验收。生产效果尚欠；首只读fixture失败及最小修复保留，旧12/optimizer0。
+[恢复性](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)已付原43741276060 m10 x/y完整159/163、bank9及新池；原m11无池变化，原sep证唯一72480/144960，删后旧4417/4091版本4/7精确。历史前10模型11primary、SOC0，剩一个slot；不虚构未存的历史wall余量。
+
+[唯一新设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)源码两份54.7/12.6KB、原119绑定全同，含workflow共122；request-observed-m10-soc由独立public workflow调度。先读原run成功10检查/117源，不重执行；只执行新7 JSON/签名域人工。恢复同x原J并重放旧两factory签名，只有两个evaluation metadata叶允许变，e/f/de/df/ID/物理全严格；当前最终binding另取两factory之后。y原门/两新ID必一致，冻结capture保actual d、原只读y；扩池只重新J，saved-x ordinary命中须实际计数0。scalar/full gain都过原floor才唯一SOC，共享历史slot12/LP10s，active120从旧J前起、ordinary含末验≤8。无primary/回溯/递归；z按全原门/降幅验、原y学习不删所以不得hold。对历史x比较，不能冒当前globalbest后继。首次新7及分支结果待消费，任何partial/error按原件保且不冒complete。README全部完成门仍欠。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
