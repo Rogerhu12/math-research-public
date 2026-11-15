@@ -387,3 +387,5 @@
 - **R805（已证明）**：[原272维两图整基、极理想与三重数除子适配](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)。两锚真实秩690−degG与分次自由S模给原正规整环；一个primitive乘法/实际Krylov minor保字段，M6经θ一次清极、8个有理右端和55项认证。E_g=固定21点B+3D_g，trace radical准确提取，无Jacobian三除点选择；最大degree569仍由完整理想V3两flip，局部padding≤297。原η与三同源主函数分别mathcalG³、mathcalG⁹R，全部常数/原C逆保留。新铅笔/整基乘法/理想/η实际尚未执行。
 
 - **原critical平行对角障碍（已证明）**：[原critical对角运输障碍](notes/2026-11-15-sigma-critical-projection-curvature-obstruction.md)已证：双变量完整曲率在P0为3B²(z²+t²)I8，原N维稀疏空间经R^(2N+6)的所有最大子式均为单位，核一维且满支撑。故在原W上无漏出的水平对角作用只能常数；真正primitive×Legendre权对全部允许p不恒定，不能有该水平延伸。非水平交换子与真正Cartan混合仍保留，不将抽象满支撑核当实际sigma向量。 SHA256 b1dd621458ea904200bd0b54fc758da32e82d757576b7ee213dcf320f1a964b0。
+
+- **五次水平lift与原Steinberg矩阵系数（已证明）**：[五次水平lift/Legendre矩阵系数](notes/2026-11-15-sigma-horizontal-quintic-lift-and-Steinberg-coefficients.md)已证：Lz=A∂z+6DAz、Lt同式，Lz²Lt³水平且P0=(6B)^5z²t³，原h无溢出送至总阶p−1。真实O2旋转a²=2s/(s+1)的归一T̂=a^(1−p)T对角恰P_(h−1)(1/s)，原平方常数准确α₀s/6。全偶空间真字符ρ(q)=q^((p+1)/2)J_(√q)^−1在u/v基给q^−h；原z/t系数仍被非对角混合，原period/split向量及所需配对尚未识别，未证同标签非零。 SHA256 7df880f263d6fd06a35a5d152ef34239cc9e0e16f1eec0f5283e0afcf4ecca5f。

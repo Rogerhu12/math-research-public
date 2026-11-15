@@ -599,3 +599,8 @@
 - 登记原critical平行对角运输障碍：root独立逐式核双变量p曲率、二项式列缩放、三角多项式/Vandermonde全部最大子式和满支撑核；p≥41原首末Legendre差−22/3与R734保证完整权非恒定。
 - 精确结论只排无漏出的水平对角延伸，未把抽象核当原sigma数据；非水平交换子/全有限通道保留，继续真正Cartan矩阵系数。SHAb1dd621458ea904200bd0b54fc758da32e82d757576b7ee213dcf320f1a964b0，无新扫描或本地数学。
 - R805证明已推de6dffc45，连续三次非快进均即时实际pull/rebase再推成功，两README差异空；R787/R803继续，R805最小core和R804点consumer静态审核接续。主目标OPEN。
+
+## 2026-11-15 18:37 Asia/Taipei · serre-public-astra-20261115
+- 原五次水平lift/旋转系数登记：root逐式核[K,Lz]=[K,Lt]=0、P0准确乘(6B)^5z²t³、p−1齐次原h不溢出；完整旋转对角用binomial/Legendre给a^(p−1)相位，归一后与R770原平方准确匹配α₀s/6。
+- 保全部8有限通道和两个Hasse边界；全偶空间ρ(q)与q^−h方向逐式核，原z/t与u/v两基严格分开。实际原period/split识别与配对非零仍缺，未用可逆旋转代同标签乘积。SHA7df880f263d6fd06a35a5d152ef34239cc9e0e16f1eec0f5283e0afcf4ecca5f，无本地数学或有限扫描。
+- 对角障碍已推ae1b0fbee，actual pull两README无变化；R787/R803继续，R805core与R804点consumer工程接续，主目标OPEN。
