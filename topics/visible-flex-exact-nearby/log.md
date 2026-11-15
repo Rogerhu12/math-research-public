@@ -485,3 +485,9 @@ root全读phase清理worker和flow，保持纯储存操作/0数学/0Release/0art
 root作两处执行修正：新的稀疏checkout外metadata使用git add --sparse；checkout persist-credentials:false，运行bootstrap仅瞬时环境extraheader注入Actions token，避免把token写入Git配置。finalSCI35091B/SHA40c0f3df80a240f895c26023a62ac09a57dac05f639f22a2f11ff50257cbd868，flow4598B/SHA30ce963166ec8d5e6d1b64f251ee35ad48a67e537d360a050c7ad8432f10ce56。静态定界已过，实际AST/删除/容量门等待public运行；若仍有未知大参数，只列实物继续分类，不为凑200MB盲删。
 
 新任务与已有全部数学source/pin无关，不重算任何成功数值。freshmain 17a07c22ef60eb2f913703956c1284b8da533f32两README未变，当前规则仍137c5a/f266；H/open登记部署而未冒称清理已完成。
+
+## 2026-11-15 05:11:52 UTC — O1–22 非解背景的准确Jacobi差已推
+
+root逐式核D_t−dDθ=2AqUD/J−2q(1+K)r、μ输运、完整第二一阶系数。展开div(G∇h)/(w²A0)并用p_t=kθ−(A+1)p，准确得到Jgeo−L=αrk−βrθp−γrp；principal保持而off-shell一阶项不消失。换N=cphys r后EN=αNk−βNθp−γNp，没有新δ逆幂或N_t。
+
+角分部积分给〈A0EN〉=〈NDA0〉，与M真实χ变化完全配对。metric/reference高度按同一固定平端积分后，δN=cphys(Jgeo htilde−eψrem)+ψN−EN[htilde]，参考残差项成对相消，外端高度仍保。H66小邻域只把原二次分式恒等扩到s≤64，给<2^524288Y64Ys；没有改R的2050导损失或nearby inverse范围。已核R.33旁J=j+5的唯一勘正，root仅改已证状态；final15348B/SHAe8d2338e7bf7931d442edfb43dd7ee0b0566bcc9da72473fd6fbafa30e3385b1。无新增数值。freshmain 9b7c07f25514808595dcf4efe7e79220fc57a8d6两README未变，继续第二密度相位/近邻几何逆。

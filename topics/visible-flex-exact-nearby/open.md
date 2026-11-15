@@ -88,6 +88,8 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 [P1–42有限Sob principal与第一真实Γ](results/R119-supplement-finite-Sobolev-principal-KAM-and-true-first-metric-counterterm.md)已在独立物理非mean高度H8196域R≤2^-2097152构造：以M的c=0真holonomy补mean，原一阶小除数κ/(4096|n|)的完整解析Newton+dyadic给H8192→C8188。τ的C0 Lipschitz1、真实正权Frechet平均和统一余项，使全无限层及新增外行在同weighted ℓ∞中一次选择firstΓ。原analytic成员来自C22–24/U2绝对宽τj+224>236与connector余宽>3，保持真实总参考高度和两端列；h_j是每胞损失。新图角平移不变，DΓ(0)=0；不是原analytic标签改名。
 
+[O1–22非解背景准确散度Jacobi差](results/R119-supplement-exact-off-shell-divergence-Jacobi-and-narrow-residual-defect.md)已直接证明Jgeo−L=α r k−β rθp−γrp。换原窄普通源后EN=αNk−βNθp−γNp，无新径向逆幂；完整mean配对〈A0EN〉=〈NDA0〉。减去真实metric reference高度后仍保+ψN，准确δN=cphys(Jgeo htilde−eψrem)+ψN−EN[htilde]。H66小近邻上只扩二次代数门≤2^524288Y64Ys/s≤64，不把L误作任意背景自伴算子，也不授变化背景inverse。
+
 下一项仍须同域second首相位/密度相位控制及变化背景nonmean全逆，或给明确可迭代替代图。R目前只给Y≤64，不能自动返回本P所需H8196；任何smoothing或更高阶tame逆都须实际支付其完整损失和迭代费用。
 
 ## 6. 全参数与最终精确族

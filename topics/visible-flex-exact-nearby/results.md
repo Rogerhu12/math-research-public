@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R119补充 O1–22：非解背景真Jacobi与几何散度的准确残差差](results/R119-supplement-exact-off-shell-divergence-Jacobi-and-narrow-residual-defect.md)：EN=αNk−βNθp−γNp无新δ逆幂，保〈A0EN〉=〈NDA0〉及两mean/通量；metric reference后完整+ψN与EN都保。H66小近邻仅扩s≤64二次代数门<2^524288Y64Ys；不从已知解逆转授任意背景逆。
+
 - [R119补充 P1–42：有限Sob principal KAM与第一真实度量反项](results/R119-supplement-finite-Sobolev-principal-KAM-and-true-first-metric-counterterm.md)：真实物理非mean高度H8196小域、M的holonomy/总高度补全；完整解析Newton与dyadic证明H8192→C8188，τ正权Frechet式/C0 Lipschitz1及统一余项给全无限层+新外行firstΓ。原analytic成员从真正绝对宽嵌入；不授second相位、nearby全逆或Y64→H8196闭合。
 
 - [R133实际六case源行诊断](results/R133-supplement-actual-saved-source-row-diagnostics-and-next-physical-pieces.md)：43679322008/1 child0/6门，4383原行/1新诊断/0旧包络重算。负侧主导piece2547，正侧piece2551；最小R local主导，最大nonlocal RQ_J_gd/mean uJ_gd。保完整真实权/九词/五mean/seam身份；按新规15仅脚本、参数、run、SHA与结论，尚不授新的上界或强返回。

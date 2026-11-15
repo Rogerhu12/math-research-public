@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 05:09:57 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 05:11:52 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 05:03:12.505994 UTC 05f9c27ed946be658dc46b5d84a8a9d952a99e8f（诊断execution622bfabc…12402B，两次README diff空）。非FF即时CLI重试仍无executor；用freshhead重推。
 21:48起CLI无executor；04:55根规再变前真pull仍同错。根规8只准connector<100KB UTF8/禁binary，只读ref非pull。现规15（137c5a…）取代Release版：可重算data/证书/Actions输出不保存，repo/Release均不放，只script/args/run/SHA及结论；题main≤200MB。清理SCI40c0f3df…已部署，phase普通删/保历史恢复manifest；newton原artifact仅临时续接Green，0旧数学重算。
-最近只读README核：17a07c22ef60eb2f913703956c1284b8da533f32；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：9b7c07f25514808595dcf4efe7e79220fc57a8d6；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。此前完整H9730B与旧归档链存notes/2026-11-15-handoff-before-finite-Sobolev-phases-and-rule15-cleanup.md；旧open存notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md。
 
 ## 同一对象和总完成门
@@ -41,11 +41,12 @@ Q1–27给实际二次普通源及Γ reference height lift后nψt+n²ψ、六邻
 S1–39/54c51dc2…真实连续Jacobi已付h→h/2时Galerkin J/半径≥2^-15，完整未来charge/跨胞height及Σm supj；实际Cj²与selected DΓ余源给原Xβ<2^400000(Y*²+X||b||β)。forced h/8不自动重复h/2。
 R1–35/5bc78e5e…固定已知X≤2^-8388608强尾背景，ζ131/Λ4>2^132/canonical强弱双唯一性、两mean/height及全前缀保。源N_s=ζ^-1δ^-16Hs至2114、Y_s只0..64；Y_s<2^7340034N_{s+2050}+2^4194304Bext_{s+2048}，二次≤2^393216Y64Ys、selected Γ源≤2^786432X||b||224。真实2050损失，非Banach闭合/非任意背景逆。M1–37/2ffbf6fe…finiteSob可去holonomy根/χ Volterra<2^-2400/唯一高度；非mean成立即等价全mean，一般残差保(DA0)N、metric保−ψr/+ψN和reference lift。
 P1–42/be46bd9f…现于真实物理u_perp H8196小域R≤2^-2097152构造firstΓ：同ω/κ÷4096一阶小除数，完整解析Newton+dyadic H8192→C8188、τ C0 Lipschitz1/正权Frechet式；全无限层+外行weighted固定点。原成员由C22–24/U2绝对宽τj+224>236及connector余宽>3嵌入，不能把h_j当剩余宽。反项角平移不变/DΓ(0)=0；Γ2/nearby全逆仍缺，R的Y64不自动进此H8196域。
+O1–22/e8d2338e…非解背景真DF与几何散度差：EN=αNk−βNθp−γNp，无新δ逆幂；〈A0 EN〉=〈N DA0〉。metric/reference后δN=cphys(Jgeo htilde−eψrem)+ψN−EN[htilde]；H66小邻域二次源≤2^524288Y64Ys，仅s≤64，不转授变化背景inverse。
 
 ## 完整角规范与残差桥：root
 
 G完整4Z角规范/两mean/原R0 Hessian与Sδ0高负Sob已付。实际反射R1–17保u奇/v偶、A及同类导数0；long b0=0但C0/通量/height/非零腰行保，一般角相位与径向Γ各独立。moving只读L∞rHs，不授moving ℓ²sup_r。
-P1–21/bd7018ce…固定DΨ0散度/primitive/mean准确，邻DF不需Y_r，新R_Y Hessian不重算；原R0完整保。O1–15/02248c9c…全real|δ|≤1e−8真outer反馈<1/8，准确仿射lift<24/端点H<41，fixed inner C/mean/height/正fee全保。
+P1–21/bd7018ce…固定DΨ0的全flux/primitive/mean与原R0保，邻DF不用Y_r。O1–15/02248c9c…原全realδ真outer反馈<1/8、仿射lift<24/端点H<41，内C/mean/height/正fee保。
 V1–14/8ce318c7…由实际帽Z<7/8、b,g<6/k1闭原real|δ|≤1e−8：body<1/4+真outer<1/8，M0反馈<3/8/相对lift逆<8/5。显式Qδ处线性，不授未知非线性域或97精细ν。
 
 W1–19/85169eb7…原全realδ固定port主体Sob；T1–25/63d2ed8c…t无关真实long pullback/加权mean/holonomy/C_R逆<18，真outer解析族付2^128。现X1–20/e0ec4a90…合并真实外行：共同宽2^-128、M2^1024；总real反馈<3/8、signedlag差<2^-625、shift逆<2。−3/2..2114完整帽源增益<2^2400000，已另付原physical fB的Hs+2实角/密度2^131072；actual反射moving L∞rHs读出<2^2600000，不授moving ℓ²sup。所有mean/height/jump/正fee/原R0保；显式Qδ线性，近邻非线性状态与97精细ν仍缺。
