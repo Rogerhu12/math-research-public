@@ -121,7 +121,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [完整∞第二连接零与公共34](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已实核剩余3横向延拓：1088×595秩578/582/582、所有1088校正真，另5100原来源由次数自动零；连已付20纯left2jets，覆盖完整23维第二页对偶。故β2=0、δ4354≥34/δ4353≥31，指定63/62/59。有限s0仍只付r1≤4、r1+r2≤7和公共s31/K77；正准备其完整normal3二阶接口，不预假第一秩等号。下界不等于首项单位。
 
 
-[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)从原秩精确相等推出H≥3全在同选像，不由非纯个数猜独立；full余为20pure+29低横，square余为10pure+26。原整数小投影在F31同秩556，D31自由余模亦真。已排去NumPy版[原自然连接入口](notes/2026-11-15-r150-selected-natural-first-connection-f31-interface-789f.md)，30秒/512MiB，仅FLINT/std库；首版inputs缺依赖未添结论，新版复用已核历史primitive字节，用旧完整kernel36与原primitive参数L9/G4计算自然B1，再投完整36余；共动A0(Dh)项不可删，后继Schur仍须原来源校正。
+[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)给同I/J完整接口；[自然连接全源实绩](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)在0.866102738秒独立复核旧rankF31=3/≥69，新增保全部49余的同秩、33个原常项头和全4367自然一阶产品。原4433参数/1309常系数全核，deletedQ三行真Qrank3给fullA0|I=4340，故两个有理第一像秩相同但仅有下界3。后继沿原4318单位partial inverse与来源DAG计算真实自然u逐阶校正，不把33头当已存完整提升。有限s0 normal3二阶小接口已排，完整原6188来源不删。
 
 ### 强联块同w、同源普通封口
 
