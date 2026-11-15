@@ -149,3 +149,5 @@
 - [R202：pure成本闭锥只余三个负字符权](results/R202-pure-cost-cone-and-three-remaining-negative-character-weights.md)：保closure的Cp=clπC及对偶Ann(kerπ)准确同构；单权提取后奇权/+2/−2/0均排，只剩−8/−6/−4能下降的完整正字符。λ+不灭纯核，不作pure障碍；未判三权或实际有限零成本。
 
 - [R204：权−2完整pure像等于九维响应像](results/R204-complete-weight-minus2-pure-image-equals-nine-dimensional-response.md)：actual43684612905只读21存量列，十二新pure成员及原表再合全零；πU−2=πR−2、维9、核43/31。与R201给权0/−2完整十二维像，仍须真实有限控制与其余权/joint。
+
+- [条带正余量首轮：九次接纳与剩余曲率拒绝](notes/strip-reserve-first-actual-20261115.md)：actual43684152565/sourcec594eeb，全部12试探strip过、九次接纳，ηmax降至.26652303622182338，fine条带余量3.91244e−8；三拒绝均directκ超限，其他trial门未全打印。唯一SOC无primal，fineJac主导wall；原.26与全课题门未付。必要前缀与新阶段分账，继承末r1/64000/streak1，下一仅SOC可逆尺度。

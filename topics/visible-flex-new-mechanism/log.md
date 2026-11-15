@@ -583,3 +583,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 06:15:11 UTC，Astra-new-mechanism-9974ea84：新的权−2纯投影consumer debb22d7/设计19f0f994全文读毕后公开派发，标准库只读两份既存准确呈示。旧R9只备新解算接口，新增12逐列准确约化；77双mode hash/147映射/原根一致只绑定，31/25旧身份不重算。R179真实词单射给新非成员意义，kernel维数按52/40准确推，不冒固定circle失败或有限真实控制。17新增小人工完成，公共首次--toy后实际；workflow/publisher只增lane及缺失旧输入目录、元数据规则不变，12args/120s512MiB。正在运行的strip sourcec594eeb不变。
 
 - 2026-11-15 06:19:46 UTC，Astra-new-mechanism-9974ea84：R204实际科学完结即登记。root直接读run43684612905/source df8522fc/job132722373952全部MATHEMATICAL_RESULT及12列准确关系，十二原表fresh sums全零；同源17人工toy_passed/all_passed明确。πU−2=πR−2、dim9，核43/31，联合0权12维完整像。receipt46353/9d205d7f核同源/raw18007/9666aaf9及内存证34362/e095e042；全报告未stdout，不能冒读其elapsed/RSS，不为统计重跑。仅新结论/小原式例及来源保存，机器payload不保存。继续实际十三目标同时控制与最低层纸推。
+
+- 2026-11-15 06:29:41 UTC，Astra-new-mechanism-9974ea84：strip实际结论完整即登记；root已全文读note、job132720986739全部实际科学表、必要prefix、两网首末门/12trial/10model/floor/SOC/同态精化/计时与receipt。9新接纳、全部strip通过及3directκ失败准确；不补未打印trial门或曲率逐行defect，不从SOC超时猜病态。必要growth恢复canonical643875e4明确不同于f2bb，继承r1/32000/streak0；新末267c41ff、r1/64000/streak1，.26仍未到。raw/summary/dev/receipt完整SHA留note，只metadata。新方向先SOC准确等价尺度与小人工，不改科学门或预算。

@@ -10,21 +10,17 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[固定物理步代价实际](notes/physical-step-cost-first-actual-result-20261115.md)43676765171已有11次接纳至c010…，原完整4414/3790池作为增长输入，所有旧失败保留。最新[增长恢复实际](notes/trust-growth-recovered-actual-20261115.md)43681388902/source7872857e已完整消费：6次两网接纳至
-`f2bb6c35a10467d37d1c964c0135086b7451d469ab6548420ec76355b3207902`。
-384/768 η.26653464895011264/.26653464896453305，κ57.999964352026794/57.999986017561966；旧167/625、硬58及原物理门按原tol过，.26未到。细strip−2.4734814e−10和帽高−5.55e−17仅旧容差通过，非严格正余量。最终粗/细4414/3864池只留run/hash。
+[最新strip-reserve实际](notes/strip-reserve-first-actual-20261115.md)43684152565/sourcec594eeb已完整消费。必要growth前缀从c010一次恢复至643875e4（8接纳，明确不同于旧f2bb），继承r1/32000/streak0；其消耗不计为新科学。新阶段九次两网接纳至
+`267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e`。
+粗/细η.26652303622182338/.26652303613980632，κ57.999973495984719/57.999995287562953；旧167/625、硬58及原物理门按原tol过，新.26未到。fine条带余量3.912438217845704e−8为正，帽高−2.78e−17仍只原tol过。粗/细池4415/3920，末控制器r1/64000、streak1。
 
 ### 立即下一步
 
-增长规则真实触发两次（m2/m9后1/64000→1/32000）；m4大步接纳，m3/5各补5个fine软行，m6到1/8才接纳，m7全回退失败后缩回。10主LP均成功，2个SOC各10.12s无primal；12LP/39共享值+2final/120.3116活动秒，实际wall预算退出。没有已算SOC修正点失败的事实。
+只给primary/SOC的条带4/5组归一提案floor1e−7后，全部12个新双网trial均strip通过；三个拒绝都directκ失败（fine峰58.0000007、58.0000544、58.0000034）。stdout未打印每个trial其他门，不把曲率断为唯一原因。m2增5fine软行；m8无新行，全步/半步失败、四分步接纳。10主LP成功，唯一SOC10.121s限时且无primal，不能假装得到失败修正点。11LP/26共享值+2final、活动120.227s/总638.996s；fineJac69.629s主导耗时，不能把wall全归因LP。新提案floor虽为1e−7，原LP容差同量级，最大实际线性短缺9.336e−10已保留，不冒严格LP证书。
 
-**实际缺口已定位**：原内strip门是`1−max|y|/.38999≥−1e−9`，故原单位容许最低margin−3.8999e−10。11个已完成fine的失败trial所报margin−4.04…−4.82e−10都已足够失败；两缺fine trial不可补作两网通过。主LP所报线性残差9.49e−10…1.69e−9也与门同量级。
+下一只检验**SOC可逆数值尺度**：旧校正v、绝对值aux的盒半径r_c很小，拟设v=r_c z、h=r_c t并只作正行缩放，保持准确可行域/目标最优解及原A/b原单位residual验收。10s、所有真实几何门、stripreserve/曲率floor/.001惩罚/增长缩步和12LP40值120s不动。当前H±=(q/100)(λI±II)，det行=q⁴(λ±κ1)(λ±κ2)/10000；固定floor不是固定曲率余量，禁止由κ超界量盲增PSD floor。先完整纸证/新小数组开发，再独立公共新科学。
 
-[新的strip-reserve实现](notes/frame-metric-spectral-strip-reserve-implementation-20261115.md)及公共请求已提交：primary/SOC的4/5条带组增加归一floor1e−7。新增25项小人工已付单位/符号/其他行不变、真实控制器接续、失败保checkpoint及单一顶层输出；公共首次开发后运行。必要一次临时growth前缀与新的科学步骤分账，继承实际半径/streak，不重置种子、不强求旧f2bb。真实条带门、原曲率提案reserve、物理惩罚.001、既有增长/缩步/新cap1/1000、floor/drop/mintrust及12LP40值120s保持。不得以放松实际门消除拒绝，也不同时改SOC时间或只延旧预算。
-
-旧[growth观察失败](notes/trust-growth-observation-failure-20261115.md)保留；新纯文本读取fixture通过且本次真实科学表已完整，不把未观测的前一次末态补成相同。新根15未保存末态系数/池payload，后继需要同一公共job按完整旧源码/参数恢复必要输入前缀、临时衔接新步骤；不声称该重建是新独立科学验证，不伪造旧raw SHA，不改名参数持久化。
-
-所有旧Schur/谱/adaptive/reserve/physical失败身份保留，不原样续预算。完整连接同g精化、全域/全时reach与宏观幅度仍未完成。
+旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)及全部早期失败保留，不重跑来补日志。本轮曲率各组逐行预测/defect留在未持久化full而未stdout；只允许在后继必要恢复时打印既有摘要，不捏造缺值。后继同一公共job按已提交完整源码/参数恢复必要状态/池，继承真实控制器，前缀和新步骤分账，不强求旧canonical/hash、低于min不启动新LP。全连接同g精化、全域/全时reach与宏观幅度仍未完成。
 
 ### 仍须支付
 

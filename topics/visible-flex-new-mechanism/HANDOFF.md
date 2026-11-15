@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:20:15 UTC实际pull后已读规则提交：`55c989c0ad2563bec3f98cdb2896aae3bad8b2b2`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:30:07 UTC实际pull后已读规则提交：`a7ea42924dbdaf8dab9377ace446690e0ce922c5`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -18,11 +18,9 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-前一physical actual43676765171已有11次接纳，输入c010…/粗细4414/3790/原r1/64000；完整旧结果保留notes/physical-step-cost-first-actual-result-20261115.md，全部已消费，不重复。
+旧physical43676765171与growth43681388902的全部实际已消费，见notes/physical-step-cost-first-actual-result-20261115.md及trust-growth-recovered-actual-20261115.md；旧f2bb终态不冒作可逐字重现，新根15下只作一次必要临时恢复。
 
-**growth恢复actual43681388902/source7872857e/job132712596603已完整**，原表/失败/计时见notes/trust-growth-recovered-actual-20261115.md。6接纳至f2bb6c35a10467d37d1c964c0135086b7451d469ab6548420ec76355b3207902，ηfine .26653464896453305（降5.6148e−6），κ57.999986；.26未达。两次r翻倍；10主+2无primal SOC/19trial，39共享+2final，120.3116活动/543.5076总秒，wall退。粗/细4414/3864，hash086bff77/a39c799a。原strip归一≥−1e−9等价绝对≥−3.8999e−10；11个完成细网失败trial余量−4.04…−4.82e−10均足以拒绝，非断唯一失败原因。final−2.47348e−10只tol过；SOC未算出修正点不冒其失败。
-
-**strip-reserve actual43684152565/sourcec594eeb已派发待结果**：库0d653e66/driver4347bdc3，只给primary/SOC条带4/5组归一提案floor1e−7；原真实门/残差1e−7/曲率reserve/.001惩罚/增长缩步/12LP40值120s保持。98args/24旧SHA不变。缺失末态/池只同job恢复一次原growth临时前缀，严格核原参数/同g/b0/163/双网/池；继承实际next_trust/streak，末模型未完不计成功，低于min不调LP。允许不同合格canonical并显式报，非强求f2bb；前缀/新阶段预算耗时分列。25新增人工已过，公共首次开发后才真实计算；payload不持久化。源/完整设计见notes/frame-metric-spectral-strip-reserve-implementation-20261115.md，结果待真实读取。
+**最新strip-reserve actual43684152565/sourcec594eeb/job132720986739已完整**，见notes/strip-reserve-first-actual-20261115.md。新阶段只改4/5组提案floor1e−7，所有真实门/原LP容差/曲率floor/.001惩罚/增长缩步/12LP40值120s保持。必要growth前缀8接纳至643875e4（非f2bb），继承r1/32000、streak0；前缀与新阶段严格分账。新9接纳/12双网trial，全部strip通过，三拒绝均directκ失败；未打印其他trial门，不冒唯一原因。终267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e，ηmax .26652303622182338，降1.07659e−5；κfine57.999995287562953、fine条带正余量3.91244e−8，.26仍失败。粗/细4415/3920池；最终r1/64000、streak1。10主LP成功、1SOC10.121s无primal；活动120.227s、总638.996s，fineJac69.629s最大，wall退。25新人工通过。raw8285575/eba499be、summary99434/c48c3004、receipt46714/8b7785c6仅metadata，不持久化payload。下一只检验SOC可逆变量/行尺度，原残差单位与10s预算保持；不从超时猜病态或盲抬PSD floor。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -30,11 +28,11 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排除。R190：U2=R2、H2=0；整个真权支撑[-9,3]且正字符只偶权。旧原函数、LP、路径不重跑。
 
-**R196 actual43681388902/source7872857e已完整**：10新人工/11新收缩/16必要R0恢复；38列318忠实行rank19，U0=19/R0=16/商3/平移像1/H0=2，22normal全部已付。原N不重投影，内存证63029/aeb58ea3仅metadata。
+**R196 actual43681388902/source7872857e已完整**：U0=19/R0=16/商3/平移像1/H0=2；全38列318行/22坐标与证明已付，原N/函数核不重算。
 
 全部字符自由x=ν5、y=ν20；R192同μ=(0,2α,−2x,0,0,0,0,8α)，α不是head坐标。R194完整action有a=c=y、b0=−y/3，真实双快路径迫y0；其余iff存在0≤α≤−x。因此正字符恰x≤0唯一射线。取λ+=(−1,0)、α0，完整action=∫k²；真实M0的p1+4t1恒等迫 **λ+V=L+∫(h_s/h)²>0**。这是真U泛函，不是旧必要外点。
 
-**R201 actual43683171512/source8c1ab4b已完整**：19pure列42word行rank3；πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96，原差0。三支持列独立，故πU0=πR0、dim3，核16/13。H=C2+R0/48+11R2/64−13R3/96有πH0、λH1，排任何仅pure的λ读出；H是span非实际字，完整λ仍正。16必要pure恢复/3新静态投影，1.2736s/RSS88.754，摘要24340/1fd475ff与证7220/003bbda2仅metadata。
+**R201 actual43683171512/source8c1ab4b已完整**：πU0=πR0、dim3，核16/13。πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96；相应H纯0但λH1，排任何仅pure的λ读出。H是span非实际字，完整λ仍正；全原关系/metadata见R201。
 
 **R202已证**：Cp=cl coneπS=clπC，必须保末闭包；π与仿射/N/真实奇偶交换。若Cp真，则R127在纯商提取单权正字符，拉回完整λ须灭kerπ。奇权/+2/−2及R201的0权全部排除，仅−8/−6/−4可能；反向同样成立。全C严格真不判Cp；闭锥全也不授实际非空零成本。最低−9/−8全原式纸推另行，未付前不以幂尾推零。
 
