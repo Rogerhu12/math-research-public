@@ -137,13 +137,13 @@ tail_cost实现独立controller/checkpoint-aware objective、显式新outer与�
 
 
 
-### R354/R355：新几何16外矩与正域独立补偿，续PY0/PY2
+### R354–359：真实偶弱圆已付17外矩，继续唯一PY2
 
-[R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)已把R353全正最终弱圆与整反射等幅相加；完整二次尾与I0/I1/I2正交、每半D三矩0，准确清PY1/WY0/WY2。Ψ/三F偶，整圆16外矩，只PY0/PY2欠。负域真安装由R37先正后负boost保ω>Ω、R70同域任意M桥、NH0平移hook、真倒行夹心和Klein闭合；有限profiles后he初选，使整几何x+ω>1。是新seed/g，只重新付M0/T hook及Gaussian芽，旧另一几何pure/wholeE/Morse/period/joint不自动继承。
+[R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)完整反射及同ω下界真实新几何给16矩；R355独立正域WY2补偿保其原范围，不重计。新seed/g只重付M0/T hook/Gaussian芽；另一几何pure/wholeE/Morse/period/joint不自动继承。
 
-后继实际M8=2Π8M12有24列、(B1,WY1,C0,C2)八行、严格正kernel，其余旧门及反射odd自动0；PY0/PY2真代价保。另25列M13付PY1接口可用。R355独立正域完整D2=XY1−bQ2/4、真C1母IFT、四阶排序/有序μ2尾、四有限正宽给2维正锥，原正域13→14矩；接M13给15行非偶接口，不重复计成R354第17矩。
+[R357](results/R357-genuine-mother-fibers-and-a-three-dimensional-ordered-profile-cone.md)真母Fκ/J/Ksh两自由族与六列(Q,S,V)三锥已独立付。[R359](results/R359-exact-same-weight-quotient-and-four-dimensional-cone-pay-the-Gaussian-PY-zero-moment.md)从原完整self/Green算ell=B1pure+kPY0pure=Rloc W，Rloc=−G Ksh/2+RJ J且真实W>0；三锥在ell0，Ksh±两列补第四方向，完整镜像得同权低4正锥。接R354 M8投影D1/C0与C2得10行36列，严格正核、全部finite支持及尺度，S5幅准确付P0并以S−2保Ψ负储备，末同F★全72零控制器付Ψ/三F。**同一个实际偶弱圆17完整外矩，唯一PY2仍欠**。
 
-[R357](results/R357-genuine-mother-fibers-and-a-three-dimensional-ordered-profile-cone.md)已完整付真母Fκ=J=Ksh0、J/Ksh两局部坐标及六列(Q,S,V)三维实际正锥：宽常量J2简单根/8完整TM原子/真三母minor；两旧排序消S留负V，R278第三gap给正V，普通/comp给Q±，保所有local原费与真实有限容量。V为正半块参数，镜像后P1零不能再称其自由。rootR359按原pure(B1+k PY0)=R×真实四次权，接Ksh±作同权四行；literatureR360续PY2，不循环引用未完成结论。原R347窄两排序半平面/R351未补矩弱核心不冒新正锥。Ψ负储备与末同F★控制器保原程序。全第四/高阶/同g有限嵌入/reach/幅度仍欠。
+下一R360已交完整PY2 self+真T12 tail+六维同权中层锥，root必须全文核原式、接R359低4和C2，保实际finite参数，不把形式even数当rank或预宣18/全第四。R347旧窄半平面/R351未补矩弱核边界保留。更高阶、同g有限嵌入、闭面/reach/幅度继续。
 
 
 ### R344/R350/R352：自然全U总通量读出，续其它真实成本层

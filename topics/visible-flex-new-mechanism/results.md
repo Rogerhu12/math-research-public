@@ -426,3 +426,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R357：真母两自由坐标及三维有序强profile正锥
 
 [完整证明](results/R357-genuine-mother-fibers-and-a-three-dimensional-ordered-profile-cone.md)，2026-11-15，19269B/SHA256 54e12d9afdf9b0f0121f9c48cf7bf6934097df14d36c1f90a37d33cc22a3ebfc。宽常量平台保全过渡成本给J2=U3−2V2简单根，先整原子TM8保伴随，再三母(γ,z,M)非零minor给实际正宽Fκ=J=Ksh0及J/Ksh两自由坐标。ρ0/20两排序保原finite尾，共同消S后V<0；R278五gap同宽0/2/4矩、统一有限n后A/N容量给S>0且V/S足大，Q普通/comp异号，六列rank3/严格正kernel。Q/S/V是原正半块完整读数，不是镜像后P1自由；全M/A/third/odd保，其它成本真实留。root全文读及R278源、手核母minor/严格系数/容量顺序，未执行科学。单独为后继同权四行/六行服务，不预宣新外矩完成。
+
+## R359：准确同权商及四维正锥支付第17完整Gaussian外矩
+
+[完整证明](results/R359-exact-same-weight-quotient-and-four-dimensional-cone-pay-the-Gaussian-PY-zero-moment.md)，16992B/SHA256 a404882e27fb5420073444ab98a32967c5a542a90bab6c6d6186ec7c62fb35d6。从R275/R278 full self/真Green保全primitive得ell=B1pure+kPY0pure=Rloc W；实际Fκ母上Rloc=−G Ksh/2+RJ J，G>0，真宽四次权W>0。R357六列3锥准确映ell0，真Ksh±加两列给rank4/严格正核；完整镜像后接原D1/C0四行与C2两行得10行36列，旧真实成本全留。有限H/H′/S、S5第四幅及ΨS−2配固定弱基线，末全72零F★控制器保新零，整偶弱圆17矩仅PY2欠。支持先定、he/ω下界几何后选，非冻结旧域/旧wholeE继承。root原式纸核，tail_cost独核系数与真实W正性，无执行。

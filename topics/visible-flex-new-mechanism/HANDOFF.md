@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `66be1b6940e56fa5094c7ccd3ef4b970642fc04a`，2026-11-15 19:04:36.553093 UTC，run43750302276双README无差；下一最迟20:04:36。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `ce9445471fd45aead121fa0f66bb62683e532712`，2026-11-15 19:35:53.405501 UTC，run43753280651双README无差；下一最迟20:35:53。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 19:04:39.327329 UTC实际pull/read `77808ef775999a50ae3b7b5b6a0943d22ed91146`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
+私有2026-11-15 19:35:55.990199 UTC实际pull/read `2af11d3b276dac878c1fb643cc432eaf12888198`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -25,7 +25,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **m10扩池SOC首成功**：[结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66。已付same-y/xrebind普通值0、8193×159真J、原RHS唯一SOC，历史ηz .266365153176/fineκ57.9999833915，原门过/.26欠。旧hold仍false：标签1/字段5/版本1/真学习1；y学1/1、z0/0、扩池ratio.937958；原三失败保。z差于主线best，不重m10。
 
-**新覆盖保径已编写/首实际待收**：[接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)五新source/128绑定、独立request-expanded-layout-hold.json触公开Action；仅新4人工组，旧10/7/cache两例只读复用。完整P+覆盖/最终两factory/真实z−x、ratio≥.5/corr≤B/10/total≤1.1B、唯一曲率缩径才保B/streak0，否则旧返回。完整selected与active域分清。直接主线m7准确physical981e092c…/11bank d5b1b9d6…/池4418,4188/B1/8000/streak0；原cfg/12LP40值120active10SOC不变。source写作/静态交叉核已完，未宣人工或新策略已验证；root收唯一实际及双pull/规则，继续纸证。
+**覆盖保径首实际已收**：run43753280651/job132931742484/source52a48854，4新人工组全过，旧组执行0；7models真实主线η.266347520761→.266324155092，fineκ57.999989994，原门过/.26欠。accepted expandedSOC/新qualified/下模型使用均0，**新策略实际未触发**，下降不可归因于新规则，按约不重同阶段。末physical1275ae1d…，主线输出/完整费用/池bank由root与tail_cost读取、立刻另发实结论；本次双actual pull已上记。原cfg/g/b0/159与所有门不改，旧m10较差点不替主线。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -41,9 +41,9 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**弱Gaussian圆R308–357**：Af0真rank-two/单hook和8/12copy保third/odd。R331–353真Green/母IFT/有序尾付原正域13矩，R355完整D2转XY1及μ2尾、四阶排序/有限四宽再付WY2，正域14矩。R354把整R353正圆和完整反射分离相加：二次尾与I0/1/2正交，PY1/WY0/WY2反号、Ψ/三F偶，**新偶分支16矩，仅PY0/PY2欠**。实际负域已付：R37先正后负boost/同ω下界M桥、NH0平移hook/M0真逆夹心/Klein闭合；先全部有限profiles再初选he及几何，使x+ω>1。新seed/g只付M0/T hook/Gaussian芽，旧另一几何pure/wholeE/Morse/period/joint不自动继承。
+**弱Gaussian圆R308–359**：Af0真rank-two/单hook与8/12copy保third/odd。R353正域13矩，R355独立有限宽补WY2；R354原完整反射二次尾正交、Ψ/三F偶给新偶分支16矩。负域真安装由先正后负boost、同ω下界M桥、NH0平移hook/真逆夹心/Klein闭合；先全部有限profiles后初选he，使x+ω>1。新seed/g不继承另一几何pure/wholeE/Morse/period/joint。
 
-**后继真实锥R354/357**：R35424镜像列M8在(B1,WY1,C0,C2)八行满秩/严格正核；25列M13亦可用，反射odd零但PY0/PY2真值保。R357宽常量J2简单根→8完整TM原子→三母(γ,z,M)真minor，得Fκ=J=Ksh0和J/Ksh两自由小族；两旧排序+R278五gap同宽0/2/4矩、统一n后有限A/N容量，ordinary/comp真实Q两号，六列(Q=PY0pure,S=PY0_04,V=−PY1_04/ξ)正半块三维正锥。V只是镜像前参数，未授P0/P2或四同权门独立；root续B1/PY0，literatureR360续PY2。原强半平面/未补矩弱核边界保留，末同F★全72零控制器仍付Ψ/三F。
+**R357/359新17矩**：R357真宽平台简单根/8TM原子/三母minor给Fκ=J=Ksh0和J/Ksh自由；两排序+第三gap五簇真0/2/4矩、有限容量给六列(Q,S,V)正半3D正锥。R359原R275/R278精确ell=B1pure+kPY0pure=Rloc W，Rloc=−G Ksh/2+RJ J，κ>0时G>0，真W=𝒲δ n(1−q²)(H²−6H+1)>0。J=Ksh0三锥映ell0，加Ksh±两列得8列同权(B1,PY0)四锥；完整镜像保odd零，接R354 M8投影D1/C0及C2得10行36列正核，S5幅付P0/ΨS−2，末同F★控制器保新旧门。**整偶圆17外矩，仅PY2欠**，所有finite尺度在新几何前选；root续R360完整PY2。V是镜像前参数，不冒镜像后P1自由。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one局部生成式保全cross/尾0、wholepure/self/Ω0；11对应真实Af点flux的十次多项式Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 
