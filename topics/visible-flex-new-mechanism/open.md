@@ -14,13 +14,11 @@
 
 [旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)、[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)保全部原失败/费用。43728280256六模型η.266401179156→.266381717617；末两网14门/盒过、fineκ57.999983395，12LP用尽非驻点；m3/5 SOC修细曲率/保B，完整norm须自适应cuts。54/106源及同g/b0/159/163已核。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)保旧末态未复现/真17guard与BOM日志读取，只恢复原完整159/163、reference/池/cut来源，不重九段优化，不搬旧A/b或重锚。最新norm-memory/expanded/m10精确状态与下一接口见下方当前节；均未达.26或主1e−6，η不冒δhold。
 
-### O2 当前实际末态与下一新规则
+### O2 当前实际末态与唯一新接口
 
-[covered-soft-ordinary-growth-first-actual-result-20261115.md](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)：run43762868037/job132961344492/source4f136530；4新组20全过，6模型4普通+2原same-layout SOC完整接受，9primary+2SOC=11、末1按no-unpaired未用。η从.2663015219132816降至.2662701215525791，fineκ57.99998346840656；原14门/盒/旧metric过，.26/主1e−6/连续reach欠。唯一后继best为physical6ef6682e…、375-bank/hash470bf8bb…、完整池4432/4451、B.00025、legacy/covered双0。原g/b0/159/163及12/40/120/10不变。
+[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/source6f886c385bdc12c8963d451369c9250fa19a45a0，旧140Python/146总绑定、新4通过/旧14复用全部已核。前6普通α1接受两网14门；η.26623355613853394，κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。当前physical e0ab278d…/bank438 hash1a1d5585…、池4432/4525版本1/2、B.00025双0；γ17.022353404161095/18.064283125328743，8events全commit。
 
-新covered增长proposal/实际使用全0；m1真实增长属旧legacy pair，m2真factory/2primary使用；m4旧at-cap pair清计数；m2/6保B属旧same-layout17条件hold，expandedhold0。8trial学习全0，fine+93在首model前，不改记新事件。1303memory行重装+377真新cuts；total324.293553086s/active35.064484719s和初验234.362847179s完整保账。禁止重播本阶段等新规则触发。
-
-下一新算法设计见[notes/observed-curvature-defect-primary-guard-design-20261115.md](notes/observed-curvature-defect-primary-guard-design-20261115.md)：m2/6原group8同一实际行负缺陷，按真实y−x映射的共同body范数平方学习两个非负经验γ。仅下一ordinary primary的在域group8 target=max(旧target,旧floor+γB²)；其他数组、实际14门、SOC独立RHS、expanded rebound、learning/fallback及原预算不改。历史binding在旧样本/旧context内部核同，当前只核不变定义，不误要求旧池等于新池。新375入口/同模型冻结pending及完整含B签名五源已静态审完（[notes/observed-curvature-defect-primary-guard-implementation-20261115.md](notes/observed-curvature-defect-primary-guard-implementation-20261115.md)），首run43766593534前三组14项已过，第4组人工错误setter异常，科学未开始（[notes/observed-curvature-defect-guard-first-development-failure-20261115.md](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)）；最小fixture修复与严格receipt续入口已提交（[notes/observed-curvature-defect-guard-four-check-resume-20261115.md](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)），仅新4项+复用14，成功后接首次科学；生产138源和6workflow不变，不将经验量称连续误差证书。
+m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合，无可返回方向/无trial，非凸模型驻点。完整旧p未保存，四全网attainer e/f已付。唯一下一接口保原438全行并附≤4合法unit-ball支持，只使用ordinal11、保SOC12；无新行0LP，不重做LP10/前6/旧开发。恢复原epoch eval identity、当前池/学习/accepted7/计数，必要几何/J/JVP计剩余active/values。原12LP/40value/120active/10秒LP不变；新16人工与六源正在静态核，尚未执行。guard经验系数只下一primary，不宣连续误差证书。全部旧失败/费用/covered来源保原note。
 
 ### 仍须支付
 
@@ -164,7 +162,7 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 
 ### R394完整条件性period/同规范接口，继续实际像
 
-[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。下一核R345十一wholeE核类是否由完整H/Abar+响应构成，从而是否同时Λall0；若真则说明total零仍保独立partial门，不重旧Vandermonde。
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
 
 
 ### R395全自然核中的内部独立性已付
@@ -180,3 +178,8 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 ### R396实际F/双固定Λ/对应partial联合已付
 
 [R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)把R395 m≤11列加入R392真实截面：保块三角左下实际值、K前缀真正仿射安置、清A原型×n及后A全partial成本，一次有限n收缩同时解所有目标。未付商仍C⊕R²，qE三项原基准未删；没有推广Λall、wholeE或其它Af点。继续全自然像低层、actual商、R394完整period/13同规范。
+
+
+### R397原累计量与两个period的准确剩余map
+
+[R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)raw Hd含真实平台差，实际(P_LE,A,Hd)可指定，qE仍付原三项。全E0下C=RiHe+TiHd仅看真实ordered suffix三矩，K轨道准确盲；完整8-copy块首/末微包suffix0。另沿R345可实际wholeE0并同时清≤11对应首包d/e门，但不保双A，不能与另一实际截面拼接。一般点保𝔞_i(x;n_i)，继续其全响应像、Λall、全部内部点及13同规范。

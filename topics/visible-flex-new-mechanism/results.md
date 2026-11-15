@@ -294,3 +294,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R396｜响应E、双固定自然通量与指定内部通量的实际联调
 
 [R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)（6558B；SHA256 23bd17508e7e7e0cd1d7433412f4839e70827f92385a596f04a78937338c449f）。同一个有限M=T=0真块任意指定(P_LE,A,partial_m)，紧目标有固定字/整数的C1截面。旧响应实际partial左下块保留，K前缀真仿射稳定使固定点矩阵仍可逆；原型清A全部成本随n、后A校正的全partial进入同一收缩方程。Klein全基准照付。联合线性商仍(E(U)/E(R))×R²，qE原三项仍非零；不授wholeE、Λall、全部period或13行满射。root全文核R392替换、真实安置及所有成本，标题正式编号，无新执行。
+
+
+## R397｜原内部累计量实际联调和两period的有序余差
+
+[R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)（12091B；SHA256 e40d665eb0ff2ab06551f23f2b1c54405e13e1f9bdfd29c6c25d1be56d795a1e）。raw Hd与扣平台partial分清，原K局部列平台0使实际(P_LE,A,Hd)截面成立；原Lf恒等证明二阶gauge不改累计量。wholeE0时RiHe+TiHd自项消，仅留准确右三矩suffix；真实完整8副本块/后续全部块闭合给首末微包余差0。另独立沿R345 actual wholeE0+指定partial0得至多11对应首包双通道0，不同时保双A。一般点保新ordered map，全部主要联合门仍欠。root全文及R345实际§8–9复核raw平台、相位半导数、符号、suffix和实际范围，无执行。

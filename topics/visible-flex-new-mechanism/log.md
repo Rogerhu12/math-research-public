@@ -409,3 +409,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:41:07 UTC｜R396实际三角增强，仍保完整商基准
 
 [R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)，6558B/hash23bd17508e7e7e0cd1d7433412f4839e70827f92385a596f04a78937338c449f。根全文审读后只改正式编号；全固定查询/安置/原型重复/后校正/Klein费用进同一方程，未将linear结论冒为whole实际控制。理论继续低层自然像及完整period，数值同模型一次见证细化继续接线。基底4e60e02933122a159d1538ddd863a5d17483423c。
+
+
+## 2026-11-15 22:53:06 UTC｜R397发布并清理过时续点
+
+[R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)，12091B/hashe40d665eb0ff2ab06551f23f2b1c54405e13e1f9bdfd29c6c25d1be56d795a1e。根全文纸审后发布；两种actual截面不能拼成未经证明的joint，所选首包d/e可由独立wholeE构造同付。H压缩历史解释保全部规则/最新数值/精确剩余门，open用已完成guard替换旧待run段，不删历史证据。基底cd28a0908babaef99203e37032ab5ba79ae3b270。R397首ref遇并发main未确认；纯规则run43771508417/job132988217351实pull公开22:50:33.820039→34.098518/source2acee7e…、私有22:50:36.694704→37.550456/source9af36c1d…；双README空diff/QUEUE进行中，第二ref再并发后run43771650484/job132988659693公开22:52:09.919778→10.181295/source784c52ca…、私有22:52:12.429725→13.286373/sourcecef830c5…均空规则差。逐次读完后普通新基底重推，无force、无研究重跑。
