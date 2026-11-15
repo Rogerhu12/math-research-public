@@ -435,3 +435,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R286 完整证明](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)从B−3=cP、B−2=aR+bS及R282原规范提取准确cross。先在全合法D上用三矩消2∫dJd，保第三槽真实左尾及I2的2u′v′，随后才局部化成六条完整表；含Kj、Jj、Cj、N，所有低阶系数明确。even母包、原同F确实保持C和完整12odd复制给全角sin²式。H门后零外矩自动零，另外两矩恰iff4aJ1+(2a+5b/2)C0=0和−(a+b)K3+4aJ2−(2a+b)C1=0。C0>0且a,b<0迫J1<−C0/2，但J1带真实正负权，不构成一般不可能性。
 
 固定同一个χ时，J1/H0的高频主比值为¼∫y u0′u0″χ²/∫u0″²χ²，与位置无关。u0″(0)≠0给y u0′/u0″=y²+O(y4)，所以两不同evenχ可选不同真实比值，ψQ解析逼近保严格差；七量正锥和有限N根尚未在本稿支付。root全文核原式，literature独立核全部六式/真实尾与完整角归约，无新执行；其他乘积、0/1、period/joint和主几何门仍欠。
+
+
+## R287：两种偶振荡形状准确支付完整负三—负二乘积
+
+[R287 完整证明](results/R287-two-even-oscillation-shapes-pay-the-complete-mixed-Gaussian-product.md)保原七量(-H0,-H1,-H2,Lc,Mc,U,V)及完整低阶基线。u0″(0)≠0给y u0′/u0″=y²+O(y4)，两evenχ加权平均可严格不同，ψQ逼近保差。从实际编码的k=0、1各取七交替包，保所有copy权/偏移；每χ主列落x6=−4aρ x1超平面，六行化1,x,x²,x³,q9,q10，所有六删列minor首5292X10·Vandermonde同号。各组七列正cofactor核给整个六超平面的正锥，两个不同超平面合R7，因而任意完整基线有14严格正平方幅根。
+
+固定第一组六列及第二组一列，真七变量Jac可逆；完整原七量在同F族一致C¹收敛，故一个有限N有准确正幅根，而非形式高频零。五最终block逐一做，保全部72面积/三矩/全third，六能量与整个E−3²、E−3E−2同零。解析prefactor在同一有限N全区正，仍不授端历史矩自动零。该七量是R285原32观测的准确子系统，每χ位置rank6，不与≤11矛盾；其余八乘积/零一层/period/joint及非线性主目标留欠。root全文核，literature独核5292、两超平面及完整基线/选择顺序。

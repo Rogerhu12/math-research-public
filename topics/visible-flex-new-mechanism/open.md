@@ -58,13 +58,9 @@ R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消�
 
 [R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)给p¹有限首项的指数失败、p²有限极点门和p³以上左零通量延拓；特定δ链扣真二次尾后仅p⁴，不能代表U/R。[R230](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)付G=P2+Tτf+p²A，τ保同右锚三次函数和shuffle；指定解析ψP时(D+p'/p)有限有理消元判Tτf，不猜有限jet。
 
-[R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)已在43699241372/ee9e2098给whole pure0/λ1/首T0的同HE=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，fresh2694项346ea2a1原差验证。T只真权0/canonical mixed−2/首f-up,g0；一次层读λ路线结束，不机械重扫17层或扩别权。
+[R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)、[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)的whole pure0/λ1/首T0/B0已由原43699241372和43701766182消费，范围仅同HE首f-up/g0。原平台/flux前提及二次pole iff保原稿；不从这一个芽授完整period，不重旧17层/NF/人工目标。
 
-[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)进一步支付同HE的二次主部：43701766182的12新人工过，实际J4完整负主部在原式已零，NF0。首f-up/g0零flux且平台通过时，u光滑 iff t⁴B无负主部；whole pure0/λ1/T0/B0联合成立仍不能读λ。平台本身未数值评价，p3+已自动光滑不再算。
-
-[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)在新选合法ψP圆给同HE的whole pure0/λ1、首gap双平台0/F8d0/T0/B0，两首端germ光滑。整δ链11维，首gap真实comp减项使核内2×2子式非零；不授实际signed成本。
-
-[R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)给本11维模完整八平台接口：8F+8E单射，原余1维必在另一e平台露出；八E差插值、C(D)^−1 I³R和前三F给唯一P，其余五F+八D为13独立iff关系，额外e-flux另验。本模不能继续任调，也不把这些关系冒全R0障碍。
+[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)新ψP圆11维δ链付首gap双平台/八flux/T/B，非实际signed成本。[R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)证明该模8F+8E单射、唯一P后仍有13兼容和额外e-flux；不能继续自由任调或冒全R0障碍，完整period/joint须更全空间。
 
 [R254](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)/[R258](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)/[R261](results/R261-eight-local-self-adjoint-hook-operators-and-full-third-kernel.md)已付全Z=H7⊕J3⊕χ8及全部原K：局部四阶、自伴、Af f0、K=−J³Af，通用f忠实18非固定圆rank。逐包比例Kfg0，完整Rp0首项R71∩kerπ仍不可删。**下一真实O(U0)/O(Rp0)及同w ruling、signed实际控制；旧Δ/参考/151/152/3974/本八K目标不重做。**
 
@@ -168,3 +164,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R286 后续：负三—负二乘积的两条原完整余门
 
 [R286](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)已保全D三矩、第三左尾与I2一阶导，六条P/R、P/S原外矩准确归约。H0/H1/H2后零外矩自动过，另须4aJ1+(2a+5b/2)C0=0和−(a+b)K3+4aJ2−(2a+b)C1=0；C0严格正。固定单χ的J1/H0 principal比值不随位置变。下一从最初选两evenχ，严格联立七量正balance与同F有限N根；不同χ比值已有原式理由，不能把它当完整支付。
+
+
+### R287 已支付两乘积；继续其余真实系数
+
+[R287](results/R287-two-even-oscillation-shapes-pay-the-complete-mixed-Gaussian-product.md)已在同F用两χ和14原交替包给七量真实正锥/有限N根，联立付H0/H1/H2/Lc/Mc/U/V。当前同一解析圆保全部72面积、六能量、整个E−3²及E−3E−2；不是32量满控，每固定χ七量位置rank6。下一处理E−2²等其余八乘积的完整低阶项、角式与兼容；全principal跨χ仍须看真实普遍关系，不凭数量宣控制。端Q/零一层/同w另欠。
