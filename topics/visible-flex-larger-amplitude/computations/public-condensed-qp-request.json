@@ -1,11 +1,11 @@
 {
-  "request": 76,
-  "requested_at": "2026-11-15T01:01:22.599055Z",
+  "request": 79,
+  "requested_at": "2026-11-15T01:22:23.779618Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue the exact actual74 saved warm/status pair with one complete twenty-four-query model. Add only the nearest rejected original left-RMS485 query on all2048 physical angles. Retain the previous fifteen LEFT and eight MID grids, full H, lambda270, 512/200 and all original domain, merit, seventeen-trial and FD conditions. At actual74 alpha1/32, all original nodes, all original midpoints and all23 selected grids passed; the actual fixed-weight merit decreased, but the original complete RMS scan found only left485 invalid. The new query changes the model without promising a larger accepted alpha. Complete actual B remains7101 with no zero columns and unchanged16cells/21nodes; C4059 retains its complete exterior offset.",
+  "purpose": "Relinearize once at the exact actual76 saved warm/status pair using the same frozen twenty-four-query own-schema entry. Actual76 accepted alpha1/4 with all original node/midpoint/RMS and selected-grid checks; its nearest rejected alpha1/2 had original midpoint486 invalid and the already modeled left-RMS466 grid invalid. Retain all24 queries, actual7101 support, C4059 with complete outside offsets, lambda270, 512/200, original budgets, seventeen-trial rules and actual FD. Do not add a query or assume that midpoint486 is the sole limitation. The model is rebuilt at the new accepted optimization warm, not repeated at the old actual74 base; it remains an unaccepted BVP warm.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -59,9 +59,9 @@
     "geometry_20261114_twenty_four_query_condensed_response.py": "87261854684d5844c97d59b328db2aa070b015b565baf46dfb7e811808b3bb87",
     "geometry_20261114_twenty_four_query_collocation_observer_warm.py": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35"
   },
-  "actual_parent_run": 43659610548,
-  "actual_parent_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
-  "actual_parent_status_sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
+  "actual_parent_run": 43661532089,
+  "actual_parent_warm_sha256": "bba24c1f882d14751c4272148ee0cd6271c584485c6d0d3efaafa1a081a2a97f",
+  "actual_parent_status_sha256": "a1a67b9a1e0e97aa23404a8fa6c5936805de34f763f0076516c4f736aedc4cb5",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -82,7 +82,7 @@
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
   "original_left_RMS482_retained": true,
-  "new_queries_added": true,
+  "new_queries_added": false,
   "source_entry": "geometry_20261114_twenty_four_query_collocation_observer_warm.py",
   "mathematical_producer": "geometry_20261114_twenty_four_query_condensed_warm.py",
   "observer_read_only": true,
@@ -90,7 +90,7 @@
   "original_midpoint481_retained": true,
   "original_left_RMS468_retained": true,
   "one_complete_model_call": true,
-  "actual_parent_source_commit": "145d7a53ec05a64d39d0a36ac3e441e3475cb9bf",
+  "actual_parent_source_commit": "1377826d89317b491f75036cafd63c3ea5bea5f1",
   "complete_B_physical_nodes": [
     466,
     467,
@@ -127,62 +127,83 @@
     486
   ],
   "nearest_rejection": {
-    "parent_run": 43659610548,
-    "original_model_sha256": "75d3e63d4837a47816890ff49232aa43237b0b44d0531d63a6dbe57291fa2a26",
-    "original_trial_index": 5,
-    "alpha": 0.03125,
+    "parent_run": 43661532089,
+    "original_model_sha256": "2189ac0bbbb909a50f8607855511c50cccd99c29bad3df39ebe9b865eae42ed0",
+    "original_trial_index": 1,
+    "alpha": 0.5,
     "accepted": false,
     "all_original_nodes_valid": true,
-    "all_original_midpoints_valid": true,
+    "all_original_midpoints_valid": false,
     "original_node_failure_count": 0,
-    "original_midpoint_failure_count": 0,
-    "all_previous_twenty_three_modeled_grids_valid": true,
-    "full_original_RMS_scan_executed": true,
-    "original_RMS_query_domain_failures": 1,
-    "original_RMS_query_checks": [
+    "original_midpoint_failure_count": 1,
+    "all_previous_twenty_four_modeled_grids_valid": false,
+    "original_bad_midpoints": [
       {
-        "fraction": 0.17267316464601146,
-        "points": 698,
-        "invalid_count": 1,
-        "first_invalid_points": [
-          {
-            "interval": 485,
-            "left": 1.2442070264877532,
-            "right": 1.2491914779875128,
-            "s": 1.2450677075022412,
-            "a": 1.1808461714400902,
-            "ap": -0.2583696566321938,
-            "app": -2.415115318845772,
-            "minimum_beta_squared": -0.00928897249979821,
-            "phi": 0.08283496254582462,
-            "curve_curvature_at_minimum": 0.2177912452769082,
-            "scalar_parameters": [
-              -1.187351368445269e-18,
-              5.152721950399075e-19,
-              -8.539774863479239e-19
-            ]
-          }
-        ]
-      },
-      {
-        "fraction": 0.8273268353539885,
-        "points": 698,
-        "invalid_count": 0,
-        "first_invalid_points": []
+        "interval": 486,
+        "station": 1.2516837037373927,
+        "middle_input_finite": true,
+        "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+        "original_beta_squared": {
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "minimum": -0.02459725597153306,
+          "angle_index": 47,
+          "phi": 0.14419419406125028,
+          "negative_count": 4,
+          "zero_count": 0
+        },
+        "original_scalar_jets": [
+          1.1790840214108724,
+          -0.2743119815065325,
+          -2.4041018811631605
+        ],
+        "original_middle_sha256": "6c33ca6f46bf272311c77db9913e6809b4484e6fc1858f26f10fcf694c6b0025",
+        "original_midpoint_rhs_sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+        "raw_original_arrays": {
+          "file": "midpoint-observer/evaluate-0003-midpoint-00486.npz",
+          "bytes": 9626,
+          "sha256": "38a0fe0311d0b9794352c96f3b88351a995aa463ef378218090eaac3c10443a3",
+          "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+        }
       }
     ],
-    "actual_merit_evaluated": true,
-    "original_fixed_weight_merit_before": 43.6764824644448,
-    "actual_fixed_weight_merit": 43.66452065214288,
-    "actual_merit_reduction": 0.011961812301919394,
-    "actual_to_predicted_ratio": 0.9958399815011634,
-    "predicted_unregularized_merit_reduction": 0.01201178153531027,
-    "scope": "Original left-RMS485 alone failed at the nearest alpha1/32 after valid original nodes/midpoints and all23 selected grids, despite real fixed-weight merit decrease. The full original RMS scan remains an unchanged gate. No larger accepted alpha or complete-domain sufficiency is promised."
+    "existing_selected_query_failures": [
+      {
+        "query_index": 0,
+        "kind": "left-RMS",
+        "interval": 466,
+        "fraction": 0.17267316464601146,
+        "station": 1.1653164835060832,
+        "original_query_input_finite": true,
+        "original_beta_squared": {
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "minimum": -0.4800191170959498,
+          "angle_index": 959,
+          "phi": 2.9421751511646597,
+          "negative_count": 8,
+          "zero_count": 0
+        }
+      }
+    ],
+    "original_linear_beta_squared": {
+      "size": 49152,
+      "finite_count": 49152,
+      "minimum": 0.0010121426509067596,
+      "maximum": 1.5416230538859164,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "full_original_RMS_scan_executed": false,
+    "original_RMS_query_checks": null,
+    "actual_merit_evaluated": false,
+    "original_fixed_weight_merit_before": 43.67031770334245,
+    "scope": "Original midpoint486 failed and the existing selected left-RMS466 grid also had negative actual beta squared. Complete original RMS and actual merit were not evaluated at this trial. This is not evidence that adding only midpoint486 would make the half-step acceptable."
   },
-  "parent_status_transport_validation": "Preserve original compressed warm bytes; transparently decompress any public status gzip alias and hash the original JSON bytes without reserialization.",
-  "actual_parent_schema": "exact-constraint-twenty-three-query-condensed-complete-H-warm-v1",
+  "parent_status_transport_validation": "Require the actual76 compressed warm identity, the original decoded status identity and the exact published gzip identity when that alias is used; preserve original JSON bytes without reserialization.",
+  "actual_parent_schema": "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1",
   "original_left_RMS467_retained": true,
-  "actual_parent_accepted_alpha": 0.015625,
+  "actual_parent_accepted_alpha": 0.25,
   "existing_left_RMS_intervals": [
     466,
     467,
@@ -198,7 +219,8 @@
     480,
     481,
     482,
-    484
+    484,
+    485
   ],
   "existing_midpoint_intervals": [
     473,
@@ -210,14 +232,10 @@
     484,
     485
   ],
-  "actual_parent_warm_bytes": 4849039,
+  "actual_parent_warm_bytes": 4858829,
   "optimizer_schema": "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1",
   "current_entry_supports_own_schema_resume": true,
-  "added_query": {
-    "kind": "left-RMS",
-    "interval": 485,
-    "fraction": 0.17267316464601146
-  },
+  "added_query": null,
   "original_left_RMS480_separately_retained": true,
   "parent_status_compression_alias_supported": true,
   "existing_original_midpoint_intervals": [
@@ -293,13 +311,38 @@
   "actual_query_endpoint_support_expanded": false,
   "declared_local_layout_equals_actual_B_column_union": true,
   "original_left_RMS466_retained": true,
-  "actual_parent_original_status_bytes": 2532904,
+  "actual_parent_original_status_bytes": 2331066,
   "complete_B_capture_support_unchanged_from_parent": true,
   "original_left_RMS484_separately_retained": true,
-  "actual_parent_public_directory": "notes/public-actions-43659610548-1-condensedqp/twenty-three-condensed-warm",
-  "original_left_RMS485_explicitly_added": true,
-  "previous_twenty_three_queries_retained": true,
-  "initial_parent_uses_previous_twenty_three_schema": true,
+  "actual_parent_public_directory": "notes/public-actions-43661532089-1-condensedqp/twenty-four-condensed-warm",
   "original_midpoint484_retained": true,
-  "actual74_original_model_sha256": "75d3e63d4837a47816890ff49232aa43237b0b44d0531d63a6dbe57291fa2a26"
+  "actual_parent_compressed_status_bytes": 276520,
+  "actual_parent_compressed_status_sha256": "d8e9133a002280ff7f116738a53203ff273681414ec8aae2405ced1ee5726c8d",
+  "previous_twenty_four_queries_retained": true,
+  "same_schema_parent": true,
+  "source_entry_and_all_51_pins_unchanged_from_actual76": true,
+  "same_query_one_model_relinearization_at_new_warm": true,
+  "original_left_RMS485_retained": true,
+  "entry_introduction_history": {
+    "request": 76,
+    "original_actual74_parent_run": 43659610548,
+    "original_actual74_parent_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
+    "original_actual74_parent_status_sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
+    "original_actual74_model_sha256": "75d3e63d4837a47816890ff49232aa43237b0b44d0531d63a6dbe57291fa2a26",
+    "query_added_when_frozen_entry_was_introduced": {
+      "kind": "left-RMS",
+      "interval": 485,
+      "fraction": 0.17267316464601146
+    },
+    "frozen_entry_initial_parent_aliases_remain_historical": true
+  },
+  "actual76_original_model_sha256": "2189ac0bbbb909a50f8607855511c50cccd99c29bad3df39ebe9b865eae42ed0",
+  "actual_parent_accepted_original_merit": {
+    "alpha": 0.25,
+    "actual_fixed_weight_merit": 43.57938353308094,
+    "actual_merit_reduction": 0.09093417026150519,
+    "actual_to_predicted_ratio": 0.9927567534550313,
+    "predicted_unregularized_merit_reduction": 0.09159763451120578
+  },
+  "cross_model_merit_subtraction_performed": false
 }

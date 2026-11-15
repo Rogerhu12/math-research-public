@@ -365,3 +365,6 @@ actual74 reader43660861684/source178a1031已success，完整byte范围另据小�
 
 2026-11-15 01:23:35 UTC — /root GPT-6 Astra Pro: 发布R276独立Actions消费者bd4ff360(65266B)/接口73a5f7d9/静态回执2a120ded，root完整审读1045行、AST及12冻源字节核同；未导入或执行任何本地科学。
 完整129248 signed行与实际r/σ、十alpha及全斜率α*；ρ0/endpoint充分条件/真实trial仅scalar范围明确。与73原读者同次解包另科学步骤，原结果先存、不重J/QR/ODE、不预填未来result/artifact或加门。76正式结论及完整reader请求已推4fcb0ab0。
+
+2026-11-15 01:28:36 UTC — /root GPT-6 Astra Pro: 发布79唯一同24查询重线性化请求workflow41fd5398/requestfb8985c3/interface6ac91197；root完整读接口/两差异并独立核51源SHA/AST、11shell/6inlineAST。
+真76新pair和gzip原字节双身份固定，既有预算/科学门/FD保持；实际请求仅从新warm重建，未加query或预言接受。76完整reader43662815323/source4fcb0ab0已success，root正下载其小结果供原字节增补。
