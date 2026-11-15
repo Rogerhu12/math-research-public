@@ -1,0 +1,225 @@
+name: visible-exact complete97 right Poisson Grams
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams.py'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams_CI.py'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete97-right-Poisson-Gram-CI-inputs.json'
+      - '.github/workflows/visible-exact-complete97-right-Poisson-Grams.yml'
+  workflow_run:
+    workflows: ['visible-exact complete directional matrix Green']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      directional_run:
+        description: Actual complete directional forward result; all5970 rows and original matrices required
+        required: true
+        default: '43657540917'
+      directional_attempt:
+        description: Actual completed directional attempt
+        required: true
+        default: '1'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete97-right-Poisson-Grams
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  POISSON_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete97-right-Poisson-Gram-CI-inputs.json
+  POISSON_MANIFEST_SHA: 94e46b2262ce542eccf04e948eae29eee49d4e4bb62b80231afac48821a79181
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  eligibility:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      ready: ${{ steps.original.outputs.ready }}
+      directional_run: ${{ steps.original.outputs.directional_run }}
+      directional_attempt: ${{ steps.original.outputs.directional_attempt }}
+    steps:
+      - name: Check out only new texts for immediate syntax verification
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams_CI.py
+      - name: Parse both exact new texts before the upstream matrix result is ready
+        run: |
+          python - <<'PY_EARLY_AST'
+          import ast,hashlib,pathlib
+          expected={
+              'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams.py':
+                  '312398be818621e156c08366f74c2850c61dcc283a44a30d7bb510a1cd51fca0',
+              'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams_CI.py':
+                  '971176325944e30135f91768e4c934f6076843a5f203430a15fbb05a6339083e',
+          }
+          for name,sha in expected.items():
+              raw=pathlib.Path(name).read_bytes()
+              if hashlib.sha256(raw).hexdigest()!=sha:
+                  raise ValueError('One exact new source differs: '+name)
+              ast.parse(raw.decode(),filename=name)
+          print('Both exact new files parsed; no mathematical producer imported or executed.')
+          PY_EARLY_AST
+      - name: Verify the original complete directional forward artifact before new mathematics
+        id: original
+        uses: actions/github-script@v7
+        env:
+          REQUESTED_DIRECTIONAL_RUN: ${{ inputs.directional_run }}
+          REQUESTED_DIRECTIONAL_ATTEMPT: ${{ inputs.directional_attempt }}
+        with:
+          script: |
+            const owner='Rogerhu12',repo='math-research-public';
+            let run='43657540917',attempt='1';
+            if(context.eventName==='workflow_run'){
+              run=String(context.payload.workflow_run.id);
+              attempt=String(context.payload.workflow_run.run_attempt);
+            }else if(context.eventName==='workflow_dispatch'){
+              run=process.env.REQUESTED_DIRECTIONAL_RUN;
+              attempt=process.env.REQUESTED_DIRECTIONAL_ATTEMPT;
+            }
+            if(!/^[0-9]+$/.test(run)||!/^[0-9]+$/.test(attempt)){
+              throw new Error('The actual directional run and attempt must be explicit decimal IDs');
+            }
+            const response=await github.rest.actions.getWorkflowRun({owner,repo,run_id:Number(run)});
+            const d=response.data;
+            if(d.repository.full_name!==owner+'/'+repo ||
+               d.path!=='.github/workflows/visible-exact-complete-directional-matrix-Green.yml'){
+              throw new Error('The requested run is not the authorized complete directional workflow');
+            }
+            const artifacts=await github.paginate(github.rest.actions.listWorkflowRunArtifacts,
+              {owner,repo,run_id:Number(run),per_page:100});
+            const name='visible-exact-directional-matrix-Green-forward-'+run+'-'+attempt;
+            const selected=artifacts.filter(a=>a.name===name&&!a.expired);
+            const ready=d.status==='completed'&&selected.length===1;
+            core.setOutput('ready',ready?'true':'false');
+            core.setOutput('directional_run',run);
+            core.setOutput('directional_attempt',attempt);
+            core.info(JSON.stringify({original_run:run,attempt,status:d.status,
+              conclusion:d.conclusion,original_forward_artifact_present:selected.length===1,
+              new_mathematics_permitted:ready,
+              actual_child0_full5970_native_and_all_gates_still_checked_by_worker:true}));
+            if(!ready&&context.eventName==='workflow_dispatch'){
+              throw new Error('The requested complete original directional result is not yet available');
+            }
+
+  poisson:
+    needs: eligibility
+    if: needs.eligibility.outputs.ready == 'true' && github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 360
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out exact sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete97-right-Poisson-Gram-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Set actual container-visible output path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-complete97-Poisson-output" >> "$GITHUB_OUTPUT"
+      - name: Hydrate all238 exact pins with original234 pins unchanged
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$POISSON_MANIFEST" --manifest-sha "$POISSON_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/complete97_right_Poisson_Grams_ci/
+      - name: Parse exact source and worker without importing numerical producers
+        run: |
+          python - <<'PY_AST'
+          import ast,pathlib
+          for filename in (
+            'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams.py',
+            'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams_CI.py',
+          ):
+              ast.parse(pathlib.Path(filename).read_text(),filename=filename)
+          print('Both files parsed; all original F, C, H, J, targets and scalar ports remain frozen.')
+          PY_AST
+      - name: Install the original pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Actual full97 Poisson Gram sweep with real pull every10minutes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete97_right_Poisson_Grams_CI.py
+          --directional-run '${{ needs.eligibility.outputs.directional_run }}'
+          --directional-attempt '${{ needs.eligibility.outputs.directional_attempt }}'
+          --manifest "$POISSON_MANIFEST" --manifest-sha "$POISSON_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --work "$RUNNER_TEMP/visible-exact-complete97-Poisson-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-complete97-Poisson-output"
+          --compute-minutes 320 --checkpoint-minutes 10
+      - name: Require actual nonempty output and bounded exact inventories
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('No actual nonempty right-Poisson process or prefix exists')
+          entries=[]
+          for p in files:
+              h=hashlib.sha256()
+              with p.open('rb') as source:
+                  for chunk in iter(lambda:source.read(8*1024*1024),b''):
+                      h.update(chunk)
+              entries.append(dict(file=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=h.hexdigest()))
+          evidence=root/'evidence';evidence.mkdir(parents=True,exist_ok=True)
+          for first in range(0,len(entries),128):
+              content=dict(first=first,total=len(entries),files=entries[first:first+128],
+                  exact_actual_bytes=True,all_large_arrays_remain_public_Actions_artifacts=True)
+              raw=(json.dumps(content,ensure_ascii=False,indent=2)+'\n').encode()
+              if len(raw)>60000:raise RuntimeError('An inventory would exceed60000 UTF8 bytes')
+              (evidence/f'actual-array-file-inventory-{first//128:04d}.json').write_bytes(raw)
+          print(json.dumps(dict(actual_nonempty_files=len(entries),
+              bounded_inventory_parts=(len(entries)+127)//128)))
+          PY_INVENTORY
+      - name: Preserve exact actual process, native, arrays and every successful prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete97-right-Poisson-Grams-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1

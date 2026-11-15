@@ -71,3 +71,11 @@ science2151125d…19907B、CIebacf347…6774B、worker275a965d…16106B、manife
 全文核B1–28，另读原M接合、L1–7平方零Hilbert module、实际C19–28独立mean输入/χ链。B9先准确消mean(V−P)，再给wR²二次费用；完整L2 functional通过square-zero module重证，未由A0抽象推L2。修正草稿入口6e−5到原已付6.600816124e−5，因B20原本已支付整个原球；原成功对称成员由唯一性保。新proof 7d1f7b1dbefb119266c195e1b1118869bebf10d8148200855405bff0ddd64dc8，17481B；原所有数字来自已付预算，无重跑旧kernel。
 
 完整同时反馈<.9、原ac物理cap增加真实Bmean列χ<.821；径向角常数由真实平坦coframe积分，quarter旋转消位置周期。a²B0守恒/源jump/waist待解行明确保留，不改名为Darboux荷。tail继续强source与接Schur。matrix首组12真实192格已由newton读实际process3defd857…，其余继续，未宣布5970全cover。README核04a079bba9edd96e67c0e6378be7a2e0daac4450无变；未达课题总门。
+
+### 2026-11-15 00:49:03 UTC：完整97右Poisson公开后继五件已部署
+
+source312398be…26206B、CI97117632…18151B、原合同2a3d74a9…13281B、manifest94e46b22…50571B、flow1fee001f…11753B；旧234pins逐项零差，新238闭包。root全文核SCI/CI/flow，复核继承inputs/staged_sweep/matrix_arrays和全原输入hash；tail窄核P10/P18/P21–24亦无指定缺口。初push核exactSHA/AST，fallback43657540917只是AST且无forward artifact，不启动数学；真实global-forward完成后由workflow_run接续。
+
+新计算保97右输入/独立mean、末格Vcut^ex、same精确E产品的包络、全5970正负body缺陷、真实waist/BR只even97、全部V同源跳和独立cut。每32完整行不可变状态加latestprefix，320min科学/10min真pull，数学成功不被后续出版失败覆盖。原F/C/H/J/target/validator/ports不重算；无限cap高迹、GH、全ν仍另付。
+
+完整H9610B已归档notes/2026-11-15-handoff-before-full97-Poisson-deployment.md并压缩当前inner历史，不删任何失败或原native。两README核2edc897fb03cce0a1ba17665a018032982267aaf无变化；未达总门继续。
