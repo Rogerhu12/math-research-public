@@ -91,3 +91,5 @@
 - **R788**：[原三次因子强接触窗口的全素数排除](../results/R788-original-cubic-factor-all-prime-exclusion.md)。r2/mq0/b=b0=3的五型各两原有理子式，其gcd全部坏因子≤211，付p≥347统一排除；十九角准确κ≥9及唯一κ≤11类将剩余压到p311，原九列非齐次系统不解。因此整个b3强窗对全部允许p不存在；b≥4和全中央仍开。公开producer/run/hash齐备，未由有限样本外推。
 
 - **R789**：[同一CM帽的固定解析芽与原T完整外部非零差](../results/R789-fixed-cm-hat-germs-and-nonzero-native-exterior-differences.md)。奇m≥n时第三逆Y帽及其浅补归一λ^-m后严格稳定；原固定观察的相邻深度差则精确消质量/t°log，回到原W实际CD失败域后中央导数非零且赋值明确。R483/R493完整联合零付其余215外部非零补偿；四格明确两种补域互斥，未添独立中央零。
+
+- **R791**：[原J深浅负一行与真实E双块的非退化二算术分量](../results/R791-original-j-depth-negative-moments-and-two-e-sectors.md)。原R773第一返回项的完整CM谱付两η/all-N算术幅度unit；全primitive点因子保后，两个J深浅t/Y值各非零且Qbar独立，真实Π3deep/E双块及固定p深度赋值齐付。原mixed T全外部仍承担其首系数和全部尾，不冒新中央零。公开窄reader/run/hash保。
