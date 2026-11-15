@@ -87,23 +87,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 4. **有限复模式。** ≤5正实log复二次全Q已闭；指定六模式F²的全部λ,w已由真实Bell逆/有理jet证书闭合。[指定六模式F³第三矩](results/R150-appendix-six-mode-cubic-bell-third-moment-schur-reduction.md)付16维完整Schur和17低变量加权六次R3，仍须证明有实际逆的B_r自然幂∈gradR3；普通first Bell分母次数障碍不等于非循环。一般Σ内、无池、无限模式及更高幂仍开。
 5. **相对乘积与自然域。** 相对ℓ1双乘积、单慢加快、快分式和空谱锚两方向按旧条件保留；复杂相对ℓ2、三以上cocycle、双全C与非解析闭包未闭。正自然词、热/预解和共同正则子须保原域；可数全H稠密像之交不保证与未知M非零相交。
 
-### R150 六模式三次：当前完整范围和剩余层
+### R150 六模式三次：当前入口
 
-原 $F^2$ 全参数已闭，$F^3$ 的全局自然幂/实际逆仍开。下列均为指定原K与物理Hankel形式矩的结论，不代普通ISP。压缩前每条中间支撑/消元与证书入口保[本次全文](notes/2026-11-14-open-before-exact-top-and-rank-two-reduction-1cf.md)。
-
-**已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
-
-**高本质rank1原中心17式。** 原泛秩4354、rankAy8与0/2/−6/∞已闭；余rankAy9有限Σ/char0来源。当前完整198相关第二像维7、H0九目标原17模31³/cost87已成，原h0的31饱和/特征零来源继续；准确范围和原数据见上方“原式来源与完整第二提升”。其它mean秩、高ess和自然幂仍开；全部旧范围保[前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
-
-[射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
-
-**其余高本质层。** Cat1/Cat2的全部旧链、mean张量及V4排除范围保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)；高本质未闭，不删D块低梯度或给复权加正性。
-
-**纯原K禁阻。** tangent/value、两向cusp、conic/cubic等已闭原核禁阻全保快照，只在原physical条件使用。
-
-[two-value conic禁阻](results/R150-appendix-two-physical-value-conic-companions-force-orthogonality.md)保原参数/∞；不扩任意非physical或高本质。
-
-**其余既有与仍开范围。** 有限原子/两平面/局部J³⊂I⊂J等已闭范围见快照；最高式不能替低梯度。高本质、全局匹配Bell自然幂、局部单位的实际算子逆及普通域仍开。
+全部原范围、过去局部障碍及未列缺口完整保于[本次开放问题快照](notes/2026-11-15-open-before-common-factor67-789f.md)；这些条目并未因归档关闭。当前接续在下文“最新接续”：原29真核、剩余七方向的完整有理问题、有限公共K67/指定∞43以及原目标成员性仍须分别处理。
 
 ## 其他仍开放的路线与不可互换的极限
 
@@ -171,3 +157,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
 
 - **[原七Q单位块的26步剥离及单4292核心](results/R150-appendix-original-seven-unit-sparse-peeling-and-one4292-block.md)：** run43679903558实际0.692495464秒，26精确变量/682行更新后保全七RHS，余4292方块172513项/132bit；全支撑仅一个SCC，不能把该轻微缩减当已完成求解。原DAG/整数状态已保存，接30秒低填充精确消元，Q核数和秩范围未变。
+
+- **[有限零点二阶切向族、K67及条件8705](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：** 原s=0真4340常秩及全部17式沿真实切向图O(s²)，给全部最大子式共同s21；旧有限因子升K67=s7K60、lc=5^6仍31单位。与指定∞43/换列42/cofactor41合并q248…8660，原目标已有Q[s]来源才得cost≤8705（非基8704、目标分支8468）。全公共齐次因子至少88次，不把∞21再加指定43；成员性和lc(D)单位仍开。

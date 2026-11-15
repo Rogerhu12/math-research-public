@@ -70,3 +70,5 @@
 - **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
 
 - **[原七Q单位块的26步剥离及单4292核心](results/R150-appendix-original-seven-unit-sparse-peeling-and-one4292-block.md)：** run43679903558实际0.692495464秒，26精确变量/682行更新后保全七RHS，余4292方块172513项/132bit；全支撑仅一个SCC，不能把该轻微缩减当已完成求解。原DAG/整数状态已保存，接30秒低填充精确消元，Q核数和秩范围未变。
+
+- **[有限零点二阶切向族、K67及条件8705](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：** 原s=0真4340常秩及全部17式沿真实切向图O(s²)，给全部最大子式共同s21；旧有限因子升K67=s7K60、lc=5^6仍31单位。与指定∞43/换列42/cofactor41合并q248…8660，原目标已有Q[s]来源才得cost≤8705（非基8704、目标分支8468）。全公共齐次因子至少88次，不把∞21再加指定43；成员性和lc(D)单位仍开。
