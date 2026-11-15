@@ -57,3 +57,5 @@
 - **R768 原次数门更正**：[原来源的有限零纤维可行范围](../notes/2026-11-15-r768-original-fiber-degree-feasibility.md)。真正Pfact首t层强制3b0+degQ0≤4r+2；联合b0>4k+2需r≥3k+2，原r≤13故k≤3。r1/b0≥3增补为空，立即撤回其实际可用措辞；r2/k0/b03仅是未被此门排除的候选。
 
 - **R773 公开执行增补**：同一原q*的真实共同帽/U失败域已证负一非零。run43726080626/job132848187370保原50/quarter、两核、M5/E逆/M-unit/U300；四辅助点两arith分量非零，固定CM密度引理付旧ray相对密度1、两η和所有N4单位。固定五维归一极限与两个P分母给共同W差准确赋值m+v*p；原JT′=0只强制完整外部反号同赋值，不能删补域。producer/参数/hash见[R773附录A](../results/R773-native-common-hat-domain-and-five-conditional-moment-return.md)。
+
+- **R776**：[原S174的三进绝对Weil谱与精确δ²导子](../results/R776-original-degree174-three-primary-absolute-weil-spectrum.md)。原α87/ψ/splitting给三线(ω,−1)=(1,+),(ω,+),(ω,−)，原Schr三球norm3/6/6及全174维半特征身份；两新增Hecke角色导子精确δ²、uniformizer−i/+i，未删奇sector。继续2/29全张量与原theta–Katz平方。
