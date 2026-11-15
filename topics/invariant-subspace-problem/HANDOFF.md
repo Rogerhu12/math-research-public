@@ -29,7 +29,7 @@
 - 旧P行模19行/12basis/2416步，localized91e5再57步后MemoryError；13父根全核、候选464.75MB/56245ba9未验证，最高629810bits，无Ω。小诊断7d9899ad核raw2301B/b947eb34；旧全部恢复点保前态归档，不盲续此爆长路径。
 - 新minor并发失败已立即重拉重推；历史字典恢复/五输入全核详归档。不重已付core/旧消元。
 
-- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；下界消费者继续，不重core/det。
+- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；全56下界source0e111c23已排180秒/2GiB/外240，squarefree单位Schur/真因子分裂，corank足即夹闭，不足才升新精度；每整pivot双槽，不重core/det。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
