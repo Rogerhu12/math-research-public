@@ -1,0 +1,82 @@
+name: visible-exact raw-response mean collar fee
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-raw-response-mean-collar-fee.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-raw-response-mean-collar-fee
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  RAWMEAN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-raw-response-mean-collar-fee-CI-inputs.json
+  RAWMEAN_MANIFEST_SHA: 5157dfea0e7d44c7a6659ffd14505ac2a09248ea12ed7333a53a08b11103f7e9
+  RAWMEAN_PIPELINE_SHA: 7547ece2825854a18e59c27294b12e8dbdcb13671c8fb0d8fba6af218d86f7f2
+  RAWMEAN_WORKER_SHA: 804a001d518bb04b5f5fcee6b97c0cb376cc878b8199833c7f201aaf33d03fa6
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  raw-response-mean-collar-fee:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 60
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-raw-response-mean-collar-fee-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['RAWMEAN_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py --mode hydrate
+          --manifest "$RAWMEAN_MANIFEST" --manifest-sha "$RAWMEAN_MANIFEST_SHA"
+          --pipeline-sha "$RAWMEAN_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['RAWMEAN_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned scalar arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read original raw mean rows and correct only five retained complete cases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py --mode run
+          --manifest "$RAWMEAN_MANIFEST" --manifest-sha "$RAWMEAN_MANIFEST_SHA"
+          --pipeline-sha "$RAWMEAN_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-raw-response-mean-collar-fee-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-raw-response-mean-collar-fee-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.

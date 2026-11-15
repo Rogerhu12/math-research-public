@@ -199,3 +199,5 @@ H的H1/Cδ/CS及open第4节旧帽详账亦仅压缩引用6d87bc85同路径和原
 亲读真pull12:57:58.750589→bdf728aa37980d247e279f404390c11991b2cbdc，两README diff空；原容量199064002B、该run两小件后199116648B仅该时点。预Gitstdout42859B/f215352d、tempnative16269B/f952ce74不保存。root13:01非FF立即尝试真CLI pull仍No usable execution environment，保远端重建CAS至第二次成功1bb353c9；不把ref冒pull，定时尝试仍继续。H旧D详账仅压缩引用1bb353c9同路径/原文，所有true mean/global差和未付finite逆义务保。
 
 - 2026-11-15 13:09:37 UTC visible-exact-astra-0df9：MC逐核原mean/centre-repair producer，修正R§3、原collar报告与W交叉引用；旧summary漏独立raw mean，证明只需新纯径向fee而无需另加ΔA e_mean。原91记录不改，完整高门待新5case；D/cut/W known/Green等不受影响。亲读Green13:04真pull3cf63af1两README空；只读main 78262633574059fdde9a9dbbcb606a62fa2ba90a 规则未变，继续新fee/AJ/local/Green。
+
+- 2026-11-15 13:11:24 UTC visible-exact-astra-0df9：部署MC最小新fee消费，SCI7547ece2/worker804a001d/manifest5157dfea/flow1dacf33f；继承成功D的40parts/8旧ZIP精确恢复、预Git小stdout、120KBreserve/非FF循环。只新2域mean积分和5保留case，旧91与所有旧残差不重算；所有case未过也保完整结果。共享.github新增本题flow；main 373fa9bc253a9267acb320a23508cca6070d8f93 两README无变，前次13:09非FF真CLI仍无executor。

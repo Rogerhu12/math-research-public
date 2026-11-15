@@ -1,0 +1,650 @@
+{
+  "kind": "immutable_raw_response_mean_collar_fee_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "exact_new_mathematics": "MC14 raw signed mean restrictions; MC13 MC15 MC16 corrected source and five retained cases only",
+  "parameters": {
+    "arithmetic_bits": 320,
+    "delta_half_width": "1/10000000000",
+    "exact_cut": "9/10",
+    "available_collar": [
+      "17/20",
+      "19/20"
+    ],
+    "retained_ell": "1/262144",
+    "retained_interval": [
+      "589819/655360",
+      "589829/655360"
+    ],
+    "retained_radii": [
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "angular_order": 8193,
+    "original_rows": 7721,
+    "original_parts": 40,
+    "raw_mean_field": "response_mean_residual",
+    "new_source_angular_degree": 0,
+    "full_mean_normalization": "normalized circle; coefficient has norm equal to its absolute value",
+    "original_source_arrays_or_verdicts_modified": false,
+    "old_numerical_enclosures_recomputed": 0
+  },
+  "expected_actual_gate_count": 12,
+  "scientific_runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "python-flint": "0.9.0"
+    },
+    "bits": 320
+  },
+  "historical_input_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "original_body_manifest_sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+  "original_accepted_response_summary_sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+  "original_legacy_response_progress": {
+    "actual_completed_common_rows": 7680,
+    "complete_common_rows": 7721,
+    "actual_completed_common_rows_is_only_a_periodic_snapshot": true,
+    "exact_new_40_part_7721_row_cover_required": true,
+    "original_summary_modified": false
+  },
+  "input_paths": {
+    "original_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+    "response_summary": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+    "intrinsic_execution": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "collar_conclusion": "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+    "collar_process": "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/process.json",
+    "original_row_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+    "original_mean_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_mean_error_consumer.py",
+    "original_repair_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py",
+    "original_collar_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md",
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  },
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/process.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+    "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+    "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json": "618bd148e7d75e82c49af5f434235b3792747652a3ff9fb98adc03f560ac2080",
+    "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/process.json": "dbe7fe24a53c265ab0e8103b576c722cde8a57d9df0235f585ffe49efae92974",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_mean_error_consumer.py": "8d151648278cc122e27383ff3e5de88fe6695b983d11a57d27e74f6325ce6cbb",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py": "6e4e8f1a3f69fdc06c15a0471cedb62abce0740b4825ddf5a0d04de4b984d7ad",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py": "e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md": "5d525aac1c64d87980494f7bbbd72feda2e06a770d113ed29823905e33bba150",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee.py": "7547ece2825854a18e59c27294b12e8dbdcb13671c8fb0d8fba6af218d86f7f2",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py": "804a001d518bb04b5f5fcee6b97c0cb376cc878b8199833c7f201aaf33d03fa6",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+  },
+  "file_receipts": [
+    {
+      "role": "original_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+      "bytes": 31806,
+      "sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+      "blob": "b4a96180d2e1abca2ae90e7ba363e6a0c78149d9"
+    },
+    {
+      "role": "response_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+      "bytes": 18829,
+      "sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+      "blob": "b4baed45ea0038c6aa38de8bd2939447ef2d39e0"
+    },
+    {
+      "role": "intrinsic_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+      "blob": "ce7af74c8b2f8cf7715775f352d2c26afb03413a",
+      "bytes": 40659,
+      "sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071"
+    },
+    {
+      "role": "collar_conclusion",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+      "blob": "92623e647cd10356706f6a2f6336718908ae6c43",
+      "bytes": 42073,
+      "sha256": "618bd148e7d75e82c49af5f434235b3792747652a3ff9fb98adc03f560ac2080"
+    },
+    {
+      "role": "collar_process",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/process.json",
+      "blob": "5888c1f241fef4f7fa9a83112c62dbb728b46486",
+      "bytes": 16232,
+      "sha256": "dbe7fe24a53c265ab0e8103b576c722cde8a57d9df0235f585ffe49efae92974"
+    },
+    {
+      "role": "original_row_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+      "bytes": 13043,
+      "sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+      "blob": "3af195a36ccb30630dbfcab0caef3564738ab169"
+    },
+    {
+      "role": "original_mean_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_mean_error_consumer.py",
+      "blob": "6e831d759c53d07e93ad24277aa7b022b05ee5b4",
+      "bytes": 10587,
+      "sha256": "8d151648278cc122e27383ff3e5de88fe6695b983d11a57d27e74f6325ce6cbb"
+    },
+    {
+      "role": "original_repair_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py",
+      "bytes": 16221,
+      "sha256": "6e4e8f1a3f69fdc06c15a0471cedb62abce0740b4825ddf5a0d04de4b984d7ad",
+      "blob": "5e8c9311cab02eb88abdec135f26326610aee91e"
+    },
+    {
+      "role": "original_collar_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py",
+      "blob": "a6837cdbea96c2e189d33ebfe8ca4603025eb9f0",
+      "bytes": 24702,
+      "sha256": "e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md",
+      "blob": "7f4455905e182accb35c2bbe0e6564d78faf543c",
+      "bytes": 12725,
+      "sha256": "5d525aac1c64d87980494f7bbbd72feda2e06a770d113ed29823905e33bba150"
+    },
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee.py",
+      "blob": "ae7e2eb7a6b289dbe060bc3a50f025aab92bd8ce",
+      "bytes": 19435,
+      "sha256": "7547ece2825854a18e59c27294b12e8dbdcb13671c8fb0d8fba6af218d86f7f2"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee_ci.py",
+      "blob": "968ff1e78262d505c193d2f92731ca410179c654",
+      "bytes": 42807,
+      "sha256": "804a001d518bb04b5f5fcee6b97c0cb376cc878b8199833c7f201aaf33d03fa6"
+    },
+    {
+      "role": "reviewed_rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    }
+  ],
+  "complete_small_input_bytes": 291580,
+  "complete_small_input_count": 13,
+  "historical_natural_parts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0000-native.json.gz",
+      "indices": [
+        0,
+        1
+      ],
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0477-native.json.gz",
+      "indices": [
+        477,
+        478
+      ],
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row1000-native.json.gz",
+      "indices": [
+        1000,
+        1001
+      ],
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row6000-native.json.gz",
+      "indices": [
+        6000,
+        6001
+      ],
+      "sha256": "084def0062d835d1c05a557f1384f947bd7ed0b14eef0b02b01832b8723eec6b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row7719-native.json.gz",
+      "indices": [
+        7719,
+        7720
+      ],
+      "sha256": "48b821e306e91046fbaeed8434a7b5c56db2ffde56f2084e944b25959deabd1f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-original-left1-257-native.json.gz",
+      "indices": [
+        1,
+        257
+      ],
+      "sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8"
+    }
+  ],
+  "original_row_archives": [
+    {
+      "id": 14110601477,
+      "name": "visible-exact-body-rows-257-1200-43583838026-1",
+      "bytes": 4480773,
+      "sha256": "80dfa9c961b532aebe7ddee7ce453e7673263358bc9ba24f80dbcd5d5c54b928",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        257,
+        1200
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110008625,
+      "name": "visible-exact-body-rows-1200-2133-43583838026-1",
+      "bytes": 4388988,
+      "sha256": "69f3fa446913f7fa5ae58bc3726867fbb6cd84862f1bd7cf7afe137d1c50f1a9",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        1200,
+        2133
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110242321,
+      "name": "visible-exact-body-rows-2133-3066-43583838026-1",
+      "bytes": 4357089,
+      "sha256": "0fba4d340b7f17375a3131e002f300a3248a0148db2f2af4c9db0ca43cb1636b",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        2133,
+        3066
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14109917818,
+      "name": "visible-exact-body-rows-3066-4000-43583838026-1",
+      "bytes": 4343481,
+      "sha256": "24e1b751f511106e19786e61f3d77abac8f932a25b1424511e5b4abcd3f97e07",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        3066,
+        4000
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110317130,
+      "name": "visible-exact-body-rows-4000-5000-43583838026-1",
+      "bytes": 4696764,
+      "sha256": "0cdf29f93acae8818e7b0a0226214d6b09eaeb1d0d58da4eb86a69c4579ff6c3",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        4000,
+        5000
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110521643,
+      "name": "visible-exact-body-rows-5000-6000-43583838026-1",
+      "bytes": 4705593,
+      "sha256": "14322e2c858e4487f0c1be3e0d7193da1ad5cddcd5fa2c04802dd1be3b603222",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        5000,
+        6000
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110336986,
+      "name": "visible-exact-body-rows-6001-6860-43583838026-1",
+      "bytes": 4147258,
+      "sha256": "6a0122aaae804f325ab08faf988bf523de52814176c1726a0726f46f07ceb7be",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        6001,
+        6860
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14109693324,
+      "name": "visible-exact-body-rows-6860-7721-43583838026-1",
+      "bytes": 4117565,
+      "sha256": "505ecabc60f9dfd02d3313284eed138394bf3f8247980076e7d56171d85c485f",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        6860,
+        7721
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    }
+  ],
+  "original_complete_native_part_sha256": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0"
+    },
+    {
+      "indices": [
+        1,
+        257
+      ],
+      "sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8"
+    },
+    {
+      "indices": [
+        257,
+        477
+      ],
+      "sha256": "1edcdc33fb6e60c0feb1049ee649f29cb25a98425d7354134918c1ee87faec58"
+    },
+    {
+      "indices": [
+        477,
+        478
+      ],
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5"
+    },
+    {
+      "indices": [
+        478,
+        734
+      ],
+      "sha256": "08ff0e338b1b798d2b01ccb385464ead0ffaa94d45c603fda811f8c3feea4ad2"
+    },
+    {
+      "indices": [
+        734,
+        990
+      ],
+      "sha256": "a8b2595a912c36972e3d84fb078cca484c357f1d34478780dc435e945bc8c982"
+    },
+    {
+      "indices": [
+        990,
+        1000
+      ],
+      "sha256": "8b9334eed53f01608e26d35da955320b59ca32bbc444acb6d6a8cfe100a1583e"
+    },
+    {
+      "indices": [
+        1000,
+        1001
+      ],
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec"
+    },
+    {
+      "indices": [
+        1001,
+        1200
+      ],
+      "sha256": "20b5501b4eb6d136d66a9fa818bd1fe2d410fa5c28202abd2e6bebd90fbfdf77"
+    },
+    {
+      "indices": [
+        1200,
+        1456
+      ],
+      "sha256": "c8e8762c5d14b8cd95f80910cb921197ae9de4e8e864808d7e1027ea5369d990"
+    },
+    {
+      "indices": [
+        1456,
+        1712
+      ],
+      "sha256": "00b3851e5ddad53e9417f7863aea5dbf4bfb0aedf7a4e58acf3806278937a87b"
+    },
+    {
+      "indices": [
+        1712,
+        1968
+      ],
+      "sha256": "0fd0dfc0c18c4bb4693d2c80e0c77807d04a78c1fe3b62ae2fa645f354a3eaf4"
+    },
+    {
+      "indices": [
+        1968,
+        2133
+      ],
+      "sha256": "403922bdbeef227ac54f2db33a31f20a81d5e235e0bce5a0b47f46dc230d734a"
+    },
+    {
+      "indices": [
+        2133,
+        2389
+      ],
+      "sha256": "ebe925c598cdd90e6f4708876310316983ce23a194bce18f36e7ce2cd2ba2408"
+    },
+    {
+      "indices": [
+        2389,
+        2645
+      ],
+      "sha256": "846a2cbb93477eb545661c93dec4acf80517f6ff634dada2993d2af3055e5c8d"
+    },
+    {
+      "indices": [
+        2645,
+        2901
+      ],
+      "sha256": "c7b0e333d4f9f113e148cc3f712e9c468be09cc6f443b0fb0d08f93bc2f7995a"
+    },
+    {
+      "indices": [
+        2901,
+        3066
+      ],
+      "sha256": "47478cc195c394afd6a396faeb2c473fcde534812823c90391c84f0b678e4d8f"
+    },
+    {
+      "indices": [
+        3066,
+        3322
+      ],
+      "sha256": "ada966331fcabf90da9f17597cdd0c4e0a56cfaf6233787e69c2587b104a8a21"
+    },
+    {
+      "indices": [
+        3322,
+        3578
+      ],
+      "sha256": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03"
+    },
+    {
+      "indices": [
+        3578,
+        3834
+      ],
+      "sha256": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac"
+    },
+    {
+      "indices": [
+        3834,
+        4000
+      ],
+      "sha256": "be80c8d3c3697e19b771156127cecdc2696ae4dac966f41617f6b4494e5adb0b"
+    },
+    {
+      "indices": [
+        4000,
+        4256
+      ],
+      "sha256": "9791342190d2cc51713731fd0535422e97da96c991e971d815a06c938469afc1"
+    },
+    {
+      "indices": [
+        4256,
+        4512
+      ],
+      "sha256": "d5c57200cc0f9e54ae057fee037e920e06827e0e88fa37f0ff6d165dfd6fdd25"
+    },
+    {
+      "indices": [
+        4512,
+        4768
+      ],
+      "sha256": "62c8b790dde552f5c0a29d516c7e98ead156374336fa14bd3829251fa2f8946f"
+    },
+    {
+      "indices": [
+        4768,
+        5000
+      ],
+      "sha256": "d5f59ab58e723e444fc8971eb49d9b7e851e6fdeb9d7acc09ab486fd640a8530"
+    },
+    {
+      "indices": [
+        5000,
+        5256
+      ],
+      "sha256": "f48ba9dbe867e19a35813af9d91b6b695f0fc8b87cd9051eeb8f0470497372b5"
+    },
+    {
+      "indices": [
+        5256,
+        5512
+      ],
+      "sha256": "9cfba2ad6a2a1ff684cb543b2692aeb8dfdbb7d03a7b714414a8a52989c7d5c3"
+    },
+    {
+      "indices": [
+        5512,
+        5768
+      ],
+      "sha256": "f29f168d4be98a47e426d7fa6cee22177d3785b5ed0ae9d44a96d81cb7f48264"
+    },
+    {
+      "indices": [
+        5768,
+        6000
+      ],
+      "sha256": "c0d53e6aa13f050c6b08305d82fa2596b300ca0b61d40674feced5e731869096"
+    },
+    {
+      "indices": [
+        6000,
+        6001
+      ],
+      "sha256": "084def0062d835d1c05a557f1384f947bd7ed0b14eef0b02b01832b8723eec6b"
+    },
+    {
+      "indices": [
+        6001,
+        6257
+      ],
+      "sha256": "f403f8e16fc9ed7ceeffc60f81a8a6b3c6dda49d62511ae7b30af834b3957d1d"
+    },
+    {
+      "indices": [
+        6257,
+        6513
+      ],
+      "sha256": "ccbc8f2ebf6d5be9d51d704b3a90885268f354b3cc34e8b5ad91b3c89e9f442f"
+    },
+    {
+      "indices": [
+        6513,
+        6769
+      ],
+      "sha256": "f33cc00076013d5f3270d07b34ca2768ff1252648e786a1328f7d8f9a49eb3dd"
+    },
+    {
+      "indices": [
+        6769,
+        6860
+      ],
+      "sha256": "00dfcf26af7fe28932ac79a26edb4a3e412931deb84b466bbdef2b61fc08cbe1"
+    },
+    {
+      "indices": [
+        6860,
+        7116
+      ],
+      "sha256": "388042e5f88b26bfe194fa314e40e53e782632de12d413e8e23528aff0bd8a34"
+    },
+    {
+      "indices": [
+        7116,
+        7372
+      ],
+      "sha256": "b81f1b0a04d80c85907102f3706dc29f080ba1cf44393aef3e69ec7dc2e55dc9"
+    },
+    {
+      "indices": [
+        7372,
+        7628
+      ],
+      "sha256": "8b31a389ddc1945fc09ebb9b5f7e87686f8338466cc4f2168b37b8f839d0c686"
+    },
+    {
+      "indices": [
+        7628,
+        7719
+      ],
+      "sha256": "3fa7a84ba9294885059eb5f9991af789e61a42995ea2af4655c77eaba53752d5"
+    },
+    {
+      "indices": [
+        7719,
+        7720
+      ],
+      "sha256": "48b821e306e91046fbaeed8434a7b5c56db2ffde56f2084e944b25959deabd1f"
+    },
+    {
+      "indices": [
+        7720,
+        7721
+      ],
+      "sha256": "f300c70daa985691b190cf5871b5a12ad8c9c3c40519f5e349f4fff28e0d384a"
+    }
+  ],
+  "original_target_FFT_cubic_mean_residual_Green_enclosures_recomputed": 0,
+  "source_scope": {
+    "raw_trial_definition": "q_raw plus exact piecewise-constant continuity repair",
+    "completed_scalar_mean_trial_is_a_distinct_object": true,
+    "complete_raw_mean_restored": true,
+    "new_mean_P_squared_weight": "sqrt(K)",
+    "positive_angular_derivatives_of_new_fee_exactly_zero": true,
+    "old_91_case_data_and_verdicts_unchanged": true,
+    "only_five_retained_complete_cases_reauthorized_if_their_new_gates_pass": true,
+    "no_unknown_low_trace_core_GH_or_matching_claim": true
+  },
+  "output_policy": {
+    "temporary_original_archives": true,
+    "temporary_original_natural_parts": true,
+    "temporary_new_row_audit": true,
+    "persist_only_scripts_parameters_runs_output_hashes_and_small_actual_conclusions": true,
+    "new_artifact_uploads": false,
+    "new_Release_uploads": false,
+    "new_recomputable_repository_data": false,
+    "maximum_small_conclusion_UTF8_bytes": 60000,
+    "before_publication_complete_small_stdout_UTF8_bytes": 59000,
+    "original_complete_successful_mathematics_must_not_be_recomputed": true,
+    "complete_same_source_manifest_worker_small_conclusion_reused_after_later_wrapper_failure": true
+  }
+}
