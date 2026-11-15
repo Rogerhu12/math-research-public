@@ -40,3 +40,8 @@
 - R812完整原源/五端项/低五阶Gaussian Frobenius证明登记，root核apolar伴随、原q/eta/Hasse尺度、jet determinant、Miller相位/共同尺度与q到代数SS评价；proof b538a3bc。Bunkova(1)/Cor3.4及Rodriguez Villegas(2.8)/(2.16)原文已核。
 - 固定六代数case公开请求激活，core e7bac156/wrapper416001ca；官方Sage10.6，实际digest记录后离线运行，guard先于Sage import；只AST无本地数学。允许实际零case，不以Norm非零漏掉整分母，不声称同h共同单位。
 - R813已推0e89220b，12:12:31.988772UTC实际pull/read158f1370两README无差异；R809 run43712427063已到数学步，R806/R787继续。H全文归档并压缩，主目标OPEN。
+
+### 2026-11-15 20:28（Asia/Taipei）｜serre-public-astra-20261115
+- R812实际run43713181015/source2b7183a3全success：六FG非零，分母121/整数Norm仅2、3、5、11；U分母88、det分母11^6/Norm仅2、3、11。47.336289秒含拉镜像，Sage10.6实际digest19995db6。
+- 原artifact14161102406，5909B/751c71f3，8文件/6manifest及全源SHA纯IO全核，原verify通过。保共同c与原相位，严格推出全部p≥41、p5mod12原未筛交替卷积单位；原primitive/Legendre同h与惰性分支仍OPEN。
+- 12:18:32.108061UTC实际pull/read ddd412d7两README无差异；12:23共享终端再离线，根§8小文本续推，API读6e42b8d0两README相同，未冒称为pull。R806/R787/R809继续；已成六case不重算，主目标OPEN。

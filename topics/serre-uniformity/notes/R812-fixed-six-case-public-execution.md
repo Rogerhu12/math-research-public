@@ -26,3 +26,6 @@ core预算30分钟、job45分钟；精确输出由原core断言，wrapper只核�
 - [Bunkova arXiv:1701.00848v2](https://arxiv.org/html/1701.00848v2)，式(1)、Corollary3.4；仅使用已证明的heat规范/Hurwitz整性，未使用其尚属猜想的精细整除式。
 - [Rodriguez Villegas，On the Taylor Coefficients of Theta Functions of CM Elliptic Curves](https://frvillegas.github.io/pdf/frv-cm-theta.pdf)，式(2.8)、(2.16)；本篇D尺度及Gaussian转换在证明内直接校准。
 - [FT原六heat笔记](2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)。旧材料中若写“R805/FT”，其FT指本笔记，不能与当前R805两仿射图结果混淆。
+
+## 实际完成
+公开run [43713181015](https://github.com/Rogerhu12/math-research-public/actions/runs/43713181015)、source2b7183a313ddb04eb67bea37107830674511c49a已成功，六FG实际均非零；完整来源与全p推论见[结果](../results/R812-certified-split-prime-unfiltered-apolar-unit.md)。前述“尚未返回”是请求冻结时的状态；不重新执行六case。

@@ -8,7 +8,7 @@
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
-10:50UTC终端失联时按根§8小文本集成；11:30恢复后重新部分clone并改回CLI。完整旧状态/公式/来源逐字保[R812前H](notes/2026-11-15-handoff-before-R812.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
+10:50UTC终端失联时按根§8小文本集成；11:30恢复后重新部分clone并改回CLI；12:23再次离线，按根§8小文本续推。完整旧状态/公式/来源逐字保[R812前H](notes/2026-11-15-handoff-before-R812.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
 
 ## 当前公开计算与直接消费者
 
@@ -18,7 +18,7 @@
 
 **R809运行**：run43712427063/source91fbd81e，[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[输入IO与工程](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117文件全核，619旧monomial前缀/零R807新pair尾。先六τθU_j共84Q右端，1234列/1380行；A/B后增不换公共身份。保82/原b/s/λ和τ最高项零，manifest不可变命名；尚无新minor/坐标。
 
-**R812六case请求已激活**：[原apolar源/五端项/Gaussian Frobenius](results/R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md)/[公开计算约定](notes/R812-fixed-six-case-public-execution.md)。core e7bac156/wrapper416001ca，官方Sage10.6固定版本、实际image digest入receipt，仅Q(∛4,√3,i)中2×3原Heisenberg/Frobenius有限代数情形；不扫素数/高sigma jet。尚无实际case值，零case允许如实成功输出，不能预称共同单位。
+**R812六case实际全单位**：[结果与全p推论](results/R812-certified-split-prime-unfiltered-apolar-unit.md)，run43713181015/source2b7183a3；六FG分母121/整数Norm仅2、3、5、11，U分母88/det Norm仅2、3、11。8文件IO及原verify全过。**所有p≥41、p5mod12原未筛交替卷积非零**，同primitive/Legendre标签仍缺。artifact14161102406至Nov16 12:19UTC；不重算六case。
 
 **R792已冻结pending**：[原β/立方根证明](results/R792-original-beta-composition-and-Galois-cube-root.md)，core7b7a5483e560f2d2/wrappercdac2e93be2082ee，仅待R787。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根，先原CM值/首jet，四值全零才补高jet。不选A有限核前像。
 
@@ -51,7 +51,7 @@ R802原七分支半线性还原证明保留，但不替换运行R787。R793/R798
 
 **R808/R810**：[原Gram商/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)/[toric单位矩](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。Gram商Sym^(2r)det^(−r)，保period向量与Frob-Hermitian；toric平均s^(−r)P_r(1/s)(X²−XY+Y²)^r。全部偶矩单位、Hankel非退化、整链双循环，但P_T不水平、原u_h可因Legendre零而为零；真实源保[K,P_T]，Kraw原混合/同h配对未闭合。
 
-**R812新证明边界**：first-p apolar真实源、五个端项与显式Qpart；p5mod12水平余项是原四低矩的Gaussian素理想/Frobenius运输。CM Heisenberg基只差共同c且c^6=−d0^-16/detUhat，保c^(2−2p)和全部分母/Norm；q恒等先代数化再SS评价，不把lambda当SS单位。它测未筛交替卷积，尚不等于primitive/Legendre同h。p3mod4出现Gaussian harmonic theta的Eichler原函数，非split指标，未闭合。
+**R812新证明边界**：first-p apolar真实源、五个端项与显式Qpart；p5mod12水平余项是原四低矩的Gaussian素理想/Frobenius运输。CM Heisenberg基只差共同c且c^6=−d0^-16/detUhat，保c^(2−2p)和全部分母/Norm；q恒等先代数化再SS评价，不把lambda当SS单位。实际六case已使全部p≥41、p5mod12未筛卷积非零，仍不等于primitive/Legendre同h。p3mod4出现Gaussian harmonic theta的Eichler原函数，非split指标，未闭合。
 
 ## 原规范与主问题边界
 
