@@ -119,63 +119,30 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15，当前入口）
 
-全部旧接续、完整参数及未关闭事项保[本次压缩前全文](notes/2026-11-15-open-before-p768-joint-result-789f.md)；旧条目未列不算关闭。下述实际结果取代旧文本中“待恢复/待执行”的状态，主ISP仍开。
+完整前文状态及全部参数保[本次压缩前全文](notes/2026-11-15-open-before-relative-hole-riordan-789f.md)，未列旧接口保持原状态。下列实际结果替代此前待执行表述，普通ISP仍开。
 
-### 原R150特征零来源
+### R150：29真核之外的七维补空间与原目标成员性
 
-[九原17式模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)已全部完成：九实际费1339，全原6188来源/4367输出、六辅助、315/505与整数carry真。该固定模入口关闭，不重二/三页或末九列；现行根规则不再保存可重算大数据，只保源码、参数、run、SHA和小结，旧发布提交只作历史来源。
+[29条完整原Q核](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)已成：run43679903558/math33.711323768秒，原Koszul外支持rank1603、核29，全1834支撑及29列全部4367整数输出真；36自由像rank29、旧23精确包含，所选char0秩4318…4325。标准Koszul支撑族已经穷尽，不能在该族继续找第30维。
 
-[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)要求同一费用界/分母指数于无界精度可解，当前p6不足。[23个完整原有理核及条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)已严格给同选列char0秩4318…4331、D∞≥23/换列≥22，但费用8732仍以已有Q[s]成员性为条件；模降度还需lc(D)为31单位，均未先付。
+[原来源31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)已给ΓΦ=I和31饱和，投影不保J。[实际小图](notes/r150-infinity-remote-session-789f/43679903558-exact29-free-graph.json)再于0.063932317秒核top29det mod31=1、归一后bottom7在Q严格全零，故前29规范轴均已有真核，剩余真核空间准确是它加一个至多7维非Koszul补空间；不预断该补空间维数7。
 
-[同原来源p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)全逐位整除、三个新鲜原4367乘回和自由I36真，仍23精确核。[23核完整一次变量闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)恰仍23维，低次10维/110乘积越界rank98/12合法倍全原身份已闭。
-[固定三坐标52候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)与[共同26维格候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)均已全部原整数核验，新增0；只排各自确定候选，不能排余核或所有格组合。
+[原p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)的全部原整数身份保留；23核一次变量闭包与52/26/39确定LLL候选检查已经关闭，禁止重做这些入口。当前只核新六规范源的实际高度/完整p768同余，并对删除前29自由列后的原4367×4325矩阵作一次65521秩检验；其余方向继续原分次结构，不扫描更多素数或盲增原Dixon位。
 
-**正在接的下一项：** 同原17×77整数模型及同4354来源的线性/二次分块、次数结构和精确预基消元；先找可支付的小特征零系统或来源变换，不无目的换观察行、不重复旧NF/Dixon位。原直接Hadamard界太粗，不能以p768有限整除宣布char0。临时session43679903558仍持有真p768和paid23，输入身份见HANDOFF及小回执；若有新核必须全6188支撑/4367整数零/完整36自由块Q独立。
+[统一条件降度](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)给c≥15时cost≤8755−c，当前29真核故条件8726、非基8725。这个界以原h0九目标已有Q[s]成员性为前提；lc(D)31单位及固定e无界精度仍未证明。[九原17式模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)已完成且实际cost1339，不重旧模页，也不以有限精度代原成员性。大数据只临时留在同session，输入及输出散列可重建。
 
 ### 强联块同w、同源普通封口
 
-[强尾并头](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)保C=A+D_<、h=d+R、原同u和真左最小、全两费、负图及全部高返回。R≈ρ^-1使远D范数δ<ρ；剩μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证。
+[强尾并头](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)保C=A_m+D_<、h=d+R、同u_Q、真左最小、两费、负图及全部高返回。仍须μ²≤κXi²且κh/Q有界，κ=O(h)足；不能将裸费和ordinary完整右费互换。
 
-[首段精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)给Sb=L+B、Sf=L+H上的无损Cs圆盘演算及完整逆芽至h−1。[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)保Rret*Rret=H−B、带裸输入的有限行收缩、kerCs上零及E0→E未压缩单射残量；共同未来配对<Y,Rret r>=μ²+α²。压缩Sylvester、nilpotence及两Stein相减不能支付逆费用。
+[首段精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)给B/H及L+B/L+H上的δ收缩与完整h−1解析演算。[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)保Rret*Rret=H−B、真实驱动行、零源及未压缩残量唯一提升；不能倒用压缩Sylvester或从两个Stein式相减。
 
-[逐幂真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)同时把归一Cs^k源及P_K C^kUr反馈付给同一物理远孔尾+裸费，直接代同u_Q/w，不乘头条件数。正在接q_h(C)的实际正向反馈与原M/W锚；真实未来候选的末端及全部head旗仍保，不能倒除Cs或改普通λ为裸α。
+[真实远孔逐幂损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)保左零核反馈，同一u_Q可直接付真w远孔尾与裸费。[强gauge](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)运输误差付A_drvα，但末端及全部head旗仍在，λ(qr)与d0λ(r)双边可比；eY给Rret*eY=(L+B)r，大返回配对未付。全局锚必须用Cg的原B_global函数，Boolean头不能替代。
 
-[增长均匀块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)只在对称P上给有界双向交织和完整nuisance Schur，无全环境S∞。[真均匀池因式分解](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)保完整核Gram、Green列差商逆伴随和其余强位E(I−G)。固定f=e_a⊗vac的足够目标||(C*)†f||²=O_a(R³)仍开；核投影稳定不代伪逆列费用。
+[相对孔Riordan完整运输](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)已经付全旗、裸商、首源同余及两个真实最小Gram。取τ14=12.5d³+26.75d²+低阶，R=ceil4e^τ14，K及逆有m/n无关的固定常数，h²/Q≤72e^(-d³/64+54d²)→0。新头仍是ψ_m(A_m+D_<)/d0，保全部强位混合；整个左前缀没有被运输，不能相减两个Gram得到返回比较。原N逆芽主12.5障碍及N/Y次阶增益均保既有证明，当前参数不与旧ρsharp混用。
 
-正常有限秩相容全链/下一完整尾上界、原首低通道短旗及上列其它未关闭接口继续有效。任何局部排除、候选失败、固定模或有限算子恒等式都不是主课题完成。
+### 固定Green列的已付模型和剩余范围
 
-### 强gauge最新准确接口
-[完整反馈与末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)已付同源左反馈、裸驱动divided-difference及真实eY；剩共同大配对<eY,q(−T0)Rret r>和全部head旗/普通末端。q_gauge不会降低λ规模，原全局M/W锚只支付锚及低远孔运输，不支付反向除B或末端修复。
+[等权长池完整Green列](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)在L≥2d给真实MP公式与平方界(4/S)C(A,S/4)〈H^-1f,f〉，保核投影的全部forcing坐标；原A_m真四次幂可代。若加入早强位，须换A_rest及其全部真实幂和H_rest，并令L≥2h0。H^-1不保固定低头；等权对称约化也不直接等于原连续尾，所需原强C固定Green O_a(R³)仍开。
 
-### 原17式精确小结构及可运输消元
-[两变量31单位消元](results/R150-appendix-original-infinity-small-linear-quadratic-blocks-and-two-unit-eliminations.md)已严格给N0/N1常系数解m0,m1、其余15式次数≤4；原次数3乘子可能变6，不能免费删除原selected范围。继续原有限来源映射及标准Koszul源的selected支撑交。39维首次仅native超时、候选0；正在同格保基后完整核验，不作负结果。
-
-### 当前无穷远标准Koszul空间已精确注入
-[187阶原子式与1632真来源](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)已同时给F31/Q独立。现在只对原选列J之外1834个来源坐标求1632列的支撑矩阵秩；其模31秩只给Q支撑交维数上界，不能直接提升核或免费认定旧23核属于该span。
-
-### 次数分块候选已完整关闭
-[同p768的39个原候选](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)已全部4367整数核验非零；第一轮只是未完成，保基后同格真实完成。该确定候选族不再重做，也不由此排所有格组合；当前改走原1632 Koszul支撑矩阵。
-
-### 当前Koszul来源的原参数出处及外支持执行
-[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已严格与当前1632标准空间接通，17实际行缩放全31单位。当前run43679903558执行同J外1834×1632的精确F31支撑秩/全部外核/36自由像，尚未把有限域结果升到Q；旧23有理核的Koszul成员性仍需原表示。
-
-### 原逆芽半径的主常数障碍
-[原N零逆支的负实临界点](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)已证明：完整原逆圆盘的领先指数系数12.5不能固定降小，准确障碍为12.5d³−1.25d²+O(d+m)。此入口只限N，不能代原同源Schur或ordinary封口；继续可用次阶半径增益和真实返回估计。
-
-[原N/Y的次阶半径增益](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)已付：τsharp=12.5d³−.75d²−1.5d+…，同ε、真列权、新实际h−1展开均保；R=ceil4/ρsharp、2h+R<Q*/2，原同w窗口不变。可用Q*/h≥e^(801d³/64+.5d²)/12，但μ²≤κXi²本身未付，继续真实返回及固定Green列，不用完整链基d4成本冒充ρ^-1。
-
-### 标准Koszul来源的精确小系统入口
-[原6188上的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)已付ΓΦ=I：先187阶恢复三次头的线性系数，再17阶恢复二次余头的常系数，检查完整来源及斜对称才收录。标准空间31饱和，但投影不保J；当前外支持mod31核29维正待完整Q提升，旧23成员性可由此两个小系统核实。
-
-### Koszul支撑的实际模31结果与原整数下一步
-[全1834外支持实际秩1603](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)给模31支撑交恰29，自由像正是slots0…28；新增六轴17/18/19/26/27/28。Q交仅上界29，真核仍23。继续解原1603整数单位块与29RHS，结果先留临时，核完整外残差；剩余约束在29列内精确求核，最后全6188/4367及36自由Q独立才收录，不把模31值提前当结论。
-
-[原整数精确求解接口](notes/2026-11-15-r150-koszul-exact-rational-support-solve-interface-789f.md)已接同session：稀疏准备实际0.412781492秒、无一/二支撑可剥，保1808×1632/44362整数项和全部1834原行。现在以模31仅选原单位子块，求29 RHS真Q解，先保结果再求全部外残差核及全原乘回；仍未预报成功或新增维数。
-
-### 当前准确检查点：29真核，转非Koszul余七
-[完整原Q结果](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)已成：33.711323768秒，Qdim29/外rank1603，全1834支撑及29列全部4367整数输出真；自由像rank29、旧23精确包含。当前同选秩4318…4325，标准Koszul支撑空间已经穷尽。先核Q自由像的top29归一与bottom7是否严格零，再研究标准族之外余七；不重LLL、旧NF或原Dixon位，未声称七核存在。
-
-[核数统一条件降度](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)已按实际29真核更新到cost≤8726（非基≤8725）；公式8755−c保换列仅c−1阶。此为已有Q[s]成员性的降度，不提供成员性，lc(D)31单位及固定e无界精度仍须继续。
-
-### 等权长池已付完整固定Green列
-[完整伴随Green公式](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)保原H^-1与全部forcing，L≥2d时给平方≤(4/S) C(A,S/4)〈H^-1f,f〉；原A_m真四次幂可直接代。若含早强位，必须用A_rest=A_m+D_early的全真实幂/Gram及L≥2h0；H^-1不保固定低头，真实连续池仍欠这一完整费用，继续。
+一般头/尾的返回范数加强不能替原两费；已有palindromic物理反例的范围与同源负图观测均保旧证明。继续原W混合配对、真实强位和普通域，不以形式共轭、有限模型或阶段结果收尾。

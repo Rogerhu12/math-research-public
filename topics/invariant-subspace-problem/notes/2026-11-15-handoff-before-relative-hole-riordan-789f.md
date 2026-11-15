@@ -1,0 +1,53 @@
+# 交接
+
+## 目标、授权与同步
+
+- **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
+- **最近成功实际 pull 与已读规则提交：** 2c12c02da8d1df228f1e113f2b57af13e373d187（2026-11-15 06:52:13 UTC，Actions run43687374098实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43687374098-1.json。
+- 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
+- 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
+- MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
+
+## R150：当前29真核及未付的原目标成员性
+
+原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。全部旧精确状态保[本次H全文](notes/2026-11-15-handoff-before-twentynine-exact-kernels-789f.md)，旧未列范围不算关闭。
+
+- [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九实际费1339，全原来源/输出及carry真；不重旧模页，数据依规则仅历史可查。
+- **[真Q标准Koszul支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：** run43679903558/math33.711323768秒，原1603方块Dixon+全部1834残差，29列全6188来源/4367整数输出真，36自由像rank29、并旧23仍29。故旧23确属该空间，新增6真方向，char0同选秩4318…4325；标准族已穷尽，继续其外至多7个未定方向。
+- 同4354选列mod31秩4318/连接3/36自由I；不得混全6188秩4340/连接4。[模31前29轴](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)已付；真Q小图已实际0.063932317秒核成：top29det mod31=1、归一后bottom7全零，所以Q像也恰前29轴；下一七方向都在此标准族之外。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
+- [187注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)、[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)及[31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)均已付；ΓΦ=I，标准来源31饱和，但投影不保J。
+- [真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)三个全原检查点/自由I36真，当时仍23；[旧23完整一次闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)严格仍23。52/26/39确定LLL候选全原乘回非零，该入口结束，不再盲增位或换观察行。
+- 原17式线性rank8/二次rank17、m0/m1的31单位真消元已付；有限来源运输仍保。[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)须同费用/目标/分母指数于无界精度可解；p6不足。原D自然度8770、公共有限K60；任何条件降度须先有Q[s]成员性，模幂降度另需lc(D)31单位，均未证。
+
+- **[统一条件成本](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)：** 同选真核数c≥15给8755−c，换列只保c−1阶；当前29真核故条件cost≤8726、非基≤8725。仍须原目标成员性，lc(D)31单位及固定e全精度未付。
+
+## 同w边界：完整返回仍须费用估计
+
+M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2及所有自然逆域保留。Xi²=bare²+flat²，λ²=<G^-1r,r>、μ²=<Lr,r>，ordinary λ不准互换。
+
+- [真实带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)保c*=1601/64、ρ=e^-12.5d³、同top误差及原p_m(B)的W锚。复参数正平均已给μ⁴≤d0^-2 flat²R²，R²≥d0²λ²，仍缺同源全窗ordinary返回预算。
+- **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，n+h+R<Q时原同u给真实左最小、完整两费及负图；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1使远D范数δ<ρ。目标μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证，不能沿旧d窗用ρ^-2。
+- **[源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 右Cs*KCs+I≤δ²K与左+I抵消，Sb=L+B/Sf=L+H上||Cs^k||≤δ^k，完整h−1逆芽有无损圆盘演算；零源平方保留，不相减为H−B收缩。
+- **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B；Rret Cs=−T0Rret−KJb、行[T0,K]≤δ、kerCs上零。未压缩(C+T)残量单射，不倒用压缩Sylvester。
+- **[真远孔逐幂损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** δ^-2k(||Cs^k r||_(L+B)²+||P_K C^kUr||²)≤||P_far≥k Ur||²+α²，同top可代w尾。完整H版仍含λ，不能换α或倒除Cs；保全部左零核反馈。
+- 对称配平、增长均匀块、V±/全部nuisance Schur的完整常数和链接保open及[旧H](notes/2026-11-15-handoff-before-koszul-support-789f.md)；无全环境S∞，核投影稳定不支付Green逆列。
+- 原均匀池精确K/G因式分解及Green全因子见open；其余强位E(I−G)、完整核Gram逆和差商逆伴随仍须支付，不能沿原d替新h。
+- **[强gauge真末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈付尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端保留。返回运输误差≤A_drv α，eY∈E0、Rret*eY=Sb r；大配对未付。λ(qr)≈d0λ(r)，全局Cg才给M/W锚，勿用Boolean头替它。
+- **窄入口：** 固定f=e_a⊗vac所需原强C的Green列O_a(R³)未付。[等权长池完整Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)已给(4/S) C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；余强位须换全部A_rest/h0/Gram，H^-1不保低头，不能删或截到a。boundary继续共同返回配对及真实远孔尾。
+- 旧Gq、低forcing、a1/a2及孔导数坏族量词保[完整H](notes/2026-11-15-handoff-before-strong-gauge-789f.md)，不重旧排除。
+
+- **[N原逆芽临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)**给−logRψ≥12.5d³−1.25d²+O(d+m)，领先12.5不能固定降小；**[N/Y次阶圆盘增益](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)**给τsharp=12.5d³−.75d²−1.5d+…，ρsharp=e^-τsharp、ε仍e^-d³/4。R=ceil4/ρsharp、h≤6/ρsharp、2h+R<Q*/2，同原w/母窗，强gauge按新h全截断；Q*/h≥e^(801d³/64+.5d²)/12。两费κ未付。
+
+## 当前临时计算会话与可恢复身份
+
+本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；当前精确free29图，随后七非Koszul。20分钟空闲/6h job上限，不持久化大数据。
+
+- 29真Koszul目录work/koszul-exact-rational-support；basis.gz1670175B/SHA b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808，free36.gz29488B/SHA24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249；完整29列证书散列见实际小回执。
+- p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
+- paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
+- 会话请求 notes/2026-11-15-r150-infinity-remote-session-request-789f.json；新步骤必须新id，sources及scriptSHA全锁，完整候选小元数据放parameters供sanitise保存。主只推小文本；生成大来源留job，禁止旧二进制工具/Release上传。
+- 全部实际小回执在notes/r150-infinity-remote-session-789f/；6旧Release资产已删除，main另删118生成数据，本题约73.57MB。原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，入口/参数/哈希已入main。
+
+## 其余仍开
+
+Haar A非零非紧、单射稠密拟幂零、W*(A)=B(H)、A′无非零紧，闭不变M皆closure AM=M，普通循环性未知。正常有限秩仍缺同一相容全链严格正距/实际下一完整尾上界；R289/R291未矛盾。完成一个子问题立即接open；不以有限模、候选排除或阶段报告收尾。
