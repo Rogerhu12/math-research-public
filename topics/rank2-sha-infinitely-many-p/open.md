@@ -270,3 +270,5 @@ R731[高ρ增补](notes/2026-11-15-r731-complete-third-carry-and-high-rho.md)：
 R738已付原平衡c/二维乘子家族的真H2返回与Z值独立性，以及全吸收时的实际原前缀替代。继续新非cube核的完整Bockstein/同R，或真实最大前缀cube的条件单位类；不能将最大cube前缀冒整个K1最大前缀。R736原固定Brandt模型提交公开构造，只作指定f和完整同步匹配来源，不从有限p样本取无穷性。
 
 R736完整支付原固定368类/47坐标与全第一wild的实际C_p v；公开固定Hecke核47→7→1，保原bad-place、全模p²第二位和cψ。继续全C_pv的无限p严格非零，Gaussian-square奇偶仅候选；未把正对角/有限固定表作为全同步严格正性，原中央到边界仍另开。
+
+R737已用同q*的全E次数及whole E/Z准确消所有共同正深层，保四unit与两条e1实际返回、两移动E门和条件质量。Q1P31非零严格N+v<2N；各原O_i完整端点仍在，paired仍反号。接续实际Vdeep的Wunit负一时，必须保完整E/V伴随tensor，不把去门S72/type5边际冒有门行。

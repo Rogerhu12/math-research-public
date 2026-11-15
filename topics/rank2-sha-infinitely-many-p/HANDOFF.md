@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：ea3ff9d14e123e71846430a25986547a8e24b562；2026-11-15 10:46:35 UTC核两README无变。实际CI pull 2026-11-15 10:21:46 UTC/1e08eb4ba37dc346c35c60244aa63ade455797c8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 10:46:34 UTC仍无环境。最迟2026-11-15 11:05 UTC再实际pull。
+- 最近已读规则提交：fb3a6f2bbfa8d5d72266e709bcccd0ebd1848b18；2026-11-15 10:47:33 UTC核两README无变。实际CI pull 2026-11-15 10:21:46 UTC/1e08eb4ba37dc346c35c60244aa63ade455797c8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 10:47:32 UTC仍无环境。最迟2026-11-15 11:05 UTC再实际pull。
 - 首次全文读旧库根/题README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推；禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次核两README，仅读变化即照办、记提交。本地exec无环境；API非强制追加，拒推即尝试pull --rebase并接新head循环推；CI实际pull与本地失败分记。
 - 规则12不设冻结/独审/复跑门；13数学计算全用公开Actions；15@137c5a877fb387a82cbde01f084d1fa67ee717aa不存可重算输出/不新分块，只留脚本、参数、run/hash。
@@ -14,8 +14,8 @@
 
 ## 完整前检与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r736.md)沿链完整保所有原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口；没有删除旧条件。登记R1–363、365–560、562–653、655–700、701–711、713–736、738；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep继续原全WD/非cube核与同R；theta的R737完整待即推，续同q* primitive全条带；literature的R736完整已付，续固定Gaussian-square轨道/全同步。root接原第三中央及中央到边界。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r736.md)沿链完整保所有原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口；没有删除旧条件。登记R1–363、365–560、562–653、655–700、701–711、713–738；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep继续原全WD/非cube核与同R；theta续R737同q* primitive全条带/真实W负矩；literature的R736完整已付，续固定Gaussian-square轨道/全同步。root接原第三中央及中央到边界。
 固定E17/E24/E2312的rank2和完整桥2+corankSha≤2ordJ已付；仍需同一无限p族至少一条固定原J′非零。O4低增广、O6真实相对类群按open保。有限p或局部负矩非零不算完成。
 
 ## 普通：两负矩已付，完整中央仍开
@@ -30,7 +30,7 @@ q*=q+(b/a)ζ+(r1/a)h140+(r2/a)h147保58行/π4；J2=(a+b)/a单位，整个冻结
 R733 P2=(-4,15)∈E289、P4=(42,397)∈E83521映E1后Kummer角色ω/ω²，模torsion End独立；Fuchs–Pham Thm2.2给所有p的椭圆对数Qbar线性独立。微分尺度t/t²保，t³17，Galois只作用代数点。
 R735全2/3/17 Schwartz与共同全权规范识别Dω/D_-对应E289/E83521；10404导子/root−1/公开43701949704有理AFE付rank1，全局部43703192796成功。
 合法m≡5同变量趋−1：Lp(barψ_k)=34c_kθ^11Ωp I_k²，θ^6=17、c_k固定代数非零。BDP发表Thm1及rank1给真实固定P2/P4，ΩpI_k=A_kp log_E1(φ_kP_k)，A²=εθ^(−k−12)/(34c_k)∈Qbar×。
-故实际R734负矩组合全N非零；固定p的u→0极限I∞亦非零，v(I_N)最终常数v。原P31内行准确N+v<2N，完整外部仍同值反号。R737完整稿消共同E/Z深层但保四unit及两个e1返回域，随后即推；不能将此非零称原中央非零。
+故实际R734负矩组合全N非零；固定p的u→0极限I∞亦非零，v(I_N)最终常数v。原P31内行准确N+v<2N，完整外部仍同值反号。R737已付：Φ_N=Σa≤30 E^aφ_a，whole E/Z给真实递推M_a,k(ℓ)=P_a,k(ℓ)+(−1)^kχ29λ²κ^(a+k)M_a,k(ℓ−1)。Q_k=∏a(T2−λ6κ^(2a+2k))精确消共同深层；Q1P31给同I_N单位倍，v仍N+vI∞。原primitive严格分四unit、λ·e1的Vunit支及γλ·e1的Wunit支；两移动E门、不同有理Z/Y与条件质量全保。各O_i还有完整端点，paired仍反号，不能改称中央非零。
 
 ## 惰性：指定全窗到原中央carry仍缺桥
 
@@ -49,7 +49,7 @@ Brandt note §7.3–7.4付原plus-fibre c_f>0，D_p=c_fp(p+1)/3+O(p)。固定α�
 R736完整：B=K+Kj,j²−1；O=OK+OKj范数Euclidean、最大disc3/class1；原R=OK+34δ OKj，disc10404，坏2/3/17未换。2176原coset→368类、plus184、mass544/3；原2符号/3 toric得47整坐标。
 公开43705223442/job132784740866，source e4f44a15，python-flint0.8.0，默认无p扫描：全368行Hecke核47 --5→7 --7→1；base0、primitive值0/±1/±2、c_int=81/68。只存ci/exact-check-20261115-r736-fixed-brandt.json和producer/hash，不存可重算表。
 所有p的真A_t=(1/36)Σ_{Normβ=p²,primitive,ell_p(imageβ)=t}f_int(barβ·1)，12右units×3全球μ3及完整modp²反Fermat第二位保。全同步矩为vᵀC_pᵀC_pv，A_t∈2Z，ΣA_t0。f=cψ f_int的固定绝对比例不设1。
-继续证明同固定v的C_pv≠0；拟查Gaussian-square轨道与whole右j的实际奇偶，仅候选，未付无限p。即使第一wild非零仍须原j34到边界桥。
+继续证明同固定v的C_pv≠0；固定Gaussian-square轨道与whole右j奇偶的自重算脚本已提交公开请求rank2-20261115-r736-gaussian-normalizer，无p扫描；候选无限p判据尚未付。即使第一wild非零仍须原j34到边界桥。
 
 ## 深支：真实镜轴、全WD与同一个R
 

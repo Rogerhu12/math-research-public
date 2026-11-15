@@ -334,3 +334,5 @@ R731[高ρ增补](notes/2026-11-15-r731-complete-third-carry-and-high-rho.md)：
 - [R738](results/R738-actual-balanced-families-and-original-kernel-prefix-alternative.md)：已证明同H2平衡c线性/二维家族的全十九角与极度独立性；全部吸收会给多维真原首核，准确分次帽遂产生更高前缀核。仅在原cube已经是全K1最大前缀时才能转成指定单位类，保新核可能非cube和全WD/同R。
 
 - [R736](results/R736-original-fixed-brandt-vector-and-complete-first-wild-incidence.md)：已证明原B3/R10404的固定368类、plus184与47整坐标模型；全Hecke公开精确核47→7→1，原primitive向量c_int=81/68。所有A_t由同固定v及完整模p²反Fermat的C_p读取，原δ配对/绝对比例/全部同步项保；C_pv的无限p非零及中央桥仍开。
+
+- [R737](results/R737-common-depth-elimination-and-native-primitive-strips.md)：已证明同q*原E/Z全部共同深层的31阶整消元；真实负一非零移到四unit及两条第二态返回的有限primitive组合。完整移动门、条件质量和各外部端点均保，固定p深度赋值仍N+v<2N；paired-T外部依然准确反号，原中央未关。

@@ -1,10 +1,10 @@
 {
-  "request_id": "rank2-20261115-r736-fixed-original-brandt",
+  "request_id": "rank2-20261115-r736-gaussian-normalizer",
   "python_flint_version": "0.8.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r736-original-brandt-vector-and-full-first-wild.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r736-normalizer-and-gaussian-square.py",
       "args": [],
       "include_stdout": true
     }
