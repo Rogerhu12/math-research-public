@@ -146,3 +146,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 [R834 三长窗全 H3 秩增补](notes/2026-11-15-r834-three-long-unit-rank-bound.md)：由真实核注入和完整 RR 得单位秩≥1+2κ+χ+T−C(G_F,T−2κ−χ,a+b)，R805全profile属界保全部复合次数；临界 h/κ→9/8、T/κ→9/4、a+b+z+χ=oκ 时秩≥199κ/48+oκ，同一H3单位比例199/216。该界只用于已付同WD子格，不给全来源/全部lifting或Bost(0,3)改进，受限D3与第四短行仍开。
+
+
+- [R835](results/R835-coprime-cm-conductors-force-an-odd-mixed-companion.md)：任意固定type(1,0) CM角色ψa若c+c^c=OK，则a=ψa/ψa^c在原2/3/17局部恒1；新增split符号乘积被全局−1单位强制为−1。故原γa=λ/(Na)的根数−1、Lγa(1)=0，任何保持原最高λ的三低权张量复秩≥2。该互素导子修复不能兼保R826 simple zero和R832三mixed秩零前提；不排其他critical比较，原指定AJ/跨p仍开。
