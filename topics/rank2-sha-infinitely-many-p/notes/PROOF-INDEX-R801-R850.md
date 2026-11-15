@@ -59,3 +59,6 @@
 
 
 - [R821](../results/R821-original-four-central-axes-and-complete-four-block-carries.md)：R821付V66完整ad²因式/B33成员、四个真实高角系数必要系统及固定单位Jacobian；实际Hurwitz整性将八权全式准确降为四权，原裸系数聚合为(4,−6,8,−6)。完整Γ4保39跨界成本、十二首提升尾行与两末窗的p³四次carry；条件F4首核门已付，旧cube不可直接搬用。倍点h(nz)与n²h(z)差完整保，形式Jacobian不代算术独立、坏Smith或全核F4，严格预算仍未改善。
+
+
+- [R823](../results/R823-original-minimal-nef-face-complete-sections-and-serre-rows.md)：R823对实际最小类C=bH++mE01给原[1:S:U]到F1的双有理态射，U=S/t；完整整截面基S^jU^i（i≤m,i+j≤b）及面内乘法满射/Euler对角均已付。完整dualizing基Q dS/P_U=U²Q dt/e保奇点导子区别；原m3有2b−5行。结合原R805得h≤30b−36，故r2窗口p≤360b−421≤120D−421，排p>120D−421的整个最小面；不外推正余量或全WD左核。

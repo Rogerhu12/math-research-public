@@ -1,7 +1,7 @@
 # 未解决的问题
 
 固定一条 $E/\mathbb Q$，证明代数秩至少二且对无穷多个不同 $p$，完整 $\Sha(E/\mathbb Q)[p^\infty]$ 有限。**主目标未完成，持续研究。**
-全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R821前](notes/2026-11-15-open-before-r821.md)；沿归档链保全部旧接口，不关闭任何未付问题。
+全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R823前](notes/2026-11-15-open-before-r823.md)；沿归档链保全部旧接口，不关闭任何未付问题。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -173,7 +173,7 @@ R801同q/58行原E深Z²的六系数及Yunit正四矩已在旧ray两η/全N付un
 在原Fp/b4/b0=3下，真实零角(1,0,0,0)及n4的t因子给完整57格。全最大子式gcd坏素数≤283、最高行50付p>611；全部十九角小素数枚举的539个类出现/438个实际非齐次矩阵均无解，q0非零五型也按原几何包含。合R799/R803，此原r2强窗的剩余因子须b≥5。继续寻找变化b的统一gcd/接触门及R790指定配对；不得以此次固定b排除声称高b或原p³已解。见[R810](results/R810-original-quartic-all-prime-exclusion-and-complete-zero-chain.md)。
 
 
-R808原同M primitive p³在k0、r<h下迫同R的J p²，故R在原点恰分裂两条k光滑支，领先λ及2λ/3，交数与δ=h；近支跟原轴至少h+r，整段ER≡−a⁻¹w^hCu³ mod w^(h+r)，native ξ由下一阶起仍保。原零角准确m_R=2；全十九角、两13和真实d₂继续联立。当前全局只得2h≤B_D·C，未排h/κ→9/8。继续同R全分量/normal，不把局部分裂当全局因式分解。见[R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md](results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)。
+R808同M primitive p³→同R J p²，两k光滑支λ/2λ3且δ=h，零亏m_R2；近支仅h+r/native下一阶与全部两13、d₂保，局部分裂不代全局分解。原完整normal及2h≤BD.C见[R808](results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)，指定全像仍开。
 
 
 R811已收窄R804的严格核门：只对原三个canonical类，z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0。真实τ/Γ反演、同34δ/Kato/30、两个有限余核Coleman同构与good pair伴随A(0)非零付τc_j=unit·B·Z_j；不假Heegner特殊化非零。继续证明原z_j至少一条非零，及同源三值线性行/完整W补域；一般Selmer核及整体中央仍开。见[R811](results/R811-canonical-soule-classes-and-global-heegner-comparison.md)。
@@ -194,7 +194,7 @@ R790完整增补已付原q0零/移动H及ell=1,2：EF支付保持整个H的整�
 R817在唯一固定p7993精确重建原CM13/PB4及完整sigma整窗，三实际归一B4负二矩的Ω^-7990余值2522/2828/3696均unit；真实unit depletion、b17/7990!/周期和谱归一保。由原Soulé/AJ比较付该p三个z_j和固定cycle均非零，三个实际有限χ投影在同Chow模独立。未外推别p、原Sha7993、原三I线性和或点AST；c_j仅需非零不预称该p单位。见[R817](results/R817-fixed-prime-original-negative-two-and-nonzero-fixed-cycles.md)。
 
 
-R808完整短块增补：k0、ell≤r<h时，保轴单位函数λ(w)、B(w)，缩放后二支式整段为−3B(z−λ)(z−2λ/3) mod w^ell；远支=(ψ+2g)/3 mod w^(h+ell)，两normal段分别+和−a^-1w^hCu³。近支仍只保证h+r，native ξ、两13和同R高尾不删。 继续真实带权Cartier/指定配对；见[完整增补](notes/2026-11-15-r808-complete-short-block-and-far-normal.md)。
+R808短块在k0、ell≤r<h保函数B(w),λ(w)及整段二支式，远支=(ψ+2g)/3、normal±a^-1w^hCu³；近支不升为2h，native与同R高尾保。见[完整增补](notes/2026-11-15-r808-complete-short-block-and-far-normal.md)，其实际Cartier/留数后继见R813/R822。
 
 
 R816以两处有限2下降证明E−11:y²=x³−11的rank≥2，完整2/3/11角色与导子66、ray度360已付；α33的3处odd/11处odd及W11(−1)=−R给标准S66完整半特征。公开全CM7/13联合质量核一维，准确识别原V66/首z6和全权平方198→66尺度；相对旧S的charge33/17保留。完整普通/惰性Selmer桥已由R820支付；同M/13carry的第四独立中央及成本仍开，不把质量零或二元函数域中新坐标当额外维数。 见[R816](results/R816-original-minus-eleven-rank-two-schwartz-and-degree66-source.md)。
@@ -216,3 +216,6 @@ R822将R813同R的Cartier单位准确下降为原C上的Xi_R=Omega_R/u^p，原�
 
 
 R821付V66完整ad²因式/B33成员、四个真实高角系数必要系统及固定单位Jacobian；实际Hurwitz整性将八权全式准确降为四权，原裸系数聚合为(4,−6,8,−6)。完整Γ4保39跨界成本、十二首提升尾行与两末窗的p³四次carry；条件F4首核门已付，旧cube不可直接搬用。倍点h(nz)与n²h(z)差完整保，形式Jacobian不代算术独立、坏Smith或全核F4，严格预算仍未改善。 继续四个实际必要值在同完整左核的指定Schur配对，见[R821](results/R821-original-four-central-axes-and-complete-four-block-carries.md)。
+
+
+R823对实际最小类C=bH++mE01给原[1:S:U]到F1的双有理态射，U=S/t；完整整截面基S^jU^i（i≤m,i+j≤b）及面内乘法满射/Euler对角均已付。完整dualizing基Q dS/P_U=U²Q dt/e保奇点导子区别；原m3有2b−5行。结合原R805得h≤30b−36，故r2窗口p≤360b−421≤120D−421，排p>120D−421的整个最小面；不外推正余量或全WD左核。 继续真实正余量的全截面与同R配对，见[R823](results/R823-original-minimal-nef-face-complete-sections-and-serre-rows.md)。
