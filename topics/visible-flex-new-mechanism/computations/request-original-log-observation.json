@@ -1,0 +1,21 @@
+{
+  "schema": "original-completed-actions-log-observation-request-v1",
+  "mode": "read-only-original-actions-log-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_sha256": "fc2da09769ed19f3eb9e2e496b77467abc1eed6dd978bc3f31179af0043c9288",
+  "workflow_sha256": "72fde480fff2efee00efa6bf827d0bd1937ae13c5ca1d125359938f06632d18b",
+  "reason": "Native log transport closed three times; read the same completed original log without rerunning research or artificial checks.",
+  "original_run_id": 43728280256,
+  "original_job_id": 132854922848,
+  "original_source_commit": "7329385a2dd84a40a271181c017c9a4028ae0f31",
+  "original_receipt_path": "topics/visible-flex-new-mechanism/notes/actions-43728280256-1-metric_height159_complete_affine/receipt.json",
+  "original_receipt_sha256": "77435aab53274594ad70ba8e4da0a6e6fe7961de6e10b7d587bff85ddb65acb7",
+  "original_receipt_bytes": 55785,
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "stdout_byte_limit": 90000,
+  "publication_policy": "Source/request/run/hash/human conclusions only. The original log remains in memory; readback is semantic stdout only.",
+  "completion_claim": false
+}

@@ -1,0 +1,35 @@
+name: visible-flex original completed log observation
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-new-mechanism/computations/request-original-log-observation.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-original-log-observation
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+      - name: Read only the completed original public log and emit semantic observations
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import os,subprocess,sys
+          path='topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py'
+          sys.argv=[path,'--request','topics/visible-flex-new-mechanism/computations/request-original-log-observation.json','--source-path',path]
+          content=subprocess.check_output(['git','show',os.environ['GITHUB_SHA']+':'+path])
+          exec(compile(content,path,'exec'),{'__name__':'__main__','__file__':path})
+          PY
+      # No solver, developer suite, artifact upload, Release, or result commit.
