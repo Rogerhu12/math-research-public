@@ -236,8 +236,10 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 
 [R790](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)证明ψ=T E6/E4²在原P1正则；原g_star属于ΓY，权零函数可在ζ求值而原X微分相位仍保。任意已认证A=yB的共同粗零阶≤154，155项足以求y值，156项给一阶；初始仅算原T至变形ε5。原K(U)模型中z=a−1=−ε³/(81B0²)+O(ε⁶)，真实E6_alg=−c6和eta分支明确；完整非CM zeta完成化经41倍加法精确消去，原C3三项核保方向并消二挠扩域。新§6.1先作μ3正则投影，再取原粗值/导数并作两个280次域迹，5040项半迹准确压为24对五阶jet；41挠点用40P=−P和根上导数−41的短倍点提升，无须重展除法多项式。保82²尺度及反射det负指数，不将裸ε系数强制平均下降。实际146个ψ值/粗首项仍待Actions；原β/高度未得。
 
-### R791：原Hom作用与η除子的真实输入工程
+### R791：原Hom作用与完整η输入已实际完成
 
-[R791方法](notes/R791-original-Hom-Galois-and-eta-divisor-method.md)由原R754/R759构造Tγ、复共轭、实际实下降和全部次数，保Tγ⁷=[ζ²]/阶21。由原Gram恢复CM Hermitian配对并求κ·v†v，再给覆盖原五维F⁰的真实矩阵与η=(1/3)极除子组合；全部相位/原极化不置一。另直接收缩R748原六CM首jets与十二微分，实际判原index4在c1是否分歧。core11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d，专用公开请求就绪；输出待实际run。原y的极除子和Jacobian运算仍未实现，不能将该recipe当η值或高度。
+[R791实际结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)对应公开run43686308194/source f945ef5d，cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46；0.118秒只消费既有R754/R759/R748，没有重算旧period/Hom。原$T_\gamma$确为21阶，原$f=f_4$不在$L^+$上，但$c(f)=-[\zeta^2]f$，故$f_R=[1-\zeta^2]f=f_4-f_6$，次数3618。原$e=\kappa v^\dagger v$的六个实域坐标及全部五维$F^0$和准确次数表已得到，尺度不置一。
 
-[跨p零支撑新记录](notes/2026-11-15-sigma-cross-p-zero-support-research.md)给六行p+6准确源，C13=−481/27720对全部允许p为单位；另给有限微分源恒等式并严格排除原六截面的有理scalar gauge闭合。完整N+1高带仍在，未证真实primitive/Legendre可见集与乘积非零集相交；不得把未筛六零行假设移到筛后失败。
+三次CM同源准确给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$、$P_{f_R}=E_y+(y^2-b)_0$，不必先恢复$x$。同一个原$h_j$的η在Pic类上可用较小的原加法映射，次数2970/1674/1800/3024/3339；显式主函数$\mathcal R_j$必须随Poincaré/局部高度运输，不丢常数。十二个实际CM切向全部非零，并由原$K[T]$的六次不可约性证明每个非零实际原Hom在$c_1$不分歧。原$y$有限且$y^2\ne b$时，只需粗一阶导数即可恢复原$x$方向。
+
+**仍待实际完成**：原$Y$函数域/RR除子运算、完整$E_y$与各加法极除子、五个η的Jacobian类、$\ker\eta$、原β与真正高度。此固定层输入并未解决上述缺口，更未给全$p$排除。R790/787继续生成原函数与CM值，原切向数值仅保一日临时后继输入，不写可重算坐标表进Git/Release。

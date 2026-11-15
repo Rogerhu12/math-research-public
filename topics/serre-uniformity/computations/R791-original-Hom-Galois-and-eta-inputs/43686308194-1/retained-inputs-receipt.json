@@ -1,0 +1,55 @@
+{
+  "artifact_groups": [
+    {
+      "producer": {
+        "result": "R754-original-p41-periods-and-Hom-kernel",
+        "run_id": "43620862489",
+        "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+        "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+        "artifact_id": 14125735974,
+        "archive_sha256": "9a58e842bc80654f77800f6e0db7f90655483e6c6469fc7791addb0db40c4ed1",
+        "manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+        "certificate_name": "p41-original-period-and-Hom-kernel-certificate.json",
+        "core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+        "files": {
+          "p41-original-period-and-Hom-kernel-certificate.json": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c",
+          "R754-gamma-descent.json.gz": "cf37105d407ace9df6b86a80d112b58915202bfecfc9e2fd118f4be76af2b1d0"
+        }
+      },
+      "run_source_and_artifact_digest_verified": true,
+      "all_copied_files_bound_to_completed_certificate": true
+    },
+    {
+      "producer": {
+        "result": "R759-original-integral-period-lattice-and-map-degrees",
+        "run_id": "43625474728",
+        "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+        "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+        "artifact_id": 14125233728,
+        "archive_sha256": "2ae069c394c7038f10743c7d9c7981b509579780bca3d0c69772419e3836b883",
+        "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+        "certificate_name": "p41-original-integral-period-lattice-and-degree-certificate.json",
+        "core_sha256": "17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0",
+        "files": {
+          "p41-original-integral-period-lattice-and-degree-certificate.json": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+          "R759-original-integral-maps-and-bounded-recovery-input.json.gz": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+        }
+      },
+      "run_source_and_artifact_digest_verified": true,
+      "all_copied_files_bound_to_completed_certificate": true
+    }
+  ],
+  "repository_files": [
+    {
+      "path": "computations/R732-p41-original-CM-model/43608152850-1/p41-original-CM-model-certificate.json",
+      "file": "p41-original-CM-model-certificate.json",
+      "sha256": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+    },
+    {
+      "path": "computations/R748-original-signed-CM-root-p41/43617493590-1/R748-original-signed-root-and-Hodge-first-jets.json",
+      "file": "R748-original-signed-root-and-Hodge-first-jets.json",
+      "sha256": "56418d0cef84554584d8777aed4acb54a2dc57bbf95cc38a1bb42b12140769f3"
+    }
+  ],
+  "old_Miller_period_Hom_HNF_LLL_or_CM_values_recomputed": false
+}

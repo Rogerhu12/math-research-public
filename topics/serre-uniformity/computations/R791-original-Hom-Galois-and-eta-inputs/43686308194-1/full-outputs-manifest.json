@@ -1,0 +1,53 @@
+{
+  "result": "R791-original-Hom-Galois-and-eta-inputs",
+  "files": [
+    {
+      "file": "R791-original-Hom-Galois-matrices.json.gz",
+      "bytes": 15617,
+      "sha256": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183"
+    },
+    {
+      "file": "R791-original-real-descent-and-eta-basis-inputs.json.gz",
+      "bytes": 5573,
+      "sha256": "24a894163f136a4e8c71b117e373f8fafb66a6e0c94b4efe3f141f78bb39b968"
+    },
+    {
+      "file": "R791-original-twelve-CM-tangents.json.gz",
+      "bytes": 20760,
+      "sha256": "32be372f46560ce7cfc0af40666cdc32b39170bfc7b6ec32b92ea747a0629e7e"
+    },
+    {
+      "file": "core-receipt.json",
+      "bytes": 651,
+      "sha256": "7250031176cf62eabbcf3227fda6d5f246cd1ecfb333a2722f007008a81d57d7"
+    },
+    {
+      "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+      "bytes": 2298,
+      "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+    },
+    {
+      "file": "public-actions-input.json",
+      "bytes": 3829,
+      "sha256": "cb32359976e9c2509431c91f24d967e91745892d20b6aab1d4a355238c7d3701"
+    },
+    {
+      "file": "public-actions-run.log",
+      "bytes": 949,
+      "sha256": "c30b4084dd626f10870845409960c975e0a0d73261c6104365a27ddff5a221ea"
+    },
+    {
+      "file": "retained-inputs-receipt.json",
+      "bytes": 2942,
+      "sha256": "c3042fd67a3b0d346eb171e06e5a9743121d61c2c0664d9f18a4bee34cce7123"
+    },
+    {
+      "file": "run-receipt.json",
+      "bytes": 304,
+      "sha256": "12baf0939ac19584a0117efc2677e44165a14c027c9e3eb4331f099d8d664909"
+    }
+  ],
+  "temporary_active_checkpoint_artifact": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+  "temporary_active_checkpoint_retention_days": 1,
+  "reproducible_outputs_saved_in_repository_or_release": false
+}

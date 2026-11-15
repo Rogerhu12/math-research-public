@@ -330,4 +330,4 @@
 
 - **R790（已证明，实际CM求值待公开计算）**：[原CM框架正则化与共同零的155项界](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)。原ψ=T E6/E4²去除模形式框架零，g_star∈ΓY保原P1；任意关系A=yB的共同粗零阶≤154，155项给y值、156项给一阶。原K(U)变形/41倍加法和C3迹显式消二挠扩域，保E6_alg=−c6、原eta方向、完整zeta完成化与精确粗换参。新证明以原μ3正则投影和域迹将5040项压为24对ε5 jets，并以40P=−P根上精确导数−41作倍增提升。保82²尺度，实际ψ/y/β/高度仍待计算。
 
-- **R791（方法已证明，公开工程待实际运行）**：[原Hom的Galois/实下降与η除子输入](notes/R791-original-Hom-Galois-and-eta-divisor-method.md)。直接复用原R754/R759/R748，求阶21的Tγ、复共轭、真实Gram尺度和原CM切向；以κ·v†v与真实次数给原五维F⁰和保1/3的η极除子公式。独立core/wrapper/workflow已保存，不预称矩阵、h(c1)非零或η/高度已计算。
+- **R791（已实际完成）**：[原Hom的真实实下降、完整η输入与CM不分歧](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。公开run43686308194确认阶21作用、$f_R=[1-\zeta^2]f_4=f_4-f_6$次数3618、原极化元素$e=\kappa v^\dagger v$及全部五维$F^0$。三同源给准确$y_R$/极除子及较小η表达，保主函数修正；十二切向非零，并证明全部非零实际Hom在$c_1$不分歧。完整真实输出及SHA已核，Git仅metadata；实际η/β/高度与全$p$目标仍未完成。
