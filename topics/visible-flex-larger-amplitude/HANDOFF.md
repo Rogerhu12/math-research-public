@@ -42,4 +42,4 @@ SDKrun43668049747/source7181/job132671745626 success;artifact14142453799/50209B/
 R277proof03d74989 indexed.81run43664236768/sourcef19737ecf complete;note399ead76/readout1a7326bc/audit2b597c82/summary2ebfd699,476files17arrays112exact328Arb69sources paid. Atactual78 allfinitehigh109 nonzero;Arb640 only4..9resolved,10..112unexcluded/allunitmapsdefined/no budgetstop. Distinctmodels;changedp cannotinherit,low3/nonzero stillopen.
 R278proof9c6d7f98 indexed:finiteprojective zero-equivalence onnonzero domain,rootJac/thresholds/conditionalnonlinear2DIFT;singular/zero exceptions retained. No currentroot/native/nonzero claim or extra gate.
 
-规则同步记录：2026-11-15 02:46:45 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 2897554346bc0fcd9512f3882096f0785f263231。
+规则同步记录：2026-11-15 02:47:25 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 11b666775830d9d37f218f608b46e3d5bae25516。
