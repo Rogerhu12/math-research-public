@@ -10,7 +10,7 @@
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`，12:24再次断连；暂按根8仅原生小UTF8，恢复即补实际pull。
 
-原生API规则读取：2026-11-15 12:35:00 UTC、`6aa7a8cf1b8cb538326938750150d247191a1979`（非git pull），双README无变。
+原生API规则读取：2026-11-15 12:40:48 UTC、`11c30bb82b638d93eadbe2ff5546736efe83f98c`（非git pull），双README无变。
 
 ## 2. 完成门
 
@@ -66,7 +66,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R254/255/258/261全第三核**：Z=H7⊕J3⊕χ8、dim18。R261实际43712266529/a934b45c/job132806237299八新人工过，八D³K全局部四阶/自伴，fresh原差全零；5条raw差非字面零。故全Z有K=−J³Af、Af f0，右三常数/左二次尾保，通用f表示忠实18维非固定圆rank。新科学.21736秒/28.55MiB，53来源匹配，旧Δ/forcing/第四0重做。完整B=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)保第二history；逐包比例类Kfg0/整包flux0。平台/Laurent/平端/同w欠，全Rp0=(R71∩kerπ)+B(E,χ8)不可删首项。
 
-**R260真活动flux**：十维K目标的F_ell=[fG″−B_A(f,w)]_ell^x，准确Green边界式保step非零常端和右尾；两个mixed仍保ζ历史/E÷2。R261已准许全Z使用此接口，其余平台/Laurent/平端/ruling仍欠。
+**R260/264真实活动与平台**：全Z的G=Kτf(w)有G″=(aw″)′+bw′−J(cw)，d=(af″)′+bf′=J(cf)，Λ=a(f′w″−f″w′)+wd−fJ(cw)。平台f=Fj时Λ=−FjTj，真实总flux=Fj−1Tj−1−FjTj。全部平台G″0和总flux0 iff 各活动∫cw0且非零平台(aw″)′+bw′0；有限组合用总和，不逐方向强加。内Laurent/平端/同w仍欠，mixed保ζ历史/E÷2。
 
 ## 6. 保留边界
 

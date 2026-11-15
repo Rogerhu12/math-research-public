@@ -124,7 +124,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)给六面积72准确条件、self与全部有序Γ；12完整副本准确消36 odd。[R263](results/R263-ordered-Gaussian-area-81-scalar-recursion.md)把九二次矩与72面积系数组成81标量准确有序结合律，四个交叉角系数显式，可保原次序按二叉树递推。右inner完整三矩才使cross零，单位置81值不授任意平移/O2重选seed；每个真实母包的self必须同源。**下一把全部副本纳入准确能量/剩even联调，并用完整递推保内部history，不把条件数当rank。**
 
-[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；R261已付八χ，现可按其新增证明扩展全Z。
+[R264](results/R264-potential-tail-moments-and-complete-platform-flux-equivalence.md)已将[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)扩到R261全Z：G″=(aw″)′+bw′−J(cw)，Λ=a(f′w″−f″w′)+wJ(cf)−fJ(cw)。有限活动类上，所有平台G″0与总flux0共同 iff 各活动∫cw0、非零常平台(aw″)′+bw′0；所有尾来自同一右锚。控制组合只要求总势矩/总平台项，不逐方向加限制；两个mixed另留ζ历史/E÷2。下一真实固定圆上的这些条件与全部内部Laurent/平端germ联合，再与同w ruling共同支付。
 
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
@@ -146,4 +146,4 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根15只留源码/参数/run/SHA/结论；终端已恢复，每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
+根15只留源码/参数/run/SHA/结论；终端12:24再断连，依根8仅原生小UTF8、非force保main，恢复即补实际pull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。

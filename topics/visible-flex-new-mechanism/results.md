@@ -269,3 +269,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R269 完整证明](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)保持低网，令高点B(k−c)+20Aσk、σk=TM(floor(k/4))；B²准确扣400A²方差，σ及εσ的低矩付完整三复矩。63A<B<64A、真实漂移<A/100，使高点严格落第12/52个低包后，间隙>0.49A，未在已有δ根上搬点。原母/主IFT只依mean0/真实方差差，R267全新面积与六能量继续；高次odd不再偷用原TM位置恒等，全部由完整12copy支付。
 
 完整cell J保中心项aρσ(64q+1)tcell及漂移项，它们全和才由Σσ(k−c)=0消。新S04 leading=−nm²aA(1872q+400)，固定母根先选有限大A再正δ得负；原居中为正。新排序原方向Q仍负：完整ordered和下界281nA/2，伴随Q正来自真实紧imaginary自成本加严格正A项。四最终区间各先完成R267实际三变量IFT/8+12包装，再仅正四次幅：每order先Q0，跨order再S040；原跨block由inner三矩消，全部已付门保。完整上三角self/cross阵给E22−E04=−ReQ，连同36odd，准确付整个A1,−3 I0，不只是两个无关系数字。余22even非rank，I1/I2及其余完整joint/有限同g仍欠。root全文独核有限和/真实排序/IFT次序，lit补全逐cell中心项后仅再读两处diff；无新执行。
+
+
+## R264：完整第三核的尾势矩与平台—总通量联合 iff
+
+[R264 完整证明](results/R264-potential-tail-moments-and-complete-platform-flux-equivalence.md)使用R258/261全Z局部自伴源，保原右锚得G″=(aw″)′+bw′−J(cw)、d=(af″)′+bf′=J(cf)，原Λ=a(f′w″−f″w′)+wd−fJ(cw)。常平台f=Fj时Λ=−FjTj、Tj=J(cw)，总flux=Fj−1Tj−1−FjTj；真实Tj是右侧活动势矩Mj=∫cw之和。所有平台G″0及所有总flux0共同 iff 每个Mj0且每个非零常平台(aw″)′+bw′0，两个方向都逐步证明；零平台由a=b=0而非擅删尾处理。
+
+联合门通过后内部通量有准确单活动积分式，可直接代R225 Laurent分母；输入w与待解gauge v区分。有限控制组合只要求总矩和总平台微分项，未逐方向强加；两个mixed仍保ζ历史/E÷2。内部Laurent、真实两平端、全Rp0/实际signed及同w ruling仍欠，不冒rank或fullperiod。原断连临时稿以已核公式重新编辑，不声称同旧字节；无新科学或人工执行。
