@@ -108,3 +108,5 @@
 - **R838（实际准确完成）**：[完整原二阶理想与最小三阶终止](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)。run43771598002/sourcef5fa479f，17.344589635秒；新det(G0+G1+G2)实际2408次、2429全节点，旧detG0原样复用，准确gcd395与原σ∞层0/1的非零minor给特殊余商≤415。proper有限DVR长度夹逼迫J2=I2、ε0、P0∉D、E2=C20+D；由R836的E3公式，原完整I3=C且最小终止阶恰3。未重算第三阶或旧导数；未称D坐标/eta/height已得。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0。
 
 - **R840（实际准确完成）**：[原CM值、首jet及有限点准确表达式](results/R840-certified-original-implicit-CM-value-and-first-jet.md)。run43773420733/sourcec3bcfc0d，35.797080241秒；准确双数五次乘积/eZ与原518方向收缩，全部14 B0分支unit，原有限y/y′的准确单位solve表达式及518位全部十四坐标乘回已成。两组14个RR候选全返回，但无准确零证，不改旧R792成功入口。246完成stage、四组176源；final5de210b5/manifestbe2a58b2，artifact14185198226/0ae63e2c。旧Dixon/Schur/CM迹不重，接既有R791消根式和真实h0，原eta/height仍缺。
+
+- **R841（实际准确表达式完成）**：[原CM点及指定下降点](results/R841-certified-original-CM-point-and-descent-DAG.md)。run43774984563/sourcecbcaa616，0.037801001秒；原四准确响应＋真实h0消费791R.16，B0/Q/N非零证明给β_C=(3h0Q/N,A0/B0)及原三同源像f_R(c1)，4完成stage/50node/174旧源。final52b80ce2/manifestde6b334f，artifact14185648917/f848bab0；1.21MB载体保必要输入。原v/κ、T7=[ζ²]及所有尺度不变；展开坐标/抽象A前像/eta/height未得，后继点加法保具体准确零判义务。
