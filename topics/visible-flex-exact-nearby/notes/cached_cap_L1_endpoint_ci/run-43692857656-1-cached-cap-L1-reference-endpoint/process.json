@@ -1,0 +1,223 @@
+{
+  "kind": "actual_public_cached_cap_L1_reference_endpoint_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43692857656",
+  "run_attempt": "1",
+  "started_utc": "2026-11-15T08:05:29.891424+00:00",
+  "workflow_commit": "3b6640505d2434e1c739059d0e7df8ec1a8b3c89",
+  "worker_source_sha256": "b807521600dda52e6e4ea79e4b4feb952dd939a195ea54ab74019d5cae17994d",
+  "actual_source_sha256": "106ec9308882b814ca773da904e561e93aa4475f4f46f84b9632c9716653992f",
+  "input_manifest_sha256": "6378581473d45a1af2c55748ea13a5111a0563e4be183a0e56a5029f9c2021a5",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T08:05:30.186356+00:00",
+      "before": "59e9799147a31ac740ce5db054c905cac30de376",
+      "after": "59e9799147a31ac740ce5db054c905cac30de376",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T08:05:37.622448+00:00",
+      "before": "59e9799147a31ac740ce5db054c905cac30de376",
+      "after": "59e9799147a31ac740ce5db054c905cac30de376",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
+  "original_recomputable_inputs_only_in_temporary_storage": true,
+  "new_recomputable_data_persisted": false,
+  "new_Actions_artifacts": false,
+  "new_Release_uploads": false,
+  "complete_nonlinear_endpoint_invariance_proved": false,
+  "complete_nonlinear_cap_solution_proved": false,
+  "full_infinite_BVP_inverse_proved": false,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "last_read_commit": "59e9799147a31ac740ce5db054c905cac30de376",
+  "package_versions": {
+    "python-flint": "0.9.0"
+  },
+  "python_version": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "historical_hydration": {
+    "files": 22,
+    "historical_files": 17,
+    "full_temporary_receipt_sha256": "4fcacede682911d22d113eecbe411cd06da76e505d004fd8bfc74f8e08670618",
+    "restored_into_checkout": false,
+    "old_mathematics_executed": false
+  },
+  "actual_original_input_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz",
+      "sha256": "3a89805ebe1ab22000529a7a8c2fdc262b1c3a2afbc52433cf610d2d6542ff22",
+      "bytes": 2415656,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-continuous-repair-physical-cap-background-v2-native.json.gz",
+      "sha256": "35db98d4124d50ef3bd69f3ec3aa6906289e3f6083c3ba91c8197da7547830ff",
+      "bytes": 3878,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+      "sha256": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+      "bytes": 1910756,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+      "sha256": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+      "bytes": 1947563,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+      "sha256": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf",
+      "bytes": 571365,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+      "sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+      "bytes": 1814,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual.md",
+      "sha256": "84ae53db92194d7ff9753aa6f3a37e0042462d138e7effaede8756156f65671e",
+      "bytes": 4187,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-physical-cap-linear-module-r09-v2-native.json.gz",
+      "sha256": "ad6efc2a226131245ff4197a0b5da2843578224368a340f7a50d383c03a1819b",
+      "bytes": 326464,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-cap-L1-endpoint-source-contract.md",
+      "sha256": "9d0c8f22f6d53f3c7e31950171abb84553d9e4be9a403865dc48e7a94cdecb6b",
+      "bytes": 10490,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "bytes": 3090,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md",
+      "sha256": "fba382d3c544d94730bb15b638bb4c823a2c04205e2cced06e3f4144c7691c0c",
+      "bytes": 22479,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-final-all-mode-physical-cap-Green.md",
+      "sha256": "721426af4046ee5c7ecaf7cf494db84f08451b50a042edfe8cba809ff0249876",
+      "bytes": 16080,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-centre-physical-cap-and-residual-conjugation.md",
+      "sha256": "b2acc995d8ef0c880c93b21226f53da0470a9945e53f67643106b0522a8c2404",
+      "bytes": 20177,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-final-moving-centre-actual-regular-boundary.md",
+      "sha256": "f4ae237c86542f29f2127f7e43d5ab97827756fcce86e71bcff8c0a610ec81af",
+      "bytes": 12565,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-final-regular-Hs-and-Riccati-outer-graph.md",
+      "sha256": "03ddbc285ab03ee53a17ad3940d2c789695338854cf7cafdbfd38e75f3a11711",
+      "bytes": 21757,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md",
+      "sha256": "1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463",
+      "bytes": 12356,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py",
+      "sha256": "106ec9308882b814ca773da904e561e93aa4475f4f46f84b9632c9716653992f",
+      "bytes": 22535,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources_CI.py",
+      "sha256": "b807521600dda52e6e4ea79e4b4feb952dd939a195ea54ab74019d5cae17994d",
+      "bytes": 18104,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_continuous_cap_residual_conjugation.py",
+      "sha256": "a24c26c793e01ad0b8e686786d0b7c1f9d3f5c6de0af00a8cb0283f2369478be",
+      "bytes": 17665,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_physical_cap_linear_module.py",
+      "sha256": "ef93be07b64bc6bf83be62b26f2a2e75e0f597dca3205401a6162826c3dcaf02",
+      "bytes": 14975,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_merge_complete_moving_residual.py",
+      "sha256": "24ec0bf2b9d2b03ebfa07f4b39b8fdee3277f8e4b2aa14385c267122e6b8e81f",
+      "bytes": 11093,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_rotational_cap_jacobi.py",
+      "sha256": "05dda3acc9cd359c8cd15b61e1d573d310289af984d6923261e61161afc50046",
+      "bytes": 15349,
+      "source": "exact_public_history"
+    }
+  ],
+  "all_pinned_inputs_verified": true,
+  "actual_parameters": {
+    "bits": 320,
+    "cap_interval": [
+      "9/10",
+      "25/8"
+    ],
+    "physical_eta": "-7789843107295549/4611686018427387904",
+    "affine_parameter_offset": "0",
+    "original_parameter_half_width": "1/1000000000",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "physical_minimum_frequency": 4,
+    "complete_residual_support": 96,
+    "maximum_physical_residual_frequency": 384,
+    "candidate_outer_radii": [
+      "1/10000000000",
+      "1/1000000000"
+    ],
+    "fixed_normalized_outer_height_radius": "1/1152921504606846976",
+    "nonlinear_body_radius": "1/32768",
+    "physical_Q_remainder_coefficient": 13
+  },
+  "immutable_scientific_copy": "/home/runner/work/_temp/visible-exact-cached-cap-L1-endpoint/immutable-science",
+  "snapshot_utc": "2026-11-15T08:05:37.353697+00:00",
+  "wall_seconds": 7.462291046999994,
+  "publication_is_final_attempt": false
+}
