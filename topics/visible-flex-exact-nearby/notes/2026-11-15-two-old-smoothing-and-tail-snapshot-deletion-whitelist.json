@@ -1,0 +1,383 @@
+{
+  "kind": "reviewed_ordinary_deletion_whitelist_two_old_smoothing_and_uniform_tail_snapshots",
+  "prepared_utc": "2026-11-15 23:00:17 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "authorization": "Root README rule15 current-tree capacity maintenance, already authorized by the user's repository instructions. This whitelist is published before any ordinary deletion, with immutable restoration and exact current-path guards.",
+  "scope": "Only the two listed old derived NPZ snapshots are candidates. No binary body was requested and no original or successful producer was executed. The existing small mathematical conclusions and their original limitations are preserved without strengthening.",
+  "candidate_count": 2,
+  "total_candidate_bytes": 721358,
+  "immutable_restore_commit": "903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd",
+  "immutable_tree_chain": [
+    {
+      "parent_tree": "33bc523dbd4e60bfd1870e80d425aaa976702028",
+      "child": "topics",
+      "tree": "da725f5d6abf4dde82e5d690c9656e20cbfc1219"
+    },
+    {
+      "parent_tree": "da725f5d6abf4dde82e5d690c9656e20cbfc1219",
+      "child": "visible-flex-exact-nearby",
+      "tree": "0faef8634aa9ca4bf11229171f478ffd06e81f27"
+    },
+    {
+      "parent_tree": "0faef8634aa9ca4bf11229171f478ffd06e81f27",
+      "child": "data",
+      "tree": "ba183f75668f00de3c2b377b82d42ca1d41422d5"
+    },
+    {
+      "parent_tree": "ba183f75668f00de3c2b377b82d42ca1d41422d5",
+      "child": "phase_ring_continuation",
+      "tree": "18e24d1a428e6bc3d12a689bd7fbb7e0a35b2de1"
+    }
+  ],
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_analytic_smoothing_inputs.npz",
+      "git_blob_sha": "e35a0c470f471d23894233ce4ec12466a9ddaf46",
+      "bytes": 389654,
+      "sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+      "kind": "old materialized smoothing spline/height/control snapshot with derived bounds",
+      "record": {
+        "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_analytic_smoothing_budget.json",
+        "blob_sha": "2c14d49f338be2e080fa89594b2dd8abce29f0b7",
+        "bytes": 30353,
+        "sha256": "040c09ca266896c67aa6bdf0cf33148ed54be068d1e20e274c3502ea661038d2"
+      },
+      "source": "cleanup_smoothing_source",
+      "historical_inputs": {
+        "snapshot_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+        "frozen_input_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+        "historical_run_input_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+        "archived_input_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532"
+      },
+      "recorded_parameters": {
+        "input_mode": "frozen_smoothing_snapshot_only",
+        "core": [
+          -0.6,
+          0.6
+        ],
+        "cutoff_flat_radius": 1,
+        "cutoff_support_radius": 2,
+        "common_radial_cells": 1944,
+        "smoothing_kernel": "(4 G_h-G_(2h))/3 with G_h centered Gaussian of variance h^2",
+        "widths": [
+          0.001,
+          0.0003,
+          0.0001,
+          0.00003,
+          0.00001
+        ]
+      },
+      "interfaces": {
+        "positional": "checkpoint",
+        "required": [
+          "--frozen-inputs",
+          "--snapshot",
+          "--out"
+        ],
+        "optional": [
+          "--core",
+          "--widths"
+        ],
+        "old_successful_producer_is_not_rerun": true
+      },
+      "restore_commit": "903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd",
+      "restore_path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_analytic_smoothing_inputs.npz",
+      "sha256_source": "literal archived snapshot identity in the preserved original small report; binary not fetched",
+      "producer_identity": {
+        "blob_sha": "9107c412a54ddccd9cd98245ea86b66c48dee925",
+        "bytes": 23256,
+        "sha256": "462081a5829f17e9788a8ff26e149d58962ed42c2dd38bdea8d92ae1065d6477"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_uniform_tail_inputs.npz",
+      "git_blob_sha": "b469a6c93f1777aaa641e6f96e9ba4d4bb7d21a2",
+      "bytes": 331704,
+      "sha256": "41d305d88844ff1548e1b1e45aebe423c134c366c7950de7c36eb8a05973fba9",
+      "kind": "old materialized spline snapshot with derived radial/alias budget arrays",
+      "record": {
+        "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_uniform_tail.json",
+        "blob_sha": "60c040d2081cb550e97dab8e973d428a1af1adae",
+        "bytes": 7458,
+        "sha256": "f10e3107eb89a8bbfdafde96bad599186c7a28184be8c15ad763c6bf155215bd"
+      },
+      "source": "cleanup_uniform_tail_source",
+      "historical_inputs": {
+        "snapshot_sha256": "41d305d88844ff1548e1b1e45aebe423c134c366c7950de7c36eb8a05973fba9",
+        "input_snapshot_sha256": "41d305d88844ff1548e1b1e45aebe423c134c366c7950de7c36eb8a05973fba9",
+        "historical_scratch_input_snapshot_sha256": "d95f43b7545d1e717862e76763245ea6e72443044d8cab7236a3cb27163be87e",
+        "archived_input_equivalence": "All spline coefficient and knot arrays are unchanged; the new snapshot also contains recomputed bound arrays and source metadata."
+      },
+      "recorded_parameters": {
+        "input_mode": "frozen_spline_snapshot",
+        "radial_domain": [
+          0,
+          3
+        ],
+        "common_radial_cells": 1396,
+        "quarter_period_angles": 256,
+        "equivalent_full_circle_nodes": 1024,
+        "Cartesian_cutoff": 509
+      },
+      "interfaces": {
+        "positional": "checkpoint",
+        "required": [
+          "--snapshot",
+          "--out"
+        ],
+        "optional": [
+          "--from-snapshot",
+          "--angles",
+          "--strips"
+        ],
+        "strips_default_in_preserved_source": 81,
+        "original_CLI_not_claimed_from_default": true,
+        "old_successful_producer_is_not_rerun": true
+      },
+      "restore_commit": "903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd",
+      "restore_path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_uniform_tail_inputs.npz",
+      "sha256_source": "literal archived snapshot identity in the preserved original small report; binary not fetched",
+      "producer_identity": {
+        "blob_sha": "497e356ceb8ae8bd347c693656989675eab15d5a",
+        "bytes": 16454,
+        "sha256": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61"
+      }
+    }
+  ],
+  "preserved_producers": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_smoothing_budget.py",
+      "blob_sha": "9107c412a54ddccd9cd98245ea86b66c48dee925",
+      "bytes": 23256,
+      "sha256": "462081a5829f17e9788a8ff26e149d58962ed42c2dd38bdea8d92ae1065d6477"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_uniform_tail.py",
+      "blob_sha": "497e356ceb8ae8bd347c693656989675eab15d5a",
+      "bytes": 16454,
+      "sha256": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_interval_scalar.py",
+      "blob_sha": "93a39764de938f8c12f70d92c3d5e6cf3c46f27f",
+      "bytes": 4261,
+      "sha256": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_compare.py",
+      "blob_sha": "0de8a3a5f1dcff716dd13104ba0693b0a2d2899f",
+      "bytes": 5209,
+      "sha256": "760e103befa83e886619971b488ee27ac82d98b1072b7735c1435a637347e8b9"
+    }
+  ],
+  "preserved_original_small_evidence": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_analytic_smoothing_budget.json",
+      "blob_sha": "2c14d49f338be2e080fa89594b2dd8abce29f0b7",
+      "bytes": 30353,
+      "sha256": "040c09ca266896c67aa6bdf0cf33148ed54be068d1e20e274c3502ea661038d2",
+      "kind": "analytic_smoothing_definition_and_C2_budget_not_Newton_or_exact_metric_solution",
+      "source_hash_matches": true,
+      "dependencies_exact": {
+        "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+        "fourfold_interval_scalar.py": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+      },
+      "limitations": [
+        "The smoothed analytic function is explicitly defined by convolution; no new Newton solve is performed",
+        "Bounds cover both radial sides directly; the binary64 input reflection defects are not assumed to vanish",
+        "The sampled finite-body metric/type/return data belong to the old graph until transferred with these errors",
+        "Analytic strip norms and high jets may be large; no canonical-normal-form smallness gate is claimed",
+        "No fixed caps, exact radial metric equations, or closed isometric family are constructed"
+      ]
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_uniform_tail.json",
+      "blob_sha": "60c040d2081cb550e97dab8e973d428a1af1adae",
+      "bytes": 7458,
+      "sha256": "f10e3107eb89a8bbfdafde96bad599186c7a28184be8c15ad763c6bf155215bd",
+      "kind": "outward_uniform_analytic_FFT_tail_alias_budget_not_full_roundoff_certificate",
+      "source_hash_matches": true,
+      "interval_kernel_sha256": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8",
+      "arithmetic_contract": [
+        "Materialized binary64 coefficients and knots denote exact real inputs",
+        "IEEE binary64 arithmetic rounded to nearest; each elementary bound is widened by nextafter",
+        "Scalar exp uses exact rational Taylor sums, a geometric remainder and outward repeated squaring",
+        "Finite DFT samples and their Fourier transform are mathematical exact operations"
+      ],
+      "limitations": [
+        "Excludes trigonometric sample and FFT floating roundoff",
+        "Excludes errors in regenerating spline inputs from the numerical profile ODE",
+        "Does not bound radial metric residuals, curvature, caps, or Newton convergence",
+        "The snapshot records the exact materialized inputs covered by these budgets"
+      ]
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02.json",
+      "blob_sha": "5479fb11aabbc3619d19c8dc797af3d795bad8db",
+      "bytes": 3430,
+      "sha256": "64b399cbe78378de9c86d9bc5ad61facbb181e4b7744a12df17633c32526d6d0"
+    }
+  ],
+  "original_checkpoint_status": {
+    "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02.npz",
+    "sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+    "identity_preserved_in_both_small_reports": true,
+    "already_absent_from_current_directory_metadata": true,
+    "no_claim_of_current_checkpoint_presence": true,
+    "no_checkpoint_is_deleted_or_regenerated_here": true,
+    "exact_two_selected_snapshots_are_directly_restorable_without_running_a_checkpoint_or_profile_producer": true
+  },
+  "preserved_common_inputs": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775,
+      "git_blob_sha": "ff0847846fee05f421b26449caa3caa35344df9f",
+      "selected_for_deletion": false
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851,
+      "git_blob_sha": "064aba18dc55c1bdf618d13ec37db4f3dfa7664c",
+      "selected_for_deletion": false
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_parameter_N_interval.json",
+      "sha256": "b52537b755e7b5475dc945a5781c0d57a93e71ccdf39ec90891c236fcae2438a",
+      "identity_source": "Original R57 manifest and both membership records; not fetched here, not selected or modified.",
+      "selected_for_deletion": false
+    }
+  ],
+  "active_input_exclusion": [
+    {
+      "name": "SN",
+      "run": "43751213826/1",
+      "manifest_identity": {
+        "blob_sha": "5a20224a710b99952a5842fcebec5851dfcf562b",
+        "bytes": 97309,
+        "sha256": "f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351"
+      },
+      "complete_manifest_text_checked": true,
+      "basename_occurrences": [
+        {
+          "basename": "type_fixed_step02_analytic_smoothing_inputs.npz",
+          "occurrences": 0
+        },
+        {
+          "basename": "type_fixed_step02_uniform_tail_inputs.npz",
+          "occurrences": 0
+        }
+      ]
+    },
+    {
+      "name": "SC3",
+      "run": "43754452928/1",
+      "manifest_identity": {
+        "blob_sha": "3015e630f46f45079a20351344d7d1f63c65c313",
+        "bytes": 38760,
+        "sha256": "cd28e23a13ef68281dd4813de793896e89b235926936d2668e64e7bfe6e22aa9"
+      },
+      "complete_manifest_text_checked": true,
+      "basename_occurrences": [
+        {
+          "basename": "type_fixed_step02_analytic_smoothing_inputs.npz",
+          "occurrences": 0
+        },
+        {
+          "basename": "type_fixed_step02_uniform_tail_inputs.npz",
+          "occurrences": 0
+        }
+      ]
+    },
+    {
+      "name": "PG",
+      "run": "43770122351/1",
+      "manifest_identity": {
+        "blob_sha": "c1910315f3d260097bbbed3fab73569507621f01",
+        "bytes": 10780,
+        "sha256": "febb85783c624eed3bab22cd6e0873aad08c3257e4758615668654f82289e51c"
+      },
+      "complete_manifest_text_checked": true,
+      "basename_occurrences": [
+        {
+          "basename": "type_fixed_step02_analytic_smoothing_inputs.npz",
+          "occurrences": 0
+        },
+        {
+          "basename": "type_fixed_step02_uniform_tail_inputs.npz",
+          "occurrences": 0
+        }
+      ]
+    },
+    {
+      "name": "WE",
+      "run": "43769746581/1",
+      "manifest_identity": {
+        "blob_sha": "9d67ad932a5880007ab28af99743bb45d6bd0d50",
+        "bytes": 15565,
+        "sha256": "098c090606f54bbbb8bd6d026b6360f53ba70f5e75c4fc4218e7f784b2eb88a1"
+      },
+      "complete_manifest_text_checked": true,
+      "basename_occurrences": [
+        {
+          "basename": "type_fixed_step02_analytic_smoothing_inputs.npz",
+          "occurrences": 0
+        },
+        {
+          "basename": "type_fixed_step02_uniform_tail_inputs.npz",
+          "occurrences": 0
+        }
+      ]
+    },
+    {
+      "name": "PIB",
+      "run": "43771317443/1",
+      "manifest_identity": {
+        "blob_sha": "517ca501fca5fb754c58a8eb5b60568a761aabdc",
+        "bytes": 5702,
+        "sha256": "7afa0cdafab54202a6a4abe32f80a1e4ae2689b862bbad44ce652fe2d329048e"
+      },
+      "complete_manifest_text_checked": true,
+      "basename_occurrences": [
+        {
+          "basename": "type_fixed_step02_analytic_smoothing_inputs.npz",
+          "occurrences": 0
+        },
+        {
+          "basename": "type_fixed_step02_uniform_tail_inputs.npz",
+          "occurrences": 0
+        }
+      ]
+    }
+  ],
+  "pending_reader_exclusion": {
+    "DZ": "tail_connector confirmed the new consumer uses only FA/TC/WX/PG/WE successful small receipts and DX4/ZD/MS/AC proofs plus AST-only sources; neither selected NPZ is an input.",
+    "SEI": "phase_inverse confirmed the new consumer uses only successful SN terminal small receipts and existing principal-inverse small conclusions; neither selected NPZ is an input."
+  },
+  "preserved_categories": [
+    "all source files and parameter manifests",
+    "all mathematical proofs and scope corrections",
+    "all original small success and failure conclusions",
+    "all active run inputs and original checkpoint status",
+    "all historical commits and exact restore paths",
+    "the separate d5 jet interval and parameter-direction inputs"
+  ],
+  "restoration": [
+    "Read the exact selected file from this public repository at immutable_restore_commit and restore_path into a public runner temporary directory.",
+    "Verify Git blob identity, byte count and the original report's full SHA256 before consuming any array.",
+    "Do not recreate the snapshot by rerunning a successful spline, smoothing, profile, alias, Newton or other numerical target.",
+    "The tail snapshot's historical scratch SHA differs from its archived snapshot SHA; preserve that distinction. The current exact archived blob is the selected restoration object."
+  ],
+  "publication_guards": [
+    "Publish this exact whitelist first.",
+    "Immediately before deletion, fresh main tree metadata must match path, Git blob and byte count for both targets.",
+    "Delete only these two paths through an ordinary commit, preserving concurrent changes and all Git history.",
+    "On a path/hash/size mismatch, do not delete; inspect the changed metadata.",
+    "On non-fast-forward, immediately attempt actual CLI git pull --rebase origin main and rebuild on fresh main, looping until the ordinary publication succeeds."
+  ],
+  "binary_bodies_fetched": 0,
+  "scientific_calls_executed": 0,
+  "deletions_already_performed": false
+}

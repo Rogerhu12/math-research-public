@@ -72,3 +72,8 @@ PIBA aafebb76完整proof已亲读；43771317443/1 child0/15，13处10unique球�
 ZD715f2876全文已亲核并独推；三IBP/完整双sign HS/独立meanrank齐，actualout与N共轭两次sign correction保其原序和两窗。
 DX4提供同一ψ C4新输入，原CYA四root只读，不新增gap计算；tail将封仅新positive scalar包，完整retained/incoming/Schur仍待。
 两README于68f92b9cb16677278dfbc7f8e13bdf7189e41d9c只读核无变，旧成功冻结，无本地数值。
+
+### 2026-11-15 23:01:09 UTC — exact snapshot inventory and saved checkpoint
+两旧derived NPZ清单fd57e301/cdfd4345先推，721358B/903645f5同path恢复；原源/小结论/limitations全保，完整active manifests无依赖，binary body未取。
+完整open29307B逐字归93c7638a/c266c0f1后只缩成功索引；此提交尚未删数据。22:59:32真CLI pull仍无executor，下一≤23:59。
+两README于df23fc4ffcdb8c5075626b5f22b98f187fc7dc27只读核无变；继续原SN/SC3与DX4/ZD/SEI，不取消任何数学义务。
