@@ -220,3 +220,5 @@
 - [Request159：当前C与新profile的完整453物理DN入口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)（源码/明确新实验）：λ=.001、R320九p、历史699×453仅初猜，57pins，同job C/factory/sampler→真实H/J/原FD→完整fullDN/fresh audit；8outer/17inner/32×10与原tol保。job360/science315/readback45、BVP7200按余量clip，完整原范围/错误读后清；外部信号停独立子组、读错非零阻清理，不预填非零或准确C/闭场成功。
 
 - [Request163：原151/157日志的一次只读恢复入口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)（源码/元数据入口）：官方原run/source/job/协议身份先核，两个原compute各一次下载；原数字词法与完整JSON/字节重建，151结果/input/全账覆盖、157初末FD/84trial/normal/末模型完整输出。巨大内部表只完整hash/结构覆盖与明确选中/异常范围，不冒逐值科学核查，无科学重算或新raw存储。
+
+- [R351：完整七状态三列伴随与零jet新控制响应](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)（已证明，条件准确有限链定理）：698cell完整r/mid/sqrt/三模态、112终端耦合、直接末q与start项保；一次三列伴随取得全部node/mid响应，真实shape商法则及补左零空间条件明确。准确实数、形成线性系统与Decimal舍入分清，不预填157秩/驻点或164改善，原域/strict slope/字面Armijo与全native责任保。

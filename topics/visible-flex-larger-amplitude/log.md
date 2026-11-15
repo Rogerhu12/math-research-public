@@ -77,3 +77,7 @@
 ## 2026-11-15 15:57:08 UTC /root — request163补取原151/157完整科学字段
 
 [163接口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)四件已核接口/官方来源/关键传输生命周期后发：source ecb77c7e/request4ae311d8，两个原compute各一次只读、全数字词法/字节不重算科学；151全result/input/账本覆盖，157全FD/真实trial/normal/末模型，巨大内部表的未逐值审范围明确。无新artifact/Release/raw入Git，35min独立job不改原门；159已实际43732286420。API核0f7c91423b233b270bbea3a9ee178c72e676f278双README未变，真实pull行保留。
+
+## 2026-11-15 16:07:06 UTC /root — R351完整离散伴随与同步未付范围
+
+[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)全文核后即发：七状态/三q局部变分、三列reverse、完整112终端及所有直接项、零jetshape响应与补秩条件已证，无本地科学或实际秩预填。H/open压缩重复叙述，原open逐字存同目录至163检查点，全部责任保；158真实异常按原返回成文、163已完成及157仍未取正文范围明确，162/164/165/166/167继续。API核6f6bc02dcf3b6886118ccae9b6940764cecb2f78双README未变，真实pull行按当前原记录保留。
