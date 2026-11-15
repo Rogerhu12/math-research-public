@@ -162,6 +162,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **[1541个新增真枢轴与完整2751核心](results/R150-appendix-exact-low-fill1541-and-original-seven-core2751.md)：** 原七RHS问题在8.242471283秒精确新增1541步，总1567步，原4318单位系统严格化为2751核心/424921项；coeff3693bit、RHS3677bit。完整状态封存3.925719243秒，达到固定工作门槛时只保完整已提交pivot；原源/DAG/7RHS均保，Q核数仍29。后继只查正列内容、真实块结构和本job底层FLINT版本，按实际状态继续。
 
-**七原方向当前单位系统。** [2751列内容/SCC](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)及[全部行内容=1](results/R150-appendix-seven-core2751-all-row-contents-one.md)已实核全部424921项；单2751块、系数3691bit、七RHS分母全1，总1567主元完整保留。接能保存内部进度的精确求解，先逆列缩放再逆原DAG。无新Q核，原同选秩4318…4325不变。
+**七原方向当前单位系统。** [列内容/SCC](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)及[全行内容=1](results/R150-appendix-seven-core2751-all-row-contents-one.md)已实核：2751单块、系数3691bit、七RHS分母1、1567完整主元。[可恢复原生Dixon](notes/2026-11-15-r150-seven-sparse-dixon-original-interface-789f.md)现已排600s/2GiB，逐整位/每64逆代保真状态，先逆列缩放再原DAG，接冻结4367消费者；只全原核验后更新29真核及4318…4325秩。
 
 **通用维数型两费路线已排。** [四头/十一位真反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)在全部高低旗/完整右对偶/规范负图均保留时给μ=1、Xi²→0，所以任意nilpotent头不存在κ(h)。原A_m及连续尾不属该族，继续原实际权、共同Green残量与同w来源，不再试以nilpotence/通用收缩单独封口。
