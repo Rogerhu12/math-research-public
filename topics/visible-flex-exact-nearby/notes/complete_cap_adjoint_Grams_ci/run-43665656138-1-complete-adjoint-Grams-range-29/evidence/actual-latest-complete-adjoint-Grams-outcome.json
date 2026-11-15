@@ -1,24 +1,32 @@
 {
   "kind": "actual_complete7908_same_proposal_physical_adjoint_residual_Grams_v1",
   "phase": "range",
-  "complete": false,
+  "complete": true,
   "failure": null,
   "gates": [
     {
       "name": "the_exact_original_scope_excludes_every_successful_pilot_quarter",
       "passed": true
+    },
+    {
+      "name": "every_requested_closed_quarter_has_its_complete_signed97_residual_Gram",
+      "passed": true
+    },
+    {
+      "name": "no_original_intrinsic_target_or_completed_pilot_quarter_recomputed",
+      "passed": true
     }
   ],
-  "seconds": null,
+  "seconds": 1846.899610002,
   "group": 29,
   "range": [
     7192,
     7440
   ],
   "completed_bundles": null,
-  "completed_quarters": 247,
+  "completed_quarters": 248,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 247,
+  "new_completed_quarters_this_child": 248,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -27,37 +35,12 @@
   "new_quarters_from_actual_ranges": null,
   "complete_Gram_trace_uppers": null,
   "complete_Gram_HS_uppers": null,
-  "mathematical_certificate_for_listed_range_only": null,
+  "mathematical_certificate_for_listed_range_only": true,
   "mathematical_certificate_for_complete_ordinary_adjoint_body_Grams": null,
-  "complete7908_adjoint_cover_proved": null,
+  "complete7908_adjoint_cover_proved": false,
   "complete_full_cap_high_to_low_bound_proved": false,
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
-    {
-      "index": 7437,
-      "request": [
-        1859,
-        4,
-        1
-      ],
-      "interval": [
-        "25265193909548481/9007199254740992",
-        "12632596954774241/4503599627370496"
-      ],
-      "true_adjoint_Gram_trace_upper": {
-        "ball": "[2.2305329786369032498179071937158298e-33 +/- 3.47e-68]",
-        "lower": "[2.2305329786369032498179071937158298e-33 +/- 3.47e-68]",
-        "mid_float": 2.2305329786369032e-33,
-        "radius_upper_float": 0.0,
-        "upper": "[2.2305329786369032498179071937158298e-33 +/- 3.47e-68]"
-      },
-      "exact_array": {
-        "bytes": 344851,
-        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-7437.npz",
-        "sha256": "2e1b586a64bc9db4fef8b49bb1906250a85ab51bdcddfa867872b6e46ceb2320"
-      }
-    },
     {
       "index": 7438,
       "request": [
@@ -82,14 +65,39 @@
         "file": "adjoint-quarter-7438.npz",
         "sha256": "8c34d26e843139c18aed309222d50da02a1b4e072dcddf99d2bfd5a28e4e090d"
       }
+    },
+    {
+      "index": 7439,
+      "request": [
+        1859,
+        4,
+        3
+      ],
+      "interval": [
+        "25265193909548483/9007199254740992",
+        "6316298477387121/2251799813685248"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[5.8235590253452003654388425402022203e-34 +/- 3.51e-69]",
+        "lower": "[5.8235590253452003654388425402022203e-34 +/- 3.51e-69]",
+        "mid_float": 5.8235590253452e-34,
+        "radius_upper_float": 0.0,
+        "upper": "[5.8235590253452003654388425402022203e-34 +/- 3.51e-69]"
+      },
+      "exact_array": {
+        "bytes": 344250,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-7439.npz",
+        "sha256": "a291a85a4466b178e1b160be37be5c623a4ba19c08e4eabf74f65553ac93a483"
+      }
     }
   ],
-  "native_sha256": "79719faa780563a9424b1dbdafef136b9424d9b0c81aecbf6428d927cded5203",
+  "native_sha256": "74ac3216e11d4ca52a502d1c64b9cf18247135061412df491c52bd8676e7efb4",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T03:12:12.101581+00:00",
-      "before": "1ab29f27ec26920c1ddaf769e039e2309bfe740a",
-      "after": "8837a3ae681bd26591111bbc0a0b0e390c60fabe",
+      "time": "2026-11-15T03:12:19.963190+00:00",
+      "before": "8837a3ae681bd26591111bbc0a0b0e390c60fabe",
+      "after": "c230da5e66156edaed505c59bdd8c64495445c1e",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
