@@ -48,6 +48,8 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再取真实M=T0/frameI控制D满足πVD=−πV0/4，Klein第一prototype四次插入，所有新增位移仍四左旋相消，保持TκH非零且整pure零。最终几何选择R183/R199合法圆后，最右f0区间的不可校正pure必要门整函数归零。无常段迁移不能只靠开放性；同g、嵌入/reach/有限幅度仍欠。
 
+[R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)进一步给每个紧pure目标集上的真实C1截面D(p)，固定有限词/整数/共同包络且M=T0/frameI、πVD=p。E_P及完整未知基准的C1性已付，先定两商截面、后取统一有限n收缩与IFT。对保低阶的外扰动用全P参数u解Φ_z(u)=p，同时修商/响应；只用响应t不足。下一去开常段须另证结构词或完整低阶Jac，不能因R189仅八M加omega就冒完整T保持；这与固定圆joint任务并行。
+
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
