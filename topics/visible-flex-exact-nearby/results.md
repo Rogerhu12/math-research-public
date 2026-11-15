@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：完整physical严格截面的Darboux接收](results/R133-supplement-complete-strict-physical-Darboux-receiver.md)：以已成全τscalar接原P⊥/J/L/B/η−1和完整primitive–mean/ng/Tq；freeR2/R3保全部四阶角/三阶混合、新产品、原freegap及单次n^-m输入费。全H−4/3→oldcircle L2pair+两mean的四贡献合同已证，数值与后续normalizer/incoming/全返回待。
+
 - [R133：原96腰行的exact selected初值与完整范数](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)：已证b0δ=−(αa+δz)/√2、A+Bδ+Dδ²及uniformmax=A+d|B|+d²D。base初值与首piece尚需新65位bitwise门；Z193与两zero-offset身份只读。四个δ半径只代数，不扩大PDE域；未算NFell0/第五列，数值待公开runner。
 
 - [R133：实际全τ Darboux误差与完整scalar接收](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)：43746008734/1 child0/23门成功，m3>.9999986308459、24系数/14运用/六receiver及五inhom已付。完整mean与H−4/3→L2、rawH−1、extraH−5/3窗口分开；旧math零重算。真实physical J/L/B/ng/q/freeR2/R3、incoming/全R0仍待。
