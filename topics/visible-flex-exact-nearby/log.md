@@ -120,3 +120,7 @@ DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄d
 2026-11-15 23:23:14 UTC DZA：root亲核全文、原12steps、14pins/4AST、25原球/六register及30处27种球；SCI26909/05036749和preGit37280/4af14c0b精确复原，旧数学0。
 唯一43773671216/1 child0/24，D强界及standardout已付subtotal保存；完整Ei/Eo/incoming/finite/return/背景仍待，成功禁重。
 本次双README读取68fa2d402bb7c3695b50a28739566abe6ece3511，blob未变；本机22:59:32真CLI无executor，继续根规8小文本例外，未冒真pull。
+
+2026-11-15 23:23:49 UTC SEIA：root全文及107处89种球、9ordered pins/245579B和3AST digest独核；SCI35198/e830e10b、preGit38060/bf61fe8d逐字复现。
+原43773319871/1 child0/20，2/2真实同号门pass；完整principal shared K0<1.034/K−<7.823，同一逆/mean/原fallback全保，旧数学0/0exp；fullincoming/finite/return/背景仍待。
+双README读取b7fb7097f732da3917f06b6e494ef30e2f269853未变；本机22:59:32真CLI仍无executor，根规8小文本例外继续。
