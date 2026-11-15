@@ -499,3 +499,7 @@
 ## R271：原缩放相似、Chebyshev完整源能量与明确moving模型窗口（2026-11-15）
 
 [完整证明](results/R271-appendix-scaled-head-similarity-chebyshev-source-energy-and-moving-model-window.md)保原N/Y物理权，取真实小齐次Jordan权ρ/d0，准确S及逆的Cauchy界给logχ≤(35/3)d⁴+5d³+O(d)≤47d⁴/4。完整能量中的Chebyshev候选grade≤L，严格δ²≤min(1,4ϑ^(2floor(L/(d−1))))||f_L||²，ϑ=(√χ−1)/(√χ+1)，无旧χ²前因子。配兼容塔取x=ceil e^(12d⁴)、L=ceil e^(71d⁴/12)、Q≥x−m+L，原全头实际u平方≤36e^(−d⁴/6)+4e^(−x/12)+4exp[−2e^(d⁴/24)/d]；显式k_pol∈K_(m,L)且与同f_L距离趋零。原carry修复保完整两侧高幂R0^(j+ℓ+1)，旧合法母窗e^(26d³)并未扩大；同T核lift和实际w低输出仍待付。
+
+## R150：全局第二系数像恰U7、指数二重数五与精确余乘子约化包络（2026-11-15）
+
+[完整原来源证明](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)把全部197真R2、7原U7种子、505自由/315坐标/参数闭包及DAG实核为I2=U7，χI2=(s−1)²(s−2)^5。结合完整I1得指数恰二的重数5、χ=(s−1)(s−2)^4；Δaff≤299和μ≤21不变。另实际Ω小审计核全部121有理系数31整及f²，根和独立代理对两实际receipt全121/316系数乘回，确认barΩ=Q60²并得barμ|(s−1)(s−2)²P+²P−²E6。新完整global I3 colon明确保197纠偏除源、7个sI−J7图关系、b8和pb9；下一p4产品未算，不拿当前数组补零。完整root2第四页210条recipe已0.510477秒实核，但p7原产品/第四像仍未付。

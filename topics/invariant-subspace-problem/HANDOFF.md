@@ -31,9 +31,9 @@
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
 - 旧P Hermite/localized失败与minor并发重拉恢复身份保前态；不重走爆长路线。
 
-- **[全56单核Ω120](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒全核，exec7fe5575b/raw4927·93bcf19e/binding3456b533；临时cert39654723B·147a40fa/payload0ca29224。旧live新step33仅读12999B upper和paid Ω，核121系数约化/因子（60s/512MiB）；barΩ与field Q60²尚待逐系数比较，不重det/core/profile。
+- **[全56单核Ω120](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒全核；cert39654723·147a40fa/payload0ca29224。step33约化审计0.002218695秒核121系数整性及平方；根/独立逐121/316系数核barΩ=Q60²，故barμ|(s−1)(s−2)²P+²P−²E6。outereca924ad/raw3463·b536af2e；未断μ1。
 
-- **全局197已完成：** run43772109844/step3实际293.56143218秒，复用26stage后全43stage/197原4367产品/505自由/315/J/DAG真；I2=U7维7、χ=(s−1)²(s−2)^5，t2=5，Δ≤299/μ≤21保持。outer f6b83a6e/raw46870·5d9fc76f；完整系统14868B·5d3160c9/payload a26534a0。新step4/5仅恢复6旧小件并重建完整210条root2第四页recipes（30s/512MiB）；p7产品/第四像仍未付。request同notes/2026-11-15-r150-global197-original-i2-session-request-789f.json，tmp仍在该run。
+- **[全局I2已完整等于U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，197原4367/505/315/J/DAG真；χI2=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21保持。outerf6b83a6e/raw46870·5d9fc76f，系统14868·5d3160c9。I3全colon保197纠偏除源、7参数关系及b8/pb9。step5完整210已0.510477秒全核，recipe33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。新step6/7恢复原primitive并建F127原model，NF/GB/∞资格待付。request仍notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
