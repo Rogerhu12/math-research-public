@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 13:42:31 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 44672627d631c40acdda5e53212199b60613c8f7。
+规则同步记录：2026-11-15 13:42:32 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 51121ebd2c7c38f337157c5b0cc978c4d9784619。
 
 集成复核：2026-11-15 13:36:12 UTC API读取main 3018f7988496be95654cdf16b35192088ae40673，根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变；API不是git pull。共同JSON限定源已发表，152/150继续实际接线；未声称编译通过。
 
