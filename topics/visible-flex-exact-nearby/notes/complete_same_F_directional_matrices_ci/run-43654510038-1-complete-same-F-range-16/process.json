@@ -120,6 +120,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:54:22.870190+00:00",
+      "before": "36b63d4b310539b37f3b9020df8e0af5a86a2370",
+      "after": "bf0fb226c7ab58d9d9b5cc0e9a31cb310047f551",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -152,6 +160,11 @@
       "time": "2026-11-15T01:34:13.878872+00:00",
       "final": false,
       "commit": "1ea293cc5f826c7efd28e3e6c7c18d13c9921380"
+    },
+    {
+      "time": "2026-11-15T01:44:19.985539+00:00",
+      "final": false,
+      "commit": "8f2a1b0b5753dbc704c4718761aa697c3b7dd097"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -192,7 +205,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "36b63d4b310539b37f3b9020df8e0af5a86a2370",
+  "last_read_commit": "bf0fb226c7ab58d9d9b5cc0e9a31cb310047f551",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -398,8 +411,8 @@
     "slice_id": 8
   },
   "original_empty_failed_range_native_sha256": "c6723e2263a98f632ea24ce75f7344f4ae72e83f40c978057024b4dbde1ccff2",
-  "snapshot_utc": "2026-11-15T01:44:17.558855+00:00",
-  "wall_seconds": 3695.7807687990003,
+  "snapshot_utc": "2026-11-15T01:54:22.913115+00:00",
+  "wall_seconds": 4301.135025302,
   "native_files": [
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
@@ -416,8 +429,8 @@
     {
       "logical_file": "native/complete-same-F-range-16.json.gz",
       "file": "native/complete-same-F-range-16.json.gz",
-      "bytes": 1040557,
-      "sha256": "98bd09aa92cc0f7fc625e3ec6c54d9f7bcfc08883bfce652de448a5cb73180be"
+      "bytes": 1214885,
+      "sha256": "ba8d037e3042c1003d8c44b46c8d576c95dea2d913c7981b139ebf4ceced2f9d"
     }
   ]
 }
