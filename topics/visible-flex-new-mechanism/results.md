@@ -173,3 +173,5 @@
 - [R211：固定圆period的有限相容条件与准确Green右逆](results/R211-finite-range-conditions-and-Green-inverse-for-fixed-circle-period-gauges.md)：G″紧支撑J的明确目标类，正则A_f上2齐次adjoint矩+7 Green矩准确iff且唯一；有限m个内部简单退化点另需m条累计通量，Hadamard保持原常数给光滑延拓。R210 pure0后两真实mixed函数逐一通过即可同谐波w消整个period，保第三range/种子/左尾。未验具体目标或同w ruling，排除类与退化边界明确。
 
 - [SOC等价缩放首个实际：两次修正成功及入口新峰](notes/soc-equivalent-scaling-first-actual-20261115.md)：actual43687834522/sourcef03c4eb，10主模型/2SOC/12LP、10真实接纳，ηmax .26652303622182338→.26651100522045557。两次SOC有限最优、原单位残差≤1.06e−22且曲率实际门修复；101.822s活动/720.832s全程，fineJac仍主导。末峰t=.09证明34体段列不能单独strict-max下降；下一纸核103入口/体段列。原.26与连续等距/reach均未付，前缀与新科学分账、不复跑旧结果。
+
+- [同g入口与体段103列的完整支持](notes/same-g-entry-body103-support-20261115.md)：原163态中S=[0,54)∪[81,129)∪{153}，其余60列固定；B3..B8止于.36至.765，Q为原W5B3。保完整入口ramp、O(x5)/O(x8)端口、角闭合及[0,tc]∪[.765,L]六jet不变。轴上T固定不使ΠT/E固定；外域max与固定b²−1是后继真实下界。没有新自由基或可行下降断言，常量门与原tol必须正确分块。
