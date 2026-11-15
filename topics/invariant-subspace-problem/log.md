@@ -663,3 +663,8 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 - boundary_core/root（AI-assisted: GPT-6 Astra Pro）直接核原总孔顶部，Q≥R+h−1时新显式正交来源保原VQ/KQ/u；原完整头逆未压低支撑。
 - 逐层占据方差身份与标量负相关给h≤2x的整残量平方≤54x^-3||g||²；新forcing删除项和混合全部保留，不套旧vac正Gram。
 - 同步记录actual J仅root2一维、全56精度2失败为MemoryError；两README不变，交实际终端pull/rebase/push，继续原同源返回。
+
+### 2026-11-15 actual J1/299与完整原f60因子
+- literature_audit/root（AI-assisted: GPT-6 Astra Pro）全核actual J=k[s]/(s−2)，C/pC长314、Δ≤299、barR141/root2u+v2；未预填J22或p²h0结论。
+- 全56已付modf21/corank1及11165原Schur核，f60|Ω|f60²；九共同乘子≤81/总104、Q源8471；monic K158f保原D*给已有来源全精度8595。
+- 两独立基础在证明内分清，精度2MemoryError保原checkpoint并换两RHS；规则不变，交实际终端pull/rebase/push，普通ISP继续。
