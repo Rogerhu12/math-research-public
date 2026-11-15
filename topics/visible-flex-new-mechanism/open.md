@@ -54,11 +54,11 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
-[R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。本提交派 character_minus2_static_parity：直接联合a(1/2)和全部Q2错误奇偶±行继承旧系统；新8人工已过，不先派缺此已知关系的中间singlecut计算。待新准确双证或外点，旧完整数据不重算。
+[R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。[联合实际](notes/character-minus2-static-parity-actual-20261115.md)43668125602已完整结束：68条必要半空间仍有新有理外点，原63/124/RREF/六积分保持，四错误degree全扫；旧23仅坐标接口，不称更新后自由度。新点完整14系数正按已有真实门解释，旧数据不重算。
 
 [R167](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md)给完整最高层有限充分证书：四单项Z的常4×4 Gram加两个真边界参数，PSD及R148轴向门即充分。后继点若取得准确证书可转低层/真实关系；Gram不可行不等于有负路径，不为已排旧点重测。
 
-[R166](results/R166-static-negative-direction-of-the-first-finite-character-candidate.md)已严格排首外点：a(1/2)=−11/64，μ=(0,0,2,0,0,0,0,0)，完整14族/23自由坐标已存。真实常段及固定两连接+整frame周期实现负全action。下一消费者只给旧必要锥追加a(1/2)≥0，保旧RREF/63行/六积分；不当整锥或真字符全排。
+[R166](results/R166-static-negative-direction-of-the-first-finite-character-candidate.md)已严格排首外点：a(1/2)=−11/64，μ=(0,0,2,0,0,0,0,0)，完整14族/23自由坐标已存。真实常段及固定两连接+整frame周期实现负全action。该行已由联合43668125602追加，保旧RREF/63行/六积分；此具体旧点结案，不当整锥或真字符全排。
 
 [R165](results/R165-prescribed-h-quadratic-highest-action-and-loglinear-frequency-gate.md)已将本权最高action准确化为I0[h]+固定h的四阶k二次型，全部H/Q4保留。log-linear共轭给 d t²+(2d+g−e−c)t+(d+g+b+m+c+j)≥0 全t≥0的必要门；有严格负点才定向补一条有理t行，不盲扩网。该子类通过不授一般h或完整低层正性。
 
