@@ -1,0 +1,468 @@
+{
+  "kind": "exact_inputs_for_correlated_complete_first_Airy_local_numerator",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arb_precision_bits": 320
+  },
+  "input_paths": {
+    "extension_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+    "extension_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+    "fold_native": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+    "fold_process": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md"
+  },
+  "external_completed_natives": [],
+  "mathematical_parameters": {
+    "residual_Taylor_order": 10,
+    "completed_first_correction_Taylor_order": 12,
+    "maximum_output_angular_derivative": 2,
+    "fixed_intrinsic_parameter": "eta_0",
+    "complex_delta_radius": "1/100000000",
+    "old_radial_Cauchy_radius": "1/6000",
+    "old_angle_Cauchy_width": "1/128",
+    "physical_inner_radius": "9/1000000",
+    "output_angle_widths": [
+      "0",
+      "1/1024",
+      "1/512"
+    ],
+    "physical_Fourier_multiplier": 4,
+    "original_completed_Taylor_intrinsic_or_target_outputs_recomputed": 0,
+    "principal_mu": "Q^2*(X_phi^2+T*T_phi^2)",
+    "actual_numerator_not_normalized_by_mu": true
+  },
+  "original_complete_input_identity": {
+    "Taylor_run_id": "43664023495",
+    "Taylor_run_attempt": "1",
+    "Taylor_native_sha256": "758a2901d194e9d54ec10bb5004014ee34a972c35367589fd5c86afce3f30c9f",
+    "Taylor_source_sha256": "42048094f7c5e0ba3b83f10e9e6fcbc5cd4c5b3d67057f69241409a5a4be87a1",
+    "Taylor_manifest_sha256": "5700ded5038d500d14f43dfa69994665d2688f220de155128fff1fec6286e3a5",
+    "fold_run_id": "43647998272",
+    "fold_run_attempt": "1",
+    "fold_case": 1,
+    "original_case_whole_old_product": true
+  },
+  "selected_original_complete_stage_inventory": [
+    {
+      "name": "complete-background-root-series",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8"
+    },
+    {
+      "name": "complete-local-operator-series",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-series.json.gz",
+      "bytes": 198895,
+      "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2"
+    },
+    {
+      "name": "leading-complete-T",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-T.json.gz",
+      "bytes": 62096,
+      "sha256": "7be8b1c013adc7d23f08db629816078b6cb2b43a846c6d9a9704a5bddee62ab5"
+    },
+    {
+      "name": "helper-complete-T0-d-through-twelve",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/helper-complete-T0-d-through-twelve.json.gz",
+      "bytes": 48855,
+      "sha256": "e30b6e09e96d237ae8ff5e0baa9980787f55b13d1ca5ed9364eca84938ed10a6"
+    },
+    {
+      "name": "helper-complete-vartheta-Q-through-twelve",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/helper-complete-vartheta-Q-through-twelve.json.gz",
+      "bytes": 241693,
+      "sha256": "ede1bbd9a53babc6ba7a413cf0ced5348aecadb99ede50a17234584195da203f"
+    },
+    {
+      "name": "first-correction-degree-000",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-000.json.gz",
+      "bytes": 4421,
+      "sha256": "c51b07ca3bd78422f4655070f18e1d760aca9953423999fce94737a04ebc567e"
+    },
+    {
+      "name": "first-correction-degree-001",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-001.json.gz",
+      "bytes": 10387,
+      "sha256": "35a459b6ed8f047adde8f6b34dd527a34dbdbc22fc4fe812ffc31722a12283e2"
+    },
+    {
+      "name": "first-correction-degree-002",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-002.json.gz",
+      "bytes": 15298,
+      "sha256": "5ee0693759865d7f57084c55afad785c61eb35ea453d53e2bce7363425a3ae9b"
+    },
+    {
+      "name": "first-correction-degree-003",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-003.json.gz",
+      "bytes": 20173,
+      "sha256": "5f50cb0dff88aeab1036a1e1f47cb27a38112d840662eb94c46e08b1b5813869"
+    },
+    {
+      "name": "first-correction-degree-004",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-004.json.gz",
+      "bytes": 25092,
+      "sha256": "b63aa11d5c47f5645b2e4322c16b5d2a61a97363c591b3f49a66fa516c1e8023"
+    },
+    {
+      "name": "first-correction-degree-005",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-005.json.gz",
+      "bytes": 29840,
+      "sha256": "4fd0e9b0b09829c8e709cc525f3d987d5a20f07d13ccf2e18bb29d982c473ee8"
+    },
+    {
+      "name": "first-correction-degree-006",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-006.json.gz",
+      "bytes": 34835,
+      "sha256": "4fd2b3889cde56e0128b0a1f5a3b3d99f378413c6c7c39522e7d73cca2e7df93"
+    },
+    {
+      "name": "first-correction-degree-007",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-007.json.gz",
+      "bytes": 39936,
+      "sha256": "aaa92f4c43d1300e307bbabd7a8dfc7aa15289eaaf90263861db8e4cddc30130"
+    },
+    {
+      "name": "first-correction-degree-008",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-008.json.gz",
+      "bytes": 44934,
+      "sha256": "ba0f7fc3737ea00aa95c76bd8e2c4fdc4ca368360b22478a185c952e30c03afb"
+    },
+    {
+      "name": "first-correction-degree-009",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-009.json.gz",
+      "bytes": 49900,
+      "sha256": "4c6efe73556c13c670ebeb6543766f3bd3e9345c2c1342d0e553723f14ed8738"
+    },
+    {
+      "name": "first-correction-degree-010",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-010.json.gz",
+      "bytes": 54521,
+      "sha256": "15f9560b1b9ab4112f2fb09b5d8cfc9398838cb7b24c67b2d137c7488746975a"
+    },
+    {
+      "name": "first-correction-degree-011",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-011.json.gz",
+      "bytes": 59501,
+      "sha256": "e5d8d1f0376bb0c8982524a699e45cd7adb69871ea87a6deedae9badf6229b12"
+    },
+    {
+      "name": "first-correction-degree-012",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-012.json.gz",
+      "bytes": 64694,
+      "sha256": "78bbf8769be5d7bcf2835e5e5c7583836ead8f192c76f28632959e6b0feb7869"
+    },
+    {
+      "name": "background-drift-degree-009",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-drift-degree-009.json.gz",
+      "bytes": 2967,
+      "sha256": "824308ac8f29bbd8bd9fe93c1f780916f08122973d3e56e3ea9221ba527c0123"
+    },
+    {
+      "name": "background-drift-degree-010",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-drift-degree-010.json.gz",
+      "bytes": 3019,
+      "sha256": "1a56fe8e2d960516c65d933d9fa9483df5fe5f124e4f8647da521bc96f5bc486"
+    },
+    {
+      "name": "complete-local-operator-degree-007",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-007.json.gz",
+      "bytes": 28708,
+      "sha256": "57c8812e5209c5882faca592aa2d9687a66c453324023c10649cc9515deaf90d"
+    },
+    {
+      "name": "complete-local-operator-degree-008",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-008.json.gz",
+      "bytes": 28607,
+      "sha256": "365fd7338933760b21232fb9528c5c0f7748dd6af278fadc53741c26375991cd"
+    },
+    {
+      "name": "complete-local-operator-degree-009",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-009.json.gz",
+      "bytes": 28335,
+      "sha256": "1137a2b6ceda5df8c0fd9075e6a004ebc3be09bbc13cffc528256d7cded23fc9"
+    },
+    {
+      "name": "complete-local-operator-degree-010",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-010.json.gz",
+      "bytes": 28536,
+      "sha256": "e0aecdf4c98a7eed266dae418c07e5196bde8679911ce9e903d2513e7604e81b"
+    },
+    {
+      "name": "leading-T-degree-009",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-009.json.gz",
+      "bytes": 19089,
+      "sha256": "aac9ffd9731d52365aba100a5a4712e3d4e666bf208b774b90c9ef947857e21d"
+    },
+    {
+      "name": "leading-T-degree-010",
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-010.json.gz",
+      "bytes": 21602,
+      "sha256": "9f86a9e1ac5b0100fb23c938b62575dc0cebe4ecbf9f0bd8befe483ba6dec7e1"
+    }
+  ],
+  "new_outputs": {
+    "complete_signed_residual_coefficients": 11,
+    "supporting_helpers": 11,
+    "complete_Fourier_norm_rows": 33,
+    "whole_product_and_positive_radial_tail_stages": 2,
+    "complete_sup_and_Wiener_budget_stages": 3,
+    "natural_new_stages_total": 60
+  },
+  "recovery": {
+    "same_new_source_runtime_manifest_and_all_original_byte_pins_required": true,
+    "every_original_failed_prefix_kept": true,
+    "stage_checkpoint_immediately_after_success": true,
+    "original26_input_stages_never_recomputed": true,
+    "new_large_natural_files_preserved_whole_in_original_Actions_artifact": true,
+    "no_artificial_file_splitting": true
+  },
+  "scope": {
+    "fixed_eta0_full_complex_delta_same_actual_root_piece_only": true,
+    "complete_old_mean_and_all_Fourier_outputs_retained": true,
+    "all_infinite_radial_and_angular_tails_paid_in_declared_norms": true,
+    "no_improvement_assumed": true,
+    "old_circle_nonlocal_and_independent_even_mean_remain_separate": true,
+    "reconstructed_JP_Airy_operator_radial_integral_or_strong_return_claimed": false
+  },
+  "files": [
+    {
+      "path": "scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b",
+      "role": "old_rho_root_Taylor_algebra"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-old-rho-first-Airy-Taylor-CI-inputs.json",
+      "bytes": 10222,
+      "sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad",
+      "role": "original_completed_definition_archive"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-old-rho-first-Airy-Taylor-extension-CI-inputs.json",
+      "bytes": 43619,
+      "sha256": "5700ded5038d500d14f43dfa69994665d2688f220de155128fff1fec6286e3a5",
+      "role": "Nraw_template_manifest"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+      "bytes": 20319,
+      "sha256": "84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077",
+      "role": "actual_complete_original_fold_native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json",
+      "bytes": 46443,
+      "sha256": "855730f8bf86d04c6cc7622e1881f9fc29a2af754694dfaf5dad16012b98544e",
+      "role": "actual_complete_original_fold_process"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+      "bytes": 88854,
+      "sha256": "758a2901d194e9d54ec10bb5004014ee34a972c35367589fd5c86afce3f30c9f",
+      "role": "actual_complete_original_extension_native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+      "bytes": 34792,
+      "sha256": "42ab23b97ce922b042b8291af46cfe8c44ffd7e90ba1e2a6049caef263b7224e",
+      "role": "actual_complete_original_extension_process"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-drift-degree-009.json.gz",
+      "bytes": 2967,
+      "sha256": "824308ac8f29bbd8bd9fe93c1f780916f08122973d3e56e3ea9221ba527c0123",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-drift-degree-010.json.gz",
+      "bytes": 3019,
+      "sha256": "1a56fe8e2d960516c65d933d9fa9483df5fe5f124e4f8647da521bc96f5bc486",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-007.json.gz",
+      "bytes": 28708,
+      "sha256": "57c8812e5209c5882faca592aa2d9687a66c453324023c10649cc9515deaf90d",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-008.json.gz",
+      "bytes": 28607,
+      "sha256": "365fd7338933760b21232fb9528c5c0f7748dd6af278fadc53741c26375991cd",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-009.json.gz",
+      "bytes": 28335,
+      "sha256": "1137a2b6ceda5df8c0fd9075e6a004ebc3be09bbc13cffc528256d7cded23fc9",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-degree-010.json.gz",
+      "bytes": 28536,
+      "sha256": "e0aecdf4c98a7eed266dae418c07e5196bde8679911ce9e903d2513e7604e81b",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-local-operator-series.json.gz",
+      "bytes": 198895,
+      "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-000.json.gz",
+      "bytes": 4421,
+      "sha256": "c51b07ca3bd78422f4655070f18e1d760aca9953423999fce94737a04ebc567e",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-001.json.gz",
+      "bytes": 10387,
+      "sha256": "35a459b6ed8f047adde8f6b34dd527a34dbdbc22fc4fe812ffc31722a12283e2",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-002.json.gz",
+      "bytes": 15298,
+      "sha256": "5ee0693759865d7f57084c55afad785c61eb35ea453d53e2bce7363425a3ae9b",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-003.json.gz",
+      "bytes": 20173,
+      "sha256": "5f50cb0dff88aeab1036a1e1f47cb27a38112d840662eb94c46e08b1b5813869",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-004.json.gz",
+      "bytes": 25092,
+      "sha256": "b63aa11d5c47f5645b2e4322c16b5d2a61a97363c591b3f49a66fa516c1e8023",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-005.json.gz",
+      "bytes": 29840,
+      "sha256": "4fd0e9b0b09829c8e709cc525f3d987d5a20f07d13ccf2e18bb29d982c473ee8",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-006.json.gz",
+      "bytes": 34835,
+      "sha256": "4fd2b3889cde56e0128b0a1f5a3b3d99f378413c6c7c39522e7d73cca2e7df93",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-007.json.gz",
+      "bytes": 39936,
+      "sha256": "aaa92f4c43d1300e307bbabd7a8dfc7aa15289eaaf90263861db8e4cddc30130",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-008.json.gz",
+      "bytes": 44934,
+      "sha256": "ba0f7fc3737ea00aa95c76bd8e2c4fdc4ca368360b22478a185c952e30c03afb",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-009.json.gz",
+      "bytes": 49900,
+      "sha256": "4c6efe73556c13c670ebeb6543766f3bd3e9345c2c1342d0e553723f14ed8738",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-010.json.gz",
+      "bytes": 54521,
+      "sha256": "15f9560b1b9ab4112f2fb09b5d8cfc9398838cb7b24c67b2d137c7488746975a",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-011.json.gz",
+      "bytes": 59501,
+      "sha256": "e5d8d1f0376bb0c8982524a699e45cd7adb69871ea87a6deedae9badf6229b12",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-012.json.gz",
+      "bytes": 64694,
+      "sha256": "78bbf8769be5d7bcf2835e5e5c7583836ead8f192c76f28632959e6b0feb7869",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/helper-complete-T0-d-through-twelve.json.gz",
+      "bytes": 48855,
+      "sha256": "e30b6e09e96d237ae8ff5e0baa9980787f55b13d1ca5ed9364eca84938ed10a6",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/helper-complete-vartheta-Q-through-twelve.json.gz",
+      "bytes": 241693,
+      "sha256": "ede1bbd9a53babc6ba7a413cf0ced5348aecadb99ede50a17234584195da203f",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-T.json.gz",
+      "bytes": 62096,
+      "sha256": "7be8b1c013adc7d23f08db629816078b6cb2b43a846c6d9a9704a5bddee62ab5",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-009.json.gz",
+      "bytes": 19089,
+      "sha256": "aac9ffd9731d52365aba100a5a4712e3d4e666bf208b774b90c9ef947857e21d",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-010.json.gz",
+      "bytes": 21602,
+      "sha256": "9f86a9e1ac5b0100fb23c938b62575dc0cebe4ecbf9f0bd8befe483ba6dec7e1",
+      "role": "unchanged_complete_Laurent_Taylor_stage"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md",
+      "bytes": 7979,
+      "sha256": "8bf949ce602ecd2dfa23ded74a78d01aa8b75881b5ccf9a5905a46512f105862",
+      "role": "original_completed_definition_archive"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md",
+      "bytes": 14646,
+      "sha256": "68ad0339ba0792c7cd45598f00a4073a51149a5297344f97fc1d63a3a64296b9",
+      "role": "Nraw_contract_record"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_first_Airy_local_numerator_CI.py",
+      "bytes": 14251,
+      "sha256": "a9b69b58d260a2ea6adcf19249d12f12f22eca97eb3491077ad5c3147309aff1",
+      "role": "Nraw_CI_record"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_first_Airy_local_numerator.py",
+      "bytes": 35134,
+      "sha256": "e9024812c2f87fe18cb43fcdd5661b6063cc7e5cf5ba4380af5b8a5d50e605fe",
+      "role": "Nraw_source_record"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension.py",
+      "bytes": 53507,
+      "sha256": "42048094f7c5e0ba3b83f10e9e6fcbc5cd4c5b3d67057f69241409a5a4be87a1",
+      "role": "T12_source_record"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor.py",
+      "bytes": 42441,
+      "sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+      "role": "original_completed_definition_archive"
+    }
+  ]
+}

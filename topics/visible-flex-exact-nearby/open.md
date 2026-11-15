@@ -48,7 +48,7 @@ phase_inverse和root负责。原root1300行、forcing1328行、seam1079、negati
 
 [根值剥离actual](results/R133-supplement-actual-root-value-subtracted-first-Airy-derivatives.md)43663147595 child0/9门：7norm/1tail/6profile/653 normalized seam/1036新行，前三R=.001/.002/.005双侧路径全过，负local<4.337713e20/5.654995e20/7.954848e20。后三fixedX/正optical新门失败，3323行原完整界保。根mean乘M0及其二导、真正forcing jump与实r两ray全保。
 
-完整b*源合并44+9pin五件已装：SCI314c092b…/CIad078acd…/manifestbd17d377…/worker0e3fb82d…，只用新表消费1036行的同一九词/五mean，3323原payload逐字复用；原profile/1328转换/旧local积分全0重算。待actual立即独推并消费。[相关Nraw完整合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)已证：μL0w1 degree0..10先作全signed有限Taylor合成，同旧R1/6000/Σ1/128以正闭式U/V、完整角Leibniz和两种独立Wiener候选支付全部尾；保mean/ε两branch，不借sup当Wiener。phase新consumer只读26原stage及接受的完整old-product证书，尚无新actual，不重算高根。继续真实seam修正、正weighted端口、完整strong return与充分cutoff；单独source component不等于全trial或未知高频解。
+完整b*源合并44+9pin五件已装：SCI314c092b…/CIad078acd…/manifestbd17d377…/worker0e3fb82d…，只用新表消费1036行的同一九词/五mean，3323原payload逐字复用；原profile/1328转换/旧local积分全0重算。待actual立即独推并消费。[相关Nraw完整合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)已证：μL0w1 degree0..10先作全signed有限Taylor合成，同旧R1/6000/Σ1/128以正闭式U/V、完整角Leibniz和两种独立Wiener候选支付全部尾；保mean/ε两branch，不借sup当Wiener。新consumer39pin五件已部署（SCIe9024812…/CIa9b69b58…/manifest121240b3…/workeracd69d4f…），只读26原stage及完整old-product证书，新增11Nraw/11helper/33norm/2tail/3budget共60stage；尚无新actual，不重算高根或原280stage。继续真实seam修正、正weighted端口、完整strong return与充分cutoff；单独source component不等于全trial或未知高频解。
 
 ## 5. 全无限外网络与物理C²恢复
 

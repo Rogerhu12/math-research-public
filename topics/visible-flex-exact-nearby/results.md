@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 相关local分子的39pin公开Actions入口已接：[解析合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)原SHA保留，只读26个原完整自然stage，新增60stage的完整signed Nraw0..10/独立sup与Wiener尾。三份代码静态分隔核通过，实际AST/数学门留公开Actions；尚未宣称新数值改善。
+
 - [强层衰减与实际齐次深尾的物理C²延拓](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)：w=δ^-64与完整有序源G给全root状态W_-2H8<2^1600000G；mean真实向外因果和双PoissonF³保留。实际root/strict/positive二jet≤2^131072J12δ^-32，根状态δ54合为物理δ22，原ρ/ε_s及高度gauge全保。此结论限齐次深尾；无限深源particular jets、参数源域与非线性仍待支付。
 
 - [相关完整local Airy分子与Taylor尾](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)：准确保D=−∂ρ−d∂φ及μ=Q²B+，Nraw0..10各Fourier signed项先合并；同旧复product给全部n≥11的正U/V尾、角Leibniz及独立sup/Wiener费用，mean与两ε branch全保。解析合同已证；新数值改善须公开Actions实际门，未授完整nonlocal/strong-return。

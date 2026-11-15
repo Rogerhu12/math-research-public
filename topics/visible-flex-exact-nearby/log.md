@@ -209,3 +209,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:01:35 UTC — 强层衰减及实际齐次深尾物理C²独立结论
 
 读main 4467022cbf2089f6554073230ef31cb6b3c0f579，两README不变。root全文核D1–30（原21626B/SHA9bff80b6…），另核原strict S9/10/17/33–36、完整positive C2–28与root真实源文；只将状态行改为准确已证范围。w=δ^-64，remaining频率换层余939/32，mean向外核W_-1←W1留下δ_j^6·2^-64(k−j)，全有序Schur差保两PoissonF³和U三段N。完整G源的全root强状态已付；三段无源物理二jet严格负段最坏87/4<22，统一δ^-32，层状态δ54最终δ22。保实际ρ/ε_s、共同高度gauge、相邻胞和所有mean/high/deep；一般无限深ordinary/weak/BV的particular二jet不在齐次结论内，代理继续，无新增数值数学。
+
+### 2026-11-15 02:04:25 UTC — 相关Nraw39pin五件接公开Actions
+
+读main c293ee1e69e0589952dee388bc60e5f56d26ea7b，两README不变。root全文读新SCI35134B/SHAe9024812…、CI14251B/SHAa9b69b58…、workflow6022B，worker20582B/SHAacd69d4f…相对已成Taylor12逐行差异核；manifest24895B/SHA121240b3…39inputs/26原stage/0external，不从connector读二进制。原stage有各自old/new source与manifest、相同runtime/完整系数身份，Nraw各项signed相加后才norm；独立完整正尾保全n≥11和角Fourier。新增11Nraw+11helper+33norm+2tail+3budget=60stage；原75/205stage全不重算。45/50/65min门、前后真实pull/两README diff、非FF真rebase循环及90日原artifact保留，所有已成prefix按同一源身份复用。当前只部署，后继真实JP全九词/mean/径向权和物理seam仍需支付。
