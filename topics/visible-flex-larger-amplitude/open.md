@@ -20,7 +20,7 @@
 
 [实际86完整结论](notes/2026-11-15-actual-request86-same-twenty-five-query-mid479-limit.md)、[完整原读数](notes/2026-11-15-actual86-original-readout.json.gz)、[17关系/64源身份](notes/2026-11-15-actual86-primary-identity-readback.json)已保存：run43668743515/source8d199eda/job132673870743全success，同25查询重建模型后接受1/16，同W merit43.48685863012245→43.46927199458273。最近1/8仅原MID479失域，beta²=-.07269811719200936，而25selected全正；原完整RMS与merit未到。另更大步各有不同mid/selected失败，不能推失败集合单调。接受步全部原node/mid/uniform/two698RMS通过，col.007108126495669972/BC1.2327443292297831e-8/原FD四阶7.06625124394275e-10；native/fullBVP仍false。最坏physical row155819仍在fullA/H，QP512stop和浮点gap不冒严格最优。
 
-[86完整byte附记](notes/2026-11-15-actual86-completed-reader-byte-audit-appendix.md)已保存：17关系、64原FD源→74完整源、18小原件和371描述器对应全核；Actions完整224domain/1454NPY、108condensed/38full/42refs、14raw454456080B、13observer/8mid已付，未导出QR仍非payload、无R276调用。89只补MID479的真实新轮已完成，五原件取回，formal继续；不重复86科学或运输。
+[86完整byte附记](notes/2026-11-15-actual86-completed-reader-byte-audit-appendix.md)已保存：17关系、64原FD源→74完整源、18小原件和371描述器对应全核；Actions完整224domain/1454NPY、108condensed/38full/42refs、14raw454456080B、13observer/8mid已付，未导出QR仍非payload、无R276调用。89只补MID479的真实新轮和正式原读数已完成，见1F；不重复86科学或运输。
 
 ### 1B. Native73：实际线搜索失败与全部十档模型下降
 
@@ -98,9 +98,13 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 
 **真实SDK工程结果：** [完整锁构建与干净安装](notes/2026-11-15-actual-native-live-SDK-lock-and-clean-install.md)已保存；run43668049747/source7181/job132671745626全success。所有21原件在 `notes/public-actions-43668049747-1-native-live-sdk-build/`，含真实package3876fc4e和完整lock9451fd2e（266依赖项），禁脚本生成锁及独立npm ci均0，SDK2.3.2 constructor实际加载成功。120项字节/来源核对通过；没有SDK artifact方法、科学计算或supervisor部署，原glob弃用warning保留，不虚称安全审计或跨平台保证。
 
-### 1F. 第89轮唯一26-query实际调度
+### 1F. 实际89接受1/32；94补两处真实487失败
 
-[完整接口](notes/2026-11-15-twenty-six-query-condensed-interface.md)与[主控静态回执](notes/2026-11-15-request89-root-static-check.json)已发布。四新源b5b72fde/b9954eb5/17908d4c/e10055b6、workflow45e881d6/requesta1a5bcd0只新增MID479，真实父86 warmd38/status7d6e/gzip610e；原55pins全保加4共59。17LEFT+9MID/53248行、17cells22nodes7439列/zero[]、C4059与全outside不变；MID读实际middle/mid、同一次完整J端点链。root全读四diff/全接口/两接线diff、119项/59pins11shell6inline；原35/25/80分钟、λ270/512/200/17trial/完整FD及所有原验收不改。新warm是否接受须实际Actions返回，不由静态核对预判；86完整reader和88 saved-model分析已成功，后续正式读回不挡本轮科学。
+[89完整结论](notes/2026-11-15-actual-request89-twenty-six-query-step-and-cell487-limits.md)、[全部原读数](notes/2026-11-15-actual89-original-readout.json.gz)、[17关系与来源身份](notes/2026-11-15-actual89-primary-identity-readback.json)已保存。run43671882961/source032c513a/job132683564697全success，六试步后接受1/32，同W merit43.46872005143614→43.46027880669424，原实际下降.00844124474189556；col.007108087973138992/BC1.1942221098966914e-8/原FD四阶1.0329572334412767e-9。success/native/fullBVP仍false。只读原报告与当次66源+observer、完整浮点词相同已付；完整687750414B/e2859210 artifact尚不冒本地全payload审计。
+
+新选MID479在全部六试步有效，但最近1/16仍仅MID487失域（beta²=-.00668183443965642，index982）。另1/4的所有原node/mid/26selected有效、原merit43.41518161646212确有下降，却被完整原RMS的LEFT487否决（fraction.17267316464601146、s1.2550366105017607、beta²=-.007792206623105091）。487的两种查询均不在本轮26selected内；这些记录不意味着失败集合随alpha单调，也不把不同父模型的改善唯一归因于新MID479。
+
+94从真实89 warm8985f7a5、decodedstatusc7852868/gzipc784987c继续，明确同时增加LEFT487与MID487，无27中间轮。四独立28-query源与唯一工作流已冻结，root逐diff/接口读与静态接线中；24端点465..488、完整B/H8115列由实际查询支持导出。C沿用原固定support公式并重新形成，完整outside新增487/488，不重用旧7439维H。原λ270/512working/200sweeps/17trial/完整FD及全部域、RMS、native门不变。完整byte reader仅补原载荷证据，不挡科学。
 
 ### 2A. 连续曲率输入的解析接口已补齐
 
