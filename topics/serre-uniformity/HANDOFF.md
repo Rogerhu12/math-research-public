@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：af5336d0ee84a6d14c8ea1bff98644dbcb8e5990**（2026-11-15T13:53:42.933048+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R820前H](notes/2026-11-15-handoff-before-R820.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：41e7dcdc502cde204b355e76fd076afbffa71389**（2026-11-15T13:54:41.738434+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R820前H](notes/2026-11-15-handoff-before-R820.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -16,7 +16,7 @@
 
 **R815运行run43719622321/source2a3300a9**：[契约](notes/R815-original-normal-derivation-operator-method.md)。真实R806/R813已齐，53个最小原文件纯IO全核；root全文核core/method/workflow，ordinary全文核wrapper。core80516ff9/wrapperab725da0/method5d312007/request4e01d5be/workflow4171ee9d；只Mg/Γ，分别六/五模点、各七准确点；不独立CRT Mh。Γ两列、nested源顺序/两图负号均保。请求已匹配真实source；尚无实际矩阵输出。
 
-**R811工程pending**：[极理想/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。首乘法core849bca27/wrapper2a1d1c28已审，真实R806已到，待R809 A/B；r5八模/九准确点。完整多项式核/Hermite/两向Laurent/τ全长＋σ零长度工程另稿已齐；原P不可变保留作MpH=MqW直验。[generic验证已成功](results/R811-certified-generic-polynomial-module-validation.md)：run43719858329/source3018f798，四真实exit97后准确复原，五结果同SHAc5cd89b2，不代实际原模型输出。
+**R811/R822原极格待A/B**：[首乘法契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)core849bca27/wrapper2a1d1c28已审，R806齐，仅待R809 A/B；r5八模/九准确点。完整char0核/HNF工程另稿已齐；[generic实际验证](results/R811-certified-generic-polynomial-module-validation.md) run43719858329四真实exit97后五结果同SHAc5cd89b2，不代原模型。[R822全长认证](results/R822-original-polar-lattices-certified-by-global-colength.md)现已证明：真实MAH=MBW给原极理想包含，双向Laurent拼接底环子格，实际τ degdet＋σ ord0det与独立1206相等即完整；不用先假定R理想或存整个char0 Euclid transcript。有限域候选须原b各因子×ζ两root全部CRT14块，不能假设14次域不可约；实际候选/全系数式/长度仍待。
 
 **R792/R804 pending**：[原β/立方根](results/R792-original-beta-composition-and-Galois-cube-root.md)core7b7a5483/wrappercdac2e93仅待R787；保c(f)=−ζ²f、y0=sv0、Fb唯一根，先CM值/首jet。随后[R804真点](notes/R804-original-CM-point-consumer-interface.md)coreecd9fc2a/wrapper5126b836，旧18项IO已核；原T7/全Gal/vβ/全部例外点保留，不重求5个Laurent核。
 

@@ -60,6 +60,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R811真实乘法待A/B**：[两图极前像证明](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。首scope core849bca27/wrapper2a1d1c28已全文审，实际R806齐，待R809 A/B；r5八模/九准确点，first-column/commutator、两图t^5因子保留。完整unimodular核/HNF和双向Laurent工程另稿已齐；原P不可变作全式验算，次数=τ全长＋σ在0局部长。generic实际run43719858329的四个exit97恢复/五结果同SHA只验证通用算法，不替实际原模型。五函数DAG/Norm/η刚性化常数不得被理想首一化丢掉。
 
+**R822完整极格的充分认证已证**：[全局余长度](results/R822-original-polar-lattices-certified-by-global-colength.md)。候选只需底环子格，完整原MAH=MBW给包含，双向Laurent使两图拼接；真实τ degdet＋σ在0的orddet与独立R791 deg(y)=1206相等后才给全部原极理想。有限域可用原b多项式的全部实际因子与ζ两root计算candidate，按全14原坐标CRT并公平推进真实profiles，最终全char0式/两图/长度必须通过；未知次数/系数不得由1206预填。仍未有原A/B或极格输出，完整char0 transcript保为另一个正确方案。
+
 **R815原Mg/Γ已激活**：run43719622321/source2a3300a9，core80516ff9/wrapperab725da0。R813实际53文件最小输入已核；R817精确证明只需Mg六模/七准确点与Γ五模/七嵌套准确点，We0=e1先核，两Γ列逐系数与完整[[Γ,W]+MgW′,W]=0给唯一原导子。不另CRT Mh，不形成ambient场迹全表；Γσ=tDΓD^-1−t²DMgD^-1diag eps，δσt=−t³DMgD^-1。实际矩阵待到。
 
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。

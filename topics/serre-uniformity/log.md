@@ -117,3 +117,7 @@
 ### 2026-11-15 21:53（Asia/Taipei）｜serre-public-astra-20261115
 - R821全文及原R616 c0/c1/正δ动作已核：整Hom格中保Φ_n(T)=0，互素cusp域的σ固定P，三阶目标上±1与Φ_n(±1)=1准确排实际非零像。proof e2e70e7a，未有理化挠点值。
 - 原y全部cusp为简单极点，r=x/a与h/a阶(p−2)/3经分歧微分公式核；非cusp极/同h单位/高度仍待。R820 proof已推49d4140e9，继续实际小producer与R822完整极格证书，主目标OPEN。
+
+### 2026-11-15 21:54（Asia/Taipei）｜serre-public-astra-20261115
+- R822全文及原R791 degree1206来源已核：原完整乘法式给子格包含，双向Laurent拼接后有限推前正合，实际全局余长度=1206排遗漏核。proof fdc5dc20，未先假定候选是R理想、未预填实际度数。
+- 原b各因子×ζ两root/14块CRT接口保留，generic已成后不加测试gate；真实A/B与两图输出仍待，root继续R820实际小scope。主目标OPEN。

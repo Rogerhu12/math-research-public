@@ -445,3 +445,5 @@
 - **R820（已证明，实际小消费者准备）**：[原cusp有限代数与两图完整Hermite理想](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。由真实R806 Q乘法/cyclic下降正规Q-form，273旧S3常数项同尺度比给F20评价；原两锚点均避cusps。逆序Z稳定链≤292候选/20扩维直接给canonical下三角HNF，实际20阶minor＋全部关系＋总长度20认证完整kernel。第二图由同F的Z^-1与Z^-eps运输，不重生Fourier，不假设E常数秩或Z primitive。新算术尚待Actions。SHA 5be4f04927348b1e73812d33893ce828085dc6121aaf65d4d0696378b52decda。
 
 - **R821（已证明）**：[全部允许p原整Hom的cusp像为O及原y简单尖点极](results/R821-original-all-prime-cusp-zero-and-simple-poles.md)。原c0归一化、δ固定cusp给实际C[1−ζ]像，原T保整Hom格且Φ_n(T)=0；互素cusp域允许σ固定P，在三阶像上作用±1，Φ_n(±1)=1排非零像。R819给不分歧，X→Y在cusp三重分歧故原y在Y为简单极；余下非cusp极除子仍待。原r=x/a及η=h/a在cusp阶(p−2)/3，固定尺度保留。SHA e2e70e7a0fb395362c7531a128c09aa6a1ff50a7ceb0bbac848ddc7313a56592。
+
+- **R822（已证明）**：[原两图极格的实际全局余长度认证](results/R822-original-polar-lattices-certified-by-global-colength.md)。原MAH=MBW全式给底环子格包含原极理想，双向Laurent拼接，真实τ全det次数＋σ在0局部det阶与独立1206相等迫完整；不预设R理想，不必保存整个char0列消元。原b模分解的各真因子×ζ两root全部恢复14块，严格候选/全原式/拼接/长度终验仍必需。尚无原候选输出。SHA fdc5dc20adedad42bbb12ce04c006bc413b35993878095fd686ab0799931b231。
