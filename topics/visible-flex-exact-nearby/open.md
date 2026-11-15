@@ -142,7 +142,7 @@ P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-
 
 ### 2026-11-15 cached complete intrinsic cap bounds deployed
 
-新18pin五件只消费原ea174511…4650闭行的β/γ/K intrinsic，帽区准确[9/10,25/8]按所有真实交段取有向max。恢复原32b430a2…manifest的4旧parts、6223338B原gzip，禁止新分片或旧target/grid重算。同η0/原ν0与same_intrinsic_cap_v2/germ逐行核。SCIb0e930d6…/CI79ccf028…/manifestf1ddde2a…；actual后与已成660 joint及P19/O14结合，当前部署未冒实际常数。
+原18pin consumer [43674917925/1实际完成](notes/2026-11-15-R133-actual-cached-complete-cap-intrinsic-bounds.md)：child0/9门/1.833708946s，原4650全表身份/覆盖校验后取1346真交段，b*=g*<5.639200000174<6、K*<.254600000149、k*=1。真[9/10,25/8]、同η0/原ν0、same_intrinsic_cap_v2/germ保。native145d6e55…/process02ad407e…/summary7a08e948…。0旧target/grid/660 Bernstein重算；本征界子项闭合，继续固定Φ0组合及P19/O14全δ帽闭合。
 
 ### 2026-11-15 two genuine neighboring pieces: complete consumer deployed
 

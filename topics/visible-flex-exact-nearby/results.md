@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际完整帽区本征界](notes/2026-11-15-R133-actual-cached-complete-cap-intrinsic-bounds.md)：43674917925/1 child0/9门，复用原4650闭行、1346真帽交段，b*=g*<5.639200000174<6、K*<.254600000149、k*=1；同η0与原本征对象，0旧网格/660 Bernstein重算。
+
 - [R133：两相邻真实片的相关射线完整源合同](results/R133-supplement-correlated-adjacent-piece-rays-and-first-Airy-source-transfer.md)已接244pin六件公开消费者：保存原80输入、150 Taylor阶段、六完整原case；只新增2548/2550相关差及其完整源行，全部非零入口、两ray、mean、旧I/J与真实接缝保留，待实际输出。
 
 - [R133：既成完整正区闭行到帽区本征常数的消费合同](notes/2026-11-15-R133-cached-complete-cap-intrinsic-contract.md)：18pin五件从原4650行精确恢复，核同η/ν/germ与全帽覆盖，消费β/γ/K闭球的完整上端；新660联合界仅原样引用，尚待实际执行。

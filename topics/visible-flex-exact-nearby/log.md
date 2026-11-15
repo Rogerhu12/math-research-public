@@ -395,3 +395,7 @@ phase_inverse科学SCI dd0cd551…51508B、algebra1860872f…24469B，root全文
 ### 2026-11-15 04:15:27 UTC：原 Taylor appended-leading schema 一行修复并续跑
 
 真43675153388/1是4身份门通过后的ValueError，244仓库+6原artifact已核，0新完整stage/row；实际SCI1.216838307s，worker2.92053829s。对照原append_series及调用，9..14阶payload.name准确应为leading-+key，0..8裸key不动。发布SCI f553b150…/244manifest76cf792e…/flowde815918…，其余输入及数学公式不变，不宽放resume。原失败完整保留，详新note。root已读Green04:08:31真pull→cb4f2dc…、七次两README空；本次README只读核e476551288282a66c7f0ac6aec9b2c6405817a57无变化。H压缩前逐字归档，继续全cap与两邻片，不等用户。
+
+### 2026-11-15 04:15:55 UTC：实际原缓存完整帽区 β/γ/K 上界独立入库
+
+43674917925/1 child0/9门，真实数学1.8337089459999945s、包装5.000526768s。全4650原闭行已核，1346真交段覆盖[9/10,25/8]，b*=g*<5.639200000174、K*<.254600000149、k*=1；max行4620/4620/3310。原4parts/6.2MB native及原660 Z联合结果原字节复用，无新intrinsic/target/Bernstein。native145d6e55…306998B、process02ad407e…6912B、summary7a08e948…5275B；artifact14146575124/6432157B/digest80a716b0…已核。四次runner真pull差空，末04:02:14→69d9ce86…已读，H保更新的04:08 Green真pull。README只读核ee7c13f56b6d87b2f0fa1e9938fe29cb521c77e8无变化。完整实际报告独推，继续将固定Φ0、P19主体与O14真外边界相接。
