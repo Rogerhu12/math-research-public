@@ -48,11 +48,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R308/317/319/320弱hook通道**：Af0曲段给真W≠0/单hook0，三左复幅三矩与八copy完整third已付。R319 I0排所有同向5/2曲段，与branch点号无关；正反块先在最终位置独立完成third，再同幅全θI0零。R320保原右常尾得反射三矩律，明确16轴bump原型→两相位Q4零→四实际正方向全R²锥，最终六对包络内付A−2,−3全部三外矩/全θ且保完整third。但右半右向、左镜像的朝外类即使面积及三directed均付，仍J=−K/3、Cd>K/3、D4=4(K+R)，原一层>BκK/9>0，负branch/任意strong-hook补块都不能救。下一R325朝向与半侧重排，必须同一profile联付全部原面积/一层/period/joint。
 
-**R312/315/318/321新初始端芽**：h=he(1+εσ²),κ≠0,ω常；原9参真实安装保M/frame/全词/闭合，先选新seed再固定g。真history=mrat+E Bε、E=atan(√εσ)/√ε，第三另有L=log(1+εσ²)；全gauge同We=span{1,h,h^-1}商，四词有理独立。R315付全部E8面积/三矩/third与E²三门；R318原local+chain residue=κ²ℒ，真τ/ξ/ν尾给cross0、C² self平移≤8，初选加27系数，全log清。R321完整七singleE行加三个E² principal恰10维，正判别式K³+24K²ε+16(7+19κ²)ε²；真偶母/复制不降维。新增187可冗余corrected-self含Γ/Green/local尾，十一真实交替包×有限χ正锥，保全部基线有限N真10零，全θ还原。同一个实际圆E²/log/E已全清；下一从R56全原式支付有理We商（不能只看principal），再全路径period/同w joint。未授完整第四或有限flex。
+**R312–324新端芽完整局部偶商已付**：h=he(1+εσ²),κ≠0,ω常，原9参真安装保M/frame/词/闭合，先选seed再固定g。真history有E=atan(√εσ)/√ε、L=log(1+εσ²)，四词有理独立，原全gauge同We=span{1,h,h^-1}偶商。R315平方三门、R318全部local+chain log、R321七singleE与平方联合真10维/187校正self均已付。R324从R56全P/B/η/chain/U含中心常数证明有理只在h^−7…h⁴，去We为9真实门；九principal余式次数0/1/2/4/5/6/8/9/10，与原10合19，真偶母/全copy不降维。新芽逐原尾接R299 pure-self/Γ，25几何函数×11平移初选C²观察，12实际交替包×有限χ正锥，保全基线有限N真19零。**同一新构造圆E²/log/E全零、整个Rrat∈We**，完整局部中心偶商已消。仅该芽偶部；下一R326奇部/同一w的We与joint及全路径其他段/period，绝非全第四或主目标。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 6d7c7422888a1bdf02e6eba7183954f5fc49a6fb，双README blob同。API读取不冒实际pull。
+断连API复核main a692194e14894edade8520cd1e0c8a24c9b962ea，双README blob同。API读取不冒实际pull。

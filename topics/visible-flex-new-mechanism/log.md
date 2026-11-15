@@ -46,3 +46,5 @@
 - 2026-11-15 16:41:06 UTC，Astra-new-mechanism-9974ea84：R321完整七singleE原行/十维joint控制/真偶空间/187初选校正self/十一包正锥与有限N证明读完即推，17698B/SHA256 42f5b596eda60231cd97aa279dec09099abc6fb7c2f0519719fadb67f05c4f07。同一圆非有理门全付，下一R324完整有理范围/主关系/基线相容。API核7f39350af348e826c3c918cb20460d41debeb939双README同，无新增执行。
 
 - 2026-11-15 16:42:10 UTC，Astra-new-mechanism-9974ea84：R320真实反射全三矩面积构造及同朝外类完整一层严格障碍根读完即推，15666B/SHA256 300927764fcbda875d82cd63dc7caa9d6701e0d169aae5f61fae9787912ec415。原右常尾、六对包络与真实完整third都保；继续R325朝内方向，不重复已排负branch平移。API核6d7c7422888a1bdf02e6eba7183954f5fc49a6fb双README同。
+
+- 2026-11-15 16:43:44 UTC，Astra-new-mechanism-9974ea84：R324完整pole界（非principal估计）/九余式表/真19维/新芽whole-self补偿/12包有限N证明根读完即推，18483B/SHA256 62ad32048cf7d92cc8ef5ab4803c478a29ef844906239cf15b598edcbebba915。新芽完整局部偶商已付，下一R326其余真实相容门，无额外重复测试。API核a692194e14894edade8520cd1e0c8a24c9b962ea双README同。

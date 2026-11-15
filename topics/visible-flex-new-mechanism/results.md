@@ -435,3 +435,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R320 完整证明](results/R320-complete-reflected-area-payment-and-outward-one-history-obstruction.md)保原J的总积分常尾推出三外矩反射律；全局偶 pair 准确给m0=0、m2=2C0m1。一个显式16轴bump强hook三矩原型给A4/E4=7，两相位合成Q4零后四实际旋转方向的R/A=3√2/4>1，严格正锥为R²。先选最终六对物理包络/共同宽度/八完整副本，再实际复四次根付Q4、四个正四次幅付m1，完整A−2,−3的三外矩全θ为零，三矩/弱hook/全部third保持；目标g在最后新seed固定。
 
 同稿继续到原下一门：右侧右向5/2曲段、左侧镜像的朝外排列，含任意strong-hook修正，完整面积迫Cd>K/3、D4=4(K+R)，而J=−K/3。若三directed必要行都付，完整原一层仍>BκK/9>0（0<κ²<.01）。负branch和修正权不能救该类；若directed未付已先失败。下一必须改曲段朝向与所在半侧的关系，不能把面积成功记成完整第四。纯纸证，无执行。
+
+
+## R324：有理九门与十九维实际联合控制，整个新端芽的局部偶商已消
+
+[R324 完整原式与有限频率证明](results/R324-complete-rational-quotient-and-nineteen-dimensional-local-ruling-control.md)从R56全P/B/η、local/chain及完整U原函数（保中心常数）严格封口：entire Rrat只含h^−7…h⁴，除原We=span{1,h,h^-1}后恰九个真实系数。由原完整主平方抽取九行，对共同αB因子作C=bW/e余式，低六次数0/1/2/4/5/6，高三经明确行变换为8/9/10、首项全非零；和R321十行严格合19。偶母盲核uv/vr与仅(x,W,C)依赖交零，全copy平移三角可逆，故实际主空间也19。
+
+稿件逐条把R299真尾/Green的whole pure-self补偿重新接到新constant-k,ω芽，保原Γ与非紧self；25个真实几何函数和11平移构成初选275个可冗余C²观察。十二实际交替位置×有限χ形成全R19正锥，有限N IFT付包括完整低阶基线的19真零，全部旧三矩/third/E8面积/log/全角保持。因此同一新构造圆E²/log/E全零、entire Rrat∈We，经R312完整比较消本芽原偶部商。其余段、奇部、canonical period、同w joint、高阶和有限几何未付；无科学或人工执行。
