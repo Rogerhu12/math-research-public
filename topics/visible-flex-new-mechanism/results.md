@@ -249,3 +249,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R386｜整个四次速度成本的准确局部自然通量
 
 [R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)（17262B；SHA256 `faf0721ec08efee8ab88f631fc3870f73a557caab067d3968814d0f9f24f7f3f`）。保完整CA m2/BN2消去、−Ψ(u,n)、ZZ两history与两有序仿射真尾，全部加速度与正规速度势逐state抵消。准确ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)，全C²多项式呈示，无原primitive/左尾余项。h1d0混合γδ³读出含偶母平移的非零二次项，故在X/M外，函数像至少3；不是actual3/wholeU或同g控制。根全文及q导数、U原同锚式、末两IBP、C²呈示和纯δ/混合系数独立手核通过；未执行研究。下一真多profile正核/全部桥基准/有限向量IFT另付。
+
+
+## R389｜有理端口的有序自然通量与全部零端germ
+
+[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)（18336B；SHA256 `d8f50f2f77d53f6a999c1f8978e6fbd6340d846cfd5185090805646229dfd03c`）。完整pure3+1/2+2给全函数有序mixed分解，保右方全部真实尾；同一个Λ的单包与有序3+2精确给两actual period的±ai³/(2τ)整包通量。R∩kerπ全对这组门盲，不是任意π0 U；最右包必Λun0。R345同actual wholeQ0与R276/288当前解析端类下，全零端逆germ iff该通量组0。平台仿射值、内部Laurent/residue、真特解与13同规范仍欠。根全文/系数/边项审，mechanism独核全函数与因子；根指出平台不能除p后作者回读R225(3)补准确局部Lf″身份，无执行。

@@ -38,13 +38,13 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **实际控制已付的范围**：R384 h1纯δ族自然像恰span(X,M)二维、有限正锥0或aX+bM(a>0)，非actual2。R385纯δ快脉冲τ=ε^(3/2)，先固定有限桥补M0才用R109；原真reverse保Yb/第三反号第四同号，中心桥及完整Klein保全部非零基准。每紧目标一次有限ε给一个固定自然Λ的任意实值/C1截面，M/T/scalar/frame/位移闭合和ω下界真付。共同profile联合正核/桥与向量IFT仍须另证；一般新几何，不授同g/嵌入reach。
 
-**强圆旧阻断与弱几何**：R304/306全C²/Green/有序尾排rank-one(W0)圆；R311排固定包连续幅轨道。双hook0⇔W0，但原third仅单hook AfW0；regular弱核亦排，Af0曲开段W≠0是真入口。R317/319/320各朝外/单向族旧阻断保原范围。R325朝内弱圆、完整8/12copy给third；R354真反射/受控ω桥给偶分支。先全部有限profiles再he/Ω安装新hook/闭合，x+ω>1；新seed/g不继承旧wholeE/Morse/period。
+**旧强/弱圆几何的范围**：R304/306先排rank-one，R311排固定包连续轨道；R325/R354再实际安装朝内弱hook与完整反射、受控ω桥，先有限profiles后he/Ω，x+ω>1。新seed/g从未继承旧wholeE/Morse/period。现在R388在该Gaussian芽/M0/TκH结构下进一步排所有同种子连通C²首阶轨道，见下。
 
-**同一偶弱圆有限Gaussian表已付，但完整一层被R387阻断**：R357–383保真实self/Green/有序尾、18面积/J/K/第三与全部基线。R383在更早一编码位置变全部8/12/镜像共享母，保半母三矩、9个实际self和/J/K；ordered缺陷、有限Laurent并置/常秩IFT及权/Γ/Euler两列给真实Ω±。正幅H³/有限伸缩以Ψ成本H−4补弱基线Ω；同17行204正列有限N根付十对称Gaussian乘积的三外矩全角零。Ψ在固定弱核/强W0/Fnew纤维准确固定。这些有限结果保持。
+**R354–383已付有限表仍真**：同一偶弱圆的三矩、完整第三、18面积/J/K、三directed/Ψ及十对称Gaussian乘积三外矩全角可同时0。R383在早期真实共享母纤维用ordered缺陷/常秩IFT/完整权与Euler证明造Ω±，有限正伸缩补弱基线，再17行204正列同有限N根；不是末Fstar增加冻结O行。有限细节保原稿；下面完整一层阻碍不撤销这些结果。
 
 **R387/R388完整一层正身份阻断同芽首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)保两原系数R0=[σh^(−2)j⁰]R_(−3)、R4=[σh^(−2)j⁴]R_(−3)，准确 P R4−B* R0=11κ⁴(41t²+27)K(t)D4/[10368he³(51t²+2t+8)]，t=κ²，K全正，D4=∫(f″²−u″²)²。无P分母，对所有κ≠0条件成立于实际已存在的共振芽，不授大κ安装。原二阶三列独立迫三矩；M0使任意二阶w不改third周期，故单弱hook必要；完整对称+area迫三directed/WP。原R184/R224任意w/χ及传入history偶部仅改We，不能吸收真Gaussian词。两行0迫u″²=f″²；任意连通C²连续首阶轨道从f出发，逐点±连续性及共同collar迫u=f。R387原圆的正余量是其特例，R354–383有限表不撤销。**改成非圆首阶轨道也不能绕过本芽/第三结构**；继续不同芽/第三算子/其它机制。未排首阶恒定而高阶才动族，非主题一般C²刚性。
 
-**period欠账**：R184/185/221/225原iff保G″平台/活动flux/端germ/双collar；45span/48×135不是解。R312–327新有理芽付19局部门/指定端口，但period随gauge变，同一w的13行兼容、降秩整除、其它段ruling/两period欠。R345 wholeE核K0保11完整链，只付局部点有限(E,F≤11)全部基准，非全Af/Ω/尾/period；不无证移植新弱圆。
+**period当前准确门**：R184/221/225原iff保平台G″/活动flux/禁Laurent与residue/真端germ/双collar，同一w，有限span不冒解。R312–327新有理芽已付19局部门/指定端口但两period欠。[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在同一实际πV0的不交包圆，从pure的3+1/2+2全函数系数得 Vθ=Σai²[diSi+Σj>i djUij]，所有真左二次尾保。ωi=Λui(V)、ωij=[a³b²]Λ_(aui+buj)(V)；两目标整包flux准确−ai³(Riωi+ΣRjωij)/(2τ)、+ai³(Tiωi+ΣTjωij)/(2τ)。最右包必Λun0；R∩kerπ全对这些门盲，不同于任意π0 U。wholeQ0只付平台二次系数，结合R276/288原解析端类，全部零端逆germ iff两组整包flux0；不除p，Lf″原局部式保平台。内部Laurent/平台仿射连接/13同规范兼容及其它段同w仍欠。R345 wholeE核11点内部flux不授整包flux或全period。
 
 ## 5. 保留边界与继续
 

@@ -100,6 +100,14 @@ R384准确二维自然像/有限正锥，R385仅一个固定Λ的真实任意实
 
 [R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。继续评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
 
+### R389：有理端口两period的真实整包通量与全部零端germ
+
+[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在当前实际whole pure0、M0/TτH的不交值包圆，比较完整pure的3+1/2+2系数，整个mixed period恰为Σai²[diSi+Σj>i djUij]。self/有序交叉的真实左二次尾在别的compact outer总积分中准确消；同一自然读出给ωi=Λui(V)，ωij=[a³b²]Λ_(aui+buj)(V)，不假整个U局部，也无额外2。
+
+原R326同wc后的两目标总flux是−ai³(Riωi+ΣRjωij)/(2τ)与+ai³(Tiωi+ΣTjωij)/(2τ)。最右包明确必Λun0；非共线最右两包另迫对应self/cross0。所有R∩kerπ对这些整包门不可见；原11内部部分flux列不能支付它们，实际word非零基准也不能据导数0忽略。
+
+在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。下一真正计算/控制实际目标这组门及内部Laurent/residue；平台仿射连接、真特解和R327十三行同一k仍未支付。当前值未计算，未假Λ全U局部或E/Λ joint已可达。
+
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
 
 [R345](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)从R340 K0=BP[P,S]/3完整局部式，手解jet流给全生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4。Kn=δnK0、n0..10全部rank-one完整输出局部、pure/全self/Ω0；真实R71的最高H5及NK_n=n(n−11)K_(n−1)给δ11=0且11独立，不假额外W或全R δ闭合。当前R324/R340有理端口实际圆的8×12副本可选11个同基本Af点，g翻号对本局部列无影响；flux=ρj⁵pn(tj)，pn首项C*(−1)^n10!/(10−n)!≠0，准确Vandermonde付m≤11全R^m。更多对应点此模块恰Pol≤10及十一阶差商0，非全部响应的障碍，非同包任意不同点满射。沿R333原E商和全部原型/桥/基准作同一有限截面，(E,F1..Fm)(S)=E(U)×R^m；新全局几何保持实际profiles/芽，再用真正m*的同wc，wholeE/全部二次平台/11点flux联合。它与R343弱Gaussian圆不能未经证明合并。下一其它Af/形状/Ve/整包Ω/仿射尾、两个完整period成员与13同规范，不继续凭对应点数宣全period。

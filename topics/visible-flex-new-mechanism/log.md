@@ -349,3 +349,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:05:58 UTC｜只续未付四项，修人工只读setter并复用14
 
 [notes/observed-curvature-defect-guard-four-check-resume-20261115.md](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)，3436B/hash1e88b78d885c97403072680efa4f72e5ce9e2cb99f69a0265a14bd097c0aac88。dev32867B/hash5e5e2090a66af2bfcc07bc8a61ca41b1a4ac1d55afcd96e12e8ca2a11475d75f；audit37203B/hash86f3d51eb5159165120dd846c6f800d4ed73fcde0cc31a7c331103049550a7ae。根完整diff证前三函数/shared helpers未变，tail独立核失败reader及main对接；未本地执行人工/科学。request SHA256 f85013ec1af5d3e14881412708f14228252d160953f9eddebd78cca281164cc4（36687B），原146closure只audit/dev两项更新，其余138py+6workflow同原已付。原失败job的14pass只读reuse，唯一未付4随后首次科学；原实际375继续点及12/40/120/10不变。基底9189b7b3424d4aec2ca7d29be2d9f1e4ef373b30。
+
+
+## 2026-11-15 22:07:21 UTC｜R389原整包通量与零端germ iff落地
+
+[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)，18336B/hashd8f50f2f77d53f6a999c1f8978e6fbd6340d846cfd5185090805646229dfd03c。真实有序mixed全函数、自然3+2、±ai³/(2τ)、R∩kerπ盲性与当前解析零端iff均完整；未计算当前实际ω值，不宣全U局部、actual wholeE/Λ joint或13行已解。根/peer核过，平台一处补原R225局部Lf″避免p0除法，作者确认同规范无因子。继续内部实际目标与joint；无研究执行。基底fe2d869861f3f7b31d95e7933a123989494f0aca。
