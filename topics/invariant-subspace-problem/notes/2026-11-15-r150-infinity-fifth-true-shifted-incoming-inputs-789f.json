@@ -1,0 +1,117 @@
+{
+  "format": "r150-original-infinity-fifth-shifted-incoming-inputs-v1",
+  "source": {
+    "path": "notes/2026-11-15-r150-infinity-fifth-true-shifted-incoming-789f.py",
+    "blob": "9721ef01a2c637dc1c2610402344790ac5700933",
+    "bytes": 67519,
+    "sha256": "b8933b780190d3d997a488c2c0424ca3379b3b8e5e13504368da46f21f444906"
+  },
+  "inputs": [
+    {
+      "key": "generator",
+      "path": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    {
+      "key": "normal_generator",
+      "path": "notes/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+      "blob": "b8fe1e850d1e3245263fd3e54f3f22aa8126c5f7",
+      "bytes": 17493,
+      "sha256": "6cb201867c430b4375dbe93cb411ad1e74bea39571261d1ecfec233e4b397517"
+    },
+    {
+      "key": "jet_actions",
+      "path": "notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "blob": "d244c869a1a3745c1a239c9abf2518e9e8e9c052",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    },
+    {
+      "key": "first_connection_receipt",
+      "path": "notes/r150-infinity-remote-session-789f/43679903558-original-transverse-first-connection.json",
+      "blob": "cc2e75a3929dfac5579480548ea6963f477ea361",
+      "bytes": 40996,
+      "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+    },
+    {
+      "key": "second_pure_receipt",
+      "path": "notes/r150-infinity-remote-session-789f/43679903558-infinity-second-pure-envelope.json",
+      "blob": "63a555e012b42409f49f98b6ff5a6f14109c7cc8",
+      "bytes": 28693,
+      "sha256": "a16ecefa8669222653aacd1a8fb7fb10c858e44d91a117b09db7a851f1da6b98"
+    },
+    {
+      "key": "second_normal_receipt",
+      "path": "notes/r150-infinity-remote-session-789f/43679903558-infinity-second-normal-envelope.json",
+      "blob": "83972068371b31ed1c6a0c6a81a887ad7c9b30dc",
+      "bytes": 31249,
+      "sha256": "cf9d9439fb2ca44921cb4f2614cf3400d5045783e4e9842321c0fdb3aef540da"
+    },
+    {
+      "key": "third_receipt",
+      "path": "notes/r150-infinity-remote-session-789f/43679903558-infinity-third-left-envelope.json",
+      "blob": "940e1ae2a8d47d3d4434ff5e5c8a4689848f722f",
+      "bytes": 37182,
+      "sha256": "8df6d0f6ec01a1fcebd9234adc963ad2e73ab3481089f2d5063d805fdfb58f45"
+    },
+    {
+      "key": "complete_cubic_receipt",
+      "path": "notes/r150-infinity-remote-session-789f/43702348535-infinity-third-complete-cubic-normal-kernel.json",
+      "blob": "350ecfe10f902a5fea6e616ca07ca6a4357806ec",
+      "bytes": 13762,
+      "sha256": "1d9420ac3d318a5058c7f47acda6942f9126cd21c5871de2b4d4618ecf60688b"
+    },
+    {
+      "key": "fourth_receipt",
+      "path": "notes/r150-infinity-remote-session-789f/43702348535-infinity-fourth-joint-high-low-left-envelope.json",
+      "blob": "06fa44e3441a92c414a84baee0c404be3eb9e12b",
+      "bytes": 12122,
+      "sha256": "df342766441ffed18a1d2dd56405ecd2885b01cd4cb7ecf5e69b2ad725e25a35"
+    },
+    {
+      "key": "field_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43740928483-full-infinity-original-dual27-through32.json",
+      "blob": "24710faed70e0974898129d183504bd375846ec9",
+      "bytes": 43322,
+      "sha256": "14f396c3969ea90694d06e6f26fe75299bf2e678381b491ddb6cb78b93826815"
+    }
+  ],
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--normal-generator",
+    "{scripts}/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--first-connection-receipt",
+    "{scripts}/43679903558-original-transverse-first-connection.json",
+    "--second-pure-receipt",
+    "{scripts}/43679903558-infinity-second-pure-envelope.json",
+    "--second-normal-receipt",
+    "{scripts}/43679903558-infinity-second-normal-envelope.json",
+    "--third-receipt",
+    "{scripts}/43679903558-infinity-third-left-envelope.json",
+    "--complete-cubic-receipt",
+    "{scripts}/43702348535-infinity-third-complete-cubic-normal-kernel.json",
+    "--fourth-receipt",
+    "{scripts}/43702348535-infinity-fourth-joint-high-low-left-envelope.json",
+    "--field-receipt",
+    "{scripts}/43740928483-full-infinity-original-dual27-through32.json",
+    "--checkpoint-dir",
+    "{work}/infinity-fifth-true-incoming-checkpoint",
+    "--out",
+    "{work}/infinity-fifth-true-incoming-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "mathematicalSeconds": 180,
+  "memoryMiB": 2048,
+  "suggestedOuterSeconds": 240,
+  "permanentOutput": "small source/parameters/run/SHA receipt only",
+  "allLargeOutputs": "job temporary only",
+  "sourceExecutionStatus": "frozen source only; no local AST, compile or mathematics performed"
+}

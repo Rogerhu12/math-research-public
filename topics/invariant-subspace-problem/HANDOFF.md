@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** fcc4edbe3abcda99e199b6c335c2c02a56dd75cd（2026-11-15 18:30:09 UTC，临时研究session run43740928483实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** debb559cf169c960d2d273d119a18f96f1e3e73c（2026-11-15 18:36:20 UTC，Actions run43747687942实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43747687942-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -23,11 +23,13 @@
 
 - [完整射影确定因子与额外乘子](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)将同原仿射F31长315与自然∞长66合为381次射影gcd上界。重新核到旧真Q第五延拓已付∞53/次大47，故Δ=t53K158^hR_h，degR_h≤170、degΔaff≤328，且同一个非零R使全部九Rh0tj进入原十七式/乘子次数≤3来源，deg(Rh0)≤194；R系数、原h0成员性与来源费仍未付。同步收紧真full∞为53…66、次大47…55、max≤19、δA_I为55…68。
 
+- [额外乘子后的无条件来源费](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)把已证Rh0九目标成员性代入同原K158余式整理：非基8526、原转移8531不变，目标权由64升至234只把目标支路172升到342，故存在同R（deg≤170）的九原Q[s]来源同时cost≤8531。原十七式/乘子次数≤3和全部4367输出保持；R系数、来源高度、固定31分母及原h0成员性未付。
+
 ## 活跃实际执行与恢复
 
 - run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull读两规则。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json；7历史输入、216、full32/O35、两正规202、完整运输及P11均已实付。工作大数组只在本job临时目录，约20:14结束前需继续增量或按需恢复；不以时限结束研究。
-- full32/O35各66旧文件全部比对，独立支付loss11/14；完整高商16.187683781秒。原s2第一4.541098008秒、三阶5.351822671秒、P11诊断0.954176738秒；已排two-full-original-schur-four-and-targets-field11（180秒/2GiB），复用同4345单位DAG和L1/L2/L3，仅新增A4/L4，再以7372×88完整Toeplitz核付全部九h0模t5配对；执行前不预填谱。
-- 旧43731615668/43731613530/43736746064/43702348535皆已结束，旧tmp不假用。必要恢复按原源码/原参数重建并逐hash核；全部回执与历史输入manifest在前H归档链。当前normal代理补真Q∞第五incoming，literature代理核s2第四与真Q第二，boundary代理继续实际混合返回。
+- full32/O35各66旧文件全部比对，独立支付loss11/14；完整高商16.187683781秒。原s2第一4.541098008秒、三阶5.351822671秒、P11诊断0.954176738秒；已排two-full-original-schur-four-and-targets-field11（180秒/2GiB），复用同4345单位DAG和L1/L2/L3，仅新增A4/L4，再以7372×88完整Toeplitz核付全部九h0模t5配对；第四actual已成F11谱1⁷,3,4/长14、Q12…14/T≤2；模t5 h0配对非零只属F11，不否Q。
+- 旧43731615668/43731613530/43736746064/43702348535皆已结束，旧tmp不假用。必要恢复按原源码/原参数重建并逐hash核；全部回执与历史输入manifest在前H归档链。第10步infinity-fifth-true-shifted-incoming已排180秒/2GiB：旧临时已失，按原hash恢复，再补u²L2/uL3/u⁴Q；仅实际18头才夹β5=1，六层全6188回核。literature接真Q第二的唯一缺头，boundary继续同源返回。
 
 ## 原同w边界：缺陷已付，完整返回继续
 
