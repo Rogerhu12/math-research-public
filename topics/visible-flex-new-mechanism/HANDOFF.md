@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。远端检查2026-11-15 11:09:44 UTC/`ab559ba79b9ec62c86711702336cb183a9a980e9`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。远端检查2026-11-15 11:10:53 UTC/`d1803ab08e398566f977f3fff3a8a81481800d9f`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch signal9后已单线程重拉，规则无差，详见log。
 
@@ -44,7 +44,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R245完整block/历史已付**：第三闭块四阶forcing按a⁴可加，平移≤10/旋角0,2,4；Gaussian历史21生成元。均匀旋角平均及Prouhet有限实现主层严格负，不排非均匀策略。
 
-**R248/R249/R251完整面积已排当前圆**：P(q)平方幅度/四次谐波保全尾；四Gaussian字母模DF及21历史基真独立。A−2,−3完整系数=2c(a+3b)E(q,−J(q″³)/3)，非零因子时迫M4=∫q″⁴=m2*=0。R239所选双block ReM4<0，所有合法二/三gauge不可修。R251已扩全部0<ε≤3/4，乃至正参数除两条εc(u)>3/4、εb(u)>1的曲线；只曲线外排，非一般圆。下一全θ外槽/真正不同profile或其他可实现芽，不重复六能量。
+**R248/R249/R251/R252面积已排当前圆全b=0芽族**：四Gaussian字母/21历史基真独立；完整area系数−2E(q,[Bs,Bt]Δ)。R252以A−1,−3在c≠0迫M4=0；c=0整曲线用A−1,−2及严格非零D，N1=0时迫M1=∫xq″⁴=0。R239偶微包双block ReM4/ReM1<0、N1=0，故所有κ≠0/ε>0、ω=κ/h同族均不能完整第四ruling；二/三gauge不可修。非任意平移b、任意圆或任意芽；下一全θ外槽/不同profile，不重六能量。
 
 **第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 
@@ -60,7 +60,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R246完整八平台接口已付**：真实E_j全尾和、D_j扣当前comp；De=D³C/C0≠0。8F+8E在11维模单射；八E插值/三积分及前三F构造唯一P，其余五F+八D给13独立iff关系，e-flux另验。本模完整period核0，不能冒全R0障碍。
 
-**R247完整响应结构已付**：B=2[X,Y]及56 Jacobi给232呈示，旧228下界使余核≤4、R71维164..168；W36归R87。全R_p0=(R71∩kerπ)+B(E,spanχ)，不可漏首项；E=V4⊕V2、W71=2V6⊕V4⊕3V2，hook七串56形式输入不授实际rank/固定圆不变。下一[八χ设计](notes/third-diagonal-eight-lifts-design-20261115.md)已根全文审：新源075b106b、lane third_diagonal_eight_lifts，18旧输入各一次恢复+八新原差fresh对角；19来源/30研究args。此提交接公开首跑，新增八人工/actual尚未执行，不重151/152/3974/旧P1。后继完整O像/全pure核仍欠。
+**R247完整响应结构已付**：B=2[X,Y]及56 Jacobi给232呈示，旧228下界使余核≤4、R71维164..168；W36归R87。全R_p0=(R71∩kerπ)+B(E,spanχ)，不可漏首项；E=V4⊕V2、W71=2V6⊕V4⊕3V2，hook七串56形式输入不授实际rank/固定圆不变。下一[八χ设计](notes/third-diagonal-eight-lifts-design-20261115.md)已根全文审：新源075b106b、lane third_diagonal_eight_lifts，18旧输入各一次恢复+八新原差fresh对角；19来源/30研究args。公开首跑43707570035/28217340已启动，新增人工/actual待读全输出，不重151/152/3974/旧P1。后继完整O像/全pure核仍欠。
 
 ## 6. 保留边界
 

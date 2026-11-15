@@ -132,7 +132,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；四次规范和互补两角成员门已付。
 
-[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)现完整判此类失败：四Gaussian字母模DF独立，真实21长度≤2词亦独立；三次history是反对称面积唯一来源，局部/chain/Z²不能补其系数。共振ε=κ²/4的A−2,−3槽非零常数乘E(q,−J(q″³)/3)，必要M4=∫q″⁴=0及m2*=0。R239小正δ构造cos4α>1/2，双block ReM4严格负，排完整第四偶部及合法C²近邻；六能量零仍真。[R251](results/R251-nonresonant-Gaussian-area-obstruction-and-two-exceptional-curves.md)已扩此完整门至全部0<ε≤3/4及正参数除两条明确例外曲线；离开共振线不能回避。**下一：全θ面积外槽、两曲线的其他完整槽/不同芽、准确付M4/m2的不同profile；停止重复这份已排圆的六能量。** 普通复四次无普遍正性，不宣所有三矩圆无解；全period与同w joint继续。
+[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)已付四Gaussian真实词独立及完整area唯一来源。[R251](results/R251-nonresonant-Gaussian-area-obstruction-and-two-exceptional-curves.md)去共振后，[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)再用两完整面积关闭两曲线：c≠0的A−1,−3迫M4=0；c=0的A−1,−2系数D严格非零，N1=0迫M1=0。当前R239偶微包双block ReM4/ReM1<0、N1=0，所以ω=κ/h、κ≠0/ε>0全族皆排，六能量零仍真。**下一：全θ外槽及能同时满足这些完整矩的不同profile/真实芽；不重复本已排圆的六能量或只移两曲线。** 一般N1≠0仅得完整线性关系，不宣所有三矩圆无解；全period/同w joint继续。
 
 ## O1：双圆领相位机制，保留备选
 

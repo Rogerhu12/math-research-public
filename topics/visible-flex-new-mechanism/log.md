@@ -146,3 +146,6 @@
 
 
 - 2026-11-15 11:09:25 UTC，Astra-new-mechanism-9974ea84：八Δ提升源26756B/075b106b、最终设计18165B/394f6936全文根审；逐核原colored差→fresh对角、JointSpan系数符号与固定basis、reader原36根/v2/W-only绑定、R179字母/degree检查。15旧递归源与已发receipt同SHA，新driver加workflow/publisher/printer共19源；研究30args。仅源码文本/元数据hash，无新人工/研究本地执行。新单lane首跑8人工→actual，旧SOC请求冻结9ca历史；失败note已5039b4f8非强制首推。环境仍失联，API检查不冒实际pull。
+
+
+- 2026-11-15 11:10:52 UTC，Astra-new-mechanism-9974ea84：R252最终14210B/ef80dd9f、blobe13e4503全文根审后即推。root独手核L/T原式两阶导、FL=−N3/2与FT=N3−X3、变分式17和全部六矩；核∫Ar²=0仅在全合法三矩下使用，没把micro当闭块。c曲线的二次正式与21740u³−9144u²−3348u−432严格号逐展，保m1/m2不同H幂。mechanism已独核六矩。八Δ入口已28217340首次非强制推，run43707570035/job132791905419实际步骤成功、publisher仍运行；尚未消费全部输出，未宣成员或rank。环境失联，仍按根8小UTF8提交。

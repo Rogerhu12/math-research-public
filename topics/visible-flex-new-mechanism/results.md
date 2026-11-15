@@ -374,3 +374,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 八个额外第三模板的准确对角提升：最小消费者已接线
 
 [完整设计](notes/third-diagonal-eight-lifts-design-20261115.md)及新源075b106b仅读取已发表W36完整原DAG，恢复求坐标必需的18旧对角参考各一次，再处理原索引30/32/34/37/40/100/104/109八个新目标。每项打印原28交换子顺序的准确γ；先在a;b,c原式构造χ=τ−γ，再用独立mapper做真实同右锚对角零证。全部存留词核R179语法，参考pivot不预设18；不重旧151/152/3974、P1或第四response。公开首跑只新增八人工，再120秒/512MiB轮询的actual；19源绑定、30参数，输出仅临时main/内存proof，全部坐标stdout可读。root全文审源码、最终设计及JointSpan/原reader/字母语法API；接线仅workflow四处与publisher两处，新人工与科学尚未执行。结果只补R247八χ具体定义，完整period/signed成本/联合ruling仍须继续。
+
+
+## R252：另外两个完整Gaussian面积关闭当前偶微包圆的两条退化曲线
+
+[R252 完整证明](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)从R73 raw密度得B−1=d p0+e s1，d=6κ³/he、e=−κ(14κ²+1+4ε)/(4he)，d+7e永不零。保完整三矩/全部尾的六个交叉矩由原二次算子、cubic泛函变分和同锚IBP逐项推得。A−1,−3在c≠0迫M4=∫q″⁴=0，含旧a+3b曲线；c=0整曲线上D=2d(a+b)+e(11a+5b)满足D/κ>0，故N1=∫q′q″³=0时A−1,−2迫M1=∫xq″⁴=0。严格号由e0>d0>0、b<0、3a+b<0的完整有理区间证明，无扫描。R239偶微包各自N1零、未旋转M4/M1负，互补双block cos4α>1/2给最终ReM4/ReM1<0。于是当前圆在b=0、κ≠0、ε>0全例外端芽族均无完整第四ruling；真实二/三gauge在We内不能修。普通复矩非普遍正性，一般N1非零圆只受(24)关系，本稿不排任意圆/任意平移/任意芽或宣大参数全局安装。root全文独核五原算子二阶导、五cubic泛函/变分表及六矩、Gaussian余系数与曲线有理号；mechanism另逐矩独核。无新运行。
