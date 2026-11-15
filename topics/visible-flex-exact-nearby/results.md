@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual complete finite193 Green and true97 Poisson](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)：43711315338/1 child0/14门，4×5970记录/187组完整；whole/negative/cut各普通g、true97 p、specialized a、same-input c全付。旧1886零重算，17原球/全source与边界mean/signed covariance已核；固定原M32对象，sameδ转移、fullhigh/trueν Schur和非线性仍待。
+
 - [R133 exact exponential subprincipal normalization](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)：新完整指数reference条件下，T=exp(MwI)全频准确逆保所有mean/rank；两空间强余项≤exp(26C)[Rexp0+67|μ|C/8+131C²/512]。常μ skew无需指数增长；不删除原linear-reference的μ²/4，actual新signed remainder与C/高阶/finiteborder/GH门仍待。
 
 - [R133 actual adjustable collar geometry and direct angular trace](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)：公共43736004806/1成功，6144新组/12288整公式/16门；J96 a1/200,N23，J288 a1/1000,N76。宽rho1e−4 J96已知源+条件high<1.012e−11；同态实际剩余门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12足W入口，low/shell/wholeC0/独立高域仍待。完整168球与11pin及预Git核对，旧成功零重算。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 16:46:55 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 16:49:47 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
-本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 16:04:04定时/15:57:29非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤17:04，ref不冒pull。root亲读Green16:36:42.963470→b6c715d2f37f274ad4cb188b68bca3f6dc77249b及NG16:32:40.653696→7705aa375a506301b3e35a0265ee934449bcd150真pull/双README空diff。
-最近只读README核：75147d9bc0bdca39d70ff1ec33b29dff8116f5b8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 16:04:04定时/15:57:29非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤17:04，ref不冒pull。root亲读Green末16:39:26.131536→b330ccefd4437249abf64ab09a37cf7b1147940b及NG16:32:40.653696→7705aa375a506301b3e35a0265ee934449bcd150真pull/双README空diff。
+最近只读README核：b7f8eed5c427e76a3e7568f4815a5da660e13588；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前H/open/log逐字保106e9bdfe0643b577db0a848a7ef593f58c3de47同路径，递归保4b696/e5e1/0616/9026/6f6bc/16fd/75bade/57d56/b04a6/febfb/f1a97/441257/5d5024/52bc/dc10bb等档。压缩不取消任何旧域/mean/单位/失败/restore和未付义务，成功数学禁重。
 
 ## 同一个对象与总验收
@@ -18,7 +18,7 @@
 
 ## Green与同参数finite反馈：newton_source
 
-v4 43711315338/1已success：processff451539/614b92b0、summary2917bd05/a298dd2f，child0/14门。future/past/product/ports各5970、groups187准确终态；旧1886只恢复。root全g/p/a/c三窗、两套5项、8整scheme、units/mean/normalization与alljobs核；actual证明正成文，成功科学禁重。
+v4 43711315338/1 actual38c385e2已推：processff451539/614b92b0、summary2917bd05/a298dd2f，child0/14门。future/past/product/ports各5970、groups187、consumer72/66/49/0准确终态；旧1886仅恢复。root全g/p/a/c三窗、两套5项、8整scheme、units/mean/normalization/alljobs与17原球核，成功科学禁重。
 真实全193后97、signedW/任意指数/192bits/dr/全mean、10min真pull/live/容量/预Git小stdout/成功复用。旧1886禁重；v2溢出/v3guard/lost新/child未知保档。仅M32 δ0/η0/ν0，1e−9继承字段不授BVP族。
 F29a24167公共消费者已部署SCI087f3971/workerbeae2544/manifest8bb821e8/floweb47ca85，13small306775B逐件核，15结构门与两κ strict verdict分开。只消费Green终态+原Dexec+cut两件五记录，不重科学；[[gB e,pB ε],[gC e,pC ε]]三det待新实际。κ0/1/5、g/p/a/c和CS整界min独立，失败充分门非奇异；D新ν列仍非全ν。
 

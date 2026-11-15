@@ -29,7 +29,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 ## 2. 已成完整Green v4与同参数有限反馈
 
-[v4契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)的公共43711315338/1已success：最终processff451539/614b92b0、summary2917bd05/a298dd2f，唯一child0、14门，future/past/product/ports各5970，完整187groups。原1886只恢复，旧sameF/7908/同97帽零重算；SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa均原身份。root已全文核所有三窗g/p/a/c、两套cross各5项、8完整contraction方案、actual97与mean/两边界单位、全部job；actual数学报告正独立成文。
+[v4契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)的公共43711315338/1已success：最终processff451539/614b92b0、summary2917bd05/a298dd2f，唯一child0、14门，future/past/product/ports各5970，完整187groups。原1886只恢复，旧sameF/7908/同97帽零重算；SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa均原身份。root已全文核所有三窗g/p/a/c、两套cross各5项、8完整contraction方案、actual97与mean/两边界单位、全部job。[actual完整三窗报告](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2已发布，17原球逐字匹配；成功科学锁定。
 
 v2溢出/v3旧README guard、lost新范围/child未知和恢复授权仍完整保92f214bd7410e499390204436e1fa50ed3f607ed同open第2节及v4原文；成功数学不重。原数学固定repaired M32 δ0/η0/ν0，继承1e−9字段不授参数BVP。whole[0,.9] ordinary source与negative[0,2383968743003/1e13]/cut输出不同；unscaled h、α一次、normalized circle、全mean和true97 Euclidean row不再乘rho。
 
