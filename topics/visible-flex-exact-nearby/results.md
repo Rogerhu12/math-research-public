@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 N：附近帽主体与真实raw外行的同源组合](results/R133-supplement-nearby-raw-cap-body-and-true-outer-inverse-with-fixed-physical-height.md)：保原physical fBδ、不缩数据，H8198与实角connection逐项给D≤2^1311361dQ；M8212球内总反馈<2^-359804，S≤8192的good源state逆<2^4194305，物理height源<2^4800000且保1/sB。固定该高度的完整二次/Lipschitz费2^8028804、全部mean/荷保留。原linear innerport明确，未授未知inner匹配、联合height二次或actual residual入球。
+
 - [R133 Green v2 实际失败诊断与恢复范围](notes/2026-11-15-R133-actual-Green-v2-finite-dyadic-overflow-and-recovery-scope.md)：零数学43689244062/1核真stack，finite非负Arb到binary64溢出；原43681612825/1数学child1/0group，原非finite norm分支未触发。finally计数4226future(1886旧+2340新)/1800past/4331product/5970ports，新增temporary未保存，后继须准确申明重做；旧成功前缀与全部输入不重算。未授Green/Poisson最终门。
 
 - [R133 R：基点真实残差运输与完整raw帽逆](results/R133-supplement-base-off-shell-outer-transport-and-raw-cap-inverse.md)：同known Qδ/实际long背景处，完整weighted投影和B-only lift使raw新列反馈<24·41·2^-14<1/16；原主体/outer与之同方程相加<7/16。新known analytic列2^80加入原Q signed-lag，全−3/2..8212源gain仍<2^4194304。准确区分旧good G与新raw G，两个mean/相位荷/全频source保；B25基点条件已闭，实际非线性中心仍未授。

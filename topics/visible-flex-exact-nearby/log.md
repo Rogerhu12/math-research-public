@@ -121,3 +121,5 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 2026-11-15 07:16:51 UTC，为Green child1定位部署零数学receipt-only脚本dee201d00a965bac2215fb1bdad701174f8c35303a786abbef2d098633b73a36/flowc3370a24…；root全文/静态delimiter核通过，public runner AST必过，内容只原run/job日志SHA和必要traceback，無新artifact。fresh 1a443cf96d389b7fff9a297cc1015a67691cb099 两README未变；本部署不含新数学结论。
 
 2026-11-15 07:26:50 UTC，真实Green失败诊断独推 1e74f420811df48f53207692663d585cc4a5d61a5dddec1ede69c656c199afa4；root亲读原source312398be…/2173281e…、receipt log d0242150…/41089B及finally summary770a61fa…/7499B，记录最终完整文件数而非16格旧进度。H同步最新真pull07:17:05 e9a7712f…两README空；cleanup实际delete315bf6e…后206137215B门false，继续已确证data普通删除。较早tail详情已在前H735b4dfe…逐字保，本H压缩已付旧段。fresh c2ab16dca1701d007141581d83cccdd690ae7dd6 两README未变。
+
+2026-11-15 07:27:53 UTC，附近raw帽组合N独推 cd8fb209336d4f5ed017e98b360ac0eef0f1c942d378e6e656994734a7d4df23；root完整组合C/B/R并明确原linear innerport，tail独核N6–17高度正宽→有限高norm、真实connection、8028803指数及各源单位。出版把成比例界写≤以含零背景，标出height源差符号。fresh 4f4dbf700ee0732f6e7bd245f35808592ac82607 两README未变，H/open同步；无新数值。

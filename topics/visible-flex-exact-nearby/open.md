@@ -116,7 +116,7 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 [J完整long](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 和[E4480窗](results/R133-supplement-extended-finite-jet-outer-commutator-window.md) 已保zero-width真实图、C_R反馈、DN/Poisson/E_B全mean/伴随及有限jets；[K两层tame](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md) 进一步分开低A64小和高Aq/Dq有限，q≤8160/背景q+32≤8192、Cq=2^(96q+16384)。Poisson保sB ε，K21a明确原curvature/height两导，cap两mean及aw(L)/165高度跨度不screen。固定metric参数之外的Γ/ν/长度列仍独立。
 
-[B真实外行差](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 已保H0/source预合、good/raw两mean与2^2097152D；背景M8212/H8197、方向S≤8192。[R基点raw补证](results/R133-supplement-base-off-shell-outer-transport-and-raw-cap-inverse.md) 现以准确B-only/全4Z weighted projection付新增transport<1/16，与原3/8同方程相加<7/16；known analytic新列并入Q高窗，Craw<2^4194304，B25的基点条件已付。仍须与主体、独立height背景和全部荷组合；局部极小球不证明实际中心入球。
+[B真实外行差](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 已保H0/source预合、good/raw两mean与2^2097152D；背景M8212/H8197、方向S≤8192。[R基点raw补证](results/R133-supplement-base-off-shell-outer-transport-and-raw-cap-inverse.md) 现以准确B-only/全4Z weighted projection付新增transport<1/16，与原3/8同方程相加<7/16；known analytic新列并入Q高窗，Craw<2^4194304，B25的基点条件已付。[N同原物理高度的组合](results/R133-supplement-nearby-raw-cap-body-and-true-outer-inverse-with-fixed-physical-height.md) 已与C主体合并并完整付dB connection；good源state逆2^4194305、物理height列2^4800000/原1/sB，方向S≤8192。仍保原linear innerport；未知内外height/curvature的nonlinear readout与实际中心入球继续付。
 
 尾部[C受控径向域](results/R119-supplement-off-shell-controlled-radial-jets-and-exact-holonomy-retraction.md) 保R_s=B_(s+4)+N^[3]_(s+4)、δ16/根三导δ13和全Π_A mean；[B第二参数gap](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md) 保fixed γ2/fulln及Ct4域。[I完整proxy逆](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md)、[T4384窗](results/R119-supplement-4384-angular-window-1730-loss-and-finite-tame-budgets.md) 保同T#/v#/全部ordinary、weak、jump、mean、高度、外源。T给s≤2656真实loss1730、余反馈<2^-190000；Y2656不自动返H8196/三径jets4420。
 
@@ -155,3 +155,7 @@ cleanup43679889657/1的实际普通删除commit315bf6e06a2e21fae980f538286dcec6b
 ### Green 实际失败日志的零数学恢复
 
 SCI dee201d0…/flow c3370a24…只在public Actions临时读取原job132713247491完整日志，核原run43681612825/1及39023B失败process0b2e0815…，输出原bytes/SHA与≤20000B必要traceback。0数学/0artifact/两次真pull与README核；不把新临时prefix称可恢复。确认完整非finite入口后才修复dyadic/Gram实现，原门不弱化。
+
+### 已合并的附近帽门及下一真实接口
+
+[N1–21](results/R133-supplement-nearby-raw-cap-body-and-true-outer-inverse-with-fixed-physical-height.md) 现把C主体与B真实raw外行反馈进R同基点新逆；原fBδ正宽使H8198<2^262144，真实Bhigh<2^787072无需小，完整connection总费留359804 bits。完整固定物理高度的二次/Lipschitz在高背景球中闭合，good-height与physical源逐列分清。下一付实际变化的内外height/curvature readout与全网络source，保持mean/相位/荷；S8192不自动返8212背景，极小球的实际入口仍未证。
