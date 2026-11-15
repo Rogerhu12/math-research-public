@@ -299,3 +299,8 @@
 - R834完整证明登记：实际T5的±307i√2把两组原old源分开，指定V/W全局非零；惯性比较排tame M6同eigensystem，δ在实际Hecke primary部分同构，δW≠0。root核原角色/双理想项、Breuil原文两页、低权提升与全部局部化。
 - KS/原DA给12Σvu/β，P0 delta值B及转置投影唯一cusp test form明确；仍未给原指定配对或同h单位。proof SHA5fb2ec73，旧H逐字同目录归档压缩，保原Picard/高度缺口。
 - 2026-11-15T16:59:32.737781+00:00实际pull/read d55f1ca112bdbd1f4551ac7a31c81d1b3e178f22两README无diff；R787/815/824/827公开计算继续，主目标OPEN。
+
+### 2026-11-16 01:11（Asia/Taipei）｜serre-public-astra-20261115
+- R809新A/B-only消费契约、核cdc381fc、runner eaf91a35及pending7adb0e37全文核完：复用原已成S5/minor/p007逆，仅两个新目标28Q/full1380，不重算六C，不把R824改名为R787。
+- 原b/s/λ/82^10及真实V5行索引逐一绑定，已去denominator/content不重插；完整断点、实际来源双tag与一日闭包保留。尚无真实新exact输入，pending不触发、不登记A/B数学结果。
+- 2026-11-15T17:10:06.809302+00:00公开实际pull/read 1840c6269b18c8d12fb85a73ef00d5016c76968f，两README无diff；R787/815/824/827仍运行，主目标OPEN。

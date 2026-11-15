@@ -1,0 +1,123 @@
+{
+  "session": "serre-public-astra-20261115",
+  "pending_reason": "Activate only after a real R824 exact weight5 generator is published in an ended source-bound artifact. The original R809 C0..C5 success and original S5 inverse are already complete. If using a completed relation from a failed checkpoint, replace the R824 success-certificate fields with the actual explicit checkpoint state and accepted exit code; never invent a certificate.",
+  "job": {
+    "result": "R809-original-A-B-normal-coordinates-from-R824",
+    "p": 41,
+    "qY_count": 69,
+    "auxiliary_prime_start": 1000000007,
+    "dixon_group_columns": 7,
+    "reconstruct_every_digits": 8,
+    "requested_target_groups": [
+      "A",
+      "B"
+    ],
+    "budget_minutes": 300,
+    "producer_inputs_pending": true,
+    "core": "R809_original_A_B_normal_from_R824.py",
+    "core_sha256": "cdc381fc5e1b9dfab705608f1d62a8ab80b282984479499a6edd635ea05fa62b",
+    "wrapper_sha256": "eaf91a358dc41379953eddd850eec72afc2c4084ae897ec453daafe29ab80786",
+    "normal_framework": "R809_original_S5_normal_coordinates.py",
+    "normal_framework_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+    "relation_adapter": "R824_original_exact_relation_adapter.py",
+    "relation_adapter_sha256": "5a6a100a561ce02350a5d538df908d4cca9575e21b251a848a3bfba9d3df1958",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "proof": "results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md",
+    "R809_proof_sha256": "68793d3f3911d6c2ab3d530575634a70953580c221c4c4fed5fa542a2ed88a40",
+    "method": "notes/R809-original-A-B-normal-consumer-from-R824-method.md",
+    "A_B_consumer_method_sha256": "b38777a5fc6baadbb5bd832c5b6897338c7649f9b80b5a505dde541710dd5108",
+    "relation_adapter_method_sha256": "68877a988f4df5dc3a7609ea46d4f40129d40af40b5467200456829df730d818",
+    "workflow": ".github/workflows/serre-p41-original-A-B-normal-from-R824.yml",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "retained_artifacts": {
+      "R809": {
+        "archive_bytes": 545778174,
+        "archive_sha256": "1ec83d6c910e119bfc9f82b35520b493a235b8dea1ddba247b60e46f00c8a550",
+        "artifact_id": 14168728276,
+        "artifact_name": "serre-global-R809-original-S5-normal-coordinates-43712427063-1",
+        "certificate_name": "p41-original-S5-normal-coordinate-certificate.json",
+        "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+        "expected_conclusion": "success",
+        "files": {
+          "R809-S5-basis-index.json.gz": "f6f6f0ee2bae106ef474d2cff32c743b1d8e0a886f80c26aaf8708c89ea1c119",
+          "R809-accepted-S5-short-minor.json.gz": "d631c02412ed53edae3a37c54eee3e8ebbe5d196ead69a9532767bc9f2cdea9b",
+          "R809-prime-1000000007-short-rank.json.gz": "763b8c2dfc15bd3950dfbd2fca7f0c79c33a0f51cfffab1a9468fd8ff29a5e3f",
+          "R809-stage-manifest-be80c72a2878d432657a3f61.json.gz": "23757c1106143c109b20cc78b6e21cb77d35279cc716882b7650232392e8ff64",
+          "p41-original-S5-normal-coordinate-certificate.json": "8c117fa17d7ecf423307c850681fa6062f10534fbb2a444502c514bf9f0d9948"
+        },
+        "manifest_sha256": "84908131c5a232d7accf5919a999c0bfbae4b2b632dcfc03c1e634494ef27b4e",
+        "result": "R809-original-S5-normal-coordinates",
+        "run_id": "43712427063",
+        "source_commit": "91fbd81eb539c07f11e21116e71def91fdab5254"
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-power5-basis-index.json.gz": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35"
+        },
+        "metadata_repository_paths": {
+          "core-receipt.json": "computations/R786-exact-original-power5-short-basis/43682100611-1/core-receipt.json",
+          "public-actions-input.json": "computations/R786-exact-original-power5-short-basis/43682100611-1/public-actions-input.json"
+        }
+      },
+      "R787": {
+        "result": "R787-original-power5-function-relation",
+        "run_id": "43683912711",
+        "source_commit": "eab5e58bbf951c48ccf13a109bbdf0b0289a6f23",
+        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+        "artifact_id": 14159006977,
+        "artifact_name": "serre-global-R787-original-power5-function-relation-43683912711-1",
+        "archive_bytes": 5148711108,
+        "archive_sha256": "32652fdbb99ef41340bffb4ba1c9d1a56479de346c999f723023db2e1427645f",
+        "manifest_sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c",
+        "manifest_bytes": 440819,
+        "manifest_file_count": 1517,
+        "expected_conclusion": "failure",
+        "certificate_name": null,
+        "files": {
+          "R787-prime-1000000753-chart.json.gz": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96"
+        },
+        "accepted_checkpoint_exit_codes": [
+          1
+        ],
+        "allow_completed_checkpoint": true,
+        "configuration_stage": "R787-prime-1000000753-chart.json.gz"
+      },
+      "R824": {
+        "result": "R824-original-global-polar-generators",
+        "run_id": "PENDING_ENDED_R824_RUN_WITH_EXACT_GENERATOR",
+        "source_commit": "PENDING_ACTUAL_R824_SOURCE_COMMIT",
+        "artifact_id": "PENDING_ACTUAL_R824_ARTIFACT_ID",
+        "artifact_name": "PENDING_ACTUAL_R824_ARTIFACT_NAME",
+        "archive_sha256": "PENDING_ACTUAL_R824_ARCHIVE_SHA256",
+        "manifest_sha256": "PENDING_ACTUAL_R824_MANIFEST_SHA256",
+        "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+        "expected_conclusion": "success",
+        "certificate_name": "p41-original-global-polar-generators-certificate.json",
+        "files": {
+          "p41-original-global-polar-generators-certificate.json": "PENDING_ACTUAL_SUCCESS_CERTIFICATE_OR_EXPLICIT_ENDED_CHECKPOINT",
+          "PENDING_REAL_R824_POWER5_EXACT_GENERATOR.json.gz": "PENDING_ACTUAL_EXACT_GENERATOR_SHA256"
+        }
+      }
+    },
+    "relation_spec": {
+      "file": "PENDING_REAL_R824_POWER5_EXACT_GENERATOR.json.gz",
+      "bytes": "PENDING_ACTUAL_FILE_BYTES",
+      "sha256": "PENDING_ACTUAL_EXACT_GENERATOR_SHA256"
+    },
+    "resume": null
+  }
+}

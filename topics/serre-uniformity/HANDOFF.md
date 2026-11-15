@@ -4,11 +4,11 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：d55f1ca112bdbd1f4551ac7a31c81d1b3e178f22**（2026-11-15T16:59:32.737781+00:00；公开run43714581068/attempt39/job132886386052真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-R834.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)，内接全部历史与source/run/SHA。
+**已读规则提交：1840c6269b18c8d12fb85a73ef00d5016c76968f**（2026-11-15T17:10:06.809302+00:00；公开run43714581068/attempt40/job132889467601真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-R834.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)，内接全部历史与source/run/SHA。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
-## 当前公开计算（2026-11-15 17:02 UTC）
+## 当前公开计算（2026-11-15 17:11 UTC）
 
 **R787从真实430位同核续算中**：run43737413555/job132883028161/source4092d1cc4d1156bc24a10ff820fd39c5713e8ad7，core93d3d72b/wrapper42157e0d不变。[430位真实断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)完整保原run43708449812、artifact14170087848/438780485B/manifest1b92c4e5/1262条、最新lift60765868B/00855d88及430历史。退出是BudgetStop，原prime753/free1186/14分支俱保；小IO43737168117准确核最新与429指针。新run规则job在16:47:19.142248UTC实际pull/read4092d1cc，两README无diff。不回退259，不换R802；当前无A/B，成功后R792/804/809。
 
@@ -20,11 +20,13 @@
 
 **R827首真实q4仍运行**：run43734420663/job132873746638/source400edecfeab313d1858cdb72bf18f8452ab9566a。core85916B/d9cf7739、helper38baf6b4、wrapper87825B/dbd8356e、methodc55655f9/proof17e9c828均全文核毕；请求1804789d六来源全真，q4/300min/cache=[]。原ell1000000753/branch0/free1186，必须保integral_B=lambda*b/6724一次；旧同prime缓存可复用，不能混007。
 
-[R827判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)：原C的monic20/单位常数给整拼接/flat商；齐次导数a+2k给全局像。σ∞真rank272＋τ整个多项式Hermite/Bézout经proper/Nakayama给char0 I_q=C，单点/函数域rank不够。σ仅q+1递减jet，增q复用变换；272个B·d_i仅子理想，额外零可使充分检验失败。只有q4真通过才D约化/K1，当前未得。
+[R827判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)：真σ∞rank272＋τ整个多项式Hermite/Bézout才经proper/Nakayama给char0 I_q=C。272个B·d_i仅子理想，额外零可使充分检验失败；单点/函数域rank不够。只有q4真通过才D约化/K1，当前未得；增q复用完整变换。
 
 ## 已成原源与实际函数后继
 
 [R809六原C](results/R809-certified-original-six-Hodge-normal-vectors.md)已准确完成并推400edecf：run43712427063/source91fbd81e，84Q/full1380、S5=1234、p007/minor29693114、13341.116785255秒，最高项零给权4。原冻结verify成功；小IO43733430148/source1674f17b仅读16件4.80MB，manifest84908131/cert8c117fa1/S5f6f6f0ee。原artifact14168728276至Nov16 15:52UTC；小IO14168779933至16:05UTC。原82^10/b/s/λ一次，A/B不在此scope。
+
+**R824真关系→R809 A/B-only入口已核保存pending**：[方法](notes/R809-original-A-B-normal-consumer-from-R824-method.md)b38777a5/core cdc381fc/runner eaf91a35/request7adb0e37。复用已成六C的原S5/minor/固定p007逆，仅2目标×14Q及全1380检查；原R787只读1234条真实V5行，原b/s/λ与82^10保留，清分母/content不重插。四来源分tag、同核完整断点/一日bundle；待真实R824 exact发布才激活，无新A/B结果。
 
 [R820两图C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)20链/Z primitive、d271=20其余0已成；R806原W、R813原vg/vh及全部源SHA见前H/各certified结果。R801/803/805/807、R797/799/800、R781 R0..142/κ幂已成；V6至141/V7至175/V8与旧V2..5至195。R805[1,144,127]是次数计数，非272项EPS；缺尾真需才补。
 
@@ -42,7 +44,7 @@ R634逐盘非恒零早已成，不重记；[高度符号审计](notes/2026-11-15
 真正sigma缺同一primitive/Legendre可见h的三个原单位。R739反例/R741与R737标签不可拼，R808/810闭合，保非水平P_T/[K,P_T]；不重开高p²/Hirota/固定六维D闭包。
 R812全split p未筛单位不代同h；R829只复用旧p47七项/和16，不外推全惰性p。R826原companion与固定八运输准确成，R828迫G两CM值零；原q_*/12^5、−120c²/d0、六old及全部尺度保留。
 [R830](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)真conductor3p/6p权6lift、tame filtration6p已证；非零SS不定位P0。
-[R831](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)已推70be7e09：EndWeil(EO)=span(I,P2)，old6/new2绝对不可约，任意36维交换子压回EO old标量，不能再由此降FG/HJ。[R833](results/R833-original-inert-supersingular-weight-six-and-quaternionic-evaluation.md)原同点权6运输已证：βhat=12DA、Γν=β^(6−p)Cν^p，原和=(12B)^−5K^pΣκν^pΓν(P0)，全部相位、old d^−6、原E0/dz保留。Hecke特征ℓ^−1a_f(ℓ)^p，ε′(w)=ε(bar w)^p按p11/23mod24固定/交换。Serre原文/原MH33与R812标架已核；SS全局非零不定位P0，不能换任意JL向量。[R834](results/R834-original-inert-source-nonzero-and-Hecke-Serre-dual-evaluation.md)已证原指定六项V与SS权6和W全局非零：真T5特征±307i√2分离F3/F7且各old组首系数单位。惯性{6−p,6p−1}排所有tame权6同eigensystem，故δ在原Hecke primary部分同构、δW≠0。KS原配对12Σvu/β，P0的delta标架值B，经转置Hecke投影唯一lift到真实cusp test form uP0,e。原和=(12B)^−5K^p〈δW,uP0,e〉；未证明该指定配对或uP0,e非零。继续实际评价与同标签筛，不冒称全局非零为处处非零。
+[R831](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)已推70be7e09：EndWeil(EO)=span(I,P2)，old6/new2绝对不可约，任意36维交换子压回EO old标量，不能再由此降FG/HJ。[R833](results/R833-original-inert-supersingular-weight-six-and-quaternionic-evaluation.md)原同点权6运输已证：βhat=12DA、Γν=β^(6−p)Cν^p，原和=(12B)^−5K^pΣκν^pΓν(P0)，全部相位、old d^−6、原E0/dz保留。Hecke特征ℓ^−1a_f(ℓ)^p，ε′(w)=ε(bar w)^p按p11/23mod24固定/交换。Serre原文/原MH33与R812标架已核；SS全局非零不定位P0，不能换任意JL向量。[R834](results/R834-original-inert-source-nonzero-and-Hecke-Serre-dual-evaluation.md)：真T5特征±307i√2分离原两old组，指定V/W全局非零；惯性{6−p,6p−1}排tame M6同eigensystem，δ在原primary部分同构。KS配对12Σvu/β与P0 delta值B经转置Hecke投影给唯一cusp test form uP0,e；原和=(12B)^−5K^p〈δW,uP0,e〉。**指定配对及uP0,e非零仍缺**，继续原评价/同标签筛。
 
 ## 主目标边界
 
