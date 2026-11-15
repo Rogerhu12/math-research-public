@@ -51,4 +51,4 @@ Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″�
 
 ## 5. 继续
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)：直接取原metric/height/fixed center，删四角未用jets和被覆盖查询积分；完整当前jets/J/null映射同原。新ordinary身份，不冒旧SHA；旧epoch耗尽。源码已发布、人工/实际未执行，新预算及bank/学习迁移待闭，全部旧费用保留。理论转有限实际ordered总量与全部内部像、同包cap及13同规范，完整自然all-zero路线先按新正字符范围处理。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)：直接取原metric/height/fixed center，删四角未用jets和被覆盖查询积分；完整当前jets/J/null映射同原。新ordinary身份，不冒旧SHA；旧epoch耗尽。迁移合同已闭、3组9项/实际尚未执行；独立新科学1800s/64LP/160值，含冷费，同cache续J/模型/实步，全部旧费用保留。理论转有限实际ordered总量与全部内部像、同包cap及13同规范，完整自然all-zero路线先按新正字符范围处理。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。

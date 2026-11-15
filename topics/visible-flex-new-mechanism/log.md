@@ -316,3 +316,8 @@ Astra-new-mechanism-9974ea84：scripts/frame_direct_reference_geometry159_develo
 ## 2026-11-15 23:44:02 UTC｜两完整新Ω首次实际返回，立即登记
 
 Astra-new-mechanism-9974ea84：[两完整自然函数实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，6185B/hash2ce360b606f857bffcea9b8f9176781ffb25da2290f7b7e6e6c3a3dfd79fc850。run43775998866/job133002325378/source d47749f7…；8新人工通过，n2非零全局部/n6全0，旧π/self/秩0。报告读取1.699476147s/必要2+6输入4.239038564s/新map.712408647s/全6.656628646s/RSS114136KiB；完整log及JSONhash见note。公开actualpull23:39:53→3953c750…、私有23:39:56→ca2c85b5…均规则无差、QUEUE仍进行中，根23:41:13已读，H更新。继续正式R406及有限actual条件，主课题未完成；基底d45b99326b80bd4288366a59f9ae62f9f515679b。
+
+
+## 2026-11-15 23:45:58 UTC｜同cache信息迁移证明及独立新任务预算
+
+Astra-new-mechanism-9974ea84：[同进程迁移与新预算](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)，19750B/hash23e2b9ec16058a60ef45485e37ab2f4671c579825249c2c9a2eb9b47e5c17f10。438法向由精确unitball支持不等式迁移、原4attainer另附不删旧行；结构fresh context先于guard，实际factory后严格bind；γ保祖先context/history，不重训练。新科学1800s/64LP/160值从必要读取前计，原单LP10s、B/两streak/14门不变，旧已耗epoch全部费用保留。新constructor/outer正在实现，无新执行；根先完整闭合同后接唯一首次run。基底ffcafc6fa027d67ec38fbbe68b06a8e17bae619c。
