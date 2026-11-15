@@ -63,6 +63,6 @@ R138原398项差证一般G[-4]=B_p2(W1)[-4]/128，故整个G轨道pure入R，完
 
 R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)/16由复极化忠实，已有响应核31/已知完整核34无需重验。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B。下一仅J6=[h⁻²]Akk的新pure九基门，成功后才做有目标balanced，不当锥对称。
 
-几何SOC源3bc2df4e/cd01144d与15输入人工已过，root全文读中；原12LP/40值/120s、同g/b0/163/两网原门。tail写J6单pure consumer，literature核R159/后继最小入口；root独占Git/派算。
+几何SOC源3bc2df4e/cd01144d已全文读，15输入人工通过，单lane本提交派算；原12总LP/40粗细值/120s、同g/b0/163/两网原门。二阶修正取真实两网残差，L1最小/半步幅/保半预测改善，遗漏行先补池回旧合格点。tail写J6单pure；root独占Git/派算。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

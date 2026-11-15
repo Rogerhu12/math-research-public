@@ -129,3 +129,5 @@
 - 2026-11-15 00:56:11 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交70f77d81246e5ca05dfabbd3874988651695cd1e记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 00:56:23 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交90cd9d299294fe11fad947541fd308fd7cd7f380记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:57:10 UTC，Astra-new-mechanism-9974ea84：root全文读SOC两新源（38107B/3bc2df4e，39194B/cd01144d）、设计和新人工回执。原15输入/同g/b0/163与两网全部物理门保留，12总LP、40粗细值、120s活动预算不增；actual残差修正L1最小、半实际步范数上界和半预测改善。新增单lane curvature_soc_steps，从d1ca5f派算；上一研究43659795254已公开确认success，不重跑旧优化。
