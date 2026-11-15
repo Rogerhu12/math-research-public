@@ -183,3 +183,8 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 ### R397原累计量与两个period的准确剩余map
 
 [R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)raw Hd含真实平台差，实际(P_LE,A,Hd)可指定，qE仍付原三项。全E0下C=RiHe+TiHd仅看真实ordered suffix三矩，K轨道准确盲；完整8-copy块首/末微包suffix0。另沿R345可实际wholeE0并同时清≤11对应首包d/e门，但不保双A，不能与另一实际截面拼接。一般点保𝔞_i(x;n_i)，继续其全响应像、Λall、全部内部点及13同规范。
+
+
+### R398低层不能整层消失，继续具体原密度
+
+[R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)从R393−2头与原R188定理严格推出F0/三个Q2不能同时对全部state自然零；反证保全U跨度、真实仿射、ΓM、平端势与M=T0实际action。仍需具体原L0/L2/N0/N2/Γ水平正规式；低层可能扩大像阻止头延拓，或留九维但改变全action。未授Λ(U0)或joint，不重做Q4/旧字符排除。

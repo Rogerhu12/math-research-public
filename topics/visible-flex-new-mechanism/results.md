@@ -299,3 +299,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R397｜原内部累计量实际联调和两period的有序余差
 
 [R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)（12091B；SHA256 e40d665eb0ff2ab06551f23f2b1c54405e13e1f9bdfd29c6c25d1be56d795a1e）。raw Hd与扣平台partial分清，原K局部列平台0使实际(P_LE,A,Hd)截面成立；原Lf恒等证明二阶gauge不改累计量。wholeE0时RiHe+TiHd自项消，仅留准确右三矩suffix；真实完整8副本块/后续全部块闭合给首末微包余差0。另独立沿R345 actual wholeE0+指定partial0得至多11对应首包双通道0，不同时保双A。一般点保新ordered map，全部主要联合门仍欠。root全文及R345实际§8–9复核raw平台、相位半导数、符号、suffix和实际范围，无执行。
+
+
+## R398｜完整静态与速度二次自然读出不能同时恒零
+
+[R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)（7815B；SHA256 742a5737b0895b1753643496e03d90c166a7b0d68d76717a808a57b28a26a90b）。反设四低族自然零，R130完整十四族/R350/382给全自然像恰R393九维Q4；−2头复合Λ为非零杀R真实字符，完整M=T0路径的实际action为∫h_s⁴/(32h⁶)≥0，矛盾R188。ΓM、全部原history和水平平端势准确保留。只证明至少一真实低族非零；具体state/族、全自然像/零权和actual联合商仍欠。root全文及R188完整原定理/作用范围核对，无新执行。

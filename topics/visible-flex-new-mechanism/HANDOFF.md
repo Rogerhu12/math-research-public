@@ -40,6 +40,9 @@ Gaussian R388完整R0/R4=正系数D4=∫(f″²−u″²)²，无P分母；对�
 
 [R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)改用raw Hd，实际(P_LE,A,Hd)仍可联调，保平台成本；二阶gauge不改变原累计量。全E0时C=RiHe+TiHd=a_i³𝔞_i(x;Σ后(TiRk−RiTk)μk)，局部K轨道盲。完整8副本块/更右全部块的两组三矩真闭，首/末微包C0；另用R345实际wholeE0+至多11首包对应partial0，可同时付这些d/e门，**不保双A**。不能拼两种实际截面。其余点、Λall、qE、13同规范仍欠。
 
+
+[R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)已排F0/三个Q2全部自然读出恒零：若皆零则全自然像=R393九维Q4，−2头复合Λ成非零真实仿射字符；完整固定端M=T0路径的ΓM、正导数势/真history全保后action=∫h_s⁴/(32h⁶)≥0，违R188。至少一个低族真非零；未定具体族/状态/零权，继续完整低层密度，不将Q4头冒全U正字符。
+
 ## 5. 继续
 
 数值完成同m7已付见证的唯一LP11/原SOC12接线与公开首次执行，保全费用/规则回执，不重跑已付工作。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
