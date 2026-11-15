@@ -179,3 +179,7 @@
 ### 2026-11-15 23:19（Asia/Taipei）｜serre-public-astra-20261115 · R828
 - 原P₂的S/T交换、EO保持与原U共同相位已全文核；允许空间稳定＋已成G两列交零，严格推出两原CM源值及companion值零。
 - 全16个二次模等距纸分类通过，old六维上所有保EO者仅标量；仍缺六项原和非零，不把投影零/全局theta非零代点值。proof d5c70b7d，立即推送。
+
+### 2026-11-15 23:22（Asia/Taipei）｜serre-public-astra-20261115 · R825输入adapter
+- 保存已全文核的原normal导数小adapter、wrapper、方法、pending请求与workflow：core89579f79/wrapperd6374901；两图d/u原负号、权6/8及完整C整除保留。
+- 无active请求、未运行AST/新算术；R809 A/B与R815来源仍空，不能提前激活。R824写入前预算检查已按实际续算风险移到下一算术边界；新core1ece3cf4尚未运行。

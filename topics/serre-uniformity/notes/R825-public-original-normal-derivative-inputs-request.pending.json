@@ -1,0 +1,72 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R825-original-normal-derivative-inputs",
+    "p": 41,
+    "requested_stage": "original_a_b_normal_derivatives_in_two_charts",
+    "requested_targets": [
+      "A",
+      "B"
+    ],
+    "budget_minutes": 300,
+    "matrix_row_block_size": 16,
+    "producer_inputs_pending": true,
+    "core": "R825_original_normal_derivative_inputs.py",
+    "core_sha256": "89579f796e0f62132b37aa081719f7e7a7d62b87e7ef789d19289a8edaa462e1",
+    "wrapper_sha256": "d637490180ccdc41233f6dee32a56ed76961abb03e5fc8505c2228349455e765",
+    "framework": "R811_original_regular_multipliers.py",
+    "framework_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "io_helper": "R815_public_original_normal_derivation_operators.py",
+    "io_helper_sha256": "ab725da038ec458493f461088ceee0fd105e0dc90cbfb4ad6f3047cbec90b454",
+    "proof": "results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md",
+    "R825_proof_sha256": "73f9f293f0a0526a2f1eed8b62aea562b659090b546d1e122c0e12dbd1f90930",
+    "method": "notes/R825-original-normal-derivative-source-adapter-method.md",
+    "R825_adapter_method_sha256": "230bd162b4e37e0602f23f972c2f6803d50dbd4633d32323696adecfddc7ecac",
+    "workflow": ".github/workflows/serre-p41-original-normal-derivative-inputs.yml",
+    "retained_artifacts": {
+      "R809": {
+        "result": "R809-original-S5-normal-coordinates",
+        "run_id": null,
+        "source_commit": null,
+        "artifact_id": null,
+        "artifact_name": null,
+        "archive_sha256": null,
+        "manifest_sha256": null,
+        "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+        "certificate_name": "p41-original-S5-normal-coordinate-certificate.json",
+        "files": {
+          "p41-original-S5-normal-coordinate-certificate.json": null
+        }
+      },
+      "R815": {
+        "result": "R815-original-normal-derivation-operators",
+        "run_id": null,
+        "source_commit": null,
+        "artifact_id": null,
+        "artifact_name": null,
+        "archive_sha256": null,
+        "manifest_sha256": null,
+        "core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+        "certificate_name": "p41-original-normal-derivation-operator-certificate.json",
+        "files": {
+          "p41-original-normal-derivation-operator-certificate.json": null
+        }
+      },
+      "R820": {
+        "result": "R820-original-cusp-finite-algebra-and-ideals",
+        "run_id": "43721747750",
+        "source_commit": "7890fde180ffabee056de2ce8dd241b189a893a2",
+        "artifact_id": 14164872449,
+        "artifact_name": "serre-global-R820-original-cusp-finite-algebra-and-ideals-43721747750-1",
+        "archive_sha256": "d09c6d70facec7870121cba30b13371bb672fbfd83cd9914e29ee1cfb1e9d11c",
+        "manifest_sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f",
+        "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+        "certificate_name": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+        "files": {
+          "p41-original-cusp-finite-algebra-ideals-certificate.json": "a2e629d05d561e1144e6989612213b33990075400a21f7c1c2f0c2eb825152b4"
+        }
+      }
+    },
+    "resume": null
+  }
+}

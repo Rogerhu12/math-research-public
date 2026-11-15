@@ -20,15 +20,15 @@
 
 [R824原证明](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)及[实际分裂](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)：旧R787真实ell1000000753/branch0的1186minor det296007862，前级20/1234minor及整性链全核，迫r28/h1=0；原完整极模为28权5＋244权6，无权7。旧R130..142已成，不新算143..155。全部候选以原129/142条件、280Q坐标准确认证A=yB，再以V7真实1778纤维minor认证完整；总权1604−398=degE1206。[分层契约](notes/R824-original-global-polar-generator-consumer-method.md)已推。
 
-R824完整core96981B/a5d309ec、wrapper66226B/c5907739、workflow42bae915及pending请求ac765dfc已由ordinary交小文本blob，root正全文核；尚未激活/AST。首真实scope为common_operators＋modular_generator_profile，给原同prime的28五次与300六次有限方向/56+244；后续同core继续准确27+244，旧1186方向仍由原R787负责。两公共U_N/Q_N完整原式、1521打包与原κ/246尺度不改。详尽源SHA/Range闭包见脚本、契约及R827前H。
+R824完整core97048B/1ece3cf4、wrapper66226B/c5907739、workflow42bae915及pending请求5e9b2fcd已由ordinary交小文本blob，root正全文核；尚未激活/AST。首真实scope为common_operators＋modular_generator_profile，给原同prime的28五次与300六次有限方向/56+244；后续同core继续准确27+244，旧1186方向仍由原R787负责。两公共U_N/Q_N完整原式、1521打包与原κ/246尺度不改。详尽源SHA/Range闭包见脚本、契约及R827前H。
 
-[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；pending五件待保存，不冒称导数/乘法矩阵已经完成。
+[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；[五件已保存pending](notes/R825-original-normal-derivative-source-adapter-method.md)，不冒称导数/乘法矩阵已经完成。
 
 **[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族原导数列按a+2k齐次化，另一图递推tδ−(a+2k)δt保证像仍在原I_k。若真实约化两图C^-1[F0..Fq]皆有完整多项式右逆，则proper支撑＋Nakayama迫原I_q=C。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA c37119f3。
 
 R827可选入口无需三项char0 CRT先完成：同单位Schur chart严格定义原canonical B的p整lift，原S5单位块给vB；原W在8个不同unit cyclic节点给真实MB整性/模插值，原vg/vh在6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、两图完整Bézout。尚无实际q；若将来q4通过才可说D约化/K1。exact_height正接实际消费者，所有数学仅Actions。
 
-[R811](notes/R811-original-regular-multiplier-consumer-method.md)首乘法及完整char0极前像仍pending原A/B；helper09f21a90已有generic五路径真实exit97验证，禁止额外测试gate。原P固定、完整H/W、双向Laurent与实际两图全长均不可省。[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已给包含＋全长1206充分判据，14块真实分支恢复保留。详细core/SHA/输入见R827前H和各契约。
+R811首乘法及完整char0极前像仍pending原A/B；helper09f21a90已有generic五路径真实exit97验证，禁止额外测试gate。原P固定、完整H/W、双向Laurent与实际两图全长均不可省。[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已给包含＋全长1206充分判据，14块真实分支恢复保留。详细core/SHA/输入见R827前H和各契约。
 
 ## 已成原输入（禁止重算）
 
