@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Public Actions entry: new witness checks, then at most LP11 and original SOC12.
+"""Public Actions entry: paid checks reused, then at most LP11 and original SOC12.
 
 The source guard epoch is never restarted. All paid counters, current438 bank,
 both pools, frozen seventh-model guard, exact159/reference163 and immutable g/b0
@@ -31,7 +31,6 @@ from frame_metric_paid_attainer_resume import PaidAttainerResumeObjective
 from frame_metric_paid_attainer_recovery import run_paid_attainer_resume_recovery
 import frame_metric_paid_attainer_transfer as transfer
 import frame_metric_curvature_defect_guard_audit as original_audit
-import frame_metric_paid_attainer_refinement_development as development
 import read_original_actions_log as reader
 
 SCHEMA = POLICY+"-audit"
@@ -103,6 +102,9 @@ def run_audit(prepared, output, *, process_started, prepare_seconds):
     restored, bindings, tenth, replay, coarse_pool, fine_pool = prepared
     problem, initial, gate, lower, upper, source_cfg, cfg = restored
     real, source_cp = replay["original_report"], replay["source_checkpoint"]
+    inherited_before_current_preparation = copy.deepcopy(replay["inherited_counters"])
+    transfer.require(prepare_seconds >= 0, "current preparation duration must be nonnegative")
+    replay["inherited_counters"]["initialization_elapsed_seconds"] += prepare_seconds
     report = {
         "schema": SCHEMA, "status": "mid-epoch-restoration-not-yet-started",
         "github_sha": os.environ.get("GITHUB_SHA"), "github_run_id": os.environ.get("GITHUB_RUN_ID"),
@@ -112,7 +114,12 @@ def run_audit(prepared, output, *, process_started, prepare_seconds):
         "process_started_monotonic": process_started, "prepare_elapsed_seconds": prepare_seconds,
         "source_transfer": copy.deepcopy(replay["source_completed_log_transfer"]),
         "source_paid_ledger": copy.deepcopy(replay["inherited_ledger"]),
-        "source_paid_value_and_clock_counters": copy.deepcopy(replay["inherited_counters"]),
+        "source_paid_value_and_clock_counters": copy.deepcopy(replay["source_snapshot_scalar_counters"]),
+        "inherited_combined_counters_before_this_preparation": inherited_before_current_preparation,
+        "first_failed_attempt_paid_receipt": copy.deepcopy(replay["paid_first_attempt"]["receipt"]),
+        "first_failed_attempt_paid_cost": copy.deepcopy(replay["paid_first_attempt"]["paid_cost"]),
+        "this_preparation_charged_to_same_epoch_initialization": True,
+        "old_sixteen_development_checks_executed_this_run": 0,
         "old_optimizer_calls_this_run": 0, "old_LP10_or_old_direction_replays": 0,
         "old_development_group_executions": 0, "new_scientific_solver_entry_calls": 0,
         "same_immutable_g_b0_full_reference163_and_current_exact159": True,
@@ -143,6 +150,12 @@ def run_audit(prepared, output, *, process_started, prepare_seconds):
             active_restoration_started=active_restoration_started)
         report["timing_segments"]["direct_metadata_and_counter_restore_seconds"] = (
             time.monotonic()-active_restoration_started)
+        report["restored_evaluation_identities"] = {
+            "original_objective_from_both_paid_cache_bindings": replay["epoch_evaluation_sha256"],
+            "restored_objective_evaluation_sha256": objective.evaluation_sha256,
+            "original_ordinary_field_definition": replay["ordinary_field_evaluation_sha256"],
+            "restored_ordinary_field_definition": objective.factorized.ordinary_evaluation_sha256,
+            "two_different_hash_domains_each_checked_against_its_original": True}
         report["phase"] = "same-original-model7-on-inherited-shared-ledger"
         report["new_scientific_solver_entry_calls"] = 1
         stage = run_paid_attainer_resume_recovery(
@@ -285,21 +298,14 @@ def main():
     output.parent.mkdir(parents=True, exist_ok=True)
     request = json.loads(Path(args.request).read_text(encoding="utf-8"))
     try:
+        paid_first_attempt = transfer.read_paid_first_attempt(request)
+        emit("PAID_ATTAINER_DEVELOPMENT_REUSE", paid_first_attempt["receipt"])
         completed = transfer.read_completed(request)
         emit("PAID_ATTAINER_PRIOR_WORK_REUSED", completed[-1])
-        check = development.developer_check()
-        check["source_files_sha256"] = implementation_hashes()
-        emit("PAID_ATTAINER_DEVELOPMENT", check)
-        if check["all_passed"] is not True:
-            report = {"schema": SCHEMA, "status": "new-development-failed-no-new-science",
-                      "process_started_monotonic": process_started,
-                      "new_scientific_solver_entry_calls": 0, "development": check,
-                      "source_files_sha256": implementation_hashes()}
-            save_report(output, report)
-            return 1
         prepare_started = time.monotonic()
         prepared = transfer.prepare_transfer(
-            request, output, process_started, completed=completed)
+            request, output, process_started, completed=completed,
+            paid_first_attempt=paid_first_attempt)
         prepare_seconds = time.monotonic()-prepare_started
         result = run_audit(prepared, output, process_started=process_started,
                            prepare_seconds=prepare_seconds)

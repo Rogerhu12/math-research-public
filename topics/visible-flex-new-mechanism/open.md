@@ -170,9 +170,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 R396的实际P_LE/双A/旧partial增强成本全部保留，现继续R399/401内部增强；qE的三项原基准仍欠。
 
 
-### R397原累计量与两个period的准确剩余map
-
-[R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)raw Hd含真实平台差，实际(P_LE,A,Hd)可指定，qE仍付原三项。全E0下C=RiHe+TiHd仅看真实ordered suffix三矩，K轨道准确盲；完整8-copy块首/末微包suffix0。另沿R345可实际wholeE0并同时清≤11对应首包d/e门，但不保双A，不能与另一实际截面拼接。一般点保𝔞_i(x;n_i)，继续其全响应像、Λall、全部内部点及13同规范。
+R397原raw Hd/He及C=RiHe+TiHd保真实有序suffix三矩；完整cell首末C0，旧K全C盲。新非零suffix控制见R399/401；两种actual截面仍不拼wholeE+A。
 
 
 ### R400原正字符与全自然joint：三个静态函数是当前具体门
@@ -180,9 +178,9 @@ R396的实际P_LE/双A/旧partial增强成本全部保留，现继续R399/401内
 [R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)完整权零joint响应商=span{n2,n4,n6}，ni=Λall(Ci)。原H*/J4/J6来自F0加R，不能用正常H全零覆盖。全函数核仿射稳定；存在ker(E,Λall)内λ+=1 iff n2∈span(n4,n6)，反之原严格正action下降并阻wholeE/全Λ同零。两分支未定，下一保原N0/Γ/真尾求三个固定F0收缩，仍不删Q2；R398已排F0/Q2全层同时自然零。C6按R196为hkω，原R333键标题已校正，无新根/秩执行。
 
 
-### 已付m7接口：十六人工复用，修复原epoch定义
+### 同m7已修正两个评估哈希域，16人工只复用
 
-[首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)：run43771970034真实入口在评估定义哈希门停止，新科学入口0/LP0/新accepted0；原最佳点保留。16人工全过且只复用。必要准备14.667315975秒、恢复0.086260152秒、总18.621493514秒保留，恢复费累进同120秒。下一静态核原定义字段，不跳门、不改375历史/438当前/原模型/12LP/40value/10秒LP。修复后仅尚未执行的LP11/SOC12，必要缓存/J计剩余预算。
+[评估身份修复与16检查复用](notes/paid-attainer-objective-identity-repair-and-paid-check-reuse-20261115.md)：首失败047cef属field，正确objective SHA从原m7两网cache绑定读取，分别严核。四源精确更改、余149冻结；16人工/旧研究0重跑。首active.086260152+旧35.542398458累计，首prepare14.667315975与本次准备计初始化、总18.621493514另保。当前LP10/values14，仍唯一LP11/原SOC12/不m8；读公开修复run实际结果后继续open，不将未执行门称通过。
 
 
 ### R399新的第二period内部通道已实际付至四点

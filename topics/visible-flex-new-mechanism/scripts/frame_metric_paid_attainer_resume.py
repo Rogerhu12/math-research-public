@@ -129,8 +129,16 @@ class PaidAttainerResumeObjective(CurvatureDefectGuardObjective):
                 "historical epoch initial bank metadata must not be relabelled438")
         self.evaluation_definition.update(epoch)
         self.evaluation_sha256 = digest(self.evaluation_definition)
-        require(self.evaluation_sha256 == replay["epoch_evaluation_sha256"],
-                "same epoch ordinary evaluation definition could not be restored exactly")
+        expected_objective_sha = replay["epoch_evaluation_sha256"]
+        require(self.evaluation_sha256 == expected_objective_sha,
+                "same epoch ordinary evaluation definition could not be restored exactly; "
+                "expected="+expected_objective_sha+" actual="+self.evaluation_sha256)
+        expected_field_sha = replay["ordinary_field_evaluation_sha256"]
+        actual_field_sha = self.factorized.ordinary_evaluation_sha256
+        require(actual_field_sha == expected_field_sha
+                and digest(self.problem.evaluation_definition()) == expected_field_sha,
+                "same ordinary field evaluation definition could not be restored exactly; "
+                "expected="+expected_field_sha+" actual="+actual_field_sha)
         self.set_pool(coarse_pool, {"kind": "same-epoch-current-complete-coarse-pool-restored"})
         self.set_fine_pool(fine_pool, {"kind": "same-epoch-current-complete-fine-pool-restored"})
         self.pool_version, self.fine_pool_version = replay["pool_versions"]
@@ -162,6 +170,11 @@ class PaidAttainerResumeObjective(CurvatureDefectGuardObjective):
             "policy": POLICY, "source_model_number": 7,
             "source_current_bank_entries": 438, "historical_epoch_initial_bank_entries": 375,
             "same_original_evaluation_sha256": self.evaluation_sha256,
+            "same_ordinary_field_evaluation_sha256": actual_field_sha,
+            "objective_and_field_definition_hash_domains_are_distinct": True,
+            "source_snapshot_scalar_counters": copy.deepcopy(replay["source_snapshot_scalar_counters"]),
+            "first_failed_attempt_paid_receipt": copy.deepcopy(replay["paid_first_attempt"]["receipt"]),
+            "first_failed_attempt_paid_cost": copy.deepcopy(replay["paid_first_attempt"]["paid_cost"]),
             "pool_versions_restored_without_reinitialization": [self.pool_version, self.fine_pool_version],
             "paid_LP_ledger": copy.deepcopy(replay["inherited_ledger"]),
             "paid_active_seconds": paid_active, "paid_shared_values": 14,

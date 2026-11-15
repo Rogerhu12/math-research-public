@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd，池4432/4525版本1/2，B.00025、双streak0。γ末17.022353404161095/18.064283125328743；8events全commit、pending0，state57aeeb039749c574598477d41764c7651b7314c8530f150c83d3691815ade498。经验γ仅下一primary的active group8 target=max(old,1e−7+γB²)，本模型冻结；SOC原J/y/RHS、全部门/控制器/159→163不改。
 
-**同m7接口首次16人工全过，真实入口身份失败、LP11未付**：[首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)，source68f92b9…/run43771970034。恢复epoch evalSHA047cef…未等，在新模型/新值/J/LP前停；不绕哈希、不换身份。准备14.667315975s、恢复0.086260152s、总18.621493514s均保，恢复费累进原120秒；16检查仅原收据复用。当前438/学习8/池1/2/accepted7/LP10/values14/原active35.542398458不重置。继续静态定位定义差异；保438全行、四已付e/f附≤4合法支持、无新行0LP，唯一LP11/原SOC12、不m8，全部旧14门/SOC/控制器不改。
+**同m7哈希域修复已冻，16人工仅回执复用，LP11仍未付**：[评估身份修复与16检查复用](notes/paid-attainer-objective-identity-repair-and-paid-check-reuse-20261115.md)。首run43771970034失败是把field047cef与完整objective比较；正确旧objective取m7两网external_current_cache_binding一致SHA，两个域各严核。仅transfer/resume/audit/workflow四源变，core/dev/recovery和其余149件冻结；16人工0重跑。首失败active.086260152加旧35.542398458=35.62865861，首prepare14.667315975及本次prepare计初始化、旧总18.621493514另保。438/学习8/池1/2/accepted7/LP10/values14不重置；仍仅LP11/原SOC12、无新行0LP、不m8、14门/原SOC/controller不改。此次修复尚待实际结果。
 
 ## 4. 纸证与准确剩余门
 
@@ -54,4 +54,4 @@ Gaussian R388完整R0/R4=正系数D4=∫(f″²−u″²)²，无P分母；对�
 
 ## 5. 继续
 
-数值先修正同m7评估定义恢复，复用已通过16人工收据并累计失败费用，再执行尚未支付的LP11/原SOC12，保全规则与成本，不重跑旧工作。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
+数值读本次修复后的真实原域/模型绑定与LP11/原SOC12结果；16人工只复用，失败与当前全部费用累计，不重跑旧工作。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。

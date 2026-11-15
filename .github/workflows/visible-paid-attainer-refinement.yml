@@ -44,7 +44,7 @@ jobs:
           python-version: '3.12.14'
       - name: Install the original pinned numerical runtime
         run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
-      - name: Pull and review both rules, run sixteen new witness checks, then resume only the paid seventh model
+      - name: Pull and review both rules, reuse sixteen paid checks, then resume the still uncalled seventh-model LP
         env:
           GITHUB_TOKEN: ${{ github.token }}
           MR_TOKEN: ${{ secrets.MR_TOKEN }}
@@ -84,4 +84,4 @@ jobs:
               emit('PAID_ATTAINER_OUTPUT_METADATA',{'filename':path.name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'payload_committed_or_uploaded':False})
           raise SystemExit(code)
           PY
-      # No old LP10, old direction, completed study, artifact, Release, or payload commit.
+      # No paid sixteen-check rerun, old LP10, old direction, artifact, Release, or payload commit.
