@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:31:22 UTC 已读 026e105b67a4eae4afac7849dfce25cae52f5c7b，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:33:40 UTC 已读 9413635601bd51373701c3b4081f4d60f05a0105，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -33,7 +33,7 @@
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：8原37/FD与23trial/8接受齐，末两最近拒仅未选LEFT462；非BVP。末pair已清。[171接口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)十件/97pins已发：真98→原37八批→保同job真实末pair→新增LEFT462/node462的38模型/FD，17档不变；300min含恢复/320science/350job、预算不保16批。实际43739787509/source298c7dbe，exact核R361。
 
-[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：43734326402/sourcec3a7531d原α1/8接受/FD过；全75776×17，α≤1/8仿射闭段全正，α1/4同实际12坏行；37配74真实calls，148×453点态恒等全齐，整α由R354/170继续。
+[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原37/FD过、75776×17仿射及148×453点态齐。[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)六件/100pins已发，84af1e25/4206610b/2334bce6；真98→原37/FD→R354准确338/两mean+115零行、全端点2048×17闭段M及37×17末点Hermite差。10800s含恢复/diag5400/190science/215job；完整读后清，exact核R365，整IEEE线段/query角域仍未付。
 
 ## 同C、完整BVP及162
 
@@ -55,7 +55,6 @@
 
 [R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保七状态/完整112伴随。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发：112+10pins、actual157末九p50/六候选选一，独立十族fresh forward及原20档/full3/strict slope/Armijo；初末120项FD及原终态保，2400s/50min science/65min job，实际43741113847/source39e6ff80，amplitude核R364。[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)补R363同站不同商的G/H两jet完整span；173仍仅奇形状，未选父/未认证rank，同g须冻结形状。
 
-[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：准确V=(sqrt(P)C−νQB)/(aW)及完整方向V″，全338投影/115零行，闭段正界给显式M；原e0/e1与Hermiteδ0/δ1/执行误差全保。纯证明，无数值M/安全步长；接R334全段未付责任，不设原求解新门。
 
 ## 闭合、精化与恢复
 

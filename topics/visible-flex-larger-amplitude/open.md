@@ -128,3 +128,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R366：同坐标不同商的完整值/斜率响应
 
 [R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)已证按真实逻辑输入聚合G=Σw/a、H=−Σwb/a²；偶六次/奇七次严格局部零2-jet形状分别给ε²H/εG，完整C²允许形状响应span与两列矩阵同秩。只在单输入或准确共同q时可退化为单列；形成q词相同不证明该前提，odd全零也不排除value方向。无实际G/H/rank/新步，原full3/FD/接受门不改。173只odd；确需value方向另立真实新族，固定形状后同g精化不得重新挑站或缩宽。
+
+### 170：准确有限端点与R354末点Hermite差
+
+[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)六件/100pins已发：原166全部97源/三参数不变，原98完整37/FD先真实运行，复制实际A分块原scalar缓存而不新增旧RHS/J。准确有理π/Arb384与320位向外整数支付全部338投影/两mean/115零行、原JP准确作用和形成差；全实际端点×2048×17处理闭段M/域，37×17的Hermite差仅各末点。已核原FFT修正t投影+sin；未付整IEEE执行和query角域不归零。10800含恢复、diag5400/保留300+60、190science/215job；仅读回成功及marker后清，exact核实际R365。

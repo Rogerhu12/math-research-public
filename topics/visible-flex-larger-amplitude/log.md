@@ -197,3 +197,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:31:22 UTC /root — R366完整同站两jet响应
 
 全文证明及amplitude独立核后即发：按真实逻辑输入计G/H、偶/奇局部基给ε²H/εG，全允许span/rank/斜率与误差条件明确；单输入退回R363，odd零分数不排除值方向。无科学运行或新门，173scope不扩；数学分隔符按根规范。API核026e105b67a4eae4afac7849dfce25cae52f5c7b双README未变，真实pull记录保留。
+
+## 2026-11-15 17:33:40 UTC /root — request170完整R354参考计算入口
+
+capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25/46f85cce/4206610b/2334bce6；97原源保加3共100，修t投影+sin并把末点gap和闭段M明确分开。原37/FD/17档不改，10800/5400资源与完整读后清保；无本地AST或科学。API核9413635601bd51373701c3b4081f4d60f05a0105双README未变，真实pull记录保留。

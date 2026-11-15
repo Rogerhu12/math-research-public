@@ -280,3 +280,5 @@
 - [R362：首次169因工作流自身稀疏检出缺件而未起科学](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)：run43739904996/source82fe6b4b两原日志完整，首YAML缺件与后继七次dispatch缺件分责，C skipped/BVP未exec；规则真pull、primary unavailable和清理保留范围齐。随同最小接线/真实retry metadata重发，原科学与门不变。
 
 - [R366：同坐标不同逻辑商输入的完整值与斜率形状响应](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)（已证，无新数值）：完整聚合G/H由偶六次/奇七次局部零2-jet基逐一实现，精确刻画允许C²空间span/rank/左零空间及原merit斜率；准确公共q与形成词等同分开。173维持odd范围，不预填实际秩或全场接受。
+
+- [Request170：原37之后的完整R354准确有限端点参考](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)：六件/100pins，原model/FD门保持；实际A分块缓存绑定、全338/两mean投影与115零行、320位向外全17闭段二阶界，保e0/e1及453形成差。Hermite输出仅17末点，整IEEE及query角域仍未付；t投影已按原FFT核为+sin，无本地科学运行。
