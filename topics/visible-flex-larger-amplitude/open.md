@@ -87,3 +87,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **73完整原件及独立R276接线已发布：** [同包接口](notes/2026-11-15-actual73-shared-artifact-readback-and-R276-interface.md)固定真实artifact14141540502/1752742419B/3430597b，helperd97eb11b先原字节导出result/完整trace/trials/各实际iteration，再调用未改c062 reader。独立bd4科学step从同核验根读取实际result/partial SHA，全部原129248行/十alpha保持；不重J/QR/试探，不改原outcome。workflow3cd2eba4/request60097d67同时用当前22e恢复旧current576native出版。原日志范围见[原字段](notes/2026-11-15-actual73-official-log-readout.json)，具体失败原因仍等原件。
 
 **R278已完成：** [项目化归一化、原零集及局部消元证明](results/R278-finite-resonance-projective-normalization-and-local-elimination.md)已直接登记。正反向有限链的非零条件、奇异右块/零向量例外、根处Jac和离根商法则、原unit早停与完整112候选阈值分开。第三原方程已有合法根及非零偏导才可非线性局部二维缩减；当前候选尚未提供这些存在前提。后续saved输出诊断不成为native/prefix或本证明的新审核门。
+
+**真实SDK工程结果：** [完整锁构建与干净安装](notes/2026-11-15-actual-native-live-SDK-lock-and-clean-install.md)已保存；run43668049747/source7181/job132671745626全success。所有21原件在 `notes/public-actions-43668049747-1-native-live-sdk-build/`，含真实package3876fc4e和完整lock9451fd2e（266依赖项），禁脚本生成锁及独立npm ci均0，SDK2.3.2 constructor实际加载成功。120项字节/来源核对通过；没有SDK artifact方法、科学计算或supervisor部署，原glob弃用warning保留，不虚称安全审计或跨平台保证。

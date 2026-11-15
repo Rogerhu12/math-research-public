@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--registry=https://registry.npmjs.org/"
+  ],
+  "cwd": "/home/runner/work/_temp/visible-native-live-sdk-build/clean-ci",
+  "exit_code": 0,
+  "signal": null,
+  "launch_error": null,
+  "ignore_scripts_explicit": true,
+  "stdout": {
+    "file": "clean-npm-ci.stdout.log",
+    "bytes": 26,
+    "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+  },
+  "stderr": {
+    "file": "clean-npm-ci.stderr.log",
+    "bytes": 277,
+    "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+  }
+}

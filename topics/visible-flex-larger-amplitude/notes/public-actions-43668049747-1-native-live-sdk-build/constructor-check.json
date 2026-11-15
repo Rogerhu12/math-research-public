@@ -1,0 +1,32 @@
+{
+  "package_name": "@actions/artifact",
+  "package_version": "2.3.2",
+  "installed_package": {
+    "file": "package.json",
+    "bytes": 1782,
+    "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+  },
+  "installed_entrypoint": {
+    "file": "artifact.js",
+    "bytes": 1096,
+    "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+  },
+  "export_names": [
+    "ArtifactNotFoundError",
+    "DefaultArtifactClient",
+    "FilesNotFoundError",
+    "GHESNotSupportedError",
+    "InvalidResponseError",
+    "NetworkError",
+    "UsageError",
+    "default"
+  ],
+  "DefaultArtifactClient_type": "function",
+  "constructor_succeeded": true,
+  "artifact_API_methods_invoked": [],
+  "runtime_artifact_credentials_inherited": false,
+  "lifecycle_scripts_enabled": false,
+  "scientific_module_imported": false,
+  "supervisor_launched": false,
+  "scope": "Module load and constructor only; no upload/download/list/get/delete API call, no transport integration claim."
+}

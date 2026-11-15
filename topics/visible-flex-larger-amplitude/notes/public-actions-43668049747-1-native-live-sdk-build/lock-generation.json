@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "npm",
+    "install",
+    "--package-lock-only",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--registry=https://registry.npmjs.org/"
+  ],
+  "cwd": "/home/runner/work/_temp/visible-native-live-sdk-build/lock-generation",
+  "exit_code": 0,
+  "signal": null,
+  "launch_error": null,
+  "ignore_scripts_explicit": true,
+  "stdout": {
+    "file": "lock-generation.stdout.log",
+    "bytes": 18,
+    "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+  },
+  "stderr": {
+    "file": "lock-generation.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

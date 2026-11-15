@@ -1,0 +1,161 @@
+{
+  "schema": "native-live-sdk-build-result-v1",
+  "request_id": "storage-sdk-build-20261115",
+  "completed": true,
+  "phase": "complete",
+  "scientific_computation_performed": false,
+  "SDK_artifact_methods_called": [],
+  "supervisor_deployed": false,
+  "success_anchor_required": false,
+  "node_modules_archived": false,
+  "lifecycle_scripts_requested": false,
+  "stages": [
+    {
+      "name": "lock-generation",
+      "argv": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "--registry=https://registry.npmjs.org/"
+      ],
+      "cwd": "/home/runner/work/_temp/visible-native-live-sdk-build/lock-generation",
+      "exit_code": 0,
+      "signal": null,
+      "launch_error": null,
+      "ignore_scripts_explicit": true,
+      "stdout": {
+        "file": "lock-generation.stdout.log",
+        "bytes": 18,
+        "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+      },
+      "stderr": {
+        "file": "lock-generation.stderr.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "name": "clean-npm-ci",
+      "argv": [
+        "npm",
+        "ci",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "--registry=https://registry.npmjs.org/"
+      ],
+      "cwd": "/home/runner/work/_temp/visible-native-live-sdk-build/clean-ci",
+      "exit_code": 0,
+      "signal": null,
+      "launch_error": null,
+      "ignore_scripts_explicit": true,
+      "stdout": {
+        "file": "clean-npm-ci.stdout.log",
+        "bytes": 26,
+        "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+      },
+      "stderr": {
+        "file": "clean-npm-ci.stderr.log",
+        "bytes": 277,
+        "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+      }
+    }
+  ],
+  "versions": {
+    "node": "v24.22.1",
+    "npm": "11.19.1",
+    "node_components": {
+      "node": "24.22.1",
+      "acorn": "8.18.0",
+      "ada": "4.0.0",
+      "amaro": "1.1.11",
+      "ares": "1.34.9",
+      "brotli": "1.2.0",
+      "cldr": "48.0",
+      "icu": "78.3",
+      "llhttp": "9.4.3",
+      "merve": "1.2.2",
+      "modules": "137",
+      "napi": "10",
+      "nbytes": "0.1.4",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.70.0",
+      "nghttp3": "",
+      "ngtcp2": "",
+      "openssl": "3.5.9",
+      "simdjson": "4.6.11",
+      "simdutf": "6.4.0",
+      "sqlite": "3.53.4",
+      "tz": "2026e",
+      "undici": "7.30.1",
+      "unicode": "17.0",
+      "uv": "1.52.1",
+      "uvwasi": "0.0.23",
+      "v8": "13.6.233.17-node.58",
+      "zlib": "1.3.2.1-motley-285e94b",
+      "zstd": "1.5.7"
+    },
+    "platform": "linux",
+    "architecture": "x64",
+    "runner_os": "Linux",
+    "runner_arch": "X64",
+    "runner_image": "ubuntu26",
+    "runner_image_version": "20261111.196.1"
+  },
+  "lock_phase_node_modules_present": false,
+  "lock": {
+    "package": {
+      "file": "package.json",
+      "bytes": 197,
+      "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+    },
+    "lock": {
+      "file": "package-lock.json",
+      "bytes": 128535,
+      "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+    },
+    "lockfile_version": 3,
+    "dependency_entries": 266,
+    "entries_missing_required_registry_integrity": [],
+    "packages_declaring_install_scripts": [],
+    "declared_script_is_not_proof_script_is_required_for_constructor": true,
+    "complete_lock_preserved_without_reserialization": true,
+    "lock_generated_by_actual_npm": true
+  },
+  "constructor": {
+    "package_name": "@actions/artifact",
+    "package_version": "2.3.2",
+    "installed_package": {
+      "file": "package.json",
+      "bytes": 1782,
+      "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+    },
+    "installed_entrypoint": {
+      "file": "artifact.js",
+      "bytes": 1096,
+      "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+    },
+    "export_names": [
+      "ArtifactNotFoundError",
+      "DefaultArtifactClient",
+      "FilesNotFoundError",
+      "GHESNotSupportedError",
+      "InvalidResponseError",
+      "NetworkError",
+      "UsageError",
+      "default"
+    ],
+    "DefaultArtifactClient_type": "function",
+    "constructor_succeeded": true,
+    "artifact_API_methods_invoked": [],
+    "runtime_artifact_credentials_inherited": false,
+    "lifecycle_scripts_enabled": false,
+    "scientific_module_imported": false,
+    "supervisor_launched": false,
+    "scope": "Module load and constructor only; no upload/download/list/get/delete API call, no transport integration claim."
+  },
+  "reproducibility_scope": "One clean installation from the actual generated complete lock on the recorded runtime/platform; not a second-run, cross-platform or artifact-transport test."
+}

@@ -1,0 +1,32 @@
+{
+  "source_commit": "7181b75a7fdee17989c7f619d480770eae503560",
+  "workflow": {
+    "file": ".github/workflows/visible-larger-public-native-live-sdk-build.yml",
+    "bytes": 16508,
+    "sha256": "6be68b21a7491e4908f064a18ae68edd457b3b5a6e19e4fca176924657e382c5"
+  },
+  "request": {
+    "file": "topics/visible-flex-larger-amplitude/computations/public-native-live-sdk-build-request.json",
+    "bytes": 2072,
+    "sha256": "0346c555ef79bc5f9da7e87b36e8ce08935d2e7b970db1fb1b19b009ec1a2f3a"
+  },
+  "actions": {
+    "checkout": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_node": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+    "upload_artifact": "ea165f8d65b6e75b540449e92b4886f43607fa02"
+  },
+  "inline_build_driver": {
+    "file": "sdk-build-driver.mjs",
+    "bytes": 12357,
+    "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+  },
+  "official_source_reference": {
+    "repository": "actions/toolkit",
+    "commit": "c40bccc9c31c29df15c93abbea5b18bb474a4add",
+    "package_version": "2.3.2",
+    "client_source": "packages/artifact/src/internal/client.ts",
+    "client_source_sha256": "a3afe95a3bc50cf9cec82d3ba83ab56a57d84e45b0560f4b3258413992d53df0"
+  },
+  "npm_lock_existed_before_this_run": false,
+  "mathematical_sources_required": false
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "public-native-live-sdk-build-request-v1",
+  "request_id": "storage-sdk-build-20261115",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Generate one real complete SDK dependency lock in public Actions, then perform a clean scripts-disabled installation and constructor-only load.",
+  "sdk": {
+    "package": "@actions/artifact",
+    "version": "2.3.2",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "runtime": {
+    "node": "24.22.1",
+    "npm_policy": "Use and record the npm bundled with this exact Node distribution; do not install another npm."
+  },
+  "package": {
+    "name": "visible-larger-native-live-artifact-sdk",
+    "version": "0.0.0",
+    "private": true,
+    "engines": {
+      "node": "24.22.1"
+    },
+    "dependencies": {
+      "@actions/artifact": "2.3.2"
+    }
+  },
+  "actions": {
+    "checkout": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_node": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+    "upload_artifact": "ea165f8d65b6e75b540449e92b4886f43607fa02"
+  },
+  "operations": {
+    "generate_real_lock": true,
+    "install_from_generated_lock": true,
+    "ignore_scripts": true,
+    "audit": false,
+    "fund": false,
+    "constructor_only": true,
+    "SDK_artifact_API_methods_called": false,
+    "scientific_modules_imported": false,
+    "scientific_program_called": false,
+    "success_anchor_required": false,
+    "supervisor_deployed": false,
+    "node_modules_archived": false
+  },
+  "official_source_reference": {
+    "repository": "actions/toolkit",
+    "commit": "c40bccc9c31c29df15c93abbea5b18bb474a4add",
+    "package_version": "2.3.2",
+    "client_source": "packages/artifact/src/internal/client.ts",
+    "client_source_sha256": "a3afe95a3bc50cf9cec82d3ba83ab56a57d84e45b0560f4b3258413992d53df0"
+  },
+  "output_scope": "Original package and complete generated lock, command/exit logs, actual Node/npm/platform versions, lock/source/install/constructor receipts. The ordinary pinned upload-artifact step preserves this bounded build evidence; the tested SDK performs no artifact API call."
+}

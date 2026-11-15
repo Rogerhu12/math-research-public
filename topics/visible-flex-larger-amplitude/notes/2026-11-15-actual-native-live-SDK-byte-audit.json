@@ -1,0 +1,1189 @@
+{
+  "schema": "actual-native-live-sdk-build-byte-audit-v1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Actual engineering output manifest schema",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Unique complete manifest file names",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path build-purpose.txt",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path build-result.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path clean-npm-ci.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path clean-npm-ci.stderr.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path clean-npm-ci.stdout.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path constructor-check.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path install-source-preservation.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path installed-sdk-entrypoint.js",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path installed-sdk-package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path lock-generation.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path lock-generation.stderr.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path lock-generation.stdout.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path lock-verification.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path package-lock.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path request-original.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path runtime-versions.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path sdk-build-driver.mjs",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path source-identity.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Basename-only manifest path workflow-original.yml",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file build-purpose.txt",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes build-purpose.txt",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "build-purpose.txt",
+          "bytes": 88,
+          "sha256": "c7e00be85b7df4f6e5615328f03ed22b7246cc8e6c5ca236109e7f68f70fbbe3"
+        },
+        "actual": {
+          "file": "build-purpose.txt",
+          "bytes": 88,
+          "sha256": "c7e00be85b7df4f6e5615328f03ed22b7246cc8e6c5ca236109e7f68f70fbbe3"
+        }
+      }
+    },
+    {
+      "name": "Regular original file build-result.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes build-result.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "build-result.json",
+          "bytes": 4948,
+          "sha256": "f75b426f0b8929a21c953b28c09b6f9182845ee8b355f67991c36ce0a7ad8465"
+        },
+        "actual": {
+          "file": "build-result.json",
+          "bytes": 4948,
+          "sha256": "f75b426f0b8929a21c953b28c09b6f9182845ee8b355f67991c36ce0a7ad8465"
+        }
+      }
+    },
+    {
+      "name": "Regular original file clean-npm-ci.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes clean-npm-ci.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "clean-npm-ci.json",
+          "bytes": 628,
+          "sha256": "f2717564c1a629121ddd56af870d4462d98d112c1ae3240be2182a166656da58"
+        },
+        "actual": {
+          "file": "clean-npm-ci.json",
+          "bytes": 628,
+          "sha256": "f2717564c1a629121ddd56af870d4462d98d112c1ae3240be2182a166656da58"
+        }
+      }
+    },
+    {
+      "name": "Regular original file clean-npm-ci.stderr.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes clean-npm-ci.stderr.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "clean-npm-ci.stderr.log",
+          "bytes": 277,
+          "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+        },
+        "actual": {
+          "file": "clean-npm-ci.stderr.log",
+          "bytes": 277,
+          "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+        }
+      }
+    },
+    {
+      "name": "Regular original file clean-npm-ci.stdout.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes clean-npm-ci.stdout.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "clean-npm-ci.stdout.log",
+          "bytes": 26,
+          "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+        },
+        "actual": {
+          "file": "clean-npm-ci.stdout.log",
+          "bytes": 26,
+          "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+        }
+      }
+    },
+    {
+      "name": "Regular original file constructor-check.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes constructor-check.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "constructor-check.json",
+          "bytes": 1008,
+          "sha256": "781991e893e2835aa19d93e41bc7daa1277c8580821d5d80be835f872ea7e1b8"
+        },
+        "actual": {
+          "file": "constructor-check.json",
+          "bytes": 1008,
+          "sha256": "781991e893e2835aa19d93e41bc7daa1277c8580821d5d80be835f872ea7e1b8"
+        }
+      }
+    },
+    {
+      "name": "Regular original file install-source-preservation.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes install-source-preservation.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "install-source-preservation.json",
+          "bytes": 694,
+          "sha256": "80ac5af53b6baea0c2f243c696289cbef8f6bfdd2904a85596ccec8c3693b514"
+        },
+        "actual": {
+          "file": "install-source-preservation.json",
+          "bytes": 694,
+          "sha256": "80ac5af53b6baea0c2f243c696289cbef8f6bfdd2904a85596ccec8c3693b514"
+        }
+      }
+    },
+    {
+      "name": "Regular original file installed-sdk-entrypoint.js",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes installed-sdk-entrypoint.js",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "installed-sdk-entrypoint.js",
+          "bytes": 1096,
+          "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+        },
+        "actual": {
+          "file": "installed-sdk-entrypoint.js",
+          "bytes": 1096,
+          "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+        }
+      }
+    },
+    {
+      "name": "Regular original file installed-sdk-package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes installed-sdk-package.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "installed-sdk-package.json",
+          "bytes": 1782,
+          "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+        },
+        "actual": {
+          "file": "installed-sdk-package.json",
+          "bytes": 1782,
+          "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+        }
+      }
+    },
+    {
+      "name": "Regular original file lock-generation.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes lock-generation.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "lock-generation.json",
+          "bytes": 671,
+          "sha256": "3159ffc1e15288587834dc1bb960f66ae58f2b81ceb7b311d6ca97b11d378f2b"
+        },
+        "actual": {
+          "file": "lock-generation.json",
+          "bytes": 671,
+          "sha256": "3159ffc1e15288587834dc1bb960f66ae58f2b81ceb7b311d6ca97b11d378f2b"
+        }
+      }
+    },
+    {
+      "name": "Regular original file lock-generation.stderr.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes lock-generation.stderr.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "lock-generation.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "actual": {
+          "file": "lock-generation.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "name": "Regular original file lock-generation.stdout.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes lock-generation.stdout.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "lock-generation.stdout.log",
+          "bytes": 18,
+          "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+        },
+        "actual": {
+          "file": "lock-generation.stdout.log",
+          "bytes": 18,
+          "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+        }
+      }
+    },
+    {
+      "name": "Regular original file lock-verification.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes lock-verification.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "lock-verification.json",
+          "bytes": 627,
+          "sha256": "bd74148e959361f22aae68f26715a7882275a2f07af23950d905d340c7705fef"
+        },
+        "actual": {
+          "file": "lock-verification.json",
+          "bytes": 627,
+          "sha256": "bd74148e959361f22aae68f26715a7882275a2f07af23950d905d340c7705fef"
+        }
+      }
+    },
+    {
+      "name": "Regular original file package-lock.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package-lock.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        },
+        "actual": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        }
+      }
+    },
+    {
+      "name": "Regular original file package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        },
+        "actual": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        }
+      }
+    },
+    {
+      "name": "Regular original file request-original.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes request-original.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "request-original.json",
+          "bytes": 2072,
+          "sha256": "0346c555ef79bc5f9da7e87b36e8ce08935d2e7b970db1fb1b19b009ec1a2f3a"
+        },
+        "actual": {
+          "file": "request-original.json",
+          "bytes": 2072,
+          "sha256": "0346c555ef79bc5f9da7e87b36e8ce08935d2e7b970db1fb1b19b009ec1a2f3a"
+        }
+      }
+    },
+    {
+      "name": "Regular original file runtime-versions.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes runtime-versions.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "runtime-versions.json",
+          "bytes": 909,
+          "sha256": "4869327a0f2e373273968cff22fef7bb9d964f60bdf796255711057a0aa46500"
+        },
+        "actual": {
+          "file": "runtime-versions.json",
+          "bytes": 909,
+          "sha256": "4869327a0f2e373273968cff22fef7bb9d964f60bdf796255711057a0aa46500"
+        }
+      }
+    },
+    {
+      "name": "Regular original file sdk-build-driver.mjs",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes sdk-build-driver.mjs",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "sdk-build-driver.mjs",
+          "bytes": 12357,
+          "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+        },
+        "actual": {
+          "file": "sdk-build-driver.mjs",
+          "bytes": 12357,
+          "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+        }
+      }
+    },
+    {
+      "name": "Regular original file source-identity.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes source-identity.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "source-identity.json",
+          "bytes": 1285,
+          "sha256": "7d27cfc9b2ef326fdd57a6a278c724d172c90b9f997f7ecca6949c3c7e82a0c5"
+        },
+        "actual": {
+          "file": "source-identity.json",
+          "bytes": 1285,
+          "sha256": "7d27cfc9b2ef326fdd57a6a278c724d172c90b9f997f7ecca6949c3c7e82a0c5"
+        }
+      }
+    },
+    {
+      "name": "Regular original file workflow-original.yml",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes workflow-original.yml",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "workflow-original.yml",
+          "bytes": 16508,
+          "sha256": "6be68b21a7491e4908f064a18ae68edd457b3b5a6e19e4fca176924657e382c5"
+        },
+        "actual": {
+          "file": "workflow-original.yml",
+          "bytes": 16508,
+          "sha256": "6be68b21a7491e4908f064a18ae68edd457b3b5a6e19e4fca176924657e382c5"
+        }
+      }
+    },
+    {
+      "name": "Exact artifact receipt inventory",
+      "passed": true,
+      "evidence": {
+        "actual": [
+          "build-output-manifest.json",
+          "build-purpose.txt",
+          "build-result.json",
+          "clean-npm-ci.json",
+          "clean-npm-ci.stderr.log",
+          "clean-npm-ci.stdout.log",
+          "constructor-check.json",
+          "install-source-preservation.json",
+          "installed-sdk-entrypoint.js",
+          "installed-sdk-package.json",
+          "lock-generation.json",
+          "lock-generation.stderr.log",
+          "lock-generation.stdout.log",
+          "lock-verification.json",
+          "package-lock.json",
+          "package.json",
+          "request-original.json",
+          "runtime-versions.json",
+          "sdk-build-driver.mjs",
+          "source-identity.json",
+          "workflow-original.yml"
+        ],
+        "expected": [
+          "build-output-manifest.json",
+          "build-purpose.txt",
+          "build-result.json",
+          "clean-npm-ci.json",
+          "clean-npm-ci.stderr.log",
+          "clean-npm-ci.stdout.log",
+          "constructor-check.json",
+          "install-source-preservation.json",
+          "installed-sdk-entrypoint.js",
+          "installed-sdk-package.json",
+          "lock-generation.json",
+          "lock-generation.stderr.log",
+          "lock-generation.stdout.log",
+          "lock-verification.json",
+          "package-lock.json",
+          "package.json",
+          "request-original.json",
+          "runtime-versions.json",
+          "sdk-build-driver.mjs",
+          "source-identity.json",
+          "workflow-original.yml"
+        ]
+      }
+    },
+    {
+      "name": "Only ordinary receipt files, no node_modules",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Actual result completed without recorded error",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original source commit",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Artifact exact triggering Git source workflow-original.yml",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Source identity original descriptor workflow",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Artifact exact triggering Git source request-original.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Source identity original descriptor request",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Inline build driver is exact workflow heredoc",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file sdk-build-driver.mjs",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes sdk-build-driver.mjs",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "sdk-build-driver.mjs",
+          "bytes": 12357,
+          "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+        },
+        "actual": {
+          "file": "sdk-build-driver.mjs",
+          "bytes": 12357,
+          "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+        }
+      }
+    },
+    {
+      "name": "Exact package request and generated package",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Explicit SDK version and registry",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Actual Node and declared runtime",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Actual versions copied unchanged into result",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Actual npm recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Complete actual packages lock",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "All resolved registry integrity entries present",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Actual dependency entry count",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original declared-install-script inventory",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        },
+        "actual": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        }
+      }
+    },
+    {
+      "name": "Regular original file package-lock.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package-lock.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        },
+        "actual": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        }
+      }
+    },
+    {
+      "name": "Result preserves full lock verification",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original successful scripts-disabled command lock-generation",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file lock-generation.stdout.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes lock-generation.stdout.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "lock-generation.stdout.log",
+          "bytes": 18,
+          "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+        },
+        "actual": {
+          "file": "lock-generation.stdout.log",
+          "bytes": 18,
+          "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+        }
+      }
+    },
+    {
+      "name": "Regular original file lock-generation.stderr.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes lock-generation.stderr.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "lock-generation.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "actual": {
+          "file": "lock-generation.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "name": "Stage receipt unchanged in final result lock-generation",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original successful scripts-disabled command clean-npm-ci",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file clean-npm-ci.stdout.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes clean-npm-ci.stdout.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "clean-npm-ci.stdout.log",
+          "bytes": 26,
+          "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+        },
+        "actual": {
+          "file": "clean-npm-ci.stdout.log",
+          "bytes": 26,
+          "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+        }
+      }
+    },
+    {
+      "name": "Regular original file clean-npm-ci.stderr.log",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes clean-npm-ci.stderr.log",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "clean-npm-ci.stderr.log",
+          "bytes": 277,
+          "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+        },
+        "actual": {
+          "file": "clean-npm-ci.stderr.log",
+          "bytes": 277,
+          "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+        }
+      }
+    },
+    {
+      "name": "Stage receipt unchanged in final result clean-npm-ci",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Generation and clean-ci are independent directories",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Exactly two npm build stages",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        },
+        "actual": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        }
+      }
+    },
+    {
+      "name": "Regular original file package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        },
+        "actual": {
+          "file": "package.json",
+          "bytes": 197,
+          "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+        }
+      }
+    },
+    {
+      "name": "Regular original file package-lock.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package-lock.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        },
+        "actual": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        }
+      }
+    },
+    {
+      "name": "Regular original file package-lock.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes package-lock.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        },
+        "actual": {
+          "file": "package-lock.json",
+          "bytes": 128535,
+          "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+        }
+      }
+    },
+    {
+      "name": "Clean ci preserved package and lock original bytes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Regular original file installed-sdk-package.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes installed-sdk-package.json",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "package.json",
+          "bytes": 1782,
+          "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+        },
+        "actual": {
+          "file": "installed-sdk-package.json",
+          "bytes": 1782,
+          "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+        }
+      }
+    },
+    {
+      "name": "Regular original file installed-sdk-entrypoint.js",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original bytes installed-sdk-entrypoint.js",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "file": "artifact.js",
+          "bytes": 1096,
+          "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+        },
+        "actual": {
+          "file": "installed-sdk-entrypoint.js",
+          "bytes": 1096,
+          "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+        }
+      }
+    },
+    {
+      "name": "Actual installed SDK metadata",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Actual constructor completed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Constructor receipt unchanged in result",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Recorded constructor scope only",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "No broader deployment or science claimed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Manifest scope matches actual successful engineering result",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "check_count": 120,
+  "source_commit": "7181b75a7fdee17989c7f619d480770eae503560",
+  "files": [
+    {
+      "file": "build-purpose.txt",
+      "bytes": 88,
+      "sha256": "c7e00be85b7df4f6e5615328f03ed22b7246cc8e6c5ca236109e7f68f70fbbe3"
+    },
+    {
+      "file": "build-result.json",
+      "bytes": 4948,
+      "sha256": "f75b426f0b8929a21c953b28c09b6f9182845ee8b355f67991c36ce0a7ad8465"
+    },
+    {
+      "file": "clean-npm-ci.json",
+      "bytes": 628,
+      "sha256": "f2717564c1a629121ddd56af870d4462d98d112c1ae3240be2182a166656da58"
+    },
+    {
+      "file": "clean-npm-ci.stderr.log",
+      "bytes": 277,
+      "sha256": "7111c62ae2092d9b58027df87630d8b02e59865110181ada987f1c997e08f6b2"
+    },
+    {
+      "file": "clean-npm-ci.stdout.log",
+      "bytes": 26,
+      "sha256": "a76c77bd3b7548f13529445ceed93488fa98396c1fe25572ab90b71237536f14"
+    },
+    {
+      "file": "constructor-check.json",
+      "bytes": 1008,
+      "sha256": "781991e893e2835aa19d93e41bc7daa1277c8580821d5d80be835f872ea7e1b8"
+    },
+    {
+      "file": "install-source-preservation.json",
+      "bytes": 694,
+      "sha256": "80ac5af53b6baea0c2f243c696289cbef8f6bfdd2904a85596ccec8c3693b514"
+    },
+    {
+      "file": "installed-sdk-entrypoint.js",
+      "bytes": 1096,
+      "sha256": "1badcb30279b273f258ea73fabf9805d886225b0e74b62caa8cbec923890d271"
+    },
+    {
+      "file": "installed-sdk-package.json",
+      "bytes": 1782,
+      "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+    },
+    {
+      "file": "lock-generation.json",
+      "bytes": 671,
+      "sha256": "3159ffc1e15288587834dc1bb960f66ae58f2b81ceb7b311d6ca97b11d378f2b"
+    },
+    {
+      "file": "lock-generation.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "lock-generation.stdout.log",
+      "bytes": 18,
+      "sha256": "8ed2a8821f3fe701d344a5d8a37ec6a88732e8e1744e0768241d7cd0bac9b9a3"
+    },
+    {
+      "file": "lock-verification.json",
+      "bytes": 627,
+      "sha256": "bd74148e959361f22aae68f26715a7882275a2f07af23950d905d340c7705fef"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 128535,
+      "sha256": "9451fd2e058f7c0334b233bfc3ffa7a11d81c812cd26f8d4d245eb9ca5a0a4e7"
+    },
+    {
+      "file": "package.json",
+      "bytes": 197,
+      "sha256": "3876fc4e5627d91624338ee976b4d101d40a58df58a6809b45912a9cd5fa001c"
+    },
+    {
+      "file": "request-original.json",
+      "bytes": 2072,
+      "sha256": "0346c555ef79bc5f9da7e87b36e8ce08935d2e7b970db1fb1b19b009ec1a2f3a"
+    },
+    {
+      "file": "runtime-versions.json",
+      "bytes": 909,
+      "sha256": "4869327a0f2e373273968cff22fef7bb9d964f60bdf796255711057a0aa46500"
+    },
+    {
+      "file": "sdk-build-driver.mjs",
+      "bytes": 12357,
+      "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+    },
+    {
+      "file": "source-identity.json",
+      "bytes": 1285,
+      "sha256": "7d27cfc9b2ef326fdd57a6a278c724d172c90b9f997f7ecca6949c3c7e82a0c5"
+    },
+    {
+      "file": "workflow-original.yml",
+      "bytes": 16508,
+      "sha256": "6be68b21a7491e4908f064a18ae68edd457b3b5a6e19e4fca176924657e382c5"
+    }
+  ],
+  "manifest": {
+    "file": "build-output-manifest.json",
+    "bytes": 3409,
+    "sha256": "5c9e69d1bd7994d450501c5dfe9883a310bc4e33890f11cfdec45b206aac1bf9"
+  },
+  "source_git_bytes": {
+    ".github/workflows/visible-larger-public-native-live-sdk-build.yml": {
+      "bytes": 16508,
+      "sha256": "6be68b21a7491e4908f064a18ae68edd457b3b5a6e19e4fca176924657e382c5"
+    },
+    "topics/visible-flex-larger-amplitude/computations/public-native-live-sdk-build-request.json": {
+      "bytes": 2072,
+      "sha256": "0346c555ef79bc5f9da7e87b36e8ce08935d2e7b970db1fb1b19b009ec1a2f3a"
+    }
+  },
+  "root_transport_markers_not_original_artifact_members": [
+    {
+      "file": ".download-complete",
+      "bytes": 65,
+      "sha256": "d2e760507c7a17f15320a4c92e6d2347b97fdea363e61d47f0868bf3b66893c8"
+    }
+  ],
+  "actual_versions": {
+    "node": "v24.22.1",
+    "npm": "11.19.1",
+    "node_components": {
+      "node": "24.22.1",
+      "acorn": "8.18.0",
+      "ada": "4.0.0",
+      "amaro": "1.1.11",
+      "ares": "1.34.9",
+      "brotli": "1.2.0",
+      "cldr": "48.0",
+      "icu": "78.3",
+      "llhttp": "9.4.3",
+      "merve": "1.2.2",
+      "modules": "137",
+      "napi": "10",
+      "nbytes": "0.1.4",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.70.0",
+      "nghttp3": "",
+      "ngtcp2": "",
+      "openssl": "3.5.9",
+      "simdjson": "4.6.11",
+      "simdutf": "6.4.0",
+      "sqlite": "3.53.4",
+      "tz": "2026e",
+      "undici": "7.30.1",
+      "unicode": "17.0",
+      "uv": "1.52.1",
+      "uvwasi": "0.0.23",
+      "v8": "13.6.233.17-node.58",
+      "zlib": "1.3.2.1-motley-285e94b",
+      "zstd": "1.5.7"
+    },
+    "platform": "linux",
+    "architecture": "x64",
+    "runner_os": "Linux",
+    "runner_arch": "X64",
+    "runner_image": "ubuntu26",
+    "runner_image_version": "20261111.196.1"
+  },
+  "dependency_entries": 266,
+  "packages_declaring_install_scripts": [],
+  "SDK_imported_by_reader": false,
+  "npm_executed_by_reader": false,
+  "artifact_methods_called_by_reader": false,
+  "scientific_computation_performed": false
+}
