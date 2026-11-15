@@ -447,3 +447,5 @@
 - **R821（已证明）**：[全部允许p原整Hom的cusp像为O及原y简单尖点极](results/R821-original-all-prime-cusp-zero-and-simple-poles.md)。原c0归一化、δ固定cusp给实际C[1−ζ]像，原T保整Hom格且Φ_n(T)=0；互素cusp域允许σ固定P，在三阶像上作用±1，Φ_n(±1)=1排非零像。R819给不分歧，X→Y在cusp三重分歧故原y在Y为简单极；余下非cusp极除子仍待。原r=x/a及η=h/a在cusp阶(p−2)/3，固定尺度保留。SHA e2e70e7a0fb395362c7531a128c09aa6a1ff50a7ceb0bbac848ddc7313a56592。
 
 - **R822（已证明）**：[原两图极格的实际全局余长度认证](results/R822-original-polar-lattices-certified-by-global-colength.md)。原MAH=MBW全式给底环子格包含原极理想，双向Laurent拼接，真实τ全det次数＋σ在0局部det阶与独立1206相等迫完整；不预设R理想，不必保存整个char0列消元。原b模分解的各真因子×ζ两root全部恢复14块，严格候选/全原式/拼接/长度终验仍必需。尚无原候选输出。SHA fdc5dc20adedad42bbb12ce04c006bc413b35993878095fd686ab0799931b231。
+
+- **R823（已证明，在原M2,1≠0下；充分大全p由R729）**：[每个非零原primitive L-Hom在原c1不分歧](results/R823-original-primitive-Hom-CM-nonramification.md)。有理c1/s=a−1使λ(Tv)=ρσλ(v)，评价核在原E-rank1 Hom中只能0/全体；实际isogeny的Hom拉回基和原M2/16非零排全体。保c_h/β常数/c0与真正整Hom；R729已有common m1仅复用，不新增数值阈值、p单位、深度4结论或height外积精确阶。SHA 383cfc2184297dc5f485d8255db11a650b0e4aac703fa89c18da36b18b40db7e。

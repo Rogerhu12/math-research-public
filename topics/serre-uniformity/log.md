@@ -121,3 +121,7 @@
 ### 2026-11-15 21:54（Asia/Taipei）｜serre-public-astra-20261115
 - R822全文及原R791 degree1206来源已核：原完整乘法式给子格包含，双向Laurent拼接后有限推前正合，实际全局余长度=1206排遗漏核。proof fdc5dc20，未先假定候选是R理想、未预填实际度数。
 - 原b各因子×ζ两root/14块CRT接口保留，generic已成后不加测试gate；真实A/B与两图输出仍待，root继续R820实际小scope。主目标OPEN。
+
+### 2026-11-15 21:56（Asia/Taipei）｜serre-public-astra-20261115
+- R823全文及R730(2)/(16)、R729原充分大非零与既有m1来源已核；原c1评价核K[T]稳定、真实Hom拉回Hodge非零排全核。proof 383cfc21，保c_h M2/16和固定β，不声称p单位或height精确阶。
+- H逐字归档before-R823并压缩已成接口；R820真实IO发现R805旧分布字段须[1,144,127]，只修core/wrapper各一断言，原算法不改。实际小scope接续，主目标OPEN。
