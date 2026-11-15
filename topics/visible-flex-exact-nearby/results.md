@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际 raw nonmean 窄域限制与五组三带迹系数](results/R133-supplement-actual-saved-nonmean-restrictions-and-three-band-trace-budgets.md)：43720373326/1 child0/13门，原7721行/40parts及MC成功mean窗只读；窄P非mean L2<1.602333e−9，完整known F96<3.596676e−18、F288精确0。五例known middle<6.019548e−16、remaining>1.9686898045e−11仅充分预算；NA14仍要求同一状态真实finite cut及左右low/high body，actual low/core/high inverse均未宣称。旧数学0，首infra失败child未知与lost-new恢复完整保留。
+
 - [R133 RV actual：准确径向抵消的完整局部源改善](results/R133-supplement-actual-correlated-radial-local-source-bounds.md)：public43719681982/1 child0/27门，local1<7.002469e11、local2<4.317610e8、完整pair<1.606600e14，其他29项逐字AJ。13新负h预算/原六径权/0旧math；首schema失败和修复精确保留，7个成功b1jet可供DG只读，仍非GH。
 
 - [R133 DG：第一genuine修正的直接物理transport](results/R133-supplement-direct-physical-transport-of-genuine-first-correction.md)：准确两物理行只需w1V一径导/三角导，complete rank n^-2和全部source weights仍保；只新增a1七tail，b1七jet待RV成功小结仅读。仅density1五整项可比，density0/local/mean未声明项全保，不重复旧积分，非GH。

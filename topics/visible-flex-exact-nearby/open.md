@@ -191,7 +191,7 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 [LT三带真实collar迹](results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md)现给Π96、97..288和>288三段的完整低入口：真实双侧一阶能量及comm给H1/2迹；参考带192使两finite→>288 leg精确为0，未知ΔA/Δd、中间带/mean保。fδ全degree288，true f=0才使F288=0，MA同态H8193仅用于无限尾插值；LT20/26保known源影响的middle及独立mean。须实际有限cut cL和截面两侧low/high body；Green只给左侧算子gain，不能越域或当实际correction。LT22/23另保近似态真实Fφ和speed mean；新数值门未评，core/匹配未成。
 
-[NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)锁真实交长与旧整格积分两完整界min、全K权及repair/offset；degree160付640角费，MC均值仅读。首43719591979因preGit>59KB停止，child/gates未知、临时新结果失去；仅infra v2 worker7f1bd9e5/manifest e9ea51e3已重部署，SCI不改；左右body/cut未付。
+[NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)及[actual43720373326/1](results/R133-supplement-actual-saved-nonmean-restrictions-and-three-band-trace-budgets.md)已成child0/13门，execution401d41d8/reportc905f5c4；SCI129f7f79/worker7f1bd9e5/19pin e9ea51e3成功锁。140/2原行以真实交长sup²/整格L2²取完整min，K权/repair/offset全付；窄P非mean L2<1.602333e−9，known F96<3.596676e−18/角<3.167387e−15，known F288精确0。MC均值/五高窗仅读；五例known-middle<6.019548e−16，剩充分半径>1.9686898045e−11只为预算。NA14仍须同态真实cL及左右P-scaled ZL/ZH，近似态另付ordinary residual/mean-speed；low/core均false。首43719591979的preGit>59KB/child未知/授权lost-new恢复完整保actual，success不重算。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
@@ -245,6 +245,6 @@ full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，13:23:55定时及13:09非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。runner真pull与两README空diff已亲读Green13:14:47.775148→9e62c9f20aafcd92bcbdb3db0b613a5a24b9c683；其余完整记录保log/actual，终端恢复即pull查差。
+本机executor持续不可用，13:23:55定时及13:42非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读runner真pull NR13:43:06.581062→2261f92458b5c32a55cbd5455347fba283dd63ee/Green13:45:02.586702→94b139513148f17e2dc04b51235fd9d1f5ad9ade，两README diff空；其余完整记录保log/actual，终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
