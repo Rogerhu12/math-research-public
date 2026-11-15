@@ -18,3 +18,5 @@
 - [R708：原单模p前缀与整Gaussian完整返回](../results/R708-original-mod-p-prefix-and-integral-gaussian-return.md)：R707的真实3/4高度使原迹零准确等价于p−2条首模p行，进一步只需J=ceil(α(p−1))−1、α∈(3/4,1)。b_(h−1)=g^c_h在h≤p−1特征零逐项相等；原μd范数的整根付完整首窗Gaussian三角整逆，故等价原g_h模p全零。实际来源窗dJ−6，无需LT/Tg，中央L_H高精度与逐行零的缺口仍保。
 
 R707/R708原第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=91·2^46·3^34·17^23、边界身份及同3/4高度（p>136），第三中央假设不从前两条推出。
+
+- [R709：原平面目标p前缀与真实饱和旗标cutoff](../results/R709-original-plane-target-prime-prefix-and-saturated-flag-cutoff.md)：原平面的单值接触由全十九角/重复因子给Q_D=M_D+3B_D²+8D；Q_D<s时目标p连续普通前缀是整分裂单射、全单位Smith，阈p>6Q_D−1且无Δ_D坏素数。另付exact ker_Q∩原系数格的全部真实旗标层cutoff，二次门297/20；不称各短前缀像饱和，不扩五z来源/primitive塔，原同R forcing仍开。

@@ -5,7 +5,7 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：73f76d741f3b47e9ab7837052bf8260a2a9c0722；2026-11-15 07:25:22 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:25:21 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
+- 最近已读规则提交：96cc8ae365722f7f3d72eba66a8fd3d65fe06daa；2026-11-15 07:28:35 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:28:33 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -15,9 +15,9 @@
 
 ## 完整前检、索引与分工
 
-压缩前全部内容：[HANDOFF](notes/2026-11-15-frontier-before-third-source.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、701、703–708已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R708原中央/实际边界有限入口；deep R709原一般top3/同R实际像；theta R702完整三态新适配；literature R710原高斯/精确平均及中央接口。
+压缩前全部内容：[HANDOFF](notes/2026-11-15-frontier-before-r709.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
+R1–363、365–560、562–653、655–700、701、703–709已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R708原中央/实际边界有限入口；deep R712原指定forcing/同R实际像；theta R702完整三态新适配；literature R710原高斯/精确平均及中央接口。
 
 ## 固定原目标与不能替换的门
 
@@ -46,8 +46,8 @@ R706付绝对Bessel核+1/p、Cayley完整±U例外及quartic驻点全相位；�
 
 原M=c*U0m13J、P134/charge40/13free/26carry/conductor10980、全十九角/结点保。R629 bD≥s−13只在同R全J/p²后；R651同P三jet、近支、p³ ν≥7的S(η0²R2)/2及先两13尾再Ψ_R保。
 R687三位Bα+低t<s真实三位给全M modp³，未知高barE=I+p²K不改已过首提升的同P+pR第二代表；仍未判指定d2。
-R672/680根能量141/(8q)及全负C²/线性项，临界47/8排q≥4，q3开。R683十九角klt/W2及真实mod12返回门1.072√p，临界.413√p未闭。
+R680能量仍只排q≥4、q3开；R683原临界.413√p/同Rforcing仍缺。**R709** 原平面单值接触≤Q_D=M_D+3B_D²+8D；Q_D<s时连续普通行0..13+Q_D在目标p是整分裂单射/全单位Smith，阈p>6Q_D−1≈(141/2)D²，无Δ_D。另exact ker_Q∩原系数格旗标在R657 J_aux<13+s且低行整时所有层范数≤1，二次门297/20；不称各短像饱和。都仅G0W_D，不扩五z/primitive塔，R644/R658旧vpΔ_D=0仍保。
 R689整Htop返回同来源但两normal/全Γ不删，modf余项阻免费再除。
-**R697** 唯一c_F=b²[bR+Aδ(δf/f)+Bδf/f]修正K−c_FF³保全3C；free最高根双极须实际提升Vrad²|Q。固定角整f时μ=m3c_F是真charge3乘子、h+≥3同预算，原Pfact首核使整个旧forcing模p首像已吸收。对同P₂=Pfact+pR，cap C_R=Π>D μR只取顶三charge；完整Ω=(MC_R+MS)/p−μphys MP₂/p²。非单位μ、两13行、raw F³全保；R709继续一般top3/指定像，尚无指定d2结论。
+**R697** 唯一c_F=b²[bR+Aδ(δf/f)+Bδf/f]修正K−c_FF³保全3C；free最高根双极须实际提升Vrad²|Q。固定角整f时μ=m3c_F是真charge3乘子、h+≥3同预算，原Pfact首核使整个旧forcing模p首像已吸收。对同P₂=Pfact+pR，cap C_R=Π>D μR只取顶三charge；完整Ω=(MC_R+MS)/p−μphys MP₂/p²。非单位μ、两13行、raw F³全保；R712继续一般top3/指定像，尚无指定d2结论。
 
 **R701** 原固定角最高f的deg f=14b/3、Σmαα=37b/24恰付μ₂全W_N的+2乘子，但完整forcing另需v∞(Pfact)≥−4；weighted initial证明除明确单项式共振外门尖锐。全三门后B[3]回D0+2−h+、同R cap只top2，完整Ω/p³仍保。原低r高b下μphys=w·unit，实际同R/S两13带必须满足b0(N)=wu B0、b1(N)=wu(B1+2aB0)，末系数移普通行未删；必要carry条件不代全像。原candidate是否过三门及指定Ω非零仍开。
