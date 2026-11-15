@@ -322,3 +322,5 @@
 - [R376：actual174全站奇形状与20档完整merit拒绝](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)：1397位置全处理、602允许站全用，fresh全3斜率负；20全域过而全3 Armijo拒，0接受、ξ0/W未变。120FD/12levels及Arb453完整，80909B单摘要齐，全部非零终门未付；不推全形状空间驻点。
 
 - [R367：实际169重发新标量建成但首far pivot未付](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：C1440/cut两jet/419片profile/deep112齐，九域仍partial；m2在49commit/100attempt后双端点盒含0，非资源耗尽，全部栈/后缀保。0far/0单位行，BVP/H/J/FD未启动；六读回后真实清理，不能冒Newton拒或准确共振。
+
+- [Request177：同C全112的Riccati比较与完整cut族](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)：五件/17pins，原全深端族重新生成；两个全闭barrier证明存在后保整比值管/幅度，准确切图与所有cut商、事务/未访责任保持。单份≤90KB必要摘要，原C/native门不改，实际R379由geometry核。

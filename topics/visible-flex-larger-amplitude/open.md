@@ -78,9 +78,9 @@ R296/R301/R307/R316/R320/R329和[R335实际154](results/R335-actual154-full-nine
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)保存Z=a·diag(1,2^b)v，原QF=1幅因子/符号/log全保；完整继承盒参与矩阵误差，只在整个端点分量隔零时换chart，两个盒含0只能细分/partial。cut每候选保原闭管/非零幅度，严格T0隔零才形成2^bT1/(wT0)，各自合法商后hull；未付保有索引非除Robin族，不混不同尺度原列，端点pivot不付闭管高度。
 
-[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)核43736658472/sourceb5a36d87：C3363.2282989s全1440/六primitive/两闭域/cut/deep112齐，whole2609精度未付。m2传播100attempt/49commit，在row17/piece3/depth32双端点分量盒含0而不能合法pivot；19闭栈、rows18..14643及m4..224全未访、cut候选0。0.377631095s、resources.stop=null，非25M/14400s/free2GiB止；准确列非零不支付当前盒隔零，不作真实共振结论。原幅符号/log/因子链、误差/49span与全后缀保，四读回+同源marker+owner静止后raw已清。原[R355](results/R355-actual162-pre-science-argument-separator-failure.md)与[接线接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)保；下一步处理继承包围盒和射影相关性，不能只升全局预算。
+[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)：全C1440/六primitive/cut/deep112齐，whole2609精度未付。m2在49commit/100attempt后row17/piece3/depth32双pivot盒含0，19栈/rows18..14643与其余111模态未访，0cut候选；resources.stop=null，非25M/墙钟/磁盘止。完整幅度/误差/事务与清理、首R355工程故障保原文及175前检查点；不作准确共振结论。
 
-[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)（已证条件包含）：同一准确C的平衡系统两图比值满足z′=β−αz²或α−βz²，上下常系数Riccati比较覆盖所有实际系数变化；两比较解闭段指数分母严格正后，单调性给全比值管，积分log/sign重构原非零幅度。所有二幂平衡、隔零切图、每cut候选的非除式行/DN和完整partial均保；非零原列不自动给可用分量盒。177须从原全深端族重新算，不裁actual162宽盒、不改原C/native门，也不保证有限预算改善。geometry实现，实际R379不预填。
+[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证完整两图Riccati比较及全闭段存在、非零sign/log幅度、准确平衡/隔零切图和所有cut商责任；[177接口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)五件/17pins已发，science34606e3f/reader13cf/request1c77/wfef3c。保原f12f C/fe667 deep/5440来源与原三输入/两query；从原全深族独立重算112，不裁actual162失败盒。比较解全闭分母严格正才付真实ratio存在，完整(1,z0)乘Taylor余项；12bits为绝对工作目标，非原Duhamel相对界。全部cut闭交/候选商、prepared→commit与完整pending保。C3600/linear14400/25M/free2GiB/256bits/depth32及360job，18900 namespace仅startup clip不冒绝对kill。单份≤90KB必要112状态/原DN端点/stack/suffix；大见证不分包，读回/静止条件后才清。geometry核实际R379，fullcut不冒168/169的physicalfar或非线性BVP。
 
 ### 3B. 准确九族与完整公共u目标误差
 

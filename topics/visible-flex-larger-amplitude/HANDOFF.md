@@ -4,7 +4,7 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:37:29 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0210a95e21d5f0798f0bd0906a22108ee1a76b71。
+规则同步记录：2026-11-15 18:38:50 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 df600652300d741f3a989f44fae5d505274f0c26。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
@@ -28,18 +28,17 @@
 
 ## 当前完整native路径
 
-[R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：43729456722/sourcece2b12c0，持久128唯一α1接受末norm9.6858247475102317603e−11，完整226输出/两mean独立replay同词；stage10/RK0/field0全230列320bits认证，0未决/非预算。仅固定输入/固定trace准确算法误差，不证上游RK、整576J、112/338/audit、真F根或IEEE导数。子70摘要超限由同job真实结果恢复；42969B小结齐。R337/R338旧编译故障与v2来源留原文，160独立付数值末段，不另开大表读取门。
+[R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：真实128唯一α1接受、全226/两mean独立replay；stage10/RK0/field0全部230列320bits认证，无未决。仅固定实际输入/trace准确有限算法误差，不证上游/整RK/576J、112/338/audit、真F根或IEEE导数。子70已在同job恢复42969B小结；160独立付全数值末段，大表不添新门。
 
 [R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)首正H五J/四接受，末十档全拒norm2317.31958952296，非预算。R360已证d=b+Aq+s；[172接口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)新same-X noJ及全十拒后2^-10..-12仅诊断，全J/状态/Δ/e保到准确分解或明partial。额外调用有缓存/时间影响，不称145逐词轨迹；原32×10/strict下降/2e−9/worker.last不改。单≤90KB必要表，大dyadic/日志仅内部+身份，完成marker/owner静止后清。
 
-[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八37/FD与23trial/八接受齐，末拒在未选LEFT462；末physical仍非BVP，pair已清。171同job重生接38，不能凭旧SHA恢复。R353实际166的全75776×17仿射与148×453点态齐；R354完整V″已证。170只付端点参考/闭M，不冒整query闭域。[175完整入口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：真98原37/FD后G0+tG1+t²G2及14次query P，capture0a8f/consumercf4f/runtime825c，单≤90KB完整trial标量/全部37×17分类，原科学门不改；10800s含恢复，exact核R372。
+[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八37/FD与23trial/八接受齐，末拒在未选LEFT462；末physical仍非BVP，pair已清。171同job重生接38，不能凭旧SHA恢复。R353实际166的全75776×17仿射与148×453点态齐；R354完整V″已证。170只付端点参考/闭M，不冒整query闭域。[175完整入口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：真98原37/FD后G0+tG1+t²G2及14次query P，capture0a8f/consumercf4f/runtime825c，单≤90KB完整trial标量/全部37×17分类，原科学门不改；10800s含恢复，实际run43747437442/source81bf71ae，exact核R372。
 
 ## 同C的失败现场与新推进
 
-[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)全C/cut/deep112齐；首m2仅49commit/100attempt，row17/piece3/depth32双端点盒含0，19栈/全后缀/其他111模态保，非资源止，无共振结论。
-[R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)：43739491932/sourcefbb6a6c9，全1440/六primitive/两闭域/cut两jet/deep112齐；目标physical far=.05056158669090205，仍m2同row17仅49commit后pivot未付，0far/0unitrow，required[18,10387)/19栈保。native client未启动，非Newton拒；0.150405163s/resources.stop=null。六小块/四report完整核后原raw已清，大ledger只身份。
+[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)与[R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)各自全C/cut/deep112齐，m2在49commit/100attempt后row17/depth32双pivot盒含0，非资源/准确共振结论。两次各自19栈/source后缀/未访111模态保；168为physical far目标，0far/0单位行/native未启动，原raw清理范围见结果，不能冒Newton拒。
 
-[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证全族两图Riccati比较、闭段存在/非零sign-log幅度重构、二幂/隔零切图及全部cut候选。177从原全深端族重算，不裁旧失败盒，不保证改善；geometry实现，实际R379。R357每候选单位取向行/非零范数及数值代表非准确C成员继续保。旧R339/342/348原C与far work200000未完、R362首169 sparse缺件科学未起，全部原值/后缀/清理见结果和检查点。
+[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)两图比较/闭段存在/log幅度/平衡切图及全cut已证；[177完整入口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)五件/17pins已发，science34606e3f/reader13cf/request1c77/wfef3c。从原全深族重算全部112，不裁旧盒；全两barrier闭分母、完整初值Taylor余项、所有cut商/事务/后缀保。C3600/linear14400/25M/256bits/depth32，namespace仅startup clip；单≤90KB必要mode/DN/pending，大见证仅内部。geometry核R379，不预判DN或native成功。R357单位取向与数值代表非准确C成员继续保；旧C工作止/工程未起的完整范围在结果和检查点。
 
 [R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：43741519736/sourcede9a730a，C1440/cut两jet/新419片数值profile/deep112齐；九控制域10657未决/15未访，未称全域过。m2仍49commit/100attempt后row17/depth32双pivot含0，19栈/required[18,10387)/其余111模式保，资源stop=null；0far/0单位行，BVP/H/J/FD未启动。六读回后原raw已清。179准备接R375原族到物理far/R357单位行及原完整453，实际R382，不改原169门。
 
