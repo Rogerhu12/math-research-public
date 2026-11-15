@@ -56,6 +56,8 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R213](results/R213-two-mixed-sources-and-gauge-invariant-platform-obstructions-after-pure-closure.md)已明确两个原目标：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0和同右锚因果使最后f全右带为0的纯g段自动通过；下一优先判内部f平台上的Vd″/Ve″及两个真实全周期数∫kKd、∫kKe。后两者是左collar二次尾系数：M0让k杀三矩W，全部允许的二阶/第三gauge都不能改变，非零即排同固定几何/目标/圆的第四range。它们尚未评价，不冒λ+自动由其读出。原w=Φ_ED的八矩子族在八packet七差分下六矩全零，period恰是canonical hook响应；这个已合法子族不能修上述违例。
 
+[R215](results/R215-equal-positive-character-and-distinct-fixed-circle-degenerate-flux.md)已具体支付一条fixed-circle非成员证据：R183正f′包内必有A_f0/q>0，响应K_PR的退化flux=−8q⁵/45而任意全I光滑w的L_f通量0。真实Z±配同pure校正给两M0/TκH/pure0闭hook，同λ+>0却flux不同，至少一条完整period失败。它是canonical响应空间内的真实pure零方向，不在本圆gauge像；不许把λ+与此单flux等同。下一R217判左尾/更大joint不变量组能否读λ；具体原目标仍须付全部period与同w ruling。
+
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
 [R211](results/R211-finite-range-conditions-and-Green-inverse-for-fixed-circle-period-gauges.md)已把一个明确局部gauge类的period变成可充分求解的有限门：先验G″紧支撑J，A_f不零时2齐次adjoint矩+7 Green矩准确iff；有限m个内部简单零再加m个真实累计通量。唯一同锚右逆保左affine尾/六矩/种子。R210纯零闭hook只剩两G_c/G_s，若两者通过同J条件即可同一2谐波w付全部period；具体函数现由R213给出；先付其平台/左二次尾门，再检查适用J的支撑/通量。固定w后再付完整ruling商；失败仅排该J局部类，不排全局gauge。
@@ -75,12 +77,6 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 [R191](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md)已证明共同常值平台上的全部紧支撑二阶w都满足六矩和hook周期核，但完整线性ruling在canonical准确0、一般共同入值modW仍0。全部真实右尾和s历史保留，w平方/交叉仅有限三矩由第三右逆支付；故该无限维空间不能扩大joint商像。[R195](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md)已处理f常/g变区：三g矩零的w保周期，Bθw=−2sin²θ D_w S_s(g)，全部η和8维history给像≤42。标准常段上完整Cubic Euler t10与三矩adjoint t4..6不相容，四测试函数+准确C∞补矩给非零有符号商方向，只动σ一次、不绕过R193二次门。[R197](results/R197-nonzero-fixed-circle-ruling-direction-on-nowhere-constant-geometry.md)已支付迁移：真实B·B^rev的M/T/frame回路先使三矩列rank3，4点增广det=−Δσ D_wC/8；R189准确保约束的有限C^m逼近保非零子式，Klein用新位移重闭。几何扰动通常改变度量，选最终新几何后再固定其gε/圆/w。下一真正目标是Vθ^0″在f常/g变包上的必要不变量以及同一ruling像成员；不继续只数新方向，完整目标仍未在像中。
 
 R189在固定有限K的R70正则解附近，用8矩+1真实ω终值的可逆Jac与端全jets平的Fréchet空间保全部约束，Baire去开常段；固定有限交换词再给M0/TκH闭几何。该存在证明不保证一个具体有限profile上的fourth像变为可解，也不保存原空间位移（Klein用新位移准确闭合）。下一必须挑可消费的完整目标/不变量，不再只抽象增加自由度。
-
-[R175](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md)已结清R174关系下的整个最高层：a≥0、ℓ+25a/9≥0及二阶M PSD充要，完整边界恒等及R169有理幂路径必要性齐全。下一新外点只读五数按此准确分离；通过即不再跑最高层路径/Gram，仍保低层、完整时长与原函数良定义门。
-
-[R170](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md)已完整支付固定k的0/2/4 action：A,D,C≥0与B+2√C(4√A/3+√D)≥0充要，等价全t,s∈Q正的B+4(tA+C/t)/3+sC+D/s≥0。只在新点有严格违例时定向选有理κ,t,s；不盲加时长/参数网，不把B单独判负。
-
-[R169](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md)已完成：全实p的真实k=Kh^p给A(p)及Ω(p)必要门，sharp有限flat构造与Gram可实现曲线齐备。联合新点最高层已由R172全路径平方证支付，不再为它测p；仅对未来改变该层且出现严格违例的点定向补行。
 
 R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实查询t1/35、ΛJ6=1266268570、新44det1176345646 mod2147483647，零旧列/NF重跑。E6真44、pure9、纯核/balanced像35，U≥240但lineality/query仍237。此原成员问题已结束；不追第45孤立列，转完整字符分母R−2+N U−1中J6是否为零。R163已证明全部14族最高层协变、低阶同一八矩cocycle及 Hσ=(Rσ+Tσ)/(Rσ+Dσ)。Dσ仅用同权正规系数与静态修正生成全部N Uσ+1模R，权−2无需另编−1。完整head actual43665345551已付107原记录/66平移组合，Q4_0/1本权原式零；计数不是维数。有限必要actual43665971895已完整消费：124外等式秩84、23外自由、63必要半空间仍有准确非零外部候选。这些旧外点不是真实字符；后续R186/R188已付完整原关系与无非零正字符结案，不重编旧static/3974/N收缩。
 

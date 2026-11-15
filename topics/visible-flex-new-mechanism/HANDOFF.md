@@ -4,11 +4,11 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:35:33 UTC实际pull后已读规则提交：`8e962541b9bb6f5fb44f3aa2e8a8975045ac7c3e`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:41:19 UTC实际pull后已读规则提交：`a17b76120f21bca0ece7e22245b15c28011526cd`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 07:31:07 UTC实际pull至`7d82f4fd0f51441985003c68c6e6204fe3c28311`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。当前partial/sparse clones在`/dev/shm/visible-recovered-9974ea84/{public,private}`；旧磁盘满/丢失.git仍保工作文件。05:46起恢复真实终端pull/push，先前根8例外已结束。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。当前partial/sparse clones在`/dev/shm/visible-recovered-9974ea84/{public,private}`；05:46起恢复真实终端pull/push，根8例外已结束。
 
 ## 2. 完成门
 
@@ -28,9 +28,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 4. 完整字符与真实全pure控制
 
-**R210已完成Cp=P且实际S=P。** 非全两模式U=R，不从span/闭锥直接冒真实负路径。R202分离须杀kerπ；R186/R188排−2全部正字符，R190 U2=R2/权[-9,3]，R203给πU−9=πU−8=0。R201 full正λ+=(−1,0)有λV=L+∫(h_s/h)²，却不灭pure核（πH0而λH1），故不下降pure。R204/R207/R210完整pure−2/−6/−4像等于对应响应，维9/3/9；最后actual43688302217/source1b032593的123原列+40响应/154关系及全部metadata已完整读。禁止重跑已付pure、旧NF或字符扫描。
-
-R206保全部实际桥/正2V基准、有限正配平/floor整数/统一C1商截面与末复制/Brouwer，得Cp=P iff S=P。所有控制M=T0/frameI；第三非零prototype以真实反向双字成本2V付U归属，不授半路径/实际负元。R208/R209原式给全部πR和πU的jet≤2代表，保N2/history/右锚，参考连接只作universal延拓；非完整mixed或独立gauge结论，细节见正文。
+**R210完成Cp=P且真实S=P。** R201/204/207/210完整pure权0/−2/−6/−4像维3/9/3/9全等响应，R203最低两权零，排全部pure正分离；R202→R206以真实桥/正2V基准、floor整数、商截面和有限复制/Brouwer得实际全pure控制，非span/闭锥冒实际负路径。R210最后actual43688302217/source1b032593的123原列+40响应/154关系及metadata全读；不重跑pure/NF/字符。full正λ+=L+∫(logh)′²不灭pure核，不能下降pure或否定pure零。R208/209全部πR/πU有jet2代表，保N2/history/右锚；非完整mixed或独立gauge结论。
 
 ## 5. 固定圆gauge与真实第四joint
 
@@ -45,6 +43,8 @@ R180/R183闭Klein M0/TκH与重叠导数包付完整三阶圆；R184第四joint�
 **R214已付无开常段且整pure准确可控/闭hook。** flat端全jets足以令R109/R130成本入同U；正则M0前缀+N旧见证再接真倒行保满pure锥，R208只读diagonal选R71真实第三prototypes。六类词依M/frame/同族±t结构保完整T；各原语九行IFT先保M/omega，再全P IFT保pure。最后在精确解集Baire：全部有限调用、背景/校正块都纳入，反向坐标拉回bump；Banach端平稠密与P闭性已付。可保持M0/TκH、Klein新位移闭合、pure0和无开常段，不授同g/joint。**正审R216：常段σ²门是否已在全jet平拼点由局部四阶jet复现；无开常段不得先当避开该门。**
 
 **R213已给两实际mixed源及不可校正门**：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0+右因果使f整个右带0时两源0；内部f平台仍须Vd″=Ve″0。R56左collar二次系数=½∫kK，M0令∫k·w_geom=0，故∫kKd/Ke是ruling商真泛函且全部合法二/三gauge不改，尚未判值。w_E=Φ_ED在原八完整packet以七差分准确付六矩，周期变化正是κK_E,H，不能由这个子族将λ+冒延所有w。下一判上述具体源/不变量。
+
+**R215已有真实period反例方向。** τS=−J(a″b″c″)，在R183导数分包圆K_PR≡−f″²(f″²−φ″²)/3 mod imL_f，πK_PR0且λ+K_PR0。正f′包内p^(2/3)的正斜率最大点必A_f0/q>0，真实flux∫pK_PR″=−8q⁵/45，所有全I光滑w的flux0。实际Z±与同一pure校正/Klein给两闭M0/TκH/pure0几何，成本差8tK_PR、同λ+>0却flux差−64tq⁵/45，至少一条period不可修。两g一般不同，不排全部几何，也不判λ经更大joint组的factor；后继R217处理中。
 
 ## 6. 保留边界与当前交付
 
