@@ -131,3 +131,7 @@ N1–25合同已证（[全文](results/R133-supplement-correlated-adjacent-piece
 ### 2026-11-15 fixed-base conservative cap perturbation
 
 P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-transport-and-nearby-cap-linearization.md)）：固定原DΨ0后，moving angular divergence准确成为physical divergence+完整rank mean；旧Iφ也在固定物理模块准确表示。DF邻态差只需joint A0系数，不需Y_r或新R_Y Hessian。原反射类/固定真实linear边界的ε≤2^-22/[k*(1+b*+g*)]给全频body反馈<1/4。继续消费真正cap上的δZ joint系数与actual changed边界，不能以row supΣ冒Σsup，不能由M输出自动授Wiener非线性迭代。
+
+### 2026-11-15 actual full-delta outer rows in the fixed cap
+
+[O1–15](results/R133-supplement-true-full-delta-outer-rows-in-fixed-base-cap-inverse.md)已证原real显式Qδ、|δ|≤1e−8的真实外边界反馈<1/8。S20–38统一0≤s≤1的正项公式授实际L²完整Eδ和mean行；准确S(r,s)=(Jr,s)、两图kernel相等与T0 injective付完整仿射lift，不估changing composition差。fixed inner非mean C与全部独立外源保持。合P19主体后反馈<3/8、逆因子<8/5；实际joint capδZ系数球仍由新原193逐模consumer落实，进一步未知状态的nonlinear边界图需自己的域核验。
