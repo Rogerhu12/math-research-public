@@ -142,3 +142,5 @@ R741 [完整FH2增补](2026-11-15-r741-complete-fh2-first-bockstein-injectivity.
 
 
 后卷：[R751–R800](PROOF-INDEX-R751-R800.md)。只登记完整结论，编号空缺仍开。
+
+- [R750](../results/R750-whole-source-residual-divisor-and-specified-forcing-residue-rows.md)：已证明原r≤13的完整值forcing含实际ξ/末十三影响，原低列整右逆保高尾；全WD曲线值超出H3的自由度准确经过残余除子E′的真实主部像。Rosenlicht/Serre对偶给杀全原像的留数行及指定全值可解充要门，临界额外边界仅O(b)；值解后完整normal/两13/d2仍须同R，指定残数非零未付。

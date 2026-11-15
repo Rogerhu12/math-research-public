@@ -379,3 +379,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R751](results/R751-second-dyadic-character-point-fields-and-inertia-extraction.md)：已证明第二dyadic线是type3，完整2/3/17向量、原degree34/half-character、正权平方及合法χ(ζ)=ζ4的负一实际点公式齐付；其点域在2/17/p分歧，映同E1后与原Dk的17角色相同而2惯性不同。有限point-I_p平均准确杀全第二线及非平凡χ，留原两untwisted值；实际完整gate分解由R752另付，未添中央零。
+
+
+- [R750](results/R750-whole-source-residual-divisor-and-specified-forcing-residue-rows.md)：已证明原r≤13的完整值forcing含实际ξ/末十三影响，原低列整右逆保高尾；全WD曲线值超出H3的自由度准确经过残余除子E′的真实主部像。Rosenlicht/Serre对偶给杀全原像的留数行及指定全值可解充要门，临界额外边界仅O(b)；值解后完整normal/两13/d2仍须同R，指定残数非零未付。
