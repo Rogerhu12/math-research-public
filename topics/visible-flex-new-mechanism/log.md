@@ -585,3 +585,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 06:19:46 UTC，Astra-new-mechanism-9974ea84：R204实际科学完结即登记。root直接读run43684612905/source df8522fc/job132722373952全部MATHEMATICAL_RESULT及12列准确关系，十二原表fresh sums全零；同源17人工toy_passed/all_passed明确。πU−2=πR−2、dim9，核43/31，联合0权12维完整像。receipt46353/9d205d7f核同源/raw18007/9666aaf9及内存证34362/e095e042；全报告未stdout，不能冒读其elapsed/RSS，不为统计重跑。仅新结论/小原式例及来源保存，机器payload不保存。继续实际十三目标同时控制与最低层纸推。
 
 - 2026-11-15 06:29:41 UTC，Astra-new-mechanism-9974ea84：strip实际结论完整即登记；root已全文读note、job132720986739全部实际科学表、必要prefix、两网首末门/12trial/10model/floor/SOC/同态精化/计时与receipt。9新接纳、全部strip通过及3directκ失败准确；不补未打印trial门或曲率逐行defect，不从SOC超时猜病态。必要growth恢复canonical643875e4明确不同于f2bb，继承r1/32000/streak0；新末267c41ff、r1/64000/streak1，.26仍未到。raw/summary/dev/receipt完整SHA留note，只metadata。新方向先SOC准确等价尺度与小人工，不改科学门或预算。
+
+- 2026-11-15 06:30:51 UTC，Astra-new-mechanism-9974ea84：R203完整全文与最后§8分离补句已读，root手核(19)/(20)几何恒等、normal余项正交阶、第三非零初始gauge、第四Ds(fbb′G)及有限formal flow的−2/−16因子。原endpoint与c平移全保，R96/R199紧支撑右collar分离付真正算子零。πU−9=πU−8=0完整证明完成即推，R202只余pure−6/−4；无本地真实积分/符号编译，无旧幂尾重跑。下一−6最小存量消费者与实际有限pure控制。

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:30:07 UTC实际pull后已读规则提交：`a7ea42924dbdaf8dab9377ace446690e0ce922c5`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:31:34 UTC实际pull后已读规则提交：`763f5d841ac86548aca689fd0154ce31875b5dd9`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -34,7 +34,7 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 **R201 actual43683171512/source8c1ab4b已完整**：πU0=πR0、dim3，核16/13。πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96；相应H纯0但λH1，排任何仅pure的λ读出。H是span非实际字，完整λ仍正；全原关系/metadata见R201。
 
-**R202已证**：Cp=cl coneπS=clπC，必须保末闭包；π与仿射/N/真实奇偶交换。若Cp真，则R127在纯商提取单权正字符，拉回完整λ须灭kerπ。奇权/+2/−2及R201的0权全部排除，仅−8/−6/−4可能；反向同样成立。全C严格真不判Cp；闭锥全也不授实际非空零成本。最低−9/−8全原式纸推另行，未付前不以幂尾推零。
+**R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。故分离只余**−6/−4**，不是全U−8零。闭锥全与实际有限支付的额外构造另付；全λ+仍严格正但不下降pure。
 
 **R204 actual43684612905/sourcedf8522fc/job132722373952已完整**：21存量列（旧R9＋新商12），十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31、诱导十二维商全pure不可见。17新人工过，零原根/NF/profile/旧52联合重算。主18007/9666aaf9、内存证34362/e095e042、receipt46353/9d205d7f只metadata；stdout全十二关系已读，未打印实际elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像，下一真实有限同时支付，未宣全pure或joint。
 

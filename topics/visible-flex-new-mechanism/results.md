@@ -151,3 +151,5 @@
 - [R204：权−2完整pure像等于九维响应像](results/R204-complete-weight-minus2-pure-image-equals-nine-dimensional-response.md)：actual43684612905只读21存量列，十二新pure成员及原表再合全零；πU−2=πR−2、维9、核43/31。与R201给权0/−2完整十二维像，仍须真实有限控制与其余权/joint。
 
 - [条带正余量首轮：九次接纳与剩余曲率拒绝](notes/strip-reserve-first-actual-20261115.md)：actual43684152565/sourcec594eeb，全部12试探strip过、九次接纳，ηmax降至.26652303622182338，fine条带余量3.91244e−8；三拒绝均directκ超限，其他trial门未全打印。唯一SOC无primal，fineJac主导wall；原.26与全课题门未付。必要前缀与新阶段分账，继承末r1/64000/streak1，下一仅SOC可逆尺度。
+
+- [R203：一般动态pure成本的最低两个真权消失](results/R203-general-pure-lowest-two-weights-vanish.md)：完整恢复分子与正交交项给−9/−8层，保第三初始gauge及第四动态总导数；M0端点、ad_P²R=ad_P²S=0和有限formal flow令两层全零。对所有合法c的右collar faithful测试与平移多项式转为πU−9=πU−8=0，非幂尾外推。R202 pure正分离只余−6/−4；未付整个pure实际可达或joint。
