@@ -197,3 +197,7 @@ root亲读exec5fa965e5/38057/37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880
 ### 2026-11-15 20:07:00 UTC — RF完整ordinary核心源接线
 
 RF c4723121全文与原Z79fb5192/df3beb21、source90c90fb1/pilot2d45c2f1、原7296 merger24ec0bf2、Qrepair a39fcfa2、R575bd371、D6956c214/source827fcb23及WL936633fc逐项核过。summary/process完整Z对象相同、6门7721/真实inner交长，完整rawmean及五repair项已付；不重复384EZ。D真d1e−10及raw+repair两state边界、WL完整B/G、169及49/4、α一次和f0≤96均核。phase RF2/5与newton R/WL独核。无新数学运行，RF14/15只是完整既成证书公式；唯一更锐raw core积分另审新package。H/open活动压缩前全字保7794d473a4a042b3b93eb5703d02f3eb59fcd64f，旧运行/域/失败/恢复和所有未付义务继续。README在700d4f35b0526ace2631c7927b9142ec2ac485c5核无变。
+
+### 2026-11-15 20:10:02 UTC — ST完整strict尾接线
+
+ST b15c1630全文已核，root回SP ae01c213关键全mean/两rate/whole[0,ra]曲率与source式、9d6ef721 selected_cell/propagate及20门receipt；TN原norm790全U/V/D/η/β与RRbody3070 K1/germ/mean/a、TN/TC ordered state原小对象均读。old-cut整row scalar用已存max，最后尾新germ门不借旧rc→root覆盖；c+=0、c−仅新增末段，所有插入/双mean/finite与四同case列保。仅解析条件结论，无新数学计算。H重写至精简当前接手项，原逐字H/open第6节保9ae48daeadff2acbba9c7e0b2563e0a2b06ec340，所有原失败/units/域/restore/未付义务继续。README核82857c46bb002c14062771b4b1a15ae4233961d3无变。

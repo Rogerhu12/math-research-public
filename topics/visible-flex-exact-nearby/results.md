@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ST：真实截面到waist的完整strict尾接线](results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md)：SP旧曲率费已覆盖ra，只新付rs→ra非径向矩阵及ra→P22尾；最后尾仅读TN/RR完整原fields，须germ覆盖/正分母新门。双向ordered产品、ng、ordinary source/独立jump/两mean及RR四同case列全保，TN/TC state顺序明确。条件解析已核，新scalar待公开Actions，非incoming/完整R0。
+
 - [RF：同中心完整核心残差复用](results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md)：旧完整Z源已含rawmean/五repair项，inner full/low193原球直接复用；原7296 ordinary背景α一次及连续centre repair由WL完整系数支付，f0全≤96。D同d1e−10的B(d)经R星形缩放给δ²/(2d)，得到VR所需完整rδ表达式。root原primary及双peer核，未作新scalar或存在宣称，不重收384EZ。
 
 - [MI：完整非零均值实主因子精确逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)：正周期kernel/Jensen dν≥1及完整m/κ公式给1+McI两侧逆，实常量精确收缩使L2 K0/H−4/3 K−无|ν|放大。actual Ei强范数若已付，完整预条件后high双窗同χ=K0CiΛJ^-4/3；全finite Schur/物理行/两mean仍待。root与两peer解析核，无新计算，不授incoming/R0。

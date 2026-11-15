@@ -82,6 +82,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [AD终端Ai相关Darboux根剪切](results/R133-supplement-terminal-Airy-Darboux-correlation-and-root-shear.md)5c4459e5完整式/原域/两指数终端项/全H积分/实际势16门及双peer逐字保8148b208同open/H/proof。精确Wronskian给同terminal-Ai首列βd−β为n^-8/3，n≥388有ad>3/4；root-input强尾K^-4/3不等TN/TC投影。共同右Ad low/mean/其它列Id，逆/forward≤4/3,5/4；原g growing/两inhom/IN额外physical/positive/stable/finite全保，Ei/Eo/incoming/R0待。
 
+[ST真实P22截面到waist的完整strict尾](results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md)b15c1630：严格区分rs=r+−.005、ra=r−−9e−6、rc=P22。旧SP全[0,ra]曲率费已付，只对[rs,ra]新增非径向2×2产品；old-cut2803用已存whole-row maxima。最后[ra,rc]仅读TN norm790完整U/V/D/η/β与RR body3070 K1/mean/a，新增germ覆盖门、q(ra)、c−log及双向ng；c+=0。ordered U−=exp(c2)Usp−T−、U+=T+Usp+，所有source插入/affine跳/两mean/finite及RR四同case列齐，TN/TC state maps按真实顺序。root回SP全文关键原式/原source与SP/RR/TN/TC完整小对象，未跑新scalar。此为条件接线，非完整Ei/Eo/incoming/Schur/R0；旧N.005结论不移用，旧成功禁重。
+
 [TC合同](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5及[实际坐标/finite共轭](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35：43754703603/1 child0/18、19pins499844B/4AST、SCIc1d1d43e/preGit97543ad1/42球及五完整原对象root全核。真Φ四norm约1，两rank/dual费2027.776775，双窗逆1.001673759/1.034058621，strongRN1.712976420e9、finite3.747452000e9；RR四列K0一次同case7.790853353e18。全部球/四件/域/units保8148b208同open/H/proof。PΦ/finite真span/mean/HL-LH/97..J−1全保，非Ei/Eo/Schur/R0；P22↔SP新radial尾仍待，成功禁重。
 
 ## 4. 实际帽图与完整core接口
@@ -127,19 +129,14 @@ $||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z
 
 ## 6. 完整exact tail、连续选解及真实core迹
 
-本节压缩前全部逐字域/指数/source-state单位/mean/荷/loss/失败/恢复/未付义务保547f47a7410843ee1187159222b26024d672940a同open第6节及H/log，递归5fd5/27caa/9026/e76a5/00dfd/46b3/6ca0/cbb635原档。原证明继续逐项生效，归档不取消条件，成功数学禁重。
+本节原全部式/域/指数/units/mean/荷/失败/恢复逐字保9ae48daeadff2acbba9c7e0b2563e0a2b06ec340同open第6节及H/log，所有原proof继续有效，成功禁重。
 
-[S完整far/Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)/RG/O/D/HT只在同γ A0/r≤1/128、H8193/r≤2^1048576、r1e−9；Γ1负principal、94seed后Γ2固定。exactbody/far/holonomy、E1856距seed<2^-1700000000、loss1734/bg1796/T0=2^1500000/3500/400与全部三源四态/mean/affine/comm/DΠ/height保原文。[C连续选择](results/R119-supplement-continuous-exact-tail-selection-and-true-second-phase-response.md)给H8193→E1856连续及fB的H1859连续、H2紧像，非C1/H0Lip/core自映射；须同截面连续core与统一低高门。
+[S完整far/Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)/RG/O/D/HT只同γ A0/r≤1/128、H8193/r≤2^1048576、r1e−9；Γ1负principal、94seed后Γ2冻结。exactbody/far/holonomy及loss1734/bg1796/E1856/seed距2^-1700000000/T0=2^1500000/3500/400和三源四态全部保。C连续选择仅H8193→E1856与fB H1859连续/H2紧像，非C1/H0Lip/core；须同截面core及统一低高入口。
 
-[V/J/W尖入口](results/R133-supplement-known-finite-cut-Wiener-angle-and-sharp-low-curvature-entry.md)保fullmean/无限逆角，known差≤13|δ|/200、samecut η=v−vδ H1≤1.96875e−11足γA0<1e−9/128；hH8193≤2^393000/原relativeĈ完整界及43715426316成功和旧J18 false全保，未知composition/mean/reciprocal另付。
-
-[E/H/A/MC/MA](results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md)保same-state两侧H1/C0、mean/logspeed/rank/χ/jump；MC b0=s0+rraw与e2不可删。MA五rho窄域的条件H8193<2^377904、旧91case/15pass/五low false全保；NG宽域不授MA域。LT/PE/WC/NR全部140行/两行/measure/整方案min/repair/offset保原文；Π96、97..288、>288独立，J288不消225..288。drift cross零不删dφ/低腿/双cutoff/双side；true f0才F288=0，WC已知小源不是unknown trace。
-
-[RW实际六权](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)/RB/RC保same-q、source-output权/两mean/13ρ/outer/非零affine；moving≤80physical pair-sum，右[.9,.95] C0<8.2297e−5仅collar。六χ原球/两κ/δ高差0仍加fullselected10d√len逐字保归档，不把upper当下界，不授whole/同态H1/MA/core。
-
-[LC实际](results/R133-supplement-actual-saved-positive-collar-components-and-high-frequency-coercivity.md)43731225532/16+12锁，包装超限后74725→55770无损保科学禁重；p/bp/CS/CL/source已成。R/MC多项式fδ/repair径导/interface抵消与DB/SB全部lowlegs/ΔAΔd/χ′/mean/双side、旧7296积分仅读，inputGram不授输出shell。NCBD/NG剩余low/shell/body/wholewide/MA独立高域/matching仍待。
-
-自由height/frame属同次输出，指定独立荷则完整增广；最终ν*/Γ1*/Γ2*/η只冻结一次，无另变ν族IFT。
+[V/J/W尖入口](results/R133-supplement-known-finite-cut-Wiener-angle-and-sharp-low-curvature-entry.md)保fullmean/无限逆角：known差≤13|δ|/200，samecut η=v−vδ H1≤1.96875e−11足γA0<1e−9/128。原高门hH8193≤2^393000/relativeĈ及43715426316成功/旧J18 false保；未知composition/mean/reciprocal另付。
+E/H/A/MC/MA、LT/PE/WC/NR、DB/SB、LC43731225532原fullmean/logspeed/rank/双side/lowlegs/ΔAΔd/χ′和所有140行/两行/真measure保归档。Π96、97..288、>288独立，J288不消225..288；MA窄域H8193<2^377904不能由NG宽域免费取得。true residual0才F288=0，已知源不等未知trace，inputGram不授输出shell。
+RW/RB/RC same-q完整six weights/13ρ/outer/nonzeroaffine和moving≤80physical pair-sum保；右collar C0<8.2297e−5不授whole/同态H1/MA/core。selected affineδZ在cut/body各付一次，不能用upper当下界。
+自由height/frame为同次输出；指定独立荷需完整增广。最终ν*/Γ*/η仅一次冻结，非另变ν族IFT。
 
 ## 7. 单一frame、同对象几何及最终族
 
