@@ -106,3 +106,8 @@ SNA9272db02/4214de05全文核，原SN43751213826/1 child0/21与12steps success�
 SEI四件f75a8f90/90f3b3c5/3e26d5eb/83ffa891 root全文、两actual canonical/旧5球hash、9pin/3AST/61字段与六CLI静核通过；20门、严格signed下端、wholemin后双支max，0exp。
 仅完整SN终态八列/真实H误差一次的新scalar；旧SN/PG/PIB成功全保。两peer独核已回；AST及数值仅public Actions。
 H已成WE细账保71c08c3a同H/open不减义务。两README于097258b23a727d8a0acee31297e7664366a85afa核无变；等待唯一自然run并继续实际incoming/finite。
+
+### 2026-11-15 23:13:00 UTC — preserve exact first DZ metadata failure
+DZFcedd4672/5847fcad全文及原SCI/exec/report亲核，43773126387/1 child1、10pass+11fail；新三routine未入，new/old/lost0，14pin/4AST通过。
+旧TC无LF2d050a0e与带LFb30ac7c9根独核；SCI5079/b125与preGit8213/3b884732全重建。失败render泛称有sign/WEcopy两句明确不成立，原件保。
+先独推此记录，只旧hash比较+render条件最窄修待续。两README于a2696418880e725cdae160befb0a0c6b11dda5c5无变；不重成功旧数学。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 23:10:03 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 23:13:00 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 22:59:32定时CLI仍无executor，下一≤23:59。原SN末真pull22:54:50.633088→33106181b03aa96ef5df9c70a6bc35688655efc4，两README空diff；ref读取不冒真pull。
-最近只读README核：097258b23a727d8a0acee31297e7664366a85afa；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：a2696418880e725cdae160befb0a0c6b11dda5c5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -29,7 +29,7 @@ SJA3176f8ae 43768006977/26、KLA2ac6e803 43766439345/16、TFA6e11a160 4376688107
 WY/WE全部原序、球、state/coeff/port界与未付义务逐字保71c08c3aa64427f4b1446a6d11901991818c3281同H和open第2节；左BH只state消，右Λ^-1TF^-1S^-1，SJ已含cut，CG after-right不二KF。WE完整paid约1.91881943e118非全Ei；六register不证finite，所有mean/finite/two-I保。
 PG/PIB完整mean principal同一双窗逆已成。PIBA aafebb76原43771317443/1 child0/15，6current/2AST/54字段；exec ef287c9d/19100/c892c96a、SCI9197/258f85ec、preGit15007/d3ee8817。五PG球原字，新log−625714501323944.3744…wholemin胜旧，L0仍625714501323861.3430…；均log非norm/0exp。SEI268be1a8已证明从完整SN八列/trueH矩阵与μ误差一次的各支四导/四sup/严格κ门；pass才给energy两窗逆，fail保旧log，branch/window整min后两支max。SEI新包f75a8f90/worker90f3b3c5/manifest3e26d5eb/flow83ffa891已部署，9current/3AST/20门/61字段、只新scalar/0exp；等唯一自然run。
 MS44038eae：actual commonout=UR B− Z^S、fullreturn=UR B− Z^S B+逆有条件；Z^S无限，TF degree192/JF1024与原sign精确commute，S/branch不获交换。搬左保wholecomm，根strong≤17/8 W1/3(nonmean)及两density ranks；WE commonout另z−、paidcomm另z−+z0。IC/WY/CY/CYA窄更正，旧原球/成功保，scalargap不冒fullreturn。
-DX4 6b493e37：FA fullstrip3/128→cut4，旧TC P3/WX MFG→flow4/waist3–4，再AC H3/H4和真H逆→ψ3–4；旧ψm/ψ2等原读，新正scalar待。ZD715f2876完整三IBP/two-sign HS≤C3/6及独立meanrank给Z^S−Z强界；actualout转straight Z后保ToD/[To,Z]/EoZ^S，CY非均值共轭另付[N,Z]两窗逆一次。旧CYA四root只在完整operator前提下用；DZ245da4db/worker8d0c6452/manifestc9a45aa7/flow31bd63f9已封部署；14current/4AST/24门，只5成功25原球→15新高导、D强费/MS paid及三项standardout。现仅待唯一新Actions，旧producer0。
+DX4 6b493e37：FA fullstrip3/128→cut4，旧TC P3/WX MFG→flow4/waist3–4，再AC H3/H4和真H逆→ψ3–4；旧ψm/ψ2等原读，新正scalar待。ZD715f2876完整三IBP/two-sign HS≤C3/6及独立meanrank给Z^S−Z强界；actualout转straight Z后保ToD/[To,Z]/EoZ^S，CY非均值共轭另付[N,Z]两窗逆一次。旧CYA四root只在完整operator前提下用；DZF5847fcad：原DZ43773126387/1 child1、10pass+第11元数据fail；SCI5079/b1255717、execa73d08c6/a9f6e44f、preGit8213/3b884732全保。旧TC payload应无LF2d050a0e，误带LF；全部new/old/lost0。只此比较与失败render窄修待新部署；24门/原公式保。
 BF e8e29c49：实际square B=T+E+LV仅真finite入LV，旧head运输有负窗dual；χ=K0 CE ΛJ^-4/3只收完整strong，同一两窗highinverse，增广Schur保PUVP/两mean而不需其small。actualcolumns/matrix/inverse仍待。SE22201747给真normalizedAi root S_nat=Dc+K增2/3，原J parity由Fredholm延到每固定Hs；自然−7/6/−5/2窗index0。仅full实际Ai incoming injective后stable C onto、同侧diag(C,Id_rest)消，免第二reference数值逆；独立ports/roughbulk不授。
 
 ## 已成功源链索引

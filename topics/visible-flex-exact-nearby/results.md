@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [DZF: first fourth-angle/sign run and legacy payload-hash failure](results/R133-supplement-first-fourth-angle-sign-run-and-legacy-payload-hash-failure.md) — run43773126387/1 stopped at input gate11 before every new scalar routine; exact failure, full partial science and no-LF hash mismatch preserved, with new/old/lost scientific work all0.
+
 - [SNA: actual complete signed nonmean density and H3 validation](results/R133-supplement-actual-complete-signed-nonmean-density-H3-validation.md) — public run43751213826/1 succeeded with all21 gates, complete terminal derivative columns and true-angle data; preserved1256 budgets plus11328 new suffix cells, with all207 inputs and exact science bytes audited.
 
 - [SE: natural stable-port Fredholm structure and exact common-reference elimination](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md) — complete root gain and index zero on natural Sobolev windows; cancellation is conditional on complete actual incoming injectivity, with all independent ports retained.
