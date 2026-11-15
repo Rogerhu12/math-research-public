@@ -23,9 +23,9 @@
 
 ## 活跃实际执行与精确恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json。前11步已完成，约20:14结束前增量，任务时限不终止研究。历史输入、216、full32/O35、两正规202、完整高商、s2四阶及P11、真∞第五、二点单RHS都在本job临时；大数组不持久化。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json。前11步已完成，第12步已入队，约20:14结束前增量，任务时限不终止研究。历史输入、216、full32/O35、两正规202、完整高商、s2四阶及P11、真∞第五、二点单RHS都在本job临时；大数组不持久化。
 - 第11步源码d4ff08a474ef3abe6c7ee08bea7829e6fa3d52eb2e04c71469b18b2ea2c27bb8；小回执notes/r150-source-kernel-session-789f/43740928483-two-one-true-rational-second-connection.json，outer20775/SHA950aecf40605fbd3156c223d7e18d4ee1821940386872f59d88cc24f756ed1a2；binding3de42bed91acf562cce951f7c79f9e4f871cbd31ec82e7430d03bb97198f970f；tmp two-one-true-q-second可复用。不要重592单位或旧22个RHS。
-- 真∞第10步23.752849275秒；tmp infinity-fifth-true-incoming-checkpoint 的actual-fifth-cochains-verified pack为171510B/SHA0a7912065c0b03edfa8b1b0aea086729ddcc2ebfbe8fc890e6e06671c0bb01b2。18头normal2/3块零hash已付，下一消费者逐元素核；低P完整224×155保54真实eq8行/u²及原6188，degree11、180秒/2GiB拟入队，尚无actual不预填。
+- 真∞第10步23.752849275秒；tmp infinity-fifth-true-incoming-checkpoint 的actual-fifth-cochains-verified pack为171510B/SHA0a7912065c0b03edfa8b1b0aea086729ddcc2ebfbe8fc890e6e06671c0bb01b2。18头normal2/3块零hash已付，下一消费者逐元素核；低P完整224×155保54真实eq8行/u²及原6188，第12步infinity-small-original-projection-smith已排degree11/180秒/2GiB（外240），源码dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79；只在actual后记录Q/P谱及是否达到66。
 - 旧43731615668/43731613530/43736746064/43702348535已结束，tmp不可假用；按原源码/参数/hash重建。literature做二点全高块，normal做∞真Q小P，boundary做同源位置加权与真实逆；根管审稿、H/open/log及逐结论实际push。
 
 ## 原同w边界：已付测试运输，完整返回仍开
