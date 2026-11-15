@@ -42,7 +42,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 R575真正正商是Ψθκ4、根号负，旧相反扭向秩零应用撤回。R616/R726已给全部充分大允许p的原β非挠、rank=dim、原log同构；R719/R722真实有限迹和完整尾已成，不再加因子数前提。复非消失不代同标签模p单位或高度排零。
 
-R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={0}。R724完整保原MW/第二类周期、Hecke轨道、因子2、Poincaré/universal extension、非p项、规范平方线丛刚性化和全尾，不假设高度矩阵可逆。真正缺原β/η、规范高度jets与(724.33)有限Bézout及其对全p存在。R785 Rosati压缩保CM值和切向两列，实正定不代p进非零。[高度符号核对](notes/2026-11-15-depth-two-symbol-and-original-height-leading-class-audit.md)明确R634已给逐盘非恒零；原D2深度符号不决定c1二阶系数，真正T_p保留第二类周期/原d_i与两Θ列，未新增非零结论。[Poincaré/period审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)进一步核：原A分量U_i=c(a_iV_i−A_iL_i)可用同一真实半阿贝尔群线性化，但T_p仍是含原Picard P_i的三列(a_i,L_i,U_i−L_iP_i)秩条件；线性AST不排该指定二次等式。原Y对合只减少中心列，不给η不变。R730/R742/R744全尾和Weierstrass接口已成；深度4/5/6实际根与原高度未得。
+R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={0}。R724完整保原MW/第二类周期、Hecke轨道、因子2、Poincaré/universal extension、非p项、规范平方线丛刚性化和全尾，不假设高度矩阵可逆。真正缺原β/η、规范高度jets与(724.33)有限Bézout及其对全p存在。R785 Rosati压缩保CM值和切向两列，实正定不代p进非零。[高度符号核对](notes/2026-11-15-depth-two-symbol-and-original-height-leading-class-audit.md)明确R634已给逐盘非恒零；原D2深度符号不决定c1二阶系数，真正T_p保留第二类周期/原d_i与两Θ列，未新增非零结论。[Poincaré/period审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)进一步核：真实Q点β上保全部非p项，U_i=c(a_iV_i−A_iL_i)线性化；原Picard与ℓ的同一第二类修正在整条局部函数/全部jets准确相消，保实际纤维零阶、M/Norm/C_h及全部刚性化。T_p仍为三列(a_i,L_i,U_i−L_iP_i)秩条件，清Picard分母后为次数d_Y+2的指定period多项式；线性AST不排此式。原Y对合只减少中心列，不给η不变。R730/R742/R744全尾和Weierstrass接口已成；深度4/5/6实际根与原高度未得。
 
 **R823一般p原c1评价强化已证**：[原Hom不分歧](results/R823-original-primitive-Hom-CM-nonramification.md)。在原M2,1≠0时，K有理c1与局部s=a−1使评价核在R819原域作用下稳定，实际Hom拉回基给非零评价，故全部非零实际primitive L-Hom在c1不分歧；R729给充分大允许p前提。保J_h=c_h M2,h s/16+…、原β常数及c0归一化；共同m=1已是R729结论，不重做。未给单位/深度4或高度外积精确阶。
 
