@@ -135,4 +135,6 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 
 [整条真实正交jet旗](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)支付全部n/r/i交换行平方和≤49||f||²/x，无Q/h/log损失；核心[D,H_i]与D对易，使真旗只升一级、完整酉输运范数≤2。仍须控制顺次MP的非正交返回混合及全部窗口端点。
 
-原9×9 Ay^-1RY在s=4,3,5的同物理pencil探针已排；它仅检验正常消元的普适幂零猜想，点值零不外推全参数，非零也不否原h0目标。s=2与未知异常支持继续。
+[原9×9 pencil非幂零](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)：s=4/3/5全真实产品通过，s4非零trace排全正常有限几何级数逆；不否原h0目标、完整Γ反馈或s=2局部来源，勿重试该普适幂零捷径。
+
+[保原D的交换resolvent](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)给闭直和ℒ和R_x=(I+xℒ/4)^−1、uniform2、R/R*在共同原H强趋I、保D/C/孔cut与核旗。整链平滑后与重取顺次MP之差是同K_Q纯future核，故同实际u配对中可交换R位置并保两端；future端交换能量1/x、完整ℒ残量12/x、整正交旗行81/x均保真实输入范数。尚缺A_nR或RA_n返回预算，不把保持旗说成与正交投影对易。

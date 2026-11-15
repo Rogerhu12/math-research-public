@@ -267,3 +267,7 @@
 - **原full无穷远模31完整谱与遗漏28的精确分解。** [完整证明](results/R150-appendix-full-original-infinity-mod31-length66-and-output-projection-gap28.md)以真实单位三角pre尾及全部6188来源得到正谱1⁴,3,4³,5,6,7,8,10,11/总66/次大55/max11/13形式核；真Q仅43…66、39…55、max≤27。vdetB=δfull+λ_I+σO+δ_high，模31后两未知项和28。
 
 - **同一原外支撑O完整长度149。** [独立实际证明](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)全部29指数付齐/max14、真实1603单位与126643原产品通过；真Q仅29≤σ≤149。结合fullQ≤66，固定两项判据至多215，不能达到243，转原输出投影及202自由商。
+
+- **保原D的交换resolvent与同源合法链平滑。** [完整证明](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)构造uniform2的R_x，与D/C/cut对易且保持核旗，R/R*强趋I；整合法链差在同K_Q，paired commutator零、两端与原w锚保全。future端交换能量1/x、完整ℒ残量12/x及整旗行81/x已付，非正交返回仍开。
+
+- **原正常9维pencil非幂零。** [精确原点证书](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)三点真实计算0.049385118秒，s4非零trace排全正常有限几何级数逆，不否九目标及完整Γ反馈。
