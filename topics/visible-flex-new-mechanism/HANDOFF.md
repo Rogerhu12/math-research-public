@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **f
 
 **43655713308/source d21c87a的mixed细Jac实际已跨过固定70**。最新完整状态 **d0d635e1b3f25816951c99ec49042d5d219ba300fe088da747a8e3e0a5fdba58**，384/768 κ69.9910763850/69.9910635045、η.267006137617/.267199090914。fine metric余9.0908624e−7、内strip余1.7485111e−7、mirror.1015007307905、cap.1427045381805（余3.3733743e−7）、ball².99057592745、minz.02、盒0。仍远离1e−6 metric；τ.061局部reach要κ≤16.39344，更欠全时间/非局部证书。
 
-一LP、全步α1接纳；保3887粗行+94细行，两网全部组与遗漏违反0，4共享值+2最终同参数值。活动1.456s、初始化360.338s、总378.031s、RSS1521448KiB。源码8a91bd17/5e7450df、完整raw1924380B/534230f1、gz278479B/e0fe0f7c、原生summary48019B/1ccd45ea；全部trial系数与粗细池保存。fine峰t.135/θ369π/384，曲率峰t.7875/π2。详见notes/curvature-mixed-grid-target70-actual-result-20261115.md。
+一LP、全步α1接纳；保3887粗行+94细行，两网全部组/遗漏违反0，4共享值+2最终值。源8a91bd17/5e7450df、完整raw534230f1/gz e0fe0f7c、原生summary1ccd45ea；完整trial和池已存。fine峰t.135/θ369π/384，曲率峰t.7875/π2。详见notes/curvature-mixed-grid-target70-actual-result-20261115.md。
 
 下一从d0d635和原粗细池作65→60→55→50→45→40→35→30→25→20→16短阶梯；只有两网实际达到当前目标才降低。共享12LP/40粗细值/120s，不逐阶段重置，不换g/163/height mean384/盒/容差；失败只回最后合格态。新源02bb1eff/6dde89c7已派curvature_target_ladder；14输入/共享预算人工过，原生summary用列名行表，12模型72trial压力60007B。末三行54/53支持纸证仅备选，不启用。
 
@@ -62,6 +62,6 @@ R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B
 
 ## 6. 正在运行与未付终局
 
-当前几何run43658064177/source bf3497f2仅curvature_target_ladder在跑。D0 actual已登记R150，literature准备R153：重用旧42×42真pivot，只评价D0和一条原整数lift组合的新查询，不重42×96；模零仅未决。R151已登记，tail续五族35个状态轨道生成纸证R154。root独占Git/派算；已完G链和J成员均不再复算。
+当前几何run43658064177/source bf3497f2仅curvature_target_ladder在跑。D0 actual已登记R150，已派新源60c9af74的R153 D0_pivot_residual：重用旧42×42真pivot，只评价D0和一条原整数lift组合的新查询，不重42×96；模零仅未决。R151已登记，tail续五族35个状态轨道生成纸证R154。root独占Git/派算；已完G链和J成员均不再复算。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

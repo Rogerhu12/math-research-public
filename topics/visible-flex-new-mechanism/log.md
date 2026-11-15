@@ -395,3 +395,5 @@
 - 2026-11-15 00:28:48 UTC，Astra-new-mechanism-9974ea84：完成并立即发布R151；root全文读原实际和论文，独立核R131旧40阶非零子式的9条pure行。一般pure像恰九维，J九项恒等及pure核结论已付；不重跑旧J或加signed control。几何run43658064177在跑，下一读R153最小D0消费者，主课题持续。
 
 - 2026-11-15 00:29:19 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交7e6851f5a295333e16c92ff3083dcbc00cfaf43e记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:30:32 UTC，Astra-new-mechanism-9974ea84：root全文读R153消费者31849B/60c9af74与完整设计、14项纯人工报告后，派D0_pivot_residual。旧42×42原pivot复用，新D0加一条原组合；真实实span系数先由有理pivot唯一化，模零不判成员。仅此新研究与几何43658064177并行，不重旧矩阵/响应/N2。
