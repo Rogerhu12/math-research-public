@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-本次压缩前完整正文逐字存[R416前检查点](notes/2026-11-15-open-checkpoint-before-R416.md)，链回[195前检查点](notes/2026-11-15-open-checkpoint-before-request195.md)，链回[196前检查点](notes/2026-11-15-open-checkpoint-before-request196.md)，链回[R409前检查点](notes/2026-11-15-open-checkpoint-before-R409.md)，链回[194前检查点](notes/2026-11-15-open-checkpoint-before-request194.md)、[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)、[190/191前检查点](notes/2026-11-15-open-checkpoint-before-requests190-191.md)、[186/188前检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)及全部原历史。只合并已刊事实与重复来源，全部原参数、错误、未访地址、预算、清理和未付责任仍由原结果/完整接口承担；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+本次压缩前完整正文逐字存[R417前检查点](notes/2026-11-15-open-checkpoint-before-R417.md)，链回[R416前检查点](notes/2026-11-15-open-checkpoint-before-R416.md)，链回[195前检查点](notes/2026-11-15-open-checkpoint-before-request195.md)，链回[196前检查点](notes/2026-11-15-open-checkpoint-before-request196.md)，链回[R409前检查点](notes/2026-11-15-open-checkpoint-before-R409.md)，链回[194前检查点](notes/2026-11-15-open-checkpoint-before-request194.md)、[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)、[190/191前检查点](notes/2026-11-15-open-checkpoint-before-requests190-191.md)、[186/188前检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)及全部原历史。只合并已刊事实与重复来源，全部原参数、错误、未访地址、预算、清理和未付责任仍由原结果/完整接口承担；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -93,7 +93,9 @@
 
 [R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)/两源5cc3134e/6a5f949a保真450全576×steps/2048角/两mean/DC与Nyquist、全节点Hermite/B/R249/全角cut patch/两帽，抽象S²及强C²解析付；675只活动片六jet，差分/FFT只是定义数据，R249后metric重算。[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)/02bb0c70以原rCuff逐字生成原计划、全marker有理内清距和局部Cartesian目标两jet；七元组只添attachment，不换原C E为B′、不替原loader。无实际accepted450/几何数据，帽interval/全E域/全metric/embedding/reach/held未付。
 
-[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)与[接口](notes/2026-11-15-current-C-accurate-cut-atlas-field-interface.md)、26041B/28417b93独立源已全文核；同一准确C/十族在数值前缀图中完整C²目标当且仅当径向三jet为$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$。原数值v,b无准确恒等保证，不预断实际不相容。保原g/全部节点/B/全角Phi，新补丁以同C/DAG的三个真实乘数形成完整012目标，675原全模态/六jet/mixed保；七root只追加、有理外包转Arb乘数，不以中点替准确系数。独立AccurateCutBundle不冒旧R409场，原A renderer不可当新场；闭窗含三阶与C内侧域，新旧完整差/Gram转移仅条件。无实际父/新run/全metric/reach/held声明，R417帽、R418完整metric继续，193及旧源冻结。
+[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)/28417b93独立准确cut场已刊：同准确C/十族、数值前缀图的C²目标需$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$；旧v,b无结构恒等保证，未断实际不相容。七root只追加准确乘数，完整三jet/全角Phi/675六jet/原B保持；独立handle不可冒旧renderer。闭窗三阶/内侧域与新旧Gram转移仅条件，尚无实际450/全metric。
+
+[R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)与[接口](notes/2026-11-15-current-ten450-fixed-cap-interval-interface.md)、23622B/0ff1fa60独立源已全文核：两帽严格采用原$F_\pm=(x,y,\pm(H+b_\pm))$，四次正部marker全保，完整六jet/Gram/II/shape/曲率和位置/法向球有理外包；$\|D^2b\|\le\sum8|A_i|/R_i^2$。闭四叉树含切圆及共享边、两帽/全部marker，预算前保完整未访后缀；原R413同图目标仅使帽metric恒等。实际Shared由$type(A).__module__$取真实owner并核文件SHA/类身份，修复R416重复加载同源码时不能取首个同路径模块的问题；R413及旧源不改。原七元组/真实B cuff/attachment保，不把rounded H投影当新门。无实际450、帽cover、全metric、embedding/reach/held接受；R418继续完整组合。
 
 ## 4. 同一g闭合与真正九冻结450
 

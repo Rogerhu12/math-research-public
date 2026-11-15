@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 22:49:51 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c1d33ffe52438e9c9f67394c4f17bb1e95b2caeb。
+规则同步记录：2026-11-15 22:58:45 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 859e72207f31637d7e13ddbeda8419d54db932a7。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -48,12 +48,14 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)两源定义真450全径向/双mean/全FFT/Hermite/B/R249/patch/帽；S²/强C²族解析已付，675只活动片六jet，数值差分仅定义数据。[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)/02bb0c70将原rCuff逐字接原R409计划，引用R286/R294付局部目标两jet、marker内平环、独立attachment。原target不换B′；帽区间/全metric/embedding/reach/held未付。193不执行R409，清后须真同job重生；R416另给准确cut场。
 
-[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件已核，原77pins+7=84；R414完整偶奇/尾与真实CPU fallback，原113bit/wide/一次RN113、R402/113行C残差及全576×224/112/338×112/audit/全部原预算保。单90KB加真实backend计数，原quiet清理保；无新门，不冒全stage词/速度，amplitude唯一R415。
+[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件/84pins与原全链预算已核并运行；完整来源、backend必要范围、原quiet清理及不冒全stage/速度界限见接口，amplitude唯一R415。
 
-[195完整入口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)16件完整核，旧115pins逐键+12=127，四inputs/两ready/78源及原execution/R273同。742ab15a逐实际root/Cholesky/两代回、226×224/原RK与mean；原noJ/冷warm/32×10/严格下降不变。全H/J/577penalty→338×112/FD/fullDN/fresh audit，18000总钟保；90KB/own静止读回清理保。无额外noJ/对拍门，不冒IEEE导数/严格误差/172唯一根因，exact唯一R412。
+[195完整入口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)16件/127pins、原78源与18000全链已核并运行；实际有限trace/226×224/两mean/原338二阶FD、原门与完整读回清理见接口，exact唯一R412。
 
-[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)与[接口](notes/2026-11-15-current-C-accurate-cut-atlas-field-interface.md)、26041B/28417b93独立源已全文核；同一准确C/十族在数值前缀图中完整C²目标当且仅当径向三jet为$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$。原数值v,b无准确恒等保证，不预断实际不相容。保原g/全部节点/B/全角Phi，新补丁以同C/DAG的三个真实乘数形成完整012目标，675原全模态/六jet/mixed保；七root只追加、有理外包转Arb乘数，不以中点替准确系数。独立AccurateCutBundle不冒旧R409场，原A renderer不可当新场；闭窗含三阶与C内侧域，新旧完整差/Gram转移仅条件。无实际父/新run/全metric/reach/held声明，R417帽、R418完整metric继续，193及旧源冻结。
+[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)/28417b93独立准确cut场已刊：同准确C/十族、数值前缀图的C²目标需$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$；旧v,b无结构恒等保证，未断实际不相容。七root只追加准确乘数，完整三jet/全角Phi/675六jet/原B保持；独立handle不可冒旧renderer。闭窗三阶/内侧域与新旧Gram转移仅条件，尚无实际450/全metric。
+
+[R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)与[接口](notes/2026-11-15-current-ten450-fixed-cap-interval-interface.md)、23622B/0ff1fa60独立源已全文核：两帽严格采用原$F_\pm=(x,y,\pm(H+b_\pm))$，四次正部marker全保，完整六jet/Gram/II/shape/曲率和位置/法向球有理外包；$\|D^2b\|\le\sum8|A_i|/R_i^2$。闭四叉树含切圆及共享边、两帽/全部marker，预算前保完整未访后缀；原R413同图目标仅使帽metric恒等。实际Shared由$type(A).__module__$取真实owner并核文件SHA/类身份，修复R416重复加载同源码时不能取首个同路径模块的问题；R413及旧源不改。原七元组/真实B cuff/attachment保，不把rounded H投影当新门。无实际450、帽cover、全metric、embedding/reach/held接受；R418继续完整组合。
 
 ## 恢复与保存
 
-本次压缩前完整H逐字见[R416前检查点](notes/2026-11-15-handoff-checkpoint-before-R416.md)，该页逐项链接195、196、R399、R413、193、R409、194、R400、R391及更早全文；open完整原段见[R416前检查点](notes/2026-11-15-open-checkpoint-before-R416.md)，§4–6逐字保持。[旧结果索引](results-index-before-request195.md)96703B完整归档且相对链接不变。未推源码若丢按完整接口重做；已清raw只可真再生。179树182282267B/8665文件后仅增小源/证明/必要结论，未知旧JSON仍未全分类。每结论立即推，接open下一责任。
+本次压缩前完整H逐字见[R417前检查点](notes/2026-11-15-handoff-checkpoint-before-R417.md)，再链回R416前检查点，该页逐项链接195、196、R399、R413、193、R409、194、R400、R391及更早全文；open完整原段见[R417前检查点](notes/2026-11-15-open-checkpoint-before-R417.md)，§4–6逐字保持。[旧结果索引](results-index-before-request195.md)96703B完整归档且相对链接不变。未推源码若丢按完整接口重做；已清raw只可真再生。793d723a实际未截断tree915eafac核8878文件/188094896B、最大MD97869B；只核目录元数据，未知旧JSON仍未全分类。每结论立即推，接open下一责任。

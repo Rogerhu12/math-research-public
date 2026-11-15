@@ -615,3 +615,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 22:48 UTC /root — R416准确cut目标图与独立补丁
 
 [R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)与[接口](notes/2026-11-15-current-C-accurate-cut-atlas-field-interface.md)、26041B/28417b93独立源已全文核；同一准确C/十族在数值前缀图中完整C²目标当且仅当径向三jet为$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$。原数值v,b无准确恒等保证，不预断实际不相容。保原g/全部节点/B/全角Phi，新补丁以同C/DAG的三个真实乘数形成完整012目标，675原全模态/六jet/mixed保；七root只追加、有理外包转Arb乘数，不以中点替准确系数。独立AccurateCutBundle不冒旧R409场，原A renderer不可当新场；闭窗含三阶与C内侧域，新旧完整差/Gram转移仅条件。无实际父/新run/全metric/reach/held声明，R417帽、R418完整metric继续，193及旧源冻结。 root另核72c实际Tree/Box/roots、R400目标类与675/共享loader全部调用；H/open原文完整入R416前检查点，open§4–6逐字同，无本地数值/import/AST/新fixture。
+
+
+## 2026-11-15 23:01 UTC /root — R417完整固定帽区间与实际模块身份
+
+[R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)与[接口](notes/2026-11-15-current-ten450-fixed-cap-interval-interface.md)、23622B/0ff1fa60独立源已全文核：两帽严格采用原$F_\pm=(x,y,\pm(H+b_\pm))$，四次正部marker全保，完整六jet/Gram/II/shape/曲率和位置/法向球有理外包；$\|D^2b\|\le\sum8|A_i|/R_i^2$。闭四叉树含切圆及共享边、两帽/全部marker，预算前保完整未访后缀；原R413同图目标仅使帽metric恒等。实际Shared由$type(A).__module__$取真实owner并核文件SHA/类身份，修复R416重复加载同源码时不能取首个同路径模块的问题；R413及旧源不改。原七元组/真实B cuff/attachment保，不把rounded H投影当新门。无实际450、帽cover、全metric、embedding/reach/held接受；R418继续完整组合。 原三件已全文核后最小身份差异再核；H/open原文逐字归档，open§4–6相同；无本地科学/导入/AST/新fixture。
