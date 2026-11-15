@@ -133,3 +133,7 @@
 ## 2026-11-15 16:42:24 UTC /root — R353完整37仿射与点态实际结论
 
 R353 21493B/6d577be7全文核后即发：166原模型α1/8/FD过，75776×17齐、最近12坏行affine同actual，148×453恒等仅点态；整段由R354/170继续。open旧正文按仅相对链接变更存notes并合并已付状态，不丢未付责任。API核8d765d2d14054fb38f8a1bc9cfd8538dd85a0d0b双README未变，真pull保。
+
+## 2026-11-15 16:44:05 UTC /root — R357有向单位Robin族
+
+R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢复幅符号、严格norm后归一，再合法hull同原列方向，保全部误差/未付范围；无实际far/native预填。geometry接168，162重发43736658472，root160仍科学中；API核db2c106ab4a8d7d9bcec7fda82020170310ec3d1双README未变，真pull保。

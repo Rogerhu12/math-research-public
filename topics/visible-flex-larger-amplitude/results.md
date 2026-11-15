@@ -248,3 +248,5 @@
 - [Request167单份紧凑科学结论修订](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)：保两次实际编码/超限失败，Actions内全490组/原FD/8outer/84trial读取与结构核；传输只≤90KB必要原标量和可选一个terminal小矩阵。大表明确未逐值传出，不字典编码或分块重建、不重157科学，实际新结论另记。
 
 - [R353：实际166完整37查询仿射证书与点态Hermite分解](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原α1/8接受/FD过，全75776×17仿射计算、α≤1/8全闭段正；最近α1/4的12坏行与实际相同，α1另有4行差异。37query配74实际控制，148×453点态恒等完整，未付真实整α RHS界；8文档/910成员与原结果字节闭合。
+
+- [R357：同一准确传播列的有向单位Robin行与完整候选包围](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)（已证，无新数值）：逐候选完整符号与严格范数后归一，得到原QF=1行同取向再hull，不除高度或要求共同chart。全误差/候选/事务/未付范围保；数值代表与准确根族成员分开，明确行缩放可改变数值轨迹。

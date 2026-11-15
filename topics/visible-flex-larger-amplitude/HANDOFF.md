@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:42:24 UTC 已读 8d765d2d14054fb38f8a1bc9cfd8538dd85a0d0b，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:44:05 UTC 已读 db2c106ab4a8d7d9bcec7fda82020170310ec3d1，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -41,13 +41,15 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 ## 同C、完整BVP及162
 
-[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)：1440/六primitive/两域/cut两jet/deep112齐，whole2609粗叶未付。m2/4/6/8到cut但高度盒含0；m10在共享200000面板止，后缀/原栈全保。
+[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)：C1440/六primitive/两域/cut/deep112齐；whole2609欠精度，m2/4/6/8高度盒含0，m10共享200000止，原栈/全后缀保。
 
-[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：原C3600/全112/16pins，driver5440e2e0/readerbefe77fc。严格pivot/全误差/幅符号log链、逐候选商后hull；prepared仅commit付。25M/14400s/free2GiB；18900仅启动clip计划，绑定另计，硬限250/360min。全mode/cut/leaf/unpaid读，大ledger仅身份；四读回+同源marker+owner静止才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑43735722483在外层裸--解析失败，0科学/0该run pull；仅接线及重发元数据修，request626e3111/workflow23442307，geometry核新actual。
+[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：5440e2e0/befe77fc、原C3600/112/16pins；严格pivot/全误差/幅因子链、逐cut商后hull，prepared仅commit付。25M/14400s/free2GiB，18900仅启动clip计划，硬限250/360min；完整mode/cut/leaf/unpaid读，大ledger仅身份，四读回+marker+owner静止才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑argv失败0科学；仅接线重发request626e3111/wf23442307，实际43736658472/sourceb5a36d87，geometry核R358。
 
-[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：1440/六primitive/两域/cut/deep112齐，whole2888+1精度未付。新rFar0.05056158669090205，m2..16完成；m18 work-unit200000止/270.860472942s，row9616 piece1339闭[3/512,1/128]，后缀[9617,10387)，m20..224未起。原native CurrentCGeometryUnpaid/client未启动，32×10/+0H/J/338/audit全未起；大阵仅原身份非逐值独核。geometry以168保原112/误差/新严格projective表示及完整资源，不冒将含0盒判共振。
+[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐，whole2888+1精度未付；far m2..16完、m18 work-unit200000止，完整9616闭栈/10387末索引/m20..224未起见原文。native client未启动、非原试步拒。168保完整112/采样与新射影源及资源，禁只扩cap冒保障。
 
-[159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)λ.001/R320九p/699×453仅初猜，57pins、同job C/factory/sampler→真实H/J/原FD→453fullDN/fresh audit，8outer/17inner/32×10保。job360/science315/read45/BVP7200clip；signal停独立组、读错非零阻清理。自己E/Ep不被native覆盖，共同准确C/JSexp/无限DN另付。
+[159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)：λ.001/R320九p/699×453只初猜，57pins同job C/factory/sampler→真实H/J/原FD→453fullDN/fresh audit，8outer/17inner/32×10保；315min科学计划/45min读回、BVP7200clip，独立组signal/读错阻清。共同准确C/JSexp/无限DN另付。
+
+[R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)已证原QF=1同取向行：每候选保σ=sign(a_f)，σR/||R||后才hull，不要求height或全候选共用chart。范数必须严格隔零，数值代表非准确C成员；缩放可改变数值残差权/轨迹，不冒旧153等价浮点结果。geometry接168实际源。
 
 ## 公共坐标与九控制方向
 
