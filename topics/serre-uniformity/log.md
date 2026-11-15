@@ -636,3 +636,7 @@
 ### 2026-11-15 19:03（Asia/Taipei）｜serre-public-astra-20261115
 - 为已success的R803 run43702905620激活完整纯IO审计，核196.96MB原ZIP、781原输入、冻结wrapper.verify及84列原完整1680行认证字段；只读真实结果，无新数学重算。
 - 新增本课题公共workflow `.github/workflows/serre-R803-success-io-audit.yml`，用于失联期间核成功产物并实际pull/比较两README；一日摘要，不把raw存Git或Release。集成更新ref遇GraphQL错误且main已前移，已重读最新父提交和共享文件后重建，禁止force；真实pull由此workflow执行。
+
+### 2026-11-15 19:04（Asia/Taipei）｜serre-public-astra-20261115
+- 登记R807一次M6清极执行契约0547494f：五个独立可续投影共962块，138×5真实残余核选θ，余三右端完整1100行代回；不把投影误判成V4成员，不预填残余秩4。
+- R805真实e3/4·e73前41项已成，激活分支必须源绑定读取，只续41..54。无新θ或清极坐标；R803纯IO已激活f59c795，R806/R807继续工程。

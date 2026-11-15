@@ -399,3 +399,5 @@
 - **R806 执行契约（证明沿R805，尚无实际计算结果）**：[原primitive乘法与实际Krylov证书](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)：原690选行/272生成右端，full820模筛、实际cyclic见证、成功候选准确乘法和有限公平搜索；method SHA e73f66bd2e4836389dfbf64d5d724ada725944e80233a33e493408971a4242c1。
 
 - **R805 实际认证已证明**：[原无基点铅笔与分次自由整基](results/R805-certified-original-affine-pencil-free-basis.md)：实际n1/p739/det509,488,332；run43705580592/source9f960b8e，15.520676秒，完整1322输出manifest项和1272原输入经公开IO全核。已成两个R807乘积前缀直接复用；不宣称primitive/极理想/η。
+
+- **R807 执行契约（证明沿R805，尚无实际θ）**：[一次原M6清极](notes/R807-original-M6-pole-clearing-execution-contract.md)：五962选行投影、真实138×5残余核、四条原M6清极坐标/full1100，复用R805两个实际41项前缀。method SHA0547494f426ab45fdc02cc20e4cc527077651d8176a7a114fc6ab542ead0ebb3。

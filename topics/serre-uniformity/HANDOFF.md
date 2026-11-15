@@ -30,7 +30,7 @@
 
 **R805原整环/极除子**：[证明](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)，proofb48d9f8d/methoddf706176。两锚秩690−degG，自由S模度数1/144/127，两正规图272整基；primitive必须真实Krylov，平面幂基非整闭替代。M6以θ∈H−2E清极，5残余核+3右端/full55项。E_g=B+3D_g，B=20cusps+P0、P1不分歧；逐重数trace radical，最大D569完整ideal作V3两flip，padding≤297P。G=u/v保全标量，ηprincipal mathcalG³、三同源mathcalG⁹R。
 **R805实际全部认证**：[结果](results/R805-certified-original-affine-pencil-free-basis.md)。run43705580592/source9f960b8e，core730a7d8f/wrapper0eddbd19；15.520676秒，n=1、p739，pencil690/det509，V2=291+127/det488，S690/det332。127个V2补行为146..217、219..272、291。全1324ZIP/1322manifest/1314stage（619新积+690S行）与1272原输入经run43706758013冻结verify全过。certd65c799f/manifestdfb7a4e5；artifact14158193403至Nov16 10:45:54UTC。R807两项e3/4·e73的41项已成，直接续尾。
-R806 [primitive契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)已登记e73f66bd；原690行集/272真实右端/full820模筛与实际cyclic，仅成功候选Dixon。尚无实际primitive。R807 M6清极契约/工程继续准备；旧alias和完成断点直接复用。
+R806 [primitive契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)已登记e73f66bd；原690行集/272真实右端/full820模筛与实际cyclic，仅成功候选Dixon。尚无实际primitive。R807 [M6一次清极契约](notes/R807-original-M6-pole-clearing-execution-contract.md)已登记0547494f：962同块的五投影仅验选行，真实138×5残余核不预填秩；θ归一后四坐标full1100认证。两项积只续41..54，尚无实际θ。
 
 R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号备用m≤8/N≤202仅真选时补V8 q196..201。R793/R798 V3/V6 span/colon/flip和原主函数保持；真实η、对称代表二挠比较、c0刚性化及高度仍缺。
 
