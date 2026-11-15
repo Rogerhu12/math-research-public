@@ -12,7 +12,7 @@
 
 原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同，char0成员性仍未证。第二像rank4/208后继，第三像rank2/九局部全正，旧原数据实际推cef83145，旧局部页不重算。
 
-**九原17模31⁶最新已实际全成：** run43674463008/job132691449653/source88be0c86从33阶段/716像行检查点续最后三步，数学537.367185056秒、包装19.031772277秒。九目标31²h0t_j(j2…10)全部17原式/4367输出原产品模887503681零；九实费均1339≤1345，全部原行缩放、六辅助、完整315/505及866320个q1 carry坐标均真。623恢复3746395040原字节；compact14145044532 SHA7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e。原完整数据staging push在约2GiB处HTTP500失败，623恢复/证据包完整；[实际全记录](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)已保。此提交发布独立publication-only入口，恢复同两包并逐字节核623文件，只分每批≤400000000B依次真实push，再pull/rebase推main；不重数学、不force。根随后写全证明；char0仍开。
+**[九原17模31⁶完整证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)已成：** run43674463008/job132691449653/source88be0c86从33阶段/716像行检查点续最后三步，数学537.367185056秒、包装19.031772277秒。九目标31²h0t_j(j2…10)全部17原式/4367输出原产品模887503681零；九实费均1339≤1345，全部原行缩放、六辅助、完整315/505及866320个q1 carry坐标均真。623恢复3746395040原字节；compact14145044532 SHA7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e。原完整数据staging push在约2GiB处HTTP500失败，623恢复/证据包完整；[实际全记录](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)已保。独立publication-only入口已实际推45474200，当前run43676091547，恢复同两包并逐字节核623文件，只分每批≤400000000B依次真实push，再pull/rebase推main；不重数学、不force。完整证明本提交登记；char0仍开。
 
 **原六槽范围全保：** [1345全证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)保七raw q1、四真W2、主第三源父系数[344,409,327,102,1,16]、真D2及s/t整数carry。真来源链177→373→469→665→761→957→1053→1249→1345，实际最后1339。中间p4禁止未缩放κ9；既有完整原式均保已付域和全部输出。
 

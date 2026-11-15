@@ -5672,5 +5672,29 @@
     "errorType": "RuntimeError",
     "error": "actual data staging push failed; all recovery bytes retained"
   },
-  "publicationOnlyContinuationRequest": "2026-11-15-r150-saturated-third-global-publication-only-request-789f.json"
+  "publicationOnlyContinuationRequest": "2026-11-15-r150-saturated-third-global-publication-only-request-789f.json",
+  "publicationOnlyEntry": {
+    "status": "pushed",
+    "sourceCommit": "c556917f4c7ac700ac3dba9e26537e1af37ea928",
+    "publishedCommit": "45474200b065a8e0a32a69e7b026678e75eaea2a",
+    "runId": "43676076376",
+    "runAttempt": "1",
+    "lastRulesReadCommit": "8f2ac134b6a94fa767eb81cd9855f10382d21baa",
+    "dispatches": [
+      {
+        "workflow": "invariant-subspace-r150-saturated-third-global-publication-only.yml",
+        "ref": "main",
+        "httpStatus": 204,
+        "registrationAttempts": 2
+      }
+    ]
+  },
+  "publicationOnlyRuns": [
+    {
+      "run": 43676091547,
+      "head": "45474200b065a8e0a32a69e7b026678e75eaea2a",
+      "status": "in_progress",
+      "conclusion": null
+    }
+  ]
 }
