@@ -617,6 +617,11 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 [R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)与[接口](notes/2026-11-15-current-C-accurate-cut-atlas-field-interface.md)、26041B/28417b93独立源已全文核；同一准确C/十族在数值前缀图中完整C²目标当且仅当径向三jet为$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$。原数值v,b无准确恒等保证，不预断实际不相容。保原g/全部节点/B/全角Phi，新补丁以同C/DAG的三个真实乘数形成完整012目标，675原全模态/六jet/mixed保；七root只追加、有理外包转Arb乘数，不以中点替准确系数。独立AccurateCutBundle不冒旧R409场，原A renderer不可当新场；闭窗含三阶与C内侧域，新旧完整差/Gram转移仅条件。无实际父/新run/全metric/reach/held声明，R417帽、R418完整metric继续，193及旧源冻结。 root另核72c实际Tree/Box/roots、R400目标类与675/共享loader全部调用；H/open原文完整入R416前检查点，open§4–6逐字同，无本地数值/import/AST/新fixture。
 
 
-## 2026-11-15 23:01 UTC /root — R417完整固定帽区间与实际模块身份
+## 2026-11-15 22:58 UTC /root — R417完整固定帽区间与实际模块身份
 
 [R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)与[接口](notes/2026-11-15-current-ten450-fixed-cap-interval-interface.md)、23622B/0ff1fa60独立源已全文核：两帽严格采用原$F_\pm=(x,y,\pm(H+b_\pm))$，四次正部marker全保，完整六jet/Gram/II/shape/曲率和位置/法向球有理外包；$\|D^2b\|\le\sum8|A_i|/R_i^2$。闭四叉树含切圆及共享边、两帽/全部marker，预算前保完整未访后缀；原R413同图目标仅使帽metric恒等。实际Shared由$type(A).__module__$取真实owner并核文件SHA/类身份，修复R416重复加载同源码时不能取首个同路径模块的问题；R413及旧源不改。原七元组/真实B cuff/attachment保，不把rounded H投影当新门。无实际450、帽cover、全metric、embedding/reach/held接受；R418继续完整组合。 原三件已全文核后最小身份差异再核；H/open原文逐字归档，open§4–6相同；无本地科学/导入/AST/新fixture。
+
+
+## 2026-11-15 22:59 UTC /root — R396实际187全112 far与数值代表失败
+
+[R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)run43759238493/source6a272aae、33607B/ce72cf55必要全112行已核：真180九词/β1/16、fresh C1440与cut/factory1846/deep112完成；whole-query2609仍只欠工作宽。频率2..224的全部112 far/单位行族均完成，每模式1候选/1单位行/1逆叶、norm未证0，末10386/p1368/1⁄4096是完成地址。4705.3015秒/2044754work、stop=null，随后两个独立准确分量中点转64同时0触发ArithmeticError；原失败mode/中心未记，不能断m2、underflow或真实族零行。far=.05056158669090205/μ=1.7421589928370103e−17按原word，不用显示数重造。native目录/338/J/FD/453/final未起，全部raw真清，六必要scope齐；大panel只字节/行数未重演。R419/197保同C/全112/原σ和所有门，修相关参数代表及明确误差，不冒共同全局C实现。 root全文核20301B论文及原construction/BVP必要字段和全部112模式行；原大panel未冒数值重演，H/open逐字归档、§4–6保持；R417条目时间按实际22:58更正。

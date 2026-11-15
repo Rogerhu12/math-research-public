@@ -70,3 +70,8 @@
 ## R417 — 当前十族两帽完整六jet与有理法向球
 
 [R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)与[接口](notes/2026-11-15-current-ten450-fixed-cap-interval-interface.md)、23622B/0ff1fa60独立源已全文核：两帽严格采用原$F_\pm=(x,y,\pm(H+b_\pm))$，四次正部marker全保，完整六jet/Gram/II/shape/曲率和位置/法向球有理外包；$\|D^2b\|\le\sum8|A_i|/R_i^2$。闭四叉树含切圆及共享边、两帽/全部marker，预算前保完整未访后缀；原R413同图目标仅使帽metric恒等。实际Shared由$type(A).__module__$取真实owner并核文件SHA/类身份，修复R416重复加载同源码时不能取首个同路径模块的问题；R413及旧源不改。原七元组/真实B cuff/attachment保，不把rounded H投影当新门。无实际450、帽cover、全metric、embedding/reach/held接受；R418继续完整组合。
+
+
+## R396 — 实际187完整112 far后数值代表断点
+
+[R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)run43759238493/source6a272aae、33607B/ce72cf55必要全112行已核：真180九词/β1/16、fresh C1440与cut/factory1846/deep112完成；whole-query2609仍只欠工作宽。频率2..224的全部112 far/单位行族均完成，每模式1候选/1单位行/1逆叶、norm未证0，末10386/p1368/1⁄4096是完成地址。4705.3015秒/2044754work、stop=null，随后两个独立准确分量中点转64同时0触发ArithmeticError；原失败mode/中心未记，不能断m2、underflow或真实族零行。far=.05056158669090205/μ=1.7421589928370103e−17按原word，不用显示数重造。native目录/338/J/FD/453/final未起，全部raw真清，六必要scope齐；大panel只字节/行数未重演。R419/197保同C/全112/原σ和所有门，修相关参数代表及明确误差，不冒共同全局C实现。
