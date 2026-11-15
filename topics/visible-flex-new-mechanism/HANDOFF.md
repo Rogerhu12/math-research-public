@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:08:02 UTC实际pull后已读规则提交：`e6a1d6a3cf3a3a8e7d5b98f87c28009065ea7728`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:09:21 UTC实际pull后已读规则提交：`0dda76093a03016ae90b4d72eb1aa88a0db8ba68`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **growth恢复actual43681388902/source7872857e/job132712596603已全文消费**，见notes/trust-growth-recovered-actual-20261115.md。6接纳至f2bb6c35a10467d37d1c964c0135086b7451d469ab6548420ec76355b3207902，ηfine .26653464896453305（降5.614832698e−6），κfine57.99998601756；.26未达。m2/m9后r1/64000→1/32000；m7全部回退失败后缩回。10主+2无primal SOC/19trial，39共享+2final，活动120.3116s/总543.5076s/RSS3062248KiB，wall预算退。粗/细4414/3864，hash086bff77/a39c799a。原细strip门是归一1−max|y|/.38999≥−1e−9，绝对下界−3.8999e−10；11个完成细网的失败trial余量−4.04…−4.82e−10均足以由strip拒绝。final−2.47348e−10仅旧tol过。两次SOC10.12s均无primal，不冒修正点失败。raw8733077/2f9d65f5与native74799/95069841仅SHA保留。
 
-**下一最小改变：只在primary/SOC条带4/5组加正提案余量**，真实验收/旧曲率提案余量/物理惩罚/增长缩步/12LP40值120s全部不变。先付新的RHS人工例；旧growth末态/池未存，若继续消费，在同一公共job恢复绑定旧源码参数必要前缀，再临时衔接新步骤，不重称旧结论、不伪造runtime raw SHA相同、不把输出改名参数保存。
+**strip-reserve新公共请求已提交**：库0d653e66/driver4347bdc3，只给primary/SOC条带4/5组归一提案floor1e−7；原真实门/残差1e−7/曲率reserve/.001惩罚/增长缩步/12LP40值120s保持。98args/24旧SHA不变。缺失末态/池只同job恢复一次原growth临时前缀，严格核原参数/同g/b0/163/双网/池；继承实际next_trust/streak，末模型未完不计成功，低于min不调LP。允许不同合格canonical并显式报，非强求f2bb；前缀/新阶段预算耗时分列。25新增人工已过，公共首次开发后才真实计算；payload不持久化。源/完整设计见notes/frame-metric-spectral-strip-reserve-implementation-20261115.md，结果待真实读取。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 

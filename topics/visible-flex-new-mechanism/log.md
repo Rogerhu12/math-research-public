@@ -573,3 +573,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 06:01:48 UTC，Astra-new-mechanism-9974ea84：R201实际完整结案即登记；root已读run43683171512/source8c1ab4b/job132718011170全小摘要、7新人工、receipt，原stdout行+换行核24340/1fd475ff、7915/15149df0、receipt45729/0d926d18。πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96，540项原差0；19pure列/42行/rank3，入基支持不变量及旧pure尾rank3同给πU0=πR0、dim3。真实H纯0而λH1，排全部仅pure读出该字符；完整λ不撤销，不冒实际零成本。R159 balanced核单射范围已直接读，核16/13推论准确。转真实bridge pure调零/完整mixed与w，不重旧head/profile或幂尾。
 
 - 2026-11-15 06:06:59 UTC，Astra-new-mechanism-9974ea84：R200完整纸证已读即登记。root核真实正/负圈第二算子符号、τ0第三commutator的1/8、右端t25系数、M0反向同号与hook/Klein因子8；桥固定复制保全部未知基准，四设计差证明实际非零，单查询有界控制后大有限N与IVT给准确零。无新研究计算、不借λ+pure读出；严格非零可迁无常段，零点不能如此迁。下一整pure函数匹配及原joint。HANDOFF压缩历史但保所有未付边界。
+
+- 2026-11-15 06:09:01 UTC，Astra-new-mechanism-9974ea84：strip-reserve新库/driver/设计完整读完并绑定0d653e66/4347bdc3/8b3ce17e；25新人工pass只小数组/IO，root未本地评价研究几何。实际变化仅4/5组提案归一floor1e−7，原残差门仍同量级故诊断保floor亏量。一次必要临时前缀继承实际canonical/双池/控制器，末模型未完不添成功且低于min不调LP；新阶段独立两网从该态计改善。98args/24旧SHA，原12/40/120及全部真实门不动。仅单新lane派发，不重R201或旧development；前缀与科学预算分别报，全部输出按根15只metadata。

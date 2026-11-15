@@ -20,7 +20,7 @@
 
 **实际缺口已定位**：原内strip门是`1−max|y|/.38999≥−1e−9`，故原单位容许最低margin−3.8999e−10。11个已完成fine的失败trial所报margin−4.04…−4.82e−10都已足够失败；两缺fine trial不可补作两网通过。主LP所报线性残差9.49e−10…1.69e−9也与门同量级。
 
-下一最小改动只给primary/SOC的4/5条带组增加明确正提案余量，先付单位/符号/其他行不变的新人工例。真实条带门、原曲率提案reserve、物理惩罚.001、既有增长/缩步/新cap1/1000、floor/drop/mintrust及12LP40值120s保持。不得以放松实际门消除拒绝，也不同时改SOC时间或只延旧预算。
+[新的strip-reserve实现](notes/frame-metric-spectral-strip-reserve-implementation-20261115.md)及公共请求已提交：primary/SOC的4/5条带组增加归一floor1e−7。新增25项小人工已付单位/符号/其他行不变、真实控制器接续、失败保checkpoint及单一顶层输出；公共首次开发后运行。必要一次临时growth前缀与新的科学步骤分账，继承实际半径/streak，不重置种子、不强求旧f2bb。真实条带门、原曲率提案reserve、物理惩罚.001、既有增长/缩步/新cap1/1000、floor/drop/mintrust及12LP40值120s保持。不得以放松实际门消除拒绝，也不同时改SOC时间或只延旧预算。
 
 旧[growth观察失败](notes/trust-growth-observation-failure-20261115.md)保留；新纯文本读取fixture通过且本次真实科学表已完整，不把未观测的前一次末态补成相同。新根15未保存末态系数/池payload，后继需要同一公共job按完整旧源码/参数恢复必要输入前缀、临时衔接新步骤；不声称该重建是新独立科学验证，不伪造旧raw SHA，不改名参数持久化。
 
