@@ -6,25 +6,23 @@
 - **最近成功实际 pull 与已读规则提交：** 66fbe05b642e0ea0899836342fe64bc50e95b06f（2026-11-15 00:55:36 UTC，Actions run43660538454实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43660538454-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用$及$；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
-- 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-second-head-schur-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
+- 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-saturated-positive1058-and-weighted-window-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
 
 ## 当前执行
 
 2026-11-15本地执行器恢复；旧工作树的/dev/shm Git目录已失，原文件全部保留不改。独立math-research-public-main浅clone后实际pull到5eedb0f30ff0a3ddbfb2b837628060fa918774c8（00:02:13 UTC观察完成），两README blob未变；API只准备，root Actions仍实际pull/rebase/push。磁盘仅约334MB可用，大数学继续本库Actions，复用全部已成数据/cache。root独占主线；normal接完整Bsat高页，boundary/literature接固定测试同源恢复。
 
-## R150：完整原S2的下一页
+## R150：全原S2的实际高页
 
-原A为6188源/4367输出的11N+6Γ，char0/F31(s)泛秩4354；h0度24、mod31=25h31，H0=(s−2)h0不同。整数任意次数mod31²障碍不排31分母；rank_Q A87≥226092仅下界。全旧常数/接口/源SHA/八份工件身份保[本次H全文](notes/2026-11-15-handoff-before-global-gauge-anchor-and-saturated-second-789f.md)及递归归档。
+全部旧输入SHA、来源、常数、工件和失败范围保[压缩前全文](notes/2026-11-15-handoff-before-saturated-positive1058-and-weighted-window-789f.md)及递归快照。A为6188源/4367输出，char0/F31(s)泛秩4354；h0度24、H0=(s−2)h0不同，特征零身份未证。
 
-**[自然图Hnat九目标modp6已完整排除](notes/2026-11-14-r150-complete197-third-natural-source-lattice-obstruction-789f.md)。** Hnat=p²E+pκ1R+pκ2R+Σ3..9κiR；九j2…10任意次数来源均负，但不扩全S2/有理/char0。run43653360404/job132626469223（源4ee8d886、数据21ebea18），十编译成功、数学77.863068274秒/13阶段，新197在(Q/V10)_2新增像0。共同315 dual九值[1,17,29,4,27,22,18,11,23]非零，真d9305−P2d9305=15b1+10b2+25b6。135恢复188295295B=91binary+44text/13cache、184存储文件全保；原五列与小矩阵恢复均全保，不重旧数学。没有正目标，已编译全局正分支/765充分费用不等于已核原正证书。
+**已成范围：** 自然图Hnat内九j2…10任意次数modp6已由run43653360404的完整197第三排除（77.863068274秒、相关新像0、共同315 dual九值全非零）；135恢复/13cache全保。完整S2=Hnat+Klow1632+Σ197未缩放κ̃，Bsat像恰(imA:p²)，全原modp6等价h0t在Bsat像内modp4。run43654741434只读selector给相关第一页U9/U7二维/J=2I；严格限Z_(31)[[s−2]]。不重旧197/selector，不把Hnat负性扩大到全S2/有理/char0。
 
-**[全部S2包](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)已证。** S2=Hnat+Klow+Σj2..198 κ̃_jD[s]，Klow1632真整数核、κ̃=Khat−p q1；四κ3…6覆盖完整β源核，κ7bar=22K1，有限两步消去保pS1。Bsat=[A,b1…7,pb8,p²b9,R2_2…198]像恰(imA:p²)，全原modp6等价Bsat y=h0t modp4。
+**完整后继：** [204源核](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)剥1834真Bsat核及θ3、θ4−e9，保五旧θ、e9、196ω、te8、tζ2；第三须保全204真实提升。完整下一核(I−TC)、T(sI−J)保非恒定关系。[整数精度](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)给原p6下20→15→10→5，真形式像/free及canonical carry先付；第三纠偏pκ8/pL3,2，不换κ9或加p7。
 
-[实际selector](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)run43654741434（源e7d0638b、数据c09e0eec）0.036855237秒，5恢复256910B全保；197投影rank7且全b10=0，恰张成(U9)_2。modU7/U8/U9维2/1/0；K2/K3尾(10,11,0)/(24,28,0)，det16。完整Bsat相关第一页=U9/U7二维/J=2I，严格限Z_(31)[[t]]、t=s−2；不借全局q2/其它primary。
+**当前run43660606254/job132648846878**（源4824d015）已实际进入全部204新来源计算。首run43659199975在prepare误设raw=P2raw而止（0.144303541秒、恢复0、数据f118500f）；只读旧315×9核九outside均非零、秩2且全在U7的b1/b2/b6。新入口保raw/P2raw/outside/U9坐标，native/solver/runner不变；manifest SHA29e3d73ace3e45de3618250f3066a9c62a6937ae68639354629b50262e808a10。30输入/7包、四编译各30秒/512MiB、数学共300秒；全实际数组/checkpoint保存，未得新像前不预填成败。
 
-**[完整204后继](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)** 由2040全β1源核剥1834真Bsat精确核及θ3、θ4−e9而来；保θ1/2/5/6/7、e9、ω3…198、te8、tζ2。ωj=ζj−(aj−15bj)e8−17bjζ2。第二尚新196ω+tζ2共197类，第三必须保全204真实第二提升；完整下一核以(I−TC)、T(sI−J)给，含非恒定关系。
-
-**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。**第二页输入范围已最小修复，立即续跑。** 首run43659199975四编译/30输入通过，prepare0.144303541秒误设raw=P2raw而止，恢复0、数据f118500f。只读旧315×9实绩0.051741805秒核九outside均非零、秩2，完整raw−P2raw=U9 C且仅b1/b2/b6三行，实际在U7。保raw/P2raw/outside/全U9系数；只改新matrices/合同，native/solver/runner不变；两接口另按规则4纯格式修正。新manifest SHA29e3d73ace3e45de3618250f3066a9c62a6937ae68639354629b50262e808a10，contract SHAed999eb8c095c9b14967b71d2590317dab0d07b81664b4f568e47b7743ca90f9。30输入/7包、四编译各30秒/512MiB、数学共300秒；不重旧197/selector。第二后即接第三/全局原17，无负性或正证书预报。
+**[第二页正分支1058费用](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)已证但未执行。** 只合成所选≤9个204组合，原高核系数≤5，同raw q1截面成本182；全F0保旧七/κ8/六K4及s/t carry同步q2−c。精确B核比较把来源差付入完整W1；三次真实P分别插在F0/L3/L4，成本182→474→766→1058，最后X+pPL4+Σp^(5−ei)κiai+p5w正号。旧765/796容量不足；局部正仍须全315、全部原17及成本核。其余目标立即用完整后继核接第三，非研究停止点。
 
 ## 实际边界：同源两费、完整gauge与真实投影
 

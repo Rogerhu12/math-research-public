@@ -389,3 +389,8 @@
 ### 2026-11-15：第二物理头的真实一孔Schur校正与完整两列恢复（789f）
 
 [证明](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)在原一孔层精确保F1=DD*=SI−2Z+bb*，对b⊥真块H取v=H⁻¹r并设D0=S²−s2−2<r,v>。原尾m≥11给H≥S/2及S²/2≤D0≤S²；u=D*(b+2v)满足Du=2D0 b/S、D²u=2D0Ω、||u||²=2D0。该同一校正的真低核T(u/W2)给完整环境恒等式，经全部Γ_CC⁻¹后保原source/零源双块，并在原物理Gq给Gq(f2−βf1)=−αW2·Gqh̃2/(2D0)−αW2·Gqh21/(SW1)。原primitive残量准确进入h̃2，标量也同步由S²−s2改成D0，未先取发散裸范数或删除低核反馈。单列及完整原像范数已付；两列在同一切口、同一原源上的联合远孔小量仍未付，未证明N=M。
+
+
+### 2026-11-15：完整饱和第二页正分支的三次原投影与1058费用（789f）
+
+[条件恢复定理](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)对实际第二页任一相容目标只恢复其完整204组合：t关系使原高核系数≤5，同一raw T96 q1截面给起点182。完整F0保七列、κ8、六旧K4及全部cochain，规范s/t carry同步改q2−c；任意合法全局q2/q3来源差经精确B核提升落完整第一页W1，从而第二类模U9保持。三次真实整数P必须分别作用F0/L3/L4，成本182→474→766→1058；完整raw目标的other-primary correction保留，最终X+pPL4+Σp^(5−ei)κiai+p5w对原17全乘回。旧765/796实现容量不足，须真16位次数和完整checkpoint扩展；没有预报第二页相容目标，也未执行全局正证书或证明char0身份。
