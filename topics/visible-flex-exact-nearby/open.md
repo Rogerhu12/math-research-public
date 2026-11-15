@@ -195,7 +195,7 @@ G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；�
 
 ### 97 输入帽伴随新提案已部署
 
-247pin 五件只构造新物理257state×97input伴随Hermite提案，消费原7908whole/64point，QR/原数组/失败前缀全部可恢复。newton_source 继续真实连续 adjoint residual 与完整97误差Gram；proposal finite成功不代替无限帽high-to-low。
+[v2实际成功](notes/2026-11-15-R133-actual-complete97-cap-adjoint-proposal-v2.md)：43662865692 child0/5门，1977节点/1976片/257state×97input完整新QR、97列和独立动作全部保存；finite residual6.9688e−15只作提案检查。原7908whole/64point/selected NPZ全复用，515文件1.125GB原artifact保。首失败0QR完整保；newton_source继续同一Hermite在真9/10与全帽上的ordinary/Hessian残差、真左右端/mean、高输出及完整97误差Gram，不能以有限提案替无限帽high-to-low。
 
 ### 完整外段 old-circle 源已 actual 闭合，数值仍粗
 
