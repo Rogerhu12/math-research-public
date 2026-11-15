@@ -39,7 +39,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [CT完整密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保χ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差、全mean/未知全频及c0=U_Pinv f̃−−f̃+。同R31条带1/128+3B<7/128<1/16与e3L/eL付全initial/jump/residual；新完整signed目标由SN继续，旧scalar/ray/KAM不重，具体全域与单位保c820e3a6原文。
 [SN合同及五次失败](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170/prep77e36f22与18a3a7f6全部原运行、207输入沿革、原1256subcells四误差及314interval/next2831保存链逐字保8148b208同open/H/proof。第五43746794222/1 metadata502杀child−15，science.failure=null，SCI97f2e921全核；365535907B gzip7a83abf8仅hash，LP/ref丢失。成功预算禁重，target/C未成。
 
-[SN精确参考恢复](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7：只lost314×4 pointnominal/mean-midpoint参考320bit恢复，saved残差/parameter/energy/next2831禁重；新hash非旧核、suffix最大非全程。唯一b8bd86a/43751213826/1，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3；207pins/8AST/21门设计，双branch终点四导四列保A1/128尾/mean/原H3。19:59 checkpointf0c972f9累计3112=原1256+新1856、interval2368，root原读；真pull19519948两README空diff。进度非终点C，typed只读暂错保child，真实rules/pins/cap硬停；完整域/恢复/运行时保8148b208同open/H/proof。
+[SN精确参考恢复](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7：只lost314×4 pointnominal/mean-midpoint参考320bit恢复，saved残差/parameter/energy/next2831禁重；新hash非旧核、suffix最大非全程。唯一b8bd86a/43751213826/1，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3；207pins/8AST/21门设计，双branch终点四导四列保A1/128尾/mean/原H3。20:36 checkpoint964803b9/8b349939累计4904=原1256+新3648、interval1920，root原读；真pulle05516f5两README空diff。进度非终点C，typed只读暂错保child，真实rules/pins/cap硬停；完整域/恢复/运行时保8148b208同open/H/proof。
 
 [AC/CN/EN/LN完整正规化链](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d及原proof全式/域/mean/μ²费用逐字保b2476f272c6223b7f8305abe6694de4fed690468同open/H。AC真H密度、CN全mean精确ODE/Jensen两窗，EN须直接signed指数reference不可upper相减；LN只成功SN双四列经真D/√j及μEj一次给d/C/Wiener，强Q与独立μ²aI/2不删。尚无SN终点，非incoming或R0。
 
@@ -155,6 +155,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 全部旧删除、restore、原scope、producer/输入/参数/失败逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9本节及H/log，原白名单继续保留；归档不授重算。四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint的恢复与完整SHA均见该档和各原清单。
 [三份step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588与[两份Newton预测geometry清单](notes/2026-11-15-two-Newton-prediction-floating-geometry-output-deletion-whitelist.json)1fcc7238分别普通删1221901B/814736B。两清单保完整原producer/argv/path/Gitblob/bytes/SHA，恢复8870549d52e48343cb43a979a13f9368cb992736同path；全部源码/NPZ/H/精确预算/实际ray及反射/插值失败保持，禁重旧成功，无history rewrite。
 
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机19:39:05定时CLI仍无executor，下一定时真CLI≤20:39；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机20:35:32定时CLI仍无executor，下一定时真CLI≤21:35；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。

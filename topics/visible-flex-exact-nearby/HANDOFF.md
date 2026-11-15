@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 20:35:09 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 20:39:43 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则和读取点
 
 只在公开 Rogerhu12/math-research-public 及其自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。PAT仅临时CLI/env，不入文件、输出、connector。根规12不另请审批。
 根规15只scripts/参数/run/SHA/真小结论，data/新数组/证书禁Git/Release/新artifact；topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入从immutable公开history/path/原artifact临时核SHA恢复。仅明确未保存的新量按H记录重做。无executor时根规8仅UTF8<100KB connector，禁binary/gzip和大日志。H≤10KB、open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 19:39:05定时CLI及所有非FF即时CLI失败，下一≤20:39。ref不是pull。runner末原读真pull20:27:26.621372→79586fdcd2a941f203c8ad007770433601ed0a74，两README空diff，回执e1eb9276。非FF20:32即时CLI亦无executor，已保远端重推成功。
-最近只读README核：9b8be4c64f63b1835f3f020507a161370bdc8e93；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 20:35:32定时CLI及非FF即时CLI失败，下一≤21:35。ref不是pull。runner末原读真pull20:36:33.210489→e05516f56054a858c1a4b00d84d4c265ca3c6e32，两README空diff，回执8b349939。非FF20:32即时CLI亦无executor，已保远端重推成功。
+最近只读README核：636035847d0ec340629c2f2292070c98865ce2c4；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 本次完整H/open/results/log前页保385b187762c145003d9b98cb2619af42b3e6cc14同路径，递归475f/9ae4/7794及原档。所有原域、单位、均值、失败、lost范围、恢复身份与未付义务继续；各proof及results索引保留。
 
 ## 同一对象及真正完成标准
@@ -18,7 +18,7 @@ checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本�
 
 ## 活跃Actions：不要重启健康原运行
 
-SN唯一43751213826/1，部署b8bd86a；SCI6c63241a、worker022f998c、manifestf6e5f9fe、flowc7cf0ce3，207pins/8AST/21门设计。合同6e906170/prep77e36f22、五失败与精确恢复18a3a7f6/7edf79c7全保前档。第五metadata502杀child−15，完整旧1256subcells预算/next2831已存；仅lost314×4 pointnominal参考320bit重建，旧residual/parameter/Gram/prep禁重，新hash非旧核。20:27原回执1b5d9ec3/15128/e1eb9276：累计4392=旧1256+新3136，interval2048，双支H3进度2.276466447245913非终点C。成功终点须双branch四导四列、A1/128完整尾/mean/原H3齐。newton监小回执。
+SN唯一43751213826/1，部署b8bd86a；SCI6c63241a、worker022f998c、manifestf6e5f9fe、flowc7cf0ce3，207pins/8AST/21门设计。合同6e906170/prep77e36f22、五失败与精确恢复18a3a7f6/7edf79c7全保前档。第五metadata502杀child−15，完整旧1256subcells预算/next2831已存；仅lost314×4 pointnominal参考320bit重建，旧residual/parameter/Gram/prep禁重，新hash非旧核。20:36原回执964803b9/13877/8b349939：累计4904=旧1256+新3648，interval1920，双支H3进度2.308407484602856非终点C。成功终点须双branch四导四列、A1/128完整尾/mean/原H3齐。newton监小回执。
 SC3唯一43754452928/1，部署555d311；helper6f868faf、SCI41b8f50c、manifestcd28e23a、flow6936992e，23pins451182B、9history/36archive。仅Laurent构造显式list，reader/worker/runtime/math原字。SC1 schema失败62bdfc64、SC2首row构造失败f98d1f32均保；SC2 43753164994/1/6门过，首row部分新算术未保存，完整row/group/model0、旧数学0。SCI635bf74b/preGit2e549cfe与16eaea43已root核；104306B大日志不再读。tail监小metadata，实际完整97 affine未出。
 两worker对typed只读网络暂错保healthy child；真正rules/identity/cap失败仍硬停。终端结论和每次保存prefix必须沿原receipt核，进度不冒数学成功。
 
