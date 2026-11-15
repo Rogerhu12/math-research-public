@@ -1,0 +1,37 @@
+{
+  "schema": "saved85-direction-spectrum-original-output-readback-v1",
+  "original_summary_present": true,
+  "numerical_model_or_array_action_performed": false,
+  "original_summary": {
+    "file": "saved85-direction-spectrum/saved-direction-summary.json",
+    "bytes": 60931,
+    "sha256": "eb2ad618b74eed227aec2d224ae7553ad08774ad45ff1e910f17998e4dd38fcc"
+  },
+  "original_fields": {
+    "schema": "R259-saved-actual85-three-by-three-direction-spectrum-v1",
+    "phase": "diagnostic-completed",
+    "diagnostic_completed": true,
+    "source_sha256": "20fcaa266aa1716be9ab910d2ab988d2259dc56e013b13d3cedccd69be9a9d20",
+    "comparisons_requested": [
+      "0.01",
+      "0.001"
+    ],
+    "verified_original_status": {
+      "file": "actual85-original-status.json",
+      "bytes": 54251,
+      "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a"
+    },
+    "binding_scope": "The complete status and eleven original source payloads are verified; the four original large input payloads are not read again",
+    "full_analysis": {
+      "file": "large-arrays/saved-direction-analysis.json",
+      "bytes": 174419,
+      "sha256": "0098d7c09244e6a8deae9508883399227bb59d5a9de0b97e11e4811acb7f3798"
+    },
+    "field_RHS_J_tail_FD_or_optimizer_called": false,
+    "new_candidate_accepted": false,
+    "existence_or_transversality_proved": false,
+    "error": null
+  },
+  "stored_rows_reported": 8,
+  "original_decisions_not_changed": true
+}

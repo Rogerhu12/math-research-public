@@ -1,0 +1,1893 @@
+{
+  "schema": "R259-saved-actual85-three-by-three-direction-spectrum-v1",
+  "phase": "diagnostic-completed",
+  "diagnostic_completed": true,
+  "source_sha256": "20fcaa266aa1716be9ab910d2ab988d2259dc56e013b13d3cedccd69be9a9d20",
+  "actual85": {
+    "run_id": 43667636063,
+    "source_commit": "c9daab1a9f7b1330c6099450bd018bfab9026b0d",
+    "job_id": 132670464205,
+    "artifact_id": 14143056682,
+    "artifact_bytes": 268505,
+    "artifact_zip_sha256": "708ce51fb634552d376013d05b57e4f42cdc07d699e25753a2af0a2ea36e5775",
+    "artifact_transport_is_not_repeated_by_this_consumer": true,
+    "scientific_step_conclusion": "success",
+    "publisher_step_conclusion": "failure"
+  },
+  "original_status": {
+    "file": "damped-resume-status.json",
+    "expected_bytes": 54251,
+    "expected_sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a"
+  },
+  "comparisons_requested": [
+    "0.01",
+    "0.001"
+  ],
+  "field_RHS_J_tail_FD_or_optimizer_called": false,
+  "original_status_modified": false,
+  "original_criteria_modified": false,
+  "projective_or_geometric_normalization_performed": false,
+  "new_candidate_accepted": false,
+  "existence_or_transversality_proved": false,
+  "original_actual85_candidate_success": false,
+  "verified_original_status": {
+    "file": "actual85-original-status.json",
+    "bytes": 54251,
+    "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a"
+  },
+  "verified_consumed_sources": [
+    {
+      "file": "geometry_20261115_small_core_damped_resume.py",
+      "bytes": 15452,
+      "sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261115_small_core_damped_search.py",
+      "bytes": 13733,
+      "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_small_core_resonance.py",
+      "bytes": 25799,
+      "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_constrained_trust_warm.py",
+      "bytes": 19341,
+      "sha256": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_constrained_collocation.py",
+      "bytes": 18309,
+      "sha256": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_full_dn_augmented.py",
+      "bytes": 11311,
+      "sha256": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_full_dn_boundary.py",
+      "bytes": 10619,
+      "sha256": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_physical_test_boundary.py",
+      "bytes": 6269,
+      "sha256": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_lifted_modes_profile.py",
+      "bytes": 6016,
+      "sha256": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_full_prefix_operator.py",
+      "bytes": 40466,
+      "sha256": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+      "imported_or_executed": false
+    },
+    {
+      "file": "geometry_20261114_direct_operator_cell.py",
+      "bytes": 20431,
+      "sha256": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce",
+      "imported_or_executed": false
+    }
+  ],
+  "original_input_bindings": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "binding_scope": "The complete status and eleven original source payloads are verified; the four original large input payloads are not read again",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+    "numpy": "2.3.5",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "copied_original_final_description": {
+    "parameters": [
+      0.06389479553738595,
+      -0.012958081345244933,
+      -0.11220747933971734
+    ],
+    "unit_diagonal_defects": [
+      227.29559514822407,
+      -151517.87117025955,
+      805.4623398988991
+    ],
+    "singular_values": [
+      82516487.07773717,
+      85436.77882713315,
+      3.1617049680040474
+    ],
+    "numerical_parameter_condition": 26098730.87868442,
+    "low_mode_trajectory_max_by_mode": [
+      10.9259498266004,
+      3540.629483970082,
+      15.145895646229546
+    ],
+    "low_two_by_two_right_condition_max_by_mode": [
+      1.3950728978314295,
+      4.568977825758227,
+      17.11359640219187
+    ],
+    "radius_cell_denominator_minimum_absolute": 0.9992505550049908,
+    "source_circle_node_and_mid_minimum_beta2": 0.005153125406278547,
+    "independent_real_parameter_difference_checks": [
+      {
+        "step": 2e-05,
+        "valid": true,
+        "maximum_relative_error": 8.84379391402425e-09
+      },
+      {
+        "step": 1e-05,
+        "valid": true,
+        "maximum_relative_error": 2.1750304800170322e-09
+      },
+      {
+        "step": 5e-06,
+        "valid": true,
+        "maximum_relative_error": 6.167107431449232e-10
+      }
+    ]
+  },
+  "interpretation_limits": [
+    "Augmented rank three follows from positive eta and does not prove original J rank.",
+    "Direct A singular values and residual projections describe this recorded finite local model, not rigorous parameter transversality.",
+    "Large parameter sensitivity of the third equation is not itself large third-mode trajectory amplitude.",
+    "Original maximum relative coordinate-FD errors do not separately certify a weak singular-direction derivative.",
+    "Alternative eta predictions have no scalar/circle-domain, nonlinear merit, unit-threshold or full112 acceptance.",
+    "No original nonlinear step is repeated and no original acceptance is reconsidered."
+  ],
+  "full_analysis": {
+    "file": "large-arrays/saved-direction-analysis.json",
+    "bytes": 174419,
+    "sha256": "0098d7c09244e6a8deae9508883399227bb59d5a9de0b97e11e4811acb7f3798"
+  },
+  "rows": [
+    {
+      "iteration": 0,
+      "parameters": [
+        0.07254576672993071,
+        -0.0403277008444164,
+        -0.11497411877394303
+      ],
+      "original_equation": [
+        224.4830723005632,
+        -154577.5000610159,
+        2058.380235692375
+      ],
+      "singular_values": [
+        1.7320392996315315,
+        0.006313836543424258,
+        1.3591758164524006e-07
+      ],
+      "residual_coordinates": [
+        1648.9309310451106,
+        154582.14534519735,
+        363.6127318090874
+      ],
+      "half_squared_residual_by_singular_direction": [
+        1359486.6076786476,
+        11947819829.76186,
+        66107.10936683365
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.5518050275081837,
+          609.4321002273755,
+          -1645.0727068693727
+        ],
+        "original_linear_residual": [
+          225.0348773280714,
+          -153968.06796078852,
+          413.3075288230025
+        ],
+        "original_merit_slope_by_equation": [
+          123.87088788593388,
+          -94204490.51008217,
+          -3386185.146096873
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -124.02313228012554,
+          94018786.7676884,
+          2033053.0406536106
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.01582397810131264,
+          -16.467964641906292,
+          1337.871500912565
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -120.4623105083956,
+          91483110.47159767,
+          585150.6002516975
+        ],
+        "actual_saved_merit_before": 11949245423.478903,
+        "actual_saved_merit_after": 11857177282.869364,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_saved_stationarity": {
+          "L2": 2.915867930145568e-11,
+          "Linf": 1.887201506178826e-11
+        },
+        "SVD_reconstruction": {
+          "L2": 7.234118922648417e-16,
+          "Linf": 4.0208484599572186e-16
+        },
+        "U_orthogonality": {
+          "L2": 8.973475189486682e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "V_orthogonality": {
+          "L2": 6.240994626174693e-16,
+          "Linf": 5.551115123125783e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966776968631033,
+            0.003970624481080222,
+            1.8473589000256366e-12
+          ],
+          "residual_retained_filter": [
+            0.0033223031368968207,
+            0.9960293755189198,
+            0.9999999999981527
+          ],
+          "singular_residual_coordinates_after": [
+            5.478248404737366,
+            153968.3576945518,
+            363.6127318084157
+          ],
+          "original_linear_residual": [
+            225.0348773280714,
+            -153968.06796078852,
+            413.3075288230218
+          ],
+          "original_merit_directional_slope": -97590551.78529136,
+          "original_linear_merit_decrease": 96051715.78520995,
+          "stored_A_linear_merit_decrease": 96051715.78520995,
+          "scaled_damping_penalty": 47256439.892564274,
+          "damped_quadratic_decrease": 48795275.89264568,
+          "stationary_readback": {
+            "L2": 2.1530378193462957e-11,
+            "Linf": 1.261923898709938e-11
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666673348251,
+            0.2850224524857682,
+            1.8473588996877762e-10
+          ],
+          "residual_retained_filter": [
+            3.333266517485905e-05,
+            0.7149775475142317,
+            0.9999999998152641
+          ],
+          "singular_residual_coordinates_after": [
+            0.05496326262099526,
+            110522.76316839771,
+            363.61273174191507
+          ],
+          "original_linear_residual": [
+            264.1376561670619,
+            -110522.65780522145,
+            292.8063659650659
+          ],
+          "original_merit_directional_slope": -6813512702.058394,
+          "original_linear_merit_decrease": 5841538727.179185,
+          "stored_A_linear_merit_decrease": 5841538727.179186,
+          "scaled_damping_penalty": 2434782376.149988,
+          "damped_quadratic_decrease": 3406756351.0291977,
+          "stationary_readback": {
+            "L2": 1.497281321671814e-09,
+            "Linf": 8.645884008728899e-10
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.9999996666623483,
+            0.9755289011380682,
+            1.8473588659017012e-08
+          ],
+          "residual_retained_filter": [
+            3.333376516706004e-07,
+            0.024471098861931804,
+            0.9999999815264112
+          ],
+          "singular_residual_coordinates_after": [
+            0.0005496507643215939,
+            3782.7949610318356,
+            363.61272509185534
+          ],
+          "original_linear_residual": [
+            360.2079103385656,
+            -3783.1074225340562,
+            10.021075599412143
+          ],
+          "original_merit_directional_slope": -23313606071.357883,
+          "original_linear_merit_decrease": 11942024547.513372,
+          "stored_A_linear_merit_decrease": 11942024547.513372,
+          "scaled_damping_penalty": 285221511.83443695,
+          "damped_quadratic_decrease": 11656803035.678936,
+          "stationary_readback": {
+            "L2": 1.3748475776144972e-09,
+            "Linf": 7.939604529383359e-10
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "parameters": [
+        0.07127274935055856,
+        -0.035728219882329625,
+        -0.11452161191601362
+      ],
+      "original_equation": [
+        225.01905334997008,
+        -153984.53592543042,
+        1751.1790297355674
+      ],
+      "singular_values": [
+        1.7320409564513253,
+        0.005841675715442493,
+        1.2340444486413272e-07
+      ],
+      "residual_coordinates": [
+        1373.895717497133,
+        153988.09722707415,
+        364.53899836935904
+      ],
+      "half_squared_residual_by_singular_direction": [
+        943794.7212784811,
+        11856167043.80742,
+        66444.34066606777
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.4741797460794121,
+          520.3431532852909,
+          -1370.610236932553
+        ],
+        "original_linear_residual": [
+          225.4932330960495,
+          -153464.19277214512,
+          380.5687928030143
+        ],
+        "original_merit_slope_by_equation": [
+          106.69947758051849,
+          -80124798.98061062,
+          -2400183.9048571843
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -106.81190079631446,
+          79989420.48202519,
+          1460897.6940650297
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.012930847556444636,
+          -13.28323479400467,
+          1135.828293829001
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -103.89616577754714,
+          77950831.35479736,
+          383583.93491976964
+        ],
+        "actual_saved_merit_before": 11857177282.869364,
+        "actual_saved_merit_after": 11778842971.475813,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 1.000444171950221e-11,
+          "Linf": 1.000444171950221e-11
+        },
+        "original_saved_stationarity": {
+          "L2": 1.0115573474214092e-11,
+          "Linf": 6.59383658785373e-12
+        },
+        "SVD_reconstruction": {
+          "L2": 4.493500969273365e-16,
+          "Linf": 3.3306690738754696e-16
+        },
+        "U_orthogonality": {
+          "L2": 2.5925409871653773e-16,
+          "Linf": 2.220446049250313e-16
+        },
+        "V_orthogonality": {
+          "L2": 5.604537634841595e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777031980198,
+            0.0034009118451954604,
+            1.5228657012201577e-12
+          ],
+          "residual_retained_filter": [
+            0.0033222968019801877,
+            0.9965990881548045,
+            0.9999999999984771
+          ],
+          "singular_residual_coordinates_after": [
+            4.564489348495001,
+            153464.39728319546,
+            364.5389983688039
+          ],
+          "original_linear_residual": [
+            225.4932330960495,
+            -153464.19277214512,
+            380.56879280300427
+          ],
+          "original_merit_directional_slope": -82524876.18599012,
+          "original_linear_merit_decrease": 81450211.36418931,
+          "stored_A_linear_merit_decrease": 81450211.36418928,
+          "scaled_damping_penalty": 40187773.27119425,
+          "damped_quadratic_decrease": 41262438.09299503,
+          "stationary_readback": {
+            "L2": 2.267795961571591e-11,
+            "Linf": 1.318767317570746e-11
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.999966667398593,
+            0.25442781433511663,
+            1.522865700990565e-10
+          ],
+          "residual_retained_filter": [
+            3.3332601406907156e-05,
+            0.7455721856648834,
+            0.9999999998477134
+          ],
+          "singular_residual_coordinates_after": [
+            0.04579551832598865,
+            114809.24221596624,
+            364.5389983138446
+          ],
+          "original_linear_residual": [
+            260.5165336246092,
+            -114809.18066629626,
+            281.34099815935747
+          ],
+          "original_merit_directional_slope": -6034964861.22024,
+          "original_linear_merit_decrease": 5266529789.4254675,
+          "stored_A_linear_merit_decrease": 5266529789.4254675,
+          "scaled_damping_penalty": 2249047358.8153496,
+          "damped_quadratic_decrease": 3017482430.610118,
+          "stationary_readback": {
+            "L2": 2.970244061054148e-09,
+            "Linf": 1.714909103611717e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.999999666662986,
+            0.9715303910850306,
+            1.5228656780312784e-08
+          ],
+          "residual_retained_filter": [
+            3.333370139489935e-07,
+            0.028469608914969538,
+            0.9999999847713433
+          ],
+          "singular_residual_coordinates_after": [
+            0.0004579702959478043,
+            4383.980905615106,
+            364.5389928179198
+          ],
+          "original_linear_residual": [
+            360.56676015729806,
+            -4384.296234362788,
+            10.742388226334697
+          ],
+          "original_merit_directional_slope": -23039140798.494728,
+          "original_linear_merit_decrease": 11847501194.240322,
+          "stored_A_linear_merit_decrease": 11847501194.24032,
+          "scaled_damping_penalty": 327930794.99296236,
+          "damped_quadratic_decrease": 11519570399.247358,
+          "stationary_readback": {
+            "L2": 1.153819148042974e-08,
+            "Linf": 6.661711182687213e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "parameters": [
+        0.07007074394768516,
+        -0.031580393521455946,
+        -0.11410840985408575
+      ],
+      "original_equation": [
+        225.48030224849305,
+        -153477.47600693913,
+        1516.3970866320153
+      ],
+      "singular_values": [
+        1.7320422805210391,
+        0.005434932149150989,
+        1.1281410195058106e-07
+      ],
+      "residual_coordinates": [
+        1166.481301661896,
+        153480.26496618448,
+        365.4178899632912
+      ],
+      "half_squared_residual_by_singular_direction": [
+        680339.3135634155,
+        11778095867.045097,
+        66765.117152612
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.41202087629599565,
+          449.3703057978317,
+          -1163.6334499103643
+        ],
+        "original_linear_residual": [
+          225.89232312478904,
+          -153028.1057011413,
+          352.763636721651
+        ],
+        "original_merit_slope_by_equation": [
+          92.90259171991006,
+          -68968220.32631761,
+          -1764530.3733516375
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -92.98747232116192,
+          68867253.49045119,
+          1087508.9704764893
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.010747486633929715,
+          -10.905458049954916,
+          979.264630187969
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -90.55975535190737,
+          67198352.43875694,
+          262580.41024990904
+        ],
+        "actual_saved_merit_before": 11778842971.475813,
+        "actual_saved_merit_after": 11711382129.186562,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 1.3869794202037156e-11,
+          "Linf": 1.3869794202037156e-11
+        },
+        "original_saved_stationarity": {
+          "L2": 5.4489717065168793e-11,
+          "Linf": 3.3310243452433497e-11
+        },
+        "SVD_reconstruction": {
+          "L2": 7.365568484208072e-16,
+          "Linf": 4.522385138355962e-16
+        },
+        "U_orthogonality": {
+          "L2": 1.1090274014477906e-15,
+          "Linf": 6.661338147750939e-16
+        },
+        "V_orthogonality": {
+          "L2": 6.290162157683976e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777082606403,
+            0.0029451492212517905,
+            1.2727021598899896e-12
+          ],
+          "residual_retained_filter": [
+            0.003322291739359782,
+            0.9970548507787481,
+            0.9999999999987272
+          ],
+          "singular_residual_coordinates_after": [
+            3.8753911926289626,
+            153028.24268334178,
+            365.4178899628261
+          ],
+          "original_linear_residual": [
+            225.89232312478904,
+            -153028.1057011413,
+            352.76363672162483
+          ],
+          "original_merit_directional_slope": -70732657.7970778,
+          "original_linear_merit_decrease": 69954669.4734556,
+          "stored_A_linear_merit_decrease": 69954669.47345561,
+          "scaled_damping_penalty": 34588340.57491668,
+          "damped_quadratic_decrease": 35366328.898538925,
+          "stationary_readback": {
+            "L2": 1.5172401903920598e-11,
+            "Linf": 9.208633855450898e-12
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666674495539,
+            0.22802865807473993,
+            1.2727021597296325e-10
+          ],
+          "residual_retained_filter": [
+            3.333255044602645e-05,
+            0.7719713419252602,
+            0.9999999998727298
+          ],
+          "singular_residual_coordinates_after": [
+            0.03888179683199174,
+            118482.36610498992,
+            365.4178899167844
+          ],
+          "original_linear_residual": [
+            257.3899579910101,
+            -118482.34201191415,
+            270.1663450013939
+          ],
+          "original_merit_directional_slope": -5372847423.748126,
+          "original_linear_merit_decrease": 4759740667.439491,
+          "stored_A_linear_merit_decrease": 4759740667.439491,
+          "scaled_damping_penalty": 2073316955.5654278,
+          "damped_quadratic_decrease": 2686423711.8740635,
+          "stationary_readback": {
+            "L2": 2.1327307574171612e-09,
+            "Linf": 1.2315695130382665e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.9999996666634956,
+            0.9672544358617158,
+            1.2727021436939021e-08
+          ],
+          "residual_retained_filter": [
+            3.333365043065513e-07,
+            0.03274556413828428,
+            0.9999999872729786
+          ],
+          "singular_residual_coordinates_after": [
+            0.00038883079943493215,
+            5025.797860411059,
+            365.4178853126099
+          ],
+          "original_linear_residual": [
+            360.8353993344689,
+            -5026.115882257436,
+            11.459377305712906
+          ],
+          "original_merit_directional_slope": -22786191624.983097,
+          "original_linear_merit_decrease": 11766146884.2935,
+          "stored_A_linear_merit_decrease": 11766146884.293503,
+          "scaled_damping_penalty": 373051071.80196136,
+          "damped_quadratic_decrease": 11393095812.49154,
+          "stationary_readback": {
+            "L2": 1.4700971794540897e-08,
+            "Linf": 8.487722524819219e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "parameters": [
+        0.06892926266088653,
+        -0.027809160095790247,
+        -0.11372890349523401
+      ],
+      "original_equation": [
+        225.8815756381551,
+        -153039.01115919126,
+        1332.02826690962
+      ],
+      "singular_values": [
+        1.73204335799821,
+        0.005079962034710923,
+        1.037658652907949e-07
+      ],
+      "residual_coordinates": [
+        1005.7116177842986,
+        153041.2318818192,
+        366.26030392267216
+      ],
+      "half_squared_residual_by_singular_direction": [
+        505727.92907315557,
+        11710809327.952377,
+        67073.3051147641
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.36134296171639846,
+          391.78352572986597,
+          -1003.2080056692065
+        ],
+        "original_linear_residual": [
+          226.2429185998715,
+          -152647.22763346139,
+          328.8202612404135
+        ],
+        "original_merit_slope_by_equation": [
+          81.62071753825765,
+          -59958163.36616025,
+          -1336301.4211414093
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -81.68600190624863,
+          59881416.20064359,
+          833088.269822016
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.009059998826141391,
+          -9.086089132784139,
+          855.1767049710869
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -79.63628237109879,
+          58494408.60598564,
+          186225.2439241045
+        ],
+        "actual_saved_merit_before": 11711382129.186562,
+        "actual_saved_merit_after": 11652701574.972935,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 1.5926304656797925e-12,
+          "Linf": 1.5916157281026244e-12
+        },
+        "original_saved_stationarity": {
+          "L2": 2.7814850427963264e-11,
+          "Linf": 1.8474111129762605e-11
+        },
+        "SVD_reconstruction": {
+          "L2": 9.822313148345494e-16,
+          "Linf": 5.686386284802294e-16
+        },
+        "U_orthogonality": {
+          "L2": 1.3367112843501643e-15,
+          "Linf": 6.661338147750939e-16
+        },
+        "V_orthogonality": {
+          "L2": 6.41412380289211e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777123803982,
+            0.0025739590649732674,
+            1.0767354799535797e-12
+          ],
+          "residual_retained_filter": [
+            0.0033222876196019177,
+            0.9974260409350267,
+            0.9999999999989233
+          ],
+          "singular_residual_coordinates_after": [
+            3.341263256654591,
+            152647.31001570233,
+            366.26030392227784
+          ],
+          "original_linear_residual": [
+            226.2429185998715,
+            -152647.22763346139,
+            328.82026124038794
+          ],
+          "original_merit_directional_slope": -61294383.1665842,
+          "original_linear_merit_decrease": 60714422.784463756,
+          "stored_A_linear_merit_decrease": 60714422.784463756,
+          "scaled_damping_penalty": 30067231.20117167,
+          "damped_quadratic_decrease": 30647191.583292086,
+          "stationary_readback": {
+            "L2": 2.2947076383487844e-11,
+            "Linf": 1.3642420526593924e-11
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666674910238,
+            0.2051254419194822,
+            1.0767354798388033e-10
+          ],
+          "residual_retained_filter": [
+            3.333250897610172e-05,
+            0.7948745580805178,
+            0.9999999998923264
+          ],
+          "singular_residual_coordinates_after": [
+            0.033522891527164915,
+            121648.58156015909,
+            366.26030388323557
+          ],
+          "original_linear_residual": [
+            254.67680407061889,
+            -121648.58973750491,
+            259.41629031689126
+          ],
+          "original_merit_directional_slope": -4805381299.405851,
+          "original_linear_merit_decrease": 4312126358.081564,
+          "stored_A_linear_merit_decrease": 4312126358.081563,
+          "scaled_damping_penalty": 1909435708.37864,
+          "damped_quadratic_decrease": 2402690649.702923,
+          "stationary_readback": {
+            "L2": 1.4972650006906305e-09,
+            "Linf": 8.647873528389027e-10
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.9999996666639104,
+            0.9626949389127931,
+            1.0767354683611466e-08
+          ],
+          "residual_retained_filter": [
+            3.333360895799332e-07,
+            0.037305061087206805,
+            0.9999999892326454
+          ],
+          "singular_residual_coordinates_after": [
+            0.0003352399779173265,
+            5709.212504212647,
+            366.2602999790176
+          ],
+          "original_linear_residual": [
+            361.0233151561133,
+            -5709.533078636596,
+            12.174377689121684
+          ],
+          "original_merit_directional_slope": -22548885196.707405,
+          "original_linear_merit_decrease": 11695017502.173761,
+          "stored_A_linear_merit_decrease": 11695017502.173761,
+          "scaled_damping_penalty": 420574903.82006544,
+          "damped_quadratic_decrease": 11274442598.353697,
+          "stationary_readback": {
+            "L2": 1.3317996520749455e-08,
+            "Linf": 7.689365588703367e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "parameters": [
+        0.06784015530739097,
+        -0.024356956623863925,
+        -0.11337866032903693
+      ],
+      "original_equation": [
+        226.23385860104537,
+        -152656.31372259418,
+        1183.9969662115004
+      ],
+      "singular_values": [
+        1.732044248162658,
+        0.004766802559708451,
+        9.598150008381578e-08
+      ],
+      "residual_coordinates": [
+        878.2568205917586,
+        152658.1051599148,
+        367.07477077045087
+      ],
+      "half_squared_residual_by_singular_direction": [
+        385667.52145797224,
+        11652248535.507801,
+        67371.94366808953
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.3193988640412221,
+          344.3355984731849,
+          -876.0303888308804
+        ],
+        "original_linear_residual": [
+          226.5532574650866,
+          -152311.978124121,
+          307.96657738062004
+        ],
+        "original_merit_slope_by_equation": [
+          72.25883744483635,
+          -52565003.14637974,
+          -1037217.3226848434
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -72.30984526201176,
+          52505719.644191794,
+          653502.7016072518
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.007729489528163103,
+          -7.665130212417978,
+          754.9543800267586
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -70.5587341033679,
+          51338199.12184906,
+          136023.9271511092
+        ],
+        "actual_saved_merit_before": 11652701574.972935,
+        "actual_saved_merit_after": 11601227422.48267,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 8.526512829301902e-12,
+          "Linf": 8.526512829121202e-12
+        },
+        "original_saved_stationarity": {
+          "L2": 8.27520900344759e-12,
+          "Linf": 6.195932655828074e-12
+        },
+        "SVD_reconstruction": {
+          "L2": 4.0742131312608886e-16,
+          "Linf": 2.5751283904188425e-16
+        },
+        "U_orthogonality": {
+          "L2": 6.54866309949953e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "V_orthogonality": {
+          "L2": 5.410084437769141e-16,
+          "Linf": 2.220446049250313e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777157839559,
+            0.0022670892918457176,
+            9.21244835833104e-13
+          ],
+          "residual_retained_filter": [
+            0.003322284216044178,
+            0.9977329107081543,
+            0.9999999999990787
+          ],
+          "singular_residual_coordinates_after": [
+            2.917818772685143,
+            152312.0156043933,
+            367.0747707701127
+          ],
+          "original_linear_residual": [
+            226.5532574650866,
+            -152311.978124121,
+            307.9665773806215
+          ],
+          "original_merit_directional_slope": -53602148.21022711,
+          "original_linear_merit_decrease": 53159150.03595376,
+          "stored_A_linear_merit_decrease": 53159150.03595377,
+          "scaled_damping_penalty": 26358075.9308402,
+          "damped_quadratic_decrease": 26801074.105113566,
+          "stationary_readback": {
+            "L2": 7.913494075561452e-12,
+            "Linf": 4.774847184307873e-12
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666675252844,
+            0.18515287684422305,
+            9.212448357490836e-11
+          ],
+          "residual_retained_filter": [
+            3.3332474715524565e-05,
+            0.8148471231557769,
+            0.9999999999078755
+          ],
+          "singular_residual_coordinates_after": [
+            0.029274473266111788,
+            124393.01781596863,
+            367.07477073663426
+          ],
+          "original_linear_residual": [
+            252.31101188804868,
+            -124393.05399636693,
+            249.16232117187883
+          ],
+          "original_merit_directional_slope": -4315665985.438734,
+          "original_linear_merit_decrease": 3915822762.3469,
+          "stored_A_linear_merit_decrease": 3915822762.3468995,
+          "scaled_damping_penalty": 1757989769.6275322,
+          "damped_quadratic_decrease": 2157832992.719367,
+          "stationary_readback": {
+            "L2": 2.4358594154293922e-09,
+            "Linf": 1.4065903997106943e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.999999666664253,
+            0.9578457609702583,
+            9.212448273470325e-09
+          ],
+          "residual_retained_filter": [
+            3.3333574695154905e-07,
+            0.04215423902974171,
+            0.9999999907875518
+          ],
+          "singular_residual_coordinates_after": [
+            0.00029275439330724647,
+            6435.186254738494,
+            367.07476738879353
+          ],
+          "original_linear_residual": [
+            361.13758052382656,
+            -6435.509267486137,
+            12.88930022319505
+          ],
+          "original_merit_directional_slope": -22322885065.803154,
+          "original_linear_merit_decrease": 11631928391.96392,
+          "stored_A_linear_merit_decrease": 11631928391.963924,
+          "scaled_damping_penalty": 470485859.0623435,
+          "damped_quadratic_decrease": 11161442532.90158,
+          "stationary_readback": {
+            "L2": 9.623382157300094e-09,
+            "Linf": 5.55627721610108e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "parameters": [
+        0.06679694699255773,
+        -0.02117862778025156,
+        -0.11305410249916661
+      ],
+      "original_equation": [
+        226.54552797555843,
+        -152319.6432543334,
+        1062.9209574073786
+      ],
+      "singular_values": [
+        1.7320449930686663,
+        0.004487982370165007,
+        8.925245719203052e-08
+      ],
+      "residual_coordinates": [
+        775.289533690682,
+        152321.10308201177,
+        367.86816038744973
+      ],
+      "half_squared_residual_by_singular_direction": [
+        300536.93052515754,
+        11600859222.060429,
+        67663.49171342322
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.28423683438622105,
+          304.72840998529534,
+          -773.2906096139592
+        ],
+        "original_linear_residual": [
+          226.82976480994466,
+          -152014.91484434812,
+          289.63034779341945
+        ],
+        "original_merit_slope_by_equation": [
+          64.3925837161278,
+          -46416122.698420435,
+          -821946.795125005
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -64.43297900513875,
+          46369692.99649435,
+          522957.6116664406
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.006662519957146729,
+          -6.535831136698448,
+          672.6980145601035
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -62.92174336480457,
+          45376127.82426643,
+          101862.54235290253
+        ],
+        "actual_saved_merit_before": 11601227422.48267,
+        "actual_saved_merit_after": 11555749495.037792,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 3.865352482534945e-12,
+          "Linf": 3.865352482534945e-12
+        },
+        "original_saved_stationarity": {
+          "L2": 2.8769397167654846e-11,
+          "Linf": 1.745092959026806e-11
+        },
+        "SVD_reconstruction": {
+          "L2": 7.765631981609184e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "U_orthogonality": {
+          "L2": 8.470349801958286e-16,
+          "Linf": 6.661338147750939e-16
+        },
+        "V_orthogonality": {
+          "L2": 4.0825922665249635e-16,
+          "Linf": 2.220446049250313e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777186321117,
+            0.0020101497347589157,
+            7.966001114808893e-13
+          ],
+          "residual_retained_filter": [
+            0.003322281367888378,
+            0.9979898502652411,
+            0.9999999999992034
+          ],
+          "singular_residual_coordinates_after": [
+            2.575729972499422,
+            152014.91485705329,
+            367.8681603871567
+          ],
+          "original_linear_residual": [
+            226.82976480994466,
+            -152014.91484434812,
+            289.6303477934358
+          ],
+          "original_merit_directional_slope": -47238005.10096169,
+          "original_linear_merit_decrease": 46892586.17518177,
+          "stored_A_linear_merit_decrease": 46892586.17518177,
+          "scaled_damping_penalty": 23273583.624700926,
+          "damped_quadratic_decrease": 23619002.550480843,
+          "stationary_readback": {
+            "L2": 3.4647684191572173e-12,
+            "Linf": 2.1032064978498966e-12
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666675539542,
+            0.16765151356829827,
+            7.966001114180669e-11
+          ],
+          "residual_retained_filter": [
+            3.3332446045683054e-05,
+            0.8323484864317018,
+            0.99999999992034
+          ],
+          "singular_residual_coordinates_after": [
+            0.025842296551527432,
+            126784.23960191972,
+            367.86816035814536
+          ],
+          "original_linear_residual": [
+            250.23858642122897,
+            -126784.30024707591,
+            239.43669359883756
+          ],
+          "original_merit_directional_slope": -3890404268.3681617,
+          "original_linear_merit_decrease": 3564038053.272135,
+          "stored_A_linear_merit_decrease": 3564038053.2721357,
+          "scaled_damping_penalty": 1618835919.0880547,
+          "damped_quadratic_decrease": 1945202134.184081,
+          "stationary_readback": {
+            "L2": 4.518295834922429e-10,
+            "Linf": 2.609112925711088e-10
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.9999996666645398,
+            0.9527007532976097,
+            7.966001051358066e-09
+          ],
+          "residual_retained_filter": [
+            3.3333546023421143e-07,
+            0.047299246702390295,
+            0.9999999920339989
+          ],
+          "singular_residual_coordinates_after": [
+            0.00025843149352755063,
+            7204.673432656297,
+            367.8681574570116
+          ],
+          "original_linear_residual": [
+            361.18356005483025,
+            -7204.99879054568,
+            13.605759069955639
+          ],
+          "original_merit_directional_slope": -22104895713.17475,
+          "original_linear_merit_decrease": 11575206099.35642,
+          "stored_A_linear_merit_decrease": 11575206099.35642,
+          "scaled_damping_penalty": 522758242.7690425,
+          "damped_quadratic_decrease": 11052447856.587378,
+          "stationary_readback": {
+            "L2": 4.004574416185331e-09,
+            "Linf": 2.3121788927937814e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 6,
+      "parameters": [
+        0.06579439924864369,
+        -0.018238070475947103,
+        -0.11275229053842979
+      ],
+      "original_equation": [
+        226.8231022899875,
+        -152021.4506754848,
+        962.328362353523
+      ],
+      "singular_values": [
+        1.7320456233289974,
+        0.0042377714495772,
+        8.34191151970947e-08
+      ],
+      "residual_coordinates": [
+        690.760274841595,
+        152022.64943203496,
+        368.6461486257133
+      ],
+      "half_squared_residual_by_singular_direction": [
+        238574.87864961792,
+        11555442970.1677,
+        67949.99144828574
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.25443435092852407,
+          271.2931955671154,
+          -688.951105604059
+        ],
+        "original_linear_residual": [
+          227.07753664091604,
+          -151750.1574799177,
+          273.377256749464
+        ],
+        "original_merit_slope_by_equation": [
+          57.711588806747194,
+          -41242385.14850089,
+          -662997.1891976031
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -57.7439572262134,
+          41205585.14952038,
+          425670.3762410756
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.005794330996015118,
+          -5.624774805611878,
+          604.2465163899857
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -56.4282116042923,
+          40352008.86793518,
+          77926.19490524457
+        ],
+        "actual_saved_merit_before": 11555749495.037792,
+        "actual_saved_merit_after": 11515319616.403164,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 2.8421709435825017e-12,
+          "Linf": 2.8421709430404007e-12
+        },
+        "original_saved_stationarity": {
+          "L2": 1.055165292921653e-11,
+          "Linf": 9.521272659185342e-12
+        },
+        "SVD_reconstruction": {
+          "L2": 2.458618339890063e-16,
+          "Linf": 1.1102230246251565e-16
+        },
+        "U_orthogonality": {
+          "L2": 5.160511545640422e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "V_orthogonality": {
+          "L2": 1.8292449370695203e-16,
+          "Linf": 1.1102230246251565e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777210419157,
+            0.0017926513159368593,
+            6.958748780261312e-13
+          ],
+          "residual_retained_filter": [
+            0.0033222789580843637,
+            0.9982073486840631,
+            0.9999999999993042
+          ],
+          "singular_residual_coordinates_after": [
+            2.294898326186803,
+            151750.1258294784,
+            368.6461486254568
+          ],
+          "original_linear_residual": [
+            227.07753664091604,
+            -151750.1574799177,
+            273.3772567494709
+          ],
+          "original_merit_directional_slope": -41905324.6261097,
+          "original_linear_merit_decrease": 41631197.78180424,
+          "stored_A_linear_merit_decrease": 41631197.78180425,
+          "scaled_damping_penalty": 20678535.468749408,
+          "damped_quadratic_decrease": 20952662.31305484,
+          "stationary_readback": {
+            "L2": 1.0184335716967847e-11,
+            "Linf": 6.252776074688882e-12
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666675782116,
+            0.15224570815565885,
+            6.958748779781914e-11
+          ],
+          "residual_retained_filter": [
+            3.333242178833772e-05,
+            0.8477542918443411,
+            0.9999999999304126
+          ],
+          "singular_residual_coordinates_after": [
+            0.023024712835648133,
+            128877.85351355532,
+            368.64614860006014
+          ],
+          "original_linear_residual": [
+            248.41519443296963,
+            -128877.93566944671,
+            230.24708023261644
+          ],
+          "original_merit_directional_slope": -3519010329.943772,
+          "original_linear_merit_decrease": 3250930981.915379,
+          "stored_A_linear_merit_decrease": 3250930981.915379,
+          "scaled_damping_penalty": 1491425816.9434938,
+          "damped_quadratic_decrease": 1759505164.9718852,
+          "stationary_readback": {
+            "L2": 1.1613013386217656e-09,
+            "Linf": 6.708091859763954e-10
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.9999996666647823,
+            0.9472537864821139,
+            6.9587487318419725e-09
+          ],
+          "residual_retained_filter": [
+            3.3333521764474793e-07,
+            0.05274621351788608,
+            0.9999999930412513
+          ],
+          "singular_residual_coordinates_after": [
+            0.00023025472655466896,
+            8018.619126496859,
+            368.64614606039737
+          ],
+          "original_linear_residual": [
+            361.16537577971394,
+            -8018.946753658907,
+            14.325157937560448
+          ],
+          "original_merit_directional_slope": -21892351365.538136,
+          "original_linear_merit_decrease": 11523532418.699375,
+          "stored_A_linear_merit_decrease": 11523532418.699377,
+          "scaled_damping_penalty": 577356735.9303087,
+          "damped_quadratic_decrease": 10946175682.769068,
+          "stationary_readback": {
+            "L2": 1.1422398411152974e-09,
+            "Linf": 6.59561294469313e-10
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    },
+    {
+      "iteration": 7,
+      "parameters": [
+        0.06482820893786363,
+        -0.015505946991723231,
+        -0.1124707730699443
+      ],
+      "original_equation": [
+        227.07174230992,
+        -151755.7822547233,
+        877.6237731394497
+      ],
+      "singular_values": [
+        1.7320461617233522,
+        0.004011690341746667,
+        7.835713953696574e-08
+      ],
+      "residual_coordinates": [
+        620.4015533488507,
+        151756.77206753712,
+        369.4135359242774
+      ],
+      "half_squared_residual_by_singular_direction": [
+        192449.04369883344,
+        11515058934.179209,
+        68233.1802620387
+      ],
+      "original_saved_direction_readback": {
+        "original_action": [
+          0.22893171371984442,
+          242.79122926794747,
+          -618.7528191870786
+        ],
+        "original_linear_residual": [
+          227.30067402363986,
+          -151512.99102545535,
+          258.8709539523711
+        ],
+        "original_merit_slope_by_equation": [
+          51.98392310436089,
+          -36844972.92214324,
+          -543032.1838156355
+        ],
+        "original_linear_merit_decrease_by_equation": [
+          -52.010127969134246,
+          36815499.13163852,
+          351604.65818965674
+        ],
+        "actual_saved_after_minus_linear_prediction": [
+          -0.0050788754157898575,
+          -4.880144804185818,
+          546.591385946528
+        ],
+        "actual_saved_half_squared_decrease_by_equation": [
+          -50.85570906133216,
+          36076081.88781166,
+          60726.95309205726
+        ],
+        "actual_saved_merit_before": 11515319616.403164,
+        "actual_saved_merit_after": 11479182858.417969,
+        "original_acceptance_not_redecided": true
+      },
+      "consistency_readbacks": {
+        "A_minus_J_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_top_minus_A": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_bottom_minus_eta_I": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "original_augmented_rhs_minus_declared": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_parameter_direction_minus_z_over_D": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "saved_action_minus_J_times_saved_direction": {
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "A_times_z_minus_saved_action": {
+          "L2": 2.160236893548684e-12,
+          "Linf": 2.1600499167107046e-12
+        },
+        "original_saved_stationarity": {
+          "L2": 6.064156523512903e-12,
+          "Linf": 5.9685589803848416e-12
+        },
+        "SVD_reconstruction": {
+          "L2": 8.469847532003285e-16,
+          "Linf": 5.551115123125783e-16
+        },
+        "U_orthogonality": {
+          "L2": 7.288531613225479e-16,
+          "Linf": 4.440892098500626e-16
+        },
+        "V_orthogonality": {
+          "L2": 3.7092099095294534e-16,
+          "Linf": 2.220446049250313e-16
+        },
+        "all_numerical_checks_are_readouts_not_acceptance_gates": true
+      },
+      "local_model_predictions": [
+        {
+          "damping_cli_text": "0.1",
+          "residual_removed_filter": [
+            0.9966777231004675,
+            0.0016067800427328133,
+            6.13984131641175e-13
+          ],
+          "residual_retained_filter": [
+            0.0033222768995325135,
+            0.9983932199572672,
+            0.999999999999386
+          ],
+          "singular_residual_coordinates_after": [
+            2.061145749124975,
+            151512.93231482944,
+            369.4135359240506
+          ],
+          "original_linear_residual": [
+            227.30067402363986,
+            -151512.99102545535,
+            258.87095395235735
+          ],
+          "original_merit_directional_slope": -37387953.12203598,
+          "original_linear_merit_decrease": 37167051.779700406,
+          "stored_A_linear_merit_decrease": 37167051.779700406,
+          "scaled_damping_penalty": 18473075.218682423,
+          "damped_quadratic_decrease": 18693976.561017983,
+          "stationary_readback": {
+            "L2": 2.9012537963897557e-11,
+            "Linf": 1.693933882052079e-11
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.01",
+          "residual_removed_filter": [
+            0.9999666675989332,
+            0.13862651484592564,
+            6.139841316038543e-11
+          ],
+          "residual_retained_filter": [
+            3.3332401066734394e-05,
+            0.8613734851540743,
+            0.9999999999386017
+          ],
+          "singular_residual_coordinates_after": [
+            0.020679473398648906,
+            130719.25965154692,
+            369.41353590159605
+          ],
+          "original_linear_residual": [
+            246.80425697957577,
+            -130719.3608366276,
+            221.58594666652562
+          ],
+          "original_merit_directional_slope": -3192969861.839236,
+          "original_linear_merit_decrease": 2971488961.2984285,
+          "stored_A_linear_merit_decrease": 2971488961.298428,
+          "scaled_damping_penalty": 1375004030.3788114,
+          "damped_quadratic_decrease": 1596484930.9196167,
+          "stationary_readback": {
+            "L2": 3.3599316917627888e-09,
+            "Linf": 1.9400658857193775e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        },
+        {
+          "damping_cli_text": "0.001",
+          "residual_removed_filter": [
+            0.9999996666649895,
+            0.9414987758494071,
+            6.1398412787178685e-09
+          ],
+          "residual_retained_filter": [
+            3.3333501041503804e-07,
+            0.05850122415059285,
+            0.9999999938601587
+          ],
+          "singular_residual_coordinates_after": [
+            0.00020680155824704492,
+            8877.956939093418,
+            369.41353365613696
+          ],
+          "original_linear_residual": [
+            361.08622443105685,
+            -8878.286774197011,
+            15.048750561401107
+          ],
+          "original_merit_directional_slope": -21683212678.686943,
+          "original_linear_merit_decrease": 11475842323.51754,
+          "stored_A_linear_merit_decrease": 11475842323.517538,
+          "scaled_damping_penalty": 634235984.1740752,
+          "damped_quadratic_decrease": 10841606339.343462,
+          "stationary_readback": {
+            "L2": 1.622980405044003e-08,
+            "Linf": 9.370467068947619e-09
+          },
+          "actual_nonlinear_trial_performed": false,
+          "nonlinear_acceptance_claimed": false
+        }
+      ]
+    }
+  ],
+  "summary_is_saved_array_arithmetic_not_a_candidate_gate": true
+}
