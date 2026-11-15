@@ -1,0 +1,37 @@
+[
+  {
+    "old": "topics/visible-flex-larger-amplitude/notes/public-actions-43665944742-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+    "new": "topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+    "occurrences": 2
+  },
+  {
+    "old": "actual82",
+    "new": "actual85",
+    "occurrences": 10
+  },
+  {
+    "old": "request.get('request_number')!=85",
+    "new": "request.get('request_number')!=87",
+    "occurrences": 1
+  },
+  {
+    "old": "own-schema damped-resume R259 request85",
+    "new": "own-schema damped-resume R259 request87",
+    "occurrences": 1
+  },
+  {
+    "old": "expected={'parameters': [0.07254576672993071, -0.0403277008444164, -0.11497411877394303], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8}",
+    "new": "expected={'parameters': [0.06389479553738595, -0.012958081345244933, -0.11220747933971734], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8}",
+    "occurrences": 1
+  },
+  {
+    "old": "54263, '1e56d89cf97e6e26904c7092e974a516905c52dd0dd47d10bd40dd4e3c3384fd'",
+    "new": "54251, '72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a'",
+    "occurrences": 1
+  },
+  {
+    "old": "request85-input-and-source-identity.json",
+    "new": "request87-input-and-source-identity.json",
+    "occurrences": 1
+  }
+]

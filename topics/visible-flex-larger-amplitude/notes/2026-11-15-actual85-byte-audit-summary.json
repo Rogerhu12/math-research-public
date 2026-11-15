@@ -1,0 +1,155 @@
+{
+  "schema": "actual85-byte-audit-summary-v1",
+  "run": {
+    "run_id": 43667636063,
+    "source_commit": "c9daab1a9f7b1330c6099450bd018bfab9026b0d",
+    "job_id": 132670464205,
+    "artifact_id": 14143056682,
+    "artifact_name": "visible-mainline-smallcoreresonance-43667636063-1",
+    "artifact_bytes": 268505,
+    "artifact_zip_sha256": "708ce51fb634552d376013d05b57e4f42cdc07d699e25753a2af0a2ea36e5775"
+  },
+  "all_checks_passed": true,
+  "check_count": 218,
+  "original_file_count": 11,
+  "original_member_bytes": 455455,
+  "sources": 70,
+  "consumed_sources": 11,
+  "original_four_input_bindings": [
+    {
+      "name": "accepted",
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+      "bytes": 2614352,
+      "sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+      "binding_consistent": true,
+      "payload_in_actual85_artifact": false
+    },
+    {
+      "name": "prepared",
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz",
+      "bytes": 4220043,
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "binding_consistent": true,
+      "payload_in_actual85_artifact": false
+    },
+    {
+      "name": "tail_anchor",
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz",
+      "bytes": 6815,
+      "sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+      "binding_consistent": true,
+      "payload_in_actual85_artifact": false
+    },
+    {
+      "name": "tail_config",
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "binding_consistent": true,
+      "payload_in_actual85_artifact": false
+    }
+  ],
+  "parent_status": {
+    "file": "parent-damped-status.json",
+    "bytes": 54263,
+    "sha256": "1e56d89cf97e6e26904c7092e974a516905c52dd0dd47d10bd40dd4e3c3384fd",
+    "encoding": "json",
+    "decoded_bytes": 54263,
+    "decoded_sha256": "1e56d89cf97e6e26904c7092e974a516905c52dd0dd47d10bd40dd4e3c3384fd",
+    "schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
+    "producer_name": "geometry_20261115_small_core_damped_resume.py",
+    "producer_sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+    "parameters_field": "final.parameters",
+    "literal_parameters": [
+      0.07254576672993071,
+      -0.0403277008444164,
+      -0.11497411877394303
+    ],
+    "parent_damping_cli_text": "0.1",
+    "parent_damping_binary64": 0.1,
+    "parent_is_not_a_nonzero_or_native_solution": true,
+    "only_literal_parameters_reused": true,
+    "parent_J_or_merit_or_state_reused": false
+  },
+  "final_status": {
+    "file": "small-core-damped-resume/damped-resume-status.json",
+    "bytes": 54251,
+    "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a",
+    "encoding": "plain"
+  },
+  "circle": {
+    "file": "small-core-damped-resume/circle-reference.json.gz",
+    "bytes": 139790,
+    "sha256": "f9d38046788b71765d44015187d3ca7513b4b040883bd1aee177a8fb387207b0",
+    "encoding": "gzip",
+    "decoded_bytes": 3570227,
+    "decoded_sha256": "49ef7e34cd167c2c2bc7babf115635db111371ef56399a95181f5e3cb7078c78"
+  },
+  "scalar": {
+    "file": "small-core-damped-resume/complete-scalar-domain.json.gz",
+    "bytes": 75230,
+    "sha256": "b2daeccc275dff4c88aaf7747bcd7ae513d02f5ddbcf729f304ef370ac915896",
+    "encoding": "gzip",
+    "decoded_bytes": 405746,
+    "decoded_sha256": "66cd31ac4aa6ca518951458b731760e9fbad59534ebb206184a9a4e520d004f1"
+  },
+  "original_step_count": 8,
+  "original_trial_count": 8,
+  "original_accepted_alphas": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "publisher_step_failed": true,
+  "scientific_diagnostic_completed": true,
+  "original_scalar_leaf_count": 466,
+  "original_scalar_splits": 23,
+  "original_scalar_unresolved": 0,
+  "original_final_parameters": [
+    0.06389479553738595,
+    -0.012958081345244933,
+    -0.11220747933971734
+  ],
+  "original_final_unit_residual": [
+    227.29559514822407,
+    -151517.87117025955,
+    805.4623398988991
+  ],
+  "original_final_FD": [
+    {
+      "step": 2e-05,
+      "valid": true,
+      "maximum_relative_error": 8.84379391402425e-09
+    },
+    {
+      "step": 1e-05,
+      "valid": true,
+      "maximum_relative_error": 2.1750304800170322e-09
+    },
+    {
+      "step": 5e-06,
+      "valid": true,
+      "maximum_relative_error": 6.167107431449232e-10
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "2026-11-15-actual85-original-readout.json",
+      "bytes": 76996,
+      "sha256": "8451f23eed023ef1fc626363eaae56e10298cb762ece56e97d279ec030a20f0f",
+      "encoding": "plain"
+    },
+    {
+      "file": "2026-11-15-actual85-original-byte-audit.json",
+      "bytes": 227355,
+      "sha256": "81da186893b45be85b34c64f778def46973044a5051a6277cf418a75018dfe22",
+      "encoding": "plain"
+    }
+  ],
+  "scientific_recomputation": false
+}

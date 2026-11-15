@@ -1,0 +1,84 @@
+--- actual85/.github/workflows/visible-larger-public-small-core-resonance.yml
++++ request87/.github/workflows/visible-larger-public-small-core-resonance.yml
+@@ -13,7 +13,7 @@
+     shell: bash
+ jobs:
+   smallcoreresonance:
+-    name: Continue the actual82 low-three candidate with the same eta0.1 and fresh eight-step budget
++    name: Continue the actual85 low-three candidate with the same eta0.1 and fresh eight-step budget
+     runs-on: ubuntu-latest
+     timeout-minutes: 60
+     concurrency:
+@@ -40,7 +40,7 @@
+           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
+           /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
+           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
+-          /topics/visible-flex-larger-amplitude/notes/public-actions-43665944742-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json
++          /topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json
+     - name: Establish one independent diagnostic output
+       run: |
+         git config gc.auto 0
+@@ -54,22 +54,22 @@
+         python-version: 3.12.14
+     - name: Install the existing original operator diagnostic runtime
+       run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+-    - name: Bind actual82 own-schema status, four original inputs, and the unchanged70-source chain
++    - name: Bind actual85 own-schema status, four original inputs, and the unchanged70-source chain
+       run: |
+         python - <<'PYPINS'
+         import hashlib,json,os,re,subprocess
+         from pathlib import Path,PurePosixPath
+         comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path.cwd()
+         raw=(comp/'public-small-core-resonance-request.json').read_bytes();request=json.loads(raw)
+-        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=85 or request.get('lanes')!=['smallcoreresonance']):
+-            raise ValueError('Use the one explicit own-schema damped-resume R259 request85')
++        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=87 or request.get('lanes')!=['smallcoreresonance']):
++            raise ValueError('Use the one explicit own-schema damped-resume R259 request87')
+         if request.get('scientific_entry')!='geometry_20261115_small_core_damped_resume.py':raise ValueError('Use the independently identified damped candidate entry')
+         source_chain={'resume_driver': {'file': 'geometry_20261115_small_core_damped_resume.py', 'bytes': 15452, 'sha256': 'ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a'}, 'damped_direction_engine': {'file': 'geometry_20261115_small_core_damped_search.py', 'bytes': 13733, 'sha256': '1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728'}, 'original_model_and_checks': {'file': 'geometry_20261114_small_core_resonance.py', 'sha256': '3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5'}}
+         if request.get('source_chain')!=source_chain or request.get('scientific_source_unchanged') is not True or request.get('imported_original_model_source_unchanged') is not True or request.get('imported_frozen_direction_engine_source_unchanged') is not True:raise ValueError('Retain the same frozen resume producer and both unchanged imported scientific engines')
+-        expected={'parameters': [0.07254576672993071, -0.0403277008444164, -0.11497411877394303], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8}
+-        if request.get('diagnostic')!=expected:raise ValueError('Retain the actual82 final parameters, same eta=0.1, and original eight-step/twenty-backtrack budget')
++        expected={'parameters': [0.06389479553738595, -0.012958081345244933, -0.11220747933971734], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8}
++        if request.get('diagnostic')!=expected:raise ValueError('Retain the actual85 final parameters, same eta=0.1, and original eight-step/twenty-backtrack budget')
+         required={'geometry_20261115_small_core_damped_resume.py','geometry_20261115_small_core_damped_search.py','geometry_20261114_small_core_resonance.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_constrained_collocation.py','geometry_20261114_full_prefix_operator.py','geometry_20261114_direct_operator_cell.py','exact_20261114_public_resume.py','source-dependencies.json','root_20261114_publish_actions.py'}
+-        if len(request['source_sha256'])!=70 or not required.issubset(request['source_sha256']):raise ValueError('Retain all70 actual82 sources including the same frozen resume entry')
++        if len(request['source_sha256'])!=70 or not required.issubset(request['source_sha256']):raise ValueError('Retain all70 actual85 sources including the same frozen resume entry')
+         if any(request['source_sha256'].get(item['file'])!=item['sha256'] for item in source_chain.values()):raise ValueError('Bind all three scientific source identities')
+         if request.get('output_directory')!='small-core-damped-resume' or request.get('output_status')!='damped-resume-status.json' or request.get('output_status_schema')!='R259-original-three-equation-column-scaled-LM-resume-v1':raise ValueError('Keep the new result identity explicit')
+         verified=[]
+@@ -87,18 +87,18 @@
+             if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise ValueError('Original input changed: '+key)
+             inputs.append(dict(name=key,**item))
+         prior=request['prior_candidate'];item=prior['original_status'];rel=PurePosixPath(item['file'])
+-        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43665944742-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json', 54263, '1e56d89cf97e6e26904c7092e974a516905c52dd0dd47d10bd40dd4e3c3384fd')
+-        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual82 complete own-schema candidate status bytes')
++        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json', 54251, '72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a')
++        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual85 complete own-schema candidate status bytes')
+         prior_raw=(repo/str(rel)).read_bytes()
+-        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual82 status changed')
++        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual85 status changed')
+         prior_status=json.loads(prior_raw)
+-        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual82 final parameter values')
++        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual85 final parameter values')
+         if prior_status['input_sha256']!={key:item['sha256'] for key,item in request['inputs'].items()}:raise ValueError('Retain the same four original mathematical inputs')
+-        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual82 consumed resume/direction/model/check source bytes')
+-        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual82-damped-resume-status.json').write_bytes(prior_raw)
++        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual85 consumed resume/direction/model/check source bytes')
++        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual85-damped-resume-status.json').write_bytes(prior_raw)
+         head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+         if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
+-        (out/'request85-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
++        (out/'request87-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
+         print(json.dumps(dict(source_commit=head,source_count=len(verified),input_count=len(inputs))),flush=True)
+         PYPINS
+     - name: Restore the original78 public numerical source files once
+@@ -110,7 +110,7 @@
+         source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'small-core-resonance-original-source',Path(os.environ['VISIBLE_OUT']))
+         with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+         PYSOURCE
+-    - name: Continue the actual82 candidate with unchanged eta0.1 original merit and final diagnostics
++    - name: Continue the actual85 candidate with unchanged eta0.1 original merit and final diagnostics
+       timeout-minutes: 45
+       run: |
+         python -u - <<'PYDIAGNOSTIC' 2>&1 | tee "$VISIBLE_OUT/small-core-resonance.log"
