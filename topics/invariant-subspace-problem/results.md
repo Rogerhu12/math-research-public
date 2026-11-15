@@ -155,3 +155,5 @@
 - [R150-appendix-infinity-nineteen-fourth-left-jets-order49-and-cost8648](results/R150-appendix-infinity-nineteen-fourth-left-jets-order49-and-cost8648.md)：完整3383显式+2805次数来源的十九条四阶左延拓；∞公共49/44、指定78/77/72、K89及同模31次数下条件费8648，目标225。完整第四连接下界及原成员性仍开。
 
 - [R150-appendix-zero-nineteen-fourth-left-jets-factor95-and-cost8642](results/R150-appendix-zero-nineteen-fourth-left-jets-factor95-and-cost8642.md)：原零点十九条四阶左延拓与完整6188来源，公共s49/s44、K95、q8432…8597；结合∞第四及原模31次数，条件费8642/目标225。
+
+- [R150-appendix-selected-natural-first-connection-exact-rank-three](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：原I,J自然一阶Q秩恰3，33个原左头及143682全产品，完整第一校正族与D31单位分裂；第二Q页下界9，精确值及更高长度仍开。
