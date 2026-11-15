@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：实际全τ Darboux误差与完整scalar接收](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)：43746008734/1 child0/23门成功，m3>.9999986308459、24系数/14运用/六receiver及五inhom已付。完整mean与H−4/3→L2、rawH−1、extraH−5/3窗口分开；旧math零重算。真实physical J/L/B/ng/q/freeR2/R3、incoming/全R0仍待。
+
 - [R133：同源物理帽仿射负荷的完整有符号伴随接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)：同What的准确值方程、Hessian相消、全部97伴随/外端/均值/选定读出；用新knownforward-angle moments计算signed affine，旧formal Grams直接消费。新向量及全部误差尚待公共Actions actual，不授完整core。
 
 - **signed 密度角图与根领圈准备（实际完成并冻结）**：[actual准备](results/R133-supplement-actual-signed-density-angle-and-root-collar-preparations.md) 来自43744151905/1原子保存的12098B科学结论：同selected真j两门、KH/Ej、两sign共同root四source/error列及首原cell完整mean/speed已成，后继只能复用。该child首reference_step的poly/scalar API失败，0完成输运子格；仅首子格Taylor F/a未保存可重做。完整signed H3、C与strong-return并未完成。
