@@ -44,4 +44,4 @@ R279ce3cfd26 proved/published/indexed:actualfiniteC2 fulljets -> Delta/A_K/B_K p
 Storage3mjs482cdf9b/aec52b5a/8e0ec7aa published/notdeployed:2sealediterations/batch,finalid/sameiddigestMismatchfalse/fullmemberSHA/fsynccatalog beforesealedrawrelease. Retainactivepartial/logs,no totalbound;19calls428267349504fixedB/32GiBsinglecallonly. SDK43668049747/21original120checks complete;package3876fc4e/lock9451fd2e,install+constructoronly,noartifactAPI/science.
 /tmp4.9GB/workspace63GB;no repeatbigZIP. Completedduplicates hardlinked afterSHA+fullbytes,allpathsretained(7e612c58),neverwriteraw. ZIPrelease receipts kept,noGitgc. Rootsoletransport.
 
-规则同步记录：2026-11-15 03:34:50 UTC Actions publisher真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0cbe153f14a8a750cb5acb002f914bc2c8936569。
+规则同步记录：2026-11-15 03:36:55 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9fd5f5ae7fcee692c93c19d7a0d78ec70d3b9e92。
