@@ -11,7 +11,7 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-local-projection-length-gap-and-two30-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-koszul-torsion-and-native1205-continuation-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：当前已证与未付范围
 
@@ -24,17 +24,18 @@
 
 - [真实局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)已证明len(W/(L∩W))=δA−δP，差≤e即t^eW⊂L。170+54g局部双向生成不除g；原E8²首项31单位先剥，2点δA≤30。充分δP阈值−6:12、2:29、F±:6、E8:4；数域长度不乘域次，E8不可约性已核。尚无新投影结果。
 
+- [原Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)已严格注入同B余核；O1834×1632常rank1603，29正指数。Fp31 O最大≤21/总长≤243，Q总长≤Fp总长但Q最大不可用21。原D≥δfull+σ、cofactor≥δsub+σ−amax、原换列≥δfull+σ−amax；δfull+σQ≥243才付同D leading单位。新O数值尚未算。
+
 ## 临时同run：滚动请求与恢复
 
 - run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
 - 当前request路径同历史；累计step48完整第十一实55.241368715秒、13头/965328原产品，raw c7d982b2…/outer c7de3966…，完整精确SHA与checkpoint保小回执及H归档。
 - 第十一独立compact源码104882a9…仅压重复元数据，数学/物理/祖先身份全保；不重已闭零点计算。
 - 4318常单位前缀实1.627509135秒，113204/155448产品真，但HF/T primitive模31仅4，未假完整12。18RHS桥接实1.072890655秒，真Q旧14主元[0,1,2,13,14,18,20,25,26,28,29,30,31,32]加四目标，全跨度已证；没有新有理解。
-- 18准备输入9305373B/c2d645d0…，Mstar5245792B/cbd7329c…，binding25c4d030…，raw2628B/a692c7c9…。系统FLINT3.4.0/g++15.2.0实际可用；wrapper15b4fcae…/native d592f208…已根完整审，接口单独存档。
-- 累计step49首600实际到653完整digits/18938bits、16重建未成，非数学失败；binding2cd043a0…，p536870923。slot0=185877697B/ff745877…，inverse74580576B/29a660c2…，input9919512B/02a794f5…；raw5420B/ec62ce00…，全整digit除法真、77724单位产品尚未完成。累计step50同源码/out续1200秒/4GiB --through final，复用inverse/653位及所有完整阶段；先真单位解再全4354回填、2缺二阶/4缺三阶/joint24/21与29×81完整第四秩，未预填结果。
+- 累计step49/50真Dixon从653续至1205完整digits/34946bits，18次重建未成、单位产品仍0；step50实1186.227843521秒，raw5290B/0514d6af8471fde6e6e04f57a56ac5b9085db5351a9d74e0b27d1a534021d539。binding2cd043a0…，active slot1=341404739B/eebf82c7…，逆/input同旧；不当数学失败。累计step53同源码/out续1800秒/4GiB/final，先真单位解再全4354回填2第二/4第三/完整第四；不能预填。预算末仅存完整digit、不自动尝试该最后精度。
 - 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
 
-- 累计step51负六原投影入口73c11b1d…已审排60秒/1GiB：真224×155、170原行+54个g倍行，保918原one-normal及5100高行；只除η_i的局部单位，不除g。0…4阶完整unit-Schur实算；仅δP实达原全长上界12才闭九目标局部像，尚未报结果。
+- step51负六已实7.521673933秒，raw8191B/0039c5bd…：投影正谱1⁷,2,3/δP=12，全部原6188投影及Schur真。δA=12、W局部包含及九目标无需s+6，正式收口稿正编；旧入口73c11b1d…/所有g倍保原值。
 
 - 累计step52原s=2投影867cc7f7…已审排120秒/1GiB/order17，真224来源如−6且不除g。先剥已付E8²再模31，原全局部长≤32−2=30；仅实际投影长下界≥29才付h0的一次s−2。未报实际谱。
 

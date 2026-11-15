@@ -386,6 +386,51 @@
       ],
       "timeoutSeconds": 140,
       "receiptPath": "{work}/two-original-projected-local-smith-receipt.json"
+    },
+    {
+      "id": "third-missing-four-constant-unit-next1800-and-full",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third-missing-four-constant-unit-pipeline-789f.py",
+      "scriptSHA256": "15b4fcae4f8e251971d1eb9d79ba9802cea75c7f16e0484cce63ebf073a3c538",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+          "sha256": "d592f2086e81be2206adb67c7553de15ce36d49a9d1e62721a47a469d8afece2"
+        }
+      ],
+      "argv": [
+        "--constant-preparation-out",
+        "{work}/third-missing-four-constant-unit-preparation",
+        "--unit-prepared-out",
+        "{work}/third-missing-four-eighteen-unit-preparation",
+        "--second-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--first-out",
+        "{work}/selected-natural-first-left-envelope",
+        "--prepared-out",
+        "{work}/third21-forcing-support-preparation-v2",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--consumer-out",
+        "{work}/third21-normal-four-original-consumer",
+        "--pairing-out",
+        "{work}/same-source-koszul29-second-pairing",
+        "--fourth-out",
+        "{work}/same-source-koszul29-fourth-on17-pairing",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+        "--out",
+        "{work}/third-missing-four-constant-unit-pipeline",
+        "--seconds",
+        "1800",
+        "--memory-mib",
+        "4096",
+        "--compile-seconds",
+        "30",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 1880,
+      "receiptPath": "{work}/third-missing-four-constant-unit-pipeline/missing-third-constant-unit-pipeline-receipt.json"
     }
   ],
   "completedRequestHistory": [
