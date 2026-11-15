@@ -1,0 +1,146 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "40c3bb3c22f46c4a2a8b1051f4a90d9cb5864281",
+  "job": {
+    "result": "R815-original-normal-derivation-operators",
+    "p": 41,
+    "requested_stage": "original_normal_derivation_operators",
+    "requested_targets": [
+      "g",
+      "Gamma"
+    ],
+    "auxiliary_prime_start": 1000000007,
+    "matrix_row_block_size": 16,
+    "reconstruct_every_primes": 8,
+    "exact_identity_mode": "deterministic_integer_points_with_weighted_degree_bound",
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R815_projective_reconstruction.py",
+    "core_sha256": "126469e2e7c8377c484a9e0844db463fe93e6c90b2971233a11de556a49d9ddb",
+    "wrapper_sha256": "3a0fa603b4b76a801a26b106a35eaa3e1ddc2a69a77b97078d08545e5bc27a57",
+    "framework": "R811_original_regular_multipliers.py",
+    "framework_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "proof": "results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md",
+    "R813_proof_sha256": "3cf42cc8b6018e6e171feccdf77340f386d38051812a0bf5037851cad0ab0f25",
+    "nested_proof": "results/R817-original-normal-derivation-without-separate-h-multiplier.md",
+    "R817_proof_sha256": "2fc18cdc4bd264b2d2dbc9f80b885574764d8844d9ee3725960b5b76b684c80b",
+    "method": "notes/R815-original-normal-derivation-operator-method.md",
+    "R815_method_sha256": "5d312007a6c91196e7bf88d4c670389fa58049d7b7b3a7d89e9475c59ea65ba1",
+    "workflow": ".github/workflows/serre-R815_projective.yml",
+    "retained_artifacts": {
+      "R806": {
+        "result": "R806-original-primitive-multiplication",
+        "run_id": "43707290840",
+        "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+        "artifact_id": 14161637987,
+        "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+        "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+        "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+        "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+        "certificate_name": "p41-original-primitive-multiplication-certificate.json",
+        "files": {
+          "p41-original-primitive-multiplication-certificate.json": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99",
+          "R806-stage-manifest.json.gz": "0b32cfba77138d2fadea50bc922376c9199babb5aa6b7206781d9f030874c652",
+          "R806-original-input-and-coordinate-chart.json.gz": "839b29f9042937529b23699dc6bcad4d669f25108d472887718c77e617120c5b",
+          "R806-accepted-primitive-candidate.json.gz": "2aac2d669a6f6889d4c84e357cb82aae1e27bcd4fecf43a846ffe5ac7822ce27",
+          "R806-candidate-0000000000-definition.json.gz": "715faab78be54e3cf91958d0895c8c8d0157d752414feab775cc499859616170",
+          "R806-exact-polynomial-multiplier-in-original-normal-basis.json.gz": "63b38d14dbeb4b504619db65f56c151146885173b8cef253dfba3bebc76cd2dd",
+          "R806-candidate-0000000000-prime-1000000007-z-0-cyclic.json.gz": "6d6722d93321e757535fe96f9d3ecc181ac85dc65d67d4bda41a6477ab84f5e8",
+          "R806-candidate-0000000000-group-000-exact-coordinates.json.gz": "3b2b11873b4c505275845f9d4639215b27273856ff9a21cc771cabf9b504bdfa",
+          "R806-candidate-0000000000-group-001-exact-coordinates.json.gz": "316d3126cc815494ce8241ea4f8059c68d05ea53237b6eb28b9e36a170a315bc",
+          "R806-candidate-0000000000-group-002-exact-coordinates.json.gz": "5f0fc29272e9d9d24827376618887ddd46f4e2f538c98f887408e81b8f4a2025",
+          "R806-candidate-0000000000-group-003-exact-coordinates.json.gz": "791396253967529e3f5e2d4e997d20013bb0bcadcfa904913ad71c5001122a88",
+          "R806-candidate-0000000000-group-004-exact-coordinates.json.gz": "88dcab3d25a4ebb92e8934c4f3b5a57cc3977387bebcb6177310e1e69a7e21ac",
+          "R806-candidate-0000000000-group-005-exact-coordinates.json.gz": "7b92a885cbc0081989478443f51c32415d2b965823db7405439452605e4912d7",
+          "R806-candidate-0000000000-group-006-exact-coordinates.json.gz": "368d7f9ba889427866ecf1c7c51293adf732b8421c03362fb9185821527e8c92",
+          "R806-candidate-0000000000-group-007-exact-coordinates.json.gz": "b3d7c7ca60cb5247cd16da0d62074b58f524817e2fc66ec1aa52022297bfcc32",
+          "R806-candidate-0000000000-group-008-exact-coordinates.json.gz": "96a59e848aa673a955cec064e4c14d6387a0bfc09264ceab16917cacbfc7037e",
+          "R806-candidate-0000000000-group-009-exact-coordinates.json.gz": "88ddd67f178bcff933930d08df95441ab434f2a44483e0bfa82e4aaa45702480",
+          "R806-candidate-0000000000-group-010-exact-coordinates.json.gz": "effe47f676b3decd27311e8dbebb21e060f559d1cbf6accf4a534a1dd2b7d93a",
+          "R806-candidate-0000000000-group-011-exact-coordinates.json.gz": "4a423ad24b57d116995f878ac3c55d6ebc127257d36e5c809fca3eb50e6df793",
+          "R806-candidate-0000000000-group-012-exact-coordinates.json.gz": "caf8b69b87e1dd2be5c6453eb6cdba16c2de7288278c8c80521e0974e493f600",
+          "R806-candidate-0000000000-group-013-exact-coordinates.json.gz": "a7fae892aaea357639f49ed6f242de92181743e88e14fdeb88331a078307ba02",
+          "R806-candidate-0000000000-group-014-exact-coordinates.json.gz": "81c5af8f5f3d87ea91c77bfcaa93c7585886ac40105486ff306fb0d28af7de8b",
+          "R806-candidate-0000000000-group-015-exact-coordinates.json.gz": "6253fb131a9440a9893c7eced985bf5e87097c4c5eaeca8a5511c6551b33f813",
+          "R806-candidate-0000000000-group-016-exact-coordinates.json.gz": "2faa97c955c4229883d18206af24b4f643e5ff60131ebbfed7d3966c78aa496b",
+          "R806-candidate-0000000000-group-017-exact-coordinates.json.gz": "f1c57d13aa055805196a340acb57c73e11eb07ae7e6aa466022e42dbf72bbcbd",
+          "R806-candidate-0000000000-group-018-exact-coordinates.json.gz": "3554f2778b9167c1b9a46a635940c17710f177888ed3677db02ab38442847f4b",
+          "R806-candidate-0000000000-group-019-exact-coordinates.json.gz": "9fda9a570042257ee5a799ee83e4d75a13e967136e7e6db05278c8bc3c73bd2f",
+          "R806-candidate-0000000000-group-020-exact-coordinates.json.gz": "b96e4fd9623f76b25751dfcf7f557dab0ede96645af634f0d0e812c38ca937c7",
+          "R806-candidate-0000000000-group-021-exact-coordinates.json.gz": "5021cf3fbb20b521c76c9e93de077dbac8768988c3ae5c82084ae548b9ce0d27",
+          "R806-candidate-0000000000-group-022-exact-coordinates.json.gz": "08d7b85907541543e8aae2558de218cad1a07e9d46060f9dd41ce3836d8c3025",
+          "R806-candidate-0000000000-group-023-exact-coordinates.json.gz": "1c7d5c362f914ffb70c7de39b96b512997bca062bfd24c3bf23629fd4564e6c9",
+          "R806-candidate-0000000000-group-024-exact-coordinates.json.gz": "8df5de172bfe4e82b883323ca54d6efd1a8b455a67421e7cb2298a013c0b7781",
+          "R806-candidate-0000000000-group-025-exact-coordinates.json.gz": "1a585e5a82761f4bf4cc0338a54b21c467482c5d78c16cf292bb60b700fb2d43",
+          "R806-candidate-0000000000-group-026-exact-coordinates.json.gz": "639dbcc2697ef1f7195d30a06dbba0b9bbcfb1eaf1ebedb3ab0c6aa27288897c",
+          "R806-candidate-0000000000-group-027-exact-coordinates.json.gz": "3c939ce648b09f9f1a6b683173281cb54a935506aeea78e657fed17110cf6470",
+          "R806-candidate-0000000000-group-028-exact-coordinates.json.gz": "4f71bc42fe45bb1c6500c5448ff8602c64167c9d05fb0d27990024ebe6efb0ae",
+          "R806-candidate-0000000000-group-029-exact-coordinates.json.gz": "0d101b69b819f9f579c412445e496d7361387c7738566052990d10ee36be839c",
+          "R806-candidate-0000000000-group-030-exact-coordinates.json.gz": "13f80b37be7c83cbf17bdf64e19587768915ad2f96768d2844f0ccecf54091d9",
+          "R806-candidate-0000000000-group-031-exact-coordinates.json.gz": "eb4d0b7f75d2742aace20025141632c490ff8f199741d81db80e553e8ae6dc61",
+          "R806-candidate-0000000000-group-032-exact-coordinates.json.gz": "a9ae92bc19fe6b5e883f5b76030c3fd9c721471815311b912f8827a3ebd5e7db",
+          "R806-candidate-0000000000-group-033-exact-coordinates.json.gz": "97f0a1911155961475b292baedb6bccbb047e208627563721ab911e834a30782"
+        }
+      },
+      "R813": {
+        "result": "R813-original-Wronskian-derivation-inputs",
+        "run_id": "43715253991",
+        "source_commit": "74f5296a6aa06539580ecbd9591a1284e1984a4e",
+        "artifact_id": 14162633303,
+        "artifact_name": "serre-global-R813-original-Wronskian-derivation-inputs-43715253991-1",
+        "archive_sha256": "0850402e283b5b16454aeba4c0967d06cad65951d09a8972aba9b34007b3c812",
+        "manifest_sha256": "0b54cf2ebb843fb789058d6c40c766428a2d79d1a9b0f705ce4094d4aee1acf8",
+        "core_sha256": "830ae652ebb08a035c6636c7738ab4823322111944932ffc77b1136caf7a07bc",
+        "certificate_name": "p41-original-Wronskian-derivation-inputs-certificate.json",
+        "files": {
+          "p41-original-Wronskian-derivation-inputs-certificate.json": "e3c2e041490d918bfec45c08dea337eb44a17548788ad8ce5f01cd14877d0a64",
+          "R813-stage-manifest-18457338f91f4aa2c9541979.json.gz": "ee8a07765edff4a1349ded569085330521998ec296d14020c5ff49400e6a1366",
+          "R813-two-exact-S3-Wronskian-coordinates.json.gz": "29bedd339da16b4fee3dfd412f1d599343a25231fa3b360f5b7b6be4404e9085",
+          "R813-original-g-h-normal-vector-interface.json.gz": "ef9d09186098bd8cc2144c16bf7797234ac176b7d1faac3fd50b74564c6f32a6"
+        }
+      }
+    },
+    "resume": null,
+    "legacy_core": "R815_original_normal_derivation_operators.py",
+    "legacy_core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+    "projective_method": "notes/R815-original-projective-rational-multiplier-reconstruction-method.md",
+    "projective_method_sha256": "ba9ac593615a1321e95a1dfcccd63740845dfc8b43b1775b393930846e74d960",
+    "projective_controls": {
+      "maximum_probe_pairs": 4
+    },
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "projective_source": {
+      "archive_bytes": 2716759066,
+      "archive_sha256": "597aaf0006481ed9fc47fda4bb6635ff6b1b8aef336d8484ca92a9bbe9e802c4",
+      "artifact_id": 14174374945,
+      "artifact_name": "serre-global-R815-original-normal-derivation-operators-43719622321-1",
+      "core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+      "expected_conclusion": "failure",
+      "result": "R815-original-normal-derivation-operators",
+      "run_id": "43719622321",
+      "source_commit": "2a3300a9edec73c23e72f23127a0ae7d8222d13e",
+      "manifest_sha256": "4e78095e2adc217beb86d4f760e6207a4aa60c4492bbfcc739a8544f376842e5",
+      "manifest_bytes": 892108,
+      "manifest_file_count": 3464,
+      "accepted_checkpoint_exit_codes": [
+        1
+      ],
+      "current": {
+        "file": "R815-target-g-component-00-CRT-current.json.gz",
+        "bytes": 561995095,
+        "sha256": "402379e2b5a0d4b225fda74d798bbb164d77ce7c3001eddca789d0fe602ef27c"
+      },
+      "latest_CRT_receipt": {
+        "file": "R815-target-g-component-00-CRT-step-000425-receipt.json.gz",
+        "bytes": 3902,
+        "sha256": "f136bee8e383b5fcff03a86bebc5bf8f30f3394d885f8aa4ac1e327ad7a82042"
+      },
+      "input_bundle": {
+        "file": "R815-retained-producer-inputs.tar.gz",
+        "bytes": 109958828,
+        "sha256": "051571e117cdaafe31f9851c664c72583f55181444dbe112bbcbb7f2d2fbf1b3"
+      }
+    }
+  }
+}

@@ -429,3 +429,9 @@
 - 读完R787双probe首格真实run43748801736：894.401秒/42候选全拒/0准确阶；预算尽而5个probe对未执行，42闭合回执和1380原输入全部保真。
 - 激活two-probe ended-IO，仅读实际manifest、LLL、失败残差回执及队列，不重做数学；后续从原队列继续。
 - 新workflow只读权限/一日artifact，属于本课题计算设施；push前rules job132923811546实际pull到4ced29a58909b7096b7b8b9001b1fb8df75ded9d，两README无diff。
+
+### 2026-11-16 03:12 Asia/Taipei — serre-public-astra-20261115
+- 激活R815真新共同分母消费者：core126469e2/75693B、wrapper3a0fa603/74410B；原425 current/53输入/全部旧Krylov原tag复用，候选仅由完整首列/weighted界/七点全交换子认证，再继承原Γ。
+- 首4probe对/七固定权/300min，同次Actions AST和数学；修继承Γ拒绝receipt分支及outer-timeout续接，无额外测试gate；旧同核run不改。
+- R787小IO43750891953已见全部42项m0通过/m1首非零，falseFINAL的0是总成功字段，非未验单阶；按真实残差继续。
+- 新workflow仅为本课题公开计算；push前rules job132924494373真实pull至40c3bb3c22f46c4a2a8b1051f4a90d9cb5864281，两README无diff。
