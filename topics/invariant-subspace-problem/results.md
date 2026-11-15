@@ -64,3 +64,5 @@
 - **[同原29条核曲线给43阶及条件8712](results/R150-appendix-selected-koszul-curves-infinity-order43-and-source-cost8712.md)：** full A∞的真Qrank4340已由原投影七整数核/F7夹逼。29维所选标准核各有同自然u全原无极点曲线；一阶连接的完整像损失给D/换列/cofactor阶≥43/42/41。K60后q≤8667，原h0目标已有Q[s]来源才得cost≤8712、非基≤8711；未付成员性/完整Smith/lc(D)单位。一般可提升常项s维给s+14阶与8741−s，常核数不能替代s。
 
 - **[当前物理四次块真秩986与二次skew降次](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)：** run43679903558实际0.420009955秒，原1001×1122模31rank986及完整136常Koszul核给Qrank986。反对称C系数degree≤2且Cf的原来源degree≤3时，全交替三张量使Cf严格等于一次系数表示；同选支撑交仍29维。只闭这一扩展，degree≥3或整个Koszul模不外推。
+
+- **[原full∞第一连接≤7与共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：** 同自然u的真实切向M=c y²+d sym(yy′)使全部17式O(u²)，故任意原6188核的第一连接20个纯切向坐标全零。真4340常秩的余空间还剩7维，β_Qrank≤7；十四正Smith指数至少七个≥2，全部最大子式共同u21。未付精确rank/全厚度，与指定D的43阶不能相加。

@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 3670282347425e79fbb5b48355a18c2d4480ae45（2026-11-15 07:32:28 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 970f001e3699c411c0667822ca11986868977337（2026-11-15 07:35:58 UTC，Actions run43690656900实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43690656900-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -21,33 +21,25 @@
 
 - **[29真Koszul曲线与43阶](results/R150-appendix-selected-koszul-curves-infinity-order43-and-source-cost8712.md)：** full A∞真Qrank4340来自原投影核/F7夹逼；29条同自然u无极点曲线给D/换列/cofactor阶至少43/42/41。K60后q≤8667、原目标条件cost≤8712（非基8711）。原Q[s]成员性、lc(D)31单位及固定e全精度仍未付。
 
-## 同w边界：完整返回仍须费用估计
+- **[原full∞第一连接≤7与共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：** 同自然u的真实切向M=c y²+d sym(yy′)使全部17式O(u²)，故任意原6188核的第一连接20个纯切向坐标全零。真4340常秩的余空间还剩7维，β_Qrank≤7；十四正Smith指数至少七个≥2，全部最大子式共同u21。未付精确rank/全厚度，与指定D的43阶不能相加。
 
-M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2及所有自然逆域保留。Xi²=bare²+flat²，λ²=<G^-1r,r>、μ²=<Lr,r>，ordinary λ不准互换。
+## 同w边界：同源完整返回仍须费用估计
 
-- [真实带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)保c*=1601/64、ρ=e^-12.5d³、同top误差及原p_m(B)的W锚。复参数正平均已给μ⁴≤d0^-2 flat²R²，R²≥d0²λ²，仍缺同源全窗ordinary返回预算。
-- **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，n+h+R<Q时原同u给真实左最小、完整两费及负图；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1使远D范数δ<ρ。目标μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证，不能沿旧d窗用ρ^-2。
-- **[源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 右Cs*KCs+I≤δ²K与左+I抵消，Sb=L+B/Sf=L+H上||Cs^k||≤δ^k，完整h−1逆芽有无损圆盘演算；零源平方保留，不相减为H−B收缩。
-- **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B；Rret Cs=−T0Rret−KJb、行[T0,K]≤δ、kerCs上零。未压缩(C+T)残量单射，不倒用压缩Sylvester。
-- **[真远孔逐幂损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** δ^-2k(||Cs^k r||_(L+B)²+||P_K C^kUr||²)≤||P_far≥k Ur||²+α²，同top可代w尾。完整H版仍含λ，不能换α或倒除Cs；保全部左零核反馈。
-- 对称配平、增长均匀块、全部nuisance和旧范围保open及[本次完整H](notes/2026-11-15-handoff-before-relative-hole-riordan-789f.md)；无全环境S∞，核投影稳定不支付Green逆列。
-- 原均匀池精确K/G因式分解及Green全因子见open；其余强位E(I−G)、完整核Gram逆和差商逆伴随仍须支付，不能沿原d替新h。
-- **[强gauge真末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈付尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端保留。返回运输误差≤A_drv α，eY∈E0、Rret*eY=Sb r；大配对未付。λ(qr)≈d0λ(r)，全局Cg才给M/W锚，勿用Boolean头替它。
-- **窄入口：** 固定f=e_a⊗vac所需原强C的Green列O_a(R³)未付。[等权长池完整Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)已给(4/S) C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；余强位须换全部A_rest/h0/Gram，H^-1不保低头，不能删或截到a。boundary继续共同返回配对及真实远孔尾。
+M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然逆域保留；普通λ²=〈Hr,r〉、左μ²=〈Lr,r〉、裸α²=〈Br,r〉不能互换。完整此前公式及所有未列缺口保[本次H全文](notes/2026-11-15-handoff-before-full-infinity-connection-789f.md)。
 
-- N/Y各自原逆芽领先12.5的负轴障碍及次阶安全放大已付，完整证据见open；当前Riordan用τ14，勿混R/h或外推Green。
-
-- **[真实相对孔Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)：** K=Σ[z^k](φ/z)^J T^k，TK=Kφ(T)、逆/全旗/裸商/首源g均精确；同g同余比较全/裸最小Gram。τ14=12.5d³+26.75d²+…，R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(-d³/64+54d²)→0。新头ψ_m(A+E)/d0保全部E混合，不运输左L，不相减Gram或称两费已付。
-
-- [特定Artin源](results/R271-appendix-strong-boolean-artin-linearization-and-physical-source-metric.md)的反向forcing确有d⁴增长；仅限该变换，不否下条保真空规约或真实Green。
-
-- **[保强孔的真实线性规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω(B)=d0F(B)/B、W=ω(B)^Ns，逐行严格CW=WLω(B)；W及逆/伴随都固定强真空测试。完整核G=i*W*Wi、forcing=i*f保原总次数，Green输入为ω(B)^-* [f−W*WiG^-1i*f]。G逆跨次数与共同高孔残量尚须付；裸J(L)^-*虽可四次指数爆大，f0的真正Green恰零，不能拆估或外推反例。
+- **[原强位同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A_m+E、h=d+R，n+h+R<Q时原u_Q给真实左最小/完整右与裸。Xi²=α²+flat²，ΣXi²≤2hβtail²，h网格≤2βtail²。目标μ²≤κXi²且κh/Q=O(1)；κ=O(h)足，因为当前h²/Q→0，尚未证明。
+- **[源收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 右Cs*KCs+I≤δ²K（K=B,H），左相反I及零核反馈保留；Sb=L+B、Sf=L+H上Cs为δ收缩，允许完整h−1圆盘演算。不能相减成H−B收缩。[真远孔逐幂](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)付Cs^k及左零核反馈的同w尾+裸费；完整H版仍含λ，不能倒除Cs。
+- **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B，Rret Cs=−T0Rret−KJb、[T0,K]≤δ。未压缩残量单射，不能倒用压缩Sylvester。原eY∈E0、||eY||²≤||Y||²−α²、Rret*eY=(L+B)r，正主配对为μ²+α²。
+- **[强gauge](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈由尾+裸付，n+2h+R<Q保完整未来与末端。驱动误差≤A_drv α、λ(qr)≈d0λ(r)；原未付配对测试为q_h(−T0)*eY。全局Cg而非Boolean头才给M/W锚，carry误差保留。
+- N/Y各自负轴领先12.5障碍及次阶安全放大已付。**[当前Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)**用τ14=12.5d³+26.75d²+…、R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(−d³/64+54d²)→0。完整右/裸/旗/首源g/零源都运输，新头Ĉ=ψ_m(C)/d0，g在Sb等范数距I≤2M0/h。整个左L未运输，不相减Gram。
+- **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω=d0F(B)/B，W_h=ω(B)^Ns，C=W_h L_linω(B)W_h^-1；Ĉ=V0 L_linV0^-1，V0仅在kerL_lin等于W_h。W_h四向固定强真空f；完整G=i*W_h*W_hi、forcing=i*f，Green输入是ω^-* [f−W_h*W_hiG^-1i*f]。G^-1不保原次数，不能拆估或把W_h用于全部Ĉ返回链。
+- **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
 
 ## 当前临时计算会话与可恢复身份
 
 本地实际pull读73f76d741f3b47e9ab7837052bf8260a2a9c0722（2026-11-15 07:24:45 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，20分钟空闲/6h job上限。完整旧路径、哈希及接续状态保[本次H快照](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。
 
-- seven-original-exact-rational实际592.119801265秒到预算，原I内4318单位profile已成，native七RHS尚无返回/有理解/新核。完整原core和profile留同out，身份见[真实回执](notes/r150-infinity-remote-session-789f/43679903558-seven-original-exact-rational.json)；已入队seven-exact-sparse-structure，30s/512MiB，精确1/2支撑剥离及纯置换SCC分块；先存逆代DAG，不重旧模页或盲重复。
+- seven-original-exact-rational实际592.119801265秒到预算，原I内4318单位profile已成，native七RHS尚无返回/有理解/新核。完整原core和profile留同out，身份见[真实回执](notes/r150-infinity-remote-session-789f/43679903558-seven-original-exact-rational.json)；后继结构实核0.692495464秒：剥26，余4292单SCC/172513项/132bit，DAG已存；下接真实低填充整数消元，不重600秒密集求解。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
 - 小回执在notes/r150-infinity-remote-session-789f/；原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，不重已闭模页/LLL/多素数。
