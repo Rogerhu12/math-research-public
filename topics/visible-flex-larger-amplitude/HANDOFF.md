@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:49:14 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 9d2d48470d8852c846a9988cc550f6cc2683aa1b。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 11:50:19 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 5466c0e47ab67845ff91d9023abdcd4d0ccbb176。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -30,6 +30,8 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)已推3dcb4f8：固定准确实轨迹共享、完整226RK及112 QR两端唯一性/577响应129248×112原行；浮点pivot不证实非共振。[七组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)保338混合/C-based独立audit，全部native/fullDN false；有限root径向导数另付。
 
+[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6完整576段/129248行，由current128 RHS新R273方向、唯一α=1接受，norm0.000122096054597410989492629881621789239→9.68582474751023176032080482454992093e−11，原容差达标后停止。独立fresh128全部残差/576×226输出逐字同值；末态e0f20c36已清不可SHA恢复。native/fullDN/全224J/338/物理audit仍false，下一项137清理前真末责任，不再盲调η。
+
 ## 公开Actions运行与最新退出
 
 未付结果必须读真实完整原输出。根README已读新blob21bd547f；旧规则runner若检测变化会按原合同退出，须据实际原记录明确再生，不能绕过或伪续。新入口不取消旧任务。
@@ -39,12 +41,10 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 | [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001，300min全H(s)，无接受预填 |
 | [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001、fresh-circle，同owner全部112H(s) |
 | [130原33查询](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md) | 43702578242 / 132776702379 | 690ca0f924f069c6b8c2134ca83bc856918c2e89 / 10:08:00 | 已因真实规则变化退出，7份原批摘要已取；完整读回继续 |
-| [133持久128](notes/2026-11-15-request133-persistent128-execution-interface.md) | 43704718358 / 132783217957 | 4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6 / 10:34:17 | 两job成功：1方向1接受，末norm9.68582474751023176032080482454992093e−11，R308读回 |
-| [136连续E](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md) | 43707070768 / 132790329190 | c1178bd2e17383a5a0f6bed1ec8fe1896704a528 / 11:03:43 | science失败/readout成功；R304完整登记，整query0/Rout空 |
 
 124/128同worker真zero→全H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial。s1全原H词、全J→FD/fullDN/finalJ/fresh audit；IPC未知不冒数学拒绝，zero请求不等于目标为零，尚无正λ场。
 
-130保21capture/25端点/local8453/C4059/outside/λ270/17trial/全FD；[118 R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)真实末raw已清，后4最近拒MID483且alpha1/128 beta²−.0008413561364628563，不能伪续。133 matched-trace none/列0，fresh replay不付全224J/338/物理audit。
+130保21capture/25端点/local8453/C4059/outside/λ270/17trial/全FD；[118 R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)真实末raw已清，后4最近拒MID483且alpha1/128 beta²−.0008413561364628563，不能伪续。
 
 **[137同job末态入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)**：run43709832101/sourcef9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3/job132798770009，11:37:35开始，11:47科学在跑。47pin/真91+两ready+78原源+analytic-slope，新21bd规则；fresh起19200s总/120s清理，owner6000含1200replay、stages8000/boundary600/endpoint600/audit1800依剩余额度，先保audit。清理前同态七组件/完整失败与未访/90KB不完整70；原133及科学源不改，无native/fullDN预填。
 
@@ -56,7 +56,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)仅1378/1440片；[136 R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)1800.0188949619999s/SystemError，21334panel/56738有限component，日志1386片但producer返回0/全[0,1440)未付，整query0/Rout空。139须确捕ResourceStop保partial并用完整w同号/χ恒1端点积分降成本，同1440片/六primitive/深根/原预算及全宽门；未知SystemError不伪改。
 
-[九450完整closed接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md) e8deb413/69bbba26、[九连续metric接口](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)0c4353d1/4b13425a保全部九实表达/六jet混合/四Loewner/两帽/全DFS；无接受450或闭场。v2的5e95afdb/92cfb070只接真00e4/0433完整接受父或自身v2；全九冻结/K=k=0/338+112，二分+全knots/全J/FD/fullDN/finalaudit。136改源需显式新consumer绑定。
+[九450 closed接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)及[连续metric接口](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)保九冻结/全六jet/四Loewner/两帽/DFS，5e95/92cf只接真完整接受父；全J/FD/fullDN/finalaudit仍须真实付，无接受450/闭场。新E源须显式consumer绑定。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad等真fullDN/final audited tail/config/port；原physical/material/z0/mean/R249/sharedB/两帽、R274/R258非零见证及全t reach/D/整像held均未免。675全jet/mixed、a3帽、owner/四门OR/两RP1与b1c2曲率/D等细节在[open§4](open.md)。固定同g/p/t精化，有限phi不冒全theta。
 

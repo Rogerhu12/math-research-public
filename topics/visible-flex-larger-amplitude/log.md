@@ -404,3 +404,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R305 literal Gram收缩与完整缺陷证明
 
 [R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)全文证明直接发布：独立Gram不假设C=F_e，全2M+1矩收缩和准确实Cholesky消去等价，几何/μ/RK-step/端口/两mean/完整原行责任均保。名义R/a/b及dR/da/db不能默认为零；不把数值残差当误差界，不预言全224速度。root只改三角回代中间量t→v_c避免物理t同名、修乘法TeX，并明确实现草稿另行发布；没有本地科学/编译、没有fixture前置；133真实达容差R308紧接，137继续。
+
+## 2026-11-15 /root — R308实际133完整128射击达到原容差
+
+[R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)全文读后直接发布；root独立重建28389B原report JSON，核8f88fa6a4010099bbf104b39270ef611478e16d6cb19faa01e4d4d409c953d5b。当前128 RHS的新完整R273与唯一α=1原评价接受，全部576段129248行norm9.68582474751023176032080482454992093e−11，shooting-tolerance-reached；独立fresh128两全数组逐字一致。保128方向恢复与fresh64旧δ之别、模型gradient原大值、受控64 sentinel及native/fullDN/338/audit未付；数据清理后不hash续接，137当前现场责任继续。R305已推a80ec193，根/题README仍21bd/bff。

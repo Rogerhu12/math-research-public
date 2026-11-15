@@ -120,3 +120,5 @@
 - [R304：actual136的cap瓶颈、callback预算异常与未付全域](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)：1800.0188949619999s/SystemError；21334panel/56738有限component，日志1386片不冒producer返回0之外的累计量，整query0/Rout空。全部六工作宽度、原计数/身份/深尾和规则退出逐项保留；已确定源码异常通道风险，真实内层原因仍属有界推断，139保持原范围并实际优化。
 
 - [R305：原literal Gram根迭代的共享方向与名义分解缺陷](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)（已证明，固定准确实成功分支）：完整225矩直接收缩、局部偏导共享、Cholesky/两回代消去等价及完整几何/226态链式；已舍入R/a/b及导数缺陷明确保留，点残差小不证方向误差小。新运算图须独立身份，不宣称有限字同值、实测加速或native通过。
+
+- [R308：actual133持久binary128射击达到原容差及独立逐字重放](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：完整576段/129248行，current128 RHS新R273和唯一α=1接受，norm由0.000122096054597410989492629881621789239降至9.68582474751023176032080482454992093e−11；原tolerance停止，无墙钟截断。全residual/576×226独立replay逐字一致，原全部flags/模型梯度大值/临时身份与未付责任完整保留；native/fullDN及物理final仍false，137继续。
