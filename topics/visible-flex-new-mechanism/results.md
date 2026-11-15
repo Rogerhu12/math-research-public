@@ -383,3 +383,10 @@ C1全权−2与旧B1/B2/C0的−5/−4/−3三角分离，四新列H2幅与旧�
 [R350完整原式](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)从R56保真实history导数、只按canonical定义清其累计值，得二阶a′=Qlu‴/(8h³)、a右零及a_L的原三矩线性式。第三场accel系数−J(Qu‴a)/(8h²)，rawpure的qq″伙伴β=(Qlj−t k1)/(8h5)须在正规化A−β中保留；self=−Qa²/(2h²)，完整ΩΠ=5Ωself+2a_Lj_L/h²，真实尾一般非零。
 
 原pure有序左u/右v的2+2展开全保constant左尾，其收缩三个贡献各−1，准确−3a_L(v)j_L(u)/h²。三个真实右包矩匹配便恢复尾乘积，得到R344原Λ在Abar_hh/hk/kk各全部实际状态及有限独立系数跨度上0。R134已证明这些是实际U而非仅jet形式系数；N2/八矩静态修正不改变此accel平方层。未证明其它H1/H2、静态、速度2/4层或整个U的Λ0，未证明U/R0/全period/同规范。无新执行，完成即推。
+
+
+## R351：P–Y第一矩的完整二次式及真实弱核心的两个符号
+
+[R351完整恒等与光滑构造](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)对任意真实紧f/g得D1=Qf(g)+μ0gμ2g/4。P槽为1/2∫(b″−xb‴)g″²，Y槽的V2/V1/V0全式通过只紧outer的IBP给出，a=Pf/b=Yf真实常/二次左尾完整保。纯自项负1/4的规范准确，非rank-one微包替代wholeweak。
+
+Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再减原正尾，有限频率/小幅给D1负。朝左理想C²右端须保Yu″(β−)=−225A²β4/64，得到常数73/12的严格正势；用真实C∞ cutoff使两个尾误差Oε²且核心幂段不变，再选有限频率给D1正。两者弱hook0且导数rank-two真，不是已排强圆。尚未同时配三矩/十二旧外矩，故只构成真实正核心入口，不能冒当前完整残差正或新门已付。原R263有序Γ仍须带入全补矩。R347负模块论证可用R349十目标正核保持12旧矩，成本仍H−3。无新执行，完成即推。

@@ -43,7 +43,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**R308–349弱Gaussian圆**：Af0开段rank-two/单hook0；8/12copy保third/odd。R331/332/334付M/A三矩及负Ψ；R337旧同C阻断保，R339反向core和R341两负一正弱块三个最终中心清B0/B1。R343原RS self全尾/方差给R2固定，双排序×普通伴随/双中心群真rank4正核付B2，Ψ成本H−2。R346真(Fκ,J/h)母纤维给±J，两α四正锥列，付C0=I0[Z,Y]；R348两个nonlegal I1 self保Green μ2²/8、μ2²/4，真实中心导数2S0/Γ0给C1正锥；**R349再付C2**：原SLY2完整负平方和、SUY2=−5SLY2，Y左纯二次令I2 Green真0；∂SLY2=(SUY1−SLY1)/2，真Fκ/J全copy给ξ4/δ²ξ²/δ4完整式，Λκ≠0。τ±/两α双号与旧八目标合十维正核，S5正幅精确付新C2、Ψ成本S−2。弱最终中心全不动，同F★全72零controller有限N复原Ψ/三行/指定层。四pair M/A/B/C全三矩已付；仅PY/WY各三矩共12形式even位置（非rank，PY I1重复）及整第四/period/joint欠。**R347**同权−4的B2/k*−PYI1在真实强两坡大A正；原正核给保11旧矩的廉价负PYI1，Ψ成本H−3，weak残差号未证不能冒已付。一般weak Y平移含其它pair，不冒普通矩。
+**R308–349弱Gaussian圆**：Af0开段rank-two/单hook0；8/12copy保third/odd。R331/332/334付M/A三矩及负Ψ；R337旧同C阻断保，R339反向core和R341两负一正弱块三个最终中心清B0/B1。R343原RS self全尾/方差给R2固定，双排序×普通伴随/双中心群真rank4正核付B2，Ψ成本H−2。R346真(Fκ,J/h)母纤维给±J，两α四正锥列，付C0=I0[Z,Y]；R348两个nonlegal I1 self保Green μ2²/8、μ2²/4，真实中心导数2S0/Γ0给C1正锥；**R349再付C2**：原SLY2完整负平方和、SUY2=−5SLY2，Y左纯二次令I2 Green真0；∂SLY2=(SUY1−SLY1)/2，真Fκ/J全copy给ξ4/δ²ξ²/δ4完整式，Λκ≠0。τ±/两α双号与旧八目标合十维正核，S5正幅精确付新C2、Ψ成本S−2。弱最终中心全不动，同F★全72零controller有限N复原Ψ/三行/指定层。四pair M/A/B/C全三矩已付；仅PY/WY各三矩共12形式even位置（非rank，PY I1重复）及整第四/period/joint欠。**R347/351**：同权B2/k*−PYI1在真强两坡大A正，M10正核给保12旧矩的廉价负PYI1/Ψ成本H−3。R351全weak原式D1=Qf(g)+μ0gμ2g/4，Q显式保Pf/Yf原尾；朝右幂段主系数负，朝左保非零Yu″端迹后常数73/12使核心正，C∞截尾保号，真rank-two。两号仅原核心，补矩/有序Γ与全部旧门尚欠，不能冒完整正corrector或当前残差正。一般weak平移保其它pair。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4，全cross/尾0、wholepure/self/Ω0。11对应真实Af点的flux=ρj⁵pn(tj)，pn首系数C*(−1)^n10!/(10−n)!≠0，Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 
@@ -52,4 +52,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main c7982f5f61c1b91dad1d9cbd2e70956fff07fc56，双README blob同。API读取不冒实际pull。
+断连API复核main 03cfb0755f2bb912b0a9aab34009cac2ec72238d，双README blob同。API读取不冒实际pull。

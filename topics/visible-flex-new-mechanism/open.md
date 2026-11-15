@@ -12,7 +12,8 @@
 
 [103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)与[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)均已消费，完整原门/失败/恢复漂移/费用保原note，不重跑。[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)给原163族内159独立坐标、准确H/盒/原物理步长；首159新阶段η.266520536442→.266491207122，m6细网曲率由SOC修回而下一B缩半，.26/1e−4仍欠。
 
-[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)失败范围保原件。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)已从同原run43728280256完整summary读6模型/7trial：η.266401179156→.266381717617，最终双网14门/盒过，κfine57.999983395。10primary+2SOC耗尽12LP；m3/5细网原曲率失败由SOC修回并保B.000125，七步无遗漏硬行。m4/5需358/342新cuts；m5首LP完整norm为负改善，补342cut后改善，m6仅余1LP且完整norm负改善，有限模型停止非驻点。已评价步完整预测覆盖差近零，剩实际e/f非线性3.8e−7～1.7e−6。54/106源和24路径/decodedSHA已核，同g/b0/159/163不变；9恢复805.206121s/新active35.287169s、16+2值分账不变。新开发全过，首6方向源绑复用不重。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)已完成：旧历史末态不复现被如实保留，未重试或强制旧SHA；第九handoff同原H/reference/pools/controller，m3/5的17个hold guard与4个bind均真，半径是取消暂缩而非新增长。原native第五模型行首有BOM，完整字节和JSON存在；新reader只去识别前导BOM并读其精确159/163、reference/池/cut容器目录，所有数值payload留runner内存。下一新算法携原ID/norm方向，在新接受中心重建有效支持cut；直接从原已完成checkpoint恢复，不再机械跑九段优化，不能搬旧A/b、重锚高度或只续预算。未达.26或主1e−6，η不冒δhold。
+[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)、[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)保全部原失败/费用。43728280256六模型η.266401179156→.266381717617；末两网14门/盒过、fineκ57.999983395，12LP用尽非驻点；m3/5 SOC修细曲率/保B，完整norm须自适应cuts。54/106源及同g/b0/159/163已核。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)保旧末态未复现/真17guard与BOM日志读取，只恢复原完整159/163、reference/池/cut来源，不重九段优化，不搬旧A/b或重锚。最新norm-memory/expanded/m10精确状态与下一接口见下方当前节；均未达.26或主1e−6，η不冒δhold。
+
 
 ### 仍须支付
 
@@ -142,7 +143,7 @@ R343全RS self/方差、真实双排序与普通/伴随给B1/B2四目标正核�
 
 [R349](results/R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)新付C2：原SLY2为完整负平方和、SUY2=−5SLY2，真实Y左纯x²尾使I2 Green两项0；不是假紧。∂SLY2=(SUY1−SLY1)/2，原Fκ0上Γλμ准确只乘J；同真τ±/两α母与全copy得C2=Kδ[Λκ(1−q²)Jξ4+(d−5e)δ²Rξ²/2+δ4Θ]，Λκ非0、Θ真积分。固定最后正中心后有限δ给双号/二维正锥，完整权−1与旧−5..−2成有限10目标正核；S5正幅解(0,0,0,0,−r/S4)，Ψ成本S−2可小。原弱块不移，全12矩/全θ同付，非全72。
 
-仍欠PY与WY两pair各三外矩，共12形式even位置非rank；PY I1两个even只一共同标量。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限式F=B2_04/k*−D1主项A(2731/16+ρ²/2−4q)，保非负方差/全部母余量，大A正。B2/D1同−4权，现有强正锥不能无条件扩新标量；但旧八目标正核给真实D1负纠正且Ψ成本H−3。当前weak残差正号未证，故D1未付。root续weak完整mixed D1/三个固定中心依赖或新正方向；literature续WY全self/有序bK3。须保一般weak完整Y平移/所有未付pair；其它完整层/period/同规范仍欠。
+仍欠PY与WY两pair各三外矩，共12形式even位置非rank；PY I1两个even只一共同标量。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限式F=B2_04/k*−D1主项A(2731/16+ρ²/2−4q)，保非负方差/全部母余量，大A正。B2/D1同−4权，现有强正锥不能无条件扩新标量；但旧八目标正核给真实D1负纠正且Ψ成本H−3。当前weak残差正号未证，故D1未付。[R351](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)新增完整D1=Qf(g)+μ0gμ2g/4：Q的三个系数显式用原Pf/Yf，IBP只紧outer g，全尾保。Af0幂段Pf二次令V0=0；右向主系数有严格负平方分解；左向必须保Yu″(β−)=−225A²β4/64，真势常数73/12严格正，实际C∞截尾误差Oε²保号，有限频率g给两个真实rank-two弱核心。它们尚未三矩配平，不是完成旧门的正corrector。R347负向可用R349十目标正核保12矩延伸；正方向仍须原R263 partial-block Γ、补矩与旧门完整入账。root续这项完整配平/当前三中心依赖；literature续WY全self/有序bK3。须保一般weak完整Y平移/所有未付pair；其它完整层/period/同规范仍欠。
 
 
 ### R344/R350：全响应与原U加速度平方总通量因子化，续其它真实成本层
