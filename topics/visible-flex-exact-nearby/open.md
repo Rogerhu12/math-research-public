@@ -133,3 +133,7 @@ T/c0408ef4 的4件公开入口已完成全读：SCI a0f12f84d55c4735507e71e40d35
 ### 已部署加权Q唯一剩余局部门
 
 SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997fcdc4e2bda1fb4aabbe37a5e4e967508bc11及contractd709a832…/flowc4842c91…只做原part004均值槽新exact Bernstein、逐mode加权max后joint和、原repair与完整F12尾/真long标量条件。root全读，tail核心三函数并亲读原a24c26… producer确认raw width1/32；原target/全卷积/残差积分/端矩/FFT零重算。公开数学前同HEAD树metadata真核topic≤200MB；等待实际q_w门，不预称帽存在。
+
+### 整片signed Taylor已实际成功，继续完整有序source
+
+43694458725/1 child0/9门、math7.215183343s，root亲读execution777e681b…与result67fadf77…并核报告4de2b072…。全piece2549的3width/p0..2/q0..3/完整mean、signed finite及两radius完整尾均已付；二径大上界仍在，不由根点小量授全片收缩。小结没有finite/tail分拆，不能据总数伪称已核tail份额。继续同真实reference的local μ numerator、H_V^-1有序重构、全部I/J/physical mean/真实seams，完整source和positive Schur另付。

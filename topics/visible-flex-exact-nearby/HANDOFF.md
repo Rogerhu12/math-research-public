@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 08:30:27 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 08:33:28 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
-本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49/08:07非FF即时pull重试仍无。root已核最新runner真pull：08:23:21.553488 UTC 4f4121a6ea192c5ee7d2a4d80e889946e6a7ae1d（Green v3），两README diff空。ref读不冒pull，每小时继续真pull尝试。
+本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及此前非FF即时pull重试仍无。root已核最新runner真pull：08:31:04.512939 UTC 1c23a9f74044b2e5d7e0226f2710721f2ae7e338（weighted首attempt），两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：55606e219833300e733fec50dbfd400d2a861b3e；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ad1d0ec782a43891529bfb347e4accdf3fb9124a；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。最近逐字H归档：notes/2026-11-15-handoff-before-whole-root-consumer-and-weighted-cap-closure.md（5a230aaf31a0a8047878c3508bb520af7579e44cf82fb03d424ee7f93d541b41，9554B）。前H/open/输入/失败全链均在该归档，压缩不取消任何门。
 
 ## 同一对象与总完成门
@@ -28,7 +28,7 @@ v3 43690634784/1 active，SCI1d8383a8…/worker c06a5758…/369pin637c7bdf…/he
 共同径向C/P/I/B保全部P/I/J/mean/jump。势actual43685624307 child0/16（6b6db11b…）H1/6000给V276/VT26431/VTT3830956；两实列0e56cf64…和old-circle actual43688459733 child0/16（188cd247…）原h1/20000 gap>.9999880505123及inverse/两角导全保，不授complex角两列/正物理Schur。
 F/052a0b23…保fbV=fb+Vj/fa不变、全阶/六余项及真实mean。根源首43691675493 abs-gap失败完整留，Re-gap修复后43692226895/1 child0/11门/math.378429979s，报告a7ff7c71…、execution4abbe1ff…/result66f02392…；fullmean<6e−5、差/z<.190815，σ0/1/128/3/128两行q0..3全部已付，根点不冒整片。
 T/c0408ef4…整片σ=barT^-1(Tactual)，w1V=旧w1+(Tb0,a0)ℬ(T)，ℬ=½∫s^-½V(sT)ds，非零root常数保。degree12取原K15/旧14leading/12correction；Rs3/40000/角1/128完整双Cauchy含全Fourier/mean，f0=fa/f1=fb准确。
-4件已deploy014c5f3e…：SCI a0f12f84…42067B/manifest11e993ba…25430B/67pin/54Taylor+2旧stage/worker599ce272…/flow59bbdecb…。root全读、newton形式合成、tail完整双尾独核过。run43694458725/1 workflow success，root待实读完整receipt后登记真实数学；不授全Nraw/strong-return/正Schur。
+整片actual43694458725/1 child0/9门/math7.215183343s；报告4de2b072…、execution777e681b…39214B/result67fadf77…19999B。67pin/54旧Taylor+2stage，0旧重算；实角fa/fb/a1/b1零阶<.280094/14.228337/2.495771e−5/14.600552，二径fb/b1仍<1.526e12/1.569e12。SCI a0f12f84…/manifest11e993ba…/worker599ce272…；临时1729937B/SHA675453a8…不持久化。完整两尾/mean保，不以总数猜tail占比；接完整ordered source/真实positive Schur及strong-return。
 cleanup43690692511/1实际9件/7607204B普通删除1fae319a…后topic199048373B；final receipt b976710c…后199055468B。恢复commit121e4ce63b469b31148dcd58697092b9befbd5c9；两次全receipt与超限首失败见前H。0旧数学/历史不改，新增后继续守200MB。
 ## 有限正则尾、全网络与迭代：tail_connector
 

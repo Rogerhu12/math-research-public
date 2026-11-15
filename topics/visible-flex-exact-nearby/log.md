@@ -191,3 +191,5 @@ root全文亲读6889B报告bc19415f…、13372B process b782c9a2…、27436B sum
 2026-11-15 08:29:30 UTC：独推B/7ad04c3b finite Nash v2。root全文核、phase只复核v2 B11/B14–25相对v1的3500/400调整：保高尾系数1而非C，T0^126准确吸新C*T274；低校正无T损、EN符号、ΠA mean、actual背景更新和唯一高度规范均保。原94 J29只登记同端口Sob与数值量级，不作未付identity/ordinary三径源/port入口转移。README4414d1b69fae9b9eec2a69e1f03b945886918c59两blob未变，继续whole actual及weightedQ门。
 
 2026-11-15 08:30:27 UTC：独立部署weightedQ五件。SCI942db5ef…34540B与worker6512b038…22146B数学零改；contract只修8个单$ display分隔为$$，新d709a832…及依赖manifest0d036c72…/flowc4842c91…一致。root全读5件/原a24c26…raw-width producer、tail独核Bernstein/全共同partition/逐mode max→sum；F12两个无穷尾、σ扩大已成源与两mean/outer完整标量门已核。actual尚无；旧证书仅immutable历史临时恢复。55606e219833300e733fec50dbfd400d2a861b3e根/题README未变。
+
+2026-11-15 08:33:28 UTC：独推整片actual报告4de2b072…10499B。root亲取execution777e681b…39214B/result67fadf77…19999B，核9门/67pin/54+2复用/0旧算及三窗全部q0径向/mean，phase原全表核对；真pull08:26:45.619788→0ae6b67…两README空。root08:32:05真git pull --rebase尝试仍No usable execution environment，继续根规8小文本例外；随后已实读weighted首次08:31:04真pull→1c23a9f…空diff。当前ad1d0ec782a43891529bfb347e4accdf3fb9124a两README blob未变，不把ref读称pull。
