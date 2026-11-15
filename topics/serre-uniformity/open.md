@@ -241,3 +241,7 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R790：原CM点的准确正则化与有限求值
 
 [R790](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)证明ψ=T E6/E4²在原P1正则；原g_star属于ΓY，权零函数可在ζ求值而原X微分相位仍保。任意已认证A=yB的共同粗零阶≤154，155项足以求y值，156项给一阶；初始仅算原T至变形ε5。原K(U)模型中z=a−1=−ε³/(81B0²)+O(ε⁶)，真实E6_alg=−c6和eta分支明确；完整非CM zeta完成化经41倍加法精确消去，原C3三项核保方向并消二挠扩域。实际146个ψ值/粗首项仍待Actions。R748旧六首jets与R759原向量可直接判h(c1)是否零；非零时配原y一阶定x，未运行不预称β或高度。
+
+### R791：原Hom作用与η除子的真实输入工程
+
+[R791方法](notes/R791-original-Hom-Galois-and-eta-divisor-method.md)由原R754/R759构造Tγ、复共轭、实际实下降和全部次数，保Tγ⁷=[ζ²]/阶21。由原Gram恢复CM Hermitian配对并求κ·v†v，再给覆盖原五维F⁰的真实矩阵与η=(1/3)极除子组合；全部相位/原极化不置一。另直接收缩R748原六CM首jets与十二微分，实际判原index4在c1是否分歧。core11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d，专用公开请求就绪；输出待实际run。原y的极除子和Jacobian运算仍未实现，不能将该recipe当η值或高度。

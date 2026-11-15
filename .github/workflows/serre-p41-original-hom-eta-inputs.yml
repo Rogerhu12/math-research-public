@@ -1,0 +1,65 @@
+name: Serre p41 original Hom and eta inputs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R791-public-original-Hom-eta-inputs-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R791-original-Hom-Galois-and-eta-inputs
+  cancel-in-progress: false
+
+jobs:
+  original_hom_eta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-original-hom-eta-inputs.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R791_original_Hom_galois_and_eta_inputs.py
+            /topics/serre-uniformity/scripts/R791_public_original_Hom_eta_inputs.py
+            /topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py
+            /topics/serre-uniformity/scripts/R786_public_exact_power5_short_basis.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R791-public-original-Hom-eta-inputs-request.json
+            /topics/serre-uniformity/notes/R791-original-Hom-Galois-and-eta-divisor-method.md
+            /topics/serre-uniformity/computations/R732-p41-original-CM-model/43608152850-1/p41-original-CM-model-certificate.json
+            /topics/serre-uniformity/computations/R748-original-signed-CM-root-p41/43617493590-1/R748-original-signed-root-and-Hodge-first-jets.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Read retained maps and compute original Hom and eta inputs
+        continue-on-error: true
+        timeout-minutes: 38
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R791_public_original_Hom_eta_inputs.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R791-original-Hom-Galois-and-eta-inputs-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R791-original-Hom-Galois-and-eta-inputs/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Require original source-bound completed stages
+        if: always()
+        run: python topics/serre-uniformity/scripts/R791_public_original_Hom_eta_inputs.py verify
