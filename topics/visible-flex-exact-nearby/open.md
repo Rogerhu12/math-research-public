@@ -192,7 +192,14 @@ B*和全augmented入口目前仍是独立未付项。
 ## 6. 当前主攻：实际外行、两独立N2门与完整增广迭代
 
 root处理实际Φ→long局部form/tame；
-tail_connector处理全有限connector/Poisson后的weighted剩余Schur。
+[D完整两actual外传输](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)
+已付全finite connector/Poisson后的weighted差合同。
+同short及明确zero-input真fixed-CR reference保finite反射/EB0，
+d1792是±1796的真实physical Hhalf→H−half差，无sB归一。
+先单独闭正片半阶Neumann、再high/deep，最后Lnew ΔU Rold保全部长程；
+完整双逆v#差<2^3000000 d1792，d≤2^-3500000足付第二N2门。
+B源→remaining<2^1500000、相容完整tail→normalized fB<2^3100000/sB，
+独立mean/flux/height/λ均保。root实际O局部门及新高常数账继续。
 
 [N两层全网络](results/R119-supplement-two-level-full-network-tame-inverse-and-complete-sources.md)
 在低R1856≤2^-8192000、高至8192仅finite时付原proxy及projected
