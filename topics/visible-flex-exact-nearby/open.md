@@ -142,7 +142,7 @@ density0=w0/density1=w1、严格inverse分支才减1、fullrank/n^-2/q=vg−vφp
 root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转授完整非径向首阶耦合、
 9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
 
-[AJ完整运输系数的角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)新证：T0=t+5dφ的全mean只留零阶，F=1/Q使cT/Xi经真实B+=x²+Ty²分解；QG/2与G^-1的角导先准确合并。原fold j/BT/BA/gap及外RG/内H两域给完整递推，μ/leading M逆不冒径向，普通高导不Cauchy收费径向常数。尚无new实际source结果，原G成功锁/31列不改。
+[AJ完整运输系数的角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)新证：T0=t+5dφ的全mean只留零阶，F=1/Q使cT/Xi经真实B+=x²+Ty²分解；QG/2与G^-1的角导先准确合并。原fold j/BT/BA/gap及外RG/内H两域给完整递推，μ/leading M逆不冒径向，普通高导不Cauchy收费径向常数。新SCI32c45b33/workerc70791fe/50pin871240a7已部署，原44pin零改/31列整项比；actual待，旧G不重算。
 
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
 原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。

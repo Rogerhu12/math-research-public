@@ -1,0 +1,496 @@
+{
+  "schema": 1,
+  "kind": "immutable_inputs_for_angular_jets_retained_radial_part_complete_sources_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_angular_jets_retained_radial_sources.py",
+  "scientific_source_sha256": "32c45b335639a48b0d32541d03924246023e5e3f19deec1bcd8cf0549e955f03",
+  "input_paths": {
+    "old_fold_majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md",
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_angular_jets_retained_radial_sources.py",
+    "ordered_source_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md",
+    "whole_scalar_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md",
+    "genuine_columns_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+    "real_seam_operator_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+    "amplitude_execution": "topics/visible-flex-exact-nearby/notes/correlated_whole_reference_scalar_budget_ci/run-43698106023-1/execution.json",
+    "potential_execution": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+    "columns_execution": "topics/visible-flex-exact-nearby/notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json",
+    "old_operator_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators.py",
+    "operator_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md",
+    "operator_execution": "topics/visible-flex-exact-nearby/notes/genuine_negative_reference_operators_ci/run-43700281022-1/execution.json",
+    "original_norm_native": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+    "original_norm_process": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/process.json",
+    "old_coefficient_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources.py",
+    "old_circle_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md",
+    "old_genuine_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md",
+    "complete_genuine_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_genuine_negative_sources.py",
+    "complete_genuine_execution": "topics/visible-flex-exact-nearby/notes/complete_genuine_negative_sources_ci/run-43702688640-1/execution.json",
+    "complete_genuine_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete-genuine-negative-sources-CI-inputs.json",
+    "directed_process": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+    "directed_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources.py",
+    "directed_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-directed-matrix-old-circle-sources-CI-inputs.json",
+    "directed_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+    "directed_source_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_word_genuine_source_reuse.py",
+    "directed_source_execution": "topics/visible-flex-exact-nearby/notes/directed_word_genuine_source_reuse_ci/run-43703879926-1/execution.json",
+    "directed_reuse_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md",
+    "original_scalar_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_whole_reference_scalar_budget.py",
+    "original_fold_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "original_first_local_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_transport_first_local_vector.py",
+    "original_first_local_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md",
+    "whole_Taylor_execution": "topics/visible-flex-exact-nearby/notes/whole_root_signed_reference_Taylor_ci/run-43694458725-1/execution.json",
+    "original_whole_Taylor_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_root_signed_reference_Taylor.py",
+    "first_local_execution": "topics/visible-flex-exact-nearby/notes/regular_transport_first_local_vector_ci/run-43709396175-1/execution.json",
+    "original_operator_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators.py",
+    "factor_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md",
+    "refined_first_local_execution": "topics/visible-flex-exact-nearby/notes/positive_budget_first_local_Taylor_tail_ci/run-43711480764-1/execution.json",
+    "refined_first_local_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_budget_first_local_Taylor_tail.py",
+    "original_inverse_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+    "original_directed_reuse_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-directed-word-genuine-source-reuse-CI-inputs.json",
+    "refined_first_local_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-positive-budget-first-local-Taylor-tail-CI-inputs.json",
+    "refined_first_local_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md",
+    "factored_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md",
+    "original_factored_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_factored_transport_companion_sources.py",
+    "original_factored_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-factored-transport-companion-sources-CI-inputs.json",
+    "accepted_factored_execution": "topics/visible-flex-exact-nearby/notes/factored_transport_companion_sources_ci/run-43714194714-1/execution.json",
+    "public_worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_angular_jets_retained_radial_sources_public_worker.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-directed-matrix-old-circle-sources-CI-inputs.json",
+      "bytes": 9368,
+      "sha256": "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete-genuine-negative-sources-CI-inputs.json",
+      "bytes": 10625,
+      "sha256": "8465759dfe9101bb7e20275cec1a5b98e23efb4dbe643e492fb8189250b005b9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-directed-word-genuine-source-reuse-CI-inputs.json",
+      "bytes": 14207,
+      "sha256": "5ce9aceb3be46e795696c09028f39091fdc9a4f969dba0e0b317408974083e9b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-factored-transport-companion-sources-CI-inputs.json",
+      "bytes": 23103,
+      "sha256": "bbfbdbc206f4d724288f8ecb5d9613523f5103ae7c1276ff59f2aaa055476665"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-positive-budget-first-local-Taylor-tail-CI-inputs.json",
+      "bytes": 14117,
+      "sha256": "5e2618c446288cd8d84fcbf4bb7955f56f7a1041f823e05213d043d20b5aeaaf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+      "bytes": 27645,
+      "sha256": "d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json",
+      "bytes": 16120,
+      "sha256": "fabe59eed2174e92352f71b8a0e9d80ce8c127580806f5dab917345b05337f57"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/complete_genuine_negative_sources_ci/run-43702688640-1/execution.json",
+      "bytes": 25715,
+      "sha256": "bca0f97d7c610f8f2572e61d1e1442a8b9c256a4c5429253682b6d803e3a21c3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_whole_reference_scalar_budget_ci/run-43698106023-1/execution.json",
+      "bytes": 45554,
+      "sha256": "3896925b758840c4bbf2ce910141ca8a93d725d56bf22b5002e9c0b2486004af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+      "bytes": 49990,
+      "sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_word_genuine_source_reuse_ci/run-43703879926-1/execution.json",
+      "bytes": 37863,
+      "sha256": "2c5cba2e7351267e090d0ca6c06cfecbb21309c039a7844937ee64026254f1d0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/factored_transport_companion_sources_ci/run-43714194714-1/execution.json",
+      "bytes": 42646,
+      "sha256": "5e5f414a53404f122fbe7c5f5ae073a86402305a7485a6afd44cda940ca5902c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/genuine_negative_reference_operators_ci/run-43700281022-1/execution.json",
+      "bytes": 17462,
+      "sha256": "1fe8a528ec5e22dedc0803a129591de2fd3f25d148c5e57cb1c619cc06463bc1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+      "bytes": 4837715,
+      "sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/process.json",
+      "bytes": 48987,
+      "sha256": "f888e47e69f41b4b5c73656ac9afd321289a806ce948816d9612111a045d99e4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/positive_budget_first_local_Taylor_tail_ci/run-43711480764-1/execution.json",
+      "bytes": 33131,
+      "sha256": "20422f41645c2a4544bb8a0d79eddf771b45ff0386cc81b3ee97a32849586ef2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/regular_transport_first_local_vector_ci/run-43709396175-1/execution.json",
+      "bytes": 30270,
+      "sha256": "8cc43eb17f28b6b3fd82b9a220e8db86c7eb53fa7c491d0de7f8feda70bfc926"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_root_signed_reference_Taylor_ci/run-43694458725-1/execution.json",
+      "bytes": 39214,
+      "sha256": "777e681b85beb3317853d05d1c39a35703133a7cd49c81286571d21a89fa5dd1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md",
+      "bytes": 14351,
+      "sha256": "afeab1525bbb505432269005040107378d50741bfe5ca2c0494effcafe3f6d5a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+      "bytes": 12056,
+      "sha256": "16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md",
+      "bytes": 16022,
+      "sha256": "ee408a3c1c2dcfaf24ab04ffa2b65eecff14c10311951a1b93937dcf88b516cf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md",
+      "bytes": 16782,
+      "sha256": "64e9ae0f3b9a3f62a2aa5d84c0b820c0d3af9100ba8c2a77cf587695af72d8d4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+      "bytes": 11462,
+      "sha256": "394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md",
+      "bytes": 16517,
+      "sha256": "c559a2af9288b0c36021c5670c3c1c70eac38b514c9b9d066dd913982fa4479a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md",
+      "bytes": 6859,
+      "sha256": "0b4099e02bca3c81e046b5102760c0c994da114c201ccf2200cd4f1fcf5f4ff8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md",
+      "bytes": 17618,
+      "sha256": "3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+      "bytes": 15528,
+      "sha256": "0e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md",
+      "bytes": 20436,
+      "sha256": "36fc2a7a7fc6fa6f683e2e9a7559cc81246f6e91bea2fc50a57c1ba2d9b7eb6f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md",
+      "bytes": 22688,
+      "sha256": "c3267f91b1d1e767acbe2b1a1e33507f4811f3f944cdece305d2bed49c54da4e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md",
+      "bytes": 18867,
+      "sha256": "fedf17ff38a0ed7fca1647e016b5fe0144705194d254c36de3c828c121001470"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md",
+      "bytes": 16352,
+      "sha256": "98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md",
+      "bytes": 10607,
+      "sha256": "9f4f5f9b225fe3981068c665c2326b39183449a7d2fa57debc51a9cea9f5c7e0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_angular_jets_retained_radial_sources_public_worker.py",
+      "bytes": 34051,
+      "sha256": "c70791fe69ceeadda11c698977b9656edb79fdd74a78a4dee46c8d05ca6a6419"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_angular_jets_retained_radial_sources.py",
+      "bytes": 34637,
+      "sha256": "32c45b335639a48b0d32541d03924246023e5e3f19deec1bcd8cf0549e955f03"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+      "bytes": 24060,
+      "sha256": "9596ebee08e95939cf1b8a9d46a9f32053bd4706cc77e2263a80d09ede99294c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_genuine_negative_sources.py",
+      "bytes": 47184,
+      "sha256": "b0648a3bc244e6671176ac096c759b3e70e57d8c04b75bd4dd74442bfcaf95c0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_whole_reference_scalar_budget.py",
+      "bytes": 38253,
+      "sha256": "564759dceb4b38dd37fdd275d0fa3e22cdf2efa271cd9ef1049c6cfa4ff121f6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources.py",
+      "bytes": 27730,
+      "sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_word_genuine_source_reuse.py",
+      "bytes": 28955,
+      "sha256": "1aa46093bba5150d636cc7c6ef4f5b080447fc2c75d7438b2e52ae5fa6b5d0af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_factored_transport_companion_sources.py",
+      "bytes": 56851,
+      "sha256": "a705c2b4c64393e3ba1ae1e043d0fbd62f516a7a80e03e47ce11820626373ee7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators.py",
+      "bytes": 27122,
+      "sha256": "617bf821e9cff5847b4257e448fe8556eda63acf5c018105a2dff32ac452cf8a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources.py",
+      "bytes": 27569,
+      "sha256": "56b68983f36bb3d88e1427081ba9e60a8f6cf43dcd9578a0d925e1834292555d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_budget_first_local_Taylor_tail.py",
+      "bytes": 45318,
+      "sha256": "e0541949f521e0852bb4a8b204b51281f7d83e0ed2a7a1afbb259ca73362e92a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_transport_first_local_vector.py",
+      "bytes": 33577,
+      "sha256": "c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_root_signed_reference_Taylor.py",
+      "bytes": 42067,
+      "sha256": "a0f12f84d55c4735507e71e40d35cd343777d00dad4b5ec5c2e73804230198be"
+    }
+  ],
+  "legacy_artifact_inputs": [],
+  "current_text_input_roles": [
+    "contract",
+    "scientific_source",
+    "ordered_source_contract",
+    "whole_scalar_contract",
+    "genuine_columns_contract",
+    "real_seam_operator_contract",
+    "amplitude_execution",
+    "potential_execution",
+    "columns_execution",
+    "old_operator_algorithm",
+    "operator_contract",
+    "operator_execution",
+    "old_coefficient_algorithm",
+    "old_circle_contract",
+    "old_genuine_contract",
+    "complete_genuine_source",
+    "complete_genuine_execution",
+    "complete_genuine_manifest",
+    "directed_algorithm",
+    "directed_manifest",
+    "directed_contract",
+    "directed_source_algorithm",
+    "directed_source_execution",
+    "directed_reuse_contract",
+    "original_scalar_algorithm",
+    "original_fold_algorithm",
+    "original_first_local_algorithm",
+    "original_first_local_contract",
+    "whole_Taylor_execution",
+    "original_whole_Taylor_algorithm",
+    "first_local_execution",
+    "original_operator_algorithm",
+    "factor_contract",
+    "refined_first_local_execution",
+    "refined_first_local_algorithm",
+    "original_inverse_algorithm",
+    "original_directed_reuse_manifest",
+    "refined_first_local_manifest",
+    "refined_first_local_contract",
+    "factored_contract",
+    "original_factored_algorithm",
+    "original_factored_manifest",
+    "accepted_factored_execution",
+    "public_worker",
+    "reviewed_rules"
+  ],
+  "mathematical_parameters": {
+    "cutoff_abs_j": 97,
+    "physical_frequency": "4j",
+    "physical_root_piece": 2549,
+    "exact_full_physical_cover": "893368603925465506687/21990232555520000000000000",
+    "exact_negative_cover": [
+      "2147184947341121/9007199254740992",
+      "2383968743003/10000000000000"
+    ],
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "original_fold_radius": "3/8000",
+    "original_fold_phi_strip": "3/128",
+    "actual_old_phi_strip": "1/256",
+    "genuine_inverse_phi_strip": "1/64",
+    "inverse_Wiener_phi_strip": "1/128",
+    "accepted_regular_canonical_radius": "3/5000",
+    "accepted_regular_canonical_strip": "13/2048",
+    "complete_complex_delta_square_halfwidth": "1/100000000",
+    "complete_complex_z_square_halfwidth": "1/9409",
+    "fixed_intrinsic_parameter": "eta_0",
+    "input_window": "H^(-4/3) both genuine columns and both signs",
+    "first_source_window": "ordinary L2_r H^(-2/3)",
+    "independent_mean_window": "ordinary L2_r constants",
+    "density_zero_amplitude": "w0",
+    "density_one_amplitude": "w1=MZ",
+    "density_zero_word_window": "H^(-8/3) -> H^(-5/3)",
+    "density_one_word_window": "H^(-5/3) -> H^(-2/3)",
+    "actual_directed_matrix_right_gain_provenance": true,
+    "original_matrix_radius": "1/1000",
+    "baseline_complete_source_run": "43714194714/1",
+    "original_directed_source_run": "43703879926/1",
+    "original_positive_calibration_run": "43702688640/1",
+    "original_inverse_run": "43688459733/1",
+    "new_factored_transport_angular_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "new_genuine_rank_angular_orders": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "output_old_phi_strip": "0",
+    "common_column_envelope": "abs(rho)^(-1/4)",
+    "old_radial_integrations_recomputed": 0,
+    "new_radial_integrations_computed": 0,
+    "real_parameter_values_for_final_operator_only": true,
+    "arithmetic_bits": 320,
+    "new_AJ_contract_sha256": "afeab1525bbb505432269005040107378d50741bfe5ca2c0494effcafe3f6d5a",
+    "new_AJ_scalar_closures": 1,
+    "inner_reciprocal_Q_derivative_orders": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "full_radius_reciprocal_Q_derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "complete_Bplus_inverse_derivative_orders": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "complete_cT_and_Xi_derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "complete_leading_matrix_inverse_derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "accepted_cT_Xi_breg_and_inverse_remainder_read_without_recomputation": true,
+    "accepted_source_pipeline_or_radial_integrals_rerun": false
+  },
+  "execution_scope": {
+    "new_mathematics_only_public_Actions": true,
+    "original_complete_fold_stages_read": 1,
+    "original_successful_small_receipts_read": 8,
+    "original_complete_coefficient_rows_read": 1328,
+    "original_selected_coefficient_rows_read": 6,
+    "original_positive_linear_coefficients_read": 18,
+    "original_complete_source_terms_read": 31,
+    "original_complete_word_maxima_read": 8,
+    "original_complete_word_maxima_consumed": 3,
+    "new_supporting_factor_jet_closures": 1,
+    "new_complete_regular_quotient_budgets": 0,
+    "new_complete_factored_density_source_budgets": 2,
+    "new_identified_inverse_remainder_recoveries": 0,
+    "new_complete_companion_row_budgets": 12,
+    "new_complete_window_evaluations": 26,
+    "new_complete_uniform_comparisons": 10,
+    "new_complete_scalar_recombinations": 4,
+    "old_numerical_enclosures_recomputed": 0,
+    "old_target_FFT_intrinsic_repair_fold_transport_or_Taylor_recomputed": 0,
+    "old_RF_forcing_amplitude_or_profile_enclosures_recomputed": 0,
+    "old_inverse_word_or_positive_calibration_recomputed": 0,
+    "old_source_row_or_radial_integral_recomputed": 0,
+    "new_radial_integrals_computed": 0,
+    "original_natural_stage_bytes_modified": 0,
+    "latest_refined_local_terms_and_aggregate_preserved": true,
+    "thirteen_other_first_terms_and_eight_other_physical_means_verbatim": true,
+    "all_complete_signed_factor_and_rank_identities_applied_before_norm": true,
+    "inverse_constant_addend_subtracted_only_after_branch_identity_gate": true,
+    "new_derivative_arrays_and_six_row_arrays_temporary_only": true,
+    "physical_to_wave_positive_graph_high_inverse_or_strong_return_claimed": false,
+    "reproducible_data_native_or_artifact_published": false,
+    "new_AJ_angular_jet_closures": 1,
+    "accepted_regular_quotient_order_zero_recomputed": 0,
+    "accepted_inverse_remainder_recovery_repeated": 0,
+    "accepted_factored_source_pipeline_invocations": 0,
+    "latest_complete_factored_31_term_ledger_preserved": true,
+    "original_factored_manifest_all44_pins_verbatim": true,
+    "current_metadata_capacity_and_120000_byte_small_conclusion_reserve": true,
+    "actual_math_gate_count": 29,
+    "all_full_derivative_arrays_only_temporary": true,
+    "no_new_artifact_native_or_Release_publication": true
+  }
+}

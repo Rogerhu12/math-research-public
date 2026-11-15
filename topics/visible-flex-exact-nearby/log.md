@@ -203,3 +203,5 @@ H的H1/Cδ/CS及open第4节旧帽详账亦仅压缩引用6d87bc85同路径和原
 - 2026-11-15 13:11:24 UTC visible-exact-astra-0df9：部署MC最小新fee消费，SCI7547ece2/worker804a001d/manifest5157dfea/flow1dacf33f；继承成功D的40parts/8旧ZIP精确恢复、预Git小stdout、120KBreserve/非FF循环。只新2域mean积分和5保留case，旧91与所有旧残差不重算；所有case未过也保完整结果。共享.github新增本题flow；main 373fa9bc253a9267acb320a23508cca6070d8f93 两README无变，前次13:09非FF真CLI仍无executor。
 
 - 2026-11-15 13:14:40 UTC visible-exact-astra-0df9：按根规15普通删除5件旧R59/R6/RMS输出920170B；清单400607de67e38bdfb1b05aec9e46459616401c6eb5db4959130c85066b2bfea1，恢复ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561:原path。仅比Git blob/bytes和原小primary SHA，未读gzip/二进制；原脚本/参数/小结论/失败说明保。只读main 4952e99e5082881f61fb15b47af0fe6da35b8bfc 两README不变；继续MC actual/AJ/相关local和Green，非数学重算。
+
+- 2026-11-15 13:16:08 UTC visible-exact-astra-0df9：AJ部署SCI32c45b33/workerc70791fe/50pin871240a7/flowc964a6c5，原44pins全等；完整outerF径Cauchy、mean t、Bplus/M逆及相关QG角jets进原10整项recipe，旧quotient/inverse/径积分0重做。部署前修main局部old遮蔽，无数学改动；共享.github新增本题flow。亲读Green13:14真pull9e62c9f2两README空，3312/1056/1360仍运行；只读main fc8bf3a20b6e36f90bbff6017ad438b6cfdc80e9 无新规，继续MC/local/Green。
