@@ -1,0 +1,525 @@
+{
+  "format": "isp-selected-infinity-dixon-p32-publication-v1",
+  "status": "completed",
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-constant-big-dixon-kernels-789f.cpp",
+      "bytes": 19366,
+      "sha256": "bb021c5846ba56f149b2f2a71fcb0c6a7c9f0ccf7b70ed0dfa64f2e55dfc2d7b",
+      "blob": "7fa51f64f6b11a9fc19ad3230f6628ac02fdd695"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-constant-big-dixon-runner-789f.py",
+      "bytes": 17004,
+      "sha256": "eef558bfd926b90c03c6d4b09a8845c141fe7a0dfd97deb5fef27a2e1f44a0cd",
+      "blob": "c346ea9470d1b678463c4b51e90c51bb16e22563"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/results/R150-appendix-selected-infinity-exact-dixon-through-p32.md",
+      "bytes": 7021,
+      "sha256": "c9fcbef5d5b21586bd0d85f2b523e047a51bf9b32be1aa9e3f3c6ed53835610a",
+      "blob": "11fbe9df878187e41bf1c54e1a42aefca630f1d1"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-digit-ledger.json",
+      "bytes": 206,
+      "sha256": "be101462d9e80a2c85851e42c0237642e7c88a790c9cc5e706d386c1a257ece2",
+      "blob": "310431a3b74d03d0d0c223850d2c8f1e93693183"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-initial-p4-exact-original-product.bin.gz",
+      "bytes": 1725813,
+      "sha256": "ef53e187ae53dd718518aac74dcea86dd1a2d2f1cb0eb1e84435f2d346b957ce",
+      "blob": "9307584fefdab0193c30416bad53b1904d45efa2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-initial-p4-exact-residual.bin.gz",
+      "bytes": 1518921,
+      "sha256": "e6315125260c0d9663c1b4afe312eb5f5013f3d4976ce1c2adf79606d5ce9d75",
+      "blob": "483b26291ccf631181e744704e9f6c88de04d90a"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p10-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "37cd7746b9cc9e9480c3b59ced2223a21ceb660af9264759eda4286c9f028a46",
+      "blob": "7fd70f7e2533ece6e430725c005427436ace9454"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p10-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p11-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "70bfaba1e1f8b70febd05fac944c7ae1dd5d2495fb770b8f34107e879e2be901",
+      "blob": "ed5efb9c475f0c42e534f531e036becd86c98f0a"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p11-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p12-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "16749550a875dae4e63cc0f9f974aa8b807619a56a27c78d8c1fcec5b52c83f2",
+      "blob": "bd5dd9be6f05ebd1f8113a466caff2c47e9401eb"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p12-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p13-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "8c92c792040fd5a2c36ad4f42a55589d2b6e69913287bbf10315e9ee6ed74fde",
+      "blob": "49c22b34c9ce9ced6db672663a9ed3e8817d3d0e"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p13-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p14-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "4eb567e1202dc275492458dc66ed4702eb1f1d014278b3e571b4ab53ff27f880",
+      "blob": "cdce7fd52ff50b07b539b0744e056a5cf4beecd8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p14-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p15-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "95834e71bdc573ff0a6b44fd3ede8d80bbae0cff930780b99066478ada9471de",
+      "blob": "aeaf87da3341d7e472a756d8e2b16ea6a4dc433f"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p15-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p16-exact-original-product.bin.gz",
+      "bytes": 2368367,
+      "sha256": "af70b15092f72ce49d07a02d14128f552df71337065263128b779ceb00fdc135",
+      "blob": "d2bb6881ecbff98403ec6bf756f3f2e1c585b745"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p16-exact-residual.bin.gz",
+      "bytes": 1519052,
+      "sha256": "06dca58da23d831a353e630f3a63a8a57f7b9fafe138a95ae99a8b90ce08e7d1",
+      "blob": "b321110f7d5f51d0980dda7e6d95c5bc8bc9615d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p16-exact-source36.bin.gz",
+      "bytes": 891151,
+      "sha256": "b54629549e0cfce46eb8296035bf7469cb3afcc9859f3c57a584edfb6c1c2576",
+      "blob": "9b49e5dd42c03037c618fd343252dbd040a00465"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p16-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "72a942874734e21f1595d86bca4b840bd78352d138253bd92787f3f0487017d4",
+      "blob": "2a0317d42591604d1fb8bb0f2f6c2e2931b9aa64"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p16-receipt.json",
+      "bytes": 384,
+      "sha256": "9787a414347747cb3c5103c10371cb8c14a9b6f1b66cf3b07139b1f4c2b27320",
+      "blob": "dbac02257b6ad1325218a59765f6150743ad34fb"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p16-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p17-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "d7c53b85ed045262dc25a807eab753f16c3eabf852f31a21feabd1c65da89692",
+      "blob": "7dd3f6abb44a6bda3cca35c3e42005ad9e199751"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p17-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p18-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "117759eb17407597f2eb4e04ec6db7edcbad3f738ad5878d45f6c6b6507aaa27",
+      "blob": "a73048f6c5b7cf70ba1b09a37c59b8b3d085ccfd"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p18-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p19-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "d87be5b71d9c4e34568d729a15c61c6972e0ff09884ff81fa927e89fbeaeaa72",
+      "blob": "08ae89d1a6987980aaff006838b0d28dc2fba4dd"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p19-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p20-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "b1949ff70a79729e64031127200b1eb11a74db73a2176a11f526a0ceefde7313",
+      "blob": "281a0fe264a476d8405babc1b68bbabe6295aa88"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p20-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p21-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "d523821dca8d6fddb56651444df2df1e330affc787302ec3cb7819d5b32cd24d",
+      "blob": "606cc885c90f480fcab5bbc9bb685ce912a98343"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p21-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p22-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "3e40970a6b84e854d4875386c2bfa20481c28ddad8d356c351be7dc81342ddb0",
+      "blob": "97da73e29f94ef67040ca38de1443051ab6db3c5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p22-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p23-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "6c6668cfdb58d8023a5cc3a312be09190ede6741abaa439f3b8a4464e4f07748",
+      "blob": "38f081fb0d4c6abe54d0c43e2c897e35f68250e7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p23-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p24-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "4128634a81f12d2aeca66bdcc8e3c64be9fce3f7aae1a715fc74547d3a2391ed",
+      "blob": "e4b4cd7c6f3ea9130be90c4d7d566234083025ec"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p24-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p25-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "188276296367d50af3365dcb96766410efa7e93989ac040a0096fd3b87b01d45",
+      "blob": "35f495769b2ba368c67f63c9bf0c88be48e7cebf"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p25-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p26-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "25e04b43f8acc2ac34944f1a4764922317ca2c8744b45191c6bd386750d6ee22",
+      "blob": "d673ada263f8a66a2f6f84303dc0b9303f9ad4b0"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p26-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p27-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "9abf716f4f9b962faca19d6c46cd860f3bc21a37f57dda224b8fa038bf51da04",
+      "blob": "36ef0b7aca2fe54f40cd7ebfa623b2de33413a1f"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p27-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p28-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "d84a1bfa3cb3bf1d480cc3757910a364e0164b228b1bee6bd92dd09ed12a13c9",
+      "blob": "45fc31ae20bea28e4ed6ff1b31e14b2ea947ab95"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p28-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p29-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "28383c0a24c219831c8aa970d2ea061f110cc7b9e26bc7ed23d61fbab544b380",
+      "blob": "f3d21bdae86b808cb52b9ec5e457a6b6b1bc518e"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p29-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p30-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "cdbe0e2f5e65e95b1d5e22dae9b2fec44ad087f7d1d9eeec3149deda55a177b0",
+      "blob": "22806ac4632730f9bd361c7f30d5e0da9297667b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p30-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p31-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "ae493fd82d4b7acd2633ff69af8d7fbdb40fdfa76cc01ec8dd2c4a566e3dcc7e",
+      "blob": "96e8506f0322e59de81a6f69b88555187b0b0d8c"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p31-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p32-exact-original-product.bin.gz",
+      "bytes": 3218782,
+      "sha256": "4eed503fe0701cfd76be46663780a320273498b70b8812a53e6383c79f9e6b97",
+      "blob": "4ee6d7bc016bc2fcd1ca377cb91961e7cce8d73d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p32-exact-residual.bin.gz",
+      "bytes": 1518360,
+      "sha256": "8c11cf449f37a035467fa56a746bc1880dfb321cdf719e7d5ea4c55d6fd9e402",
+      "blob": "39872891f9e2dc669a8f7c4657a756d1f82d0b50"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p32-exact-source36.bin.gz",
+      "bytes": 1650506,
+      "sha256": "015f2765f03c218457f0664c671e5cadef1d3de07125565dd3631a4d279dad77",
+      "blob": "f2a9642a23e77c593e4045d0bf2a6f39395200d9"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p32-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "f36367958302fe40fd20c2a899e5db8461a47b2cc294d7b128e0dd5375493f74",
+      "blob": "9de19cebc954f2ac4978df73e105df06183a7498"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p32-receipt.json",
+      "bytes": 378,
+      "sha256": "8bca334a0f0516a5506c6d767906dbeb9e9afd6d2c986e35bb4e5abf728f0c9a",
+      "blob": "38b8b7d93e9c326564b0dea5b1beb48702e43eb9"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p32-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p5-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "6735d2991e47fc702390e90372ac73e63298964e40a58f7e43a23525e4087710",
+      "blob": "124c9f9b96d0bd89420139b75ebc22773bd6244f"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p5-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p6-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "8c2213f1bcbd00c5d3a9bb34d3d99e3a5ec0a50871de2d19f43ce06f4d36da99",
+      "blob": "0dbf3913269367c5664cbfff49a3bc5520ae0598"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p6-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p7-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "5528e128f5a7b78cc5b357555ff00efb87168fef0505fef3ac3e065b1dd5a90f",
+      "blob": "15a1bfdf47009379f5b7903e5f712e547f965f5e"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p7-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p8-exact-original-product.bin.gz",
+      "bytes": 1943173,
+      "sha256": "af5b6449f89372b29ba7e67a743da7c878fa502acade05c27a32e78d292442a1",
+      "blob": "29a5b2acdc9fb5d842e3240bbc8e88144b62c2c4"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p8-exact-residual.bin.gz",
+      "bytes": 1518863,
+      "sha256": "9f7400baad68696a1f02bf6e38ab931ee2a72348cb5f8d3f33cf6a80af2be814",
+      "blob": "10b11d6017985067fda0eccac94d2ef16626dfe8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p8-exact-source36.bin.gz",
+      "bytes": 499160,
+      "sha256": "8c8fa589eba5b0235a26363d22fbd4adb87e57f9ee4f163648a5e362e45f3289",
+      "blob": "4f1f09151f195a738fd88584a32712f21d2a06ba"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p8-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "8b9b8707446772970dccfbc3a8912205e08215ef84ebe589f8218969a19a8186",
+      "blob": "bd36e7adff80ccc132b44fdd283936c82e324d1b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p8-receipt.json",
+      "bytes": 383,
+      "sha256": "2b347be5cce272c5c8991c346d0edee987d6184605b731450e44f7524a78fd3b",
+      "blob": "b04486710fa62ae5d2bd3f366899eaeec16e91b8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p8-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p9-original-correction36.bin",
+      "bytes": 222788,
+      "sha256": "ab7dc3a44c60ebc07eb87b754d96152ffd661feba17da02f736d3c0e3fe86825",
+      "blob": "c157d37ee18fa262b46929c8e4a71a626bb54486"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-p9-selected-obstruction36.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "blob": "b9ccec99f685d62565f49dcf38fafff132329aa8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/actual-receipt.json",
+      "bytes": 21546,
+      "sha256": "e31fb747e386233dcc194d06a81ca9ce89c055c07fb31fe4147676072d150aae",
+      "blob": "0e70be2ab2f6147ff4b147d8b55df930a163e9cb"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/exact-rational-kernel-certificates.json",
+      "bytes": 43122,
+      "sha256": "19bce2bc267aec1ec5f0cd61c6e2603a13663bc7f2cb3faa0716493e5cf26437",
+      "blob": "90be1381c95d39186d42141e50edb8b1e5344e42"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/execution.log",
+      "bytes": 2155,
+      "sha256": "29bf29249f483497fd656df299133ec481585490d09e306e89f1f11031bd351b",
+      "blob": "590327284b82a10b666a0f584340d738e356f0d4"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/prepared-dixon-constant-model.txt",
+      "bytes": 43104,
+      "sha256": "35a192dca72d268db85dda51f93dfd2b17231496d99f6afeb5ca338e3211d830",
+      "blob": "d80ef4fb76da2f906703bbd3574b373ebfe58656"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/selected-infinity-big-dixon-kernel36-pipeline-receipt.json",
+      "bytes": 92895,
+      "sha256": "90cdae02e9b54af2ebe86f2dda6aca33cef59807df396f914470c6c53f1762b3",
+      "blob": "25591033959bc5790fdc77668581639f204588a7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/compile-only-missing-boost/compile.log",
+      "bytes": 370,
+      "sha256": "836e6b7d204a09fe2bd1e1d7f5cf9d1a4e23c9400bcfdc5224e38586b6129b29",
+      "blob": "52c95da71a2dba53796635d84481346751d09731"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/compile-only-missing-boost/exception.log",
+      "bytes": 398,
+      "sha256": "7a0216b39371c2fa4df085a9ab68470ef799cb29d72244c659a014286a218eab",
+      "blob": "c3272843a2cf9559cd1d84d7786e8a3972bdc611"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/compile-only-missing-boost/selected-infinity-big-dixon-kernel36-pipeline-receipt.json",
+      "bytes": 1743,
+      "sha256": "fe7700165fda0bceaf95b9b7e5b37d62816429d4f29af12db611e93fe77cefe8",
+      "blob": "6fce6357968ceda557919db0558a632e4f36cd15"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-big-dixon-kernels-789f/compile-only-missing-boost/native-attempt.cpp",
+      "bytes": 19335,
+      "sha256": "f06c4e8f696abe074857bb8e0664b1d71e92954582b95ac44f779812203f6f38",
+      "blob": "758ed4e49f3c2e2dda2a7140ad0a422e197aae50"
+    }
+  ],
+  "startExponent": 4,
+  "completedExponent": 32,
+  "noEarlierDigitsRecomputed": true,
+  "all4367ExactIntegerResidualIdentitiesVerified": true,
+  "all36FreeSourceCoordinatesIdentity": true,
+  "exactRationalKernelCount": 0,
+  "characteristicZeroSelectedRankBounds": [
+    4318,
+    4340
+  ],
+  "mathematicalElapsedSeconds": 14.592554667004151,
+  "buildTemporaryOnly": true,
+  "originalAgentManifestBlob": "e749b3eefce3a71430c6c7d32f359cefa8783b99",
+  "allListedStoredBytesVerified": true,
+  "storedBytes": 24916470
+}

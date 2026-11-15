@@ -1,0 +1,54 @@
+{
+  "format": "isp-selected-infinity-cpp-int-dixon36-resume-p4-v1",
+  "status": "failed-or-incomplete",
+  "sharedMathematicalSeconds": 120.0,
+  "nativeMemoryMiB": 512,
+  "compileSecondsLimit": 30.0,
+  "maximumRequestedExponent": 32,
+  "startExponent": 4,
+  "p2ThroughP4Recomputed": false,
+  "oldFullInfinityNormalFormRecomputed": false,
+  "sameSelectedMinor": true,
+  "inputs": {},
+  "sources": {
+    "2026-11-15-r150-selected-infinity-constant-big-dixon-kernels-789f.cpp": {
+      "bytes": 19335,
+      "sha256": "f06c4e8f696abe074857bb8e0664b1d71e92954582b95ac44f779812203f6f38"
+    },
+    "2026-11-15-r150-saturated-global-common-789f.hpp": {
+      "bytes": 11284,
+      "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+    },
+    "2026-11-14-r150-f31-bitplane-789f.hpp": {
+      "bytes": 3030,
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    },
+    "2026-11-15-r150-selected-infinity-constant-big-dixon-runner-789f.py": {
+      "bytes": 16995,
+      "sha256": "c542cd5de2a71a225a6a7e9f1bcf2ccdf7f067a904c5b7831b34d94bbec3dbd1"
+    }
+  },
+  "rationalAttempts": [],
+  "compile": {
+    "exitCode": 1,
+    "elapsedSeconds": 0.21498953299305867,
+    "log": "compile.log"
+  },
+  "error": "compile failed or incomplete",
+  "files": [
+    {
+      "file": "compile.log",
+      "bytes": 370,
+      "sha256": "836e6b7d204a09fe2bd1e1d7f5cf9d1a4e23c9400bcfdc5224e38586b6129b29",
+      "storedFile": "compile.log"
+    },
+    {
+      "file": "exception.log",
+      "bytes": 398,
+      "sha256": "7a0216b39371c2fa4df085a9ab68470ef799cb29d72244c659a014286a218eab",
+      "storedFile": "exception.log"
+    }
+  ],
+  "persistenceSeconds": 0.00015413400251418352,
+  "buildIsTemporary": true
+}
