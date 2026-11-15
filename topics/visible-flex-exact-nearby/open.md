@@ -118,11 +118,9 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 ## 5. 新94链、真实B collar和实际body种子
 
-本节完整原域/精确指数/全mixed源/参数与未付条件逐字保2cc71aff4007a04a511ec7fbb530c119af90cf57同open第5节及以下原文；成功旧数学不重跑，压缩不删除义务。
-
-[P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、[G真实B collar种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)已给真实X/H值图、完整94步与两mean；首q transition以完整单侧PDE生成0..5高度jets后Hermite lift，保awB/aw、κmean、global λ、三径ordinary源及原broken第三/第五jet。实际E8192<2^-54866996、source Zs^[3]<2^-5275847456；lift残差仍由Nash消去。
-
-[F固定帽输入/body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、[RG粗γ/真实种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)保真实四态B迹、T0=2^1500000、3500/400、loss1734/bg1796与完整端核。RG用零宽真M帽及true long，不要求未知γ有复角宽；Γ1锁同负principal，Γ2随a94(γ)选后在fixed-γ body迭代冻结。fixed-γ collar改动不换Γ，seed(γ)差非仅collar支持。下节[S全far/Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)同时解exact body/far/holonomy；core/waist/ν及实际γ低高域仍须联立。
+完整原域/指数/94步/两mean/全mixed源/真实参数和未付条件逐字保637e43ab28c0795198979b4ebfa7c4030aaf48f7本路径第5节及原P/G/F/RG；不删义务、不重成功数学。
+[P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、[G真实B种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)已给真X/H值图、首q transition全单侧PDE0..5高度jets/Hermite lift，保awB/aw、κmean、globalλ、三径ordinary源与broken第三/第五jet。E8192<2^-54866996、Zs^[3]<2^-5275847456；lift residual由Nash消去。
+[F固定输入body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、[RG粗γ种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)的四态B迹/T0=2^1500000/3500/400/loss1734/bg1796保。零宽真M帽/long不要求未知γ复宽；Γ1锁同负principal，Γ2随a94(γ)选后fixed-γ内冻结，seed差非仅collar支持。下节S同解exact body/far/holonomy；core/腰/ν及实际γ域仍须联立。
 
 ## 6. 完整exact tail、连续选解及真实参数列
 
@@ -163,6 +161,8 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 [WC宽低窗与独立窄高域](results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md)以同state宽I=[.85,.95]三角帽付κχ=20，单次halftrace无需plateau；仍只用窄MA五域在同cut的H8193，不授宽factorial域。唯一新系数输入为原7296 full moving mean_absolute_gap，修补/19d/未知rho分别扣；NR宽nonmean/MC宽mean、原pointwise T2/T3及真实√长仅读重组。SCI9cfe1e74/worker1412c9c4/14pin a3a2352c已root全核并部署，13门/六宽ordinary表actual待；实际cL与双侧同态body/匹配仍须供。
 
 [NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)及[actual43720373326/1](results/R133-supplement-actual-saved-nonmean-restrictions-and-three-band-trace-budgets.md)已成child0/13门，execution401d41d8/reportc905f5c4；SCI129f7f79/worker7f1bd9e5/19pin e9ea51e3成功锁。140/2原行以真实交长sup²/整格L2²取完整min，K权/repair/offset全付；窄P非mean L2<1.602333e−9，known F96<3.596676e−18/角<3.167387e−15，known F288精确0。MC均值/五高窗仅读；五例known-middle<6.019548e−16，剩充分半径>1.9686898045e−11只为预算。NA14仍须同态真实cL及左右P-scaled ZL/ZH，近似态另付ordinary residual/mean-speed；low/core均false。首43719591979的preGit>59KB/child未知/授权lost-new恢复完整保actual，success不重算。
+
+[RB真实右帽ordinary body](results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md)e87d247a以完整m=1/<C>和反射定相位，准确Φ差保均值；只微分已知Qδ，用真实测度得moving pair L2≤80 physical pair-sum。I全模18/1/25给B+≤80[Aδ,+ +√|I+|(18||Δγ||2+||ΔfB||dotH2/25)]，Aδ,+是实际cap基点−ΨQδ的独立非零body差。fallback含ρcap，不能充低门；不转授Σmode sup，不取消WC/MA同态域。左右body仅全cut/两mean/phase匹配后可拼；sB固定才用归一高度差。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。

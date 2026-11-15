@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **RB真实右帽到ordinary moving body。** [证明](results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md)e87d247a：精确均值/逆角/测度给系数80，只微分已知reference；实际18/1/25两输入加独立非零base load，左右同态匹配仍必需。仅ordinary L2，不授Σmode sup或实际低迹；global sup两分量sum明确。
+
 - **ER完整E行的规范根零保留。** [证明](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)be46d277：原B2确为canonical b0/T²全模，先保根因子再T导，完整μ/cT/V/VT与mean保。新3/256角域严格image门待；只将新E整界与M七项相加，原C算法lower比较，保最新SV账本，旧mixed零重算。
 
 - **SV精确leading逆列及三完整density0源合同。** [证明](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)5374f2b0：B_jw0先精确乘法，保y²/y³、fullG/mean与真实n^-2；完整SV七项词/mean word/径权仅读，M baseline其余28项原字。原gap只physical n/全角δ域；新23门数值待。

@@ -367,3 +367,7 @@ root全文SCI394行/worker523行/完整14pins与flow，phase独立核sources及o
 ### 2026-11-15 14:11:10 UTC：ER完整E行根零合同
 
 合同b86fa8b1a871be38b01511b58a9c4cb723aadb9b/12383/SHAbe46d277cc8e136bbcb96febe327d0cba75938662eabe088078f90b53be4a61a。root全文核ER1–20，另亲读原fold410675cf的BA/B2/Xr/selfmap/two-row/canonical声明及P(c559a2af)P17/21/24，G supporting_coefficients212–289确cT完整SG非小SP；AJ/RV实际full域球逐字回读。newton独立核canonical B2资格与Ximage；fullG/mean/μ与fullpotential不删。新SE=3/256+h oldXr<SC及Th<RC必须由新Actions gate，未授。M七非E整norm仅读求和，不作upper减；原C/D正数算法lower对同raw1，latest baseline其余30原字，若SV已成必须保其三项。旧mixed/fold/Taylor/inverse/径积分0重算。654ce30ebe4e926dc6dea52de902ad32bd3b7185两README无变，继续最小公开消费者。
+
+### 2026-11-15 14:14:25 UTC：RB全非线性右body单位桥
+
+最终proof233bfacf56ba8afe501226907993017e48dbcc08/14205/SHAe87d247afa761012f8fac74371cd49ff289b98a5cf0359b98b9068ff21828c8b。root全文/最终400B范数消歧diff已读，亲回C e0a324d74373ff680cb77296dc1c58458a27cf2d/20177/SHAb2acc995d8ef0c880c93b21226f53da0470a9945e53f67643106b0522a8c2404的实际table及I4/15/16/25；I确physical pair-sum MΣ且全mean。RB11精确均值差、真实Jacobian与已知Qδ导数给80，不用未知导数。RB23明确两个global sup之和，故RB24无√2遗漏。Aδ,+保实际cap affine mismatch；ρcap不能删或冒低门，普通L2不可冒modewise sup。第5节旧文字以637e43ab28c0795198979b4ebfa7c4030aaf48f7同path归档保所有义务。488956b40533293fc4cbaa4885137fd59bd1eb22两README未变；继续实际WC/SV结论、ER与完整core。
