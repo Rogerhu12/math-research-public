@@ -1,0 +1,84 @@
+--- frozen-ce93/geometry_20261115_small_core_inexact_p3_restoration.py
++++ request99/geometry_20261115_small_core_inexact_p3_eta_0p01.py
+@@ -1,5 +1,10 @@
+ #!/usr/bin/env python3
+-"""Actual inexact p3 restoration and full-residual linear Schur elimination.
++"""Independent fixed-eta=0.01 inexact p3 restoration from actual97.
++
++The complete mathematical functions are retained byte-for-byte from the
++frozen ce93 producer. Its fixed-eta=0.1 entry is not executed or modified.
++This distinct entry fixes eta=0.01 and binds the genuine actual97 parent
++or a completed output of this exact new producer and its full closure.
+ 
+ This independent candidate strategy uses the unchanged original R259 three
+ unit equations and full parameter Jacobian. Its linear direction retains the
+@@ -31,16 +36,19 @@
+ import traceback
+ 
+ HERE = Path(__file__).resolve().parent
+-ENTRY_NAME = 'geometry_20261115_small_core_inexact_p3_restoration.py'
+-SCHEMA = 'R278-original-three-equation-inexact-p3-restoration-LM-v1'
++ENTRY_NAME = 'geometry_20261115_small_core_inexact_p3_eta_0p01.py'
++SCHEMA = 'R278-original-three-equation-inexact-p3-restoration-LM-eta0p01-v1'
+ ORIGINAL_NAME = 'geometry_20261114_small_core_resonance.py'
+ ORIGINAL_SHA256 = '3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5'
+ RESUME_NAME = 'geometry_20261115_small_core_damped_resume.py'
+ PREVIOUS_NAME = 'geometry_20261115_small_core_p3_inner_root_search.py'
+-PREVIOUS_SCHEMA = 'R278-original-three-equation-approximate-p3-inner-root-LM-v1'
+-ACTUAL92_STATUS_SHA256 = 'e822be884ac07e2b2c46ac7aba7f589ba5233e86cdbb33ad9c95108cc8dca01e'
+-ACTUAL92_STATUS_BYTES = 498765
++BASELINE_NAME = 'geometry_20261115_small_core_inexact_p3_restoration.py'
++BASELINE_SCHEMA = 'R278-original-three-equation-inexact-p3-restoration-LM-v1'
++BASELINE_SHA256 = 'ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e'
++ACTUAL97_STATUS_SHA256 = 'd55b5338880cabaae44bd7575db9a10bcba22fad4ae1fce0225f1ef38064f331'
++ACTUAL97_STATUS_BYTES = 233256
+ FROZEN = {
++    BASELINE_NAME: BASELINE_SHA256,
+     PREVIOUS_NAME: '3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9',
+     RESUME_NAME: 'ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a',
+     'geometry_20261115_small_core_damped_search.py': '1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728',
+@@ -128,12 +136,14 @@
+             or parent.get('original_diagnostic_source_sha256') != ORIGINAL_SHA256
+             or parent.get('input_sha256') != ORIGINAL_INPUTS):
+         raise ValueError('The parent must be a completed original-equation candidate diagnostic')
+-    if parent.get('schema') == PREVIOUS_SCHEMA:
+-        if len(decoded) != ACTUAL92_STATUS_BYTES or decoded_sha != ACTUAL92_STATUS_SHA256:
+-            raise ValueError('The first parent is the complete genuine actual92 final status')
++    if parent.get('schema') == BASELINE_SCHEMA:
++        if len(decoded) != ACTUAL97_STATUS_BYTES or decoded_sha != ACTUAL97_STATUS_SHA256:
++            raise ValueError('The first parent is the complete genuine actual97 ce93 final status')
+         expected_sources = FROZEN
+-        expected_producer = FROZEN[PREVIOUS_NAME]
+-        origin = 'actual92 completed approximate-p3-root final accepted candidate'
++        expected_producer = BASELINE_SHA256
++        origin = 'actual97 completed ce93 eta0.1 final accepted candidate; new producer fixes eta0.01'
++        if parent.get('last_accepted_point_semantics') != 'original-three-merit-accepted-candidate-or-fresh-parent':
++            raise ValueError('The genuine actual97 parent retains its declared final-point semantics')
+     elif parent.get('schema') == SCHEMA:
+         expected_sources = sources
+         expected_producer = sources[ENTRY_NAME]
+@@ -565,8 +575,8 @@
+             or os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public'):
+         raise RuntimeError("All numerical work belongs to the public repository's own Actions")
+     damping = float(args.damping)
+-    if not math.isfinite(damping) or damping != .1:
+-        raise ValueError('This independent producer declares the single positive outer damping 0.1')
++    if not math.isfinite(damping) or damping != .01:
++        raise ValueError('This independent producer declares the single positive outer damping 0.01')
+     if (not 0 <= args.candidate_steps <= 8 or not 1 <= args.backtracks <= 20
+             or not 1 <= args.inner_newton_steps <= 12 or not 1 <= args.inner_backtracks <= 20):
+         raise ValueError('Keep the explicit 8/20 outer and 12/20 inner budget ceilings')
+@@ -593,8 +603,12 @@
+     status = dict(schema=SCHEMA, scope=__doc__, phase='starting', source_sha256=sources[ENTRY_NAME],
+         original_diagnostic_source_sha256=ORIGINAL_SHA256, consumed_source_sha256=sources,
+         source_roles=dict(original_equations=ORIGINAL_NAME,
+-            immutable_parent_provenance_only=[PREVIOUS_NAME, RESUME_NAME, 'geometry_20261115_small_core_damped_search.py'],
++            immutable_parent_provenance_only=[BASELINE_NAME, PREVIOUS_NAME, RESUME_NAME, 'geometry_20261115_small_core_damped_search.py'],
+             new_algorithm=ENTRY_NAME),
++        algorithm_baseline_source_sha256=BASELINE_SHA256,
++        mathematical_function_bodies_unchanged_from_baseline=True,
++        baseline_producer_not_imported_or_executed=True,
++        independent_fixed_damping_producer_not_an_unchanged_old_entry=True,
+         input_sha256=ORIGINAL_INPUTS, parent_status=parent_receipt,
+         parent_parameters_are_initial_guess_not_completed_field=True,
+         initial_model_evaluation_and_description_are_fresh=True,

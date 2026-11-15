@@ -125,3 +125,9 @@ root全文22096B结论、八文件SHA、29原件、72真实dispatch源、15inner
 [完整接口](notes/2026-11-15-thirty-one-query-condensed-interface.md)与[主控静态回执](notes/2026-11-15-request98-root-independent-static-readback.json)保存。独立四源44c82d41/1cf2d88d/1bc1f6e0/1e2f1ff0，唯一共享workflow7b8091cd/requestde47834e，真实父94 warm292732a8及原status8b65e2f9/gzip50e9075a均锁定。新增LEFT464、LEFT486、MID486，保旧28完整typed相对顺序；唯一新端点464，全部B/H8453列由真实支持重建，C仍原4059公式且计全部outside，包括464。完整原LEFT/MID J/P链、C调用、H恢复、候选比较、非线性/merit/RMS/BC/FD与λ270/512/200/17trial/1200/600/90/30预算保持。
 
 root完整读四源码diff、17099B接口、两配置diff和两纯静态checker；四原28文件及两基线配置与真实b75f Git逐字一致，67pins核当前实际Git/四新源。两冻结报告重放逐字相同，17核心AST、11shell/6inline以及132原字段节点/53浮点词核过，回执22657d44。仅源码、原字节和整数布局，不预填新方向、接受档或native成功。28本来支持own-schema恢复；本次31是由真实94三处失败选择的明确试验，非恢复障碍修补。
+
+### 1L. 第99轮为独立η=0.01入口，真实父为实际97
+
+[完整算法与接线接口](notes/2026-11-15-request99-actual97-independent-eta0p01-interface.md)、[主控原字节核对](notes/2026-11-15-request99-root-independent-static-readback.json)保存。新producer f43c20ea固定η=.01、新schema `R278-original-three-equation-inexact-p3-restoration-LM-eta0p01-v1`；旧ce93硬锁.1完整保留且不执行。12个原函数/类与整个try/search/final/finally正文逐字相同，保实际d3、normal+Schur、inner最后有限点、原full3 merit/J斜率/.2 Armijo以及8×20/12×20/全部原最终门。
+
+初父只取实际97 status d55b5338/233256B的final.parameters，真实13源闭包不改贴；新producer14源、request原72+1为73。workflow5a562ff1/request05d12abc动态科学调用正文、public78恢复和读回不变。root已读三完整diff/12990B接口/静态checker，73实际15b2028e及当前Git payload、当前公开父件完整字节、640字面节点462浮点词与9fdcfdee整报告重放已核，回执0223afaf。最后97方向弱retention来自试探前基点，仅说明本次较小阻尼试验动机；不预言改善、根或非零BVP。

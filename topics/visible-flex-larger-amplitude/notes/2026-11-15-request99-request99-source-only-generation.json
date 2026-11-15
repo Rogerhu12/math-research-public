@@ -1,0 +1,40 @@
+{
+  "schema": "request99-independent-eta-source-wiring-generation-v1",
+  "base_workflow": {
+    "file": "/tmp/visible-larger-request97/visible-larger-public-small-core-resonance.yml",
+    "bytes": 20497,
+    "sha256": "705d94c43f39b3c00acb3ddc037fdbab8c347780ba24b2a7b128bc8b9a940198"
+  },
+  "base_request": {
+    "file": "/tmp/visible-larger-request97/public-small-core-resonance-request.json",
+    "bytes": 20103,
+    "sha256": "6e4c05517e82b4fb0ed2337faf6c03fc6d5382b1027d3e9d91f481342ff67a89"
+  },
+  "new_source": {
+    "file": "/tmp/visible-larger-request99/geometry_20261115_small_core_inexact_p3_eta_0p01.py",
+    "bytes": 46126,
+    "sha256": "f43c20ea6b8a5616b4330870897a1d0b6bd2c157435544366af1fe70dcdff7bd"
+  },
+  "new_workflow": {
+    "file": "/tmp/visible-larger-request99/visible-larger-public-small-core-resonance.yml",
+    "bytes": 27537,
+    "sha256": "5a562ff17f0c202fd918ccb9208609938091ff9150619698305b7ef6b834926e"
+  },
+  "new_request": {
+    "file": "/tmp/visible-larger-request99/public-small-core-resonance-request.json",
+    "bytes": 32927,
+    "sha256": "05d12abc4134f508d4682d8deece2ce857ad989d70de16ccc1ed4d133f724daa"
+  },
+  "parent": {
+    "file": "/tmp/visible-larger-recovery-2207/actions-debug/visible-mainline-smallcoreresonance-43676647334-1/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+    "bytes": 233256,
+    "sha256": "d55b5338880cabaae44bd7575db9a10bcba22fad4ae1fce0225f1ef38064f331"
+  },
+  "old72_pins_unchanged": true,
+  "new73_pin_count": 73,
+  "parent13_source_count": 13,
+  "new14_source_count": 14,
+  "only_local_source_JSON_bytes_work": true,
+  "numerical_import_or_evaluation_performed": false,
+  "Git_or_workflow_dispatch_performed": false
+}
