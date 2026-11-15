@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 E：加权Q端点保持与小解析帽球](results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md)：真Q核K_e<5、w=e^-2∫sC给完整2K_e门，未知二次65ρ²与outerζ/200及两mean保。σ1/8192、ρ3e−6、ζ9.9e−10时主体Lip<.881/image<.99ρ/端点<.9ζ；**条件为新joint加权系数q_w<1e−5，尚未运行**。旧L1只作合法指数升级、128物理矩之外用全F12尾，不重算旧积分；不能提前授帽存在或global height/ν/matching。12777B，SHA256 0e6c0f6acfa4a40378176cf56e03ee941d1932885149a64cd145a7b4e9b91cfe。
+
 - [R133 实际帽L1与完整reference端点源](notes/2026-11-15-R133-actual-cached-cap-L1-reference-endpoint.md)：公开43692857656/1 child0/12门；原7296中1341帽行/949reference/1346交段，known affine<3.038615461e−7、R非mean<2.486289618e−14，完整Cmean单保。两较大long域及条件body门已过，三类未知端点反馈仍待，未冒nonlinear cap解。
 
 - [R119 真graph近似右逆与完整端口缺陷](results/R119-supplement-reference-graph-approximate-right-inverse-and-exact-port-defects.md)：先准确解回L0v证明窄源图域；低E20/source1794无T损，高loss1734/bg+1796，pure2^10485768/high2^41943040。完整EN、DΠA残差mean、实际H_p两端和唯一global λ保；C¹三余项给one-high导数差。尚非全nonlinear端点Schur。

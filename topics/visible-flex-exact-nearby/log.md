@@ -185,3 +185,5 @@ root全文核A/2bcb7d4e…：A10先证明图像正则再吸收、A13低E20真正
 root全文亲读6889B报告bc19415f…、13372B process b782c9a2…、27436B summary f5eea9a8…并核43692857656/1 child0/12门/.6466279869999951s；7296旧行、1341帽行、949ref、1346新共同格精确区分。known affine3.038615461e−7/R非mean2.486289618e−14，全部mean/独立ports保。22pin中17历史精确恢复，旧target/primitive/residual/ODE/matrix零重算；新5761966B输出58b354c6…未持久化。三次真pull末08:05:40.200486→ed7bdaf8e87b0386bcb6166fd5450c1f11f5de48，两README实际diff全空。rZ两域与条件body成功不授完整endpoint invariant；后继unknown三反馈继续。当前ref核959171e61e956a896a2c0ae087b8c4b7dfc7ba0e。
 
 2026-11-15 08:25:38 UTC：按T/c0408ef4部署整原2549片的 signed common-reference Taylor 四件入口；root全读SCI/worker/flow/manifest67pin、newton复核完整形式合成、tail复核径/角双Cauchy与独立mean。旧R0尾与新Rs尾分列，全部有限Laurent系数先相加后取模，未把根点小量当整片界。actual尚无。同步归档9554B旧H（5a230aaf…），压缩只移记录不删数学门。root亲读Green08:23:21真pull→4f4121a6ea192c5ee7d2a4d80e889946e6a7ae1d两README diff空；本次be4ee4a69a2398786811aaae608e60f9177de640再次核相同blob。
+
+2026-11-15 08:26:07 UTC：独推E/0e6c0f6a完整条件帽定理。root逐式构造；tail独核E5–16真核/权/全卷积/mean，phase亲读F11–20、S10–13、actual c589a454后核E17–23与严格球账。径w和角ω_ang分名，128有限模权及无限F12两尾均付；未新增数值计算，q_w<1e−5明确尚未验证。当前5ec7b6af0e9352bb1152ce17d7e047da9cd46f60根/题README blob与已读规则一致。

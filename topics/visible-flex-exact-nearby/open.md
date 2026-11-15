@@ -121,3 +121,7 @@ A/2bcb7d4e…先从残差方向式读回L0v，故真进入E_s；低E20/source179
 ### 整片 signed common-reference Taylor 的最小新消费已部署
 
 T/c0408ef4 的4件公开入口已完成全读：SCI a0f12f84d55c4735507e71e40d35cd343777d00dad4b5ec5c2e73804230198be、manifest11e993bae75adf3a667ba7f7d8c28f9fb38f3fde8d12e34df938c82baef2ea65，67pin/54原Taylor+2旧stage；只计算新V/共同T反函数/ℬ和signed合并、全片混合导数双尾。fa完整原范数与全部旧系数只恢复。实际结果待公开run，不授整源Nraw、正端Schur或strong-return。
+
+### 帽的完整端点不变域已化为一个新系数门
+
+[E1–23](results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md)将全帽未知Q线性、二次和真outer三反馈一起闭合，条件为σ1/8192的q_w<1e−5。ρ3e−6/ζ9.9e−10的严格球账已证，内γ≤1e−9/物理sB fB保持。该新门尚待公开Actions，须用旧4650row+完整mode envelope+part004原mean槽新范围及repair逐mode求joint；不重算原target/残差/全卷积/L1。通过才可登记局部真曲率帽存在；F21高度、同一内mean/phase、负体/尾/ν仍须联立。
