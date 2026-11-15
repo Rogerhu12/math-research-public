@@ -16,7 +16,7 @@
 
 **R792** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)及工程冻结，仅pending待R787。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d/wrappercdac2e93be2082ee9a9401db44c944689a6d853d541b0819a4d1408c84134b3e。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根；21次Q分解唯一奇因子+三次gcd。先原CM值/首jet，四值全零才补高jet。只真β_C/vβ，不选原A有限核前像。
 
-**R803** [证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)/[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。run43702905620/source2a3f5be764ecd335e7980557800d15959574bc8e，10:47:57UTC已success、待完整产物IO；core1233536f/wrapperb8cedc8f/request1e04be73。原M6维694、42项/1680Q行，四补行为E4M2[0/73]/E6/eta12；U0与56旧张量不重算，五mixed共一694Q块/最多84右端/full1680。781原输入实际IO全过、最小31.8MB；统一重构界与硬中断断点全审。尚无实际minor/新坐标。
+**R803** [证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)/[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。run43702905620/source2a3f5be764ecd335e7980557800d15959574bc8e，10:47:57UTC已success、待完整产物IO；core1233536f/wrapperb8cedc8f/request1e04be73。原M6维694、42项/1680Q行，四补行为E4M2[0/73]/E6/eta12；U0与56旧张量不重算，五mixed共一694Q块/最多84右端/full1680。781原输入实际IO全过、最小31.8MB；统一重构界与硬中断断点全审。已成功产物196,959,640B/artifact14158313322，SHA726bc2dc；公开纯IO审核已激活，实际minor/新坐标待读。
 
 **R801长尾已完整认证**：[结果](results/R801-certified-original-power6-to8-long-tails.md)。run43701282817/source92961ce5，796.738575秒；V6到141/V7到175/V8到195，完整30781输出/30773stage、1.05GB ZIP、10477原bundle成员及冻结verify逻辑全核。cert1fbcd66f，artifact14156204348至Nov16 10:06UTC。实际全部power2..5也到195；七八铅笔V3至136/149缺口已关闭，直接复用。无新函数/极除子/高度。
 

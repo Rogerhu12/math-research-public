@@ -632,3 +632,7 @@
 ### 2026-11-15 19:02（Asia/Taipei）｜serre-public-astra-20261115
 - 登记R805实际认证：n=1，739下pencil/S均秩690、det509/332，V2补基det488；15.520676秒。公开IO run43706758013全1322manifest项/1324ZIP/1272原输入及冻结verify已过。
 - 真pull于11:00:18.765935UTC读到6bdaec3b57a766b596efeaab9b59f2814b7d4bd2，两README无变化，H已记录。两项R807所需41项真实前缀交后继，R806/R807继续；主目标仍OPEN。
+
+### 2026-11-15 19:03（Asia/Taipei）｜serre-public-astra-20261115
+- 为已success的R803 run43702905620激活完整纯IO审计，核196.96MB原ZIP、781原输入、冻结wrapper.verify及84列原完整1680行认证字段；只读真实结果，无新数学重算。
+- 新增本课题公共workflow `.github/workflows/serre-R803-success-io-audit.yml`，用于失联期间核成功产物并实际pull/比较两README；一日摘要，不把raw存Git或Release。集成更新ref遇GraphQL错误且main已前移，已重读最新父提交和共享文件后重建，禁止force；真实pull由此workflow执行。
