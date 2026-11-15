@@ -337,3 +337,6 @@
 
 
 - [R383. 准确R323同一目标与coast控制必要带](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)（已证身份/解析结论）：完整原core/C根族/cut/窗口/准确九p一致使165的严格speed反证传到169/179初点；不混numeric分片标签与准确唯一分支。coast只受p3/theta3/eta3，中心速度−κ+2LC·theta3给必要开带，未代入新数值/证明全搜索无解；原小字段可在Actions重建同目标供180真实修域。
+
+
+- [R386. 准确coast共同缩放的显式可行半径与C²界](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)（已证条件构造）：三个完整补偿的一/二阶一致界给统一β充分域半径，保持准确两端零2jet、自然长度和强C²连续；非零dyadic档在数学上有限到达，有限实现预算仍须实际支付。新目标参数须重新完整求解，原其它分片/同g几何责任不消失，不预填180成功或添加门。

@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:02:43 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0405515b6404ab00f782f283d2892b9c76525e81。
+规则同步记录：2026-11-15 19:04:58 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 66be1b6940e56fa5094c7ccd3ef4b970642fc04a。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -26,7 +26,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
 |177 R379 geometry|43747934170 /d7540200dcf5e10378471620915aa29a39389862|原全根族112两图Riccati/cut，17pins|
 |178 R377 amplitude|43749066353 /d9336e76fe9948d642e6e079bbdf26946b6d42d4|固定164 support1/k4，完整十列Newton/clip/Cauchy，8×20|
-|179 R382 geometry|本次发布，实际run/source待回填|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
+|179 R382 geometry|43749949418 /ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -54,10 +54,12 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 180 R384由amplitude实现：Actions仅恢复165原小input/result/construction（旧大log内部扫描）和历史core，按原factory重建同准确C/419片；共同dyadic β缩放coast三系数，从大到小实际完整域求可行新参数，其余418片重付一次，保准确有理系数/投影和所有未决。不是仅诊断/不是新增BVP门，不重C/旧巨差额网格；原剩余六系数固定，实际结果未预填。
 
+[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)已证coast共同β的显式充分域界：同准确base余量r_*>0/LC≤Λ、κ<1，C0/C1完整三项给β≤min(1,r_*/(2Λ²C0),(1−κ)/(2ΛC1))，保a≥r_*/2和|as|≤(1+κ)/2；零系数分支、强C²/同长度/全部其它片责任及有限dyadic档与固定预算区别保。不新加门，不预填180结果。
+
 R380已证全局Prüfer实角lift/两比较/正log幅度/准确二幂换帧；物理Robin相关范数下界与原QPi完整变换分责，DN仍全cut高度隔零。181 R385由exact据此实现独立同C/全根族112/cut入口，不改177/179、不假设其失败，也不保证固定bits/宽度成功。
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)已发12414B/a93f1ce6：新support1=[L0,L0+δA]/power4同三jet、degree10域/自然L/公共u、独立(3,10)层/七shape固定453/全冻450接点；旧178硬复制base/mesh/J，不能只换profile。此ξ不修coast，180优先其实际域债。R351/173/R363/R366/R370完整伴随/全站/G/H/span仍有效，不新增rank门。
 
 ## 恢复与保存
 
-[178前完整open检查点](notes/2026-11-15-open-checkpoint-before-request178.md)链回全部旧结果；open §4–6未减。notes保存完整接口，computations与公开workflows是实际源。未推源丢失按H/接口记录重做；已清raw只能真实重算，不凭SHA恢复。104清理后168796207B非当前统计，未知旧JSON未全分类。新成果立即逐条推送，持续下一未付子题。
+[178前完整open检查点](notes/2026-11-15-open-checkpoint-before-request178.md)链回全部旧结果；open §4–6未减。notes保存完整接口，computations与公开workflows是实际源。未推源丢失按H/接口记录重做；已清raw只能真实重算，不凭SHA恢复。179发布树abdd74a9的完整Git metadata为8665文件/182282267B，无≥100KB的MD或>5MB文件；未知旧JSON未全语义分类。新成果立即逐条推送，持续下一未付子题。

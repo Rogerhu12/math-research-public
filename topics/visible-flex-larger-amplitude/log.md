@@ -323,3 +323,8 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:59:43 UTC /root — 179完整current-C远端与453入口
 
 sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文53436B及27024B接口已读；recipe/request全JSON结构差异核原参数/输入不变，十件即推。全R375幅度管/R357候选行及sameowner H/J/FD/full453/audit保，单必要摘要/清理范围明确；初点R381反证不冒可行父。真pull已读7af9b9da8bee95c4cd12a68fe8f2ae64b01dd890，双README未变。
+
+
+## 2026-11-15 19:04:37 UTC /root — R386准确coast显式可行缩放
+
+完整三项多项式界/统一余量/显式β/强C²和原长度证明写成即单独推；180可用合法充分界或原完整Bernstein，不增加验收门、不给未来数值。179实际run43749949418已回填，完整Git树metadata182282267B/8665文件满足体积及MD界；真pull已读66be1b6940e56fa5094c7ccd3ef4b970642fc04a，双README未变。

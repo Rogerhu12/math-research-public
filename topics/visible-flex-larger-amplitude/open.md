@@ -94,6 +94,8 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已核原core/准确C/全根族/cut/R323窗口/九个准确dyadic系数，证明165反证适用于169及179冻结初点的同一准确目标，不冒literal IEEE结论。numeric416明确coast，但未返的accurate分支列表不补称唯一。该段只有p3/theta3/eta3直接作用，L不随九系数变；中心−κ+2LC·theta3及其必要带已证，未代入实际LC/中心或推全搜索无解。180恢复原165小绑定与历史core，在同准确构造上真实缩放coast三系数并重付全部域，输出可供完整BVP的新参数；support1 ξ不代这项修复。181独立实现R380全角传播，均不修改179或新增接受前门。
 
+[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)已证coast共同β的显式充分域界：同准确base余量r_*>0/LC≤Λ、κ<1，C0/C1完整三项给β≤min(1,r_*/(2Λ²C0),(1−κ)/(2ΛC1))，保a≥r_*/2和|as|≤(1+κ)/2；零系数分支、强C²/同长度/全部其它片责任及有限dyadic档与固定预算区别保。不新加门，不预填180结果。
+
 ### 3C. 当前C自己的零场与完整453非零BVP
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。
