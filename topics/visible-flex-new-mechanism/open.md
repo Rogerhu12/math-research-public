@@ -128,7 +128,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 新run43748050775/job132915623212/source1f794c77已完成7新恢复/签名人工全过、原10检查及117依赖只读复用；x/y的两网η/曲率差全0、14gates同，原scalar/J两factory历史签名重放过，仅两个evaluation元数据叶不同，其余物理/IDs/e/f/de/df全严格。9bank/state hash07a1f00全同，新y确实重获72480/144960两个ID/完整池5,8。随后冻结capture→full_views(y)因扩池后epigraph_cache None报错，0rebind、0SOC、新ordinary4、末验0，属于接口失败，不是负算法结果。active35.496937388s，x ordinary初始化226.895550283s，process280.088787387s；原x保留、没有z。
 
-下一仅修新driver的扩池后同y行视图恢复，真实计数核不增ordinary/不改gates。已过7人工不得机械重执行；公开源证明复用后只核新增接口。原117科学源、source cfg、sameg/b0/159/163、source12LP/40值/120active/SOC10s全保，原y学习不删，不能冒hold。科学payload只runner/stdout；首43747845778的sparse缺项发生科学前0执行，原失败note保。仍只对历史x比较，不用它替换当前更佳主线；全完成门欠。
+[完整失败边界](notes/observed-m10-post-learning-capture-failure-20261115.md)已保。新driver在capture前用原evaluate/fine重装同y，实际counter/IDs/versions/物理SHA全核、要求0新普通值，miss如实收费并停止。七已付人工按原DEV/源码及helper原文复用执行0，只首次做新增2缓存接口人工，源/预算不变后接唯一SOC。原117科学源、source cfg、sameg/b0/159/163、source12LP/40值/120active/SOC10s全保，原y学习不删，不能冒hold。科学payload只runner/stdout；首43747845778的sparse缺项发生科学前0执行，原失败note保。仍只对历史x比较，不用它替换当前更佳主线；全完成门欠。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门

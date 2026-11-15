@@ -25,7 +25,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **扩池SOC实际**：[原结论](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/job132905938795/5fa2424，10新检查过，117/119依赖/原cfg及原9bank准确；7接受、9primary+3旧SOC，η.266366277975→.266347520761、fineκ57.999988521；原门/盒过，.26欠。新expanded生产0，下降非其效果。m3/m7细网新行、m2/6旧17guard，末bank11/B1/8000/streak0；完整费用/首fixture只读失败保原件，不重。
 
-**m10 run43748050775**：job132915623212/source1f794c77，7新人工全过，旧10/117只读复用；exact x/y两网η/κ差全0、14门同，旧scalar/J两factory签名重放过（仅2evaluation叶差），9bank/hash全同。新两ID72480/144960/池5,8准确，但capture full_views(y)遇epigraph_cache None，尚未rebind/J或SOC；4新ordinary/0LP/0末验，active35.496937388s，x初始化226.895550283s，过程280.088787387s。不是数学失败/分支效果。原x保留，修新布局行视图恢复顺序，已过7不重跑；原117/cfg/g/b0/159/163/预算与gates全保。首43747845778只缺sparse旧workflow、科学0保原note。当前主线best仍扩池实际.266347520761，不用历史x冒后继。
+**m10同y缓存修补已挂**：[首科学失败](notes/observed-m10-post-learning-capture-failure-20261115.md)43748050775/job132915623212/source1f794c77，原7人工过、旧10只读；exact x/y两网η/κ差0、14门同、旧J/两factory/9bank及新ID72480/144960/池5,8同。扩池清epigraph后capture报None；4新值/0LP/0末验，active35.496937388s/过程280.088787387s，原x保。新driver仅capture前原evaluate/fine重装同y，计数/ID/version/物理SHA须零增量；已过7按原DEV/source复用，只有新2缓存接口人工首次待出。原117/cfg/g/b0/159/163/预算/门全保，唯一SOC继续；request61789B/SHA525d43fe843675aec4ff4dfb399ab0405b8e646190926089f11a463707e4d288。首43747845778 sparse失败科学0保，主线best仍.266347520761。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -52,4 +52,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 03cfb0755f2bb912b0a9aab34009cac2ec72238d，双README blob同。API读取不冒实际pull。
+断连API复核main 215af6c4f07f58afeb5276fc51e3db73979c0c6d，双README blob同。API读取不冒实际pull。

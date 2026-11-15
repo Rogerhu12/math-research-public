@@ -190,3 +190,58 @@ CLI：
 stdout 标签为 M10_SOC_PRIOR_CHECKS_REUSED、M10_SOC_DEVELOPMENT、M10_SOC_HISTORICAL_CASE、M10_SOC_MODEL、M10_SOC_SUMMARY、M10_SOC_COMPLETE、M10_SOC_REPORT_METADATA。最后一项给完整 JSON payload 字节/hash，不以 workflow success 替代数学结论。
 
 冻结时：新代码未执行；没有新的科学数字、没有已通过的新七项声明、没有新的接受点。
+
+## 11. 首次科学 capture 失败后的唯一缓存修补与已付七检查复用
+
+本节覆盖第10节最初冻结时的“七检查尚未运行”状态，保留该首版记录。第10节旧源码表和旧 workflow SHA 是首轮历史；本节为下一次首次完成同一科学路径的准确接口。科学目标仍唯一 m10，不增加一个 primary 或 SOC，也不延长预算。
+
+### 11.1 已完成证据与失败边界
+
+run43748050775 / job132915623212 / source1f794c7701191a3a5516fbc15b1a72035075f7b4 的原七接口检查全部通过，elapsed0.0037305280000055063s。原DEV JSON+LF为13482B，SHA256 03f49325b19eeab6394b76941c003ec90d8a79364ae8af92e8df80aa2472f1dd；整个日志3021131B，SHA256 92b9f7884560ba6368dea30c9cad34723b4db288621aca14f215702546acccf3。后续科学失败不能抹掉这份已付开发证据。
+
+同run已恢复 exact x/y、原两网 eta/curvature差0与14门一致、老 scalar/J/two-factory 签名、9-entry bank及两条真实新ID。失败点是扩池后立即 capture_failed_trial→full_views(y)；原 set_pool 已清 epigraph_cache，所以读取其vector时报NoneType。它尚未建立扩池J或求SOC。完整边界另见 observed-m10-post-learning-capture-failure-20261115.md。
+
+### 11.2 新生产语句
+
+在 expand_pool/learn_fine_violations 和全部原历史IDs/versions/learning计数校验之后、原 capture_failed_trial 之前，插入：
+
+    restore_failed_y_layout(objective, y, cache_restore_record)
+    check_value_account()
+
+helper仅调用原 evaluate(vector(y)) 与 fine_decision(y)，然后原 full_views(y) 的严格同state缓存合同。它不求J、不求LP、不替换物理geometry、不改sourcecfg、不修改原capture/rebuild/correction。
+
+before/after普通coarse/fine调用计数、两池ID SHA、版本、159数组与真实物理SHA都保留。成功须实际普通增量恰(0,0)，且state/IDs/versions准确不变。finally始终记录真实计数和耗时，异常保真实类型/消息。若实际cache miss收费，helper如实记账并明确停止；不假记0、不扩大八值计划、不借余下原40值悄悄续算。原x重装已在v2中同样记录零额外普通调用合同，本修补不修改它。
+
+### 11.3 原七组只复用，不执行
+
+新入口保留旧十组的原117源码 proof。另读取这次失败run内唯一成功DEV，其run/job source、completed/failure、整个log和DEV原字节/SHA必须准确一致；要求七组true、passed/all_passed、errors空与geometry/primary/SOC/olddeveloper调用0。
+
+原七检查源码全文不变；原117依赖不变。旧DEV的119源字典，剔除唯一driver后，必须与新120源剔除driver及新增cache开发模块后的118项逐项相等。新的driver全文当然不同，因此不冒称它与原DEV整源同hash。
+
+为证明已付七组实际调用的接口没有改变，Actions只读原source commit中的原driver，核54699B及SHA256 5a69407ea22297c0af8558643f45aa8a50588670697143d5ed23c2b63126685e；仅以ast提取原文，比较 select_case、_leaves、compare_observable_binding、verify_historical_model、check_decisions 五个顶层函数与新driver逐字相同。原driver只作文本读取，不import/执行。整个旧科学job虽failure，独立DEV仍可严格复用。
+
+输出 M10_SOC_PRIOR_EXTRACTION_REUSED，明确seven_interface_executions_this_run=0。原M10_SOC_DEVELOPMENT不重新发成七组重跑。
+
+### 11.4 唯一两组新必要人工
+
+新增 frame_metric_observed_m10_cache_development.py，developer_check() 只做两组：
+
+1. 使用已存 source-defined artificial_arrays 数据构造小数组/物理map，绑定真实 EntryTail154Objective.full_views 和原 core.capture_failed_trial。先让epigraph_cache=None复现同一NoneType边界；再经新restore helper、真实full_views及真实capture，检查同x/y、所有IDs/versions/binding、不可写独立两网views及真实计数(0,0)。evaluate/fine_decision明确为缓存array stub，不冒真正非线性几何求值或网格验收。
+2. 同一新helper中故意使array stub收费一次，确认真实计数(1,0)被记录、zero标志false、立即拒绝且未调用full_views/capture。此人工计数不是实际几何调用。
+
+不运行原七developer_check、原十developer_check、原优化器或任何科学fixture。旧 artificial_arrays 只复用已存定义的数据构造；没有重跑它所属旧suite。新两组只在公开Actions首次执行，冻结时没有passed声明。
+
+### 11.5 最终绑定及接线
+
+| 本次改动文件 | UTF8 bytes | SHA256 |
+|---|---:|---|
+| scripts/frame_metric_observed_m10_soc_audit.py | 63144 | cd76846bf5dbab2322142b99eacb87f93fa6c73351abdb8747a1a534b3c8dec2 |
+| scripts/frame_metric_observed_m10_cache_development.py | 10590 | bd96a010ae4f3bb9de305fbff891d8553312b80f7b3cc68b5d318400aa53f0bc |
+
+原七开发文件仍12600B/918702d5f6a6a25014fe2f0bc8235a60fafa38bc8c87d8c1bb8dbb3d6fdea5ca。原117、旧workflow、reader、原输入参数和全部科学预算均不变。
+
+request沿 source1f794 的已修 sparse workflow，SHA256 97bb49675db6d7bf5c4d09d3b5c39a16b01bf47d2c9b29dc4ea715b605ad7f92；不再次修改workflow。新source绑定123项：120 Python源、两workflow、一个原祖request。相对该已失败source，source_sha256仅driver变更及新增cache模块。new_python_sources仅新driver/cache模块，旧七源仍绑定但不重新执行。
+
+CLI、98原read-only prepare参数、原24输入、initialbank、cfg、10sSOC、120active、八新值/总40值、唯一新SOC、零primary均不变。新日志只增加/替换开发标签为 M10_SOC_PRIOR_EXTRACTION_REUSED 与 M10_SOC_CACHE_DEVELOPMENT，其余M10_SOC_标签原样。workflow没有要求旧开发tag，故无需为这些标签改编排。
+
+本次未执行新源码或人工；仅已存输出消费、源文本和行政SHA/diff。root独占下一公开提交与运行。若新科学再次失败仍保准确阶段，不以开发通过代替SOC完成。

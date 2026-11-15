@@ -7,6 +7,8 @@ are executed only in the public repository Actions. No source cfg is changed.
 """
 from __future__ import annotations
 import argparse
+import ast
+import base64
 import copy
 from fractions import Fraction as Q
 import hashlib
@@ -37,7 +39,8 @@ require = transfer.require
 
 def implementation_hashes():
     result = frozen_audit.implementation_hashes()
-    for name in (Path(__file__).name, "frame_metric_observed_m10_soc_development.py"):
+    for name in (Path(__file__).name, "frame_metric_observed_m10_soc_development.py",
+                 "frame_metric_observed_m10_cache_development.py"):
         p = Path(__file__).parent/name
         result[name] = hashlib.sha256(p.read_bytes()).hexdigest()
     return result
@@ -297,6 +300,60 @@ def check_decisions(new_coarse, new_fine, old_coarse, old_fine):
     return result
 
 
+def restore_failed_y_layout(objective, y, record):
+    """Reinstall selected-layout caches at the same already-evaluated y.
+
+    Pool learning clears epigraph_cache. The original complete ordinary
+    geometry/fine values must still be reusable; this function never grants
+    an unobserved zero charge. A miss is retained in record and rejects this
+    eight-value replay before any capture/rebound/SOC.
+    """
+    started = time.monotonic()
+    state = np.asarray(y, float)
+    before = [int(objective.geometry_evaluations), int(objective.fine_evaluations)]
+    versions = [int(objective.pool_version), int(objective.fine_pool_version)]
+    ids = [array_digest(objective.pool), array_digest(objective.fine_pool)]
+    physical = digest(objective.problem.identity(state))
+    state_sha = array_digest(state)
+    record.update(schema=SCHEMA+"-post-learning-y-cache-reinstall",
+        status="started", new_ordinary_counts_before=before,
+        pool_versions_before=versions, pool_ids_sha256_before=ids,
+        failed_independent_array_sha256=state_sha,
+        failed_physical_state_sha256=physical,
+        methods=["original evaluate(vector(y))", "original fine_decision(y)"],
+        no_selected_J_or_primary_LP_requested=True)
+    try:
+        objective.evaluate(objective.vector(state))
+        objective.fine_decision(state)
+        after = [int(objective.geometry_evaluations), int(objective.fine_evaluations)]
+        require(after == before,
+                "post-learning y cache reinstallation charged ordinary geometry; "
+                "declared eight-value replay stopped")
+        require([int(objective.pool_version), int(objective.fine_pool_version)] == versions
+                and [array_digest(objective.pool), array_digest(objective.fine_pool)] == ids,
+                "post-learning y cache reinstallation changed the expanded layout")
+        require(array_digest(state) == state_sha
+                and digest(objective.problem.identity(state)) == physical,
+                "post-learning y cache reinstallation changed the failed physical state")
+        # Use the original strict cache contract; there is no implicit value call.
+        views = objective.full_views(state)
+        require(len(views) == 2 and [v.grid.label for v in views] == ["coarse", "fine"],
+                "both original complete same-y views were not restored")
+        record.update(status="complete-no-new-ordinary-value",
+                      original_full_views_same_state_contract_passed=True)
+        return record
+    except Exception as error:
+        record.update(status="error",
+            error={"type": type(error).__name__, "message": str(error)})
+        raise
+    finally:
+        after = [int(objective.geometry_evaluations), int(objective.fine_evaluations)]
+        record.update(new_ordinary_counts_after=after,
+            new_ordinary_calls=[b-a for a, b in zip(before, after)],
+            zero_extra_ordinary_calls_observed=before == after,
+            elapsed_seconds=time.monotonic()-started)
+
+
 def reuse_completed_checks(request):
     original = request["reuse_completed_expanded"]
     current = frozen_audit.implementation_hashes()
@@ -333,6 +390,90 @@ def reuse_completed_checks(request):
             "old_primary_or_optimizer_executions_this_run": 0,
             "development_payload_sha256": reader.digest(payload),
             "redirects_without_authorization": redirects}
+
+
+def reuse_completed_m10_checks(request):
+    """Consume seven paid checks from the original failed scientific job.
+
+    The successful DEV is bound independently of the later scientific status.
+    Its original driver is read as source text, never imported or executed.
+    Every helper used by those seven groups must remain text-identical.
+    """
+    original = request["reuse_completed_m10_interfaces"]
+    api = reader.GitHubReader(REPO)
+    run = api.api_json("/actions/runs/"+str(original["run_id"]))
+    job = api.api_json("/actions/jobs/"+str(original["job_id"]))
+    require(run["head_sha"] == job["head_sha"] == original["source_commit"] and
+            int(job["run_id"]) == int(run["id"]) and
+            run["status"] == job["status"] == "completed" and
+            run["conclusion"] == job["conclusion"] == original["conclusion"] == "failure",
+            "original paid m10 DEV run/job/source identity differs")
+    raw, redirects = api.job_log(str(original["job_id"]))
+    require(len(raw) == original["log_bytes"] and reader.digest(raw) == original["log_sha256"],
+            "original completed m10 DEV log differs")
+    records = []
+    marker = "M10_SOC_DEVELOPMENT "
+    for line in raw.decode("utf-8").splitlines():
+        if marker in line:
+            payload = line.split(marker, 1)[1]
+            records.append(((payload+"\n").encode("utf-8"), json.loads(payload)))
+    require(len(records) == 1, "one original seven-check DEV payload required")
+    payload, result = records[0]
+    require(len(payload) == original["development_bytes"] and
+            reader.digest(payload) == original["development_sha256"] and
+            result["all_passed"] is True and result["passed"] is True and
+            len(result["checks"]) == 7 and all(v is True for v in result["checks"].values())
+            and not result["errors"] and result["old_developer_calls"] == 0
+            and result["geometry_calls"] == result["primary_LP_calls"] == result["SOC_LP_calls"] == 0,
+            "original seven-check DEV was not fully completed")
+    current = implementation_hashes()
+    driver_name = Path(__file__).name
+    cache_name = "frame_metric_observed_m10_cache_development.py"
+    previous_sources = result["source_files_sha256"]
+    require(len(previous_sources) == 119 and len(current) == 120 and
+            {k: v for k, v in current.items() if k not in (driver_name, cache_name)} ==
+            {k: v for k, v in previous_sources.items() if k != driver_name},
+            "one paid dependency or the unchanged seven-check source differs")
+    path = original["driver_path"]
+    require(path == "topics/visible-flex-new-mechanism/scripts/"+driver_name,
+            "original m10 driver source path differs")
+    data = api.api_json("/contents/"+path+"?ref="+original["source_commit"])
+    require(data.get("encoding") == "base64", "original small driver is not base64 source")
+    source_raw = base64.b64decode(data["content"])
+    require(len(source_raw) == original["driver_bytes"] and
+            reader.digest(source_raw) == original["driver_sha256"] ==
+                previous_sources[driver_name],
+            "original driver bytes do not bind the paid DEV")
+    old_source = source_raw.decode("utf-8")
+    new_source = Path(__file__).read_text(encoding="utf-8")
+    helper_names = ("select_case", "_leaves", "compare_observable_binding",
+                    "verify_historical_model", "check_decisions")
+    def helpers(source):
+        tree = ast.parse(source)
+        found = {name: [n for n in tree.body
+                 if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name == name]
+                 for name in helper_names}
+        require(all(len(v) == 1 for v in found.values()),
+                "each paid helper must have one top-level definition")
+        return {name: ast.get_source_segment(source, nodes[0])
+                for name, nodes in found.items()}
+    before, after = helpers(old_source), helpers(new_source)
+    require(before == after and all(isinstance(v, str) and v for v in before.values()),
+            "a helper covered by the original seven groups changed")
+    return {
+        "original_run_id": original["run_id"], "original_job_id": original["job_id"],
+        "original_source_commit": original["source_commit"],
+        "original_scientific_conclusion": original["conclusion"],
+        "original_DEV_all_passed": True, "completed_interface_checks": 7,
+        "seven_interface_executions_this_run": 0, "old_optimizer_calls_this_run": 0,
+        "development_payload_sha256": reader.digest(payload),
+        "original_driver_sha256": reader.digest(source_raw),
+        "unchanged_paid_helper_source_sha256": {
+            k: reader.digest(v.encode("utf-8")) for k, v in before.items()},
+        "unchanged_old_seven_development_source_sha256":
+            previous_sources["frame_metric_observed_m10_soc_development.py"],
+        "all117_frozen_dependencies_and_old_seven_source_equal": True,
+        "redirects_without_authorization": redirects}
 
 
 def compact_report(report):
@@ -573,6 +714,9 @@ def run_case(prepared, out, *, process_started, prepare_seconds):
         model["scale_feedback_trials"].append(copy.deepcopy(trial["scale_feedback"]))
         model["exact_binary64_independent_proposed_step"] = copy.deepcopy(
             source_model["exact_binary64_independent_proposed_step"])
+        cache_restore = model.setdefault("failed_y_post_learning_cache_restore", {})
+        restore_failed_y_layout(objective, y, cache_restore)
+        check_value_account()
         failed = core.capture_failed_trial(objective, primary, x, y, old_versions,
                                           binding, 10, 0, trial, cfg)
         model["expanded_pool_same_failed_trial"] = copy.deepcopy(failed.report)
@@ -869,12 +1013,14 @@ def main():
     args.out.parent.mkdir(parents=True, exist_ok=True)
     reused = reuse_completed_checks(request)
     emit("M10_SOC_PRIOR_CHECKS_REUSED", reused)
-    import frame_metric_observed_m10_soc_development as development
+    reused_seven = reuse_completed_m10_checks(request)
+    emit("M10_SOC_PRIOR_EXTRACTION_REUSED", reused_seven)
+    import frame_metric_observed_m10_cache_development as development
     check = development.developer_check()
     check["source_files_sha256"] = implementation_hashes()
-    emit("M10_SOC_DEVELOPMENT", check)
+    emit("M10_SOC_CACHE_DEVELOPMENT", check)
     require(check.get("passed") is True and check.get("all_passed") is True,
-            "new historical extraction and signature-domain checks failed")
+            "new post-learning cache reinstallation/capture checks failed")
     try:
         prepared = prepare_case(request,
             args.out.parent/"original24-read-only-preparation.json", started)
