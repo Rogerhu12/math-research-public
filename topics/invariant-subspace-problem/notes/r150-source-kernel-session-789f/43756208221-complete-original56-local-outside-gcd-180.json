@@ -1,0 +1,358 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "complete-original56-local-outside-gcd-180",
+  "executionSourceCommit": "4af263bb810f74ab57be1088bbcb9560b06e2c7f",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-complete-original56-local-outside-gcd-789f.py",
+  "scriptSHA256": "0e111c2334bf62e4b4404d84c8af5e9f62ee99a6b64f766bad541c126b1e7fa4",
+  "argvTemplate": [
+    "--upper-source",
+    "{scripts}/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+    "--core-source",
+    "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "--parent-checkpoints",
+    "{work}/original-global-projection-polynomial/checkpoints",
+    "--upper-out",
+    "{work}/original-three-minor-determinant-upper",
+    "--out",
+    "{work}/complete-original56-local-outside-gcd",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 240,
+  "exitCode": 75,
+  "wallSeconds": 168.46296282099956,
+  "fullTemporaryReceiptBytes": 6724,
+  "fullTemporaryReceiptSHA256": "a8390db3edb3fb97854759cd5a759cc84fcc0ec014c30d820e3435db42216271",
+  "result": {
+    "binding": "862cca4d82af7c8031de01117b2f18516c0d3622a73b4e794c4f3280a0fe9850",
+    "elapsedSeconds": 168.33506122200015,
+    "format": "r150-complete-original56-local-outside-gcd-v1",
+    "message": "Whole prior transaction retained; pending work not committed",
+    "status": "budget-checkpoint",
+    "parameters": {
+      "actualUpperIsSquareOfSquarefreeDegree60": true,
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allLargeArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "completeOriginalOutsideGcdComputed": false,
+      "completedTransactionsThisCall": 12,
+      "identity": {
+        "algorithm": "all56 rows; squarefree-unit Schur; exact support splits; upper-clamped finite precision",
+        "coreBinding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+        "coreLogicalSHA256": "752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8",
+        "corePayloadSHA256": "efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5",
+        "coreSource": {
+          "bytes": 34432,
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        },
+        "format": "r150-complete-original56-local-outside-gcd-v1",
+        "knownFactors": [
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            -8,
+            32,
+            -25,
+            5
+          ],
+          [
+            864,
+            864,
+            135,
+            5
+          ],
+          [
+            9600,
+            -25472,
+            -3392,
+            15936,
+            -2888,
+            -936,
+            153,
+            50,
+            5
+          ]
+        ],
+        "source": {
+          "bytes": 29457,
+          "sha256": "0e111c2334bf62e4b4404d84c8af5e9f62ee99a6b64f766bad541c126b1e7fa4"
+        },
+        "upperBinding": "5fc42d162e51b638ce06bbd67c2afd5755539a95a3bf5a650c4155df0ed6c8ef",
+        "upperCoefficientSHA256": "150089b4e115b8d975d4e4eb13492779a692a6af258094f852af22b7f34e652d",
+        "upperRaw": {
+          "bytes": 8436,
+          "sha256": "a18b3c1dd68890455a2b256adf1dfd9a9d690b60f81c99155be6e60a507dd145"
+        },
+        "upperRecord": {
+          "bytes": 12999,
+          "file": "current-outside-gcd-upper.json.gz",
+          "payloadSHA256": "e1722fa0f09424affa18c29e4275858619cf4c789a891937fc6c6d4355a867c1",
+          "sha256": "b6c26ab0cfae6a08dbdb02ebac570ef2fffaec953a0de4d9aef422b74815c3ab"
+        },
+        "upperSource": {
+          "bytes": 29189,
+          "sha256": "4ae559a6b1b5efdf3d88e1f59bc987895f0f6ab5ec8dd2d61d5a55db3ef9a1be"
+        }
+      },
+      "inputs": {
+        "allOriginal56RowsPresent": true,
+        "full56NormalizedMatrixSHA256": "d14d2a7961f056925a153580aaa3b47ca4ee987f22f35bc585f4f3d123d6fb0e",
+        "originalColumnCount": 22,
+        "originalRowConstantScalesSHA256": "c72e60a80f9fa4aac9e78fd9a79441e88da5e9d107acd616cddcf9bb884da2df",
+        "originalRowCount": 56,
+        "paidCore": {
+          "constantRowScalesSHA256": "c72e60a80f9fa4aac9e78fd9a79441e88da5e9d107acd616cddcf9bb884da2df",
+          "normalizationOriginalPolynomialCoordinates": 1232,
+          "originalCoreLogicalSHA256": "752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8",
+          "originalIntegerCore": {
+            "logicalSHA256": "499523dd6a9287c19b0f22b1551ce130a256cbd888462bd1b93498994b91d7cb",
+            "maximumCoefficientBits": 409,
+            "maximumDegree": 126,
+            "nonzeroPolynomials": 641,
+            "shape": [
+              56,
+              22
+            ]
+          },
+          "parentBinding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+          "parentManifestActualIdentity": {
+            "bytes": 5650,
+            "sha256": "c43828673dc6513c43042e4452c91d146e78a26a15b3b82aa3f9e8a87ff49aa9"
+          },
+          "phasePayloadSHA256": "efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5",
+          "phaseStored": {
+            "bytes": 1394807,
+            "sha256": "8693870cd23a4693d840d2d27bc1e0676ff4b8253a2b9c85e7b3c267a8199a82"
+          }
+        },
+        "upperCoefficientSHA256": "150089b4e115b8d975d4e4eb13492779a692a6af258094f852af22b7f34e652d",
+        "upperStatistics": {
+          "coefficientSHA256": "64c4bb8be9715e4f8bb252a98ca1e5a78d02ccee594946fefba56af058ba44df",
+          "degree": 120,
+          "denominatorBits": 150,
+          "numeratorMaximumBits": 344
+        },
+        "upperStored": {
+          "bytes": 12999,
+          "file": "current-outside-gcd-upper.json.gz",
+          "payloadSHA256": "e1722fa0f09424affa18c29e4275858619cf4c789a891937fc6c6d4355a867c1",
+          "sha256": "b6c26ab0cfae6a08dbdb02ebac570ef2fffaec953a0de4d9aef422b74815c3ab"
+        }
+      },
+      "lastWholeCheckpoint": {
+        "binding": "862cca4d82af7c8031de01117b2f18516c0d3622a73b4e794c4f3280a0fe9850",
+        "format": "r150-complete-original56-local-outside-gcd-v1",
+        "generation": 12,
+        "record": {
+          "bytes": 43284279,
+          "file": "state-slot-0.json.gz",
+          "payloadSHA256": "62b4c7b3953267f08261a9ebb391ca3f7bd9e35f3ade3b649b0ef45b62b263b9",
+          "sha256": "cfb398322a69810a2c98a80ffb593df9513535e9979f776463dfc8f84cd8952f",
+          "temporaryOnly": true
+        },
+        "slot": 0,
+        "summary": {
+          "allBranchSummarySHA256": "a736bf34e81232b2d033daf446f38ad09db9390f34385c642676a983c6a96d28",
+          "branchListsTruncated": false,
+          "closedBranchCount": 0,
+          "closedBranches": [],
+          "completed": false,
+          "generation": 12,
+          "pendingBranchCount": 1,
+          "pendingBranches": [
+            {
+              "factor": {
+                "coefficientSHA256": "c2e27cf7e732257b695a6fa655f24b2305fd817a779baa3965a2eccc5f663dc2",
+                "degree": 60,
+                "denominatorBits": 75,
+                "numeratorMaximumBits": 171
+              },
+              "id": "0",
+              "mode": "profile",
+              "operationCount": 12,
+              "paidValuation": 0,
+              "precision": 1,
+              "profilePivots": 12,
+              "remainingColumns": 10,
+              "remainingRows": 44,
+              "replayedPivots": 0,
+              "upperExponent": 2
+            }
+          ],
+          "splitCount": 0,
+          "unitPivots": 12,
+          "verifiedOriginalReductionCoordinates": 1232,
+          "verifiedSchurCoordinates": 9350,
+          "wholeFactorDivisions": 0
+        }
+      },
+      "memoryMiB": 2048,
+      "newNineTargetGlobalMembershipClaim": false,
+      "oldDeterminantsNotRecomputed": true,
+      "oldHermiteStateNotRead": true,
+      "originalCoreNotRecomputed": true,
+      "originalOutsideDivisorOneProved": false,
+      "remainingSeconds": 180.0,
+      "resumed": false,
+      "squarefreeGroups": [
+        {
+          "coefficientSHA256": "c2e27cf7e732257b695a6fa655f24b2305fd817a779baa3965a2eccc5f663dc2",
+          "degree": 60,
+          "denominatorBits": 75,
+          "numeratorMaximumBits": 171,
+          "upperExponent": 2
+        }
+      ],
+      "tinyExactVerification": {
+        "coprimeSplitVerified": true,
+        "higherPrecisionDivisionVerified": true,
+        "independentAllMinorGcdVerified": true,
+        "pendingPivotInputUnchanged": true
+      }
+    },
+    "events": [
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 21,
+        "remainingRows": 55
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 20,
+        "remainingRows": 54
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 19,
+        "remainingRows": 53
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 18,
+        "remainingRows": 52
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 17,
+        "remainingRows": 51
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 16,
+        "remainingRows": 50
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 15,
+        "remainingRows": 49
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 14,
+        "remainingRows": 48
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 13,
+        "remainingRows": 47
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 12,
+        "remainingRows": 46
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 11,
+        "remainingRows": 45
+      },
+      {
+        "event": "complete-full-row-unit-Schur",
+        "id": "0",
+        "mode": "profile",
+        "precision": 1,
+        "remainingColumns": 10,
+        "remainingRows": 44
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 21:56:31 UTC",
+      "beforeReadCommit": "da70f5ccc3b32967e4354d471d24c186344f9480",
+      "originMainAfterPull": "4af263bb810f74ab57be1088bbcb9560b06e2c7f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 21:59:21 UTC",
+      "beforeReadCommit": "4af263bb810f74ab57be1088bbcb9560b06e2c7f",
+      "originMainAfterPull": "a86eda16ede3057ea7f69d1a31f4fe9882437311",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 61,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 20924,
+    "logicalJsonSHA256": "3323b76fe9d5ed7133dcc4c103290f614f6224988c09e5440503cb79506cacc3",
+    "itemCount": 61
+  },
+  "lastRulesReadCommit": "a86eda16ede3057ea7f69d1a31f4fe9882437311",
+  "summaryExcludesRecomputableArraysOnly": false
+}
