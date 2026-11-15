@@ -28,7 +28,7 @@ newton_source负责。原有限193 actual43635487128 child0/8门仅给有限负�
 
 [实际完整97提案](notes/2026-11-15-R133-actual-complete97-cap-adjoint-proposal-v2.md) run43662865692 child0/5门：1977节点/1976片、257state×97input新QR和独立动作完成，native acb2151b…；finite relative6.9688e−15不是连续误差界。515原文件/1.125GB仅原artifact。原7908whole/64补点和v1失败中已成selection全复用，0target。首实际float0.9与真9/10必须按同一Hermite极短延拓处理。
 
-四格337pin连续ordinary/Hessian Gram run43664278200已实际child0/9门；原quarter0/64/4096/7907完整97 signed矩阵、独立mean、无限系数尾、原Hessian转置与全部真交段保。它只授这四闭格；newton_source正在构造复用这四格、仅补7904缺格的完整覆盖。数学与摘要全部保原对象身份，任何新数组只能在公开Actions生成。
+[四格实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)：337pin连续ordinary/Hessian Gram run43664278200已实际child0/9门；原quarter0/64/4096/7907完整97 signed矩阵、独立mean、无限系数尾、原Hessian转置与全部真交段保。它只授这四闭格；newton_source正在构造复用这四格、仅补7904缺格的完整覆盖。数学与摘要全部保原对象身份，任何新数组只能在公开Actions生成。
 
 下一项并行支付真左97输入误差、完整外Robin/mean、原trial高输出composition/alias/无限tail Gram，之后同完整97右Poisson合成。没有full7908与所有边界费用，不授新的无限帽high-to-low或真实ν门。
 

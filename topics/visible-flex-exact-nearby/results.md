@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 连续伴随四闭区间的完整97 signed Gram actual（2026-11-15）**：[实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)。43664278200 child0/9门、42.4305s，quarter0/64/4096/7907保完整mean、无限系数误差、真实Hermite交段与Hessian转置；0target/旧QR。四格true ordinary Gram trace上界分别1.244641e−28、9.983373e−9、4.844180e−25、7.886543e−33，完整矩阵符号交叉项原样保。只授四格，后继复用并补7904及全边界/high输出，不外推全帽或参数Schur。
+
 - **R133 十二阶 old-rho Airy Taylor actual（2026-11-15）**：[完整报告](results/R133-supplement-actual-append-only-old-rho-Airy-Taylor-through-twelve.md)。43664023495 child0/19门，89pins、75旧stage逐字保、新205stage和287完整发布文件；0旧target/FFT/cubic/aux/output重算。相同fixedη0/复δ≤1e−8/内窗9e−6，forcing/w1到12、leading14，完整支持a1±2496/b1±2688。width1/512 raw local pair<68.712280537/13452216.620035，normalized<3.701070441/724580.830344，分别保sup/Wiener，均未授完整operator source或strong-return。
 
 - **R119 完整1024阶角 Sobolev 闭网络及物理帽 Schur（2026-11-15）**：[U1–28](results/R119-supplement-complete-1024-angular-Sobolev-network-and-physical-cap-Schur.md)。对同一实际对象/五盒点，重新支付真实角交换子与全lag费用，扩大高阈值后从旧完整逆准确恢复新增remaining频带；新双逆权mixed差<2^-4300000，通量/高度域与全mean保持，强source空间逆<2。同固定物理η0/δ0帽反馈<2^-31000000。它只给有限Sobolev窗，平端C²仍须实际层衰减和原单位重建，原解析标签与参数族均未转授。

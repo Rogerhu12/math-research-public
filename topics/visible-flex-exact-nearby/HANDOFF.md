@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 01:50:12 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 01:50:31 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
-最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 01:40:32.307071 UTC 608cab996b9f406492205ac38a1e75ac0117cf9b；Taylor12原过程两README diff空。
+最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 01:44:00.594123 UTC 1a973e6ab0306b0fc63eb19829e4fc094ab79f21；伴随Gram原过程两README diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：760280899bc5e808003acb189f7b18b9ac811d04；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：68609233ff4afeb336bdf9e0553bc1ea59d91bc1；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
 前H9756B完整存notes/2026-11-15-handoff-before-actual-Taylor12-and-adjoint-cover.md（6622b612…），包含前H9724及全部历史链；旧open29021B同名open归档（45a8a8db…），当前open仅列仍有效任务。旧log在notes/2026-11-15-log-through-inner-source-deployment.md；原actual/native/失败/参数/逐行证明全部保。
 
@@ -24,7 +24,7 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 有限193 actual43635487128/8门/native7fcd5bec…：负ν误差.003509417445587<.005仅有限模型；全L².007490301792401、未知χH.003840162。全6391Gram/5970接口、cross、原F四格全成，禁重算；完整身份/impulse/正high接口保在前H9914B。
 同F5970：225pin v4 43654510038运行，root核group11 child0/13门/192新、processb6467962…18174B；代理核7/12/13/15。E1–4先消同F0、原1e−35门、全Δ保；SCIe2cedf88…/CI71b203d5…/manifest8d334ee7…。旧v2/v3失败和原四格保，未成全5970。
 完整方向Green五件SCI9dca5868…/CI37098586…/234pin manifest3350a96f…已装；实际5970全矩阵后自动back→forward各320min/10min真pull，逐行signed covariance、真96/97、even mean、全部V跳、独立cut保，不授无限逆。97右Poisson五件SCI312398be…/CI97117632…/238pin manifest94e46b22…已装，完整forward实际完成后自动接；同源signed Gram与真BR97边界/全部残差保，尚无新Poisson数学。
-A1–29/d054ee75…全帽伴随后验保S*=mV、97误差Gram、PH Iφ high/Hessian/真Robin/mean/全部jump。v1 43662395328 child1/0QR与f6cdd51f…全保；只修真左端选片，完整门不变。v2 actual43662865692 child0/5门、1977节点/1976片/257state×97input完整QR与动作，finite residual6.9688e−15非连续界；native acb2151b…4425B/process abe7652b…20571B，原selected与7908+64全复用、0target。完整515文件artifact14140199819/1125474991B；337pin四格ordinary/Hessian完整97Gram六件已装core689bf2c5…/SCIae3b90c1…/CI3f7c1f58…/manifest467cd31f…：真交段/9/10/mean/无限尾全保，0target/QR重算；待actual，继续全7908、左右端/high输出，未授full high-to-low。
+A1–29/d054ee75…全帽伴随后验保S*=mV、97误差Gram、PH Iφ high/Hessian/真Robin/mean/全部jump。v1 43662395328 child1/0QR与f6cdd51f…全保；只修真左端选片，完整门不变。v2 actual43662865692 child0/5门、1977节点/1976片/257state×97input完整QR与动作，finite residual6.9688e−15非连续界；native acb2151b…4425B/process abe7652b…20571B，原selected与7908+64全复用、0target。完整515文件artifact14140199819/1125474991B；337pin四格actual43664278200 child0/9门、42.4305s，quarter0/64/4096/7907真交段/9/10/mean/无限尾/Hessian signed97Gram全成；nativeeb58b97a…30674B/processb349e709…18571B，0target/QR。64格true trace<9.983373e−9，finite残差主导；只授4格，正复用补7904并付左右端/high输出，未授full high-to-low。
 
 ## Airy根、第一修正与全源：phase_inverse、root
 
