@@ -39,6 +39,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [CT完整密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保χ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差、全mean/未知全频及c0=U_Pinv f̃−−f̃+。同R31条带1/128+3B<7/128<1/16与e3L/eL付全initial/jump/residual；新完整signed目标由SN继续，旧scalar/ray/KAM不重，具体全域与单位保c820e3a6原文。
 [SN合同](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170与第三准备77e36f22锁；前四失败/lost保19df原文。[第五实际停止与已成prefix](results/R133-supplement-actual-signed-density-interruption-and-preserved-prefix.md)18a3a7f6：43746794222/1监督metadata HTTP502杀child−15，科学failure=null，17门/204pins/8AST。execd2855e79/SCI97f2e921完整root复原；314旧interval/1256新subcells成功，双四error及cursor34092249179194657/144115188075855872保actual；2831 mean/speed已成。365535907B临时gzip7a83abf8只有hash，LP/reference系数丢失；明确记录后只重建314×4 point nominal/mean-midpoint/reference，禁重成功prefix残差/parameter/Gram/旧准备。无旧refhash不冒核，suffix maxima不冒全程，完整target/C未付。
 
+[SN丢失参考的精确恢复合同](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7：314×4由原parts≥4与总1256严格推出；原reference_step仅用point0..5，原mean midpoint和320bit/ctxcap9/运行时/inputs固定，归纳复原相同endpoint。只重建lost proposal，不重1256残差/parameter/energy预算；saved四误差上端与next2831完整mean/speed读回，继续未完suffix。新hash只标reconstruction，旧prefix maxima未知，所有suffix诊断范围显写；root/phase独核原六函数与helper，尚无新运行/最终C。
+
 [AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
 [CN全圆周正规化](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2的Id+MwI准确逆保全mean/rank；旧linear-reference的μ²/4费保留。
 [EN完整指数正规化](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)ed2ff38e须直接signed验证R=ζUΩexp(McI)+Eexp0，才以exp(MwI)得base strong≤e^(26C)[Rexp0+67|μ|C/8+131C²/512]；C0无独立μ²仅因为reference已指数。旧Elin→新Eexp必须完整signed差，不准upper相减。
@@ -140,14 +142,11 @@ R/MC保fδ=f0−δb0+δrmean e2−δ²T2−δ³T3、连续repair/offset径导/in
 
 ## 8. 执行规则与当前可恢复记录
 
-只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，consumer实核topic≤200MB+120KB预留。
+只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
 
-全部旧删除/恢复/原域/producer/参数/失败逐字保3f716b507943ddccfd818db5cb53f5b937701421本路径第8节和H/log，递归b04a6/506de/81041；原清单均保。R64/R66/R91/R95四件1049034B恢复dc10bb948416e2f89f4cd487867b6a06cceb5f48；R93/R94/D5五件800471B清单6d66c2c5，恢复6d7c7422888a1bdf02e6eba7183954f5fc49a6fb。全部同path/bytes/SHA，无historyrewrite，原scope不变。
+全部旧删除、restore、原scope、producer/输入/参数/失败逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9本节及H/log，原白名单继续保留；归档不授重算。四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint的恢复与完整SHA均见该档和各原清单。
+最新[三份旧step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588：普通删除1221901B；原producer/对象/root/H/精确证书/active inputs及全部反射/插值失败保。恢复8870549d52e48343cb43a979a13f9368cb992736同path/Gitblob/bytes/SHA，成功诊断禁重。没有history rewrite。
 
-本次依[三份D5 endpoint输出清单](notes/2026-11-15-D5-three-old-endpoint-output-deletion-whitelist.json)ac4eb046，普通删除617556B；只旧step3 grouped/shared516与step4 shared1032浮点输出。精确恢复8870549d52e48343cb43a979a13f9368cb992736同path/bytes/Gitblob/SHA。原scripts/objects/root/H/manifest/proof保，step4浮点root导与strict区间不相容诊断保；不是ODE证书/seed，成功诊断也不得重做。
-
-本次另依[3份旧step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588普通删1221901B；仅positive probe/D5/D8的旧样本diagnostic JSON，非exact PDE/C2/ODE证书。恢复8870549d52e48343cb43a979a13f9368cb992736同path/Gitblob/bytes/SHA，原R48 manifest的完整三entry、原producer/全部参数/输入/反射及H-node/period29失败均保清单和原小proof。脚本、objects、root、H、精确多项式证书及active CI输入不删，成功旧diagnostic不重。
-
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功、禁force。每小时真pull后查两README只读diff即照新规记H。18:44:44定时CLI仍无executor，直接核main b13dfa18两README原blob未变；根规8限UTF8<100KB connector，不把ref读叫pull。下一定时真CLI≤19:44，runner实际真pull/容量见完整receipt。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机18:44:44定时CLI仍无executor，下一定时真CLI≤19:44；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。

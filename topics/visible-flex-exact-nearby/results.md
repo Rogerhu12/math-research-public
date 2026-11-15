@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SN精确参考恢复合同](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)：314×4和原point0..5/mean-midpoint/degree6递推唯一恢复丢失proposal；直接读1256已成完整误差及next2831准备，禁重残差/parameter/energy。只给确定性恢复依据，不假核无存的旧reference hash或prefix maxima。
+
 - 容量清理：按[精确白名单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)普通删除3份旧step02浮点geometry输出1221901B；原manifest SHA、producer/输入/参数/失败scope和公开8870549同path恢复全保，非重算、非history rewrite。
 
 - WL新标量consumer部署：直接读D/CPA/WA三份成功小receipt及原正算法，8个固定输入214104B，六个同case第五列与六个腰贡献；18门/2AST设计。原rows/积分/Green/WA都不重算，尚待唯一自然公开CI实际结果。

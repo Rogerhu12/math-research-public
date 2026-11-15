@@ -278,3 +278,7 @@ root全文读397行SCI及相对IN稳定worker完整diff，delimiter397/527行静
 ## 2026-11-15 19:02:15 UTC — 精确历史保留的3份旧浮点geometry输出清理
 
 root亲读原R48 frozen manifest8074/82c742e4、step02 checkpoint13896/e866f2f0及完整producer6121/c9c709f6。三旧输出positive probe407310/27623fcf、D5 geometry407294/afda2786、D8 geometry407297/32d0a4d8合1221901B，当前删除前逐Gitblob/bytes严格核；SHA来自原manifest，不读取>100KB正文。清单11062/f89875885dbac21572d5a387657ab4ce0b41f09eb8318e8e1f6dc5fff8f11a8b完整保原路径/producer/argv/输入与trial对象/浮点反射及Hnode/period29失败，原R48精确多项式证明不变。恢复公开8870549d52e48343cb43a979a13f9368cb992736同path并核bytes/Gitblob/SHA，成功诊断禁重；仅普通删除3JSON，未改history、无binary/新artifact。SN/WL/DR/SA四当前输入清单路径均无引用。7a0a6b2aa7c3af7de08a602fedc5e879abbfd1a1两README原blob未变。 同时精简H中的CH/SR，仅归档到215af6c4f07f58afeb5276fc51e3db73979c0c6d，所有原式/域/条件保留。
+
+## 2026-11-15 19:04:19 UTC — SN丢失reference-only确定性恢复的解析核
+
+root全文读11138B/7edf79c7合同和64734B/b41ab438候选SCI差异；原helper reference_step k0..5只用F/a0..5，whole6只入原residual；新mean-reference两句与原mean_reference逐字同算式，首格exact旧mref直接读。原至少4分格/314count/1256total严格定四分，固定inputs/helper/runtime/320bit/ctxcap9，归纳得同丢失endpoint。phase独核六关键数学函数原字不改；prefix不调whole Taylor/residual/parameter/energy，原errors上端与next2831读回，完整后缀尚待。科学恢复范围先在2f8be6正式记lost，旧gzip仅hash不得称已恢复；suffix maxima/新refhash身份显写。此次仅推数学合同，源码worker待最后合包审。open第8旧清理细账逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9，不取消旧scope或恢复义务。e875cfd6064ab16dfa8ddb1f9716c29079d00c06两README未变。
