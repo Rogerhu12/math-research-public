@@ -89,3 +89,7 @@
 ## 2026-11-15 16:07:59 UTC /root — R346实际158原接受与诊断接口失败分离
 
 [R346](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)完整原结论核后即发：α1/8接受/新warm FD通过，前3档为原域拒，末native/fullDN仍false；后置0.2647s绑定失败、0/75776，非预算或原model拒。原8文档138成员、1057172B joblog及1961B error全核；166按station/原显式control返回身份修复，不猜74次、不假恢复已清raw。API核ab3616788bbe241cab4cabcbf277d3b19d8744d3双README未变，真pull原行保留。
+
+## 2026-11-15 16:08:47 UTC /root — R349原151完整日志及读回边界
+
+[R349](results/R349-actual163-original151-complete-log-reconstruction.md)全文核后即发：163 read151一次原日志下载，470411检查及五语义组全匹配，原输入/结果与完整覆盖收据已读。原65535节点预算/10468未决/globalδnull不变；65535节点仅字节覆盖、未逐值重证，不以汇总猜主因，167继续157原字段。API核cab806da9d4e74d9dfce0762da728c84b04cde43双README未变，真pull记录保留。

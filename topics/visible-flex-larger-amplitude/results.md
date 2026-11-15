@@ -226,3 +226,5 @@
 - [R352：共享校准正规形式与全九项Bernstein目标包围](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)（已证明，条件包含定理）：同一准确collar/coast/last-transition先消去重复依赖，三个支撑各全三项合并，再于同一u形成完整差多项式及向外Bernstein。原419片/支撑内外/双闭端点、数值参考全部字面校准缺陷及同场metric责任保，不改参数或缩语义盒，不预填151主因、165精度或实际δ。
 
 - [R346：actual158原37一步接受与后置绑定错误](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)（实际Actions有限诊断）：四trial，α1/8接受，W43.363003729098274→43.33605694766103；新warm FD四阶8.81884772255149e−10过，native/fullDN仍false。最近拒绝在已选LEFT464/MID471，线性可行不代非线性域。R334因观察总返回与37查询错误等同而绑定失败，0/75776及全17未付；8文档/138成员/1961B错误完整核，真实controls总数未导出不猜。166保所有返回按原身份修，不改原数学门。
+
+- [R349：actual163补齐151原结果、输入与完整日志覆盖](results/R349-actual163-original151-complete-log-reconstruction.md)（实际Actions元数据）：原899965552B compute一次重建，470411元数据检查全同；新语义五组全读，完整原result/input、65535节点/32977cover/10468frontier及32558事务身份保。原仍exit3/globalδnull/0严格反证；全部节点值未逐值重证，不从SHA或汇总计数猜失效位置。无科学重算/新raw，157未读字段由167独立补。

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:07:59 UTC 已读 ab3616788bbe241cab4cabcbf277d3b19d8744d3，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:08:47 UTC 已读 cab806da9d4e74d9dfce0762da728c84b04cde43，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推，未确认临时件不当已保存。
 
@@ -29,7 +29,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：43731669039/132865254053/source de638f2a。原37model α1/8接受，W43.363003729098274→43.33605694766103，新warm FD8.81884772255149e−10过；native/fullDN仍false。R334输入绑定错误，0/75776及全17未付，非预算/原模型拒。8完整文档/138成员/1961B error核；166按station/显式返回身份配对，实际总calls未导出不猜74。
 
-163已全success：43732715988/source4e1decc718c712b2eaa26a7da598d89236a21ef0，read151132868511229/read157132868510914/report132868952547。amplitude唯一核小report/两index及151新semantic；157新semantic仍Transport closed无正文，原完整矩阵不能冒已读。R349/R350分别记范围；167只读原163 log的精简必要原字段，不重科学。
+163已全success：43732715988/source4e1decc718c712b2eaa26a7da598d89236a21ef0，read151132868511229/read157132868510914/report132868952547。amplitude唯一核小report/两index及151新semantic；157新semantic仍Transport closed无正文，原完整矩阵不能冒已读。[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已发、R350/167保未读范围；167只读原163 log的精简必要原字段，不重科学。
 
 ## 完整native路径：145、155、160、161
 
@@ -51,7 +51,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 ## 公共坐标与九控制方向
 
-[R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：target127.386056539s/65535节点到65536cap，两子事务前止；完整u盖32977叶/10468未决、严格反证0、globalδnull/exit3，非900s墙钟。163补原全result/input/五账身份与覆盖，不重算区间；R349待成文。165按同一准确DAG依赖重写/全九项合并/共同变量Bernstein改进，不能缩原语义盒或造径向精度；[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)完整条件包含证明已发，exact实现165。真实BVP不等待这份充分证书。
+[R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：target127.386056539s/65535节点到65536cap，两子事务前止；完整u盖32977叶/10468未决、严格反证0、globalδnull/exit3，非900s墙钟。[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已补原全result/input/五账身份与覆盖，470411元数据检查全同；65535节点未逐值重证，未打印frontier值不猜主因。165按同一准确DAG依赖重写/全九项合并/共同变量Bernstein改进，不能缩原语义盒或造径向精度；[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)完整条件包含证明已发，exact实现165。真实BVP不等待这份充分证书。
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4直线接受/4次normal各20档拒，W末4.9632137875241047283817296655204217818016943746082，末降4.710E−46/预测1E−49，不冒准确下降或根；全finalfalse。完整chain/末九p50/半径.0000390625已保，FD/fullview/model矩阵须以163/167实际已读范围为准，不搬154值。
 
