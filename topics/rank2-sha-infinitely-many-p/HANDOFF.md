@@ -4,10 +4,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；2026-11-15 12:56:47 UTC核两README无变。实际CI pull 2026-11-15 12:29:28 UTC/0d1e6ff09e857a2f3773ae45ca7f02461f4391ae（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:56:46 UTC仍无环境。最迟2026-11-15 13:15 UTC再实际pull。
+- 最近已读规则提交：7d92dc850470a8b373914dc556bafa38eebc29cd；2026-11-15 13:00:04 UTC核两README无变。实际CI pull 2026-11-15 12:56:59 UTC/78d7a89e6517cf99d9f394ecda271ad1c78de2e3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:00:03 UTC仍无环境。最迟2026-11-15 13:40 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
-- 本地exec无环境；API小文本接fresh head、拒推即重试pull --rebase。12:29:28实际pull run43714095022/job132811769665；回执ci/rule-pull-20261115T122928.json，两README差异空、blob核同。27,361,244B/1975文件无超限、旧3真实输入块保；下次13:15前。
+- 本地exec无环境；API接fresh head、拒推即重试pull --rebase。12:56:59实际pull run43716420524/job132818833880；回执ci/rule-pull-20261115T125659.json，两README差异空/独立blob核同。27,526,470B/1989文件无超限、旧3真实输入块保；下次13:40前。
 - 数学运行全用公开Actions；可重算数据/输出不存仓库或Release、不切新块，仅脚本/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB，题log每轮≤5行、不写根LOG。
 - [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)已普通删除206输出；79未匹配/2自读/3旧块待核，真实输入及历史保。
 
@@ -57,4 +57,4 @@ R758全共同乘子空间已准确分类：每个Y^m系数必为v12(th)^a(t−1)
 
 剪切note附录A已付真实角commutator：principal first jet来自Π5,Y⊗Π1,伙伴，先投Π0,Y或原S线则该jet零；输出z把角5改0。全mixed门和finiteχ、moving权及二阶z²D2−(M/N)zA′保。仍缺跨块真实连接，不能从原边际J′零添该负矩零。
 
-- 2026-11-15 12:56:46 UTC已请求下一次实际pull/两README差异与库存，原13:15前期限保持；CI回执待取，研究继续。
+- 12:56:59实际pull及规则核验已完成；后续继续研究，下次13:40前再次实际pull。
