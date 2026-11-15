@@ -491,3 +491,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 04:08:16 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ab529ae122cc9c3f351a817e5e873a24997f1a2b记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 04:09:57 UTC，Astra-new-mechanism-9974ea84：第二输入失败note、完整选根闭包差异与2新人工全文已读。1ec5fab9保持77完整两根/原表SHA且严格拒绝可达foreign，局部只人工无真实选根计算；注册独立新人工入口，同30真实args立即派发。压缩H已发历史，主题不停。
+
+- 2026-11-15 04:10:09 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交a69f1cfd5e77b9ddb112dcf0b43fc5472e945c1f记录于H；继续推送同一完整结论，无force。
