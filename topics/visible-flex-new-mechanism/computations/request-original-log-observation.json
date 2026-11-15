@@ -2,9 +2,9 @@
   "schema": "original-completed-actions-log-observation-request-v1",
   "mode": "read-only-original-actions-log-v1",
   "repository": "Rogerhu12/math-research-public",
-  "source_sha256": "2a6ba62244baf0b0dbf5fe2c3f5c172b9c87e2c257b5e48d9b9cf7863d55f65a",
+  "source_sha256": "6309f9bfdf3ec5f9634d07850e7feeb57d36fdb42add134932917dba25313126",
   "workflow_sha256": "e7c6b9a2346a1d6ec41e1cbd7e0baebe3cf9fdea0d978069656fdbe932abaf89",
-  "reason": "Original result, full final gates, source identities, 10 primary/2 correction LPs and original pulls are already consumed. Read bounded scalar model/trial/nonlinear-error observations from the same original log and perform the authorized hourly private rule/QUEUE sync; no scientific or development rerun.",
+  "reason": "Observer 43733152157 completed real public/private pulls and original binding checks, but semantic output 91124 bytes exceeded 90000. Omit reprinting the already consumed 106-entry source map, retain its original fingerprint and recheck every binding, and read the same original model/trial observations. No science or development rerun.",
   "original_run_id": 43728280256,
   "original_job_id": 132854922848,
   "original_source_commit": "7329385a2dd84a40a271181c017c9a4028ae0f31",
@@ -18,9 +18,9 @@
   "stdout_byte_limit": 90000,
   "publication_policy": "Source/request/run/hash/human conclusions only. The original log remains in memory; readback is semantic stdout only.",
   "completion_claim": false,
-  "previous_observer_run_id": 43732702362,
+  "previous_observer_run_id": 43733152157,
   "original_log_sha256": "65c4dbae5dd981eae9bb8fa6ffccd338c6988e1b4e1778813ef839025421fddd",
-  "sync_private_rules": true,
+  "sync_private_rules": false,
   "expected_private_readme_blobs": {
     "README.md": "5ba164843b1f5802184178a82d786264404873a3",
     "topics/visible-flex-new-mechanism/README.md": null

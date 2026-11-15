@@ -436,7 +436,11 @@ def development_view(report, preview):
 
 def actual_view(report, preview):
     result = {k: v for k, v in report.items() if scalar(v)}
-    preview.field(result, "source_files_sha256", report["source_files_sha256"], 30000, required=True)
+    result["source_files_sha256_previously_read"] = {
+        "source_count": len(report["source_files_sha256"]),
+        "original_full_mapping_read_in_observer_run": 43732214112,
+        "all_bindings_rechecked_against_receipt_here": True,
+        **fingerprint(report["source_files_sha256"])}
     for key in ("final_selection_validation", "value_evaluation_counts", "error", "pipeline_failure"):
         if key in report:
             preview.field(result, key, report[key], 30000, required=True)
