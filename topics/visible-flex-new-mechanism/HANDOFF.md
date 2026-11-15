@@ -4,11 +4,11 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后已读规则提交：`b71230698e5e96d807650bb3ac653607877a9f8b`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 05:47:46 UTC实际pull后已读规则提交：`76f2dcf1d4006e102761dfe13748e65f18e9aba1`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 04:28:52 UTC实际pull至`589cd54e75bff1d9ec80dcb6688afa71e898c381`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅元数据notes/terminal-private-pull-20261115-0428.json。05:19连接API观察main7863a4ab，根blob无差/题README仍无，QUEUE本行仍进行中；这不是实际pull。终端不可用期间按根8读取，恢复即实际pull。
+私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。04:51共享盘满导致rebase失败（不是成功），04:54环境unavailable；根8允许仅GitHub集成时传<100KB小文本，暂用此例外，PAT仍不进API。未推源码/证明恢复成小UTF8 blob，root负责非force原子ref；恢复终端即回真实pull/rebase。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。04:51共享盘满/rebase失败，04:54环境不可用期间仅按根8小文本集成例外发布；05:40终端恢复，旧.git指向已清空tmpfs。保留旧工作文件，在`/dev/shm/visible-recovered-9974ea84/{public,private}`独立partial/sparse clone并实际pull；05:46起恢复终端git push。两仓README与既读blob相同，未重复全文。
 
 ## 2. 完成门
 
@@ -22,7 +22,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 physical全池4414/3790，全部r1/64000、真实norm/r=1，ratio.775–.918；m2遗漏strip拒绝后补行，11接纳。旧raw/native/dev/12模型/全部门已完整消费，详见actual note；不重旧结论。
 
-**下一最小改变：有条件增长下一模型trust**。从同c010/4414/3790/r1/64000、streak0；连续两次首α1完整主步接纳、ratio≥3/4、真实步norm≥.9r、粗细任何新行0、无SOC/回退/缩步才×2，新增明示cap1/1000；任何失败重置，旧缩步优先/至多一次，原min1/102400/drop1e−7/floor1e−7/12LP40值120s全保。24输入/98args，新库19394bea、driver801f1c30；最后摘要去重人工因环境断连未获回执，公开job必须先新开发后实际。不得把此前11次成功冒更大步必成功。
+**growth恢复actual43681388902/source7872857e/job132712596603已全文消费**，见notes/trust-growth-recovered-actual-20261115.md。6接纳至f2bb6c35a10467d37d1c964c0135086b7451d469ab6548420ec76355b3207902，ηfine .26653464896453305（降5.614832698e−6），κfine57.99998601756；.26未达。m2/m9后r1/64000→1/32000；m7全部回退失败后缩回。10主+2无primal SOC/19trial，39共享+2final，活动120.3116s/总543.5076s/RSS3062248KiB，wall预算退。粗/细4414/3864，hash086bff77/a39c799a。原细strip门是归一1−max|y|/.38999≥−1e−9，绝对下界−3.8999e−10；11个完成细网的失败trial余量−4.04…−4.82e−10均足以由strip拒绝。final−2.47348e−10仅旧tol过。两次SOC10.12s均无primal，不冒修正点失败。raw8733077/2f9d65f5与native74799/95069841仅SHA保留。
+
+**下一最小改变：只在primary/SOC条带4/5组加正提案余量**，真实验收/旧曲率提案余量/物理惩罚/增长缩步/12LP40值120s全部不变。先付新的RHS人工例；旧growth末态/池未存，若继续消费，在同一公共job恢复绑定旧源码参数必要前缀，再临时衔接新步骤，不重称旧结论、不伪造runtime raw SHA相同、不把输出改名参数保存。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -42,7 +44,7 @@ R180/R183给真实闭Klein M0/TκH非零及真正重叠的导数分包三阶圆�
 
 **R187已付**：R183矩形补偿的复平方幅全实，q″逐点实/纯虚，I4=∫(f″⁴+g″⁴)>0。真实常态pure σ²首项为−(1+k²)²(1+e_c²)³I4/(12288 h⁵λ⁷)，原尾/交叉forcing和Möbius因子保全；全部二/三gauge不动它。只排充分窄化类，不排任意宽度。**R189去常段桥已证**：R70正则8参数加1个h补偿参数精确守M/ω终值/frame，端全jets固定的Fréchet扰动+Baire去除所有有理区间常状态；任意有限阶贴近原桥。固定有限交换词/R72桥/Klein新实际位移仍给闭M0/TκH与完整R183三阶。只移除常段前提，不给具体数值桥或fourth。不得为已排不交/窄类重跑。
 
-**当前actual43680023529/source9b7c07f**：[growth观察失败](notes/trust-growth-observation-failure-20261115.md)：job132708447996科学阶段complete、开发stdout passed，但printer先展开98KB开发诊断触发20KB门，实际科学表未打印；publisher仅hash回执成功，不能据此宣改善。本提交仅修只读printer并请求公开恢复必要临时报告，原增长人工已观察通过而复用；**R193四系数job132708447958已完整**，23新人工过，4×4有理槽全正，故ReF(qλ)>0对全部λ>0；同一准确补矩C∞邻域全宽度保正，全部二/三gauge不能动pure σ²。root全文读设计/源/日志/receipt。仅标准(0,1,0)原八包，λ支撑[λ,155λ]须在I，不延至一般状态/无常段。新publisher只交receipt来源/参数/run/hash，无payload/artifact/Release；只读日志保全部科学门和失败。
+**R193四系数actual43680023529/job132708447958已完整**：23新人工过，4×4有理槽全正，ReF(qλ)>0对全部λ>0；同一准确补矩C∞邻域全宽度保正，全部二/三gauge不动pure σ²。只标准(0,1,0)原八包，支撑[λ,155λ]须在I，不延一般状态/无常段。旧growth打印失败的来源和恢复边界保留在两篇note；恢复科学结果见第3节。publisher只metadata，无payload/artifact/Release。
 
 **R191已证**：任意w紧支撑在f/g共同常值平台，canonical完整Bθw准确0，任意合法共同入值下商modW零；真实右尾与s历史全保。hook的Lf w亦0，六矩自动0，二阶平方/交叉仅三矩由R47真实第三右逆支付。无限维平台自由度不扩大joint商像。下一单独研究f常/g变区，不能套此结论。
 
