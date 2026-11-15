@@ -227,3 +227,7 @@
 
 ### 2026-11-15 23:53（Asia/Taipei）｜serre-public-astra-20261115
 - R824结果推送遇main/provider引用竞争后立即真实pull --rebase；attempt22读329b6add，两README无diff，按新main重试，不force。
+
+### 2026-11-15 23:54（Asia/Taipei）｜serre-public-astra-20261115
+- 激活R824同核准确27权五＋244权六续算；requestec04ad32相对前请求仅requested_scopes与resume变化，8组原身份/core1ece3cf4/wrapperc5907739/proof/method保持。恢复原1.304GB完整359/7741后直接复用公共算子、14模分支、56+244profile；1186仍由R787负责，不请求全纤维证书。
+- R824实际结果已推bafa6f04；最近真实pull 2026-11-15T15:54:02.395597+00:00读f540fe6a503ca163c9375e64df7ebe57923fcb8c，两README无diff。R827实际来源继续，主目标OPEN。

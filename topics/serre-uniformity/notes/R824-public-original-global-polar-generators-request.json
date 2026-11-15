@@ -6,8 +6,8 @@
     "budget_minutes": 300,
     "producer_inputs_pending": false,
     "requested_scopes": [
-      "common_operators",
-      "modular_generator_profile"
+      "weight5_generators",
+      "weight6_generators"
     ],
     "weight5_free_columns": "all_new",
     "weight6_free_columns": "all_selected",
@@ -165,6 +165,17 @@
         "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30"
       }
     },
-    "resume": null
+    "resume": {
+      "result": "R824-original-global-polar-generators",
+      "run_id": "43729293174",
+      "source_commit": "87c131f1cda02a90da5d66e8c8c9ad440d6f9f25",
+      "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+      "artifact_id": 14168007461,
+      "artifact_name": "serre-global-R824-original-global-polar-generators-43729293174-1",
+      "archive_bytes": 1304153559,
+      "archive_sha256": "bf5be60b98de0c0745fdd757e2947c321ad5eeda25fec9815971d1de89a44d63",
+      "manifest_sha256": "0ca75934c9aa8b740697b0ccf8380051eac1cc4d3633843af0e0dbae86d8dc9f",
+      "expected_conclusion": "success"
+    }
   }
 }
