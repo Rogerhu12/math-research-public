@@ -1,0 +1,44 @@
+{
+  "session": "serre-public-astra-20261115",
+  "audit_script_sha256": "da0e3ac2968c5d3799a48781c1b91cd100419e8a87d2c3634a509af5fef71567",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "original_producer": {
+    "result": "R824-original-global-polar-generators",
+    "run_id": "43729293174",
+    "source_commit": "87c131f1cda02a90da5d66e8c8c9ad440d6f9f25",
+    "artifact_id": 14168007461,
+    "artifact_name": "serre-global-R824-original-global-polar-generators-43729293174-1",
+    "archive_bytes": 1304153559,
+    "archive_sha256": "bf5be60b98de0c0745fdd757e2947c321ad5eeda25fec9815971d1de89a44d63",
+    "manifest_sha256": null,
+    "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+    "certificate_name": "p41-original-global-polar-generators-certificate.json",
+    "files": {
+      "p41-original-global-polar-generators-certificate.json": "028b4d4416c067a5f4f3720573eb42c3e65e896906e02faf40f1cfff8c45a135"
+    }
+  },
+  "expected_certificate": {
+    "file": "p41-original-global-polar-generators-certificate.json",
+    "bytes": 10234,
+    "sha256": "028b4d4416c067a5f4f3720573eb42c3e65e896906e02faf40f1cfff8c45a135"
+  },
+  "expected_stage_manifest": {
+    "file": "R824-stage-manifest.json.gz",
+    "bytes": 22814,
+    "sha256": "8c77705d821387e9d500bbb20c2727435e891979f9c563166bf1b1d295f108a5"
+  },
+  "expected_generator_index": {
+    "file": "R824-completed-global-generator-index.json.gz",
+    "bytes": 4532,
+    "sha256": "d02679f0592107fea2f57709beb88bde1895e96a42f7eb5d451b530b68565c02"
+  },
+  "expected_original_input_bundle": {
+    "file": "R824-retained-producer-inputs.tar.gz",
+    "bytes": 612745716,
+    "sha256": "71b16a02e29ecd682b23ab2cfa475194188acdb41c0380561eeb9af9580983ac"
+  }
+}

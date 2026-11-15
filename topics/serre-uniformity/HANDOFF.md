@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：a70229c1240967eba09d2f3f31437d07b73cb118**（2026-11-15T15:42:40.018442+00:00；公开run43714581068/attempt19/job132864330972实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R829前H](notes/2026-11-15-handoff-before-R829.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：3165d32025656edf7d0bccf17ad2f1ce797d2a4f**（2026-11-15T15:47:34.933099+00:00；公开run43714581068/attempt20/job132865758270实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R829前H](notes/2026-11-15-handoff-before-R829.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -20,7 +20,7 @@
 
 [R824原证明](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)及[实际分裂](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)：旧R787真实ell1000000753/branch0的1186minor det296007862，前级20/1234minor及整性链全核，迫r28/h1=0；原完整极模为28权5＋244权6，无权7。旧R130..142已成，不新算143..155。候选仍须原129/142全条件与V7真实1778纤维minor认证完整；权差1604−398=1206。[分层契约](notes/R824-original-global-polar-generator-consumer-method.md)已推。
 
-R824首scope真实成功：run43729293174/job132857969568/source87c131f1；core1ece3cf4/wrapperc5907739，common_operators＋modular_generator_profile，309.797776742秒。冻结verify核359 manifest/7741原输入；exact5/6仍0，未认证全极模。artifact14168007461/1304153559B/平台ZIPbf5be60b…至Nov16 15:28:05UTC；cert028b4d44、stage8c77705d、indexd02679f0、bundle71b16a02。ordinary正以Range仅读实际profile/branch00/index，供R827；不重下全包/重算数学。之后同核准确27+244，旧1186原方向归R787。公共U129/U142、1521打包及κ/246尺度保原式。
+R824首scope真实成功：run43729293174/job132857969568/source87c131f1；core1ece3cf4/wrapperc5907739，common_operators＋modular_generator_profile，309.797776742秒。冻结verify核359 manifest/7741原输入；exact5/6仍0，未认证全极模。artifact14168007461/1304153559B/平台ZIPbf5be60b…至Nov16 15:28:05UTC；cert028b4d44、stage8c77705d、indexd02679f0、bundle71b16a02。已激活小Range纯IO读取profile/branch00/index（scriptda0e3ac2/workflowaa34d6cf），供R827；不重下全包/重算。之后同核准确27+244，旧1186原方向归R787。公共U129/U142、1521打包及κ/246尺度保原式。
 
 [R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；[五件已保存pending](notes/R825-original-normal-derivative-source-adapter-method.md)，不冒称导数/乘法矩阵已经完成。
 

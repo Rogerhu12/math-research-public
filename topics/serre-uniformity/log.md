@@ -214,3 +214,8 @@
 - R829公开实际run43730863246七项19/32/29/21/8/20/33、交替和16 mod47；仅复用旧R702，原两公式一致。完整日志canonical0f461cc4已IO重哈希，冻结verify成功；惰性j0普遍零猜想已排，不外推全p或同primitive/Legendre。
 - R824首scope run43729293174也已success，309.797776742秒，359manifest/7741输入全verify；原模profile完成，exact5/6仍0。小Range纯IO正接真实字段，后继R827无需重算。
 - 真实pull --rebase于2026-11-15T15:42:40.018442+00:00读a70229c1240967eba09d2f3f31437d07b73cb118，两README无diff；H逐字归档压缩，三项原长计算继续，主目标OPEN。
+
+### 2026-11-15 23:48（Asia/Taipei）｜serre-public-astra-20261115
+- 激活R824已成profile纯IO小读取：复用c5907739冻结Range/ZIP64，只读原manifest/cert/index、branch00与实际14个lower-span小证书；612MB输入包和大公共算子不再下载。scriptda0e3ac2，root全文核，无新数学或额外测试gate。
+- R827首core80750B/1f6ee443及finite helper38baf6b4已全文主审，原B=lambda*b、6724、σ负号、递减jet与全τ证书保留；仍待R809结束后真实S5源，不激活不完整请求。
+- 实际pull 2026-11-15T15:47:34.933099+00:00读3165d32025656edf7d0bccf17ad2f1ce797d2a4f，两README无diff；R829已推1f0f0ee6，主目标OPEN。

@@ -1,0 +1,64 @@
+name: Serre R824 existing success profile IO review
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R824-public-success-profile-io-audit-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R824-existing-success-profile-IO
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R824_public_success_profile_io_audit.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R824-public-success-profile-io-audit-request.json
+            /.github/workflows/serre-p41-original-global-polar-generators-io-audit.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse only the two frozen standard-library IO sources
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root = Path("topics/serre-uniformity/scripts")
+          for name in ("R824_public_success_profile_io_audit.py",
+                       "R824_public_original_global_polar_generators.py"):
+              path = root/name
+              ast.parse(path.read_text(), filename=str(path))
+              print("AST_OK", name)
+          PY
+      - name: Read original small profile members over ZIP64 HTTP Range
+        run: |
+          python topics/serre-uniformity/scripts/R824_public_success_profile_io_audit.py \
+            --output "$RUNNER_TEMP/R824-profile-IO/output"
+      - name: Retain only the one-day IO receipt and selected original inputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R824-existing-success-profile-IO-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R824-profile-IO/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
