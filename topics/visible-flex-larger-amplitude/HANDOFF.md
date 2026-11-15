@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:33:27 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 390c0265582a000e56b3a714dd92f6dbab671b6b。
+规则同步记录：2026-11-15 21:35:52 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 062a36a3f112304e9d66587de9ee2afb4f4b3ad6。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -28,7 +28,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|R407 hole实现已刊；完整入口准备|exact：真98另起39/RIGHT459；actual32节点缺461，完整仿射消元及原H恢复，非171末场|
 |R400连续十族接口|源码准备，未派发科学|geometry：current continuous10→真450 writer/reader/shared guard，真同场tail未付|
-|R405/192/R406|纸证/源方案准备，未派发|amplitude：完整dyadic/digit矩阵核；不截尾、不预称性能、不改190|
+|R405/192/R406|R405证明与完整kernel已刊，192入口准备|amplitude：全部位/指数、一次RN113；不预称性能，不改186/190|
 
 只由唯一负责人读取终态原必要日志，不取运行中大日志。job绿不代科学接受，未返call不补拒。所有来源、配方、预算、错误与未访责任保各完整接口/结果。
 
@@ -40,11 +40,13 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)已推0f323561：67468B/1e9170eb齐，首正s1/64两接受后i2十档全拒，norm3488.882983，10281s非预算。17trial全129248行d=b+Aq+s齐；3同X+3extra仅6新增noJ。末b/Aq微小、s数千且13保存模型下降，只定位finite_secant不唯一归因root/cache/J；extra不接受、H/J/FD/fullDN/final/audit未起，真实清理。
 
-[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)182r3 43757046032/442413b6的89269B/35f0397f齐：128α1 norm1.22096e−4→9.6858247475e−11/replay同；8000s仅20/576 stage，完整556未付地址保正文，boundary/endpoint未起。audit576/7488齐但仅C-based有限程序；原98321B协议70与科学预算独立，原末state已清须真重生。R388/R393不回填，IEEE/准确导数/native/fullDN未付。
+[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)182r3/89269B必要齐：128α1/replay收9.6858e−11；stage8000s仅20/576，完整未付地址及协议70另列正文，112/338未起。audit576/7488齐仅有限程序，末state已清须真重生；IEEE/native/fullDN与README几何仍未付。
 
 [186入口](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)ab246a/03ab保原同括号D6共享/模态hoist和一般geometry fallback，64pins/19200总、owner6000/replay1200、8000/600/600/1800原预算及四消费者保，不预称29倍提速。[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)已推cad3418d：记录系数/实际s/L下right与flux块准确实等价，三literal表/B均值列分开，因子作用是(LLᵀ)^−1非C逆。预装配改变结合/舍入，20bit只是条件途径，完整导数误差另付。
 
 [190完整入口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)九件全读，原64pins+6=70；真91/fresh64/J/R273→128/replay→全576×224→112→338×112/独立audit。R402预装配只重关联，全部原预算/113行C解残差/名义缺陷/226RK/两mean/端口保；非空geometry原fallback。单90KB完整必要/quiet后清，R403等实际。
+
+[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)及18871B/5c2a0cb1 kernel：完整113bit/全指数，20bit有符号int64分块≤2048，12层/64MiB仅选方法，宽指数完整226bit乘积；正负宽累加、subnormal直接量子与一次RN113。无Boost/BLAS，无本地编译/科学；只付输入字词点积，上游误差/原因子/全列终门/性能另付，192实际待。
 
 [188入口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)保105pins/三参数/629gap/17项角事务、直接继承分计与原10800/5400/300/8GiB。R398同准确H(t)直接strict父闭段继承，短提交延期受控信号；硬kill/I/O不假称完整，不回填R372实际175的未访后缀。
 

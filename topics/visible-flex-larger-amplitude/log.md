@@ -519,6 +519,10 @@ run43759673057/fe5f7cc2，两原日志和76157B/acc93f03必要齐；8/8方向/12
 九件已推ef56f16ff3ca573fec8982754fe9d5256748317e，官方run43762998688/compute132961756447于21:19:02Z创建，前13项成功并进入原完整science。
 amplitude唯一终态R403；186仍独立原science，未读取运行中日志或提前认定任何数学完成。
 
-## 2026-11-15 21:35 UTC /root — R407真实39的free461完整仿射消元
+## 2026-11-15 21:33 UTC /root — R407真实39的free461完整仿射消元
 
 [R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)及13361B/b7a5f7e6源全文核后单独发布：原R270任意L定理保，原8479只接连续的具体缺口以真实internal cover完整QR补；338个461变量自由条件消元，所有global/affine/原g及完整H恢复保，actual10819支撑不补零B。无新科学执行/门，191完整八对与单90KB读回继续；184双job终态由exact唯一读取，187真实far在途，完成标准仍未付。
+
+## 2026-11-15 21:35 UTC /root — R405完整位点积证明与源
+
+[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)15867B/b70e768a与18871B/5c2a0cb1 kernel全文核后单独发：完整significand/指数、20bit int64分块/宽carry、正规及直接subnormal一次RN113，无Boost/BLAS/本地科学/新门。仅修源注释最坏65820bit，不改代码；输入字词准确dot不代上游形成/原因子/完整导数误差或提速，192接全224列与原全链继续。H/open压缩已刊重复来源，完整原文在190前检查点；open§4–6逐字保，R407日志分钟按真实发布改21:33。

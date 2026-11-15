@@ -440,3 +440,6 @@
 
 
 - [R407. 实际39非连续支撑的完整仿射内部消元](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)：R270任意L的具体实现，真实459/460/462…491保10819局部坐标，不补零B461。33-node完整cover先消338个free461坐标，再原109core/局部QR；Qᵀ作用全border/仿射列，准确条件最小与原Schur等价。原完整H恢复保−g461、实际local mismatch与全梯度。13361B/b7a5f7e6 adapter随文发布；新binary64次序/成本与原H误差分列，未执行、无QP/native/FD/接受声明，不加门。
+
+
+- [R405. 完整dyadic层、全指数与一次RN113点积](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)：完整113-bit字词/全部非零尾位与指数；20bit有符号digits、每2048项int64绝对和<2^51，12层/64MiB只选实现，宽路径保226-bit乘积和完整carry。正负准确重构，直接subnormal量子、guard/sticky/parity、overflow tie及带符号下溢；准确零+0。15867B/b70e768a证明及18871B/5c2a0cb1自有kernel，无Boost/BLAS；未执行/未编译/无新fixture。只证明输入字词dot及其末次舍入，原系数/因子/全导数/最终门与性能另付；192完整链继续，186/190冻结不改。

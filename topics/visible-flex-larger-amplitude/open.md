@@ -30,6 +30,8 @@
 
 [190完整入口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)九件全读：headerb16fac/stage174296/launcher9d8a/helperdf67/bridgee10f/readera21a/requesta7df/wfb92e，原64pins逐值保留+6=70。每真实field/update从原完整root/PointOperator预装配A_m/A_L及最终F_m/F_L，保N全角、S/cosine/gram独立字面、显式均值1、实际s/L、每update全部113行C解残差/原名义缺陷/226RHS/RK/224列/两mean/端口，非空geometry原fallback。矩阵形成/作用重关联，不声称同词或准确导数误差，integer digit未实现。真父重生与四组件/全部原预算完全保；单90KB必要、完整地址/错误/未访与child reap/quiet后清，不传大阵/编码拆包、不加fixture/门。实际run43762998688/sourceef56f16ff3ca573fec8982754fe9d5256748317e，compute132961756447已入原science；amplitude唯一读R403终态，不取运行中日志。
 
+[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)及18871B/5c2a0cb1独立header完整支付输入binary128字词的准确dyadic点积及一次RN113：20bit层、≤2048 int64分块严格<2^51，真实行/列公共span，12层/64MiB只选择方法；超限完整113×113乘积与全指数宽累加，不六层截尾。正规/直接subnormal量子/overflow tie/带符号下溢齐，准确零约定+0。无Boost/BLAS/新fixture，未本地编译或执行；只付当前字词dot，系数形成/原名义两回代/原C残差/完整导数与性能仍未付。192/R406另起完整R402装配/224列与原全链，186/190冻结不改。
+
 ### 1C. 真37→38与原非线性域
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八对后LEFT462阻挡、末physical .0071041184748284756非BVP且pair已清。[171入口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)97pins真98重生37八对再同job38，22LEFT+16MID/77824行/全236036变量与原109core保。原17档/新FD和所有原预算、四输入、来源/试步/清理完整见R361；170未作门。
@@ -51,11 +53,9 @@
 
 ## 2. 九/十控制与完整三残差校正
 
-[R340](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)/[R350](results/R350-actual167-original157-FD-trials-and-last-direction.md)原九p50/84trial/18FD与W4.9632137875241047283817296655204217818016943746082保原；形成梯度约1e−26不证驻点/秩亏/根，平方模型/形成误差/真余项及未传大表分责。[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)保698cell七状态/全112三列/全部mean和δq=(ah′−bh)/a²，b是原返回斜率而非已证准确a′；新函数不保证补响应秩。
+[R340](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)/[R350](results/R350-actual167-original157-FD-trials-and-last-direction.md)/[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)保原九p50、84trial/18FD/全七状态112三列/全部mean与(ah′−bh)/a²；小形成梯度不证驻点/秩亏，返回b不冒准确a′。R363/R366/R370的零2jet、同坐标全G/H/完整span与不交箱界、共享node责任见完整190前检查点及原文。R373六形状20全拒、R376全1397站/602允许站20全拒均不推函数空间无解，原120FD/Arb/453与失败/清理不回填。
 
-[R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)/[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)/[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)的准确零2jet/同坐标G/H/odd-even/fullspan/不交箱C²界及共享node责任不减。R364类型0call、R371超限、[R373实际164r3](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)六形状20全拒与[R376实际174](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)1397站/602允许站全用20全拒，均不证函数空间驻点/准确秩/同g精化；120FD/Arb/453/错误/读回与实际清理保各原全文及检查点。
-
-[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)给原完整转置主元QR/最小S范数/径向clip/Cauchy下降；准确代数、形成误差与真实有限步分责。[178入口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)保原6b55/3e5、support1/power4、actual157固定S与半径1、全部120FD/原终门，R377/R387/R389不回填，十维不送九owner、finite不改C标签。[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)真R389末点续128接受/1133trial，19步1/128、109步1/256，W4.957835964023→4.923932325275但F3 .112950142747→.296505459996；675.6139s非资源，120FD/Arb1588叶/453/87144B必要齐，真末十词/S及完整未付保正文。
+[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)给原完整QR/最小S范数/径向clip/Cauchy条件下降；[178入口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)保support1/power4、actual157固定S/半径1/120FD/全部原门，十维不送九owner，finite不改C标签。[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)真R389末点128接受/1133trial，19步1/128+109步1/256，W4.9578→4.9239而F3 .11295→.29651；675.6139s非资源。87144B完整必要/十词/S/FD/Arb1588叶/453/全部未付保原文，不冒BVP。
 
 [R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)/3bec helper在每原α固定p/F/W/Jd/slope/bound，用完整3×10纠全3 affine偏离并在原S球投影。每实际点先原Armijo，辅助下降仅改临时点，owner只由原门接受点替换；C²/满行秩条件二次偏离及小α接受已证，固定3×20/20α不保证，实际导数/秩另付。
 
