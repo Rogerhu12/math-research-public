@@ -402,3 +402,9 @@
 - 原unitary三同源/交叉heat/本原源笔记19443B/1df7c782全文核并保存：H/J/C准确保CM点原36截面，full72 theta整模型、双向p关系及完整两边/角点；root直接核Moonen§8.10–15/8.28及Scheithauer Prop4.3/6.1。
 - 新固定整数差权W准确延伸原Legendre×primitive筛，指定源等式的度p+1分量等价原同h三单位，仍未证非零；FG首横向源本身零、μℓ不声称原36全局稳定，旧R739边界保留。R815续算run43748439850/sourcea108ce1e已运行。
 - 2026-11-15T18:44:46.743990+00:00实际pull/read b13dfa18d610ad0995781f506a6bb19650e63a7c，两README无diff；不登记虚假R835或全p结论，主目标OPEN。
+
+
+### 2026-11-16 02:48（Asia/Taipei）｜serre-public-astra-20261115
+- 原projective42核心73bac3a2/方法17c89271/包装fe276ba3全文及原接口增量核完，激活首(C0,C1)/42候选/一格请求；原1380源/430lift保持，不重做五个旧28格，全部新LLL行保存、无高度或单位硬筛。
+- 新.github/workflows/serre-R787_projective_two_probe.yml执行该真实消费者及同次AST；完整129×280仍唯一成功出口，closed失败payload先原子残差+SHA回执再退役、当前/成功全保，节点/格/时间预算分开。旧H/open逐字归档后压缩，原4run接续。
+- 2026-11-15T18:47:11.961605+00:00实际pull/read 7bb3392aaf3ec93271d45de3f2d3b8eaf6aca7a0，两README无diff；仍无真AB/eta/高度，主目标OPEN。

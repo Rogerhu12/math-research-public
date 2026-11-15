@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：b13dfa18d610ad0995781f506a6bb19650e63a7c**（2026-11-15T18:44:46.743990+00:00；rules run43745726410/job132916873235真实git pull --rebase origin main，两README无diff）。旧rules run43714581068达50次限额，不再重跑；新run可继续。14:34UTC终端失联，根§8小文本接口回退。此前完整H逐字保[此次归档](handoff-archive-2026-11-15-before-projective-first-outcome.md)，内接原全部归档；[结果全索引](results-archive-2026-11-15-before-R833.md)与各结果保源pins。
+**已读规则提交：7bb3392aaf3ec93271d45de3f2d3b8eaf6aca7a0**（2026-11-15T18:47:11.961605+00:00；rules run43745726410/job132917583634真实git pull --rebase origin main，两README无diff）。旧rules run43714581068达50次限额，不再重跑；新run可继续。14:34UTC终端失联，根§8小文本接口回退。此前完整H逐字保[此次归档](handoff-archive-2026-11-15-before-projective-two-probe.md)，内接原全部归档；[结果全索引](results-archive-2026-11-15-before-R833.md)与各结果保源pins。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase循环重推，禁force；每小时及每push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -12,9 +12,9 @@
 
 **R787原430位同核续算**：run43737413555/job132883028161/source4092d1cc4d1156bc24a10ff820fd39c5713e8ad7，core93d3d72b/wrapper42157e0d，约21:47UTC预算端点。[430断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)保原run43708449812、artifact14170087848/438780485B/manifest1b92c4e5/lift00855d88；prime753/free1186/14分支不变，不回退259。无A/B，后继R792/804/809未激活。
 
-**原430位projective首轮已耗尽候选**：run43745966802/job132909298032/source d71d40bb6cbea1cecc9c23f2efd47401da35cc53；core e0a5ad95/wrapper b2c4efda，71.023573757秒exit2，非节点预算到达、准确验算0阶，未得关系。全manifest/1380输入SHA通过；artifact14173922406/189847233B/ZIP37d11e283，至Nov16 18:20UTC。真实core receipt d6e40af9/未完成cert380717ae。[结束记录](notes/R787-projective-first-ended-search.md)保完整pins与语义。纯IO run43747260495/job132913195823已成：实际5根均C0首坐标失败，5×28行全且仅因D_bound筛除，K为59十进位；manifest5793B/422319cd，31条。小artifact14175065759/708676B/d4c52df8。充分唯一性界不必要于准确验算，准备不同同时坐标候选；此有限候选失败不证430不足，不盲增节点。原同核run继续。
+**原430位projective首轮及不同42维后继**：旧run43745966802/source d71d40bb/core e0a5ad95/wrapperb2c4efda在71.023573757秒exit2；小IO43747260495真核5根全C0失败、140行仅因D_bound拒绝，K59位，无子节点/准确验算。[首轮记录](notes/R787-projective-first-ended-search.md)保artifact14173922406/189847233B/37d11e283、manifest422319cd及全部pins；不证430不足，盲增旧节点无用。
 
-[projective方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87保原整阶s²=−3、28格/五矩形、原free=D/Z展开/129×280全式与B非零出口，去内容后D/e。1380最小输入、原数学RESULT/recipe及R792载体名兼容，真实新core/source/tag独立；不得把失败包当准确A/B。
+**新双probe请求已激活**：[方法](notes/R787-original-projective-two-probe-reconstruction-method.md)17c89271、core73bac3a2/47438B、wrapperfe276ba3/43795B、workflow5c5436fd。首(C0,C1)的直接42格，最多42候选/一格，原归一lift直接求D，不累乘；全部42短行/84同余保留，单位性只诊断，无高度界硬筛。原free=D（不center）、Z/内容后D/e及完整129×280+B非零才成功。原1380输入/430lift不重算，原数学RESULT/recipe/carrier沿用、新tag/source独立。closed失败候选先完整非零残差及SHA清单再删不再消费的大payload；当前/成功完整保留，queue按真next_candidate续接。节点/格/时间预算分开。旧Dixon run继续，尚无A/B或后继消费者。
 
 **R815原425素数同核续算已请求**：原run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e真实BudgetStop，g完成425prime/最后1000008791/模数12707bits，Γ未开始，无完整operator。小IO run43747973677已成：manifest892108B/3464项/4e78095e，current561995095B/402379e2与425小receipt f136bee8匹配；carrier109958828B/051571e1保53原源。artifact14174374945/2716759066B/597aaf00到Nov16 18:33UTC。[425断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保全pins。新原请求ac0870b2只增resume，core80516ff9/wrapperab725da0/框架849bca27及g/Γ、prime007、每8prime重构、16行块/嵌套mode不变。续算run43748439850/job132916821952/sourcea108ce1e72958b296dcca7ff55710c94e8ed16ef已进入计算；不重算425prime、不另Mh。
 
