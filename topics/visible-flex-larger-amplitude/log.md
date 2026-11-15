@@ -29,3 +29,7 @@ R281已在f465f468正式登记。本轮只执行唯一新解析配置的depth2/d
 ## 2026-11-15 06:24:58 UTC /root — request110 同31真实连续批次
 
 root已读完整新增编排器、workflow、request和接口。源a1ba1cd8在同job保真实warm/status给下一原1-model，必须该新warm原FD先完成；无任何旧状态重标，末raw仍只临时。8批/175min保每批原预算/数学门，70旧pins+1新源；107缺物理字段hash明示不可比，不设同字节门。requestef159a8a/workflow3363acf2以唯一push路径公开执行，root持续推进其他open与实际结果，不以批次预算结束课题。
+
+## 2026-11-15 06:26:10 UTC /root — actual108 原充分下降不足
+
+[完整实际结论](notes/2026-11-15-actual108-full3-trust-original-armijo-exhaustion.md)：一个正阻尼完整3列QR方向20档全未过原Armijo，零评价异常/零accept；末两档微降但不满足.2界，非“无下降”或预算终止。μ1.149954644371713/radius.1/gdot−.013222618975603466，首末同106。summary35439B/d252d24a,status170855B/9397507a，原终检全部保持scope。112准备失败后半径/4重算方向，不改原接受门；113独立补偿/高精度primal继续。
