@@ -119,3 +119,5 @@
 - [固定物理步代价首轮：11次两网接纳](notes/physical-step-cost-first-actual-result-20261115.md) — actual43676765171/sourceca4e5286同g/b0/163，η降1.0044e−5至.266540263797，κ57.9999862。12主/0SOC，唯一m2条带遗漏拒绝后补全，终全池4414/3790；所有r1/64000/真实norm1，ratio .775–.918，12LP预算退。细内strip−1.44e−10、帽高−2.78e−17仅原tol过；全部实际/失败/成本表已读，下一只条件增长trust，不放宽门或原样延预算。
 
 - [R190：完整权+2商消失与剩余偶权](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md) — 真实水平路径把N缩放差模W压成常势，原N0(1,1,1)=0支付基点常数；N2高于0、N0高于1的真权落W。完整v2/v4上界与八矩方向给正几何层+2入R，R115静态与同Γ/14族IBP合得U2=R2、H2=0。R105完整分子恢复递推得U权⊂[-9,3]；结合偶性与R188只余−8/−6/−4/0，尚无全锥或实际可达结论。
+
+- [R191：共同常值平台二阶gauge的完整ruling不可见性](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md) — 保非零平台值、真实右尾与全s历史，原D恢复分子在平台准确仿射，交叉恢复真紧支撑；完整Bθw canonical为0，其他合法共同入值仅改三矩W。hook周期与六交叉矩亦0，二阶平方/交叉由R47第三单φ右逆支付。因此这整个无限维平台核不能扩大R184 joint商像；不延至f常/g变区，不授第四解。

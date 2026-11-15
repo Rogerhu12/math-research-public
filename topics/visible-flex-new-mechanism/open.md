@@ -48,6 +48,8 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。任意宽度的符号尚未定；[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)已给无开常段真实桥/闭hook几何，随后须具体支付period/joint。
 
+[R191](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md)已证明共同常值平台上的全部紧支撑二阶w都满足六矩和hook周期核，但完整线性ruling在canonical准确0、一般共同入值modW仍0。全部真实右尾和s历史保留，w平方/交叉仅有限三矩由第三右逆支付；故该无限维空间不能扩大joint商像。下一专门处理f常而g变化的区间，不能把双常平台结论外推。
+
 R189在固定有限K的R70正则解附近，用8矩+1真实ω终值的可逆Jac与端全jets平的Fréchet空间保全部约束，Baire去开常段；固定有限交换词再给M0/TκH闭几何。该存在证明不保证一个具体有限profile上的fourth像变为可解，也不保存原空间位移（Klein用新位移准确闭合）。下一必须挑可消费的完整目标/不变量，不再只抽象增加自由度。
 
 [R175](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md)已结清R174关系下的整个最高层：a≥0、ℓ+25a/9≥0及二阶M PSD充要，完整边界恒等及R169有理幂路径必要性齐全。下一新外点只读五数按此准确分离；通过即不再跑最高层路径/Gram，仍保低层、完整时长与原函数良定义门。
