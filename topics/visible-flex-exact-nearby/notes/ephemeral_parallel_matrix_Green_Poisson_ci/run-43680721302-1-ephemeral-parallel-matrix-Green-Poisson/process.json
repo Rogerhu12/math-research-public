@@ -8,7 +8,66 @@
   "workflow_commit": "2d648178615c3918f57c042f33fd5ec62a4cf1db",
   "worker_source_sha256": "c2970d6ad7180e8aa26866f85425958935b1d7f1bc35aa098eee5312ea6012c6",
   "started_utc": "2026-11-15T05:23:21.758219+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_ephemeral_missing_future_past_true97_Poisson_and_same97_contraction",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+        "-u",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson.py",
+        "--matrix-run",
+        "43654510038",
+        "--array-root",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-array-artifacts",
+        "--old-backward",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/exact-old-future-prefix/complete-directional-matrix-Green-backward.json.gz",
+        "--old-backward-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-directional-matrix-Green-backward-43672023585-1/process.json",
+        "--cap",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-same97-cap-posterior-cap-43671537267-1/native/complete-same97-cap-posterior.json.gz",
+        "--cap-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-same97-cap-posterior-cap-43671537267-1/process.json",
+        "--cap-arrays",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-same97-cap-posterior-cap-43671537267-1/matrices",
+        "--temp",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/ephemeral-mathematics",
+        "--out",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/ephemeral-complete-Green-Poisson-cap.json.gz",
+        "--bits",
+        "192",
+        "--matrix-data",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-complete-same-F-5970-finish-43654510038-1/native/complete5970-same-F-directional-matrix-data.json.gz",
+        "--matrix-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-complete-same-F-5970-finish-43654510038-1/process.json",
+        "--profile",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-complete-5970-projectors-43594139132-1/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-complete-5970-projectors-43594139132-1/process.json",
+        "--green",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-complete-cut-Green-complete-43601964129-1/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-complete-cut-Green-complete-43601964129-1/process.json",
+        "--kernel",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-finite193-L2-Green-kernel-43633074696-1/native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+        "--kernel-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-finite193-L2-Green-kernel-43633074696-1/process.json",
+        "--impulse",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-cached-interface-impulse-43649423561-1/native/complete-all5970-cached-interface-impulse-gains.json.gz",
+        "--impulse-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-cached-interface-impulse-43649423561-1/process.json",
+        "--reviewed-impulse-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/science/topics/visible-flex-exact-nearby/notes/finite193_cached_interface_impulse_ci/run-43649423561-1-all5970-cached-interface-impulse-gains/process.json",
+        "--boundary",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/original-public-inputs/visible-exact-cut-projector-prepared-43594139132-1/native/complete-true-weighted-boundaries.json.gz",
+        "--nominal-cut",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
+      ],
+      "started_utc": "2026-11-15T05:25:36.416804+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 15.000951231999977,
+      "finished_utc": "2026-11-15T05:25:51.418247+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T05:23:45.327426+00:00",
@@ -40,6 +99,11 @@
       "time": "2026-11-15T05:23:59.645085+00:00",
       "final": false,
       "commit": "30406ff80af14d9052316bc5c757b39492f7ec2a"
+    },
+    {
+      "time": "2026-11-15T05:25:36.414082+00:00",
+      "final": false,
+      "commit": "807875e0a41f9f0364531a3a893a72f47b90180e"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -150,8 +214,8 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T05:25:34.955456+00:00",
-  "wall_seconds": 133.198008648,
+  "snapshot_utc": "2026-11-15T05:25:51.419147+00:00",
+  "wall_seconds": 149.66169392499998,
   "actual_temporary_progress": {},
   "required_original_array_artifacts": 34,
   "required_original_array_files": 13856,
@@ -181,6 +245,17 @@
     "nominal-cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
   "actual_source_sha256": "4b864054e8f8c29add6918e94300e4fbc361a4ecf1acfc213ae9993545bf37ce",
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_ephemeral_missing_future_past_true97_Poisson_and_same97_contraction actually returned 1"
+  },
+  "finished_utc": "2026-11-15T05:25:51.419080+00:00",
+  "actual_output_sha256": "0e77ce7ab869707443edf79148b94f815116d5eeb731760d1a1b01aa07bc6495",
+  "actual_scientific_complete": false,
+  "actual_scientific_failure": {
+    "message": "one true interface impulse belongs to a different event",
+    "type": "ValueError"
+  },
   "original_process_receipts": [
     {
       "file": "original-all5970-impulse-artifact-process.json",
