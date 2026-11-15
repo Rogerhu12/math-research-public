@@ -229,3 +229,5 @@
 - [R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads](results/R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads.md)：原H45模31真1736单位闭Q满行秩；全高核1036/模旧130为906，四真商代表15/18/19/20保全4354行与比例。完整4318常像规范及4330增广给新低商rank904/核2；仅维数与入口，不冒作已造906核或新λ3。
 
 - [R150-appendix-zero-complete-fifth-connection-exact-one-factor105-and-cost8584](results/R150-appendix-zero-complete-fifth-connection-exact-one-factor105-and-cost8584.md)：完整第五β5=1/18头，含全部R3/R4旧像与整条s²T2/sT3回填；low589/kernel39/zero31，668304原产品全真。公共零阶59/50、K105、amax9…16；配selected∞130/125/125得q8422…8535、条件8579/8584/172。原九平方读数零仍不等于成员性。
+
+- **零完整第六恰一与首次平方非零。** [自足证明](results/R150-appendix-zero-complete-sixth-connection-exact-one-factor107-and-first-square-readout.md)保完整W5及s³T2/s²T3/sT4回填：low590/589、17真头、736372全原产品；公共阶61/52、K107、最大Smith9…14，条件费8582/172。λ6首个非零平方值已精确记录，未乘h0的t2在本有限模块有局部障碍；h0的s3尚未付足够阶延拓，不外推原成员性或ISP。
