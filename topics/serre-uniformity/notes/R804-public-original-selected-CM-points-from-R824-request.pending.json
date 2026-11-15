@@ -1,0 +1,92 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R804-original-selected-CM-point-values",
+    "p": 41,
+    "selected_candidate_indices": [
+      0,
+      3,
+      1,
+      21,
+      15
+    ],
+    "selected_addition_node_count": 8,
+    "budget_minutes": 300,
+    "producer_inputs_pending": true,
+    "core": "R804_original_selected_CM_points.py",
+    "core_sha256": "d8d1a3955bbde7f8af9fd315878c880eec9d380b3563d5f26f1e1d072cecc5bd",
+    "wrapper_sha256": "1be08ad8634942a1befe6f8b69c25344e7023f8f769795ae35ec5120325d8bd1",
+    "field_core": "R754_original_periods_and_Hom_kernel.py",
+    "field_core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+    "proof": "results/R804-original-selected-map-reuse-in-integral-cyclic-module.md",
+    "R804_proof_sha256": "98d3e253e0056a9c9dba563198149c5dd985e81e19aec1cacacd9bda4c1066e6",
+    "interface": "notes/R804-original-CM-point-consumer-interface.md",
+    "R804_point_interface_sha256": "de20f75a3b73e1caa2d4992b618426308b066be0d3e5fca050a23cdfae202955",
+    "workflow": ".github/workflows/serre-p41-original-selected-CM-points.yml",
+    "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "io_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+    "retained_artifacts": {
+      "R792": {
+        "result": "R792-original-beta-from-R824-relation",
+        "run_id": "PENDING_ACTUAL_R792_R824_SUCCESS_RUN",
+        "source_commit": "PENDING_ACTUAL_R792_R824_SUCCESS_SOURCE_COMMIT",
+        "artifact_name": "PENDING_ACTUAL_R792_R824_SUCCESS_ARTIFACT",
+        "artifact_id": "PENDING_ACTUAL_R792_R824_SUCCESS_ARTIFACT_ID",
+        "archive_sha256": "PENDING_ACTUAL_R792_R824_SUCCESS_ARCHIVE_SHA256",
+        "manifest_sha256": "PENDING_ACTUAL_R792_R824_SUCCESS_MANIFEST_SHA256",
+        "core_sha256": "a8a33d32b19525896a137fcf02c3fbf07ced88207839e9c89f16c9c527e827bf",
+        "certificate_name": "p41-original-beta-from-R824-relation-certificate.json",
+        "files": {
+          "p41-original-beta-from-R824-relation-certificate.json": "PENDING_ACTUAL_R792_R824_SUCCESS_CERTIFICATE_SHA256"
+        }
+      },
+      "R735": {
+        "result": "R732-p41-original-CM-model",
+        "run_id": "43608152850",
+        "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+        "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+        "artifact_id": 14118747540,
+        "archive_sha256": "de684d4e688085f4d9797639ce43fb1f3aca16ef68884fa2d3ca83e4d9d8f917",
+        "manifest_sha256": "2b29c302c796e98318d15a51df2fb556b18e9f83ae507428bd47cabc8be817ce",
+        "certificate_name": "p41-original-CM-model-certificate.json",
+        "core_sha256": "4d6f860506347ab578f1a4f0e30eb0041f8a56b6e62b29762aa958c843f17ec5",
+        "files": {
+          "p41-original-CM-model-certificate.json": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+        }
+      },
+      "R791": {
+        "result": "R791-original-Hom-Galois-and-eta-inputs",
+        "run_id": "43686308194",
+        "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+        "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+        "artifact_id": 14149997458,
+        "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+        "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+        "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+        "certificate_name": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+        "files": {
+          "p41-original-Hom-Galois-and-eta-input-certificate.json": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46",
+          "R791-original-Hom-Galois-matrices.json.gz": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183",
+          "R791-original-real-descent-and-eta-basis-inputs.json.gz": "24a894163f136a4e8c71b117e373f8fafb66a6e0c94b4efe3f141f78bb39b968"
+        }
+      },
+      "R794": {
+        "result": "R794-original-low-degree-eta-basis",
+        "run_id": "43691270124",
+        "source_commit": "7cf160128953901a9e4c1d60cfd7cb5a45a17332",
+        "artifact_id": 14152074788,
+        "artifact_name": "serre-global-R794-original-low-degree-eta-basis-43691270124-1",
+        "archive_sha256": "5786585d55dc70b7279c8514afd7e1e528e2582f328aab4f12aee4ca9ba7c520",
+        "manifest_sha256": "2b052692106674a64896167a4b322f93fbe1f1efe08d8fcd5fbc328b28908cb8",
+        "core_sha256": "9fc7f30b06ebe4d2721fc5e67aecc40abae2d72a58268e8eac9164d3ff1c3d45",
+        "certificate_name": "p41-original-low-degree-eta-basis-certificate.json",
+        "files": {
+          "p41-original-low-degree-eta-basis-certificate.json": "c6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f",
+          "R794-selected-original-low-degree-eta-basis.json.gz": "5b96f623e1f43d834a7db21064ff2cb101284b9a4038e5434eb291b6e73f6e0f"
+        }
+      }
+    },
+    "resume": null
+  },
+  "pending_reason": "Alternative real R792-from-R824 beta producer; activate only after that exact beta point succeeds. Keep this source's actual result/core/certificate and never relabel it as the original R787-backed producer."
+}

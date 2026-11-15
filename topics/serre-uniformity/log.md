@@ -304,3 +304,8 @@
 - R809新A/B-only消费契约、核cdc381fc、runner eaf91a35及pending7adb0e37全文核完：复用原已成S5/minor/p007逆，仅两个新目标28Q/full1380，不重算六C，不把R824改名为R787。
 - 原b/s/λ/82^10及真实V5行索引逐一绑定，已去denominator/content不重插；完整断点、实际来源双tag与一日闭包保留。尚无真实新exact输入，pending不触发、不登记A/B数学结果。
 - 2026-11-15T17:10:06.809302+00:00公开实际pull/read 1840c6269b18c8d12fb85a73ef00d5016c76968f，两README无diff；R787/815/824/827仍运行，主目标OPEN。
+
+### 2026-11-16 01:14（Asia/Taipei）｜serre-public-astra-20261115
+- R804双真实beta来源接口已核并保存：core d8d1a395/wrapper1be08ad8/interface de20f75a，旧/新R792各按实际RESULT/点字段/stage/bundle取源；新请求9a4613b5仍pending，旧请求仅同步合法SHA。
+- root逐行核所有源读取差异，PointArithmetic及reference()以后数学与原稿byte-identical；完整R791由R794 carrier提供，原8节点/特殊点/T7相位/真正vβ及同源核边界全保。未激活或计算任何新点。
+- 2026-11-15T17:11:56.514851+00:00实际pull/read f8ddbc38c9844cecf6f5434ae9bcf9103edf6369两README无diff；旧9591B H逐字同目录归档并缩状态，4个公开数学run继续，主目标OPEN。

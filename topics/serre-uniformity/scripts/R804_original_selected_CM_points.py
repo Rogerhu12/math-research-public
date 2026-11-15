@@ -34,6 +34,29 @@ DEGREES = (1485, 1521, 1602, 1674, 1728)
 LABELS = {"R792", "R735", "R791", "R794"}
 
 
+BETA_SCHEMAS = {
+    "R792-original-beta-composition": {
+        "core_sha256": "7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d",
+        "certificate_name": "p41-original-beta-composition-certificate.json",
+        "point_key": "point_spec", "manifest": "R792-stage-manifest.json.gz",
+        "bundle": "R792-retained-producer-inputs.tar.gz",
+        "parent_groups": {"R735", "R775", "R786", "R787", "R790", "R791"}},
+    "R792-original-beta-from-R824-relation": {
+        "core_sha256": "a8a33d32b19525896a137fcf02c3fbf07ced88207839e9c89f16c9c527e827bf",
+        "certificate_name": "p41-original-beta-from-R824-relation-certificate.json",
+        "point_key": "point_stage", "manifest": "R792-R824-stage-manifest.json.gz",
+        "bundle": "R792-R824-retained-producer-inputs.tar.gz",
+        "parent_groups": {"R735", "R775", "R786", "R824", "R790", "R791"}},
+}
+
+
+def beta_schema(spec):
+    value = BETA_SCHEMAS[spec["result"]]
+    assert spec["core_sha256"] == value["core_sha256"]
+    assert spec["certificate_name"] == value["certificate_name"]
+    return value
+
+
 def guard():
     if os.environ.get("GITHUB_ACTIONS") != "true" or \
        os.environ.get("GITHUB_REPOSITORY") != "Rogerhu12/math-research-public":
@@ -262,7 +285,7 @@ class Job:
         self.inputs = {label: Retained(args.retained, label, spec)
                        for label, spec in self.item["retained_artifacts"].items()}
         r792, r735, r791, r794 = (self.inputs[label] for label in ("R792", "R735", "R791", "R794"))
-        assert r792.spec["result"] == "R792-original-beta-composition"
+        beta_input = beta_schema(r792.spec)
         assert r791.spec["result"] == "R791-original-Hom-Galois-and-eta-inputs"
         assert r794.spec["result"] == "R794-original-low-degree-eta-basis"
         for label in ("R735", "R791"):
@@ -319,9 +342,15 @@ class Job:
         assert certificate["actual_heights_or_uniformity_computed"] is False
         inventory = r792.stage(certificate["stage_manifest"])
         inventory_rows = {row["file"]: row for row in inventory["files"]}
-        assert plain_spec(certificate["point_spec"]) == plain_spec(inventory_rows[certificate["point_spec"]["file"]])
-        self.original_point = r792.stage(certificate["point_spec"])
-        self.original_point_spec = r792.source(certificate["point_spec"]["file"])
+        assert certificate["stage_manifest"]["file"] == beta_input["manifest"]
+        point_spec = certificate[beta_input["point_key"]]
+        assert plain_spec(point_spec) == plain_spec(inventory_rows[point_spec["file"]])
+        if r792.spec["result"] == "R792-original-beta-from-R824-relation":
+            assert certificate["original_y_ratio_preserved"] is True
+            assert certificate["synthetic_R787_producer_or_relation_file_created"] is False
+            assert certificate["original_R824_denominator_and_content_reinserted"] is False
+        self.original_point = r792.stage(point_spec)
+        self.original_point_spec = r792.source(point_spec["file"])
         assert self.original_point["original_map_index"] == 4 and self.original_point["original_map_degree"] == "1206"
         assert self.original_point["original_c1"] == 4424 and self.original_point["original_c0_image"] == "O"
         assert self.original_point["actual_beta_C_computed"] is True
@@ -330,6 +359,8 @@ class Job:
         self.tag = {"result": RESULT, "source_sha256": sha(__file__), "python_flint": flint.__version__,
             "R804_proof_sha256": sha(args.proof), "R804_point_interface_sha256": sha(args.interface),
             "field_core_sha256": FIELD_CORE_SHA, "retained_artifacts": self.item["retained_artifacts"],
+            "actual_beta_input_result": r792.spec["result"],
+            "actual_beta_input_point_field": beta_input["point_key"],
             "p": 41, "original_model_certificate_sha256": MODEL_SHA,
             "original_target": "C_b:y^2=x^3+b; L=Q(b,zeta); original b",
             "original_map_index": 4, "original_map_degree": "1206", "original_c1": 4424,

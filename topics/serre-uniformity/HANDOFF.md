@@ -4,21 +4,21 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：1840c6269b18c8d12fb85a73ef00d5016c76968f**（2026-11-15T17:10:06.809302+00:00；公开run43714581068/attempt40/job132889467601真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-R834.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)，内接全部历史与source/run/SHA。
+**已读规则提交：f8ddbc38c9844cecf6f5434ae9bcf9103edf6369**（2026-11-15T17:11:56.514851+00:00；公开run43714581068/attempt41/job132890022433真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-R804-dual-source.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)，内接全部历史与source/run/SHA。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
-## 当前公开计算（2026-11-15 17:11 UTC）
+## 当前公开计算（2026-11-15 17:14 UTC）
 
 **R787从真实430位同核续算中**：run43737413555/job132883028161/source4092d1cc4d1156bc24a10ff820fd39c5713e8ad7，core93d3d72b/wrapper42157e0d不变。[430位真实断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)完整保原run43708449812、artifact14170087848/438780485B/manifest1b92c4e5/1262条、最新lift60765868B/00855d88及430历史。退出是BudgetStop，原prime753/free1186/14分支俱保；小IO43737168117准确核最新与429指针。新run规则job在16:47:19.142248UTC实际pull/read4092d1cc，两README无diff。不回退259，不换R802；当前无A/B，成功后R792/804/809。
 
-**R815原Mg/Γ仍运行**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0，53原输入全核。Mg六模/七准确点、Γ五模/七嵌套点；We0=e1、Γe0=0/Γe1=vh与完整嵌套commutator给唯一性，不独立CRT Mh。首prime1000000007不同R827的753，不混缓存。
+**R815原Mg/Γ仍运行**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0，53原输入全核。Mg六模/Γ五模及完整嵌套commutator，不另算Mh；首prime1000000007不同R827的753。实际结束后读取完整checkpoint/CRT，不把仍在跑当成产物。
 
 **R824准确27+244续算仍运行**：run43732499815/job132867842693/source442f3d16a9b914154e8b81bc61597d650044fd61；core1ece3cf4/wrapperc5907739/requestec04ad32同核恢复原成功包。1186仍归R787；旧129/142条件、280Q全式、1521打包与κ/246一次保留。全生成后才做真实V7的1778纤维minor/总余长1206，未预请求该scope。
 
-[R824实际模profile](results/R824-certified-original-modular-generator-profile.md)已成：run43729293174/source87c131f1，28权五/300权六核、14分支lower rank56+244补充、公共U129/U142；exact5/6尚0。359manifest/7741输入全verify，小IO43731915435精读26件；manifest0ca75934/branch00a25921b9。原artifact14168007461至Nov16 15:28UTC。原r28/h1=0已由旧真1186minor证明，不重证或新增143..155尾。
+[R824实际模profile](results/R824-certified-original-modular-generator-profile.md)已成：run43729293174/source87c131f1，28权五/300权六核、lower rank56+244补充及U129/U142；exact5/6尚0。完整SHA/359manifest/7741输入见该结果，小IO43731915435；原artifact14168007461至Nov16 15:28UTC。r28/h1=0早已证，不新增143..155尾。
 
-**R827首真实q4仍运行**：run43734420663/job132873746638/source400edecfeab313d1858cdb72bf18f8452ab9566a。core85916B/d9cf7739、helper38baf6b4、wrapper87825B/dbd8356e、methodc55655f9/proof17e9c828均全文核毕；请求1804789d六来源全真，q4/300min/cache=[]。原ell1000000753/branch0/free1186，必须保integral_B=lambda*b/6724一次；旧同prime缓存可复用，不能混007。
+**R827首真实q4仍运行**：run43734420663/job132873746638/source400edecfeab313d1858cdb72bf18f8452ab9566a。core d9cf7739/helper38baf6b4/wrapperdbd8356e，请求1804789d六来源全真；q4/300min/cache=[]，原ell1000000753/branch0/free1186与integral_B=lambda*b/6724一次保留。
 
 [R827判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)：真σ∞rank272＋τ整个多项式Hermite/Bézout才经proper/Nakayama给char0 I_q=C。272个B·d_i仅子理想，额外零可使充分检验失败；单点/函数域rank不够。只有q4真通过才D约化/K1，当前未得；增q复用完整变换。
 
@@ -30,7 +30,9 @@
 
 [R820两图C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)20链/Z primitive、d271=20其余0已成；R806原W、R813原vg/vh及全部源SHA见前H/各certified结果。R801/803/805/807、R797/799/800、R781 R0..142/κ幂已成；V6至141/V7至175/V8与旧V2..5至195。R805[1,144,127]是次数计数，非272项EPS；缺尾真需才补。
 
-**真R824关系→R792入口已推c818ac3f**：[方法](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)68877a98/adapter5a6a100a/变体a8a33d32继承原beta框架7b7a5483。单个真新weight5 exact及17个129×280验证块，经20×129>2566给同原y；新非恒定共同零另验，denominator/content不重插。只能绑定已完成success或已结束checkpoint，当前无已发布新exact；runner8991eb80/pending c945be74/workflowf8c68233已全文核并保存，active文件尚不创建。六真实来源/17全验证段/原146CM jets/Hom相位俱保，300min+15外层限时保完整stage；不伪装R787，不重算1186。原R792/804保原共轭、唯一Fb立方根/21次奇因子、全部例外点/T7/Norm刚性化，不选未知同源核前像。
+**真R824关系→R792入口已保存pending**：[方法](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)68877a98/adapter5a6a100a/core a8a33d32继承原7b7a5483，runner8991eb80/requestc945be74。实际新weight5 exact+17个129×280块证同原y；六真来源/146CM jets/Hom相位、300min+15与完整stage一日bundle保留。只消费已结束真exact，不重算1186或造R787，denominator/content不重插。原R775/R786 artifact至Nov16 05:52/05:41UTC，及时消费或从已绑carrier续接。
+
+**R804原点消费现支持两个真R792来源**：[接口](notes/R804-original-CM-point-consumer-interface.md)de20f75a/core d8d1a395/wrapper1be08ad8。原point_spec与R824 point_stage各保真实RESULT/core/manifest；R735从对应beta carrier、完整R791从R794 carrier取。群律类及reference以后数学逐字未变，保8节点/特殊点/T7/原vβ及有限核边界。两请求皆pending，未算新beta/点。
 
 R811首乘法/完整极前像待真实A/B正规坐标，原P全式/双向Laurent/全长1206与R822认证保持；generic helper09f21a90验证已完成，不加gate。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)原E=20cusps+P0+3D，r=y/δy与逆递推给I_D；adapter core89579f79/wrapperd6374901已审pending，仍待真实A/B及R815。安全K395不是实际层数，272×816全核544必须全投影。未有实际I/P/Q/D/eta或高度。
 

@@ -166,3 +166,43 @@ $\beta_C-[\zeta^2]\beta_C$ 与这份真实 R792 实下降点相同。
 `eta_values_computed`、`heights_computed` 均保持 false。
 所有可重算大坐标只在一日活跃 artifact 中传给直接后继，Git 只登记脚本、
 参数、run、SHA及可证明结论。
+
+
+## 7. 同一原点的两个真实来源入口
+
+本消费者的逻辑组名 R792 表示原 beta 点输入，不固定其只有一种上游
+关系 producer。现支持下列两个实际成功结果；每种均逐原 manifest、
+run/core receipt、certificate、点 stage 的 bytes/SHA 与配置核验。
+
+| 上游实际 RESULT | 固定 core SHA256 | 证书点字段 | stage manifest |
+|---|---|---|---|
+| R792-original-beta-composition | 7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d | point_spec | R792-stage-manifest.json.gz |
+| R792-original-beta-from-R824-relation | a8a33d32b19525896a137fcf02c3fbf07ced88207839e9c89f16c9c527e827bf | point_stage | R792-R824-stage-manifest.json.gz |
+
+第二入口只接受已经准确算出原 beta_C 与实下降像的成功证书，
+另外核 original_y_ratio_preserved=true、
+synthetic_R787_producer_or_relation_file_created=false 和
+original_R824_denominator_and_content_reinserted=false。
+其原 y 的真实性由 R824 的已成准确关系及
+R824-original-exact-relation-adapter-to-beta-consumers.md 给出。
+两个输入具有相同的原 b/sigma/rho、原 f4、c0/c1、点编码与 vbeta 意义；
+故第 2–5 节的全部群律、八节点、原 Hom 字及同源像检验逐字不变。
+
+输入配置保留实际上游 RESULT、core、run、source、manifest 和
+certificate，输出数学配置另明记 actual_beta_input_result 与
+actual_beta_input_point_field。不得将第二入口重标成第一个 producer，
+也不得为让旧字段可读而制造一份假 R787 关系或旧 R792 证书。
+
+活跃输入 carrier 同样按真实类型选择：
+第一入口为 R792-retained-producer-inputs.tar.gz，
+其中旧组为 R735/R775/R786/R787/R790/R791；
+第二入口为 R792-R824-retained-producer-inputs.tar.gz，
+其中原关系组改为真实 R824，其余五组不变。
+R804 仍只从该 carrier 取 R735 model，从原 R794 carrier 取完整
+R791 Hom/实下降来源，随后保留自己的最小四组续算 bundle。
+carrier 的组名、parent-child 身份和全部实际保留成员 SHA 都核对；
+不同规范的原曲线点不能混入这个入口。
+
+两种点来源任一尚未完成时，对应请求保持 pending。
+这次适配只扩大准确来源读取，既不计算任何旧 beta，也不改变未执行的
+八节点算法、特殊点分支、原 v/kappa 或同源有限核边界。

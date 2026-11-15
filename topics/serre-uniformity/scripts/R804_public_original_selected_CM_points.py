@@ -24,10 +24,6 @@ INPUT_BUNDLE = "R804-retained-producer-inputs.tar.gz"
 REFERENCE = "full-outputs-manifest-reference.json"
 LABELS = {"R792", "R735", "R791", "R794"}
 DIRECT = ("R792", "R794")
-PARENT_BUNDLES = {"R792": "R792-retained-producer-inputs.tar.gz",
-                  "R794": "R794-retained-producer-inputs.tar.gz"}
-PARENT_GROUPS = {"R792": {"R735", "R775", "R786", "R787", "R790", "R791"},
-                 "R794": {"R759", "R791"}}
 PRODUCER_META = ("full-outputs-manifest.json", "run-receipt.json",
                  "core-receipt.json", "public-actions-input.json")
 META = {"public-actions-input.json", "retained-inputs-receipt.json",
@@ -43,8 +39,37 @@ SELECTED_SHA = "5b96f623e1f43d834a7db21064ff2cb101284b9a4038e5434eb291b6e73f6e0f
 FIELD_CORE_SHA = "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251"
 CANDIDATES = [0, 3, 1, 21, 15]
 DEGREES = [1485, 1521, 1602, 1674, 1728]
-R792_MANIFEST = "R792-stage-manifest.json.gz"
 R792_POINT = "R792-original-beta-C-and-real-descent-point.json.gz"
+
+
+BETA_SCHEMAS = {
+    "R792-original-beta-composition": {
+        "core_sha256": "7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d",
+        "certificate_name": "p41-original-beta-composition-certificate.json",
+        "point_key": "point_spec", "manifest": "R792-stage-manifest.json.gz",
+        "bundle": "R792-retained-producer-inputs.tar.gz",
+        "parent_groups": {"R735", "R775", "R786", "R787", "R790", "R791"}},
+    "R792-original-beta-from-R824-relation": {
+        "core_sha256": "a8a33d32b19525896a137fcf02c3fbf07ced88207839e9c89f16c9c527e827bf",
+        "certificate_name": "p41-original-beta-from-R824-relation-certificate.json",
+        "point_key": "point_stage", "manifest": "R792-R824-stage-manifest.json.gz",
+        "bundle": "R792-R824-retained-producer-inputs.tar.gz",
+        "parent_groups": {"R735", "R775", "R786", "R824", "R790", "R791"}},
+}
+
+
+def beta_schema(spec):
+    value = BETA_SCHEMAS[spec["result"]]
+    assert spec["core_sha256"] == value["core_sha256"]
+    assert spec["certificate_name"] == value["certificate_name"]
+    return value
+
+
+def parent_contract(label, spec):
+    if label == "R792":
+        return beta_schema(spec)
+    assert label == "R794" and spec["result"] == "R794-original-low-degree-eta-basis"
+    return {"bundle": "R794-retained-producer-inputs.tar.gz", "parent_groups": {"R759", "R791"}}
 
 
 def guard():
@@ -84,6 +109,9 @@ def matching_configuration(tag, item):
         assert tag[key] == item[key]
     assert tag["field_core_sha256"] == FIELD_CORE_SHA
     assert tag["selected_candidate_indices"] == CANDIDATES and tag["selected_addition_node_count"] == 8
+    beta_input = beta_schema(item["retained_artifacts"]["R792"])
+    assert tag["actual_beta_input_result"] == item["retained_artifacts"]["R792"]["result"]
+    assert tag["actual_beta_input_point_field"] == beta_input["point_key"]
     assert tag["original_model_certificate_sha256"] == MODEL_SHA
     assert tag["original_map_index"] == 4 and tag["original_map_degree"] == "1206"
     assert tag["original_c1"] == 4424 and tag["T_seventh_power"] == "zeta^2"
@@ -206,7 +234,7 @@ def point_encoding(data):
 def select_original_inputs(producers):
     assert set(producers) == LABELS
     r792, r735, r791, r794 = (producers[label] for label in ("R792", "R735", "R791", "R794"))
-    assert r792.spec["result"] == "R792-original-beta-composition"
+    beta_input = beta_schema(r792.spec)
     assert r735.spec["result"] == "R732-p41-original-CM-model"
     assert r791.spec["result"] == "R791-original-Hom-Galois-and-eta-inputs"
     assert r794.spec["result"] == "R794-original-low-degree-eta-basis"
@@ -243,12 +271,17 @@ def select_original_inputs(producers):
         assert cert[key] is True
     for key in ("original_A_coordinate_lift_computed", "actual_heights_or_uniformity_computed"):
         assert cert[key] is False
-    assert cert["stage_manifest"]["file"] == R792_MANIFEST and cert["point_spec"]["file"] == R792_POINT
+    point_spec = cert[beta_input["point_key"]]
+    assert cert["stage_manifest"]["file"] == beta_input["manifest"] and point_spec["file"] == R792_POINT
+    if r792.spec["result"] == "R792-original-beta-from-R824-relation":
+        assert cert["original_y_ratio_preserved"] is True
+        assert cert["synthetic_R787_producer_or_relation_file_created"] is False
+        assert cert["original_R824_denominator_and_content_reinserted"] is False
     inventory = r792.stage(cert["stage_manifest"])
     entries = {row["file"]: row for row in inventory["files"]}
     assert len(entries) == len(inventory["files"])
-    assert plain_spec(entries[R792_POINT]) == plain_spec(cert["point_spec"])
-    point = r792.stage(cert["point_spec"])
+    assert plain_spec(entries[R792_POINT]) == plain_spec(point_spec)
+    point = r792.stage(point_spec)
     assert point["original_map_index"] == 4 and point["original_map_degree"] == "1206"
     assert point["original_c1"] == 4424 and point["original_c0_image"] == "O"
     assert point["actual_beta_C_computed"] is True and point["actual_real_descent_image_computed"] is True
@@ -264,7 +297,9 @@ def select_original_inputs(producers):
                     "real_descent_elliptic_equation_verified"):
             assert point[key] is True
     return {"four_original_producer_groups_bound": True,
-            "actual_R792_original_beta_stage": plain_spec(cert["point_spec"]),
+            "actual_R792_original_beta_stage": plain_spec(point_spec),
+            "actual_beta_input_result": r792.spec["result"],
+            "actual_beta_input_point_field": beta_input["point_key"],
             "actual_R792_original_beta_point_status": point["point_status"],
             "same_original_R791_bound_by_both_R792_and_R794": True,
             "original_R754_sigma_rho_reused_from_certified_R791_stage": True,
@@ -276,7 +311,7 @@ def select_original_inputs(producers):
 def allowed_group_name(label, spec, name):
     if name in set(PRODUCER_META)|set(spec["files"]):
         return True
-    return label == "R792" and name in (R792_MANIFEST, R792_POINT)
+    return label == "R792" and name in (beta_schema(spec)["manifest"], R792_POINT)
 
 
 def extract_bundle(bundle, target, specs, parent=None, child=None):
@@ -291,7 +326,7 @@ def extract_bundle(bundle, target, specs, parent=None, child=None):
             assert len(relative.parts) == 2 and str(relative) not in seen
             seen.add(str(relative))
             group, name = relative.parts
-            assert group in (LABELS if parent is None else PARENT_GROUPS[parent])
+            assert group in (LABELS if parent is None else parent_contract(parent, specs[parent])["parent_groups"])
             if parent is not None and group != child:
                 continue
             if not allowed_group_name(group, specs[group], name):
@@ -346,12 +381,13 @@ def prepare_inputs(item, out):
             parent = producers[parent_label]
             same_producer(parent.initial["job"]["retained_artifacts"][child_label], specs[child_label])
             same_producer(parent.tag["retained_artifacts"][child_label], specs[child_label])
-            bundle = parent.bound(PARENT_BUNDLES[parent_label])
+            bundle_name = parent_contract(parent_label, parent.spec)["bundle"]
+            bundle = parent.bound(bundle_name)
             carried = out.parent/(parent_label+"-carried-original-inputs")
             count = extract_bundle(bundle, carried, specs, parent_label, child_label)
             producers[child_label] = Producer(child_label, specs[child_label], [carried/child_label])
             parent_transfers.append({"parent": parent_label, "child": child_label,
-                "source_bundle": plain_spec(parent.entries[PARENT_BUNDLES[parent_label]]),
+                "source_bundle": plain_spec(parent.entries[bundle_name]),
                 "selected_carried_file_count": count,
                 "original_parent_recorded_source_run_core_manifest_and_certificate_match": True})
     selection = select_original_inputs(producers)
