@@ -8,7 +8,7 @@
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`cfb41361aa2601ef7a5441fdb14d9f21f0eedd00`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`e9d3419a6fe42fa2a0647ad05155dc4e9ee92566`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
 
 ## 2. 完成门
 
@@ -36,16 +36,16 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
-**有限不变量已付但不等于fullperiod。** R215的K_PR纯零/flux=−8q⁵/45而全部global L_f通量0，真实同λ两hook至少一失败；R217两左尾δK/δ³K给非退化pair(8A*,0)/(B*,−96J*)，λ不能经pair因子化，实际四hook至少三失败。δ仅代数导子，经真实词实现；各几何一般不同g。R219八修正通量F8在pure零响应满射R8；左pair+任一flux另满R3，非十元组。R222整pure+F8真实C1联调保Q与全部mixed基准，末有限n收缩给闭hookpure0/F8=0。R223已兼容Morse，但尚未付fullperiod/ruling。
+**有限不变量与真实支付已付**：R215给K_PR纯零但flux非零，R217左pair独立，λ不经这些有限读出。R219八修正通量在pure零响应满射R8；左pair+任一flux另满R3，未授十元组。R222真实整pure+F8 C1截面保Q/全部mixed基准，有限n收缩给pure0/F8=0闭hook；R223兼容Morse。完整period/ruling仍欠，δ只是经真实词实现的代数导子，各设计一般不同g。
 
-**R216/R224/R228局部ruling障碍已付。** R216四阶flat点冻结杀全部gauge；R224任意共同偶h/k/ω的Ev(Bθw)与真实传入history偶部仅改W_e。标准k=ω0、h=he exp(εσ²)任意正ε，保chain/局部恢复后K/(hB²)第四实复幅−8c6/λ，排R193原八包/已付光滑邻域全合法宽度。只延拓局部解析模型，非实际路径或ε0近似。
+**R216/R224局部ruling障碍已付。** R216四阶flat点杀全部gauge。R224共同偶h/k/ω的Ev(Bθw)及真实history偶部仅改W_e；标准k=ω0、h=he exp(εσ²)任意正ε下完整K/(hB²)第四实复幅−8c6/λ，排原R193八包及已付光滑邻域全宽度。只延拓局部解析模型，非实际路径或ε0近似。
 R228同h、新d=bh+aσ²/k=a/(2ε)−aσ²+C exp(2εσ²)，C=ke−a/(2ε)。C≠0最高βT_b、β=C²h⁴/(8he⁴)，完整third/chain余项低阶；b0仍同−8c6/λ排原八包全宽度，原ke=ωe0的a≠0仍失败。只延拓无z分母的局部解析分子，不延物理路径。C0/nonzero ke由R227实现并由R229另判G；一般b/新圆不继承旧符号。Morse/finiteflux不等于第四通过。
 
-**R221完整joint接口**：任意w的Bθ为18局部速度+24真实history×三矩，126profile矩加六合法性矩=132；非rank。指定包类全kerLf为活动区Cf+B/常平台自由匹配，端迹+平台Gram给准确全核矩像。先付两个原period成员，再付五相位K0在45几何span内，最后48×135矩阵的增广子式/有限降秩消极点准确iff，保种子和原三合法行。尚无实际目标通过。
+**R221joint接口**：18局部+24真history给126矩加六合法行，非rank；全部period核Cf+B/平台自由匹配和Gram付全核矩像。先两个period成员，再五相位45几何span门，最后48×135矩阵增广子式/降秩消极点iff；种子和原合法行保留，无实际通过。
 
 **R225完整period range已付**：新合法解析ψP包重付三复矩/八包/J*。Lf全像准确iff全部常平台G''0、每包总flux0、内部q=F/(Ap²) Laurent禁k≤−ord(p)−2与residue、两平端u=p∫q真C∞延拓；右双零/平台自由连接还原Lf本身。u*=1/p给内部门全过而平端坏的Y反例，未冒canonical。U0上的完整O有限但基/像未付，Hper=O(U0)/O(R0)未知；Hper0才授真实fullperiod控制，λ杀kerO则严格障碍。有限原查询付光滑s密度；一般R0完整T保持/Morse另欠，δ链具备。不机械追加有限flux。
 
-**R226平端层已付**：p=±e^(−c/t)a，两个指数积分的归一比值真C∞；G''=p t^νv+p²A、v(0)≠0迫u~−p^-1 t^(ν+8)v0/(16c⁴)发散，p²层保有限负幂条件，p³及以上仅在左零通量Cp分支可延。特定δ^nK的完整单层J/真二次尾给G''−G''(a)=p⁴A，所以平台修正后端点观测全0；非一般U/R，也不排R222未知mixed基准。下一只消费完整原DAG的最低端层，真实尾值不自由化。
+**R226/R230平端层已付**：R226真指数积分给p¹非零有限首项迫gauge导数指数发散，p²保有限极点门，p³以上限左零通量支路可延；δ链真实二次尾扣后仅p⁴，非一般U/R。R230完整原DAG一次层G=P2+Tτf+p²A，τ是共同真三次尾函数、不可独立赋值。已指定ψP时λ=p'/p有理，L=D+λ有限次消掉多项式Volterra系数，准确判Tτf零或有限首项；未指定P/τ不得冒固定圆。下一仅H与16真R^(0)基的mixed−2新层，先全weight0像、再加R116三旧pure行判R^(0)∩kerπ；不是R225全权R0/λ因子化。raw I=∫r^x递推加左积分，正文正J按word长度换符号；不重旧四次NF/3974forcing。
 
 ## 6. 保留边界
 

@@ -223,3 +223,5 @@
 - [R229：例外G主算子的准确四次边界身份](results/R229-p2-energy-boundary-identity-for-exceptional-germs.md)：G_b=z²J[z⁴(f/z)″(g/z)″]/8于z>0准确，二次恢复A左尾为z²C_b/8不可删；完整E_b(A,A)+2E_b(q,G_b(q,A))=−(l+b)³C_b(q)²/64。两边原多项式延至全b，合法三复矩使C_b=0而准确消该候选quartic；未支付完整canonical ruling其余相位/次层，不继承R224/R228的T正性。
 
 - [154列首次实际：解除尾域锁峰，五次接纳后仍仅小量改善](notes/entry-tail154-first-actual-result-20261115.md)：43694686825/source71744524，8主LP/5接纳/0SOC，η .26653564958657405→.26652257791835787；四必要前缀恢复漂移大于新降幅，未刷新历史.26651075196396212。m1/m3已有尾曲率行二阶失配、m6硬门过而fineη增，新软行分支均先返回，未调用SOC；两块最后仍高比率触界，120活动秒先到。18+2值/全880.5913秒，完整163J占主耗时；原有限门过，.26/reach/连续门未付。下一原高度null入口+尾方向，SOC补行另案。
+
+- [R230：平端一次层的真实三次尾算子和有限有理消元](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)：完整右锚DAG给G=P2+Tτf+p²A，三次τ保真实函数关系，raw负尾/正文正尾符号显式。指定ψP后(D+p'/p)有限次消掉多项式Volterra系数，准确判Tτf零；非零必有限首渐近、由R226坏完整period端点。未指定P/τ，不冒固定圆。后继只判H相对16维weight0响应的一次层及附三旧pure行的窄门，不等于全权λ因子化；没有新研究计算。
