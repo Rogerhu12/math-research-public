@@ -97,3 +97,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 完整 low-even97 伴随接口已证，按实际误差主项选择消费
 
 [L1–16](notes/2026-11-15-R133-complete-low-even-adjoint-and-directional-boundary-defect.md)用同一个adjoint trial恢复全部low-even97，包括独立mean输入a与实际physical zC,0；输出侧(E−E0)(E−E0)*≤c*²Werr。若真实Poisson仍被旧统一97边界差主导，只新增完整low输出与原矩阵差、全部alias/round费，不重7908/5970或旧proposal。必须先有真实HY，保参数X*X、signed tr(HY Werr)和同输入Cauchy；尚无此项新数值结论。
+
+### 完整逐模径向参考已证，继续实际范数与强返回
+
+[参考R1–29](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)准确取原N.3完整Fourier对角，保D_j primitive排除中间零模、双态/真实even mean以及与原Airy试解的完整残差差。二态径向ODE不除K；scalar factorization另需A_j非零门，j=0独立。原1079seam/653ledger、原J与physical输出m全保；Nraw幅度常数不是可删除的物理零模。继续在同一公共Actions验证真正径向Green/参数窗/源norm及nonradial d∂费用，不能因对角已取走就授全高逆。

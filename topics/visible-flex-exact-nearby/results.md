@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 径向参考 R1–29：完整物理 Fourier 对角及真实 mean。** [证明](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)，SHA256 `a13b5fdef9aeb531bebff9b882b913554bb449a4dce72c67d4c342af50e84710`。从原N.3保完整primitive有限和，二态参考过根不除K；真实even mean、两branch、ordinary weak重建、physical输出label、全部seam与ordered Duhamel均保。尚无新参考Green数值界，offdiag含一阶d∂，不冒称小扰动或full高逆。
+
 - **R133 R1–17：实际反射子类的原 moving 帽—尾桥。** [证明](results/R133-supplement-exact-reflection-sector-and-original-moving-cap-tail-bridge.md)，SHA256 `b5f0b7819380660ea8a60f7743317313d57411a36e9bc4caaa61e1096499ac2c`。从完整原方程、真实连续中心/Z、径向参数及尾物理式证明反射不变；角规范A及同类导数恒零，真实b0同类恒零。固定η0δ0原F因此继承S的完整Cf<2^400000与反馈<2^-31000000；保C0/通量/高度、全非zero腰行。一般all4Z相位、径向Γ相位和主体闭合不转授。
 
 - **R133 L1–16：完整 low-even97 伴随与方向边界差。** [证明](notes/2026-11-15-R133-complete-low-even-adjoint-and-directional-boundary-defect.md)，SHA256 `7a97adc27d884c507e44a79df4c7e45d5c9071ce1fbbfd820bbed733391880a6`。准确恢复此前high投影消去的真实moving mean，保独立输入a及physical trial mean；后验矩阵在正确输出坐标给(E−E0)(E−E0)*≤c*²Werr，可消费已证真Poisson的signed方向trace。无新数值改善或循环逆证明。

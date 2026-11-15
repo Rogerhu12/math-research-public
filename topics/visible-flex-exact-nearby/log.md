@@ -293,3 +293,7 @@ README在 efb3b6f4c89cf6dbe044d0ab38f422669ce786a4 未变。原H9918B逐字归�
 ## 2026-11-15 02:51:05 UTC 原moving实际反射子类的完整帽—尾桥独推
 
 README在 4236a5b6994a0aa0f530995e567fd6a52282719f 未变。新增R1–17 SHA256 b5f0b7819380660ea8a60f7743317313d57411a36e9bc4caaa61e1096499ac2c，root核原moving完整B.1–B.19、连续修补V.1–V.4、显式Z的Q.1–Q.3、G.17–G.22、R119实际119.7–10/C.29–31及真长图B.8–B.19。tail逐项核§5–7。A(JQ)=−A(Q)给实际奇偶子类A和全部同类导数精确0，原角点固定时a≡0，因此非解中心的aRφ项也确实为零而R仍保。Piola弱源Ft偶/Fθ奇、真实total mean和高度gauge不删；真b0分子奇/密度偶，其一般全方向公式保持。S的既有负阶/高阶完整帽—尾界仅限制不放大，因而适用于原F的实际反射存在性子类；不称为whole-body逆，不消去Γ返回相位、νSchur、非线性或最终几何。
+
+## 2026-11-15 02:53:26 UTC 完整Fourier径向参考R1–29独推
+
+根与题README在 79f0a07e27420a7c1551e8a935314e94133a214c 未变。原件blob9425775abb7facb14b4ba127ce6c6bd3b353251d，17544B，SHA256 a13b5fdef9aeb531bebff9b882b913554bb449a4dce72c67d4c342af50e84710。root完整读新稿和原N.3–N.9，核D_j有限和、全部符号/primitive零模、复parity、j0真实mean、j>96 pair公式、二态det及weak factorization；tail独核D_j/parity/j0。R24–29严格保Etr=Rtr+ΔGVtr、输出labelm、原root trace、ordered真实seam a−J及Duhamel。ΔG的d∂仍一阶、正区两态Cauchy有增长列，故此稿只是完整解析参考/条件norm接口，没有新数值结论，不重原Nraw或target。
