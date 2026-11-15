@@ -264,3 +264,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R392｜响应E分量与两个固定Λ的实际联调及线性完整乘积
 
 [R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)（19339B；SHA256 5b8e18d9cae08fb35f6846357c99c1ffce6548e32937739503b4c7b177be2835）。先用R390清原型A，全部清零块成本随n复制进入a；先定t0/紧盒，再固定小二阶族的整数q覆盖大正负t，最后才取末n。后置A校正的完整F成本与n无关并保在𝔈，一次有限n收缩准确指定响应F=P_LE和两Λ；可同付−6/−4/0完整pure/self，Klein保完整偏置。qE未付式(26)显式保2nΣqE(vhat)，不声称wholeE0。原真实协变/−6投影/同权响应/小平移另给kerE的KX/KM，故线性J(U)=E(U)⊕R²；λ+的固定J核见证保真。实际完整商C⊕R²截面仍欠，fixed两Λ核不自动仿射稳定。root全文核及R101(8)/(11)、R365独立§5、R323同权/全核来源；tail独立窄核真实成本链，无新执行。
+
+
+## R391｜同一19根的全部简单退化与指定完整逆germ
+
+[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)（19848B；SHA256 307fc49287bb8cf52be9ca57ac6e088bba40c8fd3ab896ad6102ffa0a4f25f25）。从起点以两个真实minor的多项式非零集选解析正单峰母，Af参考多项式有六简单零；正χ和两偶quadrature保完整低阶纤维。原正kernel保证删任一幅列满19，其他不交包在真实root流形补全后，局部两参数仍横截Af0；相对prefactor/共同annulus/有限维Sard付全部内部Af简单，p只一个简单零。原逆式在p零的三次项/residue精确消，每Af简单点iff唯一真实累计flux0。先定新profiles再原wholeE几何联调，原≤11指定Vd点遂有完整光滑germ。未付其它点/Ve/总flux/端gluing/13joint；点数不限11。root全文/ψ小式/逆germ/参数链手核，tail窄核，未执行。

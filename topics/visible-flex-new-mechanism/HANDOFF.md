@@ -41,7 +41,9 @@ guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8
 
 **Gaussian首阶刚性**：R354–383有限三矩/third/18面积/三directed/Ψ/十对称三外矩表仍真，Ψ非末Fstar新增行。R388原完整R0/R4组合=正系数·D4，D4=∫(f″²−u″²)²；无P分母，条件适用于所有κ≠0的已存在该Gaussian/M0/TκH芽。完整任意w/gauge/history不能吸收独立Gaussian词，全period迫D4=0，连通C²首阶轨道从f⇒u=f。排同芽非圆首阶，但未排高阶才动/其它机制/一般C²面。继续不同芽或第三结构。
 
-**有理芽period**：R184/221/225原iff保平台G″/活动flux/禁Laurent/residue/真端germ/双collar，要求同一w；R312–327已付19局部门/端口，两完整period欠。[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在实际πV0不交包圆保真二次尾，Vθ=Σai²[diSi+Σj>i djUij]；ωi=Λui(V)、ωij=[a³b²]Λ_(aui+buj)(V)。两整包flux准确−ai³(Riωi+ΣRjωij)/(2τ)、+ai³(Tiωi+ΣTjωij)/(2τ)。最右必Λun0；R∩kerπ全盲，非任意π0U。wholeQ0付平台二次系数，原解析平端类中全部端germ iff整包flux0，不除p；内部Laurent/平台仿射连接/13同规范仍欠。R345 wholeE核≤11指定内部flux不授整包/全period。literature续内部简单零germ及19根相容。
+**有理芽period**：R184/221/225原iff保平台G″/活动flux/禁Laurent/residue/真端germ/双collar，要求同一w；R312–327已付19局部门/端口，两完整period欠。[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在实际πV0不交包圆保真二次尾，Vθ=Σai²[diSi+Σj>i djUij]；ωi=Λui(V)、ωij=[a³b²]Λ_(aui+buj)(V)。两整包flux准确−ai³(Riωi+ΣRjωij)/(2τ)、+ai³(Tiωi+ΣTjωij)/(2τ)。最右必Λun0；R∩kerπ全盲，非任意π0U。wholeQ0付平台二次系数，原解析平端类中全部端germ iff整包flux0，不除p；内部Laurent/平台仿射连接/13同规范仍欠。R345 wholeE核≤11指定内部flux不授整包/全period。内部简单零与19根相容现已付R391，继续完整period剩余接口。
+
+[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)在同一真实19根/完整低阶纤维中选严格单峰解析母、正解析χ与两偶quadrature；真最大minor和principal minor同时保持。正kernel使删任一幅列仍满19，其他不交包准确补偿，两参数在真实root流形上横截Af0；相对prefactor保平端/单峰，共同annulus/Sard给全部内部Af简单，p仅一个简单零。原逆式p零的分母三次项与分子线性项消，禁residue自动无；每Af简单点恰需同一累计F(x*)0。原R345至多11指定Vd点升级完整光滑germ，未扩大数量或付Ve/其它点/整包/13joint；新profiles先定后原真实wholeE联调。
 
 ## 5. 继续
 

@@ -150,3 +150,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 - **R383有限表保持，R387/R388阻断同芽全部连续首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)的P R4−B*R0为严格正倍D4，不除P且保全合法gauge；同种子连通C²首阶轨道恒f。下一不同端芽/第三结构，不把非圆当已逃逸；首阶恒定高阶才动及主题一般C²机制不在此结论内。
 
 - **R390→R392响应E与两Λ实际joint已付，继续完整商**：[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)同一有限字可任意指定F=P_LE和两个固定自然Λ，−6/−4/0完整pure/self同付；wholeE其余商qE含原型×n成本仍欠。真kerE的X/M两类只付线性完整乘积J(U)，λ+不经固定J下降；下一实际联合商C⊕R²，须保fixed读出核的仿射问题及全部桥基准。
+
+
+### R391已付：内部退化降为真实点通量，继续完整period
+
+[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19完整值、整个低阶纤维、全部实际副本和解析平端；真实零流形上两偶quadrature/别包补偿给所有Af简单，p仅中心简单零。p零禁residue自动消；每Af点完整germ iff同一原累计F为零。原R345≤11指定对应Vd点现有完整光滑germ，非全部点或Ve；零点数可>11。下一付两目标其余点/整包通量、原仿射尾与右collar重建、R327同一相位13行；不要重做已付minor/秩或把指定必要值继续当高重充分。

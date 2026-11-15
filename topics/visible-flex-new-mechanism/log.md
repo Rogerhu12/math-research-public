@@ -364,3 +364,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:18:34 UTC｜R392实际响应E/双Λ联调与准确剩余商
 
 [R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)，19339B/hash5b8e18d9cae08fb35f6846357c99c1ffce6548e32937739503b4c7b177be2835。原型清零成本×n、任意有限±t真实复制和后置校正C1成本全保，最终一个n付同一有限路径的F/A联合；新kerE X/M给完整线性乘积但非实际负模块。全E实际联合仍定位C⊕R²，fixed核仿射门未抹除。root全文及来源纸审、tail窄核通过，不执行旧研究。H压缩保规则/冻结状态/新门；guard43767357527成功但大log未读，两次工具断开，正制只读Actions回读器，不重跑。基底8dc395c8994f6bb872b0a07d1ba899d359a42016。
+
+
+## 2026-11-15 22:20:39 UTC｜R391完整内部germ的同点条件落地
+
+[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)，19848B/hash307fc49287bb8cf52be9ca57ac6e088bba40c8fd3ab896ad6102ffa0a4f25f25。19根不只未补偿principal：删列正核、别包真实补偿、两个局部三阶方向、正解析端prefactor一起使用，使Af全简单且p仅简单。原累计量不能逐点另选常数；p零无禁residue，Af零完整光滑iff该真实flux0。原指定11以下点的Vd逆germ现充分，其余真实period门保持。root全文及ψ/A/p零公式手核通过，无程序或数值执行。基底3b38a63af43dab1e2e3ce410c0e6e764ae4e76d8。
