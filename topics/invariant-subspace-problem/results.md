@@ -251,3 +251,5 @@
 - **完整Koszul外支撑扭子模与同D判据。** [自足证明](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)用Φ原始性给tors cokerO→cokerΨ→cokerB两注入，Fp31最大指数≤21为其合法小Schur截止；Q只得总长上界，不移用21。原D、cofactor、原来源换列的界分别为δfull+σ、δsub+σ−amax、δfull+σ−amax；真Q达到243才付同D leading单位，未报新O数值。
 
 - **负六完整局部谱与九目标无需额外因子。** [自足证明](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)实际小P133/7/1/1到generic142，谱1⁷,2,3/长度12；原上界12迫W/(L∩W)=0，full模块与投影同构，max3/sub9。全九目标原局部像、h0为单位；K115和q8412…8525给条件费8569/8574/172，未闭全局成员性。
+
+- [R271：真实固定测试的完整相邻交换行预算与同顶部双线性配对](results/R271-appendix-actual-fixed-test-adjacent-swap-row-and-same-top-bilinear-pairing.md)：同一实际top的全部交换行能量≤8||f||²/x，无Q因子；保完整双线性两端与非零左锚，顺次MP联合估计仍开。

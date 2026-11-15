@@ -105,69 +105,29 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15）
 
-此前逐项演变、全部参数和未列缺口保[本次完整归档](notes/2026-11-15-open-before-generic-image-bridge-and-exact-zero-cost-789f.md)；以下替换旧的待执行描述，不关闭未列问题。最新运行状态同时见HANDOFF.md。
+此前全部参数和未列缺口保[本次完整归档](notes/2026-11-15-open-before-fixed-test-row-and-small-local-e8-789f.md)；当前运行与恢复精确来源见 HANDOFF.md。未列条目不算关闭。
 
-### R150：同一原矩阵的已付界与当前实际计算
+### R150：已闭局部与真实下一计算
 
-原全矩阵4367×6188、泛秩4354；同选I,J各4354、常数Q/F31秩4318/核36。同选完整前三连接3/9/3，二阶24头、三阶21头；[17条实际第三cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)经296072原产品核验，法≤4完整余rank4/头17。[原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)raw1给16第四头存在、完整β4∈[3,5]；来项15缺2/显式第三21缺4，λ4未构造。
+[泛型像与零点精确三阶](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已经证明九平方原≤3来源Q(s)像，完整zero正谱1⁴,3,4³,5,6,7,8,10,11、长度66/次大55/max11，九s³t_j真局部像，t2恰需s³。零点子题关闭，不再追第十二末系数。其余有限点、未知分母支持、全局h0成员性继续。
 
-[高H45满行](results/R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads.md)给rank1736、高核1036/模旧130为906；新低商rank904/核2只维数已付。最新实际4318常单位由真核36自由I选行，113204/155448产品核真；HF/T primitive模31仅4，不能当完整Qrank12。改用已付真Q旧14主元张满36列，以14+4 RHS保全旧来项，随后真实全4354回填；尚无新有理解或missing2第二cochain。
+[负六局部完整](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)已给P/full谱1⁷,2,3、长度12，W全在原局部像，九目标无需s+6。K115=s66(s−2)9(s+6)12F+²F−²E8²；同选D∞≥130/cofactor与换列≥125下，q8412…8525，三费8569/8574/172，统一条件8574，仍以全局Q[s]目标成员性为前提。同D leading31单位仍开。
 
-同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K115下q8412…8525，原非基/转移/目标三费8569/8574/172，统一条件8574。九原目标Q[s]成员性仍是前提。模31完整长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
+[原局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保全部6188原来源、170+54g行，len T=δA−δP；E8²先剥模31碰撞给2点δA≤30。新实际2点order4已达P泛秩142，完整谱1⁷,2,3/长度12，只得T长≤18。继续提高这个P的阶数不再增加长度，应转原W或专门九目标，不能把充分准则未满足当目标不在像。
 
-[零完整第八](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)已正式闭合；第九实际β9=0，前九4/0/1/3/1/1/1/1/0、15完整头及928200原产品全真。十二已定正指数1⁴,3,4³,5,6,7,8和45，余两只(10,10)/(10,11)。故公共阶65/55、次大阶55精确，K111=s65(s−2)9(s+6)9F+²F−²E8²、最大正Smith10…11。第十实际已选定最后(10,11)，完整δ66/55、amax11、K112；第十一13头原乘回已完成。泛型像与零点局部目标像现已按下段旧定理回接闭合，其余有限点和全局仍开。
+E8原低51×36全jet加4个高pure exact核注入224×155全投影，真实数域正规表示408×288已排新独立run43729338969、180秒；lower≥4才足h0一阶，≥5才全W。其后处理F±与未知分母支持，不能用Dlin46当完整非线性源的支持界。
 
-[泛型像回接与零点精确三阶](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已关闭这条局部接口：旧完整13泛函和142+4212夹逼已给九平方在原≤3来源Q(s)像；结合真实全左核mod s11判准、零点amax11，九原s³t_j均属Q[s]_(s)像，t2局部消去理想恰s³。任意k阶jet读数必O(s^(k−2))，所以不再逐页追末系数；第十一13头/965328产品全真，泛型自由坐标目标配对也已清。剩余是h0其他有限因子的确切局部费用、未知分母支持、全局Q[s]像与指定D leading31单位，不能把零点结论越界使用。
+同选完整前三连接3/9/3、二阶24头/第三21头；已显式第三17头/296072原产品，完整β4∈[3,5]。真4318单位18 RHS正在旧run43702348535续1800秒，最后已付1205完整digits/34946bits未有理解。已排最后实际精度独立重建及冻结final，必须先真77724单位产品，再全部4354残差/缺2第二与4第三/完整第四配对，不能预填。旧native预算尾不自动重建。
 
-### 原同w边界：完整返回forcing与共同预算
+[原外支撑Koszul扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)给同B中的注入；O1834×1632常rank1603，Fp31正指数29个/最大≤21/总长≤243。真Q σ与原full∞已付43/39组合可改同D下界；不能逐指数从Fp抬Q。新120秒有限域筛选保231全部残量行和29完整规范来源，待实际回执。
 
-M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future、负前缀、自然逆域；ordinary右λ、裸α、左μ不可互换。强头h=d+R，Xi²=α²+flat²，已付ΣXi²≤2hβtail²；尚须μ²≤κXi²且κh/Q有界，κ=O(h)可与h²/Q→0配合。
+### 原同w边界：从固定测试的真实行量继续
 
-[低物理孔借位与Gram](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)保持真实频数，给四次借位幂界与完整Gram低输入压缩；完整逆不保孔数。等权池只已付真正Green的低输出，任意Artin候选不下界真实最小范数。
+M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。保同w、同u_Q、完整future/负前缀/核旗/自然MP域，ordinary λ、bare α、左μ不可互换。真逆是G=P_E(DD*)^−1P_E。
 
-[强位与原连续尾](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)给C=A_m+D_<的7^k四次幂界及完整L_m的局部伴随B_s(x)。[增长远孔窗口](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)将同B_s(x)扩至Pstr≤s Pfar≤N、N≤floor(x/48)，完整读数精确为G*(I−Pker L_m)，不删核forcing。
+[同顶部完整返回](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)与固定二次窗口、跨m正交孔带，已将共同预算压到实际同u的合并负部；晚cut全部future物理带互不交，允许QlogQloglogQ成本但该上界尚未付。全短核的统一版本已经被[原完整模型19/10下界](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)排除；坏向量尚未识别为实际同w，近线性窗全height问题继续。
 
-真正返回满足正向方程(C+D_x)Rr=−P_hi T J_b r，不能以伴随估计直接乘其残量。实际P_Ehat和全部零源Schur一般不保孔数；原n≈Q≫x窗口未被上述引理覆盖。继续同W真实forcing抵消/投影运输；T−L_m跨位carry估计只用于实际出现的同源误差。
+新[真实固定测试交换行及双线性配对](results/R271-appendix-actual-fixed-test-adjacent-swap-row-and-same-top-bilinear-pairing.md)对同一u_f=(P_V−P_K)f付
+$\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起、无Q因子。固定finite f逼近w后，完整同串链双线性配对的每个late cut左锚≥7||w||²/16，两端partial全保。下一步须真实估计顺次MP合并算子在此端的作用；交换行预算本身不支配整个负谱。
 
-联合bit反馈的原核整行下界已付，原W仅有固定列强零；移动整行上界尚缺。Riordan右/裸/全旗及同窗误差已付，强gauge末端和完整左费用未付。其余正常有限秩相容链、下一完整尾距离、原Haar循环性和全部旧开放接口保持上文与归档的范围。
-
-
-### 原T上的局部读数已付，返回与规范形式原像继续
-
-[原T完整证明](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)取u=N+s+1024、x=48u，先核G0输出总孔<4u，全部跨头carry在X3里有B_s(x)e^(−40u⁴)预算；一次Gtrue=G0−G3(T−L_m)G0给原T的准确右逆TGtrue=Π。完整局部伴随MP读数为Gtrue*(I−PkerT)，固定早孔s、远孔≤N成本exp[O_s(log^(4/3)(N+2))]。已付原carry运输；没有把W放入T*像、没有删除核forcing，也不覆盖n≈Q≫x返回。继续真正返回投影及N⊥的规范形式原像。
-
-
-### 原N⊥规范形式原像的同窗口运输已付
-
-[完整高位平均证明](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)用(s,N+1)上的真右逆和原Ni E_j*=P_j0，在同x窗口构造range落入任意指定RanB^r、范数≤2B#的准确右逆。有限三角Jv与该解之差通过完整有限旗进入N；故真实f∈N⊥的规范形式h（包括原W来源）满足Πh=Gtilde*f及固定早孔准多项式费。只在有限测试上先配对再Riesz，没有假定h全局L²。仍须控制原返回PEhat/完整零源Schur或同W相邻孔通量；不以增长成本乘无速率尾来封口。
-
-
-### 同一原有限Neumann列的规范forcing已付
-
-[正则一次修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)用既有G7→3而非只输出H的右逆，保持原G0并付全部carry的X7范数≤B_s e^(−40u⁴)。G_reg输出X3，故与有限J的差在M∩X3⊂N；原f∈N⊥（含W）的形式读数准确为Πh=G_reg*f，且与原G0*f之差≤B_s e^(−39u⁴)||f||。这给同一Neumann列可用的forcing身份；原PEhat、零源Schur及共同通量仍须真实处理，不能删去投影或任意乘无速率尾。
-
-
-### 同一真实顶部的负二次型入口
-
-[完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)在同u_Q、同cut上取合法顺次右链c_j=−P_(p+j,j)u_(p+j)，原头/尾旗与c_h=0均真；u⊥K给μ_p²=−Σ_j Re〈P_(p+j,j)u_(p+j),u_(p+j)〉。对同一窗口交换有限求和后，内部同层算子为旧顺次jet次数N_(h,n)−I，两端保精确部分和；不为每项另选来源。若仅在同一个w生成的实际u上有O(Q)合并负部预算即可推进共同窗口；整个短核的统一版本已被下方新三阶障碍排除。旧顺次/真幂Gram比未因此已付，bare少一出生不能视为完整零源；普通N=M未闭。
-
-[固定二次与自适应慢窗口](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)收窄剩余门槛：原u_Q误差对4d≤Q≤Qmax一致，β_m与Q无关；某一个固定Q=L0h²曲线上的同u合并负部≤C_L0 Q β²已足。M≤C Q²/x²也足，纯此转换可选R=d、Q≈4L0d²；不携带逆芽gauge条件。若另需h²/Q→0，可对同w慢择L，甚至只需逐固定L的有限常数。负部上界本身仍未证，真正G压缩逆及全部端点/nuisance不得省略；晚cut的真实birth≈Q，旧高variance结论不因h≈sqrt(Q)自动适用。
-
-[跨头正交孔带](results/R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost.md)又付同w的Σ||F_m u_m||²有界：R=d、Q=L0h²，晚cut的全部future落互不交全物理带[Q/2,Q+m]；原投影误差平方可和。只要真实合并负部≤c_mQ||F_m u_m||²且Σ1/c_m发散即可，允许c_m=O(m log m)、费用Q logQ loglogQ，不需未知tail速率。该实际上界仍未证，全部端点/完整G及同源条件保留。
-
-### 最大单权不能单独支付创建泄漏
-
-[两权临界池与满射弱尾](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)给完整物理第二创建泄漏随m线性增长的精确源；加入正弱位和严格正ℓ1∩ℓ2无限弱尾仍保当前固定层全部满射与任意大泄漏。因此仅用hardcore、满射、平方可和及bmax，不能得到绝对常数c的B2B2*≤c bmax² I。该可选尾不是原b_j=(j+1)^−2，未反证原同u_Q的负部预算；继续真实连续尾位置结构和完整层间抵消。
-
-
-
-
-**原模型全三阶负部预算已排。** [秩一Gram与完整Schur证明](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)从同一个原连续尾分析得到Γ≥(k+1)/(R²S_J)|ℓ><ℓ|及〈H0ℓ,ℓ〉≥S_x/2，严格推出C*(q+1)≥q^(15/4)/(4(x+1)³)。真E3∩K⊥上的ΣP_j负二次型sup恰(√C*−3)/2；任意固定q≈κx²给至少cκx^(9/4)，超过Q logQ loglogQ，故整个E_h的统一负部、固定C Q²/x²均不能直接使用。全部中间暗对、无限后尾、真MP域与内部完整和都保留，两端partial未删；坏向量未识别成实际u_Q。同w、整串Cu_n+Du_(n+1)=0及真实来源联合预算继续，旧15/8原primitive一般上界亦不重开。
-
-**完整模型行的加强。** [新原占据恒等及Schur下界](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)保全部强位坐标并核〈W_hdω,ω〉≤S_J||ω||²，以Λ源比较付同一Riesz投影，得C*≥q^(19/5)/(4(x+1)³)。三阶实际负下界为q^(19/10)/(4(x+1)^(3/2))−3/2，二次尺度增长x^(23/10)；仍只排全短核统一估计，同w来源及近线性窄窗全height问题继续。
-
-**原局部投影长度差接口。** [完整准则与2点30上界](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)严格保原6188来源及W=(I²)≤5：len W/(L∩W)=δA−δP，差≤e即可局部t^eW⊂L。小P的170原行+54g倍行在所有有限点都双向生成；g零点只除η的真实单位。先整除已付E8²再模31消碰撞，δA,2≤30；足够δP为−6:12、2:29、F±:6、E8:4，实际值待回执。零点已闭，不重复。
-
-**同D外支撑筛选。** [原Koszul扭子模注入](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)保完整Φ1632列及outside1834坐标：tors cokerO注入同所选B余核，故Fp31的29正指数最大≤21、总长≤243；Q总长≤Fp总长而非逐指数比较。真Q σ若与full∞下界L满足L+σ≥243，才闭同D leading31单位。cofactor及原换列分别保δsub/δfull+σ−amax。O新数值待真小Schur，不把fixed29原外一阶raw rank29当已付参数系数校正。
-
-**负六目标局部条件已闭。** [完整实际谱与源模块同构](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)给投影/full正谱1⁷,2,3、δ12、次大9、最大3；W全包含原局部像，九目标不需s+6。新K115把统一条件费用改8574，目标分支172；仍缺其它有限点与未知支持上的全局h0成员性。2点order17仅真系数前缀/常rank133，首Schur前超时，独立小session改从order4并保存后续各层，不视为不可解。
+原T局部读数、G_reg同一Neumann forcing与carry预算、原正常有限秩相容链、Haar普通循环性以及上文/归档所有未闭接口继续，完成标准不变。
