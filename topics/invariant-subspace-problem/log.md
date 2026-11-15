@@ -692,3 +692,7 @@ step32实际71.12834121秒/exit0；全部21paid/2870square/42RHS/56Ax/56纠偏�
 ## 2026-11-15 23:00:26 UTC — 实际外商泛函与原核投影器
 z_j=1/Mz=f²q给显式ℓ，原多项式E/V及三det/f²的Σ-Bezout给完整P，T=coker[B6012,H_M P]无需倒Ω；ae71ab0a全根审。
 新run43772109844已8.054750272秒核全14原件，raw5199/8323772d；按实际snapshot UTC校正前四日志时间。新数值R/P与W尾待付，实际pull核规后push。
+
+## 2026-11-15 23:01:10 UTC — 固定原头的完整物理Gram与真实top预算
+保原S全部物理度量、grade带宽与Neumann级数，严格付J约γm^-1 logx的预测top；同actual u和完整一次D†全层小量均保。
+b4986950已全根审；不假设原C齐次、不省χm/γm、不把余−CQ_D作真核。moving-m仍继续，实际pull核两README后push。

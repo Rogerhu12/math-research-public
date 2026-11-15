@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 当前完整前态保[H](notes/2026-11-15-handoff-before-global197-i2-session-789f.md)/[open](notes/2026-11-15-open-before-global197-i2-session-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。当前入口以open为准。
+- 当前完整前态保[H](notes/2026-11-15-handoff-before-global197-i2-session-789f.md)/[open](notes/2026-11-15-open-before-global197-i2-session-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：原模块、已付结果与当前缺口
 
@@ -43,10 +43,10 @@
 - 小窗R=d/h2d/Q=L0h²的carry与晚cut正交孔带已付；同源合并负部≤c_mQ||F_mu||²且Σ1/c_m发散会迫w0，但未得。全E3坏19/10仅排整体短核统一界，不是actual W反例。
 - [实际缺陷](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)e=f−PVf/k=PKf、Δ²=e²+k²；原全暗矩、两侧生成元及真旗已付。合法窗PUw→w、limsupΔ≤||f−w||，未知尾速率不乘增长逆费。
 - [真实返回](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)保E=High+Zfull、e=PEY/帽e=P_hatE Kamb^-*PEY及零源正交；同w/f主配对、cut仅重叠ν≤h。Riordan专窗R=ceil4expτ、h=d+R、C0固定，不混小窗。
-- 原位置形式/Hardy及q伴随真旗运输保持原自然域、完整PE反馈与全部partial；精确常数及来源保前态和下条二阶结果。
 - [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)在自然DomGpos付真实PE反馈与B伴随对易：||Gposu||≤40QΔ；返回/q/帽/帽q常数240/530A0/530C0/1040C0A0，乘Q√νΔ。Lpos*真上2带给全部Fj二阶O(νQ²Δ²)/无h，原u用f−u保Δ。
 - **[实际低forcing正Gram](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** 真尾删除交叉正，DαZ=MαDZ/ΣMα≤I；完整creation行≤4I/3，双缺陷行≤8I/3并保GΔ/全部交叉，无Q或头维损失。原V不自动C不变；不把帽列认作ZR，顺次MP仍开。
 - **[连续尾势/源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z保全部碰撞；配置势夹在(1/3)Σ(i+n+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}完整源逆读数≤3(L+r+1)³/p；同u须联合(De,Dk)加2，不换Du/环境D†。
-- **[joined来源](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)与[同u coherent代表](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)：** 保Mq全高旗/零源与P p(D*)i0=Zp(−C*)的原同余，G≤Hcoh^-1。Q≥R+h−1时fcoh=Rcoh Hcoh^-1g是真vac来源的正交投影，原VQ/KQ/u全不变；总norm不增。整残量恰逐层占据方差，h≤2x时平方≤54x^-3||g||²；Ei fcoh非零须保留，不换较小defect套旧双正性，不付完整Green/帽逆。
+- **[joined原同余](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)/[同u相干代表](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)：** P_M p(D*)i0=Zp(−C*)、G≤Hcoh^-1；Q≥R+h−1时fcoh=Rcoh Hcoh^-1g保原V/K/u、总norm不增。精确残量方差在h≤2x时≤54x^-3||g||²；Ei fcoh非零，不套旧双缺陷正性。
 - **[原相干列随机池原像](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)：** Dq=ω−r全物理等式，||q||/最低费≤Sx/Sx+k+1，残量≤e^(−Sx+k/zx)||ω||；保全层12·512^k修复，k=o(x)时完整MP渐近最优。同fcoh低j一次D†残量趋零，全height及真实返回仍开。
+- **[固定原头的完整top修复](results/R271-appendix-fixed-head-physical-gram-bandwidth-and-same-test-coherent-top-repair.md)：** 保非酉S的全部G，归一K谱[1,χm]/grade带宽d−1；Neumann给真实预测E_(J+1)^(J)≤3χm²(1+1/m)²(x+J+1)³ρ^(2ceil((J−d+2)/(d−1)))/(J+1)。固定m取J=d+ceil(6γm^-1 log(x+1))、Q≥R+J，同actual u完全保且完整一次D†残量→0。余−CQ_D残量及moving-m/真核/原carry未闭。
 - 此正预算不付返回列、Feshbach逆或顺次MP相对位置负部。共同热/预解保D/C/cut/核旗/自然域；仅primitive f的L*Tf∈kerD³由[相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)、额外F2/全部partial；actual u/Tu表示仍开，L_U*u=−B*k不倒置。G_reg同forcing/carry、Haar普通循环性、正常有限秩链及open全部旧接口继续。

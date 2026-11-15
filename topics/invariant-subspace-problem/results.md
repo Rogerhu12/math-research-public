@@ -483,3 +483,7 @@
 ## R150：实际外商单泛函与不倒Ω的完整原来源投影器（2026-11-15）
 
 [完整证明](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)用实存z_j=1、全56行Mz=f²q建立ℓ=zᵀ modf²，两个Q维120的S模间满射给imMᵀ=kerℓ。明确多项式image基E=(e_i−z_i e_j,f²e_j)及Mᵀ=EV，V末行即已付qᵀ；三原来源det/f²在S上gcd1，原嵌入/adj/Bezout给VR=I、P=I−RV张完整34维关系。同步M=C G与H_M=H_G Cᵀ，得到T=coker[B6012,H_M P]，全程只倒原Σ0、不倒Ω。新R/P与W尾未数值展开，不据此消μ。
+
+## R271：固定原头的完整物理Gram带宽与同actual测试的全部一次MP小量（2026-11-15）
+
+[完整证明](results/R271-appendix-fixed-head-physical-gram-bandwidth-and-same-test-coherent-top-repair.md)用真实非酉Jordan相似并保G=S*S，H_J^0真grade块对角、K=(H0)^-1/2 H(H0)^-1/2谱[1,χm]且带宽d−1。直接Neumann在完整物理逆上控制低forcing到高grade尾，付实际预测top χm²(x+J+1)³ρm^(2ceil((J−d+2)/(d−1)))/(J+1)。固定m取J=d+ceil(6γm^-1 log(x+1))且Q≥R+J，截断相干代表保持同一个原V/K/u；连完整相干列MP预算，所有一次D†修正趋零。精确新残量仍为−C Q_D(C+D)fJ，未称真核；移动m的condition、carry与全部返回继续。
