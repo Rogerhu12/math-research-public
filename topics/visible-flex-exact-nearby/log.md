@@ -384,3 +384,11 @@ SN49ee9a972345d7aa0dc4bdf2b0258ca016925255/11283B/763610f22773bf8186bac8ce41d07c
 同cut完整S/S2已付；原97两窗充分门失败完整保留，实际同J268435456严格通过，finite输入/输出≤268435647含mean，97..J−1/HL-LH仍未逆。完整inverse两gain/forward/finite fee及RR四列/同case总×K0一次成；原完整physical和cutidentity canon与RR逐字同，hash8997bd69ef8877da1b7b3f330b96eb8186a67a1cf8b845fcfb5a876e71cf88bf/ddfd21252380aed7d761fa8d9daf79617bbc8c3910c8a8ac6e73da4bd8cf2f82。17pin=13current+3history+1archive，5AST，1child，16门；旧数学0。临时native8871/c22bc412仅hash未发布，stdout0。
 
 两真pull19:30:51.040344/59.807073，至cb78d0bf2823df62c49597da1230a1af1a6ffdcf双README空diff。原发布容量199195305→199245064B，非当前全库猜测。数学.5567764159999982秒/child.9661615639999965秒。下一真phase-density TC已完整root/peer纯式核并核G/S/IN原source；此成功锁定不重，incoming/fullR0/finiteSchur另付。活动帽索引压缩前全部身份/域/单位/失败/恢复保9ffcbb70830ff3ff50869239263dc92991bc34f3同H/open，未取消义务。SC2唯一43753164994/1继续，SN新suffix继续。
+
+## 2026-11-15 19:38:17 UTC — TC 真实特征密度与完整有限共轭
+
+两README于52bc9f563153aa26b6a98f36f10f02341c4eb8b0未变。本次独推TC1c42939fe977838a369a348bb0db527b20ae51a7/13989B/57ff88f5b022b68e78512e485528fd6b5e61b704dfd56a6003d13d24a37f8a07。root全文复推TC3的特征恒等式、TC9–11 H2矩阵/adjoint/插值两base窗、TC12–14双circle primitive全mean/rank与符号、TC15的33/16/完整G′/dualH4/3、TC18–20有序输入输出；newton窄核及顺读通过。
+
+原G8fa0d675/22688B/c3267f91的G.2、原S2010d9a1的S.5全mean保；IN原exec64dab676/35387B/816483884254f3e7ec06914b66afffc8434db11315dfab1712e71fbb7aae5ae1与source64f389601bd58a653969141525709ca470996000/36387B/726bdd98802c88e9c162f598ff983bc8a762d8cc8f8216164c56e6b960119874已root读，确m3=1−xm−3om1、F2=X1+3om2且0<m3≤1，故上导M=2−lower(m3)不是凭任意下界猜上界。
+
+共轭P_J是实际变换后的投影，有限F_S变真span且保持dualrow，不冒新角finite Fourier。两branch offdiag保β∘α^-1；两rank完整付，两个physical means独立Id。TN强/finite只B0A−，RR已包含K0只再左B0，无未发生input change。无新数值；下一小consumer只读已成IN/TN/RR，旧ray/source/normalizer/physical producer禁重。incoming/fullR0/finiteSchur/全s仍另付。

@@ -79,6 +79,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [TN解析](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261及[完整实际两窗正规化](results/R133-supplement-actual-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)65432488：43752771157/1 child0/16、17pins/5AST，SCIc815e901/preGit541a4d03/67球root全核。原97两窗充分门均失败，实际同J=268435456给L2/H−4/3共同ordered逆约1.001672388/1.033996480。完整两gain R_N约1.712923777e9、F_S约3.747336834e9，后者全输入/输出≤J+191含mean；97..J−1/HL-LH保留，有限Schur未逆。RR原四列/同case总×K0一次约7.790848019e18，两完整旧对象原字同。真phase需ordered共轭、不得同moving Fourier投影；incoming/intervalflow/fullR0独立，旧成功禁重。
 
+[TC真实两branch密度与完整finite共轭](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5：G.2识别实际root-labelled Φσ；IN原正算法m3/F2给共同导数上下界。完整H2/adjoint/插值付L2/H−4/3两个density正逆，独立mean块为Id。TC14精确双chart main pullback与两rank，TC15用真正dualH4/3；不把两branch当同circle。TN ordered共轭后strong/finite只乘B0A−；P_J变真实共轭投影，finite变真span非finite Fourier。RR已含K0，只左乘B0且同case sum，不加未发生的输入图。root核G/S/IN原source与全文，peer核；4coordinate/finitefee和有序乘积待新public scalar，非wholeincoming/fullR0。
+
 ## 4. 实际帽图与完整core接口
 
 本节全部原域/mean/λ/height/κ/affine/unknown-high/真实97行及失败恢复细账保eb29cd5c4db75c5694d32d45451ec81119d4af09同open第4节和原文；成功旧计算不重算，未付义务不删。
