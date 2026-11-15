@@ -574,3 +574,7 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 22:27 UTC /root — request193真实连续十族两阶段入口
 
 [193完整入口](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)九件新逻辑全文及继承launcher/owner/request/workflow完整diff已核：原84pins不改→98、实际runtime61→69/native29。真实72c十factory以180九词加正零ξ起步；原453完整接受后才冻结实际十词并新解450，K/k/左338/右112现场绑定，重算RHS/H/FD/338×112/final。共一7200秒钟/原worker，阶段不重置；原C/采样/全部数值门和18900总namespace保。单90KB必要明选两阶段FD/当前native各call末迭代trial/错误身份，早期大行与每RHS极值不冒已读；quiet及全部读回后清。当前不执行R409径向/metric，R408仅待实际读回。 H/open压缩前完整文本逐字留193前检查点，open§4–6未改；194继续原运行，188终态由exact唯一读取。
+
+## 2026-11-15 22:29 UTC /root — request193公开运行绑定
+
+193九件已推51fb1430e588a622fa233b9534b73b7f17d98f20，官方run43769481114于22:28:30Z创建，compute132981965313已完成namespace/python并准备Node。amplitude唯一终态R408，不取运行中大日志；本次不执行R409径向/metric，仍保真实两阶段全部原门。真实pull读439bee991bb3f3fc7e3ecbf1b01b363eba29591f，双README未变并记H。
