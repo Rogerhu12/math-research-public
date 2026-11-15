@@ -516,3 +516,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R325完整固定field区间包含性
 
 [R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)14028B/1caa1276575e7cb86ee151dcb15c1736bd9b2e5e5b4e5245f1d24cf0cac20081全文核后即发；保113root/225Gram/226态/224shape+可选6独立几何列，整数向外、C正定/严格逆界、primal与方向误差全传。固定准确实trace不冒F_e真根/动态分支/IEEE导数/全RK；150真实消费者继续，140/145原门不变。147实际run43717814570/source3b2df31a，144两job success转R322完整读回；API双README复核非pull。
+
+## 2026-11-15 /root — R325完整field区间消费者源码
+
+[完整接口](notes/2026-11-15-R314-complete-field-interval-certificate-interface.md)及三独立运行源全文核后即发：tape13437B/2aa2ad67、strict40570B/659ecdc0、launcher18294B/cd73cb04；原packet/同job实际owner绑定、225Gram/113root/226态/230列、严格域/SPD/逆界和完整未决保。无本地编译/科学/数值证书；150原fresh91→64/R273→128后清理前消费，完整原结果分段读回接线继续，原140/145不改。API核双README非pull。

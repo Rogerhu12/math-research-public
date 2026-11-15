@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-15 13:13:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3b2df31a555b9466911c9b0b3e9b45c7df576c41。
 
-集成复核：2026-11-15 13:20:23 UTC API读取main 329c622df61076fb40a021f8404056233e8af71b，双README21bd/bff未变；不是git pull。R325全文证明核后即发；147实际run已启动，144两job success待读R322。
+集成复核：2026-11-15 13:22:29 UTC API读取main 9b551fbd69b074ee81760876ad850e3399893bcc，双README21bd/bff未变；不是git pull。R325三源与完整接口读完即发，实际150接线继续，未预付数值证书。
 
 只在公开Rogerhu12/math-research-public。科学计算/科学模块导入/数值测试只用本库Actions；root只源码/证明/原输出JSON重建/语法/hash/Git。PAT只CLI瞬时环境，不入文件/提交/回复/连接参数。root唯一发布者；各agent仅小文本blob交接。
 
@@ -41,7 +41,7 @@
 
 **amplitude / 146与149。** [R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)现全文已读即发，8组141段/fullview1329928B/9593cb0a原字核同；8方向15trial8接受仍W4.963213788832056/radius4.76837158203125e−8，全finalfalse。42normal/84两P探测全返；5次20档全拒有p和三残差同字后缀，10shadow/直接救回0。149实现同原有限字面系数模型的持久高精度p、全部scalar/699节点半径链/3模cellsolve/Robin/full3 merit与9列响应；全112/原最终门不删，旧64投影点必须独立记录，不冒连续g或表形成精度。
 
-**exact_refinement / 140与严格误差。** 140最终读回R321；[R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)条件后验界、[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)完整固定trace区间包含性均已证明。R325保113root/225Gram/226态/224列+可选6独立几何列，整数向外、C正定/严格逆界、primal误差和方向solve共同传播；不等同F_e/真根/IEEE导数。150实际同job消费者接线中，先明确stage10/RKstep0/field0完整230列/320bits，未付范围全留，不给140加gate。145首次正高度原数学拒绝结束本轮，QR工程错误独立；warm/10trial/2e−9/338/FD/fullDN/audit保。
+**exact_refinement / 140与严格误差。** 140最终读回R321；[R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)条件后验界、[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)完整固定trace区间包含性均已证明。R325保113root/225Gram/226态/224列+可选6独立几何列，整数向外、C正定/严格逆界、primal误差和方向solve共同传播；不等同F_e/真根/IEEE导数。[三源完整接口](notes/2026-11-15-R314-complete-field-interval-certificate-interface.md)已发表，150实际同job接线中，先明确stage10/RKstep0/field0完整230列/320bits，未付范围全留，不给140加gate。145首次正高度原数学拒绝结束本轮，QR工程错误独立；warm/10trial/2e−9/338/FD/fullDN/audit保。
 
 ## 已结清的关键实际与剩余数学
 
