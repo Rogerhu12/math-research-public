@@ -1,0 +1,246 @@
+{
+  "kind": "actual_public_ephemeral_parallel_matrix_Green_Poisson_process_v2",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43681612825",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "e30f47d00309ffb6e32c7e7b044df83b2897f75f",
+  "worker_source_sha256": "53d672d2e75ce9519615ea0251c5567a4931af15248ded418ebc5717d2de425a",
+  "started_utc": "2026-11-15T05:36:45.587923+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T05:37:27.720286+00:00",
+      "before": "0b8bbaf363bccccc412ba565368d6fe496a69deb",
+      "after": "301d0b6429ae273cf745fdb7fe8e4696f9786e89",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T05:37:44.637969+00:00",
+      "before": "301d0b6429ae273cf745fdb7fe8e4696f9786e89",
+      "after": "43057ad8ed5aa051335c380732e00efb29cf3e38",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicit_readme_review_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "one_ephemeral_complete_consumer",
+  "complete_matrix_run": "43654510038",
+  "complete_matrix_attempt": "1",
+  "original_targets_F_C_source_Grams_output_Grams_and_scalar_ports_recomputed": 0,
+  "complete_finite193_directional_two_boundary_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "complete_rows_reused_despite_later_publication_failure": true,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "new_recomputable_repository_data": false,
+  "new_Release_uploads": false,
+  "new_Actions_artifacts": false,
+  "actual_original_backwards_run": "43672023585",
+  "actual_original_cap_run": "43671537267",
+  "original_complete_scientific_rows_recomputed": 0,
+  "new_arithmetic_bits": 192,
+  "maximum_compute_processes": 4,
+  "actual_available_cpu_count": 4,
+  "conclusion_scope": "finite193 and true97 Poisson; full high inverse remains separate",
+  "historical_hydration": {
+    "fixed_public_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+    "exact_files": 362,
+    "historical_files": 199,
+    "full_temporary_receipt_sha256": "30e2fe6ed56975fc010723d77cfe6f0f8f35052aa1dc7f2e0312bc7ef6821839",
+    "restored_into_checkout": false,
+    "old_mathematics_executed": false
+  },
+  "input_manifest_sha256": "81fcf32f039a1d2985edce29d54302925bb0b2cfce65cfee33c9dd099f1824ed",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "python_version": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "all_pinned_inputs_verified": true,
+  "immutable_scientific_copy": "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v2-work/science",
+  "actual_reviewed_readme_sha256": {
+    "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "43057ad8ed5aa051335c380732e00efb29cf3e38",
+  "exact_old_future_prefix": {
+    "run_id": "43672023585",
+    "run_attempt": "1",
+    "artifact_id": 14146873569,
+    "original_zip_sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773",
+    "native_sha256": "09df7651d1fbef04eb0d67ab5c762a29d4624ad2610015de1254496b70dce1e9",
+    "process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809",
+    "actual_complete_rows": 1886,
+    "old_successful_rows_recomputed": 0,
+    "actual_original_failure": {
+      "type": "RuntimeError",
+      "message": "new unread repository rules need their actual diff read: README.md"
+    },
+    "actual_original_gates": [
+      {
+        "name": "actual_complete5970_same_F_matrix_cover_and_original_four_rows",
+        "passed": true
+      },
+      {
+        "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+        "passed": true
+      },
+      {
+        "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+        "passed": true
+      },
+      {
+        "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+        "passed": true
+      },
+      {
+        "name": "original_complete_true_ordinary_L2_Green_kernel_and_process",
+        "passed": true
+      },
+      {
+        "name": "all5970_true_individual_weighted_jump_gains_and_actual_public_process",
+        "passed": true
+      },
+      {
+        "name": "complete_true97_boundary_including_mean_and_exact_nominal_matrix",
+        "passed": true
+      }
+    ],
+    "latest_original_readme_check": [
+      {
+        "time": "2026-11-15T04:49:05.079498+00:00",
+        "before": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+        "after": "d45e811152a7bfad8b59a5a2ca3aca7fc92b4ba2",
+        "changed": true,
+        "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+        "actual_diff_bytes": 5833,
+        "actual_diff_sha256": "dbb482ecb4c8d73b593202e0912e9697870c3f36ccabadd5beb02478c2e54241"
+      }
+    ]
+  },
+  "snapshot_utc": "2026-11-15T05:37:44.676399+00:00",
+  "wall_seconds": 59.088858716999994,
+  "actual_temporary_progress": {},
+  "original_process_receipts": [
+    {
+      "file": "original-all5970-impulse-artifact-process.json",
+      "bytes": 8566,
+      "sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
+    },
+    {
+      "file": "original-complete-L2-kernel-process.json",
+      "bytes": 8264,
+      "sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "file": "original-complete-finite193-Green-process.json",
+      "bytes": 8548,
+      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "file": "original-complete5970-matrix-process.json",
+      "bytes": 24249,
+      "sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "file": "original-complete5970-projector-process.json",
+      "bytes": 4269,
+      "sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "file": "original-complete97-weighted-boundary-process.json",
+      "bytes": 13666,
+      "sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "file": "original-rule-failure-process.json",
+      "bytes": 69351,
+      "sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+    }
+  ],
+  "actual_original_artifact_archives": [
+    {
+      "run_id": "43594139132",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-cut-projector-prepared-43594139132-1",
+      "artifact_id": 14113777182,
+      "original_zip_bytes": 1258246,
+      "original_zip_sha256": "8d27c78358dfcf7196bf71e3be3d7e2caae9e6ea4c4171c1dcf13ddbf0af9b25",
+      "actual_process_sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "run_id": "43594139132",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-5970-projectors-43594139132-1",
+      "artifact_id": 14116108990,
+      "original_zip_bytes": 3813407,
+      "original_zip_sha256": "ff371eb320491b179265a90c6ed19be318c2930f8ed1c48f861f1bb1542a551a",
+      "actual_process_sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "run_id": "43601964129",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-cut-Green-complete-43601964129-1",
+      "artifact_id": 14117096043,
+      "original_zip_bytes": 17919531,
+      "original_zip_sha256": "86c48eb560961d3ac97e45b8de97c301f6c5ee3d6455a946a0528cda3bd68d84",
+      "actual_process_sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "run_id": "43633074696",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-finite193-L2-Green-kernel-43633074696-1",
+      "artifact_id": 14128549530,
+      "original_zip_bytes": 17615189,
+      "original_zip_sha256": "551a889edaa4a4c59a3af66d56b195b783bad1cb1482e644d4134b4783dd86ae",
+      "actual_process_sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "run_id": "43649423561",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-cached-interface-impulse-43649423561-1",
+      "artifact_id": 14135173447,
+      "original_zip_bytes": 13683038,
+      "original_zip_sha256": "ea4e7f5f7eecb82ed5861af8631c500fa298e4a0b7306932a20c03f3259cb632",
+      "actual_process_sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
+    },
+    {
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-5970-finish-43654510038-1",
+      "artifact_id": 14144756174,
+      "original_zip_bytes": 45347805,
+      "original_zip_sha256": "49d9e622aa059f4f9ce059f1e352bfda6fe5c57dc2943f60e25795b2051dbebd",
+      "actual_process_sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "run_id": "43672023585",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-directional-matrix-Green-backward-43672023585-1",
+      "artifact_id": 14146873569,
+      "original_zip_bytes": 286134725,
+      "original_zip_sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773",
+      "actual_process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+    }
+  ],
+  "new_output_policy": "only scripts, parameters, run IDs, output SHA and true small conclusions; no new data artifact"
+}
