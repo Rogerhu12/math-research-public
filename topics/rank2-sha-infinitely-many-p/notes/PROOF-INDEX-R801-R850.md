@@ -140,3 +140,6 @@
 
 
 [原对角高度坏位增补](2026-11-15-repaired-diagonal-global-comparison-scope.md)：YZZ §5.5的坏位误差准确来自Δ_v=Θ_v+2E_v及其代数模形式f_l的真正σ尖点投影；Eisenstein性仍为该版猜想，原负中心根数没有自动删项。纯λ高度的两个输入在λ与λ∨，17角色相消，V^I=0也不支付垂直核消失。亲核Chen–Zhu一般层反演S、He–Zhu奇平方自由层及weighted almost-self-dual模型，均未在所引条款计算原2²3²17²指定误差；继续原第四槽/跨p，不新增非零结论。
+
+
+[固定挠点与真实Frobenius初始资料](2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：先固定M覆盖四theta群/CM13，给绝对Mumford倍率、半特征与完整cocycle；Z_M=[M]*Z/M严格平移不变，G_M=[M]*G/M−DlogΨ_M/M²保原曲率−mH_M^p。真实P_(2,M)投影保四原α及Fermat/Gaussian修正，极帽为固定M²倍p³；非零E[M]处ord P≥p是已算初始资料。原有限theta群给指定延拓交织，不能代裸几何trace；CM13裸迹首α=α，真实S迹为−γα，完整frame差(−γ−1)α、范数21单位。未把该差赋零或推出四α不能同零，原native Schur继续。
