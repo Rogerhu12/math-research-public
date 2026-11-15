@@ -128,9 +128,9 @@ R224/R228标准/增长曲率偶芽已由原八包c6排除，R232另严格排原�
 
 [R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3、36odd和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)真左尾/平方密度反射再付A−1,−2 I0。[R271](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)以原P,Y第一self及ordered U01两号，在预选共同新大正I内六final block各先四变量IFT，再Q正幅配平/三个严格比值夹持，联合付A1,−3 I0/I1。16形式even仍未付（非rank），但下述R275已阻断原小h族完整面积。 不平移旧根、不授任意冻结窄I，不搬旧F8/旧g；不同block α无需相同。
 
-### R277：同Gaussian数据的高阶形状纤维，继续联合能量与六个剩余even
+### R277/R279：同Gaussian数据的有限频率形状纤维已付六能量
 
-[R277](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)已证明全部self平移系数/三矩是C²多项式，在最初选择的真最大秩母包附近可用实际minor准确保全F，有限高频改变C³正bulk。等背景格点的真实ordered前缀与对称核准确付30even，原完整8/12copy付36odd。单个R<0包及其全部copy的同F连续路径先取一个有限N、再IVT付Lc=0，Ls保0；全部72观测值同时保持而非只付local。**下一同一F纤维真实联合支付Lc/Mc，并处理余六even：A1,−2的I0/I1、A1,−3的I0/I2、A−1,−2的I1/I2。**不把六条当rank；剩两能量/完整period/同w与有限g仍欠。该新最大秩母包不自动继承R274解析端芽，需另付其端条件。
+[R277](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)/[R279](results/R279-finite-frequency-fiber-control-pays-both-even-profile-energies.md)从最初真最大秩母包的C²多项式F纤维保持全部self平移系数/三矩和72完整观测。等背景有限格点的30even/36odd零不变；全部最终copy/位置先固定，三个high–low–high包的真实principal比值有严格排序与正balance。N^-3振荡配有限纠正使完整能量C¹收敛，再选一个有限N的真实根，付Lc/Mc；odd与共振一般微包身份给六识别能量全0。**下一完整支付余六even：A1,−2的I0/I1、A1,−3的I0/I2、A−1,−2的I1/I2，按真实ordered三矩面积处理。** 不把六条当rank；全period/同w和有限g仍欠。另从最初构造解析同F母包，不能自动套R274/R276端芽。
 
 ## O1：双圆领相位机制，保留备选
 

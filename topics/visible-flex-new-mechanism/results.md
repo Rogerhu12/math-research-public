@@ -367,3 +367,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R278 完整证明](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)以新的H=β(α)+r、q=(H−1)/(64(1−α))低高质量和a²/b²=1的mid包改变真实profile。五个gap簇用同low宽q、严格正的0/2/4中心矩匹配，支付新增四次背景nTr；原Vandermonde极限正权19/45、2/5、8/45，在有限n/N与真正宽上成立。由此新E22=(α+H−5+r0/(H−1))E04准确保持相关local全角门。原四变量IFT完整保有限δ余项、六能量及三矩/全third/36odd，不把leading根或点质量当实际解。
 
 整个gap中JDreal0而J(xDreal)>0，故原history精确给ΔS0、Δ(Z/k)=−Σμmid J(xDreal)<0。固定总四次质量的二次质量随有限N增长，先固定n/r/h，再大有限Λ/N，最后δ小，负δA^(3/2)超过旧O(δA)，得S>0>Z/k。Q先用已付全局中心身份消大ξ²项，再保原和mid的真实primitive；ordinary/companion仍给严格Q±，最后正幅可Q0而留上述符号。准确附账ΔY1=ξ0Δ(Z/k)，另Z even仍=k ReQ+Rshape ΣRe(a+ib)^4w，未付总Rshape，不授full面积或条件数减少。root全文核质量、方差、gap尾、正权、IFT次序与容量；literature独核原R270有限δ及Q/Green总账，无新执行。
+
+
+## R279：同一完整 Gaussian 数据纤维内，有限频率准确联合支付六识别能量
+
+[R279 完整证明](results/R279-finite-frequency-fiber-control-pays-both-even-profile-energies.md)保R238原S/T bulk及总体真左尾，全部实际copy的γ⁴与d先固定。C²多项式minor沿实线非零保证可在u″(0)≠0的邻域选光滑最大秩母包；原principal聚合比值ρ_i=−3/Ξ+3(t_i+dbar)/Ξ²+O(Ξ^-3)，在一个预选有限Ξ上给high–low–high三包严格ρ1<ρ2<ρ3。其负/正/负能量向量有显式严格正balance且spanR²，可将任意完整基线(Lc,Mc)移为正幅正则极限根。
+
+真实扰动N^-3 zχcosNy先由固定minor准确保完整F，纠正C³及z导均O(N^-1)，真实三导主项zχsinNy。对原完整能量及参数导数逐项IBP得C¹收敛，先固定正幅盒和可逆Jac，再选择一个有限整数N，用压缩映射得到准确Lc=Mc0；不是将principal/无穷频率当全解。原十二copy逐函数付Ls/Ms0，已付R256一般微包共振身份Nc=6Mc/Ns=6Ms遂给六能量全0。全72Gaussian观测在每步准确不变，已有30even/36odd零保，余六even仍欠。root全文核原bulk、真副本均值/ρ排序、正锥、常秩纤维、C¹余项和有限N根，并回读R256一般六门原式；未运行新科学。

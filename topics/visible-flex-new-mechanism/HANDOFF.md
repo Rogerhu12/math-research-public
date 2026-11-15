@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`506fb5616283556781a7b7f78fb2f5e90ce2604b`；时间2026-11-15 13:48:04 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`86b8875cd749cff5524ad707a510ab0a29b25e15`；时间2026-11-15 13:49:49 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -19,7 +19,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**旧159实际已消费**：43701558227的η.266520536442→.266491207122；43712266529/a934b45c容量/hold实际η.266513719074→.266474122294→.266443965488，18新检查过、原门过，.26/1e−4未达。其首次持径无后继使用，不能宣收敛改善；全部漂移、原失败/输入/费用见[原完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)，不重跑已付阶段。
+**旧159实际已消费**：43701558227与43712266529/a934b45c的容量/hold首实际、全部失败/漂移/来源/费用见[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)。原门过、.26未达，首持径无后继使用，不重已付阶段。
 
 **159因子化首actual完成**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16/job132820200829。三新开发组全过6.57835秒；唯一新stageη.2664285858004584→.2663989905276839，两网14原门/精确物理盒过，.26/1e−4未达。11primary+1SOC、10新接受、26共享值+2末验；active43.32511秒，新audit48.67288秒；七必要恢复1175.76681秒各一次，不能算新下降。新coarse/fine选J7.32903/15.96631秒，虚轴≤27，full163/159向量J张量0；旧父projection说明标签过时，历史原件不改，不宣同点加速。m5SOC17守卫全真持B.000125，m6确用但ratio.11484缩半；m8新增1+5行且fineη升而拒。下一新模型处理实际预测缺陷，不延12LP/120秒或重跑同stage。首43716207246只人工fixture漏known_fine_metric_locations，0科学；失败与最小修复仍保原note。45/97源及24输入核对全合。
 
@@ -41,7 +41,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R278第三斜率真实新方向**：加入a²/b²=1的有限gap包，Dreal不变，保全部原future尾得ΔS0、Δ(Z/k)=−Σμmid J(xDreal)<0。五gap簇同low宽q的严格正权配0/2/4矩，准确支付新增local even预算；r>0新高坡和原四变量真IFT保三矩/全third/六能量及指定旧面积。固定有限n/r/h后取大有限Λ/N，再δ小，负响应δA^(3/2)超过旧δA，得S>0>Z/k并保Q±，可正幅付Q0。仍ΔY1=ξ0Δ(Z/k)，另Z even保Rshape总项，不能冒独立控制或full面积。
 
-**R277新同数据高阶机制**：原18self全部平移系数与三矩有真实C²多项式延拓，保Green与有序尾。从最初选择光滑最大秩even母包，真minor+ker等式保完整有限观测F；C²小/C³大的有限高频与固定光滑纠正使正bulk S无界。等背景b_i²=B、R_i∈{−B/2,8B}的有限17进制/Prouhet格点准确付30even，原8/12copy再付36odd。完整Lc同形严格负；只改一个R<0包及全部copy，在F恒定路径上固定一个有限N、IVT准确付Lc=0，Ls亦保0。余6even、Mc及其它层/period仍欠，非指定旧母纤维或rank声明。下一同F联合调Lc/Mc，再付剩even。
+**R277/279同Gaussian数据的高阶机制**：全部self平移系数/3矩有真实C²多项式F；最初选光滑最大秩even母包，真minor+ker等式保完整F，不假任意旧纤维正则。等背景b²=B、R∈{−B/2,8B}的有限17进制/Prouhet格点准确付30even，原8/12copy付36odd。R279在全部最终copy/位置先固定后，用high–low–high三包的真实principal比值−3/Ξ+3(t_i+dbar)/Ξ²严格排序给正balance；N^-3振荡/固定光滑纠正使完整(Lc,Mc)映射C¹收敛，选一个有限N后压缩/IFT付准确双零。原odd Ls/Ms0与共振Nc=6Mc/Ns=6Ms给六识别能量全0，全部72观测值恒定。余6even、全period/同w仍欠；下一真实有序三矩面积，不能以条件数冒rank或把极限当最后profile。
 
 **R264/266平台原尾**：G″=(aw″)′+bw′−Jcw，Λ=a(pw″−p′w′)+wJcf−fJcw，Λ′=pG″。全平台/flux iff各活动总势矩∫cw0及非零平台局部项0，控制组合只付总和。非零F平台局部像F²(P2D4+2P2′D3)维3，完整K仍含Q2″=−Jcw；不把局部源零当全K零。
 
