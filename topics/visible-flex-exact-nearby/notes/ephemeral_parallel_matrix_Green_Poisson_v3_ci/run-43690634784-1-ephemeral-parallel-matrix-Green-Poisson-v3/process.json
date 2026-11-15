@@ -242,6 +242,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T11:04:15.885318+00:00",
+      "before": "2e8e90dc72343a4132c2be0ac489b168b4ecf072",
+      "after": "a2bd847d4bc5385d2143a1e5f3a474e9c54ee8d7",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -344,6 +352,11 @@
       "time": "2026-11-15T10:44:09.581705+00:00",
       "final": false,
       "commit": "35c46c841d062aba1873322be2ea7067b4784d71"
+    },
+    {
+      "time": "2026-11-15T10:54:13.553635+00:00",
+      "final": false,
+      "commit": "b96acf9fad436a6e26966c52f440987b7665b1d2"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -454,7 +467,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "2e8e90dc72343a4132c2be0ac489b168b4ecf072",
+  "last_read_commit": "a2bd847d4bc5385d2143a1e5f3a474e9c54ee8d7",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -510,55 +523,55 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T10:54:11.641777+00:00",
-  "wall_seconds": 11752.291588195001,
+  "snapshot_utc": "2026-11-15T11:04:15.998595+00:00",
+  "wall_seconds": 12356.648408482,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T10:54:11Z",
+      "actual_utc": "2026-11-15T11:04:12Z",
       "streams": {
         "future": 5970,
-        "past": 3152,
+        "past": 3360,
         "product": 5970
       },
-      "complete_groups": 39,
-      "queued_groups": 98,
+      "complete_groups": 53,
+      "queued_groups": 105,
       "consumer_processes": 3,
       "done": false,
-      "original_temporary_receipt_sha256": "0a73e132c64779ab337d5402463dd6e765acf611226dbe9a4076f947602a6c96"
+      "original_temporary_receipt_sha256": "8c75424844a39823450501691bb2953a88e9343485533f81f5cfc0a2d42d11d1"
     },
     "consumer-0": {
       "stage": "consumer-0",
-      "actual_utc": "2026-11-15T10:52:40Z",
-      "completed_groups": 26,
+      "actual_utc": "2026-11-15T11:02:53Z",
+      "completed_groups": 31,
       "last_group": [
-        4768,
-        4800
+        5088,
+        5120
       ],
       "done": false,
-      "original_temporary_receipt_sha256": "1a91e7d30fcc901a8c89222735768438d74153aab27bb44b7415c359b1c7bbc4"
+      "original_temporary_receipt_sha256": "40d0267158c6ec837db07813c77b826781e3d3a7addc74c6c325d529f5270c56"
     },
     "consumer-1": {
       "stage": "consumer-1",
-      "actual_utc": "2026-11-15T10:53:08Z",
-      "completed_groups": 8,
+      "actual_utc": "2026-11-15T11:03:18Z",
+      "completed_groups": 13,
       "last_group": [
-        3584,
-        3616
+        5120,
+        5152
       ],
       "done": false,
-      "original_temporary_receipt_sha256": "577432b69f46fc34d595c9e40b2a707b908c2c8f19214891ff09e2bcb003c131"
+      "original_temporary_receipt_sha256": "509c51a55800ebe3374f6ccd2f0ced7ba25841d7bf58473c4f7c32100adf0e72"
     },
     "consumer-2": {
       "stage": "consumer-2",
-      "actual_utc": "2026-11-15T10:54:07Z",
-      "completed_groups": 5,
+      "actual_utc": "2026-11-15T11:04:15Z",
+      "completed_groups": 10,
       "last_group": [
-        4800,
-        4832
+        3424,
+        3456
       ],
       "done": false,
-      "original_temporary_receipt_sha256": "c0b029d8bd8ac9a11036930996222ad607858121c7853ccd4c6810ba7e34a7bd"
+      "original_temporary_receipt_sha256": "b085016d8fd26ce248ca027ab6f56b8234449bd279b8d88c11afea6efd9d9f88"
     },
     "future": {
       "stage": "future",
@@ -572,11 +585,11 @@
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T10:54:00Z",
-      "completed_rows": 3152,
+      "actual_utc": "2026-11-15T11:03:51Z",
+      "completed_rows": 3360,
       "done": false,
-      "seconds": 11375.278988718,
-      "original_temporary_receipt_sha256": "b4cefa7e5e2dd2e5140329b472953f4c05d3b3b86700edd20992521b739de1e7"
+      "seconds": 11966.432873254,
+      "original_temporary_receipt_sha256": "90788afd10bfb56ba70efd9058bc298580a06fc48e2d2ce51b44c4d91e7fa2a0"
     },
     "preflight": {
       "stage": "preflight",
