@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：269476c9efec9d490b2002bf26b33d81c91f0bb5；2026-11-15 09:21:38 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:21:38 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
+- 最近已读规则提交：de829cadfa0987e7826951896c5ca128b30f5707；2026-11-15 09:22:48 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:22:47 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
@@ -16,8 +16,8 @@
 ## 检查点与责任
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-r725.md)沿链保全部来源、预算、坏集与旧门；摘要不关闭旧问题。
-R1–363、365–560、562–653、655–700、701–711、713–725已登记；R364/R561/R654/R712与主目标仍开。入口results.md和notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；deep原同R全像/新R726；theta同q冻结负矩；literature原first-wild非实补偿；root全窗低极帽与中央carry。
+R1–363、365–560、562–653、655–700、701–711、713–726已登记；R364/R561/R654/R712与主目标仍开。入口results.md和notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；deep原同R全像/R726两残列；theta同q冻结负矩；literature原first-wild非实补偿；root全窗低极帽与中央carry。
 
 固定E17/E24/E2312 rank2为R294/398/469；完整Selmer桥2+corankSha≤2ordJ，需同一无限p族至少一条固定原J′非零。O4原δ^aεw的a≤1无穷p、O6 q_p=1无穷p按open继续。
 旧ray/13/19/M3/D*、19角/五z及primitive坏因子保；R659只添61/277。CRT含17²，mod289=(273,87)、迹170，禁换δ类。π0取E1的2δ-primary，π17=π24=−π0，λ=−barπ0^-1，β=−λ，κ=pλ²，Ωunit。ρ0=−σ^⊗6/84、half-quarter/18物理96/原pair均保。
@@ -32,7 +32,7 @@ R719固定52行/149列（无quarter）在Q(ω)(τ)读取J2=c·v+κRκ+uRu；清�
 [两斜门](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)：Li=34Yi−29Y（i1,3），全μ|Li深ℓ=λℓ(RY^ℓPLi,κℓ)_*μ；变基det−17/34。完整q的E位移≤30次，原paired负矩是同Yunit的Σk u^k/k·(M1k−M3k)(κ^ell)，deg≤30+k，完整C支/log尾保。S测度B_N(t)=t(t−1)C_N(t)、deg≤28。§7同q完整首差D_N(t)型5、deg≤31；偶步P31准确抽出I_−1(D_N(0))，高k尾p2N，全配对S被杀，但T外部为同值相反补偿；五个原负矩未付。
 全(Y,Z)桥Edeep=λ2Nρcd，Eshallow=λN原plane−λ2Nρcd；附E门须先回来源。近消分区另排19·61·22699·64111，不改高幂ray。
 冻结公开43697687827/132761748164在τ2,3/η±同50整逆上，五差使rank50→52，两分支十行亦52；四处q/ζ差非零，只作实际辅助定位。ci/exact-check-20261115-r719-frozen-native.json。
-已交同脚本窄续：去J2后的旧49行+五差能否读取J2；另限无quarter的frozen/cd/W/F1；抽两新方向及三关系。没有新适配/新矩阵，Q(ω)提升另付。
+窄续43698479188/132764137859已成：四点旧49+五差可读J2(q右端50/ζ1)，只无quarter的native行则不能；五差在旧50核上像维2、三关系。仅有限辅助事实，保quarter来源、特征零另付。
 
 ## 惰性：完整原窗、CM与中央carry
 
@@ -63,4 +63,4 @@ R724原anti条件保(q_pα−barq_pα)的真实模p²；原精确指数Mellin/p-
 R722：T_J=s−r−1/T_M=s−r−14，T>2κ/h>κ时物理核/kF²嵌原值与首Euler值k²。H2^{00}/OF²是秩2κ+χ−2整单位块；其余由Fu_F、u_F²−λFu_F两指定列给，完整p³ Schur保；全WD其余列仍投同商。
 [指定forcing](notes/2026-11-15-r722-specified-extreme-forcing-outside-unit-block.md)退出单位块；[截顶charge](notes/2026-11-15-r722-original-budget-truncated-tangent-unit-block.md)将2/3charge返回真落旧D，只损δj≤j(2u+8b+1)，低charge真实U付两jet分裂。
 新增§4.1：Z>0截源无F²来源核，残物理核给公共t阶≥r+1的真原首核，与t阶恰r的Pfact直和，dim K1≥1+dim I_cut。若实际K1仅kPfact，整截源两残列也unit；当前未证明此条件。
-R726已派deep：d=ell−k≤3的新μ_d保3charge、全V1高尾，拟扩大指定forcing退出原截源单位块的窗口；不预付全WD非零。
+R726已付：j0=ell−k≤3的μ_j0五角均保且只3charge，第三短块整消；完整首强迫εt^νv*，ν=h+ell−r−1，V1/f2/normal高尾保。κ<ν<T、T>2κ时退出同D截源00单位块；证明仅需min(T,h+ν)>2κ。两残列、其余WD及同R/p³/两13carry仍在。

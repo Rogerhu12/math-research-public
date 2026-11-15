@@ -66,3 +66,5 @@ R724后续[原Brandt二阶与同步匹配](2026-11-15-first-wild-brandt-second-m
 两斜门note §7：同q715/ζ的真实型5首差为t的≤31次，偶步P31精确提取冻结负一矩；完整S被杀且T外部相反值保留，来源非零不能替代负矩或原中央非零。
 
 - [R725：原整窗的共同平方与低极帽直接返回](../results/R725-original-window-common-square-and-low-pole-return.md)：原ξ单位插值给共同S2帽2LD2及完整A_m帽mLD2，直接Q_m帽2LD2独立m；全首Cartier不变，全部其它单零留数和全局正则项保。实际统一分子N帽M_pD2、p基公式唯一确定；未以极帽压缩代中央非零。
+
+- [R726：低ell三charge乘子与同预算指定强迫](../results/R726-low-ell-three-charge-multiplier-and-actual-forcing-unit-block.md)：j0=ell−k≤3三个原乘子逐十九角保3charge及顶gap，完整第三短块消去；实际第二块保ξ0/V1/f2/normal尾，首阶ν=h+ell−r−1为unit。κ<ν<T、T>2κ时指定目标退出同D截源00单位块；两实列、全WD/同R/两13carry/p³未删。

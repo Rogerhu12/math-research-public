@@ -1,0 +1,27 @@
+{
+  "request_id": "rank2-20261115-r719-frozen-native-reader",
+  "run_id": 43698479188,
+  "source_commit": "2a5b30535e502b0b4e5df88f77402932a41ea334",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r719-frozen-native-first-row.js",
+      "script_sha256": "ab38439a8712a5aeb6944bc43729fdf6c33d1855561a808023c7d4bd2c48ed00",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
+      ],
+      "engine": "node",
+      "sha256": "d78d1ddab6db6e24b56e63ff50c4e48110c0190c44ff0ebc4b71aaaea945b5e8",
+      "stdout_bytes": 17012,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132764137859,
+  "success": true,
+  "scope": "Same original 149-column finite auxiliary source; old 49 plus five frozen differences reads J2, native rows without quarter do not. No characteristic-zero lifting or negative-moment nonvanishing inferred."
+}
