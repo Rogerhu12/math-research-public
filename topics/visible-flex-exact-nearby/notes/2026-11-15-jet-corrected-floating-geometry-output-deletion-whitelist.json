@@ -1,0 +1,154 @@
+{
+  "kind": "reviewed_single_floating_geometry_output_deletion_whitelist_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "reviewed_utc": "2026-11-15 21:07:39 UTC",
+  "operation": "ordinary current-tree tracked-file deletion after this whitelist is committed",
+  "history_rewrite_allowed": false,
+  "force_push_allowed": false,
+  "new_mathematics_or_old_recomputation_allowed": false,
+  "entries": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-jet-corrected-geometry.json",
+      "git_blob_sha": "0e07ead03e7e2bdeb5eda9c62be675047604174d",
+      "bytes": 407315,
+      "sha256": "60433b69b5f7a90b3b2a94ac8f7fced2221cc25d1ad46a045513e18288c111b5",
+      "restore_commit": "8870549d52e48343cb43a979a13f9368cb992736",
+      "restore_path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-jet-corrected-geometry.json",
+      "sha256_authority": "original frozen Hnode correction manifest, not a regenerated file hash",
+      "classification": "large ordinary floating geometry report of the jet-corrected finite parameter probe; its actual probe, conjugacy rays, failed H-node evidence, exact dyadic certificates and original frozen provenance are separate retained files",
+      "review_sources": [
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-Hnode-correction-frozen-manifest.json",
+          "blob": "7fc1b64504f73969fa7a682efdb6d622ea776fae",
+          "bytes": 4302,
+          "sha256": "3fa5aa88116bbbc8235c02075b34d2df9ebc7b3429548274640efee0a6e9b3b6"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-parameter-and-conjugacy-checkpoint.md",
+          "blob": "774c30114809db499d8c418d2a982b7c4a516790",
+          "bytes": 13896,
+          "sha256": "e866f2f0216bd5c88b9226f69105945d144c17a49dd92aef1c6fbc8aca915861"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_parameter_probe.py",
+          "blob": "d5a96eef780074aa81fee992aa8afe2a3e2e56a6",
+          "bytes": 6121,
+          "sha256": "c9c709f64020f429f9a456da9619b9b15e816e70d7f1fdce5f8e7a926091e094"
+        }
+      ],
+      "producer_review_scope": "the preserved parameter-probe producer describes floating sampled geometry and finite Schur predictors rather than a continuous PDE certificate; the original frozen manifest fixes the exact report and probe identities",
+      "large_report_body_downloaded": false,
+      "restore_requires_original_bytes_not_producer_execution": true,
+      "restore_command": "git show 8870549d52e48343cb43a979a13f9368cb992736:topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-jet-corrected-geometry.json > topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-jet-corrected-geometry.json"
+    }
+  ],
+  "preserve_all_other_files_in_original_frozen_manifest": true,
+  "explicit_preserved_files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_conjugacy_nodes.py",
+      "bytes": 10675,
+      "sha256": "f7a33823e3fec0a7e50160b836b7633a0803b1aa2d3d0bb9e8c3552857059cb3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_map_finite_difference.py",
+      "bytes": 5426,
+      "sha256": "90fee015d9a345020b234b64c1838545be6cd05812f5be72ee5eb1697b1ba340"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_circle_local_jet_conjugacy.py",
+      "bytes": 7437,
+      "sha256": "51786d90f2c9e17de23ac385a0446e571e6ffcbb005287ddf9d6cffd0f76bfe7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-parameter-and-conjugacy-checkpoint.md",
+      "bytes": 13896,
+      "sha256": "e866f2f0216bd5c88b9226f69105945d144c17a49dd92aef1c6fbc8aca915861"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-actual-conjugacy-nodes64.json",
+      "bytes": 20673,
+      "sha256": "5b4cf71cc55dd59f898d4ce8ebde0e56b5bcf2d901c377e1dc16f0ee8b69c1da"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-curve-finite-differences.json",
+      "bytes": 3463,
+      "sha256": "686aa52c9860c439481b38bf982f3a2bb0b378c3e703735cac70e1b8d7f8ef14"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d8-map48.json",
+      "bytes": 10043,
+      "sha256": "a90d2d195e4c40fc731439e5ad2bf0665b5ee7bd71caa6848e2031a9602d8182"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d8-rotation48.json",
+      "bytes": 5109,
+      "sha256": "5ec189d6bb2e4dcbf865c73d291c4f7f0f8d0b8e2d692cf938c352ce9b3cf7ff"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d8-local-affine-conjugacy.json",
+      "bytes": 2217,
+      "sha256": "0e396edf221411978f68da3f87b726e6fd7d478994016c79b9c0c0b216346fce"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-map112.json",
+      "bytes": 12160,
+      "sha256": "57888e89706b474653d793e741b89024d1ba4b9ca636819f0944c7822fabaf73"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-local-jet-conjugacy.json",
+      "bytes": 3633,
+      "sha256": "593ca346105369b82ce60db3515c46930974f0418f108d5bd72c6a16bab3d585"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-jet-conjugacy-Wiener-budget.json",
+      "bytes": 4028,
+      "sha256": "ff313022c603afab6c01be8c1f231b85dfb1d60e0f0d2c0267b4a18978c6bb27"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_Hnodes_branch.npz",
+      "bytes": 2224,
+      "sha256": "b61d618880429bb9e848dcf99b01a9a89368f81e777d73627c181c083281f030"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d8_principal_branch.npz",
+      "bytes": 1677,
+      "sha256": "34eafaed676680c6d1b11e29ae5cdbc00d49a8028b66123880c5446baaa4ae39"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d8_local_affine_conjugacy.npz",
+      "bytes": 3019,
+      "sha256": "9901c6b95ef79e0d9392f53f4baef20fdbc7944a128850fcc685b4e812a24c83"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_local_jet_conjugacy.npz",
+      "bytes": 4925,
+      "sha256": "9e60b97c5abe68ce78db049c47bbc6747cb5068207344eef7606ef697da1d3c1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_corrected_probe.npz",
+      "bytes": 96971,
+      "sha256": "0dcfb37f84a1b3d6197b375aa8700628a00398c0b509ce5da6c92f1ecf489199"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_dyadic_conjugacy.json",
+      "bytes": 55483,
+      "sha256": "8d742b24445d7084047fef756571079cfc8ff3c400d2de1dfc2b109973cad6df"
+    }
+  ],
+  "preserve_source_code": true,
+  "preserve_original_input_objects": true,
+  "preserve_NPZ_and_ray_models": true,
+  "preserve_all_failure_and_small_scientific_conclusions": true,
+  "all_existing_cleanup_whitelists_and_restore_sources_retained": true,
+  "current_file_identity_must_be_rechecked_before_deletion": true,
+  "unrelated_files_may_not_be_deleted": true,
+  "reason": "root README current-topic size rule and room for the separately reviewed new FA/WX/WT scalar consumers and their complete small receipts",
+  "last_actual_capacity_metadata": {
+    "commit": "39616fedc70bb5b3d8f37db12f69a8295e09e962",
+    "topic_blob_bytes": 199489891,
+    "source_execution_blob": "5c45c03ebe30d2c7caa09277813ac67adcc95acd",
+    "source_execution_sha256": "8384b45d52d75660edc21152d9038f4498ef728cad9240c62f68ca449653de07",
+    "not_claimed_to_be_post_deletion_capacity": true
+  }
+}
