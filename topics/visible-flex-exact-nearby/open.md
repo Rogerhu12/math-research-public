@@ -88,7 +88,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 
 仅public Rogerhu12/math-research-public及自己的Actions做新数学；本机/代码模式只文本/静态核。根规15只保script/args/run/SHA/真正小结论，可重算证书/data/新Actions输出不入Git/Release/新artifact。原成功输入从immutable commit/path或原artifact临时恢复核bytes/SHA，出版失败不重算数学。
 
-首清理43679889657/1普通删除11834件1905188820B，315bf6e0…；实际topic206137215B>200000000仍false。追加九件worker c0039f74…/flow30e18c75…已推213f53e2…，只确证exact(path,blob,bytes)输出7607204B，保参数/源码/证明/并发新版，不读或rehash旧11834。继续读notes/data_cleanup_confirmed_outputs的实际最终capacity receipt；若仍超限只追加经证据确证的数据，不删未核路径。
+首清理43679889657/1普通删11834件后206137215B>200000000的失败保留。第二run43690692511/1已真success：九个精确确认输出7607204B普通删除，commit1fae319aa2ac67d722bf16b2391053dcb90bb407实际topic199048373B<200000000；[真实publication](notes/data_cleanup_confirmed_outputs/run-43690692511-1/publication.json) SHA d7f4ad6360e9e78af270c5021d60e1adce738e6f09d9a85dbc64addfa930255e。恢复原commit121e4ce63b469b31148dcd58697092b9befbd5c9及30803B身份清单SHA75901041…，0数学/0旧11834重hash/0上传。该门指上述实际计量提交；继续新增脚本/小结论时维持预算，不把历史快照容量当所有后续提交容量。
 
 每结论独推，非FF立刻真pull --rebase并重推至成功，禁force。至少每小时真pull后查两README，只读变化diff并即遵循，已读SHA进H。CLI07:39:24仍无executor，根规8例外只准<100KB UTF8小文本connector，禁binary/gzip；ref核不冒pull。已核runner07:39:23.553298真pull→20cccde1…/两README diff空。终端恢复立即pull核差。
 

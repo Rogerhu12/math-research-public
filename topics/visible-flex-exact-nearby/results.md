@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：第二次精确清理已实际通过容量门。** [run43690692511/1实际publication](notes/data_cleanup_confirmed_outputs/run-43690692511-1/publication.json)确认普通删除九件7607204B、提交1fae319aa2ac67d722bf16b2391053dcb90bb407的topic为199048373B<200000000。首轮超限结果保留；0数学/0旧11834重读/0新数据上传，原history/参数/源码不改。完整路径/blob/bytes/SHA/producer/run身份清单30803B/SHA75901041…，恢复用121e4ce6…原提交。容量是该实际快照的结论，后续新增仍须维持。
+
 - **2026-11-15：共同径向真实参考的完整 signed 第一源与根处消去。** [F1–22](results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md)准确给f_b^V=f_b+V_j/f_a不变；保全n^-1/^-2/^-3、旧P/I/J六余项/mean/jump，新的w1^V根常数不是旧w1改名。真root径向大项准确消去，余C²−291/140、DC15/14和Kr项；完整mean为V_j−V∞+141〈C²〉/(140κ²)，finite-z Q1在固定z取真实r导。根与tail独立复核完整系数，未运行新数值，整片/正Schur/strong返回仍独立。
 
 - **2026-11-15：追加九项已确证计算输出的精确清理部署。** [worker](scripts/fourfold_codazzi_confirmed_output_cleanup.py)仅接受九个已逐件读取 producer/report 证据的 `(path, Git blob, bytes)`，合计7607204字节；八项另绑定原SHA，第九项在runner读取原blob后真实hash。保全部源码、参数、证明、未列路径及并发新版，原11834项不重复rehash。首轮真实容量206137215字节仍超限；本次实际容量门尚待 Actions，未预称成功。
