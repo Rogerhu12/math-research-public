@@ -25,7 +25,7 @@
 
 - 活跃run43756208221始于20:06:58，350分钟loop/360分钟job；每30分钟/每步/push前实际pull核两README。request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp根/home/runner/work/_temp/isp-source-kernel-session-43756208221。旧run43740928483全部18步已付，不假用跨job临时数据。
 - 新job从小源码重做第五、P、常高、第六、第七高/低；所需phase与manifest逐完整历史bytes/SHA匹配。恢复仅gzip时间和paid RREF用时元数据，不改数学条目；新实际用时另记。全回执统一notes/r150-source-kernel-session-789f/，未满足requires不执行。
-- 第十高task infinity-tenth-original-high-forcing-probe已排90秒/2GiB（外130），仍用9438d690源，读实际第九7310×15pack/真实normalizer及全部高阶。两RHS、12incoming，核123760原lower；完整高后再排低，不预填β10。第九执行8.150662641秒、binding62f42f6e/全SHA见65稿。
+- [第十完整高零](results/R150-appendix-infinity-tenth-high-zero-and-complete-two-head-quotient.md)：实际4.425148357秒、123760原lower全真、5100×2高零；代表λ8/9 normal2非零45/75，12incoming λ9非零115全部保留，只断合计高零。完整1088×601低式已排180秒/2GiB（外240），同1b2a1648源；全11阶原乘回后β10=1或2即定66或65。
 - 原全局P的gcd600停于同ce358eac state42d998c9（72.4MB临时），无Ω。只读统计实际1.309897159秒：完成19行/第20待约化、12候选basis/2416步；basis degree83/int24452bits，provenance degree133/分子44184/分母19960bits，raw146.46MB。正构造保该current的Σ单位归一与来源DAG续法，先核13根原56来源，再全56反约化；不重core、不把S包含说成Q[s]相等。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
