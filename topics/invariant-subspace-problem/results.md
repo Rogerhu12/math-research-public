@@ -107,3 +107,6 @@
 
 
 - **三列集体creation的全横向硬核正角。** [自足证明](results/R271-appendix-three-collective-columns-hardcore-angle-and-bosonic-wandering.md)经两模正交展开付全g∈ker a的三列碰撞≥p²||g||²；真实bosonic wandering=R(H^-1e_top⊗g)，原N/Y最高三头行给距离≥3e^-1070/[20(m+4)C_m^(3/2)]，全出生/全孔且logC_m=O(m logm)。原W仍欠反向P_m^B B*w速率及共同抵消控制，未把正向近核当wandering。
+
+
+- **有限零点23条完整二阶左延拓、K80与条件8672。** [自足证明](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)在run43679903558实际1.537155172秒核1088×595前缀秩578/582/582、全1088校正及另5100来源自动零；23独立leading给r1+r2≤4，连r1≤4付零点公共34/31。K80=s20K60、lc=5^6，配指定∞63/62/59得q235…8627、条件cost8672（非基8671、目标仍8450）；未预称零点β2=0或原成员性。
