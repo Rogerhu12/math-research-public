@@ -200,3 +200,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 一次固定预留的细网格容量配置与首次公开入口
 
 [实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)与[结构证明](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)保原setter/initializer/学习固定cap路径：每阶段只在初始边界预留B=Nr(2min(Nt,km)+4min(Nt,kc))+2L，Cnew=C+B，不丢旧行且原余槽≥C−n保留。五原prefix参数不变；第6明确新容量输入生产，冻结原159完整门/handoff后才启动冻结hold，后者再单独声明第二次预留。配置只两键不同，原g/b0/163/159/H/准确盒/半径streak/12LP/40值/120秒不改；容量可能改行池/费用/轨迹，生产与hold进展分开。顶层新stage调用2不是LP数，原计数另保；修正原第六标题，不改任何科学数值。两新源及18个新增人工均只静态审，首次执行由本次公开lane请求完成；旧15/8人工不重复。generic outcome reader按唯一原生stage自动识别，保持其原源码，无新增不必要复核门。未预称容量修复、下降或持径成功。
+
+
+## R260：真实活动通量的准确 Green 两端值与 step 基准
+
+[R260 完整证明](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)消费R258局部自伴Af及Af f0，逐项得B_A(v,w)=v(aw″)′−v′aw″−w(av″)′+w′av″+b(vw′−wv′)，D B=vAw−wAv。因此对完整G=Kfτ(w)，R225真实F_ell(x)=∫ell^x f′G″准确为[fG″−B_A(f,w)]_ell^x，保原右锚和活动左端常数。flat非零常端基准为f0(G″−a′w″−aw‴−bw′)，即使平台G″0也不能先删其它项。整profile零端包复得逐包总通量0；内含非零常平台则必须逐活动区间保基准。完整两个mixed按2K/−4K加4Φ(·,ζ)的真实历史积分，采用2cs规范时E/2，只有另证ζ0可删。准确q分子可直接用于R225，但分母零点/Laurent/端germ/平台/同w ruling仍独立未付；不授固定圆满射、signed成本或八χ结构。root全篇独核Green微分、端值、包边界及规范；无新计算。

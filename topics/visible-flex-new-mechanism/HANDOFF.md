@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 12:00:53 UTC实际pull后已读规则提交：`624ef5b52b2bd30309b0276bdab93f9a85f827b7`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 12:02:23 UTC实际pull后已读规则提交：`ea24ec16dae1dbcc59da299a329227fc5fa3369c`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 11:30:58 UTC实际pull/read `839ca22109ee06130136ded8f5d1b1e24bfeeb45`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual已消费**：43701558227/ef8c1cdb/job132773631115，完整来源/门/费用见原actual。η.266520536442→.266491207122，8主/1SOC、8接纳、20+2值、活动120.313/总896.907秒；m6仅fine曲率拒绝被SOC修回仍减B。原双网/九准确盒/外域jets/g/b0全保，但未.26/1e−4，κ≈58仍欠reach。
 
-**SOC诊断实际已归档**：[完整note](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)，43707849695/f9d8da4e/job132792751708八新检查全过；原159初始化fine union超4096，旧fine4049/coarse4421；0LP/0J/0活动秒、2共享+2最终值，hold未调用。两网原门过/初末η.266488961847同态，非持径阴性。总813.7947秒/RSS3147068KiB为全prefix费用；旧43705209195内部原因仍未知。新容量C+B保旧行/旧余槽，第6明确新输入生产、hold另一次预留；两新源/设计已发布，lane metric_height159_capacity_soc_hold本次请求首跑18新增检查后真实生产/hold，尚未消费；保原门/预算/controller。
+**SOC诊断实际已归档**：[完整note](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)，43707849695/f9d8da4e/job132792751708八新检查全过；原159初始化fine union超4096，旧fine4049/coarse4421；0LP/0J/0活动秒、2共享+2最终值，hold未调用。两网原门过/初末η.266488961847同态，非持径阴性。总813.7947秒/RSS3147068KiB为全prefix费用；旧43705209195内部原因仍未知。新容量C+B保旧行/旧余槽，第6明确新输入生产、hold另一次预留；新lane首跑43711688885/e38604f6在首个数组fixture因非uniform角网拒绝；真实prefix/hold均0。仅修人工网格后再执行未完成新增检查，原生产/预算不改。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -38,7 +38,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R233/235/239/241旧六能量已付**：偶微包/八平移/互补block以简单根IFT付三矩、全third及六能量，共振ε=κ²/4；joint(q,ε)安装有效、改F另冻结g。该圆全例外芽已被R249–253面积排除，不重六门。
 
-**R243完整偶部有限判据已付**：R56消1/z，R[σ,H±1]及真history≤2；X′=(N+2εσD)X给非零常行ord≤n(n+1)/2−1。扣We三矩后有限偶jet全0 iff入We；五谐波/真尾保留，无实际n，全period/同w仍欠。
+**R243偶部有限判据**：R[σ,H±1]/真history≤2线性系统给ord≤n(n+1)/2−1，扣We后有限偶jet全零iff入We；n尚无实际值，真尾/五谐波保留。
 
 **R245完整block/历史已付**：第三闭块四阶forcing按a⁴可加，平移≤10/旋角0,2,4；Gaussian历史21生成元。均匀旋角平均及Prouhet有限实现主层严格负，不排非均匀策略。
 
@@ -63,6 +63,8 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 **R246八平台接口**：11维模上8F+8E单射；八E/前三F定唯一P，余五F+八D为13独立iff，e-flux另验。本模period核0不冒全R0障碍。
 
 **R247–258完整第三核/局部源已付**：R有232呈示/旧下界228；R254八χ fresh Δ0、真dimΔW18/Z7110/Z18，旧actual不重。R255 Z=H7⊕J3⊕χ8及全B_Aτ=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)已付。R258整个Z71准确Kfτ=−J³Afτ，Afτ局部自伴四阶、Afτ f0；三右常数/各平台二次尾/两个mixed历史全保。δ递推必须含seed导数。整profile不交逐包比例类上Kfτ(g)0，且每整包通量0；解析无内部常平台类才支付全部R225活动总flux，不能套旧step圆。仍欠平台/内部Laurent/平端与同w ruling；全R_p0=(R71∩kerπ)+B(E,χ8)不可删首项，8χ完整K未知，80/144定义非rank。下一完整O像，不重旧八Δ/151/152/3974。
+
+**R260真活动flux**：十维K目标的F_ell=[fG″−B_A(f,w)]_ell^x，准确Green边界式保step非零常端和右尾；两个mixed仍保ζ历史/E÷2。只改通量接口，不授平台/Laurent/平端/ruling，八χ结构仍待首验。
 
 ## 6. 保留边界
 

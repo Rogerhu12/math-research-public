@@ -20,7 +20,7 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** [新容量实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)及[结构设计](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)已发布，本次新lane先18新增检查再真实生产/hold，尚无已消费actual；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** [新容量实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)及[结构设计](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)已发布，首跑43711688885/e38604f6在首个人工setter被非uniform角网拒绝，真实阶段未调用；当前只修fixture角网/最小网格，再执行未完成18新增检查；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
 
 ### 仍须支付
 
@@ -133,6 +133,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 [R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)把A−2,−3从pure升级全圆，保D和左尾，以三个真矩全θ零给十条件；40偶微包准确付三矩与该面积，八复制付第三且非GL2分离，但Lc<0。换种子pure两矩零仍有全角m1(π/2)=−120C。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)又给A1,−3的完整必要Q0：Q含½∫(Jq″²)²，40包四局部项恰0而累计primitive平方虚部严格正。其多宽度式(28)准确保左右次序/跨包尾及真实shape常数。**下一同时联调全部面积三外矩/局部能量与ordered-history，不能只调C_i/S_i或只验pure。** 不冒单面积零或局部有限门为完整joint；全period/同w继续。
 
 [R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)已给全部六面积72准确条件：Euler密度必须扣完整二次cross；每微包自项、各i<k有序Γ真尾都保留，72为条件数非rank。具有R183八复制结构的完整圆再取12个完整副本、g交替符号与四次binomial幅度，准确消全部36 odd系数；36 even/内部历史及同w仍未付。**下一把全部复制纳入准确参数方程同时解剩余面积与六能量，不能以原处偶能量0推任意平移保持，也不能只验pure。**
+
+[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；八χ不先套此自伴结构。
 
 ## O1：双圆领相位机制，保留备选
 
