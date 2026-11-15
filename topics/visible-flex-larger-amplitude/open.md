@@ -127,3 +127,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [165接口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)四件已发，consumer94125B/61b98b3e、request16401B/6beff06b、workflow53762B/10b6e44a；原151全部20pins保，再加新源共21，原147请求17398B/4b6f原文使用。R352准确共享L展开/右锚collar/last/coast和每支撑九项完整合并，字面numeric自己的anchor/width/系数/校准缺陷及全部重叠支撑保持；所有可能闭branch用同u系数先相减，再完整Bernstein并与原R330两个包围求交。原419闭片/两子原子cover/C3600/两域各300/target900/65536nodes/depth32/grid320都不变；未从R349计数猜唯一瓶颈或缩上游E语义盒。完整节点/cover/pending/事务和原错误由Actions读，四个实际读回step成功才清理，失败保未读范围至runner销毁；无新增数学或审批门。exact唯一核actual/R356，当前不填global_delta或同场metric。
 
 167第二次43735578724真实pack SizeFailure：490组/14095 metadata已读，159 selected sections共807621B，未取得可读完整科学packet。根8禁止编码或分块搬运大数据、根12不设搬表前置门；下一版仅单份<90KB紧凑结论，完整原FD/8outer/84trial仍在Actions内读取，root只读必要标量/少量原矩阵，大表明确仅身份，原157不重算。
+
+### R354：原Frenet全方向二阶界与Hermite形成误差
+
+[R354已证](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：完整原有限角表达V=(sqrt(P)C−νQB)/(aW)，Q=d²、C=d×e、B=Qe−(d·e)d、P=a²W−ν²Q³，沿全453仿射节点保至8次多项式与显式V″。a/P严格闭段正界给D≥p_min/a_max和显式二阶M，原完整DFT投影全338/115零RHS行；不以complex-step列当准确导数。实际基点/方向形成缺陷e0/e1与完整Hermiteδ0/δ1保留，真实IEEE/SciPy执行误差η另付，再接R334角域传递。没有新M、数值正步长或实际浮点全段证书；29端点/37query仍仅所声明子集，全部699/698/两RMS/连续角与原README另付。后继直接用同次实际模型诊断，不冻结候选或等额外审批。

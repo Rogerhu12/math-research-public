@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:34:05 UTC 已读 90f2048f562ca670f9e20653ec29b14fa2fc3116，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:37:47 UTC 已读 f8d61ea59ec86ec370c637757115aae78ad55495，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -35,9 +35,9 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [145](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)保真124六p/λ.001、原warm/fallback/last/currentH/J/R273η1、32×10/2e−9及338/FD/fullDN/audit；首正s1/64真数学拒才止本实验，异常/未返另记，不盲减半。
 
-[R337实际152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)/[R338实际150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)完整128/129248/576×226 replay已付，末组件编译失败、112/338或230列未起。160/161共享v2只修词法/类型，各fresh91→64J/R273→128；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s后全576×224、112、混合338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins/19200s后stage10/step0/field0全230列320bits。原数学/门/完整JSON与错误读后清保，actual各唯一核。
+[R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败，112/338或230列未起。v2仅修词法/类型；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s接全stage112/338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128，数学/门不变，actual唯一读。
 
-[155](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)fresh98八37model/FD，21LEFT+16MID/24cells/29端点/B9805/75776角行/C4059/full236036及17档保；91pins/science175/job195。完整trial先print再搬pair/清，always补错误。[166接口](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)六件已发：同站点及原B显式control身份配对，保全部实际调用，97pins/三参数/原数学及6000/1800s不变；capture e32e9416/consumer6171fbbb，实际run43734326402/job132873459541/sourcec3a7531d，compute已全success、exact唯一读R353；未预填诊断结论。
+[155](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)91pins/fresh98八37model，B9805/75776角/C4059/full236036与17档保；science175/job195，trial先读再清。[166](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)97pins/同station-control身份绑定，原数学与6000/1800s保；run43734326402/132873459541/sourcec3a7531d全success，exact完整原数/R353成文中，不冒全段Hermite证书。
 
 ## 同C、完整BVP及162
 
@@ -55,7 +55,9 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4直线接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082；末降4.710E−46/预测1E−49不冒准确根，全finalfalse。末九p50/chain/半径.0000390625见原文；FD/J/H等167，禁搬154值。
 
-[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)原698cell七状态三列伴随保完整r/mid/sqrt/112终端/直接q/start项；零jetshape δq=(ah′−a′h)/a²，新增响应须消掉真实左零空间才补秩。amplitude实现helper，164据真实FD/梯度/响应选新shape，原strict slope/字面c_A/Armijo/全final保；有限空池/形成小梯度不证驻点，可逆换参不改准确秩。R335/R336全曲率/误差责任保。
+[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)：原698cell七状态三列伴随含完整r/mid/sqrt/112终端/direct q/start；C²零jet响应与真实左零空间分责。amplitude写helper/164，原strict slope/Armijo/full final保；有限空池不证驻点。
+
+[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：准确V=(sqrt(P)C−νQB)/(aW)及完整方向V″，全338投影/115零行，闭段正界给显式M；原e0/e1与Hermiteδ0/δ1/执行误差全保。纯证明，无数值M/安全步长；接R334全段未付责任，不设原求解新门。
 
 ## 闭合、精化与恢复
 

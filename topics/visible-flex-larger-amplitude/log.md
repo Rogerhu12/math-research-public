@@ -117,3 +117,7 @@
 ## 2026-11-15 16:34:05 UTC /root — 165共享校准包围发布
 
 61114B基线差异及9942B清理修正全文核后四件即发：61b98b3e/6beff06b/10b6e44a，21pins/全九p/419闭片/C3600/900s/65536不变；只修四实际读回成功后清理。exact接R356；166已success待R353原数，162实际43735722483。167二跑超限后按根8改单份紧凑结论、不编码搬大表。API核90f2048f562ca670f9e20653ec29b14fa2fc3116双README未变，真pull保。
+
+## 2026-11-15 16:37:47 UTC /root — R354完整Frenet方向二阶余项
+
+[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)完整证明即发：原速度消中间归一、8次P/正D与显式V″，全338/115零行，原e0/e1及Hermiteδ0/δ1/执行η不置零；无新数值或额外门。166原数由exact写R353，162首跑argv分隔符错误未起科学，geometry修；API核f8d61ea59ec86ec370c637757115aae78ad55495双README未变，真pull行保。

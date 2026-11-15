@@ -240,3 +240,5 @@
 - [R342：实际153完整C与cut两jet返回，物理far第九模态耗尽工作量；native尚未启动](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：1440/两域/deep112已返回，whole2888+1工作精度未付；新rFar处m2..16完成，m18/200000次止，完整row9616闭栈、[9617,10387)及m20..224后缀保。原native client未启动，非试步拒；全部原日志摘要/错误及大阵未独核边界明确。
 
 - [Request165：共享校准表达式与完整Bernstein公共坐标包围入口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)：原准确目标/字面参考/全九p/419闭片不变，21源同job构造；R352共享量消依赖、全支撑合并、同u系数差及R330交，原900s/65536预算保。四读回实际成功才清理；源码已发布，尚无本请求数值结论。
+
+- [R354：完整Frenet速度的闭步长二阶界与实际Hermite形成误差](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)（已证、无新数值）：原正分支V=(sqrt(P)C−νQB)/(aW)，全方向V″的完整多项式/严格分母界接全338投影；保原基点与J/P形成缺陷、Hermite常数/一次形成差及实际执行误差。支付R334二阶界的显式构造，未预填数值M、闭段实际程序或闭场成功。
