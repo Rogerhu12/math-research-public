@@ -1,0 +1,181 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "selected-natural-second-left-normal-four",
+  "executionSourceCommit": "49b15114688b66fb31d36bf71dfc6f8e39561bcc",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-four-789f.py",
+  "scriptSHA256": "3fe9dfc2a3895f66871892079ed6042bedb6eba8ec04291c98c096df1612d9c0",
+  "argvTemplate": [
+    "--regauged-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--rebuild-root",
+    "{work}/selected-natural-u-rebuilt",
+    "--unit-worker",
+    "{scripts}/2026-11-15-r150-selected-left-additional-unit-solve-worker-789f.py",
+    "--out",
+    "{work}/selected-natural-second-left-normal-four",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 75,
+  "wallSeconds": 2.0685019669999747,
+  "fullTemporaryReceiptBytes": 3442,
+  "fullTemporaryReceiptSHA256": "613c992cef822f11f1f912b4c0eb7c2a12ba2f22ce0e844b14b8faf05305b95f",
+  "result": {
+    "completeFixedSupportSecondEnvelopeComputed": false,
+    "completeSelectedSecondHeadSpaceProved": false,
+    "format": "isp-selected-natural-second-left-normal-four-v1",
+    "highRationalKernelComputed": false,
+    "largeDataUploadedOrCommitted": false,
+    "leadingUnitProved": false,
+    "mathematicalElapsedSeconds": 1.9903180860001157,
+    "newOriginalRankPrimeComputed": false,
+    "old36ExactUnitSolutionsRecomputed": false,
+    "old36RightHandSidesRecomputed": false,
+    "oldFirstRREFRecomputed": false,
+    "oldLargeNormalFormsRecomputed": false,
+    "outcome": "high-nullity-above-bounded-entry",
+    "phase": "complete-prefix",
+    "selectedSecondConnectionRankExactly9": false,
+    "status": "completed-prefix",
+    "parameters": {
+      "allOriginalHighRows": 1736,
+      "allOriginalSourceRows": 4354,
+      "binding": "8b3f9574b5fa816b6f967bc9c9530c6dc991e879f070964d0d409b360ffad781",
+      "fixedProfilePrime": 31,
+      "high-profileLastActualStatus": {
+        "actualHighUnitDeterminantModulo31": 25,
+        "all1736OldCorrectionAndForcingRowsZero": true,
+        "all4354OriginalNormalFourRowsConstructed": true,
+        "binding": "8b3f9574b5fa816b6f967bc9c9530c6dc991e879f070964d0d409b360ffad781",
+        "boundedHighFreeColumnLimit": 64,
+        "elapsedSeconds": 1.8400502729991786,
+        "highFreeColumnCount": 130,
+        "highRationalKernelComputed": false,
+        "outcome": "high-nullity-above-bounded-entry",
+        "phase": "complete",
+        "rankHighModulo31": 1355,
+        "status": "completed"
+      },
+      "highProfile": {
+        "actualHighUnitDeterminantModulo31": 25,
+        "all1736OldCorrectionAndForcingRowsZero": true,
+        "all4354OriginalNormalFourRowsConstructed": true,
+        "binding": "8b3f9574b5fa816b6f967bc9c9530c6dc991e879f070964d0d409b360ffad781",
+        "boundedHighFreeColumnLimit": 64,
+        "elapsedSeconds": 1.8400502729991786,
+        "highFreeColumnCount": 130,
+        "highRationalKernelComputed": false,
+        "outcome": "high-nullity-above-bounded-entry",
+        "phase": "complete",
+        "rankHighModulo31": 1355,
+        "status": "completed"
+      },
+      "highProfileOutputs": [
+        {
+          "bytes": 910759,
+          "file": "complete-original-normal-four-block.json.gz",
+          "sha256": "c80ca9f374da6ec41410b8dd2a844328176b7c96ca1e0f1364096bb1a51712fa"
+        },
+        {
+          "bytes": 4852,
+          "file": "complete-normal-four-high-unit-profile.json.gz",
+          "sha256": "cbeccd17b5bbe1578eb58e0b7b8b990494d85642095c49e1c0277afe9dd9411f"
+        }
+      ],
+      "inputIdentities": {
+        "coefficients": {
+          "bytes": 20580,
+          "sha256": "7ab537a3c8f9a3d13b924a23f37f8d4ce4fa7621e3608920404ed0051b2fd5c1"
+        },
+        "old_full": {
+          "bytes": 12690,
+          "sha256": "b186ecd4ef8a8ca910392a8900c838da1e9e166a0b4738b40748677fd7e14a70"
+        },
+        "old_main": {
+          "bytes": 20323,
+          "sha256": "2343123363d6c38a871c66770afb67b37a1b3a6b882baa7aed040134914a345b"
+        },
+        "old_rref": {
+          "bytes": 17625,
+          "sha256": "de7bb03e76ca2dee0221d4f89e1de5db190b6c5b64fc4df70a67e13f405a7941"
+        },
+        "old_solution": {
+          "bytes": 18124389,
+          "sha256": "9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d"
+        },
+        "old_unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        },
+        "profile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        }
+      },
+      "maximumHighProfileFreeColumns": 64,
+      "memoryMiBPerProcess": 2048,
+      "normalFourCoordinates": 1485,
+      "previousCompleteSecondBinding": "c40049455e9f310607586b55cc271ca00636dc954f0de63693d0da886a6d067e",
+      "programIdentity": {
+        "bytes": 36471,
+        "sha256": "3fe9dfc2a3895f66871892079ed6042bedb6eba8ec04291c98c096df1612d9c0"
+      },
+      "secondsLimit": 300.0,
+      "temporaryStageDirectories": [
+        "high-profile",
+        "high-kernel",
+        "new-images",
+        "additional-unit",
+        "full-products"
+      ],
+      "unitWorkerIdentity": {
+        "bytes": 16409,
+        "sha256": "28928f4298d0689f72ea8d39e530d474c4d15076af1c26aee612a2cb1413982e"
+      }
+    },
+    "events": [
+      {
+        "elapsedSeconds": 1.968850330999885,
+        "exitCode": 0,
+        "phase": "high-profile"
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 11:24:43 UTC",
+      "beforeReadCommit": "81ae4cf1bca04cdd1cd65d3a4e8ec28ad21884a3",
+      "originMainAfterPull": "49b15114688b66fb31d36bf71dfc6f8e39561bcc",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 11:24:45 UTC",
+      "beforeReadCommit": "49b15114688b66fb31d36bf71dfc6f8e39561bcc",
+      "originMainAfterPull": "49b15114688b66fb31d36bf71dfc6f8e39561bcc",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 32,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 10977,
+    "logicalJsonSHA256": "0ca5a7c606ecc8a11ad4adebf655792dcd491339ae06745de23a2b2930f39c7e",
+    "itemCount": 32
+  },
+  "lastRulesReadCommit": "49b15114688b66fb31d36bf71dfc6f8e39561bcc",
+  "summaryExcludesRecomputableArraysOnly": false
+}
