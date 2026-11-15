@@ -4,11 +4,11 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：3ee8c03b4dae6898e7054bd7dad0d043b94b37e3**（2026-11-15T11:50:38.481003+00:00 实际pull --rebase；根/本课题README无差异）。
+**已读规则提交：57cbf374f4def532e7cb340d52a9c8da3444b4d0**（2026-11-15T12:09:40.739651+00:00 实际pull --rebase；根/本课题README无差异）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
-10:50UTC终端失联时按根§8小文本集成；11:30恢复，新部分clone/pull后改回CLI。此前完整状态/公式/source/run/SHA逐字保[R811前H](notes/2026-11-15-handoff-before-R811.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
+10:50UTC终端失联时按根§8小文本集成；11:30恢复，新部分clone/pull后改回CLI。此前完整状态/公式/source/run/SHA逐字保[R809激活前H](notes/2026-11-15-handoff-before-R809-activation.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
 
 ## 正在运行与立即消费者
 
@@ -18,7 +18,7 @@
 
 **R803已实际成功**：[结果](results/R803-certified-original-M6-mixed-Hodge-ratios.md)，run43702905620/source2a3f5be7；694块p1000000007/det637607829，84右端均368 Dixon位/full1680，2127.991746秒。31输出manifest/781原输入经冻结verify全核。artifact14158313322至Nov16 10:47:43UTC；cert9b2854ac。84列不重算。
 
-**R801长尾已完整认证**：[结果](results/R801-certified-original-power6-to8-long-tails.md)，run43701282817/source92961ce5，796.738575秒；V6到141/V7到175/V8到195，全部低幂V2..5也到195。完整ZIP/bundle/冻结verify已核，artifact14156204348至Nov16 10:06UTC。七八铅笔V3至136/149缺口已关，禁止重算。
+**R801长尾已成**：[结果](results/R801-certified-original-power6-to8-long-tails.md)，run43701282817；V6到141/V7到175/V8及V2..5到195，artifact14156204348至Nov16 10:06UTC。完整IO/冻结verify已核，禁止重算。
 
 ## 已成输入、全局函数与除子
 
@@ -34,7 +34,7 @@ R806 run43707290840/source75b1d56c已运行，[primitive契约](notes/R806-origi
 
 **R807已实际认证**：[原清极结果](results/R807-certified-original-M6-pole-clearing.md)，run43707939269/source2c44d025；375.019515秒，962minor p1000000007/det290159643，真实残余rank2/kernel3。θ=e0−112648621e1/282292255+223442698e2/282292255；λ3/4零，无新增pair尾。五投影488位，成员690/691/693为336/464/472位，692旧投影组合；四full1100。1003manifest/997原输入经公开IO run43709814489冻结verify全过；cert2680e922，原artifact14159481627，小续接14159593339至Nov16 11:37:45UTC。
 
-**R809证明/契约已成**：[S5正规向量](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。1234列/69×20完整注入；先六τθU_j的84Q右端，后R787真实A/B28追加，不换公共身份。保82尺度/原b/s、λ换基及τ最高项零。有界commutant/真实cyclic唯一认证乘法，模数值逆不作巨大Q(z)逆。core自审及wrapper准备，尚无新坐标。
+**R809公开请求已激活**：[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[工程与原输入IO](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117原文件逐SHA/schema全核，619旧monomial前缀保留、无R807不存在尾。先六τθU_j共84Q右端，1234列/1380行；A/B后增不换公共身份。保82/原b/s/λ及τ最高项零，公共/目标分身份，manifest不可变命名；尚无新minor/坐标。
 
 **R811已证**：[完整极理想前像/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。r5九固定点＋weighted bound准确验全部commutator；第二图t^r D M D^-1。unimodular列核投影给满前像，Laurent互含与τ全长＋σ零纤维长度验全除子，不拆闭点/不重计。原DAG常数不随HNF首一化改变；微分桥仍待实际输入。core首scope准备，须等R806/R809真实A/B。
 
@@ -56,6 +56,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754period/Hom与R759�
 
 主剩R317：p>37、p≡2/5mod9、完整非分裂正规化子、a³+db³=1且p|b；D/bc无统一上界。R575真正CM角色Ψθκ4根号负，旧逆扭秩零应用撤回。R616/R726充分大全p非挠/rank=dim/log同构仅高度输入。
 
-ordinary原p43/776bitq已Gaussian5排除，非Serre反例。R773/776/779/780原格/cochain/real/NT及自动Norm已成；R783真Θ=B−iA=13b、b10Θ、Ω₂/ε22−2Θ，坏Θ11；平衡jet Θ=−iKq、坏Kq11i。真实Robert/Kummer/Shapiro/global dual仍缺，禁止巨大q挠点枚举。
+ordinary原p43/776bitq已Gaussian5排除；R773/776/779/780已成。R783原Θ/平衡jet/坏jet精确式保归档，真实Robert/Kummer/Shapiro/global dual仍缺，禁止巨大q挠点枚举。
 
 R724原period/MW/Poincaré/universal extension/非p与有限Bézout接口已证，R785 Rosati压缩保CM值/切向两列；实际η/β、规范高度jets、(724.33)有限Bézout及全p存在均未完成，不能以实正定、有限计算或算法存在代主定理。

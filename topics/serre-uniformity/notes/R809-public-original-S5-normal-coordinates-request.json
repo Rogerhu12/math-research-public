@@ -1,0 +1,124 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R809-original-S5-normal-coordinates",
+    "p": 41,
+    "qY_count": 69,
+    "auxiliary_prime_start": 1000000007,
+    "dixon_group_columns": 7,
+    "reconstruct_every_digits": 8,
+    "requested_target_groups": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R809_original_S5_normal_coordinates.py",
+    "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+    "wrapper_sha256": "3616aac1b7d5dc373f0599c7ca023ef300f647fa204cd874a9655ca55b9607ea",
+    "proof": "results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md",
+    "R809_proof_sha256": "68793d3f3911d6c2ab3d530575634a70953580c221c4c4fed5fa542a2ed88a40",
+    "method": "notes/R809-original-S5-normal-coordinate-consumer-method.md",
+    "R809_method_sha256": "88aed12d9e958601faeb45a47e46097942801d69a5ce4aacb4bce6c4ca9153ce",
+    "workflow": ".github/workflows/serre-p41-original-S5-normal-coordinates.yml",
+    "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "io_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+    "retained_artifacts": {
+      "R805": {
+        "result": "R805-original-affine-pencil-free-basis",
+        "run_id": "43705580592",
+        "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+        "artifact_id": 14158193403,
+        "artifact_name": "serre-global-R805-original-affine-pencil-free-basis-43705580592-1",
+        "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30",
+        "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+        "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+        "certificate_name": "p41-original-affine-pencil-free-basis-certificate.json",
+        "input_bundle_sha256": "00eda19de6591df21622a93b97c0bd6722c84d1c98922164dcb0be752eb56d78",
+        "input_bundle_bytes": 32662339,
+        "files": {
+          "p41-original-affine-pencil-free-basis-certificate.json": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0",
+          "R805-stage-manifest.json.gz": "37d151c36d0c8d01e7ec5af4a1228e1aaa19054889436c4debd17e7b27cc6547",
+          "R805-degree3-S-basis-index.json.gz": "962694917252e23deb1d185a8caae81da773e314d3fca0475bac18a088dedd7e",
+          "R805-degree3-S-basis-short-minor.json.gz": "a75727f04295dfce77057b2df564a936008fbb6523b346de05e3d009c2ba7118",
+          "R805-graded-free-basis.json.gz": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9",
+          "R805-accepted-pencil.json.gz": "83f333404cb147eebe4b4c0d0f3dd383c20b532c7aab69c27269c111eaf6eb8c",
+          "R805-original-monomial-alias-index.json.gz": "7be03da22d30c8527afa38bbb22a0e9c4329276f220525fde1dc57ba7a2a2eb5"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      },
+      "R803": {
+        "result": "R803-original-M6-mixed-Hodge-ratios",
+        "run_id": "43702905620",
+        "source_commit": "2a3f5be764ecd335e7980557800d15959574bc8e",
+        "artifact_id": 14158313322,
+        "artifact_name": "serre-global-R803-original-M6-mixed-Hodge-ratios-43702905620-1",
+        "archive_sha256": "726bc2dc20031eb956000d7b8053f07865d628047fd9c248f986a90059dded42",
+        "archive_bytes": 196959640,
+        "manifest_sha256": "c799e14e84cf83b667a9aff4b573821c43aabc57dd88bee588799d314a305729",
+        "core_sha256": "1233536f55fdcddad3fe1c48396fb32bcdee787a3f2df5d193f1b9472d4b1531",
+        "certificate_name": "p41-original-M6-mixed-Hodge-ratios-certificate.json",
+        "files": {
+          "p41-original-M6-mixed-Hodge-ratios-certificate.json": "9b2854acad8e71a92ae35b8a52b5695ad9609910729a3f4b21c21a8eba7a526b",
+          "R803-stage-manifest.json.gz": "cb74c94648b3352ee3100b8f960405428ebd26f37a565a15669736cfcd05ac3a",
+          "R803-original-M6-short-basis-index.json.gz": "e195e500775b6afa15f4bfc93011be99dbb6fd9b37817b769a7d4f15568f223d",
+          "R803-original-mixed-Hodge-ratio-interface.json.gz": "71c601b453052602e61d70c0c8d0a9209bb3035c3bf115601f07f1b58034c86c",
+          "R803-exact-original-M6-coordinates-j0.json.gz": "f27e4d9feaed1da3b4d2ecf9cd87c4c4e7bae11a59b82d5b4d08ba00862ec361",
+          "R803-exact-original-M6-coordinates-j1.json.gz": "8240d4bc64f11d7abf244bd5f2fd685015c93e95ce7c63b220762d0e540a6fc5",
+          "R803-exact-original-M6-coordinates-j2.json.gz": "c96fe58c2dde1eea2e9c78bfc48caccb24eb05ccfff5fc6993e483edec419d09",
+          "R803-exact-original-M6-coordinates-j3.json.gz": "f3c99137fd101682ca12f467c8d3edeb9329a5f27f763771b8beb38934c2ad6a",
+          "R803-exact-original-M6-coordinates-j4.json.gz": "4584ee0705fe68a4070f5a9cf2c5711ae852b4719bb30bad01a941983df5be4c",
+          "R803-exact-original-M6-coordinates-j5.json.gz": "6d0df6971d1d1b1654d579e284c3b2ca6b50e09cbfc533db1181efaeb1c99491"
+        }
+      },
+      "R807": {
+        "result": "R807-original-M6-pole-clearing",
+        "run_id": "43707939269",
+        "source_commit": "2c44d02595d57c22b5ea2c10defa93f63252061d",
+        "artifact_id": 14159481627,
+        "artifact_name": "serre-global-R807-original-M6-pole-clearing-43707939269-1",
+        "archive_sha256": "74c801509f554024d0246bf62227e38c30f4e84a14d4e0af8fa917350f875a56",
+        "archive_bytes": 60771931,
+        "manifest_sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+        "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+        "certificate_name": "p41-original-M6-pole-clearing-certificate.json",
+        "files": {
+          "p41-original-M6-pole-clearing-certificate.json": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b",
+          "R807-stage-manifest.json.gz": "e771ed25cdd9dcffdfce3cc15d9568fb358f67a0ec9138e70378eac8333998d0",
+          "R807-original-nonzero-pole-clearing-theta.json.gz": "f11e7225d3a4cdb6bd32403514e07aa54ea8d3df7f371f680828d1c5360c8970",
+          "R807-original-four-M6-pole-clearing-coordinate-index.json.gz": "358e73a299eae7f108f05142e66ee7d1109011fdcd6ef9c431a064251e6eb5de",
+          "R807-exact-V4-M6-index-690.json.gz": "710331a3ffad4c95711bf18c1dc052db5befea1248af99e3c27717a4d505c775",
+          "R807-exact-V4-M6-index-691.json.gz": "7b904f4cccf21a669411515eff248d0a0aa32846f6a86dec68f8df0ae658aad7",
+          "R807-exact-V4-M6-index-692-from-kernel.json.gz": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d",
+          "R807-exact-V4-M6-index-693.json.gz": "fb9b9e759ef17d9e023b7e71041aec063566c9c11ba101aa6322d3ac24ad0dd6",
+          "R807-original-V4-real-short-basis-index.json.gz": "f57fe1c3acb51135a03fb8d71ba8ea949d2e9dccd590c138e07bb46c34128755",
+          "R807-original-five-projection-residual-and-kernel.json.gz": "18e71b59bc317915bcf9d7c7a4cecb029683cfa9bfed232454fc1080070cf339",
+          "core-receipt.json": "f704d0d4db1f741088c42d2f1844fd3b06e1212b3c003a7a8057002db7825dce",
+          "full-outputs-manifest-reference.json": "7208ef72c3999bdb1847f6c7f1377a9a7067765e4ccc186737eebef163d9205e",
+          "full-outputs-manifest.json": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+          "public-actions-input.json": "e53ed8fbb2cbd8d5c5a157933b9c7cc8e3b10ffdc4ca5ce1efab6c29ea7fd5c6",
+          "run-receipt.json": "e282351c8d0affc5fbb7ef9f0ce5251fcfd92234d402c287cd5441590f1b32ef"
+        }
+      }
+    },
+    "resume": null
+  }
+}

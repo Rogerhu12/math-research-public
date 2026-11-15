@@ -25,3 +25,8 @@
 - R811完整证明/契约登记：root全文核齐次平凡化t^r、unimodular全核及逆时间左乘、两图次数与Laurent互含；原主函数/Norm/三同源常数不因理想HNF丢失。proof263d8a15/method5b4b7360。
 - 实施采用R809已证weighted bound后九个固定准确点，证明r5 commutator全部系数零，first-column逐系数；非随机点筛。原五函数微分未实现仍明确待后继，首core只做实际A/B乘法入口，不预填极除子。
 - R809两稿已推51e7cb4a，root继续core全文审核、代理真实源IO；H逐字归档压缩，R806/R787继续，主目标OPEN。
+
+### 2026-11-15 20:09（Asia/Taipei）｜serre-public-astra-20261115
+- R809四组4117原输入逐manifest/receipt/SHA/schema全核：3457/19/629/12；619旧新monomial前缀保留、R807真实pair尾0，纯IO包279222934B/49848da9，无本地数学。
+- root已全文审冻结core/wrapper及最终真实R803引用schema、不可变接口/manifest；core dedb5d61、wrapper3616aac1，激活C0…C5共84Q右端，A/B以后追加不换公共身份。仅一日活跃artifact，raw不入Git/Release。
+- R806/run43707290840、R787/run43708449812继续；R813已收两Wronskian证明/契约待全文审，R812固定六case公开计算准备，主目标OPEN。
