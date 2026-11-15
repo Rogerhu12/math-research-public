@@ -1,43 +1,36 @@
 {
-  "request": "one-D0-original-residual-fix-shared-comparison-label-alias",
-  "created_at": "2026-11-15 00:34:02 UTC",
+  "request": "one-D0-general-pure-original-difference-against-archived-nine-bases",
+  "created_at": "2026-11-15 00:45:29 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "D0_pivot_residual"
+    "general_pure_D0_membership"
   ],
-  "goal": "Consume completed D0 and the published R136 original pivot. Evaluate only new D0 and one raw linear combination of the old roots, with one original extra query if its polynomial is nonzero. No old response reconstruction or old column-by-column evaluation.",
+  "goal": "Consume the nine exact pure bases and archived representatives from R151, normalize only new D0 pure, solve over Q, and certify one fresh original difference. No old forty-basis normalization, no dependency replay, no profile evaluation, and no modular lifts as rational coefficients.",
   "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_D0_membership.py": "c296f72becff4366297e3b9f00db97425b1aa5b15c10ba7625932966ae7c8f1f",
     "topics/visible-flex-new-mechanism/scripts/literature_D0_pivot_residual_probe.py": "e6a4c15bfe95c587c4cde0cae26b33cf0bf4f54f0ea7b9cfb5c83026c98afbcd",
     "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
-    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
-    "topics/visible-flex-new-mechanism/scripts/literature_rational_volterra_polynomial.py": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_membership.py": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc"
   },
   "jobs": {
-    "D0_pivot_residual": {
+    "general_pure_D0_membership": {
       "development": [
         "--toy-only",
         "--output",
-        "@OUT@/D0-pivot-development.json"
+        "@OUT@/general-pure-D0-development.json"
       ],
       "research": [
         "--output",
-        "@OUT@/D0-pivot-residual.json"
+        "@OUT@/general-pure-D0-membership.json"
       ]
     }
   },
-  "other_active_research_runs_at_dispatch": [
-    "43658064177"
-  ],
-  "preceding_J_membership_run_completed": "43657785023",
-  "previous_private_actual_pull_time": "2026-11-14 23:45:18 UTC",
-  "previous_private_actual_pull_commit": "b2a4c84965609d677a650f47f63cd5e96c1fa726",
+  "other_active_research_runs_at_dispatch": [],
+  "preceding_complete_D0_original_separation_run": "43658922081",
+  "preceding_geometry_ladder_run_completed": "43658064177",
+  "previous_private_actual_pull_time": "2026-11-15 00:35:51 UTC",
+  "previous_private_actual_pull_commit": "5c483e6c1e62c21293b0bbbc2c75c3cb97154b84",
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
-  "task_complete": false,
-  "preceding_read_only_interface_failure": {
-    "run": "43658525976",
-    "source": "38fde5a460ac39c4d0b12b5e88309bceeb3ded22",
-    "new_profile_evaluations": 0,
-    "fix": "copy comparison lists before appending J; retain the frozen 41-column publication record"
-  }
+  "task_complete": false
 }
