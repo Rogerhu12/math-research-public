@@ -509,3 +509,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R798**：[原B0半周期的完整两型与物理E深二阶来源](results/R798-original-halfperiod-two-types-and-e-depth-second-source.md)。全Q(ω)二挠点/CM13计算付原绝对PB：型五恰两arith，primitive3整条消去；型四恰三维X³+ω块。原E深Z²准确投到此块及三个指定负二值，实际向量和负二非零仍须另付；whole算子、原unit域和全中央补域保持。
 
 - **R802**：[移动因子真实返回、唯一一charge例外与接触核](results/R802-original-moving-factor-return-and-unique-one-charge-exception.md)。63格原L回W_b，h7²d最大角型严格无同charge标量返回，th7Y给最小+1；移动H全profile的一维接触核及真实下一单位行在准确B_(b+ε).C门下成立。新增charge、H全部系数、未知Δ/p与原同R完整carry保持。
+
+- **R800**：[原J/E同观察消元、零W缺陷与第三中央](results/R800-original-je-elimination-and-zero-w-third-central-defect.md)。原W四格准确外积分解；真实Ψ=(1_E−λN)qB有零W边际、第一态零Y边际却非零Z/Y，第二态完整PU行准确−49λ2N U/(3cB)。第四块逆Y/W深补回同Ψ实际移动观察，216 CM源/全部质量仍保；不重复计同W表为独立中央零。

@@ -113,6 +113,8 @@ R793原z°=Z0−4W/17整化Lz=(17δ/2)z°，Norm2808/完整中心/旧ray/Θ锚�
 
 R798已付原B0完整halfperiod投影：型五rank2恰两arith、primitive3整条杀掉，H5=−ωA5³；型四rank3/charX³+ω，H4=−A4³，无μ6线。原Edeep Z²来源准确λ2NΩ² P4F2，三负二值未赋非零，仍保全W外部。公开run43738922048/job132887560988及全Q(ω)矩阵/producer/hash见原证，不能将混合unit门穿投影。
 
+R800已消R793交域：原W四格整Mellin为λ^(L+r)(F_i^+,s_N T_B−F_i^+)ᵗ(s_N,1−s_N)，不能重复计独立零。实际Ψ_i=(1_Edeep−s_N)qB_i两态W边际0，Ψ0 Y边际0却Z/Y=−22a s_N²ΩIω/21非零；PUΨ1的Y=−49s_N²[1/2]U/(3cB)。整个深矩形与原帽不交，第四块逆Y/Wdeep补精确回同Ψ的Y_j；全部216 CM词/局部质量/余补保，主中央桥仍开。
+
 ### 深支：有限profile的实际接触与指定normal
 
 保原M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角和首p²/p³。R741 FH2 Smith和R743缩放M秩不代全有序旗标；R738计数只到h>3κ/2，未覆盖9κ/8。

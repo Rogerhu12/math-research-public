@@ -111,3 +111,5 @@
 - **R799**：[原常数charge非零的全部三次强窗全素数排除](../results/R799-original-all-cubic-nonzero-constant-charge-windows-excluded.md)。R792的r2/3/4,k0及同p/h关系联旧单位子式排全部大h；准确κ把有限部分压到三原九列系统，公开各rank9/aug10。因此q0非零的整个b=b0=3强窗不存在，覆盖所有允许ell/mq；此支必须b≥4，零常数支另保。
 
 - **R798**：[原B0半周期的完整两型与物理E深二阶来源](../results/R798-original-halfperiod-two-types-and-e-depth-second-source.md)。全Q(ω)二挠点/CM13计算付原绝对PB：型五恰两arith，primitive3整条消去；型四恰三维X³+ω块。原E深Z²准确投到此块及三个指定负二值，实际向量和负二非零仍须另付；whole算子、原unit域和全中央补域保持。
+
+- **R800**：[原J/E同观察消元、零W缺陷与第三中央](../results/R800-original-je-elimination-and-zero-w-third-central-defect.md)。原W四格准确外积分解；真实Ψ=(1_E−λN)qB有零W边际、第一态零Y边际却非零Z/Y，第二态完整PU行准确−49λ2N U/(3cB)。第四块逆Y/W深补回同Ψ实际移动观察，216 CM源/全部质量仍保；不重复计同W表为独立中央零。
