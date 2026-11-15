@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:33:53 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 195cd2d42fe7f73b112022c1f06d50c7e7d9c154。
+规则同步记录：2026-11-15 19:34:24 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9ffcbb70830ff3ff50869239263dc92991bc34f3。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -24,7 +24,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
-|177 R379 geometry|43747934170 /d7540200dcf5e10378471620915aa29a39389862|原全根族112两图Riccati/cut，17pins|
+|177 R379已结|43747934170 /d7540200dcf5e10378471620915aa29a39389862|C/deep齐；m2闭下屏障未证正，58paid/110attempt，非预算；181续|
 |178r3 R389 amplitude|本次发布触发，实际run待核|r2已结R387；新metadata保全部必要末点/八方向/试步/120FD，原157完整重算|
 |179 R382 geometry|43749949418 /ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
@@ -45,7 +45,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 ## 正在推进的完整入口
 
-177按R375全闭段两图比较/存在、非零sign-log幅度和全cut，从原根族重算，不裁旧盒；完整初值乘Taylor余项/每候选合法商/事务/后缀保。C3600/linear14400/25M/256bits/depth32/360job；12bits绝对工作目标，namespace仅startup clip。单必要90KB，失败不清。
+[R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)已刊：全1440/C cut/deep112齐，m2的row17/piece3/depth32下闭屏障分母未证正；58paid/110attempt/0.298331719s，非wall/25M/磁盘。全11pending+[18,14644)与余111未起齐，0cut/0高度/DN未付；四小摘要原字节一致，38506B必要全文/全7ledger范围齐后条件清理。不是准确极点/共振，181独立原根族实角继续，原177全参数见接口。
 
 [R377](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)首跑child0/8接受、116585B超限/raw清；[R387实际178r2](results/R387-actual178r2-eight-acceptances-and-essential-readback-overflow.md)新55.039101175s、0/8接受、91342B/26008293超限70，5727B fallback仍无末十p/F/merit/trial/FD/final正文。新cleanup已正确skip，但非跨job保存，不能借状态SHA造父。[r3 R389](notes/2026-11-15-request178-r3-complete-restart-and-trial-essential-readback.md)已发五件728ac09e/9605079c/03ed39d2/c5cb267a：省末QR内部basis/投影重复，80KB只删声明的可选QR/finalJ词，必要初末p/F/W、8d/Jd/slope/接受词/全trial/120FD/终门不删，硬90KB。search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8全冻，从157重算；真实wait/reap与成功必要读回才清。
 

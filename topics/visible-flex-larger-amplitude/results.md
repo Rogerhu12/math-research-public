@@ -348,3 +348,6 @@
 ## R387 — actual178r2 八接受与必要读回超限
 
 [完整结论](results/R387-actual178r2-eight-acceptances-and-essential-readback-overflow.md)：run43751514766/source01dc5cbe49e98aae5acb241564946d839b408d33，独立child0/8接受/八方向预算止；必要91342B超过90KB，reader70、小fallback未返终点/trial/FD。新清理正确skip但不提供跨job保存；原科学源与父配方全保，r3 R389仅继续必要metadata修复，不预填新轨迹或数学成功。
+
+
+- [R379. 实际177完整cut比较的首屏障未付](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)（实际读回）：全C1440/point/deep112成立后，m2仅58paid/110attempt，在row17/piece3/depth32下闭屏障分母未证正；0.298331719s且resource stop=null，不能归为预算或准确共振。全部11栈/后缀[18,14644)/111未起/0cut/0高度与7ledger读回范围齐，四摘要原字节同一；条件清理已删raw，181独立原根族实角继续，原所有终门仍未付。
