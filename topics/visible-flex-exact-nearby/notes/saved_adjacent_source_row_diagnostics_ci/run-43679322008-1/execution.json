@@ -1,0 +1,293 @@
+{
+  "kind": "actual_public_saved_source_row_diagnostic_execution",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43679322008",
+  "run_attempt": "1",
+  "workflow_commit": "85b3126aeb5e8854c38a48b8f78138b60465951c",
+  "worker_source_sha256": "b276a35685600b7eb34d8b5e27b24f7d957f0ccf51ececa54535ab0dba9aa0ba",
+  "diagnostic_source_sha256": "b7884944d246c85ff546eb20d4a4b012097fee912887eb94072f52b1e875349c",
+  "input_manifest_sha256": "09b2f621824078c3b10093e4963f4ce80b6a482197e33f667a055d06dd13769e",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicitly_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "started_utc": "2026-11-15T05:03:01.615686+00:00",
+  "complete": true,
+  "actual_returncode": 0,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T05:03:02.005593+00:00",
+      "before": "05f9c27ed946be658dc46b5d84a8a9d952a99e8f",
+      "after": "05f9c27ed946be658dc46b5d84a8a9d952a99e8f",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T05:03:12.505994+00:00",
+      "before": "05f9c27ed946be658dc46b5d84a8a9d952a99e8f",
+      "after": "05f9c27ed946be658dc46b5d84a8a9d952a99e8f",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "actual_diagnostic_processes": 1,
+  "old_numerical_enclosures_recomputed": 0,
+  "reproducible_data_published_to_repository": false,
+  "reproducible_data_uploaded_to_Releases": false,
+  "new_reproducible_data_artifact_uploaded": false,
+  "new_operator_norm_claimed": false,
+  "final_topic_complete": false,
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "input_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics.py",
+      "bytes": 26335,
+      "sha256": "b7884944d246c85ff546eb20d4a4b012097fee912887eb94072f52b1e875349c",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/correlated-adjacent-piece-first-Airy-sources.json.gz",
+      "bytes": 42046,
+      "sha256": "5754193c193b9769eeec94bf6a9258489db14f9bfda758bf34a549d71c867a0f",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/worker-process.json",
+      "bytes": 5488,
+      "sha256": "ec4a322eec84198fe1d3306978de3b5cde171a417c21eb6d7c3f16ef5dc6c87a",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-1000.json.gz",
+      "bytes": 583074,
+      "sha256": "5a80c2f959596095d731f32948ad3d8398ded9914eced9aa2e844dc45926fe18",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-500.json.gz",
+      "bytes": 1197823,
+      "sha256": "c6b91d1d2a412461eb82305be0d680ba3294b1029a602d1d2d24cf5c49d21ef4",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-200.json.gz",
+      "bytes": 2864099,
+      "sha256": "5bb361b5a6fe706de8d9828cd6f81674b73652e4b0136ec9096d0719d822d3db",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-100.json.gz",
+      "bytes": 3703421,
+      "sha256": "23e3a485db14a3028151ce1b0d88cf68cb587a418c1c0aba212f57d066ec5daf",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-3-200.json.gz",
+      "bytes": 4572076,
+      "sha256": "bb50ec2c93c3de337484679ec9ce5e2b1e1db25e92834213fb7d8cc326bd6914",
+      "origin": {
+        "kind": "exact_public_historical_blob",
+        "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-50.json.gz",
+      "bytes": 5500010,
+      "sha256": "cce603603bbbc35e32897a36a570b98dbb993b8e80396862a7f330c98965264c",
+      "origin": {
+        "kind": "original_complete_Actions_artifact",
+        "run_id": "43676926141",
+        "artifact_id": 14146726654,
+        "artifact_relative_path": "consumers/cases/radius-1-50.json.gz"
+      }
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-saved-source-row-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics.py",
+    "--repo",
+    "/__w/_temp/visible-exact-saved-source-row-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-saved-source-row-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-saved-adjacent-source-row-diagnostics-CI-inputs.json",
+    "--manifest-sha",
+    "09b2f621824078c3b10093e4963f4ce80b6a482197e33f667a055d06dd13769e",
+    "--out-dir",
+    "/__w/_temp/visible-exact-saved-source-row-output/consumers"
+  ],
+  "actual_scientific_checkout_commit": "05f9c27ed946be658dc46b5d84a8a9d952a99e8f",
+  "diagnostic_child_wall_seconds": 2.5193259910000023,
+  "actual_failure": null,
+  "output_hashes": [
+    {
+      "file": "consumers/complete-correlated-adjacent-source-row-diagnostics-summary.json",
+      "bytes": 44163,
+      "sha256": "8de107e1f17a24c1dccecb23e9e54655e6ac95b9d0309727ba533ef2747d12b2"
+    },
+    {
+      "file": "consumers/complete-correlated-adjacent-source-row-diagnostics.json.gz",
+      "bytes": 2917,
+      "sha256": "4c763fec183402896882bf524da82406f384ec9f2dd77063d4bf74539a9f9f2f"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 7818,
+      "sha256": "3a6b963383f24701705aa89ee3447b2d4b2e6113b2570bd164619daaa604ed23"
+    },
+    {
+      "file": "consumers/smallest-radius-dominant-source-rows.json",
+      "bytes": 10720,
+      "sha256": "55b7427996cf6d3b4b467bdfb02612a555c6ea565415255851ddeb34b3ca44fe"
+    },
+    {
+      "file": "consumers/stages/saved-row-diagnostics-radius-0.json.gz",
+      "bytes": 79187,
+      "sha256": "502ad46a2f6028975c65ccb1fb0c42833f3c31a1a5016649203f55f77f72b7c4"
+    },
+    {
+      "file": "consumers/stages/saved-row-diagnostics-radius-1.json.gz",
+      "bytes": 110830,
+      "sha256": "5357f32e9c03323d378394f13819bb76e08a0262da5fd94dae89f0632e4727d1"
+    },
+    {
+      "file": "consumers/stages/saved-row-diagnostics-radius-2.json.gz",
+      "bytes": 195964,
+      "sha256": "2214008e8b6922f9df7b5944f1b7e7fe5eff2e423da62870360e674265325f6e"
+    },
+    {
+      "file": "consumers/stages/saved-row-diagnostics-radius-3.json.gz",
+      "bytes": 261004,
+      "sha256": "ea9c1f7117453ccacbb1c7fb8707d02746bc24d1b35a3bcd375bbdb0170b74fe"
+    },
+    {
+      "file": "consumers/stages/saved-row-diagnostics-radius-4.json.gz",
+      "bytes": 310703,
+      "sha256": "384787dfd913385f27061e99e65a02cc3c8afa99af1ebf41f2b992c7f42920c3"
+    },
+    {
+      "file": "consumers/stages/saved-row-diagnostics-radius-5.json.gz",
+      "bytes": 365619,
+      "sha256": "a9f5e323463663fe1eac6962074ae41a2c848271a753f8a67f34dc21c19a6f8f"
+    },
+    {
+      "file": "diagnostic.stdout.log",
+      "bytes": 260,
+      "sha256": "692d910ba17b075f1573a370b56522c150a76c2ecfae1e47cc99acf05a67a288"
+    }
+  ],
+  "actual_diagnostic_receipt": {
+    "actual_diagnostic_processes": 1,
+    "old_numerical_enclosures_recomputed": 0,
+    "new_operator_norms_or_interval_integrals_evaluated": 0,
+    "diagnostic_wall_seconds": 2.354193127000002,
+    "original_mathematical_run_id": "43676926141",
+    "original_mathematical_native_sha256": "5754193c193b9769eeec94bf6a9258489db14f9bfda758bf34a549d71c867a0f",
+    "new_complete_diagnostic_case_stages": 6,
+    "reused_complete_diagnostic_case_stages": 0,
+    "gates": [
+      {
+        "name": "only the declared original successful six-case result is diagnosed",
+        "passed": true
+      },
+      {
+        "name": "the original science actually succeeded with all14 gates and all28 retained stages",
+        "passed": true
+      },
+      {
+        "name": "the complete physical family source units and outstanding mathematical scope are unchanged",
+        "passed": true
+      },
+      {
+        "name": "all six original natural case receipts are present without artificial splitting",
+        "passed": true
+      },
+      {
+        "name": "all4383 saved rows retain the exact source integrals complete means and side covers",
+        "passed": true
+      },
+      {
+        "name": "no new numerical enclosure or original successful mathematics was evaluated",
+        "passed": true
+      }
+    ],
+    "complete_cases": [
+      {
+        "exact_radius": "1/1000",
+        "complete": true,
+        "original_case_sha256": "5a80c2f959596095d731f32948ad3d8398ded9914eced9aa2e844dc45926fe18",
+        "payload_sha256": "cb5bbbfa5aafb73068d676b8d1583419a401d9c2505639b7155898b6c0b0146e"
+      },
+      {
+        "exact_radius": "1/500",
+        "complete": true,
+        "original_case_sha256": "c6b91d1d2a412461eb82305be0d680ba3294b1029a602d1d2d24cf5c49d21ef4",
+        "payload_sha256": "4538d14187666bf716e64d58fd1dfcb723929a6d7e3406a7dbe182a816d29a95"
+      },
+      {
+        "exact_radius": "1/200",
+        "complete": true,
+        "original_case_sha256": "5bb361b5a6fe706de8d9828cd6f81674b73652e4b0136ec9096d0719d822d3db",
+        "payload_sha256": "bd280bb6fb4ef723c2e1ecda0fbe9bd89d2dbf88073df40696145e451ce1a469"
+      },
+      {
+        "exact_radius": "1/100",
+        "complete": true,
+        "original_case_sha256": "23e3a485db14a3028151ce1b0d88cf68cb587a418c1c0aba212f57d066ec5daf",
+        "payload_sha256": "27d601ce8e220178f0ba65fa9fd56277ba31a52742759b5888bb67a06a904531"
+      },
+      {
+        "exact_radius": "3/200",
+        "complete": true,
+        "original_case_sha256": "bb50ec2c93c3de337484679ec9ce5e2b1e1db25e92834213fb7d8cc326bd6914",
+        "payload_sha256": "f2777633cead618ed5ce11b854d103f00dc8838ff716ec0810f80d8a7ffc401e"
+      },
+      {
+        "exact_radius": "1/50",
+        "complete": true,
+        "original_case_sha256": "cce603603bbbc35e32897a36a570b98dbb993b8e80396862a7f330c98965264c",
+        "payload_sha256": "16dfb646d3b364bc8053029c6593b4cdee4ac35b76667b11746379c09989474b"
+      }
+    ],
+    "diagnostic_native": {
+      "file": "complete-correlated-adjacent-source-row-diagnostics.json.gz",
+      "bytes": 2917,
+      "sha256": "4c763fec183402896882bf524da82406f384ec9f2dd77063d4bf74539a9f9f2f"
+    }
+  }
+}
