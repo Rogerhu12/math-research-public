@@ -186,3 +186,9 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 
 两README在78d7a89e6517cf99d9f394ecda271ad1c78de2e3亲核未变。root全文SCI31744B/179cc14a、完整22pin manifest13687B/7c07d303、flow4283B/3db5ae21及worker37174B/28e2d96e相对已成G骨架全部差异已读，静态delimiter balance通过，AST/新数学只在本公开Actions。N14–18径向密度n_gT、完整mean与两有序τ门只用1328已成norm/forcing行、3完整body parts和原Cauchy两gain，CI不重复收费；各cut失败门保unnormalized界。2原ZIP/4完整member全SHA与原workflowhead核，只temporary，不重旧数学。预Git小stdout/容量owned delta/成功同身份复用保持。
 root亲读Green12:54过程40219B/b01bff29；真pull12:54:34.534806→a99b8d88728bdd0c5c07c7419fe624b29118901d两diff空。future2928=1886旧+1042新/past736/product928/groups0，childnull；旧scalar+1196仅诊断、signed W−103，无最终Green。H旧失败计数压缩保21f864c3同路径及原证据，不改变恢复授权。
+
+## 2026-11-15 13:01:31 UTC — 运输系数保留径向mean的准确角jet算法
+
+两README在5309f636d67cfb09595fb0e370b8500b65bfca2e亲核未变。root亲读U5/c33175b8与G2–3/24–25/8fa0d675、leading F全文及原fold源27427dd6相关完整字段。新AJ afeab152/14351B证明F=1/Q、L=−Fr+dFφ−(t+4dφ)F、cT=(Lx−y²/2)/B+、Xi=−(Ly+xζ/2)/B+，符号与D=∂r−d∂φ一致；B+加号、μ及leading矩阵逆完整角导保。positive q的T0角导准确5d^(q+1)，t全mean只角导为0而零阶/源mean不删。外RG全jet付径余量，内H经原radial zeros缩小，不能用内jet冒外Cauchy。QG/2及G^-1先合并角关系给新fullpositive closure。原G c0/Xi0直接读取；旧fold/source/Taylor/integral不重跑。无actual新数或GH/strong-return改善声称。
+H中旧负侧与单G详账仅引用本次前6d87bc85同路径；全部未付义务保持。
+H的H1/Cδ/CS及open第4节旧帽详账亦仅压缩引用6d87bc85同路径和原proof；所有unknown-high/mean/affine/真实参数义务不变。

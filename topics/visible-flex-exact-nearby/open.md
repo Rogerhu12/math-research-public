@@ -142,6 +142,8 @@ density0=w0/density1=w1、严格inverse分支才减1、fullrank/n^-2/q=vg−vφp
 root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转授完整非径向首阶耦合、
 9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
 
+[AJ完整运输系数的角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)新证：T0=t+5dφ的全mean只留零阶，F=1/Q使cT/Xi经真实B+=x²+Ty²分解；QG/2与G^-1的角导先准确合并。原fold j/BT/BA/gap及外RG/内H两域给完整递推，μ/leading M逆不冒径向，普通高导不Cauchy收费径向常数。尚无new实际source结果，原G成功锁/31列不改。
+
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)补原E6/E12的普通H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer。
 六固定cut用r_+−R保真ρ≤R；新scalar仅读1328旧norm/forcing及3 intrinsic原part，付n_gT与τ1/τ2后才授97局部inverse。完整root/真jump/positive两端/waist/return仍独立；失败局部门只留unnormalized完整界，不冒奇异。SCI179cc14a/worker28e2d96e/manifest7c07d303及22pin首次部署待actual；仅2原ZIP恢复4完整member至temporary，无新数组保存。
 
@@ -156,31 +158,15 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 ## 4. 实际全模正帽和真实两输入图已经成立
 
-局部帽存在已成。本节压缩前的全部实际域/常数/均值/源单位/失败与未付条件保在a345bb63ba156f25ec07e89b4ab75ef3e080bec3同路径第4节及下列原文，原成功计算不重跑。
+本节完整域、常数、全部mean/源单位/失败和未付条件保在6d87bc850bc8150bd6acbe87ee9df5b885beaf3e同路径第4节及以下原文；成功数学不重算，压缩不删除条件。
 
-[weighted actual43695160055](results/R133-supplement-actual-cached-weighted-cap-Q-and-endpoint-margins.md)的21门、1346新mean Bernstein/28pins给q_w<3.561348304031e−6、Ke<4.898174641284；首43694827122失败身份保留。
-[E端点](results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md)与
-[X actual帽](results/R133-supplement-actual-all-mode-positive-cap-existence-at-repaired-M32-centre.md)
-给同ac1/440866、physical[.9,25/8]、σ1/8192全未知模真PDE图：ρ3e−6、CneR≤9.9e−10、Lip<.881/image<.99ρ/端<.9ζ，trueouter/Cmean不删。
+[weighted actual43695160055](results/R133-supplement-actual-cached-weighted-cap-Q-and-endpoint-margins.md)、[E端点](results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md)、[X实际帽](results/R133-supplement-actual-all-mode-positive-cap-existence-at-repaired-M32-centre.md)已给同η0/ac1/440866、physical[.9,25/8]、σ1/8192的全模真PDE图：ρ3e−6、Lip<.881、trueouter/Cmean全保。首43694827122失败和成功21门/28pin均见原记录。
 
-[H真高度](results/R133-supplement-small-positive-width-true-cap-to-long-height-readout.md)与
-[F零宽全周期](results/R133-supplement-actual-zero-width-full-periodic-cap-Phi-and-finite-Sobolev-tame.md)
-保物理height/κ两mean/唯一λ、Bmean右lift和全部4Z类。
-[M两rough输入](results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md)
-允许γ A0<1e−9、fB dotA²0<2^-60及有限Sob，q≤8160、Cq=2^{112(q+32)+18432}，two-species低≤1/16；真实inner B/Cmean/Bmean、phase/m/ubar、GaussA/adjoint/longκ/未screenheight全在。
-弱列γ H^-3/2、fB Hhalf保实际低≤1/2和J4背景，不能将导数延拓当任意distribution值图。
-[Y moving读出](results/R133-supplement-actual-cap-moving-readout-with-normalized-angle-and-both-means.md)仅known解析域授复inverse；rough用真实角及代数输出，不免费作未知复composition。
+[H高度](results/R133-supplement-small-positive-width-true-cap-to-long-height-readout.md)、[F零宽全周期](results/R133-supplement-actual-zero-width-full-periodic-cap-Phi-and-finite-Sobolev-tame.md)、[M两rough输入](results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md)、[Y moving读出](results/R133-supplement-actual-cap-moving-readout-with-normalized-angle-and-both-means.md)保height/κ两mean/λ/Bmean lift/4Z。实际域γA0<1e−9、fBdotA²<2^-60，q≤8160/Cq=2^{112(q+32)+18432}及全inner/phase/GaussA/adjoint/未screenheight保。weak导数延拓不冒任意distribution值图，unknown rough不免费作复composition。
 
-[I实际inner Poisson](results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md)
-给X≤18γ、Z≤.009γ、K*−旧K<1/5、独立fB列<1/25 dotH²及affine≤ρ；完整H_R/ΔQ两源、outer非mean与Cmean两差保。
-[R完整tail高度反馈](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)
-给fixed-background/metric γH0→BfluxH1→fBH2<2^-52000000，保actual outward号、q=1/2与3/2和sB抵消。
-R13a–b允许新fB整个旧球，对锁定K0仍<1/5+2^-52000000；同W_hat/I9完整端导不重新定义旧cache。
-变化的affine和独立L*δfB持续保，Γ2/EN/Hp、设计ν、未screenheight/metric/角变化不能由tiny列代付。
-所有97输入仍经Pperp HC0全物理像，unknownhigh/mean/affine荷不截；原tiny M8212球不从当前ρ图自动成立。
+[I inner Poisson](results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md)给K*−旧K<1/5、独立fB列<1/25 dotH²和affine≤ρ；[R tail高度反馈](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)给fixedmetric γH0→fBH2<2^-52000000，允许fB整个旧球。完整two sources/outer/Cmean/actual outward号与端导不重新定义。tiny列不替Γ2/EN/Hp/ν/height/metric/角变化；unknownhigh/mean/affine荷及真实97物理像均在。
 
-**当前接口：** 把真实inner B/Cmean/height/phase与负body、waist、两Γ、ν、flux及完整97/mean Schur同单位联立。
-实际HY/full Schur/core存在和γ两个域仍待；两rough图及tiny列都不替完整augmented逆。
+当前须把这些真实inner/mean/phase行与负body、waist、两Γ、ν、flux及完整97/mean Schur同单位联立。actual HY/full Schur/core存在和γ低高域仍待；局部图不授完整增广逆。
 
 ## 5. 新94链、真实B collar和实际body初值已经成立
 
