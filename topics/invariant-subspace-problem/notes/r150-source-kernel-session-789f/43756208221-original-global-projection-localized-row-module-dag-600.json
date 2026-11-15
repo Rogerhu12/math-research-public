@@ -1,0 +1,137 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "original-global-projection-localized-row-module-dag-600",
+  "executionSourceCommit": "ea5042f3996e9e32851cc6d150d4a7737fd8d732",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global-projection-localized-row-module-dag-789f.py",
+  "scriptSHA256": "91e5d19ae0ac1069dcf9a85229fd3be5e2b6308c4546be8027469cf9981b02d8",
+  "argvTemplate": [
+    "--core-source",
+    "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "--parent-checkpoints",
+    "{work}/original-global-projection-polynomial/checkpoints",
+    "--out",
+    "{work}/original-global-projection-localized-row-module",
+    "--through",
+    "gcd",
+    "--remaining-seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 1,
+  "wallSeconds": 498.04754297599993,
+  "fullTemporaryReceiptBytes": 2301,
+  "fullTemporaryReceiptSHA256": "b947eb34c7b9b8507689fa9d6560b30fe58268341e65b9be66eafbd21d99d1c0",
+  "result": {
+    "binding": "7c3aded0ec336814fa62f0a475ca47f0abda4a896b3275825f918cfb7468014a",
+    "elapsedSeconds": 497.7846026500001,
+    "format": "r150-localized-polynomial-row-module-dag-continuation-v1",
+    "newOriginalH0GlobalMembershipClaim": false,
+    "status": "failed",
+    "parameters": {
+      "checkpointManifest": {
+        "bytes": 1364,
+        "sha256": "92960aa94bb894b756d384162ed7381d27f0ef10754581006b414d34d43d7dfb"
+      },
+      "checkpointPhases": {
+        "localized-row-state": {
+          "bytes": 464752577,
+          "file": "localized-row-state-f46f5815584bbebcd2ac455c1bcb76773de3ee24429ea08419a4cc2b2798b19e.json.gz",
+          "payloadSha256": "f46f5815584bbebcd2ac455c1bcb76773de3ee24429ea08419a4cc2b2798b19e",
+          "sha256": "56245ba9485603f887f4e69e530612b90aff6953137a2e4d9d2aa8dac84f9b18",
+          "summary": {
+            "basisRows": 12,
+            "basisStatistics": {
+              "maximumDegree": 82,
+              "maximumDenominatorBits": 1,
+              "maximumNumeratorBits": 564431,
+              "nonzeroPolynomials": 232,
+              "rows": 12
+            },
+            "candidateOnly": true,
+            "completedInputRows": 19,
+            "currentStatistics": {
+              "maximumDegree": 81,
+              "maximumDenominatorBits": 1,
+              "maximumNumeratorBits": 629810,
+              "nonzeroPolynomials": 21,
+              "rows": 1
+            },
+            "dagNodes": 83,
+            "inputRowsStarted": 20,
+            "knownFactorDivisions": 20,
+            "newWholePolynomialRowOperations": 57
+          },
+          "temporaryOnly": true,
+          "verified": false
+        },
+        "parent-source-verification": {
+          "bytes": 243,
+          "file": "parent-source-verification-4d925f984fe132f2a24f3ace5eb34c422ace3047b5c01452c00b603bfd632812.json.gz",
+          "payloadSha256": "4d925f984fe132f2a24f3ace5eb34c422ace3047b5c01452c00b603bfd632812",
+          "sha256": "6ec8212fe8ac60e305ffb2c056792a9ba12346e9e7905d56d89b26e7196d0699",
+          "summary": {
+            "originalPolynomialProductCoordinates": 286,
+            "verifiedOriginal56SourceLeaves": 13
+          },
+          "temporaryOnly": true,
+          "verified": true
+        }
+      },
+      "coreNotRecomputed": true,
+      "coreSource": {
+        "bytes": 34432,
+        "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+      },
+      "keepsActualPending20thRow": true,
+      "memoryMiB": 4096,
+      "parentBinding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+      "parentManifestSha256": "c43828673dc6513c43042e4452c91d146e78a26a15b3b82aa3f9e8a87ff49aa9",
+      "parentStatePayloadSha256": "52d7d5f3b735ab0b3da8465f888485b0a29168b49502cfadb9770313f7c8dd4f",
+      "remainingSeconds": 600.0,
+      "rowModuleRing": "Q[s,Sigma0^-1]",
+      "script": {
+        "bytes": 22773,
+        "sha256": "91e5d19ae0ac1069dcf9a85229fd3be5e2b6308c4546be8027469cf9981b02d8"
+      },
+      "temporaryLargeArraysOnly": true,
+      "through": "gcd"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 21:05:54 UTC",
+      "beforeReadCommit": "a366332325b8aee9c48a067333718373d886c822",
+      "originMainAfterPull": "ea5042f3996e9e32851cc6d150d4a7737fd8d732",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 21:14:14 UTC",
+      "beforeReadCommit": "ea5042f3996e9e32851cc6d150d4a7737fd8d732",
+      "originMainAfterPull": "1b8d38af848d6d3717113d3c488a4c950d19fadb",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 47,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 16122,
+    "logicalJsonSHA256": "48110e984dd813ef1fe99fa6b5fe8731bed7044beaa8c40c5828e20d537e4a9e",
+    "itemCount": 47
+  },
+  "lastRulesReadCommit": "1b8d38af848d6d3717113d3c488a4c950d19fadb",
+  "summaryExcludesRecomputableArraysOnly": false
+}
