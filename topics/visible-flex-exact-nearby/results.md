@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **完整正帽有限 Sobolev 主体球与同域二次余项（已证）**：[C1–23](results/R133-supplement-finite-Sobolev-nearby-cap-body-inverse-and-same-space-remainder.md)，原全实δ、1≤S≤8212、hatY=H z半径2^-8388608时反馈<2^-2097152，保持该δ的真实线性外行；state逆<2^4194305，完整mean/charge读出、same-space二次与Lipschitz。未知nonlinear outer和实际residual入球仍待。
+
 - [R133 三流 v1 的实际身份错误与准确 v2 修复](notes/2026-11-15-R133-ephemeral-v1-original-event-hash-failure.md)：43680721302 child1，7原身份门过、旧最终1886行逐字恢复、0新数值行。唯一错误是 impulse 原无换行 JSON SHA 与 matrix 原有换行 SHA 混用；v2 保全等门并按各自 producer 核，全部数值式和原pins不改。
 
 - [R133 补充 Q1–16：真实全δ外帽逆的高阶 Sobolev 窗口](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md)：辅助 shift M=2^416 已使 commutator<2^-15，将同一完整真外帽源逆扩到−3/2≤s≤8212；原物理高度输入在Hs+2，完整增益<2^4194304、反射moving读出<2^4718592。无新数值，仍保全部mean/height/jump/真外行。

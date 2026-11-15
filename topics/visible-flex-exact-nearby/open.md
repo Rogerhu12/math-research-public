@@ -147,3 +147,7 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 ### 三流实际原前缀已核，唯一event身份门已修
 
 [v1实际43680721302](notes/2026-11-15-R133-ephemeral-v1-original-event-hash-failure.md)恢复最终1886旧行/320bit、13856原array文件和41archive，7身份门通过；在新三流前因impulse原无换行event SHA误用matrix有换行canonical而child1。0新ports/past/product/groups，新future也0（仅1886旧包装）。v2只该event gate改回原producer，SCI f33345d1…/CI53d672d2…/362pin81fcf32f…，全部原353和v1 358 pins逐字保。新workflow已部署，待actual continuation/真HY/同97 signed contract，不把此身份修复称为数值成功。
+
+## 完整有限 Sobolev 正帽主体球已付：继续真实 nonlinear outer
+
+C1–23（SHA730ffff4e641615aafdafdda12bb3b147bf227a6c4386b9d4165a7efb4ab7699）在1≤S≤8212建立明确M_S球。已知系数joint strip给C*=2^212992，未知场仅有限Sob；完整保守flux/primitive/mean不损角导、不取Y_r。hatY=H z、||z||≤2^-8388608时相对全真实δ帽逆的主体反馈<2^-2097152，state逆<2^4194305；完整增广charge用同源恢复，物理零荷/匹配仍是真方程。已付same-space quadratic/Lipschitz；没有证明actual残差进球。下一项给未知状态的真实long nonlinear图、正/伴随图费用和完整外行余项；尾部全层nearby/97精细ν/global matching继续。
