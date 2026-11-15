@@ -1,0 +1,51 @@
+{
+  "producer": {
+    "result": "R774-original-p41-Hodge-cube",
+    "run_id": "43631427773",
+    "source_commit": "93056f04536e61ccdd486674003b4d1380a27475",
+    "artifact_id": 14128247134,
+    "artifact_name": "serre-global-R774-original-p41-Hodge-cube-43631427773-1",
+    "archive_sha256": "91d9f6d926dc2a649d5fd401b9881cc6f88f8e233724408fbce8dcba109d1f0b",
+    "manifest_sha256": "4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222",
+    "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+    "certificate_name": "p41-original-Hodge-cube-certificate.json",
+    "files": {
+      "p41-original-Hodge-cube-certificate.json": "aea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59"
+    }
+  },
+  "files": [
+    {
+      "file": "R774-original-L-cubic-scalars.json.gz",
+      "sha256": "b5b1232fa0585e6437d0e8d5f92b81efe672e91ed417bce7f6bc66c6456d596e",
+      "bytes": 29866
+    },
+    {
+      "file": "R774-exact-H3-qY-0001-0032.json.gz",
+      "sha256": "4ded35d80590f86802c55c3cb73e04e5e38e834823d47b21dc5b0bbaaa6aa612",
+      "bytes": 209623
+    },
+    {
+      "file": "R774-exact-H3-qY-0033-0064.json.gz",
+      "sha256": "80a7ed979e5a4f283082211891af8e6e4be0bfc098c34106bffb9881620d5708",
+      "bytes": 212591
+    },
+    {
+      "file": "R774-exact-H3-qY-0065-0096.json.gz",
+      "sha256": "506b2b16e8361363a5d23f7bf682a88a444091b7772a9b8f0f68fa664e051105",
+      "bytes": 213994
+    },
+    {
+      "file": "R774-exact-H3-qY-0097-0128.json.gz",
+      "sha256": "adb3f4e1e5ec2331ffdee59b35eb0aa8351b0c997e48bcd045ab7e086b23667c",
+      "bytes": 214657
+    },
+    {
+      "file": "R774-exact-H3-qY-0129-0160.json.gz",
+      "sha256": "34e0d5ca640e4e2acc462101257b8b24997b1c669ddc54541e94ca6ea03554c0",
+      "bytes": 215322
+    }
+  ],
+  "producer_run_and_source_verified": true,
+  "artifact_metadata_digest_verified": true,
+  "old_producer_mathematics_recomputed": false
+}

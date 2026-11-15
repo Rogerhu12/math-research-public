@@ -1,0 +1,71 @@
+{
+  "result": "R781-original-p41-inverse-free-Laurent-prefix",
+  "p": 41,
+  "source_repository": "Rogerhu12/math-research-public",
+  "source_commit": "f0292795817a534937d35904e2e11275631e878d",
+  "job": {
+    "result": "R781-original-p41-inverse-free-Laurent-prefix",
+    "p": 41,
+    "prefix_bound": 142,
+    "H3_prefix_bound": 143,
+    "budget_minutes": 300,
+    "core": "R781_original_Laurent_prefix.py",
+    "core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+    "method": "notes/2026-11-15-exact-height-research.md",
+    "method_sha256": "f95db13d50b5000f4d8ae3d7d7f4163590c1159fd591888f3da6a35dd4d11849",
+    "proof": "results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md",
+    "R781_proof_sha256": "152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0",
+    "short_proof": "results/R778-original-cusp-orbit-and-short-exact-recovery.md",
+    "R778_proof_sha256": "b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727",
+    "workflow": ".github/workflows/serre-p41-inverse-free-Laurent-prefix.yml",
+    "retained_artifacts": {
+      "R774": {
+        "result": "R774-original-p41-Hodge-cube",
+        "run_id": "43631427773",
+        "source_commit": "93056f04536e61ccdd486674003b4d1380a27475",
+        "artifact_id": 14128247134,
+        "artifact_name": "serre-global-R774-original-p41-Hodge-cube-43631427773-1",
+        "archive_sha256": "91d9f6d926dc2a649d5fd401b9881cc6f88f8e233724408fbce8dcba109d1f0b",
+        "manifest_sha256": "4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222",
+        "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+        "certificate_name": "p41-original-Hodge-cube-certificate.json",
+        "files": {
+          "p41-original-Hodge-cube-certificate.json": "aea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59"
+        }
+      }
+    },
+    "resume": null
+  },
+  "core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+  "method_sha256": "f95db13d50b5000f4d8ae3d7d7f4163590c1159fd591888f3da6a35dd4d11849",
+  "proof_sha256": "152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0",
+  "short_proof_sha256": "b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727",
+  "driver_sha256": "7ddd32655169550c85e9a9210392e12d2cd58304c07c62f1620eaf9004aee674",
+  "request_sha256": "af98716eb0ac5e018f652762cfbd9e9aec468ab0f77a21c83eb5e11976b8f83b",
+  "root_readme_sha256": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+  "topic_readme_sha256": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d",
+  "publication_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "workflow_sha256": "3fc8250a01b725d7820de6a140d160930b9c03fe011800712bc4abeadfc635ad",
+  "retained_artifacts": {
+    "R774": {
+      "result": "R774-original-p41-Hodge-cube",
+      "run_id": "43631427773",
+      "source_commit": "93056f04536e61ccdd486674003b4d1380a27475",
+      "artifact_id": 14128247134,
+      "artifact_name": "serre-global-R774-original-p41-Hodge-cube-43631427773-1",
+      "archive_sha256": "91d9f6d926dc2a649d5fd401b9881cc6f88f8e233724408fbce8dcba109d1f0b",
+      "manifest_sha256": "4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222",
+      "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+      "certificate_name": "p41-original-Hodge-cube-certificate.json",
+      "files": {
+        "p41-original-Hodge-cube-certificate.json": "aea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59"
+      }
+    }
+  },
+  "resume": null,
+  "budget_minutes": 300,
+  "arithmetic": "exact primitive280 vectors with rational scale; no kappa inverse",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43679703344",
+  "prepared_at_utc": "2026-11-15T05:07:36.599274+00:00",
+  "actual_y_map_beta_or_height_computed": false
+}
