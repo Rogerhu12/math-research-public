@@ -138,3 +138,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **第三正后的六槽真实来源比较已证。** [完整证明](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)给S_r中初值仅差真正B核提升时的选择差落W_(r−1)，第三须补完整W2；q1规范变化须同步q2。中间p4须真p3的b8/D3_K2；四条第二像必须先全球化，末p5用pH_a修正。通用六槽费用1348仅条件预算，实际global执行仍开，正在按已存常系数收紧1345。
 
 **实际常数主列已把六槽全局上界收紧1345。** [完整费用证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)由真实prepared两列给20011+16·20012仅父ω3…8、整数系数[344,409,327,102,1,16]；只需K2…8七raw q1，六槽起点177，四次whole-P/T96后1345。真D2及四W2辅助不抬高上界。正在实现实际全局入口；只有九原十七式p6乘回/完整315对账/实际来源费用全通过才登记原式正证书。
+
+**高孔项的同源二进制插值已付。** [统一真实预算与插值](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)对同H和真u/r保全部a≤2^(d−1)的环境/carry/投影；Lagrange总变差<9使整组高孔自配对准确合成原尾范数。只剩同s_j=H^(2^j−1)B_m top的普通完整右费R_p²；ΣR_p²≤K_mn_m||w||²且K_md/n_m=O(1)足矛盾。该新预算尚未证明，不能以环境范数或bare费用替代。

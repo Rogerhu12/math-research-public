@@ -294,6 +294,101 @@
     "mathematicsRerun": false,
     "pushTimeoutSeconds": 900,
     "gitPackWindow": 0,
-    "gitPackDepth": 0
+    "gitPackDepth": 0,
+    "status": "pushed",
+    "actualPublication": {
+      "format": "r150-saturated-third-page-terminal-publication-v1",
+      "status": "pushed",
+      "run_id": "43664532571",
+      "run_attempt": "1",
+      "source_commit": "39c27f127fa63240629ecb60fe8e13628fee631f",
+      "publicationExecutionRunId": "43666721225",
+      "publicationExecutionAttempt": "1",
+      "publicationExecutionSourceCommit": "a4bc6ea9b24269179f74384e15425ec3225d5b11",
+      "mathematicsRerun": false,
+      "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1",
+      "sharedResearchIndicesEdited": false,
+      "forcePushUsed": false,
+      "rulesAtSource": {
+        "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+        "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+      },
+      "pulls": [
+        {
+          "beforeReadCommit": "a4bc6ea9b24269179f74384e15425ec3225d5b11",
+          "originMainAfterPull": "ed029aa6277d0f2607700fbbb4098ee496f3f701",
+          "exitCode": 0,
+          "rulesSHA256": {
+            "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+            "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+          },
+          "rulesDiffer": false,
+          "diffFile": "readme-diff-after-pull-1.patch"
+        },
+        {
+          "beforeReadCommit": "ed029aa6277d0f2607700fbbb4098ee496f3f701",
+          "originMainAfterPull": "1e247fe1c92a02a6afeb96a9f6417acc9ffb5a28",
+          "exitCode": 0,
+          "rulesSHA256": {
+            "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+            "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+          },
+          "rulesDiffer": false,
+          "diffFile": "readme-diff-after-pull-2.patch"
+        },
+        {
+          "beforeReadCommit": "1e247fe1c92a02a6afeb96a9f6417acc9ffb5a28",
+          "originMainAfterPull": "810195caeeef5dccdffe03c65e4c409417ad1eee",
+          "exitCode": 0,
+          "rulesSHA256": {
+            "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+            "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+          },
+          "rulesDiffer": false,
+          "diffFile": "readme-diff-after-pull-3.patch"
+        }
+      ],
+      "pushes": [
+        {
+          "commit": "e8f0e098374e52c0e00d7bcb830fdcf1c0134094",
+          "exitCode": 1
+        },
+        {
+          "commit": "cef83145a010eb0a37a44c0fd841effb2d832fe1",
+          "exitCode": 0
+        }
+      ],
+      "stagingPushes": [
+        {
+          "commit": "4ea8977db0d44c1d5cdcf464c829595d3c8d9822",
+          "branch": "isp-789f-data-43664532571-1-4ea8977db0d4",
+          "exitCode": 0
+        }
+      ],
+      "actualOutputsPreservedBeforeGit": true,
+      "mainCommitMetadataUnshallowed": true,
+      "blobFilterRetained": true,
+      "actualRecoveryPreservation": {
+        "allActualRecoveryFilesPreserved": true,
+        "allStageCachesIncluded": true,
+        "originalFiles": 197,
+        "originalBytes": 440770011,
+        "fallbackFiles": 0
+      },
+      "preparedStoredFiles": 254,
+      "preparedOriginalBytes": 227177322,
+      "lastRulesReadCommit": "810195caeeef5dccdffe03c65e4c409417ad1eee",
+      "advertisedDataBranch": "isp-789f-data-43664532571-1-4ea8977db0d4",
+      "publishedCommit": "cef83145a010eb0a37a44c0fd841effb2d832fe1",
+      "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1"
+    },
+    "publicationArtifact": [
+      {
+        "id": 14142199538,
+        "name": "isp-r150-third-publication-recovery-43666721225-1",
+        "bytes": 20144,
+        "digest": "sha256:ad475cd1871a5010be90155554bebc5126cfcdb7416b11f131beed69678718cf"
+      }
+    ]
   }
 }
