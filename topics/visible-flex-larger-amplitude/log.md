@@ -137,3 +137,7 @@ R353 21493B/6d577be7全文核后即发：166原模型α1/8/FD过，75776×17齐�
 ## 2026-11-15 16:44:05 UTC /root — R357有向单位Robin族
 
 R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢复幅符号、严格norm后归一，再合法hull同原列方向，保全部误差/未付范围；无实际far/native预填。geometry接168，162重发43736658472，root160仍科学中；API核db2c106ab4a8d7d9bcec7fda82020170310ec3d1双README未变，真pull保。
+
+## 2026-11-15 16:50:16 UTC /root — R351伴随helper源码发布
+
+35419B/12a95d40全源、12087B/6581078a接口及原2422 matrix/_evaluate核后两件即发；698×7×10/112×8、三列reverse与新shape完整链保，形成本身不设精度门。amplitude并行164；145/155已真实终态，exact写R343/R344。API核2f39d8222ddcd4affd8101f4fbcf2d59bce34cc7双README未变，真pull保。

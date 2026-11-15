@@ -118,3 +118,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R357：完整原列的有向单位Robin行
 
 [R357已证](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)：原r/w/μ/m坐标映射可逆，R_original=a_f Rhat。每个完整闭逆像候选先保原幅符号σ并严格包围||Rhat||>0，才形成σRhat/||Rhat||；它们都包围同一个原QF=1行的单位取向，故跨候选hull合法，不除高度、不要求共同chart。正二幂改善量级但不支付norm正性；两坐标含0或资源不足保全族/未付范围，prepared只按commit付。数值代表只作明确有限native输入，不证同时准确C实现；单位缩放改变数值残差权/轨迹，所有方向/敏感度/审计必须同新far矩阵。168仍保原112/576/577、32/10/2e−9与η1/η0责任，无新增数学门，实际结果未知。
+
+### R351完整七状态伴随源码已发布
+
+[helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)与computations/geometry_20261115_literal_seven_state_adjoint.py（35419B/12a95d40929cc7799761e56c33eadc9e5fbe16fa3eacf0d0be94c56ea3452b0f）已发。原2422冻结body局部698×7×10、全112×8末变分、三列reverse/node-mid散射及直接q_N/start项完整；同一formed局部系数前传全112与原已有九J对照不另调用原evaluate/response/FD。每次局部primal词差、形成舍入/原full-forward差及partial全保，不能冒准确精度/秩或新native。新shape须真实独立定义、支撑/零jet证明/物理坐标与样本身份，不冒旧9p或以samples证C²。164从原实际末p重建同一state，按Actions实际新增响应选择再进入明示扩展族原full3/严格下降/Armijo/全终门；不等待大表搬运作为前置门。145/155已终态，exact分别R343/R344成文，不能继续记运行或误归旧DSA失败。
