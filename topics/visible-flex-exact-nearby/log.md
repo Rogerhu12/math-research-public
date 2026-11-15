@@ -325,3 +325,13 @@ H/open仅精简旧AJ/RV/D/CS等重复履历；精简前完整2e3dcae9564490f016b
 只新增两个genuine分量各p2q0..2、p1q3、正宽1/512下p0q3，共10预算；正宽→角4各一次，DG/RV已成14低导逐字读，不再算成功jets。M15–16由同leading M_T+cT M/2恒等先取b行，E源=μ[iεV(2a0X+Xi a0)+Vb0/T−VTb0]e1，b0/T的原可去性保，a0T不偷入。M17–19用原fold数、新μ模、RV负域a0X/Th及AJ完整holomorphic Xi付全E角0..2，非旧RV closure重复；所有物理域/参数/正负carrier/mean保。
 
 M20直接展开D²给8完整项，原∂r=−∂ρ正确；dφ/dr/T0=t+5dφ、V0/ϑ及完整rank相关源不删。18原正校准、六true dr/uncertain-root权只读，原C算法参数lower比率新whole候选与DG raw1取整界min，其他20first+10mean逐字。主子代理继续实现新scalar，成功/实际收紧尚待；非source-to-wave/strong-return/GH。旧成功计算全部冻结，HANDOFF/open持续最新。
+
+### 2026-11-15 13:57:43 UTC — M新mixed jet与完整raw1消费者部署
+
+亲读main 12b7ca67716b18097d72095ab2855e3270447513，两README无变。SCI b87546f62dcb862c19d606f5b7a4577c4692c858 /46805B/SHA b4bc768e149f01591102a9bcc8c16b166bd8ba97fd0c0c245ba3073ba3382496；worker0b9dcedf9251c72ec333d7bbe5383988f84aa9df /34137B/ba0c59e7308413ff616c33b72f0d806b2e2435c83577adcfe8459e268e31aa6c；manifest a7cc031df60c1ede2ef85fe83d616797cb0e3c93 /13940B/1055c8231c7646acb5b37e7c876a62321436192927ba9616ad7a1d08a24cb1e2；flowc0f26f738a69f4a5d500a3fdc32c17a77445068b /4325B/1d7940cc963567cdc37bf9d426d9872cfcbbe3367d410741fe6177b409435cee。
+
+root全文639行SCI+worker相对成功DG完整差异+全manifest/flow已核；newton独核三个数学函数通过。14既成DG/RV低jet/6principaljet仅读，10新mixed/two q4/one closure/8完整物理summand，23实际门配置吻合；μV全SG、E真sP及RV a0X/AJ holomorphicXi字段亲核。没有任何旧producer import或调用，30其余账本逐字DG。
+
+26pins/804767B，单4501B自然fold只临时恢复，23当前角色和其余旧process/publication保持SHA；所有与DG共享pins逐键零差。worker保原容量/owned delta/preGit59KB/实际23门与完整counter/900s child/540s真pull/README及无限非FF；成功同身份复用不重算。实际AST与新数字仅公开Actions。本机静态delimiter过，不冒AST。
+
+亲读Green13:55:08.635256 actual process846b6565beadcfd81780e6436412dd25a14aab04 /43961B/SHA25b10d641a76c0b9645f24ccf161a6fabcceae42df836f022802c12be4c6d971：future4144=1886旧+2258新、past1664/product2624/groups0、未终；signed W log2upper−103、旧scalar2997仅诊断。真pull13:55:07.312405→dbbfe1bc71c1e81ec56ef31c993949026aa79faf，两README空diff；topic199242343B，每新consumer重新核≤200MB。继续SV/宽低窗/完整Green与strong-return/core；未达总验收。
