@@ -1,7 +1,7 @@
 {
   "kind": "cached_weighted_cap_Q_public_inputs_v1",
   "repository": "Rogerhu12/math-research-public",
-  "source_sha256": "942db5ef59f88efa25da614ad4c0e0fa625fe1babb440527e0105739ab14ac68",
+  "source_sha256": "1be4b1115380c722a09c504e2fea99f6e32d3e0b12c8e92f44b1aa50ee27de16",
   "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
   "readme_sha256": {
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
@@ -46,6 +46,8 @@
     "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
     "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/actual-cap-L1-endpoint-summary.json",
     "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/process.json",
+    "topics/visible-flex-exact-nearby/notes/cached_weighted_cap_Q_ci/run-43694827122-1-cached-weighted-cap-Q/actual-weighted-cap-Q-summary.json",
+    "topics/visible-flex-exact-nearby/notes/cached_weighted_cap_Q_ci/run-43694827122-1-cached-weighted-cap-Q/process.json",
     "topics/visible-flex-exact-nearby/results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md",
     "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py",
@@ -85,6 +87,8 @@
     "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
     "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/actual-cap-L1-endpoint-summary.json": "f5eea9a8a1b3f198e19c94a42cc3f794226b99cae65cefbd2e631134aff42c3a",
     "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/process.json": "b782c9a2834df60b7e0961fff17d2dbaca0b96d965b042f1a4194545ebb9b2dc",
+    "topics/visible-flex-exact-nearby/notes/cached_weighted_cap_Q_ci/run-43694827122-1-cached-weighted-cap-Q/actual-weighted-cap-Q-summary.json": "e4b62e7a64b15d0ec023012d605f9d8106ad0cc3b27c9cf37ead3fc94252c244",
+    "topics/visible-flex-exact-nearby/notes/cached_weighted_cap_Q_ci/run-43694827122-1-cached-weighted-cap-Q/process.json": "f1fa9464130f6ad3ee502c63573920a7cec2419b70e1db737aafcd16d7859dc4",
     "topics/visible-flex-exact-nearby/results/R133-supplement-actual-final-all-mode-physical-cap-Green.md": "721426af4046ee5c7ecaf7cf494db84f08451b50a042edfe8cba809ff0249876",
     "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-centre-physical-cap-and-residual-conjugation.md": "b2acc995d8ef0c880c93b21226f53da0470a9945e53f67643106b0522a8c2404",
     "topics/visible-flex-exact-nearby/results/R133-supplement-final-moving-centre-actual-regular-boundary.md": "f4ae237c86542f29f2127f7e43d5ab97827756fcce86e71bcff8c0a610ec81af",
@@ -92,8 +96,8 @@
     "topics/visible-flex-exact-nearby/results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md": "1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463",
     "topics/visible-flex-exact-nearby/results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md": "0e6c0f6acfa4a40378176cf56e03ee941d1932885149a64cd145a7b4e9b91cfe",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py": "106ec9308882b814ca773da904e561e93aa4475f4f46f84b9632c9716653992f",
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q_CI.py": "6512b038f14704d5a9a70c4693260a8c49ed47fa016beef1c0c034c672dcfe48",
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py": "942db5ef59f88efa25da614ad4c0e0fa625fe1babb440527e0105739ab14ac68",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q_CI.py": "0e240776c168743dc39df806633ee718eab150beab610792decd18eaa7bfc20e",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py": "1be4b1115380c722a09c504e2fea99f6e32d3e0b12c8e92f44b1aa50ee27de16",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_continuous_cap_residual_conjugation.py": "a24c26c793e01ad0b8e686786d0b7c1f9d3f5c6de0af00a8cb0283f2369478be",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
@@ -150,5 +154,23 @@
     "only_weighted_gate_and_scalar_compatibility": true,
     "complete_nonlinear_endpoint_invariance_proved": false,
     "complete_nonlinear_cap_solution_proved": false
+  },
+  "prior_failed_attempt": {
+    "run_id": 43694827122,
+    "run_attempt": 1,
+    "source_sha256": "942db5ef59f88efa25da614ad4c0e0fa625fe1babb440527e0105739ab14ac68",
+    "worker_source_sha256": "6512b038f14704d5a9a70c4693260a8c49ed47fa016beef1c0c034c672dcfe48",
+    "manifest_sha256": "0d036c7209c0b1f7a61c5eb5e997fcdc4e2bda1fb4aabbe37a5e4e967508bc11",
+    "actual_child_returncode": 1,
+    "failed_gate": "exact_original_four_parts_and_complete4650_identity",
+    "actual_new_scalar_mean_Bernstein_domains": 0,
+    "actual_new_weighted_domains": 0,
+    "exact_cause": "the OLD_SOURCE string omitted one b7 pair; every immutable input had already passed its original SHA check",
+    "only_scientific_source_change": "correct OLD_SOURCE to the exact original manifest and original producer SHA; no formula or gate relaxed",
+    "failed_process_path": "topics/visible-flex-exact-nearby/notes/cached_weighted_cap_Q_ci/run-43694827122-1-cached-weighted-cap-Q/process.json",
+    "failed_process_sha256": "f1fa9464130f6ad3ee502c63573920a7cec2419b70e1db737aafcd16d7859dc4",
+    "failed_summary_path": "topics/visible-flex-exact-nearby/notes/cached_weighted_cap_Q_ci/run-43694827122-1-cached-weighted-cap-Q/actual-weighted-cap-Q-summary.json",
+    "failed_summary_sha256": "e4b62e7a64b15d0ec023012d605f9d8106ad0cc3b27c9cf37ead3fc94252c244",
+    "completed_old_mathematics_recomputed": 0
   }
 }

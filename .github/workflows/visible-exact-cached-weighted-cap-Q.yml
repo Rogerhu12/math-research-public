@@ -23,9 +23,9 @@ env:
   OPENBLAS_NUM_THREADS: '1'
   OMP_NUM_THREADS: '1'
   WEIGHTED_Q_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-weighted-cap-Q-CI-inputs.json
-  WEIGHTED_Q_MANIFEST_SHA: '0d036c7209c0b1f7a61c5eb5e997fcdc4e2bda1fb4aabbe37a5e4e967508bc11'
-  WEIGHTED_Q_WORKER_SHA: '6512b038f14704d5a9a70c4693260a8c49ed47fa016beef1c0c034c672dcfe48'
-  WEIGHTED_Q_SOURCE_SHA: '942db5ef59f88efa25da614ad4c0e0fa625fe1babb440527e0105739ab14ac68'
+  WEIGHTED_Q_MANIFEST_SHA: '61def9069aaca22071de918d766e5d983f755d20e87fd924caa7c31e436edfeb'
+  WEIGHTED_Q_WORKER_SHA: '0e240776c168743dc39df806633ee718eab150beab610792decd18eaa7bfc20e'
+  WEIGHTED_Q_SOURCE_SHA: '1be4b1115380c722a09c504e2fea99f6e32d3e0b12c8e92f44b1aa50ee27de16'
   WEIGHTED_Q_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
 
 jobs:

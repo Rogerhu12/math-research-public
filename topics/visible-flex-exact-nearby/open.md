@@ -137,3 +137,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 整片signed Taylor已实际成功，继续完整有序source
 
 43694458725/1 child0/9门、math7.215183343s，root亲读execution777e681b…与result67fadf77…并核报告4de2b072…。全piece2549的3width/p0..2/q0..3/完整mean、signed finite及两radius完整尾均已付；二径大上界仍在，不由根点小量授全片收缩。小结没有finite/tail分拆，不能据总数伪称已核tail份额。继续同真实reference的local μ numerator、H_V^-1有序重构、全部I/J/physical mean/真实seams，完整source和positive Schur另付。
+
+### 加权Q首attempt在身份门失败后的唯一修复
+
+43694827122/1 child1，.002604998s，首门exact_original_four_parts_and_complete4650_identity失败。root实读process f1fa9464…20886B/summary e4b62e7a…3648B：26pins已恢复，science尚无新Bernstein/weighted域。原因唯一为OLD_SOURCE常量漏b7两字符；新SCI1be4b111…只补成原producer真实64位SHA，worker0e240776…/manifest61def906…28pin/flow6bd87663…一致，所有旧数据pin/参数/公式/严格门零改。原失败两件追加固定pin，不删除或冒作q_w数值失败。继续真实新run。
