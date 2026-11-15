@@ -134,3 +134,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R344：八批真实37模型后只加观察到的LEFT462
 
 [R344](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)核actual155 source0aa9dca2/run43726543241的8模型/FD、全部23trial/546语义成员及真父链。接受α[1/8,1/4,1/8,1/4,1/4,1,1/4,1/2]；末physical .0071041184748284756仍cell461/row155819。batch6最近α1/2与batch7最近α1原merit下降、37selected全有效，仅未选LEFT462 β²为−1.7827069382052452/−10.25057313338912。早期已选查询弯曲仍在，后段原QP stationarity/gap非严格最优证。末pair已删，171从actual98在同一job真重生37八批、保该次真实末pair，再增加LEFT462及interval/node462实际capture/B支持并构建38模型/FD；17档/全外变量/109核/原门不变。不能凭哈希续接、先定后继浮点词或自动加MID488。170的R354诊断独立后置，不阻171推进。
+
+### R360：同一当前正H的完整残差差额
+
+[R360已证](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)把实际trial与保存仿射预测之差逐129248行写成b+Aq+s：b为同状态noJ/withJ差，q为真实trial形成差，s为实际有限位移割线缺陷；cut/far的s仅剩原仿射形成误差差。准确sigma-max与原打印norm分开，完整差额上下界成立；导数/Taylor解释另须明确准确参考及全段条件，不把IEEE程序视为可微。172由root从原145同六p/H/warm真实重生，完整观察原已访trial及明示较小步诊断，不改原接受、worker last或32×10。未有172实际值，R343 raw不能由SHA恢复；不预断方向误差/舍入/非线性哪项主导。

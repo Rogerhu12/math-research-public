@@ -260,3 +260,5 @@
 - [R344：实际155八次完整37模型/FD与未选LEFT462失域](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：八接受/23原trial、真父链与546语义成员齐；末两最近拒在merit下降和37selected有效下仅LEFT462坏。八批预算正常止，完整BVP仍未接受；后继须同job真实37→38，不从已删末pair哈希续解。
 
 - [Request167必要科学范围收缩](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)：第四次实际114703B超限完整登记，c01e5469/eee0607f改为84原trial七列、18FD层/真异常和末方向，完整大矩阵只身份；不把工程未传出范围冒主控已读，不影响164独立推进。
+
+- [R360：当前正H完整残差的有限割线与状态形成分解](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)（已证，无新数值）：全部129248原行d=b+Aq+s；固定cut/far仿射抵消、原sigma-max上下界及明确C²参考的Taylor分解。为145当前映射差距提供可测责任，未预断病因、导数精度或新接受。
