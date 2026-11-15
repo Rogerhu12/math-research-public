@@ -165,7 +165,7 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 
 ### R404完整权零自然像至多二维，下一只求C2/C6
 
-[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)由原正规C20全Λ0与R196真商/两字符，得C20=C4+c0C6+R、n4=−c0n6。R400原正字符的联合核条件准确缩为n2∈span(n6)，增强零权商至多2维；c0及两个完整函数均未求，不冒秩2或actual路径。下一只做H*/J6的完整自然收缩，保原N0/Γ/mixed/ordered尾，复用原成员与共用响应列，不重旧根/秩。R402的−4静态行不替代真权0两函数。
+[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)由原正规C20全Λ0与R196真商/两字符，得C20=C4+c0C6+R、n4=−c0n6。R400原正字符的联合核条件准确缩为n2∈span(n6)，增强零权商至多2维；c0及两个完整函数均未求，不冒秩2或actual路径。[两条完整自然通量设计](notes/weight-zero-natural-flux-two-target-design-20261115.md)和单入口已装：只新算Ω=−4∫u‴M−2(u,u)的两完整五次函数，保原N0/Γ/ordered尾，复用已付成员；2static+6response仅必要输入恢复。8新人工待唯一公开run；全非局部/左多项式保留，完整局部才做忠实Euler和两函数比例。R402的−4静态行不替代真权0两函数。
 
 
 ### 直接reference求值已源码闭合，准备最小新接口

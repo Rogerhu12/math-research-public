@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0。原log7918876B/hash8ce149f0…经observer43769144830完整读核，旧140Python/146总绑定一致。新4检查通过、旧14只复用；首失败43766593534与费用保原note，不重执行。
 
-前6普通α1接受，两原网14门全true；7models修改52条guard RHS，10primary/SOC0。η .2662701215525791→.26623355613853394；κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。m7单primary临时ceiling10，gap2.4768679406952238e−5>1e−9、inexact/无返回/无trial，**非完整凸模型驻点**。总10/12余2，values14（独立末验另2），active35.54239845799998/120；total321.967762679s/RSS2292208KiB，全部初始化费已保。
+原guard六普通α1接受、两网14门全true；7models/10primary/SOC0，η .2662701215525791→.26623355613853394，κC/F57.99651016191997/57.99982504159888。m7gap2.4768679406952238e−5>1e−9，无返回/无trial，非凸驻点。原values14+末验2/active35.542398458；后继费用见下方，不能沿用这个旧时钟。完整模型/RSS/初始化保原note。
 
 当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd，池4432/4525版本1/2，B.00025、双streak0。γ末17.022353404161095/18.064283125328743；8events全commit、pending0，state57aeeb039749c574598477d41764c7651b7314c8530f150c83d3691815ade498。经验γ仅下一primary的active group8 target=max(old,1e−7+γB²)，本模型冻结；SOC原J/y/RHS、全部门/控制器/159→163不改。
 
@@ -34,7 +34,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)给第一条具体完整F0读出：V*=[h⁻⁴]F0(h,0,0)，Λu(V*)=3∫(u′−xu″)⁴u‴/32≠0。完整N0外槽、Γ幂、−b、YC/ZZ、正式pure及有序2+2全部保留，最终primitive/μ0H抵消；是原U线性系数，不是一条已实现的负闭路径，不授Q4头全延拓。
 
-[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)/[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)：C20正规Abar_hh全Λ0；R196原两字符/真三维商给C20=C4+c0C6+R，故n4=−c0n6，增强权零商=span{n2,n6}、维≤2。c0未求，不冒函数独立。全函数核仿射稳定后，ker(E,Λall)内λ+=1 iff n2∈span(n6)；反之原严格正action下降。C2/C6完整函数仍待求，H*=C2+R不是正常H、C6为hkω；旧E/正常H零不代替新Λ。
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)/[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)：C20正规Abar_hh全Λ0；R196原两字符/真三维商给C20=C4+c0C6+R，故n4=−c0n6，增强权零商=span{n2,n6}、维≤2。c0未求，不冒函数独立。全函数核仿射稳定后，ker(E,Λall)内λ+=1 iff n2∈span(n6)；反之原严格正action下降。[两条完整自然通量设计](notes/weight-zero-natural-flux-two-target-design-20261115.md)已装源码/公开入口，仅新Ω(H*)/Ω(J6)，2static+6response必要恢复、原π/self/秩复用，8新人工尚未执行；H*非正常H、C6=hkω。完整word留非局部，只有全局部才以完整Euler判关系。
 
 R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A通量与一次有限n收缩全保，qE三项原基准未消。固定A核非已知仿射稳定，不能沿其推广全自然商。R395旧K0…10在R71∩ker(E,Λall)，对应partial独立、非零给真log障碍。
 
