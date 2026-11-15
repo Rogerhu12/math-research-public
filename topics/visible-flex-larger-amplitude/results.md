@@ -115,3 +115,8 @@
 ## R423 — 三处限定名字修复与原数值程序边界
 
 [R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)与24775B/f82cd950独立header全文核：原StepDirections别名仍带hoisted关联命名空间，三处未限定column_environment与preassembled wrapper形成ADL歧义；只加preassembled_trace128::，全部逆换逐字恢复24706B/b16fac2b。限定选中原wrapper/同参数/原委托，算术、循环、检查和所有113位/SIMD/宽fallback不变；等价基准是原显式wrapper程序，不是假称旧失败executable有输出。192实际stage=false的具体编译原因未读，196仍待终态，不用静态风险补填。199实际临时include须明记旧baseline、新源和实际编译字节，修正reader编号后重生全部576×224/112/338×112/audit；原8000/19200和全部门保，不预称编译、性能或native成功。
+
+
+## 2026-11-15 — Request199：三处限定调用与当前编号的完整原128链
+
+[199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)八件全文/完整diff核后接线，R423 header f82cd950已先发；原196全部84pins逐值保→89，实际SIMD header/stage/R405/R414和所有输入、阈值、编译旗标、wall对象不变。只有三namespace限定及必要reader检查/输出的190→199；实际临时旧basename明确写新f82字节，旧b16仅baseline，完整逆换和原/新/实际身份分别返回。真91→fresh64/J/R273→持久128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800与330/350分钟保。原全部113位/偶奇尾/scalar/wide、有限root/mean/完整C残差保，非连续导数或性能保证。单90KB保全部原字段/未访/工程错误，quiet与必要complete后才清理；不借190/192/196现场或预称编译/native成功，amplitude唯一R424。
