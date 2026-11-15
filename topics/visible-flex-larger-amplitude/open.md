@@ -114,3 +114,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 交付多个各<5MB网格时也遵守根15：仅保可重现生成源码/配方、run/SHA和紧凑结论，不新增可重算raw制品。明确数值证据与严格存在证明之间尚余什么，再继续加强几何比例。只有README全部完成标准真正满足才收尾。
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
+
+### R363：完整有限允许站的局部C²形状响应
+
+[R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)对严格隔离内站用h=ε²t(1−t²)³零延拓，准确零2-jet且DF[h]=εw/a；所有允许C²形状的有限采样响应恰为完整累加权重span。给出准确rank/左零空间等价、原merit下降与显式误差前提；不假定原返回b等于finite-Gauss a的导数，不把形成权重或普通SVD当证书。173 helper须实际核全部node/mid与共享q关系、dyadic隔离和来源，再明确独立新族/fresh forward/原trial及终门；不回写164六宽支撑候选。选择后的中心/宽度/系数必须在同g精化时冻结并重采样，不能每换网格重新造单站列。实际新方向、共同准确C/全112非线性及闭场标准仍未付。

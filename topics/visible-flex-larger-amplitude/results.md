@@ -272,3 +272,5 @@
 - [Request169：射影当前C来源接完整453物理DN](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)：七件/58pins，原九p/λ.001/453初猜仅来源，实际H/J/FD及原8/17/32×10/final audit全保。sampling给BVP7200预留、原launcher实截止和六读回后自有清理均明确；无实际BVP接受预填，不等待168作为新增门。
 
 - [R348：实际159完整C、partial物理far与未启动453 BVP](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)：C1440/六primitive/两域、cut/构造/deep112已返；给定九p域仍partial。m18在200000工作尝试止，完整9616栈/后缀保，原BVP launcher未启动、无H/J/FD/trial；两完整日志及六读回/真实清理范围明确，169独立继续。
+
+- [R363：局部C²零jet形状与完整有限采样响应秩](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)（已证，准确有限模型条件定理）：严格隔离七次形状给DF=εw/a，允许形状响应span、rank与左零空间完整刻画，原full3 merit下降和显式形成误差界分责。无实际权重/秩/步长；173独立helper，不改164或同g精化定义。

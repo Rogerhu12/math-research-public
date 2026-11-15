@@ -181,3 +181,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:16:18 UTC /root — R348实际159完整上游与未启BVP
 
 全文核27709B/31c096f6后即发；C/cut/构造/deep与九p域partial分责，far m18 work200000、原栈和全后缀保，BVP确未启动而非原试探拒。两原完整日志/42块/34helper身份及六读回后清理已核，不补未产生H/J/FD。169已run43739904996；API核a6ad12b03eeb366af7fb31442a8b21749f6deba7双README未变，真pull保。
+
+## 2026-11-15 17:20:13 UTC /root — R363局部形状与有限采样可达性
+
+发表13225B/1103889b证明：七次局部C²零jet形状独立控制允许内站q，全三响应span/rank/merit及误差前提明确；重复站按真实共享输入处理，有限表不冒连续/IEEE或全场证书。173由amplitude接独立helper，164候选/门不改。API核b6577ebcd6b7ce2d859b55b5a9b1815bd83a7aa6双README未变，真pull保。

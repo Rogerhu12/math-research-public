@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:16:18 UTC 已读 a6ad12b03eeb366af7fb31442a8b21749f6deba7，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:20:13 UTC 已读 b6577ebcd6b7ce2d859b55b5a9b1815bd83a7aa6，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -22,8 +22,6 @@
 |---|---|---|
 |161 exact|43729456722 /132858464847|ce2b12c0f391；前13步过、step14|
 |160 root|43729874541 /132859748674|b34692d09c8d；前13步过、step14|
-
-[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：α1/8与FD过，后置绑定失败0/75776；raw已清，不能倒填166的74次control返回。
 
 163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)付151。[R350实际167](results/R350-actual167-original157-FD-trials-and-last-direction.md)：43738237606/sourcecdcff243，80173B/ea07c9b4单结论，18FD层/162项/84trial及末方向已读；四工程失败保。末F₁约−3.15、相对梯度约1e−26，非精确驻点；域/圆/大矩阵仅身份，不重开搬运，164继续新族。
 
@@ -53,9 +51,9 @@
 
 [R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：127.386056539s/65535节点，两子事务前止；32977闭盖/10468未决、严格反证0/globalδnull/exit3，非900s墙钟。[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已补完整result/input/五账身份及470411检查；65535节点未逐值重证，不猜未打印frontier主因。[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)准确DAG消依赖/全九项合并/共同变量Bernstein已证；[165接口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)四件已发：source61b98b3e/request6beff06b/workflow10b6e44a，21pins/全九p/419闭片/65536nodes/900s不变；同u差后Bernstein及原R330交，literal缺陷全保。四读回全success才清；exact核actual/R356，不预填径向或metric。
 
-[R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4直线接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082；末降4.710E−46/预测1E−49不冒准确根，全finalfalse。末九p50/chain/半径.0000390625见原文；167范围见R350，禁搬154值。
+[R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082，微降不证准确根，全finalfalse。真实末九p50和半径见原文；R350补必要标量，禁搬154值。
 
-[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)：原698cell七状态三列伴随含完整r/mid/sqrt/112终端/direct q/start；C²零jet响应与真实左零空间分责。[helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)已发source12a95d40：698×7×10/112×8/三列反传与全部共享q散射，新shape和旧九对照分开，无actual精度/rank预填。amplitude继续164独立新族/实际响应选择/原strict slope与Armijo/full final，有限空池不证驻点。
+[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)/[helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)source12a95d40保698×7×10/112×8/三列反传、全部q散射与direct/start。[R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)已证局部七次C²零jet形状DF=εw/a、有限允许站响应span/rank及有误差前提的斜率；无实际权重/rank。amplitude继续164独立十族/原门及173定位helper，不改164六候选、不把网格换形状冒同g精化。
 
 [R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：准确V=(sqrt(P)C−νQB)/(aW)及完整方向V″，全338投影/115零行，闭段正界给显式M；原e0/e1与Hermiteδ0/δ1/执行误差全保。纯证明，无数值M/安全步长；接R334全段未付责任，不设原求解新门。
 
