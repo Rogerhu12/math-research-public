@@ -403,3 +403,7 @@ phase_inverse科学SCI dd0cd551…51508B、algebra1860872f…24469B，root全文
 ### 2026-11-15 04:16:43 UTC：真实 canonical 低核恢复原 ζ131，有限 Sob 强返回独推
 
 R1–35全文22566B/5bc78e5e…经root、新ton、phase独立检查。canonical两态特征线以完整det比望远镜，真实Λ4>2^132保ζ131余量，不逐层重复条件数；强ζ与弱δ100双空间唯一性将整个weak解低部识别。真正2030角导处理高部/每频率唯一首cut；mean通量、跨胞唯一height、原单位ρ/ε及density均保。重新支付到2112角阶的全网络与cap，middle实际FP系数费修为2^4608；129..8192用μ/ε≥δ6和2^16δ^-92明确支付。最终Y_s<2^7340034N_{s+2050}+2^4194304Bext_{s+2048}，s≤64；N定义至2114，不假扩非线性乘积门。实际二次与selected两Γ余源已落窄域，但2050导损失/任意finiteSob背景逆/Γ延拓仍实在，继续mean/height tame图与principal入口。README核05b4ba7320e85a41d04e9b57a4e3e7cac6f5fa31无变化。
+
+### 2026-11-15 04:20:21 UTC：原整个实 δ 区间完整帽线性逆闭合
+
+V1–14/8ce318c77ca40324ae1461dc126f0aaaa11d92148294a380d7f5560e53a81eb2全文经newton独立核对。G2精确零均值与G23联合||mC−1||<1/32给||Φ0−id||jointA0<1/128，Banach指数级数保逐mode径向sup与全mean，实际Z A1/128<.869975739133<7/8授ε<2^-26。原1346闭行b,g<6/k1使P19阈值>2^-26，因此body<1/4；O14真外<1/8同空间合成<3/8。8/5明确为相对原完整affine lift的resolvent，未冒绝对Green norm。固定η0、ν帽上0、原反射类、全频未知、内C/外Robin/mean/height/正fee/jump全保。当前是显式Qδ线性结论，不是精确族、未知非线性域、全δ高Sob或97精细响应。README核783af201825cfc2aab290d763613bcdf9c32b031空差，独推后继续下项。

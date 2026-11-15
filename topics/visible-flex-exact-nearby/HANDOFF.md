@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 04:16:43 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 04:20:21 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 04:08:31.928940 UTC cb4f2dc5812bcc3baeb96c21168adaaedaefca39（Green process5fcf0104…39256B，七次两README diff空）。03:54非FF立即真pull仍无executor，freshhead重建推成功。
 21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：05b4ba7320e85a41d04e9b57a4e3e7cac6f5fa31；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：783af201825cfc2aab290d763613bcdf9c32b031；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。此前H9873B逐字存notes/2026-11-15-handoff-before-reader-fix-and-cap-domain.md，再前各H及全部旧链见其归档引用；旧open29021在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md，旧log在notes/2026-11-15-log-through-inner-source-deployment.md。成功科学/出版失败分记。
 
 ## 同一对象和总完成门
@@ -46,7 +46,7 @@ S1–39/54c51dc2…真实连续Jacobi已付h→h/2时Galerkin J/半径≥2^-15�
 G1–26/1507b1da…全4Z weighted Eh/逆/两mean准确，Fcov=F−AQφ、一般原F保a′=DA[h]与aRφ；η0δ0完整Hessianχ<1/128。
 S1–24/6812a8a6…真long B0后K<1/64；σ1/128 Kz<2^64，shifted M2^256共轭差<2^-166，−3/2≤s≤1024通常物理M_s逆<2^262145，Cf<2^400000、原U反馈<2^-31000000。完整mean/jump/相位保；moving只输出L∞rHφ^s不授ℓ²sup_r同模。
 R1–17/b5f0b781…实际u奇/v偶、Z/径向参数守反射，A及同类全部导数0⇒固定角点a0、原F继承S。long b0=0但C0/通量/height/非zero腰行保；Γ径向返回非此A。
-P1–21/bd7018ce…固定DΨ0∂φA=∂θ(M Ahat)+Wθ〈C Ahat2〉，旧Iφ准确转固定I0；DF邻差全flux+mean无需Y_r，R0 Hessian复用。fixed linear ports下joint A0 ε≤2^-22/[k*(1+b*+g*)]⇒body<1/4；未知非线性同域另付。
-O1–15/02248c9c…原real|δ|≤1e−8完整E/M边界差<11e−5；原统一s公式授L²，准确S(r,s)=(Jr,s)与kernel/onto给仿射lift<24、端点H<41，outer<10824/100000<1/8。合P19<3/8、resolvent<8/5；fixed inner C/两mean/height/正fee保，仅显式Qδ端点，未知图另付。
+P1–21/bd7018ce…固定DΨ0散度/primitive/mean准确，邻DF不需Y_r，新R_Y Hessian不重算；原R0完整保。O1–15/02248c9c…全real|δ|≤1e−8真outer反馈<1/8，准确仿射lift<24/端点H<41，fixed inner C/mean/height/正fee全保。
+V1–14/8ce318c7…现已闭合整个原real|δ|≤1e−8帽逆：G23 joint||Φ0−θ||A0<1/128，实际||Z∘Φ0||A0<7/8，ε<2^-26；b,g<6/k1落实P19，body<1/4+trueouter<1/8⇒反馈<3/8、相对基点lift逆因子<8/5。原反射类/全频未知/同η0/ν帽上0/完整mean；仅显式Qδ处M0线性，不授未知非线性域、高Sob全δ或精细97参数误差。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。

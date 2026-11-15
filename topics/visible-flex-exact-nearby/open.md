@@ -130,11 +130,11 @@ N1–25合同已证（[全文](results/R133-supplement-correlated-adjacent-piece
 
 ### 2026-11-15 fixed-base conservative cap perturbation
 
-P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-transport-and-nearby-cap-linearization.md)）：固定原DΨ0后，moving angular divergence准确成为physical divergence+完整rank mean；旧Iφ也在固定物理模块准确表示。DF邻态差只需joint A0系数，不需Y_r或新R_Y Hessian。原反射类/固定真实linear边界的ε≤2^-22/[k*(1+b*+g*)]给全频body反馈<1/4。继续消费真正cap上的δZ joint系数与actual changed边界，不能以row supΣ冒Σsup，不能由M输出自动授Wiener非线性迭代。
+P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-transport-and-nearby-cap-linearization.md)）：固定DΨ0的完整散度与mean、原primitive精确表示；DF邻差只需joint A0，不需Y_r或新R_Y Hessian。V1–14现已用两实际consumer和固定Φ0落实原整个realδ区间条件。未知非线性修正的同域Wiener入口仍另付。
 
 ### 2026-11-15 actual full-delta outer rows in the fixed cap
 
-[O1–15](results/R133-supplement-true-full-delta-outer-rows-in-fixed-base-cap-inverse.md)已证原real显式Qδ、|δ|≤1e−8的真实外边界反馈<1/8。S20–38统一0≤s≤1的正项公式授实际L²完整Eδ和mean行；准确S(r,s)=(Jr,s)、两图kernel相等与T0 injective付完整仿射lift，不估changing composition差。fixed inner非mean C与全部独立外源保持。合P19主体后反馈<3/8、逆因子<8/5；实际joint capδZ系数球仍由新原193逐模consumer落实，进一步未知状态的nonlinear边界图需自己的域核验。
+[O1–15](results/R133-supplement-true-full-delta-outer-rows-in-fixed-base-cap-inverse.md)已证原real显式Qδ、|δ|≤1e−8真外反馈<1/8，保L²统一正项公式、准确仿射lift、fixed inner非mean C和所有独立源。V1–14现已与实际P19主体合成全帽反馈<3/8；未知非线性边界图与高Sob全δ仍须各自域核验。
 
 ### 2026-11-15 complete193 cap joint coefficient consumer deployed
 
@@ -153,3 +153,7 @@ N1–25合同已接244pin六件：SCI dd0cd551…/algebra1860872f…/CI4fe4c38a�
 ### 2026-11-15 canonical finite-Sobolev strong radial recovery
 
 [R1–35](results/R119-supplement-canonical-strong-radial-finite-Sobolev-domain-and-quadratic-sources.md)已证明固定既知背景的完整ζ131强返回：真实Λ4>2^132低核、δ100弱唯一性、高频2030阶回接、两mean/唯一height及129..8192全前缀。ordinary源域N_s至2114；Y_s只0..64，Y_s<2^7340034N_{s+2050}+2^4194304Bext_{s+2048}。实际二次与selected原analyticΓ余源落同窄径向域。此项有真实2050导损失，不是Picard收缩。接着在新的finiteSob域直接构造mean/height chart、真实Γ principal/首相位与可迭代全背景逆；原analytic224标签不自动延拓。
+
+### 2026-11-15 original whole real-delta cap linear inverse closed
+
+[V1–14](results/R133-supplement-complete-real-delta-fixed-base-cap-linear-inverse.md)已闭合整个原real|δ|≤1e−8帽区：固定Φ0−id的joint A0<1/128，逐系数指数展开给||Z∘Φ0||A0<7/8；实际b,g<6、k1使P19满足。主体<1/4与真outer<1/8在同物理M模块合成，反馈<3/8、相对完整基点lift逆因子<8/5。此前固定角组合和βγK待消耗项已闭合。继续高/负Sob全δ转授、signed97精细参数列、内主体全逆及未知非线性同域；显式Qδ仍非PDE解。

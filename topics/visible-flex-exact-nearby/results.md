@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原整个实参数区间的完整帽线性逆](results/R133-supplement-complete-real-delta-fixed-base-cap-linear-inverse.md)：V1–14把实际660片Z联合界、1346原闭行本征界与固定Φ0复合逐项接入P19；原real|δ|≤1e−8全频body<1/4、真outer<1/8，合计<3/8，相对完整基点lift的逆因子<8/5。保全mean/原反射类/同η0与真端口；不授一般非线性背景、高阶全δ或ν精细误差。
+
 - [真实 canonical 强径向域与有限角源](results/R119-supplement-canonical-strong-radial-finite-Sobolev-domain-and-quadratic-sources.md)：R1–35在固定已知强尾背景上保原ζ131、真实低核/两mean/height/高频回接及全浅前缀；给Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}（0≤s≤64）和实际二次窄源，保留2050阶导损失，不授任意finiteSob背景逆或Γ延拓。
 
 - [实际完整帽区本征界](notes/2026-11-15-R133-actual-cached-complete-cap-intrinsic-bounds.md)：43674917925/1 child0/9门，复用原4650闭行、1346真帽交段，b*=g*<5.639200000174<6、K*<.254600000149、k*=1；同η0与原本征对象，0旧网格/660 Bernstein重算。
