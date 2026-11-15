@@ -74,7 +74,7 @@ FROZEN_AND_NEW_DEPENDENCIES={
     "frame_metric_height159_affine_spectral_audit.py": "a62c20944a66a04679a5ae4a156e2e64b4e9331d976125a3f23a1a2356a2df4c",
     "frame_complete_affine_metric_oracle.py": "ab81812f596cf3fc4f1c8d188aec785b289db2fb2c6959e32c2d69250faa91e9",
     "frame_metric_height159_complete_affine.py": "4b64858cec01566e17c2530c8b95c5855d57820454c13dde3cc5aec215217346",
-    "frame_complete_affine_metric_development.py": "b40f6724261a8af8e6531b13a2694866e07c92b47651654f3f3549243b5ce2e8"
+    "frame_complete_affine_metric_development.py": "34694db773e3786b0e0d242bd31d90b846fbc0543e6361423ab74e6fa46de1f1"
 }
 
 
@@ -969,7 +969,7 @@ def _print_development_part(name,result):
 def developer_check():
     hold_library.require_public_research_environment()
     started=time.monotonic()
-    kernels=new_development.run_development()
+    kernels=new_development.run_development(current_source_hashes=implementation_hashes())
     _print_development_part('new-complete-grid-direction-and-four-maxima',kernels)
     handoff=_handoff_development();_print_development_part('new-ninth-handoff',handoff)
     dispatch=_pipeline_io_development();_print_development_part('new-nine-input-pipeline-IO',dispatch)

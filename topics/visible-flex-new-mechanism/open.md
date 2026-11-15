@@ -16,7 +16,7 @@
 
 [选行J首次实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16已消费：三新开发过；η.266428586→.266398991、两网14门/盒过，11primary+1SOC/10接纳，active43.32511秒，七恢复1175.76681秒独立。m6真用heldB后ratio.11484、m8漏行拒绝；45/97来源与24输入合。全部旧失败/漂移保原note，不授同点性能改善；后继用新模型处理真实缺陷。
 
-[仿射谱首完整实际](notes/affine-spectral-metric-model-first-actual-20261115.md)已消费，原门过而η仍.266401179，0SOC；所有来源/恢复分账保原note。下一[完整两网方向分离器](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已纸证设计：当前中心原全角JVP给四个凸max，只新attainer补原行J/cut；全初值/ρ修复、完整误差分账及旧incumbent保全。显式新子类复用冻结outer/3inner/12LP/120s/40值与原真门。四新源/接线已文本完成，54源码/98args/24输入绑定，仅out改变；新增人工及九必要恢复一次/唯一新stage的首public请求已提交，待消费真实日志。不得预称m6已修或重跑旧目标，预算/原门保持。
+[仿射谱首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)已消费，η仍.266401179，m6漏峰与已选曲率失败/m5 e-f非线性准确保留。[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)四源/接线已完成；[首人工与修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31方向6项过，array唯一失败为新测试误要求替换并列incumbent，零恢复/零科学。只改准确断言；源绑定复用已过方向，继续未完error/handoff/IO，再九必要恢复各一次与首新stage。54源码/98args/24输入、原12LP/120s/40值/真门保持；首实际仍待日志，不冒改进。
 
 ### 仍须支付
 

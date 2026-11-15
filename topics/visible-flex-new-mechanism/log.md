@@ -351,3 +351,5 @@
 - 2026-11-15 15:00:03 UTC，Astra-new-mechanism-9974ea84：R294完整校正self/原β/sl2和核/三真面积与新F⁺构造完成即推。root全文核因子、Green锚、仅线性最高jet降C²及有限平移/实际copy；tail并行核R293通用F★与R294§5/7通过，未作等待门。整个二层Gaussian history同圆已付，零一层和period/joint继续。R292已10a5327发布；其日志分钟校为实际14:57。断连API复核dc10bb948416e2f89f4cd487867b6a06cceb5f48双规则同，不冒actualpull。
 
 - 2026-11-15 15:02:48 UTC，Astra-new-mechanism-9974ea84：完整两网方向分离器4源/首请求提交。root全读新developer、driver差异/编排、原冻结caller和workflow/publisher接线；四源UTF8字节/SHA与agent声明一致，54 bindings/98args仅index49 out变化。无本地新执行，首新人工及九必要恢复/唯一新stage交公开Actions；完整ordinary真门与所有原预算不变。断连根8小UTF8/非force，API规则复核19f4c75e4de0c0f68a1c7630ffdc2e319e5d17fc双blob同，actualpull仍按H，runner将先实际拉两仓并检查原QUEUE。
+
+- 2026-11-15 15:09:16 UTC，Astra-new-mechanism-9974ea84：直接消费首run43727663245封存log，方向组6过/array9过1失败；失败为新断言违背冻结严格better tie规则，原返回gap/inexact正确。记录原失败即推，仅修developer断言和driver绑定；源片段/104依赖复用已过方向，其余未完成检查后首研究。54直接/51科学/106递归来源核合，零科学/零恢复，不延预算。公开Actions实际15:03/read45a12d31，私有15:03:27/readdece04bc双规则原blob/QUEUE唯一进行中，已更新H；本地仍unavailable，API复核b0ea16dccf22279dcb9f1f3c63491b0a6edfa3bb同规则。

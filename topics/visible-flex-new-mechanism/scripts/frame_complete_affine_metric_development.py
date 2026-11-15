@@ -340,11 +340,17 @@ def complete_maximum_and_solver_checks():
         'all_four_supports_are_contact_cuts_and_global_underestimators': bool(
             supporting and cuts['contact_max_absolute_residual'] < 2e-13),
         'same_existing_original_row_reuses_identical_frozen_cut_bytes': bool(same_cut),
-        'original_shared_inner_solver_consumes_only_two_new_stub_LPs': bool(
+        'two_stub_LPs_and_equal_objective_preserve_original_earlier_incumbent': bool(
             len(calls) == 2 and ledger['linear_program_invocation_count'] == 2
             and ledger['primary_LP_invocation_count'] == 2
-            and np.array_equal(got, p) and report['returned_epigraph_gap_met']
-            and full_rows > 0),
+            and np.array_equal(got, p) and report['inner_call_count'] == 2
+            and report['inner_LPs'][-1]['gap_met']
+            and report['inner_LPs'][0]['repaired_objective'] ==
+                report['inner_LPs'][1]['repaired_objective']
+            and report['best_candidate_inner_index'] == 0
+            and report['returned_inner_index'] == 0
+            and not report['returned_epigraph_gap_met']
+            and report['returned_inexact_cut_model'] and full_rows > 0),
         'prediction_is_full_grid_value_not_LP_relaxation_or_old_selected_value': bool(
             abs(report['predicted_metric_slack']-model.slack(p)) < 2e-13
             and report['predicted_metric_slack'] > selected.slack(p)+1e-3),
@@ -408,12 +414,48 @@ def error_extension_checks():
             'new_fixture_has_no_geometry_or_optimizer_calls': True}
 
 
-def run_development():
+def completed_direction_observation(current_source_hashes):
+    """Reuse the directly read completed public group; execute no old direction case."""
+    inherited = {k: v for k, v in current_source_hashes.items()
+                 if k not in {'frame_complete_affine_metric_development.py',
+                              'frame_metric_height159_complete_affine_audit.py'}}
+    binding = hashlib.sha256(json.dumps(
+        inherited, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+    expected = '5616502af5dd600b0dc30d8349dd7d9e59bf2922722d58a84bed4ac66b4cd43b'
+    if len(inherited) != 104 or binding != expected:
+        raise ValueError('completed public direction group has different production dependencies')
+    source = Path(__file__).read_text()
+    start = source.index('def _relative(')
+    end = source.index('\n\nclass ArrayWholeGrid:', start)
+    fragment = hashlib.sha256(source[start:end].encode()).hexdigest()
+    if fragment != '8a5fbdd87ed8eb8ffabd219b6337bb186f7d7fff63e075bef6f3ffe29a36922b':
+        raise ValueError('completed public direction function or local helpers changed')
+    return {
+        'group': 'complete-original-grid-direction',
+        'status': 'previous-completed-public-group-observation-reused',
+        'executed_this_run': False,
+        'completed_run': '43727663245',
+        'completed_job': '132853059448',
+        'completed_source': '45a12d31acd31733be329e38415766339031ebab',
+        'completed_development_source_sha256':
+            'b40f6724261a8af8e6531b13a2694866e07c92b47651654f3f3549243b5ce2e8',
+        'root_directly_read_original_group_all_passed': True,
+        'unchanged_function_and_local_helpers_sha256': fragment,
+        'unchanged_recursive_dependency_count': len(inherited),
+        'unchanged_recursive_dependency_mapping_sha256': binding,
+        'metadata_reuse_is_not_a_new_execution_or_a_research_result': True}
+
+
+def run_development(*, current_source_hashes=None):
     require_public_research_environment()
     started = time.monotonic()
-    groups = []
+    if current_source_hashes is None:
+        import frame_metric_height159_complete_affine_audit as current_driver
+        current_source_hashes = current_driver.implementation_hashes()
+    reused = completed_direction_observation(current_source_hashes)
+    groups = [reused]
+    print('DEVELOPMENT_PART '+json.dumps(reused, sort_keys=True), flush=True)
     for name, callback in (
-            ('complete-original-grid-direction', original_family_direction_checks),
             ('four-convex-maxima-and-frozen-inner-protocol', complete_maximum_and_solver_checks),
             ('complete-versus-selected-actual-errors', error_extension_checks)):
         tick = time.monotonic()
@@ -434,6 +476,8 @@ def run_development():
     return {'schema': SCHEMA, 'status': 'complete',
             'source_files_sha256': implementation_hashes(),
             'groups': groups, 'all_passed': True,
+            'previous_completed_public_groups_reused': 1,
+            'newly_executed_development_groups': 2,
             'elapsed_seconds': time.monotonic()-started,
             'maximum_rss_MiB': resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024.,
             'old_developer_suites_called': 0,

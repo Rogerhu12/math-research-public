@@ -502,3 +502,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 完整两网仿射方向分离器：四源完成并请求首公共实际
 
 四新源实现原全θ解析单方向、两网×±四个凸max与原点切面；显式子类复用冻结outer/inner，完整rho初值/返回修复/旧incumbent与误差分账保真。新原行J失败耗时也计一次；root完成源文本、driver差异及接线读取，mechanism独核方向与第九handoff。54直接源码、98研究参数与24输入绑定，研究向量仅out改变。新增人工先公共Actions，随后九段必要恢复各一次和唯一新stage；原12LP/120s/40值与全部真门保留。首请求已提交，所有passed/效果均等实际日志，不重旧人工或把恢复当新研究。payload继续只临时，仓库仅元数据与人读结论。
+
+
+## 完整两网首人工：方向通过，修正并列 incumbent 的新断言
+
+[完整记录](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31/job132853059448：方向6项通过，所有点原T/Ts/Xs及实际attainer比小fullJ误差≤6.67e−16；array9/10过，唯一失败是新测试错误要求返回后一个gap已付的并列候选。冻结solver严格better保inner0；两修复objective准确相等，returned gap=false/inexact=true为正确原记录。3stubLP、0HiGHS、0恢复/科学，未完组不授通过。只修断言；原方向函数与104未变依赖绑定复用已消费组，再续未完成组和首研究。54直接/51科学与106递归来源对应，receipt54673B/446e8134保原；payload不入库。实际public/private pull和唯一进行中QUEUE同步H。

@@ -1,10 +1,10 @@
 {
-  "request": "first-complete-two-grid-affine-directional-separator-with-original-shared-ledger",
+  "request": "resume-complete-grid-affine-after-observed-direction-and-correct-incumbent-tie-assertion",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "metric_height159_complete_affine"
   ],
-  "goal": "Run only new complete-grid JVP, four-maxima protocol, error accounting and ninth-handoff development in public Actions; then restore the nine necessary prior stages once each and run one new complete-grid affine-e/f primary. Retain the same actual Field/H/reference, fixed g/b0, exact159-to163 map, original grids, all true hard gates, complete learned pools, capacities and real terminal SOC controller. Charge every new directional or selected-row derivative to the original active clock and keep all existing LP/value/time limits.",
+  "goal": "Reuse the directly read passed complete-grid direction group from run43727663245 with unchanged function and 104 dependency bindings. Correct the new array assertion to preserve the frozen earlier incumbent on equal repaired objectives, then execute only remaining development groups, nine necessary input restorations once each and the first new complete-grid affine scientific stage. No production solver, geometry, parameter or budget changes.",
   "parameters": {
     "source_bindings_count": 54,
     "scientific_source_bindings_count": 51,
@@ -68,7 +68,21 @@
       "m6_omitted_grid_error": 0.000015479290733866335,
       "m6_selected_curvature_failures_also_retained": true,
       "new_stage_has_no_preclaimed_improvement": true
-    }
+    },
+    "previous_development_attempt": {
+      "run": "43727663245",
+      "source": "45a12d31acd31733be329e38415766339031ebab",
+      "job": "132853059448",
+      "scientific_stage_invoked": false,
+      "restoration_stages_invoked": 0,
+      "completed_direction_group_observed_all_passed": true,
+      "remaining_failed_group": "four-convex-maxima-and-frozen-inner-protocol",
+      "failure_scope": "new test incorrectly required the later equal-objective incumbent; frozen solver and its truthful returned inexact flag were correct",
+      "completed_direction_function_and_local_helpers_sha256": "8a5fbdd87ed8eb8ffabd219b6337bb186f7d7fff63e075bef6f3ffe29a36922b",
+      "unchanged_recursive_dependency_mapping_sha256": "5616502af5dd600b0dc30d8349dd7d9e59bf2922722d58a84bed4ac66b4cd43b",
+      "unchanged_recursive_dependencies": 104
+    },
+    "new_development_scope": "reuse completed original-family direction checks; run corrected four-maxima fixture, unexecuted complete-error fixture, ninth-handoff and IO fixtures"
   },
   "jobs": {
     "metric_height159_complete_affine": {
@@ -229,8 +243,8 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_affine_spectral_audit.py": "a62c20944a66a04679a5ae4a156e2e64b4e9331d976125a3f23a1a2356a2df4c",
     "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_oracle.py": "ab81812f596cf3fc4f1c8d188aec785b289db2fb2c6959e32c2d69250faa91e9",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine.py": "4b64858cec01566e17c2530c8b95c5855d57820454c13dde3cc5aec215217346",
-    "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_development.py": "b40f6724261a8af8e6531b13a2694866e07c92b47651654f3f3549243b5ce2e8",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine_audit.py": "53fca85db35b39c16f2388c7d154536f125a9be8b78525e78b7cdec23f1980f8",
+    "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_development.py": "34694db773e3786b0e0d242bd31d90b846fbc0543e6361423ab74e6fa46de1f1",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine_audit.py": "df2987eaed54d50d2c56efe2c44eddf15f1c8e68d9c9f132f844d8e7b02d095c",
     ".github/workflows/visible-new-mechanism-continuation.yml": "cded03911b43bd2462213398bd39a595a3a1a7e137c2b4bbd19f79b8ae8067fb",
     "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "57510063341ab222e17fe058eb6d3b756bc5349b007ad10c25eb22196fc95268",
     "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41"

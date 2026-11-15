@@ -4,11 +4,11 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`bc3a2741b44743269f2566037ece8012ddef0180`；时间2026-11-15 14:30:35 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后实际pull/read `45a12d31acd31733be329e38415766339031ebab`，2026-11-15 15:03 UTC：run43727663245预检15:03:23，发布15:03:31—34另同SHA pull，精确秒未打印；双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 14:14:00 UTC实际pull/read `6eb7f1f968522b9aaa7b54ec8e41e16f6a13978e`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
+私有2026-11-15 15:03:27 UTC实际pull/read `dece04bc03915d3124624a9c963d743681fc7021`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
-真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。14:34确认本地环境再次unavailable，仅按根8小UTF8集成发布；API不冒实际pull，恢复即补实际pull/双规则检查。
+真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。15:03再试本地环境仍unavailable，仅按根8小UTF8集成发布；API不冒实际pull，恢复即补实际pull/双规则检查。
 
 
 ## 2. 完成门
@@ -23,7 +23,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159因子化首actual已消费**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16。三新开发过；η.266428586→.266398991、双网14门/准确盒过，11primary+1SOC/10新接纳，active43.32511秒；七恢复1175.76681秒独立。m5持B由m6真用但ratio.11484缩半，m8漏行拒绝。45/97来源/24输入全核；旧标签与首fixture失败原note保留，不授同点加速或重跑。
 
-**仿射谱actual与下一完整模型**：[首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，35新开发过；η.266419188→.266401179、双网14门/精确盒过，8模型/12LP/0SOC/7接纳，40cut/18+2值；active16.997316秒、八恢复569.558425秒分账，50/102源码与24输入全核。m6漏峰且已选曲率失败，m5 e/f非线性另欠，不授SOC新路径验证。[完整两网方向分离器设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已完成纸证：只用原全θ解析单方向JVP作粗细×±四个凸max，attainer才补原de/df切面，全rho初值/修复/旧incumbent保真；显式子类复用原outer/3inner/12LP/120s/40值/全部真门。四新源及接线已文本完成，54源码/98args/24输入准确绑定；仅改研究out。新增人工与九必要恢复一次/唯一新stage的首公共请求已提交，未预授passed/改善；全成本仍原12LP/120s/40值。
+**仿射谱与完整两网后继**：[旧首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰及已选曲率失败、m5 e/f非线性保原记录。active16.997316秒、八恢复569.558425秒分账，50/102源与24输入合。
+
+[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已实现四凸max/原全θ单JVP/真实attainer切面，冻结outer/原预算/真门保留。[首人工及修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31/job132853059448：方向6项过，array9/10过；唯一断言误把末LP gap当返回早期并列incumbent gap。生产未运行、零恢复，原失败保留。54/106来源合；只修新断言，源绑定复用已付方向组，继续未完成error/handoff/IO后九必要恢复一次及首科学；尚无新passed/改善。原12LP/120s/40值/3inner保持。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -57,4 +59,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 19f4c75e4de0c0f68a1c7630ffdc2e319e5d17fc，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main b0ea16dccf22279dcb9f1f3c63491b0a6edfa3bb，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
