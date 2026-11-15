@@ -40,7 +40,7 @@
 
 [119真实八批配方](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)已发布：wrapper b9db240d、recipee930b7c9/request7a99ec41/workflow66ba3f93；原family79464f9c/search e154afe2/reader3e2c0515逐字不变，81+wrapper+2pins、own24闭包。由117末六p起，最多8个独立原8方向批次，每批radius=.1显式reset，原20外档/12×20/full final全保。真child status/原summary读全才传末六p及本run/source/SHA；不传J/W/域。unit/full112原标志、零接受、非八方向预算stop或工程资源停止即退出编排，继续课题。批间3600s/step75/job90min，逐份原≤90KB摘要，incomplete诚实停链；已读批删raw、未读失败仅runner临时。待实际run。
 
-[非零112原合同](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)：amplitude新独立六系数/三odd固定、λ目标、453态薄入口已成稿，保112/高109/rawφ/当前H/native/finalJ/audit，不伪accepted；低三阈值不作开算门。新源待发布，准备120实际小正λ实验；真接受后全六设计冻结转450维same-g。
+[独立非零112薄入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35/interface1e714343已发布：六系数三odd固定/三p active，显式λA目标，完整453态/高109/rawφ/真当前H FD，原banded→core 8outer/17trial/RMS/BC/最终native J+audit。原client1cdf0e14可直接用01930f3b配置，无旧initialCheckpoint；4输入/2历史ready/78源需真实恢复。低三阈值不作开算门；amplitude接120 λ=.001实际实验，尚无run/结果。真接受后全六设计冻结转450维same-g。
 
 ### 110已完成；118补真实midpoint471
 

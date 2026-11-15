@@ -56,6 +56,8 @@
 
 [同g精化入口](notes/2026-11-14-same-metric-live-refinement-entry-and-current-gaps.md)已明确冻结所有scalar p、g、区间、尾帽、t范围；same-g v4置K=k=0/activep空/T=M。699节点二分至少1397再加knots，prepare/fullDN两个max_nodes均须充足。更高M或tailsteps不得偷用旧61种子冒同配置。精化误差须达到机器或原solver容差；真实未付接口按原源补齐，不重造旧求解器或增机器门。
 
+[新六控制非零112完整入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35已发布：固定三odd/三active p、显式λA、完整453态及全部高109、真实当前H原native+全J/原FD、原banded与fullDN函数体及全部final门。当前四数学输入不变，原client1cdf0e14/01930f3b配置无旧initialCheckpoint；两ready从真实历史env恢复。无需低三先达阈值才启动有限正λ尝试；120 λ=.001接线中，没有非零场接受结果。实际成功后须冻结最终六参数，不继承117旧域证书或宣称same-g。
+
 ## 3. 全t强C²、嵌入、reach与整像幅度
 
 [R279](results/R279-finite-field-direct-continuous-curvature-certificate.md)给同场完整一/二jet的连续曲率条件。R248强C²归约须真实连续seam/浸入；R241全参数块/法锥覆盖自交和double-normal瓶颈。条件证明不等于当前K、全场seam、sharedB/materialcut复合尾包络或真实全对覆盖已完成。

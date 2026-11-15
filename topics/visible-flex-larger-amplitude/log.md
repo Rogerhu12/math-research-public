@@ -165,3 +165,7 @@ run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，
 ## 2026-11-15 08:12:43 UTC /root — 发布119真实六参数的独立原八方向批次
 
 [完整接口](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)15186B/2d38b705、wrapper31337B/b9db240d/recipe1898B/e930b7c9/request39308B/7a99ec41/workflow14719B/66ba3f93已全文与原合同核过。原81+2 pins不变仅新wrapper，真实117六参数/来源逐字核，原24-source child/status+summary读全后生成ownrecipe，独立8批各radius=.1、所有原预算和final保留。工程90KB失败诚实停链；已读batch删raw、未读现场仅runner临时，不上传。H压缩117重复值至正式note，保全部执行责任；无本地科学。
+
+## 2026-11-15 08:14:23 UTC /root — 发布六系数三active的完整非零112入口
+
+[完整接口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)14657B/1e714343及source42683B/807f6a35全文与最后三处补读完成，核原core接受全流程/banded完整函数/complete_preflight/真实TailClient。六系数明确实公式与finite求和路径、λA目标/rawφ种子、同owner真实H FD、原所有行/17trial/8outer/final J+audit均保；不改旧v3来源或继承accepted96。原配置无initialCheckpoint，两ready历史env/78源责任明确。只有源/接口，低三阈值不作新增启动门；120实际λ=.001请求接线，未执行科学或预填结果。
