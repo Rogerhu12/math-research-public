@@ -1,10 +1,10 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成；无满足README全部门的完整候选。不得以阶段报告、时长或单次预算结束。** 会话`Astra-new-mechanism-9974ea84`。root独占Git/Actions；mechanism实际几何、tail_cost完整字符、literature固定圆/ruling。子题完成即接[open](open.md)，完整证明与实际见[results](results.md)，早期索引已按100KB限制分卷。
+**进行中，未完成；无满足README全部门的完整候选。不得以阶段报告、时长或单次预算结束。** 会话`Astra-new-mechanism-9974ea84`。root独占Git/Actions；并行推进实际几何、完整period与ruling。子题完成即接[open](open.md)，完整证明与实际见[results](results.md)，早期索引已按100KB限制分卷。
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 08:19:23 UTC实际pull后已读规则提交：`4e3708e4b6d2c9773d23c62c693240d16bdd2204`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 08:28:34 UTC实际pull后已读规则提交：`5660cc9b64495e7514d338a003405b4d68caad0e`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -18,9 +18,9 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**最新103 actual43691833140/source2f25b5aacea5664574c18aa795c662fdeede3eab/job132743956019成功，全部新科学已读。** 详notes/entry-body103-first-actual-result-20261115.md。一次growth→strip→SOC必要恢复为643875e4→267c41ff→ec76，未强求旧hash；新r=cap1/4000、streak0，只1LP/1两网试探/1接纳、0SOC，η .26651100522045557→.26651075196396212，末bfbd7465044bd742b48d731f0f381ef015e32fa0867b20442488be9bd9831b1a。全部原两网门过，.26未到；fineκ57.99998944仍在t.78、条带余4.39693e−8、镜像半径.10053334。外域t.7725峰.26651073136454873不动，余可降2.06e−8<1e−7，下一轮J/LP前准确退出。预测/实际比.925，步只用.03997r，非小半径/预算/求解失败；总降2.53256e−7未达1e−4诊断参考。60系数bitwise、外域六jet/全域b和中心全0差。固定b( .09)=1.043247、b²−1=.0883643：浮点必要量低于.26但提示将来须height方向，非本次锁峰原因。
+**103 actual已消费**：43691833140/source2f25b5aacea5664574c18aa795c662fdeede3eab/job132743956019，详notes/entry-body103-first-actual-result-20261115.md。1LP/1试探/1接纳、0SOC，η .26651100522045557→.26651075196396212，末bfbd7465；fineκ57.99998944/条带余4.39693e−8。外域t.7725峰.26651073136454873使下一J前退出：余2.06e−8<1e−7，非半径/预算失败。固定60/外域六jet/全b/中心不变；活动1.5756s、含三必要前缀全792.871s。完整J仍163，两网差非连续包围。固定b(.09)²−1=.0883643为浮点必要下界，低于.26但远1e−6，后续须原高度方向；不是103本次锁峰原因。旧SOC43687834522/sourcef03c4eb及96defect已结，不复跑确认。
 
-新阶段活动1.5756s/audit14.358s；准备778.513s/全792.871s，完整J仍163；末池4418/4053，原完整g/b0/永久c0不变。两网同态Xss差.006016784与metric约1.99789e−6均非连续包围。SOC旧actual43687834522/sourcef03c4eb及96defect已结notes/soc-equivalent-scaling-first-actual-20261115.md，不重算为确认。**立即后继：原剩余51个尾uv列加入103，154uv两块新尺度rB=1/4000/rT=1/32000，9height固定；完整原门与物理∞步成本，先纸证/开发后新公开Actions。** 不延103；所有临时前缀只各一次必要恢复、分账。
+**154两块首轮已审源码并准备公开派发**：原B103 r=1/4000，加T51 r=1/32000，原9height逐位固定、原163/g/b0/永久c0不变；支持(tc,tf)=(.036,.846)，.7725度量/.78曲率峰已可变。helper796d6498/lib650b4b0d/driver5d10b3b3，设计notes/same-g-entry-tail154-two-block-design-20261115.md。保原物理∞主步/L1修正、原单位残差/完整两网门；SOC是明确的新两块域，仅域内缩放等价。完整J不减列；新预算12LP/40value/120活动秒，每LP10秒。growth→strip→SOC→103各一次必要恢复，保实际合格末态/全学习池，不强迫旧hash，成本分账。新人工15数组/10库/8API/15driver全过；开发回执f5073019诚实绑定最后两元数据标签改名前lib25544668，公开check执行最终源码。98args仅输出名变，27源身份全核；只交源码/参数/run/SHA，输出临时。**首个真实154结果待读，不宣下降或完成。**
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -32,9 +32,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R223已给有限真实闭hook：M0、TκH非零、frame/新Klein位移闭合、整pure0、F8全0、全域h Morse。** 共同实际s端口h=h*exp(εσ²)、k/ω常，全部内部拼口/倒行/正H匹配；端速度0与M0付成本仍原U。原语九行IFT先保M/omega/frame，结构词保T，全增强E=(π,F8) IFT同时修Q/L/八flux；所有桥/正2V基准不删。固定ξ点值不造s点源，Duhamel后F8变分仍为光滑s密度；有限约束核仍可独立改点2jet；紧零集有限方向+C1低维投影给全h Morse，C2开性给每目标局部C1截面。**不授同g几何设计变化、mixed/ruling、嵌入/reach或有限等距族。**
 
-**第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211仅在G″紧支撑J且A_f正则或有限简单退化类给2 adjoint+7 Green矩、m累计flux的唯一同锚右逆；排flat/高重/无限零，未验本目标或同w ruling。
+**第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
-**R215与R217已区分真实固定圆不变量和λ+。** R215在正f′包的A_f0/q>0点，K_PR纯项0却flux=−8q⁵/45；全部全I光滑w的L_f通量0。实际Z±/同pure校正/Klein给同λ+>0而flux不同的两闭hook，至少一个period失败。R217在同类合法非对称轴导数圆上，以代数导子Df=x²f′−2xf保持E8/真实响应，K1=δK、K3=δ³K的左pair分别(8A*,0)、(B*,−96J*)，A*>0/J*≠0，故pure零R对两个左尾满射。给H_tail∈kerπ∩kerL且λ=1；四真实同λ/pure0闭hook左尾成非退化平行四边形，至少三条失败。δ不是实际projective变换；两/四几何一般不同g，不能扩成全部joint因子化失败。R219已付八个修正退化通量F_j：减准确平台Vd″端值消其他packet二次尾；K_PR的δ^0..δ^7皆单层右J，Nδ^nK=n(n−11)δ^(n−1)K给真Vandermonde满射R8。F8杀全部全I gauge且不能读λ；另左pair+任一F_j满射R3，未证十元组。R222已给整pure+F8的真实C1联调截面/零目标闭hook：E(R)=πR⊕R8、E(U)=P⊕R8，商仍Q；分组prototype先用真实D清pure基准，保全部mixed，再R212全pure截面和有限n收缩付F8。未证fullperiod/十元组；R223已保上述目标并兼容Morse，下一R224考察偶germ的完整even ruling商。
+**R215与R217已区分真实固定圆不变量和λ+。** R215在正f′包的A_f0/q>0点，K_PR纯项0却flux=−8q⁵/45；全部全I光滑w的L_f通量0。实际Z±/同pure校正/Klein给同λ+>0而flux不同的两闭hook，至少一个period失败。R217在同类合法非对称轴导数圆上，以代数导子Df=x²f′−2xf保持E8/真实响应，K1=δK、K3=δ³K的左pair分别(8A*,0)、(B*,−96J*)，A*>0/J*≠0，故pure零R对两个左尾满射。给H_tail∈kerπ∩kerL且λ=1；四真实同λ/pure0闭hook左尾成非退化平行四边形，至少三条失败。δ不是实际projective变换；两/四几何一般不同g，不能扩成全部joint因子化失败。R219八修正通量F8在pure零响应满射：平台值减项、δ^0..δ^7单层J与n(n−11)递推给Vandermonde。F8杀全I gauge/不读λ；左pair+任一flux另满R3，非十元组。R222已给整pure+F8的真实C1联调截面/零目标闭hook：E(R)=πR⊕R8、E(U)=P⊕R8，商仍Q；分组prototype先用真实D清pure基准，保全部mixed，再R212全pure截面和有限n收缩付F8。未证fullperiod/十元组；R223已保上述目标并兼容Morse，下一R224考察偶germ的完整even ruling商。
 
 **R216准确障碍仍保留**：h/k在一点1..4阶全零，同右锚/真实W2W3入值冻结给K″=2K_const，点二阶jet杀整个W和全部Bθw。标准R193原八包/已付光滑邻域全宽度失败；任意固定态仅继承R187共同充分窄化。R220 Morse几何已离此前提，但不自动支付非平点的新真实jet方程。R199新忠实圆不套旧正性。
 

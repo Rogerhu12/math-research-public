@@ -1,11 +1,11 @@
 {
-  "request": "same-g-entry-body103-restricted-primary-and-SOC-with-fixed-domain-floor",
-  "created_at": "2026-11-15 07:51:17 UTC",
+  "request": "same-g-entry-tail154-two-block-primary-and-SOC-unlock-tail-peak",
+  "created_at": "2026-11-15 08:23:29 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "metric_entry_body103"
+    "metric_entry_tail154"
   ],
-  "goal": "Run one genuinely new restricted 103-column stage in the existing 163-coefficient physical family and the same g/b0/c0. Restore the missing growth, strip-reserve and SOC-scaling inputs once each as necessary prefixes, preserve the actual qualified state and full original row pools, then explicitly initialize the new restricted trust at 1/4000 with cap 1/4000 and success streak zero. Keep fixed60 bits, complete full-grid original physical gates and original tolerances. Aggregate both soft branches on all exactly fixed outside rows into rho_out; retain inside zero-J rows; use original tolerance only for constant outside hard rows and the fixed height gate. Apply positive strip/curvature proposal floors only to the moving-domain selected rows. Preflight fixed-domain maximum locks before each new Jacobian/LP. Use the established exact positive SOC scaling only within this newly restricted array LP. Print fixed-domain/height lower bounds, complete gate and model tables, and actual total progress relative to a diagnostic 1e-4 reference without making that reference an acceptance gate. Recomputable outputs remain temporary.",
+  "goal": "From the same-job qualified103 state, move all existing154 u/v columns in two declared boxes: B103 radius1/4000 and T51 radius1/32000, with9 heights fixed. Restore growth, strip, scaledSOC and the original103 experiment exactly once each as necessary runtime input, never repeat to force an old hash. Keep same g/b0/original163 physical family, original coefficient boxes, complete learned pools and all original coarse/fine actual gates. Preserve the physical infinity primary penalty and physical L1 correction cost; project only LP arrays, not geometry Jacobians. The constant radial domain now begins outside(tc,tf), and true .78 curvature is variable. New phase uses the same12 LP/40 value/120 active-second budget, records complete two-block utilization, actual floor/residual/dual/defect and fixed-height/domain diagnostics, with no claim of continuous isometry or whole reach.",
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_restoration_rows.py": "eff06d6c2136b8b13fa86afe915352ee54e5aaae2c4c80551a08355cea2e1d4f",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_recovery.py": "ba3e2becec3ad750ef8818711d8034003f3077877d39115925c308d123dec9ff",
@@ -22,22 +22,25 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth_audit.py": "801f1c3038d54dec422e9d8e3bb1162105fc560374debb5bf83a8b38083be3e6",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve.py": "0d653e66947b95efe56e518e8bf4705076bc9ef687e5a596a1884b8367d22ae3",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve_audit.py": "4347bdc3afc2504b2a6546d41176e0e3a9e340533ee1eee16ff831257e149e38",
-    ".github/workflows/visible-new-mechanism-continuation.yml": "2c87cf2151755a4c6f8e8e404bb66695ede4c44241d714f2c421d1377e6292a0",
-    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "dbe4743700d8e60711dbf8a3e8dc50540cd0d3a364cb47ec87689b6b80aae8ca",
+    ".github/workflows/visible-new-mechanism-continuation.yml": "7b07d2a8e07c29c850ef2d86a79fe22f02791c3d33e8db9f874d0f4b5f00c0bd",
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "f4f54e81b150657807003ed9a2181d8792c4e5743efd9020b076274aa4f000b4",
     "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41",
     "topics/visible-flex-new-mechanism/scripts/frame_second_order_correction_scaling.py": "3b74cc8cc840aaece3aaf4c188728fffff4a7409289d65d1aba6aeb9e70ef98f",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_soc_scaling.py": "6e3ef11a7ee232436d609573de970a55be58858dac9364323383c37313a44958",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_soc_scaling_audit.py": "d09cd8b4e435d252aaa56b0a14f13dce69b6904597b8c4e4c75753d1fe670966",
     "topics/visible-flex-new-mechanism/scripts/frame_entry_body_subspace.py": "09f91a1d53c807ff58bb8862c7e7765cb21d09ca93bc0ccfc100f19ef446d022",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_body103.py": "7054eaa6466f5f5b8bdc8f595bbdd2b1747b2063908cfaecd506d74084a08fd3",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_body103_audit.py": "90a03cea625d73822183019df269c1bd8713a9c66aacb4adf54644719939413c"
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_body103_audit.py": "90a03cea625d73822183019df269c1bd8713a9c66aacb4adf54644719939413c",
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_tail_blocks.py": "796d6498de093d2a8ccc4090c3b9ff67205f8e652b93ad7427b37b96b08b6bf1",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail154.py": "650b4b0d65bda69be6ee672e79054466bdaeb7bdebdf830e4b9449c78a6a7c22",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail154_audit.py": "5d10b3b3ecc33c5dd97b7417705e02697710bde0ec51d64ff9ee0edb907e0345"
   },
   "jobs": {
-    "metric_entry_body103": {
+    "metric_entry_tail154": {
       "development": [
         "--check-only",
         "--out",
-        "@OUT@/metric-entry-body103-development.json"
+        "@OUT@/metric-entry-tail154-development.json"
       ],
       "research": [
         "--input",
@@ -89,7 +92,7 @@
         "--expected-feasible-curvature-sha256",
         "87945a59c206618ca2da5fe0b31f8a5961c1bef085704aa5bf27494c7daecf32",
         "--out",
-        "@OUT@/metric-entry-body103-audit.json",
+        "@OUT@/metric-entry-tail154-audit.json",
         "--fixed-target-audit",
         "topics/visible-flex-new-mechanism/notes/actions-43653520539-1-curvature_feasible_steps/curvature-feasible-steps-audit.json.gz",
         "--expected-fixed-target-sha256",
@@ -142,48 +145,33 @@
     }
   },
   "parameters": {
-    "native_summary_stage": "metric_entry_body103_stage",
-    "native_summary_filename": "metric-entry-body103-audit-summary.json",
+    "native_summary_stage": "metric_entry_tail154_stage",
+    "native_summary_filename": "metric-entry-tail154-audit-summary.json",
     "same_physical_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
     "same_height_reference_sha256": "d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5",
     "immutable_enriched_c0_not_replaced_by_any_selected_state": true,
     "physical_coefficients": 163,
-    "active_columns_half_open": [
-      [
-        0,
-        54
-      ],
-      [
-        81,
-        129
-      ]
-    ],
-    "active_singleton_columns": [
-      153
-    ],
-    "restricted_coefficients": 103,
-    "fixed_coefficients": 60,
+    "restricted_coefficients": 154,
+    "fixed_coefficients": 9,
     "fixed_height_columns_half_open": [
       154,
       163
     ],
     "exact_moving_domain": [
       "9/250",
-      "153/200"
+      "423/500"
     ],
     "both_endpoints_in_fixed_outside": true,
     "radial_node_classification": "exact Rational strings from the same grid, bound to its actual float coordinates",
     "original_full163_jacobian_and_original_row_ids_retained": true,
     "no_claim_of_reduced_Jacobian_memory_or_cost": true,
-    "primary_variable_count": 105,
-    "SOC_variable_count": 206,
+    "primary_variable_count": 156,
+    "SOC_variable_count": 308,
     "new_initial_trust_exact": "1/4000",
     "new_trust_cap_exact": "1/4000",
     "new_initial_growth_streak": 0,
-    "restored_fullspace_controller_recorded_but_not_inherited_for_new_restricted_stage": true,
-    "original_minimum_trust_exact": "1/102400",
     "physical_step_cost_coefficient_exact": "1/1000",
-    "effective_primary_weight": "(1/1000)*runtime_trust, multiplying normalized step infinity norm",
+    "effective_primary_weight": "(1/1000)*r*h with h>=s_i|z_i| and p_i=r*D_i*s_i*z_i; same physical infinity norm",
     "curvature_proposal_floor_exact": "1/10000000",
     "curvature_proposal_floor_groups": [
       7,
@@ -201,7 +189,7 @@
     "constant_height_gate": "original affine, reconstructed and consistency tolerances; signed tiny negative residue allowed only by original gates",
     "outside_soft_floor": "rho_out=max(0,max over every fixed-domain node on both full grids of both negative soft branches)",
     "outside_preflight": "use complete current two-grid value caches before each newly built Jacobian/LP; no extra geometry calls",
-    "SOC_scaling_equivalence_scope": "new restricted SOC array LP only, exact positive variable/auxiliary and power-of-two row scalings; not equivalence with full163 LP/controller",
+    "SOC_scaling_equivalence_scope": "only the newly defined two-block154 correction array LP before/after invertible positive variable and power-of-two scalar-row scaling; domain itself differs from old103/full163",
     "SOC_original_unit_max_residual": "1/10000000",
     "per_LP_seconds": 10,
     "new_target_eta_exact": "13/50",
@@ -222,7 +210,8 @@
     "necessary_temporary_prefixes": [
       "one frozen growth",
       "one frozen strip reserve",
-      "one frozen SOC equivalent scaling"
+      "one frozen SOC equivalent scaling",
+      "one frozen entry/body103"
     ],
     "prefix_and_new_stage_budgets": {
       "necessary_growth": {
@@ -240,7 +229,12 @@
         "max_shared_values": 40,
         "max_active_seconds": 120
       },
-      "new_entry_body103": {
+      "necessary_entry_body103": {
+        "max_LP": 12,
+        "max_shared_values": 40,
+        "max_active_seconds": 120
+      },
+      "new_entry_tail154": {
         "max_LP": 12,
         "max_shared_values": 40,
         "max_active_seconds": 120
@@ -263,12 +257,55 @@
     "single_top_level_stage_and_native_summary": true,
     "temporary_prefixes_outside_results_and_deleted": true,
     "complete_model_actual_gates_original_row_defects_duals_and_total_process_wall_printed": true,
-    "printer_extension": "none; unique stage auto-selected; new driver prints prefix and restricted-stage scalar tables",
+    "printer_extension": "none; unique native stage auto-selected, new driver prints four prefix costs and all block/domain/SOC scalar tables",
     "generated_output_publication": "temporary only; source/parameters/run/SHA and human conclusions under root README15",
-    "source_bindings_count": 24
+    "source_bindings_count": 27,
+    "active_columns_half_open": [
+      [
+        0,
+        154
+      ]
+    ],
+    "body_columns_half_open": [
+      [
+        0,
+        54
+      ],
+      [
+        81,
+        129
+      ]
+    ],
+    "body_singleton_columns": [
+      153
+    ],
+    "tail_columns_half_open": [
+      [
+        54,
+        81
+      ],
+      [
+        129,
+        153
+      ]
+    ],
+    "new_initial_body_trust_exact": "1/4000",
+    "new_initial_tail_trust_exact": "1/32000",
+    "tail_body_radius_ratio_exact": "1/8",
+    "restored_entry_body103_controller_recorded_but_not_inherited": true,
+    "minimum_common_body_trust_exact": "1/102400",
+    "derived_minimum_tail_trust_exact": "1/819200",
+    "not_a_claim_old_uniform_tail_minimum_preserved": true,
+    "SOC_radius": "r_c=(1/2)*max_i |p_i|/(D_i*s_i), cumulative y+w original box, |w_i/D_i|<=r_c*s_i",
+    "SOC_original_objective": "sum h_i with h_i>=|w_i/D_i| and 0<=h_i<=r_c; physical L1, not block-weighted L1",
+    "growth_utilization": "max_i |p_i|/(r*D_i*s_i), reported separately from physical norm",
+    "observed_body103_run": "43691833140",
+    "observed_body103_source": "2f25b5aacea5664574c18aa795c662fdeede3eab",
+    "observed_body103_physical_sha256": "bfbd7465044bd742b48d731f0f381ef015e32fa0867b20442488be9bd9831b1a",
+    "observed_body103_output_raw_sha256": "70caae17e8745dc790c2b98f08f8a0335f43c6dba38b7dea2b8751ae963ebb18"
   },
   "sync_private_rules": false,
-  "private_rules_note": "Root actual private pull and rule check 2026-11-15 07:31:07 UTC at 7d82f4fd0f51441985003c68c6e6204fe3c28311; root README unchanged, topic README absent, unique ongoing QUEUE. No personal token in Actions/API.",
+  "private_rules_note": "Root reported latest actual private rule read d0ef67071ceed1384297051b0f55fc3b48414eaf at2026-11-15 08:02:20 UTC, QUEUE ongoing. Root may refresh before dispatch; no personal token in Actions/API.",
   "publication_policy": "Source/parameters/run/SHA and human mathematical conclusions only; no recomputable result payload in repo, Release or artifact.",
   "completion_claim": false
 }
