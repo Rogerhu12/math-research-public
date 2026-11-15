@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 0e9b256d181270dc7ebfccb4fda46fd5e99839f0（2026-11-15 06:29:40 UTC，Actions run43685671636实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43685671636-1.json。
+- **最近成功实际 pull 与已读规则提交：** 882bb66452158dbd1e3cfe92c9d582303cdb6bd9（2026-11-15 06:31:47 UTC，Actions run43685838685实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43685838685-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -19,7 +19,7 @@
 - [23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)已严格仍23维；旧13核闭包/同D候选亦关闭，不重复。
 - p768的52/26/39个确定LLL基候选均全原核完、新增0；[最后39候选证明](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)保首次未完成及同格保基实绩，不再试格。原17式rank8/quad17及m0,m1的31单位精确消元已成，selected有限来源仍须运输；完整链接见open。
 
-- **[标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)**和[旧来源保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已付；**[同J支撑模31恰29维](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)**实际run43679903558/math1.575719778秒，外1834×1632秩1603、全外核及36自由像rank29，像恰slots0…28，新增六轴17/18/19/26/27/28；Q只上界29。正解原1603整子块、核全1834残差再运输全原式，不重4318位数。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
+- **[标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)**和[旧来源保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已付；**[同J支撑模31恰29维](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)**实际run43679903558/math1.575719778秒，外1834×1632秩1603、全外核及36自由像rank29，像恰slots0…28，新增六轴17/18/19/26/27/28；Q只上界29。先入同job原整数O的一/二支撑Q等价消元、保存完整逆代DAG与精确core（60秒/2GiB）；随后只解剩余单位块，核全1834残差再运输全原式，不重4318位数。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
 
 - **[Koszul的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)：** 187/17原单位子式给ΓΦ=I、直和与31饱和；成员性须核全6188及斜对称，投影不保J，不能把外核mod31当Q。
 
