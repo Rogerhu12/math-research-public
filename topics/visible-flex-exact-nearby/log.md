@@ -79,3 +79,9 @@ source312398be…26206B、CI97117632…18151B、原合同2a3d74a9…13281B、man
 新计算保97右输入/独立mean、末格Vcut^ex、same精确E产品的包络、全5970正负body缺陷、真实waist/BR只even97、全部V同源跳和独立cut。每32完整行不可变状态加latestprefix，320min科学/10min真pull，数学成功不被后续出版失败覆盖。原F/C/H/J/target/validator/ports不重算；无限cap高迹、GH、全ν仍另付。
 
 完整H9610B已归档notes/2026-11-15-handoff-before-full97-Poisson-deployment.md并压缩当前inner历史，不删任何失败或原native。两README核2edc897fb03cce0a1ba17665a018032982267aaf无变化；未达总门继续。
+
+## 2026-11-15 00:54:30 UTC — 严格外段实际11门结论
+
+root独立读取完整process（43892B，SHA256 bca94cb112df2f916935b002ed3c4ffd58ab6eea827f579d82c1864369308f4d）、worker（3206B，70b527dd6168b4f147530a42987c21c16468218ee1a0f278e1ea8377ca0642e9）和publication（4022B，7c40e4ddd40f864a2db336dd4b0543db6ea9c910fa9c0c1afc9a57b766c1fdd7），不经connector读取gzip。run43657793725 child0、11门齐，1328新系数导数/4359外段行，6个新部分端点权+4353个旧权逐字复用；全部旧target/forcing/fold/Taylor/seam重算计数0。数学1355.98521484秒，worker1356.677235266秒。七自然文件与index原SHA发布；R.001负/正local只获粗upper4.691836e21/1.150755e22，保完整normalized f/fρ与角导。b*根值剥离、完整非local、真seams和正端口继续，未授强返回。
+
+真实runner pull 00:22:33.133115与00:45:16.938393，两README差异皆空；最新真pull至97f93fd585302d68f0f459ec2090e0005bbbb55e。当前只读README核9ddaad2e6ac75d706f0da9b1d22764f33f2691c6，两blob未变；本机CLI仍不可用，遵根规8小文本例外。actual报告独立推送，随后仅补缺失intrinsic10..15。

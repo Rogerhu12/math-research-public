@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：严格外段首Airy修正导数与local全六窗实际通过。** [actual](results/R133-supplement-actual-strict-exterior-first-Airy-derivatives-and-local-sources.md) run43657793725 child0/11门，1328新系数导数+4359外段积分行，0旧数学重算；7自然数学文件完整发布。R.001负/正local upper4.691836e21/1.150755e22，完整forcing/导数和mean输入保存；粗upper不授strong return或cutoff，继续b*剥离和完整非local。
+
 - [完整四重周期帽—长段图与真实B均值反馈](results/R133-supplement-complete-fourfold-periodic-cap-long-graph-with-true-B-mean.md)：B1–28去共同反射限制，真实B0及其L2导数保留，原完整入口球不缩小；单一cap map同时闭d/B0/c0、反馈<.9，径向角规范与位置周期完整。原ac物理帽新增Bmean列后χ<.821；waist/charge、强源、ν和最终族仍另解。
 
 - [内窗实角局部源的实际11门](results/R133-supplement-actual-real-angular-inner-first-Airy-local-source-bounds.md)：43659519776 child0；71pin/原64pin不变，2新stage/4changed-local积分，0旧数学重算。负完整源upper10602457152、正3219480409，原非local/mean逐字保；仍未授strong return/cutoff或全ν门。
