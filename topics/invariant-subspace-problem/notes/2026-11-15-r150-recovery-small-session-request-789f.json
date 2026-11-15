@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "391f90372f1f2eed07b1fca0a8808c44f2738c0f",
+  "rulesReadAtCommit": "d6caf110237dc1223bb7fc9b0d3c65757b21a119",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -864,6 +864,24 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/selected-natural-second-left-normal-four/selected-natural-second-left-normal-four-receipt.json"
+    },
+    {
+      "id": "zero-sixth-checkpoint-inventory",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-sixth-temporary-checkpoint-inventory-789f.py",
+      "scriptSHA256": "d485f9ea6a21e708927c2e60b1b68c4fab1f6ac8f34a7a1c8aaef0b47a706bca",
+      "sources": [],
+      "argv": [
+        "--checkpoint-dir",
+        "{work}/zero-sixth-full-source-checkpoint",
+        "--prepared-cochain-dir",
+        "{work}/zero-sixth-preparation",
+        "--out",
+        "{work}/zero-sixth-checkpoint-inventory.json",
+        "--remaining-seconds",
+        "10"
+      ],
+      "timeoutSeconds": 30,
+      "receiptPath": "{work}/zero-sixth-checkpoint-inventory.json"
     }
   ]
 }
