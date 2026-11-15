@@ -13,3 +13,7 @@
 ## 2026-11-15 14:47:43 UTC /root — R335真实154完整曲率结果
 
 [R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)全文已读即发：run43724606619双job success，8方向70直线trial/8接受/62merit拒，normal回退0、域异常0；全54二阶及原108一阶FD有效，十literal数组同149，92组887段完整重建。仍微降而全finalfalse，大提案深回溯，完整原值/后缀/身份正文保；157继续全九维残差二次模型平方、原门不减。API核fde448ad09589fcc120e2a83bd02a52413572c1c双README未变，真实pull记录保留，终端恢复后补pull。
+
+## 2026-11-15 14:50:23 UTC /root — request155完整37查询实际入口
+
+[155接口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)十件源/参数及全部差异读完即发：fresh actual98、原35加MID489/490，24cells/29端点/B9805/75776行及全H/outside保；91pins/原8真model和FD/17档/merit/域不改。修正读回前移动status的具体缺口：完整print后才move，always补真实parent-after status；science175、job195含10分钟读回。request4349e1b3/recipef8a38247，尚无实际结果；API核6bc5dc537fd2597b210f9a606afb6a664aa0ab9b双README未变，不冒真实pull或末稿本地AST。

@@ -1,0 +1,192 @@
+{
+  "request": 155,
+  "schema": "thirty_seven-real-pair-batch-continuation-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "purpose": "Independent37 trajectory from the recoverable actual98 original31 pair. Retain all original35 grids and add full MID489/MID490 including actual capture489/490 and endpoints489/490/491. Reform complete A/weights/B/C/H/g per model; keep270,512/200,all17 original trials, nonlinear domain/merit gates and fresh FD. Actual141 is selection evidence only; no deleted warm is resumed and no larger step, convergence or QP optimum is promised.",
+  "source_entry": "geometry_20261115_thirty_seven_temporary_batches.py",
+  "source_sha256": "0e5ded8435cd31b7dbedb31dc15a36239ca946f80a346c0c5104cb703f86a89d",
+  "base_request_file": "public-thirty-seven-model-recipe.json",
+  "base_request_sha256": "f8a382475b48cd322b4f44c6a34047fe0552b14ee38832c99924edd08c5156ea",
+  "declared_original_source_pin_count": 85,
+  "declared_independent_orchestration_source_count": 1,
+  "original_parameter_manifest_count": 1,
+  "maximum_batches": 8,
+  "chain_budget_seconds": 10500,
+  "outer_science_step_minutes": 175,
+  "job_minutes_including_setup_and_cleanup": 195,
+  "between_batches_budget_does_not_rewrite_any_original_atomic_budget": true,
+  "original_one_model_1200_seconds_and_fresh_FD_kept": true,
+  "outer_operational_timeout_not_reported_as_scientific_acceptance": true,
+  "reference_first_batch": null,
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "initial_parent_artifact": {
+    "run_id": 43677587785,
+    "artifact_id": 14147700690,
+    "artifact_name": "visible-followup-condensedqp-43677587785-1",
+    "expected_size": 809042943,
+    "expected_sha256": "9917774d965e86b0a8d46677a1f54c0fb23fc8fa61a67cbab998e7493d33151a"
+  },
+  "initial_parent_source_commit": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+  "initial_parent_warm": {
+    "file": "warm-001.json.gz",
+    "bytes": 4927052,
+    "sha256": "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
+  },
+  "initial_parent_status": {
+    "file": "driver-status.json",
+    "bytes": 3379453,
+    "sha256": "b7ad389fad867fecf85edc4313145980d6e8686f207acf781ff6a050e7eae6ff",
+    "original_JSON_not_reserialized": true
+  },
+  "initial_parent_schema": "exact-constraint-thirty-one-query-condensed-complete-H-warm-v1",
+  "query_recipe_is_frozen_original_base_request": false,
+  "actual_query_changes": [
+    {
+      "kind": "collocation-midpoint",
+      "interval": 489,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 490,
+      "fraction": 0.5
+    }
+  ],
+  "native_or_full_DN_requested": false,
+  "original_source_FD_RMS_BC_and_acceptance_thresholds_changed": false,
+  "temporary_pair_lifecycle": {
+    "retain_only_real_current_pair_between_batches": true,
+    "fresh_original_FD_before_next_batch": true,
+    "parent_JSON_or_gzip_reserialized": false,
+    "status_identity_or_old_producer_relabelled": false,
+    "delete_consumed_batch_data_and_previous_pair": true,
+    "final_owned_payload_removed": true,
+    "raw_artifact_uploads": 0,
+    "Release_uploads": 0,
+    "Git_data_publication": 0,
+    "ephemeral_Actions_Git_object_cache_not_erased_by_wrapper": true,
+    "complete_original_trial_JSON_printed_before_cleanup": true,
+    "complete_semantic_stream_above90000_bytes": true,
+    "incomplete_single_frame_not_misreported_as_complete_single_frame": true,
+    "surviving_interrupted_batches_readback_before_workflow_cleanup": true,
+    "original_failed_child_log_bytes_streamed_without_tail_only_omission": true,
+    "exception_keeps_unread_directory_until_always_readback": true,
+    "complete_original_trial_readback_precedes_pair_move": true,
+    "surviving_parent_after_status_trials_readback_before_cleanup": true
+  },
+  "rules_monitor": {
+    "unchanged_source": true,
+    "current_baselines_explicitly_loaded_from_reviewed_README_bytes": true,
+    "original_2700_second_pull_rebase_diff_and_stop": true,
+    "merge_stat_disabled_only_to_avoid_historical_deleted_blob_diffstat": true
+  },
+  "declared_base_recipe_source_pin_count": 90,
+  "declared_new_query_and_readout_source_count": 5,
+  "declared_total_explicit_source_pin_count": 91,
+  "current_optimizer_schema": "exact-constraint-thirty-seven-query-condensed-complete-H-warm-v1",
+  "first_input_and_current_output_schema_are_distinct": true,
+  "query_change_reference": "frozen original35 query model",
+  "query_changes_from_initial_actual98": [
+    {
+      "kind": "left-RMS",
+      "interval": 463,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 471,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 472,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 483,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 489,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 490,
+      "fraction": 0.5
+    }
+  ],
+  "added_capture_intervals": [
+    489,
+    490
+  ],
+  "added_capture_nodes": [
+    489,
+    490,
+    491
+  ],
+  "unique_capture_interval_count": 24,
+  "actual_query_endpoint_count": 29,
+  "complete_B_local_coordinates": 9805,
+  "baseline_C_support_dimension": 4059,
+  "query_recipe_is_independent37_from_original35": true,
+  "actual141_final_payload_used": false,
+  "actual141_replayed_before_new37": false,
+  "actual141_selection_evidence": {
+    "result": "results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md",
+    "result_bytes": 20339,
+    "result_sha256": "cb466cc33809fe434c7f11e43da505154a9f783e46a13d5866b6efe4dbcc9dce",
+    "run_id": "43712613111",
+    "source_commit": "a7ce55798404fec8fb3638c0fbf083250c5363b2",
+    "compute_job_id": "132807257922",
+    "complete_model_FD_pairs": 8,
+    "original_trials": 27,
+    "original_acceptances": 8,
+    "original_rejections": 19,
+    "batch6_nearest": {
+      "alpha": 0.5,
+      "failed_unselected_midpoint": 489,
+      "beta_squared_minimum": -0.013450511611294402,
+      "all35_selected_negative_angle_counts_zero": true
+    },
+    "batch7_nearest": {
+      "alpha": 0.0625,
+      "failed_unselected_midpoint": 489,
+      "beta_squared_minimum": -0.0002213943346252023,
+      "all35_selected_negative_angle_counts_zero": true
+    },
+    "batch7_larger_original_trials": [
+      {
+        "alpha": 1,
+        "mid489": -0.028913520835021078,
+        "mid490": -0.04137293008933174
+      },
+      {
+        "alpha": 0.5,
+        "mid489": -0.01020692375812482,
+        "mid490": -0.028694435800344698
+      }
+    ],
+    "selected_LEFT463_LEFT464_MID471_MID472_nonlinear_failures_still_recorded": true,
+    "all_linear_reserve_slack_nonnegative_does_not_prove_nonlinear_feasibility": true,
+    "final_finite_posterior_stationarity_L2": 20152.641542749137,
+    "final_R267_quadratic_raw_float": 2785.5209955455302,
+    "finite_QP_posterior_is_a_separate_unresolved_responsibility": true,
+    "original_stop": "explicit_maximum_batch_count",
+    "last_summary_bytes": 36078,
+    "last_summary_sha256": "8831e1521195c120b0a4b7beba1abd162cb072477f327fce232297cf4f941e05",
+    "deleted_final_warm_sha256": "104ecd329eceebed5558750cab3ed9c9fecce9779f9ca1b782b7d6fe04a42168",
+    "deleted_final_status_sha256": "6102a5193f331d09581651649c0bb3b7666a9ba091521ba0fdf5baa00e3503d9",
+    "evidence_only_not_a_current_parent": true,
+    "no_parent_reconstruction_from_hash": true,
+    "no_larger_step_convergence_QP_optimality_or_native_acceptance_claim": true
+  },
+  "readback_only_minutes": 10,
+  "extra_job_minutes_for_lossless_error_and_trial_readback": 10,
+  "original_model_and_FD_science_step_minutes_unchanged": 175
+}

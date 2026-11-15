@@ -54,7 +54,7 @@
 
 [R309 actual130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)已付7model/FD、33trial/26拒及规则exit77，第八未知不补。141完整35保原33加LEFT463/MID472，22capture/26端点/8791local/C4059/outside/236036及原门，实际如下。
 
-[141 R333完整实际](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579、job132807257922全success，8model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。已选LEFT463/464、MID471等真实非线性仍失域，所有71680线性slack非负不替原域；后两批未选MID489/490，末五拒所选35均合法，最终仅1/32接受。512行/200dual后验仍有大值，不冒QP最优。8摘要/全部试探/FD/原pair/规则SHA正文保，原末场已清。155明确从actual98另起独立37新轨迹：21LEFT+16MID、24cells/29端点/B9805/75776角行；完整10件恢复源身份见HANDOFF，原8真model/FD及全部门保。不伪接141或只改标签，不承诺大步。
+[141 R333完整实际](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579、job132807257922全success，8model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。已选LEFT463/464、MID471等真实非线性仍失域，所有71680线性slack非负不替原域；后两批未选MID489/490，末五拒所选35均合法，最终仅1/32接受。512行/200dual后验仍有大值，不冒QP最优。8摘要/全部试探/FD/原pair/规则SHA正文保，原末场已清。[155完整入口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)十件已发布：fresh actual98新37、24cells/29端点/B9805/75776角行，原8真model/FD及全部门保。完整trial先读再搬pair再清，always另读移动后status；science175不变，job195含读回余量。尚无实际结果，不承诺大步。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)已证明原正域等价于a>0及P=a²|d×e|²−ν²|d|⁶>0；准确仿射查询的完整八次多项式/Bernstein可支付闭步长区间，真实Hermite/RMS另保端点RHS全缺陷和乘积误差。所选一阶合法不推出真实域；有限角不冒连续角。当前37的系数/二阶界未计算，不替原trial/merit或加155前置门。
 

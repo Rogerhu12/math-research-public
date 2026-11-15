@@ -190,3 +190,5 @@
 - [R334：原角域八次余量与真实Hermite缺陷传递](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)（已证明，准确代数与条件包围）：原严格域等价a>0、a²|d×e|²−ν²|d|⁶>0；仿射完整八次、Bernstein闭区间及真实RHS余项的显式乘积误差。未计算当前37系数/缺陷界，不替原非线性域或新增前置门。
 
 - [R335：实际154完整九维二阶曲率与70次直线试探](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)（实际Actions有限诊断）：8方向70trial/8接受/62merit拒，无域异常、normal回退0；初末新增54二阶FD及原108一阶FD有效、十literal数组同149。全finalfalse，大负曲率提案仍需深回溯；完整70行/FD/身份/未访后缀已保。残差二次模型平方的三/四次项只作明确代数依据，157另检实际。
+
+- [Request155：真实98新37查询、完整支持和逐原trial读回](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)（源码/参数入口）：保原35加MID489/490全角，24cells/29端点/B9805/75776行及全236036外部响应；91源pin、原8真model/FD/17档/域/merit门。全部trial完整读回后才搬pair/清理，异常读batch与parent-after原status；未预填实际155结果或新接受。
