@@ -123,9 +123,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### Norm-memory首实际已付，下一同trial扩池与完整SOC重绑
+### 扩池SOC首次完整实际已付；新分支未触发，续既有失败点可恢复性
 
-[第一次完成实际](notes/norm-memory-first-actual-result-20261115.md) run43741276060/c30e7ea：准确同物理159/163/g/b0/H，明确新行池；12旧开发复用、0旧optimizer。11模型/12primary/0SOC、8接受使两网η.266381717617→.266366277975，原14门/精确盒过，fineκ57.999993600，.26仍未达。bank原ID/单位球方向7→9，每中心现算e/f/J/trust，无旧A/b；active38.005s而process159.689s，112.835s audit非active差未细分。m1/5/10先因新行退回，m5/10只是metric soft新增但已有曲率行产生真实非线性违约。下一明确新算法应保原failed trial和总步，对扩池原base/J/primary重绑后才SOC；不能跳过layout guard、改g/原门或只补预算重复。[完整11模型/费用诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付：83重建/85各模型末/92各LP携带行，实际新方向2；12LP3.263s、完整方向11.500s，112.835s非active差不补猜。[扩池同y SOC完整合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)已付：冻y真视图/以实际d=y−x回验，回x扩池重建全base/J/primary/complete binding，不求第二primary；原scalar RHS与full预测分账，调用前记LP，原12/40/120。新行历史不洗/不授hold，主与rebound报告分开且rho0按真源覆盖；再扩池不递归。五新源、119源/请求绑定及独立workflow已发布，十个新增接口与一次新actual只公开Actions；旧112依赖/十二人工/完成运行复用。source cfg严格不改以保原bank上下文，最终model binding在两层factory之后才生成。首43744268876在新fixture试图写原只读rows时停止，十项无完成回执、transfer/科学0；[失败记录](notes/expanded-pool-SOC-first-development-readonly-fixture-failure-20261115.md)及仅可写副本替换/恢复修复即发续未完首次任务。生产/原预算无改，等实际消费，不宣SOC效果。
+[run43744903357首次完整实际](notes/expanded-pool-SOC-first-actual-result-20261115.md)：十新检查过、117/119依赖逐项同；source cfg不变，完整reference163/final159/physical163、两池/controller与9方向07a1f00…准确续接。7模型/7接受、9primary+3原same-layout SOC=12，η.266366277975→.266347520761，fineκ57.999988521、原两网硬门/盒过，.26未到。新expanded rebound records空：没有失败primary学新行的入口，下降不能归新分支。m2/m6原17hold真，m3接受修正后fine新1拒hold，m7primary接受后fine新1；不洗学习历史。末bank11/B1/8000/streak0；22+2值、active29.836s/process164.992s，初始ordinary105.456s和recovery含首J47.770s分账，非受控加速比较。
+
+[原norm十一模型](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)的m5/m10曾有失败full primary与新soft行。下一只读既有log检查其完整x/y/两池/实际d是否精确可恢复；若有，首对该既有失败点应用新rebound而不重跑primary，若无指出缺失。不可只延预算等待触发。原[扩池合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)仍要求同x/y新池/完整binding、原scalar RHS与full预测分账、调用前LP账/原12/40/120/原17guard，新旧报告精确对应、真双网验收。生产效果尚欠；首只读fixture失败及最小修复保留，旧12/optimizer0。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门

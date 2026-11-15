@@ -313,3 +313,10 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 [R342首次实际](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)：run43745111286/job132906586198/sourcef9f4030bfea092d5dfd82cf1989a0e13e73c1cdb成功。10新增人工全部过；只读四个原mixed−2根，准确求预定uλ=t8(1−t)8[1+λ(2t+3t²+5t³)]下A=N⁷G+315R0/32+315R2/16−315R3/32的整Q[λ]总通量，非零系数表为空，无见证。真实同锚常数/各层支持检查保，非仅六点浮点零。新观察3.664958819秒、1,232,486有理乘积、最大169bits/λ5/t86、RSS51272KiB；旧根编译/旧开发/成员秩0。
 
 准确结论仅Ωuλ(A)=0对该预设一参数C7族；不能推任意C∞ profile、全U−6或完整period。原R338响应消去和R144非成员仍真。runner报告6458B/SHA256fafb8df1127d9a675db9fe265cb3aa972f8212410ac5ad3eabd404384b33a36f，原log71466B/27f5423ad25625325d2dbe502edf82c5a9f7b4eb1451f0af6a84032d5b506ff1；无payload/artifact提交。继续普遍Green尾与成本泛函结构。
+
+
+## 扩池SOC首次完整实际：精确续接和七次接受，新rebound生产调用为零
+
+[首次完整实际与费用](notes/expanded-pool-SOC-first-actual-result-20261115.md)：run43744903357/job132905938795/source5fa2424成功；10新人工过，117科学源对119请求117/117同，source cfg不变，完整原159/163/reference/两池/controller与9方向bank07a1f00…在首LP前精确匹配。7模型/7新接受、9primary+3原same-layout SOC=12；两网η.26636627797457657→.26634752076125723，降.000018757213319342547，fineκ57.99998852110966。原硬门/盒过，原height微负按既有1e−9容差保；.26与README目标均未达。
+
+expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不能将下降归因该机制。m2/m6原17hold全真，m3接受后学fine新行仍拒hold，m7primary接受后学行；三SOC均原路径。末B1/8000/streak0，bank11；22+2值，active29.836149961s、process164.99187472s，初始audit105.455902887s和recovery含首J47.769714229s明记，非受控提速。原COMPLETE829044B/SHA256664b1bc5ddf7d278d61a78a36c712395f850109bfb967f5fe1df6a769b224b07；原log3194767B/14cafc198a1df4e7de2882994b37b9dffcf4284daacc49c670a9f65240926c3d。完整下一checkpoint仅runner，0旧optimizer；继续消费既有失败点完整状态的可恢复性，不简单延预算。
