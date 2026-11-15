@@ -12,11 +12,11 @@
 ## R150 已证与真正缺口
 
 - 原A4367×6188、泛rank4354；同选I,J各4354/总权8770，常rank4318/核36。完整前三连接3/9/3，第二24/第三21头；已成17真第三/296072原产品。完整β4∈[3,5]，λ4未造，来项15缺2、第三21缺4。
-- 同选D∞≥130、全部cofactor/原来源换列≥125。K139=s66(s−2)9(s+6)12F+⁶F−⁶E8²，deg139/lc5^14是31单位；q8388…8501，三费8545/8550/172、统一条件8550。**原h0九目标全局Q[s]成员性仍是前提**。同D leading31单位未付：真Q v∞130…243，等于243才单位；degD8527…8640。
+- 同选D∞≥130、全部cofactor/原来源换列≥125。K158=s66(s−2)12(s+6)12F+⁶F−⁶E8⁴，deg158/lc5^16是31单位；q8369…8482，三费8526/8531/172、统一条件8531。**原h0九目标全局Q[s]成员性仍是前提**。同D leading31单位未付：真Q v∞130…243，等于243才单位；degD8527…8640。
 - [零点与旧泛型像回接](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已闭：全正谱1⁴,3,4³,5,6,7,8,10,11，δ66/次大55/max11；全九s³t_j在原局部像，t2消去理想恰s³。β1…11及965328原产品保正式稿。末端jet非零不否泛型像，不再第十二。
 - 两端原全常rank4340/14正Smith。[原完整∞第三](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)已付β1=4/β2=0/β3≤1、δfull≥43/次大≥39；不能只记首两页，也不能搬zero谱。
-- [局部差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：T=W/(L∩W)，W=(I²)≤5，lenT=δA−δP；差≤e即t^eW⊂L。170原行+54g倍行保全6188来源，g零点只除η单位；E8²先剥31碰撞给2点full≤30。
-- [负六全闭](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：P/full正谱1⁷,2,3/长12/max3，W全在原局部像，九目标无需s+6。[2点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)实4.637497190秒、正谱亦1⁷,2,3/长12，但full仅12…30，T长≤18；不证明亦不否定h0一阶够，已转原W/九目标而非提高同P阶数。
+- [局部差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：T=W/(L∩W)，W=(I²)≤5，lenT=δA−δP；差≤e即t^eW⊂L。170原行+54g倍行保全6188来源，g零点只除η单位；E8⁴先剥31碰撞现给2点full≤28。
+- [负六全闭](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：P/full正谱1⁷,2,3/长12/max3，W全在原局部像，九目标无需s+6。[2点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)实4.637497190秒、正谱亦1⁷,2,3/长12，但full现仅12…28，T长≤16；不证明亦不否定h0一阶够，已转原W/九目标而非提高同P阶数。
 - [Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)：O1834×1632常rank1603/29正指数，tors cokerO注入同B。Fp31最大≤21/总长≤243，Q仅总长≤Fp总长。D≥δfull+σ、cofactor≥δsub+σ−amax、换列≥δfull+σ−amax；真Q δfull+σ≥243才付leading单位。新O未出数值。
 
 ## 已结束旧session与最小恢复
@@ -29,10 +29,10 @@
 
 - 新local run43731613530（15:45起45分钟循环/55分钟job）；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json，已修每次非快进重推前mkdir。旧run43729338969失败中未推F+按用户要求真实重做成功，F−亦完成。
 - [F±完整局部结论](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)：真三次数域低谱各3,3/长度6/自由9，低jet加4exact纯核注入原完整P，得6≤δP≤δA≤8、T长≤2，六共轭点F±²W及原h0九目标均已付。数学9.738919457/10.510911032秒；raw15732B/19c6a404c77dd26afb59da72fbe7219c477c8a7e86602f725030bf887f0ddd4b与15793B/06db12970af9b8f791f734e113b87d4ccf18947fab17fa6384dcac37ade670ba。不是完整P/full精确谱6。
-- E8旧regular408×288在205秒外限前只付原嵌入/Taylor、无Smith。新真Q[α]/E8小域源码1284314ed2b1a8597bdfa38b855d8b14132fe0ec（SHA54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c）已根审并排300秒/2GiB/order4，同out e8-true-field-schur逐单位解/全部26×5余量核，immutable数组加原子ledger可续。lower≥4足h0，≥5足全W，未预填。
+- [解析双Dlin与E8局部](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已闭：真实51行经单位变换降27行/24零行，M2整提升不除g，底H⊕H的有限coker满射给δS≥2v(Dlin)。E8得4≤δP≤δA≤5、T≤1、E8W及九h0目标局部来源，全八共轭点覆盖；没有报exact4/5。原2点上界降28/T≤16。新真小域1284314e…/SHA54f88bdb…仍实际300秒/2GiB/order4争取精确谱，out e8-true-field-schur；immutable数组+原子ledger可续。
 - 新full∞ run43731615668（15:45起45分钟/55分钟job）只核6历史输入。manifest notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json，blob00c4da90…/SHAf845995bd1bce3410baea46ec968892621a48465aad62092798f372b7d6f00e8；历史commit8c6304e273e64b0544d3dd58bc0e48a672a87c36。
-- full27已根全文审native95288d6d…/runnerb03a36b7…/两headers/完整接口，排180秒/1GiB/compile30/degree21。4340常单位transpose DAG保全部6188来源，27原dual jets和1848×27全Schur，完整14正指数/13形式核须真实付齐才报。参数在full-infinity-dual27-small-session-request；临时逐完整degree原子checkpoint。新结果为F31，不冒充Q谱或selected leading单位。
-- O改为primitive/native/小selected来源4输入独立恢复真实1603单位/29核，旧Q profile不再可用；尚未新执行。全局h0仍余s=2、E8及未知异常支持；解析Dlin→低投影长度结构正在审，未据Dlin直接封全部非线性支持。
+- full27首次compile6.793秒/native2.421秒退出1，4433原系数真，但all3333 prebasis identity断言失败；无新jet。已定位旧F/B只消同m次数，真实A0仍有严格降次数pre尾，须按原pivot顺序单位三角消去并保完整伴随尾；代理正在修，不能删校验后当通过。失败raw4291B/81a8881e81d2eb0fdcb59a59851866c58e5038b319624436612471fde4aca73c。
+- O最小新入口00f07c8b…/SHAc4b92e5d…已根审并排fullsession：只额外git show原8c6304中75700B selected小回执（SHA5cd9543d…）至tmp，接原native/primitive/paid32，真实F31选1603单位/29核/126643产品，180秒/1GiB/0…21。没有依赖旧Q数组。全局h0尚余s=2和未知异常支持，Dlin低长度不单独封全部非线性支持。
 
 ## 原同w边界：正交旗后继续真正返回
 

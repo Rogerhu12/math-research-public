@@ -1,6 +1,6 @@
 {
   "format": "isp-full-infinity-dual27-minimal-session-request-v1",
-  "rulesReadAtCommit": "442f3d16a9b914154e8b81bc61597d650044fd61",
+  "rulesReadAtCommit": "536620263bbd033979bdc4d3a5b0f657d4b58a8c",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -131,6 +131,53 @@
       ],
       "timeoutSeconds": 250,
       "receiptPath": "{work}/full-infinity-natural-dual-schur/full-infinity-natural-dual-schur-receipt.json"
+    },
+    {
+      "id": "koszul-outside-restore-selected-original-receipt",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-outside-selected-historical-receipt-prepare-789f.py",
+      "scriptSHA256": "43f0b8a77f724098ab53afa9e9f283170682d029e10b7a34e208831fcdb930f7",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json",
+        "--receipt",
+        "{work}/outside-selected-receipt-recovery.json"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/outside-selected-receipt-recovery.json"
+    },
+    {
+      "id": "koszul-outside-minimal-original-field-through21",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-outside-minimal-field-smith-selector-789f.py",
+      "scriptSHA256": "c4b92e5db24165f2d0e1f36f20759a9554239c2aaba84f73984e154604e7f161",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+          "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{native_model}",
+        "--primitive-equations",
+        "{primitive}",
+        "--selected-receipt",
+        "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json",
+        "--paid-schur-summary",
+        "{scripts}/43702348535-selected-natural-u-minimal-rebuild32.json",
+        "--out",
+        "{work}/koszul-outside-minimal-field-smith",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024",
+        "--maximum-degree",
+        "21"
+      ],
+      "timeoutSeconds": 220,
+      "receiptPath": "{work}/koszul-outside-minimal-field-smith/koszul-outside-minimal-field-smith-receipt.json"
     }
   ],
   "mathematicalProgramStatus": "Root-reviewed complete original dual27 consumer queued; no new Smith values preset."
