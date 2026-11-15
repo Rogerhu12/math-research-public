@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SP：完整 primitive 与均值的严格负区传播](results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md)：对同实 fullδ 显式背景，用 $y=IT(q)h,z=\Pi T(q)h$ 的两状态建立真正 L2 正反能量，$\sqrt q$ 权精确付径向曲率成本。完整 ordinary 源、affine jumps、两均值、N 输入及 waist 的真实 $n_g/q$ 因子均保；旧3071 H1四态流不被重新标作此算子。解析合同根与独立代理核完，新的两态实际标量门待公开Actions。
+
 - [LC：既成局部组件与高频 collar coercivity](results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md)：原4650完整保存的 U/V/nonmean/fullmean/Smean/drift 给逐分量 P 界，保连续修补、selected差和未知C0球。准确平方能量先吸 L/(a n)，再检 cp#AH/n，成功才给完整高输入吸收与半阶迹；十二候选实际门待公开计算。Root、phase全文及来源独核，旧源/积分均不重算。
 
 - [RW 实际六组加权帽后验与完整左端接收核](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)：43729429382/1、child0、15/15 完整门，六个独立χ门均通过。κ3/4 的右 physical ordinary pair≤5.620922e−8+1.890860γ、内端B≤2.874429e−8+2.293827γ；κ1/2 的Cmean≤1.921662e−8+.401425γ。所有mean/sourcepoint/outer/knownδ列保全；只是同实际帽后验，WA低迹尚未付。18pins与旧零计算独核；新局部源接收器继续推进。

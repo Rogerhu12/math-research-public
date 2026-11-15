@@ -109,3 +109,11 @@ Root全文亲读c63bf110cc55d083b41bf60b8eeaf4d6ab98f519/12126B/58a13cda928c26a2
 LC15平方恒等因真实d/J0反对称与径向a成立；τ=L/(a_- n)<1后cp#=1/[a_-sqrt(1−τ)]、cr#=1+d cp#。再t=cp# AH/n<1吸完整high列，低shell/knownΔ/unknownΔ/χ′与mean全保；χ不可除，halftrace最后P只付一次。12候选=6rho×J96/288，每例含τ/t两个测试；未运行前无数字改善声明，失败候选完整保留。SCI将沿RW稳定worker独立新消费。
 
 Green15:26:02.978733原process436b7d52a1e07be52309a205fe1a6a1cf766bf29/50058B/97e8e62d894e714f5f73dd031473652d5c566816fc90ff7ee6c9bbcc9900e74e亲读；只变live/进度/README/容量等mutable字段，科学inputs全同。past3888@15:25:22，combined77groups@15:25:42；独立consumer稍晚36/29/13不冒同步78。future/product5970成功锁。真实pull15:26:01.494795 40a7a665→6a55e3e68a715d18b0e415aa3f4c9a3335e18b39两README空diff；容量198381041/inventorybbfb22b6。open第2节完整前状态ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f保所有旧单位/域/失败义务。当前只读README核149ec9b8d1bde530a25f4322cd946e5635f09c99未变。
+
+### 2026-11-15 15:35:52 UTC — SP完整primitive/mean严格传播合同
+
+Final9fc2e2c565738b1a6d0fc5962703e01f43b483bf/20730B/ae01c213b63ae618e4657b5966604e7fbec4acb4763ea4b8aae848e1a40a40b4全文亲读；相对12b4ce70/9efeb38a仅SP38两字符display分隔改。Root核1–38，newton先核SP6两精确方程再独核17–19/27–30通过。T(q)不含未解mean径导，y=Iξ/z=Πξ；完整primitive恒等的mean项保，Ny/Nz/Nγ与1/4、1/16收费正确。Y,Z乘sqrtq后raw H−1→primitive L2的坐标单位明确，forward F−dφ/reverse Brev+dφ与mean平均dφ=0；q径项只c±一次。
+
+同fixedη0、ν0+δ全|δ|≤1e−8，原3071 native23a7554a/8499033B只读。repair+19d/83d、compact Kδ/Gδ、T′与w′/w″、qδ/q0全径导费用逐项保；原group C−<4.386425547仅读旧定理，新Jq和2×2 chronological products才是新数学。原H1四态流、group积分/exp与target零重算。SP31全非负因子覆盖所有source插时，普通源真实dr/L2→L1带sqrt长度，impulse无长度；N输入不重复strict逆/正normalizer，waist与反向保全部n_g上下/q上下。RJ只接此operator自己的完整volume贡献，root/jump/正七ports/finiteborder/KAM/GH仍未闭。
+
+本轮同时回读旧B原e561b822/15703B/f5f980a全篇，确认fullδ P37与stable1/25/B13在旧B中已完成，不另发重复转移证明。新的SP数值消费者编写中；只读README核83b80cdc8ff62010f4230c5cb60cf7a8af5cbb44不变。
