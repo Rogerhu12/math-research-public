@@ -446,13 +446,14 @@
    "sha256": "56ad571ff3417c8deca544c3e746a09bc11b3c2e8471157f47b9ac2a1fb7381e",
    "git_blob": "1a9c90aeed4187c0b2b1ed3c8fa4b065434b8239",
    "script": "topics/rank2-sha-infinitely-many-p/scripts/check-theta-plane-saturated-jets.py",
-   "script_sha256": null,
+   "script_sha256": "87b43ce347609193429fa8dfdb591e3809c96b34c1c910cb561aad333602d274",
    "parameters": [
     "--historical-json"
    ],
    "original_computation_run": null,
    "historical_script_sha256": "5c25e502e6a3977849d3587951d60cb249b62f20d2dcb2be37e884a12e61a6ad",
-   "producer_note": "Current generator derives all values directly from fixed D,p parameters; historical checker SHA is recorded separately."
+   "producer_note": "Current generator derives all values directly from fixed D,p parameters; historical checker SHA is recorded separately.",
+   "regeneration_run_id": 43683428893
   },
   {
    "path": "topics/rank2-sha-infinitely-many-p/scripts/check-third-adjacent-companion-lambda2.json",
@@ -819,5 +820,8 @@
     "check-r536-exact-fibre-mass-compensation.json"
    ]
   }
+ ],
+ "selected_regeneration_runs": [
+  43683428893
  ]
 }

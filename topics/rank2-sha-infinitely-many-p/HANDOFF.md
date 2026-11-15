@@ -6,19 +6,19 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ce4a3ed2fd73a20b5a254008efa3626101681125；2026-11-15 06:01:07 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:01:06 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
+- 最近已读规则提交：eab5e58bbf951c48ccf13a109bbdf0b0289a6f23；2026-11-15 06:06:21 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:06:17 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史；每小时实际pull，每次核两README，只读差异立即执行。令牌仅临时终端，不入文件/回复。
-- 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出不存repo/Release，只留脚本参数run/hash。此次按audit43681121218移除148个明确生成输出2,645,461字节；临时历史输入runner保依赖，两个复现路径交公开Actions。旧3个-partN及无生成器的checker输入保留，未新增分块；目录27.60MB无5MB超限，已逐脚本核58个mixed-I/O，七条theta-plane记录改独立生成；第二清单/真实依赖复现交公开计算，随后普通删除。
+- 规则15新版@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出仅留脚本参数run/hash，累计清206个/4,912,763字节。第二批58个已核真实读写，theta-plane改独立生成；run43683428893同哈希复现原七记录及R466→R471。旧3个分块和无生成器输入保留；无新增分块/超限，元数据/临时runner见规则15记录。
 - 规则12不设冻结/独审/复跑；规则13计算用公开Actions。题log每轮≤5行，单MD/API<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
 - 本地无环境，API仅非强制追加；题属只读Actions实际pull与本地失败分别记账。拒推立即本地pull --rebase重试、新head核规则、接父重推；恢复环境即本地pull。
 - 复现元数据与用法：[规则15记录](notes/2026-11-15-recomputable-output-provenance.md)。05:40:06实际pull/run43682050611已成功，差异空；两历史复现run43682050475同SHA通过。
 
 ## 全部归档、已完编号和分工
 
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r689.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
-R1–363、365–560、562–653、655–692、694及R679/R680增补已登记；R364/R561/R654仍开。
-root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R697原barE高尾/同R真像；theta R693原中性G/B全31约束；literature R695四轴三态真word/13-19切集与非零角域。
-R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693纯G与B两轮43682680755/43683206666均辅助rank29不相容；现同源改真比例目标（优先放开两frozen系数），非特征零排除。无报告数据入库。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r695.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
+R1–363、365–560、562–653、655–692、694–695及R679/R680增补已登记；R364/R561/R654仍开。
+root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R697原barE高尾/同R真像；theta R693原中性G/B全31约束；literature R698真实CM词管/完整补域。
+R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693比例轮43683535964辅助增广rank30且相容；现提完整左行/30minor，未付实际参数逆。无报告数据入库。
 
 ## 固定目标和全部旧来源
 
@@ -39,6 +39,8 @@ R686 Z=W−bY Y、EYW=(5+6ω)A−29c−(58+87ω)d；原全三轴锚给KZ=γRY。
 R690真qcd native W的B_W在even72十三基内；19逆/84矩/C12付全参数，辅助397/459给同ray密度一全N4 off-T。E深W=λ2N B_W、E浅W=λN6δT−λ2N B_W；第二态λ2N K72B_W。B_W总质量0但Wunit质量−λm1，m1=(1/b)ΣL_jc_j固定trace行已付。缩Z的A_T与native W不同。
 
 R692同q♯原[2]覆盖S136⊗S35768的全三态：Y/Z来源R=(0固定,1↔2)，W/V来源K=(0↔1,2↦−sum)，R²=K²=(KR)^4=1。Y/Z物理图RY·PYκ/RY·PZκ，反射不删。任意真词像格配逆像W观察回±γ^nλ^(r+N)6δJT；三原算术投影须同词运输。第三中央进入真Y深/Zunit环带，参考同环带有显示非零差。四unit=I−四真单轴+3γλ²平面缩，质量用Rᵗ/Kᵗ；第一CM的全13/19切集仍动，不能令Pnew/PH穿W深。
+
+R695原奇覆盖全CM fibre逐支与Y/Z/W/V/A²核心交换，外尺度s=ζbarα/α保全部216真共轭词管和三算术返回。A/Z同R仍有原权12次Δ及浅双H门；两A²W/WA²词在旧角域真交叠，Y逆观察深k−1/k−3。参考完整差可消JH′，不同s管分离不消积分补域，也不搬局部非零。
 
 ## 惰性：实际来源、原Kummer类及中央缺口
 

@@ -145,7 +145,7 @@ function elim(M,rhs=null){
  }
  const sol=rhs?Array(M[0].length).fill(0):null;
  if(rhs)for(let j=0;j<rank;j++)sol[piv[j]]=A[j].at(-1);
- return {rank,piv,det,solution:sol,inconsistent:rhs&&A.slice(rank).some(R=>R.at(-1)!==0)};
+ return {rank,piv,det,solution:sol,reduced:A,inconsistent:rhs&&A.slice(rank).some(R=>R.at(-1)!==0)};
 }
 console.error("R693: full native W generator through z^72; original total moment <="+(72+CAP));
 const GW=makePair(0,1,"W",MAXZ),native=GW.unweighted;
@@ -353,10 +353,12 @@ if(FREE_NORMALIZATIONS){
   for(const free of pairs){
    const A=c.matrix.map((row,i)=>[...row,...free.map(j=>md(-targets[j][i]))]);
    const rhs=c.target.map((v,i)=>md(v-c.old[i]-free.reduce((a,j)=>a+targets[j][i],0)));
-   const e=elim(A,rhs);let chosen=null,det=null,values=null,solution=null,verified=false;
-   if(e.rank===31&&!e.inconsistent){
+   const e=elim(A,rhs);let chosen=null,chosenRows=null,det=null,values=null,solution=null,verified=false;
+   if(e.rank>=30&&!e.inconsistent){
     chosen=e.piv;
-    const m=A.map(row=>chosen.map(j=>row[j])),x=elim(m,rhs);
+    const colMatrix=A.map(row=>chosen.map(j=>row[j]));
+    chosenRows=elim(chosen.map((_,j)=>colMatrix.map(R=>R[j]))).piv;
+    const m=chosenRows.map(i=>colMatrix[i]),x=elim(m,chosenRows.map(i=>rhs[i]));
     det=x.det;solution=Array(A[0].length).fill(0);
     chosen.forEach((j,k)=>{solution[j]=x.solution[k];});
     values=[1,1,1,1];free.forEach((j,k)=>{values[j]=solution[ncol+k];});
@@ -367,23 +369,37 @@ if(FREE_NORMALIZATIONS){
     assert(W0===0,"whole W mass preserved in proportional target");
    }
    rows.push({free_source_indices:free,rank:e.rank,consistent:!e.inconsistent,
-    determinant:det,source_scalars:values,selected_columns:chosen,verified});
+    determinant:det,source_scalars:values,selected_columns:chosen,selected_rows:chosenRows,verified});
   }
   freeResults.push({eta:c.eta,choices:rows});
  }
  const preferred=pairs.find(pair=>freeResults.every(c=>c.choices.some(q=>
-  q.free_source_indices.join(",")===pair.join(",")&&q.rank===31&&q.consistent)));
+  q.free_source_indices.join(",")===pair.join(",")&&q.rank>=30&&q.consistent)));
  for(const c of freeResults){
   c.preferred_free_indices=preferred||null;
   if(preferred){
    const original=candidates.find(q=>q.eta===c.eta),choice=c.choices.find(q=>q.free_source_indices.join(",")===preferred.join(","));
    const A=original.matrix.map((row,i)=>[...row,...preferred.map(j=>md(-targets[j][i]))]);
    const rhs=original.target.map((v,i)=>md(v-original.old[i]-preferred.reduce((a,j)=>a+targets[j][i],0)));
-   const x=elim(A.map(row=>choice.selected_columns.map(j=>row[j])),rhs);
+   const x=elim(choice.selected_rows.map(i=>choice.selected_columns.map(j=>A[i][j])),choice.selected_rows.map(i=>rhs[i]));
    const sol=Array(A[0].length).fill(0);choice.selected_columns.forEach((j,k)=>sol[j]=x.solution[k]);
    c.preferred_full_solution=sol;
    c.preferred_source_rows=mm(original.matrix,sol.slice(0,ncol).map(v=>[v])).map((r,i)=>md(r[0]+original.old[i]));
+   c.preferred_is_only_auxiliary_if_rank30=choice.rank===30;
+   const fullA=original.matrix.map((row,i)=>[...row,...targets.map(T=>md(-T[i]))]);
+   const tr=fullA[0].map((_,j)=>fullA.map(R=>R[j])),rr=elim(tr),pivset=new Set(rr.piv);
+   c.all_four_target_rank=rr.rank;
+   c.all_four_target_left_relations=[];
+   for(let f=0;f<31;f++)if(!pivset.has(f)){
+    const v=Array(31).fill(0);v[f]=1;
+    rr.piv.forEach((j,k)=>{v[j]=md(-rr.reduced[k][f]);});
+    assert(tr.every(row=>md(row.reduce((sum,x,j)=>sum+x*v[j],0))===0),"entire auxiliary left relation");
+    c.all_four_target_left_relations.push({row:v,nonzero_support:v.map((x,j)=>x?[j,x]:null).filter(Boolean),
+     old_affine_value:md(v.reduce((sum,x,j)=>sum+x*original.old[j],0)),
+     j2_coefficient:v[30]});
+   }
   }
+  c.choices=c.choices.map(q=>q.free_source_indices.join(",")===(preferred||[]).join(",")?q:{...q,selected_columns:undefined,selected_rows:undefined});
  }
 }
 const result={
@@ -402,7 +418,7 @@ const result={
  native_W_jets:native,
  source_input_sha256:crypto.createHash("sha256").update(inputCode).digest("hex"),
  certificate:data,
- actual_lift:"Only if a full fixed minor is nonzero: invert the corresponding FULL characteristic-zero 31x31 matrix at actual lambda,kappa,u and eta. The auxiliary solution is not the p-adic test.",
+ actual_lift:"A nonzero full31 minor proves an actual full inverse. A rank30 auxiliary solution and its left relation do NOT by themselves establish an actual solution: the complete characteristic-zero relation or saturated higher-parameter Schur correction remains required. No auxiliary solution is substituted into the p-adic test.",
  arithmetic_scope:"All original Pi4 rows remain unchanged. New zero-mass corner claims are not inherited; all higher J_(2+6h) and positive pair masses must be retained. Z-scaled A_T is not identified with native W.",
  outputs_persisted:false
 };
