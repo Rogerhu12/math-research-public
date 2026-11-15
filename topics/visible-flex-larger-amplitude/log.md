@@ -478,3 +478,7 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 20:43:29 UTC /root — R398同准确Hermite路径的闭段继承
 
 11337B完整条件证明已核，并对照cf4fa原prepare_complete_families/classify_closed_polynomial：G0/G1先固定，G2_j只包同H的可变余项，strict父段给全称包含而非子盒直接分类。保全部629gap、缺依赖/17档事务/直接继承分计及原预算，188完整源继续。185两次NFF后立即rebase重推成功fe5f7cc2，官方43759673057/132951426792已过117+12绑定/原输入/语法；最近真实pull9bf1c00cebf2f15f1f08ae1106022981ba3a4737双README未变，发布前再pull。
+
+### 2026-11-15 维护：186/188前完整恢复点
+将open原29664B逐字存[检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)，合并已刊事实与重复来源，§4–6完全保留；HANDOFF压缩到当前真实run/源/未付责任。
+185终态由geometry唯一读，186/188源码继续核，189/R401仅预留后继；未增加科学门或把job绿当接受。每pull双README照常核并记录。
