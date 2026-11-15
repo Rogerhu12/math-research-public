@@ -178,7 +178,7 @@ R735/R738/R745原模型、4920cosets/800闭链、六Hodge800，R754完整period/
 
 [R778短恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)已证原20cusps是单L轨道；143个完整M系数−e..142−e准确零迫A=yB全球，仍rank2720/kernel308。基q142，实际e1原Hodge Q427已在旧800中；完整40坐标的M2/M6/M12前缀13/41/82注入。不能以单modξ代真实L方程。$/$$最终证明SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727。
 
-[R777准确短基工程](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)已推9d6c4406，未触发：82E1整数常数、全部126半trace/40det、block79、每权82^w给M6/M12原q142；H³只读R774前两块/原ρ，用694阶Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX，由已知membership与R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；按新根15只保脚本参数/run/输出SHA，活跃断点一日转交。pending已指R775新run43679160495、仍无artifact/cert/manifest；真成功后才写最终-request.json运行。
+[R777准确短基工程](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)已推9d6c4406，未触发：82E1整数常数、全部126半trace/40det、block79、每权82^w给M6/M12原q142；H³只读R774前两块/原ρ，用694阶Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX，由已知membership与R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；按新根15只保脚本参数/run/输出SHA，活跃断点一日转交。R775新run43679160495已成功，备用pending文件已填artifact14148883593、真实cert/manifest；producer_inputs_pending=false，但无触发request，因R786/R787较小方案正在执行而保持备用。
 
 [R781真实切向下降](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)用原g=−diag(1,−1)T^-40给v=ξ^-10u下M+=L(ξ+ξ^-1)，20/L、280/Q；整数Chebyshev无1/2，L不缩。原κ=H³首项非零，v=κw后R0=1、Ãn=κ_(n+1)κ^(n−1)、c*=246^6bκ4，(R−wR′)^3=Ã(R²−c*w²)²逐阶只除3n+1。原143关系清为246³κ^(n+2)A_n+Σκ^jR_(n−j+1)B_j=0，即2860×3028 L；须准确全部代回。λb整monic、primitive280向量×ρ和分母界S^nΔn完整保留；Laurent阶段只用真R774，可先于R775/R777运行，关系矩阵随后接真K基。实际函数/β/第二类period/Poincaré/高度jets及R724 Bézout均未输出，全p证书存在仍开。
 
@@ -235,3 +235,5 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R787：真实原L函数关系的公开求解
 
 [求解方法](notes/R787-original-power5-relation-solver-method.md)已落实：直接消费完成的R786基与R781 Laurent；小20阶Q块精确消B0，大A/Schur块只在合法素数下求逆。14分裂分支共同主元和同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构仍只是候选，须全部char0原关系通过且B非零才给原y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，真实请求已推eab5e58b，run43683912711实际运行；rank/关系/β/高度不预填。活跃输入与阶段同一临时bundle转交，可直接续接而不重算旧生产者。
+
+[R775完整K定义基已成](results/R775-certified-original-K-defined-RR-bases.md)：公开run43679160495实际返回M2/M6/M12秩146/694/1514、原mod739 minors344/461/730；原18完成文件SHA不变，power6现1506。此项关闭，不再重复；R777真实生产者已齐仍保备用，原函数直接接R787。

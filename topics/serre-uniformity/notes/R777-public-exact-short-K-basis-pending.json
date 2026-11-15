@@ -6,7 +6,7 @@
     "basis_bound_qY": 142,
     "H3_coordinate_bound_qY": 41,
     "budget_minutes": 300,
-    "producer_inputs_pending": true,
+    "producer_inputs_pending": false,
     "core": "R777_exact_short_K_basis.py",
     "core_sha256": "4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a",
     "method": "notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md",
@@ -49,17 +49,19 @@
         "result": "R775-p41-original-K-defined-RR-bases",
         "run_id": "43679160495",
         "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
-        "artifact_id": null,
-        "artifact_name": null,
-        "archive_sha256": null,
-        "manifest_sha256": null,
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
         "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
         "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
         "files": {
-          "p41-original-K-defined-RR-basis-certificate.json": null
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203"
         }
       }
     },
-    "resume": null
+    "resume": null,
+    "execution_status": "backup_not_triggered",
+    "preferred_active_successor": "R787-original-power5-function-relation"
   }
 }

@@ -360,3 +360,8 @@
 - R787已推eab5e58b并启动公开run43683912711，job132720221921依赖安装通过、原函数求解进行中；H/open记真实run，未预称完成。
 - 只读取已登记R702 p41证书：A35=0而A2=1，否定临界f/g逐标签单位倍反射；另一端A32=15却h7非本原。将该失败策略加入既有sigma笔记，无新计算或p41分类重跑。
 - 继续原CM求值框架/共同零支撑及η核的真实高度方向；R788已推d4a69440，主目标仍OPEN。
+
+## 2026-11-15 14:15 Asia/Taipei · serre-public-astra-20261115
+- 核得R775真实续跑run43679160495已成功（05:52:54 UTC结束）：M2/M6/M12秩146/694/1514，原mod739 minors344/461/730，普通power6维1506。
+- root核实际ZIP/manifest/32文件SHA与25stage；原resume receipt的18个complete文件SHA全不变，未重算旧阶段。登记R775-certified，完整原表/证书仅一日临时断点，Git只metadata。
+- R777备用输入填真实artifact/cert/manifest，producer_inputs_pending=false但不写触发请求；当前R787较小原函数任务继续运行。H/open/index同步，主目标OPEN。

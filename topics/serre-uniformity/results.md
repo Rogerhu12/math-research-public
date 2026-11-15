@@ -302,7 +302,7 @@
 
 - **R779（已证明，所有b）**：[原实Robert类与两个p局部障碍坐标](results/R779-original-real-Robert-class-and-two-p-local-obstruction-coordinates.md)。固定nR=−in+(11/2)u无条件Γ/S不变且τ-real；无μp消全局和局部H¹/H²下降项，full-divisor Bockstein给dR的dq系数9b/4。原R185坐标严格给b=−3B1−5B45、Ω₂/ε=22−8B1+B45，b0亦适用；b≠0时I0/ε=32+25B1。实际cs的p局部值尚缺，未知压成86×2的指定单位向量、原varpi_s1938精度，不把接口当数值。
 
-- **R777（运行前工程，未触发）**：[准确短K基与原H³坐标方法](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)。按真R775配方生成char0 q142、82^weight整数尺度，原H³只读R774 q0..41并用694阶有理系统/14 RHS准确解；完整40坐标、原相位和143项后续验证均保。pending输入请求存非触发路径，R775真实成功后填绑定再运行；core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a，未预称实际基表/坐标/函数。
+- **R777（运行前工程，未触发）**：[准确短K基与原H³坐标方法](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)。按真R775配方生成char0 q142、82^weight整数尺度，原H³只读R774 q0..41并用694阶有理系统/14 RHS准确解；完整40坐标、原相位和143项后续验证均保。备用输入存非触发路径，R775真实生产者已填齐；当前优先R786/R787，R777保持备用未触发；core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a，未预称实际基表/坐标/函数。
 
 - **R781（已证明）**：[原切向下降与无逆Laurent关系](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)。真实行列式−1元给v=ξ^-10u下M+20/L的整数Chebyshev下降；原H³首项κ换参后逐阶只乘域元素、除3n+1，无代数κ逆。全部143条原关系准确化为2860行/3028未知，保rank2720/kernel308与最终全代回；λb整基及完整普通分母界支持实际断点计算。原函数/β/高度尚未输出。
 
@@ -325,3 +325,5 @@
 - **R788（已证明）**：[原跨p Cartier修正与六秩耦合](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)。原p×p核恰为(1+Φp)P(z+t)Q(z−t)，明确Φp保原非零B且高整有限部全消；原首6×6minor det36使rank恰6，给全部Schur等式。未筛critical全零的六完整零行只是必要条件，不能用于仅primitive筛后全零。真正同标签非零与高度仍开，无新有限素数扫描。
 
 - **R787（公开求解工程，结果待实际认证）**：[原L函数关系的共同主元/Dixon方法](notes/R787-original-power5-relation-solver-method.md)。完成原R786/R781输入绑定、稀疏B0消元、14分支共同归一和原L整基全残差提升；只在素数模数下逆矩阵。最终必须非零A/B全129×20准确代回才能登记原y，β/高度仍未计算；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。
+
+- **R775（真实断点续算已完成）**：[原K定义RR基完整证书](results/R775-certified-original-K-defined-RR-bases.md)。run43679160495/source032899cc成功，M2/M6/M12=146/694/1514，mod739原recipe minors344/461/730，普通power6维1506；旧18个完成文件SHA全不变。cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。原y/β/高度未由此计算，R777保持备用，当前函数后继R787。
