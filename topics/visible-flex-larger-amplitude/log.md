@@ -534,3 +534,7 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 21:43 UTC /root — R407公式分隔符按根规矩4统一
 
 将[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)行内/独立公式统一为根README要求的美元符号分隔，数学命题、证明、13361B adapter与全部科学来源/预算不改；当前191全链源继续补独立进程组超时退出后的归属/静止读回，192完整入口及R400接口并行核对。
+
+## 2026-11-15 21:55 UTC /root — request192完整位点积全链入口
+
+九件全文及完整diff/79项request变化已核，原70pins全保→77；R405全位点积接完整literal/224batch/226态/两mean/RK与每列113C解残差，全部原链/预算保持。最终仅修workflow重复public schema，wf6c56f6f4/接口eb95d98f；输入字词dot不冒原词/导数/速度，无新fixture/门，单90KB/quiet后清，R406未预填。open原29121B逐字保存192前检查点，仅压缩已刊1A且§4–6相同。

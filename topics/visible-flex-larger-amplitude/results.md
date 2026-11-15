@@ -446,3 +446,8 @@
 
 
 - [R391. 实际184真实coast选点、新C与正范数未付](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)：43756949463/cd459815双job failure已完整读。五帧原必要与compute逐字同；真实180 recipe/definition恢复，新C1440/两query粗包围、factory base452/current1846叶、deep112完成，但2883工作宽片未付。m2仅52accepted/119work，row18/piece4/[0,2^-32]/d32正范数表示失付，33栈+[19,10387)/111模式及全BVP未起；线性0.266761s/stopnull非资源。六必要/quiet后确清，不冒零向量/极点或native拒绝；187独立修复继续，不回填184。
+
+## 2026-11-15 — Request192：完整位点积与224列的原128全链
+
+[192完整入口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)九件完整核后发布：原190七十pins逐值保留+七新源=77；R405完整digits接全部literal Gram、224方向batch、完整226态/两mean/原RK，保每列每update全部113行C解残差与原因子/两回代。小Hs形成和归约均明确新舍入次序，输入字词dot准确不冒原词、准确导数或性能。真91→fresh64/J/R273→128/replay→全576×224/112/338×112/audit及原19200/6000/1200/8000/600/600/1800预算保持；单90KB必要/原错误地址/未访/owner reap与quiet后清，无新fixture/门。workflow唯一schema拼写修正至6c56f6f4，接口eb95d98f；186/190独立不改，R406只留真实结果。
+

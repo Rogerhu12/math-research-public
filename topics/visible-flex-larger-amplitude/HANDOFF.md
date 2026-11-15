@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:44:41 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1963f85aaa97e2a6e2ce8a7af377090fc2ed2c32。
+规则同步记录：2026-11-15 21:51:26 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 149a406d199566c2c37f15242cd254651110c584。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -27,7 +27,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|R407 hole实现已刊；完整入口准备|exact：真98另起39/RIGHT459；actual32节点缺461，完整仿射消元及原H恢复，非171末场|
 |R400连续十族接口|源码准备，未派发科学|geometry：profile/真450/SavedPrefix/prefix Loewner源准备；真实current-C径向tail未付|
-|R405/192/R406|R405证明与完整kernel已刊，192入口准备|amplitude：全部位/指数、一次RN113；不预称性能，不改186/190|
+|192/R406|完整入口本次发布，待官方run绑定|amplitude：77pins/全位点积224batch、原全部组件/预算；R405已刊，不预称性能，不改186/190|
 
 只由唯一负责人读取终态原必要日志，不取运行中大日志。job绿不代科学接受，未返call不补拒。所有来源、配方、预算、错误与未访责任保各完整接口/结果。
 
@@ -54,6 +54,8 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 [R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)真β1/16/419准确片域已证；ba8确定性恢复，不重跑搜索不伪造旧factory。187真180→fresh C/factory/e5ab→全部112far→453/FD/final，原84pins/55/29闭包/完整预算保；正端点log/sqrt、倒数只乘、全角/幅度/取向及先归一后hull，fullcut未另跑。
 
 [连续十源](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)72c4635e/7dedb713/a248e957已刊：R323准确基底+support1/power4、自然L/u、453/450 callable，真180九recipe须显式ξ；0/半/1三jet零只局部盲点。R400独立补真实来源writer/reader/准确Hermite/prefix四Loewner；旧e8deb/69bb/e70d/6b06锁旧config/tail不可复用冒新闭面，不删三行伪造450接受、不把185/189 finite改C标签，真实径向tail/帽/全shared未付。
+
+[192完整入口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)九件全文与全部差异已核；wf仅修重复public schema，最终6c56f6f4/接口eb95d98f。77pins保原70值，全literal/226/两mean/每列113C残差/一般fallback与原全预算齐；single90KB、原quiet/回收/清理保，未预写R406。open原29121B逐字存192前检查点，只压缩已刊1A且§4–6不动。
 
 ## 恢复与保存
 

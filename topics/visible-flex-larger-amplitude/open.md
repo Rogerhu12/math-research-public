@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-本次压缩前完整正文逐字存[190/191前检查点](notes/2026-11-15-open-checkpoint-before-requests190-191.md)，链回[186/188前检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)及全部原历史。只合并已刊事实与重复来源，全部原参数、错误、未访地址、预算、清理和未付责任仍由原结果/完整接口承担；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+本次压缩前完整正文逐字存[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)，链回[190/191前检查点](notes/2026-11-15-open-checkpoint-before-requests190-191.md)、[186/188前检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)及全部原历史。只合并已刊事实与重复来源，全部原参数、错误、未访地址、预算、清理和未付责任仍由原结果/完整接口承担；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -12,11 +12,9 @@
 
 ### 1A. 当前H及同145全行分解
 
-[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)保六p/λ.001、首正H四接受、随后原十档全拒、末norm2317.31958952296及fullDN/final未起；非预算，不归因唯一分母。[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证全行d=b+Aq+s。
+[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)保六p/λ.001/首正H后原十档拒及norm2317.31958952296；[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)全行d=b+Aq+s与[172完整入口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)124pins/32×10/strict下降/2e−9/18000+900余量clip/单90KB均不改。完整原段已逐字留192前检查点。
 
-[172完整入口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)124pins/六p/λ/currentH及全129248行守原32×10/strict下降/2e−9；extra2^-10..-12不接受，child18000/分解900按余量clip/单90KB、真实读后清。完整源/输入/预算与实际字段均已在R369收束，不冒145逐词轨迹或准确Taylor证。
-
-[R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)：run43745317876/source3975e583，单67468B/1e9170eb完整必要两job同词。零H call1返回，无J/audit；首正s1/64前两轮α1、1/4接到3488.882983000276，i2原十档全拒，extra1/1024..1/4096仅诊断不接受。10281.277116862s非预算；3同X+3extra为6新增noJ，20observations还含14原trial。三轮17trial全129248行d=b+Aq+s实际全付；末b约4.83e−5/Aq最多约1.3914e−4，s数千且13保存模型均预测下降。只定位本次finite_secant差额，不把它自动当准确Taylor二阶或唯一root/cache/J原因。全部原参数/124源/六输入/17分解及地址/未访轮/quiet清理保正文；正H端点、338×112/J、FD/fullDN/final/audit未起，无非零接受。后继对准真实有限求值及完整响应/精度，不新增诊断验收，不改extra为接受档。
+[R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)43745317876/3975e583、67468B/1e9170eb两job同词：首正H仅α1、1/4两接受，norm3488.882983，i2十档拒/10281s非预算；3sameX+3extra共6新增noJ，extra不接受。三轮17trial各129248行齐，末b≈4.83e−5/Aq≈1.3914e−4、s数千且13原模型下降，只定位finite_secant，不唯一归因root/cache/J或准确Taylor。正H端点/J/FD/fullDN/final/audit未起，确清；124源/六输入/全部原词地址/未访/门及清理保全文，后继继续原有限求值/响应精度，不增诊断验收。
 
 ### 1B. 完整128末态和固定trace
 
@@ -31,6 +29,8 @@
 [190完整入口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)九件全读：headerb16fac/stage174296/launcher9d8a/helperdf67/bridgee10f/readera21a/requesta7df/wfb92e，原64pins逐值保留+6=70。每真实field/update从原完整root/PointOperator预装配A_m/A_L及最终F_m/F_L，保N全角、S/cosine/gram独立字面、显式均值1、实际s/L、每update全部113行C解残差/原名义缺陷/226RHS/RK/224列/两mean/端口，非空geometry原fallback。矩阵形成/作用重关联，不声称同词或准确导数误差，integer digit未实现。真父重生与四组件/全部原预算完全保；单90KB必要、完整地址/错误/未访与child reap/quiet后清，不传大阵/编码拆包、不加fixture/门。实际run43762998688/sourceef56f16ff3ca573fec8982754fe9d5256748317e，compute132961756447已入原science；amplitude唯一读R403终态，不取运行中日志。
 
 [R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)及18871B/5c2a0cb1独立header完整支付输入binary128字词的准确dyadic点积及一次RN113：20bit层、≤2048 int64分块严格<2^51，真实行/列公共span，12层/64MiB只选择方法；超限完整113×113乘积与全指数宽累加，不六层截尾。正规/直接subnormal量子/overflow tie/带符号下溢齐，准确零约定+0。无Boost/BLAS/新fixture，未本地编译或执行；只付当前字词dot，系数形成/原名义两回代/原C残差/完整导数与性能仍未付。192/R406另起完整R402装配/224列与原全链，186/190冻结不改。
+
+[192完整入口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)九件完整核后发布：原190七十pins逐值保留+七新源=77；R405完整digits接全部literal Gram、224方向batch、完整226态/两mean/原RK，保每列每update全部113行C解残差与原因子/两回代。小Hs形成和归约均明确新舍入次序，输入字词dot准确不冒原词、准确导数或性能。真91→fresh64/J/R273→128/replay→全576×224/112/338×112/audit及原19200/6000/1200/8000/600/600/1800预算保持；单90KB必要/原错误地址/未访/owner reap与quiet后清，无新fixture/门。workflow唯一schema拼写修正至6c56f6f4，接口eb95d98f；186/190独立不改，R406只留真实结果。
 
 ### 1C. 真37→38与原非线性域
 
