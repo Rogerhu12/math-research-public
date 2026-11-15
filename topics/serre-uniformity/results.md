@@ -453,3 +453,5 @@
 - **R820实际完整成功**：[原有限cusp代数和两图完整理想](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)，run43721747750/source7890fde1，36.411901553秒。两图真实rank20/colength20/292步/5380非monic系数，d271=20其余0；全部关系/准确非零20minor/两图运输通过。600ZIP/598manifest/590stage/289原输入和冻结verify全IO；原C可直接消费，不重算大导子像。20链另给原Z实际生成F20，未给一般极理想/eta/高度。SHA 7a9293bdb2f0fe345ba3a482702264054bde747aa75a6dec6d33f345398e3ce8。
 
 - **R824（已证明）**：[原极点模权5/6/7自由生成与有限纤维认证](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)。真实g127/degH272/degE1206给dimM6=300/M7=572，Koszul给生成数r、300−2r、r−28，共272/权和1604。原Laurent完整129/142/156条件认证包含，V7真实1778纤维minor认证满秩，sheaf全长1604−398=1206迫完整，不等MA/MB或normal换基。原r与候选仍待；R781旧至142不重算，只有权7真需要才追加13尾。SHA 3a32e69f5ff3fb74ad7b262357e6b9d00da5e1f4348f65b1cdc0705d6fef7be1。
+
+- **R824实际分裂已认证**：[原28权五＋244权六](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)。复用旧R787 run43683912711/sourceeab5e58的真1186阶minor：ell1000000753/branch0/det296007862；原20/1234消元minor与分母单位全源链已核。char0 Schur rank≥1186加RR r≥28迫r28/h1=0，完整极模块无权7。仅HTTP Range读23.87MB绑定原manifest与七成员，未重算、不称原A/B已完成；不新增R143..155/H³尾。SHA f3a207610b17841ee7b83f1393186ac4a1b022db7e12f86474a1f8fc40fd6dba。

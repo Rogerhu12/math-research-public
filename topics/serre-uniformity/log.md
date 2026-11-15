@@ -141,3 +141,7 @@
 ### 2026-11-15 22:15（Asia/Taipei）｜serre-public-astra-20261115
 - R811完整char0极前像工程保存pending：root全文核38,918B core/52,672B wrapper/method/workflow，exact另核archive/close/chart恢复；原P独立保留，全部核原式、双向Laurent和τ全长＋σ零长度保持。coreec100a76/wrapper64f9bc9a。
 - 通用helper09f21a90已由真实五路径generic验证，无新增gate；128操作原字节archive先全SHA后prune，只最终H/W留大payload。此为仍待真实regular A/B的正确方案，R824较小齐次路线继续，不预填原极理想。主目标OPEN。
+
+### 2026-11-15 22:19（Asia/Taipei）｜serre-public-astra-20261115
+- 旧R787真实minor链只读核完：manifest613f436b及chart/selection/rational-blocks/branch0/三个回执逐SHA；ell1000000753的1186det296007862、A1234det336446771、constant20det322380492均非零。无新矩阵算术，完整旧run仍BudgetStop。
+- R824新实际推论：r=1214−1186=28由RR上下界夹定，h1=0，28权5＋244权6/无权7。结果 f3a20761，直接省新R143..155/H³尾，补旧R130..142来源；原A/B/候选/height仍待，主目标OPEN。

@@ -4,13 +4,13 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：27067e0c0130ef5b1d208e3acad360a09bae52e4**（2026-11-15T14:16:51.062162+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI。前态逐字保[R820成功前H](notes/2026-11-15-handoff-before-R820-success.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：6f77d9e0d0ac2316ead032c8cefc6a84a2e314b1**（2026-11-15T14:19:34.864012+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI。前态逐字保[R820成功前H](notes/2026-11-15-handoff-before-R820-success.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
 ## 正在运行与最先接续
 
-**R787原A/B运行**：run43708449812/sourceac5998f3，core93d3d72b同核；旧run43683912711的5.15GB断点1517输出/1372输入全SHA恢复，保每prime最新完整lift/已成stage。原V5=1234、129条件/14分支同主元自由坐标不改，末端全129×20；尚无A/B，预算停则同核续算，不换R802。[续接记录](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。旧真实modular rank如要消费须先读原stage，不猜1186。
+**R787原A/B运行**：run43708449812/sourceac5998f3，core93d3d72b同核；旧run43683912711的5.15GB断点1517输出/1372输入全SHA恢复，保每prime最新完整lift/已成stage。原V5=1234、129条件/14分支同主元自由坐标不改，末端全129×20；尚无A/B，预算停则同核续算，不换R802。[续接记录](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。旧原stage现已读核真实1186非零minor，已用于R824证明r28，不代A/B完成。
 
 **R809原S5运行**：run43712427063/source91fbd81e，core dedb5d61/wrapper3616aac1。[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)：4117原输入已核；六τθU_j共84Q RHS、1234列/1380行，R787后追加A/B28不换身份。保82/b/s/λ一次、τ最高项零；新minor/坐标未到。
 
@@ -24,7 +24,7 @@
 
 R811首乘法core849bca27/wrapper2a1d1c28已审、R806齐，待R809 A/B；r5八模/九准确点，C-only不能触发。[两图证明](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)。[完整char0核/HNF工程已保存pending](notes/R811-original-streamed-polynomial-preimage-method.md)，coreec100a76/wrapper64f9bc9a已全文核，尚不触发；generic run43719858329四真实exit97恢复后五结果同SHAc5cd89b2，仅验证通用算法。
 
-[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已证：真实MAH=MBW给包含，双向Laurent拼接底环子格，实际τ degdet＋σ ord0det等于独立1206则完整。不先假定R理想、不必存全部char0 Euclid transcript。有限域须原b全部真因子×ζ两root恢复14块，不假设14次不可约；实际候选/全式/长度未得。[R824](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)已证完整极模自由生成权5/6/7，数为r、300−2r、r−28（r未知），总272/权和1604。原Laurent129/142/156条件逐全280Q坐标认证A_j=yB_j，V7中[(σ−z0τ)V6,τ^(7−a_j)B_j]的真实1778minor给满秩；全长1604−398=1206迫完整，无需首轮normal/MA/MB。R781 R0..142已成；旧R787真实1186minor若读核则r28、无权7/新尾，未预填。
+[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已证：真实MAH=MBW给包含，双向Laurent拼接底环子格，实际τ degdet＋σ ord0det等于独立1206则完整。不先假定R理想、不必存全部char0 Euclid transcript。有限域须原b全部真因子×ζ两root恢复14块，不假设14次不可约；实际候选/全式/长度未得。[R824](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)已证完整极模自由生成权5/6/7，数为r、300−2r、r−28，总272/权和1604；[真实旧minor现已证r=28](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)，实际28权5＋244权6、无权7。原Laurent129/142/156条件逐全280Q坐标认证A_j=yB_j，V7中[(σ−z0τ)V6,τ^(7−a_j)B_j]的真实1778minor给满秩；全长1604−398=1206迫完整，无需首轮normal/MA/MB。R781 R0..142已成；旧R787 ell1000000753/branch0的1186minor det296007862/原两消元minor均非零、全部源SHA已核；不新算R尾/H³。
 
 [R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)：全完成乘积证明C=im[Γ,Mg]为约化cusps；N=im[H,ΓH+MgH′]，整理想商P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)。δσ=tδτ、Γσ=tDΓD^-1−t²DMgD^-1diag eps保留。首剥后无cusp可省C商。R820实际C已到，完整I/Γ仍缺，exact_height接最小peel/三重数consumer；无ambient trace全表。
 

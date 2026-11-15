@@ -64,7 +64,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R822完整极格的充分认证已证**：[全局余长度](results/R822-original-polar-lattices-certified-by-global-colength.md)。候选只需底环子格，完整原MAH=MBW给包含，双向Laurent使两图拼接；真实τ degdet＋σ在0的orddet与独立R791 deg(y)=1206相等后才给全部原极理想。有限域可用原b多项式的全部实际因子与ζ两root计算candidate，按全14原坐标CRT并公平推进真实profiles，最终全char0式/两图/长度必须通过；未知次数/系数不得由1206预填。仍未有原A/B或极格输出，完整char0 transcript保为另一个正确方案。
 
-**R824小权完整极模入口已证**：[原齐次生成与纤维认证](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)。Koszul及RR给M≤4=0、dimM6=300/M7=572；r=dimM5未知，完整自由生成数r/300−2r/r−28、权5/6/7，共272且权和1604。候选只需原完整Laurent129/142/156等式和V7中的真实1778纤维minor，包含＋全长1206认证全极模，不等大MA/MB或首轮normal换基。旧R781 R0..142/H³[129,161)直接复用；只有真需权7才新R143..155/κ156。正在只读原R787既成minor以确定能否取实际r28，未猜秩、未改运行core。
+**R824小权完整极模入口已证**：[原齐次生成与纤维认证](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)。Koszul及RR给M≤4=0、dimM6=300/M7=572；r=dimM5未知，完整自由生成数r/300−2r/r−28、权5/6/7，共272且权和1604。候选只需原完整Laurent129/142/156等式和V7中的真实1778纤维minor，包含＋全长1206认证全极模，不等大MA/MB或首轮normal换基。旧R781 R0..142/H³[129,161)直接复用；只有真需权7才新R143..155/κ156。[旧原非零minor已全源核完](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)：ell1000000753/branch0，1186det296007862及原20/1234消元minor非零，准确迫r28、28权5＋244权6、无权7。补旧R781 R130..142来源，不新生成尾；原A/B及全272候选仍未得，不改运行core。
 
 **R815原Mg/Γ已激活**：run43719622321/source2a3300a9，core80516ff9/wrapperab725da0。R813实际53文件最小输入已核；R817精确证明只需Mg六模/七准确点与Γ五模/七嵌套准确点，We0=e1先核，两Γ列逐系数与完整[[Γ,W]+MgW′,W]=0给唯一原导子。不另CRT Mh，不形成ambient场迹全表；Γσ=tDΓD^-1−t²DMgD^-1diag eps，δσt=−t³DMgD^-1。实际矩阵待到。
 
