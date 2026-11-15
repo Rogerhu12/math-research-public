@@ -406,3 +406,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R354：完整反射和受控ω桥同时支付三个新Gaussian外矩
 
 [完整证明](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)，2026-11-15，25249B/SHA256 289562e0dde26720046b974693bd177badf9b16fb744e1ba07a837f2481708a5。原合法三矩弱圆的六pair反射表保真二次尾；PY1/WY0/WY2反号，Ψ/三个原directed行偶。R353全正圆与整反射严格分离相加，原块间尾正交，一次清三门，得到16外矩同付，仅PY0/PY2欠。物理域独立严付：R37先正后负boost使水平frame/scalar连接保任意ω下界，R70任意M桥仍真；NH0保平移hook，M0夹心/真倒行和Klein词保闭合，Gaussian端he在全部有限包络后初选，x+ω>1。面积/F行尺度及Ψ独立he使同profiles可迁到这个新几何。另得25列13行双号正核、逐列镜像24列8行正核。只重新付低阶M/T/芽，未授旧另一几何的pure/wholeE/period联合保持；目标g在最后新seed上固定。无新运行，不宣完整第四或主任务完成。
+
+## R355：真实四阶排序与四个有限正宽支付完整WY第二外矩
+
+[完整证明](results/R355-real-fourth-center-moments-and-finite-widths-pay-the-positive-minus-two-second-moment.md)，2026-11-15，20625B/SHA256 48bacdc5fe6fae2ae85b3737bc8be1ba4585844c14acd9a735c78abe74951736。原nonlegal self S_RY2=2S_LY1−S_UY1、S_SY2=−S_UY1−μ2²/4，真I2 Green零但内部ordered尾保留；完整D2沿hα/local δ³与h1/ordered δ，C1由已付真实母族逐列IFT准确消去。真实finite等差点第四矩差ρ0负/20正，copy方差local抵消但尾3VcpU01保；四正宽给两方向正锥。用真实旧库与三角dilation同时补全部费用，Ψ S−2；原全正分支13→14外矩，接R354实际M13亦得15行接口。与R354新几何偶圆16矩不混计；完整第四/同规范联合门欠。root全文核原Green、Q2化简、ζ严格号、有限正核及尺度次序，无新运行。

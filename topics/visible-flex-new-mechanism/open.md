@@ -146,6 +146,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 真实后继接口：R354由R347完整大A半平面和R353正kernel得负PY1整块，其反射给25列13行正锥；更简洁的逐列镜像给24列8行M8=2Π8M12，目标(B1,WY1,C0,C2)，其余旧门与PY1/WY0/WY2自动零。PY0/PY2真实代价仍在。可从镜像前最后控制器前取负Ψ储备，旧F★镜像控制器保持全72零并最终付三F。root继续PY0完整self/同权耦合，literature继续PY2全self/Γ_K1,2；R351未补矩核心两号不当成新完成门。全部高阶、同g有限嵌入、reach/幅度欠。
 
 
+[R355](results/R355-real-fourth-center-moments-and-finite-widths-pay-the-positive-minus-two-second-moment.md)提供独立正域D2补偿：完整self转XY1并保−bQ2/4有序μ2尾，先原母小族准确C1=0；真实第四中心矩两排序反号，四有限正宽使local δ³和ordered δ两独立方向成严格正锥，旧10→12→14行保R353原13矩，正域分支现14矩。接R354已付M13亦有33列15行接口，但它含负支撑、须遵守R354共同物理域；R354原偶分支仍16矩，仅PY0/PY2欠，不能重复计数。
+
 ### R344/R350/R352：自然全U总通量读出，续其它真实成本层
 
 [R344](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)原有序8Γ=q_J/真Green h_J=3C及三个实际右bump矩基给全R（含全Z）Ω=16Lπ/5+(32/15)Σc∫u‴Γπ，不删R335真尾。[R342](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)run43745111286只是声明C7族精确零，不重换族/旧根/旧秩。
