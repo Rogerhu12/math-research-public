@@ -399,3 +399,6 @@
 
 
 - [Request187. 正端点Prüfer与真实180点完整453执行入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)：三科学源/七薄身份/request/workflow及完整接口已核，原74pins全保并新增十源；修复正端点重装宽球的表示责任，原真实输入/全部112far/338×112/453/FD/预算/终门不变。独立公开Actions触发，当前184不改，R396实际结果未预填；fullcut与几何仍未付。
+
+
+- [Request185. 真实183末点的全三残差预测与法向校正完整入口](notes/2026-11-15-request185-complete-three-normal-ten-predictor-interface.md)：原117+12 pins、完整48来源，六新运行件和接口已核；一个8×20块内每α最多3×20校正，原S/Armijo与owner不变量保，2400s包含原120FD/Arb/453终消费者。actual R395未预填；临时下降、有限域或资源partial不冒非零场成功。
