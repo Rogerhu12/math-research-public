@@ -1,0 +1,170 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "root2-fourth-six-small-inputs-restore",
+  "executionSourceCommit": "99d59b30096511cff5507e0bd89bedb9d877cd4f",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+  "scriptSHA256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+  "argvTemplate": [
+    "--repo",
+    "{repo}",
+    "--out",
+    "{work}/root2-fourth-small-inputs"
+  ],
+  "timeoutSeconds": 180,
+  "exitCode": 0,
+  "wallSeconds": 4.625779276000003,
+  "fullTemporaryReceiptBytes": 5457,
+  "fullTemporaryReceiptSHA256": "c9d153875bbcb4a6f7d6b24a0f8bc1914eaba53f4e3397ac7e699e1acf539010",
+  "result": {
+    "elapsedSeconds": 4.565562123000063,
+    "format": "r150-root2-fourth-six-small-historical-inputs-v1",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allRestoredFilesTemporaryOnly": true,
+      "allSixExactInputSHA256Verified": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "certificateManifestSHA256": {
+        "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1": "8be221899899efc2b0851859f841dc9f539a023f2a78f94497febd4d1af132b9",
+        "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1": "d3448a00d9f1bb2b1caff44af94bda8610d8bf617fbd4e236d2b07378f66f5a1"
+      },
+      "completedInputs": [
+        {
+          "bytes": 18840,
+          "file": "second-prepared-receipt.json",
+          "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1",
+          "historicalOriginalFile": "prepared-second/prepared-saturated-second-receipt.json",
+          "key": "second-prepared-receipt",
+          "mode": "exact-text",
+          "sha256": "f8ffc939972363e79d0027946c5268c32f869e90adc6fead115fbd29b0ea1ca4"
+        },
+        {
+          "bytes": 42012,
+          "file": "second-prepared-system.bin.gz",
+          "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1",
+          "historicalOriginalFile": "prepared-second/prepared-saturated-second.bin.gz",
+          "key": "second-prepared-system",
+          "mode": "exact-wrapper",
+          "sha256": "691717421b0b7558f7ca053054c6c3f23bde5aa96fc93f36a744ad1171c4ba03"
+        },
+        {
+          "bytes": 22107,
+          "file": "second-complete-receipt.json",
+          "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1",
+          "historicalOriginalFile": "complete-second/complete-saturated-second-page-receipt.json",
+          "key": "second-complete-receipt",
+          "mode": "exact-text",
+          "sha256": "50e8aa0cecafc697b1d52a43792e095be35c4dadc71eff07b861569591d092b7"
+        },
+        {
+          "bytes": 72934,
+          "file": "second-complete-system.bin.gz",
+          "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1",
+          "historicalOriginalFile": "complete-second/complete-saturated-second.bin.gz",
+          "key": "second-complete-system",
+          "mode": "exact-wrapper",
+          "sha256": "f20487d290193e738a5df67dccdf0c6d11c1c0b9e224dbd310fdc1a0180acaf7"
+        },
+        {
+          "bytes": 17757,
+          "file": "third-complete-receipt.json",
+          "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1",
+          "historicalOriginalFile": "complete-third/complete-saturated-third-page-receipt.json",
+          "key": "third-complete-receipt",
+          "mode": "exact-text",
+          "sha256": "3bb98210ccf8a7941f2a9a71c0d8d1a5fc8c0e11891c26d0e76d8079fa413619"
+        },
+        {
+          "bytes": 70591,
+          "file": "third-complete-system.bin.gz",
+          "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1",
+          "historicalOriginalFile": "complete-third/complete-saturated-third.bin.gz",
+          "key": "third-complete-system",
+          "mode": "exact-wrapper",
+          "sha256": "786333a4baa562a15e38666a31207e3ce0179e03a0e9505da2d6a4cc5fbe7c2c"
+        }
+      ],
+      "historicalRef": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "inputCount": 6,
+      "largeHistoricalChainRestored": false,
+      "mathematicsRecomputed": false,
+      "totalRawBytes": 244241
+    },
+    "events": [
+      {
+        "elapsedSeconds": 0.2515955670000949,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.2959484349999002,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.31126449199996387,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.16955884200001492,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.1906223040000441,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.15272218700010853,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.16308491500012678,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      },
+      {
+        "elapsedSeconds": 0.15828745199996774,
+        "event": "immutable-git-read",
+        "exitCode": 0
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 23:29:34 UTC",
+      "beforeReadCommit": "ea19234d1f2b8b1236772d94c0f59749cd0f467f",
+      "originMainAfterPull": "99d59b30096511cff5507e0bd89bedb9d877cd4f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 23:29:39 UTC",
+      "beforeReadCommit": "99d59b30096511cff5507e0bd89bedb9d877cd4f",
+      "originMainAfterPull": "99d59b30096511cff5507e0bd89bedb9d877cd4f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 11,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 3774,
+    "logicalJsonSHA256": "a2f5aae54984607f9dbbb38330b9f0a3ac26f08bc2f1ae6f66e78598c900ce72",
+    "itemCount": 11
+  },
+  "lastRulesReadCommit": "99d59b30096511cff5507e0bd89bedb9d877cd4f",
+  "summaryExcludesRecomputableArraysOnly": false
+}
