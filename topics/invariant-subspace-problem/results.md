@@ -307,3 +307,7 @@
 ## 2026-11-15：原固定测试投影的双边发生器预算
 
 [逐位压后伴随谐和与完整发生器](results/R271-appendix-actual-fixed-test-exchange-adjoint-harmonic-equations-and-full-generator-budget.md)证明原v=P_Ef的L/L*残量正交分解，进而原u_f双边联合范数≤24||f||/x、交换行4/x及整旗36/x。实际零源反馈保||P_Kf||因子；没有倒置未知发生器或替换原来源。
+
+## 2026-11-15：原特征零十三原始核与投影长二
+
+[完整原始核及精确投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实际以Q(u)构造，核全部155支撑的Z_(31)[[u]]整性、169自由单位项、80444原产品与4367坐标运输；λ_I,Q精确2、十二单位，45≤δA_I,Q≤68。fullQ66/OQ149/highQ26均未由此支付，转216真来源列及两原始mapper。

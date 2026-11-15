@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "107299cbfebb8f5af21ea1f37539e448896e14ee",
+  "rulesReadAtCommit": "e5c807e9a3fe4e9d6434eae84263edccd0e6efd1",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -216,6 +216,22 @@
       ],
       "timeoutSeconds": 230,
       "receiptPath": "{work}/two-directed-cubic-left1-receipt.json"
+    },
+    {
+      "id": "higher-kernel-restore-two-original-source-dictionaries",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-higher-kernel-two-historical-dictionaries-prepare-789f.py",
+      "scriptSHA256": "a91e5a0d5cfe7e956c102564ad39cb41587fc6b9e47ea8ab24c9194d1c633b06",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out-dir",
+        "{work}/inputs/repo",
+        "--receipt",
+        "{work}/high216-original-dictionary-restore.json"
+      ],
+      "timeoutSeconds": 200,
+      "receiptPath": "{work}/high216-original-dictionary-restore.json"
     }
   ],
   "previousSession": {
@@ -230,5 +246,5 @@
     "temporaryDataNoLongerAvailable": true,
     "oldStepsAreNotReplayed": true
   },
-  "mathematicalProgramStatus": "Actual Q13 primitive original kernel proved with characteristic-zero output projection length2; s2 restricted15 first heads have all9 square reads zero. Extend only by one true weak cubic against the verified immutable same-job parent cache."
+  "mathematicalProgramStatus": "Exact Q13 projection length2 proved. Pure weak cubic tested: no new s2 first head (15), all original products and square-zero reads verified. Restore only two pinned historical source dictionaries for actual 216-column preparation."
 }

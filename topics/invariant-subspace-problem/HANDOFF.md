@@ -13,19 +13,19 @@
 
 - 原A4367×6188、泛rank4354；同选I,J各4354/总权8770。旧前三连接、β4∈[3,5]、17真第三/296072原产品保归档；缺λ4/来项15中2及第三21中4，不算关闭。
 - 同选D∞≥130、全部cofactor/原来源换列≥125。K158=s66(s−2)12(s+6)12F+⁶F−⁶E8⁴，deg158/lc5^16是31单位；q8369…8482，三费8526/8531/172、统一条件8531。**原h0九目标全局Q[s]成员性仍是前提**。同D leading31单位未付：真Q v∞130…243，等于243才单位；degD8527…8640。
-- [零点与旧泛型像回接](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已闭：全正谱1⁴,3,4³,5,6,7,8,10,11，δ66/次大55/max11；全九s³t_j在原局部像，t2消去理想恰s³。β1…11及965328原产品保正式稿。末端jet非零不否泛型像，不再第十二。
+- [零点完整来源](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已闭：长66/次大55/max11，九s³t_j在像且t2恰需三阶；965328原产品，正谱保原稿，不再第十二。
 - 原full∞常rank4340/14正Smith。[新完整原模31谱及余28](results/R150-appendix-full-original-infinity-mod31-length66-and-output-projection-gap28.md)实际正谱1⁴,3,4³,5,6,7,8,10,11/长66/次大55/max11/自由13；真Q仅δfull43…66、次大39…55、max≤27，不能搬模31单个指数。
-- [局部差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：T=W/(L∩W)，W=(I²)≤5，lenT=δA−δP；差≤e即t^eW⊂L。170原行+54g倍行保全6188来源，g零点只除η单位；E8⁴先剥31碰撞现给2点full≤28。
-- [负六全闭](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：P/full正谱1⁷,2,3/长12/max3，W全在原局部像，九目标无需s+6。[2点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)实4.637497190秒、正谱亦1⁷,2,3/长12，但full现仅12…28，T长≤16；不证明亦不否定h0一阶够，已转原W/九目标而非提高同P阶数。
+- [原局部差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：W=(I²)≤5，len(W/(L∩W))=δA−δP；差≤e则t^eW⊂L。完整170+54g行保6188来源，g零点只除η单位。
+- [负六](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)P/full同谱1⁷,2,3/长12，W全在原像。[二点](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)P同谱，但full仅12…28/T≤16，九h0一阶仍开。
 - [O完整模31谱](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)：O1834×1632、常rank1603/29正指数，总149/max14；Q仅29≤σ≤149。原两项δfull_Q+σ_Q≤215<243，故该固定两项判据已不可能封leading单位。精确分解vdetB=δfull+λ_I+σ+δ_high；模31现已[定位λ_I=2、δ_high=26](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)；同I^c的12单位行加单标量始13u²，δA_I=68。同原A_I子式约化给Q联合δfull+λ≤68；本轮原Q13已实际付λ=2，故45≤δA_I,Q≤68，leading单位必要δhigh_Q≥26。
 
 ## 会话、已闭局部与当前恢复
 
 - full43731615668/local43731613530均16:30成功结束，tmp已失；full66/O149/G2与所有SHA见正式稿。需重建时用notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入及同选小receipt，禁止取回旧tmp。
 - [F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)已闭：低谱3,3/长6，6≤δP≤δA≤8，F±²W。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)δlow≥2vDlin；E8低谱2,2/长4、4≤δP≤δA≤5，E8W。对应九h0局部均付；已闭low不增阶，未知完整Γ有限支持仍开。
-- [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)在4/3/5的原81+99产品真，4点非零trace排普适有限几何逆，未否九目标。
+- [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
 - **活跃local run43736746064**于16:40:01起45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2续跑实际188.841456522秒，全B1088×585秩583、[B,C]秩590/核17、首项15；全部185640原产品真，九平方读数全零，见[正式稿](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)。同头任意λ1读数不变；未造λ2，不证成员性。父tmp two-directed-left2-checkpoint保持；新增唯一原弱方向cubic，另child目录，同父583unit和22实际RHS完整SHA核后只解新1列。
-- Q13实际同run步骤original-characteristic-zero-free13-projection已成2.917069073秒：真Q λ_I=2、12单位；155整性/31单位分母、4433原系数、17整式、80444原乘回、4367坐标运输全真。raw42557B/SHA6a987dbf91f27415ff81a075a01e94077b89b55cd822c93eb01a43c55a3db18d；根独立核u²系数mod31=13。正式Q证明正在整理；fullQ66/OQ149/highQ26及leading单位尚未付。
+- [原Q十三原始核/投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)已成：同run实2.917069073秒，λ_I,Q=2/12单位，全部核Z_(31)[[u]]整且原自由块I；80444完整原乘回及4367运输真，u²首系数mod31=13。原Q full/O/high及leading单位仍开。后续[216列/双mapper合同](notes/2026-11-15-r150-higher-kernel-216-column-and-two-mapper-interface-789f.md)保真实4340回填；正在恢复两个历史字典，primitive本job已有。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)：12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ均原17式常数M来源。真弱列导数系数a−1、s2一次；其余二次项及共动三次反馈仍开，不能称九t n_j²已在像。
 
 ## 原同w边界：正交旗后继续真正返回
