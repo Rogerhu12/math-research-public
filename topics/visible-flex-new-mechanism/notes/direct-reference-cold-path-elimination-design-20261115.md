@@ -274,7 +274,7 @@ unchanged base geometry with fixed 4-angle grid, center only
 
 这里不重跑原 factorized-J 套件、所有11组旧导数或旧 finite-difference检查。原J自身数学没有改变；本次只检查新field入口及返回数据的兼容性。
 
-项目数最终以新开发实现实际列出的断言为准，不提前写 passed。本设计不请求为已由第3–4节闭合的纸证增加机械复核门。
+首次开发实现现为 scripts/frame_direct_reference_geometry159_development.py：20642B，SHA256 af63965826364efee0e96e12663a77d520d28f246b957ce1cb3e7b4e8fb9cc12。准确为3组×3项=9项；全部成功时人工原geometry对照3次、新adapter6次（5成功、1预定失败），两种Jacobian分支每方各1次，最大12径向×16角。人工输入工厂2次，factorizer构造/普通bind各1次，其evaluate为0；旧developer/研究几何/LP/JVP/optimizer均0。当前只发布源码，尚无passed结果。本设计不请求为已由第3–4节闭合的纸证增加机械复核门。
 
 ## 8. 首次真实求值的最小范围
 

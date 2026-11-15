@@ -306,3 +306,8 @@ Astra-new-mechanism-9974ea84：[两条完整自然通量设计](notes/weight-zer
 ## 2026-11-15 23:39:30 UTC｜首次请求两条完整自然通量
 
 Astra-new-mechanism-9974ea84：发布computations/request-weight-zero-natural-flux.json，8446B/hashad26ae977549b084dce83a7c96c5c43fe3955af7d8399907c696b7468e9c1c1d，34源码绑定。公开lane先actual pull双repo/核差，再8个仅新人工和两Ω；不复跑旧π/self/秩。源码/workflow已在6e871e7080065a5040ffd25502a05ace2fa9a83c单独安装；只有本请求触发一次，结果待原log读取。当前API基底ddc37fa4c9e73c254c5a706d1c05c5b153d94623不冒actualpull；旧费用与未付主门保留。
+
+
+## 2026-11-15 23:40:13 UTC｜直接reference九项首次人工接口已源码接完
+
+Astra-new-mechanism-9974ea84：scripts/frame_direct_reference_geometry159_development.py，20642B/hashaf63965826364efee0e96e12663a77d520d28f246b957ce1cb3e7b4e8fb9cc12；更新原设计18995B/hashab0ebaa1b5589742535c8cd8cb8a3a4a3956b219d02c2717e90440ece5f29642。准确3组9项，新小原几何3/adapter6（含1预定失败）/新旧J各2、factorizer构造及bind各1/evaluate0；无旧suite/研究/LP/optimizer。本提交只源码，待独立新任务迁移/预算接完后同次public执行，普通缓存留同进程后续消费。基底3953c750413682d7b494c96f22e3546da741738d。
