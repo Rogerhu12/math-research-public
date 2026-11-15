@@ -159,3 +159,5 @@
 - [R150-appendix-selected-natural-first-connection-exact-rank-three](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：原I,J自然一阶Q秩恰3，33个原左头及143682全产品，完整第一校正族与D31单位分裂；第二Q页下界9，精确值及更高长度仍开。
 
 - [R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：同九条第四规范的七个实际第五头与全部6188来源，公共53/47、指定82/81/75，K95下条件费8638/目标222；第六页2805高来源不可删。
+
+- [R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：原N/Y低物理孔输入的真实carry四次幂界γ=770/256，完整Gram/逆的正确压缩方向、完整等权池Green低孔输出及N型同源测试反馈行；不作整个逆或原W上界。
