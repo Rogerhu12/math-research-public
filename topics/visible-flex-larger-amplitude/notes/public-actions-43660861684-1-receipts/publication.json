@@ -1,0 +1,130 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-15T00:59:43.392183+00:00",
+  "source_commit": "178a1031a41ef6ebac243cdb28220febbb995e12",
+  "run_id": "43660861684",
+  "run_attempt": "1",
+  "lane": "receipts",
+  "files": [
+    {
+      "source": "completed-readback-request-identity.json",
+      "bytes": 2306,
+      "sha256": "ac26ebe01b0ef94654fd15ce9b4601bf7cf2556fdec9fa1e425966acd5615e4a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/completed-readback-request-identity.json",
+      "published_bytes": 2306,
+      "published_sha256": "ac26ebe01b0ef94654fd15ce9b4601bf7cf2556fdec9fa1e425966acd5615e4a"
+    },
+    {
+      "source": "original-readback.log",
+      "bytes": 1181,
+      "sha256": "b459cc337ab30850715185eba699fe714d71e19c8b81dbe01aeac71db99cf22e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/original-readback.log",
+      "published_bytes": 1181,
+      "published_sha256": "b459cc337ab30850715185eba699fe714d71e19c8b81dbe01aeac71db99cf22e"
+    },
+    {
+      "source": "readback-storage.json",
+      "bytes": 182,
+      "sha256": "7f776e09c9587afda96ffc9ef377bc53fc23a56d32528747a05dffe145125dfd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/readback-storage.json",
+      "published_bytes": 182,
+      "published_sha256": "7f776e09c9587afda96ffc9ef377bc53fc23a56d32528747a05dffe145125dfd"
+    },
+    {
+      "source": "request74-readback/completed-prefix-FD.json",
+      "bytes": 13211,
+      "sha256": "9f3a70aa98607545e84b6a5c2f280fd977a7ca2e0e96bfd534a292f901b4895a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/request74-readback/completed-prefix-FD.json",
+      "published_bytes": 13211,
+      "published_sha256": "9f3a70aa98607545e84b6a5c2f280fd977a7ca2e0e96bfd534a292f901b4895a"
+    },
+    {
+      "source": "request74-readback/completed-prefix-QP-scalars.json",
+      "bytes": 16492,
+      "sha256": "f56758dedee0e77c9dfe5a51608f53a06c034f86bfeab841ed52e75feea4c9b9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/request74-readback/completed-prefix-QP-scalars.json",
+      "published_bytes": 16492,
+      "published_sha256": "f56758dedee0e77c9dfe5a51608f53a06c034f86bfeab841ed52e75feea4c9b9"
+    },
+    {
+      "source": "request74-readback/completed-prefix-readback.json",
+      "bytes": 62958,
+      "sha256": "69bdf5b7e79a5a89f7f884dafd026099f6e9a66ce7a313bcc1ea5fb98afff0b6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/request74-readback/completed-prefix-readback.json",
+      "published_bytes": 62958,
+      "published_sha256": "69bdf5b7e79a5a89f7f884dafd026099f6e9a66ce7a313bcc1ea5fb98afff0b6"
+    },
+    {
+      "source": "request74-readback/completed-prefix-status-provisional.json",
+      "bytes": 1256,
+      "sha256": "22605520c5452795d526a4f7d0e81a04dd11fd8bfa1ac9a710a992a365a303e3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/request74-readback/completed-prefix-status-provisional.json",
+      "published_bytes": 1256,
+      "published_sha256": "22605520c5452795d526a4f7d0e81a04dd11fd8bfa1ac9a710a992a365a303e3"
+    },
+    {
+      "source": "request74-readback/completed-prefix-trial-table.json",
+      "bytes": 91973,
+      "sha256": "e4e9e069af0eaee08f6a7a3b303ce9fce351941beba332861fbc3d19bf9f9b88",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43660861684-1-receipts/request74-readback/completed-prefix-trial-table.json",
+      "published_bytes": 91973,
+      "published_sha256": "e4e9e069af0eaee08f6a7a3b303ce9fce351941beba332861fbc3d19bf9f9b88"
+    },
+    {
+      "source": "request74-readback/large-arrays/complete-original-byte-audit.json",
+      "bytes": 791537,
+      "sha256": "2ef0de58d5234a336feed45b84ef25b97209286740ad9e3f2832d2bc052ed8de",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/complete-readback-status.json",
+      "bytes": 62958,
+      "sha256": "69bdf5b7e79a5a89f7f884dafd026099f6e9a66ce7a313bcc1ea5fb98afff0b6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/complete-transport-receipt.json",
+      "bytes": 128529,
+      "sha256": "9788225ef3d3294ba44ee8453b170b38fc0d64d806c5a91ac2c018233aff7304",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/original-report-copy-manifest.json",
+      "bytes": 1904,
+      "sha256": "e2a01fb7fdafe3c6a65093dfb002fb16bc185dbd0d7e9ce3a1dc01703756ab27",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/original-reports/physical-response/response-check.json",
+      "bytes": 1618196,
+      "sha256": "b71078d0fd4c8c5e6222431ed6a320b1fd12bad20f2cf6c7a4d0da080cfb99de",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/original-reports/twenty-three-condensed-warm/condensed-QP-summary.json",
+      "bytes": 105726,
+      "sha256": "f8e43fe31d732ae8c58ddab2ad1f33baa61780c8670cce3326cbe852ddbeb9a1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/original-reports/twenty-three-condensed-warm/condensed-versus-C-comparison.json",
+      "bytes": 26537,
+      "sha256": "3d94d36d357a743eab5b510c70689124587fbbc2c0491cb609afd67e8f60810b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/original-reports/twenty-three-condensed-warm/driver-status.json",
+      "bytes": 2532904,
+      "sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request74-readback/large-arrays/original-reports/twenty-three-condensed-warm/model-000.json",
+      "bytes": 896155,
+      "sha256": "75d3e63d4837a47816890ff49232aa43237b0b44d0531d63a6dbe57291fa2a26",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43660861684"
+}

@@ -1,0 +1,407 @@
+{
+  "comparison": {
+    "schema": "original-C-versus-R270-condensed-full-H-v1",
+    "same_original_A_b_damping_B_c": true,
+    "original_C_candidate_retained": true,
+    "original_C_objective": 43.676163896718045,
+    "selected_candidate": "R270-condensed-complete-H",
+    "full_QP_optimality_claimed": false,
+    "actual_parent_warm_sha256": "f59e8c64399a9fed392a8f8c3976209aaa3fa662c5c6ea65d864342cca697213",
+    "actual_B_model_sha256": "3f45cfe3e690d3e5c97f9712bcdeae3a973909d1d63acff2432ad443a3acaedb",
+    "exact_condensation_is_a_real_arithmetic_theorem": true,
+    "computed_local_root_not_assumed_equal_to_original_H": true,
+    "candidate_absolute_monotonic_deadline": 1055.868848806,
+    "local_QP_absolute_monotonic_deadline": 1025.868848806,
+    "original_absolute_monotonic_deadline": 1367.5762641229999,
+    "helper_completed": true,
+    "condensed_candidate_objective": 43.4772482082979,
+    "global_selector_changed_conditional_recovery": true,
+    "conditional_optimum_not_claimed_after_global_selector_change": true,
+    "best_R267_lower_bound_raw_float": 43.477248208293375,
+    "final_cross_point_gap_raw_float": 4.526157226791838e-12,
+    "final_cross_point_distance_bound_raw_float": 1.1143357192254917e-08,
+    "posterior_is_not_a_validated_enclosure": true,
+    "helper_seconds_including_factor_condensation_QP_recovery": 163.094733986,
+    "final_actual_full_A_AT_B_BT_readback": true,
+    "full_nonlinear_trials_are_the_unchanged_downstream_engine": true,
+    "new_BVP_or_native_acceptance_claimed": false,
+    "execution_wrapper_source_sha256": "06ed3a98c48cbb2feffbc319f08c6509012f5ab9f7a460a5af3d6f74e73fc697",
+    "mathematical_producer_source_sha256": "1fe5b698e452112583ee82a81ab7890095c7f3f31de05cdfb60c79e35039721c"
+  },
+  "original_C_selection_scalars": {
+    "selection": "feasible-segment-minimum",
+    "original_ray_gdot": -1.118457015484041,
+    "original_ray_model_curvature": 1.114113606507336,
+    "original_ray_model_minimizer_factor": 1.0,
+    "segment_first_derivative_at_backup": -0.000268976927752454,
+    "segment_curvature": 6.383591267709438e-06,
+    "segment_parameter": 1.0,
+    "backup_damped_model_decrease": 5.278259463221605e-05,
+    "selected_damped_model_decrease": 0.0003185677267508148,
+    "actual_full_model_directional_derivative": -0.00032177318076500206,
+    "weighted_J_direction_squared": 4.093016738624225e-06,
+    "actual_damping_penalty": 2.3178912897502195e-06,
+    "actual_scaled_direction_L2": 5.6387490583529e-06,
+    "original_damped_model_gradient_L2": 306421.85237742995,
+    "all_original_linear_rows_rechecked_after_every_repair_and_combination": true,
+    "complete_R265_quadratic_optimality_claimed": false,
+    "projection_multipliers_not_reused_as_model_multipliers": true,
+    "R265_zero_dual_E": 643994.1811688304,
+    "R265_zero_dual_posterior_scope": "Feasible selected vector and zero dual only; may be a loose model bound",
+    "new_scientific_gate": false
+  },
+  "selected_selection_scalars": {
+    "selection": "feasible-segment-minimum",
+    "original_ray_gdot": -1.118457015484041,
+    "original_ray_model_curvature": 1.114113606507336,
+    "original_ray_model_minimizer_factor": 1.0,
+    "segment_first_derivative_at_backup": -0.38617092774695155,
+    "segment_curvature": 0.37397890838933584,
+    "segment_parameter": 1.0,
+    "backup_damped_model_decrease": 5.278259463221605e-05,
+    "selected_damped_model_decrease": 0.19923425614691592,
+    "actual_full_model_directional_derivative": -0.3862419377024607,
+    "weighted_J_direction_squared": 0.11935542864205125,
+    "actual_damping_penalty": 0.2546599344690383,
+    "actual_scaled_direction_L2": 0.0018690311834565617,
+    "original_damped_model_gradient_L2": 9260.14400155716,
+    "all_original_linear_rows_rechecked_after_every_repair_and_combination": true,
+    "complete_R265_quadratic_optimality_claimed": false,
+    "projection_multipliers_not_reused_as_model_multipliers": true,
+    "R265_zero_dual_E": 588.1362615197191,
+    "R265_zero_dual_posterior_scope": "Feasible selected vector and zero dual only; may be a loose model bound",
+    "new_scientific_gate": false
+  },
+  "final_actual_full_model_evidence": {
+    "label": "final-selected-original-full-model",
+    "objective": 43.4772482082979,
+    "actual_gdot": -0.3862419377024607,
+    "actual_damped_model_decrease": 0.19923425614691592,
+    "all_original_linear_slack": {
+      "size": 47104,
+      "finite_count": 47104,
+      "minimum": 1.1102230246251565e-16,
+      "maximum": 4.983583998465532,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "required_direction_fields_finite": true,
+    "all_original_rows_feasible": true,
+    "actual_original_stationarity_L2": 0.00011211001642311933,
+    "actual_original_stationarity_finite": true,
+    "actual_complementarity_sum": 4.5411181551765065e-12,
+    "R267_lower_bound_raw_float": 43.477248208293275,
+    "R267_quadratic_residual_term_raw_float": 8.620477217004175e-14,
+    "multipliers_nonnegative": true,
+    "posterior_nonfinite_is_not_an_extra_acceptance_gate": true,
+    "floating_point_posterior_is_not_a_validated_enclosure": true,
+    "original_A_AT_B_BT_freshly_evaluated": true,
+    "full_QP_optimality_claimed": false,
+    "direction": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "f18eb44ac471494dfb42c252a2bf4719ff307f95402119c4e967a6e96d10cd13",
+      "bytes": 1888288
+    },
+    "actual_A_direction": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "6a7437fd46da71e6fbf83aa47e97e2fb7aa4ef0c9f289921e42bfe3591c7a369",
+      "bytes": 1888288
+    },
+    "actual_B_direction": {
+      "shape": [
+        47104
+      ],
+      "dtype": "<f8",
+      "sha256": "d21f25502b65ea0403025fb8d318b6b73d1e3902b014dd81f3938f28436ea06e",
+      "bytes": 376832
+    },
+    "multipliers": {
+      "shape": [
+        47104
+      ],
+      "dtype": "<f8",
+      "sha256": "bc60ebe962e336829243cabc59f1c6e1440ecfbf45a8cbcd722885471f72ddec",
+      "bytes": 376832
+    },
+    "actual_original_gradient": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "2b43278407db8cb27219db1a640b735472cd547da90d40983fca95387cf254f2",
+      "bytes": 1888288
+    },
+    "actual_original_stationarity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "493a7479516b57afb23382e345b4d12c9d7239e8e9e1702d8fb28a955808066e",
+      "bytes": 1888288
+    }
+  },
+  "local_QP_report_scalars": {
+    "schema": "complete-R270-local-inequality-working-model-v1",
+    "scope": "Bounded optimization in the full local Schur quadratic; all outside variables recovered with their affine optimum afterward.",
+    "original_full_coordinate_count": 236036,
+    "local_coordinate_count": 7101,
+    "original_inequality_row_count": 47104,
+    "maximum_working_rows": 512,
+    "maximum_dual_sweeps": 200,
+    "active_stop_reason": "maximum-working-row-budget",
+    "elapsed_seconds": 133.369776194,
+    "final_selection": "same-condensed-objective-feasible-segment",
+    "segment_parameter": 1.0,
+    "segment_first_derivative": -0.34411607103226166,
+    "segment_curvature": 0.33164994858459623,
+    "local_repair_before_affine_outside_recovery": true,
+    "final_global_radial_may_break_conditional_optimality": true,
+    "outside_variables_not_frozen": true,
+    "final_full_A_AT_B_and_nonlinear_trials_not_run_in_this_module": true,
+    "full_QP_optimality_claimed": false,
+    "floating_point_readouts_are_not_validated_enclosures": true,
+    "no_constraints_or_control_columns_removed": true
+  },
+  "last_saved_local_stage": {
+    "stage": 511,
+    "actual_working_rows": {
+      "original_entries": 512,
+      "values_retained_in_pinned_artifact": true
+    },
+    "newly_added_row": {
+      "row": 19456,
+      "query_index": 9,
+      "kind": "left-RMS",
+      "interval": 477,
+      "angle_index": 1024
+    },
+    "last_dual": {
+      "sweep": 200,
+      "largest_coordinate_update": 7.216449660063518e-15,
+      "normalized_working_slack_min": -4.947431353485854e-15,
+      "normalized_complementarity": 9.11836383935863e-16
+    },
+    "completed_dual_sweeps": 200,
+    "dual_stop_reason": "maximum-dual-sweeps",
+    "working_Gram_asymmetry_Linf": 6.453171330633722e-15,
+    "no_Gram_symmetrization_or_ridge": true,
+    "actual_unrepaired": {
+      "name": "local-working-stage-511-unrepaired",
+      "condensed_objective_without_constant": -0.17854929940034944,
+      "local_direction": {
+        "shape": [
+          7101
+        ],
+        "dtype": "<f8",
+        "sha256": "c2120635dce4a440a5761df54bd26e7b40a7f8b5535cf1a3ab724dd470f254a4",
+        "bytes": 56808
+      },
+      "multipliers": {
+        "shape": [
+          47104
+        ],
+        "dtype": "<f8",
+        "sha256": "ce89af709c1dba31a5f9462a7fdd029db66c055bef5881407a255f4cc364301e",
+        "bytes": 376832
+      },
+      "all_original_slack": {
+        "size": 47104,
+        "finite_count": 47104,
+        "minimum": -1.8662849043948881e-13,
+        "maximum": 4.9835840002004765,
+        "negative_count": 508,
+        "zero_count": 8
+      },
+      "maximum_relative_violation": 2.2281633257495113e-11,
+      "worst_relative_row": {
+        "row": 43049,
+        "query_index": 21,
+        "kind": "collocation-midpoint",
+        "interval": 484,
+        "angle_index": 41
+      },
+      "worst_relative_slack": -1.172117958248009e-13,
+      "worst_relative_c": 0.005260466971619915,
+      "local_stationarity_L2": 7.271555558685114e-11,
+      "local_stationarity_Linf": 1.4779288903810084e-11,
+      "complementarity_sum": 7.571719782539753e-16,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    },
+    "local_only_radial_repair": {
+      "factor": 0.999999999977704,
+      "repairs": [
+        {
+          "attempt": 0,
+          "rho": 2.2281633257495113e-11,
+          "R265_factor": 0.9999999999777183,
+          "actual_factor": 0.999999999977704,
+          "original_slack": {
+            "size": 47104,
+            "finite_count": 47104,
+            "minimum": -1.8662849043948881e-13,
+            "maximum": 4.9835840002004765,
+            "negative_count": 508,
+            "zero_count": 8
+          }
+        }
+      ],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 47104,
+        "finite_count": 47104,
+        "minimum": 3.608224830031759e-16,
+        "maximum": 4.983584000096185,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": true
+    },
+    "actual_repaired": {
+      "name": "local-working-stage-511-repaired",
+      "condensed_objective_without_constant": -0.17854929940007674,
+      "local_direction": {
+        "shape": [
+          7101
+        ],
+        "dtype": "<f8",
+        "sha256": "435336f8ab74f6c0f9e4af325a3be14830aa63c7ab0ef9e23abd11b28414c9f2",
+        "bytes": 56808
+      },
+      "multipliers": {
+        "shape": [
+          47104
+        ],
+        "dtype": "<f8",
+        "sha256": "49fc1966eb6ea3db4cc886840a39b2dfcdff08032381bdaa25f3e652a924b233",
+        "bytes": 376832
+      },
+      "all_original_slack": {
+        "size": 47104,
+        "finite_count": 47104,
+        "minimum": 3.608224830031759e-16,
+        "maximum": 4.983584000096185,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 0.0,
+      "worst_relative_row": {
+        "row": 43049,
+        "query_index": 21,
+        "kind": "collocation-midpoint",
+        "interval": 484,
+        "angle_index": 41
+      },
+      "worst_relative_slack": 3.608224830031759e-16,
+      "worst_relative_c": 0.005260466971619915,
+      "local_stationarity_L2": 2.270959278320502e-07,
+      "local_stationarity_Linf": 4.4977696234127507e-08,
+      "complementarity_sum": 2.7335663645655446e-13,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    }
+  },
+  "condensation_report_scalars": {
+    "schema": "complete-original-H-local-support-square-root-condensation-v1",
+    "frozen_factor_source_sha256": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+    "status": "complete",
+    "no_new_J": true,
+    "no_new_ODE_or_boundary": true,
+    "normal_Schur_matrix_not_formed": true,
+    "exterior_variables_not_fixed_to_zero": true,
+    "full_affine_column_retained": true,
+    "pure_global_root_retained": true,
+    "no_QP_optimality_claim": true,
+    "nonlinear_accepted": false,
+    "local_hessian_is_rounded_square_root_model": true,
+    "exact_original_H_identity_claimed_only_in_exact_arithmetic": true,
+    "all_final_constraints_must_use_actual_recovered_full_vector": true,
+    "borrowed_factor_is_never_closed": true,
+    "arrays_artifact_only": true,
+    "local_H_action_calls": 1543,
+    "local_H_action_rhs_columns": 1543,
+    "local_H_solve_calls": 512,
+    "local_H_solve_rhs_columns": 512,
+    "local_H_action_seconds": 33.179959340001744,
+    "local_H_solve_seconds": 16.74415847800134,
+    "local_H_solve_mandatory_residual_actions": 512,
+    "recover_calls": 1,
+    "original_complete_recovery_solves": 1,
+    "completed_reverse_fronts": 212,
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0",
+    "dimension": 236036,
+    "physical_nodes": 698,
+    "physical_block": 338,
+    "free_core": 109,
+    "scalar_controls": 3,
+    "global_border": 112,
+    "first_retained_physical_node": 466,
+    "last_retained_physical_node": 486,
+    "retained_physical_nodes": 21,
+    "local_dimension": 7101,
+    "left_exterior_physical_nodes": 465,
+    "right_exterior_physical_nodes": 212,
+    "exterior_core_dimension": 109,
+    "complete_B_support_is_callers_verified_contract": true,
+    "no_B_row_is_truncated_or_evaluated_by_this_library": true,
+    "original_gradient_is_callers_same_A_transpose_b_contract": true,
+    "original_g_is_not_replaced_by_a_computed_center": true,
+    "damping": 270.0,
+    "damping_squared": 72900.0,
+    "original_factor_input_identity_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+    "factor_source_sha256": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+    "deadline": 1055.868848806,
+    "original_input_recheck_before_seconds": 0.6149347669999656,
+    "factor_byte_rechecks": 3,
+    "factor_byte_recheck_seconds": 2.1229703540000173,
+    "reverse_front_seconds": 1.5775405589999991,
+    "core_elimination_seconds": 0.5245589580000001,
+    "local_QR_seconds": 7.061756141999979,
+    "local_root_diagonal_min_abs": 270.0000331077746,
+    "local_root_diagonal_max_abs": 1071.9169594562788,
+    "local_center_condensed_gradient_L2": 1.7662629633556799e-12,
+    "local_center_condensed_gradient_Linf": 4.547473508864641e-13,
+    "local_center_not_claimed_exact_original_H_center": true,
+    "original_input_recheck_after_seconds": 0.5969204289999652,
+    "model_identity_sha256": "77c9b35a6fe72193db974f768fa17baee869ae8665e1aa08a17be337c4806591",
+    "complete": true,
+    "elapsed_seconds": 13.104028454999991,
+    "maximum_RSS_kib": 4622400,
+    "completed_after_declared_deadline": false
+  },
+  "last_recovery_scalars": {
+    "schema": "complete-local-condensation-original-H-recovery-v1",
+    "label": "complete-local-QP-recovery",
+    "recovery_index": 0,
+    "model_identity_sha256": "77c9b35a6fe72193db974f768fa17baee869ae8665e1aa08a17be337c4806591",
+    "local_mismatch_L2": 6.565680143923648e-17,
+    "local_mismatch_Linf": 2.0673533143635708e-17,
+    "exterior_gradient_L2": 5.091736774038609e-10,
+    "exterior_gradient_Linf": 2.837623469531536e-10,
+    "exterior_gradient_from_original_H_residual_not_local_root": true,
+    "local_rhs_embedding_error_L2": 4.923732977501645e-15,
+    "local_rhs_embedding_error_Linf": 3.552713678800501e-15,
+    "exterior_response_distance_bound_diagnostic": 6.9845497586263505e-15,
+    "exterior_energy_excess_bound_diagnostic": 1.778174442805014e-24,
+    "posterior_bounds_apply_at_actual_recovered_local_coordinates": true,
+    "floating_posterior_numbers_not_validated_enclosures": true,
+    "original_A_calls_in_this_recovery": 1,
+    "original_AT_calls_in_this_recovery": 1,
+    "frozen_reference_extra_A_calls": 1,
+    "frozen_reference_extra_AT_calls": 1,
+    "no_additional_complete_H_action_in_this_wrapper": true,
+    "no_local_coordinate_overwrite": true,
+    "constraints_and_merit_must_be_recomputed_on_actual_full_candidate": true,
+    "seconds": 2.0649748700000146,
+    "crossed_deadline_after_started_complete_recovery": false,
+    "nonlinear_accepted": false,
+    "QP_optimality_claimed": false
+  }
+}
