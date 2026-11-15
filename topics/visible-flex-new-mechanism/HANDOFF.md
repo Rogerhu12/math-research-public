@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 10:15:38 UTC实际pull后已读规则提交：`112af4c4f7d0de0009ae673115b8ca142364de89`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 10:20:28 UTC实际pull后已读规则提交：`19ed2ee562edae72b83d7ff196499dea0e20ba84`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
+私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch被signal9终止后核HEAD规则无差，单线程/小cache真实重拉成功，未改远端或凭据存储。
 
 真实研究计算及当前新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法和既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅存源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。现用partial/sparse `/dev/shm/visible-recovered-0931-9974ea84/{public,private}`；09:31终端恢复后已补实际pull并恢复terminal Git。
 
@@ -22,19 +22,19 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **154已消费**：43694686825/source71744524/job132752541415，完整见notes/entry-tail154-first-actual-result-20261115.md。B103/T51全uv动、9height固定，fc0d8139 η.26653564958657405→2ee6e90e .26652257791835787；8LP/5接纳/0SOC，降1.30717e−5。恢复漂移大于新降幅、未破103历史最低。m1/m3曲率失败、m6新soft返回跳SOC；末两步已增下一半径但120秒先到。旧实际不延预算；新metric/reach未付。
 
-**159已完成待消费**：首次43701306331仅开发报告NumPy bool序列化失败，未进prefix/actual；只将两个比较显式bool，六科学源其余不变。修复ef8c1cdb/run43701558227/job132773631115现已完整success，新增开发全部passed、五必要prefix与actual均执行，root正全文消费。159仍原163族+五精确null高度、九有理canonical/真耦合盒、物理Ms∞/L1、rH=4rB，真实154 B/T controller/原门/soft返回不改；12LP/40值/120秒未增。不要把job成功当题目达标。
+**159首actual已全消费**：43701558227/sourceef8c1cdb/job132773631115，notes/entry-tail-height159-first-actual-result-20261115.md。新人工全过、33来源绑定全匹配；五必要prefix各一次，真154起c9a5d61b η.26652053644178919→b42911ec .26649120712241720，降2.93293e−5，低于已记录103但未达.26/参考1e−4。8主LP/1SOC、8接纳，20共享值+2末值，120.313秒/总896.907秒。m6唯一fine8曲率失败被SOC修回，旧规则仍减半B；B/T始终利用率1，H后段不足1。全部原两网/准确九盒过，帽高仅旧tol，外域jets0、g/b0不改；当前b(.09)反增，κ57.9999896仍远欠reach。SOC objective无1e−3、比值1基于Y残差不是原base预测；下一严审成功SOC条件持径，非旧预算延长。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
 ## 4. 完整字符与真实全pure控制
 
-**R208–210完整pure已结**：实际S=P、闭锥Cp=P；有限真实桥/正2V基准/整数复制/商截面均保。权0/−2/−6/−4像维3/9/3/9等响应，−9/−8零；奇权和Q=P/πR未知，不宣πR=P。λ+=L+∫(logh)'²不灭pure核，不下降pure；pure二jet代表不授完整mixed。原actual已消费，不再扫描旧权/NF。
+**R208–210完整pure已结**：S=P、闭锥Cp=P；权0/−2/−6/−4像维3/9/3/9等响应、−9/−8零。奇权及Q=P/πR未知，不宣πR=P；λ+=L+∫(logh)′²不灭pure核、不下降pure。真有限桥/正基准/整数复制保留，旧actual不重跑。
 
 ## 5. 真实pure零/Morse闭hook与未付第四joint
 
 **R223/R227真实Morse闭hook与例外端口已付**：M0/TκH、frame/Klein位移闭合、pure0/F8=0、全h Morse。R227在非零ke端口装h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h；先三维末frame IFT，再八M+真omega九IFT、全E IFT。内部omega保真实积分，原U/完整T保留；设计一般改g。
 
-**R229/R231/R232例外主层已付**：真实G左尾与全部local/chain/history保留，物理正支上完整K/(hβ²)→sin²θLc+sin2θLs。43699241372/ee9e2098的13新toy过，原八包b0的Lc<0/Ls>0准确双证（0.2728秒/23.24MiB），排原圆全可容正宽度和已付C∞邻域，不排其他圆/b。原件9524B/675a8bc4只留hash，旧目标不重算。
+**R229–232主层已付**：真G左尾及完整local/history保留，K/(hβ²)→sin²θLc+sin2θLs。43699241372/ee9e2098已准确证明原八包b0的Lc<0/Ls>0，排原圆全部允许正宽度及已付C∞近邻，不排新圆/b；不重算。
 
 **R233/R235/R239新圆已付四能量**：任意正I内取偶χ、a_i=c+δ(0,ζ,1,2)、八平移3jδ。三矩/完整第三对每个参数准确成立；真实UQ−PV归一为D0(ζ)+δR，N=2−9ζ−3ζ²+5ζ³−3ζ4在(1/5,1/4)有简单根。一致解析余界给有限正δ的准确IFT零，P>0、t∈(−1,0)。两互补角+不交同构block得到全GL2不可分离且Lc/Ls/Mc/Ms0；不是只消渐近首项。新F改旧指定gε，旧首g0/F8不继承，完整第四/period仍欠。
 
@@ -46,9 +46,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R215/217/219/222**：pure零可有非零flux/左pair，λ不经这些有限读出；八通量在pure零响应满射R8，左pair+单flux另满R3，非十元组。真实整pure+F8 C1截面保Q/全部mixed，有限整数收缩付pure0/F8=0，R223兼容Morse；设计一般改g，完整period/ruling未付。
 
-**R216/R224/R228已排类**：四阶flat或标准k=ω0、h=he exp(εσ²)的完整ruling，由−8c6/λ排原R193八包及已付光滑近邻全允许宽度；C≠0增长曲率偶族b0同排。只延局部解析身份，不延实际路径；一般b/新圆/非零ke的C0例外不继承旧符号。Morse/finiteflux不能替代第四门。
+**R216/R224/R228已排类**：flat、标准k=ω0 Morse指数h、C≠0增长k偶b0类，由−8c6/λ排原R193圆及已付近邻全允许宽度；只延局部解析身份，不延实际几何，不冒普遍C²刚性或新圆结论。
 
-**R221joint接口**：18局部+24真history给126矩加六合法行，非rank；全部period核Cf+B/平台自由匹配和Gram付全核矩像。先两个period成员，再五相位45几何span门，最后48×135矩阵增广子式/降秩消极点iff；种子和原合法行保留，无实际通过。
+**R221joint接口**：126矩+六合法行非rank；先两个period成员，再五相位45几何span，最后48×135增广子式/降秩消极点iff。全period核/平台自由匹配保留，无实际通过。
 
 **R225完整period range**：平台G″0、每包总flux0、内部q=F/(Ap²) Laurent禁低极点/residue、两平端真C∞及双collar/连接条件共同iff。u*=1/p是非canonical Y反例。完整O像及Hper=O(U0)/O(R0)未知；Hper0授fullperiod控制，λ杀kerO才授障碍。一般R0保T/Morse仍须另付，不扩已付有限flux。
 

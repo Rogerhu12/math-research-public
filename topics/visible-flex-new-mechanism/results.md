@@ -304,3 +304,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R242：跨真权响应同时修首平台、保持已付端层
 
 [R242 完整证明](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)在R225同一合法ψP圆最左完整packet的首矩形f-up前零gap，准确截左三矩补偿而保全部右历史。原补偿对正确J*=∫g f″(f‴)²贡献0，所以J_a=J_total≠0；R217任意双collar原式给两列(8A_a,0)、(B_a,−96J_a)，A_a>0，局部平台det−768A_aJ_a≠0。以真实未知ℓd/ℓe定义β=−ℓe/(96J_a)、α=(ℓd−βB_a)/(8A_a)，H*=HE−αδK−βδ³K准确消掉两mixed平台二阶项。整δ链扣真P2后仅p4，故HE已付T/B均保持；全λ杀响应与π核给whole pure0/λ1。新代表跨权0/−7/−5，不能删新奇权；完整−4Re/+4Im身份给两个真实目标都通过首端零flux光滑门。无需单算HE平台数，未冒全部8flux/其他平台/period、同w ruling或实际有符号成本。
+
+
+## 159首actual：准确null高度参与下降，成功SOC后仍缩步
+
+[完整实际解读](notes/entry-tail-height159-first-actual-result-20261115.md)消费run43701558227/sourceef8c1cdb/job132773631115。新增开发全过，33直接来源在执行提交及receipt全匹配，98参数未变；五prefix各一次必要恢复，实际154起c9a5d61b η.26652053644178919，159末b42911ec η.26649120712241720，真正下降2.9329319372e−5。较已记录103值低，算法新降幅不混前缀漂移；.26与1e−4参考仍未达。8主LP+1SOC产生8接纳，20共享全值+2末态值、120.313秒、总896.907秒。m6主步细网8曲率失败：预测1e−7→实际−1.30e−8；SOC修到9.99766e−8、全部旧两网/准确九盒过并保度量下降，旧controller仍减半B。原physical SOC L1目标6.62358e−9，不含primary的1e−3；SOC比值1来自Y残差不能授原base模型质量。五高度确实动、总帽积分准确0/c4c5不变/固定外域六jets0，当前b(.09)增加；末κ57.9999896、角精化Xss差.006017仍欠连续reach/metric。完整数据只hash；下一据成功SOC设计条件持径，不延旧预算或盲增H。

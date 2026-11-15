@@ -116,3 +116,5 @@
 
 - 2026-11-15 10:14 UTC，Astra-new-mechanism-9974ea84：R242最终14245B/ebf37cae全文根审，并独读R225§2正确非对称J*及重补矩、R217(15)–(25)任意双collar推导、R226整链p4/R230两mixed恢复。首a_*左删仅三矩补偿，局部pair非全左tail；跨权修正合法但不冒实际负成本。纸证已直接支付未知平台可修性，原暂存平台consumer未发布/未运行，不再扩大；下一完整联合兼容。R241推送先遭5次NFF，每次立即实际pull/rebase核双README无差，第6次成功0a3dc909；最后已读b6cc8d91/10:14:08。其日志预填10:18已纠为真实10:14分钟。159实际33来源在精确ef8c1cdb提交与receipt大小/SHA全部匹配，98参数未改；完整actual仍在消费。
 索引同步消除R237/R238旧进行中段，保留合并后完整链接；修复段落替换时首个内联链接被误选的截断，原完整证明未变。
+
+- 2026-11-15 10:20 UTC，Astra-new-mechanism-9974ea84：159 actual完整阅读并立即推人类解读，最终19120B/b761eb8f。root逐读五prefix摘要/8模型/9试探/实际九height/双网标量/完整SOC floor-dual-defect/末参数精化与成本，33request绑定在ef8c1cdb与receipt全部一致。独审发现SOC目标为ones163（不含primary1e−3），mechanism在发布前纠正末段量纲；root回读blocks254–330确认，未重计算。所有请求/源码入口固定ef8版本，避免main已切HElane。private首次fetch signal9后HEAD规则未变，降低Git内存再实际pull于2026-11-15 10:17:36 UTC成功到1fd7800079cfee8a43ff6ec4a187f6f9124abc86；rootREADME无差、topic缺、QUEUE唯一进行中。R242已a2fa971b成功，两次push/最后pull112af4c4 10:15:38，双README无差。
