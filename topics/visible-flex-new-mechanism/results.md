@@ -189,3 +189,5 @@
 - [R218：共同偶非平端口与精确全pure控制](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)：全部外/内部拼口在真实s下统一h=h*exp(εσ²)，倒行/正H/桥与有限词兼容。当前实际坐标与固定物理collar支付变长参数；端速度0使R129全端势/N2消，M0消N0初势修正，成本仍原U。原语九行IFT/结构T词/全P IFT准确保全部低阶、pure目标与Klein新位移闭合，所有标记拼口h″>0且可去开常段。未宣全域无4-flat或完整ruling可解。
 
 - [同g103列受限主步与SOC的首轮设计](notes/same-g-entry-body103-restricted-step-design-20261115.md)：原全163态/固定60/同g，103阵列投影保原IDs与fullJ；外域两soft给精确rho下界、常量hard按原tol、可变域独用正floor。新r=cap1/4000与原预算明确，三段只恢复必要输入各一次，最终完整门/固定域/高度与总下降参考直接日志。新人工和源码接线完成，首个真实公开结果待读；不授下降、收敛或连续reach。
+
+- [R220：精确约束内的全域Morse几何和局部pure截面](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)：全非线性低阶/pure方程先解，真实history的Duhamel/IBP使约束导数为光滑积分密度，与点δ′/δ″独立；全复用/反向/变长发生位置的物理2jet均可控。紧零集有限方向给C1零流形维N−1，其参数投影零测，无高阶Sard假设；一次小扰动使整h Morse，接口germ与Klein新位移不变约束。Morse在C2开，得同一局部C1全pure实际截面；仍不授第四joint或有限族。

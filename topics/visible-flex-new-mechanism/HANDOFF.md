@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:51:43 UTC实际pull后已读规则提交：`10823fd392de410f3d80388c1dd8dc79e7ba79ce`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:55:04 UTC实际pull后已读规则提交：`8230f00139bd628b0b6e4e2ccbe1e46b5d806a2d`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 07:31:07 UTC实际pull至`7d82f4fd0f51441985003c68c6e6204fe3c28311`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -18,9 +18,9 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-**最新SOC actual43687834522/sourcef03c4eb/job132731961031全部已读**，见notes/soc-equivalent-scaling-first-actual-20261115.md。必要growth→strip恢复643875e4→267c41ff；新10主+2SOC/12LP、10真实接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664，η .26652303622182338→.26651100522045557，.26未达；fineκ57.999989440433026、strip余3.88794e−8。两SOC有限最优、原单位残差≤1.06e−22且真实曲率门修复；缩放只保准确LP双射，不保证浮点轨迹。全部trial/96defect/dual/初末门/同态加密/开发及receipt48047-cec2754f已读。活动101.822s、全程720.832s（必要准备606.942s）、fineJac66.022s；末池4417/3988、r约1/32000/streak1。det=q⁴(λ±κ1)(λ±κ2)/10000，floor非曲率余量。保原g/b0/163/原门；payload只临时，不为日志或旧hash复跑。
+**已结SOC actual43687834522/sourcef03c4eb/job132731961031全部已读**，完整数值/门/96defect/dual/同态加密/开发/receipt见notes/soc-equivalent-scaling-first-actual-20261115.md。必要growth→strip为643875e4→267c41ff；新10主+2SOC/12LP、10接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664，η .26652303622182338→.26651100522045557，.26未达。fineκ57.99998944、strip余3.88794e−8；两SOC修曲率门，原残差≤1.06e−22。活动101.822s/全720.832s，fineJac66.022s；末池4417/3988、r约1/32000/streak1。det=q⁴(λ±κ1)(λ±κ2)/10000非曲率余量；不为旧hash/日志复跑。末峰t=.09使34体段strict-max退出。
 
-**新103受限lane已提交、待公开首轮。** 旧末峰t=.09使34体段列strict-max路线退出。支持证明notes/same-g-entry-body103-support-20261115.md：S=[0,54)∪[81,129)∪{153}，W2/W5完整ramp、入口O(x5)/O(x8)、Q止.36；[0,tc]∪[.765,L]六jet固定，轴上T固定不等于E固定。新设计notes/same-g-entry-body103-restricted-step-design-20261115.md，helper09f91a1d/lib7054eaa6/driver90a03cea已全审，最终新开发834d6d1e全部通过。只恢复growth→strip→SOC各一次必要输入，原g/b0/163与全池保留；新r=cap1/4000、streak0，12LP/40值/120s。外域完整双soft聚合rho_out、常量hard/帽高按原tol；inside零J不删，正floor仅可变域，锁峰在每轮J前退出。SOC缩放等价只指新restricted数组。固定60逐位/真实缓存API/原行映射/唯一stage+失败checkpoint已付；fullJ仍163。下一实际同次读固定b/平均Xs下界及所有原门，1e−4只总下降诊断参考。不得复跑追ec76或补旧标量。
+**新103 actual43691833140/source2f25b5aacea5664574c18aa795c662fdeede3eab/job132743956019运行中。** notes/same-g-entry-body103-{support,restricted-step-design}-20261115.md已全审；helper09f91a1d/lib7054eaa6/driver90a03cea与最终新开发834d6d1e通过。S=[0,54)∪[81,129)∪{153}，完整入口ramp/原Q；[0,tc]∪[.765,L]六jet固定，60系数逐位保。growth→strip→SOC只各一次必要恢复，原g/b0/163及全池不改；新r=cap1/4000/streak0，12LP/40值/120活动秒。外域全双soft聚合rho_out、常量hard/帽高原tol，inside零J保，正floor仅可变域；锁峰在每轮J前退出，fullJ仍163。SOC正缩放等价只指新受限数组。正在等新固定b/平均Xs、域峰及完整实际门；1e−4仅总下降参考，不追旧ec76、不延同预算。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -34,9 +34,9 @@ R180/R183给M0/TκH及完整三阶圆。R184第四joint须同一w同时付V0+2κ
 
 **闭hook整pure零的实际用法**：X0X0rev成本2V0先付V0∈U，取真实M=T0/frameI的D使πVD=−πV0/4，Klein第一prototype插四份，新增位移四左旋相消、TκH不变。最终共同I/合法圆在有限全族选后取；不是任意窄I或同g改变。最右f0必要period门整函数消除，mixed/joint未付。
 
-**R212真实全pure有固定有限词C1截面D(p)。** 小桥/整数复制保真实C1，两商截面先定再取有限大n，统一收缩/IFT给πVD=p且M=T0/frameI。外扰必须先结构保低阶，再用全P坐标Φ_z≈id同时修Q/L；仅响应t不足，R189九行不含T。
+R212给固定有限词C1纯目标截面；外扰先结构保低阶再全P IFT同时修Q/L，不能只动响应t。后继R214/218/220已支付其实际几何迁移。
 
-**R211已证固定circle局部period充分接口**：G″须先紧支撑在J。A_f非零时两齐次adjoint矩+7终端Green矩（含∫u与六交叉矩）准确iff，显式唯一右逆w=∫右锚u，原左affine尾保留。有限m个内部简单A零加m条真实累计通量，Hadamard给唯一光滑延拓；不包平端/高重/无限零。pure0后仅两G_c/G_s，分别过门则同谐波w付全period与种子；这具体目标尚未验证，且同w的ruling商仍须支付。
+R211局部period右逆：G″紧支撑J，正则A_f上2 adjoint+7 Green矩准确iff；有限m个内部简单零再加m累计flux。保右锚与左affine尾，排flat/高重/无限零；具体Gc/Gs未过门，同w ruling仍欠。
 
 **R214付无开常段且整pure准确可控/闭hook。** flat端jets保同U；正则前缀/旧见证复制/真倒行保满锥，R208用R71真实第三生成器。六词结构保M/T/frame；原语九行IFT后全P IFT再Baire，覆盖背景/所有校正/反向拉回bump，保Banach稠密。R216已证其flat拼点仍触原σ²门；不授同g/joint。
 
@@ -46,7 +46,9 @@ R180/R183给M0/TκH及完整三阶圆。R184第四joint须同一w同时付V0+2κ
 
 **R216单点ruling必要门已付。** 真实R56第四K用状态jet≤2及W2/W3历史，取两s导至jet4；同右锚/真实入历史冻结后K″(s*)=2K_const。∂s²|s*杀整个三矩W和全部二阶Bθw，故h/k的1..4阶全零一点就要求K_const全θ0。R193标准原八包/已付光滑邻域全宽度失败；任意固定状态只继承R187充分共同窄化。R214pure定理保留，不能用无开常段避此门。R218已付偶非平共用germ的端口/低阶/全pure；R199新圆须自己的真实F门，不套旧正性。
 
-**R218所有有限拼口可改为共同偶非平germ并准确保pure。** 真实s下h=h*exp(εσ²)、k/ω端常，h″=2εh*>0；所有内部标记接口及原语两端同改，倒行/正H/桥/有限重复完全兼容。当前实际s_aθ(x)重新评价避免ε/L²误差；端速度0已使R129所有端势/N2为0，M0消N0修正而成本仍同U。九行IFT保M/ω/frame，结构词保T，全P IFT修新成本/Klein新位移闭合，保pure0，可Baire去开常段。未证内部全无4-flat；R220正做受约束jet横截。
+**R218所有有限拼口可改为共同偶非平germ并准确保pure。** 真实s下h=h*exp(εσ²)、k/ω端常，h″=2εh*>0；所有内部标记接口及原语两端同改，倒行/正H/桥/有限重复完全兼容。当前实际s_aθ(x)重新评价避免ε/L²误差；端速度0已使R129所有端势/N2为0，M0消N0修正而成本仍同U。九行IFT保M/ω/frame，结构词保T，全P IFT修新成本/Klein新位移闭合，保pure0，可Baire去开常段。全域无4-flat与局部Morse截面现由R220支付。
+
+**R220全域Morse且精确低阶/pure控制已付。** 在九行+全P已非线性求解的族中，所有内部紧支撑约束导数经Duhamel/IBP为光滑积分密度，不能锁点δ′/δ″；列全复用调用后能任改真实(h_s,h_ss)，反向/物理速度矩阵det=c²σ′/λ³非零。紧零集取有限方向，C1 submersion零流形维N−1投影R^N零测，任意小一次参数清全部点；接口h″>0已保。同一局部C1纯目标族仍Morse（C2开），全M/T/frame/新Klein位移闭合准确；无内部4-flat不授joint。R221正做一般固定圆完整Bθ的有限矩/成员与右逆接口。
 
 ## 6. 保留边界与当前交付
 

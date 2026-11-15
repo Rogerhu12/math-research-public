@@ -18,7 +18,7 @@
 
 两次未接纳主步准确由曲率越界拒；新归一SOC均最优且有有限primal，原单位残差0/1.06e−22、随后两网实际门通过。其同点曲率行余差由约1e−7降至1e−10。活动101.822s、全process720.832s（含必要准备606.942s），12LP计数退出；细Jac66.022s仍主导，不能只报SOC约.78秒或再延同预算。缩放保原准确LP可行/最优集，不保证同浮点轨迹，不能反推旧超时唯一成因。
 
-**决定性新状态：末metric峰移至t=.09、theta=3pi/2。** 既有34体段列在此六jet准确不动，所以不能单独严格降低当前全域max；不派发此strict-max子族。[103列完整支持证明](notes/same-g-entry-body103-support-20261115.md)已完成：S=[0,54)∪[81,129)∪{153}，保60原列；W2/W5的完整ramp与入口O(x5)/O(x8)、Q止.36、逐圈Π使[0,tc]及[.765,L]外域六jet严格不变，.78曲率峰保持。轴上T值固定不代表角原函数或E固定。[新103受限算法](notes/same-g-entry-body103-restricted-step-design-20261115.md)源码已完成并提交首轮公开lane：r=cap1/4000、streak0，原12LP/40共享值/120活动秒，fullJ仍163；外域完整双soft给rho_out、常量hard/帽高只用原tol，inside零J保留，proposal正floor仅可变域，每轮固定域锁峰在J前退出。SOC只对新受限数组作准确正缩放等价。helper/lib/driver全文及最终人工已过；当前无新科学下降结论。固定b/平均Xs下界在本次必要初始化同次读取，完整原两网门及初末同态值输出；总下降1e−4仅诊断参考，未达到也不重跑延同预算。
+**决定性新状态：末metric峰移至t=.09、theta=3pi/2。** 既有34体段列在此六jet准确不动，所以不能单独严格降低当前全域max；不派发此strict-max子族。[103列完整支持证明](notes/same-g-entry-body103-support-20261115.md)已完成：S=[0,54)∪[81,129)∪{153}，保60原列；W2/W5的完整ramp与入口O(x5)/O(x8)、Q止.36、逐圈Π使[0,tc]及[.765,L]外域六jet严格不变，.78曲率峰保持。轴上T值固定不代表角原函数或E固定。[新103受限算法](notes/same-g-entry-body103-restricted-step-design-20261115.md)首轮公开actual43691833140/source2f25b5aa/job132743956019运行中：r=cap1/4000、streak0，原12LP/40共享值/120活动秒，fullJ仍163；外域完整双soft给rho_out、常量hard/帽高只用原tol，inside零J保留，proposal正floor仅可变域，每轮固定域锁峰在J前退出。SOC只对新受限数组作准确正缩放等价。helper/lib/driver全文及最终人工已过；当前无新科学下降结论。固定b/平均Xs下界在本次必要初始化同次读取，完整原两网门及初末同态值输出；总下降1e−4仅诊断参考，未达到也不重跑延同预算。
 
 旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[strip](notes/strip-reserve-first-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)与源码全部保留。后继只为必要输入各恢复一次growth→strip→SOC，完整状态/池/g/b0及旧实际控制器如实记录、成本分账；103新阶段另明示r/cap1/4000、streak0，不继承旧fullspace控制器或强求任何旧canonical/hash。全连接同g精化、全域/全时reach与宏观幅度仍欠。
 
@@ -52,7 +52,9 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)已同时实现无开常段、完整pure准确控制及非零闭hook：正则前缀/真倒行保有限满锥，六类词结构保M/T/frame；原语九行IFT后全P IFT精确修成本，Baire覆盖全部原语/校正块与倒行发生位置，Klein按新位移闭合。但[R216](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)已证一个状态四阶flat点足以保常态σ² ruling障碍：同锚/同真实history冻结给K″=2K_const，所有允许gauge均不改。标准共同flat端口配R193原八包及其光滑邻域全宽度失败；其他状态保R187充分窄化排除。**不派发这些已排候选。** R218已付共用偶非平germ的真倒行/缩放桥/低阶与全pure控制；这只避flat拼口前提，仍须实际mixed/joint。R199新忠实圆的F门未评价，不继承原八包正性。
 
-[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)已准确支付新的偶非平端口类别：所有有限外/内部标记拼口h=h*exp(εσ²)、k/ω常，物理s与固定collar使可变长度下germ仍匹配；倒行/正H/桥完整兼容。端速度0支付原端势与成本同U，九行IFT、完整结构T词、全P IFT及Klein新位移保M0/TκH/pure0闭合。所有标记拼口h″>0，可同时去开常段；**尚未排内部未标记4-flat点，也没有解第四joint。** 下一R220证明受约束jet横截/Morse接口，须付有限约束导数为光滑积分密度、点jet可独立控制与全部发生位置，不能从Baire去开常段直接外推。
+[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)已准确支付新的偶非平端口类别：所有有限外/内部标记拼口h=h*exp(εσ²)、k/ω常，物理s与固定collar使可变长度下germ仍匹配；倒行/正H/桥完整兼容。端速度0支付原端势与成本同U，九行IFT、完整结构T词、全P IFT及Klein新位移保M0/TκH/pure0闭合。所有标记拼口h″>0，可同时去开常段；R218本身不排内部4-flat点；这一项现由R220受约束jet论证完整支付，仍未解第四joint。
+
+[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**R216不再直接排此类新几何，但它未支付任何新的mixed/ruling目标。** 下一R221从R56完整Bθ(w)给任意w的有限真实矩/几何系数，并在period核上明确必要充分成员与构造右逆；保所有右尾/累积history，不只数新方向。
 
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 
