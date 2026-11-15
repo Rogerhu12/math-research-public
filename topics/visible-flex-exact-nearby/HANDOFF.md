@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 21:48:49 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 21:49:06 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则和读取点
 
 只在公开 Rogerhu12/math-research-public 及其自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。PAT仅临时CLI/env，不入文件、输出、connector。根规12不另请审批。
 根规15只scripts/参数/run/SHA/真小结论，data/新数组/证书禁Git/Release/新artifact；topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入从immutable公开history/path/原artifact临时核SHA恢复。仅明确未保存的新量按H记录重做。无executor时根规8仅UTF8<100KB connector，禁binary/gzip和大日志。H≤10KB、open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 21:32:52定时CLI失败，下一≤22:32。ref不是pull。原SN真pull21:40:29.858672→d9466f8ba77abd78dc45c25230f0803c5a69d7ff，两README空diff；非FF保远端循环重推。
-最近只读README核：5240a858e181a32c17403d7c393ce75d736c44bd；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ac0777f30cc9eda1fddf2dd1940d952daf1b5d51；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 本次完整H/open/results/log前页保1d9b70965775f9bd0fea97a338ce0d67289750ae同路径，递归7b77/cf5f/062a/56c5/f6a9/a76e/576d/fcbc/d358/148a/e7；全部旧域/单位/mean/失败/lost/恢复/未付义务保留。
 
 ## 同一对象及真正完成标准

@@ -375,3 +375,5 @@ restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path；source/parent及endpoi
 独推32f770ec471af361dc3668bbe2ef37a0fddcd738/36867/SHA256 ccaaa1b17fd68ce64d79a7bdc40dae9c0843b610da11149c178e92079d495f31；同fixedν0真s0，piece Markov18/h,96/h²与完整7/6/19/83，D2 compact bump全δ ordinary jets→K3，SP原全段C+和ST qrc→qmin，不将旧η半宽或row790移作wholeν/root证书。
 完整Srr/Zr/O/a、band96/192/384/576、两窗/finite F0–2/mean row、WX MFG真dr积分与一侧Z jumps逐项留，FA forward/ng及ST两receiver各一次；最后SF difference强上界不冒单trial strong/incoming。原18body parts只读，旧target/ray/profile/预算禁重；新正标量结论待Actions。
 只读5240a858e181a32c17403d7c393ce75d736c44bd两README未变；七报告普通删367017B已成1d9b7096，SN/SC3沿原健康run。继续SJ小reader/SCI和KL root-leading逆，完整matching与总验收仍未达。
+
+2026-11-15 21:49:06 UTC · visible-exact-astra-0df9：修正SJ登记时压缩open的CYA链接为原actual-finite-Cayley-scalar-gap-and-selected-inverse，删误带的core 5956计数，恢复原7416 signed/root scope；原CYA证明和数值未改。只读ac0777f30cc9eda1fddf2dd1940d952daf1b5d51两README未变，继续SJ/KL与原SN/SC3。

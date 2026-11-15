@@ -45,7 +45,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [MI完整主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca的全式/mean/rank/ν=0及原域保前档/proof。Jensen dν≥1，K0/K−不含|ν|；须先实际Ei的Ci，再完整Ti−1左预条件双窗χ=K0CiΛJ^-4/3及RHS K0/K−，物理finite/mean Schur按新序，不借旧Green。SN终点和全incoming/R0待。
 
-[CYA实际Cayley逆](results/R133-supplement-actual-native-Cayley-gap-and-infinite-tail-inverse.md)2a5e9fb7/43757868884/18，原合同9a4e41c2与7416signed/root、5956finite配对及全部原证保1d9b70965775f9bd0fea97a338ce0d67289750ae同open/proof。仅native Jβ/actualselected |j|≥97、γ1/1024、一导loss逆256；全ES/finite/mean/旧R0、Ei/Eo/Bi−1/真背景/Schur/PDE仍待。
+[CYA实际Cayley逆](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7/43757868884/18，原合同9a4e41c2与7416signed/root全覆盖及全部原证保1d9b70965775f9bd0fea97a338ce0d67289750ae同open/proof。仅native Jβ/actualselected |j|≥97、γ1/1024、一导loss逆256；全ES/finite/mean/旧R0、Ei/Eo/Bi−1/真背景/Schur/PDE仍待。
 
 [GH强返回](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)须完整R:H(s−4/3)→Hs与χJ=128CsΛJ^-1/3<1；J97/C0≤1/32仅目标，phase不与physical P96对易，完整incoming/positive/root/normalizer/finite/mean/all-s费用未闭。
 [PD增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保rho15一导损、第四Robin/mean/腰、真regular逆/ν/非零S、D²tame/smoothing及可求和迭代；非同阶Neumann。全部准确式/域/费用逐字保aa68eac96e892932cb19ce1aa8a9add5f4d78cae同open/H及原proof。
