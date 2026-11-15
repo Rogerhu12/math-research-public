@@ -341,3 +341,10 @@ Euler六jet在cutoff×(y+y²/2+y6/720)处为−2，真紧变分严格给J≠0母
 [R313 完整证明](results/R313-complete-five-dimensional-J-self-module-and-fifteen-dimensional-image.md)从c𝔍=4D³(u′u″)−2D²(u″²)与完整query，得到统一q(B_E𝔍)=−∫(u′u‴+u″²/2)(Φ_Eu²)″。对P/R/S/U/T的真实affine左尾，c前两矩0给全部九矩零；全文五二导/十IBP显式给全部self，U/T的低阶D、C、E项全保。
 
 S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构为4链+常链，核span(J0,F)；旧H十链的self核是I0。有限幂零不变空间的非零交必含共同核，而反射与允许开区间内宽度次数−8/−7/−9排此交，故全self真像≥15。十五真实profiles可选忠实评价，配九矩/pure给24实际观测联控；不是全Q维数或一般joint解。R310与B_P𝔍/2仅self/T同，不冒完整成本同。纯纸证，无新执行。
+
+
+## R306：双 hook 的导数 rank-one 分类，及一般重叠圆的完整 Gaussian 正障碍
+
+[R306 完整证明](results/R306-derivative-rank-classification-and-overlapping-profile-Gaussian-obstruction.md)用原通量和右锚两常数给 H(g;ff)=0 iff Af(g′f″−f′g″)=0。双hook同时0时，W非零连通段的两导数各为正仿射的3/2幂，有限端点使C³失效，故双hook iff W0。范围含任意数量活动段与值的仿射偏移，不需GL2后可分包。
+
+对W0的任意真实重叠圆，whole mixed四行/完整面积与local式直接给同R304一层严格正值；全部C²、inner非紧尾、原gauge商保留，排整个强hook-invisible平面和regular弱核类。固定seed原第三周期只需一个hook，未误加第二个：Af0曲开段容许W非零，是下一真实入口，尚欠三矩/第三ruling/第四。纯纸证，无新执行。

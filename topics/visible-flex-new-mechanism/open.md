@@ -38,7 +38,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 当前直接后继：
 
-1. 对同一端芽的一般局部rank-two实圆，从原完整mixed槽重算同一annihilator：保 f″、g″及三导交叉、全部ordered尾，判断是否仍正定；不得凭重叠自由度增大宣可行。
+1. [R306](results/R306-derivative-rank-classification-and-overlapping-profile-Gaussian-obstruction.md)已从完整mixed原式推广正障碍至所有导数rank-one（W=g′f″−f′g″=0）重叠圆，原C²/ordered/Green尾全保。紧光滑双hook同时0⇔W0：若W非零段则两导数为正仿射的3/2幂，有限端点迫C³爆破。一般固定seed只须弱H(g;ff)=0⇔AfW0，第二hook不是普遍必要门。regular弱核类亦被排；真正剩余入口是Af=0的曲开段内W≠0。下一构造该弱单hook圆、准确三矩及原组合第三range，再求真正第四；不能套旧逐槽period或rank-one端局域结论。
 2. [R311](results/R311-continuous-rank-one-profile-orbits-are-rigid-under-the-complete-low-order-gates.md)已逐参数证明固定rank-one包空间任意连续轨道刚性：旧面积/三个directed门/新一层迫ci²=ai²，连通初值迫ci=ai，零ai亦覆盖。三矩本身允许真实sqrt(ai²+tv_i)非圆轨道，阻断来自更完整门。因此仅换圆为椭圆、高维幅值曲线或非GL2轨道不再是后继；必须离开这个固定包空间或改初始合法端芽。
 3. 若换几何端芽，从最初实际安装，并重新支付相应完整period/ruling及输入轨道。不能在已固定g上事后改seed/g，也不通过κ=0除零退化冒取旧公式。
 

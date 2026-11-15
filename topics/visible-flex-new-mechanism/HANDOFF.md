@@ -48,11 +48,11 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**R304完整正障碍**：0<κ²<.01共振偶芽，任意支撑不交实紧ui与f=Σaiui、g=Σbiui，旧全角A−1,−3面积迫Σci²diCi0(Ci=∫ui″4>0)，三个旧directed行清主部后，完整E−3的σh−2j0余量=−cP DκΣdi²Ci。全角给A4=5C22,E4=C22，故π/2实际系数=(41t²+27)N(t)/(15552he³(51t²+2t+8))∫g″4>0，N=16+184t−1713t²−2475t³−4590t⁴。真Green/ordered尾和合法gauge同We商全保；不需等B、同母/宽/低阶F或包序。**该整类排除，非主课题无解**。R311进一步逐参数用同一余量迫ci(τ)²=ai²，连通初值迫ci≡ai（ai0亦含）；固定rank-one包空间任何连续轨道都刚性，不仅圆。三矩单独仍允许sqrt(ai²+tv_i)真非圆轨道，阻断来自更完整门。下一原mixed槽核一般rank-two是否仍正，或从初始改合法端芽。不可再给该族加预算。
+**R304/306/311完整障碍**：同0<κ²<.01共振偶芽，旧面积+三个directed+完整E−3 σh−2j0给严格正系数 (41t²+27)N(t)/(15552he³(51t²+2t+8))∫g″4，N=16+184t−1713t²−2475t³−4590t⁴>15。R304排任意不交实rank-one圆，不需同母/宽/序/等B；R311同一余量逐参数迫固定包空间ci²=ai²，连通初值ci≡ai，任何连续幅轨道也刚性。R306从全mixed原式和Green/ordered尾推广至 **W=g′f″−f′g″=0** 的全部重叠实圆；两个hook同时0⇔W0，退化开段有限边界的3/2幂拼口亦严格排。弱原第三周期只需H(g;ff)=0⇔AfW0，**不强加第二hook**；regular弱核被排，但Af0的曲开段仍留真实rank-two入口。第三原range/矩与第四须重新支付。旧principal/有限门真但不能修复被排类；不是主课题无解。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 1674f17b3efcb6010cd69608cfcb70941c24f116，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 77572dc66bb2f40da58b4a9937968352b89e9c88，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
