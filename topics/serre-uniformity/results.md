@@ -104,3 +104,5 @@
 - **R836（已证明，准确短输入尚待）**：[原约化D的固定21点铅笔与短RR核](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)。由R835实际K1保ε未知，I_D=(I2:I_(C+P0))完整整商；权2两锚rank1213给精确共同零，完整T4时830/832×690核=M3(D)、dim295。不完整真实T′只给包含，实际295维或272个权2/3/4候选+962纤维minor与同度793认证全部D。未知r范围23…147，单B模列不冒称完整char0层；无新原截面/核/eta计算。
 
 - **R837（实际准确完成）**：[原P0评价与固定21点铅笔](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)。run43770995901/sourcefa17c77f，14.224433012秒；两个原Q右端取得146个P0值，cusp20真子式与P0核给完整397维U。u=U0+U1、v=ΣUj原支撑22/418，2760×1380完整坐标的1213子式665846025 mod1000000009迫共同零恰C20+P0；首a0秩900仅本试次。同prime固定u积复用，141完成stage、1413原源；final83234905/manifestfe2aee5e，artifact14184475817/ea610ed2。一日载体续必要CM/前缀，不称D/eta/height已得。
+
+- **R838（实际准确完成）**：[完整原二阶理想与最小三阶终止](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)。run43771598002/sourcef5fa479f，17.344589635秒；新det(G0+G1+G2)实际2408次、2429全节点，旧detG0原样复用，准确gcd395与原σ∞层0/1的非零minor给特殊余商≤415。proper有限DVR长度夹逼迫J2=I2、ε0、P0∉D、E2=C20+D；由R836的E3公式，原完整I3=C且最小终止阶恰3。未重算第三阶或旧导数；未称D坐标/eta/height已得。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0。

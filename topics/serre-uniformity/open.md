@@ -60,7 +60,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R837真实两锚已成**：[正式结果](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)run43770995901/job132986722252/sourcefa17c77f，14.224秒；原P0的146值/完整397维U已准确取得。原u=U0+U1(22项)、v=ΣUj(418项)，真2760×1380之1213minor665846025 mod1000000009给共同零恰C20+P0；trial0rank900只有限记录。141完成stage/1413旧源全SHA，final83234905/manifestfe2aee5e；artifact14184475817/ea610ed2至Nov16 22:45:47，最小carrier29497132B/c17f51a9。旧CM/前缀不重算；D坐标/eta/height未得。
 
-**原二阶长度实际已过，正式R838接入中**：[方法](notes/R827-original-order2-colength-and-complete-I2-certificate.md)e7888210。run43771598002/job132988566130/sourcef5fa479f，17.344589635秒，新det2408/2429全节点与旧d0(1320)实际gcd395；原σ∞只用层0/1。由proper长度夹逼得J2=I2、ε0/P0∉D；finald9674a45/manifest6b8d5c01、artifact14184482549/6f063bc0至Nov16 22:52:19。旧算术未重做，原D短RR坐标未得。
+**R838完整I2与最小三阶已成**：[正式结果](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)run43771598002/sourcef5fa479f，17.344589635秒；新det2408/2429全节点与旧d0(1320)的gcd395，原σ∞只用层0/1。proper长度夹逼给J2=I2、E2=C20+D、ε0/P0∉D；接R836逐点公式得I3=C且最小阶恰3，不再开q3计算。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0至Nov16 22:52:19。D短RR坐标/eta/height未得。
 
 **R836短RR与下一核**：[原固定21点整商](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保I_D=(I2:I_(C+P0))。两锚现已实际给出；真T_m完整源仍需截取。exact在写T11原齐次秩与Q5短商/830×690核入口，须真实2451/395子式，不以单B模向量或模核维数冒称char0完整空间。原D/eta未计算。
 
