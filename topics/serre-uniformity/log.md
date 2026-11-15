@@ -60,3 +60,8 @@
 - R806实际准确结果登记：w0=e2/candidate0/n1，cyclic p1000000007/z0=0/det489861234，34×8列全820；18组184/16组432 Dixon位，4725.462438秒，原正规整基及82尺度保留。
 - IO run43714843253全10603输出/2580旧输入与冻结verify通过，无数学重算；certdd266ee6/manifestcc569ea1，必要续接artifact14162500418/0639c595。实际pull12:38:13UTC读9651443b两README无差异；本次推前再actualpull读46b3c697/2026-11-15T12:41:25.643019+00:00亦无差异。
 - root已全文核R813 core/wrapper及最终alias/尺度diff，真实R806全部source字段对照summary；激活两个原S3 Wronskian，core830ae652/wrappere838f3ab/requestdec2573f，只复用原690逆、不消费34组Mw坐标。R787/R809继续，主目标OPEN。
+
+### 2026-11-15 20:48（Asia/Taipei）｜serre-public-astra-20261115
+- 登记原p11mod12的准确harmonic7源接口：root对照R812五端项/EO投影和低jets，核完整多项式分解及五Qpoly条目，均在P0消失。原harmonic theta的一次q原函数仍须指定CM FG比较，未声称单位或水平，note fc343d27。
+- R811首scope core849bca27/wrapper2a1d1c28及workflow/pending请求已全文审并保存：8好点插值、9固定准确点/全firstcol、CRT原子历史、原14字段与第二图t^5。真实R806 producer已绑定；唯有R809真A/B可激活，尚无乘法/极理想新数值。
+- R806实际结果已推74f5296a，R813 run43715253991已到数学步；R787/R809继续。H完整归档压缩；CAS遇并发后立即实际pull/rebase，2026-11-15T12:48:20.043066+00:00读4417e649两README不变再重推，主目标OPEN。

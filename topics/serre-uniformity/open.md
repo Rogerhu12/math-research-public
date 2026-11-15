@@ -79,9 +79,9 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R809（证明/契约已完成，84右端公开请求已激活）**：[原S5正规向量与有界乘法认证](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[契约](notes/R809-original-S5-normal-coordinate-consumer-method.md)。原1234列S5、69阶×20=1380行，共用一个真实新minor；先原R803/R807六个τθU_j的84Q右端，R787成功后追加A/B28且不换公共身份。保82^10、原b/s两块及B_fld=λb换基、τ因子最高项零；只补所需缺尾。实际normal向量经Mw的cyclic first-column/commutator及weighted bound给唯一乘法；只有限域数值Krylov逆，A/B各8点、r4各7点插值。四组4117输入已纯IO全核，core dedb5d61/wrapper3616aac1；见[工程与输入IO](notes/R809-public-activation-and-original-input-IO.md)。尚无S5实际minor/新坐标或极理想。
 
-**R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope的真实R806已到，仍待R809 A/B。
+**R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope的真实R806已到，core849bca27/wrapper2a1d1c28已root全文审并保存pending工程；仍待R809 A/B，C-only结果不可触发。
 
-**R813（两低权微分输入与完整导子认证已证，实际值待Actions）**：[两个原S3 Wronskian与唯一导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[执行契约](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，粗曲线加权Wronskian属于普通V_(r+2)(−cusps)；原G/J只需两个690维Q右端、全820行，146个τe_i旧V2直接复用，每目标仅一个新增weighted乘积，保原n/82及82²/82⁶。Γ界2+eps_a−eps_b，由Γe0=0及ΓMw−MwΓ=Mh−MgMw′和真实cyclic唯一；Mg/Mh六好点插值、七固定点终验，Γ五/六；两图修正须为矩阵−tMgσ diag(eps)，可在H有极。14个原L分量共用，同源导数比及原ρ保留。首工程只做两S3，已绑定实际R806 w0=e2并激活公开请求，core830ae652/wrappere838f3ab；不预填导子矩阵或极理想。
+**R813（两低权微分输入与完整导子认证已证，实际值待Actions）**：[两个原S3 Wronskian与唯一导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[执行契约](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，粗曲线加权Wronskian属于普通V_(r+2)(−cusps)；原G/J只需两个690维Q右端、全820行，146个τe_i旧V2直接复用，每目标仅一个新增weighted乘积，保原n/82及82²/82⁶。Γ界2+eps_a−eps_b，由Γe0=0及ΓMw−MwΓ=Mh−MgMw′和真实cyclic唯一；Mg/Mh六好点插值、七固定点终验，Γ五/六；两图修正须为矩阵−tMgσ diag(eps)，可在H有极。14个原L分量共用，同源导数比及原ρ保留。首工程只做两S3，已绑定实际R806 w0=e2，run43715253991/source74f5296a运行，core830ae652/wrappere838f3ab；不预填导子矩阵或极理想。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
@@ -106,6 +106,9 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 原p43、776bit q已Gaussian5排除，不是Serre反例。R773/776/779/780原格/cochain/real/NT像已成，三个Norm/深度自动，不决定真实Robert值。R783原Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ，坏值Θ=11；平衡jet Θ=−iKq，坏Kq=11i。实际Robert/Kummer/Shapiro、global dual、Θ仍缺。保Euler因子和一次交叉相位，不做巨大q挠点枚举；真K子域乘积/43次幂及小11次角色都不能代χ±1。
 
 ## 运行和续接
+
+
+**惰性Gaussian分支的准确剩余源**：[原harmonic7接口](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)。p11mod12五端项/EO投影给P7/(a²+b²)，严格分解为五阶多项式加H7/(32(a²+b²))；原低jets给五个Qpoly条目，P0均零。余项是指定level6 harmonic theta的一次q原函数，整体由原Q定义，仍有源；其本身非零不等于原CM的FG条目单位。真正原条目代数/period比较与同h primitive/Legendre仍待完成，无新有限窗。
 
 根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive已准确完成，R813两S3请求已激活，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
 

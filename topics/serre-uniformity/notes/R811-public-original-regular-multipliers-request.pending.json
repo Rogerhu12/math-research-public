@@ -1,0 +1,73 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R811-original-regular-multipliers-and-polar-preimages",
+    "p": 41,
+    "requested_stage": "base_regular_multipliers",
+    "requested_targets": [
+      "A",
+      "B"
+    ],
+    "budget_minutes": 300,
+    "producer_inputs_pending": true,
+    "auxiliary_prime_start": 1000000007,
+    "matrix_row_block_size": 16,
+    "reconstruct_every_primes": 4,
+    "exact_commutator_mode": "deterministic_integer_points_with_weighted_degree_bound",
+    "core": "R811_original_regular_multipliers.py",
+    "core_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "wrapper_sha256": "2a1d1c286ca26e37b784bdc94d587e056e69732f9a60bb26840ee8f07f340e8a",
+    "proof": "results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md",
+    "R811_proof_sha256": "263d8a15085c3fc053dac1df546ad0c3efb565d67ce312c78ec6e5ddb4dccf78",
+    "method": "notes/R811-original-regular-multiplier-and-polar-preimage-method.md",
+    "R811_method_sha256": "5b4b736071600f4b8d4b58d9028f54dc48be852584c61e865d18885f4b608d7d",
+    "workflow": ".github/workflows/serre-p41-original-regular-multipliers.yml",
+    "retained_artifacts": {
+      "R806": {
+        "result": "R806-original-primitive-multiplication",
+        "run_id": "43707290840",
+        "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+        "artifact_id": 14161637987,
+        "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+        "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+        "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+        "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+        "certificate_name": "p41-original-primitive-multiplication-certificate.json",
+        "files": {
+          "p41-original-primitive-multiplication-certificate.json": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99"
+        },
+        "archive_bytes": 203879878,
+        "input_carrier": {
+          "role": "unchanged_original_selected_files",
+          "original_result": "R806-original-primitive-multiplication",
+          "original_run_id": "43707290840",
+          "original_source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+          "result": "R806-actual-success-pure-IO-review",
+          "run_id": "43714843253",
+          "source_commit": "9651443bdb3b230762eb38e95cad28adef93af94",
+          "artifact_id": 14162500418,
+          "artifact_name": "serre-R806-success-io-audit-43714843253-1",
+          "archive_sha256": "0639c595ee520703de250e106f710ae0984521d5366f52d58c027f9087e08729",
+          "archive_bytes": 109619510,
+          "expected_conclusion": "success"
+        }
+      },
+      "R809": {
+        "result": "R809-original-S5-normal-coordinates",
+        "run_id": "PENDING",
+        "source_commit": "PENDING",
+        "artifact_id": "PENDING",
+        "artifact_name": "PENDING",
+        "archive_sha256": "PENDING",
+        "manifest_sha256": "PENDING",
+        "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+        "certificate_name": "p41-original-S5-normal-coordinate-certificate.json",
+        "files": {
+          "p41-original-S5-normal-coordinate-certificate.json": "PENDING"
+        }
+      }
+    },
+    "resume": null,
+    "pending_reason": "Actual R806 primitive certificate and unchanged selected-file audit carrier are bound. Actual successful R809 A/B normal-vector stages remain required; C-only R809 success is not sufficient."
+  }
+}
