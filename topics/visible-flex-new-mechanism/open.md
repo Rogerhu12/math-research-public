@@ -161,4 +161,6 @@ R292保YW真右累计，R295由末真实high/low迫整T_B0、各self q_i0；q有
 
 [R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。[R303](results/R303-complete-self-degree-nine-and-all-translation-control.md)已把R301完整五维平移推进为固定母包**全Pol≤9**：原场含真实移动左尾，唯一c10项由m'_p2=−kh/2/M0端值消；H6×p2整矩阵零响应的N9最高完整self非零，10条链给准确下界。whole pure/9矩/同母全部允许中心可真19观测联合付，任意有限包数不再新增插值门。不同母/不同宽度及Fang高频改shape仍须同一几何的兼容；不是全Q universal函数像已解。
 
+[R307](results/R307-universal-degree-nine-self-layer-and-real-elimination.md)进一步给完整普适最高层 [c9]q=D9(B)I(u)，D9=∫kh m_p2 m_t1/16+∫k h_s m_p2/128。保真c3W2/η、完整能量及移动尾；J/I1项只因∫khm²0消。R9=−B_p2(H6)/1080为pure/T核单位，真实m10联控；若R303已清一非零母全平移，则D9已0，**同一几何全部母包次数≤8**。下一处理ker D9的完整低层，不重复最高层或假称全Q已清。
+
 **下一同一选型下支付全部self/完整period/同w，并核与Gaussian母包的选择次序。** 单个预固定u不等于所有最终q_i或整self函数，分别满射不能相加。数值run43728280256已成功，原大日志读取连续传输closed，补只读原log的公共观察步骤，未判actual改善。
