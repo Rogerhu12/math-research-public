@@ -98,3 +98,5 @@ R724附录B：原primitive理想射线、严格正径向因子及固定短方向
 - [R735](../results/R735-two-type-five-schwartz-and-rank-one-negative-moments.md)：已证明两型5线的全2/3/17 Schwartz、共同全权规范、严格解析秩一及真正Katz负一值；同步周期给原两负矩等于代数常数乘R733两对数除共同Ω，故实际R734组合非零。固定p充分大N的原P31行赋值准确N+v<2N；完整外部仍反号相消，中央目标未关。
 
 R731[高ρ增补](2026-11-15-r731-complete-third-carry-and-high-rho.md)：完整第三块保原M的η·镜尾活项；指定镜尾若未延到2h，遗漏十三行及k行给真实两p。延长后H_B的非常数部分为原类不变量，未决低行支准确为高ρ、真2h延拓和H_B常数；全WD/同R仍保。
+
+- [R738](../results/R738-actual-balanced-families-and-original-kernel-prefix-alternative.md)：已证明同H2平衡c线性/二维家族的全十九角与极度独立性；全部吸收会给多维真原首核，准确分次帽遂产生更高前缀核。仅在原cube已经是全K1最大前缀时才能转成指定单位类，保新核可能非cube和全WD/同R。
