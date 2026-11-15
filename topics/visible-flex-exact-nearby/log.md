@@ -229,3 +229,7 @@ S新consumer SCI564759dceb4b38dd37fdd275d0fa3e22cdf2efa271cd9ef1049c6cfa4ff121f6
 ### 2026-11-15 09:13:45 UTC — 新94到实际B collar及三径graph源单独推送
 
 README只读核2d14d37b8fa4b2b4e7d411ae35f73cd0cd3e54de无变。root全文核，newton回读E/A/D/P并独核5jet符号/aw单位/8192费用和source指数，phase复核同接口；只补L10整参数族→L15唯一性及m∈4Z的准确量词。正文17729B/SHA ee52b1480b4d0d3a5de7e582c3c0f45462f601e4a0211b27443eb2ea8ee6fa73。E8192种子<2^-54866996、三径source<2^-5275847456为同对象实际界；meanheight外侧常数/一λ/coefficient第三jet和高度第五broken跳全保。B*≤2^6000000为明确未付条件，未以初始matching冒PDE或augmented解。
+
+### 2026-11-15 09:14:55 UTC — 两rough输入实际帽图单独推送
+
+README只读核36f7152b0b32072dd938f22e67d4d861484b266a无变。全文核M1–28，tail独核two-species/kernel/weak/means；final20064B/SHA 8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b，仅澄清非mean输入species与全部mean输出/λ独立。零宽完整product值域、known-only辅助平移、mixed kernel加权列和/one-high、finitejet ad4与全双向Schur均按完整模保；q≤8160的tame及γ H^-3/2/fB Hhalf导数列已付。不把rough复composition、内frame或全ν/augmented匹配冒通过；继续真实接口扰动。

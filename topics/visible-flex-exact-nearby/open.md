@@ -177,3 +177,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 新94种子的实际 graph 入口已闭，外部增广门继续
 
 [G真实B collar](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)已完成：原同一positive首段、d2^-1024、5jet真实单侧PDE/Hermite、物理aw ratio、完整mean投影与唯一λ均付。种子E8192<2^-54866996，三径完整source<2^-5275847456；不能再将far残差到graph入口列为未做。所有候选Γ1上的负分量输入准确不变，值图唯一性保同Γ1，Γ2已固定。下一入口是同actual far外行的低form/独立weighted N2、B*和全部cap内/height/ν/flux/frame增广Schur；它们不由本种子自动通过。
+
+### 两rough输入的实际帽—高度值图已闭
+
+[M完整混合图](results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md)删除此前unknown γ须解析的限制：同γ A0<1e−9/fB dotA²0<2^-60全4Z唯一图；两species one-high q≤8160及完整弱内端列/adjoint、两mean/phase primitive/height span已付。非线性值图仍有low域，弱H^-3/2 γ是实际finite-jet背景的导数延拓，非任意distribution的非线性解。下一门是这些真实内B/Cmean列与原负body/ν/height/flux/框架的同单位全Schur；实际帽偏离原linear参考的operator门须另验。

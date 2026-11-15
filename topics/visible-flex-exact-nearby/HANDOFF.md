@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:13:45 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:14:55 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推，非FF立即真pull --rebase再推至成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及08:44非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:10:46.492374 UTC a39a3783181ae671015efca4c55120d4269ad1c5，两README diff空；ref读不冒pull，每小时继续CLI尝试。
 根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector只UTF8<100KB、禁binary/gzip。旧输入runner从immutable commit/path或既有artifact临时恢复。H≤10KB/open≤30KB。
-最近只读README核：2d14d37b8fa4b2b4e7d411ae35f73cd0cd3e54de；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：36f7152b0b32072dd938f22e67d4d861484b266a；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前全部逐字检查点保存在7acf18ba28b29550117544e5e7b42b923587f6c5:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
 
 ## 总完成门与固定对象
@@ -44,7 +44,7 @@ E/0e6c0f6a…加权端点→X/8b49cd59…同η0/ac1/440866、[.9,25/8]全模实�
 H/4480f77b…真实CR→height，LC^-1<9、完整DZ<10、ΦdotA²σ<rf1e−8；半fB导<2^35/γ半导<20，κ两mean/physicalaw/一λ完整，far行独立。
 F/3959bb36…zero-width full4Z真实Φ已付：Bmean右lift≤1、额外Lip2^-49，主体仍.881；fixed analyticγ、rough fB规范U=|D|²fB/2^-60低A0≤1/16。只平移known数据，完整Taylor加权列和→Young one-high，q≤8160/Cq=2^{96(q+32)+16384}；4jets/ad4双向Schur，Φ Hhalf/curvature H^-3/2/meanheight导<2^128。root全读/newton独核。
 Y/0a08995f…实际物理→moving读出已付：Rej>15/32/lift单射/image含σ/16，τ2^-18联合pair<2^21；exact meanΘ−id=0、m=1/C0、ubar=B0/C0。q≤8160值/analytic参数半球导<2^262144，非rough复composition或tiny高球。
-M两未知γ/fB zero-width稿390a2462…19903B/e3654041…待root全读/tail独核；不预授mixed/weak/inner。所有inner独立C0、B、frame/position和全ν/接缝继续。
+M/8d9e0bf3…20064B已付两rough输入γ A0<1e−9/fB dotA²0<2^-60的完整帽值图。两species ℓ1混合kernel，low≤1/16、q≤8160/Cq2^{112(q+32)+18432}，高仅finite；larger low≤1/2、J4有限的true弱列2^144(1+J4)^4，γ H^-3/2及fB Hhalf→Φ Hhalf/全curvature H^-3/2。B/C0、longκ/height、物理phase primitive/m/ubar/GaussA全在，λ独立，无未知complex角composition；root全读/tail独核。帽内actual operator扰动/newton接，全frame/ν继续。
 
 ## 体积与当下执行
 
