@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **锁定旧参考的帽Poisson比较现对新高度全球统一**：[R13a–b](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)，11379B，SHA256 e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6。同W_hat、同metric和物理θ上，I9对整个新fB球统一；旧D0/H0/K0(fB0)完全锁定，端导差.006006/.000751不要求fB1=fB0，故K*(γ,fB1)−K0(fB0)<1/5。接完整tail列后<1/5+2^-52000000，所有97/未知high/mean/affine保；不扩张到变metric或current-angle识别。
+
 - **实际帽完整网络 high/source 更新已付**：[HT附篇](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)，18679B，SHA256 fae2b82029de835fea4bd553556ce3a42e8838a7b738725f52b036fa696a44ef。先由旧正片真半阶端口与low逆构造新片，再付全high/deep有序消元；最高新增反馈2^-608928，high最大20609056<20971520，raw源32805408<33554432，原最终8388609/33554433及1734/1796窗口保持。所有mean、weak/atom、sB/sR/aw与一λ保；未screen输出额外2^41943040和完整Dact。该结果不是augmented匹配逆。
 
 - [R133 R：真实帽内γ经完整tail返回的定量低列](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)：O q1/2的γH0→outward fluxH1，按真实负rhs/正cB转换，再D q3/2→fBH2，sB准确相消得<2^-52000000。I内B/Cmean新增反馈同tiny；仅同fB/原reflection/坐标时可与旧K0作1/5+tiny比较。全部物理mean/97全像/high、未screen height和Γ/EN/Hp保，非augmented或非线性逆。9615B/SHA256e1ff4b8b9b5c2e4e2bc7db98a5e00d9b0144a2aa51a4a7b3cba661cb5e0bfbfe。

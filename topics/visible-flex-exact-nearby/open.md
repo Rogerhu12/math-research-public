@@ -158,8 +158,9 @@ waist、两Γ、ν、flux及完整97/mean Schur在同一物理单位联立。
 K*−K0<1/5。比较包含H_R、完整ΔQ两源、真实outer非mean与Cmean两差。
 独立fB列<1/25 dotH²、内B/Cmean affine≤ρ均保。
 原97匹配输入是Pperp HC0 u的全物理像，所有未知high块继续存在。
-这个比较固定同一fB和旧moving坐标；改变body背景时需实际DΨ变换，
-不能将composition−identity冒作小L²。真正HY/全Schur仍待。
+原I先保守固定同一fB；R13a–b现已扩展到新fB的整个原球，
+仍锁定旧K0(fB0)、同metric/θ/修补中心/H0与旧moving坐标。
+改变body metric或角表示仍需真实DΨ转换，不能冒小L²；HY/全Schur仍待。
 
 [R实际帽内γ经完整tail返回](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)
 已给fixed-background、fixed-metric Jacobi proxy的
@@ -167,7 +168,10 @@ K*−K0<1/5。比较包含H_R、完整ΔQ两源、真实outer非mean与Cmean两�
 真实outward列转short RHS为−Pμ(rμbγ)，raw cB为正mean；
 q=1/2与q=3/2的两个窗口及sB抵消均显付。
 I的cap内height列给inner B/Cmean附加回馈同样小，
-若另满足I的同fB/原reflection/坐标条件，距缓存K0<1/5+2^-52000000。
+R13a–b在原reflection/固定metric及坐标下解除同fB条件：
+新任意fB1与锁定旧fB0仍距缓存K0<1/5+2^-52000000。
+证明使用同一W_hat和I9全product统一端导界，旧H0/cache没有重新定义。
+改变height的value affine和独立L*δfB仍保，不借此识别不同metric。
 所有97输入仍先经Pperp HC0全像；未知high/mean/affine荷不截。
 该小列不支付Γ/EN/Hp、设计ν、未screen height或完整augmented逆。
 

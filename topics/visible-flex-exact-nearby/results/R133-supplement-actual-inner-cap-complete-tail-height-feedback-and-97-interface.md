@@ -184,16 +184,52 @@ $$
 特别同一上界控制两个inner输出差的norm之和，
 不是逐行取最大后丢掉Cmean。
 
-如果当前$f_B$也满足I与已缓存$\mathcal K_0$比较时的同值条件，
-则可以严格写
+这里可以进一步解除I为保守起见写下的“新旧$f_B$同值”限制。
+准确的扩展是：**固定同一个intrinsic metric、物理角、修补中心和
+旧缓存reference；允许新$f_B$在M原整个height球内变化。**
+它不将当前moving角或metric变化识别成旧坐标。
+
+固定旧$f_B^0$以及由它定义的$D_0,\mathcal H_0,G,\widetilde G,
+\mathcal K_0(f_B^0)$，令新高度为任意$f_B^1$。
+X/M的共同中心始终是同一个$\widehat W$，不是按$f_B$重新定中心：
 $$
- \|\mathcal K_{\rm right}^{\rm proxy}-\mathcal K_0\|
-                              <1/5+2^{-52000000}.
+ W_*(\gamma,f_B^1)=\widehat W+x_*(\gamma,f_B^1),\qquad
+ \|x_*(\gamma,f_B^1)\|_{X_0}\le\rho .
+ \tag{R.13a}
+$$
+M.2--4和I.9的平方零Hilbert模块界在完整product域上统一成立。
+取$\partial_\gamma$时仅令$\delta f_B^1=0$，准确端点差现在是
+$$
+ \Delta T=D_Zd(Z_*,f_B^1)-D_Zd(Z_0,f_B^0),\qquad
+ \Delta C_0=D_Zc_0(Z_*,f_B^1)-D_Zc_0(Z_0,f_B^0).
+$$
+分别对两个完整算子用I.9和I.10，仍有
+$\|\Delta T\|<.006006,\ \|\Delta C_0\|<.000751$。
+这个triangle估计无需$f_B^1=f_B^0$，也不需把两个高度之差当小扰动。
+
+新bulk仍是$D_0-\mathcal V T_Q(x_*)$；旧$\mathcal H_0$仍是
+锁定reference的非zero residual Hessian，绝不随新height重定义。
+所以I.14的两坐标界、I.20的准确ordered identity以及I.21的全部
+有理上界逐字成立。得到真正统一的结论
+$$
+ \sup_{(\gamma,f_B^1)\ {\rm in\ the\ original\ product}}
+ \|\mathcal K_*(\gamma,f_B^1)-\mathcal K_0(f_B^0)\|
+ _{H^0_{\mathrm e,\perp}\to\mathfrak M_\Sigma}<1/5 .
+ \tag{R.13b}
+$$
+上确界仅在原reflection sector取，原$D\Psi_0,S_0,H_{B,0},H_{C,0}$
+和缓存identity全固定。I.26--29的完整97读出因而也适用于此扩展。
+
+在同时满足O21的背景上，将(R.12)加上这个统一界，严格得到
+$$
+ \|\mathcal K_{\rm right}^{\rm proxy}
+             -\mathcal K_0(f_B^0)\|<1/5+2^{-52000000}.
  \tag{R.13}
 $$
-若改了原参考的prescribed $f_B$或坐标，
-则仅(R.1)、(R.11)--(R.12)直接适用；
-原参考的相应差必须另付，不能据I的统一标题偷换缓存身份。
+height改变引起的value affine mismatch仍由实际$x_*$读出；
+独立导数$\mathcal L_*\delta f_B$和联动列
+$\mathcal L_*\mathcal F_\gamma$也都保留。此引理没有改动或重算旧缓存，
+没有把不同metric、反射轴或当前moving角之间的差免费设为0。
 
 在原97 moving输入中仍是先取$P_\perp H_{C,0}u$，
 再经(R.11)的全物理输出及原$S_0$和mean行。

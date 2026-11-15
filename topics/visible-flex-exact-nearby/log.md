@@ -301,3 +301,7 @@ I内height列<1/25给全B/Cmean附加tiny；只在samefB/reflection/固定旧坐
 ## 2026-11-15 10:00:52 UTC — actual cap 外行的完整 high/source 费用已核并独推
 
 root全文复核HT；newton独核N.5–12/N.16–21/D/L原端口构造、HT8–14无循环和HT18a源号数，phase独核全部数账。最终28b85bd7cd956959c6c2911e0d5300cb685a70b6，18679B/SHA fae2b82029de835fea4bd553556ce3a42e8838a7b738725f52b036fa696a44ef。8C*、物理半阶、全部未知high/mean及真实adjoint保，原tame常数在明确O21域内继续有效；尚欠single-G端口联立。Green root读09:53真pull到af766074f7f7c5a583d5028ec25cf934e8f726ad，两README diff空；future4368/past1808/product3552、0groups，无异常，不更换活动计算。只读main核ec2c5fe278e1c4b90a3068d4596ecbde63818f1d，两README未变；09:54非FF即真pull失败仍无executor，按小文本例外重建后推成功。
+
+## 2026-11-15 10:02:07 UTC — 解除旧缓存比较中的保守同height限制
+
+root重读I.1–21和M.1–4；newton独立回读X/M、S.10–13及实际outer_diagnostics，确认中心固定、端导界对整个product统一。R新增13a–b，不改变旧fB0/cache/残差Hessian/physical θ；允许actual fB1不同，严格triangle仍给1/5。完整tail联动L*Fγ及value affine独立保留。新blob c4f5e34c3ddde6fde42968aa48b59b7ab8ef5731，11379B/SHA e188d4e3d14ea97a17949c3da5d9867800ea7b8a07f88e0baba80ec373dfa0d6；未重算任何成功数学。只读main 3ee6c53840032444b2b88bb4ff98d69f038239d3 两README未变，单结论独推；继续single-G全匹配。
