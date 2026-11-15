@@ -104,3 +104,5 @@ R731[高ρ增补](2026-11-15-r731-complete-third-carry-and-high-rho.md)：完整
 - [R736](../results/R736-original-fixed-brandt-vector-and-complete-first-wild-incidence.md)：已证明原B3/R10404的固定368类、plus184与47整坐标模型；全Hecke公开精确核47→7→1，原primitive向量c_int=81/68。所有A_t由同固定v及完整模p²反Fermat的C_p读取，原δ配对/绝对比例/全部同步项保；C_pv的无限p非零及中央桥仍开。
 
 - [R737](../results/R737-common-depth-elimination-and-native-primitive-strips.md)：已证明同q*原E/Z全部共同深层的31阶整消元；真实负一非零移到四unit及两条第二态返回的有限primitive组合。完整移动门、条件质量和各外部端点均保，固定p深度赋值仍N+v<2N；paired-T外部依然准确反号，原中央未关。
+
+R738[零角Gauss增补](2026-11-15-r738-zero-angle-cap-and-high-rho-prefix.md)：原因子角值d0≤floor((4r+2)/3)收紧真实H2与高ρ镜轴前缀容量；2d0−1个独立Z输入足给原单位列、两p显示块或更高前缀非cube核。r=ell1最多三个平衡c；没有假定cube全核最大前缀，完整WD/同R保持。
