@@ -20,11 +20,11 @@
 
 core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163参数，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬；全失败历史见notes/open。
 
-**最新43658064177/source bf3497f2阶梯已跨65，60未到。** 最后合格完整状态 **d1ca5fa0be2942c7f1537ac72fc6d20c42944443059ed5e237361c0d334abf13**，384/768 κ63.5171748200/63.5171629953，η.267199730091/.267199730192。fine metric余2.698e−7、内strip余2.7451e−7、mirror.101097082322、cap.142704200843106（余约1.05e−15，非严格积分余量）、ball².990502937829、minz.02、盒0。仍远离metric1e−6；τ.061局部reach要κ≤16.39344，更欠全时/非局部证书。
+**最新SOC43660745541/source3fd3bbe8已过60，55未到。** 完整合格态 **b03c522ade58ec0c7a5a4bfb3af971a430adabf080cf0d8cdeabab4c0c3b4cb5**；384/768 κ59.7024555375/59.7113011800，η.267192635719/.267199711466。fine metric余2.8853e−7、strip余8.25784e−8、mirror.100710930007、cap.1427042008431097余4.94e−15、ball².990484835863、minz.02、盒0。metric距1e−6仍很远；局部τ.061要κ≤16.39344，更欠全时/非局部reach。
 
-从d0d635经5次两网接纳；模型4实际κ64.98053后才进60，粗细池保留并扩至3994/134。9LP、40共享值耗尽（另2只读末值），活动52.589s/总338.065s/RSS1916376KiB；非120s耗尽。模型7/8的α1/32仍coarseη.267200855/.267201202超门；trust .01→.005→.0025时完整提案max步约.0167不缩，须修改真实提案长度控制或处理二阶metric违反，不能原样续六次大步。
+model3 SOC粗过细漏4行拒绝，model5真双网接纳，原步norm.00107878/最大.01726，修正最大.000802734。55阶段原步顶trust.01/max.16/L2~1.34，连续新行返回，未进SOC。12LP=10原+2修正，23/40值+2末值，活动55.806s/初始化359.609s/总430.614s，RSS2272136KiB。最终粗/细池4198/1118全部保留。
 
-源02bb1eff/6dde89c7；完整raw3836489B/fdec1a57、gz587863B/e41f70fb，summary45033B/10f680a5，完整trial/池/系数已存。详见notes/curvature-target-ladder-first-actual-result-20261115.md。下一仍同g/b0/163/原物理门，mechanism做最小真实步长/恢复接口；所有新trial须两网原门通过才接纳。54/53末三行支持纸证仅备选，不启用。
+原SOC库3bc2df4e/drivercd01144d，完整raw3829998B/83d11b3b，gz482408B/ada9c24d，summary47186B/dd3aeb20。详notes/curvature-soc-first-actual-result-20261115.md。下一严格16输入从b03c，成功量级trust **1/1000**；不在阶段切换恢复.01，仍同12LP/40值/120s、g/b0/163和两网原门。mechanism写最小consumer，54/53备选不启用。
 
 ## 4. 完整第四成本：当前已付结构
 
@@ -63,6 +63,6 @@ R138原差证G[-4]=B_p2(W1)[-4]/128，整个轨道pure入R。R151 actual43657785
 
 R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)/16由复极化忠实，已有响应核31/已知完整核34无需重验。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B。R160 actual43660884663/sourceb41c6f13已付J6[-4]=K6[-4]：K6=−C0/64−C88/64−C41/128−C73/32−5C81/128+C193/256；307项原差零，0.1905s/RSS57.992。下一仅Ξ(J6−K6)一条fresh balanced差，零才认完整成员/c0零，非零NF仍未决。
 
-几何SOC **43660745541/source3fd3bbe8**运行中，源3bc2df4e/cd01144d；15输入、同g/b0/163、12总LP/40粗细值/120s。真两网残差L1修正，半步幅/半预测改善，遗漏先补池回合格点。J6 pure已结束；R161 actual43661460271/sourceae7e5af3：502项balanced差留176项、45fallback，仅未决；0.509s/RSS69.414，10根37430B/94ded571。下一R162单J6隐式43原评价，消费旧42矩阵+R153残差，不补旧单列或重NF。root独占Git。
+几何SOC已登记，mechanism接继承成功步尺度的16输入consumer。J6 pure已结束；R161 actual43661460271/sourceae7e5af3：502项balanced差留176项、45fallback，仅未决；0.509s/RSS69.414，10根37430B/94ded571。下一R162单J6隐式43原评价，消费旧42矩阵+R153残差，不补旧单列或重NF。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

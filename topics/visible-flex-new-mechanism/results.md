@@ -333,3 +333,5 @@
 - [R160：J6一般pure六列身份与唯一balanced入口](results/R160-general-pure-J6-identity-and-balanced-mixed-entry.md) — actual43660884663/sourceb41c6f13只消费R151九旧原基和代表，准确证J6[-4]=K6[-4]，K6=−C0/64−C88/64−C41/128−C73/32−5C81/128+C193/256。62项新目标与307项fresh原差，准确Q零、无cycle；0.1905s/RSS57.992MiB。故J6及整个正仿射轨道pure可付，H6=J6−K6真实pure零；不新增维数或lineality，不认c0零。R159使后继只需一条ΞH6原差，若零才升级完整身份；旧40/31、mixed/profile/forcing均零重算。
 
 - [R161实际：唯一J6 balanced原差仍未决](notes/R161-one-balanced-J6-difference-actual-boundary.md) — actual43661460271/sourceae7e5af3消费R160已证Q身份，只1目标+6旧mixed根；1335项完整差的502项balanced原差归约留176项（45cycle fallback），0.509s/RSS69.414。没有新增成员/非成员、维数、c0或b1零条件。10原根及余项全存，下一单J6真实原评价可消费旧42枢轴与R153残差组成隐式43比较；不提高NF预算或重pure/旧31/40。
+
+- [SOC首轮实际跨过曲率60](notes/curvature-soc-first-actual-result-20261115.md) — run43660745541/source3fd3bbe8保持同g/b0/163，model5的真实SOC使双网κ63.5172→59.7113、全部原物理门通过。model3细网漏4行先拒绝；最终b03c522a，fineη.267199711466、strip余8.26e−8、cap近活跃。进入55后主步.16约成功步九倍，连续补池至4198/1118，未进SOC；12LP=10primary+2SOC、23粗细值、活动55.806s、总430.614s/RSS2272136KiB。下一继承成功尺度trust1/1000与全部池，同预算续55，不放宽门或宣连续reach。
