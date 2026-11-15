@@ -471,3 +471,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R781**：[大惰性素数下的原有理饱和前缀和精确负层](results/R781-original-large-inert-prime-saturated-prefix-and-first-pole.md)。D8/p953的整个160×165原前缀有单位子式det328，首极点行增秩至161；真实有理核的STU6见证极点210，故原物理层范数恰953。先付单位子式再用模p核，未将有限结果泛化或认作中央非零；公开producer/run/hash全存。
 
 - **R780**：[原第三中央在B第二态、真实W深支及E浅共同帽上的返回](results/R780-original-third-central-b-state-and-true-w-deep-return.md)。同q*原E深表准确给B第二态Y行[1/2]U136+δω²S/2，原E2312规范/scale质量保。奇W深逆观察给独立JU约束。**§6(28)已更正**：共同帽∩W深实际Eunit，与第三E深行相斥；裸帽返回须保E浅Ξ及全部参考/外谱，不得从第三零行相减。
+
+- **R783**：[原帽的完整P像、CD全失败支与真实中央非零解析行](results/R783-native-hat-images-and-nonzero-cd-exterior-central-row.md)。精确斜帽/U失败保，三E深盘互斥及全浅补集已付；原正一unit矩与条件负一矩经正整数幂逼近，证同帽像T中央C_N非零、所有充分大ℓ精确首项，不假设固定负五非零。完整有限T分区/余域及有限两分母非零point左行同时保，未以局部非零代主中央。
