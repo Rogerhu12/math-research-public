@@ -102,6 +102,8 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 179保原169同一owner真实H/J、三扰动/两法FD、8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。新sampler32166470/reader1d055037、recipe d926cecf/request fa5cc945/wf14352ae2；59/52/26闭包和五输入/准确构造/原参数不变。R375全闭barrier及非恒幅度a(t)符号参与R357逐候选norm后hull，完整112与未访事务保；数值代表/中点/JSexp不证准确C或无限非线性DN。C3600、sampling14400+1800在startup按余量同比例clip/BVP7200/360job，namespace不冒全流程绝对kill；单90KB必要sampler/native/BVP，全部早期trial仅内部身份且范围明确，六读回/新marker/owner静止后清，错误/超限不分包或主动删raw。原初点准确域反证继续保，不外推p3全搜索无解。
 
+[实际coast点→完整BVP输入组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)已保存21230B/37ea635a：九准确系数逐binary64原词相等，必须同现场真factory result及全definition，不伪造producer；只改原179请求号/初九词/来源/新binding四字段，原算法和全部门保。当前180是旧165对象，尚无fresh-C输入模式/实际后继workflow；新C现场须沿真实修域算法重付后再factory，旧β只能作候选，旧域不借新盒。未选/投影非零不造新配方，后继活动p的域、numeric误差和同g责任继续保。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

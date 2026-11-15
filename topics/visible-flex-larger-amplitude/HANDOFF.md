@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:21:54 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7356f791171c35f974b3b71a669010136b3d858c。
+规则同步记录：2026-11-15 19:22:29 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 945c88393d30c68157d55b8945cdb45048760f31。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -60,6 +60,8 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 [181完整入口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)五件已发250474d7/e020b7e9/dc8647bb/9d2c9af8，exact核R385。原19pins/C3600/深族112/cut/事务保；全角lift/正log/二幂、Taylor正dot及逐候选物理单位Robin，DN独立高度隔零，不造nativeμ。head14400/25M/256bits/depth32/norm1/4/18900启动clip/360job及读回清理见接口。
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)保新support1/power4同三jet、degree10/自然L/u及十控制和453/450接点；旧178表不能只换profile。该ξ不修coast；R351/173/R363/R366/R370完整响应证明仍保。
+
+[coast→BVP输入组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)37ea635a已保存：九有理系数/原词、真factory result和全定义比较，只改原179四recipe字段。当前180仅旧165对象，尚无fresh-C模式/后继workflow；新C现场须真正重付修域再factory，旧selected域不冒新现场或伪改来源。
 
 ## 恢复与保存
 
