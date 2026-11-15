@@ -148,3 +148,5 @@
 - [R315：actual124完整高度路径十三次原拒绝与规则中断](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)：零H真实收敛，13正s/130原trial均stage0 D/S/A域拒，当前withJ基点已返回；第15call尚执行即规则SIGTERM，非科学预算耗尽或已返回数学拒绝。全15行、完整原试探范围/来源与e252相对指标分母解释保留；未到s1/338J/FD/fullDN/audit，145转完整当前H/R273候选且不减原门。
 
 - [Request143：原连续C完整112深端区间实际入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)及[producer](notes/2026-11-15-continuous-C-complete112-deep-far-producer-interface.md)：R312同一原准确根族、F159/物理node160、256bit全112 Robin，mode2准确0来自原定义；11现源+5原公式/三历史输入/R286-R312，完整行流仅临时核后清。未预填有限头、cut域/分母、DN或非线性接受。
+
+- [R311：actual139完成原连续C全六primitive及自然闭域包围](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)：全1440片/有限头/深尾及finite-protected条件完成，唯一whole-natural query合法全闭域界；原Rout严格超binarycut。1800.8219652040002s后2900 query片仍粗但有界，另1追加积分pending且无源/query未访后缀；domaintrue不冒resolution或同场1e−6。全部原身份/严格端点/预算现场/大账和已读范围保留，144付cut两jet。

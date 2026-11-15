@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。139仍须真实整域结果。
+[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。[R311实际139](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已完成全1440/六primitive/whole-natural闭域界；query工作细分仍partial，下一144付原cut点两jet。
 
 完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，并接原139/137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
@@ -98,13 +98,15 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R285完整有限selector证明](results/R285-original-finite-selector-closed-cover.md)和65a29ec6源已付：真实original first-match/开闭端点/48层比较树完整覆盖，原源码flat分支可整片付，保未决栈及后缀，不假设单调或准确逆。原有限比较延拓取有限值，非恒定时不连续；因此该结果不能充当原连续g或a601证书，没有实际E/run。
 
-[R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)定义显式模型C：原binary输入/浅160校准及lambda不变，派生关系为实函数、同一原准确深根族。六共同primitive按真实累计原点形成R*，正warp D=b+c|w_s|给有限头C²与深端平圆领；具体root selector、保护端两jet/外cut两jet、原finite同g和atlas仍须支付。完整160×9/六primitive/全无限尾/闭逆像不能缩域，自然Rout不能重标名义cut；G8/G16差不是误差界。[原生产器接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)与[132实际入口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)保原输入/query/全pending和真实width责任；所有完整来源与旧细节存至142检查点及正式正文。139完整原结果由R311接续，合法point-cut数据与有限头DN仍须实际完成。
+[R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)定义显式模型C：原binary输入/浅160校准及lambda不变，派生关系为实函数、同一原准确深根族。六共同primitive按真实累计原点形成R*，正warp D=b+c|w_s|给有限头C²与深端平圆领；具体root selector、保护端两jet/外cut两jet、原finite同g和atlas仍须支付。完整160×9/六primitive/全无限尾/闭逆像不能缩域，自然Rout不能重标名义cut；G8/G16差不是误差界。[原生产器接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)与[132实际入口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)保原输入/query/全pending和真实width责任；所有完整来源与旧细节存至142检查点及正式正文。[R311实际139](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)现已付完整原源/六primitive/whole-natural合法闭域界；合法point-cut数据与有限头DN仍须实际完成。
 
 [R293实际132](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)正常partial：482.79984332900005s用尽200000panel，1378/1440片、inverse0，首cell6/seg1，31panel及source/query后缀未付，whole-domain E/Rout空。完整来源/计数/原SHA见正文与至142检查点；不冒全域metric或已读所有大账。原136/139接续各按实际新输出，不延用旧partial当已付。
 
 [R297单位面板及完整分支包含证明](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)与[136实际入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)现已发布。新004010b6保持同一模型C、160×9片/六primitive、原200000panel/1800秒及全自然闭域query4fa2baa1；准确单位面板与正幅值归一化用guard8请求更窄库误差，但最终仍按原恢复全宽门判断，失败保合法range界及全部未付栈/后缀。原宽面板上唯一branch/sign沿旧解析路径；其他组件分别处理真正的解析条件，点q=0不能冒局部解析。末次尝试与首未付分开记，完整六component诊断不省。9pins/request2b9945ac/workflow992f41e9、256bit和原预算不变；Actions将先执行原syntax preflight再真实科学。实际run43707070768/sourcec1178bd2e17383a5a0f6bed1ec8fe1896704a528/job132790329190已完成；完整真实结果见[R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)：1800.0188949619999s/SystemError、21334panel，日志1386片而producer异常返回0/全[0,1440)未付，整query0/Rout空。cap非解析callback1949868次，末panel导数不跨零，不能定为唯一abs原因；源机制仅支持有界推断。139须确捕ResourceStop保partial并用完整w同号/χ恒1端点积分降低成本，同1440片/六primitive/深根/200000panel1800秒和原宽度门。下游旧9aa0 guard若接新源须显式身份适配。
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
+
+[R311实际139完整结果](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已付全1440/六primitive/深尾/finite-protected与唯一whole-natural闭域；真实Rout−binarycut严格正。完整head先1552.8056291300002s完成，1800.8219652040002s停止属inverse-query B追加积分，保2900合法粗query片/1integral pending且无源/query未访后缀。domaintrue/resolutionfalse分列；E全域display不冒同场1e−6，原dyadic/四大账/真实callback与清理范围见正文。144同f12f/三输入/全六primitive/原256bit1800s先binarycut点后whole，在Actions完整读叶三jet；v3消费者另立身份，有限头DN与非线性仍未付。
 
 ## 5. 存储和原件维护
 
@@ -120,7 +122,7 @@ R288提供的具体后继是保128状态、完整primal和明确所选有限root
 
 [133 R308实际完整128射击](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)现已登记：从原失败状态fresh64 J，当前完整128 RHS重做R273并以lift(σ)·lift(z)恢复，唯一α=1接受后完整原norm9.68582474751023176032080482454992093e−11低于原2e−9，真实stop shooting-tolerance-reached。全部576段/129248行、独立fresh128 residual和576×226输出逐字同值，无墙钟截断；所有native/fullDN/全列/338/audit仍false。原末态已清，137同job重新形成现场后接完整责任；此实际进展不支持继续盲调η或猜word，更不单独证明几何完成。
 
-[R306完整证明](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)给完整cap低/高transition同一多项式、±L两jet接合，真实valley/flat/cut覆写后的同一w为C²；χ恒1且整个闭panel的完整q同号时，A/√E A/wA三积分由完整w端点给出。端点所有possible branches并集、原range交集及原全宽门保留，B三项/两χ过渡/未知符号仍原路径；未知异常不改标签，仅确捕ResourceStop经ValueError还原并返回连续已付prefix/全部pending。[139完整入口](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)现已发v3 f12f7470/request3c210929/workflow1e93333a、10源/3证明/三原输入及原whole-query，同域同预算直接公开执行；不假设成功或加fixture。
+[R306完整证明](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)保完整w/cap/C²、整个闭panel同号的三端点积分、B/χ过渡及原全宽门；确捕ResourceStop经ValueError还原，未知异常不改标签。[139入口](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)源/三输入/原预算不变，实际全结果现见R311。
 
 [R307实际138完整回读](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)：32/32批、256方向全部原Armijo接受、358外trial/102拒；259次同轨迹改选含186外接受，但256已接受档的原working也都过同一原界，直接救回0。5416有限样本/3338内trial/95整normal方向拒绝/263无新方向tol终端完整保留，184已接受点内tol=false仍依原门。W4.963213836829283→4.963213789290057，末radius3.814697265625e−7，全部unit/full112/native/nonzero/success false；初p与135字同但fresh r/J/方向不同，不作单因归因。192组1728列FD、32Arb/453圆及916字节身份已核；142按R310实际改方向形成，不重复旧小步或伪造接受父场。
 

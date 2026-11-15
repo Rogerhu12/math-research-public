@@ -460,3 +460,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — Request143完整连续C深端图实际入口
 
 [143总接口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)及fe66789e源/0c14cb0a说明/requestc5e9931a/wf93bcf11b全文已读；失联后四件原byte/SHA准确恢复，接口只去临时static归档措辞，bb538c89。11现pin/三输入/两proof/Binder与全112F159/256bit范围保，所有Arb只公开Actions，无raw/static回执入Git；本次依根8小文本原子快进并真API核21bd/bff，不冒pull。R315已发表bdda6d5a；原完整范围和未付有限头/cutDN保留，request push触发实际运行。
+
+## 2026-11-15 /root — R311实际139完整连续C自然闭域包围
+
+[R311](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)19075B/e4149d93全文已读后立即发表：全1440/六primitive/深尾与finite/protected条件/whole自然域完成，真实Rout−binarycut严格正；2900粗query片已有合法界，1追加积分pending，domaintrue/resolutionfalse分开，不冒1e−6。两原decoded日志及26052B/8ed43445逐字摘要、原大账身份和未本地下载范围明示；144保持同源原预算并先cut点两jet。根8失联小文本快进、API核双README未冒pull；143五件已推a809a7eb，继续真实run及全112有限头。
