@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI。前态逐字保[Gaussian分解前H](notes/2026-11-15-handoff-before-Gaussian-rayclass.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[Gaussian分解前H](notes/2026-11-15-handoff-before-Gaussian-rayclass.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -24,7 +24,7 @@
 
 R811首乘法core849bca27/wrapper2a1d1c28已审、R806齐，待R809 A/B；r5八模/九准确点，C-only不能触发。[两图证明](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)。[完整char0核/HNF工程已保存pending](notes/R811-original-streamed-polynomial-preimage-method.md)，coreec100a76/wrapper64f9bc9a已全文核，尚不触发；generic run43719858329四真实exit97恢复后五结果同SHAc5cd89b2，仅验证通用算法。
 
-[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已证：真实MAH=MBW给包含，双向Laurent拼接底环子格，实际τ degdet＋σ ord0det等于独立1206则完整。不先假定R理想、不必存全部char0 Euclid transcript。有限域须原b全部真因子×ζ两root恢复14块，不假设14次不可约；实际候选/全式/长度未得。[R824](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)已证完整极模自由生成权5/6/7，数为r、300−2r、r−28，总272/权和1604；[真实旧minor现已证r=28](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)，实际28权5＋244权6、无权7。原Laurent129/142/156条件逐全280Q坐标认证A_j=yB_j，V7中[(σ−z0τ)V6,τ^(7−a_j)B_j]的真实1778minor给满秩；全长1604−398=1206迫完整，无需首轮normal/MA/MB。R781 R0..142已成；旧R787 ell1000000753/branch0的1186minor det296007862/原两消元minor均非零、全部源SHA已核；不新算R尾/H³。
+[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已证：真实MAH=MBW给包含，双向Laurent拼接底环子格，实际τ degdet＋σ ord0det等于独立1206则完整。不先假定R理想、不必存全部char0 Euclid transcript。有限域须原b全部真因子×ζ两root恢复14块，不假设14次不可约；实际候选/全式/长度未得。[R824](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)已证完整极模自由生成权5/6/7，数为r、300−2r、r−28，总272/权和1604；[真实旧minor现已证r=28](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)，实际28权5＋244权6、无权7。原Laurent129/142/156条件逐全280Q坐标认证A_j=yB_j，V7中[(σ−z0τ)V6,τ^(7−a_j)B_j]的真实1778minor给满秩；全长1604−398=1206迫完整，无需首轮normal/MA/MB。[R824分层执行契约](notes/R824-original-global-polar-generator-consumer-method.md)已审，首scope27新权5＋244权6，保留旧1186给R787；公共U_N/Q_N用1521打包准确验全式。R781 R0..142已成；旧R787 ell1000000753/branch0的1186minor det296007862/原两消元minor均非零、全部源SHA已核；不新算R尾/H³。
 
 [R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)：全完成乘积证明C=im[Γ,Mg]为约化cusps；N=im[H,ΓH+MgH′]，整理想商P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)。δσ=tδτ、Γσ=tDΓD^-1−t²DMgD^-1diag eps保留。首剥后无cusp可省C商。R820实际C已到，完整I/Γ仍缺，exact_height接最小peel/三重数consumer；无ambient trace全表。
 
