@@ -358,19 +358,19 @@ $$
 **推论827.4。**
 保持§3、§4全部原源与整性条件。
 设在第一图实际认证
-$
+$$
 \overline{\mathcal F}_{\tau,q}(z)X_\tau(z)=I_{272}
 \quad\text{于 }k[z],
 \tag{827.28a}
-$
+$$
 并在第二图的唯一无穷远点 $t=0$ 实际认证
-$
+$$
 \operatorname{rank}_k
  \left(\overline C_\sigma(0)^{-1}
   [\,\overline F_{0,\sigma}(0),\ldots,\overline F_{q,\sigma}(0)\,]\right)
  =272.
 \tag{827.28b}
-$
+$$
 则仍有原 $\mathscr I_q=\mathscr C_L$。
 特别，第二图不必另作整个 $k[t]$ 上的多项式HNF。
 
@@ -386,9 +386,9 @@ Nakayama，得到其局部模为零。
 引理827.1及引理827.2原样给出特征零等式。$\square$
 
 R820的稀疏C基还使
-$
+$$
 \det \overline C_\sigma(0)=\overline P_\sigma(0)\ne0.
-$
+$$
 因此可直接对(827.28b)方括号中的原normal列作常数矩阵rank计算；
 须同时保留已经核实的 $P_\sigma(0)$ 单位证据。
 第一图的(827.28a)仍是**全部多项式系数**上的等式，

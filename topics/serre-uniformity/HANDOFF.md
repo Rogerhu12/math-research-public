@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f**（2026-11-15T15:27:39.996553+00:00；公开run43714581068/attempt14/job132860093100实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R827前H](notes/2026-11-15-handoff-before-R827.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：7dfcbc00acf76c39a80d87bc00aef76a6d178b0c**（2026-11-15T15:30:41.903383+00:00；公开run43714581068/attempt15/job132860921492实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R827前H](notes/2026-11-15-handoff-before-R827.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -24,7 +24,7 @@ R824完整core97048B/1ece3cf4、wrapper66226B/c5907739、workflow42bae915及首�
 
 [R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；[五件已保存pending](notes/R825-original-normal-derivative-source-adapter-method.md)，不冒称导数/乘法矩阵已经完成。
 
-**[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族原导数列按a+2k齐次化，另一图递推tδ−(a+2k)δt保证像仍在原I_k。若真实约化τ整图有完整多项式右逆、σ在∞实际rank272，则proper/Nakayama迫原I_q=C；不再必算第二张图全HNF。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA ccb53805。
+**[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族原导数列按a+2k齐次化，另一图递推tδ−(a+2k)δt保证像仍在原I_k。若真实约化τ整图有完整多项式右逆、σ在∞实际rank272，则proper/Nakayama迫原I_q=C；不再必算第二张图全HNF。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA 17e9c828。
 
 R827可选入口无需三项char0 CRT先完成：同单位Schur chart严格定义原canonical B的p整lift，原S5单位块给vB；原W在8个不同unit cyclic节点给真实MB整性/模插值，原vg/vh在6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、τ完整Bézout及σ∞minor。尚无实际q；若将来q4通过才可说D约化/K1。exact_height正接实际消费者，所有数学仅Actions。
 

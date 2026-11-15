@@ -200,3 +200,7 @@
 - 新推论已证明：τ整仿射图多项式满射＋σ的∞纤维实际272阶minor足够；全球Φ与局部Nakayama排尽特殊纤维余商，再用proper提升，省第二图全HNF。
 - σ仅需q+1阶初始/算子jet逐次降精度；τ不能换成有限点rank。最终proof ccb5380582f25170e66fed68d08162f1244341850b5f0ee92e48da2177e65caa；无新数值、实际q仍待。
 - 首推接口错误后立即实际pull/rebase至ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f（2026-11-15T15:27:39.996553+00:00），两README无diff，重新基于最新main提交；R824仍进行。
+
+### 2026-11-15 23:31（Asia/Taipei）｜serre-public-astra-20261115 · R827最终源码pin
+- §5.1六个独占行公式定界符统一，数学内容不变；完整proof26911B/SHA17e9c828e01e652b1a73281bf2249ae2b39133faae3cf22384a5fd6d6a3d4a71，供实际消费者统一绑定。
+- 推前公开rules实际pull至7dfcbc00acf76c39a80d87bc00aef76a6d178b0c（2026-11-15T15:30:41.903383+00:00），两README无变化，已同步H。
