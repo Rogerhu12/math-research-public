@@ -283,3 +283,7 @@
 ## 2026-11-15：原输出矩形子式的特征零联合界
 
 [原输出投影稿§6](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)由同一原A_I子式约化得δfull_Q+λ_I,Q≤68、λ_I,Q≤25；不需核基模31平坦，不能改成λ≤2。同B leading为31单位必要δhigh_Q≥26，尚未支付该长度。
+
+## 2026-11-15：原二次能量和真参数导数的完整十七式来源
+
+[二次能量、真参数导数与弱正常降阶](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给两个精确原17式常数M来源恒等，并由真实对称Schur证明弱列上的固定M导数系数恰降一阶。s=2由线性指数2得到弱系数一次；完整剩余二次项和共动三次反馈显式保留，未称九目标成员性。
