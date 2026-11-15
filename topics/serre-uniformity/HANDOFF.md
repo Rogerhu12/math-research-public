@@ -8,7 +8,7 @@
 
 08:56 UTC共享环境失联，旧tmpfs克隆暂不可访问；依根§8用小文本GitHub API保全和提交，未声称执行了新本地pull。API另核53ecc1a270bf01ea98f33c6f1eb712c4c9b75d7a（2026-11-15 09:03:23 UTC）两README逐字未变。最近真实pull仍上述08:46。恢复终端后立即pull；若失联持续，将由本公开Actions执行实际pull并返回规则差异，不把API GET叫作pull。
 
-完整旧公式/绑定逐字保于[失联前H](notes/2026-11-15-handoff-before-api-recovery.md)及其归档链；[旧open](notes/2026-11-15-open-before-R795.md)。旧raw清理run43679907787已成；不再用Release保存数据。
+完整旧公式/绑定逐字保于[R802前H](notes/2026-11-15-handoff-before-R802.md)、[失联前H](notes/2026-11-15-handoff-before-api-recovery.md)及其归档链；[旧open](notes/2026-11-15-open-before-R795.md)。旧raw清理run43679907787已成；不再用Release保存数据。
 
 ## 在运行与待消费接口
 
@@ -20,14 +20,16 @@
 
 ## 已认证准确输入
 
-- **R790**：run43688215703/source9e4074fd，原146个M2的CM值/首粗导，194stage、82²尺度；5种子/10对、完整zeta/μ3投影及E6_alg=−c6。[结果](results/R790-certified-original-CM-fiber-jets.md)保全部绑定。
-- **R791**：run43686308194/sourcef945ef5d，Hom实/反实rank6、T阶21、十二切向非零；原f4 degree1206，f_R=[1−ζ²]f4 degree3618，原e=κv†v及F⁰保持。[结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。
-- **R794**：run43691270124/source7cf16012，149固定候选选五条f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728；m7/7/7/8/8，N170/172/176/193/196。保原双向基变换，只称候选内总degree最小。[结果](results/R794-certified-original-low-degree-eta-basis.md)。
-- **R795**：run43692029484/sourceac6d8fff，23秒内完成原1506个V6行q0..81、82¹²、40ξ/20t和mod739/反演；1515文件SHA已核。[结果](results/R795-certified-original-power6-short-basis.md)。
-- **R796**：run43693301389/source4ed3a5bf，165.797秒；实际K适配非全Q，832阶有理解，416二积minor823199261模1000000009，144关系全1120K坐标准确代回。τ索引0/切向1，λ=−36197717076/172095737；仅length2，不预称高jet。[结果](results/R796-certified-original-CM-quadratic-chart.md)，cert1b72c55b。
-- **R798**：run43695452689/source2052eb18，23.0255秒；实际1506短秩，新minor646模739，690个τ³V3积全部1640坐标双规范核验，1395输出/1385阶段SHA已核。[结果](results/R798-certified-original-mu33-row-coordinates.md)，cert8141d99d。原选行Ψ_I保K/L；无大有理逆/全表/原基系数。外来列/原基恢复必须全1640代回，Dixon固定2AB<M。
+原R771 E1有限数据、R775 M2/M6/M12与power1..6、R781 R0..142/κ幂、R786 power1..5 q0..128全已成，禁止重算。原普通维146/418/690/962/1234/1506，原尺度和全SHA见对应certified结果、当前producer请求和归档H。
 
-旧R774 H³、R775 power1..6、R781 R0..142、R786 power1..5 q0..128全部已成，禁止重算；R777备用不触发。原power1..6维146/418/690/962/1234/1506，原字段/尺度及具体文件SHA见各certified结果和归档链。
+- R790 run43688215703：146原M2的CM值/首粗导，82²、μ3原投影和194阶段。
+- R791 run43686308194：原Hom实/反实6，T阶21，f4degree1206，f_R=[1−ζ²]f4degree3618；原极化/切向全保。
+- R794 run43691270124：149固定候选中f0/f3/f1/f0+f10/f0+f4，degree1485/1521/1602/1674/1728；m7/7/7/8/8，N170/172/176/193/196，原双向η基变换。
+- R795 run43692029484：1506原V6 q0..81，82¹²与完整40ξ/20t。
+- R796 run43693301389：原CM144条全局二次关系，真实832阶Q解/416K基，原τ索引0、切向1，λ=−36197717076/172095737；只length2。
+- R798 run43695452689：1506新短minor646 mod739，690个τ³V3积两套全部1640坐标相等；23.025503639秒，cert8141d99d。无全基逆/全表。
+
+上述完整结果都在results/Rxxx-certified-*.md；原raw仅活跃artifact/bundle，不在Git/Release，具体绑定仍保于归档。
 
 ## 新成功包、证明和后继
 
@@ -37,7 +39,7 @@
 
 **R801已证明并登记**：[长尾与原关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；扁平原recipe与准确消失阶闭包，不算整套V6到195。Schur真秩d−20已证，第二关系有限试取最多e(k−1)+1次；新7/8铅笔须补全部V3至136/149。R787若成就直接s=τB；未生成新长尾/关系/高度。proof b283280e、method a96d7c3b；ordinary写仅长尾core。
 
-**R802**原f4半线性奇偶下降证明已全文交叉核，待最终文字版提交；不改运行R787。c0固定ξ而反s，原扭曲经T41给q/v→−号；奇阶y系数在Fb(tξ)，偶阶在sFb(tξ)，R_n带s^(n mod2)。真实±全球截面给七次字段关系；新基必须最终恢复两原基右端并全129认证。未计算新rank/kernel。
+**R802已证明并登记**：[原半线性奇偶与七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)，proof2e8a3b19。c0固定ξ反s，原扭曲T41给q/v→−；y奇阶在Fb(tξ)、偶阶在sFb(tξ)，κ固定，R_m除s^(m mod2)。全球±截面掩码保82¹⁰，真实选基后固定B/反固定A在Fb求解；末端仅两右端恢复原1234基并全129×20认证。未算新r±/minor/kernel；不改R787、不重算其已成阶段。
 
 [R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)保原142项V6关系、第二真实u/rank1116→264维残余、固定degree272表示和主函数G=s/(fτ^(m−3))全部常数。普通高次残余/η/β和高度仍需实际值。[实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)保C′:Y²=X³−27b、ψD=[1−ζ²]、微分/原h因子3和主函数(-27)常数；原对称代表二挠刚性化未算。
 
