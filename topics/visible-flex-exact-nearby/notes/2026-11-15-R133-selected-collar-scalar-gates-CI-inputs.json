@@ -1,0 +1,146 @@
+{
+  "kind": "selected_collar_scalar_gates_public_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_sha256": "e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee",
+  "intrinsic_summary_sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_cut": "9/10",
+    "available_intrinsic_collar": [
+      "17/20",
+      "19/20"
+    ],
+    "delta_half_width": "1/10000000000",
+    "sigma": "1/4294967296",
+    "angular_order": 8193,
+    "half_length_exponents": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "raw_C0_pair_radii": [
+      "1/10000",
+      "1/65536",
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "original_background_pair_A0": "7",
+    "original_background_angle_A0": "6",
+    "continuous_response_pair_A0": "19",
+    "continuous_response_angle_A0": "83",
+    "centre_repair_A0": "0.000000000000000003861",
+    "centre_repair_angle_A0": "0.00000000000000001970",
+    "centre_repair_mean": "0.000000000000000000005842",
+    "response_repair_A0": "0.0000000000000002292",
+    "reference_angular_degree": 96,
+    "reference_drift_angular_degree": 192,
+    "complete_source_species_degrees": [
+      96,
+      160,
+      224,
+      288
+    ],
+    "ordinary_angular_measure": "normalized circle; full pair including both means",
+    "ordinary_radial_measure": "dr",
+    "true_unknown_ordinary_residual": "0",
+    "unknown_hypothesis": "one continuous two-sided real H1 solution in the stated raw C0 pair ball",
+    "zero_old_target_or_grid_recomputation": true,
+    "core_existence_or_low_physical_gamma_selfmap_claimed": false
+  },
+  "input_paths": {
+    "intrinsic_summary": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "response_summary": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+    "raw_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json"
+  },
+  "current_only_paths": [
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md",
+    "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates_CI.py"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md": "8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md": "bd31916b47acd8b28f45ec25a35b46413f97b95071561f717df72dd05452f76c",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md": "b6527f39acaa562e8954a3b4dad2683d5929fb5937c1db90d6ee800f15dea3b9",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md": "8d7d1bc46b57ed9598c268afc784a4e096a10f6a07b26cfdbc3a023607f0f11d",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+    "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md": "a23d28b4445a7c3a2391b28c8f6c50a785712d30568e30eafb92fb30f070ef7c",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates.py": "e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates_CI.py": "cfdb8ecd1c4e12354d7f944f26c8548edb3740b20f301224d04d5364ffe5e19c",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md": "3cacd96609c488eda2cc20e2c618cc697c277ec7a22931e0f63a78f3c3197387",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf"
+  },
+  "original_completed_inputs": {
+    "ordinary_residual_native_sha256": "6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1",
+    "ordinary_residual_bytes": 4592623,
+    "ordinary_residual_rows": 7296,
+    "old_byte_parts": 3,
+    "intrinsic_public_run": "43713242980/1",
+    "intrinsic_collar_rows": 140,
+    "intrinsic_complete_original_rows": 7721,
+    "response_legacy_progress": 7680,
+    "response_complete_rows": 7721
+  },
+  "execution": {
+    "python": "3.12.14",
+    "packages": {
+      "python-flint": "0.9.0"
+    },
+    "mathematical_runtime": "public Actions only",
+    "new_recomputable_outputs_persisted": false,
+    "new_Release_uploads": false,
+    "new_Actions_artifacts": false,
+    "metadata_file_limit_bytes": 60000,
+    "complete_scientific_stdout_receipt_before_terminal_publication": true,
+    "stdout_receipt_limit_bytes": 59000,
+    "initial_extra_topic_capacity_reserve_bytes": 120000
+  },
+  "scope": {
+    "ordinary_full_pair_and_mean": true,
+    "source_same_selected_parameter": true,
+    "conditional_true_H1_collar_state_only": true,
+    "unknown_true_residual_zero": true,
+    "complete_core_existence": false,
+    "low_physical_gamma_selfmap": false
+  }
+}

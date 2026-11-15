@@ -132,3 +132,7 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:35:31 UTC — F11诊断分母的完整分支
 
 两README在4e81c61ba27bb64e548a1a2a1dc85c972d3f31cc亲核未变。F合同只增F11分母的明确正下界/准确零/未证号三分支，最终16c0badd/9775B；主F8严格门及四列完全不动。零分母只说明det=1−gB e与ε无关，未证号不算诊断商。root亲读唯一diff，尚无新消费run或成功输入变化。
+
+## 2026-11-15 12:35:52 UTC — 实际collar scalar首次部署
+
+两README在bff138105a6f7392bb531bb7f1d66c7c37476fc8亲核未变。SCI e39646a5/24702B与契约3cacd966/11750B保持原稿；worker cfdb8ecd/27944B、manifest e6b4867f/9121B、flow0faf7429。root读全SCI/contract/worker/manifest/flow，后仅补预Git完整≤59KB stdout和初始120KB容量预留，数学源码未改。newton亲取原7296 producer与helper核U/V未乘alpha、真负movingmean与全repair源；phase独核E/H/A全部三门/四species/readout。新工作只限制原7296真实残差并消费D6956 actual140collar与全部signed jets，13宽×7半径共91新scalar cases；原目标/FFT/残差/repair/Green/7721算术不重算。首次Python AST与新数学全部只在公开Actions；尚无高门通过、core存在或低γ自映射声称。

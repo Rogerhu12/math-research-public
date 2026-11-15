@@ -1,0 +1,76 @@
+name: visible-exact selected collar scalar gates
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-selected-collar-scalar-gates.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-selected-collar-scalar-gates
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  COLLAR_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-collar-scalar-gates-CI-inputs.json
+  COLLAR_MANIFEST_SHA: e6b4867f8fd614225d6dcedaba5b0a2e6df5550655c43a56c30c47eef5766ae6
+  COLLAR_SCI_SHA: e39646a5430b062fc48c469439f5bba00a8a1a806777b43fd82d1aebea46ecee
+  COLLAR_WORKER_SHA: cfdb8ecd1c4e12354d7f944f26c8548edb3740b20f301224d04d5364ffe5e19c
+  COLLAR_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  COLLAR_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  selected-collar-scalar-gates:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the small scientific entry and existing conclusions
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates_CI.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-collar-scalar-gates-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+            /topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/
+      - name: Check the independently pinned worker and complete input manifest
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          python - <<'PY_COLLAR'
+          import ast,hashlib,json,os,pathlib
+          w=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates_CI.py')
+          assert hashlib.sha256(w.read_bytes()).hexdigest()==os.environ['COLLAR_WORKER_SHA']
+          ast.parse(w.read_text(),filename=str(w))
+          p=pathlib.Path(os.environ['COLLAR_MANIFEST'])
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['COLLAR_MANIFEST_SHA']
+          m=json.loads(p.read_bytes())
+          assert m['source_sha256']==os.environ['COLLAR_SCI_SHA']
+          r=pathlib.Path(os.environ['COLLAR_RULES'])
+          assert hashlib.sha256(r.read_bytes()).hexdigest()==os.environ['COLLAR_RULES_SHA']
+          PY_COLLAR
+      - name: Install the identical directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Consume the old closed rows and evaluate only the new collar scalar gates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_collar_scalar_gates_CI.py
+          --repo "$GITHUB_WORKSPACE"
+          --work "$RUNNER_TEMP/visible-exact-selected-collar-scalar-gates"
+          --manifest "$COLLAR_MANIFEST" --manifest-sha "$COLLAR_MANIFEST_SHA"
+          --rules "$COLLAR_RULES" --compute-minutes 20
+      # Rule15: no numerical native, large audit, Release or Actions artifact is retained.

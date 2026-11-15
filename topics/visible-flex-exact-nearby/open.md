@@ -33,7 +33,7 @@ newton_source监视，root最终消费。压缩前实际进度/所有失败身�
 - finite193 run43635487128/8误差.003509417445587仅有限；旧whole L²界.007490301792401是另一窗。全频negative目标.005、||q*−Z||<4.572198020300e−6独立。
 - 旧5970同F43654510038、7908伴随43665656138、同97帽43671537267与旧1886future只恢复。全high、mean、真实outer、Hessian保留。
 - v2 43681612825/1 finiteArb→float溢出，临时新2340/1800/4331失去，原失败保持。
-- v3 43690634784/1已failure。实际0数学diag43709951426/1 f526d0b1核完整log57620B/dc649478，失败为旧README guard；childreturn未记，不能称数学失败。future5970=1886旧+4084新/product5970已成；past4032/groups103仅最后报告而非终止清点，新temp不可恢复。
+- v3 43690634784/1因旧README guard结束，完整0数学diag43709951426/1 f526d0b1已核。全部lost计数/出处在6d839708同open/H；childreturn未知，不能称数学失败，future/product已成与past/groups末报告严格区分。
 - [v4恢复契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)已启动首次run43711315338/1，head ce17e68d，11:56:19Z，用户授权重做lost新算术。SCIba931a8a/helper9e699a28/workerf67d62e2/manifest42810dfa共376pin，原369零改。去未消费中间norm/全193验后取97主块均保持同选点和原数学。live index仅接已读且操作规则未变；实际每10分钟pull/两README，published-origin容量、预Git小stdout、终止实文件清点保。已完成同身份则直接引用，不重算。
 
 187groups/三HY/final尚未全成。数学仍固定repaired M32 δ0/η0/ν0；继承1e−9字段不是BVP参数授域。selectedδ*的低块转移按Dδ另付。
@@ -91,34 +91,19 @@ phase_inverse负责。原root/Taylor/Nraw/1328、六profile、九个有序词、
 任何新计算须精确说明新增部分；旧successful target/fold/FFT/
 transport/Taylor/profile/moment/源行只恢复。
 
-共同势43685624307、旧圆43688459733、根点signed43692226895、whole Taylor43694458725、
-S43698106023、G15 43700281022、C43702688640全部成功锁定。
-本段压缩前逐字细账在802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e的同一路径open.md；
-所有原域/失败/计数/身份继续有效，不重算任何成功数学。
+共同势43685624307、旧圆43688459733、根点signed43692226895、whole Taylor43694458725、S43698106023、G15 43700281022、C43702688640全部成功锁。完整域/宽/源/mean/计数与失败保dc3874fba2293d5cb5ad843ceaa68ec85f51fa8b同open及原报告，旧数学不重算。
 
 [G完整有序源](results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md)
-保不除T的μC旧变量式、三local、六oldcircle余项、五mean、
-两个physical普通源和真实seam；Vr须来自同完整mean Gbar，
-finite-z项−16K(2ηα+zα²)保留，离根z0势不替代Vr。
-[whole Taylor](results/R133-supplement-actual-whole-root-piece-signed-reference-Taylor-bounds.md)
-及[S actual](results/R133-supplement-actual-correlated-whole-reference-scalar-bounds.md)
-付同piece2549全参数方盒、三width/p≤2/q≤3/mean、两完整尾、
-RF3/20000、final Rs3/40000/σs1/256、canonical RT1/2000/SF1/128/SA3/512及全部路径。
-S26门仅改善144导数中10项fb二径，134项/36mean保旧；不由此授strong-return。
-
-[V完整genuine列](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)
-与[G15 actual](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)
-付central/两oscillator分支、两signed/两列/outputmean、三个真实circle maps和near/far Schur。
-所有wφ⁴/Bφ³⁴/VTTT与image margin已付；它们只是幅度operator，
-不授physical residual、正growing图或完整high逆。旧profile/四operator锁定。
-
-[C正线性复用](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)
-与[C actual完整负源](results/R133-supplement-actual-complete-genuine-negative-physical-sources.md)
-已付18个完整positive系数、三raw local、九词/五oldmean/独立physicalmean、
-两J窗口−8/3→−5/3和−5/3→−2/3、原六行true dr及uncertain-root单侧权。
-只对旧算法正预算数取lower，不取真实函数lower，不相减upper。
-完整21+10项L²结论与所有原来源保在小execution；每个根包络|ρ|^-1/4和平方权|ρ|^-1/2 dr均保。
-旧RF/forced solve/系数校准/源行/径向积分全部不重算；本段旧较松总界由下一D和P继续消费。
+保不除T的μC变量、全部local/oldcircle/mean/真实seam与同完整Gbar；finite-z项和离根势不能删。
+[whole Taylor](results/R133-supplement-actual-whole-root-piece-signed-reference-Taylor-bounds.md)、
+[S actual](results/R133-supplement-actual-correlated-whole-reference-scalar-bounds.md)
+保piece2549全复方盒、三width/所有角径导/mean、两完整尾与实际路径；S仅10导数收紧，其余保旧。
+[V完整genuine列](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)、
+[G15 actual](results/R133-supplement-actual-genuine-negative-reference-column-operators.md)
+保两signed/两列/outputmean、三circle maps、near/far和完整四阶幅度/逆三阶；幅度operator不授完整high逆。
+[C正线性复用](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)、
+[C actual完整负源](results/R133-supplement-actual-complete-genuine-negative-physical-sources.md)
+保18coeff、21first+10mean、两J窗、原六行true dr与uncertain-root权。正预算lower只取算法数，不能相减upper；全部根包络和平方权保。
 
 [D两窗wholeword复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)
 及actual43703879926/1已锁定：child0/12门、27pins、96分母/16比率/4组合，旧数学0。
@@ -285,6 +270,7 @@ H5b可只消费已知finite-band逐row A0/B1/D1，不能把未知C0当Wiener。�
 现以max范数与真实两端Poincare/评价给CEsharp，完整向量GN保mean后给
 c2=b(6Mell+2M√ell+M1ell^1.5)、c3=6bell；A12三实门通过即沿用H全部高trace结论。
 χ外独立η门、approximate own residual、mean与双侧连续state仍必需；实际系数正在消费。
+[actual collar消费契约](notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md)已部署；SCI e39646a5/worker cfdb8ecd/manifest e6b4867f只复用D实际collar jets与7296原residual，91完整scalar case待首次Actions，条件H1 core及低γ门不冒已成。
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 现给fδ=f0−δs0−∫(ΔFν+ΔAZ)，D正预算star-shaped使余项≤δ²B(d)/(2d)，不重其scalar。
 s0须原raw residual加A0e；连续Z的piece常offset径导0且raw接口Dirac准确抵消，fullmean保。
