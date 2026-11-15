@@ -40,7 +40,7 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 106在12预算批后第13批原二十档全拒；108单方向二十档全拒。112已正式：[实际112](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)，run43685696741/sourcea7ea4292/compute132725609910/report132725862494。八方向六极小接受，0/7各二十拒；W6958.2257628163525→6958.225762769887。末p=[.46303183673359155,−.19282285315249734,.631643600595406]，unit=[−117.96801026240819,.008956935105133464,−.00020358048375542664]，全部最终门false。summary80385B/09f1525d（不含分隔LF）、status1030933B/02d85cf1。原逐列FDvalid不证明近消去组合的相对精度；不盲续同预算。
 
-[结构与路线](notes/2026-11-15-small-core-control-structure-and-post112-options.md)：3p是scalar分离支撑bump，非独立模态；上游圆R传播耦合全链。114保112完整3列QR方向v及原full3斜率，c=(d2,d3)，曲线目标c(q)=c(p)+αCv；q=p+αv+SNw，α0直接返原点，12×20校正，不用J33图。内层1e−8仅算法停止，不是外层门；真实剩余误差仍交原全3 W/.2Armijo/域/最终块。root已读全部新增源/差异/完整接口，已发布sciencebe37ce21/reader5316d62b/recipe80b8b209/request7107c02c/workflow550cd3b2；[114接口](notes/2026-11-15-actual112-to-full3-curved-normal114-interface.md)。75min科学/90min job，原规则监控保持；实际run/结果待读。必要时第四奇形C²零jet控制、新3×4响应和新schema责任已写清，但尚未实现/执行。
+[结构与路线](notes/2026-11-15-small-core-control-structure-and-post112-options.md)：3p是scalar分离支撑bump，非独立模态；上游圆R传播耦合全链。114保112完整3列QR方向v及原full3斜率，c=(d2,d3)，曲线目标c(q)=c(p)+αCv；q=p+αv+SNw，α0直接返原点，12×20校正，不用J33图。内层1e−8仅算法停止，不是外层门；真实剩余误差仍交原全3 W/.2Armijo/域/最终块。root已读全部新增源/差异/完整接口，已发布sciencebe37ce21/reader5316d62b/recipe80b8b209/request7107c02c/workflow550cd3b2；[114接口](notes/2026-11-15-actual112-to-full3-curved-normal114-interface.md)。75min科学/90min job，原规则监控保持。实际run43687426018/source dc032461bbd2f3f7515ea30e5495b50870a06f65/job132730710123已进入科学段，结果待读。必要时第四奇形C²零jet控制、新3×4响应和新schema责任已写清，但尚未实现/执行。
 
 ## 几何下游：实际接受场仍缺
 
