@@ -1,0 +1,1171 @@
+name: visible-larger continuous-ten real full453 then same-point frozen450
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-continuous-ten-current-C-full453-frozen450-request.json
+permissions:
+  contents: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-continuous-ten-full453-frozen450
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Actual180 plus xi zero fresh-C full453 then genuine same-parameter full450
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      scalar_summary: ${{ steps.scalar.outputs.scalar_summary }}
+      scalar_summary_bytes: ${{ steps.scalar.outputs.scalar_summary_bytes }}
+      scalar_summary_sha256: ${{ steps.scalar.outputs.scalar_summary_sha256 }}
+      cut_twojet_summary: ${{ steps.cut_twojet.outputs.cut_twojet_summary }}
+      cut_twojet_summary_bytes: ${{ steps.cut_twojet.outputs.cut_twojet_summary_bytes }}
+      cut_twojet_summary_sha256: ${{ steps.cut_twojet.outputs.cut_twojet_summary_sha256 }}
+      far_summary: ${{ steps.far_scalar.outputs.far_summary }}
+      far_summary_bytes: ${{ steps.far_scalar.outputs.far_summary_bytes }}
+      far_summary_sha256: ${{ steps.far_scalar.outputs.far_summary_sha256 }}
+      construction_summary: ${{ steps.construction_readback.outputs.construction_summary }}
+      construction_summary_bytes: ${{ steps.construction_readback.outputs.construction_summary_bytes }}
+      construction_summary_sha256: ${{ steps.construction_readback.outputs.construction_summary_sha256 }}
+      bvp_summary: ${{ steps.bvp_scalar.outputs.bvp_summary }}
+      bvp_summary_bytes: ${{ steps.bvp_scalar.outputs.bvp_summary_bytes }}
+      bvp_summary_sha256: ${{ steps.bvp_scalar.outputs.bvp_summary_sha256 }}
+      BVP_science_outcome: ${{ steps.bvp.outcome }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-larger-public-continuous-ten-full453-frozen450.yml
+            /README.md
+            /topics/visible-flex-larger-amplitude/*.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/results/R286-original-stored-continuous-integral-and-metric-bridge.md
+            /topics/visible-flex-larger-amplitude/results/R312-continuous-C-complete112-zero-tail-and-head-connection.md
+            /topics/visible-flex-larger-amplitude/results/R324-continuous-C-finite-head-flux-and-closed-tube.md
+            /topics/visible-flex-larger-amplitude/results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md
+            /topics/visible-flex-larger-amplitude/results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md
+            /topics/visible-flex-larger-amplitude/results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md
+            /topics/visible-flex-larger-amplitude/results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md
+            /topics/visible-flex-larger-amplitude/results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md
+            /topics/visible-flex-larger-amplitude/results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md
+            /topics/visible-flex-larger-amplitude/results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md
+            /topics/visible-flex-larger-amplitude/results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md
+            /topics/visible-flex-larger-amplitude/results/R357-original-C-oriented-unit-Robin-family-enclosures.md
+            /topics/visible-flex-larger-amplitude/results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md
+      - name: Establish request193 namespace resource plan and original BVP deadline
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          git config --global merge.stat false
+          python3 - <<'PYNS'
+          import ast,hashlib,json,os,time
+          from pathlib import Path
+          base=Path(os.environ['RUNNER_TEMP']).resolve()/'visible-continuous-ten-current-C-full453-frozen450193'
+          base.mkdir(exist_ok=False)
+          comp=Path(os.environ['GITHUB_WORKSPACE'])/'topics/visible-flex-larger-amplitude/computations'
+          request_raw=(comp/'public-continuous-ten-current-C-full453-frozen450-request.json').read_bytes()
+          assert hashlib.sha256(request_raw).hexdigest()=='052c4fb1ad153e93578826d3e8270e8e2c3a06b486f62409def0386518184780'
+          request=json.loads(request_raw)
+          recipe_raw=(comp/'current-C-riccati-full453-physical-DN179-recipe.json').read_bytes()
+          assert hashlib.sha256(recipe_raw).hexdigest()==request['current_BVP_recipe']['sha256']=='d926cecf92f35cf4c7ae8cc86ad243287846d73df98c78e8ba1005c568ab8811'
+          recipe=json.loads(recipe_raw);policy=recipe['execution']
+          assert policy['maximum_elapsed_science_seconds_from_namespace']==18900
+          assert policy['readback_reserve_seconds']==2700
+          helper_path=comp/request['execution']['owned_process_helper']['file']
+          helper=helper_path.read_text()
+          assert hashlib.sha256(helper_path.read_bytes()).hexdigest()==request['execution']['owned_process_helper']['sha256']
+          helper_raw=helper.encode()
+          assert len(helper_raw)==14019 and hashlib.sha256(helper_raw).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          compile(ast.parse(helper_raw,filename='request193_owned_process.py'),'request193_owned_process.py','exec')
+          with (base/'request193_owned_process.py').open('xb') as stream:
+            stream.write(helper_raw);stream.flush();os.fsync(stream.fileno())
+          deadline=dict(schema='request193-owned-job-science-deadline-v1',
+            repository=os.environ['GITHUB_REPOSITORY'],run_id=os.environ['GITHUB_RUN_ID'],
+            source_commit=os.environ['GITHUB_SHA'],
+            request_sha256=hashlib.sha256(request_raw).hexdigest(),
+            template_recipe_sha256=hashlib.sha256(recipe_raw).hexdigest(),
+            namespace_created_unix_seconds=time.time(),
+            science_seconds_from_namespace=18900,readback_reserve_seconds=2700,
+            job_timeout_minutes=360,resource_deadline_not_a_scientific_gate=True,
+            scope='Startup resource plan before BVP; original BVP launcher enforces its actual namespace deadline',
+            no_global_absolute_kill_clock_for_prior_stages=True,
+            original_sampling_phase_clocks_exclude_binding_and_setup=True)
+          with (base/'job-science-deadline.json').open('xb') as stream:
+            stream.write((json.dumps(deadline,sort_keys=True,separators=(',',':'))+'\n').encode())
+            stream.flush();os.fsync(stream.fileno())
+          print(json.dumps(dict(event='request193_actual_namespace_resource_plan',**deadline)),flush=True)
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_BASE='+str(base)+'\n')
+            stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          PYNS
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.1'
+      - name: Install unchanged numerical and rigorous interval runtimes
+        run: |
+          python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Record temporary capacity without claiming full multi-call output capacity
+        run: |
+          python - <<'PYSPACE'
+          import json,os,shutil,subprocess
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])
+          before=shutil.disk_usage(root)._asdict()
+          for name in ('/usr/local/lib/android','/usr/share/dotnet','/opt/ghc'):
+           path=Path(name)
+           if path.exists():subprocess.run(['sudo','rm','-rf','--',name],check=True)
+          after=shutil.disk_usage(root)._asdict()
+          print(json.dumps(dict(event='request193_initial_temporary_capacity',before=before,after=after,
+           minimum_startup_bytes=34359738368,live_process_free_reserve_bytes=2147483648,
+           full_multi_call_capacity_not_guaranteed=True,original_iterations_and_tolerances_unchanged=True)),flush=True)
+          if after['free']<34359738368:raise SystemExit('Declared temporary resource unavailable before science')
+          PYSPACE
+      - name: Bind all98 source pins actual180 plus xi zero and original positive-endpoint complete provider
+        run: |
+          python - <<'PYPINS'
+          import ast,hashlib,json,os,re,subprocess
+          from pathlib import Path,PurePosixPath
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          base=Path(os.environ['VISIBLE_BASE'])
+          raw=(comp/'public-continuous-ten-current-C-full453-frozen450-request.json').read_bytes();request=json.loads(raw)
+          assert hashlib.sha256(raw).hexdigest()=='052c4fb1ad153e93578826d3e8270e8e2c3a06b486f62409def0386518184780'
+          assert request['schema']=='public-continuous-ten-current-C-full453-frozen450-request-v1'
+          assert request['request_number']==193 and request['lanes']==['continuoustenfull453frozen450']
+          assert request['repository']=='Rogerhu12/math-research-public'
+          assert request['source_count']==len(request['source_sha256'])==98
+          assert request['execution']['job_timeout_minutes']==360
+          assert request['execution']['namespace_science_deadline_seconds']==18900
+          assert request['execution']['readback_reserve_seconds']==2700
+          records=[]
+          for name,expected in request['source_sha256'].items():
+           assert PurePosixPath(name).name==name and re.fullmatch('[0-9a-f]{64}',expected)
+           data=(comp/name).read_bytes();assert hashlib.sha256(data).hexdigest()==expected,name
+           if name.endswith('.py'):compile(ast.parse(data,filename=name),name,'exec')
+           if name.endswith('.mjs'):subprocess.run(['node','--check',str(comp/name)],check=True)
+           records.append(dict(file=name,bytes=len(data),sha256=expected))
+          def metadata(item):
+           path=repo/item['file'] if item['file'].startswith('topics/') else comp/item['file']
+           data=path.read_bytes()
+           assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256'],item['file']
+           return data
+          recipe_raw=metadata(request['current_BVP_recipe']);recipe=json.loads(recipe_raw)
+          assert recipe['schema']=='explicit-current-C-riccati-R300-v3-three-active-complete453-recipe-v1'
+          assert recipe['lambda_target']==.001 and recipe['height_sign']==-1
+          assert recipe['field_modes']==112 and recipe['state_dimension']==453
+          assert recipe['active_parameter_indices']==[0,1,2] and recipe['frozen_parameter_indices']==[3,4,5,6,7,8]
+          assert recipe['initial_guess_kind']=='complete453-explicit-public-u-reparameterization'
+          assert recipe['complete_initial_guess']['mesh_pointer']=='/mesh'
+          assert recipe['complete_initial_guess']['states_pointer']=='/states'
+          assert recipe['complete_initial_guess']['source_sha256']==request['construction_inputs']['complete_seed']['sha256']
+          assert recipe['accepted_source_sha256']==request['construction_inputs']['accepted']['sha256']
+          atomic_raw=metadata(request['original_atomic_construction_request']);atomic=json.loads(atomic_raw)
+          assert atomic['schema']=='public-continuous-nine-v3-construction-request-v1' and atomic['request_number']==147
+          assert atomic['construction']==request['construction']
+          assert recipe['initial_nine_parameters']==atomic['construction']['initial_nine_parameters']
+          assert recipe['initial_parameter_origin']==atomic['construction']['parameter_origin']
+          assert atomic['inputs']==request['inputs']
+          assert atomic['query_recipe']==request['query_recipe']
+          actual=dict(atomic['scientific_parameters']);actual['budget_seconds']=3600
+          assert request['scientific_parameters']==actual
+          original187=json.loads(metadata(request['original187_baseline']['request']))
+          assert original187['request_number']==187 and len(original187['source_sha256'])==84
+          assert all(request['source_sha256'].get(k)==v for k,v in original187['source_sha256'].items())
+          prior=json.loads(metadata(request['original179_baseline']['request']))
+          assert len(prior['source_sha256'])==59
+          assert all(request['source_sha256'].get(k)==v for k,v in prior['source_sha256'].items())
+          old180=json.loads(metadata(request['original180_request']))
+          assert old180['request_number']==180 and len(old180['source_sha256'])==23
+          assert all(request['source_sha256'].get(k)==v for k,v in old180['source_sha256'].items())
+          metadata(request['original165_request'])
+          assert request['actual180_selection']['run_id']==43753422569
+          assert request['actual180_selection']['report_job_id']==132932432397
+          assert request['actual180_selection']['summary']['bytes']==64284
+          assert request['actual180_selection']['summary']['sha256']=='503d2e7d86359c687842e5ce2d5161cac951c7a0b80c5d2b08f5bec3231dcafd'
+          for item in (request['selected_file_reconstruction'],request['semantic_adapter'],
+                       request['pipeline'],request['execution']['owned_process_helper']):
+            metadata(item)
+          query=json.loads(metadata(request['query_recipe']))
+          assert query['queries']==[dict(id='original-binary-config-cut-point',kind='closed-rational-radius-interval',
+            left=.3,right=.3,left_closed=True,right_closed=True),
+            dict(id='whole-original-source-natural-continuous-domain',kind='whole-natural-domain',left_closed=True,right_closed=True)]
+          assert request['scientific_parameters']==dict(deep_definition='original-exact-root-family',
+            precision_bits=256,integral_absolute_bits=96,integral_relative_bits=80,analytic_guard_bits=8,
+            integral_evaluation_limit=100000,value_width_bits=24,max_depth=48,query_depth=12,
+            max_panels=200000,max_query_nodes=200000,budget_seconds=3600)
+          assert request['deep_far']['parameters']==dict(far_port=159,precision_bits=256)
+          assert request['native_sampling']['parameters']==dict(precision_bits=256,linear_budget_seconds=14400,
+            sampling_budget_seconds=1800,max_panels=25000000,free_bytes_reserve=2147483648,max_depth=32,local_defect_bits=12,
+            panel_norm_limit='1/4',taylor_terms=24,max_geometry_cache_records=65536,
+            sample_max_nodes=1000000,sample_inverse_depth=24,sample_value_bits=32,steps=12)
+          # Only literal source metadata is resolved here; no module import.
+          def constants_in(name):
+            tree=ast.parse((comp/name).read_bytes());values={}
+            def literal(node):
+              if isinstance(node,ast.Name):return values[node.id]
+              if isinstance(node,ast.Dict):
+                return {literal(k):literal(v) for k,v in zip(node.keys,node.values)}
+              return ast.literal_eval(node)
+            for node in tree.body:
+              if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name):
+                try:values[node.targets[0].id]=literal(node.value)
+                except (ValueError,KeyError,TypeError,SyntaxError):pass
+            return values
+          constants=constants_in(request['original187_baseline']['driver']['file'])
+          fresh=constants_in(request['current_BVP']['file'])
+          assert fresh['SCHEMA']==request['current_BVP']['schema']
+          assert fresh['RECIPE_SCHEMA']==request['pruefer_provider']['recipe_schema']
+          assert fresh['PARAMETER_ORDER']==request['continuous_ten']['parameter_order']
+          assert fresh['ACTIVE_INDICES']==[0,1,2] and fresh['FROZEN_INDICES']==[3,4,5,6,7,8,9]
+          profile=constants_in(request['continuous_ten']['profile']['file'])
+          complete=dict(constants['PINS'])
+          for table in (constants_in('geometry_20261114_public_free3.py')['FROZEN_SOURCES'],
+                        constants_in('geometry_20261115_small_core_nine_control_family.py')['SOURCE_PINS']):
+            complete.update(table)
+          complete[request['original187_baseline']['driver']['file']]=request['original187_baseline']['driver']['sha256']
+          assert len(complete)==61==request['pruefer_provider']['original187_actual_exported_runtime_count']
+          complete.update(fresh['PINS']);complete.update(profile['SOURCE_PINS'])
+          complete[request['current_BVP']['file']]=request['current_BVP']['sha256']
+          assert len(complete)==69==request['pruefer_provider']['complete_driver_source_count']
+          assert all(request['source_sha256'].get(k)==v for k,v in complete.items())
+          assert len(constants['PINS'])==55==request['pruefer_provider']['original187_direct_driver_pin_count']
+          current_native=dict(recipe['native_configuration']['source_sha256'])
+          for replacement in request['pruefer_provider']['native_source_replacements']:
+            assert current_native.pop(replacement['original_file'])==replacement['original_sha256']
+            assert replacement['file'] not in current_native
+            current_native[replacement['file']]=replacement['sha256']
+          for name,expected in request['pruefer_provider']['new_native_source_additions'].items():
+            assert name not in current_native
+            current_native[name]=expected
+          assert current_native==request['pruefer_provider']['complete_current_native_source_sha256']==constants['NATIVE_PINS']
+          assert request['pruefer_provider']['recipe_schema']=='explicit-current-C-continuous-ten-live-full453-to-frozen450-recipe-v1'
+          assert request['finite_head']['file']=='geometry_20261115_stored_C_finite_head_pruefer_positive.py'
+          assert request['finite_head']['sha256']=='c2f515aa276890da63871fe0e9e1440775950d4985465457e9d6025976d914c8'
+          assert request['finite_head']['proof']['sha256']=='8a51036fd130c80365284c2e4678c3aa765d177471b4d16df0f4c85add016fa9'
+          assert recipe['native_configuration']['original_runtime_sha256']==constants['ORIGINAL_RUNTIME_PINS']
+          for item in (request['proof'],request['deep_far']['proof'],request['finite_head']['proof'],
+           request['native_proof'],request['native_sampling']['unit_row_proof'],request['finite_head']['original_R347_proof'],request['original_finite_head_formula']['proof'],request['evaluation_strategy']['proof'],request['evaluation_strategy']['unit_panel_proof'],
+           request['construction']['R300_proof'],request['construction']['R323_proof'],
+           request['query_recipe'],request['native_sampling'],request['current_BVP'],request['current_BVP_launch'],request['current_BVP_readout'],
+           request['continuous_ten']['R400_proof'],request['continuous_ten']['factory'],request['continuous_ten']['numeric'],
+           request['continuous_ten']['flow'],request['continuous_ten']['profile'],request['continuous_ten']['checkpoint'],request['continuous_ten']['hooks']):
+           metadata(item)
+          for name,blob in request['reviewed_README_blobs'].items():
+           assert subprocess.check_output(['git','hash-object',name],text=True).strip()==blob
+          assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==os.environ['GITHUB_SHA']
+          assert not any(request['retention'][key] for key in ('upload_artifact','upload_release','publish_raw_to_git'))
+          lifecycle=base/'request193_owned_process.py'
+          lifecycle_raw=lifecycle.read_bytes();helper=request['execution']['owned_process_helper']
+          assert len(lifecycle_raw)==helper['bytes']==14019
+          assert hashlib.sha256(lifecycle_raw).hexdigest()==helper['sha256']=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          compile(ast.parse(lifecycle_raw,filename=lifecycle.name),lifecycle.name,'exec')
+          deadline=json.loads((base/'job-science-deadline.json').read_bytes())
+          assert deadline['request_sha256']==hashlib.sha256(raw).hexdigest()
+          assert deadline['template_recipe_sha256']==request['current_BVP_recipe']['sha256']
+          assert deadline['schema']=='request193-owned-job-science-deadline-v1'
+          assert len(constants['PINS'])==55 and len(constants['NATIVE_PINS'])==29
+          assert request['finite_head']['parameters']==dict(precision_bits=256,budget_seconds=14400,
+            max_panels=25000000,free_bytes_reserve=2147483648,max_depth=32,
+            local_defect_bits=12,panel_norm_limit='1/4',taylor_terms=24,max_geometry_cache_records=65536)
+          assert request['native_sampling']['schema']=='current-C-pruefer-positive-endpoint-physical-radial-samples-and-general-far-v1'
+          assert recipe['native_configuration']['linear_budget_seconds']==1800
+          assert recipe['execution']['complete_BVP_process_budget_seconds']==7200
+          assert request['retention']['cleanup_requires_all_six_actual_readback_successes_and_same_job_markers'] is True
+          # The actual full workflow is also source-checked before science.
+          # This reads code and compiles Python/bash syntax; it imports no
+          # mathematical module and runs no heredoc or scientific expression.
+          workflow=repo/'.github/workflows/visible-larger-public-continuous-ten-full453-frozen450.yml'
+          workflow_raw=workflow.read_bytes();workflow_lines=workflow_raw.decode().splitlines()
+          shell_blocks=[];python_blocks=[];position=0
+          while position<len(workflow_lines):
+            line=workflow_lines[position]
+            if line=='        run: |':
+              position+=1;body=[]
+              while position<len(workflow_lines):
+                item_line=workflow_lines[position]
+                if item_line and not item_line.startswith('          '):break
+                body.append(item_line[10:] if item_line else '')
+                position+=1
+              shell_blocks.append('\n'.join(body)+'\n')
+              continue
+            position+=1
+          for number,shell in enumerate(shell_blocks):
+            checked_shell=subprocess.run(['bash','-n'],input=shell,text=True,capture_output=True)
+            if checked_shell.returncode:
+              raise ValueError('Actual workflow shell syntax '+str(number)+': '+checked_shell.stderr)
+            lines=shell.splitlines();position=0
+            while position<len(lines):
+              marker=re.search(r"<<'([A-Z][A-Z0-9_]*)'\s*$",lines[position])
+              if marker and re.search(r'\bpython(?:3)?\b',lines[position]):
+                tag=marker.group(1);position+=1;body=[]
+                while position<len(lines) and lines[position]!=tag:
+                  body.append(lines[position]);position+=1
+                assert position<len(lines),'Unterminated actual Python heredoc '+tag
+                text='\n'.join(body)+'\n'
+                compile(ast.parse(text,filename=workflow.name+':'+tag),workflow.name+':'+tag,'exec')
+                python_blocks.append(dict(tag=tag,bytes=len(text.encode()),sha256=hashlib.sha256(text.encode()).hexdigest()))
+              position+=1
+          assert len(shell_blocks)>=15 and len(python_blocks)>=15
+          print(json.dumps(dict(event='request193_actual_workflow_source_syntax',
+            workflow_file=str(workflow.relative_to(repo)),bytes=len(workflow_raw),
+            sha256=hashlib.sha256(workflow_raw).hexdigest(),
+            bash_blocks=len(shell_blocks),python_heredoc_identities=python_blocks,
+            no_scientific_code_imported_or_evaluated=True)),flush=True)
+          (base/'dispatch-request.json').write_bytes(raw)
+          (base/'BVP-template-recipe.json').write_bytes(recipe_raw)
+          print(json.dumps(dict(event='request193_complete_frozen_source_and_recipe_binding',
+           run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+           request=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),
+           original_BVP_template_only=request['current_BVP_recipe'],sources=records,
+           original_atomic_construction=request['original_atomic_construction_request'],
+           actual_C_parameters=request['scientific_parameters'],no_scientific_import_or_evaluation_in_preflight=True)),flush=True)
+          PYPINS
+      - name: Restore only the five original byte inputs and verify the complete453 seed producer
+        run: |
+          python - <<'PYINPUTS'
+          import gzip,hashlib,json,os,subprocess
+          from pathlib import Path,PurePosixPath
+          repo=Path(os.environ['GITHUB_WORKSPACE']);base=Path(os.environ['VISIBLE_BASE'])
+          request=json.loads((base/'dispatch-request.json').read_bytes())
+          commit='8bd267107cc8710d371f3b62c02986655ac965b0'
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          assert head==os.environ['GITHUB_SHA']
+          if subprocess.run(['git','cat-file','-e',commit+'^{commit}'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:
+           subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags','--filter=blob:none','--depth=1','origin',commit],check=True)
+          inputs=base/'original-inputs';inputs.mkdir(exist_ok=False);records={}
+          for role,item in {**request['inputs'],**request['construction_inputs']}.items():
+           assert item['historical_public_commit']==commit
+           relative=PurePosixPath(item['file'])
+           assert not relative.is_absolute() and '..' not in relative.parts
+           assert str(relative).startswith('topics/visible-flex-larger-amplitude/notes/')
+           assert Path(item['runtime_basename']).name==item['runtime_basename']
+           blob=subprocess.check_output(['git','rev-parse',commit+':'+str(relative)],text=True).strip()
+           if 'git_blob' in item:assert blob==item['git_blob']
+           raw=subprocess.check_output(['git','cat-file','blob',blob])
+           assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256'],role
+           path=inputs/item['runtime_basename']
+           with path.open('xb') as stream:stream.write(raw);stream.flush();os.fsync(stream.fileno())
+           records[role]=dict(source_path=str(relative),git_blob=blob,bytes=len(raw),sha256=item['sha256'],temporary_file=str(path))
+          assert set(records)=={'config','calibration_ledger','stored_reference','accepted','complete_seed'}
+          import struct
+          original_config=json.loads((inputs/request['inputs']['config']['runtime_basename']).read_bytes())
+          query=json.loads((repo/request['query_recipe']['file']).read_bytes())
+          cut=original_config['rCut'];point=query['queries'][0]
+          assert type(cut) is float and type(point['left']) is float and type(point['right']) is float
+          assert struct.pack('<d',point['left'])==struct.pack('<d',cut)==struct.pack('<d',point['right'])
+          seed_raw=(inputs/request['construction_inputs']['complete_seed']['runtime_basename']).read_bytes()
+          seed=json.loads(gzip.decompress(seed_raw))
+          assert seed['source_sha256']=='9a1ae018d71e38ff901c4b9156b23502a4efde44f812c1ff4e03323878b659db'
+          assert (seed['M'],seed['N'])==(112,2048)
+          assert len(seed['mesh'])==len(seed['states'])==699 and all(len(row)==453 for row in seed['states'])
+          assert seed['source_accepted_prefix']['sha256']==request['construction_inputs']['accepted']['sha256']
+          assert seed['success'] is False and seed['complete_closed_surface'] is False
+          assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==head
+          print(json.dumps(dict(event='request193_actual_five_input_bytes_and_source_seed_bound',
+           source_commit=head,historical_public_commit=commit,inputs=records,
+           current_original_binary_cut_float64le=struct.pack('<d',cut).hex(),
+           actual_seed_nodes=len(seed['mesh']),actual_seed_dimension=453,
+           actual_seed_producer=seed['source_sha256'],actual_seed_success=seed['success'],
+           old_RHS_metric_tail_and_acceptance_not_inherited=True,
+           actual_current_public_u_remap_and_fresh_RHS_remain_to_be_computed=True,
+           no_current_H_native_response_or_J_fabricated=True)),flush=True)
+          PYINPUTS
+      - name: Restore the unchanged original public source subset once
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+          import os
+          from pathlib import Path
+          from exact_20261114_public_resume import prepare_public_source
+          base=Path(os.environ['VISIBLE_BASE'])
+          source=prepare_public_source(Path.cwd(),base/'original-public-source',base)
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+          PYSOURCE
+      - name: Restore actual180 selection and exact original selected files under current rules
+        id: selection_recovery
+        timeout-minutes: 25
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYSELECT'
+          import hashlib,json,os,runpy,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);request_path=base/'dispatch-request.json'
+          request=json.loads(request_path.read_bytes())
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          runner.BASELINES=baselines
+          item=request['pipeline'];raw=(comp/item['file']).read_bytes()
+          assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+          argv=[str(comp/item['file']),'selection','--request',str(request_path),
+            '--base',str(base),'--code-directory',str(comp)]
+          owned_path=base/'request193_owned_process.py'
+          assert hashlib.sha256(owned_path.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owned_path),run_name='_request193_selection_owner')
+          command=[sys.executable,'-u',str(owned_path),'exec','selection',*argv]
+          print(json.dumps(dict(event='request193_actual180_reconstruction_dispatch',
+            actual_original_tuple=request['actual180_selection'],
+            original180_request=request['original180_request'],
+            old_full_domain_search_not_repeated=True,fresh_C_factory_numeric_J_still_required=True,
+            token_only_in_transport_process_environment=True,actual_argv=argv)),flush=True)
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync-selection'),'--command',*command]
+          raise SystemExit(owned['invoke_parent']('selection',runner.main))
+          PYSELECT
+      - name: Produce the complete original continuous E cover with honest partial scope
+        id: science
+        timeout-minutes: 75
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=Path(os.environ['VISIBLE_BASE'])/'dispatch-request.json';request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          old={name:value['blob'] for name,value in runner.BASELINES.items()};runner.BASELINES=baselines
+          print(json.dumps(dict(event='request193_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
+            old_embedded_blobs=old,reviewed_current_blobs=request['reviewed_README_blobs'],
+            period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_rule_change_stop_retained=True)),flush=True)
+          base=Path(os.environ['VISIBLE_BASE']);inputs=base/'original-inputs'
+          argv=[str(comp/request['scientific_entry']),'--runtime-computations',str(comp),
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],'--proof',str(repo/request['proof']['file']),
+            '--queries',str(repo/request['query_recipe']['file']),'--queries-sha256',request['query_recipe']['sha256'],
+            '--out',str(base/'continuous-E')]
+          for role,option in (('config','config'),('calibration_ledger','ledger-ready'),('stored_reference','stored-ready')):
+            item=request['inputs'][role]
+            argv.extend(['--'+option,str(inputs/item['runtime_basename']),'--'+option+'-sha256',item['sha256']])
+          for key,value in request['scientific_parameters'].items():
+            argv.extend(['--'+key.replace('_','-'),str(value)])
+          # Auth exists only for the original rule-sync parent; the numerical
+          # child executes the independent evaluator of the unchanged model without GitHub token variables.
+          import runpy
+          owned_path=base/'request193_owned_process.py'
+          assert hashlib.sha256(owned_path.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owned_path),run_name='_request193_original_stage_owner')
+          command=[sys.executable,'-u',str(owned_path),'exec','C',*argv]
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*command]
+          raise SystemExit(owned['invoke_parent']('C',runner.main))
+          PYRUN
+      - name: Read every original point-query leaf and enclose the complete cut two-jet
+        id: cut_twojet
+        if: always()
+        timeout-minutes: 10
+        run: |
+          python -u - <<'PYCUT'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);out=base/'continuous-E';result=out/'result.json'
+          request=json.loads((Path(os.environ['VISIBLE_BASE'])/'dispatch-request.json').read_bytes())
+          if not result.is_file():
+            print(json.dumps(dict(event='request193_cut_twojet_source_result_unavailable',
+              complete_cut_twojet_not_claimed=True,original_science_or_rule_failure_retained=True)),flush=True)
+            raise SystemExit(0)
+          helper=request['cut_twojet_readout'];raw=(comp/helper['file']).read_bytes()
+          assert len(raw)==helper['bytes'] and hashlib.sha256(raw).hexdigest()==helper['sha256']
+          config=request['inputs']['config'];query=request['query_recipe']
+          argv=[sys.executable,'-u',str(comp/helper['file']),'--directory',str(out),
+            '--result-sha256',hashlib.sha256(result.read_bytes()).hexdigest(),
+            '--config',str(base/'original-inputs'/config['runtime_basename']),
+            '--config-sha256',config['sha256'],'--query-recipe',str(repo/query['file']),
+            '--query-recipe-sha256',query['sha256'],'--out',str(base/'cut-twojet-readout')]
+          child_env={key:value for key,value in os.environ.items()
+            if key not in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')}
+          code=subprocess.run(argv,env=child_env).returncode
+          raise SystemExit(code)
+          PYCUT
+      - name: Run independent ten factory at exact selected nine plus zero xi with fresh C
+        id: construction
+        if: always()
+        timeout-minutes: 20
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYCONSTRUCT'
+          import hashlib,json,os,runpy,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);request_path=base/'dispatch-request.json'
+          request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==request['source_sha256']['root_20261114_current576_rules_runner.py']
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          runner.BASELINES=baselines
+          item=request['pipeline'];raw=(comp/item['file']).read_bytes()
+          assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+          argv=[str(comp/item['file']),'construction','--request',str(request_path),
+            '--base',str(base),'--code-directory',str(comp)]
+          owned_path=base/'request193_owned_process.py'
+          assert hashlib.sha256(owned_path.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owned_path),run_name='_request193_original_factory_owner')
+          command=[sys.executable,'-u',str(owned_path),'exec','construction',*argv]
+          print(json.dumps(dict(event='request193_selected_fresh_factory_dispatch',
+            actual_selected_recipe=request['actual180_selection']['selected_recipe'],
+            actual_selected_definition=request['actual180_selection']['selected_definition'],
+            independent_actual_ten_factory=request['continuous_ten']['factory'],
+            original_nine_factory_is_restriction_source_only=request['construction']['factory'],
+            old_width_selection_wrapper_not_executed=True,no_fake_factory_result=True,
+            actual_argv=argv,old419_proof_does_not_certify_new_numeric_shadow_or_later_parameters=True)),flush=True)
+          sys.argv=[runner.__file__,'--out',str(base/'construction-rule-sync'),'--command',*command]
+          raise SystemExit(owned['invoke_parent']('construction',runner.main))
+          PYCONSTRUCT
+      - name: Read one necessary actual selected restoration and fresh construction summary
+        id: construction_readback
+        if: always()
+        timeout-minutes: 5
+        run: |
+          python -u - <<'PYCONSTRUCTIONREAD'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          base=Path(os.environ['VISIBLE_BASE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request=json.loads((base/'dispatch-request.json').read_bytes());item=request['pipeline']
+          raw=(comp/item['file']).read_bytes()
+          assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+          argv=[sys.executable,'-u',str(comp/item['file']),'readback',
+            '--request',str(base/'dispatch-request.json'),'--base',str(base),'--code-directory',str(comp)]
+          env={k:v for k,v in os.environ.items() if k not in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')}
+          raise SystemExit(subprocess.run(argv,env=env,check=False).returncode)
+          PYCONSTRUCTIONREAD
+      - name: Produce every same-C deep far row in the same actual job
+        id: far
+        if: always()
+        timeout-minutes: 5
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYFAR'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);request=json.loads((base/'dispatch-request.json').read_bytes())
+          expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          runner.BASELINES=baselines
+          item=request['deep_far'];raw=(comp/item['file']).read_bytes()
+          assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+          argv=[str(comp/item['file']),'--runtime-computations',str(comp),
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],'--proof',str(repo/request['proof']['file']),
+            '--tail-proof',str(repo/item['proof']['file']),'--out',str(base/'deep-far')]
+          for role,option in (('config','config'),('calibration_ledger','ledger-ready'),('stored_reference','stored-ready')):
+            original=request['inputs'][role]
+            argv.extend(['--'+option,str(base/'original-inputs'/original['runtime_basename']),
+              '--'+option+'-sha256',original['sha256']])
+          for key,value in item['parameters'].items():argv.extend(['--'+key.replace('_','-'),str(value)])
+          import runpy
+          owned_path=base/'request193_owned_process.py'
+          assert hashlib.sha256(owned_path.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owned_path),run_name='_request193_original_stage_owner')
+          command=[sys.executable,'-u',str(owned_path),'exec','far',*argv]
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync-far'),
+            '--command',*command]
+          raise SystemExit(owned['invoke_parent']('far',runner.main))
+          PYFAR
+      - name: Bind every actual physical-radius sample and propagate all real-angle far candidates and oriented-unit rows
+        id: sampling
+        if: always()
+        timeout-minutes: 285
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYSAMPLING'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);request=json.loads((base/'dispatch-request.json').read_bytes())
+          cover=base/'continuous-E'/'result.json';far=base/'deep-far'/'result.json'
+          if not cover.is_file() or not far.is_file():
+            print(json.dumps(dict(event='request193_current_C_original_input_unavailable',
+              actual_cover_result_present=cover.is_file(),actual_far_result_present=far.is_file(),
+              current_geometry_or_current_H_DN_not_claimed=True)),flush=True)
+            raise SystemExit(0)
+          expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes();assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          runner.BASELINES=baselines
+          item=request['native_sampling'];data=(comp/item['file']).read_bytes()
+          assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
+          argv=[str(comp/item['file']),'--code-directory',str(comp),
+            '--cover-directory',str(cover.parent),'--cover-result-sha256',hashlib.sha256(cover.read_bytes()).hexdigest(),
+            '--far-directory',str(far.parent),'--far-result-sha256',hashlib.sha256(far.read_bytes()).hexdigest(),
+            '--proof',str(repo/request['finite_head']['proof']['file']),
+            '--unit-row-proof',str(repo/item['unit_row_proof']['file']),'--out',str(base/'current-geometry')]
+          for key,value in item['parameters'].items():argv.extend(['--'+key.replace('_','-'),str(value)])
+          import runpy
+          owned_path=base/'request193_owned_process.py'
+          assert hashlib.sha256(owned_path.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owned_path),run_name='_request193_original_stage_owner')
+          command=[sys.executable,'-u',str(owned_path),'exec','sampling',*argv]
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync-sampling'),
+            '--command',*command]
+          raise SystemExit(owned['invoke_parent']('sampling',runner.main))
+          PYSAMPLING
+      - name: Solve real full453 then same-point full450 with one owner and fresh original final gates
+        id: bvp
+        if: always()
+        timeout-minutes: 135
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYBVP'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);request=json.loads((base/'dispatch-request.json').read_bytes())
+          adapter_path=base/'continuous-ten-BVP-input'/'result.json'
+          if not adapter_path.is_file():
+           print(json.dumps(dict(event='request193_selected_BVP_recipe_not_created',actual_native_or_BVP_not_started=True)),flush=True)
+           raise SystemExit(2)
+          adapter_raw=adapter_path.read_bytes();adapter=json.loads(adapter_raw)
+          assert adapter['source_sha256']==request['pipeline']['sha256']
+          assert adapter['schema']=='request193-selected-coast-continuous-ten-construction-v1-actual-BVP-input'
+          assert adapter['actual_selection_summary']['sha256']==request['actual180_selection']['summary']['sha256']
+          assert adapter['actual_ten_float64_words_are_selected_exact_rationals'] is True
+          assert adapter['one_raw_owner_two_real_problems_no_parent_response_as_second_anchor'] is True
+          assert adapter['run_id']==os.environ['GITHUB_RUN_ID'] and adapter['source_commit']==os.environ['GITHUB_SHA']
+          assert adapter.get('direct_BVP_input_created') is True
+          generated=adapter['generated_BVP_recipe']
+          assert Path(generated['file']).name==generated['file']
+          recipe_path=base/'continuous-ten-BVP-input'/generated['file']
+          recipe_raw=recipe_path.read_bytes();recipe=json.loads(recipe_raw)
+          assert len(recipe_raw)==generated['bytes'] and hashlib.sha256(recipe_raw).hexdigest()==generated['sha256']
+          assert recipe['request_number']==193
+          assert recipe['schema']==request['pruefer_provider']['recipe_schema']
+          assert recipe['native_configuration']['source_sha256']==request['pruefer_provider']['complete_current_native_source_sha256']
+          assert recipe['initial_parameter_origin']['selection_summary']['sha256']==request['actual180_selection']['summary']['sha256']
+          assert recipe['parameter_order']==request['continuous_ten']['parameter_order']
+          assert len(recipe['initial_ten_parameters'])==10 and recipe['initial_ten_parameters'][9]==0.0
+          assert recipe['frozen_parameter_indices']==[3,4,5,6,7,8,9]
+          assert recipe['second_problem']=='same-ten-words-complete450-K0-k0' and recipe['second_state_dimension']==450
+          assert recipe['two_phases_share_one_original_process_clock'] is True
+          geometry=base/'current-geometry'/'result.json';factory=base/'construction'/'factory'/'result.json'
+          available=dict(actual_geometry_result=geometry.is_file(),actual_factory_result=factory.is_file())
+          if not all(available.values()):
+           print(json.dumps(dict(event='request193_actual_BVP_upstream_unavailable',**available,
+            actual_current_H_or_native_J_or_full_BVP_not_claimed=True)),flush=True)
+           raise SystemExit(2)
+          graw=geometry.read_bytes();gr=json.loads(graw)
+          if gr.get('completed') is not True or gr.get('native_geometry_ready') is not True:
+           print(json.dumps(dict(event='request193_actual_current_C_geometry_unpaid',
+            original_geometry_result=dict(bytes=len(graw),sha256=hashlib.sha256(graw).hexdigest()),
+            completed=gr.get('completed'),native_geometry_ready=gr.get('native_geometry_ready'),
+            original_error=gr.get('error'),no_current_H_or_native_result_invented=True)),flush=True)
+           raise SystemExit(2)
+          expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+           raw=(repo/name).read_bytes();assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+           baselines[name]=dict(blob=blob,text=raw.decode())
+          runner.BASELINES=baselines
+          def identity(path):
+           raw=path.read_bytes();return dict(file=path.name,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+          configuration=dict(recipe['native_configuration'])
+          configuration.update(schema='current-C-complete112-client-config-v1',
+           model_schema='R286-original-stored-continuous-model-convention-C-v1',
+           repository='Rogerhu12/math-research-public',computations=str(comp),
+           source_topic=os.environ['VISIBLE_SOURCE_TOPIC'],geometry_directory=str(geometry.parent),
+           geometry_result_sha256=hashlib.sha256(graw).hexdigest(),
+           original_execution_recipe=identity(recipe_path),original_actual_geometry_result=identity(geometry),
+           actual_physical_height_source='Actual first453 and then actual450 complete endpoints; each formed inside its original solve',
+           no_explicit_zero_or_old_anchor_request=True)
+          config=base/'current-C-BVP-client-config.json'
+          with config.open('xb') as f:
+           raw=(json.dumps(configuration,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n').encode()
+           f.write(raw);f.flush();os.fsync(f.fileno())
+          item=request['current_BVP_launch'];source=(comp/item['file']).read_bytes()
+          assert len(source)==item['bytes'] and hashlib.sha256(source).hexdigest()==item['sha256']
+          accepted=request['construction_inputs']['accepted'];seed=request['construction_inputs']['complete_seed']
+          argv=[str(comp/item['file']),'--recipe',str(recipe_path),'--recipe-sha256',hashlib.sha256(recipe_raw).hexdigest(),
+           '--accepted',str(base/'original-inputs'/accepted['runtime_basename']),'--accepted-sha256',accepted['sha256'],
+           '--complete-seed',str(base/'original-inputs'/seed['runtime_basename']),
+           '--factory-directory',str(factory.parent),'--factory-result-sha256',identity(factory)['sha256'],
+           '--tail-config',str(config),'--tail-config-sha256',identity(config)['sha256'],
+           '--tail-source-root',os.environ['VISIBLE_SOURCE_TOPIC'],'--computations',str(comp),
+           '--job-deadline',str(base/'current-BVP-deadline.json'),'--out',str(base/'BVP-launch')]
+          print(json.dumps(dict(event='request193_current_profile_BVP_dispatch',
+           actual_recipe=identity(recipe_path),actual_factory=identity(factory),
+           actual_geometry=identity(geometry),actual_configuration=identity(config),
+           actual_argv=argv,lambda_target=recipe['lambda_target'],all_initial_ten_parameters=recipe['initial_ten_parameters'],
+           actual_height_is_computed_inside_this_new_job=True,
+           original17_inner_trials_8_outers_native32_10_and_all_tolerances_unchanged=True,
+           actual_source_seed_used_only_as_initial_guess=True,
+           same_live_native_owner_required_through_both_phases_and_each_fresh_final_audit=True,
+           real453_acceptance_only_seeds_independent_complete450=True,
+           protocol_entry_bound_is_not_a_new_call_gate=True,
+           finite_numeric_scope_does_not_certify_exact_C_metric_infinite_DN_or_closed_geometry=True)),flush=True)
+          import runpy
+          owned_path=base/'request193_owned_process.py'
+          assert hashlib.sha256(owned_path.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owned_path),run_name='_request193_original_stage_owner')
+          command=[sys.executable,'-u',str(owned_path),'exec','bvp',*argv]
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync-BVP'),
+           '--command',*command]
+          raise SystemExit(owned['invoke_parent']('bvp',runner.main))
+          PYBVP
+      - name: Read actual complete metadata and unresolved suffixes without new scientific arithmetic
+        id: scalar
+        if: always()
+        timeout-minutes: 5
+        run: |
+          python - <<'PYSCALAR'
+          import collections,hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['VISIBLE_BASE']);out=base/'continuous-E'
+          def digest(path):
+            h=hashlib.sha256();count=0
+            with path.open('rb') as stream:
+              for block in iter(lambda:stream.read(1048576),b''):h.update(block);count+=len(block)
+            return dict(file=str(path.relative_to(base)),bytes=count,sha256=h.hexdigest())
+          summary=dict(schema='request193-original-continuous-E-actual-scalar-summary-v1',
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            compute_step_outcome='${{ steps.science.outcome }}',
+            source_result=None,query_results=None,complete_unpaid_scope=None,
+            actual_accepted_field_not_claimed=True,readout_performs_no_new_scientific_arithmetic=True)
+          result=out/'result.json'
+          if result.is_file():
+            desc=digest(result);record=json.loads(result.read_bytes())
+            assert record['schema']=='R286-original-stored-convention-C-continuous-E-cover-v3'
+            comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+            request=json.loads((Path(os.environ['VISIBLE_BASE'])/'dispatch-request.json').read_bytes())
+            assert record['source_sha256']==request['source_sha256'][request['scientific_entry']]
+            assert record['preserved_original_producer_source']==request['evaluation_strategy']['preserved_original_producer_source']
+            assert record['preserved_unit_panel_producer_source']==request['evaluation_strategy']['preserved_unit_panel_producer_source']
+            summary['original_result_file']=desc;summary['source_result']=record
+            query=record['query_results'];path=out/query['file'];qraw=path.read_bytes()
+            assert len(qraw)==query['bytes'] and hashlib.sha256(qraw).hexdigest()==query['sha256']
+            summary['query_results']=json.loads(qraw)
+            unpaid=record['ledgers']['complete_unpaid_scope'];path=out/unpaid['file']
+            actual=digest(path)
+            assert actual['bytes']==unpaid['bytes'] and actual['sha256']==unpaid['sha256']
+            counts=collections.Counter();source_suffixes=[];query_suffixes=[];first_issue=None;rows=0
+            with path.open('rb') as stream:
+              for raw in stream:
+                item=json.loads(raw);rows+=1;kind=item['kind'];counts[kind]+=1
+                if first_issue is None:first_issue=item
+                if kind=='unvisited-source-piece-suffix':source_suffixes.append(item)
+                if kind=='unvisited-query-suffix':query_suffixes.append(item)
+            assert rows==unpaid['rows']
+            summary['complete_unpaid_scope']=dict(original_ledger=actual,rows=rows,
+              exact_row_count_by_kind=dict(counts),first_original_issue=first_issue,
+              all_unvisited_source_piece_suffixes=source_suffixes,all_unvisited_query_suffixes=query_suffixes,
+              other_closed_panel_rows_are_in_recomputable_ledger_not_silently_claimed_paid=True)
+          else:
+            summary['failure_scope']='No final producer result; inspect original child stderr and rule-sync outcome; no scientific completion is inferred.'
+          rules=base/'rule-sync'/'runner-result.json'
+          if rules.is_file():summary['rules_runner_result']=dict(original_file=digest(rules),value=json.loads(rules.read_bytes()))
+          raw=json.dumps(summary,ensure_ascii=False,separators=(',',':'),allow_nan=False).encode()
+          if len(raw)>90000:
+            print(json.dumps(dict(event='request193_actual_scalar_summary_too_large',bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),no_truncation_and_no_success_relabel=True)),flush=True)
+            raise SystemExit(70)
+          print('BEGIN_REQUEST193_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(raw.decode())
+          print('END_REQUEST193_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          checksum=hashlib.sha256(raw).hexdigest()
+          print(json.dumps(dict(event='request193_actual_scalar_identity',bytes=len(raw),sha256=checksum,
+            hash_scope='compact UTF8 JSON excluding separator LF',raw_upload=False)),flush=True)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+            stream.write('scalar_summary='+raw.decode()+'\n')
+            stream.write('scalar_summary_bytes='+str(len(raw))+'\n')
+            stream.write('scalar_summary_sha256='+checksum+'\n')
+          PYSCALAR
+      - name: Read all actual deep rows and retain only original scope and identities
+        id: far_scalar
+        if: always()
+        timeout-minutes: 5
+        run: |
+          python - <<'PYFARREAD'
+          import hashlib,json,os
+          from pathlib import Path,PurePosixPath
+          base=Path(os.environ['VISIBLE_BASE']);out=base/'deep-far'
+          request=json.loads((base/'dispatch-request.json').read_bytes())
+          def canonical(value):
+            return (json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n').encode()
+          def checked(desc):
+            rel=PurePosixPath(desc['file']);assert not rel.is_absolute() and '..' not in rel.parts
+            path=out/rel;assert not path.is_symlink() and path.resolve().is_relative_to(out.resolve())
+            h=hashlib.sha256();size=0;rows=0
+            with path.open('rb') as stream:
+              for raw in stream:h.update(raw);size+=len(raw);rows+=1
+            assert size==desc['bytes'] and h.hexdigest()==desc['sha256']
+            if 'rows' in desc:assert rows==desc['rows']
+            return path
+          path=out/'result.json'
+          summary=dict(schema='request193-actual-deep-far-scalar-readout-v1',source_result=None,
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            deep_step_outcome='${{ steps.far.outcome }}',cut_DN_not_inferred=True,
+            readout_performs_no_new_scientific_arithmetic=True)
+          if path.is_file():
+            raw=path.read_bytes();result=json.loads(raw)
+            assert result['schema']==request['deep_far']['schema']
+            assert result['source_sha256']==request['deep_far']['sha256']
+            assert result['run_id']==os.environ['GITHUB_RUN_ID'] and result['source_commit']==os.environ['GITHUB_SHA']
+            checked(result['input_binding'])
+            rows_path=checked(result['complete_rows']);frequencies=[]
+            with rows_path.open('rb') as stream:
+              for line in stream:
+                item=json.loads(line);frequencies.append(item['physical_frequency'])
+                assert item['mode_index']==len(frequencies)-1
+                assert item['physical_frequency']==2*len(frequencies) and item['far_port']==159
+                assert item['every_actual_original_root_choice_included'] is True
+            assert frequencies==result['completed_modes']
+            summary.update(source_result=result,actual_result_file=dict(file='result.json',
+              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),
+              actual_complete_row_stream_read=True,actual_row_frequencies=frequencies,
+              all_numeric_row_words_were_not_recomputed_by_reader=True)
+          else:
+            summary['unavailable_scope']='No final original deep result; no deep or cut completion inferred.'
+          rules=base/'rule-sync-far'/'runner-result.json'
+          if rules.is_file():
+            raw=rules.read_bytes()
+            summary['rules_runner_result']=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),value=json.loads(raw))
+          raw=canonical(summary)
+          if len(raw)>90000:
+            print(json.dumps(dict(event='request193_far_readout_too_large',bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),no_truncation=True)),flush=True)
+            raise SystemExit(70)
+          print('BEGIN_REQUEST193_ACTUAL_DEEP_FAR_SUMMARY');print(raw.decode(),end='');print('END_REQUEST193_ACTUAL_DEEP_FAR_SUMMARY')
+          checksum=hashlib.sha256(raw).hexdigest()
+          print(json.dumps(dict(event='request193_far_readout_identity',bytes=len(raw),sha256=checksum,
+            hash_scope='canonical UTF8 JSON including final LF')),flush=True)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+            stream.write('far_summary='+raw.decode().rstrip('\n')+'\n')
+            stream.write('far_summary_bytes='+str(len(raw))+'\n')
+            stream.write('far_summary_sha256='+checksum+'\n')
+          PYFARREAD
+      - name: Read necessary sampler scope both genuine phases all original FD errors and one native owner
+        id: bvp_scalar
+        if: always()
+        timeout-minutes: 30
+        run: |
+          python -u - <<'PYBVPREAD'
+          import hashlib,json,os,runpy,subprocess,sys
+          from pathlib import Path
+          base=Path(os.environ['VISIBLE_BASE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request=json.loads((base/'dispatch-request.json').read_bytes());item=request['current_BVP_readout']
+          raw=(comp/item['file']).read_bytes()
+          assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+          owner=base/'request193_owned_process.py'
+          assert hashlib.sha256(owner.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owner),run_name='_request193_BVP_readback_owner')
+          observed=owned['observe']()
+          launch=base/'BVP-launch'
+          if launch.exists():
+            try:
+              if not launch.is_dir() or launch.is_symlink():raise ValueError('Owned BVP output is not its original directory')
+              value=json.loads((launch/'result.json').read_bytes())
+              if (value.get('run_id')!=os.environ['GITHUB_RUN_ID']
+                  or value.get('source_commit')!=os.environ['GITHUB_SHA']):
+                raise ValueError('Owned BVP result does not bind this run and source')
+              if value.get('owned_group_quiescent_before_readback') is not True:
+                observed['unknown_owner_scopes'].append(dict(role='BVP-child',reason='Actual independent BVP group has no observed stopped receipt'))
+            except Exception as error:
+              observed['unknown_owner_scopes'].append(dict(role='BVP-child',
+                reason='Owned BVP output exists without a complete launch-return identity',original_error=repr(error)))
+          observed['quiescent']=not observed['live_original_owned_processes'] and not observed['unknown_owner_scopes']
+          observed_raw=(json.dumps(observed,sort_keys=True,separators=(',',':'))+'\n').encode()
+          (base/'pre-BVP-readback-quiescence.json').write_bytes(observed_raw)
+          print(json.dumps(dict(event='request193_before_complete_BVP_readback_owner_scope',
+            original_observation=observed,bytes=len(observed_raw),
+            sha256=hashlib.sha256(observed_raw).hexdigest(),
+            not_a_new_scientific_gate=True)),flush=True)
+          if not observed['quiescent']:
+            print(json.dumps(dict(event='request193_live_scope_readback_unpaid',
+              no_complete_mutable_stream_claimed=True,cleanup_must_be_skipped=True)),flush=True)
+            raise SystemExit(2)
+          argv=[sys.executable,'-u',str(comp/item['file']),
+           '--launch-directory',str(base/'BVP-launch'),'--sampler-directory',str(base/'current-geometry'),
+           '--computations',str(comp),'--out',str(base/'BVP-scalar-readout')]
+          source=base/'current-geometry'/'result.json'
+          if source.is_file():argv.extend(['--sampler-result-sha256',hashlib.sha256(source.read_bytes()).hexdigest()])
+          env={k:v for k,v in os.environ.items() if k not in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')}
+          result=subprocess.run(argv,env=env,check=False)
+          if result.returncode:raise SystemExit(result.returncode)
+          summary=base/'BVP-scalar-readout'/'scalar-summary.json'
+          packed=summary.read_bytes();record=json.loads(packed)
+          assert record['schema']=='continuous-ten-current-C-live-full453-and-frozen450-necessary-readback-v1'
+          assert record['complete_necessary_readback_without_recorded_error'] is True
+          assert record['owned_group_quiescent_before_readback'] is True
+          marker=json.loads((base/'BVP-scalar-readout'/'readback-complete.json').read_bytes())
+          assert marker['schema']==record['schema']+'-complete-marker'
+          assert marker['repository']==os.environ['GITHUB_REPOSITORY']
+          assert marker['run_id']==os.environ['GITHUB_RUN_ID'] and marker['source_commit']==os.environ['GITHUB_SHA']
+          assert marker['necessary_summary']==dict(bytes=len(packed),sha256=hashlib.sha256(packed).hexdigest())
+          assert marker['complete_necessary_scope'] is True
+          print(json.dumps(dict(event='request193_original_necessary_BVP_readback_complete',
+            original_reader=item,original_summary=marker['necessary_summary'],
+            necessary_selected_scope_only=True,large_witnesses_and_earlier_trials_not_exported=True,
+            no_new_scientific_acceptance_gate=True)),flush=True)
+          PYBVPREAD
+      - name: Read necessary actual rules resource clips process receipts and selected original errors
+        id: rules_scalar
+        if: always()
+        timeout-minutes: 5
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRULESREAD'
+          import hashlib,importlib.util,json,os,runpy,sys
+          from pathlib import Path
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']);base=Path(os.environ['VISIBLE_BASE'])
+          name='root_20261115_current_C_pruefer_positive_full453_necessary_readout.py';raw=(comp/name).read_bytes()
+          assert len(raw)==51108 and hashlib.sha256(raw).hexdigest()=='34b49f026338b90b691cbd170d6d6303c7ec3549f2329ba0f4457a2cfeab75c9'
+          spec=importlib.util.spec_from_file_location('_request193_necessary_metadata_readback',comp/name)
+          R=importlib.util.module_from_spec(spec);sys.modules[spec.name]=R;spec.loader.exec_module(R)
+          owner=base/'request193_owned_process.py'
+          assert hashlib.sha256(owner.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+          owned=runpy.run_path(str(owner),run_name='_request193_rule_readback_owner')
+          observed=owned['observe']()
+          launch=base/'BVP-launch'
+          if launch.exists():
+            try:
+              if not launch.is_dir() or launch.is_symlink():raise ValueError('Owned BVP output is not its original directory')
+              value=json.loads((launch/'result.json').read_bytes())
+              if (value.get('run_id')!=os.environ['GITHUB_RUN_ID']
+                  or value.get('source_commit')!=os.environ['GITHUB_SHA']):
+                raise ValueError('Owned BVP result does not bind this run and source')
+              if value.get('owned_group_quiescent_before_readback') is not True:
+                observed['unknown_owner_scopes'].append(dict(role='BVP-child',reason='Actual independent BVP group has no observed stopped receipt'))
+            except Exception as error:
+              observed['unknown_owner_scopes'].append(dict(role='BVP-child',
+                reason='Owned BVP output exists without a complete launch-return identity',original_error=repr(error)))
+          observed['quiescent']=not observed['live_original_owned_processes'] and not observed['unknown_owner_scopes']
+          (base/'rule-readback-quiescence.json').write_bytes(R.canonical(observed))
+          summary=dict(schema='request193-necessary-rule-resource-readback-v1',
+            repository=os.environ['GITHUB_REPOSITORY'],run_id=os.environ['GITHUB_RUN_ID'],
+            source_commit=os.environ['GITHUB_SHA'],owner_observation=observed,
+            no_scientific_module_imported_or_scientific_value_recomputed=True,
+            resource_and_rule_metadata_only_not_a_new_scientific_gate=True,
+            large_original_scientific_logs_not_exported=True,files=[],resources=[])
+          for name in ('job-science-deadline.json','pre-BVP-readback-quiescence.json',
+              'rule-readback-quiescence.json','BVP-template-recipe.json','current-BVP-deadline.json',
+              'construction/selected-accurate-ten-xi0-recipe.json',
+              'continuous-ten-BVP-input/current-selected-ten-full453-frozen450-recipe.json',
+              'continuous-ten-BVP-input/result.json','current-C-BVP-client-config.json','dispatch-request.json'):
+            path=base/name
+            if path.is_file():
+              value,ident=R.document(path,'resource/'+name)
+              chosen=R.small(value) if name in ('job-science-deadline.json','current-BVP-deadline.json') else R.select(value,
+                ('schema','request_number','lambda_target','state_dimension','active_parameter_indices',
+                 'frozen_parameter_indices','initial_ten_parameters','second_state_dimension','quiescent'))
+              summary['resources'].append(dict(file=name,identity=ident,necessary_original_values=chosen,
+                complete_original_parameter_source_tree_not_exported=True))
+          if observed['quiescent']:
+            for path in sorted(base.glob('*rule-sync*')):
+              if not path.is_dir() or path.is_symlink():continue
+              for item in sorted(path.rglob('*')):
+                if item.is_symlink():
+                  R.fail('rule-file',ValueError('Owned symlink not followed'),path=str(item.relative_to(base)))
+                  continue
+                if not item.is_file():continue
+                name=str(item.relative_to(base))
+                if item.name.endswith('.json'):
+                  value,ident=R.document(item,'rule/'+name)
+                  summary['files'].append(dict(file=name,identity=ident,
+                    necessary_original_metadata=R.small(value),full_member_tree_not_exported=True))
+                else:
+                  logged=R.log_view(item,'rule/'+name)
+                  summary['files'].append(dict(file=name,identity=logged['original_file'],
+                    lines=logged['complete_lines'],
+                    selected_error_text=logged if logged['original_error_matched_lines'] else None,
+                    complete_original_text_not_exported=True))
+          else:
+            R.fail('rule-owner',RuntimeError('Original mutable rule/scientific scopes are live or unknown'))
+          summary['original_read_errors']=R.ERRORS
+          summary['omitted_metadata_member_count']=len(R.OMISSIONS)
+          summary['omitted_metadata_member_index_sha256']=R.sha(R.canonical(R.OMISSIONS))
+          summary['complete_necessary_scope']=bool(observed['quiescent'] and not R.ERRORS)
+          packed=R.canonical(summary)
+          if len(packed)>90000:
+            print(json.dumps(dict(event='request193_necessary_rule_summary_over_budget',
+              bytes=len(packed),sha256=R.sha(packed),no_part_transport=True,no_cleanup_marker=True,
+              complete_scientific_result_not_inferred=True)),flush=True)
+            raise SystemExit(70)
+          print('BEGIN_REQUEST193_NECESSARY_RULE_RESOURCE_SUMMARY')
+          print(packed.decode('utf-8'),end='')
+          print('END_REQUEST193_NECESSARY_RULE_RESOURCE_SUMMARY')
+          print(json.dumps(dict(event='request193_necessary_rule_identity',bytes=len(packed),sha256=R.sha(packed),
+            hash_scope='canonical UTF8 JSON including LF')),flush=True)
+          if not summary['complete_necessary_scope']:raise SystemExit(2)
+          marker=dict(schema='request193-complete-rule-resource-readback-v1',
+            repository=os.environ['GITHUB_REPOSITORY'],run_id=os.environ['GITHUB_RUN_ID'],
+            source_commit=os.environ['GITHUB_SHA'],complete=True,quiescent=True,
+            necessary_summary=dict(bytes=len(packed),sha256=R.sha(packed)),
+            large_text_omission_scope_explicit=True)
+          with (base/'rule-readback-complete.json').open('xb') as stream:
+            stream.write(R.canonical(marker));stream.flush();os.fsync(stream.fileno())
+          PYRULESREAD
+      - name: Remove only request193 owned raw after all complete readbacks and actual quiescence
+        if: always()
+        env:
+          C_READBACK_OUTCOME: ${{ steps.scalar.outcome }}
+          CUT_READBACK_OUTCOME: ${{ steps.cut_twojet.outcome }}
+          CONSTRUCTION_READBACK_OUTCOME: ${{ steps.construction_readback.outcome }}
+          FAR_READBACK_OUTCOME: ${{ steps.far_scalar.outcome }}
+          BVP_READBACK_OUTCOME: ${{ steps.bvp_scalar.outcome }}
+          RULES_READBACK_OUTCOME: ${{ steps.rules_scalar.outcome }}
+        run: |
+          python - <<'PYCLEAN'
+          import hashlib,json,os,runpy,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          target=Path(os.environ.get('VISIBLE_BASE',str(root/'visible-continuous-ten-current-C-full453-frozen450193')))
+          try:
+            assert target.name=='visible-continuous-ten-current-C-full453-frozen450193'
+            assert not target.is_symlink() and target.resolve().parent==root
+            outcomes={name:os.environ.get(name) for name in
+              ('C_READBACK_OUTCOME','CUT_READBACK_OUTCOME','CONSTRUCTION_READBACK_OUTCOME',
+               'FAR_READBACK_OUTCOME','BVP_READBACK_OUTCOME','RULES_READBACK_OUTCOME')}
+            if any(value!='success' for value in outcomes.values()):
+              raise RuntimeError('Actual readback steps did not all return success: '+json.dumps(outcomes,sort_keys=True))
+            bvp=json.loads((target/'BVP-scalar-readout'/'readback-complete.json').read_bytes())
+            rules=json.loads((target/'rule-readback-complete.json').read_bytes())
+            for marker in (bvp,rules):
+              assert marker['repository']==os.environ['GITHUB_REPOSITORY']
+              assert marker['run_id']==os.environ['GITHUB_RUN_ID'] and marker['source_commit']==os.environ['GITHUB_SHA']
+            assert bvp['complete_necessary_scope'] is True
+            bvp_raw=(target/'BVP-scalar-readout'/'scalar-summary.json').read_bytes()
+            bvp_summary=json.loads(bvp_raw)
+            assert bvp_summary['schema']=='continuous-ten-current-C-live-full453-and-frozen450-necessary-readback-v1'
+            assert bvp_summary['complete_necessary_readback_without_recorded_error'] is True
+            assert bvp_summary['owned_group_quiescent_before_readback'] is True
+            assert bvp['necessary_summary']==dict(bytes=len(bvp_raw),sha256=hashlib.sha256(bvp_raw).hexdigest())
+            assert rules['complete'] is True and rules['quiescent'] is True
+            construction=json.loads((target/'construction-readback-complete.json').read_bytes())
+            assert construction['repository']==os.environ['GITHUB_REPOSITORY']
+            assert construction['run_id']==os.environ['GITHUB_RUN_ID'] and construction['source_commit']==os.environ['GITHUB_SHA']
+            assert construction['complete'] is True
+            construction_raw=(target/'construction-necessary-summary.json').read_bytes()
+            assert construction['necessary_summary']==dict(bytes=len(construction_raw),
+              sha256=hashlib.sha256(construction_raw).hexdigest())
+            owner=target/'request193_owned_process.py'
+            assert hashlib.sha256(owner.read_bytes()).hexdigest()=='138ea16a6a8d3ff1b39bbb934e2837810bff218a6aecba19ed08a46fb4af278c'
+            owned=runpy.run_path(str(owner),run_name='_request193_cleanup_owner')
+            observed=owned['observe']()
+            if not observed['quiescent']:raise RuntimeError('Owned rule/science processes remain live or unknown')
+            launch=target/'BVP-launch'
+            if launch.exists():
+              state=json.loads((launch/'result.json').read_bytes())
+              if state.get('owned_group_quiescent_before_readback') is not True:
+                raise RuntimeError('The independent BVP group was not observed stopped')
+              if state.get('run_id')!=os.environ['GITHUB_RUN_ID'] or state.get('source_commit')!=os.environ['GITHUB_SHA']:
+                raise RuntimeError('Original BVP quiescence result is not from this run/source')
+            if target.is_dir():shutil.rmtree(target)
+            print(json.dumps(dict(event='request193_owned_temporary_payload_removed',
+              original_complete_readback_steps=outcomes,quiescent=True,
+              original_sources_inputs_and_raw_not_uploaded=True)),flush=True)
+          except Exception as error:
+            print(json.dumps(dict(event='request193_owned_cleanup_skipped',error=repr(error),
+              raw_left_only_until_runner_destruction=True,
+              no_missing_readback_or_scientific_completion_inferred=True,
+              no_other_repository_or_input_or_process_touched=True)),flush=True)
+          PYCLEAN
+  report:
+    name: Repeat exact bounded primary scopes without a scientific calculation
+    needs: compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      COMPUTE_RESULT: ${{ needs.compute.result }}
+      BVP_OUTCOME: ${{ needs.compute.outputs.BVP_science_outcome }}
+      SCALAR_SUMMARY: ${{ needs.compute.outputs.scalar_summary }}
+      SCALAR_SUMMARY_BYTES: ${{ needs.compute.outputs.scalar_summary_bytes }}
+      SCALAR_SUMMARY_SHA256: ${{ needs.compute.outputs.scalar_summary_sha256 }}
+      CUT_TWOJET_SUMMARY: ${{ needs.compute.outputs.cut_twojet_summary }}
+      CUT_TWOJET_SUMMARY_BYTES: ${{ needs.compute.outputs.cut_twojet_summary_bytes }}
+      CUT_TWOJET_SUMMARY_SHA256: ${{ needs.compute.outputs.cut_twojet_summary_sha256 }}
+      FAR_SUMMARY: ${{ needs.compute.outputs.far_summary }}
+      FAR_SUMMARY_BYTES: ${{ needs.compute.outputs.far_summary_bytes }}
+      FAR_SUMMARY_SHA256: ${{ needs.compute.outputs.far_summary_sha256 }}
+      CONSTRUCTION_SUMMARY: ${{ needs.compute.outputs.construction_summary }}
+      CONSTRUCTION_SUMMARY_BYTES: ${{ needs.compute.outputs.construction_summary_bytes }}
+      CONSTRUCTION_SUMMARY_SHA256: ${{ needs.compute.outputs.construction_summary_sha256 }}
+      BVP_SUMMARY: ${{ needs.compute.outputs.bvp_summary }}
+      BVP_SUMMARY_BYTES: ${{ needs.compute.outputs.bvp_summary_bytes }}
+      BVP_SUMMARY_SHA256: ${{ needs.compute.outputs.bvp_summary_sha256 }}
+    steps:
+      - name: Print all five actual primary summaries and preserve original compute outcome
+        run: |
+          python3 - <<'PYREPORT'
+          import hashlib,json,os
+          names=('scalar_summary','cut_twojet_summary','far_summary','construction_summary','bvp_summary')
+          errors=[]
+          for name in names:
+           key=name.upper();text=os.environ.get(key,'')
+           if not text:
+            print(json.dumps(dict(event='request193_primary_unavailable',original_kind=name,
+             compute_result=os.environ.get('COMPUTE_RESULT'),BVP_outcome=os.environ.get('BVP_OUTCOME'),
+             no_native_BVP_or_upstream_success_inferred=True)),flush=True)
+            continue
+           try:
+            expected_size=int(os.environ[key+'_BYTES']);expected_sha=os.environ[key+'_SHA256']
+            raw=text.encode()
+            if len(raw)!=expected_size or hashlib.sha256(raw).hexdigest()!=expected_sha:raw+=b'\n'
+            assert len(raw)==expected_size and hashlib.sha256(raw).hexdigest()==expected_sha
+            assert len(raw)<=90000
+            json.loads(raw)
+            print('BEGIN_REQUEST193_'+key)
+            print(raw.decode(),end='' if raw.endswith(b'\n') else '\n')
+            print('END_REQUEST193_'+key)
+            print(json.dumps(dict(event='request193_original_primary_identity',kind=name,
+             original_bytes=len(raw),original_sha256=expected_sha,
+             necessary_selected_scope_only=True,large_omitted_members_not_reconstructed_or_claimed_read_in_chat=True)),flush=True)
+           except Exception as error:errors.append(dict(kind=name,error=repr(error)))
+          print(json.dumps(dict(event='request193_report_transport_scope',errors=errors,
+           compute_result=os.environ.get('COMPUTE_RESULT'),BVP_outcome=os.environ.get('BVP_OUTCOME'),
+           report_success_not_a_mathematical_BVP_or_closed_surface_result=True)),flush=True)
+          if errors or os.environ.get('COMPUTE_RESULT')!='success':raise SystemExit(2)
+          PYREPORT
