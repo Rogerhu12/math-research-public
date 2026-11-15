@@ -104,3 +104,5 @@
 - [128位真实末态的七组件与完整接口](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)：共享原有限root轨迹全列、完整112边界QR及原全行缺陷、338端点和独立物理audit，全部source-bound并保partial后缀。只已实现/未编译未执行，C-based物理jet不冒有限trace导数，native/fullDN始终未付；清理前真实接线由独立137继续。
 
 - [R300：准确累计桥、cut校准与完整九控制连续新族](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)（已证明，明确输入下）：两速度Hermite片加显式coast给正半径/严格速度余量；九degree6/7/8独立且0附近开可行，cut三次collar准确匹配原合法尾E两jet。有效计算另需收敛oracle；显式新g不继承旧场/旧p可行性，实际factory与全部重求解继续。
+
+- [R303：actual122两份部分有限root方向及受控停止](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)：同一fresh64 J/R273的original488段/refined187段，全部全norm null，exit3为预算partial；固定trace/单方向/未访行与sentinel范围逐项证明。入口包含fresh前置8008.370981772s，完整原摘要与raw身份保留；没有full224J/native/audit或全局几何结果。

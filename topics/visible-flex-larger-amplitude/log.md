@@ -371,3 +371,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 11:15 UTC /root — R300显式连续九族构造
 
 [R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)完整证明准确core/速度过渡/显式coast及cut三次collar的可行基底、九独立控制开域和同尾目标两jet；新g身份/有效oracle/公共材料域与重求值责任明确，不把旧p自动判可行。root补明结构实存在与有效计算的区别；继续真实factory/BVP接线。122原摘要98080d47已核，两policy均资源partial/全norm空；135已32批结束，完整方向读回中。
+
+## 2026-11-15 /root — R303实际122完整可得原输出
+
+[R303](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)登记run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b：original488段/refined187段，均science预算partial/三全norm null，0 shadow mismatch仅付已执行原值；未读2/1局部失败不冒全timeout。1fresh64全J/R273后受控sentinel，原十trial未执行，入口exit3不冒native拒绝；全日志/27431B原摘要逐字核，完整数组身份非完成。直接证明部分行、单方向及固定trace责任，137预算计入fresh前置，继续在跑科学和真实新求解。
