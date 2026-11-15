@@ -12,3 +12,5 @@
 - [R704：原固定theta高斯Zak与真正短块](../results/R704-original-gaussian-zak-and-short-block-criterion.md)：原磁全纯方程使去准周期幅度的Fourier系数精确为固定m个系数的高斯族，绝对酉Zak把原theta样本写成m种宽p周期高斯包。原wild本征向量的指定长度p短块准确回原迹，固定总变差去掉log²损失；高斯尾仅留O(√logp)频率。单点界仍只给O(p)，实际幂次节省/非零未付。
 
 - [R701：尖锐两charge清极与完整同修正cap](../results/R701-sharp-two-charge-clearing-and-complete-same-correction-cap.md)：原固定角最高系数的两准确无穷远矩恰给全原格的+2乘子；完整forcing另需同一来源四单位无穷远缓冲，weighted initial付其一般尖锐性。三门全过后同R cap缩为top2且Ω/p³全保；原低r高b乘子恰w·unit，两13carry与移入普通行的系数完整联立，不宣称指定类非零。
+
+- [R707：原固定theta均方与三分之四迹高度](../results/R707-original-theta-average-and-three-quarter-trace-height.md)：利用同一固定theta的全部高斯包，准确Heisenberg重叠与p²维Weyl正交将Hall均方回模p²范数同余计数；非单位/零向量及全Galois共轭重数全保。原Σ_r|S_r|²≪p^(5/2)log^(3/2)p，故迹高度≤(3/4)logp+(3/4)loglogp+O(1)，非零原边界v≤3/4+o(1)−1/(p−1)。这是实际平均收益；原迹非零和中央联系仍开。

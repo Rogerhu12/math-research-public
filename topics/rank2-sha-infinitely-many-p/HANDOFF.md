@@ -5,7 +5,7 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6960f0be754d35f4cfab650754f5b5d876c86233；2026-11-15 07:08:55 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:08:53 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
+- 最近已读规则提交：6c76caf431fb841f653dd1f01a792fc3555f1c2f；2026-11-15 07:10:26 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:10:25 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -16,8 +16,8 @@
 ## 完整前检、索引与分工
 
 压缩前全部内容：[HANDOFF](notes/2026-11-15-frontier-before-r701.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、701、703–706已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R708原中央/实际边界有限入口；deep R709原一般top3/同R实际像；theta R702完整三态新适配；literature R707原固定高斯幅度/toric overlap。
+R1–363、365–560、562–653、655–700、701、703–707已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R708原中央/实际边界有限入口；deep R709原一般top3/同R实际像；theta R702完整三态新适配；literature R710原高斯/精确平均及中央接口。
 
 ## 固定原目标与不能替换的门
 
@@ -40,7 +40,7 @@ R695/R693公开43684255990，回执ci/exact-check-20261115-r695-r693-compact.jso
 R663严格LT g=−pv+v^p²,W=v^d,Q=W^e−p，同Y闭盘iff Q|B且真过界；原X还需j0和Q^(d−m)|B/下降。R660大p闭X迫原有理首系数0。R632/635不同半径、R644/658固定D jet、R656高度O(D4logD)给4<θ<7真非整层，中央→全D/k及aI+NbI<3N−6仍缺。
 **R703** 原ξ/ρ全部相位及真正p² Hall Teichlift已付，公共Klein因子c³=c^p=1。原迹=rootunit·S_r，S_r=Σ_Nv=r e_p(τ_m(v))A_m(v/p)，τ=m det((v^p²−v)/p,v)/2。代表变动与准周期严格抵消；固定幅度DFT ℓ1=O(log²p)含边界跳跃，Parseval不给max。
 **R705** χ_m,r(v)=e_p(Tr(β_r q_p(v)))恰为e_pτ，q_p=(v^p/barv−1)/p，β=mr/(2δ)；导子p²/阶p，tame恒1。全Norm1 torus T=Hhat×U，原w在1+pδt下乘e_p(rt)，故W/F恰p。原幅度属于明确p²维Weil模型，标准内积Σ样本，G_r=1_N=r χ^-1、||G||²=p+1；T=ρ^-mχ(v)^-1〈A,G〉，wild角色单重。全环Fourier为p²χ(ξ)^-1·1_Nξ=m²r/12，绝对常数+1；原小矩形completion的Dirichlet权不能删。酉性/单重/全Gauss均未付幂次界或非零。
-R706付绝对Bessel核+1/p、Cayley完整±U例外及quartic驻点全相位；两圆交Heisenberg自相关≤2/(p+1)不代受限短块。R704已付绝对酉Zak及磁全纯方程：原样本逆Zak恰固定m种宽p高斯包，m个系数与p无关；原和≤固定总变差×指定短块max，无log²损失，Gaussian尾使只需|n|=O(√logp)。单点ψ≤2/√p(p+1)仍只给O(p)，R707续固定包真实平均收益；原迹无穷非零、j0联立及高Q仍开。
+R706付绝对Bessel核+1/p、Cayley完整±U例外及quartic驻点全相位；两圆交Heisenberg自相关≤2/(p+1)不代受限短块。R704已付绝对酉Zak及磁全纯方程：原样本逆Zak恰固定m种宽p高斯包，m个系数与p无关；原和≤固定总变差×指定短块max，无log²损失，Gaussian尾使只需|n|=O(√logp)。单点ψ≤2/√p(p+1)仍只给O(p)，R707已付实际全共轭均方Σ|S_r|²≪p^(5/2)log^(3/2)p：完整高斯Heisenberg重叠、dim p² Weyl正交、模p² Norm计数及非unit/零向量全保。原迹h≤(3/4)logp+(3/4)loglogp+O(1)，非零trace v<1、非零B v≤3/4+o(1)−1/e。R708续首模p/中央接口；原迹无穷非零、j0联立及高Q仍开。
 
 ## 深支：原矩阵、同R及真实顶帽
 
