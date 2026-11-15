@@ -85,3 +85,5 @@
 - 2026-11-15 09:12 UTC，Astra-new-mechanism-9974ea84：R231最终ed43481b全文根审即发。root独立核β积分/极限，k仅poly时原Y/K分子与协变导数阶数、第三local≤h²poly、ruling局部交叉≤h²poly相对hβ²低一指数层；能量e=hq+j拆分准确，完整链式首系数−(j/h)'保留。核E(u,Guu)密度−(q⁹R³)'/48、三紧槽极化及D=s²(ff−gg)−sin2fg给两mixed门；保Gff共左尾，物理支两正条件不省略。共同λ伸缩和跨包E(x²,Z)=0纸面支付；新consumer只两能量/旧构造输入，尚未执行或预报符号。
 
 - 2026-11-15 09:16 UTC，Astra-new-mechanism-9974ea84：五高度设计13906B/6858a66c全文根审即发；root手核两尾多项式Wronskian的900/−882/203与D0时第二基本形式rank-one更新，文学独立Cox与范围核通过。直接对SingleQ原source确认153为Q列、154:163为原九height且b0/currentuv独立。H精确null、共同原函数、原物理盒/∞/L1、帽常量原tol、零坐标canonical、float非精确null边界明确；rH4rB只新算法尺度。helper/field未执行草稿在写，数组层/实际objective继续；不把纸面自由度冒候选成功，原完成门仍欠。
+
+- 2026-11-15 09:25 UTC，Astra-new-mechanism-9974ea84：两个新理论consumer完整root审读+相互独立审查通过后接联合首次公开运行。energy源e1b9f37b保真实Gff非紧尾/两紧槽/跨包正交，只求Lc/Ls；endpoint源bb7be8fc与模块cf14e26c保负尾加号、真τ耦合、cubic先规范再锚jet、H/16根与三旧pure行，宽/窄门范围明确。接线仅新增两个lane、R201 sparse目录、module py_compile及publisher白名单，原metadata-only发布不改；33源先核hash，check=True保证13/12新人工失败不进各自actual，双lane并行不取消。request97627390；当前未有actual结果，待逐项消费。终端仍不可用，按根8小UTF8接口发布，核双README后前进；未冒实际pull。

@@ -1,6 +1,6 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成；无满足README全部门的完整候选。不得以阶段报告、时长或单次预算结束。** 会话`Astra-new-mechanism-9974ea84`。root独占Git/Actions；并行推进实际几何、完整period与ruling。子题完成即接[open](open.md)，完整证明与实际见[results](results.md)，早期索引已按100KB限制分卷。
+**进行中，未完成；无满足README全部门的完整候选。不得以阶段报告、时长或单次预算结束。** 会话`Astra-new-mechanism-9974ea84`。root独占Git/Actions；两理论首跑联合请求97627390已接，33源绑定，13/12新增人工先于actual，结果待消费。子题完成即接[open](open.md)，完整证明与实际见[results](results.md)，早期索引已按100KB限制分卷。
 
 ## 1. 规则、拉取与状态
 
@@ -8,7 +8,7 @@
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`c699fab0d637d429144f93cf3af1d6d7a862a1ad`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。旧数据已查54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`13e7795cf9b6432bc1153ef529335cb02db9c6a4`双README原blob、私有`d71270dd433d719e8c2e6afef2fa6c25100f130e`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
 
 ## 2. 完成门
 
@@ -34,7 +34,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R223/R227真实Morse闭hook与例外端口已付**：M0/TκH、frame/Klein位移闭合、pure0/F8=0、全h Morse。R227在非零ke端口装h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h；先三维末frame IFT，再八M+真omega九IFT、全E IFT。内部omega保真实积分，原U/完整T保留；设计一般改g。
 
-**R229/R231例外主层已付**：G候选quartic准确等于−(l+b)³C_b(q)²/64，三复矩使0；一般G左尾不可删，全b仅原多项式延拓。R231在x+b>0、x+b+ke/he>0下保所有局部/chain/真history，β=∫hk~−keσh，完整K/(hβ²)→sin²θ Lc+sin2θ Ls。Lc=E_b(Gff,Ggg−Gff)、Ls=E_b(Gff,Gfg)；两紧差/交叉槽付循环身份，Gff本身非紧。任一非零严格排该固定圆所有gauge，双零只付主层。下一b0原八包两新能量consumer，λ共同伸缩仅乘正λ；不重旧c系数，不预填符号。
+**R229/R231例外主层已付**：G候选quartic准确等于−(l+b)³C_b(q)²/64，三复矩使0；一般G左尾不可删，全b仅原多项式延拓。R231在x+b>0、x+b+ke/he>0下保所有局部/chain/真history，β=∫hk~−keσh，完整K/(hβ²)→sin²θ Lc+sin2θ Ls。Lc=E_b(Gff,Ggg−Gff)、Ls=E_b(Gff,Gfg)；两紧差/交叉槽付循环身份，Gff本身非紧。任一非零严格排该固定圆所有gauge，双零只付主层。已接首轮energy lane，b0原八包只算Lc/Ls；λ伸缩乘正λ，不重旧c系数。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
@@ -47,7 +47,7 @@ R228同h、新d=bh+aσ²/k=a/(2ε)−aσ²+C exp(2εσ²)，C=ke−a/(2ε)。C�
 
 **R225完整period range已付**：新合法解析ψP包重付三复矩/八包/J*。Lf全像准确iff全部常平台G''0、每包总flux0、内部q=F/(Ap²) Laurent禁k≤−ord(p)−2与residue、两平端u=p∫q真C∞延拓；右双零/平台自由连接还原Lf本身。u*=1/p给内部门全过而平端坏的Y反例，未冒canonical。U0上的完整O有限但基/像未付，Hper=O(U0)/O(R0)未知；Hper0才授真实fullperiod控制，λ杀kerO则严格障碍。有限原查询付光滑s密度；一般R0完整T保持/Morse另欠，δ链具备。不机械追加有限flux。
 
-**R226/R230平端层已付**：R226真指数积分给p¹非零有限首项迫gauge导数指数发散，p²保有限极点门，p³以上限左零通量支路可延；δ链真实二次尾扣后仅p⁴，非一般U/R。R230完整原DAG一次层G=P2+Tτf+p²A，τ是共同真三次尾函数、不可独立赋值。已指定ψP时λ=p'/p有理，L=D+λ有限次消掉多项式Volterra系数，准确判Tτf零或有限首项；未指定P/τ不得冒固定圆。下一仅H与16真R^(0)基的mixed−2新层，先全weight0像、再加R116三旧pure行判R^(0)∩kerπ；不是R225全权R0/λ因子化。raw I=∫r^x递推加左积分，正文正J按word长度换符号；不重旧四次NF/3974forcing。
+**R226/R230平端层已付**：R226真指数积分给p¹非零有限首项迫gauge导数指数发散，p²保有限极点门，p³以上限左零通量支路可延；δ链真实二次尾扣后仅p⁴，非一般U/R。R230完整原DAG一次层G=P2+Tτf+p²A，τ是共同真三次尾函数、不可独立赋值。已指定ψP时λ=p'/p有理，L=D+λ有限次消掉多项式Volterra系数，准确判Tτf零或有限首项；未指定P/τ不得冒固定圆。已接首轮endpoint lane：H/16真R^(0)的mixed−2新层，加R116三旧pure行；非全权R0/λ因子化。raw I=∫r^x递推加左积分，正文正J按word长度换符号；不重旧四次NF/3974forcing。
 
 ## 6. 保留边界
 

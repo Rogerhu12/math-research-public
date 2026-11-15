@@ -229,3 +229,8 @@
 - [R231：例外偶端口的完整mixed领先项和两个能量门](results/R231-complete-mixed-leading-gate-for-the-exceptional-even-port.md)：在明确正物理支，r=hkG+poly、β=∫hk~−keσh；全第三局部/chain/真实history保留后K/(hβ²)→Cθ。三紧槽循环身份给Cθ=sin²θ E(Gff,Ggg−Gff)+sin2θ E(Gff,Gfg)，Gff/Ggg真左尾不删除。任一新mixed能量非零即排全gauge；pure四次自动零不授此双门。b0原八包只需两raw值，宽度乘λ、跨包x²尾由紧差正交；新实际未执行，不预填符号或完整次层结论。
 
 - [同g159坐标：154切向加五个准确零积分高度方向](notes/same-g-entry-tail-five-height-null-design-20261115.md)：入口3列用j3补偿，尾h6=e6−3e8/2、h7=e7−5e8/4；末span Wronskian=y⁶(900−882y+203y²)/(1728Δ)>0。可在.78保持D0改D′，点metric/normal不变、II径向改n_zD′；原盒与投影未授可行。准确九有理物理系数、统一Z/D jets与159坐标分层，c3/c8真耦合盒，∞/L1用物理Ms；新rH4rB、继承原B/T/controller/全部门，不混SOC策略。代码草稿尚未执行。
+
+
+## 两个新理论 consumer 的首次公开执行入口（2026-11-15 09:25 UTC）
+
+已全文审读并交叉核对两个新目标：[例外端口两能量设计](notes/exceptional-port-two-energy-consumer-design-20261115.md)只求 R231 的 Lc/Ls；[权零平端一次层设计](notes/character-zero-endpoint-first-layer-design-20261115.md)只求 R230 的17根新层及两个成员门。联合请求 SHA-256 `9762739039fce58a03528988a4312a4159a6da091f24bf6ac449b188f2ce8af1` 绑定30科研源及workflow/publisher/printer。两lane独立先做13/12个新增人工检查，再各自actual；120秒/512MiB与240秒/1024MiB。此项仅登记已审源码和执行入口，未把未运行检查、结果符号或成员关系写成通过。旧目标不重算；旧输入只按设计必要恢复，输出临时，仓库只留来源/参数/run/哈希和人类结论。
