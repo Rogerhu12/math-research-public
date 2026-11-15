@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：310f45a9c15cc6081c2ddc96e52ad02d8775801e；2026-11-15 09:03:21 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:03:20 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
+- 最近已读规则提交：b94a08c543a38c2354d2aa2040bb12f57ba92465；2026-11-15 09:04:55 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:04:54 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
@@ -58,3 +58,6 @@ R697/701一般μ+3；两个真实∞矩加v∞Pfact≥−4才得+2。μphys=w·u
 [极端carry](notes/2026-11-15-extreme-carry-multiplied-actual-forcing.md)：ell=r,s=2h+1，同μ乘后目标为iotaξ((m|C)e(b_su²/(2a)+3tξ))；保原ξ0/同Pfact，全部行由同F forcing读，unit常数不判全像非零。
 **R722** 原同D或已付D+2/+3返回，T_J=s−r−1/T_M=s−r−14，T>2κ/h>κ时物理核/kF²嵌原值与首Euler值k²。H2^{00}/OF²为秩2κ+χ−2的整单位块；剩两列由同u_F=EF/e0的Fu_F、u_F²−λFu_F给，保p³整Schur。临界严格过门，但不是全目标二维；全部其余W_D列/同R carry仍投同商。
 deep继续指定forcing在这个实际商及全部剩余列中的位置；不能仅以两列或unit首系数宣称原余类非零。
+
+R722两增补已付：指定极端μβ目标在上述单位块商非零（T≥h、T>2κ、h−1>κ；M另h≥r+13）。截源degYH≤2b−j使2/3charge返回真落旧WD，只损δj≤j(2u+8b+1)列；低charge真实U给两jet分裂，j2时r1 b≥3/r2 b≥4足够。全余列吸收仍开，详两2026-11-15-r722 notes。
+R724附录：真实h=1_G−p^-1 1_R×在整个O/p²上满足F±h=p²h，原每个wild Gauss和恰+p²；0/非unit/加性乘子全保。只是同原finite核，不预付严格正性。

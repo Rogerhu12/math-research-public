@@ -384,3 +384,137 @@ R716 又把它接到 (31) 的同一原 Hecke 族。因此 (31) 给这条弱 tame
 - [R707](R707-original-theta-average-and-three-quarter-trace-height.md)：原平方平均上界；本篇没有将该上界当成 (30) 的严格正下界。
 
 本篇为一般证明，没有新增数值扫描、计算证书或可重算数据文件。
+
+
+## 附录 A. 原 anti-Fermat 指示的完整加性 Fourier 自对偶
+
+本附录只研究第2节的真实模 $p^2$ 角色，不改变理想生成元的二位提升。设
+$$
+R=\mathcal O_K/p^2,\qquad
+G=\{v\in R^\times:q_p(v)=\overline{q_p(v)}\},
+\qquad
+h_p=\mathbf1_G-\frac1p\mathbf1_{R^\times}.
+\tag{34}
+$$
+将 $h_p$ 在非单位处按零延拓。令 $[u]$ 为 $u\in\mathbf F_{p^2}^\times$ 的唯一模 $p^2$ Teichmüller 提升。由 (11)，
+$$
+G=[\mathbf F_{p^2}^\times](1+p\mathbf F_p),
+\qquad |G|=p(p^2-1).
+\tag{35}
+$$
+这里 (35) 是对**实际** $G$ 的分解，不是允许把 (7) 中的 $\alpha$ 换成 $[\bar\alpha]$。
+
+原有限角色在单位上写为
+$$
+\vartheta_r(v)=e_p(r\ell_p(v))=\chi_{p,r}(v)^{-2}.
+$$
+有限正交性逐点给
+$$
+h_p(v)=\frac1p\sum_{r\in\mathbf F_p^\times}\vartheta_r(v),
+\tag{36}
+$$
+其中每个 $\vartheta_r$ 在非单位处也按零延拓。
+
+取非归一的 trace Fourier 变换
+$$
+(\mathcal F_+f)(\xi)=
+ \sum_{v\in R}f(v)e_{p^2}(\operatorname{Tr}_{R/\mathbf Z/p^2}(\xi v)).
+\tag{37}
+$$
+原全局规范在 $p$ 处是
+$\psi_{{\rm add},p}(x)=e^{-2\pi i\{x\}_p}$，故实际局部变换为
+$\mathcal F_-f(\xi)=\mathcal F_+f(-\xi)$。两种符号都会在下文明确保留。
+
+### A.1 原每个 wild 角色的绝对 Gauss 和
+
+由 (7)、(11)，对 $z\in\mathbf F_{p^2}$，
+$$
+\vartheta_r(1+pz)=
+ e_p\!\left(\operatorname{Tr}(k_rz)\right),
+\qquad k_r=-\frac{34r}{\delta}\ne0.
+\tag{38}
+$$
+展开 $v=[u](1+pz)$。在 $\xi=1$ 的 Gauss 和中，$z$ 的整条二维和仅在
+$$
+u=-k_r=34r/\delta
+$$
+时非零，此时等于 $p^2$。$-k_r$ 为 trace-zero 元，且其 Teichmüller 提升满足
+$$
+\overline{[-k_r]}=[(-k_r)^p]=[-(-k_r)]=-[-k_r].
+$$
+所以 $\operatorname{Tr}[-k_r]=0\bmod p^2$。又
+$\vartheta_r([u])=1$，从而准确得到
+$$
+\boxed{\quad
+\sum_{v\in R^\times}\vartheta_r(v)
+             e_{p^2}(\operatorname{Tr}v)=p^2.
+\quad}
+\tag{39}
+$$
+没有遗留一个可选的 $p$ 次根相位。
+
+若 $\xi\in R^\times$，换元 $w=\xi v$ 给
+$$
+(\mathcal F_+\vartheta_r)(\xi)=p^2\vartheta_r(\xi)^{-1}.
+\tag{40}
+$$
+若 $\xi\in pR$，则 $z$ 求和的参数仍为非零的 $k_r$，故该和严格为零；这包括 $\xi=0$。因此 (40) 以零延拓后对全部 $R$ 成立。
+$\vartheta_r(-1)=1$，所以原负号加性角色 $\mathcal F_-$ 也给同一个 (40)，不另改绝对符号。
+
+对 (36) 求和，$r\mapsto-r$ 置换全部非零 $r$，得
+$$
+\boxed{\quad
+\mathcal F_+h_p=\mathcal F_-h_p=p^2h_p
+\quad\text{在整个 }R\text{ 上。}
+\quad}
+\tag{41}
+$$
+这里 $|R|=p^4$；用单位 Fourier 归一 $p^{-2}\mathcal F_\pm$ 后，本征值恰为 $+1$。
+
+### A.2 不省略非单位的直接核表
+
+完整展开还给
+$$
+\sum_{v\in G}e_{p^2}(\operatorname{Tr}(\xi v))
+=
+\begin{cases}
+p(p^2-1),&\xi=0,\\
+-p,&0\ne\xi\in pR,\\
+p(p-1),&\xi\in G,\\
+-p,&\xi\in R^\times\setminus G.
+\end{cases}
+\tag{42}
+$$
+
+证明单位情形时，写 $\xi=[\xi_0](1+pz)$。
+(35) 中的实主单位求和先要求
+$\operatorname{Tr}(\xi_0u)=0$，故
+$u=a\delta/\xi_0$、$a\in\mathbf F_p^\times$。
+令 $\delta_0=[\delta\bmod p]$，则 $\bar\delta_0=-\delta_0$，余相位为
+$$
+e_p\bigl(a\operatorname{Tr}(\delta_0z)\bigr).
+$$
+它对 $a\ne0$ 求和为 $p-1$ 或 $-1$；前者等价于 $z\in\mathbf F_p$，也就是 $\xi\in G$。若 $0\ne\xi\in pR$，主单位的和贡献 $p$，余下非平凡的全 $\mathbf F_{p^2}^\times$ 加性和为 $-1$。$\xi=0$ 则直接计数。
+
+相应单位集的 Fourier 核为
+$$
+\sum_{v\in R^\times}e_{p^2}(\operatorname{Tr}(\xi v))
+=
+\begin{cases}
+p^4-p^2,&\xi=0,\\
+-p^2,&0\ne\xi\in pR,\\
+0,&\xi\in R^\times.
+\end{cases}
+\tag{43}
+$$
+将 (43) 的 $1/p$ 倍从 (42) 中扣除，正好再次得到 (41)，包括原点和所有非零非单位。
+
+### A.3 同源用途与尚未支付的下界
+
+式 (41) 精确识别 (18) 的原 finite kernel，并付清对应原加性角色的绝对 Gauss 常数。它没有将 (30) 的非负能量变成严格正值：原固定 $\psi_{17}$ 的有限坏位、原 theta 向量和指数权仍必须保留。Fourier 自对偶的带符号函数本身不排除它与这个固定来源的配对为零。
+
+特别，不能仅从 (41) 把第5节的非实和估成 $o(1)$，也不能删除 (31) 的非齐次补偿。乘任意 $c\in R^\times$ 改变加性配对时，准确式是
+$$
+\mathcal F_{\pm,c}h_p(\xi)=p^2h_p(c\xi);
+$$
+只有在已知 $c\in G$ 时才可再认成同一个 $h_p(\xi)$。这保留实际原极化与任意新 CM 倍数之间的差别。

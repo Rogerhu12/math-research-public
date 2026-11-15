@@ -54,3 +54,7 @@ R718标量增补：原Gaussian共振给准确tα=−[w^s]logRα；s<p的单位�
 - [R723：两固定CM恢复整个高度二窗](../results/R723-fixed-cm-and-artin-hasse-full-height-two-reconstruction.md)：原AH已知行只留pk、s+pk两族；共同共振分别等价e_CM|(k−s)、e_CM|k。密度一e_CM≥s使每个未知行有真实CM单位分母，故固定5/7次division与原X第一位唯一恢复全部U modw^L、全二位族及首Cartier行。通用AH/Fermat商/全部极帽和原中央进位仍保。
 
 - [R724：原第一wild解析平均与非实补偿](../results/R724-original-first-wild-analytic-average-and-nonreal-compensation.md)：原ν((α))=χ(α)^−2及实际模p² anti-Fermat条件、weight2精确Mellin和p-depletion给完整平均。真实有理子和趋9π/(17√3)，全部非实和及指数小对偶项仍在；精确Hall能量表明全零iff N_p=−R_p−T_p/p。未预付残差小界、first-layer非零或j0到边界零。
+
+R722增补：[指定forcing退出单位块](2026-11-15-r722-specified-extreme-forcing-outside-unit-block.md)付真实最低h−1行与度κ矛盾；[截顶charge回旧D](2026-11-15-r722-original-budget-truncated-tangent-unit-block.md)只损δj线性列且低charge两jet整分裂，原单位块/两实列确入WD。所有其它原列及同R仍保。
+
+R724附录：真实anti-Fermat指示h=1_G−p^-1 1_R×在整个O/p²上有F±h=p²h，全部primitive wild Gauss和绝对+p²；零点/非单位/任意加性乘子均已支付，不由自对偶宣称正下界。
