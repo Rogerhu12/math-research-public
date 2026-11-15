@@ -390,3 +390,8 @@
 - 正式登记R791成功run43686308194，0.118秒；root核实际ZIP、全部9输出SHA/size及原run/source/core/method绑定，Git只保存参数/run/来源/输出SHA。原阶21、完整实下降、原极化尺度和五维迹零输入全部来自真实精确计算。
 - 逐式审核原三次CM同源、极除子、较小η表达与必须保留的主函数运输；由原K[T]不可约性证明全部非零实际Hom在c1不分歧，未误把K线性当L线性。保原degree1206映射并新增真实degree3618实下降，不替换R787对象。
 - H/open/index同步；原CM核心/β接缝继续，R787原函数公开run仍在运行。真实η、β、全局高度及统一排除均保持OPEN。
+
+## 2026-11-15 14:57 Asia/Taipei · serre-public-astra-20261115
+- R790公开CM核心和wrapper已完整审读并冻结，启用真请求；所有新域算术仅公开Actions。核四组实际producer来源/schema/逐文件SHA，全部原标签、导数换参和82²尺度保持。
+- 更正先前种子数量：原R775的146条accepted recipes只用索引0/1/2/3/11，共5种子/10反射对；12是旧producer候选seed-image数，不能当选基种子数。已在触发前修正证明、core断言、H/open/index；原群迹公式本身不变。
+- core 981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6；proof 83303dcd6abc65875d8c67eb8977126db1c85cf3e9dafb3fbd2881163aadfc39。原power2–5四个同SHA已成文件只作下一步β合成的临时续传，不在本次核心重算。R787原函数仍运行，主目标OPEN。

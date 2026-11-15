@@ -328,6 +328,6 @@
 
 - **R775（真实断点续算已完成）**：[原K定义RR基完整证书](results/R775-certified-original-K-defined-RR-bases.md)。run43679160495/source032899cc成功，M2/M6/M12=146/694/1514，mod739原recipe minors344/461/730，普通power6维1506；旧18个完成文件SHA全不变。cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。原y/β/高度未由此计算，R777保持备用，当前函数后继R787。
 
-- **R790（已证明，实际CM求值待公开计算）**：[原CM框架正则化与共同零的155项界](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)。原ψ=T E6/E4²去除模形式框架零，g_star∈ΓY保原P1；任意关系A=yB的共同粗零阶≤154，155项给y值、156项给一阶。原K(U)变形/41倍加法和C3迹显式消二挠扩域，保E6_alg=−c6、原eta方向、完整zeta完成化与精确粗换参。新证明以原μ3正则投影和域迹将5040项压为24对ε5 jets，并以40P=−P根上精确导数−41作倍增提升。保82²尺度，实际ψ/y/β/高度仍待计算。
+- **R790（已证明，实际CM求值待公开计算）**：[原CM框架正则化与共同零的155项界](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)。原ψ=T E6/E4²去除模形式框架零，g_star∈ΓY保原P1；任意关系A=yB的共同粗零阶≤154，155项给y值、156项给一阶。原K(U)变形/41倍加法和C3迹显式消二挠扩域，保E6_alg=−c6、原eta方向、完整zeta完成化与精确粗换参。新证明以原μ3正则投影和域迹将5040项压为10对ε5 jets，并以40P=−P根上精确导数−41作倍增提升。保82²尺度，实际ψ/y/β/高度仍待计算。
 
 - **R791（已实际完成）**：[原Hom的真实实下降、完整η输入与CM不分歧](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。公开run43686308194确认阶21作用、$f_R=[1-\zeta^2]f_4=f_4-f_6$次数3618、原极化元素$e=\kappa v^\dagger v$及全部五维$F^0$。三同源给准确$y_R$/极除子及较小η表达，保主函数修正；十二切向非零，并证明全部非零实际Hom在$c_1$不分歧。完整真实输出及SHA已核，Git仅metadata；实际η/β/高度与全$p$目标仍未完成。

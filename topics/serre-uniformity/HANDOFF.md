@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：eca7d6e038538a9ee3ef70745025b2aa5185f684**（2026-11-15 06:54 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：3927e8aa936f304bf7297a347a2909ad14bd336c**（2026-11-15 06:57 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -24,7 +24,7 @@
 
 ## 原CM与原同态新续点
 
-**R790已证明、CM数值待计算**：原ψ=T E6/E4²去阶3椭圆点的框架零；g_star∈ΓY使权零值在ζ直接求，X原h运输仍保。任意原A=yB的共同粗零阶≤154，155项给y值、156项给一阶；原变形z=a−1=−ε³/(81B0²)+O(ε⁶)。E6_alg=−c6和eta_alg=−4d0³δ已核，完整非CM zeta完成化后才用41倍加法。原C3迹消二挠扩域；先μ3正则投影再取值/粗导数，5040项压成两个280次域迹，12种子仅24对ε5 jets。原40P=−P根上F_r=−41，r↦r+F/41倍增提升；旧模数/ξ/标签/recipes不重算。82²尺度保留，CM数值待公开core。证明SHA 4f4014ae49c109d9fc1f20916a95948a431975e4fad98fc0fb0b0d9abe89b8bd。
+**R790已证明、CM数值待计算**：原ψ=T E6/E4²去阶3椭圆点的框架零；g_star∈ΓY使权零值在ζ直接求，X原h运输仍保。任意原A=yB的共同粗零阶≤154，155项给y值、156项给一阶；原变形z=a−1=−ε³/(81B0²)+O(ε⁶)。E6_alg=−c6和eta_alg=−4d0³δ已核，完整非CM zeta完成化后才用41倍加法。原C3迹消二挠扩域；先μ3正则投影再取值/粗导数，5040项压成两个280次域迹，5个实际种子仅10对ε5 jets。原40P=−P根上F_r=−41，r↦r+F/41倍增提升；旧模数/ξ/标签/recipes不重算。82²尺度保留，实际core981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6与专用请求已提交，待真run。一日bundle额外保同SHA原power2–5供β后继。证明SHA 83303dcd6abc65875d8c67eb8977126db1c85cf3e9dafb3fbd2881163aadfc39。
 
 **R791实际成功**：run43686308194/source f945ef5d、0.118秒；真实阶21作用、实/反实秩6、全部12个CM切向非零，尤其原index4。$c(f)=-[\zeta^2]f$，$f_R=[1-\zeta^2]f=f_4-f_6$、degree3618；原$f$仍degree1206。$e=\kappa v^\dagger v=3870+711s_1-801s_2-360s_3+612s_4+864s_5$，$d_0=25326$，原五维$F^0$全部落实。三同源给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$和极除子；同一$h_j$的η可用较小原映射，但保主函数修正。另证明全部非零实际Hom在$c_1$不分歧，非仅基向量。cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46，artifact14149997458；全部绑定见[R791结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。真实极除子/Jacobianη/β/高度仍缺；切向文件随直接后继转交。
 
