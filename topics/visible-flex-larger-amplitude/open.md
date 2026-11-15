@@ -78,3 +78,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 - 104 ordinary Rule15 cleanup nowhas exactmetadata/OID selector (7e0dfcb5), expected8184 knownregenerable mainpaths removed without rewritinghistory. New/changed/unknown files retained; no image/PDF assumption. AwaitactualActions receipt, thenrecordcounts andlastreadcommit. Doesnotblock science.
 
 104实际43682589310在普通Git commit默认摘要阶段试取未下载旧blob而停，GIT_NO_LAZY_FETCH保留、main未删；用quiet commit窄修复后立即重跑原metadata清理。
+
+### 1D续：实际106非预算停止
+
+[实际106正式结论](notes/2026-11-15-actual106-twelve-budget-batches-and-original-backtrack-stop.md)：13批，前12批原八方向预算完成，末批原20回溯全拒。最终p=[.46303192429838314,-.1928229026382781,.6316434990702386]，目标6958.2257628163525、unit首项−117.96801026297652，unit/full112/native均false。原J数值condition3.0696898319753705e11且real-FD有效，不据此断言无根或精度底线。108按这次真实非预算首因改进方向/参数图，鲜重原3eq并保原门；不再盲续同η=.01批次。
