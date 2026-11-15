@@ -300,3 +300,5 @@
 - [164r3：保原科学与全部实际失败的紧凑读回](notes/2026-11-15-request164-focused-readback-r3-interface.md)：五件/完整四diff已核；只改reader与引用，逐20trial/六候选/FD失败及全部终态必要标量保留，重复固定词和匹配大表仅身份。原producer/recipe/门/预算不变，硬90KB；后续实际另记R373，不冒已清r2恢复。
 
 - [R373：actual164 r3六宽形状与完整二十档merit拒绝](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)：同科学的新真实运行，单份89762B完整；六三响应/120FD及异常/20trial/Arb与453齐。全部20有限primal域过而全3 Armijo拒，负斜率不保固定二十档，最终ξ0；十列投影条件改善仅数值动机，联合方向及全部非零终门未付。
+
+- [Request174：固定全站odd组合的独立十坐标真实方向](notes/2026-11-15-request174-fixed-all-station-odd-signsum-interface.md)：九件/113+10pins、41→46消费已发；真实157父上冻结全部中心/宽度/符号，fresh十列定ξ方向，显式尺度1与原20档/120FD/全部终态保持。任意点与连续分片使用同一h*，形成分数不证准确坡度或实际接受，164独立。
