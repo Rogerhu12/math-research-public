@@ -1,0 +1,247 @@
+{
+  "source_commit": "308891645e6a9c8094fa220e839717c0daf80ec9",
+  "run_id": "43669639448",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "format": "r150-saturated-third-global-fixed-request-v1",
+    "author": "Astra-ISP-789f; AI-assisted, GPT-6 Astra Pro",
+    "created_utc": "2026-11-15 02:30:58 UTC",
+    "original_high_kernel_count": 7,
+    "auxiliary_source_slots": 6,
+    "actual_source_cost_upper_bound": 1345,
+    "target_labels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "integer_modulus": 887503681,
+    "original_target": "31^2*h0",
+    "shared_mathematical_seconds": 300,
+    "per_child_memory_mib": 1024,
+    "per_compilation_seconds": 30,
+    "native_compilations": 5,
+    "old_second_page_mathematics_recomputed": false,
+    "old_third_page_mathematics_recomputed": false,
+    "characteristic_zero_identity_asserted": false,
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json",
+    "source_manifest_sha256": "7c3b8c1b96dabcd7b9ff46dcc827fdca0b47cb227e541347aee14f6ef3ba5ab7",
+    "contract_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json",
+    "contract_sha256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
+    "workflow_source_sha256": {
+      ".github/workflows/invariant-subspace-r150-saturated-third-global.yml": "a1a2fdba5f5f64fac3c43570816d9732f2ccb9ca95c4b4711429ace96f3d1cec",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py": "38bd6b223c3dcbeac65da54a46cb5f362717739205f46923fd84957ee8766663",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py": "88787c85107667dc2273670725217221e892750f65c37da937deacdb80647e26"
+    },
+    "entry_python_files": [
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-global-raw-q1-canonical-carry-789f.py"
+    ],
+    "frozen_input_count": 49,
+    "artifact_input_count": 47,
+    "inputs_by_scope": {
+      "t96": 5,
+      "notes": 2,
+      "all198": 15,
+      "seven": 5,
+      "current": 5,
+      "ninth": 6,
+      "old200": 5,
+      "second": 2,
+      "third": 4
+    },
+    "artifact_sources": [
+      {
+        "scope": "t96",
+        "run": 43597823809,
+        "id": 14114364261,
+        "name": "isp-r150-t96-graph-recovery-43597823809-1",
+        "bytes": 299422058,
+        "digest": "sha256:970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241"
+      },
+      {
+        "scope": "all198",
+        "run": 43619888599,
+        "id": 14124017685,
+        "name": "isp-r150-all198-second-bockstein-recovery-43619888599-1",
+        "bytes": 117446956,
+        "digest": "sha256:ba81a8aaafc236b15e90f0998ee3c0122634b99dda9f36c88d8d6c3b578b8117"
+      },
+      {
+        "scope": "seven",
+        "run": 43630666145,
+        "id": 14127663630,
+        "name": "isp-r150-seven-saturation-recovery-43630666145-1",
+        "bytes": 50572502,
+        "digest": "sha256:9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4"
+      },
+      {
+        "scope": "current",
+        "run": 43634830833,
+        "id": 14130166013,
+        "name": "isp-r150-augmented-seven-second-recovery-43634830833-1",
+        "bytes": 48079746,
+        "digest": "sha256:bfd5b35419f49ffa12182faaffdf3b6c95f35db72598be09951ce79e758e53e4"
+      },
+      {
+        "scope": "ninth",
+        "run": 43638830039,
+        "id": 14130842468,
+        "name": "isp-r150-ninth-first-recovery-43638830039-1",
+        "bytes": 32846922,
+        "digest": "sha256:5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855"
+      },
+      {
+        "scope": "old200",
+        "run": 43605503242,
+        "id": 14118112895,
+        "name": "isp-r150-high-kernel-bockstein-recovery-43605503242-1",
+        "bytes": 160817149,
+        "digest": "sha256:c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b"
+      },
+      {
+        "scope": "second",
+        "run": 43662590949,
+        "id": 14140872540,
+        "name": "isp-r150-saturated-second-page-recovery-43662590949-1",
+        "bytes": 1026794241,
+        "digest": "sha256:346e790996cae9e1eafc51d961a7213ed515a4deb9a426750c7f260d9c409a77"
+      },
+      {
+        "scope": "third",
+        "run": 43664532571,
+        "id": 14141428008,
+        "name": "isp-r150-saturated-third-page-recovery-43664532571-1",
+        "bytes": 222409603,
+        "digest": "sha256:c76693e0c3502c12e9074aadcba395198762e0fb7d3effaac1105892aa84fe84"
+      }
+    ],
+    "frozen_input_bytes": 533394601,
+    "exact_sparse_paths": [
+      ".github/workflows/invariant-subspace-r150-saturated-third-global.yml",
+      "README.md",
+      "topics/invariant-subspace-problem/README.md",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-global-raw-q1-canonical-carry-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-image-789f.cpp",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-normal-789f.cpp",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-original-789f.cpp",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-source-789f.cpp",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-transport-789f.cpp",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-build-789f.json",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-ci-request-789f.json",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-interface-789f.md",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+    ],
+    "account_concurrency_observation": {
+      "utc": "2026-11-15 02:30:58 UTC",
+      "repositories_checked": [
+        "Rogerhu12/awards",
+        "Rogerhu12/bipartite-diophantine",
+        "Rogerhu12/continuous-flexibility",
+        "Rogerhu12/convex-nivat-lean",
+        "Rogerhu12/Erdos1045",
+        "Rogerhu12/erdos888-sharp",
+        "Rogerhu12/hecke-seven-eighths",
+        "Rogerhu12/math-research",
+        "Rogerhu12/math-research-public",
+        "Rogerhu12/mathlib4",
+        "Rogerhu12/openai-math-extensions",
+        "Rogerhu12/quadratic-inverse-additive-irreducibility-lean"
+      ],
+      "in_progress_jobs": [
+        {
+          "run_id": 43667582193,
+          "job_id": 132670347665,
+          "name": "Continue metric_budget_recovery"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630212414,
+          "name": "ranges (0, 0)"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630212578,
+          "name": "ranges (24, 12)"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630212603,
+          "name": "ranges (20, 10)"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630212611,
+          "name": "ranges (25, 12)"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630213511,
+          "name": "ranges (26, 13)"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630213637,
+          "name": "ranges (27, 13)"
+        },
+        {
+          "run_id": 43654510038,
+          "job_id": 132630213704,
+          "name": "ranges (28, 14)"
+        }
+      ],
+      "observed_active_job_count": 8,
+      "maximum_active_jobs": 20,
+      "new_workflow_jobs": 1
+    },
+    "required_environment": {
+      "runner": "ubuntu-latest",
+      "cores": 4,
+      "memory_gib": 16,
+      "job_timeout_minutes": 45,
+      "python": "3.12",
+      "numpy": "2.2.6",
+      "python_flint": "0.9.0",
+      "cpp": "g++ C++17"
+    },
+    "success_scope": "Only all nine actual original17 mod31^6 identities and full actual source costs at most1345 constitute success. No characteristic-zero identity."
+  },
+  "request_sha256": "5f5c0f38a7064ebfb5cb23dc4e1a9c64dca4540fc0a67b3a153227a01718cf17",
+  "source_manifest_sha256": "7c3b8c1b96dabcd7b9ff46dcc827fdca0b47cb227e541347aee14f6ef3ba5ab7",
+  "actualPythonSyntaxFilesParsed": [
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-global-raw-q1-canonical-carry-789f.py"
+  ],
+  "allOriginalSourceHashesVerified": true,
+  "noMathematicalCompletionClaimed": true
+}
