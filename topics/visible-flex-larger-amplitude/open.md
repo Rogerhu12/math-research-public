@@ -81,3 +81,5 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [104清理](notes/2026-11-15-rule15-request104-run43682924785-attempt1-metadata-cleanup.md)已普通删除8184件已知可重算数据，postpush课题168796207B；未知JSON未全分类，不称全第15条责任完成。没有读科学payload、force或历史重写。旧workspace满后已恢复/tmp部分克隆和真实终端Git，所有push前pull及规则记录持续执行。详细历史保留在检查点、正式note及Git中。
 
 [121实际参数接续入口](notes/2026-11-15-actual119-to-six-control-batches121-interface.md)已发布wrapper8ac33f77/recipe cb2e9c83/requestae4d1b17/workflow8f5ea35d，原全部科学源/reader不改；由119第8批真末六p重启最多8个独立原8方向批，各radius=.1，原预算/门/final保持。正常可选省略不是over-budget，真status+summary后才传ownrecipe。120已实际run43694844403/sourceace38440，于08:30:44UTC创建、in_progress，暂无科学结果；完整非零场与低三继续分别付各自责任。
+
+[R283有限trace方向实现](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)已发布CPP8c40b4c7/launcher8229212b/bridge61e21ded；原113两源不变，完整F/C/实际Cholesky和代回/226态RK/129248行的新单方向，未实际运行，不冒全224J/native/fullDN或branch/舍入证明。122接实际91原context和fresh64 J/R273 delta→新packet，非由旧hash重造现场；两原policy、α=0独立实验。121已实际run43694950669/sourceda16069e/job132753318793，08:32:04UTC创建并进入原science；120 job132752997196同已进完整场science，结果仍待真实读回。

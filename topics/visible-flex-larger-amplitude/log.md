@@ -187,3 +187,9 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 120 run43694844403/sourceace38440324f09471482826136584da38960c417，08:30:44UTC创建，API in_progress，未报科学结果。发布120的并发ref拒绝已由helper立即实际pull --rebase重推成功，双README仍原blob。
 
 [121接口](notes/2026-11-15-actual119-to-six-control-batches121-interface.md)12296B/428cc4a2及四件完整差异已读。wrapper8ac33f77/requestae4d1b17/workflow8f5ea35d；84原/新源SHA与实际HEAD核过，20旧函数/类不变，仅四函数的来源/标签改变。新1568B recipe cb2e9c83实际逐值/身份与119第8批及chain相同；原可选省略表也逐字相同。原六维全部科学与final门保留，.1 reset/独立8批/3600s批间/75-90min无改。无本地科学、raw上传、未来121run或成功预填；继续原113/118/120及有限trace方向源。
+
+## 2026-11-15 08:35:20 UTC /root — 发布完整有限root轨迹单方向实现
+
+[实现接口](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)19247B/15d2a283、CPP34622B/8c40b4c7、stdlib launcher21410B/8229212b、bridge15077B/61e21ded已全文读，四件最终字节及原113两依赖实际HEAD blob已核。原F/C、逐Cholesky/两代回、n=0/正常/fallback更新顺序、全226/RK/所有129248行和两均值保持；shadow字检查只是独立实现错误，不增加原native接受门。实际fixed-trace数值方向与IEEE导数/branch证书分开，全列J/solve/finalaudit仍未付。无本地科学/实际JVP结果/新raw上传。122沿真实113来源接线；纠正先前混入120的四数学输入，这些不是native现场实际输入，不额外恢复。
+
+121实际run43694950669/sourceda16069e10e11d4541992fa66c6f03ee7165baf7/job132753318793，08:32:04UTC创建，API确认原science。120 job132752997196也已进入原完整场science；尚无二者科学结果。121发布一次非快进立即pull --rebase循环推成功，双README仍未变。H压缩已结清/已发布详情到完整接口，保原五标题及所有未付主线。
