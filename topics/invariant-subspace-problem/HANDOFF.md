@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 8af3516734c1c161029f227118dfc186e7065722（2026-11-15 00:05:27 UTC，Actions run43656371353实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43656371353-1.json。
+- **最近成功实际 pull 与已读规则提交：** eff90c141df410e83e273d568e4b707903bf8df2（2026-11-15 00:07:35 UTC，Actions run43656554345实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43656554345-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -20,7 +20,11 @@
 
 实际run43653360404/job132626469223（源4ee8d886、数据21ebea18），十编译全过，数学77.863068274秒/13阶段；197在(Q/V10)_2的24维商新增像0，九目标全负。原G十项2036980坐标、6188/4367真运输及143/104全部核实。[共同dual](notes/2026-11-14-r150-197-third-common-dual-789f.json)九值[1,17,29,4,27,22,18,11,23]非零；真d9305−P2d9305=15b1+10b2+25b6。自然图全负不扩全S2/有理/char0。135恢复188295295B=91binary+44text/13cache，184存储文件全保，root清单零差；所有精确SHA/路径/7输入工件及原五列、小矩阵恢复保本次H全文，不重已成数学。
 
-**当前下一：[全部原S2来源商](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)。** S2={x:Ax∈p²V}，C=coker_D[s]A；S2/(Hnat+kerA)≅C[p²]/<b1…b7,pb8,p²b9>，有限p6再商p⁴C[p⁶]。完整S2由p²E、pKhat和完整β1源核Z的κ(c)=Khat chat+p qhat生成；Z以已成像C/J及原来源T给(I−TC)、T(sI−J)。旧198未乘p²的κ̃=Khat−p q1是真新入口，已成197的p²倍不代它。[全原197包证明](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)已成：S2=Hnat+Klow+Σj2..198 κ̃_jD[s]，Klow是1632真整数核。原四κ3…6确提升全部四个β源核基、κ7bar=22K1；先覆盖kerβ再付pS1，两次有限消去给全包，不套p-adic Nakayama。于是Bsat=[A,b1…7,pb8,p²b9,b̃2…198]的像恰(imA:p²)，全原modp6等价Bsat y=h0t modp4。[小读取实绩](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)run43654741434（源e7d0638b、数据c09e0eec）已0.036855237秒完成，5恢复256910B全保；197投影列rank7、全b10系数0，等维恰张成(U9)_2。modU7/U8/U9多项式像维2/1/0，K2尾(10,11,0)、K3尾(24,28,0)，det16。结合[形式局部第一页](notes/2026-11-14-r150-saturated-source-envelope-first-page-and-primary-choice-control-789f.md)，完整Bsat在Z_(31)[[s−2]]的第一页恰U9/U7二维、J=2I；不声称全局R2∈U7/全局q2/其它primary。下一保196修正ζ、t e8/tζ2/e9与旧F7源核，再以真整数核削减；连续新页重新付Smith精度。
+**当前：全部原S2及Bsat。** [完整197未缩放包](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)给S2=Hnat+Klow+Σj2..198 κ̃_jD[s]，Klow1632真整数核，κ̃=Khat−p q1；四κ3…6覆盖完整β源核、κ7bar=22K1，有限两次消去保pS1。Bsat=[A,b1…7,pb8,p²b9,R2_2…198]像恰(imA:p²)，全原modp6等价Bsat y=h0t modp4。[抽象商](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)及全部旧来源保归档。
+
+[实际selector](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)run43654741434（源e7d0638b、数据c09e0eec）0.036855237秒完成，5恢复256910B全保；197投影rank7、全b10=0，恰张成(U9)_2。modU7/U8/U9像维2/1/0；K2尾(10,11,0)、K3尾(24,28,0)，det16。完整Bsat在Z_(31)[[t]]、t=s−2的第一页=U9/U7二维/J=2I；未付全局q2或其它primary。
+
+**[完整下一页204来源](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)已成。** β1源核2040基=1834原核+θ1…7+e9+196ω+te8+tζ2。1834均有真Bsat精确核提升；θ3及θ4−e9由原κ8/κ9 canonical recipe再精确消去。余204=θ1/2/5/6/7、e9、ω3…198、te8、tζ2；ωj=ζj−(aj−15bj)e8−17bjζ2。第二类旧六源及te8已零，只需新算196ω+tζ2共197类；进入第三须保全部204真实提升，第二零不能删第三自由。后继完整源核由(I−TC)、T(sI−J)给，不只取常数核。连续页20→15→10→5的原p6/carry与逐层Smith合同正在冻结；用κ8与ζ2原三次除源支付第一像，不借κ9额外p7。
 
 [十项完整入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)含68输入/7旧工件、10编译各30秒/512MiB、共享数学300秒；现已真实成功。双倍jet先真像/free后10→5，q1规范t lift/carry同步，13自由行不删。原正分支[两P/765费用](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)及宽NF/trace/真实数组恢复代码已编译，但本次无正目标所以未执行全局正分支；不得记为已核九原正证书。源码hash与全部7artifact身份保本次H快照、contract和manifest。
 
