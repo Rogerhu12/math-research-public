@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 10:09:15 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 10:16:58 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步与恢复
 
 只在public Rogerhu12/math-research-public和自身Actions做新数学；本机/代码模式只文字/静态核。每结论独推；非FF立刻真pull --rebase并循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
-本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 09:28:36定时/09:54非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:03:51.806710→54b5171fef8585078f6ceeff870b4be4cfe252dc，两README diff空；ref不冒pull，每小时继续CLI尝试。
+本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 09:28:36定时/09:54非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:10:01.524310及10:10:08.540075→0368410e593dccae2ca8a343f45b5062f2f5dc23，两README diff空；ref不冒pull，每小时继续CLI尝试。
 根规15：可重算data/证书/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB。普通删留历史，旧成功数学禁重算，失败lost temp明确重做。原inputs runner从immutable公开commit/path或旧artifact临时恢复。无executor例外connector只UTF8<100KB，禁binary/gzip。H≤10KB/open≤30KB。
-最近只读README核：0b59e8a4d90be9ca8db88b931ecf708d2eeb4528；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：56860ea2519bf69505e8b0401b3d4720f7113937；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：25855ae98abaf436159698eec4c8e29167799fa5:HANDOFF.md，串3ed8919/e10f0c7/13e7795/7abd313及notes/2026-11-15-handoff-before-new-object-94-chain.md；所有旧输入身份/成功/失败/restore链/未付门不变。results与open逐字归档均由前H和当前open链接定位，不取消原义务。
 
 ## 总验收、同对象与参数身份
@@ -27,7 +27,7 @@ v2 43681612825/1 child1/0groups的Arb转binary64溢出，临时future2340/past18
 共同势43685624307/旧圆43688459733/signed根43692226895及完整Taylor/profile/九词五mean/seam/ledger只恢复。G/c3267f91…有序3local/6oldcircle/5mean与共同Vr完整。whole43694458725、S43698106023/1成功：RF3/20000/final Rs3/40000/σ1/256；144导数仅10项fb二径改善，其余/36mean沿旧。全部SHA/域/失败/restore及26门在前H/报告，成功数学不重算。
 V/36fc2a7a…20436B已付两genuine列/正负输入/oldmean全输出recipe：central+两branch、C²symbol/真实三circlemap、near/far Schur；补wφ⁴/Bφ³⁴/VTTT真margin，3local/4full operator+5mean/独立physical mean/Piola/trace/正graph均分账。root全文/newton与tail独核。
 G15 actual43700281022/1成功，child0/16门/math.005862355s，报告a6749378…/execution1fe8a528…/resulte426c917…已读；w0 L²<2.252232219784，其余幅度径导大，非physical源。成功4operator/profile不重算。
-C/98d3a516…复用合同已推。完整negative源CI现在部署：SCIb0648a3b…47184B/manifest8465759d…10625B/worker5647b1ab…18454B/flow27bfb98c…；19pins/14current+5history，旧G15十二pins不变，旧1328/5receipt只读。新校准1/jet1/local3/选中原行；row数组只temp。root全文/newton3函数核，待真实run/返回，不授strong-return或正graph。
+C/98d3a516…合同及actual43702688640/1完整negative physical源已成：child0/17门/math.174329938s，报告c3b9ddaa…16950B；execution25715B/bca0f97d…、result11746B/e96aa00c…root全读。19pins/原G15十二pins不变，旧1328行/5receipt只读；新校准1/jet1/local3/源行6/真dr6/正比较298，旧数学0。两列/双signed/全mean/两J窗/独立physical mean全保。local<3.56508187941e16，first<7.89419979862e20，mean<6.95217991777e13，pair<7.89419979862e20；只是完整volume upper，非lower/strong-return/正graph。6row/native仅temp及SHA，成功源禁重算；下用旧完整word和精确g相关式收紧。
 
 ## 实际帽与97接口
 

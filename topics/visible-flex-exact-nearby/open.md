@@ -110,10 +110,15 @@ w1/w1r/w1rr分别<227086.046676/79268255645/26074855745890286。
 三raw local保持原顺序，w1rr可准确拆出复用完整旧norm；
 两J窗口分别−8/3→−5/3与−5/3→−2/3，CV1保旧值另加新项，绝不相减。
 全部九词、五oldmean、独立physical mean、true dr与uncertain-root单侧权均明确。
-该recipe尚无新数值结论；SCIb0648a3b…/manifest8465759d…/worker5647b1ab…
-和独立workflow已审部署。19pins中旧G15十二项完全不变，原1328行/5成功receipt只读；
-新逐行系数仅临时，公开保完整范数/分项小结论、run及SHA，等待实际运行。
-**当前下一接口：** C recipe的实际完整source消费；
+[actual完整negative物理源43702688640/1](results/R133-supplement-actual-complete-genuine-negative-physical-sources.md)
+已success：child0/17门/math.174329938s；19pins、原1328行/5receipt只读，
+新校准1/jet1/local3/源行6/真dr6/正比较298，旧数学0。
+两真实列、双signed、全部old-circle输出/mean、两J窗及独立physical mean均保。
+完整local<3.56508187941e16、first<7.89419979862e20、mean<6.95217991777e13，
+pair<7.89419979862e20。报告和小execution保21+10项完整L²结论；逐行数组只temp。
+最大的已付upper来自两density的RQJg，不能解释成真残差lower或不可能性。
+本次成功g/derivative/积分不得重算，接着复用旧完整directed word及精确g传输相关式。
+**当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
 负侧可从同principal相位的真实oscillator两branch付全C² symbol，

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际完整负侧物理源](results/R133-supplement-actual-complete-genuine-negative-physical-sources.md)：public43702688640/1 child0/17门；同原piece2549真实负段、全两列/双signed/输出mean/两J窗及独立physical mean，完整first/pair<7.89419979862e20、mean<6.95217991777e13。旧数学0重算。是完整volume upper，尚不付全负侧BVP/trace/strong-return；21+10项小结论供不重算的进一步严格收紧。
+
 - **同一个实际种子的完整 body Nash 存在性已付**：[F附篇](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)，13091B，SHA256 16b2f923cd6d251c9ca29bddc2c4d02ef1929004bba94547595ae65931eaeb23。真实finite state/高度单位给nq+fq<2^-430 E(q+32)，固定γ外系数Bbarγ<2^2097152；所有变化high只出现一次，T0=2^1500000全部常数及实际初残差门成立。原3500/400和1734/1796归纳给body F(u∞)=0、holonomy和内部真traces；nonlinear far、内帽、mean-height/frame和设计参数尚未联立，未称全闭G。
 
 - **完整 genuine 负侧源的复用合同已证明**：[C附篇](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)，16352B，SHA256 98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4。同已成功G15 fold/profile的正线性预算可从旧算法输入数的严格lower回读系数；三raw local、两准确J窗口、九有序词、五旧mean和独立physical mean均保，真实dr与uncertain-root积分单侧收费。不重算成功profile/norm，不从upper减项，不冒正graph或strong-return；实际消费待CI。
