@@ -564,3 +564,8 @@
 - R804登记：旧R794真实selected stage及10项manifest已只读核，五a(T)和原C/C逆确为整数；本结论不外推完整整数Hom/NS格。八个准确群律节点复用原单f4，保原T⁷=ζ²/CM/Galois及五个原低degree标签，不需重算五套函数关系。
 - root全文核、ordinary独立核两条短多项式恒等式及两图反对角理想；立方/min valuation包括原三分歧重数，全局支撑拼接/saturation是已证接口，尚无实际adapter/极除子。proof98d3e253、method98bb9387，无本地新数学。
 - R803已推ac8401fd；并发推送拒绝均即时实际pull/rebase后重推成功，两README差异皆空。R801/R787继续，原β/η/高度及主目标OPEN。
+
+## 2026-11-15 18:06 Asia/Taipei · serre-public-astra-20261115
+- 原sigma模参数heat笔记完整登记：六行作用及奇Lamé显式v⁶=r(r⁴−1)覆盖直接证明，全部允许p≥41可分/零p曲率，原点水平源分量单位；不将a=0错当L稳定。
+- root逐式核，原文Bunkova式(1)/Cor3.4与Rodriguez Villegas式(2.16)已打开核规范及Hasse q-expansion；首p截断的Az^(p−2)e2/12源不能删。SHAb0d436867df58fa240afb11a8dc627827b95e399659d1e3efef2e9b512461cab。无新扫描或本地数学执行，未筛/真正筛后critical仍开。
+- H逐字归档后压缩，R804已推56bb70f4；R787/R801继续，R803工程接续，全局极除子/规范高度与主目标OPEN。

@@ -373,3 +373,5 @@
 - **R803（已证明）**：[原单映射复用与混合Hodge比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)。原694维M6的42项注入、四条实际补行、五个混合三积及一个Q块有限右端；准确x比/群律给五方向函数，真Norm常数、三同源、符号主函数与原R794矩阵全保。确定符号降低普通幂至8，最高N202尚非已成尾；全局约分/极除子、二挠刚性化和实际高度仍未计算。
 
 - **R804（已证明）**：[所选五原映射的整数循环复用与八步群律](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)。实际R794五个a(T)均整数，原C/C逆在GL5(Z)；只对这五元素成立。原六个U和六次P给relative-x/y完整群律，八节点保持原五低degree/N≤196；两图反对角立方理想与支撑拼接给准确极除子接口。真实DAG、全局saturation、η/刚性化/高度尚未算。
+
+- **原模参数heat与奇连接（已证明）**：[完整笔记](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)。保持c=0的六维heat矩阵、辅助E27上的显式奇部可分水平基与允许p零曲率，首p截断保Hasse边界源；DA(P0)=B且源基分量为单位。模参数与原z方向严格区分，critical/primitive共同非零仍未证明。SHA256 b0d436867df58fa240afb11a8dc627827b95e399659d1e3efef2e9b512461cab。

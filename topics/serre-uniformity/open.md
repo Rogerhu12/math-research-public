@@ -72,7 +72,9 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。
 
-[Hurwitz刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，高块由首p×p唯一决定；升p²/Hirota不增独立信息。[Serre/Cartier](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)给真实有限Serre类与独立Cartier秩一单位C(x⁴ω)=(4/7)Bω，但权5为零时低极阶Cartier自动零，两者尚无桥。[cosigma闭合](notes/2026-11-15-sigma-cosigma-descent-and-closed-critical-channel.md)保半周期常数、degree3平移截面、rank4核；x²σ⁶整行列消失，总阶p−6未筛全零仍等价原F/G，不产生新非零。继续真正独立的模参数几何/配对，未登记未经证明的heat/Hasse结论。
+[Hurwitz刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，高块由首p×p唯一决定；升p²/Hirota不增独立信息。[Serre/Cartier](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)给真实有限Serre类与独立Cartier秩一单位C(x⁴ω)=(4/7)Bω，但权5为零时低极阶Cartier自动零，两者尚无桥。[cosigma闭合](notes/2026-11-15-sigma-cosigma-descent-and-closed-critical-channel.md)保半周期常数、degree3平移截面、rank4核；x²σ⁶整行列消失，总阶p−6未筛全零仍等价原F/G，不产生新非零。
+
+[原模参数heat连接与奇部可分平凡化](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)已证明：保原c=0，六截面在模参数heat下准确闭合，但a=0非L稳定。辅助E27上奇连接显式代数水平基在全部允许p≥41零曲率；首p截断严格保Hasse边界源，原A(P0)=0、DA(P0)=B，逆水平矩阵的源两分量为单位。原oscillator尚不能略掉；将这横向源转成固定原F/G的critical及primitive/Legendre支撑仍是准确缺口，没有排除未筛全零。
 
 ### ordinary真实值与原全局对偶
 
