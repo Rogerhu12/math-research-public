@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "ab94f6e164c54e008445119277d62086c50de3cc",
+  "rulesReadAtCommit": "3dd0bbc0a8548bb8d15faea8f584edd6b87cfa97",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -565,6 +565,59 @@
       ],
       "timeoutSeconds": 280,
       "receiptPath": "{work}/native-flint-system-development-setup/native-flint-system-development-setup-receipt.json"
+    },
+    {
+      "id": "seven-sparse-dixon-original",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-seven-sparse-dixon-original-runner-789f.py",
+      "scriptSHA256": "c1e5c4e8fd03d852a08150f7cf70d65769f3b17c640e870d7cc7389f7eeda5a0",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-sparse-rational-rhs-dixon-checkpoint-789f.cpp",
+          "sha256": "0bad7fcf2973d9a8d1f76250ca40f93bcdaaab8abeaea884ab4deba5d02824e7"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-seven-original-exact-rational-solve-789f.py",
+          "sha256": "c9d064c4a64c8f0c9ef78b93db68c9d30883c42eb0a85e931e87a7bf862b98c6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        }
+      ],
+      "argv": [
+        "--native-source",
+        "{scripts}/2026-11-15-r150-sparse-rational-rhs-dixon-checkpoint-789f.cpp",
+        "--state",
+        "{work}/seven-exact-low-fill/seven-exact-low-fill-core-and-backsubstitution.json.gz",
+        "--columns",
+        "{work}/seven-low-fill-content-scc/seven-low-fill-exact-column-contents.json.gz",
+        "--scales",
+        "{work}/seven-row-content-profile/seven-exact-row-column-scale-factors.json.gz",
+        "--old-solver",
+        "{scripts}/2026-11-15-r150-seven-original-exact-rational-solve-789f.py",
+        "--old-dir",
+        "{work}/seven-original-exact-rational",
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--point-model",
+        "{selected_model}",
+        "--native-model",
+        "{native_model}",
+        "--prepared-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--prime-dir",
+        "{work}/single-prime65521-selected-rank",
+        "--out",
+        "{work}/seven-sparse-dixon-original",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "2048",
+        "--compile-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 680,
+      "receiptPath": "{work}/seven-sparse-dixon-original/seven-sparse-dixon-original-pipeline-receipt.json"
     }
   ]
 }
