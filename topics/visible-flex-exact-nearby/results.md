@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WT 单侧真实腰归一化公式已证，标量待。** [完整合同](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8：同Qδ/η0/|δ|≤1e−8，原D固定四界、raw残差α一次、response fullmean/零近腰Fν及canonical piececonstant repairs，给完整右径导；原SP腰因子接TN新S/S2及两个固定cutoff四门，dyadic另列。两窗同逆/finite/mean保，未宣称interval或Schur逆。
+
 - [SF：严格区间完整一阶符号传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)：完整Gy、两有序正规化、F0–2/FJ、真实leadingflow两rank与独立均值源；actual T_J全finite/两mean、S连续/Z跳、FA forward cut费和ST literal primitive source接口均保。SF44/45是到真实腰部old density的完整条件强界，系数/积分新数值尚待，非全incoming。SHAadd091118ef1af71bc8c4be275742d4124a076d6cf2ebaf00d35c66f8348f2b4。
 
 - [WX：从已成正乘积推出实际腰部坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)：纯解析由SP/ST原positive算法读出任意较短段、两个方向的真实流三导费用；付waist Φcut∘χ、L2/H−4/3同逆、selected H/common input原序、完整mean/primitive rank和leadingflow。新scalar尚待Actions，非waist normalizer或全inverse。SHAc5157bbb14b300c1a418642e96917b49f0f90c1ebc3571a124a26b863adc9ae1。

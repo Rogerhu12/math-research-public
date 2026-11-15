@@ -275,3 +275,13 @@ Root 已全文读 SCI、CY→worker 全差异/保存先后/历史恢复/成功�
 ### 2026-11-15 21:17:56 UTC — FA 唯一公开运行身份
 
 部署731c618bf8995e36396fe633c81d93d5dd2a6b47，仅一项匹配push：43762821220/attempt1，workflow .github/workflows/visible-free-airy-first-omitted-cut-scalars.yml，API in_progress/conclusion null。newton只监该原run，不重启；实际24门及五最终量尚待。只读README f2cc6b82fa002fa58de08a205aadeeb2a5d6bedf 原blob未变。
+
+## 2026-11-15 21:19:01 UTC — WT 完整单侧真实腰归一化合同独立发表
+
+proof blob8c5ee6ec69250c5e51d4bc0179f245c6a24ae263/22752/SHAe4e317e896fade7dee1c93303ff8c9ed4c811d35b90cc6bc3ed3cecabdf30da5。Root全文400行并独立展开WT5–31，newton审7–19/reader，phase审20–31及最终SCI三个数学函数，tail本人原primary逐式；未作新数值。原完整主证身份全在proof表。
+
+原raw helper b8e78adda5b0 逐式确认Q=(αU,s+αV)，P7–8的真s_r=βs(1−Ks²)恰给raw residual乘α一次。原body producer1651f6cf与operator09807e40的完整(∂−Araw)Z−Fν，norms18de4ef7的A0_sup是两component Wiener sum，独立response_mean_residual必须加入；response不乘α。body first row须在[0,1/20]，parameter_source返回完整零。Qrepair a39fcfa2/V2–5与Zrepair2b7d6080/Q1–3证明同piece常offset、右径导0，原均值均保。D source827fcb23完整raw-plus-repair门给7/6/19/83固定界，不扩大原d1e−10参数差结论。新d1e−8三角与原SP真实waist m/q/ng资格分别保。
+
+新RQ/RZ#付完全residual，γm_r项保；Dφ用Wiener投影收缩，TN waist S/S2从新系数计算。固定J97与268435456各四strict门与单独dyadic必须完整记录，失败不冒奇异/不被新J覆盖；同一逆两窗，F_S全finite≤J+191/fullT−T_J≤J+575、两mean保。单trace非interval逆、非finite Schur、非真实PDE。下一只公开Actions新增这些scalar，原body8201B与3rawbyteparts恢复temporary，成功旧数学0。
+
+H/open compact前全页精确保a76ececa7caf544f07a6cc942f8dd22a4fcb619c同路径，所有旧scope/球/失败/未付义务保留。本次两README只读ef56f16ff3ca573fec8982754fe9d5256748317e无差异；FA原43762821220/1、SN/SC3继续。

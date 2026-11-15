@@ -84,13 +84,15 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [AW完整P22锚定比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)694b3647全式/原域/三ball保148ac7ee614bdf839691285f6a1eea0d6ec8ddd6同open/H/proof。真positive列与free锚定齐次到腰的差H−4/3→primitive L2pair+两mean≤C_PC+C_ST,4，仅符号和；两行cut连续、PC§9 restriction/zeroextension、root e+−PFh/非零stable/β/两sign两wave/四同caseRR及独立PW七ports/mean/finite保。只difference延拓，非各trial/stable强界。实际waist receiver与完整incoming/Schur/R0仍待，TC不移腰。
 
-[FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22/free P8 w1，完整J/六mean/两I尾，先真微分再DLMF real（无nω≥1），n^-2列余项经HS付H−4/3→L2。两sign两wave/P23a抵消/TN有序逆+FS/RN/finite≤Js+191，FA32–34a原UΦ与corrected负窗，Jc/Js不混。新包bff4c15e/3d8873d0/34b9a041/7fe3c7f1：20pins/5AST/24门，旧10历史逐tuple核RV4718b4b8；新scalar唯一43762821220/1运行中。strict propagation、实际waist normalizer/receiver/Ei/Eo/incoming/Schur/R0仍待。
+[FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22/free P8 w1，完整J/六mean/两I尾/DLMF real无nω门，n^-2→HS强窗。两sign两wave/P23a/TN ordered FS/RN/finite、FA32–34a UΦ/corrected负窗、Jc≠Js全保。新包bff4c15e/3d8873d0/34b9a041/7fe3c7f1，20pins/5AST/24门，唯一43762821220/1运行；strict/waist/Ei/Eo/incoming/Schur/R0待。
 
 [TC](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5/[actual](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35/43754703603/18成功锁；全42球/SCI/preGit/真Φ四norm/两rank/finite全值保d358150130b7ff4771711c1e409d540f82dc56c0同open/H/proof。PΦ真span/mean/HL-LH/97..J−1保；cutnorm不移腰，Ei/Eo/Schur/R0待。
 
-[WX腰部真坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)c5157bbb解析：同SP/ST positive算法逐firstdiag给exp(2∫D)≤P+11P−11，任意短段双向Mχ/Fχ/Gχ；Φwaist=Φcut∘χ、两窗/同逆及独立mean。selected实际H仅其已证域，S=U_H^-1U_X-按原序，primitive两rank全付公式；ungauged leading L2直接P±11、负窗另scalar×density。只新scalar待Actions，不重ray/指数；waistTN逆/SF系数/完整Ei/Eo/Schur/R0未授。
+[WX腰部真坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)c5157bbb：ST positive算法付任意短段双向M/F/G，Φwaist=Φcut∘χ及两窗/同逆/独立mean；selectedH、S=U_H^-1U_X-原序、primitive两rank，leading L2≤P±11/负窗另密度。只新scalar待，waistTN/SF/Ei/Eo/Schur/R0未授，旧ray/指数禁重。
 
-[SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：原Gy与两有序T1T2，保所有primitive F0–2及actual T_J差FJ；真实V0(1+cI)保两rank和独立−Z_yYapp。FA corrected负窗除samecut ng一次，cut error乘同T_J forward L2一次；原ST literal√q注入接受真正L1dr primitive+两mean源，独立jump无长度。Z可跳而S连续；SF44/45到waist olddensity只difference强延拓。WX三导只付flow，新增Q径二阶/曲率三阶/系数norm/完整dr积分与Z jumps待Actions；actual waist receiver/完整Ei/Eo/incoming/Schur/R0仍待。
+[SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：全Gy/T1T2/F0–2/actual T_J差FJ/−Z_y均值；FA corrected除ng一次、cuterror乘sameT forward L2一次，ST literal√q给真L1dr primitive+两mean和无长度jump。SF44/45只difference，S连续而Z可跳；Q径二阶/K三阶/new norms/dr积分/Z jumps及waist/Ei/Eo/incoming/Schur/R0仍待。
+
+[WT真实腰部归一化](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8解析：D固定7/6/19/83、完整raw row0残差α一次、body nonmean+真实mean不乘α、Fν近腰0、两canonical修补径导0，付右RQ/RZ。SP原waist m/q/ng→新S/S2；J97和268435456各四门、另dyadic不覆失败。两窗同逆/finite≤J+191/fullT差≤J+575及两mean保；新scalar待Actions，非interval逆/Schur/未知PDE。
 
 ## 4. 实际帽图与完整core接口
 
