@@ -154,3 +154,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [新六规范来源高度](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)已实际核：3.456136225秒，全部6188余数与4367整数身份真，分母2356…3803bit/分子最高3868bit，均超原p768的两类充分高度条件。这一记录入口已闭，核数仍29；接剩余七的原有理方程，不将高度不适用说成算法不可能。
 
 - **2026-11-15，原65521单次秩及七列真Q入口：** [R150-appendix-single-prime65521-rank-after-paid-twentynine](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)：原4367×4325在唯一新素数上rank4318/null7，14.919986302秒，全原乘积真；Q区间仍4318…4325。已锁原4318×7精确有理求解与全残差小核[接口](notes/2026-11-15-r150-seven-original-exact-rational-solve-interface-789f.md)，600秒/4GiB，实际完成前不提升结论。
+
+- **[强Boolean完整Artin线性化](results/R271-appendix-strong-boolean-artin-linearization-and-physical-source-metric.md)：** 真有限代数α及物理V把全部ψ(A+E)混合化为分级L，完整左/右/裸来源均保；其真实V*V、全核Schur和差商逆不能删。本文特定α的N模型反向V*f1≥exp(25d⁴/4−105d³/8−O(dlogd))，只排该列廉价估计，不是Green反例，也不排其它Artin替换。
+

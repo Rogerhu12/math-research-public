@@ -39,14 +39,16 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 - **[真实相对孔Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)：** K=Σ[z^k](φ/z)^J T^k，TK=Kφ(T)、逆/全旗/裸商/首源g均精确；同g同余比较全/裸最小Gram。τ14=12.5d³+26.75d²+…，R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(-d³/64+54d²)→0。新头ψ_m(A+E)/d0保全部E混合，不运输左L，不相减Gram或称两费已付。
 
+- **[强Boolean完整Artin线性化](results/R271-appendix-strong-boolean-artin-linearization-and-physical-source-metric.md)：** 真有限代数α及物理V把全部ψ(A+E)混合化为分级L，完整左/右/裸来源均保；其真实V*V、全核Schur和差商逆不能删。本文特定α的N模型反向V*f1≥exp(25d⁴/4−105d³/8−O(dlogd))，只排该列廉价估计，不是Green反例，也不排其它Artin替换。
+
 ## 当前临时计算会话与可恢复身份
 
-本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；六列高度/同余已成；[单次65521](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)原rank4318。已入队seven-original-exact-rational：4318原单位块/7有理RHS、全4367残差小核；600s/每进程4GiB、同out可--resume。仅回执完成后才更新Q秩，不续多素数。20分钟空闲/6h job上限，不持久化大数据。
+本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，20分钟空闲/6h job上限。完整旧路径、哈希及接续状态保[本次H快照](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。
 
-- 29真Koszul目录work/koszul-exact-rational-support；basis.gz1670175B/SHA b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808，free36.gz29488B/SHA24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249；完整29列证书散列见实际小回执。
-- p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
-- 会话请求 notes/2026-11-15-r150-infinity-remote-session-request-789f.json；新步骤必须新id，sources及scriptSHA全锁，完整候选小元数据放parameters供sanitise保存。主只推小文本；生成大来源留job，禁止旧二进制工具/Release上传。
-- 全部实际小回执在notes/r150-infinity-remote-session-789f/；6旧Release资产已删除，main另删118生成数据，本题约73.57MB。原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，入口/参数/哈希已入main。
+- 已入队seven-original-exact-rational：原4318单位块/7有理RHS，全4367残差及完整小核；600s/每进程4GiB，同out可--resume。已成阶段先存临时，原B0与C0分别核，实际回执前不提升Q秩。
+- 后继physical17-quadratic-multiplier只核当前物理1001×1122块与136常Koszul，30s/512MiB；不能用旧有限参数986代入。
+- 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
+- 小回执在notes/r150-infinity-remote-session-789f/；原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，不重已闭模页/LLL/多素数。
 
 ## 其余仍开
 
