@@ -136,11 +136,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R346：负三pair九矩与正Y–Z第零矩已同付，续其余完整接口
+### R348：九旧矩加Y–Z第零／第一矩已同付，续余七外矩
 
-[R343](results/R343-two-real-orders-and-positive-center-clusters-pay-the-third-Gaussian-second-moment.md)保R341三个弱中心，原RS self/方差给固定R2，ρ0/20×普通/伴随四B1及四斜率正锥、双正中心群八列真rank4/正核；H5正幅精确新增B1=0、B2=−b且Ψ成本H−2，原F★ controller付三行。故负三pair M/A/B全部九矩/全θ真联合。
+R343原RS self/准确方差、双排序与普通/伴随给固定真rank4正核；R346原L/Y、U/Y self及实际Fκ/J母纤维给六目标正锥，从同一最后controller前负Ψ基线支付C0。旧弱块的三个最终正中心全保，原三directed/Ψ最后同F★有限N复原。
 
-[R346](results/R346-positive-six-target-cone-pays-a-further-complete-Gaussian-zero-moment.md)新增C0=I0[Z,Y]全θ。完整L/Y、U/Y self保Green尾准确消项、跨微包Γ0；实际even母奇扰动的(Fκ,J/h)对(γ,z)真minor给Fκ0及±J，保最后中心/全部δ²项得到严格两号；两个α的四射线±(αβ,1)全R²正锥。C0/B1/B2真权−3/−5/−4，四新列与R343八列的实际块三角极限给有限六目标正核；再共同S伸缩、S5正幅解(0,0,−Cold/S²)，保九矩而Ψ成本S−2可小，弱中心全不动。最后同F★/全72零controller有限N复原Ψ/三directed/指定层。仍欠PY与WY各三外矩、ZY的第1/2矩，共16形式even位置；PY第一矩两even恒等只一共同值，不能按位置报rank。原K1/K3有序尾须保，旧B1已限制PY的primitive差不能任意指定。下一从真平移/全self选新接口，其他完整层/period/同规范仍欠。
+[R348](results/R348-true-translation-and-Green-self-terms-pay-the-first-positive-minus-one-Gaussian-moment.md)新付C1=I1[Z,Y]全θ。先写一般weak的完整Y四次/Z二次平移，K2保(3e/2)[P,Y]、K1保Y–R/S，不能使用普通矩平移。原两个nonlegal self保Green μ2²/8、μ2²/4与local DF准确抵消，成local完整式；显式中心导数恰2倍原第零self，跨微包Γ0。实际Fκ0/J=±hτ母与全copy得E1=2Kδ[Aξ³/3+δ²Rξ]，保全余项、固定最后正中心后取有限δ，两α给二维全正锥。新权−2、旧B1/B2/C0权−5/−4/−3，先H2正幅成有限八目标严格正核，再S5正幅解(0,0,0,−r/S³)，Ψ成本S−2可小。弱核心/最终中心不动，最后同原controller付Ψ/三行/指定层。
+
+尚欠PY/WY各三外矩、ZY I2，共14形式even位置而非rank；PY I1两even本恒等只一共同值。root继续PY I1，literature续ZY I2；必须保K1/K3有序尾、已付B1限制和完整self，不把积分值当自由旋钮。其余完整层/period/同规范仍欠。
 
 
 ### R344：全权响应总通量经完整pure因子化，续原U上的真实值

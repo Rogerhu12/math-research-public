@@ -355,3 +355,10 @@ expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不
 [R344完整原式](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)扩展R338单权结论。二次多项式p对原右零、可有左尾的w作用准确为原sl2一阶算子；逐原DT全部槽保非紧qE后，正式pure有序左u/右v的2+2系数满足8Γ=q_J。原D³自伴与左Green端给h_J=3C，无删尾。三个真实右侧同宽平移bump的原三矩Vandermonde可逆，以其线性组合恢复μu，准确得Ω(V)=16∫u‴πV/5+(32/15)Σc_j∫u‴ΓπV(u,vj)对全部R成立；额外全Z响应π/Ω0补足，非只R71。
 
 故全权Ω(R∩kerπ)=0，包含wholeE核；R335反例的2μ0M3/15由有序pure交叉修正准确恢复，不能改称无尾16/5。该有限原pure读出可在所有U直接定义Λ且消整个R，无需πU=πR；在已付U−6上恰等R338读出并aux无关。未证Λ在U非零或相关U−6恒零，R342仍仅声明族的精确零。附原权−5全部28+8生成尾手表，36非rank。后继继续原U完整成本的兼容结构；全period/同规范未授。
+
+
+## R348：完整Green自项与八目标正锥支付Y–Z第一外矩
+
+[R348原式与真实有限构造](results/R348-true-translation-and-Green-self-terms-pay-the-first-positive-minus-one-Gaussian-moment.md)从原Y四次/Z二次平移保全部未付K1/K2项，不对一般weak偷普通矩公式。原L/Y、U/Y第一self的local DF保真实primitive，Green μ2²/8、μ2²/4准确抵消同端项，得到两个完整local式；显式共同中心导数恰为原第零self两倍，原跨微包Γ0。R346真实Fκ0、J/h=±τ母纤维连同全部copy给E1=2Kδ[Aτξ³/3+δ²Rτξ]，固定最终正中心/间距后取有限δ，两α×真双号四列得R²正锥，非抽象有符号幅度。
+
+C1全权−2与旧B1/B2/C0的−5/−4/−3三角分离，四新列H2幅与旧十二列组成有限rank8严格正核；再整体S5正幅解(0,0,0,−r/S³)，旧六目标零、新C1清残、Ψ真实成本S−2小。原弱核心/三个最终中心不动，最后同F★全72零controller有限N复原Ψ/三行/指定层。同一圆M/A/B九矩加C0/C1全θ已付，ZY I2及PY/WY六矩仍欠，14是形式even位置非rank。无新执行，完成即推。

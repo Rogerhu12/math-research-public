@@ -41,7 +41,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**R308–346弱Gaussian圆**：Af0开段真rank-two/单hook0；八copy付third，R319/320/328被排范围保。R331宽恢复/三补矩/真正锥保负Ψ并付M三矩/A0，R332反射12copy付A1，R334四强模块付A2且Ψ成本Λ−2。R337同C负/正中心架构B0非0；R339真反向core得到C+，异号弱块破该限制。R341保完整self/J尾/12copy方差，普通/伴随强模块给B1差双号；两负一正弱块的三个最终正中心准确清B0/B1，不能共移。**R343新增B2**：原RS self保真实尾，准确方差使R2固定；α9/20、ρ0/20×普通/伴随四B1与四2B1+χR2斜率有严格正核。两群八正中心列rank4/正核，H5四次权解(0,−b/H)，新增B1=0/B2=−b且Ψ成本H−2；R341中心全不动。最后原F★/全72零controller有限N付Ψ/三directed/指定层。**R346再付C0=I0[Z,Y]全θ**：真母Fκ/J两行minor给±J，两α给四正锥列；其权−3与B1/B2的−5/−4合实际六目标正锥，S5正幅付(0,0,−C/S²)，Ψ成本S−2。旧弱中心/九矩不动，最后同controller复原Ψ/三行。余PY/WY各三矩、ZY第1/2矩（16形式even位置，非rank）及全第四/period/joint欠，非整72。
+**R308–348弱Gaussian圆**：Af0开段rank-two/单hook0；8/12copy保third/odd。R331/332/334保负Ψ并付M/A全部三矩。R337旧同C架构B0非0保；R339反向core给C+，R341两负一正弱块三个最终正中心清B0/B1且不能共移。R343原RS self全尾/准确方差给R2固定；ρ0/20×普通/伴随真双号、两群八正中心列rank4正核，H5四次幅付B1/B2且Ψ成本H−2。R346真母(Fκ,J/h)两行minor、两α与±J四列使C0=I0[Z,Y]双向；同B1/B2合六维正锥，S5正幅精确付C0、Ψ成本S−2。**R348新增完整C1**：原L/Y、U/Y I1 self保Green μ2²/8、μ2²/4准确消局部尾；其显式中心导数恰2倍原I0，真实Γ全0。Fκ0母族/全部copy得E1=2Kδ[Aξ³/3+δ²Rξ]，真±τ与两α给四列二维正锥；权−2与旧−5/−4/−3形成八目标正核，S5正幅解(0,0,0,−r/S³)、Ψ成本S−2。旧弱中心不动，同F★/全72零controller最后有限N复原Ψ/三directed/指定层。M/A/B九矩+C0/C1全θ同付；余PY/WY各三矩和ZY I2共14形式even位置（非rank，PY I1有重复）及整第四/period/joint欠。一般弱Y平移含Y–P、Y–R/S，不能借C0零冒普通矩平移。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4，全cross/尾0、wholepure/self/Ω0。11对应真实Af点的flux=ρj⁵pn(tj)，pn首系数C*(−1)^n10!/(10−n)!≠0，Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 
@@ -50,4 +50,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 66d37555cabd632dccf8fbd237af6221bdd2d7b2，双README blob同。API读取不冒实际pull。
+断连API复核main 5317c0cd20dbd17588020b9f4e29f4b1dd1dfe2d，双README blob同。API读取不冒实际pull。
