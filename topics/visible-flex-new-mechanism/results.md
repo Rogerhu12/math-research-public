@@ -407,3 +407,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R282 完整证明](results/R282-symmetric-Gaussian-products-and-an-independent-square-history-gate.md)保原Z²和三阶history给四个平方与六个交叉ErEs准确式，真实21元独立基防止用已零面积或零/一层冒抵消。B−3=cP，P(u,v)=J(u″v″)，原三外矩与真实左尾给q0=−∫F′d′、q1=−∫(xF′+2r²)d′及保2u′v′/−2d²的完整q2。实际不交微包化为Kj=∫x^j[(u″²)′]²及C=∫u″⁴；C由R267非合法单包原self的非零系数保持，未加强F。
 
 在原等平方背景/12odd完整包装中，平方整圆系数恰为−sin²θ(H0,H1,H2)，Hj=Σa²R Kj，H2另加2ΣR²C。同F三实际high–low–high参数的(-H0,Lc,Mc)principal行列式首为135s0²X16乘三点Vandermonde；原C¹有限N纠正使双能量准确零曲线上H0非恒定。因此存在保三矩/全third/全部72面积/六能量而H0非零的真实圆，非仅未检查，也不宣R280某未指定根或全族失败。root完整纸核三矩IBP、self非零因子、角归并、真实copy权与有限N非蕴含。下一五量联合和余九乘积，完整period/同w及主课题仍欠。
+
+
+## R284：六真实交替微包联合支付平方 history 与六能量
+
+[R284 完整证明](results/R284-six-alternating-packets-pay-the-square-history-and-even-energies.md)在R280两个实际编码中选索引0,1,33,34,49,50的high/low交替包，保全部实际copy权和偏移。五量(-H0,-H1,-H2,Lc,Mc)的principal位置多项式可准确行化成1,x,x²、原monic九/十次q9/q10；任选五实际列的首式为2520X12乘Vandermonde，低系数只入低次。一次选大有限共同X，六删列minor同号，交替λ的cofactor核严格正且rank5。对任意完整基线（含H2低阶正项）加有限正核，得到严格正平方幅根；没有实际负包。
+
+全部位置/权及幅盒先定，再用同F N^-3族对五个完整量的C¹收敛、固定第六幅后的五变量可逆Jac，选一个有限N取得准确根。五个最后完整block逐一做，原72面积、三矩/全third保持，H0/H1/H2/Lc/Mc全零；原odd与共振身份给六能量全零，R282准确iff给整个E−3²全θ系数零。R281解析母包/纠正方向可从最初同选，同一次有限N也保prefactor全区正，故canonical端有限门适用但没有支付其值。root全文核实际位置、copy多项式、2520首项/符号、正锥与完整有限N根及解析连接。余九乘积、0/1、period/同w及主几何门仍欠。

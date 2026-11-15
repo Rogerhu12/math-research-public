@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1`；时间2026-11-15 14:06:28 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`7248eef2466d618278d0d9622489a975ed4653f0`；时间2026-11-15 14:11:42 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -45,7 +45,7 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R281新解析同F圆**：固定ψ×偶多项式在even C²域稠密；真实minor沿多项式线给P0全区正的最大秩母包和解析纠正方向。χ=ψQ保R279正balance/C¹有限N根，最终ψ[P0+ΣaP+zN^-3QcosNy]全区prefactor正；可从最初接R280五块，全部72面积/六能量同零。真实p=t^-2 a_e exp(−c/t)、内部p/AH零有限。保最后圆全canonical尾，整个Tf经D+ψ′/ψ有限消积分，清分母后不同频率多项式指数独立，端门等价有限准确系数零并排非零全平例外。平台/flux已付时这恰iff逆germ光滑；未求实际尾/系数/rank，不授period或joint。
 
-**R282对称history**：原式给十个ErEs；E−3²在原包装恰iff新H0/H1/H2零，H2保低阶项。C=∫u″⁴由非零原self保持，未加强F。同F三参及有限N证明H0不由三矩/全third/72面积/六能量推出，非判旧未指定根失败。下一六真实交替包联合五量H0/H1/H2/Lc/Mc及余九乘积；完整period/joint仍欠。
+**R282/284对称history**：R282原式给十个ErEs，E−3²恰iff新H0/H1/H2零（H2保低阶项），并证此前各门不蕴含H0。R284现用六真实交替high/low包：五principal多项式行化{1,x,x²,q9,q10}，六minor首2520X12·Vandermonde同号，cofactor正核给R5正锥。同F完整五量C¹收敛、一个有限N真根付H0/H1/H2/Lc/Mc；五最后block逐一做，全部72面积/六能量及整圆E−3²同零。可从最初用R281解析族。余九乘积/0、1层/period/joint欠，下一原式处理，不当五维控制全fourth。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 

@@ -136,7 +136,7 @@ R277/279的真实最大秩F纤维保持全部72观测；R280以原self/Green与o
 
 **下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** [R281](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)已从最初用ψ×偶多项式真最大秩母包、解析同F有限N根接R280：全72面积与六能量同零且p=t^-2 a_e exp(−c/t)、内部退化有限。整个canonical Tf保最后真尾，经共轭微分和频率独立化为有限准确系数；平台/flux已付时这些系数零iff端逆germ光滑。**下一提取实际尾并支付这些系数、平台/通量/内部Laurent，非再证明有限性。** 高阶收敛/同g有限族/全时嵌入reach仍欠。
 
-[R282](results/R282-symmetric-Gaussian-products-and-an-independent-square-history-gate.md)已从原式完整提十个ErEs；E−3²恰iff三个新Hj零，H2保低阶正基线。同F真三参/有限N曲线证明H0不由此前全部门推出，未判某个未指定旧根失败。**下一用六真实交替high/low位置联合(H0,H1,H2,Lc,Mc)，再做余九乘积；原72面积须逐包保持。**
+[R282](results/R282-symmetric-Gaussian-products-and-an-independent-square-history-gate.md)已从原式完整提十个ErEs；E−3²恰iff三个新Hj零，H2保低阶正基线。同F真三参/有限N曲线证明H0不由此前全部门推出，未判某个未指定旧根失败。[R284](results/R284-six-alternating-packets-pay-the-square-history-and-even-energies.md)现以六真实交替包、2520首项的六同号minor/正cofactor核和完整五量C¹有限N准确根，同时付H0/H1/H2/Lc/Mc；五最后block各自做，保72面积/六能量并新增完整E−3²全角零，R281解析族从最初兼容。**下一原式处理余九乘积及0/1层；五维正锥不等于全fourth自由控制，period/joint仍欠。**
 
 ## O1：双圆领相位机制，保留备选
 
