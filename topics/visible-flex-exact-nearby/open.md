@@ -203,13 +203,12 @@ RG用M零宽图、同真long右宽0/左宽7L/16与E'>39194024，解除未知γ�
 [MC](results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)更正b0=s0+rraw,mean e2；[MA actual43717700427/1](results/R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md)已补+δrraw,mean：child0/12门、2域140/2原行、5case全过，executionc5424be2/reportbe2de85d，旧math0。
 窄窗Pmean L2<4.963677e−10、d费<4.963677e−20；ordinary/factorial补齐、正角导/>96投影源不变。仅ell2^-18和rho2^-20/24/28/32/36这5例恢复same-state真双侧H1/C0球条件下H8193<2^377904，其余10旧pass未授权。
 五个低H1充分门仍false，最小.000389113为上界；实际unknown、真core存在与低γ继续。
-[cut shape/mean消费契约](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)及[actual43715426316/1](results/R133-supplement-actual-selected-cut-shape-mean-and-component-bounds.md)成功锁：child0/9门/math.027363467s，SCI745fc480/workerc7c83418/manifest95541c2e。
-report048c84d5/conclusion5d74a0f2/process82b7c376；193真实幅度/base32 signed shape、全mean/连续repair均保，0旧math。
-未乘d的xi/xiφ/ζ/ζφ/mean/shape A0上界分别.241363696/.991176944/.601228813/2.456459299/.003278096/.597994429，直接供CS完整行费。
-J18 known上界1.030683e−11大于7.8125e−12，负剩余−2.494322e−12完整保；这不是实际γ下界。未知correction未评，更尖known value-map与真实低入口继续。
+[cut shape/mean消费](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)及[actual43715426316/1](results/R133-supplement-actual-selected-cut-shape-mean-and-component-bounds.md)成功锁：child0/9门，report048c84d5/conclusion5d74a0f2/process82b7c376；完整193/base32 signed shape、mean/repair与六CS数值保6ca0d0627f51535efbd5d45da14692f0464c7a9d同open及actual，0旧math。J18 known上界1.030683e−11>7.8125e−12和负余量完整保，非实际γ下界；W另付更尖known bound。
 
 [W已知有限cut与全Wiener逆角](results/R133-supplement-known-finite-cut-Wiener-angle-and-sharp-low-curvature-entry.md)现证明：同base32/连续Z96经h1/256与physicalσ1/4096完整逆角，known ||Cδ−Ĉ||Aσ≤13|δ|/200（δ非0严格）。全mean/无限reciprocal与逆角未截；不对unknown作复composition。
 新known vδ逐项付J4，故真实unknown η=v−vδ若H1≤63d/320=1.96875e−11则γA0<1e−9/128；这只是充分门，actual unknown仍未评。原J18 false科学字段保持，高h8193≤2^393000及same-state collar/真core存在仍须另付。
+
+[LT三带真实collar迹](results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md)现给Π96、97..288和>288三段的完整低入口：真实双侧一阶能量及comm给H1/2迹；参考带192使两finite→>288 leg精确为0，未知ΔA/Δd、中间带/mean保。fδ全degree288，true f=0才使F288=0，MA同态H8193仅用于无限尾插值；LT20/26保known源影响的middle及独立mean。须实际有限cut cL和截面两侧low/high body；Green只给左侧算子gain，不能越域或当实际correction。LT22/23另保近似态真实Fφ和speed mean；新数值门未评，core/匹配未成。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。

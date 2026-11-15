@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 LT：finite193／中间频带／无限尾的真实collar迹](results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md)：完整comm一阶能量给半阶迹；reference有限带使H288两低频leg精确消，仅无限尾消费MA同态高窗插值。保实际两侧body、cut/ordinary源、mean-speed与未知非线性差；给LT20/26充分门，未断言门已过或core已成。
+
 - [R133 AJ actual：保完整径向部分的角导与31项源界](results/R133-supplement-actual-retained-radial-angular-jets-and-complete-source-bounds.md)：public43718112378/1 child0/29门，7/10整项改善，完整pair<4.527719e14；density0 RQJg降至<6.262692e9。3local与所有未声明项原样保留；50pins/14AST，0旧math/径积分，非完整high逆或strong-return。
 
 - [R133 RV：准确径向抵消与负cover local预算](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)：L1在取模前取消ℬ′b0e1，L2改用物理b1径/角导与完整rank；旧有限Taylor和径权只读，strict-positive-addend lower与新h-tail给合法整项复用，仅local1/2可改；新scalar待，非完整high逆。
