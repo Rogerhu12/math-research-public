@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮逐字前页/运行/域/单位/恢复保366d34f6c1008f1db6186db7af354dceaa72c9f6本路径及H/log，递归bc3b/a408/385b及原档；未付义务和成功禁重不变。
+本轮逐字前页/运行/域/单位/恢复保ebf4bade858deb2bcf03f638291a167c5e5b206b本路径及H/log，递归a774/1d9b/7b77/cf5f及原档；全部未付义务和成功禁重不变。
 
 ## 1. 总验收与同一个对象
 
@@ -64,7 +64,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [PC43740173506/30](results/R133-supplement-actual-genuine-positive-Airy-cutoff-and-complete-strong-correction.md)b2acc64a成功锁；完整SCI/preGit/球/首失败保前档与proof。仅s0 H−4/3→oldcircle waist L2pair+两mean强修正约1.018228e33。trueAi/β/双χ曲率/finitehead/非零trialstable保；大upper非下界，非fullR0/incoming/完整Schur。
 
-[IN合同](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md)d4ac47aa/[actual](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)8d27fee5/43746008734/23成功锁；全pin/94球/各域及DR failed/lost逐字保148ac7ee614bdf839691285f6a1eea0d6ec8ddd6同open/H与原proof。六receiver/五inhom、根β n^-4/3、τ27、两χ/finite三行/mean/ordered S、density0 H−1/1 L2/extra H−5/3均保；P22≠.005。DR四ΓwΓp成功锁而wholeK符号门失败、不推点态错，lost高导不重。RR已接physical；incoming/CE/R0仍待。
+[IN实际完整receiver](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)8d27fee5/43746008734/23锁，合同d4ac47aa/94球和DR失败lost保前页/proof。六receiver/五inhom、根βn^-4/3/τ27、双χ/finite/mean/ordered S与density H−1/L2/extra H−5/3保；P22≠.005。RR已接physical，incoming/CE/R0待。
 
 [RR合同](results/R133-supplement-root-mean-value-and-saved-product-Darboux-recovery.md)78b2fe43及[实际严格physical](results/R133-supplement-actual-root-mean-value-and-complete-strict-Darboux-recovery.md)13495f11/43750683671/1 child0/28锁，SCI8bb7e296/preGit282bb569/82球root核。samebody3070真q间隔、四旧w/p原读+两joint g、四physical/同case总约7.77784045405e18完成；完整δ1e−8/H−4/3/两column/两sign/两mean/CI/ng/P⊥保。原全部球/单位/域/失败/身份逐字保b2476f27同open/H/proof，旧成功及lost高导不重；未授incoming/CE/R0。
 
@@ -109,7 +109,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 这些actual inner/mean/phase行仍须与负body、waist、两Γ、ν、flux及完整97/mean Schur同单位联立。真实HY、high inverse、完整core存在及γ低高域未同时闭合；局部帽图不授增广全逆。
 
-[CP完整帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2及[实际有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7：43741463694/1 child0/18+5+两case各3strict成功锁。full/tailγ对应κ.0019952502133/.00196507842537、det.24612876846/.25397668235；同域三窗四列/两mean，νvolume非全ν。全部球/原参数/mean/Hessian/外端/wR/正算法与首失败43740644806保7794d473同open/H/proof；只inner差，wholebody/high/γ入口独立，成功禁重。
+[CPA实际帽有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7/43741463694/18成功锁；合同578ac4a2、两case strict/完整球/参数/mean/Hessian/外端/wR/原失败43740644806保前页/proof。full/tailγ同域三窗四列/两mean，νvolume非全ν；只inner差，wholebody/high/γ入口独立。
 
 [AR一次积分与高度源](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58已解析核：Ef在真实A0凸球上L2-Lipschitz≤κ，NF的N∂+ΔB合成一次κ；准确chart保R_B、P⊥R_C及μ²/[m²(m+μ)]。固定sB两normalized height原球的完整97源<2^-60，不授实际f(γ)导数；RW四字段给完整非零affine。same-state真实入口仍待，不能从C0免费composition。
 
@@ -127,7 +127,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
 
-[SC首schema失败](results/R133-supplement-actual-signed-cap-input-schema-failure-and-preserved-evidence.md)62bdfc64与[第二首行构造器失败](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)f98d1f32全运行/pins/lost/保存/五legacy绑定逐字保7794d473同open/H/proof。SC2 43753164994/1 child1/6门过，SCI635bf74b/exec5fe9d943/preGit2e549cfe+16eaea43已核；首row部分新算术未保存，完整row/group/model0，旧数学0。SC3只helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23小pin451182B、9history/36archive、reader/worker/runtime/20门/全部math原字。唯一43754452928/1正在运行，完整实际affine待；不重取104306B大日志，成功禁止重复。
+SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1原step9健康，完整affine待；禁取104306B大log/禁重成功。
 
 ## 5. 新94链、真实B collar和实际body种子
 
@@ -135,7 +135,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [NCBD actual43733916510/16+12t1](results/R133-supplement-actual-nested-collar-localization-and-direct-first-angular-trace.md)5451c5f7锁：768组1536完整式，J96 N13/J288 N39，132球及预Git已核。same-state两侧H1/fullmean/true residual0/wholewideC0是前提；actual D1/Mδ2、full t1、双端FTC/P和degree32完整分带均保NC/BD原式。raw Euclidean pair H1无额外pair-sum/angle/density费，免MA插值不授MA独立高域。宽ρ1e−4原high不够，窄ρ2^-24<7.195363e−12仍缺low/shell；J288不删225..288。NG下面继续，右RC不授whole/H1。
 
-[NG一般领圈](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84及[actual43736004806/1](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)54711e89：child0/16，6144新几何/12288完整式，旧十二pair仅读；J96各ρ选a1/200,N23、J288 a1/1000,N76。原T/CS/CL/NCΓL/BDDS,DL直接读，完整五列/三读出整方案比较非entrymin，不用upper相除。science3730af35/process4dcc7142/reportcb826725、168球/预Git准确复原，全部参数/临时hash/原scope保81041a9e，成功禁重。
+[NG实际一般领圈](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)54711e89/43736004806/16成功锁，合同cc3add84。6144新几何/12288完整式、原十二pair仅读；原T/五列三读出整方案比较非entrymin，禁upper相除。全168球/原单位/参数/临时hash/SCI/preGit保前页/proof；实际trace目标仍在下文。
 
 最宽rho1e−4,J96的NC/BD源+conditionalhigh分别<1.011264285315598e−11和1.011264246551516e−11。以raw Euclidean pair低cut cL=||Π≤96(Q−Qδ)(.9)||L2、z=P(Q−Qδ)在完整outer I0的ZS/ZL，实际row的整有理放大给
 $||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z_S+10Z_L)$。
