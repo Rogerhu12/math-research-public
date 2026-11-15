@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：c720226f3a35ad121a5a88e3babe7b9037bd259b；2026-11-15 09:18:08 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:18:06 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
+- 最近已读规则提交：269476c9efec9d490b2002bf26b33d81c91f0bb5；2026-11-15 09:21:38 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:21:38 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
@@ -16,8 +16,8 @@
 ## 检查点与责任
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-r725.md)沿链保全部来源、预算、坏集与旧门；摘要不关闭旧问题。
-R1–363、365–560、562–653、655–700、701–711、713–724已登记；R364/R561/R654/R712与主目标仍开。入口results.md和notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；deep原同R全像/新R726；theta同q冻结负矩；literature原first-wild非实补偿；root R725全窗低极帽与中央carry。
+R1–363、365–560、562–653、655–700、701–711、713–725已登记；R364/R561/R654/R712与主目标仍开。入口results.md和notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；deep原同R全像/新R726；theta同q冻结负矩；literature原first-wild非实补偿；root全窗低极帽与中央carry。
 
 固定E17/E24/E2312 rank2为R294/398/469；完整Selmer桥2+corankSha≤2ordJ，需同一无限p族至少一条固定原J′非零。O4原δ^aεw的a≤1无穷p、O6 q_p=1无穷p按open继续。
 旧ray/13/19/M3/D*、19角/五z及primitive坏因子保；R659只添61/277。CRT含17²，mod289=(273,87)、迹170，禁换δ类。π0取E1的2δ-primary，π17=π24=−π0，λ=−barπ0^-1，β=−λ，κ=pλ²，Ωunit。ρ0=−σ^⊗6/84、half-quarter/18物理96/原pair均保。
@@ -44,7 +44,7 @@ R711/714第六Cartier的实际η/7κ5及低商保。R717 AH只pk、s+pk(k<s)需�
 R718/720：原U(α6w)=U^N Rα exp(tαw^s)，tα=−[w^s]logRα完整保q_pα；一般Nmodp²不可删。固定α±=1±6ω、Norm31/43给5/7次F±，乘积φ6−ω²xψ6²。box计数得坏p O(X^0.9/logX)、共同六次群阶>X^1.2/12。
 R721：h_p=(x²/y)Σ_{j<s}a_j(b/y²)^j，a1=−3/5、a_j=(6j−3)/(6j−1)a_(j−1)全unit；H−h_p=O(z^p)。Zhat=Z+cp^-1h_p^p保DZ=1及全q窗，准确且同类最小极帽M_pD2，M_p=p(2s−1)；3M_p个单零和真实留数保。
 R723：原AH已知行补CM共振；pk共振iff e_CM|(k−s)，s+pk iff e_CM|k。密度一e_CM≥s使每个未知行有unit分母，固定division与原X第一位唯一重建全U modw^L和首Cartier。X全窗从xZhat²读；通用AH高精度仍保。尚需同原解到R710carry/R708前缀；CM不免费回旧WD。
-root正在R725：原ξ=b/y²插值可直接压完整A_m整窗，另共同sigma²模型；新模型在Zhat其它零点不继承旧sigma零，必须重算留数及极帽。尚未登记结论。
+R725已付：共同S2=(x²/y²)P2(ξ)帽2LD2，三原A_m帽mLD2；直接Q_m(ξ)、deg≤L匹配至z^(q+5)，帽2LD2独立m。直接Cartier输入二挠极全消，但Zhat其余单零要付h+1极及全部真留数；有限部帽Z0。实际分子N=Zhat·C(Θ)/ω帽M_pD2，N^p=−Zhat^p D^(p−1)(Zhat^(-h−1)Q_m)保全局正则项；全g_h=(D^hN(O)/h!)^p。未付中央到前缀。
 R663原同Y闭盘iff Q|B；真实X仍须j0、高Q^(d−m)及真下降。
 
 ## 原第一wild与非实补偿

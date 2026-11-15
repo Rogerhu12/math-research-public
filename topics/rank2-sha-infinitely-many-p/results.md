@@ -306,3 +306,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R716：原wild全局theta周期与精确中央L值](results/R716-original-wild-global-theta-period-and-exact-central-l-value.md)：原S34的完整arch Heisenberg位移h=((x+y)/3,51(x−y))与2/3/17原向量逐处固定，p处p²正交基及χ^-1本征给真实全局theta-null。hK1延拓η，真正twist的p角色为χ²、导子p²/阶p、根号+1；Yang良好向量因子与p+1轨道范数给L(ψ17·tildeη,1)/Ω_R=48940416|S_p(r)|²/p。原边界零iff该实际L值零；原j0到此零及变化p第一wild层非零仍均未付，固定tower定理不替代。
 
 - [R718：原CM分布与唯一Gaussian共振](results/R718-original-cm-distribution-and-unique-gaussian-resonance.md)：选择实际α≡1 mod6、αmodp生成Fp²×，Normα≤27p²，原σ(αz)/σ(z)^N是完整p整CM division polynomial。原U满足U(α6w)=U^N Rα exp(c(N−α^(p+1))w^s)，有限指数全整；tbar=c_p N0 q_p(α)，Nmodp²的Frobenius幂保。高度二窗只有n=s共振，原logU_s=0唯一补齐，故实际CM输入唯一恢复R717全部二位族和原首Cartier行；p变次数/全局极帽与中央进位缺口保持。
+
+- [R725：原整窗的共同平方与低极帽直接返回](results/R725-original-window-common-square-and-low-pole-return.md)：原ξ单位插值给共同S2帽2LD2及完整A_m帽mLD2，直接Q_m帽2LD2独立m；全首Cartier不变，全部其它单零留数和全局正则项保。实际统一分子N帽M_pD2、p基公式唯一确定；未以极帽压缩代中央非零。

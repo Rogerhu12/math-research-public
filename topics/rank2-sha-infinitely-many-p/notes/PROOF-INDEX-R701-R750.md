@@ -64,3 +64,5 @@ R722截源§4.1：实际额外两坐标给公共t阶≥r+1的真原首核，故d
 R724后续[原Brandt二阶与同步匹配](2026-11-15-first-wild-brandt-second-moment-and-synchronized-pairs.md)：全incidence、norm-fibre对角、真实κ_p(a)及全Haar正均值均付；缺失紧方向不从固定CM基点免费平均。
 
 两斜门note §7：同q715/ζ的真实型5首差为t的≤31次，偶步P31精确提取冻结负一矩；完整S被杀且T外部相反值保留，来源非零不能替代负矩或原中央非零。
+
+- [R725：原整窗的共同平方与低极帽直接返回](../results/R725-original-window-common-square-and-low-pole-return.md)：原ξ单位插值给共同S2帽2LD2及完整A_m帽mLD2，直接Q_m帽2LD2独立m；全首Cartier不变，全部其它单零留数和全局正则项保。实际统一分子N帽M_pD2、p基公式唯一确定；未以极帽压缩代中央非零。
