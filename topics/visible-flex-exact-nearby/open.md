@@ -77,7 +77,7 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 [SP实际43731464771](results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md)95d3abfe/exec a3a02969：child0/20门/7AST，3071旧strict/3066prefix17parts仅读，2804新交格/5608正exp/2乘序/1156compact。fullδ未缩放T(q)h的I与两mean/√q真L2，正反norm<5.867924/173.871627；root或独立jump→waist<2038.396874、ordinaryroot-source<144.136426、normalizedcut↔waist<183.332710/7.670846。当前RJ31源完整贡献<7.651043e11，只是一个source列；strict L1/L2源、true ng/q、normalizer有序和全部mean/ordinary长度/跳无长度都已付。原H1流/group积分/源积分零重算；完整rootmixed/七port/真ray与KAM density/physical angle/有限border/边界选择和GH仍独立，不以给定waist Cauchy冒BVP。
 
 
-[PW完整正七port→mixedroot→waist](results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md)246c81ac：在原负一阶窗口按序组合，a_i=9 C_R(u_i+1_{i=s})。稳定s独立，B_F=root完整有限头/两mean另加；raw stable只输入时付9(17/16)，两rawjump转换、外端四input和原外端mean row全保。普通Fc/Fb若同一不交分区可选整两列Euclidean结合。根窗跳用C_R、严格跳用C_1且无√长度；C_O负普通源/C_2严格L2源各自原单位。旧8×7/18门与SP20门全只读，新scalar待公开执行；无实际正Airy源幅值、有限head/rootstable选择或强return结论。
+[PW完整正七port→mixedroot→waist](results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md)246c81ac：在原负一阶窗口按序组合，a_i=9 C_R(u_i+1_{i=s})。稳定s独立，B_F=root完整有限头/两mean另加；raw stable只输入时付9(17/16)，两rawjump转换、外端四input和原外端mean row全保。普通Fc/Fb若同一不交分区可选整两列Euclidean结合。根窗跳用C_R、严格跳用C_1且无√长度；C_O负普通源/C_2严格L2源各自原单位。旧8×7/18门与SP20门只读，SCI268e033e/worker9633be71/manifest8c3d9c45已部署待run；无实际正Airy源幅值、有限head/rootstable选择或强return结论。
 
 ## 4. 实际帽图与完整core接口
 
@@ -93,7 +93,7 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 [P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、[G真实B种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)、[F固定输入body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、[RG粗γ种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)已给同真X/H值图及首q transition高度jets/Hermite lift。全部awB/κmean/globalλ/三径ordinary源/broken第三第五jet、四态B迹、94步和精确指数逐字保00dfdc3c4b4fa92ca88705b490ac4b01f01a3686本路径本节；不删未付义务、不重成功数学。
 零宽真M帽/long不要求未知γ复宽；Γ1锁同负principal，Γ2随a94(γ)选后fixed-γ内冻结，seed差非仅collar。T0=2^1500000、3500/400/loss1734/bg1796保持；下节S同解exact body/far/holonomy，core/腰/ν及实际γ域仍独立。
 
-[NC嵌套局部化与直接高频H1迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)558f47f7给BN≤r^NB0+kΣr^jE、保完整selected低/shell/χ′源，再对真实p=zφ另检t1。Mδ2≤128M1+384E1、actualD1与B10全mean保留；固定h=1/(40N)和两χ80给完整五列，双端FTC因子1和最终P仅一次。此H1迹免8193插值，独立tail高域仍待；6rho×2J×N1..64新scalar已部署SCI57ca8b5b/worker954f9ae5/manifest191aec33，待真实run；未知low/shell/body没有因此被赋值。
+[NC嵌套局部化与直接高频H1迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)558f47f7给BN≤r^NB0+kΣr^jE、保完整selected低/shell/χ′源，再对真实p=zφ另检t1。Mδ2≤128M1+384E1、actualD1与B10全mean保留；固定h=1/(40N)和两χ80给完整五列，双端FTC因子1和最终P仅一次。此H1迹免8193插值，独立tail高域仍待；6rho×2J×N1..64新scalar已部署SCI57ca8b5b/worker954f9ae5/manifest191aec33，run43733916510/1已取完整小件待复核；未知low/shell/body没有因此被赋值。
 
 [BD微分后degree32完整分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)bb792252（BD2向量L∞/component A0已澄清）将base A1/B10/d0的全部低输入准确限到64shell；constant αD/DN(mean)在low→high准确消，t1仍用fullactual。ΔB10=b[8M0E1+4Δ(M1+E1)]+b/4[E2(2M0+Δ)+M2Δ]、完整ΔA1/Δdφ和全部mean保；新DS/DL/DH接NC的五列。6rho×2J×N1..64只新scalar待实际，整row按highbody列选，不称unknown总误差最优。
 

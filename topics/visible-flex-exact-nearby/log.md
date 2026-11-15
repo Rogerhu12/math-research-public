@@ -179,3 +179,9 @@ Green16:06:28 process7c062042/52701/780eb272全差亲读，future/product各5970
 根亲取final四件SCI466cdf59/25200/57ca8b5b、workerca62b72c/35594/954f9ae5、manifest62a7a788/14492/191aec33、flowbb1758b2/3794/69c4dbc4；全文SCI433行与worker559行、manifest9当前小pin/209382B/0history、完整flow均核。phase独核projection/nested/整row选择，newton独核inputs/coeff；SCI最后diff仅失败分支considered1536/evaluated2valid、768examined口径，全部公式不变。使用LC原成功compact/process/recovery与WC原小source、最终NC558f47f7/BDbb792252，绝不恢复4650旧native或重算旧源。新12个t1门独立于16结构门，失败只无行不冒逆；768全部NC/BD审计仅临时，12选行同N保全部五列，选择只η_N upper，非entrymin或总误差最优。
 
 320bit内部、输出仅outward Arb24至16位格式，global Pnorm≥pc且一次；SCI≤45000B/report≤12000B/完整preGit≤59000B，先打印≤1000B实际状态。静态纯格式模型42447B及总payload<55KB，非科学计算。公开worker真pull/两READMEdiff/容量120KB预留/同成功复用/非FF循环全保，无data artifact。此commit仅部署，尚无actual新门/数值；下一亲取run/job/complete小结论。最新只读README294a9920485cd5e1f7e71d678c47ebbbb2465bc4双blob未变。
+
+### 2026-11-15 16:13:07 UTC — PW 新完整七port标量组合部署
+
+root全文SCI036dd32b/37395/268e033e（585行）、worker3caf7d0d/33474/9633be71（508行），manifest6ec4c65e/11522/8c3d9c45与flow7e6eda84/4232/7046effc均亲核；source PARAMETERS原JSON与manifest递归semantic exact，17个当前小pin共379017B/3个py只AST。newton三数学函数及worker三指定段独核通过。全7root+7waist新列、raw stable/4jump+dualcut/4exterior/可选jointvolume仅新320bit正标量；old8×7仅exact hash引用，3外端mean/负源jump/RJ全product原字copy，21新结构门。无旧graph/Riccati/Cauchy/strict/source重算，无旧native/archive恢复。worker保单一public child、临时native不发布、全结论预Gitstdout、两owned小文件/实际容量120KB预留、真pull双README和非FF立即rebase循环。此commit仅部署；唯一pushrun待取，未声称actual新列。
+
+同时已亲取NCBD唯一43733916510/1 jobs2818B/96d830d3：job132872203592 headb17528a1，16:09:58→16:10:37所有step success；完整science752b95c0/35707/83e06a28、process897b8bff/15995/3157ed35、report8f1c8d15/9765/b88b9e54已按原SHA取回，待root逐项结果审查后单条发表。成功冻结不rerun。tail完成PF16–29指定核并亲读原S全文：actual密度、g1hat、mean/seam依据一致，补记独核。最新只读README4e37d89018adb35004b0267aac847ff741dd6d3f未变。

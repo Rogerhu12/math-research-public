@@ -1,0 +1,231 @@
+{
+  "kind": "complete_positive_seven_ports_to_waist_density_CI_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_ports_to_waist_density.py",
+  "scientific_source_sha256": "268e033e3973ba60eb01b6b45842221f5d480cbe584de541731a4e34e5632e3c",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md",
+  "contract_sha256": "246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562",
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_nu_family": "nu_delta=nu0+delta",
+    "physical_frequency_factor": 4,
+    "high_index_minimum": 97,
+    "physical_frequency_minimum": 388,
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "exact_negative_root_radius": "1/200",
+    "exact_negative_strict_interval": [
+      "0",
+      "2333968743003/10000000000000"
+    ],
+    "positive_source_window": "L2_r H_phi^(-2/3)",
+    "positive_raw_state_window": "L2_r H_phi^(-1)",
+    "root_trace_window": [
+      "H_phi^(-2/3)",
+      "H_phi^(-1)"
+    ],
+    "negative_root_ordinary_windows": [
+      "L2_r H_phi^(-2/3)",
+      "L2_r constants"
+    ],
+    "strict_ordinary_window": "L1_r (H_phi^(-1) pair), alternatively L2_r",
+    "waist_output": "L2 old-circle density pair plus both full mean coordinates",
+    "positive_input_order": [
+      "root_stable_Y_port",
+      "collar_ordinary_Hminus2over3_source",
+      "body_ordinary_Hminus2over3_source",
+      "body_outer_mean_head_and_Y_weighted_jumps",
+      "collar_Y_weighted_affine_jumps",
+      "cut_stable_Y_jump",
+      "cut_unstable_Y_jump"
+    ],
+    "root_output_factor": "9",
+    "optional_raw_stable_input_factor": "153/16",
+    "complete_mean_coordinates": 2,
+    "ordinary_radial_measure": "dr",
+    "angular_measure": "normalized original physical moving circle",
+    "positive_graph_run": "43627228225/1",
+    "primitive_mean_strict_run": "43731464771/1",
+    "positive_existing_gate_count": 18,
+    "strict_existing_gate_count": 20,
+    "new_seven_port_rows": 2,
+    "new_raw_jump_columns": 4,
+    "new_combined_cut_jump_column": 1,
+    "new_exterior_columns": 4,
+    "new_positive_volume_joint_column": 1,
+    "copied_exterior_mean_columns": 3,
+    "copied_original_positive_matrix_rows": 8,
+    "old_graph_Riccati_target_coefficients_or_kernels_recomputed": false,
+    "old_Cauchy_normalizer_or_strict_products_recomputed": false,
+    "old_genuine_source_product_recomputed": false,
+    "finite_root_head_and_both_means_are_independent": true,
+    "true_positive_trial_source_and_jump_norms_supplied": false,
+    "complete_strong_return_or_high_BVP_claimed": false
+  },
+  "expected_actual_gate_count": 21,
+  "input_paths": {
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_ports_to_waist_density.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md",
+    "positive_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-full-delta-negative-one-positive-source-and-regular-ports.md",
+    "positive_actual": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md",
+    "positive_summary": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json",
+    "positive_process": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json",
+    "positive_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+    "positive_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta-negative-one-positive-CI-inputs.json",
+    "strict_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+    "strict_actual": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+    "strict_execution": "topics/visible-flex-exact-nearby/notes/primitive_mean_strict_propagation_ci/run-43731464771-1/execution.json",
+    "strict_result": "topics/visible-flex-exact-nearby/notes/primitive_mean_strict_propagation_ci/run-43731464771-1/actual-result.md",
+    "strict_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+    "strict_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-primitive-mean-strict-propagation-CI-inputs.json",
+    "cut_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md",
+    "root_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  },
+  "current_text_input_roles": [
+    "scientific_source",
+    "contract",
+    "positive_contract",
+    "positive_actual",
+    "positive_summary",
+    "positive_process",
+    "positive_source",
+    "positive_manifest",
+    "strict_contract",
+    "strict_actual",
+    "strict_execution",
+    "strict_result",
+    "strict_source",
+    "strict_manifest",
+    "cut_contract",
+    "root_contract",
+    "reviewed_rules"
+  ],
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "original_successful_science_recomputed": false,
+  "temporary_native_output_is_published": false,
+  "scientific_runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arithmetic_bits": 320
+  },
+  "original_complete_positive_given_head_graph": {
+    "run": "43627228225/1",
+    "gates": 18,
+    "source_sha256": "16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509",
+    "summary_sha256": "0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef",
+    "full_matrix_rows": 8,
+    "full_input_columns": 7,
+    "original_native_is_not_read": true
+  },
+  "original_complete_primitive_mean_strict_propagation": {
+    "run": "43731464771/1",
+    "gates": 20,
+    "source_sha256": "9d6ef721338e47e2cae8d179ce84976881df91762050d2a77d83b5399f6ba69a",
+    "execution_sha256": "a3a02969178e5e8b3b040fafd51d08b25d75b3f3922f2ae2e9ee0d4a8ab18a12",
+    "current_complete_RJ_source_product_is_copied_verbatim": true
+  },
+  "scope": {
+    "old_positive_full_response_and_three_mean_outputs_retained": true,
+    "stable_root_and_finite_head_and_two_means_are_independent": true,
+    "ordinary_source_and_jump_factors_distinct": true,
+    "raw_Hminus1_not_promoted_to_raw_L2": true,
+    "complete_return_or_high_BVP_not_claimed": true
+  },
+  "file_count": 17,
+  "total_pinned_input_bytes": 379017,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta-negative-one-positive-CI-inputs.json",
+      "bytes": 7143,
+      "sha256": "4c4f8456ff244599e1d3216b10406e8973888e7117ca71710a1cde6e0b0e32d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-primitive-mean-strict-propagation-CI-inputs.json",
+      "bytes": 21754,
+      "sha256": "c77e969bd02ef95d30f16b53ae0a0d3854f596412151e9242ffa0485bd142210"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json",
+      "bytes": 41797,
+      "sha256": "0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json",
+      "bytes": 16380,
+      "sha256": "f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/primitive_mean_strict_propagation_ci/run-43731464771-1/actual-result.md",
+      "bytes": 13189,
+      "sha256": "6a1df053edd9e4ecfff26ea91e9f0a01b37b5d51aefd828cc1c99b83448a9367"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/primitive_mean_strict_propagation_ci/run-43731464771-1/execution.json",
+      "bytes": 35259,
+      "sha256": "a3a02969178e5e8b3b040fafd51d08b25d75b3f3922f2ae2e9ee0d4a8ab18a12"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+      "bytes": 24781,
+      "sha256": "95d3abfe8f05a14e15f1570f85b379a06120700c157549e9d1f507ade2ee58aa"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md",
+      "bytes": 10464,
+      "sha256": "e144ad9f8cd7dbc29904f92524e9da9511f4bb8d403e06620d8ad85f3105742c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md",
+      "bytes": 35230,
+      "sha256": "f8268dc8c299fdb5813034efcd259f27d660faba0b9324cfd3865f878c8fcbe7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md",
+      "bytes": 13892,
+      "sha256": "4d44bbe7082d4ee967ebf9d02284b3510624624ab98adb087b8d0499eb030376"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+      "bytes": 20730,
+      "sha256": "ae01c213b63ae618e4657b5966604e7fbec4acb4763ea4b8aae848e1a40a40b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-delta-negative-one-positive-source-and-regular-ports.md",
+      "bytes": 15756,
+      "sha256": "0f1383da8611aef931829876b49579f41c7a967435c795ef68a85d2a142cac23"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md",
+      "bytes": 16459,
+      "sha256": "246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+      "bytes": 22029,
+      "sha256": "16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_ports_to_waist_density.py",
+      "bytes": 37395,
+      "sha256": "268e033e3973ba60eb01b6b45842221f5d480cbe584de541731a4e34e5632e3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+      "bytes": 44298,
+      "sha256": "9d6ef721338e47e2cae8d179ce84976881df91762050d2a77d83b5399f6ba69a"
+    }
+  ]
+}
