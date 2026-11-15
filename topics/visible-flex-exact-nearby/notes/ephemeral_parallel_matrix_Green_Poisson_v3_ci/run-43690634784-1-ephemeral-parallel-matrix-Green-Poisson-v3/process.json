@@ -8,7 +8,64 @@
   "workflow_commit": "8e962541b9bb6f5fb44f3aa2e8a8975045ac7c3e",
   "worker_source_sha256": "c06a57582a06c76844cf82dc3dfb396c78904df4ef79941bb56f11fa6aee7cc6",
   "started_utc": "2026-11-15T07:38:19.350836+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_ephemeral_missing_future_past_true97_Poisson_and_same97_contraction",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+        "-u",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson_v3.py",
+        "--matrix-run",
+        "43654510038",
+        "--array-root",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-array-artifacts",
+        "--old-backward",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/exact-old-future-prefix/complete-directional-matrix-Green-backward.json.gz",
+        "--old-backward-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-directional-matrix-Green-backward-43672023585-1/process.json",
+        "--cap",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-same97-cap-posterior-cap-43671537267-1/native/complete-same97-cap-posterior.json.gz",
+        "--cap-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-same97-cap-posterior-cap-43671537267-1/process.json",
+        "--cap-arrays",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-same97-cap-posterior-cap-43671537267-1/matrices",
+        "--temp",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/ephemeral-mathematics",
+        "--out",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/ephemeral-complete-Green-Poisson-cap.json.gz",
+        "--bits",
+        "192",
+        "--matrix-data",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-complete-same-F-5970-finish-43654510038-1/native/complete5970-same-F-directional-matrix-data.json.gz",
+        "--matrix-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-complete-same-F-5970-finish-43654510038-1/process.json",
+        "--profile",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-complete-5970-projectors-43594139132-1/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-complete-5970-projectors-43594139132-1/process.json",
+        "--green",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-complete-cut-Green-complete-43601964129-1/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-complete-cut-Green-complete-43601964129-1/process.json",
+        "--kernel",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-finite193-L2-Green-kernel-43633074696-1/native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+        "--kernel-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-finite193-L2-Green-kernel-43633074696-1/process.json",
+        "--impulse",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-cached-interface-impulse-43649423561-1/native/complete-all5970-cached-interface-impulse-gains.json.gz",
+        "--impulse-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-cached-interface-impulse-43649423561-1/process.json",
+        "--reviewed-impulse-process",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/science/topics/visible-flex-exact-nearby/notes/finite193_cached_interface_impulse_ci/run-43649423561-1-all5970-cached-interface-impulse-gains/process.json",
+        "--boundary",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/original-public-inputs/visible-exact-cut-projector-prepared-43594139132-1/native/complete-true-weighted-boundaries.json.gz",
+        "--nominal-cut",
+        "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
+      ],
+      "started_utc": "2026-11-15T07:43:11.297859+00:00",
+      "actual_returncode": null
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T07:39:00.515600+00:00",
@@ -33,6 +90,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T07:53:12.760754+00:00",
+      "before": "6705862ef6def104ac9e10d2601771a0fd931d75",
+      "after": "e515e35b5978d6a26babeceb8d0877728b6e3655",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -40,6 +105,11 @@
       "time": "2026-11-15T07:39:25.016560+00:00",
       "final": false,
       "commit": "7c97bf5d91615183dba587a2d8cd643d8aa631b0"
+    },
+    {
+      "time": "2026-11-15T07:43:11.295356+00:00",
+      "final": false,
+      "commit": "dae8caf396a57d30de2ccbc908e35f625f87be00"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -150,7 +220,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6705862ef6def104ac9e10d2601771a0fd931d75",
+  "last_read_commit": "e515e35b5978d6a26babeceb8d0877728b6e3655",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -206,9 +276,74 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T07:43:09.885547+00:00",
-  "wall_seconds": 290.53535555599996,
-  "actual_temporary_progress": {},
+  "snapshot_utc": "2026-11-15T07:53:12.835896+00:00",
+  "wall_seconds": 893.485710556,
+  "actual_temporary_progress": {
+    "combined": {
+      "stage": "combined",
+      "actual_utc": "2026-11-15T07:52:57Z",
+      "streams": {
+        "future": 2048,
+        "past": 112,
+        "product": 192
+      },
+      "complete_groups": 0,
+      "queued_groups": 0,
+      "consumer_processes": 1,
+      "done": false,
+      "original_temporary_receipt_sha256": "1dd30d0cb1aa0815145e588010140e5fece9422dd7f897fe5f9c87867b0b5f44"
+    },
+    "future": {
+      "stage": "future",
+      "actual_utc": "2026-11-15T07:52:49Z",
+      "completed_rows": 2048,
+      "reused_rows": 1886,
+      "new_rows": 162,
+      "done": false,
+      "seconds": 505.04673108099996,
+      "original_temporary_receipt_sha256": "36c6d359754d3e4275018cd3741eec4a2184b56c982ce9bea6934bff1959da15"
+    },
+    "past": {
+      "stage": "past",
+      "actual_utc": "2026-11-15T07:52:23Z",
+      "completed_rows": 112,
+      "done": false,
+      "seconds": 478.41527868899993,
+      "original_temporary_receipt_sha256": "ba1b03c2fca037d53607acb515431b73c9d2e8735e76a7b1db8262e6634eef4e"
+    },
+    "preflight": {
+      "stage": "preflight",
+      "actual_utc": "2026-11-15T07:44:24Z",
+      "completed_rows": 32,
+      "done": true,
+      "seconds": 63.22127756599991,
+      "diagnostic_exponents": {
+        "local_complete_rounding_log2_upper": -108,
+        "old_scalar_error_diagnostic_log2_upper": -103,
+        "selected_product_norm_log2_upper": 0,
+        "signed_error_norm_log2_upper": -103,
+        "single_true_Di_norm_log2_upper": 0
+      },
+      "extreme_positive_weight_tests": 2,
+      "original_temporary_receipt_sha256": "530f212e068f78d8bc9a6bf69b492a7cc9938321f3a785756c2b68141832858a"
+    },
+    "product": {
+      "stage": "product",
+      "actual_utc": "2026-11-15T07:52:34Z",
+      "completed_rows": 192,
+      "done": false,
+      "seconds": 489.7782244639999,
+      "diagnostic_exponents": {
+        "local_complete_rounding_log2_upper": -110,
+        "old_scalar_error_diagnostic_log2_upper": 53,
+        "selected_product_norm_log2_upper": -1,
+        "signed_error_norm_log2_upper": -102,
+        "single_true_Di_norm_log2_upper": 2
+      },
+      "reused_same_run_preflight_rows": 32,
+      "original_temporary_receipt_sha256": "380794186763bf27edfa58a19c8c9fe5f59dbf65651573e190cb23e6830cdf2b"
+    }
+  },
   "required_original_array_artifacts": 34,
   "required_original_array_files": 13856,
   "all_original_array_files_verified": 13856,
