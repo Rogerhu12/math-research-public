@@ -16,9 +16,9 @@
 
 | 文件 | B | SHA256 |
 |---|---:|---|
-| computations/root_20261115_existing163_157_compact_semantic_readback.py | 47276 | `445e9ae62df413149d8ba8280eec5ee7b27f77eeee331811479c4912d648850a` |
-| computations/public-existing163-157-compact-semantic-request.json | 14202 | `880dbf85d80ded1e8661f3553df2dcfb66e1f9c6f5f7f81966eac72f5053d5cb` |
-| .github/workflows/visible-larger-public-existing163-157-compact-semantic-readback.yml（仓库根） | 18157 | `604343c541e9208c97ae5e4606c6be110de4529b1a85bfda0494534cf690a949` |
+| computations/root_20261115_existing163_157_compact_semantic_readback.py | 48367 | `5610208579582ced4ab9f27d5466195bdfae081ed451cfb66cf7899f9d33d379` |
+| computations/public-existing163-157-compact-semantic-request.json | 14702 | `dcd09ad515645c4f90dae169e74243f86a9764f5ee3de00950177413d01741fe` |
+| .github/workflows/visible-larger-public-existing163-157-compact-semantic-readback.yml（仓库根） | 18157 | `37c2aed87212a0a41c4b2bf4f72e2a4b6b0b9d85909c2be66e8969a2ab5c5d6a` |
 
 原 `root_20261115_existing151_157_log_readback.py` 保77301 B / `ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250`。新源只导入这个经过hash核的**元数据工具**，复用原opaque numeric lexeme、官方网络、无凭据跳转、严格JSON和字节函数。没有导入任何科学源；实际来源报告明确这一元数据模块已导入，不沿用“源未导入”的错误文字。
 
@@ -91,7 +91,7 @@
 ```sh
 python -u computations/root_20261115_existing163_157_compact_semantic_readback.py \
   --request computations/public-existing163-157-compact-semantic-request.json \
-  --request-sha256 880dbf85d80ded1e8661f3553df2dcfb66e1f9c6f5f7f81966eac72f5053d5cb \
+  --request-sha256 dcd09ad515645c4f90dae169e74243f86a9764f5ee3de00950177413d01741fe \
   --out "$RUNNER_TEMP/visible-existing163157-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
 ```
 
@@ -106,3 +106,9 @@ Python3.12.14，仅stdlib和冻结元数据helper；没有numpy/scipy/Flint/publ
 这套交付在终端不可用时以小文本构造、逐字段检查、JSON解析、字节/SHA核对和完整source责任完成；未声称本地Python AST、YAML执行、网络SDK运行或数值fixture通过。旧163和157科学字节不改。主控唯一发布和实际调度。
 
 实际167完成后，先读取小index与五份packet，按原字节恢复必要数组，再完成R350对原157科学机制的新增读数。这里尚未获得157原FD误差、terminal gradient/H或真实内部异常的新增值，不提前写“驻点”“秩亏”或“已证精度”。R351伴随helper和新C²零jet控制作为另一个来源明确的后继；本日志读回不是它的新增科学接受门。
+
+## 8. 首跑真实读取层失败及本版最小修复
+
+首跑run43735131654/source e5dd9ff898b62a85b9f3d98fdc98db4f91201e0d，read job132875931222在最终index编码处failure。官方已一次下载163语义日志8265333 B / caa25be9f57c9d69e3ab8e1764d4ef4431eacbfd40726953df76803dcdafb160；原157科学未执行。实际compute日志29026 B / d10df854ab0becb8b29fcf006b2c8fac13e76b73a43d6c1a45b020e4da92fd9c显示 frozen encoder 拒绝 Non-string JSON metadata key，指向新 summary.selection_scope.internal_coverage 的整数outer键。原完整报告没有输出，不能据此认定FD/矩阵已由root读到。
+
+本版只把该输出字典的outer键明确转成字符串，另在最后metadata编码异常时保具体原错误、完整traceback和已有输入/清理身份为小failure index。所有原字段选择、必需matrix shape、预算、协议和科学来源不变；下一个实际元数据run仍只读同一已成功163日志一次，不重157科学。没有把先前缺失summary伪造恢复。

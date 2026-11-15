@@ -515,7 +515,7 @@ class Selector:
         self.add("all-unselected-top-field-identities",self.top_identities,None)
         return dict(original_fd_check_counts=self.fd_counts,
             all_original_physical_trials=84,all_original_outer_models=8,
-            internal_coverage=self.coverage,
+            internal_coverage={str(i):row for i,row in self.coverage.items()},
             full_intermediate_internal_or_perturbation_tables_independently_numerically_read=False,
             all_selected_values_are_original_words=True)
 
@@ -781,7 +781,24 @@ def main(argv=None):
         summary["owned_cleanup"]=cleanup
         summary["elapsed_wall_seconds"]=format(time.monotonic()-started,".9f")
         summary["stage"]=stage
-    raw=M.canonical(summary)
+    try:
+        raw=M.canonical(summary)
+    except Exception as error:
+        # A metadata serializer failure must still have a small truthful
+        # report. Do not reinterpret any original scientific result.
+        summary=dict(schema=SCHEMA,request_number=167,complete=False,exit_code=70,
+            run_id=os.environ.get("GITHUB_RUN_ID"),source_commit=os.environ.get("GITHUB_SHA"),
+            failed_stage="encode final metadata index",
+            exception=M.redact_transport_text(repr(error),token),
+            complete_traceback=M.redact_transport_text(traceback.format_exc(),token),
+            earlier_readback_exception=summary.get("exception"),
+            earlier_failed_stage=summary.get("failed_stage"),
+            earlier_complete_traceback=summary.get("complete_traceback"),
+            original_log=summary.get("original_log"),owned_cleanup=cleanup,
+            completed_metadata_checks=checks.count,
+            selected_packet_identities=[M.identity(x) for x in packets],
+            scientific_failure_not_inferred=True)
+        raw=M.canonical(summary)
     total=len(raw)+sum(len(x) for x in packets)
     if len(raw)>INDEX_LIMIT or total>TOTAL_LIMIT:
         # Preserve the actual error object in the compute log in lossless

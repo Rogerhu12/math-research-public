@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:22:32 UTC 已读 0616eca1683798baf39433354d04bf639c1d82a3，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:27:25 UTC 已读 70be7e0977d3cfaa8c155ad60db57f7d9e6514dc，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推，未确认临时件不当已保存。
 
@@ -29,7 +29,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：43731669039/132865254053/source de638f2a。原37model α1/8接受，W43.363003729098274→43.33605694766103，新warm FD8.81884772255149e−10过；native/fullDN仍false。R334输入绑定错误，0/75776及全17未付，非预算/原模型拒。8完整文档/138成员/1961B error核；166按station/显式返回身份配对，实际总calls未导出不猜74。
 
-163实际43732715988/source4e1decc7三个job成功；[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151读回。157大semantic工具未返正文，不冒FD/J/H已读。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件已发：只读原163/read157一次，必需完整矩阵结构、162FD/84trial及全部错误保，精确字节相等数组共用引用；5×76000B+18000B索引、总≤400000，6小report，无科学重算。amplitude核actual/R350。
+163实际43732715988/source4e1decc7三个job成功；[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151读回。157大semantic工具未返正文，不冒FD/J/H已读。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件已发：只读原163/read157一次，必需完整矩阵结构、162FD/84trial及全部错误保，精确字节相等数组共用引用；5×76000B+18000B索引、总≤400000，6小report，无科学重算。首跑43735131654/132875931222已下载原163日志，最终index整数键编码失败，未读FD/J/H；仅键转str及编码异常保全，source56102085/requestdcd09ad5重发，amplitude核下一actual/R350。
 
 ## 完整native路径：145、155、160、161
 

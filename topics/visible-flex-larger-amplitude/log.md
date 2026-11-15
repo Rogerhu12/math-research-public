@@ -101,3 +101,7 @@
 ## 2026-11-15 16:22:32 UTC /root — request167必要原矩阵与完整真实试探小读回
 
 [167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件全文/末稿完整差异核后即发：source445e9ae6/request880dbf85，修必需矩阵软选可漏字段的读回complete含义；原FD/8outer/84trial与GN真实分支保，仅字节去重，无科学算术。166已43734326402/132873459541，前6步过；153真实far m18 work-unit止/native未起，geometry核R342，162继续。API核0616eca1683798baf39433354d04bf639c1d82a3双README未变，真实pull行保留。
+
+## 2026-11-15 16:27:25 UTC /root — 167实际编码错误最小修复
+
+首跑43735131654/read132875931222真实失败，原163日志8265333B/caa25be9完整下载，最后index整数键编码拒；不填FD/J/H科学值。四件完整8918B差异读后发source56102085/requestdcd09ad5，仅字符串键和原错误小index；amplitude接下一actual。API核70be7e0977d3cfaa8c155ad60db57f7d9e6514dc双README未变，真实pull行保留。

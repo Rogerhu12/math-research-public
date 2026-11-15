@@ -109,3 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 交付多个各<5MB网格时也遵守根15：仅保可重现生成源码/配方、run/SHA和紧凑结论，不新增可重算raw制品。明确数值证据与严格存在证明之间尚余什么，再继续加强几何比例。只有README全部完成标准真正满足才收尾。
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
+
+### 167实际编码失败及最小修复
+
+首跑43735131654/source e5dd9ff8/read132875931222只读原163语义日志一次，8265333B/caa25be9f57c9d69e3ab8e1764d4ef4431eacbfd40726953df76803dcdafb160；最终metadata index的internal_coverage整数outer键被原encoder拒，compute29026B/d10df854ab0becb8b29fcf006b2c8fac13e76b73a43d6c1a45b020e4da92fd9c，尚未付原157 FD/J/H逐值读回。四件最小修改只将输出键转str并保最终编码完整异常为小failure index，原选定字段、shape、预算和科学源不改；新source56102085/requestdcd09ad5，下一actual由amplitude唯一读。

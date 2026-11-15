@@ -4,8 +4,8 @@
   "repository": "Rogerhu12/math-research-public",
   "reader": {
     "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing163_157_compact_semantic_readback.py",
-    "bytes": 47276,
-    "sha256": "445e9ae62df413149d8ba8280eec5ee7b27f77eeee331811479c4912d648850a"
+    "bytes": 48367,
+    "sha256": "5610208579582ced4ab9f27d5466195bdfae081ed451cfb66cf7899f9d33d379"
   },
   "helper": {
     "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py",
@@ -399,5 +399,14 @@
     "results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md",
     "results/R349-actual163-original151-complete-log-reconstruction.md"
   ],
-  "future_actual_run_id": null
+  "future_actual_run_id": null,
+  "metadata_engineering_revision": {
+    "original_readback_run_id": 43735131654,
+    "original_read_job_id": 132875931222,
+    "source_commit": "e5dd9ff898b62a85b9f3d98fdc98db4f91201e0d",
+    "actual_failure": "Non-string JSON metadata key in internal_coverage final index",
+    "original_log_downloaded_once_and_owned_file_retired": true,
+    "fix": "String outer indices in output metadata; truthful final-encoding exception index",
+    "scientific_sources_or_selected_fields_changed": false
+  }
 }
