@@ -38,9 +38,9 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 ## 临时数学会话与恢复
 
 - **旧session43679903558于09:57已结束，旧临时数组均丢。** 32层日志报末四指数17、18、18、21/总243，但summary累积pulls超100KB未推；按用户规则重做后才发表。全部中断SHA/旧恢复链见[最小恢复计划](notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md)和[本次H全文](notes/2026-11-15-handoff-after-unpublished-natural32-789f.md)。
-- 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。重建selected/profile/first缓存后实际复算未推32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
+- 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。已排selected-natural-u-minimal-rebuild32重建selected/profile/first缓存并实际复算未推32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
-- 零点K89正式稿已推。∞cubic单列仍k1；已排完整990三normal目标：先保2295高来源真核和低像两相位检查点，再加低1088，只用main五小回执及源码。新rank未执行前不填写。
+- 零点K89正式稿已推。∞cubic单列仍k1；完整990三normal任务已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。两相位检查点仍在新job，正式稿即续。
 - Dixon1085、p768、29精确曲线等大数组也随旧job丢失；存在性证明和源码/输入哈希仍在。只有实际后继需要时再最小重建，不为已闭维数盲续。
 
 ## 其余未闭

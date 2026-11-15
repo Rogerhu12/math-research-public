@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "1234b97ef949a864ca547b39c21c6d3521f04e16",
+  "rulesReadAtCommit": "9de9a767952f5810defb4f54120bb4e674ae9680",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -156,6 +156,71 @@
       ],
       "timeoutSeconds": 80,
       "receiptPath": "{work}/infinity-third-complete-cubic-normal-kernel-receipt.json"
+    },
+    {
+      "id": "selected-natural-u-minimal-rebuild32",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-minimal-rebuild-789f.py",
+      "scriptSHA256": "bb4a217827ff7a8ac8faf9c0f1b2c5255e302c3bcc66f644cd31a8f8f50312c6",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-first-connection-f31-789f.py",
+          "sha256": "45991f0744fe8b020170c77a6f99e4b6e3e9433a3f18ca4c0405cdd76132bab6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-schur-source-jets-runner-789f.py",
+          "sha256": "80f6815133250cf559f81afb557f138952f7268ce2d2b43e2c15bfb822775e67"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-schur-source-jets-789f.cpp",
+          "sha256": "40dc42b367d241fb7d1cf0c3dd9ef35d61ad0ce756a63559ca8110188b2206dd"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-selected-natural-u-schur-through16.json",
+          "sha256": "938d1796c73b780d3fdb379c83e21907381618dcd9e81c7b281b21c6e4a1484f"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{native_model}",
+        "--point-model",
+        "{selected_model}",
+        "--selected-receipt",
+        "{paid_dir}/selected-infinity-minor-dag-receipt.json",
+        "--kernel36",
+        "{bockstein_dir}/actual-original-kernel36.bin",
+        "--source-dag",
+        "{dixon_dir}/actual-selected-image-source-dag.bin.gz",
+        "--primitive-equations",
+        "{primitive}",
+        "--paid16-summary",
+        "{scripts}/43679903558-selected-natural-u-schur-through16.json",
+        "--first-runner",
+        "{scripts}/2026-11-15-r150-selected-natural-first-connection-f31-789f.py",
+        "--schur-runner",
+        "{scripts}/2026-11-15-r150-selected-natural-u-schur-source-jets-runner-789f.py",
+        "--repo-notes",
+        "{repo_dir}",
+        "--out",
+        "{work}/selected-natural-u-rebuilt",
+        "--maximum-degree",
+        "32",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512",
+        "--compile-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 140,
+      "receiptPath": "{work}/selected-natural-u-rebuilt/selected-natural-u-minimal-rebuild-receipt.json"
     }
   ]
 }
