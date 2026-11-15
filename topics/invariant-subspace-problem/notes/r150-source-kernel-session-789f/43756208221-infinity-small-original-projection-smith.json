@@ -1,0 +1,1005 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "infinity-small-original-projection-smith",
+  "executionSourceCommit": "b750085a6000e64b4ff38b4c479e2031a5da4659",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+  "scriptSHA256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--fifth-checkpoint-dir",
+    "{work}/infinity-fifth-true-incoming-checkpoint",
+    "--fifth-receipt",
+    "{scripts}/43740928483-infinity-fifth-true-shifted-incoming.json",
+    "--q13-receipt",
+    "{scripts}/43736746064-original-characteristic-zero-free13-projection.json",
+    "--field-full-receipt",
+    "{scripts}/43740928483-full-infinity-original-dual27-through32.json",
+    "--degree",
+    "11",
+    "--out",
+    "{work}/infinity-small-original-projection-smith",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 240,
+  "exitCode": 0,
+  "wallSeconds": 36.403656359000024,
+  "fullTemporaryReceiptBytes": 23915,
+  "fullTemporaryReceiptSHA256": "1f259ad6104ed9cf001d9605f6641feaa9ad45d2772e86521f629194b7813649",
+  "result": {
+    "arithmetic": "exact Q and F31 original finite jets",
+    "characteristicZeroProjectionFreeRank": 13,
+    "characteristicZeroProjectionLength": 61,
+    "elapsedSeconds": 36.270264473,
+    "format": "r150-infinity-small-original-projection-smith-v1",
+    "fullOriginalCharacteristicZeroSpectrumProved": false,
+    "outcome": "complete-characteristic-zero-original-projection-smith",
+    "scriptSHA256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79",
+    "status": "completed",
+    "parameters": {
+      "F31ProjectionSmith": {
+        "all27ActiveAndFreeHeadsIndependent": true,
+        "availableTaylorDegree": 11,
+        "complete": true,
+        "constantRank": 128,
+        "domain": "F31",
+        "freeRank": 13,
+        "headMatrixSHA256": "6ed40e4e09cb2dcbdd841c49a3535bc26dad5b3d893e01a7554806f0279c097f",
+        "knownGenericRank": 142,
+        "maxPositiveIndex": 10,
+        "positiveDirections": 14,
+        "positiveIndices": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          4,
+          4,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10
+        ],
+        "positiveLength": 61,
+        "remainingConstantHeads": 13,
+        "remainingPositiveIndicesAtLeast": 0,
+        "steps": [
+          {
+            "order": 0,
+            "rank": 0,
+            "remainingColumns": 27
+          },
+          {
+            "order": 1,
+            "rank": 4,
+            "remainingColumns": 23
+          },
+          {
+            "order": 1,
+            "rank": 0,
+            "remainingColumns": 23
+          },
+          {
+            "order": 2,
+            "rank": 0,
+            "remainingColumns": 23
+          },
+          {
+            "order": 3,
+            "rank": 1,
+            "remainingColumns": 22
+          },
+          {
+            "order": 3,
+            "rank": 0,
+            "remainingColumns": 22
+          },
+          {
+            "order": 4,
+            "rank": 3,
+            "remainingColumns": 19
+          },
+          {
+            "order": 4,
+            "rank": 0,
+            "remainingColumns": 19
+          },
+          {
+            "order": 5,
+            "rank": 1,
+            "remainingColumns": 18
+          },
+          {
+            "order": 5,
+            "rank": 0,
+            "remainingColumns": 18
+          },
+          {
+            "order": 6,
+            "rank": 2,
+            "remainingColumns": 16
+          },
+          {
+            "order": 6,
+            "rank": 0,
+            "remainingColumns": 16
+          },
+          {
+            "order": 7,
+            "rank": 1,
+            "remainingColumns": 15
+          },
+          {
+            "order": 7,
+            "rank": 0,
+            "remainingColumns": 15
+          },
+          {
+            "order": 8,
+            "rank": 1,
+            "remainingColumns": 14
+          },
+          {
+            "order": 8,
+            "rank": 0,
+            "remainingColumns": 14
+          },
+          {
+            "order": 9,
+            "rank": 0,
+            "remainingColumns": 14
+          },
+          {
+            "order": 10,
+            "rank": 1,
+            "remainingColumns": 13
+          }
+        ]
+      },
+      "QGenericProjectionRank142Verified": true,
+      "QProjectionSmith": {
+        "all27ActiveAndFreeHeadsIndependent": true,
+        "availableTaylorDegree": 11,
+        "complete": true,
+        "constantRank": 128,
+        "domain": "Q",
+        "freeRank": 13,
+        "headMatrixSHA256": "2f73186d9db0a7b7bf40fd891cbc66ae0efcd78b9a1bfea13d77ff7c9a7382fb",
+        "knownGenericRank": 142,
+        "maxPositiveIndex": 10,
+        "positiveDirections": 14,
+        "positiveIndices": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          4,
+          4,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10
+        ],
+        "positiveLength": 61,
+        "remainingConstantHeads": 13,
+        "remainingPositiveIndicesAtLeast": 0,
+        "steps": [
+          {
+            "order": 0,
+            "rank": 0,
+            "remainingColumns": 27
+          },
+          {
+            "order": 1,
+            "rank": 4,
+            "remainingColumns": 23
+          },
+          {
+            "order": 1,
+            "rank": 0,
+            "remainingColumns": 23
+          },
+          {
+            "order": 2,
+            "rank": 0,
+            "remainingColumns": 23
+          },
+          {
+            "order": 3,
+            "rank": 1,
+            "remainingColumns": 22
+          },
+          {
+            "order": 3,
+            "rank": 0,
+            "remainingColumns": 22
+          },
+          {
+            "order": 4,
+            "rank": 3,
+            "remainingColumns": 19
+          },
+          {
+            "order": 4,
+            "rank": 0,
+            "remainingColumns": 19
+          },
+          {
+            "order": 5,
+            "rank": 1,
+            "remainingColumns": 18
+          },
+          {
+            "order": 5,
+            "rank": 0,
+            "remainingColumns": 18
+          },
+          {
+            "order": 6,
+            "rank": 2,
+            "remainingColumns": 16
+          },
+          {
+            "order": 6,
+            "rank": 0,
+            "remainingColumns": 16
+          },
+          {
+            "order": 7,
+            "rank": 1,
+            "remainingColumns": 15
+          },
+          {
+            "order": 7,
+            "rank": 0,
+            "remainingColumns": 15
+          },
+          {
+            "order": 8,
+            "rank": 1,
+            "remainingColumns": 14
+          },
+          {
+            "order": 8,
+            "rank": 0,
+            "remainingColumns": 14
+          },
+          {
+            "order": 9,
+            "rank": 0,
+            "remainingColumns": 14
+          },
+          {
+            "order": 10,
+            "rank": 1,
+            "remainingColumns": 13
+          }
+        ]
+      },
+      "QProjectionSpectrumEqualsActualFieldProjection": true,
+      "QProjectionSpectrumEqualsPaidFullField": false,
+      "TaylorDegree": 11,
+      "actualFifthCanonicalSourcePackSHA256": "0a7912065c0b03edfa8b1b0aea086729ddcc2ebfbe8fc890e6e06671c0bb01b2",
+      "actualFifthCochainSHA256": "91416a4981ee7ec4331f9ab52aaa4dc01e4f8b84e16a11e48c407528b1a6f710",
+      "actualFifthPureAndOneNormalLeadingRank": 18,
+      "actualOriginalRowScalesModulo31": [
+        16,
+        14,
+        16,
+        8,
+        8,
+        8,
+        16,
+        8,
+        8,
+        4,
+        8,
+        2,
+        10,
+        8,
+        8,
+        1,
+        1
+      ],
+      "all17OriginalRowScalesActually31Units": true,
+      "allActualFifthCoefficientsRecheckedOnOriginal6188Sources": true,
+      "allActualProjectionCoefficients31Integral": true,
+      "allOriginal6188PositiveAndRemainingJetProductsZero": true,
+      "allPaidHigherNormalEntriesExactlyZero": true,
+      "allPaidPositiveOrderPureEntriesExactlyZero": true,
+      "allSourceNormalDegreesZeroThroughThreeRetained": true,
+      "characteristicZeroHigherQuotient26NotClaimed": true,
+      "fieldProjectionEqualsPaidFullSpectrum": false,
+      "finiteFreeJetsNotClaimedAsWholeRationalKernel": true,
+      "fullOriginalCharacteristicZeroLengthLowerBound": 61,
+      "fullOriginalCharacteristicZeroLengthUpperBound": 66,
+      "inputFiles": {
+        "field_full_receipt": {
+          "bytes": 43322,
+          "sha256": "14f396c3969ea90694d06e6f26fe75299bf2e678381b491ddb6cb78b93826815"
+        },
+        "fifth_receipt": {
+          "bytes": 22769,
+          "sha256": "17361fc2f385bbc1ffe8b843d185d0c3acd2998276579d08e5d76e8233eaf036"
+        },
+        "generator": {
+          "bytes": 15328,
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        "jet_actions": {
+          "bytes": 10050,
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        "q13_receipt": {
+          "bytes": 52012,
+          "sha256": "2057846f5adb75ed84f20a144f4cb2da436f9b1db5674612ac376f9b4b503248"
+        }
+      },
+      "largeDataUploadedOrCommitted": false,
+      "largeRecomputableDataPersisted": false,
+      "memoryMiB": 2048,
+      "newOriginalSourceProductCoordinates": 1342796,
+      "noHigherNormalSurjectivityAssumed": true,
+      "original155TargetCoordinatesRetained": true,
+      "originalProjection": {
+        "actualConstantRank": 128,
+        "actualF8Valuation": 2,
+        "actualRetainedEq8SourceIndicesWithinOneNormal": [
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485
+        ],
+        "all17WholePureGeometricPolynomialsVerified": true,
+        "all5100HigherNormalOriginalSourceRowsExactlyZero": true,
+        "all918ActualOriginalProjectedRowsVerified": true,
+        "allOriginalSourceRows": 6188,
+        "identicallyZeroProjectedHighSourceRows": 5100,
+        "oneNormalSourceRows": 918,
+        "originalCoefficientOrder": 11,
+        "originalPhysicalCoefficientHashes": {
+          "J2": "2250661950432dc24d2e6b92fea9a0c2986cfedbe30f921c6777db515236c3a4",
+          "J3": "a6248bb7a6910065a9e9a417536f16eceb12cb70ef9285f8cde346271448642b",
+          "L_y0": "6da7eb4a44ef66b6aed290eeefb6f82c790c15411fa17293e229a4fe68584022",
+          "L_y1": "ee08b7856541e5c9c33aed172f2e0820347fd05f91f20b03573840344f0a6f0b",
+          "L_y10": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+          "L_y11": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+          "L_y2": "0ea1a7a9ecf7d397dca643a56a7933635396566ff9691d3ab07a4e0d2eceb5d0",
+          "L_y3": "0d274f5890727334c1e7d5fd94322700ddabc765779fd916c2c6f7c2e56c0a0b",
+          "L_y4": "d4c1864acda6a996faecdec4a12073fa1e2af7c6bb9f40325394e8ebe4a579c9",
+          "L_y5": "530fa4c36041002f0b827fed34879d3b494f2cf1b8d7ac4b3e424ef544a9174d",
+          "L_y6": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+          "L_y7": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+          "L_y8": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+          "L_y9": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+          "P0": "09409c30bee7364d9b8596741cc7dfcbe0695dff48fdd65724cf0928dc358abd",
+          "P1": "ab984e0fc479c31d052ef8c4675f7b6f91a429f2916158007c9f69d0e76bf0de",
+          "P10": "c9a1590d4750f12179093ca7a474ac3fd7869cb992efe74b23ebba931ef8ed67",
+          "P11": "c68083a269d2d8407a78a40fea0f9dd18b79fc44daf6a26b317468f9d22a6dc5",
+          "P2": "06eb39dc2c16d6dd5760e405c602b2f60b0d2239383d6d2d01c2bd063317982b",
+          "P3": "04da249f1d140b1f28dbc52aea6638666056dbd7ba7a28050fab84478245ced8",
+          "P4": "9bfbbdf84ad15316a17c4866d5deb1e2ebca39194087f68c13e5fa14af055040",
+          "P5": "e59ea4444ce2ca2f9050de03c41d87dc9d19b536efa1c69cf4c646c9b8183751",
+          "P6": "8c98e7c88296c8f76be8c112edf108858f4bc4e4d1aa7787b4405b11645388f0",
+          "P7": "c551679a5fa8c65140c0ff72d34e6a7b811864fd8bb9cf157143913ed2dad79f",
+          "P8": "59319e6e64351203eb885e20061499cab781b68af62a996f0b04cf8094ceab54",
+          "P9": "c565d33cde8433c58b3ce7e6d323dd065a1af2eb3b84ca3f930c3c7c9e8a6a50"
+        },
+        "originalProjectionCoefficientSHA256": [
+          "6fb3277504881e755aa5ddce15550cd1ee723e28a924b804a4299e85376a456d",
+          "188d7a15b2b7f45862b0dd1dddf26687a5a7229d6215eca5657b049b02326f20",
+          "bda1f1fe76fda89cc79f5e01f1735dac781077ab11f1d637649dae4ba9a41fe5",
+          "1f3ee98d1cf6d281c7edecde1a2012e1d9e3cac431e00786b1d429e4489d0598",
+          "c4067385c0c5008a801b18aa558c02213316cefccbd8c61d5c3752241a8d7746",
+          "c3b1108ad962dc413af36e7d8262f82db6d80ca8d997673c0a65128db93f06c8",
+          "b57df868c83a2222e09a3be18a9945240465f238191272aea2948788eb79cca6",
+          "d41eebd9c3baca41d24635ab46dcc5898f4f30669722326d65d14c1b7b6fd191",
+          "ac4d8ea437c78bd2d41912ccc478c14c65bcf49aba779f8aa183b5ae43bcc9d6",
+          "28aa1540e45c465916758ecdb1e927ef6f394883bccb26c93a92b957fc4a45d0",
+          "ff335222056f69460bc3009b52cf7ffc334a312407139bf74d8a5bac4849ffc5",
+          "08bed140d3046722faaeaa292d864cc424af1625bca84e34f38d708f393c24a2"
+        ],
+        "projectionShape": [
+          224,
+          155
+        ],
+        "pureDenominatorUnitConstant": "-8",
+        "pureSourceRows": 170,
+        "regularOriginalRowOperationsRetainU2Factor": true,
+        "regularlyEliminatedActualRows": 864,
+        "retainedActualEq8Rows": 54,
+        "wholePureDenominatorCoefficients": [
+          "-8",
+          "128",
+          "-440",
+          "-2880",
+          "16576",
+          "-94976",
+          "150144",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wholePureNumeratorCoefficients": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-8",
+            "-48",
+            "24",
+            "160",
+            "96"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "80",
+            "480",
+            "-160",
+            "-1200",
+            "-1600",
+            "-960"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-328",
+            "-1904",
+            "392",
+            "1488",
+            "10264",
+            "10144",
+            "2400"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "720",
+            "3856",
+            "-416",
+            "9312",
+            "-34304",
+            "-34688",
+            "-30720",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-928",
+            "-4240",
+            "-32",
+            "-36448",
+            "69920",
+            "28672",
+            "150144",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "720",
+            "2352",
+            "768",
+            "56064",
+            "-93440",
+            "77056",
+            "-362496",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-328",
+            "-336",
+            "-1216",
+            "-44288",
+            "83152",
+            "-204224",
+            "481344",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "80",
+            "-272",
+            "992",
+            "17824",
+            "-47872",
+            "199552",
+            "-362496",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-8",
+            "128",
+            "-440",
+            "-2880",
+            "16576",
+            "-94976",
+            "150144",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-16",
+            "96",
+            "-80",
+            "-3008",
+            "21184",
+            "-30720",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-8",
+            "48",
+            "216",
+            "-1760",
+            "2400",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "paidFifthOriginalProductCoordinatesRechecked": 668304,
+      "paidGeneric13ProvidesUpperRank142": true,
+      "paidZeroEntriesActuallyTested": 68760,
+      "positiveOriginalLifts": [
+        {
+          "columns": 4,
+          "exponent": 1,
+          "originalHeadSHA256": "5ef215ae96b0cd69518fc2c2404a4a607c0c6179407a5fb75aa2832cf48b7847",
+          "originalLeadingProductSHA256": "b6fa8ddfce8f34338052a7160d2ac01156cd7a0cac0fdb486876e6864a56b2d7"
+        },
+        {
+          "columns": 1,
+          "exponent": 3,
+          "originalHeadSHA256": "a34ae38f7967360bd23f582dfe0f5e3c430a99052fe24adca41792a998618e66",
+          "originalLeadingProductSHA256": "6fa88ab69c41b0b5e28476eefc7ac54932f56ac9190c9045f2d6056004514e0f"
+        },
+        {
+          "columns": 3,
+          "exponent": 4,
+          "originalHeadSHA256": "79a9652ad47d60ad83bfba9704dcf2618c58b17328c68e8db0ce9952afe21d11",
+          "originalLeadingProductSHA256": "50f3b4da16d2ea97d0979dd96c65415f8e4f106e1f1993df708c1643832594d4"
+        },
+        {
+          "columns": 1,
+          "exponent": 5,
+          "originalHeadSHA256": "a58c3fc72deaf6901537e43565949cad420fcc356f6a7855f000b7f44bc6ad4f",
+          "originalLeadingProductSHA256": "4c362c2618ac1cc737a8854fbe5528affdb85e83925514d5656662f34a55296b"
+        },
+        {
+          "columns": 2,
+          "exponent": 6,
+          "originalHeadSHA256": "eacd64050bfd296a8b89979ea6e5fa7c2e259e161aed4d7c44b7826eacca8b67",
+          "originalLeadingProductSHA256": "94ae0a195b9c01b18de0b44199e90344efabd22cdbaf826f3a125f56f739a437"
+        },
+        {
+          "columns": 1,
+          "exponent": 7,
+          "originalHeadSHA256": "f38e9143533d66d7a8dc8a79895046de2b66fca100fa19654e1deae240810651",
+          "originalLeadingProductSHA256": "8a1a62f6cbbd4af63cff25d12c2fcc03ce2e37b1d0f0a981763c1c478a187e2c"
+        },
+        {
+          "columns": 1,
+          "exponent": 8,
+          "originalHeadSHA256": "44fd411ccce962fd02ef85a20a23b7ed228d4b2d7fab8e42806c37dcb3d48c08",
+          "originalLeadingProductSHA256": "785769133f387c0a16308ca12b2655e71c8d29b604ac21bcef7db7a52cd97518"
+        },
+        {
+          "columns": 1,
+          "exponent": 10,
+          "originalHeadSHA256": "e4f42cfe12575e21f162b1f31da873311dfb3218dac7996c75d750164f4ebbd2",
+          "originalLeadingProductSHA256": "29bd88f7cc2c9ad425f7403cf10d333716d5847e985ba9218bb9c270e53ebfcf"
+        }
+      ],
+      "projectionAndFullHaveEqualGenericFreeRank13": true,
+      "projectionIsActualOriginalCokernelQuotient": true,
+      "remainingOriginalJetCount": 13,
+      "remainingOriginalJetVerifiedThroughOrder": 11,
+      "sameOriginalQ13PrimitiveKernelRead": true,
+      "selectedMinorLeading31UnitNotClaimed": true,
+      "semanticBinding": "01ba6e6d1f1d0c0ae9ae22a319615887dce4c313d29c9ce1bde346445ae10766",
+      "sharedMathematicalSeconds": 180.0,
+      "temporaryManifestSHA256": "c0fe9d0ab22850559ed98308b120d71ae24ee6880e2f263b1e00884cc3599afe",
+      "temporaryOnly": true,
+      "temporaryPhaseFiles": {
+        "F31-smith-state": {
+          "bytes": 36801,
+          "file": "F31-smith-state-496a3d29791fa10e1ef0b3de6cedbaeca86749786701b736d22407492762f0d6.json.gz",
+          "sha256": "496a3d29791fa10e1ef0b3de6cedbaeca86749786701b736d22407492762f0d6"
+        },
+        "Q-smith-state": {
+          "bytes": 12208895,
+          "file": "Q-smith-state-86dc9aab6765ea96509a82de0e586e4f4da679216867cd9a33d988101e25f112.json.gz",
+          "sha256": "86dc9aab6765ea96509a82de0e586e4f4da679216867cd9a33d988101e25f112"
+        },
+        "original-projection-coefficients": {
+          "bytes": 267400,
+          "file": "original-projection-coefficients-fadfca586cd412fcad6d009c01d0d28f623cf3737bff1fbab267845af2fe2de2.json.gz",
+          "sha256": "fadfca586cd412fcad6d009c01d0d28f623cf3737bff1fbab267845af2fe2de2"
+        }
+      }
+    },
+    "events": [
+      {
+        "elapsedSeconds": 0.12390455899998187,
+        "event": "actual-fifth-support-read-and-verified",
+        "leadingRank": 18,
+        "zeroEntries": 68760
+      },
+      {
+        "constantRank": 128,
+        "degree": 11,
+        "elapsedSeconds": 2.369511048999982,
+        "event": "original-224-by-155-projection-complete"
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.026501240999977,
+        "event": "actual-projection-Smith-units",
+        "order": 1,
+        "positiveDirections": 4,
+        "rank": 4
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.152963577999998,
+        "event": "actual-projection-Smith-units",
+        "order": 3,
+        "positiveDirections": 5,
+        "rank": 1
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.242033214999992,
+        "event": "actual-projection-Smith-units",
+        "order": 4,
+        "positiveDirections": 8,
+        "rank": 3
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.4481435679999777,
+        "event": "actual-projection-Smith-units",
+        "order": 5,
+        "positiveDirections": 9,
+        "rank": 1
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.5330502449999983,
+        "event": "actual-projection-Smith-units",
+        "order": 6,
+        "positiveDirections": 11,
+        "rank": 2
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.642930390999993,
+        "event": "actual-projection-Smith-units",
+        "order": 7,
+        "positiveDirections": 12,
+        "rank": 1
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.729250764999989,
+        "event": "actual-projection-Smith-units",
+        "order": 8,
+        "positiveDirections": 13,
+        "rank": 1
+      },
+      {
+        "domain": "F31",
+        "elapsedSeconds": 3.8555452549999814,
+        "event": "actual-projection-Smith-units",
+        "order": 10,
+        "positiveDirections": 14,
+        "rank": 1
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 23.689637242999993,
+        "event": "actual-projection-Smith-units",
+        "order": 1,
+        "positiveDirections": 4,
+        "rank": 4
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 26.824271519999996,
+        "event": "actual-projection-Smith-units",
+        "order": 3,
+        "positiveDirections": 5,
+        "rank": 1
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 28.575059780000004,
+        "event": "actual-projection-Smith-units",
+        "order": 4,
+        "positiveDirections": 8,
+        "rank": 3
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 30.148721643999977,
+        "event": "actual-projection-Smith-units",
+        "order": 5,
+        "positiveDirections": 9,
+        "rank": 1
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 31.427544232999992,
+        "event": "actual-projection-Smith-units",
+        "order": 6,
+        "positiveDirections": 11,
+        "rank": 2
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 32.598307335999976,
+        "event": "actual-projection-Smith-units",
+        "order": 7,
+        "positiveDirections": 12,
+        "rank": 1
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 33.63479199399998,
+        "event": "actual-projection-Smith-units",
+        "order": 8,
+        "positiveDirections": 13,
+        "rank": 1
+      },
+      {
+        "domain": "Q",
+        "elapsedSeconds": 35.016689093999986,
+        "event": "actual-projection-Smith-units",
+        "order": 10,
+        "positiveDirections": 14,
+        "rank": 1
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 20:07:45 UTC",
+      "beforeReadCommit": "6226c78565e1a9f47e655cc0b1438f802ada983f",
+      "originMainAfterPull": "b750085a6000e64b4ff38b4c479e2031a5da4659",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 20:08:24 UTC",
+      "beforeReadCommit": "b750085a6000e64b4ff38b4c479e2031a5da4659",
+      "originMainAfterPull": "73c211c1510f71726304837eb3c808d84f5f6117",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 8,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2745,
+    "logicalJsonSHA256": "311a1ca979dbfa573426d89b22e013930c02a35bfaee9809541d14693757fe7e",
+    "itemCount": 8
+  },
+  "lastRulesReadCommit": "73c211c1510f71726304837eb3c808d84f5f6117",
+  "summaryExcludesRecomputableArraysOnly": false
+}
