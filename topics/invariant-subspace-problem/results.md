@@ -219,3 +219,5 @@
 - [R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)：原真正顶部误差对允许Q一致，β独立于Q；一个固定Q=L0h²上的同u线性合并负部预算已足，C Q²/x²亦足。纯转换可取R=d，另需h²/Q→0时有同w慢对角选择；完整负部估计仍是未付假设，不称N=M。
 
 - [R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)：实际原17条R4共74018坐标，同29×75配对rank7/旧6，完整核投影16；给完整β4∈[3,5]及16真第四头存在。∞130/125/125配K104得q8423…8536、条件8580/8585/172，统一8585；未构造λ4或证明原成员性。
+
+- [R150-appendix-zero-complete-third-connection-exact-one-and-twentytwo-heads](results/R150-appendix-zero-complete-third-connection-exact-one-and-twentytwo-heads.md)：完整23二阶头、β2=0的全历史商和完整4347常校正给全第三β3=1；低585−584、head[I12;0]，完整22条第三cochain的544544原产品全真。正Smith恰4个1、0个2、1个3，其余九个≥4；保58/49、K104，不重复计阶收益。第四须加全部R3来项并同步低层回填。
