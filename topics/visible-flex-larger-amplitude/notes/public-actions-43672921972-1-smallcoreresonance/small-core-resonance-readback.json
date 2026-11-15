@@ -1,0 +1,2491 @@
+{
+  "schema": "R278-original-three-equation-approximate-p3-inner-root-LM-v1",
+  "phase": "diagnostic-completed",
+  "diagnostic_completed": true,
+  "seconds": 16.914463108000007,
+  "success": false,
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "consumed_source_sha256": {
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_direct_operator_cell.py": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+    "geometry_20261115_small_core_damped_resume.py": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+    "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+    "geometry_20261115_small_core_p3_inner_root_search.py": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9"
+  },
+  "original_diagnostic_source_sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+  "source_sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9",
+  "source_roles": {
+    "immutable_parent_provenance_only": [
+      "geometry_20261115_small_core_damped_resume.py",
+      "geometry_20261115_small_core_damped_search.py"
+    ],
+    "new_algorithm": "geometry_20261115_small_core_p3_inner_root_search.py",
+    "original_equations": "geometry_20261114_small_core_resonance.py"
+  },
+  "parent_status": {
+    "bytes": 60951,
+    "decoded_bytes": 60951,
+    "decoded_sha256": "5a4d157aa0bcada3cdd1d319adb419f23b94f52bfc1c945a3c6afe1207cb2f5a",
+    "encoding": "json",
+    "file": "parent-status.json",
+    "literal_parameters": [
+      0.04241436079648833,
+      0.02766947731512731,
+      -0.10800335072481342
+    ],
+    "only_literal_parameters_reused": true,
+    "origin": "actual90 original three-parameter LM final diagnostic",
+    "parameters_field": "final.parameters",
+    "parent_damping_binary64": 0.01,
+    "parent_damping_cli_text": "0.01",
+    "parent_is_not_a_native_nonzero_or_BVP_solution": true,
+    "producer_sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+    "saved_parent_J_merit_state_or_FD_reused": false,
+    "schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
+    "sha256": "5a4d157aa0bcada3cdd1d319adb419f23b94f52bfc1c945a3c6afe1207cb2f5a"
+  },
+  "candidate_algorithm": "actual p3-only approximate roots and a 4x2 column-scaled positive-damped Schur model",
+  "damping_cli_text": "0.1",
+  "damping_binary64": 0.1,
+  "candidate_iteration_budget": 8,
+  "original_backtrack_budget": 20,
+  "inner_newton_update_budget": 12,
+  "inner_backtrack_budget": 20,
+  "original_armijo_coefficient": 0.2,
+  "candidate_resonance_tolerance": 1e-08,
+  "original_mesh_nodes": 699,
+  "field_and_tail_modes": 112,
+  "initial": {
+    "actual_circle_R_minus_supplied_a_node_max": 1.984908404306651e-09,
+    "complete_first_order_right_residual": [
+      106.13949126986391,
+      8895.423227596319,
+      233.49572349658644,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "full_first_order_native_height": [
+      -5.10199250698002,
+      -207.86589399715476,
+      -4.390648965022086,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "high_free_core_Schur_elimination_computed": false,
+    "high_mode_nonresonance_proved": false,
+    "high_right_leak_max": 0.0,
+    "independent_real_parameter_difference_checks": [
+      {
+        "maximum_relative_error": 1.5098650030008722e-08,
+        "step": 2e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 3.878724677379875e-09,
+        "step": 1e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 9.113386660122363e-10,
+        "step": 5e-06,
+        "valid": true
+      }
+    ],
+    "low_equations_definition": "unit d_j; actual full J measured exactly diagonal",
+    "low_equations_used": [
+      229.78524027424547,
+      -149015.7614289278,
+      14843.921358477846
+    ],
+    "low_mode_trajectory_max_by_mode": [
+      11.045488913386865,
+      3482.160845702764,
+      279.1248035445189
+    ],
+    "low_original_collocation_tangent_residual_max": 4.547473508864641e-13,
+    "low_two_by_two_right_condition_max_by_mode": [
+      1.3950728980222518,
+      4.568977828194337,
+      17.1135964148631
+    ],
+    "numerical_parameter_condition": 21138690.34422261,
+    "numerical_singular_values_are_not_a_transversality_proof": true,
+    "parameters": [
+      0.04241436079648833,
+      0.02766947731512731,
+      -0.10800335072481342
+    ],
+    "radius_cell_denominator_minimum_absolute": 0.9992505550049908,
+    "scalar_and_circle_queries_are_not_whole_interval_bounds": true,
+    "scalar_node_and_mid_minimum_radius": 0.30000000000000027,
+    "singular_values": [
+      78197274.89976357,
+      25389.76358431318,
+      3.699248800488512
+    ],
+    "source_circle_node_and_mid_minimum_beta2": 0.005153125401965886,
+    "source_circle_node_and_mid_minimum_radius": 0.29999999841549285,
+    "source_target_first_three": [
+      0.4619073494154277,
+      -0.05969451246161594,
+      0.015730056624372334
+    ],
+    "target_zero_indices": [],
+    "three_by_three_parameter_jacobian": [
+      [
+        -37.30565026384013,
+        -5.470028525545402,
+        105.47723542423763
+      ],
+      [
+        3295.1952915617762,
+        35516.023725371,
+        -29379.349426876972
+      ],
+      [
+        19256558.735071484,
+        23663870.270838052,
+        -72000128.47538549
+      ]
+    ],
+    "three_unit_resonances_are_necessary_for_these_straight_targets": true,
+    "unit_diagonal_defects": [
+      229.78524027424547,
+      -149015.7614289278,
+      14843.921358477846
+    ],
+    "zero_tail_slope_J": {
+      "all_entries_consumed": true,
+      "exactly_diagonal_as_recorded": true,
+      "maximum_absolute_offdiagonal": 0.0,
+      "nonzero_offdiagonal_entries": 0,
+      "ready_linear_graph_used": false,
+      "shape": [
+        112,
+        112
+      ]
+    }
+  },
+  "final": {
+    "actual_circle_R_minus_supplied_a_node_max": 1.962845830316695e-09,
+    "complete_first_order_right_residual": [
+      -107.83819029459062,
+      -7558.74958985967,
+      -1.236901147098294e-10,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "full_first_order_native_height": [
+      5.173630295805926,
+      176.63085062889016,
+      2.359287603856228e-06,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "high_free_core_Schur_elimination_computed": false,
+    "high_mode_nonresonance_proved": false,
+    "high_right_leak_max": 0.0,
+    "independent_real_parameter_difference_checks": [
+      {
+        "maximum_relative_error": 3.5830851633286135e-09,
+        "step": 2e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 9.848101438942133e-10,
+        "step": 1e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 9.062838304550438e-10,
+        "step": 5e-06,
+        "valid": true
+      }
+    ],
+    "low_equations_definition": "unit d_j; actual full J measured exactly diagonal",
+    "low_equations_used": [
+      -233.46281549983243,
+      126623.86001929421,
+      -7.863297485366516e-09
+    ],
+    "low_mode_trajectory_max_by_mode": [
+      11.200580164731033,
+      2958.912693063123,
+      30.31434304458971
+    ],
+    "low_original_collocation_tangent_residual_max": 6.252776074688882e-13,
+    "low_two_by_two_right_condition_max_by_mode": [
+      1.395072903813407,
+      4.568977902126528,
+      17.113596799414715
+    ],
+    "numerical_parameter_condition": 15359832.194171578,
+    "numerical_singular_values_are_not_a_transversality_proof": true,
+    "parameters": [
+      0.6929598480979777,
+      0.1236195236907518,
+      0.5225323995570981
+    ],
+    "radius_cell_denominator_minimum_absolute": 0.999203567649165,
+    "scalar_and_circle_queries_are_not_whole_interval_bounds": true,
+    "scalar_node_and_mid_minimum_radius": 0.30000000000000027,
+    "singular_values": [
+      1870648107.4858866,
+      685087.0896455426,
+      121.78831668458724
+    ],
+    "source_circle_node_and_mid_minimum_beta2": 0.005153125271083803,
+    "source_circle_node_and_mid_minimum_radius": 0.2999999984352269,
+    "source_target_first_three": [
+      0.4619073494154277,
+      -0.05969451246161594,
+      0.015730056624372334
+    ],
+    "target_zero_indices": [],
+    "three_by_three_parameter_jacobian": [
+      [
+        -1107.9006322728314,
+        -114.81514473164688,
+        -375.0129361140701
+      ],
+      [
+        701367.4128892582,
+        196645.73358820114,
+        981203.2544866957
+      ],
+      [
+        54018763.03371744,
+        124091399.49520981,
+        1865745592.4775739
+      ]
+    ],
+    "three_unit_resonances_are_necessary_for_these_straight_targets": true,
+    "unit_diagonal_defects": [
+      -233.46281549983243,
+      126623.86001929421,
+      -7.863297485366516e-09
+    ],
+    "zero_tail_slope_J": {
+      "all_entries_consumed": true,
+      "exactly_diagonal_as_recorded": true,
+      "maximum_absolute_offdiagonal": 0.0,
+      "nonzero_offdiagonal_entries": 0,
+      "ready_linear_graph_used": false,
+      "shape": [
+        112,
+        112
+      ]
+    }
+  },
+  "initial_original_three_equation_merit": 11213045978.398226,
+  "final_original_three_equation_merit": 8016828215.536017,
+  "last_accepted_parameters": [
+    0.6929598480979777,
+    0.1236195236907518,
+    0.5225323995570981
+  ],
+  "search_stop_reason": "all original outer backtracks exhausted without an accepted complete-three-merit candidate",
+  "last_accepted_point_semantics": "original-three-merit-accepted-candidate-or-fresh-parent",
+  "complete_scalar_domain": {
+    "bits": 160,
+    "complete_declared_real_expression_domain_certified": true,
+    "covered_interval": [
+      "0",
+      "5113846463878377/2251799813685248"
+    ],
+    "exact_prefix_scalar_and_complete_stored_finite_Gauss_expression": true,
+    "exact_scalar_derivative_compatibility_or_C2_interface_certificate": false,
+    "leaf_count": 957,
+    "literal_binary64_evaluation_roundoff_enclosed": false,
+    "maximum_depth": 14,
+    "returned_ap_identified_with_derivative_of_finite_Gauss_a": false,
+    "schema": "R259-complete-declared-scalar-domain-enclosure-v1",
+    "source_circle_R_and_full_Frenet_domain_covered_by_this_scalar_bound": false,
+    "source_returned_ap_used": true,
+    "split_cells": 514,
+    "unresolved_leaf_count": 0
+  },
+  "original_complete_circle_check": {
+    "actual_domain": {
+      "all_control_states_identical": true,
+      "all_core_states_identical": true,
+      "boundary_domain_error": null,
+      "boundary_finite": true,
+      "complete_boundary_max": 0.0,
+      "complete_trial_RHS_recomputed": true,
+      "constant_collocation_max": 0.0,
+      "finite": true,
+      "left_residual_max": 0.0,
+      "midpoint_domain_failures": 0,
+      "node_domain_failures": 0,
+      "original_RMS_query_checks": [
+        {
+          "first_invalid_points": [],
+          "fraction": 0.17267316464601146,
+          "invalid_count": 0,
+          "points": 698
+        },
+        {
+          "first_invalid_points": [],
+          "fraction": 0.8273268353539885,
+          "invalid_count": 0,
+          "points": 698
+        }
+      ],
+      "original_RMS_query_domain_failures": 0,
+      "original_rho_guard_angles": 4096,
+      "original_uniform_phi_rho_guard_valid": true,
+      "original_uniform_phi_rho_min": 1.0,
+      "physical_collocation_max": 4.2809722780590143e-16
+    },
+    "original_full_FFT_tangent_checks": [
+      {
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true,
+        "mode": 1,
+        "node": 0,
+        "station": 0.0
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true,
+        "mode": 2,
+        "node": 0,
+        "station": 0.0
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true,
+        "mode": 3,
+        "node": 0,
+        "station": 0.0
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 2.220446049250313e-16,
+        "all_physical_rows_compared": true,
+        "mode": 1,
+        "node": 349,
+        "station": 0.8525
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 4.839987218207579e-16,
+        "all_physical_rows_compared": true,
+        "mode": 2,
+        "node": 349,
+        "station": 0.8525
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 1.426625078271064e-16,
+        "all_physical_rows_compared": true,
+        "mode": 3,
+        "node": 349,
+        "station": 0.8525
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 2.8117524939110443e-16,
+        "all_physical_rows_compared": true,
+        "mode": 1,
+        "node": 698,
+        "station": 2.271004035438285
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 1.224124164929413e-15,
+        "all_physical_rows_compared": true,
+        "mode": 2,
+        "node": 698,
+        "station": 2.271004035438285
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 7.144396619629591e-15,
+        "all_physical_rows_compared": true,
+        "mode": 3,
+        "node": 698,
+        "station": 2.271004035438285
+      }
+    ],
+    "original_full_reference_finite": true,
+    "reference_file": "circle-reference.json.gz",
+    "reference_is_not_a_nonzero_parent": true,
+    "reference_sha256": "cfdc0e76d8c8bc47ba15ba0eb931c3ba75152af6c72799d4d3282d865b2c1359"
+  },
+  "low_mode_candidate_has_small_full_recorded_right_residual": false,
+  "original_unit_stopping_tolerance_met": false,
+  "full_nonlinear_nonzero_lambda_solution_computed": false,
+  "high_mode_nonresonance_or_interval_transversality_proved": false,
+  "exact_p3_elimination_or_implicit_function_theorem_proved": false,
+  "inner_call_count": 39,
+  "original_call_trace": {
+    "all_evaluation_and_jacobian_events_requested": true,
+    "counts": {
+      "complex_evaluation_attempts": 489,
+      "description_attempts": 2,
+      "evaluation_attempts": 1262,
+      "evaluation_exceptions": 49,
+      "evaluation_returns": 1213,
+      "jacobian_attempts": 163,
+      "jacobian_returns": 163,
+      "real_evaluation_attempts": 773
+    },
+    "events": 1425,
+    "file": {
+      "bytes": 2039245,
+      "file": "large-arrays/original-model-evaluations.jsonl",
+      "sha256": "e1b087a4c9581c46226292a9bede43af1e93466457e6477a19222516f94bd0f1"
+    },
+    "observer_errors": [],
+    "observer_is_not_an_acceptance_gate": true,
+    "original_model_methods_or_acceptance_returns_modified": false
+  },
+  "initial_projection_summary": {
+    "adopted_as_outer_baseline": true,
+    "no_parameter_change": false,
+    "reason": "actual p3 root displacement passes original full-three-merit Armijo",
+    "actual_total_original_parameter_displacement": [
+      0.0,
+      0.0,
+      0.00020632994129440863
+    ],
+    "alpha": 1.0,
+    "true_model_merit_slope": -219614749.28446636,
+    "original_merit_before": 11213045978.398226,
+    "actual_merit": 11103779210.306698,
+    "original_Armijo_bound": 11169123028.541332,
+    "derivative_source": "fresh initial.three_by_three_parameter_jacobian",
+    "original_parent_point": {
+      "parameters": [
+        0.04241436079648833,
+        0.02766947731512731,
+        -0.10800335072481342
+      ],
+      "low_equations_used": [
+        229.78524027424547,
+        -149015.7614289278,
+        14843.921358477846
+      ],
+      "original_three_equation_merit": 11213045978.398226
+    },
+    "actual_projected_point": {
+      "parameters": [
+        0.04241436079648833,
+        0.02766947731512731,
+        -0.10779702078351901
+      ],
+      "low_equations_used": [
+        229.80698277716525,
+        -149021.82930485072,
+        7.66934330559616e-09
+      ],
+      "original_three_equation_merit": 11103779210.306698
+    },
+    "inner": {
+      "file": "inner-solves/inner-0001.json.gz",
+      "bytes": 3088,
+      "sha256": "cd42137d7d1375886c37811785afec67bc053109ee7b7d0b6f605515bc27672d",
+      "inner_call": 1,
+      "usable_inner_root": true,
+      "residual_tolerance_met": true,
+      "original_full_J_finite": true,
+      "original_J33_finite_nonzero": true,
+      "stop_reason": "actual third unit residual meets tolerance with finite nonzero original J33",
+      "seconds": 0.16271404899998743,
+      "original_call_cost": {
+        "complex_evaluation_attempts": 12,
+        "description_attempts": 0,
+        "evaluation_attempts": 15,
+        "evaluation_exceptions": 0,
+        "evaluation_returns": 15,
+        "jacobian_attempts": 4,
+        "jacobian_returns": 4,
+        "real_evaluation_attempts": 3
+      }
+    }
+  },
+  "outer_search_summary": [
+    {
+      "iteration": 0,
+      "parameters": [
+        0.04241436079648833,
+        0.02766947731512731,
+        -0.10779702078351901
+      ],
+      "residual": [
+        229.80698277716525,
+        -149021.82930485072,
+        7.66934330559616e-09
+      ],
+      "actual_third_unit_residual": 7.66934330559616e-09,
+      "merit_before": 11103779210.306698,
+      "true_model_merit_slope": -22096861360.409607,
+      "accepted": true,
+      "direction_model": {
+        "actual_original_third_unit_residual": 7.66934330559616e-09,
+        "actual_third_residual_is_not_set_to_zero": true,
+        "augmented_lstsq_rank": 2,
+        "augmented_lstsq_returned_residuals": [
+          110697060.20379426
+        ],
+        "augmented_lstsq_singular_values": [
+          1.41774456143801,
+          0.10000179254865388
+        ],
+        "augmented_matrix": [
+          [
+            -0.0019763944900396437,
+            0.0011296216995785803
+          ],
+          [
+            -0.9999980469305025,
+            0.9999993619772043
+          ],
+          [
+            0.1,
+            0.0
+          ],
+          [
+            0.0,
+            0.1
+          ]
+        ],
+        "augmented_rhs": [
+          -229.80698277716525,
+          149021.82930485072,
+          0.0,
+          0.0
+        ],
+        "column_norms": [
+          4616.467278501611,
+          25811.7514094973
+        ],
+        "coordinate_scale": [
+          4616.467278501611,
+          25811.7514094973
+        ],
+        "damping_penalty_not_added_to_nonlinear_merit": true,
+        "exactly_zero_columns": [],
+        "first_two_parameter_direction": [
+          -16.0556592689652,
+          2.8730898407384204
+        ],
+        "lifted_original_three_parameter_direction": [
+          -16.0556592689652,
+          2.8730898407384204,
+          -3.353109602252214
+        ],
+        "lstsq_rcond_argument": null,
+        "original_J33": -71885169.78920431,
+        "original_full_J_times_direction": [
+          230.26335953444382,
+          148279.71431845953,
+          2.8909455408288403e-08
+        ],
+        "original_full_Jd_third_component": 2.8909455408288403e-08,
+        "original_full_three_by_three_jacobian": [
+          [
+            -37.30694475123578,
+            -5.470527133698503,
+            105.27747664111162
+          ],
+          [
+            3264.1119641607975,
+            35494.4822102033,
+            -29437.85300786828
+          ],
+          [
+            19243799.08438735,
+            23644588.866102573,
+            -71885169.78920431
+          ]
+        ],
+        "original_full_three_merit_model_slope": -22096861360.409607,
+        "original_residual": [
+          229.80698277716525,
+          -149021.82930485072,
+          7.66934330559616e-09
+        ],
+        "p3_tangent_by_first_two_parameters": [
+          0.26770193547316873,
+          0.32892165290056125
+        ],
+        "positive_damping": 0.1,
+        "same_model_spectrum": {
+          "completed": true,
+          "damping": 0.1,
+          "extra_nonlinear_candidate_or_new_acceptance_gate": false,
+          "ideal_filtered_residual_coordinates": [
+            741.3995984315476,
+            -461.222298188954
+          ],
+          "left_singular_vectors": [
+            [
+              -0.0015530082340025064,
+              -0.9999987940819854
+            ],
+            [
+              -0.9999987940819856,
+              0.0015530082340026174
+            ]
+          ],
+          "linear_residual_removal_fraction": [
+            0.9950248747345041,
+            3.585000913143535e-05
+          ],
+          "linear_residual_retention_fraction": [
+            0.004975125265495925,
+            0.9999641499908685
+          ],
+          "original_first_two_residual_projected_coordinates": [
+            149021.29270460573,
+            -461.2388336053506
+          ],
+          "original_third_residual_not_in_this_two_coordinate_spectrum": 7.66934330559616e-09,
+          "right_singular_vectors_transposed": [
+            [
+              0.7071067811865476,
+              -0.7071067811865475
+            ],
+            [
+              0.7071067811865475,
+              0.7071067811865476
+            ]
+          ],
+          "singular_values": [
+            1.4142134356196223,
+            0.0005987595043142697
+          ],
+          "spectrum_of": "the actual scaled 2x2 Schur matrix at this saved approximate inner root"
+        },
+        "scaled_schur_matrix": [
+          [
+            -0.0019763944900396437,
+            0.0011296216995785803
+          ],
+          [
+            -0.9999980469305025,
+            0.9999993619772043
+          ]
+        ],
+        "scaled_two_coordinate_direction": [
+          -74120.42564994894,
+          74159.4807462923
+        ],
+        "schema": "R278-approximate-inner-root-two-coordinate-LM-direction-v1",
+        "schur_is_algorithm_model_at_approximate_root_not_exact_IFT_derivative": true,
+        "schur_matrix": [
+          [
+            -9.123960492678894,
+            29.15751449629616
+          ],
+          [
+            -4616.458262220183,
+            25811.734941011506
+          ]
+        ],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep both exterior coordinates"
+      },
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "predicted_seed_parameters": [
+            -16.013244908168712,
+            2.900759318053548,
+            -3.4609066230357333
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 6684406938.224776,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0002.json.gz",
+            "bytes": 714,
+            "sha256": "46648ac540e64c940640cd21c66ddd9b489b26346f6c5f2740c7754daece31cf",
+            "inner_call": 2,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 1,
+          "alpha": 0.5,
+          "predicted_seed_parameters": [
+            -7.985415273686112,
+            1.4642143976843376,
+            -1.7843518219096262
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 8894093074.265738,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0003.json.gz",
+            "bytes": 714,
+            "sha256": "6c6de37931e3c9caa4ef2462f105ef90fdc7d64c80eaecdee76985689bb970f6",
+            "inner_call": 3,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 2,
+          "alpha": 0.25,
+          "predicted_seed_parameters": [
+            -3.971500456444812,
+            0.7459419374997325,
+            -0.9460744213465726
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 9998936142.286217,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0004.json.gz",
+            "bytes": 715,
+            "sha256": "1cf2331e2f99ce041be27128779d4b6d1c0bc9e96e54e47b3899adef6be294a1",
+            "inner_call": 4,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 3,
+          "alpha": 0.125,
+          "predicted_seed_parameters": [
+            -1.9645430478241617,
+            0.38680570740742987,
+            -0.5269357210650458
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 10551357676.296457,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0005.json.gz",
+            "bytes": 717,
+            "sha256": "83d1a8ab1272029030e70a1e85d5e16a1f24f4dc1fca62c1de6b9c7579f5ad49",
+            "inner_call": 5,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 4,
+          "alpha": 0.0625,
+          "predicted_seed_parameters": [
+            -0.9610643435138367,
+            0.2072375923612786,
+            -0.3173663709242824
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 10827568443.301579,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0006.json.gz",
+            "bytes": 9587,
+            "sha256": "0d78e458761ceafe0a7ef41b82ad31206461622ea09af14296979d0ba904195a",
+            "inner_call": 6,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "inner Newton update budget exhausted with the actual d3 still outside tolerance"
+          }
+        },
+        {
+          "trial": 5,
+          "alpha": 0.03125,
+          "predicted_seed_parameters": [
+            -0.4593249913586742,
+            0.11745353483820295,
+            -0.2125816958539007
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 10965673826.804138,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0007.json.gz",
+            "bytes": 8261,
+            "sha256": "0858d34f66bc7ada488ca36074b3171bd181d638fcd04483a08a3d41c0565d50",
+            "inner_call": 7,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 6,
+          "alpha": 0.015625,
+          "predicted_seed_parameters": [
+            -0.20845531528109293,
+            0.07256150607666513,
+            -0.16018935831870984
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 11034726518.555418,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0008.json.gz",
+            "bytes": 14042,
+            "sha256": "634f4e627101bd8bb341b701bb38e5d78739b1b0afbcd96df5dbd1f9cd348916",
+            "inner_call": 8,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 7,
+          "alpha": 0.0078125,
+          "predicted_seed_parameters": [
+            -0.0830204772423023,
+            0.05011549169589622,
+            -0.13399318955111444
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "actual_merit": 12729624067.192156,
+          "original_Armijo_bound": 11069252864.431057,
+          "true_third_unit_residual_preserved": 7.282183562217458e-09,
+          "reason": "actual projected candidate fails the original complete-three-merit Armijo test",
+          "inner": {
+            "file": "inner-solves/inner-0009.json.gz",
+            "bytes": 4108,
+            "sha256": "ef41e4802f5deb527fe01e2f110ad96ad1a6b4b6cdee08b5020ab3c4fab377a3",
+            "inner_call": 9,
+            "usable_inner_root": true,
+            "residual_tolerance_met": true,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "actual third unit residual meets tolerance with finite nonzero original J33"
+          },
+          "actual_projected_point": {
+            "parameters": [
+              -0.0830204772423023,
+              0.05011549169589622,
+              -0.05474801888994165
+            ],
+            "low_equations_used": [
+              224.98214408340885,
+              -159559.38555102033,
+              7.282183562217458e-09
+            ],
+            "original_three_equation_merit": 12729624067.192156
+          }
+        },
+        {
+          "trial": 8,
+          "alpha": 0.00390625,
+          "predicted_seed_parameters": [
+            -0.020303058222906983,
+            0.03889248450551176,
+            -0.12089510516731672
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "actual_merit": 11354831568.56619,
+          "original_Armijo_bound": 11086516037.368877,
+          "true_third_unit_residual_preserved": 2.4118168646714054e-09,
+          "reason": "actual projected candidate fails the original complete-three-merit Armijo test",
+          "inner": {
+            "file": "inner-solves/inner-0010.json.gz",
+            "bytes": 3616,
+            "sha256": "1c9164e7d89bc4f914b3e907e2ad97956e9c18a9a70d2ab82de94d9e212d1ec8",
+            "inner_call": 10,
+            "usable_inner_root": true,
+            "residual_tolerance_met": true,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "actual third unit residual meets tolerance with finite nonzero original J33"
+          },
+          "actual_projected_point": {
+            "parameters": [
+              -0.020303058222906983,
+              0.03889248450551176,
+              -0.1013833707693508
+            ],
+            "low_equations_used": [
+              229.40250226534144,
+              -150697.0819612123,
+              2.4118168646714054e-09
+            ],
+            "original_three_equation_merit": 11354831568.56619
+          }
+        },
+        {
+          "trial": 9,
+          "alpha": 0.001953125,
+          "predicted_seed_parameters": [
+            0.011055651286790674,
+            0.03328098091031954,
+            -0.11434606297541786
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "original_Armijo_bound": 11095147623.837788,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0011.json.gz",
+            "bytes": 5074,
+            "sha256": "739fb5d8279b583c284b5dc20be97f4465548b1f4aa4539dd530358819d3b209",
+            "inner_call": 11,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 10,
+          "alpha": 0.0009765625,
+          "predicted_seed_parameters": [
+            0.026735006041639503,
+            0.030475229112723424,
+            -0.11107154187946844
+          ],
+          "accepted": false,
+          "merit_before": 11103779210.306698,
+          "actual_merit": 11101759888.159971,
+          "original_Armijo_bound": 11099463417.072243,
+          "true_third_unit_residual_preserved": 7.056618096633197e-09,
+          "reason": "actual projected candidate fails the original complete-three-merit Armijo test",
+          "inner": {
+            "file": "inner-solves/inner-0012.json.gz",
+            "bytes": 3978,
+            "sha256": "dafe43b4d5990953cc1857b33be992a0c2e45222c70c44ee5af31b6c5850b5a2",
+            "inner_call": 12,
+            "usable_inner_root": true,
+            "residual_tolerance_met": true,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "actual third unit residual meets tolerance with finite nonzero original J33"
+          },
+          "actual_projected_point": {
+            "parameters": [
+              0.026735006041639503,
+              0.030475229112723424,
+              -0.1099425134641219
+            ],
+            "low_equations_used": [
+              229.9420580627074,
+              -149008.27796793665,
+              7.056618096633197e-09
+            ],
+            "original_three_equation_merit": 11101759888.159971
+          }
+        },
+        {
+          "trial": 11,
+          "alpha": 0.00048828125,
+          "predicted_seed_parameters": [
+            0.03457468341906392,
+            0.02907235321392537,
+            -0.10943428133149372
+          ],
+          "accepted": true,
+          "merit_before": 11103779210.306698,
+          "actual_merit": 11097889913.755127,
+          "original_Armijo_bound": 11101621313.68947,
+          "true_third_unit_residual_preserved": -3.3766514158871906e-10,
+          "reason": "actual projected candidate passes the original complete-three-merit Armijo test",
+          "inner": {
+            "file": "inner-solves/inner-0013.json.gz",
+            "bytes": 3321,
+            "sha256": "3d0359aba058056e30153fce050dae47f004e14f7512ec550c26bff1f563a18f",
+            "inner_call": 13,
+            "usable_inner_root": true,
+            "residual_tolerance_met": true,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "actual third unit residual meets tolerance with finite nonzero original J33"
+          },
+          "actual_projected_point": {
+            "parameters": [
+              0.03457468341906392,
+              0.02907235321392537,
+              -0.10915729497603902
+            ],
+            "low_equations_used": [
+              229.89614469118982,
+              -148982.30423534504,
+              -3.3766514158871906e-10
+            ],
+            "original_three_equation_merit": 11097889913.755127
+          }
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "parameters": [
+        0.03457468341906392,
+        0.02907235321392537,
+        -0.10915729497603902
+      ],
+      "residual": [
+        229.89614469118982,
+        -148982.30423534504,
+        -3.3766514158871906e-10
+      ],
+      "actual_third_unit_residual": -3.3766514158871906e-10,
+      "merit_before": 11097889913.755127,
+      "true_model_merit_slope": -22085295041.22349,
+      "accepted": true,
+      "direction_model": {
+        "actual_original_third_unit_residual": -3.3766514158871906e-10,
+        "actual_third_residual_is_not_set_to_zero": true,
+        "augmented_lstsq_rank": 2,
+        "augmented_lstsq_returned_residuals": [
+          110484786.28676644
+        ],
+        "augmented_lstsq_singular_values": [
+          1.4177438811804928,
+          0.1000114362224297
+        ],
+        "augmented_matrix": [
+          [
+            -0.0009932712349976299,
+            0.001145595408742737
+          ],
+          [
+            0.9999995067060051,
+            0.9999993438053646
+          ],
+          [
+            0.1,
+            0.0
+          ],
+          [
+            0.0,
+            0.1
+          ]
+        ],
+        "augmented_rhs": [
+          -229.89614469118982,
+          148982.30423534504,
+          0.0,
+          0.0
+        ],
+        "column_norms": [
+          3519.329366933917,
+          24490.02063242829
+        ],
+        "coordinate_scale": [
+          3519.329366933917,
+          24490.02063242829
+        ],
+        "damping_penalty_not_added_to_nonlinear_merit": true,
+        "exactly_zero_columns": [],
+        "first_two_parameter_direction": [
+          21.068325269725243,
+          3.0255094552584456
+        ],
+        "lifted_original_three_parameter_direction": [
+          21.068325269725243,
+          3.0255094552584456,
+          5.149240105274236
+        ],
+        "lstsq_rcond_argument": null,
+        "original_J33": -72405043.43333255,
+        "original_full_J_times_direction": [
+          11.235187775459872,
+          148241.0796201812,
+          -5.772922553027825e-08
+        ],
+        "original_full_Jd_third_component": -5.772922553027825e-08,
+        "original_full_three_by_three_jacobian": [
+          [
+            -24.481790843641157,
+            -7.289920372702004,
+            106.63345119757652
+          ],
+          [
+            9070.398332016071,
+            33839.306922253214,
+            -28205.747420597574
+          ],
+          [
+            14249773.609065201,
+            23999954.099996008,
+            -72405043.43333255
+          ]
+        ],
+        "original_full_three_merit_model_slope": -22085295041.22349,
+        "original_residual": [
+          229.89614469118982,
+          -148982.30423534504,
+          -3.3766514158871906e-10
+        ],
+        "p3_tangent_by_first_two_parameters": [
+          0.19680636780759314,
+          0.3314679884432931
+        ],
+        "positive_damping": 0.1,
+        "same_model_spectrum": {
+          "completed": true,
+          "damping": 0.1,
+          "extra_nonlinear_candidate_or_new_acceptance_gate": false,
+          "ideal_filtered_residual_coordinates": [
+            -741.206247938063,
+            241.18778501309873
+          ],
+          "left_singular_vectors": [
+            [
+              7.616213042505038e-05,
+              0.999999997099665
+            ],
+            [
+              0.9999999970996651,
+              -7.616213042538345e-05
+            ]
+          ],
+          "linear_residual_removal_fraction": [
+            0.9950248699602042,
+            0.00022868521842063513
+          ],
+          "linear_residual_retention_fraction": [
+            0.004975130039795737,
+            0.9997713147815794
+          ],
+          "original_first_two_residual_projected_coordinates": [
+            -148982.28629386632,
+            241.2429537106605
+          ],
+          "original_third_residual_not_in_this_two_coordinate_spectrum": -3.3766514158871906e-10,
+          "right_singular_vectors_transposed": [
+            [
+              0.7071067811865474,
+              0.7071067811865477
+            ],
+            [
+              -0.7071067811865477,
+              0.7071067811865474
+            ]
+          ],
+          "singular_values": [
+            1.4142127536635807,
+            0.0015124071122288123
+          ],
+          "spectrum_of": "the actual scaled 2x2 Schur matrix at this saved approximate inner root"
+        },
+        "scaled_schur_matrix": [
+          [
+            -0.0009932712349976299,
+            0.001145595408742737
+          ],
+          [
+            0.9999995067060051,
+            0.9999993438053646
+          ]
+        ],
+        "scaled_two_coordinate_direction": [
+          74146.37583385999,
+          74094.78898288621
+        ],
+        "schema": "R278-approximate-inner-root-two-coordinate-LM-direction-v1",
+        "schur_is_algorithm_model_at_approximate_root_not_exact_IFT_derivative": true,
+        "schur_matrix": [
+          [
+            -3.4956486266578786,
+            28.05565519652475
+          ],
+          [
+            3519.327630869874,
+            24490.00456220813
+          ]
+        ],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep both exterior coordinates"
+      },
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "predicted_seed_parameters": [
+            21.102899953144306,
+            3.054581808472371,
+            5.040082810298197
+          ],
+          "accepted": false,
+          "merit_before": 11097889913.755127,
+          "original_Armijo_bound": 6680830905.510428,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0014.json.gz",
+            "bytes": 713,
+            "sha256": "a4fdbcc64422a820a9bec9e68adbe8cc02c6f385448cf60cae3ce3e895989198",
+            "inner_call": 14,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 1,
+          "alpha": 0.5,
+          "predicted_seed_parameters": [
+            10.568737318281686,
+            1.5418270808431482,
+            2.4654627576610793
+          ],
+          "accepted": false,
+          "merit_before": 11097889913.755127,
+          "original_Armijo_bound": 8889360409.632778,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0015.json.gz",
+            "bytes": 714,
+            "sha256": "f1420ed8408ee9c460e3c516866f656125aa7ebaab3a9f71b0d858e4722a6a58",
+            "inner_call": 15,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 2,
+          "alpha": 0.25,
+          "predicted_seed_parameters": [
+            5.301656000850374,
+            0.7854497170285367,
+            1.17815273134252
+          ],
+          "accepted": false,
+          "merit_before": 11097889913.755127,
+          "original_Armijo_bound": 9993625161.693953,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0016.json.gz",
+            "bytes": 713,
+            "sha256": "bd3d86013a4420c43ef88831b7d3d718b06ad7305847e727222ecbebb54d1576",
+            "inner_call": 16,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 3,
+          "alpha": 0.125,
+          "predicted_seed_parameters": [
+            2.6681153421347195,
+            0.4072610351212311,
+            0.5344977181832405
+          ],
+          "accepted": false,
+          "merit_before": 11097889913.755127,
+          "original_Armijo_bound": 10545757537.724539,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0017.json.gz",
+            "bytes": 711,
+            "sha256": "a45af9f65282f8d7641f8477d8f1d20564539a21bd690bc12f00d808668da8e9",
+            "inner_call": 17,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 4,
+          "alpha": 0.0625,
+          "predicted_seed_parameters": [
+            1.3513450127768916,
+            0.21816669416757822,
+            0.21267021160360075
+          ],
+          "accepted": false,
+          "merit_before": 11097889913.755127,
+          "original_Armijo_bound": 10821823725.739834,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0018.json.gz",
+            "bytes": 711,
+            "sha256": "fd488447d6bbeefb751722dfa946b627cbb335ade2195eb84ec0e1ff42e94dea",
+            "inner_call": 18,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": false,
+            "original_J33_finite_nonzero": false,
+            "stop_reason": "inner seed or current original evaluation/J failed: FloatingPointError('Original node/mid scalar domain failed; no interval claim is made by this test')"
+          }
+        },
+        {
+          "trial": 5,
+          "alpha": 0.03125,
+          "predicted_seed_parameters": [
+            0.6929598480979777,
+            0.1236195236907518,
+            0.05175645831378087
+          ],
+          "accepted": true,
+          "merit_before": 11097889913.755127,
+          "actual_merit": 8016828215.536017,
+          "original_Armijo_bound": 10959856819.74748,
+          "true_third_unit_residual_preserved": -7.863297485366516e-09,
+          "reason": "actual projected candidate passes the original complete-three-merit Armijo test",
+          "inner": {
+            "file": "inner-solves/inner-0019.json.gz",
+            "bytes": 11590,
+            "sha256": "f4460cac2a90494773e41eaa08a9fcd582c2c1047cfa04c8e9e1b912f7960ab9",
+            "inner_call": 19,
+            "usable_inner_root": true,
+            "residual_tolerance_met": true,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "actual third unit residual meets tolerance with finite nonzero original J33"
+          },
+          "actual_projected_point": {
+            "parameters": [
+              0.6929598480979777,
+              0.1236195236907518,
+              0.5225323995570981
+            ],
+            "low_equations_used": [
+              -233.46281549983243,
+              126623.86001929421,
+              -7.863297485366516e-09
+            ],
+            "original_three_equation_merit": 8016828215.536017
+          }
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "parameters": [
+        0.6929598480979777,
+        0.1236195236907518,
+        0.5225323995570981
+      ],
+      "residual": [
+        -233.46281549983243,
+        126623.86001929421,
+        -7.863297485366516e-09
+      ],
+      "actual_third_unit_residual": -7.863297485366516e-09,
+      "merit_before": 8016828215.536017,
+      "true_model_merit_slope": -15953879456.811777,
+      "accepted": false,
+      "direction_model": {
+        "actual_original_third_unit_residual": -7.863297485366516e-09,
+        "actual_third_residual_is_not_set_to_zero": true,
+        "augmented_lstsq_rank": 2,
+        "augmented_lstsq_returned_residuals": [
+          79776974.26025303
+        ],
+        "augmented_lstsq_singular_values": [
+          1.4177445300235239,
+          0.10000223791684958
+        ],
+        "augmented_matrix": [
+          [
+            -0.0016301764431068766,
+            -0.0006840392660431064
+          ],
+          [
+            0.9999986712614994,
+            0.9999997660451139
+          ],
+          [
+            0.1,
+            0.0
+          ],
+          [
+            0.0,
+            0.1
+          ]
+        ],
+        "augmented_rhs": [
+          233.46281549983243,
+          -126623.86001929421,
+          0.0,
+          0.0
+        ],
+        "column_norms": [
+          672959.6181826219,
+          131385.58870050873
+        ],
+        "coordinate_scale": [
+          672959.6181826219,
+          131385.58870050873
+        ],
+        "damping_penalty_not_added_to_nonlinear_merit": true,
+        "exactly_zero_columns": [],
+        "first_two_parameter_direction": [
+          -0.09361803547736551,
+          -0.4794508453238373
+        ],
+        "lifted_original_three_parameter_direction": [
+          -0.09361803547736551,
+          -0.4794508453238373,
+          0.03459895985808484
+        ],
+        "lstsq_rcond_argument": null,
+        "original_J33": 1865745592.4775739,
+        "original_full_J_times_direction": [
+          145.79264137220719,
+          -125993.9905261164,
+          -8.86965075933326e-09
+        ],
+        "original_full_Jd_third_component": -8.86965075933326e-09,
+        "original_full_three_by_three_jacobian": [
+          [
+            -1107.9006322728314,
+            -114.81514473164688,
+            -375.0129361140701
+          ],
+          [
+            701367.4128892582,
+            196645.73358820114,
+            981203.2544866957
+          ],
+          [
+            54018763.03371744,
+            124091399.49520981,
+            1865745592.4775739
+          ]
+        ],
+        "original_full_three_merit_model_slope": -15953879456.811777,
+        "original_residual": [
+          -233.46281549983243,
+          126623.86001929421,
+          -7.863297485366516e-09
+        ],
+        "p3_tangent_by_first_two_parameters": [
+          -0.028952909363159456,
+          -0.06651035382076154
+        ],
+        "positive_damping": 0.1,
+        "same_model_spectrum": {
+          "completed": true,
+          "damping": 0.1,
+          "extra_nonlinear_candidate_or_new_acceptance_gate": false,
+          "ideal_filtered_residual_coordinates": [
+            629.970515370295,
+            -86.94128841740662
+          ],
+          "left_singular_vectors": [
+            [
+              -0.0011571079840525522,
+              0.9999993305503331
+            ],
+            [
+              0.9999993305503331,
+              0.001157107984051886
+            ]
+          ],
+          "linear_residual_removal_fraction": [
+            0.9950248745140257,
+            4.475683455471249e-05
+          ],
+          "linear_residual_retention_fraction": [
+            0.004975125485974305,
+            0.9999552431654454
+          ],
+          "original_first_two_residual_projected_coordinates": [
+            126624.04539268109,
+            -86.94517980843463
+          ],
+          "original_third_residual_not_in_this_two_coordinate_spectrum": -7.863297485366516e-09,
+          "right_singular_vectors_transposed": [
+            [
+              0.7071067811865474,
+              0.7071067811865477
+            ],
+            [
+              -0.7071067811865477,
+              0.7071067811865474
+            ]
+          ],
+          "singular_values": [
+            1.4142134041266974,
+            0.0006690204617095923
+          ],
+          "spectrum_of": "the actual scaled 2x2 Schur matrix at this saved approximate inner root"
+        },
+        "scaled_schur_matrix": [
+          [
+            -0.0016301764431068766,
+            -0.0006840392660431064
+          ],
+          [
+            0.9999986712614994,
+            0.9999997660451139
+          ]
+        ],
+        "scaled_two_coordinate_direction": [
+          -63001.15740985504,
+          -62992.93156582892
+        ],
+        "schema": "R278-approximate-inner-root-two-coordinate-LM-direction-v1",
+        "schur_is_algorithm_model_at_approximate_root_not_exact_IFT_derivative": true,
+        "schur_matrix": [
+          [
+            -1097.0429167235084,
+            -89.87290166333744
+          ],
+          [
+            672958.7239952679,
+            131385.5579622083
+          ]
+        ],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep both exterior coordinates"
+      },
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "predicted_seed_parameters": [
+            0.5993418126206123,
+            -0.3558313216330855,
+            0.5571313594151829
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 4826052324.173662,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0020.json.gz",
+            "bytes": 5681,
+            "sha256": "9a5fd9c8d8151678a4708cbb3171bf02d53e91a4fdfdb490cb106f5be5cec27b",
+            "inner_call": 20,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 1,
+          "alpha": 0.5,
+          "predicted_seed_parameters": [
+            0.646150830359295,
+            -0.11610589897116685,
+            0.5398318794861405
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 6421440269.854839,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0021.json.gz",
+            "bytes": 4216,
+            "sha256": "0057b7eceda363123c04c1172813e0c20642aaa321fd8a4536fe5df0a8f4795b",
+            "inner_call": 21,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 2,
+          "alpha": 0.25,
+          "predicted_seed_parameters": [
+            0.6695553392286363,
+            0.003756812359792472,
+            0.5311821395216193
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 7219134242.695429,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0022.json.gz",
+            "bytes": 4432,
+            "sha256": "458af89549a3501c037aa4dfccadbc141a2d8069545b0da08dca53fb83409a1e",
+            "inner_call": 22,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 3,
+          "alpha": 0.125,
+          "predicted_seed_parameters": [
+            0.6812575936633071,
+            0.06368816802527213,
+            0.5268572695393586
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 7617981229.115723,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0023.json.gz",
+            "bytes": 4107,
+            "sha256": "8eacbcaca4f9ea5728c420e2f4fb0d6b2e40973947c2c8fefe1fb2ab1033cb93",
+            "inner_call": 23,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 4,
+          "alpha": 0.0625,
+          "predicted_seed_parameters": [
+            0.6871087208806423,
+            0.09365384585801197,
+            0.5246948345482284
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 7817404722.3258705,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0024.json.gz",
+            "bytes": 4340,
+            "sha256": "50265a75f8726c2c4e1fdf9148faf61dc12e361f51809c0723485a7145a80712",
+            "inner_call": 24,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 5,
+          "alpha": 0.03125,
+          "predicted_seed_parameters": [
+            0.69003428448931,
+            0.10863668477438188,
+            0.5236136170526632
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 7917116468.9309435,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0025.json.gz",
+            "bytes": 4255,
+            "sha256": "41209b898e3dca9e741036be30fa6bab3e518927277200b974731943115af3b7",
+            "inner_call": 25,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 6,
+          "alpha": 0.015625,
+          "predicted_seed_parameters": [
+            0.6914970662936439,
+            0.11612810423256684,
+            0.5230730083048807
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 7966972342.23348,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0026.json.gz",
+            "bytes": 4068,
+            "sha256": "61e08d494d3ef23b82b3c61cbb40cc54a4d974eaf1d6c3a806f8940d5cf0be7c",
+            "inner_call": 26,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 7,
+          "alpha": 0.0078125,
+          "predicted_seed_parameters": [
+            0.6922284571958108,
+            0.11987381396165932,
+            0.5228027039309894
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 7991900278.884749,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0027.json.gz",
+            "bytes": 3869,
+            "sha256": "778f5c99d2c728c37def99cef07820ded7c332098840f09543a5b2373f1a73f0",
+            "inner_call": 27,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 8,
+          "alpha": 0.00390625,
+          "predicted_seed_parameters": [
+            0.6925941526468943,
+            0.12174666882620556,
+            0.5226675517440437
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8004364247.210383,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0028.json.gz",
+            "bytes": 3627,
+            "sha256": "a7ebcba86eb46352511fe98017d4e581bf055321d203e1913e7bf444097c440e",
+            "inner_call": 28,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 9,
+          "alpha": 0.001953125,
+          "predicted_seed_parameters": [
+            0.692777000372436,
+            0.12268309625847867,
+            0.5225999756505709
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8010596231.3732,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0029.json.gz",
+            "bytes": 3988,
+            "sha256": "bc8bed038825ad2008d0f05d5979ee69fc4e3eea0723c69cd49a231a52bc9507",
+            "inner_call": 29,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 10,
+          "alpha": 0.0009765625,
+          "predicted_seed_parameters": [
+            0.6928684242352069,
+            0.12315130997461524,
+            0.5225661876038344
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8013712223.454609,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0030.json.gz",
+            "bytes": 3825,
+            "sha256": "082f2254776911ccde197fce92aa4922ebe49c62f81278f21bba8bef86efcdea",
+            "inner_call": 30,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 11,
+          "alpha": 0.00048828125,
+          "predicted_seed_parameters": [
+            0.6929141361665923,
+            0.12338541683268352,
+            0.5225492935804663
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8015270219.495313,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0031.json.gz",
+            "bytes": 3792,
+            "sha256": "640cbb64239945a616c2b37434ae6f16e1f1a7b07c0ccadea4011f676357feb8",
+            "inner_call": 31,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 12,
+          "alpha": 0.000244140625,
+          "predicted_seed_parameters": [
+            0.692936992132285,
+            0.12350247026171766,
+            0.5225408465687822
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016049217.515665,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0032.json.gz",
+            "bytes": 3410,
+            "sha256": "c200e662d7914524d840744cde0dc75cf996e9512ac40e90c1a156785979e9e8",
+            "inner_call": 32,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 13,
+          "alpha": 0.0001220703125,
+          "predicted_seed_parameters": [
+            0.6929484201151314,
+            0.12356099697623472,
+            0.5225366230629401
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016438716.525842,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0033.json.gz",
+            "bytes": 3962,
+            "sha256": "f926f8070079d42ed2dfb07a3eb3de7b79ae4651af3f9016d04f9fc2d1f95f4d",
+            "inner_call": 33,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 14,
+          "alpha": 6.103515625e-05,
+          "predicted_seed_parameters": [
+            0.6929541341065546,
+            0.12359026033349327,
+            0.522534511310019
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016633466.03093,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0034.json.gz",
+            "bytes": 3616,
+            "sha256": "d132431adf992dd272c212a33635b67b1517634fa5b29c8bd86cd2d85f4d30a1",
+            "inner_call": 34,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 15,
+          "alpha": 3.0517578125e-05,
+          "predicted_seed_parameters": [
+            0.6929569911022662,
+            0.12360489201212253,
+            0.5225334554335586
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016730840.783473,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0035.json.gz",
+            "bytes": 3574,
+            "sha256": "785958cebaf1884099d8b25aa6cddef75144c35bae90bf18bf21f0a53e62212e",
+            "inner_call": 35,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 16,
+          "alpha": 1.52587890625e-05,
+          "predicted_seed_parameters": [
+            0.6929584196001219,
+            0.12361220785143716,
+            0.5225329274953283
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016779528.159745,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0036.json.gz",
+            "bytes": 3492,
+            "sha256": "25c99a46fb6843b477d43e6c6e40172617773f70105004a813bd6cfb67dd3620",
+            "inner_call": 36,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 17,
+          "alpha": 7.62939453125e-06,
+          "predicted_seed_parameters": [
+            0.6929591338490498,
+            0.12361586577109449,
+            0.5225326635262132
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016803871.847881,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0037.json.gz",
+            "bytes": 3098,
+            "sha256": "c429891b776e81487ca833ae11319efe254db4da66fc657a6b03af64ea1653ab",
+            "inner_call": 37,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 18,
+          "alpha": 3.814697265625e-06,
+          "predicted_seed_parameters": [
+            0.6929594909735137,
+            0.12361769473092314,
+            0.5225325315416557
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016816043.69195,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0038.json.gz",
+            "bytes": 3470,
+            "sha256": "baa3ebc292b948d6a82e34333b6dfcad68169dd8d80befa5bdd05862bb02a2b1",
+            "inner_call": 38,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        },
+        {
+          "trial": 19,
+          "alpha": 1.9073486328125e-06,
+          "predicted_seed_parameters": [
+            0.6929596695357457,
+            0.12361860921083746,
+            0.5225324655493768
+          ],
+          "accepted": false,
+          "merit_before": 8016828215.536017,
+          "original_Armijo_bound": 8016822129.613983,
+          "reason": "no usable actual approximate inner root; inner probes are not adopted",
+          "inner": {
+            "file": "inner-solves/inner-0039.json.gz",
+            "bytes": 3338,
+            "sha256": "599a9684d54db654260f8d8c9a628ed69ba5e692533fb6a4beb624f0eb0fd351",
+            "inner_call": 39,
+            "usable_inner_root": false,
+            "residual_tolerance_met": false,
+            "original_full_J_finite": true,
+            "original_J33_finite_nonzero": true,
+            "stop_reason": "all inner backtracks failed original domain or strict actual abs(d3) decrease"
+          }
+        }
+      ]
+    }
+  ],
+  "original_status": {
+    "file": "small-core-p3-inner-root/p3-inner-root-status.json",
+    "bytes": 498765,
+    "sha256": "e822be884ac07e2b2c46ac7aba7f589ba5233e86cdbb33ad9c95108cc8dca01e"
+  },
+  "copied_existing_status_only": true,
+  "complete_original_inner_reports_remain_in_artifact": true
+}
