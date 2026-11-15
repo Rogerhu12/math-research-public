@@ -125,3 +125,6 @@
 
 
 - [R630：原完整除法多项式的五层修正与首个非线性单位](results/R630-original-full-division-corrections-and-first-nonlinear-unit.md)：全L窗的原numerator误差达到p⁷，整个HA^j整性支付五个实际整商，首阶js与系数C_s^j/j!均unit；首个二次项准确从2s开始。保最高坏端点和全部卷积，指定det只到2s−1，未把新unit移作原中央非零。
+
+
+- [R633：原像锥与完整合流首Bockstein](results/R633-original-image-cone-and-complete-confluent-first-bockstein.md)：f_D<p下真锥外投影核恰实际t^s来源尾，完整β严格回同源Q及εc_sR；合流Vandermonde支付全部q/g高尾，并在显示(E)门下给准确κ_D及unit/p/高因子或零的计数。终端真实不等式与渐近阈值均保留，不把全C移为旧M、d₂或连续旗标。
