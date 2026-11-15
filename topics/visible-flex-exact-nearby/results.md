@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [新有限 Sobolev 精确外部与最终几何入口 G](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)：在S§11真实γ低/高域，完整κ/四状态给全tail小量；零宽long的差分商恢复mean方程。先乘w/a控制大A的精确曲率余项，得到全外部曲率<2、长<8e−6和同world位置/normal界。直接转授旧B的完整26几何门而不要求旧解析标签；核心全C0/相位/γ入口仍是明确未付条件。11904B/SHA256 d468f875bfcfdb6fb06ad34cedd7b20127df6ad645c928f5c68ea53b56a7873c。
+
 - [第二局部项与完整振幅 L 的 §4a](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)：精确求出 H_j^V 的第一逆列和 (iεy,x)M=G(x²+Ty²)(−iεy,x)，得到保留 rank 项的完整外积；w0 的两分量分别保 xy 与 y² 根零。原 n^-2、输入标签、输出 mean、旧域 determinant gap 与全部角导数仍在；这是解析等式，不宣称新实际范数或完整 high 逆。全文10242B/SHA256 0926ee2598e6ecef13050ad23331a7ef3cf575984b577c11b9a4f74cd7e86f81。
 
 - [第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)：原regular transport合并2w1T+cT w1，完整L2保持E12只取第二分量及原R_j(w0)/输入n^-1。G0(MZ)的ZX因K²=TI准确取消，g保真实n^-2逆矩阵rankφ，q保vφ及全mean；可用leading connection继续合并。须真正共用old-circle逆域/两source窗、|ρ|^-1/4根包络与seam；只授解析恒等，尚无数值改善或high返回通过。

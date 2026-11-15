@@ -371,3 +371,9 @@ root亲读Green10:44实际小快照，两流5970全成，past2928/24groups，尚
 root 逐式回核 determinant=−Δ、第一逆列、leading a0/b0 代入后的两分量抵消，独立于代理审查；新正文 blob f5212e8ac711a088b0bcf4d17b65c8c2350dd411 /10242B /SHA256 0926ee2598e6ecef13050ad23331a7ef3cf575984b577c11b9a4f74cd7e86f81。原 L1–15 和域/mean/trace义务保持。单独推送此结论，未运行新科学。
 
 root 亲读 Green11:04小过程53bb2cd42184515aef7610b46954e7b57ff038c5 /47146B /853f10e62bcbda127effb9f9c5a2f1fa5d72c2cf45cd9db592dcae325754c899：同run43690634784/1 future/product5970完成、past3360、53groups、3consumers；真pull11:04:15.885318到a2bd847d4bc5385d2143a1e5f3a474e9c54ee8d7，两README23次diff空。另亲读P run43705772615 job132786394695真实status failure：step9失败、之前AST/runtime均success；日志未核，暂不把901s推测写成0math。发布前又核两README在41ef8d7de1843bd8c831eb9d9166673bb552409c未变。
+
+### 2026-11-15 11:07:01 UTC — 新有限Sob exact外部转授旧完整几何
+
+root亲读原E_ext/long/B、完整141锚和C0 forward证明后建立G，tail_connector独立回读各原文与G全文通过。正文blob5c631b34107c6a92d3a1f257830cd3a15485a3c6 /11904B /SHA256 d468f875bfcfdb6fb06ad34cedd7b20127df6ad645c928f5c68ea53b56a7873c。补实角平移差分商逆16/15与long原§5的holonomy导数定位；全κ、小状态、真实物理w/a和wa、同world高度保留。无需重复旧geometry43584188751/26、141blocks/8966pieces或任何几何数组。
+
+纠正当前缺口分类：旧B已支付bF/bQ、整数mean分支与整套几何预算；新G现在给新的有限Sob尾部真正进入该条件结论。尚未成的是同对象全core逆/非线性解、全C0≤1e−4与实际physicalγ低/高域；44ρ帽球不直接替代全C0。P16保全部regular第四Robin和mean，ν单独付phase，振幅是输出。压缩前相关H/open全文在a5108aa2290916893f83e1eec82e92bbfd5492fb同路径，未删一般给定独立荷。发布前两README于5039b4f8903542aa303bdef44760931f3632e5c2未变。

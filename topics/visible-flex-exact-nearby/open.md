@@ -278,7 +278,7 @@ E1856变化<2^-1700000000。
 S40–41由真深层profile及完整mean给scalarheight物理a-jets C²平延，保全部ρ费用。
 T§10现在由同一coframe/Ω/α/X积分与显式三个二阶jet，证明真实C²整平盘；
 core/waist全匹配后才由共同quarter旋转与唯一腰平面推出镜像两盘同轴。
-实际盘距、G17/G24及最终embedding/reach仍须另核。
+实际盘距和全部几何费用现由第7节G在同对象core/fullC0入口下转授旧B，核心入口仍待。
 S§11只逐个固定γ授exact tail存在，尚不自动给γ→u∞选解图可微。
 其RG种子a94(γ)和对应冻结Γ2可随γ变化；R的fixed-metric tiny列不能未经
 真实参数/差分论证就认成该选解图的导数。最终core仍须验证完整物理γ低/高门。
@@ -357,40 +357,37 @@ Rτ G S−τ后作同四块真实静态曲率替换，即得共同最终metric�
 当前欠项是单个G及其完整augmented匹配/平盘/几何条件，
 不是一个额外未指定的ν/flex分支；沿Γ1的设计收敛本身也不授这些条件。
 
-## 7. 单一frame、全部匹配及最后几何
+## 7. 单一frame、同对象几何及最终族
 
-正collar不变principal的完整参数族证明已用于实际G种子。
-[T单一frame接口](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)
-已经证明：gh=g−dz²，真coframe/连接Ω保全部径向phase，
-Ω_t=q(1+K)(V−P)/(B√D)，dΩ=qJD^-3/2 residual dt∧dθ。
-只有PDE residual=0时dΩ=0，才可由一个共同frame/位置积分。
-四重周期与holonomy-one给真实位置周期。
-matching完整height和slope包含mean后，由一个共同frame/位置接续；
-两个确已独立指定的端frame才需额外比较。不得以off-shell种子称已存在等距面。
+[T单一frame与真盘](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)
+保gh=g−dz²、完整coframe/Ω与一次frame/位置积分；真PDE/holonomy给闭连接和位置周期。
+S已给固定合格γ的真body+far，T§10已给物理C²整盘及全角材料作用。
+同一B截面匹配全四态/曲率mean，接合一次mean-height常数即可续接；
+当前自由安放不增加第二个独立世界锚或函数位置方程。
+[原M全迹/腰反射](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md)
+在真实腰u0等条件后给同一次重建的镜像闭C²浸入。
+共同quarter旋转保持唯一腰平面，故镜像两盘同轴；固定phase offset可不同。
 
-T新增§9现已准确接原[完整两迹与腰反射M](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md)：
-当前只求存在的单半面路线没有预先独立指定两个世界锚。
-同一个真tail须解完整PDE、holonomy、真平盘及T22非线性far，
-用同一实际fB和holonomy小根匹配完整四态/曲率mean；
-在同一个B截面接合一次mean-height积分常数后，由T17单一frame接续。
-内core的T23仍须解全函数B、C非mean及独立Cmean，保腰u0/物理振幅/设计ν。
-完整第二形式匹配后，原M3–8已给同一次径向重建及C²全圈接缝，
-不新增函数位置方程。腰a'=E'=B=0及真上平盘给M9–11镜像闭C²浸入；
-下半面只是同一个上半面的镜像，不是另一个独立帽问题。
+[G新有限Sobolev外部到最终几何](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)
+现在直接从S/T的E1856极限证明全外部曲率<2、内蕴径向长<8e−6、
+同world位置与normal界；完整κ/mean不删。零宽long的差分商给完整mean方程；
+无限tail先乘w/a才估余项，不把大A冒充≤7，不假定旧X224解析label。
 
-T§10已完成S40–41之后的整空间平盘接口：gh的C¹极限给Ωa→0/Ωθ→1，
-同一次frame确定唯一圆心c与phase，Xaa/Xaθ/Xθθ显式极限与平盘仿射式完全相接。
-因此包括材料中心的整盘是真C² immersion，且满足全角材料作用。
-只有T23与腰条件真正解出后，quarter旋转保持唯一腰平面，才得两镜像平盘同轴；
-它们的真实盘距2|zf−zw|并未由本节指定，仍需G17和同对象几何。
+[旧B全C0最终几何](results/R133-supplement-final-geometry-from-complete-C0-ball.md)
+已完整支付141块腰锚比较费、full forward state误差和43584188751/26门。
+B2–3从真实周期frame及mean区间锁定整数绕数1，早于全局embedding，未循环。
+bF/bQ及跨端真实高度已经包含在其同对象条件预算；不用重跑这些数值。
+新G所需的最后入口是：同η0的全core（含实际cap[.9,25/8]）满足
+full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
+腰u0、physical第四Robin/mean及P16的设计ν相位行。
+物理振幅是输出，不另加入固定α等式；原所有真实参数/荷仍保。
+实际physical γ还须落在A0/rγ≤1/128及H8193/rγ≤2^1048576；
+帽的小值球、moving有限97均不自动给这些完整门。
 
-完整内core、waist振幅/设计ν等条件仍须真正求解。跨端ΔHp、未screen meanheight/aw(L)/165、
-一个整体λ以及bF/bQ仍是同一次重建的实际输出，必须付G17/G24几何误差。
-它们在自由安放路线中不是额外指定的世界坐标等式；
-若另给独立flux/height/frame数据，原A/B的一般增广逆义务仍适用。
-
-继续完整无限Green/strong-return/cutoff、真ν响应及实际core/帽/tail匹配，
-再在同一个闭G上核全域几何和README验收，最后用P静态marker相位族。
+在这些入口实际成立后，旧B给embedding/reach/held/Hdiam及四marker，
+再用[P固定metric相位族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)
+一次冻结ν*/Γ1*/Γ2*/η并得到README所需族。当前核心存在和全频逆尚未闭合，
+故这些条件结论不宣称已经得到最终G；继续实际Green/strong-return/core求解。
 
 ## 8. 执行规则与当前可恢复记录
 
