@@ -164,3 +164,8 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:46:16 UTC — actual collar源单位文字澄清
 
 两README在796324830b160dc5961126c42318392f23eff3d0亲核未变。actual报告只将A3已有5.883617e−11源和factorialsum明确为P=diag(K^-1/4,K^1/4)后、normalized普通L2(dr dφ)，P径向且一次收费。root亲读唯一diff；最终报告0860c1e1/11573B。原91verdict、所有数值/结论、SCI/manifest/actual618bd148和dbe7fe24完全不改，没有新计算或重跑。
+
+## 2026-11-15 12:51:00 UTC — cut full193实际成功；原低充分门false保持
+
+两README在eb5f29341062fbcece91e0fb85047e730cd0bc24亲核未变。root亲读完整cut结论5d74a0f2/7733B、process82b7c376/13640B与报告048c84d5/9729B，source/worker/manifest及9门逐项一致；child0/math.027363467s，零旧target/trial/angle/repair/matrix/Green重算。fullmean≈−.003278095187252、六CS字段与完整shape/角/L2/repair齐。J18 known上界1.030682140972e−11、target7.8125e−12、剩余负−2.494321409717e−12保原，未知校正未评；更尖value-map另证明，不改成功科学输出。新temp24323B/SHA3658bd39不保存；预Git完整stdout8475B/435a021f。
+亲读cut真pull12:45:44.009824→e2db433eb4f317c1a5c84b4bcb2f8ad19f084817，两README diff空。root亦亲读Green12:44小process39663B/e63d111e，truepull12:44:29.764146→acedf945458a4909bccb2281484bc7dd7436a381，两diff空；future2672=1886旧+786新/past608/product752/groups0只是末报告，child尚null。H/open中B旧详账压缩引用47dd93ac同路径，未删义务/未授权重算。

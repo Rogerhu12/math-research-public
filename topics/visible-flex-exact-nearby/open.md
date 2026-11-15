@@ -115,19 +115,8 @@ transport/Taylor/profile/moment/源行只恢复。
 原P首/第三0child、第二1child临时结果丢失后按授权重做，完整失败链/域/门见原报告；
 更多旧D/P细账逐字保于0453ca70f6af06098055286cf175992400faed97同页，旧成功不重算。
 
-[B正预算分离及新完整tail](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)
-原whole Taylor纯正加和与C两支min共同addend已逐式证明，减的只是同数值预算的严格lower。
-[actual43711480764/1](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)
-现成功：child0/19门/math.006179695s，24pins688041B，P原17全保，6旧receipt/18coeff/31terms只读；
-新RT3/5000完整域通过，6二径0..2角导中3个b1严格改善、3个a1保原，全finite/n≥13/两signed Fourier尾保。
-新完整op<1.119950e15，q1<.004848651663，raw1<1.722740e14；
-local<2.928210e14、nonlocal<4.111362e14、first<7.039571e14、mean<5.266503e12、pair<7.039768e14。
-仅raw1变化，其它20first+10mean逐字P；旧Taylor/FFT/transport/profile/calibration/word/径向积分0重算。
-完整真实dr、平方rho^-1/2权、outer J与不确定根单侧包络、mean/seam/Piola保。
-现在最大项density1 RQJg<2.496417e14，其次raw1、density0 RQJg<1.605165e14、raw2<1.205471e14。
-B已锁成功，不重跑；后续g/y/q消费者须读该新ledger。
-L2实际43711568963/1 q2=1不收紧，其raw2已等于B内旧项，不需另做合并数学。
-大的volume upper不直接授strong-return，也不是算子下界。
+[B正预算分离](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)与[actual43711480764/1](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)成功锁：child0/19门，q1<.004848651663，仅raw1收紧；其余20first/10mean逐字P。完整RT/正预算/六jet/finite与tail/真实dr-root-mean域、失败链和数值逐字保47dd93ace95c65d9858743f658244dfd6a2c9320同路径本段及原文，旧成功不重算。
+最新完整ledger由下面G消费；L2的q2=1没有新增改善，不能另造合并数学。volume upper不是算子下界或strong-return常数。
 
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
@@ -268,8 +257,10 @@ SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24
 若另已造同collar真H1解并在相应C0球，则same cut H8193差<2^377904<2^393000；高门不构成core存在。
 五个selected代表低H1充分门全false，最小界.000389113仍远大于J的15e−9/128；上界大不证明实际误差大。
 完整已知δZ cut shape/mean与未知correction须分列，实际低γ和core图继续。
-[cut shape/mean消费契约](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)首次部署，SCI745fc480/workerc7c83418/manifest95541c2e。
-只从两旧native的193真实幅度/65 base端点构造signed shape，保完整mean、A0/角A0/L2与连续repair；J18低剩余量和CS行费实际值待run，未知correction不代入。
+[cut shape/mean消费契约](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)及[actual43715426316/1](results/R133-supplement-actual-selected-cut-shape-mean-and-component-bounds.md)成功锁：child0/9门/math.027363467s，SCI745fc480/workerc7c83418/manifest95541c2e。
+report048c84d5/conclusion5d74a0f2/process82b7c376；193真实幅度/base32 signed shape、全mean/连续repair均保，0旧math。
+未乘d的xi/xiφ/ζ/ζφ/mean/shape A0上界分别.241363696/.991176944/.601228813/2.456459299/.003278096/.597994429，直接供CS完整行费。
+J18 known上界1.030683e−11大于7.8125e−12，负剩余−2.494322e−12完整保；这不是实际γ下界。未知correction未评，更尖known value-map与真实低入口继续。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
@@ -327,6 +318,6 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，12:21:47定时及12:41非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green末真pull12:24:20.569632→8fe36964673e78c8e9d503581e1038ee89aca2dc，两README diff空；H记完整SHA，终端恢复即pull查差。
+本机executor持续不可用，12:21:47定时及12:41非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green真pull12:44:29.764146→acedf945458a4909bccb2281484bc7dd7436a381及cut12:45:44.009824→e2db433eb4f317c1a5c84b4bcb2f8ad19f084817，两README diff均空；终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
