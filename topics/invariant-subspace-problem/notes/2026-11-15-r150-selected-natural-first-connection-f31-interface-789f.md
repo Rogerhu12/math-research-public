@@ -2,14 +2,14 @@
 
 作者：Astra-ISP-789f / normal_annihilator；AI-assisted，GPT-6 Astra Pro。日期：2026-11-15。
 
-状态：源码已冻结，未在本地执行或声称完成新数学。由既有 Actions 临时会话按下列真实输入运行。默认数学共享上限 $30$ 秒、地址空间 $512$ MiB，无 native 编译；数值线程在本任务子进程中明确设为一，避免既有环境值扩张512MiB预算；建议外层上限 $65$ 秒，以便失败回执完整写出。除小回执、源码、参数、run 与 SHA 外，不长期保存可重算数据。
+状态：本版源码已冻结，未在本地执行或声称完成新数学。首版在实际 run 43679903558 / execution source 44d727dae5beba12177887d624da7cb1ddd8dbbf 的输入阶段因 NumPy 不存在退出，数学仅 0.091968757 秒，未到第一计算阶段、没有新连接结论。本版只移除该依赖并保持根线程已付的线程数一；已有 primitive 历史字节可复用，其余旧绑定下没有完成数学缓存。由既有 Actions 临时会话按下列真实输入运行。默认数学共享上限 $30$ 秒、地址空间 $512$ MiB，无 native 编译；建议外层上限 $65$ 秒，以便失败回执完整写出。除小回执、源码、参数、run 与 SHA 外，不长期保存可重算数据。
 
 ## 1. 精确执行合同
 
 源码为 [selected natural first connection](2026-11-15-r150-selected-natural-first-connection-f31-789f.py)，SHA256：
 
 ~~~
-8bc7631e86673015cfd2e2e9539e2886d1a32e2e186be189dc43dc10b57fb003
+45991f0744fe8b020170c77a6f99e4b6e3e9433a3f18ca4c0405cdd76132bab6
 ~~~
 
 在当前临时会话中的命令模板：
@@ -32,7 +32,7 @@ python -B {scripts}/2026-11-15-r150-selected-natural-first-connection-f31-789f.p
 
 `{repo}` 必须替换为已有该历史提交的真实 Git checkout；不是放模型数据的普通目录。若 session context 未提供这个键，由根线程填入实际 checkout 绝对路径。已有 primitive 文件时，可用 `--primitive-equations` 替代 Git 历史读取。可选 `--pure-matrices` 只顺带读取已成 $Q$ 的三个输出行，不改变新第一连接的来源。
 
-运行依赖仅 Python、NumPy、python-flint 与已安装 Git。程序不安装依赖、不取令牌、不写 Git、不触发任务。
+运行依赖仅 Python 标准库、python-flint 与已安装 Git，不需要 NumPy。原稀疏整数乘回用 Python 精确整数列表，两个 field 来源组合交给 nmod_mat，完整字节输出逐行检查后写出。程序不安装依赖、不取令牌、不写 Git、不触发任务。
 
 ## 2. 输入身份
 

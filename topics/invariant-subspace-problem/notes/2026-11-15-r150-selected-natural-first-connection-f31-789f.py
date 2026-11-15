@@ -45,13 +45,19 @@ def save_json(p,x):
  os.replace(tmp,p)
  return {"file":p.name,**file_identity(p),"temporaryOnly":True}
 def save_field(p,A):
- import numpy as np
- B=np.asarray(A,dtype=np.int64)
- need(B.ndim==2 and bool(np.all((B>=0)&(B<31))),"complete canonical field matrix")
- raw=b"R150BC31"+struct.pack("<III",31,*B.shape)+B.astype(np.uint8).tobytes(order="C")
+ if hasattr(A,"nrows"):
+  nr,nc=A.nrows(),A.ncols()
+  rows=([int(A[i,j]) for j in range(nc)] for i in range(nr))
+ else:
+  nr=len(A);nc=len(A[0]) if nr else 0;rows=iter(A)
+ raw=bytearray(b"R150BC31"+struct.pack("<III",31,nr,nc))
+ for row in rows:
+  need(len(row)==nc and all(0<=int(v)<31 for v in row),"complete canonical field matrix")
+  raw.extend(bytes(int(v) for v in row))
+ need(len(raw)==20+nr*nc,"full field array size")
  p=pathlib.Path(p);tmp=p.with_name(p.name+".tmp")
  tmp.write_bytes(raw);os.replace(tmp,p)
- return {"file":p.name,**digest(raw),"rows":B.shape[0],"cols":B.shape[1],"temporaryOnly":True}
+ return {"file":p.name,**digest(raw),"rows":nr,"cols":nc,"temporaryOnly":True}
 def iszero(M):return all(not M[i,j] for i in range(M.nrows()) for j in range(M.ncols()))
 def rows_of(M):return [[int(M[i,j]) for j in range(M.ncols())] for i in range(M.nrows())]
 def nullspace31(M):
@@ -87,7 +93,7 @@ def main(argv):
  resource.setrlimit(resource.RLIMIT_AS,(int(a.memory_mib*1024**2),)*2)
  out=a.out.resolve();out.mkdir(parents=True,exist_ok=True);start=time.monotonic()
  rec={"format":"isp-same-selected-natural-u-first-connection-f31-v1","status":"running","phase":"inputs",
-  "oldLargeNormalFormsRecomputed":False,"newDixonDigitsComputed":0,"newOtherPrimeComputed":False,
+  "oldLargeNormalFormsRecomputed":False,"newDixonDigitsComputed":0,"newOtherPrimeComputed":False,"numpyRequired":False,
   "characteristicZeroSelectedFirstConnectionComputed":False,"leadingUnitProved":False,
   "largeDataUploadedOrCommitted":False,"parameters":{},"events":[]}
  temps=[];exitcode=1
@@ -166,13 +172,13 @@ def main(argv):
   take(ns*3);need(list(map(int,take(nt)))==list(range(2,11)),"frozen original nine target labels")
   need(next(tok,None) is None and native_checks==4433,"complete original native input and4433 exact parameter checks")
   from flint import nmod_mat,fmpq,fmpq_mat
-  import numpy as np
   kb=raw["kernel36"];need(kb[:8]==b"R150BC31" and struct.unpack_from("<III",kb,8)==(31,6188,36),"complete original field kernel header")
-  K=np.frombuffer(kb,dtype=np.uint8,offset=20).reshape(6188,36).astype(np.int64)
-  need(bool(np.all(K<31)),"canonical original field kernel")
+  need(len(kb)==20+6188*36,"complete original field kernel bytes")
+  K=[list(kb[20+36*i:20+36*(i+1)]) for i in range(6188)]
+  need(all(v<31 for row in K for v in row),"canonical original field kernel")
   outside=[r-1 for r in range(1,6189) if r not in J]
-  need(not bool(np.any(K[outside,:])),"all original kernel source support is sameJ")
-  need(bool(np.array_equal(K[[r-1 for r in free_raw],:],np.eye(36,dtype=np.int64))),"all36 original free coordinates identity")
+  need(not any(any(K[r]) for r in outside),"all original kernel source support is sameJ")
+  need(all(K[free_raw[i]-1]==[int(i==j) for j in range(36)] for i in range(36)),"all36 original free coordinates identity")
   whole=[q for d in range(5,0,-1) for q in itertools.combinations_with_replacement(range(11),d)]
   multipliers=[q for d in range(4) for q in itertools.combinations_with_replacement(range(11),d)]
   mon=[(i,) for i in range(11)]+[(i,j) for i in range(11) for j in range(i,11)]
@@ -236,42 +242,44 @@ def main(argv):
   prodp=out/"whole-natural-first-product-field31.json.gz"
   if prodp.exists():
    c=parse_json_bytes(prodp,prodp.read_bytes());need(c["binding"]==binding and c["all4367ConstantProductsZero"] is True,"same completed original product")
-   R1=np.asarray(c["naturalFirstProductRows"],dtype=np.int64)
-   need(R1.shape==(4367,36) and bool(np.all((R1>=0)&(R1<31))),"complete canonical restored original first product")
+   R1=c["naturalFirstProductRows"]
+   need(len(R1)==4367 and all(len(row)==36 and all(isinstance(v,int) and 0<=v<31 for v in row) for row in R1),"complete canonical restored original first product")
    rec["events"].append({"reusedCompleteOriginalNaturalFirstProduct":True})
   else:
-   R0=np.zeros((4367,36),dtype=np.int64);R1=np.zeros((4367,36),dtype=np.int64)
-   # Each coordinate receives at most6188*77*30*30 <2^31, so no int64 overflow.
-   need(6188*77*30*30<2**31,"explicit exact accumulator bound")
+   R0=[[0]*36 for _ in range(4367)];R1=[[0]*36 for _ in range(4367)]
+   # Standard Python integers are exact. Sparse source rows avoid zero products.
    for ix,raw_id in enumerate(sorted(J)):
-    v=K[raw_id-1,:]
-    if not np.any(v):continue
+    active=[(k,v) for k,v in enumerate(K[raw_id-1]) if v]
+    if not active:continue
     e=(raw_id-1)%17;mul=multipliers[(raw_id-1)//17]
     for j,m in enumerate(mon):
      z0=F0[e][j]%31;z1=F1[e][j]%31
      if z0 or z1:
       r=wi[tuple(sorted(mul+m))]
-      if z0:R0[r,:]+=z0*v
-      if z1:R1[r,:]+=z1*v
+      if z0:
+       rr=R0[r]
+       for k,v in active:rr[k]+=z0*v
+      if z1:
+       rr=R1[r]
+       for k,v in active:rr[k]+=z1*v
     if ix%500==499:remaining()
-   R0%=31;R1%=31
-   need(not bool(np.any(R0)),"all4367 by36 constant original kernel products")
-   save_json(prodp,{"binding":binding,"all4367ConstantProductsZero":True,"all36SelectedSourceHeadsRetained":True,"naturalFirstProductRows":R1.tolist()})
+   R0=[[v%31 for v in row] for row in R0];R1=[[v%31 for v in row] for row in R1]
+   need(not any(any(row) for row in R0),"all4367 by36 constant original kernel products")
+   save_json(prodp,{"binding":binding,"all4367ConstantProductsZero":True,"all36SelectedSourceHeadsRetained":True,"naturalFirstProductRows":R1})
   temps.append({"file":prodp.name,**file_identity(prodp),"temporaryOnly":True})
   beat("complete-same-selected-first-connection")
-  LR=nmod_mat(R1[projected,:].tolist(),31)
+  LR=nmod_mat([R1[i] for i in projected],31)
   low=LS.transpose()*LR
-  connection=nmod_mat(R1[pureI,:].tolist()+rows_of(low),31)
+  connection=nmod_mat([R1[i] for i in pureI]+rows_of(low),31)
   need((connection.nrows(),connection.ncols())==(36,36),"complete sameI firstconnection")
   heads,brank,bp,bf=nullspace31(connection)
   # Full-output selected coker49 is also retained; this is NOT the fullA0 coker27.
   pureFull=[i for i,q in enumerate(whole) if all(j>=9 for j in q)]
-  fullconnection=nmod_mat(R1[pureFull,:].tolist()+rows_of(L.transpose()*LR),31)
+  fullconnection=nmod_mat([R1[i] for i in pureFull]+rows_of(L.transpose()*LR),31)
   need((fullconnection.nrows(),fullconnection.ncols())==(49,36),"complete full-output selected49 coker")
   fullrank=int(fullconnection.rank())
-  HM=np.asarray(rows_of(heads),dtype=np.int64)
-  original_heads=(K@HM)%31
-  first_head_products=(R1@HM)%31
+  original_heads=nmod_mat(K,31)*heads
+  first_head_products=nmod_mat(R1,31)*heads
   need(iszero(connection*heads),"complete next33-or-other first-kernel source relations")
   temps.append(save_field(out/"same-selected-natural-first-connection31.bin",rows_of(connection)))
   temps.append(save_field(out/"full-output-selected-first-connection49-field31.bin",rows_of(fullconnection)))
