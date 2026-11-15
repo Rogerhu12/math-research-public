@@ -113,15 +113,15 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)已实核原585维投影rank556、954来源全乘回、完整29左核，结合同原mod31单位子式给full/square常数Qrank恰4318、核相同36维。原31单位块给完整规范图核在Z_(31)存在，旧p768规范数组与它同余；显式全6188/4367核证书仍29，七补方向存在已证，毋须以继续大有理恢复作为存在性门槛。
 
-[同选全连接包络零](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)使全部36常核可用full来源提升至u²，先得指定50/49/48；现[完整Smith与29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)现结合[完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)严格加强为D/原来源换列/cofactor≥63/62/59。现[有限K77](results/R150-appendix-zero-second-connection-pure-cancellation-factor77-and-cost8678.md)下q238…8630，原目标已有Q[s]成员性才得来源cost≤8675；九模31⁶费1339不付成员性、leading31单位或固定e无界精度。该加强由active Smith来源因子的独立消失阶推出；任意analytic目标换列只直接得59，不取原来源换列62。仍须完整Smith/leading单位与原成员性。
+[同选全连接包络零](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)使全部36常核可用full来源提升至u²，先得指定50/49/48；现[完整Smith与29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)现结合[完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)严格加强为D/原来源换列/cofactor≥63/62/59。现[有限K80](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)下q235…8627，原目标已有Q[s]成员性才得来源cost≤8672；九模31⁶费1339不付成员性、leading31单位或固定e无界精度。该加强由active Smith来源因子的独立消失阶推出；任意analytic目标换列只直接得59，不取原来源换列62。仍须完整Smith/leading单位与原成员性。
 
 585投影亦准确识别同I删去三线性输出，不偷非纯来源独立。原Dixon1085位/31466bit与1567DAG仍临时保存，18次重建未返解；只在需要显式来源时同binding接续，不再为常核维数盲加位数。旧Koszul族1632、二次skew降次、LLL/闭包/单65521均已完成，不重做。下一最小接口保真实自然u及同I,J，常数31饱和不能替D_h首非零系数单位。
 
 
-[完整∞第二连接零与公共34](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已实核剩余3横向延拓：1088×595秩578/582/582、所有1088校正真，另5100原来源由次数自动零；连已付20纯left2jets，覆盖完整23维第二页对偶。故β2=0、δ4354≥34/δ4353≥31，指定63/62/59。有限s0仍只付r1≤4、r1+r2≤7和公共s31/K77；正准备其完整normal3二阶接口，不预假第一秩等号。下界不等于首项单位。
+[完整∞第二连接零与公共34](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已实核剩余3横向延拓：1088×595秩578/582/582、所有1088校正真，另5100原来源由次数自动零；连已付20纯left2jets，覆盖完整23维第二页对偶。故β2=0、δ4354≥34/δ4353≥31，指定63/62/59。有限s0现[完整23条二阶左延拓](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)实际1.537155172秒给r1+r2≤4及r1≤4、公共s34/K80；不预假第一秩等号，不单称零点β2=0。下界不等于首项单位。
 
 
-[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)给同I/J完整接口；[自然连接全源实绩](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)在0.866102738秒独立复核旧rankF31=3/≥69，新增保全部49余的同秩、33个原常项头和全4367自然一阶产品。原4433参数/1309常系数全核，deletedQ三行真Qrank3给fullA0|I=4340，故两个有理第一像秩相同但仅有下界3。后继沿原4318单位partial inverse与来源DAG计算真实自然u逐阶校正，不把33头当已存完整提升。有限s0 normal3二阶小接口已排，完整原6188来源不删。
+[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)给同I/J完整接口；[自然连接全源实绩](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)在0.866102738秒独立复核旧rankF31=3/≥69，新增保全部49余的同秩、33个原常项头和全4367自然一阶产品。原4433参数/1309常系数全核，deletedQ三行真Qrank3给fullA0|I=4340，故两个有理第一像秩相同但仅有下界3。后继沿原4318单位partial inverse与来源DAG计算真实自然u逐阶校正，不把33头当已存完整提升。有限s0 normal3已成，下一∞第三页只新增u³原系数并保全部既有二阶规范。
 
 ### 强联块同w、同源普通封口
 
