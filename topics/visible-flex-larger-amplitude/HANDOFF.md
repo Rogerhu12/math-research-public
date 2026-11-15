@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 14:44:00 UTC 已读 78873365ee664e62a8002cdf694dc23a6e1a996d，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 14:47:43 UTC 已读 fde448ad09589fcc120e2a83bd02a52413572c1c，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -25,7 +25,6 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |152 root|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；来源过，step14运行|
 |156 geometry|43724040548 / 132841952200|1ca4196b99b61428bc4ab216bbc713ba2e77023e；来源过，step9 C运行|
 |151 root|43724306509 / 132842781513|618a9369d2bd45210767e294726cec10be1cd2df；来源过，step10 C运行|
-|154 amplitude|43724606619 / 132843730556|2a4ce61f26a2f9d6f0f2729e037ee6c0b8220e5b；compute及report132845644222 success，完整结果由R335整理|
 
 raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源码/参数/时限/输出约定。
 
@@ -45,7 +44,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [R333 actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)八真model/freshFD，27trial/8接受/19域拒，末physical .0071047205741851865、全native/fullDNfalse。末五拒所选35全合法而未选MID489/490失败；已选非线性曲率、未选缺项、512/200dual大后验分列。八摘要及末warm/status身份由R333全保，raw已清。
 
-155未发；终端失联后完整10件已重建小blob。身份清单blob a17404662c597c58769d2f17a0223942051db13d、总接口03527c127d54e46a03fd10b96eb92b5ed5394514，含全部正式path/SHA/恢复diff。明确fresh actual98另起8真model/freshFD；37=21LEFT+16MID（新489/490）、24cells/29端点463..491/B9805/75776角行/C4059/236036。六源相对a7ce557原35逐字逆变换已核；末稿无本地AST，Actions原前置负责。全部trial/异常存留→always读回→清，原完整H/J/W/域/门保，无大步/最优承诺。
+155未发；终端失联后完整10件已重建小blob，搬移status须在完整读回后，always另扫parent-after，exact正同步末修订。身份清单blob a17404662c597c58769d2f17a0223942051db13d、总接口03527c127d54e46a03fd10b96eb92b5ed5394514，含全部正式path/SHA/恢复diff。明确fresh actual98另起8真model/freshFD；37=21LEFT+16MID（新489/490）、24cells/29端点463..491/B9805/75776角行/C4059/236036。六源相对a7ce557原35逐字逆变换已核；末稿无本地AST，Actions原前置负责。全部trial/异常存留→always读回→清，原完整H/J/W/域/门保，无大步/最优承诺。
 
 ## geometry：156实际与真正153
 
@@ -57,13 +56,13 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)已推db77f490，c0bda335/cd5b77f5；全453/450/459、公共u/freshRHS、112非除Robin/商分开，线性solve拒绝。153恢复源未发、无末稿本地AST；完整小blob：QR3634718b5d81f5242dc23f7cf0befe24a9749511，owner18373f04633bd1aa74e5b3d1f523efbf706f0de2，bridgeaf77d329df3e7ee9384de19ffd2b9c31cf9c8ed1，worker17763a4563f305d541e39552dedb34d8d4b1591d，samplingf7a2741a07742bbc968a5970664af04ad39fbc0b，client9203637c5a72f73a8c5dcee5e0b4ec8228db68b4。继续完整launcher/读回/参数；真物理r逆像及同rFar全112传播，不重标node半径中点，真实root/RK/mean/full576/currentH、η0全112/338/audit全保。盒中点共同实现全C和无限非线性认证未付。
 
-## amplitude：154完整曲率实际
+## amplitude：154实际已付，157残差二次模型
 
-[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)8方向11trial8接受，仅微降W；11normal一次Newton、55样本全working，仍3外拒真增W。完整原值/FD/Arb/453及身份正文保，最终全false。
+[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)持久50位/完整9响应原值已付；[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)完整merit Hessian/原c_A/路径曲率责任保持。
 
-[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)最终11282B/16385345（3360e42e修订）：全Hessian/jet、移位+Cauchy、有限误差/路径曲率，c_A准确提升原binary64 0.2，不保有限档成功。
+[154 R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)run43724606619/source2a4ce61f、compute132843730556/report132845644222双success；8方向70直线trial/8接受/62真merit拒、normal回退0、域异常0。全新增54二阶FD及原108一阶FD有效、十literal数组同149，92组887段完整重建；全部unit/full112/native/nonzero/success仍false。大负曲率步原W可至1.417e8，深回溯才接受，未解决大步模型；全部原70行/末九p50/原值/来源/未访后缀正文保，raw已清。
 
-[154接口](notes/2026-11-15-request154-complete-nine-curvature-and-straight-trust-interface.md)九源/参数全文已发2a4ce61f；104+8pins/39闭包/真149九p50、新Δ=.01，全部二阶/谱/shift/Cauchy、原20+备用20与完整final保。实际已终态成功，amplitude完整读回70trial、初末全部FD/终门/92组887段，R335待结论提交；不把小步接受冒大步模型准确。所有字段先读后清、无新raw入库；原接口保全部精确来源与预算。
+157由amplitude直接继续完整九维残差二次模型的平方，保全部三残差及原forward slope/域/c_A/final；仅代数可见三次/非负四次项，实际唯一机制未证。可用R335末九p字符串，显式新半径，有限内解不冒全局最优。R336证明编号预留，本次未派发157或预填结果。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)已证原域 a>0、P=a²|d×e|²−ν²|d|⁶>0等价、仿射完整八次/Bernstein、真实Hermite RHS缺陷及全乘积误差传递；无当前系数/二阶包围/域数值，不充155前置门。原R334终端写入未确认，正式完整文本重建发布；R327–R333遗漏索引本次补齐。
 

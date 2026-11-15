@@ -111,7 +111,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
 
-[146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)/[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)实际已结清：149真Decimal50八方向/11trial/八接受，只微小W下降；11normal一次Newton、0内拒/域错、55样本全working，3外拒真增W，所有最终false。全部原值、15groups/128段、两套FD及投影责任由R329保。[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)付完整Hessian/二阶jet、有限误差和直线/normal额外曲率，c_A为原binary64 0.2准确实值。[154完整曲率实验](notes/2026-11-15-request154-complete-nine-curvature-and-straight-trust-interface.md)本次派发：真149九p字符串，新Δ=.01；全3×9×9/full112二阶，直线20后才另标原GN/normal20，原W/域/最终门保，所有shift/FD/拒绝读后清。未宣称大步/连续g/非零场；147/151仍取R320末p。
+[146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)/[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)及[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)保持原完整九维/持久精度/曲率范围。[154 R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)已实付8方向70直线trial、8接受/62真merit拒，域异常0、normal回退0；新增全部54二阶FD及原108一阶FD有效、十literal数组同149。仍微降W而全finalfalse，大负曲率提案需深回溯；完整70原行/末九p50及全部责任正文保。amplitude直接推进独立157：保完整残差二次模型的平方、全九维有界求解和原实际门，三/四次项代数不冒实际唯一原因或全局最优；未派发，147/151仍取R320p。
 
 
 [145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)完整115pins/真实124来源、当前H/576 J/577态/129248原行及η1候选已发，run43716379970仍运行。原warm/fallback/last、十noJ、32轮/2e−9和338/FD/fullDN/audit保；首正1/64真正数学拒即止本实验，工程/资源/未返另记。完整参数/预算/读回责任见接口及HANDOFF。
