@@ -93,3 +93,5 @@
 - **R789**：[同一CM帽的固定解析芽与原T完整外部非零差](../results/R789-fixed-cm-hat-germs-and-nonzero-native-exterior-differences.md)。奇m≥n时第三逆Y帽及其浅补归一λ^-m后严格稳定；原固定观察的相邻深度差则精确消质量/t°log，回到原W实际CD失败域后中央导数非零且赋值明确。R483/R493完整联合零付其余215外部非零补偿；四格明确两种补域互斥，未添独立中央零。
 
 - **R791**：[原J深浅负一行与真实E双块的非退化二算术分量](../results/R791-original-j-depth-negative-moments-and-two-e-sectors.md)。原R773第一返回项的完整CM谱付两η/all-N算术幅度unit；全primitive点因子保后，两个J深浅t/Y值各非零且Qbar独立，真实Π3deep/E双块及固定p深度赋值齐付。原mixed T全外部仍承担其首系数和全部尾，不冒新中央零。公开窄reader/run/hash保。
+
+- **R790**：[同一原cube的完整forcing与因子接触Bockstein真实配对](../results/R790-original-cube-full-forcing-and-factor-contact-bockstein-pairing.md)。全p² forcing精确由同ρ_<s模p²、因子低Hensel缺陷及显式carry读取，保原q而不scalar化；全WD余列在同R上联立。每个真实左对转置到因子HP真左核，指定障碍准确分为固定主部、carry和β_HP配对；两13/第三单位行保，原p³全高尾未删。
