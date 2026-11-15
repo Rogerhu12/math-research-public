@@ -143,3 +143,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 [原四首行的全低核反射](notes/2026-11-15-original-first-diagonal-full-reversal-and-rh-convolution.md)：已证全部r_{N−j}=r_N·j!/(3/2)_j、唯一t^s微分边界，以及四原Θ^nP/H的完整伴随式。第一个实际R_NH全低卷积准确为3r_Nq_p(3)/8，调和和与模p²相位自含定标；未省四Θ指数卷积及第二项，不预赋q_p(3)单位，实际bΘ/native非零仍开。
+
+
+[R834 三长窗全 H3 秩增补](notes/2026-11-15-r834-three-long-unit-rank-bound.md)：由真实核注入和完整 RR 得单位秩≥1+2κ+χ+T−C(G_F,T−2κ−χ,a+b)，R805全profile属界保全部复合次数；临界 h/κ→9/8、T/κ→9/4、a+b+z+χ=oκ 时秩≥199κ/48+oκ，同一H3单位比例199/216。该界只用于已付同WD子格，不给全来源/全部lifting或Bost(0,3)改进，受限D3与第四短行仍开。
