@@ -24,12 +24,12 @@ ENTRY='geometry_20261115_fixed_power_ten_joint_newton_temporary.py'
 SCIENCE='geometry_20261115_fixed_power_ten_joint_newton_recipe.py'
 SCIENCE_SHA='3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e'
 READER='root_20261115_fixed_power_ten_joint_newton_scalar_readout.py'
-READER_SHA='4094e8fa2413e6fca4a0f4c64dadd0279de6772163c1cd060c73347e038ced16'
+READER_SHA='728ac09e7f008f06396bf578822b1107fa9cfcdb806a64e01d0cc130c303d3ef'
 SCIENCE_SCHEMA='R259-fixed-power-ten-scaled-minimum-norm-Newton-full3-v1'
 STATUS_NAME='fixed-power-ten-joint-newton-status.json'
 REQUEST_SCHEMA='public-fixed-power-ten-joint-newton-request-v1'
 RECIPE_SCHEMA='R259-actual157-to-fixed-power-ten-joint-Newton-recipe-v1'
-SCHEMA='request178-one-fixed-power-ten-joint-Newton-essential-readback-v2'
+SCHEMA='request178-one-fixed-power-ten-joint-Newton-essential-readback-v3'
 LIMIT=90000
 CONTRACT=json.loads(r'''{"max_experiments":1,"complete_joint_directions":8,"complete_original_real_backtracks":20,"fixed_shape_catalogue_index":3,"fixed_shape_support_index":1,"fixed_shape_power":4,"all_ten_coefficients_variable":true,"independent_parameter_dimension":10,"initial_added_coefficient":"0","original_nine_relative_scale":"0.01","added_coordinate_absolute_scale":"0.01","scaled_trust_radius":"1","physical_scales_fixed_from_actual157_parent_words":true,"parent_radius_is_provenance_only":true,"extra_rank_or_response_agreement_gate":false}''')
 
@@ -348,7 +348,7 @@ def report(args):
     except (OSError,ValueError,TypeError):
         reader_complete=False;owner_quiet=False
     necessary_complete=bool(code==0 and reader_complete
-        and value.get('schema')=='request178-fixed-power-complete-ten-Newton-essential-readback-v2')
+        and value.get('schema')=='request178-fixed-power-complete-ten-Newton-essential-readback-v3')
     atomic(args.out/'report-summary-receipt.json',dict(
         schema='request178-necessary-summary-cleanup-eligibility-v1',
         run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],

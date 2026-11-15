@@ -19,7 +19,7 @@ PRODUCER='geometry_20261115_fixed_power_ten_joint_newton_recipe.py'
 PRODUCER_SHA='3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e'
 PRODUCER_SCHEMA='R259-fixed-power-ten-scaled-minimum-norm-Newton-full3-v1'
 STATUS_NAME='fixed-power-ten-joint-newton-status.json'
-SCHEMA='request178-fixed-power-complete-ten-Newton-essential-readback-v2'
+SCHEMA='request178-fixed-power-complete-ten-Newton-essential-readback-v3'
 LIMIT=90000
 
 
@@ -485,6 +485,105 @@ def essential_r2_selection(out,status):
     out['readback_revision']=2
     return out
 
+
+def essential_r3_selection(out,status):
+    """Select the actual restart and trial evidence; identify QR basis payloads."""
+    model=out.get('last_original_direction_model')
+    if isinstance(model,dict):
+        compact=pick(model,['direction','original_complete_model_identity',
+            'current_complete_three_residual','fixed_physical_scales','selected_kind',
+            'full_original_errors'])
+        compact['last_current_J_identity']=identity(model.get('current_complete_three_by_ten_J'))
+        nr=model.get('newton')
+        if isinstance(nr,dict):
+            compact['newton']=pick(nr,['selected','exception','traceback','rejection_reason',
+                'equation_column_permutation','complete_upper_diagonal',
+                'original_unclipped_scaled_norm','radial_clip_factor',
+                'original_transpose_triangular_residual','original_complete_linear_residual',
+                'clipped_complete_linear_residual','scaled_step_L2',
+                'original_model_full_step_merit','finite_complete_direction_and_action'])
+        fb=model.get('fallback')
+        compact['fallback']=None if fb is None else dict(
+            original_identity=identity(fb),actual_scalar_fields=scalar_fields(fb),
+            all_actual_failures_and_exceptions=exceptions_in(fb))
+        compact['whole_original_model_contains_all_Q_R_words_not_returned_here']=True
+        out['last_original_direction_model']=compact
+    initial=out.get('initial')
+    if isinstance(initial,dict) and 'complete_three_by_ten_forward_response' in initial:
+        original=initial['complete_three_by_ten_forward_response']
+        initial['complete_three_by_ten_forward_response']=dict(original_identity=identity(original),
+            original_shape=[3,10],scope='Fully read and shape-checked; initial matrix words identified only; complete final Decimal J is returned')
+    keep=['present','parameters','parameter_encoding','unweighted_full3_merit',
+        'low_equations_used','unit_diagonal_defects','complete112_right_identity',
+        'first_three_actual_full112_right_rows','original_three_step_complete_ten_axis_FD',
+        'full_original_description_identity','forward_response_report_identity',
+        'complete112_forward_identity','complete112_forward_payload_identity',
+        'numerical_parameter_condition','singular_values',
+        'three_by_ten_parameter_jacobian','schema','reference',
+        'complete_original_description_identity','compact_description_identity',
+        'canonical_complete_original_bytes_compared_equal',
+        'all_original_FD_columns_and_exceptions_counted_before_reference']
+    for name in ('initial_binary64_projection','final_binary64_projection'):
+        value=out.get(name)
+        if not isinstance(value,dict):continue
+        compact=pick(value,keep)
+        compact.update({key:val for key,val in value.items() if isinstance(val,bool)})
+        compact['all_actual_description_failures_and_exceptions']=exceptions_in(status.get(name))
+        compact['other_projection_diagnostics_scope']='Original full description identity only; all p/F, FD comparisons, numerical condition and boolean responsibility flags above are retained'
+        out[name]=compact
+    # Repeat only values which are necessary; an actual equality reference is
+    # used only when its JSON text is smaller than the original repeated value.
+    final=out.get('final')
+    final_words=final.get('parameters') if isinstance(final,dict) else None
+    if isinstance(final_words,list):
+        for name in ('current_accepted_ten_parameter_words','final_ten_parameter_words'):
+            value=out.get(name)
+            ref=dict(reference='#/final/parameters',canonical_bytes_equal=True)
+            if encoded(value)==encoded(final_words) and len(encoded(ref))<len(encoded(value)):
+                out[name]=ref
+        columns=out.get('original_outer_columns',[]);rows=out.get('all_original_outer_rows',[])
+        if rows and 'accepted_ten_parameter_words' in columns:
+            j=columns.index('accepted_ten_parameter_words');value=rows[-1][j]
+            ref=dict(reference='#/final/parameters',canonical_bytes_equal=True)
+            if encoded(value)==encoded(final_words) and len(encoded(ref))<len(encoded(value)):
+                rows[-1][j]=ref
+    cov=out['original_readback_coverage']
+    cov['r2_last_complete_J_Q3_R3_and_original_triangular_linear_residuals_returned']=False
+    cov['r3_complete_final_Decimal_J_returned_initial_and_last_direction_J_identified_only']=True
+    cov['r3_Q_R_basis_triangular_solution_and_scaled_vectors_identified_not_transported']=True
+    cov['r3_all_eight_d_Jd_slope_accept_words_all_trials_120FD_and_final_gates_preserved']=True
+    cov['r3_initial_final_p_F_merit_and_all_original_final_flags_preserved']=True
+    out['readback_revision']=3
+    out['optional_diagnostic_budget']=dict(target_bytes_before_wrapper=80000,
+        original_QR_and_J_payload_omissions=[],
+        required_p_F_merit_all_d_actions_trials_FD_final_flags_never_removed=True,
+        hard_summary_bound_unchanged=LIMIT)
+    if len(encoded(out))>80000:
+        # This is an explicit smaller conclusion scope, not raw-data encoding.
+        # Every omitted component has already been read and shape checked.
+        model=out.get('last_original_direction_model')
+        if isinstance(model,dict):
+            out['last_original_direction_model']=dict(
+                direction=model.get('direction'),
+                original_complete_model_identity=model.get('original_complete_model_identity'),
+                selected_kind=model.get('selected_kind'),
+                full_original_errors=model.get('full_original_errors'),
+                only_full8_actual_d_Jd_slope_and_acceptance_rows_returned=True,
+                optional_QR_interior_words_not_transported=True)
+            out['optional_diagnostic_budget']['original_QR_and_J_payload_omissions'].append(
+                'last original QR internal diagonal/triangular/linear residual diagnostic values')
+        final=out.get('final')
+        if isinstance(final,dict):
+            name='complete_three_by_ten_forward_response'
+            value=final.get(name)
+            if isinstance(value,list):
+                final[name]=dict(original_identity=identity(value),original_shape=[3,10],
+                    scope='Original final matrix read and shape checked; omitted from small conclusion; p/F/merit/all FD/final flags retained')
+                cov['r3_complete_final_Decimal_J_returned_initial_and_last_direction_J_identified_only']=False
+                out['optional_diagnostic_budget']['original_QR_and_J_payload_omissions'].append(
+                    'final complete3x10 J matrix words, original identity retained')
+    return out
+
 def build(status,raw,directory,rules,compute_outcome):
     reader=Readback()
     if status.get('schema')!=PRODUCER_SCHEMA or status.get('source_sha256')!=PRODUCER_SHA:
@@ -628,6 +727,7 @@ def build(status,raw,directory,rules,compute_outcome):
         no_accuracy_certificate_from_metadata_or_FD=True)
     reference_actual_repeated_words(out,status)
     essential_r2_selection(out,status)
+    essential_r3_selection(out,status)
     return out,not reader.metadata_errors
 
 

@@ -1,4 +1,4 @@
-name: visible-larger request178r2 essential full-ten readback
+name: visible-larger request178r3 final restart and full-ten trial readback
 'on':
   push:
     branches:
@@ -68,11 +68,11 @@ jobs:
         raw=(comp/'public-fixed-power-ten-joint-newton-request.json').read_bytes();request=json.loads(raw)
         assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==178
         assert request['schema']=='public-fixed-power-ten-joint-newton-request-v1'
-        assert request['engineering_revision']=='r2-essential-readback-and-quiescent-cleanup'
+        assert request['engineering_revision']=='r3-final-restart-and-complete-trial-essential-readback'
         assert request['lanes']==['smallcoreresonance']
         assert request['execution_entry']=='geometry_20261115_fixed_power_ten_joint_newton_temporary.py'
         assert request['scientific_entry']=='geometry_20261115_fixed_power_ten_joint_newton_recipe.py'
-        wanted_new=json.loads(r'''{"geometry_20261115_adjoint_selected_ten_control_family.py":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","geometry_20261115_adjoint_selected_ten_decimal_model.py":"8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7","geometry_20261115_fixed_power_ten_scaled_newton.py":"6b55a6d223f0103bb0396a578d89cfd06c6b4888d38dbb4d518eaa3ecb6f2861","geometry_20261115_fixed_power_ten_joint_newton_recipe.py":"3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e","geometry_20261115_fixed_power_ten_joint_newton_temporary.py":"d0fa9a4c507af63f275dc2a9792dc985a31986382a078710342ad4536e9e9590","root_20261115_fixed_power_ten_joint_newton_scalar_readout.py":"4094e8fa2413e6fca4a0f4c64dadd0279de6772163c1cd060c73347e038ced16"}''')
+        wanted_new=json.loads(r'''{"geometry_20261115_adjoint_selected_ten_control_family.py":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","geometry_20261115_adjoint_selected_ten_decimal_model.py":"8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7","geometry_20261115_fixed_power_ten_scaled_newton.py":"6b55a6d223f0103bb0396a578d89cfd06c6b4888d38dbb4d518eaa3ecb6f2861","geometry_20261115_fixed_power_ten_joint_newton_recipe.py":"3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e","geometry_20261115_fixed_power_ten_joint_newton_temporary.py":"9605079c45ba38a9029bad675b272a8f62d1c433bd8453dcf749bc0355976444","root_20261115_fixed_power_ten_joint_newton_scalar_readout.py":"728ac09e7f008f06396bf578822b1107fa9cfcdb806a64e01d0cc130c303d3ef"}''')
         for name,digest in wanted_new.items():
          assert request['source_sha256'].get(name,request['workflow_support_source_sha256'].get(name))==digest
         assert request['experiment_contract']==json.loads(r'''{"max_experiments":1,"complete_joint_directions":8,"complete_original_real_backtracks":20,"fixed_shape_catalogue_index":3,"fixed_shape_support_index":1,"fixed_shape_power":4,"all_ten_coefficients_variable":true,"independent_parameter_dimension":10,"initial_added_coefficient":"0","original_nine_relative_scale":"0.01","added_coordinate_absolute_scale":"0.01","scaled_trust_radius":"1","physical_scales_fixed_from_actual157_parent_words":true,"parent_radius_is_provenance_only":true,"extra_rank_or_response_agreement_gate":false}''')
@@ -269,7 +269,7 @@ jobs:
          assert reader['metadata_complete'] is True
          assert len(compact)==reader['bytes'] and hashlib.sha256(compact).hexdigest()==reader['sha256']
          assert len(raw)==proof['bytes']<=90000 and hashlib.sha256(raw).hexdigest()==proof['sha256']
-         assert json.loads(raw)['schema']=='request178-fixed-power-complete-ten-Newton-essential-readback-v2'
+         assert json.loads(raw)['schema']=='request178-fixed-power-complete-ten-Newton-essential-readback-v3'
          eligible=True
         except (OSError,ValueError,KeyError,TypeError,AssertionError) as error:
          reason=repr(error)

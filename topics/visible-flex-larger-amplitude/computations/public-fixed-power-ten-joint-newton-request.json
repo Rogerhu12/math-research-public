@@ -120,7 +120,7 @@
     "geometry_20261115_adjoint_selected_ten_decimal_model.py": "8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7",
     "geometry_20261115_fixed_power_ten_scaled_newton.py": "6b55a6d223f0103bb0396a578d89cfd06c6b4888d38dbb4d518eaa3ecb6f2861",
     "geometry_20261115_fixed_power_ten_joint_newton_recipe.py": "3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e",
-    "geometry_20261115_fixed_power_ten_joint_newton_temporary.py": "d0fa9a4c507af63f275dc2a9792dc985a31986382a078710342ad4536e9e9590"
+    "geometry_20261115_fixed_power_ten_joint_newton_temporary.py": "9605079c45ba38a9029bad675b272a8f62d1c433bd8453dcf749bc0355976444"
   },
   "workflow_support_source_sha256": {
     "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
@@ -132,7 +132,7 @@
     "root_20261115_nine_control_decimal_scalar_readout.py": "18583ca2f78b19976ce2d68b999556ff1139f07e0d842a575d1c9188bbd8b5dc",
     "root_20261115_nine_control_decimal_curvature_scalar_readout.py": "263dd544395734d1a0e4c227655157f536541be40ff41d0dabce92778d75cb5a",
     "root_20261115_nine_control_decimal_residual_quadratic_scalar_readout.py": "a49ebce03156e8ee620ea7cab62e51c32f2a924458ad6d2320e85cf91398897d",
-    "root_20261115_fixed_power_ten_joint_newton_scalar_readout.py": "4094e8fa2413e6fca4a0f4c64dadd0279de6772163c1cd060c73347e038ced16"
+    "root_20261115_fixed_power_ten_joint_newton_scalar_readout.py": "728ac09e7f008f06396bf578822b1107fa9cfcdb806a64e01d0cc130c303d3ef"
   },
   "source_closure": {
     "origin_producer": {
@@ -428,10 +428,10 @@
   },
   "output_directory": "fixed-power-ten-joint-newton-temporary",
   "output_status": "run-metadata.json",
-  "output_status_schema": "request178-one-fixed-power-ten-joint-Newton-essential-readback-v2",
+  "output_status_schema": "request178-one-fixed-power-ten-joint-Newton-essential-readback-v3",
   "scientific_output_status": "fixed-power-ten-joint-newton-status.json",
   "scientific_output_status_schema": "R259-fixed-power-ten-scaled-minimum-norm-Newton-full3-v1",
-  "reader_schema": "request178-fixed-power-complete-ten-Newton-essential-readback-v2",
+  "reader_schema": "request178-fixed-power-complete-ten-Newton-essential-readback-v3",
   "readout_contract": {
     "one_compact_conclusion": true,
     "hard_ASCII_JSON_bound": 90000,
@@ -440,8 +440,7 @@
     "all_eight_planned_directions_and_unvisited_trial_indices_preserved": true,
     "actual_all_three_residuals_merit_Armijo_domain_flags_and_reasons": true,
     "each_original_ten_direction_and_three_action_and_strict_slope": true,
-    "last_formed_Q_first_three_columns_and_R_first_three_rows": true,
-    "all_complete_Q_R_and_112_tables": "Read and shape-checked in Actions; complete direction-model and complete response identities, not all unused factor/112 word vectors transported",
+    "all_complete_Q_R_and_112_tables": "Completely read and shape-checked in Actions, original model/description identity only; no Q/R basis or triangular-solution vector words transported",
     "initial_final_twelve_FD_level_original_maxima_flags_and_all_real_exceptions": true,
     "complete_120_FD_columns_coverage_checked_by_metadata": true,
     "FD_perturbed_points_and_full112_response_tables": "original identity only; not wholly transported or independently reread by root",
@@ -456,14 +455,19 @@
     "unmeasured_future_summary_size_not_guaranteed": true,
     "old_single_xi_fixed_nine_assumption_not_used": true,
     "prior_seven_QR_internal_diagnostics": "Complete original outer-record identities cover current J and direction model; no claim that each prior factor/residual word was transported",
-    "last_current_complete_three_by_ten_J_and_fixed_scales": true,
     "last_scaled_matrix_and_unclipped_scaled_direction": "Canonical identity only; no reconstruction or numerical multiplication in reader",
-    "last_Q3_R3_permutation_triangular_solution_and_original_linear_residuals": true,
-    "initial_final_Decimal_three_by_ten_forward": true,
     "initial_final_binary64_projected_J": "Fully read and shape-checked in Actions, original identity only; every projected FD original maximum/flag/exception retained",
     "scientific_stdout_not_split_or_encoded_for_transport": true,
     "reader_metadata_complete_does_not_claim_all_original_arrays_transported": true,
-    "cleanup_requires_necessary_summary_success_and_all_owned_children_waited": true
+    "cleanup_requires_necessary_summary_success_and_all_owned_children_waited": true,
+    "last_QR_permutation_diagonal_triangular_and_original_linear_residuals": "Optional diagnostics retained only while the necessary reader stays within80000B; otherwise original complete-model identity and full errors, never a claim of whole-matrix readback",
+    "complete_final_Decimal_three_by_ten_forward": "Optional words retained only while the necessary reader stays within80000B; otherwise exact original identity, all final p/F/merit/FD/flags retained",
+    "initial_and_last_direction_J": "Completely read/shape-checked, canonical identity only; final J words are optional under declared80000B diagnostic target; all initial/final p/F/merit always returned",
+    "initial_final_binary64_projection": "All p/F/FD original maxima/flags/errors, condition and boolean responsibility flags retained; other diagnostic values and projected J only whole original identity",
+    "initial_final_owned_p_F_merit_complete": true,
+    "optional_diagnostic_target_before_wrapper_bytes": 80000,
+    "only_optional_last_QR_and_final_J_words_may_be_omitted_after_target": true,
+    "required_eight_d_Jd_slope_accept_words_all_trials_120FD_initial_final_p_F_merit_flags_never_omitted": true
   },
   "job_timeout_minutes": 65,
   "scientific_step_timeout_minutes": 50,
@@ -570,28 +574,30 @@
     "results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md",
     "results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md",
     "results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md",
-    "results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md"
+    "results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md",
+    "results/R387-actual178r2-eight-acceptances-and-essential-readback-overflow.md"
   ],
-  "engineering_revision": "r2-essential-readback-and-quiescent-cleanup",
+  "engineering_revision": "r3-final-restart-and-complete-trial-essential-readback",
   "revision_origin": {
-    "run_id": "43749066353",
-    "source_commit": "d9336e76fe9948d642e6e079bbdf26946b6d42d4",
-    "compute_job_id": "132918741565",
-    "report_job_id": "132919216018",
+    "run_id": "43751514766",
+    "source_commit": "01dc5cbe49e98aae5acb241564946d839b408d33",
+    "compute_job_id": "132926288393",
+    "report_job_id": "132926767769",
     "producer_exit_code": 0,
     "accepted_point_count": 8,
     "stop_reason": "Explicit eight full-ten direction budget completed",
     "original_status": {
-      "bytes": 970456,
-      "sha256": "ee99fd4a5475cea69ec4ccb23d023abd8e8d007802ec64885dd8a7b32ef694ea"
+      "bytes": 970477,
+      "sha256": "79039666f9eb81e0f94a37784c341c1697230387faec7450909e807779a1e392"
     },
     "untransported_summary": {
-      "bytes": 116585,
-      "sha256": "2d4f8af521b80aa5f79f73dc9ff6b72a8b50f9e4c83f243f2c17efe2f248e872"
+      "bytes": 91342,
+      "sha256": "260082931bd2779d97be0def3531c8bbda979980d662de5f697484d42fd0a3e1"
     },
     "reader_exit_code": 70,
-    "old_raw_was_deleted": true,
-    "new_run_from_original_actual157_not_restoration_or_last178_parent": true,
+    "explicit_cleanup_skipped": true,
+    "ephemeral_runner_has_ended_no_persistent_raw_restoration_claimed": true,
+    "new_run_from_original_actual157_not_restoration_or_last178r2_parent": true,
     "unchanged_search_producer_recipe_and_all_scientific_gates": true
   }
 }
