@@ -60,8 +60,8 @@ receipt 55,785 B / SHA256 77435aab53274594ad70ba8e4da0a6e6fe7961de6e10b7d587bff8
 
 原同源码绑定复用首运行已完成的6个方向检查；本次继续的 array 10项、error identity 5项、真实第九handoff 10项和pipeline I/O 4项均为 true。没有重跑旧developer suites。array中并列目标保留早先完整norm修正 incumbent 的断言已按真实冻结规则更正，不以最后一轮 gap 替换被返回 incumbent 的状态。
 
-## 5. 当前尚需读的原记录与后继
+## 5. 后续已读内容与仍未读边界
 
-首语义读取有明确略去：实际 stage 的checkpoint/模型详情被目录预算替换，未据目录宣判12LP是否全部消耗、接纳数或各失败门。本观察器又把原 publisher 的旧式日志控制文本原样嵌入 JSON，导致 Actions 的日志解释器吞掉 context 前缀；需要在只读输出层转义该控制标记，再从同一原日志取模型与 pull 元数据。该故障不改变已直接解析的两个完整语义 report，也不是科研失败。
+日志控制标记现已正确转义，原pull、checkpoint及六个模型/七个trial均已读取；第5来自原COMPLETE_REPORT而非缺失的native打印。详细原门/误差/24输入身份与有限模型停止原因见[六模型解释](complete-affine-six-model-interpretation-20261115.md)。10primary+2SOC实际耗尽12LP，最后只有一次未收紧的完整模型评价，不能作驻点结论。
 
-下一先消费原完整模型的 full-affine 与 nonlinear defect、实际步长/接纳、误差分解、真实源输入恢复漂移和费用，再据新的具体瓶颈改变设计；不重本轮科学或为少量进展延长相同预算。此处没有声称 δhold、连续 reach、完整同g有限族或全域机器精度已完成。
+九次恢复的详细drift与较大SOC控制器表仍在继续只读原日志。本轮科学不重跑，后继以新中心重建支持方向改变重复cut瓶颈；不以同预算续跑或阶段报告收尾。主课题所有连续几何完成门仍未共同支付。

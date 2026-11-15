@@ -376,3 +376,8 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 [R315 完整证明](results/R315-full-angle-arctangent-square-gates-and-ordered-history-cancellation.md)对B=aR−2eL+eU+tT（t=−ε/4非零）列真实二次左尾/全部polynomial作用、三个Green项与完整Γ，校正self为真C²观测。从起点选Fnew保持三矩、全部E8交换面积与B²校正self；真实三矩wedge包装清全部额外角项。
 
 三个principal位置多项式准确次数6/7/8，含全部真实复制正权；四个high/low交替包的全三minor同号给严格正核及全R³正锥。在Fnew真实纤维内有限频率/有限幅IFT消完整三值基线，从而所有θ的E²三门真零，原三矩/完整third保持。新log的有序history residue精确写成三个原交换子组合，同构造已清；仍保local+chain residue未付，单E/有理成员/全period与同w亦欠。无新运行，不靠增频修被排旧Gaussian类。
+
+
+## 完整仿射六模型实际解释：明确曲率拒绝、重复 support cuts 与预算停止
+
+[完整原读数](notes/complete-affine-six-model-interpretation-20261115.md)：run43728280256的六模型/七trial现已读，第5由原summary恢复。m3/5 primary细网曲率分别58.000001945/58.000009623而被拒，SOC修回、最终η.266381717617。m4/5需358/342cuts，m5首LP完整norm负改善但补cut后真改善；m6只剩共享第12次LP，完整norm仍负改善，非驻点/不可行证书。七步真实e/f非线性3.8e−7～1.7e−6，完整覆盖差近零。24路径及decodedSHA对原CLI逐项合，同g/b0/159身份保留。只读无新执行；恢复drift大表继续读，下一原ID/norm方向在新中心重建cuts而非搬旧A/b或仅延预算。

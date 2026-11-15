@@ -14,7 +14,7 @@
 
 容量/成功SOC持径与选行J因子化的已付实际、失败、漂移和来源/费用均见对应notes及results，不重旧阶段；当前后继从真实当前恢复点继续，不能借旧最终数值强制重播。最新消费边界如下。
 
-[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)的漏峰/曲率及e-f非线性已消费。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385已成功，原始语义首读：η.266401179156→.266381717617，双网14原门与精确盒全过，最大曲率仍57.999983395；9输入恢复805.206121s/新active35.287169s，16+2完整值，54直接/106递归来源对receipt全合。新开发续项全过，首方向6项源绑复用；误并列incumbent断言的首失败仍保原note。完整stage checkpoint已读：10primary+2SOC=12LP、末B.000125、有限模型停滞。旧日志标记转义已修并消费native模型1/2/3/4/6；原summary有六记录，现专从summary补5与全部误差/门表/24输入及恢复漂移，不重本轮科学。不得把η或旧rawδ当δhold，未达.26或主1e−6。
+[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)失败范围保原件。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)已从同原run43728280256完整summary读6模型/7trial：η.266401179156→.266381717617，最终双网14门/盒过，κfine57.999983395。10primary+2SOC耗尽12LP；m3/5细网原曲率失败由SOC修回并保B.000125，七步无遗漏硬行。m4/5需358/342新cuts；m5首LP完整norm为负改善，补342cut后改善，m6仅余1LP且完整norm负改善，有限模型停止非驻点。已评价步完整预测覆盖差近零，剩实际e/f非线性3.8e−7～1.7e−6。54/106源和24路径/decodedSHA已核，同g/b0/159/163不变；9恢复805.206121s/新active35.287169s、16+2值分账不变。新开发全过，首6方向源绑复用不重。仍专读恢复drift/详细SOC表；下一实际设计携原ID/norm支持方向并在新中心重建有效cuts，不能搬旧A/b或只续旧预算。未达.26或主1e−6，η不冒δhold。
 
 ### 仍须支付
 
