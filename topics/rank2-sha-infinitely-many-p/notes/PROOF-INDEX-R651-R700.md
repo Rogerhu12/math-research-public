@@ -62,3 +62,5 @@
 - [R672：目标p内两jet加权根能量与charge同余限制](../results/R672-original-two-jet-weighted-root-energy-and-charge-congruence.md)：保原ODE完整判别式及重复/切向因子，两个真实长零迫加权根能量≥4(H−r)，全次数上界6(M_D−r)B+3B²。charge单模q以U=Y^q降次而首共振仍非零，实际临界预算排q≥8及单mod12块；真K2/K3用完整Δ0门。稠密混合核、第三短行和同R第二forcing仍开，无辅助素数替换。
 
 - [R676：原近自同构CM分子的单位逆与三位真实提升](../results/R676-original-unit-cm-numerator-and-three-digit-lift.md)：α=ω(p+ω)的同一原CM numerator给D=(ν−fα*)/p，整ξ=tH6基上所有特征δ_n≡−1−6nω²为unit，中央δ_s≡ω。完整canonical差先证p整除，Bα三位给实际来源两位并保三P_m/H^-hp/Xi；比较lift残差仍可见。原logΘ首p挠点准确等于−logBα(T)/[p(p−1)]，不预支闭边界逆、指数或指定非零。
+
+- [R678：有限原词的八角域、零质量差商与负一返回](../results/R678-original-finite-word-corners-and-negative-one-return.md)：同q†的八个互不相交原A/Q/L环带角域完整pullback，四整三阶差商权严格消全部质量，有限S/T相对log有准确非零赋值3(r+M)+3−2N+vI。原全算术行共同unit系数及全部外部保齐；同域对顶q1/观察和x²/y·A项明确不同，未据局部非零预支中央矛盾。

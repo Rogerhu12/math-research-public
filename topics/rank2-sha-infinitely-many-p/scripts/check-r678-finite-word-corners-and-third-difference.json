@@ -1,0 +1,591 @@
+{
+  "format": "R678 exact original word and interpolation certificate",
+  "field": "Q(omega), omega^2+omega+1=0",
+  "coordinate_order": [
+    "A",
+    "Q",
+    "L",
+    "C",
+    "D_star",
+    "H1"
+  ],
+  "formal_variables": [
+    "x",
+    "z",
+    "y",
+    "eps",
+    "eps_n"
+  ],
+  "constants": {
+    "a": [
+      "-5/29",
+      "-6/29"
+    ],
+    "b_F": [
+      "1",
+      "6/5"
+    ],
+    "ell_0": [
+      "0",
+      "-3/5"
+    ],
+    "g": [
+      "3",
+      "-2"
+    ],
+    "b_Q": [
+      "11/5",
+      "6/5"
+    ],
+    "b_L": [
+      "2/5",
+      "12/5"
+    ],
+    "b_Y": [
+      "20/17",
+      "3/17"
+    ],
+    "h": [
+      "238/349",
+      "3978/1745"
+    ]
+  },
+  "word_image": [
+    [
+      [
+        {
+          "exponents": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            "1",
+            "0"
+          ]
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    [
+      [],
+      [
+        {
+          "exponents": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            "1",
+            "0"
+          ]
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    [
+      [],
+      [],
+      [
+        {
+          "exponents": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            "1",
+            "0"
+          ]
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    [
+      [],
+      [],
+      [],
+      [
+        {
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            "1",
+            "0"
+          ]
+        }
+      ],
+      [],
+      []
+    ],
+    [
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            "1",
+            "0"
+          ]
+        }
+      ],
+      []
+    ],
+    [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            "1",
+            "0"
+          ]
+        }
+      ]
+    ]
+  ],
+  "first_Y": [
+    [
+      {
+        "exponents": [
+          1,
+          -1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": [
+          "1",
+          "0"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": [
+          "1",
+          "0"
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "first_W": [
+    [
+      {
+        "exponents": [
+          1,
+          -1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": [
+          "20/17",
+          "3/17"
+        ]
+      },
+      {
+        "exponents": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "-3/17",
+          "-3/17"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": [
+          "20/17",
+          "3/17"
+        ]
+      },
+      {
+        "exponents": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "87/85",
+          "87/85"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": [
+          "2/5",
+          "12/5"
+        ]
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  "opposite_Y": [
+    [
+      {
+        "exponents": [
+          2,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "coefficient": [
+          "1",
+          "0"
+        ]
+      }
+    ],
+    [],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": [
+          "1",
+          "0"
+        ]
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  "opposite_W": [
+    [
+      {
+        "exponents": [
+          2,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "coefficient": [
+          "20/17",
+          "3/17"
+        ]
+      },
+      {
+        "exponents": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "-3/17",
+          "-3/17"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "-2/5",
+          "-12/5"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": [
+          "20/17",
+          "3/17"
+        ]
+      },
+      {
+        "exponents": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": [
+          "87/85",
+          "87/85"
+        ]
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  "first_gate_shift": [
+    [
+      {
+        "exponents": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "-5/29",
+          "-6/29"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "1",
+          "6/5"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": [
+          "0",
+          "-3/5"
+        ]
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  "opposite_gate_shift": [
+    [
+      {
+        "exponents": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "-5/29",
+          "-6/29"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": [
+          "0",
+          "3/5"
+        ]
+      }
+    ],
+    [
+      {
+        "exponents": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": [
+          "1",
+          "6/5"
+        ]
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  "interpolation": {
+    "denominator": [
+      "1",
+      "-1",
+      "-1",
+      "0",
+      "1",
+      "1",
+      "-1"
+    ],
+    "numerators": [
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      [
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "-1"
+      ]
+    ],
+    "valuation": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "moments_k_0_1_2_3": [
+      "0",
+      "0",
+      "0",
+      "kappa^3"
+    ],
+    "whole_A": "-(z-1)(z-kappa)(z-kappa^2)/((1-kappa)(1-kappa^2)(1-kappa^3))"
+  },
+  "allowed_pair_mass_powers": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "depth_conditions": [
+    "N is positive and divisible by 4",
+    "r is even",
+    "m=0 or 1",
+    "M>=2",
+    "j=0,1,2,3",
+    "n=r+M+j",
+    "r>max(N,M+3)"
+  ],
+  "actual_cell": "A in p^(2r), Q in p^(r+m) units, L in p^n units",
+  "equivalent_observations": "Y0,Y2,c,d,E_all have valuation r+m; Y1,Y3 have valuation n",
+  "common_gate": "C unit and D_star in p^N",
+  "source_scalar": "lambda^(2r)*beta^(r+m+n)",
+  "normalized_error": "p^(r-4N) O after the third divided difference",
+  "original_I": "I_(Sigma_5,-1), R655; not a positive moment",
+  "main_coefficient": "72*b*Omega^3*(b_L/b_Y)*J_N^dagger*(1-beta*kappa^3)*I_(Sigma_5,-1)",
+  "finite_nonzero_condition": "r>2N+v_p(I_(Sigma_5,-1))",
+  "bounded_corner_valuation": "3(r+M)+3-2N+v_p(I_(Sigma_5,-1))",
+  "remaining": "The complementary S and T cuts and the opposite-Y q1/observation remain distinct; no external integral is assigned zero.",
+  "exact_checks": 61
+}
