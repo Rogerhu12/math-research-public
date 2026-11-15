@@ -1,0 +1,130 @@
+{
+  "kind": "complete_waist_lifting_small_scalar_input_contract_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_waist_lifting.py",
+  "source_sha256": "d6764c570b935ed760425b10aeead6dea20e406fa0a0e606c1e61ad0c027d3b6",
+  "original_worker_basis": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_all_segment_Darboux_scalar_receivers_public_worker.py",
+    "git_blob": "c495d6a51e84c07d65ba835a40a30a589ea7f474",
+    "bytes": 35288,
+    "sha256": "793acef43ddb118ac68b566001fd912fcf4dde7bc05b2437a717ce7af0275909"
+  },
+  "contract_publication_commit": "19dfd4c6d8cb6ad3cdb253c93293cebe1378648e",
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "input_paths": {
+    "D_execution": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+    "D_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py",
+    "CPA_execution": "topics/visible-flex-exact-nearby/notes/weighted_actual_cap_poisson_difference_ci/run-43741463694-1/execution.json",
+    "WA_execution": "topics/visible-flex-exact-nearby/notes/exact_selected_waist_data_ci/run-43747940791-1/execution.json",
+    "NF_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md",
+    "SR_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md",
+    "new_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md",
+    "new_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_waist_lifting.py"
+  },
+  "current_text_input_roles": [
+    "D_execution",
+    "D_source",
+    "CPA_execution",
+    "WA_execution",
+    "NF_contract",
+    "SR_contract",
+    "new_contract",
+    "new_source"
+  ],
+  "expected_scientific_gates": 18,
+  "expected_immutable_AST_files": 2,
+  "expected_input_count": 8,
+  "complete_input_bytes": 214104,
+  "runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320
+  },
+  "parameters": {
+    "exact_parameter_half_width": "1/10000000000",
+    "exact_core_interval": [
+      "0",
+      "9/10"
+    ],
+    "exact_negative_interval": [
+      "0",
+      "2383968743003/10000000000000"
+    ],
+    "background_pair_A0": "7",
+    "background_pair_angle_A0": "6",
+    "response_pair_A0": "19",
+    "response_pair_angle_A0": "83",
+    "head_maximum_physical_frequency": 384,
+    "original96_orthonormal_waist_rows": true,
+    "ordinary_source_measure": "ordinary dr and normalized physical circle",
+    "full_even_mean_retained": true,
+    "only_whole_successful_CPA_cases_used": true,
+    "old_scientific_producers_or_integrals_called": 0,
+    "expected_structural_gate_count": 18
+  },
+  "scope": {
+    "old_successful_receipts": 3,
+    "new_positive_algorithm_product_bounds": 2,
+    "new_complete_case_count": 2,
+    "new_original96_waist_columns": 6,
+    "new_selected_waist_contributions": 6,
+    "original_rows_integrals_Green_and_WA_recomputed": false,
+    "all_inputs_current_small_text": true,
+    "full_even_mean_and_both_high_inputs_retained": true,
+    "same_complete_CPA_case_per_triple": true,
+    "no_new_cap_entry_high_inverse_or_PDE_claim": true,
+    "no_new_numerical_arrays_published": true
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+      "git_blob": "ce7af74c8b2f8cf7715775f352d2c26afb03413a",
+      "bytes": 40659,
+      "sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py",
+      "git_blob": "704b1e1d4aa74e97c866c725a2524c1b8624039e",
+      "bytes": 25571,
+      "sha256": "827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/weighted_actual_cap_poisson_difference_ci/run-43741463694-1/execution.json",
+      "git_blob": "9294bddcbe96ce07379a169fe2abbbb44782b135",
+      "bytes": 56480,
+      "sha256": "6865e7e88c9d1be02b6fe062765750fa2f66a1186ab4ff9d43127f2c9c92f4b8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_selected_waist_data_ci/run-43747940791-1/execution.json",
+      "git_blob": "98af91d7d19fca515b27108f869b871e8e64ba0d",
+      "bytes": 21822,
+      "sha256": "ae7c3b792d36b9df06362eec362f03978e7a4a97e3e126eb34e066a98d41d538"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md",
+      "git_blob": "3c67c294589aa3e8e686394ddff7d9b16a93fb5d",
+      "bytes": 15471,
+      "sha256": "9c33e8827d7c3f1d76d6ba74d8cde7be6e98f822b00520932a9e02eeacb245ef"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md",
+      "git_blob": "a7833eaf06fd1908858bdc774b93a5a8ecd49ab4",
+      "bytes": 14970,
+      "sha256": "43da1e99cfcbfc406fb391600b1451c523ab4505aeba9ae1f2335d1c34c59be5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md",
+      "git_blob": "3be45577db460dd222cae43bccaef7d74bd0e6ae",
+      "bytes": 11194,
+      "sha256": "e2e9d6d4dc98c8f0b2d9c6c5cc7700a3389d228c39470736f3a8706dccbd192e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_waist_lifting.py",
+      "git_blob": "7257f8dd331a45da8f85ffdc69651e253d0d114a",
+      "bytes": 27937,
+      "sha256": "d6764c570b935ed760425b10aeead6dea20e406fa0a0e606c1e61ad0c027d3b6"
+    }
+  ]
+}

@@ -270,3 +270,7 @@ root全文核phase actual报告19437B/e3a5faa4；公开43748529142/1 child1/21ga
 ## 2026-11-15 18:57:43 UTC — SC完整known-cap affine解析合同
 
 root读SC完整初稿并对v2仅SC18a差异核；双peer分别核径向精确扣除/三矩/所有端号与mean、Taylor三导/target96/外端fee。亲读原core a7ff6a1f/21822/689bf2c5 from_saved，确每原row单candidatepiece且ownmidpoint；新consumer要求逐7908重验该数据门，不授跨片延拓。亲读原A15完整proof80c56756/12356/1311fa38，repaired1.3e−15/2.05e−19/反射Bmean0及全normalized fB dotA²≤2^-60域保持，height不双付。final SC20669B/927c3ba2，只解析新合同，actual新moments与小门未跑；旧QR/Gram/7908 producer不重。H尾部归档21ad67119ea940c72c368c7874c9d0cba01b3f99，全部源/域/失败/恢复保留。e52e49272ed65e95bb6940b8334a4a71714f48fd两README未变。
+
+## 2026-11-15 18:58:34 UTC — 部署WL完整原96腰lift的新标量consumer
+
+root全文读397行SCI及相对IN稳定worker完整diff，delimiter397/527行静态通过、Python AST留公开CI。7当前小原件SHA/bytes/Gitblob全核，新SCI也与manifest一致；8pins214104B/2AST/18门设计。phase独核positive算法/完整lift/同CPAcase三个输出和WA同d输入，无旧计算。部署SCI27937/d6764c57、worker35019/aba70688、manifest6058/70c8488c、flow4098/92c2b3d8，仅自然push触发一次；15分钟child/45分钟job、真实pull/README/200MB+120KB/先atomic全部科学再preGit只两小结论保。原mean/high/γ域及其他四输入完整保，数值待run，未授PDE或总完成。de124444eb1c5c091a6b791d9b6642387fff17a8双README不变。
