@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7e2c8dd022f730aad49bbe283834da515afc3951**（2026-11-15T23:49:56.382950+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
+**已读规则提交：8bee23f97ebed4bc53714dc90c8f08c14fdac2e8**（2026-11-15T23:52:35.980614+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -32,7 +32,7 @@
 **R841原点及指定下降点表达式已成**：[正式结果](results/R841-certified-original-CM-point-and-descent-DAG.md)run43774984563/job132999220068/sourcecbcaa616，0.037801001秒，4stage/50node/174旧源。准确β_C=(3h0Q/N,A0/B0)、原f_R点均true，B0/Q/N非零有来源/几何证明；原v/κ及Galois全保。final52b80ce2/manifestde6b334f/config58164ca8，artifact14185648917/f848bab0至Nov16 23:28:50，最小carrier1.21MB/1cc858ba。全部1.32MB ZIP纯IO重哈希；旧CM/Hom/Norm不重。展开坐标/旧R792展开入口/抽象A前像/eta/height均false，后继点加法仍需具体准确零判。
 
 
-**短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。
+**短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。 小L必要筛选本次激活core53bfaa73/wrapper2d19d987，直接读R841载体的185源，仅准确换基和曲线/共轭/微分检验，不重CM/RR；A.1、原点坐标接受、eta/height恒false。
 
 ## 后继来源与期限
 

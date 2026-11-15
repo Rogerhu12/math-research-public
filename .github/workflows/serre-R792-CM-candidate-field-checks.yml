@@ -1,0 +1,133 @@
+name: Serre original CM candidate necessary field checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R792-CM-candidate-field-checks-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R792-CM-candidate-field-checks
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R792-CM-candidate-field-checks-public-request.json
+      - name: Pull main and compare the two previously read rule files
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R792-CM-candidate-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          path='topics/serre-uniformity/notes/R792-CM-candidate-field-checks-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+path]))
+          subprocess.run(['git','checkout','-B','r792-CM-candidate-rules-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          old=request['rules_last_read_commit']
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+          expected=request['job']['readme_sha256']
+          actual={k:hashlib.sha256(Path(n).read_bytes()).hexdigest() for k,n in
+                  [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,'previous_read_commit':old,
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),'readme_sha256':actual,
+                   'expected_readme_sha256':expected,'rules_changed':actual!=expected}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('CM_CANDIDATE_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if actual!=expected:
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('The changed README rules must be read before new mathematics.')
+          PY
+      - name: Preserve the one-day actual pull receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R792-CM-candidate-rules-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R792-CM-candidate-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  compute:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 80
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R792_original_CM_candidate_field_checks.py
+            /topics/serre-uniformity/scripts/R792_public_original_CM_candidate_field_checks.py
+            /topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py
+            /topics/serre-uniformity/scripts/R792_original_CM_response_beta_DAG.py
+            /topics/serre-uniformity/scripts/R792_public_original_CM_response_beta_DAG.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R787-original-short-CM-candidate-exact-acceptance.md
+            /topics/serre-uniformity/notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md
+            /topics/serre-uniformity/notes/R792-original-source-bound-CM-DAG-beta-interface.md
+            /topics/serre-uniformity/results/R791-certified-original-Hom-descent-and-eta-inputs.md
+            /topics/serre-uniformity/results/R792-original-beta-composition-and-Galois-cube-root.md
+            /topics/serre-uniformity/notes/R792-CM-candidate-field-checks-public-request.json
+            /.github/workflows/serre-R792-CM-candidate-field-checks.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the pinned exact arithmetic dependency
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Parse frozen source files without executing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root=Path('topics/serre-uniformity/scripts')
+          for name in ('R792_original_CM_candidate_field_checks.py','R792_public_original_CM_candidate_field_checks.py',
+                       'R792_original_CM_response_beta_DAG.py','R792_public_original_CM_response_beta_DAG.py',
+                       'R754_original_periods_and_Hom_kernel.py','R824_public_original_global_polar_generators.py'):
+              path=root/name
+              ast.parse(path.read_text(),filename=str(path))
+              print('AST_OK',name)
+          PY
+      - name: Check the exact necessary identities for the scalar candidates
+        run: |
+          python topics/serre-uniformity/scripts/R792_public_original_CM_candidate_field_checks.py compute \
+            --output "$RUNNER_TEMP/R792-CM-candidate/output"
+      - name: Verify source bytes and retain the original-value acceptance boundary
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R792_public_original_CM_candidate_field_checks.py verify \
+            --output "$RUNNER_TEMP/R792-CM-candidate/output"
+      - name: Preserve one-day exact input carrier and continuation stages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R792-CM-candidate-field-checks-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R792-CM-candidate/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
