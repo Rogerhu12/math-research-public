@@ -154,3 +154,13 @@ fresh main 9f6510f6a037341ff8ef30d7506eb1f85164a189双README未变。第二failu
 root逐行读全部diff、save/mean_reference/angledata原源，唯一执行schema修正为int(work.upper().ceil().fmpz())：外向exact upper先ceil仍arb，再转exact整数fmpz，最后Python int。newton已亲核python-flint0.9官方arb API，未本机数值试算。其余只保存已算值：angle完整KH/Ej/四导门，rootdiag/source/error四列，每原格mean的exact rational参考/curvature/error与speed/work，以及完成counts/truecursor/四error列。得到后立即原子写同science路径；这些是可复用准备结论，complete仍false，不冒完整H3。最终完整sections已含same angle/root时只删早期重复副本。
 
 200个唯一pins13486756B，原198除SCI的197条tuple逐字不变，新加第二failure两原receipt；文件表与receipts完全一致，manifest97518B仍低于100KB。21实际门未增删，数学/域/参数/physical4j/两sign/mean/全频residual/seam均零改。原3146scalar/ray/KAM/root/旧producer成功禁重；只重做H批准的未保存新小量并继续未成transport。公开自身Actions自然触发唯一新child；540s真pull/README与340min监督、先打印完整science/log再Git的失败分离规则不变。
+
+## 2026-11-15 18:04:21 UTC — SR 任意 bounded 割线帽行、一次吸收与完整五输入
+
+fresh main 7124e588085f75976275426a83c50cd2e17dac13双README未变。本结论独推a7833eaf06fd1908858bdc774b93a5a8ecd49ab4/14970B/SHA43da1e99cfcbfc406fb391600b1451c523ab4505aeba9ae1f2335d1c34c59be5。root全文审SR1–21，亲读原D c85b66866103ea021cebbc050ccead214d4cf9d9/15214/92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635的D11–16与原F f2ad8366a4df9b17078aafd04409733b082ebb1a/14496/29a241671969704c5b608b7d1ddd9517e6b1a13ac357fe14f34d86561340c1a5的F15–17；newton独核全符号/height顺序/第五列，phase独核割线代式。无新数值，无旧科学重算。
+
+D在whole-body L2与独立finite cut的product空间只用主体e和完整右行εL，实际Green重建保证fixed cut是真trace；F完整cCap只消费未知bounded帽增量的全norm。因此同CPA两正diagonal+det条件对所有||K||≤κ统一，不要求某个固定背景微分/正性/自伴性。εH也统一已进入cY，高cut与低cut的同一线性费不重复。
+
+实际K_hk在physicalγ真凸段上固定fk积分，再在γh比较height fh−fk；准确边界差是Bδ^K u+E−H，移右是−E+H。E只有CH chart费128H1pair²或2^11ρH1sum；完整Cmean余项和K的scalar输出不删。height独立7/25 dotH2，fixedsB的域及实际tail仅连续不能偷Lip。左腰W−Gδ,K DδW真实第五列须用新CPA gY ell0，whole/negative/cut各自Wnorm准确，非旧κ0第五列改名；数值ell0另待。
+
+SR19–21保same case四列+原96腰、全source σ/−fδ/非线性/非零affine/mean/实际highbody-highcut。无value jump才不另付jump列；只有两真解、真97行/真腰条件才删各residual。割线可依赖两态，结论是同态后验估计，不能据此宣称非线性fixedpoint、γ入口、H1/wholecore域、高逆或完整闭曲面。H/open前页逐字保c820e3a6同路径及递归档；所有旧失败/restore/域/单位继续有效。

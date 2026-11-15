@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮压缩前全部逐字前页/运行/域/源单位/恢复链保81041a9ee8ed1534e2ba35e3613622f42431972d本路径及HANDOFF/log，递归保3c74/e9e0d67a及全部原档；仍逐项有效。
+本轮压缩前全部逐字前页/运行/域/源单位/恢复链保c820e3a6d122d54973e83e023e79ee3ae176f858本路径及HANDOFF/log，递归保81041a9e/3c74及全部原档；仍逐项有效。
 
 ## 1. 总验收与同一个对象
 
@@ -31,13 +31,12 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 本节压缩前全部原域、源单位、费用、失败恢复和未付义务逐字保2c75543b97a390b04b129ac0ddeacd18fa4bd200同open第2节及H/log；原证明继续逐项有效。压缩不取消条件或授权重算成功数学。
 
-[v4 actual完整三窗](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2：公共43711315338/1唯一child0/14门，future/past/product/ports各5970、groups187、consumer72/66/49/0终态；旧1886只恢复。processff451539/614b92b0与summary2917bd05/a298dd2f、SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa已root全文核。原v2/v3失败、lost新范围/child未知仍保v4原文；成功科学禁止重算。
-真实193后97、signedW/任意dyadic权、全mean/协方差与8个完整方案min保留，非entrymin。原M32固定δ0/η0/ν0；继承1e−9字段不授参数BVP。ordinary输入全[0,.9]，negative只输出[0,2383968743003/1e13]，cut为真实.9迹；unscaled h、α一次、normalizedcircle、97 Euclidean行不再乘rho。g约22386.33/10488.57/6359.45、p约1494.85/716.73/424.86，a/c独立；finite193 .003509417与whole .007490301不是同窗。
+[v4实际三窗](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2：43711315338/1 child0/14，真实193后97/全mean/signedW/任意dyadic权、八整方案min完整；process614b92b0/summarya298dd2f与全源pin/旧失败/lost范围保c820e3a6同open/原proof。只M32固定δ0/η0/ν0，不授参数BVP。输入全[0,.9]、N输出[0,2383968743003/1e13]、cut真.9；unscaled h/α一次/normalized圈/97Euclidean，不另乘rho。g/p/a/c四列独立；finite193与whole窗不同，全部成功禁重。
 
 [F实际同参数反馈](results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md)52751bb5：43737257903/1 child0/15成功锁，exec9c7710ec/预Gitc9b011ca/全45球已核。κ0固定旧帽三个strict通过、det≈.76510868、CS完整97行ε≈8.209067e−8；κ1/5粗差cutdiag/det失败且无inverse列，不推奇异。FA5 sufficientκ阈下端≈.0029415074114须同图/角/mean/domain实际差；不能用小角位移免费L2算子小量。same|δ|≤1e−10/η0三窗ordinary/right97/highbody/highcut四独立列，全部源单位/实际ball/失败/输入恢复逐字保3c74同open/原proof。νvolume负≈.05928136只一volume列，不含旧response/真实边界/particular/waist；原96腰独立。高块inverse、完整ν和core待，CS只同一个完整bound取min。
 
 [PF完整逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf保全两row/oldI/错相−SI、函数root有限项0、g1hat=g1pt+g0dφ*及c0=X−′(Croot∘X−)，不能用旧scalar均值替代完整density。
-[CT正则密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保physicalχ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差分、全部mean/未知全频、c0=U_Pinv f̃−−f̃+；同旧R31的1/128+3B<7/128<1/16和e^(3L)/e^L付全initial/jump/residual。新consumer拟用已成δ0径向m0加已成δ参数导费支付mδ−m0，准确P⊥消A2并分离Bne/Cne/a_e；新signed reference须完整max(N+192,384)source与所有seam。actual完整H3尚待，旧scalar/ray/KAM不重。
+[CT完整密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保χ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差、全mean/未知全频及c0=U_Pinv f̃−−f̃+。同R31条带1/128+3B<7/128<1/16与e3L/eL付全initial/jump/residual；新完整signed目标由SN继续，旧scalar/ray/KAM不重，具体全域与单位保c820e3a6原文。
 [SN signed非mean密度/H3](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170合同已核，全source/mean/四状态residual/seam/真measure/selected physical4j与域保81041a9e。首43742905967/9门路径错，无新target且完整science已保；修补2357e678的43743531149/1 child1、198pin/8AST/17门通过，在首cell int(arb)报TypeError，0完成subcell。exec0c157226/reportd21ef384/science5147/2b2d1bca完整保存；已成new angle/root入口与首cell准备数值未保存，H记录仅这些lost新量可重，旧3146/scalar/root/ray/KAM禁重。当前未付actual H3/C/R0/incoming/GH/真ν/core；lost已f9994205记录；精确ceil().fmpz()及angle/root/每old格前置atomic保存现已部署，SCIb796c43c/manifest69f6bf09/flow08b72290，200pins13486756B/21门，helper/worker/参数/数学式零改，actual待。
 
 [AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
@@ -84,6 +83,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [AR一次积分与高度源](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58已解析核：Ef在真实A0凸球上L2-Lipschitz≤κ，NF的N∂+ΔB合成一次κ；准确chart保R_B、P⊥R_C及μ²/[m²(m+μ)]。固定sB两normalized height原球的完整97源<2^-60，不授实际f(γ)导数；RW四字段给完整非零affine。same-state真实入口仍待，不能从C0免费composition。
 
 [CH真实H1角图及完整边界余项](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md)1e443100已解析核：r=||h2||H1≤2^-10、s=||h1||H1、e=||h2||2给RC≤re、RB≤rs+2re，mean准确μ²/[m²(m+μ)]。CH6两态H1 norm-sum球ρ≤2^-10给||RΨ(h)−RΨ(k)||L2sum≤16ρ||h−k||H1sum；未知只一阶真角导，不授粗composition全图C2。CPA同域且fixedheight时完整97边界E≤cCapκ||h||L2pair+7rs+114re≤线性项+128||h||H1pair²；差分另付2^11ρ||h−k||H1sum，κ只一次。两个真实γ需同A0凸球，未知cutH1/γ入口、affine/实际height选择导数/腰/high均独立未付；不同pair范数不可同半径偷换。
+
+[SR统一割线帽行与五输入接收](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md)43da1e99已解析核：D/F product contraction只用完整右行norm，故同CPA case对所有||K||≤κ统一；实际K_hk沿physicalγ凸段固定fk积分，height在γh另比。把割线放97左侧后，highcut线性费已在cY，右侧不再重复cCapκ。SR19–21给同态五输入值/差：chart128||hcut||H1pair²或2^11ρ||Δhcut||H1sum、非零affine、height7/25、独立highbody/highcut/原96腰均保；第五列必须用新CPA gY乘NF ell0。原exact mean/scalar输出不投影掉，fixedheight不同于tail选择导数；actualγ/H1/wholecore域/五输入小量/高逆仍待，仅后验不构造fixedpoint。
 
 ## 5. 新94链、真实B collar和实际body种子
 

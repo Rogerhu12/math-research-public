@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **统一割线帽行与同态 finite193 五输入接收（已证）**：[SR1–21](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md) 亲核 D/F 的 product-space 证明后，CPA 对任意同范数界的完整帽增量一致有效，故每对合法态的割线平均可置于97左侧。完整 high-cut 线性费只吸收一次；右侧保 CH 二次/差分、非零 affine、独立 height、高主体/高cut 和原96腰。腰第五列使用同CPA ordinary增益，全部mean保。这是统一后验接收式，尚非非线性存在或真实准入证明。
+
 - **genuine Darboux 比较与完整 incoming 因子化（已证解析合同）**：[IN1–39](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md) 精确消去 common potential 的一阶 transport；完整非零根 β 矩阵用输入对角的 −4/3 阶估计。18 个旧正算法系数合法回读 profile，全 τ 三 profile 给可直接新 scalar 的有限正预算，保两重建源/均值。stable 因子仅在有序自然域抵消；incoming 的 L2/H−4/3 两门、完整 finite 三行及 dual H4/3 费用都保。新 phase gap、strict-tail、实际 comparison/全 R0 与选定高逆尚待，不授 cutoff97 或所有 s。
 
 - **真实 H1 角图的二次余项与完整 97 边界费（已证）**：[CH1–24](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md) 保真测度与完整 mean，仅用未知一阶角导给 RC≤r e、RB≤rs+2re；两态 norm-sum H1 球上余项 Lipschitz≤16ρ。结合 CPA/AR 后，实际完整边界只付一次 κ，二次项≤128||h||H1pair²、差分项≤2^11ρ||Δh||H1sum。physical gamma 准入、fixed-height 条件、真实 cut H1、affine/腰/high 保独立，不授 core 存在。
