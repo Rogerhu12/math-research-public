@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `c818ac3f4c9b1a0ab3c9fc674fa2d6770548e18d`，2026-11-15 16:31:12.898955 UTC，run43735872441实际pull并核双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `b7f8eed5c427e76a3e7568f4815a5da660e13588`，2026-11-15 16:48:40.341981 UTC，run43737522602实际pull并核双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 16:31:15.566113 UTC实际pull/read `dc99543da830ee95eadc86a5fd30af7b45a10b48`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
@@ -47,11 +47,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R308/317/319/320弱hook通道**：Af0曲段给真W≠0/单hook0，三左复幅三矩与八copy完整third已付。R319 I0排所有同向5/2曲段，与branch点号无关；正反块先在最终位置独立完成third，再同幅全θI0零。R320保原右常尾得反射三矩律，明确16轴bump原型→两相位Q4零→四实际正方向全R²锥，最终六对包络内付A−2,−3全部三外矩/全θ且保完整third。但右半右向、左镜像的朝外类即使面积及三directed均付，仍J=−K/3、Cd>K/3、D4=4(K+R)，原一层>BκK/9>0，负branch/任意strong-hook补块都不能救。下一R325朝向与半侧重排，必须同一profile联付全部原面积/一层/period/joint。
 
-**R312–324新端芽完整局部偶商已付**：h=he(1+εσ²),κ≠0,ω常，原9参真安装保M/frame/词/闭合，先选seed再固定g。真history有E=atan(√εσ)/√ε、L=log(1+εσ²)，四词有理独立，原全gauge同We=span{1,h,h^-1}偶商。R315平方三门、R318全部local+chain log、R321七singleE与平方联合真10维/187校正self均已付。R324从R56全P/B/η/chain/U含中心常数证明有理只在h^−7…h⁴，去We为9真实门；九principal余式次数0/1/2/4/5/6/8/9/10，与原10合19，真偶母/全copy不降维。新芽逐原尾接R299 pure-self/Γ，25几何函数×11平移初选C²观察，12实际交替包×有限χ正锥，保全基线有限N真19零。**同一新构造圆E²/log/E全零、整个Rrat∈We**，完整局部中心偶商已消。仅该芽偶部；下一R326奇部/同一w的We与joint及全路径其他段/period，绝非全第四或主目标。
+**R312–326新端芽完整端口已付**：h=he(1+εσ²),κ≠0,ω常，原9参安装保M/frame/词/闭合，先选seed再固定g。真history含E=atan(√εσ)/√ε、log；R315平方三门、R318全log、R321七singleE及R324九有理门严格合19；25几何函数×11平移初选C²观察、12实际交替包正锥、有限N同圆精确付E²/log/E及entire Rrat∈We。R326从八真复制得所有E8三次Ij0（跨尾保I2）；用真实入矩阵X=Φm*的一个全局合法wc=−XD，使完整奇部归零并保全部平方/第三初值，再同一全局第三Gram支付We三系数。**该指定端口完整ruling已付**，但周期准确变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)，其它段受同规范影响。后续同一个k必须13显示行（3合法矩+7σh幂+3Eh）全0并2τLf k=−Vc，13非秩；尚无该joint/全路径解或主目标。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main fb1b6664826e0a4d0b8731e69975449438f37475，双README blob同。API读取不冒实际pull。
+断连API复核main be9056f92e6231b35836905bb8ddcfb59ef5ca27，双README blob同。API读取不冒实际pull。

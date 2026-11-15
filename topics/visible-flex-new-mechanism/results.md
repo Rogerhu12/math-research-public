@@ -449,3 +449,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [原输出补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)消费observer43735401279对同科学run43728280256的恢复和SOC表。九段真实末态/LP/value/费用及各次旧历史哈希不复现都保留；第2/3段B低于旧最小值而无模型，第九末态dbecd8…以同g/b0/H/reference/pools/B.000125+streak0交接。两次accepted SOC全部17guard/4bind真，校正tail量6.54e−9/9.25e−9、总步预测比率.8775/.9225；复原原B而非保守增长。浮点LP对偶/残差不冒验证证书。
 
 原第3090行native模型5有前导U+FEFF，1509969B/SHA535f6c04b2e2e250457dd2798647194225ebfc82cd8cf73301d4e84b095fbe06，原JSON完整。新只读reader修识别BOM并输出原exact159/163/reference/row-pool/support-cut的目录元数据，为新中心支持方向复用的直接checkpoint入口准备输入，不执行求解器/人工，也不存数值payload。原模型6有限预算停止仍非驻点；下一真正新算法而非预算延长。
+
+
+## R326：一个全局合法规范支付指定端口的完整奇部和初值，保留联合周期代价
+
+[R326 完整证明](results/R326-one-global-second-gauge-pays-the-complete-rational-port-and-preserves-joint-cost.md)从原八实际副本的七阶有限差分与二次跨尾配对（保I2一阶导项）证明全部E8三次Ij准确为零。令X为真实累计入矩阵，wc=−XD于是同collar、全局第三合法、种子零。完整Z/U比较保留所有平方、交叉和真实第三齐次初值，证明指定新端口完整ruling进入We；一个全局第三Gram家族精确支付三个We系数。本稿根读时修正L2 adjoint排版为x²φ''''+4xφ'''，未重算。
+
+这一规范的全周期真实代价是Vd−2τLf(XΔ)、Ve+2τLf(Xfg)，没有置零。后续同一k保持已付端口当且仅当三合法矩、七σh^ℓ系数及三个Eh^j系数全零，并必须同时2τLf k=−Vc；十个端口行由原T及真实history全式给出，13只表示列出的行数。其它几何段还用同一k与第三规范联立，未授全局第四、精确族或主目标。无新执行。
