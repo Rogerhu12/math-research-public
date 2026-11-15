@@ -117,7 +117,15 @@ w1/w1r/w1rr分别<227086.046676/79268255645/26074855745890286。
 完整local<3.56508187941e16、first<7.89419979862e20、mean<6.95217991777e13，
 pair<7.89419979862e20。报告和小execution保21+10项完整L²结论；逐行数组只temp。
 最大的已付upper来自两density的RQJg，不能解释成真残差lower或不可能性。
-本次成功g/derivative/积分不得重算，接着复用旧完整directed word及精确g传输相关式。
+本次成功g/derivative/积分不得重算。
+[D两窗wholeword复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)
+已从原KΛ完整指数lag范数证明：旧κ5/3成本同时付两真正J窗口。
+可直接读取旧43632464994半径1/1000 case的八个完整word maxima，
+不下载或重算原matrix native。用原六行正算法预算数的严格lower构成最大比率，
+乘本次已经成功的各项L²界，再作完整和/min；原g/导数/dr积分全部保持。
+SV只是同一背景operator的两窗费用，真正genuine Bj修正仍在原幅度中。
+两个外部CJ/meanfactor不误删，21 first与10 physical-mean项完整保。
+该新标量消费尚待公开Actions，精确g传输相关式另推。
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
