@@ -340,3 +340,6 @@
 
 
 - [R386. 准确coast共同缩放的显式可行半径与C²界](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)（已证条件构造）：三个完整补偿的一/二阶一致界给统一β充分域半径，保持准确两端零2jet、自然长度和强C²连续；非零dyadic档在数学上有限到达，有限实现预算仍须实际支付。新目标参数须重新完整求解，原其它分片/同g几何责任不消失，不预填180成功或添加门。
+
+
+- [R377. 实际178十坐标八次接受与必要读回超限](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)（实际范围）：43749066353/sourced9336e76，科学child0/diagnostic-completed，8接受/八方向预算止；reader116585B>90KB/70导致compute failure，wrapper非超时。最终5678B fallback不含末p/merit/逐trial/FD/final正文，970456B原status已清；r2只修必要读回与清理，新实际不冒恢复旧父，不预填full112/native成功。
