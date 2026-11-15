@@ -1,5 +1,7 @@
 # R813 — 同一原修正的带权二类误差与首共振 Cartier 单位
 
+后继：[R822 原曲线上的精确留数下降和真实分歧补偿行](R822-original-cartier-residue-descent-and-actual-ramification-trace.md)已付；仍需同一个原完整联合核的像。
+
 日期：2026-11-15。**状态：下述原同源、原精度下的实际 Cartier 非零已证明；它尚未被识别为杀全部原 $\mathcal W_D$ 像的左行，主目标仍未完成。**
 
 本篇使用 R808 的同一个首修正 $R$，没有增添来源或改选法向数据。

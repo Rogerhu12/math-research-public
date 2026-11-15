@@ -53,3 +53,6 @@
 
 
 - [R818](../results/R818-original-three-weight-four-complex-analytic-rank-one.md)：R818以原2δ-primary理想生成元和完整十八阶角色重建三个weight4/level10404的全部系数；Fricke给准确E1导数核，Arb公开严格球与无条件无限尾证明三L′(2)分别在(3.7956,3.7957)、(8.5194,8.5195)、(6.6446,6.6447)，故原三λ及R814固定Rankin均解析秩1。全部导子/嵌入置换保留，不由复非零推出别p的AJ、三值线性和或原Sha中央。
+
+
+- [R822](../results/R822-original-cartier-residue-descent-and-actual-ramification-trace.md)：R822将R813同R的Cartier单位准确下降为原C上的Xi_R=Omega_R/u^p，原点留数γ_R/6非零；全局分部积分后非固定t分歧极阶≤m−1，实际残数是(3(−1)^s/17)GRes(W_s F_t² E²R/Y²;F,F_Y)。真F倍列化为Trace_Z(W_s F_tH)，光滑分歧行可非零、奇点总迹为零；原H2→Z满射不代固定全部jet后的联合核。完整γ/6+G_F(R)+B_F(R)=0保全部边界，指定同M障碍仍开。
