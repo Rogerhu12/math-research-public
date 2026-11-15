@@ -15,10 +15,10 @@
 - [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九费1339；全原来源/输出/carry真。有限精度不付Q[s]成员性或固定B/e无界精度。
 - [标准1632 Koszul族的同J支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：原1603单位块精确解及全部1834残差真，29列全6188/4367乘回；并旧23仍29。全族原来源注入/31饱和已付，投影不保J。
 - [29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)：top29 mod31单位、bottomQ全0，W∈Z_(31)，前29全有真规范核。删前29自由列保Q列像；七维补空间存在已由新585投影付清、尚未显式构造；同选full及square Qrank均恰4318。旧六规范源分母2356…3803bit解释p768重建不成；旧闭包/LLL/盲加位数不重开。二次skew亦不扩标准族，高系数未排。
-- [双图连接4、有限K70与条件8702](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：同原17式小化实核0.395984889秒，∞Qβ恰4（旧模31下界）、s0≤4；全部最大子式两端共同24，K70=s10K60、lc=5^6单位。配指定∞43/换列42/cofactor41得q245…8657及原目标条件cost8702（非基8701、目标8468）；Q[s]成员性、lc(D)单位及固定e全精度仍开。
-- full∞连接像在20+7余空间中精确为纯20全零、横向前两坐标零及v∞一条整数关系，详见K70稿。三个真左零jet核全部6188来源；共动坐标须真实运输，不作selected列族自动封闭。公共24与指定D43不相加，余十个Smith指数仅知≥2。
+- [双图连接4与有限K70](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：实核0.395984889秒，∞β_Q恰4、s0≤4；两端公共阶至少24，K70=s10K60、lc=5^6是31单位。原Q[s]成员性、lc(D)单位及固定e全精度仍开；同选当前费用见下条。
+- full∞第一连接像在20+7余空间中为纯20全零、横向前两坐标零及v∞一条整数关系，三真左零jet核全6188源。共动坐标按原基运输，公共阶不直接加指定阶。
 
-- [同J纯投影112及全包络零](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)后，新[585二横投影实绩](notes/r150-infinity-remote-session-789f/43679903558-selected-second-transverse-projection.json)在2.801993869秒实核rank556、完整左核29；954来源/17386项全乘回，I删3行仍rank556。故full/square Qrank恰4318、常核36且全β1=0，D/换列/cofactor≥50/49/48，K70成员性条件cost8695。显式仍29；常数31饱和不付D首系数单位。
+- [原585投影556、完整4318及50阶](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)：2.801993869秒，954源/17386项全乘回，29完整左核；I删3行仍556。full/square Qrank=F31rank=4318、核相同36维；原单位子块给完整36图核在Z_(31)存在且唯一，旧p768全同余。显式仍29；前32×7包络零使全36可full一阶提升，D/换列/cofactor≥50/49/48，K70成员性条件cost8695、目标8461。常数饱和不付参数leading单位。
 
 ## 同w边界：同源完整返回仍须费用估计
 
@@ -42,7 +42,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 
 本地实际pull读87d7b071baa3aa03c9fb0182d386d7818f3dada2（2026-11-15 08:09:31 UTC），两README无差异；保持--no-stat。临时session **43679903558**每步实际pull并核规则，20分钟空闲/6h job上限。完整旧路径、哈希及接续状态保[本次H快照](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。
 
-- [七原方向Dixon1085位](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：run43679903558数学580.880945931秒，p536870923到1085位/31466bit，18重建未返解。原2751核心/1567DAG不重做，native FLINT3.4.0；实际逆30MB/活动槽0的Z/N/p^k78MB已存，全部SHA见注。同out={work}/seven-sparse-dixon-original可接1085。先查同J纯切向小秩上界再定是否需显式七解，未添真核。
+- [七原方向Dixon1085位](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：run43679903558数学580.880945931秒，p536870923到1085位/31466bit，18重建未返解。原2751核心/1567DAG不重做，native FLINT3.4.0；实际逆30MB/活动槽0的Z/N/p^k78MB已存，全部SHA见注。同out={work}/seven-sparse-dixon-original可接1085。现已用585投影付全部36核存在，暂不续算；显式仍29。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
 - 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。接∞第二连接38×10纯包络上界（10s/512MiB）及只读旧jet缓存定位（10s），均不重NF；实际回执后才更新full Smith界。
