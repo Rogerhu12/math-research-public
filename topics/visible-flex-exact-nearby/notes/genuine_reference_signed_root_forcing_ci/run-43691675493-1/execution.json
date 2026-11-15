@@ -1,0 +1,234 @@
+{
+  "kind": "actual_public_genuine_reference_signed_root_forcing_execution",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43691675493",
+  "run_attempt": "1",
+  "workflow_commit": "3f9f91804b3cbcc89186bd2cb1166e06489745b5",
+  "worker_source_sha256": "fca0aacd7a4c1504f0d0fb9dcec7cd01eb2f2da9c0167542d54dc56b363102ff",
+  "source_budget_source_sha256": "e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1",
+  "input_manifest_sha256": "bed0fdb7a293ddaf2408585d5530b81b9c7277f16e22be1763fee732211a351e",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicitly_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "started_utc": "2026-11-15T07:50:19.690265+00:00",
+  "complete": false,
+  "actual_returncode": 1,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T07:50:20.043461+00:00",
+      "before": "3f9f91804b3cbcc89186bd2cb1166e06489745b5",
+      "after": "3f9f91804b3cbcc89186bd2cb1166e06489745b5",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T07:50:25.934201+00:00",
+      "before": "3f9f91804b3cbcc89186bd2cb1166e06489745b5",
+      "after": "3f9f91804b3cbcc89186bd2cb1166e06489745b5",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "actual_source_budget_processes": 1,
+  "old_numerical_enclosures_recomputed": 0,
+  "reproducible_data_published_to_repository": false,
+  "reproducible_data_uploaded_to_Releases": false,
+  "new_reproducible_data_artifact_uploaded": false,
+  "full_high_inverse_claimed": false,
+  "final_topic_complete": false,
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "actual_verified_input_count": 12,
+  "actual_verified_input_receipts_sha256": "09225e744ba699d9f1937d27303e0a66e5e3f40e600b692baf365aedfb2d44e4",
+  "actual_input_origins": {
+    "exact_public_historical_blob": 7,
+    "exact_current_identical_legacy_input": 3,
+    "exact_current_text_input": 2
+  },
+  "actual_current_contract_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md",
+      "bytes": 14116,
+      "sha256": "052a0b23535c42523bc25734ed6366fd01a765c6a309b8ca88731b3ffdd707d8",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b",
+      "origin": {
+        "kind": "exact_current_identical_legacy_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+      "bytes": 24947,
+      "sha256": "e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1",
+      "origin": {
+        "kind": "exact_current_text_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "origin": {
+        "kind": "exact_current_identical_legacy_input"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-reference-signed-root-forcing-CI-inputs.json",
+      "bytes": 6861,
+      "sha256": "bed0fdb7a293ddaf2408585d5530b81b9c7277f16e22be1763fee732211a351e",
+      "origin": {
+        "kind": "exact_current_separately_pinned_manifest"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "origin": {
+        "kind": "exact_current_separately_pinned_rules"
+      }
+    }
+  ],
+  "complete_immutable_Python_AST_closure_passed": true,
+  "complete_immutable_Python_AST_file_count": 3,
+  "complete_immutable_Python_AST_inventory_sha256": "595e9fde38c7d36e5807f01ffae7fd56fc0094e3f14ab5d244ff93b5bf05624a",
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py",
+    "--repo",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-reference-signed-root-forcing-CI-inputs.json",
+    "--manifest-sha",
+    "bed0fdb7a293ddaf2408585d5530b81b9c7277f16e22be1763fee732211a351e",
+    "--out-dir",
+    "/__w/_temp/visible-exact-genuine-reference-signed-root-forcing-output/consumers"
+  ],
+  "actual_scientific_checkout_commit": "3f9f91804b3cbcc89186bd2cb1166e06489745b5",
+  "source_budget_child_wall_seconds": 0.7654559909999961,
+  "new_complete_signed_root_forcing_bounds_proved": false,
+  "actual_failure": "ValueError: one complete primitive intermediate denominator lost its gap",
+  "output_hashes": [
+    {
+      "file": "consumers/conclusion.md",
+      "bytes": 1857,
+      "sha256": "f3f75785aa98323d67cf7e01eec0b4a46044706379a357a5b275e888aba2c92f"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 3960,
+      "sha256": "a21b44409b09220c4666741b2df57f59b4fe826bf590d0430d72725d9046d252"
+    },
+    {
+      "file": "consumers/temporary-genuine-reference-root-forcing.json.gz",
+      "bytes": 1546,
+      "sha256": "304ae7782218eed7839cbd92ae7d3d4f25d8c664cd03da42771d2dbfeb2441b4"
+    },
+    {
+      "file": "source-budget.stdout.log",
+      "bytes": 207,
+      "sha256": "a4407e775189534812fab3a4c878ed944cda5872e3af21b71dc617d72e77a7da"
+    }
+  ],
+  "actual_scientific_receipt": {
+    "complete": false,
+    "proved": false,
+    "actual_returncode": 1,
+    "failure": "ValueError: one complete primitive intermediate denominator lost its gap",
+    "gates": [
+      {
+        "name": "the current signed-root source, complete algebra and manifest have exact reviewed identities",
+        "passed": true
+      },
+      {
+        "name": "all exact original root files and the newly proved signed identity were checked",
+        "passed": true
+      },
+      {
+        "name": "the original complete Taylor run actually succeeded and retained all old75 stage bytes",
+        "passed": true
+      },
+      {
+        "name": "the same true root, repaired finite family and fixed eta0 are retained",
+        "passed": true
+      },
+      {
+        "name": "the original complete complete-background-root-series keeps its exact old header and byte identity",
+        "passed": true
+      },
+      {
+        "name": "the original complete complete-local-operator-series keeps its exact old header and byte identity",
+        "passed": true
+      },
+      {
+        "name": "the original complete leading-complete-Q keeps its exact old header and byte identity",
+        "passed": true
+      },
+      {
+        "name": "the old complete repair and both physical mean slots remain in the original root background",
+        "passed": true
+      },
+      {
+        "name": "only original full root coefficients and the already paid scalar kappa are consumed",
+        "passed": true
+      }
+    ],
+    "actual_mathematical_wall_seconds": 0.3600763740000019,
+    "source_sha256": "e55a078a09f22a075eb37e65b3f74bbf0698f78ef4008cb5e8bf6b76d7787dd1",
+    "algebra_sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b",
+    "input_manifest_sha256": "bed0fdb7a293ddaf2408585d5530b81b9c7277f16e22be1763fee732211a351e",
+    "runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "original_complete_root_stages_read": 3,
+    "new_complete_signed_root_forcing_cases": 0,
+    "original_stage_receipts": [
+      {
+        "name": "complete-background-root-series",
+        "original_relative_file": "stages/complete-background-root-series.json.gz",
+        "bytes": 75245,
+        "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8",
+        "original_payload_sha256": "0f54892640daf514f1542291201722ba31644032269dac150feef62ca196ebe2",
+        "original_source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+        "original_manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+      },
+      {
+        "name": "complete-local-operator-series",
+        "original_relative_file": "stages/complete-local-operator-series.json.gz",
+        "bytes": 198895,
+        "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2",
+        "original_payload_sha256": "72009949f23a75d32ce8d15b56e97ef562aa5842977c4ee102c6c3fa65e0a7c3",
+        "original_source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+        "original_manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+      },
+      {
+        "name": "leading-complete-Q",
+        "original_relative_file": "stages/leading-complete-Q.json.gz",
+        "bytes": 80521,
+        "sha256": "0aa0da3c5260ebab0f64afaf0df07eab854988a9a630260714a783ef1c21d523",
+        "original_payload_sha256": "9bdb0e46d646ada2ff9605315eddd80c2d6ba333ec831f47daa6ab10a95993e2",
+        "original_source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+        "original_manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+      }
+    ],
+    "original_target_FFT_intrinsic_cubic_or_point_derivatives_recomputed": 0,
+    "original_fold_forcing_or_saved_Taylor_coefficients_recomputed": 0,
+    "original_natural_stage_bytes_modified": 0,
+    "new_ordinary_source_or_full_inverse_claimed": false,
+    "temporary_native_sha256": "304ae7782218eed7839cbd92ae7d3d4f25d8c664cd03da42771d2dbfeb2441b4",
+    "temporary_native_bytes": 1546,
+    "temporary_native_is_not_published": true,
+    "reproducible_outputs_published_to_repository": false,
+    "reproducible_outputs_uploaded_to_Releases": false,
+    "new_reproducible_data_artifact_uploaded": false,
+    "complete_root_conclusion": null
+  }
+}
