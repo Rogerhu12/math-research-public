@@ -194,3 +194,5 @@
 - [R661：原odd-five全部有限型与两条log行的同一Katz返回](results/R661-original-odd-five-characters-and-two-logarithmic-rows.md)：全五Schwartz型/period给ρ=χψ0/barψ0和E10000的ψB，三原行读取同一角色线m0、m1、m−1。两真实log行准确是非零Katz值的反圆分对数导数加log〈5〉，原周期/Euler和所有M0/H±/W失败支保留；值非零不被升级为指定导数非零。
 
 - [R662：原Y环带外部质量与完整W补偿的准确抵消](results/R662-original-annulus-exterior-and-exact-w-compensation.md)：同q_N与Y/(κ^r p^m)归一给全原S行、真实A外部首二行及严格有限层误差；外部零阶质量为unit，尺度三角项恰抵消R659非齐次差。原T另留B±=b_L L±b_Y Q的完整混合unit/log行Θ±，全五型和外部反号保留，未将强制差认中央矛盾。
+
+- [广义 Stieltjes 范围核查](notes/2026-11-15-generalized-stieltjes-and-original-pade-boundary.md)：Markov–Krein 正测度呈示成立，但A=2的严格正密度已可给有理函数，故单独广义正性不付普通Padé完备性；原不同charge的正矩规范也非共同目标行变换。未排原Beta的其它AT证明，R637实际高尾仍开。
