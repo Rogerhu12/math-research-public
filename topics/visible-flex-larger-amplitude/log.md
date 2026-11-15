@@ -540,3 +540,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 152/150共同JSON限定与完整错误来源
 
 [完整接口](notes/2026-11-15-native128-explicit-JSON-qualification-interface.md)6529B/e06d590a和入口15058B/e609fb0a读完即发；五固定源仅12/9/4/49/2处quoted→::quoted，原/执行SHA及全文逆向核同，无数学/预算改变。原Git源保留，实际g++仅改CPP临时路径，stage/tape同目录显式header；原错误逐行带字节/SHA，不足范围诚实记录。152全组件与150完整field分别接，尚未编译或科学执行；H压缩保完整正文/恢复/当前责任。API核双README非pull。
+
+## 2026-11-15 /root — 149持久Decimal50完整有限模型与响应
+
+[149完整接口](notes/2026-11-15-persistent-decimal50-nine-control-primal-response-interface.md)15969B/9794f4f5及九件全文已读即发：真实146末p/radius准确lift，699/三完整2×2/全112右行与九轴、两P、QR、owner同Decimal50；100+7pins/父33当前36/四输入及原门全保。单8方向75min科学/90minjob；原64投影54FD/Arb/453与实际高精度点另组FD不混同，完整错误与所有normal原字读后清。终端恢复后新partial clone与13:41真pull868de22c双README未变，CLI接续；不预付改善/非零场/连续g。
