@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：完整网络在低阶小、高阶仅有限背景上的两层 tame 逆。** [N1–29](results/R119-supplement-two-level-full-network-tame-inverse-and-complete-sources.md)保低R1856≤2^-8192000、高至8192有限、全proxy/projected第一Γ源，输出64≤s≤6400、真实loss1730。最高未知只乘低系数，高背景只乘低源；cross-sign GN全费933888<1048576，第二Γ scalar gap以实际低192/196阶重付。D8由Y64读1794/1802，低Schur<2^-7900000。全部mean/weak/height/真adjoint/浅深前缀保，变化outer weighted门及真实EN/Nash仍独立。
+
 - **2026-11-15：第二次精确清理已实际通过容量门。** [run43690692511/1实际publication](notes/data_cleanup_confirmed_outputs/run-43690692511-1/publication.json)确认普通删除九件7607204B、提交1fae319aa2ac67d722bf16b2391053dcb90bb407的topic为199048373B<200000000。首轮超限结果保留；0数学/0旧11834重读/0新数据上传，原history/参数/源码不改。完整路径/blob/bytes/SHA/producer/run身份清单30803B/SHA75901041…，恢复用121e4ce6…原提交。容量是该实际快照的结论，后续新增仍须维持。
 
 - **2026-11-15：共同径向真实参考的完整 signed 第一源与根处消去。** [F1–22](results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md)准确给f_b^V=f_b+V_j/f_a不变；保全n^-1/^-2/^-3、旧P/I/J六余项/mean/jump，新的w1^V根常数不是旧w1改名。真root径向大项准确消去，余C²−291/140、DC15/14和Kr项；完整mean为V_j−V∞+141〈C²〉/(140κ²)，finite-z Q1在固定z取真实r导。根与tail独立复核完整系数，未运行新数值，整片/正Schur/strong返回仍独立。
