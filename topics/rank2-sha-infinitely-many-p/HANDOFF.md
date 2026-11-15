@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：650de55667837228d4328825a9734fca3ea93a6b；2026-11-15 00:36:39 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:36:38 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
+- 最近已读规则提交：f118500f68992632c780e85a8b9c9992078e2e9a；2026-11-15 00:40:23 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:40:09 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -15,8 +15,8 @@
 
 ## 已发布、完整归档与分工
 
-R1–363、R365–560、R562–623、R625–626及R629已登记；R364仍开，R561/624/627/628/631进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r629.md)、[open](notes/2026-11-15-open-before-r629.md)。
+R1–363、R365–560、R562–623、R625–627及R629已登记；R364仍开，R561/624/628/631/632进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r627.md)、[open](notes/2026-11-15-open-before-r627.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 - theta：R626已发表，续R628同carry交域/中央同深返回的完整补域关系。
 - literature：续R624同charge六det(c,d₂)与完整addition/低残差，不能把第二Gaussian当独立中央零。
 - deep：R629已付u≥0原短目标满射；续R631完整C的首Bockstein真实低行及较小预算。
-- root：续R627原Frobenius坏带/真实来源与中央接口；R625完整p幂整窗已付。
+- root：R627原幂完整首坏带已付；续R632真实Frobenius来源/全预算与中央接口。
 
 ## 原固定对象及未关闭支线
 
@@ -89,26 +89,29 @@ p>7D原Schur保全行/真前缀/首pole。R610下一Ξ=ε∂ε+6υ∂υ，
 未整改B保Witt项；目标导子不自动保原帽/来源/同D预算。
 R604不连续单位子式给真前缀空界与Θ(D²)接触，不代旗标成本。
 
-R614–616整个n<L=(p²−1)/6整、n<ps一次、n<2L二次分母，
-pH_L=−1、首坏与G阶数4/1/6/6；末forcing为−c4/−4c1。
-原完整j modp^p保h=p端点，j0使g_p整及L_(p−1)∈p^p。
-R619全n<2L仅ps有二阶log极，p²g_(p+h)=γb^Lg_h(1≤h≤p−2)；
-原j modp^(p+1)保完整T_p，j0使Σh≤pT_h∈p^(p+1)，不逐项赋零。
-R618 a₂=Δ_ps、p²a₂=b^Lpc unit，U=Vexp(a₂z^(p(p+1)))；
-原U/G4/G1/S/T余项准确R₂=p^-τ₂，τ₂=(2p−1)/(p(p²−1))，闭非Tate。
-全coeff≥−floor6nτ₂、Newton尾ceil((H+1)η+6τ₂)+v(H!)，η=1−(p+1)τ₂，
-有限窗更强界仍保。R622第二连接外盘唯一Tate解的原点仍同j，
-全部W_k(q)∈1+p^(p−1)O不可删，未添独立中央零。
-R623 R₂≤R≤R+<R_E的完整两Gaussian域degree p²、原sigma对角degree p；
-旧F_R(E1)不含σ。七积分全p²域仍独立，含塔P任意两Gaussian仍准确S。
-两个中央Π0U无论j是否0都在对角域，不能据域成员增维；
-普通余项O(k)成本不代九格主预算。
+R614–619完整原高度二坏带/Cartier保在前检：去Gaussian后n<L整、n<ps一次、n<2L二次，
+H仅L一极/pH_L−1，log仅ps二阶极；末forcing−c4/−4c1不赋非零。
+p²g_(p+h)=γb^Lg_h到h=p−2；完整j modp^(p+1)必须保T_p，
+j0仅使Σh≤pT_h∈p^(p+1)，不逐项赋零。
+R618第二临界a₂有p²a₂=b^Lpc，原余项精确R₂=p^-τ₂，
+τ₂=(2p−1)/(p(p²−1))、闭非Tate；coeff≥−floor6nτ₂，
+全Newton尾ceil((H+1)η+6τ₂)+v(H!)、η=1−(p+1)τ₂，有限强窗保持。
+R622外盘第二连接唯一解原点仍同j；完整W_k(q)∈1+p^(p−1)O不删，未添零。
+R623 R₂≤R≤R+<R_E全两Gaussian域p²/原sigma对角p，
+旧只添E1不含σ；七积分全野域仍独立，含塔P任意两Gaussian仍准确S。
+两个中央Π0U无论j0均在对角域，不据此增维；普通O(k)成本不代九格预算。
 
 R625原未去Gaussian的归一B=z^-dF：f4/f1/S/T的d4/1/6/6。
 对1≤e≤p−2，B^(p^e)在n<(e+1)L全整，
 p[w^((e+1)L)]B^(p^e)=(-1)^e d b^((e+1)L)/(e+1)unit。
 原S/T还保首w^(p^e)；完整H坏因子/有限Dwork付指数。
 实际来源度p^e，后坏行不代真前缀，整性不依赖j0。
+**R627**付整个r<s首坏带：q=e+1，p[w^(qL+r)]B^(p^e)
+=b^(qL)binom(6r,q)[w^r]logB（r≥1），全部至多一次分母。
+完整log/exp保p²指标与全Gaussian阶乘；对1≤e≤5，原S/T的qL/qL+1两行
+det=2236(-1)^q binom(6,q)b^(2qL+1)/(5q)unit，有限完整前缀范数=p乘来源范数。
+原两列还须共同平移p^e阶；原H38=T/S的首坏恰qL+1，
+residue=−1118binom(6,q)b^(qL+1)/15。真实度p^e/全部原预算保持，无新中央零。
 原参数τ=b/x³与t_old=−τ；K(τ)=(σ(z(u))/u)^6=Theta_old(−τ)^3，
 不能认t_old=−bw，z=uH(τ)。
 
@@ -116,13 +119,9 @@ p[w^((e+1)L)]B^(p^e)=(-1)^e d b^((e+1)L)/(e+1)unit。
 
 旧Γ/M=c*U0m13J、19角、P134/charge40、13自由行/26carry、
 conductor10980、两连接α/β及所有帽按完整前检保持。
-R577/578右逆/核含Qn/Qquad；R593同R先过完整D+再判实际第二像，
-L0/L1两位/Qquad最高行不删。R597 r1ν2临界基准det−2，
-第三块a(z0+z1w)不代余核；ell2/c3/β0unit实际Euler pivot用同R gauge/EP
-清第三尾，第二块必须变Ψ1−2z1°B/c1，剩ker(π2E²)像仍开。
-R603 c3两支t对角1,1,t,t⁴及原N帽五左条件保持；
-R608两支极点留同R固定𝔯P/t，但完整Taylor平方项相消。
-
+R577/578全部Qn/Qquad、R593完整D+/两位除法和R597同R基准/原帽见完整前检。
+R597 ell2/c3/β0unit的Euler pivot清第三尾后，第二块须变Ψ1−2z1°B/c1；
+R603五左条件/R608极点与完整Taylor平方相消保持，不删除旧高精度条件。
 R612完整C核=原帽内I_(p−78)(t,Y−1)，单射恰p>6(b_D+13)；
 实际t(E+40)保D+1帽边界，不降旧三块。
 同结点任何同R/T在p²[w^(2s+15)]有unit，紧邻ell2末2s+14；

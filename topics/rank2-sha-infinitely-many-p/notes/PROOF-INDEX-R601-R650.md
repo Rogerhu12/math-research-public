@@ -99,3 +99,6 @@
 
 
 - [R629：最后四个原电荷与短目标的完整尾满射](../results/R629-original-four-charge-tail-and-short-target-surjectivity.md)：十二个固定有理Padé矩阵的单位子式将原J_A满射门推进b_D≥s−13（D≥3、ell1/2、p>101），全部q帽/高尾/同来源保留；唯一方阵例外强迫p合数。相同R通过完整J(P+pR)∈p²后第二A forcing可吸收，未删除两十三行或把γ0当完整C2/d2零。
+
+
+- [R627：原theta完整首坏带与实际S/T幂的单位二行](../results/R627-original-theta-power-first-bad-band-and-unit-two-source-prefix.md)：对q=e+1、1≤e≤p−2，整个r<s坏带至多一次分母，r≥1的准确residue为b^(qL)binom(6r,q)[w^r]logB。完整Gaussian/指数与p²指标均付；e≤5时原S/T两条真实幂的qL/qL+1行detunit，给完整有限前缀范数，H38幂首坏恰qL+1；保原p^e次数与首阶，不添中央零。
