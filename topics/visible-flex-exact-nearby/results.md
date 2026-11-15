@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：同源物理帽仿射负荷的完整有符号伴随接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)：同What的准确值方程、Hessian相消、全部97伴随/外端/均值/选定读出；用新knownforward-angle moments计算signed affine，旧formal Grams直接消费。新向量及全部误差尚待公共Actions actual，不授完整core。
+
 - **signed 密度角图与根领圈准备（实际完成并冻结）**：[actual准备](results/R133-supplement-actual-signed-density-angle-and-root-collar-preparations.md) 来自43744151905/1原子保存的12098B科学结论：同selected真j两门、KH/Ej、两sign共同root四source/error列及首原cell完整mean/speed已成，后继只能复用。该child首reference_step的poly/scalar API失败，0完成输运子格；仅首子格Taylor F/a未保存可重做。完整signed H3、C与strong-return并未完成。
 
 - **统一割线帽行与同态 finite193 五输入接收（已证）**：[SR1–21](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md) 亲核 D/F 的 product-space 证明后，CPA 对任意同范数界的完整帽增量一致有效，故每对合法态的割线平均可置于97左侧。完整 high-cut 线性费只吸收一次；右侧保 CH 二次/差分、非零 affine、独立 height、高主体/高cut 和原96腰。腰第五列使用同CPA ordinary增益，全部mean保。这是统一后验接收式，尚非非线性存在或真实准入证明。
