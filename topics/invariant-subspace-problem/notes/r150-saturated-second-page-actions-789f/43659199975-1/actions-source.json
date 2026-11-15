@@ -1,0 +1,168 @@
+{
+  "source_commit": "b00e141ec3191db04b83d46d6b33492d894d91a2",
+  "run_id": "43659199975",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "format": "r150-saturated-second-page-fixed-request-v1",
+    "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
+    "retained_second_source_count": 204,
+    "new_second_relations": 198,
+    "target_labels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "integer_modulus": 887503681,
+    "original_target": "31^2*h0",
+    "shared_mathematical_seconds": 300,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "native_compilations": 4,
+    "local_taylor_center": 2,
+    "local_input_precision": 20,
+    "local_first_retained_precision": 15,
+    "local_second_retained_precision": 10,
+    "local_class_precision": 5,
+    "old_197_third_mathematics_recomputed": false,
+    "old_selector_mathematics_recomputed": false,
+    "characteristic_zero_identity_asserted": false,
+    "frozen_input_count": 30,
+    "artifact_input_count": 25,
+    "inputs_by_scope": {
+      "t96": 4,
+      "notes": 5,
+      "all198": 3,
+      "seven": 1,
+      "current": 2,
+      "ninth": 2,
+      "old200": 4,
+      "third197": 9
+    },
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "artifact_sources": [
+      {
+        "scope": "t96",
+        "run": 43597823809,
+        "id": 14114364261,
+        "name": "isp-r150-t96-graph-recovery-43597823809-1",
+        "bytes": 299422058,
+        "digest": "sha256:970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241"
+      },
+      {
+        "scope": "old200",
+        "run": 43605503242,
+        "id": 14118112895,
+        "name": "isp-r150-high-kernel-bockstein-recovery-43605503242-1",
+        "bytes": 160817149,
+        "digest": "sha256:c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b"
+      },
+      {
+        "scope": "all198",
+        "run": 43619888599,
+        "id": 14124017685,
+        "name": "isp-r150-all198-second-bockstein-recovery-43619888599-1",
+        "bytes": 117446956,
+        "digest": "sha256:ba81a8aaafc236b15e90f0998ee3c0122634b99dda9f36c88d8d6c3b578b8117"
+      },
+      {
+        "scope": "seven",
+        "run": 43630666145,
+        "id": 14127663630,
+        "name": "isp-r150-seven-saturation-recovery-43630666145-1",
+        "bytes": 50572502,
+        "digest": "sha256:9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4"
+      },
+      {
+        "scope": "current",
+        "run": 43634830833,
+        "id": 14130166013,
+        "name": "isp-r150-augmented-seven-second-recovery-43634830833-1",
+        "bytes": 48079746,
+        "digest": "sha256:bfd5b35419f49ffa12182faaffdf3b6c95f35db72598be09951ce79e758e53e4"
+      },
+      {
+        "scope": "ninth",
+        "run": 43638830039,
+        "id": 14130842468,
+        "name": "isp-r150-ninth-first-recovery-43638830039-1",
+        "bytes": 32846922,
+        "digest": "sha256:5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855"
+      },
+      {
+        "scope": "third197",
+        "run": 43653360404,
+        "id": 14137650288,
+        "name": "isp-r150-197-third-recovery-43653360404-1",
+        "bytes": 128795358,
+        "digest": "sha256:3e60384f11ad8d1379f2fc7f808eef1511e98944e0af192e47559faf6250fc0c"
+      }
+    ],
+    "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-frozen-manifest-789f.json",
+    "source_manifest_sha256": "86c2b577c455c76f1920108d45c1ef7737ec7a668eb60adb8a05e1d3b1bd4194",
+    "contract_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-contract-789f.json",
+    "contract_sha256": "28411e3f047d93221fc929c84a31529e749237e6c208d766187c27fe738890d9",
+    "workflow_source_sha256": {
+      ".github/workflows/invariant-subspace-r150-saturated-second-page.yml": "80bde44833beef23973540127c0e6bce81551210ba1da42476a90e7f4cbb7534",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py": "659774cac777b70bcfe6e3d737d0e3a3b6689771686c01ec79ce1ca12a6c54ca",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py": "37b437eb15f37bc5fd4f913e518d6d0889aa21c7477d19837a5197a9db7a09ad"
+    },
+    "entry_python_files": [
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py"
+    ],
+    "execution_environment": {
+      "runner": "ubuntu-latest",
+      "python": "3.12",
+      "python_flint": "0.9.0",
+      "numpy": "2.2.6",
+      "native_compilations": 4
+    },
+    "account_concurrency_snapshot": {
+      "atUtc": "2026-11-15 00:37:02 UTC",
+      "ownedNonarchivedRepositories": 12,
+      "runningRuns": 2,
+      "activeJobs": 2,
+      "queuedJobs": 0,
+      "queryErrors": 0
+    },
+    "created_utc": "2026-11-15 00:37:52 UTC",
+    "scope": "Complete root2-local second page of the proved full original S2 envelope. Local positive requires global restoration; remaining targets require the saved complete third-source kernel. No complete original modp6 or characteristic-zero decision is asserted.",
+    "local_source_compilation_performed": true,
+    "local_entry_python_syntax_performed": true,
+    "new_mathematics_executed": false,
+    "continuation_required": "After this actual full second result, immediately use saved complete source kernel for third and/or restore positive original polynomial sources. This page is not a stopping point for R150."
+  },
+  "request_sha256": "fdb9dec060c7a4b7159edf3fa8bb96ac4be64692a1daaeb76478ab3eec26dc9e",
+  "source_manifest_sha256": "86c2b577c455c76f1920108d45c1ef7737ec7a668eb60adb8a05e1d3b1bd4194",
+  "actualPythonSyntaxFilesParsed": [
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-local-unit-solve-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py"
+  ],
+  "allOriginalSourceHashesVerified": true,
+  "noMathematicalCompletionClaimed": true
+}
