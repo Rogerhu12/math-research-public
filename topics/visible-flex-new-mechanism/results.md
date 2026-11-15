@@ -395,3 +395,8 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R319 完整证明](results/R319-one-sided-weak-hook-area-obstruction-and-reflected-block-cancellation.md)从原右尾三槽身份直接给I0{u,[W*,P](u;D)}=−(a+3b)∫u″²f″f‴/3。真实右/左5/2曲段的f″f‴=±225A²/32，与分支点β无关；三矩补包的贡献为真实全导零，全部copy按正四次幅相加。因此R308所有同向曲段族（包括负β）无法过完整第四，早于R317的一层符号比较。
 
 末推论给建设性入口：一个基本三矩弱hook对及其同宽反射分别在最终位置执行八copy完整第三，再等幅合并两个完整块。I0的两个无x相位系数N/M准确反号、平移不变，故全θ此面积I0真零，三矩/弱hook/完整third保留。只付这一门，I1/I2/其他面积/一层/第四period/joint仍须原式支付。纯纸证，无新执行。
+
+
+## R316：完整权零 self 门已提交公开 Actions，尚无实际结论
+
+[设计及精确范围](notes/weight-zero-complete-self-gate-design-20261115.md)：全部13维R^(0)∩kerπ加目标H，共14新完整self；只消费旧三行48个pure值与必要原mixed/C2恢复，0旧query/旧H0 rank/3974 forcing重跑。新输出全部T9/局部Euler忠实坐标，member fresh原差只要求T/Euler零和完整重构，不误加sound NF字面零；nonmember给精确对偶，范围先限完整权零核。12项新人工和240s/1024MiB实际任务首次在公开Actions，结果待消费；非阶段完成或主课题完成。

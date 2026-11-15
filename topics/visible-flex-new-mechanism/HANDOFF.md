@@ -8,7 +8,7 @@
 
 私有2026-11-15 16:02:23.127321 UTC实际pull/read `dd9aad351d1ca8847bca06cadd03a0bc0a3162ae`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
-真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。15:58再试本地环境仍unavailable，仅按根8小UTF8集成发布；API不冒实际pull，恢复即补实际pull/双规则检查。
+真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。16:29再试本地环境仍unavailable，仅按根8小UTF8集成发布；API不冒实际pull，恢复即补实际pull/双规则检查。
 
 
 ## 2. 完成门
@@ -40,7 +40,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 **R303–314完整self**：移动左尾≤5/c10真端消给q(u_c)≤9，H6×p2十N链为pure/T核，可19观测联控。R307/309全[c9]=D9 I、[c8]=D8 I+D9(9I1−3J)，清一母全平移⇒普适次数≤7，非全Q。R310 KJ整q=J=∫u′u″u‴²，even母全移/幅/宽盲。R313𝔍×P/R/S/U/T五维N块=4链+常链，F=2∫u′²u‴²−∫u″4/6≥∫u″4/18，核span(J,F)与旧核I由反射/宽度分离，self像≥15、24真观测联控。
 
-**R314完整局部化**：pure零总V的q(au+bv)有序不交交叉恰μuᵀT(V)μv；保原二阶场、真实左ℓ/J²尾，双核两次IBP并收全部对角C²项，再两次Euler最高4/2/0阶递降给q=N_T+∫L(x,u,u′,u″,u‴)，N_T=∫x<y j(x)ᵀTj(y)。九矩准确承载全部非局部商，T0 iff完整self局部；L保原三阶平方及全部局部C²。Euler(L)全部六jet三次字面系数忠实，配T可判全self零。下一最小完整canonical/响应坐标消费，不再独立增rank；Z18×E8不是全Rp0，Gaussian/joint仍欠。
+**R314完整self局部化**：pure零总V的有序不交缺陷恰μuᵀTμv；保原ℓ/J²尾及全部三角边界，两次Euler最高阶递降给q=N_T+∫L三jet，T0 iff完整局部。九矩承载全非局部商，L含原三阶平方/全部C²，Euler全部六jet三次字面系数忠实。**R316已提交公开Actions**：完整权零13维响应pure核+H共14新self；读48旧pure值，不重旧秩/查询/3974，先12新人工。member以fresh原差T/Euler零+重构判，非额外NF零；结果未出，不授全Q/全λ或同w。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -56,4 +56,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main f7e842dbbcf036123919e003b0fb923de792dfac，双README blob同。API读取不冒实际pull。
+断连API复核main 3af5aa1b6ef6002201284c63744e9c8c65031af5，双README blob同。API读取不冒实际pull。
