@@ -30,7 +30,7 @@ newton_source负责。原有限193 actual43635487128 child0/8门仅给有限负�
 
 [四格实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)：337pin连续ordinary/Hessian Gram run43664278200已实际child0/9门；原quarter0/64/4096/7907完整97 signed矩阵、独立mean、无限系数尾、原Hessian转置与全部真交段保。它只授这四闭格；完整7908五件已部署（SCI6b3a47a5…/CI86c2a02b…/341pin manifestbaf3a428…）。32互斥范围仅补7904缺格，原四格及337pins逐字保；prepare只整件读取原提案一次，range只读准确原字节slice，finish保全部97 signed九Gram与真实径向链。待actual全覆盖；边界/high43666716585已actual，后验须合全体再授Wcap。数学与摘要全部保原对象身份，任何新数组只能在公开Actions生成。
 
-[真端点与完整high-output合同](notes/2026-11-15-R133-cap-adjoint-true-boundary-high-Gram-contract.md)的341pin五件已装：SCI41052363…/CIab34ab0e…/manifestb753b786…；真9/10 Hermite、完整97左误差/独立mean、128外qstar与正比较fee、4096格/512保留模外的完整composition alias/无限tail皆保。真实m<0，所有正上下界为|m|，exact式仍用signed m。尚待actual；随后与7908主体及真97右Poisson同输入合成。没有full7908与所有边界费用，不授新的无限帽high-to-low或真实ν门。
+[真端点与完整high-output合同](notes/2026-11-15-R133-cap-adjoint-true-boundary-high-Gram-contract.md)的341pin五件已装：SCI41052363…/CIab34ab0e…/manifestb753b786…；真9/10 Hermite、完整97左误差/独立mean、128外qstar与正比较fee、4096格/512保留模外的完整composition alias/无限tail皆保。真实m<0，所有正上下界为|m|，exact式仍用signed m。actual43666716585 child0/10门已核，trWT<1.132443e−9、κ<13.367450、c*²<.010388235；随后与7908主体及真97右Poisson同输入合成。没有full7908与所有边界费用，不授新的无限帽high-to-low或真实ν门。
 
 ## 4. 第一Airy修正：接受新的实际数据，继续真正完整源与端口
 
@@ -48,7 +48,7 @@ phase_inverse和root负责。原root1300行、forcing1328行、seam1079、negati
 
 [根值剥离actual](results/R133-supplement-actual-root-value-subtracted-first-Airy-derivatives.md)43663147595 child0/9门：7norm/1tail/6profile/653 normalized seam/1036新行，前三R=.001/.002/.005双侧路径全过，负local<4.337713e20/5.654995e20/7.954848e20。后三fixedX/正optical新门失败，3323行原完整界保。根mean乘M0及其二导、真正forcing jump与实r两ray全保。
 
-[完整b*源actual](results/R133-supplement-actual-complete-root-subtracted-first-Airy-sources.md)43665091373 child0/8门，native2a387a9d…31133B/processa7c42cca…55665B；1036新全九词/五mean及积分、3323原payload逐字，1328转换/六profile/旧local全0重算。前三R负完整<4.834450e20/6.332163e20/8.952481e20，正<1.155745e22/1.422447e22/1.960789e22；大三径原有效界保。R.02自然5630289B原artifact整件。完整diagnostics定位正最粗到真piece2549首外格、负piece2548；后继只用同一原解析piece的Taylor/Nraw到真seam重新partition，物理背景/forcing跳不改。[相关Nraw完整合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)已证：μL0w1 degree0..10先作全signed有限Taylor合成，同旧R1/6000/Σ1/128以正闭式U/V、完整角Leibniz和两种独立Wiener候选支付全部尾；保mean/ε两branch，不借sup当Wiener。新consumer39pin五件已部署（SCIe9024812…/CIa9b69b58…/manifestbc34acdc…/workeracd69d4f…），只读26原stage及完整old-product证书，新增11Nraw/11helper/33norm/2tail/3budget共60stage；尚无新actual，不重算高根或原280stage。继续真实seam修正、正weighted端口、完整strong return与充分cutoff；单独source component不等于全trial或未知高频解。
+[完整b*源actual](results/R133-supplement-actual-complete-root-subtracted-first-Airy-sources.md)43665091373 child0/8门，native2a387a9d…31133B/processa7c42cca…55665B；1036新全九词/五mean及积分、3323原payload逐字，1328转换/六profile/旧local全0重算。前三R负完整<4.834450e20/6.332163e20/8.952481e20，正<1.155745e22/1.422447e22/1.960789e22；大三径原有效界保。R.02自然5630289B原artifact整件。完整diagnostics定位正最粗到真piece2549首外格、负piece2548；后继只用同一原解析piece的Taylor/Nraw到真seam重新partition，物理背景/forcing跳不改。[相关Nraw完整合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)已证：μL0w1 degree0..10先作全signed有限Taylor合成，同旧R1/6000/Σ1/128以正闭式U/V、完整角Leibniz和两种独立Wiener候选支付全部尾；保mean/ε两branch，不借sup当Wiener。新consumer39pin五件已部署（SCIe9024812…/CIa9b69b58…/manifestbc34acdc…/workeracd69d4f…），只读26原stage及完整old-product证书，新增11Nraw/11helper/33norm/2tail/3budget共60stage；actual43666374252 child0/10门已核、26原stage逐字/60新，详见后文；不重算高根或原280stage。继续真实seam修正、正weighted端口、完整strong return与充分cutoff；单独source component不等于全trial或未知高频解。
 
 ## 5. 全无限外网络与物理C²恢复
 
@@ -89,3 +89,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 ### 同97帽后验与方向Poisson消费已部署
 
 SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/compose消费真实完整native；原341/341/238 pins逐键不变。选取实际artifact child0/全部gates，数学成功后出版失败仍可消费；原>60KB过程整件留Actions，只有真正小摘要进正文。等全7908与boundary后先完整Wcap，再实际真Poisson的三HY；不重旧Gram/目标/试解。
+
+### 整原根分片全源 consumer 已部署
+
+80pin 五件 SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…，只消费原48norm、完整Nraw/乘子、1328转换和六原case；唯一自然>5MB输入读取43665091373的整件原artifact。固定真piece2549和原R1/6000补全h*尾后计算完整九词+五mean，原piece外payload逐字保；未授真实修正seam或强返回。每个scalar/row/summary单独检查点，case先保存而index未写的中断只按独立原payload恢复，原native不改；partial陈旧结果不冒领。新数学限公开Actions，实际结果到达立即接端口与完整高频闭合。
