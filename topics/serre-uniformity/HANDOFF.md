@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：5dede87b218de1c63d779f802661b96dafb7d70b**（2026-11-15T18:15:39.491963+00:00；新公开rules run43745726410/attempt1/job132908462072真实git pull --rebase origin main，两README无diff）。旧run43714581068已达50重跑限额，R805只读pull过渡无新数学。14:34UTC终端失联，根§8小文本接口回退。全前态保[此前H](handoff-archive-2026-11-15-before-projective-reconstruction.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)。
+**已读规则提交：d71d40bb6cbea1cecc9c23f2efd47401da35cc53**（2026-11-15T18:18:17.461714+00:00；projective run43745966802/rules job132909211346真实git pull --rebase origin main，两README无diff）。新例行rules run43745726410/job132908462072可继续重跑；旧run43714581068达50次限额。14:34UTC终端失联，根§8小文本接口回退。全前态保[此前H](handoff-archive-2026-11-15-before-projective-reconstruction.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
@@ -22,7 +22,7 @@ R824已成28权五/300权六profile、lower56+244、U129/U142，exact5/6仍待�
 
 [R827判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)：真σ∞rank272＋τ整个多项式Hermite/Bézout才经proper/Nakayama给char0 I_q=C。272个B·d_i仅子理想，额外零可使充分检验失败；单点/函数域rank不够。只有q4真通过才D约化/K1，当前未得；增q复用完整变换。
 
-**原430位projective消费者已激活请求**：[方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87、core e0a5ad95/46538B、wrapper b2c4efda/workflow7a561bcf，root全文核完并提交真active请求，run待读。同整阶s²=−3的28格/五固定矩形、至多96完整节点，原free=D、Z展开及129×280准确式+B非零才成功；去内容后D/e。1372旧载体全hash后选1380必要文件，无14branch逆/旧行/Dixon重算；沿原数学RESULT/recipe及R792兼容载体名，真实新core/source/tag独立。无430位成功保证，失败只保真实候选/原子队列。原同核续算不动。
+**原430位projective消费者已激活请求**：[方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87、core e0a5ad95/46538B、wrapper b2c4efda/workflow7a561bcf，run43745966802/job132909298032/source d71d40bb6cbea1cecc9c23f2efd47401da35cc53已AST过并进入reconstruct。同整阶s²=−3的28格/五固定矩形、至多96完整节点，原free=D、Z展开及129×280准确式+B非零才成功；去内容后D/e。1372旧载体全hash后选1380必要文件，无14branch逆/旧行/Dixon重算；沿原数学RESULT/recipe及R792兼容载体名，真实新core/source/tag独立。无430位成功保证，失败只保真实候选/原子队列。原同核续算不动。
 
 ## 已成原源与实际函数后继
 
@@ -30,7 +30,7 @@ R824已成28权五/300权六profile、lower56+244、U129/U142，exact5/6仍待�
 
 R806原W、R813原g/h、R820两图cusp C（真rank/colength20）、R801/803/805/807与R781 R0..142均已完整认证，直接复用，source/run/SHA见前H及各certified结果。V6至141/V7至175/V8与旧V2..5至195；R805[1,144,127]是次数计数，非272项EPS。
 
-下列入口**全文核完、仅pending、无新数学产物**。源文件各保持真实RESULT/run/core/tag，绝不将R824改名R787或将旧C-only R809当已算AB。两旧冻结框架849bca27/89579f79不改。
+下列入口**全文核完、仅pending、无新数学产物**。源文件各保持真实RESULT/run/core/tag，绝不将R824改名R787或将旧C-only R809当已算AB。两旧冻结框架849bca27/89579f79不改。原R792工作流已按根§15移除旧publish步骤并降contents:read；旧core/wrapper不动。若projective先成，原R809直接resume六C成功包、仅append真R787求A/B，basis tag早已排future source，不需新adapter。
 
 五个已审入口与core/runner全表在上述H归档：R792←R824、R809 A/B-only、R804双来源原点、R811乘法、R825原导数；各notes契约及pending保持不动。
 原b/s/λ/82^10一次，移除denominator/content不重插；原共轭/唯一Fb立方根、vκ与同源有限核边界保留。真实A/B关系可相差非常数共同因子但比值同原y。R824较小完整极模若先成可绕过大MA/MB；R825导数向量不等于P/Q乘法矩阵。原R822全式/双向Laurent/全长1206及R825全核272×816秩544必须保，安全K395非实际。未有I/P/Q/D/eta/高度。

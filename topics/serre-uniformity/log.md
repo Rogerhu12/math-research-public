@@ -360,3 +360,9 @@
 - 原projective独立core46538B/e0a5ad95全文核后激活真实请求；整阶乘法/28LLL/五固定矩形/96节点、原free模式及Z/content、逐m准确129×280与原R787同式。LLL符号同步到δ/n见证，未凭短向量宣布成功。
 - 原已成430lift与1380输入只读，完整chunk/LLL/node/queue和逐阶验算原子续接；R792真源/recipe与载体兼容，去内容后保D/e。AST留同一次真实Actions首步，未本地算术、不添独立测试gate；仍运行原四任务。
 - 2026-11-15T18:15:39.491963+00:00新rules run43745726410/job132908462072实际pull/read 5dede87b218de1c63d779f802661b96dafb7d70b，两README无diff；主目标OPEN。
+
+
+### 2026-11-16 02:22（Asia/Taipei）｜serre-public-astra-20261115
+- projective真run43745966802/job132909298032/source d71d40bb已通过AST并进入reconstruct；其rules job132909211346于2026-11-15T18:18:17.461714+00:00实际pull/read d71d40bb6cbea1cecc9c23f2efd47401da35cc53，两README无diff。pending副本同步已激活的真实core参数，不另触发。
+- 预核原R792消费接口可直接接真实新R787 core；按根§15移除旧workflow publish步骤、contents降read并加blob:none，数学core7b7a5483/wrappercdac2e93不变。原R809 basis tag已排future R787，真关系后只resume已成功六C并新增A/B，不重算旧六列。
+- 尚无projective准确关系，R792/R809均未激活；R815实际端点就绪、原四计算继续，主目标OPEN。

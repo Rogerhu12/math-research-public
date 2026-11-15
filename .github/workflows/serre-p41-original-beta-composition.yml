@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   actions: read
 
 concurrency:
@@ -27,6 +27,7 @@ jobs:
         with:
           ref: ${{ github.sha }}
           fetch-depth: 1
+          filter: blob:none
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -61,12 +62,6 @@ jobs:
           path: ${{ runner.temp }}/serre-global/R792-original-beta-composition/output
           retention-days: 1
           if-no-files-found: warn
-      - name: Publish only script parameters run and output hashes
-        if: always()
-        continue-on-error: true
-        env:
-          SERRE_ACTIONS_TOKEN: ${{ github.token }}
-        run: python topics/serre-uniformity/scripts/R792_public_original_beta_composition.py publish
       - name: Require an actual original beta point
         if: always()
         run: python topics/serre-uniformity/scripts/R792_public_original_beta_composition.py verify
