@@ -58,7 +58,7 @@ class LP:
         if isinstance(o,LP):return LP(self.p*o.p,self.lo+o.lo)
         return LP(self.p*acb(o),self.lo)
     __rmul__=__mul__
-    def __truediv__(self,o):return LP(self.p/acb(o),self.lo)
+    def __truediv__(self,o):return LP([self.p[k]/acb(o) for k in range(len(self.p))],self.lo)
     def __pow__(self,n):
         if not isinstance(n,int) or n<0:raise ValueError("only finite nonnegative Laurent powers")
         z=LP.const(1);a=self

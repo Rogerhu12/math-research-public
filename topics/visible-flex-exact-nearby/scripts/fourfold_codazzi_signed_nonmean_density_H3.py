@@ -96,7 +96,7 @@ class Inputs:
         gate(doc,"every original byte is checked before a mathematical field is evaluated",
              seen==set(m["files"]))
         self.paths={k:root/v for k,v in m["input_paths"].items()}
-        self.records={k:read(p) for k,p in self.paths.items() if k not in ("candidate_part0","candidate_part1")}
+        self.records={k:read(p) for k,p in self.paths.items() if k not in ("candidate_part0","candidate_part1","preparatory_execution")}
         self.fp=self.records["finite_part"];self.transfer=self.records["parameter_transfer"]
         self.cover=self.records["scalar_cover"];self.tc=self.records["t_cache"]
         self.direction=self.records["direction"];self.rb=self.records["root_budget"]
@@ -196,12 +196,14 @@ class Inputs:
             ("exact_H_sine_coefficients","exact_H_cosine_coefficients")]
         self.Ks,self.Kc=[list(map(Fraction,self.post[k])) for k in
             ("exact_postcomposition_sine_coefficients","exact_postcomposition_cosine_coefficients")]
-        self.KH,self.Ej,self.angledata=inverse_density_constant(
-            self.Hs,self.Hc,self.Ks,self.Kc,self.selected)
+        self.preparatory=self.restore_preparatory()
+        self.angledata=self.preparatory["angle"]
+        self.KH=up(ball(self.angledata["complete_inverse_density_H3"]))
+        self.Ej=up(ball(self.angledata["complete_angle_derivative_H3_error"]))
         gate(doc,"the same selected true j verifies both literal AC endpoints before its matrix is used",
              self.angledata["literal_31over32_33over32_gates_verified"]
-             and self.angledata["proved_j_lower"]>=exact(Fraction(31,32))
-             and self.angledata["proved_j_upper"]<=exact(Fraction(33,32)))
+             and ball(self.angledata["proved_j_lower"]).lower()>=exact(Fraction(31,32))
+             and ball(self.angledata["proved_j_upper"]).upper()<=exact(Fraction(33,32)))
         doc["original_input_sha256"]={k:sha(v) for k,v in self.paths.items()}
         doc["complete_original_inventory"]={"count":len(seen),"bytes":total,
             "canonical_sha256":hashlib.sha256(canonical(m["file_receipts"])).hexdigest()}
@@ -215,6 +217,51 @@ class Inputs:
             "angle":encode(self.angledata)}
         doc["latest_atomic_scientific_stage"]="complete_initial_true_angle"
         save(self.a.out,doc)
+
+    def restore_preparatory(self):
+        """Read accepted complete scalars from the actual partial execution."""
+        prior=read(self.paths["preparatory_execution"])
+        p=prior["actual_scientific_receipt"]
+        expected_source="b796c43c4618954108ca7a97df84e43ab02a379a01b684eac0aa3cd4e52fdb64"
+        expected_helper="32ce7e3ced3f863d62983913782b5e116f889a86305dcef182fb12dc2de2b063"
+        expected_manifest="69f6bf0907486a1575b7c9aa02573c055e63b042d27b7b8c66ca9a804fa7de4a"
+        original=p["original_input_sha256"]
+        if (prior["run_id"]!="43744151905" or prior["run_attempt"]!="1"
+            or prior["actual_source_budget_processes"]!=1 or prior["actual_returncode"]!=1
+            or prior["source_budget_source_sha256"]!=expected_source
+            or prior["helper_source_sha256"]!=expected_helper
+            or prior["input_manifest_sha256"]!=expected_manifest
+            or p["source_sha256"]!=expected_source or p["helper_sha256"]!=expected_helper
+            or p["input_manifest_sha256"]!=expected_manifest or p["parameters"]!=PARAMETERS
+            or p["complete"] or p["new_target_complete"] or p["actual_gate_count"]!=17
+            or len(p["gates"])!=17 or not all(g["passed"] for g in p["gates"])
+            or p["actual_new_transport_subcells_completed"]!=0
+            or p["latest_atomic_scientific_stage"]!="complete_original_interval_speed"
+            or p["failure"]["type"]!="TypeError"
+            or p["failure"]["message"]!="unsupported operand type(s) for /: 'flint.types.acb_poly.acb_poly' and 'flint.types.acb.acb'"
+            or set(self.paths)!=set(original)|{"preparatory_execution"}
+            or any(sha(self.paths[k])!=v for k,v in original.items())
+            or p["exact_original_root"]!=[str(self.rlo),str(self.rhi)]
+            or hashlib.sha256(canonical(p)).hexdigest()!="7d98755a7841abdefbf396529eec45bf9072f58b6cd9e28cba576137ac99ede5"):
+            raise ValueError("the saved partial science or its complete domain identity changed")
+        z=p["complete_preparatory_conclusions"]
+        a=z["angle"];r=z["root_entry"];cell=z["latest_original_interval"]
+        index=len(self.fp["rows"])-1;old=self.fp["rows"][index]
+        if (z["scope"]!="complete finite preparatory scalars only, not complete H3"
+            or a["physical_width"]!="1/128"
+            or len(r["complete_new_root_H3_error_columns"])!=4
+            or cell["original_interval"]!=index
+            or cell["actual_candidate_piece"]!=old["actual_candidate_piece"]
+            or list(map(Fraction,cell["exact_interval"]))!=list(map(Fraction,old["interval"]))
+            or len(cell["complete_mean_reference_exact_coefficients"])!=2):
+            raise ValueError("a saved angle root or original interval changed its exact domain")
+        self.doc["complete_reused_preparatory_input"]=dict(
+            execution_sha256=sha(self.paths["preparatory_execution"]),
+            original_science_sha256="7d98755a7841abdefbf396529eec45bf9072f58b6cd9e28cba576137ac99ede5",
+            actual_run="43744151905/1",complete_stages=["angle","root_entry","first_mean_reference","first_speed"],
+            completed_transport_subcells=0,recomputed_complete_stages=0,
+            first_unpreserved_work="first subcell negative-branch complete Taylor force and speed only")
+        return z
 
     def load_candidate_prefix(self):
         if sha(self.paths["candidate"])!=CANDIDATE:raise ValueError("the original candidate index changed")
@@ -482,7 +529,8 @@ def complete_taylor(inp,index,row,piece,left,right,n,mref,mright,sigma):
     return Jet(Fp.c[:-1]+[Fw.c[-1]]),Jet(ap.c[:-1]+[aw.c[-1]])
 
 def transport(inp,doc,temp):
-    initial,rootdiag=root_entry(inp)
+    rootdiag=inp.preparatory["root_entry"]
+    initial=[up(ball(v)) for v in rootdiag["complete_new_root_H3_error_columns"]]
     gate(doc,"new root source has all four angular error columns and a regular zero entry",
          len(initial)==4 and all(v.is_finite() for v in initial)
          and inp.rs-exact(CUT)<exact(inp.Router)/2)
@@ -508,12 +556,22 @@ def transport(inp,doc,temp):
             row=inp.scalar_membership(left,right,old)
             if not inp.nodes[piece]<=left<right<=inp.nodes[piece+1]:
                 raise ValueError("an original accepted row crosses a candidate piece")
-            mref,mfee,mdata=inp.mean_reference(index,row,piece)
-            prep={"original_interval":index,"actual_candidate_piece":piece,
-                "exact_interval":[str(left),str(right)],
-                "complete_mean_reference_exact_coefficients":[str(rat(x)) for x in mref],
-                "complete_mean_reference_error":rec(mfee),
-                "complete_mean_reference_validation":encode(mdata)}
+            saved=inp.preparatory["latest_original_interval"]
+            reused=index==saved["original_interval"]
+            if reused:
+                if piece!=saved["actual_candidate_piece"] or [left,right]!=list(map(Fraction,saved["exact_interval"])):
+                    raise ValueError("the reused first original interval lost its exact endpoints")
+                mref=[exact(Fraction(x)) for x in saved["complete_mean_reference_exact_coefficients"]]
+                mfee=up(ball(saved["complete_mean_reference_error"]))
+                mdata={k:up(ball(v)) for k,v in saved["complete_mean_reference_validation"].items()}
+                prep=dict(saved)
+            else:
+                mref,mfee,mdata=inp.mean_reference(index,row,piece)
+                prep={"original_interval":index,"actual_candidate_piece":piece,
+                    "exact_interval":[str(left),str(right)],
+                    "complete_mean_reference_exact_coefficients":[str(rat(x)) for x in mref],
+                    "complete_mean_reference_error":rec(mfee),
+                    "complete_mean_reference_validation":encode(mdata)}
             doc["complete_preparatory_conclusions"]["latest_original_interval"]=prep
             doc["latest_atomic_scientific_stage"]="complete_original_interval_mean_reference"
             save(inp.a.out,doc)
@@ -521,14 +579,18 @@ def transport(inp,doc,temp):
             meanmax=max(meanmax,mfee).upper()
             # One common subdivision for both signs. This is new ordinary-r
             # forced transport, not a repetition of the old ray integration.
-            whole,_=inp.fields(row,piece,left,right,1,True)
-            uu,vv,bb,ga,qq,qr,rho=whole
-            eta=-ga*vv.mean()
-            speed_bound=(up(eta.v.value().scalar())*up(qq.v.value().scalar())
-                +(bb*(uu*uu-qq*qq*vv*vv).ne().primitive()).v.value().a()).upper()
-            work=exact(right-left)*(4*N)*speed_bound
-            prep["complete_speed_bound"]=rec(speed_bound)
-            prep["complete_optical_work_upper"]=rec(work.upper())
+            if reused:
+                speed_bound=up(ball(saved["complete_speed_bound"]))
+                work=up(ball(saved["complete_optical_work_upper"]))
+            else:
+                whole,_=inp.fields(row,piece,left,right,1,True)
+                uu,vv,bb,ga,qq,qr,rho=whole
+                eta=-ga*vv.mean()
+                speed_bound=(up(eta.v.value().scalar())*up(qq.v.value().scalar())
+                    +(bb*(uu*uu-qq*qq*vv*vv).ne().primitive()).v.value().a()).upper()
+                work=exact(right-left)*(4*N)*speed_bound
+                prep["complete_speed_bound"]=rec(speed_bound)
+                prep["complete_optical_work_upper"]=rec(work.upper())
             doc["latest_atomic_scientific_stage"]="complete_original_interval_speed"
             save(inp.a.out,doc)
             # upper() is an exact outward endpoint; ceil() is still an Arb.
