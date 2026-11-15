@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：81bf71ae214da94b01ebff4870fb4ee3ecd8782b**（2026-11-15T18:33:42.158100+00:00；rules run43745726410/job132913729870真实git pull --rebase origin main，两README无diff）。旧rules run43714581068达50次限额，不再重跑；新run可继续。14:34UTC终端失联，根§8小文本接口回退。此前完整H逐字保[此次归档](handoff-archive-2026-11-15-before-projective-first-outcome.md)，内接原全部归档；[结果全索引](results-archive-2026-11-15-before-R833.md)与各结果保源pins。
+**已读规则提交：656b4c2d17050c130730a60d1f673183fc92497e**（2026-11-15T18:39:05.888833+00:00；rules run43745726410/job132915266908真实git pull --rebase origin main，两README无diff）。旧rules run43714581068达50次限额，不再重跑；新run可继续。14:34UTC终端失联，根§8小文本接口回退。此前完整H逐字保[此次归档](handoff-archive-2026-11-15-before-projective-first-outcome.md)，内接原全部归档；[结果全索引](results-archive-2026-11-15-before-R833.md)与各结果保源pins。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase循环重推，禁force；每小时及每push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -16,7 +16,7 @@
 
 [projective方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87保原整阶s²=−3、28格/五矩形、原free=D/Z展开/129×280全式与B非零出口，去内容后D/e。1380最小输入、原数学RESULT/recipe及R792载体名兼容，真实新core/source/tag独立；不得把失败包当准确A/B。
 
-**R815原Mg/Γ仍运行**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0，原53输入，约18:35UTC预算端点。Mg六模/Γ五模及完整嵌套commutator，不另算Mh；首prime1000000007不同R827的753。[最小结束IO](notes/R815-ended-selected-IO-request.pending.json)脚本0f587776已备，待真结束artifact填pins；缺core receipt如实标缺。原wrapper已支持同核完整stage/唯一CRT current续接，原目标/prime/mode不改。
+**R815首轮已结束待真断点读取**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0。18:33:50UTC数学exit1/error null，完整关系标志false，内部原因以artifact为准；3466文件artifact14174374945/2716759066B/ZIP597aaf00，到Nov16 18:33UTC。已激活[最小结束IO](notes/R815-ended-selected-IO-request.json)cf5bb753，脚本0f587776不变，只读真实小metadata/完整index/最新CRT receipt。原wrapper支持完整stage及唯一CRT current同核续接，manifest确认后只增resume；保持原53输入、Mg六模/Γ五模、7点准确/嵌套commutator、prime007/每8prime重构/16行块，不另Mh。
 
 **R824准确27+244续算**：run43732499815/job132867842693/source442f3d16a9b914154e8b81bc61597d650044fd61；core1ece3cf4/wrapperc5907739/requestec04ad32，约20:50UTC端点。1186归R787，旧129/142/280Q全式、1521打包与κ/246一次保留；真实272全生成后才1778纤维minor/总余长1206。首轮28权五/300权六profile及lower56+244已成，准确5/6仍待，r28无需补143..155。
 

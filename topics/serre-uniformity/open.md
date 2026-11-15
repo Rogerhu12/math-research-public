@@ -68,7 +68,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R824小权完整极模入口已证**：[原齐次生成与纤维认证](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)。Koszul及RR给M≤4=0、dimM6=300/M7=572；r=dimM5未知，完整自由生成数r/300−2r/r−28、权5/6/7，共272且权和1604。候选只需原完整Laurent129/142/156等式和V7中的真实1778纤维minor，包含＋全长1206认证全极模，不等大MA/MB或首轮normal换基。旧R781 R0..142/H³[129,161)直接复用；只有真需权7才新R143..155/κ156。[旧原非零minor已全源核完](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)：ell1000000753/branch0，1186det296007862及原20/1234消元minor非零，准确迫r28、28权5＋244权6、无权7。补旧R781 R130..142来源，不新生成尾；原A/B及全272候选仍未得，不改运行core。
 
-**R815原Mg/Γ已激活**：run43719622321/source2a3300a9，core80516ff9/wrapperab725da0。R813实际53文件最小输入已核；R817精确证明只需Mg六模/七准确点与Γ五模/七嵌套准确点，We0=e1先核，两Γ列逐系数与完整[[Γ,W]+MgW′,W]=0给唯一原导子。不另CRT Mh，不形成ambient场迹全表；Γσ=tDΓD^-1−t²DMgD^-1diag eps，δσt=−t³DMgD^-1。实际矩阵待到。
+**R815原Mg/Γ首轮已结束待断点**：run43719622321/source2a3300a9、core80516ff9/wrapperab725da0，18:33:50UTC exit1且complete=false；artifact14174374945/2716759066B/ZIP597aaf00，3466文件。内部原因不预判；真实最小结束IO请求cf5bb753已激活，待manifest/CRT receipt后同核恢复，不重算完整阶段。保持R813原53输入、Mg六模/七准确点与Γ五模/七嵌套准确点、prime1000000007；完整[[Γ,W]+MgW′,W]=0及两图因子不改，不另CRT Mh。原实际矩阵尚未认证完成。
 
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 

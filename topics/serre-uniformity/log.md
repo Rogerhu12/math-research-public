@@ -384,3 +384,9 @@
 - projective小IO run43747260495/source5317c0cd已成：30非carrier成员与manifest/reference逐SHA，原manifest5793B/422319cd、31项，ZIP33项；小artifact14175065759/708676B/d4c52df8。
 - 实际5根首坐标C0均失败，140个LLL行全且仅因D_bound拒绝、无子节点；K59位。补入原结束note，不把充分唯一性界误作准确验算必要界；原队列空，盲增节点不产生新计算，准备真正不同候选并保全部短行。
 - 2026-11-15T18:33:42.158100+00:00实际pull/read 81bf71ae214da94b01ebff4870fb4ee3ecd8782b，两README无diff；原4run继续、主目标OPEN。
+
+
+### 2026-11-16 02:37（Asia/Taipei）｜serre-public-astra-20261115
+- R815原run43719622321已真实结束：18:33:50UTC数学exit1/error null，最终verify因complete=false失败；artifact14174374945/2716759066B/ZIP597aaf00、3466文件已上传，未先把原因说成BudgetStop。
+- 激活已核0f587776纯IO脚本的真实请求cf5bb753，仅取小metadata/完整index/最新CRT receipt；原53源/80516ff9核心/ab725da0包装及目标/prime/mode全不变，真manifest确认后仅增resume立即续接。无新算术或额外测试gate。
+- 推送接口拒绝后立即真实pull/rebase；2026-11-15T18:39:05.888833+00:00实际read 656b4c2d17050c130730a60d1f673183fc92497e，两README无diff；主目标OPEN。
