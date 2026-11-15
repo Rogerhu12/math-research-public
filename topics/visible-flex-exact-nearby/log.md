@@ -377,3 +377,9 @@ restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path；source/parent及endpoi
 只读5240a858e181a32c17403d7c393ce75d736c44bd两README未变；七报告普通删367017B已成1d9b7096，SN/SC3沿原健康run。继续SJ小reader/SCI和KL root-leading逆，完整matching与总验收仍未达。
 
 2026-11-15 21:49:06 UTC · visible-exact-astra-0df9：修正SJ登记时压缩open的CYA链接为原actual-finite-Cayley-scalar-gap-and-selected-inverse，删误带的core 5956计数，恢复原7416 signed/root scope；原CYA证明和数值未改。只读ac0777f30cc9eda1fddf2dd1940d952daf1b5d51两README未变，继续SJ/KL与原SN/SC3。
+
+### 2026-11-15 21:52:06 UTC · visible-exact-astra-0df9 · KL相关首项幅与SN原9000进度
+
+独推cf3e435f21bbce03ad051a19676428504d490dcd/13896/SHA dc48bdb46fde624f5e6f3820a7f37e326cb3b84274f34d46e1538f6166285b9a；完整m方程/R0→E=(ng/ng*)kroot→KΛ公式，四phase同模不相加。WX只forward、根短段在D2 bump外，WL原δ0正产品可用但旧全core小δ费不扩；WT fullfamily ng0、RR body3070 whole-germ K1与root bracket保，原row790 η不移root。只四current science新标量，尚未运行。
+SN原b87992b7888d3e9786b0e804889013e2ce0080c8/16238/82f780d34f071ab0634d2155e410f5ace0dfd33f3e7eaf1ba5d0c7561d7f5f9f完整核：9000=1256+7744、interval896、cursor3822430183730709/36028797018963968、双H3prefix[2.591585199031814 +/-4.77e-16]；全部身份/pins/AST/runtime不变，complete/targetfalse与return/supervisionnull。原真pull21:49:36.247666→a774e1a8、README空diff，当时容量199498014/projected199498245B；非终点C，SC3 21:46原step9健康。
+只读20dd6c62949d042b82cd81b68a4df0b86a1a5632两README未变；KL保右Λ^-1TF^-1S^-1及两mean/finite，当前解析不冒incoming/Schur。接SJ整段新标量、KL小consumer、TF独立双窗和Ccut/gprop；总验收仍未达。

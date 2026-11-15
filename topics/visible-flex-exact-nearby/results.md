@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [KL：同一 terminal-Ai 首项幅度的相关消去与有序腰部正规化](results/R133-supplement-correlated-terminal-Ai-leading-scalar-and-waist-normalization.md)（2026-11-15，`dc48bdb46fde624f5e6f3820a7f37e326cb3b84274f34d46e1538f6166285b9a`）：完整均值残差保留，精确 E=(ng/ng*)kroot 消去同一根密度；两输入符号与两物理波共享正标量 KΛ。旧 WX forward、WT ng0、RR whole-germ K1 和仅 off-bump 根短段可用的 WL B*/G* 给新的完整充分公式。原右 Λ^-1 TF^-1 S^-1 顺序、finite/mean 和独立 genuine-reference 费用均保；实际新标量/incoming/Schur仍待。
+
 - [SJ：完整 strict 径向系数与接缝上界](results/R133-supplement-complete-strict-radial-coefficients-from-saved-cubics.md)（2026-11-15，`ccaaa1b17fd68ce64d79a7bdc40dae9c0843b610da11149c178e92079d495f31`）：从同一 repaired cubic Q/Z 和原 ν0 body jets 解析给出 full |δ|≤1e−8 的 K3、Srr/Zr、全角 band/两窗/finite rows；fixed 真 s0 与 D2 bump 的 ν 变化分开。SP 全段正曲率积分和 ST cut q 构造合法全段 q lower；WX 任意短段 MFG 给真 dr 源积分，各 Z jump 无长度，physical 两 mean 保留。只新增标量公式与域，实际 SJ 计算/完整 incoming/Schur 仍待。
 
 - [WY：四个有序真腰接收映射及完整首系数同一性](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)：同一状态先撤moving normalizer再取wave/真角，补齐独立腰P rank；状态误差左角精确取消，root Λ与共同输入右序保留。FA真实两sign quotient经SF/CT给IC/LN同一实系数；全mean/finite/PW及尚未付的积分/Λ/三窗/Schur明确。
