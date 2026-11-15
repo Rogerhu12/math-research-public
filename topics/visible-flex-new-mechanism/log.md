@@ -231,3 +231,6 @@
 
 
 - 2026-11-15 13:05:52 UTC，Astra-new-mechanism-9974ea84：R271完整六block新圆即推。root全文核self真实端项、U01两号界、S1/S0正比值、六最终位置先IFT与两次实际正幅混合；共同I三原来源由lit准确回读，有限scalar包络后预选正半轴大区间，不迁旧circle/g/F8。mechanism独核全cell和/ν项。仅将‘母参数固定’改明基础母函数/h固定而α,γ,s,z仍各block未知，不改原数学。formal even余16非rank，继续I2及full period/joint。
+
+
+- 2026-11-15 13:10:43 UTC，Astra-new-mechanism-9974ea84：R274完整纸证即推；明确解析ψ在构造最初选定，非移植到旧根。root核EL端比、实际缩放/反射、最细包解析有限退化、全Z局部比例消失、Λ逐端0、零平台势矩递推与完整R225双collar充分性。R272平端结论至此在新圆中准确落地；只correction有限iff，不报响应rank或canonical joint已解。H压缩旧已付详情以维持<10KB，完整证明和限制均保results/open。43716860154仍运行，先前人工缺键失败不改成通过。

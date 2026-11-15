@@ -10,7 +10,7 @@
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`，12:24再次断连；暂按根8仅原生小UTF8，恢复即补实际pull。
 
-原生API规则读取：2026-11-15 13:05:53 UTC、`9a450d51312d93d356c4c9f45e5e8e8caf460c9e`（非git pull），双README无变。
+原生API规则读取：2026-11-15 13:10:44 UTC、`39f79bae5776839490373e762f31fab7e2f9e9cb`（非git pull），双README无变。
 
 ## 2. 完成门
 
@@ -24,51 +24,32 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159容量/持径actual**：[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)，43712266529/a934b45c/job132806237214。18新检查过；两次固定容量5392/6684保旧ID/余槽。η.266513719074→.266474122294→.266443965488，各11+1LP/活动94.195与86.885秒。末m11全17守卫真、nextB保.000125，但无后继使用模型，不宣收敛改善。原门过、.26/1e−4未达；旧失败/全部费用保原note。fine57.54/coarse23秒仍旧163全J。
 
-**159选行J首开发失败已修**：[实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)，[首失败](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)。43716207246/a99b8d88/job132818219795仅人工fixture漏known_fine_metric_locations；4.49178秒、七恢复/新科学均0，首组返回未留结果不冒passed。新driver65b3dbb4仅补空列表及分组即时原结果，前三源/生产/98args/45绑定除driver不变。下一完成尚未完整的新开发再首actual：完整Π→选行→159，同ordinary/H/reference/全池/holdloop，7必要恢复各一次，新stage12LP/40值/120秒不扩容；未宣性能。
+**159选行J首开发失败已修**：[实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)，[首失败](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)。43716207246/a99b8d88/job132818219795仅人工fixture漏known_fine_metric_locations；4.49178秒、七恢复/新科学均0，首组返回未留结果不冒passed。新driver65b3dbb4仅补空列表及分组即时原结果，前三源/生产/98args/45绑定除driver不变。续跑43716860154/a7bb0a16进行中；下一消费新开发和首actual：完整Π→选行→159，同ordinary/H/reference/全池/holdloop，7必要恢复各一次，新stage12LP/40值/120秒不扩容；未宣性能。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
-## 4. 完整字符与真实全pure控制
+## 4. 纸证的当前边界
 
-**R208–210完整pure已结**：S=P、闭锥Cp=P；权0/−2/−6/−4像维3/9/3/9等响应、−9/−8零。奇权及Q=P/πR未知，不宣πR=P；λ+=L+∫(logh)′²不灭pure核、不下降pure。真有限桥/正基准/整数复制保留，旧actual不重跑。
+**完整pure控制已付（R208–210）**：真实S=P、闭锥Cp=P，权0/−2/−6/−4像维3/9/3/9等；真桥、基准和整数复制保留。Q=P/πR仍未知；正λ+不下降pure，不能再用它否定已成pure控制。
 
-## 5. 真实pure零/Morse闭hook与未付第四joint
+**实际hook（R223/227）**：M0、TκH、Klein位移、wholepure0、全h Morse及非零ke例外端芽已由末frame/九参数/fullE真实IFT安装。一般重设g，不冒此前同g有限flex。旧芽R216/224/228/249–253只在各自明确类失败。
 
-**R223/227真实Morse闭hook/例外端口**：M0/TκH/frame-Klein位移/pure0与全h Morse已付；h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h经末frame/九参数/fullE真实IFT安装，保原U/T/history，设计一般改g。
+**完整第三核（R254/258/261）**：Z=H7⊕J3⊕χ8、dim18；43712266529/a934b45c/job132806237299八新人工通过，八D³K全四阶/局部/自伴、Af f0。原5条raw差须fresh同锚IBP才零；不是字面零。K=−J³Af保原右三常数/左二次尾。全Rp0=(R71∩kerπ)+B(E,χ8)，首项不可删；B(E,Z)只是子像。旧已付目标不重算。
 
-**R233–241旧六门**：六能量已付；R249–253只排指定芽，非一般profile。
+**原全角接口（R259/263）**：6面积×3外矩×4角系数=72形式条目非rank；9二次矩+72=81固定位置状态有方向结合律。右inner三矩圆才杀真实跨项，单位置数据不授任意平移/O2。完整12副本消36odd，even和内部history保留；完整block第四按a⁴可加、平移≤10，Gaussian21历史独立。
 
-**R243/245**：原history≤2有限线性系统给jet iff，n尚未知。完整第三闭block的第四按a⁴可加、平移≤10；Gaussian21历史独立，均匀主层失败不排非均匀。
+**新有限正宽圆（R267/270/273）**：实际两坡/γ,s/odd母hz四变量IFT付三矩、全third、六能量、完整A−2,−3/A−1,−3和36odd；R270 EL(N0)非零响应再付全A1,−1 I0。R273保单包μ²和有序尾，平方密度反射及准确quartic和自动付全A−1,−2 I0。
 
-**R248–253旧芽排除**：旧双block两复角迫不交质心同−b，排该圆所有实b/κ≠0/ε>0，非任意profile/跨b同g。
+**R269/271正幅构造**：ρ0/20两排序各有S0/Q所需双号；六最终正位置分别先解完整四变量IFT，再每组Q正幅配平、三个严格比值夹持正幅联合付全A1,−3 I0/I1。共同新大正I按有限几何/桥紧包络后预选，非任意冻结窄I或求根后搬移。不同block α可异。仍16形式even非rank；I2/其它面积、period/同w/有限族欠。旧R262/268居中失败保原范围。
 
-**R250/257全角与真有序门**：A−2,−3三个矩全θ零有十条件；40偶包/八完整复制付三矩/第三/该面积，却Lc<0。另一面积必要Q含½∫(Jq″²)²；40包局部项0而真实累计平方虚部>0。多宽度准确式保全部跨尾/同母shape常数，pure两矩不代全角。
+**R264/266平台原尾**：G″=(aw″)′+bw′−J(cw)，Λ=a(pw″−p′w′)+wJ(cf)−fJ(cw)，Λ′=pG″。一般全部平台/flux iff各活动总∫cw0及非零平台(aw″)′+bw′0；对控制总和施加。常F≠0源像F²(P2D4+2P2′D3)三维，完整K另含Q2且Q2″=−Jcw，不自由置零或授输入二次。
 
-**R256–270新联合圆**：实际多宽/γ,s/odd母hz四变量IFT付三矩、全third、六能量、完整A−2,−3/A−1,−3和36odd；R269错位ρ0/20四最终位置先分别IFT，Q/S04双层正幅混合付全A1,−3 I0；R270 EL(N0)奇扰动以J/h响应−4LK付全A1,−1 I0，保原门。**R273**保全部单包μ²及有序尾，平方密度反射/两准确quartic和自动付全A−1,−2 I0。**R271**从原self−m0m2/2与有序U01两号，六个最终正位置各先四变量IFT，再以Q两号/比值夹持作两层正幅，联合付A1,−3 I0/I1。共同新大正I在有限几何包络后预选，非任意冻结窄I。仍16形式even非rank；余I2/其余面积、period/同w/有限族欠，新seed非旧同g。
+**R272/274零端完整接口**：在R270/271最初选ψ=exp[−1/(1−y²)]并随后按原顺序求真根；EL奇扰动仍p=t^-2 a∞e^-c/t、a0非零/c>0。最细包解析、p/AH内部有限阶零有限，逐包比例使全Z Kfg0。其mixed两项只余KΦ，E在2cs规范除二。全部最细包flux自动0；平台门iff各包控制总势矩∫cw0。R272精确指数kernel再自动付两端C∞，因此该全Z correction的完整period iff这些势矩+全部内部Laurent。未计算实际矩阵/rank，不授canonical Vd/Ve、非零step或全Rp0；原来源与完整证明见results。
 
-**R259/263全面积接口**：6面积×3外矩×4角系数为72条件非rank；Euler扣原二次cross，self与有序Γ全保。九原二次矩+72系数=81标量有方向结合律，右inner三矩圆才消跨项；单位置数据不授任意平移/O2。12完整副本交替g、四次binomial幅消36 odd；even及内部history仍欠，能量必须全部副本联调。
+**一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
+**旧局部接口**：R226–240仅首HE零芽；R242/244新ψP圆11维δ链八flux+首gap rank10，非旧圆全period。R246该模8F+8E单射、余13兼容和e-flux仍须付；不冒全R0。R243有限jet iff仍无实际n。
 
-**R221 joint**：126矩+六行非rank；两period成员、五相位45span、48×135增广子式/降秩消极点共同iff。保全period核/平台匹配，无实际同w解。
+## 5. 保留边界与继续
 
-**R225完整range**：平台G″0、逐活动总flux0、q=F/(Ap²)内部Laurent禁极点/residue、平端C∞/双collar拼接共同iff。完整O像及Hper=O(U0)/O(R0)未知，有限flux不代fullperiod。
-
-**R226–240首平端**：HE wholepure0/λ1/T0/raw二次主部已付。先付flux/平台后，G=P2+Tτf+p²B+p³C光滑iff t⁴B无负主部；只原首germ，全部actual保原稿。
-
-**R242/244首平台/八通量已付**：新ψP圆11维δ链、八flux核Q_L Pol≤2、首gap minor5040βγV L12>0给rank10。只该模/该圆首pair和首germ，不授旧圆或实际signed成本，原证明完整保留。
-
-**R246八平台接口**：11维模上8F+8E单射；八E/前三F定唯一P，余五F+八D为13独立iff，e-flux另验。本模period核0不冒全R0障碍。
-
-**R254/255/258/261全第三核**：Z=H7⊕J3⊕χ8、dim18；43712266529/a934b45c/job132806237299八新人工过，八D³K普适四阶/局部/自伴，fresh原差全零但5条raw差非字面零。全Z有K=−J³Af、Af f0，保右三常数/左二次尾；通用f表示忠实18非固定圆rank。完整B保第二history，逐包比例类Kfg0/整包flux0。已付目标不重做；全Rp0=(R71∩kerπ)+B(E,χ8)首项不可删。
-
-**R260/264真实活动与平台**：全Z的G=Kτf(w)有G″=(aw″)′+bw′−J(cw)，d=(af″)′+bf′=J(cf)，Λ=a(f′w″−f″w′)+wd−fJ(cw)。平台f=Fj时Λ=−FjTj，真实总flux=Fj−1Tj−1−FjTj。全部平台G″0和总flux0 iff 各活动∫cw0且非零平台(aw″)′+bw′0；有限组合用总和，不逐方向强加。内Laurent/平端/同w仍欠，mixed保ζ历史/E÷2。
-
-**R266平台全像**：全Z在常f=F≠0平台源像为F²(P2D4+2P2′D3)三维；完整K=F²(P2w′−P2′w)+Q2，Q2″=−J(cw)真尾不可自由置零。f常/g变不授输入二次，非固定圆全rank。
-
-
-**R272全Z零端germ**：对f端值0、p=t^m a∞e^(−c/t)，a(0)≠0/c>0/m整数，已付平台+总flux后所有Kτ(w)组合的逆解v′自动C∞。a/d/c jet总权≤4/6/7，故G‴∈p²t^-10、G″∈p²t^-8、q∈p^-1t^-2；精确指数积分给端值−lim(t⁸G″/p²)/(12c⁴)。仅此零端类/光滑w，非零step及ζ历史不外推；内部Laurent与同w仍欠。
-
-## 6. 保留边界
-
-R105/109/130真有限U与完整history不可删；非零M时N²/N³保留。R84真倒行成本同号，span/闭锥非实际逆元；R156仅α∈πZ相位合法。R98仅排正state universal P1，特殊profile/P0+NP1未排。文献Engman只S1等变、Freese–Weber加曲率假设，不冒一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度仍欠，继续open。
+R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。

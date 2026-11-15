@@ -130,7 +130,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R266](results/R266-constant-platform-projective-model-for-full-third-kernel.md)给全Z在非零常平台的准确局部像F²(P2D4+2P2′D3)，维3；H/J所有阶乘与χ104从属已付。完整K=F²(P2w′−P2′w)+Q2，Q2″=−J(cw)保真尾；输入实为二次时K″=2F²(βA2−γA1)−T。局部源零不能代完整K零，f常/g变也不能猜Φ输入二次；后继按同一实际目标使用，不重平台表。
 
-[R272](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)已付全Z的明确零端germ：f端值0且p=t^m a∞e^(−c/t)、a0非零/c>0，平台+总flux通过后，G‴∈p²t^-10、G″∈p²t^-8、原q∈p^-1t^-2，精确指数kernel给v′C∞及真实端值。系数总jet权4/6/7由全表和正确δ归纳支付；可对控制总和用。**该K类在此零端圆上下一只需实际联合平台/势矩与全部内部Laurent，再处理同w ruling**；非零step端、任意flat及未消ζ历史仍不适用。
+[R272](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)/[R274](results/R274-real-analytic-micropackets-and-finite-period-conditions-for-full-third-kernel.md)已把明确零端germ接入真实R270/271存在构造：最初选解析ψ，EL扰动/全部复制后仍p=t^-2 a∞e^-c/t；最细包p/AH内部退化有限，全Z Kfg0且逐包flux自动0。该correction完整period **iff逐包总势矩∫cw0+全部内部Laurent**，平台/germ/双collar均有原式证明。下一求真实联合响应与同w，不把未列实际矩阵/rank称完成；canonical Vd/Ve、非零step与全Rp0其余部分不外推。
 
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
