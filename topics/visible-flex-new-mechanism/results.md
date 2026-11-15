@@ -401,3 +401,5 @@
 - [共同word首次输入接口失败及窄修复](notes/character-head-word-first-actual-manifest-failure-20261115.md) — actual43674559905的9新人工完整过，真实阶段0.355s/0预算检查在旧FINITE export缺重复身份字段而失败。main/receipt、producer和gzip双SHA原已严格绑定；新源1629ff68只接纳该精确旧schema的manifest身份，另2项新人工过。未启动77列数学、不授任何核结论，旧失败原件保留。
 
 - [曲率内余量首轮：三次微小接纳与主目标代价竞争](notes/curvature-proposal-reserve-first-actual-result-20261115.md) — actual43674194002/sourcef2ee2cd8三接纳至b0bf，η.2665503077505/κ57.999983377，旧两网门过/.26未到。末m4–7曲率通过、真实改善8.86e−9与预测比.99963，却不足原drop1e−7；后SOC已约.34s成功，故下一不优先缩SOC。11LP/30值/active55.03s后旧mintrust退；4407/3711池、raw8404480/11ba3032保全。现范数代价随trust缩小放大，下一仅改物理范数标定，原门/预算保持，未预称更大可行下降。
+
+- [共同word第二次共享库存接口失败及完整祖先修复](notes/character-head-word-second-actual-shared-atom-failure-20261115.md) — actual43675170178的2manifest人工过，真实阶段0.350s/0预算检查因整共享表含未用a/b/c而失败，尚无word/消元。新源1ec5fab9仅解码77完整−4/−2根的全部原祖先，保2332整表及hash；可达foreign与缺祖先仍拒绝。2新人工过，六原输入与数学保持，旧失败原件不改。

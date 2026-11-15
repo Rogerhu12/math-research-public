@@ -489,3 +489,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 04:08:05 UTC，Astra-new-mechanism-9974ea84：curvature reserve43674194002完整actual note、原native两网全gate/7模型/4SOC/20quality/group8表读完，full双SHA核对，完成即推。H/open更新到b0bf和4407/3711池，末段真实改善不足而非曲率失败；下一仅独立物理尺度范数代价，不降drop/mintrust或延预算。word第二次在未用共享atom中间色处输入绑定失败，tail精确修闭包解码，无研究进度丢失。
 
 - 2026-11-15 04:08:16 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ab529ae122cc9c3f351a817e5e873a24997f1a2b记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 04:09:57 UTC，Astra-new-mechanism-9974ea84：第二输入失败note、完整选根闭包差异与2新人工全文已读。1ec5fab9保持77完整两根/原表SHA且严格拒绝可达foreign，局部只人工无真实选根计算；注册独立新人工入口，同30真实args立即派发。压缩H已发历史，主题不停。

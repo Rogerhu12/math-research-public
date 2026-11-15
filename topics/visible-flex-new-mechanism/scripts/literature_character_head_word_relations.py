@@ -204,6 +204,49 @@ def archived_pure_records(data, ddata):
     return output
 
 
+def original_atom_ancestors(profile_atoms,roots):
+    """Read the dependency closure of selected raw roots, without evaluating them."""
+    used=set()
+    for rows in roots:
+        for key,n,d in rows:
+            used.update(raw.monomial(key,len(profile_atoms))[1])
+    pending=list(used)
+    while pending:
+        index=pending.pop()
+        node=profile_atoms[index]
+        if node[0]=="int_right":
+            children=raw.monomial(node[1],index)[1]
+            for child in children:
+                if child not in used:used.add(child);pending.append(child)
+        elif node[0]!="jet":
+            raise ValueError("unsupported selected original atom")
+    return used
+
+
+def decode_selected_canonical_atoms(ring,profile_atoms,used):
+    keys=[];degrees=[];weights=[]
+    for index,node in enumerate(profile_atoms):
+        if index not in used:
+            keys.append(None);degrees.append(None);weights.append(None)
+            continue
+        if node[0]=="jet":
+            if node[1] not in priority.ORDER:
+                raise ValueError("a selected canonical root reaches an undeclared input color: "+node[1])
+            key=ring.p.jet(node[1],node[2])
+            degree=(int(node[1]=="q"),int(node[1]=="qbar"));weight=-node[2]
+        else:
+            power,atoms=raw.monomial(node[1],index)
+            if any(keys[a] is None for a in atoms):
+                raise ValueError("selected original atom ancestors are incomplete")
+            key=ring.p.primitive((power,tuple(sorted(keys[a] for a in atoms))))
+            degree=tuple(sum(degrees[a][c] for a in atoms) for c in (0,1))
+            weight=power+sum(weights[a] for a in atoms)+1
+        if key[0]!=0 or len(key[1])!=1:
+            raise ValueError("portable selected atom did not reconstruct as one original atom")
+        keys.append(key[1][0]);degrees.append(degree);weights.append(weight)
+    return keys,degrees,weights
+
+
 class OriginalInputs:
     """A read-only portable original DAG and its two faithful projections."""
     def __init__(self, head, literal, ring, budget):
@@ -211,28 +254,13 @@ class OriginalInputs:
         self.ring = ring
         self.profile_atoms = head["profile_atoms"]
         self.hashes = raw.portable_atom_hashes(self.profile_atoms)
-        self.atom_keys = []
-        self.atom_degrees = []
-        self.atom_weights = []
-        for index,node in enumerate(self.profile_atoms):
-            if node[0] == "jet":
-                if node[1] not in priority.ORDER:
-                    raise ValueError("the canonical head contains an undeclared input color")
-                key = ring.p.jet(node[1],node[2])
-                degree = (int(node[1]=="q"),int(node[1]=="qbar"))
-                weight = -node[2]
-            else:
-                power,atoms = raw.monomial(node[1],index)
-                key = ring.p.primitive(self.to_ring_monomial((power,atoms)))
-                degree = tuple(sum(self.atom_degrees[a][c] for a in atoms) for c in (0,1))
-                weight = power+sum(self.atom_weights[a] for a in atoms)+1
-            if key[0] != 0 or len(key[1]) != 1:
-                raise ValueError("portable atom reconstruction did not yield one original atom")
-            self.atom_keys.append(key[1][0])
-            self.atom_degrees.append(degree)
-            self.atom_weights.append(weight)
-        self.columns = []
         metadata = literal["column_metadata"]
+        selected_roots=[head["roots"][metadata[index]["original_metadata"]["roots"][str(mode)]]
+                        for index in EXPECTED_BASIS for mode in PROJECTIONS]
+        self.selected_original_atoms=original_atom_ancestors(self.profile_atoms,selected_roots)
+        self.atom_keys,self.atom_degrees,self.atom_weights=decode_selected_canonical_atoms(
+            ring,self.profile_atoms,self.selected_original_atoms)
+        self.columns = []
         for local_index,index in enumerate(EXPECTED_BASIS):
             record = metadata[index]
             original = record["original_metadata"]
@@ -269,6 +297,8 @@ class OriginalInputs:
             budget.check()
 
     def to_ring_monomial(self, key):
+        if any(self.atom_keys[a] is None for a in key[1]):
+            raise ValueError("a selected original monomial uses an atom outside its bound ancestor closure")
         return key[0],tuple(sorted(self.atom_keys[a] for a in key[1]))
 
     def expression(self, rows):
@@ -370,6 +400,10 @@ def load_inputs(args, report, budget, ring):
         "identity_bound_by_exact_main_receipt_producer_and_packed_raw_hashes":True,
         "source_hashes_in_certificate_equal_the_bound_main":True}
     report["scope_inventory"] = {"literal_original_basis_columns":77,"archived_R_columns":40,
+        "complete_original_atom_table_retained":len(original.profile_atoms),
+        "decoded_selected_root_ancestor_atoms":len(original.selected_original_atoms),
+        "unreachable_producer_only_atoms_not_decoded":len(original.profile_atoms)-len(original.selected_original_atoms),
+        "every_reachable_atom_color_strictly_q_or_qbar":True,
         "new_normal_basis_columns":37,"old_pure_R40_recomputed":0,"old_31_pure_dependencies_recomputed":0,
         "old_70_literal_dependencies_recomputed":0,"old_J_and_D0_pure_targets_recomputed":0,
         "old_86_necessary_rows_rechecked":False,"old_RREF_or_solver_recomputed":False,
@@ -1175,6 +1209,34 @@ def binding_only_checks():
             "missing_other_or_conflicting_embedded_identities_are_not_silently_relaxed":True}}
 
 
+def atom_selection_only_checks():
+    """Only the newly observed shared producer-DAG ancestor boundary."""
+    atoms=[["jet","producer_only",0],["jet","q",0],
+           ["int_right",[0,[1]]],["jet","qbar",0]]
+    roots=[[[[0,[2,3]],1,1]]]
+    selected=original_atom_ancestors(atoms,roots)
+    assert selected=={1,2,3}
+    ring=colored.ColoredRing(exact.Limits(seconds=30,memory_mib=512))
+    keys,degrees,weights=decode_selected_canonical_atoms(ring,atoms,selected)
+    assert keys[0] is None and degrees[0] is None and weights[0] is None
+    assert degrees[2]==(1,0) and weights[2]==1
+    assert {node[1] for node in ring.p.atoms if node[0]=="jet"}=={"q","qbar"}
+    failed=False
+    try:
+        decode_selected_canonical_atoms(ring,atoms,original_atom_ancestors(atoms,[[[[0,[0]],1,1]]]))
+    except ValueError:failed=True
+    assert failed
+    failed=False
+    try:decode_selected_canonical_atoms(ring,atoms,{2,3})
+    except ValueError:failed=True
+    assert failed
+    return {"all_passed":True,"artificial_only":True,"real_input_files_opened":False,
+        "old_nine_or_two_development_checks_repeated":False,
+        "checks":{
+            "unreachable_producer_colors_are_not_decoded_but_selected_primitive_ancestors_are_kept":True,
+            "reachable_foreign_colors_and_incomplete_ancestor_closures_are_rejected":True}}
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ("head-dir","literal-dir","finite-dir","pure-dir","point-dir","resume-dir"):
@@ -1186,6 +1248,7 @@ def main():
     parser.add_argument("--output",type=Path,required=True)
     parser.add_argument("--toy-only",action="store_true")
     parser.add_argument("--binding-toy-only",action="store_true")
+    parser.add_argument("--atom-selection-toy-only",action="store_true")
     parser.add_argument("--max-seconds",type=float,default=240)
     parser.add_argument("--memory-mib",type=int,default=1024)
     parser.add_argument("--integer-bits",type=int,default=8192)
@@ -1210,8 +1273,9 @@ def main():
         parser.error("main budget at least12000 and below100KB; complete publication at most4.8MB")
     if args.max_total_bytes<=args.max_main_bytes:
         parser.error("reserve publication bytes beyond the small main for an exact state")
-    if args.toy_only and args.binding_toy_only:parser.error("choose one artificial entry point")
-    if not (args.toy_only or args.binding_toy_only):
+    if sum((args.toy_only,args.binding_toy_only,args.atom_selection_toy_only))>1:
+        parser.error("choose one artificial entry point")
+    if not (args.toy_only or args.binding_toy_only or args.atom_selection_toy_only):
         if any(getattr(args,key) is None for key in (
             "head_dir","literal_dir","finite_dir","pure_dir","D0_dir","point_dir")):
             parser.error("all six exact published input directories are required")
@@ -1230,7 +1294,10 @@ def main():
         "true_character_or_period_or_ruling_constructed":False,
         "limits":{key:getattr(args,key) for key in numerical}}
     try:
-        if args.binding_toy_only:
+        if args.atom_selection_toy_only:
+            report["development"]=atom_selection_only_checks()
+            report.update(completion="complete",phase="only_new_selected_atom_ancestor_checks_complete")
+        elif args.binding_toy_only:
             report["development"]=binding_only_checks()
             report.update(completion="complete",phase="only_new_archived_manifest_metadata_checks_complete")
         elif args.toy_only:

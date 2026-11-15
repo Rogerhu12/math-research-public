@@ -1,6 +1,6 @@
 {
-  "request": "shared-fixed-color-relations-exact-legacy-finite-manifest-interface",
-  "created_at": "2026-11-15 04:04:17 UTC",
+  "request": "shared-fixed-color-relations-complete-selected-original-ancestor-decoding",
+  "created_at": "2026-11-15 04:09:57 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "character_head_word_relations"
@@ -13,14 +13,14 @@
     "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
     "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
     "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
-    "topics/visible-flex-new-mechanism/scripts/literature_character_head_word_relations.py": "1629ff68dd4c4b8acb151939fdb2733f048d07b5f5f780f2013efd07ded2f0f4"
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_word_relations.py": "1ec5fab96ec173c3e1583b40a124c5c98b3249cec9a87be39db3b3066e31b300"
   },
   "jobs": {
     "character_head_word_relations": {
       "development": [
-        "--binding-toy-only",
+        "--atom-selection-toy-only",
         "--output",
-        "@OUT@/character-head-word-relations-binding-development.json"
+        "@OUT@/character-head-word-relations-atom-selection-development.json"
       ],
       "research": [
         "--head-dir",
@@ -72,12 +72,22 @@
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
   "task_complete": false,
-  "previous_failed_actual": {
-    "run": "43674559905",
-    "source": "b2c4e202672c2e62b4059c93b3d9c26ada0d36cf",
-    "phase": "binding_existing_originals",
-    "exact_budget_checks": 0,
-    "nine_new_toys_passed": true,
-    "only_change": "Exact legacy finite export gets its identity from already-bound main and receipt; other identity checks and all mathematics unchanged."
-  }
+  "previous_failed_actuals": [
+    {
+      "run": "43674559905",
+      "source": "b2c4e202672c2e62b4059c93b3d9c26ada0d36cf",
+      "phase": "binding_existing_originals",
+      "exact_budget_checks": 0,
+      "nine_new_toys_passed": true,
+      "only_change": "Exact legacy finite export gets its identity from already-bound main and receipt; other identity checks and all mathematics unchanged."
+    },
+    {
+      "run": "43675170178",
+      "source": "dd7b89f2835636c874378af160a760398afa36d9",
+      "phase": "binding_existing_originals",
+      "exact_budget_checks": 0,
+      "two_manifest_toys_passed": true,
+      "only_change": "Decode only the complete -4/-2 selected-root ancestor closure; keep and hash the complete original table; reachable foreign colors still fail."
+    }
+  ]
 }
