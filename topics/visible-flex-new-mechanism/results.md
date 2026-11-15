@@ -191,3 +191,5 @@
 - [同g103列受限主步与SOC的首轮设计](notes/same-g-entry-body103-restricted-step-design-20261115.md)：原全163态/固定60/同g，103阵列投影保原IDs与fullJ；外域两soft给精确rho下界、常量hard按原tol、可变域独用正floor。新r=cap1/4000与原预算明确，三段只恢复必要输入各一次，最终完整门/固定域/高度与总下降参考直接日志。新人工和源码接线完成，首个真实公开结果待读；不授下降、收敛或连续reach。
 
 - [R220：精确约束内的全域Morse几何和局部pure截面](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)：全非线性低阶/pure方程先解，真实history的Duhamel/IBP使约束导数为光滑积分密度，与点δ′/δ″独立；全复用/反向/变长发生位置的物理2jet均可控。紧零集有限方向给C1零流形维N−1，其参数投影零测，无高阶Sard假设；一次小扰动使整h Morse，接口germ与Klein新位移不变约束。Morse在C2开，得同一局部C1全pure实际截面；仍不授第四joint或有限族。
+
+- [R217：两个左二次尾在pure零响应上满射](results/R217-two-left-tail-invariants-independent-on-pure-zero-responses.md)：同右锚代数导子Df=x²f′−2xf保E8/真实交换响应；K1=δK与K3=δ³K的左pair为(8A*,0)、(B*,−96J*)，非对称下降包与实三补偿/八packet使A*>0/J*≠0。两左尾联合仍不能因子化λ+，显式H_tail纯零/两尾零/λ1。保全部偶基准的四实际同λ/pure0闭hook形成非退化平行四边形，至少三条period必要门失败；不排更大joint或宣同g。

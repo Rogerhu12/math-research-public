@@ -62,6 +62,8 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R215](results/R215-equal-positive-character-and-distinct-fixed-circle-degenerate-flux.md)已具体支付一条fixed-circle非成员证据：R183正f′包内必有A_f0/q>0，响应K_PR的退化flux=−8q⁵/45而任意全I光滑w的L_f通量0。真实Z±配同pure校正给两M0/TκH/pure0闭hook，同λ+>0却flux不同，至少一条完整period失败。它是canonical响应空间内的真实pure零方向，不在本圆gauge像；不许把λ+与此单flux等同。下一R217判左尾/更大joint不变量组能否读λ；具体原目标仍须付全部period与同w ruling。
 
+[R217](results/R217-two-left-tail-invariants-independent-on-pure-zero-responses.md)已具体判定两左尾的独立响应：代数δ保真实E8/commutator响应，pure零K1/K3在合法非对称轴包圆的左pair为(8A*,0)/(B*,−96J*)，行列式−768A*J*非零。故有H_tail纯零/两左尾零而λ+1，λ不经该pair因子化；四真实同λ/pure0闭hook的pair成非退化平行四边形，至少三条不能修period。δ不授非仿射几何变换；当前具体基准与更大joint仍未解。下一R219优先完整联合观测的结构，不能机械加一个已知flux就冒全joint。
+
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
 [R211](results/R211-finite-range-conditions-and-Green-inverse-for-fixed-circle-period-gauges.md)已把一个明确局部gauge类的period变成可充分求解的有限门：先验G″紧支撑J，A_f不零时2齐次adjoint矩+7 Green矩准确iff；有限m个内部简单零再加m个真实累计通量。唯一同锚右逆保左affine尾/六矩/种子。R210纯零闭hook只剩两G_c/G_s，若两者通过同J条件即可同一2谐波w付全部period；具体函数现由R213给出；先付其平台/左二次尾门，再检查适用J的支撑/通量。固定w后再付完整ruling商；失败仅排该J局部类，不排全局gauge。
@@ -100,19 +102,9 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 - R146完整商协变将五族314条目缩为80个ω0起始记录，后继ω_j=N^jω0/j!模R。R154再由真实反号与k次数≤6的七点插值，给h1/ω0/k0,1,2,3共20状态值的正仿射轨道生成全部五族。20不是维数/实际控制/有限点正性；一般pure成员亦可如此缩减，但不盲扫。
 
-### 当前真正的完整商与正性任务
+### 已结完整商与当前joint
 
-**权−2已结案。** [R186](results/R186-complete-weight-minus2-function-kernel-and-five-dimensional-character-head.md)给真U−2维52、R40独立、响应商维12、完整H−2维5，147列完整95维原函数核。[R188](results/R188-no-nonzero-positive-affine-character-at-weight-minus2.md)严格排除全部非零正字符：完整joint缩放、周期积分、有限正平帽变分和近复正弦负action覆盖全部边界。旧R177等外点早已不尊重原函数核；不再跑此权旧77/40/70/86、必要LP、RREF或负路径。
-
-**[R190](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md)已证U2=R2、H2=0。** 原势缩放差的常数由准确基点N0(1,1,1)=0消除；高权势入W、原v2/v4上界、完整Γ与14族逐项支付。R105完整分子递推给权支撑[-9,3]。结合R145/R188，尚余偶权**{-8,-6,-4,0}**；这不宣它们存在正字符。权0现已由R196完整结案并给真非零正射线；其余负偶权不再为证明障碍存在而扫表。
-
-[R192](results/R192-weight-zero-character-multiplier-and-first-order-action.md)已给权零真实字符的准确接口：协变乘子存在iff d_p1=0，正字符必须满足；八参考态迫c0、d仅p2，μ=(0,2α,2β,0,0,0,0,8α)，α仍是待选乘子。完整action为∫[a p′²+c p⁴+b0(k)k′²+b1(k)p k′+b2(k)p²+A0(k)]，p=(log h)′；p两端0、k平，开路径无∫p=0门。最高层iff a,c≥0，磁项须保。该完整head和同α正性现均由R196支付，不再编旧响应、投影、函数核或正性。
-
-[R194](results/R194-weight-zero-free-time-criterion-and-zero-acceleration-boundary.md)进一步准确消去全部时长：G=a dp²+b0 dk²、V=c p⁴+b2p²+A0，须G/V非负且所有E={p0}到E曲线的∫(2√VG+b1p dk)非负；等价有零E值的局部Lipschitz支配势，保退化。a=0时完整iff c,A0,b0≥0、d=b2+2√(cA0)≥0、4b0d≥b1²，含b0=0；不是二次PSD必要。先取得真实H0，再对同一α应用，不授任意形式系数真实可行。
-
-**[R196](results/R196-complete-weight-zero-character-head-positive-ray-and-strict-canonical-cost.md)完整H0与正锥已结案。** actual43681388902/source7872857e/job132712596579：38列/318忠实行/rank19/19全核，U0=19/R0=16/商3/平移像1/真H0=2；自由x=ν5、y=ν20，全部22赋值与c/d明确。a=c=y而b0=−y/3迫正字符y0；剩余同μ参数α须0≤α≤−x，所以正锥准确为x≤0。λ+=(−1,0)、α0给完整∫k²，真实M0迫λ+V=L+∫(h_s/h)²>0。没有重旧N投影或−2研究，新payload不持久保存。
-
-**[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已付一般pure代入核。** πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96，原差540项准确0；19列/42word行/真rank3，πU0=πR0。H=C2+R0/48+11R2/64−13R3/96的πH=0而λ+H=1，故全部universal pure输出也不能读此字符，不只是m8漏商。完整λ仍正，H不冒实际路径。
+R186/R188完整权−2函数核/正性已结；R190给U2=R2。R192/R194完整权零action接口最终由R196真H0及正锥结案：λ+为唯一正射线且真实M0成本λV=L+∫(logh)′²>0。R201给πH0/λH1；R204/R207/R210最终完整pure像=响应，Cp=P且实际S=P。全部来源与实际run详见results及原文，不再扫描旧权、动作路径、原NF或必要LP。
 
 **下一：真正的固定圆joint支付。** 最右pure必要门保留，但不能再用λ+去否定它；R210已用真实有限控制把闭hook全pure准确清零；下一具体支付balanced mixed及同w的ruling。完整mixed查询上的ker(ev|U)是否被λ杀仍另欠。R184独立w的Δ须另付是否在同U/λ延拓/是否消掉，不能由pure零推出完整目标零；同一w须同时付period和ruling。全U已有正分离，不为目录完整盲扫−4/−6/−8。
 
