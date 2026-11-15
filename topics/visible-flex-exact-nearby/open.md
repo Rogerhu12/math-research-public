@@ -151,3 +151,7 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 ## 完整有限 Sobolev 正帽主体球已付：继续真实 nonlinear outer
 
 C1–23（SHA730ffff4e641615aafdafdda12bb3b147bf227a6c4386b9d4165a7efb4ab7699）在1≤S≤8212建立明确M_S球。已知系数joint strip给C*=2^212992，未知场仅有限Sob；完整保守flux/primitive/mean不损角导、不取Y_r。hatY=H z、||z||≤2^-8388608时相对全真实δ帽逆的主体反馈<2^-2097152，state逆<2^4194305；完整增广charge用同源恢复，物理零荷/匹配仍是真方程。已付same-space quadratic/Lipschitz；没有证明actual残差进球。下一项给未知状态的真实long nonlinear图、正/伴随图费用和完整外行余项；尾部全层nearby/97精细ν/global matching继续。
+
+## 两块外邻片完整非零入口消费者已部署
+
+SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd9547ccc…、131pin manifest4a3e28f6…，由已成domain whole gate续接真实2547/2551。完整30旧stage/49norm+background/6case按原身份消费；新phase入口E、first-correction入口F、全mean log常数ell逐真seam继承，ray严格用旧入口宽及新域的较小值。source仍全九nonlocal词/五independent mean，Nraw不额外除mu，whole-row整行选择。worker c0c4c16a…/flow38627ecb…仅公开Actions/temp数据/小结论和execution；当前只部署，待actual child、完整gates与6case数值，不转授strong-return/全逆。
