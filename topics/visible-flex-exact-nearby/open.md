@@ -44,8 +44,8 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读10:44过程45916B/SHA0a791df1…：future5970=1886旧+4084新及product5970全成，
-past2928，combined24groups/90queued/2consumers，无failure；Werror log2≤−101。
+root已读11:24过程48681B/SHA3bfa4b08…：future5970=1886旧+4084新及product5970全成，
+past3808，combined85groups/118queued/3consumers，无failure；Werror log2≤−101。
 真正数学仍fixed repaired M32 δ0、原η0/ν0；继承process字段1e−9并非BVP全参数域。
 现成高相位gap在selectedδ*，同一对象的有限低块转移与非线性phase保持仍须接。
 继续三流、187groups、三个完整HY及final，逐组结果不等于全局门已过。

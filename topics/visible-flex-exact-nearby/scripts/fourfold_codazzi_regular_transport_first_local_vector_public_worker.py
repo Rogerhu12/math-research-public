@@ -166,14 +166,23 @@ def prior_actual_failure_receipts(git,root,pipeline_sha,manifest_sha):
         old=git("show",commit+":"+str(worker)).stdout.encode()
         if len(old)!=worker_bytes or hashlib.sha256(old).hexdigest()!=worker_sha:
             raise ValueError("an original worker must remain byte exact")
-        source=old.decode();ast.parse(source,filename=str(worker))
-        if source.count(child_start)!=1 or source.count(first_sync)!=1:
-            raise ValueError("the original worker has an unexpected scientific start path")
+        source=old.decode();syntax=ast.parse(source,filename=str(worker))
+        mains=[v for v in syntax.body if isinstance(v,ast.FunctionDef) and v.name=="main"]
+        if len(mains)!=1:raise ValueError("the original worker has no unique main")
+        main=mains[0];lines=source.splitlines()
+        starts=[v for v in ast.walk(main) if isinstance(v,ast.Call)
+            and isinstance(v.func,ast.Attribute) and v.func.attr=="Popen"
+            and isinstance(v.func.value,ast.Name) and v.func.value.id=="subprocess"]
+        initial=[v for v in main.body if isinstance(v,ast.Expr) and isinstance(v.value,ast.Call)
+            and isinstance(v.value.func,ast.Name) and v.value.func.id=="sync"
+            and lines[v.lineno-1].strip()==first_sync]
+        if len(starts)!=1 or len(initial)!=1:
+            raise ValueError("the original main has an unexpected real scientific start path")
         if position==0:
             audit='objects=git("ls-tree","-r","-l","HEAD","--",str(TOPIC)).stdout.splitlines()'
             if not (first_sync in trace and audit in trace and "subprocess.TimeoutExpired" in trace
                 and "'ls-tree', '-r', '-l', 'HEAD', '--', 'topics/visible-flex-exact-nearby'" in trace
-                and "900 seconds" in trace and source.index(first_sync)<source.index(child_start)):
+                and "900 seconds" in trace and initial[0].lineno<starts[0].lineno):
                 raise ValueError("the first actual failure did not precede its only scientific child")
             status=dict(scientific_subprocesses=0,scientific_returncode=None,scientific_gates=None,
                 classification="first_sync_metadata_timeout_before_science")
