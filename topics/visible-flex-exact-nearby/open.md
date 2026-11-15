@@ -151,3 +151,7 @@ cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，
 ### long 外口已取得真实两层 tame
 
 [K1–23](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md) 对q≤8160、背景q+32≤8192，用完整zero-width全纯图与实平移协变核付Cq=2^(96q+16384)：DN/EB及真adjoint为A64·high+Aq·low；Poisson保sB ε及普通Dq。K21a将cap读出/方向单位写全，均值和aw(L)/165高度跨度不带ε。只要求低A64小，高Aq/Dq有限；后续网络若需低1856须明确另设门。下一将此与L低Γ/真实网络/三径jet联立，不把单个边界form逆称全mixed tame逆。
+
+### Green 实际失败日志的零数学恢复
+
+SCI dee201d0…/flow c3370a24…只在public Actions临时读取原job132713247491完整日志，核原run43681612825/1及39023B失败process0b2e0815…，输出原bytes/SHA与≤20000B必要traceback。0数学/0artifact/两次真pull与README核；不把新临时prefix称可恢复。确认完整非finite入口后才修复dyadic/Gram实现，原门不弱化。

@@ -1,0 +1,45 @@
+name: visible-exact Green v2 actual traceback receipt
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-green-v2-traceback-receipt.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_Green_v2_traceback_receipt.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-exact-green-v2-traceback-receipt
+  cancel-in-progress: false
+jobs:
+  receipt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Partial checkout of two reviewed READMEs and one receipt-only source
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_Green_v2_traceback_receipt.py
+      - name: Verify exact receipt source and Python syntax without mathematical imports
+        run: |
+          python - <<'PY'
+          import ast,hashlib
+          from pathlib import Path
+          p=Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_Green_v2_traceback_receipt.py')
+          raw=p.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='dee201d00a965bac2215fb1bdad701174f8c35303a786abbef2d098633b73a36'
+          ast.parse(raw.decode())
+          PY
+      - name: Read original failed job log temporarily and print only the genuine small failure receipt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_Green_v2_traceback_receipt.py
