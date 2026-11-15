@@ -1,0 +1,79 @@
+{
+  "scope": "Only strict current producer/schema/pin transport adaptation, no scientific computation",
+  "original_reader": {
+    "file": "root_20261114_read_completed_twenty_one_prefix.py",
+    "sha256": "0feeb16e350d06ed03abb93c8ff80dd6e9e10a2703d47135f3c36ee3c289ea3a"
+  },
+  "new_reader": {
+    "file": "root_20261114_read_completed_twenty_one_lambda27_prefix.py",
+    "bytes": 49810,
+    "sha256": "42fb5d0f97c2cee619e2ac1b7e6ee2b9249ee42a518a23cdc9d4c462e0d3c3fa"
+  },
+  "every_original_function_and_class_AST_identical": [
+    "AuditError",
+    "require",
+    "sha",
+    "json_bytes",
+    "canonical",
+    "write",
+    "decoded_bytes",
+    "read",
+    "original_json_path",
+    "receipt",
+    "safe_path",
+    "scalars",
+    "compact",
+    "walk",
+    "subset",
+    "descriptor_file",
+    "fetch_original",
+    "midpoint_view",
+    "collocation_view",
+    "selected_domain",
+    "selected_angle_view",
+    "trial_view",
+    "preserve_original_reports",
+    "readout",
+    "array_header",
+    "array_identity",
+    "check_array",
+    "npz_file",
+    "combine_parts",
+    "source_audit",
+    "audit_domain",
+    "audit_condensed",
+    "audit_root_raw",
+    "audit_observers",
+    "main"
+  ],
+  "original_domain_audit_byte_contract_unchanged": true,
+  "unchanged_B_rows": 43008,
+  "unchanged_actual_B_union": 6763,
+  "unchanged_declared_local_dimension": 7101,
+  "unchanged_explicit_zero_layout_node": 484,
+  "current_sources": [
+    {
+      "file": "geometry_20261114_twenty_one_query_domain_operator.py",
+      "bytes": 32226,
+      "sha256": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65"
+    },
+    {
+      "file": "geometry_20261114_twenty_one_query_lambda27_condensed_warm.py",
+      "bytes": 15297,
+      "sha256": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c"
+    },
+    {
+      "file": "geometry_20261114_twenty_one_query_lambda27_condensed_response.py",
+      "bytes": 2636,
+      "sha256": "270797569ecff1e3b895d8bb5482c6c9f3c2a4e11d29ebc980c3cfd8bcd88bb0"
+    },
+    {
+      "file": "geometry_20261114_twenty_one_query_lambda27_collocation_observer_warm.py",
+      "bytes": 16764,
+      "sha256": "12437f6887b7fb6a7d5ea91214b95227056238054cd73e6db8c123f2aa49e881"
+    }
+  ],
+  "no_producer_schema_or_source_guard_relaxed": true,
+  "unknown_artifact_identity_not_filled": true,
+  "no_reader_or_science_module_executed": true
+}

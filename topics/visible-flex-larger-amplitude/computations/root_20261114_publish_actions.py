@@ -26,6 +26,39 @@ def sha(path):
     return h.hexdigest()
 
 
+def pull_with_rule_record_rebase(git, repo, env):
+    """Resolve only a replayed commit whose sole change is the rule-read line."""
+    relative = 'topics/visible-flex-larger-amplitude/HANDOFF.md'
+    result = git('pull', '--rebase', 'origin', 'main', check=False)
+    while result.returncode:
+        raw = subprocess.check_output(
+            ['git', '-C', str(repo), 'diff', '--name-only', '--diff-filter=U', '-z'],
+            env=env)
+        conflicted = [x.decode('utf-8') for x in raw.split(b'\0') if x]
+        if conflicted != [relative]:
+            raise RuntimeError('Rebase needs root resolution beyond a rule-record-only conflict; original artifact is preserved')
+        stages = [subprocess.check_output(
+            ['git', '-C', str(repo), 'show', ':'+str(stage)+':'+relative],
+            env=env, text=True) for stage in (1, 2, 3)]
+        stripped = []
+        for body in stages:
+            value, count = re.subn(r'^规则同步记录：.*$', '', body, flags=re.M)
+            if count != 1:
+                raise RuntimeError('Refuse to merge a non-unique HANDOFF rule line')
+            stripped.append(value)
+        # During rebase stage2 is the rebased upstream; stage3 is the local
+        # replay. Only a rule-line-only replay may be resolved automatically.
+        if stripped[0] != stripped[2]:
+            raise RuntimeError('Replayed HANDOFF changes research content; root must resolve it')
+        handoff = repo/relative
+        handoff.parent.mkdir(parents=True, exist_ok=True)
+        handoff.write_text(stages[1])
+        git('add', '--sparse', relative)
+        print('Preserved rebased HANDOFF content; resolved only a replayed rule-read record', flush=True)
+        result = git('-c', 'core.editor=true', 'rebase', '--continue', check=False)
+    return result
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results', type=Path, required=True)
@@ -136,7 +169,7 @@ def main():
         'commit','-m','visible-larger: preserve actual '+a.lane+' continuation '+run)
     while True:
         before = subprocess.check_output(['git', '-C', str(repo), 'rev-parse', 'HEAD'], env=env, text=True).strip()
-        git('pull','--rebase','origin','main')
+        pull_with_rule_record_rebase(git, repo, env)
         rule_diff = subprocess.check_output(
             ['git', '-C', str(repo), 'diff', before, 'origin/main', '--',
              'README.md', 'topics/visible-flex-larger-amplitude/README.md'],

@@ -32,7 +32,7 @@
 
 **同父λ比较：** [67正式结论](notes/2026-11-14-actual67-lambda27-same-base-tradeoff-and-byte-comparison.md)。66/67均从actual64出发、同20query/W/b/g/B，分别λ270/27。66接受1/16、总merit43.7556914034461；67接受1/512、总merit43.77799655333434，但同row461最大col为.007108963566953459，较66 .007109134582008451更小。最近拒步均唯一left466。67 stationarity1788.5803704212726/gap2194.117175196217是有限预算结果，不能称精确QP最优。完整181B/1168数组+b/g/c逐字同、14新raw已核；第一版工程失败保留。
 
-70按[独立同父接口](notes/2026-11-14-twenty-one-query-lambda27-same-parent-interface.md)实际运行43656059206/sourceab974f19：与68同actual66父、同21query，只有λ27。科学步骤、FD及artifact已成功，只有publisher失败；原artifact14139045881/606816318B/ZIPe45f3284保全，正在恢复原件而不重跑科学。43pins/11shell/6inlineAST核同，全部C/QR/root为当前λ重建。不能从67新warm冒同父，也不能拿70 merit与72新W直接相减。
+70按[独立同父接口](notes/2026-11-14-twenty-one-query-lambda27-same-parent-interface.md)实际运行43656059206/sourceab974f19：与68同actual66父、同21query，只有λ27。科学步骤、FD及artifact已成功，只有publisher失败；原artifact14139045881/606816318B/ZIPe45f3284保全，[已定位规则行冲突并派发原件恢复](notes/2026-11-15-actual70-publication-conflict-and-original-artifact-recovery.md)，不重跑科学。43pins/11shell/6inlineAST核同，全部C/QR/root为当前λ重建。不能从67新warm冒同父，也不能拿70 merit与72新W直接相减。
 
 [66完整结论](notes/2026-11-14-actual-request66-twenty-query-nearest-left466.md)及[字节附记](notes/2026-11-14-actual66-complete-byte-audit-addendum.md)已完成，181domain/103condensed/14raw/observer由既有回执合并，无重审；全部早轮见[原open检查点](open-checkpoint-through-request67-2026-11-14.md)。[65固定模型诊断](notes/2026-11-14-actual65-fixed-model-center-and-conditional-response.md)已证明小响应已在center，且center违反2802条B；不能去掉B。其40raw/201输入/5749RHS操作字节核已付，不重跑。
 

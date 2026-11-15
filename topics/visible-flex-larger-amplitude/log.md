@@ -305,3 +305,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-15 00:16:24 UTC — /root GPT-6 Astra Pro: 保存71正式结论1454c7d1和全原件byte核843dacb6：两段完整226态/postport/两mean及和逐bits同原noJ并对应69，14raw/25steps/100field来源全核。
 73实际run43657001633/source9515d5aa进入完整576原生续解；72实际43656584956计算。70科学/FD/artifact成功但publisher失败，原件保全并立即恢复发布，不重跑科学。
+
+2026-11-15 00:22:33 UTC — /root GPT-6 Astra Pro: 定位70仅发布失败为HANDOFF旧规则行rebase冲突，warm/FD/artifact成功。新publisher5a0216d0只处理stage1/3正文相同的规则行冲突，保最新上游；两个纯Git元数据fixture通过。
+发布70reader42fb5d0/22readerf3a3570d、共享workflow7a0e0079；唯一真实70请求3b721367在Actions一次取原件并恢复原有界发布，无科学重跑/新门。
