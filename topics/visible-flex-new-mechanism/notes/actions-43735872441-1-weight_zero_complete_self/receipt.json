@@ -1,0 +1,1135 @@
+{
+  "schema": "visible-new-mechanism-actions-metadata-only-v2",
+  "repository": "Rogerhu12/math-research-public",
+  "source_commit": "ca186db057ed753abe565d0c3c2c8305278b5af7",
+  "run_id": "43735872441",
+  "run_attempt": "1",
+  "lane": "weight_zero_complete_self",
+  "destination": "topics/visible-flex-new-mechanism/notes/actions-43735872441-1-weight_zero_complete_self",
+  "design_is_not_fixed_metric_refinement": false,
+  "diagnostic_without_new_surface_or_profile_design": false,
+  "artificial_development_only": false,
+  "complete_research_compilation_without_candidate_geometry": true,
+  "exact_profile_witness_without_candidate_geometry": false,
+  "task_complete": false,
+  "source_files": {
+    ".github/workflows/visible-new-mechanism-continuation.yml": {
+      "sha256": "37a92b704aacc33736b96c96c0b8ee85173dee7f3f6b7a9fd6429fdc7f0155dc",
+      "bytes": 39237
+    },
+    ".github/workflows/visible-new-mechanism-search.yml": {
+      "sha256": "92061be059c7b8220bc5bbe36561832af8e19dbd00c2c37c6a83b576516eb7c0",
+      "bytes": 100628
+    },
+    "README.md": {
+      "sha256": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "bytes": 10233
+    },
+    "topics/visible-flex-new-mechanism/README.md": {
+      "sha256": "e685cff0e67e6851a7911d4e9efbae0e7d326e093927af177f716f059b8c566b",
+      "bytes": 3725
+    },
+    "topics/visible-flex-new-mechanism/computations/request-continuation.json": {
+      "sha256": "15068701ad99510e759211d2700b29edf4d845115c5f911efd27e334ae98d0c9",
+      "bytes": 9071
+    },
+    "topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json": {
+      "sha256": "74e963198867c8e97257398449f38e0fcaf4ea73324e44237f5bc1ddcde02b30",
+      "bytes": 18089
+    },
+    "topics/visible-flex-new-mechanism/scripts/bent_flat_tail_port.py": {
+      "sha256": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+      "bytes": 15343
+    },
+    "topics/visible-flex-new-mechanism/scripts/check_research_outcomes_reader.py": {
+      "sha256": "6b841afb60f8101419c195f6b2a3d373c8bbfa895e8be67846ce0b2d939e3fda",
+      "bytes": 5042
+    },
+    "topics/visible-flex-new-mechanism/scripts/core_tail_saved_audit.py": {
+      "sha256": "144e4112a685c9e51c448b64c02cbb7a0eb1e916db066fd1fdd9338a6d4d8019",
+      "bytes": 5536
+    },
+    "topics/visible-flex-new-mechanism/scripts/core_to_tail_bvp.py": {
+      "sha256": "6063dae5b280492fae17fa94349889e8dd45a99fa62b1e4e042341cddb687d46",
+      "bytes": 38023
+    },
+    "topics/visible-flex-new-mechanism/scripts/cosine_connector_port_screen.py": {
+      "sha256": "d6e77a04094cb26113477209b414d62081ea885d3e79609e10c72ea867d36feb",
+      "bytes": 19794
+    },
+    "topics/visible-flex-new-mechanism/scripts/cosine_connector_radial_seed.py": {
+      "sha256": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+      "bytes": 21039
+    },
+    "topics/visible-flex-new-mechanism/scripts/cosine_core_high_jets.py": {
+      "sha256": "055126b138a1868c0d565c7cf4967887075577ed41657f507bbd9a80559d474b",
+      "bytes": 12742
+    },
+    "topics/visible-flex-new-mechanism/scripts/cosine_rectifying_core.py": {
+      "sha256": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+      "bytes": 10762
+    },
+    "topics/visible-flex-new-mechanism/scripts/cosine_scalar_frame_port.py": {
+      "sha256": "15df4d468250b439344a84e1a75135372a1394ad968219c2703deb1b64a8451a",
+      "bytes": 15166
+    },
+    "topics/visible-flex-new-mechanism/scripts/eccentric_collar_search.py": {
+      "sha256": "aba9a55dec98f713433a15a885578c79993005ce6b2df4dd1515271866131489",
+      "bytes": 23325
+    },
+    "topics/visible-flex-new-mechanism/scripts/eccentric_curvature_search.py": {
+      "sha256": "14644709dcd43b17ed8acc9d61e14e396d596319c7ad97295bf61ede267869cc",
+      "bytes": 15682
+    },
+    "topics/visible-flex-new-mechanism/scripts/ellipse_angular_basis_check.py": {
+      "sha256": "354fb3bb0d9dfad54e35d397eb18590b1f52539df2543e6ec01499bc12ca9fae",
+      "bytes": 7825
+    },
+    "topics/visible-flex-new-mechanism/scripts/ellipse_core_continuation.py": {
+      "sha256": "db0224963addceb0044f8c71e888f5a631835a7f615cdb1e2939f8bfde7afb0b",
+      "bytes": 14394
+    },
+    "topics/visible-flex-new-mechanism/scripts/ellipse_frame_port.py": {
+      "sha256": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+      "bytes": 8978
+    },
+    "topics/visible-flex-new-mechanism/scripts/extract_curvature_feasible_trials.py": {
+      "sha256": "9390ffd112aabd22a042aec2cd71344f69c7613433d14be6809abba56c6f9d63",
+      "bytes": 12943
+    },
+    "topics/visible-flex-new-mechanism/scripts/extract_curvature_trial_diagnostics.py": {
+      "sha256": "303de1f353ef6198fdbafd3a61f4e974ab0a1feff8b8cf03eb0d598bd15ae052",
+      "bytes": 10087
+    },
+    "topics/visible-flex-new-mechanism/scripts/folded_collar_search.py": {
+      "sha256": "a88175e135cd93b02a7587cb4c171d675771e987014f250b8d1ad0c4d7758b48",
+      "bytes": 19496
+    },
+    "topics/visible-flex-new-mechanism/scripts/folded_reference_geometry.py": {
+      "sha256": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab",
+      "bytes": 12291
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_body_metric_design.py": {
+      "sha256": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+      "bytes": 9570
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_bent_tail.py": {
+      "sha256": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+      "bytes": 39055
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_bvp.py": {
+      "sha256": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+      "bytes": 45937
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_enriched.py": {
+      "sha256": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+      "bytes": 30043
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_natural_body_audit.py": {
+      "sha256": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d",
+      "bytes": 41029
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_polygonal.py": {
+      "sha256": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+      "bytes": 34324
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_polygonal_heat.py": {
+      "sha256": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f",
+      "bytes": 32252
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_polygonal_saturated_heat.py": {
+      "sha256": "483d0decb4cedd083ee3c9da8b499096c4aa51b3c23bb0140f8f7281f5a248fa",
+      "bytes": 519
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_collar_residual_audit.py": {
+      "sha256": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+      "bytes": 22207
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_development.py": {
+      "sha256": "34694db773e3786b0e0d242bd31d90b846fbc0543e6361423ab74e6fa46de1f1",
+      "bytes": 26730
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_complete_affine_metric_oracle.py": {
+      "sha256": "ab81812f596cf3fc4f1c8d188aec785b289db2fb2c6959e32c2d69250faa91e9",
+      "bytes": 35784
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_core_transport.py": {
+      "sha256": "ea7990328c979f02be7b83db307f5d1b94e69d0ede3e1cc34d9b37a1f357f21d",
+      "bytes": 30283
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_core_transport_audit.py": {
+      "sha256": "fbe810c9b19a2bc56b8e91391f79debd314bf56b1deec11c59a4489eb85c03c9",
+      "bytes": 23152
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange.py": {
+      "sha256": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
+      "bytes": 51603
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange_audit.py": {
+      "sha256": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a",
+      "bytes": 33343
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_exchange.py": {
+      "sha256": "ed77abc30e6d4b5fa53e558c316e7479f91cbf674c2686e8ff69908b57e101e5",
+      "bytes": 20231
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_exchange_audit.py": {
+      "sha256": "60a3bd66a1e0636c0796a102b900aa04099f5341008a9262e0f31b1090088b14",
+      "bytes": 25788
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_steps.py": {
+      "sha256": "a3434d12c7feff5ca5059c5e06ade14ccf1d6a427284fe5648b6b3122bf19824",
+      "bytes": 32180
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_steps_audit.py": {
+      "sha256": "63789b68f5e6b23d4e9dd30541e01e3dee56d86044ad6cf50c746dc98872c091",
+      "bytes": 32859
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_inherited_scale_audit.py": {
+      "sha256": "27ba43865b0245e6bc99ca2914c27dafc5e209f5774249c3ce1da09a7479b2e6",
+      "bytes": 36392
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_mixed_grid_steps.py": {
+      "sha256": "8a91bd1799c0404e740a56bff61d595e5ea93a622bd79d254a1a3a1b5e3064bd",
+      "bytes": 34190
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_mixed_grid_steps_audit.py": {
+      "sha256": "5e7450dfd8f5357b848589fb50d25533b786032cebc4d127495536b1a4395d0f",
+      "bytes": 38082
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_psd.py": {
+      "sha256": "146f12fb56ac1a0b18a4d35ede1c171d68e72f7ae778e49fdff0b9bd1f9561bc",
+      "bytes": 12333
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_arc_audit.py": {
+      "sha256": "68ffa2e2ca361ec67f8e94bd850deab619cc52f5186b55f9b75ace125595d258",
+      "bytes": 37466
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_arc_steps.py": {
+      "sha256": "44f8e11070d694cb506e42a1dfb7e04ffad880775c2d7cf922cd9c82358a765c",
+      "bytes": 29207
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_metric_reserve.py": {
+      "sha256": "9158fea8d1c47f57d5bd55e5654613ec19813d63c1f6367961b8fb6df985a95f",
+      "bytes": 30741
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_metric_reserve_audit.py": {
+      "sha256": "2cbf0f663cb7b4af52baba4835cd036586ffbe1567ff9b366a25d8a81d0ccca4",
+      "bytes": 37914
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_steps.py": {
+      "sha256": "3bc2df4ec3b69632c31f05e81b14a4e96330bd48623e5ad70944656653b8e9e2",
+      "bytes": 38107
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_steps_audit.py": {
+      "sha256": "cd01144dec2a15872a53b3fce058a3461e8b5298c905b1ba319d041dc9fd146c",
+      "bytes": 39194
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_target_ladder.py": {
+      "sha256": "02bb1effe5b5bc4d13e058e74a8ee20616832cf472118a3cd51565a4b5a1f1a3",
+      "bytes": 29346
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_target_ladder_audit.py": {
+      "sha256": "6dde89c74ba8b5ec61ca0b8add4e7fc83a7eb59815fba557de81dc3cd03fb9ca",
+      "bytes": 42946
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_body_subspace.py": {
+      "sha256": "09f91a1d53c807ff58bb8862c7e7765cb21d09ca93bc0ccfc100f19ef446d022",
+      "bytes": 39573
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_bounded_height.py": {
+      "sha256": "deac1dbb3410fc426bd1cbb84c126062a5ff61e2aa19c6fcdf1bbd9d0727b612",
+      "bytes": 16235
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_paired_repair.py": {
+      "sha256": "8f09d96a4377175e0242a37f1450960f0914e28a787699565d437058e7625ac1",
+      "bytes": 24406
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_paired_repair_audit.py": {
+      "sha256": "7c2329f432d00b4962527ab99f94742338581948ed2e346e364fc591ea9464b3",
+      "bytes": 19497
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_short_bounded_audit.py": {
+      "sha256": "c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9",
+      "bytes": 43427
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_single_q.py": {
+      "sha256": "b0744e42b00854b85ac6828afc4520c0505b5d4800c47ab4d8bb96c84d04e286",
+      "bytes": 20272
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_tail_blocks.py": {
+      "sha256": "796d6498de093d2a8ccc4090c3b9ff67205f8e652b93ad7427b37b96b08b6bf1",
+      "bytes": 21052
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_tail_height_blocks.py": {
+      "sha256": "6aa3e08be5504b11d2fe14b07ee812b37ae064dd7033ec96673f027b6877d6b1",
+      "bytes": 27974
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_five_height_field.py": {
+      "sha256": "549e61db392f318260d636d41a090bd56e8c96b2eab580075707b5e25a24f656",
+      "bytes": 15725
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_fixed_height_primitive.py": {
+      "sha256": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780",
+      "bytes": 14733
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_fixed_height_primitive_audit.py": {
+      "sha256": "824f0cda6ba87132bb2063d836f1b5d4504818899fc0b88060e4e3e854514e41",
+      "bytes": 16402
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height159_fine_capacity.py": {
+      "sha256": "b1e37f22e46845bea2d4ed44a61ae5ca0a1940b3f60285c339eaaf6a7d80b6bd",
+      "bytes": 15150
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_affine_gate.py": {
+      "sha256": "c55fe53cc8f5ebaae10480cf759dc5e228316e80bfab13bef3d01d5c51e37e0c",
+      "bytes": 35533
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_feasible_initializer.py": {
+      "sha256": "fa379eb61996dfd0646e8ce99f5de88f51c105f13d1e5bea8cba0906525ed6a2",
+      "bytes": 15379
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_joint_resume.py": {
+      "sha256": "54ae55525da9dcf1471fa9fff3caf13d159e6b33c86d25468a92cf9afb63d6ae",
+      "bytes": 35587
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_null_coordinates.py": {
+      "sha256": "5ebfde0a3322bd119704fda517b2f15db48964fad7a3a344b1e863ec4c2f2f22",
+      "bytes": 23303
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_null_gate.py": {
+      "sha256": "2b79490f44ab4bfc3d70324850c5b71949a5a7dfaf4a9f0948d52394f0be734b",
+      "bytes": 9623
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_polytope.py": {
+      "sha256": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
+      "bytes": 17617
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_polytope_audit.py": {
+      "sha256": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502",
+      "bytes": 28426
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_quartic.py": {
+      "sha256": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f",
+      "bytes": 26217
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_height_quartic_joint_audit.py": {
+      "sha256": "d2fc289a80e51a94b6481ddd06c3d649caac06c34227d77600f462dbb478ed15",
+      "bytes": 31652
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_independent_height.py": {
+      "sha256": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
+      "bytes": 27261
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_independent_height_solve.py": {
+      "sha256": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f",
+      "bytes": 29552
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_joint_height_objective.py": {
+      "sha256": "c1a92c46590783fcda8867a5304ab3fcc3c670ad58fce0f079737512f9af69fb",
+      "bytes": 15961
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_localized_core_entry_audit.py": {
+      "sha256": "62f2b3ec87babd7eb36354f79ea08c379f44ca2fe6bee5c45c48743a9dcd7052",
+      "bytes": 17557
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_localized_core_entry_repair.py": {
+      "sha256": "25ae74fb4778c316eb17ee6028d0ea67533060844900501d2f5b8d00289b9a71",
+      "bytes": 25122
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_localized_core_initializer.py": {
+      "sha256": "b6ae29f96c5e4459819bbd2894e2c5b409bf26bfaa4fc7be1c3c9733af2db7d4",
+      "bytes": 34301
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_affine_spectral_development.py": {
+      "sha256": "024d2d6e5ff2e537acf3d661931cba0d3380a89baeee19f8aee69ec0b0775482",
+      "bytes": 18962
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_affine_spectral_model.py": {
+      "sha256": "da7fd80070f428de904ea018098a59d811a90d9d54d5ca67a8ed3d3a0b6403a8",
+      "bytes": 30704
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_recovery.py": {
+      "sha256": "ba3e2becec3ad750ef8818711d8034003f3077877d39115925c308d123dec9ff",
+      "bytes": 56399
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_recovery_audit.py": {
+      "sha256": "a7993b1ccdd600bac60215c97b170cd15e66ac3b1b33c04f6c382111fd86b699",
+      "bytes": 39256
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_restoration_rows.py": {
+      "sha256": "eff06d6c2136b8b13fa86afe915352ee54e5aaae2c4c80551a08355cea2e1d4f",
+      "bytes": 21086
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_body103.py": {
+      "sha256": "7054eaa6466f5f5b8bdc8f595bbdd2b1747b2063908cfaecd506d74084a08fd3",
+      "bytes": 70757
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_body103_audit.py": {
+      "sha256": "90a03cea625d73822183019df269c1bd8713a9c66aacb4adf54644719939413c",
+      "bytes": 63755
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail154.py": {
+      "sha256": "650b4b0d65bda69be6ee672e79054466bdaeb7bdebdf830e4b9449c78a6a7c22",
+      "bytes": 65671
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail154_audit.py": {
+      "sha256": "5d10b3b3ecc33c5dd97b7417705e02697710bde0ec51d64ff9ee0edb907e0345",
+      "bytes": 69866
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail_height159.py": {
+      "sha256": "670c9314558441fb15fd572e5f853475aced4d1bdbbe8fa7f67024609b8ab86a",
+      "bytes": 64733
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail_height159_audit.py": {
+      "sha256": "ff0b8cfb3f8052d77dba7153abe8f1151a371469c5fba589a0e2c2f82e8a265b",
+      "bytes": 88201
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph.py": {
+      "sha256": "6f1cd9e3f987f3c3209e6fdee6a24b72d83146a3ea5f522656b22e61cb241d03",
+      "bytes": 31449
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph_audit.py": {
+      "sha256": "5923221ec495b08f3be491a709eeab740394c04f6c8e4a602e1d512bd4e1b3c9",
+      "bytes": 30259
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph_dense.py": {
+      "sha256": "7a62290ec82a7a1499fcfd5a029cf0b4a33e044af2f74f80f478fe12aab38b9e",
+      "bytes": 19080
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph_dense_audit.py": {
+      "sha256": "c0fe3a6c085681c8608b1e9a00733891575600d98fb1855c52ea3e6dcd0b573d",
+      "bytes": 24477
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph_exchange.py": {
+      "sha256": "3ae3a42d83e3c1c11830d18a0868d0247655792a2415468cd4fae675dda36beb",
+      "bytes": 32946
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph_exchange_audit.py": {
+      "sha256": "7ab5fe1580835eb6c0a2a3af25768ad042b6e7e45a1a6a6da9dc7e45891613d2",
+      "bytes": 27279
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_epigraph_trial_audit.py": {
+      "sha256": "47f02c5a8d1e9084b2abec50751e6346112f91ce5bca55391d659b266d204e53",
+      "bytes": 24496
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_affine_spectral.py": {
+      "sha256": "5506a1696290869f1d0d7a2ef914663c09435d5d6f17b75c94ddb6cea8aae86d",
+      "bytes": 38294
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_affine_spectral_audit.py": {
+      "sha256": "a62c20944a66a04679a5ae4a156e2e64b4e9331d976125a3f23a1a2356a2df4c",
+      "bytes": 70899
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_capacity_soc_hold_audit.py": {
+      "sha256": "82a3b0f221f16a746e92d63208ad95a6a11374176c4c23e40d7f4315c83895f4",
+      "bytes": 39714
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine.py": {
+      "sha256": "4b64858cec01566e17c2530c8b95c5855d57820454c13dde3cc5aec215217346",
+      "bytes": 13853
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_complete_affine_audit.py": {
+      "sha256": "df2987eaed54d50d2c56efe2c44eddf15f1c8e68d9c9f132f844d8e7b02d095c",
+      "bytes": 73907
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows.py": {
+      "sha256": "b6c9fff497c0f22c5a12546c47349cc0274ed493f895547fc5c65cf99ba3d403",
+      "bytes": 13777
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows_audit.py": {
+      "sha256": "65b3dbb4318d6809a6cdfc053171c48f8f74a27b265586853c2858e8d63a4bb6",
+      "bytes": 73477
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_soc_hold.py": {
+      "sha256": "c6fb9d46840c64f9b6a43146ebbece8928e78f9efe609a624cf8ee4cc1da47de",
+      "bytes": 51237
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_soc_hold_audit.py": {
+      "sha256": "172567136e6cfd9373cdd41556555a3cb92938dc2ee8c6e238f42dcb13ab927e",
+      "bytes": 89178
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_adaptive.py": {
+      "sha256": "c2b914de12701b3f989d7ab77a41cad51a10b036f071447debf02d624f98a582",
+      "bytes": 26345
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_adaptive_audit.py": {
+      "sha256": "59618000d7a26cf308e903f8a02f3101ff774f54359c45d9f0ae8052fc13f3a5",
+      "bytes": 47218
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_curvature_reserve.py": {
+      "sha256": "ff0cf08e4ff3f0184461aab1e7f618ec182cdfc57107fe5bc2ae0824e2c18014",
+      "bytes": 33838
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_curvature_reserve_audit.py": {
+      "sha256": "c3bc10bc8f7abbcabd1a3216fd421f143654b9e84160cee9c79d38797c790c14",
+      "bytes": 43388
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_physical_penalty.py": {
+      "sha256": "9fbfdcc1c634a0a14ca3f3d88276998877724ee62825463ee9b356cbb6b3348d",
+      "bytes": 26686
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_physical_penalty_audit.py": {
+      "sha256": "c04c99a7da0382b536e23eba0f0a31c828b6c294aa87dbf9433df31f57d77090",
+      "bytes": 41728
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_recovery.py": {
+      "sha256": "27fcdbc71a6d9d07e0cba962067e61d7f8439ef06d47cdbdf9c669ce1ea2c428",
+      "bytes": 20603
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_recovery_audit.py": {
+      "sha256": "f9fc1f820a98b7803c73336eb5eb39a200f024ba13a26f2f8bb06aef0cd95b33",
+      "bytes": 42766
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_soc_scaling.py": {
+      "sha256": "6e3ef11a7ee232436d609573de970a55be58858dac9364323383c37313a44958",
+      "bytes": 41414
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_soc_scaling_audit.py": {
+      "sha256": "d09cd8b4e435d252aaa56b0a14f13dce69b6904597b8c4e4c75753d1fe670966",
+      "bytes": 65446
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve.py": {
+      "sha256": "0d653e66947b95efe56e518e8bf4705076bc9ef687e5a596a1884b8367d22ae3",
+      "bytes": 43552
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve_audit.py": {
+      "sha256": "4347bdc3afc2504b2a6546d41176e0e3a9e340533ee1eee16ff831257e149e38",
+      "bytes": 50358
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth.py": {
+      "sha256": "19394bea4779c4497851c169a15dddad5839469067d550f64bef7af3bb88dcc6",
+      "bytes": 31205
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth_audit.py": {
+      "sha256": "801f1c3038d54dec422e9d8e3bb1162105fc560374debb5bf83a8b38083be3e6",
+      "bytes": 45018
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_published_height_rows.py": {
+      "sha256": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
+      "bytes": 14837
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_second_order_correction_scaling.py": {
+      "sha256": "3b74cc8cc840aaece3aaf4c188728fffff4a7409289d65d1aba6aeb9e70ef98f",
+      "bytes": 17190
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_selected_row_metric_observables.py": {
+      "sha256": "83ec95f6a48a01e0da7cb034a4c7615864f6e896ca088e99dcd17168de1a0754",
+      "bytes": 13157
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_selected_row_radial_jacobian.py": {
+      "sha256": "e487cdfe3e508e572850217230ebd406736d360fd7e9d8e33b60ad50ba3e2632",
+      "bytes": 27752
+    },
+    "topics/visible-flex-new-mechanism/scripts/frame_selected_row_radial_jacobian_development.py": {
+      "sha256": "46aeefbbd7549150d8d03018b0038ec4389a7392a9efc2d7f25299c7575c8d39",
+      "bytes": 19243
+    },
+    "topics/visible-flex-new-mechanism/scripts/inward_collar_search.py": {
+      "sha256": "28cfe2536ffb9fbb1395d62e26536dd3fe2f5fab4d346f3e6fc549c30a779c08",
+      "bytes": 17686
+    },
+    "topics/visible-flex-new-mechanism/scripts/inward_gc4_collar_search.py": {
+      "sha256": "88b3d2703d7d81955583177c06f2ad7b9fbf0a3217dc24e1a350c0bdba139ae0",
+      "bytes": 14545
+    },
+    "topics/visible-flex-new-mechanism/scripts/inward_reference_geometry.py": {
+      "sha256": "fbe499e5b73a4c4b2df66a36f51069b26e8b64009d5ddb4f65ec69de072961f4",
+      "bytes": 6295
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_D0_phase_certificate.py": {
+      "sha256": "a915668c32fa5a68d33923c46ed6ed9af1b4fb512df7ed1bc8250be799c00233",
+      "bytes": 4890
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_D0_phase_shoot.py": {
+      "sha256": "d07305b12ae91644d05e3e33b59a62757092c92ad44d56b44ffb8e9b7613e3fc",
+      "bytes": 18643
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_D0_pivot_residual_probe.py": {
+      "sha256": "e6a4c15bfe95c587c4cde0cae26b33cf0bf4f54f0ea7b9cfb5c83026c98afbcd",
+      "bytes": 32755
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": {
+      "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5",
+      "bytes": 26885
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_G_second_translation.py": {
+      "sha256": "3c37aeae4b39ecf68932a069878b41d890afbe2fd4ee9d8675195edc4e5d6bc1",
+      "bytes": 24396
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": {
+      "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+      "bytes": 39670
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_J6_balanced_original_difference.py": {
+      "sha256": "5994a0837aa7e9a4657de09b085b93b6b23ca0ba8fbe809b2914dec2264e1022",
+      "bytes": 31517
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_J6_implicit43_original_separation.py": {
+      "sha256": "ae375c1aadf18538638c77e5224c3b0aec5e16e63daf0cd44d366bda22ae9bc8",
+      "bytes": 49848
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": {
+      "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
+      "bytes": 47656
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_geometry_scan.py": {
+      "sha256": "aa08eaedff3f1f5d49f87b25c34b7c6e7db8f20393ccb70d45ef3a31cad9d0f4",
+      "bytes": 7842
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_kernel.py": {
+      "sha256": "a624a860b413c24399ba1decedae8830aa2e91d2dffeb76c232c3dc7c6023bae",
+      "bytes": 20192
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_path_newton.py": {
+      "sha256": "196b05083ef219ee1e17ed4f949705c332281f1a6470b43fbe79085d45515b95",
+      "bytes": 14552
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_second_order.py": {
+      "sha256": "bd8cc10313d873485cda97a06def534ec6ad0e7265202bfd6e4b42baf6d49c73",
+      "bytes": 22026
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_seed.py": {
+      "sha256": "fca423bff76d2a5c28d6406349a4217223c8a18f641e7e6307fddf89e75b05e8",
+      "bytes": 10101
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_base_codesign.py": {
+      "sha256": "f18ce0ce6807027005f25201848d727accfe9c6399dde8d6ddb0ed9d937cf045",
+      "bytes": 9981
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_c7_transverse_tail_probe.py": {
+      "sha256": "98c879d83799e275e145310f5c9fdd9b85a87503d15f1690925d2f648ebc305b",
+      "bytes": 11020
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_literal_relations.py": {
+      "sha256": "80ab553a2dbb35fd4547beaf1b7ad094e831a2cb7f02e4968b867c4654cd9995",
+      "bytes": 58885
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_minus2.py": {
+      "sha256": "fcc41b4d5a640a1ac411e7f6f29622db81c39cb2be37aed7811136418a045f11",
+      "bytes": 58856
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_word_relations.py": {
+      "sha256": "1ec5fab96ec173c3e1583b40a124c5c98b3249cec9a87be39db3b3066e31b300",
+      "bytes": 79108
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_zero.py": {
+      "sha256": "337966b4fb9a417ed62d650cac87ffc4c41bedc9938e11c1520fe1136b53dee4",
+      "bytes": 42361
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_finite_necessary.py": {
+      "sha256": "d4c3751cf58f1ef08c534e61a16d7a40cd368980c0cca0ef48a0bce505ce3545",
+      "bytes": 45116
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_literal_relation_cuts.py": {
+      "sha256": "1861db94d22ffb1a7c4e96319fb9fe18fed9121a0d1edfeb20f83e22290aa4f0",
+      "bytes": 31639
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_raw_positive_candidate.py": {
+      "sha256": "415e1b67f5c52ac60bf4b0fc152e1cf1c21f05b327536920517c46cc1a397d09",
+      "bytes": 29045
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_static_and_parity_cuts.py": {
+      "sha256": "9e7f7d2b9b70b78a3eec17f8c4c2e4cd64caf8d6304247355aaff55c962f41e1",
+      "bytes": 18508
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_static_cut.py": {
+      "sha256": "d5a65482df040627b1a9a13fb8fce3e813f90e8ec196714cb9cf1bd78e97da5d",
+      "bytes": 26313
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_static_positive_candidate.py": {
+      "sha256": "644b2897d142964fea9e6b0a11348d6c1eef9be93af1514e06a4d10ae652fa45",
+      "bytes": 35719
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_zero_endpoint_layer.py": {
+      "sha256": "bb7be8fc3fa6b98f3f69aca96e5145c6df1f3d581ea85d14aa7fb6ccfefe6a94",
+      "bytes": 29604
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_zero_pure_readout.py": {
+      "sha256": "8d99414bda0a9bf61925f74e5378bfe80532fc8d9b9d35d6cc73625f8f15f7d1",
+      "bytes": 29283
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_character_zero_quadratic_endpoint.py": {
+      "sha256": "98e8caae918822b95f8f298ed9397f498b97e0cd5aaa0d1ebcec76b137300f3e",
+      "bytes": 19104
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_closed_branch_design.py": {
+      "sha256": "152471f136784a29518697ca3c4dc517fa9e45e7fb2505b02c0b2f7c77c4d77e",
+      "bytes": 8479
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_closed_c1_endpoint.py": {
+      "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1",
+      "bytes": 21532
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_closed_codesign.py": {
+      "sha256": "bb990d0d968acec00555b6b840c3f6ef9b5171cb49c0d9d1b50fb82588014f15",
+      "bytes": 14404
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py": {
+      "sha256": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9",
+      "bytes": 21642
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py": {
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
+      "bytes": 15738
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_complete_pure_minus4_projection.py": {
+      "sha256": "be5d2ffa861968dddd9db085cfef0ecc06d9c96a6f1ca719905e8544458bc946",
+      "bytes": 43687
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_complete_pure_minus6_projection.py": {
+      "sha256": "c57776cfc75ed437bf3b7f8cbcae45072b295892ecee6c93c6297519eee22c2e",
+      "bytes": 51380
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_constant_h_moment_certificate.py": {
+      "sha256": "58b997fc49d1ffcd496866ccec49ef1f4976048a20fc074d74eea809d6f09563",
+      "bytes": 7147
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": {
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
+      "bytes": 24202
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_m8_tail.py": {
+      "sha256": "8b075b222a1c8ea5579645905f9f3c3efc57a1b286a393cdcd597f384db50417",
+      "bytes": 28580
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_derivative_audit.py": {
+      "sha256": "57aa06a652c9a760323639b4dc3801f2a394337dbdf22d38a87181e0a9c0de9a",
+      "bytes": 7778
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_derivative_m8_geometry_ibp.py": {
+      "sha256": "2347633b50858f19e8cb5afa2956dabbcd172b669016f0ac2a390a0e6ee2b46c",
+      "bytes": 21856
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_derivative_m8_tail_quotient.py": {
+      "sha256": "5c7bb457eec0b68b31b2e7250cf89eb7901660ffac289ccf7854a8c47c198705",
+      "bytes": 29555
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_derivative_packet_full_width_gate.py": {
+      "sha256": "adc5b987861633efcf56c1df5a4de4a076055d64444f05c8302025e654de6795",
+      "bytes": 29108
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_endpoint_first_layer.py": {
+      "sha256": "cf14e26c215bd93feb43dc4b56b8ecdcf9f9013084236e772229404eb9401b69",
+      "bytes": 11829
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_endpoint_preserving_h_controls.py": {
+      "sha256": "a35e9db49324138366acf62fd72e22b35fc72b0aa76ed960328990ff194d479c",
+      "bytes": 14500
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_endpoint_quadratic_principal.py": {
+      "sha256": "01efa75bbb691c802e211ddf08fc3804d657af73d53ce428f51ae8b1ef365215",
+      "bytes": 21175
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_exceptional_port_two_energy_gate.py": {
+      "sha256": "e1b9f37b8ce5af296a8120bd790f852b813c8aef5c3befee74ec195f643c0745",
+      "bytes": 16867
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_fourth_character_transverse_probe.py": {
+      "sha256": "84a8ea232536263af398f781b5647ab540e06e21e9c2a83005d4cee2708451c3",
+      "bytes": 18310
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_fourth_constant_leading_certificate.py": {
+      "sha256": "64690bc72441abe2f3e3ffc39482dd6f611c54e30b84b35abf9e859d386dd772",
+      "bytes": 4088
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_fourth_disjoint_sos_certificate.py": {
+      "sha256": "0479a6c635a3e999b5bf69c3b99fdb5be295c63d13550a4c54ca451660bf414a",
+      "bytes": 3169
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_frozen_profile_fourth_gate.py": {
+      "sha256": "8f0b9f3356197bfe2c0f13a0d0ea470138690b34ec00e7f4eef7d21725ff1d31",
+      "bytes": 9902
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_full_fourth_evaluate.py": {
+      "sha256": "287051f173f4d765d8ac4f14f9c1a72bb02dcaa3248922f8a62521d1ac05bdb4",
+      "bytes": 26412
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": {
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
+      "bytes": 32096
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_full_phase_bridge_exact.py": {
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e",
+      "bytes": 35368
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_full_phase_rational_dual.py": {
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f",
+      "bytes": 19492
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py": {
+      "sha256": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba",
+      "bytes": 10966
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_D0_membership.py": {
+      "sha256": "c296f72becff4366297e3b9f00db97425b1aa5b15c10ba7625932966ae7c8f1f",
+      "bytes": 25604
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_G_identity.py": {
+      "sha256": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7",
+      "bytes": 18430
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J6_membership.py": {
+      "sha256": "48afb00617c5c5251bde7ab2f7782740ff43bf4318cfd78193137c3343c0f745",
+      "bytes": 23040
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_identity.py": {
+      "sha256": "ddacad3474844368e3546f4e4b0f92e71eb276363cd283ad4f300259e8161f63",
+      "bytes": 24639
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_membership.py": {
+      "sha256": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc",
+      "bytes": 37092
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_global_profile_bvp.py": {
+      "sha256": "8f8e71f350b5d5c4854e1a3779d7c9501d55b62e89c50c92d1fa9f5941177d74",
+      "bytes": 22134
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": {
+      "sha256": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
+      "bytes": 31222
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_internal_phase_certificate.py": {
+      "sha256": "2c22820de70f3ba5f75976fa4a8a92b8a96b8ff85521765a17c790eaf8f91848",
+      "bytes": 5010
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_internal_phase_shoot.py": {
+      "sha256": "323bf98b5d82a98f68ff39679c5201232c9a49abed3697122a0fae7e33d12472",
+      "bytes": 20748
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_linear_third_bridge_quotient.py": {
+      "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2",
+      "bytes": 24699
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": {
+      "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
+      "bytes": 22205
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": {
+      "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+      "bytes": 38857
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_local_third_bridge_decompose.py": {
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0",
+      "bytes": 30635
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_multiple_pair_P1_exact.py": {
+      "sha256": "a1fbe334b62cacb01b98fff9e99849e0550694f9d4926afbb2968b184a71dbe5",
+      "bytes": 25017
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_outer_germ_certificate.py": {
+      "sha256": "3fd9c2746299e7c7e3acd5613bec7434b7b43b6d24aefeb4ac0fd821c876fc89",
+      "bytes": 3206
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_overlap_fourth_gate_certificate.py": {
+      "sha256": "e19445c159e59de842d9306f254882c2bab3ee33c39eab0b8395c36854eb408f",
+      "bytes": 3790
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_physical_C_sign.py": {
+      "sha256": "d08ae336309f17b59a9cf2abd0bddd68ef3760f85ec7c473d49ed64e72aa36bf",
+      "bytes": 6321
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_physical_root_ratio_design.py": {
+      "sha256": "6fa9ce44bfe28cbafc1156c7c69227513fb6c5a480899b6b802dcfe27135f37f",
+      "bytes": 18280
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bridge_gamma_certificate.mjs": {
+      "sha256": "7711149edb4ccbd11ec5dd8acad03b81fb56de1c9b48480406a57e4402f8178c",
+      "bytes": 4889
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py": {
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70",
+      "bytes": 33718
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py": {
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
+      "bytes": 32310
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_minus2_archived_projection.py": {
+      "sha256": "debb22d741b40b952c64cbaefc988c5e6cc2acb5882a5c1c667201afad6ab8e7",
+      "bytes": 27076
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_tail_action_compress.py": {
+      "sha256": "f7ed0471d659c95eca183604648057ea2522b0ed1766235b9a9da57c867c52f4",
+      "bytes": 26124
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_tail_c7_reduce.py": {
+      "sha256": "86cd885a8a1f224389f1cd9f4139ba17a8d9bb9bd20a7432572f6e866fb91d17",
+      "bytes": 21545
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_tail_c8_reduce.py": {
+      "sha256": "1f4dfb341ee76e5cb2cbc9ca9b36f0153838572a5e354d1c64bed27ce49bad0d",
+      "bytes": 25296
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_tail_next_reduce.py": {
+      "sha256": "fbbb3ca491f60dd4ae5d6b7b4a80546f4c8f27d5a42a053384152c4db7552b7a",
+      "bytes": 20288
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_tail_period.py": {
+      "sha256": "7cceb79aeffb7f6d0b67e333890e6502c8dd1042041e5edc22a580d5b174f528",
+      "bytes": 26286
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_tail_subleading_verify.py": {
+      "sha256": "f6353909613f8299eab25ab9af32d44843e972d9859d73439aac0e2626f11e04",
+      "bytes": 22215
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_quartic_codesign.py": {
+      "sha256": "b1e2e97753f2d3f1e3bd307399c25f58c5cc6d7b35e242ff75ab6d653df85777",
+      "bytes": 19402
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_range_n_polynomial_engine.py": {
+      "sha256": "4583b8955b7a9cbdf8bfeadaf9d215627ec1a579e2ae4f2bd8667989e57973f2",
+      "bytes": 21222
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_range_numerator_certificate.py": {
+      "sha256": "29a741f3fa8f817abe3ceeecce9b9ab608a51c40bbb98088a2bf8b1bbbd19960",
+      "bytes": 2765
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_range_numeric_engine.py": {
+      "sha256": "3c5e2bb2aca3912b735019ea2af5a4fd266b0671335f3a1f589e15e8b13c2f58",
+      "bytes": 16154
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py": {
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+      "bytes": 33169
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_rational_volterra_polynomial.py": {
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22",
+      "bytes": 19803
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_reciprocal_pure_drift_certificate.py": {
+      "sha256": "3acbac577bf09023d40f281193c2f3a6543a860a7192738054014e5c0da36a5b",
+      "bytes": 4851
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_single_P_instance.py": {
+      "sha256": "93951271bc9207bcf3a2b027f993a41e0ffcde3c380b17112c39554945fd5053",
+      "bytes": 20437
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": {
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
+      "bytes": 16444
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_static_m8_tail_quotient.py": {
+      "sha256": "ea95f138a22b6f81654ebbc73eecee3f3c0042f4ec527f6ff9699e6ac78bb826",
+      "bytes": 30277
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_tau0_response_independent_certificate.mjs": {
+      "sha256": "328b036fd9dc0e9715787113179a0d0d73f526f8fb24c3f98a5906c657f0be18",
+      "bytes": 3569
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_third_diagonal_eight_lifts.py": {
+      "sha256": "075b106b1fb15fbcf1b2460b501ac7309d2fdfdf249e75fdde6078deabaca1a0",
+      "bytes": 26756
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_third_kernel_eight_local_operators.py": {
+      "sha256": "f59143274124c7458571f55313fca00ada93b31ee71d1be2739cbb402bbeb4d3",
+      "bytes": 35645
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_third_ruling_packet_certificate.py": {
+      "sha256": "7828df102994239f724ac28ac97210f879e997781b45374d61f84e5bbfda0f93",
+      "bytes": 4024
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py": {
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa",
+      "bytes": 37293
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self.py": {
+      "sha256": "9347caeb4ff7ed54cc88f6c38183d4773d8e12125a5a9631412674550d42b78f",
+      "bytes": 27626
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_zero_operator_certificate.py": {
+      "sha256": "265673129bee278ffa9c0f3ce70d7d72f4ac6a0de50d746c93f6d741dfc43779",
+      "bytes": 5191
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_zero_operator_instance.py": {
+      "sha256": "f0d25654580e91ec43a2acdb498ed363bb58c5ec424e102b67ecae0d9a448cbe",
+      "bytes": 42459
+    },
+    "topics/visible-flex-new-mechanism/scripts/mixed_mode_gc_flow.py": {
+      "sha256": "5f979125ed130570e49cd4ad1a7375801c5be95be0abd5dbd0d60ebdf4e5e05a",
+      "bytes": 9580
+    },
+    "topics/visible-flex-new-mechanism/scripts/polygonal_flat_tail_port.py": {
+      "sha256": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+      "bytes": 15783
+    },
+    "topics/visible-flex-new-mechanism/scripts/polygonal_tail_heat_extension.py": {
+      "sha256": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+      "bytes": 18537
+    },
+    "topics/visible-flex-new-mechanism/scripts/polygonal_tail_natural_extension.py": {
+      "sha256": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+      "bytes": 14451
+    },
+    "topics/visible-flex-new-mechanism/scripts/polygonal_tail_saturated_heat_extension.py": {
+      "sha256": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
+      "bytes": 8009
+    },
+    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": {
+      "sha256": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41",
+      "bytes": 18082
+    },
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": {
+      "sha256": "3f8fe616eb62c51d6902cb8c698d9e5b768658661b2a2df133dc95aef3012a49",
+      "bytes": 25650
+    },
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": {
+      "sha256": "e0ad2fc3ef4b719675a4d20c040d43de438b4e7243348f1278ed446a797917b6",
+      "bytes": 46415
+    },
+    "topics/visible-flex-new-mechanism/scripts/recover_curvature_actions_artifact.py": {
+      "sha256": "235233f4d33b4d72432710ff0aa597fcfd85caf6ccf69e08ff84ed1eac79b42e",
+      "bytes": 18850
+    },
+    "topics/visible-flex-new-mechanism/scripts/ruled_core_geometry.py": {
+      "sha256": "cc55588ce8a366b47e2c2fd8f87d64749e67cf8f686615ab76be882193e12e42",
+      "bytes": 10592
+    },
+    "topics/visible-flex-new-mechanism/scripts/ruled_core_to_tail_bvp.py": {
+      "sha256": "d4353b17a55df4403f7ddf4c65058a3115c6dab5af20c9fcd31912b5757e49a8",
+      "bytes": 21752
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_cosine_design.py": {
+      "sha256": "b2fb44b815093ada42f5036c41528856f5f51df4042b8dfa1b2523a6b2959173",
+      "bytes": 21070
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_cosine_endpoint_design.py": {
+      "sha256": "7cbb074538b9a7027980dd8b3176a1da91fcf383218998d486e614a6ed39c907",
+      "bytes": 19685
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_cosine_endpoint_feasible.py": {
+      "sha256": "2225b715d92795505f7726c081d2c6f56d45dc0168faed6d38d3d617c2c86cac",
+      "bytes": 24016
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_cosine_verify.py": {
+      "sha256": "0da7e8093c519846a6e60efd030bb21919a35c10b9276b37f403946956ebd563",
+      "bytes": 19430
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_flat_core.py": {
+      "sha256": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+      "bytes": 22162
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_frozen_lift_verify.py": {
+      "sha256": "ac054b97be8c5a6b6f386c055383faaad6b98fb2b72fb05318a6c09c1cbeb9e5",
+      "bytes": 15525
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_frozen_refine.py": {
+      "sha256": "65d30ce47e928c605418e275f253a56664744757699dcedfbbaa2f266665b255",
+      "bytes": 4333
+    },
+    "topics/visible-flex-new-mechanism/scripts/space_star_lift_design.py": {
+      "sha256": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+      "bytes": 22426
+    },
+    "topics/visible-flex-new-mechanism/scripts/star_core_geometry.py": {
+      "sha256": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+      "bytes": 15887
+    },
+    "topics/visible-flex-new-mechanism/scripts/unit_tangent_collar_search.py": {
+      "sha256": "e592038a5956cecac287ea49710d0e7fb5939aa6649c6a43af40458aceb8172b",
+      "bytes": 21158
+    },
+    "topics/visible-flex-new-mechanism/scripts/volterra_polynomial_certificate.py": {
+      "sha256": "2cff5b5967b2436ab5c3a9180d7fb0c7ea7c4287eb15cb1d10b3b731434916cf",
+      "bytes": 2351
+    },
+    "topics/visible-flex-new-mechanism/scripts/warped_core_collar_design.py": {
+      "sha256": "753a2e60fd06d9c3aeec4908a1c3ba5077117749f6c63637ad746cddaf24cd3e",
+      "bytes": 39442
+    },
+    "topics/visible-flex-new-mechanism/scripts/warped_ruled_core.py": {
+      "sha256": "7659c52d327ad7d513813891be49a71d1f8396c0fcf8ed1352028952a7c8dbce",
+      "bytes": 22454
+    },
+    "topics/visible-flex-new-mechanism/scripts/warped_ruled_core_controls.py": {
+      "sha256": "d3f0c05ea09dc34bdef86dbae0a7358926b40f9b5292f028e96583cf0770ebe2",
+      "bytes": 23193
+    },
+    "topics/visible-flex-new-mechanism/scripts/warped_ruled_projection.py": {
+      "sha256": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700",
+      "bytes": 16376
+    },
+    "topics/visible-flex-new-mechanism/scripts/warped_ruled_tube.py": {
+      "sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6",
+      "bytes": 10016
+    },
+    "topics/visible-flex-new-mechanism/computations/request.json": {
+      "sha256": "f14a55459121fa025a7c0c047c030f986eb20a7143f7ddd6b1606a488ba9e802",
+      "bytes": 954
+    }
+  },
+  "outputs": [
+    {
+      "path": "pre-research-private-pull.json",
+      "bytes": 559,
+      "sha256": "9fdd6b87da47900725cc9b98e5b6bdc0c19b9d9351d026a4c40a4ad284b4603d",
+      "raw_bytes": 559,
+      "raw_sha256": "9fdd6b87da47900725cc9b98e5b6bdc0c19b9d9351d026a4c40a4ad284b4603d",
+      "gzip_bytes": 346,
+      "gzip_sha256": "79fcf023c560b8f9943c267ec9480a05ca184fcca4fd4a5e9e6911807574ae30",
+      "gzip_hash_basis": "virtual gzip.GzipFile(filename='',compresslevel=9,mtime=0); never written",
+      "payload_published": false
+    },
+    {
+      "path": "pre-research-pull.json",
+      "bytes": 253,
+      "sha256": "263ee5b9883291ebd5b7c63f8e9429410a292e5fe3822a0c1f1d4ce8606a021f",
+      "raw_bytes": 253,
+      "raw_sha256": "263ee5b9883291ebd5b7c63f8e9429410a292e5fe3822a0c1f1d4ce8606a021f",
+      "gzip_bytes": 182,
+      "gzip_sha256": "16c6dd249a0d707fdbdcbaedb53efa46501d355b15f722231d1b4039fceba4e7",
+      "gzip_hash_basis": "virtual gzip.GzipFile(filename='',compresslevel=9,mtime=0); never written",
+      "payload_published": false
+    },
+    {
+      "path": "weight-zero-complete-self-development.json",
+      "bytes": 9926,
+      "sha256": "7f4727989a54105877c995d3a1a54b59ce13aa6789702f32f6b43dd30e8f9388",
+      "raw_bytes": 9926,
+      "raw_sha256": "7f4727989a54105877c995d3a1a54b59ce13aa6789702f32f6b43dd30e8f9388",
+      "gzip_bytes": 3198,
+      "gzip_sha256": "46a23a47f07cb30584f51a3383fa767d7588ff19c09a09dd88a1e57dd8b2c633",
+      "gzip_hash_basis": "virtual gzip.GzipFile(filename='',compresslevel=9,mtime=0); never written",
+      "payload_published": false
+    },
+    {
+      "path": "weight-zero-complete-self.json",
+      "bytes": 61441,
+      "sha256": "731ffae43cc8f06346801c444a7de010fe2cf6f9f05ecf4b650d319fa2ee06fd",
+      "raw_bytes": 61441,
+      "raw_sha256": "731ffae43cc8f06346801c444a7de010fe2cf6f9f05ecf4b650d319fa2ee06fd",
+      "gzip_bytes": 17777,
+      "gzip_sha256": "4a37088382e8d9e123edf33c96018dd38a7bd9c7561841a53069106c5947cd17",
+      "gzip_hash_basis": "virtual gzip.GzipFile(filename='',compresslevel=9,mtime=0); never written",
+      "payload_published": false
+    }
+  ],
+  "publication_policy": "root-README15-reproducible-outputs-metadata-only",
+  "output_payloads_committed_or_uploaded": false,
+  "release_assets_created": false,
+  "machine_certificates_saved": false,
+  "hash_metadata_is_not_validation_of_mathematical_conclusions": true,
+  "no_outputs_produced": false,
+  "request_source_commit": "ca186db057ed753abe565d0c3c2c8305278b5af7",
+  "requests": {
+    "topics/visible-flex-new-mechanism/computations/request.json": {
+      "sha256": "f14a55459121fa025a7c0c047c030f986eb20a7143f7ddd6b1606a488ba9e802",
+      "bytes": 954
+    },
+    "topics/visible-flex-new-mechanism/computations/request-continuation.json": {
+      "sha256": "15068701ad99510e759211d2700b29edf4d845115c5f911efd27e334ae98d0c9",
+      "bytes": 9071
+    }
+  },
+  "pulls": [
+    {
+      "before": "ca186db057ed753abe565d0c3c2c8305278b5af7",
+      "after": "c818ac3f4c9b1a0ab3c9fc674fa2d6770548e18d",
+      "remote_main": "c818ac3f4c9b1a0ab3c9fc674fa2d6770548e18d",
+      "readmes_unchanged": true,
+      "remote_main_is_ancestor_of_head": true,
+      "no_rebase_in_progress": true
+    }
+  ],
+  "readmes_read_commit": "c818ac3f4c9b1a0ab3c9fc674fa2d6770548e18d"
+}
