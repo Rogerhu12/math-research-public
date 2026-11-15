@@ -390,3 +390,6 @@
 
 
 - [R392. 完整三残差的十参数预测与法向校正](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)：在C²/完整3行满秩条件下，固定全3 affine目标的最小S范数校正给二次偏离估计、小α下投影不活跃且原Armijo可接受；数值有限3×20不保证。独立3bec3b7b helper直接复用原6b55方向，先原W接受、后临时偏离下降，owner不变量保；185实际R395另付。
+
+
+- [R385. 实际181全C/深112与正换帧范数包围未付](results/R385-actual181-complete-C-and-deep112-but-positive-frame-enclosure-unpaid.md)：四必要块齐；m2 52paid/119attempt在row18/piece4/d32正范数重装球后未隔正，非资源或真实零向量，完整33栈/后缀/111模式保。原相关数学下界已在；独立正端点表示修订187续全链。实际读回/静止后raw已清，0cut/unit/DN不冒native成功。

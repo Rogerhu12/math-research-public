@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:27:13 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 62b590a589a70a4fe2020bf8eec86e3881737b4a。
+规则同步记录：2026-11-15 20:27:34 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f6be1e00a513e380695d25b54691c94a9817cf72。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -26,7 +26,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|已终态，exact完整读R372；原37/FD与后置闭段诊断分责|
 |184 R391 exact|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|compute132943014084已启动；真180点→新C/factory→全角112 far→原453|
 |183/185 R390/R395 geometry后继|18343755955047/126c0517；185未派发|R390真末十词已付；128接受1133trial、末W4.923932/F3.296505；185全3校正接真实父|
-|181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|已终态，exact核R385；full C/deep与后续Prüfer未付分责|
+|181/187 R385/R396 exact|18143751399744/9236fcf0；187独立修订在接|R385已刊：C/deep112齐，row18换帧范数重装球未隔正；187保正端点续完整原链|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -46,7 +46,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R394原160完整读回](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)182r3 89269B/35f0397f完整：128α1把norm1.22096e−4降至9.6858247475e−11，replay同；stage8000s仅20/576，stage20..575全部未付地址已读，boundary/endpoint未起。audit576/7488齐但仅C-based有限程序，native/fullDN仍false；原98321B摘要70与stage预算分别保。原末state已清不凭SHA续，amplitude查等价提速、root接完整后继。R388/R393旧超限不回填，182必要读回后清。
 
-[R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)保m2 row17/piece3/depth32下屏障未正、58/110非资源、11pending+[18,14644)/111未起/0cut；必要读回/静止后清，不证准确极点，181续。
+[R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)58/110首下屏障未付、11栈及完整后缀/0cut，非资源/极点；原必要读回后清，完整责任转181/187。
 
 [R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)真十词接183；[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)87144B/57437aa3必要齐：16×8全128接受、1133trial/1005原全3拒/域全过，19×1/128与109×1/256，675.6139s无资源partial；W4.957836→4.923932但第三unit .112950→.296505。120FD/160bit域/原453参考齐、全部非零终门false。完整128行范围/初末十词/S/原门保正文，必要/wait后清；geometry185只接真末点、全3 affine-target校正，实际R395；[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)条件证明与3bec3b7b helper已发；全3目标/同S球/owner不变量保，有限3×20不保证。
 
@@ -56,11 +56,11 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)43753422569/636bbc3060，64284B必要齐：418/420叶全证，前四β各反证，β1/16 coast5nodes/3叶全证；准确419域/全根族齐，九有理词恰好binary64，13未访。原C不重算，完整必要/wait后清；recipe cc87d932/2136、definition f568b816/377615按ba8可重生，184接新C/factory/BVP。
 
-[181完整入口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)保原19pins/C3600/深族112/cut/事务、全角lift/正log/二幂、Taylor正dot及逐候选物理单位Robin，DN独立隔零、不造nativeμ；head14400/25M/256bits/depth32/norm1/4/18900启动clip/360job和读回清理保。184必须接真实farμ的QPi变换，exact唯一负责。
+[R385实际181](results/R385-actual181-complete-C-and-deep112-but-positive-frame-enclosure-unpaid.md)C1440/闭域/deep112齐；m2 52paid/119attempt/.5186s在row18/piece4/d32换帧范数球未正，33stack+[19,14644)/111未起，0cut/unit/DN，非资源/准确零向量。原相关下界已在，失付通道是正端点重装宽Arb球；四读回/静止后真实清理。187保正端点→log/倒数/归一，独立新核接完整184链；原19pins/预算/全族与cut责任保[181接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)。
 
 [连续十族组件](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)72c4635e factory/7dedb713 numeric/a248e957物理薄层及15364B接口已发、完整diff已读：准确R323基底+support1/power4十项、自然L/u、七shape冻453/全十冻450。须真180来源与显式ξ，不造域/J/接受；0/半/1三jet零仅局部采样结论，未来入口保内部实际站/全响应。旧178模型不可换标签；R351/173/R363/R366/R370责任保。
 
-[184完整接口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源+20191B总接口已核：2edb/c961/4d50/0adf/3bb5/4cef、owner2344/pipeline9fee/request867f/wf60ef；原59→74pins。e5ab/ba8按原180真九词/SHA恢复→新C/真factory，不重修旧域或伪造result。R380全角/实际μ、逐候选QPi逆范数归一后hull，原112/338/453/FD/全门及预算不改；namespace18900/sampling实际clip/单90KB必要与条件清理保，exact读R391。初域语义可传，新shadow/J/FD/metric/活动p另付。geometry接185全3校正，amplitude接连续十组件。
+[184完整接口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源/74pins及总接口已核：真180九词按ba8恢复→新C/真factory/e5ab初域语义→全角/实际μ/逐候选QPi归一→原112/338/453/FD。全部原门/namespace18900/实际clip/单90KB与清理保；新shadow/J/metric/活动p另付。当前184不改，exact读R391；187独立修正正端点表示，geometry185/actualR395，amplitude186完整算子提速。
 
 ## 恢复与保存
 

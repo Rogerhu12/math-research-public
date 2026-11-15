@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-R390前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R390.md)，链回184及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
+R385前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R385.md)，链回R390及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -62,9 +62,9 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)原binary输入、浅160校准、正warp/lambda及准确mode2深根族定义不变；全160×9/六primitive/累计原点/闭逆像保。自然Rout不换名义cut，有限48selector、G8/G16或旧partial不代连续C证书。R285/R293/R297/R304/R306和原132/136/139/144资源、积分误差责任保历史检查点。
 
-[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)/[R318实际143](results/R318-actual143-complete112-deep-far-enclosure.md)F159/物理node160全112统一深端Robin含所有允许根族；有限头继续同R*、w、q、D及全cut逆像。非除Robin与h严格隔零后的DN分开，不重标旧e788/J，不支付means、无限频R15或非线性。
+[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)/[R318](results/R318-actual143-complete112-deep-far-enclosure.md)原F159/node160/全112偶频深族与同R*/w/q/D、全部cut逆像持续保；非除Robin与高度隔零后的DN分责，不支付means、无限频R15或非线性。
 
-[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)保j=w·k、x坐标/port/二幂及完整Taylor+Duhamel。[R327实际148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)仅1432/1440、0cut；[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)C/deep齐，whole2609合法粗叶欠精度，m2/4/6/8全cut却高度含0，m10的391panel后200000attempt止、非墙钟。全4栈/row74..14643/余模态后缀保结果；不证共振。
+[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)保完整flux/Taylor/Duhamel；[R327](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)1432/1440、[R339](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)C/deep齐但m10预算止等全部原未付后缀保结果/检查点，已成cut的高度含0不证共振。
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)保存Z=a·diag(1,2^b)v，原QF=1幅因子/符号/log全保；完整继承盒参与矩阵误差，只在整个端点分量隔零时换chart，两个盒含0只能细分/partial。cut每候选保原闭管/非零幅度，严格T0隔零才形成2^bT1/(wT0)，各自合法商后hull；未付保有索引非除Robin族，不混不同尺度原列，端点pivot不付闭管高度。
 
@@ -74,7 +74,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)已证同一原C的完整实角lift：φ′=βcos²φ−αsin²φ与两自治barrier全局存在；完整圈数/正log幅度/二幂换帧保原列。物理单位Robin由相关sin²+cos²范数下界取得，不要求单分量共同隔零；原QPi行须完整T/逆范数界。DN仍每一完整cut候选高度隔零后才可除。小段角增量的正内积界与完整指数余项给可实现核，但不保固定bits/预算/宽度改善；未访族/后缀/事务全保，不推177/179失败或native成功，也不加前门。
 
-[181完整执行接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)五件250474d7/e020b7e9/dc8647bb/9d2c9af8、19pin，原177三输入/C与far参数及41原函数保。实角/正幅度/换帧/相关非零范数实现R380，全112/cut/事务/未访保。C3600/head14400/25M/256bits/depth32/360job、norm1/4正dot小增量；Taylor矩阵误差作用全初列。物理(u,k)单位Robin逐候选归一再hull，DN仍高度隔零；无nativeμ，不冒QPi/338/mean/非线性接受。namespace18900仅startup clip，四读回/current marker/owner静止后清；单90KB完整112状态/原端点/stack/suffix/错误，超限不分包不清。exact唯一核R385。
+[R385真实181](results/R385-actual181-complete-C-and-deep112-but-positive-frame-enclosure-unpaid.md)43751399744/9236fcf0四必要块齐：C1440与两完整闭域/cut/deep112全返，whole-domain2859工作宽未决不冒域失败。m2 52paid/119attempt/.518618279s在row18/piece4/[0,2^-32]/d32正换帧范数未隔正，33stack+[19,14644)/111模式未起、0cut/unit/DN。原同角min(1,c²)界已在；known_range端点交集重新成Arb球可能丢严格正显示，不能捏造未导出的c或准确零向量。四必要读回/marker/静止后真实清理。[181原接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)19pins/全族/预算/cut事务保；187/R396正在独立保正端点→单点log/sqrt/倒数，再包围乘法，接完整184真实180→新C/factory/far→原453链，不改当前184或增加门。
 
 ### 3B. 准确九族与完整公共u目标误差
 
