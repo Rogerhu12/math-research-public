@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [宽正collar三角halftrace与独立窄高域](results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md)：单次迹用完整[.85,.95]三角cutoff，κχ=20；PE普通能量在宽域，MA的H8193只在同一state/同cut窄域消费。新增wide mean字段限制与NR/MC宽源正向重组不重旧H/target，仍需真实finite cut和左右body；没有扩大任何已付factorial域。
+
 - [真实第一局部残差的直接混合jet公式与新消费者合同](results/R133-supplement-direct-genuine-first-local-residual-from-negative-mixed-jets.md)：W已合并signed genuine w1V保持；DG/RV14低导只读，仅补10个negative mixed/正宽预算及角4转换。leading E先投正确第一行，直接展开完整D²/物理8项；原C正算法lower与六行真实dr只读，成功后只替DG raw1。尚无新actual数字，不授完整return/GH。
 
 - [固定高投影主部的正 collar 能量与三带迹收尖](results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md)：真实a,d与正交H_J使drift交叉项在投影空间准确消；高自项不再另收4Jd+D1，仍保径恢复、真实dφp、middle→far腿、mean/rank及两cutoff。PE9/12/14–15可正向重组完整界，旧NR成功数值不改；实际未知cut/body/残差与核心存在仍未付。

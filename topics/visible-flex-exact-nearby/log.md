@@ -335,3 +335,11 @@ root全文639行SCI+worker相对成功DG完整差异+全manifest/flow已核；ne
 26pins/804767B，单4501B自然fold只临时恢复，23当前角色和其余旧process/publication保持SHA；所有与DG共享pins逐键零差。worker保原容量/owned delta/preGit59KB/实际23门与完整counter/900s child/540s真pull/README及无限非FF；成功同身份复用不重算。实际AST与新数字仅公开Actions。本机静态delimiter过，不冒AST。
 
 亲读Green13:55:08.635256 actual process846b6565beadcfd81780e6436412dd25a14aab04 /43961B/SHA25b10d641a76c0b9645f24ccf161a6fabcceae42df836f022802c12be4c6d971：future4144=1886旧+2258新、past1664/product2624/groups0、未终；signed W log2upper−103、旧scalar2997仅诊断。真pull13:55:07.312405→dbbfe1bc71c1e81ec56ef31c993949026aa79faf，两README空diff；topic199242343B，每新consumer重新核≤200MB。继续SV/宽低窗/完整Green与strong-return/core；未达总验收。
+
+### 2026-11-15 14:02:22 UTC — WC宽低能量与同cut窄高域独立消费
+
+亲读main b2dacea985a0eec5f7d16193d4ecd826efbd6d7e，两README无变。新证明c6f79d39bccdc7c1921b602654b9ad5fde36f167 /14163B/SHA8649c72ae517760a1599bd938b31809b2cf95d6c4afef8966f5501406c5d16a3；root全文核、phase核三角弱导/全域源与mean修正。χ单次halftrace只需cut=1/两端0，无需plateau；宽I两半长1/20使κ20，χ一阶弱导无Dirac，c处a/u连续使配对抵消。PE的cp/cr/mean/rank/1152d middle腿均保。MA只在同cut读窄H8193，宽C0/H1与窄ρ假设独立，不重旧91/15case或冒新高域。
+
+root亲取原mean helper c4df5ed00ffa55bd2f94ecbc3c5752aad99bd5a0 /5482B/SHA b8e78adda5b029572597e0875ed871da5f03b51951e22e6860fb722b33e1bf51全文：mean=s+alpha V0，完整mean.error后mgap=−max(hi)，强制正，mean_absolute_gap输出不再α缩放；原rawrow producer ceb34c84cf885a8a2c1d10fb8e42125b45376019 /12188B/98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e的131–143行直接保存该完整dict。旧summary7c43eeed的exact_centre_repair_bounds.mean=5.84178295612381087688e−21<5.842e−21亦亲读；canonical Z全pair<19只作mean上界。原7296native6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1仅新mean窗口读，不再算原residual。
+
+WC19分别扣mean修补/19d/未知ρ；WC21仅真f=0可免mean-speed residual，近似态需另付。宽known源直接读NR nonmean/MC独立mean，pointwise T2/T3×p√(.1)而非缩旧窄积分。拟六宽普通系数表，原五窄高授权只读不扩大，未知cL/两半body/真正右帽基点差仍保。总core/Green/strong-return/ν未闭，持续。
