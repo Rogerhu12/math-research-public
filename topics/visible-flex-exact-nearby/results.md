@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [finite193反馈合同新增shape/mean整界](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)：F1–13原文保持，§7消费真实cut43715426316的六量及完整mean/repair；只有完整row/cap两scalar取min，κ0与κ1/5、三窗四列、三门和失败分支保持。最终Green未出，尚无actual反馈结论。
+
 - [完整cut shape/mean实际标量](results/R133-supplement-actual-selected-cut-shape-mean-and-component-bounds.md)：43715426316/1 child0/9门、0旧数学；193真实槽/base32 signed shape和连续repair给六CS量。原J18充分低门false及负余量完整保，不冒实际γ下界或未知correction。
 
 - [Actual collar：15个完整高阶迹门通过、低入口仍开放](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)：43714674603/1 child0/12身份门，完整91候选有15通过；最大已成C0球半径2^-20。另有同双侧真H1解时，原中心cut H8193差<2^377904；全部低γ充分门未过，0旧数学重算。

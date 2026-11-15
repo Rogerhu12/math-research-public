@@ -169,3 +169,76 @@ All new arithmetic uses directed Arb on the public runner with exact rational pa
 A successful child means that every input and scalar evaluation completed, not that (F.8) passed. Retain a false verdict as a complete result; do not retry identical mathematics automatically.
 
 The flags complete_infinite_BVP_inverse_proved, true_parameter_Schur_proved, nonlinear_core_constructed and physical_inner_trace_domain_proved always remain false. Even a passed actual-cap case is a finite193 theorem under the cap-domain hypotheses. The high return, finite/phase borders, actual nonlinear matching, gamma radius and high physical trace gates retain their independent obligations.
+
+## 7. Shape and mean refinement before the first scalar execution
+
+Sections 1--6 remain the complete feedback and source contract. This extension changes only the two scalar constants used in (F.6). Its primary statement is [the shape and mean resolved row comparison](../results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md), CS.10--CS.29, SHA256
+06ec6f0a405e89b456342b1a2260c9fae18de192733fae1c35c913a037373892.
+
+The additional completed public computation is cut run 43715426316/1, source
+745fc480b101dbd7ca035c11826d2d0208c4d2db3568e0bbb4214fa401ddbb19,
+worker
+c7c83418a890245f224a04e7dc41dadaa80eee7223c00c7a1f1c458eda3eecce,
+manifest
+95541c2e2bd7cd7547d13319fdacdaf3a0d8ba1eb1ac675fd4d68480b6994b57.
+Its actual process and scientific conclusion are separate original small records, with hashes
+82b7c37637c9ebec074ae7647595200c2cd790cf19728ef0e4d93a8452e59812 and
+5d74a0f24afe7d490cd17f04f0c0ea5efb671fd277ced502269f4d94c748a413.
+The child returned zero and its nine new gates passed. Thus the final feedback consumer reads five original small records: the Green process and conclusion, the D scalar execution, and the cut process and conclusion. No native cut coefficients or other arrays are read again.
+
+Let $(\xi,\zeta)$ be the same complete continuous response at $L$ and $\mu=\langle\zeta\rangle$. The new cut conclusion stores complete bounds for
+$$
+ \|\xi\|_{A^0},\quad\|\xi_\phi\|_{A^0},\quad
+ \|\zeta\|_{A^0},\quad\|\zeta_\phi\|_{A^0},\quad|\mu|,\quad
+ \|\zeta-j_0\mu\|_{A^0},\quad
+ \|(\zeta-j_0\mu)_\phi\|_{A^0}.
+ \tag{F.14}
+$$
+Each includes the original continuous response repair and its true mean. They are physical moving amplitudes, with no additional alpha factor. Multiply these bounds by $d$ once. The shape has exact zero mean, so its complete $A^0$ bound can also be replaced by one quarter of its complete angular-derivative bound. This is the physical frequency $4j$ primitive inequality, not an assumption that an unknown transformed input has finite Fourier support.
+
+Use the resulting bounds as $U_0,U_1,V_0,V_1,M,S_0$ in CS.3. The old full pair bounds also give independent complete bounds $E_0$ for each zeroth component and its mean, and $E_1$ for each first angular derivative. It is valid to take the smaller of these independently proved bounds for the same scalar quantity. Check the CS neighbourhood $U_0+V_0\le10^{-6}$ and $U_1+V_1\le10^{-6}$.
+
+For clarity the exact new scalar formula is
+$$
+ T=S_0/12,\quad P=8T/7,\quad
+ L_S=9M/8+2592P,\quad
+ D_C=M/27+2V_0/9+2V_1/9+2T,
+$$
+$$
+ q_0=8(M+V_0)/189+M/504+2D_C/21+T/84,\qquad q_1=8T/63,
+$$
+$$
+ D_0^\#=U_0/3+7V_0/9,\qquad
+ D_1^\#=U_1/3+U_0/9+32V_0/27+7V_1/9,
+$$
+$$
+ \epsilon_{\rm shape}
+ =D_0^\#+D_1^\#/3+3T+2M/27+8L_S/3+108q_0+65536q_1 .
+ \tag{F.15}
+$$
+The constants $108$ and $65536$ apply to the complete old adjoint operator and its one angular derivative respectively. The formula is a full even $L^2$ input to 97-row operator bound, including the mean and arbitrary unknown high input.
+
+For the separate physical cap perturbation multiplier use CS.28:
+$$
+ \begin{split}
+ j_{\rm sh}&=1.015211829+S_0/3,\qquad m_{\rm sh}=5.8639401366+M,\\
+ C_{\rm sh}&=.318181201+V_0/9+T/32,\qquad
+ C_{1,\rm sh}=.020269146+D_C,\\
+ s_{\rm sh}&=m_{\rm sh}\sqrt{j_{\rm sh}},\\
+ c_{\rm sh}&=\sqrt{j_{\rm sh}}\bigl(C_{\rm sh}^2+C_{1,\rm sh}C_{\rm sh}/4\bigr).
+ \end{split}
+ \tag{F.16}
+$$
+The four $U,V$ bounds may be complete Wiener bounds even though CS needs only pointwise bounds; $S_0$ is a complete Wiener bound. No converse pointwise-to-Wiener inference is used.
+
+Let the two complete constants actually consumed be
+$$
+ \epsilon_*=\min(\epsilon_{\rm coord},\epsilon_{\rm shape}),\qquad
+ b_*=\min\bigl(\max(s_+,1)c_+,\ \max(s_{\rm sh},1)c_{\rm sh}\bigr).
+ \tag{F.17}
+$$
+Replace only (F.6) by $\epsilon(\kappa)=\epsilon_*+b_*\kappa$ and use the unchanged (F.7)--(F.13). Each minimum combines two complete bounds for exactly the same operator. No entries of a matrix, signed covariance or old Gram are combined by a minimum. The $\kappa=0$ and $\kappa=1/5$ cases still remain separate whole comparisons with their original hypotheses.
+
+The selected cut computation's optional low-gamma comparison is independent of (F.14)--(F.17). Its sufficient gate did not pass with the recorded upper bounds; the feedback consumer neither assumes that gate nor claims the actual gamma violates it. All unknown physical trace-domain obligations remain.
+
+The extended consumer has 15 input/evaluation gates. Neither the nine cut gates nor a completed evaluation of (F.15) grants any Green completion or any strict feedback inequality. The final Green scientific hashes must still be frozen only after its actual full result exists.

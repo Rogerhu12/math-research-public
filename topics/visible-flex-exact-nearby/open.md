@@ -66,7 +66,8 @@ mean/unknown high与signed m保，无sqrt97；actual K*差另加max(sδ,1)cδ/5�
 whole/negative/cut输出、fullmean及未知high边界列独立保。实际e/gY/pY及三门仍须消费。
 [F实际finite193反馈合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)
 锁真实g/p与已成signed a/c四列，κ0和κ1/5分开，三个det门后才给三窗四列；普通源输入始终whole core。
-失败充分门完整记录不证明奇异，不原样重跑；新增ν volume仅独立列，不能当完整ν响应。最终Green齐后才冻结两小receipt运行。
+合同29a24167新§7只将CS全shape/mean行费与完整cap乘子分别取两个整界的min；原F1–13逐字保，没有拼Gram/矩阵entry。最终Green process+summary、Dexecution、cut process+summary共5真小件齐才冻结输入。
+失败充分门完整记录不证明奇异，不原样重跑；新增ν volume仅独立列，不能当完整ν响应。
 [D scalar消费契约](notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md)和
 [actual43713242980/1](results/R133-supplement-actual-selected-parameter-core-scalar-fees-and-collar-jets.md)已成：child0/12门/math4.627548956s，SCI827fcb23/worker2e1527bf/12pin14271d7d锁。
 原8ZIP+6天然part精确恢复40parts/7721、全core6376row/6377新restrict、正collar140row全核；旧math0。
