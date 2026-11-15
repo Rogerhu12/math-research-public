@@ -1,0 +1,375 @@
+{
+  "schema": "actual89-prefix26-completed-reader-static-interface-check-v1",
+  "status": "PASS-source-and-existing-JSON-only",
+  "independent_reader": {
+    "file": "/tmp/visible-larger-twenty-six-readback/root_20261114_read_completed_twenty_six_prefix.py",
+    "bytes": 50510,
+    "sha256": "36743c90d689525b975cec0acc66cdfa8051588ff8ce38f61e52120ad94c8527"
+  },
+  "original_reader": {
+    "file": "/tmp/visible-larger-twenty-five-readback/root_20261114_read_completed_twenty_five_prefix.py",
+    "bytes": 50404,
+    "sha256": "9239b31016fde72f55961bc33e36dd014d8cf051df8aaca1fb3f475f8494e8cb"
+  },
+  "original_workflow": {
+    "file": "/tmp/visible-larger-actual84-readback-request/visible-larger-public-completed-readback.yml",
+    "bytes": 20778,
+    "sha256": "8953f0c350fab99d1a1dedf73374c1b3414ffa9be80b2ada6412f62c3d5ab1de"
+  },
+  "workflow": {
+    "file": "/tmp/visible-larger-request89-readback/visible-larger-public-completed-readback.yml",
+    "bytes": 20968,
+    "sha256": "0b11f0796b268e98812b18e167f2862336093ea983df5fd036dd1162499be720"
+  },
+  "request": {
+    "file": "/tmp/visible-larger-request89-readback/public-completed-readback-request.json",
+    "bytes": 1685,
+    "sha256": "3ac6ac20b7f993b9a71900283738f3dcf1758056823e88450e8bfc569345dca9"
+  },
+  "source_pin_files": [
+    {
+      "file": "/tmp/visible-larger-twenty-six-readback/root_20261114_read_completed_twenty_six_prefix.py",
+      "bytes": 50510,
+      "sha256": "36743c90d689525b975cec0acc66cdfa8051588ff8ce38f61e52120ad94c8527"
+    },
+    {
+      "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+    },
+    {
+      "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+      "bytes": 14455,
+      "sha256": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca"
+    }
+  ],
+  "four_actual26_entry_files": [
+    {
+      "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_twenty_six_query_domain_operator.py",
+      "bytes": 32954,
+      "sha256": "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8"
+    },
+    {
+      "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_twenty_six_query_condensed_warm.py",
+      "bytes": 43689,
+      "sha256": "b9954eb5caffca7e3e001e66b07b0628a8275a22139ca3000cf527e258023197"
+    },
+    {
+      "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_twenty_six_query_condensed_response.py",
+      "bytes": 2619,
+      "sha256": "17908d4cb301f2073ce6539a8fcdc218a434529586722f013202c69378933b01"
+    },
+    {
+      "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_twenty_six_query_collocation_observer_warm.py",
+      "bytes": 16728,
+      "sha256": "e10055b6e6d5604d247ecfbe637f8ca01b2b1337a7a528da8e25cbe48e6b8b25"
+    }
+  ],
+  "definitions": 35,
+  "unchanged_definition_AST_count": 34,
+  "changed_definitions": [
+    "audit_domain"
+  ],
+  "actual89_primary_identity_receipt": {
+    "file": "/tmp/visible-larger-actual89/2026-11-15-actual89-primary-identity-readback.json",
+    "bytes": 35922,
+    "sha256": "118e377166cfbe9f55aa9b98c3ed8411525bcfbcf269b73426477c225dff3438"
+  },
+  "original_model_receipt": {
+    "file": "/tmp/visible-larger-actual89-published/twenty-six-condensed-warm/model-000.json",
+    "bytes": 802510,
+    "sha256": "c948d0350fb3a7287871e14902d56ddc484986b682509496d82e663e72e56cec"
+  },
+  "original_status_receipt": {
+    "file": "/tmp/visible-larger-actual89-published/twenty-six-condensed-warm/driver-status.json",
+    "bytes": 3122352,
+    "sha256": "c78528682d239d941ccc1391df004c8da3b51d60b6315c6d30334828d0204540"
+  },
+  "exact_original_query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 465,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 466,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 467,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 468,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 469,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 482,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 484,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 485,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 479,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 480,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 481,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 482,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 484,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 485,
+      "fraction": 0.5
+    }
+  ],
+  "original_parent_status_SHA_routes": [
+    "iterations/0/before/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/before/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/before/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/0/domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/0/domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/0/domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/1/domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/1/domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/1/domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/2/domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/2/domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/2/domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/2/complete_original_RMS_query_domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/2/complete_original_RMS_query_domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/2/complete_original_RMS_query_domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/3/domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/3/domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/3/domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/4/domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/4/domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/4/domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/5/domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/5/domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/5/domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "iterations/0/trials/5/complete_original_RMS_query_domain/read_only_collocation_location_observer/entry/actual_parent_status_sha256",
+    "iterations/0/trials/5/complete_original_RMS_query_domain/read_only_midpoint_observer/source_entry/declared_initial_parent_status_sha256",
+    "iterations/0/trials/5/complete_original_RMS_query_domain/read_only_midpoint_observer/source_entry/actual_parent_status_sha256",
+    "identity/twenty_six_query_projection_entry/declared_initial_parent_status_sha256",
+    "identity/twenty_six_query_projection_entry/actual_parent_status_sha256",
+    "identity/condensed_QP_entry/actual_parent_status_sha256",
+    "identity/condensed_QP_entry/initial_actual86_status_sha256",
+    "identity/read_only_collocation_observer_entry/actual_parent_status_sha256",
+    "twenty_six_query_projection_entry/declared_initial_parent_status_sha256",
+    "twenty_six_query_projection_entry/actual_parent_status_sha256",
+    "condensed_QP_entry/actual_parent_status_sha256",
+    "condensed_QP_entry/initial_actual86_status_sha256",
+    "read_only_collocation_observer_entry/actual_parent_status_sha256"
+  ],
+  "artifact_tuple_bound_to_existing_primary_original_identity": true,
+  "artifact_name_matches_original_family_upload_contract": true,
+  "model_status_and_new_expected_query_specs_equal": true,
+  "LEFT_count": 17,
+  "MID_count": 9,
+  "query_count": 26,
+  "declared_original_rows": 53248,
+  "actual_MID479_included": true,
+  "actual_MID487_absent": true,
+  "workflow_same_unique_request_trigger": true,
+  "workflow_same_concurrency": true,
+  "workflow_changed_steps": [
+    {
+      "index": 4,
+      "name": "Verify the exact reader and transport source bytes without imports",
+      "old_run_sha256": "805fa7becf1359ae7491138373e4590ce10faaf5095968d6a355278db8deedc1",
+      "new_run_sha256": "9046a71b1e452a77b79f3f5cfa216076d52a4a408bf41bc320a7207cb2a51bf7"
+    },
+    {
+      "index": 6,
+      "name": "Read the original outcome before complete exported-byte checks",
+      "old_run_sha256": "b6c4f5a9d4388b070f11066251ee1598b05735bc75a347c7ab4c6f1702936094",
+      "new_run_sha256": "03134bc4d71c807fd7ba65d25e715bbfac58850fbe71c662bf67ea221663f2b5"
+    },
+    {
+      "index": 8,
+      "name": "Recover the original bounded publication from the same verified artifact",
+      "old_run_sha256": "c58ba7158df876339219847e0fd273800cb83ca0e6c89e341879d7f4daffc247",
+      "new_run_sha256": "612d4de19a1cb0e555e39140ec4246f8376154e2f1d04e6172e5f412782f0d62"
+    }
+  ],
+  "bash_n": [
+    {
+      "index": 1,
+      "name": "Set bounded repository maintenance and readback output",
+      "bash_n_passed": true
+    },
+    {
+      "index": 3,
+      "name": "Install array decoding dependency",
+      "bash_n_passed": true
+    },
+    {
+      "index": 4,
+      "name": "Verify the exact reader and transport source bytes without imports",
+      "bash_n_passed": true
+    },
+    {
+      "index": 5,
+      "name": "Reserve the explicitly declared original-byte storage",
+      "bash_n_passed": true
+    },
+    {
+      "index": 6,
+      "name": "Read the original outcome before complete exported-byte checks",
+      "bash_n_passed": true
+    },
+    {
+      "index": 7,
+      "name": "Run independent R276 exact affine-infinity arithmetic from the same original extraction",
+      "bash_n_passed": true
+    },
+    {
+      "index": 8,
+      "name": "Recover the original bounded publication from the same verified artifact",
+      "bash_n_passed": true
+    },
+    {
+      "index": 10,
+      "name": "Publish original readouts, byte receipts and separately labelled diagnostic reports",
+      "bash_n_passed": true
+    }
+  ],
+  "inline_Python_AST": [
+    {
+      "step": 4,
+      "label": "PYPINS",
+      "AST_and_compile_passed": true,
+      "code_sha256": "3341a490e5d988f2f7b9753dfff5cbaae9db0c63614b4433ba1f255c3559b710"
+    },
+    {
+      "step": 5,
+      "label": "PYSPACE",
+      "AST_and_compile_passed": true,
+      "code_sha256": "1f5e06adc5f3c5d06dae17b0f525134b27d4b9d906aad6595eec38244094118c"
+    },
+    {
+      "step": 6,
+      "label": "PYREAD",
+      "AST_and_compile_passed": true,
+      "code_sha256": "824cbb07c3cce9e377564d7b7b290c299680361e92498867b9c7ba83c9f1197c"
+    },
+    {
+      "step": 7,
+      "label": "PYAFFINE",
+      "AST_and_compile_passed": true,
+      "code_sha256": "4d63a86bce3aba6629922b3dfddbe15526567e03fe2bd495b1d0dfd2b971fd5a"
+    },
+    {
+      "step": 8,
+      "label": "PYRECOVER",
+      "AST_and_compile_passed": true,
+      "code_sha256": "0956c77a7459c7525081f91789ae78988905bc3b8e7baa8f3dc45089dc91506d"
+    }
+  ],
+  "only_actual89_artifact_requested": true,
+  "original_parent86_taken_only_from_same_actual89_extraction": true,
+  "old_actual86_artifact_or_other_historical_artifact_requested": false,
+  "R276_scientific_diagnostic_requested": false,
+  "original_publication_recovery_requested": false,
+  "actual89_complete_payload_audit_executed": false,
+  "reader_or_transport_or_mathematical_modules_imported": false,
+  "workflow_commands_executed": false,
+  "local_scientific_computation": false,
+  "original_scientific_sources_request94_or_repository_modified": false,
+  "no_new_scientific_acceptance_gate": true
+}
