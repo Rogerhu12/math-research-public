@@ -118,3 +118,5 @@
 - [request138：同135真实首父的完整normal候选选择](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)：新e8704af6/49734049/79c178f4与90+4pin/29闭包，只改完成原normal后R299择优；完整全部中间标量分段、原8×20/12×20/32批及全部终门保持。实际改善待本公开run，不把selector说成提高弱J精度。
 
 - [R304：actual136的cap瓶颈、callback预算异常与未付全域](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)：1800.0188949619999s/SystemError；21334panel/56738有限component，日志1386片不冒producer返回0之外的累计量，整query0/Rout空。全部六工作宽度、原计数/身份/深尾和规则退出逐项保留；已确定源码异常通道风险，真实内层原因仍属有界推断，139保持原范围并实际优化。
+
+- [R305：原literal Gram根迭代的共享方向与名义分解缺陷](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)（已证明，固定准确实成功分支）：完整225矩直接收缩、局部偏导共享、Cholesky/两回代消去等价及完整几何/226态链式；已舍入R/a/b及导数缺陷明确保留，点残差小不证方向误差小。新运算图须独立身份，不宣称有限字同值、实测加速或native通过。

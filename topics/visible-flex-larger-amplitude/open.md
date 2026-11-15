@@ -118,3 +118,5 @@ R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原�
 R288提供的具体后继是保128状态、完整primal和明确所选有限root-stop策略匹配的方向形成。旧64J可作近似/预条件来源，但原stop的一次全步下降不冒native完成；refined更严内根残差也没有令当前外残差更小。依R283及真实122结果接实际变分/新求解，不为补完22项昂贵对照而盲重跑113，完整cut/far/敏感度/finalJ/audit仍另付。
 
 根README在11:35已读唯一新增说明（blob21bd547f56590b7f2dd279d0297efb289a9b2783）：closed-surface旧gz/npz已清，必要历史输入按原immutable提交恢复；题README未变。137/138新请求只更新已读规则基线，旧在跑任务若真实因规则变化退出则逐原结果重新接续。R304已完整登记136真实退出；139独立改源支付同域积分，未付连续cut jet及完整metric保持。
+
+[R305完整证明](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已直接登记：独立literal Gram全部2M+1矩对方向收缩，准确实Cholesky/两回代导数与线性解等价，共享角点局部偏导、全部几何/226RK/mean/port/cut/far链式保留。名义分解R、两回代a/b及其导数不能由点残差小而删除；新128运算次序不冒R283逐字等价或方向误差证书。配套operator草稿源独立发布和实际执行继续，137不改，不增加fixture门或以性能猜全224完成。

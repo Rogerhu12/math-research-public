@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:48:34 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 d0ab81c504f44786ea88bdd93e50cd40d70d03f8。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 11:49:14 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 9d2d48470d8852c846a9988cc550f6cc2683aa1b。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -62,4 +62,4 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 ## 维护和删失恢复
 
-open的旧全文在open-checkpoint-through-request134-2026-11-15.md并继续链接126/112等；旧results索引results-index-through-actual120.md保留。104清理后题168796207B，未分类旧JSON不擅重存。所有新源与必要参数先推；raw清后按原公开输入/source/参数重做，不能用SHA伪恢复。R305由exact_refinement继续证明/实现独立共享收缩导数优化，不动已冻结137，不预言全224速度。
+open的旧全文在open-checkpoint-through-request134-2026-11-15.md并继续链接126/112等；旧results索引results-index-through-actual120.md保留。104清理后题168796207B，未分类旧JSON不擅重存。所有新源与必要参数先推；raw清后按原公开输入/source/参数重做，不能用SHA伪恢复。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已证明独立literal Gram全225矩收缩与准确实ds=C⁻¹(dF−dC·s)等价；名义R/a/b及其导数缺陷全保，不冒有限字同值或误差界。独立实现继续，不动137，不预言全224速度。

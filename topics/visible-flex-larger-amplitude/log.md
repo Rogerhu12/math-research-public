@@ -400,3 +400,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R304实际136连续E完整读回
 
 [R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)全文及14950B原摘要已读，identity 26794a89d0404632f7c231bc810856dc0e542a18eec9d5b7cf32ce783618dd2e；同三输入/1440片/六primitive/1800秒，21334panel后SystemError，日志1386片与返回0/整未付域均保，query0/Rout空，不消费为新g cut数据。只对确捕ResourceStop做受支持callback转传，未知SystemError不改标签；139同步优化完整w端点积分，保全宽门和原预算。正文已立即推b412ee25；H原9888B触限先保原文，现仅压缩已发布正文的重复，完整责任均有链接，索引同步。138已真run43710284131，137/124/128仍在原科学；未完成不收尾。
+
+## 2026-11-15 /root — R305 literal Gram收缩与完整缺陷证明
+
+[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)全文证明直接发布：独立Gram不假设C=F_e，全2M+1矩收缩和准确实Cholesky消去等价，几何/μ/RK-step/端口/两mean/完整原行责任均保。名义R/a/b及dR/da/db不能默认为零；不把数值残差当误差界，不预言全224速度。root只改三角回代中间量t→v_c避免物理t同名、修乘法TeX，并明确实现草稿另行发布；没有本地科学/编译、没有fixture前置；133真实达容差R308紧接，137继续。
