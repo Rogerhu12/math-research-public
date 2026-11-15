@@ -58,28 +58,28 @@ jobs:
           python-version: "3.12"
       - name: Bind the six actual sources and complete original mod31six scope
         run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py --mode source
-      - name: Restore the complete actual global checkpoint from run 43668434588
+      - name: Restore the complete actual global checkpoint from run 43669639448
         uses: actions/download-artifact@v4
         with:
-          name: isp-r150-saturated-third-global-recovery-43668434588-1
-          run-id: 43668434588
+          name: isp-r150-saturated-third-global-recovery-43669639448-1
+          run-id: 43669639448
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/isp-r150-global-resume-recovery-download
       - name: Restore the already sealed global results without changing mathematical sources
         uses: actions/download-artifact@v4
         with:
-          name: isp-r150-saturated-third-global-results-43668434588-1
-          run-id: 43668434588
+          name: isp-r150-saturated-third-global-results-43669639448-1
+          run-id: 43669639448
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/isp-r150-global-resume-results-download
-      - name: Reuse all 119 actual recovery files and their original input hashes
+      - name: Reuse all 209 actual recovery files and their original input hashes
         run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py
       - name: Install the exact finite-field dependency and record the compiler
         run: |
           python3 -m pip install python-flint==0.9.0 numpy==2.2.6
           python3 -m pip show python-flint numpy > "$ISP_SAT_GLOBAL_OUT/results/python-runtime-versions.txt"
           g++ --version > "$ISP_SAT_GLOBAL_OUT/results/compiler-version.txt"
-      - name: Resume the actual six-q2 sources and all remaining original identities
+      - name: Resume the actual five-q3 sources and all remaining original identities
         id: exact
         continue-on-error: true
         timeout-minutes: 20
@@ -104,6 +104,37 @@ jobs:
         env:
           ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
         run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py --mode outcome
+      - name: Preserve compact actual receipts before transporting the full arrays
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          source=Path(os.environ["ISP_SAT_GLOBAL_OUT"])/"results"
+          out=Path(os.environ["ISP_SAT_GLOBAL_OUT"])/"compact"
+          out.mkdir(exist_ok=True)
+          names=["saturated-third-global-pipeline-receipt.json","actions-outcome.json","actions-source.json",
+                 "recovery-manifest.json","certificate-manifest.json","text-recovery-manifest.json"]
+          files=[]
+          for name in names:
+              p=source/name
+              if not p.is_file():continue
+              data=p.read_bytes()
+              if len(data)>4000000:raise SystemExit("Unexpected actual receipt size")
+              shutil.copyfile(p,out/name)
+              files.append({"file":name,"bytes":len(data),"sha256":hashlib.sha256(data).hexdigest()})
+          manifest={"format":"r150-global-compact-actual-receipts-v1","run_id":os.environ["GITHUB_RUN_ID"],
+              "source_commit":os.environ["GITHUB_SHA"],"mathematicsRecomputed":False,"files":files}
+          (out/"compact-manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+          print(json.dumps(manifest),flush=True)
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        with:
+          name: isp-r150-saturated-third-global-compact-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_SAT_GLOBAL_OUT }}/compact
       - uses: actions/upload-artifact@v4
         if: always() && env.ISP_SAT_GLOBAL_OUT != ''
         with:

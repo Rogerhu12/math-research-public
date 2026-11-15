@@ -1,0 +1,235 @@
+{
+  "format": "r150-saturated-third-global-first-resume-actual-v1",
+  "run": 43669639448,
+  "job": 132676599537,
+  "sourceCommit": "308891645e6a9c8094fa220e839717c0daf80ec9",
+  "actualPublication": {
+    "status": "pushed",
+    "publishedCommit": "73587b603c8aaf902392b14aa654f3038d648321",
+    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43669639448-1",
+    "lastRulesReadCommit": "77d04c773a613069f9ae76c8938565f3a08b6cb3"
+  },
+  "artifacts": [
+    {
+      "id": 14143313908,
+      "name": "isp-r150-saturated-third-global-recovery-43669639448-1",
+      "bytes": 912768394,
+      "digest": "sha256:3aa7da49e24128af05145791ca2d49c8af3a5cc63e1bd26cc9eb10925660a7dc"
+    },
+    {
+      "id": 14143094507,
+      "name": "isp-r150-saturated-third-global-results-43669639448-1",
+      "bytes": 929674998,
+      "digest": "sha256:11595f684d7fdd3c9eee4e913ac0f4c79f8e39b0c876c0a4439bc7932850677e"
+    }
+  ],
+  "mathematicalElapsedSeconds": 300.294054131,
+  "packagingElapsedSeconds": 9.715234439000028,
+  "reusedCompletedStages": [
+    "prepare-actual-six-global-sources",
+    "seven-q1-image",
+    "seven-q1-VQ",
+    "seven-q1-original",
+    "same-q1-integer-carry",
+    "projected-six-initial-p2",
+    "projected-six-initial-normal",
+    "projected-six-initial-whole-image",
+    "six-q2-image"
+  ],
+  "newCompletedStages": [
+    {
+      "name": "six-q2-VQ",
+      "input_binding_sha256": "84464ef29691ffeec9af9339f74903a038299678ec746d5b386e85a813d48dcd"
+    },
+    {
+      "name": "six-q2-original",
+      "input_binding_sha256": "c5b18025da24224c43e7f322f1e4397aed51245a5e450a8405c87d78cfd61263"
+    },
+    {
+      "name": "six-L3-p3",
+      "input_binding_sha256": "245441bfbca45cdb0dfaafaa99d1d487fed01e331fe316f27fdef2fbf3979864"
+    },
+    {
+      "name": "projected-six-L3-p3",
+      "input_binding_sha256": "9549a99c532d74a96ccdbbcc411a6a32bc5a30c11799e2db97524f6e1ef9f55c"
+    },
+    {
+      "name": "projected-six-L3-normal",
+      "input_binding_sha256": "1a2ed8a98544c9c4e1cb9b6411d6b044bea25b07904d2db6c2c8895ece1fa896"
+    },
+    {
+      "name": "projected-six-L3-whole-image",
+      "input_binding_sha256": "cadf79df0e417239564e9d8264a7cdf580a377fcd5f291c44d3b3021520f9ee7"
+    },
+    {
+      "name": "global-D2-and-seven-correction",
+      "input_binding_sha256": "fea16a93dcd3497eae5c245500028f46eead61daf28ca90a8bf794c2e203ac0e"
+    },
+    {
+      "name": "five-q3-image",
+      "input_binding_sha256": "8c13b7b5f0a14d8f11fd88150560181389e76fa2652d8ae66feedd7a450eb5bd"
+    }
+  ],
+  "lastPartial": {
+    "name": "five-q3-VQ",
+    "exitCode": 124,
+    "completedImageRows": 451
+  },
+  "recoveryFiles": 209,
+  "recoveryBytes": 1346656162,
+  "actualSixP3SourceCosts": [
+    466,
+    466,
+    466,
+    466,
+    466,
+    466
+  ],
+  "actualSixProjectedP3SourceCosts": [
+    662,
+    662,
+    662,
+    662,
+    662,
+    662
+  ],
+  "full315And505Correction": {
+    "format": "r150-actual-third-six-slot-whole315-v1",
+    "status": "completed",
+    "mode": "L3",
+    "all505FreeObservationsVerified": true,
+    "all315OriginalSourceCoordinatesVerified": true,
+    "allWhole315ReconciliationIdentitiesVerified": true,
+    "originalDivisor": 29791,
+    "originalLabels": [
+      9702,
+      9703,
+      9704,
+      9705,
+      9706,
+      9707,
+      9708,
+      9709,
+      9710
+    ],
+    "originalSourceCost": [
+      662,
+      662,
+      662,
+      662,
+      662,
+      662,
+      -1,
+      -1,
+      -1
+    ],
+    "characteristicZeroIdentityAsserted": false,
+    "actualSevenCorrections": [
+      [
+        4,
+        3,
+        23,
+        9,
+        26,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        28,
+        21,
+        6,
+        1,
+        27,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "globalD2DifferenceInU7": [
+      [
+        21
+      ],
+      [
+        23
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "trueGlobalD2OriginalDivisor": 29791,
+    "trueGlobalD2Saved": true,
+    "elapsedSeconds": 0.23218383900001527
+  },
+  "fullOriginalNineIdentity": false,
+  "characteristicZeroIdentity": false
+}
