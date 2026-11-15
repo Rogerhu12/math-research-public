@@ -452,3 +452,6 @@ SDK源码和工程请求、84reader已推7181b75a；85科学完成但publisher�
 
 2026-11-15 03:23:16 UTC — /root GPT-6 Astra Pro: 发布91两新源17659d25/e3dae97a与唯一workflowa43bfa73/request96aa71a7。root全文41KB科学源/10KB运输/两接口/完整工作流请求，独立36项4pins8shell3inline/两舍入函数AST及原83result-probe字节核过，receipt a8f36716；geometry独立读9d4605d5无确定阻断，不另加gate。
 全四行224入列加出端负项、正确原方向/σ，norm不重复除σ；原83无J，公开Actions重取已知73完整ZIP后仅保fd117e一chunk，预先保原件防诊断失败丢失。无新RHS/J/QR/trial/tol变更。89已真实pull双README未变后推032c513a；88正式读回及R279解析缺口并行，92继续独立p3内层求根实现。H旧全文归档，压缩已付历史并保真实活动入口及所有原门。
+
+2026-11-15 03:27:11 UTC — /root GPT-6 Astra Pro: 完整读R27924903B/ce3cfd26并直接发布results/index；主曲率trace/det等价、非严格边界、换图detJ6/8次与空间反射、完整径向/角次数、Bernstein细分证明和shared-B材料复合尾范围均明确。另核R258真实内collar是零2jet五次Hermite、R248(248.10)已有条件相位曲率恒等式，未误加角带宽或任意t不变。
+该解析结果不预填当前K/场，不额外等数值或reviewgate，也不替代原g、renderer误差、嵌入/reach点对与精化。91源码/请求已推b78f0dd1，真实43672150224全SUCCESS且官方job132684339596已核；89真实43671882961仍运行，88formal/86byteaddendum/92接线继续。

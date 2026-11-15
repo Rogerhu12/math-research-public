@@ -526,3 +526,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 R277 的实际有限模型消费者：[actual81全部高109精确非奇异与区间边界](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。只绑定actual78参数、原699节点与保存完整尾J；Arb声明模型仍有103高模未排零，低三共振与非零BVP没有随之成立。
 
 - [R278. 有限共振链的项目化归一化、零集与局部消元](results/R278-finite-resonance-projective-normalization-and-local-elimination.md)（已证明，完整有限条件代数定理）：原两端链在明确非零子域以正范数归一化保零集、根处Jacobian秩与两个比例坐标；保留零向量/奇异右块例外及R277完整系统。原unit停止阈值、完整112候选标志与归一化阈值分开，离根导数须含分母导数，复数步须合法局部延拓；真实第三方程根与非零偏导才给非线性二维IFT消元。无低三根/非零场或原科学门变更，不等待数值消费者才登记。
+
+- [R279. 完整有限场的直接连续主曲率证书](results/R279-finite-field-direct-continuous-curvature-certificate.md)（已证明，条件几何定理与有限证书归约）：从同一有限位置映射完整两阶导数形成Gram Δ、未归一第二形式H及两个标量A_K/B_K，严格正性恰等价于全部|κ|<K，非严格边界与换图/反射符号完整。有限旋转Fourier前缀的径向次数/带宽、Bernstein全域包络和严格余量下细分完备性明确；shared-B及完整材料cut尾使用不截频的有限复合表达，不能冒有限材料角谱。给R241实际连续K输入而不假定精确等距/已有K，保R248全相位前提、原g/renderer/点对/reach责任；没有实际新闭场或K数值，不增六/九jet机器门或求解验收。

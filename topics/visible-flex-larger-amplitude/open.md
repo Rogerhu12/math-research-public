@@ -111,3 +111,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### 1F. 第89轮唯一26-query实际调度
 
 [完整接口](notes/2026-11-15-twenty-six-query-condensed-interface.md)与[主控静态回执](notes/2026-11-15-request89-root-static-check.json)已发布。四新源b5b72fde/b9954eb5/17908d4c/e10055b6、workflow45e881d6/requesta1a5bcd0只新增MID479，真实父86 warmd38/status7d6e/gzip610e；原55pins全保加4共59。17LEFT+9MID/53248行、17cells22nodes7439列/zero[]、C4059与全outside不变；MID读实际middle/mid、同一次完整J端点链。root全读四diff/全接口/两接线diff、119项/59pins11shell6inline；原35/25/80分钟、λ270/512/200/17trial/完整FD及所有原验收不改。新warm是否接受须实际Actions返回，不由静态核对预判；86完整reader和88 saved-model分析已成功，后续正式读回不挡本轮科学。
+
+### 2A. 连续曲率输入的解析接口已补齐
+
+[R279](results/R279-finite-field-direct-continuous-curvature-certificate.md)已直接入results/index。从实际同场完整一/二阶导数给Δ、A_K、B_K全域正性，等价于曲率界并能供R241；这补R31精确等距假设与R235逐角参数控制未覆盖的一般有限场接口。共享B及材料cut复合尾不套有限θ带宽；实际K、全场接缝/浸入、包络和R241点对仍须真实输出，未预填成功或增原验收门。R248的已有相位恒等式只在其全部原前提下使用。
