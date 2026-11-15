@@ -226,6 +226,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T10:44:07.555956+00:00",
+      "before": "1d98178f310505ebee0172836d64fc0a4dfa74f6",
+      "after": "cf52ab6728e836de3a6a7d915d02f839e8a992c4",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -318,6 +326,11 @@
       "time": "2026-11-15T10:24:02.003578+00:00",
       "final": false,
       "commit": "c6003c91d284ec298b267ec46d5ed1620bf72903"
+    },
+    {
+      "time": "2026-11-15T10:34:05.939569+00:00",
+      "final": false,
+      "commit": "c076dc093fbcd7706336ee519466e3ccf4d22d1a"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -428,7 +441,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1d98178f310505ebee0172836d64fc0a4dfa74f6",
+  "last_read_commit": "cf52ab6728e836de3a6a7d915d02f839e8a992c4",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -484,51 +497,62 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T10:34:03.849651+00:00",
-  "wall_seconds": 10544.499464742,
+  "snapshot_utc": "2026-11-15T10:44:07.657392+00:00",
+  "wall_seconds": 11148.307203858001,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T10:33:38Z",
+      "actual_utc": "2026-11-15T10:43:39Z",
       "streams": {
-        "future": 5840,
-        "past": 2704,
-        "product": 5472
+        "future": 5970,
+        "past": 2928,
+        "product": 5952
       },
-      "complete_groups": 16,
-      "queued_groups": 68,
-      "consumer_processes": 1,
+      "complete_groups": 24,
+      "queued_groups": 90,
+      "consumer_processes": 2,
       "done": false,
-      "original_temporary_receipt_sha256": "92071584694953b3f28f93f4f91955e149912e29982791bcbf5ef1f5eca900f6"
+      "original_temporary_receipt_sha256": "89f015edaed3eff5278e05e84dadff27a7a59d4a4220b04f4b6d5e9c0ca1bb9e"
     },
     "consumer-0": {
       "stage": "consumer-0",
-      "actual_utc": "2026-11-15T10:33:00Z",
-      "completed_groups": 16,
+      "actual_utc": "2026-11-15T10:42:45Z",
+      "completed_groups": 21,
       "last_group": [
-        4320,
-        4352
+        3744,
+        3776
       ],
       "done": false,
-      "original_temporary_receipt_sha256": "3ceb92bb4ca0b5e8495121cd597022a14fc0ec852efcdf397f41f672d08b5578"
+      "original_temporary_receipt_sha256": "11cc8fa8b76d2f46e5d9389f3685feb6e607d0cb4854a98158fd384a1959bc67"
+    },
+    "consumer-1": {
+      "stage": "consumer-1",
+      "actual_utc": "2026-11-15T10:43:07Z",
+      "completed_groups": 3,
+      "last_group": [
+        4480,
+        4512
+      ],
+      "done": false,
+      "original_temporary_receipt_sha256": "40a6472a3190c3b57808cc0cd4f9d9b4e191408cca5a4fcc06abcd80f9ba273e"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T10:33:54Z",
-      "completed_rows": 5856,
+      "actual_utc": "2026-11-15T10:37:09Z",
+      "completed_rows": 5970,
       "reused_rows": 1886,
-      "new_rows": 3970,
-      "done": false,
-      "seconds": 10169.752370952001,
-      "original_temporary_receipt_sha256": "1448c8511f10cf1bdb5f2ef13324fd4c7f1b865174b34461ad7545303f71c482"
+      "new_rows": 4084,
+      "done": true,
+      "seconds": 10364.853000701,
+      "original_temporary_receipt_sha256": "11bbcc35445fea62be7360b99d5183a51e3bf8bac1b3ffaac51c030c29868ded"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T10:33:24Z",
-      "completed_rows": 2704,
+      "actual_utc": "2026-11-15T10:43:34Z",
+      "completed_rows": 2928,
       "done": false,
-      "seconds": 10139.598343089001,
-      "original_temporary_receipt_sha256": "3a2fcdbd1e5c84b9c3f23a2b9cbb8ecd7275daa91360d1b23b78c6e5629d0984"
+      "seconds": 10750.076618767,
+      "original_temporary_receipt_sha256": "6657ab3f17bfad0704a625e047542aaeb214935259b3e0004ebb910a2d5617d3"
     },
     "preflight": {
       "stage": "preflight",
@@ -548,19 +572,19 @@
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T10:33:59Z",
-      "completed_rows": 5504,
-      "done": false,
-      "seconds": 10174.925700814001,
+      "actual_utc": "2026-11-15T10:43:59Z",
+      "completed_rows": 5970,
+      "done": true,
+      "seconds": 10775.423883274001,
       "diagnostic_exponents": {
         "local_complete_rounding_log2_upper": -113,
-        "old_scalar_error_diagnostic_log2_upper": 5211,
+        "old_scalar_error_diagnostic_log2_upper": 5970,
         "selected_product_norm_log2_upper": -5,
         "signed_error_norm_log2_upper": -101,
         "single_true_Di_norm_log2_upper": 2
       },
       "reused_same_run_preflight_rows": 32,
-      "original_temporary_receipt_sha256": "e48b32137478a7f436a43ba0ab6ad703402b80a03e3c7a832a199ea8e27abfa1"
+      "original_temporary_receipt_sha256": "48f33a7fb1e6a4328a3b346a64fb2a3364069778f32e3c9390cfbba7429d944d"
     }
   },
   "required_original_array_artifacts": 34,
