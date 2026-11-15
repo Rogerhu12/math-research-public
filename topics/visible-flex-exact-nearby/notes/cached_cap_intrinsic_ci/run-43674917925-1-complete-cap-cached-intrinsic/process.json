@@ -1,0 +1,67 @@
+{
+  "kind": "actual_public_cached_complete_cap_intrinsic_process",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43674917925",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "6194930c5eaceb40650d51c948a6f1379bfbe368",
+  "worker_source_sha256": "79ccf028728bc13935d68d965dc40e25d85a238bd8e9cb4eda8455b64b0a68da",
+  "started_utc": "2026-11-15T04:02:05.025050+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T04:02:05.334518+00:00",
+      "before": "6194930c5eaceb40650d51c948a6f1379bfbe368",
+      "after": "6194930c5eaceb40650d51c948a6f1379bfbe368",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T04:02:05.606130+00:00",
+      "before": "6194930c5eaceb40650d51c948a6f1379bfbe368",
+      "after": "6194930c5eaceb40650d51c948a6f1379bfbe368",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_intrinsic_target_ODE_FFT_and_repair_recomputations": 0,
+  "original_Bernstein_joint_rows_recomputed": 0,
+  "already_complete_joint_cells_reused": 660,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "f1ddde2aabc4dac44a5b8158de8b874757c598a4610f0984e723ec62931177a6",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "python-flint": "0.9.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "6194930c5eaceb40650d51c948a6f1379bfbe368",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-cached-cap-intrinsic-work/science",
+  "snapshot_utc": "2026-11-15T04:02:05.614400+00:00",
+  "wall_seconds": 0.5898573159999998,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-four-part-native-restoration.json",
+      "file": "evidence/original-four-part-native-restoration.json",
+      "bytes": 1922,
+      "sha256": "a952df759efcf09f4c46be8ea14abbd7228d816b4e4328bfb9c8e3e1957b8221"
+    }
+  ]
+}
