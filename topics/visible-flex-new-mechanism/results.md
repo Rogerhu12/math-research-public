@@ -510,3 +510,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R377：YY0完整C²角商的局部四次式与真实面积差
 
 [R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)。原3FY0=FU2−FL2、FY2恒零与合法整个q的真紧Yq²给KY0=(SUY2−SLY2)/3。直接DFY0原输出全部t/局部/primitive九项表收成∫[2x²(u−xv)²r²+2x4(u−xv)r³/3+x6r4/12+4u²v²−8xuv³/3+2x²v4/3]，无除x、完整C²。实u平方分解严格正只针对非legal的局部扩展，非复圆正性阻断。正域反演T u=z²u(1/z)保TP(Tu²)=4Y(u²)+x²I2(u,u)原常数，合法后16KYY0=KPP2(Tq)=4∫((Tq)″)^4/3，独立展开同式。补回R349完整SUY2=−5SLY2后，KY=−2SZY2/(d−5e)=0由旧18面积严格推出。只π/2实际值待联调；未授已付整个YY0。全部纸证无执行。
+
+## R376：完整交叉角商与十五行正锥支付ZY0/WY1
+
+[R376-cubic-cross-identities-and-fifteen-target-cone-pay-ZY0-and-WY1.md](results/R376-cubic-cross-identities-and-fifteen-target-cone-pay-ZY0-and-WY1.md)。原B=∫(vrY″+r²Y′/2)保primitive和nonlegal μ1μ2，legal后等(SRY1−SSY1)/2；原FP2/FW1/FZ0完整变分给KWY1=−3SWY1/2，KZY0由SPY2/SWY1/SZY0全清。15主行的六weighted grades独立，真实copy偶平移平均在x次数≤10三角可逆；15有限正二jet/Hermite母与同Fnew最大minor给15χ，180实际交替列有严格正核，有限N十五根共同付完整ZY/WY并保旧13目标和18面积/T/Ψ/三F。余ZZ2和YY0，YY角商另由R377补R349已消、实际值未入本根。根全文、B/原self组合、graded逐列、R280§6–7母与布局无循环及真实正kernel范围核通过；无新执行。

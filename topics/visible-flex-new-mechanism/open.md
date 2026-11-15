@@ -80,16 +80,18 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
 
-### 同一偶弱圆的当前Gaussian前沿：余四个完整角函数
+### 同一偶弱圆的当前Gaussian前沿：余ZZ2与YY0
 
 R354的全偶反射/正ω桥及R357–360真实母、primitive/Green/有序尾正锥已共同支付全部18面积（72角位置）；R364另付真实C²角商T=Re(Ksh−ρJ)=0，Fnew从起点保全部J/K平移系数。R361、R368、R369、R373逐个完整cubic和真紧变分已支付整个P²/PW/PZ/PY/ZW/W²；R372付ZZ0，ZZ1反射零。R375新增ZY2和YY2，含Yff二次左尾且完整I2两项保证block加法。
 
 当前一套真实正母/五χ/60交替列与同一Fnew、一个有限N的十三行根共同保持全部上述门、弱rank-two核、完整third、Ψ和三directed行。关键来源：[R364](results/R364-local-angular-quotient-and-five-target-control-pay-the-negative-three-minus-one-product.md)、[R372](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)、[R373](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)、[R375](results/R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md)。原十二点正kernel只已证明消位置次数≤10；扩大目标不能超过界而直接沿用。
 
-**下一完整对称函数是ZZ2、ZY0、WY1、YY0。**
+**下一完整对称函数是ZZ2与YY0。** R376已完整支付ZY0/WY1，见下。
 
 [R377](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)已准确识别YY0完整C²角商：3FY0=FU2−FL2，legal整个q使Yq²真紧，KY=(SUY2−SLY2)/3；原primitive收成无除x的局部四次式，正域反演保x²I2常数独核一致。实profile扩展严格正不能搬为复三矩圆障碍。原R349完整SUY2=−5SLY2（全primitive/Green已付）给KY=−2SZY2/(d−5e)=0，d−5e>0，所以额外角商已经由旧18面积消去。YY0只余一个π/2实际值待联合，无需另添C²纤维；初稿额外欠账已校正。
- 四个位置不是独立rank或已知可调scalar；每个须先付完整角商/真primitive/Green，再证同一母与已付Fnew下真实正锥及有限N共同根，不能只加principal或拼不同最终圆。所有profile/支撑/幅盒/N先有限确定，再按R354初选he与ω>Ω的新hook；不能从旧几何继承wholeE/Morse/period，不能当作固定g flex。其余零/一history、canonical第四period、平台/退化flux/端germ和同规范joint仍须另付。
+ 剩余位置不是独立rank或已知可调scalar；每个须先付完整角商/真primitive/Green，再证同一母与已付Fnew下真实正锥及有限N共同根，不能只加principal或拼不同最终圆。所有profile/支撑/幅盒/N先有限确定，再按R354初选he与ω>Ω的新hook；不能从旧几何继承wholeE/Morse/period，不能当作固定g flex。其余零/一history、canonical第四period、平台/退化flux/端germ和同规范joint仍须另付。
+
+[R376](results/R376-cubic-cross-identities-and-fifteen-target-cone-pay-ZY0-and-WY1.md)以完整cubic交叉式及真实primitive/μ1μ2给KWY1=−3SWY1/2、KZY0由三个已付面积清。15主多项式按权0/2/4/6/8/10分1/4/5/3/1/1独立；原copy偶平移平均三角可逆，15个有限二jet、正Hermite母/同Fnew最大minor和180实际交替列给同有限N十五根。整个ZY/WY与旧13目标/18面积/T/Ψ/三F共同保持。YY0角商由R377/R349已付，只需将实际π/2值接入；ZZ2须真实消其完整角商。不能通过改变最后位置或拼不同圆保持目标。
 
 ### 自然总通量当前前沿：H主商恰12，十三读出实际可控
 
