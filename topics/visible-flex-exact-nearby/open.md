@@ -27,36 +27,26 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 全无限反馈、强返回、真实ν Schur、增广非线性迭代和最后几何条件
 仍未同时完成。任何局部组件均不满足总验收。
 
-## 2. 已成完整Green v4与同参数有限反馈
+## 2. 已成完整Green与同参数有限反馈
 
-[v4契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)的公共43711315338/1已success：最终processff451539/614b92b0、summary2917bd05/a298dd2f，唯一child0、14门，future/past/product/ports各5970，完整187groups。原1886只恢复，旧sameF/7908/同97帽零重算；SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa均原身份。root已全文核所有三窗g/p/a/c、两套cross各5项、8完整contraction方案、actual97与mean/两边界单位、全部job。[actual完整三窗报告](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2已发布，17原球逐字匹配；成功科学锁定。
+本节压缩前全部原域、源单位、费用、失败恢复和未付义务逐字保2c75543b97a390b04b129ac0ddeacd18fa4bd200同open第2节及H/log；原证明继续逐项有效。压缩不取消条件或授权重算成功数学。
 
-v2溢出/v3旧README guard、lost新范围/child未知和恢复授权仍完整保92f214bd7410e499390204436e1fa50ed3f607ed同open第2节及v4原文；成功数学不重。原数学固定repaired M32 δ0/η0/ν0，继承1e−9字段不授参数BVP。whole[0,.9] ordinary source与negative[0,2383968743003/1e13]/cut输出不同；unscaled h、α一次、normalized circle、全mean和true97 Euclidean row不再乘rho。
+[v4 actual完整三窗](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2：公共43711315338/1唯一child0/14门，future/past/product/ports各5970、groups187、consumer72/66/49/0终态；旧1886只恢复。processff451539/614b92b0与summary2917bd05/a298dd2f、SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa已root全文核。原v2/v3失败、lost新范围/child未知仍保v4原文；成功科学禁止重算。
+真实193后97、signedW/任意dyadic权、全mean/协方差与8个完整方案min保留，非entrymin。原M32固定δ0/η0/ν0；继承1e−9字段不授参数BVP。ordinary输入全[0,.9]，negative只输出[0,2383968743003/1e13]，cut为真实.9迹；unscaled h、α一次、normalizedcircle、97 Euclidean行不再乘rho。g约22386.33/10488.57/6359.45、p约1494.85/716.73/424.86，a/c独立；finite193 .003509417与whole .007490301不是同窗。
 
-完整signed W/极端dyadic正权/真实193乘积/最终C*HC与各interface已付；全193后97、完整算子界min而非entrymin。三个g body-source约22386.33/10488.57/6359.45，三个p right-Poisson约1494.85/716.73/424.86（whole/negative/cut）；a与same-input c独立。原finite193 .003509417/whole .007490301不同窗，全频negative .005及||q*−Z||<4.572198020300e−6仍待。
+[F实际同参数反馈](results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md)52751bb5已完成：43737257903/1 child0/15结构门，exec35578/9c7710ec、report7896/ed6f8cb2；root13pin306775B、45球42unique、24118/1596b511科学和41038/c9b011ca预Git准确复原。完整五记录仅Green final两件+Dexec+cut两件，旧数学调用0。
+κ0固定原physicalcap三strict全pass，det≈.76510868、CS完整row ε≈8.209067e−8；同|δ|≤1e−10/η0 finite193三窗ordinary/right97/highbody/highcut四列全付。κ1/5 actualcap粗界cutdiag与det未过，无inverse列，不能推出实际奇异。FA5 sufficientκ阈值约.0029415074114，必须另证同图/角/mean/域的真实complete差低于原球下端，或另付经true97/Poisson的完整作用；不是已付cap差或必要阈值。不能由小角位移直接推L2算子小差，不能删mean或以缩γ自动删除旧χH项。
+四输入各自独立，g/p/a/c不互换，CS仅同一完整bound取min。新ν volume负输出≈.05928136/whole≈.12652741/cut≈.03594356仍不含旧response/真实ν边界/腰/particular trace。独立waist原96-row保，highbody/highcut还须真正高块inverse闭合。
 
-[S三真实HY→actual帽→完整low/high Schur](results/R133-supplement-true-Poisson-Grams-actual-cap-transfer-and-complete-low-high-Schur.md)保pY=√||HY||、ε=max(||S0||,1)||HC0||/5，τ=εp_cut<1才给actual有限边界转移；HY/(1−τ)²不可当新Loewner矩阵，无√97。新同δ有限反馈消费者进一步同时支付Dδ body与完整CS边界行，见下方F。actual high inverse GH的两输出、真ν Schur和全频2×2闭合仍未付。
+[PF完整逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf保全两row/oldI/错相−SI、函数root有限项0、g1hat=g1pt+g0dφ*及c0=X−′(Croot∘X−)，不能用旧scalar均值替代完整density。
+[CT正则密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保physicalχ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差分、全部mean/未知全频、c0=U_Pinv f̃−−f̃+；同旧R31的1/128+3B<7/128<1/16和e^(3L)/e^L付全initial/jump/residual。新consumer拟用已成δ0径向m0加已成δ参数导费支付mδ−m0，准确P⊥消A2并分离Bne/Cne/a_e；新signed reference须完整max(N+192,384)source与所有seam。actual完整H3尚待，旧scalar/ray/KAM不重。
+[AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
+[CN全圆周正规化](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2的Id+MwI准确逆保全mean/rank；旧linear-reference的μ²/4费保留。
+[EN完整指数正规化](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)ed2ff38e须直接signed验证R=ζUΩexp(McI)+Eexp0，才以exp(MwI)得base strong≤e^(26C)[Rexp0+67|μ|C/8+131C²/512]；C0无独立μ²仅因为reference已指数。旧Elin→新Eexp必须完整signed差，不准upper相减。
 
-[CN全圆周一阶正规化的显式逆](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2：T=Id+MwI可由实周期一阶ODE全频准确求逆，无额外小C或finite-cutoff假设；保两mean和全部有限秩。以完整c的C=||c−μ||H3、K0=1+2C exp(17C/8)，强余项Rexp≤K0[(1+13C)R0+3|μ|C+C²/16]+μ²/4，常μ的scalar-exp二阶费也全付；不把β/Xi标量代完整c。actual C/R0、真背景phase稳定、GH数值门和physical有限border仍待。
-
-[EN完整指数正规化](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)ed2ff38e给新条件路线：须直接验证完整 $\mathscr R=\zeta U_\Omega e^{M_cI}+\mathscr E_{\exp,0}$；$T=e^{M_wI}$ 全圆周准确可逆，全部mean/rank保留。两空间commutator/Trotter与scalar $\mu I$ skew给base strong $e^{26C}[R_{\exp,0}+67|\mu|C/8+131C^2/512]$。C=0无独立scalar平方费，因输入已是完整指数；CN旧linear-reference的μ²/4仍保。若从旧Elin转来，必须另付完整signed $E_{\exp}=E_{\rm lin}-\zeta U_\Omega(e^{M_cI}-Id-M_cI)$，不得upper相减。实际C/Rexp0、角密度高阶差、incoming/positive/root/head/全mean、高阶Sobolev/physicalfiniteborder/GH数值门均待。
-
-[AC真实共轭的完整H3 density转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46：旧43588332723的真实H′ A1/128界付H四导；c=(c0/H′)∘H⁻¹、μmean不变，C≤2^20||c0−μH′||H3，全physical4j/measure/有限rank保。完整c0−μH′的三导仍待，不能用c0−μ或β标量替代；不重KAM。
-
-[PF逐点root有限部与完整真ray首系数](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf：全两row/oldI/错相−SI精确消去后，Broot的函数有限项0；第二反项g1hat=g1pt+g0dφ*必须保actual Jacobian。Bρ=J+a+(H+)−J−a−(H−)，减g0ρ^-5/2及g1hatρ^-3/2后可积，腰部c0=X−′(Croot∘X−)。同root/waist方向、radial gauge、两mean和seam阶数全保；旧scalar均值结论不代非mean。完整H3 norm与强R0尚未actual，下一新函数消费不得重旧scalar/ray/KAM。
-
-[CT完整首系数正则密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463已独核：共同root有限项F*只在有序pullback后消，physical反项χ=g1pt+2g0dφ*/3；s=√ρ给A2/B1/d1等八项完整连续source，保mean/全384系数和未知解全频。新reference的残差必须收全max(N+192,384)及所有jump/initial错误。c0=U_Pinv f̃−−f̃+，实际H变换后P化实旋转；同旧R31 B/L在1/16的正domain门推B<1/64，故三路径1/128+3B<7/128；e^(3L)/e^L分别付minus/plus全误差。CT26完整signed H3含mean，旧scalarμ/169ray/KAM只恢复不重。新consumer可先全source或新signed reference；实际C、strong R0、trueincoming/positive/head仍独立。
-
-[GH完整强返回与physical high块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)：R:H(s−4/3)→Hs、χJ=128CsΛJ^-1/3<1才给正确graph域右预条件逆；高窗可由低逆bootstrap。C0≤1/32只是J97目标，volume不是Cs；phase投影与physical P96不对易，完整finiteborder/Schur、H16–17两输出和全部mean/source仍待。原raw A_HL的97..160支撑不传过old-circle逆。
-H1/Cδ/CS全97伴随及参数行费、Dδ完整体算子/actual43713242980的全部单位/域/来源保ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f本路径第2节及原文：L2伴随≤108/角≤2^16、K*另付max(sδ,1)cδ/5，无√97；D的e<1.049107e−5/eLH<3.071831e−5、新νwhole<4.324391e−6/negative<1.061687e−6仍非全ν。
-[F实际finite193合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)29a24167已部署公共SCI087f3971/workerbeae2544/manifest8bb821e8/floweb47ca85。13small306775B逐件exact，输入五件为Green final process+summary、Dexec、cut process+summary；无旧数学调用。15结构门仅验证消费完整性，两κ0/1/5的strict充分门须待实际新run。[[gB e,pBε],[gC e,pCε]]三det后才授sameδ三窗四列，CS只对完整row界取min、g/p/a/c及mean/high/whole/negative/cut分开；充分门失败不等于奇异。
-
-原P17–22/24/L9需同对象全频||qν−Z||L²([0,rplus])≤.005。
-P16保原physical第四Robin及mean，以ν解phase，腰振幅为输出；
-H22离phase的E′a现由[PD完整近似逆与quadratic defect](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173给准确一步式D FΔ=(f+r_f+rνκ,b+E′a)。rho15主gap保一导损aHs≤17wHs+1，Cs=(9/8)2^(s−1)付全mean乘积；raw b/J、完整regular defects与smoothing Taylor均保，不假设投影对易。S实际非零、真全regular逆/参数响应、D²tame/域与可求和迭代仍待付；小E′仍不授同阶Neumann。
-实际γ低A0及H8193、未知high trace、Ψ余项和真实core解仍独立。
-自由半面height/frame是同次几何输出，一般给定参数/荷不删。
-Green终态已成；同δ有限反馈新run及GH全部实际source/return/readout/border门仍待。
+[GH完整强返回/physical高块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)需R:H(s−4/3)→Hs及χJ=128CsΛJ^-1/3<1正确域右逆，J97/C0≤1/32只是目标。actual完整C/R0/Rexp0、trueincoming/positive/root/head、角密度高阶费/β稳定、physicalfiniteborder/两H16输出、所有mean-source均待；phase与physical P96不对易，97..160旧带宽不穿过圆周逆。
+[PD完整增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保DFΔ=(f+r_f+rνκ,b+E′a)、rho15一导损/真实第四Robin/mean/腰输出，actualS非零、真regular逆/ν响应、D²tame/smoothing/Taylor和可求和迭代仍待。小E′不授同阶Neumann。
+原P17–22/24/L9全频ν负[0,rplus]≤.005和||q*−Z||<4.572198020300e−6、实际γ低高域/全core/匹配/同一个最终曲面尚未同时闭合。
 
 ## 3. 真实共同参考、完整源与强返回
 

@@ -281,3 +281,13 @@ future/past/product/ports各5970，groups187；consumer0/1/2/3各72/66/49/0正�
 三窗各8整same-input方案选择original_true_body_nested；新dyadicweight方案没有更小，不逐entrymin。全g普通源gain与a specialized高→低、p与c不同。完整finite193和true97 conclusions已付，full infinite BVP/trueparameterSchur字段false。仍固定δ0/η0/ν0，metadata1e−9不授BVP族；selected δ须F新consumer，δZ/affine/matching/实际high另付。
 
 末真pull16:39:26.131536→b330ccefd4437249abf64ab09a37cf7b1147940b两README空；capacity发布base02a9dded 199446464B/14260blob、ownedHEAD199446714是当时快照（此前清理已另推，非当前体积）。root只读README核b7f8eed5c427e76a3e7568f4815a5da660e13588。
+
+## 2026-11-15 16:55:52 UTC — F实际同参数有限反馈：固定原帽通过，实际帽粗差未过
+
+独立发布52751bb548c4ebd0526df0e655f5d3e78c524ee6579c283f9d9028ab7f752eb9（11827B/blob4ab572dbdba48594ba1c74d0cdf476c072043650）。公共run43737257903/1、job132882484429、head506de085110d7249a7641b13e0b8cd715ad3cab9，16:45:30–16:46:21 success，child0/十五结构门。数学0.005821319999995467s，child1.0018431219999684s，旧矩阵/Gram/target/Fourier/积分/Green/Poisson调用0。
+
+root完整读execution/science/report/证明/全部job，45球42unique逐字匹配，13原pin306775B与原五science身份全核。execution35578/9c7710ec10d8826320ba6d1cdee204884728b224944d5eb181e7e00a0c257e10；report7896/ed6f8cb285c33b4d895224cbced25d76deb8d04cabaf6038b56b02944be06635。原科学canonical24118/1596b511a3867cf677f060f4f7414d37007f4dff690e5c063da292b2da1edc85、preGit41038/c9b011cad3c7bd3deb4bf34b71e50ddb01cfbb4c7912b3610e2e199bc1b8c0af均由原对象无损复原，非新数学。
+
+同δ≤1e−10、η0、unscaled raw pair/normalizedcircle/fullmean/whole ordinary与true97行不改。CS完整shape/mean ε约8.209067e−8；κ0的body/cut/det三门全pass、det约.76510868，三窗ordinary/right97/highbody/highcut四列已付。κ1/5的cutdiag/det未过，全部原球保留，不做不正分母除法，不推实际奇异。FA5 sufficientκ球约.0029415074114仍待真实完整cap差严格低于其下端；小位移、删mean或缩γ自动删旧χH项均不合法。νvolume负≈.05928136仍缺旧response/真实ν边界/waist/particular。完整high/physicalγ域/全core未获。
+
+runner16:46:03.039673及16:46:13.772334真pull均到506de085，两README diff空。其199616270B projected为后续五文件清理之前快照。root本次只读双README核1a33c440ac3ec69324c26b3db815ce7f2be2f5f2仍同blob，非真pull；本机CLI无环境的定时义务保留。压缩前H/open/results/log逐字保2c75543b97a390b04b129ac0ddeacd18fa4bd200同path，递归历史完整，未删域/失败/源单位/未付义务。下一真实97 cap差/左腰非线性receiver，与正Airy和完整c0/R0并行；总标准未达继续。
