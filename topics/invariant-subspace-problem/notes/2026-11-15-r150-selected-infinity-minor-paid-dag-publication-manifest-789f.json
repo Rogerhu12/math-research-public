@@ -1,0 +1,108 @@
+{
+  "format": "r150-selected-infinity-minor-dag-publication-v1",
+  "status": "completed",
+  "actualRun": {
+    "elapsedSeconds": 3.7713792550057406,
+    "hardSeconds": 10,
+    "memoryMiB": 512,
+    "exitCode": 0,
+    "pythonFlint": "0.9.0",
+    "selectedConstantRank": 985,
+    "selectedConnectingRank": 3,
+    "selectedMod31SchurSize": 36,
+    "selectedDeterminantInfinityOrderLowerBoundModulo31": 69,
+    "char0SelectedConstantRankProved": false,
+    "oldNormalFormsRecomputed": false,
+    "oldFullInfinityJetRecomputed": false
+  },
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-minor-paid-dag-789f.py",
+      "blob": "23beb48b90396c09cdd2b8f13491a3a26ca196b5",
+      "sha256": "1ccac621f5e5ea7414b560ab98968f34fe732fbcb70464759e57a1f0dca94e13",
+      "bytes": 19665,
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/2026-11-15-r150-selected-infinity-minor-paid-dag-789f.py"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md",
+      "blob": "4fdc331737a6c2274964acc9fb3880fb2f952f4c",
+      "sha256": "78cf3a99a8916c6c8a4b676ceed11f59eaecdc2121f08600fb93431ac78778e8",
+      "bytes": 10079,
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-infinity-minor-dag-receipt.json",
+      "blob": "c274db3e884f35acc64266b1ab8c64c05608900a",
+      "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68",
+      "bytes": 75700,
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/selected-infinity-dag-actual-789f/selected-infinity-minor-dag-receipt.json"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-constant-in-paid-basis.bin.gz",
+      "blob": "f3aca1915aede53e27636df3ec34badd7094e591",
+      "bytes": 261178,
+      "sha256": "89664e904e9a1dafce1b00a673003a0a7b4dd7e61ffd4e40780e3ef6f580dbdb",
+      "uncompressedBytes": 1028167,
+      "uncompressedSHA256": "5f8d9b3748b9275d1d916b2c5a5c1b5b2fdf6a5e61c322caaa6a8d9a24cadc3f",
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/selected-infinity-dag-actual-789f/selected-constant-in-paid-basis.bin.gz"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-first-adjusted-in-paid-basis.bin.gz",
+      "blob": "7eac87a6001cc31d8a5e99dc19f06e9de09275ef",
+      "bytes": 134610,
+      "sha256": "266cc9c2e8d9d43c77a63524228cd3ddc1ac46efb81836e0d1409ed9dab94d5b",
+      "uncompressedBytes": 1032251,
+      "uncompressedSHA256": "394defe61b1f0e0b798caf9b817d69f7b913ca6c9521758f218ee3830bb48291",
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/selected-infinity-dag-actual-789f/selected-first-adjusted-in-paid-basis.bin.gz"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-constant-source-kernel.bin",
+      "blob": "4a0eaafcea642ba4bac2cf22423ab6920cabd118",
+      "bytes": 36776,
+      "sha256": "aff9aad0db90b744e05068018b9007ffb743e3078f34cc6e2dffc0fb8327c9a9",
+      "uncompressedBytes": 36776,
+      "uncompressedSHA256": "aff9aad0db90b744e05068018b9007ffb743e3078f34cc6e2dffc0fb8327c9a9",
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/selected-infinity-dag-actual-789f/selected-constant-source-kernel.bin"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-connecting-before-quotient.bin",
+      "blob": "54fac6fc4d94ae4978f114cfaeb45f84804be16a",
+      "bytes": 36416,
+      "sha256": "5a8a408bddf76a50e0d48b98e351e61778e62afae0a56f25178f908edac4fc5c",
+      "uncompressedBytes": 36416,
+      "uncompressedSHA256": "5a8a408bddf76a50e0d48b98e351e61778e62afae0a56f25178f908edac4fc5c",
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/selected-infinity-dag-actual-789f/selected-connecting-before-quotient.bin"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-connecting-after-selected-quotient.bin",
+      "blob": "e26875cdeb2d92680587fdd3aedfa047de591ca0",
+      "bytes": 36416,
+      "sha256": "9ece49fe153e634784b3fa3d80ea2c0a930169727a283f9036e0b3f640f2692d",
+      "uncompressedBytes": 36416,
+      "uncompressedSHA256": "9ece49fe153e634784b3fa3d80ea2c0a930169727a283f9036e0b3f640f2692d",
+      "localPath": "/workspace/scratch/789f3e887d7c/normal_s2_next/selected-infinity-dag-actual-789f/selected-connecting-after-selected-quotient.bin"
+    }
+  ],
+  "inputs": {
+    "graded": {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-graded-pivot-profile-789f.json",
+      "bytes": 90567,
+      "sha256": "d5c1a753a3869a702a84d723a4fb7b68c778e19e2fc7d0a4e4b55fe95327a0b9"
+    },
+    "core": {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-163-core-profile-789f.json",
+      "bytes": 20633,
+      "sha256": "95bfdf3fdbfd5146ae84557fbe73b6538b5e0291266d373013031f0c54b8dc8d"
+    },
+    "receipt": {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-receipt-789f.json",
+      "bytes": 72072,
+      "sha256": "d904b1afcd6feb6d07e310e758869aa345342f7d013773aa0c433203291c438e"
+    },
+    "operations": {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-operations.bin-789f.gz",
+      "bytes": 4706546,
+      "sha256": "bfcc10520abedfab362b91adc6414481660d4a951aae0d7dfd13da3efba4e3ec"
+    }
+  }
+}

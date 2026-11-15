@@ -10,13 +10,13 @@
 
 ## 当前执行
 
-2026-11-15本地执行器恢复；旧工作树的/dev/shm Git目录已失，原文件全部保留不改。独立math-research-public-main浅clone后实际pull到5eedb0f30ff0a3ddbfb2b837628060fa918774c8（00:02:13 UTC观察完成），两README blob未变；API只准备，root Actions仍实际pull/rebase/push。磁盘仅约240MB可用，大数学继续本库Actions，复用全部已成数据/cache。root独占主线；normal接完整Bsat高页，boundary/literature接固定测试同源恢复。
+本地执行器已恢复，旧工作树原文件全部保留；根以独立sparse clone及本库Actions完成真实pull/rebase/push。大原式任务在Actions，明确10秒/512MiB的所选∞DAG小任务已本地完成；全部旧执行/恢复来源保[前H](notes/2026-11-15-handoff-before-selected-infinity-dag-789f.md)。根独占main和共享索引。
 
 ## R150：全第三九局部正，已接六槽原式全局恢复
 
 全部旧来源/SHA/常数保[上一完整H](notes/2026-11-15-handoff-before-original-six-slot-global-entry-789f.md)及递归快照。原A为6188源/4367输出、泛秩4354，h0度24与H0=(s−2)h0不同；char0像归属未证。
 
-**既有全二/三页已付：** [第二](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)rank4、J2=2I4、208完整后继源核，run43662590949/data d6e44520；[目标线](results/R150-appendix-saturated-second-target-eigenline.md)九余为ρ2的[1,28,16,11,7,7,4,1,11]倍。[第三](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)run43664532571数学91.020765506秒，208真来源/原17五次整除/104自由/全315九正身份全真、像rank2，ρ2用20011+16·20012及四第二/U9修正；197恢复已实际推cef83145。完整artifact/SHA/运输记录保[本次前H](notes/2026-11-15-handoff-before-conditional-source-cost8814-789f.md)及[实绩](notes/2026-11-15-r150-complete-third-local-positive-actual-789f.json)，不重旧页。
+**旧局部层全保：** 第二像rank4、208后继源；[第三](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)像rank2、九局部全正，全部原17/104/315身份及197恢复已实际推cef83145。[前H](notes/2026-11-15-handoff-before-selected-infinity-dag-789f.md)保完整run/SHA/共同目标线/原来源，旧二三页不重算。
 
 **[六槽实际1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)**：所选第三父ω3…8整数系数[344,409,327,102,1,16]；七raw q1、四真W2、一个第三主源、一个D2，成本177→373→469→665→761→957→1053→1249→1345。q1的s/t规范须同步q2 carry；中间p4仅U7/真p3 κ8/真p3 D2，不换未缩放κ9。第三改选差在完整W2，四次真P与所有315/505/原17均保。
 
@@ -24,11 +24,13 @@
 
 **最新实际首续：** run43669639448/job132676599537、source30889164，data73587b603c8aaf902392b14aa654f3038d648321已实际推。9旧cache全复用，8新阶段全成；数学300.294054131秒，five-q3-VQ保存451像行后exit124。六L3原17模31³整除全核、实际费466；再P后662，全505自由和315坐标/修正身份全核，真D2全局第六槽已保存，原D2差在U7系数[21,23,0,0,0,0,0]。209恢复1346656162B、153二进制条目全保，零旧页重算；recovery14143313908/SHA3aa7da49…，results14143094507/SHA11595f68…。[完整实绩](notes/2026-11-15-r150-saturated-third-global-resume1-actual-789f.json)，九最终原式仍未完成。
 
-**立即接第二次续算：** [同源请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)只读最新两包，保全部17完整cache和451行partial，五有界编译/共享300秒/子1024MiB；数学源/contract不变，新增小回执上传以尽早读真实状态。唯一成功仍九原17模31⁶、六辅助/315/505及九实费≤1345全真。限额只产生checkpoint，不结束研究。
+**第二次续算已启动：** run43670796654/job132680153887、source3493809f； [同源请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)只读最新两包，保全部17完整cache和451行partial，五有界编译/共享300秒/子1024MiB；数学源/contract不变，新增小回执上传以尽早读真实状态。唯一成功仍九原17模31⁶、六辅助/315/505及九实费≤1345全真。限额只产生checkpoint，不结束研究。
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**已证：同一B/e/目标于无界精度可解⇔有限Z_(31)来源精确可解，无需逐级相容；允许B增长不成立，1−31s例固定B精确阈n≤e+B+1。u(u−31)展示∞纤维秩相同仍长度1→2；当前1345只一精度任务，不能外推char0。接续必须保固定真实B或支付完整项目化/∞厚度。
 
 **[条件来源界8814](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)：** 原非零4354子式自然H8770、60≤degD≤8770，完整adj移列/余式整理证明h0九目标若在Q[s]原模可解，即有成本≤8814解；δ=a−10、maxa55、τ≤64全保。此为成员性的有限界，不证明成员性或固定31分母。若额外lc(D)是31单位，模31ⁿ零因子环也可同界降度而保e，全精度才可接固定B下降；该单位条件/∞消失阶相同尚未付。
+
+**[同一原子式∞新实绩](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)：** 唯一10秒/512MiB任务实际3.771379255秒，旧NF/完整∞一阶不重跑。所选1021常坐标rank985，原4354方阵常秩4318；保完整P投影并只商所选常像后连接rank3，模31余块36、3阶一/33阶≥2，v∞≥69。5矩阵和全来源核全部保存。char0仅4318≤rank≤4340，不能称14块或lc(D)单位；继续额外22亏损的原char0常块。已知char0 rank≤4340又迫全部adj在∞至少13阶，条件成本界可加强至8801，仍不证明实际成员性。
 
 
 ## 实际边界：同源两费与完整返回
