@@ -149,3 +149,6 @@
 
 
 [最高CM投影与椭圆平移](2026-11-15-cm-top-projector-kills-elliptic-translates.md)：在原E0³的真正最高CM Chow投影π+³+π−³下，所有椭圆子群平移及亏格一曲线像均为零。Fourier精确给degree-three分量a↦F⁻¹(c1(P_a)F[B])加性；对角ζ6保持任意B，Φ6作用由点群传到该分量，而最高投影上ζ6=−1，故3倍等于零。有限Artin扩域/res-cor保此消失；仅排literal低亏格图形表达，不把抽象Mλ同构当cycle映射，不消高度坏位补项，实际高亏格对应/跨p仍开。
+
+
+- [R838](../results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：对原f的完整critical块，Coleman权二quotient及Hsu I²维二给A_p=E[t]/t^e、exact=mM；选真正良好惰性ℓ*使t=Tℓ*，不用e=2附加门。最高泛函a1(Tℓ*^(e−1)Pcrit Fν)准确读原Ξ02两项的cohom商，三端点AJ共用同一非零P_f,p,ℓ*/(1+barπ/π²)，全old反对称矩阵和X1/1632等尺度保。完整归一代表/所有有限系数权已付；Pcrit随p并可读无限尾，不能将低于p的未投影卷积当此读数。未证指定系数非零或R814 canonical比例。
