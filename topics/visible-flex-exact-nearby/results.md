@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [固定内窗第一 Airy 修正完整源实际续算](results/R133-supplement-actual-fixed-inner-first-Airy-complete-sources.md)：公开43657933806 child0/17门；两旧stage逐字复用，新增4转换/4积分、0旧数学重算。负/正完整源上界2163674680531/2163193978865，九词、独立mean、raw μL0w1、原dr全保；局部解析Fourier费仍粗，不授strong return或全ν门。
+
 - **R133 全方向有限193 Green 双扫描合同与执行入口（2026-11-15）**：[G.1–G.10](notes/2026-11-15-R133-complete-directional-matrix-Green-contract.md)。完整 signed Q/W 协方差、同 Q/R 的准确换基、two-dyadic V 真跳、全体 ordinary 残差、真实96/97边界及独立 cut trace 已在同一后验恒等式中展开。两128源通道只在最终作算子三角和；原F/Gram/ports不重算。234pin入口接实际5970同F矩阵成功结果后在公开Actions计算；本条不报告尚未产生的双扫数值，也不授无限BVP逆。
 
 - **R119 闭mean真实兼容及完整 fixed-C_R 规范逆（2026-11-15）**：[Z1–28](results/R119-supplement-new-closed-mean-compatibility-gauge-and-complete-fixed-CR-inverse.md)。在实际物理平端高度有限、total mean flux为零的域上构造全源 generalized inverse；强source方程闭合 mixed mean，真实兼容恰为 La g=0，核恰为一个物理常高度方向。最后根准确密度/通量式证明 Laσ≠0；指定高度后与Y同权的全频解界<2。原强source/label与帽内 C_R 响应仍须联立，未声称完整PDE或ν门。

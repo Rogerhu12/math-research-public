@@ -33,3 +33,9 @@ root在phase最终source上仅补四个已算normalized forcing向量真正落�
 64pin science0b0dc7b3b5c747dd8935f77c75554c60f2b08fd40a6cf5dd27c7c81f5c945fbf/40131B、CIe52145f7…、workerd54335e6…、manifest76faab17f11d84dd47e5f4e71695393deba10d6a962ac648ce0b8f3b5a91786b、flow722bb4a9…。原59除两个新读取入口外57pin全无变化，原28/23完整保；两原source/manifest另原blob归档。
 
 root已逐字核原完整数值函数前缀45af989916129a4d193e6ad948cc2c83d9a5428c9f8181161b4bafe47c3413df与all_airy闭包b0b627aaa4ca7edcb14c64f1fcc534a56d565b1e17627420714b44bb3d11406d均不变。只接收原失败run43656438723精确native/process/source/manifest、原9门和两payload9809a086…/1f46b066…；仅deepcopy这两stage，0旧matrix/积分可继承，全部其它异源前缀仍拒绝。下一公开run只做缺失转换和积分。失败与全部原native保留，两README核c337fbad640298d5cdffadb1451746fbdd773662，全任务未完成。
+
+### 2026-11-15 00:31:53 UTC：内窗实际17门与完整源独立登记
+
+已核run43657933806/process e54c7505…、worker41536fc3…、publication05322dfc…；child0、数学proved/complete、17门、新4转换/4积分、2旧stage原payload不变、0旧target/FFT/Taylor/矩阵word重算。native6b5e6c64…25724B原样保。负完整源<2163674680531，其中local<2163671470697；正完整源<2163193978865。该upper没有足够小且不是下界；root继续原Taylor真实局部θ二导和全尾。17门是身份、覆盖、完整源范围门，不是强返回小量门。
+
+runner00:24:04.151912真pull4aea83bc…、00:24:06.346016真pull731044d9…，两次两README实际diff空。root00:31前再次尝试本机git pull --rebase，仍No usable execution environment；按根规8仅小文本connector，未读取native。发布前只读两README核于7edb0a269e4b2e73f24fefef7ba4017dbf2e46d7无变。H/open已更正旧local数为归一化幅度sup、并接Y/Z后真正强标签/帽/ν缺口。下一工作继续，未收尾。
