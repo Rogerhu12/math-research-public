@@ -116,15 +116,11 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R224](results/R224-even-germ-ruling-invariant-and-positive-epsilon-obstruction.md)已付完整偶germ/history只改W_e；标准k=ω0及[R228](results/R228-growing-curvature-even-germs-retain-the-original-circle-obstruction.md)的C≠0增长曲率偶族，b0原八包均由旧c6严格排全允许宽度。只延拓局部解析身份，不延实际路径；一般b/新圆不继承符号。[R227](results/R227-realizable-quadratic-k-even-ports-and-the-exceptional-germ.md)付非零ke、C0例外安装；[R229](results/R229-p2-energy-boundary-identity-for-exceptional-germs.md)付其pure候选四次消尾；[R231](results/R231-complete-mixed-leading-gate-for-the-exceptional-even-port.md)保完整局部/chain/真history，得到Lc=E(Gff,Ggg−Gff)、Ls=E(Gff,Gfg)。
 
-[R232](results/R232-original-eight-packet-exceptional-port-obstruction.md)现消费43699241372/ee9e2098首次实际：13新toy全过，b0原八包Lc<0、Ls>0，四正根槽同号及16bit严格有理区间双证，严格排所有可容正宽度的例外germ及已付C∞近邻。保Gff真实左尾/14段/跨包正交，只算两新能量，不重旧c系数。改圆的首步见R233，继续完整次层与joint；不继续改变同原圆的宽度或预算，也不泛化成全部C²障碍。
+[R232](results/R232-original-eight-packet-exceptional-port-obstruction.md)已消费43699241372/ee9e2098：13新人工、Lc<0/Ls>0与16bit严格分离全过，排原八包全可容正宽及已付C∞近邻。真左尾/14段/跨包正交保留，不再改变同原圆宽度或预算；不排全部C²构造。
 
-[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)/[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)已给三矩/完整第三及LcLs0的不可GL2分离新圆：两个不交同构block用α、π/2−α，真实尾E(x²,Z)=0后四射影方向保留。新的第一F另冻结新gε，旧首g0/F8不继承；不把领先双零当joint。
+[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)/[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)已给三矩/全第三/LcLs0的非GL2新圆，目标F改变后另冻g。后继[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)/[R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)保真尾以简单根IFT准确付四能量；这些已付门不重算，全文保留。
 
-[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)保真尾把h²σ6层归为Z=U−PV/Q；互补双block给Mc=−4tZ、Ms=0，该门已由R239准确IFT解清，不重算。
-
-[R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)以固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，在三矩/第三准确族内解真实UQ−PV=0。归一延拓D0(ζ)+δR在δ0的简单根给有限正δ准确IFT零，P>0/t非零；双block完整四门0。
-
-[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。联合(q,ε)真实IFT开域支付参数选择，Morse随后；旧F8不迁移新圆。六门已结，不重算；R243有限化后，R249已用完整面积排除这份共振实现。
+[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)保完整第三history和循环尾，在共振ε=κ²/4准确付另两能量；联合(q,ε)真实开域IFT/Morse已付。旧圆六门均完成，但R249–253完整面积已排整个例外芽族，不再把六能量零当完整解。
 
 [R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)已将整个例外ruling偶部化为准确有限条件：消1/z后的全部真尾/history闭包X′=(N+2εσD)X，非零输出ord≤n(n+1)/2−1；先扣We的0/2/4 jet，再验剩余有限偶jet。五相位谐波及真实初值保留，不假生成函数独立；尚无实际n或新符号目标值。
 
@@ -132,7 +128,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；四次规范和互补两角成员门已付。
 
-[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)真Gaussian词与完整area已付；[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)关闭两参数曲线，[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)再以y=x+b/共同锚平移覆盖任意实b。c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，旧互补双block的复2×2迫两个不交支撑的真实质心相等，矛盾。故当前R239偶微包圆在全部κ≠0/ε>0/b实的例外芽族均排。**下一全θ外槽与能同时付全部矩门的不同profile/真实芽；不重旧六能量，不只移动参数。** 一般复矩可相消，不宣所有三矩圆无解，也不把跨b改变g称同g。全period/同w joint继续。
+[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)/[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)/[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)已用完整area与同移锚把R239旧圆全部κ≠0/ε>0/b实芽排除：c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，复2×2使两不交真实质心相等，矛盾。不排所有profile，不冒跨b同g。
+
+[R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)把A−2,−3从pure升级整个固定圆：保完整D=f²−φ²及左常尾，在共振第三闭后以三个真矩全θ零给十个准确条件。新40偶微包用三射影方向准确付三矩与该完整面积，八完整复制付第三且非GL2分离；换种子反例pure两矩零而全角m1(π/2)=−120C。**已知未过门：同圆Lc=−20Σ强包S_i<0，不能作为候选。下一调整微包宽度/形状使S_i/C_i不同，联合该面积十条件、Lc/Ls及其余完整面积/全部能量；随后同w period/ruling。** 不能只加角方向、只验pure或把全角单面积零冒完整joint。
 
 ## O1：双圆领相位机制，保留备选
 

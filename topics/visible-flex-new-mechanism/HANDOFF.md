@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。远端检查2026-11-15 11:18:14 UTC/`fa35c182eb4e6f4e17894fec7fbae748086e079d`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。远端检查2026-11-15 11:25:21 UTC/`d6caf110237dc1223bb7fc9b0d3c65757b21a119`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有最后实际pull2026-11-15 10:17:36/read `1fd7800079cfee8a43ff6ec4a187f6f9124abc86`。11:13:43 API/read `fba7100f73f20172d8753a438c25abf560acbe22`根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行本会话进行中；该API检查非实际pull，环境恢复立即补。
 
@@ -18,11 +18,11 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**103/154历史**：η.266510751964/.266522577918；原源/门/漂移/费用已归原actual，不重科学。
+**103/154历史**：原源/门/漂移/费用见原actual，不重科学。
 
 **159首actual已全消费**：43701558227/ef8c1cdb/job132773631115，见原actual。新开发/33来源全过；c9a5 η.266520536442→b429 .266491207122，降2.93293e−5但未.26/1e−4参考。8主/1SOC、8接纳，20值+2末值，活动120.313/总896.907秒。m6仅fine8曲率失败被SOC修回而旧规则仍减半；原双网/准确九盒过、帽高仅tol、外域jets0/g/b0不变，κ57.9999896仍欠reach。
 
-**SOC持径首次恢复失败已消费**：[失败](notes/height159-soc-hold-first-restoration-failure-20261115.md)43705209195/9ca83546，六恢复919.703秒；159初值1e624两网全门过但0LP/0活动秒，hold未调用。generic遮原stage.error且清理，原因未知，不记持径阴性/漂移收益。[诊断修复](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)仅新driver17256713保原status/error/池/预算到stdout和失败meta；六旧源/成功状态要求/门/容量/98args全不动。根与tail全文diff审；公开先8新增字典检查，不重已过15，再六必要恢复一次/未计算hold。此提交待首跑，不宣修复原未知异常。
+**SOC持径恢复诊断在跑**：[首失败](notes/height159-soc-hold-first-restoration-failure-20261115.md)43705209195/9ca83546六恢复919.703秒；159初值两网全门过但0LP/0活动秒、hold未调用，generic覆原error使原因未知。[最小修复](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)仅driver17256713保原错误/已有池/预算；六旧源/成功handoff/门/容量/98args全不动。新run43707849695/sourcef9d8da4e9a7b783caa51b6da4790c473fe471920/job132792751708仍运行；先8新字典检查，不重旧15，再六必要恢复/未计算hold。尚未消费新完整日志，不宣修复原异常或持径收益。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -34,17 +34,17 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R223/R227真实Morse闭hook与例外端口已付**：M0/TκH、frame/Klein位移闭合、pure0/F8=0、全h Morse。R227在非零ke端口装h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h；先三维末frame IFT，再八M+真omega九IFT、全E IFT。内部omega保真实积分，原U/完整T保留；设计一般改g。
 
-**R229–232主层已付**：43699241372/ee9e2098准确付原八包Lc<0/Ls>0，真G左尾/local/history保留，排原圆全允许正宽度及已付近邻；不同circle/profile仍可研究。
+**R229–232旧主层已付**：43699241372/ee9e2098严格Lc<0/Ls>0排原八包全允许正宽度及已付近邻；真左尾保留，不排不同profile。
 
-**R233/R235/R239四能量已付**：偶χ的四节点/八平移准确保三矩与全第三，归一能量的简单根IFT给有限正δ、P>0；互补双块非GL2分离，Lc/Ls/Mc/Ms0。新F改g，旧F8不继承；该圆的小正例外芽现已被R249/R251完整面积排除。
-
-**R241完整第三层/共振已付**：真第三history/循环尾保留，R239圆在ε=κ²/4付六能量；联合(q,ε)开域IFT/Morse有效。但R252完整area已排此圆整个ω=κ/h、ε>0族，不重六门。
+**R233/235/239/241旧六能量已付**：偶微包四节点/八平移与互补双block给三矩/全第三、非GL2分离；简单根IFT付四能量，共振ε=κ²/4付另两能量。joint(q,ε)真实IFT/Morse有效，改F后另冻结g，不继承旧F8。该圆全部例外芽已被R249–253完整面积排除，六门不重算。
 
 **R243完整偶部有限判据已付**：R56消1/z，R[σ,H±1]及真history≤2；X′=(N+2εσD)X给非零常行ord≤n(n+1)/2−1。扣We三矩后有限偶jet全0 iff入We；五谐波/真尾保留，无实际n，全period/同w仍欠。
 
 **R245完整block/历史已付**：第三闭块四阶forcing按a⁴可加，平移≤10/旋角0,2,4；Gaussian历史21生成元。均匀旋角平均及Prouhet有限实现主层严格负，不排非均匀策略。
 
-**R248–253面积已排旧双block全例外芽族**：真实Gaussian字母/21历史独立，完整area=−2E(q,[Bs,Bt]Δ)。c≠0迫M4=0；c=0且N1=0迫M1+bM4=0。R253同时y=x+b/锚平移，真实分子/全部history/We均共轭；旧互补双block的非退化复2×2迫两实质心同−b，与不交包络矛盾。故当前偶微包圆对任意实b、κ≠0、ε>0都无完整第四ruling，不授任意圆/germ或跨b同g。下一不同profile及全θ外槽，不重旧六能量。
+**R248–253旧双block例外芽已排**：Gaussian词/21历史独立；完整area=−2E(q,[Bs,Bt]Δ)。c≠0迫M4=0；c=0/N1=0迫M1+bM4=0。y=x+b/锚同移保全history；旧互补双block复2×2迫两不交正密度质心同−b矛盾，故任意实b/κ≠0/ε>0均排该圆，不排任意profile或跨b同g。
+
+**R250全角新门/40微包已付**：完整A−2,−3保D=f²−φ²与左尾；共振第三闭后面积等价三个真矩全θ零，纸面归为十条件。新40偶微包配角准确付三矩及三个面积矩，八完整cube复制付全第三，非GL2分离；换种子(g,−f)保pure两矩而m1(π/2)=−120C，故pure门严格较弱。此新圆仍Lc=−20Σ强包S_i<0，明确不是完整候选。下一不同宽度/形状联合全部能量与其余面积；不重旧圆。
 
 **第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 

@@ -158,3 +158,6 @@
 
 
 - 2026-11-15 11:18:13 UTC，Astra-new-mechanism-9974ea84：R254完整28761B/414d488d/blob941cd8cb根与tail独立全消费8actual。root提取两COMPLETE_REPORT末换行重算元数据SHA与receipt逐件同，核19绑定、8公式及94个原根/代表SHA均在正文准确保留；全文重读R17915431B/f995fb7d的Euler最高jet/packet包含排除/局部系数自由证明，故18必要pivot可升真实dim，不据标签猜rank。Z71的V6⊕V2只用原模/完全可约，不扩八χ δ闭性。新发布R254即接完整hook；不重旧列。results.md原90841B将既有R151–R231同期条目原文归59555B新索引，当前缩至约33KB，早期/新链接全保。R253已a82c046a首推；诊断run43707849695仍在运行，未冒新人工/actual通过。
+
+
+- 2026-11-15 11:24:49 UTC，Astra-new-mechanism-9974ea84：R250最终21152B/f70e33da/blob77741cbc根与literature全文独核后即推。根已逐核m0/m1、全θ十条件、40配对节点与quartic矩、八完整复制及Lc真实总边界；本次只读相对已核稿626B新增换种子反例并核−120C，无旧证明重跑。full-angle单面积虽准确零，Lc严格负，明确非完整候选。R254已cbc8a3e9首推成功；SOC诊断run43707849695仍in_progress，修正H旧“待首跑”为已启动未消费；未冒新人工或actual通过。环境仍失联，按根8小UTF8原生提交，API检查与实际pull分记。

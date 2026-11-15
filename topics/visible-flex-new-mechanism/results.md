@@ -165,3 +165,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R254：八个准确对角提升、真实十八维像与完整第三核类型
 
 [R254 完整实际与证明](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)消费43707570035/source28217340/job132791905419全部stdout与receipt，八个γ在原28交换子顺序的准确公式和全部有颜色χ原根已列。每项先形成原χ再fresh三槽对角，8原差全零；未由raw项非零推完整非零，而用R87商独立。18必要旧参考都得准确pivot且全过R179余letter语法，根重读其整个普适同锚单射证明，结合R208已付18上界得到dimΔW=dimΔW71=18、dimZ71=10、dimZ=18。R247完整模与hook七串给Z71≅V6⊕V2，只类型而未预给余三原式。八χ直接补空间并具体化R_p0=(R71∩kerπ)+B(E,spanχ)，64响应定义非rank，零新第四响应/旧151编译/旧P1。真实actual0.279049661秒、RSS30.00390625MiB，83+67primitive、6117被监测有理调用；8新增人工另0.13939秒全过。主件29457B/79f3fd82、dev4501B/71f95df8与stdout原文重组和metadata回执精确一致。完整period/gauge/signed成本/同w joint未付，接下一项；此提交仅同时将既有R151–R231人类索引原文移至独立索引以守100KB，全部完整证明/实际不改。
+
+
+## R250：整个圆的准确面积十条件与三方向新微包边界
+
+[R250 完整证明](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)从完整Kθ保D=f²−φ²，A−2,−3的系数为+2Eσ(φ,[B−2,B−3](φ;D))；在真实共振第三闭后归约tθ=J[(cf″+sg″)((f″)²−(cf″+sg″)²)]。完整左常尾保留，三个真矩以不同H幂独立，逐角精确等价十个标量条件，未把pure第四谐波两矩当全角。导数分包类使m0恒零，full m1准确要求A4=5C4、E4=C4、B4=D4=0；40个同偶profile用(√5,1)/(−√5,1)/(0,1)三方向与配对节点准确付三复二次矩和全部三个面积矩，非GL2可分离。八个完整包cube幅复制再付四条第三ruling，真实joint(q,ε)IFT可安装共振germ；这是新F/新目标而非旧同g变化。换种子(g,−f)保q̃=−iq及pure两矩零，却给全角m1(π/2)=−120C，证明full-angle严格强于pure。最后保真G_i左x²尾，只对紧的总第二槽消边界，得到本40包Lc=−20Σ强包S_i<0；S_i=∫x⁶(x²u″−2xu′+2u)²(u‴)²/64>0，故它没有通过完整能量门。root与literature独核全篇及新增换种子边界；无新求积/运行。继续不同尺度形状的联合构造与其余面积，不将此单面积抵消写成完成候选。
