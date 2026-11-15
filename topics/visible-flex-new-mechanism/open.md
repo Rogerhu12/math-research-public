@@ -10,7 +10,7 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[103首轮](notes/entry-body103-first-actual-result-20261115.md)43691833140/2f25b5aa已全消费：末η.26651075196396212，固定外峰余下降低于最小drop；不延预算，完整门/费用见原note。
+[103首轮](notes/entry-body103-first-actual-result-20261115.md)末η.26651075196396212；固定外峰余降不足，全部门/费用已归原note。
 
 ### 159首轮已消费；下一成功SOC的严格条件持径
 
@@ -120,7 +120,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)/[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)已给三矩/完整第三及LcLs0的不可GL2分离新圆：两个不交同构block用α、π/2−α，真实尾E(x²,Z)=0后四射影方向保留。新的第一F另冻结新gε，旧首g0/F8不继承；不把领先双零当joint。
 
-[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)已把完整h²σ6的两门归为Z=U−PV/Q，双互补block等幅给Mc=−4tZ、Ms=0；完整local/history和真尾皆保，不能靠正幅/伸缩另调Mc。该门现由R239解清。
+[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)保真尾把h²σ6层归为Z=U−PV/Q；互补双block给Mc=−4tZ、Ms=0，该门已由R239准确IFT解清，不重算。
 
 [R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)以固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，在三矩/第三准确族内解真实UQ−PV=0。归一延拓D0(ζ)+δR在δ0的简单根给有限正δ准确IFT零，P>0/t非零；双block完整四门0。
 
@@ -130,9 +130,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R245](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)已付完整block全四阶a⁴可加、平移≤10及旋角0/2/4的55生成函数；四Gaussian原函数及其积/面积共21个Laurent模生成元，n≤(a+1)[21(M−m)+45]。均匀角平均领先门严格负，4^11个Prouhet完整不交块的准确位置矩匹配亦保该负值，不能用均匀配角消门。
 
-[R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；复Fourier4=P/16、实幅P/8，互补两角门等价于各block实偶成员。
+[R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；四次规范和互补两角成员门已付。
 
-[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)现完整判此类失败：四Gaussian字母模DF独立，真实21长度≤2词亦独立；三次history是反对称面积唯一来源，局部/chain/Z²不能补其系数。共振ε=κ²/4的A−2,−3槽非零常数乘E(q,−J(q″³)/3)，必要M4=∫q″⁴=0及m2*=0。R239小正δ构造cos4α>1/2，双block ReM4严格负，排完整第四偶部及合法C²近邻；六能量零仍真。**停止用这份±微包互补双块和同共振芽追下一增长层。下一：全θ面积的完整外槽约束、其他可实现芽、能准确付M4/m2的不同profile方向。** 普通复四次无普遍正性，不宣所有三矩圆无解；全period与同w joint继续。
+[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)现完整判此类失败：四Gaussian字母模DF独立，真实21长度≤2词亦独立；三次history是反对称面积唯一来源，局部/chain/Z²不能补其系数。共振ε=κ²/4的A−2,−3槽非零常数乘E(q,−J(q″³)/3)，必要M4=∫q″⁴=0及m2*=0。R239小正δ构造cos4α>1/2，双block ReM4严格负，排完整第四偶部及合法C²近邻；六能量零仍真。[R251](results/R251-nonresonant-Gaussian-area-obstruction-and-two-exceptional-curves.md)已扩此完整门至全部0<ε≤3/4及正参数除两条明确例外曲线；离开共振线不能回避。**下一：全θ面积外槽、两曲线的其他完整槽/不同芽、准确付M4/m2的不同profile；停止重复这份已排圆的六能量。** 普通复四次无普遍正性，不宣所有三矩圆无解；全period与同w joint继续。
 
 ## O1：双圆领相位机制，保留备选
 
