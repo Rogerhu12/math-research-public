@@ -1,0 +1,346 @@
+{
+  "geometry": {
+    "format": "R628 exact two-source unit equation and native arithmetic companions",
+    "original_observations": {
+      "a": [
+        "0",
+        "-3/8"
+      ],
+      "aW": [
+        "2",
+        "-3/8"
+      ],
+      "norm_a": [
+        "9/64",
+        "0"
+      ],
+      "norm_aW": [
+        "313/64",
+        "0"
+      ]
+    },
+    "plane_Gram": [
+      [
+        "8",
+        "0"
+      ],
+      [
+        "263/8",
+        "0"
+      ]
+    ],
+    "Y": [
+      [
+        "0",
+        "-3/8"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "W": [
+      [
+        "2",
+        "-3/8"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "cY": [
+      "3/34",
+      "3/34"
+    ],
+    "cW": [
+      "19/72",
+      "1/24"
+    ],
+    "E_Y": [
+      [
+        "263/272",
+        "0"
+      ],
+      [
+        "-3/34",
+        "-3/34"
+      ]
+    ],
+    "E_W": [
+      [
+        "263/576",
+        "0"
+      ],
+      [
+        "-19/72",
+        "-1/24"
+      ]
+    ],
+    "E_Y_norm": [
+      "263/34",
+      "0"
+    ],
+    "E_W_norm": [
+      "263/72",
+      "0"
+    ],
+    "complete_native_matrices": {
+      "Y_signed_scale": [
+        [
+          [
+            [
+              "263/272",
+              "0"
+            ],
+            [
+              "-3/34",
+              "-3/34"
+            ]
+          ],
+          [
+            [
+              "0",
+              "789/2176"
+            ],
+            [
+              "9/272",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "-9/272",
+              "0"
+            ],
+            [
+              "-3/34",
+              "-3/34"
+            ]
+          ],
+          [
+            [
+              "0",
+              "789/2176"
+            ],
+            [
+              "-263/272",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "E_scale_with_Y_reflection": [
+        [
+          [
+            [
+              "-9/272",
+              "0"
+            ],
+            [
+              "-3/34",
+              "-3/34"
+            ]
+          ],
+          [
+            [
+              "0",
+              "789/2176"
+            ],
+            [
+              "-263/272",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "263/272",
+              "0"
+            ],
+            [
+              "-3/34",
+              "-3/34"
+            ]
+          ],
+          [
+            [
+              "0",
+              "789/2176"
+            ],
+            [
+              "9/272",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "Y_times_E": "kappa I",
+      "W_times_F_four_layers": "kappa^4 I"
+    },
+    "actual_source_core": {
+      "E": "epsilon lambda P_E,kappa R_Y",
+      "F_four": "lambda^4 P_F,kappa^4"
+    },
+    "four_distinct_unit_ratio_centres": {
+      "Y": [
+        "-8/3",
+        "-8/3"
+      ],
+      "W": [
+        "-152/313",
+        "-24/313"
+      ],
+      "E": [
+        "24/263",
+        "24/263"
+      ],
+      "F": [
+        "152/263",
+        "24/263"
+      ]
+    },
+    "centre_differences": {
+      "W-Y": {
+        "difference": [
+          "2048/939",
+          "2432/939"
+        ],
+        "norm": [
+          "16384/2817",
+          "0"
+        ]
+      },
+      "E-Y": {
+        "difference": [
+          "2176/789",
+          "2176/789"
+        ],
+        "norm": [
+          "4734976/622521",
+          "0"
+        ]
+      },
+      "E-W": {
+        "difference": [
+          "47488/82319",
+          "13824/82319"
+        ],
+        "norm": [
+          "5718016/21649897",
+          "0"
+        ]
+      },
+      "E-F": {
+        "difference": [
+          "-128/263",
+          "0"
+        ],
+        "norm": [
+          "16384/69169",
+          "0"
+        ]
+      },
+      "F-Y": {
+        "difference": [
+          "2560/789",
+          "2176/789"
+        ],
+        "norm": [
+          "5718016/622521",
+          "0"
+        ]
+      },
+      "F-W": {
+        "difference": [
+          "87552/82319",
+          "13824/82319"
+        ],
+        "norm": [
+          "21233664/21649897",
+          "0"
+        ]
+      }
+    },
+    "binary_source": {
+      "first_four_sigma_leading": [
+        "1/2",
+        "0"
+      ],
+      "first_three_V_conditional_moments_zero": true,
+      "V_fourth_factor": "12 Omega^4",
+      "pair_phi0_sigma8": [
+        [
+          "1",
+          "3"
+        ],
+        [
+          "4",
+          "0"
+        ]
+      ],
+      "pair_phi1_sigma8": [
+        [
+          "-3",
+          "-1"
+        ],
+        [
+          "0",
+          "-4"
+        ]
+      ],
+      "pair_plus": [
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "2",
+          "-2"
+        ]
+      ],
+      "pair_minus": [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "2",
+          "2"
+        ]
+      ]
+    },
+    "complete_R_marginal_zero": true,
+    "both_unit_mass_zero": true,
+    "unit_reconstruction": {
+      "positive_ratio_moments": "(I-lambda kappa^k X)^(-1)",
+      "negative_ratio_moments": "(I-epsilon lambda kappa^k X)^(-1)",
+      "constant_V_log": "(I-lambda X)^(-1)",
+      "negative_first_three_ratios_zero": true
+    },
+    "exact_q_invisibility": "all valid R594 choices give beta^N times both complete pi4 sources; restriction to any R/V domain is included",
+    "all_native_unit_cuts_retained": true,
+    "no_new_central_zero_assigned": true
+  },
+  "conditional_moments": {
+    "R3_factor_times_b": [
+      "0",
+      "-144"
+    ],
+    "R5_factor_times_b": [
+      "2880",
+      "2880"
+    ],
+    "F1_R3_derivative": [
+      "0",
+      "-144"
+    ],
+    "c3_native": [
+      "-229/96",
+      "57/32"
+    ]
+  }
+}

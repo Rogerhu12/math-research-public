@@ -113,3 +113,6 @@
 
 
 - [R631：原完整首Bockstein的准确十三阶边界核](results/R631-original-first-bockstein-weight-band-and-exact-boundary-kernel.md)：全部原列的第二盘界支付所有高regular尾至少p²；含全Υ层的普通w<13投影确杀原像，真carry第一权带给ker(Π13β_C)=K_p⊂K_(p−78)，边界秩为两准确Hilbert核维之差。由此付实际p Smith因子下界及高因子/零方向上界，K_p0才完整分类；未把全C降旧M或连续真前缀。
+
+
+- [R628：原native算术伴随深域与完整R/V单位算子](results/R628-native-arithmetic-companions-and-complete-unit-operator.md)：从R601整联合单Y/四W核与R626平面核真相消，付同q且未移动Y/W中央向伴随深域的传播。全部R/V剩支压为两个实际来源/同双单位域/收敛2×2测试算子，负比前三条件矩整条零；四比值球严格不同，完整native行接I1及全部边界。十一自由q方向对整平面测试不可见，未将有限状态当有限未知数或删失败球。

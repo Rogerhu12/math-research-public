@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：5a2002cc172eb435a0fd7c342036d0da204c8bec；2026-11-15 00:41:25 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:41:14 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
+- 最近已读规则提交：1811f57a0a0dd15fcc10690969e3be1b5c8cf2e8；2026-11-15 00:46:05 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:45:51 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -15,13 +15,13 @@
 
 ## 已发布、完整归档与分工
 
-R1–363、R365–560、R562–623、R625–627、R629及R631已登记；R364仍开，R561/624/628/632进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r631.md)、[open](notes/2026-11-15-open-before-r631.md)。
+R1–363、R365–560、R562–623、R625–629及R631已登记；R364仍开，R561/624/632/633/634进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r628.md)、[open](notes/2026-11-15-open-before-r628.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
-- theta：R626已发表，续R628同carry交域/中央同深返回的完整补域关系。
+- theta：R628已发表，续R634四比值球的实际Möbius/domain与完整中央测试联系。
 - literature：续R624同charge六det(c,d₂)与完整addition/低残差，不能把第二Gaussian当独立中央零。
 - deep：R629/631已发表，续原较小预算/完整D+，保同R和真正旧截断。
 - root：R627原幂完整首坏带已付；续R632真实Frobenius来源/全预算与中央接口。
@@ -34,14 +34,13 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 旧quartic y²=x³−17x、E34/E136/E389、R364全Laurent行、O4完整Hilbert类迹低增广、
 O6真实单位Tor/评价及全部参考差按open/完整归档继续，均未关闭。
 
-原ray π0≡1428552127+2161889730ω mod2793510720，p≥71、p7mod64、p1mod3；
-另π0≡2mod29、1mod137/79/103/263、2mod49、1mod1013/31。
-R487高13/19、R558−1mod固定M3且p∤C3、R5561mod37及全部D*/R518523527大p门保留，
-M3不重定义，无新增mod25。π0为E1的2δ-primary Frobenius，π17=π24=−π0；
-λ=−barπ0^-1、β=−λ、κ=pλ²、Ωunit；ω²+ω+1=0，δ=1+2ω。
-原ρ0=−σ^⊗6/84、η=ω²H*ρ0、**h=η+ρ0/2**。
-原全部Hcd/R1、D14≠D12、C/F/G、Y/W/W′、π4/真实half-character/quarter及参考量
-保持R585/590和完整前检；物理18群不等来源96群。
+完整原ray/固定坏集/所有高13与19/M3/D*门逐项保在最近完整HANDOFF归档，
+以后继续照原条件，不因压缩删除任何同余，不重定义M3，不增mod25。
+π0为E1的2δ-primary Frobenius，π17=π24=−π0；λ=−barπ0^-1、β=−λ、
+κ=pλ²、Ωunit；ω²+ω+1=0，δ=1+2ω。
+原ρ0=−σ^⊗6/84、η=ω²H*ρ0、h=η+ρ0/2；
+Hcd/R1、D14≠D12、所有half-character/quarter及参考量保持R585/590，
+物理18群不等来源96群。
 
 ## 普通完整中央与实际补偿
 
@@ -59,52 +58,49 @@ R/V整联合两态，Y/W同深n整域=εp^nλ^(2n)P_plane,κn μ0，
 首R矩Vcore εpβ；第二矩h8=2(ω−1)D8−4ω²Θ(2z)分εpλ/εpβ，Hcore均β。
 完整H/V两word不交换，所有Bk/四unit失败支与native测试保持。
 同carry交域VdeepN/D_XdeepN/C_Xunit，归一权P_N(κV)/P_N(V)只消常数；
-不同有理/日志测试不相认，不赋补域零。续R628同两态完整unit与中央关系。
+不同有理/日志测试不相认，不赋补域零。
+
+**R628**原整联合单Y核λP_Y,−κ/四层W核λ⁴P_W,κ⁴与平面核相消，
+付E_Y=R−(3+3ω)Y/34的core εpλP_E,κ R_Y，
+E_W=R−(19+3ω)W/72的四层core λ⁴P_E,κ⁴。
+同q且原Y/W未移动，全部伴随深域/环带native中央合法返回原J。
+完整RVunit压成μ0/μ1两态测度ν；R边际及V前三条件矩整条零，
+所有深条带由(I−λκ^kX)^−1/(I−εpλκ^kX)^−1真实返回，
+完整中央差保两个失败球y/w、全η/ζ测试与所有log质量。
+可控伴随球e/f与失败球y/w四者模p严格分离，不免费互换。
+首三阶T=N0+2dλκP1+dλc2κ²P2*−dλc3κ³P3+p⁴，
+P1接同原I1+B1且全native N0保持。
+R594中性严格传第二态；11个自由q方向对所有完整(R,V)测试不可见，
+仅隐藏H/V/carry切集可能改变。续R634实际四球关系，不把两个来源当两个未知数。
 
 固定CM单位稀疏引理仅用于固定λκ有限式；负五Katz仍root−，
 I1未获非零，不能套p依赖负矩计数。
 
 ## 惰性原全格、完整中央与解析成本
 
-R575/584九格/长塔独立、R579普通3klogD、R583惰性(0,3)保持；
-严格门aI+NbI<3N−6未过。R581/584条件cutoff θ<N−2仍缺原中央→全部D/k真层。
-R588含塔原P乘任意整数Gaussian准确S/闭S非Tate。
-R591–596共同KC/KH³和原a=M c+R保低K残差；R606规范整改保同j及两位除法。
-R609三原二次行的Wilson式在两a0下仍保162b^s e1ᵗM^-1R，未得unit。
-最新all-block note将同M推广全部h；det(c,d₂)仍含R₂和实际a/p。
+R575/584全九格/长塔独立、R579普通3klogD与R583惰性(0,3)保持，
+严格门aI+NbI<3N−6未过；R581/584 cutoff θ<N−2仍缺原中央→全部D/k真层。
+R588含塔原P乘Gaussian准确S/闭非Tate。
+原a=M c+R及R606第二位均保低残差；R609三二次Wilson行未消R，
+全块note的det(c,d₂)仍含R₂与真实a/p，不能添独立零。
+R607完整C保w^s=pε、ε⁶=wυ、w^(s−1)ε⁵=pυ、υ^s=0全部carry；
+低权商/Schur真前缀、R610 Ξ及Witt项保持，目标导子不自动保来源/帽。
+R604非连续单位行给空前缀和二次接触，不代旗标成本。
+R614–619全首坏/第二块及原Newton尾详完整前检：H仅L一极、log仅ps二阶，
+p²g_(p+h)=γb^Lg_h到h=p−2；完整j必须保T_p，j0不逐项赋零。
+R618原第二盘R₂=p^-τ₂、τ₂=(2p−1)/(p(p²−1))，闭非Tate；
+全coeff≥−floor6nτ₂，原Newton尾与有限更强窗保持。
+R622外盘第二连接仍同j，完整W_k(q)不能删；
+R623全两Gaussian野域p²/原sigma对角p、七积分全域独立，
+两中央Π0U无论j0都在对角域，不能增维或用普通O(k)成本代九格。
 
-R607同一C=⊕p^-floor(6n/p)w^n(n<ps)保全部进位：
-w^s=pε、ε⁶=wυ、w^(s−1)ε⁵=pυ、υ^s=0；
-低权真商k[ε,υ]/(ε⁶,υ^s)送七W到ε^hΓ、S/T到0。
-p>7D原Schur保全行/真前缀/首pole。R610下一Ξ=ε∂ε+6υ∂υ，
-未整改B保Witt项；目标导子不自动保原帽/来源/同D预算。
-R604不连续单位子式给真前缀空界与Θ(D²)接触，不代旗标成本。
-
-R614–619完整原高度二坏带/Cartier保在前检：去Gaussian后n<L整、n<ps一次、n<2L二次，
-H仅L一极/pH_L−1，log仅ps二阶极；末forcing−c4/−4c1不赋非零。
-p²g_(p+h)=γb^Lg_h到h=p−2；完整j modp^(p+1)必须保T_p，
-j0仅使Σh≤pT_h∈p^(p+1)，不逐项赋零。
-R618第二临界a₂有p²a₂=b^Lpc，原余项精确R₂=p^-τ₂，
-τ₂=(2p−1)/(p(p²−1))、闭非Tate；coeff≥−floor6nτ₂，
-全Newton尾ceil((H+1)η+6τ₂)+v(H!)、η=1−(p+1)τ₂，有限强窗保持。
-R622外盘第二连接唯一解原点仍同j；完整W_k(q)∈1+p^(p−1)O不删，未添零。
-R623 R₂≤R≤R+<R_E全两Gaussian域p²/原sigma对角p，
-旧只添E1不含σ；七积分全野域仍独立，含塔P任意两Gaussian仍准确S。
-两个中央Π0U无论j0均在对角域，不据此增维；普通O(k)成本不代九格预算。
-
-R625原未去Gaussian的归一B=z^-dF：f4/f1/S/T的d4/1/6/6。
-对1≤e≤p−2，B^(p^e)在n<(e+1)L全整，
-p[w^((e+1)L)]B^(p^e)=(-1)^e d b^((e+1)L)/(e+1)unit。
-原S/T还保首w^(p^e)；完整H坏因子/有限Dwork付指数。
-实际来源度p^e，后坏行不代真前缀，整性不依赖j0。
-**R627**付整个r<s首坏带：q=e+1，p[w^(qL+r)]B^(p^e)
-=b^(qL)binom(6r,q)[w^r]logB（r≥1），全部至多一次分母。
-完整log/exp保p²指标与全Gaussian阶乘；对1≤e≤5，原S/T的qL/qL+1两行
-det=2236(-1)^q binom(6,q)b^(2qL+1)/(5q)unit，有限完整前缀范数=p乘来源范数。
-原两列还须共同平移p^e阶；原H38=T/S的首坏恰qL+1，
-residue=−1118binom(6,q)b^(qL+1)/15。真实度p^e/全部原预算保持，无新中央零。
-原参数τ=b/x³与t_old=−τ；K(τ)=(σ(z(u))/u)^6=Theta_old(−τ)^3，
-不能认t_old=−bw，z=uH(τ)。
+R625–627原未去Gaussian B的p^e幂（e≤p−2）在n<(e+1)L整；
+q=e+1的首坏residue=(-1)^e d b^(qL)/q，d为f4/f1/S/T的4/1/6/6。
+完整r<s坏带至多一次分母，r≥1的p倍系数=b^(qL)binom(6r,q)[w^r]logB。
+e≤5时原S/T的qL/qL+1两行detunit，真实完整前缀范数=p乘来源范数；
+原两幂共同首阶p^e，H38幂首坏qL+1。真实来源度p^e，全部指数与p²指标已付，
+不依赖j0，不作固定D免费列或全局旗标。原u参数K(τ)=Theta_old(−τ)^3，
+z=uH(τ)，不能认t_old=−bw。
 
 ## 原同R forcing及最新完整物理格
 
