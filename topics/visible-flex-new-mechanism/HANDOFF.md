@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 08:48:46 UTC实际pull后已读规则提交：`882da4658f72b96f604613eaf674a4283cc41fed`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 08:52:29 UTC实际pull后已读规则提交：`a142e4450c6ec8a58a4790ecd571cffa7e8625f1`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **103 actual已消费**：43691833140/source2f25b5aa，完整见notes/entry-body103-first-actual-result-20261115.md。1LP/1接纳/0SOC，η .26651100522045557→.26651075196396212，末bfbd7465；外域.7725峰.26651073136454873使下一J前退出，非半径/预算失败。fineκ57.99998944；fixed60/外域六jet/b/中心不变。活动1.5756s、含三必要前缀全792.871s。固定b²−1≈.08836非当前主峰，但远1e−6；两网差不是连续包围。旧SOC43687834522及96defect已结，不重跑确认。
 
-**154两块首轮运行43694686825/source71744524b9001226332866870515281d35f49910/job132752541415**：原B103 r1/4000/T51 r1/32000/9height固定；支持(tc,tf)，原.7725/.78峰可变，g/b0/163/永久c0不变。helper796d6498/lib650b4b0d/driver5d10b3b3及完整设计已审；主步物理∞/SOC物理L1、全部原门/残差/163J不变，新SOC域仅域内缩放等价。预算12LP/40value/120活动秒，每LP10秒。growth→strip→SOC→103各一次必要恢复，真实合格态/全池分账、不强迫hash。新人工及27源/98args接线已核，只交源码/参数/run/SHA。**真实154末态待读，不宣下降。**
+**154两块首轮运行43694686825/source71744524b9001226332866870515281d35f49910/job132752541415**：原B103 r1/4000/T51 r1/32000/9height固定；支持(tc,tf)，原.7725/.78峰可变，g/b0/163/永久c0不变。helper796d6498/lib650b4b0d/driver5d10b3b3及完整设计已审；主步物理∞/SOC物理L1、全部原门/残差/163J不变，新SOC域仅域内缩放等价。预算12LP/40value/120活动秒，每LP10秒。growth→strip→SOC→103各一次必要恢复，真实合格态/全池分账、不强迫hash。新人工及27源/98args接线已核，只交源码/参数/run/SHA。**154已成功完成，root正在完整读新输出；actual note即后登记。**
 
 **原九高度的零积分方向已付**：notes/same-g-nine-height-zero-integral-entry-directions-20261115.md。λ·d0核8维；d_i=−e_i+(λ_i/λ3)e3，i0..2、λ3=.081，正步降低b(.09)，位置全二jet于t≥.603恢复、尾帽/共同帽高/strip真不变。盒内补偿槽容量待当次实际态，活动区metric/镜像/球/曲率仍需全门。准确有理null参数化不同于逐项float舍入；未实现/未派发，不因较低b下界强行跑无效strict-max。
 
@@ -28,11 +28,11 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 4. 完整字符与真实全pure控制
 
-**R210完成Cp=P且真实S=P。** R201/204/207/210完整pure权0/−2/−6/−4像维3/9/3/9全等响应，R203最低两权零，排全部pure正分离；R202→R206以真实桥/正2V基准、floor整数、商截面和有限复制/Brouwer得实际全pure控制，非span/闭锥冒实际负路径。全部奇权像未求，商Q=P/πR继续保留，未证P=πR。R210最后actual43688302217/source1b032593的123原列+40响应/154关系及metadata全读；不重跑pure/NF/字符。full正λ+=L+∫(logh)′²不灭pure核，不能下降pure或否定pure零。R208/209全部πR/πU有jet2代表，保N2/history/右锚；非完整mixed或独立gauge结论。
+**R210完成实际S=P与闭锥Cp=P。** 已核pure权0/−2/−6/−4像维3/9/3/9全等响应、最低−9/−8零；真实桥/正2V基准/有限整数与商截面支付实际控制，非span冒负路径。全部奇权未求，Q=P/πR保未知，未证πR=P。最后actual43688302217/source1b032593的全部原列/响应/关系已读，不重跑。full正λ+=L+∫(logh)'²不灭pure核，不能下降pure或否定pure零。R208/209只给pure的jet2代表，保history/右锚，不授完整mixed。
 
 ## 5. 真实pure零/Morse闭hook与未付第四joint
 
-**R223已给真实闭hook**：M0/TκH非零、frame/新Klein位移闭合、整pure0/F8=0、全域h Morse；真实s共同偶germ/全部内部拼口仍保。九行IFT/结构T/全增强E IFT及光滑s密度核的点2jet控制付全域Morse，每目标局部C1截面。未付fullperiod/ruling；其标准偶germ/原八包现受R224严格障碍，须改germ或圆。
+**R223/R227已给保有限目标的真实Morse闭hook**：M0/TκH、frame/新Klein位移闭合、pure0/F8=0、全h Morse。R227可把所有已选非零ke端口安装为h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/he exp(−εσ²)，端速度0/原U/完整T不变。先把R70指定末frame作三外参IFT，后八M+真omega九IFT，最后全E IFT/受约束Morse；内部omega保前方积分，不逐口重置。该C0例外的W=span{h,σ²,(1+4ε²ke²σ⁴)/h}，新最高二阶算子hkG_b；其完整quartic/次层仍欠，不宣ruling已解。设计改变一般改g。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 

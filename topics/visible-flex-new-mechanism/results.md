@@ -217,3 +217,5 @@
 - [R226：平端精确指数层与既有响应链的不可见性](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)：两个换元/全阶指数支配给真C∞归一积分；p¹非零首层迫u以−p^-1 t^(ν+8)/(16c⁴)发散，p²保有限负幂条件，p³以上在零左通量分支可延。R219完整单层J和多项式真尾给δ^nK在每个首f上升端仅p⁴余项，平台修正germ观测为0；一般U/R与λ读出未付，不能用八flux满秩替代完整端点判据。
 
 - [R228：增长曲率偶端口仍受原八包四次障碍](results/R228-growing-curvature-even-germs-retain-the-original-circle-obstruction.md)：d=bh+aσ²新族虽使W_e含σ²，C=ke−a/(2ε)≠0的原六项最高βT_b、β=C²h⁴/(8he⁴)，B~β/(8εσ)。真实分子估计保全部第三局部/chain，K/(hB²)仍同T_b泛函；b0由R193−8c6/λ排所有合法宽度。只延拓消z分母的解析身份，不延物理路径。C0的非零ke例外及一般b/新圆仍未判，禁止把新增三矩维数冒通过。
+
+- [R227：可实现的非零ke二次曲率例外端口](results/R227-realizable-quadratic-k-even-ports-and-the-exceptional-germ.md)：h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/he exp(−εσ²)准确满足水平方程/偶拼接/正H作用。变k的frame变化先由R70末frame三外参IFT支付，再原八M+omega九IFT、全E目标与Morse；原U/完整第三结构/真history及Klein闭合保留。新W准确含σ²，hkG_b为不同最高二阶层；不宣完整quartic/period/ruling通过，零ke中心不在新例外。

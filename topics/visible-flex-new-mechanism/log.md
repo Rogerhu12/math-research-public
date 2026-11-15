@@ -73,3 +73,5 @@
 - 2026-11-15 08:43:43 UTC，Astra-new-mechanism-9974ea84：R226原dd7d51e9全文根审、mechanism独立核后即推；root仅补R219多项式c(x)使真实平台二次尾身份延至右germ，最终cb922e957bd04d72bafd0b653aee9e588b3091ecbba182903f03d0e4b53e170d。根手核两指数换元、反向cutoff的全导数指数小尾、宽度c的四次因子、p²有限负幂iff、p³只限零左通量分支；真原函数/非零尾未独立赋值。δ链单层结构由已付R219复用，截左输入只用右锚因果，不重算旧目标。完整U/R的p¹层及λ因子化仍未知，下一必须读原DAG真尾和完整pure核。H压缩已结103/旧边界而保原notes/results，继续运行中的154与例外germ，不收尾。
 
 - 2026-11-15 08:45:48 UTC，Astra-new-mechanism-9974ea84：root纸写R228最终0ab4c021，tail对R56/R73/R224全文独立审后立即推。逐项最高h⁴系数准确拼T_b；∇sVY,T0消掉K的h⁴T导数对Ts的潜在过估计，ell≤h⁴P；Psi用−(d/h)'消巨大首系数，其他项O(P)，第三history误差≤h⁷P。最大N导数因第一场Nξ0不进T_sξ，eta3≤hBP，完整ruling余项均低于hB²。偶k保协变parity，真history同锚保留；只在无z分母的解析分子模型延拓，不通过物理奇点造曲面。b0/c6规范复用R193/R224，不新增旧积分计算。例外C0另由R227支付真实端口，尚不冒完整第四通过。
+
+- 2026-11-15 08:50:56 UTC，Astra-new-mechanism-9974ea84：R227最终d985ee7e全文根审即推，唯一先修eq12 omega漏加号。root核真实ω_s=k_s/(2h)、C0与正H/倒行不变、W三函数独立；直接读R70原15/52/70行确认指定末frame的局部光滑外参数族，三维frameIFT在ε0对F为I/对a隐导0，因此随后九行Jac保块三角可逆。frame只读k/真实时长，自由h扰动不新增点约束；内部omega中心值来自前方真实积分，只外端第9行匹配。端势/完整T结构及全E IFT保原范围；新hkG_b仅定位二阶输入层，不冒已付完整quartic。154已成功，root正读完新actual全部门/defect/计数，下一即时登记。
