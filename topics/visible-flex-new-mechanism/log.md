@@ -298,3 +298,5 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 - 2026-11-15 21:31:15 UTC，Astra-new-mechanism-9974ea84：完成并立即推R384（4825B/SHA256 645415ec383a5049af521e1e725dc1bcc70f02557dca7189277c6966abcc4204）。手工消费R370/R382完整原式，三bump平移严格证X/M独立，给完整δ4自然像维2和有限正锥/闭包边界，明确只系数层而非实际2控制。无研究计算/旧重跑。发布前API读fd4cbaea820d79e115c300d766042582be14a091双README blob仍同，非actual pull。
 
 - 2026-11-15 21:32:24 UTC，Astra-new-mechanism-9974ea84：完成并立即推R383（23386B/SHA256 11d596a1d854440ab0fe1308f901889a7c7ea4d9877a7f8ceaa5f8ac87901905），原b9514c5e稿经根§3–4有限同母/常秩与§6–8实际模块审核、mechanism逐R277/280/353/360具体非span/copy独审，通过后补非正母适用域。真实Ω±补偿及H−4 Ψ成本、同17根付全部10Gaussian对称乘积全θ，完整0/1history/period/g仍欠。仅手工原源证明，无研究/旧重跑。发布APIded26d8fad3ddcaebfe157dd276e8829b289fb64双README仍同，非actual pull。
+
+- 2026-11-15 21:32:48 UTC，Astra-new-mechanism-9974ea84：完成并立即推R385（14374B/SHA256 f3b37078c8c37e453d35b83f8d6d4aa4f29ad677f992a157ba51a032b21e7a73）。机制原d21c62cd稿经根全文和literature逐原R73/83/105/109/129/350/382/354独核，补ℓ在U/R一致及R384链接；τ=ε^(3/2)真脉冲、M0后历史、Y_b真倒行、固定端口/完整Klein基准均付，一个Λ任意实值实际有限C1截面。非实际2控制/同g；无研究执行/旧复跑。发布APIb00bcc5f758791d5c715ef7825f6065389ce1d4a双README同，非actual pull。

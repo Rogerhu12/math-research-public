@@ -226,3 +226,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R383：真实低层母纤维支付最后Ω，十个Gaussian对称乘积全角同时零
 
 见[R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)。保一个原编码位置的全部真实copies共母，固定半母3矩+9个reflection-even self实际和+J/K。原有序缺陷证明全局常微分关系只有矩二次式，有限Laurent minor在实际不交开域并置、加3regularizer、同母最大秩/常秩IFT付真实双侧纤维。完整尺度/Γ不对称/Euler最高四导u²、xuv两列证O独立，产18area/J/K/third均0而Ω±的两个真实强模块。其正幅H³/伸缩H使Ψ成本H−4，精确补弱基线Ω并保负Ψ；再R379同17行/204真列有限N根，全部十乘积三个外矩全θ同点零，Ψ逐fiber原式固定。母只需非零实偶，非点态正。根审§3–4及模块衔接、机制独核原表/实际copy/具体非span；不继承旧geometry wholeE/g/period。
+
+## R385：完整Q4快脉冲实现一个自然总通量的实际双向控制
+
+见[R385-actual-two-sided-natural-flux-control-from-complete-Q4-pulses.md](results/R385-actual-two-sided-natural-flux-control-from-complete-Q4-pulses.md)。固定同一紧u且M5≠0、端口/窗口/ω下界；真水平h1纯δ脉冲τ=ε^(3/2)给完整局部Λ=c*ε^(−1/2)σ+O_C1(√ε)，raw八矩仅0/2权故M=O_C1(√ε)。R350/R382全状态零准确删全部大加速度项；有限同型桥先补总M0，后R109才给canonical Λ。R83保b=−2T_D及Y_b修正，真倒行第三反号/第四同号，中心M0桥运回固定端口，所有桥成本及导数O(1)全保。最终Klein字使完整prototype位移相消且保4VQ+4VC1+4VC2。每紧目标一次选有限ε、Φ′>0，得真C1截面和任意标量，M/T/scalar/frame/位移闭合；非实际二维、非原冻结g/嵌入/reach。根全文及literature逐R73/83/105/109/129/350/382/354独审通过。
