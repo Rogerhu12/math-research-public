@@ -108,6 +108,6 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 root又在main137c5a877fb387a82cbde01f084d1fa67ee717aa读到根README差异；题README仍未变。现行[已读规矩收据](notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json)记录root blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7。它明确取代几分钟前的Release计划：能由已提交script/参数重新生成的证书、数据和Actions输出，一律不保存，repo/Release均不放；只提交script/参数/run/输出SHA，结论写实际script/args/run/result。无任何Release上传；未发布的共享Release helper与迁移草稿已取消。
 
-phase负责本题main可重算data/旧人工parts的普通删除，保原脚本、参数、run、哈希及结论，题目录≤200MB。不改写历史或强推。确实需要旧文件时，用记录的完整删除前public commit与path执行git show恢复到临时science树，逐字核原manifest；旧artifact只作已成计算的临时输入。
+phase负责本题main可重算data/旧人工parts的普通删除；清理workflow现已部署（SCI40c0f3df…），真实逐对象核SHA256/Git blob/bytes，保原脚本、参数、run、哈希及结论，完成后按精确Git树核题目录≤200MB。不改写历史或强推。确实需要旧文件时，用记录的完整删除前public commit与path执行git show恢复到临时science树，逐字核原manifest；旧artifact只作已成计算的临时输入。
 
 newton负责原Green失败artifact最新成功prefix的临时恢复，并让下一完整计算链在同runner内消费结果；新输出不再持久上传。root的六case诊断消费同一原件，只登记脚本/参数/run/输出SHA和实际结论，不复算旧norm。所有数学任务继续，题README总完成标准保持。

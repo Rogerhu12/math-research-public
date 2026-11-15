@@ -477,3 +477,11 @@ root已全读最终稿及指定原算术Q1–6、controlled C22–24、stronger 
 输入固定真实u_perp、M真holonomy根与总参考高度随Γ变；ODE二次变分最高需8194角导，H8196供给。旧成员嵌入由原τj+224宽、C22整胞损失h_j与U2定义逐式导出，内区绝对宽>236，connector>3；不从R仅Y64输出偷取H8196。root仅澄清一般引理s为整数并改已证状态，正文27572B/SHAbe46bd9f44c0f60f5b07c768efac1aa6f48363bd23ba08e6ca12277a5cfa459a。
 
 原ζ131/ω/β目标/几何/两bump全保，firstΓ平移不变且DΓ0=0；second相位、nearby inverse和smoothing闭合继续，未授最终族。无新增数值。freshmain f0292795817a534937d35904e2e11275631e878d根/题README未变，H/open已记准确范围。
+
+## 2026-11-15 05:09:57 UTC — 最新规15的普通数据删除workflow部署
+
+root全读phase清理worker和flow，保持纯储存操作/0数学/0Release/0artifact。tree元数据和git树逐对象一致；所有待删原版本流式核SHA256、Git blob和bytes；原producer/参数/run从原小元数据引用，不从后消费器猜造。保脚本/证明/明确参数/小manifest与身份证据；可重算native/stage/case/gzip/旧parts普通git rm。并发较新同路径版本保留，不改写历史、非FF立即真pull/rebase循环。准确predeletecommit:path及原哈希供临时恢复，不能重新提交数据。
+
+root作两处执行修正：新的稀疏checkout外metadata使用git add --sparse；checkout persist-credentials:false，运行bootstrap仅瞬时环境extraheader注入Actions token，避免把token写入Git配置。finalSCI35091B/SHA40c0f3df80a240f895c26023a62ac09a57dac05f639f22a2f11ff50257cbd868，flow4598B/SHA30ce963166ec8d5e6d1b64f251ee35ad48a67e537d360a050c7ad8432f10ce56。静态定界已过，实际AST/删除/容量门等待public运行；若仍有未知大参数，只列实物继续分类，不为凑200MB盲删。
+
+新任务与已有全部数学source/pin无关，不重算任何成功数值。freshmain 17a07c22ef60eb2f913703956c1284b8da533f32两README未变，当前规则仍137c5a/f266；H/open登记部署而未冒称清理已完成。
