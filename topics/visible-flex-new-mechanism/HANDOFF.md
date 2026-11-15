@@ -34,7 +34,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)给第一条具体完整F0读出：V*=[h⁻⁴]F0(h,0,0)，Λu(V*)=3∫(u′−xu″)⁴u‴/32≠0。完整N0外槽、Γ幂、−b、YC/ZZ、正式pure及有序2+2全部保留，最终primitive/μ0H抵消；是原U线性系数，不是一条已实现的负闭路径，不授Q4头全延拓。
 
-[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)/[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)与[两完整自然函数实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)：run43775998866首新Ω全local，n6=0/n2≠0（12密度/24Euler），Lrr=3x²(p−xr)(u−xp+x²r/2)²非零。故n4=0、完整自然权零像恰1，联合核λ+=1不存在。8新人工全过；2+6必要输入恢复，旧π/self/秩0重跑，科学6.656628646s/RSS114136KiB。正式完整正字符下降/实际范围正在写；有限给定profiles不能当全Λall。
+[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)：唯一公开run43775998866给n6=n4=0、n2=∫12项L≠0，完整24Euler之Lrr=3x²(p−xr)(u−xp+x²r/2)²。权零自然/增强商恰1；Nall核自身缩放稳定，故kerNall⊂kerλ+，λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h亦不例外；全Λall0实际背景不可建。有限profiles/有限通量/独立新增w及主课题未排。8新人工过、旧π/self/秩0；完整源/费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)。
 
 R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A通量与一次有限n收缩全保，qE三项原基准未消。固定A核非已知仿射稳定，不能沿其推广全自然商。R395旧K0…10在R71∩ker(E,Λall)，对应partial独立、非零给真log障碍。
 

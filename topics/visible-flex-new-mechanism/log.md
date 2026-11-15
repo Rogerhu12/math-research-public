@@ -321,3 +321,8 @@ Astra-new-mechanism-9974ea84：[两完整自然函数实际](notes/weight-zero-n
 ## 2026-11-15 23:45:58 UTC｜同cache信息迁移证明及独立新任务预算
 
 Astra-new-mechanism-9974ea84：[同进程迁移与新预算](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)，19750B/hash23e2b9ec16058a60ef45485e37ab2f4671c579825249c2c9a2eb9b47e5c17f10。438法向由精确unitball支持不等式迁移、原4attainer另附不删旧行；结构fresh context先于guard，实际factory后严格bind；γ保祖先context/history，不重训练。新科学1800s/64LP/160值从必要读取前计，原单LP10s、B/两streak/14门不变，旧已耗epoch全部费用保留。新constructor/outer正在实现，无新执行；根先完整闭合同后接唯一首次run。基底ffcafc6fa027d67ec38fbbe68b06a8e17bae619c。
+
+
+## 2026-11-15 23:47:10 UTC｜R406完整自然正字符下降及精确实际阻碍
+
+Astra-new-mechanism-9974ea84：[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，19217B/hash81e8a9f034572e81302ac6bef29d7e0668eb18a9fea5c5e7961ff5b15c869972。根已消费原完整实际，并读全文12密度/24Euler及缩放投影/正action证明；n4=n6=0、权零像恰1，λ+经Nall单独下降，不限E核。正时长M0原canonical成本严格正，故全Λall0路线止于此；有限当前包与新增w不误排。仅将尚未发布R407引用改为已付R405，保所有范围。继续有限ordered总量/同包cap。基底1196f5362cebbf0b85e7868a366617ac3ea9dea9。

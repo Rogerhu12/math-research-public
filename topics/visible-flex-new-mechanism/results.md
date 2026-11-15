@@ -344,3 +344,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R405｜共同外区与所有内部第二通道的完整局部current
 
 [R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)（22253B；SHA256 4dc54099c503a75112c4e7f66f347467d589cb059f0363cf6879d9afa26ea8aa）。限制内支撑affine空间的真max-F与同19有限根保每包外区精确ψ3、仅原镜点两Af零，旧数值fiber不冒用。原跨包密度全导数和右锚P给Q=L+ΣmJ；whole self仅消m″，全Λ0再经任意紧u/三个真实右矩及三次Euler齐次给D_xJ=u′U″。真suffix下全部C_i=a_i³J(x_i)，各实际宽w_i保留，同宽42/全42|W|只生成界；实际仅E0应保右镜ordered总量。完整证明，未重执行。实际所有包像、同包余通道和全joint继续。
+
+
+## R406｜两完整权零自然函数与实际canonical全自然零障碍
+
+[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)（19217B；SHA256 81e8a9f034572e81302ac6bef29d7e0668eb18a9fea5c5e7961ff5b15c869972）。唯一run43775998866/job133002325378/source d47749f7…保全部原N0/Γ/mixed/同锚tails，给n6=0、n2=∫12项局部密度≠0，完整24Euler及Lrr非零因子列全文。原n4=−c0n6故n4=0；自然/增强权零商准确1维。Nall核真缩放稳定，得kerNall⊂kerλ+及[H^-2]有限系数读出；原实际M0 canonical闭成本λ+=∫k²=L+∫(h′/h)²>0，因此全部紧profile自然通量同时零不可能，T=τH和常h亦不例外。有限当前profiles、独立w与主课题不被这条universal结论自动排除。实际8新人工通过，科学6.656628646s/RSS114136KiB，旧pure/self/rank0；完整输出hash/费用见原actual note，不存payload。

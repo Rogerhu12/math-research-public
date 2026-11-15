@@ -160,12 +160,12 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 
 ### R402完整静态低层首条非零通量已付
 
-[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：V*=[h⁻⁴]F0(h,0,0)∈原U，完整Λ=3∫(u′−xu″)⁴u‴/32≠0。原N0外槽/Γ、−b、formal pure、有序2+2与真左尾全保，primitive/μ0H最终消。它在Q4九维像的F方向，但不授全头延拓或M=T0负路径；C2/C4/C6零权函数和三Q2仍未求清，继续原收缩，不重闭Q4或旧E。
+[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：V*=[h⁻⁴]F0(h,0,0)∈原U，完整Λ=3∫(u′−xu″)⁴u‴/32≠0。原N0外槽/Γ、−b、formal pure、有序2+2与真左尾全保，primitive/μ0H最终消。它在Q4九维像的F方向，但不授全头延拓或M=T0负路径；C2/C4/C6零权已由R406结清；三Q2等其余完整函数仍可继续原收缩，不重闭Q4或旧E。
 
 
-### 两完整自然权零函数已付：转有限实际通量
+### R406完整自然正字符障碍已付：只转有限实际条件
 
-[两完整自然函数实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)：run43775998866/job133002325378，8新人工全过；H*的完整Ω为12项局部五次密度，24项Euler最高u⁽⁴⁾系数3x²(p−xr)(u−xp+x²r/2)²≠0；J6完整左字全0。R404因此n4=n6=0、自然权零像恰1、联合核λ+=1不存在。原N0/Γ/真实ordered尾全保，旧π/self/秩0重跑；全科学6.656628646s。下一正式说明正字符的全自然下降和actual范围，随后解有限当前profiles的ordered totals/内部门；不能把全Λall0继续当自动可建背景，也不据它排有限通量或主课题。
+[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
 ### 直接reference求值已源码闭合，准备最小新接口
