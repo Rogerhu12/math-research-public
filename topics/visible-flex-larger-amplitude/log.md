@@ -113,3 +113,7 @@
 ## 2026-11-15 16:29:44 UTC /root — R342实际153完整未付范围
 
 [R342](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)28045B/22ead980全文核后即发：C/cut/deep齐，far m18/200000 work-unit止，原row9616闭栈/10387末索引及m20..224全保，native client未起而非数学拒。geometry接168，162已d23db7eb，167修复run43735578724；API核37484bd49983ea3892af91375d9c07d42c0c6695双README未变，真实pull行保。
+
+## 2026-11-15 16:34:05 UTC /root — 165共享校准包围发布
+
+61114B基线差异及9942B清理修正全文核后四件即发：61b98b3e/6beff06b/10b6e44a，21pins/全九p/419闭片/C3600/900s/65536不变；只修四实际读回成功后清理。exact接R356；166已success待R353原数，162实际43735722483。167二跑超限后按根8改单份紧凑结论、不编码搬大表。API核90f2048f562ca670f9e20653ec29b14fa2fc3116双README未变，真pull保。

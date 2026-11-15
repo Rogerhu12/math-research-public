@@ -121,3 +121,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R342：153实际完整C/cut与far工作量停止
 
 [R342全文](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)固定run43727856178/source35690c77/compute132853608396/report132872813297。原1440、六primitive、两闭query/cut两jet、R312全112返回；whole2888个resolution+1晚期积分未达工作精度。真实rFar0.05056158669090205/f64lef0e68a5235e3a93f（node8上端外下一binary64）；全112新far传播在m18/work-unit200000止，linear elapsed270.860472942，非1800墙钟。m2..16完成、m18 accepted14672但未完；当前row9616/piece1339/闭[3/512,1/128]深0，完整栈仅该项，后缀[9617,10387)，lastpaid9615/3/512及两含零区间全保，m20..224未启动。native只读partial并CurrentCGeometryUnpaid，actual_client_started=false/exitnull/request[0]未起，不能解释原十试探或填J/audit。完整10JSON/4重复report/全部原错误读，十亿字节科学大阵仅原身份和既定字段范围，不冒本地逐值复证。168据实际112×10387基础范围明确资源，并用独立严格两图源保完整误差/幅因子/所有inverse碎片；不只扩大cap宣称保障，也不把含0盒判真实共振。159真实结果仍由其自身返回决定。
+
+### 165：同准确目标的共享校准表示已发布
+
+[165接口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)四件已发，consumer94125B/61b98b3e、request16401B/6beff06b、workflow53762B/10b6e44a；原151全部20pins保，再加新源共21，原147请求17398B/4b6f原文使用。R352准确共享L展开/右锚collar/last/coast和每支撑九项完整合并，字面numeric自己的anchor/width/系数/校准缺陷及全部重叠支撑保持；所有可能闭branch用同u系数先相减，再完整Bernstein并与原R330两个包围求交。原419闭片/两子原子cover/C3600/两域各300/target900/65536nodes/depth32/grid320都不变；未从R349计数猜唯一瓶颈或缩上游E语义盒。完整节点/cover/pending/事务和原错误由Actions读，四个实际读回step成功才清理，失败保未读范围至runner销毁；无新增数学或审批门。exact唯一核actual/R356，当前不填global_delta或同场metric。
+
+167第二次43735578724真实pack SizeFailure：490组/14095 metadata已读，159 selected sections共807621B，未取得可读完整科学packet。根8禁止编码或分块搬运大数据、根12不设搬表前置门；下一版仅单份<90KB紧凑结论，完整原FD/8outer/84trial仍在Actions内读取，root只读必要标量/少量原矩阵，大表明确仅身份，原157不重算。
