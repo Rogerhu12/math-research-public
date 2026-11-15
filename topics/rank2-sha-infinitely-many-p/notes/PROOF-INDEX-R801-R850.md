@@ -38,3 +38,6 @@
 
 
 - [R808短块增补](2026-11-15-r808-complete-short-block-and-far-normal.md)：R808完整短块增补：k0、ell≤r<h时，保轴单位函数λ(w)、B(w)，缩放后二支式整段为−3B(z−λ)(z−2λ/3) mod w^ell；远支=(ψ+2g)/3 mod w^(h+ell)，两normal段分别+和−a^-1w^hCu³。近支仍只保证h+r，native ξ、两13和同R高尾不删。
+
+
+- [R816](../results/R816-original-minus-eleven-rank-two-schwartz-and-degree66-source.md)：R816以两处有限2下降证明E−11:y²=x³−11的rank≥2，完整2/3/11角色与导子66、ray度360已付；α33的3处odd/11处odd及W11(−1)=−R给标准S66完整半特征。公开全CM7/13联合质量核一维，准确识别原V66/首z6和全权平方198→66尺度；相对旧S的charge33/17保留。尚须完整普通/惰性Selmer桥和同M/13carry的第四独立中央及成本，不把质量零或二元函数域中新坐标当额外维数。

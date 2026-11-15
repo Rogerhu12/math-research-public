@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：417fa205b964ce1e36eb9b4d3a8896f8338e3363；2026-11-15 19:56:00 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
+- 最近已读规则提交：b7c5868d480d798462546fcd63abcd16370dfdba；2026-11-15 19:59:12 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -12,16 +12,16 @@
 
 ## 完整归档、当前状态与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r808-short-addendum.md)沿归档链保全部常数、来源、十九角、ray、坏集、run/hash和未闭门；压缩不撤任何限制。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–812、814–815、817已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r816-publication.md)沿归档链保全部常数、来源、十九角、ray、坏集、run/hash和未闭门；压缩不撤任何限制。[完整open](notes/2026-11-15-open-before-r816.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–812、814–817已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
 root唯一metadata/ref写者；root原全nef锥/二变量Kronecker来源，deep原同R完整normal/Cartier指定配对，theta第四条真实rank2曲线来源，literature固定三cycle跨p/原三χ联合关系。完整证明一成即单独推，随后继续未闭门。
 
 实际pull19:22:57成功，run43752101383/job132928092622，两README差异空/blob吻合；回执ci/rule-pull-20261115T192257.json，最迟20:15再实际pull。
-R812/R814/R815/R817完整证与run/hash见原文；R813续同R带权Cartier。R816公开run43754381135/job132935145766成功：degree66两原CM核一维/首阶6；全E−11来源proof在写，未认第四中央条件。
+R812/R814–817完整证与run/hash见原文；R813续同R带权Cartier。R816公开43754381135/job132935145766：全CM7/13共同质量核1维，完整E−11来源已登记，继续新导子Selmer桥与第四原中央。
 
 ## 普通：原同源负二及真实全局门
 
-固定E17及j0 E17/E24/E2312的rank2已付；尚缺同一无限p集合至少一条固定原J′非零。固定q*=R734、50/58行、两核、六支、N4及λ/β/κ保；全部13/19、两η、旧ray/坏集沿全文档及原证。q与cd返回Φ不同。R749仅固定有限carrier投影，R753禁无限log/N投影，R533/540禁未付负矩反射。
+固定E17及j0 E17/E24/E2312的rank2已付；R816新增E−11的rank≥2和完整V66来源，f66/ray360、charge33/17及标准半特征均保，第四同M/carry中央尚未付；尚缺同一无限p集合至少一条固定原J′非零。固定q*=R734、50/58行、两核、六支、N4及λ/β/κ保；全部13/19、两η、旧ray/坏集沿全文档及原证。q与cd返回Φ不同。R749仅固定有限carrier投影，R753禁无限log/N投影，R533/540禁未付负矩反射。
 
 R773–800的原帽、全部外部、全N两η/六支、13/19覆盖与原q固定carrier按上述全文档及原证保持。R791两深浅负一行各非零但完整外部反号补偿；R796全E深Z首来源零，W相对log从二阶起；R780错误§6(28)已撤、R786 Norm(C)=1。R800零W边际Ψ仍回同Ψ移动Y_j，不增独立中央零；R762横导尚未接同固定Lp。
 
