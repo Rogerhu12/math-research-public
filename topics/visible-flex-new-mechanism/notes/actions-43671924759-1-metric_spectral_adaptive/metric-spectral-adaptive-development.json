@@ -1,0 +1,671 @@
+{
+  "schema": "same-g-spectral-metric-adaptive-scale-audit-v1-artificial-check",
+  "artificial_inputs_only": true,
+  "research_candidate_geometry_evaluated_or_optimized": false,
+  "no_Actions_environment_forged": true,
+  "new_actual_model_scale_feedback_check": {
+    "schema": "fixed-curvature-two-grid-spectral-adaptive-scale-v1-artificial-check",
+    "artificial_inputs_only": true,
+    "research_candidate_geometry_evaluated_or_optimized": false,
+    "new_event_fixtures": [
+      {
+        "name": "new-rows-early-return-without-fine",
+        "quality": {
+          "kind": "new-rows-early-return-without-fine",
+          "prediction": {
+            "predicted_slack": 0.01,
+            "model_kind": "basepoint-plus-J-step"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": 0.009999999999999997,
+          "full_two_grid_actual_available": false,
+          "actual_two_grid_eta_improvement": null,
+          "actual_to_predicted_ratio": null,
+          "ratio_denominator_usable": true,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": -0.10000000000000012,
+          "poor_complete_two_grid_ratio": false,
+          "poor_coarse_upper_bound_without_fine": true,
+          "actual_curvature_failure_grids": [],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": true,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.000125,
+          "trigger_trial_indices": [
+            0,
+            1
+          ],
+          "one_half_model_scale_cap": 0.000125,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": true,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      },
+      {
+        "name": "accepted-low-quality",
+        "quality": {
+          "kind": "accepted-low-quality",
+          "prediction": {
+            "predicted_slack": 0.01,
+            "model_kind": "basepoint-plus-J-step"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": 0.009999999999999997,
+          "full_two_grid_actual_available": true,
+          "actual_two_grid_eta_improvement": 0.0009999999999999974,
+          "actual_to_predicted_ratio": 0.09999999999999977,
+          "ratio_denominator_usable": true,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": 0.09999999999999977,
+          "poor_complete_two_grid_ratio": true,
+          "poor_coarse_upper_bound_without_fine": false,
+          "actual_curvature_failure_grids": [],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": true,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.000125,
+          "trigger_trial_indices": [
+            0,
+            1
+          ],
+          "one_half_model_scale_cap": 0.000125,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": true,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      },
+      {
+        "name": "accepted-good-quality",
+        "quality": {
+          "kind": "accepted-good-quality",
+          "prediction": {
+            "predicted_slack": 0.01,
+            "model_kind": "basepoint-plus-J-step"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": 0.009999999999999997,
+          "full_two_grid_actual_available": true,
+          "actual_two_grid_eta_improvement": 0.008999999999999998,
+          "actual_to_predicted_ratio": 0.9,
+          "ratio_denominator_usable": true,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": 1.0000000000000002,
+          "poor_complete_two_grid_ratio": false,
+          "poor_coarse_upper_bound_without_fine": false,
+          "actual_curvature_failure_grids": [],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": false,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.00025,
+          "trigger_trial_indices": [],
+          "one_half_model_scale_cap": null,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": false,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      },
+      {
+        "name": "curvature-failure-even-if-eta-good",
+        "quality": {
+          "kind": "curvature-failure-even-if-eta-good",
+          "prediction": {
+            "predicted_slack": 0.01,
+            "model_kind": "basepoint-plus-J-step"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": 0.009999999999999997,
+          "full_two_grid_actual_available": true,
+          "actual_two_grid_eta_improvement": 0.008999999999999998,
+          "actual_to_predicted_ratio": 0.9,
+          "ratio_denominator_usable": true,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": 1.0000000000000002,
+          "poor_complete_two_grid_ratio": false,
+          "poor_coarse_upper_bound_without_fine": false,
+          "actual_curvature_failure_grids": [
+            "coarse"
+          ],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": true,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.000125,
+          "trigger_trial_indices": [
+            0,
+            1
+          ],
+          "one_half_model_scale_cap": 0.000125,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": true,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      },
+      {
+        "name": "SOC-actual-y-denominator",
+        "quality": {
+          "kind": "SOC-actual-y-denominator",
+          "prediction": {
+            "predicted_slack": 0.018,
+            "model_kind": "same-actual-y-rows-plus-J-correction"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": 0.0019999999999999983,
+          "full_two_grid_actual_available": true,
+          "actual_two_grid_eta_improvement": 0.0009999999999999974,
+          "actual_to_predicted_ratio": 0.4999999999999991,
+          "ratio_denominator_usable": true,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": 0.4999999999999991,
+          "poor_complete_two_grid_ratio": false,
+          "poor_coarse_upper_bound_without_fine": false,
+          "actual_curvature_failure_grids": [],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": false,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.00025,
+          "trigger_trial_indices": [],
+          "one_half_model_scale_cap": null,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": false,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      },
+      {
+        "name": "undefined-nonpositive-denominator",
+        "quality": {
+          "kind": "undefined-nonpositive-denominator",
+          "prediction": {
+            "predicted_slack": 0.021,
+            "model_kind": "parabolic-basepoint-linear-bound"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": -0.0010000000000000044,
+          "full_two_grid_actual_available": true,
+          "actual_two_grid_eta_improvement": -0.0010000000000000009,
+          "actual_to_predicted_ratio": null,
+          "ratio_denominator_usable": false,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": null,
+          "poor_complete_two_grid_ratio": false,
+          "poor_coarse_upper_bound_without_fine": false,
+          "actual_curvature_failure_grids": [],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": false,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.00025,
+          "trigger_trial_indices": [],
+          "one_half_model_scale_cap": null,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": false,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      },
+      {
+        "name": "missing-fine-upper-bound-insufficient",
+        "quality": {
+          "kind": "missing-fine-upper-bound-insufficient",
+          "prediction": {
+            "predicted_slack": 0.01,
+            "model_kind": "basepoint-plus-J-step"
+          },
+          "base_true_maximum_eta": 0.03,
+          "base_true_eta_excess": 0.019999999999999997,
+          "predicted_metric_improvement": 0.009999999999999997,
+          "full_two_grid_actual_available": false,
+          "actual_two_grid_eta_improvement": null,
+          "actual_to_predicted_ratio": null,
+          "ratio_denominator_usable": true,
+          "coarse_only_upper_bound_on_actual_two_grid_ratio": 1.0000000000000002,
+          "poor_complete_two_grid_ratio": false,
+          "poor_coarse_upper_bound_without_fine": false,
+          "actual_curvature_failure_grids": [],
+          "actual_curvature_cap_and_tolerance": [
+            3.0,
+            1e-08
+          ],
+          "request_shrink": false,
+          "ratio_is_model_quality_not_an_acceptance_gate": true,
+          "missing_fine_is_not_estimated_or_reused_from_another_state": true
+        },
+        "update": {
+          "model_trust": 0.00025,
+          "trust_after_original_controller": 0.00025,
+          "next_trust": 0.00025,
+          "trigger_trial_indices": [],
+          "one_half_model_scale_cap": null,
+          "original_rejection_shrink_not_applied_twice": false,
+          "same_physical_gates_and_LP_value_time_budgets": true
+        },
+        "expected_request_shrink": false,
+        "at_most_once": true,
+        "original_halving_not_repeated": true
+      }
+    ],
+    "early_return_is_only_coarse_ratio_upper_bound": true,
+    "SOC_actual_y_denominator_ratio": 0.4999999999999991,
+    "nonpositive_denominator_unavailable": true,
+    "pure_feedback_does_not_mutate_history": true,
+    "tiny_status": "shared-primary-plus-SOC-LP-budget-exit",
+    "tiny_error": null,
+    "tiny_accepted_eta": [
+      0.024143999999999943,
+      0.024123760099999947,
+      0.02410352040000019
+    ],
+    "tiny_all_true_two_grid_gates": true,
+    "tiny_actual_eta_strictly_decreases": true,
+    "tiny_trust_values": [
+      0.00025,
+      0.00025
+    ],
+    "tiny_trust_never_increases": true,
+    "tiny_actual_prediction_semantics_recorded": true,
+    "injected_trial_failure_preserves_initial_qualified_state": true,
+    "shared_counts": {
+      "LP": 2,
+      "values": 6
+    },
+    "passed": true
+  },
+  "full_main_status": "complete-two-grid-fixed-curvature-spectral-adaptive-recovery-audit",
+  "full_main_error": null,
+  "same_state_g_b0_and_freeze": true,
+  "all_old_pools_retained": true,
+  "fine_four_curvature_groups_enabled": true,
+  "old_row_IDs_explicit_new_metric_semantics": true,
+  "full_IO_artificial_path_has_no_LP": true,
+  "summary_byte_bound": true,
+  "summary_bytes": 51043,
+  "wrong_twenty-first_SHA_saves_failure": true,
+  "changed_coefficients_rejected": true,
+  "changed_fine_coordinates_rejected": true,
+  "stress_counts": {
+    "models": 12,
+    "trials": 84,
+    "corrections": 12,
+    "accepted": 13,
+    "proposal_values": 40
+  },
+  "stress_summary_bytes": 93854,
+  "all_trial_rows_roundtrip": true,
+  "all_proposal_diagnostic_rows_roundtrip": true,
+  "full_report_unchanged": true,
+  "all_feedback_rows_roundtrip": true,
+  "same_state_angular_refinement": {
+    "name": "same spectral-metric-recovery state and fixed hard cap; original angular grids",
+    "same_canonical_state_and_exact_coefficients": true,
+    "physical_identity_sha256": "d9ffc7f1ac289d7d848049a1711659490369206bf689119b61ed893bf6e11284",
+    "evaluation_before": {
+      "source_GH_order": 8,
+      "height_mean_angular_nodes": 24,
+      "height_mean_angles": "fixed uniform [0,2pi) grid independent of query theta",
+      "height_control_integral": "unchanged W4 weighted piecewise-polynomial common primitive",
+      "reference_height_integral": "query-independent fixed prefix plus individual local panel",
+      "no_continuous_quadrature_error_bound": true,
+      "query_independent_height_primitive": {
+        "schema": "fixed-prefix-plus-local-height-quadrature-v1",
+        "partition": {
+          "schema": "bounded-entry-fixed-physical-height-partition-v1",
+          "uniform_panel_count": 8,
+          "construction_sources_exact": {
+            "uniform": [
+              "0",
+              "11/80",
+              "11/40",
+              "33/80",
+              "11/20",
+              "11/16",
+              "33/40",
+              "77/80",
+              "11/10"
+            ],
+            "seed_piece_boundaries": [
+              "0",
+              "11/250",
+              "583/2000",
+              "319/500",
+              "517/500",
+              "11/10"
+            ],
+            "immutable_anchor_spline_knots": [
+              "11/250",
+              "187/500",
+              "88/125",
+              "517/500"
+            ],
+            "published_entry_cutoff": [
+              "847/8000"
+            ],
+            "natural_patch_cutoff": [
+              "467/500",
+              "1501/1500",
+              "517/500"
+            ],
+            "frozen_body_metric_knots": [
+              "11/250",
+              "511/1500",
+              "239/375",
+              "467/500"
+            ],
+            "bounded_entry_cutoff": [
+              "11/250",
+              "21/250",
+              "41/250"
+            ]
+          },
+          "nodes_exact": [
+            "0",
+            "11/250",
+            "21/250",
+            "847/8000",
+            "11/80",
+            "41/250",
+            "11/40",
+            "583/2000",
+            "511/1500",
+            "187/500",
+            "33/80",
+            "11/20",
+            "239/375",
+            "319/500",
+            "11/16",
+            "88/125",
+            "33/40",
+            "467/500",
+            "77/80",
+            "1501/1500",
+            "517/500",
+            "11/10"
+          ],
+          "source_height_base_definition_sha256": "aa9e3f2f62a1fc1f817214de199a4561ec59cfb23c1ff1bff683c2b10129b242",
+          "partition_is_only_an_evaluation_choice": true,
+          "all_queries_use_this_same_prefix_partition": true,
+          "query_nodes_do_not_modify_full_panel_integrals": true
+        },
+        "gauss_order_per_full_or_partial_panel": 3,
+        "prefix_anchor": 0,
+        "partial_rule": "same fixed panel left endpoint to the individual query",
+        "reference_b0_is_not_modified": true,
+        "finite_quadrature_not_a_continuous_error_certificate": true
+      },
+      "frozen_metric_third_jet": "analytic complete product a_seed*exp(f), including body controls",
+      "old_polynomial_entry_mean_coefficients_are_not_used": true,
+      "one_Q_sup_evaluation": {
+        "sstar": 0.6423832909810538,
+        "algebraic_denominator": 0.28415395447064123,
+        "raw_Q_sup": 0.7285981480780486
+      },
+      "common_center_evaluation": "unchanged base geometry with fixed 4-angle grid, center only",
+      "old_query_independent_primitive_used_without_row_refitting": true
+    },
+    "evaluation_after": {
+      "source_GH_order": 8,
+      "height_mean_angular_nodes": 24,
+      "height_mean_angles": "fixed uniform [0,2pi) grid independent of query theta",
+      "height_control_integral": "unchanged W4 weighted piecewise-polynomial common primitive",
+      "reference_height_integral": "query-independent fixed prefix plus individual local panel",
+      "no_continuous_quadrature_error_bound": true,
+      "query_independent_height_primitive": {
+        "schema": "fixed-prefix-plus-local-height-quadrature-v1",
+        "partition": {
+          "schema": "bounded-entry-fixed-physical-height-partition-v1",
+          "uniform_panel_count": 8,
+          "construction_sources_exact": {
+            "uniform": [
+              "0",
+              "11/80",
+              "11/40",
+              "33/80",
+              "11/20",
+              "11/16",
+              "33/40",
+              "77/80",
+              "11/10"
+            ],
+            "seed_piece_boundaries": [
+              "0",
+              "11/250",
+              "583/2000",
+              "319/500",
+              "517/500",
+              "11/10"
+            ],
+            "immutable_anchor_spline_knots": [
+              "11/250",
+              "187/500",
+              "88/125",
+              "517/500"
+            ],
+            "published_entry_cutoff": [
+              "847/8000"
+            ],
+            "natural_patch_cutoff": [
+              "467/500",
+              "1501/1500",
+              "517/500"
+            ],
+            "frozen_body_metric_knots": [
+              "11/250",
+              "511/1500",
+              "239/375",
+              "467/500"
+            ],
+            "bounded_entry_cutoff": [
+              "11/250",
+              "21/250",
+              "41/250"
+            ]
+          },
+          "nodes_exact": [
+            "0",
+            "11/250",
+            "21/250",
+            "847/8000",
+            "11/80",
+            "41/250",
+            "11/40",
+            "583/2000",
+            "511/1500",
+            "187/500",
+            "33/80",
+            "11/20",
+            "239/375",
+            "319/500",
+            "11/16",
+            "88/125",
+            "33/40",
+            "467/500",
+            "77/80",
+            "1501/1500",
+            "517/500",
+            "11/10"
+          ],
+          "source_height_base_definition_sha256": "aa9e3f2f62a1fc1f817214de199a4561ec59cfb23c1ff1bff683c2b10129b242",
+          "partition_is_only_an_evaluation_choice": true,
+          "all_queries_use_this_same_prefix_partition": true,
+          "query_nodes_do_not_modify_full_panel_integrals": true
+        },
+        "gauss_order_per_full_or_partial_panel": 3,
+        "prefix_anchor": 0,
+        "partial_rule": "same fixed panel left endpoint to the individual query",
+        "reference_b0_is_not_modified": true,
+        "finite_quadrature_not_a_continuous_error_certificate": true
+      },
+      "frozen_metric_third_jet": "analytic complete product a_seed*exp(f), including body controls",
+      "old_polynomial_entry_mean_coefficients_are_not_used": true,
+      "one_Q_sup_evaluation": {
+        "sstar": 0.6423832909810538,
+        "algebraic_denominator": 0.28415395447064123,
+        "raw_Q_sup": 0.7285981480780486
+      },
+      "common_center_evaluation": "unchanged base geometry with fixed 4-angle grid, center only",
+      "old_query_independent_primitive_used_without_row_refitting": true
+    },
+    "angular_nodes": [
+      16,
+      32
+    ],
+    "position_jet_differences": {
+      "X": 0.0028071564315934492,
+      "Xs": 0.25170878883043957,
+      "Xt": 0.0,
+      "Xss": 34.55124702289856,
+      "Xst": 0.0,
+      "Xtt": 0.0
+    },
+    "direct_metric_differences": {
+      "E_minus_one": 0.15862661831229663,
+      "F_over_a": 0.012511218604348728,
+      "metric_operator_error": 0.15862661831229663
+    },
+    "center_height_difference": 0.0,
+    "center_speed_differences": {
+      "b": 0.0,
+      "b_s": 0.0,
+      "b_ss": 0.0
+    },
+    "same_state_objective_costs": [
+      {
+        "metric_only": 0.07954847798521554,
+        "ball_strip_only": 0.27486023813354443,
+        "total": 0.35440871611875996
+      },
+      {
+        "metric_only": 0.07956007281380095,
+        "ball_strip_only": 0.2737639204744665,
+        "total": 0.35332399328826747
+      }
+    ],
+    "no_parameter_step_or_reoptimization_in_this_comparison": true,
+    "finite_evaluation_differences_are_not_error_enclosures": true
+  },
+  "passed": true,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "frame_collar_polygonal.py": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "frame_collar_polygonal_heat.py": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f",
+    "polygonal_tail_saturated_heat_extension.py": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
+    "frame_collar_polygonal_saturated_heat.py": "483d0decb4cedd083ee3c9da8b499096c4aa51b3c23bb0140f8f7281f5a248fa",
+    "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+    "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+    "frame_collar_natural_body_audit.py": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d",
+    "frame_independent_height.py": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
+    "frame_independent_height_solve.py": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f",
+    "frame_fixed_height_primitive.py": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780",
+    "frame_fixed_height_primitive_audit.py": "824f0cda6ba87132bb2063d836f1b5d4504818899fc0b88060e4e3e854514e41",
+    "frame_entry_paired_repair.py": "8f09d96a4377175e0242a37f1450960f0914e28a787699565d437058e7625ac1",
+    "frame_entry_paired_repair_audit.py": "7c2329f432d00b4962527ab99f94742338581948ed2e346e364fc591ea9464b3",
+    "frame_entry_bounded_height.py": "deac1dbb3410fc426bd1cbb84c126062a5ff61e2aa19c6fcdf1bbd9d0727b612",
+    "frame_height_feasible_initializer.py": "fa379eb61996dfd0646e8ce99f5de88f51c105f13d1e5bea8cba0906525ed6a2",
+    "frame_entry_short_bounded_audit.py": "c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9",
+    "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
+    "frame_height_polytope_audit.py": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502",
+    "frame_height_quartic.py": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f",
+    "frame_published_height_rows.py": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
+    "frame_entry_single_q.py": "b0744e42b00854b85ac6828afc4520c0505b5d4800c47ab4d8bb96c84d04e286",
+    "frame_height_affine_gate.py": "c55fe53cc8f5ebaae10480cf759dc5e228316e80bfab13bef3d01d5c51e37e0c",
+    "frame_joint_height_objective.py": "c1a92c46590783fcda8867a5304ab3fcc3c670ad58fce0f079737512f9af69fb",
+    "frame_height_quartic_joint_audit.py": "d2fc289a80e51a94b6481ddd06c3d649caac06c34227d77600f462dbb478ed15",
+    "frame_height_joint_resume.py": "54ae55525da9dcf1471fa9fff3caf13d159e6b33c86d25468a92cf9afb63d6ae",
+    "frame_metric_epigraph.py": "6f1cd9e3f987f3c3209e6fdee6a24b72d83146a3ea5f522656b22e61cb241d03",
+    "frame_metric_epigraph_audit.py": "5923221ec495b08f3be491a709eeab740394c04f6c8e4a602e1d512bd4e1b3c9",
+    "frame_metric_epigraph_trial_audit.py": "47f02c5a8d1e9084b2abec50751e6346112f91ce5bca55391d659b266d204e53",
+    "frame_metric_epigraph_dense.py": "7a62290ec82a7a1499fcfd5a029cf0b4a33e044af2f74f80f478fe12aab38b9e",
+    "frame_metric_epigraph_dense_audit.py": "c0fe3a6c085681c8608b1e9a00733891575600d98fb1855c52ea3e6dcd0b573d",
+    "frame_metric_epigraph_exchange.py": "3ae3a42d83e3c1c11830d18a0868d0247655792a2415468cd4fae675dda36beb",
+    "frame_metric_epigraph_exchange_audit.py": "7ab5fe1580835eb6c0a2a3af25768ad042b6e7e45a1a6a6da9dc7e45891613d2",
+    "frame_curvature_psd.py": "146f12fb56ac1a0b18a4d35ede1c171d68e72f7ae778e49fdff0b9bd1f9561bc",
+    "frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
+    "frame_curvature_epigraph_exchange_audit.py": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a",
+    "frame_curvature_feasible_exchange.py": "ed77abc30e6d4b5fa53e558c316e7479f91cbf674c2686e8ff69908b57e101e5",
+    "frame_curvature_feasible_exchange_audit.py": "60a3bd66a1e0636c0796a102b900aa04099f5341008a9262e0f31b1090088b14",
+    "frame_curvature_feasible_steps.py": "a3434d12c7feff5ca5059c5e06ade14ccf1d6a427284fe5648b6b3122bf19824",
+    "frame_curvature_feasible_steps_audit.py": "63789b68f5e6b23d4e9dd30541e01e3dee56d86044ad6cf50c746dc98872c091",
+    "frame_curvature_mixed_grid_steps.py": "8a91bd1799c0404e740a56bff61d595e5ea93a622bd79d254a1a3a1b5e3064bd",
+    "frame_curvature_mixed_grid_steps_audit.py": "5e7450dfd8f5357b848589fb50d25533b786032cebc4d127495536b1a4395d0f",
+    "frame_curvature_target_ladder.py": "02bb1effe5b5bc4d13e058e74a8ee20616832cf472118a3cd51565a4b5a1f1a3",
+    "frame_curvature_target_ladder_audit.py": "6dde89c74ba8b5ec61ca0b8add4e7fc83a7eb59815fba557de81dc3cd03fb9ca",
+    "frame_curvature_soc_steps.py": "3bc2df4ec3b69632c31f05e81b14a4e96330bd48623e5ad70944656653b8e9e2",
+    "frame_curvature_soc_steps_audit.py": "cd01144dec2a15872a53b3fce058a3461e8b5298c905b1ba319d041dc9fd146c",
+    "frame_curvature_inherited_scale_audit.py": "27ba43865b0245e6bc99ca2914c27dafc5e209f5774249c3ce1da09a7479b2e6",
+    "frame_curvature_soc_arc_steps.py": "44f8e11070d694cb506e42a1dfb7e04ffad880775c2d7cf922cd9c82358a765c",
+    "frame_curvature_soc_arc_audit.py": "68ffa2e2ca361ec67f8e94bd850deab619cc52f5186b55f9b75ace125595d258",
+    "frame_curvature_soc_metric_reserve.py": "9158fea8d1c47f57d5bd55e5654613ec19813d63c1f6367961b8fb6df985a95f",
+    "frame_curvature_soc_metric_reserve_audit.py": "2cbf0f663cb7b4af52baba4835cd036586ffbe1567ff9b366a25d8a81d0ccca4",
+    "frame_metric_budget_restoration_rows.py": "eff06d6c2136b8b13fa86afe915352ee54e5aaae2c4c80551a08355cea2e1d4f",
+    "frame_metric_budget_recovery.py": "ba3e2becec3ad750ef8818711d8034003f3077877d39115925c308d123dec9ff",
+    "frame_metric_budget_recovery_audit.py": "a7993b1ccdd600bac60215c97b170cd15e66ac3b1b33c04f6c382111fd86b699",
+    "frame_metric_spectral_recovery.py": "27fcdbc71a6d9d07e0cba962067e61d7f8439ef06d47cdbdf9c669ce1ea2c428",
+    "frame_metric_spectral_recovery_audit.py": "f9fc1f820a98b7803c73336eb5eb39a200f024ba13a26f2f8bb06aef0cd95b33",
+    "frame_metric_spectral_adaptive.py": "c2b914de12701b3f989d7ab77a41cad51a10b036f071447debf02d624f98a582",
+    "frame_metric_spectral_adaptive_audit.py": "59618000d7a26cf308e903f8a02f3101ff774f54359c45d9f0ae8052fc13f3a5"
+  },
+  "process_total_elapsed_seconds": 25.037639126000002
+}
