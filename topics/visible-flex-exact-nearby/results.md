@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 同正预算分离与第一local完整Taylor尾替换](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)：原whole算法finite+两正尾及C两支min共同addend逐式付，严格lower只用于同数值预算，回读finite/rest后保全部尾/mean/Piola。新RT3/5000产品和6完整导数尾交public首次消费者，未预报数值改善。
+
 - [R133 双侧正collar的完整残差能量与H1 cut](results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md)：真实drift能量交叉项消失，speed导数保残差mean；完整rank/mean/Fφ及两侧seam给E19–22显式内迹。只需unknown C0、known两角导数；实际低trace门和8193窗口不在本结论中。
 
 - [R133 Green v4恢复与已读规则契约](results/../notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)：原369 pin零改，新376 pin保持同二进选点/完整signed193/97、三输出及原门；明确v3丢失新算术重做、live已读规则和完整小stdout恢复。仅源及执行契约，待首次实际run，不声明Green成功。

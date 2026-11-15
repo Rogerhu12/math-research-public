@@ -141,6 +141,11 @@ first<1.772092028752768e16、完整pair<1.772092107010686e16；其它20first+10m
 本次仅按用户授权恢复该lost新消费者，三原失败/两只读diag保持。
 原P现锁成功，不再执行。当前第一local仍主导，继续其真实regular结构和完整source-to-trace；
 更新g/L2消费者须读此新ledger，不得把其它项恢复到旧值，也不把volume上界当strong-return。
+[B正预算分离及新完整tail](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)
+已从原whole Taylor正算法和C两支min逐式证明共同正addend，可减其严格lower回读finite/rest，
+不是相减函数误差upper。首次24pin消费者已部署，P原17pin零改；仅新6个二径0..2角导完整tail、
+RT3/5000新product门与完整local1预算，保原所有mean/finite系数/n≥13/两Fourier尾和当前P全ledger。
+实际新产品门/改善待首次run；旧S/C/D/P不重算。
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
 G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。

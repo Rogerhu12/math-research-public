@@ -71,3 +71,7 @@ v3实际failure原因/完整log及最后报告counts只引43709951426/1 f526d0b1
 ## 2026-11-15 11:57:12 UTC — 双侧正collar实际残差能量与H1迹
 
 读main a34614cd025029be282f89af8a8128f139ce834c两README未变。root全文亲读13671B/SHA8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9，核原mean方程、K±1/4缩放、real能量交叉恒等、Fν同metric限制、完整rank/mean与两次cutoff trace。phase独立核E13–22的DN/primitive投影、lower 8bMM1及P(c)−1单位通过。此为实际近似state全残差的解析估计，没有新数值；实际E21≤rγ/128及H8193仍须支付。Green v4 run43711315338/1已in_progress（11:56:19Z，ce17e68d），source/manifest不再改，继续实际门监视及新源预算。
+
+## 2026-11-15 11:58:25 UTC — 正预算分离成立并部署首次新tail消费者
+
+读main d0ceaf1233a473d89651e95c7e953a8424e057d2两README未变。root全文审fedf17ff契约和新SCI数学路径，亲读原whole源a0f12f84 derivative_budget234–258及原C b0648a3b positive_linear_calibration/CompleteOperator/local_vectors，确认原tail纯正加和无min，C两个min分支含相同正addend。只减该数值addend的严格lower，不减函数error upper；有限系数和完整rest不丢。原P17文件逐dict全保，新24pin688041B。仅新产品域、6完整二径/角0..2尾、完整rest和local1比率/全和；新源e0541949，manifest5e2618c4，worker276d2adf，flowb2cb21a8。static delimiter通过，worker与已成P稳定版diff只角色/门/去原P取证，published-origin容量和≤59KB预Gitstdout保持。已有同身份成功复用不再算。全部新数值只交public Actions；实际域门/child退出/改善待run。
