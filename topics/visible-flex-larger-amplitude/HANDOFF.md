@@ -12,7 +12,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:36:22 UTC API读取main 2356c84b816a6fdc6818771c9e28eba32af17b0a，双README21bd/bff未变；不是git pull。139/124原结果R311/R315已完整读，143已小文本推送待run。
+集成复核：2026-11-15 12:40:39 UTC API读取main 28bc65c8f8356d34dfabfce934f9bf7ec7424838，双README21bd/bff未变；不是git pull。R314全文审读，条件定理不冒实际数值证书；128已结束待原结果。
 
 ## 真正完成标准
 
@@ -24,13 +24,13 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 [133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：run43704718358/source4f0ea9a，current128 RHS新R273唯一α=1接受，完整576段/129248行norm9.68582474751023176032080482454992093e−11达原2e−9并正常停。独立fresh128全残差/576×226逐字一致；全224J/338/audit/native/fullDN未付，末态e0f20c36已清不可SHA恢复，下一140实际新现场，不盲调η。
 
-[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。[新operator接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c已全文读并发布，完整225矩/226态/全部224列和名义缺陷读回保持，独立schema不冒旧dL字同值。[140完整新入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4；首参数/全stderr/watcher修复，原19200s总cap含编译/独立science caps/父绝对期限/audit预留均保。
+[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)证明准确实固定分支共享、全226RK/端口/两mean及112 QR响应；浮点pivot不证非共振。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)证明独立literal Gram225收缩，名义R/a/b及方向缺陷不默零。[R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)现给真实C与F形成误差、逆比较界、完整方向与有限root/RK/端口传播，以及实际F_e的独立根盒/隐式方向条件；无实际区间证书、不改native门。原三operator源及完整140来源/预算见[接口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)，全部225矩/224列/226态与独立schema保留。
 
 ## 公开Actions实时索引
 
 | 请求 | run / compute | source / 起始UTC | 当前责任 |
 |---|---|---|---|
-| [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；11:47仍science |
+| [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；compute failure/report success，完整结果待读 |
 | [140新算子final](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md) | 43713195661 / 132809057379 | 242c1f0251c57f56f19e67b88b2e4dc4d5cac614 / 12:18:51 | 准备actual91；576×224/112boundary/混合338/独立audit同现场 |
 
 [124 R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)真实零H收敛；13个正s各原10trial全stage0 D/S/A拒绝，完整withJ基点返回，最后norm47.989089918750544。第15call s1.9073486328125e−6未返即规则SIGTERM/runner77，非300min耗尽。极大relative指标分母含1e−250，不能唯一归因warm；145接当前H/完整states/freshJ的全R273候选并保原noJ/全部门。
@@ -53,7 +53,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 [139 R311](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)run43710988676/source431ec674、compute132802263809/report132810057213全success：全1440/六primitive/whole-natural闭域界完成；1800.8219652040002s后保2900合法粗片/1追加积分pending，resolutionfalse但domaintrue。真实Rout−binarycut严格正，仍无cut点两jet/同场1e−6；144同f12f先cut点后whole，完整原预算/源不减。原132/136责任见R293/R304/R306。
 
-[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。factory650a/numeric93cc/augmentedb154待root全文发布。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振继续。[143完整入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)fe66789e/requestc5e9931a/wf93bcf11b：F159/256bit、11+5源/三原输入，全112深端包围；逐行临时核后清，待实际run。
+[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。原factory/numeric/augmented草稿未发布且终端当前不可读；重建独立v3消费者后全文发表。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振继续。[143完整入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)fe66789e/requestc5e9931a/wf93bcf11b：F159/256bit、11+5源/三原输入，全112深端包围；逐行临时核后清，待实际run。
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给准确C²结构，[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)给条件finite clip障碍；实际field/atlas/有限误差仍未付。
 

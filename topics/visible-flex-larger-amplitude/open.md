@@ -38,11 +38,13 @@
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)与[七组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)付准确实共享root/全226RK/112 QR两端/577响应与全129248×112缺陷；浮点pivot不证非共振，338混合及C-based物理jet不冒finite-root径向导数。
 
-[137同现场入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)run43709832101/sourcef9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3，fresh起19200s总、120s读回，owner6000含1200replay、stages8000/boundary600/endpoint600/audit1800依实际剩余截并先保audit，完整失败/未访/90KB70；原133和七源不改，不预言全224能按时完。
+[137同现场入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)原完整源与19200s总预算保留，实际入口阻断现由R313结清；140同原范围重做，不复用已清现场。
 
-[R313实际137完整读回](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)保真实12945B摘要、两个原log及全部J/QR/delta/packet身份；完整64仿射残差不冒128 owner结果，7488/6943导出查询不冒已执行audit。固定源码按argv全局membership误识guard命令尾的--owner-child，充分确定启动阻断；原日志未捕获具体ValueError正文，论文式源码推断与实际观测分列。没有128初始norm/trial/接受/末态/后继组件，不能称数学拒绝。原133 R308有效且不由137重复失败取消；140首位置分派/原stderr无损传输与原watcher marker接线。
+[R313实际137完整读回](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)确认fresh64/J/R273/two packets后argv入口阻断，无128 owner/接受/末态或后继组件。具体ValueError正文属源码推断而非原stderr；原133 R308仍有效，140首位置分派与完整stderr/watcher接线修复。
 
 [R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。[140完整同job入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现已发布52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，修首参数识别、实际stderr和原watcher传输。原actual91重新生成fresh64/R273/current128，清理前完整576×224新stage/全112boundary/混合338/独立audit；19200s总cap含绑定编译，保原science caps/父绝对期限及audit预留，完整/partial/未启动分列，native/fullDN仍false。不改137，不预言速度或误差界，不添fixture。
+
+[R314完整条件后验定理](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)现已证明：真实literal C/F形成误差、名义因子和两回代缺陷、完整方向残差与primal误差共同给出严格逆比较界；全部224列/226态/两mean/端口及129248原行可完整传播。真正有限根与隐式方向另用实际F_e根盒，原投影c[n,0]不偷换输入系数1；固定准确实轨迹、分支稳定性、IEEE字值分别负责。无实际区间证书，不改变140/native或新增前置门；实现消费者只在同job真实现场或按原来源重做。
 
 ### 2C. 完整原场域约束与下一35查询
 

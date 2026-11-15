@@ -150,3 +150,5 @@
 - [Request143：原连续C完整112深端区间实际入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)及[producer](notes/2026-11-15-continuous-C-complete112-deep-far-producer-interface.md)：R312同一原准确根族、F159/物理node160、256bit全112 Robin，mode2准确0来自原定义；11现源+5原公式/三历史输入/R286-R312，完整行流仅临时核后清。未预填有限头、cut域/分母、DN或非线性接受。
 
 - [R311：actual139完成原连续C全六primitive及自然闭域包围](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)：全1440片/有限头/深尾及finite-protected条件完成，唯一whole-natural query合法全闭域界；原Rout严格超binarycut。1800.8219652040002s后2900 query片仍粗但有界，另1追加积分pending且无源/query未访后缀；domaintrue不冒resolution或同场1e−6。全部原身份/严格端点/预算现场/大账和已读范围保留，144付cut两jet。
+
+- [R314：literal有限root轨迹及完整方向的条件后验误差界](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)：真实C/F形成误差与名义因子/两回代缺陷、方向右端与primal误差全部保留；逆比较矩阵严格界可传完整224列/226态/RK/端口/129248原行，真正有限根及隐式方向另用实际F_e。仅条件定理、无实际区间证书，不改原门。

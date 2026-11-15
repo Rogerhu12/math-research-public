@@ -464,3 +464,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R311实际139完整连续C自然闭域包围
 
 [R311](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)19075B/e4149d93全文已读后立即发表：全1440/六primitive/深尾与finite/protected条件/whole自然域完成，真实Rout−binarycut严格正；2900粗query片已有合法界，1追加积分pending，domaintrue/resolutionfalse分开，不冒1e−6。两原decoded日志及26052B/8ed43445逐字摘要、原大账身份和未本地下载范围明示；144保持同源原预算并先cut点两jet。根8失联小文本快进、API核双README未冒pull；143五件已推a809a7eb，继续真实run及全112有限头。
+
+## 2026-11-15 /root — R314完整literal轨迹与方向条件后验界
+
+[R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)26371B/c2c94a12全文审读后立即发表：C/F形成、名义分解与两回代及方向缺陷完整保留，非负比较逆付严格误差；全224列/226态/RK/端口/原129248行可传播，真正根另付实际F_e与根盒。原零模输入1和投影c[n,0]分清；固定轨迹/隐式方向/IEEE字值不混淆，无实际数值证书、不加native门。根8终端失联小文本快进，API核双README不冒pull；128计算已结束待完整读回，140/141继续。
