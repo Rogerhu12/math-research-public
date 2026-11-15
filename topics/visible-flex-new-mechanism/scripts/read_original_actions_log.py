@@ -386,7 +386,7 @@ class Preview:
         if len(encoded(trial)) <= limit:
             result[key] = candidate
         elif required:
-            raise ObservationError("required semantic fields exceed their output budget")
+            raise ObservationError("required semantic field exceeds budget: " + path + "." + key + " proposed=" + str(len(encoded(trial))) + " limit=" + str(limit))
         else:
             del self.omissions[start:]
             result[key] = self.omit(value, path + "." + key,
@@ -436,31 +436,94 @@ def development_view(report, preview):
     return preview.compact(result)
 
 
+def shallow_semantic(value):
+    if not isinstance(value, dict):
+        if isinstance(value, list) and len(value) <= 32 and all(isinstance(x, dict) for x in value):
+            return [shallow_semantic(x) for x in value]
+        return value
+    result = small_scalars(value)
+    omitted = {}
+    for key, child in value.items():
+        if scalar(child):
+            continue
+        if isinstance(child, dict):
+            result[key] = small_scalars(child)
+            missing = sorted(set(child) - set(result[key]))
+            if missing:
+                result[key]["unexpanded_child_field_names"] = missing
+                result[key]["original_full_field_fingerprint"] = fingerprint(child)
+        elif isinstance(child, list) and len(child) <= 32 and all(isinstance(x, dict) for x in child):
+            result[key] = [small_scalars(x) for x in child]
+        elif isinstance(child, list) and len(child) <= 16 and all(scalar(x) for x in child):
+            result[key] = child
+        else:
+            omitted[key] = fingerprint(child)
+    if omitted:
+        result["unexpanded_original_fields_with_fingerprints"] = omitted
+    return result
+
+
+def compact_error_view(value):
+    if not isinstance(value, dict):
+        return value
+    keys = ("schema", "selected_scalar_linear_slack", "selected_affine_ef_spectral_slack",
+            "selected_actual_smooth_slack", "complete_affine_smooth_slack",
+            "complete_actual_smooth_slack", "complete_actual_true_slack",
+            "global_identity_absolute_error", "row_identity_max_absolute_error",
+            "smoothing_bias_upper_bound", "complete_two_grid_available",
+            "no_additional_ordinary_geometry_LP_or_physical_value_call")
+    result = {key: value[key] for key in keys if key in value}
+    for key in ("maximum_slack_difference_terms", "complete_model_difference_terms",
+                "norm_curvature_direct_and_stable_diagnostic",
+                "row_actual_ef_nonlinearity", "row_spectral_curvature"):
+        if key in value:
+            result[key] = small_scalars(value[key])
+    if "complete_affine_four_maxima" in value:
+        result["complete_affine_four_maxima"] = value["complete_affine_four_maxima"]
+    result["unexpanded_original_field_names"] = sorted(set(value) - set(result))
+    result["original_error_fingerprint"] = fingerprint(value)
+    return result
+
+
 def summary_model_view(value, preview, path):
     result = small_scalars(value)
     primary = value.get("finite_primary")
     if isinstance(primary, dict):
         selected = small_scalars(primary)
-        if isinstance(primary.get("inner_LPs"), list):
+        if value.get("model") == 5 and isinstance(primary.get("inner_LPs"), list):
             selected["inner_LPs"] = [small_scalars(item) for item in primary["inner_LPs"]]
         result["finite_primary"] = selected
-    for key in ("cut_rounds", "inherited_SOC_budget_comparisons",
-                "physical_values_or_Jacobians_inside_inner_solver"):
+    for key in ("inherited_SOC_budget_comparisons", "physical_values_or_Jacobians_inside_inner_solver"):
         if key in value:
             result[key] = preview.compact(value[key], path + "." + key)
     complete = value.get("complete_original_grid_model")
-    if isinstance(complete, dict):
+    if value.get("model") == 5 and isinstance(complete, dict):
         result["complete_model_summary"] = small_scalars(complete.get("summary", {}))
         oracle = complete.get("oracle", {})
         result["original_oracle_statistics"] = oracle.get("statistics", {})
         result["original_oracle_initial_four_maxima"] = oracle.get("initial_four_maxima")
+        result["cut_rounds"] = value.get("cut_rounds")
     if isinstance(value.get("actual_metric_errors"), list):
         result["actual_metric_errors"] = [
-            {**small_scalars(item), "decomposition": error_view(item.get("decomposition"))}
+            {**small_scalars(item), "decomposition": compact_error_view(item.get("decomposition"))}
             for item in value["actual_metric_errors"]]
     result["unexpanded_original_field_names"] = sorted(set(value) - set(result))
     result["original_complete_summary_model_fingerprint"] = fingerprint(value)
     return result
+
+
+def table_view(value):
+    if not isinstance(value, dict):
+        return value
+    columns, rows = value.get("columns"), value.get("rows")
+    if isinstance(columns, list) and all(isinstance(key, str) for key in columns) and isinstance(rows, list):
+        require(all(isinstance(row, list) and len(row) == len(columns) for row in rows),
+                "original semantic table has mismatched columns and rows")
+        result = {key: item for key, item in value.items() if key not in ("columns", "rows")}
+        result["original_column_order"] = {str(i): key for i, key in enumerate(columns)}
+        result["row_objects"] = [dict(zip(columns, row)) for row in rows]
+        return result
+    return value
 
 
 def actual_view(report, preview):
@@ -476,7 +539,7 @@ def actual_view(report, preview):
     for key in ("input_byte_streams", "state_identities", "input_restoration_conclusions",
                 "ninth_handoff_summary", "algorithm_stage_scope", "error", "pipeline_failure"):
         if key in report:
-            preview.field(result, key, report[key], 23000, required=True)
+            preview.field(result, key, shallow_semantic(report[key]), 23000, required=True)
     stage = report.get(STAGE)
     require(isinstance(stage, dict), "original actual report lacks its stage")
     selected = {k: v for k, v in stage.items() if scalar(v)}
@@ -490,10 +553,14 @@ def actual_view(report, preview):
     preview.field(selected, "complete_new_affine_model_and_error_records",
                   focused, 44000, path="$." + STAGE, required=True)
     for key in ("trial_decision_columns", "trial_decision_gate_code_order", "model_table",
-                "trial_table", "correction_table", "accepted_table", "SOC_hold_diagnostic_table",
-                "scale_feedback_updates"):
+                "trial_table", "correction_table", "accepted_table", "SOC_hold_diagnostic_table"):
         if key in stage:
-            preview.field(selected, key, stage[key], 44000, path="$." + STAGE, required=True)
+            value = stage[key]
+            if isinstance(value, list) and all(isinstance(x, str) for x in value):
+                value = {str(i): item for i, item in enumerate(value)}
+            else:
+                value = table_view(value)
+            preview.field(selected, key, value, 44000, path="$." + STAGE, required=True)
     selected["original_stage_fields_not_reprinted"] = sorted(set(stage) - set(selected))
     preview.field(result, STAGE, selected, 67000, required=True)
     result["original_top_level_fields_not_reprinted"] = sorted(set(report) - set(result))

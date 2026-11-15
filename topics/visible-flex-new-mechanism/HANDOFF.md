@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `a5c6902ac02bcd98083607b01b24b83e72d0ae4f`，2026-11-15 16:03:36.362937 UTC，observer43733275356实际pull已最新，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `bf4b5d3acdb9a1b22cf07bf6ea5b19dfd0d6da05`，2026-11-15 16:14:52.012977 UTC，observer43734302729实际pull快进，双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 16:02:23.127321 UTC实际pull/read `dd9aad351d1ca8847bca06cadd03a0bc0a3162ae`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
@@ -19,7 +19,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**已消费159系列**：容量/hold、因子化J与选行仿射actual全部见对应notes，不重已付阶段。旧选行仿射43722283235/bb33192：η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰/已选曲率失败、m5 e/f非线性保原记录。active16.997316s、八恢复569.558425s分账，50/102源24输入核合。所有旧失败/漂移/费用仍保原件。
+**已消费159前序**：容量/hold、因子化J及旧选行仿射的全部原门/失败/漂移/费用保对应notes，不重已付阶段。旧选行affine43722283235 η.266419188→.266401179，m6漏峰/曲率及m5 e/f非线性保原记录，50/102源24输入已核。
 
 **完整两网actual已首读**：[真实结果](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过，κfine57.999983395；高度margin仍有−5.6e−17，容差eligible不冒精确非负。9必要恢复805.206121s、新活动35.287169s、总845.020544s，16+2完整值；54直接/106递归源对receipt全合，开发所有新续项过/首方向6源绑复用。只读observer43732214112得实际report，原checkpoint已读：5打印模型、10primary/2SOC/12LP、末B.000125、有限模型停滞；context转义恢复，原模型scalar已取1/2/3/4/6；原summary有六记录而native漏5，已提交原summary专读5及全部误差/24输入/恢复；原source106逐项核；不重科学。旧首array并列incumbent误断言已修正、失败原件仍保。下一原模型/误差/恢复漂移消费。
 
@@ -56,4 +56,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main bf4b5d3acdb9a1b22cf07bf6ea5b19dfd0d6da05，双README blob同。API读取不冒实际pull。
+断连API复核main e7ea7c3f26a521e1b86501c883c85ef581936906，双README blob同。API读取不冒实际pull。
