@@ -389,3 +389,6 @@
 
 
 - **九目标的全局共同乘子可严格删除二点因子。** [完整证明](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)由全部原局部环判准证明 $(s-2)^kat_j\in L\iff at_j\in L$；不是对既有来源逐坐标除式。$h_*=h_0/(s-2)$ 与原候选的全局成员性等价，完整二点长度12又给真 $R(2)\ne0$。结合∞P61，同九 $Rh_*t_j$ 有原多项式来源，乘子次数≤185，来源成本仍8531（三支8526/8531/333）。未知剩余支撑未被有限临界分类自动清除。
+
+
+- **九目标共同最小湮灭式的剩余支撑精确隔离。** [完整证明](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)从真R剥全部已付临界支撑，得 $R_{\rm out}$ 与 $s(s-2)(s+6)F_+F_-E_8$ 互素，同九 $R_{\rm out}h_*t_j$ 仍有原来源/费8531。共同最小湮灭式为 $s^3F_+^{a_+}F_-^{a_-}E_8^{a_8}U$，$a_\pm\le2,a_8\le1$、$U\mid R_{\rm out}$；零点三阶严格最小，二点/负六指数零。未知U不宣称为1，原泛型例外集合含未知Δ，未被已有临界分类清除。
