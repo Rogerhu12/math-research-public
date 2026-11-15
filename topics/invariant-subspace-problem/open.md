@@ -144,3 +144,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **第二头真实Schur联合恢复。** [完整校正](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)以F1的真实b⊥块H和v=H⁻¹r给D0，m≥11付H≥S/2、D0∈[S²/2,S²]；同u的Du/D²u/范数及原Γ/source/零源/Gq两列式全保。下一项是h̃2和h21在同一完整Γ_CC⁻¹及同一q下的联合远孔传播，不能把显式primitive项已吸收误读为原源已趋零；a1仍须o(S)。
 
 **第二页范围修复已定位。** [只读实绩](notes/2026-11-15-r150-saturated-target-scope-readout-789f.json)核九outside均非零、秩2，但实际全在b1/b2/b6张成的U7中；raw/P2raw各秩9。新prepare保全部315原目标、投影、差及真实U9坐标，complete复核全向量身份后比较商类。最小修复续跑完整204来源；旧197/selector/native不改、不重跑旧数学。
+
+**完整第二页正分支的真实预算已付。** [1058定理](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)保同一完整F0/raw q1截面、s/t carry、精确B核比较和三次真实P；只恢复所选≤9组合，182→474→766→1058。旧765/796容量不够，若实际第二页相容即扩完整helper并核原315/全部17/成本；其余由保存的完整后继源核接第三，不停在本条件定理。
