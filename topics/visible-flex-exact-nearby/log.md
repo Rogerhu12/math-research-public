@@ -193,3 +193,7 @@ root亲读exec5fa965e5/38057/37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880
 ### 2026-11-15 20:04:30 UTC — MI完整实主因子逆
 
 已逐条核对f1fb4dca全文与IC同对象：正kernel两实sign、Jensen分母、νκ常数身份、完整均值两侧逆、ordered实常量收缩、正概率row及weighted-Wiener两窗。phase核MI8–21、tail核MI24–28；同high χ用K0正确，RHS与完整preconditioned Schur另付。单结论推送；无新数学计算或actual Ei/全incoming宣称。SN小回执bb415e2a/11990/f0c972f9原字核，19:59:44.536601真pull19519948空README差；累计3112含旧1256/新1856，进度非终点C。H/open压缩前全部逐字保8148b208054eaaf7a9b35789e4f2a8a44875ff86，全部失败/域/恢复/未付义务继续。此次只读README核126c05170e77a29cc86e4a98681c724c51f0de7b，无executor状态未冒作pull。
+
+### 2026-11-15 20:07:00 UTC — RF完整ordinary核心源接线
+
+RF c4723121全文与原Z79fb5192/df3beb21、source90c90fb1/pilot2d45c2f1、原7296 merger24ec0bf2、Qrepair a39fcfa2、R575bd371、D6956c214/source827fcb23及WL936633fc逐项核过。summary/process完整Z对象相同、6门7721/真实inner交长，完整rawmean及五repair项已付；不重复384EZ。D真d1e−10及raw+repair两state边界、WL完整B/G、169及49/4、α一次和f0≤96均核。phase RF2/5与newton R/WL独核。无新数学运行，RF14/15只是完整既成证书公式；唯一更锐raw core积分另审新package。H/open活动压缩前全字保7794d473a4a042b3b93eb5703d02f3eb59fcd64f，旧运行/域/失败/恢复和所有未付义务继续。README在700d4f35b0526ace2631c7927b9142ec2ac485c5核无变。
