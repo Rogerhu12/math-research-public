@@ -74,7 +74,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)已消费43699241372/ee9e2098：12新增人工全过，17新层/34cubic，宽门秩4、合三旧pure行秩6，两门均member。H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32满足whole pure0、λ+1和本T0，fresh2694项原差验证；pure核的一次层像维3。T明确只真权0、canonical mixed−2、首f-up/g0左平端。**本一次层读λ路线结束，不机械加同类查询或扩别权。** 下一必须处理p²真实有限极点、完整内部/平台/通量门，或全period/ruling共同算子。未指定P/真实τ，不冒固定圆成员、完整端点像或全权R225响应商；raw旧I符号/真耦合/外锚jet顺序保持。
 
-[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)现给二次层准确有限观测：同首f-up/g0且真实平台/一次层已付、左零通量时，G=P2+p²B+p³C的u=w′光滑当且仅当t⁴B无负Laurent主部；保实际c和光滑a，u(0)=−[t⁴B](0)/(3c²)。[单HE新入口](notes/character-zero-quadratic-endpoint-principal-design-20261115.md)已提交：只恢复C2/R0/R1/R2/R3/R4/R10七必要根，以实际可达J给严格Ud/K截断，提取degree2真尾负主部。12新人工先公共执行，随后单目标；当前尚无结果。该有限条件不替代另一端、内部/平台/通量或完整joint；不重原17一次层。
+[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)现给二次层准确有限观测：同首f-up/g0且真实平台/一次层已付、左零通量时，G=P2+p²B+p³C的u=w′光滑当且仅当t⁴B无负Laurent主部；保实际c和光滑a，u(0)=−[t⁴B](0)/(3c²)。[单HE新入口](notes/character-zero-quadratic-endpoint-principal-design-20261115.md)已提交：只恢复C2/R0/R1/R2/R3/R4/R10七必要根，以实际可达J给严格Ud/K截断，提取degree2真尾负主部。首actual43701766182的12新人工过，实际J4的全部负主部在原式已零（NF0），条件性germ门已读，R240待正式登记；平台P2″继续未付。该有限条件不替代另一端、内部/平台/通量或完整joint；不重原17一次层。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
@@ -115,6 +115,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 [R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)以四尺度、真左尾正bulk和O2旋转付三矩/LcLs双零，八复制后另选角保完整三阶；原四尺度平面仍GL2可分离。[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)现去掉该限制：任意正I内构造P8非零的完整八包block，取相同t的α与π/2−α两根，在两个不交尺度副本上分别使用。真尾交叉能量只按E(x²,Z)=0消去，四射影方向排所有GL2分离；M0/TκH上的完整二三阶及LcLs0同付。新的第一F已改变旧指定gε，旧首g0/F8仍不继承；R50标准常段障碍不冒普遍。下一完整第四次层、全period与同w ruling，不能把领先双零当joint成功。
 
 [R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)已在b0例外端芽、Lc=Ls0前提下付完整下一h²σ6层：D=Φp1−Φt1/8，系数(8ε²ke³/5)E(Gff,D(f²−φ²))。因此还须Mc=E(Gff,Dgg−Dff)、Ms=E(Gff,Dfg)同零；保真第二/第三history及所有local/chain，非单项猜测。R235的两新数尚未评价，下一分析其同锚真尾/双block关系；双零不授完整joint。
+
+[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)把R235下一两能量准确归约为Z=U−PV/Q。真实总体边界先由三矩消，再得微包S/T bulk；T平移≤9、伸缩0，未有固定符号。两互补同构block等幅给Mc=−4tZ、Ms=0，非零正幅/伸缩不能另调Mc。因此下一在完整三矩/第三参数族解UQ−PV=0、P≠0；不预设原R235已失败。
 
 ## O1：双圆领相位机制，保留备选
 

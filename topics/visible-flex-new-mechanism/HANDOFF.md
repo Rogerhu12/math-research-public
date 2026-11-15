@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:57:58 UTC实际pull后已读规则提交：`48fbd2f22a5ee247906eb5c73fe2b3fd73816051`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 10:01:00 UTC实际pull后已读规则提交：`3902f46911f9fc6a2f1f1ed8fbc3e4633ba04645`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -38,7 +38,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R233/R235新圆已付**：四尺度Lagrange权付三矩，保真左尾正bulk与Sj=a_jS*；八复制清完整第三槽后取两根α、π/2−α置于两个不交尺度block。非零t与四射影方向排全GL2分离，完整二三阶及Lc/Ls0同付。新F改旧指定gε，旧first-f-up/g0、F8不继承；第四仍欠。
 
-**R237完整次层**：b0例外且Lc=Ls0，D=Φp1−Φt1/8，完整K/(h²σ6)→(8ε²ke³/5)E(Gff,D(f²−φ²))。第二Cσ5、第三2βG(φ,CD)与全部local/chain已核；还须Mc/Ms双零。新圆两数未评价，不冒失败/第四通过。
+**R237/R238完整次层**：b0例外且Lc=Ls0，D=Φp1−Φt1/8，完整K/(h²σ6)→(8ε²ke³/5)E(Gff,D(f²−φ²))，故还须Mc/Ms0。完整逐包± block设P=E(A,X),Q=E(X,X),U=E(A,Y),V=E(X,Y)，t=−P/Q，Z=U+tV；领先旋转后(Mc,Ms)=(−2tZ,cos2α Z)。两互补同构block等幅给(−4tZ,0)，正幅/缩放不能另改Mc零性。真G/D尾保留，新T bulk平移≤9、伸缩0，未判Z号；下一保完整三矩/第三的参数族解UQ−PV0。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
@@ -52,7 +52,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R226/R230/R234端层已付**：p¹非零有限首项迫gauge指数发散，p²保有限极点门，p³以上只在左零通量支路可延；δ链扣真二次尾后仅p⁴，非一般U/R。完整原DAG一次层G=P2+Tτf+p²A，τ保真三次函数；指定ψP时L=D+p'/p有限消元判Tτf。43699241372/ee9e2098首actual12toy过，17新层宽秩4、合三旧pure行秩6；R234给H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，whole pure0、λ+1且本T=0，fresh2694项原差验证。T仅权0/mixed−2/首f-up,g0平端，不冒所有端层。一次层读λ路线结束；下一p²真实极点、内部/平台/通量及完整joint，不扩同读出。11.4095秒/112.62MiB，38943B/577157ad只存hash。
 
-**R236二次层已付，新单HE入口已提交**：p=±e^(-c/t)a，首f-up/g0、真平台/一次层已付且零端flux，G=P2+p²B+p³C的u平滑 iff t⁴B无负主部；u(0)=−[t⁴B](0)/(3c²)。新lane character_zero_quadratic_endpoint只恢复C2及六R根，扫描实际J后按Ud/K有限界提degree2真尾主部。helper01efa75b、driver98e8caae，root逐读+mechanism独核；12新人工/单目标尚未执行。旧17层/纯查询不重算，非零只未修代表，不授λ类/固定圆障碍；不迁移R235非零局部ray。详notes/character-zero-quadratic-endpoint-principal-design-20261115.md。
+**R236二次层已付，新HE actual已读**：零端flux/首f-up,g0/真平台与一次层已付时，G=P2+p²B+p³C的u光滑 iff t⁴B无负主部。43701766182/source623f1c00/job132774268375首actual：12新人工过，七必要根/HE2694项346ea2a1匹配，实际J4/D6/U(7,1,−5)/K5；raw主部系数已0，NF调用0，非J≤2自动零。5.26625秒/111.992MiB；21366B/70189310，只留hash。R240正式稿在写；平台P2″仍欠，下一先查真平台，勿加p3+已付层。仅此HE/首f-up,g0，不迁移R235非零ray；旧17层/纯查询不重。
 
 ## 6. 保留边界
 

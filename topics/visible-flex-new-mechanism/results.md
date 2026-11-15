@@ -279,3 +279,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R236单H_E二次主部：首次公共消费入口
 
 [完整消费设计](notes/character-zero-quadratic-endpoint-principal-design-20261115.md)及新helper/driver已逐读，mechanism独核有限精度、积分符号和真尾规范式。只恢复C2及R0/R1/R2/R3/R4/R10七必要原mixed根，核H_E2694项/346ea2a1；不重旧17一次层/旧pure查询。由完整可达J定D、Ud和K，保真实c、anchor与b Taylor；原I左增量正，quadratic真尾先同锚颜色/shuffle/IBP规范，再只置外jets0。12新人工在公共Actions首次执行后才进240秒/1024MiB单新目标。若主部零，只在原平台另通过时付此首f-up/g0端芽；形式非零不授固定圆或λ类障碍，不迁移R235。失败或资源退出不输出完成数学结论，payload/certificate均临时。
+
+
+## R238：次层两能量准确归为同一标量Z
+
+[R238 完整归约](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)对已付三矩/完整第三的逐微包± block，令A=Gff=Ggg、X=Gfg、Y=Dfg，P=E(A,X)、Q=E(X,X)、U=E(A,Y)、V=E(X,Y)。领先双零旋转唯一确定sin2α=t=−P/Q，次层为Mc=−2tZ、Ms=cos2α Z，其中Z=U+tV。root与mechanism分别从D原式核二导与完整左边界；T bulk化为−∫x5W(3x²u″−5xu′+4u)(u‴)²/64，余W³W′边界0，T平移≤9且正伸缩不变。两互补同构block任意非零实幅给Mc=−2tZ(a1⁴+a2⁴)，所以不能再靠正幅或该缩放消Mc；准确新门为UQ−PV0。未判Z号，不排原R235实例或全部圆，继续新参数存在构造。
