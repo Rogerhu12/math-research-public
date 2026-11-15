@@ -388,3 +388,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R754](results/R754-original-finite-inertia-shares-and-etale-source-trace.md)：已证明原完整五伙伴的Künneth分解与规范étale平均在混合门上读零Y频率；Zunit的两个不同非零根给真实G/W/V平凡点份额(p−3)/(p−1)、1/(p−1)、1/(p−1)。原λHW、γλHV、全部深门/相位/质量保，原过滤后三份各非零且准确加回primitive；全外部仍相反，未添中央约束。
+
+
+R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)：全F整除WD的六Gauss逐charge基、H1(BD)=0及δC=h1(BD−C)齐付，真实主部像维=e′−δC；原第二13带迫primitive p²候选ord𝔅≥T_M+13，过此门才可消末尾并得到含全部ξ的简化残数。原同R/normal/第三块/d2均保，未断言实际残数必非零。

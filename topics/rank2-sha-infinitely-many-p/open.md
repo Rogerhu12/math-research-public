@@ -126,3 +126,7 @@ R752完整闭合实际native门：深伙伴与Y正交，第一Y只含p挠，τk�
 
 
 R754已付原G/W/V在完整五伙伴保留下的真实平凡点比例(p−3)/(p−1)、1/(p−1)、1/(p−1)，含原λ和γλ。两个非零根在每个Zunit伙伴纤维上计数，未假设theta测度均匀。R742原过滤后三份各非零且严格相加为primitive，paired外部相反补偿保；因此不能删任一返回支。下一步是原type0中央的完整算术值空间与真正独立同域关系。
+
+
+R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)：全F整除WD的六Gauss逐charge基、H1(BD)=0及δC=h1(BD−C)齐付，真实主部像维=e′−δC；原第二13带迫primitive p²候选ord𝔅≥T_M+13，过此门才可消末尾并得到含全部ξ的简化残数。原同R/normal/第三块/d2均保，未断言实际残数必非零。
+继续实际ξ项与原全值左核配对；H1(BD)=0不等H1(BD−C)=0，主部缺额按全F整除基读取。两13带非零时已直接排此PB，全部为零后也未支付剩余normal/carry同R。

@@ -4,16 +4,16 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：a92752c87d3067c4fe4eb8b86a2dcc138feb6f95；2026-11-15 12:29:16 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:29:15 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
+- 最近已读规则提交：6d83970813d5a87805f91be19f60334c9edc21af；2026-11-15 12:30:56 UTC核两README无变。实际CI pull 2026-11-15 12:29:28 UTC/0d1e6ff09e857a2f3773ae45ca7f02461f4391ae（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:30:55 UTC仍无环境。最迟2026-11-15 13:15 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
-- 本地exec无环境；API仅小文本追加，拒推立即尝试pull --rebase并接fresh head循环。CI实际pull与本地失败分记。11:55:55 run43711278156/job132803152030，回执ci/rule-pull-20261115T115555.json；27,211,719B/1964文件无超限，旧3真实输入块保；下次实际pull最迟12:40。
+- 本地exec无环境；API小文本接fresh head、拒推即重试pull --rebase。12:29:28实际pull run43714095022/job132811769665；回执ci/rule-pull-20261115T122928.json，两README差异空、blob核同。27,361,244B/1975文件无超限、旧3真实输入块保；下次13:15前。
 - 数学运行全用公开Actions；可重算数据/输出不存仓库或Release、不切新块，仅脚本/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB，题log每轮≤5行、不写根LOG。
 - [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)已普通删除206输出；79未匹配/2自读/3旧块待核，真实输入及历史保。
 
 ## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r752.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r750-supplement.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta已付R747/R752，续原中央独立关系；literature已付R748/R751/R754，续原type0中央算术值空间；deep已付R750完整WD值左核，续实际ξ配对/同R。root已付R749/R753，续原中央桥。
 固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
@@ -45,6 +45,8 @@ R743原六固定纤维S-unit顶系数/tame分支给h≤6g_norm+2a+14b−6；d<p�
 
 R750专用1≤ell≤r≤13、N0=s−13≤2h、T=N0−r：完整值forcing
 fB=−eξB0+(eb_s/2a)t^(k−r)u²(B0+𝔅) modtT，𝔅=B0+2ηB1、ord≥T，末r−k位保。原n2低r实列给整右逆，完整高尾不得删。全WD归一曲线值UD⊂N³(E′)，E|C=rP+E′、e′=BD·C−3κ−r；0→H0(N³)→UD→实际主部VE′→0。Rosenlicht/Serre对偶D_T=H0(ωN^-3(TP))中杀全部VE′残数的Lval正好全值左核，配合低右逆得真杀全WD的λ_ω；值可解iffResP(fBω)全零。实际ξ前整段已由原H3吸收。e′≤(BD²−9κ)/3−r，临界主阶无余量时仅O(b)，但指定残数未证非零。值解后只能在R*+Kval内修normal/第三块/两13/d2，完整F整除空间、高值核与真实主部核全保；不冒全p²可解/不可解。
+
+R750[增补](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)给全F整除WD逐charge真基与H1(BD)=0；δC=h1(BD−C)由真基/RR精确算，实际主部维=e′−δC，δC0才全满。primitive p²先过原两13带，强迫ord𝔅≥T_M+13；未过即排此PB提升。过门后实际值配对缩为Res eB0[ξ−b_s t^(k−r)u²/(2a)]ω；完整ξ/normal/第三块/d2仍同R，尚未证明指定非零。
 
 ## 惰性、第一wild与仍开桥
 
