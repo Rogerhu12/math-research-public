@@ -94,7 +94,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [WY四腰有序装配](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135：同Js左逆→Jσ→真U_X逆，root Λ右置；cut两I/two ranks/腰P rank全保，state只BH左费，Λ^-1 T_F^-1 S^-1不交换。FA exact quotient两ε同real，经SF/CT接IC/LN同系数。两physical mean/P97/finite/PW均保；Λ逆/TF/三窗/SF完整积分与全incoming/Schur/R0仍待。
 
-[KL根首项相关消去](results/R133-supplement-correlated-terminal-Ai-leading-scalar-and-waist-normalization.md)dc48bdb4：完整mean residual R0与ng精确给E=(ng/ng*)kroot，同terminal-Ai两ε两σ共享KΛ=√(2π)ng0^-1(η*/k*)^1/6 kroot0^-1。只WX forward；off-bump根短段WL B*/G*、D7/19与RR whole-germ K1/WT ng0闭合新正标量。只四当前science、无旧射线/积分；原Λ^-1TF^-1S^-1有序、finite/两mean和独立reference费用保。实际KΛ/TF/SF/全incoming/Schur待。
+[KL根首项相关消去](results/R133-supplement-correlated-terminal-Ai-leading-scalar-and-waist-normalization.md)dc48bdb4：完整mean residual R0与ng精确给E=(ng/ng*)kroot，同terminal-Ai两ε两σ共享KΛ=√(2π)ng0^-1(η*/k*)^1/6 kroot0^-1。只WX forward；off-bump根短段WL B*/G*、D7/19与RR whole-germ K1/WT ng0闭合新正标量。只四当前science、无旧射线/积分；原Λ^-1TF^-1S^-1有序、finite/两mean和独立reference费用保。新KL已部署SCI1f9dd122/worker548a1226/manifest810a13c2，14pins/2AST/16门；同次保公共numerator，optional left/TF未算，run待识别。实际KΛ及TF/SF/全incoming/Schur待。
 
 [TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c：F*=β*u*v/η*真degree192，WL原B*/7/19与FA full-complex η lower给F_A，root off-bump域不移row790。J_F≥max(192,97,ceil4F_A)使同一TF逆L2≤16/15、H−4/3≤16/13，完整forward也付；finite F_J≤J_F+191及mean保，右乘后不冒有限input，two-I/dual-row费原序。实际F_A/J_F新标量待；Cσ/Eσ/incoming/Schur独立。
 

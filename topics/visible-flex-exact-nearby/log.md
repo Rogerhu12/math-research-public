@@ -15,3 +15,9 @@ SN原b87992b7888d3e9786b0e804889013e2ce0080c8/16238/82f780d34f071ab0634d2155e410
 独推1052d454e98c613177919b7b19e472da1364a828/14951/SHA652a9a2c2a9e0ccce1b07adae8848837ba579bec63d6ba5da21989a24b1bf5a3；PF/IC真F*=βuv/η、完整vmean和degree192，WL原正B*/全7/19及FA c[em]全complex根域给F_A，根off-bump只域恒等延伸，不移row790η/旧WL扰动费。
 双高投影严格乘子比≤(1+192/J)^|t|，JF≥max(192,97,ceil4F_A)给θ0≤1/16、θ−<3/16及同逆16/15,16/13。F_J完整finite≤JF+191/mean保，右乘后不冒有限input；TF18原顺序与TF19中间H−1/3、TF20真实finite dual fee逐项留。无新数值已运行、无incoming/Schur断言。
 只读745c4d5ff782f1e77e68ce4b02614a9db8634051两README未变；根接TF两input小source，KL四件已静态接收准备部署，phase制SJ18parts/newton接Ccut-gprop，原SN/SC3持续。总验收未达。
+
+### 2026-11-15 21:56:18 UTC · visible-exact-astra-0df9 · KL公开新标量部署
+
+SCI b54a416dab497b52a4d2b68dfd2a454a2acb3628/23523/1f9dd122c7de8a990f5c60d0f405b2e3b3e51420b807ded9be58e8715fd480d6；worker ff23ff799576a86153b9e041b067f35e5034dcbd/49635/548a1226d2f79017a5547308a2456ce386c31293bd7309385ad7ebea92c1e825；manifest e6cfec94bd1c0b05dca1363221c27fae38771bfc/17443/810a13c2e1e0d3fb85f00129ca3e826e00e264d78269e25b78408bc1f67b99c7，14current pins347037B/2AST/16门/4已成science，零old/native/array。
+新增题外.github/workflows/visible-exact-correlated-terminal-ai-leading-scalar.yml（ac1eea6e/4689/63f3f44555ba9cb783d1f04095466a63c26521da91e1268abcdb1003d33583d7）仅触发本题窄KL任务。新计算仅根短正预算、KΛ及其同次公共numerator；不做optional left/TF。原HS worker仅路径/validator/render/CLI小schema改，truepull/readme/cap120KB/runtime-before-reuse/save-first/no-success-repeat和非FF循环原流保。
+只读06ddf6605f2804532f44690f5184b7f16a2f8964两README未变；root只文本/静态/schema/hash核，未在本地算数学。识别本次唯一push run后沿原receipt收尾此新量，继续TF/SJ/Ccut-gprop及原SN/SC3；总验收未达。
