@@ -473,3 +473,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R780**：[原第三中央在B第二态、真实W深支及E浅共同帽上的返回](results/R780-original-third-central-b-state-and-true-w-deep-return.md)。同q*原E深表准确给B第二态Y行[1/2]U136+δω²S/2，原E2312规范/scale质量保。奇W深逆观察给独立JU约束。**§6(28)已更正**：共同帽∩W深实际Eunit，与第三E深行相斥；裸帽返回须保E浅Ξ及全部参考/外谱，不得从第三零行相减。
 
 - **R783**：[原帽的完整P像、CD全失败支与真实中央非零解析行](results/R783-native-hat-images-and-nonzero-cd-exterior-central-row.md)。精确斜帽/U失败保，三E深盘互斥及全浅补集已付；原正一unit矩与条件负一矩经正整数幂逼近，证同帽像T中央C_N非零、所有充分大ℓ精确首项，不假设固定负五非零。完整有限T分区/余域及有限两分母非零point左行同时保，未以局部非零代主中央。
+
+- **R785**：[原三态的偶深两框架、真实单帽轴和物理E截距](results/R785-original-three-state-even-frames-and-exact-e-gate.md)。完整J1512/t24/P696中心及quarterflat付清后，Π3共同深2m核为λ6m；R/Z0单轴与两个正交框架任意偶矩形均保同q。帽的Z0单轴返回保J/失败门，物理E留固定J截距，共同足够深时Edeep才准确回Jdeep；未赋新中央零。公开87项精确几何/中心及全部hash保。
