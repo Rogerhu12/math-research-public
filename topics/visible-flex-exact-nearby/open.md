@@ -70,7 +70,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 固定Sδ的真97 residual以actual帽图在(γQδ,fB)求导，ΔB作用全hL+hH、baseaffine/非线性边界/mean全保。左腰U原96正交行、无α/第二ρ，b0δ=−UQδ(0)不预设0；W=ψUᵗb0与W−GδDδW给同F fixedcap三窗左Poisson解析费。
 因此xY≤gY(rδ+nδ)+pY qδ+aY yB+cY yC+wY||b0δ||，其中qδ保完整真cap差与N∂，a/c已含selected费不重复oldload。全high、真νphase/右高matching、wholeC0/独立H8193/边界Lipschitz及NG numerical门仍待；未跑新数值。
 
-[WA原96腰行与selected真实初值](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab解析核：b0δ=−UQδ(0)，literal odd96/√2、仅base乘α，Z193原bitwise/zero-repair成功身份只读。新base首part65位initial=c[3,0]必须逐位检查；不假旧index字段即端值。exact A/B/D给signed norm²及uniformmax=A+d|B|+d²D，四d0/1e−10/1e−8/1e−5仅显式族代数，不扩大任何PDE/metric域。新runner未跑；NFell0/CPA第五列/全waist与实际解仍待。
+[WA原96腰行](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab：raw96odd/√2、baseα一次/Z不α，exact A/B/D及uniformmax=A+d|B|+d²D。SCI098ae596/worker41a8b811/manifest3cf007a2/flow7a614d39 root核后部署；11pins2918702B/4AST/13门，旧5e14 index+part000临时恢复作新65bitwise门，原Z193/两e0成功身份只读。四d只known族不扩PDE/metric；待实际唯一run，NFell0/第五列仍独立。
 
 ## 4. 实际帽图与完整core接口
 
