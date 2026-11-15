@@ -1,0 +1,47 @@
+{
+  "kind": "rank2_actual_ci_git_pull",
+  "actual_git_pull_success": true,
+  "utc": "2026-11-15 10:21:46 UTC",
+  "head": "1e08eb4ba37dc346c35c60244aa63ade455797c8",
+  "last_rules_read": "38e1f579f3b8fd9656820e4354b066cf4997784f",
+  "request_id": "rank2-20261115-after-r734",
+  "readme_blobs": {
+    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "topics/rank2-sha-infinitely-many-p/README.md": "965ab236bbd6753acb812b45fcc36ae9b6f83b3c"
+  },
+  "rules_changed": false,
+  "scope": "read-only sparse CI checkout; local workspace remains separate",
+  "workflow_run": 43703700458,
+  "job_id": 132780127032,
+  "inventory": {
+    "kind": "rank2_rule15_inventory",
+    "head": "1e08eb4ba37dc346c35c60244aa63ade455797c8",
+    "tree": "adb0fd46843975829b93c06741aab966ce222e85",
+    "blob_count": 1924,
+    "total_bytes": 26755293,
+    "limit_bytes": 200000000,
+    "over_5mb_count": 0,
+    "part_count": 3,
+    "over_5mb": [],
+    "parts": [
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part1.json.gz",
+        "bytes": 168504,
+        "sha": "06f09ff4eda50214dd39f1d88837152dc49cb01f"
+      },
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part2.json.gz",
+        "bytes": 1243805,
+        "sha": "22d9a8ffd7287d542f5e4786940dd9193dc0e499"
+      },
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part3.json.gz",
+        "bytes": 4431413,
+        "sha": "a911a1fdddbdfe5758a79e3969a409c7121f2e27"
+      }
+    ],
+    "lists_complete": true
+  },
+  "verification": "After actual CI git pull, root independently fetched the first line and compared the full blob SHA of each README at the pulled head. Both unchanged; no repeated full read.",
+  "workflow_run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43703700458"
+}
