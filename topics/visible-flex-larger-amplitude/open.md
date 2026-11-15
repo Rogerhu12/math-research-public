@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。[R311实际139](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已完成全1440/六primitive/whole-natural闭域界；query工作细分仍partial，下一144付原cut点两jet。
+[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，142完整九方向仍极小下降，R316结清后146改normal两P形成。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。[R311实际139](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已完成全1440/六primitive/whole-natural闭域界；query工作细分仍partial，下一144付原cut点两jet。
 
 完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，并接原139/137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
@@ -14,9 +14,11 @@
 
 [R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)付准确阻尼模型下降与有限误差修正；[R299](results/R299-same-normal-trace-full-merit-selection.md)付同一次完整normal原全merit择优，原工作/12×20/失败/外门不变。局部比较不保证整链更好。
 
-[138实际R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)已结清全32批/256接受/358trial/全部normal及916字节身份，末W4.963213789290057/radius3.814697265625e−7，全finalfalse。同调用直接救回0，142从真末父改全9方向形成；原外8×20/内12×20和全部final保持。
+[138实际R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/256接受/358trial/916身份，全finalfalse；其真末p/r作为142输入，全部normal与直接救回0的适用范围见正文。
 
-[R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与[helper及接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)现已全文读后发布：全9方向原complex-step重评、完整12×9增广QR及原相对参数度量下块G，全部方向/原试探门保留。旧J乘Q不恢复旧列丢失信息；直接动作仍有scalar/2×2链/终端相消误差，有限QR不冒准确正交。直接/基模型/旧轴动作分别保留，实际曲线原点导数含目标动作不一致修正。[142完整入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)已按R307真实138末p和radius3.814697265625e−7独立发布：93+5pins/父29当前31，原R299 d4c9不改，一批原8方向/最多80额外complex调用，所有基/直接/旧轴动作和normal原值无损分段。原8×20/12×20/FD/Arb/453圆及全部final保留；q′=d仍需真实目标动作匹配，不新增一致性或精度门，读真实一批后继续。
+[R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)及[独立接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)保完整9个原complex响应、真实相对度量G、12×9增广QR、全部方向及原门；有限QR不冒准确正交，内部相消未界。原[142入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)93+5pins/父29当前31从真138末p另起，R299/8×20/12×20/FD/Arb/453圆不变。
+
+[R316实际142](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)完整1批/8方向/14外trial/8接受，原W4.963213789290328→4.963213789045492、末radius1.9073486328125e−7，全部finalfalse。136parts/8groups/991133B全view身份匹配；56normal/146内trial/230样本/全部80额外原complex均有真实返回；9改选、直接救回0、6接受targettolfalse。四次20档全拒后段参数和残差词重复，2×2已形成矩阵的QR不显病态不付形成误差；同点real/complex实部词不同，整列FD不证弱方向精度。146保真末p、全部9J/原QR/12×20/R299/外20与FD/Arb/453圆/final，独立改固定两P的完整3×2直接complex响应，原新probe和失败全读；不冒同轨迹、精度已修复或新接受门。
 
 ## 2. 真正接受的非零完整112场
 

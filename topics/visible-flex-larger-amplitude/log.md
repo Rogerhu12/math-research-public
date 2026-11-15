@@ -468,3 +468,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R314完整literal轨迹与方向条件后验界
 
 [R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)26371B/c2c94a12全文审读后立即发表：C/F形成、名义分解与两回代及方向缺陷完整保留，非负比较逆付严格误差；全224列/226态/RK/端口/原129248行可传播，真正根另付实际F_e与根盒。原零模输入1和投影c[n,0]分清；固定轨迹/隐式方向/IEEE字值不混淆，无实际数值证书、不加native门。根8终端失联小文本快进，API核双README不冒pull；128计算已结束待完整读回，140/141继续。
+
+## 2026-11-15 /root — R316实际142完整方向与normal精度范围
+
+[R316](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)27160B/151d0c57全文审读后立即发表：两原log与CLI SHA相同，136parts/8groups完整view991133B/431aed49匹配；8方向/14trial/8接受仍极小下降，全finalfalse。56normal/146内trial、9改选/直接救回0/6接受targettolfalse，参数与残差词重复及同点real/complex实部差均保；不将小线性残差或整列FD冒形成精度。146保真末p/原预算和所有门，独立改normal固定两P形成；根8小文本快进、API核规则不冒pull。

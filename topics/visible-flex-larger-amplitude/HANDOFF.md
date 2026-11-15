@@ -12,7 +12,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:40:39 UTC API读取main 28bc65c8f8356d34dfabfce934f9bf7ec7424838，双README21bd/bff未变；不是git pull。R314全文审读，条件定理不冒实际数值证书；128已结束待原结果。
+集成复核：2026-11-15 12:41:30 UTC API读取main 46b3c697bc4272b27adb859179cacd0c224f79ca，双README21bd/bff未变；不是git pull。R316完整原结果已审读；146改normal两P形成，全部原门保留。
 
 ## 真正完成标准
 
@@ -45,7 +45,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 134/135完整原32批及p/r/FD/Arb/453圆见R296/R301与open原链接；整列FD或弱σ不证无根。
 
-[138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)全32批/256接受/358trial，259真改点而同调用直接救回0；5416样本/全部normal保留，W4.963213836829283→4.963213789290057，末radius3.814697265625e−7，全部final false。135同初p但fresh r/J不同，不作单因归因。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)证明及helper50044473已发布：全9新方向、原度量G和原真实门，内部消去仍未界；[142完整入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)现93+5pins/父29当前31，真138末p/radius3.814697265625e−7、一批8方向/最多80额外原complex调用；原R299 d4c9/8×20/12×20及全部FD/Arb/453圆/final保持，无新门。5acf5b02/f3a236a3/5c482ac3、request84f03b2e/wff6a49341，已run43713410623/compute132809696991/report132809901399/source08752b3d，两jobsuccess；原logs交R316读回，不冒科学接受。
+[138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)全32批/256接受/358trial、直接救回0，全finalfalse。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)保全9新响应/原G/12×9QR及真实门，内部相消误差仍未界。[142 R316](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)run43713410623/source08752b3d、compute132809696991/report132809901399全success；8方向/14外trial/8接受，W4.963213789290328→4.963213789045492，radius1.9073486328125e−7；完整136parts/8groups/56normal/146内trial已读，9改选/直接救回0/6接受targettolfalse，四次20档拒含参数及残差词重复。real/complex实部原词不同，不冒DF精度证书；146从真142末p直接形成固定两P normal响应，保fresh9J/原QR/12×20/全部最终门；尚无非零场。
 
 [130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)完整7pair/33trial/26拒，规则变化exit77，第8完整未知；MID472/LEFT463及已选MID471/483非线性失域均保。末raw已清。[141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)现从真实98另起：保33加LEFT463/MID472，全71680行/22capture/26端点/8791local，C4059/全236036/outside/17trial/FD不变；85+worker86源，8批/10500s批间/175min。已run43712613111/job132807257922/sourcea7ce55798404fec8fb3638c0fbf083250c5363b2，12:11:58起且science在跑。
 
