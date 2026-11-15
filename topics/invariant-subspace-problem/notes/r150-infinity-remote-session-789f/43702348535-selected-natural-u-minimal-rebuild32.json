@@ -1,0 +1,837 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "selected-natural-u-minimal-rebuild32",
+  "executionSourceCommit": "ddcde7bb70852f5b065b21345c5d7147de58184f",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-minimal-rebuild-789f.py",
+  "scriptSHA256": "bb4a217827ff7a8ac8faf9c0f1b2c5255e302c3bcc66f644cd31a8f8f50312c6",
+  "argvTemplate": [
+    "--native-model",
+    "{native_model}",
+    "--point-model",
+    "{selected_model}",
+    "--selected-receipt",
+    "{paid_dir}/selected-infinity-minor-dag-receipt.json",
+    "--kernel36",
+    "{bockstein_dir}/actual-original-kernel36.bin",
+    "--source-dag",
+    "{dixon_dir}/actual-selected-image-source-dag.bin.gz",
+    "--primitive-equations",
+    "{primitive}",
+    "--paid16-summary",
+    "{scripts}/43679903558-selected-natural-u-schur-through16.json",
+    "--first-runner",
+    "{scripts}/2026-11-15-r150-selected-natural-first-connection-f31-789f.py",
+    "--schur-runner",
+    "{scripts}/2026-11-15-r150-selected-natural-u-schur-source-jets-runner-789f.py",
+    "--repo-notes",
+    "{repo_dir}",
+    "--out",
+    "{work}/selected-natural-u-rebuilt",
+    "--maximum-degree",
+    "32",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512",
+    "--compile-seconds",
+    "30"
+  ],
+  "timeoutSeconds": 140,
+  "exitCode": 0,
+  "wallSeconds": 16.904246578000084,
+  "fullTemporaryReceiptBytes": 14906,
+  "fullTemporaryReceiptSHA256": "81e0f05da228f523369513ced5eb0a085f7364ef53a2a6219e90ed94502a900e",
+  "result": {
+    "format": "isp-same-IJ-natural-u-minimal-temporary-rebuild-v1",
+    "status": "completed",
+    "phase": "complete",
+    "lostRunId": "43679903558",
+    "lostSessionReason": "session ended after32 computation; execution summary exceeded100000bytes before publication",
+    "oldTemporaryBinaryFilesClaimedRecovered": false,
+    "largeDataUploadedOrCommitted": false,
+    "originalMathematicalEngineBytesUnchanged": true,
+    "newInputBindingExplicit": true,
+    "noRational585NullspaceRequired": true,
+    "noLargeOriginalEliminationRepeated": true,
+    "leadingUnitProved": false,
+    "characteristicZeroInfinityOrderComputed": false,
+    "wallSeconds": 16.839745345000097,
+    "preSchurMathematicalSeconds": 0.6029113950000919,
+    "all33CompleteOriginalFirstCorrectionsVerified": true,
+    "all4367FirstCorrectedProductsZero": true,
+    "completedNaturalDegree": 32,
+    "all4354SelectedJetIdentitiesVerified": true,
+    "all4367OriginalResidualCoordinatesRetained": true,
+    "all36FreeSourceCoordinatesVerified": true,
+    "sameSelectedSourceSupportVerified": true,
+    "completeSelectedInfinitySmithLengthComputed": true,
+    "selectedMinorInfinityOrderModulo31": 243,
+    "selectedMinorInfinityOrderModulo31LowerBound": 243,
+    "all51PaidPrefixFilesCoefficientIdentitiesVerified": true,
+    "allSeventeenPaidSmallSchurCoefficientsVerified": true,
+    "actualVerifiedPaidPrefixMaximumDegree": 16,
+    "mathematicalElapsedSeconds": 10.855262523000079,
+    "parameters": {
+      "inputIdentities": {
+        "native_model": {
+          "bytes": 128145,
+          "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+        },
+        "point_model": {
+          "bytes": 87459,
+          "sha256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074"
+        },
+        "selected_receipt": {
+          "bytes": 75700,
+          "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+        },
+        "kernel36": {
+          "bytes": 222788,
+          "sha256": "c008e57b7a7e80312f8ba292bb24241d53bb59d4c57b2a8d07ec1017b9de0744"
+        },
+        "source_dag": {
+          "bytes": 957557,
+          "sha256": "c50e7bb8558a7f637d9d6951f64ae002c96cdce06dfcb7d1a4619ea6dc07337a"
+        },
+        "primitive_equations": {
+          "bytes": 65159,
+          "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+        },
+        "paid16_summary": {
+          "bytes": 93340,
+          "sha256": "938d1796c73b780d3fdb379c83e21907381618dcd9e81c7b281b21c6e4a1484f"
+        },
+        "first_runner": {
+          "bytes": 20861,
+          "sha256": "45991f0744fe8b020170c77a6f99e4b6e3e9433a3f18ca4c0405cdd76132bab6"
+        },
+        "schur_runner": {
+          "bytes": 21664,
+          "sha256": "80f6815133250cf559f81afb557f138952f7268ce2d2b43e2c15bfb822775e67"
+        }
+      },
+      "wrapperIdentity": {
+        "bytes": 19311,
+        "sha256": "bb4a217827ff7a8ac8faf9c0f1b2c5255e302c3bcc66f644cd31a8f8f50312c6"
+      },
+      "secondsLimit": 60.0,
+      "memoryMiB": 512,
+      "compileSecondsLimit": 30.0,
+      "requestedMaximumDegree": 32,
+      "rebuiltInputs": {
+        "selected_model": {
+          "bytes": 21285,
+          "sha256": "20373c07422701e37b9226fe1fe72cb8ee1e7848df505ebbacd92cf818093c2a"
+        },
+        "unit_profile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        },
+        "projected_input": {
+          "bytes": 794437,
+          "sha256": "29366adbd3701e91f910d1f00148f8077dae273a2276f355e03422dc8f46c10d"
+        }
+      },
+      "selectedSourceCount": 4354,
+      "selectedOutputCount": 4354,
+      "selectedFreeOriginalRows": [
+        1271,
+        1204,
+        1205,
+        1256,
+        1206,
+        1223,
+        1257,
+        1156,
+        1207,
+        1224,
+        2393,
+        3328,
+        4093,
+        2326,
+        3261,
+        4501,
+        4026,
+        4281,
+        4502,
+        4587,
+        2327,
+        2378,
+        3262,
+        3313,
+        4027,
+        4078,
+        4248,
+        4282,
+        4503,
+        1716,
+        1733,
+        1750,
+        1767,
+        1784,
+        1801,
+        1818
+      ],
+      "projectedOutputCount": 585,
+      "projectedSourceCount": 954,
+      "originalIFromPrebasisPlusPointSHA256": "c3c0be9e803ed5c37ec0a123ec0d9129bc0f86acf871722e7a73c48cfcf37fdf",
+      "originalJFromPrebasisPlusPointSHA256": "130984d8bba68b633607c25a6610bb6bdb2cb6c8bc1d536d6ed31ab7b2dda4f9",
+      "rebuiltFirstBinding": "c11dd73f0b8f469a8c1abee84de0b8ff7a38906a992376a16129a44fcad8607b",
+      "actualNaturalEngineReceipt": {
+        "bytes": 65497,
+        "sha256": "298105020cd19f41f4869799e81e2f63125ed7d5d0477b3fa547afa95ab103d3"
+      },
+      "actualNaturalStageStatus": "completed",
+      "actualCompletedNaturalDegree": 32,
+      "newSchurBinding": "43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600",
+      "oldPaidSchurBinding": "1fdb07aa85a565c45d7adfe04721a29cdbe6911cc0cb50ca45044c51f88ccc01",
+      "headerNormalizationChangesOnly64ByteBinding": true,
+      "paidPrefixComparison": [
+        {
+          "file": "natural-source-0.bin",
+          "paidHeaderNormalizedSHA256": "e6113d6717e151c8d135a2a3c246ae09398a068e8cb46a682c83b24755d64cf1"
+        },
+        {
+          "file": "natural-schur-0.bin",
+          "paidHeaderNormalizedSHA256": "b791d42ae2faa6ac5661e5d87bcaf1695735441d2ad93b3ef07cacbc71f5fdf6"
+        },
+        {
+          "file": "natural-residual-0.bin",
+          "paidHeaderNormalizedSHA256": "ad629f61893e5cb8bb2c23ae7eff11fdd24c90fd8fe0c5acc8d6e1a0bea9d39a"
+        },
+        {
+          "file": "natural-source-1.bin",
+          "paidHeaderNormalizedSHA256": "6e651af0570df3a67b2c40de72337fc1c7f652f4d2523b3988fdfcba4d659295"
+        },
+        {
+          "file": "natural-schur-1.bin",
+          "paidHeaderNormalizedSHA256": "ffdd03a2fae10fcc1dd7c328a834e937ba4c8a41f9ce73fd9ac4f4578886858d"
+        },
+        {
+          "file": "natural-residual-1.bin",
+          "paidHeaderNormalizedSHA256": "2e55e71161c0163c7c71b6cf3fb7841e4e45f354df94c49343195b2a7baec4db"
+        },
+        {
+          "file": "natural-source-2.bin",
+          "paidHeaderNormalizedSHA256": "a7da25dfd920979356d85e2f86a15fdec676f39e751077786e9b7a245f38dd65"
+        },
+        {
+          "file": "natural-schur-2.bin",
+          "paidHeaderNormalizedSHA256": "e3cb964057f0c738ae22362bbae491160dcaa19aa6c42d629b8169269c51550c"
+        },
+        {
+          "file": "natural-residual-2.bin",
+          "paidHeaderNormalizedSHA256": "120809653dc034bcd14f1103a0b586015cb9001a58d57c37c8f5badaa5658de3"
+        },
+        {
+          "file": "natural-source-3.bin",
+          "paidHeaderNormalizedSHA256": "a801da487313198c932f321d7f2c82d3e71888384c41a2cd2e07183435347ac1"
+        },
+        {
+          "file": "natural-schur-3.bin",
+          "paidHeaderNormalizedSHA256": "1590552af2cabe6ae38856a1ff924a5c64a384c931c6750b9cb6efd266c4fb96"
+        },
+        {
+          "file": "natural-residual-3.bin",
+          "paidHeaderNormalizedSHA256": "97367ad4cd5664f91f00e55925115338190bc046a5d1f7ac71e6047e9a375e17"
+        },
+        {
+          "file": "natural-source-4.bin",
+          "paidHeaderNormalizedSHA256": "30ffc96e75cec1e5d999c7baa49eef0e125f02ad20b18858ed85ecafcfa70d38"
+        },
+        {
+          "file": "natural-schur-4.bin",
+          "paidHeaderNormalizedSHA256": "582de4021164e6555432e3e12ba8719733a420a131df2b72b612f1f4cc48d8c9"
+        },
+        {
+          "file": "natural-residual-4.bin",
+          "paidHeaderNormalizedSHA256": "c51a58aeef88eeb55d6d52dfe916ac8b82ab0da1f7255ee571e1d9ac4447917f"
+        },
+        {
+          "file": "natural-source-5.bin",
+          "paidHeaderNormalizedSHA256": "e3b295c27cb93e702793d168c59bd57f0b9859fcd1633fb6acf41c78ae9dd0e9"
+        },
+        {
+          "file": "natural-schur-5.bin",
+          "paidHeaderNormalizedSHA256": "7ea8ec14015f9214aab04389a50a6c09555b2cdc27ea809e1e06c189e2105d2d"
+        },
+        {
+          "file": "natural-residual-5.bin",
+          "paidHeaderNormalizedSHA256": "6d210dfe4ab6373548830a60625e649ecd7ae44e91f5d5eb6e60636d1225d942"
+        },
+        {
+          "file": "natural-source-6.bin",
+          "paidHeaderNormalizedSHA256": "e4a78195ee3138dd450857ded2a67429e799cceb96a93623008c20b98bdc83ce"
+        },
+        {
+          "file": "natural-schur-6.bin",
+          "paidHeaderNormalizedSHA256": "4b57d5b7ef2520b2e52e24ab8c7e6ae87db5ff52f76a14aefbb659412f8c4be6"
+        },
+        {
+          "file": "natural-residual-6.bin",
+          "paidHeaderNormalizedSHA256": "a47d4b33f9d36445d06f3cec4ec6202b484c3cbcc39cc79675f6c8cc549875d8"
+        },
+        {
+          "file": "natural-source-7.bin",
+          "paidHeaderNormalizedSHA256": "f8a85c0ac53f9ea504718f2e53807fa3c2822478209c23ac61293b15f0b18f41"
+        },
+        {
+          "file": "natural-schur-7.bin",
+          "paidHeaderNormalizedSHA256": "948424c11290ce3e18639acca4acadf0cf8e51a497cfbd92db9051ad04ae00cc"
+        },
+        {
+          "file": "natural-residual-7.bin",
+          "paidHeaderNormalizedSHA256": "bde036dc56df17bf5f09a3743a9bc564cd552b8d601c2e7fb6534e8a504ec4d4"
+        },
+        {
+          "file": "natural-source-8.bin",
+          "paidHeaderNormalizedSHA256": "51eee9d8a45281a515cb442ff8ec2e7c991796cc7c21d680474e2ca01d8215db"
+        },
+        {
+          "file": "natural-schur-8.bin",
+          "paidHeaderNormalizedSHA256": "b85ff8d6e8d8022e7ab997452541bc9b28a32a52be4d790fd25b44f7fd6d96e6"
+        },
+        {
+          "file": "natural-residual-8.bin",
+          "paidHeaderNormalizedSHA256": "b3b55352b973deed49d38fb9d1faa89c835c99c7db3336cf752b2d98420657db"
+        },
+        {
+          "file": "natural-source-9.bin",
+          "paidHeaderNormalizedSHA256": "89301111b7af404563f0f83aaf208c3d2d8e86e56412318ca0ea02d48ed79b26"
+        },
+        {
+          "file": "natural-schur-9.bin",
+          "paidHeaderNormalizedSHA256": "b1ea4991ce3ca4af723cab45a6941c4bf540fc4eb835ef9b8ef716d53aee0d95"
+        },
+        {
+          "file": "natural-residual-9.bin",
+          "paidHeaderNormalizedSHA256": "513be76a0f5f170983d61bfd6e459bfe763b4a0c0e89bbac9efc67abf31afb3e"
+        },
+        {
+          "file": "natural-source-10.bin",
+          "paidHeaderNormalizedSHA256": "2fd2b2a2e47a16252eacadea50049b6e3dfd7d6ad7429624ab637beefbc0eb90"
+        },
+        {
+          "file": "natural-schur-10.bin",
+          "paidHeaderNormalizedSHA256": "ff0a88737fcf138af2087b9dc078d4a01a279d71560f3f231545e935d33da800"
+        },
+        {
+          "file": "natural-residual-10.bin",
+          "paidHeaderNormalizedSHA256": "2f7bc7c87ef01d17bdcf9f05419c29d1b4e4da551ece4077a4f7e8bd13b60d42"
+        },
+        {
+          "file": "natural-source-11.bin",
+          "paidHeaderNormalizedSHA256": "0b40adea7f22ddad51c7001ed50a1ac3ee76ec4b21ae7a3ab36473efa38de113"
+        },
+        {
+          "file": "natural-schur-11.bin",
+          "paidHeaderNormalizedSHA256": "435e53148d1f9d053f194854fa2b2b5ed05d44dfedf75c9db38510e1db893f42"
+        },
+        {
+          "file": "natural-residual-11.bin",
+          "paidHeaderNormalizedSHA256": "1dd918968eedeb8a2f496f8248573a1eef27385a7bde85394779a6e55049ebcb"
+        },
+        {
+          "file": "natural-source-12.bin",
+          "paidHeaderNormalizedSHA256": "11cf0e88c102dc9dfb84cfead265cf5b242bb704f260f90a151cdbe23a13e0a1"
+        },
+        {
+          "file": "natural-schur-12.bin",
+          "paidHeaderNormalizedSHA256": "87f9bb707aa282822c6124a2e643c391475c9cbef418da1736780770af92bc91"
+        },
+        {
+          "file": "natural-residual-12.bin",
+          "paidHeaderNormalizedSHA256": "17d40c8779280c0453d8c517050a21f7da197d2e96a3245496612ac2fe7d3679"
+        },
+        {
+          "file": "natural-source-13.bin",
+          "paidHeaderNormalizedSHA256": "bb2c8c1426c9e4a98547206a64cc5a73084ea28a0193b06df99cbc79a59998c3"
+        },
+        {
+          "file": "natural-schur-13.bin",
+          "paidHeaderNormalizedSHA256": "9f2cae1edced62e601f85d211ef80964f67e78a6abe7bf6d21a621c55e1c6262"
+        },
+        {
+          "file": "natural-residual-13.bin",
+          "paidHeaderNormalizedSHA256": "edcb36c1fedea3132833765b5a35d408fe3a0a2c3702bb7992cef86105cdad0a"
+        },
+        {
+          "file": "natural-source-14.bin",
+          "paidHeaderNormalizedSHA256": "4889ef43419a856ab84d2ede0e6af298a2ad1abc03d7dd0f9221511ccacd0960"
+        },
+        {
+          "file": "natural-schur-14.bin",
+          "paidHeaderNormalizedSHA256": "a5e8eda6cc5f2301c5554964aca06c276bb5d4ad998cb96ad0c21e6eae6c9f37"
+        },
+        {
+          "file": "natural-residual-14.bin",
+          "paidHeaderNormalizedSHA256": "8e7615f7c5ec743ef032fb59522b4c612eda04a077f5663a64cf5a24672e73a1"
+        },
+        {
+          "file": "natural-source-15.bin",
+          "paidHeaderNormalizedSHA256": "5221a2c5996f86ed9fb137e619de1ec5330cb5dda56e9c4c58948625dc6504ad"
+        },
+        {
+          "file": "natural-schur-15.bin",
+          "paidHeaderNormalizedSHA256": "7425a27afd4e39b6a8db8243e7f0c612f7ebcfcc8b471aab7f1e7bd6d8e67dfe"
+        },
+        {
+          "file": "natural-residual-15.bin",
+          "paidHeaderNormalizedSHA256": "ac926bc958e2525c14ba018979575c04656d4b58fbf61552b99594810bac9dbc"
+        },
+        {
+          "file": "natural-source-16.bin",
+          "paidHeaderNormalizedSHA256": "4c054feb2f178d0ff444e4ba95159aa74681c2f9b84fe136cab8dd8158b65957"
+        },
+        {
+          "file": "natural-schur-16.bin",
+          "paidHeaderNormalizedSHA256": "56615fe95d05cf461ba6569d472a43e5c24f9bfa79fa27b156f7df0be8d9482a"
+        },
+        {
+          "file": "natural-residual-16.bin",
+          "paidHeaderNormalizedSHA256": "2340a68f39e482e44fa894ee887f1a11e220144baad6371863839696e7f60e81"
+        }
+      ],
+      "smallSeriesSmith": {
+        "complete": true,
+        "paidExponents": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          6,
+          7,
+          7,
+          8,
+          11,
+          11,
+          11,
+          12,
+          12,
+          13,
+          14,
+          17,
+          18,
+          18,
+          21
+        ],
+        "unresolvedCount": 0,
+        "unresolvedExponentAtLeast": null,
+        "determinantOrder": 243,
+        "determinantOrderLowerBound": 243,
+        "steps": [
+          {
+            "uExponent": 0,
+            "activeSize": 36,
+            "availableJetDegree": 32,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 1,
+            "activeSize": 36,
+            "availableJetDegree": 31,
+            "constantRank": 3,
+            "unitRows": [
+              17,
+              18,
+              31
+            ],
+            "unitColumns": [
+              6,
+              29,
+              30
+            ]
+          },
+          {
+            "uExponent": 2,
+            "activeSize": 33,
+            "availableJetDegree": 30,
+            "constantRank": 9,
+            "unitRows": [
+              0,
+              1,
+              2,
+              6,
+              8,
+              17,
+              22,
+              25,
+              26
+            ],
+            "unitColumns": [
+              5,
+              14,
+              16,
+              20,
+              28,
+              29,
+              30,
+              31,
+              32
+            ]
+          },
+          {
+            "uExponent": 3,
+            "activeSize": 24,
+            "availableJetDegree": 29,
+            "constantRank": 3,
+            "unitRows": [
+              18,
+              20,
+              21
+            ],
+            "unitColumns": [
+              3,
+              5,
+              7
+            ]
+          },
+          {
+            "uExponent": 4,
+            "activeSize": 21,
+            "availableJetDegree": 28,
+            "constantRank": 3,
+            "unitRows": [
+              0,
+              3,
+              12
+            ],
+            "unitColumns": [
+              3,
+              5,
+              18
+            ]
+          },
+          {
+            "uExponent": 5,
+            "activeSize": 18,
+            "availableJetDegree": 27,
+            "constantRank": 3,
+            "unitRows": [
+              2,
+              16,
+              17
+            ],
+            "unitColumns": [
+              0,
+              3,
+              16
+            ]
+          },
+          {
+            "uExponent": 6,
+            "activeSize": 15,
+            "availableJetDegree": 26,
+            "constantRank": 1,
+            "unitRows": [
+              2
+            ],
+            "unitColumns": [
+              7
+            ]
+          },
+          {
+            "uExponent": 7,
+            "activeSize": 14,
+            "availableJetDegree": 25,
+            "constantRank": 2,
+            "unitRows": [
+              0,
+              8
+            ],
+            "unitColumns": [
+              8,
+              10
+            ]
+          },
+          {
+            "uExponent": 8,
+            "activeSize": 12,
+            "availableJetDegree": 24,
+            "constantRank": 1,
+            "unitRows": [
+              3
+            ],
+            "unitColumns": [
+              11
+            ]
+          },
+          {
+            "uExponent": 9,
+            "activeSize": 11,
+            "availableJetDegree": 23,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 10,
+            "activeSize": 11,
+            "availableJetDegree": 22,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 11,
+            "activeSize": 11,
+            "availableJetDegree": 21,
+            "constantRank": 3,
+            "unitRows": [
+              1,
+              3,
+              6
+            ],
+            "unitColumns": [
+              0,
+              1,
+              4
+            ]
+          },
+          {
+            "uExponent": 12,
+            "activeSize": 8,
+            "availableJetDegree": 20,
+            "constantRank": 2,
+            "unitRows": [
+              0,
+              1
+            ],
+            "unitColumns": [
+              1,
+              7
+            ]
+          },
+          {
+            "uExponent": 13,
+            "activeSize": 6,
+            "availableJetDegree": 19,
+            "constantRank": 1,
+            "unitRows": [
+              2
+            ],
+            "unitColumns": [
+              3
+            ]
+          },
+          {
+            "uExponent": 14,
+            "activeSize": 5,
+            "availableJetDegree": 18,
+            "constantRank": 1,
+            "unitRows": [
+              2
+            ],
+            "unitColumns": [
+              4
+            ]
+          },
+          {
+            "uExponent": 15,
+            "activeSize": 4,
+            "availableJetDegree": 17,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 16,
+            "activeSize": 4,
+            "availableJetDegree": 16,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 17,
+            "activeSize": 4,
+            "availableJetDegree": 15,
+            "constantRank": 1,
+            "unitRows": [
+              2
+            ],
+            "unitColumns": [
+              0
+            ]
+          },
+          {
+            "uExponent": 18,
+            "activeSize": 3,
+            "availableJetDegree": 14,
+            "constantRank": 2,
+            "unitRows": [
+              0,
+              2
+            ],
+            "unitColumns": [
+              1,
+              2
+            ]
+          },
+          {
+            "uExponent": 19,
+            "activeSize": 1,
+            "availableJetDegree": 13,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 20,
+            "activeSize": 1,
+            "availableJetDegree": 12,
+            "constantRank": 0,
+            "unitRows": [],
+            "unitColumns": []
+          },
+          {
+            "uExponent": 21,
+            "activeSize": 1,
+            "availableJetDegree": 11,
+            "constantRank": 1,
+            "unitRows": [
+              0
+            ],
+            "unitColumns": [
+              0
+            ]
+          }
+        ]
+      },
+      "nativeSummary": {
+        "status": "completed",
+        "inputBinding": "43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600",
+        "field": 31,
+        "maximumRequestedDegree": 32,
+        "completedDegree": 32,
+        "restoredCompletedDegrees": 0,
+        "all4354SelectedJetIdentitiesVerified": true,
+        "all4367OriginalResidualCoordinatesRetained": true,
+        "all36FreeSourceCoordinatesVerified": true,
+        "sameSelectedSourceSupportVerified": true,
+        "constantSourceOperationsReplayedOnly": true,
+        "newLargeGaussianEliminations": 0,
+        "forwardOperations": 782976,
+        "backwardOperations": 1010703,
+        "selectedImageSourceOperations": 462972,
+        "elapsedSeconds": 9.937256051,
+        "oldCokerOriginalOutputIndices": [
+          2975,
+          2977,
+          2978,
+          2979,
+          2980,
+          2981,
+          2990,
+          2991,
+          2992,
+          2993,
+          2994,
+          2995,
+          2996,
+          2997,
+          2998,
+          2999,
+          3000,
+          3995,
+          3996,
+          3997,
+          3998,
+          3999,
+          4000,
+          4001,
+          4285,
+          4286,
+          4287,
+          4349,
+          4352,
+          4351,
+          4353,
+          4357,
+          4358,
+          4359,
+          4360,
+          4361
+        ]
+      },
+      "originalEngineSources": {
+        "2026-11-15-r150-selected-natural-u-schur-source-jets-789f.cpp": {
+          "bytes": 16667,
+          "sha256": "40dc42b367d241fb7d1cf0c3dd9ef35d61ad0ce756a63559ca8110188b2206dd"
+        },
+        "2026-11-15-r150-selected-natural-u-schur-source-jets-runner-789f.py": {
+          "bytes": 21664,
+          "sha256": "80f6815133250cf559f81afb557f138952f7268ce2d2b43e2c15bfb822775e67"
+        },
+        "2026-11-15-r150-saturated-global-common-789f.hpp": {
+          "bytes": 11284,
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        "2026-11-14-r150-f31-bitplane-789f.hpp": {
+          "bytes": 3030,
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        }
+      },
+      "temporaryStateLocations": {
+        "rebuiltInputs": "rebuilt-inputs",
+        "rebuiltFirst": "rebuilt-first",
+        "naturalSourceJets": "natural-u",
+        "originalCompletedLayerManifest": "natural-u/complete-jet-checkpoint-files.json"
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 10:10:43 UTC",
+      "beforeReadCommit": "db2d7f2d63afe7ac110e91e61ed28f5c1b8905dc",
+      "originMainAfterPull": "ddcde7bb70852f5b065b21345c5d7147de58184f",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 10:11:01 UTC",
+      "beforeReadCommit": "ddcde7bb70852f5b065b21345c5d7147de58184f",
+      "originMainAfterPull": "f3c0f906fb951b0dc723250ac485d447aae0ee84",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 6,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2059,
+    "logicalJsonSHA256": "571b2f1d936d56e946cced8957708dda0ae84e9ee22ca3546c6aff5bd4488a80",
+    "itemCount": 6
+  },
+  "lastRulesReadCommit": "f3c0f906fb951b0dc723250ac485d447aae0ee84",
+  "summaryExcludesRecomputableArraysOnly": false
+}
