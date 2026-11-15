@@ -153,6 +153,7 @@ RW/RB/RC same-q完整six weights/13ρ/outer/nonzeroaffine和moving≤80physical 
 
 全部旧删除、restore、原scope、producer/输入/参数/失败逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9本节及H/log，原白名单继续保留；归档不授重算。四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint的恢复与完整SHA均见该档和各原清单。
 最新[三份旧step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588：普通删除1221901B；原producer/对象/root/H/精确证书/active inputs及全部反射/插值失败保。恢复8870549d52e48343cb43a979a13f9368cb992736同path/Gitblob/bytes/SHA，成功诊断禁重。没有history rewrite。
+本次[两份旧Newton预测geometry清单](notes/2026-11-15-two-Newton-prediction-floating-geometry-output-deletion-whitelist.json)1fcc7238仅普通删814736B。完整Gitblob/bytes/SHA与精确原argv由实际Newton manifest/检查点提供，恢复8870549d52e48343cb43a979a13f9368cb992736同path；全部NPZ/H/精确证书/实际ray/失败/源保持，旧成功禁止重算。
 
 每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机19:39:05定时CLI仍无executor，下一定时真CLI≤20:39；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 

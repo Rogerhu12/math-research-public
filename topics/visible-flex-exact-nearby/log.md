@@ -201,3 +201,7 @@ RF c4723121全文与原Z79fb5192/df3beb21、source90c90fb1/pilot2d45c2f1、原72
 ### 2026-11-15 20:10:02 UTC — ST完整strict尾接线
 
 ST b15c1630全文已核，root回SP ae01c213关键全mean/两rate/whole[0,ra]曲率与source式、9d6ef721 selected_cell/propagate及20门receipt；TN原norm790全U/V/D/η/β与RRbody3070 K1/germ/mean/a、TN/TC ordered state原小对象均读。old-cut整row scalar用已存max，最后尾新germ门不借旧rc→root覆盖；c+=0、c−仅新增末段，所有插入/双mean/finite与四同case列保。仅解析条件结论，无新数学计算。H重写至精简当前接手项，原逐字H/open第6节保9ae48daeadff2acbba9c7e0b2563e0a2b06ec340，所有原失败/units/域/restore/未付义务继续。README核82857c46bb002c14062771b4b1a15ae4233961d3无变。
+
+### 2026-11-15 20:11:30 UTC — 两份旧浮点geometry清理及SN真实进度
+
+按根规15仅普通删除旧Newton128/129-step2的两个407365/407371B sampled geometry输出，共814736B；新清单1fcc7238d44c2ab53dae77037bb77ef5fdbf1c626240e81ac463fe944e4fb0b7记录原manifest f7b2f899、检查点5894aad2、producer c9c709f6全读及精确argv/bytes/blob/SHA，原文件在8870549d52e48343cb43a979a13f9368cb992736可恢复。当前SN/SC3/TC/CR/ST输入路径静核无命中，所有源码/NPZ/H/精确证书/实际ray和反射/插值失败保，未下载大body或重算旧数学。提交前fresh metadata逐path复核两原blob，历史不改。另root核SN59b55fac/14183/f9480b8b，20:09真pullc45472e空READMEdiff；3624=旧1256+新2368，进度非终点C。ST非FF20:10即时CLI仍无executor，已保远端成功推。此次只读README核3f08cb51e208a7cbbea60e4edccd00aa6bb4f252。

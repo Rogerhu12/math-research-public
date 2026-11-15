@@ -1,0 +1,178 @@
+{
+  "kind": "two_old_Newton_prediction_floating_geometry_output_deletion_whitelist",
+  "created_utc": "2026-11-15 20:11:27 UTC",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "authorization": "root README rule15 ordinary reproducible-output cleanup; preserve original identities, producers, scope and immutable restoration; no history rewrite",
+  "scope": "Only two old floating sampled geometry JSON outputs. Keep all scripts, objects, original NPZ predictors, exact H polynomials and budgets, actual ray outcomes and failures, manifests, proofs and active CI inputs.",
+  "total_selected_bytes": 814736,
+  "immutable_restoration": {
+    "public_commit": "8870549d52e48343cb43a979a13f9368cb992736",
+    "topic_notes_tree_git_sha": "539839a690b10f75b1de2984b2d452bac4b4c32f",
+    "large_output_bodies_read_through_connector": false,
+    "sha256_source": "original unchanged actual-ODE-Newton manifest"
+  },
+  "original_manifest": {
+    "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-ODE-Newton-frozen-manifest.json",
+    "blob": "80b06e5173a7cb01c093a93e91accefea67af851",
+    "bytes": 3628,
+    "sha256": "f7b2f899211da7cb8e63c74c36056cd2549223761e5d0bea8126fda4097b2d17",
+    "kind": "completed_actual_ODE_J_Newton128_fresh129_validation_and_second_prediction",
+    "limitations": "All ray computations remain floating with unpaid radial reflection defect and no uniform complex error. The two new step2 ray jobs, branches and progress are still live and deliberately excluded; only their frozen input predictions and exact H budgets are included."
+  },
+  "original_producer": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_parameter_probe.py",
+    "blob": "d5a96eef780074aa81fee992aa8afe2a3e2e56a6",
+    "bytes": 6121,
+    "sha256": "c9c709f64020f429f9a456da9619b9b15e816e70d7f1fdce5f8e7a926091e094",
+    "source_reviewed_in_full": true,
+    "behavior": "finite Schur predictor, solver diagnostic and sampled C2/finite_body_type output; Newton_corrected false, no continuous or roundoff certificate",
+    "unchanged": true
+  },
+  "preserved_scope_documents": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-actual-ODE-Newton-checkpoint.md",
+      "blob": "811a711c33daa3306b919af938fb7e3234449bd6",
+      "bytes": 8971,
+      "sha256": "5894aad2c216556f9e1353eb799433050a95866d9cc768847b1d3fb038773954",
+      "scope": "exact original floating predictor parameters and both subsequent ray validations remain; original reflection and interpolation failures retained"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-parameter-and-conjugacy-checkpoint.md",
+      "blob": "774c30114809db499d8c418d2a982b7c4a516790",
+      "bytes": 13896,
+      "sha256": "e866f2f0216bd5c88b9226f69105945d144c17a49dd92aef1c6fbc8aca915861",
+      "scope": "original synchronous target, actual-Hnode disagreement and period29/interpolation/reflection caveats retained"
+    }
+  ],
+  "shared_original_inputs": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02.npz",
+      "sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+      "scope": "original synchronous-target finite geometry, not exact PDE family"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_schur_directions.npz",
+      "sha256": "941c19642b4e74cbe5d68c311629bbe66f05df16fca26692c541ed61d6f29629",
+      "identity_source": "original step02 parameter/conjugacy checkpoint"
+    },
+    {
+      "path": "notes/2026-11-12-phase24-corrected-step02-parameter-map48.json",
+      "bytes": 37739,
+      "sha256": "c32ffe0b5f6d557e9607b2a1d38c43cddf5e691bfc4ffb5353f12a1002b269ae"
+    }
+  ],
+  "current_consumer_path_static_audit": [
+    {
+      "key": "cleanup_SN_manifest_text",
+      "sha256": "f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351",
+      "conflicts": []
+    },
+    {
+      "key": "SC3_manifest_text",
+      "sha256": "cd28e23a13ef68281dd4813de793896e89b235926936d2668e64e7bfe6e22aa9",
+      "conflicts": []
+    },
+    {
+      "key": "TC_manifest_text",
+      "sha256": "0e78cfa73d9d2ce8d53fc8eb1c0bdffef276739360aa66f55f13ea13f5ab3c45",
+      "conflicts": []
+    },
+    {
+      "key": "CR_science_text",
+      "sha256": "95dc1e4935ff5435107be1166853c67472db479cec552818f73646d3a30e228a",
+      "conflicts": []
+    },
+    {
+      "key": "ST_science_text",
+      "sha256": "ce3808a26a02203017ef0f11f71a3e966f55bb12a0c7b0c82f0df02f5f886a32",
+      "conflicts": []
+    }
+  ],
+  "targets": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-actual-Newton128-geometry.json",
+      "git_blob_sha": "109fefa508e5fe49d06f689570b42739126d0ed7",
+      "bytes": 407365,
+      "sha256": "ec4cd2ecdb4ec42f37479637b9d8be2c1af8cd5fa29e89f939f56b10c7a26916",
+      "restore_commit": "8870549d52e48343cb43a979a13f9368cb992736",
+      "restore_path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-actual-Newton128-geometry.json",
+      "original_manifest_entry": {
+        "path": "notes/2026-11-12-step02-d5-actual-Newton128-geometry.json",
+        "sha256": "ec4cd2ecdb4ec42f37479637b9d8be2c1af8cd5fa29e89f939f56b10c7a26916",
+        "bytes": 407365
+      },
+      "original_producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_parameter_probe.py",
+      "original_argv": [
+        "--checkpoint",
+        "data/phase_ring_continuation/type_fixed_step02.npz",
+        "--directions",
+        "data/phase_ring_continuation/type_fixed_step02_schur_directions.npz",
+        "--parameter-map",
+        "notes/2026-11-12-phase24-corrected-step02-parameter-map48.json",
+        "--trial-checkpoint",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_probe.npz",
+        "--out",
+        "notes/2026-11-12-step02-d5-actual-Newton128-geometry.json",
+        "--eigen-parameters",
+        ".0008793549631674754",
+        ".00008793549631674754",
+        "0"
+      ],
+      "original_argv_source": "2026-11-12-D5-actual-ODE-Newton-checkpoint.md exact saved binary64 command literals; not an exact PDE-family identity",
+      "separately_retained_original_trial": {
+        "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_probe.npz",
+        "sha256": "566c95612ee91f9fb04282873530dbb97a1450f4c01c8b1814b003bd0e06aee5",
+        "bytes": 96948
+      },
+      "preserved_mathematical_status": "floating sampled geometry of a finite parameter predictor; not an exact isometric PDE family, uniform C2 or reach certificate"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-actual-Newton129-step2-geometry.json",
+      "git_blob_sha": "5a5a55dc006331fadc2636391225dc0c9738321a",
+      "bytes": 407371,
+      "sha256": "8e69743dd47e6305b4e8485dbb367d8d37c3f13ae8404b413a6c0118061a17a9",
+      "restore_commit": "8870549d52e48343cb43a979a13f9368cb992736",
+      "restore_path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step02-d5-actual-Newton129-step2-geometry.json",
+      "original_manifest_entry": {
+        "path": "notes/2026-11-12-step02-d5-actual-Newton129-step2-geometry.json",
+        "sha256": "8e69743dd47e6305b4e8485dbb367d8d37c3f13ae8404b413a6c0118061a17a9",
+        "bytes": 407371
+      },
+      "original_producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_parameter_probe.py",
+      "original_argv": [
+        "--checkpoint",
+        "data/phase_ring_continuation/type_fixed_step02.npz",
+        "--directions",
+        "data/phase_ring_continuation/type_fixed_step02_schur_directions.npz",
+        "--parameter-map",
+        "notes/2026-11-12-phase24-corrected-step02-parameter-map48.json",
+        "--trial-checkpoint",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_probe.npz",
+        "--out",
+        "notes/2026-11-12-step02-d5-actual-Newton129-step2-geometry.json",
+        "--eigen-parameters",
+        ".0008793076981109852",
+        ".00008793076981109853",
+        "0"
+      ],
+      "original_argv_source": "2026-11-12-D5-actual-ODE-Newton-checkpoint.md exact saved binary64 command literals; not an exact PDE-family identity",
+      "separately_retained_original_trial": {
+        "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_probe.npz",
+        "sha256": "3453e5be05f8ada2dc333d3e2eab5bcbf58d668eea4817ec7cda85913ca77fa7",
+        "bytes": 96987
+      },
+      "preserved_mathematical_status": "floating sampled geometry of a finite parameter predictor; not an exact isometric PDE family, uniform C2 or reach certificate"
+    }
+  ],
+  "restoration_protocol": [
+    "Read the exact path from the immutable public commit into a temporary consumer directory outside Git.",
+    "Verify the exact byte count, Git blob and SHA256 before consuming original mathematical fields.",
+    "Do not rerun any successful producer. Saved argv records provenance only."
+  ],
+  "deletion_publication_protocol": [
+    "Fresh current-main path metadata must match both exact blobs and byte counts before ordinary deletion.",
+    "Preserve unrelated changes and all earlier cleanup manifests.",
+    "No force push or history rewrite; immediate true CLI pull --rebase attempt on non-fast-forward, then preserve remote and retry."
+  ]
+}

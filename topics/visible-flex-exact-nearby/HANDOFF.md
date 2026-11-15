@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 20:10:02 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 20:11:30 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则和读取点
 
 只在公开 Rogerhu12/math-research-public 及其自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。PAT仅临时CLI/env，不入文件、输出、connector。根规12不另请审批。
 根规15只scripts/参数/run/SHA/真小结论，data/新数组/证书禁Git/Release/新artifact；topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入从immutable公开history/path/原artifact临时核SHA恢复。仅明确未保存的新量按H记录重做。无executor时根规8仅UTF8<100KB connector，禁binary/gzip和大日志。H≤10KB、open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 19:39:05定时CLI及所有非FF即时CLI失败，下一≤20:39。ref不是pull。runner末原读真pull19:59:44.536601→19519948e153e4f9ac0c832eaedf1f9690994d2e，两README空diff，回执f0c972f9。
-最近只读README核：82857c46bb002c14062771b4b1a15ae4233961d3；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 19:39:05定时CLI及所有非FF即时CLI失败，下一≤20:39。ref不是pull。runner末原读真pull20:09:01.904850→c45472e61a6f491fff1b637f766e11f736d61bac，两README空diff，回执f9480b8b。非FF20:10即时CLI亦无executor，已保远端重推成功。
+最近只读README核：3f08cb51e208a7cbbea60e4edccd00aa6bb4f252；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 本次完整H/open/results/log逐字前页保9ae48daeadff2acbba9c7e0b2563e0a2b06ec340同路径，递归7794/8148/6994及原档。所有原域、单位、均值、失败、lost范围、恢复身份与未付义务继续；各proof及results索引保留。
 
 ## 同一对象及真正完成标准
@@ -18,7 +18,7 @@ checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本�
 
 ## 活跃Actions：不要重启健康原运行
 
-SN唯一43751213826/1，部署b8bd86a；SCI6c63241a、worker022f998c、manifestf6e5f9fe、flowc7cf0ce3，207pins/8AST/21门设计。合同6e906170/prep77e36f22、五失败与精确恢复18a3a7f6/7edf79c7全保前档。第五metadata502杀child−15，完整旧1256subcells预算/next2831已存；仅lost314×4 pointnominal参考320bit重建，旧residual/parameter/Gram/prep禁重，新hash非旧核。19:59原回执bb415e2a/11990/f0c972f9：累计3112=旧1256+新1856，interval2368，双支H3进度2.163824900615402非终点C。成功终点须双branch四导四列、A1/128完整尾/mean/原H3齐。newton监小回执。
+SN唯一43751213826/1，部署b8bd86a；SCI6c63241a、worker022f998c、manifestf6e5f9fe、flowc7cf0ce3，207pins/8AST/21门设计。合同6e906170/prep77e36f22、五失败与精确恢复18a3a7f6/7edf79c7全保前档。第五metadata502杀child−15，完整旧1256subcells预算/next2831已存；仅lost314×4 pointnominal参考320bit重建，旧residual/parameter/Gram/prep禁重，新hash非旧核。20:09原回执59b55fac/14183/f9480b8b：累计3624=旧1256+新2368，interval2240，双支H3进度2.213224515248857非终点C。成功终点须双branch四导四列、A1/128完整尾/mean/原H3齐。newton监小回执。
 SC3唯一43754452928/1，部署555d311；helper6f868faf、SCI41b8f50c、manifestcd28e23a、flow6936992e，23pins451182B、9history/36archive。仅Laurent构造显式list，reader/worker/runtime/math原字。SC1 schema失败62bdfc64、SC2首row构造失败f98d1f32均保；SC2 43753164994/1/6门过，首row部分新算术未保存，完整row/group/model0、旧数学0。SCI635bf74b/preGit2e549cfe与16eaea43已root核；104306B大日志不再读。tail监小metadata，实际完整97 affine未出。
 两worker对typed只读网络暂错保healthy child；真正rules/identity/cap失败仍硬停。终端结论和每次保存prefix必须沿原receipt核，进度不冒数学成功。
 
@@ -48,5 +48,5 @@ S/T exacttail只同γ A0/r≤1/128及H8193/r≤2^1048576、r1e−9；Γ1负princ
 
 ## 恢复与持续执行
 
-全部cleanup恢复清单/producer/原域保前档。最新f8987588仅3旧浮点geometry普通删1221901B，恢复8870549d52e48343cb43a979a13f9368cb992736同path/blob/bytes/SHA；历史不改。源码/对象/root/H/证书/失败保。
+全部旧cleanup恢复清单/producer/原域保前档。本次仅2旧Newton预测浮点geometry普通删814736B，清单1fcc7238，恢复8870549d52e48343cb43a979a13f9368cb992736同path/blob/bytes/SHA。连同先前f8987588的3旧geometry，源码/对象/NPZ/H/精确预算/实际ray及全部失败都保；旧成功禁重，历史不改。
 继续open：SN→实际nonmean/强E/incoming→GH/ν；ST新尾接线；SC3与新core restriction→同态五输入/高迹/γ入口→完整matching→同对象几何。子题完接下一项，未达总标准持续，不等用户，不因时长停。
