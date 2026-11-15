@@ -15,7 +15,7 @@ def save(p,x):
  p.write_text(json.dumps(x,indent=2)+"\n")
 def main():
  req=json.loads((NOTES/(PREFIX+"resume-request-789f.json")).read_text())
- if req["shared_mathematical_seconds"]!=300 or req["prior_run_id"]!=43668434588:raise ValueError("Fixed continuation scope")
+ if req["shared_mathematical_seconds"]!=300 or req["prior_run_id"]!=43669639448:raise ValueError("Fixed continuation scope")
  for path,digest in req["resume_entry_sha256"].items():
   if sha(Path(path))!=digest:raise ValueError("Frozen continuation entry changed")
 

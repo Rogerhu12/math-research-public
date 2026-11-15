@@ -1,29 +1,29 @@
 {
   "format": "r150-saturated-third-global-actual-resume-v1",
-  "created_utc": "2026-11-15 02:44:56 UTC",
-  "prior_run_id": 43668434588,
-  "prior_mathematical_source_commit": "5003424a932068d07a7897cd8b6a625c6b04d238",
+  "created_utc": "2026-11-15 03:00:16 UTC",
+  "prior_run_id": 43669639448,
+  "prior_mathematical_source_commit": "308891645e6a9c8094fa220e839717c0daf80ec9",
   "prior_actual_data_publication": {
     "status": "pushed",
-    "publishedCommit": "6d6bf1a463841e355b9d939cd9c7fcf3641d8514",
-    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43668434588-1",
-    "lastRulesReadCommit": "43670645bd3ae23964f37548b0d4ae346205b5c9"
+    "publishedCommit": "73587b603c8aaf902392b14aa654f3038d648321",
+    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43669639448-1",
+    "lastRulesReadCommit": "77d04c773a613069f9ae76c8938565f3a08b6cb3"
   },
-  "prior_recovery_manifest_sha256": "61e07362214079f0c6edaf5815f7a54492464d1f4bfb2b4def1922c1f8bb2056",
-  "prior_recovery_files": 119,
-  "prior_recovery_bytes": 764358901,
+  "prior_recovery_manifest_sha256": "72873e54cc98d33e2f786f442206aab01ef40220e0d9087b8a1254853817e028",
+  "prior_recovery_files": 209,
+  "prior_recovery_bytes": 1346656162,
   "prior_artifacts": [
     {
-      "id": 14143522511,
-      "name": "isp-r150-saturated-third-global-results-43668434588-1",
-      "bytes": 550647611,
-      "digest": "sha256:35abf2a36751a6fc65b5e501174a5b8e27d3a11bb507561fff69344acaef6781"
+      "id": 14143313908,
+      "name": "isp-r150-saturated-third-global-recovery-43669639448-1",
+      "bytes": 912768394,
+      "digest": "sha256:3aa7da49e24128af05145791ca2d49c8af3a5cc63e1bd26cc9eb10925660a7dc"
     },
     {
-      "id": 14142923061,
-      "name": "isp-r150-saturated-third-global-recovery-43668434588-1",
-      "bytes": 539742039,
-      "digest": "sha256:1a5d71f380bbd239bab0dd6c16588a56a0070fcc64f58e5512119c362fbbc92c"
+      "id": 14143094507,
+      "name": "isp-r150-saturated-third-global-results-43669639448-1",
+      "bytes": 929674998,
+      "digest": "sha256:11595f684d7fdd3c9eee4e913ac0f4c79f8e39b0c876c0a4439bc7932850677e"
     }
   ],
   "prior_completed_stages": [
@@ -62,19 +62,50 @@
     {
       "name": "six-q2-image",
       "input_binding_sha256": "0db306d9f25a8215d020e12aa5f0e7339d4ec4ae4fdc46ebfebc273b4fa042c8"
+    },
+    {
+      "name": "six-q2-VQ",
+      "input_binding_sha256": "84464ef29691ffeec9af9339f74903a038299678ec746d5b386e85a813d48dcd"
+    },
+    {
+      "name": "six-q2-original",
+      "input_binding_sha256": "c5b18025da24224c43e7f322f1e4397aed51245a5e450a8405c87d78cfd61263"
+    },
+    {
+      "name": "six-L3-p3",
+      "input_binding_sha256": "245441bfbca45cdb0dfaafaa99d1d487fed01e331fe316f27fdef2fbf3979864"
+    },
+    {
+      "name": "projected-six-L3-p3",
+      "input_binding_sha256": "9549a99c532d74a96ccdbbcc411a6a32bc5a30c11799e2db97524f6e1ef9f55c"
+    },
+    {
+      "name": "projected-six-L3-normal",
+      "input_binding_sha256": "1a2ed8a98544c9c4e1cb9b6411d6b044bea25b07904d2db6c2c8895ece1fa896"
+    },
+    {
+      "name": "projected-six-L3-whole-image",
+      "input_binding_sha256": "cadf79df0e417239564e9d8264a7cdf580a377fcd5f291c44d3b3021520f9ee7"
+    },
+    {
+      "name": "global-D2-and-seven-correction",
+      "input_binding_sha256": "fea16a93dcd3497eae5c245500028f46eead61daf28ca90a8bf794c2e203ac0e"
+    },
+    {
+      "name": "five-q3-image",
+      "input_binding_sha256": "8c13b7b5f0a14d8f11fd88150560181389e76fa2652d8ae66feedd7a450eb5bd"
     }
   ],
-  "continuation_stage": "six-q2-VQ",
-  "completed_image_rows_preserved": 1021,
-  "prior_source_monomial_products": 93312851,
+  "continuation_stage": "five-q3-VQ",
+  "completed_image_rows_preserved": 451,
   "shared_mathematical_seconds": 300,
   "per_child_memory_mib": 1024,
   "per_compilation_seconds": 30,
   "native_compilations": 5,
   "freeze_unchanged": true,
   "resume_entry_sha256": {
-    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml": "f5211720fa932560f5b004ff163f971dcabbadd22ef5a574d80ca4f82d833c62",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py": "d8c3b32878a89c18cec88f3340a073d2e05c1e52875e3f72dc11cdbf5ea01ca4"
+    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml": "b7f488d86f7a44e2e1b515f1fb2eca80cec62c937cc644c292d293eb94598415",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py": "3c1b9a416a080fc84070369947c44354e272a52cf682e426fb4df717293e256e"
   },
   "exact_sparse_paths": [
     ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml",
@@ -109,7 +140,7 @@
   "old_local_pages_recomputed": false,
   "characteristic_zero_identity_asserted": false,
   "account_concurrency_observation": {
-    "utc": "2026-11-15 02:47:25 UTC",
+    "utc": "2026-11-15 03:02:28 UTC",
     "repositories_checked": [
       "Rogerhu12/awards",
       "Rogerhu12/bipartite-diophantine",
@@ -127,93 +158,9 @@
     "active_jobs": [
       {
         "repo": "Rogerhu12/math-research-public",
-        "run": 43669359806,
-        "id": 132675725853,
-        "name": "Continue the actual85 low-three candidate with the same eta0.1 and fresh eight-step budget"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43669106351,
-        "id": 132674956494,
-        "name": "complete-whole-physical-root-piece-first-Airy-sources"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43668743515,
-        "id": 132673870743,
-        "name": "Follow-up condensedqp"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418391,
-        "name": "ranges (21, 21)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418394,
-        "name": "ranges (19, 19)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418396,
-        "name": "ranges (20, 20)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418397,
-        "name": "ranges (16, 16)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418422,
-        "name": "ranges (17, 17)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418439,
-        "name": "ranges (23, 23)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418463,
-        "name": "ranges (22, 22)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418489,
-        "name": "ranges (24, 24)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665418503,
-        "name": "ranges (25, 25)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
         "run": 43665656138,
         "id": 132665419453,
         "name": "ranges (26, 26)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43665656138,
-        "id": 132665419558,
-        "name": "ranges (28, 28)"
-      },
-      {
-        "repo": "Rogerhu12/math-research-public",
-        "run": 43654510038,
-        "id": 132630212611,
-        "name": "ranges (25, 12)"
       },
       {
         "repo": "Rogerhu12/math-research-public",
@@ -228,10 +175,11 @@
         "name": "ranges (27, 13)"
       }
     ],
-    "active_job_count": 17,
+    "active_job_count": 3,
     "publication_job_count": 1,
     "new_mathematics_job_count": 1,
     "maximum_concurrent_jobs": 20
   },
-  "reason": "The actual shared300-second clock plus10-second termination grace stopped only the full-source verification after all1021 VQ image rows were saved. Reuse every complete cache and exact partial array; retain all old proofs, coefficients and logs."
+  "reason": "The first continuation reused all nine prior complete stages, completed eight more including the actual global D2 and full315/505 correction, and saved five-q3 VQ image rows0..450 before the shared300-second clock. Reuse all17 complete caches and the actual451-row partial.",
+  "compact_actual_receipts_uploaded_before_full_packages": true
 }

@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** ea10c9771a7b371ba6a4fb68c07329426e20e90d（2026-11-15 02:57:26 UTC，Actions run43669927445实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43669927445-1.json。
+- **最近成功实际 pull 与已读规则提交：** 96b11b177471868d855ec0e710d9b08a356b1b7b（2026-11-15 03:05:58 UTC，Actions run43670523011实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43670523011-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -20,9 +20,11 @@
 
 **[六槽实际1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)**：所选第三父ω3…8整数系数[344,409,327,102,1,16]；七raw q1、四真W2、一个第三主源、一个D2，成本177→373→469→665→761→957→1053→1249→1345。q1的s/t规范须同步q2 carry；中间p4仅U7/真p3 κ8/真p3 D2，不换未缩放κ9。第三改选差在完整W2，四次真P与所有315/505/原17均保。
 
-**全局首轮实际检查点：** run43668434588/job132672914323、source5003424a；49输入/12源码全核，5native均成。共享300秒+10秒终止，实际310.011657628秒，九阶段完整；six-q2-VQ全1021像行/93312851积已存，在原来源乘回第1000源时exit137。七raw q1实际费175，全6188×20×7 carry866320坐标实核；六初源P后实际费371。九最终原式尚未完成。119恢复764358901B/86二进制条目全部封存，data6d6bf1a463841e355b9d939cd9c7fcf3641d8514已实际推，末读43670645两README未变。recovery14142923061/SHA1a5d71f3…；results14143522511/SHA35abf2a3…；[完整实绩](notes/2026-11-15-r150-saturated-third-global-first-actual-789f.json)。
+**全局首轮已存：** run43668434588/data6d6bf1a4保9完整阶段、七q1实际175、全6188×20×7 carry、六P初源371；119恢复全保。[首轮实绩](notes/2026-11-15-r150-saturated-third-global-first-actual-789f.json)及[前H](notes/2026-11-15-handoff-before-global-source-second-resume-789f.md)保全部SHA/时间/原来源。
 
-**首续已实际启动：** run43669639448/job132676599537、source308891645e6a9c8094fa220e839717c0daf80ec9；[续接请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)保同一全部数学源/contract8215f48e…，仅读首轮两完整包；九缓存及partial1021像行按SHA/语义绑定复用，旧二/三页不重算。每轮5有界编译、共享300秒/每子1024MiB；唯一成功仍九原17模31⁶及六辅助/315/505/九实费≤1345全真。中断就从实际新checkpoint接，不以限额结束研究。
+**最新实际首续：** run43669639448/job132676599537、source30889164，data73587b603c8aaf902392b14aa654f3038d648321已实际推。9旧cache全复用，8新阶段全成；数学300.294054131秒，five-q3-VQ保存451像行后exit124。六L3原17模31³整除全核、实际费466；再P后662，全505自由和315坐标/修正身份全核，真D2全局第六槽已保存，原D2差在U7系数[21,23,0,0,0,0,0]。209恢复1346656162B、153二进制条目全保，零旧页重算；recovery14143313908/SHA3aa7da49…，results14143094507/SHA11595f68…。[完整实绩](notes/2026-11-15-r150-saturated-third-global-resume1-actual-789f.json)，九最终原式仍未完成。
+
+**立即接第二次续算：** [同源请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)只读最新两包，保全部17完整cache和451行partial，五有界编译/共享300秒/子1024MiB；数学源/contract不变，新增小回执上传以尽早读真实状态。唯一成功仍九原17模31⁶、六辅助/315/505及九实费≤1345全真。限额只产生checkpoint，不结束研究。
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**已证：同一B/e/目标于无界精度可解⇔有限Z_(31)来源精确可解，无需逐级相容；允许B增长不成立，1−31s例固定B精确阈n≤e+B+1。u(u−31)展示∞纤维秩相同仍长度1→2；当前1345只一精度任务，不能外推char0。接续必须保固定真实B或支付完整项目化/∞厚度。
 
