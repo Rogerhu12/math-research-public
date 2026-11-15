@@ -104,8 +104,8 @@ d=y-x.
 2. 恢复同一已接受 \(x\) 的ordinary缓存。若原缓存能复用则复用；不能复用的普通值调用照常计入40共享预算，不能称免费。
 3. 用原 objective.linear_rows 得到完整新池在 \(x\) 的base/J/groups/tolerances。所有新增或必要重建J费用进入当前active clock；不重启clock。
 4. 用原 selected_model 在同一 \(x,B,M,D_{\rm phys}\) 下建立 primary1，不求解第二个主LP。
-5. 由相同冻结factory建立 \(\mathcal A_1\)，完整原两网方向计算仍保全部角后再取点。
-6. 记录新model_binding及两网IDs/hash，核actual-y视图与新primary的网格、共同高度规则兼容。
+5. 由相同冻结factory建立 \(\mathcal A_1\)，完整原两网方向计算仍保全部角后再取点。selected与complete factory均会扩展primary签名，因此必须等二者完成后生成最终model_binding；factory前的scalar签名只可另字段留存。
+6. 记录最终新model_binding及两网IDs/hash，核actual-y视图与新primary的网格、共同高度规则兼容。rebound不求primary LP，在首次slack前调用原oracle.set_post_primary_phase()，将其费用准确记为actual-total-step-prediction。
 7. 新context存在后，旧layout guard仍有效：只接受新context声明的当前版本；不能改成跳过guard。
 
 已有 selected_model 的原检查会逐项核
@@ -254,16 +254,20 @@ rebound不能再次消费初始norm seed或回放旧科学。
 
 ## 12. 建议实现分工及新增接口
 
-tail_cost只新增两个独占文件，不改旧科学源：
+tail_cost只新增三个独占文件，不改旧科学源：
 
 - scripts/frame_metric_expanded_pool_soc.py：独立context、冻结真实trial视图、
   同中心扩池后model重绑、预算启动钩子及准确report关联；
 - scripts/frame_metric_expanded_pool_soc_recovery.py：从当前norm-memory outer明确派生，
-  只增加本合同的单次rebound分支、按context的trial诊断和独立费用/状态报告。
+  只增加本合同的单次rebound分支、按context的trial诊断和独立费用/状态报告；
+- scripts/frame_metric_expanded_pool_soc_development.py：developer_check()，仅下节新增接口人工。
 
 root负责新的direct transfer、audit、request、workflow与发布。
-新transfer从本次完整future checkpoint恢复，并提供上节21条可追溯原事件及 expected_initial_bank_sha256；新objective只在首次primary安装后做严格hash核验并记录，不在rebound重复seed。
-名字可在根确认后固定；不先写共享源、ref或触发Actions。
+新transfer从本次完整future checkpoint恢复，并提供上节21条可追溯原事件及 expected_initial_bank_state_sha256、expected_initial_bank_entries=9。新objective只在首次primary安装后做严格hash/entry核验并记录，不在rebound重复seed。
+
+正式类名ExpandedPoolSOCObjective，新增显式关键字expanded_pool_policy必须为same159-expanded-pool-rebound-SOC-v1；恢复入口run_expanded_pool_soc_recovery。**原source configuration逐项不变**：factorizer把digest(cfg)纳入其定义，而方向bank的context包含该factorizer定义哈希。故不得在cfg添加新policy或transfer注释字段；算法声明仅写request和objective.evaluation_definition。原floor/fraction/weight/retention从旧cfg显式读出并在rebound核同，不用两个缺失的primary.information字段相等冒作核验。
+
+root的transfer/audit文件分别为frame_metric_expanded_pool_soc_transfer.py与frame_metric_expanded_pool_soc_audit.py；tail_cost只交未挂UTF8 blobs，不写ref或触发Actions。
 
 科学装配仍调用现有selected-row factorization、selected_model、
 CompleteGridAffineModel、build_correction/scale_mapped_correction及原真实验收。
@@ -271,17 +275,14 @@ CompleteGridAffineModel、build_correction/scale_mapped_correction及原真实�
 
 ## 13. 只覆盖新增接口的人工计划
 
-公开Actions首验才执行。无需重复已付norm方向、163/159地图或原13门套件。
-最小新增fixture按四组组织：
+公开Actions首验才执行。无需重复已付norm方向、163/159地图、原开发套件或原14门科学。新developer_check()只含十项接口检查，按四组组织：
 
-1. **双context与缓存**：改变pool顺序/新增IDs后旧binding拒绝；从x重建的新context准确选同一y的真实rows；故意state/map/scale不符拒绝。
-2. **预算与RHS**：新scalar与full rho分账；非正gain不启solver；started solver异常仍扣共享slot；无剩余LP不调用；原scaled/unscaled数组关系保留。
-3. **完整rebound流程**：一个人工hard/soft新增例从同一y成功或诚实不可行，真实门决定接受；再新增行不递归；原new_rows仍使hold不成立。
-4. **报告和失败保存**：主模型1/rebound1/主模型2不会zip错位；rebound失败保原trial/error/最后accepted；所有新费用和started counters可见。
+1. **bank与实际步**：完整SHA/9条entry严格相同；错误hash/size拒绝。实际y−x必须以原apply逐字节复原y，不用名义proposal代替。
+2. **真实新context数组接口**：只借旧artificial_arrays的固定数据，不调用其developer_check。实际走capture、冻结y、恢复x、linear_rows、selected_model/build_primary、new rebuild及build_correction；核所有新IDs、same x/y、新J和真实y数组。完整observable factory使用明确标号stub并模拟其两次签名更新，以检最终binding生成次序；不把该stub称真实JVP或科学值。检查版本/ID顺序变化拒绝、失败视图不被live cache覆盖及失败部分oracle仍保留。
+3. **预算与报告**：started callback成功和抛异常都在调用前扣共享slot；无余量不调用。模拟主模型1、rebound归属于模型2的明确映射，核原attach错误rho0被正确替换、普通correction未变及全部oracle费用保留。这里只测试新边界，未执行真实LP。
+4. **当前日志parser**：直接调用root新transfer.parse_records。timestamp与BOM前缀、十一条有序MODEL及唯一COMPLETE均用小标号JSON；原COMPLETE JSON+LF精确保留。缺模型、重复模型、重复COMPLETE均拒绝。没有网络读或旧checkpoint恢复。
 
-人工passed不能替代实际。一次实际运行仍须完整消费同试点身份、新base/J签名、
-新旧rho、SOC原residual、两网全部gate、真实接受/controller、预算与费用；
-若无rebound触发，也应如实报告未观察到该新分支的科学效果。
+以上人工passed只证明所列接口。显式outer的真实accept、original hold/no-recursion及全部真实门仍须由公开科学实际如实消费；不能凭人工数组宣本轮SOC成功。一次实际运行须完整消费同试点身份、新base/J签名、新旧rho、SOC原residual、两网全部gate、真实接受/controller、预算与费用；若无rebound触发，也应如实报告未观察到该新分支的科学效果。
 
 ## 14. 可判定结论与限制
 

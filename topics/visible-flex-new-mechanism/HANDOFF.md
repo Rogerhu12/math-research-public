@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **旧数值源**：[complete-affine原实际](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848，η.266401179156→.266381717617，12LP/5接受；9恢复805.206s，漂移/失败及完整六模型证据保留，0重跑。
 
-**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值，active38.005145573s、prepare8.848614828s、process159.688904402s，112.835s非active差跨初始化/首J与末复验，未细分。bank7→9，21插入/0驱逐，12精确binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；扩池同y SOC合同已付、源码中：回同x按新池重建；原预算/门/17guard/报告对应全保，源完整reference/pools/controller和21输入→9方向hash严格复原。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
+**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值，active38.005145573s、prepare8.848614828s、process159.688904402s，112.835s非active差跨初始化/首J与末复验，未细分。bank7→9，21插入/0驱逐，12精确binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；**扩池SOC五新源/首请求已发**：完整reference/pools/controller与21输入→9方向hash严格复原；source cfg不变，回同x扩池重建，complete factory后最终绑定、单次同y原SOC、调用前计LP，原新行/17guard保留。新10接口先公开执行，旧12/旧optimizer不重；未有新actual结论。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -35,7 +35,7 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 **R292–302**：完整后缀迫T9/逐self；R297真9单位。R302保实际χ原型/共享整词真倒行、自由h跨全词、M0固定τ可漂；增强IFT指定有限pure/T/query、芽安装/Morse/Klein真闭合，通常新seed/g，不授全q或实际逆元。
 
-**R314–333完整pure/self**：R314保全T九矩/局部Euler六jet忠实，R322真成本σ→self缩放σ−2。R316 H*满足π0/整Q0/λ+1，13pure核比较像rank7，旧结果不重。R323真负权−8 self0，−6二维/−4八维原响应覆满、保Z=μ0²/2；E=(π,全Q)实际闭锥=E(U)。**R329实际/R333真实控制已完成**：[完整结果](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)，run43740129876/a5383f6/job132891272196，两C4/C6 MEMBER、8新人工过、468新primitive/6.521884s；旧13完整列只读，fresh2492/2198原mixed差T/Euler/重构0/selfword0。R126 old标签准确式见稿。严格E(U0)=E(R0)维10、两核维9/6，故零权商0；不是全权响应等像。结合满闭锥、两次真实商截面/有限整数复制及最后响应收缩，**E(S)=E(U)**且紧集C1真实截面；可选wholepure+wholeQ零/全T零背景。所有原基准/桥/锚保，完整canonical λ仍正。wholemixed/period、同gauge及额外Gaussian/Morse/两flux不自动联合，须各自增强接口。
+**R314–333完整pure/self**：R314九T/局部Euler六jet忠实，R322真权σ→selfσ−2。R316 H*为π0/整Q0/λ+1，完整13核self rank7不重。R323负权−8 self0、−6二维/−4八维响应覆满，E=(π,全Q)实际闭锥=E(U)。[R333实际控制](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)用run43740129876/a5383f6/job132891272196两C4/C6 MEMBER、8新人工与fresh2492/2198原差；R126 old标签准确式见稿。严格E(U0)=E(R0)维10/两核9与6，零权商0，非全权等像。原两商截面/全部原型桥基准/有限整数及最后响应收缩给**E(S)=E(U)**和紧集C1截面，wholepure/wholeQ/整T0背景可实付；不是任意不相容pure×Q。完整canonical λ仍正。wholemixed/period/同规范及额外门不自动联合，R340单独付两flux接口。
 
 **全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15在R−6恒0，其U−6值仍欠；其他权/整circle像不冒已付。
 
@@ -50,4 +50,4 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main dc46652a671c7241a3b4b6a0d9a7f2fda6d3e549，双README blob同。API读取不冒实际pull。
+断连API复核main 2e951d4e3c6c79f2ce2a117a4bb2c882587a8678，双README blob同。API读取不冒实际pull。
