@@ -96,3 +96,5 @@
 [R296](results/R296-actual134-thirty-two-nine-control-batches.md)登记全部32批原值、256方向/2322试探、内层域失败及容差例外、末参数与半径、完整诊断及原日志身份；有限慢降与弱响应不冒根或完整非零场，真实半径接续继续。
 
 - [R297：连续E的准确单位面板缩放与完整分段包含](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)（已证明，原模型C的区间积分合同）：正幅值归一化严格保六原积分，半径/全宽与累计库误差分开，原恢复全宽门保留；完整real_abs/sqrt/cap解析分支、区间回退和未付覆盖不省。新增004010b6生产器及[136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)，原预算/全域/九公式源不变；无实际全E或metric结果。
+
+- [request135：真实134末九参数和末半径的完整32批接续](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)：新ed78684f/24c5ff04/df856e9e、87+3源/26→27；仅真算法半径跨批继承，原数值助手/方向/final/停止及完整读回保持。实际是否改善须读公开run，不由R295推定收敛；没有新非零场接受。

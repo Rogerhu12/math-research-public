@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:04:09 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f59c795c69c05bed6efa45a937ab352def8e5972。
+规则同步记录：2026-11-15 11:05:23 UTC root依根8经API读main 450f01fb912daed18858878250db97cdc5cb807d；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:04:09/f59c795c69c05bed6efa45a937ab352def8e5972；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -22,13 +22,13 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 [131 R292](results/R292-actual131-eight-nine-control-batches.md)后，[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，compute132781953477/report132785749291完整32批256接受/2322trial；W5.003044586685467→4.963213836829105，末radius.000390625。81接受inner false、371内域失败、FD/Arb/453圆及弱响应边界全在R296。32primary/256groups/32views原SHA已核，所有unit/full112/nonzero/native/success仍false；raw已清。
 
-[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降/有限误差边界。135从R296真第32批九p/末radius继续，保原8×20/12×20/全部final；已由公开源重建为ed78684f/24c5ff04/df856e9e，待发布。旧bd40/c8f1/f0ff未发布稿失去现场，不再冒用其SHA。九控制标量搜索不是112/native接受。
+[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降及有限误差边界。[135入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)从R296真第32批九p/r=.000390625续接；ed78684f/24c5ff04/df856e9e、87+3/26→27，recipe494f73d1/requesta68b9556/wf06ef8696。原8×20/12×20/全部final/32批/3600s批间及75/90分钟全保；仅真末radius携带、零不修复，旧未发布稿不用。已发、run待读；九搜索非112/native接受。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101/d075af46/c756ede7保00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)真127第8九p/λ=.001/fresh-circle；110pins/29closure/原4输入+2ready+78源、300min总/330science350job。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 
-[九450原版](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b/1610保持；[v2](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)5e95afdb/92cfb070只接真00e4/0433完整接受父或自身v2，祖先H回执只作来源。全九冻结/K=k=0/450/左338右112，真父→fresh RHS/二分+全knots、max_nodes须容1397以上，原当前H全J/FD/fullDN/finalaudit保持，未自动接H路径。
+[九450原版](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b/1610保持；[v2](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)5e95afdb/92cfb070只接真00e4/0433完整接受父或自身v2，H回执仅来源。全九冻结/K=k=0/450/左338右112，fresh RHS/二分+全knots、max_nodes须容1397以上，当前H全J/FD/fullDN/finalaudit；不自动重演H路径。
 
-[九450完整读出/闭面接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)e8deb413/69bbba26已发：保全部physical338/core112/z0/原十jet方法/两有限scalar路径及原tail/config/H/J/audit/cut/SE2/sharedB七元组，新guard显式认九schema；不冒旧v3/v4；新九scalar/metric见后，仍无真实450父。
+[九450完整读出/闭面接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)e8deb413/69bbba26保全部physical338/core112/z0、完整FFT/材料图、tail/config/H/J/audit/cut/SE2/sharedB七元组及九schema；两有限scalar路径分清，仍无真实450父。
 
 ## 原六H(s)与native方向
 
@@ -54,7 +54,7 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 [R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)81d061a6/9aa0da45保六primitive/1440片/准确深根族/自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446只完1378片、用尽200000panel，wholequery/E/Rout未付；原结果e18d07b6，需重做。
 
-[136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)/[R297](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)新004010b6准确单位面板缩放及完整Acb分支；原模型C/160×9/六积分/200000panel/1800s全保，仅加guard8且仍核原全宽，点q=0不冒解析。9pins/request2b9945ac/wf992f41e9，R297给完整包含证明；shared原E请求已发，实际run待读取。最终单行与接线未本地语法执行，Actions原compile负责；不冒已完整E/metric。
+[136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)/[R297](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)004010b6准确unit-panel及完整Acb分支；原模型C/1440片/六积分/200000panel/1800s保留，guard8仍核原全宽，点q=0不冒解析。9pins/request2b9945ac/wf992f41e9；run43707070768/sourcec1178bd2e17383a5a0f6bed1ec8fe1896704a528/job132790329190于11:03:43创建，原syntax/source/input preflight通过，进入原科学；无完整E/metric，旧9aa0消费者需显式v2适配。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真fullDN及自身final audited tail/config/port，完整physical/material/z0/mean→R249/sharedB/两帽。R274/R258 e372待同场非零见证；held可独立reach，但必须整个像/两帽/完整D。冻结g/全p/t再精化，有限phi不冒连续theta，数值不冒严格存在。
 

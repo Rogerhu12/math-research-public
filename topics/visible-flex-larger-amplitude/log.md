@@ -355,3 +355,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 11:03 UTC /root — R297完整积分包含证明与request136
 
 [R297](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)及[136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)：准确unit-panel/正幅值归一化、原全宽门和完整Acb分支保同模型C/六primitive/1440片/原200000panel与1800秒，点q=0不冒解析。新source004010b6/request2b9945ac；修改课题外共享E workflow为992f41e9，以执行该独立v2及原全部query/未付读回。终端不可用依根8小文本普通前进，实际run待读取，继续135与完整场。
+
+## 2026-11-15 11:05 UTC /root — request135真实半径接续完整发布
+
+[135接口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)从134真实第32批p及radius=.000390625继续；新ed78684f/24c5ff04/df856e9e保原六助手/八方向循环/final/原停止，87+3源/26→27、原32批预算及完整失败读回。recipe494f73d1/requesta68b9556；新增课题外workflow06ef8696为独立触发，旧134不动。136已在run43707070768/job132790329190通过原preflight并开始科学；终端仍不可用，root全文读各差异而未声称本地AST，继续原场和准确几何。

@@ -4,13 +4,13 @@
 
 [R296](results/R296-actual134-thirty-two-nine-control-batches.md)已完整读回32批：256原方向接受、2322外trial/2066拒、81接受inner目标未达；20外trial内部371域失败由原函数保有限候选，4次内层12步用满均外拒。32初末FD/Arb/453圆均完成，全部unit/full112/nonzero/native/success仍false。W5.003044586685467→4.963213836829105；后段接受alpha到2^-17，末最小σ9=.001251424267791722，不能把慢降只归因.1reset或据SVD判无根。
 
-下一135从真实第32批九参数与final_relative_trust_radius=.000390625续接，保原外8×20/内12×20、每批fresh J和全部final责任。仅转录真父，不重用已清raw。旧未发布三源在终端中断后恢复或按公开824c/f57/fd5合同重做；新字节须独立身份。现存192组整列FD不认证弱奇向量/切向梯度，不因此加新数学门。继续真实半径运行，并从已读有限响应研究原全3目标的全局化/导数，不宣称根已得。
+[135完整真实半径入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)已发布：从真实第32批九参数与final_relative_trust_radius=.000390625续接；新ed78684f/24c5ff04/df856e9e完整保原外8×20/内12×20、每批fresh J及全部final。recipe494f73d1/requesta68b9556/workflow06ef8696、87+3源/26→27闭包、原32批/3600s批间/75science90job；真final半径含末拒绝quarter，零不修复，不用末接受点推测。原停止/90KB显式不完整/全32行及失败保留，旧未发布稿弃其身份，实际run待读。现存192组整列FD不认证弱奇向量/切向梯度，不因此加新数学门；继续原全3目标的全局化/导数。
 
 2026-11-15终端环境unavailable；根第8条允许只用GitHub集成传<100KB文本。记录API新main及规则对照，保最近真实Actions/root pull来源；恢复后立刻实际pull。所有数学仍只在本公开库Actions，已有122/124/128/130/133继续。
 
 本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request134检查点](open-checkpoint-through-request134-2026-11-15.md)，它仍链接request126及[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
 
-所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root终端已恢复，当前真实部分克隆/tmp/visible-larger-root-git-126由root唯一pull/push；早前终端unavailable期间集成发布的边界保留在原log，不冒当时有git pull。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
+所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root部分克隆/tmp/visible-larger-root-git-126在10:48后再失终端；当前依根8仅集成小文本、最新main lease普通前进，恢复即真pull，不把API读取冒git。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
 
 ## 1. 九控制低三条件的真实接续
 
@@ -100,7 +100,7 @@ R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原�
 
 [R293实际132](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)compute132777819446/report132779955239均success，但仅正常返回部分结果：482.79984332900005s用尽200000积分panel，完成1378/1440原片，1103610 analytic component integrals，inverse0。首未付cell6/segment1/piece1378/depth47，原完整33行unpaid为31panel+source[1379,1440)+whole-query；唯一整自然闭域的E=null/domainfalse，Rout及全六primitive总和均空，不能消费成全域metric。深端统一E/E_r/E_rr、protected/finite结构flags保原范围，不自动付模型选择/atlas/旧finite同g。原result5992B/e18d07b6、query608B/009f8e11和scalar8716B/7ccbcf3c均从原日志按编码逐字重建核身份；其他30panel逐区间只在runner完整消费后清，不伪称独立复取。下一项按真实cell6瓶颈定位积分分裂/精度策略，保原六primitive/全部域和未访责任，明确新源后Actions完整重做。
 
-[R297单位面板及完整分支包含证明](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)与[136实际入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)现已发布。新004010b6保持同一模型C、160×9片/六primitive、原200000panel/1800秒及全自然闭域query4fa2baa1；准确单位面板与正幅值归一化用guard8请求更窄库误差，但最终仍按原恢复全宽门判断，失败保合法range界及全部未付栈/后缀。原宽面板上唯一branch/sign沿旧解析路径；其他组件分别处理真正的解析条件，点q=0不能冒局部解析。末次尝试与首未付分开记，完整六component诊断不省。9pins/request2b9945ac/workflow992f41e9、256bit和原预算不变；Actions将先执行原syntax preflight再真实科学。尚无136实际结果，不能消费为完整E/metric；下游旧9aa0 guard若接v2须显式新身份适配。
+[R297单位面板及完整分支包含证明](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)与[136实际入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)现已发布。新004010b6保持同一模型C、160×9片/六primitive、原200000panel/1800秒及全自然闭域query4fa2baa1；准确单位面板与正幅值归一化用guard8请求更窄库误差，但最终仍按原恢复全宽门判断，失败保合法range界及全部未付栈/后缀。原宽面板上唯一branch/sign沿旧解析路径；其他组件分别处理真正的解析条件，点q=0不能冒局部解析。末次尝试与首未付分开记，完整六component诊断不省。9pins/request2b9945ac/workflow992f41e9、256bit和原预算不变；Actions将先执行原syntax preflight再真实科学。实际run43707070768/sourcec1178bd2e17383a5a0f6bed1ec8fe1896704a528/job132790329190已于11:03:43创建，原源码/语法及输入检查通过后进入科学；尚无结果，不能消费为完整E/metric。下游旧9aa0 guard若接v2须显式新身份适配。
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
