@@ -56,6 +56,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+**[R177](results/R177-explicit-all-layer-positive-point-after-nine-original-relations.md)给出尊重九条原式关系的新全层正点**：静态=(1+k²)²/4，二次为(k′)²+(1+k²)v²+k²(k′−2kv)²/4乘h^-2，完整最高M=diag(1/16,11/48)配纯h正平方；全action≥∫h^-2/4。原23 y与十四族、同μ/c/d完整列出。新指定点consumer只保存86/107/14/九式准确核对，不LP/旧路径；该点任何新路径门都已由全正证支付，下一唯一真实性缺口是完整原函数核。
+
 [R176](results/R176-nine-literal-relation-cuts-and-exact-negative-power-path.md)已记录43671759155的完整86行准确外点与反例：M的det−9/16，真实k=K/h给有限K负最高action，p−1行值−81/4。该点结案，不继续单行LP迭代；root转明确12参数全正点（staticα=β1/4、最高M=diag(1/16,11/48)、低层显式平方），lit只核其86/全14族与同一μ，随后原函数良定义性仍是缺口。
 
 **原关系actual43670254711已完整：R173正标量action点被真实原函数关系排除。** 147字面列rank77/kernel70；70依赖全做两mode原存储fresh核零，旧B/R168后9新独立式。指定点违反18条真式，首条值−2。[R174](results/R174-nine-original-character-relations-and-rejection-of-the-positive-outer-point.md)完整登记9式、首原式−V0+V1−V2+V3=0及12维线性必要外空间；静态准确降为(1+k²)(α+βk²)，全非负iffα,β≥0。证书41109B/5d929f4f保留；rank77仅字面矩阵，不是真实头部维数。
