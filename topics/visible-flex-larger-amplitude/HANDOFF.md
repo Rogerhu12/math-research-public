@@ -20,7 +20,7 @@
 
 目前只有大幅开放前缀接受。须固定g、连通闭C²嵌入与强C²的全t族；固定有内点H且diamH≥.2D；整像Hausdorff δhold≥.2D，含反射δE>0；全t reach≥.03D；全域相对metric算子误差≤1e−6。D取整个闭F0。冻结g/所有p/t范围后精化至机器或原solver容差，交数个各<5MB网格并明确数值到严格存在的缺口；最低标准后继续加强比例。不增六/九jet机器门。
 
-唯一M96接受场 b4d2b98a 的5.77368e−7是分量误差，非算子证书。当前M112/T112/N2048、699节点、453状态=338physical+112core+3p，236036free；前三core固定。prepared0f94dd88/config01930f3b/零Hanchor e788a28d。scalar .99、Connector/coast/bridge64Gauss7.5、cutr.3、end2.271004035438285、3 controls；不能替T96/零H。四输入完整SHA/历史恢复见当前request，原件可从8bd267107cc8710d371f3b62c02986655ac965b0取；107/110用918f同字节。每新模型fresh W/J，不跨模型相减merit。
+当前M112/T112/N2048、699节点、453状态、236036free，前三core固定；scalar.99/cut.3/三控制，不能替T96或零H。四原输入及历史恢复见当前request。M96分量metric不是算子证书；每新模型fresh W/J，不跨模型相减merit。
 
 ## 正在推进的三条实际路线
 
@@ -28,11 +28,11 @@
 
 run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job132724561759，06:25:12UTC启动。sourcea1ba1cd8/requestef159a8a/workflow3363acf2；[完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)。最多8批、科学175min/job185min，每批原1-model1200s/λ270/512×200/17trial和全部门不变；必须新warm原FD通过才传同job真实warm/status。每批源/输入新评价，已消费临时数据删除，最后无raw保存。45min原规则监控保持。
 
-107原raw已删，110从actual98 artifact14147700690真实重建新支线，不能由107 hash造场。尚未读回110任一完成批，不能填推测值。107正式为1/8接受：W43.363003729098274→43.33594286031892，最近1/4只LEFT464(query0已在31)RMS失败β²−.2683514415128212；新FD8.81884772255149e−10，col.007107481419519517、BC6.857449986338445e−9，success/newcoupled仍false。完整scope/SHAs见[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)。
+107raw已删，110从actual98 artifact14147700690重建新支线；未读回110完成批。107同31原1/8接受/新FD通过，最近1/4仅已选LEFT464 RMS失败，仍非BVP/native，详见[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)。
 
 ### 113：完整原始残差binary128（已发布，运行待读）
 
-103已正式失败：[原结论](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)。run43681829913/source301d0b64/job132713895446，base/±ULP均未改善，同freshJ完整R273成功而原十档全拒、末三档回基6.0618737006888706e−5；零接受/no finalJ/audit，不称普遍精度底线。
+103原邻词无改善、同freshJ完整R273成功后十档仍全拒，无finalJ/audit；完整原数值见[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)，不称普遍精度底线。
 
 [113完整接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)已发布：CPP1b59cd10/bridge3655c81a/probeba3564ca/requeste6703c76/workflowf94c9a85；28源pin及actual91临时输入保持。root逐式读原root/split/RK/cellFlow/evaluate、完整新源/预算链。真实__float128113位覆盖e=L−target、226态RK、节点+αdelta及129248残差；原w/w2/E/角表/sigma精确提升，导出原noJ k/steps+cusp实际子步数/hash，不冒与withJ n*h逐位相同或精确连续ODE。
 
@@ -58,8 +58,4 @@ R277/R278/R279/R280/R281完整证明已登记，不再加证明审批或旧fixtu
 
 ## 已付事项与重做边界
 
-98/102v3已正式，五原件身份通过；独立model顶层装饰导致whole-document-vs-nested false/exit2，非原数学合同，不重算102。见[98完整结论](notes/2026-11-15-actual98-thirty-one-quarter-step-and-rms-barrier-compact.md)。95/97/99/101/105/106/108/109及早前89/93/94/96均有正式note，勿重复旧审计。
-
-104普通清理已完成：run43682924785/source2cf540ca/job132717224569，commit2be1ad96删除8184已知可重算path/2641928364B，postpush8071files/168796207B；未知JSON未全分类，不称已清完全部第15条责任。[清理结论](notes/2026-11-15-rule15-request104-run43682924785-attempt1-metadata-cleanup.md)。无payload读、无历史重写。
-
-当前未推草稿只属115/geometry新工作，均无本地科学结果。完整早期open/log在检查点文件及Git历史。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。
+95至114既往实际结果均已有正式note，勿重复旧审计。102v3整体model-vs-nested差异源于原writer顶层装饰，非科学门；104普通清理后课题168796207B，未知JSON未全分类，详见各note。未推草稿为115及geometry，无本地科学结果。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。
