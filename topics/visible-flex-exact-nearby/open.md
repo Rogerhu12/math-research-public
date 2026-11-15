@@ -77,7 +77,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 
 
-[TN同严格截面两窗正规化与完整强余项](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261：selected全系数S带192/S2带384，原mean未删；P_J的L2/H−4/3逆为同一个ordered operator。J满足TN15才得1024/945与1024/793；原A²真两gain的−1/3、2/3中间窗与左L2右负窗费用齐。F_S=SI−PSIP保|j|≤J+191全输入输出/dualH4/3/mean；97..J−1与HL/LH/两mean仍完整finiteport。trace不授interval，phase须真共轭，不把P22移作SP.005cut。root读原S/N及完整合同，两peer核。SCI4dbc776b/worker9dcab916/manifest9e568840/flowcf8cbe33本次自然部署，17pins11862488B/5AST/16门设计。root全文/12current小pin、4历史tuple与唯一旧archive全核；只新S*/S2*/J/强费，RR原四列与同case sum×K0一次。97原两窗成败先完整保存，再按合同选共同J；所有HL/LH/mean保持。actual门待唯一新run，incoming/finiteSchur/全R0独立。
+[TN解析](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261及[完整实际两窗正规化](results/R133-supplement-actual-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)65432488：43752771157/1 child0/16、17pins/5AST，SCIc815e901/preGit541a4d03/67球root全核。原97两窗充分门均失败，实际同J=268435456给L2/H−4/3共同ordered逆约1.001672388/1.033996480。完整两gain R_N约1.712923777e9、F_S约3.747336834e9，后者全输入/输出≤J+191含mean；97..J−1/HL-LH保留，有限Schur未逆。RR原四列/同case总×K0一次约7.790848019e18，两完整旧对象原字同。真phase需ordered共轭、不得同moving Fourier投影；incoming/intervalflow/fullR0独立，旧成功禁重。
 
 ## 4. 实际帽图与完整core接口
 
@@ -88,13 +88,13 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 这些actual inner/mean/phase行仍须与负body、waist、两Γ、ν、flux及完整97/mean Schur同单位联立。真实HY、high inverse、完整core存在及γ低高域未同时闭合；局部帽图不授增广全逆。
 
-[CP完整加权实际帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2及[actual有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7：43741463694/1 child0/18+5prereq+两γ各3strict全过，exec6865e7e8/science77ed0069/预Git983fac65与50球已核锁。Hilbert K12.823617/χ.6596041；γ1e−9给κ.0019952502133、det.24612876846，γ1e−9/128给κ.00196507842537、det.25397668235。两域各三窗四独立列/两mean全保，νvolume非全ν；仅inner(B,Cmean)差，不授wholebody/high/实际入口。完整D0y=V TQ K*−H0K0、旧Hessian/全outer/mean/wR下端/同正算法资格/原F失败及全部字段逐字保3c74同open/原proof。首43740644806无science/数学进度未知原保，恢复成功禁重。actual affine/腰/high未付。
+[CP完整帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2及[实际有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7：43741463694/1 child0/18+5+两γ各3strict锁。fullγ1e−9/tailγ1e−9/128的κ.0019952502133/.00196507842537、det.24612876846/.25397668235；同域三窗四列/两mean，νvolume非全ν。只inner(B,Cmean)差，未授wholebody/high/actualγ。首失败43740644806、完整原球/参数/mean/Hessian/外端/wR/正算法资格逐字保9ffcbb70830ff3ff50869239263dc92991bc34f3同open第4节及proof；成功禁重。
 
 [AR一次积分与高度源](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58已解析核：Ef在真实A0凸球上L2-Lipschitz≤κ，NF的N∂+ΔB合成一次κ；准确chart保R_B、P⊥R_C及μ²/[m²(m+μ)]。固定sB两normalized height原球的完整97源<2^-60，不授实际f(γ)导数；RW四字段给完整非零affine。same-state真实入口仍待，不能从C0免费composition。
 
-[CH真实H1角图及完整边界余项](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md)1e443100已解析核：r=||h2||H1≤2^-10、s=||h1||H1、e=||h2||2给RC≤re、RB≤rs+2re，mean准确μ²/[m²(m+μ)]。CH6两态H1 norm-sum球ρ≤2^-10给||RΨ(h)−RΨ(k)||L2sum≤16ρ||h−k||H1sum；未知只一阶真角导，不授粗composition全图C2。CPA同域且fixedheight时完整97边界E≤cCapκ||h||L2pair+7rs+114re≤线性项+128||h||H1pair²；差分另付2^11ρ||h−k||H1sum，κ只一次。两个真实γ需同A0凸球，未知cutH1/γ入口、affine/实际height选择导数/腰/high均独立未付；不同pair范数不可同半径偷换。
+[CH完整真实H1角图](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md)1e443100：同H1 norm-sum球ρ≤2^-10的RΨ差≤16ρ||Δh||H1sum；同CPA且fixedheight的完整97非线性值费128||hcut||H1pair²、差费2^11ρ||Δhcut||H1sum。κ一次、exactmean μ²/[m²(m+μ)]保；不同pair norm不能共用半径，未知cutH1/γA0凸域、affine/height导数/腰/high仍独立。原分量式/范数/条件全保9ffcbb70830ff3ff50869239263dc92991bc34f3同open和proof。
 
-[SR统一割线帽行与五输入接收](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md)43da1e99已解析核：D/F product contraction只用完整右行norm，故同CPA case对所有||K||≤κ统一；实际K_hk沿physicalγ凸段固定fk积分，height在γh另比。把割线放97左侧后，highcut线性费已在cY，右侧不再重复cCapκ。SR19–21给同态五输入值/差：chart128||hcut||H1pair²或2^11ρ||Δhcut||H1sum、非零affine、height7/25、独立highbody/highcut/原96腰均保；第五列必须用新CPA gY乘NF ell0。原exact mean/scalar输出不投影掉，fixedheight不同于tail选择导数；actualγ/H1/wholecore域/五输入小量/高逆仍待，仅后验不构造fixedpoint。
+[SR统一割线与五输入](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md)43da1e99：同CPA case对所有完整||K||≤κ统一；真实γ凸段fixed fk积分，height在γh另比。割线置97左侧，highcut已在cY不二乘κ。SR19–21五输入ordinary/right97/highbody/highcut/原96腰全保，非零affine、height7/25、exactmean/scalar不投影；第五列按WL。值/差的完整units与γ/H1/wholecore/actualheight/五输入小量义务保9ffcbb70830ff3ff50869239263dc92991bc34f3同open和proof。仍只是后验，非fixedpoint。
 
 [SA完整有符号仿射接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba全式/原域逐字保7356f791171c35f974b3b71a669010136b3d858c同open/H与proof。D0 value Hessian准确相消只用原formalGram，full97保outer/mean/jump/selected Sδ左缺陷；SA24实际bδ关联和SA22所有fee不删。SA29–31 known端−<zL,ΔWδL>、误差eLδ(yL−ΔLδ)准确，ELδ/Yδ可用YL+||ΔLδ||，body/outer仍原y；不作global recenter，旧QR/7908 residual成功禁重。
 
