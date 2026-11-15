@@ -90,3 +90,5 @@
 - **原N/Y首二进位的完整物理Schur与真实top。** [自足证明](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)从d0、κ0=e^-1070出发统一||T||<13/20；kerA=Jker(K−T²)、核Gram[I,569/400]，W=JG^-1kerV*。整个V_Q保两分量真实top，left费用比较常数(33/20)²，head/bare旗及零源核全运输；完整Green仍约束P*z=r并对kerP*极小化，未把此改写当普通封口。
 
 - **原二横投影556、同选常数秩4318与三十六维第一提升。** [完整证明](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)：run43679903558数学2.801993869秒，954原源/17386项全乘回、29左核自由块单位；I删3行仍rank556。full/square Q/F31rank都4318、核相同36维；原单位子块给完整31整规范Q图存在和p768同余，显式仍29。全部36第一提升付50/49/48及K70条件费8695；参数leading31单位和原目标成员性仍开。
+
+- **完整无穷远第二连接纯消去与公共31阶。** [自足证明](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)：run43679903558实核0.251053230秒，38×10纯包络零、1700原校正全真；全部20纯泛函有真实左二阶jet，配原完整(v0,v1)给β2≤3。十四正Smith有4个=1、至多3个=2、至少7个≥3，故δ4354≥31、δ4353≥28。只付下界，不预称精确秩/leading单位；有限K70合并公共齐次下因子度至少101。
