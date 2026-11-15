@@ -155,3 +155,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 [四原对角的完整有理分部边界](notes/2026-11-15-original-four-diagonals-rational-telescoping-boundary.md)：在F=C(E)(Z), DZ=1中，两周期Legendre关系排−x的有理primitive，域迹排全部有限代数primitive；因而F[ζ]无有限Darboux除子，任意ζ有理分母和最高次项均排除(D+2nζ+2ny/x)V=f∈F非零。四原tPν与Z^(−p−2)、完整角换元都保；仅排特征零同charge有理分部，不能删原伴随第二项，不排p依赖Frobenius或证明指定α非零。
+
+
+[原Katz同源三方向与有限矩](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：在R40原E17全规范中，真实二次齐次项=A(X²+Y²)+BXY，cyclotomic/anticyclotomic二次项之和准确为同轴四倍；分支各自的真实中心周期/单位须先运输。有限矩M20/M11/M02给原模p³关系及Banwait齐次三矩替换；全Sha无限时双变量四阶零另直接给全部原矩p⁴整除。没有新增第三个自由二次条件，不给任何跨p非零，也不外推j0来源。
