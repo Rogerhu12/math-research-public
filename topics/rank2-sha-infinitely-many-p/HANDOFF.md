@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：b92dc639cfb725ca0e4a77e402841afcf6719c67；2026-11-15 19:07:33 UTC核两README无变。实际CI pull 2026-11-15 18:46:29 UTC/4d7cd7063f05f5efbef6080f7ff04facdc9ee185（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:53:25 UTC仍无环境。最迟2026-11-15 19:40 UTC再实际pull。
+- 最近已读规则提交：4ced29a58909b7096b7b8b9001b1fb8df75ded9d；2026-11-15 19:08:44 UTC核两README无变。实际CI pull 2026-11-15 18:46:29 UTC/4d7cd7063f05f5efbef6080f7ff04facdc9ee185（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:53:25 UTC仍无环境。最迟2026-11-15 19:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -13,11 +13,11 @@
 ## 完整归档、当前状态与分工
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-r812-publication.md)沿归档链保全部常数、来源、十九角、ray、坏集、run/hash和未闭门；压缩不撤任何限制。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–812已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+R1–363、365–560、562–653、655–711、713–812、814已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
 root唯一metadata/ref写者；root原十九角全锥/S铅笔与变动b，deep原同R完整normal/指定配对，theta原固定来源全flag与中央关系，literature固定共同good pair/原特殊化非零。完整证明一成即单独推，随后继续未闭门。
 
 实际pull18:46:29成功，run43748628032/job132917394424，两README差异空且blob吻合；回执ci/rule-pull-20261115T184629.json，最迟19:40再pull。
-R812 run43749289064/job132919420622成功，producer/source/args/hash见原证，全文已登记；R814共同good pair/AJ平方完整稿已收到待逐条登记；R813仍研究原同R全法向。root全锥推导未登记，先核与R680差异。不把正在写的工作视为已证。
+R812 run43749289064/job132919420622成功，producer/source/args/hash见原证，全文已登记；R814固定共同good pair/AJ平方已登记；R813仍研究原同R全法向。root全锥推导未登记，先核与R680差异。不把正在写的工作视为已证。
 
 ## 普通：原同源负二及真实全局门
 
@@ -30,6 +30,7 @@ R798/R801原型五只有两arith、primitive3全杀，型四rank3/charX³+ω。�
 R806完成原型四order18三角色、34δ全Schwartz、全权平方及负二Katz身份：权差3、古典权4root−、同CM型Katz乘子+1；不可换CM型强赋零。R804从同34δ/Kato全ray、η幂等元和30平滑构造三个global z_j∈全Hf，共同Artin√17，loc_bar=0，
 log_j(loc_p z_j)=−34²c_jθ9Ωp4 Elog I_j,-2²，Elog∈p²O×。
 R811已对这三个指定类付z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0：真实τ/Γ反演、增广完成环两Coleman同构、good pair A(0)非零和全局rank1给τc_j=unit·B·Z_j。不认一般Selmer局部化单射；三个特殊化本身非零及原线性和仍未付。
+R814共同ψ/g由7处起始角色、单侧13塔和Finis估值19一次选定，三个χ比ε/ε²，全部导子和cycles先于p固定。AJ²=−34⁴c_jθ9Ωp4 Elog I²/(deRham基比·全局unit·EIw·EBDP)，vEBDP=−2、EIw∈1+pO、vElog=2；不由可能零的值取比，不赋这些单位代数性，不代原三项线性和。
 
 R807 G2不在未投影∇像或两arith投影像（1009余行54/724）；primitive3上PB4∇可逆，唯一5×3预像P−，G2=17ω/(1−ω²)Σ[y/(x−e)]U_eP−。全半周期交换子逐项全纯有X+b；实际degree1×33卷积(v−33c)/(c+v)²/和变量unit不能由旧负一替代。
 R809三CM13比全满秩：detJ0=detJ1=64736/33、detJ2=−8092/33、detJ=72828/11；交换缺陷−72828ωδ/11，均原格unit。每旧线进三新线，全角色比χ17、χ17⁵、χ17³，同q九项/同负二/全W保。

@@ -390,4 +390,6 @@
 
 - 2026-11-15 18:53:20 UTC：提交R812同charge的S(2z)/64、U及差的自含exact producer，仅重建duplication/固定多项式与全角因子，不做素数扫描。中央传播和全预算继续符号推导，结果待公开Actions，不预认carry或主斜率改善。
 
-- 2026-11-15 19:09 UTC：R812完整成稿即推：公开43749289064的倍点/全固定因子通过，原同charge换基保全部carry与ordered成本，独立SB格体积/全预算已付；H先全文归档压缩。继续原指定forcing、变动b及固定共同Heegner来源，不以起阶变化认主项改善。
+- 2026-11-15 19:07:33 UTC：R812完整成稿即推：公开43749289064的倍点/全固定因子通过，原同charge换基保全部carry与ordered成本，独立SB格体积/全预算已付；H先全文归档压缩。继续原指定forcing、变动b及固定共同Heegner来源，不以起阶变化认主项改善。
+
+- 2026-11-15 19:08:42 UTC：R814共同固定good pair及三份原AJ平方成稿即推；亲核Finis Thm1.1(1)和Castella v3的S1–S4、BDP/Iwasawa两Euler，保全部周期/30/真实基比。R811加后继链接；继续指定AJ或canonical特殊化非零及原线性和，未把固定cycle当非零。

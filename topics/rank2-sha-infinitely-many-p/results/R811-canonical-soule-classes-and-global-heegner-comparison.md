@@ -1,4 +1,5 @@
 # R811 — 原三个 canonical Soulé 类的严格核交为零与同一 Heegner 全局比较
+> 后继：[R814](R814-common-fixed-good-pair-and-three-original-aj-squares.md) 已将三个原角色的 good pair 选为同一个、先于目标 p 固定的 ψ/g，并给出包含两种 Euler 与实际 de Rham 基比的原 AJ 平方。指定特殊化非零仍未解决。
 
 日期：2026-11-15。**状态：已证明。** 对 R804 原来定义的三个指定全局类，局部化为零必迫该类本身为零。因此它们不能以非零类落入原严格 Selmer 核。本篇不证明这三个类本身非零，不证明整个 Selmer 群的局部化单射，也不改变原二阶行的线性组合及其全部外部。
 

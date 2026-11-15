@@ -27,3 +27,5 @@
 - [R811](../results/R811-canonical-soule-classes-and-global-heegner-comparison.md)：已对R804原三个canonical Soulé类证明z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0。真实τ/Γ反演、原34δ/平滑30、两个有限余核Coleman图、增广完成和good pair非零伴随因子给全局恒等式τc_j=unit·B·Z_j，故指定类不能非零落严格核。未认整个Selmer局部化单射、未付任一特殊化本身非零，也未把三平方根线性和换成全局点对数。
 
 - [R812](../results/R812-original-same-charge-cancellation-and-complete-source-budget.md)：R812原同charge抵消A=S(2z)/64、B=U136−A完整付K17/全角及B首1890w²；Newton/Gaussian含q_p(2)与原两中央准确运输，新(S,B)格覆盖度17、canonical成员恰i≥4j、体积D²/10。原含A的扩充格换基保每前缀/全精度/13carry，纯起阶收益O(D³logD)不足主项，严格门仍aI+2bI<3；继续实际全flag或指定forcing，不赋乘积中央零。
+
+- [R814](../results/R814-common-fixed-good-pair-and-three-original-aj-squares.md)：R814已用固定7处起始角色、同单侧13塔和Finis估值19的有限并例外，给三个原λ_j同时选定一份ψ/g及χ_j（比值ε、ε²），先于目标p固定全部导子、S1–S4和三份cycle。原AJ平方准确保34⁴、30平滑、Elog/EIw/EBDP及真实非零de Rham基比/全局单位；I_j≠0 iff AJ_j≠0 iff z_j≠0，但未给任一指定值非零或原三值线性行。
