@@ -484,3 +484,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 144原binarycut全叶两jet实际入口
 
 [144接口](notes/2026-11-15-request144-original-binary-cut-twojet-interface.md)17958B/8aaee639与四运行件全文读，10原源/3证明SHA核同；同f12f/256bit/1800s/全部1440六primitive，query4e59c69f原binarycut点先、whole后，新1c39b242全点叶准确并包三jet。requestdcd4a892/wf209794c4保原45/65min与2700s真pull，两个独立≤90KB摘要/末ownedcleanup，无导数宽门、无raw归档/本地science，直接本库Actions。终端仍不可用依根8小文本快进；旧新g三源原字恢复仍v2、后继显式v3。
+
+## 2026-11-15 /root — 146固定两法向直接响应完整入口
+
+[146接口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)19350B/332e3ecb及七运行件全文读，原93+5 pins逐个保留、新96+6；真142末p/radius一个8方向批，每normal保fresh3×9及JP，另直接形成两P完整3×2，末两行接原2×2QR，原实数12×20/20外档/完整merit与全部final门不变。完整probe/normal分段与ownedcleanup保持，不冒内部精度或同初点对照；根8小文本快进/API核双README不冒pull，直接本库Actions。144实际43715729122在跑；145完整当前全系统R273紧接。

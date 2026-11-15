@@ -116,6 +116,9 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [144独立cut两jet完整入口](notes/2026-11-15-request144-original-binary-cut-twojet-interface.md)已全文审读后发布：原f12f/256bit/1800s/所有1440片/六primitive/全部根族保持，原config binary0.3点query先、原whole-natural第二。新reader1c39b242从同job全点叶准确dyadic端点并包E/Er/Err、全宽及全流SHA，合法粗界保留，原E工作宽度不冒导数宽度门；query4e59c69f/requestdcd4a892/wf209794c4。两个各≤90KB摘要分别完整读回，工程/partial/数值责任分开，原ownedraw末always清，无预填run成功；旧v2新g源已找回但必须独立v3适配。
 
+
+[146原两法向直接响应入口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)八件全文/旧93+5 pins核同后立即本库执行：真142末九p与radius1.9073486328125e−7，一个原8方向批。每normal保fresh完整3×9 J/旧JP诊断，沿同固定两P原complex evaluate形成3×2，仅末两行替换原2×2QR；原12×20/20外档/完整3 Armijo/半径/FD/Arb/453圆/112/final责任逐字保持。helper485e5fd8/producerc717bafb/request80f2fa09/wf8e01c9d2，新96+6 pins；全probe/失败/改选来源完整分段读回，不把direct当精度证书，不冒142同初点对照，不增验收门或raw归档。新实际run按本次source追踪。
+
 ## 5. 存储和原件维护
 
 104普通删除8184件已知可重算数据后课题168796207B，未知JSON未全分类，不声称全存储责任完成；不重存旧raw。新文件仅完整源码/参数/紧凑结论，H<10000B、各MD<100KB。旧results索引97869B原文同目录移到results-index-through-actual120.md，保全部相对链接。源码、模型接口和已出版证明不设额外review/fixture审批；真实科学一完成就读原输出、写结论并继续open。
