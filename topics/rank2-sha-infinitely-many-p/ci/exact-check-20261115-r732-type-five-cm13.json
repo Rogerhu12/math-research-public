@@ -1,0 +1,22 @@
+{
+  "request_id": "rank2-20261115-r732-exact-type5-cm13",
+  "run_id": 43701604983,
+  "source_commit": "1d65f51bbecf16d17c2ef4790e5c1c50a20bf282",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r732-original-type-five-cm13.py",
+      "script_sha256": "d1b3c2f851e9ec6b6d6b6655141e36b4bb1108a30e57ff8365b5f583d880e469",
+      "args": [
+        "--workers=4"
+      ],
+      "engine": "python3",
+      "sha256": "f1ad231f2deb21fdb39fa4e88ab40c2d8cecc489c033557e9b956307caeb99a5",
+      "stdout_bytes": 1676,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": "0.9.0",
+  "job_id": 132773743300,
+  "interpretation": "原整个五维type5算子的Q(omega)全纤维运算；实际两mu6线和余T³+omega均保，尚非有限角色或负一单位矩的识别。"
+}

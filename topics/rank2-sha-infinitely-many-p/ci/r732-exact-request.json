@@ -1,12 +1,13 @@
 {
-  "request_id": "rank2-20261115-r732-exact-type5-cm13",
+  "request_id": "rank2-20261115-r732-exact-rank1",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r732-original-type-five-cm13.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r732-two-cubic-rank-one-bounds.py",
       "args": [
-        "--workers=4"
+        "--cutoff=512",
+        "--series-terms=144"
       ],
       "include_stdout": true
     }
