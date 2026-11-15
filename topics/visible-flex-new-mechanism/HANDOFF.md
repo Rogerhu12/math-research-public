@@ -8,7 +8,7 @@
 
 私有2026-11-15 05:46 UTC实际pull至`1f39ed6ed86946ee3c2a4ebd9848dc2d7ffb8c33`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。04:51共享盘满且旧.git目标tmpfs清空；05:40终端恢复后保留旧工作文件，`/dev/shm/visible-recovered-9974ea84/{public,private}`为当前partial/sparse clones，05:46起真实pull/git push；仅此前环境不可用时用根8小文本例外。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。当前partial/sparse clones在`/dev/shm/visible-recovered-9974ea84/{public,private}`；旧磁盘满/丢失.git仍保工作文件。05:46起恢复真实终端pull/push，先前根8例外已结束。
 
 ## 2. 完成门
 
@@ -34,7 +34,7 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 **R201 actual43683171512/source8c1ab4b已完整**：πU0=πR0、dim3，核16/13。πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96；相应H纯0但λH1，排任何仅pure的λ读出。H是span非实际字，完整λ仍正；全原关系/metadata见R201。
 
-**R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。故分离只余**−6/−4**，不是全U−8零。闭锥全与实际有限支付的额外构造另付；全λ+仍严格正但不下降pure。
+**R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。故分离只余**−6/−4**，不是全U−8零。满闭锥到真实有限支付的额外构造现由R206付；是否满锥仍欠。全λ+仍严格正但不下降pure。
 
 **R204 actual43684612905/sourcedf8522fc已完整**：21存量列的十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31。17新人工过，无原根/NF/旧52联合重算；全部关系及metadata见R204，未打印elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像；真实同时支付现见R205。
 
@@ -44,13 +44,15 @@ R180/R183给真实闭Klein M0/TκH及重叠导数包三阶圆。R184完整iff：
 
 R187只排充分窄常态类；R193 actual43680023529/source9b7c07f的4×4有理正槽排标准(0,1,0)原八包全部宽度，不延一般状态。R189正则8+1参数/end jets/Baire去全部开常段并保低阶约束，复制有限词/Klein按新位移重闭；只保三阶，未付fourth。旧growth观察失败不以恢复结果冒填。
 
-R191：f/g共同常值平台w给canonical Bθw0、一般incoming modW零；全ξ右尾/s历史保留，平方项仍只三矩。R195：f常/g变且三g矩0时Bθw=−2sin²θ D_w S_s(g)，像≤42，标准段Euler与三矩adjoint不相容给真实非零ruling商线；只动σ一次。R197以M/T0的B·B^rev回路、rank3矩列及非零四点子式迁到无常段；先选最终新几何再固定gε/圆/w，未付原目标成员。
+R191/R195/R197：共同常值平台w的ruling商全不可见；f常/g变且三g矩0时Bθw=−2sin²θ D_wS_s(g)，像≤42，Euler与adjoint给真实非零线，仅动σ一次。真实BB^rev回路/rank3矩/四点子式可迁无常段但改变几何；最终再固定gε，未付原joint目标成员。
 
 R198：f在整个右锚[b,r]为0，则L_f(w)=0对任意全I合法w；第三齐次不动period。原Vθ=sin⁴θ P_B(g)，纯−4/−2/0为P/16,−P/4,3P/8。R183最右153λ后只剩a7=−1的下降step；左包不入ξ右因果，全s历史仍保留。R201排λ+的一切pure读出，不能换profile找它。
 
 **R200/R199已证**：真实τ0桥纯响应H对标准末step非零；真实双字/hook/Klein保未知基准给8N(Γ+ℓtH)+C，有限控制/IVT能支付一个查询。R199以R96 faithful q*小扰单调step，重补三复矩、EId共同缩放、八包差分和最终仿射，得到全pure忠实新圆；其最右period恒0 iff πV_B=0。M0/T可非零的成本以BB^rev的2V入U，正半倍非实际逆元。原冻结step未授忠实，λ+不可pure读。
 
 **R205已证**：选12个实际原响应生成器付P0⊕P−2，再用只有−6/−4的真实H作第13方向；最终c>1坐标先保H非零，再在同坐标平滑/faithful/左补矩。三角查询矩阵rank13，R102保全部第三环/连接基准、有限小族复制和最后大整数Brouwer，准确支付两个完整pure块与一个右step值。插M/T0控制后Klein恰4倍（不同R200另含反向双字8倍），真实闭hook仍M0/TκH/同一圆完整三阶。其他pure权/整period/joint仍欠，设计可改g，不能当同g运动。
+
+**R206已证（条件等价）**：Cp=P iff 实际pure半群S=P，未宣Cp满。R201令Q=P/πR的D无零权；满锥取有限实际正配平，真实H缩放环＋M0桥/真倒行保2V桥基准，floor整数与C1收缩给紧商目标统一连续截面。先清各第三prototype的Q成本，再连续清E(t)的Q，最后有限n/Brouwer付响应分量，全部未知基准保留、选择顺序无循环。若−6/−4正字符全排，即可构造闭hook整pure零（Klein4倍）；mixed/ruling/高阶/嵌入/reach仍欠。
 
 ## 6. 保留边界与当前交付
 
