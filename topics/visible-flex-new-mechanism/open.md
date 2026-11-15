@@ -150,7 +150,7 @@ R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩ta
 
 [R363](results/R363-actual-two-sided-total-flux-control-with-zero-lower-history-and-spatial-closure.md)现对固定真实u的这一自然Λ付实际有限标量满射：受控ω域S_B=(1,B,B)，ψ偶/δ速度σψ′、τ=ε³ᐟ²，M=O√ε而H通量ε⁻³ᐟ²(cσ+O_C1ε)，所有Abar在真实状态Λ0。R70/R354固定光滑端口/frame/M桥成本有界；总M0后才用R109，再真倒行准确清第三，第四为同号2倍。一个有限ε上σ单调给Λ(S)=R与紧目标光滑实际截面，固定桥/Klein八词另付空间闭合，原基准与物理域全保。**只一个标量；其它wholeE/pure/self/通量会变，未付联合控制或全部period。**
 
-[R362](results/R362-full-H2-C2-remainder-and-nonzero-weight-minus-six-pure-kernel-flux.md)已给完整H2：唯一三导平方为(1/1920)∫xQ²r(ur−v²/2)t²，ℒ与BL Kγδ−2AL Kδδ的两个j及所有outer线性t真降C²。真−6分量在固定正窗口有限高频非零；仅引用R207已付三pure基坐标减Rπ，得W6⁰∈U−6∩kerπ且Ω=Λ非零，准确关闭R338。−4/−2为同一原式推论，未称wholeQ/单路径。机制线R365续完整H的双状态affine轨道归约。静态/速度二四次的N0/N2仍留；当前弱圆所有真实平台、逐活动flux、两period成员及同规范13行仍欠。更高阶与最终嵌入/reach/幅度继续。
+[R362](results/R362-full-H2-C2-remainder-and-nonzero-weight-minus-six-pure-kernel-flux.md)已给完整H2：唯一三导平方为(1/1920)∫xQ²r(ur−v²/2)t²，ℒ与BL Kγδ−2AL Kδδ的两个j及所有outer线性t真降C²。真−6分量在固定正窗口有限高频非零；仅引用R207已付三pure基坐标减Rπ，得W6⁰∈U−6∩kerπ且Ω=Λ非零，准确关闭R338。−4/−2为同一原式推论，未称wholeQ/单路径。[R365](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)已完成H全状态：全部Dγ/Dδ C³²主式及同锚C²/真尾明确，正affine三矩与H²Λ协变给ΛH2=hDδ(uS)/15、ΛH1=−2(Dγ+kDδ)(uS)/15。两个轨道不是二维秩/全U；N0/N2剩余Q2/Q4交R367，root R366推进有限自然Λ读出的实际向量控制。静态/速度二四次的N0/N2仍留；当前弱圆所有真实平台、逐活动flux、两period成员及同规范13行仍欠。更高阶与最终嵌入/reach/幅度继续。
 
 
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period

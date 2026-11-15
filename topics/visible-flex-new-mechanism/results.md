@@ -454,3 +454,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 扩池小SOC保径首次实际：真实改进，新增分支未触发
 
 [完整实际](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)，17133B/SHA256 cf81b61e54fa45906fea2391a81336f8ec3c3aaa02819070d1131b71523e781a。公开run43753280651/job132931742484/source52a48854：4组26新check全过、旧执行0，7models/8trial/12primary LP/0SOC，η降至.26632415509189855，fineκ57.999989993517644。m6原growth提B.00025，m7全步fineκ58.000002383失败且共享LP耗尽，随后half接受/B回.000125。新策略qualified/后继使用均0，下降不可归因它。末池4419/4277、bank22、18共享值+2末验、active54.926908441s、总300.339942435s；原硬门/旧metric/盒过，.26与连续/README主门仍欠。报告保全部source/run/原log/model hashes、微负cap浮点余量与费用scope。后继明确转原预算内primary/SOC机会分配，不重复阶段等触发。
+
+## R365：完整H层的双仿射轨道和两个同锚全公式
+
+[完整证明](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)，14015B/SHA256 1dd8ad78aa91591b1802a545d32458520aae9d243fe5d53bc0692e19643390ae。从R358全速度一形式恢复Dγ，连同R362 Dδ逐项给所有jA/jB/左矩尾和C²余项，保YC/ZZ/history/两个ordered-tail原因子。原R89完整曲面/全场协变及三真实矩三角输运给Λ_u(PHcV)=H²Λ_Cu(V)；在(h,d)中常数线性速度/加速度输运不增H，原N2只影响velocity4。全H表达式不依赖独立k。任意S与uS(ξ)=u((ξ−d)/h)准确满足ΛH2=hDδ(uS)/15、ΛH1=−2[Dγ(uS)+kDδ(uS)]/15。两个affine轨道不称二维或全U，不授任意有限路径/几何免费变换。root完整核curl系数、真尾、原R89和反变换尺度；下一原N0/N2的Q2/Q4。
