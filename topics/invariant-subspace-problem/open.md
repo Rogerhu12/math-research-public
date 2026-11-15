@@ -118,9 +118,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [解析双Dlin与E8局部来源](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已由原物理三层行恒等、单位行列变换和有限coker满射付δS≥2v(Dlin)。E8全部八根得δP≥4/δA≤5/T≤1，E8W及原h0九目标局部条件关闭；低jet加4exact纯核到完整P的身份保留。真八次数域Schur已在14.265291455秒准确得到低谱2,2/长4；全P/full仍只在4…5，该low不再增加阶数。整个非线性模块的未知异常支持尚未关闭，不能只用Dlin46代替。
 
 
-同选完整前三连接3/9/3，真第三17头/296072产品，完整β4∈[3,5]。旧run43702348535已结束，18 RHS末1692完整digits/49069bits/19次重建仍未成；后排O/独立重建/final没有执行，临时数组不可再用，精确参数/SHA保H。新的full∞独立run43731615668只恢复6必要旧输入，首次在真实3333预基主块检查失败，已查明自然A0保有旧F/B未消的降次数尾；v2已按真实单位三角与完整伴随回代修正入队，首次失败记录保留。之后仍须付全14正指数与13形式自由方向，不搬仿射谱。
+同选完整前三连接3/9/3，真第三17头/296072产品，完整β4∈[3,5]。旧run43702348535已结束，18 RHS末1692完整digits/49069bits/19次重建仍未成；后排O/独立重建/final没有执行，临时数组不可再用，精确参数/SHA保H。新的full∞独立run43731615668只恢复6必要旧输入，首次在真实3333预基主块检查失败，已查明自然A0保有旧F/B未消的降次数尾；[v2已实际成功](results/R150-appendix-full-original-infinity-mod31-length66-and-output-projection-gap28.md)，全14正指数为1⁴,3,4³,5,6,7,8,10,11，长66/次大55/最大11，完整13形式自由方向及80444常产品通过。真Q仅43…66/次大39…55、最大≤27；首次失败和全部原校验保留，不搬仿射谱。
 
-[Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)O1834×1632/常rank1603/29正指数，Fp31最大≤21/总长≤243。四输入最小重建已实际完成：Fp31谱1²,2^10,3³,4³,5,6,8²,9,10²,11,12,13,14，总149/max14，全部原来源与完整残量真。原full∞Q已付43/39；真Q仅σ≤149，须付真实Q下界才组合改D，有限域结果不直接变Q等号。
+[Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)O1834×1632/常rank1603/29正指数，Fp31最大≤21/总长≤243。四输入最小重建已实际完成：Fp31谱1²,2^10,3³,4³,5,6,8²,9,10²,11,12,13,14，总149/max14，全部原来源与完整残量真。[正式O谱](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)给真Q仅29≤σ≤149。合fullQ≤66，原两项和≤215<243，因此只算准这两块也不能闭leading单位。精确恒等vdetB=δfull+λ_I+σ+δ_high保输出投影和202自由商；模31 λ_I+δ_high=28，正准备同原I^c的13×13 G_I消费者来定位余量。
 
 ### 原同w边界：从固定测试的真实行量继续
 
@@ -134,3 +134,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 原T局部读数、G_reg同一Neumann forcing与carry预算、原正常有限秩相容链、Haar普通循环性以及上文/归档所有未闭接口继续，完成标准不变。
 
 [整条真实正交jet旗](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)支付全部n/r/i交换行平方和≤49||f||²/x，无Q/h/log损失；核心[D,H_i]与D对易，使真旗只升一级、完整酉输运范数≤2。仍须控制顺次MP的非正交返回混合及全部窗口端点。
+
+原9×9 Ay^-1RY在s=4,3,5的同物理pencil探针已排；它仅检验正常消元的普适幂零猜想，点值零不外推全参数，非零也不否原h0目标。s=2与未知异常支持继续。
