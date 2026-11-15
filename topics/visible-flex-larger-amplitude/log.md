@@ -377,3 +377,6 @@ actual74 reader43660861684/source178a1031已success，完整byte范围另据小�
 
 2026-11-15 01:33:51 UTC — /root GPT-6 Astra Pro: 保存76完整byte附记689a88eb/receipt867d5b38；root完整读附记并再核小包summary73019aa8/fullaudit5d6c7362/五原报告及manifest332978b3。
 215domain/1396NPY、108condensed/38完整数组、14raw415120992B、71源(原62同SHA子集)/17primary关系闭合，11col/8mid载荷；原全链QR因子未导出范围保持，不重科学或加gate。79继续，80与81独立源/请求在准备。
+
+2026-11-15 01:38:11 UTC — /root GPT-6 Astra Pro: 发布80独立正阻尼3参数搜索源1691c7d9/算法接口b01de798、workflow723872f5/request5ba4e95c；root完整读新源/接口/全部工作流请求diff，核69源SHA/AST、7shell/4inlineAST、真78父原字节。
+工作流接口仅静态回执名改唯一2026-11-15-request80-static-check.json，新SHAe70e9e0b5454ce8a162f9970eba9353df4916075c5ddad45a098e0164b2e83bd；实际η1/8轮/20档与原未加权merit/Armijo/FD/Arb/circle保留，新status身份明确。73官方artifact/joblifecycle已核，原终行3snapshots/3directions/nativefalse而norm未知；publisherH冲突单独记录，准备同包reader+R276及出版恢复。

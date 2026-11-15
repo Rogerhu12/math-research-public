@@ -111,3 +111,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **R277高核两端工具已证明：** [完整恒等式及消元证明](results/R277-complete-two-end-chain-determinant-and-high-core-elimination.md)直接入results/index。全部节点2×2链以伴随矩阵积给完整两端行列式，覆盖某些右块奇异的情形；高109必须逐个排零，现有零高残差并非排除齐次高解。所有右块可逆时再给原单位入口Schur，浮点有限系数/Arb声明实模型/真正尾导数不混用。独立全112/699消费者在准备；不等待它才继续80低三搜索，也不预称共振或非零BVP。
 
 **76完整字节附记已完成：** [原导出范围](notes/2026-11-15-actual76-completed-byte-reader-addendum.md)/[回执](notes/actual76-completed-reader-addendum.json)：reader43662815323/source4fcb0ab0真success，215domain/1396NPY、108condensed/38完整数组、14raw415120992B、71源；17primary关系与62源子集核同。五原报告、此前四公开报告及新warm均对应，11collocation/8mid载荷保全。全链QR因子仍原未导出；不重科学/不重下640MB，不改变79同24推进。
+
+**80独立阻尼请求已发布：** [算法接口](notes/2026-11-15-small-core-damped-search-interface.md)/[实际接线](notes/2026-11-15-request80-workflow-interface.md)，source1691c7d9、workflow723872f5、request5ba4e95c。真78完整status09031496的final p、显式η=1、8轮/20档，69源/四原输入/runtime及原科学门保留；完整新方向/FD/Arb/零core圆另存damped-search-status，成功不预言。
+
+**73终态更新：** 原run43657001633 step12 exit2，原log只给native_accepted=false/snapshots3/directions3/residual=null；不得将null当norm或猜失败原因。完整1752742419B artifact14141540502/ZIP3430597b已保全，publisher另因NFF后HANDOFF规则记录冲突失败。正在同包Actions导出原result/trace/trials、完整byte及独立R276精确affine曲线；仅恢复出版，不重跑73科学。
