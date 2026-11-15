@@ -81,3 +81,7 @@ run43687907457/source7308ea/job132732158878在首快照前退出；旧driver从H
 ## 2026-11-15 完整活动六jet与mixed责任入口
 
 发布source675ab8df/dbdedb45及[完整接口](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)。准确全场表达自身求六jet与单位法向球，完整活动×两帽rank，不用worst子集；原family已核，共同cuff局部责任明确未付。只源码/证明与元数据核，无科学执行或替代场，不改旧static/R24/求解门。
+
+## 2026-11-15 发布113历史输入最小修复
+
+[完整接线](notes/2026-11-15-native113-frozen-input-restoration-interface.md)：原两ready从公开8bd26710准确blob恢复到runner临时目录，经原client既有env槽消费，原三科学源/28pin/全部数值预算不变。request13124B/ce294b5e、workflow17706B/db8a479b；只读父包owned目录补owner权限供终清理，不改数据。新run待读，首跑失败不作数值结论。

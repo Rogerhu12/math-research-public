@@ -30,13 +30,13 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 107raw已删，110从actual98 artifact14147700690重建新支线；未读回110完成批。107同31原1/8接受/新FD通过，最近1/4仅已选LEFT464 RMS失败，仍非BVP/native，详见[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)。
 
-### 113：完整原始残差binary128（首跑输入故障，正在修复）
+### 113：完整原始残差binary128（历史输入修复已发布）
 
-103原邻词无改善、同freshJ完整R273成功后十档仍全拒，无finalJ/audit；完整原数值见[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)，不称普遍精度底线。
+103相邻词无改善，同freshJ完整R273后十档仍全拒，无finalJ/audit；见[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)，不是普遍精度底线。
 
-[113完整接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)已发布：CPP1b59cd10/bridge3655c81a/probeba3564ca/requeste6703c76/workflowf94c9a85；28源pin及actual91临时输入保持。root逐式读原root/split/RK/cellFlow/evaluate、完整新源/预算链。真实__float128113位覆盖e=L−target、226态RK、节点+αdelta及129248残差；原w/w2/E/角表/sigma精确提升，导出原noJ k/steps+cusp实际子步数/hash，不冒与withJ n*h逐位相同或精确连续ODE。
+[113完整接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)：CPP1b59cd10/bridge3655c81a/probeba3564ca及28源pin不变。真实__float128113位覆盖e=L−target、226态RK、节点+αdelta及129248残差；原geometry/角表/scales精确提升。原noJ k/steps+cusp子步，不冒withJ n*h逐位相同或连续ODE。两root配置原8e−14/5e−12与1e−28/5e−27，先两base再十α；7200s只独立child，导出/额外64base/初J/R273另计，step320min/job350。partial/error后回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留；旧64J不是一致128J，无新接受锚。
 
-两个root配置原8e−14/5e−12和1e−28/5e−27交错：先两base，再原十α。7200s仅独立128child，导出/额外64base/初J/R273另计，step320min/job350；partial/error后仍回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留。旧64J不冒一致128J；无新128接受或live锚。科学只公开Actions，raw临时。首跑run43687907457/job132732158878在首快照前因旧driver git show HEAD读取已删历史JSON退出；无J/方向/128残差。CPP编译成功，summary942b3c55；[实际故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。正接公开历史原件临时恢复，非数学失败。
+首跑run43687907457/source7308ea/job132732158878在首快照前从HEAD取已清理JSON失败，无J/方向/128残差；CPP编译成功，summary942b3c55，见[实际故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。[工程修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已发布 requestce294b5e/workflowdb8a479b：8bd26710原两ready只临时恢复到原client两env，ledger109004B/563a9997、stored29774B/c1c44f23，三科学源不变；owned只读父目录修权限清理。第二run待读。
 
 ### 114已完成，115扩独立控制（exact_refinement准备）
 

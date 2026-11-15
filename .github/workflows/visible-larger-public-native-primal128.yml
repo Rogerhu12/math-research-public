@@ -164,6 +164,60 @@ jobs:
         with open(os.environ['GITHUB_ENV'],'a') as stream:
             stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
         PYSOURCE
+    - name: Restore the two exact historical frozen-geometry inputs temporarily
+      run: |
+        python - <<'PYFROZEN'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-native-primal128-request.json').read_text())
+        item=request['frozen_geometry_inputs'];commit=item['historical_public_commit']
+        if not re.fullmatch(r'[0-9a-f]{40}',commit):
+            raise ValueError('A complete immutable historical commit is required')
+        expected_env={'VISIBLE_FLEX_FROZEN_LEDGER_READY','VISIBLE_FLEX_FROZEN_STORED_READY'}
+        if len(item['files'])!=2 or {row['environment'] for row in item['files']}!=expected_env:
+            raise ValueError('Restore only the original two client input slots')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:
+            raise ValueError('Retain the triggering science checkout')
+        exists=subprocess.run(['git','cat-file','-e',commit+'^{commit}'],
+            stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode==0
+        if not exists:
+            subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags',
+                '--filter=blob:none','--depth=1','origin',commit],check=True)
+        root=Path(os.environ['RUNNER_TEMP']).resolve()
+        directory=Path(os.environ['VISIBLE_OUT']).resolve()/'frozen-geometry-inputs'
+        if not directory.is_relative_to(root):
+            raise ValueError('Historical inputs must remain inside this runner temporary tree')
+        directory.mkdir(parents=True,exist_ok=False)
+        restored=[]
+        for row in item['files']:
+            relative=Path(row['path'])
+            if (relative.is_absolute() or '..' in relative.parts
+                or relative.parent.as_posix()!='topics/visible-flex-larger-amplitude/notes'):
+                raise ValueError('Use only the explicitly pinned historical notes paths')
+            blob=subprocess.check_output(['git','rev-parse',commit+':'+relative.as_posix()],text=True).strip()
+            if blob!=row['git_blob']:
+                raise ValueError('Historical input Git blob differs: '+relative.name)
+            raw=subprocess.check_output(['git','cat-file','blob',blob])
+            digest=hashlib.sha256(raw).hexdigest()
+            if len(raw)!=row['bytes'] or digest!=row['sha256']:
+                raise ValueError('Historical input bytes differ: '+relative.name)
+            target=directory/relative.name
+            with target.open('xb') as stream:stream.write(raw)
+            with open(os.environ['GITHUB_ENV'],'a') as stream:
+                stream.write(row['environment']+'='+str(target)+'\n')
+            restored.append(dict(environment=row['environment'],path=row['path'],
+                git_blob=blob,bytes=len(raw),sha256=digest,temporary_file=str(target)))
+        if subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()!=head:
+            raise ValueError('Input restoration must not change the science checkout')
+        print(json.dumps(dict(event='native113_frozen_inputs_restored',
+            historical_public_commit=commit,science_checkout=head,inputs=restored,
+            existing_original_client_environment_slots=True,
+            unchanged_original_calibration_and_geometry_checks=True,
+            no_ready_payload_written_to_git_release_or_artifact=True,
+            no_new_native_solution_or_anchor=True)),flush=True)
+        PYFROZEN
     - name: Complete128 experiment, then original32x10 control and original final audit
       id: native_continuation
       timeout-minutes: 320
@@ -214,9 +268,20 @@ jobs:
       if: always()
       run: |
         python - <<'PYCLEAN'
-        import json,os,shutil
+        import json,os,shutil,stat
         from pathlib import Path
         root=Path(os.environ['RUNNER_TEMP']).resolve()
+        def unlock_own_readonly_archive_directories(path):
+            changed=0
+            for current,_,_ in os.walk(path,topdown=True,followlinks=False):
+                directory=Path(current);info=directory.lstat()
+                if not stat.S_ISDIR(info.st_mode) or info.st_uid!=os.getuid():
+                    raise ValueError('Refuse to chmod a non-directory or a directory not owned by this job')
+                mode=stat.S_IMODE(info.st_mode)
+                wanted=mode|stat.S_IRUSR|stat.S_IWUSR|stat.S_IXUSR
+                if wanted!=mode:
+                    os.chmod(directory,wanted,follow_symlinks=False);changed+=1
+            return changed
         for name in ('visible-native-primal128113','actual91-primal128113-parent',
                      'native-primal128113-public-original-source'):
             path=root/name
@@ -224,6 +289,11 @@ jobs:
                 if path.exists():
                     if path.is_symlink() or not path.resolve().is_relative_to(root):
                         raise ValueError('Refuse cleanup outside this runner temporary root')
+                    if name=='actual91-primal128113-parent':
+                        changed=unlock_own_readonly_archive_directories(path)
+                        print(json.dumps(dict(event='native113_owned_archive_directory_modes_restored',
+                            name=name,directories_changed=changed,follow_symlinks=False,
+                            file_bytes_and_scientific_results_unchanged=True)),flush=True)
                     shutil.rmtree(path)
                 print(json.dumps(dict(event='native113_temporary_tree_removed',name=name,
                     no_raw_upload_followed=True)),flush=True)
