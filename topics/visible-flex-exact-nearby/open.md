@@ -103,6 +103,8 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 [NG一般内宽与完整直接迹](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84已证明h=(1/20−a)/N、κ=2/a、ΓH=BH+κ²bp、Θ=κbp+ΓHσ，原T/CS/CL/NCΓL/BDDS,DL不变。root/tail全文及phase一般几何独核通过。新a=1/100,1/200,1/400,1/1000各N1..128，共6144组/12288公式待公共consumer；旧a1/40十二完整成功row只copy。按最终保留outward两high上端max选共同(a,N)，tie旧基准优先；只能称共同score不劣，不称每个单high/别列/实际总误差最优。LC直接读取CS/CL/bp，禁止upper相除；完整五列/三conditional读出/两mean不删。unknown low/shell、wholewide C0/同态左右匹配、独立MA域与实际γ低门仍待。
 
+NG新公共consumer已完整静态复核并部署：SCI417行b34b06fa、worker557行2be1fbfd、manifest6bd08d43、flowb865a517；11小pin共233538B，旧NC/LC/source零重算、16结构门。root全文，phase候选/整行选择三函数、newton原字段/失败恢复链独核。320bit/math only public、SCI≤45KB/报告≤12KB/预Git≤59KB、实际topic≤200MB与120KB预留；新6144全审计仅tmp，既成success只复用。等待自动push run，未先填新常数。
+
 ## 6. 完整exact tail、连续选解及真实参数列
 
 本节全部旧域、指数、source/state单位、mean/荷、loss、失败恢复及未付义务逐字保9026e9394566e97c1ee5c085d70d7698cc9c21bd本路径第6节及H/log，继续保e76a5/00dfd/46b3/6ca0/cbb635等递归档和原文。压缩不取消条件，成功数学不重算。

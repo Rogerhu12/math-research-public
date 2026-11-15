@@ -1,0 +1,76 @@
+name: visible-exact adaptive collar geometry
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-adaptive-collar-geometry.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-adaptive-collar-geometry
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  ADAPTIVE_GEOMETRY_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-adaptive-collar-geometry-CI-inputs.json
+  ADAPTIVE_GEOMETRY_MANIFEST_SHA: 6bd08d43ccbfc642d4ebdecfab79b63485881b480d72720712e484de15e8fe7f
+  ADAPTIVE_GEOMETRY_SCI_SHA: b34b06fab88b699dcbf30b55cdfee21c2cfd8a1f5793dbb8e35dd480b7522f37
+  ADAPTIVE_GEOMETRY_WORKER_SHA: 2be1fbfdbc8f953ae432b1d7b8293d5e730820176abd03b733f65ed52fb5de01
+  ADAPTIVE_GEOMETRY_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  ADAPTIVE_GEOMETRY_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  adaptive-collar-geometry:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the small scientific entry and existing conclusions
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adaptive_collar_geometry_CI.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-adaptive-collar-geometry-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+            /topics/visible-flex-exact-nearby/notes/adaptive_collar_geometry_ci/
+      - name: Check the independently pinned worker and complete input manifest
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          python - <<'PY_ADAPTIVE_GEOMETRY'
+          import ast,hashlib,json,os,pathlib
+          w=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adaptive_collar_geometry_CI.py')
+          assert hashlib.sha256(w.read_bytes()).hexdigest()==os.environ['ADAPTIVE_GEOMETRY_WORKER_SHA']
+          ast.parse(w.read_text(),filename=str(w))
+          p=pathlib.Path(os.environ['ADAPTIVE_GEOMETRY_MANIFEST'])
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['ADAPTIVE_GEOMETRY_MANIFEST_SHA']
+          m=json.loads(p.read_bytes())
+          assert m['source_sha256']==os.environ['ADAPTIVE_GEOMETRY_SCI_SHA']
+          r=pathlib.Path(os.environ['ADAPTIVE_GEOMETRY_RULES'])
+          assert hashlib.sha256(r.read_bytes()).hexdigest()==os.environ['ADAPTIVE_GEOMETRY_RULES_SHA']
+          PY_ADAPTIVE_GEOMETRY
+      - name: Install the identical directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Evaluate only all 6144 new adaptive geometry triples
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adaptive_collar_geometry_CI.py
+          --repo "$GITHUB_WORKSPACE"
+          --work "$RUNNER_TEMP/visible-exact-adaptive-collar-geometry"
+          --manifest "$ADAPTIVE_GEOMETRY_MANIFEST" --manifest-sha "$ADAPTIVE_GEOMETRY_MANIFEST_SHA"
+          --rules "$ADAPTIVE_GEOMETRY_RULES" --compute-minutes 20
+      # Rule15: no numerical native, large audit, Release or Actions artifact is retained.
