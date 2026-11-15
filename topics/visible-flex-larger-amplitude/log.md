@@ -245,3 +245,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:11:15 UTC /root — 172完整当前H割线诊断入口
 
 六数学源完整diff与consumer全文、launcher/recipe/request/workflow及新版37271B reader/28820B接口核后13件即发；124pins原115逐项保，额外调用不冒旧轨迹，原32×10/2e−9门保持。单份≤90KB必要标量替代大见证拆包，未完不清raw；新实际R369由geometry核。API核c5d009d67b09189655dd90f4ce7b8f12c68c3e36双README未变，真pull保。
+
+## 2026-11-15 18:14:46 UTC /root — R375完整两图比较与原幅度重构
+
+22953B条件证明全文核后即发；补Riccati归一导数、全闭比较解存在、log符号、准确平衡/切图、全部cut与partial。177原全根族重生，168终态由geometry核R368；172/174真run补H，旧C历史压缩而完整范围留原文。新环境pwd仍exec-server缺失；API核a0f9e573e761a9640132ac6261a3f7175c3774d9双README未变，Actions真实pull保。

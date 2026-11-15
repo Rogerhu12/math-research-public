@@ -304,3 +304,5 @@
 - [Request174：固定全站odd组合的独立十坐标真实方向](notes/2026-11-15-request174-fixed-all-station-odd-signsum-interface.md)：九件/113+10pins、41→46消费已发；真实157父上冻结全部中心/宽度/符号，fresh十列定ξ方向，显式尺度1与原20档/120FD/全部终态保持。任意点与连续分片使用同一h*，形成分数不证准确坡度或实际接受，164独立。
 
 - [Request172：真实current-H完整R360割线分解](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)：13件/124pins、原145六p重生；same-X noJ与原十拒后3较小档诊断，准确全129248行分离b/Aq/s/d，原接受门保持。额外调用有缓存/时间影响；单份必要摘要、大见证不搬运，实际R369不预填。
+
+- [R375：同C两图Riccati比较传播与完整cut责任](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)（已证条件包含）：上下标量比较覆盖整个闭系数族，完整存在段与log/sign重构支付图内非零幅度，精确平衡/隔零切图、全部cut候选与中断后缀保持。从原根族重新计算，不缩旧失败盒，不预判177或全部112非共振。

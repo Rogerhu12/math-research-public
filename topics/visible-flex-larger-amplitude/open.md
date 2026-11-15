@@ -77,6 +77,8 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)核43736658472/sourceb5a36d87：C3363.2282989s全1440/六primitive/两闭域/cut/deep112齐，whole2609精度未付。m2传播100attempt/49commit，在row17/piece3/depth32双端点分量盒含0而不能合法pivot；19闭栈、rows18..14643及m4..224全未访、cut候选0。0.377631095s、resources.stop=null，非25M/14400s/free2GiB止；准确列非零不支付当前盒隔零，不作真实共振结论。原幅符号/log/因子链、误差/49span与全后缀保，四读回+同源marker+owner静止后raw已清。原[R355](results/R355-actual162-pre-science-argument-separator-failure.md)与[接线接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)保；下一步处理继承包围盒和射影相关性，不能只升全局预算。
 
+[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)（已证条件包含）：同一准确C的平衡系统两图比值满足z′=β−αz²或α−βz²，上下常系数Riccati比较覆盖所有实际系数变化；两比较解闭段指数分母严格正后，单调性给全比值管，积分log/sign重构原非零幅度。所有二幂平衡、隔零切图、每cut候选的非除式行/DN和完整partial均保；非零原列不自动给可用分量盒。177须从原全深端族重新算，不裁actual162宽盒、不改原C/native门，也不保证有限预算改善。geometry实现，实际R379不预填。
+
 ### 3B. 准确九族与完整公共u目标误差
 
 [R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)/[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)原准确core/两短Hermite窗/正coast/九C²控制和真实E/E_r/E_rr校准保；有效dyadic选择与有效精化前提不能由一次粗盒假填。旧134/149参数不自动属于新准确九族。
@@ -93,7 +95,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。
 
-[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)C1440/六primitive/两域/cut/deep112齐，whole2888+1精度未付；rFar0.05056158669090205在node8整盒外。far m2..16完，m18在200000止，row9616/piece1339/闭[3/512,1/128]和后缀[9617,10387)、m20..224未启；native client尚未启动，非原试步拒。[R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)每闭候选先保原幅符号与严格范数、形成原QF=1同取向单位行后才hull，不除高度；数值代表不证同一准确C成员且新权会改变浮点轨迹。[168接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)九件/25pins已发，实际43739491932/sourcefbb6a6c9；R347全幅/误差/闭管与prepared/commit账、原C3600/两query/deep112保。sampling14400+1800启动同比clip预留native3600；18900不是全阶段kill，job360硬限。原+0H一请求/576stage/577态/32×10/2e−9/η1/η0/full112/338/audit全保；完整读回和同源marker/owner静止才清，geometry唯一actual。
+[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：完整C/1440/六primitive/cut/deep112已付；physical-far m2..16完整，m18在原work200000止。全部原9616闭栈/10387索引、piece1339及后缀/未起模态保正式结果与[逐字检查点](notes/2026-11-15-open-checkpoint-before-request174.md)，不把准确列全非零冒可除高度。native从未启动，无真实H/J/FD/试探或field，不把资源止写作数学拒。168重算同C并保完整射影族/幅因子，实际R368另核；有限代表与准确C成员分责。
 
 [R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)已核run43732286420/source4241fb33及两完整日志：C1440/六primitive/两闭域、cut两jet、11构造条件/base452、deep112完整；whole2874工作精度片和给定九p域1735pass/8898terminal/17stack仍未付。far m2..16完，m18在200000work-unit止，lastpaid9615、当前row9616/piece1339/[3/512,1/128]、suffix[9617,10387)及m20..224保。顶层error=null不抵消mode WorkStop；BVP launch目录不存在，H/J/FD/任何trial/final均未启动，非数学拒。六读回全success后自有raw实际清理；大ledger只Actions身份范围，不能从SHA续接。[169完整接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)七件已发，首43739904996/source82fe6b4b已由R362记录科学前缺件，geometry核接线重试R367，58直接pins/driver51/native25；沿168新射影/单位取向far源接原完整453过程。原λ.001/R320完整九p、699×453 prepare112仅初猜，前三scalar active/后六冻结、109core自由；原三C输入/两个闭query/147构造/R312深端保。当前真实H仍来自本次端点/MaterialTrace，profile自己的E/Ep和原五jet比较不变，不能借159或旧anchor预填。
 
