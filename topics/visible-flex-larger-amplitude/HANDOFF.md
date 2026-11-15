@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:11:53 UTC root依根8经API读main e38b3135b5d7a2426a69aee0721650a94c204cc1；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:06:05/a5108aa2290916893f83e1eec82e92bbfd5492fb；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
+规则同步记录：2026-11-15 11:15:39 UTC root依根8经API读main 054e014a5c787686736dc32a84ba8d1cb663d328；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:06:05/a5108aa2290916893f83e1eec82e92bbfd5492fb；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
 
 只在公开Rogerhu12/math-research-public；科学计算/导入/测试仅本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -22,7 +22,7 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 [131 R292](results/R292-actual131-eight-nine-control-batches.md)后，[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，compute132781953477/report132785749291完整32批256接受/2322trial；W5.003044586685467→4.963213836829105，末radius.000390625。81接受inner false、371内域失败、FD/Arb/453圆及弱响应边界全在R296。全32primary/256groups/views原SHA已核，全部final仍false；raw已清。
 
-[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降及有限误差边界。[135入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)接R296真第32批九p/r=.000390625；ed78684f/24c5ff04/df856e9e、87+3/26→27，recipe494f73d1/requesta68b9556/wf06ef8696。原8×20/12×20/全部final/32批/3600s批间及75/90分钟全保，真末radius携带、零不修复。run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c/job132790776755于11:05:30创建，原preflight通过后science。九搜索非112/native接受。
+[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降及有限误差边界。[135入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)接R296真第32批九p/r=.000390625；ed78684f/24c5ff04/df856e9e、87+3/26→27，recipe494f73d1/requesta68b9556/wf06ef8696。原8×20/12×20/全部final/32批/3600s批间及75/90分钟全保，真末radius携带、零不修复。run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c/job132790776755于11:05:30创建，现两job success/32批完整，chain63769B/90e5aa2f已核，256方向读回中；未付112/native。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101/d075af46/c756ede7保00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)真127第8九p/λ=.001/fresh-circle，110pins/29closure/四输入+两ready+78源、300min总/330science350job；run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 
@@ -36,7 +36,7 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 [128位末态完整组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)七源bcca7371/7c59da15/c218f128/824b7440/4b0569a2/a0904ea0/ddbe1a49已发；共享真实root tape全224列、全112 QR边界、338端点、原物理audit分旗标。C-based物理jet不冒finite-root导数，全部native/fullDN false，未编译/未运行。原133 launcher先清raw，137须独立新owner在同job清理前接真末态；完整源/身份/预算/未访范围保留，不能SHA恢复。
 
-[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[122](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59起science。33pins+真91/两ready/78源，fresh全J/R273→唯一packet→α0双policy7200s；sentinel受控停止非native接受，原10trial/finalJ/audit未执行，不冒全224J/IEEE导数。
+R283固定有限trace链式规则保C独立。122 run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/compute132757561652/report132790503311已结束：original3600s完488段、refined3294s完187段，均resource partial/全norm null/0 shadow mismatch。摘要27431B/98080d47已核，受控sentinel不冒native拒绝；无十trial/finalJ/audit，原逐stage表已清未复取。R303整理，不能盲重跑同实验。
 
 ## 真实原场查询继续
 
@@ -52,7 +52,9 @@ R279–282已付条件几何；675ab8df/dbdedb45全jet/mixed、a3ada50b帽、0b5
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给675共享准确Hermite/全角cut/反射/cuff帽的C²及强C²条件，同g atlas的C0/C1/C2条件独立。finite-Gauss/mask/clip不能靠小差冒恒等；modelC内cuff可平延拓、naturalRout非平。无实际闭场/embedding/reach/metric证书。
 
-[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)：末片正邻域/正权/非零dyadic相位下，提前mask+clip有非零一阶jump，九C²控制不消。该对象若为正定g，则无C²准确等距；实际descriptor未核，不推有限metric下界或完成。R300显式新连续族正在建设，旧场仅初猜、全量重求。
+[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)：末片正邻域/正权/非零dyadic相位下，提前mask+clip有非零一阶jump，九C²控制不消。该对象若为正定g，则无C²准确等距；实际descriptor未核，不推有限metric下界或完成。旧finite对象与新连续族须分清。
+
+[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)已证新g族：准确共享core→两短速度Hermite过渡/显式coast长度→cut三次collar，匹配原合法尾E两jet；九degree6/7/8独立且0附近开可行域。不称旧134p可行；有效选窗另需收敛oracle，任意根族/粗界不替代。新准确factory继续，公共u域须含L²pullback，全部原方程重新求解。
 
 R286的81d061a6/9aa0da45保六primitive/1440片/准确深根族/自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)200000panel只完1378片，wholequery/E/Rout未付；原result e18d07b6，已由136重新执行。
 

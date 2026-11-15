@@ -102,3 +102,5 @@
 - [R298：原finite-Gauss/clip接缝与同一目标责任](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)（已证明，明确实际末片条件下）：正权与非零dyadic相位强制一阶jump，任意九C²控制不消；若该准确finite对象为正定目标，则C²准确等距不存在。未声称某实际表已满足前提，不推有限metric下界或课题完成；新连续g必须显式定义、全部重求值。
 
 - [128位真实末态的七组件与完整接口](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)：共享原有限root轨迹全列、完整112边界QR及原全行缺陷、338端点和独立物理audit，全部source-bound并保partial后缀。只已实现/未编译未执行，C-based物理jet不冒有限trace导数，native/fullDN始终未付；清理前真实接线由独立137继续。
+
+- [R300：准确累计桥、cut校准与完整九控制连续新族](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)（已证明，明确输入下）：两速度Hermite片加显式coast给正半径/严格速度余量；九degree6/7/8独立且0附近开可行，cut三次collar准确匹配原合法尾E两jet。有效计算另需收敛oracle；显式新g不继承旧场/旧p可行性，实际factory与全部重求解继续。
