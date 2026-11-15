@@ -19,9 +19,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**旧159实际已消费**：43701558227与43712266529/a934b45c的容量/hold首实际、全部失败/漂移/来源/费用见[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)。原门过、.26未达，首持径无后继使用，不重已付阶段。
-
-**159因子化首actual已消费**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16。三新开发过；η.266428586→.266398991、双网14门/准确盒过，11primary+1SOC/10新接纳，active43.32511秒；七恢复1175.76681秒独立。m5持B由m6真用但ratio.11484缩半，m8漏行拒绝。45/97来源/24输入全核；旧标签与首fixture失败原note保留，不授同点加速或重跑。
+**旧159/因子化实际已消费**：43701558227/43712266529容量及hold、43716860154/a7bb0a16因子化详见各notes，不重已付。后者η.266428586→.266398991，两网14门/盒过，11primary+1SOC/10接纳，active43.32511s、七恢复1175.76681s分账；m5持B由m6真用而ratio.11484缩半、m8漏行拒绝。原失败/45源97递归24输入与费用保原件。
 
 **仿射谱与完整两网后继**：[旧首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰及已选曲率失败、m5 e/f非线性保原记录。active16.997316秒、八恢复569.558425秒分账，50/102源与24输入合。
 
@@ -53,10 +51,12 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**旧局部接口**：R226–240仅首HE零芽；R242/244新ψP圆11维δ链八flux+首gap rank10，非旧圆全period。R246该模8F+8E单射、余13兼容和e-flux仍须付；不冒全R0。R243有限jet iff仍无实际n。
+**R296零/一层准确余式**：原chain/W0与4个Er完整系数已提；全ruling主项=−Σa_i²d_i∫(Q/h)Lσ[u_i]²(u_i''')²+真实C²余项，L=α_m/2+Q(γu′−e_su″)/(8h³)，保跨包尾。E−3中心归一一阶jet有新weight5 x⁴AB，主秩30→31；从起点同F⁺/12真包正锥、有限N可在全部二层/72面积/六能量下指定该单jet任意值。未付全部四一层/零层We商，54/52仅主symbol上界非rank。R243有限jet iff仍待实际全系数；R242/244/246旧11维模的rank10/13兼容范围保原文。
+
+
 
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 2164d2f6d19b5078d95d8851c9553a0c82eefa73，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 170a39ce2d9d4ca8f1824b6e06cf0f04ecdba494，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

@@ -124,7 +124,8 @@ R277/279的真实最大秩F纤维保持全部72观测；R280以原self/Green与o
 
 **下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** [R281](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)已从最初用ψ×偶多项式真最大秩母包、解析同F有限N根接R280：全72面积与六能量同零且p=t^-2 a_e exp(−c/t)、内部退化有限。整个canonical Tf保最后真尾，经共轭微分和频率独立化为有限准确系数；平台/flux已付时这些系数零iff端逆germ光滑。**下一提取实际尾并支付这些系数、平台/通量/内部Laurent，非再证明有限性。** 高阶收敛/同g有限族/全时嵌入reach仍欠。
 
-[R282](results/R282-symmetric-Gaussian-products-and-an-independent-square-history-gate.md)已从原式完整提十个ErEs；E−3²恰iff三个新Hj零，H2保低阶正基线。同F真三参/有限N曲线证明H0不由此前全部门推出，未判某个未指定旧根失败。[R284](results/R284-six-alternating-packets-pay-the-square-history-and-even-energies.md)现以六真实交替包、2520首项的六同号minor/正cofactor核和完整五量C¹有限N准确根，同时付H0/H1/H2/Lc/Mc；五最后block各自做，保72面积/六能量并新增完整E−3²全角零，R281解析族从最初兼容。**下一原式处理余九乘积及0/1层；五维正锥不等于全fourth自由控制，period/joint仍欠。**
+R282/284及其余单平方、五量/七量阶段已由R293/294整个二层支付覆盖，原独立门和完整有限频率证明保各原文；不重已付阶段。零/一层完整剩余现按R296原式继续。
+
 
 ## O1：双圆领相位机制，保留备选
 
@@ -148,9 +149,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
 
-### R293/294：全部二层 Gaussian history 已共同支付，继续零/一层
+### R293/294/296：二层已付，零/一层已有准确全式与新增单jet
 
-[R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)给真实有限N全32零及从起点有限连续C² polynomial F★通用入口。[R294](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)准确保β/原tail/sl2和核，Khat=Kself−Γ⁺(m,m)/2由local变分严格降C²、平移≤10；明确新F⁺含旧F和所有校正self平移系数，原格点十矩及三已付有序面积清全even角。原12副本odd与R293同F⁺有限N根共同给全部十对称乘积×三外矩×全θ为零，保72面积/六能量/三矩/完整third与正解析prefactor。新F⁺从起点选，不暗增旧冻结F，330条目不宣rank。下一从原full四阶提零/一层剩余，具体判C²或新principal，再与完整period/同w联合；未付主几何。
+[R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)和[R294](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)从起点新F⁺保全部真实校正self/Green/ordered楔，12副本与有限N真根联合付全部十对称乘积×三矩×全θ、72面积/六能量/三矩/全third及正解析prefactor；不暗增旧冻结F，330条目非rank。
+
+[R296](results/R296-complete-zero-one-Gaussian-layers-and-the-full-principal-square.md)已从原恢复chain列W0、四个Er系数和零层We商，严格提整个ruling共同平方主部，所有真尾保入准确C²余项。E−3中心一阶归一jet的x⁴AB权5不在旧30维，joint主秩31；同F⁺真实有限N可在所有旧条件内指定这一单jet任意值，故已付条件不蕴含一层，但新增该jet零也不等于全一层。**下一一次针对全部零/一层准确有限系数，核实际主秩、所有principal关系的完整C²余项与全角Green补偿，再联立period/同w。** 54生成元/even≤52仅上界，不能冒实际rank或完整可达。
 
 ### R288/292/295：一次端层已付，平台须先处理真实几何矩阵
 

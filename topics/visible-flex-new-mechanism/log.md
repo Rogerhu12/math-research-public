@@ -355,3 +355,5 @@
 - 2026-11-15 15:09:16 UTC，Astra-new-mechanism-9974ea84：直接消费首run43727663245封存log，方向组6过/array9过1失败；失败为新断言违背冻结严格better tie规则，原返回gap/inexact正确。记录原失败即推，仅修developer断言和driver绑定；源片段/104依赖复用已过方向，其余未完成检查后首研究。54直接/51科学/106递归来源核合，零科学/零恢复，不延预算。公开Actions实际15:03/read45a12d31，私有15:03:27/readdece04bc双规则原blob/QUEUE唯一进行中，已更新H；本地仍unavailable，API复核b0ea16dccf22279dcb9f1f3c63491b0a6edfa3bb同规则。
 
 - 2026-11-15 15:12:51 UTC，Astra-new-mechanism-9974ea84：R295真实末布局迫T_B0及self C³/C²准确分裂完成即推。root全文手核三high/三low、R56η0全部项、q−1/8和常秩even条件；仅更正为固定高位前缀的17点段，作者认可。未评价矩阵/主项，不把新C³偷入F⁺。结果索引近100KB，R232–R270与同期旧计算索引整段语义移至独立卷，原文字/链接保留，当前继续后续。续run43728280256/7329385/job132854922848进行中；API复核2164d2f6d19b5078d95d8851c9553a0c82eefa73双规则同，最新实际pull为H内Actions15:03。
+
+- 2026-11-15 15:20:36 UTC，Astra-new-mechanism-9974ea84：R296完整零/一层和全主平方、单jet rank31有限N结果完成即推；root全文读、独核新weight5与旧四列的C²/BC/AC/B²比较，literature原链/平方窄核通过。最终仅数学定界修正的blob5d5ef4f6fa4da8527ac87ccd8706507226e0aa18，19933B/SHA256 aa37c43610a651c84786fcd64607e3086557c6d1c905997e7c461a34936a61df。已付阶段索引简并保原件，H/open压缩以守字节上限；未授全零/一层/period/joint。续run43728280256仍进行中，无新actual结果。API核170a39ce2d9d4ca8f1824b6e06cf0f04ecdba494双README同，实际pull仍H所记Actions。

@@ -224,3 +224,10 @@
 [R295 完整证明](results/R295-final-grid-forces-zero-platform-matrix-and-exact-self-history-principal.md)在R280真实最右正布局，用末三个high L−7/L−23/L−39及各前三low、两双角不共线和真实三矩Vandermonde，逐后缀迫整T_B0；同F★改profile保持矩，不能代付该几何必要门。未证明实际矩阵非零或宣rank9。原周期端项给T_B=¼∫ημρν。矩阵零后仍须各self q_i0。
 
 原R56完整η0和R73 m给VZ,x=(1,0,e)Λu'''+C²项；actual pure/完整P左尾给q=−1/8∫K_B(u''')²+全部C²余项，K_B=∫k(1+e²)Λ²/h。u²系数以M0准确清零，余五类不预授零；真实even主非零时N^-5/2振荡及常秩同有限C²纤维修正给q/N非零，严格排其被未知低阶F固定。root全文核真实indices、η0逐项抵消、右尾符号和有限纤维范围；仅将17点段措辞明确为固定高位前缀，作者认可。整个二层已付不等于平台/完整period已付。无新执行。
+
+
+## R296：完整零/一层余式、同一真实主平方与第31个控制方向
+
+[R296 完整证明](results/R296-complete-zero-one-Gaussian-layers-and-the-full-principal-square.md)保原W=0局部恢复、变化profile chain、中心比较We商和真实有尾配对，给W0/四个Er系数的完整公式；二层已付后的剩余恰为四奇Laurent系数全零与零层属于We。由local-r降阶、ell/Ψ准确恒等和原W_C恢复，整个ruling主项为−Σa_i²d_i∫(Q/h)Lσ[u_i]²(u_i''')²，余项是保全部真实Green/跨包尾的C²数据。
+
+归一E−3中心一阶jet有独立weight5 x⁴AB主行，旧30维增为31；κ²∈(0,.01)的实际共振安装下非零。同F⁺/12实际交替包正锥和31真Jac给有限N准确指定该单jet任意值，同时保所有已付二层/72面积/六能量/三矩/全third/解析正prefactor。这既证明旧门不蕴含一层，也可再付这一jet零；未称四一层函数或零层We商已付。54/even52只是通用symbol上界。root全文读并独核权5四列比较与有限N范围，literature窄核局部链/平方§§4–6通过；无新执行。
