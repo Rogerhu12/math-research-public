@@ -168,3 +168,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R760](results/R760-positive-derivative-three-coordinate-grid-and-full-slope-threshold.md)：已证明由原S的正阶z导数构成的三坐标(S,T,(∂zS)^6)代数独立、复增长1/3，真实有界测度卷积使全部普通饱和jet无额外成本；惰性无条件包络仍3klogk。原全旗标给条件严格门aI+3bI<6及小于二次全层cutoff的准确反读；新格非旧WD有限扩张，未传播中央零或旧Smith增益。
 
 继续原中央失败对该真实三格的全惰性/有序饱和运输；保持完整六输入加法单位域，不能按乘法Mellin替代。旧R750实际ξ与同R路线保持。
+
+### R755：全部真实cube的值自由度已封闭
+
+[R755](results/R755-whole-original-cube-carry-filter-and-specified-value-class-invariance.md) 证明整个d^-CD F³H0(E)在原kerMbar内；进入kerJbar恰H0∈t^(r−k)，故所有仍合法的cube不能改变完整R750值类。未过门的来源只影响最后(2(r−k)−13)+行；允许更换PB时，先ord𝔅≥2h−r，再要求实际E来源的≤13jet命中，修复后𝔅系数准确变−1/6且与修复选择无关。C4=e³H1+(3/2)e²f2H0、ξ0、完整w13/U0与同R的两余块仍保。下一步是实际v_F指定留数与整个normal/第三块/d₂；不能用更大的合法cube消去值障碍，也不能把该值不变认成全余类不变。

@@ -411,3 +411,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [最终q*的原三阶不变性与同权两态](notes/2026-11-15-final-carry-t-invariance-and-same-weight-states.md)：已证明完整六支次数逆逐点T不变，实际50列及两核修正全部继承，原λκu/深浅门/混次权不变。完整同权两态、三条W轴边际及scalar核心齐付；q依ξ4且cd域移动，未把不变性传给返回后ΦN或外部。
 
 - [R760](results/R760-positive-derivative-three-coordinate-grid-and-full-slope-threshold.md)：已证明由原S的正阶z导数构成的三坐标(S,T,(∂zS)^6)代数独立、复增长1/3，真实有界测度卷积使全部普通饱和jet无额外成本；惰性无条件包络仍3klogk。原全旗标给条件严格门aI+3bI<6及小于二次全层cutoff的准确反读；新格非旧WD有限扩张，未传播中央零或旧Smith增益。
+
+- [R755：全部原cube的carry筛及指定值类不变性](results/R755-whole-original-cube-carry-filter-and-specified-value-class-invariance.md)：已证明完整原F³整除空间的全部十九角来源与carry门：最小值阶≥1，进相对首核恰H0∈t^(r−k)，所有合法cube的整个值Bockstein为零。未过门仅改末(2(r−k)−13)+行；修复PB的真实≤13jet条件及−1/6系数精确，完整C4/ξ/两13/同R的其余块保留，指定留数非零仍开。
