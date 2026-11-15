@@ -4,8 +4,8 @@
   "request_number": 182,
   "operation": "Read only the immutable original160 compute log once in Actions; recover necessary owner and four-component outcomes without scientific recomputation.",
   "source_entry": "root_20261115_read_actual160_native128_necessary.py",
-  "source_bytes": 72899,
-  "source_sha256": "d9d694e20026b67e7e22bfa14f3a332820f7621db8619dc4d12d4ba5fcd448ed",
+  "source_bytes": 75754,
+  "source_sha256": "c4728fbb2be01d3cf6648e18f3c8421daa71ee6ceceb99f9b6ece247e8e4ca74",
   "original_run_id": 43729874541,
   "original_job_id": 132859748674,
   "original_source_commit": "b34692d09c8d5ecdd7b859e43489da4413f1468e",
@@ -112,7 +112,7 @@
     "missing_original_fields": "Explicitly unreported or partial; never recreated and never used to classify mathematical failure.",
     "owner_table_presence": "The actual original trial and evaluation key sets are each deduplicated into their own table; every trial/evaluation row has its corresponding key-set index. An absent key and an explicitly null value remain distinct despite shared union columns. No new original field is inferred."
   },
-  "output_schema": "actual160-original-native128-necessary-log-readback-v1",
+  "output_schema": "actual160-original-native128-necessary-log-readback-v2",
   "output_markers": {
     "begin": "BEGIN_REQUEST182_ORIGINAL160_NECESSARY_SUMMARY",
     "end": "END_REQUEST182_ORIGINAL160_NECESSARY_SUMMARY",
@@ -126,7 +126,12 @@
     "over_budget_exit_code": 70,
     "no_trial_or_unfinished_index_silently_truncated": true,
     "complete_necessary_scope_returned_when_over_budget": false,
-    "duplicate_metadata_bodies_shared_only_after_exact_original_equality": true
+    "duplicate_metadata_bodies_shared_only_after_exact_original_equality": true,
+    "exact_equal_necessary_dictionary_bodies_shared_in_one_JSON": true,
+    "source_manifest_referenced_by_actual_request_SHA_and_JSON_pointer": true,
+    "fixed_canonical_and_optional_tree_scope_conventions_declared_once": true,
+    "original_trial_evaluation_presence_tables_and_all_rows_unchanged": true,
+    "section_byte_counts_printed_before_90000byte_check": true
   },
   "retention": {
     "old_log_saved": false,
@@ -152,5 +157,37 @@
   },
   "maximum_optional_selected_component_metadata_bytes": 2097152,
   "optional_component_metadata_cap_stops_only_supplement_selection": true,
-  "maximum_unique_diagnostic_matching_line_identities": 1000000
+  "maximum_unique_diagnostic_matching_line_identities": 1000000,
+  "metadata_transport_retry": {
+    "previous_run_id": 43754644599,
+    "previous_source_commit": "ee516d474479dbd07be374175dd36fb7bae53224",
+    "previous_job_id": 132935956609,
+    "previous_reader_source_sha256": "d9d694e20026b67e7e22bfa14f3a332820f7621db8619dc4d12d4ba5fcd448ed",
+    "original_scan_complete": true,
+    "original_reader_exit_code": 0,
+    "previous_process_exit_code": 70,
+    "previous_protocol_errors": [],
+    "previous_resource_partial": false,
+    "previous_unreturned_summary": {
+      "bytes": 92966,
+      "sha256": "52a6a266610adf189f24edbc8d0bebe443691e91a5b2a379ca2e44ff244bc3f4"
+    },
+    "previous_temporary_result": {
+      "bytes": 92727,
+      "sha256": "6218d259613960e29f047b6433ddf6a7c459e65b1d494405e98ee6bed5f0be80"
+    },
+    "previous_fallback": {
+      "bytes": 3277,
+      "sha256": "a8b480198d60d011d69b61d5c2335e43a40736c81220c6ce74abf4a00e48ed60",
+      "includes_final_LF": true
+    },
+    "original160_log_identity_observed_by_previous_reader": {
+      "bytes": 3234095,
+      "sha256": "27c888838abc2cabbe0dd14886ffdcffa76e4d35f21048b30367799d04363149",
+      "physical_lines": 3513
+    },
+    "reason": "Remove repeated source and canonical-scope metadata; share only exactly equal selected dictionaries inside the same necessary JSON. Preserve all trials, evaluations, key presence, component flags, errors, maxima and unpaid addresses. No changed science, larger limit or new output fragments.",
+    "previous_large_result_not_downloaded_or_reconstructed_here": true,
+    "new_scientific_calls": 0
+  }
 }

@@ -25,7 +25,7 @@ import urllib.parse
 import urllib.request
 
 REPOSITORY="Rogerhu12/math-research-public"
-SCHEMA="actual160-original-native128-necessary-log-readback-v1"
+SCHEMA="actual160-original-native128-necessary-log-readback-v2"
 REQUEST_SCHEMA="actual160-original-compute-log-necessary-readback-request-v1"
 RUN=43729874541
 JOB=132859748674
@@ -114,8 +114,7 @@ def original_canonical(value):
 
 def original_receipt(value):
     raw=original_canonical(value)
-    return dict(canonical_bytes=len(raw),canonical_sha256=sha(raw),
-        canonical_UTF8_without_final_LF=True)
+    return dict(canonical_bytes=len(raw),canonical_sha256=sha(raw))
 
 
 def canonical(value):
@@ -427,8 +426,6 @@ class OriginalTree:
         self.final_receipt=dict(label=self.label,original_file=row.get("original_file"),
             original_canonical_bytes=row.get("canonical_bytes"),
             original_canonical_sha256=row.get("canonical_sha256"),
-            full_semantic_object_reconstructed=False,full_semantic_object_SHA_recomputed=False,
-            full_canonical_identity_is_original_producer_receipt=True,
             emitted_part_bytes_and_metadata_stream_verified=self.complete,
             optional_selected_metadata_complete=not self.selection_incomplete and self.complete,
             selected_metadata_storage_bytes=self.selected_bytes,
@@ -437,7 +434,7 @@ class OriginalTree:
             repeated_payload_equality_not_claimed=self.duplicate_parts!=0,
             complete_marker_location=location,first_part_location=self.first_location,
             last_part_location=self.last_location,issues=self.issues,
-            issue_count=self.issue_count,optional_scope_not_new_acceptance_gate=True)
+            issue_count=self.issue_count)
         return self.header
     def missing_stage_fields(self,projection):
         columns=projection.get("unfinished_stage_columns") if isinstance(projection,dict) else None
@@ -1096,6 +1093,56 @@ class Scan:
             no_original_native_or_BVP_acceptance_reclassification=True)
 
 
+def compact_necessary_metadata(value):
+    """Share exactly equal already-selected dictionaries within ONE JSON.
+
+    This never receives an old semantic tree, numeric payload, or log text
+    stream. Lists, every original trial/evaluation row, presence tables, and
+    original numeric lexemes stay in place. A duplicate dictionary refers to
+    its earlier complete body by an ordinary JSON pointer; it is not encoded
+    data or a multi-part transport.
+    """
+    seen={};references=0;saved=0
+    def pointer(path):
+        return "/"+"/".join(str(item).replace("~","~0").replace("/","~1")
+            for item in path)
+    def visit(item,path):
+        nonlocal references,saved
+        if isinstance(item,dict):
+            raw=original_canonical(item)
+            if len(raw)>=256 and "same_necessary_metadata_at" not in item:
+                previous=seen.get(raw)
+                if previous is not None:
+                    ref=dict(same_necessary_metadata_at=previous,
+                        **original_receipt(item))
+                    ref_bytes=len(original_canonical(ref))
+                    if ref_bytes<len(raw):
+                        references+=1;saved+=len(raw)-ref_bytes
+                        return ref
+                else:
+                    # Parents are retained before their children. A first body
+                    # and every ancestor of its pointer remain in the one JSON.
+                    seen[raw]=pointer(path)
+            return {key:visit(part,path+[key]) for key,part in item.items()}
+        if isinstance(item,list):
+            return [visit(part,path+[index]) for index,part in enumerate(item)]
+        return item
+    result=visit(value,[])
+    result["necessary_metadata_representation"]=dict(
+        schema="request182-one-JSON-equal-metadata-reference-v1",
+        canonical_identity="sorted-key original-number UTF8 without final LF",
+        source_manifest="the exact request bytes at /original_text_sources",
+        optional_tree_full_canonical_identity="original producer receipt only",
+        optional_tree_reconstructed=False,optional_tree_SHA_recomputed=False,
+        optional_tree_scope_is_not_a_new_acceptance_gate=True,
+        identical_dictionary_references=references,
+        literal_metadata_bytes_saved_before_outer_JSON_framing=saved,
+        each_reference_requires_equal_complete_selected_dictionary=True,
+        all_original_trial_and_evaluation_rows_and_key_sets_retained=True,
+        no_new_large_tree_or_raw_or_encoded_parts=True)
+    return result
+
+
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--request",type=Path,required=True)
@@ -1147,7 +1194,10 @@ def main(argv=None):
         original_run_id=RUN,original_job_id=JOB,original_source_commit=SOURCE_COMMIT,
         original_report_job_id=132921319875,
         original_report_not_downloaded_again=True,
-        original_text_sources=ORIGINAL_SOURCES,old_sources_read_not_imported=True,
+        original_text_sources=dict(request_file=args.request.name,
+            request_sha256=sha(request_raw),JSON_pointer="/original_text_sources",
+            original_count=len(ORIGINAL_SOURCES),**original_receipt(ORIGINAL_SOURCES)),
+        old_sources_read_not_imported=True,
         original_request_source_closure_verified=True,
         readback_complete=False,resource_partial=False,error=None,
         original_scientific_conclusion_not_changed=True,
@@ -1223,11 +1273,17 @@ def main(argv=None):
         output["reader_exit_code"]=code
         output["scientific_success_not_inferred_from_reader_success"]=True
         output["missing_original_fields_not_recreated"]=True
+        output=compact_necessary_metadata(output)
         full=write(args.out/"result.json",output)
         summary=dict(output,actual_temporary_readback_result=full,
             summary_complete=True,transport_complete=True,
             complete_necessary_scope_returned=output["readback_complete"])
         raw=canonical(summary)
+        emit(dict(event="request182_necessary_section_bytes_before_transport_check",
+            complete_necessary_summary_bytes=len(raw),
+            top_level_section_bytes={key:len(canonical(value))
+                for key,value in summary.items()},
+            counts_only_no_original_scientific_values_recomputed=True))
         if len(raw)>MAX_SUMMARY_BYTES:
             # Never return encoded pieces of the discarded large tree or
             # silently remove trial rows to make the necessary result fit.

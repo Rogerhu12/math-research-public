@@ -18,7 +18,7 @@
 
 ### 1B. 完整128末态、物理审计与严格有限trace
 
-[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保共享v2、fresh91/64J/R273/128及19200s，不互作门。原160report15696B仅child70、四flag未返；[R388实际182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)43754644599/ee516d47完整扫描原日志3234095B、协议0错，但必要92966B超90KB，实际70/仅3277B fallback，trial与四组件正文仍未返。cleanup skip不冒持久保存；geometry只修重复元数据r2，root唯一取终态。原[182接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)1200s/32GiB/35min/单90KB、缺键/null及全部错误/未访保；全576×224、112/mixed338/audit及原科学预算责任不变。
+[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保v2、fresh91/64J/R273/128及19200s，不互作门。原160report仅child70/四flag未返；[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流3234095B完整/0协议错，但92966B超90KB→70，只返3277B fallback，原trial/组件仍未付。[182r2接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)c4728fbb/bdeebd5d/b84e300f已发：固定manifest/约定只一次，同份必要JSON内完全相同字典才pointer共享，全部原行/键存在/null/错误/未访保。单90KB、1200s/32GiB/35min不变，失败不清/不分包；root唯一核新实际，原全576×224、112/mixed338/audit及预算责任不变。
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：128一次α1接受/replay齐，stage10/RK0/field0全230列320bits认证，0未决；仅固定输入/trace准确有限算法误差。原子70由同job恢复，42969B摘要齐，大列账只身份。上游/整RK/576J、112/338/audit/native/fullDN未付，160继续。
 

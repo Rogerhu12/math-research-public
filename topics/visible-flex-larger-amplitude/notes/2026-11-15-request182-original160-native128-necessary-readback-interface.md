@@ -1,6 +1,6 @@
 # Request182：原160完整日志的必要128位求解与四组件读回
 
-作者：AI（ChatGPT）。状态：按直接科学投影优先作最小必要修订，独立纯元数据源码与执行参数已冻结；尚未运行182，尚未读取原160 compute 大日志，不对160作新的科学判断。原160、176r2的已有源保持原字节；本次只创建小文本 blob，root 单独负责发布与执行。实际182结论预留 R388。
+作者：AI（ChatGPT）。状态：182 首次实际标准库读回已完整扫描原160日志，但必要摘要92,966 B超过90KB，故原reader0后传输exit70；科学细节尚未回传，实际结论由root独占R388。本稿是r2纯元数据表示修订：原科学源、原八文本来源、全部owner试点/评价/四组件错误与未访字段不改，约定性重复元数据与严格相同字典只保一次。尚未运行r2；本地没有重新取182或160日志、执行AST/import/科学，只保存独立小文本blob，root单独发布。
 
 ## 1. 需要恢复的原事实与范围
 
@@ -14,9 +14,9 @@
 
 | 目标路径 | 字节 / SHA256 | Git blob |
 |---|---|---|
-| computations/root_20261115_read_actual160_native128_necessary.py | 72899 / `d9d694e20026b67e7e22bfa14f3a332820f7621db8619dc4d12d4ba5fcd448ed` | `72c46765a1410dc505368f4b955b00766597a225` |
-| computations/public-actual160-native128-necessary-readback-request.json | 8755 / `16d9acae6d67e67af2839f2691a77e1fff60de830fd04754cf3dae97dfd3505b` | `15b3392d257c92770a78835162ecad4487f0bd02` |
-| .github/workflows/visible-larger-public-actual160-native128-necessary-readback.yml | 8336 / `d5986eb3d58228489f7d1c78cb4727bb53b8d8918e542be63a0b9d04bf179aa5` | `e96de43243ac938a9fbf8691ac331102765d4912` |
+| computations/root_20261115_read_actual160_native128_necessary.py | 75754 / `c4728fbb2be01d3cf6648e18f3c8421daa71ee6ceceb99f9b6ece247e8e4ca74` | `bc4b4ad073e72321eb4552939ee1b0deca8eda94` |
+| computations/public-actual160-native128-necessary-readback-request.json | 10686 / `bdeebd5d68fbe241018eacdacfdfb3dc056edeb0cece4fc3adb1c11f31927748` | `fae4bfc2eaf4ab9d278eb7730ca8e0b19f43f583` |
+| .github/workflows/visible-larger-public-actual160-native128-necessary-readback.yml | 8336 / `b84e300fd1d97a7ae994d840666690425435fd1a5db41585e3013df5b085ef0c` | `e10bce2e0fcc5faacc9314612ff45b8b2c8aca4c` |
 | notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md | 本完整接口 | 交付回执给出 |
 
 前序纯日志读回实现为 request176r2，发布 source `48e55d2e0f6f07405c216b5417ef97844654124e`。本次复用其官方 API／HTTPS redirect／只在环境中传递 token／原数值 JSON token 按字面保存的路径，改为真实160 owner 与四组件协议；不是将165结果改标签。
@@ -73,7 +73,7 @@ owner_final 的 requested/attempted/unvisited direction/trial 列表、stop_reas
 
 旧 `qualified_same_job_scalar_tree_part/complete` 按流检查原part字节/SHA、index与metadata SHA，并只选择必要小字段，尤其原直接投影未包含的 `atomic_advances_completed` 或原地址。成功列和原数值数组不存入任何完整树。若存在匹配的 direct report，只将其中确实没有的字段添加为按原key集合分组的小表；若 direct report 确实不存在，旧选择器仅返回所观察到的原字段并明确其部分范围。
 
-旧选择器每组件最多保2MiB必要元数据；达到此上限只标记补充范围不完整，继续读取/散列原流，不阻止主要direct读回。旧协议不完整、旧选中字符串不完整或旧part身份不符均单列 optional issues，不把已有直接科学投影丢弃。全旧树的 canonical bytes/SHA **只是原producer回执**；输出明确 `full_semantic_object_reconstructed=false`、`full_semantic_object_SHA_recomputed=false`。没有以本次读取声称完整旧树或大数组重新通过审计。重复旧part索引可按原顺序跳过并计数，不声称已另证重复payload相同。
+旧选择器每组件最多保2MiB必要元数据；达到此上限只标记补充范围不完整，继续读取/散列原流，不阻止主要direct读回。旧协议不完整、旧选中字符串不完整或旧part身份不符均单列 optional issues，不把已有直接科学投影丢弃。全旧树的 canonical bytes/SHA **只是原producer回执**；r2在唯一 `necessary_metadata_representation` 中明确 `optional_tree_reconstructed=false`、`optional_tree_SHA_recomputed=false`，并声明其全树canonical身份仅为原producer回执；每个可选树回执仍保实际part核验、选择完整性、issues与位置。没有以本次读取声称完整旧树或大数组重新通过审计。重复旧part索引可按原顺序跳过并计数，不声称已另证重复payload相同。
 
 每个组件的原生命周期/状态正文只保一份。all-components只另保全局flags和原总记录身份；终态副本、compact summary、完整旧readback描述符均以身份和已保正文引用表达。原依赖未启动原因、过程退出、资源状态、所有未完成stage/step/query/column范围均保留，不能由另一个组件成功推断本组件完成。
 
@@ -91,10 +91,10 @@ owner_final 的 requested/attempted/unvisited direction/trial 列表、stop_reas
 
 元数据 scan budget1200秒，原日志上限32GiB，单物理行16MiB，一百万个独立诊断匹配行身份。原全组件树128MiB／parts上限已移除，因为不再重建全树；每组件2MiB可选补充元数据上限只停补充选择，不使direct读回失败。SIGALRM覆盖本次官方元数据与扫描；SIGTERM/SIGINT产生独立external interruption，不能被optional处理吞掉。资源停止保存已读前缀身份与已恢复范围，EOF=false，不把前缀SHA称为完整原日志SHA。
 
-结果schema仍为：
+r2结果schema明确更新为：
 
 ```text
-actual160-original-native128-necessary-log-readback-v1
+actual160-original-native128-necessary-log-readback-v2
 ```
 
 唯一必要JSON在 `BEGIN_REQUEST182_ORIGINAL160_NECESSARY_SUMMARY` 和相应END之间，完整bytes/SHA含LF。无新增part、编码数据、压缩blob或扩大90KB的兜底。必要摘要若超过90KB，exit70、transport_complete/readback_complete=false，保未返回临时完整摘要身份及明确范围，不删trial/未访索引换取表面成功。
@@ -109,4 +109,23 @@ reader0表示现存原日志到EOF、直接必要协议/来源与owner试步核�
 
 always步骤只读取这份≤90KB summary；如果相同 bytes/SHA 的 stdout marker已存在，不重复全文。清理只在原读回step与retained读回step均success、summary的readback/transport flags都真、stdout marker与实际summary字节相等时删除该唯一目录。没有原科学子程；同步step结束即本reader已join。任何失败、未读或超限范围不被主动删除为成功，临时文件随runner销毁。
 
-本地本次仅源码读取/文本编辑/哈希/原JSON元数据查看，未运行 Python AST、import、编译、科学函数或额外fixture。首次实际标准库编译由本工作流完成；182的真实 source/run/job/结果身份由运行后记录，本文不预填。
+本地本次仅源码读取/文本编辑/哈希/原JSON元数据查看，未运行 Python AST、import、编译、科学函数或额外fixture。r2标准库编译仍只在公开Actions执行；本接口没有运行新增Python定义，也没有假称r2实际输出已缩到90KB。原首次182实际身份和这次表示修订见下一节。
+
+## 9. 首次182的真实体积失败与r2最小表示修订
+
+Root已完整读首次182官方结果；本agent没有重复取得其日志。真实run43754644599，sourceee516d474479dbd07be374175dd36fb7bae53224，job132935956609。源码、AST与规则检查通过；原160日志3,234,095B / SHA27c888838abc2cabbe0dd14886ffdcffa76e4d35f21048b30367799d04363149 /3513物理行完整读到EOF，protocol_errors=[]、reader_exit0、resource_partial=false。尚未回传的必要摘要92966B /52a6a266610adf189f24edbc8d0bebe443691e91a5b2a379ca2e44ff244bc3f4超过90000；它触发传输exit70，而非原科学重算或元数据扫描失败。
+
+原临时result92727B /6218d259613960e29f047b6433ddf6a7c459e65b1d494405e98ee6bed5f0be80。实际只回传3277B /a8b480198d60d011d69b61d5c2335e43a40736c81220c6ce74abf4a00e48ed60（含LF）的失败摘要；因此本稿不能填原160的科学状态、试步值或四组件结论。r2 request追加这份真实retry身份，原160 tuple不变。
+
+本次只做四项表示变化。
+
+1. 八个原源的完整file/bytes/SHA仍在本次request的original_text_sources，入口逐件读核不变。摘要中该字段改为指向**实际request原字节SHA及JSON pointer /original_text_sources**的引用，并保该原manifest完整canonical bytes/SHA和count8。正文不再重复已绑定的小文本清单。
+2. 每个本读者新生成original_receipt里反复相同的UTF8/不含LF约定只在摘要唯一necessary_metadata_representation说明。每个身份原有canonical_bytes和canonical_sha256仍保留。数值token、实际key集合、null和原科学字段没有变化。
+3. 可选旧树回执四项固定说明——全树没有重建、全树SHA没有重算、全树canonical仅producer回执、可选范围不是门——同样移到唯一说明。每组件实际核验、选择不完整、part范围、重复计数、issues和错误仍各自保留。
+4. 只对**已经选入必要摘要**的完全相同字典共享正文。字典的完整原投影canonical bytes（包括原数值token、键集合与null）先精确相等，且单份至少256B、真实引用比正文小，才以same_necessary_metadata_at的普通JSON pointer及完整canonical身份引用该份JSON内已经保留的正文。第一次访问先保父正文再处理子对象，所以引用目标及其祖先不会被随后替换掉。所有列表、trial/evaluation行及presence键集合表保留；它不是从完整旧树重新编码或分割raw的传输协议。
+
+字典共享保值的范围是本读者的必要投影，而非声称恢复完整旧大科学对象。引用的身份对应共享前那一份完整必要字典；如该正文子对象也引用同一JSON中已保留的元数据，按其明确pointer解释。没有压缩或base64文本、没有新part、没有另文件索引分包；返回仍是唯一不超过90000B的JSON。初始来源、四组件与错误、全部未访地址仍由前述原字段支付，不能靠字典相等新增科学结论。
+
+r2在90000B检查之前另输出一个小计数事件request182_necessary_section_bytes_before_transport_check：完整必要摘要bytes及每个顶层section的bytes。这里只计UTF8/ASCII JSON字节，不输出原科学正文、不重算数值。实际体积若仍过限，原exit70和完整未返回身份保持；不扩大上限或裁trial/未访数据。是否实际足够由新run决定，当前源码修订不预承诺。
+
+工作流只同步新source长度/SHA和request SHA，其运行预算、官方一次原日志stream、只读token、源/规则核验、读回和条件清理逻辑原样。request自身真实变更负责触发重试；原源码历史保留，原160数学与接受门均未更动。

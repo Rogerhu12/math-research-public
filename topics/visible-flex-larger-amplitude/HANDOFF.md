@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:05:13 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7794d473a4a042b3b93eb5703d02f3eb59fcd64f。
+规则同步记录：2026-11-15 20:07:17 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b7fc8a5c0c68e7fb5b102786a24e8422fece4e58。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -20,12 +20,12 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 |请求/结论负责人|run / source|当前职责|
 |---|---|---|
-|160/182 R359/R388 root|原16043729874541/b34692d0；18243754644599/ee516d47|182原流完整/协议0错，但92966B超90KB→70；仅3277B fallback，geometry修r2，root读终态|
+|160/182 R359/R388 root|原16043729874541/b34692d0；首18243754644599/ee516d47；r2本次触发|首读92966B超90KB→70；r2 c4728fbb/bdeebd5d仅去重复metadata，root读新终态|
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
 |184 R391 exact|真实180父已取得，完整入口在接，未派发|β1/16真实九词/旧域语义传递→新C/真factory→原179完整453/BVP|
-|183 R390 amplitude|本次push触发，实际run/source待核|57569d47/6a5ef150；R389真十词、固定157尺度/16×原8/global2400s，整20拒即止|
+|183 R390 amplitude|43755955047 /126c05170e77a29cc86e4a98681c724c51f0de7b|compute132939972890已入科学；真十词/固定S/16×原8/global2400s，整20拒即止|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
@@ -44,7 +44,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 ## 正在推进的完整入口
 
-[R388实际182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)：43754644599/ee516d47，原160日志3234095B完整、协议0错/内部reader0；必要92966B超90KB，实际70/仅3277B fallback，四组件/trial正文未返不补推。清理skip不冒持久保存。geometry只压重复元数据修r2，root唯一读新终态；原1200s/32GiB/单90KB、缺键/null和全失败/未访保持。
+[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流3234095B完整/协议0错，但必要92966B超90KB→70，仅3277B fallback；四组件/trial未返、清理skip不冒持久保存。[r2接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)c4728fbb/bdeebd5d/b84e300f本次发：原八来源/科学不变，固定说明只一次、同一必要JSON内严格相同字典pointer共享；全部原行/key/null/失败/未访保。单90KB与1200s/32GiB不变，root唯一读。
 
 [R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)保m2 row17/piece3/depth32下屏障未正、58/110非资源、11pending+[18,14644)/111未起/0cut；必要读回/静止后清，不证准确极点，181续。
 
@@ -62,7 +62,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)保新support1/power4同三jet、degree10/自然L/u及十控制和453/450接点；旧178表不能只换profile。该ξ不修coast；R351/173/R363/R366/R370完整响应证明仍保。
 
-[coast→BVP语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c/34871B已发，完整原20585B diff与18569B接口已读；按R383核同C全根族/core/cut/窗口/准确九p/DAG，初点全域可传，不要求两盒相等/子集。新shadow/J/FD/metric及活动p另付，原179四字段外不改。[真实selected恢复](notes/2026-11-15-selected-coast-original-input-restoration-interface.md)ba8fb7f3已发：原180 summary→原来源/DAG重建两件并核旧SHA→真fresh factory；不改环境或伪造result。exact接184/R391完整入口；183已发，实际run随后核。
+[coast→BVP语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c/34871B已发，完整原20585B diff与18569B接口已读；按R383核同C全根族/core/cut/窗口/准确九p/DAG，初点全域可传，不要求两盒相等/子集。新shadow/J/FD/metric及活动p另付，原179四字段外不改。[真实selected恢复](notes/2026-11-15-selected-coast-original-input-restoration-interface.md)ba8fb7f3已发：原180 summary→原来源/DAG重建两件并核旧SHA→真fresh factory；不改环境或伪造result。exact接184/R391；geometry接185全3校正，amplitude并行接已发连续十族设计的独立factory/numeric组件，不改184/185。
 
 ## 恢复与保存
 

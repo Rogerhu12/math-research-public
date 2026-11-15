@@ -366,3 +366,6 @@
 
 
 - [Request183：真实178r3十词的同owner128方向续算](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)：七件/114+11pins，原45→46，仅新producer编排6b55最多16×8，批首fresh10J、固定157尺度/全局2400s，整20拒或非预算stop即止。原全3门/120FD/Arb/453保，128行及trial计数/分类/极值/异常/身份单90KB；大表不搬运，未预填实际R390/native。
+
+
+- [Request182r2：原160必要摘要的重复元数据消除](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)：首182完整扫描但92966B超限的实际身份入新request；c4728fbb只将固定manifest/约定共享、完全相同必要字典以同一JSON pointer引用，原trial/四组件/失败/未访及key/null保。90KB、预算和科学均不变；只加section字节计数，不假称未来成功，root唯一读新实际。
