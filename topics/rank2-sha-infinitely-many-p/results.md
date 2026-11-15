@@ -461,3 +461,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R768 实际 r2 重做**：[三次有限纤维、固定最高主部与完整两输出](notes/2026-11-15-r768-actual-r2-cubic-fiber-and-full-two-output-source.md)。r2/ell1/k0、b0=m3、degQ0≤1/p≡11mod12未被首层帽排除；原qt²框和低二阶右逆给真二维最高层及Q2全部高尾。同S两输出、唯一常数二阶核2和实际ωord=2c0qt dt/FY全保；未认强接触F已存在或全球延拓已完成。
 
 - **R777**：[原B分量的P/t整核、完整中央返回与四单位余域](results/R777-original-b-sector-p-t-core-and-complete-central-renewal.md)。完整两核/174平方锚、P/t全矩形、W/Vt真两态及近消环带合法传原JT；四-unit仍有G′=−A1′−B1′，原负二/负五和174负一/负四全级数保。帽/CD/U/E全转置，P收缩不保原帽，未将局部非零换成全中央矛盾。
+
+- **R778**：[原全部S174完整角色、finite-χ负一平方与17不分歧点域](results/R778-original-degree174-full-characters-and-unramified-seventeen-point-fields.md)。全2×3×29谱和固定η/角/范数/primitive常数已付，所有存活finiteχ目标逐处root−；R772每个实际有限门的P负一行进入点坐标在17不分歧的有限point-log空间。完整正权Euler与R777平方锚定P核心β；不把代数系数的惯性混入点，不穿无限极限。
