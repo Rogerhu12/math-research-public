@@ -66,6 +66,8 @@ R793保原V6 142条件、第二关系/rank1116及264维残余；固定degree272�
 
 **R804（已证明）**：[原五低次数映射的整数循环复用](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)只读实际R794见证，五a(T)与C/C逆全整数；八个群律节点精确得到原五map。U6由原P线性组合，无第六混合求解；relative-x与y的DAG保原T⁷=ζ²、CM和完整Galois运输。仍原N≤196，函数合成无需五套Schur，β点值可在R792成功后先消费。两张反对角图的立方理想/min valuation及支撑saturation已严格给完整极除子公式；实际全局gcd/quotient/saturation适配尚缺，不能默认大算术闭点可拆小片。真正η、原刚性化和高度仍未求。
 
+**R804点消费者工程冻结pending**：[接口](notes/R804-original-CM-point-consumer-interface.md)，coreecd9fc2a/wrapper5126b836；原R791已含实际sigma/rho，四组25文件即可，不搬旧R754大包。旧R735/R791/R794三组18项IO全核；唯一待真实R792，未启用请求。Hom映射不同不能推出特化点不同，按实际点完整处理O/反点/二挠/doubling，核原T7=ζ²与八节点最终字，并用真群律核vβ。该点值任务不消费R803，不给原A有限核前像/极除子/η/高度。
+
 **R805（证明完成，实际adapter待执行）**：[正规两图及三重数缩小](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)、[完整契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)。原τ=e0、σ=e1+n e73在至多273候选有无基点铅笔，需真实690 minor；旧n=0模缺秩只复用、不误判特征零。R=S⊕S(−1)^144⊕S(−2)^127给272维原整基，primitive乘法/真实Krylov后在同一字段做两图HNF极理想，不能用奇异平面环代正规环。M6清极θ由5列残余核取得，3新增右端共一个V4块/full55项，不能把Uj直接塞V3。全部E_g=B+3D_g，B恰20cusp+P0；trace radical逐重数、两图重合/度数全验。六个Ddegree395/488/500/527/551/569，先按完整理想取V3非零u再flip，不假定569情形globally generated；标准degree272第二flip仅需≤297P。原ηprincipal为mathcalG³，三同源后mathcalG⁹R；真实多项式成本、二挠比较和c0刚性化仍保留。首工程pencil/graded basis已激活：core730a7d8f/wrapper0eddbd19，实际1272文件/34.9MB输入IO全过，n与minor仍待Actions。R806按需primitive与R807 M6清极工程继续；其余未输出，不预填η或高度。
 
 R791实下降三同源与R794低次数五基的双向变换保全原极化/η。C′:Y²=X³−27b、ψD=[1−ζ²]、微分因子3、主函数(-27)等全部常数必须保留；实际对称代表的二挠刚性化比较尚未求。

@@ -609,3 +609,8 @@
 - R805最小工程启用：root core/wrapper/workflow全文静态核、ordinary独立核原phase/79与39打包/alias及三组真实秩接口，exact真实1272文件SHA/size/schema全部IO通过；无本地新数学。core730a7d8f、wrapper0eddbd19，active request SHA4b2c6331a3ba8350818dda820f09c869f66892d97fb1eedf9b2cc209fc091460。
 - 原候选n从1起、坏素数仅记录模秩；真690 minor后取原144一次补基及实际127二次补列，形成690原S行，全41×20坐标/82⁶尺度核。源码保断点和旧recipe复用，不冒称primitive、极理想或η完成。新增课题外workflow serre-p41-original-affine-pencil-free-basis.yml，仅read/blob:none/一日artifact。
 - H逐字归档压缩；五次lift已推5f36d3fb8，两README差异空。R787/R803继续，R804点消费者待R792，R806 primitive/R807 M6清极继续准备。主目标OPEN。
+
+## 2026-11-15 18:45 Asia/Taipei · serre-public-astra-20261115
+- R804点接口/core/wrapper及pending登记：root全文核、exact独立核八个原Hom链、T7相位和实际点的完整O/反点/二挠/切线分支；原vβ以真群律核，不以含零分母的仿射式代特殊点。
+- ordinary仅纯IO核旧R735/R791/R794三组5/7/6=18项与R794 carrier来源，R735旧core receipt无result已按原schema处理；完整四组25项仍待实际R792。coreecd9fc2a/wrapper5126b836/interface094644a3/request087bbd4e，未执行本地新数学、未创建active请求。
+- 新增课题外workflow serre-p41-original-selected-CM-points.yml，read/blob:none/一日artifact。R805最小请求已推9f960b8e0，非快进立即pull/rebase循环成功，两README无变化；R787/R803继续，R806/R807消费者接续，主目标OPEN。

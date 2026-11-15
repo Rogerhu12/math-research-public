@@ -391,3 +391,5 @@
 - **五次水平lift与原Steinberg矩阵系数（已证明）**：[五次水平lift/Legendre矩阵系数](notes/2026-11-15-sigma-horizontal-quintic-lift-and-Steinberg-coefficients.md)已证：Lz=A∂z+6DAz、Lt同式，Lz²Lt³水平且P0=(6B)^5z²t³，原h无溢出送至总阶p−1。真实O2旋转a²=2s/(s+1)的归一T̂=a^(1−p)T对角恰P_(h−1)(1/s)，原平方常数准确α₀s/6。全偶空间真字符ρ(q)=q^((p+1)/2)J_(√q)^−1在u/v基给q^−h；原z/t系数仍被非对角混合，原period/split向量及所需配对尚未识别，未证同标签非零。 SHA256 7df880f263d6fd06a35a5d152ef34239cc9e0e16f1eec0f5283e0afcf4ecca5f。
 
 - **R805（公开最小工程已成，实际请求已启用）**：[执行契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)。R775/R786/R799实际1272文件/34,932,611B源输入IO全核；原V1/V2/V3 monomial alias优先，仅算缺积，真实820×836铅笔minor、291+127补基及690条S基/82⁶尺度完整认证。core730a7d8f/wrapper0eddbd19；无primitive乘法、M6清极、极理想或高度预填。
+
+- **R804（原CM点接口已证，公开工程冻结pending）**：[实际点分支与八节点消费者](notes/R804-original-CM-point-consumer-interface.md)。原R792 β经原sigma/rho和实际椭圆点分支给五所选g(c1)，点碰撞不按Hom字误判；另核β−[ζ²]β=原vβ。四组25文件契约，旧三组18项IO全核，唯一真实R792尚缺；coreecd9fc2a/wrapper5126b836，只pending、不激活，不预填点值/η/高度。

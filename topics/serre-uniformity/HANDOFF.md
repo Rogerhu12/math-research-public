@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e**（2026-11-15T10:44:59.338582+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：9f960b8e0b2fa825ab1391e86db4e1383ffdd700**（2026-11-15T10:46:02.292495+00:00 终端实际pull后已比较两README；无变化无需重读）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
@@ -29,7 +29,9 @@ R797/R799/R800全部真实输出经公开IO run43699442183核过：五map N170/1
 
 **R804** [整数循环字/八节点](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)/[方法](notes/R804-original-relative-coordinate-addition-DAG-method.md)，proof98d3e253/method98bb9387。五a(T)和C/C逆全整数，仅对这五元素、不外推完整Hom/NS。U6由原P给，relative-x/y保T⁷=ζ²与全Gal；输出candidate0/3/1/21/15，degree1485/1521/1602/1674/1728、N≤196。R792返回先做真点，特化相等/相反/O须按实际坐标分支。两图反对角立方理想/min和支撑saturation已证，实际未执行。
 
-**R805已证明**：[原272维整基/三重数除子](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)，proofb48d9f8d/methoddf706176。τ=e0、σ=e1+n e73，真秩V2²→V3=690−degG；旧两锚mod缺秩只读，非char0失败。真无基点后R=S⊕S(−1)^144⊕S(−2)^127，两正规图整基272；primitive乘法最多272个V3右端、实际Krylov minor，平面幂基不能代整闭。M6清极θ∈H−2E由5残余列真核，另3右端共V4块/full55项。全部E_g=B+3D_g，B=20cusps+P0，P1不分歧；trace radical逐重数提取，不选Jacobian三除点。Ddegree395/488/500/527/551/569，完整ideal membership使569也可V3两flip、padding≤297P，局部只按需续。G=u/v保全标量，原ηprincipal mathcalG³、三同源后mathcalG⁹R。新铅笔/乘法/理想/Jacobian均未算；首core仅pencil/graded basis，实际有理多项式成本不得省略。
+**R804点工程冻结pending**：[点接口](notes/R804-original-CM-point-consumer-interface.md)，coreecd9fc2a/wrapper5126b836/request087bbd4e。仅R792/R735/R791/R794四组25文件契约；旧三组18文件及carrier已真IO核，R792仍待成功，禁止预填/激活。actual点坐标分支覆盖O/碰撞/二挠，原T7/五Hom字/vβ核验，节点断点保留；不选原A有限核前像。
+
+**R805已证明**：[两图整基/三重数除子](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)，proofb48d9f8d/methoddf706176。真两锚秩690−degG；无基点后自由S模度数1/144/127，两正规图272整基。primitive须真实Krylov/full820恢复；平面幂基非整闭替代。M6清极θ由5残余真核与另3右端/full55项。E_g=B+3D_g、B=20cusps+P0，trace radical逐重数；最大Ddegree569仍以完整ideal作V3两flip、padding≤297P。G=u/v保全标量，ηprincipal mathcalG³、三同源mathcalG⁹R。极理想/Jacobian/高度未算；详细度数与成本见原证明/仿射运行前H。
 
 **R805最小工程已激活**：core730a7d8f/wrapper0eddbd19，request4b2c6331；R775/R786/R799实际6/1260/6文件、34,932,611B全部IO通过。仅缺monomial乘法/真690铅笔/127补基/690 S行；旧alias优先、失败与完成stage同源续接。root全文及ordinary交叉审通过，实际run待读取，未预填n/minor。R806 primitive乘法、R807 M6清极消费者正在专属草稿准备。
 
