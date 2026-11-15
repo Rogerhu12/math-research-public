@@ -437,3 +437,11 @@ W1–19全文9814B/85169eb7…经tail独立核W5/W15/W17和源单位。S12复K�
 同一原real|δ|≤1e−8、η0、真实外端C/独立mean/height及fB均保。τ是整个long上的t无关真角；bare unknown complex composition不单独使用。fullgraph解析族<2^64，接W窄域G0z与真port后outer反馈族<2^128/宽2^-128，real norm仍O<1/8。接下来组合完整全δ有限Sob时，原physical fB需real角Hs+2转换，统一源预算预留到2^2400000；尚未授非线性joint状态球。
 
 root另亲读Green04:39 process476b5e9c…46209B：1658/5970、52chunk、failure null，10次真pull/两README差空，最新04:39:00.501766→918fdb11dbb7a424b6149b405e2c7fab3cc0c737。出版只读main 6a9e8639ca055fb75fa3d8892fd5a9ba4c6b6f01两README blob未变，H已记。原全部target/Gram/矩阵无重算；继续已运行Green与原6case源行诊断。
+
+## 2026-11-15 04:54:12 UTC — X1–20 完整原全实δ、真实外端的有限Sob帽逆
+
+root逐式合并W主体和T真实long外图，保持同一个G0与同一物理M_s；没有重复乘各自resolvent。real反馈<1/4+1/8=3/8，复族分别2^64/2^128、合计2^129，宽2^-128。M2^1024对−3/2..2114付signed-lag差<2^-625，shift inverse<2，全部原affine/source列2^128转shift<2^259，解<2^260。
+
+原physical fB保Hs+2而不是pulled norm改名；真实τ/τ逆由原小角图在复域构造，仅在实圆做未知源换元。Faà di Bruno、密度伴随和插值给2^131072，最终完整源<2^2400000。原DΨ0 inverse在实际反射方向另逐项计费，moving L∞rHs<2^2600000，不交换radial sup/ℓ²。全部mean/jump/height/真正B0/C0、正长反射和原residual Hessian保留。文件11565B SHA256 e0ec4a90c68329350b95f974ac036729f3c0a83ea7a2da8c94a2fdafc9a538b6；无新增数值计算。
+
+X仅闭显式Qδ处完整帽线性门；同域非线性修正、变化强尾背景及精细97参数误差仍各自继续。根新规15已实施发布器迁移；freshmain 990f114a79cd15aa5e8b6bcf7034cbd38aa64adb两README未变，已读b6dd686c…记录在H。

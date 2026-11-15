@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133补充 X1–20：原全实δ区间真实变动外端的完整有限Sob帽逆](results/R133-supplement-complete-real-delta-true-outer-finite-Sobolev-cap-inverse.md)：W+T在同M模块合并，real反馈<3/8、M2^1024 signed-lag差<2^-625，完整−3/2..2114原源增益<2^2400000。原physical fB两导入口及真实密度换元另付；实际反射moving L∞rHs<2^2600000，所有mean/height/原R0/正fee保。仅显式Qδ线性，不授近邻非线性域或精细97 ν。
+
 - [R133补充 T1–25：真正全δ固定角外图的有界解析平移族](results/R133-supplement-full-delta-fixed-angle-regular-graph-analytic-translation.md)：同一t无关τ pullback保j加权mean/primitive/holonomy根，joint背景6F，真实C_R逆<18；full外行族<2^64/宽1/512，接G0z/真实port后反馈族<2^128/宽2^-128、real<1/8。完整复Hilbert差核及fB两导图明确；全δ高/负Sob合并另付，不授未知非线性状态域。
 
 - [实际两真实邻片的完整相关第一Airy源](results/R133-supplement-actual-correlated-complete-first-Airy-sources-on-root-neighbors.md)：43676926141/1 child0/14门，原28逐字+50新=78stage；两邻片28完整新行在6case全选，4215原行复制不变。R=.001全负<1.44778643289190e20/正<9.68645446951086e19；保9词5mean/1079真缝/653ledger，继续剩余主导和真实seam/strong-return。
