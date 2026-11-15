@@ -42,7 +42,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 R575真正正商是Ψθκ4、根号负，旧相反扭向秩零应用撤回。R616/R726已给全部充分大允许p的原β非挠、rank=dim、原log同构；R719/R722真实有限迹和完整尾已成，不再加因子数前提。复非消失不代同标签模p单位或高度排零。
 
-R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={0}。R724完整保原MW/第二类周期、Hecke轨道、因子2、Poincaré/universal extension、非p项、规范平方线丛刚性化和全尾，不假设高度矩阵可逆。真正缺原β/η、规范高度jets与(724.33)有限Bézout及其对全p存在。R785 Rosati压缩保CM值和切向两列，实正定不代p进非零。R730/R742/R744全尾和Weierstrass接口已成；深度4/5/6实际根与原高度未得。
+R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={0}。R724完整保原MW/第二类周期、Hecke轨道、因子2、Poincaré/universal extension、非p项、规范平方线丛刚性化和全尾，不假设高度矩阵可逆。真正缺原β/η、规范高度jets与(724.33)有限Bézout及其对全p存在。R785 Rosati压缩保CM值和切向两列，实正定不代p进非零。[高度符号核对](notes/2026-11-15-depth-two-symbol-and-original-height-leading-class-audit.md)明确R634已给逐盘非恒零；原D2深度符号不决定c1二阶系数，真正T_p保留第二类周期/原d_i与两Θ列，未新增非零结论。R730/R742/R744全尾和Weierstrass接口已成；深度4/5/6实际根与原高度未得。
 
 **R823一般p原c1评价强化已证**：[原Hom不分歧](results/R823-original-primitive-Hom-CM-nonramification.md)。在原M2,1≠0时，K有理c1与局部s=a−1使评价核在R819原域作用下稳定，实际Hom拉回基给非零评价，故全部非零实际primitive L-Hom在c1不分歧；R729给充分大允许p前提。保J_h=c_h M2,h s/16+…、原β常数及c0归一化；共同m=1已是R729结论，不重做。未给单位/深度4或高度外积精确阶。
 
@@ -92,7 +92,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R810（已证明）**：[原toric完整单位偶矩与曲率链配对](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。原P_T exp(tE)P_T=P_r(1+2t²/3)P_T给全部(2j)!·binom(r,j)binom(r+j,j)/3^j单位；完整Hankel非退化，原toric线的E链和观测链均为基。K^p(P0)=3B²E的压缩高偶矩仍为单位，但P_T不水平、P_TKP_T零曲率，真实源方程必须保[ K,P_T ]v。实际u_h在Legendre零时不能归一，整链非退化不保证原指定系数；继续原z/t到同h的完整源配对，未筛与primitive/Legendre共同非零均仍OPEN。
 
-**惰性Gaussian原源固定分解（已证明接口）**：[四个CM形式与八oldform](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)。原mod6 harmonic7准确分解为F3/F7(level36)和G1/G5(level144)、nebχ12；模6单位相位/π2与1/d原函数常数全部保留，八源矩阵是Z[ζ8,1/2]整基。原p11mod12 Hecke多项式T²+p⁷与U_pJ=−p⁵V_pJ给逐系数整性；由原U及Q正则得八个缩放原CM值的合法评价，真实FG=(c²/32)Σκνeν,p。尚无指定组合非零；固定八运输待算，不用标准七次Eichler积分或Frobenius斜率代值，不新增素数窗。Schütt Thm1.4已独立核全文。SHA c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30。
+**惰性Gaussian原源固定分解（已证明接口）**：[四个CM形式与八oldform](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)。原mod6 harmonic7准确分解为F3/F7(level36)和G1/G5(level144)、nebχ12；模6单位相位/π2与1/d原函数常数全部保留，八源矩阵是Z[ζ8,1/2]整基。原p11mod12 Hecke多项式T²+p⁷与U_pJ=−p⁵V_pJ给逐系数整性；由原U及Q正则得八个缩放原CM值的合法评价，真实FG=(c²/32)Σκνeν,p。尚无指定组合非零；固定八运输已由R826准确完成，不用标准七次Eichler积分或Frobenius斜率代值，不新增素数窗。Schütt Thm1.4已独立核全文。SHA c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30。
 
 ### ordinary真实值与原全局对偶
 
@@ -115,9 +115,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R816一般p cusp轨道缺口已闭**：[证明](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。原Y_K标准level2p模型的准确剩余域为实Q(ξ_p)^+，c=3m−1与L/K次数m互素，Y_L/X_L全部cusps单轨道；X→Y原三次盖总分歧而剩余域不变。L定义截面全部cusps同阶。R818原首cusp系数char0非零及真实Hom存在、R819原K[T]=Q(ζ_(p+1))秩一与评价核稳定均已证，故每个非零实际primitive L-Hom在全部cusps不分歧；R821现以实际整Hom格/Φ_n(±1)=1证明全部cusp像O，原y在Y的cusp极均简单；非cusp极除子仍待真实函数。原r=x/a与η=h/a阶(p−2)/3；不把char0结论当p单位或同h三单位。
 
-**惰性固定八源实际执行已准备**：[方法](notes/sigma-inert-Gaussian-source-transport-method.md)。core70e565af/wrapper2d61eb03，Sage10.6；原R812未保存完整U，故只恢复必要6×6基，不重跑旧六案例。新36特征/八EO运输，保存U和两8×8全24有理坐标，零FG/HJ合法；真实run/CM值均待，不以矩阵可逆代指定组合非零。
- 
-**R826（已证明）**：[原惰性companion theta的准确CM配对](results/R826-original-inert-companion-theta-CM-pairing.md)。逐原Gaussian理想给Jν=θ_t⁵Cν,p modp，C为权p−5，p|n项先约去分母留p⁵，old d^(p−7)保留；反∞型重指标仍全纯。共同tame1728层上原λ^k截面正则，T_j=A D+jDA运Katzθ，五权p−5…5p−1在P0给−120B⁵。原交替卷积准确=−120c²/d0·Σκν Cν,p^sharp(P0)，外常数全允许p单位；六个零行同时运输。指定CM和非零仍开、权随p变，不代同primitive/Legendre标签。SHA 3b82dfef8f09993b616a8ddc478004af6c79192f0e74eef201419363bd0621be。
+**惰性固定八源已准确完成**：见下列R826实际结果，原U/八源矩阵/全24坐标直接复用；先前准备态已结束，禁止重跑旧六case或固定运输。实际六个CM值的指定组合及同h三单位仍是缺口。
 
 **R826固定八运输已准确完成**：[六单位系数与两零通道](results/R826-certified-inert-Gaussian-source-transport.md)，run43725592504/sourced3a42168。FG/HJ的G1/G5准确0；F3/F7各d1/2/4系数清分母Norm仅2/3/11，对全p≥41单位。原source det−8192、完整运输det分母11^16/整Norm2^600·3^432·11^320；U6×6/源8×8/运输8×8全部24坐标已保存。canonical39280B/SHA916e1b95从完整日志重哈希，公开全manifest verify成功，artifact14165618753/17813B/平台ZIP7f0bd3bd至Nov16 14:40:58UTC。原未筛式缩六CM值，未知和仍可相消，不代primitive/Legendre同h。result SHA a37f2e4f5635a2183822ad4fccd7f38fb21d6213301e1bb53c961aa97697663c。
 

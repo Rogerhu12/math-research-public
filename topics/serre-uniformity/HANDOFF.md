@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：4d986fea825886472bb2def9a47b51c4cee5b8fc**（2026-11-15T16:11:41.588302+00:00；公开run43714581068/attempt27/job132872684711真实git pull --rebase origin main，两README无diff）。14:34UTC环境失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。完整前态逐字保[R827激活前H](notes/2026-11-15-handoff-before-R827-active.md)，内接全部历史；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：e7ea7c3f26a521e1b86501c883c85ef581936906**（2026-11-15T16:16:03.507174+00:00；公开run43714581068/attempt28/job132873977184真实git pull --rebase origin main，两README无diff）。14:34UTC环境失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。完整前态逐字保[R827激活前H](notes/2026-11-15-handoff-before-R827-active.md)，内接全部历史；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
@@ -24,7 +24,7 @@
 
 [R827充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)，最终proof17e9c828：原C两图monic20/单位常数给整Laurent拼接和flat商；两族原导数按a+2k齐次化，tδ−(a+2k)δt保像在原I_k。真实τ整多项式右逆＋σ∞rank272经proper/Nakayama迫char0 I_q=C；单点rank/函数域rank均不够。σ可用q+1递减jet，不再做第二图全HNF。
 
-**首实际消费者已激活**：core85916B/d9cf7739、helper38baf6b4、methodc55655f9和wrapper87825B/dbd8356e全文核毕；workflowbbb0b8ea，请求15242B/1804789d已填六个真来源，首q4/300min、cache=[]，无PENDING。[执行契约](notes/R827-original-modular-derivative-surjectivity-consumer-method.md)。R820同列同时保存normal_basis_index/exact_original_normal_basis_column与first_dependent_power/monic_diagonal_degree，两套字段一致，不改算法。首run待提交后读回，q4不是答案。
+**首实际消费者已激活**：core85916B/d9cf7739、helper38baf6b4、methodc55655f9和wrapper87825B/dbd8356e全文核毕；workflowbbb0b8ea，请求15242B/1804789d已填六个真来源，首q4/300min、cache=[]，无PENDING。[执行契约](notes/R827-original-modular-derivative-surjectivity-consumer-method.md)。R820同列同时保存normal_basis_index/exact_original_normal_basis_column与first_dependent_power/monic_diagonal_degree，两套字段一致，不改算法。公开run43734420663/job132873746638/source400edecfeab313d1858cdb72bf18f8452ab9566a已进入消费阶段；q4不是答案。
 
 原ell1000000753/branch0/canonical1186：单位Schur给真实B的整lift，S5单位块给vB；必须保integral_B=lambda*b。W的8单位cyclic节点给MB，vg/vh的6/5点给Mg/Γ，保6724一次及σ负幂相消。B·d_i有272列/权5,6^144,7^127，只是子理想，额外零可使充分检验失败。旧同prime节点/逆/模image直接复用，首reusable_stage_sources=[]。先∞真minor，再τ完整Hermite/Bézout；missing-pivot不冒称总rank；增q复用全部已成变换和系数。尚无实际q；只有q4真通过才D约化/K1。
 
@@ -50,4 +50,4 @@ R806 W（run43707290840/w=e2/τ）与R813 vg/vh（run43715253991/scale6724各一
 
 R816/818/819/821/823原cusp互素单轨道、K[T]上Hom秩一/评价核稳定、整格Φ_n(T)迫cusp映O及原y简单极已闭。c1不分歧的充分大全p只用R729；不新增p单位/高度。原p41陪集/周期/Hom及R707完整129盘关闭，所有原b=r0⁶、L/K7/M/L40、αs/CRT6逆/ζ²一次/246/c0/c1尺度不改。
 
-主要剩R317的p2/5mod9完整非分裂正规化子、a³+db³1/p|b，D/bc无统一上界。R575真实正CM根号负，旧逆twist秩零应用撤回；R616/726只给高度输入。R724原eta/beta、规范高度jets/(724.33)及全p证书仍缺。R634已证明真实E_ij非恒零，不能重复登记；R785首项商类T_p/两个原Θ列仍未知，exact_height只继续这一缺口。ordinary p43/776bitq已Gaussian5排除；真实Robert/Kummer/Shapiro/globaldual/Θ仍缺，禁巨大q挠点枚举。
+主要剩R317的p2/5mod9完整非分裂正规化子、a³+db³1/p|b，D/bc无统一上界。R575真实正CM根号负，旧逆twist秩零应用撤回；R616/726只给高度输入。R724原eta/beta、规范高度jets/(724.33)及全p证书仍缺。R634已证明真实E_ij非恒零，不能重复登记；R785首项商类T_p/两个原Θ列仍未知，[此次高度核对](notes/2026-11-15-depth-two-symbol-and-original-height-leading-class-audit.md)保同一清对数分母等式，D2深度符号不决定固定c1二阶系数；非恒零已属R634，不另立R。exact_height继续实际统一接触阶/原高度缺口。ordinary p43/776bitq已Gaussian5排除；真实Robert/Kummer/Shapiro/globaldual/Θ仍缺，禁巨大q挠点枚举。
