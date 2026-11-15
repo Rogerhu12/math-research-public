@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 1b09dba70fddeaf4b21b0f4d2f518f570b47b088（2026-11-15 22:12:05 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 095ca270433abd339346790ffa35e4205b08b000（2026-11-15 22:13:30 UTC，Actions run43768075242实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43768075242-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -42,6 +42,7 @@
 - [真实返回](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)保E=High+Zfull、e=PEY/帽e=P_hatE Kamb^-*PEY及零源正交；同w/f主配对、cut仅重叠ν≤h。Riordan专窗R=ceil4expτ、h=d+R、C0固定，不混小窗。
 - 原位置形式/Hardy及q伴随真旗运输保持原自然域、完整PE反馈与全部partial；精确常数及来源保前态和下条二阶结果。
 - [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)在自然DomGpos付真实PE反馈与B伴随对易：||Gposu||≤40QΔ；返回/q/帽/帽q常数240/530A0/530C0/1040C0A0，乘Q√νΔ。Lpos*真上2带给全部Fj二阶O(νQ²Δ²)/无h，原u用f−u保Δ。
-- **[同低forcing正Gram及整moving行](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** Z=PV/K/e i0的任意尾对删除交叉为正，真实分块DαZ=MαDZ且Mα≥0/ΣMα≤I。Fi≤4(i+1)/3给Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3；双缺陷源Gram GΔ保全部交叉，Σ|<Ei u_f,w>|²/(i+1)≤(8/3)Δ_f²||w||²，无Q/头维损失。仅全K有压后C*↔−D*桥；不升成Σ||Ei u||²、不假返回帽列等于ZR，顺次MP负部仍开。
-- **[实际连续尾势与完整源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z，𝒱(I)=Σ占bi²+2Σ占i/空j bi²bj²/(bi²+bj²)，保碰撞；夹在(1/3)Σ(i+|I|+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}Z的完整Gram逆读数≤3(L+r+1)³/p；双缺陷用联合(De,Dk)加常数2，不替Du。不同head来源合成行保ΣRi*GΔRi，帽返回像识别/顺次MP仍开。
+- **[实际低forcing正Gram](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** 真尾删除交叉正，DαZ=MαDZ/ΣMα≤I；完整creation行≤4I/3，双缺陷行≤8I/3并保GΔ/全部交叉，无Q或头维损失。原V不自动C不变；不把帽列认作ZR，顺次MP仍开。
+- **[连续尾势/源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z保全部碰撞；配置势夹在(1/3)Σ(i+n+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}完整源逆读数≤3(L+r+1)³/p；同u须联合(De,Dk)加2，不换Du/环境D†。
+- **[真实joined创建来源及完整Gram](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)：** Mq=kerQq(C+D)=K+Hhi,q，保全部高旗/零源；P_Mq p(D*)i0=P_Mq i0p(−C*)，同一K及gap也真。σj²=(j!)²ej(b²)给G≤Hcoh^-1，Hcoh=Σ(C*)^jC^j/σj²，保共同2×2残余。deg p≤q时原两Riesz源同合同，完整物理投影还含共同PKqF；gap核反馈及帽返回全E逆仍未付。
 - 此正预算不付返回列、Feshbach逆或顺次MP相对位置负部。共同热/预解保D/C/cut/核旗/自然域；仅primitive f的L*Tf∈kerD³由[相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)、额外F2/全部partial；actual u/Tu表示仍开，L_U*u=−B*k不倒置。G_reg同forcing/carry、Haar普通循环性、正常有限秩链及open全部旧接口继续。
