@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `8ad75d67d80cf6874024badda234dbd1e6682391`，2026-11-15 18:38:24.629000 UTC，run43747845778双README无差；下一最迟19:38:24。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `1689b65d76f69a6892038d73aef669b8159a85af`，2026-11-15 18:40:41.078674 UTC，run43748050775双README无差；下一最迟19:40:41。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 18:38:27.612816 UTC实际pull/read `13740b17afafb30dfadf735b1e15d7b43ba06e2e`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
+私有2026-11-15 18:40:43.504585 UTC实际pull/read `ba3378af0eeefc95fbb7d3701ea54824ae2d5ad2`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -25,7 +25,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **扩池SOC实际**：[原结论](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/job132905938795/5fa2424，10新检查过，117/119依赖/原cfg及原9bank准确；7接受、9primary+3旧SOC，η.266366277975→.266347520761、fineκ57.999988521；原门/盒过，.26欠。新expanded生产0，下降非其效果。m3/m7细网新行、m2/6旧17guard，末bank11/B1/8000/streak0；完整费用/首fixture只读失败保原件，不重。
 
-**旧m10唯一新SOC已发8ad75d6**：[设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)，精确x/y159/163、bank9及完整新池；唯一72480/144960删除恢复旧4417/4091版本4/7。历史11LP只留新slot12，不造旧wall余量；m10首启动43747845778在driver前缺旧workflow检出失败，全部新人工/科学0；[首失败](notes/observed-m10-first-launch-sparse-dependency-failure-20261115.md)保。只补sparse旧workflow，源/科学全不改，新7及SOC仍首次待出。原scalar/J两factory hash重放只容两个evaluation元数据叶差，真实e/f/ID/物理全同；y两网/新ID必同、actual d及只读y保。active120从旧J前、SOC10s、新ordinary含末验≤8；rebind须实核saved-x命中。0回溯/递归，历史x作基准，结果待消费，不冒当前best后继。
+**m10 run43748050775**：job132915623212/source1f794c77，7新人工全过，旧10/117只读复用；exact x/y两网η/κ差全0、14门同，旧scalar/J两factory签名重放过（仅2evaluation叶差），9bank/hash全同。新两ID72480/144960/池5,8准确，但capture full_views(y)遇epigraph_cache None，尚未rebind/J或SOC；4新ordinary/0LP/0末验，active35.496937388s，x初始化226.895550283s，过程280.088787387s。不是数学失败/分支效果。原x保留，修新布局行视图恢复顺序，已过7不重跑；原117/cfg/g/b0/159/163/预算与gates全保。首43747845778只缺sparse旧workflow、科学0保原note。当前主线best仍扩池实际.266347520761，不用历史x冒后继。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -52,4 +52,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main a9d5db83fc0dda7a8b15005522d16f070cae5fec，双README blob同。API读取不冒实际pull。
+断连API复核main c7982f5f61c1b91dad1d9cbd2e70956fff07fc56，双README blob同。API读取不冒实际pull。

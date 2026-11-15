@@ -121,13 +121,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### m10唯一新扩池SOC已发：消费同一已观察失败点的首次新分支
+### m10首次恢复已过，扩池捕获缓存接口失败；修复后完成唯一SOC
 
-[扩池首实际](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/5fa2424新10检查过，原cfg/159/163/两池/bank9准确；7模型9primary+3旧SOC使η.266366277975→.266347520761，原门过但.26欠。新expanded rebound生产0，下降不能归该分支，旧费用/失败原件保。
+原expanded run43744903357/5fa2424的7模型仍只执行旧same-layout路径，新expanded生产0；当前主线bestη.266347520761/fineκ57.999988521，原门过、.26欠。原norm run43741276060的m10失败x/y/完整两池/9bank可恢复，历史11primary留1slot；不虚构旧wall余量。
 
-[恢复性](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)已付原43741276060 m10 x/y完整159/163、bank9及新池；原m11无池变化，原sep证唯一72480/144960，删后旧4417/4091版本4/7精确。历史前10模型11primary、SOC0，剩一个slot；不虚构未存的历史wall余量。
+新run43748050775/job132915623212/source1f794c77已完成7新恢复/签名人工全过、原10检查及117依赖只读复用；x/y的两网η/曲率差全0、14gates同，原scalar/J两factory历史签名重放过，仅两个evaluation元数据叶不同，其余物理/IDs/e/f/de/df全严格。9bank/state hash07a1f00全同，新y确实重获72480/144960两个ID/完整池5,8。随后冻结capture→full_views(y)因扩池后epigraph_cache None报错，0rebind、0SOC、新ordinary4、末验0，属于接口失败，不是负算法结果。active35.496937388s，x ordinary初始化226.895550283s，process280.088787387s；原x保留、没有z。
 
-[唯一新设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)源码两份54.7/12.6KB、原119绑定全同，含workflow共122；request-observed-m10-soc由独立public workflow调度。先读原run成功10检查/117源，不重执行；只执行新7 JSON/签名域人工。恢复同x原J并重放旧两factory签名，只有两个evaluation metadata叶允许变，e/f/de/df/ID/物理全严格；当前最终binding另取两factory之后。y原门/两新ID必一致，冻结capture保actual d、原只读y；扩池只重新J，saved-x ordinary命中须实际计数0。scalar/full gain都过原floor才唯一SOC，共享历史slot12/LP10s，active120从旧J前起、ordinary含末验≤8。无primary/回溯/递归；z按全原门/降幅验、原y学习不删所以不得hold。对历史x比较，不能冒当前globalbest后继。首次43747845778/job132914985984在driver前核源read_bytes缺未检出的旧workflow，人工/科学全0；[失败原件](notes/observed-m10-first-launch-sparse-dependency-failure-20261115.md)保。只增sparse旧workflow/新自身hash，122源仍全绑；新7与分支首次执行待消费。全部完成门仍欠。
+下一仅修新driver的扩池后同y行视图恢复，真实计数核不增ordinary/不改gates。已过7人工不得机械重执行；公开源证明复用后只核新增接口。原117科学源、source cfg、sameg/b0/159/163、source12LP/40值/120active/SOC10s全保，原y学习不删，不能冒hold。科学payload只runner/stdout；首43747845778的sparse缺项发生科学前0执行，原失败note保。仍只对历史x比较，不用它替换当前更佳主线；全完成门欠。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
