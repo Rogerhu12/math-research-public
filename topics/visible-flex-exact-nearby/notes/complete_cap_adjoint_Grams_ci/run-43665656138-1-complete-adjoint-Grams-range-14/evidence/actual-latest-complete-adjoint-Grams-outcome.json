@@ -16,9 +16,9 @@
     3720
   ],
   "completed_bundles": null,
-  "completed_quarters": 84,
+  "completed_quarters": 175,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 84,
+  "new_completed_quarters_this_child": 175,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 3554,
+      "index": 3645,
       "request": [
-        888,
+        911,
+        4,
+        1
+      ],
+      "interval": [
+        "10059915667638847/9007199254740992",
+        "157215502616931/140737488355328"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[2.2282744680950693344416751303447381e-19 +/- 2.12e-54]",
+        "lower": "[2.2282744680950693344416751303447381e-19 +/- 2.12e-54]",
+        "mid_float": 2.2282744680950693e-19,
+        "radius_upper_float": 0.0,
+        "upper": "[2.2282744680950693344416751303447381e-19 +/- 2.12e-54]"
+      },
+      "exact_array": {
+        "bytes": 344632,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-3645.npz",
+        "sha256": "210bedffc359917aec46a74b972db4fad66bfdbbf6fca0c7eea1257fa3771501"
+      }
+    },
+    {
+      "index": 3646,
+      "request": [
+        911,
         4,
         2
       ],
       "interval": [
-        "9825353187046633/9007199254740992",
-        "19658212373472217/18014398509481984"
+        "157215502616931/140737488355328",
+        "10063668667328321/9007199254740992"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[1.0370583223136608875357121660065824e-16 +/- 3.51e-51]",
-        "lower": "[1.0370583223136608875357121660065824e-16 +/- 3.51e-51]",
-        "mid_float": 1.0370583223136609e-16,
+        "ball": "[2.2308757155427819592340380423949878e-19 +/- 2.03e-54]",
+        "lower": "[2.2308757155427819592340380423949878e-19 +/- 2.03e-54]",
+        "mid_float": 2.230875715542782e-19,
         "radius_upper_float": 0.0,
-        "upper": "[1.0370583223136608875357121660065824e-16 +/- 3.51e-51]"
+        "upper": "[2.2308757155427819592340380423949878e-19 +/- 2.03e-54]"
       },
       "exact_array": {
-        "bytes": 344588,
+        "bytes": 344602,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-3554.npz",
-        "sha256": "701144c8bc29d4701913b1cbd2abc6ef37b520a129ab0081aa61b31b7127310c"
-      }
-    },
-    {
-      "index": 3555,
-      "request": [
-        888,
-        4,
-        3
-      ],
-      "interval": [
-        "19658212373472217/18014398509481984",
-        "614553699151599/562949953421312"
-      ],
-      "true_adjoint_Gram_trace_upper": {
-        "ball": "[1.5593929839532749975223345784372792e-16 +/- 2.48e-51]",
-        "lower": "[1.5593929839532749975223345784372792e-16 +/- 2.48e-51]",
-        "mid_float": 1.559392983953275e-16,
-        "radius_upper_float": 0.0,
-        "upper": "[1.5593929839532749975223345784372792e-16 +/- 2.48e-51]"
-      },
-      "exact_array": {
-        "bytes": 344491,
-        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-3555.npz",
-        "sha256": "04e4335e18d77da3a135cce1c9bc01932dce8d4c5c9add250176927015025e54"
+        "file": "adjoint-quarter-3646.npz",
+        "sha256": "6f569e2e10ead1912ca18842643e7b13c420286a134d9471d8148e168c3eb7d7"
       }
     }
   ],
-  "native_sha256": "c556489c5a257fd28e58a912c3bcaefd78afd837293652278df3e4afdac8b73b",
+  "native_sha256": "d5fae8cc34231491652a77eab1c487be2e0de61a446bd110bdf82665129e6dcf",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:15:43.246443+00:00",
-      "before": "ba1698aa6ab3c5a60e4e287f610e76174addc9b2",
-      "after": "49e3791eb6050abd0e185ab7703f2d2885e85c4b",
+      "time": "2026-11-15T02:26:22.262082+00:00",
+      "before": "f4611e265c91f157a972908b367a49facf236298",
+      "after": "c6a41d8452cba99e6a6ce9afed6d8d1051b274c5",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
