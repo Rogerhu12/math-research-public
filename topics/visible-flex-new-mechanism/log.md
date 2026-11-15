@@ -381,3 +381,7 @@ root全文读新库及589行driver、实施/CLI/人工；库最终仅JSON list�
 - 2026-11-15 02:51:10 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交4236a5b6994a0aa0f530995e567fd6a52282719f记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 02:51:23 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交91fefda82ca19e1426cd3da83caae9bd787ba543记录于H；继续推送同一完整结论，无force。
+
+## 2026-11-15 02:52:28 UTC — R173唯一有理点公开核对，原关系另行推进
+
+root全文读655行新consumer/设计/7人工，18发明多项式及近重根仅人工调用完整半轴oracle；实际明确不调用。四件原输入绑定，全部stored degree经原B投影后检查支撑，仅free12改−1/2，全68行/14族/同μ/c/d保存。继承R172/R173精确系数匹配而不重做平方恒等、Gram或旧积分。谱几何43669710846继续，源码/旧源hash均保，下一等待指定点回执与147原列新真实关系。

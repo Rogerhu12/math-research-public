@@ -22,6 +22,11 @@
 
 下一保同g/b0/163、完整两jet、原高度均值384/primitive及12LP/40值/120s，软提案改成两谱支ηε±=(±e+√(e²+4f²+ε²))/2，ε固定1e−8，每支上偏≤ε/2。实际验收仍是原真实η/Schur、旧budget167/625、新目标13/50、硬κ58和所有物理门；不能靠平滑值改变门。原metric0/1 ID明确映射新谱支，其余2–10不变，继承本次失败报告和全部新池。SOC用同y实际残差；新人工导数/语义后仅公开Actions运行，不重跑旧实例。
 
+
+### 当前谱目标实际派发
+
+独立[谱恢复实施](notes/spectral-metric-recovery-implementation-20261115.md)已完成：仅两个软谱行与解析Jac变化，完整20输入/82参数继承失败新池，原真门/控制器/12LP40值120s不变。新增人工33.377s全过，完整原生摘要含逐值谱slack、旧Schur slack、真η表；实际43669710846/sourcec33955d7已运行，待新完整输出，不称.26已到。
+
 ### 仍须支付
 
 1. 把完整连接的metric误差降至同g精化收敛；有限首jet修复和现有163维改进不证明完整非线性边值问题可解。R64的后续 $u_5/v_8/b_7$ 若启用须含完整body项、扣原参考并成套改变自由基。
@@ -53,6 +58,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 - R146完整商协变将五族314条目缩为80个ω0起始记录，后继ω_j=N^jω0/j!模R。R154再由真实反号与k次数≤6的七点插值，给h1/ω0/k0,1,2,3共20状态值的正仿射轨道生成全部五族。20不是维数/实际控制/有限点正性；一般pure成员亦可如此缩减，但不盲扫。
 
 ### 当前真正的完整商与正性任务
+
+指定点consumer已全文读及新人工通过，[设计与准确oracle边界](notes/character-minus2-explicit-static-positive-candidate-and-rational-oracle-design-20261115.md)公开。本提交single character_minus2_static_positive_candidate仅核四件绑定输入、唯一点及已付SOS的完整系数适用性；实际不求根/LP/RREF/积分，不宣真实泛函。
 
 **[R173](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md)已给明确全action严格正的外坐标点**：仅free12改−1/2，静态a=(k²+2)(k²−1/2)²+k²/4≥1/16，R172两层均不动，同μ固定。下一lit只核该指定点的68行/全部14族/μ/c/d，当前不调用cubic oracle或继续路径搜索；tail原147列关系判断其真实性。全部标量action正不证明U上真实泛函，非零字面余式也不证明原独立。
 
@@ -155,7 +162,3 @@ R164 §10新增已付规范化推论：八参考态将μ缩为(0,2a(0),2a(1),0,0
 ### 完整十四族已生成，直接进入有限必要系统
 
 [首次完整head实际](notes/character-head-minus2-first-complete-actual-20261115.md)：76新收缩＋2已发收缩全部完成，107原记录和66分母组合，33.327秒；Q4_0/1在本真权两mode原式零。head生成任务结束，不续缓存、不再重跑。single character_minus2_finite_necessary已绑定main/receipt/export，源码与6路径/全坐标精确证书接口见其design。保全部层、唯一μ、原R=0与真实外空间边界；不能把float不可行或外部候选当真实正性结论。
-
-### 当前谱目标实际派发
-
-独立[谱恢复实施](notes/spectral-metric-recovery-implementation-20261115.md)已完成：仅两个软谱行与解析Jac变化，完整20输入/82参数继承失败新池，原真门/控制器/12LP40值120s不变。新增人工33.377s全过，完整原生摘要含逐值谱slack、旧Schur slack、真η表；本提交single metric_spectral_recovery派发，待新完整输出，不称.26已到。
