@@ -113,15 +113,15 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)已实核原585维投影rank556、954来源全乘回、完整29左核，结合同原mod31单位子式给full/square常数Qrank恰4318、核相同36维。原31单位块给完整规范图核在Z_(31)存在，旧p768规范数组与它同余；显式全6188/4367核证书仍29，七补方向存在已证，毋须以继续大有理恢复作为存在性门槛。
 
-[同选全连接包络零](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)使全部36常核可用full来源提升至u²，先得指定50/49/48；现[完整Smith与29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)严格加强为D/原来源换列/cofactor≥60/59/56。有限K70下q245…8640，原目标已有Q[s]成员性才得来源cost≤8685；九模31⁶费1339不付成员性、leading31单位或固定e无界精度。该加强由active Smith来源因子的独立消失阶推出；任意analytic目标换列只直接得56，不取原来源换列59。仍须完整Smith/leading单位与原成员性。
+[同选全连接包络零](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)使全部36常核可用full来源提升至u²，先得指定50/49/48；现[完整Smith与29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)严格加强为D/原来源换列/cofactor≥60/59/56。现[有限K77](results/R150-appendix-zero-second-connection-pure-cancellation-factor77-and-cost8678.md)下q238…8633，原目标已有Q[s]成员性才得来源cost≤8678；九模31⁶费1339不付成员性、leading31单位或固定e无界精度。该加强由active Smith来源因子的独立消失阶推出；任意analytic目标换列只直接得56，不取原来源换列59。仍须完整Smith/leading单位与原成员性。
 
 585投影亦准确识别同I删去三线性输出，不偷非纯来源独立。原Dixon1085位/31466bit与1567DAG仍临时保存，18次重建未返解；只在需要显式来源时同binding接续，不再为常核维数盲加位数。旧Koszul族1632、二次skew降次、LLL/闭包/单65521均已完成，不重做。下一最小接口保真实自然u及同I,J，常数31饱和不能替D_h首非零系数单位。
 
 
-[完整∞第二连接与公共31](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)已实核38×10包络全零及全部1700左校正，纯20泛函可提至u³；真实β2≤3，δ4354≥31、δ4353≥28。下界不等于首项单位。有限s0对应新小任务正执行，保r1≤4未知恰值，未预填K77；原29精确形式核曲线与完整Smith的组合已单独严格支付60/59/56。
+[完整∞第二连接与公共31](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)已实核38×10包络全零及全部1700左校正，纯20泛函可提至u³；真实β2≤3，δ4354≥31、δ4353≥28。下界不等于首项单位。有限s0第二纯包络已实成全零及1700原校正，保r1≤4、r1+r2≤7，公共零阶≥31/K77已付；原29精确形式核曲线与完整Smith的组合已单独严格支付60/59/56。
 
 
-[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)从原秩精确相等推出H≥3全在同选像，不由非纯个数猜独立；full余为20pure+29低横，square余为10pure+26。原整数小投影在F31同秩556，D31自由余模亦真。下一用旧完整kernel36与原primitive参数L9/G4计算自然B1，再投完整36余；共动A0(Dh)项不可删，后继Schur仍须原来源校正。
+[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)从原秩精确相等推出H≥3全在同选像，不由非纯个数猜独立；full余为20pure+29低横，square余为10pure+26。原整数小投影在F31同秩556，D31自由余模亦真。已排[原自然连接入口](notes/2026-11-15-r150-selected-natural-first-connection-f31-interface-789f.md)，30秒/512MiB，用旧完整kernel36与原primitive参数L9/G4计算自然B1，再投完整36余；共动A0(Dh)项不可删，后继Schur仍须原来源校正。
 
 ### 强联块同w、同源普通封口
 

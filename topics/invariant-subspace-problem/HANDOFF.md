@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 454db1c298a3e61f2b74d6a42ae3283ce1b13c4e（2026-11-15 09:09:06 UTC，Actions run43697824472实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43697824472-1.json。
+- **最近成功实际 pull 与已读规则提交：** 56fb73d787705b55e1b23079d14454658a383ec3（2026-11-15 09:11:49 UTC，Actions run43698051661实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43698051661-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -15,8 +15,8 @@
 - [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九费1339；有限精度不付Q[s]成员性或固定B/e无界精度。
 - [标准1632 Koszul同J支撑交恰29](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)全1834残差/29列全4367乘回真；原来源注入/31饱和已付，二次skew降次不扩该族。旧LLL/闭包/盲31加位不重做。29核均有同自然u的完整无极点精确Koszul曲线，只有常项须支撑J。
 - [585投影556、full/square常数4318](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)：2.801993869秒，954源/17386项与29左核全验。Q/F31秩均4318、核相同36；原31单位块给唯一完整规范Q图在Z_(31)存在及旧p768同余。七补空间存在已付，显式仍29。32×7完整第一包络零使全部36可full一阶提升；不称额外七条已获精确形式曲线。
-- [完整第一连接与K70](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：∞β1_Q=4、s0≤4，有限K70=s10K60、lc=5^6是31单位。[∞第二纯消去](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)实算0.251053230秒，38×10包络零、1700校正真；β2≤3，完整δ4354≥31、δ4353≥28，未付精确Smith/leading单位。
-- [完整Smith×29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)严格给指定D≥60、原来源换列≥59、cofactor≥56；任意analytic目标换列只能直接用56。K70下q245…8640，原成员性成立时成本≤8685（非基8684、目标8453）。不是把31与旧50相加，也不把常数核36全当formal核。
+- [零点第二纯消去与K77](results/R150-appendix-zero-second-connection-pure-cancellation-factor77-and-cost8678.md)：0.349050878秒全1700校正真；s0保r1≤4、r1+r2≤7，公共阶≥31，K77=s17K60、lc=5^6是31单位。∞β1_Q=4。[∞第二纯消去](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)实算0.251053230秒，38×10包络零、1700校正真；β2≤3，完整δ4354≥31、δ4353≥28，未付精确Smith/leading单位。
+- [完整Smith×29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)严格给指定D≥60、原来源换列≥59、cofactor≥56；任意analytic目标换列只能直接用56。现K77下q238…8633，原成员性成立时成本≤8678（非基8677、目标8453）。不是把31与旧50相加，也不把常数核36全当formal核。
 - [完整余空间49/36及自然Schur](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：rank4318=3762+556严格付H≥3全在selected像，full余=20pure+29、square余=10pure+26；Q/D31/F31均真。原小整数投影mod31秩必556，可直接配旧kernel36算自然B1；共动A0(Dh)项不可删，高阶仍须原源校正。
 - 继续同I,J自然u的真实Schur页及原九目标Q[s]成员性。常数31饱和不付参数首项单位；原mod31的315次gcd只付degD下界，不提升成char0公共因子。
 
@@ -44,7 +44,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 
 - [Dixon1085恢复身份](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit，18重建未返解；2751核心/1567DAG、逆与78MB活动槽保在{work}/seven-sparse-dixon-original，全部SHA见注。现36核存在已由585投影付清，显式29，不盲续算。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
-- 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。∞第二纯包络已实成；旧缓存定位仅找到两压缩forward/backward，无旧jet/reduction。接s0第二纯包络10s/512MiB，保未知r1≤4；实际k返回后才用r1+r2≤7+k及δ0≥max(24,31−k)。
+- 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。∞第二纯包络已实成；旧缓存定位仅找到两压缩forward/backward，无旧jet/reduction。零点第二纯包络亦全零、K77已付。已排selected-natural-first-connection-f31（30s/512MiB），原参数历史65KB只读临时恢复，全常项/自然一次/完整36余均核；尚未预填连接秩。
 
 ## 其余仍开
 

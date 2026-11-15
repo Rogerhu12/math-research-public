@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "7acf18ba28b29550117544e5e7b42b923587f6c5",
+  "rulesReadAtCommit": "56fb73d787705b55e1b23079d14454658a383ec3",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -744,6 +744,41 @@
       ],
       "timeoutSeconds": 30,
       "receiptPath": "{work}/zero-second-pure-envelope-receipt.json"
+    },
+    {
+      "id": "selected-natural-first-connection-f31",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-first-connection-f31-789f.py",
+      "scriptSHA256": "8bc7631e86673015cfd2e2e9539e2886d1a32e2e186be189dc43dc10b57fb003",
+      "argv": [
+        "--point-model",
+        "{selected_model}",
+        "--selected-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--unit-profile",
+        "{work}/seven-original-exact-rational/seven-original-unit-row-profile.json",
+        "--kernel36",
+        "{bockstein_dir}/actual-original-kernel36.bin",
+        "--projected-input",
+        "{work}/selected-second-transverse-projection/same-original-second-transverse-integer-input.json.gz",
+        "--native-model",
+        "{native_model}",
+        "--pure-matrices",
+        "{work}/selected-pure-projection-rank/selected-pure-projection-and-envelope-matrices.json.gz",
+        "--repo",
+        "{repo}",
+        "--historical-ref",
+        "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+        "--historical-path",
+        "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+        "--out",
+        "{work}/selected-natural-first-connection-f31",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 65,
+      "receiptPath": "{work}/selected-natural-first-connection-f31/selected-natural-first-connection-f31-receipt.json"
     }
   ]
 }
