@@ -1,0 +1,39 @@
+{
+  "format": "r150-saturated-third-global-resume4-run-checkpoint-v1",
+  "atUtc": "2026-11-15 03:57:53 UTC",
+  "entryPublication": {
+    "status": "pushed",
+    "sourceCommit": "f251b9e0b11adf267ca059d820e2ff110ddeb2c3",
+    "publishedCommit": "88be0c86d8924b4874e16b51c26732588696a5e3",
+    "runId": "43674448145",
+    "runAttempt": "1",
+    "lastRulesReadCommit": "a9890c976103f6dbe8931594a002e619fee3f9cf",
+    "dispatches": [
+      {
+        "workflow": "invariant-subspace-r150-saturated-third-global-resume.yml",
+        "ref": "main",
+        "httpStatus": 204,
+        "registrationAttempts": 1
+      }
+    ]
+  },
+  "priorActualDataPublication": {
+    "status": "pushed",
+    "publishedCommit": "4a6f710b1ca5c3dd3eb01639ce4df946ef003e0e",
+    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43672221411-1",
+    "lastRulesReadCommit": "0acba0afc1615625ee3dece1706ec7dcdc0e6056"
+  },
+  "mathematicalRunId": 43674463008,
+  "mathematicalJobId": 132691449653,
+  "priorCompletedStages": 33,
+  "retainedPartialImageRows": 716,
+  "remainingStages": [
+    "final-nine-VQ",
+    "final-nine-original",
+    "final-nine-original17-p6"
+  ],
+  "sharedMathematicalSeconds": 1200,
+  "mathematicalProgramsUnchanged": true,
+  "actualCompletionNotYetObserved": true,
+  "characteristicZeroIdentityAsserted": false
+}
