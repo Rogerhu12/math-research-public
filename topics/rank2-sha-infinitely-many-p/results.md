@@ -354,3 +354,5 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 - [R744](results/R744-three-original-curves-and-two-cubic-logarithm-spaces.md)：已证明两实际Q2/Q4相对原E17/E24在17不分歧域的点，以及E2312在2/17皆不分歧域的点，模torsion End独立及全p Qbar-log独立。先用实际σ17六次角色，再用√2惯性2；E2312的二处门不可删，(-8,30√2)确回Q2。全period/点身份和完整外部仍须另付。
 
 - [R746](results/R746-original-type-five-all-finite-p-character-squares.md)：已证明原两type5线在全部有限p角色上的精确平方，含完整tame角型与χ(34)^−1；全weight-disc延拓不误用torsion稠密，非法μ6角型原矩为零。真实ρ只p分歧及两局部导子全付，零值亦同身份；任意p-ram点公式/完整多线gate仍待接。
+
+- [R745](results/R745-finite-p-gates-algebraic-theta-sources-and-orthogonal-jets.md)：已证明原全有限p门经完整Fourier、BK formal torsion/Mumford译与正交partner jets回有限代数theta来源，所有混次Ω与中心相位保；G4为Ω倍原负一单位矩。完整Yκ返回亦有限化，但清分母真实index34·36²p及全部flat/level成本保，不冒裸S34或两线。点公式与域门仍开。
