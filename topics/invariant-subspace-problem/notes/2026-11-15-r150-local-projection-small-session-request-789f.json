@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "1c2ff7189c7a49e86ca7835aca224ea821a9a103",
+  "rulesReadAtCommit": "f171f535dac243f033b85a7d45748892c350d89d",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -55,6 +55,67 @@
       ],
       "timeoutSeconds": 230,
       "receiptPath": "{work}/two-directed-left2-receipt.json"
+    },
+    {
+      "id": "q-kernel-restore-original-primitive-input",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-q-kernel-primitive-historical-input-prepare-789f.py",
+      "scriptSHA256": "f1ee8d148bc245497eeb64f77edb83bb1b88e8452de7380ae3a2ae76bf8173e0",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/inputs/repo/original-primitive-integer-equations.json.gz",
+        "--receipt",
+        "{work}/q-kernel-original-primitive-recovery.json"
+      ],
+      "timeoutSeconds": 200,
+      "receiptPath": "{work}/q-kernel-original-primitive-recovery.json"
+    },
+    {
+      "id": "two-directed-original-left-two-jet-resume600",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+      "scriptSHA256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+          "sha256": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--constant-receipt",
+        "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+        "--checkpoint-dir",
+        "{work}/two-directed-left2-checkpoint",
+        "--out",
+        "{work}/two-directed-left2-receipt.json",
+        "--through",
+        "final",
+        "--remaining-seconds",
+        "600",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 650,
+      "receiptPath": "{work}/two-directed-left2-receipt.json"
     }
   ],
   "previousSession": {
@@ -69,5 +130,5 @@
     "temporaryDataNoLongerAvailable": true,
     "oldStepsAreNotReplayed": true
   },
-  "mathematicalProgramStatus": "Root-reviewed original s=2 directed left-two-jet test; nonzero witness only after all6188 original identities. Zero restricted pairing never proves local membership."
+  "mathematicalProgramStatus": "Original s2 first run completed constant-heads155x22 and rank583 constant kernel585x2; continue those immutable same-job checkpoints for600s. A single pinned legacy primitive input is restored for forthcoming exact Q13 work."
 }
