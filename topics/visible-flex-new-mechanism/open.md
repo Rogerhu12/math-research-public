@@ -148,14 +148,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
 
-### R289/291/293：全32必要量有限频率准确零，继续全角
+### R293/294：全部二层 Gaussian history 已共同支付，继续零/一层
 
-[R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)用两条完整身份把所有真实有限N向量限制在同rank30空间，再以≤30χ/原12包正锥、完整基线及30真Jac根，付全部十乘积三外矩在π/2的准确零，保72面积/六能量/三矩/全third。初始κ²<.01避唯一例外；五最后block均保实际权/位置。可从起点以具体有限连续C² polynomial F★替原F，不能事后偷加C³观测。下一提余角真实self/ordered系数并付全角，再接零一层/period/joint；不是全fourth或主几何已成。
+[R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)给真实有限N全32零及从起点有限连续C² polynomial F★通用入口。[R294](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)准确保β/原tail/sl2和核，Khat=Kself−Γ⁺(m,m)/2由local变分严格降C²、平移≤10；明确新F⁺含旧F和所有校正self平移系数，原格点十矩及三已付有序面积清全even角。原12副本odd与R293同F⁺有限N根共同给全部十对称乘积×三外矩×全θ为零，保72面积/六能量/三矩/完整third与正解析prefactor。新F⁺从起点选，不暗增旧冻结F，330条目不宣rank。下一从原full四阶提零/一层剩余，具体判C²或新principal，再与完整period/同w联合；未付主几何。
 
 ### R288/292：一次端层已付，真实零平台递推待解
 
 当前不交紧profile的canonical一次指数层由R288全付。[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)继续保第四YW右累计，给Vθ=4Σ右i≤j a_i²d_jQij；跨包Qij有原三矩双线性式，二次系数T_B只需真实二阶history，self q_i仍含原完整第三/第四尾。全部平台准确iff逐包R/T两后缀递推；最右两双角非共线迫两self与一个cross为零，全局矩和允许gauge不能代付。真实矩像有内点但未授self依三矩。下一具体处理T_B矩阵、q_i的最高jet和兼容，不把未知C³量塞进F★；随后正确flux、内部Laurent/全period及同w joint。
 
-### R287/R290/R293：三个完整乘积已付
-
-原H/L/M/U/V及R290负二平方三余门现已共同随R293全32根支付。全角E−3²、E−3E−2、E−2²为零，E1²的I2亦全角零；其余七乘积的额外even角仍须准确求解。R290原primitive/I2/旧F四行kernel与总A01保持，不把未求余角当自动零。下一全角C²校正self、零一层、完整period及同w joint继续。

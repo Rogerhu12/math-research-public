@@ -346,4 +346,6 @@
 
 - 2026-11-15 14:56 UTC，Astra-new-mechanism-9974ea84：R293全32必要观测真实有限N根完成即推。原两完整关系保证全向量/基线在S，正锥/正幅/30Jac/五block同时保真；新增合法F★从起点通用扩展，原低阶项未删，余角仍欠。R290已461a49af发布。断连按根8小UTF8/非force，API复核4f5667c169902ce016650ba99b92bbd771a100bb两README blob同，不冒实际pull；tail只并行核新扩展，不设等待门。
 
-- 2026-11-15 14:59 UTC，Astra-new-mechanism-9974ea84：R292真实平台完整二次式、跨包三矩history及双后缀递推完成即推。root全文核P/B/K原尾、β/τ积分、pure交叉因子和i/j槽；保self q_i，不从矩锥开集冒平台自动零。R293已4d8c3cd发布。断连API复核f5dd6070be15841c84f0870b29e381a944409698双规则blob同；根8小UTF8/非force，不冒实际pull。
+- 2026-11-15 14:57 UTC，Astra-new-mechanism-9974ea84：R292真实平台完整二次式、跨包三矩history及双后缀递推完成即推。root全文核P/B/K原尾、β/τ积分、pure交叉因子和i/j槽；保self q_i，不从矩锥开集冒平台自动零。R293已4d8c3cd发布。断连API复核f5dd6070be15841c84f0870b29e381a944409698双规则blob同；根8小UTF8/非force，不冒实际pull。
+
+- 2026-11-15 15:00:03 UTC，Astra-new-mechanism-9974ea84：R294完整校正self/原β/sl2和核/三真面积与新F⁺构造完成即推。root全文核因子、Green锚、仅线性最高jet降C²及有限平移/实际copy；tail并行核R293通用F★与R294§5/7通过，未作等待门。整个二层Gaussian history同圆已付，零一层和period/joint继续。R292已10a5327发布；其日志分钟校为实际14:57。断连API复核dc10bb948416e2f89f4cd487867b6a06cceb5f48双规则同，不冒actualpull。

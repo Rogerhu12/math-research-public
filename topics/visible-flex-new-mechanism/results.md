@@ -490,3 +490,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R292 完整证明](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)从原R56给平台x²系数，保真实YW右累计B4；局部Y零不能删除它。跨包Cij的完整η0/β式及紧端IBP将Qij准确化为三矩双线性式；actual whole pure给QZii=−4Qii、QZij=−2Qij和整个有序Vθ=4Σ右i≤j a_i²d_jQij，D槽指标是j。二次cross另化为原m(s)二阶齐次history的3×3型T_B，不设独立可调或定号；self q_i保全部真尾。
 
 全部平台二次零准确iff每包R/T两条后缀递推；最右两双角非共线迫两self和一个真实cross零，允许全局二/三阶gauge不能修。合法微包幅/平移/宽度给真实三矩像开集，但whole pure仅付Z²/YW相消，不能据此把self当三矩函数或自动零。root全文核原平台收集、cross IBP/真实右锚、因子四及指标/后缀；下一T_B与q_i实际消元，端flux/Laurent/joint仍欠。无新计算。
+
+
+## R294：明确校正 self 纤维支付全部角向二层 Gaussian history
+
+[R294 完整证明](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)给全pair原尾β与六sl2和核Γ⁺。额外even系数准确为Σ(R²−4T²)Khat加三原矩面积，其中Khat=Kself−Γ⁺(m,m)/2；原local变分/完整Green身份先抵消C³平方，唯一线性u'''经真实IBP降C²，平移次数≤10。明确从起点新F⁺含旧F与最多330校正self平移系数，非旧F归属或rank宣称。原等背景格点十矩清self，R280真A01/A02/A12清ordered cross，所有实际copy/正权保留。
+
+接R293任意F★的正解析最大秩纤维与有限N全32根，原odd包装及新even消元共同付全部十对称Gaussian乘积、三外矩、全θ；与72面积/六能量/三矩/完整third在同一实际有限频率圆上成立，故整个二层history已付。root全文核Green锚、Γ因子、local变分C²降阶、实际三矩/权及选择顺序；tail核F★入口，均无执行。零/一层、完整ruling/period/joint及主几何门仍欠。
