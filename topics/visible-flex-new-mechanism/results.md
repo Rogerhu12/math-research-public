@@ -360,3 +360,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R276 完整证明](results/R276-canonical-fourth-periods-at-analytic-zero-ends-and-finite-first-layer-conditions.md)从R56原J/Tx/Ts/Tsx及全部恢复式传播真实加权germ：V2=Π2+p²t^-4C∞，V3=Π3+pt^-2C∞+p³t^-8C∞，四阶Tx二次/四次分别p²t^-6/p⁴t^-12，真实局部积分和全s周期得G=P+Tf+p²t^-4B。Π2/Π3均原平台尾，不是自由常数；保全history，不加任意齐次高jet输入。由此canonical二次层已有足够界，补此前R274只处理全Z correction的范围。
 
 对R274最初解析ψ后真实EL/有限宽根，每最细包f=Aψ+ψ³R，A≠0/R有限有理极点；保持原已扰动圆的真实三次尾系数，后项吸收，剩Lψ。以Dψ=D+ψ′/ψ反复消多项式系数矩I_j/ψ，得有限有理Qn；Qn0 iff Lψ0，非零一次层必有有限首幂。原平台/零端flux已付时，Lψ0给真正C∞，非零则u首项−p^-1 t^(r+8)b0/(16c⁴)指数发散、Cp不能修；左右端σ²同号。结合R225/R274的有限内部退化，canonical完整period为真平台/flux/内部Laurent/每端Qn及原右锚条件；未求实际尾值、响应rank或控制解。root原式纸推，mechanism独立全文核最坏pole、真实history、有限消元及逆解两向，无新执行，不重R240旧特例。
+
+
+## R278：第三斜率的有限真实 gap 质量打破原第一外矩半平面
+
+[R278 完整证明](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)以新的H=β(α)+r、q=(H−1)/(64(1−α))低高质量和a²/b²=1的mid包改变真实profile。五个gap簇用同low宽q、严格正的0/2/4中心矩匹配，支付新增四次背景nTr；原Vandermonde极限正权19/45、2/5、8/45，在有限n/N与真正宽上成立。由此新E22=(α+H−5+r0/(H−1))E04准确保持相关local全角门。原四变量IFT完整保有限δ余项、六能量及三矩/全third/36odd，不把leading根或点质量当实际解。
+
+整个gap中JDreal0而J(xDreal)>0，故原history精确给ΔS0、Δ(Z/k)=−Σμmid J(xDreal)<0。固定总四次质量的二次质量随有限N增长，先固定n/r/h，再大有限Λ/N，最后δ小，负δA^(3/2)超过旧O(δA)，得S>0>Z/k。Q先用已付全局中心身份消大ξ²项，再保原和mid的真实primitive；ordinary/companion仍给严格Q±，最后正幅可Q0而留上述符号。准确附账ΔY1=ξ0Δ(Z/k)，另Z even仍=k ReQ+Rshape ΣRe(a+ib)^4w，未付总Rshape，不授full面积或条件数减少。root全文核质量、方差、gap尾、正权、IFT次序与容量；literature独核原R270有限δ及Q/Green总账，无新执行。

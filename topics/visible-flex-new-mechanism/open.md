@@ -150,6 +150,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 根15只留源码/参数/run/SHA/结论；终端13:20恢复，已重建两partial检出并实际pull，恢复终端Git。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
-### R275：当前双斜率小h正幅族已有严格障碍，改真实机制
+### R275/R278：旧双斜率障碍已定位，第三斜率带来真实新方向
 
-[R275](results/R275-first-moment-obstruction-for-the-small-width-two-slope-family.md)保四原self/Green和J(xDρ)，准确有限式与D_B²恒等给共同(1−c*)S−c*Z/k<0。因此当前ρ0/20、普通/伴随、小h和充分小δ、原A≥10的任何有限正幅组合若付A1,−3 I0，即迫A−1,−2 I1在θ=π/2的Z/k>0。R271正面等式不撤，但增同类块/改中心无效。**下一第三斜率、不同实平方质量或非小h母分支**；一般合法圆未排，继续原完整门而不把余16当解维数。
+[R275](results/R275-first-moment-obstruction-for-the-small-width-two-slope-family.md)保原self/Green和J(xDρ)，证明原小h、ρ0/20、A≥10两坡正幅族若S0即Z/k>0；只改旧中心无效，不排一般圆。
+
+[R278](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)加入a²/b²=1的真实gap包，准确ΔS0、Δ(Z/k)<0。五簇同宽q正权配0/2/4矩支付新增local门，原四变量真实IFT仍保三矩/全third/六能量和指定旧面积；有限A/N容量使S>0>Z/k，Q±仍可正幅配零。**下一必须联合ΔY1=ξ0Δ(Z/k)及另一Z even的Rshape总项，不能搬旧R271混合或把负方向当完整面积解。**与R277等背景/同F机制并行，优先处理其余准确ordered条件。
