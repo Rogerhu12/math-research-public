@@ -1,0 +1,42 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43666716585",
+  "run_attempt": "1",
+  "role": "boundary",
+  "artifact_name": "visible-exact-cap-adjoint-boundary-high-Grams-43666716585-1",
+  "artifact_id": 14142391334,
+  "api_archive_bytes": 1761363,
+  "actual_archive_length": 1761363,
+  "actual_HTTP_range_bytes": 1761364,
+  "complete_archive_downloaded_or_claimed_hashed": false,
+  "actual_process_sha256": "2c52a359e83aefe2259f48850859f90b307543028017ca0e85046f37efa86bf2",
+  "actual_native_sha256": "6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92",
+  "exact_selected_files": [
+    {
+      "file": "process.json",
+      "bytes": 20256,
+      "sha256": "2c52a359e83aefe2259f48850859f90b307543028017ca0e85046f37efa86bf2"
+    },
+    {
+      "file": "native/complete97-true-cap-adjoint-boundary-and-high-Grams.json.gz",
+      "bytes": 24540,
+      "sha256": "6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92"
+    },
+    {
+      "file": "matrices/true-adjoint-left-Grams.npz",
+      "bytes": 853809,
+      "sha256": "3a180652e1d86295ea57706082eb35732dc5218937a3cf3bba976fbce12a0557"
+    },
+    {
+      "file": "matrices/true-adjoint-outer-Grams.npz",
+      "bytes": 116790,
+      "sha256": "d74bd5f6f43d2b45e60476a5a8059fecd127174e468f9a5390d3c141ede3cf6f"
+    },
+    {
+      "file": "matrices/true-adjoint-high-Grams.npz",
+      "bytes": 688454,
+      "sha256": "5b583317eb2105f8a455f0421f9c3aac603c24a783004e13cabdcded7bc71fae"
+    }
+  ],
+  "old_per_cell_arrays_fetched": false
+}
