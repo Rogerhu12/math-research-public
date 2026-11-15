@@ -327,3 +327,82 @@ $$
 so the common cost remains at most $8531-d$.
 
 No new bound on the largest coefficient-$31$ exponent is supplied. The completed pages determine exactly the five multiplicities at residue $2$ stated in (1.2); they neither erase the other primary components nor turn the finite target identities into infinite-precision membership.
+
+
+## 8. The remaining three dimensions have three distinct possible causes
+
+The preceding argument bounds the remaining coefficient-$p$ summands, but does not identify them with all of the remaining field length. This distinction can be made exact.
+
+Write
+
+$$
+\mathscr M=R^{4367}/L,\qquad G=R^{4367}/N.
+$$
+
+The saturation defining $N$ makes $G$ torsion-free over $R$, and in particular $D$-flat. Reducing
+
+$$
+0\longrightarrow C\longrightarrow\mathscr M
+\longrightarrow G\longrightarrow0
+$$
+
+modulo $p$ therefore gives a short exact sequence
+
+$$
+0\longrightarrow C/pC\longrightarrow\operatorname{coker}\bar A
+\longrightarrow G/pG\longrightarrow0.
+\tag{8.1}
+$$
+
+Let
+
+$$
+J=\operatorname{Tor}_{\mathbb F_{31}[s]}(G/pG).
+$$
+
+Although $G$ is torsion-free over $R$, its special fiber $G/pG$ need not be torsion-free over $\mathbb F_{31}[s]$.
+
+Both modules on the right of the injection in (8.1) have free rank $13$ over $\mathbb F_{31}[s]$. The map on their torsion-free quotients is surjective, because the middle map in (8.1) is surjective and torsion maps to torsion. It is therefore a surjection between two free modules of rank $13$ over the polynomial PID, hence an isomorphism. It follows that every torsion class of $G/pG$ lifts to a torsion class of $\operatorname{coker}\bar A$. Thus
+
+$$
+0\longrightarrow C/pC\longrightarrow Q_{\rm tor}
+\longrightarrow J\longrightarrow0
+\tag{8.2}
+$$
+
+is short exact. Equality of the two ranks alone, without the surjectivity argument, would not suffice.
+
+Let $f_2$ be the $\mathbb Z_{31}$-free rank of $C_2$. It equals the multiplicity of $s-2$ in $\overline{\Delta_{\mathbb Q,\mathrm{aff}}}$. The known rational factor $\widehat K_{158}$ reduces with multiplicity $16$ at $s=2$: twelve come from $(s-2)^{12}$ and four from $E_8^4$. Hence $f_2\ge16$.
+
+The original field root2 torsion length is $32$. Taking the root2 component of (8.2), and then using the coefficient-torsion/free exact sequence for $C_2$, gives
+
+$$
+32=f_2+\sum_{a\ge1}m_a(2)+\dim_{\mathbb F_{31}}J_2.
+$$
+
+By (1.2), the first five multiplicities sum to $13$. Define
+
+$$
+u=f_2-16,\qquad
+v=\sum_{a\ge6}m_a(2),\qquad
+w=\dim_{\mathbb F_{31}}J_2.
+$$
+
+All three are nonnegative integers, and
+
+$$
+\boxed{u+v+w=3.}
+\tag{8.3}
+$$
+
+The quantity $u$ is extra rational parameter-divisor length beyond the known factor. The quantity $v$ counts coefficient-$31$ cyclic summands of exponent at least six. The quantity $w$ is the torsion in the special fiber of the saturated quotient. None may be silently identified with another.
+
+For a genuinely complete fourth page of $B$, formula (4.3) says that its new image dimension is exactly $m_6(2)$, so it is at most three. If that future actual dimension is three, (8.3) immediately forces
+
+$$
+f_2=16,\qquad J_2=0,\qquad
+m_6(2)=3,\qquad m_a(2)=0\quad(a\ge7).
+\tag{8.4}
+$$
+
+In that case the whole remaining root2 budget would be resolved at once. A smaller fourth-page dimension leaves the corresponding remainder in (8.3) open; zero new image does not exclude a coefficient exponent appearing on a later page. No fourth-page value is asserted here.
