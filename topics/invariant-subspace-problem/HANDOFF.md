@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。selected-natural-u-minimal-rebuild32已实际完成新输入重建与32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - 零点K95正式稿已推。∞cubic单列仍k1；[完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。核自由[164,494]，全部总degree5三normal坐标强制零。两相位检查点仍在新job。
-- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接及∞第五阶，不重复已闭RREF。
+- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接保完整33+36族；∞第五已入队（SHA0e8a04b7，30秒/512MiB），保三项真实高残量及λ4的QB歧义，未预填r。不重复已闭Q RREF。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
