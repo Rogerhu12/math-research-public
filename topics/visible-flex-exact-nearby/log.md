@@ -65,3 +65,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:11:25 UTC — real 半阶高度 / conormal density 完整转换
 
 全文独核 D1–17：完整圆周距离和弦长比、signed Fourier 双积分、正负半阶对偶，以及 δλ−∂x(ηn)=j(δn−b n_x)；保持同一 j 的 reference 能量与全部独立源。将小证明独推；不从 L∞j 假推负阶 scalar multiplier，亦不把未知角解析化。发布前 README 23f76b586d3efef451a374f776eb6a47dce21760 两项无变。
+
+## 2026-11-15 06:12:06 UTC — common-T 完整最小势预算
+
+全文核B1–19；newton独核B2–5完整遗漏级数与B14–15普通/T导数。原root15+完整M3付新增K5，所有reciprocal/finite-z denominator须同一域真下界；未把free-Airy源冒充共同参考列。独推完整12776B证明，归档此前H(9908e050a8336020ef2602dc967eaa890a424b6dac909a9bd956d16b1033c331)并压缩已归档原run细节留当前接口。README 824aa442dd7cd49f3b18bfe8110c42779d680743 两项无变。
