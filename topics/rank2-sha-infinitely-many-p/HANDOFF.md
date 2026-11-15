@@ -3,7 +3,7 @@
 ## 目标、授权、规则与已读检查点
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；持续推进，不以阶段结果或时长收尾。**
-- 最近已读规则提交：3cd174b5278a6e699918b8aa0954ccf51bd3d62d；2026-11-15 13:21:42 UTC核两README无变。实际CI pull 2026-11-15 12:56:59 UTC/78d7a89e6517cf99d9f394ecda271ad1c78de2e3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:21:41 UTC仍无环境。最迟2026-11-15 13:40 UTC再实际pull。
+- 最近已读规则提交：633cf931b2cc79758d8813cca518b636d51b476c；2026-11-15 13:22:37 UTC核两README无变。实际CI pull 2026-11-15 12:56:59 UTC/78d7a89e6517cf99d9f394ecda271ad1c78de2e3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:22:36 UTC仍无环境。最迟2026-11-15 13:40 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main；旧库首次授权789d22af。完整结论立即推；非快进即pull --rebase后重推，禁强推、改他人历史及令牌入文件/回复。
 - 每小时实际pull，每次核根/题README，仅变更部分重读立即执行并记提交。root15@708f058a只补别题清理已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境；本地末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 12:56:59 UTC/run43716420524/job132818833880，head78d7a89e；两README差异空且独立blob核同，回执ci/rule-pull-20261115T125659.json。下一实际pull最迟13:40 UTC。
@@ -12,8 +12,8 @@
 
 ## 完整前检、分工与完成边界
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r755.md)沿归档链保所有旧常数、来源、十九角、射线、坏集及未闭接口。R1–363、365–560、562–653、655–711、713–760已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep续指定v_F及全normal/same-R；theta续真实四反射/ξ4边界与全O_i门；literature续primitive order9点域和through-S剪切；root续完整新格算术桥与O4/O6。R761主文/公开增补已交，待紧接发布；R762 through-S家族在写。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r755.md)沿归档链保所有旧常数、来源、十九角、射线、坏集及未闭接口。R1–363、365–560、562–653、655–711、713–761已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep续指定v_F及全normal/same-R；theta续真实四反射/ξ4边界与全O_i门；literature续primitive order9点域和through-S剪切；root续完整新格算术桥与O4/O6。R761全角色/公开增补已登记；R762 through-S家族在写。
 原四次E17及j0 E17/E24/E2312 rank2已付。固定原S34/T72/U136的完整Selmer桥保全Sha；须无限不同p至少一条原中央J′非零，非中央负矩/有限p不完成。O4低增广a≤1/β(Q)及O6实际Np有限/λ≤3仍开。
 
 ## 普通：完整原来源、点域及中央传播
@@ -27,7 +27,7 @@ R752/754所有深伙伴Y⊥，第一factor34p/伙伴≤125、τk真Dk/P+k与唯�
 
 R757原type0六谱：t+ H3/H5/S，t−三order9 torus线；Ψ导子34δ/root+，Qζ9/实三次系数，非E/Q。N13特征式(X³+1)(X³+ω²)，全质量观察仅S为核，其余五非零；后3 L(Ψ,1)>0。真实全权ηψbase^(2n+1)，η阶18，仅n18时裸Ψ幂；J0=1−λ不赋J′零，T/U另线丛。
 R759全13纤维连接Cγ(S)=γ(γ+barγNγ)D_S全纯非零；L杀两旧线但读D_S=11637/119，primitive三块非零。完整I_C=barγI_MD+γ²I_G−γ²J_S/34；截面非零不自动Mellin非零。
-R761公开run43717518190/job132822145230（head923b266a、flint0.9.0）已成功：Dminus=0，Domega=11/21，primitive≠0；producer/hash见待发布R761增补，仅保日志。主文付三type5 order9角色及点域H，增补拟用I2点投影保原Dω、杀primitive，证明两个实际裸负矩非零，中央导数补偿仍保。
+R761全type5 primitive三条九阶η，Ψ=ψ0η^-1为quadratic17扭曲、root−、Qζ9/实三次；全Schwartz/正权有限补偿/Katz Euler/finiteχ/local Q/点公式齐付（零值允零点）。共享cyclic9点域H，I2阶3、I17阶9，H^{I2}=K(∛17)。公开run43717518190/job132822145230精确Dminus=0、Domega=11/21、primitive首z5=107/357，三r均5。真实point-only I2平均给e2log(Ωi_DS)=(11/21)Ωi2≠0，CM修正投影=(44/21)(7+5ω)Ωi2≠0；两个原裸负一值非零。全中央导数补偿仍保，point投影不延至无限log；producer/run/hash见R761增补，不存输出。
 [最终q*的T不变性](notes/2026-11-15-final-carry-t-invariance-and-same-weight-states.md)：T固定Y/F/G、C→ω²C；R715全50列与R734 h140/h147均仅G/C族，完整次数逆/六支保，故q*∘T=q*。全两态/三W轴边际与scalar深核已付；q仍依ξ4，cd域变为{c∘T,d深}，不推出ΦN不变，neutralζ715仍杀已知边际。
 
 ## 深支：完整WD、指定ξ及同一个R

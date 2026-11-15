@@ -413,3 +413,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R760](results/R760-positive-derivative-three-coordinate-grid-and-full-slope-threshold.md)：已证明由原S的正阶z导数构成的三坐标(S,T,(∂zS)^6)代数独立、复增长1/3，真实有界测度卷积使全部普通饱和jet无额外成本；惰性无条件包络仍3klogk。原全旗标给条件严格门aI+3bI<6及小于二次全层cutoff的准确反读；新格非旧WD有限扩张，未传播中央零或旧Smith增益。
 
 - [R755：全部原cube的carry筛及指定值类不变性](results/R755-whole-original-cube-carry-filter-and-specified-value-class-invariance.md)：已证明完整原F³整除空间的全部十九角来源与carry门：最小值阶≥1，进相对首核恰H0∈t^(r−k)，所有合法cube的整个值Bockstein为零。未过门仅改末(2(r−k)−13)+行；修复PB的真实≤13jet条件及−1/6系数精确，完整C4/ξ/两13/同R的其余块保留，指定留数非零仍开。
+
+- [R761：原型五九阶角色、点域与指定负一非零](results/R761-primitive-type-five-ninth-order-characters-and-point-fields.md)：已证明原type5 primitive三线的全Schwartz/九阶角色、quadratic17扭曲、root−、全权平方、local Q及准确cyclic9点域H。公开全13纤维给D_S=(11/21)Dω+Rprim，三线首阶均5；H的二处惯性平均杀primitive、留原cubic点，严格证明原D_S及CM连接修正的裸负一矩均非零。所有中央导数补偿与有限点投影边界保留，未赋原J′新零。

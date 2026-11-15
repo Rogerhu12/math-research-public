@@ -172,3 +172,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 ### R755：全部真实cube的值自由度已封闭
 
 [R755](results/R755-whole-original-cube-carry-filter-and-specified-value-class-invariance.md) 证明整个d^-CD F³H0(E)在原kerMbar内；进入kerJbar恰H0∈t^(r−k)，故所有仍合法的cube不能改变完整R750值类。未过门的来源只影响最后(2(r−k)−13)+行；允许更换PB时，先ord𝔅≥2h−r，再要求实际E来源的≤13jet命中，修复后𝔅系数准确变−1/6且与修复选择无关。C4=e³H1+(3/2)e²f2H0、ξ0、完整w13/U0与同R的两余块仍保。下一步是实际v_F指定留数与整个normal/第三块/d₂；不能用更大的合法cube消去值障碍，也不能把该值不变认成全余类不变。
+
+### R761：原连接来源的两个裸负一值已证明非零
+
+[R761](results/R761-primitive-type-five-ninth-order-characters-and-point-fields.md) 完整识别type5三条primitive角色、真实quadratic17扭曲、全权补偿/period/local Q及cyclic9点域H。公开原全13纤维给D_S=(11/21)Dω+Rprim，三r均5；H^{I2}=K(∛17)，point-only惯性投影保已知非零原Dω而杀三primitive，因而i_DS≠0、i_CγS≠0。无需假设三新角色解析秩一或每个primitive值非零。中央导数身份仍带完整I_MD′、I_GS′补偿；下一步检验through-S真实正交变分和fixed-representation传播，不把有限point投影延到无限log或把裸负一值冒原中央非零。
