@@ -1,0 +1,1197 @@
+{
+  "checkpoint": {
+    "new_pure_dependency_attempts": 31,
+    "new_verified_pure_dependencies": 31
+  },
+  "coefficient_arithmetic": {
+    "coefficient_nodes": 2,
+    "field": "Q",
+    "limits_check_calls": 73581,
+    "profile_atoms": 2809
+  },
+  "completion": "complete",
+  "elapsed_seconds": 4.133837063999998,
+  "finite_isometric_family_constructed": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43657785023",
+  "github_sha": "c606688a842bd811106ff2844e1161a4f34c159e",
+  "input_basis": {
+    "G_orbit_added_as_new_control": false,
+    "G_orbit_pure_in_response_source": "R138 general-profile identity and affine covariance",
+    "complete_weight_minus_two_pure_span_covered": true,
+    "completed_full_two_mode_upper_bound": {
+      "complete_original_dependency_proofs_in_full_report": true,
+      "original_columns": 50,
+      "proved_true_response_dimension_upper_bound": 40,
+      "retained_original_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        35,
+        36,
+        39,
+        40,
+        41,
+        46,
+        47,
+        48,
+        49
+      ],
+      "verified_original_dependencies_sha256": "a6453e43e03f92bc27c9a278e8115d64ece6eed9ddf1f82febdfd12fd05a9498",
+      "verified_original_dependency_count": 10
+    },
+    "consumed_true_basis_columns": 40,
+    "full_original_response_columns": 50,
+    "full_two_mode_rank_not_asserted_as_pure_rank": true,
+    "old_original_dependencies_consumed": 10,
+    "old_original_dependencies_recomputed": 0,
+    "retained_original_labels": [
+      {
+        "global_R116_column": 0,
+        "original_pure_sha256": "88499f5c9ab1f0a0a15d8cd5dba3e1241ebd9432c8778824dee97fd1899fcfcf",
+        "original_root": "column_000_-4",
+        "original_terms": 192,
+        "position": 0,
+        "quadratic_index": 0,
+        "third_index": 0,
+        "third_original_sha256": "abaf05b445a67ba5244461402066c36052e095095587927878a94f1e3982b7a2",
+        "weight_block_original_column": 0
+      },
+      {
+        "global_R116_column": 48,
+        "original_pure_sha256": "3d2f3d96fd5510461337b1ee1bb86023ebcd56eef257267fcad9e64ef24ee6ab",
+        "original_root": "column_001_-4",
+        "original_terms": 178,
+        "position": 1,
+        "quadratic_index": 0,
+        "third_index": 6,
+        "third_original_sha256": "d5addb93c2cf80a60e444b2a884d18d9577158d3ef8042282993e4d56468dc39",
+        "weight_block_original_column": 1
+      },
+      {
+        "global_R116_column": 88,
+        "original_pure_sha256": "a12a9d8431d061e570b43579cc550449e12b5cd6cb8feb0f2fa358bc92cecf58",
+        "original_root": "column_002_-4",
+        "original_terms": 202,
+        "position": 2,
+        "quadratic_index": 0,
+        "third_index": 11,
+        "third_original_sha256": "c38ea99fe6227f06594b2a5831d976a860247ff8ac25595af4b457f8c7d62d07",
+        "weight_block_original_column": 2
+      },
+      {
+        "global_R116_column": 112,
+        "original_pure_sha256": "38edd1c4e1c88dbb2a492f4edba8b209ebc41398a73439d09eac0cf5ea4896bf",
+        "original_root": "column_003_-4",
+        "original_terms": 190,
+        "position": 3,
+        "quadratic_index": 0,
+        "third_index": 14,
+        "third_original_sha256": "99ceb97f81ba22f03776f27d4b2fc28b671022ebbfb0e32b39756b9985bd19da",
+        "weight_block_original_column": 3
+      },
+      {
+        "global_R116_column": 120,
+        "original_pure_sha256": "90a04c2e008919f59d74ae209c3f8b9b7fb3124a805e9b71552e226feb1ad73e",
+        "original_root": "column_004_-4",
+        "original_terms": 133,
+        "position": 4,
+        "quadratic_index": 0,
+        "third_index": 15,
+        "third_original_sha256": "eb155f48e233baaadb59f88889fe42ac9f74d8157a7d1dd893a29881f673a702",
+        "weight_block_original_column": 4
+      },
+      {
+        "global_R116_column": 216,
+        "original_pure_sha256": "e638bcbe2b3e626307751bc9f2647e6d18c4c48749f76272a2dfa3d95e383ff8",
+        "original_root": "column_005_-4",
+        "original_terms": 126,
+        "position": 5,
+        "quadratic_index": 0,
+        "third_index": 27,
+        "third_original_sha256": "38945a889a5681c9021cdf0edca11447fa41d4e5834007fb39a880b8241917b7",
+        "weight_block_original_column": 5
+      },
+      {
+        "global_R116_column": 256,
+        "original_pure_sha256": "3506579fee48f52cc60bba24fe9d438c048153ed380a2077d19ce4227e4556ae",
+        "original_root": "column_006_-4",
+        "original_terms": 210,
+        "position": 6,
+        "quadratic_index": 0,
+        "third_index": 32,
+        "third_original_sha256": "b5155855451e65acb83b0efd8ec51e6467fe343fa80fbeab6c04e1e523c0f368",
+        "weight_block_original_column": 6
+      },
+      {
+        "global_R116_column": 272,
+        "original_pure_sha256": "c6a60647f18aaf8a7c5b5a20fd9e9c7c1a0df5359df498a1190c0a5fbc1e973a",
+        "original_root": "column_007_-4",
+        "original_terms": 385,
+        "position": 7,
+        "quadratic_index": 0,
+        "third_index": 34,
+        "third_original_sha256": "578763eecd81ff4e4bf2f3775b253c4315c6c3d58cfb2e3346524b79d8203f0d",
+        "weight_block_original_column": 7
+      },
+      {
+        "global_R116_column": 41,
+        "original_pure_sha256": "9fca56d18af75eaa6baf7133f41d901283468d66cc3a307b81b13fe7f5a30674",
+        "original_root": "column_008_-4",
+        "original_terms": 215,
+        "position": 8,
+        "quadratic_index": 1,
+        "third_index": 5,
+        "third_original_sha256": "7194e5d2ef91f17d9551148ed17f4ea05a9eba8e9d3b8ac3a075a5a012939811",
+        "weight_block_original_column": 8
+      },
+      {
+        "global_R116_column": 73,
+        "original_pure_sha256": "3caa38d9f4ab17eae7f35d0c122ccb26eb33cccbab109a2a47f40c12b7a587b1",
+        "original_root": "column_009_-4",
+        "original_terms": 91,
+        "position": 9,
+        "quadratic_index": 1,
+        "third_index": 9,
+        "third_original_sha256": "785155ee982710fb95a14a62691adf567347c58901f77c3f7e7dc36641b3fb4e",
+        "weight_block_original_column": 9
+      },
+      {
+        "global_R116_column": 81,
+        "original_pure_sha256": "24c7fcb15edd72d831b54b0b3a89204085301a92b36d9ff0f8b98978bd73dc94",
+        "original_root": "column_010_-4",
+        "original_terms": 89,
+        "position": 10,
+        "quadratic_index": 1,
+        "third_index": 10,
+        "third_original_sha256": "406692985982a1e6610a631fbc26af111d9fd8c22bf58ef73d18b00fbb5598ff",
+        "weight_block_original_column": 10
+      },
+      {
+        "global_R116_column": 105,
+        "original_pure_sha256": "f78e212547ed5533008d89312dd9e41349085904e197996fb6bcf54b8803f572",
+        "original_root": "column_011_-4",
+        "original_terms": 146,
+        "position": 11,
+        "quadratic_index": 1,
+        "third_index": 13,
+        "third_original_sha256": "a80f870afb3b72dc61a7edb168ba6ccf46f282ad263c0b646af02ef81d780028",
+        "weight_block_original_column": 11
+      },
+      {
+        "global_R116_column": 193,
+        "original_pure_sha256": "c75d7d2d51c2156f68ca7c17f12fd9f31eb0505cb06cbb14a8eb9b418a728ae4",
+        "original_root": "column_012_-4",
+        "original_terms": 70,
+        "position": 12,
+        "quadratic_index": 1,
+        "third_index": 24,
+        "third_original_sha256": "aaf991686caea0fb9f38c97530864d38193b2bd5edb4ec0d1ae6d8114920410d",
+        "weight_block_original_column": 12
+      },
+      {
+        "global_R116_column": 209,
+        "original_pure_sha256": "abdc6353e1c9b6e6e0dc0631fffc977273bd4019e6bd0b952ab357582ec31361",
+        "original_root": "column_013_-4",
+        "original_terms": 76,
+        "position": 13,
+        "quadratic_index": 1,
+        "third_index": 26,
+        "third_original_sha256": "4929742e98b3d45ba878f907d6eda495d2baa2591f713592529471847a924d76",
+        "weight_block_original_column": 13
+      },
+      {
+        "global_R116_column": 249,
+        "original_pure_sha256": "dadca0de55b8e72d946b14b4f870c1f0e3cc465bafaea65f15929de6079c17c2",
+        "original_root": "column_014_-4",
+        "original_terms": 209,
+        "position": 14,
+        "quadratic_index": 1,
+        "third_index": 31,
+        "third_original_sha256": "94b42fb4261209e6e6e72c078b6e873dfe08dd477672afdcb0156f95051ead28",
+        "weight_block_original_column": 14
+      },
+      {
+        "global_R116_column": 265,
+        "original_pure_sha256": "775ac13ca766e5d500562000263efb046fe82482529030b0a63056469806847d",
+        "original_root": "column_015_-4",
+        "original_terms": 292,
+        "position": 15,
+        "quadratic_index": 1,
+        "third_index": 33,
+        "third_original_sha256": "8aa68ac3defca7d0d88ec9b5c67dc7b30bedc569129d6fbd8705314fbe331e2d",
+        "weight_block_original_column": 15
+      },
+      {
+        "global_R116_column": 26,
+        "original_pure_sha256": "36263a36bab133e6f0025b17a6163629f29ed0d5af6b691907a290b78a396ee6",
+        "original_root": "column_016_-4",
+        "original_terms": 202,
+        "position": 16,
+        "quadratic_index": 2,
+        "third_index": 3,
+        "third_original_sha256": "6d0f9700615494896810e2c410b2984adf1ff9fadf0750860ec98fc982661ff6",
+        "weight_block_original_column": 16
+      },
+      {
+        "global_R116_column": 34,
+        "original_pure_sha256": "821d73f567c29447aa2743babdaab54ca3a4d7390a55273b6689200ad42abfd8",
+        "original_root": "column_017_-4",
+        "original_terms": 138,
+        "position": 17,
+        "quadratic_index": 2,
+        "third_index": 4,
+        "third_original_sha256": "6045ad12f6fb5b180bc3fa65680e2b34a2679bd6ed6d0b5ea23cf672dba65159",
+        "weight_block_original_column": 17
+      },
+      {
+        "global_R116_column": 66,
+        "original_pure_sha256": "674c14007b5a7d5460ee9739f7552da6c39ab5df0f69f30dbe6c220bb2ee1fd2",
+        "original_root": "column_018_-4",
+        "original_terms": 149,
+        "position": 18,
+        "quadratic_index": 2,
+        "third_index": 8,
+        "third_original_sha256": "589f7965592b0564e1319b28e6ba03a07de34306e980feb32c499a13d7192c2c",
+        "weight_block_original_column": 18
+      },
+      {
+        "global_R116_column": 170,
+        "original_pure_sha256": "b871bf4d2f5d91eb5ac7ac1c453d955c739192bdbce42e201f93c0eb227555d6",
+        "original_root": "column_019_-4",
+        "original_terms": 98,
+        "position": 19,
+        "quadratic_index": 2,
+        "third_index": 21,
+        "third_original_sha256": "8ce172ccbd14be41ed330362ec87966788102d59f2889aad12efe932f4d0a05f",
+        "weight_block_original_column": 19
+      },
+      {
+        "global_R116_column": 186,
+        "original_pure_sha256": "960b0cfd90a3b354434a670fa251ffbf74d5040ca87cb29e3dd5ce9562355a88",
+        "original_root": "column_020_-4",
+        "original_terms": 152,
+        "position": 20,
+        "quadratic_index": 2,
+        "third_index": 23,
+        "third_original_sha256": "2b88e0e8558c50ae970403d6b38bd4ac60059ef259386a903f8ec76e4c5e0363",
+        "weight_block_original_column": 20
+      },
+      {
+        "global_R116_column": 202,
+        "original_pure_sha256": "d287ceab902f37c7db31a09bd5e332deb4857e3fe40a06f3506fc7528b8f72ea",
+        "original_root": "column_021_-4",
+        "original_terms": 86,
+        "position": 21,
+        "quadratic_index": 2,
+        "third_index": 25,
+        "third_original_sha256": "a8ce2ef328b0668d7df2f9b50937930197d2f5505a8298e3289b31c31bc34d06",
+        "weight_block_original_column": 21
+      },
+      {
+        "global_R116_column": 234,
+        "original_pure_sha256": "673d8e8e96ffad104ad3e07167684808ea6a9e7516cd38d622d15f9341566c2c",
+        "original_root": "column_022_-4",
+        "original_terms": 207,
+        "position": 22,
+        "quadratic_index": 2,
+        "third_index": 29,
+        "third_original_sha256": "c8f4568fbddee3985dfd3245aff22592bb065d22dbdc958fc61433ba20279f79",
+        "weight_block_original_column": 22
+      },
+      {
+        "global_R116_column": 242,
+        "original_pure_sha256": "48f836b46e4eb2785fba6be6cd4f50f166a5b6654ff4ada078d482fede71ef2b",
+        "original_root": "column_023_-4",
+        "original_terms": 231,
+        "position": 23,
+        "quadratic_index": 2,
+        "third_index": 30,
+        "third_original_sha256": "4e76c7b917c4a00138308388d72c40def5837044d287c28242f91d635bf5f312",
+        "weight_block_original_column": 23
+      },
+      {
+        "global_R116_column": 139,
+        "original_pure_sha256": "05f8dedccfb6d7b96c9a433e11e3dcb8a60bdb9708fa0f933c94ea0dfd739bfb",
+        "original_root": "column_025_-4",
+        "original_terms": 78,
+        "position": 24,
+        "quadratic_index": 3,
+        "third_index": 17,
+        "third_original_sha256": "8f396b3daf3f7fa44288893f8c80a7f466a06e5c94277238331c256c6cb04345",
+        "weight_block_original_column": 25
+      },
+      {
+        "global_R116_column": 100,
+        "original_pure_sha256": "d1e6feb0bfdd7715b72e07bce5c2b454b89d67ff0f4c2a989763d966f884fb03",
+        "original_root": "column_027_-4",
+        "original_terms": 93,
+        "position": 25,
+        "quadratic_index": 4,
+        "third_index": 12,
+        "third_original_sha256": "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+        "weight_block_original_column": 27
+      },
+      {
+        "global_R116_column": 132,
+        "original_pure_sha256": "80052b484e46ef21d0edbbc5285da63f46055bdcea07f0fcf0c0112976c8aed0",
+        "original_root": "column_028_-4",
+        "original_terms": 165,
+        "position": 26,
+        "quadratic_index": 4,
+        "third_index": 16,
+        "third_original_sha256": "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+        "weight_block_original_column": 28
+      },
+      {
+        "global_R116_column": 284,
+        "original_pure_sha256": "1d96910ff75f017a0c31d098462eb8b05a862f862476a7cdacb02e15b500236c",
+        "original_root": "column_029_-4",
+        "original_terms": 195,
+        "position": 27,
+        "quadratic_index": 4,
+        "third_index": 35,
+        "third_original_sha256": "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee",
+        "weight_block_original_column": 29
+      },
+      {
+        "global_R116_column": 101,
+        "original_pure_sha256": "27d740001a175a97ed2c8f020859024fd276434ca729f1544ada51a083ccbb9c",
+        "original_root": "column_031_-4",
+        "original_terms": 60,
+        "position": 28,
+        "quadratic_index": 5,
+        "third_index": 12,
+        "third_original_sha256": "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+        "weight_block_original_column": 31
+      },
+      {
+        "global_R116_column": 133,
+        "original_pure_sha256": "4c2a896ce85700d3631d922f227dde581de6037c4b82da27f5f15ef74736088b",
+        "original_root": "column_032_-4",
+        "original_terms": 102,
+        "position": 29,
+        "quadratic_index": 5,
+        "third_index": 16,
+        "third_original_sha256": "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+        "weight_block_original_column": 32
+      },
+      {
+        "global_R116_column": 285,
+        "original_pure_sha256": "8aec2d3e8d747882c5622f8e6816d17def30f8977b8d1bc3d0e526a76631a967",
+        "original_root": "column_033_-4",
+        "original_terms": 101,
+        "position": 30,
+        "quadratic_index": 5,
+        "third_index": 35,
+        "third_original_sha256": "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee",
+        "weight_block_original_column": 33
+      },
+      {
+        "global_R116_column": 54,
+        "original_pure_sha256": "3d9d14e6fee964c2886c4ca0dc1ce9c924d199032642fc7a52965acdaf005272",
+        "original_root": "column_035_-4",
+        "original_terms": 161,
+        "position": 31,
+        "quadratic_index": 6,
+        "third_index": 6,
+        "third_original_sha256": "d5addb93c2cf80a60e444b2a884d18d9577158d3ef8042282993e4d56468dc39",
+        "weight_block_original_column": 35
+      },
+      {
+        "global_R116_column": 94,
+        "original_pure_sha256": "3b4431c91320c15a33825e4187fd2d593e45a15d8a1371d261c482de010e0085",
+        "original_root": "column_036_-4",
+        "original_terms": 136,
+        "position": 32,
+        "quadratic_index": 6,
+        "third_index": 11,
+        "third_original_sha256": "c38ea99fe6227f06594b2a5831d976a860247ff8ac25595af4b457f8c7d62d07",
+        "weight_block_original_column": 36
+      },
+      {
+        "global_R116_column": 222,
+        "original_pure_sha256": "ccff8cb9590701ac10ea0337af78d7e106a26b7c5bcf724b1ae7de4ea0684f83",
+        "original_root": "column_039_-4",
+        "original_terms": 77,
+        "position": 33,
+        "quadratic_index": 6,
+        "third_index": 27,
+        "third_original_sha256": "38945a889a5681c9021cdf0edca11447fa41d4e5834007fb39a880b8241917b7",
+        "weight_block_original_column": 39
+      },
+      {
+        "global_R116_column": 262,
+        "original_pure_sha256": "da644f43b00da848738b68c3e79f7a0cb8df6be1331978f8da6c5dd144b168f8",
+        "original_root": "column_040_-4",
+        "original_terms": 134,
+        "position": 34,
+        "quadratic_index": 6,
+        "third_index": 32,
+        "third_original_sha256": "b5155855451e65acb83b0efd8ec51e6467fe343fa80fbeab6c04e1e523c0f368",
+        "weight_block_original_column": 40
+      },
+      {
+        "global_R116_column": 278,
+        "original_pure_sha256": "b4f331bd91b65e476f8490396eca61af1c3f933f3729d6c771583d956948e7a4",
+        "original_root": "column_041_-4",
+        "original_terms": 292,
+        "position": 35,
+        "quadratic_index": 6,
+        "third_index": 34,
+        "third_original_sha256": "578763eecd81ff4e4bf2f3775b253c4315c6c3d58cfb2e3346524b79d8203f0d",
+        "weight_block_original_column": 41
+      },
+      {
+        "global_R116_column": 199,
+        "original_pure_sha256": "23324c72b89565b4fa217be8cac97333f58de706d3832ad9b22dfbeeef5326fb",
+        "original_root": "column_046_-4",
+        "original_terms": 50,
+        "position": 36,
+        "quadratic_index": 7,
+        "third_index": 24,
+        "third_original_sha256": "aaf991686caea0fb9f38c97530864d38193b2bd5edb4ec0d1ae6d8114920410d",
+        "weight_block_original_column": 46
+      },
+      {
+        "global_R116_column": 215,
+        "original_pure_sha256": "902b273c719665894a72dd348ac370d2468d0acd4f778e0a6d96cdc91cf2c5b9",
+        "original_root": "column_047_-4",
+        "original_terms": 48,
+        "position": 37,
+        "quadratic_index": 7,
+        "third_index": 26,
+        "third_original_sha256": "4929742e98b3d45ba878f907d6eda495d2baa2591f713592529471847a924d76",
+        "weight_block_original_column": 47
+      },
+      {
+        "global_R116_column": 255,
+        "original_pure_sha256": "d456c4b960e658612c994aa7ea3c6dc82b4b3005051510adfb3b345a96ca37d1",
+        "original_root": "column_048_-4",
+        "original_terms": 166,
+        "position": 38,
+        "quadratic_index": 7,
+        "third_index": 31,
+        "third_original_sha256": "94b42fb4261209e6e6e72c078b6e873dfe08dd477672afdcb0156f95051ead28",
+        "weight_block_original_column": 48
+      },
+      {
+        "global_R116_column": 271,
+        "original_pure_sha256": "453c15cec397f531a4f8a99458b0a1c758218f78df8f85e4d6b8cfcf0666a132",
+        "original_root": "column_049_-4",
+        "original_terms": 258,
+        "position": 39,
+        "quadratic_index": 7,
+        "third_index": 33,
+        "third_original_sha256": "8aa68ac3defca7d0d88ec9b5c67dc7b30bedc569129d6fbd8705314fbe331e2d",
+        "weight_block_original_column": 49
+      }
+    ]
+  },
+  "input_family": {
+    "all_original_root_hashes_verified": true,
+    "complete_export": {
+      "all_five_complete_families_included": true,
+      "contains_original_expression_not_only_hashes": true,
+      "content_scope": "five-complete-two-mode-normal-acceleration-families",
+      "filename": "acceleration-layer-mixed-original-expressions.json.gz",
+      "original_root_term_count": 79291,
+      "persisted": true,
+      "profile_atom_count": 1917,
+      "raw_bytes": 1909429,
+      "raw_sha256": "7c1e0bda999d2c8958d7e5fdf6d9460f30eb6003eb1c69172ba1ca948dfeac38",
+      "root_count": 648,
+      "stored_bytes": 318634,
+      "stored_sha256": "b3227509c891a2e86e9bcc7823e3d6b3abb0a9ff80975b2e1162a0911739146e",
+      "supplemental_to_mathematical_certificate": true
+    },
+    "main": {
+      "bytes": 57753,
+      "filename": "acceleration-layer-mixed.json",
+      "sha256": "baccbf48f39a7fb3296ca4e8a933d18f246a8db317423846e66d9c46374b2745"
+    },
+    "original_producer_or_response_recompiled": false,
+    "publication": {
+      "commit": "1177f251dc3d9455adf88b585e4c0e4bd6f7e69b",
+      "driver": {
+        "bytes": 47656,
+        "filename": "literature_acceleration_layer_mixed.py",
+        "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+      },
+      "lane": "acceleration_layer_mixed",
+      "matched_export": "acceleration-layer-mixed-original-expressions.json.gz",
+      "matched_main": "acceleration-layer-mixed.json",
+      "run": "43654534244"
+    },
+    "receipt": {
+      "bytes": 35241,
+      "filename": "receipt.json",
+      "sha256": "3c147ca2edaa03d4c27fa0694adca26764c0f98c8fde363387359d8fddccc494"
+    }
+  },
+  "input_regularity": {
+    "colors": [
+      "q"
+    ],
+    "maximum_input_jet": 4,
+    "reachable_atoms": 462
+  },
+  "input_response": {
+    "all_original_root_hashes_verified": true,
+    "complete_export": {
+      "all_compiled_original_columns_included": true,
+      "compiled_original_columns": 50,
+      "contains_original_expression_not_only_hashes": true,
+      "content_scope": "one-translation-target-and-complete-new-response-block",
+      "filename": "G-third-translation-original-expressions.json.gz",
+      "original_root_term_count": 41621,
+      "persisted": true,
+      "profile_atom_count": 2089,
+      "raw_bytes": 889438,
+      "raw_sha256": "eb5f3314780df65d36159083a7a498e0945822e0f06f630bc7a1accb179c42a7",
+      "requested_order": 3,
+      "requested_weight": -2,
+      "root_count": 102,
+      "stored_bytes": 157782,
+      "stored_sha256": "226ea60c21cac82674cd58df491e554eb226431953f4306f0c2c630e1228358e",
+      "supplemental_to_mathematical_certificate": true
+    },
+    "main": {
+      "bytes": 25014,
+      "filename": "G-third-translation.json",
+      "sha256": "b183b6815e831b989bca6a09ff3da5818462ed613acfd417a704683106992eb3"
+    },
+    "original_producer_or_response_recompiled": false,
+    "publication": {
+      "commit": "2f0add61f44365d713abf836beaa8b0be2806a3d",
+      "driver": {
+        "bytes": 39670,
+        "filename": "literature_G_translation_successor.py",
+        "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+      },
+      "lane": "g_translation_successor",
+      "matched_export": "G-third-translation-original-expressions.json.gz",
+      "matched_main": "G-third-translation.json",
+      "run": "43653293263"
+    },
+    "receipt": {
+      "bytes": 34619,
+      "filename": "receipt.json",
+      "sha256": "a7709ce89ca7ead632a13c14ac0c0a5d906ef34c03f22e499952518c807ee523"
+    }
+  },
+  "limits": {
+    "IBP_calls_per_normalizer": 500000,
+    "atoms": 100000,
+    "bump_power": 8,
+    "certificate_bytes": 2500000,
+    "degree": 256,
+    "full_report_bytes": 2000000,
+    "main_bytes": 90000,
+    "memory_polling_mib": 1024,
+    "nodes": 500000,
+    "operations": 20000000,
+    "points": 24,
+    "prime": 2147483647,
+    "rational_bits": 8192,
+    "seconds": 240.0,
+    "terms": 120000
+  },
+  "normalizer_statistics": {
+    "new_original_differences": {
+      "right_IBP": {
+        "cycle_fallbacks": 0,
+        "first_level_shuffle_rewrites": 15,
+        "power_shuffle_rewrites": 3,
+        "primitive_calls": 317,
+        "unique_high_jet_rewrites": 207,
+        "weight_zero_not_rewritten": 0
+      },
+      "word": {
+        "all_depth_shuffle_calls": 9,
+        "cycle_fallbacks": 0,
+        "max_shuffle_product_word_length": 2,
+        "max_word_length_seen": 2,
+        "nonempty_word_polynomial_IBP": 22,
+        "primitive_calls": 41,
+        "shuffle_cache_entries": 9,
+        "unique_high_jet_IBP": 0
+      }
+    },
+    "representatives": {
+      "right_IBP": {
+        "cycle_fallbacks": 0,
+        "first_level_shuffle_rewrites": 15,
+        "power_shuffle_rewrites": 3,
+        "primitive_calls": 317,
+        "unique_high_jet_rewrites": 207,
+        "weight_zero_not_rewritten": 0
+      },
+      "word": {
+        "all_depth_shuffle_calls": 11,
+        "cycle_fallbacks": 0,
+        "max_shuffle_product_word_length": 2,
+        "max_word_length_seen": 2,
+        "nonempty_word_polynomial_IBP": 22,
+        "primitive_calls": 74,
+        "shuffle_cache_entries": 11,
+        "unique_high_jet_IBP": 0
+      }
+    }
+  },
+  "one_J_proposal": {
+    "coefficients_in_consumed_original_positions": [
+      [
+        0,
+        "-3/16"
+      ],
+      [
+        1,
+        "-3/128"
+      ],
+      [
+        2,
+        "-7/64"
+      ],
+      [
+        3,
+        "1/64"
+      ],
+      [
+        8,
+        "-1/64"
+      ],
+      [
+        9,
+        "-1/8"
+      ],
+      [
+        10,
+        "-3/64"
+      ],
+      [
+        12,
+        "3/256"
+      ],
+      [
+        19,
+        "1/512"
+      ]
+    ],
+    "fresh_original_difference_checked_even_if_word_solve_unresolved": true,
+    "fresh_original_normal_form": {
+      "max_local_jet_order": 0,
+      "max_word_length": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "terms": 0
+    },
+    "nonzero_representative_is_not_nonmembership": false,
+    "original_difference_root": "one_J_proposed_original_difference",
+    "original_difference_sha256": "1e12a43e130a8874e83203bbf293dea2e9208786a9299fc3b3aca7123d2b12b0",
+    "original_difference_terms": 398,
+    "original_identity_proved": true,
+    "word_solve_remainder": {
+      "max_local_jet_order": 0,
+      "max_word_length": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "terms": 0
+    }
+  },
+  "original_J": {
+    "family": "A_hh",
+    "matrix_N2_and_normalization_corrections_do_not_change_this_acceleration_family": true,
+    "mode": -4,
+    "original_sha256": "2efefe7d9d902bb0050e4f19fc16b09060216c2376530d920ef265ee9ce96ad3",
+    "original_terms": 80,
+    "profile_affine_weight": -2,
+    "selected_root": "selected_0000_-4",
+    "state_key": [
+      -4,
+      0,
+      0,
+      0
+    ],
+    "ungraded_root": "family_0051_-4",
+    "whole_state_root_already_homogeneous": true
+  },
+  "peak_rss_mib": 94.234375,
+  "phase": "complete_one_J_general_pure_membership_question",
+  "portable_original_certificate": {
+    "content_scope": "one J and the complete weight-minus-two pure response membership question",
+    "filename": "general-pure-J-membership-certificate.json.gz",
+    "input_original_columns_recompiled": false,
+    "new_pure_column_representatives": 40,
+    "original_root_count": 73,
+    "raw_bytes": 456216,
+    "raw_sha256": "9859368ec20e0923cc168199a7ecb82eff0beac5fa191f1b6388e67cfd1aa550",
+    "stored_bytes": 84283,
+    "stored_sha256": "af46437f676716a20051bf3bad5a96235398dcf8a45c179d1395bc1f9d84712e"
+  },
+  "pure_representative_span": {
+    "actual_function_dimension_claimed": false,
+    "columns": 40,
+    "dependent_representatives": 31,
+    "independent_column_indices": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      12,
+      19
+    ],
+    "representative_rank": 9
+  },
+  "pure_response_upper_bound": {
+    "all_new_original_dependencies_in_certificate": true,
+    "input_true_full_basis_columns": 40,
+    "new_dependency_proofs_sha256": "bdd01870f261b98a4f63c38789ccbe81b96084e71c25ef0831c3893718536a69",
+    "new_original_pure_dependencies_verified": 31,
+    "new_pure_representative_rank": 9,
+    "original_pure_span_is_covered": true,
+    "proved_true_pure_dimension_upper_bound": 9,
+    "retained_global_R116_columns": [
+      0,
+      48,
+      88,
+      112,
+      41,
+      73,
+      81,
+      193,
+      170
+    ],
+    "retained_original_positions": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      12,
+      19
+    ],
+    "retained_weight_block_original_columns": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      12,
+      19
+    ],
+    "true_pure_independence_not_assumed": true,
+    "unresolved_proposed_pure_dependencies_retained": 0
+  },
+  "result": {
+    "actual_cost_sign_or_signed_control_claimed": false,
+    "all_general_pure_costs_in_response_proved": false,
+    "complete_two_mode_J_member_proved": false,
+    "general_pure_J_member_proved": true,
+    "general_pure_J_nonmember_proved": false,
+    "profile_affine_weight": -2,
+    "pure_mode": -4,
+    "status": "general_pure_member_identity_proved"
+  },
+  "schema": "visible-flex-general-pure-J-complete-response-membership-v1",
+  "scope": "one general pure J against the complete original R8 weight-minus-two projection",
+  "source_hashes": {
+    "bound_original_inputs": {
+      "driver": {
+        "bytes": 24639,
+        "filename": "literature_general_pure_J_identity.py",
+        "sha256": "ddacad3474844368e3546f4e4b0f92e71eb276363cd283ad4f300259e8161f63"
+      },
+      "five_family_producer": {
+        "driver": {
+          "bytes": 47656,
+          "filename": "literature_acceleration_layer_mixed.py",
+          "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+        },
+        "factor_input_interfaces": {
+          "colored": {
+            "bytes": 15738,
+            "filename": "literature_colored_profile_algebra.py",
+            "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+          },
+          "driver": {
+            "bytes": 22205,
+            "filename": "literature_local_fourth_derivative_factors.py",
+            "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
+          },
+          "dual_receipt_reader": {
+            "bytes": 19492,
+            "filename": "literature_full_phase_rational_dual.py",
+            "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+          },
+          "endpoint": {
+            "bytes": 21532,
+            "filename": "literature_closed_c1_endpoint.py",
+            "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+          },
+          "exact": {
+            "bytes": 33718,
+            "filename": "literature_pure_bulk_exact_membership.py",
+            "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+          },
+          "formal": {
+            "bytes": 33169,
+            "filename": "literature_range_profile_algebra.py",
+            "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+          },
+          "local": {
+            "bytes": 30635,
+            "filename": "literature_local_third_bridge_decompose.py",
+            "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+          },
+          "original_expression_io": {
+            "bytes": 32096,
+            "filename": "literature_full_m8_tail_response_projection.py",
+            "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+          },
+          "scaling_interfaces": {
+            "bytes": 37293,
+            "filename": "literature_total_P1_scaling_blocks.py",
+            "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+          },
+          "static_expression_producer": {
+            "bytes": 38857,
+            "filename": "literature_local_fourth_quotient.py",
+            "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+          },
+          "v2_producer": {
+            "bytes": 35368,
+            "filename": "literature_full_phase_bridge_exact.py",
+            "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+          },
+          "words": {
+            "bytes": 32310,
+            "filename": "literature_pure_bulk_word_normal_form.py",
+            "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+          }
+        },
+        "original_expression_helpers": {
+          "G_input_producer": {
+            "bytes": 16444,
+            "filename": "literature_static_G_rational_dual.py",
+            "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+          },
+          "driver": {
+            "bytes": 26885,
+            "filename": "literature_G_first_translation.py",
+            "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+          },
+          "original_producer_dependencies": {
+            "colored": {
+              "bytes": 15738,
+              "filename": "literature_colored_profile_algebra.py",
+              "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+            },
+            "driver": {
+              "bytes": 38857,
+              "filename": "literature_local_fourth_quotient.py",
+              "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+            },
+            "dual_receipt_reader": {
+              "bytes": 19492,
+              "filename": "literature_full_phase_rational_dual.py",
+              "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+            },
+            "endpoint": {
+              "bytes": 21532,
+              "filename": "literature_closed_c1_endpoint.py",
+              "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+            },
+            "exact": {
+              "bytes": 33718,
+              "filename": "literature_pure_bulk_exact_membership.py",
+              "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+            },
+            "formal": {
+              "bytes": 33169,
+              "filename": "literature_range_profile_algebra.py",
+              "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+            },
+            "local": {
+              "bytes": 30635,
+              "filename": "literature_local_third_bridge_decompose.py",
+              "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+            },
+            "scaling_interfaces": {
+              "bytes": 37293,
+              "filename": "literature_total_P1_scaling_blocks.py",
+              "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+            },
+            "v2_producer": {
+              "bytes": 35368,
+              "filename": "literature_full_phase_bridge_exact.py",
+              "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+            },
+            "words": {
+              "bytes": 32310,
+              "filename": "literature_pure_bulk_word_normal_form.py",
+              "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+            }
+          },
+          "polynomial_evaluator": {
+            "bytes": 19803,
+            "filename": "literature_rational_volterra_polynomial.py",
+            "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+          },
+          "publication_identity_helper": {
+            "bytes": 32096,
+            "filename": "literature_full_m8_tail_response_projection.py",
+            "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+          },
+          "static_input_and_report_helper": {
+            "bytes": 24202,
+            "filename": "literature_constrained_static_fourth.py",
+            "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+          }
+        }
+      },
+      "pure_original_identity_helpers": {
+        "driver": {
+          "bytes": 18430,
+          "filename": "literature_general_pure_G_identity.py",
+          "sha256": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7"
+        },
+        "original_G_input_helper": {
+          "bytes": 16444,
+          "filename": "literature_static_G_rational_dual.py",
+          "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+        },
+        "original_producer_dependencies": {
+          "colored": {
+            "bytes": 15738,
+            "filename": "literature_colored_profile_algebra.py",
+            "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+          },
+          "driver": {
+            "bytes": 38857,
+            "filename": "literature_local_fourth_quotient.py",
+            "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+          },
+          "dual_receipt_reader": {
+            "bytes": 19492,
+            "filename": "literature_full_phase_rational_dual.py",
+            "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+          },
+          "endpoint": {
+            "bytes": 21532,
+            "filename": "literature_closed_c1_endpoint.py",
+            "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+          },
+          "exact": {
+            "bytes": 33718,
+            "filename": "literature_pure_bulk_exact_membership.py",
+            "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+          },
+          "formal": {
+            "bytes": 33169,
+            "filename": "literature_range_profile_algebra.py",
+            "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+          },
+          "local": {
+            "bytes": 30635,
+            "filename": "literature_local_third_bridge_decompose.py",
+            "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+          },
+          "scaling_interfaces": {
+            "bytes": 37293,
+            "filename": "literature_total_P1_scaling_blocks.py",
+            "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+          },
+          "v2_producer": {
+            "bytes": 35368,
+            "filename": "literature_full_phase_bridge_exact.py",
+            "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+          },
+          "words": {
+            "bytes": 32310,
+            "filename": "literature_pure_bulk_word_normal_form.py",
+            "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+          }
+        },
+        "polynomial_evaluator": {
+          "bytes": 19803,
+          "filename": "literature_rational_volterra_polynomial.py",
+          "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+        },
+        "publication_identity_helper": {
+          "bytes": 32096,
+          "filename": "literature_full_m8_tail_response_projection.py",
+          "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+        },
+        "pure_normalizer": {
+          "bytes": 24699,
+          "filename": "literature_linear_third_bridge_quotient.py",
+          "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+        },
+        "pure_normalizer_dependencies": {
+          "exact": {
+            "bytes": 33718,
+            "filename": "literature_pure_bulk_exact_membership.py",
+            "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+          },
+          "formal_compiler": {
+            "bytes": 33169,
+            "filename": "literature_range_profile_algebra.py",
+            "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+            "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+          },
+          "local": {
+            "bytes": 30635,
+            "filename": "literature_local_third_bridge_decompose.py",
+            "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+          },
+          "word": {
+            "bytes": 32310,
+            "filename": "literature_pure_bulk_word_normal_form.py",
+            "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+          }
+        },
+        "static_input_and_report_helper": {
+          "bytes": 24202,
+          "filename": "literature_constrained_static_fourth.py",
+          "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+        }
+      },
+      "weight_minus_two_producer": {
+        "G_input_producer": {
+          "bytes": 16444,
+          "filename": "literature_static_G_rational_dual.py",
+          "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+        },
+        "driver": {
+          "bytes": 39670,
+          "filename": "literature_G_translation_successor.py",
+          "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+        },
+        "frozen_first_translation_helpers": {
+          "bytes": 26885,
+          "filename": "literature_G_first_translation.py",
+          "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+        },
+        "original_producer_dependencies": {
+          "colored": {
+            "bytes": 15738,
+            "filename": "literature_colored_profile_algebra.py",
+            "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+          },
+          "driver": {
+            "bytes": 38857,
+            "filename": "literature_local_fourth_quotient.py",
+            "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+          },
+          "dual_receipt_reader": {
+            "bytes": 19492,
+            "filename": "literature_full_phase_rational_dual.py",
+            "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+          },
+          "endpoint": {
+            "bytes": 21532,
+            "filename": "literature_closed_c1_endpoint.py",
+            "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+          },
+          "exact": {
+            "bytes": 33718,
+            "filename": "literature_pure_bulk_exact_membership.py",
+            "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+          },
+          "formal": {
+            "bytes": 33169,
+            "filename": "literature_range_profile_algebra.py",
+            "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+          },
+          "local": {
+            "bytes": 30635,
+            "filename": "literature_local_third_bridge_decompose.py",
+            "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+          },
+          "scaling_interfaces": {
+            "bytes": 37293,
+            "filename": "literature_total_P1_scaling_blocks.py",
+            "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+          },
+          "v2_producer": {
+            "bytes": 35368,
+            "filename": "literature_full_phase_bridge_exact.py",
+            "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+          },
+          "words": {
+            "bytes": 32310,
+            "filename": "literature_pure_bulk_word_normal_form.py",
+            "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+          }
+        },
+        "polynomial_evaluator": {
+          "bytes": 19803,
+          "filename": "literature_rational_volterra_polynomial.py",
+          "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+        },
+        "publication_identity_helper": {
+          "bytes": 32096,
+          "filename": "literature_full_m8_tail_response_projection.py",
+          "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+        },
+        "static_input_and_report_helper": {
+          "bytes": 24202,
+          "filename": "literature_constrained_static_fourth.py",
+          "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+        }
+      }
+    },
+    "driver": {
+      "bytes": 37092,
+      "filename": "literature_general_pure_J_membership.py",
+      "sha256": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc"
+    }
+  },
+  "work_scope": {
+    "conditional_new_pure_profile_pairs": 0,
+    "consumed_full_basis_pure_roots": 40,
+    "extra_phase_factor_applied": false,
+    "independent_primitive_values_assigned": false,
+    "new_general_pure_targets": 1,
+    "new_mixed_response_formulas": 0,
+    "new_mixed_root_normalizations_or_evaluations": 0,
+    "new_power_tail_substitutions": 0,
+    "new_pure_response_formulas": 0,
+    "old_fixed_six_column_candidate_repeated": false,
+    "old_forcing_W_N_v4_recompiled": 0
+  }
+}
