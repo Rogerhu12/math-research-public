@@ -362,3 +362,10 @@ expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不
 [R348原式与真实有限构造](results/R348-true-translation-and-Green-self-terms-pay-the-first-positive-minus-one-Gaussian-moment.md)从原Y四次/Z二次平移保全部未付K1/K2项，不对一般weak偷普通矩公式。原L/Y、U/Y第一self的local DF保真实primitive，Green μ2²/8、μ2²/4准确抵消同端项，得到两个完整local式；显式共同中心导数恰为原第零self两倍，原跨微包Γ0。R346真实Fκ0、J/h=±τ母纤维连同全部copy给E1=2Kδ[Aτξ³/3+δ²Rτξ]，固定最终正中心/间距后取有限δ，两α×真双号四列得R²正锥，非抽象有符号幅度。
 
 C1全权−2与旧B1/B2/C0的−5/−4/−3三角分离，四新列H2幅与旧十二列组成有限rank8严格正核；再整体S5正幅解(0,0,0,−r/S³)，旧六目标零、新C1清残、Ψ真实成本S−2小。原弱核心/三个最终中心不动，最后同F★全72零controller有限N复原Ψ/三行/指定层。同一圆M/A/B九矩加C0/C1全θ已付，ZY I2及PY/WY六矩仍欠，14是形式even位置非rank。无新执行，完成即推。
+
+
+## R347：同权矩的有限半平面与保持十一旧矩的低成本负方向
+
+[R347完整恒等与实际纠正器](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)从R271 D1的真实1/2、R275全部primitive/self、R343非零R2与全B2平移共同推出F=B2_04/k*−D1的准确有限式。归一主项A(2731/16+ρ²/2−4q)>0，真方差另给两个非负项，所有母余项完整保为固定有限数。因此真两坡Fκ0母/两合法排序/普通伴随在足够大有限A、正中心上F>0；B2与D1同完整权−4，新增B2零时D1必负，不能借原正锥无条件扩新行。非一般weak障碍。
+
+反过来，R348十六真列均可依原有限选择次序满足此严格号；其八目标严格正核给真实强模块，保持M/A/B九矩和C0/C1，但D1=−d sin²θ、d>0。共同H伸缩与H4正第四幅实现任意固定负量，Ψ正成本H−3可小；最后同全72零controller恢复Ψ/三行。只有当前weak基线残差为正时才能据此准确清新矩；该符号未证，故不减少剩余门记账。下一原weakD1完整依赖或新正方向，不用更多同类负列冒满锥。无新执行，完成即推。

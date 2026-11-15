@@ -23,7 +23,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **Norm-memory**：run43741276060/c30e7ea/job132894771246，同g/b0/H/159/163；11模型12primary/8接受η.266381717617→.266366277975，bank7→9；m1/5/10新行退，m5/10曲率失配原诊断保。原12LP/40值/120s不变，不重旧优化。
 
-**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。费用/计时边界见原记录，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；末物理SHA见新记录。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。**旧m10完整可恢复已付**：原x/y159/163、9bank/新两池齐；删唯一72480/144960得旧4417/4091池。历史11LP留1，逐模型wall余量未存。**m10唯一新SOC已发**：[设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)/request-observed-m10-soc，旧primary0、历史11LP账只允新slot12；先复用旧10检查，执行新7恢复/签名人工，原J重放仅2evaluation metadata差；原x/y两网核同/新两ID必同。active120从旧J前起、SOC10s/ordinary≤8，rebind须真saved-x命中；0新primary/回溯/递归，待首次实际，不能称通过。
+**扩池SOC实际**：[原结论](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/job132905938795/5fa2424，10新检查过，117/119依赖/原cfg及原9bank准确；7接受、9primary+3旧SOC，η.266366277975→.266347520761、fineκ57.999988521；原门/盒过，.26欠。新expanded生产0，下降非其效果。m3/m7细网新行、m2/6旧17guard，末bank11/B1/8000/streak0；完整费用/首fixture只读失败保原件，不重。
+
+**旧m10唯一新SOC已发8ad75d6**：[设计](notes/observed-m10-first-expanded-SOC-design-20261115.md)，精确x/y159/163、bank9及完整新池；唯一72480/144960删除恢复旧4417/4091版本4/7。历史11LP只留新slot12，不造旧wall余量；旧primary0/旧10人工只读，新7恢复/签名人工首次待出。原scalar/J两factory hash重放只容两个evaluation元数据叶差，真实e/f/ID/物理全同；y两网/新ID必同、actual d及只读y保。active120从旧J前、SOC10s、新ordinary含末验≤8；rebind须实核saved-x命中。0回溯/递归，历史x作基准，结果待消费，不冒当前best后继。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -33,7 +35,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R283–305**：旧rank-one有限N全third/全二层/72面积及40/42门控制真；R304完整C²基线非零排该类，不再加频率/F。原尾/端/有限基准见对应结果，不能推广弱rank-two。
 
-**R292–302**：完整后缀迫T9/逐self；R297真9单位。R302保实际χ原型/共享整词真倒行、自由h跨全词、M0固定τ可漂；增强IFT指定有限pure/T/query、芽安装/Morse/Klein真闭合，通常新seed/g，不授全q或实际逆元。
+**R292–302**：完整后缀迫T9/逐self；R297真9单位；R302全词共享倒行/h、M0固定τ可漂，增强IFT只指定有限pure/T/query，芽安装/Morse/Klein闭合通常新seed/g，不授全q/实际逆元。
 
 **R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→selfσ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323 −8 self0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
 
@@ -41,7 +43,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**R308–348弱Gaussian圆**：Af0开段rank-two/单hook0；8/12copy保third/odd。R331/332/334保负Ψ并付M/A全部三矩。R337旧同C架构B0非0保；R339反向core给C+，R341两负一正弱块三个最终正中心清B0/B1且不能共移。R343原RS self全尾/准确方差给R2固定；ρ0/20×普通/伴随真双号、两群八正中心列rank4正核，H5四次幅付B1/B2且Ψ成本H−2。R346真母(Fκ,J/h)两行minor、两α与±J四列使C0=I0[Z,Y]双向；同B1/B2合六维正锥，S5正幅精确付C0、Ψ成本S−2。**R348新增完整C1**：原L/Y、U/Y I1 self保Green μ2²/8、μ2²/4准确消局部尾；其显式中心导数恰2倍原I0，真实Γ全0。Fκ0母族/全部copy得E1=2Kδ[Aξ³/3+δ²Rξ]，真±τ与两α给四列二维正锥；权−2与旧−5/−4/−3形成八目标正核，S5正幅解(0,0,0,−r/S³)、Ψ成本S−2。旧弱中心不动，同F★/全72零controller最后有限N复原Ψ/三directed/指定层。M/A/B九矩+C0/C1全θ同付；余PY/WY各三矩和ZY I2共14形式even位置（非rank，PY I1有重复）及整第四/period/joint欠。一般弱Y平移含Y–P、Y–R/S，不能借C0零冒普通矩平移。
+**R308–348弱Gaussian圆**：Af0开段rank-two/单hook0；8/12copy保third/odd。R331/332/334保负Ψ并付M/A全部三矩。R337旧同C架构B0非0保；R339反向core给C+，R341两负一正弱块三个最终正中心清B0/B1且不能共移。R343原RS self全尾/准确方差给R2固定；ρ0/20×普通/伴随真双号、两群八正中心列rank4正核，H5四次幅付B1/B2且Ψ成本H−2。R346真母(Fκ,J/h)两行minor、两α与±J四列使C0=I0[Z,Y]双向；同B1/B2合六维正锥，S5正幅精确付C0、Ψ成本S−2。**R348新增完整C1**：原L/Y、U/Y I1 self保Green μ2²/8、μ2²/4准确消局部尾；其显式中心导数恰2倍原I0，真实Γ全0。Fκ0母族/全部copy得E1=2Kδ[Aξ³/3+δ²Rξ]，真±τ与两α给四列二维正锥；权−2与旧−5/−4/−3形成八目标正核，S5正幅解(0,0,0,−r/S³)、Ψ成本S−2。旧弱中心不动，同F★/全72零controller最后有限N复原Ψ/三directed/指定层。M/A/B九矩+C0/C1全θ同付；余PY/WY各三矩和ZY I2共14形式even位置（非rank，PY I1有重复）及整第四/period/joint欠。一般弱Y平移含Y–P/Y–R/S，不冒普通矩。**R347**：同权−4读出B2(π/2)/k*−PYI1(π/2)在真两坡强模块大有限A严格正，全self/方差保；R348八目标正核因而给保持11旧矩的严格负PYI1，H4正幅固定负量、Ψ成本H−3。当前weak残差号未证，不能报PYI1已付或任意新正锥。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4，全cross/尾0、wholepure/self/Ω0。11对应真实Af点的flux=ρj⁵pn(tj)，pn首系数C*(−1)^n10!/(10−n)!≠0，Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 
@@ -50,4 +52,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 7963c0abd917836830424ba3c6649d051bd46290，双README blob同。API读取不冒实际pull。
+断连API复核main 8ad75d67d80cf6874024badda234dbd1e6682391，双README blob同。API读取不冒实际pull。

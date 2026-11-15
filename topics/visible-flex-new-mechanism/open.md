@@ -144,7 +144,7 @@ R343原RS self/准确方差、双排序与普通/伴随给固定真rank4正核�
 
 [R348](results/R348-true-translation-and-Green-self-terms-pay-the-first-positive-minus-one-Gaussian-moment.md)新付C1=I1[Z,Y]全θ。先写一般weak的完整Y四次/Z二次平移，K2保(3e/2)[P,Y]、K1保Y–R/S，不能使用普通矩平移。原两个nonlegal self保Green μ2²/8、μ2²/4与local DF准确抵消，成local完整式；显式中心导数恰2倍原第零self，跨微包Γ0。实际Fκ0/J=±hτ母与全copy得E1=2Kδ[Aξ³/3+δ²Rξ]，保全余项、固定最后正中心后取有限δ，两α给二维全正锥。新权−2、旧B1/B2/C0权−5/−4/−3，先H2正幅成有限八目标严格正核，再S5正幅解(0,0,0,−r/S³)，Ψ成本S−2可小。弱核心/最终中心不动，最后同原controller付Ψ/三行/指定层。
 
-尚欠PY/WY各三外矩、ZY I2，共14形式even位置而非rank；PY I1两even本恒等只一共同值。root继续PY I1，literature续ZY I2；必须保K1/K3有序尾、已付B1限制和完整self，不把积分值当自由旋钮。其余完整层/period/同规范仍欠。
+尚欠PY/WY各三外矩、ZY I2，14形式even位置非rank；PY I1两even本恒等只一共同值。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)新增全有限恒等：F=B2_04/k*−D1，除XWδna_cm²后主项A(2731/16+ρ²/2−4q)，保非负真方差与全部有限母余项；大有限A故F>0，正幅/两者共同−4权保半平面。现有强列不能无条件升为新目标全锥。但R348八目标严格正核真实给D1<0，整体H4正幅固定任意负纠正而Ψ成本H−3，保11旧矩。尚未证明当前weak残差正，故PY I1仍未付。root续原weak完整D1/三个最终中心依赖或新正方向；literature续ZY I2，须保K1/K3真有序尾/原B1限制。全period/joint仍欠。
 
 
 ### R344：全权响应总通量经完整pure因子化，续原U上的真实值

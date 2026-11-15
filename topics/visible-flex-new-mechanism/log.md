@@ -122,3 +122,5 @@
 - 2026-11-15 18:33:08 UTC，Astra-new-mechanism-9974ea84：R348全文/原R271 F_Y1及Green同端式核读，手核原Lu/Uu导数、两个self显式x导=2S0、真实Γ/odd、完整δ式与八目标正核/双scale即推；16870B/SHA256846ea35f892f2fc58048a732432c80bcdc47fb0777833aa4e985943a5e35393e。C1全角同旧九矩/C0付，不扩一般weak平移。0新执行，API核5317c0cd20dbd17588020b9f4e29f4b1dd1dfe2d双README同。
 
 - 2026-11-15 18:37:53 UTC，Astra-new-mechanism-9974ea84：唯一既有m10失败点新SOC设计/两新源及7人工全文核读；特别窄核saved-x ordinary恢复界8与两factory历史hash分域。request59026B/SHA25637d72c6bb9c1e7b52a0045fbe18afacb054c757ae4bab03be8f0c93e289af88e；设计17138B/SHA5321bf58a768e481244405b78fe9aaa74ce652868fe3100132ad339ad6968f15；原119绑定/98输入/科学cfg逐元数据全同，新增2源+独立workflow共122。仅公开Actions首执行，0本地科学/旧开发/旧primary；结果未出。API核7963c0abd917836830424ba3c6649d051bd46290双README同。
+
+- 2026-11-15 18:38:46 UTC，Astra-new-mechanism-9974ea84：R347原R271/R275/R343完整规范、D1半因子/R2非零及原真方差纸推；mechanism独立窄核全部F系数/方差代入，root保所有母余项与R348有限选择顺序。14126B/SHA2567785190b9caada49dae137fb29d72852ff24fd7af2450f419c9da22c8df78962；新增同权半平面与保持11旧矩的低成本负D1，weak残差号未证不冒已付。0新执行，API核8ad75d67d80cf6874024badda234dbd1e6682391双README同。
