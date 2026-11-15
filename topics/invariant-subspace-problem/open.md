@@ -23,7 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原式来源与31饱和：** [完整相关第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)连W维7；[H0原17模31³成本87](notes/2026-11-14-r150-h25-projector-free-original-seventeen-mod29791-cost87-789f.md)已成。新[原h0单31分母完整来源](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)也已全17乘回：AZ=31h0T模31³，九费用87/87/86/87/87/87/87/87/87。因此原h0模31²的31分母指数恰1；整数任何次数障碍仍真。第八真除源已给rank_Q A87≥226090；继续完整31饱和及特征零像归属，不由有限模身份代char0。原143/104、投影189、∞预算及全部旧数据保H/快照。
+**原式来源与31饱和。** 已付原h0模31²分母指数恰1、完整原17模31³费用87及e0任意次数mod961负证；详细来源/旧计数保[完整前态](notes/2026-11-15-open-before-external120-and-relative-normal-789f.md)。最新同原全局因子、系数tors与p6范围见末节；有限模身份不代char0。
 
 **固定正权star及高birth中央区已成。** [全star定理](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)统一全部Q/组数；[全出生物理中央/极平界](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)保完整E_d/U_d和硬Schur。权比发散、所有height及原同源graph费用继续。
 
@@ -141,3 +141,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 原G_reg同forcing/carry、Haar普通循环性、正常有限秩相容链及前文全部开放接口继续。普通ISP完整定理或反例出现前继续工作。
 
 - **全局第二系数像续查。** 原B像=L:31²，故I2(A)恰由U7及197条真实R2的原s作用闭包生成；旧197方向只付二点jets，不能外推全315像。继续从有界原q1恢复完整多项式、核全部505自由及315tors坐标，不预填新增维数。
+
+- **原正常商的完整来源接口。** [严格presentation](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)将原6188源经120单位后分为56个G尾和6012=5100+864+48真零投影源，完整W商为coker[B,H kerGᵀ]；rank34核必须保。倒精确Ω后可用56列H(I−JGᵀ)，J须真det/adj来源。下一步补原17式normal2多项式并同步全尾运输；现未数值构造B/H、不认4212免费单位。

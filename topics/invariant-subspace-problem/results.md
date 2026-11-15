@@ -467,3 +467,7 @@
 [J1完整实算](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)在0.977497686秒核原2015项/6069系数31整、两域各211式及全部最终整除，H3特征长Q230/F31231，完整χJ=s−2。因此C/pC长314；连已付15个系数p方向得Δaff≤299/齐次≤365，barR|(s−1)(s−2)²P+²P−²E6Q60²/deg141，root2准确预算u+v=2。没有取等于预期更大缺陷。
 
 [全56完整rank21证明](results/R150-appendix-original56-residue-rank21-external-factor60-and-source-cost8471.md)依据全部原行modf的21真单位主元/11165坐标和35×1全零，得f60|Ω|f60²，每个支撑只有一个正Smith因子、指数待1或2。M60=Rout/f≤81，九M60h*tj原Q成员且总乘子≤104，来源费8471。monic f31整后保持原D*不缩放，全部精度已有来源统一降费8595；不新增解或31分母。后续f²大matrix MemoryError只影响未完成精度，转两RHS Bockstein继续。
+
+## R150：剩余正常目标商的完整原来源presentation（2026-11-15）
+
+[完整证明](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)逐原来源把54单normal g组、3纯g组和63真H单位剥离，留下6012=5100高normal+864单normal差源+48纯差源、56个原core尾及13真零输出。全部输出变换保持W，清unit尾逐点固定W；因此T≅coker[B,H kerGᵀ]且rank34核不可丢。倒Ω后以实际right inverse给56列H(I−JGᵀ)等价presentation。此为完整来源运输定理，未数值构造W尾、未报高块单位或九目标成员。
