@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 08:05:49 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 08:07:44 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49非FF即时pull重试仍无。root已核最新runner真pull：07:57:58.933224 UTC c7ff35e0ccc7c754942590c8c20af99efed8ebd2（signed-root），两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：26ee72822fbf48dafe697a599676d6dcb0e0d71f；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：8cf8281c01938a5723bcd321d9d2b01fbd1ae069；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。最近逐字H归档：notes/2026-11-15-handoff-before-cached-cap-endpoint-and-signed-root-actual.md（286089d9651073a5038280f9e8a181d12b2bfa895b4c96b566c7a6aebb1724be，9764B）。前H/open/输入/失败全链均在该归档，压缩不取消任何门。
 
 ## 同一对象与总完成门
@@ -27,15 +27,14 @@ v3 run43690634784/1（head8e962541…）SCI1d8383a8…/worker c06a5758…/369pin
 
 原Taylor/Nraw/b*/1328/六profile、九词/五mean/1079seam/653ledger及失败全身份见前H。2547/2551 actual43682479300 child0/21/49stage13新行、4305旧行逐字，报告f3a372ce…保原整域；禁重算。
 共同径向C/P/I/B完整P/I/J/mean/jump保。势actual43685624307 child0/16给H1/6000 V276/VT26431/VTT3830956。A/0e56cf64…真两列保实T±1/2000/n≥388/真Wronskian和两ordinary源，不是complex角norm；H/edede2b1…actual43688459733 child0/16的原h1/20000旧圆gap>.9999880505123，inverse/角导全保。
-F/052a0b23…完整signed forcing已证fbV=fb+Vj/fa不变，所有阶/六余项保；根处径向消去，fullmean为Vj−V∞+141〈C²〉/(140κ²)，finite-z完整Q1提因式。首43691675493 child1/9门/3stage/0case因abs矩形gap，只有Re下界修复。实际新43692226895/1 child0/11门/3旧stage/1新case/math.378429979s，报告a7ff7c71…；fullmean<5.999084e−5，差/z<.190815，σ0两行<.935646/.264232，σ1/128与3/128及q0..3全部已付。execution4abbe1ff…/result66f02392…，无新data持久化；原失败未成临时代数重做准确披露。root已亲读runner07:57:58.933224真pull c7ff35e0ccc7c754942590c8c20af99efed8ebd2两README空。此仅根点：整片共同坐标逆像、真正新w1V、全部old-circle I/J/mean/seam、物理正Schur和全strong返回仍待。
+F/052a0b23…完整signed forcing已证fbV=fb+Vj/fa不变，所有阶/六余项保；根处径向消去，fullmean为Vj−V∞+141〈C²〉/(140κ²)，finite-z完整Q1提因式。首43691675493 child1/9门/3stage/0case因abs矩形gap，只有Re下界修复。实际新43692226895/1 child0/11门/3旧stage/1新case/math.378429979s，报告a7ff7c71…；fullmean<5.999084e−5，差/z<.190815，σ0两行<.935646/.264232，σ1/128与3/128及q0..3全部已付。execution4abbe1ff…/result66f02392…，无新data持久化；原失败未成临时代数重做准确披露。root已亲读runner07:57:58.933224真pull c7ff35e0ccc7c754942590c8c20af99efed8ebd2两README空。根点不冒整片/physical mean逆。T/c0408ef4…整片signed配方已独证：σ=barT^-1(Tactual)，新w1V=旧w1+(Tb0,a0)ℬ(T)，ℬ=½∫s^-½V(sT)ds，真实非零root常数保。degree12只需原K15/旧14leading及旧12correction；Rs3/40000/角1/128完整双Cauchy尾付全Fourier/mean。原f0=fa/f1=fb映射实读核；μ local源、所有I/J/seam仍保。新数值未执行、物理正Schur/全strong返回未闭。
 cleanup首43679889657/1删11834件后206137215B超限保留；第二43690692511/1真success：9件/7607204B普通删除commit1fae319aa2ac67d722bf16b2391053dcb90bb407，实际该tree199048373B<200MB。恢复commit121e4ce63b469b31148dcd58697092b9befbd5c9；process d5ad024c…/publication d7f4ad63…/metadata75901041…/30803B。0数学/旧11834不读，历史、参数和并发版本全保。新增文件后仍须维持200MB门。
 
 ## 有限正则尾、全网络与迭代：tail_connector
 
-完整I/T/G原主体mean/weak/ordinary/jump/外height/Γ/ν源及所有浅深前缀保。T/faef376f…4384窗付真实loss1730/s≤2656；G/6d103b66…固定高背景的D8真firstΓ投影Schur源≤2114，EN另保。L/a1b0a2ab…已把同一Γ值域扩为D20小、高Dr≤8196有限，flow2^1048576/共轭2^1310720γ^-1 J C^P Dr→r−8，非D8值域。
-O/e8d2338e…真L=J−EN/c，EN=αNk−βNθp−γNp、〈AEN〉=〈NDA〉。C/ad1fc17b…和M真mean/height图保scaled三径residual、Ct4、全Π_A、唯一height/真实外荷；原B/8dc64a91…secondΓ fixedγ2 gap依赖要在新低域逐项核。
-N/b6a1e3e3…完整proxy/projectedΓ两层tame已付：低R1856≤2^-8192000/high至8192只finite，q1792..8128/输出s64..6400，source loss1730。cross-sign一高933888<1048576；B的真实secondΓ scalar gap用角192/state-source196重新收费，已知flat仍用原R*。D8由Y64读source1794/bg1802，Γ低feedback<2^-7900000；完整Ys gain2^8388609/high系数2^33554433。变化outer的weighted门独立，不从局部A1824推得。J/7977c820…三径source→四径state已付：精确两行递推只需g_ttt、方向s≤6396/bg s1796≤8192，loss1734，gain2^10485760/high2^37748736。完整mean、physicalheight/metriclift、broken bump第四piece导/原子保；三径二次与EN费2^1572864。EN/真正Nash仍未闭。
-E/01033915…真实source graph已付：E_s=X_s^0+N^[3]_s(L0u)，固定径向L0与角S_T精确交换；真实firstΓ/mean再重建，N=Π_A P⊥N仅holonomy-one域。低E1856≤2^-8192016经16等价进N低球，高8192仅finite；完整残差graph差含+ψ_t(k0+U0)、DΠ_A残差mean，C¹/二次余项费2^2097152。旧成员入口条件于真实traces/各片N0，不删外匹配。正接真实approximate inverse和μ1734/ν1796 smoothing归纳；所有端口/actual初残差仍须联立。
+完整I/T/G/O/C/M/L及全部预算、ΠA/mean/weak/jump/height/Γ/ν源保留，详见逐字前H与open。L低D20值域/高至8196 finite；O真L=J−EN/c（EN=αNk−βNθp−γNp），C/M付三径residual和唯一height/mean图，边界Hp全列未删。
+N/b6a1e3e3…全proxy/projectedΓ两层：R1856≤2^-8192000、高至8192有限，q1792..8128/source loss1730；secondΓ gap独核state/source196、D8由Y64/source1794读，weighted outer门独立。J/7977c820…三径source→四径state，s≤6396/bg s1796≤8192，真实loss1734；两层gain2^10485760/2^37748736，完整mean/height/broken第四piece导保。
+E/01033915…E_s=X_s^0+N^[3]_s(L0u)，L0与角S_T真交换；firstΓ/κ每次重建，低E1856≤2^-8192016，高8192 finite。精确残差含ψ_t(k0+U0)与DΠA残差mean，C¹/二次费2^2097152。正补真正图approximate inverse/μ1734、ν1796归纳；actual初残差、所有端口及Hp返回尚须联立，body Nash不冒全匹配。
 
 ## 正帽、真实outer与实际中心入口：root/newton_source
 

@@ -171,3 +171,7 @@ root全文核SCI106ec930…、contract9d0c8f22…、22pin63785814…、worker b8
 ## 2026-11-15 08:05:49 UTC — 实际根点 signed forcing 单独发表
 
 root全文核a7ff7c71…报告与43692226895/1 execution4abbe1ff…23306B、result66f02392…6450B；child0/11门/3旧stage/1新case/math.3784299789999963s，12pin/3AST实际全过。mean<5.999083248299e−5、V差/z<.190814674367、三old-circle宽度/q0..3完整。首43691675493 child1身份不删，原square仅Re分母界修复；已成旧数学零重算，第一次临时未成代数确有重做。runner07:57:50.969474和07:57:58.933224真pull→c7ff35e0…两README空；本次ref核26ee72822fbf48dafe697a599676d6dcb0e0d71f不冒本机pull。整片/新w1/独立physical mean/全高逆仍未成。
+
+## 2026-11-15 08:07:44 UTC — 整片signed共同势与真正新w1有限配方独推
+
+root全文核T/c0408ef4…18116B并从C.11独导T.5、核真实image域/σ递推/ℬ Fuchsian积分/T.19最高阶和T.24双Cauchy系数尾；newton独核T18–25。root亲读原fa344d17…SCI136–155及473–485确认f0=fa/f1=fb、F0=Fb/F1=Fa、Z0=A/Z1=B和各majorant域，禁止按序猜行。原old12 firstcorrection不重算，只准确signed增量；T.26全μ/n、n⁻2/⁻3与old-circle/physical mean/真seam仍保。新公开consumer编写中，无数值预判。两README只读核8cf8281c01938a5723bcd321d9d2b01fbd1ae069不变。

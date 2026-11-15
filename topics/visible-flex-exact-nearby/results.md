@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 整根片 signed 势与真正第一修正](results/R133-supplement-whole-root-piece-signed-reference-potential-and-first-correction-Taylor.md)：真实σ=barT⁻¹(Tactual)，ℬ(T)=½∫₀¹s⁻¹ᐟ²V(sT)ds，w1V=旧w1+(Tb0,a0)ℬ；非零根常数、degree12/K15及Rs=3/40000完整双Cauchy Fourier尾均有准确配方。只复用旧signed输入，新数值及完整I/J/mean/seam/strong回馈另待。
+
 - [R133 实际共同参考根点 signed 第一强迫](results/R133-supplement-actual-signed-first-forcing-at-genuine-common-reference-root.md)：公开43692226895/1 child0/11门，3旧stage只读、1新case；fullmean<6e−5，完整σ0两行<.935646/.264232，σ1/128、3/128及q0..3全付。第一次矩形gap失败保留，唯一Re修复；全高/整片/新w1及独立physical mean未借此关闭。
 
 - **2026-11-15：完整参考source graph、真实残差等价与角向平滑。** [E1–28](results/R119-supplement-reference-graph-scale-exact-residual-and-angular-smoothing.md)定义E_s=X_s^0+N_s^[3](L0u)，L0与同一S_T精确交换；先截非mean高度，再重建真实Γ/holonomy mean。准确残差保+ψ_t(k0+U0)及DΠ_A残差mean，低E1856≤2^-8192016经16等价进N球，高8192仅finite；完整tame/Fréchet二次费2^2097152。已知成员入域条件不删真实traces/外残差；charged列、approximate inverse及Nash收敛仍独立。

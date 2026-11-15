@@ -105,3 +105,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 ### 已成实际根点 signed forcing；继续整片新第一修正
 
 公开43692226895/1 child0、11门、0.378429979s，实际报告a7ff7c71…已核execution4abbe1ff…与result66f02392…：幅度mean<6e−5，finite-z差/z<.190815，完整old-circle σ0/1⁄128/3⁄128两行与q≤3全保。下一子门是同一共同坐标σ的整片signed势及真正新w1V；根点常数不能提升成整片范数，也不等于独立physical even mean。原失效abs-gap运行保留，仅Re下界修复。
+
+### 已成整根片新第一修正的完整有限配方
+
+T/c0408ef4…给真实σ=barT⁻¹(Tactual)、signed fv=(fb+V,fa)与w1V=旧w1+(Tb0,a0)ℬ(T)，ℬ径向积分保持新非零根常数；degree12只用原intrinsic15/leading14/correction12。Rs=3/40000和角1/128内的完整双Cauchy尾先付系数uniform界再和，含全部Fourier/mean，原f0=fa/f1=fb不混。下一步公开执行新scalar/有限Laurent相加并评估整片范数，保原物理seams、全部old-circle I/J、μ local source与n⁻k input归属；当前无新整片数值或full high inverse。
