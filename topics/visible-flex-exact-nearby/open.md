@@ -129,3 +129,7 @@ T/c0408ef4 的4件公开入口已完成全读：SCI a0f12f84d55c4735507e71e40d35
 ### 已成有限Nash body归纳；全端口与真实初始门继续
 
 [B1–30](results/R119-supplement-finite-Nash-iteration-in-reference-graph-with-port-conditions.md)已给明确可重复graph迭代：v_n=S_Tu_n、w_n=−R_v S_Tf_n，不再截w；μ1734/ν1796、a1856/b6396、p3000和high3500/400的所有误差幂已核，完整body残差与holonomy mean趋0。实际入口|f0|a≤T0^-3000独立，旧94只能在同对象/同端口作有限Sob转换；尚需真实augmented外行Schur、nonlinear traces/mean/Hp/唯一height/ν全部列与其smoothing，不能由body收敛替代全匹配。
+
+### 已部署加权Q唯一剩余局部门
+
+SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997fcdc4e2bda1fb4aabbe37a5e4e967508bc11及contractd709a832…/flowc4842c91…只做原part004均值槽新exact Bernstein、逐mode加权max后joint和、原repair与完整F12尾/真long标量条件。root全读，tail核心三函数并亲读原a24c26… producer确认raw width1/32；原target/全卷积/残差积分/端矩/FFT零重算。公开数学前同HEAD树metadata真核topic≤200MB；等待实际q_w门，不预称帽存在。

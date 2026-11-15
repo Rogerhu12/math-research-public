@@ -189,3 +189,5 @@ root全文亲读6889B报告bc19415f…、13372B process b782c9a2…、27436B sum
 2026-11-15 08:26:07 UTC：独推E/0e6c0f6a完整条件帽定理。root逐式构造；tail独核E5–16真核/权/全卷积/mean，phase亲读F11–20、S10–13、actual c589a454后核E17–23与严格球账。径w和角ω_ang分名，128有限模权及无限F12两尾均付；未新增数值计算，q_w<1e−5明确尚未验证。当前5ec7b6af0e9352bb1152ce17d7e047da9cd46f60根/题README blob与已读规则一致。
 
 2026-11-15 08:29:30 UTC：独推B/7ad04c3b finite Nash v2。root全文核、phase只复核v2 B11/B14–25相对v1的3500/400调整：保高尾系数1而非C，T0^126准确吸新C*T274；低校正无T损、EN符号、ΠA mean、actual背景更新和唯一高度规范均保。原94 J29只登记同端口Sob与数值量级，不作未付identity/ordinary三径源/port入口转移。README4414d1b69fae9b9eec2a69e1f03b945886918c59两blob未变，继续whole actual及weightedQ门。
+
+2026-11-15 08:30:27 UTC：独立部署weightedQ五件。SCI942db5ef…34540B与worker6512b038…22146B数学零改；contract只修8个单$ display分隔为$$，新d709a832…及依赖manifest0d036c72…/flowc4842c91…一致。root全读5件/原a24c26…raw-width producer、tail独核Bernstein/全共同partition/逐mode max→sum；F12两个无穷尾、σ扩大已成源与两mean/outer完整标量门已核。actual尚无；旧证书仅immutable历史临时恢复。55606e219833300e733fec50dbfd400d2a861b3e根/题README未变。

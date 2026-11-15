@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 08:29:30 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 08:30:27 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49/08:07非FF即时pull重试仍无。root已核最新runner真pull：08:23:21.553488 UTC 4f4121a6ea192c5ee7d2a4d80e889946e6a7ae1d（Green v3），两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：4414d1b69fae9b9eec2a69e1f03b945886918c59；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：55606e219833300e733fec50dbfd400d2a861b3e；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。最近逐字H归档：notes/2026-11-15-handoff-before-whole-root-consumer-and-weighted-cap-closure.md（5a230aaf31a0a8047878c3508bb520af7579e44cf82fb03d424ee7f93d541b41，9554B）。前H/open/输入/失败全链均在该归档，压缩不取消任何门。
 
 ## 同一对象与总完成门
@@ -43,5 +43,5 @@ K/1aaa27fe…真long两层至q8160，DN/EB为低A64·high+Aq·low，bare Poisson
 A/1311fa38…已付同ac1/440866/δ0物理帽L1 Wiener源：完整双端核ordinary B/C增益10/17含mean，固定r换角<5而无96倍；旧7296全L1+准确repair给实际仿射η<1.2e−6。原kernel推ell<1.39²、H*=||Kv²+u²||<2，精确Q余项13||x||²及完整差；ρ2^-15主体image<15ρ/16/Lip<7/8。实际repair右端nonlinear regular残差<1.3e−15/Cmean2.05e−19/Bmean0；只有当前反射源省primitive相位常数。还需真实R端保持/weighted反馈、未知innerheight/moving读出及全负体/尾/ν匹配；不能将此主体球称完整帽解。旧M64/.65/4046精确解仍非当前ac1。
 
 L1/端源actual43692857656/1 child0/12门/.646627987s，报告bc19415f…；7296旧/1341帽/949reference/1346交段、22pin/17历史，旧数学0重算。affine<3.038615461e−7、R非mean<2.486289618e−14、独立Cmean2.05e−19；process b782c9a2…/summary f5eea9a8…，新5761966B数组仅临时/SHA58b354c6…。
-E/0e6c0f6a…完整小解析帽条件定理已证，σ1/8192、ρ3e−6、ζ9.9e−10，主体Lip<.881、image<.99ρ、端点<.9ζ。原真Q核K_e<5，w=e^-2∫sC给加权2K_e；完整未知二次65ρ²与outerζ/200均付。唯一新门q_w=max(joint||wQB||,||wQC||)<1e−5尚未运行。newton只复用global mode envelope/4650旧row加原part004第32槽新Bernstein/repair；逐mode max再和，不能max row冒joint。原L1升级σ、全F12物理尾、真long域/两mean皆独核过。该门通过前不称帽解存在；farheight、内mean/phase读出与全匹配仍独立。
+E/0e6c0f6a…完整小解析帽条件定理已证，σ1/8192、ρ3e−6、ζ9.9e−10，主体Lip<.881、image<.99ρ、端点<.9ζ。原真Q核K_e<5，w=e^-2∫sC给加权2K_e；完整未知二次65ρ²与outerζ/200均付。唯一新门q_w=max(joint||wQB||,||wQC||)<1e−5尚未运行。5件已部署：SCI942db5ef…/worker6512b038…/manifest0d036c72…26pin/contractd709a832…/flowc4842c91…；原global mode/4650row/part004第32槽新Bernstein/repair，逐mode max再和。math前metadata真守200MB。原L1升级σ、全F12物理尾、真long域/两mean皆独核过。该门通过前不称帽解存在；farheight、内mean/phase读出与全匹配仍独立。
 每子问题完成即接open下一项；不得停在阶段报告、时限或“下一步建议”上。
