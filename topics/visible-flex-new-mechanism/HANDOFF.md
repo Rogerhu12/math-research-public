@@ -30,13 +30,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已付基础接口**：R208–210准确whole pure S=P、Cp=P；Q=P/πR仍未知，不能再用λ+否定pure。R223/227真闭hook付M0、TκH、frame/位移及例外芽安装，通常重设seed/g，不冒同g有限flex。
 
-R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右三常数/左尾；43712266529八新人工已过不重。全Rp0=(R71∩kerπ)+B(E,χ8)，不可删首项。R259/263的72全角条目和81有序状态非rank；右inner三矩0才消cross，12完整copy付36odd，平移≤10和内部history均保。
+R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/左尾；已付43712266529八新人工不重。全Rp0首项R71∩kerπ不可删。R259/263的72条/81状态非rank，右inner三矩0才消cross；R277–281/264的全部period、Green及解析端判据保原文，不授未算门值零。
 
-R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；当前强化入口为下述Fang，已败旧族不重试。
-
-R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″及同右尾；全Z逐包比例Kfg0/flux自动0只用于correction，canonical全目标另付。所有平台/势矩/Laurent/解析端判据原文保留，不授任何尚未评价的门值零。
-
-**R281解析端接口**：从起点ψ乘偶多项式可选最大F母包/纠正与全区正prefactor；p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。整个canonical Tf与真实尾保留，共轭微分及频率独立将端germ变有限iff；平台/flux前提须实际支付。后续F⁺可用，不凭解析性授门值零。
+**R281解析端接口**：ψ乘偶多项式给最大F母包/全区正prefactor，p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。真Tf/尾和共轭端germ有限iff均保；平台/flux仍须实际支付。
 
 **R283/288当前紧微包canonical一次端层已付**：原R56的i≠j C(ui;uj²)整体局域outer包，仿射Zj与紧Vi端差使P/B/η/W原canonical随之外零；diagonal保真尾而actual whole-pure逐解析左端付三历史矩。故所有内部Q_e=P_e[Wfc]0，两mixed一次指数全消。保右锚和全周期端势；不推广step或任意第三初值，平台P″/flux/Laurent/全period/joint仍欠。
 
@@ -51,8 +47,11 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 **R304/306/311完整障碍**：同0<κ²<.01共振偶芽，旧面积+三个directed+完整E−3 σh−2j0给严格正系数 (41t²+27)N(t)/(15552he³(51t²+2t+8))∫g″4，N=16+184t−1713t²−2475t³−4590t⁴>15。R304排任意不交实rank-one圆，不需同母/宽/序/等B；R311同一余量逐参数迫固定包空间ci²=ai²，连通初值ci≡ai，任何连续幅轨道也刚性。R306从全mixed原式和Green/ordered尾推广至 **W=g′f″−f′g″=0** 的全部重叠实圆；两个hook同时0⇔W0，退化开段有限边界的3/2幂拼口亦严格排。弱原第三周期只需H(g;ff)=0⇔AfW0，**不强加第二hook**；regular弱核被排，但Af0的曲开段仍留真实rank-two入口。第三原range/矩与第四须重新支付。旧principal/有限门真但不能修复被排类；不是主课题无解。
 
 
+**R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。尚无过全门输入；下一实际付新E²/log/一层及全joint。
+
+
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 77572dc66bb2f40da58b4a9937968352b89e9c88，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 0f2c4857cb037833682ae5059c469e9d84847c57，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

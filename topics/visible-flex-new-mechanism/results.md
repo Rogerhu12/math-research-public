@@ -348,3 +348,10 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 [R306 完整证明](results/R306-derivative-rank-classification-and-overlapping-profile-Gaussian-obstruction.md)用原通量和右锚两常数给 H(g;ff)=0 iff Af(g′f″−f′g″)=0。双hook同时0时，W非零连通段的两导数各为正仿射的3/2幂，有限端点使C³失效，故双hook iff W0。范围含任意数量活动段与值的仿射偏移，不需GL2后可分包。
 
 对W0的任意真实重叠圆，whole mixed四行/完整面积与local式直接给同R304一层严格正值；全部C²、inner非紧尾、原gauge商保留，排整个强hook-invisible平面和regular弱核类。固定seed原第三周期只需一个hook，未误加第二个：Af0曲开段容许W非零，是下一真实入口，尚欠三矩/第三ruling/第四。纯纸证，无新执行。
+
+
+## R312：可安装二次高度端芽及完整有理—反正切—对数第四 ruling
+
+[R312 完整证明](results/R312-quadratic-height-ports-and-rational-arctangent-logarithmic-ruling.md)从初始安装 h=he(1+εσ²),k=κ≠0,ω=ωe常数，保持原完整几何闭合条件后固定新g。移坐标后We=span{1,h,h^-1}；逐原六项M推得真实中心累计Q+E Bε，E=atan(√εσ)/√ε。完整第三恢复保真右尾/链项/ordered部分，新增L=log(1+εσ²)的精确残数槽。
+
+完整偶ruling严格为Rrat+E RE+E²R2+L RL，全部系数有理；两个复极的对数monodromy证1,E,E²,L有理独立，所以R2=RL=RE0与Rrat∈We是本芽准确系数门。E²/log各保三原外矩；旧Gaussian六独立面积门不能搬来。§3.1独立从原恢复证明常二阶入场/第三初值及全gauge在同We偶商，不误引R243特殊方程。尚未构造过全门输入，不是第四可解或同g有限flex；下一直接支付新门。纯纸证，无新执行。

@@ -40,7 +40,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 1. [R306](results/R306-derivative-rank-classification-and-overlapping-profile-Gaussian-obstruction.md)已从完整mixed原式推广正障碍至所有导数rank-one（W=g′f″−f′g″=0）重叠圆，原C²/ordered/Green尾全保。紧光滑双hook同时0⇔W0：若W非零段则两导数为正仿射的3/2幂，有限端点迫C³爆破。一般固定seed只须弱H(g;ff)=0⇔AfW0，第二hook不是普遍必要门。regular弱核类亦被排；真正剩余入口是Af=0的曲开段内W≠0。下一构造该弱单hook圆、准确三矩及原组合第三range，再求真正第四；不能套旧逐槽period或rank-one端局域结论。
 2. [R311](results/R311-continuous-rank-one-profile-orbits-are-rigid-under-the-complete-low-order-gates.md)已逐参数证明固定rank-one包空间任意连续轨道刚性：旧面积/三个directed门/新一层迫ci²=ai²，连通初值迫ci=ai，零ai亦覆盖。三矩本身允许真实sqrt(ai²+tv_i)非圆轨道，阻断来自更完整门。因此仅换圆为椭圆、高维幅值曲线或非GL2轨道不再是后继；必须离开这个固定包空间或改初始合法端芽。
-3. 若换几何端芽，从最初实际安装，并重新支付相应完整period/ruling及输入轨道。不能在已固定g上事后改seed/g，也不通过κ=0除零退化冒取旧公式。
+3. [R312](results/R312-quadratic-height-ports-and-rational-arctangent-logarithmic-ruling.md)已给可从初始安装的新端芽 h=he(1+εσ²),k=κ≠0,ω=ωe常数，原9参数横截安装保M/frame/ωend/完整词及闭合。它选择新seed/g，之后固定，非旧g事后变更。完整M、history=mrat+E Bε及第三log项已显式：E=atan(√εσ)/√ε、L=log(1+εσ²)。全偶ruling严格分Rrat+E RE+E²R2+L RL，两极monodromy给有理词独立，必要且充分系数门为R2=RL=RE0及Rrat∈We=span{1,h,h^-1}。同We全gauge商由原恢复/真尾直接证明，不套R243仅Gaussian范围。下一实际构造过这些新门的非退化输入；旧Gaussian面积逐项门和维数不能搬用。
 
 ### 已付有限原式可复用，不能把低阶保持当自动零
 

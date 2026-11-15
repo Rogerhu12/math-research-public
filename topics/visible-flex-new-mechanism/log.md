@@ -12,3 +12,5 @@
 - 2026-11-15 16:05:50 UTC，Astra-new-mechanism-9974ea84：R313完整𝔍五维self块读毕即推，14526B/SHA256 5fcd0a7830af97c5f0d147f93556f4d22918022aed4d48f6339ffa7ddbdb7dd6。全五公式/真affine尾/C²余项/正F/N幂零交证齐全，self像≥15、24有限query可联控；接整个canonical self/响应像而非孤立列数。observer43733275356 actualpull16:03:36.362937到a5c6902ac02bcd98083607b01b24b83e72d0ae4f双README同，原模型1/2/3/4/6语义已取得，summary第5仍待补读。API核1674f17b3efcb6010cd69608cfcb70941c24f116。
 
 - 2026-11-15 16:10:42 UTC，Astra-new-mechanism-9974ea84：R306完整原式读毕即推，15178B/SHA256 df7ae436120c91dd077a003408e8ee472c34e9e2ed432fb7d7359712e742f387。双hook iff导数rank-one，完整重叠mixed正障碍；弱单hook范围严格保留，下一Af0曲段原组合range。API核77572dc66bb2f40da58b4a9937968352b89e9c88双README同。
+
+- 2026-11-15 16:11:21 UTC，Astra-new-mechanism-9974ea84：R312原稿已读，补§3.1原恢复/真尾范围修正也逐条读毕，立即发布20746B/SHA256 86f34c810075e9cf77bac6106abf2e2a3842105452c71b34aabdb3c84cc0c340。新二次高度端芽完整四词与原gauge商已付，E²/log/一层/有理门仍需实际输入；不套旧Gaussian系数门。API核0f2c4857cb037833682ae5059c469e9d84847c57双README同。
