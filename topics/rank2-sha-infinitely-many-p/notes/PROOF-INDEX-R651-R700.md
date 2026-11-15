@@ -56,3 +56,5 @@
 - [R674：同一测试的双S算术适配、保负一非零与六步返回](../results/R674-original-double-s-arithmetic-adaptation-and-negative-one.md)：原11核加两S目标/同J_N的完整13×13整逆，在同ray密度一族全N4给固定N独立n的q†，两t0整源为原S单位倍且归一J=1。原C第六矩/九行/全π4和其余六模式全保；六步滤确实提原JS，并保负一深差精确赋值3n−2N+15+vI。两S补偿与T补偿仍是不同真实域，未从其各自过滤值预支中央矛盾。
 
 - [R675：原cd端点、完整六系数和真实非S来源](../results/R675-original-cd-endpoint-and-complete-six-source-return.md)：j=n=N原cd域真同R669 t=1共同E深门；全部λκu/C补项及第六矩给完整六系数与两来源quarter身份。原固定右逆的全留数表准确消(1+λ)分母，质量A0非零及固定CM范数计数给同ray密度一族全N4完整/Yunit质量均unit，故实际端点非S线；保完整外部/log，不把质量升级为中央导数。
+
+- [R677：同一适配测试的端点不相容与完整外部过滤](../results/R677-adapted-cd-endpoint-and-complete-exterior-filters.md)：R674实际q†代全端点，给同ray密度一族全N4质量unit/off-S；原九行及两t0源回S的整个J仿射族也不可能再使t1端点回S，显示2×2真实行列式付不相容。全n真实I同域及P6 O/X准确相反的额外来源、P7公倍数全保；各外部unit质量和全部尺度log不删除。
