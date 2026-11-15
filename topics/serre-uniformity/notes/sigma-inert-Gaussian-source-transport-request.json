@@ -1,0 +1,26 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "fixed-inert-Gaussian-rayclass-source-transport",
+    "scope": "eight_fixed_source_transports",
+    "image": "sagemath/sagemath:10.6",
+    "sage_version": "10.6",
+    "budget_minutes": 30,
+    "core": "topics/serre-uniformity/scripts/sigma_inert_cm_source_transport.py",
+    "core_sha256": "70e565af2b00f2ad7a58f555bffd177f7a277d8a8c01dd49b6f6dde26d25de38",
+    "wrapper": "topics/serre-uniformity/scripts/sigma_public_inert_cm_source_transport.py",
+    "wrapper_sha256": "2d61eb039457bb9dd4b0de99fd91631a0489dca1acb35706c744776e4a67ff3a",
+    "proof": "topics/serre-uniformity/notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md",
+    "proof_sha256": "c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30",
+    "method": "topics/serre-uniformity/notes/sigma-inert-Gaussian-source-transport-method.md",
+    "method_sha256": "013810fb3e6ec845151d7d9dba96c86f7465755e249bd406901b6b6ead8c9524",
+    "workflow": ".github/workflows/serre-fixed-inert-Gaussian-source-transport.yml",
+    "workflow_sha256": "503d8890da99fc1f270e92a0fb0a5e6292f176db83303b8f368a67c40087d566",
+    "upstream_core": "topics/serre-uniformity/scripts/R812_tame_theta_transport.py",
+    "upstream_core_sha256": "e7bac15678e6d0d30a30e54edd41a2d34a053b766da97efa7771278827e87ab2",
+    "upstream_proof": "topics/serre-uniformity/results/R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md",
+    "upstream_proof_sha256": "b538a3bcd47e2638c22b9758050fe87f66381b24fed649e30521092981aeafe1",
+    "harmonic_proof": "topics/serre-uniformity/notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md",
+    "harmonic_proof_sha256": "fc343d27f4da8c2a1bd77d2bd3b9227701426fca62402d57333bd72e9ae14b99"
+  }
+}

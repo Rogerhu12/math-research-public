@@ -1,0 +1,71 @@
+name: Serre fixed inert Gaussian source transport
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/sigma-inert-Gaussian-source-transport-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-fixed-inert-Gaussian-source-transport
+  cancel-in-progress: false
+
+jobs:
+  eight_exact_source_transports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-fixed-inert-Gaussian-source-transport.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/sigma_inert_cm_source_transport.py
+            /topics/serre-uniformity/scripts/sigma_public_inert_cm_source_transport.py
+            /topics/serre-uniformity/notes/sigma-inert-Gaussian-source-transport-request.json
+            /topics/serre-uniformity/results/R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md
+            /topics/serre-uniformity/scripts/R812_tame_theta_transport.py
+            /topics/serre-uniformity/notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md
+            /topics/serre-uniformity/notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md
+            /topics/serre-uniformity/notes/sigma-inert-Gaussian-source-transport-method.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check source syntax without importing Sage or doing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("sigma_inert_cm_source_transport.py", "sigma_public_inert_cm_source_transport.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(), filename=str(path))
+          PY
+      - name: Compute eight fixed exact source transports in the official Sage image
+        continue-on-error: true
+        timeout-minutes: 38
+        run: python topics/serre-uniformity/scripts/sigma_public_inert_cm_source_transport.py compute
+      - name: Retain exact outputs only for immediate review and continuation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-fixed-inert-Gaussian-rayclass-source-transport-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/fixed-inert-Gaussian-rayclass-source-transport/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Verify all eight transports and full exact matrices with zero entries allowed
+        if: always()
+        run: python topics/serre-uniformity/scripts/sigma_public_inert_cm_source_transport.py verify
+

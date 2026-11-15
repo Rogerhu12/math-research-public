@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[Gaussian分解前H](notes/2026-11-15-handoff-before-Gaussian-rayclass.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[惰性运输前H](notes/2026-11-15-handoff-before-inert-source-transport.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -34,9 +34,7 @@ R811首乘法core849bca27/wrapper2a1d1c28已审、R806齐，待R809 A/B；r5八�
 
 ## 已成原输入：禁止重算
 
-[R806](results/R806-certified-original-primitive-multiplication.md) run43707290840/source75b1d56c，w0=e2/n1，cyclic p1000000007/z0=0/det489861234；34×8列/full820，10603输出/2580输入全核。原artifact14161637987至Nov16 12:25UTC，续接14162500418至12:38UTC。正规环不换primitive幂环。
-[R813](results/R813-certified-original-Wronskian-normal-vectors.md) run43715253991/source74f5296a，两个S3各432位/full820/scale6724，core67.613511668秒；451ZIP/726输入/冻结verify全核。artifact14162633303/ZIP0850402e至Nov16 12:58UTC。
-R801长尾/R803混合比/R805整基/R807清极和R797/799/800均已完整IO，source/run/SHA见各certified及归档。V6至141/V7至175/V8与旧V2..5至195；基权1/144/127，θ真实rank2/kernel3、λ3/4零，κ^N一次。R781旧R0..142已成，后继不得重做；只有真实消费者需要才补更尾。
+R806原w0=e2/n1乘法34×8/full820和cyclic已成（run43707290840，10603输出/2580输入全核）；R813两个S3 Wronskian各432位/full820/scale6724已成（run43715253991，451ZIP/726输入全核）。原artifact至Nov16 12:25/12:58UTC，直接消费。[全部真实来源/SHA/续传见惰性运输前H](notes/2026-11-15-handoff-before-inert-source-transport.md)。R801/803/805/807、R797/799/800亦已全IO；V6至141/V7至175/V8及旧V2..5至195，原基权1/144/127。R781 R0..142与κ幂已成，后继不重做。V8 q196..201只在真消费者需时补。
 
 ## 全p sigma 与实际Hom的新接口
 
@@ -44,7 +42,7 @@ R801长尾/R803混合比/R805整基/R807清极和R797/799/800均已完整IO，so
 
 [R812全split未筛非零](results/R812-certified-split-prime-unfiltered-apolar-unit.md) run43713181015/source2b7183a3：六FG Norm只2/3/5/11，U/det只2/3/11，全IO已核。全部p≥41、p5mod12未筛交替卷积单位；不代primitive/Legendre同h，五端项/共同c^(2−2p)保留。p11mod12[原harmonic7](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)余项为一次q原函数，Qpoly在P0零；指定CM FG代数评价/单位仍缺，不能称水平。全SS常系数端项恒等已排，单j0关系未排。
 
-[惰性Gaussian固定角色分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)已证：原harmonic7=四个CM形式F3/F7(level36)、G1/G5(level144)的八oldform分量，nebχ12；GC17八矩阵在Z[ζ8,1/2]整基，原一次原函数保1/d。p11mod12真实Hecke T²+p⁷、U_pJ=−p⁵V_pJ；整基＋原Q正则给八个原缩放CM值eν,p合法，FG=(c²/32)Σκνeν,p。指定组合非零仍缺；新固定运输待Actions，不跑p窗口/旧六case。
+[惰性Gaussian固定角色分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)已证：原harmonic7=四个CM形式F3/F7(level36)、G1/G5(level144)的八oldform分量，nebχ12；GC17八矩阵在Z[ζ8,1/2]整基，原一次原函数保1/d。p11mod12真实Hecke T²+p⁷、U_pJ=−p⁵V_pJ；整基＋原Q正则给八个原缩放CM值eν,p合法，FG=(c²/32)Σκνeν,p。指定组合非零仍缺。[固定八运输请求](notes/sigma-inert-Gaussian-source-transport-method.md)已准备（core70e565af/wrapper2d61eb03），只恢复旧未序列化U并算八新运输，保存U/两8×8全坐标；待实际run，不跑p窗口/旧六case。
 
 R816/818/819/821/823已成全p原Hom接口：实cusp域Qξ⁺与L互素单轨道；原K[T]=Qζ_(p+1)、Hom域rank1及cusp评价核稳定，全部非零原Hom在cusp不分歧。整格Φ_n(T)及C[1−ζ]像迫全cusp映O，Y原y每cusp简单极。原M2,1≠0还给c1不分歧，充分大前提用R729；不代p单位/高度。全部作用、比较尺度与原c0保上述归档及各完整证明。
 
