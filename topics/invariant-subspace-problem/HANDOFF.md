@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 6bc64c4b76d7366a0ef7277ccbd7c98309931f93（2026-11-15 21:45:58 UTC，Actions run43765479863实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43765479863-1.json。
+- **最近成功实际 pull 与已读规则提交：** 692619ad95e1386bf9196c4ce8159ffc12d9aff7（2026-11-15 21:51:10 UTC，Actions run43765952556实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43765952556-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -27,9 +27,9 @@
 
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
 - P原gcd600 state42d998c9：19行完成/第20待约化，12basis/2416步。localized91e5d19a实际497.7846秒exit1：13原根乘回全真，57新步仍19行，basis564431bits/current629810bits，临时候选464.75MB/56245ba9，无Ω。只读2301B/b947eb34失败回执已明确MemoryError（7d9899ad）；保父根/core，先改算法，不盲加资源。
-- 新minor并发失败已立即重拉重推成功；历史字典恢复v2/五输入全核均实付，详归档。当前仅核新det，不重已付core或旧消元。
+- 新minor并发失败已立即重拉重推；历史字典恢复/五输入全核详归档。不重已付core/旧消元。
 
-- **原三minor已实际完成。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；下界消费者继续，不重core/det。
+- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；下界消费者继续，不重core/det。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
