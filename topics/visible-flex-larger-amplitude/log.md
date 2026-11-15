@@ -209,3 +209,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:48:53 UTC /root — 同场完整相对metric消费者源码
 
 [完整接口](notes/2026-11-15-same-shared-field-relative-metric-interface.md)16116B/f5d973e1与source35473B/a601e5b5全文已读，最后完整覆盖/未决后缀/输出条件也已核。真实有限shared-B全Gram与四Loewner、旧scalar全48/64Gauss责任及原固定帽target保持；原stored连续E界缺失默认未付，外部区间只条件，不换Bprime或理想积分。尚不支持六参数新scalar，且无实际接受场/run/C² seam/标准4，未执行本地科学或添加native门。geometry转实际stored E源。
+
+## 2026-11-15 08:49:44 UTC /root — 发布122一次真实fresh方向的双policy有限轨迹实验
+
+[完整接口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)14158B/70aba598、probe26740B/05ad668d/coordinator9736B/480ec312/request0e09599e/workflow497b74d7全部新源码/相对113差异已读；31原source缓存SHA+HEAD Gitblob及2新源/5正式文件核过。原91context/H/state/target/scales/far和2ready/78源，fresh全J/R273后仅一个新packet供两policy，alpha0；7200s及同进程组guard、受控sentinel/真实response闭合分开，非原native失败或成功。未本地科学、未预填未来run/数值；113和已发JVP三源不变，无新raw上传。

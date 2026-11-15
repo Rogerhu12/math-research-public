@@ -91,3 +91,5 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [原同worker完整H(s)续接接口](notes/2026-11-15-original-same-worker-full-height-continuation-interface.md)已发表，仅为120若证据支持冷初猜改进时的独立方案。保完整112 H/原尾g/32×10和真实收敛last；noJ不省Newton fullJ，零点warm ratio无效不保证首正点可达。最后s=1全J/原FD/同owner fullDN/finalaudit仍实付；IPC/record写失败不盲缩步，未选s参数/未派发，不改807f或113。
 
 [actual120正式结果](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)：完整初猜节点/中点/两RMS域预检通过；首完整112H的原native请求在返回J前被D/S/A拒绝，lastIteration为空、无FD/fullDN/audit，非wallbudget。摘要19463B/4f2be484两job逐字相同，临时raw已删。124按完整H(s)同worker接口独立实现，只用真收敛last，所有原native/FD/fullDN门保持；不得将缺失阶段或小s预期写作通过。
+
+[122实际fresh方向实验入口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)已发布probe05ad668d/coordinator480ec312/request0e09599e/workflow497b74d7，33源pin。唯一新原91现场/原fresh64全J+R273 delta，alpha0两原policy有限trace单方向；7200s总、首≤3600s、第二不看首数值通过。之后精确sentinel受控结束独立worker，procedure/science/native分开，原十trial/finalJ/audit未执行，113及已冻JVP源不改。等待真实run与原输出，不能冒完整224列J、IEEE光滑或原native接受。

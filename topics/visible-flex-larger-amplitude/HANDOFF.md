@@ -28,7 +28,7 @@
 
 113第二run43688981685/source8d68a39e/job132735373768，07:13:29UTC创建，08:46 UTC仍step14；amplitude监测。[首跑](notes/2026-11-15-actual113-first-run-missing-historical-input.md)缺历史JSON在首快照前，非数学失败。[113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)原1b59/3655/ba35/28pin不变，[input修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)从8bd26710恢复两ready原env。e=L−target/226态RK/129248行、64字面geometry/tables/scales提升；7200s只128child，原64/初J/R273另计，320step/350job；partial后原64solve/finalJ/audit继续，旧J不冒128一致J。
 
-[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[方向源码](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)已发布CPP8c40b4c7/launcher8229212b/bridge61e21ded，含原113两源。实际F/C分别微分、逐Cholesky/两代回及接受更新；n=0仅dt，全部226/RK/cut/576stage/far。仅一次完整delta，无全224J/native/fullDN/finalaudit，不冒IEEE光滑/branch稳定/误差界。未运行。exact接122：真实91 context/H/state/target/scales/far、两ready/78源→fresh64 J/R273δ→新packetα=0两policy；7200s总/首3600s、次不以首通过为门，worker受控结束非数学判决。small-core四输入不是该native现场输入，不加无用恢复门。
+[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[JVP实现](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)8c40b4c7/8229212b/61e21ded及原113两源均冻结。[122完整请求](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)现发布probe05ad668d/coordinator480ec312/request0e09599e/workflow497b74d7，33pin+原91context/2ready/78源；fresh64全J/R273δ→唯一新packet→alpha0两policy，总7200s/首≤3600s，次不以首通过为门。两slot后精确sentinel受控停worker，十trial/finalJ/audit不执行；procedure/science/native状态分开，不冒IEEE导数/完整224J/求解接受。原规则进程组/320step350job/90KB读回，raw临时消费后删，无small-core四输入。尚未记录实际122run；exact转124。
 
 ### 120已结清；123九控制与124完整H续接
 
