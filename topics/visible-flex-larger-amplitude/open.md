@@ -90,6 +90,8 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)首扫描到EOF/38找到，但计数差额及95577B超90KB，38表未返。[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)run43748206814/source48e55d2e、2e5717de reader已完整补齐：单55100B/46ac562a；32977 cover/32526 pending/32488 unresolved/38反证逐原事件与双来源身份匹配。全部反证在numeric416，17正速度/21负速度各连成原闭u区间，radius_refuted全false；32488未决同在416，32484仅目标宽度、3仅速度、1两者。708行首BOM仅解析副本，原1.48GB/4ab8日志不动；原finish全检查保，未重算任何科学。原165科学exit4及目标宽度责任不变，不能加节点消除反证；numeric标签不自动等同唯一准确支撑，原target与169/179身份和可变参数作用继续核，不增175/其它入口前门。
 
+[连续C固定power4十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)明确在原R323准确基底追加ξ，support1=[L0,L0+δA]，h=δA²·64x³(1−x)³(2x−1)^4，同表达三jet/零延拓/C²与准确自然L/公共u保持。独立factory十项表、degree10完整域、新numeric(3,10)/物理层(0,3,10)、七shape固定453和全冻450接点已列；原178 LiteralTenModel硬复制旧base/mesh/J，不能仅换profile冒新C响应。设计没有实际参数/域/求解或门；support1 ξ不能代coast参数修复，180独立继续。
+
 ### 3C. 当前C自己的零场与完整453非零BVP
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。

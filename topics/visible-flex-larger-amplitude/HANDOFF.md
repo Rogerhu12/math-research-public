@@ -4,7 +4,7 @@
 
 ## 规则、环境与目标
 
-规则同步记录：2026-11-15 18:55:10 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 70d3dc81fbb1ce35017af5063d8ebac922a45b2d。
+规则同步记录：2026-11-15 18:56:33 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 21ad67119ea940c72c368c7874c9d0cba01b3f99。
 
 只在公开Rogerhu12/math-research-public及其Actions。科学算术、模块导入/编译/数值测试仅Actions；此处限源码/纸证/原JSON词法与字节/元数据。root唯一发布，代理只交文本/blob。PAT仅瞬时CLI不入文件、提交、回复或connector。
 
@@ -51,7 +51,7 @@ R358实际162、R368实际168、[R367实际169重发](results/R367-actual169-ret
 
 [R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)固定S最小范数QR/clip/Cauchy条件证明已发。[178接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)八件本次即发：true157初父/固定164 support1/k4，旧九S=.01max(1,|p157|)、Sξ=.01/radius1；每接受fresh3×10、最多8×20，原full3/strictslope/domain/120FD/Arb/453/112/final保。search6b55a6d2/producer3e5c8a34/reader0610bc3f/recipe c8bb1ca8/request f7b24f57/wf799e0b79；45当前闭包/112+10源表、2400s child/50science/65job。接受父后继须真实新配方，不把旧模型换profile冒新连续C。
 
-R351/173完整698cell/1397逻辑输入、R363/R366/R370准确G/H/span仍可推进。R323连续十族设计12414B/a93f1ce6/blob7c1a06d3已读待即刊，support1在新[L0,L0+δA]不是178实体h。R383由exact写165→169/179准确身份/第三coast系数与中心速度必要带；request180由amplitude做真实coast全域修正，实际R384，未预填参数或结果。
+R351/173完整698cell/1397逻辑输入、R363/R366/R370准确G/H/span仍可推进。[R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)12414B/a93f1ce6已发表，support1在新[L0,L0+δA]不是178实体h。R383由exact写165→169/179准确身份/第三coast系数与中心速度必要带；request180由amplitude做真实coast全域修正，实际R384，未预填参数或结果。
 
 [R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)全局Prüfer实角lift/两自治比较、log正幅度/准确二幂换帧及物理取向Robin相关范数下界已证；原QPi须完整T及逆范数界，DN仍须每cut高度隔零。可越单分量零点不保证盒收窄/固定bits成功，不修改177/179，不作其前门。
 
