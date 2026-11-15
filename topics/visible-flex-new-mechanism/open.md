@@ -56,15 +56,11 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)已准确支付新的偶非平端口类别：所有有限外/内部标记拼口h=h*exp(εσ²)、k/ω常，物理s与固定collar使可变长度下germ仍匹配；倒行/正H/桥完整兼容。端速度0支付原端势与成本同U，九行IFT、完整结构T词、全P IFT及Klein新位移保M0/TκH/pure0闭合。所有标记拼口h″>0，可同时去开常段；R218本身不排内部4-flat点；这一项现由R220受约束jet论证完整支付，仍未解第四joint。
 
-[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**R216不再直接排此类新几何，但它未支付任何新的mixed/ruling目标。** [R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)已完成任意w的完整有限矩映射与指定包类的全部period核右逆。18局部+24真实history函数给42几何生成元/126矩，加6合法性矩；核Gram精确像非采样近似。完整joint先保两原period成员门，再保五相位目标的45几何span余项，最后48×135矩阵及有限降秩消极点条件准确支付同w/全相位/种子。生成元数非rank，未验证一个实际目标；fullperiod成员已有R225完整判据但实际像未判，不能由F8=0冒完成。
+[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**Morse只离开R216平点前提；R224另排标准正ε偶germ的原八包，mixed/ruling并未自动支付。** [R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)已完成任意w的完整有限矩映射与指定包类的全部period核右逆。18局部+24真实history函数给42几何生成元/126矩，加6合法性矩；核Gram精确像非采样近似。完整joint先保两原period成员门，再保五相位目标的45几何span余项，最后48×135矩阵及有限降秩消极点条件准确支付同w/全相位/种子。生成元数非rank，未验证一个实际目标；fullperiod成员已有R225完整判据但实际像未判，不能由F8=0冒完成。
 
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 
 [R213](results/R213-two-mixed-sources-and-gauge-invariant-platform-obstructions-after-pure-closure.md)已明确两个原目标：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0和同右锚因果使最后f全右带为0的纯g段自动通过；下一优先判内部f平台上的Vd″/Ve″及两个真实全周期数∫kKd、∫kKe。后两者是左collar二次尾系数：M0让k杀三矩W，全部允许的二阶/第三gauge都不能改变，非零即排同固定几何/目标/圆的第四range。它们尚未评价，不冒λ+自动由其读出。原w=Φ_ED的八矩子族在八packet七差分下六矩全零，period恰是canonical hook响应；这个已合法子族不能修上述违例。
-
-[R215](results/R215-equal-positive-character-and-distinct-fixed-circle-degenerate-flux.md)已具体支付一条fixed-circle非成员证据：R183正f′包内必有A_f0/q>0，响应K_PR的退化flux=−8q⁵/45而任意全I光滑w的L_f通量0。真实Z±配同pure校正给两M0/TκH/pure0闭hook，同λ+>0却flux不同，至少一条完整period失败。它是canonical响应空间内的真实pure零方向，不在本圆gauge像；不许把λ+与此单flux等同。完整原目标继续按R225消费，不重跑此单flux。
-
-[R217](results/R217-two-left-tail-invariants-independent-on-pure-zero-responses.md)已具体判定两左尾的独立响应：代数δ保真实E8/commutator响应，pure零K1/K3在合法非对称轴包圆的左pair为(8A*,0)/(B*,−96J*)，行列式−768A*J*非零。故有H_tail纯零/两左尾零而λ+1，λ不经该pair因子化；四真实同λ/pure0闭hook的pair成非退化平行四边形，至少三条不能修period。δ不授非仿射几何变换；当前具体基准与更大joint仍未解。完整联合观测现按R225推进，不能机械加一个flux冒全joint。
 
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
@@ -114,7 +110,7 @@ R186/R188完整权−2函数核/正性已结；R190给U2=R2。R192/R194完整权
 
 R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链与237共同query/lineality、R162 J6成员分离已结案，不追孤立rank。R159两根忠实、R178终止和R179规范word普适单射可用于新同权问题；不为历史保守输出标签重跑。
 
-[R219](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)进一步给同一合法八包的八个修正退化通量，在全部pure-zero真实响应上满射R8。修正项准确消去右方packet的二次平台尾，未删history；K_PR的δ^0..δ^7与sl2恒等式给Vandermonde非零。所有全I二阶gauge均被八读出消掉，故λ+不能由它们读出；另左pair加任意一个通量满射R3，**未证左pair加全八通量的十元组满射**。[R222](results/R222-simultaneous-real-pure-and-eight-flux-control.md)现已真实同时支付整pure与八通量，且给固定有限词C1目标截面。准确增强响应像为πR⊕R8，商仍Q=P/πR；原型分组先实际清pure基准，全部mixed成本保留，末用R212全pure截面及有限整数收缩解F8。Klein按改后真实位移给pure0/F8=0闭hook；不把有符号响应冒路径。完整period及同w ruling仍欠，[R223](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)已精确兼容共同偶非平germ、全部增强目标与全域Morse。先正则有限库后固定I/圆；固定ξ通量的完整Duhamel导数仍为光滑s密度，全E IFT后有限jet扰动保所有调用和新位移。每指定目标有局部C1 Morse截面，不宣任意大紧集全局截面。下一R224检查偶germ下Bθ偶部与K0的准确商；现有Morse/八flux结果不使该门自动过。
+[R219](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)进一步给同一合法八包的八个修正退化通量，在全部pure-zero真实响应上满射R8。修正项准确消去右方packet的二次平台尾，未删history；K_PR的δ^0..δ^7与sl2恒等式给Vandermonde非零。所有全I二阶gauge均被八读出消掉，故λ+不能由它们读出；另左pair加任意一个通量满射R3，**未证左pair加全八通量的十元组满射**。[R222](results/R222-simultaneous-real-pure-and-eight-flux-control.md)现已真实同时支付整pure与八通量，且给固定有限词C1目标截面。准确增强响应像为πR⊕R8，商仍Q=P/πR；原型分组先实际清pure基准，全部mixed成本保留，末用R212全pure截面及有限整数收缩解F8。Klein按改后真实位移给pure0/F8=0闭hook；不把有符号响应冒路径。完整period及同w ruling仍欠，[R223](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)已精确兼容共同偶非平germ、全部增强目标与全域Morse。先正则有限库后固定I/圆；固定ξ通量的完整Duhamel导数仍为光滑s密度，全E IFT后有限jet扰动保所有调用和新位移。每指定目标有局部C1 Morse截面，不宣任意大紧集全局截面。[R224](results/R224-even-germ-ruling-invariant-and-positive-epsilon-obstruction.md)已完整判偶germ：任意w的Bθ偶部及全部真实history偶部都只改三矩W_e；标准k=ω0、h=h_e exp(εσ²)任意正ε下，完整K/(hB²)极限的第四复幅为−8c6/λ，严格排R193原八包及已付光滑邻域全部允许宽度。保chain项/真实第三初值，解析延拓只用于局部模型，不延实际闭路径。一般端口仍需偶部ODE门；R199任意faithful圆不自动继承c6正性。**下一应构造可与倒行、端势消失、九IFT/完整T兼容的不同germ，或改变圆并实付新F_T；不能只再把共同端口改成正二阶曲率。**
 
 ## O1：双圆领相位机制，保留备选
 

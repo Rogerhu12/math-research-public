@@ -209,3 +209,5 @@
 - [同g154列两块主步与SOC完整设计](notes/same-g-entry-tail154-two-block-design-20261115.md)：原B103半径1/4000、T51半径1/32000、9height固定，原.7725/.78峰进入可变域；主步物理∞/SOC物理L1、原单位残差和完整163 Jacobian/两网门保留。新SOC域与旧域不同，缩放等价只限域内。四前缀各一次必要输入恢复，12LP/40value/120活动秒独立分账；新人工检查和27源/98args接线已核，首个公开真实结果待读。
 
 - [R225：完整period值域、平端germ和有限真实观测商](results/R225-complete-period-range-flat-end-germs-and-finite-observation-quotient.md)：合法解析ψP包重付三矩/八包及正确J*，完整Lf像由平台、总flux、全部Laurent、真实双平端延拓准确iff；右锚/平台连接付Lf本身，p简单零的辅助极点不误排。u*=1/p通过全部内部门却坏平端，未宣canonical成员。真实U0上的完整O有限但基/像未付；Hper0才授R222完整period控制，λ杀kerO则给严格障碍。有限原查询付光滑s密度；Morse另需完整第三结构保持，不能由diagonal覆盖替代。
+
+- [R224：偶germ完整ruling不变量及正ε严格障碍](results/R224-even-germ-ruling-invariant-and-positive-epsilon-obstruction.md)：任意全I二阶gauge的完整Bθ偶部准确落三矩W_e，真二/三历史经同锚恢复只改该空间，得到整个偶germ ODE。标准k=ω0时保chain/局部第三恢复，B=−σ/8−ε²σ³/6、K/(hB²)极限的第四实复幅准确−8c6/λ；故任意ε>0、原R193八包/已付光滑邻域所有合法宽度均失败。仅延拓局部解析模型，非实际路径、非ε0近似；一般端口和任意R199新圆仍另欠，Morse不等于通过此门。
