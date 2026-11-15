@@ -1,0 +1,110 @@
+{
+  "stage": "high",
+  "complete": true,
+  "Gram_trace_uppers": {
+    "W_T": {
+      "ball": "[1.1324423692109165146464522057659884e-9 +/- 4.20e-44]",
+      "lower": "[1.1324423692109165146464522057659884e-9 +/- 4.20e-44]",
+      "mid_float": 1.1324423692109165e-09,
+      "radius_upper_float": 0.0,
+      "upper": "[1.1324423692109165146464522057659884e-9 +/- 4.20e-44]"
+    },
+    "W_T_finite": {
+      "ball": "[1.1324423692108350373561157325400135e-9 +/- 2.43e-44]",
+      "lower": "[1.1324423692108350373561157325400135e-9 +/- 2.43e-44]",
+      "mid_float": 1.132442369210835e-09,
+      "radius_upper_float": 0.0,
+      "upper": "[1.1324423692108350373561157325400135e-9 +/- 2.43e-44]"
+    },
+    "W_T_full_tail": {
+      "ball": "[8.9713754776113728412489395895948830e-89 +/- 3.84e-124]",
+      "lower": "[8.9713754776113728412489395895948830e-89 +/- 3.84e-124]",
+      "mid_float": 8.971375477611373e-89,
+      "radius_upper_float": 0.0,
+      "upper": "[8.9713754776113728412489395895948830e-89 +/- 3.84e-124]"
+    }
+  },
+  "array_receipt": {
+    "bytes": 688454,
+    "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+    "file": "true-adjoint-high-Grams.npz",
+    "sha256": "5b583317eb2105f8a455f0421f9c3aac603c24a783004e13cabdcded7bc71fae"
+  },
+  "seconds": 3.5212208759999726,
+  "metadata": {
+    "actual_analytic_displacement": {
+      "ball": "[0.0042599411031943703112578880620731070 +/- 6.09e-39]",
+      "lower": "[0.0042599411031943703112578880620731070 +/- 6.09e-39]",
+      "mid_float": 0.00425994110319437,
+      "radius_upper_float": 0.0,
+      "upper": "[0.0042599411031943703112578880620731070 +/- 6.09e-39]"
+    },
+    "actual_analytic_reciprocal_gap": {
+      "ball": "[3.1520790398553453839913807144057500 +/- 4.09e-35]",
+      "lower": "[3.1520790398553453839913807144057500 +/- 4.09e-35]",
+      "mid_float": 3.1520790398553453,
+      "radius_upper_float": 0.0,
+      "upper": "[3.1520790398553453839913807144057500 +/- 4.09e-35]"
+    },
+    "actual_analytic_u": {
+      "ball": "[0.022251981952786156065959843886048475 +/- 1.86e-37]",
+      "lower": "[0.022251981952786156065959843886048475 +/- 1.86e-37]",
+      "mid_float": 0.022251981952786156,
+      "radius_upper_float": 0.0,
+      "upper": "[0.022251981952786156065959843886048475 +/- 1.86e-37]"
+    },
+    "actual_analytic_v_nonmean": {
+      "ball": "[0.055123679111566063759664046983743901 +/- 3.65e-37]",
+      "lower": "[0.055123679111566063759664046983743901 +/- 3.65e-37]",
+      "mid_float": 0.055123679111566064,
+      "radius_upper_float": 0.0,
+      "upper": "[0.055123679111566063759664046983743901 +/- 3.65e-37]"
+    },
+    "complete_Young_weights": [
+      {
+        "complete_coefficient_upper": {
+          "ball": "1.0000000000000000000000000000000000",
+          "lower": "1.0000000000000000000000000000000000",
+          "mid_float": 1.0,
+          "radius_upper_float": 0.0,
+          "upper": "1.0000000000000000000000000000000000"
+        },
+        "name": "all_retained_moving_high_trial_outputs",
+        "physical_Gram_trace_upper": {
+          "ball": "[1.1324364644973896950237850729851195e-9 +/- 3.20e-44]",
+          "lower": "[1.1324364644973896950237850729851195e-9 +/- 3.20e-44]",
+          "mid_float": 1.1324364644973897e-09,
+          "radius_upper_float": 0.0,
+          "upper": "[1.1324364644973896950237850729851195e-9 +/- 3.20e-44]"
+        },
+        "positive_weight_binary64_hex": "0x1.1a4a760f41e85p-15"
+      },
+      {
+        "complete_coefficient_upper": {
+          "ball": "1.0000000000000000000000000000000000",
+          "lower": "1.0000000000000000000000000000000000",
+          "mid_float": 1.0,
+          "radius_upper_float": 0.0,
+          "upper": "1.0000000000000000000000000000000000"
+        },
+        "name": "all_unretained_composition_and_alias_primitive_outputs",
+        "physical_Gram_trace_upper": {
+          "ball": "[8.9713754776113714460006592157240551e-89 +/- 3.83e-124]",
+          "lower": "[8.9713754776113714460006592157240551e-89 +/- 3.83e-124]",
+          "mid_float": 8.971375477611371e-89,
+          "radius_upper_float": 0.0,
+          "upper": "[8.9713754776113714460006592157240551e-89 +/- 3.83e-124]"
+        },
+        "positive_weight_binary64_hex": "0x1.b097a4e06a159p-147"
+      }
+    ],
+    "exact_formula": "P_H I_phi[(u/v) f_phi + m^-2 (zC_theta composed with Theta)]",
+    "independent_mean_input_retained_in_all_zC_nonmean_amplitudes": true,
+    "lowest_moving_high_index": 97,
+    "retained_moving_high_indices": [
+      97,
+      512
+    ],
+    "true_complete_high_output_is_not_truncated": true
+  }
+}

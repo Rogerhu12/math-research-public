@@ -1,0 +1,83 @@
+{
+  "stage": "left",
+  "complete": true,
+  "Gram_trace_uppers": {
+    "W_L": {
+      "ball": "[1.8333083259718347378156146046589109e-19 +/- 3.79e-54]",
+      "lower": "[1.8333083259718347378156146046589109e-19 +/- 3.79e-54]",
+      "mid_float": 1.8333083259718347e-19,
+      "radius_upper_float": 0.0,
+      "upper": "[1.8333083259718347378156146046589109e-19 +/- 3.79e-54]"
+    },
+    "W_L_finite": {
+      "ball": "[1.8333083259718337748506424110409844e-19 +/- 9.91e-55]",
+      "lower": "[1.8333083259718337748506424110409844e-19 +/- 9.91e-55]",
+      "mid_float": 1.8333083259718338e-19,
+      "radius_upper_float": 0.0,
+      "upper": "[1.8333083259718337748506424110409844e-19 +/- 9.91e-55]"
+    },
+    "W_L_full_tail": {
+      "ball": "[9.0331983579147285245249557790319225e-86 +/- 4.87e-121]",
+      "lower": "[9.0331983579147285245249557790319225e-86 +/- 4.87e-121]",
+      "mid_float": 9.033198357914729e-86,
+      "radius_upper_float": 0.0,
+      "upper": "[9.0331983579147285245249557790319225e-86 +/- 4.87e-121]"
+    }
+  },
+  "array_receipt": {
+    "bytes": 853809,
+    "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+    "file": "true-adjoint-left-Grams.npz",
+    "sha256": "3a180652e1d86295ea57706082eb35732dc5218937a3cf3bba976fbce12a0557"
+  },
+  "seconds": 4.471088724000026,
+  "metadata": {
+    "complete_Young_weights": [
+      {
+        "complete_coefficient_upper": {
+          "ball": "1.0000000000000000000000000000000000",
+          "lower": "1.0000000000000000000000000000000000",
+          "mid_float": 1.0,
+          "radius_upper_float": 0.0,
+          "upper": "1.0000000000000000000000000000000000"
+        },
+        "name": "finite_true_left_defect",
+        "physical_Gram_trace_upper": {
+          "ball": "[1.1148525821218588330625386270865491e-21 +/- 3.26e-56]",
+          "lower": "[1.1148525821218588330625386270865491e-21 +/- 3.26e-56]",
+          "mid_float": 1.1148525821218588e-21,
+          "radius_upper_float": 0.0,
+          "upper": "[1.1148525821218588330625386270865491e-21 +/- 3.26e-56]"
+        },
+        "positive_weight_binary64_hex": "0x1.25b2436383169p-35"
+      },
+      {
+        "complete_coefficient_upper": {
+          "ball": "1.0000000000000000000000000000000000",
+          "lower": "1.0000000000000000000000000000000000",
+          "mid_float": 1.0,
+          "radius_upper_float": 0.0,
+          "upper": "1.0000000000000000000000000000000000"
+        },
+        "name": "all_inverse_composition_alias_and_infinite_tail",
+        "physical_Gram_trace_upper": {
+          "ball": "[9.0331983579147285245249557790319225e-86 +/- 4.87e-121]",
+          "lower": "[9.0331983579147285245249557790319225e-86 +/- 4.87e-121]",
+          "mid_float": 9.033198357914729e-86,
+          "radius_upper_float": 0.0,
+          "upper": "[9.0331983579147285245249557790319225e-86 +/- 4.87e-121]"
+        },
+        "positive_weight_binary64_hex": "0x1.acf699e206b0dp-142"
+      }
+    ],
+    "independent_mean_target_input": 96,
+    "inverse": {
+      "initial_sign_bracket_radius": 5.820766091346741e-11,
+      "maximum_final_inverse_width": 6.158268339717665e-17,
+      "minimum_true_inverse_node_J_lower": 0.9870150460226264
+    },
+    "physical_even_mean_square_weight": "1",
+    "physical_nonmean_square_weight": "1/2",
+    "true_left": "9/10"
+  }
+}
