@@ -1,0 +1,216 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-normal-forms-all6188-180",
+  "executionSourceCommit": "dc96b799e7083a0f6863e7b1d9d8ee90d39a337d",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-runner-789f.py",
+  "scriptSHA256": "050ef5d714726e1e5f19be46f96a690188db809357ffbd40b2371558bd12f46a",
+  "argvTemplate": [
+    "--model-out",
+    "{work}/original127-model-all6188",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-normal-forms-all6188",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--compile-seconds",
+    "30"
+  ],
+  "timeoutSeconds": 240,
+  "exitCode": 0,
+  "wallSeconds": 68.72774866099962,
+  "fullTemporaryReceiptBytes": 4468,
+  "fullTemporaryReceiptSHA256": "e77db837596bfbd988a4dc58dbb631b7ea46cdbeca331be241b82b3ba9b48cfe",
+  "result": {
+    "binding": "36cdc5a084df381a91838d58a8a9f8adbc255bae39e267f2956fb1170ec0a994",
+    "elapsedSeconds": 68.61377398200011,
+    "format": "r150-original127-normal-form-pipeline-v2",
+    "outcome": "complete-original127-normal-forms",
+    "status": "completed",
+    "parameters": {
+      "affineTorsionDegreeComputed": false,
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allLargeArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "binary": {
+        "bytes": 131272,
+        "file": "original127-normal-form",
+        "sha256": "16b714f4540f6b5742da1dae1026a2c36a152368ede118d65c11e822b4efc65d",
+        "temporaryOnly": true
+      },
+      "compileReused": false,
+      "compileSeconds": 3.3890636240003005,
+      "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "completeNormalFormAudit": {
+        "allOriginalSourceRecordsVerified": true,
+        "canonicalPolynomialCoefficientCount": 27390796,
+        "newlyRestoredNonzeroNormalFormCount": 2,
+        "newlyRestoredNonzeroOriginalSourceIDs": [
+          6046,
+          6063
+        ],
+        "newlyRestoredSourceCount": 660,
+        "newlyRestoredZeroNormalFormCount": 658,
+        "noSourceDroppedBeforeOrAfterNormalForms": true,
+        "originalZeroNormalFormCount": 658,
+        "remainingSourceCount": 2855,
+        "targetCount": 9
+      },
+      "completeOriginalSourceCount": 6188,
+      "conservativePrebasisCachedRowsBytes": 374602536,
+      "identity": {
+        "algorithm": "original3333 constant block then its complete6188-source complement and nine targets",
+        "dictionarySHA256": "02fc28dd5d81b2be05ae1c2efc6220d69f97d1f09baf19b8a50997d80b9c536b",
+        "modelBinding": "7196ed173cf1833def4fc3bac258b0fe385b1bb34a4936d84052dfcccdc14455",
+        "modelSHA256": "f29e09f075efc20cf9dbc0b78ddffc58c35d46fe26212515397938ba78e853a3",
+        "modelSource": "a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349",
+        "prime": 127,
+        "remainingSourceCount": 2855,
+        "sources": {
+          "2026-11-15-r150-original-f127-bitplane-789f.hpp": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
+          "2026-11-15-r150-original127-normal-form-789f.cpp": "46ef43c439aadb77a7458c97a0bce120846e6aa57d79bc9aed78d211242f81f8"
+        }
+      },
+      "infinityGoodReductionProved": false,
+      "memoryMiB": 2048,
+      "modelActualReceipt": {
+        "bytes": 3207,
+        "file": "original127-model-receipt.json",
+        "sha256": "fcaeb3959c0851c2853239c8f9e00567c24172554bca479e01b7071530c9058f",
+        "temporaryOnly": true
+      },
+      "nativeExitCode": 0,
+      "nativeHardBudgetStop": false,
+      "nativeReceipt": {
+        "bytes": 711,
+        "file": "nf-native-receipt.json",
+        "sha256": "e2cc1a8cf8d35a420350aa0765194f7b523871f2647605d037903b32a2efb420",
+        "temporaryOnly": true
+      },
+      "nativeStatistics": {
+        "actualChangedPivotPositions": 243,
+        "all6188NativeOriginalSourceIdentitiesVerified": true,
+        "allOriginalRowsCompleted": true,
+        "backwardOperations": 1041956,
+        "binding": "36cdc5a084df381a91838d58a8a9f8adbc255bae39e267f2956fb1170ec0a994",
+        "completedSources": 2855,
+        "completedTargets": 9,
+        "components": 1034,
+        "elapsedSeconds": 63.3021,
+        "exhaustiveScalarArithmeticChecks": 244990,
+        "format": "r150-original127-normal-forms-native-v2",
+        "forwardOperations": 801468,
+        "fullSourceCount": 2855,
+        "fullTargetCount": 9,
+        "noOriginalSourceDropped": true,
+        "normalOperations": 29606398,
+        "oldField31OperationsReused": false,
+        "prebasisRank": 3333,
+        "prebasisReused": false,
+        "prime": 127,
+        "sameDegreeUnitProducts": 6865903,
+        "status": "completed",
+        "wholeRowPrefixResumed": false
+      },
+      "nativeWallSeconds": 63.36678790199994,
+      "normalFormCoordinates": 1034,
+      "oldField31NumericOperationsReused": false,
+      "prime": 127,
+      "seconds": 180.0,
+      "temporaryFiles": [
+        {
+          "bytes": 34229300,
+          "file": "nf-prebasis.bin",
+          "sha256": "c08fb8308bd96fb926e7ae3176e627766b7c6930a2af92afafff318be812f926",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 2434477,
+          "file": "nf-forward.bin",
+          "sha256": "0fe0d5dfde6606ca61907ed043426cd748f6fc11d84df8b3409280d69566f0e0",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 3145942,
+          "file": "nf-backward.bin",
+          "sha256": "6186dab0ec8618ee8eee9d10d92a1c72fe6fb313d49fe64405ed35ab4fbf40cc",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 8348,
+          "file": "nf-component-dictionary.bin",
+          "sha256": "bfafcf821687bf6b3a0c2517606314ec5e4c30a4dfec1140e7f041c5ba01f312",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 120,
+          "file": "nf-progress.bin",
+          "sha256": "7cdc85338517de01ef65266dc29440387656f23692bcae944559b466106eba1f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 33009372,
+          "file": "nf-normal-forms.bin",
+          "sha256": "0655289d4b14f4d5134e3fde02dc83c651f3eea7437515c55e3db52ce771aca4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 118454308,
+          "file": "nf-reduction.bin",
+          "sha256": "5ac3317c3c5af868dff913448fa4d41dca04756fdf942f67908c4d873505d6f1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 215032867,
+          "file": "nf-normal-forms.sing",
+          "sha256": "90c8c43ac98f8e1d8aad010ac88dcf356fed306d0c5135a401f66f3a00bad60c",
+          "temporaryOnly": true
+        }
+      ],
+      "wholeCommittedRows": {
+        "normalBytes": 33009372,
+        "operationBytes": 118454308,
+        "sources": 2855,
+        "targets": 9,
+        "textBytes": 215032867
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 23:52:48 UTC",
+      "beforeReadCommit": "ea5996fe16ed1bfbc61df059a8bf8451a9acd260",
+      "originMainAfterPull": "dc96b799e7083a0f6863e7b1d9d8ee90d39a337d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 23:53:57 UTC",
+      "beforeReadCommit": "dc96b799e7083a0f6863e7b1d9d8ee90d39a337d",
+      "originMainAfterPull": "3b78b2c4e4b2910e3e5c7bafbec6d1de8a478405",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 21,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 7204,
+    "logicalJsonSHA256": "901b45896debb11a1b5216476ebc694f83a6e8b59f057c6542a4bc9293eb5969",
+    "itemCount": 21
+  },
+  "lastRulesReadCommit": "3b78b2c4e4b2910e3e5c7bafbec6d1de8a478405",
+  "summaryExcludesRecomputableArraysOnly": false
+}
