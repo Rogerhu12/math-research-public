@@ -52,11 +52,9 @@
 
 [R289实际118](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)的八个32-query模型曾指向未选MID483，末raw已清；130从可恢复actual98原31 pair另起33查询，相对32只加483，相对首父加471/483，21capture/25端点/8453local/C4059及全部outside保持。
 
-[R309实际130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)现在完整结清七份返回：7warm/7freshFD、33trial/26拒，全部native/fullDN仍false，末physical .007106735019150112。11:38:40规则真实变化exit77，第八完整结果未知，不补造开始/接受/FD。最近拒绝第2/3/5为未选MID472、第4为LEFT463，末批还含selected MID471；selected MID483全步也负而全线性slack可行，原真实非线性门不能省。全部试探、QP后验大值、FD、原pair和七摘要字节身份见正文，不跨W相减。
+[R309实际130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)已结清7model/7FD、33trial/26拒及11:38:40规则exit77；第八未知不补造。独立35保原33并加LEFT463/MID472，22capture/26端点/8791local、C4059/outside/236036及原门保持。
 
-独立35保原33加MID472/LEFT463全部2048角，capture463/node463及26端点/8791local，原C4059/outside/236036自由度/A/AT/B/BT/17trial/两RMS/域/FD保持。真实98另起；已选非线性失败、512工作集/200duals精度仍未解决，新增两点不保证更大接受步。
-
-[141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)已按上述完整支持实际发布，run43712613111/compute132807257922/sourcea7ce55798404fec8fb3638c0fbf083250c5363b2，12:11:58起且science在跑；不得把入口发布当新接受结果。
+[141 R333完整实际](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579、job132807257922全success，8model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。已选LEFT463/464、MID471等真实非线性仍失域，所有71680线性slack非负不替原域；后两批未选MID489/490，末五拒所选35均合法，最终仅1/32接受。512行/200dual后验仍有大值，不冒QP最优。8摘要/全部试探/FD/原pair/规则SHA正文保，原末场已清。155从真实重生35链同job交给独立37模型，或明确actual98新轨迹；必须扩全capture/B端点/局部支持，不能只加query标签，不承诺大步。
 
 ## 3. 闭合与固定同一g精化
 

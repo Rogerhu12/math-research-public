@@ -568,3 +568,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:04:25 UTC /root — 新C全112 profile与BVP绑定
 
 [完整接口](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)17984B/cd5b77f5、源42658B/c0bda335全文已核；8直接源码身份与AST通过，无本地科学。实际factory/定义/同C绑定、九参数与453/450/459、全旧场公共u重参数/fresh完整RHS、原R252全角边界和全112Robin/商责任保留；线性对象solve明确拒绝，未制造非线性DN/338或接受场。153继续真C采样/无图初猜/完整全局响应，R331待证明；R329已推23a78deab，152实际job132836110295已入科学。
+
+## 2026-11-15 14:11:05 UTC /root — R333 八个35-query真pair及MID489/490
+
+[R333](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)已完整核读：actual141 sourcea7ce5579/run43712613111/job132807257922全success，8model/8FD、27trial/8接受/19域拒，8原summary全SHA、全部27行35点数组范围及原输入输出链核同。末physical .0071047205741851865，全native/fullDNfalse；已选非线性曲率和未选MID489/490各自保，末五拒所选35全合法，最后α1/32。原512/200 QP后验大值不冒最优；原末warm/status已清，155按真来源重算并扩完整支持，未用SHA假续。

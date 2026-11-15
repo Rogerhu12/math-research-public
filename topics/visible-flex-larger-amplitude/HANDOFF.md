@@ -4,11 +4,11 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 14:04:38 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 bb33192ccd5866280ffed6c13a02febd29d8f361。
+规则同步记录：2026-11-15 14:11:28 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1b1ca05393f56cbe1160d5b48ed6a768b9e02df2。
 
-集成复核：152已推0bee3ef1/run43722101766，两次NFF均立即rebase至第三推成功，双README未变。R329已推23a78deab；150仍科学，新C绑定两件已核本次发。151准确目标、153新C完整非线性、154全九二阶方向继续，无本地科学。
+集成复核：R329已推23a78deab，新C绑定已推db77f490；R333实际141八pair全文已核本次发。152运行0bee3ef1/run43722101766。R331/R332证明待根核；151因实际148原C1800不足，正明确增重建预算而不改数学。
 
-仅公开 Rogerhu12/math-research-public。科学计算、科学模块导入、数值测试和科学编译只在本库Actions；root只源/证明/原输出JSON重建/语法/hash/Git。PAT仅CLI瞬时环境，不入文件/提交/回复/连接参数。root唯一发布者，agent仅小文本blob交接。
+仅公开 Rogerhu12/math-research-public。科学算术/模块导入/数值测试/科学编译只在本库Actions；root只源/证明/原JSON词法与字节/语法/Git。PAT仅CLI瞬时用，不入文件/提交/回复/连接参数。root唯一发布，agent独立/tmp源交接。
 
 终端13:41恢复，root新部分克隆 /tmp/visible-larger-root-git-149；旧cwd无效，显式workdir可用。此前根8小文本API集成没有冒pull。现在只CLI推；每push前且至少每小时真pull，仅读双README变化并立即执行，读SHA写H；NFF立即rebase重推至成功。原Actions规则runner每2700秒真pull，真实记录保最新，科学checkout不随规则镜像改动。
 
@@ -24,9 +24,8 @@
 
 |请求|run / compute job|source与实际最近范围|
 |---|---|---|
-|141|43712613111 / 132807257922|a7ce55798404fec8fb3638c0fbf083250c5363b2；真实98新生35点/71680行/22capture/26端点/8791local，8批10500s批间，仍运行|
 |145|43716379970 / 132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；115pins/6输入/78恢复已过，原warm+当前R273科学运行|
-|148|43719446020 / 132828030323|da307af38f4c9ae29fdb650603342da53a181060；13:31:34起，全部准备过，原C科学运行|
+|148|43719446020 / 132828030323|da307af38f4c9ae29fdb650603342da53a181060；compute step12 failure/report132836205506 success，geometry全读写R327|
 |150|43721616091 / 132834627616|d1d4c01a283d20a1d20131ece43cdcfb05ce757d；来源/输入/原78恢复通过，14步科学运行|
 |152|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；14:01:54启动且已入科学14，原全链/19200s/55pins|
 
@@ -34,7 +33,9 @@
 
 ## 当前分工与下一实际动作
 
-**root / 唯一集成及研究续接。** [140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已结清：128唯一α1到9.68582474751023176032080482454992093e−11，完整129248残差/576×226独立逐word同；stage/audit g++ return1，112/338缺前置未起，余15460s非预算拒。源码确定JSON quoted的ADL冲突，原compiler正文未转发已清。[152入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)五件已发：55pins，helper7c6b0268/bridge0ccbc824/request9b69f497/workflow7cc94e0b。原全stage/all224/112/338/audit与19200s总限保；临时编译副本限定::quoted，完整summary树/全错误字节先读后清，原child退出与依赖保留。
+**root / 唯一集成、152/141实际与155接续。** [140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)付完整128到9.68582474751023176032080482454992093e−11和逐word独立replay；后stage/audit编译return1、112/338未起，stderr已清。[152入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)原全576×224/112/338/audit与19200s保、55pins/共享::quoted临时限定/完整summary及错误流先读后清，原退出依赖不改。
+
+[141 R333](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579/job132807257922全success，13:44:37原结束；8真实model/FD、27trial/8接受/19域拒，末physical.0071047205741851865，全native/fullDNfalse。最近所选LEFT463/464和MID471仍因曲率拒；后两批未选MID489/490，末五拒所选35全合法，最后α1/32。512行/200dual后验大值仍未付。8原summary全SHA、末warm104ecd32/status6102a519已清；155须真实重做35链后同job转完整37支持或明确actual98另起，不凭SHA续。
 
 [147 R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)run43717814570/source3b2df31a、compute132823027880/report132832524225均success。真cut两jet同R322；R323 d=1/524288、eA=eB=1/1024、κ1/2，419pieces定义d783cac1。基底452叶完整；原九p301s后1735passed/12766terminal/13stack，未决不冒真实域失败；raw未留全pending坐标，151须重生完整frontier。数值ℓ2.723563252110879，418seams仅207全jetword同，不能冒准确C²。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)已付公共u准确L²、全分支/支撑、中心差及同场η+δ+ηδ；151固定网格消费者由exact主写，未给实际δ/metric。
 
@@ -46,7 +47,7 @@
 
 ## 原责任与恢复
 
-[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)、[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)、[124 R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)、[128 R319](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)、[138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)、[142 R316](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)、[139 R311](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)全文及SHA均保，不把中断call补拒绝，不把relative的1e−250分母定唯一原因，不用旧raw作父。
+旧133/137/124/128/138/142/139原结果和全部SHA已在R308/R313/R315/R319/R307/R316/R311及open完整保；中断call不补拒绝，relative分母1e−250不单独定因，已清raw不冒父。
 
 九冻结450/closed/metric的全部九p、K=0、338+112、全部knots/J/FD/fullDN/audit、core/mean/材料/六jet/四Loewner/两帽/DFS仍保。R294准确C²结构、R298条件clip障碍、同g atlas及新目标差异以open/正文为准，不假填前提。共享B/R249、非零R274、全t reach/完整D/整像held/真实final audited tail/config/port尚未付。
 
