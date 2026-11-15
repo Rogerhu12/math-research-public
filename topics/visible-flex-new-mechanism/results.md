@@ -341,3 +341,5 @@
 - [R163：十四族完整八矩cocycle与同权字符商](results/R163-complete-normal-coefficient-cocycle-and-single-weight-character-head.md) — 真实端点纤维和时长权给F0/Q2同一C_g(M)=Σa_i(M)F0(gS_i*)，完整最高十族无cocycle。正确群复合(HH′,d′+H′d)，低阶平移为∂ω−c(m)。因此Hσ=Uσ/(Rσ+N Uσ+1)=(Rσ+Tσ)/(Rσ+Dσ)，Dσ只用同一权σ全部14族与静态参考导数。权−2无需另编−1或profile平移；保完整N2/pure+balanced，不预报维数或正性/实际period完成。
 
 - [R162：J6完整原式分离与35维balanced核](results/R162-J6-original-separation-and-35-dimensional-balanced-kernel.md) — actual43663137188/source0700d815只新J6和一条旧42整体原和，利用R153残差作隐式43消元；mixed−2实部t1/35给ΛJ6≡1266268570、新44det1176345646 mod2147483647，严格排实成员。与R160/R159合得E6维44、pure像9、核/balanced像35；U≥240，lineality/query仍237。3.984s/RSS100.527、10原根存135334B，无旧NF/列重跑。J6∈R已否定，J6∈R−2+N U−1仍未定；转完整字符任务，不继续孤立维数链。
+
+- [R164：全部可行八矩乘子协变、权−2唯一及完整两函数action](results/R164-covariant-eight-matrix-multiplier-for-positive-affine-characters.md) — 规范化μ=μraw−λ̃Γ；R70的±矩阵路径使可行K非空紧凸，仿射重心及整权/幂零有界轨道迫每个μ协变。真实rho仅权0/1有对偶字符，权−2可行μ唯一且由同权F0的c/d显式给出，8兼容已由Lie cocycle自动成立。修正十四标量族为h^(σ−e)f(k)；r=logh将完整正性iff化为全平端r,k的∫e^-2r P≥0，保所有0/2/4层及面积，不宣逐点P正或正字符已排除。
