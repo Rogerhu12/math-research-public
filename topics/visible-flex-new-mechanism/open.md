@@ -138,9 +138,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R334/R337：两完整面积已付；第三I0的同号反射障碍已证
+### R339：第三面积B0由真实异号弱块支付，续其B1/B2
 
-[R334](results/R334-positive-dilations-pay-the-full-second-Gaussian-area-with-the-old-layer.md)两α/Fκ±四实际强模块以正伸缩付完整新I2，保原负Ψ储备和两完整面积。新[R337](results/R337-true-translation-excludes-the-same-sign-reflected-weak-block-architecture.md)保真实Z/W平移与二次尾：B0^s=B0+s(a+b)A0+(2χ/3)sCθ，χ非0。同C<0的R331弱反射块置全部正物理中心，十二copy后完整第三I0=(2χ/3)ΣρXC·sin²θ≠0；强面积四模块和原全72控制器贡献真零。此为当前同号/反射/中心架构限制，不是全弱圆否定。下一R339构造相反C正的已付低阶弱模块；必须连同宽cutoff/矩补偿/原面积/Ψ和最终真实中心一起支付，不仅口头平移。
+[R339](results/R339-opposite-sign-weak-blocks-pay-the-third-Gaussian-zero-moment.md)实际反向core令j0翻号而J/K/K1保持；原c方程、远宽cutoff/三个矩补包、R320真实二维正锥完整支付，得到C+>0弱宏块及有限完整ψ+。负块最终中心X−固定，正块最终正中心X+足够右有限，正四次权−C−X−/(C+X+)准确清R337的B0全角，Ψ新增O(1/X+)保负储备。R334四模块清完整A2且各自B0全θ0，最后原全72零controller/同F★有限N清Ψ、三完整行及指定层，原两完整面积/third全保。同一最终新seed/g，不声称固定旧g。已有块此后不能共同搬移。下一第三面积B1/B2、其它Gaussian门/全period/同规范joint，须保所有最终中心与原尾成本；不重复已付B0或R337同号架构。
 
 
 ### R335/R338：真实Green尾的权−6因子化已付，续真实U值
