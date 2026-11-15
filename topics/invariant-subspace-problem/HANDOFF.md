@@ -22,7 +22,7 @@
 
 197恢复440770011B零fallback、254存储文件均保。recovery artifact14141428008（222409603B/SHA c76693e0c3502c12e9074aadcba395198762e0fb7d3effaac1105892aa84fe84）；results14141826650（224982858B/SHA e9f0b00a28ea9d0e52de3cde46cd9cc2d964ed2dc5f50dc31b573ee8d1668e53）。完整小系统70591B/SHA786333a4…，回执17757B/SHA3bb98210…；详情与全部实际SHA见[实绩索引](notes/2026-11-15-r150-complete-third-local-positive-actual-789f.json)。
 
-**当前发布故障与恢复：** 第三数学与197恢复全部成，原run数据分支push180秒超时；publication-only run43665755992再次仅Git失败（HTTP500/curl22断连，6分钟后exit1），无main push，远端该ref/commit均404。真实pull读de61f275、两README未变，完整工件仍在。根立即再调度同一publication-only入口，不重数学：保持blob:none/精确sparse，只补main提交祖先并启用push.negotiate，记录--progress，push/fetch限900秒。首两次prepared a09650e03375/384b38764b22均不算实际数据提交；[全部恢复记录](notes/2026-11-15-r150-third-publication-transport-recovery-v2-789f.json)。目标目录仍notes/r150-saturated-third-page-actions-789f/43664532571-1/。
+**第三数据已实际推送：** publication-only run43666721225/job132667629264成功，data cef83145a010eb0a37a44c0fd841effb2d832fe1，目录notes/r150-saturated-third-page-actions-789f/43664532571-1/。197恢复全保、数学重算0；一次数据分支push成功，main一次非快进后立即pull/rebase再推成功。3次pull两README无变，最后810195ca。前两次超时/HTTP500均保[恢复记录](notes/2026-11-15-r150-third-publication-transport-recovery-v2-789f.json)；仅补main提交祖先且保blob:none/sparse、push.negotiate后实际成功，global继续沿用。
 
 **立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。[六槽精确来源比较](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)已证第三改选差落完整W2、q1改规范须同步q2、中间p4不许未缩放κ9；六槽条件费用180→472→764→1056→1348。[实际常数六槽1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)已证：20011+16·20012父ω3…8整数系数[344,409,327,102,1,16]，只需K2…8七raw q1；成本177→469→761→1053→1345，D2≤665、四W2≤957。新global入口代码正在实现，5native各30秒、单过程1024MiB、共享数学300秒，成功须九原17/p6及实际费用全真。仍非已执行原式证书。共同线与全第三S3覆盖不排char0或关闭ISP。
 
@@ -36,6 +36,8 @@ M=kerT、N=closure BM、W=M⊖N；N=M仍开。原同w/未来/负前缀、初M3�
 - **[内在gap耗散](notes/2026-11-14-same-physical-gap-intrinsic-cut-dissipation-and-fixed-test-pairing-789f-next.md)：** 真Gq=P_Mq−P_K(q+d)递减，dq=g(q−d)−gq；同ub/uf给Xi(e)²≤4dq、0≤gq−μ(e)²≤2dq、固定测试误差≤Xi(r)√dq，步长d尾和≤4g(q0−d)。完整G保高返回，joined商核不当physical kerC。正滤波EME≤2E(I−E)、JMJ≤2J(I−J)无加性δ保留，尚无移动gq率。
 - **[a1准确恢复](notes/2026-11-15-first-physical-head-exact-gauge-recovery-and-same-gap-scaling-789f-next.md)：** Γy−y=(S/W1)T*f1给原c1双块及b1=−W1b′1/S；同源/Gq/dq同尺度，已有b′1=O(S)不够，仍缺o(S)。[a2真一孔Schur](results/R271-appendix-second-head-one-hole-schur-and-two-column-recovery.md)保完整F1逆，m≥11,H≥S/2,D0∈[S²/2,S²]；primitive准确吸入同校正列，原source/零源/Gq两列式已付，联合远孔仍开。
 - **当前接续：** boundary联立同一p_m(B)w未来的普通右费与高孔自配对；literature对x=Γ_CC⁻¹y1的真实低forcing高行零作孔cut能量递推。C_L/C_R0物理正交、χ保kerD^d已核；返回带交叉和软cut双交换子仍保。纯D解析尾在kerD^d上已截断，不能替交替D*/D的Γ逆传播。主κd/Q=O(1)足，κ=O(ρ^-2)会留e^(d³/64)裕量，但此比较未证。
+
+- **[同源二进制幂插值](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)：** 原H=G1/d0，全部a≤2^(d−1)仍同一真实环境e47d⁴/8及carry e^-80d⁴，真v/k/u和全cut误差统一。I=Σc_j H^(2^j)，Σ|c_j|=Π(1+2^-h)/(1−2^-h)<9，整组高孔项准确并回原尾范数。对同r，R_p²=Σ|c_j|λ(H^(2^j−1)B_m top)²给μ⁴≤9 d0^-2 flat²R²；普通完整右封口/高返回仍开。充分目标Σ_p R_p²≤K_m n_m||w||²且K_m d/n_m=O(1)，ρ^-2有新窗口裕量，未称已付。
 
 ## 其余未闭主接口
 

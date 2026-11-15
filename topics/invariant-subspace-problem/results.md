@@ -425,3 +425,7 @@
 ### R150 附录：实际第三常数主列的七原核与六槽1345界
 
 [完整来源和费用证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)从实际20011+16·20012得到父ω3…8的未约整数常系数[344,409,327,102,1,16]，只需K2…8七raw q1；六槽费用177→469→761→1053→1345，辅助D2≤665、四W2≤957。保同一q1/q2整数carry、真p3中间基和完整W2回补；原17/p6与真实费用仍待实际执行。
+
+### R271 附录：同源二进制gauge全家预算与有限变差插值
+
+[完整证明](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)给全部1≤a≤2^(d−1)同一真实e47d⁴/8环境、e^-80d⁴全carry和最小投影误差。二进制Lagrange准确Σc_jH^(2^j)=I，总变差Π(1+2^-h)/(1−2^-h)<9，整组高孔项成为真实尾范数；同一实际r给保完整ordinary域的μ⁴≤9d0^-2 flat²R²及全窗必要不等式。ordinary联合封口/高返回预算仍开，未证明N=M。

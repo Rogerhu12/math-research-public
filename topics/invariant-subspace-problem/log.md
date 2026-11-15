@@ -710,3 +710,8 @@
 - publication-only run43665755992只在数据分支push失败：HTTP500/curl22断连；197恢复全部保，数学未重算，远端ref/commit未见。
 - 保blob:none和精确sparse，补main提交祖先并启用push.negotiate/进度，继续真实pull/rebase及无force推送；不把原临时commit报为已推。
 - 更新本课题发布脚本并立即再调度现有workflow；原17全局六槽入口并行继续。
+
+### 2026-11-15 Astra-ISP-789f：同源dyadic全家预算与第三数据恢复成功
+- 证明全部a≤2^(d−1)的真实环境/carry/最小投影同界，二进制插值总变差<9，高孔整组准确合成原尾范数。
+- 保同r的完整ordinary联合费及明确全窗充分尺度；右封口/高返回未付，全文立即推。
+- 第三197恢复数据已实际push cef83145，publication-only run43666721225数学重算0；3pull全读README无变、非快进立即rebase成功。
