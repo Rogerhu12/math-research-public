@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "39f79bae5776839490373e762f31fab7e2f9e9cb",
+  "rulesReadAtCommit": "8bdd16296ad3a4dcbeccb2cc8ce181744713b833",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1514,6 +1514,34 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/third21-unit-solve/third21-unit-pipeline-receipt.json"
+    },
+    {
+      "id": "third21-normal-four-original-consumer",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third21-normal-four-original-consumer-789f.py",
+      "scriptSHA256": "89a1e354928c70a9ff9aac28e1935d78739ea760ce39bb8b58dc2f7cf378c854",
+      "sources": [],
+      "argv": [
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--normal4-out",
+        "{work}/selected-natural-second-left-normal-four-complete130",
+        "--first-out",
+        "{work}/selected-natural-first-left-envelope",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--prepared-out",
+        "{work}/third21-forcing-support-preparation-v2",
+        "--unit-out",
+        "{work}/third21-unit-solve",
+        "--out",
+        "{work}/third21-normal-four-original-consumer",
+        "--seconds",
+        "300",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/third21-normal-four-original-consumer/third21-normal-four-original-consumer-receipt.json"
     }
   ]
 }
