@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 56e3438cd69d068d8b8556fe9707f32820a4b947（2026-11-15 05:47:53 UTC，Actions run43682601379实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43682601379-1.json。
+- **最近成功实际 pull 与已读规则提交：** 2be1ad966256bc04307f67d86ebabcc21e27d686（2026-11-15 05:52:38 UTC，Actions run43682936152实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43682936152-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿。每结论立即推，每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。仅授权Rogerhu12/math-research-public，token仅CLI临时环境。
 - **新根规则15（再次更新）已读并立即执行：** 可由已提交脚本/参数重算的数据一律不保存，Git/Release都不放；只提交脚本、参数、run编号、输出SHA。禁止分片绕5MB，topic≤200MB。协调方已普通删除本题notes大目录约9.6GB，历史仍可按旧commit取回。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，题README仍4d6570e9cf346431ab781a1290076a6321aaaa00。规则8不准二进制经工具分块编码传送；本地执行器曾不可用、现已恢复；本库Actions继续真实git同步/数学。
 - Markdown≤100KB、H≤10000B、log每条≤5行；数学美元符。规则12无额外审核门槛；Actions约4核16GB、job≤6h、账号≤20任务。全文旧状态/常数/来源保[新规则前完整H](notes/2026-11-15-handoff-before-rule15-release-migration-789f.md)及递归快照，未列open不关闭。
@@ -17,7 +17,7 @@
 - **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
 - **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同run43679903558只接486→768，实际数学103.691783465秒/编译4.072821423秒，512/640/768全4367新鲜整数乘回及自由I36真；39重建未成、69旧核相符，仍23真核。有限31-Smith估值下界不作有理核。
 - **[23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 0.399616051秒，低次恰10，110乘积越界rank98/核12，12合法倍全6188等原23span；新增0，不能排余13核。旧13核闭包及同D居中候选已闭。
-- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。[共同26维候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)也已完成：15.251823463秒、26个基行全原4367乘回非零、新维0；仍23真核。观察仅13行，候选失败不排格组合。后继先查原17式线性/二次分块及精选来源次数，不继续无目的改观察坐标或重旧位。
+- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。[共同26维候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)也已完成：15.251823463秒、26个基行全原4367乘回非零、新维0；仍23真核。观察仅13行，候选失败不排格组合。原次数结构显示旧观察全在degree≤1、余自由全部degree3，现同job接唯一two-degree-block-joint-lll-p768：degree≤2/degree3各取模31行基、最多39维，60秒512MiB；全原乘回/自由Qrank接受，等实绩。其后优先原分次syzygy/精确小块，不无限LLL。
 
 ## 同w边界：完整返回仍须费用估计
 
