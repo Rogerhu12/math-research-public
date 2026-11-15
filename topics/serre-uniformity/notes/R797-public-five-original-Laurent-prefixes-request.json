@@ -1,0 +1,95 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R797-five-original-low-degree-Laurent-prefixes",
+    "p": 41,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R797_five_original_Laurent_prefixes.py",
+    "core_sha256": "fd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086",
+    "method": "notes/R797-five-selected-original-Laurent-prefixes-method.md",
+    "R797_method_sha256": "15668e4a9e695f7d33aa222d725995927f047f55d8e31e7df209628a1d3953ad",
+    "cusp_proof": "results/R793-original-RR-pole-divisors-and-CM-local-algebra.md",
+    "R793_proof_sha256": "6f716b64432227244a46d91f01ae2f46ba6d4a5f893666693ed07dec9e2e5cab",
+    "recurrence_proof": "results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md",
+    "R781_proof_sha256": "152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0",
+    "laurent_core": "R781_original_Laurent_prefix.py",
+    "R781_core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+    "workflow": ".github/workflows/serre-p41-five-original-Laurent-prefixes.yml",
+    "maps": [
+      {
+        "candidate_index": 0,
+        "map_degree": "1485",
+        "ordinary_power": 7,
+        "complete_Laurent_conditions": 170,
+        "normalized_R_bound": 169,
+        "H3_bound": 170
+      },
+      {
+        "candidate_index": 3,
+        "map_degree": "1521",
+        "ordinary_power": 7,
+        "complete_Laurent_conditions": 172,
+        "normalized_R_bound": 171,
+        "H3_bound": 172
+      },
+      {
+        "candidate_index": 1,
+        "map_degree": "1602",
+        "ordinary_power": 7,
+        "complete_Laurent_conditions": 176,
+        "normalized_R_bound": 175,
+        "H3_bound": 176
+      },
+      {
+        "candidate_index": 21,
+        "map_degree": "1674",
+        "ordinary_power": 8,
+        "complete_Laurent_conditions": 193,
+        "normalized_R_bound": 192,
+        "H3_bound": 193
+      },
+      {
+        "candidate_index": 15,
+        "map_degree": "1728",
+        "ordinary_power": 8,
+        "complete_Laurent_conditions": 196,
+        "normalized_R_bound": 195,
+        "H3_bound": 196
+      }
+    ],
+    "retained_artifacts": {
+      "R774": {
+        "result": "R774-original-p41-Hodge-cube",
+        "run_id": "43631427773",
+        "source_commit": "93056f04536e61ccdd486674003b4d1380a27475",
+        "artifact_id": 14128247134,
+        "artifact_name": "serre-global-R774-original-p41-Hodge-cube-43631427773-1",
+        "archive_sha256": "91d9f6d926dc2a649d5fd401b9881cc6f88f8e233724408fbce8dcba109d1f0b",
+        "manifest_sha256": "4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222",
+        "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+        "certificate_name": "p41-original-Hodge-cube-certificate.json",
+        "files": {
+          "p41-original-Hodge-cube-certificate.json": "aea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59",
+          "R774-original-L-cubic-scalars.json.gz": "b5b1232fa0585e6437d0e8d5f92b81efe672e91ed417bce7f6bc66c6456d596e"
+        }
+      },
+      "R794": {
+        "result": "R794-original-low-degree-eta-basis",
+        "run_id": "43691270124",
+        "source_commit": "7cf160128953901a9e4c1d60cfd7cb5a45a17332",
+        "artifact_id": 14152074788,
+        "artifact_name": "serre-global-R794-original-low-degree-eta-basis-43691270124-1",
+        "archive_sha256": "5786585d55dc70b7279c8514afd7e1e528e2582f328aab4f12aee4ca9ba7c520",
+        "manifest_sha256": "2b052692106674a64896167a4b322f93fbe1f1efe08d8fcd5fbc328b28908cb8",
+        "core_sha256": "9fc7f30b06ebe4d2721fc5e67aecc40abae2d72a58268e8eac9164d3ff1c3d45",
+        "certificate_name": "p41-original-low-degree-eta-basis-certificate.json",
+        "files": {
+          "p41-original-low-degree-eta-basis-certificate.json": "c6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f",
+          "R794-selected-original-low-degree-eta-basis.json.gz": "5b96f623e1f43d834a7db21064ff2cb101284b9a4038e5434eb291b6e73f6e0f"
+        }
+      }
+    },
+    "resume": null
+  }
+}

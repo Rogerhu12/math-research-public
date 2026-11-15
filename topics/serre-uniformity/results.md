@@ -347,3 +347,5 @@
 - **R795（公开准确计算已完成）**：[原1506条六次幂短基](results/R795-certified-original-power6-short-basis.md)。run43692029484/sourceac6d8fff，22.7376432秒完成q0..81、82¹²及40ξ/20t坐标，原mod739/反演逐项通过。certc5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae；全部1515输出SHA已核，只新增缺失power6，旧生产者不重算。固定μ33、实际极除子/η/高度仍须求。
 
 - **R796（已证明，公开基础图请求已启用）**：[原CM二次截面局部图](results/R796-original-CM-local-chart-from-quadratic-sections.md)。只读原146个M2前28项和R790值/首粗导，416个真实独立二次积经完整K坐标代回给144关系；x=Q(t,x)在原点的Jacobian I144，唯一形式支逐阶仅用乘法。K上原相位/尺度及λ保留，高N只按消费需要追加；当前length2，实际关系与后继点/η/高度尚待Actions。
+
+- **R797（方法及公开工程已成，实际请求已启用）**：[五条原低次数映射的Laurent输入](notes/R797-five-selected-original-Laurent-prefixes-method.md)。R794真实所选f0/f3/f1/f0+f10/f0+f4用原六微分分别收缩R774共同三积，保原4/1722³、q/v相位及280维字段；只生成各自170/172/176/193/196个完整关系所需前缀，逐阶准确ODE核与断点。旧f4/Hodge不重算，新函数关系/极除子/η/高度尚未得到。
