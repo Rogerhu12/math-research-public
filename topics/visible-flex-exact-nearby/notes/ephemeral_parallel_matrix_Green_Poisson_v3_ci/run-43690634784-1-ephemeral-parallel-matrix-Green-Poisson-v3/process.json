@@ -106,6 +106,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T08:13:18.867678+00:00",
+      "before": "485147531c43435382f0ea1cf1fa4cf72e3f138f",
+      "after": "6fffce1f36e876f3b08a1c73198a7fde259d94d6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -123,6 +131,11 @@
       "time": "2026-11-15T07:53:14.263198+00:00",
       "final": false,
       "commit": "4d1b0ccb044e458671948a084ab371768ed1f11b"
+    },
+    {
+      "time": "2026-11-15T08:03:17.382204+00:00",
+      "final": false,
+      "commit": "08b3459612ba06c9b5d37776fe1ee4df1c608951"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -233,7 +246,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "485147531c43435382f0ea1cf1fa4cf72e3f138f",
+  "last_read_commit": "6fffce1f36e876f3b08a1c73198a7fde259d94d6",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -289,40 +302,40 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T08:03:15.828427+00:00",
-  "wall_seconds": 1496.478239731,
+  "snapshot_utc": "2026-11-15T08:13:18.933147+00:00",
+  "wall_seconds": 2099.582961686,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T08:03:00Z",
+      "actual_utc": "2026-11-15T08:13:03Z",
       "streams": {
-        "future": 2240,
-        "past": 240,
-        "product": 384
+        "future": 2448,
+        "past": 384,
+        "product": 576
       },
       "complete_groups": 0,
       "queued_groups": 0,
       "consumer_processes": 1,
       "done": false,
-      "original_temporary_receipt_sha256": "3374b685fdaa9337e59d6753f47a55a083c1d0f85faadffbe8257bd29919c624"
+      "original_temporary_receipt_sha256": "21a0e2e4a6f09dd06733c6b2e4968329d4f7abda9bbce3d1050d55b842c97d74"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T08:03:06Z",
-      "completed_rows": 2256,
+      "actual_utc": "2026-11-15T08:13:02Z",
+      "completed_rows": 2448,
       "reused_rows": 1886,
-      "new_rows": 370,
+      "new_rows": 562,
       "done": false,
-      "seconds": 1121.674708524,
-      "original_temporary_receipt_sha256": "944d24f9e850ec20bce0a29a9f363f6af32fe573d94deb89c368df7921e21972"
+      "seconds": 1717.5995423890001,
+      "original_temporary_receipt_sha256": "fe7e261bf692f896b62ce34a4cdf509c5362815869f660bd380f08b7a8c7507b"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T08:02:20Z",
-      "completed_rows": 240,
+      "actual_utc": "2026-11-15T08:12:55Z",
+      "completed_rows": 384,
       "done": false,
-      "seconds": 1076.11864677,
-      "original_temporary_receipt_sha256": "e283386f1ad92dd2f50a159da0b6722e2d56a22c68cbce1e4ef626e3c8c04627"
+      "seconds": 1711.072569496,
+      "original_temporary_receipt_sha256": "cff0887d1721088ad6db877b52ab21b2aedd3c6ea22636f11589b0f3e7f0ed3e"
     },
     "preflight": {
       "stage": "preflight",
@@ -342,19 +355,19 @@
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T08:02:27Z",
-      "completed_rows": 384,
+      "actual_utc": "2026-11-15T08:12:33Z",
+      "completed_rows": 576,
       "done": false,
-      "seconds": 1082.6977168960002,
+      "seconds": 1688.5300911120003,
       "diagnostic_exponents": {
-        "local_complete_rounding_log2_upper": -110,
-        "old_scalar_error_diagnostic_log2_upper": 282,
-        "selected_product_norm_log2_upper": -2,
+        "local_complete_rounding_log2_upper": -114,
+        "old_scalar_error_diagnostic_log2_upper": 573,
+        "selected_product_norm_log2_upper": -3,
         "signed_error_norm_log2_upper": -103,
         "single_true_Di_norm_log2_upper": 2
       },
       "reused_same_run_preflight_rows": 32,
-      "original_temporary_receipt_sha256": "4d421202875eee14d6b30cbaafdab78b183b583d5c89d4e9f1d55395210a13fe"
+      "original_temporary_receipt_sha256": "3bb26b755abda3587278a9369baf56a3e6573aab423d8ab07830c22e623624fc"
     }
   },
   "required_original_array_artifacts": 34,
