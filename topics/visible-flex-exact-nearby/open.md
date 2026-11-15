@@ -96,6 +96,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [KL根首项相关消去](results/R133-supplement-correlated-terminal-Ai-leading-scalar-and-waist-normalization.md)dc48bdb4：完整mean residual R0与ng精确给E=(ng/ng*)kroot，同terminal-Ai两ε两σ共享KΛ=√(2π)ng0^-1(η*/k*)^1/6 kroot0^-1。只WX forward；off-bump根短段WL B*/G*、D7/19与RR whole-germ K1/WT ng0闭合新正标量。只四当前science、无旧射线/积分；原Λ^-1TF^-1S^-1有序、finite/两mean和独立reference费用保。实际KΛ/TF/SF/全incoming/Schur待。
 
+[TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c：F*=β*u*v/η*真degree192，WL原B*/7/19与FA full-complex η lower给F_A，root off-bump域不移row790。J_F≥max(192,97,ceil4F_A)使同一TF逆L2≤16/15、H−4/3≤16/13，完整forward也付；finite F_J≤J_F+191及mean保，右乘后不冒有限input，two-I/dual-row费原序。实际F_A/J_F新标量待；Cσ/Eσ/incoming/Schur独立。
+
 [SJ完整径向/接缝合同](results/R133-supplement-complete-strict-radial-coefficients-from-saved-cubics.md)ccaaa1b1：fixedν0真s0保留，旧η半宽不移ν；修复Q/Z各实际cubic段Banach Markov18/h,96/h²与D7/6/19/83，D2全δ metric/bump导数至K3。SP整曲率C+与ST qrc给全段qmin，原body仅18parts；完整Srr/Zr、各角band/双窗/finite rows/两mean源，WX任意短段MFG经真dr积分，Z跳跃无length。FA cut forward/ng各一次。只解析新标量闭式，尚无SJ actual；全incoming/Schur/真PDE仍待。
 
 [WT真实腰部](results/R133-supplement-waist-normalizer-coefficients-from-complete-one-sided-residuals.md)e4e317e8与[实际WTA](results/R133-supplement-actual-right-waist-normalizer-and-complete-two-window-inverse.md)f90ba8a1：43763134339/1 child0/20锁，26pins/10AST/SCI/preGit/42球保。真右腰D7/6/19/83，背景α一次、raw response完整mean/repair径导0，SP m/q/ng→S/S2；J97/268435456/另512各4/4，同逆双窗。finite≤J+191/fullT差≤J+575及mean保；非interval/incoming/Schur/PDE。
