@@ -188,3 +188,7 @@ G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；�
 ### 完整物理帽–尾接口的新闭合
 
 [L1–28](results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md) 已在Z∈H^-3/2真正消去独立CR：完整Cf<2^40、QZ<2^64 aBwB ε、TB<2^1200000/(aBwB)，反馈<2^-32000000。B端H^-1/2通量源→根Airy H1通过真实高trial零延拓/伴随另付；不能用旧L²列代替。原ac及C8–9给的repair物理η0/δ0均适用。moving all4Z角规范、H^-3/2 residual-sensitive Hessian/fullδ转授仍须单独付；原strong source/标签、waist曲率Bmean、真实ν与非线性matching仍继续。Darboux totalflux兼容、Codazzi B0/C0和canonical mean不合并。
+
+### S1–16 已成：根值剥离的完整强迫消费
+
+精确 `V=N(ga,TL)` 先消可去奇点、实际cell累计 divided forcing、负实参数角宽及有序二阶导数已证，见 R133 对应补充。phase 继续实际标量消费；原 normalized-forcing stage 和根均值保，不把此合同当数值 strong return。

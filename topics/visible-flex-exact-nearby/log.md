@@ -131,3 +131,7 @@ runner 01:06:54.435892、01:07:15.491880、01:07:18.332589真pull均README diff�
 root读L1–28全篇、原N12–15/23–28、R5–6/19–20、正片P1/14–16/23–26/31–32，并核连续修补primary C8–9和§7六门范围。原同宽真实联合角平移支持Cf二阶列→H^.5到H^-1.5；独立Z长段源在完整signed-lag权下给H^-1.5到H^-.5，准确P_muT r_mu和输出mean先保后由totalflux式消零。新PB远端映射以真实高trial零延拓+ordinary对偶付右4/3窗，R_adj=R_a^{-*}再给B源→AiryH1；未假设actual return酉。Y/Z的v/F权逐项抽真实有限e0，aBwB上下准确抵消，Schur<2^-32000000。
 
 原ac完整物理帽与同repair物理η0/δ0适用；C8同A1/64两列、C9外端ΔC4.970e−19/ΔC0 7.898e−23和原核完全保。没有把原L² Hessianχ.003840162升成H^-1.5，也未免费转授moving all4Z或fullδ。保B0/C0、raw cB、totalfluxτ与gauge、全部ordinary/weak/atom/参数源；strong标签和waist/ν仍缺。原H9641B完整归档。两README在b3f8a118fa2613fb76ea251e2b00f26691316a56未变；本条纯解析，无新本地数值。
+
+## 2026-11-15 01:16:13 UTC：完整 divided forcing 合同独立入库
+
+根核 S1–16 与 B1–25 原恒等式，并核原 anchored 源 local_pair/forced_case：第一 forcing 在完整旧坐标域先有界，再限制 canonical 域。S10 的第二分量是 xL，不另造 b*/T；S12–15 保全部有序导数及根均值。完整原 Taylor stage 消费，0旧数学重算；实际新标量仍待 Actions。保存前H9790B完整快照，压缩仅工作索引。只读双README核 0390a7c84d8cf3942722e70cc88f8e1223288717，blob均未变；非FF按规则立即尝试真pull再重建。
