@@ -1,0 +1,172 @@
+{
+  "schema": "same-model-single-damping-source-transform-v1",
+  "original_twenty_one_source_sha256": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+  "original_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+  "twenty_one_functions": [
+    {
+      "function": "equal",
+      "original_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+      "adapted_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "guard",
+      "original_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+      "adapted_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "scalar_or_none",
+      "original_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+      "adapted_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "evidence",
+      "original_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+      "adapted_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "compact_metadata",
+      "original_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+      "adapted_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "_run_engine",
+      "original_sha256": "fd254c6992e795ca8677dc5c706c821de191dd6d599726f8e22d05fdfe760dc7",
+      "adapted_sha256": "3f5d35741acc7b24f9caf5f251dc5c46969054168f7b065f56db5ca7b12c769a",
+      "complete_original_body_preserved_except_listed_current_metadata": true,
+      "body_byte_identical": false,
+      "reversible_edits": [
+        {
+          "before": "original_lambda_LSMR_projection_and_seventeen_trials_unchanged=True,",
+          "after": "original_LSMR_projection_and_seventeen_trials_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+        }
+      ]
+    },
+    {
+      "function": "main",
+      "original_sha256": "35bab63b35c936e5ff186340e9c7bda8958e678bdfee59d8c1b2faf68be9161f",
+      "adapted_sha256": "a79dcf79f3256ab8f6514441d92237b8797032c154a8591e67196dabbf9b3c7f",
+      "complete_original_body_preserved_except_listed_current_metadata": true,
+      "body_byte_identical": false,
+      "reversible_edits": [
+        {
+          "before": "original_lambda_and_row_and_chart_weights_unchanged=True,",
+          "after": "original_row_and_chart_weights_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+        }
+      ]
+    }
+  ],
+  "original_engine_main_sha256": "42e7387dcc9e7ca04a94e444542f093e27f898bccd8b67e8125dd7364dc83fb9",
+  "adapted_engine_main_sha256": "1cfd9d055e2517317600a27e231c374ec0ae2a44f9207efda8250d19c72cd57a",
+  "engine_edits": [
+    {
+      "before": "parser.add_argument(\"--damping\", type=float, default=270.)",
+      "after": "parser.add_argument(\"--damping\", type=float, default=27.)"
+    },
+    {
+      "before": "args.damping != 270.",
+      "after": "args.damping != 27."
+    },
+    {
+      "before": "Use the declared one-model lambda270/full-angle experiment and original trial bounds",
+      "after": "Use the declared one-model lambda27/full-angle experiment and original trial bounds"
+    },
+    {
+      "before": "Same complete ||A z+b||^2+lambda^2||z||^2, lambda270",
+      "after": "Same complete ||A z+b||^2+lambda^2||z||^2, explicit lambda27; prior lambda270 experiment"
+    }
+  ],
+  "original_function_source_recovered_exactly_by_declared_inverse": true,
+  "old_twenty_one_module_globals_or_source_file_mutated": false,
+  "temporary_engine_main_assignment_restored_in_finally": true,
+  "original_main_all_other_statements_byte_identical": true,
+  "no_complete_matrix_or_direction_computed_by_source_adapter": true,
+  "entry_source_sha256": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c",
+  "actual_parent_warm_sha256": "80b4590f476cf782d63cbc1680a4c205713bf6a533e544472219b6fef85a3cf6",
+  "actual_parent_status_sha256": "04ace7953961b3905d2b72639976025dc9c4efd0bef7b932585cf21f8249bcd4",
+  "current_schema": "exact-constraint-twenty-one-query-lambda27-condensed-complete-H-warm-v1",
+  "single_damping_experiment": {
+    "schema": "same-actual66-twenty-one-query-single-damping-contract-v1",
+    "original_damping": 270.0,
+    "explicit_current_damping": 27.0,
+    "original_damping_float64le_hex": "0000000000e07040",
+    "current_damping_float64le_hex": "0000000000003b40",
+    "same_actual66_parent_as_request68": true,
+    "actual_parent_warm_sha256": "80b4590f476cf782d63cbc1680a4c205713bf6a533e544472219b6fef85a3cf6",
+    "actual_parent_status_sha256": "04ace7953961b3905d2b72639976025dc9c4efd0bef7b932585cf21f8249bcd4",
+    "original_twenty_one_query_entry_source_sha256": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+    "original_full_trial_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "typed_domain_source_sha256": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65",
+    "selected_query_count": 21,
+    "selected_angle_row_count": 43008,
+    "complete_B_local_dimension": 7101,
+    "complete_B_declared_physical_nodes": [
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "explicit_zero_B_layout_nodes": [
+      484
+    ],
+    "complete_original_A_b_g_row_weights_chart_and_B_formulas_unchanged": true,
+    "original_complete_g_equals_A_transpose_b_retained": true,
+    "actual_reconstructed_model_arrays_must_be_read_from_this_run": true,
+    "same_input_does_not_claim_future_array_hashes_before_execution": true,
+    "B_model_metadata_hash_may_change_with_new_producer_identity": true,
+    "original_C_formula": "sqrt(original complete column_norm_squared + damping**2)",
+    "C_rebuilt_with_explicit_damping": true,
+    "original_C270_bytes_not_reused_or_claimed_unchanged": true,
+    "same_actual66_parent_as_both_request68_and_this_experiment": true,
+    "actual67_updated_warm_not_used_as_parent": true,
+    "own_schema_resume_supported": false,
+    "relative_to_request68_queries_and_complete_B_support_unchanged": true,
+    "common_original_left_RMS466_is_present_in_both_models": true,
+    "full_QR_and_local_root_rebuilt_with_explicit_damping": true,
+    "no_old_lambda270_factor_or_root_reused": true,
+    "baseline_fixed_C_support_dimension": 4059,
+    "baseline_C_all_outside_raw_contributions_retained": true,
+    "complete_H_direction_not_limited_to_baseline_C_support": true,
+    "inequality_reserve_theta_unchanged": 0.5,
+    "full_B_constraints_retained": true,
+    "original_512_working_200_dual_200_LSMR_experiment_preserved": true,
+    "original_seventeen_trials_and_domain_RMS_BC_and_merit_preserved": true,
+    "damping_penalty_not_added_to_actual_nonlinear_merit": true,
+    "original_new_warm_complete_FD_required": true,
+    "one_explicit_damping_value_no_scan": true,
+    "lower_damping_monotone_row_or_nonlinear_improvement_claimed": false,
+    "actual65_center_observation_does_not_certify_unique_damping_cause": true,
+    "scientific_acceptance_or_new_gate_created": false
+  }
+}
