@@ -138,3 +138,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **原投影未知支撑的符号缩减。** [完整56×22证明](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)在 $S=\mathbb Q[s,\Sigma_0^{-1}]$ 上分离120真单位与13自由；保全部原六Γ及剩余56行，四层 $H^{-1}$ 给多项式 $\widetilde G=h^4G$。其全部22阶子式gcd在Σ0外准确为ΔP；尚未计算，不能用一个选定子式或预填Q60代替。∞第七先检查λ6真实normal2/3强迫，保全部10incoming；仅有限域必要相容不付Q提升。
 
 **∞第七真实高已闭。** [原高零证明](results/R150-appendix-infinity-seventh-two-original-high-forcings-zero.md)保λ6全部75个非零normal2系数，两代表在原5100高行的七阶forcing均Q零；86632低阶原产品全真。完整剩余仅1088×599低式，保10incoming/两homogeneous cubic；实际β7等运行后判断，第八仍须真实 $A_2^TL_6+A_1^TL_7$。
+
+**∞完整第七已闭。** [实际β7=1](results/R150-appendix-infinity-complete-seventh-connection-one-sixteen-heads-and-length63.md)给16头、792064原八层产品真，fullQ长63…66、次大53…55/max13、AI65…68，差模长2…5但仍仅u5灭杀；R/Rout/U≤160、Rh*≤183，三支8526/8531/331。续第八真实高 $A_2^TL_6+A_1^TL_7$、11incoming；新job按小源码从原数学重建并逐全SHA还原所需临时阶段，独立全局P core56×22先计算degree/height再续行模。
