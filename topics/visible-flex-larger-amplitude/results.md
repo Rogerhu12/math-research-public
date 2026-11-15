@@ -393,3 +393,6 @@
 
 
 - [R385. 实际181全C/深112与正换帧范数包围未付](results/R385-actual181-complete-C-and-deep112-but-positive-frame-enclosure-unpaid.md)：四必要块齐；m2 52paid/119attempt在row18/piece4/d32正范数重装球后未隔正，非资源或真实零向量，完整33栈/后缀/111模式保。原相关数学下界已在；独立正端点表示修订187续全链。实际读回/静止后raw已清，0cut/unit/DN不冒native成功。
+
+
+- [R372. 实际175原37/新FD通过，完整闭段域诊断预算止](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)：四trial后1/8接受，629全453 uniform gap齐；5400s诊断提交43910角/746470步，702379证/44091未决/0反证，q21 angle902事务未提交、q22..36全未访。原model/FD与新全域未付分责，单66886B必要/真实清理齐，IEEE/native仍未付。

@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-R385前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R385.md)，链回R390及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
+R372前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R372.md)，链回R385及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -30,13 +30,15 @@ R385前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-befo
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)原a>0及P=a²|d×e|²−ν²|d|⁶>0等价、完整八次/Bernstein、453 Hermite全RHS缺陷保。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model及新warm FD先尝试，再独立诊断全75776行×17档×九系数；global6000/diagnostic1800/reserve180、原未访范围/字节保，不添155门。
 
-[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原37/FD及α1/8接受，全75776×17仿射和148×453点态齐；α1/4与α1坏行不同。完整整段/余13真实trial/BVP未付，全部数值与读回/清理范围保原文。
+[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)完整原范围保：真37的α1/8接受/FD、29×17端点域/338二阶界、629点态gap与四真实trial×37η齐；余13未访档不补η，统一整段、整IEEE/truequery、699/698/连续角/native/fullDN仍未付。原最近拒LEFT464/MID471已在37集合内；实际原8文档/1230成员与清理责任见结果，不凭已删raw续。175独立真父重生后的闭段责任与原点态不同，见R372。
 
-[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)保完整V″/338/两mean/115零RHS及e0/e1/形成δ/执行η。[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)真98原37在1/8接受/FD，29×17端点域/338界、629末点gap/四真实trial×37η齐；13未访档不补η，末physical仍非BVP。原8文档/1230成员及全部身份读齐，raw清。统一整段、整IEEE/truequery、699/698/连续角/native/fullDN未付；[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)和原结果保全部数值/预算，175独立重生继续。
+### 1D. 175完整闭段query域与真实预算停点
 
-### 1D. 175完整闭段query域后继
+[R372实际175](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)66886B必要齐：原37四试步后α1/8接受/新FD通过，仍非BVP；trial4..16未访不冒实际。完整真父/数值/原域与清理保正文，模型成功与后置证书未付分责。
 
-[175设计与执行接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：独立真actual98→一次原37/FD，capture0a8f4920、consumercf4fa7b3、runtime825caec6，私有84af端点模块数学逐字保。实际singleton b/C、完整453/338/两mean、G0+tG1+t²G2逐点余项族与完整14次query P，37×2048×17全域及事务/未访责任保持；不误对随t变化余项求导。10800s含恢复/原model/FD，diag5400/reserve300+60，8GiB ledger、190science/215job；170不作前门。单≤90KB必要读回保全部17槽原trial标量/拒因、全部37 query分类与原角计数/未访范围、完整结果/ledger身份；长科学对象仅Actions内部，不分包，失败不写清理marker。原求解/FD/IEEE/native门不变，exact核实际R372，未预填成功。169重试实际范围见R367。
+原完整453/338/115常数、29端点/37query×2048×17及G0+tG1+t²G2真实余项族保持。629个uniform Hermite gap全齐/最高P14；后置5400.00465502s退出3，无科学异常、global未耗尽。43910完整角事务/746470步原记录中702379证/44091未决/0反证；q0..20全角提交，q21仅0..901，q21 angle902/trial6未提交，q22..36全未访。各17档已证/未决集合、所有原数值和不完整范围见正文；对原1⁄8只三个LEFT query全证，不补完整37闭域。whole IEEE/连续角站/native/fullDN仍未付，真实读回后清，不凭新warm SHA续。
+
+[175完整接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)原六源/103pins、正sin基线、10800总/5400诊断/8GiB/单90KB及原门保持。后继研究同一真实路径的闭区间包含继承，核原G/余项语义，不冒实际新评价或补原175；171求解独立继续。
 
 ## 2. 九控制残差与新的形状方向
 
