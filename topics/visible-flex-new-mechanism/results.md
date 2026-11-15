@@ -230,3 +230,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R385：完整Q4快脉冲实现一个自然总通量的实际双向控制
 
 见[R385-actual-two-sided-natural-flux-control-from-complete-Q4-pulses.md](results/R385-actual-two-sided-natural-flux-control-from-complete-Q4-pulses.md)。固定同一紧u且M5≠0、端口/窗口/ω下界；真水平h1纯δ脉冲τ=ε^(3/2)给完整局部Λ=c*ε^(−1/2)σ+O_C1(√ε)，raw八矩仅0/2权故M=O_C1(√ε)。R350/R382全状态零准确删全部大加速度项；有限同型桥先补总M0，后R109才给canonical Λ。R83保b=−2T_D及Y_b修正，真倒行第三反号/第四同号，中心M0桥运回固定端口，所有桥成本及导数O(1)全保。最终Klein字使完整prototype位移相消且保4VQ+4VC1+4VC2。每紧目标一次选有限ε、Φ′>0，得真C1截面和任意标量，M/T/scalar/frame/位移闭合；非实际二维、非原冻结g/嵌入/reach。根全文及literature逐R73/83/105/109/129/350/382/354独审通过。
+
+## Covered-soft ordinary-growth首次实际：旧增长一次/旧SOC hold两次，新增长零
+
+见[covered-soft-ordinary-growth-first-actual-result-20261115.md](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)。run43762868037/job132961344492/source4f136530，4新组20过；140绑定/135py/旧130闭包全核，24原输入+唯一已完成SOCpair checkpoint直接传递，无旧优化/检查/事件重放。6model的primary1/2/2/1/1/2及SOC0/1/0/0/0/1，总11，末1按原no-unpaired未用。η.2663015219132816→.2662701215525791；m1旧legacy增长已m2实际用、m2/6旧同布局17guard hold成功，新coveredproposal/usage0、expandedhold0。8trial新行/omittedhard全0；fine+93属首模型前。375bank/4432+4451/B.00025/双streak0为唯一后继；1303memory+377新cut；18+2value/active35.0645s/total324.2936s与初验234.3628s保账。旧metric/两网14门/盒过，.26/主1e−6/连续曲率reach欠。仅消费原结果和交叉字段审计，不机械重跑求触发。
