@@ -114,3 +114,5 @@
 - [R302：共享有限root轨迹的批列等价及完整112两端响应](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)：固定准确实分支的共享/全RK链式证明、完整112 QR传递与唯一性条件，保全部原行/两mean/338混合及独立物理audit边界；浮点pivot不证严格非共振，未给实际速度或native结果。
 
 - [request137：真实128末态清理前的全段/边界/端点/独立audit](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)：47源pin，新470803fa/f5641d7f保原133数学、共享组件独立同态消费；fresh起19200s全局deadline/120s读回，原partial与未启动后缀完整，不预付native/fullDN或全224速度。
+
+- [request138：同135真实首父的完整normal候选选择](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)：新e8704af6/49734049/79c178f4与90+4pin/29闭包，只改完成原normal后R299择优；完整全部中间标量分段、原8×20/12×20/32批及全部终门保持。实际改善待本公开run，不把selector说成提高弱J精度。

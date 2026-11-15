@@ -390,5 +390,9 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 
 ## 2026-11-15 /root — Request137同现场末态组件实际入口
 
-[137接口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)五件完整发布：470803fa/f5641d7f/requestd507ab37及课题外独立workflow7af15b68，47pin/实际91+两ready+78原源和analytic-slope。新清理前回调/同request工作根、fresh开始19200s绝对期限、120s读回与独立audit预留落实；原133和七科学组件不变，不能SHA恢复删失态。root全文读新两源/request/workflow/接口、原插入逆变换及全部pin；新AST/Node/12Bash/8内Python仅静态通过，未本地科学或C++编译。H压缩重复而完整正文/open链接保留；push即本库Actions运行，R302上次NFF已立即rebase重推成功3dcb4f8。
+[137接口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)五件完整发布：470803fa/f5641d7f/request5aa0bfd8及课题外独立workflow7af15b68，47pin/实际91+两ready+78原源和analytic-slope。新清理前回调/同request工作根、fresh开始19200s绝对期限、120s读回与独立audit预留落实；原133和七科学组件不变，不能SHA恢复删失态。root全文读新两源/request/workflow/接口、原插入逆变换及全部pin；新AST/Node/12Bash/8内Python仅静态通过，未本地科学或C++编译。H压缩重复而完整正文/open链接保留；push即本库Actions运行，R302上次NFF已立即rebase重推成功3dcb4f8。
 本次push前pull发现根README仅新增closed-surface旧压缩数据清理说明，已只读diff并立即换新21bd547f基线；47源/历史恢复/数学不变。137尚未发布时原地修正，旧运行不伪造规则确认；136实际退出由R304后续原读回。
+
+## 2026-11-15 /root — Request138同真实起点的完整normal选择实际入口
+
+[138接口](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)六件已逐完整diff/接口读后发布：e8704af6/49734049/79c178f4/request1f203c07与课题外独立workflow2effcf04；同135真134配方494f73d1/半径.000390625，90+4pin/29闭包。只在原normal完成后R299择优，原外循环/全部final/零接受stop/预算保留，全部normal中间点与失败无损读回；源级静态已核、无本地科学，push触发真实run。137已run43709832101/job132798770009且新21bd基线，修短SHA为实际5aa0；133实际射击达容差由R308全读回，130规则变更退出由root继续。open旧30158B全文移notes/request137检查点并压缩已结清native重复责任，原链接和完整正文保留。

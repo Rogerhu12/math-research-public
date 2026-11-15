@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:38:25 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3f0dc976506ef931bc91d88d49dcd36b03d497ac。
+规则同步记录：2026-11-15 11:43:13 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 baedfd5a16ff7dce83dc687de857e5eb4b109d71。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -24,7 +24,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [135 R301](results/R301-actual135-carried-radius-thirty-two-batches.md)：run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c完整32批256接受/357trial，W到4.963213788986739，真radius到9.5367431640625e−8。86接受inner未达、72外拒inner已达，896原文字身份已核；全部final false，真实末p/r/SHA在正文。去重置仍微降，不据弱σ/整列FD证无根或精确弱方向。
 
-[R299](results/R299-same-normal-trace-full-merit-selection.md)/[helper接口](notes/2026-11-15-same-normal-trace-full-merit-selector-interface.md)：原normal正常完成后，从全部已评价有限原全三merit点择优；不改其工作轨迹/12×20/失败，不救未完成调用，外层仍原门。proof e0f8d493/helper d4c9cd44已推d4263a6，局部选择不证全链优越。**138准备独立完整normal读回接线，从与135相同的真实134末p及.000390625开始比较，非135末续跑。** 旧135冻结。
+[R299](results/R299-same-normal-trace-full-merit-selection.md)证明同原normal轨迹全三merit择优，原工作/12×20/失败及外门保留，局部支配不证全链优越。**[138入口](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)**已发：e8704af6/49734049/79c178f4/request1f203c07/workflow2effcf04，90+4pin/当前29；同135真实134末p及.000390625起步，非135末续跑，原32批/3600s批间/全部final。完整normal全部中间点/失败分段输出，零接受停止不改；推后登记run。
 
 [R303实际122](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)：run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b，compute exit3/report成功。original3600s完488段、refined3294s完187段，均partial/三全norm null；0shadow只付已读词，2/1局部失败全文已清未复取。summary27431B/98080d47；1fresh64J/R273后sentinel，十trial未执行，非native拒绝，无full224J/finalJ/audit。总8008.370981772s含fresh前置；不盲重跑。
 
@@ -38,15 +38,15 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 |---|---|---|---|
 | [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001，300min全H(s)，无接受预填 |
 | [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001、fresh-circle，同owner全部112H(s) |
-| [130原33查询](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md) | 43702578242 / 132776702379 | 690ca0f924f069c6b8c2134ca83bc856918c2e89 / 10:08:00 | 从真98原31另起，只相对32增MID483；8批10500s批间 |
-| [133持久128](notes/2026-11-15-request133-persistent128-execution-interface.md) | 43704718358 / 132783217957 | 4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6 / 10:34:17 | 原stop/fresh64固定chord、当前128残差/持久状态，18000s含1200replay |
+| [130原33查询](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md) | 43702578242 / 132776702379 | 690ca0f924f069c6b8c2134ca83bc856918c2e89 / 10:08:00 | 已因真实规则变化退出，7份原批摘要已取；完整读回继续 |
+| [133持久128](notes/2026-11-15-request133-persistent128-execution-interface.md) | 43704718358 / 132783217957 | 4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6 / 10:34:17 | 两job成功：1方向1接受，末norm9.68582474751023176032080482454992093e−11，R308读回 |
 | [136连续E](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md) | 43707070768 / 132790329190 | c1178bd2e17383a5a0f6bed1ec8fe1896704a528 / 11:03:43 | 已退出：1800.018894962s/SystemError，整query0/Rout空，R304整理 |
 
 124/128同worker真zero→全H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial。s1全原H词、全J→FD/fullDN/finalJ/fresh audit；IPC未知不冒数学拒绝，zero请求不等于目标为零，尚无正λ场。
 
 130保21capture/25端点/local8453/C4059/outside/λ270/17trial/全FD；[118 R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)真实末raw已清，后4最近拒MID483且alpha1/128 beta²−.0008413561364628563，不能伪续。133 matched-trace none/列0，fresh replay不付全224J/338/物理audit。
 
-**[137新同job末态入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)**：470803fa/f5641d7f/requestd507ab37/workflow7af15b68，47pin/真91+两ready+78原源+analytic-slope。fresh开始单一19200s总期限、120s清理保留；owner≤6000含1200replay，stages≤8000/boundary≤600/endpoint≤600/audit≤1800，均按真实剩余截，独立audit优先留额。新owner清理前同态接七组件，完整范围/失败/未启动与90KB不完整70保留；原133不改。所有静态已核，无本地科学或C++编译；本次推送触发后立即登记真实run，绝不预填完成。
+**[137同job末态入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)**：run43709832101/sourcef9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3/job132798770009，11:37:35创建并进入science。470803fa/f5641d7f/request5aa0bfd8/workflow7af15b68，47pin/真91+两ready+78原源+analytic-slope；新21bd规则。fresh起19200s总/120s清理，owner6000含1200replay、stages8000/boundary600/endpoint600/audit1800均依剩余额度，先保audit。清理前同态七组件/完整失败与未访/90KB不完整70；原133及科学源不改，无native/fullDN预填。
 
 ## 连续几何、新目标与仍未付闭场
 
