@@ -226,3 +226,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R262：指定多宽度联合能量分支的真实有序面积仍严格非零
 
 [R262 完整证明](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)消费R256的真实双参数根，不仅leading极限。对64低包/1高包的实际交错cell，保Thue–Morse虚质量和真实偏移，准确有ReΣi<j zi²zj²(tj−ti)=n{A(−21856a²+32ℓ²)+H²B/2}>1109nA/2；完整Q中的这一跨尾项严格负。母三包给Cν−ℒ+Δ/4=2L m_v²+O(h)>0，与64nqUα(1−q²)<0相乘也严格负。先选固定正h，再由实际IFT支路连续性选正δ，故真实有限宽Q<0；三矩与M4/M1/N1使共同平移不改Q，八副本和十二共轭副本只给正因子。相应Gaussian A1,−3乘子非零，因此排这一明确profile分支的完整ruling。未排任意多形状/多方向圆；下一改变包内ordered quadratic density，保所有已付门后再付新面积。root逐式核真实cell次序、有限和、宽度尺度、母包内部Δ和极限次序；lit独立全稿通过，无新执行。
+
+
+## R263：全部 Gaussian 面积的 81 标量有序结合律
+
+[R263 完整证明](results/R263-ordered-Gaussian-area-81-scalar-recursion.md)在固定右锚/端芽/实际位置上保存F=Iff、K=Ifg、G=Igg九矩和六面积各四个三向量，共81原标量非rank。左A右B准确并置为M加法及TA+TB+Γ(OA,DB)；展开给四个角cross，双线性cocycle逐式证明结合律，故可按保序二叉树线性次聚合。右inner三矩圆是cross零的充分条件，左circle单独不够；不由结合律授实际逆元或signed成本。幅度γ给二次γ²/四次γ⁴，g反射仅翻odd；任意O2换seed和任意平移须额外完整张量/平移多项式，不能从单位置81值推得。各叶子的多宽度self常数须同一真实母包同时生成，没有自由指定S/C或删除内部历史。root已全篇独核原槽方向、四项展开、结合律与范围；本次仅编号和结果目录相对链接变动，无新计算。

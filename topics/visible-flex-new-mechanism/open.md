@@ -122,7 +122,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)的全角十条件严格强于pure；40包虽付该面积但Lc<0。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)另给完整必要Q0，其累计primitive真实跨尾排该40包。多宽度准确式仍须保全部ordered-history/同母shape常数。
 
-[R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)已给全部六面积72准确条件：Euler密度必须扣完整二次cross；每微包自项、各i<k有序Γ真尾都保留，72为条件数非rank。具有R183八复制结构的完整圆再取12个完整副本、g交替符号与四次binomial幅度，准确消全部36 odd系数；36 even/内部历史及同w仍未付。**下一把全部复制纳入准确参数方程同时解剩余面积与六能量，不能以原处偶能量0推任意平移保持，也不能只验pure。**
+[R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)给六面积72准确条件、self与全部有序Γ；12完整副本准确消36 odd。[R263](results/R263-ordered-Gaussian-area-81-scalar-recursion.md)把九二次矩与72面积系数组成81标量准确有序结合律，四个交叉角系数显式，可保原次序按二叉树递推。右inner完整三矩才使cross零，单位置81值不授任意平移/O2重选seed；每个真实母包的self必须同源。**下一把全部副本纳入准确能量/剩even联调，并用完整递推保内部history，不把条件数当rank。**
 
 [R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；八χ不先套此自伴结构。
 

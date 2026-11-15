@@ -6,7 +6,7 @@
 
 根/本题README已全文读。公开仓库2026-11-15 12:16:57 UTC实际pull后已读规则提交：`c7b79fa81ebe13a3e8ead6a046b942471b3f8971`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 11:30:58 UTC实际pull/read `839ca22109ee06130136ded8f5d1b1e24bfeeb45`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
+私有2026-11-15 12:17:58 UTC实际pull/read `70baf7b9177f56569815dff58cb633a65fe52782`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`；已恢复终端Git，不再使用失联小UTF8写入例外。
 
@@ -46,7 +46,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R256真实多宽度联合构造**：单面积+Lc0强迫max(S/C)/min≥9+4√5（锐性先是正权矩）。两坡/不同宽+三母包shape，先固定正h以Ψ_s=−18L²简单根，再对δ³Lc、δ(Mc+3Lc/ζ0)用α/s下三角非退化IFT；8/12完整复制四次权中心0先纳入，真实有限正δ付四能量、共振N=6M付六门，同时全third、单面积及36 odd。R262已证该指定交错/TM排列在真实有限宽IFT支路Q<0，不能成full-ruling；新seed非旧同g。下一改包内方向，余面积/完整joint仍欠。
 
-**R259全面积接口**：6面积×3外矩×4角系数准确72条件；Euler导数扣原二次cross，微包自项/全有序Γ尾均保，只有5个基本cross非零。R183八复制型完整圆再作12个完整副本，g符号(−1)^j/幅度C(11,j)^(1/4)，平移次数≤10给36 odd同时零；36 even及内部history仍欠，能量须把全部副本纳入准确联调，不能先解再任意平移。无新计算。
+**R259/263全面积接口**：6面积×3外矩×4角系数为72条件非rank；Euler扣原二次cross，self与有序Γ全保。九原二次矩+72系数=81标量有方向结合律，右inner三矩圆才消跨项；单位置数据不授任意平移/O2。12完整副本交替g、四次binomial幅消36 odd；even及内部history仍欠，能量必须全部副本联调。
 
 **第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 
