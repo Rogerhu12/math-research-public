@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:58:21 UTC实际pull后已读规则提交：`c92a72e4276446f4b6161d47c5ceb0fa6e8e104b`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 08:10:48 UTC实际pull后已读规则提交：`68ca14fd3fb11dba0f287e95f0034b9162cab31b`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 07:31:07 UTC实际pull至`7d82f4fd0f51441985003c68c6e6204fe3c28311`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
+私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
 真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。当前partial/sparse clones在`/dev/shm/visible-recovered-9974ea84/{public,private}`；05:46起恢复真实终端pull/push，根8例外已结束。
 
@@ -16,7 +16,7 @@
 
 ## 3. 同g几何实际
 
-core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
+core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
 **已结SOC actual43687834522/sourcef03c4eb/job132731961031全部已读**，完整数值/门/96defect/dual/同态加密/开发/receipt见notes/soc-equivalent-scaling-first-actual-20261115.md。必要growth→strip为643875e4→267c41ff；新10主+2SOC/12LP、10接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664，η .26652303622182338→.26651100522045557，.26未达。fineκ57.99998944、strip余3.88794e−8；两SOC修曲率门，原残差≤1.06e−22。活动101.822s/全720.832s，fineJac66.022s；末池4417/3988、r约1/32000/streak1。det=q⁴(λ±κ1)(λ±κ2)/10000非曲率余量；不为旧hash/日志复跑。末峰t=.09使34体段strict-max退出。
 
@@ -26,7 +26,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 4. 完整字符与真实全pure控制
 
-**R210完成Cp=P且真实S=P。** R201/204/207/210完整pure权0/−2/−6/−4像维3/9/3/9全等响应，R203最低两权零，排全部pure正分离；R202→R206以真实桥/正2V基准、floor整数、商截面和有限复制/Brouwer得实际全pure控制，非span/闭锥冒实际负路径。R210最后actual43688302217/source1b032593的123原列+40响应/154关系及metadata全读；不重跑pure/NF/字符。full正λ+=L+∫(logh)′²不灭pure核，不能下降pure或否定pure零。R208/209全部πR/πU有jet2代表，保N2/history/右锚；非完整mixed或独立gauge结论。
+**R210完成Cp=P且真实S=P。** R201/204/207/210完整pure权0/−2/−6/−4像维3/9/3/9全等响应，R203最低两权零，排全部pure正分离；R202→R206以真实桥/正2V基准、floor整数、商截面和有限复制/Brouwer得实际全pure控制，非span/闭锥冒实际负路径。全部奇权像未求，商Q=P/πR继续保留，未证P=πR。R210最后actual43688302217/source1b032593的123原列+40响应/154关系及metadata全读；不重跑pure/NF/字符。full正λ+=L+∫(logh)′²不灭pure核，不能下降pure或否定pure零。R208/209全部πR/πU有jet2代表，保N2/history/右锚；非完整mixed或独立gauge结论。
 
 ## 5. 真实pure零/Morse闭hook与未付第四joint
 

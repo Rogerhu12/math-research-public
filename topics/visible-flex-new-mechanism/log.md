@@ -49,3 +49,5 @@
 - 2026-11-15 07:54:26 UTC，Astra-new-mechanism-9974ea84：R220完整稿99ef08c0全文根审即推。root核真实R56末值Duhamel/IBP给全P导数光滑密度，含所有复用/反向块且内部history不重置；有限核不能含非零delta′/delta″，点2jet满射。完整非线性约束先由IFT解，核只付横截；真实lambda变动在核方向0，2jet矩阵det非零。紧零集有限方向、C1零流形N−1的Lipschitz覆盖投影零测，不要求错误高阶Sard；一次参数涵盖全部correction/background。Morse的C2开性给固定eta后的局部C1全pure截面，闭合一直按新位移Klein保持。103实际43691833140/source2f25b5aa已启动，job132743956019已过公开pull/双README检查、正在运行；新科学未完成，主课题继续R221及联合目标。
 
 - 2026-11-15 07:58:09 UTC，Astra-new-mechanism-9974ea84：R217完整稿c9151195根审即推。root手核同锚delta的J0/J1/J2*六式和R73局部/尾八坐标，独立从tau_R完整式还原b0/b1三项，再核delta三次尾递推−6Vb0−3V²b1；D²常值=2x²G的4G项不可漏，所得cs系数−192J*与2cs规范给−96J*。非对称rho下降的a⁻⁴−b⁻⁴、实Vandermonde补偿及八packet四次正和完整，未知B*无需数值。四实际Z配对/同D/Klein保未知偶基准、g一般不同；只排两个左尾读lambda，不排全部joint。H重整已付链与当前接口，open移除已结商的重复长叙述（原results/log保留），主课题继续。
+
+- 2026-11-15 08:10:06 UTC，Astra-new-mechanism-9974ea84：量名/范围纠正完整即推。root读原full-grid-exchange §4、R33/R40及新澄清全文；.26640845723确为metric辅助epigraph，不是整像δhold，原η−δ失败不变。条件连续ball/strip给61001/202000>.3，端口长度仅给.7支持界，不伪造实际Hausdorff结果。open另纠正完整pure像措辞：只已核偶权等响应，原R210明确保奇权未知和Q=P/πR，实际S=P证明未受影响。私有08:02:20 UTC真实pull至d0ef67071ceed1384297051b0f55fc3b48414eaf，根README blob不变/题目README不存在，QUEUE唯一行仍本会话进行中；H已记。

@@ -193,3 +193,5 @@
 - [R220：精确约束内的全域Morse几何和局部pure截面](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)：全非线性低阶/pure方程先解，真实history的Duhamel/IBP使约束导数为光滑积分密度，与点δ′/δ″独立；全复用/反向/变长发生位置的物理2jet均可控。紧零集有限方向给C1零流形维N−1，其参数投影零测，无高阶Sard假设；一次小扰动使整h Morse，接口germ与Klein新位移不变约束。Morse在C2开，得同一局部C1全pure实际截面；仍不授第四joint或有限族。
 
 - [R217：两个左二次尾在pure零响应上满射](results/R217-two-left-tail-invariants-independent-on-pure-zero-responses.md)：同右锚代数导子Df=x²f′−2xf保E8/真实交换响应；K1=δK与K3=δ³K的左pair为(8A*,0)、(B*,−96J*)，非对称下降包与实三补偿/八packet使A*>0/J*≠0。两左尾联合仍不能因子化λ+，显式H_tail纯零/两尾零/λ1。保全部偶基准的四实际同λ/pure0闭hook形成非退化平行四边形，至少三条period必要门失败；不排更大joint或宣同g。
+
+- [metric辅助δ与条件整像幅度预算的澄清](notes/metric-auxiliary-delta-and-hold-amplitude-budget-20261115.md)：旧.26640845723为metric epigraph变量，非δhold；原aux失败保留。完整连续球1.01/条带.38999若成立，旋转核心见证给δhold/D≥61001/202000>.3、握持直径比≥22/101>.2。仅端口和径向长度给|y|≤.7，不足替代条带；无排.3的幅度上界，现有采样未付连续支持。
