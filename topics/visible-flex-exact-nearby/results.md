@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133补充 T1–25：真正全δ固定角外图的有界解析平移族](results/R133-supplement-full-delta-fixed-angle-regular-graph-analytic-translation.md)：同一t无关τ pullback保j加权mean/primitive/holonomy根，joint背景6F，真实C_R逆<18；full外行族<2^64/宽1/512，接G0z/真实port后反馈族<2^128/宽2^-128、real<1/8。完整复Hilbert差核及fB两导图明确；全δ高/负Sob合并另付，不授未知非线性状态域。
+
 - [实际两真实邻片的完整相关第一Airy源](results/R133-supplement-actual-correlated-complete-first-Airy-sources-on-root-neighbors.md)：43676926141/1 child0/14门，原28逐字+50新=78stage；两邻片28完整新行在6case全选，4215原行复制不变。R=.001全负<1.44778643289190e20/正<9.68645446951086e19；保9词5mean/1079真缝/653ledger，继续剩余主导和真实seam/strong-return。
 
 - [全实δ固定端口帽主体的 Sobolev 逆](results/R133-supplement-full-delta-body-shifted-Sobolev-inverse-with-fixed-ports.md)：W1–19先由解析lag把原K复域收窄至2^-128、真正反演完整G0z，再付actual δZ的完整flux/mean族；shift M2^1024给−3/2≤s≤2114全部原源列增益<2^2200000。真改变外行的同阶转授独立保留，不用裸复合。

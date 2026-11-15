@@ -44,7 +44,7 @@ root与newton_source负责。
 - [V完整原实区间帽线性逆](results/R133-supplement-complete-real-delta-fixed-base-cap-linear-inverse.md)：固定Φ0的joint复合给||δZ∘Φ0||A0<2^-26，落实P19主体<1/4。真外<1/8在同M模块相加，反馈<3/8，相对完整基点lift逆因子<8/5。
 - [W全δ固定端口主体Sob](results/R133-supplement-full-delta-body-shifted-Sobolev-inverse-with-fixed-ports.md)：先收窄S复域至2^-128，使完整G0z真可逆；shift M2^1024给−3/2..2114全部原ordinary/div/端荷/jump及fB两角导源增益<2^2200000。
 
-V只授s=0的真实变动外行；W的外线性行仍固定在原δ0。下一项在整个long采用t无关真实角pullback，精确保j加权mean、primitive、holonomy小根与C_R反演，建立真正frozen外行的有界解析族。自然物理角的共同复背景球已付，裸未知角复合不被当作有界解析lag。随后才合并全δ高/负Sob和相应帽—尾接口。
+[T1–25真实全δ固定角外图](results/R133-supplement-full-delta-fixed-angle-regular-graph-analytic-translation.md)现已单独闭合：整个long用同一t无关τ pullback，加权mean/primitive/holonomy与真实C_R逆<18共同保；known-background joint 6F，full pulled graph解析族<2^64/宽1/512。接W的窄域真G0z与原完整port后，真实outer反馈族<2^128/宽2^-128，real仍O<1/8。复Hilbert准确核的极点消去和完整余级数已付；不是把裸角复合当作bounded analytic family。fB的源列使用pulled图，回原物理Hs+2时必须付real角转换。下一项合并W+T，给整个原δ区间真实外行的高/负Sob及帽—尾接口；W自身仍只是固定原外端行。
 
 上述都针对显式Qδ处线性问题；未知非线性修正的joint代数球、真实外图与可重复解域仍需证明。有限193描述已给系数，未知线性场始终全频。
 

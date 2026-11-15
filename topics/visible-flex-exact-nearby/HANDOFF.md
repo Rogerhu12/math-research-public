@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 04:48:09 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 04:48:45 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
-本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 04:29:31.424645 UTC 0326a07674e4c99a33995d1901463180a98e2f96（adjacent worker ec4a322e…5488B，两次README diff空）。04:28非FF立刻真pull仍无executor，freshhead第2次成功。
+本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 04:39:00.501766 UTC 918fdb11dbb7a424b6149b405e2c7fab3cc0c737（Green process476b5e9c…46209B，10次README diff空）。04:28非FF立刻真pull仍无executor，freshhead第2次成功。
 21:48起CLI报No usable execution environment；04:47新规差读前真pull再试仍同错。根规8仅connector<100KB UTF8文本/禁binary；只读ref不算pull。新规15：题main≤200MB、>5MB及旧人工parts合原件→public Release data-visible-flex-exact-nearby，先SHA验证上传/清单再普通删，禁改历史。phase迁移、newton保Green前缀续接，全部0旧数学重算。
-最近只读README核：8f43e9256f0cd0405f4b04667417848c2451cd5c；根f9a8c9c98c3107aaf88268fd602d9612bcdb15c6、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff b6dd686c404c15cc7744c5c26f32862055ea3c67；rules 7e2386e1d58546ef63872a88aabc2302cfded84914d2110b26d66bb478e8c6ee、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：6a9e8639ca055fb75fa3d8892fd5a9ba4c6b6f01；根f9a8c9c98c3107aaf88268fd602d9612bcdb15c6、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff b6dd686c404c15cc7744c5c26f32862055ea3c67；rules 7e2386e1d58546ef63872a88aabc2302cfded84914d2110b26d66bb478e8c6ee、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。此前H9821B逐字存notes/2026-11-15-handoff-before-full-delta-Sobolev-and-adjacent-actual.md；所有旧H/open/log归档链随其保留。成功科学/出版失败分记。 当前open此前完整原文另存notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md。
 
 ## 同一对象和总完成门
@@ -21,7 +21,7 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 ## 主体、完整方向 Green 与帽：newton_source
 
 有限193 actual43635487128/8负ν误差.003509417445587仅有限，原全L².007490301792401；6391Gram/5970/cross/impulse/正high及失败全保，禁重算。
-同F5970 actual43654510038全32范围+finish child0/7门，4原+5966新/0target；native7e1a5709…/process0c832fe8…。Green43672023585 backward实际1420/5970、45chunk、7入口门、failure null；234pin3350a96f…接forward→238pin Poisson94e46b22…，真BR/mean/cut/V舍入全保。04:28 processbae78a9a…43975B已读。
+同F5970 actual43654510038全32范围+finish child0/7门，4原+5966新/0target；native7e1a5709…/process0c832fe8…。Green43672023585 backward实际1658/5970、52chunk、7入口门、failure null；234pin3350a96f…接forward→238pin Poisson94e46b22…，真BR/mean/cut/V舍入全保。04:39 process476b5e9c…46209B已读。
 全7908 actual43665656138 child0/2门/63.764484s、4pilot+7904新/0target、97 signed九Gram；native4e505e02…/arrayd6bb53d5…。HS<.001546601378、Hessian<2.373981e−8、系数尾<7.195238e−10。原341pin baf3a428…不改。
 端点/high actual43666716585 child0/10门/3stage、native6a845f62…；真9/10/mean/正fee/全尾保。全频帽43671537267 child0/9门/3.538647222s：同97 Wcap true_body_nested，CH CH*≤Wcap，||CH||<.000943，含unknown |j|≥97/mean/真outer/Hessian；native56efa27c…/arrayc500a1a9…。原353pin7473f786…、已修flow cf493d5e…不改。compose等真Poisson三HY；旧AST-only拒绝，正确skipped。
 L1–16保完整low-even97/a与zC,0，(E−E0)(E−E0)*≤c*²Werr仅输出侧；真HY后按signed tr(HY Werr)收费，先看实际主导、0旧Gram/target重算。
@@ -45,8 +45,8 @@ S1–39/54c51dc2…真实连续Jacobi已付h→h/2时Galerkin J/半径≥2^-15�
 
 G1–26完整4Z角规范/两mean/Hessianχ<1/128；S1–24真B0后K<1/64、σ1/128解析Kz<2^64，M2^256付−3/2..1024物理M_s逆<2^262145/Cf<2^400000。moving仅L∞rHs读出，不授moving ℓ²sup_r。R1–17实际u奇/v偶保A及全部同类导数0，原F继承固定基点；long b0=0但C0/通量/height/非zero腰行保，径向Γ独立。
 P1–21/bd7018ce…固定DΨ0散度/primitive/mean准确，邻DF不需Y_r，新R_Y Hessian不重算；原R0完整保。O1–15/02248c9c…全real|δ|≤1e−8真outer反馈<1/8，准确仿射lift<24/端点H<41，fixed inner C/mean/height/正fee全保。
-V1–14/8ce318c7…现已闭合整个原real|δ|≤1e−8帽逆：G23 joint||Φ0−θ||A0<1/128，实际||Z∘Φ0||A0<7/8，ε<2^-26；b,g<6/k1落实P19，body<1/4+trueouter<1/8⇒反馈<3/8、相对基点lift逆因子<8/5。原反射类/全频未知/同η0/ν帽上0/完整mean；仅显式Qδ处M0线性，不授未知非线性域、高Sob全δ或精细97参数误差。
+V1–14/8ce318c7…整个原real|δ|≤1e−8帽M0逆：实际||Z∘Φ0||A0<7/8、ε<2^-26、b,g<6/k1；body<1/4+trueouter<1/8⇒反馈<3/8、相对基点lift逆因子<8/5。原反射/全频/η0/ν帽0/mean保；只是显式Qδ处线性，未授未知非线性域或精细97参数误差。
 
-W1–19/85169eb7…现已证全realδ固定原外端行的完整主体−3/2..2114逆：先将S复K域窄至2^-128，Kz−Ka<2^-47后真G0z存在；P全flux/mean解析body B<2^64。shift M2^1024付差<2^-600，全部ordinary/div/端荷/jump及fB两导源增益<2^2200000。真实改变外行的同阶analytic-family正在由t无关long pullback单独支付，不用裸角复合。
+W1–19/85169eb7…现已证全realδ固定原外端行的完整主体−3/2..2114逆：先将S复K域窄至2^-128，Kz−Ka<2^-47后真G0z存在；P全flux/mean解析body B<2^64。shift M2^1024付差<2^-600，全部ordinary/div/端荷/jump及fB两导源增益<2^2200000。 T1–25/63d2ed8c…另已闭真正全δ外图：t无关τ pullback、加权mean/holonomy、真实C_R逆<18、共同背景6F。完整外行解析族<2^64/宽1/512；接W的G0z/真port后反馈族<2^128/宽2^-128，real仍O<1/8。Hilbert复核真消极点；fB用pulled图，两导及real角转换须付。现接W+T成完整全δ高/负Sob。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。

@@ -429,3 +429,11 @@ W1–19全文9814B/85169eb7…经tail独立核W5/W15/W17和源单位。S12复K�
 准备独推T已审证明时freshmain检查发现根README改变、题README未变。root立即尝试真git pull --rebase，仍无usable execution environment；随后仅对已读旧blob6183b7…与新blobf9a8c9…读差。已读提交b6dd686c404c15cc7744c5c26f32862055ea3c67，新root SHA256701d37ef05f230bbb99c0dc9ef67ea91a3bd783dec005437dec75da806dd2c77。规8/10转引新增15：本题main必须≤200MB；>5MB证书/数据/Actions输出移public Release附件、原人工parts合回原件，先上传核SHA/写清单再普通删除、不改历史。不能继续仅依赖临时Actions artifact作为大文件最终存放。
 
 根新规已通知三代理；phase负责完整题数据迁移，新ton负责当前Green检查点安全保留/Release续接，root更新small-text出版readme guard和新诊断worker。现有旧source/manifest/rules收据不改名；新rules独立文件保前后hash和明确已读差异。所有数字任务仍只能public Actions，0旧成功数学重算。新规不改变题README总完成标准，也不新增审批/冻结门。freshmain 8f43e9256f0cd0405f4b04667417848c2451cd5c的两README核与已读提交已入H。
+
+## 2026-11-15 04:48:45 UTC — T1–25 真正全δ固定角外图已独立闭合并推送
+
+仅在public仓库工作；新证明不做本机或代码模式数值。root读最终全文差异，tail独核T11–17/T20–23：weighted holonomy消去、Q二次2^11、square-zero导数2^-11、背景复合5、C二次2^14、端导4与9→18均成立。最后补R端C0 positive-width的Neumann来历、Hilbert完整复盘余级数和joint 6F唯一性，root再明确内部绝对Fourier-majorant先取逐频径向sup，而Hilbert仅单一R端口L²；final18954B SHA256 63d2ed8c521f693553047e474891323e938bc609ba31fbcc0063f868ec2ae8a8。
+
+同一原real|δ|≤1e−8、η0、真实外端C/独立mean/height及fB均保。τ是整个long上的t无关真角；bare unknown complex composition不单独使用。fullgraph解析族<2^64，接W窄域G0z与真port后outer反馈族<2^128/宽2^-128，real norm仍O<1/8。接下来组合完整全δ有限Sob时，原physical fB需real角Hs+2转换，统一源预算预留到2^2400000；尚未授非线性joint状态球。
+
+root另亲读Green04:39 process476b5e9c…46209B：1658/5970、52chunk、failure null，10次真pull/两README差空，最新04:39:00.501766→918fdb11dbb7a424b6149b405e2c7fab3cc0c737。出版只读main 6a9e8639ca055fb75fa3d8892fd5a9ba4c6b6f01两README blob未变，H已记。原全部target/Gram/矩阵无重算；继续已运行Green与原6case源行诊断。
