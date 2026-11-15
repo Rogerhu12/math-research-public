@@ -461,3 +461,8 @@
 
 [191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，run43766271165/source7891ee252147194137c2a933b6407a7c2c0ac19f、compute132971948907已入原science；exact唯一终态R404。
 
+
+## R401 — 实际189完整十维69次原门接受及2400秒资源部分终态
+
+[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)31778B/bca00da6全文核，run43762371885/source59895129303；唯一原两job同87897B/8549fc6e必要完整。真实69原Armijo接受/158α/632primal/474完整normalJ全返、405临时更新，W4.346867247171→1.792004819715；前30α1/2，随后偶数1/4/奇数1/2，全部接受均normal2/trial0。原2400秒SIGTERM恰在status编码，producer2400.158791314/child75/partial，未测分项不归因序列化占时。direction69启动无α、70..127/blocks9..15未访；final与final投影缺，只有初始60FD，末FD/Arb/453未起，nativefalse。最后十词/current owner与direction68实际接受记录逐词同，固定S保actual157；可作194新初猜而非completed/native checkpoint。必要/错误/quiet后确清，原全来源/错误/未访保正文，后继仍付全部原终门。
+

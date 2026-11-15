@@ -55,15 +55,15 @@
 
 ## 2. 九/十控制与完整三残差校正
 
-[R340](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)/[R350](results/R350-actual167-original157-FD-trials-and-last-direction.md)/[R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)保原九p50、84trial/18FD/全七状态112三列/全部mean与(ah′−bh)/a²；小形成梯度不证驻点/秩亏，返回b不冒准确a′。R363/R366/R370的零2jet、同坐标全G/H/完整span与不交箱界、共享node责任见完整190前检查点及原文。R373六形状20全拒、R376全1397站/602允许站20全拒均不推函数空间无解，原120FD/Arb/453与失败/清理不回填。
+[R340](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)/R350/R351保九p50/84trial/18FD/全七状态112三列/两mean与真实商导数；R363/366/370零2jet/同坐标全G/H/完整span、不交箱界、共享node和R373/376全拒范围完整留[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)及原结果。小形成梯度/有限搜索全拒不证驻点、秩亏或函数空间无解，原120FD/Arb/453与失败/清理不回填。
 
-[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)给原完整QR/最小S范数/径向clip/Cauchy条件下降；[178入口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)保support1/power4、actual157固定S/半径1/120FD/全部原门，十维不送九owner，finite不改C标签。[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)真R389末点128接受/1133trial，19步1/128+109步1/256，W4.9578→4.9239而F3 .11295→.29651；675.6139s非资源。87144B完整必要/十词/S/FD/Arb1588叶/453/全部未付保原文，不冒BVP。
+[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)保完整QR/最小S范数/径向clip/Cauchy条件下降；support1/power4、actual157固定S/半径1及全部原门不改，十维不送九owner，finite不改C标签。[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)128接受/1133trial、W4.9578→4.9239、完整原词/FD/Arb/453与未付保正文，不冒BVP。
 
-[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)/3bec helper在每原α固定p/F/W/Jd/slope/bound，用完整3×10纠全3 affine偏离并在原S球投影。每实际点先原Armijo，辅助下降仅改临时点，owner只由原门接受点替换；C²/满行秩条件二次偏离及小α接受已证，固定3×20/20α不保证，实际导数/秩另付。
+[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)/3bec固定每α原p/F/W/Jd/slope/bound，全3×10修正/同S球；仅原Armijo采用owner，临时下降不冒接受，条件C²/满行秩不代实际导数或固定3×20成功。[R395实际185](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)真183后8接受/12α/39primal/27normal，W4.9239→4.3469；后4α1仍拒，完整120FD/Arb1589/453齐但unit/full112/native/C²false，真十词与原全部计数/来源/清理保全文。
 
-[185入口](notes/2026-11-15-request185-complete-three-normal-ten-predictor-interface.md)117/12pins/48闭包、真183十词/一个8×20块/每α最多3×20normal/整个child2400s与原120FD/Arb/453保。[R395实际185](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)76157B/acc93f03：8/8接受、12α，39primal/27normal/19临时更新/15投影，W4.923932325275→4.346867247171；后4α1三normal用满仍拒，最大predictor W108383392.693838不污染owner。producer73.532297684s/wrapper74.807222099s；120FD/Arb1589叶0未决/453两RMS/4096角齐，但导数兼容/C²及unit/full112/native/nonzero/successfalse；真末十词/F和全部计数保正文，必要/quiet后真实清理。
+[189完整入口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)119+13pins/49闭包、同owner16×8、原全3normal及全部120FD/Arb/453/终门；仅八方向budget词续块，固定S/半径1/2400总钟不重置，unit/全20拒/异常不重启。单90KB完整地址/原必要标量/错误/未访与quiet清理保，实际已由R401收束。
 
-[189完整入口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)119+13pins/49闭包，从真185十词以同owner最多16×8原3bec块。仅八方向budget停词续块，fresh当前3×10 J，S/半径/2400总时钟不重置；unit/全20拒/原异常不重启，初末120FD/Arb/453/全部原终门保持。单90KB全128地址/实际α/normal计数/接受bound，首末选择详词、中间大向量只身份，原词精确相等才共享merit、缺字段不填0；超限partial不拆、完整必要/错误/quiet后清。实际run43762371885/source59895129303由geometry唯一读R401，尚无未来数值。
+[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)31778B/bca00da6全文核，run43762371885/source59895129303；唯一原两job同87897B/8549fc6e必要完整。真实69原Armijo接受/158α/632primal/474完整normalJ全返、405临时更新，W4.346867247171→1.792004819715；前30α1/2，随后偶数1/4/奇数1/2，全部接受均normal2/trial0。原2400秒SIGTERM恰在status编码，producer2400.158791314/child75/partial，未测分项不归因序列化占时。direction69启动无α、70..127/blocks9..15未访；final与final投影缺，只有初始60FD，末FD/Arb/453未起，nativefalse。最后十词/current owner与direction68实际接受记录逐词同，固定S保actual157；可作194新初猜而非completed/native checkpoint。必要/错误/quiet后确清，原全来源/错误/未访保正文，后继仍付全部原终门。
 
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 

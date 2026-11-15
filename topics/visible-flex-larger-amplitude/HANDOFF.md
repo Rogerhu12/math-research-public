@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:57:30 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f178cbfc6f8f43e4b39a58c6d627a0dae4d90e76。
+规则同步记录：2026-11-15 22:02:07 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 df23984906a0bbac62e48aab69d943b396b9a9a0。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -23,7 +23,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：compute132950069367已入真实far；正端点表示→真180→全112far→原453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact：compute132955840323原science；真98/37/FD→629gap/全闭段，105pins|
-|189/R401|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a|geometry：compute132959791013；真185/16×8全3normal、119+13pins/49闭包/2400总时钟|
+|189/R401 →194/R410|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a已读|R401刊；root接真实69接受末十词新初猜，194独立入口准备，geometry补R409径向/sharedB|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |R400 /193/R408|四源/证明本次刊；193真实453→450入口准备|amplitude接真实currentH/FD/fullDN两阶段；geometry补current-C径向/sharedB闭链|
@@ -49,7 +49,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [188入口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)/R398保105pins、629gap、17项角事务、直接/继承分计、10800/5400/300/8GiB。同准确H(t)strict父闭段可继承；短提交延期受控信号不保证硬kill完整，不回填R372/175未访后缀。
 
-[R395实际185](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)真183后8接受/12α/39primal/27normal、W4.9239→4.3469，后四α1全3normal仍拒；120FD/Arb1589/453齐，导数/C²/unit/full112/native/successfalse，真末十词及S保原文，确清。[189入口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)119+13pins/49闭包，同owner最多16×8；仅原八方向budget词续块，fresh3×10 J、固定S/半径1/2400总钟，unit/全20拒不重启。原120FD/Arb/453/终门/单90KB完整地址与读后清保。
+[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)已全读：87897B/8549fc6e，69接受/158α/632primal/474normalJ全返，W4.3469→1.7920。2400秒SIGTERM在编码，child75/partial非数学拒；direction69无α、70..127未访，final缺/仅初60FD，末FD/Arb/453/native未起，必要/quiet后确清。最后十词与dir68/α1/4原接受点逐字同，可作194新初猜；不冒completed/native父。R395原185全部120FD/Arb/453仅属旧父，194重付全部原门/固定S/全3normal。
 
 [R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)真β1/16/419准确片域已证；ba8确定性恢复，不重跑搜索不伪造旧factory。187真180→fresh C/factory/e5ab→全部112far→453/FD/final，原84pins/55/29闭包/完整预算保；正端点log/sqrt、倒数只乘、全角/幅度/取向及先归一后hull，fullcut未另跑。
 
