@@ -286,3 +286,5 @@
 - [R370：不交局部奇形状的统一C²界与系数箱下降方向](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)（已证，无新数值）：完整sign组合在所声明有限箱的准确线性merit取−Σ|g|，C²界因支撑不交不随站数累加；形成误差与原真实接受分责。174使用真157父并在全部FD/trial冻结同一h，任意点仍须完整分片评价。
 
 - [R364：首164完整绑定的Decimal／JSON类型误拒](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：setup/表已构造而0 tracked模型调用，完整canonical binding与recipe同，六候选/20trial/FD/final未开始。两日志/原摘要/错误/清理全核；仅改既有encoded完整比较和必要来源pins，r2保原父/数学/预算重发。
+
+- [Request175完整闭段query角域设计与actual98父选择](notes/2026-11-15-request175-complete-Hermite-query-domain-design.md)：保真实singleton b/C来源、共同t二次Hermite系数族及全部453行；准确query域P需完整14次/15系数，不能套端点9系数。独立原37/FD后诊断的父明确为actual98，尚无175运行，原IEEE/求解门保持分责。

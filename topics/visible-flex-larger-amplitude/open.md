@@ -124,3 +124,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 交付多个各<5MB网格时也遵守根15：仅保可重现生成源码/配方、run/SHA和紧凑结论，不新增可重算raw制品。明确数值证据与严格存在证明之间尚余什么，再继续加强几何比例。只有README全部完成标准真正满足才收尾。
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
+
+### 175完整闭段query域后继
+
+[175设计](notes/2026-11-15-request175-complete-Hermite-query-domain-design.md)已存：独立真actual98→一次原37/FD，追加复制原angular singleton缓存b/C而无新旧RHS/J；闭段gap保G0+tG1+t²G2逐点余项族，不能对随t变化的族冒固定多项式求导。全453/338/两mean及参数仿射保，query P最高14次、15系数，37×2048×17全责任/粗闭盖/双子事务/未访保；整IEEE/完整BVP仍未付。170不是新前门，175源码接线待完整实现，未写未来结果。169工程重试实际43741519736/sourcede9a730a，由geometry核R367。
