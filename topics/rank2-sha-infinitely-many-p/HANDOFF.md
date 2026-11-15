@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：094c6d887894dbd0ec13b1bcffe75994126f734d；2026-11-15 15:24:21 UTC核两README无变。实际CI pull 2026-11-15 14:55:35 UTC/eddb3e9f38e8673102efd00358925b76cb8f04f6（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 15:24:20 UTC仍无环境。最迟2026-11-15 15:40 UTC再实际pull。
+- 最近已读规则提交：b34692d09c8d5ecdd7b859e43489da4413f1468e；2026-11-15 15:26:37 UTC核两README无变。实际CI pull 2026-11-15 14:55:35 UTC/eddb3e9f38e8673102efd00358925b76cb8f04f6（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 15:26:37 UTC仍无环境。最迟2026-11-15 15:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 本地exec仍无环境。实际public CI pull 2026-11-15 14:55:35 UTC/headeddb3e9f/run43726992362/job132850978021，两README差异空且blob同；回执ci/rule-pull-20261115T145535.json。下一最迟15:40 UTC。
@@ -13,7 +13,7 @@
 ## 全检查点及分工
 
 [压缩前全文](notes/2026-11-15-frontier-before-r777.md)沿归档链保原全部常数、十九角、射线、完整来源、坏集、run/hash与未闭门。[open全文](notes/2026-11-15-open-before-r767.md)保旧接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-R1–363、365–560、562–653、655–711、713–770、772–778已登记；R364/R561/R654/R712、R771和主目标不冒完成。
+R1–363、365–560、562–653、655–711、713–770、772–779已登记；R364/R561/R654/R712、R771和主目标不冒完成。
 root唯一metadata/ref写者；代理仅proof/script/blob。theta执行R773原条件五矩的同源有限producer；deep续R768边界消极及全normal同R/R771；literature接原第三中央U136与新完整余域，兼O4/O6；root续新合流矩阵/全来源联立。
 固定四次E17及j0 E17/E24/E2312的rank2已付；主桥需无穷不同p至少一条固定原J′非零。有限p、负一矩或附近来源非零均不完成。
 
@@ -47,7 +47,7 @@ R760新(S,T,(S′)^6)三格代数独立、复增长1/3、全普通饱和≤1；�
 R763原Q仿射六次式、Norm3全返回、ε/ε²及去Gaussian后单位首p分母保。R769每原列同charge合流Σg_r(t)(−6t∂t)^rΘ^n，P4^j零点全清极；实际行Σg_ri[−6(k−i)]^rθ_n,k−i，分母7^(a+b+6c)(2n)^(6c)，p>204D单位。原w/t饱和核同、首行差(−1)^k；不拆各n/r/i成独立源。
 R770实际去Gaussian误差C=(p+1)pcχ²ws=p(p+1)pcχ²ε；普通首项单位。全A_j°递推增2njC A°_(j−1)，原每列Q平移/指数及完整首Bockstein混合ε²保；未赋单基单位为全原列余类。继续真实同前缀惰性界和原中央传播。
 
-R775全惰性A^p−A=2(Q^p−Hp)EΘ+Rp∂Q的完整binomial势/单位常数已付，精确匹配原γ。p>204D原有限格算子核仅常数，但清分母像t/Q帽增3s/p；每单项式首w^(K+s)分母unit，不代全前缀估值或中央传播。已提交公开D1–4真有理饱和前缀producer；逐行整gcd/同核HNF，不用modp核替代，待回执。
+R775全惰性A^p−A=2(Q^p−Hp)EΘ+Rp∂Q的完整binomial势/单位常数已付，精确匹配原γ。p>204D原有限格算子核仅常数，但清分母像t/Q帽增3s/p；每单项式首w^(K+s)分母unit，不代全前缀估值或中央传播。R779公开run43728976368/job132856999020真饱和整数前缀已完D1–4；D3/D4跳跃0..19/0..34，最大惰性负素数107/197，p197,k34恰−1；无非坏ordinary负值。gcd/HNF原格与全部hash在R779，未推出全D。
 
 其余完整Hecke/trace/R736原47→7→1核、预算/2048类及run/hash见全文归档；C_pv无限p非零、原中央→边界和原整annulus o(p²)仍未付。
 O4原最早a≤1/δ²全球位置、O6全Np有限/λ≤3无限p及supersingular二次regulator仍开；AST线性/strict局部向量不代全Selmer。Wang2026 rank2稿已在[note](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)自含排其起始root/level条件及λ推断；Kim2609仍需最早节点指定全球子群，近期Fitting/fine-Selmer/深节点非零未补此门。
