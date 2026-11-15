@@ -188,3 +188,6 @@
 
 
 - [R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)：原远位Ni平均给落入任意真实RanB^r的乘积窗口右逆；完整有限旗使其模N等于规范J，真实N⊥形式原像因而有同准多项式局部读数，未假全局L²或普通封口。
+
+
+- [R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)：130新单位RHS和166列完整残差rank144/交维0，95788原产品全零；normal≤4完整二阶头仍22且整个normal4分量被迫零。normal5仍开，完整β2仍[9,11]、条件费8627。
