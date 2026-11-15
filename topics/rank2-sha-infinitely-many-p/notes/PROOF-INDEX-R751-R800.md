@@ -51,3 +51,5 @@
 - [R773](../results/R773-native-common-hat-domain-and-five-conditional-moment-return.md)：已证明原共同帽域的λ^(2N)全核、物理E浅N空域及归一环带区别；原q*六L546/M78分支、完整E次数逆与M-unit第二项逐项返回。原失败轴U7599的whole第300幂绝对为I，无新射线；取真实n=N+300后，条件五坐标精确化为两项完整原正矩，总次数≤60。完整有理首行保两个不同分母；具体算术幅度仍待同源公开计算，浅独占/外补不删。
 
 - **R774**：[任意3导子的真实CM good-pair与完整点因子](../results/R774-ramified-discriminant-good-pairs-and-exact-point-factors.md)。对完整自对偶type(1,0)、root−字符，单边split辅助ψ保旧3处比值1，伴随根数+且可取非零；真正临界Katz伴随、全finite principal-series Hom和完整Q/Gauss校准，给同ν点下降及实际ρ点域。S174全谱与原theta–Katz身份仍另付。
+
+- **R768 增补**：[完整零纤维数据与普通二阶消极](../notes/2026-11-15-r768-full-zero-fiber-data-and-ordinary-second-normal.md)。r=ell=1、k=0时实际主部商二维，完整首次p²固定−3B(Y−1)²及其它有限支满极；原Qquad全高尾和同S两输出完整保。对偶铅笔d₂+λd₁的唯一λ=−1使每个Y有极边界支准确改善−v(Y)，未付全球延拓。
