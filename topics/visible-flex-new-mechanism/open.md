@@ -10,17 +10,17 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[最新strip-reserve实际](notes/strip-reserve-first-actual-20261115.md)43684152565/sourcec594eeb已完整消费。必要growth前缀从c010一次恢复至643875e4（8接纳，明确不同于旧f2bb），继承r1/32000/streak0；其消耗不计为新科学。新阶段九次两网接纳至
-`267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e`。
-粗/细η.26652303622182338/.26652303613980632，κ57.999973495984719/57.999995287562953；旧167/625、硬58及原物理门按原tol过，新.26未到。fine条带余量3.912438217845704e−8为正，帽高−2.78e−17仍只原tol过。粗/细池4415/3920，末控制器r1/64000、streak1。
+[最新SOC等价缩放实际](notes/soc-equivalent-scaling-first-actual-20261115.md)43687834522/sourcef03c4eb/job132731961031已完整消费。一次growth、一次strip只恢复未持久化必要输入（8/10条accepted含起点），新阶段10主模型/2SOC/12LP、10真实接纳至
+`ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664`。
+粗/细η .26651100522045557/.26651100509492442，fineκ57.999989440433026、内条带余3.887938476720976e−8；旧167/625、硬58及原物理门均过，新.26未到。末池4417/3988、半径约1/32000/streak1。完整全部trial门、同点defect、原单位dual/残差与原g/b0/163身份见正文。
 
 ### 立即下一步
 
-只给primary/SOC的条带4/5组归一提案floor1e−7后，全部12个新双网trial均strip通过；三个拒绝都directκ失败（fine峰58.0000007、58.0000544、58.0000034）。stdout未打印每个trial其他门，不把曲率断为唯一原因。m2增5fine软行；m8无新行，全步/半步失败、四分步接纳。10主LP成功，唯一SOC10.121s限时且无primal，不能假装得到失败修正点。11LP/26共享值+2final、活动120.227s/总638.996s；fineJac69.629s主导耗时，不能把wall全归因LP。新提案floor虽为1e−7，原LP容差同量级，最大实际线性短缺9.336e−10已保留，不冒严格LP证书。
+两次未接纳主步准确由曲率越界拒；新归一SOC均最优且有有限primal，原单位残差0/1.06e−22、随后两网实际门通过。其同点曲率行余差由约1e−7降至1e−10。活动101.822s、全process720.832s（含必要准备606.942s），12LP计数退出；细Jac66.022s仍主导，不能只报SOC约.78秒或再延同预算。缩放保原准确LP可行/最优集，不保证同浮点轨迹，不能反推旧超时唯一成因。
 
-[SOC可逆数值尺度新实验](notes/frame-metric-spectral-soc-scaling-implementation-20261115.md)已完成根审并提交：v=r_c z、aux=r_c t及正二幂行缩放保准确全可行域/最优集，原A/b/盒残差仍按1e−7门；主LP和全部真实几何门、floor/.001惩罚/增长缩步、10s及12LP40值120s不变。24旧输入/98args，growth/strip各一次必要临时恢复继承真实r/streak，旧hash不强迫。直接打印全部trial门、同次原单位dual/残差和同点曲率预测误差，无新增geometry调用。H±=(q/100)(λI±II)，det=q⁴(λ±κ1)(λ±κ2)/10000；不盲增floor。下一消费首次actual；若仍仅微小进展，结合真实行/局部列分析表示，而非原样延预算。
+**决定性新状态：末metric峰移至t=.09、theta=3pi/2。** 既有34体段列在此六jet准确不动，所以不能单独严格降低当前全域max；不派发此strict-max子族。下一纸核旧自由径向行0–5的u/v共102列加Q153：覆盖入口与体段，同时拟保持t≥.765及.78曲率峰全部六jet。若支持和端口完整成立，再设计一个真正新的局部约束求解；先保外域软余量聚合下界与所有原实际硬门，常量硬行/帽高只按原容差，不能向零Jac行加正floor制造伪不可行。固定高度给R59/R60平均速度下界，在下一必要初始化同次读b，不为遗漏标量重跑旧实际。
 
-旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)及全部早期失败保留，不重跑来补日志。本轮曲率各组逐行预测/defect留在未持久化full而未stdout；只允许在后继必要恢复时打印既有摘要，不捏造缺值。后继同一公共job按已提交完整源码/参数恢复必要状态/池，继承真实控制器，前缀和新步骤分账，不强求旧canonical/hash、低于min不启动新LP。全连接同g精化、全域/全时reach与宏观幅度仍未完成。
+旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[strip](notes/strip-reserve-first-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)与源码全部保留。后继只为必要输入各恢复一次growth→strip→SOC，完整状态/池/g/b0/实际控制器继承、成本分账，不强求任何旧canonical/hash。全连接同g精化、全域/全时reach与宏观幅度仍欠。
 
 ### 仍须支付
 
@@ -32,7 +32,7 @@
 
 R74近等距必要式只有其小误差前提满足时才可用。所有随u/v改变的门用当前几何/Jac重建，不复用冻结切向的高度多面体。全部采样通过后仍有连续与非局部义务。
 
-[现有34体段角场列与六jet局域性](notes/same-g-body-tangent-columns-and-locality-20261115.md)已证明：B7/B8合34旧列可改.66附近而保持t≥.765和入口外域全部六jet；当前参数号u[36,54)、v[113,129)，高度固定。逐圈Π不沿径向传递，角闭合分别由水平半转/竖直反射支付；跨区间reach不保。应结合SOC同次模型/dual判断体段真正阻力，不能因尾部.78曲率峰就宣163维无下降；如需新紧支撑六次形状，须在W2/W5=1区明确独立性并升级状态身份。
+[现有34列局域证明](notes/same-g-body-tangent-columns-and-locality-20261115.md)继续有效；当前末态已由上述入口新峰排除其单独strict-max用途。逐圈Π不沿径向传递、角闭合由水平半转/竖直反射分别支付，但跨区域reach不保。103列及真正新局部自由基均须完整支持/独立性说明，未运行不得称可行下降。
 
 ## O4：完整真实第四成本、ruling 与有限连续族
 
@@ -40,9 +40,9 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)已证明：当f在整个右锚区间[b,r]为0时，任何全I合法二阶w的L_f(w)严格0，第三齐次也不改period；该区间原Vθ准确等于sin⁴θ P_B(g)。这不需要把w缩到单包或施六条仅充分的矩约束。R183的b可取153λ，唯一右端输入为−[1−S(x/λ−154)]，右方155λ后0。只省略ξ右方看不到的左包，整条真实B的s累计保留。
 
-[R200](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)已给真实τ0桥的完整纯响应H及右step严格非零首项，闭hook系列满足V−4(XN,t;q)=8N(Γ+ℓtH)+C(t;q)，全部桥/反向/Klein基准保留；某些真实几何必失败。更建设性地，先固定有限t区间和真实复制格式，再取有限N，介值定理准确把一个指定右段查询调到零。下一须支付整个纯函数而非继续积累单点或非零方向；同一B的全P_B=0仍未付。严格内点非零可经足够高阶、保支撑/补矩的C∞连续性保留；单点零不靠开性迁移。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已完整判明πU0=πR0、dim3，并给πH=0但λ+H=1；任何仅pure读出此λ的路线都已排除，不能换step再找同一个读出。固定B的纯period是否零仍须由其真实成本判断。
+[R200](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)已给真实τ0桥的完整纯响应H及右step严格非零首项，闭hook系列满足V−4(XN,t;q)=8N(Γ+ℓtH)+C(t;q)，全部桥/反向/Klein基准保留；某些真实几何必失败。更建设性地，先固定有限t区间和真实复制格式，再取有限N，介值定理准确把一个指定右段查询调到零。该结果只付单点；整个纯函数的实际支付现已由下述R210完成。严格内点非零可经足够高阶、保支撑/补矩的C∞连续性保留；单点零不靠开性迁移。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已完整判明πU0=πR0、dim3，并给πH=0但λ+H=1；任何仅pure读出此λ的路线都已排除，不能换step再找同一个读出。固定B的纯period是否零仍须由其真实成本判断。
 
-[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)现已构造一个新的全权pure忠实单调末step，并重做R183全部低阶：b+tq*多项式排零、三左复矩、Gram=EId共同标量、八包七差分和最终仿射均保最右f=0。对这一新圆，最右完整period恒零准确等价于πV_B=0作为universal算子；T非零的B通过BB^rev成本2V_B放入U。下一直接处理真实pure全算子的成本可达或独立正性，不再用仅某权/幂尾或多profile查询替代；原冻结step未获忠实性结论。
+[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)现已构造一个新的全权pure忠实单调末step，并重做R183全部低阶：b+tq*多项式排零、三左复矩、Gram=EId共同标量、八包七差分和最终仿射均保最右f=0。对这一新圆，最右完整period恒零准确等价于πV_B=0作为universal算子；T非零的B通过BB^rev成本2V_B放入U。完整pure实际可达现已由R210支付；原冻结step本身未获忠实性结论。
 
 [R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已完整结清universal pure主线：最后权−4实际43688302217给πU−4=πR−4维9，152原state/123原列+40响应、154全原关系零。R203消最低两权、R207付−6，加既有分离定理，全部pure正字符排除；R202闭锥Cp=P，再由R206真实桥成本/整数复制/商截面/最终响应Brouwer得实际S=P。不是从span或闭锥直接冒实际负路径。
 

@@ -25,3 +25,5 @@
 - 2026-11-15 07:12:42 UTC，Astra-new-mechanism-9974ea84：R210全文根审完成即推。root已读全部123坐标/152别名、40旧响应、完整决策/最终四人工与receipt；手核原0/76两条身份、33/122真零与九basis全局/旧索引区别。逻辑依次为末pure字符排除→R202闭锥满→R206真实S=P；闭hook用反向双字仅付span归属，再实际D四份支付−πV0，全部桥/第四基准和新的空间位移保留，第三κ不变。最终几何再选完整低阶圆，不把pure零当开条件或同g运动。open已把已结pure请求转为固定circle的真正mixed/ruling共同任务；主课题继续。
 
 - 2026-11-15 07:13:44 UTC，Astra-new-mechanism-9974ea84：R211全文根审完成即推。root核A加权Wronskian=1的零Cauchy Green符号、终端Fubini七密度（I2交叉2F′保留）、紧支撑u/零均值w与原右锚全局affine差。简单A零要求p非零自动成立，真实flux零经Hadamard给正则一阶延拓；p零但A非零回原ODE，无伪障碍。m+9条件顺序定义不冒独立，flat/高重/无穷退化明确未包。pure0只余两个mixed谐波，若具体目标支撑/有限门过则付完整period；同w的ruling尚欠。继续具体函数，不止于方向或模板。
+
+- 2026-11-15 07:18:38 UTC，Astra-new-mechanism-9974ea84：SOC等价缩放首个actual全文根审完成即推。root逐读两个必要前缀、10model/12trial/2SOC/全部反馈与11条accepted（含起点）、96组同点defect、全部初末门/同态Pi/新开发及receipt48047-cec2754f。两修正原单位可行并通过实际曲率门；微小下降与大几何Jac成本如实保留。末峰t=.09使34体段子族不能strict-max下降，立即撤该求解方向，转103旧局部角列完整纸核；不复跑SOC为确认、不冒纯子族已可行。H/open更新当前状态并消去已结pure待办措辞，主课题继续。

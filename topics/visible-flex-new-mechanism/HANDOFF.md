@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:13:56 UTC实际pull后已读规则提交：`8d68a39e79eb1f0c976868d69f87d27fa3f2acbb`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:19:01 UTC实际pull后已读规则提交：`ae1b2f2abdb416fd87f62a96f3f2802771da5af6`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -18,11 +18,11 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-**最新已读strip actual43684152565/sourcec594eeb/job132720986739**，完整见notes/strip-reserve-first-actual-20261115.md。必要growth恢复到643875e4，非旧f2bb；同g/b0/163。新9接纳/12双网trial全部strip过，三拒均directκ失败（其他trial门未全打印，非唯一原因断言）。终267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e，ηmax .26652303622182338，降1.07659e−5；κfine57.999995287562953，strip余3.91244e−8，.26未达。终池4415/3920，r1/64000/streak1；10主LP成功、1SOC10.121s无primal，fineJac69.629s主导wall。旧完整数据/失败/耗时在原note，不重复旧优化。
+**最新SOC actual43687834522/sourcef03c4eb/job132731961031已完整读**，见notes/soc-equivalent-scaling-first-actual-20261115.md。一次必要growth恢复643875e4、strip恢复267c41ff（accepted表8/10条均含起点），新10主模型+2SOC=12LP、10真实接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664。ηmax .26652303622182338→.26651100522045557，.26未达；fineκ57.999989440433026、strip余3.88793848e−8。全部新trial门/96组defect/同次dual/初末/同态加密/开发/receipt48047-cec2754f已读；原两次主步仅曲率拒，SOC原单位残差0/1.06e−22且真实双网通过。
 
-**新SOC run43687834522/sourcef03c4eb/job132731961031进行中**，设计notes/frame-metric-spectral-soc-scaling-implementation-20261115.md。helper3b74cc8c/lib6e3ef11a/driverd09cd8b4，v=r_c z、aux=r_c t和正二幂行缩放；准确全可行/最优集双射，恢复原A/b/盒按原1e−7门验收。主LP、全部真实门、同g/b0/163、10s单LP及12LP40值120s不变。24旧输入/98args，growth/strip各一次必要临时恢复，继承实际r/streak，不强迫267或f2bb。全trial门、原单位对偶/残差、同点曲率非线性余差直接stdout，无额外geometry；det=q⁴(λ±κ1)(λ±κ2)/10000，不能把PSD floor当曲率余量。开发仅新小数组，最终公共先check后actual；待实际，不猜更快或改善。
+新SOC只作v=r_c z、aux=r_c t及正二幂行缩放；准确全可行/最优集双射不等于浮点轨迹相同。两个SOC .384/.397秒，活动101.822s、全程720.832s（必要准备606.942s），fineJac66.022s仍主导；12LP计数退出。末池4417/3988、r约1/32000/streak1，原g/b0/163和全部原门保持。det=q⁴(λ±κ1)(λ±κ2)/10000，floor非曲率余量。全部payload仅临时，不能为补日志或求旧hash复跑。
 
-已证现有34体段列：u[36,54)、v[113,129)，B7/B8支撑至.684/.765；固定高度及逐圈Π使外域六jet准确不变，.78尾峰不直接阻挡这些列。不能推有可行下降/必须增维，详见notes/same-g-body-tangent-columns-and-locality-20261115.md。
+**末最大metric峰已移到t=.09，34体段列不能严格降低当前全域max。** 原B7/B8共34列支持[.198,.684]/[.279,.765]，外域六jet严格不变，证明见notes/same-g-body-tangent-columns-and-locality-20261115.md。下一纸核旧自由径向行0–5的102个u/v列+Q153，共103列；拟覆盖入口/体段并保持t≥.765尾域。需核入口权/全部六jet与外域软下界，不向零Jac常量行请求新正floor；固定高度平均速度下界按R59/R60，只在下一必要初始化读实际b，不重已结科学。尚无下降结论。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -56,6 +56,6 @@ R187只排充分窄常态类；R193公开原四系数全正排标准态原八包
 
 ## 6. 保留边界与当前交付
 
-R105/R109/R130真实有限U及完整history保留；非零M时N²/N³不能删。R127若成本闭锥真则有正字符，R145只偶权；完整pure闭锥是否仍真另需原泛函灭pure核，不能从λ+推断。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链及237共同查询/R162原J6成员已结案，不追孤立rank。
+R105/R109/R130真实有限U及完整history保留；非零M时N²/N³不能删。R127若成本闭锥真则有正字符，R145只偶权；R210已判pure闭锥满；不能从full成本λ+推pure障碍。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链及237共同查询/R162原J6成员已结案，不追孤立rank。
 
 R98正states universal P1已排，特殊profile/固定N完整P0+NP1未排。Engman仅S1等变、Freese–Weber另有主曲率不变，不外推一般C²刚性。完整第四、高阶收敛、同g有限连续族、闭嵌入/全时reach/宏观幅度仍欠；持续推进open。
