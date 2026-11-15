@@ -155,3 +155,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 次数分块候选已完整关闭
 [同p768的39个原候选](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)已全部4367整数核验非零；第一轮只是未完成，保基后同格真实完成。该确定候选族不再重做，也不由此排所有格组合；当前改走原1632 Koszul支撑矩阵。
+
+### 当前Koszul来源的原参数出处及外支持执行
+[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已严格与当前1632标准空间接通，17实际行缩放全31单位。当前run43679903558执行同J外1834×1632的精确F31支撑秩/全部外核/36自由像，尚未把有限域结果升到Q；旧23有理核的Koszul成员性仍需原表示。
