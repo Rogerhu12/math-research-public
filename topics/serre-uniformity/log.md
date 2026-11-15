@@ -584,3 +584,9 @@
 - 新核全部A/C相容、56×42残差/unit42逆/KH新全格、一次56LLL与完整幺模见证；直接保原129×280成功出口，旧98拒绝默认完全不复用。
 - 根已通读新core/runner/请求/workflow和父类complete接口，只用静态阅读/AST；R827续接43764014099/job132964965600/sourcefd4cbaea已开始。
 - 本push规则：本地真实pull至94c9eac2461e2b7285413b56639104a4765ea540（2026-11-15T21:34:00.927517+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:41 Asia/Taipei — serre-public-astra-20261115
+- 登记三列run43762388370/sourceca1fe0d5的真实72.164秒结果：known ffa005ae，0/1/271三列2886同余与高6/7项全零；d012=10238bits/3082digits。
+- 28LLL84行含8零D，49不同正候选（baseline已包含）全首(z,row,col)=(0,0,2)准确非零；scan25/四pair限额，未进入完整七点出口，不声称原Mg或425精度失败。
+- 纯IO12Range/13681996B核196小输出，manifest0f2be930/198项、artifact14181118695/afe625bf；大carrier未重哈希。D=d012·a已实施，继续原更深CRT及新消元问题。
+- 本push规则：本地真实pull至6f0f27fbe68908364b4652e343899bd68a55a0c9（2026-11-15T21:41:03.554702+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

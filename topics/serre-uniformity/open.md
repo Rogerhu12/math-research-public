@@ -77,13 +77,15 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R787真实精度增量完整核格已证**：[来源契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891从旧42/56全基H构造满射残差E与unit minor，K H给新完整格/指数ell^(14kd)，与加probe相容。不虚构>430 current；只probe降模够造格，旧Ω复用另须全部1214×14 C降模及准确同一C，旧A/B拒绝还需全部1234×14 A。新core57769B/414fef53、runner51259B/889cdf5e已完整保存pending，含新核格/一次56LLL/原129×280出口；默认不用旧98拒绝。new_current_source/new_checkpoint仍null，真93d3 current发布才激活。
 
-**R815共同分母与三个真实原列**：[首列诊断](notes/R815-projective-first-prefix-ended-and-known-columns.md)58拒、[两列诊断](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)run43755027718的49拒已闭；d01=6485bits/1652同余、known8907fb65/manifestcdf06cf3、scan25四pairs保，非完整Mg分母。真R806小IO确认We1=e271后，[三列方法](notes/R815-original-three-known-columns-projective-reconstruction-method.md)6d12fe13只新增W×已成第二列，不重Wvg/RR；0/1/271三列2886同余与joint d012、高6/7项零准确检查。core515e1555/runner3b573881已激活300min/4pairs，实际新值待读；新候选early改col2/3，最终仍原七点完整交换子/cyclic/Γ。有限失败不否定原Mg或425精度，旧候选拒绝不冒作新三列拒绝。
+**R815准确三列与真实49拒绝**：[首列58拒](notes/R815-projective-first-prefix-ended-and-known-columns.md)、[两列49拒](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)已闭。依据真We1=e271，[三列方法](notes/R815-original-three-known-columns-projective-reconstruction-method.md)只新W×已成第二列；[实际结果](notes/R815-three-known-columns-ended-and-denominator-boundary.md)run43762388370/sourceca1fe0d5、72.164秒/exit2已成0/1/271列、2886原同余、高6/7次零和joint d012=10238bits/3082digits（known ffa005ae）。
+四pairs仍(10,11),(12,13),(15,17),(20,24)，28LLL84行中8个D零，其余49不同正候选全首(z,row,col)=(0,0,2)准确非零；baseline已含其中，未进入七点完整交换子。scan25、8失败、scope未耗尽，仅4pair限额；manifest0f2be930/198项、artifact14181118695/afe625bf。核心已强制D=d012·a，再提出该倍数格不是新信息；改a坐标仅改度量。有限拒绝只排各中心提升矩阵，不否定原Mg、425精度或同D的不同非中心提升。已成第三列/LLL/RR/旧拒绝不重做，最终原七点完整交换子/cyclic/Γ出口保持。
 
-**R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 
-**R825原重数提取已证**：[原结果](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)及[AB入口](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保原89579f79算术、28字段与σ齐次项，仅pending。原E=21固定点+3D，r=y/δy给Jk=R∩(I_(3k+1)+rJ_(k+1))，只适原m0/1mod3；安全K395非实际。P=MaMb/Q=δa·b−a·δb及两图齐次项、272×816全核秩544必须全部投影，不用一般理想商或ambient迹；真实I/P/Q/D待。全SHA见归档。
+**R814/R825的完整原重数接口已证**：[R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)保完整C=20cusps、N=im[H,ΓH+MgH′]、P=(N:_R C)和sqrtI=(I:_R P)，m0不删；原六E=20cusps+P0+3D。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)保原m0/1mod3、r=y/δy、Jk=R∩(I_(3k+1)+rJ_(k+1))，安全K395非实际。
+[AB消费者](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保持89579f79/28字段/双图齐次项，P=MaMb/Q=δa·b−a·δb与272×816全核rank544全部投影，不用ambient迹或一般理想商；仍pending，无真实I/P/Q/D/eta/height。旧全部界、SHA与公式保[压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
 
-**R820小有限代数入口已证且实际完成**：[完整实际结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1、36.411901553秒；原两图rank20/colength20，292步/5380非monic，只有d271=20，600ZIP/598manifest/590stage/289输入全核。原273个S3 q0行/F20值/两锚点及Z^-eps规则保留，C直接供R814，不重算或等大导子。
+**R820实际两图C已成**：[完整结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1，rank/colength20，292步/5380非monic/d27120，600ZIP/598manifest/590stage/289输入全核。原273行/F20/两锚点/Z^-eps不改，不重算。
+
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
