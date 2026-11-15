@@ -16,7 +16,7 @@
 
 [138实际R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)已结清全32批/256接受/358trial/全部normal及916字节身份，末W4.963213789290057/radius3.814697265625e−7，全finalfalse。同调用直接救回0，142从真末父改全9方向形成；原外8×20/内12×20和全部final保持。
 
-[R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与[helper及接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)现已全文读后发布：全9方向原complex-step重评、完整12×9增广QR及原相对参数度量下块G，全部方向/原试探门保留。旧J乘Q不恢复旧列丢失信息；直接动作仍有scalar/2×2链/终端相消误差，有限QR不冒准确正交。直接/基模型/旧轴动作分别保留，实际曲线原点导数含目标动作不一致修正。142必须据R307真实138父和原责任独立接线，不改138或新增一致性门。
+[R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与[helper及接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)现已全文读后发布：全9方向原complex-step重评、完整12×9增广QR及原相对参数度量下块G，全部方向/原试探门保留。旧J乘Q不恢复旧列丢失信息；直接动作仍有scalar/2×2链/终端相消误差，有限QR不冒准确正交。直接/基模型/旧轴动作分别保留，实际曲线原点导数含目标动作不一致修正。[142完整入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)已按R307真实138末p和radius3.814697265625e−7独立发布：93+5pins/父29当前31，原R299 d4c9不改，一批原8方向/最多80额外complex调用，所有基/直接/旧轴动作和normal原值无损分段。原8×20/12×20/FD/Arb/453圆及全部final保留；q′=d仍需真实目标动作匹配，不新增一致性或精度门，读真实一批后继续。
 
 ## 2. 真正接受的非零完整112场
 
@@ -48,7 +48,7 @@
 
 [R309实际130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)现在完整结清七份返回：7warm/7freshFD、33trial/26拒，全部native/fullDN仍false，末physical .007106735019150112。11:38:40规则真实变化exit77，第八完整结果未知，不补造开始/接受/FD。最近拒绝第2/3/5为未选MID472、第4为LEFT463，末批还含selected MID471；selected MID483全步也负而全线性slack可行，原真实非线性门不能省。全部试探、QP后验大值、FD、原pair和七摘要字节身份见正文，不跨W相减。
 
-后继独立35查询保原33再加MID472与LEFT463全部原2048角。新LEFT463须capture463及node463，B局部支持变463–488/26端点/8791local；MID472已有capture。原C471–482/4059、完整outside/236036自由度、全部A/AT/B/BT/17trial/原两RMS/域/FD保持。从可恢复98另起轨迹，不冒130已删末态接续；已有selected非线性失败及有限512工作集/200duals精度仍未解决，新增两点不保证更大接受步。root继续实际源/完整接线。
+独立35保原33加MID472/LEFT463全部2048角，capture463/node463及26端点/8791local，原C4059/outside/236036自由度/A/AT/B/BT/17trial/两RMS/域/FD保持。真实98另起；已选非线性失败、512工作集/200duals精度仍未解决，新增两点不保证更大接受步。
 
 [141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)已按上述完整支持实际发布，run43712613111/compute132807257922/sourcea7ce55798404fec8fb3638c0fbf083250c5363b2，12:11:58起且science在跑；不得把入口发布当新接受结果。
 

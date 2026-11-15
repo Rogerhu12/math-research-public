@@ -448,3 +448,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — Request140新R305算子同现场final实际入口
 
 [140接口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)及五件全文/相对137完整diff已读后发布：f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，原47+新5共52pin逐字核；原owner两metadata逆回不变，原数值循环/全部范围及原预算保留。修实际137首参数/全stderr与原watcher，完整stage→112boundary→混合338及独立audit仅同新真实现场，native/fullDN仍false。仅源/AST/Node/Bash/身份核，无本地科学或C++；push直接公开Actions，R313已推8c173e33，旧137不改。
+
+## 2026-11-15 /root — Request142完整九方向响应实际入口
+
+[142完整接口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)七件及五完整diff已读发布，5acf5b02/f3a236a3/5c482ac3/recipe29bf38f8/request84f03b2e/wff6a49341；root核93+5原pin全保、父29当前31、真实138字词和原slope起全尾逐字同，仅AST/元数据。全九新基/实际方向complex动作及原G、完整normal传输保留，原R299与所有真实门/末检查不变；一批8方向后按实际继续，无精度/非零场预填。140已run43713195661/job132809057379/source242c1f02，在准备actual91；双README仍21bd/bff。
