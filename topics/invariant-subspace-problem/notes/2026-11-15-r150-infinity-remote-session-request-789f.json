@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "18221f60711a89ba1a617bcd43def42bd1f987b0",
+  "rulesReadAtCommit": "ab94f6e164c54e008445119277d62086c50de3cc",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -554,6 +554,17 @@
       ],
       "timeoutSeconds": 30,
       "receiptPath": "{work}/native-flint-build-inventory/native-flint-build-inventory-receipt.json"
+    },
+    {
+      "id": "native-flint-system-development-setup",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-native-flint-system-development-setup-789f.py",
+      "scriptSHA256": "d430eade513977bc9c31456e5e16498089b28afab126bd0c4cb3848b552312e4",
+      "argv": [
+        "--out",
+        "{work}/native-flint-system-development-setup"
+      ],
+      "timeoutSeconds": 280,
+      "receiptPath": "{work}/native-flint-system-development-setup/native-flint-system-development-setup-receipt.json"
     }
   ]
 }
