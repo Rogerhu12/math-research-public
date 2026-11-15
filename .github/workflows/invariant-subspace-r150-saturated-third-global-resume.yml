@@ -8,7 +8,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: isp-r150-saturated-third-global-lift-789f
+  group: isp-r150-saturated-third-global-checkpoint-43672221411
   cancel-in-progress: false
 
 jobs:
@@ -58,28 +58,28 @@ jobs:
           python-version: "3.12"
       - name: Bind the six actual sources and complete original mod31six scope
         run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py --mode source
-      - name: Restore the complete actual global checkpoint from run 43670796654
+      - name: Restore the complete actual global checkpoint from run 43672221411
         uses: actions/download-artifact@v4
         with:
-          name: isp-r150-saturated-third-global-recovery-43670796654-1
-          run-id: 43670796654
+          name: isp-r150-saturated-third-global-recovery-43672221411-1
+          run-id: 43672221411
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/isp-r150-global-resume-recovery-download
       - name: Restore the already sealed global results without changing mathematical sources
         uses: actions/download-artifact@v4
         with:
-          name: isp-r150-saturated-third-global-results-43670796654-1
-          run-id: 43670796654
+          name: isp-r150-saturated-third-global-results-43672221411-1
+          run-id: 43672221411
           github-token: ${{ github.token }}
           path: ${{ runner.temp }}/isp-r150-global-resume-results-download
-      - name: Reuse all 314 actual recovery files and their original input hashes
+      - name: Reuse all 477 actual recovery files and their original input hashes
         run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py
       - name: Install the exact finite-field dependency and record the compiler
         run: |
           python3 -m pip install python-flint==0.9.0 numpy==2.2.6
           python3 -m pip show python-flint numpy > "$ISP_SAT_GLOBAL_OUT/results/python-runtime-versions.txt"
           g++ --version > "$ISP_SAT_GLOBAL_OUT/results/compiler-version.txt"
-      - name: Resume after the actual five-L4 original identities and finish all nine targets
+      - name: Finish the last three actual original17 stages from the33-stage checkpoint
         id: exact
         continue-on-error: true
         timeout-minutes: 40
