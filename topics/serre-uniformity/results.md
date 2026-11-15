@@ -369,3 +369,5 @@
 - **R799（公开准确短基已完成）**：[原七、八次短基及六次缺尾](results/R799-certified-original-power7-power8-short-bases.md)。run43695571499/source2ebb10bc，555.818秒；新V7/V8真秩1778/2050，新minor534/148 mod739，原锚点0/1/73，完整40ξ/20t。只补V6 q82..108，旧前缀不重算；5347输出/5339阶段及ZIP全SHA已核，cert5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b。未求原函数/极除子/η/高度。
 
 - **R797（公开准确前缀已完成）**：[五条原低次数映射的Laurent输入](results/R797-certified-five-original-Laurent-prefixes.md)。run43693453831/source05bf2b2b，2106.946833秒；原五映射N170/172/176/193/196，全部280Q坐标、真实非零κ/cusp e1、相位及逐阶ODE准确通过。930输出/922阶段和ZIP全SHA已核，certf41ee0a2f5e834fdd89823ddd3fc60df8cd309cd7ffb96aefa511b81068f91ce。各κ只到N−1，后继只补一次终端幂；未求A/B、极除子、η或高度。
+
+- **R803（已证明）**：[原单映射复用与混合Hodge比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)。原694维M6的42项注入、四条实际补行、五个混合三积及一个Q块有限右端；准确x比/群律给五方向函数，真Norm常数、三同源、符号主函数与原R794矩阵全保。确定符号降低普通幂至8，最高N202尚非已成尾；全局约分/极除子、二挠刚性化和实际高度仍未计算。

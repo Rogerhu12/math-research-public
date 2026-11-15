@@ -554,3 +554,8 @@
 - R801仅长尾核心/公开wrapper/实际请求已启用，coreba9c52a3、wrapper11bdf084；只新增V6[109,142)、V7[96,176)、V8[109,196)，原recipe与准确消失阶闭包，严格区间乘法、stride79逐次约化、全局相位、mod739及可续断点保持。
 - exact全文核核心，ordinary真实IO核五组11/3457/1513/5343/153文件与完整来源链；旧p1..5依赖恰全146/418/690/962/1234，所有锚点二/三乘可别名原行。公开audit已AST核核心；本地仅IO/AST，无新数学运行。
 - 新增课题外workflow serre-p41-original-long-tail-extension.yml 执行该计算，显式blob:none、只读权限、一日断点artifact；根按真实回执登记结果，未自动推raw或执行未检查规则的发布pull。R787继续，主目标OPEN。
+
+## 2026-11-15 18:02 Asia/Taipei · serre-public-astra-20261115
+- R803完整纸面证明与执行契约登记：原M6维694/42项单射，四条补行逐recipe读真实R775，五混合项只复用旧56张量；一Q块有限右端/full1680坐标认证，不重算旧H³或五套Laurent。
+- root全文核且ordinary交叉核；群律/x比、真Norm运输常数、原三同源/R794基变换与正负号主函数全部保留。符号路线最高m8/N202只是已证需求，未预填新增尾、极除子、η或高度；proof1ef5f2a2、methodb1e71dfc。
+- H逐字归档并压缩。R801实际run43701282817/job132772758246正在新增尾，R787仍in_progress；继续R804整数循环复用和全局除子接口，主目标OPEN。
