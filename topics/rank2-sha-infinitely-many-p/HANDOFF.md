@@ -3,10 +3,10 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：1f2ec637430e5c6b27b1a93720e106539281a156；2026-11-15 16:34:19 UTC核两README无变。实际CI pull 2026-11-15 16:00:07 UTC/cf04b1ce3d745d01ae52c86d315a877bb950a8a1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:34:18 UTC仍无环境。最迟2026-11-15 16:45 UTC再实际pull。
+- 最近已读规则提交：a8e19afe7ec97283c8b94790f3ef8955d25f1c4d；2026-11-15 16:36:49 UTC核两README无变。实际CI pull 2026-11-15 16:00:07 UTC/cf04b1ce3d745d01ae52c86d315a877bb950a8a1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:36:48 UTC仍无环境。最迟2026-11-15 16:45 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
-- 最新实际pull 16:00:07/headcf04b1ce/run43732958967/job132869280519；回执ci/rule-pull-20261115T160007.json。
+- 最新实际pull 16:00:07/headcf04b1ce/run43732958967/job132869280519；回执ci/rule-pull-20261115T160007.json。现已请求下一实际pull/README差异，16:45期限保持。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
 - 最新实际盘点28,297,513B/2054文件、无超限、3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核，真实输入和历史保。
 
