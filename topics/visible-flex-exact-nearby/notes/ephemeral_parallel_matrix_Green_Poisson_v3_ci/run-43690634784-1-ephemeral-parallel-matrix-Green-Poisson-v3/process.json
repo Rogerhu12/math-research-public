@@ -1,0 +1,301 @@
+{
+  "kind": "actual_public_ephemeral_parallel_matrix_Green_Poisson_process_v3",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43690634784",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "8e962541b9bb6f5fb44f3aa2e8a8975045ac7c3e",
+  "worker_source_sha256": "c06a57582a06c76844cf82dc3dfb396c78904df4ef79941bb56f11fa6aee7cc6",
+  "started_utc": "2026-11-15T07:38:19.350836+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T07:39:00.515600+00:00",
+      "before": "b976710c9e9a8f4414f987a14642d8b6bece9743",
+      "after": "20cccde13e3dfb28b9971f29be669724d25b9701",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T07:39:23.553298+00:00",
+      "before": "20cccde13e3dfb28b9971f29be669724d25b9701",
+      "after": "20cccde13e3dfb28b9971f29be669724d25b9701",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicit_readme_review_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "one_ephemeral_complete_consumer",
+  "complete_matrix_run": "43654510038",
+  "complete_matrix_attempt": "1",
+  "original_targets_F_C_source_Grams_output_Grams_and_scalar_ports_recomputed": 0,
+  "complete_finite193_directional_two_boundary_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "complete_rows_reused_despite_later_publication_failure": true,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "new_recomputable_repository_data": false,
+  "new_Release_uploads": false,
+  "new_Actions_artifacts": false,
+  "actual_original_backwards_run": "43672023585",
+  "actual_original_cap_run": "43671537267",
+  "original_complete_scientific_rows_recomputed": 0,
+  "new_arithmetic_bits": 192,
+  "maximum_compute_processes": 4,
+  "actual_available_cpu_count": 4,
+  "conclusion_scope": "finite193 and true97 Poisson; full high inverse remains separate",
+  "new_product_error_method": "full signed output-side Gram; all positive weights and Gram scales are exact arbitrary-exponent dyadics",
+  "historical_hydration": {
+    "fixed_public_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+    "exact_files": 369,
+    "historical_files": 199,
+    "full_temporary_receipt_sha256": "16bf1c46201a27e45c82ec406b48f0b0f7f5a536c78725c90f9e2cba0c960b46",
+    "restored_into_checkout": false,
+    "old_mathematics_executed": false
+  },
+  "actual_previous_unpersisted_arithmetic_to_redo": {
+    "original_run_id": "43681612825",
+    "actual_returncode": 1,
+    "original_source_sha256": "f33345d1ab2500fd3811692311ce931606e389cf3c8ef508925d225748565190",
+    "actual_process_sha256": "0b2e08152feee47b47666e2bc03a1b3e535e2389891e26a0674014d3a2fef4ba",
+    "actual_summary_sha256": "770a61fa89902954178cf1a2bb9a347312232545e434685f9e332a2ce149b8db",
+    "exact_final_complete_files": {
+      "future": 4226,
+      "past": 1800,
+      "product": 4331,
+      "ports": 5970,
+      "groups": 0
+    },
+    "lost_new_future_rows": 2340,
+    "lost_new_past_rows": 1800,
+    "lost_new_product_rows": 4331,
+    "lost_new_canonical_ports": 5970,
+    "lost_complete_local_groups": 0,
+    "old1886_recomputed": 0,
+    "old_final_phase_receipt_hashes": {
+      "future": {
+        "arrays_bound_by_each_original_exact_receipt": true,
+        "complete_state_files": 4226,
+        "ordered_exact_state_receipts_sha256": "2dcc5217c6d3ebad9594f6db6effff61f21a066a19366e2aefbdab986609251f",
+        "persisted_recomputable_output": false
+      },
+      "groups": {
+        "arrays_bound_by_each_original_exact_receipt": true,
+        "complete_state_files": 0,
+        "ordered_exact_state_receipts_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "persisted_recomputable_output": false
+      },
+      "past": {
+        "arrays_bound_by_each_original_exact_receipt": true,
+        "complete_state_files": 1800,
+        "ordered_exact_state_receipts_sha256": "b6a84164447535498ce4065bbf171e2a34f2954ca5f9889a0c9e64295618ee75",
+        "persisted_recomputable_output": false
+      },
+      "ports": {
+        "arrays_bound_by_each_original_exact_receipt": true,
+        "complete_state_files": 5970,
+        "ordered_exact_state_receipts_sha256": "29a66ef939c4095a04cb71ec4acd4b3e293647679ba35e6064699fbfa9263a8a",
+        "persisted_recomputable_output": false
+      },
+      "product": {
+        "arrays_bound_by_each_original_exact_receipt": true,
+        "complete_state_files": 4331,
+        "ordered_exact_state_receipts_sha256": "c94fdfb1461c4469842bf6ee3f52e911f5ad9a7e6e15a0aa616ecba171abeafd",
+        "persisted_recomputable_output": false
+      }
+    },
+    "temporary_data_not_available_after_original_job": true,
+    "this_is_not_zero_repeated_temporary_arithmetic": true
+  },
+  "input_manifest_sha256": "637c7bdf2e91f993421d56277fcc2c569e25b76032090e3f664661edd99adc6f",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "python_version": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "all_pinned_inputs_verified": true,
+  "immutable_scientific_copy": "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v3-work/science",
+  "actual_reviewed_readme_sha256": {
+    "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "20cccde13e3dfb28b9971f29be669724d25b9701",
+  "exact_old_future_prefix": {
+    "run_id": "43672023585",
+    "run_attempt": "1",
+    "artifact_id": 14146873569,
+    "original_zip_sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773",
+    "native_sha256": "09df7651d1fbef04eb0d67ab5c762a29d4624ad2610015de1254496b70dce1e9",
+    "process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809",
+    "actual_complete_rows": 1886,
+    "old_successful_rows_recomputed": 0,
+    "actual_original_failure": {
+      "type": "RuntimeError",
+      "message": "new unread repository rules need their actual diff read: README.md"
+    },
+    "actual_original_gates": [
+      {
+        "name": "actual_complete5970_same_F_matrix_cover_and_original_four_rows",
+        "passed": true
+      },
+      {
+        "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+        "passed": true
+      },
+      {
+        "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+        "passed": true
+      },
+      {
+        "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+        "passed": true
+      },
+      {
+        "name": "original_complete_true_ordinary_L2_Green_kernel_and_process",
+        "passed": true
+      },
+      {
+        "name": "all5970_true_individual_weighted_jump_gains_and_actual_public_process",
+        "passed": true
+      },
+      {
+        "name": "complete_true97_boundary_including_mean_and_exact_nominal_matrix",
+        "passed": true
+      }
+    ],
+    "latest_original_readme_check": [
+      {
+        "time": "2026-11-15T04:49:05.079498+00:00",
+        "before": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+        "after": "d45e811152a7bfad8b59a5a2ca3aca7fc92b4ba2",
+        "changed": true,
+        "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+        "actual_diff_bytes": 5833,
+        "actual_diff_sha256": "dbb482ecb4c8d73b593202e0912e9697870c3f36ccabadd5beb02478c2e54241"
+      }
+    ]
+  },
+  "snapshot_utc": "2026-11-15T07:39:23.602242+00:00",
+  "wall_seconds": 64.25205441999998,
+  "actual_temporary_progress": {},
+  "original_process_receipts": [
+    {
+      "file": "original-all5970-impulse-artifact-process.json",
+      "bytes": 8566,
+      "sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
+    },
+    {
+      "file": "original-complete-L2-kernel-process.json",
+      "bytes": 8264,
+      "sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "file": "original-complete-finite193-Green-process.json",
+      "bytes": 8548,
+      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "file": "original-complete5970-matrix-process.json",
+      "bytes": 24249,
+      "sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "file": "original-complete5970-projector-process.json",
+      "bytes": 4269,
+      "sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "file": "original-complete97-weighted-boundary-process.json",
+      "bytes": 13666,
+      "sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "file": "original-rule-failure-process.json",
+      "bytes": 69351,
+      "sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+    }
+  ],
+  "actual_original_artifact_archives": [
+    {
+      "run_id": "43594139132",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-cut-projector-prepared-43594139132-1",
+      "artifact_id": 14113777182,
+      "original_zip_bytes": 1258246,
+      "original_zip_sha256": "8d27c78358dfcf7196bf71e3be3d7e2caae9e6ea4c4171c1dcf13ddbf0af9b25",
+      "actual_process_sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "run_id": "43594139132",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-5970-projectors-43594139132-1",
+      "artifact_id": 14116108990,
+      "original_zip_bytes": 3813407,
+      "original_zip_sha256": "ff371eb320491b179265a90c6ed19be318c2930f8ed1c48f861f1bb1542a551a",
+      "actual_process_sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "run_id": "43601964129",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-cut-Green-complete-43601964129-1",
+      "artifact_id": 14117096043,
+      "original_zip_bytes": 17919531,
+      "original_zip_sha256": "86c48eb560961d3ac97e45b8de97c301f6c5ee3d6455a946a0528cda3bd68d84",
+      "actual_process_sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "run_id": "43633074696",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-finite193-L2-Green-kernel-43633074696-1",
+      "artifact_id": 14128549530,
+      "original_zip_bytes": 17615189,
+      "original_zip_sha256": "551a889edaa4a4c59a3af66d56b195b783bad1cb1482e644d4134b4783dd86ae",
+      "actual_process_sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "run_id": "43649423561",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-cached-interface-impulse-43649423561-1",
+      "artifact_id": 14135173447,
+      "original_zip_bytes": 13683038,
+      "original_zip_sha256": "ea4e7f5f7eecb82ed5861af8631c500fa298e4a0b7306932a20c03f3259cb632",
+      "actual_process_sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
+    },
+    {
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-5970-finish-43654510038-1",
+      "artifact_id": 14144756174,
+      "original_zip_bytes": 45347805,
+      "original_zip_sha256": "49d9e622aa059f4f9ce059f1e352bfda6fe5c57dc2943f60e25795b2051dbebd",
+      "actual_process_sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "run_id": "43672023585",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-directional-matrix-Green-backward-43672023585-1",
+      "artifact_id": 14146873569,
+      "original_zip_bytes": 286134725,
+      "original_zip_sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773",
+      "actual_process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+    }
+  ],
+  "new_output_policy": "only scripts, parameters, run IDs, output SHA and true small conclusions; no new data artifact"
+}
