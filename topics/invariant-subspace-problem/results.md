@@ -537,3 +537,5 @@
 - **旧660+972低来源与当前无穷远标准Koszul头等同。** [保成本来源证明](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)按真实成本齐次化，NN常单位块及低混合常单位换基在∞仍可逆；补回原来源支撑并保行缩放。当前17缩放已核全为31单位，不偷用有限参数秩，也不预称现23核属于该span。
 
 - **N原逆芽12.5主指数的真实障碍。** [完整负临界点证明](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)沿原零逆支到唯一负实简单临界值，导数矛盾给不可移除障碍；原最高位准确给−logRψ≥12.5d³−1.25d²+O(d+m)。不把其它分支的临界值混入，不排次阶改进，也不把本条用于Y或普通两费。
+
+- **N/Y原逆芽的次阶圆盘放大与强头同窗。** [全证明](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)保持ε=e^-d³/4，τsharp准确为12.5d³−.75d²−1.5d+低阶项，两模型真圆盘至少放大e^(d²/2)。真实输入列权、扩头h−1全演算及n+2h+R<Q*同时保留；窗口可容纳κ的量级提高，但原两费比较仍须证明。
