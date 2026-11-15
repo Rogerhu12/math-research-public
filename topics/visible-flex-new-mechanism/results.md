@@ -329,3 +329,5 @@
 - [R157：D0一般pure九项恒等与34维pure零核](results/R157-general-pure-D0-identity-and-34-dimensional-zero-pure-kernel.md) — actual43659795254只消费R151九原基/存储代表，D0新402项原差fresh零，九Q系数原式完整保存。E_D=R−2+span(G³,J,D0)恰43维、pure像9、核34；G/J/D0全部轨道pure入响应，完整新商仍独立。0旧40/31/新采样，0.138s/RSS34.281；U≥239与lineality/query237不变，不另开平移链。
 
 - [R159：pure消去后balanced mixed忠实决定完整成本](results/R159-balanced-mixed-faithfulness-after-pure-cancellation.md) — 完整两槽K/L令B=2K−Lᵀ；pure恒零时V=B(f²,f²−φ²)，其mixed(2,2)恰−B(qbar²,q²)/16。有限实profile子空间复极化证明该投影单射，故先消pure后的完整成员问题等价于balanced原差。R151既有31条关系直接给响应核31真基，R157已知核34忠实保34；不重算旧列/关系或新采样。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B，二者合起来忠实；不假定输入相位保持成本锥或授新signed control。
+
+- [R160：J6一般pure六列身份与唯一balanced入口](results/R160-general-pure-J6-identity-and-balanced-mixed-entry.md) — actual43660884663/sourceb41c6f13只消费R151九旧原基和代表，准确证J6[-4]=K6[-4]，K6=−C0/64−C88/64−C41/128−C73/32−5C81/128+C193/256。62项新目标与307项fresh原差，准确Q零、无cycle；0.1905s/RSS57.992MiB。故J6及整个正仿射轨道pure可付，H6=J6−K6真实pure零；不新增维数或lineality，不认c0零。R159使后继只需一条ΞH6原差，若零才升级完整身份；旧40/31、mixed/profile/forcing均零重算。
