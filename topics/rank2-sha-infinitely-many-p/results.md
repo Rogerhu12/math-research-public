@@ -505,3 +505,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R797**：[原零常数charge的移动因子、六十四格与完整三次几何门](results/R797-original-zero-constant-charge-moving-factor-and-complete-cubic-gates.md)。r2余支q=Y qtilde的H度0/1/2及移动/零点根全保，原50+13+1 mask和每charge帽准确给出；三次全十九角给κ≥3χ−18≥9+6z。实际接触右端保−t^z/−d^ct^z及全部H未知列；公开producer随文提交，未预认全p排除。
 
 - **R799**：[原常数charge非零的全部三次强窗全素数排除](results/R799-original-all-cubic-nonzero-constant-charge-windows-excluded.md)。R792的r2/3/4,k0及同p/h关系联旧单位子式排全部大h；准确κ把有限部分压到三原九列系统，公开各rank9/aug10。因此q0非零的整个b=b0=3强窗不存在，覆盖所有允许ell/mq；此支必须b≥4，零常数支另保。
+
+- **R798**：[原B0半周期的完整两型与物理E深二阶来源](results/R798-original-halfperiod-two-types-and-e-depth-second-source.md)。全Q(ω)二挠点/CM13计算付原绝对PB：型五恰两arith，primitive3整条消去；型四恰三维X³+ω块。原E深Z²准确投到此块及三个指定负二值，实际向量和负二非零仍须另付；whole算子、原unit域和全中央补域保持。

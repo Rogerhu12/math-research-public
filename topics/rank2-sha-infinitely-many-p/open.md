@@ -111,6 +111,8 @@ R796全六变量canonical半周期精确相消得h_W=H_Ye0，故原E/J/q等Y⊥�
 
 R793原z°=Z0−4W/17整化Lz=(17δ/2)z°，Norm2808/完整中心/旧ray/Θ锚付全三态偶核λr；W⊥框(z°,Rz)独立偶深同q。固定D°经J/z双返为λ2NβN Φ̃_N，U300和额外Yunit/log修正保。真正第四块中的J/E两门2×2表用同W观察，两列原T、两行J源；两个E门、逆Y与Wdeep补不能删，z°不免费交换Qα。
 
+R798已付原B0完整halfperiod投影：型五rank2恰两arith、primitive3整条杀掉，H5=−ωA5³；型四rank3/charX³+ω，H4=−A4³，无μ6线。原Edeep Z²来源准确λ2NΩ² P4F2，三负二值未赋非零，仍保全W外部。公开run43738922048/job132887560988及全Q(ω)矩阵/producer/hash见原证，不能将混合unit门穿投影。
+
 ### 深支：有限profile的实际接触与指定normal
 
 保原M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角和首p²/p³。R741 FH2 Smith和R743缩放M秩不代全有序旗标；R738计数只到h>3κ/2，未覆盖9κ/8。
