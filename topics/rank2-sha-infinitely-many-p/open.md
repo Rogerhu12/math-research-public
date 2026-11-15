@@ -259,3 +259,6 @@ R619在原整坐标付X_s=c_p及全部X_(s+ap)=0(a≥1、指标<L)，H在整个n
 R622第二规范连接L₂=∂X+α1+pα2X^(p−1)在p^-1<r≤r+<1上以完整Neumann逆唯一解，r+>R₂^d；其原点值仍为同一j，j0 iff H₂延拓到该外盘。全第二Newton必须保W_k(α2/α1^p)，所有W_k∈1+p^(p−1)O；首差p^p b^L C_X/γ^p准确复现R619，删权新值未赋为零。裸F_ps与a₂只可连同来源同步改规范。
 R623在R₂≤R≤R+<R_E上付两Gaussian完整野域degree p²，原sigma只在对角degree p子域，旧只添E1域已不含σ。七原积分在整个p²域仍独立，含塔P乘任意两Gaussian仍准确旧S/闭非Tate。R622准确原式又给两个中央Π0U_m无论j是否0都属于对角域，域成员身份不检测原j，不能计两个新局部积分坐标。去Gaussian普通部分全素位O(k)成本已付，但不能代原九格主预算。
 **R624/625继续：** 两完整中央/低残差/Wilson真实联立及原Frobenius第二Gaussian相消；全部D/k来源门仍保，非中央unit不代原j非零。
+
+
+- [原theta幂的Beta表达与直接Nikishin范围](notes/2026-11-14-original-beta-powers-and-nikishin-scope.md)：完整割线虚部为正振幅乘sin(17nπM/3)，保原q角后仍反复变号；不能直接套定号Cauchy来源的正规性，未排别种AT证明，也未付原d2。

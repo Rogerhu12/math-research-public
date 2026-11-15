@@ -81,3 +81,6 @@
 
 
 - [R623：第二盘外的真实两Gaussian野域与原对角来源](../results/R623-original-two-gaussian-wild-field-and-diagonal-source.md)：完整两根扩张准确p²而原sigma仅占对角p域，旧只添第一根域已不含sigma；七原积分在整个外盘野域仍独立。两中央投影原函数无论j是否零已属对角域，不能算新局部积分坐标；普通余项线性成本与含塔原S边界分清，未替换原九格预算。
+
+
+- [原theta幂的Beta表达与直接Nikishin范围](2026-11-14-original-beta-powers-and-nikishin-scope.md)：完整割线虚部为正振幅乘sin(17nπM/3)，保原q角后仍反复变号；不能直接套定号Cauchy来源的正规性，未排别种AT证明，也未付原d2。
