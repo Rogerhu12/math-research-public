@@ -64,6 +64,8 @@ R303保移动左尾与完整分子，证明全U的q_{u_c}∈Pol≤9；十条H6×
 
 R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u‴²，D9/D8皆有保原history的积分式。R9=−Ktop/1080和R8=−NKtop/9720为pure/T核三角单位，九矩与两层可真11观测联付。若已清一个母的全平移，同几何D9=D8=0，全部其他母次数≤7。
 
+[R310](results/R310-full-self-direction-invisible-to-all-translates-of-even-profiles.md)给明确新KJ=64B_P(χ34−3χ32)：pure/T9全零，完整q_u=J(u)=∫u′u″u‴²，无C²余项。Euler六jet+真实紧变分证明有非zero母，even母却在全部允许平移/幅/宽都J0。故全self像至少11维，固定even母全平移不是universal忠实query；九矩/十even母查询加一个指定非even母查询可真20观测联控，不冒全Q。
+
 下一只处理真正未付的全Q shape兼容/低层，优先识别同母观测看不见的完整方向及与新首阶机制实际相关的控制。分别满射不能相加；有限控制不能恢复R304被排类。
 
 ### 完整period与同一w joint仍须真正求解

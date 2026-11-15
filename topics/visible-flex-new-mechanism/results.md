@@ -327,3 +327,10 @@ D8是有限原查询定义的全U线性观测；D9(NV)=0、D8(NV)=9D9(V)。R8=�
 [R311 完整证明](results/R311-continuous-rank-one-profile-orbits-are-rigid-under-the-complete-low-order-gates.md)指出R304的原恢复/Green/annihilator都是关于实际(φ,D)的逐参数身份，不含轨道参数导数。对φτ=Σci(τ)ui、固定f=Σaiui，旧面积与三个directed行加E−3必要门直接迫Σ(ai²−ci²)²Ci=0，故每ci²=ai²；连通性和初值迫ci≡ai，ai=0也不能激活。不需全角平均、闭曲线或三角参数。
 
 原三矩并非这项刚性的来源：N≥4个非零活动系数、v∈ker实际3×N矩阵非零时，ci(t)=sgn(ai)√(ai²+tv_i)给准确光滑非恒定三矩轨道，却被完整四阶门截断。已正交二维平面改写椭圆也不添实际状态。因此同端芽固定rank-one包空间仅换圆为非圆/更多幅值坐标无效；一般重叠、随参数改母形离开固定空间及不同合法端芽仍未判断。纸证，无新执行。
+
+
+## R310：完整 self 的一个非零奇反射方向，全部 even 母平移查询都不可见
+
+[R310 完整证明](results/R310-full-self-direction-invisible-to-all-translates-of-even-profiles.md)用原c_(χ34−3χ32)=D³(u′u″)/32−D²(u″²)/64，与真实P左常尾配完整query，得KJ=64B_P(χ34−3χ32) pure0/T9零、q_u(KJ)=∫u′u″u‴²，无剩余C²项。保全部右锚与非零c二次矩，不将T0推广到任意E8。
+
+Euler六jet在cutoff×(y+y²/2+y6/720)处为−2，真紧变分严格给J≠0母，未求积。J平移不变、反射变号，故任意even母的全部中心/幅/正宽皆盲。对R303十维同母模先在even母全平移评价，再用非even见证，证全self函数像≥11；十母查询加指定非even母一点与九矩/pure可真实三角联付。非整个Q或joint可解，不能复活R304/R311被排类。
