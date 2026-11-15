@@ -56,3 +56,5 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 
 - 2026-11-15 22:19:14 UTC PG4737325d解析独推：完整A0/A1→V0/P0/W1/3(b)/W4/3(p)，MI原两mean逆在负窗先增一导，K−/logK无|mean|，H1平滑验证同一双侧逆。
 - 不运行新数学；只selected同对象，CG actual未替代且全Ei/retained/Schur未付。旧完成索引压缩前页保095ca同H/open，原证全保；281c338cd72d4c5e0694054a35a42c726b1193f8两README空diff。
+
+- 2026-11-15 22:19:39 UTC 依根规4把PG公式定界符统一为美元符号；全文数学不变，最终abf8b833/14865/044d95c8，替代初版196335a0，旧blob保history。tail完整数学核通过；ed19cc25db300532723c230c8bcfa22b0ec40aa7两README空diff。

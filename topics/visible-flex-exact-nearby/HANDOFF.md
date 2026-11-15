@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 22:19:14 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 22:19:39 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 21:32:52定时CLI失败，下一≤22:32。原SN真pull22:07:49.265932→03c54316ed25faac602e66d591ce5603d3f6105d，两README空diff；ref读取不冒真pull。
-最近只读README核：281c338cd72d4c5e0694054a35a42c726b1193f8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ed19cc25db300532723c230c8bcfa22b0ec40aa7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页/恢复/原球/域/单位/mean/失败lost保095ca270433abd339346790ffa35e4205b08b000同H/open/results/log，递归ebf4及原档；全部未付义务和成功禁重不变。
 
 ## 同一对象和真正完成标准
@@ -28,7 +28,7 @@ WY ebf87135：同Js左逆→Jσ(u,z)=uσ+zσ→真U_X逆；root Λ右置，Λ^-1
 SJccaaa1b1解析已推ac0777；fixedν0/Markov/D2 K3/Srr/Zr/两mean/finite/真dr/jumps完整保proof。已部署SCIdfcf40ab/worker99394e09/manifest31602b83/flow193206b2；48pins(30小+18原native)/8AST/26门，原4archives仅临时恢复，旧math0。唯一push run待识别，实际尚待，phase监；全incoming/Schur/真PDE独立。
 KLdc48bdb4/KLA2ac6e803，原43766439345/1 child0/16成功锁；14pins/2AST/11math/10全copy/14球及SCI/preGit保proof。完整R0相关消去，same terminal-Ai四phase同模KΛ<10.611、公共numerator原球保存。只WX forward+off-bump根短费用，ng0除一次；右Λ^-1TF^-1S^-1/两mean/finite保，optional left未算。
 TF652a9a2c/TFA6e11a160，原43766881076/1 child0/14成功锁；12pins/3AST/9math/7全copy/20标量及SCI/preGit保proof。完整root F_A<185，JF1024，同一逆L2<1.048/负4/3<1.061，原finite≤1215及mean保；two-I与finite的before/after费各保存，右序不换。实际Cσ/Eσ/incoming/Schur独立。
-PG4737325d：CG h0/h1+TF F_A/degree192+WX ψ′/ψ″给个别ci/co A0/A1；MI shifted I先增一导，b在H−1/3乘，付同一L2/负4/3逆和logK，保全mean/selected域，无ψ‴。实际PG等CG成功，全Ei/finite/Schur仍待。
+PG044d95c8：CG h0/h1+TF F_A/degree192+WX ψ′/ψ″给个别ci/co A0/A1；MI shifted I先增一导，b在H−1/3乘，付同一L2/负4/3逆和logK，保全mean/selected域，无ψ‴。实际PG等CG成功，全Ei/finite/Schur仍待。
 CGa66ad4c4已证：own A1/κ与KL numerator→Ccut三导；SJ全c积分→g三导，分开三窗/双rank/腰P/TF-S有序费，禁upper倒扣；newton制consumer。实际SJ/三系数窗、全E/incoming/Schur/R0仍待。
 
 ## 已成功强返回链：完整数值不重算

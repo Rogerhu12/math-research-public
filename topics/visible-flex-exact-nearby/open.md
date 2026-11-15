@@ -45,7 +45,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [MI完整主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca的全式/mean/rank/ν=0及原域保前档/proof。Jensen dν≥1，K0/K−不含|ν|；须先实际Ei的Ci，再完整Ti−1左预条件双窗χ=K0CiΛJ^-4/3及RHS K0/K−，物理finite/mean Schur按新序，不借旧Green。SN终点和全incoming/R0待。
 
-[PG低阶主因子逆](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md)4737325d：CG h0/h1+TF degree192+WX ψ′/ψ″给个别ci/co A0/A1；MI shifted primitive先增一导，以W1/3(b)付负窗，完整mean同一逆与logK保，selected only，无ψ‴。实际PG待CG成功；全Ei/retained/finite Schur另付。
+[PG低阶主因子逆](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md)044d95c8：CG h0/h1+TF degree192+WX ψ′/ψ″给个别ci/co A0/A1；MI shifted primitive先增一导，以W1/3(b)付负窗，完整mean同一逆与logK保，selected only，无ψ‴。实际PG待CG成功；全Ei/retained/finite Schur另付。
 
 [CYA实际Cayley逆](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7/43757868884/18，原合同9a4e41c2与7416signed/root全覆盖及全部原证保1d9b70965775f9bd0fea97a338ce0d67289750ae同open/proof。仅native Jβ/actualselected |j|≥97、γ1/1024、一导loss逆256；全ES/finite/mean/旧R0、Ei/Eo/Bi−1/真背景/Schur/PDE仍待。
 
