@@ -282,3 +282,7 @@ root亲读原R48 frozen manifest8074/82c742e4、step02 checkpoint13896/e866f2f0�
 ## 2026-11-15 19:04:19 UTC — SN丢失reference-only确定性恢复的解析核
 
 root全文读11138B/7edf79c7合同和64734B/b41ab438候选SCI差异；原helper reference_step k0..5只用F/a0..5，whole6只入原residual；新mean-reference两句与原mean_reference逐字同算式，首格exact旧mref直接读。原至少4分格/314count/1256total严格定四分，固定inputs/helper/runtime/320bit/ctxcap9，归纳得同丢失endpoint。phase独核六关键数学函数原字不改；prefix不调whole Taylor/residual/parameter/energy，原errors上端与next2831读回，完整后缀尚待。科学恢复范围先在2f8be6正式记lost，旧gzip仅hash不得称已恢复；suffix maxima/新refhash身份显写。此次仅推数学合同，源码worker待最后合包审。open第8旧清理细账逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9，不取消旧scope或恢复义务。e875cfd6064ab16dfa8ddb1f9716c29079d00c06两README未变。
+
+## 2026-11-15 19:05:48 UTC — RR同根FTC与新joint g补全解析合同
+
+root全文读16088B/78b2fe43，newton独核新整乘积Cauchy与全部physical顺序。same original3070 interval确含rc→root且外compact，须新的signed outward K1>0门后才用FTC，不从旧wholeK失败推实际K错。新s=3/1024，用savedM/P/inverse modulus/radial margin和old4501 D0给完整g strip，再整Bfree·g角导0..3；6正系数/原factor各一次，四ΓwΓp及成功高导不重。新q/mean/eta/a/JLB输入先atomic，小阶段逐一保存；原两均值/J typed窗/physical四项不删。新SCI/worker35pin/9AST/28门设计已交、root全文diff审继续，未部署无新数值。b6f52502fef94016c97aa1169a0b3403753d2391双README原blob未变。
