@@ -662,3 +662,9 @@
 - run43766834526/source0084d2e，1742.313秒，final25631ecf/manifest8f886d19/253项，artifact14183618203/d259343b；不推518不足或原关系不存在，原同核继续。
 - R837已真激活run43770995901/sourcefa17c77f；新P0/锚待actual receipt。新隐式char0/CM值与q2长度路线继续，未代已有实际函数身份。
 - 本push规则：本地真实pull至96888f152c59fb9b811592445a7ce7483aeebc9d（2026-11-15T22:47:37.792804+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:49 Asia/Taipei — serre-public-astra-20261115
+- 原R787单位选行2420块+真核维28给准确adj/det函数表达式，原全129/280随维数夹逼成立；权6之2692块同理定义完整300隐式基，未假大Q逆或重构成功。
+- 四CM值/一阶响应只需消费原R790与真实518；原14branch全单位才给整体商。点值候选仍需准确bordered零或行空间乘回，不送旧R792成功接口。
+- 完整证明notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md，SHA8d5b58a5；新最小CM consumer实施中，R837真实success回执由原作者接入。
+- 本push规则：本地真实pull至793d723a806e86614d1a361fd4e3e098381c6b48（2026-11-15T22:49:43.140837+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
