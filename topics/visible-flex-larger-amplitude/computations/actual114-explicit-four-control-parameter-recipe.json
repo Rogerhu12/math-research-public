@@ -1,0 +1,36 @@
+{
+  "schema": "R259-explicit-four-control-odd-shape-recipe-v1",
+  "origin": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43687426018",
+    "source_commit": "dc032461bbd2f3f7515ea30e5495b50870a06f65",
+    "producer_file": "geometry_20261115_small_core_full3_curved_normal_recipe.py",
+    "producer_sha256": "be37ce213ddfd87972b5edc241a0b220fe0f424c553f5836b5df337ff1dd980e",
+    "producer_schema": "R259-original-full-three-two-normal-curved-trust-recipe-v1",
+    "status_bytes": 7197627,
+    "status_sha256": "4e7ee4fa7d570e2147041ba0bd3ea2769844ee8e6bdfa545f0b791b3ef34035f",
+    "log_summary_bytes": 86389,
+    "log_summary_sha256": "c4eca98c2bb83aba6708f8e88616bd052483836278df369ace6743e2443503ee",
+    "parameter_field": "final.parameters"
+  },
+  "literal_parameters": [
+    0.46303184038373296,
+    -0.19282285521524933,
+    0.6316435963633119,
+    0.0
+  ],
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "family": {
+    "schema": "second-original-support-odd-C2-control-v1",
+    "support_index": 1,
+    "original_controls": 3,
+    "new_parameter_count": 4,
+    "formula": "b2(x)*(2*x-1)",
+    "theta_zero_reduces_to_original": true
+  }
+}

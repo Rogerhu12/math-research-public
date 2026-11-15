@@ -1,61 +1,63 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：ChatGPT /root（GPT-6 Astra Pro，AI-assisted）。**课题未完成，持续执行至全部README标准；不能在阶段、预算结束或下一步建议处停下等回复。** 每条结论立即推送；结果和原始身份以所链接正式笔记为准。
+维护：ChatGPT /root（GPT-6 Astra Pro，AI-assisted）。**尚未完成，持续做到全部README标准；不能在阶段、预算到期或下一步建议处停下等回复。** 正式原值/来源以链接note和request为准。
 
-## 规矩与工作环境
+## 规则与环境
 
 规则同步记录：2026-11-15 07:16:29 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1b382d0c9011113b3f41a7a173e488e9954e780c。
 
-只在公开 `Rogerhu12/math-research-public` 工作；全部科学计算、数值运算、科学模块导入及RHS/J/ODE/RK/优化只在该仓库Actions。本地只读源码/实际原标量、写代码/证明、语法与元数据检查、Git。PAT仅命令行瞬时环境，不写文件/提交/连接器/回复。
+只在公开 `Rogerhu12/math-research-public` 工作。所有科学数值执行、运算、科学模块导入、RHS/J/ODE/RK/优化只用本库Actions；本地限读写源码/证明、原实际输出选择、AST/语法、元数据/hash及Git。PAT只CLI瞬时环境，不入文件/提交/连接器/回复。
 
-根137c5a的第15条：可由源和参数重算的数据、证书、Actions输出不存Git或Release；保代码、参数、run、SHA及诚实紧凑结论。课题≤200MB，普通main删除保留历史，不force、不改写历史、不分片绕限。旧Release迁移和publisher22e已取消。根第12条：完整证明直接results/index，不加独立冻结/复审/字节审计门。公式用$或$$。
+每条结论立即push。每次push前及至少每小时真实pull --rebase，核双README blob；变化只读差异、立即遵守，更新上方唯一规则行。NFF立即pull/rebase再推直至成功，禁止force/history rewrite。root唯一Git/H/open/log/workflow发布者，代理只/tmp草稿。
 
-每次push前及至少每小时真实pull --rebase；核双README blob，变化只读差异、立即遵守并更新上方唯一记录。NFF立即pull/rebase再推，循环至成功。root唯一Git/H/open/log/workflow发布者；子代理只在/tmp写草稿。
+根137c5a第15条：可重算证书/数据/Actions输出不保存Git或Release，只保源、参数、run、SHA和紧凑结论。课题≤200MB、普通删除保历史；旧Release迁移/publisher22e已取消。第12条：完整证明直接results/index，不添独立冻结/复审/字节审计门。公式用$或$$。H<10000B、每MD<100KB，open宜<30KB；不写根LOG。
 
-终端必须显式 shell=bash、login=false、workdir=/tmp。当前blob:none稀疏克隆 `/tmp/visible-larger-root-git-106`；旧workspace满且旧checkout无.git。rebase可清掉稀疏范围外的工作文件：用git show读已提交源，草稿留/tmp，git add --sparse。不开维护/gc；pull --no-stat、merge.stat=false防无关大blob读取。
+终端 shell=bash、login=false、workdir=/tmp；当前blob:none稀疏克隆 `/tmp/visible-larger-root-git-106`。旧workspace满、旧checkout无.git。rebase可能清除稀疏范围外工作文件：已提交源用git show读、草稿保/tmp、git add --sparse。不开gc/maintenance，merge.stat=false，pull --no-stat。
 
-临时工具 `/tmp/visible-larger-sync-push.py` 用RESEARCH_PAT环境执行真实pull、README差异检查、H记录和NFF重推；`visible-larger-api.py jobs RUNID`、`visible-larger-job-log.py JOBID` 只取实际元数据/完成日志。工具stdout科学值仅原值读取。本轮110运行中日志endpoint返回404，不重复探测、不重跑科学来拿日志。H<10000B、每MD<100KB、open宜<30KB；不写根LOG。
+`/tmp/visible-larger-sync-push.py`通过RESEARCH_PAT环境完成真实pull/README检查/H记录/NFF重推；`visible-larger-api.py jobs RUN`查元数据，`visible-larger-job-log.py JOB`取完成日志。110运行中日志endpoint已见404，不重复探测或重跑科学取日志。
 
-## 真正完成标准
+## 真正目标
 
-目前只有大幅开放前缀接受。须固定g、连通闭C²嵌入与强C²的全t族；固定有内点H且diamH≥.2D；整像Hausdorff δhold≥.2D，含反射δE>0；全t reach≥.03D；全域相对metric算子误差≤1e−6。D取整个闭F0。冻结g/所有p/t范围后精化至机器或原solver容差，交数个各<5MB网格并明确数值到严格存在的缺口；最低标准后继续加强比例。不增六/九jet机器门。
+只有大幅开放前缀已接受。须固定g、连通闭C²嵌入及强C²全t族；固定有内点H且diamH≥.2D；整像Hausdorff δhold≥.2D、含反射δE>0、全t reach≥.03D、全域相对metric算子≤1e−6。D为完整闭F0。冻结g/所有p/t后精化至机器或原solver容差，数个各<5MB网格，明确数值到严格存在的缺口；最低要求后继续加强比例。不加六/九jet机器门。
 
-当前M112/T112/N2048、699节点、453状态、236036free，前三core固定；scalar.99/cut.3/三控制，不能替T96或零H。四原输入及历史恢复见当前request。M96分量metric不是算子证书；每新模型fresh W/J，不跨模型相减merit。
+当前M112/T112/N2048、699节点、453状态、236036free，前三core固定，scalar.99/cut.3；原完整physical/H/C/B/outside/域责任不能换T96或零H。四原输入完整身份/公开8bd26710恢复见request。M96分量metric不是算子证书，每新模型fresh W/J，不跨模型减merit。
 
-## 正在推进的三条实际路线
+## 正在执行
 
-### 110：同31查询的真实连续批次（运行中）
+### 110 同31查询连续真实批次
 
-run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job132724561759，06:25:12UTC启动。sourcea1ba1cd8/requestef159a8a/workflow3363acf2；[完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)。最多8批、科学175min/job185min，每批原1-model1200s/λ270/512×200/17trial和全部门不变；必须新warm原FD通过才传同job真实warm/status。每批源/输入新评价，已消费临时数据删除，最后无raw保存。45min原规则监控保持。
+run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，06:25:12UTC创建，科学步骤仍运行。sourcea1ba1cd8/requestef159a8a/workflow3363acf2，见[完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)。最多8批/175min科学/185minjob；每批原1-model1200s/λ270/512×200/17trial不变，须新warm原FD通过才传同job真实warm/status；45min规则监控保留，消费后临时数据删除。未读完成批。
 
-107raw已删，110从actual98 artifact14147700690重建新支线；未读回110完成批。107同31原1/8接受/新FD通过，最近1/4仅已选LEFT464 RMS失败，仍非BVP/native，详见[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)。
+107raw已删，110从actual98 artifact14147700690重建新轨迹，不从hash伪造warm。[实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)同31原1/8接受/FD通过，最近1/4仅已选LEFT464 RMS失败，仍非BVP/native。
 
-### 113：完整原始残差binary128（历史输入修复已发布）
+### 113 完整binary128原始残差
 
-103相邻词无改善，同freshJ完整R273后十档仍全拒，无finalJ/audit；见[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)，不是普遍精度底线。
+第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建，已通过全部setup/历史恢复，正在科学步骤；amplitude只读监测，尚无128结果。原[first失败](notes/2026-11-15-actual113-first-run-missing-historical-input.md) run43687907457/source7308ea在首快照前从HEAD取已删JSON退出；CPP编译成功，但无J/方向/残差。
 
-[113完整接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)：CPP1b59cd10/bridge3655c81a/probeba3564ca及28源pin不变。真实__float128113位覆盖e=L−target、226态RK、节点+αdelta及129248残差；原geometry/角表/scales精确提升。原noJ k/steps+cusp子步，不冒withJ n*h逐位相同或连续ODE。两root配置原8e−14/5e−12与1e−28/5e−27，先两base再十α；7200s只独立child，导出/额外64base/初J/R273另计，step320min/job350。partial/error后回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留；旧64J不是一致128J，无新接受锚。
+[113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md) CPP1b59cd10/bridge3655c81a/probeba3564ca与28源pin不变；[修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md) requestce294b5e/workflowdb8a479b只恢复8bd26710两原ready至既有env，ledger109004B/563a9997、stored29774B/c1c44f23；owned只读父目录终清理补权限，不改数据。
 
-首跑run43687907457/source7308ea/job132732158878在首快照前从HEAD取已清理JSON失败，无J/方向/128残差；CPP编译成功，summary942b3c55，见[实际故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。[工程修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已发布 requestce294b5e/workflowdb8a479b：8bd26710原两ready只临时恢复到原client两env，ledger109004B/563a9997、stored29774B/c1c44f23，三科学源不变；owned只读父目录修权限清理。第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC启动；已通过两历史输入恢复并进入科学步骤，结果待读；amplitude接管只读监测。
+真实__float128113位覆盖e=L−target、226态RK、节点+αdelta、129248残差；geometry/角表/scales沿原64字面值。原noJ k/steps+cusp，不冒与withJ n*h同bits或连续ODE。两root配置8e−14/5e−12与1e−28/5e−27先两base后十α；7200s仅128child，导出/额外64base/初J/R273另计，step320min/job350。partial/error后回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留，旧64J不是一致128J，无新接受锚。[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)相邻词无改善、完整R273后十档全拒，非普遍精度底线。
 
-[持续128后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)已明确定义：root残差小不界Dε，同4个RK现场亦不等有限停止算法exact J；持久128状态、全部新残差右端、匹配变分及cut/二阶jet/audit待实际113证据。不另造solver/fixture。
+[后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)：持久128状态、全新残差右端、真实匹配变分/cut/二阶jet/audit仍待付。隐式J缺B⁻¹Dε，root残差小不界Dε，同4个RK现场亦不等有限停止程序exact J。等实际113证据决定，不另造无依据solver/fixture。
 
-### 114已完成，115扩独立控制（exact_refinement准备）
+### 115 第四奇形控制（刚发布，run待读）
 
-106/108/112已正式，不能盲续旧半径预算。112仅六极小接受且末方向全拒，完整身份见[实际112](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)。[控制全链结构](notes/2026-11-15-small-core-control-structure-and-post112-options.md)已说明3p不是独立模态，圆R传播耦合全链。
+[完整接口](notes/2026-11-15-actual114-to-four-control-curved115-interface.md)：family9222390b、search3ca1bdf7、readerc0602e7a、recipebecfe390、request282d640e、workflowf1615b4e。原第二实际支撑添加θ·b₂(2x−1)，起点为真实114末三p及显式θ0；完整3×4响应/7×4正阻尼QR，两normal两tangent弯曲试探，原full3 W/.2Armijo/域/终检不变。新g设计族，函数独立不保证补秩；theta0数组对照仅报告，不作门。
 
-[实际114](notes/2026-11-15-actual114-normal-correction-and-one-tiny-acceptance.md)：run43687426018/source dc032461b/compute132730710123/report132730985417。8方向155候选，仅dir5/trial14原接受，另7方向各20拒。W6958.225762769883→6958.225762766608；接受时inner tol=false，未加内层门。dir2全步已到后两式目标而第一式更差，故不盲重同策略，亦非无根证明。最终p与全值见note/actual114 recipe；全部final false，4487评价零异常/592J。summary86389B/c4eca98c（不含LF）、status7197627B/4e7ee4fa、trace7626013B/64a8e728；155核心外表完整，省略seed/frame等，非全status复核。
+终检冻结当前实际θ为base，保原3activep/K3/T112平方物理视图，重做完整FFT/node/mid/RMS和新四控制Arb域；不得把k4冒旧方阵或继承旧scalar证书。原Gauss a/ap兼容、全域roundoff/C²、高109非共振/非零λ/native/finalJ/audit仍未付。八方向/20外档/12×20内层、160bits/depth14，75min科学/90minjob；79主来源+2支持，父18/current22定义闭包。raw临时，不上传artifact/Release。
 
-115准备第二实际支撑的θ·b₂(2x−1)，actual114末p+θ0；独立4控制profile/完整3×4 J/7×4正阻尼QR，原三式W/.2Armijo/真实域责任不变。θ是新设计参数，不冒固定g；原平方物理终检必须冻结当前θ为base后保持3活动p/K3/T112，重新付新标量域，不把k4冒旧方阵。函数独立不保证响应补秩。尚未发布新request/运行。
+[实际114](notes/2026-11-15-actual114-normal-correction-and-one-tiny-acceptance.md)：run43687426018/source dc032461b，155候选仅1极小接受、另7方向各20拒，W6958.225762769883→6958.225762766608，全部final false；接受时inner tol=false，dir2全步虽达后两式目标第一式更差。summary86389B/c4eca98c（不含LF）、status7197627B/4e7ee4fa、trace7626013B/64a8e728。112及106/108完整原值见各note，不盲续同预算。
 
-## 几何下游：实际接受场仍缺
+## 几何及接受场之后
 
-R277/R278/R279/R280/R281完整证明已登记，不再加证明审批或旧fixture。R279有限完整jet→连续曲率条件，R280 joint端点门，R281两RP1图精确Sturm闭区间换门；它们不是当前场证书。109三有理例全匹配；111 depth2五叶全付、depth1两未付，偶重根准确保留。[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md)：run43685039861/source77d65ad2/job132723637032；summary7898B/7279b591。
+R277–R281完整证明已登记。109/111条件有理例匹配，非实际曲面证书；[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md) run43685039861/summary7898B/7279b591。不再加fixture/审批。
 
-[固定帽球及真实链边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布 sourcea3ada50b/interface499e1078：从SHA绑定原shared plan/assembly精确有限graph导完整闭disk位置/法向球，归一化误差付清，原H只须有限，存储kappa只诊断。source-only/noactualfield。旧v3是静态base+R24，不是mixed consumer；worst≤128非全对。[完整活动jet球与mixed入口](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)已发布 source675ab8df/dbdedb45：准确共有节点/全FFT/B/materialcut/SE2表达自行求六jet，完整单位法向归一化；全部活动×两帽rank含未访问后缀。原phase_rule已核RαA∪C，共同cuff零弦仍为未付local责任。无实际场/run，未撤原static+R24。geometry续局部图/路径的完整责任。
+[固定帽球](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md) sourcea3ada50b；[完整活动jet及mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md) source675ab8df/dbdedb45。准确共有节点/全FFT/sharedB/materialcut/唯一SE2表达自身求六jet和完整归一化法向球；真实RαA∪C全部活动×两帽rank及未访问后缀。source-only，无真实接受场/run；共同cuff零弦仍未付local，旧static-base+R24保持。geometry正在R282局部cross-Gram积分门及material θ/相位子责任完整证明，草稿未推；不能整rank冒窄图覆盖。
 
-完整闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN+自身final audit/config/port：完整physical/material/z0/mean/ninejets/唯一SE2→R249首单元/shared quintic B/两帽；g不换成B′，held独立于reach预算全读。R274/R258adaptere372待同场见证。same-g v4冻结g/所有p/t，K=k=0、activep空、T=M/state4M+2；699二分1397+knots须prepare/fullDN两处max_nodes>1200。有限phi不冒有限theta，数值不冒严格存在。
+闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN及自己的final audited tail/config/port：完整physical/material/z0/mean→R249/shared quintic B/两帽，g不能换B′。R274/R258 adaptere372待同场非零见证。held可独立于reach预算读整个活动面与两帽，不能用材料点位移/core直径替整像。
 
-## 已付事项与重做边界
+same-g v4冻结g/全部p/t范围，K=k0、activep空、T=M/state4M+2；699二分1397+knots需prepare/fullDN两处max_nodes>1200。有限phi不冒有限theta，数值不冒严格存在。
 
-95至114既往实际结果均已有正式note，勿重复旧审计。102v3整体model-vs-nested差异源于原writer顶层装饰，非科学门；104普通清理后课题168796207B，未知JSON未全分类，详见各note。未推草稿为115及geometry，无本地科学结果。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。
+## 维护与重做范围
+
+既往已完成的95–114结果有正式note；110/113仍运行，115刚发布。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿仅geometry R282及代理正在做的后续工作；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。
