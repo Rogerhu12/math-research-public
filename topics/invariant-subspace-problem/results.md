@@ -354,3 +354,8 @@
 ### 2026-11-14：完整原来源包的二维相关第一页与真实197源坐标（789f）
 
 [实绩与证明](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)读取run43654741434的0.036855237秒小任务：197投影列rank7且真第十坐标全零，等维恰张成(U9)_2；模U7/U8/U9的完整多项式像维数2/1/0。原K2/K3尾坐标(10,11,0)/(24,28,0)，det16，像上J=2I；联合b8不再增维。以[形式局部源核定理](notes/2026-11-14-r150-saturated-source-envelope-first-page-and-primary-choice-control-789f.md)识别完整Bsat的2-primary第一页恰U9/U7二维，保Z_(31)[[s−2]]、自由条件、q2/carry选择差；预发布稿的全局R2假设已纠正，未调用未付全局q2或其它primary。下一页须保196修正ζ、两个t关系、e9及旧F7源核，不能只取常数像核。数据c09e0eec、5恢复256910B全保，无旧乘积重算；完整原modp4成员及char0仍开。
+
+
+### 2026-11-15：同一物理gap的内在跨切口耗散与固定测试配对（789f）
+
+[证明](notes/2026-11-14-same-physical-gap-intrinsic-cut-dissipation-and-fixed-test-pairing-789f-next.md)对原物理闭和M_q与真有限核K_(q+d)构造递减正交gap Gq=P_Mq−P_K(q+d)。同一固定f支持≤s、q≥s+d时，dq=g(q−d)−gq恰下降joined投影与上升真核投影的两正交增量平方和；真支撑界直接付α(ub)²+μ(uf)²+λ(uf)²≤dq。于是原同源差e=ub−uf满足Xi(e)²≤4dq、0≤gq−μ(e)²≤2dq；同测试配对误差|<Lr,t−e>|≤Xi(r)√dq。步长d尾和≤4g(q0−d)，新内容为费用由同一个gap的下降支付；不把旧两费总界重计新结论，也不声称移动gq速率、正向gauge或N=M已付。
