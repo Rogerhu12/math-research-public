@@ -80,6 +80,62 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:13:41.741421+00:00",
+      "before": "1525c7fa128214dcf04396996b2cd9e071bbd3f5",
+      "after": "c0588770e3f5d464277ac1806fc5eefc7776b2c6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:13:44.821572+00:00",
+      "before": "c0588770e3f5d464277ac1806fc5eefc7776b2c6",
+      "after": "e983ed3c4ad0259c60cad7eceec7270cf675b5e3",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:13:47.979177+00:00",
+      "before": "e983ed3c4ad0259c60cad7eceec7270cf675b5e3",
+      "after": "0609cb428bd6e67532a148915db28e17121be088",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:13:50.951338+00:00",
+      "before": "0609cb428bd6e67532a148915db28e17121be088",
+      "after": "3e19a868416b509aca773df4e87a0b8d48f793de",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:13:54.100264+00:00",
+      "before": "3e19a868416b509aca773df4e87a0b8d48f793de",
+      "after": "86f923a1cff17435f23441194e666c1a65f9dfb0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:13:57.051592+00:00",
+      "before": "86f923a1cff17435f23441194e666c1a65f9dfb0",
+      "after": "26da169a0d56653915d19747705df0f7632b78ac",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:00.247830+00:00",
+      "before": "26da169a0d56653915d19747705df0f7632b78ac",
+      "after": "0ad52864b6b3d5b09e2499ad8a1edffe50f27b45",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -92,6 +148,11 @@
       "time": "2026-11-14T23:53:36.173174+00:00",
       "final": false,
       "commit": "ad8a260c4c2b547e7952342905e852dcc83f086a"
+    },
+    {
+      "time": "2026-11-15T00:03:39.856107+00:00",
+      "final": false,
+      "commit": "31e8e976b9add42baded6446cc122686d7ee4599"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -132,7 +193,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "1525c7fa128214dcf04396996b2cd9e071bbd3f5",
+  "last_read_commit": "0ad52864b6b3d5b09e2499ad8a1edffe50f27b45",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -338,8 +399,8 @@
     "slice_id": 4
   },
   "original_empty_failed_range_native_sha256": "2351292e90080245f9569dae7677a8d1d4fc7b7550271fb6b978df8b9ba59d39",
-  "snapshot_utc": "2026-11-15T00:03:38.168528+00:00",
-  "wall_seconds": 1211.927167963,
+  "snapshot_utc": "2026-11-15T00:13:41.786887+00:00",
+  "wall_seconds": 1815.545505211,
   "native_files": [
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
@@ -356,8 +417,8 @@
     {
       "logical_file": "native/complete-same-F-range-08.json.gz",
       "file": "native/complete-same-F-range-08.json.gz",
-      "bytes": 337245,
-      "sha256": "c9ec06ffa79d93c9407a679213aca4d52afc623f5cf39613a5dcb4a6638b9a3a"
+      "bytes": 496999,
+      "sha256": "438d098204c1f90b8afc400926210f98b2b98b96636f791f66d1d9fa8282c385"
     }
   ]
 }
