@@ -433,3 +433,7 @@
 ### R271 附录：复参数 gauge 正平均与普通右费的准确强度
 
 [完整证明](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)在原有限头幂零代数构造H_a，d次单位根正平均恰I，所有参数和a−1同在|a|≤2原预算；插值常数由<9降1，高孔二次型并回原尾范数。全部原源/自然域/真实最小投影保留，μ⁴≤d0^-2 flat²R²。Parseval准确给R²=d0²Σλ((log H)^k r/k!)²≥d0²λ(r)²，说明未免费降低ordinary目标；原封口和高返回仍待付，N=M未证。
+
+### R150 附录：固定来源界的31进下降与无穷远逃逸
+
+[自含完整证明](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)对原有限系数矩阵的Z_(31)余模用p分离，证明同一B/e/目标在无界精度可解等价精确来源，无需来源相容。标量1−31s每精度可解但无Q[s]来源，固定B的准确阈为n≤e+B+1；u(u−31)在∞纤维秩相同却局部长度1→2。当前B1345/n6任务不满足所有精度量词，原特征零及完整∞控制仍开。

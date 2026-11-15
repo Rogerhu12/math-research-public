@@ -1,0 +1,237 @@
+{
+  "format": "r150-saturated-third-global-actual-resume-v1",
+  "created_utc": "2026-11-15 02:44:56 UTC",
+  "prior_run_id": 43668434588,
+  "prior_mathematical_source_commit": "5003424a932068d07a7897cd8b6a625c6b04d238",
+  "prior_actual_data_publication": {
+    "status": "pushed",
+    "publishedCommit": "6d6bf1a463841e355b9d939cd9c7fcf3641d8514",
+    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43668434588-1",
+    "lastRulesReadCommit": "43670645bd3ae23964f37548b0d4ae346205b5c9"
+  },
+  "prior_recovery_manifest_sha256": "61e07362214079f0c6edaf5815f7a54492464d1f4bfb2b4def1922c1f8bb2056",
+  "prior_recovery_files": 119,
+  "prior_recovery_bytes": 764358901,
+  "prior_artifacts": [
+    {
+      "id": 14143522511,
+      "name": "isp-r150-saturated-third-global-results-43668434588-1",
+      "bytes": 550647611,
+      "digest": "sha256:35abf2a36751a6fc65b5e501174a5b8e27d3a11bb507561fff69344acaef6781"
+    },
+    {
+      "id": 14142923061,
+      "name": "isp-r150-saturated-third-global-recovery-43668434588-1",
+      "bytes": 539742039,
+      "digest": "sha256:1a5d71f380bbd239bab0dd6c16588a56a0070fcc64f58e5512119c362fbbc92c"
+    }
+  ],
+  "prior_completed_stages": [
+    {
+      "name": "prepare-actual-six-global-sources",
+      "input_binding_sha256": "1bac604712a1c7530bcacfc1fac1a8432ba44a6635f2a58ad7332e6fd43c5e64"
+    },
+    {
+      "name": "seven-q1-image",
+      "input_binding_sha256": "6ac67c8095874f48af8e9453ed1bad8e2cde8f6bebe5183c09a7edece15ec8e7"
+    },
+    {
+      "name": "seven-q1-VQ",
+      "input_binding_sha256": "1859cac2cde868e508c306be6a5e3d70449c822b8ea38711fefc097021d09238"
+    },
+    {
+      "name": "seven-q1-original",
+      "input_binding_sha256": "c42e3bf606a9292763433375091ca4981ece90182d90fd575be25bf96140277b"
+    },
+    {
+      "name": "same-q1-integer-carry",
+      "input_binding_sha256": "de29db95170e1d1c05aee3f0810ca848ad2c7ddda901833f25ed2da88776c8de"
+    },
+    {
+      "name": "projected-six-initial-p2",
+      "input_binding_sha256": "fe6ecdae6fd1ef759cb07b8b23231240370fbe9e00bcc3337c3b7db1966d2da3"
+    },
+    {
+      "name": "projected-six-initial-normal",
+      "input_binding_sha256": "c909ed591f3bb79cc46d81cd35038255f3bc502a44726ad0671bc873233833ff"
+    },
+    {
+      "name": "projected-six-initial-whole-image",
+      "input_binding_sha256": "08fd44fa03d59f54adc945c05001c863da8620942b02b1eeed170b0378973ec2"
+    },
+    {
+      "name": "six-q2-image",
+      "input_binding_sha256": "0db306d9f25a8215d020e12aa5f0e7339d4ec4ae4fdc46ebfebc273b4fa042c8"
+    }
+  ],
+  "continuation_stage": "six-q2-VQ",
+  "completed_image_rows_preserved": 1021,
+  "prior_source_monomial_products": 93312851,
+  "shared_mathematical_seconds": 300,
+  "per_child_memory_mib": 1024,
+  "per_compilation_seconds": 30,
+  "native_compilations": 5,
+  "freeze_unchanged": true,
+  "resume_entry_sha256": {
+    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml": "f5211720fa932560f5b004ff163f971dcabbadd22ef5a574d80ca4f82d833c62",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py": "d8c3b32878a89c18cec88f3340a073d2e05c1e52875e3f72dc11cdbf5ea01ca4"
+  },
+  "exact_sparse_paths": [
+    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml",
+    ".github/workflows/invariant-subspace-r150-saturated-third-global.yml",
+    "README.md",
+    "topics/invariant-subspace-problem/README.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-global-raw-q1-canonical-carry-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-image-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-normal-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-original-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-source-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-transport-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-build-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-ci-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+  ],
+  "all_original_inputs": 49,
+  "old_local_pages_recomputed": false,
+  "characteristic_zero_identity_asserted": false,
+  "account_concurrency_observation": {
+    "utc": "2026-11-15 02:47:25 UTC",
+    "repositories_checked": [
+      "Rogerhu12/awards",
+      "Rogerhu12/bipartite-diophantine",
+      "Rogerhu12/continuous-flexibility",
+      "Rogerhu12/convex-nivat-lean",
+      "Rogerhu12/Erdos1045",
+      "Rogerhu12/erdos888-sharp",
+      "Rogerhu12/hecke-seven-eighths",
+      "Rogerhu12/math-research",
+      "Rogerhu12/math-research-public",
+      "Rogerhu12/mathlib4",
+      "Rogerhu12/openai-math-extensions",
+      "Rogerhu12/quadratic-inverse-additive-irreducibility-lean"
+    ],
+    "active_jobs": [
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43669359806,
+        "id": 132675725853,
+        "name": "Continue the actual85 low-three candidate with the same eta0.1 and fresh eight-step budget"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43669106351,
+        "id": 132674956494,
+        "name": "complete-whole-physical-root-piece-first-Airy-sources"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43668743515,
+        "id": 132673870743,
+        "name": "Follow-up condensedqp"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418391,
+        "name": "ranges (21, 21)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418394,
+        "name": "ranges (19, 19)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418396,
+        "name": "ranges (20, 20)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418397,
+        "name": "ranges (16, 16)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418422,
+        "name": "ranges (17, 17)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418439,
+        "name": "ranges (23, 23)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418463,
+        "name": "ranges (22, 22)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418489,
+        "name": "ranges (24, 24)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665418503,
+        "name": "ranges (25, 25)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665419453,
+        "name": "ranges (26, 26)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43665656138,
+        "id": 132665419558,
+        "name": "ranges (28, 28)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43654510038,
+        "id": 132630212611,
+        "name": "ranges (25, 12)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43654510038,
+        "id": 132630213511,
+        "name": "ranges (26, 13)"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43654510038,
+        "id": 132630213637,
+        "name": "ranges (27, 13)"
+      }
+    ],
+    "active_job_count": 17,
+    "publication_job_count": 1,
+    "new_mathematics_job_count": 1,
+    "maximum_concurrent_jobs": 20
+  },
+  "reason": "The actual shared300-second clock plus10-second termination grace stopped only the full-source verification after all1021 VQ image rows were saved. Reuse every complete cache and exact partial array; retain all old proofs, coefficients and logs."
+}

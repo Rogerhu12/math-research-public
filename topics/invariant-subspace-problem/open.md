@@ -144,3 +144,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **复参数同源正平均与普通费未闭。** [完整证明](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)以d个单位根参数付平均H_a=I及μ⁴≤d0^-2 flat²R²；同真实环境/最小投影/原未来全保，高孔二次型正平均恰原尾范数。准确Parseval为R²=d0²Σλ((log H)^k r/k!)²≥d0²λ(r)²，不能把平均当更弱普通费用。继续原顶部封口/完整高返回及全窗口ΣR²≤K_m n_m||w||²、K_m d/n_m=O(1)。
 
 **R150六槽全局原式已接新任务。** [冻结入口](notes/2026-11-15-r150-saturated-third-global-ci-request-789f.json)只读49真实已存输入，七原核/六槽/九目标，实际费用上界1345。成功须全九原17模31⁶、六辅助和315/505全真；局部第三全正已成，原式与char0不得混称，旧二/三页不重算。
+
+**固定来源界的31进下降及当前原式续算。** [完整定理](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)要求同一B、同一目标、同一分母指数e；无界精度可解才推出真实Z_(31)来源，精度间不必相容。1−31s及u(u−31)分别排无界来源次数和只看∞纤维秩的捷径。global首轮已实际推6d6bf1a4，九阶段/七q1及全carry已成，六q2保存1021像行后时钟止，九原式仍开；按[固定续接请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)继续。

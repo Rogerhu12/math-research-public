@@ -1,16 +1,26 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "e430aaa47eab61a65389e6db7b6d9e9e7353b515",
-  "createdUtc": "2026-11-15 02:35:55 UTC",
-  "message": "ISP: record the actual six-slot global-source run and successful conclusion push",
+  "parentCommit": "11b666775830d9d37f218f608b46e3d5bae25516",
+  "createdUtc": "2026-11-15 02:47:25 UTC",
+  "message": "ISP R150: prove fixed-bound p-adic descent and resume actual global source checkpoint",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
+    ".github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-global-source-first-resume-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-first-actual-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actual-launch-789f.json",
+    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/results.md",
+    "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-saturated-third-global-resume.yml"
+  ]
 }

@@ -1,0 +1,156 @@
+name: ISP R150 resume actual six-slot global sources and original mod31six certificates
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-saturated-third-global-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  saturated-third-global:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/invariant-subspace-r150-saturated-third-global-resume.yml
+            .github/workflows/invariant-subspace-r150-saturated-third-global.yml
+            README.md
+            topics/invariant-subspace-problem/README.md
+            topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp
+            topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-global-raw-q1-canonical-carry-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-image-789f.cpp
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-normal-789f.cpp
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-original-789f.cpp
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-source-789f.cpp
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-transport-789f.cpp
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-build-789f.json
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-ci-request-789f.json
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-contract-789f.json
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-interface-789f.md
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-matrices-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py
+            topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py
+            topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bind the six actual sources and complete original mod31six scope
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py --mode source
+      - name: Restore the complete actual global checkpoint from run 43668434588
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-third-global-recovery-43668434588-1
+          run-id: 43668434588
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-global-resume-recovery-download
+      - name: Restore the already sealed global results without changing mathematical sources
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-third-global-results-43668434588-1
+          run-id: 43668434588
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-global-resume-results-download
+      - name: Reuse all 119 actual recovery files and their original input hashes
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-resume-restore-789f.py
+      - name: Install the exact finite-field dependency and record the compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0 numpy==2.2.6
+          python3 -m pip show python-flint numpy > "$ISP_SAT_GLOBAL_OUT/results/python-runtime-versions.txt"
+          g++ --version > "$ISP_SAT_GLOBAL_OUT/results/compiler-version.txt"
+      - name: Resume the actual six-q2 sources and all remaining original identities
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 20
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_SAT_GLOBAL_T96" \
+            --old200-recovery "$ISP_SAT_GLOBAL_OLD200" \
+            --all198-recovery "$ISP_SAT_GLOBAL_ALL198" \
+            --seven-recovery "$ISP_SAT_GLOBAL_SEVEN" \
+            --ninth-recovery "$ISP_SAT_GLOBAL_NINTH" \
+            --second-recovery "$ISP_SAT_GLOBAL_SECOND" \
+            --current-recovery "$ISP_SAT_GLOBAL_CURRENT" \
+            --third-recovery "$ISP_SAT_GLOBAL_THIRD" \
+            --out "$ISP_SAT_GLOBAL_OUT" \
+            --resume-recovery "$ISP_SAT_GLOBAL_RESUME_RECOVERY" \
+            --math-seconds 300 --memory-mib 1024 --compile-seconds 30 \
+            2>&1 | tee "$ISP_SAT_GLOBAL_OUT/results/actions-console.log"
+      - name: Record actual original identities and retained continuation
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-prepare-789f.py --mode outcome
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        with:
+          name: isp-r150-saturated-third-global-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_SAT_GLOBAL_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        with:
+          name: isp-r150-saturated-third-global-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_SAT_GLOBAL_OUT }}/recovery
+      - name: Publish this actual result directory with real pull and immediate rebase retries
+        id: publication
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_SAT_GLOBAL_OUT/results" \
+            --recovery "$ISP_SAT_GLOBAL_OUT/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-saturated-third-global-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        with:
+          name: isp-r150-saturated-third-global-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_SAT_GLOBAL_OUT }}/results/publication
+      - name: Require all nine original identities and successful publication
+        if: always() && env.ISP_SAT_GLOBAL_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_SAT_GLOBAL_OUT'])/'results/actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Original global-source continuation incomplete; all actual arrays and checkpoints retained')
+          pp=Path(os.environ['ISP_SAT_GLOBAL_OUT'])/'results/publication/publication-receipt.json'
+          publication=json.loads(pp.read_text()) if pp.exists() else {}
+          print(json.dumps(publication),flush=True)
+          if publication.get('status')!='pushed':
+              raise SystemExit('Actual mathematical outputs retained; real Git publication requires continuation')
+          PYCODE
