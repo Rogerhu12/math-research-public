@@ -1,0 +1,1008 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "zero-sixth-actual-rhs-columns-first-group",
+  "executionSourceCommit": "4a5c191e7774d0520742119ecda4ede7cf2a0784",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-actual-rhs-columns-continuation-789f.py",
+  "scriptSHA256": "a0fbc76c3ae615dbdd1a9bd84ef47812b8b93071cad4b40e21002a5256694cca",
+  "argvTemplate": [
+    "--parent-driver",
+    "{scripts}/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+    "--unit-schur-helper",
+    "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+    "--parent-checkpoint-dir",
+    "{work}/zero-sixth-full-source-checkpoint",
+    "--paid-unit-checkpoint-dir",
+    "{work}/zero-sixth-unit-continuation-checkpoint",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+    "--cochain-exporter",
+    "{scripts}/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py",
+    "--cochain-manifest",
+    "{work}/zero-sixth-preparation/fifth-joint-high-low-checkpoint.json",
+    "--cochain-receipt",
+    "{work}/zero-sixth-preparation-receipt.json",
+    "--fifth-receipt",
+    "{scripts}/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+    "--checkpoint-dir",
+    "{work}/zero-sixth-rhs-columns-checkpoint",
+    "--out",
+    "{work}/zero-sixth-rhs-columns-receipt.json",
+    "--through",
+    "final",
+    "--remaining-seconds",
+    "600",
+    "--memory-mib",
+    "8192",
+    "--unit-algorithm",
+    "dixon",
+    "--unit-batch-columns",
+    "1",
+    "--max-new-unit-groups",
+    "1"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 0,
+  "wallSeconds": 22.808960272999684,
+  "fullTemporaryReceiptBytes": 26080,
+  "fullTemporaryReceiptSHA256": "26404e7dabd1cd566998cd4f1b3c55692595dfea71ab13083ddf167f554ba30b",
+  "result": {
+    "arithmetic": "exact rational python-flint",
+    "elapsedSeconds": 22.69318015599856,
+    "error": "Requested actual RHS group prefix verified; resume remaining columns",
+    "format": "r150-zero-sixth-actual-rhs-columns-continuation-v1",
+    "scriptSHA256": "a0fbc76c3ae615dbdd1a9bd84ef47812b8b93071cad4b40e21002a5256694cca",
+    "status": "incomplete",
+    "parameters": {
+      "actualMiddleRHSColumnBitLengths": [
+        {
+          "column": 0,
+          "maxDenominatorBits": 178,
+          "maxNumeratorBits": 147,
+          "nonzeroCoordinates": 765
+        },
+        {
+          "column": 1,
+          "maxDenominatorBits": 281,
+          "maxNumeratorBits": 258,
+          "nonzeroCoordinates": 2295
+        },
+        {
+          "column": 2,
+          "maxDenominatorBits": 52744,
+          "maxNumeratorBits": 52707,
+          "nonzeroCoordinates": 2295
+        },
+        {
+          "column": 3,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        },
+        {
+          "column": 4,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        },
+        {
+          "column": 5,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        },
+        {
+          "column": 6,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        },
+        {
+          "column": 7,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        },
+        {
+          "column": 8,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        },
+        {
+          "column": 9,
+          "maxDenominatorBits": 0,
+          "maxNumeratorBits": 0,
+          "nonzeroCoordinates": 0
+        }
+      ],
+      "actualTopColumnBitLengths": [
+        {
+          "column": 0,
+          "maxDenominatorBits": 181,
+          "maxNumeratorBits": 139,
+          "nonzeroCoordinates": 495
+        },
+        {
+          "column": 1,
+          "maxDenominatorBits": 284,
+          "maxNumeratorBits": 249,
+          "nonzeroCoordinates": 1484
+        },
+        {
+          "column": 2,
+          "maxDenominatorBits": 52744,
+          "maxNumeratorBits": 52695,
+          "nonzeroCoordinates": 2770
+        },
+        {
+          "column": 3,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        },
+        {
+          "column": 4,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        },
+        {
+          "column": 5,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        },
+        {
+          "column": 6,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        },
+        {
+          "column": 7,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        },
+        {
+          "column": 8,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        },
+        {
+          "column": 9,
+          "maxDenominatorBits": 1,
+          "maxNumeratorBits": 1,
+          "nonzeroCoordinates": 1
+        }
+      ],
+      "actualTopPayloadIsOnlyCompleteKernel": true,
+      "adoptedVerifiedAncestorPhases": {
+        "sixth-residuals": {
+          "bytes": 211242,
+          "file": "sixth-residuals.json.gz",
+          "matrixSHA256": "1ce58e3ce18ed349b25b60101888e40176db70024c7f354005cac0a43362d0d8",
+          "sha256": "d4c8142e2d3d80cc73f21454aed839d945331bb2f0a4a75645d9a2da879e5472",
+          "shape": [
+            6188,
+            7
+          ],
+          "verified": true
+        },
+        "top-kernel": {
+          "bytes": 43242447,
+          "file": "top-kernel.json.gz",
+          "matrixSHA256": "2bc2abc3ce44e5ba407519e90b8ec472243ff5711cce7d90aac61edcc8c77b52",
+          "sha256": "f36b8e5566aa7f6975eb65fed151b702d2e9c71abaf9919e880d2101dece59ad",
+          "shape": [
+            2779,
+            10
+          ],
+          "verified": true
+        }
+      },
+      "adoptedVerifiedUnitPhases": {
+        "middle-actual-rhs": {
+          "bytes": 36203917,
+          "file": "middle-actual-rhs.json.gz",
+          "matrixSHA256": "a6532697480d964c38cbf4c3289f5afa324883ba4fbe688de817d665f184e4f3",
+          "sha256": "b58b78d89410a74525460ab47f24e9c9b6044866b686b839c97787f30b3bc95f",
+          "shape": [
+            2295,
+            10
+          ],
+          "verified": true
+        },
+        "middle-unit-constant-kernel": {
+          "bytes": 22845,
+          "file": "middle-unit-constant-kernel.json.gz",
+          "matrixSHA256": "2314aa5e592d3e397fdbfc0dd76b1b31f4bb4b6f10474b2be651d2c7808985b5",
+          "sha256": "526a9229f01cced209a00a23dc725a350e97b11dab7abad6716e972b1af238c5",
+          "shape": [
+            990,
+            2
+          ],
+          "verified": true
+        },
+        "middle-unit-unit": {
+          "bytes": 78392,
+          "file": "middle-unit-unit.json.gz",
+          "matrixSHA256": "f412b29faed54bc76ffd67cf6d99d2cbedc313c4f4a1cb9a8ec248dd6d3a1ab5",
+          "sha256": "1afff063fc00b7ccc3d6feef35345e4e4f4663766a50de8801b4952893cacd5c",
+          "shape": [
+            988,
+            988
+          ],
+          "verified": true
+        }
+      },
+      "all17PureOriginalCoefficientsThroughOrder6Verified": true,
+      "all2805OriginalTopKernelRowsVerified": true,
+      "all4367TargetCoordinatesRetainedModuloExact20PureKernel": true,
+      "all6188OriginalSourcesRetained": true,
+      "all990x7PaidLambda4ThreeEntriesZero": true,
+      "all990x7PaidLambda5ThreeEntriesZero": true,
+      "allPaidFifthCanonicalHashesVerified": true,
+      "allPaidPhysicalHashesThroughOrder5Verified": true,
+      "allTopHomogeneousKernelColumnsRetained": true,
+      "ancestorBinding": "c72a1f2f398b4a964066621e92426bba93b486e9c94e70d22cd2efee1d5b4ac3",
+      "ancestorCheckpointDirectory": "/home/runner/work/_temp/isp-recovery-session-43702348535/zero-sixth-full-source-checkpoint",
+      "ancestorDirectoryReadOnly": true,
+      "ancestorManifestSHA256": "253d3a21506c7161b8dd5135d4855b79be6de72f85f28a181466b0ae6e16551f",
+      "checkpointBinding": "2ab96ac89edbf80802073e1278419af544682d9d7f6186ce27aa0fcc6559c7da",
+      "checkpointDirectory": "/home/runner/work/_temp/isp-recovery-session-43702348535/zero-sixth-rhs-columns-checkpoint",
+      "checkpointManifestBytes": 3828,
+      "checkpointManifestSHA256": "73b9f98668264d6033c416ceb9a50350e0dc5fcbac8fff90a03c92bd5d0028b6",
+      "checkpointPhases": {
+        "middle-unit-normalized-rhs-0000": {
+          "bytes": 11113,
+          "matrixSHA256": "b3481edc9da1c6324693e6299781c62141e1e7cbf44cde8b2062fdc82cf57d53",
+          "sha256": "15c8033ab6997df42abdd83fa771dda830f76d4b98502ca965c2ba466da407b5",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-primitive-unit": {
+          "bytes": 69827,
+          "matrixSHA256": "846bd38a7977a4f016bc7d0494fd81cf4a12937994c623e3f6f7205ea45d85b1",
+          "sha256": "5966ddd822c9f1c4bbbdf5628cafdd11641cfdc67ef28f851efdc57cf2f8bc8d",
+          "shape": [
+            988,
+            988
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0000": {
+          "bytes": 1204239,
+          "matrixSHA256": "8f0199b3cf6b5cbcd129c712d82c1290a3cdec12c0e1fa20045c2394efe25f81",
+          "sha256": "c432a7af453320965e07e7d2b0a7a3e2761d09d345c4c2f66b089dab0ac82c89",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0003": {
+          "bytes": 590,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "476489db9bffdf4e1301a653565ba55c559d77ab501cf623f4875ead89765134",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0004": {
+          "bytes": 591,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "86c7789ba96be4c7b1e278a569db2597535b03bb867a4c1fce6303b11217e843",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0005": {
+          "bytes": 590,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "ce77d79e1742a64dd04dffc5176e9ac00bde47e8112c8719dfe9cfdaf691618f",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0006": {
+          "bytes": 590,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "496b9ec171ce378abc55c6a9883989cd231e4184958989a573f65f45da25a704",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0007": {
+          "bytes": 591,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "3b108c7f46b0e452fdff447c51c8c8791191c887a8879e9a2e7f92dee2b5e7f4",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0008": {
+          "bytes": 590,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "990cada0ca2f1042e90c9a63ba27e4ffff79f509f449667b8f09f6cca428319d",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        },
+        "middle-unit-rhs-column-0009": {
+          "bytes": 591,
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "sha256": "7ec87c810ff382255b403128b1d2e54466822418b31dd194b7cc544d46f7c957",
+          "shape": [
+            988,
+            1
+          ],
+          "verified": true
+        }
+      },
+      "checkpointSemanticInputs": {
+        "ancestorBinding": "c72a1f2f398b4a964066621e92426bba93b486e9c94e70d22cd2efee1d5b4ac3",
+        "ancestorManifest": "253d3a21506c7161b8dd5135d4855b79be6de72f85f28a181466b0ae6e16551f",
+        "ancestorPhases": {
+          "sixth-residuals": {
+            "bytes": 211242,
+            "file": "sixth-residuals.json.gz",
+            "matrixSHA256": "1ce58e3ce18ed349b25b60101888e40176db70024c7f354005cac0a43362d0d8",
+            "sha256": "d4c8142e2d3d80cc73f21454aed839d945331bb2f0a4a75645d9a2da879e5472",
+            "shape": [
+              6188,
+              7
+            ],
+            "verified": true
+          },
+          "top-kernel": {
+            "bytes": 43242447,
+            "file": "top-kernel.json.gz",
+            "matrixSHA256": "2bc2abc3ce44e5ba407519e90b8ec472243ff5711cce7d90aac61edcc8c77b52",
+            "sha256": "f36b8e5566aa7f6975eb65fed151b702d2e9c71abaf9919e880d2101dece59ad",
+            "shape": [
+              2779,
+              10
+            ],
+            "verified": true
+          }
+        },
+        "constantUnitHelper": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5",
+        "continuation": "a0fbc76c3ae615dbdd1a9bd84ef47812b8b93071cad4b40e21002a5256694cca",
+        "paidConstantUnitAncestor": {
+          "binding": "b850dd94e0e26a6f5d69a94805bf31a00c037db112c97e404aae30012d5bd8fc",
+          "manifestSHA256": "aaf1e88407f4028b7e442b8cd14f051953feac7a8b61239a1ad57814f3b1fd0b",
+          "phases": {
+            "middle-actual-rhs": {
+              "bytes": 36203917,
+              "file": "middle-actual-rhs.json.gz",
+              "matrixSHA256": "a6532697480d964c38cbf4c3289f5afa324883ba4fbe688de817d665f184e4f3",
+              "sha256": "b58b78d89410a74525460ab47f24e9c9b6044866b686b839c97787f30b3bc95f",
+              "shape": [
+                2295,
+                10
+              ],
+              "verified": true
+            },
+            "middle-unit-constant-kernel": {
+              "bytes": 22845,
+              "file": "middle-unit-constant-kernel.json.gz",
+              "matrixSHA256": "2314aa5e592d3e397fdbfc0dd76b1b31f4bb4b6f10474b2be651d2c7808985b5",
+              "sha256": "526a9229f01cced209a00a23dc725a350e97b11dab7abad6716e972b1af238c5",
+              "shape": [
+                990,
+                2
+              ],
+              "verified": true
+            },
+            "middle-unit-unit": {
+              "bytes": 78392,
+              "file": "middle-unit-unit.json.gz",
+              "matrixSHA256": "f412b29faed54bc76ffd67cf6d99d2cbedc313c4f4a1cb9a8ec248dd6d3a1ab5",
+              "sha256": "1afff063fc00b7ccc3d6feef35345e4e4f4663766a50de8801b4952893cacd5c",
+              "shape": [
+                988,
+                988
+              ],
+              "verified": true
+            }
+          },
+          "producerDriverSHA256": "f349e04b04b07473accbf3bd7e048f047692e47fe54032e62b9a71e4f355cba8",
+          "producerHelperSHA256": "2d678264333a1edf3ed599e22bbdfc53b9eb95d9001f71a33f526e65c012c964"
+        },
+        "paidOriginalSemanticInputs": {
+          "actions": "4e63c72c550e8f90c022b086d3758f8e7b12edf4fb16a0ef387bc1a92f97366a",
+          "exporter": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+          "first": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+          "packFile": "74eddad8e0a7462ed9821c6e31bab22aa90310045d24a5de052323c98e1d002f",
+          "packLogical": "cf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640",
+          "packProducerBinding": "7291adb44a00beeda81ca10eafb4a7431dd40341907a399833dc0778b00b4e11",
+          "paidFifth": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41",
+          "script": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+        },
+        "parentDriver": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+      },
+      "constantUnitHelperSHA256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5",
+      "lambda2NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda2NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "lambda3NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda3NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "lambda4NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda4NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "lambda5NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda5NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "largeDataUploadedOrCommitted": false,
+      "lastSavedPhase": "middle-unit-rhs-column-0000",
+      "lowResidualSHA256": "e16d28044a021f9b2d1784f48cbd136b7ab4e111361a81a9bcbde31682423793",
+      "maxNewUnitGroups": 1,
+      "memoryMiB": 8192,
+      "middle-unitActualRHSColumns": {
+        "0": {
+          "algorithm": "dixon",
+          "matrixSHA256": "8f0199b3cf6b5cbcd129c712d82c1290a3cdec12c0e1fa20045c2394efe25f81",
+          "maxPrimitiveRHSBits": 176,
+          "nativeSeconds": 1.376686214000074,
+          "originalColumn": 0,
+          "verified": true
+        },
+        "3": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 3,
+          "verified": true
+        },
+        "4": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 4,
+          "verified": true
+        },
+        "5": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 5,
+          "verified": true
+        },
+        "6": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 6,
+          "verified": true
+        },
+        "7": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 7,
+          "verified": true
+        },
+        "8": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 8,
+          "verified": true
+        },
+        "9": {
+          "algorithm": "exact-zero-RHS",
+          "matrixSHA256": "5ed2c6ae4827407c04636014df0b58a3af0d87217ca9ecb6d6ad1ec65f6b62b8",
+          "nativeSeconds": 0.0,
+          "originalColumn": 9,
+          "verified": true
+        }
+      },
+      "middle-unitActualRHSSolvePolicy": {
+        "actualColumns": 10,
+        "actualOriginalRows": 988,
+        "algorithm": "dixon",
+        "columnsPerNativeCall": 1,
+        "independentRHSColumnScaleRestoredBeforeOriginalProduct": true,
+        "maximumNewGroupsThisInvocation": 1,
+        "noCompleteInverseConstructed": true,
+        "unitRowScalingIndependentOfRHS": true
+      },
+      "middle-unitConstantUnit": {
+        "allHomogeneousKernelColumnsRetained": true,
+        "constantKernelSHA256": "2314aa5e592d3e397fdbfc0dd76b1b31f4bb4b6f10474b2be651d2c7808985b5",
+        "constantSHA256": "44bfa088c306186f920e996e8204ef6b6b7c706196bc11f88ca1594c90e9d326",
+        "homogeneousKernelDimension": 2,
+        "pivotColumnsSHA256": "ae122f39fcc855605a2e9a55f55c35f152157316fd1977b261af2a47652a7d74",
+        "primitiveFieldRank": 986,
+        "rank": 988,
+        "shape": [
+          2295,
+          990
+        ],
+        "unitRowsSHA256": "ebd7bd8e743370cee9c16cd9de0765ba5f91ce4fb5a1b210919ce0cc86696715",
+        "unitSHA256": "f412b29faed54bc76ffd67cf6d99d2cbedc313c4f4a1cb9a8ec248dd6d3a1ab5",
+        "unitSelectionMethod": "exact-rational-constant-transpose"
+      },
+      "middle-unitPrimitiveUnit": {
+        "RHSNotUsedToScaleUnit": true,
+        "maxPrimitiveCoefficientBits": 130,
+        "noCompleteInverseConstructed": true,
+        "primitiveUnitSHA256": "846bd38a7977a4f016bc7d0494fd81cf4a12937994c623e3f6f7205ea45d85b1",
+        "shape": [
+          988,
+          988
+        ],
+        "unitSHA256": "f412b29faed54bc76ffd67cf6d99d2cbedc313c4f4a1cb9a8ec248dd6d3a1ab5"
+      },
+      "middle-unitRemainingRHSExecutionOrder": [
+        {
+          "actualInputMaxBits": 178,
+          "originalColumn": 0
+        },
+        {
+          "actualInputMaxBits": 281,
+          "originalColumn": 1
+        },
+        {
+          "actualInputMaxBits": 52744,
+          "originalColumn": 2
+        }
+      ],
+      "middleResidualSHA256": "b07e95c636b8c79fc27fa66eaf23e863abb983d8954fd040f0117c12082c1001",
+      "naturalParameter": "s",
+      "newCheckpointBinding": "2ab96ac89edbf80802073e1278419af544682d9d7f6186ce27aa0fcc6559c7da",
+      "newOriginalCoefficientOrder": 6,
+      "noCompleteInverseConstructed": true,
+      "noEarlierLeftJetEliminationRecomputed": true,
+      "noLargeAugmentedRationalRref": true,
+      "noMiddleConstantRrefRepeated": true,
+      "noMiddleRHSReconstructed": true,
+      "noTopRrefRecomputed": true,
+      "noUnverifiedCandidateCounted": true,
+      "onlyActualRHSColumnsSolved": true,
+      "originalPhysicalHashesThroughOrder6": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "061d3fef70b1ddc55fadf19bb6ab9dff3e16f217ec5bd35a9329f1df871e1bc4",
+        "L_y1": "e9c366c441ca83d6b637ca5538fb217db66afd9f33d37a2f56381fcbe54782cc",
+        "L_y2": "de009a98b8aef5ffc0705208e69f176f5443d51d34334b411328adfb88870696",
+        "L_y3": "cb4db866cb233d56cd269570651a223b8dc15b75112ee4e13705996505417a82",
+        "L_y4": "73162281f28bb682d8186c5cba3cfd89c2d9b10826de0e52a59d9fabf7f3a0a2",
+        "L_y5": "16d95661321becdeb2278056b8ceb6c5322a19e75cf7df9ac8b46123baee3e72",
+        "L_y6": "744ac2ec4823cb0f50faf332659915dfb85e72ec091b4f58bbe0762b0fb655a8",
+        "P0": "e668cfd50415292eaf88d390acc2ce34d4e35b8e773fb3e70ea84c0bc706c01f",
+        "P1": "ada475352f5bac004290df1170398188720126005198248217d68735e61b5043",
+        "P2": "4c1b4be738601fd7b5ad09117390c2ec4988b60f585886d2153706b824029460",
+        "P3": "9149b9496dd202cd4882a181cca2800c3303cedc089bf8cf38426611a9f60fe3",
+        "P4": "ea9cb900008a8239dc155a4f21238f08b6db5761c978f48e55712b9e7d6f967c",
+        "P5": "4b6813118845e3d4b44750ef494a73ed9e756256729e7a217de855ebcbcce985",
+        "P6": "3261e27f357786f90d9740be31d474c641463865f68807b38c97afb973b0a75c"
+      },
+      "paidCochainExporterSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+      "paidConstantUnitAncestorBinding": "b850dd94e0e26a6f5d69a94805bf31a00c037db112c97e404aae30012d5bd8fc",
+      "paidConstantUnitDirectoryReadOnly": true,
+      "paidConstantUnitManifestSHA256": "aaf1e88407f4028b7e442b8cd14f051953feac7a8b61239a1ad57814f3b1fd0b",
+      "paidFifthCochainFileSHA256": "74eddad8e0a7462ed9821c6e31bab22aa90310045d24a5de052323c98e1d002f",
+      "paidFifthCochainsSHA256": "cf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640",
+      "paidFifthProducerBinding": "7291adb44a00beeda81ca10eafb4a7431dd40341907a399833dc0778b00b4e11",
+      "paidFifthReceiptSHA256": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41",
+      "paidUnitCheckpointDirectory": "/home/runner/work/_temp/isp-recovery-session-43702348535/zero-sixth-unit-continuation-checkpoint",
+      "parentDriverSHA256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2",
+      "resumedPhases": [
+        "sixth-residuals",
+        "top-kernel",
+        "middle-actual-rhs",
+        "middle-unit-constant-kernel",
+        "middle-unit-unit"
+      ],
+      "sharedSeconds": 600.0,
+      "sourceMultiplierTransport": "m_j=sum_(k<=j)binom(j,k)s^(j-k)n_k on ALL degree<=3 multipliers",
+      "sourceStrata": [
+        170,
+        918,
+        2295,
+        2805
+      ],
+      "targetLeftTransport": "A_new=T A_old V; lambda_old=T^T lambda_new",
+      "temporaryOnly": true,
+      "through": "final",
+      "topActualRrefMatrixSHA256": "9a7e1cc6a2d268be66ec64a4a56d686e6d0f9ce04a631ec8e5fba0c607146cc5",
+      "topAugmentedRank": 2769,
+      "topKernelDimension": 10,
+      "topKernelSHA256": "2bc2abc3ce44e5ba407519e90b8ec472243ff5711cce7d90aac61edcc8c77b52",
+      "topLogicalAugmentedShape": [
+        2805,
+        2779
+      ],
+      "topMatrixShape": [
+        2805,
+        2772
+      ],
+      "topResidualIsExactlyZero": true,
+      "topResidualSHA256": "48f141e1aa932d698ccefd3b15c93abbdd8d6e9f19f1503f398199ab83b1459b",
+      "topSeed2Lambda4ThreeIdentityVerified": true,
+      "topSixthResidualIsExactlyZero": true,
+      "unitAlgorithm": "dixon",
+      "unitBatchColumns": 1
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 12:17:43 UTC",
+      "beforeReadCommit": "0e89220bae774c84c590400dd2ddbeafb9f810c1",
+      "originMainAfterPull": "4a5c191e7774d0520742119ecda4ede7cf2a0784",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 12:18:06 UTC",
+      "beforeReadCommit": "4a5c191e7774d0520742119ecda4ede7cf2a0784",
+      "originMainAfterPull": "4a5c191e7774d0520742119ecda4ede7cf2a0784",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 47,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 16122,
+    "logicalJsonSHA256": "cb5ccb634d1a890f7550e1454adbb70fe85bc7d3cc8a9a31f549a8fb1bf291dd",
+    "itemCount": 47
+  },
+  "lastRulesReadCommit": "4a5c191e7774d0520742119ecda4ede7cf2a0784",
+  "summaryExcludesRecomputableArraysOnly": false
+}
