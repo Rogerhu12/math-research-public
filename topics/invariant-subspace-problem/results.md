@@ -449,3 +449,7 @@
 ## R271：真实 joined 商的创建来源同余与完整来源 Gram（2026-11-15）
 
 [完整证明](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)识别闭和Mq=K+Hhi,q=kerQq(C+D)，其残量由同一低forcing杀掉，从而全部j有P_Mq(D*)^ji0=(−1)^jZ_Mq(C*)^j；真K与同一物理gap也成立。平方自由真创建列σj²=(j!)²ej(b²)正交，故G≤[Σ(C*)^jC^j/σj²]^-1，并保joined/K共同2×2残余。deg p≤q时原两端Riesz源同合同，完整投影仍含共同PKqF左零源。保gap核反馈、真实全E帽返回最小化及全部自然域；没有把该上界反作ordinary右费逆界，N=M仍开。
+
+## R150：饱和商的31缺陷由原13左核的完整小presentation决定（2026-11-15）
+
+[独立证明](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)用原π满射与全部fullgeneric13左核给G=V/N≅imQᵀ。输入通过逐系数31单位分母门后，H=cokerQᵀ有限D31且J=Tor(G/pG)≅H[p]，χJ=ΔH,F31/barΔH,Q。十个完整独立Dlin²轴D-free，剩原3×30的maxminor gcd恰等211个显式表达式的gcd；两域独立计算q，完整保E8在s1/s2的约化碰撞。小消费者只读paid157898B相位与父回执，逐2015原坐标核验；本条是有明确整性输入条件的完整理论/执行接口，不预报J维数或目标成员。
