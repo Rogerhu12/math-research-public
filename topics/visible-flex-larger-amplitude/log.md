@@ -145,3 +145,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:55:10 UTC /root — 117公开运行已启动
 
 run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c/compute132744387346，07:53:57UTC创建，实际元数据已通过81+2原源/输入/recipe身份，正在原78源恢复；尚未读回科学结果。继续118新增真实midpoint471及非零112薄入口。
+
+## 2026-11-15 07:58:35 UTC /root — actual117新六列响应及八次接受
+
+[实际117](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679d，8接受/12trial，W1234.283357373182→1056.4579275781548，全部final仍false。初完整3×6最小奇异33.56150645878255、old4 .19378008756935441，末18.220133414140268；11内层域异常仅dir0/2全步，多个inner tol=false仍原门接受。初末六列FD、新scalar域及三odd冻结原平方检查已读，summary88323B/14b3c8af/statusd6d16e0d，无raw入库。root继续119独立8批，其他代理接118/非零112/同场几何。

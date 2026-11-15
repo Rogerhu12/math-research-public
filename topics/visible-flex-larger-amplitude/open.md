@@ -34,6 +34,8 @@
 
 [117六控制实际入口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)已发布 family79464f9c/search e154afe2/reader3e2c0515/recipe4f40206d/request7147dbda/workflowf3e7a17e，父22源→新24、81+2 pins。实际116末四p映射[p1,p2,p3,0,theta,0]，旧四列[0,1,2,4]；完整3×6/9×6及2normal+4tangent，原8方向/20外档/12×20校正和原全部门保持。每列FD独立尝试、实际三odd冻结453方形检查、新scalar域重付。初radius明确重置.1；尚无117响应或接受，函数独立不冒响应补秩。
 
+[117实际](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679d：8方向12trial全接受，W1234.283357373182→1056.4579275781548，最终unit首项−45.966457512168795且全部final false。初3×6最小奇异33.56150645878255对同点old4 .19378008756935441，末18.220133414140268；六列FD均有效、新Arb927叶0未解，非严格横截或非零场。119由真实六末p最多8个独立原8方向批次，各radius=.1 reset，原门/预算不变，真实child参数及own24来源传递；无119结果。
+
 ### 1D. 真正接受后的同live fullDN
 
 [四控制到完整112的源接口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)已查明：ThetaFrozenProfile仍为三active/453维，原main无λ且硬取原前三目标，旧v3 scalar/warm不能吃新四参数后改标签。需要独立明示新scalar/冻结坐标/λ目标和初猜层，保原112右行、高109自由core、rawφ切向公式与真实H/native/finalJ/audit；非零完整场未有，不预选λ或伪造accepted。

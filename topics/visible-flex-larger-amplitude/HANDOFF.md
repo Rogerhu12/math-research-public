@@ -32,15 +32,17 @@
 
 [持久128缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)、[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[接线](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：F与独立gram C分别求导、不默C=F_e，小残差不界D残差，不冒IEEE光滑/新J；113不改，等原输出。
 
-### 117 六控制，从真实116末点扩展
+### 117已读回；119独立原批次接续
 
-[115](notes/2026-11-15-actual115-four-control-eight-real-acceptances.md)run43689328906：8接受/14trial，W6958.22576276662→1236.0078724708558。[116](notes/2026-11-15-actual116-eight-smaller-acceptances-and-weaker-response.md)run43690052251/source4f4dbf70：8接受/27trial、W1236.0078724708571→1234.283357373182；末unit首项−49.684657180215，全部final false。末radius.000390625，完整3×4最小奇异.19378008756935441，弱响应不冒极小/无根。
+[117实际](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c，compute132744387346/report132744596337完成。[源接口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)：family79464f9c/search e154afe2/reader3e2c0515/recipe4f40206d/request7147dbda/workflowf3e7a17e，81+2pins、父22→新24。旧115/116源不改。
 
-116末p=[.43234616540612814,.1783653778144092,.5751222087274236,.016140885548593657]；summary77038B/d24aa292（不含LF）、status1603983B/5e5b634c。四列FD不等最弱奇异相对误差界。新Arb841叶0未解、theta冻结原3p/K3/T112零corecircle通过，Gauss兼容/C²/roundoff/Frenet及非零场未付。旧family9222390b/search3ca1bdf7/reader c0602e7a冻结。
+8方向12trial全8接受，W1234.283357373182→1056.4579275781548，所有unit/full112/native/final false。初完整3×6最小奇异33.56150645878255、同点old4[0,1,2,4]为.19378008756935441；末18.220133414140268，仍为浮点证据。末六p=[.42123313016645575,.2168136988206389,.5629172159488391,−.1326982215718915,.00881492232668194,.08635618490039039]，unit首项−45.966457512168795，radius.0125。summary88323B/14b3c8af无LF、status1210862B/d6d16e0d；11内层域异常仅dir0/2全步。
 
-[117完整接口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)已发布，唯一request push触发：参数[p1,p2,p3,theta1,theta2,theta3]，起点[p1,p2,p3,0,116theta,0]，old4列[0,1,2,4]；新family79464f9c/search e154afe2/reader3e2c0515。完整3×6/9×6、2normal+4tangent、原8×20/12×20与全门保留；六列FD均尝试、三odd冻结原平方检查、新scalar域重付。recipe4f40206d/request7147dbda/workflowf3e7a17e，81+2 pin及父22→新24闭包；初radius明确重置.1。run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c/compute132744387346已启动（07:53:57UTC），已过输入pins，尚在原source恢复；科学结果待读。原四控制8批暂停。
+初末六列FD三步均有效；同run退化25数组byte同；新Arb927叶0未解及三odd冻结原3p/K3/T112/453零circle检查通过。Gauss兼容/C²/roundoff/Frenet、高109/横截/非零场仍未付，不能把数值响应或零core检查冒接受。
 
-[非零112入口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)：旧main硬取coefficients[:3]/v3warm、无λ。amplitude写独立六系数/三odd冻结profile、λ目标/真实初猜薄入口，保原112/高109/rawφ/当前H/native/finalJ/audit，不伪accepted；目前无低三接受/非零场/request。实际接受后全部设计冻结转450维same-g。
+root接119：由真实117六末p做最多8个独立原8方向批次，各radius=.1明确reset；真实child末p/own24闭包传下一recipe，全部原门/20外档/12×20保留。原unit/full112成立、无接受、非预算stop或资源中断即退出编排转相应工作；无119run/结果。四控制8批已放下。
+
+[非零112入口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)：旧main硬取coefficients[:3]/v3warm、无λ。amplitude写独立六系数/三odd冻结profile、λ目标/真实初猜薄入口，保112/高109/rawφ/当前H/native/finalJ/audit，不伪accepted；尚无低三接受或非零request。实际接受后全设计冻结转450维same-g。
 
 ### 110已完成；118补真实midpoint471
 
