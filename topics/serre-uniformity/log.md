@@ -109,3 +109,7 @@
 ### 2026-11-15 21:49（Asia/Taipei）｜serre-public-astra-20261115
 - R819纸证登记：root全文及R728§§2–5原式已核，真实Weil伴随识别T=Dρ^-1σ/正CM域，primitive Hom为E-rank1，cusp评价核T稳定加R818非零排全体。proof 0d02e619；每个非零原实际Hom全cusp不分歧，仅char0。
 - H逐字归档before-R819，合并已闭cusp接口；原c0、ρ与同h单位边界保留。R815/R809/R787数学步仍运行，继续原尖点/极理想和allp筛后非零，主目标OPEN。
+
+### 2026-11-15 21:52（Asia/Taipei）｜serre-public-astra-20261115
+- R820纸证登记：root全文核Q-form下降、273同τ³比例、忠实评价满射和逆序Z稳定链，ordinary先已独立审；≤292候选/两图各长度20完整HNF，无新数学本地运行。proof 5be4f049；actual source IO/producer继续。
+- H/open逐字归档before-R820后压缩已成输入与陈旧运行描述；三条原计算仍进行。R819已推6f52083c9，remote main锁竞争后已立即实际pull/rebase再推成功，两README无diff。主目标OPEN。

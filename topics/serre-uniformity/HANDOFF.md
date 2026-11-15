@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：7c2ddc20f5512ab52ae4d022f41a19d397d3a97e**（2026-11-15T13:50:26.596432+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R819前H](notes/2026-11-15-handoff-before-R819.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
+**已读规则提交：ec7b644629027f4b40223ae8a3399362adb0c83b**（2026-11-15T13:52:09.369647+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R820前H](notes/2026-11-15-handoff-before-R820.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -22,15 +22,15 @@
 
 ## 已完成的实际输入，不重算
 
-**R806准确完整成功**：[结果](results/R806-certified-original-primitive-multiplication.md)，run43707290840/source75b1d56c，w0=e2/n1，cyclic p1000000007/z0=0/det489861234。34×8列全820，10603输出/2580原输入与冻结verify全核。原artifact14161637987至Nov16 12:25UTC，较小续接14162500418至12:38UTC；保正规基，不把primitive幂环当正规环。
-
-**R813两S3准确成功、完整IO已核**：run43715253991/source74f5296a，[证明](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[方法](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。两Q右端432 Dixon位/full820，g/h原scale均6724/1；core67.613511668秒。原451 ZIP成员/完整manifest/输入carrier逐SHA及冻结wrapper.verify通过，本地未import core/flint。artifact14162633303/20102979B/ZIP0850402e至Nov16 12:58UTC；cert e3c2e041、coordinates29bedd33。首scope无Mg/Mh/Γ，[真实结果](results/R813-certified-original-Wronskian-normal-vectors.md)已登记；core830ae652/wrappere838f3ab不改。
-
-既成[R801长尾](results/R801-certified-original-power6-to8-long-tails.md)、[R803 M6](results/R803-certified-original-M6-mixed-Hodge-ratios.md)、[R805整基](results/R805-certified-original-affine-pencil-free-basis.md)、[R807清极](results/R807-certified-original-M6-pole-clearing.md)均已完整IO；V6至141/V7至175/V8及旧V2..5至195，84M6列368位，原整基权1/144/127，θ真实rank2/kernel3且λ3/4零。全部source/run/SHA见结果/归档；R797/799/800已核，κ^N只一次，禁重算旧阶段。
+**既成输入均已完整IO，禁止重算**：[R806原primitive](results/R806-certified-original-primitive-multiplication.md) run43707290840/source75b1d56c，w0=e2/n1，cyclic p1000000007/z0=0/det489861234，34×8列full820；10603输出/2580输入全核。原artifact14161637987至Nov16 12:25UTC，续接14162500418至12:38UTC。正规环不换primitive幂环。
+[R813两个原S3](results/R813-certified-original-Wronskian-normal-vectors.md) run43715253991/source74f5296a，432 Dixon位/full820，g/h scale6724/1，core67.613511668秒；451ZIP/449manifest/726输入及冻结verify全核。artifact14162633303/ZIP0850402e至Nov16 12:58UTC，core830ae652/wrappere838f3ab。不重复Wronskian。
+R801长尾、R803混合比、R805整基、R807清极与R797/799/800全部实际结果/source/SHA在各certified文件和归档；V6至141/V7至175/V8及旧V2..5至195，原基权1/144/127，θ真实rank2/kernel3且λ3/4零。κ^N只一次。
 
 **R814/R817已证**：[约化cusp/降重数](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)用整个基环完成乘积/分歧积分证C=im[Γ,Mg]为约化cusps；N=im[H,ΓH+MgH′]为完整理想，整理想商P=(N:_R C)降正重数一，sqrtI=(I:_R P)，保护m0。δσ=tδτ及−t²Mgσdiag eps保留，首剥后可省C商。[两算子认证](results/R817-original-normal-derivation-without-separate-h-multiplier.md)由T_G=[G,W]+MgW′、两列和完整[T_G,W]给真实Γ；先断言We0=e1。嵌套残差次数6须七准确点，不能沿旧已知Mh的六点。实际Γ/完整I仍缺。
 
 原两图E=B+3D，B=20cusps+P0、P1不分歧，D最大569/V3两flip/padding≤297P。原G=u/v、η principal mathcalG³、同源mathcalG⁹R、全部b⁷/Nb/反实Lambda/s/R794列作用常数不变。R793/R798/R802已有证明不代实际极理想/η。
+
+**R820已证、工程准备**：[原20维cusp有限代数](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。原273旧S3常数项同除N0，得F20中的β值与Z=z(c)；τ/σ非零由旧原常数＋单轨道，两个图均含全部cusps。R806 Q乘法/cyclic给Q-form，忠实扩张给评价满射；逆索引Z链≤292候选/20次扩维生成完整canonical下三角HNF，总长度20/≤5440非monic位置。第二图同F用Z^-1与Z^-eps；不假设常数E rank20或Z primitive。实际rank/minor/两图理想待本公开Actions，不等R815，不重生Fourier。
 
 ## 全p原sigma与新的cusp桥
 

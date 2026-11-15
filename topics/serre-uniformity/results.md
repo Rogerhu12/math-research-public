@@ -441,3 +441,5 @@
 - **R811 generic模块实际验证成功（非原CM结果）**：[结果](results/R811-certified-generic-polynomial-module-validation.md)。公开run43719858329/source3018f798在Q(c,ζ)、c⁷=2上准确消去(u−α)，两图闭式H/W、原P完整方程、Laurent互含和degree1全过；四个真实exit97边界续算后五数学文件字节SHA均c5cd89b2。2.405270309秒；原ZIP/summary/65个直接引用spec已IO核。仍待原A/B，未给原极除子。
 
 - **R819（已证明）**：[原primitive Hom域与每个非零方向的全cusp不分歧](results/R819-original-primitive-Hom-field-and-all-cusp-nonramification.md)。经原R728 Weil伴随精确核T=Dρ^-1σ与正CM作用，Hom是K[T]=Q(ζ_(p+1))的rank1模；不是L向量空间。由单cusp轨道和ωTv=ρσωv，评价核是域子模，R818真实非零评价排全体，故全部非零原实际Hom在每cusp不分歧。保原c0与比较尺度；不推出p单位、cusp像或高度。SHA 0d02e619f9cb85985bbeb0445f4fabbd68bc719066b5a0aad92a8824833a03f6。
+
+- **R820（已证明，实际小消费者准备）**：[原cusp有限代数与两图完整Hermite理想](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。由真实R806 Q乘法/cyclic下降正规Q-form，273旧S3常数项同尺度比给F20评价；原两锚点均避cusps。逆序Z稳定链≤292候选/20扩维直接给canonical下三角HNF，实际20阶minor＋全部关系＋总长度20认证完整kernel。第二图由同F的Z^-1与Z^-eps运输，不重生Fourier，不假设E常数秩或Z primitive。新算术尚待Actions。SHA 5be4f04927348b1e73812d33893ce828085dc6121aaf65d4d0696378b52decda。
