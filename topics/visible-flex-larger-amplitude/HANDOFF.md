@@ -4,4 +4,4 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 07:29:08 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 96cc8ae365722f7f3d72eba66a8fd3d65fe06daa。
+规则同步记录：2026-11-15 07:29:14 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 fcf25d6ce7488eafb07cd8778c8ed7cf129335ca。
