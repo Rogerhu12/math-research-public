@@ -38,11 +38,11 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 
 ## 临时数学会话与恢复
 
-- **旧session43679903558于09:57已结束，旧临时数组均丢。** 旧32层因summary累积pulls超100KB未推，现已按用户规则在新run完整重做并发表243。全部中断SHA/旧恢复链见[最小恢复计划](notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md)和[本次H全文](notes/2026-11-15-handoff-after-unpublished-natural32-789f.md)。
-- 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。selected-natural-u-minimal-rebuild32已实际完成新输入重建与32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
+- 旧session43679903558于09:57结束，旧大数组已丢；未推32层已在新run重做并发表243。历史输入与恢复链见[最小恢复计划](notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md)及本H归档。
+- 活跃run43702348535；唯一请求notes/2026-11-15-r150-recovery-small-session-request-789f.json。9份历史8c6304e原输入均逐SHA核验且只存临时；不碰已删Release。32层的51份旧前缀完整SHA全同，第一Q RREF/33原jet等后继检查点现均可复用。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前∞第五与零第四完整规范均保临时检查点，不重旧大正常形。
-- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接保完整33+36族；∞第五已真成7头、53/47；零第五已入队（SHA94151693、30秒/512MiB）。第六页首次有纯A2乘λ4三normal的2805来源，不得继续删该组。不重复已闭Q RREF。
+- 已实际完成Q一阶33头与两端第四；∞第五7头/53/47，零第五已入队。当前Q第二主pipeline7bceace5、worker a706713b入队300秒/2GiB：先旧1736零行T限制，若rank>9即保T改normal4；否则真选M0/g的31单位、36RHS及全4354乘回。保33/36两自由块，不预填第二rank9。第六端点须新增2805三normal来源。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
