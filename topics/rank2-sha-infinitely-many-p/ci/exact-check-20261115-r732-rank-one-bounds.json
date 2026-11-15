@@ -1,0 +1,23 @@
+{
+  "request_id": "rank2-20261115-r732-exact-rank1",
+  "run_id": 43701949704,
+  "source_commit": "66e8cf02a0e31459fb9b3b50099cbc807c40d177",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r732-two-cubic-rank-one-bounds.py",
+      "script_sha256": "abc12f49db1818351534889f31bd9b7bac7876a78cbd043a060834d97c2a8289",
+      "args": [
+        "--cutoff=512",
+        "--series-terms=144"
+      ],
+      "engine": "python3",
+      "sha256": "318033986371d91ac19c1a6f2977e8f277e5e0eabf9fbed6b976e8f2f1753608",
+      "stdout_bytes": 654,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": "0.9.0",
+  "job_id": 132774806522,
+  "interpretation": "从两曲线方程精确计Euler系数及全有理E1/尾界得到严格正区间；采用的导子10404/root−1须由R732后续完整有限角色证明支付。非挠点已精确核；不把形式负权复L值当Katz非零。"
+}

@@ -84,3 +84,5 @@ R724附录B：原primitive理想射线、严格正径向因子及固定短方向
 - [R730](../results/R730-specified-ramification-class-linear-contact-bound-and-actual-mirror-kernel.md)：已证明原h≤4a_F+8b+3Δ及临界指定分歧类非零，完整FH2商由真实镜轴连接核读取；指定列若被吸收则产生独立原首核，原核一维仍是明确条件。
 
 - R724 附录C：已证明原全O/p²的G/h准确加法交数（含非零p倍），原ψ17高斯指定零平移与完整平移二阶平均分别保留，未推出原严格正性。
+
+- [R732](../results/R732-original-type-five-full-cm13-and-two-eigenlines.md)：已证明原整个五维型5的全CM13算子，最小多项式(T+1)(T+ω²)(T³+ω)、两条z5规范线及全部投影；完整primitive三维块、真实单位门与Katz负一识别仍保。

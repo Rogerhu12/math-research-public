@@ -1157,6 +1157,67 @@ for(const c of candidates){
  const oddP=residualTheta.map(v=>v.slice().reverse());
  const oddAct=P=>mm(odd.N,P.map(v=>[v])).map(r=>r[0]);
  const oddSpan=cols=>elim(Array.from({length:5},(_,j)=>cols.map(v=>v[j]))).rank;
+ // Combine the two already paid tests before imposing a spectral target.
+ // Both q715 and zeta715 have actual J2=1. The reader's q value 50 is
+ // its affine five-row value after the other forty-nine rows were removed.
+ const qOdd=fullFirstSource(diffMatrix,diffOld,as.solution,true).theta_coordinates.slice().reverse();
+ const zOdd=fullFirstSource(diffMatrix,diffOld,an.solution,false).theta_coordinates.slice().reverse();
+ const nullCols=A=>{
+  const e=elim(A),piv=new Set(e.piv),out=[];
+  for(let j=0;j<A[0].length;j++)if(!piv.has(j)){
+   const v=Array(A[0].length).fill(0);v[j]=1;
+   e.piv.forEach((k,i)=>{v[k]=md(-e.reduced[i][j]);});
+   assert(A.every(R=>dot(R,v)===0),"entire joint spectral incidence kernel");
+   out.push(v);
+  }
+  return {rank:e.rank,vectors:out};
+ };
+ const actualResidualTests=er.piv.map(j=>{
+  const v=Array(extcols.length).fill(0);v[j]=1;
+  moreCols.forEach((col,k)=>{v[col]=md(v[col]-as.reduced[k][j]);});
+  assert(augmented.every(R=>dot(R,v)===0),"actual residual tests kill all fifty paid rows");
+  return v;
+ });
+ const combinedSpectralIncidence=(q,z,ker,ar)=>{
+  const A=Array.from({length:q.length},(_,j)=>[q[j],z[j],...ker.map(v=>v[j]),...ar.map(v=>md(-v[j]))]);
+  const n=nullCols(A);
+  const basis=n.vectors.map(v=>{
+   const source=Array.from({length:q.length},(_,j)=>md(v[0]*q[j]+v[1]*z[j]+ker.reduce((r,x,k)=>md(r+v[k+2]*x[j]),0)));
+   const arpart=Array.from({length:q.length},(_,j)=>md(ar.reduce((r,x,k)=>md(r+v[2+ker.length+k]*x[j]),0)));
+   assert(source.every((x,j)=>x===arpart[j]),"joint actual source equals the full arithmetic target");
+   return {q715_scalar:v[0],zeta715_scalar:v[1],original_kernel_coordinates:v.slice(2,2+ker.length),
+     arithmetic_coordinates:v.slice(2+ker.length),actual_J2:md(v[0]+v[1]),pi4_scalar:v[0],
+     all_regular_target_scalar:v[0],complete_source:source};
+  });
+  const jrow=basis.map(v=>v.actual_J2),arimage=basis.map(v=>v.complete_source);
+  return {matrix_rank:n.rank,solution_dimension:basis.length,basis,
+   J2_identically_zero:jrow.every(v=>!v),arithmetic_image_rank:
+    arimage.length?elim(Array.from({length:q.length},(_,j)=>arimage.map(v=>v[j]))).rank:0};
+ };
+ const arOdd=odd.lines.filter(l=>l.order==="divides6").map(l=>l.vector);
+ const combinedOdd=combinedSpectralIncidence(qOdd,zOdd,oddP,arOdd);
+ const combinedEven=combinedSpectralIncidence(cmPq,cmPz,cmPResidual,arVectors);
+ const fixedCombo=qOdd.map((v,j)=>md(23*v-17*zOdd[j]));
+ const fixedSystem=Array.from({length:5},(_,j)=>[
+  ...oddP.map(v=>v[j]),...arOdd.map(v=>md(-v[j]))]);
+ const fixedFit=elim(fixedSystem,fixedCombo.map(v=>md(-v)));
+ const combinedPaidTests={
+  exact_original_targets:{
+   q715:{Pi4:1,regular_targets:1,J2:1,complete_first_Z:0},
+   zeta715:{Pi4:0,regular_targets:0,J2:1,complete_first_Z:0},
+   linear_combination:"a*q715+b*zeta715+u*kernel140+v*kernel147",
+   actual_J2:"a+b; the five-row reader value 50 for q715 is not its J2",
+   all_actual_unit_cuts:"unchanged; only the same full weight is combined"},
+  residual_tests_kill_all_fifty_rows:true,
+  true_type5_two_line_intersection:combinedOdd,
+  inverse_connection_three_line_intersection:combinedEven,
+  fixed_23q_minus17zeta:{
+   actual_J2:6,Pi4_and_regular_scalar:23,reader_value:md(23*paidJReader.symmetric_rhs-17),
+   true_type5_consistent:!fixedFit.inconsistent,true_type5_matrix_rank:fixedFit.rank,
+   correction_and_arithmetic_coordinates:fixedFit.inconsistent?null:fixedFit.solution},
+  scope:"All equations here concern only the exact auxiliary specialization of the original parameter family. No characteristic-zero compatibility or impossibility is inferred."
+ };
+
  const actualOddGeometry={
   construction:"R297 complete norm13 fibers, R307 exact gamma/gammabar derivative y-ratio, actual type5",
   basis:"-sigma^34*x*y*X^j, j=0,...,4; b=1",
@@ -1189,6 +1250,7 @@ for(const c of candidates){
   original_S_line_incidence:originalSIncidence,
   inverse_connection_CM13:cmGeometry,
   actual_type5_CM13:actualOddGeometry,
+  combined_paid_tests:combinedPaidTests,
   residual_polynomial_geometry:residualPolynomialGeometry,
   residual_image:{rank:er.rank,pivot_columns:er.piv,
    basis_columns:er.piv.map(j=>residual.map(R=>R[j])),left_relations:leftResidual},
