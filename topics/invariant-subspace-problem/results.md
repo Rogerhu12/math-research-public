@@ -131,3 +131,8 @@
 ### 2026-11-15：原固定29曲线的外一阶映射单射
 
 [证明与实绩](results/R150-appendix-fixed-koszul-curve-first-outside-rank29-and-no-constant-second-support.md)在2.028866967秒内完成29列精确有理秩，得rank29、固定二阶支撑维数0，不重1603消元。准确区分常组合与允许参数修正的原曲线；现有29/28源因子保持。
+
+
+### 2026-11-15：同选十六阶来源与237阶下界
+
+[实际证明](results/R150-appendix-selected-natural-schur-sixteen-jets-and-mod31-order237.md)保原所有来源身份，新增指数11三次、12两次、13和14各一次；模31指定子式阶≥237。实际数学5.094191522秒，未重前八阶，未据有限精度填完整Smith长度。

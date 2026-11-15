@@ -20,7 +20,7 @@
 - [自然第一连接实绩](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)保原1309常系数/4433参数、全部36原头/4367产品。旧F31rank3/阶≥69独立复核；新增全49连接同3、33完整常项头。deletedQ三行真Qrank3给fullA0|I=4340，两个有理第一像秩同但仅知≥3，共动A0(Dh)不可删。
 - [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0和公共34/31。[零点23左二阶jet](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)已付r1≤4、r1+r2≤4、公共s34，K80=s20K60、lc5^6为31单位；不预称零点β2=0。
 - [∞第三页正式结论](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)： step infinity-third-left-envelope，exec92fabdfd，数学3.337764844秒，1088×605 base582/aug583，十三列中十二可升，保全6188来源；另十个d≤1纯泛函沿全参数恒等。故β3≤1，公共δ4354≥43/δ4353≥39；不能把正包络秩当完整下界；同常秩/第一页31单位运输还付full mod31 β2=0、β3≤1。raw6576B SHAd6a473ce690e467dd243a0b495c26921457246dcfe9337c1e9bf4f10183f3381。原29精确曲线给指定72/71/67，K80条件费8663（非基8662、目标8442），q235…8618。
-- [同I,J自然u八阶正式结论](results/R150-appendix-selected-natural-schur-eight-jets-and-mod31-order184.md)已付33第一完整来源校正/all4367产品，固定4318单位块/原来源DAG真Schur。**同绑定16层已续完：** execaf766074，数学5.094191522秒，新增11×3、12×2、13、14；共32指数和169，余4≥17，模31阶≥237，完整长度仍开。binding1fdb07aa85a565c45d7adfe04721a29cdbe6911cc0cb50ca45044c51f88ccc01；raw54740B SHA081a83c48f6a04a8683869a989ede0279a7e166e1db1f5bfecd82376e72e786d。16层正式续篇即写。
+- [同I,J自然u八阶正式结论](results/R150-appendix-selected-natural-schur-eight-jets-and-mod31-order184.md)已付33第一完整来源校正/all4367产品，固定4318单位块/原来源DAG真Schur。[同绑定16层正式结论](results/R150-appendix-selected-natural-schur-sixteen-jets-and-mod31-order237.md)： execaf766074，数学5.094191522秒，新增11×3、12×2、13、14；共32指数和169，余4≥17，模31阶≥237，完整长度仍开。binding1fdb07aa85a565c45d7adfe04721a29cdbe6911cc0cb50ca45044c51f88ccc01；raw54740B SHA081a83c48f6a04a8683869a989ede0279a7e166e1db1f5bfecd82376e72e786d。已排三十二阶。
 - [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)：同一单位右补基给active E_J列u^ell，全部j子式付最小j权和，删列损失由wedge支付。29旧曲线只新增外一阶1834×29矩阵；实际全Q秩29，t2=0（2.028866967秒，全4367一阶syzygy与6188常项真），固定常系数组合没有新支撑阶。相对任一已付δ可用源因子29+t2、次大28+max(t2−1,0)，不偷允许uPhiY纠偏后的最大维数。
 - 原九模31⁶证书费1339已全成，仍不付Q[s]成员性、固定e无界精度或lc(D)31单位；常数31饱和不付参数leading单位。旧mod31仿射gcd315仅其原范围，不直接升char0。旧1632标准族/二次skew降次、LLL候选、单65521均已完成，不重做。
 
@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 唯一请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json，含全部CLI、来源SHA与唯一step。完整输出只在{work}。每个实际小回执在notes/r150-infinity-remote-session-789f/；branch创建不等于main push，须核publication实际提交。
 - 原自然Schur当前16层在{work}/selected-natural-u-schur，逐层来源/Schur/全残量及完整SHA已存。已排同binding三十二阶；薄wrapper只在主回执浅副本省重复4318输出编号，旧runner SHA80f681、binding1fdb07和前十六层均不变。新增数学60秒/512MiB，编译可复用。
 - [固定29曲线外一阶全秩](results/R150-appendix-fixed-koszul-curve-first-outside-rank29-and-no-constant-second-support.md)：exec9da4ca88，2.028866967秒；1834×29全Q秩29、t2=0，保全原常项与一阶乘回。只关闭常系数组合，不排除uPhiY校正；未重1603消元。
-- 已排有限s=0第三页及∞第三页一列三横向evaluation校正，各30秒/512MiB。前者保累计r1+r2+r3上界；后者逐17式核L_i(v)=0，故剩余5100来源也真零。两者未有实际回执前不填新秩。
+- 有限s=0第三页实际4.390881418秒，base582/aug583、全6188真，累计前三连接≤5，δ0≥43/39，K89正式稿即续。∞合法cubic单列实际4.132641949秒，A0prefix579/base583/aug584，残差仍1；只增加校正像，没有升最后方向，不重复随机试列。
 - [Dixon1085恢复](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit、18重建未返解，2751核心/1567DAG/模逆/78MB活动槽仅{work}/seven-sparse-dixon-original。36核存在已另证，不为维数盲续；显式仍29。其它旧临时输入/哈希详见H全文与请求。
 
 ## 其余未闭

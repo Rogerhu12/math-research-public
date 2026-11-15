@@ -169,3 +169,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：固定29曲线常组合二阶支撑已否定
 
 [正式结论](results/R150-appendix-fixed-koszul-curve-first-outside-rank29-and-no-constant-second-support.md)：新外一阶1834×29矩阵真Q秩29，固定常系数组合的t2=0。全原常项与4367一阶syzygy已核；只关闭这个有限子问题。允许uΦY后的商空间条件及更广精确关系仍开。
+
+
+### 2026-11-15：原自然十六阶模31下界237
+
+[续接证明](results/R150-appendix-selected-natural-schur-sixteen-jets-and-mod31-order237.md)只从八阶检查点新增9至16阶，已定32个正指数和169、余4≥17。原完整长度、特征零首系数单位仍开；同一绑定已排至32阶。
