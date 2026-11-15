@@ -304,3 +304,6 @@ R749已付完整point-log空间的Qbar单射及只作用点、固定系数的Gal
 
 
 R748已用真实good pair和LZZ有限CM点支付两原Dk的全部p-ram线性点身份、共同Ω及代数因子，点域Hχ只p分歧、point-factor角色ρ准确。dual型/负locus逐项核后仅在非零时推rank1并化平方；R749的(H)与不同(k,χ)独立性因此闭合。继续全34维/flat pool的实际p-Schwartz谱，及原各O_i完整log或中央零的额外约束；R742无条件恒等式拆谱本身不产生中央零。
+
+
+R747已将两完整core返回逆搬原e0/Y/相同门，p-primary唯一提升及共同[barπ^M]给34p^M模型，M125够；不增加原2/3/17之外的bad覆盖，所有t_+及whole34保。原K-defined自然下降不等point-only平均，R742谱式无条件且外部仍反号。接原实际dyadic两向量及全p-Schwartz谱；完整log外部尚非有限门，仍缺其独立点身份或中央零给出的真实附加关系。
