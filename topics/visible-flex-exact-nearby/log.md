@@ -184,3 +184,9 @@ root逐行全diff核：helper唯一变化为对每个保留完整Laurent系数�
 202 unique pins13515371B，原200除新SCI/helper外198tuple完全不变，新加第三failure两小receipt；manifest只紧排版，所有身份/历史/参数完整保且90125B<100KB。仍21科学门，root静态delimiter SCI751/helper410行通过；真正AST及新数学仅公开Actions。已成准备全锁，只有未保存首Taylor可重做，后续原3146全cell/seam/四error/mean/两sign/trueangle全目标仍须完整。
 
 上次f87548f9推送遇两次nonFF，各立刻真CLI git pull --rebase origin main均报无executor；每次读取新main/双README、保远端重建，第三次成功，禁force。H记18:09真实失败尝试，下一固定小时≤18:49；不把API ref核称pull。
+
+## 2026-11-15 18:18:23 UTC — IN首个全τ Darboux scalar消费者部署
+
+root全文审SCI553行/worker532行/flow/manifest，newton独核三数学函数；20完整小UTF8 pin共754166B逐字SHA/bytes全合。科学源726bdd98、worker793acef4、manifestfc87dad9、flowfa04a08f；4AST由public Actions真Python核，23门为10旧receipt身份+13新门。只新三phase gap/全τ27项的24系数/14次functional/6receiver/5inhom，不调用旧profile/正校准/幅度/Taylor/积分；density0只H−1、density1 L2、extraD H−5/3且全mean保，未付physical J/L/B/ng/q/freeR2/R3/CDar/incoming/全R0。仅自然push一次，实际run待取。
+
+H与open第6节逐字压缩前保5fd5c4bef9bdd520f804be5c4e0a9c5383b75ed8同路径，全部域/义务/失败/restore原保。最新已有SN第四report容量199738013B；新worker仍必须实际核200MB+120KB。只读两README核691f3fcb376c44c05e21fe025b7b685380687a20，不冒本机pull。
