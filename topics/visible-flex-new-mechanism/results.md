@@ -580,3 +580,10 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 增广响应像为E(R)×R²，只在R333原E商作真实截面，新增flux成本/原型/桥/复制基准全留；有限整数与收缩得到(E,F0,F1)(S)=E(U)×R²及紧集C1截面，不假固定点flux仿射不变。R302增强几何保固定有理芽/最终profiles/查询，wholepure/wholeQ/两flux同一新几何真零；原全Q还付所有微包二次平台，真实m*的同wc不改两flux。其他点/Ve/整包量/两period成员与13同规范仍欠。
 
 原δK−2G0确等H̃，但完整NG0=5BPH_hook/3≠0，不能以self平移常数推全成本N0。未发表推测已明确纠正；R336旧K/δK模块限制仍真。全纸面完成即推，无新执行。
+
+
+## 扩池同试点SOC合同：完整重绑、同一真实残差与原预算
+
+[完整新合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)仅改未接受full primary已两网regular且学新行后的返回分支。冻结同y原视图/核apply(x,y−x)=y，回同x按扩大原池重建base/J/primary/complete模型；新scalar/full预测均需原正gain，但SOC仍原scalar RHS与原物理盒/尺度，实际solver启动即扣共享LP。一次修正后仍原两网门/下降与行学习，新行历史保留故不给旧hold资格，再扩池不递归。主与rebound完整模型独立登记，保全部oracle费用并准确绑定每correction的rho0。
+
+新入口从43741276060完整reference163/final159/physical163/两池/半径streak恢复；祖19seed加原m8唯一cut轮2记录须在首模型装配后核原9方向bank SHA，不符停，不默认还原。新源码与新增接口人工只能公开Actions执行；这份已定合同不冒实际实现/成功。

@@ -94,3 +94,5 @@
 - 2026-11-15 17:43:58 UTC，Astra-new-mechanism-9974ea84：十一模型诊断全文即读推12239B/SHA256 4e76931f82765d179fa3a1a84391141c5aba63211ac707df4de4ae569859505a；区分新行早退/已有曲率非线性，83/85/92行计数及112.835s范围，继续新完整扩池SOC接口。只解析已完成输出。API核db77fc6b448a8b3850e80062bbfbbd88c70d4caa双README同。
 
 - 2026-11-15 17:47:52 UTC，Astra-new-mechanism-9974ea84：R340全文/局部响应/通量分部常数及原E商增强链即读推19081B/SHA256 5e5be9a28c3517efde273e121553d318e6c80e6b901c1b9776611e9f872720ae；新wholeE核双列实付两Af flux与全部self平台，完整剩余门保。API核b63be8f9a152e7920028973b612a6cd77ed4651f双README同，无新执行。
+
+- 2026-11-15 17:48:23 UTC，Astra-new-mechanism-9974ea84：已读扩池同y SOC合同16905B/SHA256 fae059eb3d27b5c4b64ad560c2d7503b91247bbe1d31bad9f010e982018d8c69即推；明确原solver/真实残差/调用前预算/双context报告及完整checkpoint-bank转移。继续写新源，未执行。API核dc46652a671c7241a3b4b6a0d9a7f2fda6d3e549规则同。
