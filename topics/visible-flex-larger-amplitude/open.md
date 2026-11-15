@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-R377发布前全部正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R377.md)，链回178、175与全部更早结果；这里只压缩已结历史，原参数/错误/拒绝/后缀和所有未付责任继续有效，§4–6原文保留。当前run、来源、负责人、规则与未推源恢复见[HANDOFF](HANDOFF.md)。
+R387前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R387.md)，链回R377、178、175与更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -32,7 +32,7 @@ R377发布前全部正文已存[完整检查点](notes/2026-11-15-open-checkpoin
 
 [R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原37/FD及α1/8接受，全75776×17仿射和148×453点态齐；α1/4与α1坏行不同。完整整段/余13真实trial/BVP未付，全部数值与读回/清理范围保原文。
 
-[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)完整V″保338/两mean/115零RHS、e0/e1与形成δ0/δ1及执行η。[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)已完成：43741803578/sourcebf1880f8，真98原37在1/8接受，最近1/4已选LEFT464/MID471分别4/8负角；原W43.363003729098274→43.33605694766103、FD8.81884772255149e−10，仍非BVP。29端点×17各2048角的闭段域/完整338二阶界全proved，629准确末点Hermite gap与四真实trial×37执行η全部可用；13未访原档不补η。2668.260350612s无资源partial/异常，全部8文档/1230成员原身份读齐，原raw清后不能凭SHA续。末点gap非统一整段包围，整IEEE/truequery角域/699/698/两RMS连续角/native/fullDN仍未付；175独立重生继续，不能把此诊断当原接受门。原100pins/参数/预算及全部身份见[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)。
+[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)保完整V″/338/两mean/115零RHS及e0/e1/形成δ/执行η。[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)真98原37在1/8接受/FD，29×17端点域/338界、629末点gap/四真实trial×37η齐；13未访档不补η，末physical仍非BVP。原8文档/1230成员及全部身份读齐，raw清。统一整段、整IEEE/truequery、699/698/连续角/native/fullDN未付；[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)和原结果保全部数值/预算，175独立重生继续。
 
 ### 1D. 175完整闭段query域后继
 
@@ -44,15 +44,15 @@ R377发布前全部正文已存[完整检查点](notes/2026-11-15-open-checkpoin
 
 [R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)完整698cell七状态/112三列离散伴随与[helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)已付，保全部r/mid/sqrt/末直接q_N/start及共享q；δq=(ah′−bh)/a²中b为原返回斜率，不预认finite-Gauss准确导数。函数独立不保证响应补秩，物理坐标链/形成误差/准确对象另付。
 
-[R377实际178](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)run43749066353/sourced9336e76：producer0/8接受/八方向预算止，wrapper44.280902993s无墙钟/信号/异常；reader116585B>90KB/70，5678B fallback没有完整初末merit/十p/trial/120FD/final正文，原970456B status已清，不能造父。[178r2接口](notes/2026-11-15-request178-r2-essential-readback-and-quiescent-cleanup.md)五件现发4094e8fa/d0fa9a4c/c7ee49c6/81d90eaf；search/producer/8891B recipe/原112+10其余pin与全部科学门逐字不变，必须新跑原157。单90KB保8实际d/Jd/slope/接受词、全部trial/FD/错误/未访与末JQR；先七QR内部和投影J只身份，清楚不冒逐值读回。必要摘要+原reader收据+真实wait/reap静止才清，失败不主动删raw，科学stdout不拆包；amplitude核新R387，不回填R377或预填相同轨迹。
+[R377实际178](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)科学0/8接受但116585B摘要超限，旧raw清；原范围保。[R387实际178r2](results/R387-actual178r2-eight-acceptances-and-essential-readback-overflow.md)新run43751514766/source01dc5cbe再次child0/8接受/八方向预算止，55.039101175s无wall/signal/exception；必要91342B/26008293仍超90KB→reader70，5727B/7dff小fallback没有初末十p/F/merit、逐trial/FD/final正文，970477B status只身份。新cleanup实际skip，不冒已读PID或跨job保存，必须原157再算；两run状态不混。[r2接口](notes/2026-11-15-request178-r2-essential-readback-and-quiescent-cleanup.md)保全部原科学门及成功摘要+reader收据+真实wait/reap后清。r3 R389只再缩末Q/R内部basis和投影重复，保8d/Jd/slope/接受词、全部trial/120FD/final必要与上限；amplitude核新实际，不预填。
 
 新增形状的binary64表再准确提升不代连续高精证书，finite-Gauss a/ap兼容性另付。有限池全拒/微降不证函数空间驻点；十坐标不能送旧九owner。
 
-R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)148101B超90KB/raw已清/正文未返各保旧范围。[R373实际164r3](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)同1998科学新run单89762B完整：六响应/120FD/两Decimal编码差/全部binary词同/20trial/Arb1586叶0未决/453齐。20 finite域全过却full3 Armijo拒，ξ0/九p/W同157；投影σmin3.9847962884605677仅数值动机，不证准确秩或联合方向失败。
+R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)超限raw清各保旧范围。[R373实际164r3](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)六响应/120FD/Arb/453及89762B摘要齐：20finite域过/full3全拒，ξ0同157；两Decimal编码差与binary词同分责，数值σmin不证准确秩或联合方向失败。
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)/[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)/[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)保准确隔离零2jet、同坐标G/H、odd/even全响应span与不交箱max型C²界；共享node不重复，odd零不排除value方向。[R376实际174](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)1397站/602允许全用，负完整slope但20finite域过/full3全拒，ξ0/W同157；120FD/Arb2456叶0未决/453及80909B摘要齐，全部finalfalse，不推全形状驻点或同g精化。
 
-[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）固定新形状与正尺度S，对完整A=JS作AᵀΠ=Q₃R，Rᵀy=−ΠᵀF、z=Q₃y给满行秩时最小S范数联合方向；径向截取保Jd=−θF，完整Cauchy回退也给负准确斜率。明确Q←QH顺序/三方程pivot及准确c_A，形成算术误差、真实非线性余项与固定20档仍分责，不作rank/新阈值门。178独立true157父固定164支撑1/k4；旧九S=.01max(1,|p157|)、Sξ=.01、缩放半径1全程固定，最多8×20/每接受fresh十列，初末120FD与全部原终态保；这不是单减ξ或更换目标。[178完整接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)原八件已发：search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8，原读回身份保旧接口；45当前闭包/112+10源表，2400s child/50science/65job。实际算术失败或非负Newton形成斜率才Cauchy；整20拒绝不在同点机械重试，保全部实际trial/错误/未访后缀单≤90KB。只支持当前157初配方，接受父后继必须真实输出另接；R377已结、新R387由amplitude核，不预填改善/native。
+[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）固定新形状与正尺度S，对完整A=JS作AᵀΠ=Q₃R，Rᵀy=−ΠᵀF、z=Q₃y给满行秩时最小S范数联合方向；径向截取保Jd=−θF，完整Cauchy回退也给负准确斜率。明确Q←QH顺序/三方程pivot及准确c_A，形成算术误差、真实非线性余项与固定20档仍分责，不作rank/新阈值门。178独立true157父固定164支撑1/k4；旧九S=.01max(1,|p157|)、Sξ=.01、缩放半径1全程固定，最多8×20/每接受fresh十列，初末120FD与全部原终态保；这不是单减ξ或更换目标。[178完整接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)原八件已发：search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8，原读回身份保旧接口；45当前闭包/112+10源表，2400s child/50science/65job。实际算术失败或非负Newton形成斜率才Cauchy；整20拒绝不在同点机械重试，保全部实际trial/错误/未访后缀单≤90KB。只支持当前157初配方，接受父后继必须真实输出另接；R377/R387已结、新R389由amplitude核，不预填改善/native。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 
@@ -84,7 +84,7 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as现由R381从原保存字段完整补齐；同场metric/native仍未付。
 
-[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)首扫描到EOF/38找到，但计数差额及95577B超90KB，38表未返。[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)run43748206814/source48e55d2e、2e5717de reader已完整补齐：单55100B/46ac562a；32977 cover/32526 pending/32488 unresolved/38反证逐原事件与双来源身份匹配。全部反证在numeric416，17正速度/21负速度各连成原闭u区间，radius_refuted全false；32488未决同在416，32484仅目标宽度、3仅速度、1两者。708行首BOM仅解析副本，原1.48GB/4ab8日志不动；原finish全检查保，未重算任何科学。原165科学exit4及目标宽度责任不变，不能加节点消除反证；numeric标签不自动等同唯一准确支撑，原target与169/179身份和可变参数作用继续核，不增175/其它入口前门。
+[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)首读38表未返；[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)单55100B完整补齐32977cover/32526pending/32488unresolved/38反证。38全numeric416，17正/21负两闭u区间，均非radius反证；未决32484宽度/3速度/1两者。708BOM仅解析，原1.48GB身份保，不重科学或回填R374。原165exit4/目标宽度责任保，numeric标签不冒唯一准确分支；165/169/179准确同一目标已由R383支付。
 
 [连续C固定power4十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)明确在原R323准确基底追加ξ，support1=[L0,L0+δA]，h=δA²·64x³(1−x)³(2x−1)^4，同表达三jet/零延拓/C²与准确自然L/公共u保持。独立factory十项表、degree10完整域、新numeric(3,10)/物理层(0,3,10)、七shape固定453和全冻450接点已列；原178 LiteralTenModel硬复制旧base/mesh/J，不能仅换profile冒新C响应。设计没有实际参数/域/求解或门；support1 ξ不能代coast参数修复，180独立继续。
 
@@ -98,7 +98,7 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)独立全C1440/六primitive/两query/cut/deep112齐，whole2609欠分辨率。physicalfar=.05056158669090205；m2仅100attempt/49commit后row17/piece3/depth32双pivot含0，.150405163s/stop=null非资源。19栈/required[18,10387)/余111保，0far/0unit，native未启动；原错误/六读回与清理见结果，不记Newton拒或准确共振。
 
-[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：新实际43741519736/sourcede9a730a，原来源缺件已解；C2624.792453377s全1440/两闭query/cut两jet/deep112齐，新标量419片/418seam的显式数值profile建成，但九控制域10657未决/15stack仍partial，中点不证同一准确C。far m2仅100attempt/49commit后row17/piece3/depth32双端点盒含0，资源stop=null；完整19栈与required[18,10387)、m4..224未访保，0far/0单位行。native_geometry_ready=false使BVP根本未启动，不能记Newton拒。全部必要摘要和六读回/静止后清理齐；[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件已发，从原全深族重算，geometry核R382。
+[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)独立全C/cut/deep112与419片数值profile齐，九域10657未决/15stack；m2在同row17/piece3/depth32双盒含0，100attempt/49commit、19栈/required[18,10387)/余111保，stop=null非资源。0far/0单位行使BVP未启动，不记Newton拒；六读回/静止清理齐，原run/全部数值见结果。[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件已发，geometry核R382。
 
 179保原169同一owner真实H/J、三扰动/两法FD、8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。新sampler32166470/reader1d055037、recipe d926cecf/request fa5cc945/wf14352ae2；59/52/26闭包和五输入/准确构造/原参数不变。R375全闭barrier及非恒幅度a(t)符号参与R357逐候选norm后hull，完整112与未访事务保；数值代表/中点/JSexp不证准确C或无限非线性DN。C3600、sampling14400+1800在startup按余量同比例clip/BVP7200/360job，namespace不冒全流程绝对kill；单90KB必要sampler/native/BVP，全部早期trial仅内部身份且范围明确，六读回/新marker/owner静止后清，错误/超限不分包或主动删raw。原初点准确域反证继续保，不外推p3全搜索无解。
 

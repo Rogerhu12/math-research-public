@@ -343,3 +343,8 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 19:15:49 UTC /root — 178r2必要读回与静止清理重跑
 
 四件30394B完整diff及11639B接口全文核后五件即推；仅wrapper/reader和接线变，原科学三文件/recipe/全部门及余111+9pin保。完整必要八方向/trial/120FD/final与先七QR只身份分责，成功摘要/原收据/真实wait后才清，stdout不分包；181实际43751399744/source9236fcf0已回填。真pull已读9236fcf0a21746eef528754d567c2992ea3a12c9，双README未变。
+
+
+## 2026-11-15 19:20:27 UTC /root — R387独立八接受与91342字节读回缺口
+
+8879B/c7255a13全文读后即单独推；原child0/八接受与reader70/必要正文未返分责，新cleanup实际skip不冒持久保存或已知PID。r3只改metadata继续原科学；open全前态入检查点、已结事实缩写、§4–6逐字保。真pull已读fcdc363a2f2c47eab3d07f0e4d9e34997ce92625，双README未变。

@@ -343,3 +343,8 @@
 
 
 - [R377. 实际178十坐标八次接受与必要读回超限](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)（实际范围）：43749066353/sourced9336e76，科学child0/diagnostic-completed，8接受/八方向预算止；reader116585B>90KB/70导致compute failure，wrapper非超时。最终5678B fallback不含末p/merit/逐trial/FD/final正文，970456B原status已清；r2只修必要读回与清理，新实际不冒恢复旧父，不预填full112/native成功。
+
+
+## R387 — actual178r2 八接受与必要读回超限
+
+[完整结论](results/R387-actual178r2-eight-acceptances-and-essential-readback-overflow.md)：run43751514766/source01dc5cbe49e98aae5acb241564946d839b408d33，独立child0/8接受/八方向预算止；必要91342B超过90KB，reader70、小fallback未返终点/trial/FD。新清理正确skip但不提供跨job保存；原科学源与父配方全保，r3 R389仅继续必要metadata修复，不预填新轨迹或数学成功。
