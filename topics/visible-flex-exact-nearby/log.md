@@ -77,3 +77,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:22:38 UTC — finite-jet true long DN / Poisson / 完整正伴随型
 
 全文写成并分工独核：newton J1–20确认有限参数curve/真实comm、q+5预算、bareB先Schur再actualµ；tail J21–32核E_B rank-mean、两source/wholeform/adjoint和物理B四态入口。F帽有限jet证明已单独推；本篇0宽true C_R图不需未知解析性。独推完整23074B，SHA f7f1c86442e350c18c5e5861212c796b2e11fa84f6671ae83fee0cc2d275eb93。所有mean/height/flux/metric显式列保，未冒称最终族。README 973b5ed832d565f4080da6c5add3ca82b980c21a两项无变。
+
+## 2026-11-15 06:24:17 UTC — nearby full-tail proxy inverse 独推
+
+全文核I1–39及最终差异；phase亲读原strict-density S14–29/W26/U9–11/R8–11，核非循环Cauchy→scattering/model顺序、δ^-79/统一δ^-96、有限阶Bfin与双窗强费用；newton核I30–35 residual符号/两mean/weak唯一性，root核J接口/完整源。低输出加inhomogeneous一位费用后仍<2^524288。完整37845B证明独推，非Jacobi同域Neumann/非最终族。另读Green35518B/088a57b5…，实际真pull06:21:12.005280→77d65ad2b07185f8b3c4caec87aae5f62d846e17，两README diff空；latest2944future(1886旧)/880past/1232product/0groups。H已归档 cc5e19a13b6e226336604b309be7e72232889db60163ef990f335ba4abc84f76 并保当前接口。README c816fc533c27f94584a3da5cc6ae3761ab446a37两项无变。

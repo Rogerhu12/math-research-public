@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 finite-Sobolev nearby 背景上的完整尾部 proxy inverse（2026-11-15）**：[I.1–I.39](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 在R≤2^{-8192000}的H8196+窄residual三jets域，完整finite角/两窗4/3/同表示Schur给全high/deep/remaining/mean逆；真实Cauchy多项式bootstrap先于scattering/model<2，保全部source/反向输出/affine cut/mean flux。Y_s≤2^{7500000}N_{s+2050}+2^{4300000}Bext_{s+2048}，0≤s≤64。J的新有限jet E_B/型/adjoint接口已显式付费，真Jacobi EN、Γ重选与tame仍不由proxy逆自动关闭。37845B；blob6bd7ba8716457ea499f99af7c46cb07c48373a3a；SHA2561e4df044af399ce60e9ed195e28896489f5b4041d3fa5f75648ee7802cffe887。
+
 - **R133 finite jets 下真实 nonlinear long、完整 DN/Poisson/未匹配能量（2026-11-15）**：[J.1–J.32](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 在σ=0完整Wiener重作原C_R固定点，再以8192阶有限参数曲线和real covariance支付全signed Schur。完整DN差<2^{128}(F+ε)，2176阶comm<2^{65536}(F+ε)；独立curvature Poisson保s_Bε和all means。真实E_B/mean projection/同j密度、非自伴型与adjoint俱保；whole-form门eta_C+2^{150}(n+F+ε)<1/2。F帽M8212球与tail H8196真实B trace给全部输入，无未知analytic假设。23074B；blobaa0a1e667c93663d64b281d8045bdc118e6587c8；SHA256f7f1c86442e350c18c5e5861212c796b2e11fa84f6671ae83fee0cc2d275eb93。未完成帽全nonlinear row/参数Schur/global matching。
 
 - **R133 有限帽球到真实物理曲率 jets（2026-11-15）**：[F.1–F.24](results/R133-supplement-cap-finite-Sobolev-ball-to-physical-curvature-jets.md) 从完整 M_{8212} 半径2^{-8388608}球、固定完整逆规范H与实际 endpoint数据，沿真实相位/mean/reciprocal证明0≤q≤8192的 physical Z jets<q!128^q2^{-36}。完整曲率差费<2^{1048576}||zcap||；最后才作nonmean投影，两个实际curvature mean另保。11688B；blob950edb77252f1cb5822da8418234221773ce0972；SHA256a31faadf521ea4ff71f096e01555fc6aef1c498db00077ccbad13d50a96b8d11。无未知复角延拓/新数值，非全匹配存在定理。

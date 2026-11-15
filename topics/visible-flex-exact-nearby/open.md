@@ -90,7 +90,7 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 [O1–22非解背景准确散度Jacobi差](results/R119-supplement-exact-off-shell-divergence-Jacobi-and-narrow-residual-defect.md)已直接证明Jgeo−L=α r k−β rθp−γrp。换原窄普通源后EN=αNk−βNθp−γNp，无新径向逆幂；完整mean配对〈A0EN〉=〈NDA0〉。减去真实metric reference高度后仍保+ψN，准确δN=cphys(Jgeo htilde−eψrem)+ψN−EN[htilde]。H66小近邻上只扩二次代数门≤2^524288Y64Ys/s≤64，不把L误作任意背景自伴算子，也不授变化背景inverse。
 
-下一项仍须同域second首相位/密度相位控制及变化背景nonmean全逆，或给明确可迭代替代图。R目前只给Y≤64，不能自动返回本P所需H8196；任何smoothing或更高阶tame逆都须实际支付其完整损失和迭代费用。
+同域second首相位已由B付清，变化背景的完整proxy网络逆现由I1–39完成（见末节）；它保真实Jacobi残差差和全部参数/mean列。输出仍仅Y_s、s≤64，2050阶角损失不能靠小常数取消；下一须第一Γ切向列/真实Schur以及足够高阶tame尺度和可重复smoothing，不能直接把Y64返回H8196。
 
 ## 6. 全参数与最终精确族
 
@@ -171,3 +171,7 @@ run43682479300/1 child0/21门，数学10.658338976s；新49stage（临时）、1
 ## 真实未知 long 图与完整弱外口已接上有限背景域
 
 [J1–32](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 已用 zero-width 完整固定点、有限8192参数jets、全signed Schur付真实DN与独立Poisson；U/D保持good方向和conormal密度，F帽球给actual physical曲率jets，tail真实B trace给F≤2^-438R/n≤2^-432R。E_B未匹配修正、mean投影、全荷、wholeform/adjoint均保；该新接口足以供变化背景正区继续消费。下一根端任务是帽完整nonlinear outer行的同域差/增广charge与其Taylor余项，不能从已有主体球单独宣布全帽非线性逆。tail全层与真正tame尺度、ν精细Schur仍同步继续。
+
+## 变化背景上的全 tail proxy inverse 已完成，继续 Γ 与可迭代尺度
+
+[I1–39](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 已在R≤2^-8192000的原物理域付完整high/deep/remaining/mean、两侧强4/3及全部原source；remaining差<2^-350000。相同fixed真long行含全C_R反馈/affine荷，新nonlinear行更新按J完整能量接口，cap未知仍通过独立曲率口联立。ordinary body平端χ=0不清掉外flux荷。输出Y≤64且真实损失2050，下一做Γ低方向投影列/真参数Schur及能够维持H8196/residual三jets的tame尺度。单靠截平滑Y64不足以自动抵消2050损失；须实际闭完整迭代账。
