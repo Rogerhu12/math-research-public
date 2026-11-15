@@ -495,3 +495,8 @@
 ## R414 — 完整signed-digit偶奇SIMD与原RN113逐词等价
 
 [R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)与[接口](notes/2026-11-15-native-complete-digit-SIMD-source-interface.md)及独立头1695b945已全文核：完整20bit digit的AVX2偶/奇全部8lane及0–7尾逐项覆盖，2048项任意子集界严格小于$2^{51}$；原R405的全部113bit/宽指数/prepare/一次RN113直接保留。给同输入且完成调用时与R405逐词等价，非旧顺序Q/准确导数/预算范围或性能承诺。函数级AVX2、真实CPU选择与完整scalar fallback保，原baseline编译/各线程stats/原poll范围明确；无本地编译、fixture或数值门。196/R415另准备完整原192链，186/190/192/193均不改，尚无196 run。
+
+
+## 2026-11-15 — Request196：完整128链的SIMD准确digit执行
+
+[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件全文/完整diff核后发布；旧77pins逐值保+R414及六源=84。仅完整20bit signed partial改实际CPU选择AVX2或scalar，原全部113bit/指数/wide/一次RN113及R402系数/原因子/113行C残差/226态两mean保；baseline编译旗标不改，无新fixture或对拍门。真91→fresh64/J/R273→samejob128/replay→全576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800全部原预算不变。单90KB保原所有必要范围并添真实backend/偶奇尾计数，原quiet+完整读回后清；完整dot条件等价不冒全stage词、速度或接受。R415只待实际结果，amplitude唯一终态，旧186/190/192/193均不改。
