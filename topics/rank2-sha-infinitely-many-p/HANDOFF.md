@@ -4,32 +4,28 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：0fc59dea131aa5c7931290e8378adf053a99f5f5；2026-11-15 10:53:48 UTC核两README无变。实际CI pull 2026-11-15 10:21:46 UTC/1e08eb4ba37dc346c35c60244aa63ade455797c8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 10:53:47 UTC仍无环境。最迟2026-11-15 11:05 UTC再实际pull。
+- 最近已读规则提交：dc4e7fe379a71aef6c99ee7deca1cee168dcc03a；2026-11-15 10:59:36 UTC核两README无变。实际CI pull 2026-11-15 10:54:02 UTC/2e8e90dc72343a4132c2be0ac489b168b4ecf072（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 10:59:35 UTC仍无环境。最迟2026-11-15 11:40 UTC再实际pull。
 - 首次全文读旧库根/题README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推；禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次核两README，仅读变化即照办、记提交。本地exec无环境；API非强制追加，拒推即尝试pull --rebase并接新head循环推；CI实际pull与本地失败分记。
 - 规则12不设冻结/独审/复跑门；13数学计算全用公开Actions；15@137c5a877fb387a82cbde01f084d1fa67ee717aa不存可重算输出/不新分块，只留脚本、参数、run/hash。
 - H<10KB、MD/API文本<100KB、open尽量<30KB、单文件<5MB、题目录≤200MB；题log每轮≤5行，不写根LOG。
-- 最近实际pull10:21:46/run43703700458/job132780127032，head1e08eb4ba37dc346c35c60244aa63ade455797c8；两README独立blob无变。库存26,755,293B/1924文件无超限、旧3输入块保；ci/rule-pull-20261115T102146.json。下次最迟11:05 UTC。
+- 最近实际pull10:54:02/run43706282538/job132787960644至2e8e90dc；两README逐blob/差异无变。库存26,930,290B/1942文件无超限、旧3输入块保；ci/rule-pull-20261115T105402.json；下次最迟11:40 UTC。
 - [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)：已普通删除206输出；79未匹配/2自读/3旧块先核实际生成器，真实输入/历史保。
 
 ## 完整前检与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-prefix-limit.md)沿链完整保所有原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口；没有删除旧条件。登记R1–363、365–560、562–653、655–711、713–738；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep继续原全WD/非cube核与同R；theta续R737同q* primitive全条带/真实W负矩；literature的R736完整已付，续固定Gaussian-square轨道/全同步。root接原第三中央及中央到边界；已提前请求本轮实际pull，仍以11:05为限。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r739.md)沿链完整保所有原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口；没有删除旧条件。登记R1–363、365–560、562–653、655–711、713–739；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep继续原全WD/非cube核与同R；theta续R737同q* primitive全条带/真实W负矩；literature的R736完整已付，续固定Gaussian-square轨道/全同步。root付R739实际17惯性/AST分离，续完整点身份与中央桥；theta写R740全17张量。
 固定E17/E24/E2312的rank2和完整桥2+corankSha≤2ordJ已付；仍需同一无限p族至少一条固定原J′非零。O4低增广、O6真实相对类群按open保。有限p或局部负矩非零不算完成。
 
-## 普通：两负矩已付，完整中央仍开
+## 普通：原负矩、primitive与17分离
 
-R698/702/713原全部补域、三态与完整log保。R715同50实列的q原S/6δT/π4、ζ正规/π4零；真实J2均1、全FZ零，无独立B，reader50非J2。仅完整cd尾可升p2N，附角域先回实际来源。R719全149列/58行混次及C两支保前检。两斜门Li=34Yi−29Y、P31原负一提取、paired-S杀除/T外部反号均保。R728完整连接/卷积/近消/log在，J_P′不能删。
-
-R732原全type5的CM13最小多项式(T+1)(T+ω²)(T³+ω)，两z5规范线Dω/D_-及完整primitive三维块已付。
-R734原q/ζ与真实h140/h147给完整5×5整逆；公开43702293882的固定minor/a/a+b/c非零，旧CM密度使同ray相对密度一全N4有单位逆。
-q*=q+(b/a)ζ+(r1/a)h140+(r2/a)h147保58行/π4；J2=(a+b)/a单位，整个冻结差=(c/a)Dω+(1/a)D_-。系数在K，λ=−barπ0^-1、κ=pλ²、u=κ^N，不是自由Cp。
-
-R733 P2=(-4,15)∈E289、P4=(42,397)∈E83521映E1后Kummer角色ω/ω²，模torsion End独立；Fuchs–Pham Thm2.2给所有p的椭圆对数Qbar线性独立。微分尺度t/t²保，t³17，Galois只作用代数点。
-R735全2/3/17 Schwartz与共同全权规范识别Dω/D_-对应E289/E83521；10404导子/root−1/公开43701949704有理AFE付rank1，全局部43703192796成功。
-合法m≡5同变量趋−1：Lp(barψ_k)=34c_kθ^11Ωp I_k²，θ^6=17、c_k固定代数非零。BDP发表Thm1及rank1给真实固定P2/P4，ΩpI_k=A_kp log_E1(φ_kP_k)，A²=εθ^(−k−12)/(34c_k)∈Qbar×。
-故实际R734负矩组合全N非零；固定p的u→0极限I∞亦非零，v(I_N)最终常数v。原P31内行准确N+v<2N，完整外部仍同值反号。R737已付：Φ_N=Σa≤30 E^aφ_a，whole E/Z给真实递推M_a,k(ℓ)=P_a,k(ℓ)+(−1)^kχ29λ²κ^(a+k)M_a,k(ℓ−1)。Q_k=∏a(T2−λ6κ^(2a+2k))精确消共同深层；Q1P31给同I_N单位倍，v仍N+vI∞。原primitive严格分四unit、λ·e1的Vunit支及γλ·e1的Wunit支；两移动E门、不同有理Z/Y与条件质量全保。各O_i还有完整端点，paired仍反号，不能改称中央非零。
+R698/702/713全部补域/三态/log和R719全149列/58行混次按前检保。R715同q/ζ真实J2均1、全FZ零；reader50非J2，无独立B。仅完整cd尾直接升p2N，附角域须原返回。
+R732全type5 CM13最小(T+1)(T+ω²)(T³+ω)，两线Dω/D_-及primitive3维完整。R734用q/ζ和h140/h147真5×5整逆，公开43702293882固定minor与a/a+b/c非零、旧CM密度付同ray相对密度一全N4。q*=q+(b/a)ζ+(r1/a)h140+(r2/a)h147保正规/π4、J2=(a+b)/aunit；整个冻结差=(c/a)Dω+(1/a)D_-，系数在K，λ=−barπ0^-1、κ=pλ²、u=κ^N。
+R733实际P2=(-4,15)∈E289、P4=(42,397)∈E83521映E1后Kummer角色ω/ω²、模torsion End独立，AST给全p Qbar线性独立。R735全2/3/17 Schwartz、period和严格AFE付两rank1；原Katz负一点与BDP给Ωp I_k=A_kp log_E1 Q_k、A_kp∈Qbar×，完整常数/尺度见正文。实际组合及u0极限非零，固定p v(I_N)最终常数v，原P31内行v=N+v<2N。T外部同值反号。
+R737同Φ_N=Σa≤30 E^aφ_a，whole E/Z给M_a,k(ℓ)=P_a,k(ℓ)+(−1)^kχ29λ²κ^(a+k)M_a,k(ℓ−1)；Q_k=∏a(T2−λ6κ^(2a+2k))消所有共同深层。Q1P31仍v=N+vI∞，primitive分四unit、λ·e1的Vunit支、γλ·e1的Wunit支。两移动E门、不同Z/Y、条件质量和各O_i端点全保，paired仍反号。R728连接/近消/log及J_P′亦保。
+**R739已付** L=K(17^(1/3))全ram17；任何F∩L=K上的E1点与Q2/Q4模torsion End独立。实际σ消去后AST给两log相对全17-unram点logspan仍Qbar独立，亦可加代数常数/代数数普通log；允许F随p/深度变及任意p-ram。17单位b的六次缩放域17不分歧，故真E24点可用准确微分θ24。R735负矩组合不能被这些已识别行抵消。
+当前R740核whole W/V/E及三A伙伴的17球张量；原Y框架含17、G4可保cubic glue。尚须把实际带p-conductor的完整积分回代数点并核17域，不能由局部球或边际直接应用R739，E2312的17三次分歧不在E24推论内。
 
 ## 惰性：指定全窗到原中央carry仍缺桥
 

@@ -342,3 +342,5 @@ R738[零角Gauss增补](notes/2026-11-15-r738-zero-angle-cap-and-high-rho-prefix
 [原前缀迭代界限](notes/2026-11-15-original-prefix-iteration-critical-limit.md)：完整原严格纤维交数给真核前缀h+vd0≤2κ；与已付Gauss容量联立，即使满Z输入也只可能越h>3κ/2，不能将现有计数链当9/8窗终止。具体原像与forcing仍开。
 
 [原normalizer与Gaussian奇偶](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：全right-j正号及真实Gaussian base给完整反演配对；p≡5mod12的对应原A0被4整除，下一位仍是实际二位匹配的奇数配对计数。同一R的全αj仅Qi/K两种，未漏一个免费固定二次base；未断言第一wild全零。
+
+- [R739](results/R739-seventeen-inertia-and-relative-algebraic-logarithm-separation.md)：已证明同Q2/Q4相对任何与K(17^(1/3))线性不交域的真实End独立；AST提升为全p、相对所有17-unram代数点logspan的Qbar独立，亦保普通代数数log/常数。E24的六次缩放和微分精确返回；R735组合不能被已识别的此类行抵消，实际条件积分点身份及G4剩余仍开。
