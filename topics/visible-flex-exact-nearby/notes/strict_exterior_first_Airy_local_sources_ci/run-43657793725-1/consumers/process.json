@@ -1,0 +1,1156 @@
+{
+  "kind": "actual_public_strict_exterior_first_Airy_local_source_execution",
+  "public_repository": "Rogerhu12/math-research-public",
+  "run_id": "43657793725",
+  "run_attempt": "1",
+  "workflow_event_commit": "52b9c8e25571ea9fdf4d2f3b08519bcce291a6e8",
+  "actual_scientific_checkout_commit": "59bc1e3209c4bdbc16ed8d6774368c5ef74702b4",
+  "source_sha256": "667b691e7c6eeeab69f90bc17838211614caf489dbc2f1e13fc987b318e27779",
+  "manifest_sha256": "acf16500058828ddb96dcec22de8d3fb80cd5743e979dae908a554566a3c49f7",
+  "complete": true,
+  "failure": null,
+  "actual_returncode": 0,
+  "old_successful_target_coefficient_amplitude_Fourier_seam_stages_recomputed": 0,
+  "full_nonlocal_mean_return_or_cutoff97_inverse_claimed": false,
+  "verified_input_files": 22,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_local_sources.py",
+    "--repo-root",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-exterior-first-Airy-local-sources-CI-inputs.json",
+    "--prepared",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science/originals",
+    "--out",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-output/consumers/strict-exterior-first-Airy-local-sources.json.gz"
+  ],
+  "mathematical_source_sha256": "e196557e61aa9b83249654a1a81ca3a003ca38e1e07f4ff4fdb19a877f86f4df",
+  "mathematical_wall_seconds": 1355.98521484,
+  "native_sha256": "7322737799bb339750e2df4fb9738da32690801cb669655a600200df5691ba35",
+  "native_bytes": 14518,
+  "mathematical_complete": true,
+  "mathematical_proved": true,
+  "mathematical_failure": null,
+  "mathematical_gates": [
+    {
+      "name": "the exact manifest belongs to this public strict exterior consumer",
+      "passed": true
+    },
+    {
+      "name": "all five successful complete originals and their byte identities are retained",
+      "passed": true
+    },
+    {
+      "name": "actual zero-return process receipts bind the complete forcing fold and Taylor inputs",
+      "passed": true
+    },
+    {
+      "name": "the complete original fixed family and all natural coefficient and seam rows agree",
+      "passed": true
+    },
+    {
+      "name": "the true uncertain root inner physical endpoints and complete 75-stage Taylor are unchanged",
+      "passed": true
+    },
+    {
+      "name": "all strict positive exterior cells are beyond the original fixed positive body cut",
+      "passed": true
+    },
+    {
+      "name": "every complete coefficient row is reused and all new first derivatives are finite",
+      "passed": true
+    },
+    {
+      "name": "all six strict radius cases preserve both complete source sides and true row covers",
+      "passed": true
+    },
+    {
+      "name": "all new natural complete stages fit unchanged original-file publication rules",
+      "passed": true
+    },
+    {
+      "name": "no successful old target coefficient amplitude Fourier or seam stage was recomputed",
+      "passed": true
+    },
+    {
+      "name": "all original mean nonlocal physical-seam and strong-return limitations remain explicit",
+      "passed": true
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "root_native_sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+  "first_forcing_native_sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+  "first_seam_native_sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642",
+  "complete_cancelled_fold_native_sha256": "0ceafc2ba2adb8c1e14ab74c3059b0a0fde39446855df0889dec741f1cb61cfe",
+  "complete_old_rho_Taylor_native_sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719",
+  "background_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+  "explicit_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "actual_intrinsic_parameter": "eta_0",
+  "exact_real_delta_radius": "1/100000000",
+  "exact_root_interval": [
+    "1191984371497/5000000000000",
+    "2383968743003/10000000000000"
+  ],
+  "exact_cover": [
+    "1091984371497/5000000000000",
+    "2583968743003/10000000000000"
+  ],
+  "exact_physical_inner_interval": [
+    "1191939371497/5000000000000",
+    "2384058743003/10000000000000"
+  ],
+  "fixed_positive_body_cut": "1192029371497/5000000000000",
+  "exact_original_leading_strip": "3/64",
+  "exact_new_leading_third_strip": "1/32",
+  "exact_local_numerator_strip": "1/128",
+  "exact_amplitude_output_strip": "1/512",
+  "true_local_source": "J P S(Nraw), Nraw=mu L0 w1",
+  "source_window": "H^-4/3 -> ordinary radial L2 H^-2/3, first original row only",
+  "new_coefficient_derivative_rows": 1328,
+  "reused_coefficient_derivative_rows": 0,
+  "new_strict_exterior_rows": 4359,
+  "reused_strict_exterior_rows": 0,
+  "old_target_FFT_intrinsic_cubic_point_and_ray_stages_recomputed": 0,
+  "old_complete_forcing_coefficient_rows_recomputed": 0,
+  "old_complete_amplitude_cases_recomputed": 0,
+  "old_complete_Taylor_algebra_stages_recomputed": 0,
+  "old_complete_physical_seam_operators_recomputed": 0,
+  "old_circle_nonlocal_and_independent_even_mean_budget_paid": false,
+  "all_original_physical_seams_and_mean_equations_retained": true,
+  "artificial_interface_source_introduced": false,
+  "complete_strong_return_norm_or_cutoff97_inverse_claimed": false,
+  "all_natural_stage_records": [
+    {
+      "file": "coefficients/complete-new-first-coefficient-derivatives.json.gz",
+      "sha256": "5a3c5f4d7a8b65e35c698a5b68725c3f7f6d99a8bcb0d00a6c2c36bdc78f6ddd",
+      "bytes": 2528689,
+      "complete": true,
+      "accepted_rows": 1328
+    },
+    {
+      "file": "cases/radius-1-1000.json.gz",
+      "sha256": "f036ffdbe1b5f82074df6680d8ed8546e3b923caaa2d75511e9f7f936af037f2",
+      "bytes": 278441,
+      "complete": true,
+      "accepted_rows": 141
+    },
+    {
+      "file": "cases/radius-1-500.json.gz",
+      "sha256": "594a12a49afcef302f373f4650a64be7971bdc6104d835e256ede91fea3d5fc5",
+      "bytes": 527166,
+      "complete": true,
+      "accepted_rows": 271
+    },
+    {
+      "file": "cases/radius-1-200.json.gz",
+      "sha256": "7e2bc6efdbe55987ce2b505dcfbd1287ac267ab155dca18990c247dec180cc77",
+      "bytes": 1197342,
+      "complete": true,
+      "accepted_rows": 624
+    },
+    {
+      "file": "cases/radius-1-100.json.gz",
+      "sha256": "1bf250f7bd2f96cdc331fe2c876527e9a66e7ae3ea4e03080a8347f2bca3454b",
+      "bytes": 1712245,
+      "complete": true,
+      "accepted_rows": 895
+    },
+    {
+      "file": "cases/radius-3-200.json.gz",
+      "sha256": "5ac946cf9eebf66a627eedab0f7422b50609f91c3411bbd63d342a6c607e993e",
+      "bytes": 2105663,
+      "complete": true,
+      "accepted_rows": 1103
+    },
+    {
+      "file": "cases/radius-1-50.json.gz",
+      "sha256": "fd3308cbe8828c58d355b07d148b5726c99fb36101b481f06365ddc864a5a07a",
+      "bytes": 2522939,
+      "complete": true,
+      "accepted_rows": 1325
+    }
+  ],
+  "all_available_natural_stage_files_verified": true,
+  "actual_radius_results": [
+    {
+      "exact_radius": "1/1000",
+      "exact_cover": [
+        "1186984371497/5000000000000",
+        "2393968743003/10000000000000"
+      ],
+      "complete": true,
+      "complete_exterior_rows": 141,
+      "complete_Fourier_factor": {
+        "ball": "[15758.0837154938435229528426567535857634078638717 +/- 4.98e-44]"
+      },
+      "Fourier_tail_first_lag": 97,
+      "negative_local_component_Hminus4over3_to_primitive_L2": {
+        "ball": "[711148764568796077907.663638643223255454567440474 +/- 2.31e-28]"
+      },
+      "positive_collar_local_source_L2": {
+        "ball": "0"
+      },
+      "positive_body_local_source_L2": {
+        "ball": "[11507546487433539413171.3727363838286245637293575 +/- 2.64e-26]"
+      },
+      "new_radial_weight_rows": 1,
+      "reused_original_radial_weight_rows": 140,
+      "sides": {
+        "negative": {
+          "complete_exterior_rows": 113,
+          "complete_first_row_local_L2_source": {
+            "ball": "[4691835765560285062879.88181799006978052964059905 +/- 2.05e-27]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[247583695158.045425637166707155477438315742938907 +/- 4.13e-37]"
+            },
+            {
+              "ball": "[46526624600076866.2561216616468590200891495202364 +/- 2.79e-32]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "1186984371497/5000000000000",
+            "1191939371497/5000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[20100.2979463142915619595648299040575552780865730 +/- 4.46e-44]"
+                },
+                "1,0": {
+                  "ball": "[2025751916.85868807194396518652171648891264203227 +/- 3.54e-39]"
+                },
+                "2,0": {
+                  "ball": "[8463697554506.07165419708277083308700392444607508 +/- 9.43e-37]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[735279.807317407941035244849512483857439583608944 +/- 2.75e-43]"
+                },
+                "1,0": {
+                  "ball": "[172872076592.921024857499724831336553404748229789 +/- 4.35e-37]"
+                },
+                "2,0": {
+                  "ball": "[722268585667075.617523593222061552431080157513515 +/- 3.66e-34]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[5485267.48783568450318631642694147531151736727222 +/- 6.87e-43]"
+                },
+                "1,0": {
+                  "ball": "[40746476889991.8648126274099083482870370750611341 +/- 8.32e-36]"
+                },
+                "2,0": {
+                  "ball": "[24965064651560651776.1970090217814857947417842723 +/- 3.48e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[200654061.562297228354491335158979474062979270379 +/- 2.80e-40]"
+                },
+                "1,0": {
+                  "ball": "[3477191859080802.15137425052220509884233255366011 +/- 2.23e-33]"
+                },
+                "2,0": {
+                  "ball": "[2130449702490828834489.87007897755556319951754643 +/- 8.51e-28]"
+                }
+              }
+            }
+          }
+        },
+        "positive": {
+          "complete_exterior_rows": 28,
+          "complete_first_row_local_L2_source": {
+            "ball": "[11507546487433539413171.3727363838286245637293575 +/- 2.64e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[302128096808.544116346726234490458957765450339233 +/- 2.23e-37]"
+            },
+            {
+              "ball": "[141032117852584259.668520136635919594914582610051 +/- 2.12e-32]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "2384058743003/10000000000000",
+            "2393968743003/10000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[20100.2979463142915619595648299040575552780865730 +/- 4.46e-44]"
+                },
+                "1,0": {
+                  "ball": "[2025716946.42198689798904924126088828470460574435 +/- 2.68e-39]"
+                },
+                "2,0": {
+                  "ball": "[24167762865647.7511089744498883057642895739979682 +/- 2.87e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[735279.807317407941035244849512483857439583608944 +/- 2.75e-43]"
+                },
+                "1,0": {
+                  "ball": "[172869092312.387173606636945635917025734798734461 +/- 4.99e-37]"
+                },
+                "2,0": {
+                  "ball": "[2062410168994673.44953059930737831987908915296242 +/- 4.12e-33]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[5485267.48783568450318631642694147531151736727222 +/- 6.87e-43]"
+                },
+                "1,0": {
+                  "ball": "[40746498612261.1442431879364810860959749470831796 +/- 6.63e-36]"
+                },
+                "2,0": {
+                  "ball": "[25025262463427905806.8800068510099211081778984859 +/- 3.04e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[200654061.562297228354491335158979474062979270379 +/- 2.80e-40]"
+                },
+                "1,0": {
+                  "ball": "[3477193712799299.16698279818487677847287188898318 +/- 8.28e-34]"
+                },
+                "2,0": {
+                  "ball": "[2135586817582384304876.86031822698817942481961884 +/- 2.47e-27]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "exact_radius": "1/500",
+      "exact_cover": [
+        "1181984371497/5000000000000",
+        "2403968743003/10000000000000"
+      ],
+      "complete": true,
+      "complete_exterior_rows": 271,
+      "complete_Fourier_factor": {
+        "ball": "[15772.1038786712207657672263250368130048720765879 +/- 1.89e-44]"
+      },
+      "Fourier_tail_first_lag": 97,
+      "negative_local_component_Hminus4over3_to_primitive_L2": {
+        "ball": "[1512645921673762423009.67057788100295136869565294 +/- 2.50e-28]"
+      },
+      "positive_collar_local_source_L2": {
+        "ball": "0"
+      },
+      "positive_body_local_source_L2": {
+        "ball": "[14163193948328341703973.0975742585695539702314103 +/- 1.99e-26]"
+      },
+      "new_radial_weight_rows": 1,
+      "reused_original_radial_weight_rows": 270,
+      "sides": {
+        "negative": {
+          "complete_exterior_rows": 201,
+          "complete_first_row_local_L2_source": {
+            "ball": "[5918770906236128217592.42776673046693650420088023 +/- 1.92e-27]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[409102277233.550265828839069157895956196800669606 +/- 2.69e-38]"
+            },
+            {
+              "ball": "[48042470183014184.3158580463847979567774706222577 +/- 1.77e-32]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "1181984371497/5000000000000",
+            "1191939371497/5000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[67295.2471924596017827404551129779988483706195246 +/- 5.62e-45]"
+                },
+                "1,0": {
+                  "ball": "[4324638030.10915426226901281459839009155882968774 +/- 2.15e-39]"
+                },
+                "2,0": {
+                  "ball": "[10528047100408.8033993417585333993356236976977548 +/- 2.35e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[2461696.66346274881320091776436113388466958828750 +/- 3.32e-43]"
+                },
+                "1,0": {
+                  "ball": "[369052671531.960525569697914102267902254230423340 +/- 1.22e-38]"
+                },
+                "2,0": {
+                  "ball": "[898434477375696.481728892033654626061753331571602 +/- 3.93e-34]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[5635676.89007550110209659685721274197610352740731 +/- 6.98e-43]"
+                },
+                "1,0": {
+                  "ball": "[42023618997082.2553407731635848971473774261954527 +/- 1.49e-35]"
+                },
+                "2,0": {
+                  "ball": "[25778193085636792440.4830684740905884238687276012 +/- 4.64e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[206156119.123483670131553579308099269697589275212 +/- 1.25e-40]"
+                },
+                "1,0": {
+                  "ball": "[3586179641009864.40133728009803461479762001804823 +/- 2.76e-33]"
+                },
+                "2,0": {
+                  "ball": "[2199839838452525755879.06858167282556247201350428 +/- 1.15e-27]"
+                }
+              }
+            }
+          }
+        },
+        "positive": {
+          "complete_exterior_rows": 70,
+          "complete_first_row_local_L2_source": {
+            "ball": "[14163193948328341703973.0975742585695539702314103 +/- 1.99e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[448756665837.837357653709871972739474403121344512 +/- 1.83e-37]"
+            },
+            {
+              "ball": "[145626631150235234.002413203525812031811356488157 +/- 3.28e-31]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "2384058743003/10000000000000",
+            "2403968743003/10000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[67295.2471924596017827404551129779988483706195246 +/- 5.62e-45]"
+                },
+                "1,0": {
+                  "ball": "[4323059360.55556377354634911776545068848730908152 +/- 3.07e-40]"
+                },
+                "2,0": {
+                  "ball": "[25224559788669.0949561298081125520703221569649224 +/- 3.86e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[2461696.66346274881320091776436113388466958828750 +/- 3.32e-43]"
+                },
+                "1,0": {
+                  "ball": "[368917952230.099317036896098164811964916884346957 +/- 3.22e-37]"
+                },
+                "2,0": {
+                  "ball": "[2152594301167681.83446062280176735942712551722158 +/- 7.60e-34]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[5635676.89007550110209659685721274197610352740731 +/- 6.98e-43]"
+                },
+                "1,0": {
+                  "ball": "[42023641027925.4082275824101698143425932050089022 +/- 5.89e-36]"
+                },
+                "2,0": {
+                  "ball": "[25840519839100213408.9816169274303036217554182124 +/- 1.04e-30]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[206156119.123483670131553579308099269697589275212 +/- 1.25e-40]"
+                },
+                "1,0": {
+                  "ball": "[3586181521061203.97420358966844818811960104241016 +/- 2.91e-33]"
+                },
+                "2,0": {
+                  "ball": "[2205158631543056112431.31214845053047862093282449 +/- 2.63e-27]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "exact_radius": "1/200",
+      "exact_cover": [
+        "1166984371497/5000000000000",
+        "2433968743003/10000000000000"
+      ],
+      "complete": true,
+      "complete_exterior_rows": 624,
+      "complete_Fourier_factor": {
+        "ball": "[15863.3886389034861142804759999020748424598571267 +/- 4.81e-44]"
+      },
+      "Fourier_tail_first_lag": 97,
+      "negative_local_component_Hminus4over3_to_primitive_L2": {
+        "ball": "[6802320377930722723658.28790794011859051726290479 +/- 1.16e-27]"
+      },
+      "positive_collar_local_source_L2": {
+        "ball": "0"
+      },
+      "positive_body_local_source_L2": {
+        "ball": "[19524541690366895230106.6962089015129620174693615 +/- 4.29e-26]"
+      },
+      "new_radial_weight_rows": 1,
+      "reused_original_radial_weight_rows": 623,
+      "sides": {
+        "negative": {
+          "complete_exterior_rows": 403,
+          "complete_first_row_local_L2_source": {
+            "ball": "[8533837368087150753257.61056182905117613327758528 +/- 4.47e-27]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[1100083810488.94120971377484438838819809740972442 +/- 1.69e-36]"
+            },
+            {
+              "ball": "[51849177748091152.0634937683612760930320286738110 +/- 4.93e-32]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "1166984371497/5000000000000",
+            "1191939371497/5000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[374450.115332490115833984232964890220270016321655 +/- 1.46e-43]"
+                },
+                "1,0": {
+                  "ball": "[12755058816.9539452771730540218614093176652561216 +/- 4.28e-38]"
+                },
+                "2,0": {
+                  "ball": "[20322436500903.8818766682669097154027999614866660 +/- 1.25e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[13697588.4331177205558120730497972407897910172656 +/- 2.03e-41]"
+                },
+                "1,0": {
+                  "ball": "[1088481509705.75657271422269260333370556187669859 +/- 5.40e-37]"
+                },
+                "2,0": {
+                  "ball": "[1734260631867935.44958878827515954605360987918619 +/- 4.74e-33]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[5913742.72120783091237188001094850934980136085568 +/- 2.19e-42]"
+                },
+                "1,0": {
+                  "ball": "[45100319351916.8729075824348528333407097199328669 +/- 2.57e-35]"
+                },
+                "2,0": {
+                  "ball": "[27819458268276475654.4437643412794001096707163877 +/- 4.99e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[216327918.132762766053118016052811838261618784119 +/- 3.65e-40]"
+                },
+                "1,0": {
+                  "ball": "[3848736756206482.89980153529648163730323363321439 +/- 4.02e-34]"
+                },
+                "2,0": {
+                  "ball": "[2374035774323564699505.97070687825016802148032992 +/- 3.35e-27]"
+                }
+              }
+            }
+          }
+        },
+        "positive": {
+          "complete_exterior_rows": 221,
+          "complete_first_row_local_L2_source": {
+            "ball": "[19524541690366895230106.6962089015129620174693615 +/- 4.29e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[1108759373934.55538839116363073232096685707271503 +/- 3.65e-36]"
+            },
+            {
+              "ball": "[157163442252586965.108294257321890351035859472232 +/- 2.94e-31]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "2384058743003/10000000000000",
+            "2433968743003/10000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[374450.115332490115833984232964890220270016321655 +/- 1.46e-43]"
+                },
+                "1,0": {
+                  "ball": "[12702194043.3966264861253415372643850355984182259 +/- 3.17e-38]"
+                },
+                "2,0": {
+                  "ball": "[29042204407516.9745954932541284451646667474518556 +/- 2.29e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[13697588.4331177205558120730497972407897910172656 +/- 2.03e-41]"
+                },
+                "1,0": {
+                  "ball": "[1083970175861.06756117106302254555501902152667149 +/- 2.75e-36]"
+                },
+                "2,0": {
+                  "ball": "[2478381554513798.77969282302002659626182335829523 +/- 3.81e-33]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[5913742.72120783091237188001094850934980136085568 +/- 2.19e-42]"
+                },
+                "1,0": {
+                  "ball": "[45100342624588.9961471277122671529449335616254879 +/- 3.64e-35]"
+                },
+                "2,0": {
+                  "ball": "[27887604923637568785.8152760770585715123696098290 +/- 1.90e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[216327918.132762766053118016052811838261618784119 +/- 3.65e-40]"
+                },
+                "1,0": {
+                  "ball": "[3848738742232078.79277274259492986275647619909311 +/- 9.03e-34]"
+                },
+                "2,0": {
+                  "ball": "[2379851221776480068549.61464088949025163634725706 +/- 6.56e-28]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "exact_radius": "1/100",
+      "exact_cover": [
+        "1141984371497/5000000000000",
+        "2483968743003/10000000000000"
+      ],
+      "complete": true,
+      "complete_exterior_rows": 895,
+      "complete_Fourier_factor": {
+        "ball": "[16140.6201743230375586976597623119021984478963467 +/- 3.42e-44]"
+      },
+      "Fourier_tail_first_lag": 97,
+      "negative_local_component_Hminus4over3_to_primitive_L2": {
+        "ball": "[74627887958675417423439.0179696589394342208855726 +/- 2.31e-26]"
+      },
+      "positive_collar_local_source_L2": {
+        "ball": "0"
+      },
+      "positive_body_local_source_L2": {
+        "ball": "[31212375739405887178249.5582123694506122663682210 +/- 2.24e-26]"
+      },
+      "new_radial_weight_rows": 1,
+      "reused_original_radial_weight_rows": 894,
+      "sides": {
+        "negative": {
+          "complete_exterior_rows": 565,
+          "complete_first_row_local_L2_source": {
+            "ball": "[14250146621020315279146.0603294216529760535360917 +/- 3.84e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[4322954697297.34897110412114313292479189194573011 +/- 1.97e-36]"
+            },
+            {
+              "ball": "[66040185086583239.9120888433914152220235366259465 +/- 3.87e-32]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "1141984371497/5000000000000",
+            "1191939371497/5000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[1545325.08526866061419942295371270524078957941536 +/- 3.11e-42]"
+                },
+                "1,0": {
+                  "ball": "[36173929795.7524645981015355759415760078441343795 +/- 4.23e-38]"
+                },
+                "2,0": {
+                  "ball": "[61626918338033.4743226233468619388971981806425924 +/- 2.18e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[56528830.2677844912151076729726040714461429274106 +/- 3.90e-41]"
+                },
+                "1,0": {
+                  "ball": "[3086983312357.14468217240640206588934423935345148 +/- 3.11e-36]"
+                },
+                "2,0": {
+                  "ball": "[5259071092791359.56475905829607905359608944658771 +/- 4.30e-33]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[6887034.26690538084473655300344060376115909818039 +/- 3.00e-42]"
+                },
+                "1,0": {
+                  "ball": "[56479380854589.2505444195341608815992103767418494 +/- 5.95e-36]"
+                },
+                "2,0": {
+                  "ball": "[35428748900664539847.1400284783860796553128841931 +/- 2.46e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[251931451.080162727455039062759725056731056504262 +/- 1.77e-40]"
+                },
+                "1,0": {
+                  "ball": "[4819794453486578.97657762070354150098401757901686 +/- 4.33e-33]"
+                },
+                "2,0": {
+                  "ball": "[3023391631806753063198.48278380858137836845960273 +/- 3.66e-27]"
+                }
+              }
+            }
+          }
+        },
+        "positive": {
+          "complete_exterior_rows": 330,
+          "complete_first_row_local_L2_source": {
+            "ball": "[31212375739405887178249.5582123694506122663682210 +/- 2.24e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[4204773830066.62415815480745625311670615720495773 +/- 1.17e-36]"
+            },
+            {
+              "ball": "[200167365588232853.257910812154083332685082246116 +/- 1.54e-31]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "2384058743003/10000000000000",
+            "2483968743003/10000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[1545325.08526866061419942295371270524078957941536 +/- 3.11e-42]"
+                },
+                "1,0": {
+                  "ball": "[35674394332.6558124666567490799954269546144288458 +/- 1.63e-38]"
+                },
+                "2,0": {
+                  "ball": "[60152571174688.5412644434879262643244782884643660 +/- 2.45e-35]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[56528830.2677844912151076729726040714461429274106 +/- 3.90e-41]"
+                },
+                "1,0": {
+                  "ball": "[3044354334880.35885897383962388679531520774826807 +/- 3.23e-36]"
+                },
+                "2,0": {
+                  "ball": "[5133254375736711.20141581915728696925036536970533 +/- 1.65e-33]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[6887034.26690538084473655300344060376115909818039 +/- 3.00e-42]"
+                },
+                "1,0": {
+                  "ball": "[56479409365900.0225565920355454117287190489430552 +/- 2.62e-35]"
+                },
+                "2,0": {
+                  "ball": "[35518186263422652846.1639121959392484154378739070 +/- 1.49e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[251931451.080162727455039062759725056731056504262 +/- 1.77e-40]"
+                },
+                "1,0": {
+                  "ball": "[4819796886563136.14302225201705840590461052840430 +/- 1.25e-34]"
+                },
+                "2,0": {
+                  "ball": "[3031023969456945158818.18565816538286090567427678 +/- 3.68e-27]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "exact_radius": "3/200",
+      "exact_cover": [
+        "1116984371497/5000000000000",
+        "2533968743003/10000000000000"
+      ],
+      "complete": true,
+      "complete_exterior_rows": 1103,
+      "complete_Fourier_factor": {
+        "ball": "[16403.3583246832230142194608174575568291441926372 +/- 3.69e-44]"
+      },
+      "Fourier_tail_first_lag": 97,
+      "negative_local_component_Hminus4over3_to_primitive_L2": {
+        "ball": "[906821690582487502744933.771284146146185490394727 +/- 3.73e-25]"
+      },
+      "positive_collar_local_source_L2": {
+        "ball": "0"
+      },
+      "positive_body_local_source_L2": {
+        "ball": "[53503165857699455938470.8284578537361174862176192 +/- 2.71e-26]"
+      },
+      "new_radial_weight_rows": 1,
+      "reused_original_radial_weight_rows": 1102,
+      "sides": {
+        "negative": {
+          "complete_exterior_rows": 681,
+          "complete_first_row_local_L2_source": {
+            "ball": "[25154346689676719362839.7876111734055083797867043 +/- 1.88e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[14651695335108.6592139318987823969722307830302568 +/- 1.85e-35]"
+            },
+            {
+              "ball": "[96314147037173075.4881591086543562227258060187686 +/- 3.53e-32]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "1116984371497/5000000000000",
+            "1191939371497/5000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[3982376.07167604496690799765352505872128368268056 +/- 1.81e-42]"
+                },
+                "1,0": {
+                  "ball": "[84034806313.4135187017942953718803599495294587238 +/- 3.16e-38]"
+                },
+                "2,0": {
+                  "ball": "[177448282155012.316986608335805984384467647750823 +/- 2.38e-34]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[145677477.939293084399450698952654200494953396898 +/- 2.94e-40]"
+                },
+                "1,0": {
+                  "ball": "[7171298396701.50247257432412587195260112670066031 +/- 3.65e-36]"
+                },
+                "2,0": {
+                  "ball": "[15142946561567256.9706186298131949819890260449990 +/- 1.79e-32]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[8924261.47129023704917343818161071215050668450641 +/- 4.06e-42]"
+                },
+                "1,0": {
+                  "ball": "[80518144965741.0937084734903029836578264318821040 +/- 4.96e-35]"
+                },
+                "2,0": {
+                  "ball": "[51659502042550051292.0378150982285474242757723272 +/- 3.91e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[326454327.820731058767543343522879994213781045046 +/- 9.04e-41]"
+                },
+                "1,0": {
+                  "ball": "[6871196224867496.82646044665306245928888800661233 +/- 2.50e-33]"
+                },
+                "2,0": {
+                  "ball": "[4408479300713327823170.39099788230928887995286547 +/- 4.49e-27]"
+                }
+              }
+            }
+          }
+        },
+        "positive": {
+          "complete_exterior_rows": 422,
+          "complete_first_row_local_L2_source": {
+            "ball": "[53503165857699455938470.8284578537361174862176192 +/- 2.71e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[14168193908097.7179708949813284860426490374342527 +/- 4.66e-35]"
+            },
+            {
+              "ball": "[291899170249293687.609932497360750968260856891658 +/- 1.91e-31]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "2384058743003/10000000000000",
+            "2533968743003/10000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[3982376.07167604496690799765352505872128368268056 +/- 1.81e-42]"
+                },
+                "1,0": {
+                  "ball": "[82538552548.9129773742762295441880940246940269472 +/- 3.10e-38]"
+                },
+                "2,0": {
+                  "ball": "[173966127778704.252916664250243778278670360897302 +/- 1.20e-34]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[145677477.939293084399450698952654200494953396898 +/- 2.94e-40]"
+                },
+                "1,0": {
+                  "ball": "[7043612230776.36487034770313550488286442744779234 +/- 3.27e-36]"
+                },
+                "2,0": {
+                  "ball": "[14845789119414632.9660122279955492290662390034865 +/- 2.16e-32]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[8924261.47129023704917343818161071215050668450641 +/- 4.06e-42]"
+                },
+                "1,0": {
+                  "ball": "[80518185158850.6425655402850638355026096596216388 +/- 4.74e-35]"
+                },
+                "2,0": {
+                  "ball": "[51794919398394140975.8078609027993770883802127529 +/- 2.79e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[326454327.820731058767543343522879994213781045046 +/- 9.04e-41]"
+                },
+                "1,0": {
+                  "ball": "[6871199654836514.55903989214856905333936090331827 +/- 3.92e-33]"
+                },
+                "2,0": {
+                  "ball": "[4420035444047893570131.78513139499197155529026830 +/- 1.46e-27]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "exact_radius": "1/50",
+      "exact_cover": [
+        "1091984371497/5000000000000",
+        "2583968743003/10000000000000"
+      ],
+      "complete": true,
+      "complete_exterior_rows": 1325,
+      "complete_Fourier_factor": {
+        "ball": "[16629.0720896621399386927111692262965356016850957 +/- 2.20e-45]"
+      },
+      "Fourier_tail_first_lag": 97,
+      "negative_local_component_Hminus4over3_to_primitive_L2": {
+        "ball": "[8835019256606384618465681.72889401661589048314232 +/- 2.78e-24]"
+      },
+      "positive_collar_local_source_L2": {
+        "ball": "0"
+      },
+      "positive_body_local_source_L2": {
+        "ball": "[83184978582073851574356.0659478728572552262571188 +/- 3.34e-26]"
+      },
+      "new_radial_weight_rows": 1,
+      "reused_original_radial_weight_rows": 1324,
+      "sides": {
+        "negative": {
+          "complete_exterior_rows": 790,
+          "complete_first_row_local_L2_source": {
+            "ball": "[40006363931613674475714.4960775433443214054402131 +/- 2.22e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[37708007352774.2617629063574098101278857489235529 +/- 1.91e-35]"
+            },
+            {
+              "ball": "[131214671293464426.945057607498868562024924606582 +/- 3.81e-31]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "1091984371497/5000000000000",
+            "1191939371497/5000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[7731800.52503747907241980626779750381549525171661 +/- 3.19e-42]"
+                },
+                "1,0": {
+                  "ball": "[158056779801.959157645108994934130550836402760065 +/- 2.47e-37]"
+                },
+                "2,0": {
+                  "ball": "[406626255443367.826846855578398309190159969262386 +/- 3.03e-34]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[282833459.257683930631931592846732619899199302933 +/- 3.85e-40]"
+                },
+                "1,0": {
+                  "ball": "[13488129280077.4725218299540601477040949902827379 +/- 4.25e-35]"
+                },
+                "2,0": {
+                  "ball": "[34700362167102482.2987490843052515905306866753867 +/- 3.21e-32]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[11178348.0241909791668287421267604379920511475991 +/- 1.15e-42]"
+                },
+                "1,0": {
+                  "ball": "[107918621142924.985948112843465514742685110660385 +/- 3.32e-34]"
+                },
+                "2,0": {
+                  "ball": "[70363980109025945168.4743726036790802458278233830 +/- 3.35e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[408910037.219681815614117504633208796399705348645 +/- 3.05e-40]"
+                },
+                "1,0": {
+                  "ball": "[9209477224117351.51541785699779052245433761737486 +/- 3.95e-33]"
+                },
+                "2,0": {
+                  "ball": "[6004667826084469091618.17105070978822616474083240 +/- 1.37e-27]"
+                }
+              }
+            }
+          }
+        },
+        "positive": {
+          "complete_exterior_rows": 535,
+          "complete_first_row_local_L2_source": {
+            "ball": "[83184978582073851574356.0659478728572552262571188 +/- 3.34e-26]"
+          },
+          "ordinary_unnormalized_amplitude_L2_bounds": [
+            {
+              "ball": "[36615714481880.9266710558256135611477923619604477 +/- 1.01e-35]"
+            },
+            {
+              "ball": "[397617623528404748.904834858282383215838905614776 +/- 2.60e-31]"
+            }
+          ],
+          "exact_enclosing_interval": [
+            "2384058743003/10000000000000",
+            "2583968743003/10000000000000"
+          ],
+          "selected_actual_w1_derivatives": {
+            "a1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[7731800.52503747907241980626779750381549525171661 +/- 3.19e-42]"
+                },
+                "1,0": {
+                  "ball": "[155546849177.657806577991521544977772340236742549 +/- 3.04e-37]"
+                },
+                "2,0": {
+                  "ball": "[401234731445600.406666499615793217124652613244286 +/- 3.47e-34]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[282833459.257683930631931592846732619899199302933 +/- 3.85e-40]"
+                },
+                "1,0": {
+                  "ball": "[13273938729143.6836602675773816300525966766865143 +/- 4.44e-35]"
+                },
+                "2,0": {
+                  "ball": "[34240264392178526.2328537319849401639683387639482 +/- 4.62e-32]"
+                }
+              }
+            },
+            "b1": {
+              "strip_sup": {
+                "0,0": {
+                  "ball": "[11178348.0241909791668287421267604379920511475991 +/- 1.15e-42]"
+                },
+                "1,0": {
+                  "ball": "[107918675853353.492840017507638652469751813289444 +/- 8.54e-35]"
+                },
+                "2,0": {
+                  "ball": "[70553174073579842921.7203485361541974888424454417 +/- 3.46e-29]"
+                }
+              },
+              "Wiener": {
+                "0,0": {
+                  "ball": "[408910037.219681815614117504633208796399705348645 +/- 3.05e-40]"
+                },
+                "1,0": {
+                  "ball": "[9209481892954294.75831029742385421083269181868413 +/- 7.64e-34]"
+                },
+                "2,0": {
+                  "ball": "[6020813116758559723620.12462205128807113754543212 +/- 2.82e-27]"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "complete_full_native_and_all_other_derivative_tables_preserved": true
+}

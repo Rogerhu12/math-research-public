@@ -1,0 +1,70 @@
+{
+  "kind": "actual_public_strict_exterior_first_Airy_local_source_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43657793725",
+  "run_attempt": "1",
+  "workflow_commit": "52b9c8e25571ea9fdf4d2f3b08519bcce291a6e8",
+  "worker_sha256": "9f4505e1fd16114edb5445dd48be1a1811ff06c453f3d2beb0dbf0ce6967936a",
+  "manifest_sha256": "acf16500058828ddb96dcec22de8d3fb80cd5743e979dae908a554566a3c49f7",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T00:22:32.402678+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T00:22:33.133115+00:00",
+      "before": "52b9c8e25571ea9fdf4d2f3b08519bcce291a6e8",
+      "after": "59bc1e3209c4bdbc16ed8d6774368c5ef74702b4",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:45:16.938393+00:00",
+      "before": "59bc1e3209c4bdbc16ed8d6774368c5ef74702b4",
+      "after": "97f93fd585302d68f0f459ec2090e0005bbbb55e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_true_root_high_order_point_evaluation_requested": false,
+  "strict_original_completed_coefficient_and_amplitude_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "forcing",
+      "run_id": "43624260519",
+      "path": "forcing/consumers/actual-first-Airy-forcing.json.gz",
+      "sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+      "bytes": 6577892
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_local_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-exterior-first-Airy-local-sources-CI-inputs.json",
+    "--manifest-sha",
+    "acf16500058828ddb96dcec22de8d3fb80cd5743e979dae908a554566a3c49f7",
+    "--out-dir",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-strict-exterior-first-Airy-local-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 22,
+  "actual_scientific_checkout_commit": "59bc1e3209c4bdbc16ed8d6774368c5ef74702b4",
+  "mathematical_wall_seconds": 1356.677235266
+}
