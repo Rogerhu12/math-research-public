@@ -2,15 +2,15 @@
 
 ## 最新实际135与下一完整merit算法
 
-[R296](results/R296-actual134-thirty-two-nine-control-batches.md)已完整读回32批：256原方向接受、2322外trial/2066拒、81接受inner目标未达；20外trial内部371域失败由原函数保有限候选，4次内层12步用满均外拒。32初末FD/Arb/453圆均完成，全部unit/full112/nonzero/native/success仍false。W5.003044586685467→4.963213836829105；后段接受alpha到2^-17，末最小σ9=.001251424267791722，不能把慢降只归因.1reset或据SVD判无根。
+[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)保完整32批256接受/2322trial、81接受inner未达及371内域失败；W到4.963213836829105，末radius.000390625，全final false。真实末p是135和明确新138的同一起点。
 
 [135 R301完整结果](results/R301-actual135-carried-radius-thirty-two-batches.md)：run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c，32批全部完成，256接受/357外trial/101拒，W4.963213836829105→4.963213788986739；真radius .000390625→9.5367431640625e−8。86接受保内目标未达，72外拒已有内目标达标；0外域异常与115次normal全回溯拒绝返回有限点须区分。192组/1728列FD、Arb/453圆及896原JSON身份完整，全部unit/full112/nonzero/native/success false，真实末九p及半径/SHA在正文。去重置仍微降，不把弱σ9=.0001573075243699922/condition1.0298838911775264e12或整列FD成功当精确弱方向/无根证明。下一独立138采用R299同轨迹完整merit选择，从与135相同的真134末p/radius作可比首方向，不冒135末续跑；所有原外层与最终责任继续。
 
-2026-11-15终端环境unavailable；根第8条允许只用GitHub集成传<100KB文本。记录API新main及规则对照，保最近真实Actions/root pull来源；恢复后立刻实际pull。所有数学仍只在本公开库Actions，122已完整读回可得部分结果，124/128/130/133/136仍按各自请求继续。
+2026-11-15 11:27终端恢复；原临时克隆丢失后新部分克隆/tmp/visible-larger-root-git-138并真实pull，双README未变。此前根8 API记录仍与真实pull分开；现在每push前真pull并按NFF立即rebase循环。所有数学仍只在本公开库Actions，122已完整读回可得部分结果，124/128/130/133/136仍按各自请求继续。
 
 本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request134检查点](open-checkpoint-through-request134-2026-11-15.md)，它仍链接request126及[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
 
-所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root部分克隆/tmp/visible-larger-root-git-126在10:48后再失终端；当前依根8仅集成小文本、最新main lease普通前进，恢复即真pull，不把API读取冒git。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
+所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root旧克隆在终端断连时丢失，当前新克隆/tmp/visible-larger-root-git-138；正常CLI已恢复，不把历史API读取冒git。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
 
 ## 1. 九控制低三条件的真实接续
 
@@ -19,7 +19,9 @@
 [R292实际131](results/R292-actual131-eight-nine-control-batches.md)八批64接受/236trial/18接受inner false，W6.426170559507028→5.003044586685377，全final false；完整原primary/方向/FD/Arb/圆和真末p/来源见正文。批2/8首方向全步接受，不能只由reset归因慢降。[134入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)保85+2/own26、原最多32批和全部科学门，实际完整结果现见R296。旧123–134全部细节仍在原检查点与正式结果，不再在open重复。
 
 
-[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)把完整条件证明直接写入results：固定实模型正阻尼最小二乘有精确负斜率/预测下降，有限QR必须保驻点误差项；精确隐式法向曲线在可逆/光滑假设下首阶仍是predictor，不能推出原12×20内求解或20档外程序必接受。原alpha<1强制半径减半可解释重复回溯机制，不能据它独自归因慢降或预言连续256方向。下一算法若携真实radius或扩同solver预算须另源另身份，不悄改134。
+[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)已证固定实模型正阻尼全三下降、有限QR驻点误差修正和可逆精确法向曲线的首阶条件；不推出有限12×20/20档必接受，也不把reset独自归因或预言256方向。135实际携半径仍微降，后继新算法使用独立源/身份。
+
+[R299完整证明](results/R299-same-normal-trace-full-merit-selection.md)及[选择器接口](notes/2026-11-15-same-normal-trace-full-merit-selector-interface.md)：保持原normal全部工作语句/内12×20后，在所有已成功形成有限原全三merit的种子、工作、内试探和末点中选择最小者；含内层拒绝点但不救未完成调用。无新增模型/J、无新内目标门；只在同阈值和读回一致时继承一次接受，不证后续轨迹优越。helper d4c9cd44已源级全读/AST，138独立producer/完整normal reader继续，全部实际由公开Actions支付。
 
 此前三/四/六控制的实际106–121、归一化、微步全拒、补控制及传输责任见检查点与原notes。121第五正常summary93000B引fallback，wrapper70是传输停止；第五trial原件已删不能补造。当前126不重命名为121未保存现场。
 

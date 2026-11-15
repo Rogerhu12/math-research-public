@@ -4,11 +4,11 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:28:36 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6e0a238f21b7314d0352b11e571be11ba1cbeaf6。
+规则同步记录：2026-11-15 11:30:36 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 aa9e34c6bae8aefcb62c0d168a7d0752dc58f1f4。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public；科学计算/导入/测试仅本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
-root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可用时每push前/至少每小时真pull，NFF立即rebase重推。当前终端不可用，依根8仅集成<100KB文本；每次取最新main/双README并expected_sha普通前进，冲突重读合并，禁force。
+root唯一发布者；原临时克隆已丢，新部分克隆/tmp/visible-larger-root-git-138已恢复。11:27:51真pull已读6e58a6cce03bf2a2aff3671571998b9acc4305ab，双README未变。每push前/至少每小时真pull，NFF立即rebase重推；终端再次不可用才依根8小文本集成，禁force。
 
 根第15条禁可重算raw/证书/Actions输出入Git/Release/artifact，仅源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB；证明直接results，不加独立审批/fixture门，不写根LOG。删失现场按公开配方重做，不能由SHA伪恢复。
 
@@ -19,6 +19,8 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 原问题M112/T112/N2048、699节点、453态/236036free，三core固定/109自由、scalar.99/cut.3；全physical/H/C/B/outside/域/尾。每模型fresh W/J，不跨模型减merit，不换T96/零H/低三，不增六/九jet门。
 
 ## 九控制真实搜索与完整非零场
+
+[R299](results/R299-same-normal-trace-full-merit-selection.md)证明同一完整normal轨迹已评价点的原全三merit最小选择，条件继承同阈值接受；新helper d4c9cd44不改工作J/12×20、不救未完成调用、全部失败保留。仅局部选择保证，不证全链更快；138接完整逐normal分段及同135首父对照。
 
 [134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)：run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，32批256接受/2322trial，W5.003044586685467→4.963213836829105，末radius.000390625。完整原值/例外/全部身份见正文，全部final false，raw已清。
 

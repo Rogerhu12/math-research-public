@@ -379,3 +379,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R301实际135全32批读回
 
 [R301](results/R301-actual135-carried-radius-thirty-two-batches.md)已全文读并直接发布；run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c全部32批256接受357trial，W4.963213836829105→4.963213788986739，radius到9.5367431640625e−8，全部最终门false。保86合法接受inner未达、72外拒inner已达、115 normal回溯全拒与0外域异常的区别，全部FD/Arb/圆与896原文字身份及末p/r/SHA完整；root独立核原chain并全文读结论。独立138准备R299选择器，与135同真实134父/初radius比较首方向，旧135保持且不预填改善；持续136/133与新准确g接线。
+
+## 2026-11-15 /root — R299同轨迹选择证明与终端恢复
+
+[R299](results/R299-same-normal-trace-full-merit-selection.md)及helper d4c9cd44/接口b530ad14全文读后发布：只在原normal正常完成后从已评价有限全merit点择优，保工作轨迹/全部错误与原外层门；不预言全链更快。root将公式分隔符改为根规则要求，proof e0f8d493；仅AST与元数据验证，无本地科学。原临时clone丢失后已新部分克隆并11:27:51真实pull到6e58a6cce03bf2a2aff3671571998b9acc4305ab、双README未变；恢复CLI每push前pull与NFF循环，138继续明确同135首父实验。
