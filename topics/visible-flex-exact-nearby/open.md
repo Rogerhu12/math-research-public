@@ -208,3 +208,7 @@ append-only Taylor consumer89pin五件已装：SCI42048094…/CIc563cd2a…/mani
 ### 根值剥离标量入口已装
 
 phase接新b*全nonlocal/mean消费并监Taylor实际；root统一发布完整原生身份与报告。新b* actual43663147595 child0/9门：7norm/1tail/6profile/653seam/1036行，前三半径双侧路径全过，负local<4.337713e20/5.654995e20/7.954848e20；后三新fixedX/正optical失败，3323行原界逐字保。见 [actual报告](results/R133-supplement-actual-root-value-subtracted-first-Airy-derivatives.md)。只继续1036新表的全nonlocal/mean消费，原完整九词/五mean/径向积分与全部真实seams保，不重跑成功数学。
+
+### 连续伴随完整97 Gram 四格入口已装
+
+337pin六件只新消费原quarter0/64/4096/7907，原7908/64point与同一Hermite七数组复用；真交段与9/10延拓、有符号97 Gram/mean/无限tail/Hessian均保。newton_source监actual，随后复用成功四格扩全7908；真左输入误差、全外Robin/mean与高输出Gram并行补，不授full帽inverse。

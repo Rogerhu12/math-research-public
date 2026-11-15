@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 连续伴随 ordinary/Hessian 的完整97维 Gram 四格入口（2026-11-15）**：[合同](notes/2026-11-15-R133-complete97-ordinary-adjoint-residual-Gram-contract.md)。337pin六件复用253提案与164Hessian的完整并集，原331pin零改动；真Hermite/quarter交段保原uniform error，完整signed Gram与mean权、无限系数尾及Hessian转置分别支付。公开Actions只新算quarter0/64/4096/7907，0原target/QR重算；待actual，四格不代替全7908或无限帽图。
+
 - **R133 完整97输入物理帽伴随提案 actual（2026-11-15）**：[实际报告](notes/2026-11-15-R133-actual-complete97-cap-adjoint-proposal-v2.md)。43662865692 child0/5门，1977节点/1976片与257state×97inputs新QR完成，有限独立动作相对残差6.9688e−15。原7908whole/64补点及失败中已成selected NPZ全复用、0target；515原文件完整artifact保。该数值只验证有限提案，后继完整连续体残差、Hessian、两端/mean及高输出Gram仍须消费。
 
 - **R133 根值剥离第一 Airy 导数 actual（2026-11-15）**：[完整报告](results/R133-supplement-actual-root-value-subtracted-first-Airy-derivatives.md)。run43663147595 child0/9门，原数学零重算；新1036行覆盖R=.001/.002/.005，负local上界分别<4.337713e20/5.654995e20/7.954848e20。后三半径的新fixed-X/正optical路径失败，3323行完整原界保留。根mean、653个真seam记录与所有两阶导数保；全新nonlocal/mean、strong return及97 cutoff仍继续。
