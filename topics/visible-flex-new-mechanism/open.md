@@ -160,14 +160,18 @@ R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩ta
 
 [接线补充](notes/twelve-LP-primary-SOC-pair-reservation-implementation-20261115.md)与五源码/独立workflow已发布；134文件绑定包含全部125原脚本、5新脚本和4工作流。下一单独提交request，从run43753280651的exact159/163、22bank及4419/4277有序池恢复，仅四新组和一次current-best延续；原12/40/120/10不改。源码已审不等于人工或实际通过，必须消费本次原日志后再选下一科学步骤，不为等触发重复。
 
-### R372 新支付：完整 ZZ 第零角函数
+### R372 已付，余项继续
 
-[R372](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)保真primitive A2，原三面积与已付T使ReJ=ReK=0，完整角商严格消去；第九principal在四χ上增独立二次方向，48个真实正幅列给同一有限N九根，全部旧五对称乘积/18面积/T/Ψ/三行共同保持。只支付ZZ0、ZZ1仍反射0。当前继续ZZ2、ZY0/2、WW0/2、WY1、YY0/2八位置及其余history/period；不能把角商或新行当全乘积已付。
+[R372](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)完整真primitive角商与48列九行有限根付ZZ0；ZZ2未付。
 
-### R370 新支付：完整正规δ⁴成本的精确五次通量
+### R370 已付，完整层继续
 
-[R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)保原C_A m2、第三history两种P_s、三次速度势−∂dσ/3及有序1/3、2/3双尾，完整Qδ4=16Q04∈U准确给Λ=∫(x+d)(u″)^5/80。单ambient项严格非零但被原C_A项整项抵，不能删除后单算；完整结果是C²而非C³主式。d0真−6借已付R207响应消pure给Ω=∫x(u″)^5/80。接着完整Q2/其它Q4及与H全像的准确关系；不能从C²就判新独立方向或正半群双向可达。
+[R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)完整δ⁴含所有history/势/真尾给Λ=∫(x+d)r5/80；Q2/其它Q4、相对H全像/actual联合未判。
 
-### R371 新支付：完整H像的主商12与十三实际自然读出
+### R371 已付，完整C²核继续
 
-[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)保完整−dDδ、同锚真尾，给全状态h^-8 p(hx+d)两principal；六真实平移张成Pol≤5，C²收敛局部振荡与自由二阶jet证明商恰12。原W−7=−∫r5/57600是H像内非零C²方向，故完整像≥13；非恰13。十三个一次固定真实profile的满秩由有限求值引理严格存在，再按R366一般向量定理付actual M=T0/框架/空间闭合与紧集光滑截面。继续H的完整C²核、Q2/Q4及joint；不能把十三读出等同全U或固定g flex。
+[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)全H模C²恰12、全像≥13；13固定自然读出actual闭路可全指定，非全U/固定g flex。继续H的C²核及Q层/joint。
+
+### R373 已付完整W²，继续六个位置
+
+[R373](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)保WW0/2完整cubic、A2与真实尾，原PZ0和R372五积分比清两角商；五实际χ/60列的11维正锥和同一有限N精确根同时保持原九行/18面积/T/Ψ/三F。现在余ZZ2、ZY0/2、WY1、YY0/2；尤其ZZ2的真C²角商仍欠，不能用新增principal冒称零。

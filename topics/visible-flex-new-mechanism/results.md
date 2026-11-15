@@ -494,3 +494,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R371：H模C²像恰十二维与十三维实际联合通量控制
 
 [R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)。R365完整输运连−dDδ给两principal ±h^-8 p(hx+d){L或r}Et²/480。六真实d平移是Pol≤5基；uN→u0于C²且三导平方/N平均，通过任意局部二阶jet证明P/Q无隐藏关系，完整H模C²恰12。原R358真−7的−∫r5/57600非零C²，有限正伸缩投影和原affine协变使它属于H像，故全像至少13而非恰13。有限求值引理给十三固定同窗同锚profile，在actual H列上满秩；R366一般m定理给R13全部实际目标、M=T0/框架/空间闭合、物理下界及紧集光滑截面，完整Klein桥基准保留。未给数值profile/行列式界、全U、全period或固定g flex。纸证无新执行。
+
+## R373：完整W²角商与五形状十一行共同支付
+
+[R373-complete-W-square-angular-quotients-and-eleven-target-control.md](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)。原F_W0与F_W2在合法整个q的真紧Wq²方向变分，KWW0由PZ0消、KWW2含完整A2并由(8,5,2,4,−4)实部关系消，两全角只余sin²值。新WW0添v²常行，WW2消旧位置二次行后常量含非零u²；ηκ>0以全小κ范围严格有理界证明。五明确有限jet、正偶母Hermite/多项式近似及同Fnew最大minor给五实际χ。原真实偏移/交替列2高+4二次+5常满11，60列严格正核，同有限N十一根付完整W²并保原九行及全部18面积/T/Ψ/三F。余六位置而非rank；全period仍欠。根全文/完整K两系数/η界及jet秩手核，无新执行。

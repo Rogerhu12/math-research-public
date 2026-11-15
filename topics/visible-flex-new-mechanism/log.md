@@ -214,3 +214,9 @@ request-soc-pair-reservation.json：33631B，SHA256 4ac9b699a252931fe29a209b17ba
 ## 2026-11-15 20:38:23 UTC — R371 完整H主商恰12、全像≥13和实际联合控制
 
 根从R365完整原式手推两h^-8系数及必需−dDδ，六平移Vandermonde、局部C²振荡忠实性、非零C²真−7入H像和有限求值引理均在完整稿。15885B，SHA256 be40fac3bb8d0fc954b5ceb3c4065fcd1c02723f49e3984ee5863d918d37cc05；blobe41e09418c2abccaf9adea9e8521e1fd946515a2。原R366一般m已经支付全部桥/倒行/正εIFT/空间基准，本次只以新的真实rank13调用，不重旧科学或秩。H全C²核/与Qδ4关系尚未判；完成即推并继续剩余层。
+
+## 2026-11-15 20:40:15 UTC — R373 整个W²联合支付及本轮真实规则读取
+
+R373 blob e22331c2…，18393B，SHA256 ff72d7bd482c70dfc479ac821c540b3d6a465a6d2477d39681a0e9f259cd749f。根全读，手核全部WW cubic变分系数、primitive、ηκ通分及1052/3125正下界、有限jet rank5/实际11行正核；未运行符号/积分/人工。完整W²已付，余六位置继续。
+
+本轮run43758666042/job132948276657的原log：3729117B/SHA256 0260f3a8d1233afbdad4227ae5260ae5956bcd58c0cea6dd53e2f399ea3409c9。public actualpull20:32:57.953377→20:32:58.355408，before=after aca67097b60b7eacdcf20798395ce6d4d1ab2845，根/本题README两个diff均空；git输出123B/fc0f5ea785e047df1e820cd24f9a4076d4d78b38b350de2a4755a2b89b9557ad。private20:33:01.645477→20:33:02.572077，before=after43dbc0b185aad941d3d59218dd4f505c24d4c818，根无差/题不存在/QUEUE唯一本会话进行中。root已直接读两receipt，HANDOFF记已读SHA，下一public最迟21:32:58。科学/费用完整actual note正在消费；原四新组已通过，无旧检查重跑。
