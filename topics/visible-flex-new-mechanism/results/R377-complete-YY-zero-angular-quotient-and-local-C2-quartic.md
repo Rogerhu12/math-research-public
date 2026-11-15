@@ -7,7 +7,7 @@
 的完整 \(ZY_2,YY_2\) 等条件，但 \(YY_0\) 仍未支付。
 本稿从原 cubic 和真实同锚输出完整算出它的额外角商：
 所有 primitive 在准确 IBP 后收成一个无除 \(x\) 的局部 C² 四次多项式。
-该式既不是仅 principal，也不是宣称已有圆已使它为零。
+再补入 R349 已付的完整第二 self 身份，证明该角商已由原18面积准确消去；不是一个新的C²欠账。
 
 主要身份是，对真正合法的整个复输入 \(q=f+ig\)，
 \[
@@ -20,12 +20,13 @@ K_{YY,0}(q)=\mathcal K_Y(q)
 \(\mathcal K_Y\) 的完整局部式见(13)(14)。
 实输入上的该局部扩展严格为正，但实非零输入并不满足本处复三矩合法条件；不能把这种正性直接搬成真实圆的阻断。
 
-本稿准确完成的是识别 \(YY_0\) 的完整 C² 角商及其与原面积的关系。
-实际消去 \(\operatorname{Re}\mathcal K_Y(f+ig)\)、再同点支付剩余 \(\pi/2\) 值，仍是后续义务。
+本稿准确完成完整 C² 角商的识别及其由原18面积消去的证明。
+同点支付剩余 \(\pi/2\) 实际值仍是后续义务；无需再新增一个 C² 纤维条件。
 
 来源：
 [R259](R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md) 的全部原算子、三矩、cubic 与完整变分；
 [R291](R291-exact-positive-Gaussian-square-moment-is-the-leading-energy.md)、
+[R349](R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)、
 [R294](R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)、
 [R368](R368-two-exact-cubic-identities-and-seven-target-control-pay-the-PY-product.md)、
 [R372](R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)、
@@ -264,29 +265,43 @@ K_{YY,0}(q)=\mathcal K_Y(q):=\int\{&
 本稿不构造一个合法反号圆、不宣称该角商已可自由调节；
 这些都需要另付真实联调条件。
 
-## 5. 原面积究竟给了什么
+## 5. 补回 R349 的完整已付身份：原面积已经消去角商
 
 当前 \(Z=dL+eU\)，旧全相位 \(ZY_2\) 面积的四次 Fourier 系数迫
 \[
-d\,S_{LY,2}(q)+e\,S_{UY,2}(q)=0.
+d\,S_{LY,2}(q)+e\,S_{UY,2}(q)=S_{ZY,2}(q)=0.
 \tag{15}
 \]
-而本稿需要的角商是(7)的差。
-在原小参数 \(0<\kappa^2<1/100\) 范围，
+只看这一条加权和与(7)的差，并不足够；必须消费已付的完整 R349。
+
+R349 §2(4)(5)、§3已经对任意实紧输入、保全部 primitive 和原二次 Green 尾证明
 \[
-d+e=\frac{\kappa(9\kappa^2-1)}{4h_e}\ne0.
+S_{UY,2}=-5S_{LY,2}.
 \]
-所以 (7)(15)准确等价于
+其完整局部式逐项为本稿(13)的 \(-1/2\)。
+作为真正的四次多项式身份，它准确延拓到当前整个合法复 \(q\)；
+不是只对一个特殊母或 principal 成立。
+原 R349 的 \(I_2\) Green 三项在两条二次尾上相加严格为零，
+故不能把该关系误当作尚未支付的紧尾假设。
+
+结合(7)(15)，立即得到
 \[
-S_{LY,2}=-\frac{3e}{d+e}\mathcal K_Y,\qquad
-S_{UY,2}=\frac{3d}{d+e}\mathcal K_Y.
+\boxed{
+K_{YY,0}(q)=\mathcal K_Y(q)
+=-2S_{LY,2}(q)
+=-\frac{2}{d-5e}S_{ZY,2}(q)=0.}
 \tag{16}
 \]
-不能仅从(15)这一条加权和为零，就把差(7)设成零。
+这里原小参数范围给
+\[
+d-5e=\frac{\kappa(99\kappa^2+5)}{4h_e}>0.
+\]
+所以分母在整个已选范围都非零。
 
-(16)不证明 \(\mathcal K_Y\) 与全部其它已付门独立；
-若存在另一个完整身份，它仍须给出并按当前整个圆核实。
-本稿只是把遗漏的对象明确写成(13)，避免把“C²量”自动并入已付纤维。
+本节修正初稿仅比较加权和与差、未补回 R349 时留下的额外待付表述。
+(4)—(14)的所有完整局部系数和下一节反演核对不变。
+现在严格结论是：当前原18面积已支付整个额外角商，
+无需新增 \(\operatorname{Re}\mathcal K_Y=0\) 的独立控制模块。
 
 ## 6. 正域反演的独立代数核对，含真实积分常数
 
@@ -355,32 +370,33 @@ K_{PP,2}(q)=\frac43\int r^4.
 它不被搬到跨零支撑上；通用且无奇点的完整原式始终是第3节(13)。
 反演也没有被授予允许的几何变换或固定 g 的控制权限。
 
-## 7. 完整 YY0 的两条实际义务
+## 7. 完整 YY0 只剩一个实际值
 
 当前十二完整副本已经清除 angular odd 项。
 R294 的原精确角分解给
 \[
-\boxed{
 \mathcal Q_{YY,0}(\theta)
 =\sin^2\theta\,\mathcal Q_{YY,0}(\pi/2)
 +\sin^2\theta\cos^2\theta\,
-   \operatorname{Re}\mathcal K_Y(f+ig).}
+   \operatorname{Re}\mathcal K_Y(f+ig).
 \tag{22}
 \]
-两种角函数线性独立。因此这个完整函数全相位为零，当且仅当
+第5节(16)已经由原18面积消去第二项，所以准确有
 \[
-\mathcal Q_{YY,0}(\pi/2)=0,\qquad
-\operatorname{Re}\mathcal K_Y(f+ig)=0.
+\boxed{
+\mathcal Q_{YY,0}(\theta)
+=\sin^2\theta\,\mathcal Q_{YY,0}(\pi/2).}
 \tag{23}
 \]
-全偶反射的 \(YY_1=0\) 与已付 \(YY_2\) 不删除(23)。
+因此完整 \(YY_0\) 全相位为零，当且仅当它的一个实际
+\(\pi/2\) 值为零。全偶反射的 \(YY_1=0\) 与已付 \(YY_2\) 保留。
 
-下一构造必须先处理(23)的真实 C² 基线；
-若为高频末控制器扩展有限纤维，还须从起点包含该局部四次式的实际平移系数，
-证明原基线确已被支付，而非仅把新的未知目标添入映射。
-之后需要把 \(\pi/2\) 的完整值与全部既有目标在同一母、实际正幅列和一个有限 \(N\) 上共同求根。
-本稿没有完成这些实际正锥或同点根的证明。
+下一构造需要把这个完整实际值与全部既有目标在同一母、
+实际正幅列和一个有限 \(N\) 上共同求根。
+不需要为了本角商改变已付 \(\mathcal F_{\rm new}\)，
+也不需要再次执行 R349 的原 self/Green 检查。
+本稿尚未给出新增末控制行的正锥及同点根；不能把(23)直接写成整个 \(YY_0\) 已零。
 
 其它完整对称函数、零／一 history、canonical period、平台/退化flux/端芽、
 同一 gauge 的 joint 条件以及 README 的固定度量、C² 嵌入、连续 reach 与幅度目标仍按 open.md 继续。
-本稿完成的是(1)、(13)、(14)、(19)—(23)的完整原式身份及准确适用范围。
+本稿完成的是(1)、(13)、(14)、(16)、(19)—(23)的完整原式身份、旧角商的消去及准确适用范围。

@@ -88,7 +88,7 @@ R354的全偶反射/正ω桥及R357–360真实母、primitive/Green/有序尾�
 
 **下一完整对称函数是ZZ2、ZY0、WY1、YY0。**
 
-[R377](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)已准确识别YY0完整C²角商：3FY0=FU2−FL2，legal整个q使Yq²真紧，KY=(SUY2−SLY2)/3；原primitive收成无除x的局部四次式，正域反演保x²I2常数独核一致。实profile扩展严格正不能搬为复三矩圆障碍。YY0全角仍须ReKY=0及π/2值同点付；不能只添纤维而未消真实基线，也不凭旧ZY2加权面积设差为零。
+[R377](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)已准确识别YY0完整C²角商：3FY0=FU2−FL2，legal整个q使Yq²真紧，KY=(SUY2−SLY2)/3；原primitive收成无除x的局部四次式，正域反演保x²I2常数独核一致。实profile扩展严格正不能搬为复三矩圆障碍。原R349完整SUY2=−5SLY2（全primitive/Green已付）给KY=−2SZY2/(d−5e)=0，d−5e>0，所以额外角商已经由旧18面积消去。YY0只余一个π/2实际值待联合，无需另添C²纤维；初稿额外欠账已校正。
  四个位置不是独立rank或已知可调scalar；每个须先付完整角商/真primitive/Green，再证同一母与已付Fnew下真实正锥及有限N共同根，不能只加principal或拼不同最终圆。所有profile/支撑/幅盒/N先有限确定，再按R354初选he与ω>Ω的新hook；不能从旧几何继承wholeE/Morse/period，不能当作固定g flex。其余零/一history、canonical第四period、平台/退化flux/端germ和同规范joint仍须另付。
 
 ### 自然总通量当前前沿：H主商恰12，十三读出实际可控

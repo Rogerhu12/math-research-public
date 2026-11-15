@@ -40,7 +40,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **强圆旧阻断与弱几何**：R304/306全C²/Green/有序尾排rank-one(W0)圆；R311排固定包连续幅轨道。双hook0⇔W0，但原third仅单hook AfW0；regular弱核亦排，Af0曲开段W≠0是真入口。R317/319/320各朝外/单向族旧阻断保原范围。R325朝内弱圆、完整8/12copy给third；R354真反射/受控ω桥给偶分支。先全部有限profiles再he/Ω安装新hook/闭合，x+ω>1；新seed/g不继承旧wholeE/Morse/period。
 
-**同一偶弱圆Gaussian进度**：R357–360保原self/Green/T12/矩尾正锥付18面积(72角位置)，R364真C²角T=Re(Ksh−ρJ)另付且Fnew保全部J/K平移系数。R361/368/369的真cubic紧变分、R373完整WW0/2角商已付P²/PW/PZ/PY/ZW/W²；R372三面积+T迫ReJ=ReK=0/五积分比(8,5,2,4,−4)，付ZZ0。R373正母有限jet/Hermite与同Fnew最大minor给五χ/60实际交替列，11维正核；R375用FY2≡0/真紧ZD,YD保Yff尾与I2两项，添真实位置8/10两行，同一有限N十三根共同付ZY2/YY2并保旧11目标/18面积/T/Ψ/三F。原12点kernel准确覆盖≤10，勿越界沿用。余四完整角函数ZZ2、ZY0、WY1、YY0，先各付完整角商后同母正锥/有限根，不拼不同圆。R377完整YY0角商KY=(SUY2−SLY2)/3，真紧Yq²变分/全primitive九项IBP给无除x的C²四次式；实profile扩展正不冒合法复圆阻断。全角须ReKY0及π/2值同付，目前未付。全finite后才he/ω安装新seed/g；其余history/period/joint及固定g仍欠。
+**同一偶弱圆Gaussian进度**：R357–360保原self/Green/T12/矩尾正锥付18面积(72角位置)，R364真C²角T=Re(Ksh−ρJ)另付且Fnew保全部J/K平移系数。R361/368/369的真cubic紧变分、R373完整WW0/2角商已付P²/PW/PZ/PY/ZW/W²；R372三面积+T迫ReJ=ReK=0/五积分比(8,5,2,4,−4)，付ZZ0。R373正母有限jet/Hermite与同Fnew最大minor给五χ/60实际交替列，11维正核；R375用FY2≡0/真紧ZD,YD保Yff尾与I2两项，添真实位置8/10两行，同一有限N十三根共同付ZY2/YY2并保旧11目标/18面积/T/Ψ/三F。原12点kernel准确覆盖≤10，勿越界沿用。余四完整角函数ZZ2、ZY0、WY1、YY0，先各付完整角商后同母正锥/有限根，不拼不同圆。R377完整YY0角商KY=(SUY2−SLY2)/3，真紧Yq²变分/全primitive九项IBP给无除x的C²四次式；实profile扩展正不冒合法复圆阻断。补回原R349 SUY2=−5SLY2后，KY=−2SZY2/(d−5e)=0由旧18面积已付；只π/2实际值待联合。全finite后才he/ω安装新seed/g；其余history/period/joint及固定g仍欠。
 
 **period欠账**：R184/185/221/225原iff保G″平台/活动flux/端germ/双collar；45span/48×135不是解。R312–327新有理芽付19局部门/指定端口，但period随gauge变，同一w的13行兼容、降秩整除、其它段ruling/两period欠。R345 wholeE核K0保11完整链，只付局部点有限(E,F≤11)全部基准，非全Af/Ω/尾/period；不无证移植新弱圆。
 

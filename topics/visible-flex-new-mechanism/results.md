@@ -509,4 +509,4 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 ## R377：YY0完整C²角商的局部四次式与真实面积差
 
-[R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)。原3FY0=FU2−FL2、FY2恒零与合法整个q的真紧Yq²给KY0=(SUY2−SLY2)/3。直接DFY0原输出全部t/局部/primitive九项表收成∫[2x²(u−xv)²r²+2x4(u−xv)r³/3+x6r4/12+4u²v²−8xuv³/3+2x²v4/3]，无除x、完整C²。实u平方分解严格正只针对非legal的局部扩展，非复圆正性阻断。正域反演T u=z²u(1/z)保TP(Tu²)=4Y(u²)+x²I2(u,u)原常数，合法后16KYY0=KPP2(Tq)=4∫((Tq)″)^4/3，独立展开同式。YY0全角仍需ReKY=0和π/2值共同支付；本稿未授新正锥或已付完整YY0。全部纸证无执行。
+[R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)。原3FY0=FU2−FL2、FY2恒零与合法整个q的真紧Yq²给KY0=(SUY2−SLY2)/3。直接DFY0原输出全部t/局部/primitive九项表收成∫[2x²(u−xv)²r²+2x4(u−xv)r³/3+x6r4/12+4u²v²−8xuv³/3+2x²v4/3]，无除x、完整C²。实u平方分解严格正只针对非legal的局部扩展，非复圆正性阻断。正域反演T u=z²u(1/z)保TP(Tu²)=4Y(u²)+x²I2(u,u)原常数，合法后16KYY0=KPP2(Tq)=4∫((Tq)″)^4/3，独立展开同式。补回R349完整SUY2=−5SLY2后，KY=−2SZY2/(d−5e)=0由旧18面积严格推出。只π/2实际值待联调；未授已付整个YY0。全部纸证无执行。
