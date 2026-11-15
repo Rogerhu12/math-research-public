@@ -34,7 +34,7 @@ jobs:
               'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange',
               'constrained_static_m8_tail_quotient','g_first_translation',
               'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation','derivative_m8_tail_quotient',
-              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps'}
+              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps','general_pure_J_identity'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -102,6 +102,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/
             /topics/visible-flex-new-mechanism/notes/actions-43653875461-1-g_translation_successor/
             /topics/visible-flex-new-mechanism/notes/actions-43654534244-1-g_translation_successor/
+            /topics/visible-flex-new-mechanism/notes/actions-43654534244-1-acceleration_layer_mixed/
             /topics/visible-flex-new-mechanism/notes/actions-43655163769-1-g_translation_successor/
             /topics/visible-flex-new-mechanism/notes/actions-43653520539-1-curvature_feasible_steps/
       - name: Prepare public output
@@ -215,13 +216,14 @@ jobs:
               'curvature_feasible_steps':'frame_curvature_feasible_steps_audit.py',
               'acceleration_layer_mixed':'literature_acceleration_layer_mixed.py',
               'general_pure_G_identity':'literature_general_pure_G_identity.py',
-              'curvature_mixed_grid_steps':'frame_curvature_mixed_grid_steps_audit.py'}
+              'curvature_mixed_grid_steps':'frame_curvature_mixed_grid_steps_audit.py',
+              'general_pure_J_identity':'literature_general_pure_J_identity.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
               'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only','g_first_translation':'--toy-only',
               'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only','derivative_m8_tail_quotient':'--toy-only',
-              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only'}
+              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only','general_pure_J_identity':'--toy-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:

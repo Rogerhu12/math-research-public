@@ -30,7 +30,7 @@ core A1/B7/25/半宽1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g
 
 R105的真实U4、R8使用共同有限原函数空间，端口/仿射不变。R109完整V与局部∫L之差到整条M0才落R8；L=v−B_mN，真实s导数先于history值置0，N(0)不可提前删。R129真X=∂h、Y=∂k+(2h)⁻¹∂ω水平IBP保Laurent/log链项与两端势。R130严格U4=R8+K，K为八矩归一后的14个状态函数族值span，不是维14，不授实际负成本。
 
-R118–R142已付G至N⁶G非成员。最新43655163769/source2fba871只权−5：36→29、7原依赖；原29/30子式813703351/1219186308、Λ1665464827。7≤s≤10；同一pure像31，各权核总177，故**R8≥208，A_G=R8+OrbG≥215**。R120授A_G在闭锥lineality，R122保prototype/桥/N²/N³基准的真实有限构造付至少215共同查询；合法圆来自R96，不是分离测试对。当前a458同源N⁷G新权−6在run43655713308，紧前源显式绑定、19toy复用；首次真成员即停链。根12不重跑已付块。
+R118–R142已付G至N⁶G非成员。最新43655163769/source2fba871只权−5：36→29、7原依赖；原29/30子式813703351/1219186308、Λ1665464827。7≤s≤10；同一pure像31，各权核总177，故**R8≥208，A_G=R8+OrbG≥215**。R120授A_G在闭锥lineality，R122保prototype/桥/N²/N³基准的真实有限构造付至少215共同查询；合法圆来自R96，不是分离测试对。a458同源N⁷G新权−6的run43655713308已经success，root接R144；紧前源显式绑定、19toy复用；首次真成员即停链。根12不重跑已付块。
 
 **R136已否定U4=A_G**：J=真权−2的[h⁻⁴]Abar_hh属U却在整个A_G外；41控真上界配42原子式64963154/602105349、ΛJ134118430。故**U≥216**，额外1不加lineality/query。五族完整314状态系数/648原根来自43654534244/source1177f251，gzip318634B/b3227509（raw7c1e0bda），其他9同权目标未决。G链只扩大已知可调部分，不再作全成本支付路线。
 
@@ -48,10 +48,10 @@ R133的packet-only IBP实际43653293263保全P/A/R端势，1009正规packet余�
 
 R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B_p2(W1)[-4]/128，398项原差sound归零；1新pure、0mixed/profile/tail。原证书9533B/412dbe8f、main16657B/c02d93af。整个G轨道一般pure入响应像，(A_G∩kerπ)/(R∩kerπ)≅A_G/R；不授全U。
 
-下一R143只检R136的J一般pure一条原差：读R133既付packet81六个原有理响应系数，按索引对到R131已发G³权−2原列；不编新列、不跑profile/m8/mixed。源ddacad34与设计准备，root读后接下一公开空槽。非零NF仍只未决。
+下一R143只检R136的J一般pure一条原差：读R133既付packet81六个原有理响应系数，按索引对到R131已发G³权−2原列；不编新列、不跑profile/m8/mixed。源ddacad34/设计91cb8722已全文读，现已发单lane general_pure_J_identity；只3项新人工接口后运行。非零NF仍只未决。
 
 ## 6. 正在运行与未付终局
 
-run43655713308/source d21c87a4d9341369a3dee35598ed88fb666cb99d：G7与curvature_mixed_grid_steps。mechanism负责本lane actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
+run43655713308/source d21c87a4d9341369a3dee35598ed88fb666cb99d：G7已完成待读，curvature_mixed_grid_steps仍运行；新request仅J占另一个空槽。mechanism负责几何actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
