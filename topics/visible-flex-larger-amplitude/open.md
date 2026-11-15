@@ -18,6 +18,10 @@
 
 [84完整byte附记](notes/2026-11-15-actual84-completed-reader-and-primary-identity-addendum.md)、[123项衔接回执](notes/2026-11-15-actual84-completed-reader-primary-byte-crosswalk.json)及[原完整审计无损gzip](notes/2026-11-15-actual84-complete-original-byte-audit.json.gz)已保存：reader43668049680/source7181完整读取原670263923B/fb8d56c1，398原文件1021335590B；224domain/1454阵、108condensed/38完整阵42refs、14raw454456080B、11collocation/8mid全部已付。原17primary关系/64源全保，新增十observer源恰成74；没有R276调用，未导出chainQR仍不冒file-byte审计。原84 quarter-step科学不变，86同25继续；79/76/74已付不重跑。
 
+[实际86完整结论](notes/2026-11-15-actual-request86-same-twenty-five-query-mid479-limit.md)、[完整原读数](notes/2026-11-15-actual86-original-readout.json.gz)、[17关系/64源身份](notes/2026-11-15-actual86-primary-identity-readback.json)已保存：run43668743515/source8d199eda/job132673870743全success，同25查询重建模型后接受1/16，同W merit43.48685863012245→43.46927199458273。最近1/8仅原MID479失域，beta²=-.07269811719200936，而25selected全正；原完整RMS与merit未到。另更大步各有不同mid/selected失败，不能推失败集合单调。接受步全部原node/mid/uniform/two698RMS通过，col.007108126495669972/BC1.2327443292297831e-8/原FD四阶7.06625124394275e-10；native/fullBVP仍false。最坏physical row155819仍在fullA/H，QP512stop和浮点gap不冒严格最优。
+
+真实86新warm d38c6968、status7d6e7fa1/gzip610e2872已取回；下一89只补MID479、保持全部原模型与验收，源码/请求冻结待发布。完整reader89f80879独立绑定原668271416B/1fb22c28 artifact及真实parent84，shared8953f0/3pins不改；只补完整导出byte范围，不重科学、不调用R276、不作89门槛。
+
 ### 1B. Native73：实际线搜索失败与全部十档模型下降
 
 [原native完整结论](notes/2026-11-15-actual73-noJ-primal-native-line-search-failure.md)和[完整QR/R276结论](notes/2026-11-15-actual73-complete-QR-exact-affine-infinity-and-byte-readback.md)已保存。73run43657001633/source9515d5aa有3freshwithJ/3QR/19原noJ试步；先接受1/2、1/64，iteration2十档全residual-not-decreasing、0guard。末base .000060618737006888706，后三alpha1/128、1/256、1/512标量等base；完整trial state/r未导出，不能推全部状态或分量不变。确切line-search失败在最终cutJets/J/audit之前，32/10/tol2e-9不变，两对accepted noJ与nextfreshwithJ norm逐位同。

@@ -437,3 +437,6 @@ SDK源码和工程请求、84reader已推7181b75a；85科学完成但publisher�
 2026-11-15 02:58:32 UTC — /root GPT-6 Astra Pro: 保存83精确note d6949221/原result60feb773/readout6ca8ad97/audit7c359fc9。root全文读19KB结论与10KB范围，核四SHA/全部14实际output SHA和原result压缩字节相同；完整577nodes/578blocks/129248×8保存。控制行state形成几乎抹去理想降但a仍精确小降，另row2536余项最大，不混norm差与向量差；不猜RN(a)/唯一原因/误差底线。91明确需原73一Jchunk补件、不能从83总和伪造。原probe结论经NFF普通rebase推d40e0b08，双README未变。
 
 2026-11-15 03:00:20 UTC — /root GPT-6 Astra Pro: 保存87完整note392cc3e6/readout999aab4a/auditccac1c4a/summary232ce022，root全文读结论、核四SHA/216检查与原status逐值同e805446d。八fullstep仍无根，父85末与fresh初末位差分别保留。发布90workflowaba91c0d/request016ee1e1：真87finalp，仅当前η.1→.01，同ec9/1691/3b9/8/20/原门；root全文两diff/interface、70pins7shell4inline/父IEEE/AST，124项receipt4de44ac3，不改父η。83exact已推55234bca；86五原件取回、89仅MID479准备。
+
+2026-11-15 03:12:11 UTC — /root GPT-6 Astra Pro: 保存86正式note6d688489/readout7a4ada8e/identity3e51322b；root全文19KB结论、3SHA/17真关系/64源及原status/model/QP/FD完整所列字段逐字值已核。Same25接受1/16，nearest1/8仅MID479失域而selected全正，native/fullBVP仍false；89仅补MID479准备，不混不同W或把QP预算stop冒严格最优。
+发布86完整byte reader request89f80879/rootd3d25b1a，真实668271416B原artifact和parent84来自8d199原workflow；shared8953f0/3pins8shell5inline不改，无R276/newscience/gate。H压缩已付历史并更新90实际状态、88/89/91/92活动入口；不改硬限或原科学门。
