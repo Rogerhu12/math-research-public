@@ -534,3 +534,8 @@
 - 新增公开纯IO审核脚本/请求与课题外 .github/workflows/serre-active-output-audit.yml，原因是终端环境失联但三个实际输出须读取；只下载已成功R800/R799/R797、核ZIP及每文件SHA并调用冻结wrapper的IO verify，不重跑数学核心。
 - workflow先用blob:none部分克隆，实际git pull --rebase origin main，再对4811fdaa已读提交比较根与课题README；有差异即输出diff并留待根读后继续，不把API GET当pull。另对已保全R801核心仅AST，不import/执行。
 - raw不入Git/Release，摘要与规则差异只一日artifact；后续真实结论须按输出登记。R787继续，主目标OPEN。
+
+## 2026-11-15 17:41 Asia/Taipei · serre-public-astra-20261115
+- R800公开真实完成登记：原146条M2只新增q129..195，82条E1/200种子尾，6724与完整40ξ/20t，mod739/反演全过；19.199005秒，cert3be34598。
+- 公开纯IO run43699442183实际核原ZIP与439输出/429阶段全SHA及原wrapper；同run实际partialclone/pull后两README diff空。R797/R799全输出IO也成功，逐条登记接续，无重复数学。
+- 终端恢复，旧tmpfs丢失，重新部分克隆main并已实际pull核规则，恢复CLI推送；raw仍只一日bundle。R801核心AST/依赖IO通过待激活，R787继续，主目标OPEN。

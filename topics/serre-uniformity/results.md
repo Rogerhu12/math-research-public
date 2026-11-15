@@ -363,3 +363,5 @@
 - **R801（已证明）**：[原六至八次最小长尾与完整关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；原recipe/消失阶闭包与最多六/十个乘子避免V6多余尾。Schur真秩d−20；第二关系由至多e(k−1)个坏整数的自由坐标试取及rank690+e认证，七/八次铅笔另补全部V3到136/149。R787已成第一关系直接τ(A,B)复用；五新κ^N各仅增一次乘法。新长尾/关系/极除子/高度尚未计算。
 
 - **R802（已证明）**：[原f4半线性奇偶与七次字段关系](results/R802-original-semilinear-parity-and-degree-seven-relations.md)。原扭曲T41严格给全局共轭的q/v负号，y奇/偶系数在Fb(tξ)/sFb(tξ)，κ固定且R_m带s^(m mod2)。原全球±截面掩码保尺度，非零固定B/反固定A关系在Fb下降；七分支同归一、末端仅两右端恢复原基并全129×20认证。未算r±/新minor/kernel，不改运行R787，不预称β/η/高度。
+
+- **R800（公开准确计算已完成）**：[原146条M2新增尾](results/R800-certified-original-M2-tail.md)。run43696070150/source b53ef624，19.199005秒，只补q129..195，实际82条E1/200种子尾，保6724及完整40ξ/20t、原mod739和反演。439输出/429阶段及ZIP全SHA由公开IO核过，cert3be34598ab86732a790e7e5aa463b9def210fb48e216b9a51171d122e20ce377。旧前缀不重算；高幂/函数/η/高度仍未计算。

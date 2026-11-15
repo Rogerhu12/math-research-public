@@ -4,11 +4,11 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：4811fdaa6344e68340787d251f4e8416245ce859**（2026-11-15 08:46 UTC实际pull后diff为空）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：0d449de1a54f5a0758037717d8b73c9fc16ce8b2**（2026-11-15T09:41:36.002504+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
-08:56 UTC共享环境失联，旧tmpfs克隆暂不可访问；依根§8用小文本GitHub API保全和提交，未声称执行了新本地pull。API另核53ecc1a270bf01ea98f33c6f1eb712c4c9b75d7a（2026-11-15 09:03:23 UTC）两README逐字未变。最近真实pull仍上述08:46。恢复终端后立即pull；若失联持续，将由本公开Actions执行实际pull并返回规则差异，不把API GET叫作pull。
+08:56 UTC环境失联时按根§8用小文本API保全并推cosigma、R801/R802与IO工程。09:31 UTC终端恢复，旧tmpfs已失；已重新部分克隆远端main，现恢复终端git提交/推送。公开IO亦有真实pull回执，不把GET叫pull。
 
-**公开纯IO审核请求已启用**：scripts/p41_active_output_audit.py + serre-active-output-audit workflow，读取R800/R799/R797真实ZIP、全manifest和原wrapper verify，AST检查R801；先实际部分克隆/pull并比较两README，不执行数学核心。等待真实run/回执。
+**输出IO与规则pull已完成**：run43699442183/source d9c4795a，全核R800/R799/R797原ZIP、完整manifest/源码及冻结wrapper verify；R801仅AST通过。09:28:56实际pull读0a7a0c88，两README diff空；终端恢复后的最新真实pull以本节规则SHA为准。
 
 完整旧公式/绑定逐字保于[R802前H](notes/2026-11-15-handoff-before-R802.md)、[失联前H](notes/2026-11-15-handoff-before-api-recovery.md)及其归档链；[旧open](notes/2026-11-15-open-before-R795.md)。旧raw清理run43679907787已成；不再用Release保存数据。
 
@@ -16,7 +16,7 @@
 
 **R787原函数run43683912711仍待结果**，source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921，06:06 UTC起，core预算300min；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。14分支共同主元/自由列=1，在原L整基全残差Dixon提升；须非零A/B通过完整129×20 L准确代回。预算停则读取真实断点同源续接，不重算完成阶段，不预称原函数/β/高度。
 
-**R797五新Laurent run43693453831已success、完整输出待IO核**，source05bf2b2b22d1435a20233f48cb34a78fc53e7154，corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。只用R774共同56三积与R794新微分，保4·mult/1722³、一次q移、原相位及R781除数3n+1；个别N170/172/176/193/196，不重算旧f4。最后清行还需各自κ^N，R797保存至κ^(N−1)，后继只补一次乘法，不多跑R_N。
+**R797五新Laurent run43693453831已success且完整输出IO已核**，source05bf2b2b22d1435a20233f48cb34a78fc53e7154，corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。只用R774共同56三积与R794新微分，保4·mult/1722³、一次q移、原相位及R781除数3n+1；个别N170/172/176/193/196，不重算旧f4。最后清行还需各自κ^N，R797保存至κ^(N−1)，后继只补一次乘法，不多跑R_N。
 
 **R792证明及工程冻结，唯一待R787。** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)保c(f)=−[ζ²]f、y0=√−3v0及Fb=Q(b)中唯一立方根；21次Q分解唯一奇次数因子+三次gcd。Fb仅指定实嵌入；共同零阶0/1用R790已成首jet，四值全零才需更高jet。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d，只有pending无active。三直接producer/父bundle与两旧Git小回执已核；保原14坐标及82尺度。只得β_C/真实vβ，不解原A有限同源核原像。
 
@@ -35,9 +35,9 @@
 
 ## 新成功包、证明和后继
 
-**R799 run43695571499已success，完整输出待根IO审核回执。** source2ebb10bc2cca7000374f83fa855030723deca2f4，artifact14153724209，ZIP453521743字节、SHA b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477。[证明](results/R799-original-power7-power8-minimal-basis-construction.md)保V7/V8维1778/2050、q95/108、原三锚点0/1/73无基点；只补V6尾82..108，八次直接三因子。core32ff9d38/wrapperf74313ac，原2763输入已核；实际minor尚未读出，勿预填。
+**R799 run43695571499已success且完整输出IO已核，正式登记接续。** source2ebb10bc2cca7000374f83fa855030723deca2f4，artifact14153724209，ZIP453521743字节、SHA b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477。[证明](results/R799-original-power7-power8-minimal-basis-construction.md)保V7/V8维1778/2050、q95/108、原三锚点0/1/73无基点；只补V6尾82..108，八次直接三因子。core32ff9d38/wrapperf74313ac，原2763输入已核；实际minor尚未读出，勿预填。
 
-**R800 run43696070150已success，完整输出待根IO审核回执。** sourceb53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c，artifact14153948656，ZIP16486501字节、SHA78ab2d6222f95015246dbfd4237c4ae2be8126971983bf6ee7173da8b1c83a4e。[方法](notes/R800-original-M2-tail-129-195-method.md)仅新增146原M2行q129..195，保82²/40ξ/20t、E1两符号除数和/126迹/40det相位。core417dd598/method5d1d299e/wrapper2783ff56；329原输入IO已核。旧前缀不重算。
+**R800准确尾已登记**：[结果](results/R800-certified-original-M2-tail.md)。run43696070150/source b53ef624，19.199005秒；146原M2 q129..195、82E1/200seed尾、6724/40ξ/20t、mod739和反演全过。439输出/429阶段及ZIP全SHA已核，cert3be34598，artifact14153948656；原0..128不重算。R801按需消费。
 
 **R801已证明并登记**：[长尾与原关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；扁平原recipe与准确消失阶闭包，不算整套V6到195。Schur真秩d−20已证，第二关系有限试取最多e(k−1)+1次；新7/8铅笔须补全部V3至136/149。R787若成就直接s=τB；未生成新长尾/关系/高度。proof b283280e、method a96d7c3b；ordinary写仅长尾core。
 
