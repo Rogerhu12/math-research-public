@@ -528,3 +528,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R322真实144完整切点与全域责任
 
 [R322](results/R322-actual144-original-cut-twojet-and-complete-domain.md)18909B/20397a2b14bae8a03b7ecba979fd7c46e37e0630ac8a1d9a8c129b33e83b1704全文读后即推：两job原块逐字同，原cut1head叶/5refine，完整E/Er/Err及cut work true，未添导数宽门。全1440/六primitive/whole域已付，2891粗叶+1晚期sqrtE_B积分预算未付，无source/query后缀；原件清理后147/148重生，不冒DN/新场/metric。API核双README非pull。
+
+## 2026-11-15 /root — 148同C完整112有限头通量执行
+
+[148完整接口](notes/2026-11-15-request148-same-C-complete112-finite-head-interface.md)22604B/8168867b与58317B/4531b5b3完整科学源、14655B/7b184233请求、48392B/9f6e48b4工作流读完即发。原144十一pins/三输入/query/预算逐项保；新全112far→flux同job绑定，全部cut闭交/同尺度/完整pending，列包含与h非零/商分开。linear1800排除setup、35min包全程/110minjob，四原小块后清raw，无预填值/旧J；API核双README非pull。

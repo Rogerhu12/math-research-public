@@ -122,7 +122,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 [147真实新连续九入口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)run43717814570/source3b2df31a、compute132823027880原E阶段运行。保原144十一pins/全1440六primitive/点+whole/256bit1800s，新十九pins恢复真M96 core与R320末九p，R323 dyadic宽→原v3基底/全九两域各300s→明确数值profile；完整三摘要/width/seam/中断always元数据后清raw。新[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)证明公共u准确L²和a(Lu)²、跨所有可能piece/支撑、完整材料角拉回与同场误差转移η+δ+ηδ；一次有限叶盒不冒收敛oracle。准确target消费者/151继续；新C port/J/非线性/场/完整metric仍未付，原[v3身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)与全九来源保持。
 
 
-[R324同C有限头严格推进](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证物理通量j=w·k准确消对角项；原piece x的R_x/w_x已含长度，不重乘length/旧Πport。原primitive闭径向交界、无pivot二幂平衡与列原尺度、常系数Taylor完整余项+Duhamel整闭tube，覆盖全部可能cut逆像后同归一hull，给全112 Robin包含；逐height严格非零才准DN。148据此实现；144完整R322已付cut输入，深根族未选与粗宽/所有pending后缀保留，无新线性或非线性数值成功。
+[R324同C有限头严格推进](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证通量j=w·k、原x导数不重乘length/旧Πport、原径向闭包含、二幂尺度及Taylor+Duhamel闭管；所有cut逆像同归一hull，逐h严格非零方准DN。[148完整入口](notes/2026-11-15-request148-same-C-complete112-finite-head-interface.md)四件已发：13sources/5proof，原三输入/query与C256bit1800s不变，同job重新C/cut/全112far后完整112flux，新增linear1800s排除binding但35min外步包全程，job110min。源58317B/4531b5b3保全部未开始模式/栈/共享端点；四份独立完整范围读回后仅清ownedraw。R322已付合法cut输入类型，不借旧raw或预付h非零/新DN/非线性。
 
 ## 5. 存储和原件维护
 
