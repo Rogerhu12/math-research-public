@@ -592,6 +592,11 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 头9006/1695b945、证明15800/9b5bd117、接口8166/3840dcdf全文根核，接口仅补根4公式定界符；原R405 dot/multiply逐段及LLVM/GCC官方指令/CPU/函数target语义另核。完整偶奇/尾、子集无溢出、原宽指数/一次RN113保，baseline+runtime fallback无新科学门；只源/纸证无本地编译。196完整原链另接，R399已推43565034ad6b7f35a99b5eb610d9aea8676c1b0f；H/open§4–6责任保持。
 
 
-## 2026-11-15 22:43 UTC /root — request196完整128 SIMD入口
+## 2026-11-15 22:41 UTC /root — request196完整128 SIMD入口
 
 [196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件全文/完整diff核后发布；旧77pins逐值保+R414及六源=84。仅完整20bit signed partial改实际CPU选择AVX2或scalar，原全部113bit/指数/wide/一次RN113及R402系数/原因子/113行C残差/226态两mean保；baseline编译旗标不改，无新fixture或对拍门。真91→fresh64/J/R273→samejob128/replay→全576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800全部原预算不变。单90KB保原所有必要范围并添真实backend/偶奇尾计数，原quiet+完整读回后清；完整dot条件等价不冒全stage词、速度或接受。R415只待实际结果，amplitude唯一终态，旧186/190/192/193均不改。 H/open原文逐字入196前检查点，open§4–6相同；六执行/readback与request/workflow完整diff逐段根核，九件bytes/SHA和全部77旧pin字面核同，无本地科学。
+
+
+## 2026-11-15 22:42 UTC /root — request196公开运行绑定
+
+196已推4677faa0966475d17e10b20b75f0234c62fe3768，run43770686357于22:41:29Z创建，compute132985694072现step14完整science；amplitude唯一R415，不取运行中日志。一次NFF后立即真实pull/rebase重推成功，最新读6a2d67dbe35f94d17698d8bf2fc265739201453e，双README未变并记H；原全部门未改，不凭step成功推科学接受。

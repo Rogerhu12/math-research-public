@@ -28,7 +28,7 @@
 
 [R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/1695b945付AVX2偶奇全部8lane与0–7尾，2048项任意子集严格小于$2^{51}$，完整scalar/wide/prepare/一次RN113保；同输入完成dot与R405逐词等价，不冒旧顺序Q/全导数/墙钟覆盖。函数级AVX2与runtime选择，原baseline旗标/线程stats保，纸证无本地编译。
 
-[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件全文/完整diff核后发布；旧77pins逐值保+R414及六源=84。仅完整20bit signed partial改实际CPU选择AVX2或scalar，原全部113bit/指数/wide/一次RN113及R402系数/原因子/113行C残差/226态两mean保；baseline编译旗标不改，无新fixture或对拍门。真91→fresh64/J/R273→samejob128/replay→全576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800全部原预算不变。单90KB保原所有必要范围并添真实backend/偶奇尾计数，原quiet+完整读回后清；完整dot条件等价不冒全stage词、速度或接受。R415只待实际结果，amplitude唯一终态，旧186/190/192/193均不改。
+[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件全文/完整diff核后发布；旧77pins逐值保+R414及六源=84。仅完整20bit signed partial改实际CPU选择AVX2或scalar，原全部113bit/指数/wide/一次RN113及R402系数/原因子/113行C残差/226态两mean保；baseline编译旗标不改，无新fixture或对拍门。真91→fresh64/J/R273→samejob128/replay→全576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800全部原预算不变。单90KB保原所有必要范围并添真实backend/偶奇尾计数，原quiet+完整读回后清；完整dot条件等价不冒全stage词、速度或接受。R415只待实际结果，amplitude唯一终态，旧186/190/192/193均不改。 官方run43770686357于22:41:29Z创建，source4677faa0966475d17e10b20b75f0234c62fe3768、compute132985694072已入step14原完整science；amplitude唯一终态R415。
 
 ### 1C. 真37→38与原非线性域
 
