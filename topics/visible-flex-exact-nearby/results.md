@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WX：从已成正乘积推出实际腰部坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)：纯解析由SP/ST原positive算法读出任意较短段、两个方向的真实流三导费用；付waist Φcut∘χ、L2/H−4/3同逆、selected H/common input原序、完整mean/primitive rank和leadingflow。新scalar尚待Actions，非waist normalizer或全inverse。SHAc5157bbb14b300c1a418642e96917b49f0f90c1ebc3571a124a26b863adc9ae1。
+
 - [FA：完整自由 Airy 首遗漏列](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)：同P22真实root和原free w1，完整J残差、六mean/两primitive尾及实Airy误差给n^-2列界；原TN有序逆的finite/strong分量均保，FA32给H−4/3→L2费用，FA34a另保corrected first-order负窗。仅解析新scalar合同，尚未报告数值或全逆。SHA24216c6d78f1261e16b9d53030fb2b899a94e9e9d8900e7fea79746ef32d96af。
 
 - [HSA：实际已知高频源及 physical 4j 负一阶输入](results/R133-supplement-actual-known-core-high-sources-and-negative-one-inputs.md)：43759656502/1 child0、18门；三whole tails与三负一阶整候选均为新公开Actions scalar，旧CR/RH/ST及SH/Ed/mean/repair完整原字复用。ordinary约3.31747e−16/2.16220e−16/6.43897e−26，H288严格0；不授未知state或强返回/完整逆。proof SHA b176bfb184f5dfda6a28ed35ff80b3d2a4b42095ec3870f0b8efc7ed5428ee64，成功冻结。

@@ -78,7 +78,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 
 
-[TN解析](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261及[实际两窗](results/R133-supplement-actual-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)65432488/43752771157/1 child0/16锁，SCIc815e901/preGit541a4d03/67球核。J97充分门失败不推奇异；同J268435456双窗逆约1.001672388/1.033996480，strong/finite全式保b2476f27同open/H/proof。finite全≤J+191含mean及97..J−1/HL-LH保，RR四列同case×K0一次约7.790848019e18。真phase按TC，finiteSchur/incoming/R0未付，旧成功禁重。
+[TN解析](results/R133-supplement-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)0ffa3261/[actual](results/R133-supplement-actual-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)65432488成功锁；43752771157/16全值/67球/SCI/preGit保d358150130b7ff4771711c1e409d540f82dc56c0同open/H/proof。同J268435456双窗同逆，J97充分门fail非奇异；finite≤J+191/两mean/97..J−1/HL-LH均保。完整incoming/Schur/R0未付。
 
 [AD终端Ai相关Darboux根剪切](results/R133-supplement-terminal-Airy-Darboux-correlation-and-root-shear.md)5c4459e5完整式/原域/两指数终端项/全H积分/实际势16门及双peer逐字保8148b208同open/H/proof。精确Wronskian给同terminal-Ai首列βd−β为n^-8/3，n≥388有ad>3/4；root-input强尾K^-4/3不等TN/TC投影。共同右Ad low/mean/其它列Id，逆/forward≤4/3,5/4；原g growing/两inhom/IN额外physical/positive/stable/finite全保，Ei/Eo/incoming/R0待。
 
@@ -88,7 +88,9 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22真实root/free P8 w1，J完整残差构造与六mean/两I尾均保；先真微分后用DLMF real Airy误差，无nω≥1条件。原7/6列经finite n^-1重构得完整n^-2列余项，再HS接H−4/3→L2。两sign两wave、P23a抵消、TN同有序逆+FS/RN/finite≤Js+191全保；FA32三项正费、FA33原UΦ负窗及FA34a corrected Bfree负窗，不同cutoff Jc/Js不混。数值尚待公开Actions只读旧radius/fold/TN/TC后新增scalar；strict propagation、实际waist normalizer/receiver、Ei/Eo/incoming/Schur/R0仍待。
 
-[TC合同](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5及[TC实际](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35：43754703603/1 child0/18成功锁，19pins/4AST、SCIc1d1d43e/preGit97543ad1/42球、真Φ四norm/两rank/dual/双窗逆/finite全值保前档/proof。RR四列K0一次同case7.790853353e18。PΦ真span/mean/HL-LH/97..J−1全保；P22到腰已由ST实际支付，TC cut坐标不能直接移作waist receiver；完整Ei/Eo/Schur/R0仍待。
+[TC](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5/[actual](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35/43754703603/18成功锁；全42球/SCI/preGit/真Φ四norm/两rank/finite全值保d358150130b7ff4771711c1e409d540f82dc56c0同open/H/proof。PΦ真span/mean/HL-LH/97..J−1保；cutnorm不移腰，Ei/Eo/Schur/R0待。
+
+[WX腰部真坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)c5157bbb解析：同SP/ST positive算法逐firstdiag给exp(2∫D)≤P+11P−11，任意短段双向Mχ/Fχ/Gχ；Φwaist=Φcut∘χ、两窗/同逆及独立mean。selected实际H仅其已证域，S=U_H^-1U_X-按原序，primitive两rank全付公式；ungauged leading L2直接P±11、负窗另scalar×density。只新scalar待Actions，不重ray/指数；waistTN逆/SF系数/完整Ei/Eo/Schur/R0未授。
 
 ## 4. 实际帽图与完整core接口
 
