@@ -257,3 +257,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R267 完整证明](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)直接从Φr0/Φp0/Φs1求两个交换子的三self矩；nonlegal单包原Jρ³与二次左尾/Green端项全保。真实共振d/e给λ=5κ(81κ²+7)/(24he)≠0，完整面积cross零但self不删。两坡同母族的I0/I1由既有quartic/同均值支付，I2两个even准确为共同Fκ=Kκ/C−ν倍数且E22=αβE04；因此Fκ0支付全角三外矩，不只是pure。
 
 中央母包真幅γ与宽s给(H,Fκ)在(1,1,h0)的Jac=L²[[12,−18],[−4/9,2/9]]，det−16L⁴/3；小正h实际母根后，已包装F=δ³Lc、G=δ(Mc+3Lc/ζ0)、Fκ三式对α/γ/s可逆，付真实有限正δ的全部新门。κ²归一系数光滑，安装取非零κ；先定有限profile尺度再安装，不把零宽profile当合法。新母根γ,s=1+O(h²)使Q−所需Cν−ℒ+Δ/4仍2Lm_v²+O(h)>0，TM3伴随保持新local面积，固定大间距得Q+；两最终位置正幅混合付Q0且保两个整面积/六能量/third/36 odd。余四面积24表项非独立rank，居中次序另有even限制，不称全候选。root全篇核原self/边项、d/e归一、尺度及两级Jac/真实符号次序；无新执行。
+
+
+## R268：居中 cell 的完整 sine-four 面积严格非零
+
+[R268 完整证明](results/R268-full-sine-four-area-obstruction-for-centered-microcells.md)研究真实S04=2I0{g,[P,Y](g;ff−gg)}，对应Gaussian A1,−3的乘子−ζc/2非零，区别于已付A−1,−3。非三矩单包self保原端项−[x(Jρ²)²]/2，得S_self=−[m²ξ/2+Cξ²/w+w(ℒ−Δ/4)]，再与原Γ=−m²ξ_i一起消费。居中64低/1高的准确cell求和为Jcell=−10928qaA，高包真实小偏移因其尾系数0消失；并非近似置中。完整S04=10928nm²qaA+64na(1−q²)(Cν−ℒ+Δ/4)>0；先固定小h，再取正δ支路，R267γ/s邻域也保该正号。伴随改变g符号不改本槽平方，完整三矩block跨项零使八/十二复制和任意正幅混合只能同号相加。所以R265/R267支付pure Q仍不成full ruling；准确只排居中次序，下一必须改变real质量次序并重付三矩/IFT。root核全部self原边项、有限cell和、物理系数及真实有限宽范围，lit独立核；无新计算。
