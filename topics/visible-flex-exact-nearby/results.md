@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [F：selected parameter 的完整 finite193 scalar 反馈合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)：真实 ordinary g、right p 与原完整 signed a/c 四列保三输出窗；κ0/κ1/5分开三门后转移，给严格充分阈值并保所有ν/waist/high独立义务。最终Green成功后才运行，不预报过门。
+
 - 2026-11-15 [selected-centre full residual/collar source](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)：R5–9给完整δ残差积分及star-shaped正预算二次余项；R14付连续Z的A0e source。collar精确T2/T3含mean，四source有限频带96/160/224/288支付普通Fφ与factorial源，未授真core存在。
 
 - 2026-11-15 [actual selected-parameter scalar fees/collar](results/R133-supplement-actual-selected-parameter-core-scalar-fees-and-collar-jets.md)：43713242980/1 child0/12门，原40part/7721全cover、旧math0。e<1.049107e−5/eLH<3.071831e−5，完整追加response whole<4.324391e−6/negative<1.061687e−6；140row正collar true third jets已付，仍待actual Green/Poisson及finite反馈。

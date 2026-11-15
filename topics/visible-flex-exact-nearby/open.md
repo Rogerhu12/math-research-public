@@ -63,6 +63,9 @@ mean/unknown high与signed m保，无sqrt97；actual K*差另加max(sδ,1)cδ/5�
 现给完整M1∂φ+M0差、系数带192与LH97..288，并保真intrinsic Fν、global ΔAZ与边界负ΔB Z。
 双输出矩阵[[gB e,pB εL],[gC e,pC εL]]的三门才给sameδ有限逆；gY为普通源增益而非aY，
 whole/negative/cut输出、fullmean及未知high边界列独立保。实际e/gY/pY及三门仍须消费。
+[F实际finite193反馈合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)
+锁真实g/p与已成signed a/c四列，κ0和κ1/5分开，三个det门后才给三窗四列；普通源输入始终whole core。
+失败充分门完整记录不证明奇异，不原样重跑；新增ν volume仅独立列，不能当完整ν响应。最终Green齐后才冻结两小receipt运行。
 [D scalar消费契约](notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md)和
 [actual43713242980/1](results/R133-supplement-actual-selected-parameter-core-scalar-fees-and-collar-jets.md)已成：child0/12门/math4.627548956s，SCI827fcb23/worker2e1527bf/12pin14271d7d锁。
 原8ZIP+6天然part精确恢复40parts/7721、全core6376row/6377新restrict、正collar140row全核；旧math0。
@@ -339,10 +342,6 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，10:24:25定时及10:47非FF即时pull仍返回无环境；
-根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull11:04:15.885318
-到a2bd847d4bc5385d2143a1e5f3a474e9c54ee8d7，23次两README diff均空。
-终端恢复立即pull查差。H和本页随实际进展更新。
+本机executor持续不可用，12:21:47定时及12:19非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green末真pull12:24:20.569632→8fe36964673e78c8e9d503581e1038ee89aca2dc，两README diff空；H记完整SHA，终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
