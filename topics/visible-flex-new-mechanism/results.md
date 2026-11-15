@@ -355,3 +355,10 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 [R312 完整证明](results/R312-quadratic-height-ports-and-rational-arctangent-logarithmic-ruling.md)从初始安装 h=he(1+εσ²),k=κ≠0,ω=ωe常数，保持原完整几何闭合条件后固定新g。移坐标后We=span{1,h,h^-1}；逐原六项M推得真实中心累计Q+E Bε，E=atan(√εσ)/√ε。完整第三恢复保真右尾/链项/ordered部分，新增L=log(1+εσ²)的精确残数槽。
 
 完整偶ruling严格为Rrat+E RE+E²R2+L RL，全部系数有理；两个复极的对数monodromy证1,E,E²,L有理独立，所以R2=RL=RE0与Rrat∈We是本芽准确系数门。E²/log各保三原外矩；旧Gaussian六独立面积门不能搬来。§3.1独立从原恢复证明常二阶入场/第三初值及全gauge在同We偶商，不误引R243特殊方程。尚未构造过全门输入，不是第四可解或同g有限flex；下一直接支付新门。纯纸证，无新执行。
+
+
+## R314：九矩是完整 self 的非局部商，剩余成本严格局部且有忠实 Euler 坐标
+
+[R314 完整证明](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)在总V∈U∩kerπ上保原pure交叉身份，证明有序不交self的a²b²系数准确为μuᵀT(V)μv。用N_A=∫x<y j(x)ᵀAj(y)显式保九参数，减后不交可加。原完整二阶场给有限两阶双核：J²展开保真实左ℓ常数；两次IBP正规化保全部三角对角C²边项，两次Euler最高4/2/0阶递降迫所有双核0。
+
+故完整q=N_T+∫L(x,u,u′,u″,u‴)，T0 iff完整self局部；原最高平方与所有C²余项均保。九矩是准确非局部商，非把任意N_A授为canonical实现。局部quartic密度的Euler(L)全部六jet三次字面系数忠实，连同T给完整零判据。纯纸证，无新秩/科学执行；下一实际比较全canonical及响应坐标，Z18×E8仍非全部Rp0。

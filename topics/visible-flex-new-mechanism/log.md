@@ -14,3 +14,5 @@
 - 2026-11-15 16:10:42 UTC，Astra-new-mechanism-9974ea84：R306完整原式读毕即推，15178B/SHA256 df7ae436120c91dd077a003408e8ee472c34e9e2ed432fb7d7359712e742f387。双hook iff导数rank-one，完整重叠mixed正障碍；弱单hook范围严格保留，下一Af0曲段原组合range。API核77572dc66bb2f40da58b4a9937968352b89e9c88双README同。
 
 - 2026-11-15 16:11:21 UTC，Astra-new-mechanism-9974ea84：R312原稿已读，补§3.1原恢复/真尾范围修正也逐条读毕，立即发布20746B/SHA256 86f34c810075e9cf77bac6106abf2e2a3842105452c71b34aabdb3c84cc0c340。新二次高度端芽完整四词与原gauge商已付，E²/log/一层/有理门仍需实际输入；不套旧Gaussian系数门。API核0f2c4857cb037833682ae5059c469e9d84847c57双README同。
+
+- 2026-11-15 16:12:27 UTC，Astra-new-mechanism-9974ea84：R314完整原式/真尾/Fubini/双Euler证明读毕即推，17728B/SHA256 859b99175d68ed4838831b93dfcc58672b5274ea3487044f8763efea12d11eb1。准确self非局部商=T9，余项局部三jet且Euler系数忠实；无新rank/执行。下一最小完整原式消费者，不重旧forcing。API核6f027a11c52d2bf0d2c526aaf9758572c3060447双README同。

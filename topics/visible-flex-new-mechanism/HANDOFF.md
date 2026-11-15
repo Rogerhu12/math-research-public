@@ -40,7 +40,9 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 **R292–302平台/self与结构几何**：原全后缀迫T_B0、各q_i0。R297 χ32/37/40三c矩证书给9单位，原query延拓全U；R298 χ30/P给T0且完整q=3/512∫u″²u‴²>0，9矩+单个预固定u有真m10控制，公共校正两actual hook整q差非C²。R302四χ实际来源+成对正则前缀保基点τχ/全基准；自由h遍及整原型，只保M0让τ漂移，R101共享整块真倒行仍准确M=T0。新全部基准重建增强截面，再全(pure,T9,q单u)IFT，联合κe/ε二维安装+有限光滑密度Morse/Klein闭合，故该窄几何类也能指定T与单self。**非全q函数/全部最终母包，不能预授与Gaussian形状选择兼容。** R295 q平方主部+完整C²仍保；真倒行成本同号、λ+正，不偷换成C²纤维。下一全self/全period与同w。
 
-**R303–313完整self**：保移动左尾≤5与c10真实端消，U的q(u_c)∈Pol≤9；H6×p2整T0的十N链覆盖固定母全平移，可与pure/T9真19观测联调。完整[c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)原history式见R307/309，清一母全平移⇒所有母次数≤7，非全Q。R310 KJ完整q=J=∫u′u″u‴²，even母全平移/幅宽皆盲，真紧母可J≠0。R313完整𝔍根×P/R/S/U/T给五个pure/T核self，保全部C²项与真affine尾；N=4链+常链，常F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。其N核span(J,F)与十链核I宽度次数−8/−7/−9分离，有限幂零交零，**全self像≥15**；九矩+十五真query可24观测联控。完整Q(U)与响应像、Gaussian/joint仍欠，不恢复被排类。
+**R303–314完整self**：移动左尾≤5/c10真端消给q(u_c)≤9，H6×p2十N链为pure/T核，可19观测联控。R307/309全[c9]=D9 I、[c8]=D8 I+D9(9I1−3J)，清一母全平移⇒普适次数≤7，非全Q。R310 KJ整q=J=∫u′u″u‴²，even母全移/幅/宽盲。R313𝔍×P/R/S/U/T五维N块=4链+常链，F=2∫u′²u‴²−∫u″4/6≥∫u″4/18，核span(J,F)与旧核I由反射/宽度分离，self像≥15、24真观测联控。
+
+**R314完整局部化**：pure零总V的q(au+bv)有序不交交叉恰μuᵀT(V)μv；保原二阶场、真实左ℓ/J²尾，双核两次IBP并收全部对角C²项，再两次Euler最高4/2/0阶递降给q=N_T+∫L(x,u,u′,u″,u‴)，N_T=∫x<y j(x)ᵀTj(y)。九矩准确承载全部非局部商，T0 iff完整self局部；L保原三阶平方及全部局部C²。Euler(L)全部六jet三次字面系数忠实，配T可判全self零。下一最小完整canonical/响应坐标消费，不再独立增rank；Z18×E8不是全Rp0，Gaussian/joint仍欠。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -54,4 +56,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 0f2c4857cb037833682ae5059c469e9d84847c57，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 6f027a11c52d2bf0d2c526aaf9758572c3060447，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

@@ -68,7 +68,9 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 [R313](results/R313-complete-five-dimensional-J-self-module-and-fifteen-dimensional-image.md)完整计算𝔍根×五个p0=p1=p2=0方向，真affine尾配c前两矩给T0，所有q保C²项。新N模块为4链+常链，常F=2A0−C0/6≥C0/18>0；N核span(J0,F)与旧十链核I0用反射/真实允许宽度−8/−7/−9分离，故完整self像≥15。九矩/十五真实query与pure可24观测联付，非总Q已满。下一比较完整canonical self空间与响应像，不继续孤立增rank。
 
-下一只处理真正未付的全Q shape兼容/低层，优先识别同母观测看不见的完整方向及与新首阶机制实际相关的控制。分别满射不能相加；有限控制不能恢复R304被排类。
+[R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)现已给完整结构：pure零总V的有序不交self缺陷恰μuᵀT(V)μv。保原左ℓ常数和J² Fubini，双核两次有限IBP将所有对角边项收回局部C²；两次Euler最高4/2/0递降严格消剩余双核。准确 q=N_T+∫L，N_T=∫x<y j(x)ᵀTj(y)，L为局部quartic三jet，三阶至多二次。九矩是完整非局部商（六对称总矩+三有序面积），T0 iff局部；Euler(L)的全部六jet三次字面系数为忠实有限坐标，非仅principal。
+
+下一用绑定原式做最小完整坐标消费者：canonical须保R295二阶场/真左项，响应消费既有Z18 c与E8，不重3974旧forcing。比较整个canonical self与完整响应像时，R247其他pure核分支亦须保，不能把Z18×E8冒全Rp0。分别满射不能相加；有限控制不能恢复R304/R306被排类。
 
 ### 完整period与同一w joint仍须真正求解
 
