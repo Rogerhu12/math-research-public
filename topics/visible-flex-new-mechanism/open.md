@@ -18,7 +18,7 @@
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/source6f886c385bdc12c8963d451369c9250fa19a45a0，旧140Python/146总绑定、新4通过/旧14复用全部已核。前6普通α1接受两网14门；η.26623355613853394，κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。当前physical e0ab278d…/bank438 hash1a1d5585…、池4432/4525版本1/2、B.00025双0；γ17.022353404161095/18.064283125328743，8events全commit。
 
-m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合，无可返回方向/无trial，非凸模型驻点。完整旧p未保存，四全网attainer e/f已付。唯一下一接口保原438全行并附≤4合法unit-ball支持，只使用ordinal11、保SOC12；无新行0LP，不重做LP10/前6/旧开发。恢复原epoch eval identity、当前池/学习/accepted7/计数，必要几何/J/JVP计剩余active/values。原12LP/40value/120active/10秒LP不变；新16人工与六源正在静态核，尚未执行。guard经验系数只下一primary，不宣连续误差证书。全部旧失败/费用/covered来源保原note。
+m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合，无可返回方向/无trial，非凸模型驻点。完整旧p未保存，四全网attainer e/f已付。唯一下一接口保原438全行并附≤4合法unit-ball支持，只使用ordinal11、保SOC12；无新行0LP，不重做LP10/前6/旧开发。恢复原epoch eval identity、当前池/学习/accepted7/计数，必要几何/J/JVP计剩余active/values。原12LP/40value/120active/10秒LP不变；新16人工首次全过，真实入口因epoch定义哈希不等停，LP11尚未执行；具体失败、准备/恢复费用和唯一修复见[首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)，不得复跑人工或重置预算。guard经验系数只下一primary，不宣连续误差证书。全部旧失败/费用/covered来源保原note。
 
 ### 仍须支付
 
@@ -155,10 +155,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19完整值、整个低阶纤维、全部实际副本和解析平端；真实零流形上两偶quadrature/别包补偿给所有Af简单，p仅中心简单零。p零禁residue自动消；每Af点完整germ iff同一原累计F为零。原R345≤11指定对应Vd点现有完整光滑germ，非全部点或Ve；零点数可>11。下一付两目标其余点/整包通量、原仿射尾与右collar重建、R327同一相位13行；不要重做已付minor/秩或把指定必要值继续当高重充分。
 
 
-### guard首实际已读：下一处理未完成cut模型的原预算分配
-
-run43767357527七个guard主模型/新四检查通过（旧14复用零执行）；前6普通α1全14门通过，当前η.26623355613853394/bank438/γ17.022353404161095与18.064283125328743，原.26及reach欠。m7只授1primary，LP10/12后仍余2，完整epigraph gap2.4768679406952238e−5未合、inexact=true/无物理trial。不是凸模型驻点或guard不可行证据。下一按此已观察失败研究同一未完成primary的有限预算再分配：不增全12/per-primary3/40value/120active/10秒LP，仍保SOC槽和原gate，不重复前6或旧开发研究。完整费用/源身份见[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)及首次readback。
-
+旧guard末模型的已付预算与gap见上方O2当前节及原actual note；同一m7唯一续算边界不变。
 
 ### R394完整条件性period/同规范接口，继续实际像
 
@@ -190,6 +187,6 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 [R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)从R393−2头与原R188定理严格推出F0/三个Q2不能同时对全部state自然零；反证保全U跨度、真实仿射、ΓM、平端势与M=T0实际action。仍需具体原L0/L2/N0/N2/Γ水平正规式；低层可能扩大像阻止头延拓，或留九维但改变全action。未授Λ(U0)或joint，不重做Q4/旧字符排除。
 
 
-### 已付m7四见证一次细化首次请求已冻结
+### 已付m7接口：十六人工复用，修复原epoch定义
 
-[一次m7见证细化](notes/paid-attainer-model7-single-refinement-implementation-20261115.md)与[设计](notes/paid-attainer-model7-single-refinement-design-20261115.md)：source6f886c…/原log7918876B绑定，旧p缺失范围明确。438旧行+A/J/targets/γ/B/两factory/hash/池/epoch ledger全核，新增≤4合法支持，最多LP11并保原SOC12；无新行/超剩余预算0LP。仅新16人工首次；旧18/20/19/26/cache不重跑。下一读取本次原始开发/科学/actual pull回执，按真实结果接open，不重播本接口。
+[首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)：run43771970034真实入口在评估定义哈希门停止，新科学入口0/LP0/新accepted0；原最佳点保留。16人工全过且只复用。必要准备14.667315975秒、恢复0.086260152秒、总18.621493514秒保留，恢复费累进同120秒。下一静态核原定义字段，不跳门、不改375历史/438当前/原模型/12LP/40value/10秒LP。修复后仅尚未执行的LP11/SOC12，必要缓存/J计剩余预算。

@@ -424,3 +424,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:55:31 UTC｜[一次m7见证细化](notes/paid-attainer-model7-single-refinement-implementation-20261115.md)源码与首次公开请求
 
 [设计](notes/paid-attainer-model7-single-refinement-design-20261115.md) 11530B/hash032d244e58cb504ba804e58c0a22b5df5528048d94b6b353af263d17711000e2；[接线](notes/paid-attainer-model7-single-refinement-implementation-20261115.md) 6760B/hash878883f50f6c7e7df54069038f12b22570421df2808ca88442853ded85d56eb6。六源合并静态审完，原物理25150+controller390字符逐字不变；修正末gate来源和coarse账字段。request 36744B/hashfee29f3f625974f907376c09b1e6fdc98843a2ae6511a93af069194f58b36b01，153绑定；原140Python/6workflow未改。新4×4人工尚未执行，科学最多一primary/SOC，恢复费用继承原120/40/12限。workflow会先实际拉取并核双repo规则。没有重算payload入Git/Artifact/Release。来源基底30d3585dbab5f06e7d442b325411f70778db9bbb；此commit为首次执行source，后续读原run结果。
+
+
+## 2026-11-15 23:00:53 UTC｜[首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)，16条通过且真实入口中止
+
+5628B/hash6b073e789238f299cbcf38b9c819022e149a1af9dc511edaf878a4b71610cbef。原run43771970034/job132989648048/source68f92b9…；log430490B/hashba23313fae7855266456502ea1b5ac1f6b8d3799d5a833c6adbc749a1b3bd69d。四组16全过；真实构造器epoch eval哈希不等，新solver入口/模型/LP/trial0。准备14.667315975000065s、恢复0.08626015199990889s、总18.621493514000008s保留，继续精确修复且只复用16收据。公开actual pull22:56:03.158651→05.567623到c3cce53015c7783a36102bfc5961cddaafa9b817，双README空diff；私有22:56:07.764101→08.339035在a5da2028a7585abb517d5f84551120d288636cbb，根无差/题无/QUEUE进行中。已读SHA进H，下一≤23:56:03。基底5e4ec47e8f15481234f862ac0f8a2b43361e87ad。
