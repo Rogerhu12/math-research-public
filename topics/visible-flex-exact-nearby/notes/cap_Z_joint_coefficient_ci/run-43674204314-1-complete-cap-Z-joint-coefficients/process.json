@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_cap_Z_joint_coefficient_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43674204314",
   "run_attempt": "1",
@@ -54,6 +54,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:52:19.088472+00:00",
+      "before": "8adc3251a8fe2ee7bcbc5d6d8381631b1558141e",
+      "after": "890caa1668f2442073f97b4fc319ea9aeae403a5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -61,6 +69,11 @@
       "time": "2026-11-15T03:52:06.407916+00:00",
       "final": false,
       "commit": "47859b3ccd6908e2b1f7783ddb490a90cae42c78"
+    },
+    {
+      "time": "2026-11-15T03:52:18.733844+00:00",
+      "final": false,
+      "commit": "890caa1668f2442073f97b4fc319ea9aeae403a5"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -87,16 +100,22 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "8adc3251a8fe2ee7bcbc5d6d8381631b1558141e",
+  "last_read_commit": "890caa1668f2442073f97b4fc319ea9aeae403a5",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap-Z-joint-work/science",
-  "snapshot_utc": "2026-11-15T03:52:17.192744+00:00",
-  "wall_seconds": 21.921889346000015,
+  "snapshot_utc": "2026-11-15T03:52:19.095328+00:00",
+  "wall_seconds": 23.824477052999995,
   "native_files": [
     {
       "logical_file": "evidence/actual-latest-cap-Z-joint-summary.json",
       "file": "evidence/actual-latest-cap-Z-joint-summary.json",
       "bytes": 17312,
       "sha256": "5090df3b04567489462f1615cd1438e9d55b3d5fbc4978dc312b1ae1805d030b"
+    },
+    {
+      "logical_file": "evidence/complete-cap-Z-joint-summary.json",
+      "file": "evidence/complete-cap-Z-joint-summary.json",
+      "bytes": 17371,
+      "sha256": "67fa3c6664ab90a1dbbc91960b10f4f75c8f6372fee272ddca8f780f834efb86"
     },
     {
       "logical_file": "evidence/original-prepared-artifact-receipt.json",
@@ -118,5 +137,10 @@
     }
   ],
   "actual_completed_cap_pieces": 660,
-  "latest_scientific_native_sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c"
+  "latest_scientific_native_sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c",
+  "complete_native_sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c",
+  "actual_scientific_gates": 10,
+  "actual_new_cap_pieces_this_child": 660,
+  "original_complete_success_reused_without_child": false,
+  "finished_utc": "2026-11-15T03:52:18.738183+00:00"
 }
