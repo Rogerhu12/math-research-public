@@ -99,7 +99,7 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 这是直接Euclidean pair H1迹，不含额外pair-sum/physical/movingangle/density转换；免MA8193插值但不授独立MA域。两fullmean和true residual0 source要求保留。最宽rho1e−4 J96 BD conditional high<1.205312e−8仍超入口预算；rho2^-24 source+conditionalhigh<7.195363e−12仍未含low/shell。J288宽high<3.762382e−20也不消225..288 shell。RC只右半C0，不能授wholewide或较小rho。
 
-下一新NG仅优化内宽a与层数N；全NC/BD五列保留，共同(a,N)按两high列上端max选择，旧a=1/40成功12整row只copy，系数从LC/NC原小结论读取。low/shell实际范数、全wide C0/同态左右匹配和实际γ低门仍独立待付。
+[NG一般内宽与完整直接迹](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84已证明h=(1/20−a)/N、κ=2/a、ΓH=BH+κ²bp、Θ=κbp+ΓHσ，原T/CS/CL/NCΓL/BDDS,DL不变。root/tail全文及phase一般几何独核通过。新a=1/100,1/200,1/400,1/1000各N1..128，共6144组/12288公式待公共consumer；旧a1/40十二完整成功row只copy。按最终保留outward两high上端max选共同(a,N)，tie旧基准优先；只能称共同score不劣，不称每个单high/别列/实际总误差最优。LC直接读取CS/CL/bp，禁止upper相除；完整五列/三conditional读出/两mean不删。unknown low/shell、wholewide C0/同态左右匹配、独立MA域与实际γ低门仍待。
 
 ## 6. 完整exact tail、连续选解及真实参数列
 

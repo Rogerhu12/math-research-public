@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 NG adjustable nested collar** — [同外窗的任意内宽、完整五列及可复现整行选择](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)（cc3add84d3c7cad870345d6aef4f5101023d448d27df9025a72d9ecbe29bbbbc）：h=(1/20−a)/N、κ=2/a，有限正递推和双cutoff完整费用给NC/BD两条条件H1迹。新6144候选只读旧系数，旧成功geometry只copy；按最终outward共同high score整行选，不混列、不赋未知low/shell，不授core或MA域。
+
 - **R133 actual PW seven positive ports to waist** — [完整实际七列、四raw jump、四outer和两mean接口](results/R133-supplement-actual-seven-positive-ports-to-complete-waist-density.md)（6a763e7b784379573b63dda35a3664277c97e800903b373d50aebb12a3cc5cec）：43734233535/1 child0/21门。collar/body ordinary→waist分别<796.801/11167.586，完整七列独立，stable/head/两mean与各jump不置零。root核17pin、36球/29unique、原matrix/SP/RJ全字同及33374B预Git，全部旧数学0；此为有序输入映射，不授真incoming或strong-return逆。
 
 - **R133 actual NC/BD direct H1 trace** — [完整12双五列及实际运行](results/R133-supplement-actual-nested-collar-localization-and-direct-first-angular-trace.md)（5451c5f766f6f1c0a97bdf7a3e7ed411a3f5b183bce1cd0493ce25c0cf850f7c）：43733916510/1 child0，16结构+12角导门全部通过，768组/1536公式。J96/J288分别整row选N13/N39；两独立mean、全source及same-state/wholecollar前提保留，未知low/shell没有赋值，独立MA高域不扩张。完整science35707B/83e06a28、process3157ed35、reportb88b9e54与46305B预Gitbe17391b已核，旧科学零重算。
