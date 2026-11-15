@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 全部精确来源、旧参数及未列开放问题保[本次压缩前H](notes/2026-11-15-handoff-before-projection-defect-and-projective-divisor-789f.md)和其中open/H归档链；未列不算关闭，open.md继续作目录。
+- 全部精确来源、旧参数及未列开放问题保[本次压缩前H](notes/2026-11-15-handoff-before-return-test-transport-and-single-rhs-789f.md)和其中open/H归档链；未列不算关闭，open.md继续作目录。
 
 ## R150：当前精确结论和来源边界
 
@@ -21,15 +21,14 @@
 - [完整原高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)实际付源19406948/外左7252608原产品、两freeI、194单位及正谱1³,2,4,5²,7（长26/max7）。两精确列证明模块身份和原21消去界，第7阶已全退出。八自由坐标只标完整向量，下一步是真Q源映射；不搬F31图。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)有十七式明确来源，弱列阶降一；所有其余二次项/共动反馈保留。正常pencil非幂零，不能普适有限Neumann倒置。
 
-- [完整射影确定因子与额外乘子](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)将同原仿射F31长315与自然∞长66合为381次射影gcd上界。重新核到旧真Q第五延拓已付∞53/次大47，故Δ=t53K158^hR_h，degR_h≤170、degΔaff≤328，且同一个非零R使全部九Rh0tj进入原十七式/乘子次数≤3来源，deg(Rh0)≤194；R系数、原h0成员性与来源费仍未付。同步收紧真full∞为53…66、次大47…55、max≤19、δA_I为55…68。
-
-- [额外乘子后的无条件来源费](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)把已证Rh0九目标成员性代入同原K158余式整理：非基8526、原转移8531不变，目标权由64升至234只把目标支路172升到342，故存在同R（deg≤170）的九原Q[s]来源同时cost≤8531。原十七式/乘子次数≤3和全部4367输出保持；R系数、来源高度、固定31分母及原h0成员性未付。
+- [射影gcd与同R全局来源](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)：同原F31仿射长315加自然∞66给degΔh≤381。结合新真∞54，Δ=t54K158^h R_h，degR_h≤169、degΔaff≤327；同一个非零R使全部九Rh0tj进入原十七式/乘子次数≤3来源，deg(Rh0)≤193。原h0本身、未知有限支持及R系数未付。
+- [同R无条件来源费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)：旧稿R≤170给三费8526/8531/342，新169只把末支路降341；同九原Q[s]来源均cost≤8531。全部4367输出保持，来源高度和固定31分母未付；不把此存在性称作已算出R或来源。
 
 ## 活跃实际执行与恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull读两规则。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json；7历史输入、216、full32/O35、两正规202、完整运输及P11均已实付。工作大数组只在本job临时目录，约20:14结束前需继续增量或按需恢复；不以时限结束研究。
-- full32/O35各66旧文件全部比对，独立支付loss11/14；完整高商16.187683781秒。原s2第一4.541098008秒、三阶5.351822671秒、P11诊断0.954176738秒；已排two-full-original-schur-four-and-targets-field11（180秒/2GiB），复用同4345单位DAG和L1/L2/L3，仅新增A4/L4，再以7372×88完整Toeplitz核付全部九h0模t5配对；第四actual已成F11谱1⁷,3,4/长14、Q12…14/T≤2；模t5 h0配对非零只属F11，不否Q。
-- 旧43731615668/43731613530/43736746064/43702348535皆已结束，旧tmp不假用。必要恢复按原源码/原参数重建并逐hash核；全部回执与历史输入manifest在前H归档链。第10步真∞incoming实际23.752849275秒完成18头/β5=1，前五4,0,1,3,1，668304新六层原产品全真，54/48下界；旧数据按hash恢复。正式稿已核，下一真Q低投影全谱。literature接真Q第二的唯一缺头，boundary继续同源返回。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json；历史输入、216、full32/O35、两正规202、完整运输、二点full四阶及P11、真∞第五共10步已付。大数组仅本job临时，约20:14结束前增量或按原源码/hash恢复；不以时限停止。
+- 第11步已排two-one-true-rational-second-connection，600秒/4GiB、外660：从原P恢复15首头/14二阶头，实际核旧605×15一阶的normal2为零；保H3两齐次及全部首连接七像，仅给缺失1头求592单位的一列实际有理RHS，完整1088及三层6188乘回。正成功才得β2,Q=0；负仅限normal≤3，不排normal4/5。源码d4ff08a474ef3abe6c7ee08bea7829e6fa3d52eb2e04c71469b18b2ea2c27bb8，接口notes/2026-11-15-r150-two-one-true-rational-second-connection-interface-789f.md；尚无actual，不预填。
+- 旧43731615668/43731613530/43736746064/43702348535已结束，旧tmp不假用。第10步新true fifth实付23.752849275秒，18头/β5=1，668304新六层原产品、含恢复1485120；当前verified pack原normal2/3块零hash已复核，下一消费者仍需逐元素核零。normal代理接原155列真Q投影完整谱；literature接二点单RHS后续；boundary继续同源Green/顺次MP。
 
 ## 原同w边界：缺陷已付，完整返回继续
 
@@ -41,3 +40,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w/u_Q/future/负前缀
 - 原[全阶暗对](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)与[全正交旗导数带宽](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)保持先投旗后读暗数次序及平方根指数尾。H_i真三带、r阶双侧j±r支撑已付；低暗、Γ提升和顺次MP混合返回仍开。
 - 原R/T平滑保D/C/cut/核旗、同u双边强趋I；全阶热导数、跨旗指数尾、drift及闭域已付。仅primitive f的特定y=L*Tf∈kerD³，其真D†C1Tf、(D²)†C2Tf和额外F2可由[原相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)。actual u/Tu的受控同源表示未付，不能替原锚。
 - 实际L_U*u=−B*k仍保零源反馈，不倒置未知L_U。原左锚、全部partial、G_reg同forcing/carry、Haar普通循环性、正常有限秩相容链及其余open保持，不把正预算报为ISP完成。
+
+- [实际返回投影、逆伴随与全暗矩](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)已核：E=High+Zfull真闭且S(t)运输；原e=P_EY、帽e=P_hatE Kamb^-* P_EY是同一实际测试。全cut仅重叠ν≤h（h网格ν1），矩分别ν(r+1)²及νeC0²binom(r+2,2)²乘r!(σ²a_x)^rζ²；再投全部真旗只增4(2r+1)及对应binom(r+2,2)²/binom(r+3,3)²，不增h。Riordan专用R=ceil4expτ_m、h=d+R，C0与m独立，不混用R=d窗口。原w/f双线性误差≤ν√(1+C0⁴)||future u_w||||future u_f||，平均可消；额外q_h(-T0)*、低暗Green和顺次MP仍待付。

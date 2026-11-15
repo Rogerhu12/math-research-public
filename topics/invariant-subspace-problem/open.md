@@ -134,3 +134,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 
 [原∞第五连接恰一](results/R150-appendix-infinity-fifth-connection-exact-one-eighteen-heads-and-order54.md)在新1088×628系统实际rank589/核39，原incoming前缀rank588，得18真五阶头；668304新原产品/含恢复1485120全通过。以前页共同31单位夹完整前五秩4,0,1,3,1，真full54…66、次大48…55、max≤18、δA_I56…68；同一全局R次数同步≤169，总Rh0≤193，成本仍8531。高核/O/同D leading单位不自动提升；继续原155低投影的真Q谱。
+
+**实际返回测试的后续缺口（2026-11-15）。** [新证明](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)已将同一固定测试的缺陷暗矩穿过P_E、真实Kamb^-*、P_hatE及全正交核旗，并保与原w的双线性主项；完整切口仅花重叠ν。继续实际低暗分量经过q_h(-T0)*、完整Green及顺次MP的混合配对预算；不能用暗投影与返回/真旗对易替代，也不能因高暗尾小就丢零暗分量。Riordan窗R=ceil4expτ_m、h=d+R与二次小窗分开使用。
+
+**二点真Q第二连接只补一头。** 新入口从同原投影恢复15首头和14二阶头，保完整七incoming像及两H3齐次，只解一个592常单位RHS；成功可付β2,Q=0，失败只否normal≤3校正。第11步实际未回执前不预填，也不将λ2平方读数直接提升成h0障碍。
