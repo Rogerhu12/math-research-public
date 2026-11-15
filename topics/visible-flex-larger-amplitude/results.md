@@ -384,3 +384,6 @@
 
 
 - [连续C固定power4十控制三源码组件](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)：准确factory十项表与degree10、numeric完整3×10及参数投影分责、物理薄层七shape冻453/全十冻450已实现。真180九点加显式ξ，不造新域/J/accepted；局部0/半/1三jet盲点与完整probe/RK响应分责，未来入口保内部可见站且不增秩门。旧178/183/184/185均未改。
+
+
+- [R390. 实际183完整128方向与1133次全3回溯](results/R390-actual183-complete-ten-128-direction-continuation.md)：87144B必要齐，128接受/1005拒/1133域过，19步1/128后109步1/256，675.6139s非资源；W4.957836→4.923932而F3升.296505，全部非零终门仍false。真实末十词、16块/128行范围、120FD/域/453及清理责任齐，185完整全3路径校正接该实际父。

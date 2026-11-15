@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-184前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-request184.md)，链回183及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
+R390前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R390.md)，链回184及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -44,7 +44,7 @@
 
 [R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)完整698cell七状态/112三列离散伴随与[helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)已付，保全部r/mid/sqrt/末直接q_N/start及共享q；δq=(ah′−bh)/a²中b为原返回斜率，不预认finite-Gauss准确导数。函数独立不保证响应补秩，物理坐标链/形成误差/准确对象另付。
 
-R377首178与R387 r2的116585/91342B读回超限不回填；原来源与清理范围见完整结果。[R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)43753070697/source195cd2d42f原科学重算，完整80163B/d816bef8必要返回：8接受61trial53全3 Armijo拒且全finite域有效，α1/32,1/64,六1/128；W4.963213787524→4.957835964023但第三unit升至.112950142747。120FD/12层valid无异常；原Arb/453齐，全部终门false/native未调，末J/Q/R仅identity。真末十词/ξ=.000937439184421…已保存作为参数，全部8方向/61trial读回scope保但可重算大原表不归档；原静止/完整必要后清。183/R390从该非零ξ真正fresh求值/10forward，保157固定S与全3门，16×原8方向/全局2400s，任何整20拒或非budget停即止；不得伪改原178硬锁origin续点。
+R377首178与R387r2原116585/91342B超限范围保两结果，不回填；[R389真178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)80163B完整付8接受61trial与真十词，是183唯一实际父。[R390真实183](results/R390-actual183-complete-ten-128-direction-continuation.md)43755955047/126c0517、单87144B/57437aa3完整：16×8=128全接受、1133trial/1005全3 Armijo拒、原域全true，19步1/128、109步1/256。W4.957835964023→4.923932325275，第三unit .112950142747→.296505459996；原α1最大F3=69.25359893947，不能凭负slope免真实曲率。全128/16块后缀空、各已接受方向后原20档剩余未试不作拒；675.613889924s非预算。120FD/12层valid、Arb160/14的1588叶0未决/原453参考齐，但弱方向误差/连续C²及全native/nonzero/success仍未付。所有必要原数值与真末十词保正文，大J/QR/trial向量只Actions身份、完整必要/wait后清；185/R395从此点检验全3 nonlinear路径，保持固定157S/原门，不机械重跑183。
 
 新增形状的binary64表再准确提升不代连续高精证书，finite-Gauss a/ap兼容性另付。有限池全拒/微降不证函数空间驻点；十坐标不能送旧九owner。
 
@@ -54,7 +54,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)保完整转置主元QR/最小S范数、径向clip/全Cauchy下降；准确代数和形成误差/真实非线性/固定20档分责，不增rank阈值或换权重。[178原接口](notes/2026-11-15-request178-fixed-power-complete-ten-Newton-interface.md)固定support1/k4、157尺度/半径1、8×20、120FD/全终门；6b55/3e5不改，R377/R387/R389各自事实与清理范围保。
 
-[183完整续算接口](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)七件已发：57569d47/eed7c6a5/8b9d994b、真178r3十词recipe ea0aa4ea/request6a5ef150/wf a14fc2eb。原112+10逐值保→114+11、当前45→46；同一Decimal50 owner/全局2400s直接调用6b55最多16×8，后续批首fresh全10J。仅原八方向预算词允许继续，整20拒或非预算stop即止；ξ不清零，不用旧九反事实点或重算157固定S。初末120FD/Arb160/14/453投影及全final保，未到达不补成功。128方向/16块必要行、全部trial计数/分类/原极值/异常/身份和未访明确；J/d/Jd/trial核shape，Q/R仅读取/身份，不冒root逐值读。单90KB/reader300s、child2400+90宽限/50science65job，完整必要/wait后清、超限不分包。amplitude唯一核R390，185全三校正独立，无新实际成功预填。
+[183原完整接口](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)保七件/114+11/46闭包、6b55同owner16×8/固定S/全局2400s、整20拒即止、初末120FD/Arb/453和单90KB/条件清理。实际已由R390支付此有限运行范围；185独立全3校正须fresh完整3×10、原未加权W/严格slope/同cA，临时点不污染owner，有限校正失败/预算/原拒分责，不新增normal目标阈值门。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 

@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:20:36 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9c0e3263200f63ea61420d0d691b7ef763263feb。
+规则同步记录：2026-11-15 20:22:42 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 53e5d4f85a9a6c0ddc0335040bfb00546a5f09c6。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -25,7 +25,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|已终态，exact完整读R372；原37/FD与后置闭段诊断分责|
 |184 R391 exact|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|compute132943014084已启动；真180点→新C/factory→全角112 far→原453|
-|183 R390 amplitude|43755955047 /126c05170e77a29cc86e4a98681c724c51f0de7b|compute/report已终态success，amplitude唯一完整读R390；后继185待真实十词|
+|183/185 R390/R395 geometry后继|18343755955047/126c0517；185未派发|R390真末十词已付；128接受1133trial、末W4.923932/F3.296505；185全3校正接真实父|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|已终态，exact核R385；full C/deep与后续Prüfer未付分责|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
@@ -48,7 +48,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)保m2 row17/piece3/depth32下屏障未正、58/110非资源、11pending+[18,14644)/111未起/0cut；必要读回/静止后清，不证准确极点，181续。
 
-[R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)80163B必要齐，8接受/61trial，W4.963213787524→4.957835964023但第三unit升.112950142747；120FD/域/453齐、全finalfalse。真十词/ξ=.000937439184421…已接[183完整接口](notes/2026-11-15-request183-completed-ten-128-direction-resume-interface.md)：七件57569/eed7/8b9/ea0a/6a5e/a14f、114+11/当前46闭包；6b55同owner最多16×8/批首fresh10J、固定157 S/全局2400s、整20拒即止。原全3门/120FD/全终态保，128行/16块必要摘要单90KB，大J/QR/trial只身份；完整必要/wait后清，amplitude读R390。
+[R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)真十词接183；[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)87144B/57437aa3必要齐：16×8全128接受、1133trial/1005原全3拒/域全过，19×1/128与109×1/256，675.6139s无资源partial；W4.957836→4.923932但第三unit .112950→.296505。120FD/160bit域/原453参考齐、全部非零终门false。完整128行范围/初末十词/S/原门保正文，必要/wait后清；geometry185只接真末点、全3 affine-target校正，实际R395；R392条件证明先独立发。
 
 [R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)：43749949418/ccf1b023，五必要块齐，report红色只传播compute/BVP未付。C1440/deep112齐，真实rFar首m2同row17/piece3/depth32下屏障未正，58paid/110work/.173086674s非资源；11栈+[18,10387)/111未起、0far/0unit，BVP未启动。六读回/静止后清；全部59pins/原453/FD/预算责任保原接口，184接全实角。
 
