@@ -164,3 +164,7 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-15 23:47:59 UTC — SCA 完整97仿射及所有未知费用独推
 
 两README在485ae41e7118503199bd1d2acfa8257da1ad7869复核无变。Root已全文读24004B/3302361e proof和原完整science/error accounting，47处42种球逐字全同，20门标签/真verdict全同；原job12steps全success。32Git inputs（23current451182B+9history）、36原archive、8AST/23真pull摘要已逐原metadata核，未取binary或485160B大log。SCI23672/f0838341和preGit32824/9f40e616精确lexical复原；41178/3ff0process只引原receipt不冒复原。7908完整真实dr/4pilot/128测试、3×97含mean/完整δ与指数尾齐；known≈3.844e−13不可冒完整affine≈1.617e−7。两whole3/4候选Y仍existence支，(D+13ρQ)Y约1.61720234e−7，真实左10d/缺陷与outer完整保；body/outer y非左端重排后的新中心。SC1/2失败与限定lost保，旧math不重。H/open仅压已成摘要，逐字前页1196f536保所有原scope；继续新未知体域包络与UTactual，未达总标准。
+
+## 2026-11-15 23:49:41 UTC — NPK 周期weighted kernel解析结论独推
+
+两README在232978234e35f028bf8fa663190f695c45c41b36blob核无差。Root全文读0cfdef79/11251/1ab985bc，按CN13–16原双weightedmean核u0−weightedmean、固定t的G range长度1、归一L2与普通dt的π/2因子、a(t)/a(x)≤exp osc p≤E0²，得同CN完整逆且输出mean=m_f。PIB接同一负窗、旧新完整norm整选与global sign左右窗和forward因子原序保；不对不同affine候选逐系数min，CE未付/linear μ²费原样。Newton独立纯核亦通过；零新数值，计划仅在公开Actions消费旧NW原E0作新正平方/积，无新exp/log或旧积分。H/open压缩已成MI/PG/PIB/SEI/PSB/PTB/DZA摘要，逐字完整前页232978234e35f028bf8fa663190f695c45c41b36同路径保存全部球与条件，全部尚欠physical/high/bg/tame/finite义务显列不减。
