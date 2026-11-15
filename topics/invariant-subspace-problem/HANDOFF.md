@@ -25,17 +25,18 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 - [真实带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)保c*=1601/64、ρ=e^-12.5d³、同top误差及原p_m(B)的W锚。复参数正平均已给μ⁴≤d0^-2 flat²R²，R²≥d0²λ²，仍缺同源全窗ordinary返回预算。
 - **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，n+h+R<Q时原同u给真实左最小、完整两费及负图；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1使远D范数δ<ρ。目标μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证，不能沿旧d窗用ρ^-2。
-- **[首段损耗/源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** Cs*K Cs+I≤δ²K对K=B和H=G^-1成立；抵消左+I，在Sb=L+B、Sf=L+H均||Cs^k||≤δ^k。自足有限模型给圆盘演算sup|f|，完整逆芽到h−1误差4d0²εδ/ρ。零源/裸商平方保留，不相减推出H−B收缩。
-- **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** E=高部⊕裸零源，E0=E⊖完整零源，Rret=Jf−Jb、Rret*Rret=H−B。Rret Cs=−T0Rret−KJb，真行[T0,K]≤δ；kerCs上Rret=0，负图=Ran Cs的Sb伴随。完整未压缩(C+T)Rret=−Phi T Jb在E0单射，必须保零源输出。真未来<Y,Rret r>=μ²+α²；不能倒用压缩Sylvester免费估逆。
+- **[源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 右Cs*KCs+I≤δ²K与左+I抵消，Sb=L+B/Sf=L+H上||Cs^k||≤δ^k，完整h−1逆芽有无损圆盘演算；零源平方保留，不相减为H−B收缩。
+- **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb在E0=高部⊕裸零源⊖完整零源中，Rret*Rret=H−B，Rret Cs=−T0Rret−KJb、行[T0,K]≤δ、kerCs上零；完整未压缩(C+T)Rret=−Phi T Jb单射，不能倒用压缩Sylvester。
 - **[逐幂真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** 同左最小v=Ur，准确正交孔层展开保全部左零核反馈；δ^-2k(||Cs^k r||_(L+B)²+||P_K C^k v||²)≤||P_far≥k v||²+α²。同top可直接代真实w远孔尾，无头条件数/尾速率；k=1剥尽远真空能量。完整H版仍含λ，不能换α或倒除Cs。继续把保留反馈接q_h(C)及原M/W锚。
 - [相邻配平](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)与[全尾增长块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)已保L(x)=floor(x^α)、α<1/2，对称P上的有界V±、真核/top/孔cut和全部nuisance最小lift Gram e^±η。没有全环境S∞、原LGL或ordinary λ运输；spin容量及allstar匹配仍保。
 - **[均匀池完整因式分解](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)：** 真池行K给DK=K[−F(−d0D)]，K^-1(F(B)+D)K=(B/d0+D)G；完整物理核Gram与Green列的G逆伴随/两端核投影全部保留。余强位E留下E(I−G)，不能删或沿用d。该身份尚不给O(R³)固定列费。
+- **[强gauge与准确末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左变化/反馈付远尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端−q_h(Cs)r_(n+h)仍保。返回运输误差≤A_drv α，共同eY∈E0、||eY||²≤||Y||²−α²、Rret*eY=Sb r；大配对仍未付。ordinary λ(qr)与d0λ(r)双边可比，全局M/W锚不免末端。
 - **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
-- 旧Gq耗散不提供移动gap率；原低forcing逆Γ高行零/返回带、a1缺o(S)、a2一孔已付但联合远孔未闭。旧全源孔导数坏族已由flat支付且固定低测试恰零，只排全源小导数。完整细节见快照与各原证明。
+- 旧Gq、低forcing、a1/a2、孔导数坏族的全部量词保[完整H](notes/2026-11-15-handoff-before-strong-gauge-789f.md)，不重复旧排除。
 
 ## 当前临时计算会话与可恢复身份
 
-本地执行器已恢复，实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新joint-source-lll-p768实际已完成（见小回执），同job临时p768仍可接结构分析；最长job6h，未许可大数据持久化。
+本地本次pull因磁盘满失败；HEAD5526a3e两README仍同规则，未报成功。只清本任务重复生成工作数据；实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新joint-source-lll-p768实际已完成（见小回执），同job临时p768仍可接结构分析；最长job6h，未许可大数据持久化。
 
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
 - paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
