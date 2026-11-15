@@ -86,3 +86,7 @@
 ## 持久128原stop迭代：Request133独立源码及执行
 
 [数学接口](notes/2026-11-15-native-persistent128-original-stop-chord-interface.md)与[133执行](notes/2026-11-15-request133-persistent128-execution-interface.md)：固定fresh64 chord/当前全128残差/持久状态/原32×10和独立末replay。完整37来源、明确18000/1200资源与全部未付endpoint/audit责任；源不是实际native结果。
+
+## R294 — 九控制450准确全局C²拼接与同一目标atlas
+
+[R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)完整证明共享Hermite、整角cut、反射、两帽及强C²phase结构；分开有限scalar/同目标atlas条件、模型C内cuff平端与非平natural外端，给同g几何修补和完整误差责任。没有实际场、reach或metric通过结论。

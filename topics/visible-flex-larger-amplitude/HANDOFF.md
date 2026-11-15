@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:38:32 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 5f36d3fb88c822fa5a1ffab42a9f4782f0f8b629；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 5f36d3fb88c822fa5a1ffab42a9f4782f0f8b629。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 10:41:31 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 1017f3871a3617071e2bf6259a052e62bb7d6757；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1017f3871a3617071e2bf6259a052e62bb7d6757。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -44,9 +44,11 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 ## 连续几何、同g与接受场之后
 
-[全jet/mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)675ab8df/dbdedb45及帽a3ada50b保全部FFT/mean/Nyquist/sharedB/materialcut；[R282组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)0b52a408/4e31ad6b保membership/cross-Gram或全phase逐闭叶OR、两RP1/全rank/未访后缀，不整rank豁免商对角。[曲率/D](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)b1c2dfb9漏叶D空、seam未付则fullcurvature/reach false，无实际证书。
+[全jet/mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)675ab8df/dbdedb45与帽a3ada50b保全FFT/mean/Nyquist/B/materialcut；[R282组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)0b52a408/4e31ad6b保完整两RP1/四门OR/未访后缀；曲率/D b1c2dfb9漏叶仍不付fullD/reach。
 
-[旧metric](notes/2026-11-15-same-shared-field-relative-metric-interface.md)a601与[R285](results/R285-original-finite-selector-closed-cover.md)旧有限48selector范围保持。[九450独立完整metric](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)0c4353d1/4b13425a已发：真0865全九nested scalar/69bb新guard/675全六jet与材料混合项/原四Loewner/全部DFS/两帽原target0，显式接9aa0真实query和自然Rout包含。point/batch/实式不混，live来源标签不认证现场，globalC²/atlas/原g标准4仍false；无真accepted450或数值metric。
+[九450完整metric](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)0c4353d1/4b13425a接0865全九nested实表达/69bb新guard/675六jet混合项/原a601四Loewner全DFS/两帽target0及9aa0真query；live来源标签不证现场，未有accepted450/实际metric，目标atlas与原标准4仍未付。
+
+[R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)已证675共享准确Hermite/全角cut/R249反射/cuff帽的几何C²及强C²相位条件；非小jet差或ap标签证明。原g同cut atlas分C0/C1/C2条件，finite-Gauss/mask/clip基底及模型C选择仍独立；内cuff可平延拓、naturalRout非平。无实际闭场，结构证明不付embedding/reach/metric。
 
 [R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)81d061a6/源9aa0da45保六共同primitive/1440片/全准确深根族与自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446，compute132777819446/report132779955239 success。482.799843329s用尽200000panel，1378/1440片；cell6/seg1/piece1378 depth47部分，31panel+source[1379,1440)+wholequery未付。E/Rout空、inverse0、完整queryfalse；deep/结构flags不冒完整域。summary8716B/7ccbcf3c、result5992B/e18d07b6与query608B/009f8e11从原日志逐字核；raw已清，需完整重做并改进真实分片策略，不盲加预算。
 
@@ -54,4 +56,4 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 ## 维护与重做
 
-open旧27992B保open-checkpoint-through-request126-2026-11-15.md；旧results索引97869B保results-index-through-actual120.md，原相对链接不变。104清理后题168796207B，未知JSON未全分类，不重存旧raw。102v3顶层装饰差异不添复算门；每条新结论更新H/open/log/results并立即推，然后继续。
+open最新归档open-checkpoint-through-request134-2026-11-15.md保全部旧链接，原126/112链不删；旧results索引results-index-through-actual120.md保持。104清理后题168796207B，未知JSON未全分类，不重存raw。每结论更新H/open/log/results并立即推，继续open。

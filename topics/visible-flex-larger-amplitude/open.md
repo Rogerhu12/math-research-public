@@ -1,24 +1,12 @@
 # 当前未解决的问题
 
-本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request126检查点](open-checkpoint-through-request126-2026-11-15.md)，它仍链接[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
+本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request134检查点](open-checkpoint-through-request134-2026-11-15.md)，它仍链接request126及[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
 
 所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root终端已恢复，当前真实部分克隆/tmp/visible-larger-root-git-126由root唯一pull/push；早前终端unavailable期间集成发布的边界保留在原log，不冒当时有git pull。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
 
 ## 1. 九控制低三条件的真实接续
 
-[123实际](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)从121第五批真实六p加三个零quadratic，八次接受后W738.1754024784359→431.4178353348037。[R284实际125](results/R284-actual125-nine-control-eight-further-acceptances.md)再八次接受、17外trial，W→279.12365756925647；末unit首项−23.62725559552975，所有unit/full112/native/success仍false。末九p仅取R284原值，完整九列FD、新Arb1178叶/0未解、原453零圆和17外trial已读。dir7全步inner tol=false仍由原Armijo接受，不能另加内tol门；零eta反事实25数组比较不是当前点/旧六J。primary63133B/53a0186f、status1883163B/688d64e2、完整view118379B/56c7fef0及八组原段均已逐字重建核身份，无隐含外trial省略；临时raw已清理。
-
-[126原批次入口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)从上述真实末点连续最多八个独立原八方向批次，每批radius=.1 reset，原8×20外回溯、12×20法向校正、W/.2Armijo、域/完整九列FD/Arb/圆/final不变。family086572f9/search824c0967/readerf57a7dfa保持，wrapper b15a6571/request7825a472、84+2源pin及own26闭包。每个真实status经过原reader后才传自己的recipe；compute按批框定完整primary和全部方向原段，report仅紧凑链。3600s只批间预算，75step/90job；预算或传输停止不是课题完成。
-
-[R287实际126](results/R287-actual126-eight-nine-control-batches.md)原八批64接受/112trial，W279.1236575692574→49.739792814348064，完整读回后真第8末p接[127原入口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)，原84+2/own26/全部科学源与预算不变。
-
-[R290实际127](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87、compute132770038307/report132770558044均success，八批各8接受，共64接受/130trial/66外拒绝。fresh W49.73979281434833→11.126800189953372，末unit[-4.717371832840097,-.0018359077734816124,-8.732263938333927e−6]，所有五final标志仍false。14次接受inner tol=false均由原完整Armijo裁决；后3批首接受1/16、末radius.00625，继续保真实回溯，不添内tol门。
-
-八批初末全部九列三档FD有效，但第5末eta3最高1.0928131834783939e−7，不能概括统一e−9；新Arb末1499叶/0未解及原完整453圆域/两RMS/边界已读。8primary/64完整方向组/8fullview逐字身份吻合，无moved/omission；链96.12924756899997秒，仅explicit_independent_batch_count_completed，raw全清。[129完整入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)已从R290真第8末九p形成：recipe2288B/3971018d、request41954B/45f221e1、workflow18134B/7f33349e，84+2/own26与原wrapper b15a及全部科学门/8批预算不变；128另明确正λ=.001九H(s)完整112实验。原搜索的低三通过与否均不能替代高109/完整112/native非零场。
-
-[R291实际129](results/R291-actual129-eight-nine-control-batches.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173、compute132773497339/report132774328966均success。原八批64接受/171trial/107外拒绝、零整方向拒绝；fresh W11.126800189953256→6.426170559507028，末unit[-3.5850158845837177,-.0014920654262581224,-6.102912416198981e−6]，全部五final仍false。停止仅explicit_independent_batch_count_completed，174.200186809秒；20接受inner tol=false仍由完整Armijo决定。
-
-后5批没有任何评价域异常，首接受均1/32/末radius.003125；最后一批首方向alpha1/16仍被完整merit拒而1/32接受，不能把当前慢降概括为域障碍。各批初末全部九列三档FD有效，原误差例外逐保；末Arb1524叶/0未解、原453圆/两RMS/边界全过并非完整非零场。8primary/64组64段/8view/8stdout及链逐字重建核身份；状态大原件只在runner消费后清理，身份不冒独立本地全状态审计。[131真实接续入口](notes/2026-11-15-actual129-final-nine-control-continuation131-interface.md)已发布：只用此真实第8末九p，recipe2286B/28acc474、request41663B/98d97b5a、workflow18132B/86551b13；原b15a wrapper/0865 family/824c search/f57a reader、84+2/own26、8×8/.1 reset/3600s批间与全部FD/Arb/453圆/final门不变。131不复用129旧J/merit/半径或证书；128独立非零场继续。
+原123/125/126/127/129及完整8批算法、全部原试探/FD/Arb/圆例外、真九参数与字段身份保于[request134检查点](open-checkpoint-through-request134-2026-11-15.md)及[R287](results/R287-actual126-eight-nine-control-batches.md)、[R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)、[R291](results/R291-actual129-eight-nine-control-batches.md)。其中仅标量候选W逐次下降，完整112/native标志一直未付；已有原记录不靠摘要或SHA恢复已删场。当前真实接续为下列131/134。
 
 [R292实际131](results/R292-actual131-eight-nine-control-batches.md)run43703108343/source2d211e0d443605cb9d1a4923a1c04779ae0fb7f3，compute132778318692/report132779364699均success。原八批64接受/236试探/172拒绝，18接受时normal target=false；W6.426170559507028→5.003044586685377，末unit首−3.1632400428502723，全部五final仍false。完整8primary/64组64段/8view/8stdout及chain逐字重建，0域异常/0evaluation exception，所有拒绝来自原全三Armijo。批2首全步在inner false下接受并把半径.1→.2，批8首全步也跳降；批1/7另有全步但ratio<.25缩半径，不能用reset独自解释慢降。各初末全部九列三档FD有效；末Arb1576叶/0未解及原453圆/两RMS/边界已读，并非非零native。末真九p及status34841bea/primaryf6ce9ba6/view639aadd5/restart21bebe26完整身份见R292；[134独立入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)现已发布，接该真实末九p，recipebf8e80aa/requestaaef1c38/workflow262e5175；新wrapperfd5d78f3、85+2源/own26，最多32个原8方向批，.1重置、3600s仅批间/75science90job及0865/824c/f57a全部科学责任保持。完整32计划行保留、未访科学字段null，实际90KB超限明确transport不完整/exit70，不靠截断冒完整。每批原status/primary/所有方向分段消费后清，不携旧J、merit、半径或证书，不新增inner门。
 
@@ -77,6 +65,10 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 ## 4. 连续几何与全域metric
 
 ### 4A. 全t强C²、嵌入、reach和完整D
+
+[R294准确接缝结构定理](results/R294-nine450-exact-C2-seams-and-target-atlas.md)已完整证明：675共享准确dyadic节点Hermite、整角cut三权重、R249中央反射、同B的collar零两jet、完整帽marker边界零两jet及真实材料角，给条件下整个闭材料面C²与强C²全phase族，不要求把离散ODE残差或ap/app标签冒真导数。它支付几何结构，未替任何实际场的Gram正定、单射、reach、held/δE或metric数值。
+
+R294同时给固定原g的cut atlas兼容并分C0/C1/C2层级：几何图的v,b须与原目标使用同一图；有限Gauss必须对自己的实表达求导，独立常数/mask/clip和stored width不能靠小差冒恒等。九C²bumps不修基底jump。R286内cuff允许E=(1,0,0)平延拓；natural外端则E=1+w²、E_r<0、E_rr>0，不能接常值。准确位置修补可按同g重新支付全角两jet和Gram/完整像误差，不能改g掩不兼容；C²目标六式本身不新增原BVP门。后继直接用真实完整场绑定已付结构，积分132部分结果仍按R293负责全部未付域。
 
 [R279](results/R279-finite-field-direct-continuous-curvature-certificate.md)、[R280](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)、[R281](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)、[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)条件证明已付；现需同一实际场的连续六jet、法向球、材料图、全空间×两RP1相位覆盖及所有未付叶。不得把fixture或条件证明写作实际reach。
 

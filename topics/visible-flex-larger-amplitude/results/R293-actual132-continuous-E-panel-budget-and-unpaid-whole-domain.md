@@ -33,10 +33,10 @@
 
 原进度按原 cell159向外排列；cell7完成时为1377片，原 elapsed `96.483798958` 秒。第一个明确未付记录在原 `cell=6, segment=1, source_piece=1378`，深度47，闭参数区间精确保存为
 
-\[
+$$
 \left[\frac{126450279677349}{140737488355328},
       \frac{63225139838675}{70368744177664}\right].
-\]
+$$
 
 原 reason 为 `Declared complete integral-panel resource budget reached`，`included_in_complete_primitive=false`。这不是1800秒到期、不是外部 Actions 超时，也不是程序 exception；记录不能证明这个原函数没有合法积分。单凭该记录同样不能断定已经到达最大深度，或把成本唯一归因于某个绝对值零点。需要从实际分裂和精度策略继续定位，不能拿未运行的原因替换原停止原因。
 
