@@ -8,7 +8,7 @@
 
 唯一已接受起点是 M96/N1024、scalar .99 的开放大核；材料三分量误差5.77368e−7不是全相对度量operator证书。后续 .996/.9975超限、.997875失败均已存。当前 M112/T112/N2048、699节点、453状态（338physical、112core、3p）、236036自由坐标，原scalar/控制/core与全部physical/constant行保持。原T112零H的完整J及audit已完成；七件身份完全相同且exact H=0首请求可复用，当前非零H及最终audit必须真worker，不能归零或拿T96代T112。
 
-### 1A. 前缀：实际72接受1/16；74只补最近mid484，70比较已完成
+### 1A. 前缀：实际74接受1/64；76只补最近left485，70比较已完成
 
 [R270](results/R270-exact-local-support-damped-QP-condensation.md)保全部236036维原g、pure-global仿射列、109freecore和全部外部physical条件响应。C只修正4059坐标，完整H不限于它。完整原子模型、LSMR200、C-Hildreth200、512工作行/dual200、候选600秒/试步预留90秒/恢复30秒/总1200秒及17档alpha、node/mid/双RMS/rho/merit门均保。每模型刷新W，禁止跨模型merit相减；线性域行不代替实际有限步检查。原完整QR因子未导出，不冒独立payload审计。
 
@@ -37,6 +37,8 @@
 [72完整字节附记](notes/2026-11-15-actual72-completed-byte-reader-addendum.md)由reader43658612002实际小原件对应：199domain/1284NPY、108condensed/38完整阵、14raw415120992B、65源及13+13observer；45056行、7101实际列、zero-layout空。五原报告副本、四公开报告和warm逐字对应；完整chainQR原未导出，不冒全因子审计，不重下605MB、不新增后继接受门。
 
 74唯一请求d3bc7e4a与共享workflow40ca08e5已按[23-query完整接口](notes/2026-11-14-twenty-three-query-condensed-interface.md)发布：只补实际nearest MID484，47104行/7101实际列/zero空，原15LEFT+7MID保留。四新源755d9bf2/1fe5b698/1eb07544/06ed3a98和47pins核同，11shell/6inlineAST通过；完整C4059/outside、lambda270/512/200/17trial及原FD保持，实际run43659610548/source145d7a53/job132645804684全部科学/FD/发布成功；七trial接受1/64，最近1/32仅left485 RMS失域且actualmerit实降。76从actual74新204b2083/09d94472双SHA仅补LEFT485，[正式74七trial报告](notes/2026-11-14-actual-request74-twenty-three-query-nearest-left485.md)、[原读数](notes/2026-11-14-actual74-original-readout.json)、[完整primary身份](notes/2026-11-14-actual74-primary-identity-readback.json)已保存；17关系/60源核同，最大col.007108873959470118、BC2.4130581390514712e−8、零锚仿射FD1.1187325453132574e−9。625544155B完整原件reader已按实际tuple派发，不加科学门。
+
+**76唯一后继已发布：** [24-query完整接口](notes/2026-11-14-twenty-four-query-condensed-interface.md)冻结四源06933e93/b453b53d/87261854/f6639751。只将实际74最近拒步的LEFT485加入完整2048角行，保留独立MID485，成为16LEFT+8MID/49152行；实际和声明7101列、16cells/21nodes、零布局空均不扩。C4059完整outside、lambda270/512/200/17trial及原全部预算/FD不变。唯一workflow96660ef6/requestea45ed80绑定真74压缩warm204b2083与原status09d94472；51源pin、11shell、6inlineAST及父双SHA逐字核同。原压缩status透明解码，不重序列化；本条尚无未来76科学读数。
 
 **同父λ比较：** [67正式结论](notes/2026-11-14-actual67-lambda27-same-base-tradeoff-and-byte-comparison.md)。66/67均从actual64出发、同20query/W/b/g/B，分别λ270/27。66接受1/16、总merit43.7556914034461；67接受1/512、总merit43.77799655333434，但同row461最大col为.007108963566953459，较66 .007109134582008451更小。最近拒步均唯一left466。67 stationarity1788.5803704212726/gap2194.117175196217是有限预算结果，不能称精确QP最优。完整181B/1168数组+b/g/c逐字同、14新raw已核；第一版工程失败保留。
 

@@ -1,11 +1,11 @@
 {
-  "request": 74,
-  "requested_at": "2026-11-15T00:36:58.712046Z",
+  "request": 76,
+  "requested_at": "2026-11-15T01:01:22.599055Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue the exact actual72 saved warm/status pair with one complete twenty-three-query model. Add only the nearest rejected original collocation midpoint484 on all2048 physical angles. Retain the previous fifteen LEFT and seven MID grids, full H, lambda270, 512/200 and all original domain, merit, seventeen-trial and FD conditions. At actual72 alpha1/8, all original nodes and all22 selected grids passed, but original midpoint484 failed; full original RMS and actual merit were not evaluated. Do not assert actual merit decrease for that rejected trial or promise a larger accepted alpha. The declared and actual B layout remains7101 with no zero columns; the existing C4059 keeps its complete exterior offset.",
+  "purpose": "Continue the exact actual74 saved warm/status pair with one complete twenty-four-query model. Add only the nearest rejected original left-RMS485 query on all2048 physical angles. Retain the previous fifteen LEFT and eight MID grids, full H, lambda270, 512/200 and all original domain, merit, seventeen-trial and FD conditions. At actual74 alpha1/32, all original nodes, all original midpoints and all23 selected grids passed; the actual fixed-weight merit decreased, but the original complete RMS scan found only left485 invalid. The new query changes the model without promising a larger accepted alpha. Complete actual B remains7101 with no zero columns and unchanged16cells/21nodes; C4059 retains its complete exterior offset.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -24,7 +24,7 @@
     "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
     "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
     "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
-    "root_20261114_publish_actions.py": "5a0216d00c8ca732b03886904ca232bc9453bc12d47a697d9384e4871c594de9",
+    "root_20261114_publish_actions.py": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca",
     "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
     "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
     "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
@@ -53,11 +53,15 @@
     "geometry_20261114_twenty_three_query_domain_operator.py": "755d9bf2a01c5c417b28bfd265ee76712bba54a9fdeddf34ea56c4668abefe98",
     "geometry_20261114_twenty_three_query_condensed_warm.py": "1fe5b698e452112583ee82a81ab7890095c7f3f31de05cdfb60c79e35039721c",
     "geometry_20261114_twenty_three_query_condensed_response.py": "1eb07544b30abdce43599d3297c5f7732c3d19f4c74bf5aedd15ae008fa87e8a",
-    "geometry_20261114_twenty_three_query_collocation_observer_warm.py": "06ed3a98c48cbb2feffbc319f08c6509012f5ab9f7a460a5af3d6f74e73fc697"
+    "geometry_20261114_twenty_three_query_collocation_observer_warm.py": "06ed3a98c48cbb2feffbc319f08c6509012f5ab9f7a460a5af3d6f74e73fc697",
+    "geometry_20261114_twenty_four_query_domain_operator.py": "06933e9341664d63b5a9eaeb00998daa1be7b1c1d143a60f1ae2ef05efa9db36",
+    "geometry_20261114_twenty_four_query_condensed_warm.py": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+    "geometry_20261114_twenty_four_query_condensed_response.py": "87261854684d5844c97d59b328db2aa070b015b565baf46dfb7e811808b3bb87",
+    "geometry_20261114_twenty_four_query_collocation_observer_warm.py": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35"
   },
-  "actual_parent_run": 43656584956,
-  "actual_parent_warm_sha256": "f59e8c64399a9fed392a8f8c3976209aaa3fa662c5c6ea65d864342cca697213",
-  "actual_parent_status_sha256": "73a0c0148f6166608ce47ecd4831b6e09a013e50907bfe7aae7468b687ce857f",
+  "actual_parent_run": 43659610548,
+  "actual_parent_warm_sha256": "204b208393218923f8abf9a36b6f03d29306409155447f561b2c2f4c373001a3",
+  "actual_parent_status_sha256": "09d944723fb6be152e90ba283fc44d33d455f1a52bc73787a329fcdc7d97ea73",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -71,22 +75,22 @@
     "original_trial_count": 17
   },
   "complete_B_local_dimension": 7101,
-  "selected_query_count": 23,
-  "selected_angle_row_count": 47104,
+  "selected_query_count": 24,
+  "selected_angle_row_count": 49152,
   "scientific_thresholds_changed": false,
   "native_tail_requested": false,
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
   "original_left_RMS482_retained": true,
   "new_queries_added": true,
-  "source_entry": "geometry_20261114_twenty_three_query_collocation_observer_warm.py",
-  "mathematical_producer": "geometry_20261114_twenty_three_query_condensed_warm.py",
+  "source_entry": "geometry_20261114_twenty_four_query_collocation_observer_warm.py",
+  "mathematical_producer": "geometry_20261114_twenty_four_query_condensed_warm.py",
   "observer_read_only": true,
   "extra_RHS_Jacobian_or_trial_calls": 0,
   "original_midpoint481_retained": true,
   "original_left_RMS468_retained": true,
   "one_complete_model_call": true,
-  "actual_parent_source_commit": "eff90c141df410e83e273d568e4b707903bf8df2",
+  "actual_parent_source_commit": "145d7a53ec05a64d39d0a36ac3e441e3475cb9bf",
   "complete_B_physical_nodes": [
     466,
     467,
@@ -123,61 +127,62 @@
     486
   ],
   "nearest_rejection": {
-    "parent_run": 43656584956,
-    "original_model_sha256": "09f1d116d03ba7f3a69b65e94550e72bcb8afce84ef72bb498b8aa24e57fbe73",
-    "original_trial_index": 3,
-    "alpha": 0.125,
+    "parent_run": 43659610548,
+    "original_model_sha256": "75d3e63d4837a47816890ff49232aa43237b0b44d0531d63a6dbe57291fa2a26",
+    "original_trial_index": 5,
+    "alpha": 0.03125,
     "accepted": false,
     "all_original_nodes_valid": true,
-    "all_original_midpoints_valid": false,
-    "invalid_original_midpoint_indices": [
-      484
-    ],
+    "all_original_midpoints_valid": true,
     "original_node_failure_count": 0,
-    "original_midpoint_failure_count": 1,
-    "all_previous_twenty_two_modeled_grids_valid": true,
-    "full_original_RMS_scan_executed": false,
-    "actual_merit_evaluated": false,
-    "predicted_unregularized_merit_reduction": 0.050652437084443655,
-    "midpoint": {
-      "kind": "collocation-midpoint",
-      "interval": 484,
-      "fraction": 0.5,
-      "original_station": 1.2417148007378733,
-      "original_beta_squared": {
-        "finite_count": 2048,
-        "nonfinite_count": 0,
-        "minimum": -0.004507469409975373,
-        "angle_index": 983,
-        "phi": 3.0158062289831706,
-        "negative_count": 4,
-        "zero_count": 0
+    "original_midpoint_failure_count": 0,
+    "all_previous_twenty_three_modeled_grids_valid": true,
+    "full_original_RMS_scan_executed": true,
+    "original_RMS_query_domain_failures": 1,
+    "original_RMS_query_checks": [
+      {
+        "fraction": 0.17267316464601146,
+        "points": 698,
+        "invalid_count": 1,
+        "first_invalid_points": [
+          {
+            "interval": 485,
+            "left": 1.2442070264877532,
+            "right": 1.2491914779875128,
+            "s": 1.2450677075022412,
+            "a": 1.1808461714400902,
+            "ap": -0.2583696566321938,
+            "app": -2.415115318845772,
+            "minimum_beta_squared": -0.00928897249979821,
+            "phi": 0.08283496254582462,
+            "curve_curvature_at_minimum": 0.2177912452769082,
+            "scalar_parameters": [
+              -1.187351368445269e-18,
+              5.152721950399075e-19,
+              -8.539774863479239e-19
+            ]
+          }
+        ]
       },
-      "original_middle_state": {
-        "shape": [
-          453
-        ],
-        "dtype": "<f8",
-        "sha256": "a91802046e374b683a5d485f37b571a6764a712b4bf12a61bd4e5d624f13d954",
-        "bytes": 3624,
-        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
-      },
-      "original_midpoint_rhs": {
-        "shape": [
-          453
-        ],
-        "dtype": "<f8",
-        "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
-        "bytes": 3624,
-        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      {
+        "fraction": 0.8273268353539885,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
       }
-    },
-    "scope": "Original midpoint484 alone failed at the nearest alpha1/8; original full RMS and actual merit were not reached. The new query changes the optimization model only, without a claim that the next larger trial succeeds."
+    ],
+    "actual_merit_evaluated": true,
+    "original_fixed_weight_merit_before": 43.6764824644448,
+    "actual_fixed_weight_merit": 43.66452065214288,
+    "actual_merit_reduction": 0.011961812301919394,
+    "actual_to_predicted_ratio": 0.9958399815011634,
+    "predicted_unregularized_merit_reduction": 0.01201178153531027,
+    "scope": "Original left-RMS485 alone failed at the nearest alpha1/32 after valid original nodes/midpoints and all23 selected grids, despite real fixed-weight merit decrease. The full original RMS scan remains an unchanged gate. No larger accepted alpha or complete-domain sufficiency is promised."
   },
   "parent_status_transport_validation": "Preserve original compressed warm bytes; transparently decompress any public status gzip alias and hash the original JSON bytes without reserialization.",
-  "actual_parent_schema": "exact-constraint-twenty-two-query-condensed-complete-H-warm-v1",
+  "actual_parent_schema": "exact-constraint-twenty-three-query-condensed-complete-H-warm-v1",
   "original_left_RMS467_retained": true,
-  "actual_parent_accepted_alpha": 0.0625,
+  "actual_parent_accepted_alpha": 0.015625,
   "existing_left_RMS_intervals": [
     466,
     467,
@@ -202,15 +207,16 @@
     480,
     481,
     482,
+    484,
     485
   ],
-  "actual_parent_warm_bytes": 4837630,
-  "optimizer_schema": "exact-constraint-twenty-three-query-condensed-complete-H-warm-v1",
+  "actual_parent_warm_bytes": 4849039,
+  "optimizer_schema": "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1",
   "current_entry_supports_own_schema_resume": true,
   "added_query": {
-    "kind": "collocation-midpoint",
-    "interval": 484,
-    "fraction": 0.5
+    "kind": "left-RMS",
+    "interval": 485,
+    "fraction": 0.17267316464601146
   },
   "original_left_RMS480_separately_retained": true,
   "parent_status_compression_alias_supported": true,
@@ -221,6 +227,7 @@
     480,
     481,
     482,
+    484,
     485
   ],
   "current_original_midpoint_intervals": [
@@ -279,18 +286,20 @@
     480,
     481,
     482,
-    484
+    484,
+    485
   ],
   "declared_continuous_support_expanded": false,
   "actual_query_endpoint_support_expanded": false,
   "declared_local_layout_equals_actual_B_column_union": true,
   "original_left_RMS466_retained": true,
-  "actual_parent_original_status_bytes": 2213797,
+  "actual_parent_original_status_bytes": 2532904,
   "complete_B_capture_support_unchanged_from_parent": true,
-  "original_midpoint484_explicitly_added": true,
-  "previous_twenty_two_queries_retained": true,
-  "initial_parent_uses_previous_twenty_two_schema": true,
   "original_left_RMS484_separately_retained": true,
-  "actual72_original_model_sha256": "09f1d116d03ba7f3a69b65e94550e72bcb8afce84ef72bb498b8aa24e57fbe73",
-  "actual_parent_public_directory": "notes/public-actions-43656584956-1-condensedqp/twenty-two-condensed-warm"
+  "actual_parent_public_directory": "notes/public-actions-43659610548-1-condensedqp/twenty-three-condensed-warm",
+  "original_left_RMS485_explicitly_added": true,
+  "previous_twenty_three_queries_retained": true,
+  "initial_parent_uses_previous_twenty_three_schema": true,
+  "original_midpoint484_retained": true,
+  "actual74_original_model_sha256": "75d3e63d4837a47816890ff49232aa43237b0b44d0531d63a6dbe57291fa2a26"
 }
