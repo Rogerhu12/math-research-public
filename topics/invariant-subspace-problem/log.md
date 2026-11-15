@@ -127,3 +127,8 @@ step19实际source c74ee7095cdb729b200fc0874e9a3fcb2d728cbb，外层660.17950019
 
 只读inventory实际0.025604906999秒核三个verified phase：2295×10 RHS、990×2常核、988²单位；无inverse，改仅新RHS分组接续。
 normal5源8c671b27已全文审及原小核/中断核验，排60秒/2GiB仅消H5且保全部H4/DAG。12:09:47本地实际pull至a934b45c，两README无diff；旧H全文归档。
+
+## 2026-11-15 12:16 UTC — 原normal5单位与786步精确高前缀
+
+step21实际H5 Q/F31rank1287、单位模31为18；30.715285713秒完成786个原H5精确pivot后触工作门槛，余501变量/950行，全部原H4及DAG保存。
+slot1 72645943B/SHA179b3645…，原小回执04efeded…；未记完整Schur或新头，优先核29原source零向量的同端点forcing配对。

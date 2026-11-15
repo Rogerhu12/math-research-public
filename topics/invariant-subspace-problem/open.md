@@ -111,7 +111,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原全矩阵4367×6188、泛秩4354；同选I,J为4354，常数Q/F31秩4318、36核。完整常左余空间和31单位规范已付。[自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)给33个完整原一阶头；[第二22头](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)给9≤Qβ2≤11，未证明24头或β2=9。指定D阶≥91、cofactor及原来源换列≥88；K99下条件来源费8627，原成员性前提不能删。
 
-normal4的[完整≤4包络](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)已闭：355.152873124秒完成130新单位RHS、166列残差rank144，交维0，全部95788原第二产品真，仍22头。任何合法normal≤4族的normal4分量均为零；normal5开启后须保H4η4+H5η5真实补偿。新130解/全残差/高核全部可复用；normal5高块入口已排60秒/2GiB，仅消1287个H5列、保全部1485个H4列及逆代DAG，双槽逐完整pivot续接，不重355秒解。完整第二仍[9,11]，未有24头，不按rank9启动第三页。
+normal4的[完整≤4包络](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)已闭：355.152873124秒完成130新单位RHS、166列残差rank144，交维0，全部95788原第二产品真，仍22头。任何合法normal≤4族的normal4分量均为零；normal5开启后须保H4η4+H5η5真实补偿。新130解/全残差/高核全部可复用；normal5高块实际H5 Q/F31rank1287、原单位模31为18；30.715285713秒已消786列，余501/950行，触150k工作门槛后全双槽/DAG可续。未成完整Schur，不重355秒解。先核已有29原来源零向量是否同端点/同J并直接配36forcing，以小矩阵给完整第二下界。完整第二仍[9,11]，未有24头，不按rank9启动第三页。
 
 [两端第五](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)各17个真头，完整来源公共53/47；零点K99=s53(s−2)9(s+6)9F+²F−²E8²。零点不假r1=4/β2=0。第六2GiB失败但已保存verified residual6188×7和top-kernel2779×10；其后常单位续接在外层660.179500199秒到限exit124、无数学回执；只读inventory已核新checkpoint仅有完整2295×10实际RHS、990×2常核、988²常单位，无inverse；不能记第六完整秩。下一按这些实际stage逐新RHS求解并全单位乘回，不重全逆。全程保3条顶层齐次自由、7条head、完整低核与全6188乘回。
 
