@@ -16,7 +16,7 @@
 
 103由同一failed73 BASE重新开始，首correction至多三次**原完整evaluate**测试base、−1ULP、+1ULP，全部576段/cut/far/sigma照原实现。只有实际norm同时严格小于fresh-withJ和noJ base者可作方向建议；无符合者使用同一freshJ进入完整R273。建议仍须原十档接受，选中后全拒保持原失败；后续均原完整R273。原32×10/η1/2e-9/全部域/finalJ/fresh audit不改，不额外设科学门。
 
-[103完整接口](notes/2026-11-15-native-full-noJ-neighbor-proposal-interface.md)已发布：proposal436cfde6/入口c8c072e0/独立workflow1e8316e9/request984290f6。仅每次方向消费后清自身临时snapshot/factor，保原最终链；实际QR失败先给有界真实错误/trace/hash，不能只剩通用退出消息。源/参数/实际输出hash留存，不归档可重算raw。H已补唯一“规则同步记录”行，旧监控器显式采用当前已读双README，实际每45分钟pull/rebase后可更新记录；尚无103实际结果。
+[103完整接口](notes/2026-11-15-native-full-noJ-neighbor-proposal-interface.md)已发布：proposal436cfde6/入口c8c072e0/独立workflow1e8316e9/request984290f6。仅每次方向消费后清自身临时snapshot/factor，保原最终链；实际QR失败先给有界真实错误/trace/hash，不能只剩通用退出消息。源/参数/实际输出hash留存，不归档可重算raw。H已补唯一“规则同步记录”行，旧监控器显式采用当前已读双README，实际每45分钟pull/rebase后可更新记录；真实103 run43681829913/job132713895446已通过全部setup并进入原科学步，尚无求解结果。
 
 ### 1B. 真实当前H、原FD与同live fullDN
 
@@ -40,7 +40,7 @@ R277两端链/高109消元与R278项目化/条件消元已直接入results；实
 
 [实际105结论](notes/2026-11-15-actual105-recipe-eight-accepted-restorations-compact.md)：run43680931993/source28b59a6f/job132711175414，38trial中30full3Armijo拒绝、8接受，前六α1/16后两α1/8，零评价异常。freshW13116.490604299248→11845.748285989865，父101末位不同如实保留。末p=[.4976392922339909,-.2670862030502635,.5984780843750176]，unit=[-144.75696204631936,52.31556662313988,2.0239218417525406e-9]，全部unit/full112/native仍false；仅外预算停止。原scalar声明域984叶、unresolved0和圆参考finite均只按自身范围。
 
-106从这次真实p/run/source/status2f8ad344/log-summary73774bce生成短recipe，以独立stdlib orchestration最多64次运行同3169：每次仍η=.01、8×20/12×20、同原所有门与freshJ。只有真实原budget stop且原unit未过才继续；异常/非预算stop/unitstop照原停止，无预设收敛。当前只完成接线，不能写未来结果。
+106从这次真实p/run/source/status2f8ad344/log-summary73774bce生成短recipe，以独立stdlib orchestration最多64次运行同3169：每次仍η=.01、8×20/12×20、同原所有门与freshJ。只有真实原budget stop且原unit未过才继续；异常/非预算stop/unitstop照原停止，无预设收敛。[106完整接口](notes/2026-11-15-request106-frozen-recipe-batches-interface.md)已发布：batch0805b44d/reader c5ce5766/workflowf9494887/request540a17f5，75主pins加2metadata支撑，child仍15。原45分钟真实pull监控保持；独立report job只给<90KB原标量与SHA，root不下载长compute日志。尚无106实际结果。
 
 ## 2. 接受场闭合、固定g与全t精化
 
