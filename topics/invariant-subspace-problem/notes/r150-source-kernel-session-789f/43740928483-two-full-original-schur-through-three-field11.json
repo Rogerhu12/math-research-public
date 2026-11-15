@@ -1,0 +1,416 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43740928483",
+  "stepId": "two-full-original-schur-through-three-field11",
+  "executionSourceCommit": "9ac3a153b890a05e12401941a8a0ba07cb042243",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-schur-through-three-field11-789f.py",
+  "scriptSHA256": "cf63ce85c10ca54bedd43cef99f6de41e78867aae2ae2e2b87046123e894bb17",
+  "argvTemplate": [
+    "--first-driver",
+    "{scripts}/2026-11-15-r150-two-full-original-first-connection-field11-789f.py",
+    "--first-native-source",
+    "{scripts}/2026-11-15-r150-two-full-original-first-connection-field11-native-789f.cpp",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--two-three-generator",
+    "{scripts}/2026-11-15-r150-original-comoving-two-coefficients-through-three-789f.py",
+    "--native-source",
+    "{scripts}/2026-11-15-r150-two-full-original-schur-through-three-field11-reused-native-789f.cpp",
+    "--parent-receipt",
+    "{scripts}/43740928483-two-full-original-first-connection-field11.json",
+    "--projection-receipt",
+    "{scripts}/43729338969-two-original-projected-order4.json",
+    "--parent-checkpoint-dir",
+    "{work}/two-full-first-field11",
+    "--checkpoint-dir",
+    "{work}/two-full-schur-three",
+    "--out",
+    "{work}/two-full-schur-three-out",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 230,
+  "exitCode": 0,
+  "wallSeconds": 5.424445270999968,
+  "fullTemporaryReceiptBytes": 10078,
+  "fullTemporaryReceiptSHA256": "e4c9fef8885e031d7a61ae523315d95c7a04c4c8a06be92e086a45d2f30e381b",
+  "result": {
+    "elapsedSeconds": 5.351822670999809,
+    "format": "r150-two-full-original-schur-through-three-field11-receipt-v1",
+    "status": "completed",
+    "parameters": {
+      "all22OriginalHeadsRetained": true,
+      "allFieldSchurOriginalRowsVerified": true,
+      "allMatricesTemporary": true,
+      "allNineGenericPositiveDirectionsCompleted": false,
+      "binding": "56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4",
+      "conclusion": {
+        "allNineH0TargetsLocallyInSource": null,
+        "allNineOriginalSquaresLocallyInSource": null,
+        "characteristicZeroComparisonUsesOriginal11IntegralModel": true,
+        "constantUnitGraphIsNot22LeftKernelJets": true,
+        "fieldGenericRankUpperUsesOnlyConstantJ3Denominators": true,
+        "fieldPositiveLengthNotAutomaticallyCalledQEquality": true,
+        "fullCharacteristicZeroLocalLengthExact": null,
+        "fullCharacteristicZeroLocalLengthInterval": null,
+        "fullFieldFreeRank": null,
+        "fullFieldGenericRankReached": false,
+        "fullFieldLocalTorsionLengthExact": null,
+        "fullFieldPositiveSmithExponentsExact": null,
+        "noOtherFinitePointOrGlobalPolynomialMembershipClaim": true,
+        "sameOriginalWQuotientLengthUpperBound": null,
+        "someOriginalMaximalMinorOrder12And11UnitLeadingCoefficient": null,
+        "wholeOriginalWLocallyInSource": null
+      },
+      "confirmedFieldPositiveExponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "constantGaussianEliminationRepeated": false,
+      "coveredFieldPositiveRank": 8,
+      "exactFieldTaylorPhases": [
+        {
+          "allOriginalRemainingRowsRetained": true,
+          "coefficientSHA256": [
+            "4c3121635e4b5ef6859d0a2da24a4c00b67eae5a2dead6b2da1f415cbcfbc4ee",
+            "b03bf73068c3ae701dd1188673f15a2d5c064e70022fbd29d62516d3cc841e14",
+            "72443ee9cb8c8c30d44b787b94d40c47a60b6f0da81748522e3aeaf940c62e7d",
+            "c9d077f68286f6bcf5ce63cde0b6a8e9f3127e2f183fde76ccd764081c709d23"
+          ],
+          "constantBlockZero": true,
+          "cumulativePositiveRank": 0,
+          "exponent": 0,
+          "positiveLengthSoFar": 0,
+          "precisionCoefficients": 4,
+          "rank": 0,
+          "shape": [
+            1843,
+            22
+          ]
+        },
+        {
+          "allOriginalRemainingRowsRetained": true,
+          "allRemainingOriginalRowSchurProductsVerified": true,
+          "allUnitConvolutionsVerified": true,
+          "coefficientSHA256": [
+            "b03bf73068c3ae701dd1188673f15a2d5c064e70022fbd29d62516d3cc841e14",
+            "72443ee9cb8c8c30d44b787b94d40c47a60b6f0da81748522e3aeaf940c62e7d",
+            "c9d077f68286f6bcf5ce63cde0b6a8e9f3127e2f183fde76ccd764081c709d23"
+          ],
+          "cumulativePositiveRank": 7,
+          "exponent": 1,
+          "originalConstantHeadUnitColumns": [
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17
+          ],
+          "originalRemainingProductCoordinates": 82935,
+          "originalResidualSourceUnitRows": [
+            5636,
+            5637,
+            5638,
+            5639,
+            5640,
+            5641,
+            5682
+          ],
+          "positiveLengthSoFar": 7,
+          "precisionCoefficients": 3,
+          "rank": 7,
+          "schurSHA256": [
+            "e02931e151d985edee60267130460a20fbbf8e90501d976ecc53d91525fc8489",
+            "e02931e151d985edee60267130460a20fbbf8e90501d976ecc53d91525fc8489",
+            "07378375bc502bfd713955f02b12a13747c2baf19527ee73f18687c3d7ac72fe"
+          ],
+          "shape": [
+            1843,
+            22
+          ],
+          "unitColumns": [
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17
+          ],
+          "unitConstantDeterminantModulo11": 9,
+          "unitConstantSHA256": "c2df68488cfbae76fb6a375f9c0d79ca9a879c950264deaa9a1896e82ab40011",
+          "unitRows": [
+            1291,
+            1292,
+            1293,
+            1294,
+            1295,
+            1296,
+            1337
+          ]
+        },
+        {
+          "allOriginalRemainingRowsRetained": true,
+          "coefficientSHA256": [
+            "e02931e151d985edee60267130460a20fbbf8e90501d976ecc53d91525fc8489",
+            "07378375bc502bfd713955f02b12a13747c2baf19527ee73f18687c3d7ac72fe"
+          ],
+          "constantBlockZero": true,
+          "cumulativePositiveRank": 7,
+          "exponent": 2,
+          "positiveLengthSoFar": 7,
+          "precisionCoefficients": 2,
+          "rank": 0,
+          "shape": [
+            1836,
+            15
+          ]
+        },
+        {
+          "allOriginalRemainingRowsRetained": true,
+          "allRemainingOriginalRowSchurProductsVerified": true,
+          "allUnitConvolutionsVerified": true,
+          "coefficientSHA256": [
+            "07378375bc502bfd713955f02b12a13747c2baf19527ee73f18687c3d7ac72fe"
+          ],
+          "cumulativePositiveRank": 8,
+          "exponent": 3,
+          "originalConstantHeadUnitColumns": [
+            6
+          ],
+          "originalRemainingProductCoordinates": 25704,
+          "originalResidualSourceUnitRows": [
+            5642
+          ],
+          "positiveLengthSoFar": 10,
+          "precisionCoefficients": 1,
+          "rank": 1,
+          "schurSHA256": [
+            "18bf5253e706791e30f0747e3749ab0759fafbf0776f080cd04afcdfb7b392ae"
+          ],
+          "shape": [
+            1836,
+            15
+          ],
+          "unitColumns": [
+            6
+          ],
+          "unitConstantDeterminantModulo11": 10,
+          "unitConstantSHA256": "83fb38777a0d9e4a4b38d7d21068cbfe18ef2802113ed2074342bc61f7708e1a",
+          "unitRows": [
+            1291
+          ]
+        }
+      ],
+      "inputSHA256": {
+        "actions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "firstDriver": "5033e098f01b7daf0b64e2c15291935c972c2459e1dc338c14887fdfde238e7c",
+        "firstNativeSource": "f2e5bf564781eb7dabce1a9c7c277389af65410b2f91adee996fc4274fa7df76",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "nativeSource": "a5b34ee383e2484421188dfd5317418aea2649779b09219271d90e28d72f6592",
+        "originalTwoThreeGenerator": "11b727a08cab142bc016c84eff61ad70360598c73334f39903b5bafd5aab36aa",
+        "parentReceipt": "aebdd169ec950f7eb4c17b7e9ac4dc30ecb205dfc6a2d9476af9d4d03ebc9d3a",
+        "projectionReceipt": "693da6446a6f04cba2c343ea49d9d3466caad1aebd056e91db338163b20d3332"
+      },
+      "memoryMiB": 2048,
+      "nativeBuild": {
+        "binary": {
+          "bytes": 126008,
+          "file": "schur-three-native-a5b34ee383e2484421188dfd5317418aea2649779b09219271d90e28d72f6592",
+          "sha256": "e45e903d6ade7174bc3490a63ecb11c28f783bbe50679b42166248c4b64a9638",
+          "temporaryOnly": true
+        },
+        "binding": "56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4",
+        "compiler": "c++",
+        "flags": [
+          "-O3",
+          "-std=c++17"
+        ],
+        "includedFirstNativeSHA256": "f2e5bf564781eb7dabce1a9c7c277389af65410b2f91adee996fc4274fa7df76",
+        "log": {
+          "bytes": 0,
+          "file": "series-native-build.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "temporaryOnly": true
+        },
+        "sourceSHA256": "a5b34ee383e2484421188dfd5317418aea2649779b09219271d90e28d72f6592",
+        "temporaryOnly": true
+      },
+      "nativeExitCode": 0,
+      "nativeResult": {
+        "allActualA1LambdaEntriesEqualPaidInput": true,
+        "allFirstSchurEntriesEqualPaidResidual": true,
+        "allOriginalA0TermsEqualPaidInput": true,
+        "allOriginalConstantProductsVerified": true,
+        "allOriginalResidualIdentitiesVerified": true,
+        "binding": "56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4",
+        "constantDAGRowOperations": 7696203,
+        "constantGaussianEliminationRepeated": false,
+        "constantRank": 4345,
+        "format": "r150-original-full-field11-schur-through-three-v1",
+        "mathSeconds": 0.935469372,
+        "originalHeadColumns": 22,
+        "originalResidualCoordinatesVerified": 544544,
+        "originalSources": 6188,
+        "parentBinding": "f33e3980c2fce162495692f24258b6d32ef00f782d9a1c2817fa054364237f02",
+        "prime": 11,
+        "remainingOriginalSourceRows": 1843,
+        "stages": [
+          {
+            "order": 1,
+            "reused": false,
+            "verified": true
+          },
+          {
+            "order": 2,
+            "reused": false,
+            "verified": true
+          },
+          {
+            "order": 3,
+            "reused": false,
+            "verified": true
+          }
+        ],
+        "status": "completed",
+        "targets": 4367,
+        "temporaryOnly": true,
+        "throughOrder": 3,
+        "unitGraphNotClaimedToBe22KernelJets": true,
+        "unitSourceResidualsAllZero": true,
+        "zeroFreeSectionFixed": true
+      },
+      "noLargeRecomputableDataUploaded": true,
+      "originalPreparation": {
+        "allOriginalCoefficient0Through2PrefixesEqualPaid": true,
+        "allOriginalParameterDenominatorsUnitsAt11": true,
+        "completeRationalPrefixSHA256": "a55fe6eda71ee8b00bdc15c58df6f1fe379f75d57b6f13aea699e886615cc30c",
+        "completeRationalThroughThreeSHA256": "b2a7c2a6dac9996ff0bce6abba8e781669f4e7eac65a9089741935ba2b73ee72",
+        "constantHeadColumns": 22,
+        "gAtTwoCoefficients": [
+          0,
+          -64,
+          -72,
+          -24,
+          -2
+        ],
+        "noPrimitiveRowContentDivision": true,
+        "originalFirstPureCoefficientRetained": true,
+        "originalSourceRows": 6188,
+        "originalTargetCoordinates": 4367,
+        "physicalCoefficientSHA256": {
+          "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+          "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+          "L_y0": "4529d6170835368a1264dd9e4b32d0d83dcedb73655171ce8ba30af37263b176",
+          "L_y1": "afc72953144442626cfa4f04f151291537872b08e849c949cea9fc07eaf67095",
+          "L_y2": "13338e0883525415ec7cebff1cb3d5f8b6b6aff14d0ac43b3047a08176d4a6e3",
+          "L_y3": "6fb2e5b0909b303f61e33415d3c8cb5d815ab7bf2f6b30c28f2caef59cc2d278",
+          "P0": "a16dae3b916dc5f74b37232c17b204f5322469a84e5ab4e7a17c34c4415c97f5",
+          "P1": "1cc7b6a78438f3db321fb3614cdcdf5e3a04e61f4f6292498efbcdb14e6ad4f3",
+          "P2": "2d42c705d68e7c226dfebe3cb33e8a8022f8638e7dc99097b48f0e6c26157b0f",
+          "P3": "0ca283847d45f3e1dd3e19725fce8d8d98226e1eb800f6909ea2ca3f77527df3"
+        },
+        "sameSourceOrderSHA256": "79fd970ccf67e90e567a4a07931efdb71a2cbc04f1af349a734745c9c80a696f",
+        "sameTargetOrderSHA256": "d81c4c12b09e8eb1d9f410c5d0c9047b1d8ab7df8ae882f5c7b743e926fb21ee",
+        "throughOrder": 3
+      },
+      "originalSeriesInput": {
+        "bytes": 3633604,
+        "file": "original-series-input-980a6008a41b904b3802cd71c56d49a65651422534d62ebdd265037e674dc0db.bin",
+        "sha256": "980a6008a41b904b3802cd71c56d49a65651422534d62ebdd265037e674dc0db",
+        "temporaryOnly": true
+      },
+      "paidFullConstantRank": 4345,
+      "paidFullGenericRankOverQ": 4354,
+      "paidTrueProjectedLength": 12,
+      "parentBinding": "f33e3980c2fce162495692f24258b6d32ef00f782d9a1c2817fa054364237f02",
+      "parentExecutionSource": "1afe6663ad5c208b07e8ccfd6deea582782acd9f",
+      "selfSHA256": "cf63ce85c10ca54bedd43cef99f6de41e78867aae2ae2e2b87046123e894bb17",
+      "sharedSeconds": 180.0,
+      "temporaryNativeFiles": {
+        "complete-original-schur-through-three.bin": {
+          "bytes": 165958,
+          "file": "complete-original-schur-through-three.bin",
+          "sha256": "c18ee7ee294ce11f558516a7e4dff4ee396b5b3f0af5ad0376c25efd4a601b93",
+          "temporaryOnly": true
+        },
+        "complete-original-unit-graph-through-three.bin": {
+          "bytes": 384384,
+          "file": "complete-original-unit-graph-through-three.bin",
+          "sha256": "b5e929ac6f3a5f3d8b2b9df4d560159285d878857b2c434ebee4f02f71621f2a",
+          "temporaryOnly": true
+        },
+        "native-original-schur-through-three-receipt.json": {
+          "bytes": 1033,
+          "file": "native-original-schur-through-three-receipt.json",
+          "sha256": "439e53bb87689db5bafd25f3ae802ece6dcc476688a2c67d1d5c7f90836a7981",
+          "temporaryOnly": true
+        },
+        "original-unit-graph-order1-56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4.bin": {
+          "bytes": 136712,
+          "file": "original-unit-graph-order1-56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4.bin",
+          "sha256": "e4a0d97ab0ae34d4376babceae7aa976a3b0d482002caf65ef6b62a00f87d62b",
+          "temporaryOnly": true
+        },
+        "original-unit-graph-order2-56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4.bin": {
+          "bytes": 136712,
+          "file": "original-unit-graph-order2-56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4.bin",
+          "sha256": "400c98751b073fd9d1869acfcdb6dfe372e79ec9a0da914c16d0086a2d7f2fce",
+          "temporaryOnly": true
+        },
+        "original-unit-graph-order3-56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4.bin": {
+          "bytes": 136712,
+          "file": "original-unit-graph-order3-56c8b50a909bf2bb163e80734890bef26d927b5a7b7491e1d7dbb1b74d0dbdb4.bin",
+          "sha256": "1ed1f5610d8ac9d24680f91f7b6836cfd3ef270f1ab4f118785bc5233beb3422",
+          "temporaryOnly": true
+        }
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 17:55:00 UTC",
+      "beforeReadCommit": "dc3e9a4ca97cecbb4e9774bc238c7701d5851b12",
+      "originMainAfterPull": "9ac3a153b890a05e12401941a8a0ba07cb042243",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 17:55:06 UTC",
+      "beforeReadCommit": "9ac3a153b890a05e12401941a8a0ba07cb042243",
+      "originMainAfterPull": "9ac3a153b890a05e12401941a8a0ba07cb042243",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 15,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 5146,
+    "logicalJsonSHA256": "368f68a933e442859df1a75d3e0f6ae3bb41b6c5fd0d7bdfe9f16b64f2b4369c",
+    "itemCount": 15
+  },
+  "lastRulesReadCommit": "9ac3a153b890a05e12401941a8a0ba07cb042243",
+  "summaryExcludesRecomputableArraysOnly": false
+}
