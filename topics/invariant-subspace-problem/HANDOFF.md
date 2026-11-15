@@ -8,17 +8,16 @@
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
 
-## R150：29显式核、完整36维常核及原目标成员性仍开
+## R150：完整常数核36，指定60阶与原成员性仍开
 
-全部此前来源/路径/未列缺口保[本次完整H](notes/2026-11-15-handoff-before-true-two-fee-counterexample-789f.md)。原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。
+原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。全部旧状态/输入身份保[本次H](notes/2026-11-15-handoff-before-smith-formal-curves60-789f.md)，未列缺口不关闭。
 
-- [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九费1339；全原来源/输出/carry真。有限精度不付Q[s]成员性或固定B/e无界精度。
-- [标准1632 Koszul族的同J支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：原1603单位块精确解及全部1834残差真，29列全6188/4367乘回；并旧23仍29。全族原来源注入/31饱和已付，投影不保J。
-- [29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)：top29 mod31单位、bottomQ全0，W∈Z_(31)，前29全有真规范核。删前29自由列保Q列像；七维补空间存在已由新585投影付清、尚未显式构造；同选full及square Qrank均恰4318。旧六规范源分母2356…3803bit解释p768重建不成；旧闭包/LLL/盲加位数不重开。二次skew亦不扩标准族，高系数未排。
-- [双图连接4与有限K70](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：实核0.395984889秒，∞β_Q恰4、s0≤4；两端公共阶至少24，K70=s10K60、lc=5^6是31单位。原Q[s]成员性、lc(D)单位及固定e全精度仍开；同选当前费用见下条。
-- [full∞第二连接纯消去与公共31](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)：0.251053230秒，38×10纯包络全零、1700原校正真；20真实左二阶jet使β2≤3，十四正Smith中4个=1、≤3个=2、≥7个≥3。完整δ4354≥31、δ4353≥28；未付恰值/leading单位，不能机械加指定阶。
-
-- [原585投影556、完整4318及50阶](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)：2.801993869秒，954源/17386项全乘回，29完整左核；I删3行仍556。full/square Qrank=F31rank=4318、核相同36维；原单位子块给完整36图核在Z_(31)存在且唯一，旧p768全同余。显式仍29；前32×7包络零使全36可full一阶提升，D/换列/cofactor≥50/49/48，K70成员性条件cost8695、目标8461。常数饱和不付参数leading单位。
+- [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九费1339；有限精度不付Q[s]成员性或固定B/e无界精度。
+- [标准1632 Koszul同J支撑交恰29](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)全1834残差/29列全4367乘回真；原来源注入/31饱和已付，二次skew降次不扩该族。旧LLL/闭包/盲31加位不重做。29核均有同自然u的完整无极点精确Koszul曲线，只有常项须支撑J。
+- [585投影556、full/square常数4318](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)：2.801993869秒，954源/17386项与29左核全验。Q/F31秩均4318、核相同36；原31单位块给唯一完整规范Q图在Z_(31)存在及旧p768同余。七补空间存在已付，显式仍29。32×7完整第一包络零使全部36可full一阶提升；不称额外七条已获精确形式曲线。
+- [完整第一连接与K70](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：∞β1_Q=4、s0≤4，有限K70=s10K60、lc=5^6是31单位。[∞第二纯消去](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)实算0.251053230秒，38×10包络零、1700校正真；β2≤3，完整δ4354≥31、δ4353≥28，未付精确Smith/leading单位。
+- [完整Smith×29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)严格给指定D≥60、原来源换列≥59、cofactor≥56；任意analytic目标换列只能直接用56。K70下q245…8640，原成员性成立时成本≤8685（非基8684、目标8453）。不是把31与旧50相加，也不把常数核36全当formal核。
+- 继续同I,J自然u的真实Schur页及原九目标Q[s]成员性。常数31饱和不付参数首项单位；原mod31的315次gcd只付degD下界，不提升成char0公共因子。
 
 ## 同w边界：同源完整返回仍须费用估计
 
