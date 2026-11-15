@@ -90,3 +90,8 @@
 ## R418 — 同一准确C完整闭面相对度量消费者
 
 [R418](results/R418-current-C-complete-closed-relative-metric-source-interface.md)及49975B/28b7245a独立源已全文核：直接绑定R416准确cut场、R400同一十族DAG和R417两帽，公共u前缀与原C径向目标分明；原C结果/输入/query plan/query results四小原件及现场binding逐字核，逐项核原C有效闭域、自然Rout下界与cut包含，不以B′代E、不以work_resolution作新门。全部112/两反射/每原piece/零mean/材料混合项保，原a601四严格Loewner与闭DFS覆盖、预算前保当前格/栈/未访rank；帽同图metric恒等并保全phase材料平移。固定C查询盒不会随空间分格自动收紧，重新精化并重绑同语义C尚未接跨run接口；不作终止保证。单≤90KB必要/原raw仅own RUNNER_TEMP；源无运行、实际450/全闭metric/reach均未接受，R422接完整曲率/normal-pair条件责任。
+
+
+## 2026-11-15 — Request198：实际194返回十词的完整原门续算
+
+[198完整入口](notes/2026-11-15-request198-actual194-returned-owner-full3-continuation-interface.md)七件全文/完整diff核后发布：实际194双路径返回的554B/9732bd60十词逐字作为fresh初猜，父61接受/partial和initial60FD齐、末60/Arb/453未起明确；不继承J/FD/接受状态。旧120+15 pins逐值保→121+17，消费闭包50→51；两段核心续算函数逐字同，原固定actual157 S/半径1、16×8方向/20α/3×20法向、2400总钟及全部120FD/Arb/453消费者不改。单90KB保所有原地址/计数/错误/未访，原静止与完整读回后清理保；无新科学门或本地执行，root唯一R421待真实结果。

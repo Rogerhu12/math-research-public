@@ -61,6 +61,8 @@
 
 [R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，方向61仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
 
+[198完整入口](notes/2026-11-15-request198-actual194-returned-owner-full3-continuation-interface.md)七件全文/完整diff核后发布：实际194双路径返回的554B/9732bd60十词逐字作为fresh初猜，父61接受/partial和initial60FD齐、末60/Arb/453未起明确；不继承J/FD/接受状态。旧120+15 pins逐值保→121+17，消费闭包50→51；两段核心续算函数逐字同，原固定actual157 S/半径1、16×8方向/20α/3×20法向、2400总钟及全部120FD/Arb/453消费者不改。单90KB保所有原地址/计数/错误/未访，原静止与完整读回后清理保；无新科学门或本地执行，root唯一R421待真实结果。
+
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 
 ### 3A. 六primitive、完整cut及深112
