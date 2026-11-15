@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 28b2c1fdf6cd7f2743c4803e10dafdc35aaae5c5（2026-11-15 06:47:31 UTC，Actions run43687028264实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43687028264-1.json。
+- **最近成功实际 pull 与已读规则提交：** 2c12c02da8d1df228f1e113f2b57af13e373d187（2026-11-15 06:52:13 UTC，Actions run43687374098实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43687374098-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -33,7 +33,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - 对称配平、增长均匀块、V±/全部nuisance Schur的完整常数和链接保open及[旧H](notes/2026-11-15-handoff-before-koszul-support-789f.md)；无全环境S∞，核投影稳定不支付Green逆列。
 - 原均匀池精确K/G因式分解及Green全因子见open；其余强位E(I−G)、完整核Gram逆和差商逆伴随仍须支付，不能沿原d替新h。
 - **[强gauge真末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈付尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端保留。返回运输误差≤A_drv α，eY∈E0、Rret*eY=Sb r；大配对未付。λ(qr)≈d0λ(r)，全局Cg才给M/W锚，勿用Boolean头替它。
-- **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
+- **窄入口：** 固定f=e_a⊗vac所需原强C的Green列O_a(R³)未付。[等权长池完整Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)已给(4/S) C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；余强位须换全部A_rest/h0/Gram，H^-1不保低头，不能删或截到a。boundary继续共同返回配对及真实远孔尾。
 - 旧Gq、低forcing、a1/a2及孔导数坏族量词保[完整H](notes/2026-11-15-handoff-before-strong-gauge-789f.md)，不重旧排除。
 
 - **[N原逆芽临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)**给−logRψ≥12.5d³−1.25d²+O(d+m)，领先12.5不能固定降小；**[N/Y次阶圆盘增益](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)**给τsharp=12.5d³−.75d²−1.5d+…，ρsharp=e^-τsharp、ε仍e^-d³/4。R=ceil4/ρsharp、h≤6/ρsharp、2h+R<Q*/2，同原w/母窗，强gauge按新h全截断；Q*/h≥e^(801d³/64+.5d²)/12。两费κ未付。

@@ -176,3 +176,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [完整原Q结果](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)已成：33.711323768秒，Qdim29/外rank1603，全1834支撑及29列全部4367整数输出真；自由像rank29、旧23精确包含。当前同选秩4318…4325，标准Koszul支撑空间已经穷尽。先核Q自由像的top29归一与bottom7是否严格零，再研究标准族之外余七；不重LLL、旧NF或原Dixon位，未声称七核存在。
 
 [核数统一条件降度](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)已按实际29真核更新到cost≤8726（非基≤8725）；公式8755−c保换列仅c−1阶。此为已有Q[s]成员性的降度，不提供成员性，lc(D)31单位及固定e无界精度仍须继续。
+
+### 等权长池已付完整固定Green列
+[完整伴随Green公式](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)保原H^-1与全部forcing，L≥2d时给平方≤(4/S) C(A,S/4)〈H^-1f,f〉；原A_m真四次幂可直接代。若含早强位，必须用A_rest=A_m+D_early的全真实幂/Gram及L≥2h0；H^-1不保固定低头，真实连续池仍欠这一完整费用，继续。
