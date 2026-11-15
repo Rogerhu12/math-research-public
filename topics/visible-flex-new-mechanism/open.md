@@ -20,7 +20,7 @@
 
 从512de及全部4240/1310行固定新硬曲率门Λ58，恢复首个度量目标13/50=.26，旧已合格预算167/625。显式交换目标和约束角色，不称原55已过或.26已到；同g/b0/163/primitive/高度均值384保持。
 
-新独立19输入consumer须将fine7组扩为11组，完整Xss/Xst/Xtt参数导数，旧ID不重排。metric±软恢复不能把初始全网目标违例全部添池；用真实分离和实际η峰补行，hard2..10遗漏全补。所有接纳真实两网硬门、κ≤58、旧budget并使maxη严格下降；只有新budget及直接误差全过才称.26达成。完整三源及19输入loader已完成，[实施说明](notes/fixed-curvature-metric-budget-recovery-implementation-20261115.md)及新增人工32.630s通过。本提交single metric_budget_recovery派发，78参数含19个原SHA；soft SOC真残差与预测slack区分，native summary保全表。待实际消费；仅公开Actions，不扩旧预算或重跑旧实例。
+新独立19输入consumer须将fine7组扩为11组，完整Xss/Xst/Xtt参数导数，旧ID不重排。metric±软恢复不能把初始全网目标违例全部添池；用真实分离和实际η峰补行，hard2..10遗漏全补。所有接纳真实两网硬门、κ≤58、旧budget并使maxη严格下降；只有新budget及直接误差全过才称.26达成。完整三源及19输入loader已完成，[实施说明](notes/fixed-curvature-metric-budget-recovery-implementation-20261115.md)及新增人工32.630s通过。实际43667582193/source4144ca75已派，78参数含19个原SHA；soft SOC真残差与预测slack区分，native summary保全表。待实际消费；仅公开Actions，不扩旧预算或重跑旧实例。
 
 ### 仍须支付
 
@@ -49,6 +49,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 - R146完整商协变将五族314条目缩为80个ω0起始记录，后继ω_j=N^jω0/j!模R。R154再由真实反号与k次数≤6的七点插值，给h1/ω0/k0,1,2,3共20状态值的正仿射轨道生成全部五族。20不是维数/实际控制/有限点正性；一般pure成员亦可如此缩减，但不盲扫。
 
 ### 当前真正的完整商与正性任务
+
+[R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。下一直接联合a(1/2)和全部Q2错误奇偶±行继承旧系统，不先派缺此已知关系的中间singlecut计算。
 
 [R167](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md)给完整最高层有限充分证书：四单项Z的常4×4 Gram加两个真边界参数，PSD及R148轴向门即充分。后继点若取得准确证书可转低层/真实关系；Gram不可行不等于有负路径，不为已排旧点重测。
 

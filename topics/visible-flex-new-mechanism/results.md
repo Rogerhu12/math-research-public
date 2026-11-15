@@ -359,3 +359,5 @@
 - [R166：首个有限外候选的静态负方向](results/R166-static-negative-direction-of-the-first-finite-character-candidate.md) — 从已发证书只读完整14正规多项式、23自由坐标与唯一μ，得a(k)=−k²+k⁴+k⁶，a(1/2)=−11/64。h1/k1/2/ω常值是真水平路径；固定连接及N个完整frame周期的全修正action=E−11Nτ/64，足够有限N严格负。只排这个外点；后继只加a(1/2)≥0一行，不重建旧124/63/六积分或宣整权无字符。
 
 - [R167：完整最高层四单项Gram充分证书](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md) — 任意h共轭k=e^r y，Z=(y″,r′y′,r″y,(r′)²y)，完整I4=I0+∫Zᵀ(G0+θN1+ηN2)Z。全部10矩阵元素与f项/两个null边界导数准确列出，平端各项零。4×4 PSD配a≥0、ℓ+25a/9≥0充分证明全最高层非负，蕴含R165频率门；未证必要，Gram不可行不授反例，未付低层或外坐标良定义。
+
+- [R168：完整反射低层奇偶与四条真实头部关系](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md) — R145真h正反射与λS=λ、全开路径端点纤维给Γ缺陷β#；μ′=μJ8−β#在正仿射群共轭下仍协变，权−2唯一性迫完整修正action不变，不先假正性。β#=−4a_static(1)E_p2*，静态缺陷2a1kh保留；δ分层/微幅路径给b0,b2偶及b1奇。原ν26/41/61/67=0，有限维对偶分离给四Vi∈R−2+NU−1；不宣原R成员/独立rank或signed control。
