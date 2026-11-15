@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** ba5542fc4ce37b645df73e16da675d5c20dc750b（2026-11-15 21:07:38 UTC，Actions run43761912595实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43761912595-1.json。
+- **最近成功实际 pull 与已读规则提交：** 71e0366d788d1b47e60d64765a3169d2215bc6e2（2026-11-15 21:09:45 UTC，Actions run43762104541实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43762104541-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -17,7 +17,7 @@
 - [原∞P完整61](results/R150-appendix-infinity-original-projection-exact-length61-and-full-length-gap-five.md)：谱 $1^4,3,4^3,5,6^2,7,8,10$，保54真实eq8/u²，1342796新产品及668304第五复核。[常高完整核](results/R150-appendix-infinity-complete-high-constant-kernel-two.md)全5100×3762 rank3760/两Q列10200乘回，normal4/5校正穷尽；31单位图不自动给164/494规范Q基整性。
 - **[完整∞有理谱已闭合](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)：** 第十1088×601 prefix578/580/592/593，kernel8/head1/full14、β10=1；952952原十一层产品全真。全正谱 $1^4,3,4^3,5,6,7,8,10,11$，full66/sub55/max11、AI68、T∞长5仍只u5灭杀。4340单位/13自由/右核1834；不用再算第11定谱。完整higher incoming与12入射类均保留；与F31全有序谱相同的整性推论另证。
 - **[完整D31 Smith与同E202核](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)：** Q/F31全有序谱同，逐单位Schur后仅对整块零常数除u，得Z_(31)[[u]]真Smith、完整右核1834自由/良好约化。原1632 Koszul直和及同E216的14方向全退出给K202自由；同原202 freeI经Nakayama为单位，已付其规范D31核存在性，未声称新Q数组实算。原十三Q左核仍λI=2/80444产品；旧O29…149与高商F31长26及旧D leading单位仍开。旧D权8770/阶130…243/次数8527…8640，vD=full+2+σO+δhigh。
-- [射影gcd381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)配∞66给Δaff≤315、R=Δaff/K158次数≤157；K158=s66(s−2)12(s+6)12F+6F−6E8⁴。[全局删二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)给h*=h0/(s−2)与h0成员性等价、R(2)≠0；九Rh*tj全局来源、总乘子≤180。[同九费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)保原输出，当前三支8526/8531/328；实际R系数/高度/31分母未算。
+- **[完整仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)：** fullQ/F31∞同66与原齐次Gauss给Δaff首一∈Z_(31)[s]、约化不掉次数且整除field315。K158首项5^16单位，故首一R次数≤157，barR|(s−2)^16(s−1)^3P+²P−²E6Q60²；R(0),R(−6)为31单位，R(2)仅已付Q非零。monic Rout/Ω/M/U同31整，实际系数未求；仍不付原来源31分母。九Rh*tj总≤180/费8531，三支8526/8531/328，h*=h0/(s−2)与原候选成员性等价。
 - [最小目标湮灭式](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)为 $s^3F_+^aF_-^bE_8^cU$，a,b≤2/c≤1，$U\mid R_{\rm out}$，U/Rout与Σ0=s(s−2)(s+6)F+F−E8互素。U是否1仍开。[外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)付Ω|Rout、U|Rout/Ω，d=degΩ≤157，M=Rout/Ω给九Mh*tj全局来源/degM≤157−d，总≤180−d；同I/J/B与K158Ω给统一来源费8531−d、第三328−d。Ω实际未求出，不预填Q60。
 - [原P符号56×22及实际core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)：Σ0外分离120单位/13自由，保全部Γ、全部22子式gcd准确为ΔP外支撑。run43756208221/11.513223331秒实际核原17式、P0/P1、224×13自由核、双H9、63×22及119×22graph。仅剥已知单位后641非零/degree126/位数409与213；逻辑SHA752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8。
 
