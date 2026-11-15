@@ -16,7 +16,7 @@
 Latest complete child stdout record; this is not a terminal certificate.
 
 ~~~json
-{"complete_error_H3":{"-1":"[2.676497266078261 +/- 1.81e-17]","1":"[2.676497266078261 +/- 1.81e-17]"},"exact_radial_cursor":"6102377495087023/72057594037927936","new_subcells":9512,"original_interval":768,"stage":"new-complete-nonmean-transport"}
+{"complete_error_H3":{"-1":"[2.735692533431341 +/- 2.71e-16]","1":"[2.735692533431341 +/- 2.71e-16]"},"exact_radial_cursor":"2439449798159019/36028797018963968","new_subcells":10024,"original_interval":640,"stage":"new-complete-nonmean-transport"}
 ~~~
 
 The one declared new scientific child is active or preparing. No terminal H3 constant is asserted.
