@@ -127,19 +127,15 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R330](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)对R324最终实际正解析prefactor包用z=p^(2/3)找到Af0且p,r>0的真点。原K=−r⁴/3−2Lf(Puu)/3，保真实尾/平台修正，通量精确−8a³(a²−b²)r⁵/45；两个对应实际copy与δK给−10ρ0⁵ρ1⁵C²(t1−t0)非零。成本−8/−7保R323十self；R297其余8T单位作真有限Laurent投影后，20×20块三角联付wholepure/十self/整T/两flux。R222/R302保所有基准与固定芽/profile/点，改变全局geom后用真实m*重取wc，flux规范不变。全T0只把平台化成逐q_i0，尚未付全部q/Ve/其他点/原特解/13同行；R335续原整包总flux而非再数行。
 
 
-### 新数值入口：精确物理转移与跨中心norm方向
+### Norm-memory首实际已付，下一同trial扩池与完整SOC重绑
 
-[已读设计](notes/norm-direction-memory-and-exact-transfer-design-20261115.md)和五新源码首次推送公开Actions。原方向可在任何新中心作支持平面，但必须用当前e/f/J/trust重建；bank512，原12LP/40值/120s不变，SOC保原primary。直接读原exact159/163+H恢复九referenceheight，当前切向reference只变metadata tag并核原物理/g/b0；明确新池为24输入∪原六模型可见tags，完整旧后期pool缺失不冒恢复。新人工仅改中心旧A/b失效反例/精确输入/seed账本等新接口；0旧优化/开发重跑。新actual完成即消费完整两网、失败/SOC/费用并推结论，未完继续真正剩余问题，不仅续预算。
+[第一次完成实际](notes/norm-memory-first-actual-result-20261115.md) run43741276060/c30e7ea：准确同物理159/163/g/b0/H，明确新行池；12旧开发复用、0旧optimizer。11模型/12primary/0SOC、8接受使两网η.266381717617→.266366277975，原14门/精确盒过，fineκ57.999993600，.26仍未达。bank原ID/单位球方向7→9，每中心现算e/f/J/trust，无旧A/b；active38.005s而process159.689s，112.835s audit非active差未细分。m1/5/10先因新行退回，m5/10只是metric soft新增但已有曲率行产生真实非线性违约。下一明确新算法应保原failed trial和总步，对扩池原base/J/primary重绑后才SOC；不能跳过layout guard、改g/原门或只补预算重复。完整11模型/费用诊断接着记录。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R330两partial flux只保十个self，不能与本全E控制直接相加；具体δK的全Q可能非零，须真联合kernel/增强控制。R335继续原Ω完整Green尾，不以Q0冒全mixed或period0。
 
-
-### 数值首转移接口失败已定位并窄修
-
-[原实际与修正](notes/norm-memory-first-transfer-interface-result-20261115.md)：run43740751558十二新接口通过，准确物理identity通过；g gate把外层模型对象hash错比内数学定义hash，新优化尚未进入，0旧optimizer。按原API改核mathematical_definition及其原SHA，b0单独核。下一运行核110未变依赖/被测恢复函数源码并复用12人工，只继续真正未执行的新数值求解；不能把该metadata异常当g漂移或算法实验失败。
 
 
 ### R334：新A−1−3三矩全付，继续第三面积而不重复已付门

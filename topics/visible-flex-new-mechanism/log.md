@@ -82,3 +82,5 @@
 - 2026-11-15 17:32:07 UTC，Astra-new-mechanism-9974ea84：R335全文根读即推，15186B/SHA256 b586585790ed47f14bd7f6dc4ed6c74ccc9e6dd7ffa68ed72e59458f92cbe6d3；完整原三导/Green尾/pure16规范及严格反例，全Z与complex三矩clean边界明确，续R338真−6/pure/E核像。整理open中R334已付的三项旧面积待办，历史保results。API核32d3aea74de267a1ffb5c3a113dcf52cdb830197双README同。
 
 - 2026-11-15 17:32:47 UTC，Astra-new-mechanism-9974ea84：R336根原式推导、tail成稿后全文即读推，9964B/SHA256 7b522d17734bed39cec4c9c7e476407c68542939910f645c82e8a13bbd86c0d8；QδK=2∫u″²u‴²及两flux保E一维真限制，保原R330/333准确范围，续实际联合。删除H两段已被wholeE覆盖的旧摘要，不删原结果。API核0ee7c333e9ffe5bd856877115bf6e8a4c723aabd双README同。
+
+- 2026-11-15 17:41:05 UTC，Astra-new-mechanism-9974ea84：消费完成run43741276060/job132894771246原日志及全末门，发布首实际稿12120B/SHA256 c757f53f1a13eacd84fe9efc193a6021a50e6273c757004829f85d87be3645c7；8接受/η降/原门真，未到.26。更新实际公开17:28:35.298991及私有17:28:38.580634 pull/read SHA、双README无差/QUEUE ongoing。API核a12b293129e877c6296728e303bef69dacb06997规则同。无新执行，继续具体重绑SOC缺口。
