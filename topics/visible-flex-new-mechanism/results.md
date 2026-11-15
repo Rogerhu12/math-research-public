@@ -438,3 +438,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R358：真实速度—加速度成本的非零总通量商类
 
 [完整证明](results/R358-nonzero-total-flux-class-of-a-true-velocity-acceleration-cost.md)，18792B/SHA256 14f7bf0f5d56fd861fb1f1aeea1aea6795ec2914aeb618d45f13727ef6eae799。原H1/H2在S*=(1,1,1)的V*=−2H1−4H2属于实际U；完整第二history导数A_s=m2使c2准确归约，ZZ原P/B两项与两真ordered尾全部保。完整速度curl的ε−9系数=−∫u″5/15360，经15/4正规因子及原affine真权得**Λ(Π−7V*)=−∫u″5/57600**。三个不交真实偶bump的r=u″零0/1矩且∫r5>0，故实际U/R非零。不是正成本障碍、不是指定路径实现或全部period不解。root全文读原R56/R73/R76/R129关键链，手核a/m2、ZZ尾、完整curl及三IBP/真权因子；原少ZZ项的未发正号草稿已纠正，无新增执行。
+
+## R363：自然总通量的一维真实双向控制与完整低阶、空间闭合
+
+[完整证明](results/R363-actual-two-sided-total-flux-control-with-zero-lower-history-and-spatial-closure.md)，16387B/SHA256 f261a463130c68661d8c74ed489ab50bc0766220251442f0033e3eacdaa1932a。选R358真实u使H̃γ非零，任意ω下界S_B上全状态AbarΛ0。真实h/d微段γ=εψ/τ、δ=εσψ′/τ、τ=ε³ᐟ²给M=O√ε/frame近I/端scalar近S_B，Λ局部积分ε⁻³ᐟ²(cσ+O_C1ε)；所有静态/二次/四次与N0/N2费用保。R354/R70同一finite光滑桥准确回germ/frame/M0、费用O_C1(1)；仅此后用R109真history商，再整块真倒行使T0/第四2倍。单一finiteε下σ导数非零，任意Λ值和紧集光滑实际截面成立。固定M=T0frame桥/Klein词准确闭空间位移，完整基准保。非负幅拼接全真实；只一个Λ读出，不把U/R=全1维、全成本正锥或wholeE联合门冒已付。root读原R70/83/109/130/134/210/354，mechanism核ψ偶及h,d来源；无运行。

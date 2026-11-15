@@ -19,9 +19,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**Norm-memory**：run43741276060/c30e7ea/job132894771246同g/b0/H/159/163，11模型12primary/8接受η.266381717617→.266366277975、bank7→9。m1/5/10新行退及m5/10曲率失配保原note，不重旧优化。
-
-**扩池SOC实际**：[原结论](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/job132905938795/5fa2424，10新检查过，117/119依赖/原cfg及原9bank准确；7接受、9primary+3旧SOC，η.266366277975→.266347520761、fineκ57.999988521；原门/盒过，.26欠。新expanded生产0，下降非其效果。m3/m7细网新行、m2/6旧17guard，末bank11/B1/8000/streak0；完整费用/首fixture只读失败保原件，不重。
+**既有数值主线**：norm-memory与扩池SOC前两轮均已读实际，旧检查不重。run43744903357主线7接受/12LP使η.266347520761，bank11、池4418/4188、B1/8000；其expanded生产0，下降非新法效果，原失败/完整费用保notes。
 
 **m10扩池SOC首成功**：[结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66。已付same-y/xrebind普通值0、8193×159真J、原RHS唯一SOC，历史ηz .266365153176/fineκ57.9999833915，原门过/.26欠。旧hold仍false：标签1/字段5/版本1/真学习1；y学1/1、z0/0、扩池ratio.937958；原三失败保。z差于主线best，不重m10。
 
@@ -35,9 +33,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **旧强圆/安装边界**：R283–305有限N全third/72面积/40–42门仍真，但R304完整C²排不交rank-one类，不再增频。R297真9单位/R302全词倒行增强IFT保原文；M0固定τ可漂，不授全q/实际逆元；芽/Morse/Klein通常换seed/g。
 
-**R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→左二次尾Q权σ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323响应左二次尾Q在−8为0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
+**R314–333完整pure/self**：全self=九T有序项+局部Euler六jet忠实坐标，真权σ→左二次尾Q权σ−2。R316 H*为π0/全Q0/λ+1，13核self rank7旧实际已付不重。R323全Q−8零/−6二维/−4八维闭锥覆满；R333消费run43740129876的C4/C6 MEMBER与fresh差，原R126编号保。仅E(U0)=E(R0)维10/零权商0，非全权等像。真实商截面/全部原型桥基准/有限复制收缩给E(S)=E(U)、紧集C1截面；wholepure/wholeQ/T0可付，非任意不相容积。λ仍正，mixed/period/同规范仍欠。
 
 **全period/joint**：R184/185/221/225原iff保G″平台/逐活动flux/C∞端germ与双collar；p简单零可二阶极点、六矩核。同w两period/ruling及45span/48×135只是iff。R335真尾5Ω−16Lπ=4C_tail不可删。**R344全R**（含全Z）：有序8Γ=q_J、h_J=3C，三右bump矩匹配给Ω=16Lπ/5+(32/15)Σc∫u‴Γπ，R∩kerπ总Ω0。**R352全U新桥**：原二阶左尾T_n由p_n=[(1+d²)n0+2hdn1+h²n2]/8h及真∫(K0p−λp_s)决定；rawpure有序2+2=−2K(Zu,Tn)−4K(Yu,RangeH(Yu,Tn))。Γ严格线性于右包真三矩，整个输出不依赖辅助方案；自然Λ_u∈(U/R)*、五次profile、Λ(NV)=−D_uΛ[u′]，不是全U零/非零值结论。R342 C7固定族零仅限该族。**R350**原三个Abar_hh/hk/kk全状态Λ0：a′=Qlu‴/(8h³)，原qq″伙伴β完整保，ΩΠ=5Ωself+2a_Lj_L/h²；2+2收缩−3a_L(v)j_L(u)/h²与真三矩尾抵消。原R134成员/跨度保。**R356全U最低两层**：从R203原动态恢复保b′=C/真实端势，Σ(U−9)=0，Σ(U−8)⊂span{TR,r4}，TR=4J²(r²r′²)−4J(vrr′²)−r4保非零仿射左尾；外u‴配对逐项IBP零。R203真权/faithful桥和π两层0给自然Λ(U−9+U−8)=0，非U−8=R。**R358真非零商类**：S*=(1,1,1),V*=−2H1−4H2，完整c2保A_s=m2、ZZ原P/B和两有序尾；速度curl取ε−9经R129/130/134真权桥，Λ(Π−7V*)=−∫u″5/57600。三真实偶bump给非零，故U/R≠0；仅实际线性空间，非半群障碍/指定候选period不解。其余正规层继续。
+
+**R363实际Λ标量控制**：固定R358真u的Λ与任意ω下界，h1/d0/k=ω=B上H̃γ≠0。真实γ=(ε/τ)ψ、δ=(ε/τ)σψ′/ψ偶、τ=ε³ᐟ²使Λ局部成本ε⁻³ᐟ²(cσ+O_C1ε)，m=O_C1√ε；全状态AbarΛ0必须保。固定受控ω/R70光滑桥精确回scalar/frame/M0且成本O_C1(1)，R109真总M0商桥后整块倒行清T、第四同号2倍。一个finiteε上σ导数非零，Λ实际任意实值/紧集光滑截面；固定M/T0桥/Klein词保位移闭合及完整基准。仅一个读出，非全U正锥/不保旧wholeE或全period。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
