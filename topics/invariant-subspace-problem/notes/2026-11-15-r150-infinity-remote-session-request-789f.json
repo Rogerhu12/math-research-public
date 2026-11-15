@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "cfebd6155527b1143fa6c26f7014489a3a6d1354",
+  "rulesReadAtCommit": "5d91f478f34cddc7f28c4243386890f0e7b85afb",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -683,6 +683,44 @@
       ],
       "timeoutSeconds": 65,
       "receiptPath": "{work}/selected-second-transverse-projection/selected-second-transverse-projection-receipt.json"
+    },
+    {
+      "id": "infinity-second-pure-envelope",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-second-pure-envelope-789f.py",
+      "scriptSHA256": "20ef0ba51ab8c0d25200bf39110db6d6b7c2e53c3c2b368e251fbe46d92a424d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--first-connection-receipt",
+        "{work}/original-transverse-first-connection-receipt.json",
+        "--out",
+        "{work}/infinity-second-pure-envelope-receipt.json",
+        "--remaining-seconds",
+        "10"
+      ],
+      "timeoutSeconds": 30,
+      "receiptPath": "{work}/infinity-second-pure-envelope-receipt.json"
+    },
+    {
+      "id": "paid-infinity-jet-cache-locator",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-paid-infinity-jet-cache-locator-789f.py",
+      "scriptSHA256": "5e117d32cc3286decea2651e3bbf294ede2eb3551b6ed6acea40fa67e381a146",
+      "argv": [
+        "--work",
+        "{work}",
+        "--out",
+        "{work}/paid-infinity-jet-cache-locator-receipt.json",
+        "--remaining-seconds",
+        "10"
+      ],
+      "timeoutSeconds": 25,
+      "receiptPath": "{work}/paid-infinity-jet-cache-locator-receipt.json"
     }
   ]
 }
