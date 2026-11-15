@@ -600,3 +600,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 22:42 UTC /root — request196公开运行绑定
 
 196已推4677faa0966475d17e10b20b75f0234c62fe3768，run43770686357于22:41:29Z创建，compute132985694072现step14完整science；amplitude唯一R415，不取运行中日志。一次NFF后立即真实pull/rebase重推成功，最新读6a2d67dbe35f94d17698d8bf2fc265739201453e，双README未变并记H；原全部门未改，不凭step成功推科学接受。
+
+
+## 2026-11-15 22:45 UTC /root — request195原64有限root匹配切向全链
+
+[195完整入口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)16件已全文/完整diff核：原145的115pins逐键不变+12=127，四数学输入/两ready/78公开源、全部原execution/R273逐值同。新11427B/742ab15a逐实际有限root、独立225矩/113维Cholesky及两代回付226×224切向；原noJ primal/冷warm/32×10和严格下降保，零更新DL=Dt、成功≤29/第30只失败，原RK分组/双mean完整。全部当前H/J/577penalty/R273eta1→原endpoint338×112/原FD/fullDN/finalaudit仍实际付，18000总钟与原全部门不改，不加172额外noJ或数值对拍。新90KB必要明确原地址/未访/响应/J身份/实际trace计数和错误scope，own PID/start/session静止、读前后与cleanup复核；不传大tape/ledger。固定trace数值切向不冒IEEE导数/分支邻域/舍入证书或172唯一根因，R412待真实运行，exact唯一终态。 H/open原文逐字留195前检查点，open§4–6相同；原96703B结果索引同目录逐字归档、相对链接保留，旧结论不变。仅源码/原JSON/bytes/SHA核对，无本地import/AST/科学。
