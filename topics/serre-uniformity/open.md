@@ -70,6 +70,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R815原Mg/Γ真实425素数后同核续算**：原run43719622321/source2a3300a9因BudgetStop退出；小IO run43747973677确认g完成425prime、last1000008791、模数12707bits，Γ未开始、无完整operator。manifest4e78095e/3464项，current561995095B/402379e2与425小receipt f136bee8准确匹配；[断点全pins](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)。新原请求ac0870b2只增真实resume，不改80516ff9核心/ab725da0包装/849bca27框架、53源、prime007或原嵌套mode；恢复完整stage和唯一current，从425后继续。保持Mg六模/七准确点与Γ五模/七嵌套准确点、完整[[Γ,W]+MgW′,W]=0及两图因子，不另Mh。
 
+**R815独立三维共同分母消费者（仅方法已存）**：[完整契约](notes/R815-original-projective-rational-multiplier-reconstruction-method.md)ba9ac593。直接读原425 current、原W/g/h与Krylov缓存，首两个新425 strict RR失败的非首列坐标生成3维共同分母候选。首列准确D·v_g不强制center；未知列center后只用原weighted界、完整首列和7点全部commutator、cyclic唯一性认证。det=d_g M²，无M^(2/3)成功高度保证。新core/tag直接继承Γ而不冒装旧resume，原旧tag/Krylov身份独立读；core/runner实现中，未触发新数学，原同核续算继续。
+
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 
 **R825原重数提取已证**：[原结果](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)及[AB入口](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保原89579f79算术、28字段与σ齐次项，仅pending。原E=21固定点+3D，r=y/δy给Jk=R∩(I_(3k+1)+rJ_(k+1))，只适原m0/1mod3；安全K395非实际。P=MaMb/Q=δa·b−a·δb及两图齐次项、272×816全核秩544必须全部投影，不用一般理想商或ambient迹；真实I/P/Q/D待。全SHA与详细公式见本次open归档。

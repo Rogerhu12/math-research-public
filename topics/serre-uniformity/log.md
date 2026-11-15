@@ -413,3 +413,9 @@
 ### 2026-11-16 02:51（Asia/Taipei）｜serre-public-astra-20261115
 - 新42维run43748801736/job132918006043/sourcee2ac3449已AST过并执行准确原关系候选；R815新run43748439850/job132916821952亦在同核计算。H更新真编号并压缩已登记边界，全部详细前态仍在此前逐字归档。
 - 双probe rules job132917932629于2026-11-15T18:48:29.243804+00:00真实pull/read c7982f5f61c1b91dad1d9cbd2e70956fff07fc56，两README无diff；继续原五任务与指定sigma源，主目标OPEN。
+
+
+### 2026-11-16 03:00（Asia/Taipei）｜serre-public-astra-20261115
+- R815原425 current的独立共同分母契约12400B/ba9ac593已全文核并存：原d_g/准确首列例外，3维格只候选，原7点全部交换子和cyclic唯一认证；det=d_g M²不作恢复高度保证。
+- 真新core/tag中继承Γ、原425 Krylov与53源按旧身份消费，不伪装旧resume；源码分工实现中尚未触发新数学。19:00UTC实际API核五个数学run均在计算，H前态逐字归档并压缩为当前表。
+- 2026-11-15T18:58:27.109266+00:00实际pull/read 8d9024facee93e77897116bb94523fa8e4d00078，两README无diff；尚无新Mg/Γ、A/B或全p证明，主目标OPEN。
