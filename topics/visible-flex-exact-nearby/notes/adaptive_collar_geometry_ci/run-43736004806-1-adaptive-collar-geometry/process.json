@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_adaptive_collar_geometry_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43736004806",
   "run_attempt": "1",
@@ -9,7 +9,30 @@
   "worker_source_sha256": "2be1fbfdbc8f953ae432b1d7b8293d5e730820176abd03b733f65ed52fb5de01",
   "actual_source_sha256": "b34b06fab88b699dcbf30b55cdfee21c2cfd8a1f5793dbb8e35dd480b7522f37",
   "input_manifest_sha256": "6bd08d43ccbfc642d4ebdecfab79b63485881b480d72720712e484de15e8fe7f",
-  "children": [],
+  "children": [
+    {
+      "label": "adaptive_collar_geometry",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-adaptive-collar-geometry/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adaptive_collar_geometry.py",
+        "--root",
+        "/__w/_temp/visible-exact-adaptive-collar-geometry/immutable-science",
+        "--manifest",
+        "/__w/_temp/visible-exact-adaptive-collar-geometry/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-adaptive-collar-geometry-CI-inputs.json",
+        "--bits",
+        "320",
+        "--out",
+        "/__w/_temp/visible-exact-adaptive-collar-geometry/actual-adaptive-collar-geometry.json"
+      ],
+      "started_utc": "2026-11-15T16:32:38.355758+00:00",
+      "actual_returncode": 0,
+      "finished_utc": "2026-11-15T16:32:40.356325+00:00",
+      "actual_wall_seconds": 2.0005822870000003,
+      "temporary_log_bytes": 291,
+      "temporary_log_sha256": "1689a393c9584894f91acb6ae88020dbed9b5739e43761dbee018f46ecd3d860"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T16:32:32.710437+00:00",
@@ -34,9 +57,27 @@
         "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
       },
       "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    },
+    {
+      "time": "2026-11-15T16:32:40.653696+00:00",
+      "before": "7705aa375a506301b3e35a0265ee934449bcd150",
+      "after": "7705aa375a506301b3e35a0265ee934449bcd150",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "utc": "2026-11-15T16:32:38.352490+00:00",
+      "commit": "7705aa375a506301b3e35a0265ee934449bcd150",
+      "final": false
+    }
+  ],
   "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
   "original_recomputable_inputs_only_in_temporary_storage": true,
   "new_recomputable_data_persisted": false,
@@ -47,7 +88,7 @@
   "full_infinite_BVP_inverse_proved": false,
   "all_inputs_current_small_files_only": true,
   "reviewed_rules_sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
-  "last_read_commit": "106e9bdfe0643b577db0a848a7ef593f58c3de47",
+  "last_read_commit": "7705aa375a506301b3e35a0265ee934449bcd150",
   "package_versions": {
     "python-flint": "0.9.0"
   },
@@ -350,48 +391,140 @@
     "old_successful_math_native_grid_source_integrals_or_Green_recomputed": false
   },
   "immutable_scientific_copy": "/__w/_temp/visible-exact-adaptive-collar-geometry/immutable-science",
-  "snapshot_utc": "2026-11-15T16:32:35.101193+00:00",
-  "wall_seconds": 2.729514594000001,
+  "snapshot_utc": "2026-11-15T16:32:40.357253+00:00",
+  "wall_seconds": 7.985562739999999,
   "published_topic_capacity_metadata": {
     "method": "published_origin_main_Git_Trees_API_metadata_only",
-    "commit": "106e9bdfe0643b577db0a848a7ef593f58c3de47",
-    "root_tree": "f8b293aebe7ce9b9003a5cf86a90b373b1e39574",
+    "commit": "7705aa375a506301b3e35a0265ee934449bcd150",
+    "root_tree": "c5691ab504d7b215758e036b6e7dfc95a20cae2b",
     "topic": "topics/visible-flex-exact-nearby",
-    "topic_tree": "42e6e88065fc957d98a5203d6293fbecee92badf",
+    "topic_tree": "8332418886b4d67b61ec6db1492b8246351e16f7",
     "truncated": false,
     "all_blob_sizes_checked": true,
-    "blob_count": 14256,
-    "blob_bytes": 199328880,
-    "nested_tree_count": 5619,
+    "blob_count": 14257,
+    "blob_bytes": 199341273,
+    "nested_tree_count": 5621,
     "gitlink_count": 0,
-    "complete_blob_metadata_inventory_sha256": "4efc43757bb9e76ae106570b3dc4c8a9173103ae952feb67485d37d76f4f207e",
+    "complete_blob_metadata_inventory_sha256": "b99c2bb4f8e36f6440266ab20641c529c5f0342292558328e4e0574d72e5e934",
     "metadata_responses": [
       {
-        "tree": "f8b293aebe7ce9b9003a5cf86a90b373b1e39574",
+        "tree": "c5691ab504d7b215758e036b6e7dfc95a20cae2b",
         "recursive": false,
         "bytes": 861,
-        "sha256": "60f76fc832be9c88f9d0b4306e08fb00618f42334a7a29f0d9c71a19d7c22aa2",
+        "sha256": "0c03c3e84bc730ed1ae196f38284486ccf261eaa34bd7517551b591ff93d5fe9",
         "truncated": false
       },
       {
-        "tree": "34fa41af5f06bd7b59c2afb35d95306599b86825",
+        "tree": "9dff820376e0a5d4786e9e530503918b08917b45",
         "recursive": false,
         "bytes": 1846,
-        "sha256": "90d7341c4be157df8f9da21c623236189a069b3fce01558ae83b4334da8a83c9",
+        "sha256": "0e2e1543e5061b6ff4211b7129da7b37e8a6c2203e9a6851620611f19418e494",
         "truncated": false
       },
       {
-        "tree": "42e6e88065fc957d98a5203d6293fbecee92badf",
+        "tree": "8332418886b4d67b61ec6db1492b8246351e16f7",
         "recursive": true,
-        "bytes": 6545099,
-        "sha256": "27d98750a1976378ba6a2f2b7ac92f7ab29b23d55637a9cbb4cc24b4b84c9d24",
+        "bytes": 6545940,
+        "sha256": "3bae8bff3f46b86840d28866e10ed480bc5645309847ecf9ebb4f70f473a15e4",
         "truncated": false
       }
     ],
     "blob_bodies_requested": false
   },
-  "publication_is_final_attempt": false,
+  "publication_is_final_attempt": true,
   "pre_math_small_conclusion_capacity_reserve_bytes": 120000,
   "pre_math_topic_bytes_with_reserve_upper": 199465207,
-  "projected_topic_bytes_upper": 199345207
+  "projected_topic_bytes_upper": 199399174,
+  "actual_scientific_summary_sha256": "3730af35411d29fee3b55f2dee86a93378b7a81dcd3340e5d39e80614a4738f5",
+  "actual_scientific_summary_bytes": 39350,
+  "actual_old_complete_pairs_copied": 12,
+  "actual_new_geometry_triples": 6144,
+  "actual_new_complete_formula_rows": 12288,
+  "actual_selected_new_geometry_count": 12,
+  "actual_selected_old_reference_count": 0,
+  "actual_temporary_audit_identity": {
+    "bytes": 14940959,
+    "sha256": "aafac9610cc9cd0026f40f54717a5d5599dd7d23f0c5d1d86fdcae400da54c43",
+    "new_parameter_triples": 6144,
+    "new_complete_formula_rows": 12288,
+    "persisted": false
+  },
+  "old_successful_t1_and_geometry_are_not_recomputed": true,
+  "core_existence_or_low_gamma_selfmap_claimed": false,
+  "narrow_MA_domain_extended": false,
+  "actual_scientific_gates": [
+    {
+      "name": "immutable_source_parameters_directed_precision_and_output_format",
+      "passed": true
+    },
+    {
+      "name": "all_current_small_inputs_match_the_exact_manifest_and_no_history_is_requested",
+      "passed": true
+    },
+    {
+      "name": "the_NC_actual_child_16_structural_gates_and12_t1_gates_are_frozen_successes",
+      "passed": true
+    },
+    {
+      "name": "the_complete_NC_process_matches_the_science_without_a_publication_failure",
+      "passed": true
+    },
+    {
+      "name": "the_same_completed_LC_compact_is_read_without_recomputing_its_coefficients",
+      "passed": true
+    },
+    {
+      "name": "the_same_outer_collar_delta_radii_modes_and_true_source_domains_are_retained",
+      "passed": true
+    },
+    {
+      "name": "all12_old_reference_pairs_are_complete_and_copyable_without_new_old_geometry_math",
+      "passed": true
+    },
+    {
+      "name": "the_complete_ordinary_sources_mean_repairs_and_true_high288_zero_are_copied",
+      "passed": true
+    },
+    {
+      "name": "the_prior_results_supply_no_unknown_norm_or_unproved_domain_to_this_new_run",
+      "passed": true
+    },
+    {
+      "name": "all12_old_reference_pairs_are_copied_exactly_with_full_five_columns_and_readouts",
+      "passed": true
+    },
+    {
+      "name": "all6144_new_geometry_triples_and12288_complete_formulas_are_evaluated",
+      "passed": true
+    },
+    {
+      "name": "all_new_positive_nested_geometries_keep_both_inner_cutoffs_and_the_finite_polynomial",
+      "passed": true
+    },
+    {
+      "name": "each_selected_geometry_keeps_both_complete_five_column_rows_at_the_same_a_N",
+      "passed": true
+    },
+    {
+      "name": "the_high_column_maximum_selection_includes_the_complete_old_reference_and_exact_tie_rule",
+      "passed": true
+    },
+    {
+      "name": "the_complete_new_audit_is_temporary_only_with_its_exact_hash_and_count",
+      "passed": true
+    },
+    {
+      "name": "all_same_state_source_mean_unknown_domain_and_selection_limitations_remain_explicit",
+      "passed": true
+    }
+  ],
+  "actual_scientific_complete": true,
+  "actual_scientific_failure": null,
+  "prepublication_scientific_stdout_receipt": {
+    "bytes": 49663,
+    "sha256": "38852df77419e8dec3089a3de660db05dede51efb60613e85a094433e2763d3f",
+    "complete_conclusion_included": true,
+    "complete_report_included": true,
+    "emitted_before_terminal_publication": true
+  }
 }
