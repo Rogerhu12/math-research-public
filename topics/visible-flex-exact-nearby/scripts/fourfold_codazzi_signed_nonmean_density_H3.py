@@ -605,17 +605,63 @@ def transport(inp,doc,temp):
                 hi,lo=boundaries[j],boundaries[j+1];h=exact(hi-lo)
                 audit={"old_interval":index,"piece":piece,"new_interval":[str(lo),str(hi)],"branches":{}}
                 for sigma in (-1,1):
+                    # A failed later operation must retain the exact stage and
+                    # all scalar enclosures already obtained in this subcell.
+                    progress=dict(original_interval=index,actual_candidate_piece=piece,
+                        subcell=j,branch=sigma,exact_interval=[str(lo),str(hi)],
+                        complete_subcells_before=newrows,stage="entered_complete_taylor")
+                    doc["latest_subcell_evaluation"]=progress
                     F,a=complete_taylor(inp,index,row,piece,lo,hi,order+1,mref,right,sigma)
+                    progress["complete_taylor_finite"]=dict(
+                        force=[p.finite() for p in F.c],speed=[p.finite() for p in a.c])
+                    if not all(progress["complete_taylor_finite"]["force"]+progress["complete_taylor_finite"]["speed"]):
+                        raise ArithmeticError("a new whole-subcell Taylor input is nonfinite")
+                    progress["stage"]="entered_reference_proposal"
                     proposal,end=reference_step(refs[sigma],F,a,h,N,order)
+                    progress["complete_reference_finite"]=dict(
+                        coefficients=[p.finite() for p in proposal.c],endpoint=end.finite())
+                    if not all(progress["complete_reference_finite"]["coefficients"]) or not end.finite():
+                        raise ArithmeticError("a new complete reference proposal is nonfinite")
+                    progress["stage"]="entered_complete_reference_residual"
                     residual,respoly=complete_reference_residual(proposal,F,a,h)
+                    progress["complete_reference_residual_columns"]=[rec(x) for x in residual]
+                    progress["complete_reference_residual_finite"]=respoly.finite()
                     whole_ref=proposal.evaluate(arb(0,h))
+                    progress["stage"]="entered_parameter_error"
                     pfee,drift,dm=inp.parameter_error(index,row,piece,lo,hi,whole_ref,
                                                      mref,right,mfee,sigma)
                     source=[(residual[q]+pfee[q]).upper() for q in range(4)]
                     # The exact dyadic re-centring is a genuine reference jump.
                     jump=end-proposal.evaluate(h)
+                    jump_columns=[jump.l2(q) for q in range(4)]
+                    progress.update(complete_parameter_error_columns=[rec(x) for x in pfee],
+                        complete_drift_derivative_columns=[rec(x) for x in drift],
+                        complete_mean_reference_error=rec(dm),
+                        complete_source_error_columns=[rec(x) for x in source],
+                        complete_reference_jump_columns=[rec(x) for x in jump_columns],
+                        complete_incoming_error_columns=[rec(x) for x in errors[sigma]],
+                        stage="complete_subcell_gram_inputs")
+                    finite=dict(residual=all(x.is_finite() for x in residual),
+                        parameter_error=all(x.is_finite() for x in pfee),
+                        drift=all(x.is_finite() for x in drift),mean_error=dm.is_finite(),
+                        source=all(x.is_finite() for x in source),
+                        jump=all(x.is_finite() for x in jump_columns),
+                        incoming=all(x.is_finite() for x in errors[sigma]))
+                    progress["complete_scalar_input_finite"]=finite
+                    # Atomic publication of these small fields precedes the
+                    # first energy step. Later exceptions save the same fields
+                    # through main; complete original intervals also checkpoint.
+                    if newrows==0:
+                        doc["latest_atomic_scientific_stage"]="complete_first_subcell_gram_inputs"
+                        save(inp.a.out,doc)
+                    if not all(finite.values()):
+                        raise ArithmeticError("new complete subcell gram inputs are nonfinite")
+                    progress["stage"]="entered_complete_gram_error_step"
                     e,energy=gram_error_step(errors[sigma],h,source,drift)
-                    errors[sigma]=[(e[q]+jump.l2(q)).upper() for q in range(4)]
+                    errors[sigma]=[(e[q]+jump_columns[q]).upper() for q in range(4)]
+                    progress["complete_outgoing_error_columns"]=[rec(x) for x in errors[sigma]]
+                    progress["complete_energy"]=encode(energy)
+                    progress["stage"]="complete_branch_energy"
                     refs[sigma]=end
                     for q in range(4):
                         source_max[sigma][q]=max(source_max[sigma][q],source[q]).upper()
@@ -704,6 +750,7 @@ def terminal(inp,refs,errors,doc):
     # Completed final sections already retain the same angle and root scalars.
     # Drop only their duplicate early-checkpoint copies from the final receipt.
     doc.pop("complete_preparatory_conclusions",None)
+    doc.pop("latest_subcell_evaluation",None)
     doc["latest_atomic_scientific_stage"]="complete_new_H3_target"
     # These are output bounds, not extra conditions asserting a small C.
     doc["complete"]=True

@@ -98,11 +98,23 @@ class LP:
                     *(abs(4*(self.lo+k))*w).exp()
                     for k in range(len(self.p))),arb(0)).upper()
     def l2(self,q=0):
-        return sum((abs(self.p[k])**2*(abs(4*(self.lo+k))**(2*q))
-                    for k in range(len(self.p))),arb(0)).sqrt().upper()
+        # Parseval is a positive sum. Take coefficient upper endpoints before
+        # squaring, and the total upper endpoint before the real square root.
+        # This retains every signed label and its mean; it is not clipping a
+        # nonfinite coefficient or replacing an unproved domain by a number.
+        if not self.finite():raise ArithmeticError("a complete Laurent L2 input is nonfinite")
+        square=sum((abs(self.p[k]).upper()**2*(abs(4*(self.lo+k))**(2*q))
+                    for k in range(len(self.p))),arb(0)).upper()
+        if not square.is_finite() or square<0:
+            raise ArithmeticError("a complete Laurent L2 positive sum is nonfinite")
+        return square.sqrt().upper()
     def h3(self):
-        return sum((abs(self.p[k])**2*(1+(4*(self.lo+k))**2)**3
-                    for k in range(len(self.p))),arb(0)).sqrt().upper()
+        if not self.finite():raise ArithmeticError("a complete Laurent H3 input is nonfinite")
+        square=sum((abs(self.p[k]).upper()**2*(1+(4*(self.lo+k))**2)**3
+                    for k in range(len(self.p))),arb(0)).upper()
+        if not square.is_finite() or square<0:
+            raise ArithmeticError("a complete Laurent H3 positive sum is nonfinite")
+        return square.sqrt().upper()
     def finite(self):
         return all(z.is_finite() for z in self.p)
 
