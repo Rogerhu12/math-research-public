@@ -16,11 +16,13 @@
 
 [R283固定trace完整变分](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[具体113接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：原C由独立gram形成，不默作F_e；有限root每一步连同C/Cholesky/代回求导才能表达固定分支实延拓，近似线性solve还含D残差。它不证明当前branch稳定、IEEE舍入光滑或实际新J，不改113。
 
-### 1B. 110同31查询真实连续模型
+### 1B. 110实际与118新增midpoint471真实连续模型
 
 [实际107](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)的同31原1/8接受已完整读回，最近1/4只有原query0 LEFT464的RMS失败；原success/newcoupled仍false。不能仅凭下降称BVP完成或因远档未选点无故扩大查询。
 
 [110完整接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)已[实际读回](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)：run43685348016/source8d4a3af1/job132724561759，8真实model+fresh FD全接受，按8批预算结束，全部native/fullDN/success仍false。各模型W不可跨行减；末alpha1/2048、physical .007107378585750384、BC6.276408182782244e−9。后七批最近拒绝均为未选原midpoint471，末最近拒alpha1/1024、beta²−3.8894462797367524e−5。118保原31加该真实点，所有原域/门/预算不变。110末warm c02da9e1/status90bfb02a已清理，从actual98新轨迹开始，不冒由hash续算110。
+
+[118已发布完整入口](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)：worker336fc522、recipef5c0e2e6/request1a446102/workflow96eeef3b。只加MID471，原20LEFT/11MID及capture/local8453/C4059/outside保留；全部完整模型/17trial和原FD门不变。actual98首父31、实际新子32分开，最多8真实pair、175/185min，没有110末场hash续接或额外接受门；未读回118结果。
 
 98与102v3已结清：[原结论与身份差异解释](notes/2026-11-15-actual98-thirty-one-quarter-step-and-rms-barrier-compact.md)。独立model的顶层装饰不等于嵌套模型合同失败，保原false/exit2事实，不重算102或加成功门。
 

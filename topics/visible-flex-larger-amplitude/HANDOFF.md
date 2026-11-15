@@ -26,7 +26,7 @@
 
 ### 113 完整binary128残差
 
-第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建，07:43:44仍science step14，前13步success；amplitude少量元数据监测。[首跑](notes/2026-11-15-actual113-first-run-missing-historical-input.md)在首快照前缺历史JSON，不是128数值失败。
+第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建，07:57:44仍science step14，前13步success；amplitude少量元数据监测。[首跑](notes/2026-11-15-actual113-first-run-missing-historical-input.md)在首快照前缺历史JSON，不是128数值失败。
 
 [113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)CPP1b59cd10/bridge3655c81a/probeba3564ca及28pin不变；[input修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)requestce294b5e/workflowdb8a479b仅恢复公开8bd26710两原ready到既有env。真实113位覆盖e=L−target/226态RK/129248残差，geometry/tables/scales原64字面值。7200s只128child，前后原64/初J/R273另计，step320/job350min；partial后原64solve/finalJ/audit仍继续，旧64J不冒128一致J。
 
@@ -48,7 +48,7 @@ root接119：由真实117六末p做最多8个独立原8方向批次，各radius=
 
 [110实际](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)run43685348016/source8d4a3af1/job132724561759：8真实model+原FD全接受，显式8批停止，native/fullDN/success全false。各模型W不能跨行减；末alpha1/2048，后七批最近拒绝均为未选原midpoint471，末最近拒beta²−3.8894462797367524e−5。末physical .007107378585750384/BC6.276408182782244e−9；FD1.0788333791801373e−9。
 
-末warm c02da9e1/status90bfb02a已清理，不从hash恢复。[110配方](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)sourcea1ba1cd8/requestef159a8a/workflow3363acf2。exact_refinement接118原31+实际midpoint471，保全门/预算，从可恢复actual98另启真实轨迹，不冒110末点；旧31/110不改。
+末warm c02da9e1/status90bfb02a已清理，不从hash恢复。[118完整配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)现已发布：32=20LEFT+12MID，只加真实MID471，capture/local8453/C4059/outside不变；从可恢复actual98原31 pair另起，随后传本job真实32 pair。75+worker源pins，worker336fc522/recipef5c0e2e6/request1a446102/workflow96eeef3b；8模型各fresh FD，λ270/全17trial/原预算，step175/job185min，无raw上传/新native门。待读取实际run。
 
 ## 几何及接受场之后
 
@@ -64,4 +64,4 @@ same-g v4冻结g/全p/t范围，K=k=0/activep空/T=M/state4M+2；699二分1397+k
 
 ## 维护与重做范围
 
-已完成95–116各结果在正式note，110已读回/113运行/117与118推进。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
+已完成95–117各结果在正式note，113运行/118已发布待run/119在接线。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
