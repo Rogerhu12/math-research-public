@@ -1,0 +1,516 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43679903558",
+  "stepId": "six-normalized-koszul-p768",
+  "executionSourceCommit": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-six-normalized-koszul-p768-source-check-789f.py",
+  "scriptSHA256": "11f8512c805e68e6ecddc5032832d474ac96f28ad0e84c52cf6b0b8fafdf138e",
+  "argvTemplate": [
+    "--helper",
+    "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+    "--source",
+    "{work}/dixon-after486/stage-p768/actual-p768-exact-source36.bin",
+    "--source-receipt",
+    "{work}/dixon-after486/stage-p768/actual-p768-receipt.json",
+    "--point-model",
+    "{selected_model}",
+    "--prepared-dir",
+    "{work}/koszul-exact-sparse-preparation",
+    "--exact-dir",
+    "{work}/koszul-exact-rational-support",
+    "--normalizer",
+    "{work}/exact29-free-graph/top29-exact-source-normalizer.json.gz",
+    "--out",
+    "{work}/six-normalized-koszul-p768",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "timeoutSeconds": 85,
+  "exitCode": 0,
+  "wallSeconds": 3.5723868730001413,
+  "fullTemporaryReceiptBytes": 11872,
+  "fullTemporaryReceiptSHA256": "ee14fd3fafbfafcab8653d8231408f5401ecb96aa9b99f9af2f04eab3bc82a81",
+  "result": {
+    "format": "isp-six-new-exact-koszul-normalized-source-p768-v1",
+    "status": "completed",
+    "largeDataUploadedOrCommitted": false,
+    "newDixonDigitsComputed": 0,
+    "oldNormalFormsRecomputed": false,
+    "mathematicalElapsedSeconds": 3.4561362250005914,
+    "allSixNormalizedPureFreeAxesVerified": true,
+    "allSixFullOriginalIntegerProductsZero": true,
+    "allSixCompleteP768SourceResiduesVerified": true,
+    "newOriginalKernelDimensionsAddedByThisStep": 0,
+    "parameters": {
+      "temporaryFiles": [
+        {
+          "file": "normalized-six-slot17-unverified.json.gz",
+          "bytes": 1358903,
+          "sha256": "69ca559dfeaaed446e94c71a2c7b2d625e37356ed5f23d670fc423f9d62c3638",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot18-unverified.json.gz",
+          "bytes": 1374876,
+          "sha256": "1da26e09eb0bbb5cae5ff4a2da9cc93f2c0bd05fb05bf0bd7394e7cc911c9709",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot19-unverified.json.gz",
+          "bytes": 1380552,
+          "sha256": "6841d40b7764f1d7b15e7c64078b6252c727db9cc69ea97594e90d310966d943",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot26-unverified.json.gz",
+          "bytes": 2276690,
+          "sha256": "c575f3961f26d5cb4ea042939dc3e97f327ff9fb5b43519f5a24763d8d00b82a",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot27-unverified.json.gz",
+          "bytes": 2289555,
+          "sha256": "1ab42e6b557f765928ae2b1a5d7f3395e0328ce99392933b6b212dbd1cefc065",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot28-unverified.json.gz",
+          "bytes": 2299182,
+          "sha256": "713a1f5ecb3121b74ebd2dcfe56c5f6ddc48af8b32a1f7c60471f74bd8fe4e73",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot17-verified.json.gz",
+          "bytes": 1359206,
+          "sha256": "306776b25affe8d5716069486fb11fafef04abd514eb8731031e53f1d4713de7",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot18-verified.json.gz",
+          "bytes": 1375200,
+          "sha256": "21cf81993d61cd1e12b30cc481e3ed7499d01da3dfb4730954fa88f8be9a2918",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot19-verified.json.gz",
+          "bytes": 1380884,
+          "sha256": "28311fbb70cef5fec28449b02fc8e7584e142dac44c339e4438977ec14f288ed",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot26-verified.json.gz",
+          "bytes": 2277007,
+          "sha256": "9ee02fd5ac133cdac2916a30fd74b92dc8226195ad59349e7185cbbdfac4a7ee",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot27-verified.json.gz",
+          "bytes": 2289878,
+          "sha256": "9f38819abcfd01b3a6632ea99ee56437edd19197734fec24bf3f517a44aa91a6",
+          "temporaryOnly": true
+        },
+        {
+          "file": "normalized-six-slot28-verified.json.gz",
+          "bytes": 2299488,
+          "sha256": "df6adc89dad3115206c8c398103491916c37cf8ef3145a702482a7867912f9c1",
+          "temporaryOnly": true
+        }
+      ],
+      "normalizedColumns": [
+        {
+          "slot": 17,
+          "denominatorBits": 2356,
+          "maximumNumeratorBits": 2402,
+          "denominatorDecimal": "12152988839824884819097269600898216403800917210405315544006151019808395440951595560816589802075910407319651605704198164848059321720808362718213021970370439684074626647684040601936596548867851845174759058019462211855213677555088237413949525888814881532562568923529072273416341752600301941333247366084574419691732173034383999696863203620061101648056334883797518503062721081315713721873953503806379566322861995398061605867351245577567831945822105898182540787563858246699423095468258392246207222336480354590691043844850801084772489300135283935310507144040511524113117473207502462875489614222875701863384836108629331796055569887763329238858786682891174014258864244946567362579778459375346851632759439360000000000000",
+          "numeratorsSHA256": "bbdc69b2194a35bd86cfb07706b06c70d00520d36fa9b0bd418e3e8429836e23",
+          "nonzeroSourceRows": 3813,
+          "bothHeightsWithinBalancedP768Bound": false,
+          "twoTimesNumeratorDenominatorBelowP768": false,
+          "all4367FreshExactIntegerProductsZero": true,
+          "all6188ActualP768ResiduesVerified": true,
+          "certificate": {
+            "file": "normalized-six-slot17-verified.json.gz",
+            "bytes": 1359206,
+            "sha256": "306776b25affe8d5716069486fb11fafef04abd514eb8731031e53f1d4713de7",
+            "temporaryOnly": true
+          }
+        },
+        {
+          "slot": 18,
+          "denominatorBits": 2376,
+          "maximumNumeratorBits": 2430,
+          "denominatorDecimal": "17194960084747233908420249326570863934327822738072220830325702924151403499516388769110372496212153737556392065620727378489397932819728732200931649460327875848005087378141956946665042042079401879441637222215286596998645452030755469911061835441936955508384464705678196132849946537210352209243878367088912232061339558322024061571099325221933951194293706818713013992020867489926570452236409963698051288901059365738832414601568593586561286224345052082691022396804413936798846252200652092729352443703327641701503990659983277184817475798528909857972453795424318742679547084904465047160958367923591258673956619989196925824944124444949140456830325807955649833424510548568774497130064047708693876703900511764480000000000000000",
+          "numeratorsSHA256": "74baa7bd207e1d30a9b7f4680298e460ab86240946f0704074c2acf107aebe62",
+          "nonzeroSourceRows": 3813,
+          "bothHeightsWithinBalancedP768Bound": false,
+          "twoTimesNumeratorDenominatorBelowP768": false,
+          "all4367FreshExactIntegerProductsZero": true,
+          "all6188ActualP768ResiduesVerified": true,
+          "certificate": {
+            "file": "normalized-six-slot18-verified.json.gz",
+            "bytes": 1375200,
+            "sha256": "21cf81993d61cd1e12b30cc481e3ed7499d01da3dfb4730954fa88f8be9a2918",
+            "temporaryOnly": true
+          }
+        },
+        {
+          "slot": 19,
+          "denominatorBits": 2383,
+          "maximumNumeratorBits": 2440,
+          "denominatorDecimal": "1925835529491690197743067924575936760644716146664088732996478727504957191945835542140361719575761218606315911349521466390812568475809618006504344739556722094976569786351899178026484708712893010497463368888112098863848290627444612630038925569496939016939060047035957966879194012167559447435314377113958169990870030532066694895963124424856602533760895163695857567106337158871775890650477915934181744356918648962749230435375682481694864057126645833261394508442094360921470780246473034385687473694772695870568446953918127044699557289435237904092914825087523699180109273509300085282027337207442220971483141438790055692393741937834303731164996490491032781343545181439702743678567173343373714190836857317621760000000000000000",
+          "numeratorsSHA256": "03ccf85397e7e441640641e4863901a146674f5e779cec897beed99debb0e4cf",
+          "nonzeroSourceRows": 3813,
+          "bothHeightsWithinBalancedP768Bound": false,
+          "twoTimesNumeratorDenominatorBelowP768": false,
+          "all4367FreshExactIntegerProductsZero": true,
+          "all6188ActualP768ResiduesVerified": true,
+          "certificate": {
+            "file": "normalized-six-slot19-verified.json.gz",
+            "bytes": 1380884,
+            "sha256": "28311fbb70cef5fec28449b02fc8e7584e142dac44c339e4438977ec14f288ed",
+            "temporaryOnly": true
+          }
+        },
+        {
+          "slot": 26,
+          "denominatorBits": 3780,
+          "maximumNumeratorBits": 3831,
+          "denominatorDecimal": "4180147784351329758460886933919233991753419939459323135140178024568619469767309341894689510654514639838070469651124750242657049970947780649983365378130643820676728194952933346864034100133388661453828777369377398281748066727229601598629781322103240144846212908203041236971973372923239104866781123227652276448496157228387478359036469297023219080898406749164169643571441665755979799742255065618215686873285775419553596214750279208231084339143749595172038738790229923191933961649907377445190964847471598415860835446417189777258050298974842038704169282980862657243039758361288457531335591941195693432275826841242330715115941916946606555787541030094240817477686771957798383484988201153623232002010133724017941376286628194012788503548129251942244696003637604287362968991529266109438621289072503080162838788998852041612717328444768977667734092141780326626387282348159076626074596336638306774678772002507337391319333752262339339918643491013444753244434519019986346490311785755278497655651787885833096698004354327670142517919294825668672329972340697335627741921693895836751274931628049091917013123210879596310272140246396873443037413376000000000000",
+          "numeratorsSHA256": "296a1283c43be21a5bd65c0d28b656d6424ebe829e88ab156cc80714c2c0911b",
+          "nonzeroSourceRows": 3994,
+          "bothHeightsWithinBalancedP768Bound": false,
+          "twoTimesNumeratorDenominatorBelowP768": false,
+          "all4367FreshExactIntegerProductsZero": true,
+          "all6188ActualP768ResiduesVerified": true,
+          "certificate": {
+            "file": "normalized-six-slot26-verified.json.gz",
+            "bytes": 2277007,
+            "sha256": "9ee02fd5ac133cdac2916a30fd74b92dc8226195ad59349e7185cbbdfac4a7ee",
+            "temporaryOnly": true
+          }
+        },
+        {
+          "slot": 27,
+          "denominatorBits": 3795,
+          "maximumNumeratorBits": 3850,
+          "denominatorDecimal": "171352617976129709458828677195217239789956190158316573955666177583116849304701544542947112420749864116242184691938905761946997792409091424404118113580331351497180442167510643754650485832667868010315349241925518310365416751282595828731031995955656020017535959533059066385955132502869417386699091803347922116176754477106059512893622949423575796564187489461737642029280536762669123951034519649821897436309730505998341016035043445303808609230180583405292211980489105011483756955953003216233268031027555762262967366619533443349361997855576724850561307247951522045706685774745936451124508584853493865175850693876205620674032691059475295934842881905623119590045336156094071335816636341689323526226399401614943452896741462928972226337444914295616494578581112674947582824900767676358107963881660046262035087638640942889788508727607969932555755905075859149068867478015736869056049853031477471307632221926780774344962129172737814221945033983623127324995859803667280315330860721680376175900478089016070299844594492599854482094547733493810216150226189865182052396854076178140108261997296988375862201946660376411950675572980300636176989649108992000000000000",
+          "numeratorsSHA256": "088347900f595ac004c16a6789c59377df4123c89ed2d07652ccad6e64598503",
+          "nonzeroSourceRows": 3994,
+          "bothHeightsWithinBalancedP768Bound": false,
+          "twoTimesNumeratorDenominatorBelowP768": false,
+          "all4367FreshExactIntegerProductsZero": true,
+          "all6188ActualP768ResiduesVerified": true,
+          "certificate": {
+            "file": "normalized-six-slot27-verified.json.gz",
+            "bytes": 2289878,
+            "sha256": "9f38819abcfd01b3a6632ea99ee56437edd19197734fec24bf3f517a44aa91a6",
+            "temporaryOnly": true
+          }
+        },
+        {
+          "slot": 28,
+          "denominatorBits": 3803,
+          "maximumNumeratorBits": 3868,
+          "denominatorDecimal": "35698462078360356137255974415670258289574206282982619574097120329816010271812821779780648420989555024217121810820605367072291206751894046750857940329235698228579258784898050782218851215139139168815697758734482981326128489850540797652298332490761670836986658236053972163740652604764461955562310792364150440870157182730429065186171447796578290950872393637862008756100111825556067489798858260379561965897860522082987711673967384438293460256287621542769210829268563544059116032490209003381930839797407450471451534712402800697783749553245151010533605676656567092855559536405403427317605955177811221911635561224209504307090143970724019986425600397004816581259445032519598194961799237851942401297166542003113219353487804776869213820301023811586769703871065140614079755187659932574605825808679176304590643258050196435372605984918327069282449146890803989389347391253278514386677052714891139855756712901412661321867110244320377962905215413254818192707470792430683399027262650350078369979266268545014645800957185958303017103030777811210461697963789555246260916011265870445855887916103539244971292072220911752489724077704229299203539510231040000000000000000",
+          "numeratorsSHA256": "d46d32d0fc8fcbc7a736d41954c99e36b5417681e718772de1bcd7beeca4957e",
+          "nonzeroSourceRows": 3994,
+          "bothHeightsWithinBalancedP768Bound": false,
+          "twoTimesNumeratorDenominatorBelowP768": false,
+          "all4367FreshExactIntegerProductsZero": true,
+          "all6188ActualP768ResiduesVerified": true,
+          "certificate": {
+            "file": "normalized-six-slot28-verified.json.gz",
+            "bytes": 2299488,
+            "sha256": "df6adc89dad3115206c8c398103491916c37cf8ef3145a702482a7867912f9c1",
+            "temporaryOnly": true
+          }
+        }
+      ],
+      "codeSHA256": "11f8512c805e68e6ecddc5032832d474ac96f28ad0e84c52cf6b0b8fafdf138e",
+      "normalizerSHA256": "79ca0d75d213175b28ce10827cfcf90fef3bea29ef1a6f9c97692c679c569f77",
+      "paidKernelBinding": "10890e55000e9e0554b2488f333b899dbf224421e5bf091adc24d396348cc6a4",
+      "sourceSHA256": "0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07",
+      "sourceBytes": 36433748,
+      "nativeSourceBinding": "721ab7f5fa27565b479e232dd6e4ef88953196195b72f1d67963a7b150eae6c9",
+      "slots": [
+        17,
+        18,
+        19,
+        26,
+        27,
+        28
+      ],
+      "residueCoordinateCountPerSlot": 6188,
+      "modulusExponent": 768
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 05:10:24 UTC",
+      "beforeReadCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:38 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:40 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:45 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:47 UTC",
+      "beforeReadCommit": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "originMainAfterPull": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:48 UTC",
+      "beforeReadCommit": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "originMainAfterPull": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:17:55 UTC",
+      "beforeReadCommit": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "originMainAfterPull": "d2df6a718eaf3fdb08c5875a1296b9d5bc797fe9",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:19:44 UTC",
+      "beforeReadCommit": "d2df6a718eaf3fdb08c5875a1296b9d5bc797fe9",
+      "originMainAfterPull": "1f1dc3d0e9b17d3f124b642395506ebc7e068652",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:32:35 UTC",
+      "beforeReadCommit": "1f1dc3d0e9b17d3f124b642395506ebc7e068652",
+      "originMainAfterPull": "7dcf76d0cc3545dfd741553e32ddd1ab2d076d21",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:32:49 UTC",
+      "beforeReadCommit": "7dcf76d0cc3545dfd741553e32ddd1ab2d076d21",
+      "originMainAfterPull": "8238d63b1919fd6968b71d83c90af1c450a49eb4",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:39:37 UTC",
+      "beforeReadCommit": "8238d63b1919fd6968b71d83c90af1c450a49eb4",
+      "originMainAfterPull": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:39:52 UTC",
+      "beforeReadCommit": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "originMainAfterPull": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:53:36 UTC",
+      "beforeReadCommit": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "originMainAfterPull": "01257b6763f020c18074d829fff94dee9d663658",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:55:02 UTC",
+      "beforeReadCommit": "01257b6763f020c18074d829fff94dee9d663658",
+      "originMainAfterPull": "07363e56a1bb59c41c3ccc4341e640fd4d75146d",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:00:08 UTC",
+      "beforeReadCommit": "07363e56a1bb59c41c3ccc4341e640fd4d75146d",
+      "originMainAfterPull": "b0a612da885619690067cac0e90da621dba9dbf0",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:01:55 UTC",
+      "beforeReadCommit": "b0a612da885619690067cac0e90da621dba9dbf0",
+      "originMainAfterPull": "d4a694406c8fdbc8770a45df1e2ba62a4bf9f648",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:13:05 UTC",
+      "beforeReadCommit": "d4a694406c8fdbc8770a45df1e2ba62a4bf9f648",
+      "originMainAfterPull": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:13:07 UTC",
+      "beforeReadCommit": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "originMainAfterPull": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:32:03 UTC",
+      "beforeReadCommit": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "originMainAfterPull": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:32:04 UTC",
+      "beforeReadCommit": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "originMainAfterPull": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:37:30 UTC",
+      "beforeReadCommit": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "originMainAfterPull": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:38:04 UTC",
+      "beforeReadCommit": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+      "originMainAfterPull": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:46:12 UTC",
+      "beforeReadCommit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "originMainAfterPull": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:46:13 UTC",
+      "beforeReadCommit": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "originMainAfterPull": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:59:25 UTC",
+      "beforeReadCommit": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "originMainAfterPull": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:59:29 UTC",
+      "beforeReadCommit": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "originMainAfterPull": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "lastRulesReadCommit": "293f7c7c584f1b122bb08f8543978906ac5cc1fd"
+}
