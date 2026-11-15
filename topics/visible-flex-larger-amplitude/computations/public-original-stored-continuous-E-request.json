@@ -1,12 +1,13 @@
 {
   "schema": "public-original-stored-continuous-E-request-v1",
-  "request_number": 136,
+  "request_number": 139,
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "storedcontinuousE"
   ],
-  "scientific_entry": "geometry_20261115_stored_continuous_E_cover_v2.py",
+  "scientific_entry": "geometry_20261115_stored_continuous_E_cover_v3.py",
   "source_sha256": {
+    "geometry_20261115_stored_continuous_E_cover_v3.py": "f12f747041783dbb54b16ac2bdb0c3aeeade93e6bc7f276bde9dd81f424df7df",
     "geometry_20261115_stored_continuous_E_cover_v2.py": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea",
     "geometry_20261115_stored_continuous_E_cover.py": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed",
     "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
@@ -17,7 +18,7 @@
     "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
     "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde"
   },
-  "source_count": 9,
+  "source_count": 10,
   "original_formula_source_sha256": {
     "runtime:tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
     "runtime:strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
@@ -68,7 +69,7 @@
     "sha256": "4fa2baa15518ee5045d4a21305ff3f727ef594f966e8a95f9bc6f89eaac3b979"
   },
   "reviewed_README_blobs": {
-    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
   },
   "scientific_parameters": {
@@ -131,13 +132,13 @@
     "retain_only_script_parameters_run_hash_and_compact_conclusion": true
   },
   "evaluation_strategy": {
-    "schema": "R286-unit-panel-complete-piecewise-six-integral-strategy-v2",
+    "schema": "R306-complete-cap-endpoint-and-supported-budget-six-integral-strategy-v3",
     "preserved_original_producer_source": {
       "file": "geometry_20261115_stored_continuous_E_cover.py",
       "bytes": 66415,
       "sha256": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed"
     },
-    "current_producer_schema": "R286-original-stored-convention-C-continuous-E-cover-v2",
+    "current_producer_schema": "R286-original-stored-convention-C-continuous-E-cover-v3",
     "original_model_schema_unchanged": "R286-original-stored-continuous-model-convention-C-v1",
     "original_six_full_width_goal_unchanged": true,
     "exact_map": "I_k=(b-a)*M_k*integral_0^1 f_k(a+(b-a)*t)/M_k dt",
@@ -147,17 +148,51 @@
     "all_cap_and_cusp_branches_retained": true,
     "all_original_work_budgets_unchanged": true,
     "proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md",
+      "bytes": 13875,
+      "sha256": "6f3593306fa66098c73f2aaa12ca21788263c24eac6f31c881bb52308b601ea1"
+    },
+    "preserved_unit_panel_producer_source": {
+      "file": "geometry_20261115_stored_continuous_E_cover_v2.py",
+      "bytes": 77697,
+      "sha256": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea"
+    },
+    "unit_panel_proof": {
       "file": "topics/visible-flex-larger-amplitude/results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md",
       "bytes": 15793,
       "sha256": "3505389d22bc63f6d7b5c7cde62e36e856d94993841fc7eb3cdd034ff92a10e0"
-    }
+    },
+    "endpoint_primitive_components": [
+      "A",
+      "sqrtE_A",
+      "w_A"
+    ],
+    "endpoint_premises": [
+      "original_chi_identically_one",
+      "complete_closed_panel_w_derivative_has_one_proved_sign",
+      "complete_positive_w_after_original_cap_flat_valley_cut_overwrites"
+    ],
+    "no_raw_cap_branch_requirement": true,
+    "all_possible_original_endpoint_branches_hulled": true,
+    "full_six_components_preserved": true,
+    "existing_valid_full_width_goal_allows_skipping_only_that_Acb_component": true,
+    "callback_budget_transport": {
+      "global_exception_class_unchanged": "ResourceStop(Exception)",
+      "requires_actual_caught_ResourceStop": true,
+      "supported_transport_type": "ValueError",
+      "never_inferred_from_elapsed_or_unrecorded_SystemError": true,
+      "original_pending_and_source_suffix_retained": true
+    },
+    "incomplete_head_prefix_has_separate_identity_not_natural_Rout": true
   },
   "preceding_actual_execution": {
-    "request_number": 132,
-    "run_id": "43702946191",
-    "source_commit": "185e4f3eb798fbca5fabab8ca928741cb4cd6446",
-    "result_sha256": "e18d07b684bc78c1ef9186d3e16cf7f2288e958a4298523223c70d4cc2ff53cb",
-    "role": "Original partial result motivates evaluation changes; no prior numerical ledger or field is an input",
+    "request_number": 136,
+    "run_id": "43707070768",
+    "source_commit": "c1178bd2e17383a5a0f6bed1ec8fe1896704a528",
+    "compute_job_id": "132790329190",
+    "result_sha256": "745d601a05a4bb429c0345a1c4f42929aec172fdf975b8ff9555330336b48904",
+    "scalar_summary_sha256": "26794a89d0404632f7c231bc810856dc0e542a18eec9d5b7cf32ce783618dd2e",
+    "role": "Actual incomplete cap-callback run motivates complete-w endpoint identities and precise resource transport; no prior numerical ledger or field is an input",
     "preserved_physical_inputs_query_and_budgets": true,
     "current_run_result_or_success_predeclared": false
   }

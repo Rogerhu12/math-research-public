@@ -412,3 +412,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R306完整cap端点积分证明
 
 [R306](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)全文直接发布，6f359330；root已读v3 f12f7470完整相对0040 diff及integrate全部控制流。证明三积分使用cap/valley/flat/cut后的完整w，绝非raw替换；同号须整个闭panel，端点全possible branches，原B/χ过渡/全宽门和全部pending保持。Budget只对确捕ResourceStop转传，未知SystemError仍真异常；139原输入/1440片/六primitive/1800秒实际入口继续，不以fixture作门。R308已推3ee8c03b，137仍付完整当前128 final。
+
+## 2026-11-15 /root — Request139完整cap端点积分实际入口
+
+[139接口](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)四件已全文diff/接口读后发布：新89307B源f12f7470、request3c210929、原workflow新1e93333a；root独立核10源/3proof/新21bd规则与原参数/query不变，仅AST及字节元数据。完整w端点式、各原分量全宽门、真实ResourceStop与prefix/完整pending保持；同namespace always读回/清理，不存新raw。R306先独立推3aef1818；本次request push直接原public Actions计算，139结果未预填，连续g/far graph和137完整final继续。
