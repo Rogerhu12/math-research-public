@@ -255,3 +255,5 @@
 - [R271：真实固定测试的完整相邻交换行预算与同顶部双线性配对](results/R271-appendix-actual-fixed-test-adjacent-swap-row-and-same-top-bilinear-pairing.md)：同一实际top的全部交换行能量≤8||f||²/x，无Q因子；保完整双线性两端与非零左锚，顺次MP联合估计仍开。
 
 - [R150：参数2完整原投影谱与横向来源商上界18](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)：实际完整P谱1⁷,2,3/长度12；全原T长≤18，九个h0目标局部成员性仍开，高阶同P不再提供新信息。
+
+- [R271：整条真实正交jet旗保持固定测试交换行](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)：单对占据差在真旗内三对角，完整酉输运无维数损失；全部n/r/i交换行平方和≤49||f||²/x，非正交返回未付。
