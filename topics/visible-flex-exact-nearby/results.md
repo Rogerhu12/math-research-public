@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 全无限深有源 particular 二jet与实际坐标 ordinary 源逆。** [P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)完整支付root两行、真实graph affine drive、strict两个mean、positive零迹particular及raw PDE二阶重建。新增actual mixed图普通源域S_at1026，保原真实尺度/weak端迹/全部浅前缀与δ8192^-485/4；Gbody<2^1600000 εC S_at，物理归一C²最终<2^3400002 J20δ22(外G+εC S_at)。原fixed-t S2与analytic224尚无自动转授；classical及接缝假设明确保留。
+
 - **R133 actual 真端点与完整无限高频试验列。** [实际报告](notes/2026-11-15-R133-actual-true-cap-adjoint-boundary-high-Grams.md)：public43666716585/1 child0/10门/3完整stage。真9/10 Hermite左端、25/8真outer、全97含mean与全部高频输出；逆角P0/P1、alias/无限尾均实际通过。trWT<1.132443e−9、trWL<1.833309e−19、trWR<1.146113e−80，κ<13.367450、c*²<.010388235。全7908体残差仍待合成，不冒称完整Wcap/全逆。
 
 - **R133 同97后验与方向保持的真Poisson收缩合同。** [P1–7](notes/2026-11-15-R133-complete-same97-cap-posterior-and-Poisson-contract.md)将7908完整body与真左/outer/high同输入Grams按正固定权组合为完整Wcap；formal+Hessian与true残差仅按完整组比较，保97含mean全部有符号项。再用同repair/真BR输入单位的三种实际HY计算tr(HY Wcap)，不以绝对entry范数代替。帽区可以先独立出数；实际Grams未全成之前不授数值bound/全无限逆。

@@ -253,3 +253,9 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 完整左/outer/high三stage：trWL<1.833309e−19、trWR<1.146113e−80、trWRB<1.271736e−51、trWR0<5.061954e−21、trWT<1.132443e−9；完整tail-only<8.971376e−89。逆角在ρ1/16实际P0<.005483389/P1<.022178877，原独立mean响应和outer正old/current比较全保。κ<13.367450、c*²<.010388235实际核原repair/Hessian门。0target/旧trial/原四格重算；全7908 ordinary body未完成前不宣称Wcap或无限逆。
 
 实际最新pull02:15:02.259762→0c9a439142dd5f4c175a39bd64519105c1dc07a0、两README diff空，本次只读核05734b5ccb6de249b5bc378ea88fbae91c882b2c。H9797B全存notes/2026-11-15-handoff-before-deep-source-jets-and-cap-boundaries.md SHA0e62ecf2b8e9e5db2b18370a890191eefd6fff4390ed140537d01c6e47983f07再缩写尾网络，不丢历史。02:19本机真pull仍报No usable execution environment。
+
+## 2026-11-15 02:21:33 UTC — P1–31 全深有源二jet与actual ordinary 源逆
+
+亲读全文及原J34–40、S32–40、C27–33、U6/U8、D20–28。直接核P9图同伦守恒：q=uξ+c ζηuφ+Fξ−ζηFφ，演化无1/ζs，允许ζs=0/变号而不冒充全域单调坐标图。普通potential和两个mean行、weak-to-bare真实端荷全保；原positive零迹能量不抹共同高度/两端总flux。原PDE给raw第二径向jet，无未付Q_t/Q再微分。
+
+P22实际mixed-root/graph1026源域与fixed-t S2严格区分；P28完整有序源word先付，P29两Poisson后再源Schur。浅段权最坏105.25/69.78125、深段16/1647/32，原δ8192^-485/4与J^4189不删；Gbody<2^1600000 εCρ,ε S_at，P31最终2^3400002 J20δ22并保真实Cartesian尺度。只有classical密度及接缝相容才称C²，弱原子仍BV/单侧。最终文件SHAa4bab7cc583e94834a458278d626e4326d9d6c549eb46f53b9a50be77f576aac，只改状态句，原P全文科学式未动。未授原analytic224/全δ/ν非线性，继续真实源域接线。只读README核3c4b7a55cbf332fbf5da52739df024da62daef9f未变。
