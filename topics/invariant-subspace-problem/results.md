@@ -161,3 +161,6 @@
 - [R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：同九条第四规范的七个实际第五头与全部6188来源，公共53/47、指定82/81/75，K95下条件费8638/目标222；第六页2805高来源不可删。
 
 - [R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：原N/Y低物理孔输入的真实carry四次幂界γ=770/256，完整Gram/逆的正确压缩方向、完整等权池Green低孔输出及N型同源测试反馈行；不作整个逆或原W上界。
+
+
+- [R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)：原零点17个独立五阶左头、完整6188来源及公共s53/s47，有限公共因子K99；同∞82/81/75下q8428…8589、条件统一来源费8634/目标222。目标成员性仍是前提，受限包络秩不作完整连接下界。
