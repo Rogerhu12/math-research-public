@@ -323,3 +323,5 @@
 - **R786（公开准确计算已完成）**：[1234条原五次幂基短展开](results/R786-certified-original-power5-short-basis.md)。run43682100611/source dd262672准确生成全部q0..128/40坐标，尺度82^10、原basis次序与配方全保，逐条核旧mod739；cert dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9。仅复用R775已成六stage和原R771，无power6成功假设。原L关系核、y/β/高度继续，原始数据仅一日活跃断点。
 
 - **R788（已证明）**：[原跨p Cartier修正与六秩耦合](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)。原p×p核恰为(1+Φp)P(z+t)Q(z−t)，明确Φp保原非零B且高整有限部全消；原首6×6minor det36使rank恰6，给全部Schur等式。未筛critical全零的六完整零行只是必要条件，不能用于仅primitive筛后全零。真正同标签非零与高度仍开，无新有限素数扫描。
+
+- **R787（公开求解工程，结果待实际认证）**：[原L函数关系的共同主元/Dixon方法](notes/R787-original-power5-relation-solver-method.md)。完成原R786/R781输入绑定、稀疏B0消元、14分支共同归一和原L整基全残差提升；只在素数模数下逆矩阵。最终必须非零A/B全129×20准确代回才能登记原y，β/高度仍未计算；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。

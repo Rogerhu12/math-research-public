@@ -350,3 +350,8 @@
 - R788将R702首pole与R784全六秩核准确合并，得到含原Cartier单位的有限环修正式；高整有限部全消，所有除p先整除后约化。
 - 原首6×6方块det36给rank6/全部Schur关系，未筛critical全零迫六完整零行。root逐式回核原pole范围、端点、实际六截面及低端乘数；真正primitive筛后零条件未解，不新增扫描。
 - H先归档再压缩更新，open/index同步。R787核心已落本地正审计，wrapper/workflow已准备；R775真实续跑仍在，主目标OPEN。
+
+## 2026-11-15 14:05 Asia/Taipei · serre-public-astra-20261115
+- R787原L关系核心/方法已冻结，直接用实际R786+R781；14分裂分支共同主元和自由列归一，Dixon保原L整基，全部129×280残差逐步检查，最终char0代回才认证。
+- root完整读core/method/wrapper，核原R786阶段schema、Laurent索引/符号、稀疏Z、分裂拼合、packed卷积和官方python-flint0.9.0 API；仅本地AST/文件SHA，无本地数学。core93d3d72b、method1d91bfc7。
+- 写真实输入请求触发公开workflow，预算300/350min；已消费的原生产者输入随一日active bundle转交，防止过期后重算。H先归档再压缩、open/index同步；R775仍续跑，主目标OPEN。

@@ -231,3 +231,7 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R788：原完整核的跨p算术耦合
 
 [R788](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)把原首pole与三wedge完整核合并：Fp[z,t]/(z^p,t^p)中K=(1+Φp)P(z+t)Q(z−t)，Φp=−12B Σ偶r z^(p+1−r)t^r/[r(r−1)]，保同一个Cartier单位。先准确除p后约化，全部高整有限部、双pole及跨项按实际次数处理。原6×6minor det36给rank6与全部Schur约束，首次把低f/g和Cartier常数放入同一实际系统。未筛全critical零迫六完整零行，但真正目标只在原primitive/Legendre可见集逐项非零，不能偷换为未筛条件；继续该耦合的真实共同零界。
+
+### R787：真实原L函数关系的公开求解
+
+[求解方法](notes/R787-original-power5-relation-solver-method.md)已落实：直接消费完成的R786基与R781 Laurent；小20阶Q块精确消B0，大A/Schur块只在合法素数下求逆。14分裂分支共同主元和同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构仍只是候选，须全部char0原关系通过且B非零才给原y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，真实输入请求已准备，实际rank/关系/β/高度不预填。活跃输入与阶段同一临时bundle转交，可直接续接而不重算旧生产者。
