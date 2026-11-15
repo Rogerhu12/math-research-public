@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：39799fc1a52b91629b3deed3b4fb45e29ae7b6e7；2026-11-15 02:06:19 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:06:18 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
+- 最近已读规则提交：a24bfa3d59da32453405764136ecc6b5d02e4fd0；2026-11-15 02:09:05 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:09:04 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43665493710/job132663812985实际pull成功且规则差异空，回执ci/rule-sync-receipt-2026-11-15T015747Z.json；本地仍断连，下一次最迟02:50 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,14 +14,14 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–648已登记；R364/R561仍开，R637/R649–652进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r644.md)、[open](notes/2026-11-15-open-before-r648.md)。
+R1–363、R365–560、R562–636、R638–648及R650已登记；R364/R561仍开，R637/R649/R651–653进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r650.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R644全固定次数边界已付；续R652真实J_D/Δ_D量化与全源传播，O4/O6仍按open保留。
-- theta：R645真实Y/A交域及强制q转置已付；续R650两个固定门的原W词/低轴完整比较。
+- theta：R650固定门W全四行补偿及实际odd1755轴已付；续R653两失败支与原S/T的真关系。
 - literature：R647原S/T/U完整Cartier已付；续R649同源真实必要式的算术非零。
 - deep：R648全C全Smith已付；R651旧高临界同P整提升，R637旧同R/全Padé/26carry非零仍开。
 
@@ -43,21 +43,17 @@ R567纠正、R594同q/坏集、R599–613全态/隐藏cut/参考均照前检。R
 R634 whole S72/原T各EW层、ΛB质量52/3均保持；W−的[17]degree20808不认T。
 M1接P1=−36bKΩ5I1+B1及三补偿，Vdeep在p⁴，另两项/B1不删。
 
-R638在(μ0,μW,h_W)整饱和三态上
-D: μ0→μ0, μW→h_W−μW, h_W→h_W；
-K: μ0↔μW, h_W→−h_W；D²=K²=(DK)^4=I，源群8元。
-原Y/W/EY/EW四轴物理为A=P_Y,−κ、B=P_W,κ、Ac=κA^-1、Bc=κB^-1，
-源D/K/D/K，外部λ/λ/ελ/ελ；全部伙伴、中心及同q保持。
-三W边际=(6δT,6δT,0)，真实word须用完整逆像W P_word^-1才回原JT；
-新线ΛB的EY核−ελ，单位域质量(1+ελ)52/3。混合Wcut不穿投影。
-reduced word真实Smith(0,r)，不同同长像格不同；首字异的交域恰p^r整平面。
-Y^n/W^n共同部分的单位cut仍分别Yunit/Wunit；原两中央0只给O′B,n0，
-O′A,n=−ε^nλ^(2n)β^N0 d L_n，L_n=Σ(-1)^(k+1)(2(-1)^nκ^n/bY)^k M_k/k。
-完整差商−bY O′A,n/[2dβ^N0(-ε)^nλ^(2n)κ^n]→M1，误差p^n；
-M1接同I1+B1和三个真补偿，O′A,n未赋零。无隐藏q子域可单独抽β^N0。
+R638原(μ0,μW,hW)三态D/K整饱和、D²=K²=(DK)^4=I；真实四轴A/B/κA^-1/κB^-1及外部λ/λ/ελ/ελ全保。
+三W边际=(6δT,6δT,0)，word须完整逆像W测试才回JT；源群不等物理词域，reduced word Smith(0,r)、首字异交域p^r全平面。
+Y/W共域仍Yunit/Wunit两cut；两中央0只给外部B0，外部A′=−ε^nλ^(2n)β^N d L_n，差商回M1并保全部补偿。
+ΛB的EY核−ελ/单位质量(1+ελ)52/3、隐藏q子域不单抽β^N，均照完整前检。
+
 R645真实Y^n∩A^(2n)=A^(2n)Q5^n，μ0全返回χ65^nλ^(3n)；原S/T总行及外部均保。
 共同变量的q两门差(1−κ^(2n))aA，交集迫A∈p^N，与A词的Yunit严格不交。
 原L4=1迫q第四法向jet≡x²，11自由项不能删A转置；n≥N两门固定，四个Kj0/Kj1保完整log质量和q导数，未赋积分非零。
+R650固定q门D_i在W操作下增(z−1)γ_i W，γ0=−(6+ω)/60、γ1=−(61+36ω)/360；交门恰W深N。
+原四K同W两层给(1−λ²)K=低W环带+完整共同门/两失败支，不删log质量。
+实际A门5D1=(5,5ω²,−10ω,0,−6ω,3ω)，六C支whole odd1755核χ65λ；整K_A返回Ehatunit/Aperpunit，E/G/log全部κ^N D1项保持。
 固定CM稀疏单位只用于固定λκ有限式；负五Katz仍root−，I1非零未付，不能数p依赖负矩。
 
 ## 惰性完整中央、解析与全成本
