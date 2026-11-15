@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 14:50:29 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 14:51:51 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 14:22:21定时及14:17两次非FF即时CLI均无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；继续每小时真CLI，ref不冒pull。root亲读runner S1真pull14:32:10.254414→155853469b1b3bae19801371468c6eae143691aa、Green14:45:38.575824→a98e0fc95f624d7fd4a83d71f86a19b7de2cf165，两README diff空。
-最近只读README核：0aa9dca2d8029721cd1e820948699206a7da4388；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：94196f4d3d18f3a407e07fdf584ff113c1595103；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/open/log为00dfdc3c4b4fa92ca88705b490ac4b01f01a3686同路径，包含24b/8994/acfd/a012/40eb及更早archive链。全部原输入/域/源单位/mean/失败/restore/禁重成功数学/未付义务继续有效。
 
 ## 总验收与同一个对象
@@ -37,6 +37,7 @@ GH/0ffb191a完整R:H(s−4/3)→Hs右预条件χ=128CsΛJ^-1/3<1；C0≤1/32仅J
 PD/58bdf173完整phase近似逆：r_f=(AG−I)f、rν=Azν−Nν；S=<bν+Lzν>实际非零仍需证，raw目标经b/J给D FΔ=(f+r_f+rνκ,b+E′a)。rho15主gap1/(68j)给aHs≤17wHs+1；Cs=(9/8)2^(s−1)，E′a全mean/有损quadratic及smoothing完整Taylor已证并tail独核。原physical第四Robin/mean/腰/两Γ均保；不把小E′作同阶Neumann、不冒已有迭代/Schur下界，真β背景转移仍独立。
 帽X/M/I/R/CS全部原域/mean/λ/height/κ/affine/high保8994同H/open。γA0≤1e−9、fBdotA²≤2^-60、ρ3e−6/Lip.881；K*−K0<1/5仅帽图，CS伴随L2≤108/角≤65536，κ费独立无√97。I全模18/1/25与R fixedmetric tiny列不替真Γ/ν/core。
 RB/e87d247a真moving ordinaryL2≤80 physical pair-sum，B+≤80[Aδ,+ +√长度(18ΔγL2+ΔfH2/25)]；Aδ,+实际基点差非零，保fullmean/反射phase/固定sB。禁ordinary冒Σmode sup，fallbackρcap不付低门；tail正在补右子collar完整ordinary/mean/Q/outer来源。
+RC/0fd5d845已付同M实反射γA0≤1e−9/fBdotA²≤2^-60的右帽wide C0：完整ordinary/Q/outer/mean得X<1.75e−6，保knownδ差10d及真实inverse角，moving pair<8.2297e−5<1e−4。只授[.9,.95]右wide前提，左/同态H1/五窄MA/cL/ZL/ZH未付；tail继续weighted receiver。
 
 ## 低高trace、exact tail与最终几何
 

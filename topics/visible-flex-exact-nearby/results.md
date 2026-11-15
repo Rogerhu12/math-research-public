@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RC：实际右帽宽collar C0入口](results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md)：同已成M实反射零宽输入域，完整ordinary/Q/二次/outer及两mean给X<1.75e−6，真实inverse角与knownδ差后moving pair<8.2297e−5。已支付WC最宽表右半C0前提；左半/窄高域/同态matching及实际低迹仍独立。
+
 - [BG：精确leading transport逆列与五项完整density0源](results/R133-supplement-exact-inverse-leading-transport-and-five-density-zero-sources.md)：有序相乘准确消去c_T*y并保留full q修正、SB物理频率逆与全部均值；新20正泛函只更新五整项，另26逐字HP。解析证明已核，数值待HP实际回执后公开Actions。
 
 - [准确normalized p列与完整十h源](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)：B_jp0保principal与y³/y²完整修正，h1消费DG p既成jets；η^-1、两Γ/M窗、SQ/RQJL/rQmean/uJL/uh两density共十整项，另21保最新S1/ER。8101e7e6，actual待新消费者。

@@ -160,6 +160,8 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 [RB真实右帽ordinary body](results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md)e87d247a以完整m=1/<C>和反射定相位，准确Φ差保均值；只微分已知Qδ，用真实测度得moving pair L2≤80 physical pair-sum。I全模18/1/25给B+≤80[Aδ,+ +√|I+|(18||Δγ||2+||ΔfB||dotH2/25)]，Aδ,+是实际cap基点−ΨQδ的独立非零body差。fallback含ρcap，不能充低门；不转授Σmode sup，不取消WC/MA同态域。左右body仅全cut/两mean/phase匹配后可拼；sB固定才用归一高度差。
 
+[RC右帽宽C0实际入口](results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md)0fd5d845已由旧成功源/weighted-Q/X/M/RB严证：同实反射零宽γA0<1e−9、fBdotA²<2^-60域，完整ordinary荷+线性Q+.061端点反馈+二次值13给X<1.75e−6，真实两均值/knownδ差10d/逆角给moving pair C0<8.2297e−5<1e−4。由此WC最宽表的右半[.9,.95] C0前提实际已付；左半、同态matching/H1、五窄MA域、cL/ZL/ZH及core存在独立。I=∂^-1P非零在全L∞的π/8核直接收费，未多减mean或加入L2测度因子；下一步实际receiver仍保ordinary/Q/outer/mean。
+
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
 collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可用完整Fval/factorial。旧7296的f0平方dr积分不受此项影响。

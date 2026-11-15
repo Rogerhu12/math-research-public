@@ -451,3 +451,9 @@ root全文读HP SCI538行、稳定S1 worker完整差异、flow与82pin manifest�
 提交blob2db8ac98d976634771e204671dd974988d5f74b2 /15695/SHA f634f95cd7fe17949995d7c6f50a27633e9061b156f5b882aab67bcded91acf3。root逐式从原F/G有序乘矩阵得B0G0w0=(W/2)(s(cBplus+y²),xζ−BplusΞ)，第二分量c*y准确消去；通过resolvent保B_Vg0全部q修正和B_V∂φR0，不跨导数换序。BG12–16保fullSG holXi而非实角Xi，SB Cauchy阶乘(k+2)!/2含全部V/Δ导数，外q一次；BG18–22保六行scalar v完整乘积、transported mean两项及三wholewords。phase全文独核通过，newton函数摘录另核。20新A/五density0完整项外26逐字HP；无旧科学闭合重跑，数值尚未执行，必须先冻结HP成功actual。
 
 H/open缩写前完整记录保00dfdc3c4b4fa92ca88705b490ac4b01f01a3686，旧预算/域/义务全部有效。发布前两README在0aa9dca2d8029721cd1e820948699206a7da4388身份未变，真pull仍按H时限持续。
+
+### 2026-11-15 14:51:51 UTC：RC 真实右帽宽 C0 入口已证明并独推
+
+final blob478a6dd2c9c4c42df81eb9c72850b8aa32b758c6 /11596/SHA0fd5d845c9d441220d3255f1d95124a2e9ebca4c5cedc7ffa8dea1946fec79ea。root全文核RC以及原X(8b49cd59)/E(0e6c0f6a)/ordinary报告bc19415f；M(df9ba072/8d9e0bf3)前3节直接给同零宽product域，未冒未知analytic strip。原ordinary actual27436B/f5eea9a8中barZ=1e−9、height2^-60、D_Zd=.005906950158…、D_ZCmean=.000738368769…与mean/reflection/domain核实；A.17–19完整分母/卷积13值费与26导数区别。完整值式X<3.07e−7+.824X+.061Z在已有ζ域给X<1.75e−6；RC13/15准确有理margin，RC19–23保fullmean、I在全L∞核π/8、knownδ两个global sup之和10d，最终moving C0<8.2297e−5。tail/newton此前独核均过。
+
+这里只实际支付WC/WA右半[.9,.95]最宽C0域；左半同state、matching/H1、五窄MA高域、actual cL/ZL/ZH和全core未付。零新旧科学程序重跑；不把此C0当ordinary小body或低trace。发布前只读README核94196f4d3d18f3a407e07fdf584ff113c1595103未变，已读号同步H。
