@@ -32,21 +32,19 @@
 
 [持久128缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)、[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[接线](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：F与独立gram C分别求导、不默C=F_e，小残差不界D残差，不冒IEEE光滑/新J；113不改；exact_refinement写独立有限轨迹JVP，未运行。
 
-### 119已完整读回；120非零112及121接续
+### 119已结清；120非零112及121接续
 
-[117](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)已结清；[119八批实际](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)run43693462669/source6fffce1f/job132748791692及report132749530039均success，130.226122293s，8批各原8方向全部接受，明确批数停止，无资源partial。W1056.4579275781534→739.9479122854005，末unit首项−38.46941285550693，所有原unit/full112/native/nonzero/success仍false。
+[119八批实际](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)run43693462669/source6fffce1f/compute132748791692/report132749530039成功，8批各原8方向全接受、显式批数停止。W1056.4579275781534→739.9479122854005，末unit首项−38.46941285550693；unit/full112/native/nonzero/success全false。末3×6最小奇异3.2653479765584335、前三列.41668210491439717、radius.00078125，不推导无根/极小/秩丢失。全部trial/FD/scalar/零circle已读，正常可选省略有身份非over-budget；真实status→summary→recipe，raw已删。117及119全数值/身份见正式note。
 
-全部原trial/初末FD/每批新scalar域/三odd冻结453零circle已读。末完整3×6最小数值奇异3.2653479765584335、前三列.41668210491439717，radius.00078125；不能从变弱/小步推导秩丢失或无根。第2–8批正常reader省略可选字段有明确身份，非over-budget；wrapper真status+原摘要后传参数，child自己的父状态未读声明不伪改。已读raw删，无上传；全部8summary和状态身份见note。
+121从第8批真实六末p重启独立8批，各radius=.1；原e154/79464/3e2c、24闭包/8×20/12×20/final不变。末recipe1568B/cb2e9c83、summary77719B/74926bcb、status1977219B/33e7b1fd。geometry五件已冻结/tmp/visible-six-control-batches121，root待读/发布；不能hash伪恢复raw。
 
-121从119第8批真实六末p作新独立8批，原family79464f9c/search e154afe2/reader3e2c0515及24闭包、8×20/12×20/final不变，各radius=.1。原末recipe1568B/cb2e9c83、summary77719B/74926bcb、status1977219B/33e7b1fd，不能由hash伪恢复raw。geometry接独立源/接口，尚无121run。
+[120完整请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)六件已root全文读并发布：wrapperef4e977c/reader3f22a074/recipe1b9f8dc7/request6006acdf/workflowd6ffd544，99源绑定实际HEAD+新2源。选119第3批真实末p（非第8），summary73546B/4ec08e23/status1568824B/10c31f1d；前三列最小奇异23.479971346554226仅作初猜依据。λ=.001只缩前三core目标/对应初猜，不缩scalar。入口807f、client1cdf0e14、原01930无initialCheckpoint；4输入/2历史ready/78源真实恢复。三odd固定/三p active，453全态/高109自由；真当前H+完整J→原FD→同owner原banded/core/native/finalJ+audit，全部原门。300min部分运行/330step/350job、2700s规则、90KB诚实摘要后清临时，无raw上传。尚无120run/非零接受；低三阈值不作启动门，成功后冻全六设计转450维same-g。
 
-[807f非零112入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)已发布：三odd固定/三p active、显式λA、453态/高109自由、真实当前H原FD及完整原banded→core/native/finalJ+audit。120六件源已冻结待root全文读/发布：选择119第3批末p（非第8末点），summary73546B/4ec08e23、status1568824B/10c31f1d；前三列最小数值奇异23.479971346554226仅作初猜选择。λ=.001只缩前三core目标/对应初猜，不缩六scalar；client1cdf0e14/原01930配置无initialCheckpoint，4输入/2历史ready/78源真实恢复，300min部分运行/330step/350job。低三阈值不作新增启动门。尚无120run或非零接受；成功后冻全六设计转450维same-g。
+### 118补真实midpoint471，运行中
 
-### 110已完成；118补真实midpoint471
+[110](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)8真实model+FD全接受而最终全false，末alpha1/2048；后七最近拒绝为未选MID471，末beta²−3.8894462797367524e−5。各模型W不跨行减；末warm c02da9e1/status90bfb02a已删，不能由hash续算。
 
-[110实际](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)run43685348016/source8d4a3af1/job132724561759：8真实model+原FD全接受，显式8批停止，native/fullDN/success全false。各模型W不能跨行减；末alpha1/2048，后七批最近拒绝均为未选原midpoint471，末最近拒beta²−3.8894462797367524e−5。末physical .007107378585750384/BC6.276408182782244e−9；FD1.0788333791801373e−9。
-
-末warm c02da9e1/status90bfb02a已清理，不从hash恢复。[118完整配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)现已发布：32=20LEFT+12MID，只加真实MID471，capture/local8453/C4059/outside不变；从可恢复actual98原31 pair另起，随后传本job真实32 pair。75+worker源pins，worker336fc522/recipef5c0e2e6/request1a446102/workflow96eeef3b；8模型各fresh FD，λ270/全17trial/原预算，step175/job185min，无raw上传/新native门。实际run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC启动，已进入原8批science；尚无结果。
+[118配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)32=20LEFT+12MID，仅加真实MID471，capture/local8453/C4059/outside不变。从可恢复actual98原31 pair另起，后传本job真32 pair；75+worker源，worker336fc522/recipef5c0e2e6/request1a446102/workflow96eeef3b。8模型各fresh FD，原λ270/17trial/预算，step175/job185，无raw上传/新native门。run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC启动；08:25:37仍原8批science，未读结果。
 
 ## 几何及接受场之后
 
@@ -62,4 +60,4 @@ same-g v4冻结g/全p/t范围，K=k=0/activep空/T=M/state4M+2；699二分1397+k
 
 ## 维护与重做范围
 
-已完成95–117各结果在正式note，113及118运行/119已结清/120待发布/121草稿。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
+已完成95–117各结果在正式note，113及118运行/119已结清/120已发布待实际run/121待root发布。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。

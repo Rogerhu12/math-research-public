@@ -177,3 +177,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:27:16 UTC /root — actual119八批完整读回并区分两个真实起点
 
 [实际结论](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)：run43693462669/source6fffce1f，8批各原8方向全接受，W1056.4579275781534→739.9479122854005，所有原final仍false。全部外trial逐读，末两批大步拒绝多为有效候选不达Armijo，同时保内层域异常/内层tol=false实际接受；不冒极小或无根。原正常reader第2–8批可选字段省略有bytes/SHA，不冒over-budget。初末FD/新scalar域/零circle及true status→summary→recipe生命周期核过，无raw入库。121从真实第8批接原搜索；120以第3批较强前三列响应作初猜选择，λ=.001，保持原完整非零门。H压缩已完成117/119到正式note；113、118仍运行。
+
+## 2026-11-15 08:30:20 UTC /root — 发布120真实第3批参数的正λ完整112实验
+
+[120接口](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)9512B/37f8b33f、两source/recipe/request/workflow均已全文读；核99源缓存SHA与实际HEAD Gitblob及新2source，实际119第3批原参数/摘要身份逐字相等。wrapperef4e977c/reader3f22a074/request6006acdf/workflowd6ffd544保原807f/1cdf0e14、4数学输入+2历史ready+78源、真当前H全J/FD/原fullDN全部门。λ=.001仅缩目标与一阶初猜，不缩六scalar；原300min墙钟只报告partial，90KB超限不冒完整。无本地科学/未来run预填/raw上传。H将已结清117/119/110重复值缩至正式note，保五标题与全部未付责任；继续121/JVP源及实际读回。

@@ -56,7 +56,7 @@
 
 [同g精化入口](notes/2026-11-14-same-metric-live-refinement-entry-and-current-gaps.md)已明确冻结所有scalar p、g、区间、尾帽、t范围；same-g v4置K=k=0/activep空/T=M。699节点二分至少1397再加knots，prepare/fullDN两个max_nodes均须充足。更高M或tailsteps不得偷用旧61种子冒同配置。精化误差须达到机器或原solver容差；真实未付接口按原源补齐，不重造旧求解器或增机器门。
 
-[新六控制非零112完整入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35已发布：固定三odd/三active p、显式λA、完整453态及全部高109、真实当前H原native+全J/原FD、原banded与fullDN函数体及全部final门。当前四数学输入不变，原client1cdf0e14/01930f3b配置无旧initialCheckpoint；两ready从真实历史env恢复。无需低三先达阈值才启动有限正λ尝试；120六件完整源/接口已冻结待root发布，以实际119第3批末p、λ=.001接线，没有非零场接受结果。实际成功后须冻结最终六参数，不继承117旧域证书或宣称same-g。
+[新六控制非零112完整入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35已发布：固定三odd/三active p、显式λA、完整453态及全部高109、真实当前H原native+全J/原FD、原banded与fullDN函数体及全部final门。当前四数学输入不变，原client1cdf0e14/01930f3b配置无旧initialCheckpoint；两ready从真实历史env恢复。无需低三先达阈值才启动有限正λ尝试；[120完整请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)已发布wrapperef4e977c/reader3f22a074/request6006acdf/workflowd6ffd544，99源与原输入绑定；以实际119第3批末p、λ=.001走真当前H→原FD→完整fullDN，300min部分运行/330step/350job，所有原门不变，没有非零场接受结果。实际成功后须冻结最终六参数，不继承117旧域证书或宣称same-g。
 
 ## 3. 全t强C²、嵌入、reach与整像幅度
 
