@@ -1,0 +1,216 @@
+{
+  "format": "r150-saturated-second-selective-recovery-v1",
+  "allSelectedHashesVerified": true,
+  "artifactInputs": 22,
+  "repositoryInputs": 4,
+  "inputs": [
+    {
+      "label": "kernels",
+      "scope": "all198",
+      "restoredArtifactPath": "inputs/kernels.bin",
+      "selectedPath": "inputs/kernels.bin",
+      "bytes": 2200126,
+      "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f"
+    },
+    {
+      "label": "fourK2",
+      "scope": "all198",
+      "restoredArtifactPath": "inputs/fourK2.bin",
+      "selectedPath": "inputs/fourK2.bin",
+      "bytes": 2236198,
+      "sha256": "653867bccc606ec234c65eacfbb014fe14e055fcd50f2ea3f2506344d2aad8c7"
+    },
+    {
+      "label": "selectedK2",
+      "scope": "all198",
+      "restoredArtifactPath": "selected-delta/selected-delta-primitive-source-mod29791.bin",
+      "selectedPath": "selected-delta/selected-delta-primitive-source-mod29791.bin",
+      "bytes": 4700740,
+      "sha256": "5ab8223d69912ea5b102f71ad3439b3860594188386fce9b82f937944c90a554"
+    },
+    {
+      "label": "ninthIntegerModel",
+      "scope": "ninth",
+      "restoredArtifactPath": "inputs/original-integer-31squaredh0-mod887503681.txt",
+      "selectedPath": "inputs/original-integer-31squaredh0-mod887503681.txt",
+      "bytes": 38998,
+      "sha256": "5d418686b82665f7e988a0624440e70f44f0c6ba06c124b44fa85f7c17d04e7a"
+    },
+    {
+      "label": "ninthIntegerModelReceipt",
+      "scope": "ninth",
+      "restoredArtifactPath": "inputs/original-integer-31squaredh0-mod887503681.txt.json",
+      "selectedPath": "inputs/original-integer-31squaredh0-mod887503681.txt.json",
+      "bytes": 691,
+      "sha256": "68938651aa48475dcc695bf9547ca3e7f6edc96061fb3352a9facbd9bd7d877f"
+    },
+    {
+      "label": "model",
+      "scope": "notes",
+      "restoredArtifactPath": "r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "selectedPath": "r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    {
+      "label": "state",
+      "scope": "notes",
+      "restoredArtifactPath": "2026-11-14-r150-torsion-state.bin-789f.gz",
+      "selectedPath": "2026-11-14-r150-torsion-state.bin-789f.gz",
+      "bytes": 145540,
+      "sha256": "5d86da2405f357c165d80d7fc2def5f419163b1e5d5a14bc9fa33fc05fafb60c"
+    },
+    {
+      "label": "jetMap",
+      "scope": "notes",
+      "restoredArtifactPath": "r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map.bin",
+      "selectedPath": "r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map.bin",
+      "bytes": 181038,
+      "sha256": "3f291285db5a6e97a5db977b3402dbdcc9f7b9e5fb8a48d31b0e219e89e71716"
+    },
+    {
+      "label": "jetMapReceipt",
+      "scope": "notes",
+      "restoredArtifactPath": "r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map-receipt.json",
+      "selectedPath": "r150-second-bockstein-jet-quotient-map-789f/jet-quotient-map-receipt.json",
+      "bytes": 34774,
+      "sha256": "5d3e09b26487355b32f20600764664def3dee0be34120e1c8202307eda5526df"
+    },
+    {
+      "label": "oldK",
+      "scope": "old200",
+      "restoredArtifactPath": "original/kernel-original-kernels.bin",
+      "selectedPath": "kernel-original-kernels.bin",
+      "bytes": 48275717,
+      "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88"
+    },
+    {
+      "label": "secondPreparedReceipt",
+      "scope": "second",
+      "restoredArtifactPath": "prepared-second/prepared-saturated-second-receipt.json",
+      "selectedPath": "prepared-second/prepared-saturated-second-receipt.json",
+      "bytes": 18840,
+      "sha256": "f8ffc939972363e79d0027946c5268c32f869e90adc6fead115fbd29b0ea1ca4"
+    },
+    {
+      "label": "secondPreparedSystem",
+      "scope": "second",
+      "restoredArtifactPath": "prepared-second/prepared-saturated-second.bin.gz",
+      "selectedPath": "prepared-second/prepared-saturated-second.bin.gz",
+      "bytes": 42012,
+      "sha256": "691717421b0b7558f7ca053054c6c3f23bde5aa96fc93f36a744ad1171c4ba03"
+    },
+    {
+      "label": "secondL3Source",
+      "scope": "second",
+      "restoredArtifactPath": "true-L3-twenty/true-L3-twenty-original6188-integer-jets.bin",
+      "selectedPath": "true-L3-twenty/true-L3-twenty-original6188-integer-jets.bin",
+      "bytes": 97616387,
+      "sha256": "6a1180f153e3305510554b54f35894955a2863459db665315f80f36e34beddb3"
+    },
+    {
+      "label": "secondL3ProductReceipt",
+      "scope": "second",
+      "restoredArtifactPath": "true-L3-twenty/true-L3-twenty-integer-product.json",
+      "selectedPath": "true-L3-twenty/true-L3-twenty-integer-product.json",
+      "bytes": 2292,
+      "sha256": "9a2695faf1c706d6eb85879978a29eb68211672e9901b5c4c8a3acd67037920f"
+    },
+    {
+      "label": "Gcache",
+      "scope": "second",
+      "restoredArtifactPath": "q1-twenty-vq/q1-twenty-vq-actual-G-root2.bin",
+      "selectedPath": "q1-twenty-vq/q1-twenty-vq-actual-G-root2.bin",
+      "bytes": 21118452,
+      "sha256": "bf23bec6ebc0e90910988c9acabe1bdacd760af8c49d84aea4990419590cb219"
+    },
+    {
+      "label": "Vcache",
+      "scope": "second",
+      "restoredArtifactPath": "q1-twenty-vq/q1-twenty-vq-actual-V-root2.bin",
+      "selectedPath": "q1-twenty-vq/q1-twenty-vq-actual-V-root2.bin",
+      "bytes": 45377672,
+      "sha256": "f52714e4acf271965cf8cdeb272dbfa74d588f61104489c99eac90740fbfa35b"
+    },
+    {
+      "label": "secondCompleteReceipt",
+      "scope": "second",
+      "restoredArtifactPath": "complete-second/complete-saturated-second-page-receipt.json",
+      "selectedPath": "complete-second/complete-saturated-second-page-receipt.json",
+      "bytes": 22107,
+      "sha256": "50e8aa0cecafc697b1d52a43792e095be35c4dadc71eff07b861569591d092b7"
+    },
+    {
+      "label": "secondCompleteSystem",
+      "scope": "second",
+      "restoredArtifactPath": "complete-second/complete-saturated-second.bin.gz",
+      "selectedPath": "complete-second/complete-saturated-second.bin.gz",
+      "bytes": 72934,
+      "sha256": "f20487d290193e738a5df67dccdf0c6d11c1c0b9e224dbd310fdc1a0180acaf7"
+    },
+    {
+      "label": "secondKernel",
+      "scope": "second",
+      "restoredArtifactPath": "complete-second/complete-next-source-kernel.json",
+      "selectedPath": "complete-second/complete-next-source-kernel.json",
+      "bytes": 137217,
+      "sha256": "f136d6f396831091766bf10cf77421af7dbedf58ab9f87a417b00133e38dfe7d"
+    },
+    {
+      "label": "secondL4Source",
+      "scope": "second",
+      "restoredArtifactPath": "all204-genuine-second-sources/all204-genuine-second-sources-original6188-integer-jets.bin",
+      "selectedPath": "all204-genuine-second-sources/all204-genuine-second-sources-original6188-integer-jets.bin",
+      "bytes": 75834648,
+      "sha256": "f85acb472648b3ebe898e8180cce6fdf8bc65acee81af719c94567f7164bee69"
+    },
+    {
+      "label": "secondL4ProductReceipt",
+      "scope": "second",
+      "restoredArtifactPath": "all204-genuine-second-sources/all204-genuine-second-sources-integer-product.json",
+      "selectedPath": "all204-genuine-second-sources/all204-genuine-second-sources-integer-product.json",
+      "bytes": 2533,
+      "sha256": "ae311ccc363503b886a4b94a8b15cc622a171d02a9a98d43ec4c51f8419c734d"
+    },
+    {
+      "label": "newOriginal",
+      "scope": "seven",
+      "restoredArtifactPath": "seven-and-current-original/seven-and-current-original-primitive-source-mod923521.bin",
+      "selectedPath": "seven-and-current-original/seven-and-current-original-primitive-source-mod923521.bin",
+      "bytes": 17260416,
+      "sha256": "0258b6690b107a3cd45d9f6ace7ddb3003bb64ff1345ab0eab7ac4d650c49f34"
+    },
+    {
+      "label": "graph",
+      "scope": "t96",
+      "restoredArtifactPath": "isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "selectedPath": "reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    {
+      "label": "normalTrace",
+      "scope": "t96",
+      "restoredArtifactPath": "isp-r150-native-nf/nf-reduction.bin",
+      "selectedPath": "nf-reduction.bin",
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    {
+      "label": "forward",
+      "scope": "t96",
+      "restoredArtifactPath": "isp-r150-native-nf/nf-forward.bin",
+      "selectedPath": "nf-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    {
+      "label": "backward",
+      "scope": "t96",
+      "restoredArtifactPath": "isp-r150-native-nf/nf-backward.bin",
+      "selectedPath": "nf-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    }
+  ]
+}
