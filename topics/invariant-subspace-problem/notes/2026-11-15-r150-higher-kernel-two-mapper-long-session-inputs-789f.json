@@ -1,0 +1,193 @@
+{
+  "format": "isp-high216-two-mapper-long-session-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "assistance": "AI-assisted, GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "temporaryLargeDataOnly": true,
+  "historicalInputs": [
+    {
+      "key": "model",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "destination": "{work}/inputs/repo/native-normal-form-input.txt"
+    },
+    {
+      "key": "forward",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "rawBytes": 2378937,
+      "rawSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "destination": "{work}/inputs/repo/nf-forward.bin.gz"
+    },
+    {
+      "key": "backward",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "rawBytes": 3052119,
+      "rawSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "destination": "{work}/inputs/repo/nf-backward.bin.gz"
+    },
+    {
+      "key": "full-operations",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-operations.bin-789f.gz",
+      "bytes": 4706546,
+      "sha256": "bfcc10520abedfab362b91adc6414481660d4a951aae0d7dfd13da3efba4e3ec",
+      "rawBytes": 8548344,
+      "rawSHA256": "d2555a117c9f79db448e8eb183d5420952fe001707f5ca81e20e98705b83a3ad",
+      "destination": "{work}/inputs/repo/infinity-first-jet-operations.bin.gz"
+    },
+    {
+      "key": "full-receipt",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-receipt-789f.json",
+      "bytes": 72072,
+      "sha256": "d904b1afcd6feb6d07e310e758869aa345342f7d013773aa0c433203291c438e",
+      "destination": "{work}/inputs/repo/infinity-first-jet-receipt.json"
+    },
+    {
+      "key": "primitive",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+      "rawSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3",
+      "destination": "{work}/inputs/repo/original-primitive-integer-equations.json.gz"
+    },
+    {
+      "key": "selected-receipt",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-selected-infinity-minor-dag-789f/selected-infinity-minor-dag-receipt.json",
+      "bytes": 75700,
+      "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68",
+      "destination": "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json"
+    }
+  ],
+  "smallSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-higher-kernel-original-216-source-preparation-789f.py",
+      "blob": "cc39351a565aa38c9220dbf51fe5e8ea46fd3864",
+      "bytes": 18126,
+      "sha256": "29c1fd1a5a79d6de469260ee408a9ae5778f709e089250688824d0eb79dbf8eb"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-through39-789f.cpp",
+      "blob": "ab69a115841f36b3674a9891f5448b0fb7992f94",
+      "bytes": 21017,
+      "sha256": "54631a695dbd6dc41c446c8c3ab60ba527c5dd4f34fbe70187cdd0613caef1fb"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-through39-runner-789f.py",
+      "blob": "dd18860399753ab71f0df9d85a7fedda78641846",
+      "bytes": 28178,
+      "sha256": "06fabed589011ec1c59e0594bbf373246cf306b7ce8cd5be73427a83dbb5ef5b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-outside-minimal-field-through35-789f.py",
+      "blob": "966bec3803258b08d338df5cbf7de8477d0138d5",
+      "bytes": 26984,
+      "sha256": "e31138060ede4a4c263c3904b624287579bef11a1275bbb12d918dcde2cdd234"
+    }
+  ],
+  "headers": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+      "bytes": 11284,
+      "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+      "bytes": 3030,
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    }
+  ],
+  "paidSmallInputs": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+      "bytes": 26242,
+      "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-full-infinity-original-dual27-v2-through21.json",
+      "bytes": 35730,
+      "sha256": "2782f380fe5731fd4766fb05fa94a6fa38c36d2d5e491bd63dd1149adc3a9388"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-koszul-outside-minimal-original-field-through21.json",
+      "bytes": 27989,
+      "sha256": "e6dba9125956ba9372c491b9770474516f739f1470dc0ec0a9bbce0d21823af5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43736746064-higher-kernel-original-216-source-preparation.json",
+      "bytes": 14075,
+      "sha256": "ba8bd267563e7cb24f49704c76d0f12a5226e2255d5a3b70ffa7249e90f6b484"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+      "bytes": 9957,
+      "sha256": "b803d92f159bf26bc9b4a80bbaf5a150ff8f17e81e201b0a99e845b7777038e4"
+    }
+  ],
+  "phasePlan": [
+    {
+      "phase": "same-original216-source-preparation",
+      "mainReceipt": "higher-kernel-original-216-source-receipt.json",
+      "sourceKey": "higher216_prepare",
+      "out": "{work}/higher-kernel-original-216-source-preparation",
+      "mathematicalSeconds": 60,
+      "memoryMiB": 512,
+      "nativeCompiles": 0
+    },
+    {
+      "phase": "complete-original-full-dual-through32",
+      "mainReceipt": "full-infinity-natural-dual-schur-receipt.json",
+      "out": "{work}/full-infinity-natural-dual-schur-through32",
+      "maximumDegreeInclusive": 32,
+      "mathematicalSeconds": 180,
+      "memoryMiB": 1024,
+      "nativeCompiles": 1,
+      "compileSeconds": 30,
+      "required": {
+        "status": "completed",
+        "all66PaidOriginalPrefixCoefficientIdentitiesVerified": true,
+        "fullInfinityTorsionLengthModulo31": 66,
+        "fullInfinityMaximumPositiveExponentModulo31": 11
+      }
+    },
+    {
+      "phase": "complete-original-outside-through35",
+      "mainReceipt": "koszul-outside-minimal-field-smith-receipt.json",
+      "out": "{work}/koszul-outside-natural-through35",
+      "maximumDegreeInclusive": 35,
+      "mathematicalSeconds": 180,
+      "memoryMiB": 1024,
+      "nativeCompiles": 0,
+      "required": {
+        "status": "completed",
+        "all66PaidOriginalOutsidePrefixCoefficientIdentitiesVerified": true,
+        "allOriginalNaturalOutsideCoefficientArraysRetained": true,
+        "outsideTorsionLengthModulo31": 149,
+        "outsideMaximumPositiveExponentModulo31": 14
+      }
+    }
+  ],
+  "precision": {
+    "targetHigherMatrixDegreeInclusive": 21,
+    "fullSideSeriesDegreeInclusive": 32,
+    "fullSideMaximumInversePoleOrder": 11,
+    "outsideSideSeriesDegreeInclusive": 35,
+    "outsideSideMaximumInversePoleOrder": 14,
+    "lossesAreIndependentNotCumulative": true
+  },
+  "restorationReason": "Previous sessions ended and all their working arrays were lost; reconstruct the necessary original layers, then compare all66 completed prefix coefficient files separately on each side after transporting only their semantic header binding.",
+  "gzipIdentityNote": "The unchanged216 generator records gzip mtime. Verify its current complete-stage manifest and compare all paid logical dictionary/RREF hashes; do not require the old compressed curve SHA after regeneration.",
+  "higherMapperExecutablePending": true,
+  "characteristicZeroHighSmithComputed": false,
+  "selectedLeadingCoefficientUnitProved": false
+}

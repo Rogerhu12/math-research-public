@@ -323,3 +323,7 @@
 ## 2026-11-15：原1632条来源曲线与216列真实缩减
 
 [原来源直和证明](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实际3.845816541秒取得1632单位子式mod31=15，完整整数曲线和510082常项产品通过，故来源缩减在Z_(31)[[u]]、Q[[u]]及F31[[u]]同时合法。剩余SE27×216泛秩14、DVR核自由秩202；未计算其映射或特征零高谱。
+
+## 2026-11-15：完整正常三次高核与全部三次校正已分类
+
+[完整H3与首项稳定](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)以全部10200真Q原产品和独立2×2子式付上界988，原整数行缩放后单次F11 RREF付下界988。由此允许全部990个三次坐标的一阶首项仍恰15维、三次部分必零、九平方读数仍全零；尚未代完整β1。

@@ -24,8 +24,8 @@
 - full43731615668/local43731613530均16:30成功结束，tmp已失；full66/O149/G2与所有SHA见正式稿。需重建时用notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入及同选小receipt，禁止取回旧tmp。
 - F±及E8局部九h0来源均已闭：F±低谱3,3且F±²W；E8低谱2,2且E8W。原证明、全部共轭点和界保open最新入口，未知完整有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
-- local43736746064（16:40起45分钟）全部新步骤已成：s2 B583/[B,C]590、首项15、185640原产品及九零读数；纯/切向cube分别rank591/592仍15。完整H3实1.604522462秒以11上rank988＋两真Q核夹逼，故全三次高核恰2维且不增头；normal4/5及完整β1仍开。该job tmp不得跨session假用，所有SHA保实际小回执。
-- 新独立source-kernel长session已排：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，170分钟loop/180分钟job，每30分钟实际pull核两README并记H。只读7件历史输入到inputs/repo，先同源码重建216后续full32/O35双mapper；完整第一连接拟用原好11单位夹逼，无需旧22RHS缓存。
+- local43736746064（16:40起45分钟）全部新步骤已成：s2 B583/[B,C]590、首项15、185640原产品及九零读数；纯/切向cube分别rank591/592仍15。[完整H3](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)实1.604522462秒以11上rank988＋两真Q核夹逼，故全三次高核恰2维且不增头；normal4/5及完整β1仍开。旧job已成功结束/tmp失，所有SHA保实际小回执。
+- **新活跃source-kernel run43740928483**（17:24:27起）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，170分钟loop/180分钟job，每30分钟实际pull核两README并记H。7件历史输入全SHA已核，216同源实2.714139235秒重建；已排full32/O35各180s/1GiB，逐核旧0…21的66系数文件，再供两mapper；完整第一连接拟用原好11单位夹逼，无需旧22RHS缓存。
 - [真Q13投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实2.917069073秒付λ=2/12单位，全核Z_(31)[[u]]整/原freeI及80444原乘回真。[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实3.845816541秒，Φ_H(0)rank1632/det15，510082常项整数产品真；SE27×216泛rank14/核202但mapper未算。Q full/O/high及leading单位仍开。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给原17式常数来源，弱列导数阶降一；其余二次和共动反馈仍保留。
 

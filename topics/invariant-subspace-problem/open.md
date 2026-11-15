@@ -139,3 +139,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [真实切向三次增量](results/R150-appendix-two-tangent-coupled-cubic-correction-and-unchanged-fifteen-heads.md)实际仍无增头：增广rank592、核17、head15、全185640原乘回和九零读数。两三次方向的相容系数均零。下一步以完整H3的模11下界和两真Q核上界作夹逼；全normal4/5与完整第一连接仍须另付。
 
 [原216来源直和已实证](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)以整数Φ_H(0)的1632阶子式mod31=15证明[Φ_H,E216]在Z_(31)[[u]]可逆，完整原核分解由此成立。SE只需216实际列；两DVR上的核秩202不代替可良好约化的显式202基，源回填和两mapper仍须全原核验。
+
+[完整normal3高核及首项稳定](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)实际以F11 rank988与两真Q核夹逼，完整990列高核恰二维；结合全609低系统，所有normal≤3一阶校正仍仅十五首项。normal4/5及完整β1转原好11的整单位连接夹逼，不能仅用行内容缩放后的H3秩代整个参数族。
