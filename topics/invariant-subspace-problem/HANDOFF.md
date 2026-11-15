@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 8fc0b7d1a9433b3e3335b5734b8035f54ce9de24（2026-11-15 08:18:39 UTC，Actions run43693887596实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43693887596-1.json。
+- **最近成功实际 pull 与已读规则提交：** 1ab78df3f5bba14e63079f7e1e07cb12621d9060（2026-11-15 08:22:39 UTC，Actions run43694201938实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43694201938-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -17,6 +17,8 @@
 - [29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)：top29 mod31单位、bottomQ全0，W∈Z_(31)，前29全有真规范核。删前29自由列保Q列像；剩余至多7原有理方向仍未定，同选秩4318…4325。旧六规范源分母2356…3803bit解释p768重建不成；旧闭包/LLL/盲加位数不重开。二次skew亦不扩标准族，高系数未排。
 - [同选∞43及有限K67](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：29条同自然u真曲线给D/换列/cofactor阶≥43/42/41；原s=0切向O(s²)及真Q4340给公共s21，K67=s7K60、lc=5^6单位。q248…8660；先有原目标Q[s]成员性才得条件cost≤8705（非基8704），该成员性、lc(D)31单位及固定e全精度仍未付。
 - [full∞第一连接≤7及共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：真实切向M=c y²+d sym(yy′)使17式O(u²)，β的20纯切向坐标全零；真4340常秩余7维，十四正Smith至少七个≥2。未付β精确rank/全厚度，公共21与指定D43不能相加。勿混full6188、同4354选列及所选方阵的秩/连接。
+
+- [新核的一阶最小接口](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)：实得d真补核后，Θ=ΠA1W在完整27余空间的秩b给s=29+d−b；只需u²全来源提升便得D/换列/cofactor≥s+14/s+13/s+12，K67条件cost≤8734−s。当前s仍29，不预填七核/Θ；常数31饱和不付D首系数单位。
 
 ## 同w边界：同源完整返回仍须费用估计
 

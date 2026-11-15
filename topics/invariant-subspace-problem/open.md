@@ -107,15 +107,17 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 完整前文状态及全部参数保[本次压缩前全文](notes/2026-11-15-open-before-relative-hole-riordan-789f.md)，未列旧接口保持原状态。下列实际结果替代此前待执行表述，普通ISP仍开。
 
-### R150：29真核之外的七维补空间与原目标成员性
+### R150：原七方向与成员性当前状态
 
-[29条完整原Q核](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)已成：run43679903558/math33.711323768秒，原Koszul外支持rank1603、核29，全1834支撑及29列全部4367整数输出真；36自由像rank29、旧23精确包含，所选char0秩4318…4325。标准Koszul支撑族已经穷尽，不能在该族继续找第30维。
+截至本次的完整来源、旧参数和全部证明链接保[本次开放问题快照](notes/2026-11-15-open-before-new-selected-first-lift-789f.md)；已闭结果按下述最新状态续接，未列旧缺口不关闭。
 
-[原来源31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)已给ΓΦ=I和31饱和，投影不保J。[实际小图](notes/r150-infinity-remote-session-789f/43679903558-exact29-free-graph.json)再于0.063932317秒核top29det mod31=1、归一后bottom7在Q严格全零，故前29规范轴均已有真核，剩余真核空间准确是它加一个至多7维非Koszul补空间；不预断该补空间维数7。
+原17式/6188来源/4367输出的同选J支撑内已有29条真实Koszul核，前29规范自由轴在Q上全成且31整；已穷尽标准1632族、二次skew系数也不扩它，高阶整个Koszul模不外推。旧六规范源/p768、确定LLL、唯一新65521秩均已实成，不重复。删前29自由列后的4325原列只余七方向待精确分类，同选Q秩4318…4325。
 
-[原p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)的全部原整数身份保留；23核一次变量闭包与52/26/39确定LLL候选检查已经关闭，禁止重做这些入口。当前只核新六规范源的实际高度/完整p768同余，并对删除前29自由列后的原4367×4325矩阵作一次65521秩检验；其余方向继续原分次结构，不扫描更多素数或盲增原Dixon位。
+当前原4318单位系统经1567精确主元化为2751核心，列内容已全除，行内容/RHS新分母均1；可恢复原生Dixon正在同job执行，先逆列缩放、逆完整DAG，再接原4367残差消费者。详见本页末尾最新任务及H；单位解不是七真核证书。
 
-[统一条件降度](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)给c≥15时cost≤8755−c，当前29真核故条件8726、非基8725。这个界以原h0九目标已有Q[s]成员性为前提；lc(D)31单位及固定e无界精度仍未证明。[九原17式模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)已完成且实际cost1339，不重旧模页，也不以有限精度代原成员性。大数据只临时留在同session，输入及输出散列可重建。
+29条同自然u全源曲线给指定D/换列/cofactor≥43/42/41；有限K67及原目标已有Q[s]成员性的前提下，条件来源cost≤8705。九原式模31⁶实际cost1339不付无界精度；原Q[s]成员性、lc(D)31单位及完整Smith仍开。
+
+[新核的一阶最小接口](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)证明：若实得d≤7真补核，完整27余空间中Θ=ΠA1W秩为b，则s=29+d−b个常项可提至u²。无需实际求新4318阶右端即可得D/换列/cofactor≥s+14/s+13/s+12；保原K67时条件cost≤8734−s。当前只可代s=29；Θ未算不得预填。常数31饱和也不付D的首非零系数单位。
 
 ### 强联块同w、同源普通封口
 
