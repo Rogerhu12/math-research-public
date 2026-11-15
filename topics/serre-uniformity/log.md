@@ -650,3 +650,9 @@
 - 结果见notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md；run43767171070/source278d1920、finalf62a760d/manifestd19adcca、artifact14183811013/21cf154d。
 - 原深CRT与R787/R824继续；R837核心已到，接原P0/固定锚公开算术；压缩前H/open逐字归档且保全部旧边界。
 - 本push规则：本地真实pull至1f50686af77605646965fcd36b547dad317d4f1f（2026-11-15T22:42:27.086312+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:44 Asia/Taipei — serre-public-astra-20261115
+- R837原P0/21点锚公开consumer就绪：core5702b42e、runner eec99c9e、workflow9751c619；方法3fdfec25/四证明pin不变，本push请求激活实际Actions。
+- 真实R790146CM与R786三权前缀1413文件直读；两个Q右端/397维U/真2760×1380之1213minor为新算术，同prime固定u积复用且17列原子保存。
+- source最小载体、失败完整阶段及full manifest只一日artifact；本地仅源码/IO/AST，未宣称P0或锚已算。R787新518格已结束exit2，实际小回执读取中。
+- 本push规则：本地真实pull至f44492e1a7779dc06291e7c6027a894c4f62666c（2026-11-15T22:44:47.778165+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
