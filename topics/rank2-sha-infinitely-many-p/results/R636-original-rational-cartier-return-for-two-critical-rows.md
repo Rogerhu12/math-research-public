@@ -1,6 +1,6 @@
 # R636 — 原两临界行的有理替代、真实 Cartier 返回与完整曲率缺陷
 
-日期：2026-11-15。**状态：下述有理函数恒等式、原有限窗口比较及四条临界行的返回均已证明。**
+日期：2026-11-15。**状态：下述有理函数恒等式、原有限窗口比较及四条临界行及前五块的完整返回均已证明。**
 
 本篇不把 R639 的整形式因子认作椭圆函数。另行构造一个完全指定的
 $k(E_b)$ 中有理函数，它与原六次 sigma 来源在所需的整个窗口一致。
@@ -501,6 +501,124 @@ $$
 两条留数和两条真实 Cartier 值、整 Gaussian 重标的完整算子、
 以及 proper $p$-reduced 有理原函数的第二种有限模型。
 所有证明对允许的 $p$ 统一成立，没有新增目标素数扫描。
+
+
+## 8. 原前五个中央块与第五块的准确坐标补项
+
+仍使用 (2) 的首 Gaussian 规范，并将 (15) 扩为
+$
+\mathfrak d_{\ell,h}
+=[w^{hs-1}]\,z^{-\ell}e^{-6cz^d}f_\ell,
+\qquad 1\le h\le5,\qquad \mathfrak d_{\ell,1}=\mathfrak c_\ell.
+\tag{34}
+$
+全部 $hs-1<p$，所以这些是 (13) 已付整窗口中的原实际系数。
+
+(5)、(6) 还决定原有理参数的首个 Frobenius 差：
+$
+\boxed{
+Z=z-\kappa_5z^{5p}+O(z^{5p+1}),\qquad
+\kappa_5=\frac{(3b/5)^p}{c_p}\ne0.
+}
+\tag{35}
+$
+证明：若 $Z=z+A z^{5p}+\cdots$，则
+$c_p(z^{p-1}-Z^{p-1})=c_p A z^{6p-2}+\cdots$；
+(5) 的导数在该处是 $-(3b/5)^p z^{6p-2}$。
+故 $A=-\kappa_5$。这个常数是原 $z,Z$ 的准确差，
+不是可以通过重选原函数删除的自由量。
+
+对 $2\le h\le5$ 定义
+$
+B_{\ell,h}
+=\frac{\mathcal C(Z^{1-h}A_\ell\omega_E)}{\omega_E},
+\qquad
+T_{\ell,h}=
+\left(\frac{D^{h-2}B_{\ell,h}(O)}{(h-2)!}\right)^p.
+\tag{36}
+$
+这些求值全有定义。事实上 $Z^{1-h}A_\ell$ 在 $O$ 的极阶至多
+$p+h-5\le p$，所以 Cartier 后至多有简单极。
+其输出函数 $B_{\ell,h}$ 的 $\mu_6$ 型为 $h-2$。
+$h-2=0,1,2,3$ 均排除 $z^{-1}$，因此 $B_{\ell,h}$ 正则，
+且低于 $z^{h-2}$ 的项全零。
+
+有完整的返回公式
+$
+\boxed{
+\mathfrak d_{\ell,h}=T_{\ell,h}\quad(2\le h\le4),\qquad
+\mathfrak d_{\ell,5}=T_{\ell,5}-\ell\kappa_5
+\quad(\ell=4,1).
+}
+\tag{37}
+$
+所有式均在 $k$ 中；第一块继续由 (17) 的留数给出。
+
+为核全部坐标和符号，设 $F_\ell^*=Z^pA_\ell$。
+Cartier 的准确恒等式为
+$
+\mathcal C(Z^{1-h}F_\ell^*\omega_E)
+=Z\,B_{\ell,h}\omega_E.
+$
+右边的 $z^{h-1}$ 系数为
+$D^{h-2}B_{\ell,h}(O)/(h-2)!$。
+因此 $T_{\ell,h}$ 正是左边原输入的
+$z^{hp-1}$ 系数，即 $Z^{1-h}F_\ell^*$ 在该次数的系数。
+对 $h\le4$，(35) 的差尚未进入目标，且 (13) 的误差也高于目标，
+于是直接得到 (37) 的前式。
+
+到 $h=5$ 必须同时保留两个真实变化：
+$
+Z^{-4}=z^{-4}+4\kappa_5z^{5p-5}+\cdots,\qquad
+F_1^*=z^3e^{-6cz^d}f_1-3\kappa_5z^{5p+3}+\cdots.
+\tag{38}
+$
+$F_4^*$ 与 $z^3e^{-6cz^d}f_1$ 的首项都是 $z^4$。
+故 $T_{4,5}=\mathfrak d_{4,5}+4\kappa_5$，
+而 $T_{1,5}=\mathfrak d_{1,5}+4\kappa_5-3\kappa_5$。
+这就是 (37) 中两个不同的仿射项。
+(13) 经 $x$ 或 $Z^3xy$ 乘后，其误差仍从 $z^{6p+4}$ 起，
+严格高于这里的 $z^{5p+3}$，没有另一个未付误差。
+
+### 8.1 完整中央 gauge 的三角变换仍须保留
+
+第 6 节所说的逐项不变只涉及前两个块。
+若使用 R639 的完整 $F_c$，写
+$
+\Gamma(X)
+=\exp\!\left(-6\sum_{j\ge2}F_{js}X^j\right)
+=\sum_{r\ge0}\gamma_rX^r,\qquad
+\gamma_0=1,\quad\gamma_1=0,\quad X=w^s.
+$
+这里 $F_n=[w^n]\log(\sigma/z)$。
+所需 $\gamma_2,\gamma_3,\gamma_4$ 均整：
+$js<p$、$j=2,3,4$ 时，原
+$F_{js}=-X_{js}/(6js(6js-1))$ 的两个分母都是单位，
+而该范围的 $X_{js}$ 已整；指数展开用到的阶乘也为单位。
+
+因此全中央规范的原系数准确为
+$
+\boxed{
+\mathfrak d^{\,c}_{\ell,h}
+=\sum_{r=0}^{h-1}\gamma_r\mathfrak d_{\ell,h-r}
+\qquad(1\le h\le5).
+}
+\tag{39}
+$
+特别
+$
+\mathfrak d^{\,c}_{\ell,5}
+=T_{\ell,5}-\ell\kappa_5
++\gamma_2T_{\ell,3}
++\gamma_3T_{\ell,2}
++\gamma_4\mathfrak c_\ell.
+\tag{40}
+$
+不能把后三项或 (37) 的仿射项删除。
+本节将前五个原块全部接回同一个 $Q_6$ 的实际 Cartier 行，
+并精确支付首次进入窗口的 $z/Z$ 差；
+它仍只是一组完整返回恒等式，没有给其中任一条新赋中央零。
+
 
 依赖：
 [R356](R356-original-gaussian-zeta-primitive-and-all-test-pole-normalization.md)；

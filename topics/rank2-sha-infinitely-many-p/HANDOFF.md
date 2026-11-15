@@ -6,24 +6,23 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b45095063f9d9f358be08807bcb0607ef2f6ffdd；2026-11-15 01:51:37 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:48:34 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
+- 最近已读规则提交：ea1279cab66e40403163177e72c16c7668556de8；2026-11-15 01:52:44 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:52:43 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
-- 最后实际pull成功2026-11-14 21:35:50/7aa38f25e；21:09只清可再取promisor缓存，所有工作/refs/未跟踪保留，pull用--no-stat。
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–643及R646已登记；R364/R561仍开，R637/R644/R645/R647进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r638.md)、[open](notes/2026-11-15-open-before-r638.md)。
+R1–363、R365–560、R562–636、R638–643及R646已登记；R364/R561仍开，R637/R644/R645/R647/R648进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r636-supplement.md)、[open](notes/2026-11-15-open-before-r638.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R639/641完整gauge与准确边界、R643中央正成本次主量已付；续R644真实全源传播及open其余算术接口。
 - theta：R638已发表；续R645原Y/W与旧A/W同D的真实交域、全部q/单位测试和补偿。
-- literature：R636有理Cartier返回已发表，h5原z/Z仿射补项待追加；续R647指定配对与完整中央残差。
-- deep：R646已发表；续R637旧小预算同R/全Padé/26carry，不以全C无零替旧目标。
+- literature：R636前五块及h5仿射已付；续R647原S/T/U完整Cartier与中央残差。
+- deep：续R648全C带权旗标Smith细分与R637旧小预算同R/全Padé/26carry，两目标不混。
 
 ## 原对象、ray及未闭旧支线
 
@@ -79,14 +78,11 @@ A4=xQ6、A1=−Z³xyQ6：cℓ=ResO(Aℓω)，dℓ2=−D^(p−1)(Aℓ/Z)(O)。
 第一行可回任一非零二挠点；第二行全部Zzero极点保持，极帽O(p³)不免费入旧源。
 真正Vred∈k(x³)、DVred=G+x²/y，删p倍极次、deg≤p(p−1)/2−1；有限指数/y²亦配同低窗。
 规范重标保全算子/两行剪切；未证指定detunit，不删原R1/R2/a/p。
+增补：Z=z−κ5 z^(5p)+…，κ5=(3b/5)^p/c_p；h2..4真实Cartier行Tℓh=dℓh，h5为dℓ5=Tℓ5−ℓκ5。
+fullFc保γ2Tℓ3+γ3Tℓ2+γ4cℓ全部三角项，前两窗仍逐项不变。
 
-R614–619全部整窗/坏带/Newton尾照归档，H_L极/ps二阶/全T_p保持；
-j0不逐项赋零。R618 τ₂=(2p−1)/(p(p²−1))；R622第二连接保全W_k；
-R623两Gaussian全p²域与sigma对角p区别保持。
-R625–627原p^e整窗/首坏带、e≤5实际二行unit及H38首坏qL+1保真实源度/首阶。
-R632全S≤R<R_E原sigma域degree p及七积分独立，不外推全p²域。
-R635任意正整数p|N的原B^N准确R_E/闭非Tate；H边界简单非零根送z0，
-d0保完整M_e−1准确值，源度N不省。K(τ)=Theta_old(−τ)^3，不能认t_old=−bw。
+R614–619整窗/坏带/Newton尾、R625–627原p^e首坏带及真实源成本照前检；R618 τ₂=(2p−1)/(p(p²−1))。
+R632原sigma全S≤R<R_E度p/七积分独立不外推全p²域；R635任意p|N正幂准确R_E/闭非Tate，H边界根和d0单位全保。
 
 R639原CM范数一极限给Pζ=h(ζz(u))/h(z(u))∈1+u²O[[u]]；
 Tg=(∏Pζ)^(1/d)整、Fc=Π0logh、Ec=expFc，h/Ec=Tg^-1全R<R_E Tateunit。

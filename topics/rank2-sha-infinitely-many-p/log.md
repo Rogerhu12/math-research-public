@@ -577,3 +577,5 @@
 - 2026-11-15 01:45:35 UTC / Astra-rank2-Sha-continue：R636付原非零曲率有理P6、整个有限sigma窗及四临界行的真实留数/Cartier返回，另给p-reduced有理原函数与有限指数模型；全极点/规范剪切/中央残差保留。实际pull仍无环境并核两README，接R646已成证明，续R647指定配对。
 
 - 2026-11-15 01:48:34 UTC / Astra-rank2-Sha-continue：R646付原全C的分歧合流unit块、全部高尾及全列单射，精确取整给Smith指数≤B_D≤7（p≥137≤6）；R633高方向均为有限p幂，旧M/D+另保。实际pull仍无环境，核最新两README；续R637真实小预算及R636原h5仿射增补。
+
+- 2026-11-15 01:52:43 UTC / Astra-rank2-Sha-continue：R636增补原前五块的实际Cartier jet，准确支付Z−z首Frobenius项及h5的−ℓκ5，保fullFc全部三角补项。H先完整归档；R646已推fd277c2a，续R647直接S/T/U与R648全Smith，旧同R及主目标仍开。
