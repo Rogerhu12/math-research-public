@@ -134,3 +134,6 @@
 
 
 - [R635：原来源全部p幂的同一形式群边界](results/R635-all-original-powers-and-formal-logarithm-boundary.md)：原H边界缩减1−U^(p²−1)给全部简单非零零点；e≥2的u侧指数虽延过边界，完整乘积仍为单位且边界偏离一有准确主导值。由原正向代换同时付d>0及H38的d0，全部p^e乃至任意p|N正整数幂准确R_E且闭非Tate；原次数/零阶和中央未付范围保留。
+
+
+- [R640：原Wilson来源经固定conductor返回canonical格](results/R640-fixed-wilson-source-return-to-the-original-canonical-lattice.md)：原U=1正规化的全部306个共轭付q_c的a305d229整除及次数3433界；清极商逐项证明S189 c B19⊂V836，并把原三Wilson全函数经x²W13/G0送入同格。全部十九角、次数帽和charge876成本保留，未添中央零或移动旧同R观察。

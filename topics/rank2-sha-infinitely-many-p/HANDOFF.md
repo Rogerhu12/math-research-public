@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c44ef90eede77401391f3290ec06729626c4e58f；2026-11-15 01:10:43 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:10:38 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
+- 最近已读规则提交：c2a79a7e986c2510abb300c84791c6339e46bf29；2026-11-15 01:18:53 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:18:52 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐完整结论即登记推送，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用本公开Actions。课题log每轮≤5行，单MD/API文本<100KB，H<10KB，open尽量<30KB，文件<5MB。
 - 令牌仅临时终端，不入文件/回复。实际环境断连期非强制API追加，恢复即pull；非快进立刻实际pull --rebase、核规则、新head接父、重推至成功。
@@ -14,8 +14,8 @@
 
 ## 已发表、归档及接续
 
-R1–363、R365–560、R562–635已登记；R364/R561仍开，R636–639进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r634.md)、[open](notes/2026-11-15-open-before-r630.md)；沿归档链保全部旧条件，压缩不关闭问题。
+R1–363、R365–560、R562–635及R640已登记；R364/R561仍开，R636–639进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r640.md)、[open](notes/2026-11-15-open-before-r630.md)；沿归档链保全部旧条件，压缩不关闭问题。
 入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob。
 
@@ -37,28 +37,23 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 ## 普通完整中央与实际补偿
 
-R567中央纠正、R594同q/固定坏集、R599完整T−Rn、R601两Q/十五谱、R605七coset、R611非π4反射、R613两carry全态均按完整前检。
-R617 norm8 R的全native环带与Bpole；R621 P1=−36bKΩ5I1+B1、P2=−12αΩ5I1+B2及αP1−3bK P2保持全部三补域/四unit失败支。中央0仅T0，旧局部值不移动。
+原R567中央纠正、R594同q/坏集、R599 T−Rn、R601两Q/十五谱、R605七coset、R611非π4反射及R613两carry全态均照完整前检；旧局部值不移。
+R617 norm8 R的全native环带/Bpole；R621
+P1=−36bKΩ5I1+B1、P2=−12αΩ5I1+B2及其消I1线保持全部三补域/四unit失败支。中央0仅T0。
 
-R626整2104 V核=εp A2104，εp²=1不猜号；全quarter中心回旧K0 degree8。
-R/V整联合两态，Y/W同深整域=εp^nλ^(2n)P_plane,κn μ0，保全部C/F/G/同q，归一native S/T回原J。
-首R矩Vcore εpβ；第二h8=2(ω−1)D8−4ω²Θ(2z)分ελ/εβ，Hcore均β。
-H/V两word不交换，同carry交域VdeepN/D_XdeepN/C_Xunit，P_N(κV)/P_N(V)只消常数；不同native测试不相认。
+R626整V/degree2104核εp²1、全quarter回degree8、RV两态及同q Y/W共同深域回原J；
+首/次条件矩、H/V非交换word和交域VdeepN/D_XdeepN/C_Xunit按归档。
+不同native测试不相认，P_N(κV)/P_N(V)仅消常数。
+R628原EY=R−(3+3ω)Y/34、EW=R−(19+3ω)W/72的伴随深域返回保持全部伙伴；
+RV单位算子保R边际/V前三条件矩真零、常数/log质量、η/ζ与完整N0/I1+B1。
+失败球y/w与可控球e/f模p分离；11个q自由方向对完整RV测试不可见，隐藏cut可能变，两来源非两未知标量。
 
-R628由单Y/四W核与平面核相消付原伴随
-E_Y=R−(3+3ω)Y/34，core ελP_Eκ R_Y；
-E_W=R−(19+3ω)W/72，四层core λ⁴P_Eκ⁴。
-同q及未移动Y/W的全部伴随深域/环带返回原J。
-完整RVunit压成μ0/μ1两态ν；R边际与V前三条件矩整条零，所有深条带用真实(I−λκ^kX)/(I−ελκ^kX)逆，保常数/log质量。
-完整中央差保失败球y/w与可控球e/f，四者模p严格分离，所有η/ζ测试保持。
-首三阶T=N0+2dλκP1+dλc2κ²P2*−dλc3κ³P3+p⁴，N0及I1+B1完整。
-R594中性传第二态；11个q自由方向对所有完整RV测试不可见，仅隐藏H/V/carry切集可能变。两来源不等两未知标量。
-R634六个真实C旋转保whole S72；μW=P6,Cρ1，KW=X、KEW=εpX。
-全部W/EW矩形保六变量，两个W边际同6δT，同q中性传μW，原T每层EW native返回。
-原Ξ与new/质量52/3全五伴随仍在，EW含Y不能当纯伴随cut。
-实际W±同EYdeep单位域的奇次式首矩回P1加三个全补偿；Vdeep一项在p⁴，
-共同单位有理项/Ydeep/B1仍在。W−原[17]覆盖degree20808，不认原T、不赋中央零。
-固定CM稀疏单位只适用固定λκ有限式；负五Katz仍root−，I1非零未付，不能数p依赖负矩。
+R634 whole S72在C六旋转下保持；μW=P6,Cρ1，KW=X、KEW=εpX。
+全部W/EW矩形保六变量和同q，W两边际同6δT，原T每层EW返回。
+Ξ/new的全五伴随/质量52/3保持，EW含Y不是纯伴随cut。
+W±同EYdeep单位域首矩回P1加三全补偿；Vdeep在p⁴，共同单位/Ydeep/B1仍在。
+W−真实[17]覆盖degree20808，不认T、不赋中央零；续R638真实反射三态关系。
+固定CM单位只用于固定λκ有限式；负五Katz仍root−，I1非零未付，不能数p依赖负矩。
 
 ## 惰性完整中央、原解析盘与来源成本
 
@@ -115,6 +110,9 @@ R633在f_D<p下付真像锥外投影核恰W_D^(s)，完整首Bockstein回同一Q
 真实Smith中恰p有k_m−κ_D，≥p²或零合计κ_D，不把两类再分。
 α=p/D≥4.5时κ_D=(625−49α)_+²D²/165600+O(D)；实际末端不等式可证β单射。
 旧M/D+与更高Smith仍开，禁止把全C结论移到旧截断。
+
+R640原conductor q_c有a305d229整除且deg≤3433；S189 c B19⊂V836，商F_j=(th7)^286(t−1)^216 qtilde_c t^j/7^189，deg≤3060<3278。
+乘全G0回原来源，Wilson三式先乘真实x²W13；保D≥836、p>3766、总charge876/σdegree29784、十九角/全部卷积，无新中央零或同R左行。
 
 原Beta割线ceil(17n/3)−1次变号，排直接定号Nikishin但未排其它AT。
 2026文献仍有逐p单位/高度/受限秩/随权条件，尚无新固定来源跨p非消失输入。
