@@ -1,0 +1,136 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43736746064",
+  "stepId": "two-directed-original-left-two-jet",
+  "executionSourceCommit": "9217ddac93db3d48531051df5d06e3a46475a297",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+  "scriptSHA256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--unit-schur-helper",
+    "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+    "--constant-receipt",
+    "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+    "--checkpoint-dir",
+    "{work}/two-directed-left2-checkpoint",
+    "--out",
+    "{work}/two-directed-left2-receipt.json",
+    "--through",
+    "final",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 230,
+  "exitCode": 0,
+  "wallSeconds": 186.92425224800002,
+  "fullTemporaryReceiptBytes": 2205,
+  "fullTemporaryReceiptSHA256": "77a06e99fec91ca12a0d9ae72aeb7e7b7711335717e7a08f418113fc474e1404",
+  "result": {
+    "elapsedSeconds": 186.55011156900002,
+    "error": "Actual shared time budget exhausted",
+    "format": "r150-two-directed-original-left-two-jet-witness-v1",
+    "status": "prefix-completed",
+    "parameters": {
+      "allMatricesTemporary": true,
+      "binding": "7dd9c178a2a71f716a1db90af3f2714c98553ca8c3e775cd897d14d85a102cbd",
+      "checkpointPhases": {
+        "constant-heads": {
+          "bytes": 1725,
+          "fileSHA256": "27d217f3731d402a284b726b31a0ea27b82ae30c954ef8fbcc33ffb163d6cb81",
+          "matrixSHA256": "525b979bf1ce15debc3ec3d50c70330473c8f0a3bf84172c3c5f404b60f7c5cb",
+          "shape": [
+            155,
+            22
+          ],
+          "verified": true
+        },
+        "first-low-constant-kernel": {
+          "bytes": 2494,
+          "fileSHA256": "b6abcd2ff6ae1b61e2d99bf6a6f196bf5d766e768c01cf6c4426226c499ade24",
+          "matrixSHA256": "e39e5f592f0c2f9a375f7712efa7a7e9ec3c87be1fb0741fecbaa3ef67773e5a",
+          "shape": [
+            585,
+            2
+          ],
+          "verified": true
+        }
+      },
+      "inputSHA256": {
+        "constantReceipt": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "jetActions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "unitHelper": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+      },
+      "memoryMiB": 2048,
+      "noLargeRecomputableDataUploaded": true,
+      "originalPureCoefficient": {
+        "gAtTwoAscending": [
+          0,
+          -64,
+          -72,
+          -24,
+          -2
+        ],
+        "order0Zero": true,
+        "order1RetainedNonzero": true
+      },
+      "physicalCoefficientSHA256": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "4529d6170835368a1264dd9e4b32d0d83dcedb73655171ce8ba30af37263b176",
+        "L_y1": "afc72953144442626cfa4f04f151291537872b08e849c949cea9fc07eaf67095",
+        "L_y2": "13338e0883525415ec7cebff1cb3d5f8b6b6aff14d0ac43b3047a08176d4a6e3",
+        "P0": "a16dae3b916dc5f74b37232c17b204f5322469a84e5ab4e7a17c34c4415c97f5",
+        "P1": "1cc7b6a78438f3db321fb3614cdcdf5e3a04e61f4f6292498efbcdb14e6ad4f3",
+        "P2": "2d42c705d68e7c226dfebe3cb33e8a8022f8638e7dc99097b48f0e6c26157b0f"
+      },
+      "selfSHA256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b",
+      "sharedSeconds": 180.0,
+      "temporaryManifest": {
+        "binding": "7dd9c178a2a71f716a1db90af3f2714c98553ca8c3e775cd897d14d85a102cbd",
+        "bytes": 992,
+        "sha256": "5657bd5c8f068fd1cb1c091a58d138db3f5f1eec2ce3c0685e82b6788a3cf668"
+      },
+      "through": "final"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 16:40:12 UTC",
+      "beforeReadCommit": "dd024d223a43eb2f7f5973c47bc117e8d0253298",
+      "originMainAfterPull": "9217ddac93db3d48531051df5d06e3a46475a297",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 16:43:21 UTC",
+      "beforeReadCommit": "9217ddac93db3d48531051df5d06e3a46475a297",
+      "originMainAfterPull": "61e9ff23702e2baa5e287cc6bd27b5211c2408f1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "1220d3feb913b682e1973b2db64ce56e7edf68b6af017100aaad3d865fd09aa5",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "61e9ff23702e2baa5e287cc6bd27b5211c2408f1",
+  "summaryExcludesRecomputableArraysOnly": false
+}
