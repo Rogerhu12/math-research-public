@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "a980668f7499dddcae1b62f49f1230c5eb43ac33",
+  "rulesReadAtCommit": "7c97bf5d91615183dba587a2d8cd643d8aa631b0",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -490,6 +490,23 @@
       ],
       "timeoutSeconds": 50,
       "receiptPath": "{work}/seven-exact-sparse-structure/seven-original-exact-sparse-structure-receipt.json"
+    },
+    {
+      "id": "seven-exact-low-fill",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-seven-original-exact-low-fill-789f.py",
+      "scriptSHA256": "b89a0f97efb30d5fcc865a2aa498a6407941d6355999df2259ff440333c06a53",
+      "argv": [
+        "--state",
+        "{work}/seven-exact-sparse-structure/seven-exact-peeled-core-and-backsubstitution.json.gz",
+        "--out",
+        "{work}/seven-exact-low-fill",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/seven-exact-low-fill/seven-exact-low-fill-receipt.json"
     }
   ]
 }

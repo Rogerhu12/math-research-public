@@ -169,3 +169,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **[原full∞第一连接≤7与共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：** 同自然u的真实切向M=c y²+d sym(yy′)使全部17式O(u²)，故任意原6188核的第一连接20个纯切向坐标全零。真4340常秩的余空间还剩7维，β_Qrank≤7；十四正Smith指数至少七个≥2，全部最大子式共同u21。未付精确rank/全厚度，与指定D的43阶不能相加。
 
 - **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
+
+- **[原七Q单位块的26步剥离及单4292核心](results/R150-appendix-original-seven-unit-sparse-peeling-and-one4292-block.md)：** run43679903558实际0.692495464秒，26精确变量/682行更新后保全七RHS，余4292方块172513项/132bit；全支撑仅一个SCC，不能把该轻微缩减当已完成求解。原DAG/整数状态已保存，接30秒低填充精确消元，Q核数和秩范围未变。
