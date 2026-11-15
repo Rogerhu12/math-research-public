@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "661a7b9cc0c932ad81310e81be2016c0470bab74",
+  "rulesReadAtCommit": "4bdd66450010492d5e673c307dfc227ec0735ace",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1631,6 +1631,32 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/zero-complete-third-full-high-receipt.json"
+    },
+    {
+      "id": "same-source-koszul29-fourth-on17-pairing",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-same-source-koszul29-fourth-on17-pairing-789f.py",
+      "scriptSHA256": "a257de5a251ce8d0d8890041524760eb716b8ef7bf51d4fbb74817457a294aec",
+      "sources": [],
+      "argv": [
+        "--consumer-out",
+        "{work}/third21-normal-four-original-consumer",
+        "--second-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--pairing-out",
+        "{work}/same-source-koszul29-second-pairing",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--primitive-equations",
+        "{primitive}",
+        "--out",
+        "{work}/same-source-koszul29-fourth-on17-pairing",
+        "--seconds",
+        "120",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/same-source-koszul29-fourth-on17-pairing/same-source-koszul29-fourth-on17-pairing-receipt.json"
     }
   ]
 }
