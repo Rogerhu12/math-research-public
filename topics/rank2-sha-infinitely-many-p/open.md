@@ -150,50 +150,26 @@ R621将同一原B_C⊗σ完整送入F_B六度核，绝对相位−ω²及所有D
 
 [固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)仅用于固定λκ有限式；[负五Katz](notes/2026-11-14-original-negative-five-katz-point.md)保完整角色/θ³尺度/固定c1坏集，裸反射仍root−，不能计数p依赖I1。[2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)未新增固定来源跨p非消失输入。
 
-### R614–618：高度二整窗、完整坏带与精确第二半径
+### 当前原解析、division与全预算接口（R614–632）
 
-R614完整addition保所有偶混合项和Gaussian指数，唯一例外n=s/ps分别付清。任意c′−c∈O下，U在n<L=(p²−1)/6整、L≤n<ps一次分母、ps≤n<2L至多二次；原完整G4/G1/S/T继承同界。边界pX_L=−2b^L、pU_L=b^L及G首坏4/1/6/6为实际非中央单位，不冒中央。
-R615从原H唯一二项式carry独立付C_p(CH)=C_p(H²)=CJ以及X_pk=Z_k^p=−X_k^p/(6k−1)，1≤k<s，不借sigma整性。高于该输出的分母仍保留。
-R616原H在n<ps唯一pole H_L、pH_L=−1；原留数和完整指数运输给任一原theta阶d的p g_(L+r)=b^L(6r+d)g_r（0≤r<s）。两个指定f forcing的末带准确为−c4/−4c1；首项单位不推末端非零。S/T先去首w取d6，合法r=s−1给p g_(m,p)=b^L C_X。
-R614完整无限尾已付：h≤p−1的g全整，H≤p−2有v(j−L_H)≥H+1；所有h≥p+1项在p^p。R616故得j≡L_(p−1)−p^(p−1)b^L C_X/γ^p modp^p。若原j0，则首层C_X0使实际g_p也整，准确得到L_(p−1)≡0modp^p。没有把各g_h逐项赋零，也没有推无穷命中。
-R618已付精确第二半径：U0=U截<L、Δ=F−c′w^s−logU0起L，唯一临界a₂=Δ_ps有p²a₂=b^Lpc unit；其余全无限对数在闭R₂严格可指数化并略延拓。原U和G4/G1/S/T余项精确R₂=p^{−τ₂}、τ₂=(2p−1)/(p(p²−1))，闭R₂非Tate；全g_n≥−floor(6nτ₂)。原完整Newton的全尾为ceil((H+1)(1−(p+1)τ₂)+6τ₂)+v(H!)，有限窗更强界同时保留；同原j0 iff中央Euler解延至每个R<R₂。未去第一Gaussian的原S半径不变，Π0和全部实际预算仍在。
-R619在原整坐标付X_s=c_p及全部X_(s+ap)=0(a≥1、指标<L)，H在整个n<2L仅H_L一极；F°唯一二阶极ps有p²F_ps=b^Lpc。完整指数及原theta多项式给二阶块由sigma次数m控制，S/T准确p²g_(m,p+h)=γ_mb^Lg_(m,h)，1≤h≤p−2（末指标2L−1）。全Newton在modp^(p+1)仅保前p项及p^p b^L C_X/γ^p，必须保T_p完整值；若原j0，Σh≤p T_h∈p^(p+1)，未把块回读赋成逐项零。
-R622第二规范连接L₂=∂X+α1+pα2X^(p−1)在p^-1<r≤r+<1上以完整Neumann逆唯一解，r+>R₂^d；其原点值仍为同一j，j0 iff H₂延拓到该外盘。全第二Newton必须保W_k(α2/α1^p)，所有W_k∈1+p^(p−1)O；首差p^p b^L C_X/γ^p准确复现R619，删权新值未赋为零。裸F_ps与a₂只可连同来源同步改规范。
-R623在R₂≤R≤R+<R_E上付两Gaussian完整野域degree p²，原sigma只在对角degree p子域，旧只添E1域已不含σ。七原积分在整个p²域仍独立，含塔P乘任意两Gaussian仍准确旧S/闭非Tate。R622准确原式又给两个中央Π0U_m无论j是否0都属于对角域，域成员身份不检测原j，不能计两个新局部积分坐标。去Gaussian普通部分全素位O(k)成本已付，但不能代原九格主预算。
-**R624/625继续：** 两完整中央/低残差/Wilson真实联立及原Frobenius第二Gaussian相消；全部D/k来源门仍保，非中央unit不代原j非零。
+压缩前全部精确窗、规范、证书和继续项保在[完整open归档](notes/2026-11-15-open-before-r630.md)，以下不关闭任何旧问题。
 
+**原全部Newton与中央。** R614–619付H唯一L极点、log唯一ps二阶极点、首/次整块与全无限尾；j0只约束完整和，不逐项赋零。R618准确R₂=p^-τ₂，τ₂=(2p−1)/(p(p²−1))，全g_n≥−floor6nτ₂；R622第二连接的同一j保所有W_k(q)，删权无新中央值。R623两Gaussian野域degree p²、sigma对角degree p，七原积分独立；两个Π0U不论j0都在对角域，不能增维。R632将原sigma p域/七积分独立推至全S≤R<R_E；未将全p²域、中央Tate解无证外推。
 
-- [原theta幂的Beta表达与直接Nikishin范围](notes/2026-11-14-original-beta-powers-and-nikishin-scope.md)：完整割线虚部为正振幅乘sin(17nπM/3)，保原q角后仍反复变号；不能直接套定号Cauchy来源的正规性，未排别种AT证明，也未付原d2。
+**原Frobenius幂。** R625–627原B^(p^e)、e≤p−2的整窗n<qL，q=e+1；全r<s首坏带至多一分母，r≥1 residue=b^(qL)binom(6r,q)[w^r]logB。e≤5原S/T两条幂真二行unit及完整前缀范数已付，H38首坏qL+1。R632原f4/f1/S/T/H38归一B^p准确R_E=p^-1/(p²−1)、闭非Tate，H闭盘范数与开盘真实逆全付。真实度p^e、共同首阶p^e和全来源预算必须保；这些单位不依赖j0。**R635继续：** 所有e的边界、原中央连接与全D/k真层，不能免费扩源。
 
+**原指定det。** R624真Hadamard指定行=det(c,d₂)/8；原S12 addition保持坐标除子、全部Gaussian三项、低R₁/R₂及实际a/p。ψp四位数据合法恢复同det。R630付整个L窗Qp=pH−p²HA/6+p³HA²/72 modp⁴（A=p logK）、原numerator p⁷误差、五个整商首阶js和unit系数C_s^j/j!。真正二次项始于2s，指定det只到2s−1；全端点两真实卷积不删。**R636继续：** 用原来源把实际二次/端点单位返回指定det或完整中央；尚未证明det、forcing或j非零。[全块矩阵与规范](notes/2026-11-15-canonical-all-block-matrix-and-wilson-boundary.md)和[Beta范围](notes/2026-11-14-original-beta-powers-and-nikishin-scope.md)仍在。
 
-- [原全块固定矩阵与第二forcing规范不变量](notes/2026-11-15-canonical-all-block-matrix-and-wilson-boundary.md)：R595同一M在全部h的特征零真实留数上成立，原完整j保全尾/charge分母和R_h；第二forcing与残差共同剪切，真不变量det(c,d₂)仍含R₂和实际a/p。第二Gaussian高精度不添独立零，三Q未消残差。
+**原全部预算。** 九格/长塔独立、普通3klogD、惰性(0,3)未变，严格门未过。cutoff θ<N−2仍缺原中央到全D/k；非连续unit行、局部非中央和p^e高次源均不代真实连续旗标。
 
+### 原完整C与旧同R的不同未决接口
 
-### R625：原p幂的准确整窗与同预算限制
+R620准确k_D(λ)=Σ(m_r−(λ−6r)_+)_+、同帽整核基/高尾、exp(O(D²))成本已付。R631全Υ低w13真余核投影的核恰K_p⊂K_(p−78)，实际p Smith因子至少两Hilbert维差，高因子/零方向至多k_D(p)。所有q≥2项由原第二盘界至少p²。**R633成稿待登记：** 全像锥与完整首Bockstein；更高Smith不因首层自动完成。
 
-对原B=z^-dF（f4/f1/S/T的d分别4/1/6/6），R625给全部1≤e≤p−2的B^(p^e)在n<(e+1)L整，并且p[w^((e+1)L)]B^(p^e)=(-1)^e d b^((e+1)L)/(e+1)modp为unit。原H在n≤(p−1)L的所有一次极点都保在T/p，逐坏因子的两个二项式消去支付全log界，有限Dwork判据支付真实指数；e1的ps相消正用原第二Gaussian residue。
-原S/T的首w^(p^e)保持，实际首坏行是p^e+(e+1)L，来源次数是p^e；p>D时不能免费加入这些列。其前首项已unit，因此该后续坏行不自动属于非空真前缀。此整性不依赖j0，不能包装成算术失败的新增条件。**R627继续：** 同一原Frobenius坏带/可用低预算操作与原中央接口。
+R629最后四真实charge和12类Padé子式把D≥3、ell1/2、p>101的J_A满射门付至b_D≥s−13，γ0；D1mod12/u0例外强迫p合数。同R已经过完整J(P+pR)∈p²后第二A forcing才可同源吸收。**R637继续：** 原较小预算b_D≤s−14的首像缺口、完整Dψ/D+与26carry。全C单射/全像锥不能替代旧M，γ0非整个C2/d₂；R597清第三尾后真实B项及R603/R608帽继续保留。
 
+### 普通原V核心、伴随与完整四球
 
-R620将原完整C的带权核付为准确Hilbert函数：rank=Σmin(m_r,(p−78−6r)_+)，全部原q_n高尾与同帽整提升保留，显示核基成本exp(O(D²))。当0≤b_D−(s−13)≤12，全部modp核恰实际t^(s−13)尾列；完整原低十三行的首Bockstein单射，C仅unit/p Smith因子。**继续：** 此行集有ε³/ε⁴，不能代旧三块；原同R第二forcing仍须在实际旧截止内判像。R629已把真实旧J_A满射推进至b_D≥s−13；较小预算及完整首修正仍开。
+R626整2104 V核εp²1、全quarter回degree8、R/V两态及共同Y/W深域的同q中央返回已付；首/次条件矩、H/V两非交换word及所有补域真实保留。交域VdeepN/D_XdeepN/C_Xunit上P_N(κV)/P_N(V)只消常数，不同native测试不相认。
 
-
-R626原V深补域已在整2104全quarter/中心下返回旧K0的degree8核；真实双sigma锚付εp²=1而不猜号。原R/V全联合仅两态，Y/W同深整域scalar εp^nλ^(2n)，原C/F/G及同q逐点保持，完整归一S/T Mellin合法回两原J。第一矩Vcore εpβ，第二矩h8=2(ω−1)D8−4ω²Θ(2z)分两实际旧截面；Hcore仍β。全部H/V两word不交换、三补偿/四unit失败支及原q转置保持。两个carry交域恰VdeepN/D_XdeepN/C_Xunit，归一两权P_N(κV)/P_N(V)常数相消，但不同native有理/日志测试不可相认。**R628继续：** 同交域与共同深中央返回的完整补域关系；不把条件负矩/新word赋零。
-
-
-R629用最后四个原电荷、12个固定≤5×8 Padé矩阵及两个真实子式gcd，付D≥3/ell1,2/p>101下b_D≥s−13即原J_A整满射、γ0；D≡1mod12/u0强迫p=300k+125合数。完整早段/高尾/同q帽全在；给定同一R若已过J(P+pR)∈p²，第二A类可由同源T吸收。**继续：** 原完整D+及两十三行必须先过，γ0非整个C2为零；真正首像缺口只能在b_D≤s−14。
-
-
-R627支付R625紧接的全首坏带：q=e+1、1≤e≤p−2，r<s时系数至多一次分母，r≥1有p[w^(qL+r)]B^(p^e)=b^(qL)binom(6r,q)[w^r]logB modp。原完整指数用前整截断处理p²指标和Gaussian阶乘；e≤5时原S/T两行det=2236(-1)^q binom(6,q)b^(2qL+1)/(5q)unit，完整前缀范数=p乘来源范数。原H38幂端点相消但首坏恰qL+1，residue−1118binom(6,q)b^(qL+1)/15。**继续：** 两实际幂的源度p^e与共同首阶p^e必须保；本单位不依赖j0，不能代固定来源中央或全W_D真旗标。
-
-
-R631原全C首Bockstein的低十三普通阶投影Π13（含全部Υ）真正杀全原modp像，kerΠ13β=K_p⊂K_(p−78)、rank=k_D(p−78)−k_D(p)。R618全regular尾界付所有q≥2项至少p²，第一真carry权带精确读I_(p−78)/I_p。实际恰p Smith因子至少此差、高因子/零方向至多k_D(p)；只有K_p0才得全部unit/p。**继续：** K_p内完整β及较高精度尚未计算，Π13很多行不在旧三块，不代原同R/D+或全D/k真旗标成本。
-
-
-R628由原整联合单Y核/四层W核与共同平面深核真相消，付E_Y=R−(3+3ω)Y/34与E_W=R−(19+3ω)W/72的native中央深域返回；同q、未移动Y/W及全部伙伴保持。整个R/V单位剩支已在μ0/μ1两态和一个双单位域上写成完整收敛算子，V前三条件矩整条零，所有常数/log质量与四个不同比值球保全；原P1接I1+B1进入同native余项。R594中性也严格传第二态，11自由q方向对整平面测试均不可见。**R634继续：** 原失败球y/w与可控伴随球e/f的实际Möbius及测试联系；四球模p严格分离，两个来源不是两个未知数，不赋失败球、N0或I1零/非零。
-
-
-R624付同一原det(c,d₂)的真正观察：8倍Hadamard核指定[z^(2p−5)t^(p−2)]行恰读整个det，Lucas杀全部其它实际系数；原固定S12 addition分子须保(z²−t²)^−3坐标除子和1−Bmix+Bmix²/2三项。原ψp最高2s系数modp⁴经整体p²合法除法恢复相同二块det，保R606 canonical gauge。原两j0后的必要式仍含R₁/R₂及真实a/p。**R630继续：** 原division p³修正或完整双输入行的实际非零；固定核非零、浅Frobenius单位和ordinary C12均不能替代。
-
-
-R632付原未去Gaussian f4/f1/S/T/H38归一B的p次幂准确R_E=p^-1/(p²−1)、闭非Tate；u参数p logK在全n<p²整，仅n=s在边界临界，全部高尾严格可指数化。原H闭R_E Tate及开R_E逆的完整范数使原z侧上下界同时成立。整个S≤R<R_E的原F_R(σ)准确degree p，七原积分仍代数独立。**R635继续：** 原中央连接能否全范围支付、真正来源/全旗标成本；未扩张两个Gaussian全p²域，也未无证外推R622中央Tate解，p次幂真实源度p不可省。
+R628单Y/四W核与平面核真相消给E_Y=R−(3+3ω)Y/34、E_W=R−(19+3ω)W/72原伴随深域返回。所有RVunit剩支化为两实际来源、同双单位域、收敛2×2测试算子；R边际与V前三条件矩整条零，保全常数/log质量、四比值球和native I1+B1。11个q自由方向对完整RV测试严格不可见。**R634继续：** whole W真实S72/两态全EW深度，以及原失败球y/w和可控球e/f的实际Möbius与测试联系。四球严格分离，有限状态不是有限未知数；N0、Bpole、I1和全部失败支仍待原中央比较。

@@ -114,3 +114,6 @@
 
 
 - [R632：原p次幂的精确形式群边界与整个首野分支域](../results/R632-original-pth-power-formal-group-boundary-and-full-kummer-range.md)：原u参数完整对数在闭R_E只有一个临界Gaussian，所有高尾/形式对数/真实反演范数均付，原f4/f1/S/T/H38归一B^p准确R_E且闭非Tate。整个S≤R<R_E的原sigma域degree p，七原积分仍独立；保p次真实来源成本，未将原中央解或全p²Gaussian域无证外推。
+
+
+- [R630：原完整除法多项式的五层修正与首个非线性单位](../results/R630-original-full-division-corrections-and-first-nonlinear-unit.md)：全L窗的原numerator误差达到p⁷，整个HA^j整性支付五个实际整商，首阶js与系数C_s^j/j!均unit；首个二次项准确从2s开始。保最高坏端点和全部卷积，指定det只到2s−1，未把新unit移作原中央非零。
