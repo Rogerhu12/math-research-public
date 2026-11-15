@@ -7,7 +7,7 @@
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
-- 本地math-research-public-main最后于10:26:46实际pull到ab548891fd5bd4f03e0ef880f77571cc70ce3b56，两README未变。10:48环境断开；后续实际pull及规则核验由远端session/发布作业继续。旧math-research-public的/dev/shm引用已丢勿用。
+- 本地最后实际pull：10:26:46到ab548891fd5bd4f03e0ef880f77571cc70ce3b56，两README未变；10:48环境断开，实际pull/规则核验由远端继续。旧本地副本的/dev/shm引用已丢勿用。
 
 ## 完整旧状态与当前入口
 
@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 活跃run43702348535；唯一请求notes/2026-11-15-r150-recovery-small-session-request-789f.json。9份历史8c6304e原输入均逐SHA核验且只存临时；不碰已删Release。32层的51份旧前缀完整SHA全同，第一Q RREF/33原jet等后继检查点现均可复用。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前两端第五完整规范均保临时检查点，不重旧大正常形。
-- Q一阶33头、两端第五17头均已实成。Q第二首次实际1.826085338秒：1736旧零行T限制rank0，M0仅除行content后31rank1545，故未进U solve、未付第二rank9。完整forcing8998620B/SHA8ae7ffef9d7b0a56156f72b002956d4d8843cda66c00b07bff045f9ebd77f4f3已在prepared/；下一用已付完整F31左核改26gauge，保旧E_oldX、新E′及33/36自由，不重T。[九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)实际1.509597193秒：九×三原λ2与九×七第五配对全零，h0[3]=−917294284800；仅该17条left5无障碍，未付成员性。下一预读λ3平方并接完整第六页。
+- Q一阶33头、两端第五17头均已实成。Q第二首次实际1.826085338秒：1736旧零行T限制rank0，M0仅除行content后31rank1545，故未进U solve、未付第二rank9。完整forcing8998620B/SHA8ae7ffef9d7b0a56156f72b002956d4d8843cda66c00b07bff045f9ebd77f4f3已在prepared/；完整F31左核选26新gauge续接785da98d已排300秒/2GiB，真选31单位，保旧E_oldX、新E′及33/36自由，不重T。[九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)实际1.509597193秒：九×三原λ2与九×七第五配对全零，h0[3]=−917294284800；仅该17条left5无障碍，未付成员性。λ3平方轻预读已排20秒/512MiB，随后完整第六页须保H4/H5及全部2805顶行。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
