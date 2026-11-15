@@ -324,3 +324,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R244：同一十一维响应模同时消去首平台双尾和八个d通量
 
 [R244 完整证明](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)直接处理此前不能由各自满射拼出的十观测。E8的δ五次终止使三线性K的δ十三次零，再由Nδn=n(n−11)δ(n−1)推出δ十一零；K非零和互异H权给准确11维。归一e_n后N/δ是Pol≤10的D/z²D−10z，基本F*的常项非零使P_A(t)=F*(T_tA)为同构；八真实带平台减项的d-flux为a_j⁵P_A(jL)。首gap的双尾准确为八完整尾之和减第一包左补偿d尾，e补偿恒零；e0/e1/e2尾零而e3给2J*/15，comp的d1=−4Ac/5。选择原g-step够窄使M0<0，原三补偿第一行迫Ac>0且不改J*；无新增补偿。八flux核内Q_L与Q_L(t/L−7/2)两列的平台子式首项5040βγV L12，V=24[29515−2429∛7−1995∛21+1085∛35]>24·18672。固定有限大L、正仿射压回任意I保原三矩/第三/ψP有限退化与rank10。故同HE减一个整链真实响应，保持pure0/λ1/T0/B0并同时清首平台和F8d；首两个germ光滑。这只一个新选合法圆的十读出，不授全部e通量/平台/fullperiod/同w ruling或实际有符号成本。root和literature全文独立纸核；没有新代数/求积/几何运行。
+
+
+## R246：十一维响应模的二十四观测准确像和唯一修正
+
+[R246 完整证明](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)保同R244新合法圆的八个原f-up前实际零gap。E_j=Σk≥j w_k De(D)P(tk)，D_j=Σk≥j w_k Dd(D)P(tk)−w_j Dc(D)P(tj)，每个当前左补偿都须扣，E8为真实零右collar。De=D³C、C0=J*/(45F*)非零；若8E0，则≤7次DeP在8点零从而P≤2，8F再迫P0，故16观测在本M单射、完整period障碍对M的像恰11维。准确右逆先用E差/w插值R≤7，再P0=C(D)^−1 I³R（有限nilpotent逆）；前三F定唯一二次项，另五F提供五独立成员关系。八D逐项匹配再给八独立关系，24观测像为11维图，十三条条件必要且充分，同M修正唯一。换积分基点仅改二次项；signed packet齐次与首T/B保持。额外e通量给真实functional常系数算子接口，未赋零值；本M∩完整period可解核为0不扩大为整个R0。R244剩余1维必在其他e平台被检出，不能继续顺序修复同一模。root与literature独立全文纸核，无新科学计算。

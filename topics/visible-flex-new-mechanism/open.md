@@ -40,11 +40,11 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ### R198最右端不可校正的纯period门
 
-[R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)已证明：当f在整个右锚区间[b,r]为0时，任何全I合法二阶w的L_f(w)严格0，第三齐次也不改period；该区间原Vθ准确等于sin⁴θ P_B(g)。这不需要把w缩到单包或施六条仅充分的矩约束。R183的b可取153λ，唯一右端输入为−[1−S(x/λ−154)]，右方155λ后0。只省略ξ右方看不到的左包，整条真实B的s累计保留。
+[R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)已付最右f0整带上L_f(w)对全I合法w恒零、第三gauge不改period，完整目标为sin⁴θ P_B(g)。保全路径s累计和真实右尾，不能缩gauge支撑回避。该pure必要门的实际全函数支付见R210。
 
-[R200](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)已给真实τ0桥的完整纯响应H及右step严格非零首项，闭hook系列满足V−4(XN,t;q)=8N(Γ+ℓtH)+C(t;q)，全部桥/反向/Klein基准保留；某些真实几何必失败。更建设性地，先固定有限t区间和真实复制格式，再取有限N，介值定理准确把一个指定右段查询调到零。该结果只付单点；整个纯函数的实际支付现已由下述R210完成。严格内点非零可经足够高阶、保支撑/补矩的C∞连续性保留；单点零不靠开性迁移。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已完整判明πU0=πR0、dim3，并给πH=0但λ+H=1；任何仅pure读出此λ的路线都已排除，不能换step再找同一个读出。固定B的纯period是否零仍须由其真实成本判断。
+[R200](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)给保全部桥/倒行/Klein基准的有限真实单查询修正；现已升级R210全pure实际控制。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)权0像维3且πH0/λH1，pure读λ路线结束，不能换step重做。
 
-[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)现已构造一个新的全权pure忠实单调末step，并重做R183全部低阶：b+tq*多项式排零、三左复矩、Gram=EId共同标量、八包七差分和最终仿射均保最右f=0。对这一新圆，最右完整period恒零准确等价于πV_B=0作为universal算子；T非零的B通过BB^rev成本2V_B放入U。完整pure实际可达现已由R210支付；原冻结step本身未获忠实性结论。
+[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)新全权pure忠实末step保三矩/完整第三/八包，最右完整period0 iff πV_B0；原冻结step未获忠实性。实际pure控制已由R210支付，继续mixed完整兼容。
 
 [R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已完整结清universal pure主线：最后权−4实际43688302217给πU−4=πR−4维9，152原state/123原列+40响应、154全原关系零。R203消最低两权、R207付−6，加既有分离定理，全部pure正字符排除；R202闭锥Cp=P，再由R206真实桥成本/整数复制/商截面/最终响应Brouwer得实际S=P。不是从span或闭锥直接冒实际负路径。
 
@@ -78,7 +78,9 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)进一步支付同HE的二次主部：43701766182的12新人工过，实际J4完整负主部在原式已零，NF0。首f-up/g0零flux且平台通过时，u光滑 iff t⁴B无负主部；whole pure0/λ1/T0/B0联合成立仍不能读λ。平台本身未数值评价，p3+已自动光滑不再算。
 
-[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)已联合修首gap平台与八d-flux。整δ链是准确11维sl2模；F*平移对应Pol≤10，八flux核Q_L·Pol≤2。首平台为八全左尾−第一包真实左补偿尾；新合法圆令M0<0迫f-only补偿非零，核内两列minor=5040βγV L12+O(L11)非零，有限大L后正仿射压回I。于是同HE可减真实响应得whole pure0/λ1、首pair0/F8d0/T0/B0，两首端零flux germ光滑。**这十个联合读出加首T/B仍不能读λ；停止重复这些局部门，继续R225完整其他平台、e-flux、内部Laurent及两端匹配。** 不把新选圆冒旧冻结圆，不把实线性响应当实际signed成本；完整O(U0)/O(R0)和同w joint仍欠。
+[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)在新选合法ψP圆给同HE的whole pure0/λ1、首gap双平台0/F8d0/T0/B0，两首端germ光滑。整δ链11维，首gap真实comp减项使核内2×2子式非零；不授实际signed成本。
+
+[R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)现给本模的完整八平台接口：E_j右方全尾和、D_j逐包扣当前comp，De=D³C且C0非零。8F+8E已经单射，R244余1维必在另一e平台露出。由八E差插值R，再C(D)^−1 I³R与前三F构造唯一P；剩五F+八D为13独立准确iff关系。额外e-flux须用同P再验，不能继续任调。**下一转完整响应R0的真实生成/模分解及R225完整观测像；本M的13关系不等于全R0消去式。** 其他平台、各内部Laurent、总flux、两端germ和同w ruling均保未付。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
