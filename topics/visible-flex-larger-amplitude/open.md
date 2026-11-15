@@ -28,15 +28,15 @@
 
 同一最坏physical row155819/interval461/radial1保持在完整A/g/H中；原W199.05060973500673非零。68 H目标43.524676836119276优于C43.75482112347814；完整43008条最终slack非负、最小9.159339953157541e−16。512预算停止；full stationarity4.650449587614451e−6/浮点R267 gap1.5631940186722204e−13不是认证最优性。14父关系和56源身份已核，五公开原件精确CLI取入；完整590574983B artifact由Actions reader43655562831成功读取，[完整字节附记](notes/2026-11-14-actual68-completed-byte-readback-addendum.md)已保存：190domain/1226NPY、108condensed/38阵及14raw415120992B、62源均核；131项小原读数与先读报告一致，完整QR因子未导出，不冒独立全因子审计，不新增科学门。
 
-68有14LEFT+7MID、43008行，连续466..486+p为7101列，实际6763且node484为零B。新72从68双SHA3f45b939/f4de267f出发，新增left484后15LEFT+7MID、45056行，实际B并集补齐7101，zero-layout为空；原node484 J/P与outside-C贡献必须真捕获保留。C4059和全部原预算/门/FD不变。72已按[完整接口](notes/2026-11-14-twenty-two-query-condensed-interface.md)与唯一requestbdeed8cf派发；43源pins/11shell/6inlineAST核同，等待实际运行原件，不预写接受。
+68有14LEFT+7MID、43008行，连续466..486+p为7101列，实际6763且node484为零B。新72从68双SHA3f45b939/f4de267f出发，新增left484后15LEFT+7MID、45056行，实际B并集补齐7101，zero-layout为空；原node484 J/P与outside-C贡献必须真捕获保留。C4059和全部原预算/门/FD不变。72已按[完整接口](notes/2026-11-14-twenty-two-query-condensed-interface.md)与唯一requestbdeed8cf派发；43源pins/11shell/6inlineAST核同，实际run43656584956/sourceeff90c14/job132636358479正在原计算，等待真实结果。
 
 **同父λ比较：** [67正式结论](notes/2026-11-14-actual67-lambda27-same-base-tradeoff-and-byte-comparison.md)。66/67均从actual64出发、同20query/W/b/g/B，分别λ270/27。66接受1/16、总merit43.7556914034461；67接受1/512、总merit43.77799655333434，但同row461最大col为.007108963566953459，较66 .007109134582008451更小。最近拒步均唯一left466。67 stationarity1788.5803704212726/gap2194.117175196217是有限预算结果，不能称精确QP最优。完整181B/1168数组+b/g/c逐字同、14新raw已核；第一版工程失败保留。
 
-70按[独立同父接口](notes/2026-11-14-twenty-one-query-lambda27-same-parent-interface.md)实际运行43656059206/sourceab974f19：与68同actual66父、同21query，只有λ27。43pins/11shell/6inlineAST核同，全部C/QR/root为当前λ重建。不能从67新warm冒同父，也不能拿未来70 merit与72新W直接相减。
+70按[独立同父接口](notes/2026-11-14-twenty-one-query-lambda27-same-parent-interface.md)实际运行43656059206/sourceab974f19：与68同actual66父、同21query，只有λ27。科学步骤、FD及artifact已成功，只有publisher失败；原artifact14139045881/606816318B/ZIPe45f3284保全，正在恢复原件而不重跑科学。43pins/11shell/6inlineAST核同，全部C/QR/root为当前λ重建。不能从67新warm冒同父，也不能拿70 merit与72新W直接相减。
 
 [66完整结论](notes/2026-11-14-actual-request66-twenty-query-nearest-left466.md)及[字节附记](notes/2026-11-14-actual66-complete-byte-audit-addendum.md)已完成，181domain/103condensed/14raw/observer由既有回执合并，无重审；全部早轮见[原open检查点](open-checkpoint-through-request67-2026-11-14.md)。[65固定模型诊断](notes/2026-11-14-actual65-fixed-model-center-and-conditional-response.md)已证明小响应已在center，且center违反2802条B；不能去掉B。其40raw/201输入/5749RHS操作字节核已付，不重跑。
 
-### 1B. Native：61原循环已失败，先定位同状态noJ/withJ差异
+### 1B. Native：71新primal逐位吻合；73已进入完整576段续解
 
 已证 [R269](results/R269-native-zero-reference-height-slope-gauge.md)、[R271](results/R271-discrete-RK-stage-gauge-covariance.md)、[R272](results/R272-native-RK-reference-and-propagation-error-split.md)、[R273](results/R273-complete-native-damped-square-root-chain.md)；完整证明已登记。R273保所有cut/stage/far、每node罚块、carry与纯常数，L2下降不保证原∞下降。实际longdouble为64有效位，不称binary128。
 
@@ -52,7 +52,7 @@
 
 原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
 
-[R275](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)已给出原noJ逐运算及完整mean的条件同一性证明，理想regular branch链式变分与字面浮点导数分开。71按[接口](notes/2026-11-14-noJ-matched-variational-primal-identity-and-interface.md)运行43656397000/source3df227cb，实际stage11/12对照；13源pins/9shell/5inlineAST通过。71实际已成功，两个选定段的完整226态、postport、两个mean及和逐bits同原noJ，新fullT/J真实产生；没有完整native接受。73随即按[完整续解接口](notes/2026-11-15-noJ-primal-current576-native-continuation-interface.md)与[新snapshot/QR接口](notes/2026-11-15-noJ-primal-current576-adapter-and-QR-interface.md)派发：只把失败61末态作初猜，真实新flow固定f9b292c4、每轮current576 J与R273重建，原32/10/2e−9/final sensitivity/audit保持；18源pins/9shell/4inlineAST核同。单call32GiB保全全部原阵与因子/行账，320min计算时每2700秒真实pull/核双README；不以单段位相同或来源核添新科学门。
+[R275](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)已给出原noJ逐运算及完整mean的条件同一性证明，理想regular branch链式变分与字面浮点导数分开。71按[接口](notes/2026-11-14-noJ-matched-variational-primal-identity-and-interface.md)运行43656397000/source3df227cb，实际stage11/12对照；13源pins/9shell/5inlineAST通过。71实际已成功，[正式结论](notes/2026-11-15-actual71-noJ-primal-matched-cusp-and-ordinary-stages.md)与[完整字节核](notes/2026-11-15-actual71-noJ-primal-stage-byte-audit.json)保存：两个选定段的完整226态、postport、两个mean及和逐bits同原noJ，也对应69原out/mean；新fullT/J真实产生。14raw、25步和100field记录已核；内部local-A只有hash，不冒独立payload审。没有完整native接受。73随即按[完整续解接口](notes/2026-11-15-noJ-primal-current576-native-continuation-interface.md)与[新snapshot/QR接口](notes/2026-11-15-noJ-primal-current576-adapter-and-QR-interface.md)派发：只把失败61末态作初猜，真实新flow固定f9b292c4、每轮current576 J与R273重建，原32/10/2e−9/final sensitivity/audit保持；18源pins/9shell/4inlineAST核同。73实际run43657001633/source9515d5aa/job132637631246已进入完整计算。单call32GiB保全全部原阵与因子/行账，320min计算时每2700秒真实pull/核双README；不以单段位相同或来源核添新科学门。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 
