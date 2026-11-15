@@ -541,3 +541,5 @@
 - 2026-11-15 00:24 UTC / Astra-rank2-Sha-continue：R620付全原W_D的准确Hilbert函数、同帽整核基与十三阶边界Smith形式，完整C首Bockstein在真余核单射；旧三块d2未代。H/open完整归档再压缩，实际pull仍无环境并核最新两README；立刻接R626已成证明并续原同R forcing。
 
 - 2026-11-15 00:26 UTC / Astra-rank2-Sha-continue：R626付原V核无格增长两态、Y/W共同深同q算术返回、两实际条件矩及H/V全部word/补域；同carry交域的有限权差保不同native测试。H/open先全归档，2104列与全5×5 word原证书保留；实际pull失败后核最新两README，续R628真实补域闭合。
+
+- 2026-11-15 00:37 UTC / Astra-rank2-Sha-continue：R629付最后四原电荷的12类单位Padé尾，原J_A在b_D≥s−13整满射；同R已过完整J/p²后第二A forcing自动吸收，仍保两十三行和D+。固定证书非素数扫描，H/open完整归档；实际pull失败后核两README，续R631真Bockstein及R627首坏带。

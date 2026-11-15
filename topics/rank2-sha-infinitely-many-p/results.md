@@ -104,3 +104,6 @@
 
 
 - [R626：原V核的小闭包、两中央共同深域与完整有限边界](results/R626-original-v-core-and-finite-native-boundary.md)：整2104全部quarter/中心与真实双sigma锚支付绝对平方，V核回原K0 degree8而无格增长；原Y/W同深整域保同q并scalar返回。首条件矩scalar、第二矩两个明确旧截面，H/V两word与全部补支、同carry交域和P_N(κV)/P_N(V)有限权差完整；实际εp仅知±1，全部native有理/日志测试保留，未给补域赋零。
+
+
+- [R629：最后四个原电荷与短目标的完整尾满射](results/R629-original-four-charge-tail-and-short-target-surjectivity.md)：十二个固定有理Padé矩阵的单位子式将原J_A满射门推进b_D≥s−13（D≥3、ell1/2、p>101），全部q帽/高尾/同来源保留；唯一方阵例外强迫p合数。相同R通过完整J(P+pR)∈p²后第二A forcing可吸收，未删除两十三行或把γ0当完整C2/d2零。
