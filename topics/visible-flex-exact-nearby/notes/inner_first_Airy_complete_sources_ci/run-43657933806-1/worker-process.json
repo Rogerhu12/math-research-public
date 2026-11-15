@@ -1,0 +1,87 @@
+{
+  "kind": "actual_public_inner_first_Airy_complete_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43657933806",
+  "run_attempt": "1",
+  "workflow_commit": "8e3a865418c1f3d14a04c6561bd26fcac2f2865d",
+  "worker_sha256": "d54335e63995deb064118d48ad42c7cf5945529cdff17b7417c9fe500fc2fbfa",
+  "manifest_sha256": "76faab17f11d84dd47e5f4e71695393deba10d6a962ac648ce0b8f3b5a91786b",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T00:24:01.990965+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T00:24:04.151912+00:00",
+      "before": "ae8459eb2c4568fd489c82d477aede82d1e4a33e",
+      "after": "4aea83bcb9ba4571d20f8df077f335f50ed5ceaa",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:06.346016+00:00",
+      "before": "4aea83bcb9ba4571d20f8df077f335f50ed5ceaa",
+      "after": "731044d9df648df68c58aceaee131296c9a7fa45",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "name": "directed",
+      "run_id": "43632464994",
+      "path": "directed/consumers/directed-matrix-old-circle-sources.json.gz",
+      "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+      "bytes": 7873296
+    }
+  ],
+  "specific_legacy_schema_repair": {
+    "original_run_id": "43656438723",
+    "original_run_attempt": "1",
+    "actual_original_child_returncode": 1,
+    "exact_original_mathematical_failure": {
+      "type": "KeyError",
+      "message": "'complete_width_evidence'"
+    },
+    "source_sha256": "bac8b991fb2672017f14b1068282eb7876aa93eda6f198f3bedd6c5e2f23c095",
+    "manifest_sha256": "373af63c2d6357a01210dc2d746d26fea79758f6c9068f5bef68d06c671ecef6",
+    "native_sha256": "76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b",
+    "native_bytes": 12436,
+    "process_sha256": "ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279",
+    "process_bytes": 15314,
+    "accepted_stage_payload_sha256": {
+      "new-inner-Airy-profile-and-exact-PQ-jets": "9809a086152cbf69649dea0a0fcc90710411897caa02863992294530ca2f87b2",
+      "all-inner-amplitudes-and-complete-Airy-operators": "1f46b066ae07b7d06cf9678040aa4bab0a04232b80f24a899819cef7eea3a0a8"
+    },
+    "original_successful_stages_recomputed": 0,
+    "original_matrix_conversions": 0,
+    "original_integral_rows": 0,
+    "unchanged_complete_numerical_prefix": {
+      "prefix_sha256": "45af989916129a4d193e6ad948cc2c83d9a5428c9f8181161b4bafe47c3413df",
+      "prefix_bytes": 11893,
+      "all_airy_sha256": "b0b627aaa4ca7edcb14c64f1fcc534a56d565b1e17627420714b44bb3d11406d",
+      "all_airy_bytes": 854
+    },
+    "other_cross_source_recovery_permitted": false
+  },
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-inner-first-Airy-complete-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-inner-first-Airy-complete-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-inner-first-Airy-complete-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-inner-first-Airy-complete-sources-CI-inputs.json",
+    "--manifest-sha",
+    "76faab17f11d84dd47e5f4e71695393deba10d6a962ac648ce0b8f3b5a91786b",
+    "--out-dir",
+    "/__w/_temp/visible-exact-inner-first-Airy-complete-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-inner-first-Airy-complete-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 64,
+  "actual_scientific_checkout_commit": "4aea83bcb9ba4571d20f8df077f335f50ed5ceaa",
+  "mathematical_wall_seconds": 1.165706804999985
+}
