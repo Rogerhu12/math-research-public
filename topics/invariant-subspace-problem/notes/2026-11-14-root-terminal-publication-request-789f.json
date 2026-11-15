@@ -1,21 +1,28 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "41277e999d45d2464a260c289ef5144b7c0cfc17",
-  "createdUtc": "2026-11-15 05:01:40 UTC",
-  "message": "ISP: prove twenty exact infinity kernels and conditional source cost8735 under current rules",
+  "parentCommit": "17a07c22ef60eb2f913703956c1284b8da533f32",
+  "createdUtc": "2026-11-15 05:09:51 UTC",
+  "message": "ISP: prove twenty-three exact kernels and cost8732; continue temporary mathematics under rule15",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume200-runner-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-p200-p486-small-text-manifest-789f.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-through512-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume256-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-resume486-input-locations-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-paid-kernels-complete-linear-source-closure-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-remote-session-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-remote-session-request-789f.json",
+    ".github/workflows/invariant-subspace-r150-infinity-temporary-session.yml",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-infinity-temporary-session.yml"
+  ]
 }
