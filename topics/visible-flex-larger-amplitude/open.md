@@ -44,17 +44,15 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 [已关闭迭代的后台artifact接线](notes/2026-11-15-noJ-primal-live-background-artifact-wiring.md)完成源码/官方接口核对：SDK2.3.2在同job持续计算中流式上传，双迭代批次避单job500件限制；同id下载、显式digestMismatch=false及全部成员原SHA核同后才可释放已闭合large-arrays，原manifest/小记录保留。Node supervisor持有新增runtime凭据且不转给科学child，三个独立源及[完整接口](notes/2026-11-15-native-live-byte-supervisor-source-draft.md)已发布，含恢复入口；[SDK真实锁构建](notes/2026-11-15-native-live-sdk-lock-build-interface.md)已用唯一工程请求发布，只生成真实完整锁、禁脚本安装与constructor加载。尚未部署supervisor、上传/删除科学原件。网络积压不保证32GiB总容量，storage错误与科学接受分记。
 
-### 1D. 低三方程：实际92内层资格阻点；93保留非零残差继续
+### 1D. 实际92内层阻塞已读完；93真实下降，96同源继续
 
-75/77/78/80/82/85/87/90的完整原件与正式结论已付，见原open检查点和notes；85仅publisher体积失败，十一原件已按原字节恢复，无科学重跑。90的η.01/8方向实际接受但第三项变大，真实status5a4d157a作为92父，旧p不能继承81高109证明。
+[92完整结论](notes/2026-11-15-actual92-p3-inner-roots-outer-descent-and-restoration-bottleneck.md)、[全部原读数](notes/2026-11-15-actual92-literal-readout.json.gz)及[字节审计](notes/2026-11-15-actual92-byte-audit-summary.json)已保存。完整status/39内层报告/1425事件均有无损副本，71源和四原输入完整bytes已核。初始p3投影及两次外更新通过原三merit/.2Armijo，最终merit8016828215.536017；第三轮全部20档因内层abs(d3)>1e-8而未进入外层验收。有限探针中的更低merit不冒已接受；call21/39末20档全部同参数词只解释这些具体停滞，无普遍精度底线或根不存在结论。
 
-[88完整保存模型结论](notes/2026-11-15-actual88-saved85-singular-directions-and-local-damping-predictions.md)已核：主要残差位于中间奇异方向，η.1保留很强，弱投影仍约369；较小η是同一旧85矩阵的预测，不是当前域/非线性接受。345字节检查、13当次源、八完整模型/24预测保留，不作后继计算门。
+[93独立inexact恢复接口](notes/2026-11-15-inexact-p3-restoration-search-interface.md)及[接线接口](notes/2026-11-15-request93-inexact-p3-restoration-workflow-interface.md)已发布，源ce93a364保完整实际d3的normal项和Schur有效RHS；有限恢复点有自己的当前完整J才能接受原full3 merit检验，不再把内层近似根阈值当外层资格门。原最终unit/full112/FD/Arb/零核圆形参考检查全部不变，不冒IFT导数或非零解。
 
-92实际run43672921972/source1755a4f4/job132686715503全部成功；676336B/f10832ba小包已完整取回。独立原d3内层阈值1e-8的策略先接受完整三merit初投影和两次外层更新，随后第三轮二十个试点均未得到usable内根；全39inner报告保留。真实最后接受p=[.6929598480979777,.1236195236907518,.5225323995570981]，unit=[-233.46281549983243,126623.86001929421,-7.863297485366516e-9]，完整merit8016828215.536017。一些被挡的实际内点merit更低，但不是已接受点；exact完整formal/byte读回继续。原498765B status e822be88、所有实际J/FD/Arb/零圆范围保留，unit/full112/native/nonzero未通过。
+93真实run43674264245/source8adc3251/job132690828561全success，完整620340B/16bb4f55包已取。八方向均接受，alpha=[1,1,.5,1,.0625,1,1,.25]；15inner、原调用无异常，停因仅8轮预算。fresh merit8016828215.535884→146733.11420722902，末p=[.5078436152033409,-.3849212262335502,.5911288427829965]，原unit=[-206.33215777138622,500.8924725765619,-3.79434721027843e-8]；所有原最终解旗仍false。父92末d3和93fresh值不同，两份原值分别保存而不继承父J/merit。exact完整正式读回继续。
 
-[93完整新算法](notes/2026-11-15-inexact-p3-restoration-search-interface.md)与[唯一Actions接线](notes/2026-11-15-request93-inexact-p3-restoration-workflow-interface.md)现发布：sourcece93a364/workflow6872ff02/request9a5f4f3f，只从92最后真实接受参数fresh求值。完整实际r3经normal n3=-r3/J33和rho=r12+J13*n3进入当前线性Schur模型；η.1/8方向20档、inner12/20不变。内层仍争取原1e-8，最后有限实际点和同点有限J/J33可交原full3 merit/真实gdot/.2 Armijo试验；不把未达内层目标冒根，也不因它单独禁止试验。实际恢复位移与alpha*v分开记录，非IFT曲线断言。原最终unit/full112阈值及整个FD/Arb/零圆阶段AST保持。root完整源diff/两接口/全workflow/requestdiff与117静态核72pins、十三直接源、7shell4inline已付；只等真实Actions结果，继续求解。
-
-R277/R278已入results，原固定78高109非零与项目化零集/条件IFT证明不能代当前根。Saved85项目化消费者69971a7c/接口8752f821虽冻结但尚未执行；活模型完整项目化参数J设计继续，不以诊断代替实际求解。
+96从真实93末p继续完全同ce93/eta.1/8x20外层/12x20内层；源已有own-schema分支，无需改科学源码或原阈值，geometry准备唯一现workflow/request、root审读后推。项目化完整J是独立后备设计，不能拿旧saved85谱预填当前效果；R277/R278已证明部分保留，当前参数的高109非共振/Schur仍未付。
 
 ## 2. 接受场闭合、固定g与全t精化
 
