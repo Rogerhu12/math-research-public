@@ -428,3 +428,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R310完整九方向响应与原度量证明源码
 
 [R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)及helper50044473/接口3dd44343全文读后发布；完整9新方向重评与12×9正阻尼QR、下块G和原实际d/S半径不变，旧JQ不恢复丢失信息，finite QR不冒准确正交。直接/新模型/旧轴动作及真实曲线原点导数责任明示，内部消去不由complex-step自动支付；仅AST/hash，无本地科学。138已全返回待R307逐原值登记，142据此独立接线，原8×20/12×20/FD/Arb/453圆及全部原门保持，不新增fixture。
+
+## 2026-11-15 /root — R307实际138全32批normal选择读回
+
+[R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)20538B/314c3cdc全文已读发布：全部32批/256接受/358trial、259改点而同调用救回0，保全部normal/5416样本及FD/Arb/453圆，916字节身份原日志重建通过。W慢降末4.963213789290057/allfinalfalse，135同初p但fresh r/J不同；142据真138末p及已发R310形成新全九方向，未冒新非零父。137实际907.237564652s/owner child1无summary/outer70，非global deadline，原CLI两log已取交R313/140修实际接口；H同步该事实，不猜数学失败。

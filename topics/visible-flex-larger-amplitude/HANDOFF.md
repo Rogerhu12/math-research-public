@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 12:03:25 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 077da04134d9ca7ce012edb408769493379825c6。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 12:04:34 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 bc2139961cdf5ed53044f0df1a270490127e49aa。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -20,7 +20,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 ## 当前真实成果与下一责任
 
-[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6，current128 RHS新R273方向，唯一α=1接受；完整576段/129248行norm由.000122096054597410989492629881621789239降至9.68582474751023176032080482454992093e−11，原容差停止。独立fresh128全部残差/576×226输出逐字一致；原64只受控sentinel。全224J/338/物理audit/native/fullDN仍false，末态e0f20c36已清不可SHA恢复，下一项137/140，不盲调η。
+[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：run43704718358/source4f0ea9a，current128 RHS新R273唯一α=1接受，完整576段/129248行norm9.68582474751023176032080482454992093e−11达原2e−9并正常停。独立fresh128全残差/576×226逐字一致；全224J/338/audit/native/fullDN未付，末态e0f20c36已清不可SHA恢复，下一140实际新现场，不盲调η。
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。[新operator接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c已全文读并发布，完整225矩/226态/全部224列和名义缺陷读回保持，独立schema不冒旧dL字同值。140同job新接线继续，137不改；总cap含编译，独立science cap和父绝对期限均保。
 
@@ -32,8 +32,8 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 |---|---|---|---|
 | [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001；11:47仍science |
 | [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；11:47仍science |
-| [137原全列](notes/2026-11-15-request137-persistent128-precleanup-final-components.md) | 43709832101 / 132798770009 | f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3 / 11:37:35 | 47pins、当前128同job末态全stage/boundary/338/audit；11:47 science |
-| [138同轨迹择优](notes/2026-11-15-request138-same-normal-trace-merit-interface.md) | 43710284131 / 132800138064 | 0be175792723e0663809146e3922e7052e906c09 / 11:43:21 | 两job/全部步骤success；13.9MB compute和report原log已CLI取，amplitude完整回读R307 |
+| [137原全列](notes/2026-11-15-request137-persistent128-precleanup-final-components.md) | 43709832101 / 132798770009 | f9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3 / 11:37:35 | 11:53已exit70，owner child1/summary空；原freshJ/packet已付，R313逐真原因续读，140修实接线 |
+| [138同轨迹择优](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md) | 43710284131 / 132800138064 | 0be175792723e0663809146e3922e7052e906c09 / 11:43:21 | 全32/256接受/358试探，R307全normal回读及916字节身份已结清；142改完整方向形成 |
 | [139连续E](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md) | 43710988676 / 132802263809 | 431ec67492ab99b63b42a9a1d962bea0a2cdaf0b / 11:52:08 | 10pins/三原输入/原预算；preflight全部success，science在跑，R311留实际回读 |
 
 124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
@@ -46,7 +46,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)、[135 R301](results/R301-actual135-carried-radius-thirty-two-batches.md)均完整32批256接受；135 W仅到4.963213788986739、radius到9.5367431640625e−8，全final false。完整真p/r/FD/Arb/453圆及896字节身份在正文，不由整列FD或弱σ推无根。
 
-[R299](results/R299-same-normal-trace-full-merit-selection.md)证同一次完整normal轨迹全三merit择优，保12×20原工作及失败/外门，局部支配不保证未来链。138从与135相同的真134末p/.000390625起步，90+4pins/29闭包、8×20/32批/3600s批间/零接受stop保持，全部normal records已取等R307。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)与helper50044473/完整接口已读发布：全九新方向重评、原度量下块G、有限QR及原真实外门；直接动作仍含内部消去，不冒精度改善，142据真实138另接。
+[138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)全32批/256接受/358trial，259真改点而同调用直接救回0；5416样本/全部normal保留，W4.963213836829283→4.963213789290057，末radius3.814697265625e−7，全部final false。135同初p但fresh r/J不同，不作单因归因。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)证明及helper50044473已发布：全9新方向、原度量G和原真实门，内部消去仍未界；142据138真末p另接，不复跑同小步。
 
 [130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)：run43702578242/source690ca0f924f069c6b8c2134ca83bc856918c2e89完整7批33trial/7warm接受/7freshFD；11:38:40规则round2真实变化exit77，第8完整返回未知。最近拒绝MID472/LEFT463，末还含selected MID471；linear可行不保证非线性域。全部native/fullDN false，末raw已清。root继续独立35查询：保原33再加MID472/LEFT463，新增capture463/node463→26端点/8791local，C4059/全outside/原门不变；从可恢复98另起，不伪续130末。完整来源、试探/后验/身份见正文。
 
