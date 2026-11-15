@@ -194,3 +194,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 [真实剪切附录B](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md) 已付有理酉作用与全17处(j,−j) gluing；原S τ12和R762非零first jet τ3/1/7/13不同。已核Borade等2025 Thm5.6的完整period条件；先投原Katz角色会换掉非零切向，不能由Weil同表示直接推整条raw斜限制的同Lp身份。此具体接口已清楚，保其它完整automorphic实现仍可研究，继续O4/O6真实原始性与全Selmer门。
 
 [2026 Wang rank2-BSD稿核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md) 已按作者原文、Ribet原Theorem1及真实Nguyen2510.12890证明其两个起始局部条件相矛盾，并核全Selmer/λ比较缺口。该声明不能关闭O4/O6；纠正其等号或root符号仍须原最早节点、全部局部条件及目标p-unit，不以深节点非零或变化辅助形式复L非零替代。
+
+### R765：真正非F高接触restriction及指定normal行
+
+[R765](results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md) 给完整F整除空间的准确零角r_F。k<r_F（特别ell1/k0/m≥3）时，第三单位行排除整个该空间；完整R须有非零restriction、ord≥s−13，并在真实restriction像上满足代表无关ν_k=−c_k≠0。接续计算这个高接触像上的ν_k，并与全部normal/两13/d₂使用同一个R；该必要行不杀全WD，不能直接冒原forcing非零。

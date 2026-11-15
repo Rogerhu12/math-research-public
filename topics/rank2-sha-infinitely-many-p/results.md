@@ -427,3 +427,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原剪切附录B：完整有理period与十七处gluing](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)：附录B已证明原Cayley有理酉作用的dual/row规范及完整toric-period共轭，原17球线经E[17]完美gluing含全部17对(j,−j)。S的τ12/伙伴6与真实first jet的τ3、1/7/13及其伙伴不同；先投原角色会删掉已付非零切向。已核发表原文Theorem5.6适用完整period，未把未投影斜限制冒同一Katz函数。
 
 - [2026 Wang rank2声明的原输入核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)：已逐原文核2026 Wang rank2-BSD稿，两独立必要条件反向：全部坏素数split的虚二次基变根号实际−，其起始+域不存在；q≡−1且a_q非零modp违反q-new必要等式a_q²=(q+1)²。真实Nguyen全split/rank1 torsion比较不覆盖所用inert升level；Λ/(T+p)自含反例排除非零复L值⇒λ0的推断。此稿不提供原O4/O6输入，目标本身未被否定。
+
+- [R765：原零角与被迫非因子型首次修正](results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md)：已证明原完整F整除来源的准确最低t阶r_F及下界ceil((m−2)/4)_+；k<r_F时，原第三单位行13+k排除全部F整除首次修正。任何完整R须给非零实际restriction并消到N0=s−13，同时命中代表无关normal行ν_k=−c_k≠0；全部19角/U0/w13/carry保，该行不冒全左核，真正高接触像与全normal同R仍开。
