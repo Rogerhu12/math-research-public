@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "9f458e8a307dccb61a3a2d9b8f848587bc0c91ac",
+  "rulesReadAtCommit": "b63ef7fde2b03c4b90636725e28e5d342acade10",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -715,6 +715,79 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/selected-natural-second-left-regauged/selected-natural-second-left-regauged-pipeline-receipt.json"
+    },
+    {
+      "id": "zero-paid-fifth-cochain-export",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py",
+      "scriptSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-second-normal-envelope-789f.py",
+          "sha256": "c8dde441995f3c9b57728a68ec7b29aa56e9abfbbee280fc334961b64e561403"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-original-transverse-first-connection.json",
+          "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-zero-second-pure-envelope.json",
+          "sha256": "9fa21a1f33225c470af62e4186046ff93281f4647bcb126c32f239bf355f846a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-zero-second-normal-envelope.json",
+          "sha256": "2bf6ad79a39cace74510f195bae244abb620b4ca138a87c5c9b99d7cf2c282c8"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-zero-third-left-envelope.json",
+          "sha256": "8fae063a281b65d9dc8710597f886093c08ba44f53bb690b11e3b3f0e9b0d8cf"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-fourth-joint-high-low-left-envelope.json",
+          "sha256": "6cf6884053d607ccfe5f0974d5c259ca80a9489c7b3b81c284202ca539f94455"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-fifth-joint-high-low-left-envelope-789f.py",
+          "sha256": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+          "sha256": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--normal-generator",
+        "{scripts}/2026-11-15-r150-zero-second-normal-envelope-789f.py",
+        "--first-connection-receipt",
+        "{scripts}/43679903558-original-transverse-first-connection.json",
+        "--second-pure-receipt",
+        "{scripts}/43679903558-zero-second-pure-envelope.json",
+        "--second-normal-receipt",
+        "{scripts}/43679903558-zero-second-normal-envelope.json",
+        "--third-receipt",
+        "{scripts}/43679903558-zero-third-left-envelope.json",
+        "--checkpoint-dir",
+        "{work}/zero-sixth-preparation",
+        "--out",
+        "{work}/zero-sixth-preparation-receipt.json",
+        "--remaining-seconds",
+        "30",
+        "--fourth-receipt",
+        "{scripts}/43702348535-zero-fourth-joint-high-low-left-envelope.json",
+        "--fifth-receipt",
+        "{scripts}/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+        "--paid-fifth-generator",
+        "{scripts}/2026-11-15-r150-zero-fifth-joint-high-low-left-envelope-789f.py",
+        "--paid-fifth-checkpoint-dir",
+        "{work}/zero-fifth-joint-checkpoint"
+      ],
+      "timeoutSeconds": 80,
+      "receiptPath": "{work}/zero-sixth-preparation-receipt.json"
     }
   ]
 }

@@ -15,15 +15,15 @@
 
 ## R150：常数层已闭，完整参数长度与原成员性仍开
 
-- 原A为4367×6188、泛秩4354，同I,J4354/H8770；h0度24、H0=(s−2)h0不同。[常数模型](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)真Q585rank556/29左核、全954乘回，同方阵Q/F31秩4318/核36；原31单位块给D31规范，已显式29核及p768一致，完整细节保H全文。
-- [完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：高normal≥3的3762维全在selected像；full余20pure+29，square余10pure+26，Q/D31/F31一致。所有36常核full一阶可提升，不等于额外七条完整formal曲线。
+- 原A为4367×6188、泛秩4354，同I,J4354/H8770；h0度24≠H0=(s−2)h0。[常数模型](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)给Q/F31同选秩4318/核36及D31单位规范；原完整细节、29显式核及p768身份保H全文。
+- [完整selected余空间](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：full49=20pure+29，square36=10pure+26；Q/D31/F31一致，高normal≥3全在selected像。全部36常核full一阶可升，不等于七新formal曲线。
 - [特征零自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：同I,J/u，33头全部143682原产品真；λ0=ΛCc、λ1=E_oldXc+Λd，保36常核自由。D31[[u]]消I4318/uI3给第二Q下界9，未另验额外13输出。
 - [第二真22头与条件费8627](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：新gauge只换1坐标，fielddet11/M0′31rank1546/unitdet5；103.869162799秒、全95788原产品，normal≤3完整头22维，故9≤Qβ2≤11，未排normal4/5。36/33/22阈值给同选D阶≥91/cofactor≥88，原换列正则Laplace≥88；K99下q8428…8580，非基8624/transfer8627/目标209，统一条件8627，原成员性未付。
 - [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0。[零点第五页](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)：17.967190507秒，同九第四头真实高rank988/低rank586，七新头加十恒等头、全6188真。累计≤4/4/5/8/10、公共s53/s47；K99=s39K60，degree99、lc5^6为31单位。不假零点r1=4/β2=0。当时条件8634；当前费用按上条22头更新。
 - [∞第五页](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：15.752552958秒，完整高2295×999 rank988/低1088×603 rank586，七第五头加十恒等头；前五累计≤4/4/5/8/10，公共53/47。29精确曲线给指定82/81/75，已被22头的91/88/88改进。两端包络余rank2均不是完整第五下界；第六须新增2805三normal来源。
-- [同一原子式完整模31长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做并推：run43702348535/selected-natural-u-minimal-rebuild32，math10.855262523秒/native9.937256051，51份已付前16层数组全SHA同。36正指数全部确定，末四17/18/18/21，max21；同选cofactor公共阶222。deg Dbar=8527，char0 degD8527…8679，K99下q8428…8580，现条件target209、统一费8627。lc(D)31单位当且仅当char0 v∞=243，尚未证。新binding43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600。
+- [同一模31完整长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做并推，51旧前缀全SHA同，36正指数全部付完/max21，field cofactor222仅用于其范围。deg Dbar8527，现QdegD8527…8679、91≤v∞D≤243；lc31单位等价Qv∞243，未证。重建binding43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600。
 - [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)给同一active来源因子的全部j子式最小j权和，删列由wedge支付。旧29曲线外一阶1834×29真Qrank29、固定常组合t2=0；允许uPhiY纠偏的最大支撑维数仍开，不重旧1603块。
-- 原九模31⁶证书费1339已全成，仍不付Q[s]成员性、固定e无界精度或lc(D)31单位；常数31饱和不付参数leading单位。旧mod31仿射gcd315仅其原范围，不直接升char0。旧1632标准族/二次skew降次、LLL候选、单65521均已完成，不重做。
+- 原九模31⁶证书费1339全成，仍不付Q[s]成员性、固定e无界精度或lc31单位。旧315有限域gcd、标准族、LLL候选与单65521均保归档，不重复。
 
 ## 原同w边界：共同预算仍开
 
@@ -43,7 +43,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前两端第五完整规范均保临时检查点，不重旧大正常形。
 - Q第二已成22头，临时目录selected-natural-second-left-regauged；binding c40049455e9f310607586b55cc271ca00636dc954f0de63693d0da886a6d067e。完整36RHS单位解18,124,389B/SHA9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d已保存，后继先求normal4在旧1736零行的新核，只为真新方向续解，不重95.542秒解；旧HF/T及两E/33+36自由保留。
-- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：λ2原9×3/现9×7及λ3原9×12/现9×7全零；只当前固定17条left5无障碍，未付成员性/left6。第六须保H4/H5及全部2805顶行，先输出完整第五cochain包及λ4/5平方读数。
+- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：λ2原9×3/现9×7及λ3原9×12/现9×7全零；只当前固定17条left5无障碍，未付成员性/left6。第六须保H4/H5及全部2805顶行；cochain-export f2e03d6c已排30秒/512MiB，读原四phase不改旧manifest，真4738×7 pack及λ4/5平方读数先付。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
