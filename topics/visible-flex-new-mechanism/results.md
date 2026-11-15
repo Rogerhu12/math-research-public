@@ -315,3 +315,5 @@
 - [R151：一般pure J恒等、九维响应像与新pure零代表](results/R151-general-pure-J-identity-nine-dimensional-range-and-kernel.md) — actual43657785023给J九项有理原响应表示，398项完整原差及31条新pure依赖全sound归零；与R131旧非零子式9条pure行合得dimπ(R−2)=9、核31，m8再丢3维。G³/J独立新类给42维E的pure核33，整个G/J轨道可取pure零代表；J七个ω后继pure入响应，N⁷[J]=0仅模R。不授J负成本或全U支付，零新profile评价。
 
 - [R154：五族加速度商由二十个状态值的正仿射轨道生成](results/R154-five-acceleration-families-from-twenty-state-orbits.md) — R146状态协变消h/ω自由度，R145真实(k,ω)反号给五族符号(+,-,+,-,+)；有限Laurent表示使S属于正缩放有限实span，k次数≤6的七点插值只需0/1/2/3四个非负值。共20种子轨道生成五族modR，不称dim20/实际控制/四点正性；不盲扫新状态。
+
+- [R155：完整最高第四action的真实曲线Sturm型充要判据](results/R155-complete-highest-action-curve-Sturm-Liouville-equivalence.md) — 任意水平Γ重参数保完整面积与Q4，得到aΓt″²+bΓt″t′²+cΓt′4；flat端使eΓ=cΓ−bΓ′/3准确。全部真实平端L4积分非负iff所有Γ上的∫[(4/9)aΓψ′²+eΓψ²]≥0。有限时间flat反构造与γ=P/ψ覆盖支撑的充分性完整，不假定Γ正则或有限转向；不授低阶完整action或实际逆元。
