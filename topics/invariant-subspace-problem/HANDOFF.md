@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 1200c13713b0a4ce4d125a0534610583223ed4ef（2026-11-15 01:01:38 UTC，Actions run43661014951实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43661014951-1.json。
+- **最近成功实际 pull 与已读规则提交：** 8211b7f6545b1b5055e041a744b5a15fe91a4c7e（2026-11-15 01:03:49 UTC，Actions run43661204263实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43661204263-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用$及$；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-saturated-positive1058-and-weighted-window-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -33,9 +33,11 @@
 - **原正滤波/余负图：** EME≤2E(I−E)、JMJ≤2J(I−J)及全幂耗散保，J无加性δ，主L配对仍开。全源Schur相对孔导数有真实四次坏方向，但同族μ²≤exp(O(m²))flat²且固定低测试为零，只排全源导数捷径。移动boson及逆Gram仅强趋P_M和单侧exp(−79d⁴)尾，不付反向率。
 - **[固定测试完整列](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)：** h_a=G_a^{-*}f_a=(A*)^ae0/Wa，T*h_a=(−D*)^aΩ/Wa；完整零源Schur给||b′a||²≤Ka S_m^(a+1)，S_m≤1/(3m³)，a0零。原Euler W_U*b=−F*c保低核反馈。**[a1双块恢复](notes/2026-11-15-first-physical-head-exact-gauge-recovery-and-same-gap-scaling-789f-next.md)** 精确c1=(W1/S)(Γ_CC^½−Γ_CC^-½)y、b1=−W1b′1/S，仅O(m³)恢复。v=Ty∈K1及h1+(S/W1)f1−v=C*f0/W1使同t/Gq/dq都同尺度，已有b′1≤S/W1只给平凡原列界；仍缺o(S)。a>1和真实primitive占据纠正继续。
 - **[全局carry与完整W锚](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)：** p_m为z/F_m的<d截断，真ρ=exp(−12.5d³)，全部借位给||B^k−B_m^k||≤α_m(k<d)，进而||p_m(B)−G1,m||≤η=exp(−80d⁴)。BM⊂N及T/B交换付P_Mp_m(B)*w=d0w，所以完整w自配对近d0||w||²；正整数a同证绝对误差。未免费移至孔截断或Ur。
-- **[同母提升的正向gauge预算](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)已成：** 对全部Q≤exp(26d³)原K_(m,Q)，在每步纯尾R′/新bit0修复中插同h_m；ζ_p=d0/(4R_p)上h_m≤4d0<1，完整跨块R h_m g_p exp(2R g_p)仍用旧e^-2·16^p预算。故||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，||p_m(B)Λk−G1k||≤θ||k||，θ=8e^-2d⁴+η≤e^-d⁴。准确付||P_K G1* w||≤θ||w||。反向P_K G1w、P_VG1(I−P_V)非自伴反馈、高孔自配对及ordinary λ(B_m top)仍未付；不能以构造z的带权小量删真实最小投影反馈。
+- **[同母提升的正向gauge预算](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)已成：** 对全部Q≤exp(26d³)原K_(m,Q)，在每步纯尾R′/新bit0修复中插同h_m；ζ_p=d0/(4R_p)上h_m≤4d0<1，完整跨块R h_m g_p exp(2R g_p)仍用旧e^-2·16^p预算。故||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，||p_m(B)Λk−G1k||≤θ||k||，θ=8e^-2d⁴+η≤e^-d⁴。准确付||P_K G1* w||≤θ||w||。反向P_K G1w及c26全窗的P_VG1(I−P_V)反馈、高孔自配对及ordinary λ(B_m top)仍未付；不能以构造z的带权小量删真实最小投影反馈。
 
 - **[第二头真实一孔Schur](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)已成：** 原F1=SI−2Z+bb*，K=b⊥、H=P_KF1|K、r=Zb−s2 b/S，取v=H⁻¹r、D0=S²−s2−2<r,v>。m≥11付H≥S/2、S²/2≤D0≤S²；同一u=D*(b+2v)给Du=2D0 b/S、D²u=2D0Ω、||u||²=2D0。校正h̃2=h2−2W1 h1,v/W2及真低核T(u/W2)在原source/零源/Gq给完整两列恢复，保全部Γ_CC⁻¹及低核反馈。只消显式primitive残量；两列联合远孔预算仍开，未将单列范数当原列衰减。
+
+- **[真实最小投影的带gauge窗口](notes/2026-11-15-true-minimal-projection-gauge-weighted-window-and-common-left-pairing-789f-next.md)已付：** m≥10、c*=1601/64>25、Q≤e^(c*d³)，原母误差及真正v_Q误差各≤e^-6d⁴，k_Q同界、u_Q误差≤2e^-6d⁴。真实||B_m^k||=Wk给||G1||≤e^(47d⁴/8)，故G1/G1*作用这些误差≤2ζ||w||、ζ=e^(-d⁴/8)。同一实际P_VG1(I−P_V)w≤ζ||w||已付，全cut |<Lr,G1r>−<P≤p w,G1P≤p w>|≤4ζ||w||²。高孔自配对、ordinary λ(B_mtop)、P_KG1u仍保。c26无权窗口不变；κd/Q=O(1)即可平均，κ=O(ρ^-2)会足但尚未证明。
 
 ## 其余未闭主接口
 
