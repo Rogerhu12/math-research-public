@@ -152,3 +152,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 当前无穷远标准Koszul空间已精确注入
 [187阶原子式与1632真来源](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)已同时给F31/Q独立。现在只对原选列J之外1834个来源坐标求1632列的支撑矩阵秩；其模31秩只给Q支撑交维数上界，不能直接提升核或免费认定旧23核属于该span。
+
+### 次数分块候选已完整关闭
+[同p768的39个原候选](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)已全部4367整数核验非零；第一轮只是未完成，保基后同格真实完成。该确定候选族不再重做，也不由此排所有格组合；当前改走原1632 Koszul支撑矩阵。
