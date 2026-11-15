@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 9da4ca88ad22f148151a06f6288ec4918b2a8500（2026-11-15 09:48:20 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 5a242a42e1cc6565dc5f0e9b77e3b8ccb87f82ab（2026-11-15 09:53:30 UTC，Actions run43701403030实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43701403030-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -20,8 +20,8 @@
 - [自然第一连接实绩](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)保原1309常系数/4433参数、全部36原头/4367产品。旧F31rank3/阶≥69独立复核；新增全49连接同3、33完整常项头。deletedQ三行真Qrank3给fullA0|I=4340，两个有理第一像秩同但仅知≥3，共动A0(Dh)不可删。
 - [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0和公共34/31。[零点23左二阶jet](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)已付r1≤4、r1+r2≤4、公共s34，K80=s20K60、lc5^6为31单位；不预称零点β2=0。
 - **∞第三页已实际完成、正式稿即续：** step infinity-third-left-envelope，exec92fabdfd，数学3.337764844秒，1088×605 base582/aug583，十三列中十二可升，保全6188来源；另十个d≤1纯泛函沿全参数恒等。故β3≤1，公共δ4354≥43/δ4353≥39；不能把正包络秩当完整下界。raw6576B SHAd6a473ce690e467dd243a0b495c26921457246dcfe9337c1e9bf4f10183f3381。原29精确曲线给指定72/71/67，K80条件费8663（非基8662、目标8442），q235…8618。
-- **同I,J自然u八阶已实际完成、正式稿即续：** step selected-natural-u-schur-through8，execee1dc3e9，数学4.408180536秒/native4.071346022。沿原4318 partial inverse/3333+985来源DAG，全4354单位/补输出、4367残量及36自由坐标真；33第一完整校正E1H全4367零。25已定指数为1×3、2×9、3×3、4×3、5×3、6×1、7×2、8×1；未定11≥9，v31≥184，未算完整长度。binding1fdb07aa85a565c45d7adfe04721a29cdbe6911cc0cb50ca45044c51f88ccc01；raw98033B SHA93fe8e62a883cdecc51d1185f162648d1f439e355eb646f3999669c419a0e4df。
-- [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)：同一单位右补基给active E_J列u^ell，全部j子式付最小j权和，删列损失由wedge支付。29旧曲线只新增外一阶1834×29矩阵；t2=29−rank_Q(M)未算。相对任一已付δ可用源因子29+t2、次大28+max(t2−1,0)，不偷允许uPhiY纠偏后的最大维数。
+- [同I,J自然u八阶正式结论](results/R150-appendix-selected-natural-schur-eight-jets-and-mod31-order184.md)： step selected-natural-u-schur-through8，execee1dc3e9，数学4.408180536秒/native4.071346022。沿原4318 partial inverse/3333+985来源DAG，全4354单位/补输出、4367残量及36自由坐标真；33第一完整校正E1H全4367零。25已定指数为1×3、2×9、3×3、4×3、5×3、6×1、7×2、8×1；未定11≥9，v31≥184，未算完整长度。binding1fdb07aa85a565c45d7adfe04721a29cdbe6911cc0cb50ca45044c51f88ccc01；raw98033B SHA93fe8e62a883cdecc51d1185f162648d1f439e355eb646f3999669c419a0e4df。
+- [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)：同一单位右补基给active E_J列u^ell，全部j子式付最小j权和，删列损失由wedge支付。29旧曲线只新增外一阶1834×29矩阵；实际全Q秩29，t2=0（2.028866967秒，全4367一阶syzygy与6188常项真），固定常系数组合没有新支撑阶。相对任一已付δ可用源因子29+t2、次大28+max(t2−1,0)，不偷允许uPhiY纠偏后的最大维数。
 - 原九模31⁶证书费1339已全成，仍不付Q[s]成员性、固定e无界精度或lc(D)31单位；常数31饱和不付参数leading单位。旧mod31仿射gcd315仅其原范围，不直接升char0。旧1632标准族/二次skew降次、LLL候选、单65521均已完成，不重做。
 
 ## 原同w边界：共同预算仍开
@@ -39,8 +39,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 
 - session43679903558于05:10 UTC开始，20分钟idle、job约至10:50。每步/每发布实际pull --rebase核两README；job期限不是数学收尾理由，后续按源码/历史输入重建临时会话，不复活已删Release资产。
 - 唯一请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json，含全部CLI、来源SHA与唯一step。完整输出只在{work}。每个实际小回执在notes/r150-infinity-remote-session-789f/；branch创建不等于main push，须核publication实际提交。
-- 原自然Schur当前8层在{work}/selected-natural-u-schur，各层6188×36 source/4367×36 residual/36×36 Schur及文件SHA、完整游标已存。下一同binding16层入口应只过滤小回执序列化中重复4318输出编号，不改旧runner语义/输入binding，避raw98033B越100KB；不得为格式变化重求8层。
-- **已排koszul-curve-first-outside**，30秒/512MiB，仅旧29原整数系数与自然F0/F1缓存；先存全1834×29新外一阶块并核原4367×29 syzygy，再求完整Q核。源码SHAd14abec1bdf614f2fa55ffd9a2e4d9c0155a4f93399328df932fa2132b6484a6；大数据只临时，不重1603或新大有理方向。
+- 原自然Schur当前8层在{work}/selected-natural-u-schur，逐层来源/Schur/全残量及完整SHA已存。已排同binding十六阶；薄wrapper只在主回执浅副本省重复4318输出编号，旧runner SHA80f681、binding1fdb07和前八层均不变。新增数学60秒/512MiB，编译可复用。
+- **koszul-curve-first-outside已完成：** exec9da4ca88，2.028866967秒/exit0；1834×29全Q秩29，固定组合t2=0，不排除uPhiY校正。raw14200B SHA8ef23972406e280223bf953df25c374e7f089cece4b433906025c40f9ab8c28b；小正式稿即续。未重1603消元。
 - [Dixon1085恢复](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit、18重建未返解，2751核心/1567DAG/模逆/78MB活动槽仅{work}/seven-sparse-dixon-original。36核存在已另证，不为维数盲续；显式仍29。其它旧临时输入/哈希详见H全文与请求。
 
 ## 其余未闭

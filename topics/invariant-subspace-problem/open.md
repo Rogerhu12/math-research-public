@@ -154,3 +154,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 
 **精确曲线的有限阶支撑入口。** [加权因子完整定理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)对同一个active来源因子，列支撑阶ell经单位右补基给全部j子式的最小j权和。现29精确Koszul曲线只需新增外一阶M1834×29；若真Qrank r，则t2=29−r使D≥63+t2，原换列/cofactor≥62/59+max(t2−1,0)，K80条件费用8672−max(t2−1,0)。t2尚未计算；固定曲线组合不等允许uPhiY纠偏后的最大支撑维数，后继保完整一阶syzygy及旧常项身份，不重旧1603块。
+
+
+### 2026-11-15：同一自然 Schur 八阶与实际三十三条一阶来源
+
+[正式证明](results/R150-appendix-selected-natural-schur-eight-jets-and-mod31-order184.md)付原 $I,J$ 自然 $u$ 来源到八阶，全部 $4367$ 残量和原自由坐标逐阶核。正 Smith 指数已定 $1^3,2^9,3^3,4^3,5^3,6,7^2,8$，余十一至少九，故模 $31$ 指定子式阶至少 $184$；完整长度及特征零首系数单位仍开。完整三十三条第一原校正已乘回为零。后继同绑定续十六阶，不重前八层。
