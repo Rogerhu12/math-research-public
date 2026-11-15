@@ -123,3 +123,9 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 [E1–16](results/R133-supplement-nonzero-entry-continuation-to-the-next-physical-pieces.md)保原2549→2548→2547及2549→2550→2551：cubic差递推含非零常数，phase/first correction只继承连续值，径向jets按新片单侧方程重建。G/Gbar除A比还保ell_e，若旧未保存须明确新增entry预算。ray gate同时含旧phase/修正strip，不可重置相位误差或G。
 
 已部署 `visible-exact-dominant-outer-piece-domain-comparison.yml`，SCI43abdfca…/manifest9c5aac33…/workere5b06714…：只从历史a3d84原2index+2shard核五整片exact dyadic knots、两target真实侧/原germ/Rg/RHO/RC。无旧target/FFT/cubic value/norm或78stage重算。等待实际run结论；径向域即使通过，后续新条带/完整源/真seam算子仍分别待付。
+
+### 同runner三流与真97合成已部署，数值仍待实际
+
+[准确E1–6合同](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)把future Q/past V-W/raw Ecut=I97分开推进，整格signed Gram和全部同源jump在分组时只累矩阵与正权和，末用实际Vcutex给的同C作所有C*HC。三dyadic端口缓存保完整entry球，不取无误差midpoint；192bit仍过原1e−30逆门，旧320bit前缀原字节不改。true96 waist/true97 even mean/完整[0,9/10] body及独立cut trace都保。
+
+新SCI4b864054…/CIc2970d6a…/358pin fea26a82…，原353pin逐键未变；历史7c130fb…只进temporary science，旧286134725B artifact先核实际规则停止和最终完整prefix count。单runner最多4compute进程，后原same97 cap signed方向contract，0旧target/F/C/Gram重算，0新data/artifact/Release。须等actual finite193与三HY后再判断真实剩余量；未授全高频逆/Schur/PDE族。

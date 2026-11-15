@@ -1,0 +1,119 @@
+name: visible-exact ephemeral parallel matrix Green Poisson
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson.py'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson_CI.py'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-CI-inputs.json'
+      - '.github/workflows/visible-exact-ephemeral-parallel-matrix-Green-Poisson.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-ephemeral-parallel-matrix-Green-Poisson
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  EPHEMERAL_MANIFEST: 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-CI-inputs.json'
+  EPHEMERAL_MANIFEST_SHA: 'fea26a82069e507002663b791dc1195b295b30726c473bfa2c5854fc207e1861'
+  EPHEMERAL_WORKER_SHA: 'c2970d6ad7180e8aa26866f85425958935b1d7f1bc35aa098eee5312ea6012c6'
+  CURRENT_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+  CURRENT_RULES_SHA: f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd
+  ORIGINAL_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  complete:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Make temporary room for the original immutable arrays and three new streams
+        run: |
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
+          df -h /
+      - name: Partially check out only current scripts, rules and small parameters
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md
+      - name: Install the exact pinned Python interpreter
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Parse the exact new source and worker before restoring or calculating anything
+        run: |
+          python - <<'PY_SYNTAX'
+          import ast,hashlib,json,pathlib
+          expected={
+              'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson.py':'4b864054e8f8c29add6918e94300e4fbc361a4ecf1acfc213ae9993545bf37ce',
+              'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson_CI.py':'c2970d6ad7180e8aa26866f85425958935b1d7f1bc35aa098eee5312ea6012c6',
+              'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-CI-inputs.json':'fea26a82069e507002663b791dc1195b295b30726c473bfa2c5854fc207e1861',
+              'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md':'b3bcba13213afdf678cd87a6f2d92d4b78995809febdc0fd9e39e6a694d774a1',
+          }
+          for name,sha in expected.items():
+              raw=pathlib.Path(name).read_bytes()
+              if hashlib.sha256(raw).hexdigest()!=sha:
+                  raise ValueError('One exact new text changed: '+name)
+              if name.endswith('.py'):ast.parse(raw.decode(),filename=name)
+              if name.endswith('.json'):json.loads(raw)
+          print('Exact text syntax/hash verified; no old or new mathematical producer ran.')
+          PY_SYNTAX
+      - name: Install the original pinned directed-arithmetic packages
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Consume original successful prefix and finish three streams plus both contractions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_parallel_matrix_Green_Poisson_CI.py
+          --manifest "$EPHEMERAL_MANIFEST" --manifest-sha "$EPHEMERAL_MANIFEST_SHA"
+          --worker-sha "$EPHEMERAL_WORKER_SHA"
+          --rules "$CURRENT_RULES" --rules-sha "$CURRENT_RULES_SHA"
+          --driver-sha "$ORIGINAL_DRIVER_SHA"
+          --matrix-run 43654510038 --matrix-attempt 1 --bits 192
+          --work "$RUNNER_TEMP/visible-exact-ephemeral-matrix-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-ephemeral-matrix-process"
+          --compute-minutes 340 --checkpoint-minutes 10
+      - name: Print the actual small process outcome without uploading new recomputable output
+        if: always()
+        env:
+          TEMPORARY_PROCESS: ${{ runner.temp }}/visible-exact-ephemeral-matrix-process/process.json
+        run: |
+          python - <<'PY_RESULT'
+          import json,os,pathlib
+          p=pathlib.Path(os.environ['TEMPORARY_PROCESS'])
+          if not p.is_file():
+              print('No mathematical child process exists; inspect the actual earlier setup step.')
+          else:
+              d=json.loads(p.read_bytes())
+              keys=('complete','failure','publication_failure','actual_scientific_complete',
+                    'actual_scientific_failure','actual_output_sha256','exact_old_future_prefix',
+                    'actual_temporary_progress','last_read_commit','new_recomputable_repository_data',
+                    'new_Release_uploads','new_Actions_artifacts')
+              out={k:d[k] for k in keys if k in d}
+              out['actual_child_returns']=[{'label':c['label'],'actual_returncode':c.get('actual_returncode')}
+                  for c in d.get('children',[])]
+              out['actual_last_readme_check']=d.get('readme_checks',[])[-1:] or None
+              print(json.dumps(out,ensure_ascii=False))
+          PY_RESULT
