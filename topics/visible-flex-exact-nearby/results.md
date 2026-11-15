@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **SC 首实际失败已完整保存并定位。** [实际记录](results/R133-supplement-actual-signed-cap-input-schema-failure-and-preserved-evidence.md)62bdfc64：43752221411/1 child1、5/6到达门。旧finish summary顶层object hash是null，新门误套plan schema；准确plan/process/native/summary链root与peer已核。完整SCI2e152b08/preGit9efcfe20/process6a1b95d0与日志逐字一致，32Git/8AST/36archive；新group/model0、无已成新数学丢失。保留失败后作最小schema修复，不改已成功旧预算。
+
 - **TN 完整同cut两窗正规化 consumer 部署。** SCI4dbc776b/worker9dcab916/manifest9e568840/flowcf8cbe33：17固定输入11862488B、5AST/16门设计。root核全文/12现存小pin和历史/唯一旧archive；只新完整S/S2、97原测试与共同J/强余项，RR原四列及同case总×K0一次。有限HL/LH/mean全留；实际数值待唯一自然公开run，真phase/incoming/finiteSchur/全R0仍独立。
 
 - **SC 完整同对象 signed97 仿射 consumer 部署。** SCI d5f91e7a/helper8103ca4a/readera7c09960/worker414e55cb/manifest7b0f87b9/flowd49e8f8c仅新计算完整128物理矩、真实径向Hermite积分及97参数模型；20门/8AST、23小pin+9history+36旧archive。root全文核三数学件与worker，19原小件全SHA和36旧tuple核；两peer独核。每组完整累计97先原子保存并live打印，运行时/全部数学身份锁且typed暂错保正常child。全mean/完整tails/未知费用不变；无旧QR/Gram/7908producer重跑，无新artifact，实际门待新唯一run。
