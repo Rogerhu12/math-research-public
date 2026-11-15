@@ -176,3 +176,6 @@
 
 
 - [R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)：强头孔数固定、远孔数允许N≤floor(x/48)，同B_s(x)给完整局部伴随MP读数；保完整核forcing及整数边界，原返回投影和高出生窗口仍待运输。
+
+
+- [R150-appendix-zero-smith-length-bounds-and-exponent-nineteen](results/R150-appendix-zero-smith-length-bounds-and-exponent-nineteen.md)：原零点Q最大/次大子式阶分别[53,66]/[47,55]，最大Smith≤19；对已付函数域像目标，完整原系统模s19是形式局部成员性的充分必要判准，13自由坐标前提保留。

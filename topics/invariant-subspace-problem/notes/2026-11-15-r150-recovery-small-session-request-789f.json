@@ -1,8 +1,8 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "d6caf110237dc1223bb7fc9b0d3c65757b21a119",
+  "rulesReadAtCommit": "f93ba14439d408b07a2d84a39a724e76a0c08593",
   "rulesGitBlobs": {
-    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "largeDataPersistenceAllowed": false,
@@ -882,6 +882,35 @@
       ],
       "timeoutSeconds": 30,
       "receiptPath": "{work}/zero-sixth-checkpoint-inventory.json"
+    },
+    {
+      "id": "selected-natural-second-left-normal-four-continue",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-four-continue-789f.py",
+      "scriptSHA256": "eabfa9bb969b4e62afbeb21b18f3f662da3606a5bf894790beef55f65c7e278d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-left-additional-unit-solve-worker-789f.py",
+          "sha256": "28928f4298d0689f72ea8d39e530d474c4d15076af1c26aee612a2cb1413982e"
+        }
+      ],
+      "argv": [
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--previous-prefix",
+        "{work}/selected-natural-second-left-normal-four",
+        "--unit-worker",
+        "{scripts}/2026-11-15-r150-selected-left-additional-unit-solve-worker-789f.py",
+        "--out",
+        "{work}/selected-natural-second-left-normal-four-continue",
+        "--seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/selected-natural-second-left-normal-four-continue/selected-natural-second-left-normal-four-continue-receipt.json"
     }
   ]
 }
