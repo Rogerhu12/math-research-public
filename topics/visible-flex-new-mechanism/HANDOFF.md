@@ -23,15 +23,13 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **Norm-memory实际**：[原结论](notes/norm-memory-first-actual-result-20261115.md) run43741276060/c30e7ea/job132894771246，同g/b0/H与完整159/163；11模型/12primary/8接受使η.266381717617→.266366277975，bank7→9；m1/5/10学新行提前退，m5/10真曲率失配见[诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)。0旧optimizer，原12LP/40值/120s全保。
 
-**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。24完整值，active29.836s/process164.992s；initial audit105.456s、recovery47.770s已分账，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；physicalSHA981e092c54a5a7059bc75ffaea2f2c8bfa47c0b4c2f5932a67bd3fc74cee5376。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。下一只读旧failed x/y/池是否可精确恢复，首次定点应用新rebound；不延预算等触发。
+**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。费用/计时边界见原记录，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；末物理SHA见新记录。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。下一只读旧failed x/y/池是否可精确恢复，首次定点应用新rebound；不延预算等触发。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
 ## 4. 纸证的当前边界
 
 R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人工已付。全Rp0首项不可删；72/81非rank，原period/Green/解析端iff不授未算门零。
-
-R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 **R283–305**：旧rank-one有限N全third/全二层/72面积及40/42门控制真；R304完整C²基线非零排该类，不再加频率/F。原尾/端/有限基准见对应结果，不能推广弱rank-two。
 
@@ -43,7 +41,7 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**R308–341弱hook通道**：Af0曲段真rank-two/单hook0，八copy付完整third；R319/320/328被排范围保。R331宽cutoff/三补矩及R320正锥保Ψ<0并付M三矩/A0，R332真反射/12copy付A1；R334四强模块正锥R²，Λ5四次权保A2、Ψ成本Λ−2。R337真B0平移多(2χ/3)sCθ，排全C<0正中心架构。R339反向core使j0翻号，原恢复得到C+>0/有限ψ+，异号弱块支付B0。**R341 B1也已付**：保全自项/原积分常数，普通/伴随方向同母Fκ=0+有限大间距给B1两even差的异号强模块；μ0=μ1=0时准确S=Lκ+(k*/2)∫J(q″²)²。它们及R334四模块B0/R1/C0，真平移不改B1，Λ−5/ΨΛ−7使修补任意便宜。两负弱块权1−p,p和一正块权w=−C−/(RC+)；最终中心x1、x2、Y=RX用真实一/二矩公式同时清B0/B1，0<x1<Y<x2严格间距，bloc保全部copy方差/六强模块成本。最后同F★/全72零controller/有限N付Ψ和三行，不再共移。**同一新seed/g圆M0..2、A0..2、B0/B1、third及指定层全θ已付；B2及其他完整第四未付**。
+**R308–341弱hook通道**：Af0曲段真rank-two/单hook0，八copy付完整third；R319/320/328被排范围保。R331宽cutoff/三补矩及R320正锥保Ψ<0并付M三矩/A0，R332真反射/12copy付A1；R334四强模块正锥R²，Λ5四次权保A2、Ψ成本Λ−2。R337真B0平移多(2χ/3)sCθ，排全C<0正中心架构。R339反向core使j0翻号，原恢复得到C+>0/有限ψ+，异号弱块支付B0。**R341 B1也已付**：保全自项/原积分常数，普通/伴随方向同母Fκ=0+有限大间距给B1两even差的异号强模块；μ0=μ1=0时准确S=Lκ+(k*/2)∫J(q″²)²。它们及R334四模块B0/R1/C0，真平移不改B1，Λ−5/ΨΛ−7使修补任意便宜。两负弱块权1−p,p和一正块权w=−C−/(RC+)；最终中心x1、x2、Y=RX用真实一/二矩公式同时清B0/B1，0<x1<Y<x2严格间距，bloc保全部copy方差/六强模块成本。最后同F★/全72零controller/有限N付Ψ和三行，不再共移。**R343 B2也已付**：保χsR2真项，原RS self/真实方差使新强模块R2固定；α9/20、ρ0/20两排序×普通/伴随四B1列及四斜率2B1+χR2皆全R²正锥。双正中心群八列有rank4/严格正核；H5四次权解目标(0,−b/H)，新增B1准确0/B2=−b，Ψ成本H−2。R341弱中心全不动，最后同F★ controller/有限N付Ψ/三行。**同一新seed/g圆M/A/B全部三矩、third及指定层全θ已付；其他完整第四仍欠**。
 
 **R312–340端芽/joint**：R312有理芽h=he(1+εσ²)、κ≠0、ω常安装选新seed/g。R324同实际圆完整19门归We；R326八copy全E8 cubic三矩0，真实m*的wc=−XD付指定端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327当前解析包kerLf=逐包u_i/平台χ_i+gap；gap13盲/平台真尾(0,−2A,2B)，两特解后13×2n兼容及降秩整除仍欠。**R340已付**：τS=[P,S]=−J(a″b″c″)，K̃=BPτS/3及H̃=δK̃皆wholeE核；任意不交rank-one包上完整局部无cross/尾，两对应Af0点flux=ρj⁵C*及−10xjρj⁵C*、C*=−8a³(a²−b²)r*⁵/45≠0。沿原E商保全部原型/桥/基准作有限真实截面，(E,F0,F1)(S)=E(U)×R²；同新几何/固定芽profile/新m*兼wholepure/wholeQ/全部二次平台与两点flux0。R336旧两列限制仍真，NG0=5BPH_hook/3非0已纠正。其余Af/Ve/Ω/仿射尾/两period像/13同k/其它段仍欠。
 
@@ -52,4 +50,4 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 5dede87b218de1c63d779f802661b96dafb7d70b，双README blob同。API读取不冒实际pull。
+断连API复核main 8921b7a9fde09184513d21c872a68b05502f8462，双README blob同。API读取不冒实际pull。

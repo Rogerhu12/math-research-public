@@ -136,9 +136,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R341：第三面积B0/B1同一真实圆已付，续B2
+### R343：三个Gaussian面积全部九外矩已付，续其余原pair与完整层
 
-[R341](results/R341-companion-directions-and-three-centers-pay-the-third-Gaussian-first-moment.md)保完整真平移：B1^s=B1+sB0+(a+b)(sA1+s²A0)+χ(sR1+s²R0)。中心弱宏块B0/R1为0但C非0，B1保12copy方差。由原R275四self表得μ0=μ1=0时S=Lκ+(k*/2)∫J(q″²)²；R267初始Fκ=0同母而非最终六能量根，普通/伴随两实际方向在有限大间距给相反even差，完整局部余项保留。两模块B0/R1/C0，B1平移不变，真Λ−5对ΨΛ−7使正权修补便宜；R334四模块先付A2。两负弱块权1−p,p、一正块权−C−/(RC+)；最终中心x1,x2,Y=RX显式解一/二矩，取有限大X保证0<x1<Y<x2且全部支撑不交，bloc含全部方差与强模块成本。原F★/72零controller最后清Ψ/三完整行/指定层。因此同一最终新seed/g保M/A三矩并新增B0/B1全θ；不再整体平移。下一B2及其他完整Gaussian、period与同规范，不重复已付一阶或删除χsR2真尾。
+[R341](results/R341-companion-directions-and-three-centers-pay-the-third-Gaussian-first-moment.md)保全self/tail/copy方差，以伴随强模块及三个最终正中心支付B0/B1。新[R343](results/R343-two-real-orders-and-positive-center-clusters-pay-the-third-Gaussian-second-moment.md)完全不再移动这些弱中心：真B2平移保χsR2，原RS self含−4U3/3与真实J常尾、Γ_RS=0；两坡真实方差使R2固定向量，不依间距/排序/伴随。α=9/20的初始Fκ=0母，ρ0/20两合法排序×普通/伴随：R275全式证明两even差双号、z0>0>z20，四B1列有严格正核；A大使四2B1+χR2斜率亦全R²正锥。两个有限正中心群八列rank4/严格正核，整体H伸缩以H5正四次权精确解(0,−b/H)：新增B1为0、B2=−b，Ψ成本H−2可小，严格不交/全部旧面积保持。最后原F★/全72零controller有限N付Ψ/三行。故同一新圆A−2−3、A−1−3、A−1−2三个完整面积的全部三矩/全θ，third、Ψ、三directed/指定层真联合；不是整个弱强圆72全零。下一按R259/R263逐原pair识别未付面积、完整零/一层、period与同规范，不重复这九矩。
 
 
 ### R335/R338：真实Green尾的权−6因子化已付，续真实U值

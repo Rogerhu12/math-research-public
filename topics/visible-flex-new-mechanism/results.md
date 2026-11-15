@@ -320,3 +320,10 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 [首次完整实际与费用](notes/expanded-pool-SOC-first-actual-result-20261115.md)：run43744903357/job132905938795/source5fa2424成功；10新人工过，117科学源对119请求117/117同，source cfg不变，完整原159/163/reference/两池/controller与9方向bank07a1f00…在首LP前精确匹配。7模型/7新接受、9primary+3原same-layout SOC=12；两网η.26636627797457657→.26634752076125723，降.000018757213319342547，fineκ57.99998852110966。原硬门/盒过，原height微负按既有1e−9容差保；.26与README目标均未达。
 
 expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不能将下降归因该机制。m2/m6原17hold全真，m3接受后学fine新行仍拒hold，m7primary接受后学行；三SOC均原路径。末B1/8000/streak0，bank11；22+2值，active29.836149961s、process164.99187472s，初始audit105.455902887s和recovery含首J47.769714229s明记，非受控提速。原COMPLETE829044B/SHA256664b1bc5ddf7d278d61a78a36c712395f850109bfb967f5fe1df6a769b224b07；原log3194767B/14cafc198a1df4e7de2882994b37b9dffcf4284daacc49c670a9f65240926c3d。完整下一checkpoint仅runner，0旧optimizer；继续消费既有失败点完整状态的可恢复性，不简单延预算。
+
+
+## R343：两种实际排序与八个正中心模块支付第三Gaussian面积第二外矩
+
+[R343完整证明](results/R343-two-real-orders-and-positive-center-clusters-pay-the-third-Gaussian-second-moment.md)保B2真平移中的χsR2。直接原式得RS self=(C/3,−2X1/3+4N0/3,−5X2/3+16N1/3−4V2−4U3/3)，真实J(r³)常尾保、Γ_RS全0；同母两坡真实方差使完整R2向量固定，不随A/ρ/普通伴随变化。固定α9/20而非旧六能量主根，R269的ρ0/20两真实排序各有普通/伴随异号差，R275全第一矩式给z0>10920q+2731/8>0、z20<(43384−236880q)/127<0。四实际B1向量及A足够大时四斜率2B1+χR2均秩2且有严格正核。
+
+将四原型置两群有限正中心，4×8实际矩阵由固定非零minor和严格正kernel得全R4正锥；原型中心B2=0由完整反射/真二次尾正交与四次权中心零支付。原R341弱中心/幅度完全固定；新强模块共同H伸缩、H5正四次权，用c=k+R(0,−b/H)使新增B1=0、B2=−b，Ψ成本H−2→0，有限H保全部真实间隙。最后同F★/原72零controller有限N清Ψ和三行。因此同一新seed/g圆三个Gaussian pair全部九外矩/全相位、third、三directed及指定一层准确联合；其余pair/完整层/period/joint未付，不能把controller自身72零授整个圆。无新执行，完成即推。
