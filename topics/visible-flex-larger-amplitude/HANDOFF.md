@@ -4,7 +4,7 @@
 
 ## 规矩与工作环境
 
-规则同步记录：2026-11-15 07:07:19 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e4544af41ac8076402ec2eb82d7a448e58bbcc24。
+规则同步记录：2026-11-15 07:07:33 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e76885264434b40c68d22edbf94e9cff823423fb。
 
 只在公开 `Rogerhu12/math-research-public` 工作；全部科学计算、数值运算、科学模块导入及RHS/J/ODE/RK/优化只在该仓库Actions。本地只读源码/实际原标量、写代码/证明、语法与元数据检查、Git。PAT仅命令行瞬时环境，不写文件/提交/连接器/回复。
 
