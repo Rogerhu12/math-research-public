@@ -5,7 +5,7 @@
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/阶段报告不算完成。
 - **最近成功实际 pull 与已读规则提交：** e4967e881b7eb7ef10e0161732e4bcda9502ce00（2026-11-15 05:44:52 UTC，Actions run43682382088实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43682382088-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿。每结论立即推，每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。仅授权Rogerhu12/math-research-public，token仅CLI临时环境。
-- **新根规则15（再次更新）已读并立即执行：** 可由已提交脚本/参数重算的数据一律不保存，Git/Release都不放；只提交脚本、参数、run编号、输出SHA。禁止分片绕5MB，topic≤200MB。协调方已普通删除本题notes大目录约9.6GB，历史仍可按旧commit取回。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，题README仍4d6570e9cf346431ab781a1290076a6321aaaa00。规则8不准二进制经工具分块编码传送；共享本地已不可用，使用本库Actions真实git同步/数学。
+- **新根规则15（再次更新）已读并立即执行：** 可由已提交脚本/参数重算的数据一律不保存，Git/Release都不放；只提交脚本、参数、run编号、输出SHA。禁止分片绕5MB，topic≤200MB。协调方已普通删除本题notes大目录约9.6GB，历史仍可按旧commit取回。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，题README仍4d6570e9cf346431ab781a1290076a6321aaaa00。规则8不准二进制经工具分块编码传送；本地执行器曾不可用、现已恢复；本库Actions继续真实git同步/数学。
 - Markdown≤100KB、H≤10000B、log每条≤5行；数学美元符。规则12无额外审核门槛；Actions约4核16GB、job≤6h、账号≤20任务。全文旧状态/常数/来源保[新规则前完整H](notes/2026-11-15-handoff-before-rule15-release-migration-789f.md)及递归快照，未列open不关闭。
 
 ## R150：当前精确源及未付条件
@@ -17,7 +17,7 @@
 - **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
 - **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同run43679903558只接486→768，实际数学103.691783465秒/编译4.072821423秒，512/640/768全4367新鲜整数乘回及自由I36真；39重建未成、69旧核相符，仍23真核。有限31-Smith估值下界不作有理核。
 - **[23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 0.399616051秒，低次恰10，110乘积越界rank98/核12，12合法倍全6188等原23span；新增0，不能排余13核。旧13核闭包及同D居中候选已闭。
-- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。同session已接joint-source-lll-p768：同K768余13自由方向、非自由原行模31贪心观察基、最多26维LLL；各基行重建全6188源/乘回全部4367，按完整36自由块Q秩计新维。60秒/512MiB，不增旧位数、不重NF；等真实结果。
+- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。[共同26维候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)也已完成：15.251823463秒、26个基行全原4367乘回非零、新维0；仍23真核。观察仅13行，候选失败不排格组合。后继先查原17式线性/二次分块及精选来源次数，不继续无目的改观察坐标或重旧位。
 
 ## 同w边界：完整返回仍须费用估计
 
@@ -35,7 +35,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地执行器不可用，实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新步骤joint-source-lll-p768已入同job请求，按实际小回执续接；最长job6h，未许可大数据持久化。
+本地执行器已恢复，实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新joint-source-lll-p768实际已完成（见小回执），同job临时p768仍可接结构分析；最长job6h，未许可大数据持久化。
 
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
 - paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
