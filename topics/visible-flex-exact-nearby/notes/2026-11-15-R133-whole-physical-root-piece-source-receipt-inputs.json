@@ -1,0 +1,276 @@
+{
+  "kind": "exact_completed_whole_root_piece_receipt_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "purpose": "Read only actual completed science run43669106351 and repair its summary; no scientific process is launched and the original source/manifest/native identities do not change.",
+  "runtime": {
+    "python": "3.12.14",
+    "scientific_libraries_imported": false,
+    "original_scientific_runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "arb_precision_bits": 320
+    }
+  },
+  "original_scientific_identity": {
+    "run_id": "43669106351",
+    "run_attempt": "1",
+    "head_commit": "d549f0c80a0df695152fc883999007ad4f4edfe9",
+    "source_sha256": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81",
+    "manifest_sha256": "d30c306e58f3e6be96768b983db4df840843455e2cc5147c84c6e2d7958e5aac",
+    "native_sha256": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d",
+    "actual_mathematical_returncode": 0,
+    "actual_mathematical_gates": 10,
+    "actual_pipeline_failure": {
+      "type": "TypeError",
+      "message": "dict() got multiple values for keyword argument 'complete'"
+    }
+  },
+  "input_paths": {
+    "original_native": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/whole-physical-root-piece-first-Airy-sources.json.gz",
+    "original_process": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+    "original_worker": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/worker-process.json",
+    "original_publication": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+    "original_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+    "original_CI": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources_CI.py",
+    "original_scientific_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-first-Airy-sources-CI-inputs.json",
+    "original_mathematical_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-whole-physical-root-piece-complete-first-Airy-sources.md",
+    "failure_record": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md"
+  },
+  "external_completed_natives": [
+    {
+      "name": "original_complete_case_5",
+      "run_id": "43669106351",
+      "run_attempt": "1",
+      "artifact": "visible-exact-whole-physical-root-piece-first-Airy-sources-43669106351-1",
+      "inner_path": "consumers/cases/radius-1-50.json.gz",
+      "prepared_path": "original/consumers/cases/radius-1-50.json.gz",
+      "original_relative_file": "cases/radius-1-50.json.gz",
+      "bytes": 5596452,
+      "sha256": "602789829d5afc1d6a61ec7edfa3af4862b933ade6e769a6bbbb6eca4a89aa83"
+    }
+  ],
+  "reuse": {
+    "exact_original_scalar_stages": 25,
+    "exact_original_complete_cases": 6,
+    "original_norm_and_multiplier_receipts": 49,
+    "original_complete_source_rows_copied": 4329,
+    "original_new_root_rows": 9,
+    "scientific_processes_to_execute": 0,
+    "new_interval_targets_FFT_Taylor_norms_or_source_integrals": 0,
+    "original_scientific_manifest_must_remain_unchanged": true,
+    "original_failed_pipeline_and_all_successful_natural_files_retained": true
+  },
+  "scope": {
+    "pure_receipt_and_existing_result_extraction": true,
+    "root_physical_piece_2549_only": true,
+    "all_original_full_sources_means_and_seams_retained": true,
+    "complete_corrected_seam_operator_claimed": false,
+    "positive_weighted_ports_or_full_high_inverse_claimed": false,
+    "final_topic_complete": false
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-first-Airy-sources-CI-inputs.json",
+      "bytes": 39179,
+      "sha256": "d30c306e58f3e6be96768b983db4df840843455e2cc5147c84c6e2d7958e5aac"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md",
+      "bytes": 4355,
+      "sha256": "2ef2427c8604814a7d79e03bbbf1121d6e519d4e946bbb7cd687058006d18675"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/cases/radius-1-100.json.gz",
+      "bytes": 3792857,
+      "sha256": "cc56cef7ebebcce0c2327bfc3983df847ae7ce091398bd5ef706ebcddee14dc3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/cases/radius-1-1000.json.gz",
+      "bytes": 681376,
+      "sha256": "929378ededdab70a761123597694433e569776194b51685e1ebb140b6f8eec78"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/cases/radius-1-200.json.gz",
+      "bytes": 2970353,
+      "sha256": "3b1a4c7db0daf8d2bdba82aa9e91e1e4460d3350ab9499d398cbe9665f876b74"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/cases/radius-1-500.json.gz",
+      "bytes": 1298608,
+      "sha256": "cb20faa53a70430b3ab488bb27d745bd7f30d9d819e186aa1a50c3a7cc090144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/cases/radius-3-200.json.gz",
+      "bytes": 4664799,
+      "sha256": "dca4f94130935f6861104e43087444b218de5a984f7cadecd542662cffdbb69c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+      "bytes": 8346,
+      "sha256": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0000.json.gz",
+      "bytes": 3196,
+      "sha256": "a91f14b8713fe69c936f23fadf59000d9a720234fc5ea83940c6ae02014f327d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0001.json.gz",
+      "bytes": 3182,
+      "sha256": "f5290fb89342795ec1be38780cd19d4d52d0df046eac70c23a1a2076c7587231"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0002.json.gz",
+      "bytes": 3202,
+      "sha256": "e2f1f7109d1fe4885fe1ab191033a07c02562e80875e75826d83d7f930c448ed"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0003.json.gz",
+      "bytes": 3177,
+      "sha256": "241e745fa26ada909e364d937150c51c8123f40ec1a7095d70ffcac6a45f57c8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0004.json.gz",
+      "bytes": 3111,
+      "sha256": "3d3955be70e7e8514a8efc48dc20862a289ff8aa6b8cbd086b49fba0d6b680a8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0005.json.gz",
+      "bytes": 3157,
+      "sha256": "f6594b284ffb10f6f5d4354a6c2c4d03d9b678ca679be108e52b292b585cc8d4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0006.json.gz",
+      "bytes": 3141,
+      "sha256": "eba5ddc372e8e253aa3d6fc25a6670e2a555375550aad1a2258b525907a1bc72"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0007.json.gz",
+      "bytes": 3145,
+      "sha256": "e2c7a025e489a75acaf59eb6cd2a8c230189f0430e9b3f6b5feef8c1ca9ee184"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-physical-root-row-0008.json.gz",
+      "bytes": 3176,
+      "sha256": "5e9f54d2f021b095863a74b9d7142e1e39eeacf5d65578df6c271d9a7add7a4a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-118337447354347393934119-11258999068426240000000000000.json.gz",
+      "bytes": 21057,
+      "sha256": "53f12a1c9f132c8efbe1661aa01ed6171f0cc6031ffea6072df243cf95b3a768"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-125978014066294748203-10995116277760000000000000.json.gz",
+      "bytes": 20987,
+      "sha256": "eebf2d367a39699d7df05bcbb7eac2561205232f2ba9ba3cdfc8ce5d6eba4792"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-17356194032945606598119-1801439850948198400000000000.json.gz",
+      "bytes": 21062,
+      "sha256": "7fa152c3a79328491d13dad121a9788b6760b3fe6695b2283983a84b86d7c3ab"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-512794728011138986519977-45035996273704960000000000000.json.gz",
+      "bytes": 21078,
+      "sha256": "181925c840cdfc0ce04f140fd5bd78d959dee1d678daebe724f43c49b3960862"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-893368603925465506687-21990232555520000000000000.json.gz",
+      "bytes": 21140,
+      "sha256": "0549a629bc2f8aec2279107df4793d024ee629306dab1fc85dc0fd6a2193ae99"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz",
+      "bytes": 20924,
+      "sha256": "8b31b1c0030f892ec763d32ecf7b4968d468c5f93b30bbfe7408d6bf0b4892d5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-10000000000000.json.gz",
+      "bytes": 17103,
+      "sha256": "5fc1ff58bae7ba56cac6655ce5cdf9bcda6d485451fff79bd5e6cfc082596435"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-90000009-10000000000000.json.gz",
+      "bytes": 21052,
+      "sha256": "2c991e029184883b9f765d3f69b7b4797d0cbdcf0da7d8618a1c01e778aa0f11"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-recombined-case-summary-0.json.gz",
+      "bytes": 4224,
+      "sha256": "dce7906e4ca9cb028983a509cc58016dbeeeba5beee7678a555ed56c6de2406f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-recombined-case-summary-1.json.gz",
+      "bytes": 4239,
+      "sha256": "2423b6ded151fdbfca314ba81cab26da761ddd02844aa9682066a8d941031f1a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-recombined-case-summary-2.json.gz",
+      "bytes": 4230,
+      "sha256": "d0caed112561f31e72710beff009b5d718a521f3e15efe634995342a2c637cdd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-recombined-case-summary-3.json.gz",
+      "bytes": 4237,
+      "sha256": "b007a995fc6c82d81ebed2e8c9eec588856df601059ec8c9b85985c0fe84a6e5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-recombined-case-summary-4.json.gz",
+      "bytes": 4223,
+      "sha256": "8c880161fe4ff7f6af0fa9b74e0d284211ce057596d3c8468054a2a2146b0cae"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-recombined-case-summary-5.json.gz",
+      "bytes": 4211,
+      "sha256": "eec031c400ae13f3be2eb22392b17d6b37593bcd84f32c486ee3a910bbaad06d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/whole-original-root-piece-Airy-profile.json.gz",
+      "bytes": 5353,
+      "sha256": "d6a81f36cc906022d3252e229995090de1a4f3d0812140c32fefa80f3dc9713d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/whole-root-piece-complete-two-sided-source-summary.json.gz",
+      "bytes": 2378,
+      "sha256": "f3a610d84d536986af293bf358b5ee5b219b85eb1f85d0d0fd09fe66ddaf996b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/whole-physical-root-piece-first-Airy-sources.json.gz",
+      "bytes": 44628,
+      "sha256": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+      "bytes": 11945,
+      "sha256": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/worker-process.json",
+      "bytes": 4080,
+      "sha256": "32c4b0005653da73765d647cc57049e880b6f6fd6f540691bb2b1a89a5ce9f9d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-whole-physical-root-piece-complete-first-Airy-sources.md",
+      "bytes": 17388,
+      "sha256": "d6369980d02cb9b998082d5b9e80a055abd54fdfe20eb09f26c4e97b0af57d33"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources_CI.py",
+      "bytes": 14567,
+      "sha256": "855bcec6d31a9f0bdb3e3710c4e6418c2be0d816edf09a59da01ab6ec956904d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+      "bytes": 51126,
+      "sha256": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_source_receipt.py",
+      "bytes": 24961,
+      "sha256": "f285c6beb106526b618cec3a8e9f83f08c6d256501cfea93ea849bedf6e27a35"
+    }
+  ]
+}

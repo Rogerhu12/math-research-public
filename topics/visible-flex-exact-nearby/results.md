@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **整原根分片科学全成与零数学收尾**：43669106351科学child0/10门，25stage/9root/6case、4329旧外行已保存；只因CI摘要重复complete字段失败。独立40pin receipt完整核验并提取原自然文件，原science/80pin/native不改，0数学重算。[过程记录](notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md)。尚缺真实修正seam、正weighted端口与完整高逆。
+
 - **R119 Q1–27：完整非线性 ordinary 源与两Γ参考高度。** [证明](results/R119-supplement-exact-nonlinear-ordinary-sources-and-Gamma-reference-height-lifts.md)，SHA256 `f7c6f75853594e2866bc7e99139734356d7f6d9aa69867545963f768a8ebf610`。真实metric变分先保dotK=k−ψ(1+K)，准确分离hψ_t=awψ及全部height/flux端列；原六项邻胞费后，DΓ余source满足S_t<2^200000X||dot a||224，固定metric Taylor余项满足<2^200000Y*²。只对已给strong方向，不将K有限输出冒称可再次进入analytic224。
 
 - **R133 径向参考 R1–29：完整物理 Fourier 对角及真实 mean。** [证明](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)，SHA256 `a13b5fdef9aeb531bebff9b882b913554bb449a4dce72c67d4c342af50e84710`。从原N.3保完整primitive有限和，二态参考过根不除K；真实even mean、两branch、ordinary weak重建、physical输出label、全部seam与ordered Duhamel均保。尚无新参考Green数值界，offdiag含一阶d∂，不冒称小扰动或full高逆。

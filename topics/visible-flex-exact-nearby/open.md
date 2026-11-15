@@ -90,9 +90,11 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/compose消费真实完整native；原341/341/238 pins逐键不变。选取实际artifact child0/全部gates，数学成功后出版失败仍可消费；原>60KB过程整件留Actions，只有真正小摘要进正文。等全7908与boundary后先完整Wcap，再实际真Poisson的三HY；不重旧Gram/目标/试解。
 
-### 整原根分片全源 consumer 已部署
+### 整原根分片科学全成，零数学整理摘要
 
-80pin 五件 SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…，只消费原48norm、完整Nraw/乘子、1328转换和六原case；唯一自然>5MB输入读取43665091373的整件原artifact。固定真piece2549和原R1/6000补全h*尾后计算完整九词+五mean，原piece外payload逐字保；未授真实修正seam或强返回。每个scalar/row/summary单独检查点，case先保存而index未写的中断只按独立原payload恢复，原native不改；partial陈旧结果不冒领。新数学限公开Actions，实际结果到达立即接端口与完整高频闭合。
+80pin SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…的实际43669106351已child0/10门；25新stage、9root、6case和4329旧外行全成，原native6668c9b2…44628B/process242d82b6…8346B保。仅CI摘要重复complete键TypeError；[原失败记录](notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md)明确保留成功科学与失败wrapper。
+
+独立40pin receipt/source f285c6be…已部署，只读取全部自然stage/case及原native，不改原science/80pin且0数学重算。原新R.02自然5596452B SHA60278982…整件从436691原artifact取回；完整diagnostics另保，真正摘要≤60000B。实际摘要到达后立即记录全九词+五mean、两侧源界与现存上包络主导行，接真实修正seam、正weighted端口及强返回。背景/forcing跳、1079physical seam/653ledger、固定η0/完整δ窗、原piece2549及两侧root-band费用全保。
 
 ### 完整 low-even97 伴随接口已证，按实际误差主项选择消费
 

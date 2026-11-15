@@ -1,0 +1,105 @@
+name: visible-exact receipt for completed whole original root-piece sources
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-whole-physical-root-piece-source-receipt.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-whole-physical-root-piece-source-receipt
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-source-receipt-inputs.json
+  PHASE_MANIFEST_SHA: 0a7e70dc93752f0eced2802f047358e8cd47c124dd56b9d7fdf03f21864ae3f5
+  PHASE_PIPELINE_SHA: f285c6beb106526b618cec3a8e9f83f08c6d256501cfea93ea849bedf6e27a35
+  PHASE_WORKER_SHA: 760da59a14dcfaa06a7150043d1722cdc1a56277ed0933607f2138d67c4223b5
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+
+jobs:
+  finalize-whole-physical-root-piece-source-receipt:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 20
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact consumer entry points
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_source_receipt_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-source-receipt-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Verify the separately pinned publication worker
+        run: |
+          python - <<'PY_WORKER'
+          import hashlib,os,pathlib
+          path=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_source_receipt_public_worker.py')
+          assert hashlib.sha256(path.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA'], 'publication worker changed'
+          PY_WORKER
+      - name: Hydrate40 exact original evidence files without changing the scientific manifest
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_source_receipt_public_worker.py
+          --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the exact receipt and original Python sources without running mathematics
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['PHASE_MANIFEST']).read_text())
+          for entry in manifest['files']:
+              path=pathlib.Path(entry['path'])
+              if path.suffix=='.py':
+                  ast.parse(path.read_text(),filename=str(path))
+          PY_SOURCE
+      - name: Set the actual result path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-whole-physical-root-piece-source-receipt-output" >> "$GITHUB_OUTPUT"
+      - name: Prepare the exact original artifact restoration directory
+        run: mkdir -p "$RUNNER_TEMP/visible-exact-whole-physical-root-piece-source-receipt-prepared"
+      - name: Restore the exact completed original whole-root-piece artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-whole-physical-root-piece-first-Airy-sources-43669106351-1
+          run-id: 43669106351
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-whole-physical-root-piece-source-receipt-prepared/original
+      - name: Read completed native and25 stages and publish the original full source summaries
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_source_receipt_public_worker.py
+          --mode run --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-whole-physical-root-piece-source-receipt-science"
+          --prepared "$RUNNER_TEMP/visible-exact-whole-physical-root-piece-source-receipt-prepared"
+          --out-dir "$RUNNER_TEMP/visible-exact-whole-physical-root-piece-source-receipt-output"
+      - name: Preserve every exact original receipt and new diagnostic without new mathematics
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-whole-physical-root-piece-source-receipt-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 6
+          retention-days: 90
+          if-no-files-found: error
