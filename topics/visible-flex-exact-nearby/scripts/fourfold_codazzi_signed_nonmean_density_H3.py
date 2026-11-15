@@ -7,8 +7,9 @@ target is SN's forced density and its complete H3 enclosure. No accepted scalar,
 ray, response, Green, root Newton or circle iteration is called.
 """
 from __future__ import annotations
-import argparse,bisect,gzip,hashlib,io,json,math,os,time,traceback
+import argparse,bisect,gzip,hashlib,io,json,math,os,sys,time,traceback
 from fractions import Fraction
+from importlib.metadata import version as distribution_version
 from pathlib import Path
 import numpy as np
 from flint import arb,acb,ctx
@@ -22,6 +23,7 @@ REL="topics/visible-flex-exact-nearby/"
 PRODUCER=REL+"scripts/fourfold_codazzi_signed_nonmean_density_H3.py"
 HELPER=REL+"scripts/fourfold_codazzi_signed_density_transport_arithmetic.py"
 CONTRACT=REL+"results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md"
+RECOVERY_CONTRACT=REL+"results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md"
 PUBLIC="Rogerhu12/math-research-public"
 KIND="actual_complete_signed_nonmean_density_H3_validation_v1"
 CANDIDATE="ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413"
@@ -96,7 +98,7 @@ class Inputs:
         gate(doc,"every original byte is checked before a mathematical field is evaluated",
              seen==set(m["files"]))
         self.paths={k:root/v for k,v in m["input_paths"].items()}
-        self.records={k:read(p) for k,p in self.paths.items() if k not in ("candidate_part0","candidate_part1","preparatory_execution")}
+        self.records={k:read(p) for k,p in self.paths.items() if k not in ("candidate_part0","candidate_part1","preparatory_execution","transport_prefix_execution")}
         self.fp=self.records["finite_part"];self.transfer=self.records["parameter_transfer"]
         self.cover=self.records["scalar_cover"];self.tc=self.records["t_cache"]
         self.direction=self.records["direction"];self.rb=self.records["root_budget"]
@@ -197,6 +199,7 @@ class Inputs:
         self.Ks,self.Kc=[list(map(Fraction,self.post[k])) for k in
             ("exact_postcomposition_sine_coefficients","exact_postcomposition_cosine_coefficients")]
         self.preparatory=self.restore_preparatory()
+        self.transport_prefix=self.restore_transport_prefix()
         self.angledata=self.preparatory["angle"]
         self.KH=up(ball(self.angledata["complete_inverse_density_H3"]))
         self.Ej=up(ball(self.angledata["complete_angle_derivative_H3_error"]))
@@ -239,7 +242,7 @@ class Inputs:
             or p["latest_atomic_scientific_stage"]!="complete_original_interval_speed"
             or p["failure"]["type"]!="TypeError"
             or p["failure"]["message"]!="unsupported operand type(s) for /: 'flint.types.acb_poly.acb_poly' and 'flint.types.acb.acb'"
-            or set(self.paths)!=set(original)|{"preparatory_execution"}
+            or set(self.paths)!=set(original)|{"preparatory_execution","transport_prefix_execution"}
             or any(sha(self.paths[k])!=v for k,v in original.items())
             or p["exact_original_root"]!=[str(self.rlo),str(self.rhi)]
             or hashlib.sha256(canonical(p)).hexdigest()!="7d98755a7841abdefbf396529eec45bf9072f58b6cd9e28cba576137ac99ede5"):
@@ -262,6 +265,78 @@ class Inputs:
             completed_transport_subcells=0,recomputed_complete_stages=0,
             first_unpreserved_work="first subcell negative-branch complete Taylor force and speed only")
         return z
+
+    def restore_transport_prefix(self):
+        """Verify the fifth completed prefix; none of its budgets is recomputed."""
+        prior=read(self.paths["transport_prefix_execution"])
+        p=prior["actual_scientific_receipt"]
+        expected_source="540a0f8edea546a478907579e68be764c8985a317d80062d03175da58a132e99"
+        expected_helper="217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718"
+        expected_manifest="bbe747a6bcb0c5384472a0996a1e2b7a7236555c1d583ec1607899f461c8be36"
+        original=p["original_input_sha256"]
+        runtime={"python":"3.12.14","python_flint":"0.9.0","numpy":"2.3.5"}
+        if (prior["run_id"]!="43746794222" or prior["run_attempt"]!="1"
+            or prior["workflow_commit"]!="31e2a9bf985007ac16a37778a040b944f9bcdd6a"
+            or prior["actual_source_budget_processes"]!=1 or prior["actual_returncode"]!=-15
+            or prior["complete"] or prior["scientific_target_complete"]
+            or prior["source_budget_source_sha256"]!=expected_source
+            or prior["helper_source_sha256"]!=expected_helper
+            or prior["input_manifest_sha256"]!=expected_manifest
+            or prior["supervision_failure"]!={"type":"RuntimeError",
+                "message":"the Git tree metadata request returned HTTP 502"}
+            or p["source_sha256"]!=expected_source or p["helper_sha256"]!=expected_helper
+            or p["input_manifest_sha256"]!=expected_manifest or p["parameters"]!=PARAMETERS
+            or p["complete"] or p["new_target_complete"] or p["failure"] is not None
+            or len(p["gates"])!=17 or not all(g["passed"] for g in p["gates"])
+            or p["actual_new_transport_subcells_completed"]!=1256
+            or p["actual_completed_original_transport_intervals"]!=314
+            or p["actual_exact_radial_cursor"]!="34092249179194657/144115188075855872"
+            or p["latest_atomic_scientific_stage"]!="complete_original_interval_speed"
+            or set(self.paths)!=set(original)|{"transport_prefix_execution"}
+            or any(sha(self.paths[k])!=v for k,v in original.items())
+            or p["exact_original_root"]!=[str(self.rlo),str(self.rhi)]
+            or p["complete_original_inventory"]!={"count":204,"bytes":13544551,
+                "canonical_sha256":"ceb221106aa20b647de71606d6589eefcae5cea1afb1c0c7cf4ae42772470701"}
+            or hashlib.sha256(canonical(p)).hexdigest()!="97f2e921dd6f846f9e46b28e4fbfb9fd7ccc8cb8e2862716ea6e137e62ba526e"
+            or self.manifest["runtime"]!=runtime
+            or tuple(sys.version_info[:3])!=(3,12,14)
+            or distribution_version("python-flint")!="0.9.0" or np.__version__!="2.3.5"
+            or ctx.prec!=320 or ctx.cap!=9
+            or sha(sn.__file__)!=expected_helper
+            or self.manifest["files"].get(RECOVERY_CONTRACT)!="7edf79c7842367d7369792b03ec72902d3eebf6e62fe329fdb5637fb605958ba"):
+            raise ValueError("the fifth saved prefix or its frozen arithmetic identity changed")
+        z=p["complete_preparatory_conclusions"];cell=z["latest_original_interval"]
+        columns=z["latest_complete_transport_error_columns"]
+        index=len(self.fp["rows"])-p["actual_completed_original_transport_intervals"]-1
+        old=self.fp["rows"][index]
+        if (index!=2831 or z["angle"]!=self.preparatory["angle"]
+            or z["root_entry"]!=self.preparatory["root_entry"]
+            or cell["original_interval"]!=index or cell["actual_candidate_piece"]!=2473
+            or cell["actual_candidate_piece"]!=old["actual_candidate_piece"]
+            or list(map(Fraction,cell["exact_interval"]))!=list(map(Fraction,old["interval"]))
+            or Fraction(cell["exact_interval"][1])!=Fraction(p["actual_exact_radial_cursor"])
+            or len(cell["complete_mean_reference_exact_coefficients"])!=2
+            or set(columns)!={"-1","1"} or any(len(columns[s])!=4 for s in columns)
+            or any(not ball(x).is_finite() for v in columns.values() for x in v)
+            or any(not ball(cell[k]).is_finite() for k in
+                ("complete_mean_reference_error","complete_speed_bound","complete_optical_work_upper"))
+            or p["actual_new_transport_subcells_completed"]!=4*p["actual_completed_original_transport_intervals"]):
+            raise ValueError("the saved prefix cursor error columns or next complete mean-speed changed")
+        self.doc["complete_reused_transport_prefix_input"]=dict(
+            actual_run="43746794222/1",execution_sha256=sha(self.paths["transport_prefix_execution"]),
+            original_science_bytes=17323,
+            original_science_sha256="97f2e921dd6f846f9e46b28e4fbfb9fd7ccc8cb8e2862716ea6e137e62ba526e",
+            lost_scope_record_commit="2f8be6b634ed5786e0c0fa963f28d061df40d396",
+            completed_original_intervals=314,completed_subcells=1256,
+            exact_radial_cursor=p["actual_exact_radial_cursor"],next_original_interval=2831,
+            complete_saved_error_columns=columns,
+            completed_prefix_residual_parameter_energy_budgets_recomputed=0,
+            lost_reference_only_reconstruction_required=True,
+            lost_temporary_file_bytes=365535907,
+            lost_temporary_file_sha256="7a83abf8eeaa687e6ff6ae59d2374eacabb8dda8ecc14a58260e384d08db3a98",
+            old_temporary_bytes_or_reference_hash_verified=False,
+            old_prefix_running_maxima_available=False,runtime=runtime)
+        return p
 
     def load_candidate_prefix(self):
         if sha(self.paths["candidate"])!=CANDIDATE:raise ValueError("the original candidate index changed")
@@ -528,6 +603,93 @@ def complete_taylor(inp,index,row,piece,left,right,n,mref,mright,sigma):
     Fw,aw,_=inp.nominal_source(index,row,piece,left,right,n,mref,mright,sigma)
     return Jet(Fp.c[:-1]+[Fw.c[-1]]),Jet(ap.c[:-1]+[aw.c[-1]])
 
+def reference_endpoint_identity(refs):
+    """Hash exact dyadic values; the digest alone does not store their arrays."""
+    value={str(s):{"lo":refs[s].lo,"coefficients":[
+        [str(rat(z.real)),str(rat(z.imag))] for z in refs[s].p]} for s in (-1,1)}
+    raw=canonical(value)
+    return dict(canonical_bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+        definition="sorted exact dyadic real and imaginary Fourier coefficients, both signs",
+        comparison_to_unavailable_old_prefix_hash=False)
+
+def reconstruct_reference_prefix(inp,doc,temp):
+    """Rebuild lost proposals only; read the completed prefix error certificate."""
+    p=inp.transport_prefix
+    count=p["actual_completed_original_transport_intervals"]
+    subcells=p["actual_new_transport_subcells_completed"]
+    if count!=314 or subcells!=4*count:
+        raise ValueError("the frozen prefix does not prove exactly four subcells per interval")
+    N=PARAMETERS["reference_modes"];order=PARAMETERS["reference_radial_degree"]
+    refs={s:LP([acb(0)]*(2*N+1),-N) for s in (-1,1)}
+    cursor=CUT;pieces=set();hash_reference=hashlib.sha256()
+    recovered=0;last=len(inp.fp["rows"])-count
+    path=temp/"reconstructed-prefix-reference.jsonl.gz"
+    if path.exists():raise FileExistsError("preserve the already started reference-only reconstruction")
+    state=dict(complete=False,scope="lost finite reference proposals only; no repeated completed budgets",
+        completed_prefix_budget_subcells=subcells,reconstructed_reference_subcells=0,
+        original_interval_count=count,parts_per_original_interval=4,
+        original_temporary_gzip_or_reference_hash_verified=False,
+        old_prefix_running_maxima_available=False)
+    doc["complete_transport_prefix_reconstruction"]=state
+    doc["latest_atomic_scientific_stage"]="entered_lost_reference_only_reconstruction"
+    save(inp.a.out,doc)
+    with gzip.GzipFile(filename=str(path),mode="wb",mtime=0) as stream:
+        for index in range(len(inp.fp["rows"])-1,last-1,-1):
+            old=inp.fp["rows"][index];left,right=map(Fraction,old["interval"])
+            if right!=cursor:raise ValueError("the reference-only prefix has a radial gap")
+            piece=int(old["actual_candidate_piece"]);pieces.add(piece)
+            row=inp.scalar_membership(left,right,old)
+            if not inp.nodes[piece]<=left<right<=inp.nodes[piece+1]:
+                raise ValueError("a reconstructed reference row crosses an original candidate piece")
+            saved=inp.preparatory["latest_original_interval"]
+            if index==saved["original_interval"]:
+                if piece!=saved["actual_candidate_piece"] or [left,right]!=list(map(Fraction,saved["exact_interval"])):
+                    raise ValueError("the original saved first mean reference changed its domain")
+                mref=[exact(Fraction(x)) for x in saved["complete_mean_reference_exact_coefficients"]]
+            else:
+                # Only the lost proposal's midpoint linear polynomial is rebuilt.
+                # No mean curvature, interpolation error or speed is reevaluated.
+                ml=inp.endpoint_mean(index,"right");mr=inp.endpoint_mean(index,"left")
+                mref=[exact(rat(ml)),exact(rat((mr-ml)/exact(right-left)))]
+            boundaries=[right-(right-left)*Fraction(j,4) for j in range(5)]
+            for j in range(4):
+                hi,lo=boundaries[j],boundaries[j+1];h=exact(hi-lo)
+                detail={"old_interval":index,"piece":piece,"new_interval":[str(lo),str(hi)],"branches":{}}
+                for sigma in (-1,1):
+                    Fp,ap,_=inp.nominal_source(index,row,piece,hi,hi,order+1,mref,right,sigma)
+                    # reference_step consumes only point coefficients 0..5;
+                    # its old whole-cell coefficient 6 never enters the proposal.
+                    proposal,end=reference_step(refs[sigma],Fp,ap,h,N,order)
+                    if not end.finite() or not end.mean().is_zero() or any(not x.finite() for x in proposal.c):
+                        raise ArithmeticError("a reconstructed lost reference proposal is nonfinite")
+                    refs[sigma]=end
+                    detail["branches"][str(sigma)]=[
+                        {"lo":x.lo,"coefficients":[z.str(80) for z in x.p]} for x in proposal.c]
+                raw=canonical(detail);stream.write(raw);hash_reference.update(raw)
+                recovered+=1
+            cursor=left
+            state.update(reconstructed_reference_subcells=recovered,
+                reconstructed_original_intervals=len(inp.fp["rows"])-index,
+                exact_radial_cursor=str(cursor),new_reference_endpoint_identity=reference_endpoint_identity(refs))
+            doc["latest_atomic_scientific_stage"]="reconstructed_complete_original_reference_interval"
+            save(inp.a.out,doc)
+            if index%32==0:
+                print(json.dumps(dict(stage="reference-only-prefix-reconstruction",
+                    original_interval=index,reconstructed_reference_subcells=recovered,
+                    completed_prefix_budgets_recomputed=0)),flush=True)
+    if recovered!=1256 or cursor!=Fraction(p["actual_exact_radial_cursor"]):
+        raise ValueError("the reconstructed lost reference missed the certified prefix endpoint")
+    state.update(complete=True,reconstructed_reference_subcells=recovered,
+        new_temporary_reference_file_bytes=path.stat().st_size,
+        new_temporary_reference_file_sha256=sha(path),
+        new_reference_proposal_canonical_sha256=hash_reference.hexdigest(),
+        new_reference_endpoint_identity=reference_endpoint_identity(refs),
+        deterministic_frozen_arithmetic_reconstruction=True,
+        independent_comparison_with_old_reference_not_claimed=True)
+    doc["latest_atomic_scientific_stage"]="complete_lost_reference_only_reconstruction"
+    save(inp.a.out,doc)
+    return refs,pieces,cursor
+
 def transport(inp,doc,temp):
     rootdiag=inp.preparatory["root_entry"]
     initial=[up(ball(v)) for v in rootdiag["complete_new_root_H3_error_columns"]]
@@ -536,27 +698,35 @@ def transport(inp,doc,temp):
          and inp.rs-exact(CUT)<exact(inp.Router)/2)
     doc["complete_preparatory_conclusions"]["root_entry"]=rootdiag
     doc["latest_atomic_scientific_stage"]="complete_root_entry"
-    doc["actual_new_transport_subcells_completed"]=0
+    prefix=inp.transport_prefix;prefix_subcells=prefix["actual_new_transport_subcells_completed"]
+    doc["actual_new_transport_subcells_completed"]=prefix_subcells
+    doc["actual_new_suffix_transport_subcells_completed"]=0
+    doc["actual_completed_original_transport_intervals"]=prefix["actual_completed_original_transport_intervals"]
+    doc["actual_exact_radial_cursor"]=prefix["actual_exact_radial_cursor"]
+    saved_prefix=prefix["complete_preparatory_conclusions"]
+    doc["complete_preparatory_conclusions"]["latest_original_interval"]=saved_prefix["latest_original_interval"]
+    doc["complete_preparatory_conclusions"]["latest_complete_transport_error_columns"]=saved_prefix["latest_complete_transport_error_columns"]
     save(inp.a.out,doc)
     N=PARAMETERS["reference_modes"];order=PARAMETERS["reference_radial_degree"]
-    refs={s:LP([acb(0)]*(2*N+1),-N) for s in (-1,1)}
-    errors={s:list(initial) for s in (-1,1)}
-    hash_source=hashlib.sha256();hash_reference=hashlib.sha256()
-    newrows=0;piececount=set();source_max={s:[arb(0)]*4 for s in (-1,1)}
-    param_max=[arb(0)]*4;meanmax=arb(0);curvaturemax=arb(0)
-    cursor=CUT;last_piece=None
     temp.mkdir(parents=True,exist_ok=True)
+    refs,piececount,cursor=reconstruct_reference_prefix(inp,doc,temp)
+    errors={s:[up(ball(x)) for x in saved_prefix["latest_complete_transport_error_columns"][str(s)]]
+            for s in (-1,1)}
+    hash_source=hashlib.sha256();hash_reference=hashlib.sha256()
+    newrows=prefix_subcells;source_max={s:[arb(0)]*4 for s in (-1,1)}
+    param_max=[arb(0)]*4;meanmax=arb(0);curvaturemax=arb(0)
+    last_piece=None
     source_path=temp/"complete-new-signed-source-and-reference.jsonl.gz"
     if source_path.exists():raise FileExistsError("preserve an already started new signed reference")
     with gzip.GzipFile(filename=str(source_path),mode="wb",mtime=0) as stream:
-        for index in range(len(inp.fp["rows"])-1,-1,-1):
+        for index in range(saved_prefix["latest_original_interval"]["original_interval"],-1,-1):
             old=inp.fp["rows"][index];left,right=map(Fraction,old["interval"])
             if right!=cursor:raise ValueError("new inward transport misses an original closed interval")
             piece=int(old["actual_candidate_piece"]);piececount.add(piece)
             row=inp.scalar_membership(left,right,old)
             if not inp.nodes[piece]<=left<right<=inp.nodes[piece+1]:
                 raise ValueError("an original accepted row crosses a candidate piece")
-            saved=inp.preparatory["latest_original_interval"]
+            saved=saved_prefix["latest_original_interval"]
             reused=index==saved["original_interval"]
             if reused:
                 if piece!=saved["actual_candidate_piece"] or [left,right]!=list(map(Fraction,saved["exact_interval"])):
@@ -651,7 +821,7 @@ def transport(inp,doc,temp):
                     # Atomic publication of these small fields precedes the
                     # first energy step. Later exceptions save the same fields
                     # through main; complete original intervals also checkpoint.
-                    if newrows==0:
+                    if newrows==prefix_subcells:
                         doc["latest_atomic_scientific_stage"]="complete_first_subcell_gram_inputs"
                         save(inp.a.out,doc)
                     if not all(finite.values()):
@@ -682,10 +852,18 @@ def transport(inp,doc,temp):
                 newrows+=1
             cursor=left;last_piece=piece
             doc["actual_new_transport_subcells_completed"]=newrows
+            doc["actual_new_suffix_transport_subcells_completed"]=newrows-prefix_subcells
             doc["actual_completed_original_transport_intervals"]=len(inp.fp["rows"])-index
             doc["actual_exact_radial_cursor"]=str(cursor)
             doc["complete_preparatory_conclusions"]["latest_complete_transport_error_columns"]={
                 str(sigma):[rec(x) for x in errors[sigma]] for sigma in (-1,1)}
+            doc["complete_preparatory_conclusions"]["latest_reference_endpoint_identity"]=reference_endpoint_identity(refs)
+            doc["complete_preparatory_conclusions"]["suffix_running_maxima"]=dict(
+                scope="new continuation after saved prefix cursor only; old prefix maxima unavailable",
+                complete_source_columns={str(s):[rec(x) for x in source_max[s]] for s in (-1,1)},
+                complete_parameter_and_mean_columns=[rec(x) for x in param_max],
+                new_partial_mean_curvature=rec(curvaturemax),
+                original_mean_interpolation_error=rec(meanmax))
             doc["latest_atomic_scientific_stage"]="complete_original_transport_interval"
             save(inp.a.out,doc)
             if index%64==0:
@@ -702,13 +880,19 @@ def transport(inp,doc,temp):
         original_candidate_pieces_read=len(piececount),
         complete_error_columns={str(s):[rec(x) for x in errors[s]] for s in (-1,1)},
         complete_error_H3={str(s):rec(h3_columns(errors[s])) for s in (-1,1)},
-        maximum_complete_source_columns={str(s):[rec(x) for x in source_max[s]] for s in (-1,1)},
-        maximum_complete_parameter_and_mean_columns=[rec(x) for x in param_max],
-        maximum_new_partial_mean_curvature=rec(curvaturemax),
-        maximum_original_mean_interpolation_error=rec(meanmax),
-        full_temporary_source_sha256=sha(source_path),
-        full_temporary_canonical_source_sha256=hash_source.hexdigest(),
-        full_temporary_reference_sha256=hash_reference.hexdigest(),
+        suffix_maximum_complete_source_columns={str(s):[rec(x) for x in source_max[s]] for s in (-1,1)},
+        suffix_maximum_complete_parameter_and_mean_columns=[rec(x) for x in param_max],
+        suffix_maximum_new_partial_mean_curvature=rec(curvaturemax),
+        suffix_maximum_original_mean_interpolation_error=rec(meanmax),
+        suffix_temporary_source_sha256=sha(source_path),
+        suffix_temporary_canonical_source_sha256=hash_source.hexdigest(),
+        suffix_temporary_reference_sha256=hash_reference.hexdigest(),
+        temporary_source_and_diagnostic_maxima_scope="new suffix only; preserved prefix certificate supplies the earlier path",
+        completed_prefix_budget_subcells_reused=prefix_subcells,
+        new_suffix_subcells_verified=newrows-prefix_subcells,
+        completed_prefix_residual_parameter_energy_budgets_recomputed=0,
+        original_prefix_diagnostic_maxima_available=False,
+        complete_final_reference_endpoint_identity=reference_endpoint_identity(refs),
         temporary_reference_modes=N,complete_residual_modes_not_truncated=True,
         original_scalar_integrals_not_repeated=True,ordinary_inward_radial_measure="dr")
     return refs,errors
@@ -724,17 +908,38 @@ def terminal(inp,refs,errors,doc):
         if not qpoly.mean().contains(0):raise ArithmeticError("the complete terminal nonmean target lost its mean")
         qpoly=qpoly.ne()
         tail=up(inp.mu)*Gfee/2
-        bound=(qpoly.h3()+h3_columns(errors[sigma])+tail).upper()
+        reference_H3=qpoly.h3()
+        bound=(reference_H3+h3_columns(errors[sigma])+tail).upper()
+        # These eight new Parseval scalars are read from the actual endpoint
+        # polynomials before temporary arrays disappear. No earlier completed
+        # source, reference proposal or validation budget is evaluated again.
+        reference_columns=[qpoly.l2(q) for q in range(4)]
+        width=exact(Fraction(PARAMETERS["angle_tail_width"]))
+        angle_columns=[(up(inp.mu)*up(Gaudit["complete_analytic_tail"])
+                        *math.factorial(q)/(2*width**q)).upper() for q in range(4)]
+        full_columns=[(reference_columns[q]+errors[sigma][q]+angle_columns[q]).upper()
+                      for q in range(4)]
         qnorms[sigma]=bound
-        qs[str(sigma)]=dict(complete_signed_reference_H3=rec(qpoly.h3()),
+        qs[str(sigma)]=dict(complete_signed_reference_H3=rec(reference_H3),
             complete_transport_H3_error=rec(h3_columns(errors[sigma])),
             complete_finite_angle_tail_H3=rec(tail),
             complete_qG_H3=rec(bound),complete_reference_mode_extent=max(abs(qpoly.lo),abs(qpoly.hi)),
-            complete_mean_is_exactly_zero=True)
+            complete_signed_reference_derivative_L2_upper=[rec(x) for x in reference_columns],
+            complete_transport_derivative_L2_error=[rec(x) for x in errors[sigma]],
+            complete_finite_angle_tail_derivative_L2_upper=[rec(x) for x in angle_columns],
+            complete_qG_derivative_L2_upper=[rec(x) for x in full_columns],
+            derivative_orders=[0,1,2,3],complete_mean_is_exactly_zero=True)
     C=(KH*(qnorms[-1]+qnorms[1]+up(inp.mu)*Ej)).upper()
     gate(doc,"the true-angle output pays all finite and infinite signed Fourier terms and the actual measure",
          Gfee.is_finite() and KH.is_finite() and Ej.is_finite() and C.is_finite()
-         and all(qnorms[s].is_finite() for s in (-1,1)))
+         and all(qnorms[s].is_finite() for s in (-1,1))
+         and all(len(qs[str(s)][name])==4
+             and all(ball(x).is_finite() for x in qs[str(s)][name])
+             for s in (-1,1) for name in (
+                 "complete_signed_reference_derivative_L2_upper",
+                 "complete_transport_derivative_L2_error",
+                 "complete_finite_angle_tail_derivative_L2_upper",
+                 "complete_qG_derivative_L2_upper")))
     doc["complete_first_nonmean_coefficient_H3_conclusion"]=dict(
         full_real_family_transport_half_width=str(DELTA),
         true_angle_only_at_original_selected_parameter=True,
@@ -742,6 +947,8 @@ def terminal(inp,refs,errors,doc):
         branches=qs,finite_angle_new_target=encode(Gaudit),true_angle_derivatives=encode(Hdata),
         complete_nonmean_first_symbol_H3_upper=rec(C),
         norm_definition="sum_j (1+16j^2)^3 |c_j-mu*1_(j=0)|^2 under its square root",
+        new_endpoint_reference_Parseval_scalars=8,
+        all_complete_derivative_columns_0_through_3_saved=True,
         same_selected_parameter_and_true_mean=True,
         original_two_rays_and_KAM_not_recomputed=True,
         original_scalar_beta_not_substituted_for_this_target=True,

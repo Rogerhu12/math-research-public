@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **SN 丢失参考续跑包与终点分导读出部署。** 在已发布 7edf79c7 恢复合同和 18a3a7f6 丢失范围下，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3 仅重建原314×4有限参考并读取1256成功预算，从next2831继续；207pins/8AST/21门设计。新终点保存双branch四导标量，完整physical A1/128尾且原H3公式不变；typed只读metadata暂错不杀正常child。root及两peer静态核通过，尚无新最终C，所有原mean/无限频/真实参数费用保留。
+
 - RR新completion consumer部署：35固定输入13515985B、9AST/28门设计，same-germ signedK1 FTC与joint Bfree·g后四physical读出。旧四ΓwΓp、原domain和产品只读；原两archive身份不变，body字节补实际1167787。数值待唯一自然公开CI。
 
 - [RR根均值定理与已成产品恢复](results/R133-supplement-root-mean-value-and-saved-product-Darboux-recovery.md)：samebody signed K1/actual root推出strict q；新整Bfree·g strip预算只消费保存moduli，四ΓwΓp不重。保持完整原Sobolev窗口/P⊥/两mean，实际新g/physical门待CI。

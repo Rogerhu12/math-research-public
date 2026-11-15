@@ -35,6 +35,10 @@ def ball(v):
     return str(v)
 def cell(v):return str(v).replace("|","\\|").replace("\n"," ")
 
+class TransientMetadataError(RuntimeError):
+    """Retryable read-only metadata failure; no failed identity or policy gate is suppressed."""
+    pass
+
 def topic_tree_metadata(git,topic,repository):
     """Read the exact published origin/main tree; never request an unpublished local HEAD or a blob body."""
     head=git("rev-parse","origin/main").stdout.strip()
@@ -59,15 +63,24 @@ def topic_tree_metadata(git,topic,repository):
             "Accept":"application/vnd.github+json",
             "X-GitHub-Api-Version":"2022-11-28",
             "Authorization":"Bearer "+token})
-        try:
-            with opener.open(request,timeout=45) as response:
-                if response.geturl()!=url:
-                    raise RuntimeError("the capacity metadata request was redirected")
-                data=response.read(16000001)
-        except urllib.error.HTTPError as error:
-            raise RuntimeError("the Git tree metadata request returned HTTP "+str(error.code)) from None
-        except urllib.error.URLError:
-            raise RuntimeError("the Git tree metadata request failed at transport") from None
+        # A transient read-only service failure is not a scientific or policy gate.
+        # Retry the same frozen tree identity; never substitute stale capacity.
+        for attempt in range(4):
+            try:
+                with opener.open(request,timeout=45) as response:
+                    if response.geturl()!=url:
+                        raise RuntimeError("the capacity metadata request was redirected")
+                    data=response.read(16000001)
+                break
+            except urllib.error.HTTPError as error:
+                if error.code not in (408,425,429,500,502,503,504):
+                    raise RuntimeError("the Git tree metadata request returned HTTP "+str(error.code)) from None
+                if attempt==3:
+                    raise TransientMetadataError("read-only Git tree metadata returned HTTP "+str(error.code)) from None
+            except (urllib.error.URLError,TimeoutError) as error:
+                if attempt==3:
+                    raise TransientMetadataError("read-only Git tree metadata transport failed") from None
+            time.sleep(2**attempt)
         if len(data)>16000000:raise ValueError("the Git tree metadata response exceeded its bounded size")
         doc=json.loads(data)
         if doc.get("sha")!=tree or doc.get("truncated") is not False or not isinstance(doc.get("tree"),list):
@@ -175,6 +188,8 @@ def scientific_complete(proc,source,helper,manifest):
     p=proc or {};t=p.get("complete_new_transport_conclusion",{})
     c=p.get("complete_first_nonmean_coefficient_H3_conclusion",{})
     a=c.get("true_angle_derivatives",{});branches=c.get("branches",{})
+    rr=p.get("complete_transport_prefix_reconstruction",{})
+    rp=p.get("complete_reused_transport_prefix_input",{})
     return bool(p.get("kind")==KIND and p.get("complete") is True
         and p.get("new_target_complete") is True and p.get("actual_returncode")==0
         and p.get("failure") is None and p.get("source_sha256")==source
@@ -185,7 +200,19 @@ def scientific_complete(proc,source,helper,manifest):
         and p.get("new_recomputable_arrays_persisted") is False
         and p.get("complete_infinite_inverse_or_PDE_solution_proved") is False
         and t.get("original_intervals_read")==3146 and t.get("original_candidate_pieces_read")==2550
-        and 0<t.get("new_subcells",0)<=120000
+        and 1256<t.get("new_subcells",0)<=120000
+        and t.get("completed_prefix_budget_subcells_reused")==1256
+        and t.get("new_suffix_subcells_verified")==t["new_subcells"]-1256
+        and t.get("completed_prefix_residual_parameter_energy_budgets_recomputed")==0
+        and t.get("original_prefix_diagnostic_maxima_available") is False
+        and rr.get("complete") is True and rr.get("reconstructed_reference_subcells")==1256
+        and rr.get("parts_per_original_interval")==4
+        and rr.get("exact_radial_cursor")=="34092249179194657/144115188075855872"
+        and rr.get("deterministic_frozen_arithmetic_reconstruction") is True
+        and rr.get("original_temporary_gzip_or_reference_hash_verified") is False
+        and rp.get("actual_run")=="43746794222/1"
+        and rp.get("original_science_sha256")=="97f2e921dd6f846f9e46b28e4fbfb9fd7ccc8cb8e2862716ea6e137e62ba526e"
+        and rp.get("completed_prefix_residual_parameter_energy_budgets_recomputed")==0
         and set(t.get("complete_error_columns",{}))=={"-1","1"}
         and all(len(t["complete_error_columns"][s])==4 for s in ("-1","1"))
         and t.get("complete_residual_modes_not_truncated") is True
@@ -194,6 +221,14 @@ def scientific_complete(proc,source,helper,manifest):
         and a.get("literal_31over32_33over32_gates_verified") is True
         and set(branches)=={"-1","1"}
         and all(branches[s].get("complete_mean_is_exactly_zero") is True for s in branches)
+        and c.get("new_endpoint_reference_Parseval_scalars")==8
+        and c.get("all_complete_derivative_columns_0_through_3_saved") is True
+        and all(branches[s].get("derivative_orders")==[0,1,2,3]
+            and all(len(branches[s].get(name,[]))==4 for name in (
+                "complete_signed_reference_derivative_L2_upper",
+                "complete_transport_derivative_L2_error",
+                "complete_finite_angle_tail_derivative_L2_upper",
+                "complete_qG_derivative_L2_upper")) for s in branches)
         and isinstance(c.get("complete_nonmean_first_symbol_H3_upper"),dict)
         and c.get("full_real_family_transport_half_width")=="1/10000000000"
         and c.get("true_angle_only_at_original_selected_parameter") is True
@@ -214,6 +249,9 @@ def latest_progress(path):
         if isinstance(v,dict) and v.get("stage")=="new-complete-nonmean-transport":
             return {k:v.get(k) for k in ("stage","original_interval","new_subcells",
                 "exact_radial_cursor","complete_error_H3")}
+        if isinstance(v,dict) and v.get("stage")=="reference-only-prefix-reconstruction":
+            return {k:v.get(k) for k in ("stage","original_interval",
+                "reconstructed_reference_subcells","completed_prefix_budgets_recomputed")}
     return None
 
 def emit_recoverable_conclusion(state,science,log):
@@ -263,7 +301,9 @@ def render(state):
             "| Quantity | Complete directed enclosure |","|---|---|",
             "| True-angle nonmean first-symbol H3 norm | "+cell(ball(c["complete_nonmean_first_symbol_H3_upper"]))+" |",
             "| Original selected scalar mean, copied | "+cell(ball(c["complete_scalar_mu_copied"]))+" |",
-            "| New complete subcells | "+str(t["new_subcells"])+" |",""]
+            "| Complete subcells, including saved prefix | "+str(t["new_subcells"])+" |",
+            "| Saved completed prefix budgets read only | "+str(t["completed_prefix_budget_subcells_reused"])+" |",
+            "| Newly verified suffix subcells | "+str(t["new_suffix_subcells_verified"])+" |",""]
         for sign in ("-1","1"):
             b=c["branches"][sign]
             lines+=["### Branch "+sign,"",
@@ -279,6 +319,7 @@ def render(state):
         lines+=["The one declared new scientific child is active or preparing. No terminal H3 constant is asserted.",""]
     lines+=["## Scope","",
         "Old scalar finite parts, intrinsic germs, root steps, responses, rays and circle iterations are read only. The new target is the signed nonmean forced density, its full residual and H3 enclosure. The true-angle readout uses the original selected parameter and retains both branches and all means.","",
+        "The fifth execution's 1256 completed subcell budgets are read only. Only its lost finite reference proposals are reconstructed under frozen arithmetic; no unavailable old reference hash is claimed. New source arrays and diagnostic maxima cover the suffix only.","",
         "This receipt gives no complete strong-return remainder, incoming inverse, infinite high inverse or true PDE background transfer. Temporary complete source and reference coefficients remain only within this runner.",""]
     return "\n".join(lines)
 
@@ -354,6 +395,13 @@ def main():
         diff=git("diff",before,after,"--",*rules["readme_sha256"]).stdout
         state["readme_checks"].append(dict(time=utc(),before=before,after=after,actual_diff=diff,
             explicitly_reviewed_commit=rules["read_commit"]))
+        for path,digest in rules["readme_sha256"].items():
+            if sha(root/path)!=digest:
+                print(diff,flush=True);raise RuntimeError("read and apply the newly changed README diff")
+        if sha(a.rules)!=a.rules_sha or sha(a.manifest)!=a.manifest_sha or sha(root/PIPELINE)!=a.pipeline_sha:
+            raise ValueError("a separately pinned execution contract changed during pull")
+        if sha(root/m["helper_path"])!=helper or sha(root/rw)!=ws:
+            raise ValueError("the frozen helper or running wrapper changed during pull")
         published,blob_map=topic_tree_metadata(git,TOPIC,PUBLIC)
         capacity=owned_head_delta(git,root,published,blob_map,owned_small_paths)
         state["current_published_topic_capacity_metadata"]=published
@@ -365,13 +413,7 @@ def main():
         save(out/"worker-process.json",state)
         if not state["current_topic_below_200000000_bytes"]:
             raise ValueError("actual topic Git blobs reach the200000000-byte hard limit")
-        for path,digest in rules["readme_sha256"].items():
-            if sha(root/path)!=digest:
-                print(diff,flush=True);raise RuntimeError("read and apply the newly changed README diff")
-        if sha(a.rules)!=a.rules_sha or sha(a.manifest)!=a.manifest_sha or sha(root/PIPELINE)!=a.pipeline_sha:
-            raise ValueError("a separately pinned execution contract changed during pull")
-        if sha(root/m["helper_path"])!=helper or sha(root/rw)!=ws:
-            raise ValueError("the frozen helper or running wrapper changed during pull")
+
 
     report=root/REPORTS/("run-"+state["run_id"]+"-"+state["run_attempt"])
     def snapshot():
@@ -483,12 +525,28 @@ def main():
                 if remaining<=0:
                     state["timeout_seconds"]=CHILD_SECONDS
                     break
-                if time.monotonic()-last_sync>PULL_SECONDS:
+                interval=60 if state.get("metadata_publication_retry_pending") else PULL_SECONDS
+                if time.monotonic()-last_sync>interval:
                     state["latest_actual_progress"]=latest_progress(log)
                     state["source_budget_child_wall_seconds"]=time.monotonic()-started
                     save(out/"worker-process.json",state)
-                    sync()
-                    if child.poll() is None:publish(final=False)
+                    try:
+                        # Actual pull, README checks and all frozen pins remain mandatory.
+                        sync()
+                        if child.poll() is None:publish(final=False)
+                        state["metadata_publication_retry_pending"]=False
+                    except TransientMetadataError as error:
+                        # There is no Git publication with unverified capacity.
+                        # The immutable scientific child may continue outside Git.
+                        event=dict(time=utc(),type=type(error).__name__,message=str(error),
+                            healthy_child_preserved=child.poll() is None,
+                            publication_deferred_without_stale_capacity=True)
+                        state.setdefault("read_only_metadata_retry_events",[]).append(event)
+                        state["metadata_retry_event_count"]=state.get("metadata_retry_event_count",0)+1
+                        state["read_only_metadata_retry_events"]=state["read_only_metadata_retry_events"][-12:]
+                        state["metadata_publication_retry_pending"]=True
+                        print(json.dumps(dict(kind="deferred_read_only_metadata_publication",**event)),flush=True)
+                    save(out/"worker-process.json",state)
                     last_sync=time.monotonic()
                 try:child.wait(timeout=min(60,remaining))
                 except subprocess.TimeoutExpired:pass
@@ -510,14 +568,32 @@ def main():
         if proc is None else proc.get("failure"))
     if proc is not None:state["actual_scientific_receipt"]=proc
     state["output_hashes"]=[rec(path,out) for path in (science,log) if path.is_file()]
-    temporary=out/"temporary-new-source"/"complete-new-signed-source-and-reference.jsonl.gz"
-    if temporary.is_file():state["output_hashes"].append(rec(temporary,out))
+    for name in ("complete-new-signed-source-and-reference.jsonl.gz","reconstructed-prefix-reference.jsonl.gz"):
+        temporary=out/"temporary-new-source"/name
+        if temporary.is_file():state["output_hashes"].append(rec(temporary,out))
     save(out/"worker-process.json",state)
     state["recoverable_prepublication_stdout"]=emit_recoverable_conclusion(state,science,log)
     save(out/"worker-process.json",state)
     # Every mathematical byte and every child log byte is already saved and emitted.
     # A later wrapper failure never authorizes repeating a completed scientific child.
-    sync();publish(final=True)
+    # The complete scientific bytes have already been emitted. Transient
+    # metadata failure cannot authorize another mathematical child.
+    publication_retry_start=time.monotonic()
+    while True:
+        try:
+            sync();publish(final=True)
+            state["metadata_publication_retry_pending"]=False
+            break
+        except TransientMetadataError as error:
+            event=dict(time=utc(),type=type(error).__name__,message=str(error),
+                completed_child_not_repeated=True,publication_deferred_without_stale_capacity=True)
+            state.setdefault("read_only_metadata_retry_events",[]).append(event)
+            state["metadata_retry_event_count"]=state.get("metadata_retry_event_count",0)+1
+            state["read_only_metadata_retry_events"]=state["read_only_metadata_retry_events"][-12:]
+            save(out/"worker-process.json",state)
+            print(json.dumps(dict(kind="deferred_final_read_only_metadata_publication",**event)),flush=True)
+            if time.monotonic()-publication_retry_start>600:raise
+            time.sleep(10)
     print(json.dumps(dict(complete=state["complete"],actual_returncode=state["actual_returncode"],
         report=str(report.relative_to(root)),old_numerical_enclosures_recomputed=0,
         new_source_budget_processes=1,new_recomputable_data_files_persisted=0)),flush=True)
