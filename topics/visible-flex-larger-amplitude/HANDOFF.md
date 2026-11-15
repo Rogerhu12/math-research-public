@@ -4,11 +4,11 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:02:10 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1da2e438e2e4c2eb3c49937580f590b23a9ff7db。
+规则同步记录：2026-11-15 21:05:55 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ea5042f3996e9e32851cc6d150d4a7737fd8d732。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
-部分克隆/tmp/visible-larger-root-git-180，--filter=blob:none，git add --sparse。每真实pull核双README，变则只读差异立刻遵守；至少每小时pull，Actions镜像2700s。NFF立即pull --rebase再推至成功；规则行冲突只保实际最新pull，其它不丢。根12不增fixture/独审/科学前门；根15只留源码/参数/run/SHA/紧凑结论，不留可再生raw/证书或编码拆包。题≤200MB、各MD<100KB、H<10KB、open宜<30KB、log每条≤5物理行，不写根LOG。
+部分克隆/workspace/visible-larger-working/visible-larger-root-git-180，--filter=blob:none，git add --sparse。每真实pull核双README，变则只读差异立刻遵守；至少每小时pull，Actions镜像2700s。NFF立即pull --rebase再推至成功；规则行冲突只保实际最新pull，其它不丢。根12不增fixture/独审/科学前门；根15只留源码/参数/run/SHA/紧凑结论，不留可再生raw/证书或编码拆包。题≤200MB、各MD<100KB、H<10KB、open宜<30KB、log每条≤5物理行，不写根LOG。
 
 ## 完成标准与原责任
 
@@ -26,7 +26,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |185/R395|43759673057 /fe5f7cc2bc612d009d25e859a877bf3f9e766ecd|geometry原日志/root必要原字段已读：76157B/acc93f03，8接受/12α/27normal，W4.92393→4.34687；120FD/Arb/453齐，全部非零终门false|
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：compute132950069367，新C步骤；正端点核→真180→全112far→原453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude唯一读，compute132954941845依赖准备；真父重生/576×224及原四组件，64pins/原预算|
-|188/R399|五件完整源码已发布，run待绑定|exact唯一读：真98/原37/FD→629gap/37×2048×17；105pins，直接/同路径继承分计及整角受控信号提交|
+|188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact唯一读，compute132955840323已进原science；真98/37/FD→629gap/全闭段，105pins|
 |189/R401|尚无请求/运行|geometry：R395刊后从真185末十词续多块原完整校正；原2400s及末门不变|
 |R400连续十族接口|源码准备中，未派发科学|geometry：真continuous10→冻结450 writer/reader/shared guard，不用finite185改标签|
 
@@ -34,7 +34,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 ## 刚完成与真实后继
 
-[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 43757046032/442413b6、89269B/35f0397f齐；128α1 norm1.22096e−4→9.6858247475e−11，replay同。stage8000s仅20/576，20..575全部未付地址保正文，boundary/endpoint未起；audit576/7488齐但仅C-based有限程序，native/fullDN仍false。原98321B传输70与科学预算分开，旧R388/R393不回填；末state已清不能凭SHA续。186保持58旧pins+6、19200/6000/1200和8000/600/600/1800，headerab246a/stage03ab同括号D6共享/模态hoist，未承诺29倍所需提速或实跑逐词一致；原一般geometry fallback保。全四消费者/单90KB必要/quiet后清。
+[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 43757046032/442413b6、89269B/35f0397f齐；128α1 norm1.22096e−4→9.6858247475e−11，replay同。stage8000s仅20/576，20..575全部未付地址保正文，boundary/endpoint未起；audit576/7488齐但仅C-based有限程序，native/fullDN仍false。原98321B传输70与科学预算分开，旧R388/R393不回填；末state已清不能凭SHA续。186保持58旧pins+6、19200/6000/1200和8000/600/600/1800，headerab246a/stage03ab同括号D6共享/模态hoist，未承诺29倍所需提速或实跑逐词一致；原一般geometry fallback保。全四消费者/单90KB必要/quiet后清。[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)已付记录系数/名义L下right=de+A_m m+A_L(t+de)与flux块等价，保literal三表、非C逆/完整残差/226RK。预装配重关联不声称同浮点词或完整导数误差；20-bit整数digit只条件途径。190/R403准备独立完整后继，186仍不改。
 
 [R372实际175](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)原37α1/8与新FD过，629gap齐；5400s只43910完整角事务，q21 angle902/trial6未提交、后15query未访。[R398](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)已推e8c8d21d：准确H(t)同一，G2_j(t)可变且盒不须嵌套；仅直接strict父闭段向更小段继承。188仍先付629gap，缺依赖不补，17项整角事务后计数，直接/继承分计；受控信号提交窗口暂记pending，提交后按原ResourceStop，数值函数/预算不改，未回填175。
 

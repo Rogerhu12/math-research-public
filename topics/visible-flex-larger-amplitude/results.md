@@ -417,3 +417,7 @@
 ## 2026-11-15 — Request188：原完整37链与同Hermite路径闭段继承
 
 [完整接口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)及consumer/runtime/request/workflow已核发布。真正actual175 request35920B/a6b9cf0a的103pins/三参数逐值保持，加2新源=105；真actual98重生→原37一次模型/新FD→原端点与629完整453gap→全37×2048×17。每同query/角首个直接strict闭段按R398包含推论支付更小闭段；余项G2_j(t)不当固定二次、盒不要求嵌套、缺依赖/未决/反证不继承。直接/继承/全部责任分计，完整17角账事务及全部原未访范围保；私有84af原数值函数不改，14条明确main/metadata替换只在短提交区间延期SIGTERM/SIGINT，提交后原ResourceStop，硬kill/I/O不声称完整。10800总/5400诊断/300预留/8GiB、原全部数学门、单90KB必要及quiet/marker后清不变；未增fixture/门，未回填175/预填R399或宣称实测加速。
+
+## R402 — 记录字面表/名义因子下的完整R305块作用等价
+
+[results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)（16187 B / 763aeb4eddf19dad4a1ef824f017d0dbb03b934f56195630fda198420a5494f4）按原950e/bcca/86782源码固定实际局部系数、s、L与回溯，证明两块right和两块flux公式；不借理想三角恒等式、不混literal gram/cosine或B首列，不把名义L逆当原C逆。完整226态/224列/RK/两mean/端口及原全部C方向残差仍须保留。预装配改变乘加结合，不声称同binary128词、真正有限root准确导数或IEEE；无实测速度/完整stage证书。20-bit整数digit/k≤2048安全界与完整dyadic重建、逐层形成误差恒等式已作条件推导，内核尚未实现/实际误差未包围。独立190/R403完整后继准备，186原运行不改，不增小fixture/前门。

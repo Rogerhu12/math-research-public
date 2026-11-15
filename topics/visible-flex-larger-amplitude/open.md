@@ -24,6 +24,8 @@
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)只付固定stage10/RK0/field0全230列320bit有限算法误差，42969B必要齐；不付上游/全RK/576J/112/338/audit/native。[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)/[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)、R314/R325保225Gram/226态/224列、因子/两回代缺陷。固定trace实延拓不代真F_e/隐式根/动态分支稳定/IEEE/准确非共振。
 
+[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)已从原950e实际source证明同一记录局部系数、s、L与回溯下，right=de+A_m m+A_L(t+de)，最终flux=F_m m+F_L dL；S/cosine/gram独立literal、B首列1与cosine首列分开，名义因子作用为(LLᵀ)^−1而非自动C^−1。原完整C解残差/两mean/226RK/224列/全部阶段保。预装配改结合/舍入，条件准确实算子相同不代原词、R283导数、分支稳定或严格误差；20-bit/k≤2048整数digit界及误差分层只条件实现，未执行/未保证提速。190/R403据此独立接完整新链，不改186、不加fixture/门。
+
 ### 1C. 真37→38与原非线性域
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八批23trial/八接受后未选LEFT462失败，末physical .0071041184748284756仍非BVP，pair已清。[171入口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)97pins从真98同job重做原37八批，绑定末warm/status/runtime/producer后才转38；22LEFT+16MID/25cells/30端点462..491/B10143/77824行、C4059/full236036/109core保。原1200/600/90/30、17档/完整FD、300min含恢复、science320/job350；不足余量保未访，不保证16批。全部trial读后清，失败always补两schema/parent-after；170不作门。
