@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 闭mean真实兼容及完整 fixed-C_R 规范逆（2026-11-15）**：[Z1–28](results/R119-supplement-new-closed-mean-compatibility-gauge-and-complete-fixed-CR-inverse.md)。在实际物理平端高度有限、total mean flux为零的域上构造全源 generalized inverse；强source方程闭合 mixed mean，真实兼容恰为 La g=0，核恰为一个物理常高度方向。最后根准确密度/通量式证明 Laσ≠0；指定高度后与Y同权的全频解界<2。原强source/label与帽内 C_R 响应仍须联立，未声称完整PDE或ν门。
+
 - **R119 新外完整 mixed Schur 与 closed 非mean inverse（2026-11-15）**：[完整证明](results/R119-supplement-new-outer-complete-mixed-weighted-Schur-and-closed-nonmean-inverse.md)。同一新简单根背景/公共五盒点，真实固定 C_R 返回与 Dirichlet comparator 区分；全频浅平台、原 high 双 Poisson、无限 deep-low 的源窗均保。双逆谱权的完整差 <2^-5800000，实际非mean块 vRv<2。actual 正返回只收 norm2，不借 Schur 酉；两 mean、通量兼容、高度 gauge、强标签和真实帽反馈继续另闭。
 
 - [固定内窗第一修正完整旧圆源合同](results/R133-supplement-fixed-inner-first-correction-complete-old-circle-source-contract.md)：I1–11 接已成Taylor与Y九词/独立mean，原矩阵z词仅做一次同空间Sobolev转换；复Airy全尾与实二导界各付后可取min，local实际入口为 JP S(μL0w1)。固定物理分窗按原行积分，无新接口；数值consumer进行。
