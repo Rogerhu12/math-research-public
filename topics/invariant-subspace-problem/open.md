@@ -109,17 +109,15 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### R150：同一原矩阵的已付界与下一实际计算
 
-原全矩阵4367×6188、泛秩4354；同选I,J为4354，常数Q/F31秩4318、36核。完整常左余空间和31单位规范已付。[自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)给33个完整原一阶头；[第二22头](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)给9≤Qβ2≤11，未证明24头或β2=9。指定D阶≥91、cofactor及原来源换列≥88；K99下条件来源费8627，原成员性前提不能删。
+原全矩阵4367×6188、泛秩4354；同选I,J为4354，常数Q/F31秩4318、完整source核36维。第一连接Q/F31均恰3。[完整第二恰9](results/R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623.md)已由实际29个原source的ρ5配对与余维7证明：完整forcing像维≤12，减完整HF秩3给≤9，配合法模31下界夹等。完整二阶头维24，旧22已显式；新2只付存在性，不能伪填两条原jet。
 
-normal4的[完整≤4包络](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)已闭：355.152873124秒完成130新单位RHS、166列残差rank144，交维0，全部95788原第二产品真，仍22头。任何合法normal≤4族的normal4分量均为零；normal5开启后须保H4η4+H5η5真实补偿。新130解/全残差/高核全部可复用；normal5高块实际H5 Q/F31rank1287、原单位模31为18；30.715285713秒已消786列，余501/950行，触150k工作门槛后全双槽/DAG可续。未成完整Schur，不重355秒解。先核已有29原来源零向量是否同端点/同J并直接配36forcing，以小矩阵给完整第二下界。完整第二仍[9,11]，未有24头，不按rank9启动第三页。
+完整normal≤4包络仍恰22且全部normal4分量被迫零。因此完整24头到normal5部分的真实映射秩恰2，整个normal4+5高部分也仅2维。normal5已成786个精确pivot与所有H4/DAG保持，未求完整Schur；旧36解、130新单位解与166残差全部复用。下一可先用已成22真二阶jet给受限第三正证书，或只构造实际缺2高像；完整第三结论必须保全部24维来源。
 
-[两端第五](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)各17个真头，完整来源公共53/47；零点K99=s53(s−2)9(s+6)9F+²F−²E8²。零点不假r1=4/β2=0。第六2GiB失败但已保存verified residual6188×7和top-kernel2779×10；其后常单位续接在外层660.179500199秒到限exit124、无数学回执；只读inventory已核新checkpoint仅有完整2295×10实际RHS、990×2常核、988²常单位，无inverse；不能记第六完整秩。下一按这些实际stage逐新RHS求解并全单位乘回，不重全逆。全程保3条顶层齐次自由、7条head、完整低核与全6188乘回。
+同选D∞≥93，全部cofactor/原来源换列∞≥90；K101下q8426…8576，原非基/转移/目标三费8620/8623/207，统一条件8623。九目标的Q[s]成员性仍是前提。模31完整长度243仍只属F31，真Q degD8527…8677、v∞D93…243；lc31单位等价真Q v∞D=243，未证。
 
-[九平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)固定七条五阶cochain的λ0…λ5与所有n_j²均零，整截断与h0n_j²恒零。保持该低规范时首次新可能目标项为s9 h0[3]λ6(n_j²)，作为障碍须同一九阶左延拓。未付全左核或成员性。
+[零点完整第六](results/R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625.md)已得5真头+10恒等、全6188原乘回。middle核9/low核15、head投影5给零head纤维10，故零点第一恰4/第二0。累积≤4/4/5/8/10/12，公共零点最大/次大阶55/48，K101=s55(s−2)9(s+6)9F+²F−²E8²。原模31上界66/55给最大正Smith7…18；整个原系统模s18只在先付Q((s))像时等价局部成员性，13个自由坐标仍须核。
 
-[零点最大Smith十九](results/R150-appendix-zero-smith-length-bounds-and-exponent-nineteen.md)将Q下界与同一完整原模31证据合并为δ4354∈[53,66]、δ4353∈[47,55]，故6≤a_max≤19。只有先付原目标在Q((s))像内，才可用整个原系统模s19检验Q[[s]]成员性；13个自由坐标不能有限截断后免费删除。这里提供后续完整局部计算的有限停止阶，不确定实际Smith分拆。
-
-[同选模31完整长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)仅属F31：max21、cofactor222；真Q degD8527…8679、v∞D91…243。lc31单位等价真Q v∞D=243，仍未证。九目标模31⁶费1339仍不付特征零成员性或固定e无界精度。旧GB/LLL/65521/29曲线等见归档，不重复。
+第六全部λ0…6与九平方均零；不是完整左核或目标成员性。第七从真8957×5 cochain出发，逐元素核高块，并保全部三层齐次核；固定常单位、已成列解及原全低核复用，不重第六或已败全逆。旧29曲线/GB/LLL/65521及其余原范围保上文与归档。
 
 ### 原同w边界：完整返回forcing与共同预算
 
@@ -152,3 +150,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 ### 零点完整第六与K101（已执行）
 
 [完整第六证明](results/R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625.md)保所有4347非pure校正和第五Q歧义；顶/中/低全核维10/9/15，leading5，五条原6188乘回均真。零头纤维15−5=10严格给第一rank4，配旧累计界得第二rank0；共15条left6给零点55/48、K101。原模31上界66/55给最大正Smith指数7…18，模s18判准仍须先付函数域像。当前∞91/88/88下q8426…8578、条件8625/目标209；后续∞改进另按同公式更新。全部λ0…6九平方零配对不代成员性。第七只从真8957×5 cochain接续、保全部齐次核。
+
+
+### 完整第二连接已闭，显式高像仍待构造
+
+[余维证明](results/R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623.md)保持原wrapper只实现下界的历史outcome，以真完整coker36和已验证source子空间29补出上界。ρ5/h1实际数据本身给β2=9及24维完整头空间；其normal5高部分真rank2，旧22显式族不能冒充24条完整代表。当前∞93/90/90与K101合并的条件费用为8623、目标分支207；不等于原目标成员性或完整Q Smith长度。
