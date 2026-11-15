@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`6ca0d0627f51535efbd5d45da14692f0464c7a9d`；时间2026-11-15 13:26:09 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`ebcb1b6aa4047976444ef2332bdb98dfd60245f9`；时间2026-11-15 13:33:14 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159容量/持径actual**：[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)，43712266529/a934b45c/job132806237214。18新检查过；两次固定容量5392/6684保旧ID/余槽。η.266513719074→.266474122294→.266443965488，各11+1LP/活动94.195与86.885秒。末m11全17守卫真、nextB保.000125，但无后继使用模型，不宣收敛改善。原门过、.26/1e−4未达；旧失败/全部费用保原note。fine57.54/coarse23秒仍旧163全J。
 
-**159选行J首开发失败已修**：[实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)，[首失败](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)。43716207246/a99b8d88/job132818219795仅人工fixture漏known_fine_metric_locations；4.49178秒、七恢复/新科学均0，首组返回未留结果不冒passed。新driver65b3dbb4仅补空列表及分组即时原结果，前三源/生产/98args/45绑定除driver不变。续跑43716860154/a7bb0a16已完成，正消费原日志；不由workflow success冒科学通过：完整Π→选行→159，同ordinary/H/reference/全池/holdloop，7必要恢复各一次，新stage12LP/40值/120秒不扩容；未宣性能。
+**159因子化首actual完成**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16/job132820200829。三新开发组全过6.57835秒；唯一新stageη.2664285858004584→.2663989905276839，两网14原门/精确物理盒过，.26/1e−4未达。11primary+1SOC、10新接受、26共享值+2末验；active43.32511秒，新audit48.67288秒；七必要恢复1175.76681秒各一次，不能算新下降。新coarse/fine选J7.32903/15.96631秒，虚轴≤27，full163/159向量J张量0；旧父projection说明标签过时，历史原件不改，不宣同点加速。m5SOC17守卫全真持B.000125，m6确用但ratio.11484缩半；m8新增1+5行且fineη升而拒。下一新模型处理实际预测缺陷，不延12LP/120秒或重跑同stage。首43716207246只人工fixture漏known_fine_metric_locations，0科学；失败与最小修复仍保原note。45/97源及24输入核对全合。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 

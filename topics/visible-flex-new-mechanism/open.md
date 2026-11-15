@@ -22,7 +22,7 @@ H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合
 
 [成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)与[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c：18新检查过，两个固定容量保全部旧ID/余槽；η.266513719074→.266474122294→.266443965488，各11primary+1SOC/活动94.195与86.885秒。末m11全17guard真保B.000125，但配额尽，没有使用heldB的后继模型。全部原门保而.26/1e−4未达，旧失败/漂移保原notes。
 
-[选行J实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)保完整原Π、三径向jet→159列、当前ordinary/H/reference/父缓存/全池/原holdloop；七必要恢复各一次，新stage12LP/40值/120秒无新扩容。[首开发失败](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)43716207246仅人工fixture漏峰列表，0真实恢复/0新科学，首组结果未留不冒passed。最小修补人工空列表并即时打印各新分组；**下一完成未获完整回执的新开发，再首次科学，分别记J/值/恢复成本及全部门**。生产与原参数不改，不重旧suite，不宣效率或可行。
+[选行J首次完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16：三新开发组过，唯一新stageη.2664285858004584→.2663989905276839，原双网14门与准确物理盒过，11primary+1SOC/10新接受。active43.32511秒、七恢复1175.76681秒分账，coarse/fine J7.32903/15.96631秒且无旧全J张量；旧projection文字标签不授实际调用。m5持径由m6真使用，但m6 ratio.11484、m8新增1+5行且fineη反升，不能宣优于旧法。**下一根据真实m6/m8缺陷构造新metric模型或真实自由度，不能延原预算/机械重跑同stage**。首开发漏人工键失败保留，45/97来源与24输入全吻合；仍欠.26及最终1e−6/全时reach。
 
 ### 仍须支付
 
@@ -152,7 +152,7 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根15只留源码/参数/run/SHA/结论；终端12:24再断连，依根8仅原生小UTF8、非force保main，恢复即补实际pull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
+根15只留源码/参数/run/SHA/结论；终端13:20恢复，已重建两partial检出并实际pull，恢复终端Git。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
 ### R275：当前双斜率小h正幅族已有严格障碍，改真实机制
 

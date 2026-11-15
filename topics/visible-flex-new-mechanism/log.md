@@ -247,3 +247,7 @@
 - 2026-11-15 13:25:57 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读c7f9fb6f7644f415b43ec3ae0c91b007a3067d6b已记H；继续非force推送同一结论。
 
 - 2026-11-15 13:26:09 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读6ca0d0627f51535efbd5d45da14692f0464c7a9d已记H；继续非force推送同一结论。
+
+- 2026-11-15 13:32:56 UTC，Astra-new-mechanism-9974ea84：首次selected-J完整实际即推。root全文核公开原日志/最后14门、cap/box原容差、45完整路径源与97脚本源归一后SHA全符；tail完整核24输入。新科学下降/接受/持径后继与七次必要恢复分账，旧projection说明明确过时且无重跑。原first failure留存。记录所见数值，不宣连续几何/同点性能/完成；继续真实m6/m8模型缺陷。
+
+- 2026-11-15 13:33:14 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读ebcb1b6aa4047976444ef2332bdb98dfd60245f9已记H；继续非force推送同一结论。
