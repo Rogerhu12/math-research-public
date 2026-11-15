@@ -42,3 +42,7 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 
 - 2026-11-15 22:10:21 UTC TFA实际6e11a160独推：原43766881076/1的14门、12pins/3AST/9math/7全copy及20完整标量核齐，preGit24430/5661588a逐字重建。
 - JF1024/同一双窗逆与finite1215、mean及before/after费用齐；Cσ/Eσ/incoming/Schur仍待，旧数学禁重。两README在c8ccf1c36b7b971695ee4eb115ca4d3bb2abe659核空diff，保持继续。
+
+- 2026-11-15 22:11:57 UTC 九份已完成ordinary floating报告恢复白名单7008333d/68f83dd4先推，504341B；restore4c5287d0同path/原blob/SHA/source/args/status全保，尚未删除。
+- 全candidate/native/NPZ、失败137/QR记录、source/proof/active SN/SC/SJ输入保；agent全读9件4producer，root核完整名单和三类原件，不重算数学。
+- SN原88cea14a已到10024/interval640；完整36固定字段、207pins/8AST原字，双H3prefix2.735692533431341非终值；SC3原step9健康。efdafe38a05abd8f2885231e592bf197cfe86c52两README空diff。

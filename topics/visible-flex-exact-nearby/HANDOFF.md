@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 22:10:21 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 22:11:57 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 21:32:52定时CLI失败，下一≤22:32。原SN真pull21:58:42.691220→a48f3398fc587cc1370a26a56978e719629b878c，两README空diff；ref读取不冒真pull。
-最近只读README核：c8ccf1c36b7b971695ee4eb115ca4d3bb2abe659；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 21:32:52定时CLI失败，下一≤22:32。原SN真pull22:07:49.265932→03c54316ed25faac602e66d591ce5603d3f6105d，两README空diff；ref读取不冒真pull。
+最近只读README核：efdafe38a05abd8f2885231e592bf197cfe86c52；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 本次完整H/open/results/log前页保ebf4bade858deb2bcf03f638291a167c5e5b206b同路径，递归a774/1d9b/7b77/cf5f/062a/56c5/f6a9/a76e/576d/fcbc/d358/148a/e7；全部旧完整球、域、单位、mean、失败/lost/恢复及未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -18,8 +18,8 @@ candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；完整64位
 
 ## 健康原Actions，不重启
 
-SN唯一43751213826/1，部署b8bd86a；SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST。五失败/18a3a7f6/7edf79c7保前档；第五502杀−15，旧1256预算/next2831存，只lost314×4 pointnominal320bit重建。21:58原7784389e/16477/53a933e5：9512=1256+8256、interval768，双H3prefix2.676497266078261；cursor6102377495087023/72057594037927936。complete/targetfalse、return/supervisionnull；非终点C。须双支四导四列/全A1/128尾/mean/原H3齐，newton监。
-SC3唯一43754452928/1，部署555d311；helper6f868faf/SCI41b8f50c/manifestcd28e23a/flow6936992e，23pins/9history/36archive。仅tuple→list修正；SC1/2失败62bdfc64/f98d1f32保，SC2首row部分new lost、完整row/group/model0、旧math0。22:01原step9/前8success，tail监。禁读104306B大log；97全affine待。
+SN唯一43751213826/1，部署b8bd86a；SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST。五失败/18a3a7f6/7edf79c7保前档；第五502杀−15，旧1256预算/next2831存，只lost314×4 pointnominal320bit重建。22:07原88cea14a/16711/26e66917：10024=1256+8768、interval640，双H3prefix2.735692533431341；cursor2439449798159019/36028797018963968。complete/targetfalse、return/supervisionnull；非终点C。须双支四导四列/全A1/128尾/mean/原H3齐，newton监。
+SC3唯一43754452928/1，部署555d311；helper6f868faf/SCI41b8f50c/manifestcd28e23a/flow6936992e，23pins/9history/36archive。仅tuple→list修正；SC1/2失败62bdfc64/f98d1f32保，SC2首row部分new lost、完整row/group/model0、旧math0。22:10原step9/前8success，tail监。禁读104306B大log；97全affine待。
 两worker的typed只读暂错保healthy child，真正rules/identity/cap失败硬停。每次存prefix沿完整原receipt核；进度不冒数学成功。
 
 ## 当前新链与下一实际计算
@@ -53,5 +53,5 @@ S/T exacttail只同γ A0/r≤1/128、H8193/r≤2^1048576及r1e−9；Γ1负princ
 
 ## 恢复与执行顺序
 
-完整cleanup保ebf4同H/open：2Newton814736B、jet407315B、七浮点报告367017B已普通删；七件白名单add3714e/9b4947bb先推c3eef752、删除1d9b7096，restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path。原SHA/source/argv/status见名单；全部NPZ/native/候选/失败/proof/history保，旧成功禁重。
+旧2Newton/jet/七报告1589068B已普通删，完整恢复保ebf4同H/open及原名单。新九报告名单7008333d/68f83dd4/48553B先入库；9件504341B待freshguard普通删，restore4c5287d0f59a6569f5e10fbbe46070b414f5b219同path。全部source/NPZ/native/候选/失败/proof/currentpins保，旧成功禁重。
 继续SN→全强E/incoming/GH/ν，与SC3→同态五输入/高迹/γ→完整matching→同对象几何；当前SJ/KL/TF小步独推并保持本H最新。子题完接open下一项，未达总标准持续，不等用户、不因时长停。
