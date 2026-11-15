@@ -80,15 +80,45 @@ def minverse(g, q):
     a,b,c,d = g
     return canon((d,-b,-c,a), q)
 
-def fixed_table(q, A, B, generator, parameters, triples):
+def fixed_table(q, A, B, norm_one_generator, parameters, triples):
     ring = Cyclo(q + 1)
+    # Fix the original character labels on the norm-one group first.
+    # A generator of this group is NOT a generator of F_(q^2)^*.
+    norm_logs = {}
+    z = (1,0)
+    for k in range(q+1):
+        assert z not in norm_logs
+        norm_logs[z] = k
+        z = fmul(z,norm_one_generator,q,A,B)
+    assert z == (1,0) and len(norm_logs) == q+1
+    assert fpow(norm_one_generator,q+1,q,A,B) == (1,0)
+
+    order = q*q-1
+    factors = []
+    rem = order
+    ell = 2
+    while ell*ell <= rem:
+        if rem % ell == 0:
+            factors.append(ell)
+            while rem % ell == 0:
+                rem //= ell
+        ell += 1
+    if rem > 1:
+        factors.append(rem)
+    generator = next(
+        (a,b) for a in range(q) for b in range(q) if (a,b) != (0,0)
+        and all(fpow((a,b),order//ell,q,A,B) != (1,0)
+                for ell in factors)
+    )
     powers = {}
     z = (1,0)
-    for k in range(q*q - 1):
+    for k in range(order):
         assert z not in powers
-        powers[z] = k
-        z = fmul(z, generator, q, A, B)
-    assert z == (1,0) and len(powers) == q*q-1
+        # The exponent below is log_g(z^(q-1)), not the exponent of z
+        # relative to the newly chosen full multiplicative generator.
+        powers[z] = norm_logs[fpow(z,q-1,q,A,B)]
+        z = fmul(z,generator,q,A,B)
+    assert z == (1,0) and len(powers) == order
     elliptic = {}
     for z, k in powers.items():
         if z[1] == 0:
@@ -175,7 +205,10 @@ def fixed_table(q, A, B, generator, parameters, triples):
         })
     return {
         "q":q,"quadratic_field_relation":f"u^2={A}+({B})u",
-        "generator":generator,"verified_generator_order":q*q-1,
+        "full_multiplicative_generator":generator,"verified_generator_order":q*q-1,
+        "original_norm_one_generator":norm_one_generator,
+        "verified_norm_one_generator_order":q+1,
+        "character_definition":"theta_m(z)=zeta_(q+1)^(m log_g(z^(q-1)))",
         "group":"PGL2(F_q)","group_order":len(G),"split_torus_order":q-1,
         "cyclotomic_polynomial":"X^2+1" if q==3 else "X^6-X^3+1",
         "torus_projector_ranks":torus_ranks,
@@ -184,19 +217,20 @@ def fixed_table(q, A, B, generator, parameters, triples):
 
 def main():
     # q=3: all three local representations have the same order-4 cuspidal type.
-    q3 = fixed_table(3,-1,0,(1,1),[1],
+    q3 = fixed_table(3,-1,0,(0,1),[1],
                      [("all_three_original_triples",[1,1,1])])
     # q=17: theta_f has index 3. theta_{g_j} has index -2(j-9) mod 18.
-    # The specified generator is in the basis 1,omega, omega^2+omega+1=0.
-    # Any change of primitive generator only permutes the three original rows
-    # and possibly replaces an index by its inverse, which leaves the character.
+    # The specified norm-one generator is in the basis 1,omega,
+    # omega^2+omega+1=0. All original indices are defined using z^16
+    # relative to this order-18 generator. Choosing a full multiplicative
+    # generator for enumeration does not change any character label.
     q17 = fixed_table(17,-1,-1,(2,11),[3,10,16,4],[
         ("lambda_4__g10_h16",[3,16,4]),
         ("lambda_10__g16_h4",[3,4,10]),
         ("lambda_16__g4_h10",[3,10,16])
     ])
     out = {
-        "version":"R830-fixed-bad-prime-types-v1",
+        "version":"R830-fixed-bad-prime-types-v2",
         "arithmetic_scope":"only fixed residue fields F3 and F17; no target-p scan",
         "formula":"|G|^-1 sum_g product_i (|T|^-1 sum_t chi_i(g t))",
         "inner_product":"Hermitian projector norm; no pointwise absolute-value substitution",
