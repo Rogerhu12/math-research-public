@@ -1,0 +1,920 @@
+{
+  "kind": "append_only_old_rho_first_Airy_Taylor_through_twelve_public_CI_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arb_precision_bits": 320
+  },
+  "input_paths": {
+    "old_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+    "old_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json",
+    "higher_native": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/true-root-missing-intrinsic-jets.json.gz",
+    "higher_process": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/process.json",
+    "fold_native": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+    "fold_process": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json",
+    "append_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md"
+  },
+  "external_completed_natives": [],
+  "original_Taylor_identity": {
+    "run_id": "43653825736",
+    "run_attempt": "1",
+    "actual_returncode": 0,
+    "mathematical_gates": 20,
+    "native_sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719",
+    "native_bytes": 52843,
+    "process_sha256": "eebbbf37419729069c28ef3cd7c7d34f02154b8c391b0cfa9ca093de8855a356",
+    "source_sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d",
+    "manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad",
+    "accepted_original_stages": 75
+  },
+  "higher_intrinsic_identity": {
+    "run_id": "43661471951",
+    "run_attempt": "1",
+    "actual_returncode": 0,
+    "mathematical_gates": 12,
+    "native_sha256": "ec702cffb8d1dcb25cdb01eaa89127b1f0044ae1cd3cee9e6e293e8165250480",
+    "native_bytes": 619835,
+    "process_sha256": "c7ff69243d3f724f539cd0ee95c2b0ba219caa5ffba47ff9b084387255e78e5b",
+    "source_sha256": "a3ff4be3d252dbbc5571924b36927760ace54db91b5e00477749b2f97ba9ace7",
+    "manifest_sha256": "d367fdee726240d487e9f4aebd56b120c82a0e2befdd9430b0f787691b8e4b7a",
+    "complete_ordinary_intrinsic_derivatives_through": 15
+  },
+  "mathematical_parameters": {
+    "Taylor_order": 12,
+    "leading_Taylor_order": 14,
+    "ordinary_intrinsic_order": 15,
+    "new_leading_degrees": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "new_forcing_and_correction_degrees": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "fixed_intrinsic_parameter": "eta_0",
+    "complex_delta_radius": "1/100000000",
+    "old_radial_Cauchy_radius": "1/6000",
+    "old_angle_Cauchy_width": "1/128",
+    "physical_inner_radius": "9/1000000",
+    "output_angle_widths": [
+      "0",
+      "1/1024",
+      "1/512"
+    ],
+    "extra_ell_and_bloc_internal_degree": 13,
+    "physical_Fourier_multiplier": 4,
+    "original_completed_cubic_intrinsic_auxiliary_or_Taylor_outputs_recomputed": 0
+  },
+  "original_Taylor_stage_inventory": {
+    "complete-background-root-series": {
+      "file": "stages/complete-background-root-series.json.gz",
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8",
+      "bytes": 75245
+    },
+    "fold-degree-000": {
+      "file": "stages/fold-degree-000.json.gz",
+      "sha256": "a2778840c3443b4b4d659917565b4cac313eaa8b6ca021f484df8df8f407ba97",
+      "bytes": 493
+    },
+    "fold-degree-001": {
+      "file": "stages/fold-degree-001.json.gz",
+      "sha256": "7c50f51da47ad3618e75a605ebff9138c497f1844264034c38bb4fa9bcfbae0c",
+      "bytes": 4711
+    },
+    "fold-degree-002": {
+      "file": "stages/fold-degree-002.json.gz",
+      "sha256": "c7d79aac477b6ee2f91b25757843fcf6a4099d5c924b517ff24d4b3addd07ccc",
+      "bytes": 8261
+    },
+    "fold-degree-003": {
+      "file": "stages/fold-degree-003.json.gz",
+      "sha256": "def89dfb5587be6021eb273ff2b73261c20f56907afd4942b9f90f5ea1fb4354",
+      "bytes": 12943
+    },
+    "fold-degree-004": {
+      "file": "stages/fold-degree-004.json.gz",
+      "sha256": "5a645262d6c974a3e2f79a89a1c535e662da9ed1ced211b3ec3a24661e4325fe",
+      "bytes": 17935
+    },
+    "fold-degree-005": {
+      "file": "stages/fold-degree-005.json.gz",
+      "sha256": "1d6c7cf5a447009a48591b657fa6727909b26ba8a443bf3d734302c9ef4335fc",
+      "bytes": 22962
+    },
+    "fold-degree-006": {
+      "file": "stages/fold-degree-006.json.gz",
+      "sha256": "252e44b55af435edf39be6627bd96576b19c51735b6c28dd8a7d012de678d6a4",
+      "bytes": 27916
+    },
+    "fold-degree-007": {
+      "file": "stages/fold-degree-007.json.gz",
+      "sha256": "8bc5f37614c9c59c24e5e0bf6e2830ec6cb8f820f46c5c9575bc9d515ea6c7f4",
+      "bytes": 32776
+    },
+    "fold-degree-008": {
+      "file": "stages/fold-degree-008.json.gz",
+      "sha256": "87e8520848581fb32698ecf00ff688a002f905bc4ca009064bab7631ab1308ff",
+      "bytes": 37724
+    },
+    "leading-complete-Xp": {
+      "file": "stages/leading-complete-Xp.json.gz",
+      "sha256": "30b3a923dee052fbf80131e9de352dd32f8a14757db30b8291395a427a9d3389",
+      "bytes": 80704
+    },
+    "leading-complete-T": {
+      "file": "stages/leading-complete-T.json.gz",
+      "sha256": "7be8b1c013adc7d23f08db629816078b6cb2b43a846c6d9a9704a5bddee62ab5",
+      "bytes": 62096
+    },
+    "leading-complete-Q": {
+      "file": "stages/leading-complete-Q.json.gz",
+      "sha256": "0aa0da3c5260ebab0f64afaf0df07eab854988a9a630260714a783ef1c21d523",
+      "bytes": 80521
+    },
+    "leading-complete-EG": {
+      "file": "stages/leading-complete-EG.json.gz",
+      "sha256": "c9c8b5029fe9519ee70587b47bf37c78d6d6fe0c9b7fcbb39517f573230eb1a8",
+      "bytes": 628
+    },
+    "leading-complete-G": {
+      "file": "stages/leading-complete-G.json.gz",
+      "sha256": "65ed2a948486f338156c261624b3e708d217549f37aabd71aff1b525263d5c85",
+      "bytes": 80489
+    },
+    "leading-complete-B_minus": {
+      "file": "stages/leading-complete-B_minus.json.gz",
+      "sha256": "8d76fb11b91e8c528472509184cef8ff69ea4c895899c4075695abb4723e445b",
+      "bytes": 80612
+    },
+    "leading-complete-B_plus": {
+      "file": "stages/leading-complete-B_plus.json.gz",
+      "sha256": "04f8d570f08d3dc12b48413f1de02a18f6e0c5f16f8a074ff734639b71b3096b",
+      "bytes": 80608
+    },
+    "leading-complete-mu": {
+      "file": "stages/leading-complete-mu.json.gz",
+      "sha256": "8a7e39ec810f458e89941ec5cb4aeaa990d38dd12d47929124874a876e07cc43",
+      "bytes": 80258
+    },
+    "leading-complete-a0": {
+      "file": "stages/leading-complete-a0.json.gz",
+      "sha256": "8db5ceaafad9bf5fd99fca4d325b186aceeb6e3c06a48be6bbb1db38a78fc683",
+      "bytes": 80591
+    },
+    "leading-complete-b0": {
+      "file": "stages/leading-complete-b0.json.gz",
+      "sha256": "712b1b252b569b9f0a120a91d4dc6128cd4bb5807082b4b5c5ba08e851e02171",
+      "bytes": 61978
+    },
+    "leading-complete-mu_inverse": {
+      "file": "stages/leading-complete-mu_inverse.json.gz",
+      "sha256": "04676296651f55ef802fe1114201a460741486d8b992835b9b887f22d9d251a7",
+      "bytes": 80700
+    },
+    "complete-local-operator-series": {
+      "file": "stages/complete-local-operator-series.json.gz",
+      "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2",
+      "bytes": 198895
+    },
+    "forcing-degree-000": {
+      "file": "stages/forcing-degree-000.json.gz",
+      "sha256": "8165351ceb3b2e84200201cb5829c3b25e2fc072a8cda6d29390c4e3aad8d2af",
+      "bytes": 15497
+    },
+    "forcing-degree-001": {
+      "file": "stages/forcing-degree-001.json.gz",
+      "sha256": "b66d40db793a496b2dc8e4cf932ebde0feeafa8c6a3e230af282a485138fbfa5",
+      "bytes": 25208
+    },
+    "forcing-degree-002": {
+      "file": "stages/forcing-degree-002.json.gz",
+      "sha256": "277ba89907ad9812162a16c98ac620164185a01c967814c5c0057845ddb0bdd3",
+      "bytes": 35302
+    },
+    "forcing-degree-003": {
+      "file": "stages/forcing-degree-003.json.gz",
+      "sha256": "36781f1663cd3d463bdca60d61f45fad1f3c5e27d6212647734a4888da518fe0",
+      "bytes": 45280
+    },
+    "forcing-degree-004": {
+      "file": "stages/forcing-degree-004.json.gz",
+      "sha256": "97afa59e75df1de7811951b1d76ab98bbf0ed77944b34abdd8c29d0856085edb",
+      "bytes": 55082
+    },
+    "forcing-degree-005": {
+      "file": "stages/forcing-degree-005.json.gz",
+      "sha256": "221d4573da31f2227ee06eb2579273085ed28f68e838314fbf0351d6f587a54e",
+      "bytes": 65192
+    },
+    "forcing-degree-006": {
+      "file": "stages/forcing-degree-006.json.gz",
+      "sha256": "02e84ecb1b9925189623404b88201c6ff951fd0e0accd5a2fe025f6a9cd8fdc1",
+      "bytes": 74683
+    },
+    "complete-normalized-transport-coefficients": {
+      "file": "stages/complete-normalized-transport-coefficients.json.gz",
+      "sha256": "ff6e78959bdd6c07076ef1bf2f6d4864ea24751d37715e63f907e39bcca12cce",
+      "bytes": 426441
+    },
+    "normalized-forcing-degree-000": {
+      "file": "stages/normalized-forcing-degree-000.json.gz",
+      "sha256": "3fdf9257996d22743d5d00d7dba26988c8182de56e9d103f51392fdeb52eb50a",
+      "bytes": 8098
+    },
+    "normalized-forcing-degree-001": {
+      "file": "stages/normalized-forcing-degree-001.json.gz",
+      "sha256": "182dc12d979f920763d89adf41790144e3b9cd7bf313ebea0c4732f4a4100f9b",
+      "bytes": 12855
+    },
+    "normalized-forcing-degree-002": {
+      "file": "stages/normalized-forcing-degree-002.json.gz",
+      "sha256": "75d69375fa0197e2d9428f7d644ecf1c7b0af008014ed65be5c551a0816c8ce8",
+      "bytes": 17856
+    },
+    "normalized-forcing-degree-003": {
+      "file": "stages/normalized-forcing-degree-003.json.gz",
+      "sha256": "537a143f3a31c518d845487fcacaaff25402e2d9114b03027e0871d9e7def6bd",
+      "bytes": 22741
+    },
+    "normalized-forcing-degree-004": {
+      "file": "stages/normalized-forcing-degree-004.json.gz",
+      "sha256": "42ecae4102e521cdc7a2ada3ac098fefc387ebab9f82fe3c637faffe5edfa2ca",
+      "bytes": 27768
+    },
+    "normalized-forcing-degree-005": {
+      "file": "stages/normalized-forcing-degree-005.json.gz",
+      "sha256": "cd630f10dd89f1fe776c62b32470a934ec6182143a4f8910a1d1f320d958a490",
+      "bytes": 32599
+    },
+    "normalized-forcing-degree-006": {
+      "file": "stages/normalized-forcing-degree-006.json.gz",
+      "sha256": "e41ea6dea01cc72d56b37d308279b5ce1659237c4c1f245162a3e5e6b062e906",
+      "bytes": 37545
+    },
+    "transport-degree-000": {
+      "file": "stages/transport-degree-000.json.gz",
+      "sha256": "df91d38f9f6158873c62fab1190c73d504dbfe1cb8a367733353af6ddf6f602a",
+      "bytes": 4445
+    },
+    "transport-degree-001": {
+      "file": "stages/transport-degree-001.json.gz",
+      "sha256": "975a575e3ef4743e5dee3d8e08e77665a6df0cf77c9e200b3aae3c66e8fdb117",
+      "bytes": 10476
+    },
+    "transport-degree-002": {
+      "file": "stages/transport-degree-002.json.gz",
+      "sha256": "aeef4b0b7f5675f587ca10f88e9132666770445e995ac4545037eeeda41bfe0a",
+      "bytes": 15297
+    },
+    "transport-degree-003": {
+      "file": "stages/transport-degree-003.json.gz",
+      "sha256": "16195a5e231f9cc43150cef4e3483e74f3f8792e31a98cdc8bacf7cc7cebf50d",
+      "bytes": 20352
+    },
+    "transport-degree-004": {
+      "file": "stages/transport-degree-004.json.gz",
+      "sha256": "00ee802e1cb5eeb0726f23367f18cfb71c8160c6a037e9a22dce942e0d3d738c",
+      "bytes": 25160
+    },
+    "transport-degree-005": {
+      "file": "stages/transport-degree-005.json.gz",
+      "sha256": "2cd8573b1a44eb193ffa90126151c3d66e4f28261c6d0eb9c6f615c665213ee7",
+      "bytes": 30091
+    },
+    "transport-degree-006": {
+      "file": "stages/transport-degree-006.json.gz",
+      "sha256": "1ab3926fdcfe073f492e2fda2034d2e2442052998407e8f23764bd69e25ab666",
+      "bytes": 35105
+    },
+    "first-correction-degree-000": {
+      "file": "stages/first-correction-degree-000.json.gz",
+      "sha256": "c51b07ca3bd78422f4655070f18e1d760aca9953423999fce94737a04ebc567e",
+      "bytes": 4421
+    },
+    "first-correction-degree-001": {
+      "file": "stages/first-correction-degree-001.json.gz",
+      "sha256": "35a459b6ed8f047adde8f6b34dd527a34dbdbc22fc4fe812ffc31722a12283e2",
+      "bytes": 10387
+    },
+    "first-correction-degree-002": {
+      "file": "stages/first-correction-degree-002.json.gz",
+      "sha256": "5ee0693759865d7f57084c55afad785c61eb35ea453d53e2bce7363425a3ae9b",
+      "bytes": 15298
+    },
+    "first-correction-degree-003": {
+      "file": "stages/first-correction-degree-003.json.gz",
+      "sha256": "5f50cb0dff88aeab1036a1e1f47cb27a38112d840662eb94c46e08b1b5813869",
+      "bytes": 20173
+    },
+    "first-correction-degree-004": {
+      "file": "stages/first-correction-degree-004.json.gz",
+      "sha256": "b63aa11d5c47f5645b2e4322c16b5d2a61a97363c591b3f49a66fa516c1e8023",
+      "bytes": 25092
+    },
+    "first-correction-degree-005": {
+      "file": "stages/first-correction-degree-005.json.gz",
+      "sha256": "4fd0e9b0b09829c8e709cc525f3d987d5a20f07d13ccf2e18bb29d982c473ee8",
+      "bytes": 29840
+    },
+    "first-correction-degree-006": {
+      "file": "stages/first-correction-degree-006.json.gz",
+      "sha256": "4fd2b3889cde56e0128b0a1f5a3b3d99f378413c6c7c39522e7d73cca2e7df93",
+      "bytes": 34835
+    },
+    "full-Fourier-norm-0_1-degree-000": {
+      "file": "stages/full-Fourier-norm-0_1-degree-000.json.gz",
+      "sha256": "8a890f4715f4da1f719853582d5c5647210eb110d54fadc4d5b057de103bd716",
+      "bytes": 721
+    },
+    "full-Fourier-norm-0_1-degree-001": {
+      "file": "stages/full-Fourier-norm-0_1-degree-001.json.gz",
+      "sha256": "208a6c3cb8930fe7798aa5be9253c51f1e583ce88da25952d07d807dc57fee81",
+      "bytes": 947
+    },
+    "full-Fourier-norm-0_1-degree-002": {
+      "file": "stages/full-Fourier-norm-0_1-degree-002.json.gz",
+      "sha256": "6115d303615168bef54f65a67ae4205e15ac1b28db7f80ef5822bf562dc457f2",
+      "bytes": 943
+    },
+    "full-Fourier-norm-0_1-degree-003": {
+      "file": "stages/full-Fourier-norm-0_1-degree-003.json.gz",
+      "sha256": "806aee068a2bdec6b79d613e7d9dc691682a8ba640e0c7a95b17b08522e7be3a",
+      "bytes": 941
+    },
+    "full-Fourier-norm-0_1-degree-004": {
+      "file": "stages/full-Fourier-norm-0_1-degree-004.json.gz",
+      "sha256": "70444bebe0f02134d920f2d849f65927d3822e2df5241a1e82ecfcb2c8447d94",
+      "bytes": 942
+    },
+    "full-Fourier-norm-0_1-degree-005": {
+      "file": "stages/full-Fourier-norm-0_1-degree-005.json.gz",
+      "sha256": "d2e04a6725c40a2cf6a8beeb2ce1bbf743ed4988acbc6bf6eacb9a045e27bd3f",
+      "bytes": 948
+    },
+    "full-Fourier-norm-0_1-degree-006": {
+      "file": "stages/full-Fourier-norm-0_1-degree-006.json.gz",
+      "sha256": "044ac9033dc82e06db07bfaa4c3f25c5cbf0c0c4156ede5fb7eca23e5f676388",
+      "bytes": 944
+    },
+    "complete-old-derivative-budget-0_1": {
+      "file": "stages/complete-old-derivative-budget-0_1.json.gz",
+      "sha256": "764e8ffbc5af823809a37e91ac04bd9d6fada1ca3ccc5c16ccd081054e675d02",
+      "bytes": 9612
+    },
+    "full-Fourier-norm-1_1024-degree-000": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-000.json.gz",
+      "sha256": "c04cdcea3916d85a9693a59ce8b8a3e1c9d792d0244c4291a653d3440ade5a81",
+      "bytes": 725
+    },
+    "full-Fourier-norm-1_1024-degree-001": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-001.json.gz",
+      "sha256": "fadfa506070353854dba4327b36aaceafa340d9ff982d3a9b74a7fe6d8e7f4bd",
+      "bytes": 955
+    },
+    "full-Fourier-norm-1_1024-degree-002": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-002.json.gz",
+      "sha256": "aa383e8a872a9954f8213e24a954c8e0aafc9dc73cd3a4931f5145a9032ca44e",
+      "bytes": 949
+    },
+    "full-Fourier-norm-1_1024-degree-003": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-003.json.gz",
+      "sha256": "eb3c586f1ffced61d098cb3128612c7c662089021c6ba9601ca71bf620bfac4a",
+      "bytes": 950
+    },
+    "full-Fourier-norm-1_1024-degree-004": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-004.json.gz",
+      "sha256": "6325b85f73494adf0e31e0716e4a5216b8f087d4c187e08a4c2eb8b3a2a42639",
+      "bytes": 951
+    },
+    "full-Fourier-norm-1_1024-degree-005": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-005.json.gz",
+      "sha256": "d0b63943f5ac89060785ae803d15659e87258866784aa28d22bd0264c53c5780",
+      "bytes": 951
+    },
+    "full-Fourier-norm-1_1024-degree-006": {
+      "file": "stages/full-Fourier-norm-1_1024-degree-006.json.gz",
+      "sha256": "fe9077b531f7205c762b7290e9cc79c6749ca5ca84b3e971561b94ee6da21a57",
+      "bytes": 953
+    },
+    "complete-old-derivative-budget-1_1024": {
+      "file": "stages/complete-old-derivative-budget-1_1024.json.gz",
+      "sha256": "7b3c4d3993bad567ed375c127c49f21189d7f51b757fee14fd2aa7d5b9c41bd5",
+      "bytes": 9595
+    },
+    "full-Fourier-norm-1_512-degree-000": {
+      "file": "stages/full-Fourier-norm-1_512-degree-000.json.gz",
+      "sha256": "edf0c59a4d78b539591a33814e9f66f262481c39a3c27cce7513ec0c30ae44a2",
+      "bytes": 721
+    },
+    "full-Fourier-norm-1_512-degree-001": {
+      "file": "stages/full-Fourier-norm-1_512-degree-001.json.gz",
+      "sha256": "152f69eea18664cc1455f7d0047aad84830d6dd76fc2e6e54f0ce494f87a7653",
+      "bytes": 950
+    },
+    "full-Fourier-norm-1_512-degree-002": {
+      "file": "stages/full-Fourier-norm-1_512-degree-002.json.gz",
+      "sha256": "218c12bbb54e892552b3d6abddc88ddc7665ccdfa7518b70a77fdc3f50b553ac",
+      "bytes": 948
+    },
+    "full-Fourier-norm-1_512-degree-003": {
+      "file": "stages/full-Fourier-norm-1_512-degree-003.json.gz",
+      "sha256": "2f2b080a16b0e9a18078b7bfa55866a0957f34ef7e1cba9d57befabd9b93ef99",
+      "bytes": 945
+    },
+    "full-Fourier-norm-1_512-degree-004": {
+      "file": "stages/full-Fourier-norm-1_512-degree-004.json.gz",
+      "sha256": "0ef0978e0400b035b92d7216fefdd694e9fc84f8ffc20dfaa4458a5139495dab",
+      "bytes": 951
+    },
+    "full-Fourier-norm-1_512-degree-005": {
+      "file": "stages/full-Fourier-norm-1_512-degree-005.json.gz",
+      "sha256": "ba61723b0bea51d3cb47ccaf255232b26f242f1b949bdc2f4323a5085543026f",
+      "bytes": 953
+    },
+    "full-Fourier-norm-1_512-degree-006": {
+      "file": "stages/full-Fourier-norm-1_512-degree-006.json.gz",
+      "sha256": "1cb2a06396ae417b5a5ff58931cc4b898815b150ae5f1b267bdfb5d98bd7c221",
+      "bytes": 946
+    },
+    "complete-old-derivative-budget-1_512": {
+      "file": "stages/complete-old-derivative-budget-1_512.json.gz",
+      "sha256": "16c7d2f540fd9d38b6340b96289e45a8e7a54c9e3fcd174d4045ac2b20c9a189",
+      "bytes": 9589
+    }
+  },
+  "recovery": {
+    "original75_stage_files_copied_byte_identically": true,
+    "new_stage_names_disjoint_from_original75": true,
+    "original_and_new_stage_provenance_checked_separately": true,
+    "strict_same_new_source_manifest_runtime_for_resume": true,
+    "new_unstored_helpers_saved_independently": true,
+    "mathematical_success_distinguished_from_publication_failure": true,
+    "large_natural_files_preserved_in_original_public_Actions_artifact": true
+  },
+  "scope": {
+    "complete_non_circular_Fourier_outputs_and_mean_retained": true,
+    "same_complex_delta_without_conjugation": true,
+    "all_original_physical_seams_and_independent_mean_equations_retained": true,
+    "original_old_circle_I_J_or_full_mean_source_budget_paid": false,
+    "complete_strong_return_or_full_inverse_claimed": false
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-old-rho-first-Airy-Taylor-CI-inputs.json",
+      "bytes": 10222,
+      "sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-true-root-missing-intrinsic-jets-CI-inputs.json",
+      "bytes": 23931,
+      "sha256": "d367fdee726240d487e9f4aebd56b120c82a0e2befdd9430b0f787691b8e4b7a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+      "bytes": 20319,
+      "sha256": "84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json",
+      "bytes": 46443,
+      "sha256": "855730f8bf86d04c6cc7622e1881f9fc29a2af754694dfaf5dad16012b98544e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+      "bytes": 52843,
+      "sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json",
+      "bytes": 48844,
+      "sha256": "eebbbf37419729069c28ef3cd7c7d34f02154b8c391b0cfa9ca093de8855a356"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/complete-local-operator-series.json.gz",
+      "bytes": 198895,
+      "sha256": "2361459d324b9de0cfe2d53e06ad5f168d91110e72ac920c28fdc779e2fd87f2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/complete-normalized-transport-coefficients.json.gz",
+      "bytes": 426441,
+      "sha256": "ff6e78959bdd6c07076ef1bf2f6d4864ea24751d37715e63f907e39bcca12cce"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/complete-old-derivative-budget-0_1.json.gz",
+      "bytes": 9612,
+      "sha256": "764e8ffbc5af823809a37e91ac04bd9d6fada1ca3ccc5c16ccd081054e675d02"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/complete-old-derivative-budget-1_1024.json.gz",
+      "bytes": 9595,
+      "sha256": "7b3c4d3993bad567ed375c127c49f21189d7f51b757fee14fd2aa7d5b9c41bd5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/complete-old-derivative-budget-1_512.json.gz",
+      "bytes": 9589,
+      "sha256": "16c7d2f540fd9d38b6340b96289e45a8e7a54c9e3fcd174d4045ac2b20c9a189"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-000.json.gz",
+      "bytes": 4421,
+      "sha256": "c51b07ca3bd78422f4655070f18e1d760aca9953423999fce94737a04ebc567e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-001.json.gz",
+      "bytes": 10387,
+      "sha256": "35a459b6ed8f047adde8f6b34dd527a34dbdbc22fc4fe812ffc31722a12283e2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-002.json.gz",
+      "bytes": 15298,
+      "sha256": "5ee0693759865d7f57084c55afad785c61eb35ea453d53e2bce7363425a3ae9b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-003.json.gz",
+      "bytes": 20173,
+      "sha256": "5f50cb0dff88aeab1036a1e1f47cb27a38112d840662eb94c46e08b1b5813869"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-004.json.gz",
+      "bytes": 25092,
+      "sha256": "b63aa11d5c47f5645b2e4322c16b5d2a61a97363c591b3f49a66fa516c1e8023"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-005.json.gz",
+      "bytes": 29840,
+      "sha256": "4fd0e9b0b09829c8e709cc525f3d987d5a20f07d13ccf2e18bb29d982c473ee8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/first-correction-degree-006.json.gz",
+      "bytes": 34835,
+      "sha256": "4fd2b3889cde56e0128b0a1f5a3b3d99f378413c6c7c39522e7d73cca2e7df93"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-000.json.gz",
+      "bytes": 493,
+      "sha256": "a2778840c3443b4b4d659917565b4cac313eaa8b6ca021f484df8df8f407ba97"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-001.json.gz",
+      "bytes": 4711,
+      "sha256": "7c50f51da47ad3618e75a605ebff9138c497f1844264034c38bb4fa9bcfbae0c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-002.json.gz",
+      "bytes": 8261,
+      "sha256": "c7d79aac477b6ee2f91b25757843fcf6a4099d5c924b517ff24d4b3addd07ccc"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-003.json.gz",
+      "bytes": 12943,
+      "sha256": "def89dfb5587be6021eb273ff2b73261c20f56907afd4942b9f90f5ea1fb4354"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-004.json.gz",
+      "bytes": 17935,
+      "sha256": "5a645262d6c974a3e2f79a89a1c535e662da9ed1ced211b3ec3a24661e4325fe"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-005.json.gz",
+      "bytes": 22962,
+      "sha256": "1d6c7cf5a447009a48591b657fa6727909b26ba8a443bf3d734302c9ef4335fc"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-006.json.gz",
+      "bytes": 27916,
+      "sha256": "252e44b55af435edf39be6627bd96576b19c51735b6c28dd8a7d012de678d6a4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-007.json.gz",
+      "bytes": 32776,
+      "sha256": "8bc5f37614c9c59c24e5e0bf6e2830ec6cb8f820f46c5c9575bc9d515ea6c7f4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/fold-degree-008.json.gz",
+      "bytes": 37724,
+      "sha256": "87e8520848581fb32698ecf00ff688a002f905bc4ca009064bab7631ab1308ff"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-000.json.gz",
+      "bytes": 15497,
+      "sha256": "8165351ceb3b2e84200201cb5829c3b25e2fc072a8cda6d29390c4e3aad8d2af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-001.json.gz",
+      "bytes": 25208,
+      "sha256": "b66d40db793a496b2dc8e4cf932ebde0feeafa8c6a3e230af282a485138fbfa5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-002.json.gz",
+      "bytes": 35302,
+      "sha256": "277ba89907ad9812162a16c98ac620164185a01c967814c5c0057845ddb0bdd3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-003.json.gz",
+      "bytes": 45280,
+      "sha256": "36781f1663cd3d463bdca60d61f45fad1f3c5e27d6212647734a4888da518fe0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-004.json.gz",
+      "bytes": 55082,
+      "sha256": "97afa59e75df1de7811951b1d76ab98bbf0ed77944b34abdd8c29d0856085edb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-005.json.gz",
+      "bytes": 65192,
+      "sha256": "221d4573da31f2227ee06eb2579273085ed28f68e838314fbf0351d6f587a54e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/forcing-degree-006.json.gz",
+      "bytes": 74683,
+      "sha256": "02e84ecb1b9925189623404b88201c6ff951fd0e0accd5a2fe025f6a9cd8fdc1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-000.json.gz",
+      "bytes": 721,
+      "sha256": "8a890f4715f4da1f719853582d5c5647210eb110d54fadc4d5b057de103bd716"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-001.json.gz",
+      "bytes": 947,
+      "sha256": "208a6c3cb8930fe7798aa5be9253c51f1e583ce88da25952d07d807dc57fee81"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-002.json.gz",
+      "bytes": 943,
+      "sha256": "6115d303615168bef54f65a67ae4205e15ac1b28db7f80ef5822bf562dc457f2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-003.json.gz",
+      "bytes": 941,
+      "sha256": "806aee068a2bdec6b79d613e7d9dc691682a8ba640e0c7a95b17b08522e7be3a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-004.json.gz",
+      "bytes": 942,
+      "sha256": "70444bebe0f02134d920f2d849f65927d3822e2df5241a1e82ecfcb2c8447d94"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-005.json.gz",
+      "bytes": 948,
+      "sha256": "d2e04a6725c40a2cf6a8beeb2ce1bbf743ed4988acbc6bf6eacb9a045e27bd3f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-0_1-degree-006.json.gz",
+      "bytes": 944,
+      "sha256": "044ac9033dc82e06db07bfaa4c3f25c5cbf0c0c4156ede5fb7eca23e5f676388"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-000.json.gz",
+      "bytes": 725,
+      "sha256": "c04cdcea3916d85a9693a59ce8b8a3e1c9d792d0244c4291a653d3440ade5a81"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-001.json.gz",
+      "bytes": 955,
+      "sha256": "fadfa506070353854dba4327b36aaceafa340d9ff982d3a9b74a7fe6d8e7f4bd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-002.json.gz",
+      "bytes": 949,
+      "sha256": "aa383e8a872a9954f8213e24a954c8e0aafc9dc73cd3a4931f5145a9032ca44e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-003.json.gz",
+      "bytes": 950,
+      "sha256": "eb3c586f1ffced61d098cb3128612c7c662089021c6ba9601ca71bf620bfac4a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-004.json.gz",
+      "bytes": 951,
+      "sha256": "6325b85f73494adf0e31e0716e4a5216b8f087d4c187e08a4c2eb8b3a2a42639"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-005.json.gz",
+      "bytes": 951,
+      "sha256": "d0b63943f5ac89060785ae803d15659e87258866784aa28d22bd0264c53c5780"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_1024-degree-006.json.gz",
+      "bytes": 953,
+      "sha256": "fe9077b531f7205c762b7290e9cc79c6749ca5ca84b3e971561b94ee6da21a57"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-000.json.gz",
+      "bytes": 721,
+      "sha256": "edf0c59a4d78b539591a33814e9f66f262481c39a3c27cce7513ec0c30ae44a2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-001.json.gz",
+      "bytes": 950,
+      "sha256": "152f69eea18664cc1455f7d0047aad84830d6dd76fc2e6e54f0ce494f87a7653"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-002.json.gz",
+      "bytes": 948,
+      "sha256": "218c12bbb54e892552b3d6abddc88ddc7665ccdfa7518b70a77fdc3f50b553ac"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-003.json.gz",
+      "bytes": 945,
+      "sha256": "2f2b080a16b0e9a18078b7bfa55866a0957f34ef7e1cba9d57befabd9b93ef99"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-004.json.gz",
+      "bytes": 951,
+      "sha256": "0ef0978e0400b035b92d7216fefdd694e9fc84f8ffc20dfaa4458a5139495dab"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-005.json.gz",
+      "bytes": 953,
+      "sha256": "ba61723b0bea51d3cb47ccaf255232b26f242f1b949bdc2f4323a5085543026f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/full-Fourier-norm-1_512-degree-006.json.gz",
+      "bytes": 946,
+      "sha256": "1cb2a06396ae417b5a5ff58931cc4b898815b150ae5f1b267bdfb5d98bd7c221"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-a0.json.gz",
+      "bytes": 80591,
+      "sha256": "8db5ceaafad9bf5fd99fca4d325b186aceeb6e3c06a48be6bbb1db38a78fc683"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-B_minus.json.gz",
+      "bytes": 80612,
+      "sha256": "8d76fb11b91e8c528472509184cef8ff69ea4c895899c4075695abb4723e445b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-B_plus.json.gz",
+      "bytes": 80608,
+      "sha256": "04f8d570f08d3dc12b48413f1de02a18f6e0c5f16f8a074ff734639b71b3096b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-b0.json.gz",
+      "bytes": 61978,
+      "sha256": "712b1b252b569b9f0a120a91d4dc6128cd4bb5807082b4b5c5ba08e851e02171"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-EG.json.gz",
+      "bytes": 628,
+      "sha256": "c9c8b5029fe9519ee70587b47bf37c78d6d6fe0c9b7fcbb39517f573230eb1a8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-G.json.gz",
+      "bytes": 80489,
+      "sha256": "65ed2a948486f338156c261624b3e708d217549f37aabd71aff1b525263d5c85"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-mu_inverse.json.gz",
+      "bytes": 80700,
+      "sha256": "04676296651f55ef802fe1114201a460741486d8b992835b9b887f22d9d251a7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-mu.json.gz",
+      "bytes": 80258,
+      "sha256": "8a7e39ec810f458e89941ec5cb4aeaa990d38dd12d47929124874a876e07cc43"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-Q.json.gz",
+      "bytes": 80521,
+      "sha256": "0aa0da3c5260ebab0f64afaf0df07eab854988a9a630260714a783ef1c21d523"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-T.json.gz",
+      "bytes": 62096,
+      "sha256": "7be8b1c013adc7d23f08db629816078b6cb2b43a846c6d9a9704a5bddee62ab5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/leading-complete-Xp.json.gz",
+      "bytes": 80704,
+      "sha256": "30b3a923dee052fbf80131e9de352dd32f8a14757db30b8291395a427a9d3389"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-000.json.gz",
+      "bytes": 8098,
+      "sha256": "3fdf9257996d22743d5d00d7dba26988c8182de56e9d103f51392fdeb52eb50a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-001.json.gz",
+      "bytes": 12855,
+      "sha256": "182dc12d979f920763d89adf41790144e3b9cd7bf313ebea0c4732f4a4100f9b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-002.json.gz",
+      "bytes": 17856,
+      "sha256": "75d69375fa0197e2d9428f7d644ecf1c7b0af008014ed65be5c551a0816c8ce8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-003.json.gz",
+      "bytes": 22741,
+      "sha256": "537a143f3a31c518d845487fcacaaff25402e2d9114b03027e0871d9e7def6bd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-004.json.gz",
+      "bytes": 27768,
+      "sha256": "42ecae4102e521cdc7a2ada3ac098fefc387ebab9f82fe3c637faffe5edfa2ca"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-005.json.gz",
+      "bytes": 32599,
+      "sha256": "cd630f10dd89f1fe776c62b32470a934ec6182143a4f8910a1d1f320d958a490"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/normalized-forcing-degree-006.json.gz",
+      "bytes": 37545,
+      "sha256": "e41ea6dea01cc72d56b37d308279b5ce1659237c4c1f245162a3e5e6b062e906"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-000.json.gz",
+      "bytes": 4445,
+      "sha256": "df91d38f9f6158873c62fab1190c73d504dbfe1cb8a367733353af6ddf6f602a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-001.json.gz",
+      "bytes": 10476,
+      "sha256": "975a575e3ef4743e5dee3d8e08e77665a6df0cf77c9e200b3aae3c66e8fdb117"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-002.json.gz",
+      "bytes": 15297,
+      "sha256": "aeef4b0b7f5675f587ca10f88e9132666770445e995ac4545037eeeda41bfe0a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-003.json.gz",
+      "bytes": 20352,
+      "sha256": "16195a5e231f9cc43150cef4e3483e74f3f8792e31a98cdc8bacf7cc7cebf50d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-004.json.gz",
+      "bytes": 25160,
+      "sha256": "00ee802e1cb5eeb0726f23367f18cfb71c8160c6a037e9a22dce942e0d3d738c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-005.json.gz",
+      "bytes": 30091,
+      "sha256": "2cd8573b1a44eb193ffa90126151c3d66e4f28261c6d0eb9c6f615c665213ee7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/stages/transport-degree-006.json.gz",
+      "bytes": 35105,
+      "sha256": "1ab3926fdcfe073f492e2fda2034d2e2442052998407e8f23764bd69e25ab666"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/process.json",
+      "bytes": 41444,
+      "sha256": "c7ff69243d3f724f539cd0ee95c2b0ba219caa5ffba47ff9b084387255e78e5b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_root_missing_intrinsic_jets_ci/run-43661471951-1/consumers/true-root-missing-intrinsic-jets.json.gz",
+      "bytes": 619835,
+      "sha256": "ec702cffb8d1dcb25cdb01eaa89127b1f0044ae1cd3cee9e6e293e8165250480"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md",
+      "bytes": 7979,
+      "sha256": "8bf949ce602ecd2dfa23ded74a78d01aa8b75881b5ccf9a5905a46512f105862"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension_CI.py",
+      "bytes": 13051,
+      "sha256": "c563cd2a25fbccdc8a2d99ad965c51e34128ce5f8c9c41431dac5be16d97e67f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_extension.py",
+      "bytes": 53507,
+      "sha256": "42048094f7c5e0ba3b83f10e9e6fcbc5cd4c5b3d67057f69241409a5a4be87a1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor.py",
+      "bytes": 42441,
+      "sha256": "e4ccbf4b343623d74d089f79b6605a0601975c6ea5c1d2e113bad568fe60167d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_intrinsic_jets.py",
+      "bytes": 35811,
+      "sha256": "a3ff4be3d252dbbc5571924b36927760ace54db91b5e00477749b2f97ba9ace7"
+    }
+  ]
+}

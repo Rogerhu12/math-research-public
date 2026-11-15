@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 十二阶 old-rho 第一 Airy Taylor 的仅追加计算入口（2026-11-15）**：89pin五件消费原75自然stage与高根0..15；SCI42048094…只补leading9..14、forcing/w1 7..12、18个范数行和三个N12预算。原六阶/258 cubic/所有FFT与辅助域均逐字保，完整新旧stage有独立身份和续接检查。见 [合同](results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md)；这是公开Actions执行入口，尚非实际数值改进。
+
 - **R133 计算入口：精确根值剥离后的完整有向导数与 local 源。** 25个仓库文件及9个原artifact文件逐SHA冻结；原7个 normalized-forcing stage直接恢复，新7norm/1forcing尾/6profiles/4359标量行只消费已成数据。SCI `3e3bd6b66a90c1244c9b97f0e07d6cd5e15845780f80c87aee8912a41008f139`，manifest `5158bc631e1cbf3eddea6b6ad1a2e28ac2e782eea1f94da5970f1ac7c3e1c426`。完整均值与真接缝保，负实δ和正optical路径分核；实际新数值尚待run。
 
 - **R133 实际失败与最小恢复：伴随浮点网格选片。** [恢复记录](notes/2026-11-15-R133-adjoint-proposal-float-knot-recovery.md)核首run43662395328 child1/两成功输入门/0QR；原完整标量选点与失败字节保存。v2仅按格左端选原candidate片，原两端门不变，253pins保原247零变化；新runner从原artifact恢复已成selected数组，未重算原target或QR。
