@@ -67,7 +67,7 @@
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py"
   ],
   "files": {
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional.py": "d5f91e7a3b2d981366f659b2777f60b525df5bf3c2d40077e4419477a2c0989b",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional.py": "bd148b48a019b705cd140212e7134f91f3a71e4418544ad7b9c1da237a0bfe62",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_radial_moments.py": "8103ca4a856a92fd98923ed518e9241c2bc8332f087550017e58ba7933d2c0d0",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_original_inputs.py": "a7c099608ec6ef1504a1d30b9cabbe9232bdd1dfd0390e28bbfd9fc836772ad0",
     "topics/visible-flex-exact-nearby/results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md": "927c3ba2ada01e1a571ce4d180c7d1e41ac25b1dda273cc6aef90511d40b9583",
@@ -95,9 +95,9 @@
     {
       "role": "source",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional.py",
-      "blob": "92ec4392bd5d3e56d5acb10fc616a3a7e0e5718a",
-      "bytes": 41640,
-      "sha256": "d5f91e7a3b2d981366f659b2777f60b525df5bf3c2d40077e4419477a2c0989b"
+      "blob": "43baddb1f30964d38d24602ae9f9c2cb8591c1c6",
+      "bytes": 44167,
+      "sha256": "bd148b48a019b705cd140212e7134f91f3a71e4418544ad7b9c1da237a0bfe62"
     },
     {
       "role": "math_helper",
@@ -256,7 +256,7 @@
     }
   ],
   "exact_small_text_input_file_count": 23,
-  "exact_small_text_input_bytes": 448649,
+  "exact_small_text_input_bytes": 451176,
   "historical_native_receipts": [
     {
       "role": "candidate_shard_0",
@@ -339,7 +339,8 @@
     "M_contract": "8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b",
     "original_core_source": "689bf2c54350d832cffa7ca8f46dc424509fb221e3d73cb228a1f9a18130c0dc",
     "original_body_source": "6b3a47a54386171b2c659c776bbfeff52ae0ebe4456ced5b67350f7eabf48a8d",
-    "plan": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32"
+    "plan": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
+    "body_process": "d28959027cc8a3692a7747fdf333a4d1d47a975dd35f26b850ddd78114a64ea5"
   },
   "original_object_identity_sha256": "df9844506e25bdd207472fd8f5f7e9fbfaf90514c2e1a3629be2e5594eb25ca0",
   "old_artifacts": {

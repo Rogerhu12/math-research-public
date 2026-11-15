@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **SC 旧finish身份链的最小修复已部署。** 在已发表首失败62bdfc64后，SCIbd148b48/manifest5113a116/flowb2f8d3fd仅修输入第6门；literal finish schema、同plan、原成功process、完整native和唯一summary receipt五子项齐。原plan OBJECT仍严核，boundary/RW/cut、helper/reader/worker及body_run后数学全原字。23小pin451176B/8AST/20门设计；不重任何旧成功数学，新97目标待实际。
+
 - **SC 首实际失败已完整保存并定位。** [实际记录](results/R133-supplement-actual-signed-cap-input-schema-failure-and-preserved-evidence.md)62bdfc64：43752221411/1 child1、5/6到达门。旧finish summary顶层object hash是null，新门误套plan schema；准确plan/process/native/summary链root与peer已核。完整SCI2e152b08/preGit9efcfe20/process6a1b95d0与日志逐字一致，32Git/8AST/36archive；新group/model0、无已成新数学丢失。保留失败后作最小schema修复，不改已成功旧预算。
 
 - **TN 完整同cut两窗正规化 consumer 部署。** SCI4dbc776b/worker9dcab916/manifest9e568840/flowcf8cbe33：17固定输入11862488B、5AST/16门设计。root核全文/12现存小pin和历史/唯一旧archive；只新完整S/S2、97原测试与共同J/强余项，RR原四列及同case总×K0一次。有限HL/LH/mean全留；实际数值待唯一自然公开run，真phase/incoming/finiteSchur/全R0仍独立。

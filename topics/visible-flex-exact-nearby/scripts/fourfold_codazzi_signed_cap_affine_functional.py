@@ -37,6 +37,7 @@ PINNED={
  "SA_contract":"85e07aba2d895c160be6c307da9ff0740fb817bbad6f3813d0acf3242e0f35d1",
  "SC_contract":"927c3ba2ada01e1a571ce4d180c7d1e41ac25b1dda273cc6aef90511d40b9583",
  "body_summary":"ca1411120265fac503eba147289da621634cc98304766aa56dfb6da80b5180df",
+ "body_process":"d28959027cc8a3692a7747fdf333a4d1d47a975dd35f26b850ddd78114a64ea5",
  "boundary_summary":"be014360bf6d2915e8a9323d0d262b10c4cf4ffa364f703b7b7f02122c95e1a5",
  "RW_science":"ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9",
  "RW_process":"daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6",
@@ -190,8 +191,43 @@ def checked_inputs(a,doc):
             and all(c.get("actual_returncode")==0 for c in process["children"])
             and all(g.get("passed") is True for g in process.get("actual_scientific_gates",[]))):
             raise ValueError("one old public scientific result is not its complete successful execution")
+    # The original finish summary has a literal null top-level object hash.
+    # Its exact producer writes the full object in the native and its plan SHA
+    # here; the reviewed process binds this summary and that native together.
+    # Keep original_plan()'s strict non-null OBJECT gate above.
+    bp=read(paths["body_process"])
+    summary_receipts=[x for x in bp.get("native_files",[])
+        if x.get("logical_file")=="evidence/complete-adjoint-Grams-finish-summary.json"]
+    finish_native="4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43"
+    legacy_checks=dict(
+        literal_legacy_finish_schema=(
+            body.get("kind")=="actual_complete7908_same_proposal_physical_adjoint_residual_Grams_v1"
+            and body.get("phase")=="finish" and "object_identity_sha256" in body
+            and body["object_identity_sha256"] is None),
+        same_exact_original_plan=all(x==original.PLAN for x in (
+            body.get("plan_native_sha256"),body.get("actual_input_sha256",{}).get("plan"),
+            bp.get("plan_native_sha256"),bp.get("actual_input_sha256",{}).get("plan"),
+            bp.get("exact_recovery_scope",{}).get("plan_native_sha256"))),
+        exact_successful_finish_process=(
+            bp.get("kind")=="actual_public_complete7908_cap_adjoint_Gram_process_v1"
+            and str(bp.get("run_id"))=="43665656138" and str(bp.get("run_attempt"))=="1"
+            and bp.get("phase")=="finish" and bp.get("complete") is True
+            and bp.get("complete7908_adjoint_cover_proved") is True
+            and bp.get("exact_recovery_scope",{}).get("source_sha256")==PINNED["original_body_source"]
+            and bp.get("exact_recovery_scope",{}).get("original_proposal_native_sha256")==
+                source_object["actual_proposal_native_sha256"]
+            and len(bp.get("children",[]))==1
+            and bp["children"][0].get("label")=="complete7908_same_object_signed97_ordinary_adjoint_Gram_union"
+            and bp["children"][0].get("actual_returncode")==0),
+        exact_finish_native_binding=all(x==finish_native for x in (
+            body.get("native_sha256"),bp.get("complete_native_sha256"),
+            bp.get("latest_scientific_native_sha256"))),
+        exact_summary_receipt=(len(summary_receipts)==1
+            and summary_receipts[0].get("bytes")==7982
+            and summary_receipts[0].get("sha256")==PINNED["body_summary"]))
+    doc["legacy_complete_body_identity_checks"]=legacy_checks
     gate(doc,"old complete formal field endpoint and value certificates have the same object",
-         full(body) and body.get("object_identity_sha256")==original.OBJECT
+         full(body) and all(legacy_checks.values())
          and body.get("complete_quarter_count")==7908
          and body.get("complete7908_adjoint_cover_proved") is True
          and full(boundary) and boundary.get("exact_true_endpoints")==["9/10","25/8"]
