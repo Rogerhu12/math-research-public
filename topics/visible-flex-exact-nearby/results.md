@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 补充 Q1–16：真实全δ外帽逆的高阶 Sobolev 窗口](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md)：辅助 shift M=2^416 已使 commutator<2^-15，将同一完整真外帽源逆扩到−3/2≤s≤8212；原物理高度输入在Hs+2，完整增益<2^4194304、反射moving读出<2^4718592。无新数值，仍保全部mean/height/jump/真外行。
+
 - [R119 补充 B1–31：有限径向两根首相位及固定第二参数间隙](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md)：piecewise Ct4 H8196 子域内的真实密度 Hadamard 有限部等于几何返回首相位；正侧只用实 Taylor 图并付完整 y³ principal residual。固定已知成员的第二参数后，全层全非mean模型仍有>1/(256N_i|n|)间隙。全层余项、实际中低窗和变化背景逆仍待付。
 
 - [R133 实际整片域：43680556665/1](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md)：child0/15门，2547/2551整片都在原germ/Rg/RHO/RC，五片真节点full65/full193一致。新比较0.039724915秒、0旧数学；可继续非零入口完整源比较，未授新源界/强返回。

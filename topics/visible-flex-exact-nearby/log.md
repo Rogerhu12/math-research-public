@@ -33,3 +33,9 @@ root逐式核B6–9的s=x^-1/4 h展开、两Taylortrace扣除及FP，B10真实S�
 root核B21–23正侧有限Taylor图的完整principal误差y³，补真实normal-trace Ai幅度λ^-1/3：最坏y³λ²项完整L²_y为λ^-2/3，再source H^-2/3给4/3增益；cross/yy更好，全部Ai导数平方矩保。绝不复角求有限光滑背景。B31四次径向导对四态实际需第五角导，最终保五个1/8余宽。全层beta/γ1真实费用按原三段profile求和，固定已知γ2得模型比<2^-2980000及所有n gap；不删除第二metric外部方向。
 
 final26144B/SHA8dc64a91cce46c09e73078c89f4b42557e5cc38eddba04caeb548aa0f7a89e67。每分量4/3有限常数存在不等于全层closed Schur，变化背景逆/smoothing仍缺，真实L仍为J减O残差项。无新数值。freshmain 94c0b45f0e6b91471c9422c79ebdfa9c98c83adb两README未变，继续实际全层余项。
+
+## 2026-11-15 05:32:55 UTC — 正帽真外逆高阶有限Sob窗口已推
+
+root沿原X准确方程，保body+outer同一基逆；已付complexlag B2^129/σ2^-128不随s改变。改证明辅助M2^416，|s|≤8212使τ<2^-403，8Bτσ^-2<2^-15；real3/8加后<1/2。source shifted仍2^260，普通权只一次M^|s|。
+
+原真实角图Faà di Bruno按q≤8220、q!<2^(14q)重新付，composition与密度各2^262144，全负阶/插值2^524288。source指数416·8212+260+524288<4194304；原完整H及moving实角链式总2^(123q/2+73)<2^524288，读出<2^4718592。全mean/jump/height/physical fB Hs+2/真long行/R0 Hessian保；没有新数值或新物理对象。freshmain 9b7f7b21eb472ed49642c0ed5837240c3ad76763两README未变，继续明确附近body球与非线性外行。

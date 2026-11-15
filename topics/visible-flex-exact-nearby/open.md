@@ -139,3 +139,7 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 [B1–31](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md)把两根完整密度 finite part 写成两项准确扣除+普通可积余项；实Fuchsian图保Piola，正侧Taylor图保y³全部principal残差/normal-trace Ai幅度λ^-1/3，给几何J真实首相位。只在明确weighted piecewise Ct4 H8196子域内；根Q/x到四阶由原真实polynomial germ另付，不从一般C4 profile推断。固定已知成员γ2，仍由P真实firstΓ保持ω，完整模型Δβ比<2^-2980000，gap>1/(256N_i|n|)，两mean不代β/n。
 
 下一付同一域全层4/3余项、真实高低列/中低选择和帽反馈；不能从每个分量有限常数推closed inverse。O的真实L−J残差差、+ψN及两mean/height仍保。旧解析成员≤2^133000X进此域；R Y64校正仍无自动Ct4/H8196输入，必须另做radial/angular smoothing与tame inverse。
+
+### 正帽有限角窗口现已覆盖8196及额外重建角余量
+
+[Q1–16](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md)从原同一analytic operator family改辅助M=2^416，signedlag差<2^-15/shift逆<2，将完整真外帽全realδ源inverse扩至s8212。物理fB Hs+2/密度均付2^524288，总source<2^4194304/moving读出<2^4718592。下一建立M_s附近body状态球及真实非线性外图；没有把ordinary L²源升级Ct4，也不把显式Qδ逆自动套给有限Sob未知背景。
