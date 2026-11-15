@@ -1,0 +1,101 @@
+{
+  "actual": {
+    "artifact_id": 14145249554,
+    "artifact_name": "visible-mainline-smallcoreresonance-43674264245-1",
+    "artifact_zip_bytes": 620340,
+    "artifact_zip_sha256": "16bb4f5542472de72a5d03ef72fc5da113c925de844ff4fbd8a7856f17662d37",
+    "job_conclusion": "success",
+    "job_id": 132690828561,
+    "run_id": 43674264245,
+    "source_commit": "8adc3251a8fe2ee7bcbc5d6d8381631b1558141e"
+  },
+  "all_checks_passed": true,
+  "byte_audit": {
+    "bytes": 48333,
+    "file": "2026-11-15-actual93-byte-audit.json.gz",
+    "sha256": "a0a40d45d4691dee5e85f76a3a5213562be128d9fa79b2e1b264863cc39b69a2"
+  },
+  "check_count": 5785,
+  "counts": {
+    "checked_array_identities": 164,
+    "complete_mathematical_input_payloads_locally_verified": 0,
+    "consumed_source_files": 13,
+    "event_kind_counts": {
+      "original_evaluate_return": 692,
+      "original_jacobian_return": 93
+    },
+    "inner_accepted_updates": 76,
+    "inner_original_J_records": 91,
+    "inner_outcome_counts": {
+      "actual third unit residual meets tolerance with finite nonzero original J33": 1,
+      "all inner backtracks failed original domain or strict actual abs(d3) decrease": 14
+    },
+    "inner_trial_records": 361,
+    "local_inventory_files": 29,
+    "local_transport_markers": 1,
+    "original_actual_call_counters": {
+      "complex_evaluation_attempts": 279,
+      "description_attempts": 2,
+      "evaluation_attempts": 692,
+      "evaluation_exceptions": 0,
+      "evaluation_returns": 692,
+      "jacobian_attempts": 93,
+      "jacobian_returns": 93,
+      "real_evaluation_attempts": 413
+    },
+    "original_artifact_members": 28,
+    "original_events": 785,
+    "original_exception_counts": {},
+    "original_inner_reports": 15,
+    "original_mathematical_inputs": 4,
+    "outer_accepted_updates": 8,
+    "outer_iterations": 8,
+    "outer_trial_records": 15,
+    "requested_source_files": 72,
+    "restored_public_source_receipts": 78,
+    "same_input_payloads_previously_verified_in_actual92": 4,
+    "scalar_leaf_records": 1091
+  },
+  "diagnostic_completed": true,
+  "limitations": [
+    "No SVD/Schur/merit/root/RHS/J/interval calculation was repeated.",
+    "Only declared stored sources/values and full current-point aliases were checked.",
+    "The same four mathematical input payloads were fully audited in actual92; no second local download or Git operation was made.",
+    "The restored78 public-source entries are original Actions receipts matched to the frozen source manifest, not a second payload restoration.",
+    "This is provenance and byte evidence, not an extra candidate or BVP gate."
+  ],
+  "literal_readout": {
+    "bytes": 87410,
+    "file": "2026-11-15-actual93-literal-readout.json.gz",
+    "sha256": "20d1506b5466130a26ec95873bb467a4f829e3711be4d0bd2761fb552b3411c5"
+  },
+  "native_solver_called": false,
+  "no_local_scientific_recomputation": true,
+  "original_payload_copies": [
+    {
+      "bytes": 29477,
+      "decoded_bytes": 372627,
+      "decoded_sha256": "0913ea5d90ddb23bd408b33175887b5b24665fe0db8324d873bbe0b08c12a647",
+      "file": "2026-11-15-actual93-original-complete-status.json.gz",
+      "sha256": "42c3fc46b74c45729921514e9782ffc14a6ea010d6494d97074b809030dce110"
+    },
+    {
+      "bytes": 56249,
+      "decoded_bytes": 1148511,
+      "decoded_sha256": "07ccdb8ce07fd32c07cb2b8b5c75292936d7612f4e9a98af31f9026957e596ec",
+      "file": "2026-11-15-actual93-original-evaluation-ledger.jsonl.gz",
+      "sha256": "fc4cee87c95c5a45a35940e6a78ef64ad8c42de24da8f683eb157590aec1a325"
+    },
+    {
+      "bytes": 66903,
+      "decoded_bytes": 2853629,
+      "decoded_sha256": "32b077d286f245db75bbd757ec6e86dc3c0ceb5e37ef150aafa1426905624852",
+      "file": "2026-11-15-actual93-original-inner-reports.json.gz",
+      "scope": "All complete original inner JSON objects, joined without altering their numeric tokens",
+      "sha256": "b9ba959c1ce0244a7b59d8c4fa399af3cb1360328ebb3f75342c54e8dd21778c"
+    }
+  ],
+  "schema": "actual93-stdlib-original-byte-audit-summary-v1",
+  "scientific_success": false,
+  "source_sha256": "8356b2fda87ac7e42a97a5c398b95417773119eedfb56b159cab64362a296363"
+}

@@ -103,3 +103,9 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### 2A. 连续曲率输入的解析接口已补齐
 
 [R279](results/R279-finite-field-direct-continuous-curvature-certificate.md)已直接入results/index。从实际同场完整一/二阶导数给Δ、A_K、B_K全域正性，等价于曲率界并能供R241；这补R31精确等距假设与R235逐角参数控制未覆盖的一般有限场接口。共享B及材料cut复合尾不套有限θ带宽；实际K、全场接缝/浸入、包络和R241点对仍须真实输出，未预填成功或增原验收门。R248的已有相位恒等式只在其全部原前提下使用。
+
+### 1G. 实际93八次完整三方程下降；96同源续跑已回到真实原件
+
+[93完整结论](notes/2026-11-15-actual93-inexact-p3-restoration-eight-accepted-directions.md)、[原读数](notes/2026-11-15-actual93-literal-readout.json.gz)、[5785项字节审计](notes/2026-11-15-actual93-byte-audit.json.gz)及完整status/785事件/15inner原文本已保存。run43674264245/source8adc3251/job132690828561全success，无原求值异常；原full-three merit8016828215.535884→146733.11420722902，八轮均接受，alpha为1、1、1/2、1、1/16、1、1、1/4。八个接受点均未过内层1e-8近似根标记，却各自通过原完整三方程Armijo；唯一inner-roottrue的第8个探针被原outer拒绝。该标记不再充当outer资格门，最终原unit/full112/native门完全保留且当前均未通过。
+
+root全文22096B结论、八文件SHA、29原件、72真实dispatch源、15inner完整原numeric token、127057JSON节点122941浮点词均核；四完整数学输入已在92核过，不重复运输或将78原恢复回执冒第二次payload读取。96保持ce93原源、eta.1/8x20/12x20及原门，从真实93末点fresh求值；实际run43675493266/sourcec43f20db/job132694604911全success，原artifact14145702242/502765B/6ead780b已唯一下载，正按真实stop衔接，不把绿色工作流当最终求根。
