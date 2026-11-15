@@ -1,0 +1,628 @@
+{
+  "status": "completed",
+  "format": "isp-original-infinity-seventeen-small-structure-v1",
+  "original17PolynomialSpanRankOverQ": 17,
+  "quadraticSpanRankOverQ": 17,
+  "nonzeroPureLinearConstantRowCombinationExists": false,
+  "linearPartRankOverQ": 8,
+  "linearMinorRowsZeroBased": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "linearMinorColumnsZeroBased": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "linearMinorDeterminantModulo31": 5,
+  "exactLinearRightKernel": [
+    "-667173150",
+    "916517025",
+    "-1165860900",
+    "1165860900",
+    "-65750400",
+    "-4102287600",
+    "10453284000",
+    "24721136800",
+    "740643383296",
+    "0",
+    "0"
+  ],
+  "all17ExactLinearKernelIdentitiesVerified": true,
+  "linearZeroColumns": [
+    9,
+    10
+  ],
+  "quadraticMinorColumnsZeroBased": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    18,
+    27,
+    35,
+    42
+  ],
+  "quadraticMinorDeterminantModulo31": 4,
+  "twoVariableElimination": {
+    "variables": [
+      0,
+      1
+    ],
+    "equations": [
+      0,
+      1
+    ],
+    "a": "3976140916290709362426389085536120",
+    "b": "-52456775285946856587006923850175280",
+    "c": "-26228387642973428293503461925087640",
+    "d": "32717996202018440456746514772520624",
+    "delta": "-1245765273302272908122355177799944527450800804399073103351610564600320",
+    "deltaModulo31": 5,
+    "exactConstantUnitEliminationValid": true,
+    "tailPolynomialDegreeAtMost": 2,
+    "other15SubstitutedPolynomialDegreeAtMost": 4,
+    "multiplierDegreeThreeTransportsToAtMost": 6,
+    "selected4354SourceSpaceNotDiscarded": true,
+    "fixedSourceCapPreservedWithoutTransport": false
+  },
+  "allPureTangentQuadraticCoefficientsZero": true,
+  "sourcePolynomialProfiles": [
+    {
+      "equation": 0,
+      "name": "N0",
+      "linearNonzero": 9,
+      "quadraticNonzero": 16,
+      "quadraticVariables": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "squaredColumnNorm": "1128419365258237158621274362996590980901052534322477415435325030966587917550",
+      "squaredColumnNormBits": 250
+    },
+    {
+      "equation": 1,
+      "name": "N1",
+      "linearNonzero": 9,
+      "quadraticNonzero": 21,
+      "quadraticVariables": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [
+        0,
+        1,
+        2
+      ],
+      "squaredColumnNorm": "7953484129205829182641275674562533860377769789171589943183193360842560428718",
+      "squaredColumnNormBits": 253
+    },
+    {
+      "equation": 2,
+      "name": "N2",
+      "linearNonzero": 9,
+      "quadraticNonzero": 27,
+      "quadraticVariables": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [
+        0,
+        1
+      ],
+      "squaredColumnNorm": "676905472324237191713795910008120384138504198245976647222833074465698594159718",
+      "squaredColumnNormBits": 259
+    },
+    {
+      "equation": 3,
+      "name": "N3",
+      "linearNonzero": 9,
+      "quadraticNonzero": 30,
+      "quadraticVariables": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [
+        0
+      ],
+      "squaredColumnNorm": "2540982724767420655684287958821780531619379051503891386526209089435595868710132",
+      "squaredColumnNormBits": 261
+    },
+    {
+      "equation": 4,
+      "name": "N4",
+      "linearNonzero": 9,
+      "quadraticNonzero": 34,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "13664779610283420870897227699444150484298688469858521520070239478311294664304297",
+      "squaredColumnNormBits": 263
+    },
+    {
+      "equation": 5,
+      "name": "N5",
+      "linearNonzero": 9,
+      "quadraticNonzero": 34,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "2561292542423103620158870753724004124771659460760101818717497699850978889843848",
+      "squaredColumnNormBits": 261
+    },
+    {
+      "equation": 6,
+      "name": "N6",
+      "linearNonzero": 9,
+      "quadraticNonzero": 34,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "693913220401843969867073992020961335381519694932791136409994553264463875949028",
+      "squaredColumnNormBits": 259
+    },
+    {
+      "equation": 7,
+      "name": "N7",
+      "linearNonzero": 9,
+      "quadraticNonzero": 30,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "104388159360638658351107836084499882358375019553551478211221687348089332947700",
+      "squaredColumnNormBits": 256
+    },
+    {
+      "equation": 8,
+      "name": "N8",
+      "linearNonzero": 9,
+      "quadraticNonzero": 27,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "25388045138409031749069493693756999420955145115171787728320798863972035915725",
+      "squaredColumnNormBits": 254
+    },
+    {
+      "equation": 9,
+      "name": "N9",
+      "linearNonzero": 0,
+      "quadraticNonzero": 21,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "10211952877683281513072246837303340303970437160257935377838771902369635600",
+      "squaredColumnNormBits": 243
+    },
+    {
+      "equation": 10,
+      "name": "N10",
+      "linearNonzero": 0,
+      "quadraticNonzero": 16,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "14145796917319218947061877089873959435703425984220203236706331660547728000",
+      "squaredColumnNormBits": 244
+    },
+    {
+      "equation": 11,
+      "name": "Gamma0",
+      "linearNonzero": 0,
+      "quadraticNonzero": 63,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "175517651201954376568352595927197551654707124347353146288117431060041571268792",
+      "squaredColumnNormBits": 257
+    },
+    {
+      "equation": 12,
+      "name": "Gamma1",
+      "linearNonzero": 0,
+      "quadraticNonzero": 63,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "203142577078593431089239041270221110009299732834121240760567942432445180181688",
+      "squaredColumnNormBits": 257
+    },
+    {
+      "equation": 13,
+      "name": "Gamma2",
+      "linearNonzero": 0,
+      "quadraticNonzero": 54,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "21741441382409279621108325446619209233074944775210067293490755639535802952",
+      "squaredColumnNormBits": 244
+    },
+    {
+      "equation": 14,
+      "name": "Gamma3",
+      "linearNonzero": 0,
+      "quadraticNonzero": 62,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "126056342470610935291887183312280643967532437337373750728548383012484639077880",
+      "squaredColumnNormBits": 257
+    },
+    {
+      "equation": 15,
+      "name": "Gamma4",
+      "linearNonzero": 0,
+      "quadraticNonzero": 63,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "7886302764409471707866625001299012261763092969915573352468283252176496431402360",
+      "squaredColumnNormBits": 263
+    },
+    {
+      "equation": 16,
+      "name": "Gamma5",
+      "linearNonzero": 0,
+      "quadraticNonzero": 63,
+      "quadraticVariables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "constantCoefficientEliminationVariables": [],
+      "squaredColumnNorm": "15420560325446284568963204879867755430276602242313333662772474381422460883689976",
+      "squaredColumnNormBits": 264
+    }
+  ],
+  "remainingFreeSources": [
+    {
+      "slot": 17,
+      "originalSource": 4281,
+      "equation": 13,
+      "equationName": "Gamma2",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 18,
+      "originalSource": 4502,
+      "equation": 13,
+      "equationName": "Gamma2",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 19,
+      "originalSource": 4587,
+      "equation": 13,
+      "equationName": "Gamma2",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 26,
+      "originalSource": 4248,
+      "equation": 14,
+      "equationName": "Gamma3",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 27,
+      "originalSource": 4282,
+      "equation": 14,
+      "equationName": "Gamma3",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 28,
+      "originalSource": 4503,
+      "equation": 14,
+      "equationName": "Gamma3",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 29,
+      "originalSource": 1716,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 30,
+      "originalSource": 1733,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 31,
+      "originalSource": 1750,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 32,
+      "originalSource": 1767,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 33,
+      "originalSource": 1784,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 34,
+      "originalSource": 1801,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    },
+    {
+      "slot": 35,
+      "originalSource": 1818,
+      "equation": 15,
+      "equationName": "Gamma4",
+      "multiplierDegree": 3
+    }
+  ],
+  "priorObservationSources": [
+    {
+      "originalSource": 10,
+      "multiplierDegree": 0
+    },
+    {
+      "originalSource": 11,
+      "multiplierDegree": 0
+    },
+    {
+      "originalSource": 12,
+      "multiplierDegree": 0
+    },
+    {
+      "originalSource": 18,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 19,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 20,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 21,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 22,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 23,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 24,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 25,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 27,
+      "multiplierDegree": 1
+    },
+    {
+      "originalSource": 28,
+      "multiplierDegree": 1
+    }
+  ],
+  "oldFullNormalFormsRecomputed": false,
+  "oldDixonDigitsRecomputed": false,
+  "selectedCharacteristicZeroRankComputed": false,
+  "elapsedSeconds": 0.002,
+  "executionEnvironment": {
+    "kind": "functions.exec V8 exact BigInt",
+    "date": "2026-11-15",
+    "nodeWrapperExecuted": false,
+    "largeMathematicalTasksExecuted": false
+  },
+  "inputs": {
+    "point-model": {
+      "bytes": 87459,
+      "sha256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074"
+    },
+    "selected-receipt": {
+      "bytes": 75700,
+      "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+    }
+  },
+  "sourceSHA256": "0a6ecf60dc138765b9b602cec3e84439b5c65ed7354fea6bdb0c1cc8558f1402",
+  "pureFunctionSHA256": "d15cdcf2b458e4ef52d6492cb4fad95edd3e4ed72dd643adb05d3edff12cc242"
+}

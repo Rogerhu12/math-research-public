@@ -146,3 +146,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 强gauge最新准确接口
 [完整反馈与末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)已付同源左反馈、裸驱动divided-difference及真实eY；剩共同大配对<eY,q(−T0)Rret r>和全部head旗/普通末端。q_gauge不会降低λ规模，原全局M/W锚只支付锚及低远孔运输，不支付反向除B或末端修复。
+
+### 原17式精确小结构及可运输消元
+[两变量31单位消元](results/R150-appendix-original-infinity-small-linear-quadratic-blocks-and-two-unit-eliminations.md)已严格给N0/N1常系数解m0,m1、其余15式次数≤4；原次数3乘子可能变6，不能免费删除原selected范围。继续原有限来源映射及标准Koszul源的selected支撑交。39维首次仅native超时、候选0；正在同格保基后完整核验，不作负结果。
