@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:40:48 UTC 已读 d51e6497b7ea132360231e80f2f7324f42038bc4，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:42:24 UTC 已读 8d765d2d14054fb38f8a1bc9cfd8538dd85a0d0b，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -37,7 +37,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败，112/338或230列未起。v2仅修词法/类型；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s接全stage112/338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128，数学/门不变，actual唯一读。
 
-[155](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)91pins/fresh98八37model，B9805/75776角/C4059/full236036与17档保；science175/job195，trial先读再清。[166](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)97pins/同station-control身份绑定，原数学与6000/1800s保；run43734326402/132873459541/sourcec3a7531d全success，exact完整原数/R353成文中，不冒全段Hermite证书。
+[155](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)91pins/fresh98八37model，B9805/75776角/C4059/full236036与17档保；science175/job195，trial先读再清。[166](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)97pins/同station-control身份绑定，原数学与6000/1800s保；[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)43734326402/132873459541/sourcec3a7531d：原α1/8接受/FD过；全75776×17，α≤1/8仿射闭段全正，α1/4同实际12坏行；37配74真实calls，148×453点态恒等全齐，非实际整α证明。
 
 ## 同C、完整BVP及162
 
@@ -63,4 +63,4 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 九冻结450/closed/metric保全九p/K0/338+112/knots/J/FD/fullDN/audit、core/mean/材料/六jet/四Loewner/两帽/DFS；R294准确C²与R298条件clip前提不能假填。sharedB/R249、同场非零R274、全t reach/整像held/全D/真实final tail/config/port及README全部比率未付。
 
-旧133/137/124/128/138/142/139等见原结果与open截至163逐字检查点，未返call不补拒。104清理后题168796207B；不重存未知raw。丢失未推源按H来源重做；已清raw须真重算，不能凭SHA恢复。子题完继续open，真正完成前不停。
+旧133/137/124/128/138/142/139等见原结果与open截至R355的正文检查点，未返call不补拒。104清理后题168796207B；不重存未知raw。丢失未推源按H来源重做；已清raw须真重算，不能凭SHA恢复。子题完继续open，真正完成前不停。

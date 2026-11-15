@@ -129,3 +129,7 @@
 ## 2026-11-15 16:40:48 UTC /root — 167改单份紧凑原科学结论
 
 发布aa37ae12/aeefe7af/7192fd34：删五packet/数组引用协议，仅≤90KB原FD层/八方向/84trial必要字段，大J/H只身份；所有原组仍在Actions完整读。另修error=null不误标失败，未改科学/门；amplitude唯一核R350，继续R351/164。API核d51e6497b7ea132360231e80f2f7324f42038bc4双README未变，真pull保。
+
+## 2026-11-15 16:42:24 UTC /root — R353完整37仿射与点态实际结论
+
+R353 21493B/6d577be7全文核后即发：166原模型α1/8/FD过，75776×17齐、最近12坏行affine同actual，148×453恒等仅点态；整段由R354/170继续。open旧正文按仅相对链接变更存notes并合并已付状态，不丢未付责任。API核8d765d2d14054fb38f8a1bc9cfd8538dd85a0d0b双README未变，真pull保。
