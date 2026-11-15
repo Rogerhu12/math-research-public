@@ -560,3 +560,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:02 UTC /root — request152 完整128末态链与清理前全读回
 
 [五件接口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)及相对140全部差异已核：原52pins全同+3=55，helper7c6b0268/bridge0ccbc824/request9b69f497/workflow7cc94e0b。完整fresh91/64J/R273/持久128后全576×224、112、混合338及独立audit，原19200s/各cap/数学门不变；临时源码仅共同shim显式::quoted。完整summary树/全部stage与column/所有原错误字节在清理前分段，原returncode/依赖保持，不冒编译或科学成功。150 run43721616091/job132834627616已进入科学；无本地科学与raw留库。
+
+## 2026-11-15 14:02 UTC /root — R329 全持久精度改善normal但完整merit仍慢
+
+[R329全文](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)27289B/7bd6ccb2已完整核读：actual149 run43720604504/source94b13951，两job全success、15groups/128段原JSON重建27982134、chain17106B逐字同。8方向11外trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，全finalfalse；11normal均一次Newton/β1达标，仍三次外拒真增W。完整112、全部FD/投影Arb/453及真p50/半径正文保，未冒连续证书；154转完整二阶全3模型，原门不降。152已推0bee3ef1/run43722101766，两次NFF后立即rebase推成功。

@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321完整终态](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)均付原128全129248行shooting容差和576×226独立逐word replay。140 run43713195661/source242c1f02：唯一α1真接受到9.68582474751023176032080482454992093e−11，38230B/7a66911e摘要两处原字同；stage/audit各g++ return1、未进科学，boundary/338缺完整前置未起，remaining15460s不冒预算停/数学拒。原stderr正文未转发已清；固定源码确定quoted非const string的ADL冲突，[共同限定入口](notes/2026-11-15-native128-explicit-JSON-qualification-interface.md)e609fb0a已发表，五原→派生全SHA/12、9、4、49、2处逐字逆核；[152完整入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)五件/55pins已发，保完整stage/all224/112/338/audit与19200s；临时编译源仅限定::quoted，全部stage/column/原错误清理前无损分段，原exit/依赖不改。[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)入口已修；144完整cut输入由R322付。
+[133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321完整终态](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)均付原128全129248行shooting容差和576×226独立逐word replay。140 run43713195661/source242c1f02：唯一α1真接受到9.68582474751023176032080482454992093e−11，38230B/7a66911e摘要两处原字同；stage/audit各g++ return1、未进科学，boundary/338缺完整前置未起，remaining15460s不冒预算停/数学拒。原stderr正文未转发已清；固定源码确定quoted非const string的ADL冲突，[共同限定入口](notes/2026-11-15-native128-explicit-JSON-qualification-interface.md)e609fb0a已发表，五原→派生全SHA/12、9、4、49、2处逐字逆核；[152完整入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)五件/55pins已发0bee3ef1/run43722101766，保完整stage/all224/112/338/audit与19200s；临时编译源仅限定::quoted，全部stage/column/原错误清理前无损分段，原exit/依赖不改。[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)入口已修；144完整cut输入由R322付。
 
 完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，并接原139/137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
@@ -42,9 +42,7 @@
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)与[七组件](notes/2026-11-15-native-persistent128-final-components-and-shared-trace-interface.md)付准确实共享root/全226RK/112 QR两端/577响应与全129248×112缺陷；浮点pivot不证非共振，338混合及C-based物理jet不冒finite-root径向导数。
 
-[137同现场入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)原完整源与19200s总预算保留，实际入口阻断现由R313结清；140同原范围重做，不复用已清现场。
-
-[R313实际137完整读回](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)确认fresh64/J/R273/two packets后argv入口阻断，无128 owner/接受/末态或后继组件。具体ValueError正文属源码推断而非原stderr；原133 R308仍有效，140首位置分派与完整stderr/watcher接线修复。
+[137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已结清fresh64/J/R273后的argv工程阻断，无128或后继科学；[140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付独立重生128接受，原末raw已清。152按完整来源重算所有组件，不恢复SHA。
 
 [R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。[140完整同job入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现已发布52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，修首参数识别、实际stderr和原watcher传输。原actual91重新生成fresh64/R273/current128，清理前完整576×224新stage/全112boundary/混合338/独立audit；19200s总cap含绑定编译，保原science caps/父绝对期限及audit预留，完整/partial/未启动分列，native/fullDN仍false。不改137，不预言速度或误差界，不添fixture。
 
@@ -113,7 +111,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
 
-[146 R320完整结果](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)已完整结清原8方向/42normal/84两P/54FD/Arb/453、全部同word后缀与原输入SHA；W4.963213788832056/radius4.76837158203125e−8、全finalfalse，不能由FD或降W声称弱方向/非零场。[149完整入口](notes/2026-11-15-persistent-decimal50-nine-control-primal-response-interface.md)已发94b13951/run43720604504，compute132831559151全success、R329完整读回中。Decimal50持久参数/primal/全112右行/forward9+2P/全QR；原8×20/12×20/R299/Armijo/半径、100+7pins/四输入保。75min科学/90minjob，所有normal及完整错误读后清。原表准确lift/64投影原54FD/Arb/453与真正p50自身FD各记，未认证新连续g或非零场；147新g只取R320末九p，不能借原域或J。
+[146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)与[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)已结清。149 run43720604504/source94b13951，两job全success；15groups/128段完整重建27982134。真Decimal50持久点8方向11trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，全finalfalse。全部11normal一次Newton/β1达标、0内拒/域错、55样本全working；仍三个外拒真增W。旧54投影FD/Arb/453与新54实际点FD分清，无连续g/非零场证书。154用真九p50字符串，另声明radius=.01/完整二阶forward和全merit Hessian/直线trust试探，旧normal回退独立，不降原W/Armijo/域/final门；R332证明待交，不能只再堆极小批。147新g仍取R320末p。
 
 
 [145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。
