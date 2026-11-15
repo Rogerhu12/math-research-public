@@ -360,3 +360,6 @@
 
 
 - [R388. 实际182原160日志完整但必要摘要超限](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)（纯元数据实际诊断）：43754644599/ee516d47，原日志3234095B/3513行完整、协议0错/内部reader0；92966B必要正文超90KB，最终70仅返3277B fallback，四组件/逐trial数值仍未付。未将事件计数冒科学成功；清理skip、无跨jobraw，r2只去重复元数据继续，原R359/native责任保。
+
+
+- [R382. 实际179首个真实physical-far屏障与未启动完整453](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)（实际完整必要读回）：43749949418/ccf1b023，C1440/cut/deep112及新419profile返回；m2真实rFar在row17/piece3/depth32下闭屏障未正，58paid/110work/.173086674s非资源。全11栈/[18,10387)/111未起及0far/0unit保，H/J/FD/BVP未启动；五原块齐，report failure仅传播原partial，六读回/静止后清。后继184换全实角并接真实可行coast点，原完整系统门保。

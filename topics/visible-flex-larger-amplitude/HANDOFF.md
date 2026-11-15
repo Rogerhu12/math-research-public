@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:02:04 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b0b3be9b21ed0cbefdd57d260e543dfb0fb7fd1d。
+规则同步记录：2026-11-15 20:02:45 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 fb8f8b3398e6fc64a6f28527ee061629fa92e37d。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -26,7 +26,6 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
 |184 R391 exact|真实180父已取得，完整入口在接，未派发|β1/16真实九词/旧域语义传递→新C/真factory→原179完整453/BVP|
 |183 R390 amplitude|独立真十词续算源正在接，未派发|R389真末ξ非零；固定原157尺度，16×原8方向/global2400s，整20拒即止|
-|179 R382 geometry|43749949418 /ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad|已终止，m2同闭屏障58/110，0far/BVP未起；完整结论在收束|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
@@ -51,9 +50,9 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R389实际178r3](results/R389-actual178r3-complete-ten-eight-acceptances-and-actual-restart.md)：80163B必要齐，8接受/61trial/53全3拒，α1/32,1/64,六1/128；W4.963213787524→4.957835964023但第三unit升.112950142747。120FD/域/453齐、全部终门false；真末ξ=.000937439184421…接183，旧xi0硬锁不能假续。大原表只保scope/身份，R377/R387独立超限不回填。
 
-[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)保59pins、sameowner H/J/FD/338112/32×10/2e−9/audit及全部预算/后缀。实际首far失败使BVP未启动，R382待完整发表；184改接R380/181全实角，不能原样重复已知闭屏障失败。
+[R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)：43749949418/ccf1b023，五必要块齐，report红色只传播compute/BVP未付。C1440/deep112齐，真实rFar首m2同row17/piece3/depth32下屏障未正，58paid/110work/.173086674s非资源；11栈+[18,10387)/111未起、0far/0unit，BVP未启动。六读回/静止后清；全部59pins/原453/FD/预算责任保原接口，184接全实角。
 
-[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已证165→169及179冻结初点是同一准确目标；原38速度反证可传，numeric416不能冒每叶唯一准确分支。准确coast仅p3/theta3/eta3直接作用，L不随九p变；中心a_s=−κ+2LC·theta3给必要带，未代入LC或预判全搜索无解。
+[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)证明165/169/179初点同准确目标；coast仅p3/theta3/eta3作用，L不随九p变，中心必要带不代全域或全搜索。R381反证与新参数域分责，numeric416不冒每叶唯一准确分支。
 
 [R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)已刊：43753422569/source636bbc3060，64284B/503d2e7d必要齐。固定418/420叶全证，前β1..1/8四档各严格反证，β1/16 coast5nodes/3叶全证；全419准确a>0/|as|<1，完整九有理词/word投影零。4.607932s无资源partial，13未访按计划保；原C不重算，完整读回/wait后清。selected recipe cc87d932/2136、definition f568b816/377615，按已发恢复源可再生；新numeric/BVP/同g几何仍未付，184接。
 
