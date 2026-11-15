@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：8920b38c011b2f90d5185f338c9b8008ef758950**（2026-11-15T22:20:16.077595+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态与pins逐字保于[R835前H](handoff-archive-2026-11-15-before-R835.md)及[R835前open](notes/2026-11-15-open-before-R835.md)，并串接全部旧归档。
+**已读规则提交：b227ef54ba0062ebc8ef997bbbb85d1b6b835ad2**（2026-11-15T22:21:49.664266+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins逐字保于[R836前H](handoff-archive-2026-11-15-before-R836.md)及[R836前open](notes/2026-11-15-open-before-R836.md)，内接R835等全部旧归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -31,6 +31,8 @@
 **R835实际成功**：[原四阶终止与D约化](results/R835-certified-original-order4-termination-and-reduced-D.md)，run43767561191/job132976021283/source3198158a，46.529879231秒；a0/1完整det次数1320/3496，全1341/3517节点+xgcd乘回给真gcd1。分解adjugate右逆接同源σ∞rank272/det695832206及proper，**原I4=C、D约化、K1已成**；q最小/P0∈D/D坐标/eta/height未得。
 final3221f24e/manifest2d77e2f0/4901项，artifact14183161538/7eaffd6a至Nov16 22:10:17UTC；新source27499704B/eb908748与原233593489B/1e3fc4db续传。core4f2dc119/runner7715eeb9/证明7e07f78e/17e9c828冻结。全部完整pins见结果；本地18小件仅IO，不重原导数/C/∞。旧Hermite取消403，不再续接，继续原D准确构造。
 
+**R836已证短核入口**：[固定21点铅笔与原D](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保ε=multP0D未知，E2=C+D+εP0，完整整商I_D=(I2:I_(C+P0))。权2两锚在原V5的rank1213认证共同零恰21点；完整T4时830/832×690核=M3(D)，dim295。真不完整短源仅给包含，实际295维或272个权2/3/4候选+V4真962minor/权和793才迫完整；未有实际锚/T′/D/eta。单B模列不能冒名完整char0层，q3只备选未跑。
+
 ## 已成源、真实消费者及期限
 
 [R809六C](results/R809-certified-original-six-Hodge-normal-vectors.md)run43712427063/source91fbd81e，84Q/full1380/S5=1234准确已成；A/B不在scope。真R787关系后原R809可resume该包、只append A/B，basis tag排future源；原R792 core7b7a5483/wrappercdac2e93可直接消费真新R787，workflow已删publish、contents只读。
@@ -41,21 +43,15 @@ R775/R786至Nov16 05:52/05:41UTC，R786 index已在后载体；R790的146CM行07
 
 ## 真正全p缺口与已封闭边界
 
-完整当前证明链、已闭支路及全部原源链接保于[98结果前H](handoff-archive-2026-11-15-before-fixed-C-results.md)与open.md；以下为不许丢失的边界。
+本节只保当前接口；全部旧源、完整公式、已闭支路和不可省边界逐字在[R836前H](handoff-archive-2026-11-15-before-R836.md)、[R836前open](notes/2026-11-15-open-before-R836.md)及其递归归档，不重做。
 
-R317仍余p2/5mod9完整非分裂正规化子、a³+db³1/p|b，D/bc无统一上界。R707固定p41完整129盘八CM已闭；一般p实际高度/(724.33)与全p证书未成。R616/726给β非挠/rank/log，R575真CM根号负，逆twist秩零撤回。R832统一jet仅有限阶接口，不代高度。
+R317仍余p2/5mod9完整非分裂正规化子，a³+db³1/p|b，D/bc无统一上界。R707固定p41完整129盘八CM已闭，不外推全p。R575真CM根号负，逆twist秩零撤回；R616/726给原β非挠/rank/log，非高度。R832显式jet界只给有限窗口，未给(724.33)。
 
-[原Poincaré审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)9a54e844保U_i=c(a_iV_i−A_iL_i)、Q点β/非p项/刚性化/零阶纤维；共同第二类项整函数相消。指定degree dY+2 period多项式仍缺，线性AST/η^-删切向/End⁰G=F下低维商不解决；九覆盖混合Hermitian/端点逆序/中心曲率边界已闭。
+[原Poincaré/period审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)9a54e844保原Q点β/非p项/刚性化/零阶纤维，U_i=c(a_iV_i−A_iL_i)，共同第二类项整函数相消。指定degree dY+2 period多项式仍缺；End⁰G=F、非零torus商维≥g+1，线性AST/η^-或E0^g幂等元不补高度。九覆盖混合Hermitian/端点逆序/中心曲率审计已闭。
 
-sigma须同一primitive/Legendre h的三个原单位，R739/R741/R737不拼。R808/810固定六维/p²/Hirota已闭，保[K,P_T]；R826/828/830/831八原源/两G零/真conductor-p/old6不可约保。R833/834给Γ=β^(6−p)C^p与真源/Serre-dual，指定uP0,e配对非零仍缺。
-[unitary交叉heat](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保原三同源/36theta/full72/FG和same-h整数差权；指定p+1源非零未知，μell仅共同jet，FG一次横向零。中央h虽primitive，辅助j2048/3非原j0，三单位仍缺。
+sigma必须同一primitive/Legendre h三个原单位。R739/R741/R737不同标签不拼，R808/810有限Gram/Howe链已闭且保[K,P_T]；R826/828原八源/两G零、R830真conductor-p、R831old6交换代数、R833/834真Γ/Serre-dual全复用。指定uP0,e配对仍缺，不以全局源非零代值。
+[unitary交叉heat](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保原36theta/full72和same-h差权；指定p+1源未知，μell仅共同jet，FG一次横向零，中央h辅助j2048/3非原j0。
+[KS](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)/[XF](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)/[PL](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)/[PC](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)保十八项/原Fermat/Ωη相位、C^-5和Wronskian1−κU^pJ，C非第二水平周期。
+[CR](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474给Carβ=xΣresν^(1/p)dy/(y−a)，原P0值=3αR_p、S=αR_p/1458；原三挠character排正则余项。[HC](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给P1_x下降、∞零留数与全部4/9/11阶局部式；[CN](notes/2026-11-15-sigma-critical-cusp-residue-nonzero.md)78f5d9e5纸证固定K∈Z[1/30]且mod13=11，故固定有限例外外全局Carβ非零。指定P0加权留数及same-h三单位仍未知，不再重证全局非零。
 
-[Kronecker平方](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5/[原X6](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保十八项/Ωη相位、E=6ρx和原对数微分。
-[Schwarz](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、S_(p−6)=−[U^(p−1)]x²A⁵/(DC⁵)/4374；[PF Cartier](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ单位、rank1幂零曲率、Wronskian1−κU^pJ，首p周期修正不删。
-[原C^-5完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原τ三挠平移排正则余项，β=x^pν(y)，Carβ=xΣres(ν)^(1/p)dy/(y−a)；指定P0值=3αR_p，S=αR_p/1458，R_p为y=2/α的实际留数。极阶全<p，但指定留数及两变量primitive/Legendre同h非零仍缺，不由其他留数或全局源非零代值。
-
-[P1下降与C根留数](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给原β直接下降P1_x、∞留数全零、Carβ=F(x³)dx；简单/双C根的4阶/9阶与cusp完整11阶留数式保原Z=1−κU^pJ。c_*非零时全局Carβ非零，但指定P0值/同h仍未知。
-
-[cusp固定非零](notes/2026-11-15-sigma-critical-cusp-residue-nonzero.md)78f5d9e5保c_*=0的完整11阶极部：原L=72U·M，有限jet给resβ=(yc/3)(A(d)/λ)^5K，K∈Z[1/30]且纸证K≡11 mod13。故固定有限例外外全局Carβ非零；仍不定位P0或原同h三单位。
-
-ordinary p43/776bitq已Gaussian5排；[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892/[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一K_glob/Θ=i a_q及同Σ θ3。C4/T²杯积仅复现R779，无独立Θ值，禁巨大q枚举。R816/818/819/821/823与R729的原c1不分歧已成，不添高度单位。原模型/CRT6逆/ζ²一次/246/c0c1不改。主目标OPEN，继续open.md。
+ordinary原p43/776bitq已Gaussian5排；[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892/[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一Kglob/Θ=i a_q和同Σ θ3，C4/T²杯积仅复R779；无独立Θ、禁巨大q枚举。R729及R816/818/819/821/823共同c1不分歧已成，不给高度单位。原p41b/s/ζ²一次/CRT6逆/246/c0c1保持。主目标OPEN，继续open.md。

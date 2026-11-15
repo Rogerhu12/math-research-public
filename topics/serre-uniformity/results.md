@@ -100,3 +100,5 @@
 
 
 - **R835（实际准确完成）**：[原四阶终止与D约化](results/R835-certified-original-order4-termination-and-reduced-D.md)。run43767561191/source3198158a，46.529879231秒；a0/1的完整det次数1320/3496、1341/3517全节点及多项式Bézout gcd1，给形式adjugate右逆。接同源σ∞rank272/det695832206和原proper证明，原I4=C、D约化/K1实际成立；未展开右逆、未称最小q或D坐标/eta/height。final3221f24e/manifest2d77e2f0，artifact14183161538/7eaffd6a，一日保存两carrier；18小件纯IO无本地数学。旧Hermite取消403，不再续接。
+
+- **R836（已证明，准确短输入尚待）**：[原约化D的固定21点铅笔与短RR核](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)。由R835实际K1保ε未知，I_D=(I2:I_(C+P0))完整整商；权2两锚rank1213给精确共同零，完整T4时830/832×690核=M3(D)、dim295。不完整真实T′只给包含，实际295维或272个权2/3/4候选+962纤维minor与同度793认证全部D。未知r范围23…147，单B模列不冒称完整char0层；无新原截面/核/eta计算。

@@ -80,6 +80,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 **R814/R825的完整原重数接口已证**：[R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)保完整C=20cusps、N=im[H,ΓH+MgH′]、P=(N:_R C)和sqrtI=(I:_R P)，m0不删；原E含20cusps+P0+3D。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)保原m0/1mod3、r=y/δy、Jk=R∩(I_(3k+1)+rJ_(k+1))，原安全K395现由[R835实际四阶成功](results/R835-certified-original-order4-termination-and-reduced-D.md)降为K1，D约化已证；仍缺准确D坐标。
 [AB消费者](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保持89579f79/28字段/双图齐次项，P=MaMb/Q=δa·b−a·δb与272×816全核rank544全部投影，不用ambient迹或一般理想商；仍pending，无真实D坐标/eta/height；R835只先给原I4=C。旧全部界、SHA与公式保[压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
 
+**R836已证短核入口**：[固定21点铅笔与原D](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保ε=multP0D未知，E2=C+D+εP0，完整整商I_D=(I2:I_(C+P0))。权2两锚在原V5的rank1213认证共同零恰21点；完整T4时830/832×690核=M3(D)，dim295。真不完整短源仅给包含，实际295维或272个权2/3/4候选+V4真962minor/权和793才迫完整；未有实际锚/T′/D/eta。单B模列不能冒名完整char0层，q3只备选未跑。
+
 **R820实际两图C已成**：[完整结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1，rank/colength20，292步/5380非monic/d27120，600ZIP/598manifest/590stage/289输入全核。原273行/F20/两锚点/Z^-eps不改，不重算。
 
 
