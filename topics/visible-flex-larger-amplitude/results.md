@@ -413,3 +413,7 @@
 ## R395 — 实际185全三normal校正：八方向全部原门接受，完整非零条件未满足
 
 [results/R395-actual185-complete-ten-full-three-normal-eight-directions.md](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)（27886 B / 0df359b2ae7d3adf1e02f86983e9003461fd17018af66741308a561d6ebc858b）记录run43759673057/sourcefe5f7cc2、compute132951426792/report132952034624的唯一原日志及76157B/acc93f03必要摘要。8/8方向、12原α、39primal/27fresh十列normal全部返回；前4α1/后4α.5，19临时更新/15投影，W4.9239323252749663981364628430833850764733239133895→4.3468672471711859976481753001800879050274704518442。后四α1三次normal用满仍拒，最大predictor W108383392.693838…不充owner。producer73.532297684s/wrapper74.807222099s，只有原八方向预算停止；真末十词/三缺陷/完整112身份、全120FD、Arb160/14的1589叶0未决、453circle/两RMS分数/4096角及原误差均保正文。finite-Gauss导数兼容/C²/IEEE仍false，unit/full112/native/nonzero/success全false；必要/quiet后实际清理。189从真实末点续原完整校正，连续C十族/450/shared闭面仍独立支付。
+
+## 2026-11-15 — Request188：原完整37链与同Hermite路径闭段继承
+
+[完整接口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)及consumer/runtime/request/workflow已核发布。真正actual175 request35920B/a6b9cf0a的103pins/三参数逐值保持，加2新源=105；真actual98重生→原37一次模型/新FD→原端点与629完整453gap→全37×2048×17。每同query/角首个直接strict闭段按R398包含推论支付更小闭段；余项G2_j(t)不当固定二次、盒不要求嵌套、缺依赖/未决/反证不继承。直接/继承/全部责任分计，完整17角账事务及全部原未访范围保；私有84af原数值函数不改，14条明确main/metadata替换只在短提交区间延期SIGTERM/SIGINT，提交后原ResourceStop，硬kill/I/O不声称完整。10800总/5400诊断/300预留/8GiB、原全部数学门、单90KB必要及quiet/marker后清不变；未增fixture/门，未回填175/预填R399或宣称实测加速。
