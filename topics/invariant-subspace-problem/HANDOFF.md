@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。selected-natural-u-minimal-rebuild32已实际完成新输入重建与32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - 零点K89正式稿已推。∞cubic单列仍k1；[完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。核自由[164,494]，全部总degree5三normal坐标强制零。两相位检查点仍在新job。
-- 同run现入队selected-natural-first-characteristic-zero-left-envelope（60秒/1GiB，先最小重建Q585，再全原行乘回；源码core4901fa8f、runner3e7b9ea6）及infinity-fourth-joint-high-low-left-envelope（30秒/512MiB，SHA3f9b473f，完整2295高行+1088低行联立）。两者尚无实际结果，不预填rank；大检查点仅临时。
+- 同run∞第四已实际8.679830253秒完成：高988、低587，独立9头，全6188真，公共49/44；正式稿正在整理。Q一阶55.020秒未完成新RREF；Q585与全部2618×1582原整系数方程已保存，不能报第一秩。现同绑定续180秒/1GiB，先跑零第四30秒/512MiB；请求ID/全部SHA在同一request。大检查点仅临时。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
