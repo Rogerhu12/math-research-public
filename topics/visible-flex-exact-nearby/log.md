@@ -351,3 +351,7 @@ native4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43（1192190
 root亦按SHA读实际artifact过程d100e7e6f7b2c7b961c3b4e0997381a7cdedca7a273c847041af734138fcbe37（25822B），逐JSON与repo过程比对唯一差是新增03:15:27.867374/720d00ef1717d4006994647c98039c07fe0c9db6 final出版checkpoint；数学native/门完全一致。已部署的同97 cap actual43671537267真实select选择全body与边界，旧Poisson AST-only仍拒收；cap数学在跑，后真Poisson三HY再合成。
 
 最后真pull03:15:26.485202→7a6cdaf64c6b142ff99eb903d201d8feeba45208、4次两README diff空，已记H。此次da053359a77ae888ce68ec4465399851f2465c37仅只读blob核。全7908body完成不是complete high-to-low、无限BVP或νSchur；继续相邻实际消费者和同F最后范围。
+
+## 2026-11-15 03:27:02 UTC — 实际全频帽 high→97 后验
+
+独立核读43671537267/1 process/summary/report，child0、9门、数学3.538647222s、四真pull两README空。native56efa27c…、process3b9173ab…、summary619c71e3…，完整Wcap选true_body_nested，||CH||<.000943，保mean/真outer/无限高尾/Hessian。原signed723262B矩阵仅Actions，compose因新真Poisson未完成正确skipped；不授无限BVP。H旧9669B完整归档。只读核README提交8d6612cb1e769f367904571dfcad075149690055；root另已核同F finish03:21:36.700168真pull→9acb539da7861c3cecf0256575759015899a1266，两diff空。每结论立即独推。

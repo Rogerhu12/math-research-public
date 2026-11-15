@@ -111,3 +111,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 同一径向 Langer 主坐标与完整源端口已证
 
 [C1–22](results/R133-supplement-common-radial-Langer-reference-and-complete-source-ports.md)给原物理Fourier对角参考的同一径向T、可去奇z=j^-2势、与原closed-leading完全一致的径向G∞，并准确保G/G∞中的两个primitive对角项。完整两源不对g2作导，root保n1/3混合两列、原physical measure及全部seam；主部为∂T²+T∂X²。继续只用已成系数/导数做新势与传播的真实公开预算；不得将旧Ai源界直接改名给deformed基，不删d∂、原I/J、独立mean、正两端图或改动后的subprincipal返回相位。
+
+### 2026-11-15 actual full-frequency cap posterior
+
+43671537267/1 完成同97全频帽后验，CH CH*≤Wcap，||CH||<.000943（[实际报告](notes/2026-11-15-R133-actual-full-frequency-cap-high-to97-posterior.md)）。全部7908 body、真实左右/outer mean、高频尾和Hessian已收费，原矩阵 signed 保留。该项闭合；继续真正完整Poisson的 whole/negative/cut 三 HY，切口迹独立，全无限反馈和非零参数转移仍开放。
