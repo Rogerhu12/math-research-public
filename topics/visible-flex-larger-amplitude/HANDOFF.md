@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 13:13:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3b2df31a555b9466911c9b0b3e9b45c7df576c41。
+规则同步记录：2026-11-15 13:32:03 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cb9a75f5e462b1cd9e30a094a6c7b18b763f7650。
 
 集成复核：2026-11-15 13:31:26 UTC API读取main 647657881ed1980137964d1893a851bb09f549b5，双README21bd/bff未变；不是git pull。148完整源/接线/接口已读即发并用本库Actions；原C1800与新linear1800分开。
 
