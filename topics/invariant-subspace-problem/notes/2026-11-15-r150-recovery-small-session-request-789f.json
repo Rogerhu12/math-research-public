@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "540504139365d07bddeb90eb61ef29d0f7fe8e6a",
+  "rulesReadAtCommit": "0ed9cbb68c9598da5b15c64e3e0bc8ba1d04410b",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1380,6 +1380,26 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/zero-eighth-reused-high-receipt.json"
+    },
+    {
+      "id": "third21-original-forcing-support-preparation",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third21-original-forcing-support-preparation-789f.py",
+      "scriptSHA256": "7040ff017c91dd98079de77f7a133a37ecac4c9d4df52a8ff7af9ecb435200d1",
+      "sources": [],
+      "argv": [
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--out",
+        "{work}/third21-forcing-support-preparation",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/third21-forcing-support-preparation/third21-original-forcing-support-and-unit-preparation-receipt.json"
     }
   ]
 }
