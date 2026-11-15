@@ -6,19 +6,19 @@
 **主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题 README 全授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6f18e558c6d0aa174bc9d8d2f13409fc61653221；2026-11-15 06:39:40 UTC核两README无变。实际CI pull 2026-11-15 06:06:30 UTC/af956a8984a7d933ab041b5f13b3d2ce57395b3d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:39:39 UTC仍无环境。最迟2026-11-15 06:55 UTC再实际pull。
+- 最近已读规则提交：687ee06644786955949944d3b29eed50939cc746；2026-11-15 06:43:40 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:43:39 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推、禁强推/改历史。每小时实际 pull，每次比两 README，只读差异立即执行，记已读提交。令牌不入文件/回复。
 - 规则15新版@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存 repo/Release、不新拆分。已普通删除206个/4,912,763B，保历史与真实输入；独立 theta-plane 及 R466→R471 在 run43683428893 同旧SHA复现。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开 Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
 - 本地 exec 无环境；API仅非强制追加，题属只读CI实际pull与本地失败分别记账。拒推立即本地pull --rebase重试、新head核规则、接父重推；恢复环境即本地pull。
-- 06:06:30实际pull/run43683930349/job132720278716成功，两README不变；库存25,478,882B/1807文件、旧3分块输入。下一次最迟06:55 UTC。
+- 06:39:54实际pull/run43686464108/job132727866196成功，两README不变；库存25,620,547B/1821文件、旧3分块输入。下一次最迟07:25 UTC。
 - [规则15复现入口](notes/2026-11-15-recomputable-output-provenance.md)：两元数据清单及临时历史输入runner。余79未匹配/2自读/3旧分块须核真实生成器，不能按名字删。
 
 ## 完整检查点与分工
 
 本次压缩前全部条件：[HANDOFF](notes/2026-11-15-frontier-before-r700.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整旧来源、坏集、预算、证明和未付问题；本摘要不关闭它们。
 R1–363、365–560、562–653、655–700已登记；R364/R561/R654及主目标仍开。入口 results.md、notes/PROOF-INDEX-R651-R700.md。
-root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R704原有限两位/中央及高Q；deep R701原顶三charge真实像/同R第二代表；theta R702新同q30的完整中央/补域；literature R703原全H迹相位/复和界。
+root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R704原Fermat-det和界/中央有限两位；deep R701原顶三charge真实像/同R第二代表；theta R702新同q30的完整中央/补域；literature R703原全H迹相位/复和界。
 
 ## 全部固定目标和原规范
 
