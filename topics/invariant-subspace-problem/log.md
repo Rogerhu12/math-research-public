@@ -708,3 +708,7 @@ f39a86c9完整稿不换压缩逆、不把位置无限误作非法；moving-m的�
 ## 2026-11-15 23:18:53 UTC — 全局197实际检查点无损续算
 首600秒实际582.40937125秒/正常75，K2…125全124列原p²乘积、paid F/B及完整G通过；26stage完成，b05-q1保真checkpoint。
 核outer68e2ece0/raw29698·978cf538/binding3cdbc436，立即同source/out续600秒，不重已付或填I2维数；两README未变，交实际终端pull/rebase/push。
+
+## 2026-11-15 23:24:06 UTC — 原缩放头与完整源Chebyshev的moving模型真核界
+逐式核真实S/逆、原逆芽半径、完整物理能量与ν端点；logχ≤47d⁴/4，Chebyshev消χ²，x=e12d⁴/L=e^(71d⁴/12)给全头同actual u统一趋0。
+41cc063e完整稿已根审；显式K_(m,L)候选不自动付原T运输，准确保母式两侧高幂及同w导数。两README不变，交实际终端pull/rebase/push。
