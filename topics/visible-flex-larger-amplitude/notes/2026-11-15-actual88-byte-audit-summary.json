@@ -1,0 +1,80 @@
+{
+  "schema": "actual88-byte-audit-summary-v1",
+  "completed": true,
+  "passed": true,
+  "actual88": {
+    "run_id": 43671452656,
+    "source_commit": "facffded7fdc069cbd91473d845c2e8377a7bd8f",
+    "job_id": 132682194531,
+    "artifact_id": 14144800598,
+    "artifact_name": "visible-mainline-modelresponse-43671452656-1",
+    "artifact_zip_bytes": 70747,
+    "artifact_zip_sha256": "c62887dc85bb2f551a283fb35f7c98dce048ae32a5c5b95b3b4f806990587a63",
+    "job_conclusion": "success"
+  },
+  "scope": {
+    "original_artifact_regular_files_read": 8,
+    "original_eight_models_complete_fields_compared": 8,
+    "original_array_descriptors_verified": 72,
+    "original_array_binary64_words_serialized": 456,
+    "original_array_serialized_bytes": 3648,
+    "all_local_prediction_objects_compared_or_structurally_read": 24,
+    "derived_array_word_identities_recorded": 328,
+    "full_original_consumed_sources": 11,
+    "exact_dispatch_source_payloads": 13,
+    "all_eight_summary_rows_verified_against_complete_original_result": true,
+    "complete_original85_status_matches_independent_existing85_artifact_copy": true,
+    "four_large_mathematical_inputs_reaudited": false,
+    "scientific_module_imported_or_executed": false,
+    "scientific_matrix_norm_SVD_filter_ratio_Fraction_arithmetic_recomputed": false,
+    "new_original_equation_J_or_trial_called": false,
+    "new_candidate_or_acceptance_gate": false,
+    "artifact_ZIP_refetched_or_reverified_by_this_script": false,
+    "root_reported_original_ZIP_metadata_size_SHA_CRC_verified": true
+  },
+  "passed_check_count": 345,
+  "complete_byte_audit": {
+    "file": "2026-11-15-actual88-byte-audit.json.gz",
+    "bytes": 23486,
+    "sha256": "107130bcdd00f2cf42dd4420349c4390e7cdf3df11f9391d1f390ca90d5ed664",
+    "decoded_bytes": 189918,
+    "decoded_sha256": "cc9f38f4527b843f2762280d3d7109aab312996cc1bcc18559e7b4a96673447e",
+    "compression_created_by_byte_readback": true,
+    "decoded_payload_is_complete_original_bytes": false,
+    "decoded_payload_is_complete_byte_audit": true
+  },
+  "original_full_analysis": {
+    "file": "2026-11-15-actual88-original-full-analysis.json.gz",
+    "bytes": 29816,
+    "sha256": "f82b8db30e901757c1ea9a45c1648a27772bfe37af32d331d40a11dbf3289641",
+    "decoded_bytes": 174419,
+    "decoded_sha256": "0098d7c09244e6a8deae9508883399227bb59d5a9de0b97e11e4811acb7f3798",
+    "compression_created_by_byte_readback": true,
+    "decoded_payload_is_complete_original_bytes": true
+  },
+  "original85_status": {
+    "file": "2026-11-15-actual88-original-status85.json.gz",
+    "bytes": 10179,
+    "sha256": "6f443e9e56f4e603a303c6df9dcc7973c5080744fed73cadf1c5bf92e22910f8",
+    "decoded_bytes": 54251,
+    "decoded_sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a",
+    "compression_created_by_byte_readback": true,
+    "decoded_payload_is_complete_original_bytes": true
+  },
+  "complete_literal_readout": {
+    "file": "2026-11-15-actual88-literal-readout.json.gz",
+    "bytes": 30212,
+    "sha256": "b0eb97c101e4ab7a199dcae30a2a3e873e3da34ff65f18440156781f1ef9a73b",
+    "decoded_bytes": 176062,
+    "decoded_sha256": "2c8c401a64accc5b35ba73ead066cbd1cfc6ca6849474812f6ba40603b6bd337",
+    "compression_created_by_byte_readback": true,
+    "decoded_payload_is_complete_original_bytes": false,
+    "all_eight_complete_rows_copied_without_scientific_arithmetic": true
+  },
+  "audit_source": {
+    "file": "audit_actual88_saved_reports_bytes.py",
+    "bytes": 22882,
+    "sha256": "e69eda793ffa01985fda23040e0b214cb7c26e4f6f907585caa54a38ea30efe9"
+  },
+  "new_scientific_arithmetic": false
+}
