@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：4cdd5ebd9ab70ddb0e58b6bb0616e709b5641d1b**（2026-11-15 08:12 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：9591b4ddddf2b734dec29dd3258c55284859f39d**（2026-11-15 08:18 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R796前H](notes/2026-11-15-handoff-before-R796.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
@@ -31,9 +31,11 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending�
 
 **R796公开run43693301389运行中**（source4ed3a5bf4298f930e018527ddea4c940d936236c）：[原二次局部图](results/R796-original-CM-local-chart-from-quadratic-sections.md)及core/wrapper全部已审；只用旧M2 q0..27与R790点/首导，适配τ、σ及144个二重零截面，选416个W_P二次单项式，完整char0代回144关系，得到x=Q(t,x)、Jacobian I144。当前目标length2只求真实全局图；高N按真实消费需要新增，不自动算155/290。proof8bf2662434d8117be5514cfbe9ba19fa089167c6e7bab76c079daded66fe40d4，core636cf73825ff99b11b44c7186fd4ef5af9dcbb311949cdd0c03e08ea424218c6。
 
-**R797公开请求已启用，结果待run**：[五新Laurent方法](notes/R797-five-selected-original-Laurent-prefixes-method.md)及core/wrapper已完整审核。仅收缩旧R77456个共同G_iG_jG_k，新标量各自保4·mult/1722³与q移一阶；无原f4标量复用。真实新N170/172/176/193/196，保R781无逆递推除数3n+1、原v相位，全部新算术留Actions。corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。
+**R797公开run43693453831运行中**（source05bf2b2b22d1435a20233f48cb34a78fc53e7154）：[五新Laurent方法](notes/R797-five-selected-original-Laurent-prefixes-method.md)及core/wrapper已完整审核。仅收缩旧R77456个共同G_iG_jG_k，新标量各自保4·mult/1722³与q移一阶；无原f4标量复用。真实新N170/172/176/193/196，保R781无逆递推除数3n+1、原v相位，全部新算术留Actions。corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。
 
-exact_height接R798固定有理μ33；ordinary接R799原power7/8最短基方法，先q95/108，不自动扩195。三项尚未计算，不预填秩。
+exact_height接R798，以真实1506独立短坐标和τ³V3嵌入构造固定乘法；不先求大有理逆。
+
+**R799已证明**：[七、八次最小短基](results/R799-original-power7-power8-minimal-basis-construction.md)给维1778/2050、q95/108；两锚点秩恰1778−共同零次数，多锚点满秩后其中存在无基点pencil，所以Sym²(A)V6满V8。只新增V6尾82..108；V8直接三因子，V7不扩108。ordinary继续工程，实际minor/新基未算。root R800另补原M2尾129..195，尚未运行。
 
 [实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)：D_(1−ζ)使原f在Fb上的C′:Y²=X³−27b定义、degree仍1206；ψD=[1−ζ²]、ψ*ω=3ω′、e′=e/3，原h必须保3倍及主函数(-27)常数。当前原模型/原q/基点不换。
 

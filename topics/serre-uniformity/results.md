@@ -349,3 +349,5 @@
 - **R796（已证明，公开基础图请求已启用）**：[原CM二次截面局部图](results/R796-original-CM-local-chart-from-quadratic-sections.md)。只读原146个M2前28项和R790值/首粗导，416个真实独立二次积经完整K坐标代回给144关系；x=Q(t,x)在原点的Jacobian I144，唯一形式支逐阶仅用乘法。K上原相位/尺度及λ保留，高N只按消费需要追加；当前length2，实际关系与后继点/η/高度尚待Actions。
 
 - **R797（方法及公开工程已成，实际请求已启用）**：[五条原低次数映射的Laurent输入](notes/R797-five-selected-original-Laurent-prefixes-method.md)。R794真实所选f0/f3/f1/f0+f10/f0+f4用原六微分分别收缩R774共同三积，保原4/1722³、q/v相位及280维字段；只生成各自170/172/176/193/196个完整关系所需前缀，逐阶准确ODE核与断点。旧f4/Hodge不重算，新函数关系/极除子/η/高度尚未得到。
+
+- **R799（已证明，实际基未计算）**：[原七、八次幂的最小短基与锚点判据](results/R799-original-power7-power8-minimal-basis-construction.md)。V7/V8维1778/2050，最小零次数界q95/108；两锚点秩恰1778−deg共同零，多锚点满秩时存在无基点pencil，故Sym²(A)V6满V8。只补旧V6的82..108，八次直接三因子，不隐含七次新尾；保原尺度与完整20坐标，实际非零minor/基仍须Actions。

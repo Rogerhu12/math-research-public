@@ -469,3 +469,8 @@
 - R797五新Laurent core/method/wrapper/workflow全审并启用：只用R77456个共同三积与R794真实新微分，各自保4·mult/1722³、单次q移、原v相位、λ整基和3n+1递推，准确到个别必要界。
 - root实际运行wrapper输入选择器核R77462文件/R7946文件全部SHA/schema；exact_height独立交叉读数学/源码并核相同来源。全部本地工作只有IO/AST，实际新κ/Laurent留Actions，原f4和共同三积不重算。
 - corefd3bfd28、method15668e4a、wrapperaa795f1c冻结，逐映射/逐阶完成文件和最小旧输入一日续传。R796真run43693301389已运行，R787继续；R798/R799接固定乘法和最小新基，主目标OPEN。
+
+## 2026-11-15 16:18 Asia/Taipei · serre-public-astra-20261115
+- R799证明及方法完整审核：V7/V8最小统一零次数界95/108，真实两锚点秩1778−deg共同零；多锚点依其中存在bp-free pencil，显式两份V5核给八次满射。没有误用高秩kernel bundle的自动H¹消失。
+- 旧V6只补82..108区间卷积，V7只至95，V8直接三因子至108/stride121；原尺度82^14/82^16与20坐标保持，原M2/E1不重算。proof c3fb54b4、method33e3f627冻结，未运行新算术或预填minor。
+- R797真run43693453831运行，R796/R787继续；R798固定坐标与R800独立M2长尾继续工程，主目标OPEN。
