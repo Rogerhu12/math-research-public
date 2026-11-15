@@ -205,3 +205,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：十七条无穷远第五左jet，公共53/47
 
 [正式证明](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)在同九条第四规范上保完整三项高残差，高2295×999秩988、低1088×603秩586，实得七个第五头；加十恒等头给累计前五≤10。公共53/47、指定82/81/75，K95下q8432…8593，条件总费8638/目标222。小包络余rank2不是完整第五下界。下一零第五与Q第二；若到第六，纯A2乘已存λ4三normal触及全部2805三normal来源，必须新增该组方程。
+
+### 2026-11-15：实际低孔输入借位幂界与完整Green低孔输出
+
+[完整证明](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)保每词未归并的删除频数，真实carry能量 $E\ge(C/4)^4$，得原N/Y全部头及全局 $\|A^kP_{\le s}\|\le6^k e^{-(770/256)(k-s)_+^4}$。这替换环境2m阈值而非改用Boolean模型。完整Gram低源压缩和先完整逆再压缩的二次型下界均显式；对原等权池完整最小Green列，仅在输出投低孔可付 $4D_s(S/4)/S$，完整forcing与 $H_{\rm pool}^{-1}$ 保留。N型同一bosonic核还给固定低孔测试全行下界。仍不付原w的moving全行上界、连续尾完整Green或跨Gram的低孔支持；下一查同固定测试的真实运输。

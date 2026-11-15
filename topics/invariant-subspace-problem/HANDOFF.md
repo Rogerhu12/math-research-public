@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** e4f44a157794cfd37c9a4a58c969622df4d10600（2026-11-15 10:40:53 UTC，Actions run43705242726实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43705242726-1.json。
+- **最近成功实际 pull 与已读规则提交：** 502a33aa3f75a94103ff854641f35b72d1f3eb9a（2026-11-15 10:42:40 UTC，Actions run43705384284实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43705384284-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -11,7 +11,7 @@
 
 ## 完整旧状态与当前入口
 
-全部旧推导、预算、未列缺口、源码/临时数据SHA和历史恢复链保[本次H全文](notes/2026-11-15-handoff-before-natural-u-schur-eight-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
+全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-low-hole-powers-and-second-natural-jet-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
 
 ## R150：常数层已闭，完整参数长度与原成员性仍开
 
@@ -21,7 +21,7 @@
 - [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0。[零点十九左四阶jet](results/R150-appendix-zero-nineteen-fourth-left-jets-factor95-and-cost8642.md)实际9.969569411秒付累计4/4/5/8、公共s49与低一阶s44；K95=s35K60、degree95、lc5^6为31单位，不假零点r1=4或β2=0。
 - [∞第五页正式结论](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：同run43702348535，15.752552958秒，高2295×999秩988、低1088×603秩586，七个第五头加十恒等头，全6188真。前五累计≤4/4/5/8/10，公共δ4354≥53/δ4353≥47；不称包络余rank2为完整第五下界。29精确曲线给指定82/81/75，K95下q8432…8593，条件非基8637/transfer8638/目标222，统一8638。
 - [同一原子式完整模31长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做并推：run43702348535/selected-natural-u-minimal-rebuild32，math10.855262523秒/native9.937256051，51份已付前16层数组全SHA同。36正指数全部确定，末四17/18/18/21，max21；同选cofactor公共阶222。deg Dbar=8527，char0 degD8527…8688，K95下q8432…8593，现条件target222、统一费8638。lc(D)31单位当且仅当char0 v∞=243，尚未证。新binding43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600。
-- [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)：同一单位右补基给active E_J列u^ell，全部j子式付最小j权和，删列损失由wedge支付。29旧曲线只新增外一阶1834×29矩阵；实际全Q秩29，t2=0（2.028866967秒，全4367一阶syzygy与6188常项真），固定常系数组合没有新支撑阶。相对任一已付δ可用源因子29+t2、次大28+max(t2−1,0)，不偷允许uPhiY纠偏后的最大维数。
+- [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)给同一active来源因子的全部j子式最小j权和，删列由wedge支付。旧29曲线外一阶1834×29真Qrank29、固定常组合t2=0；允许uPhiY纠偏的最大支撑维数仍开，不重旧1603块。
 - 原九模31⁶证书费1339已全成，仍不付Q[s]成员性、固定e无界精度或lc(D)31单位；常数31饱和不付参数leading单位。旧mod31仿射gcd315仅其原范围，不直接升char0。旧1632标准族/二次skew降次、LLL候选、单65521均已完成，不重做。
 
 ## 原同w边界：共同预算仍开
@@ -32,6 +32,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - [首bit完整物理Schur](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)：K≤e^-1070、T<13/20，P=K−T²、kerA=JkerP、Jx=(x,−Tx)，Gram[I,569/400]，W=JG^-1kerV*。全部top/head/bare旗和零源保留；完整Green仍须P*z=r及全kerP*极小化，小Gram不付逆。
 - [三列硬核正角](results/R271-appendix-three-collective-columns-hardcore-angle-and-bosonic-wandering.md)保全部横向g及孔层/出生；真实boson wandering=R(H^-1etop⊗g)，原最高三头行给距离≥3e^-1070/[20(m+4)C_m^1.5]，logC_m=O(m logm)。原w到boson核仅正向超小，P_m^B B*w反向无速率且range分量可抵消非硬核部分。
 - [联合归一bit反馈](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)：原Ni保carry、ΣNiNi*≥I−Ptop，同H给核内dist²≤C_m整行能量。任意原w∈M整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²；原W只付每个固定i列强零，移动全行上界仍开，正查相邻投影/同W共同抵消。
+- [低物理孔真实借位与Gram](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：保每词未归并频数，E≥(C/4)^4；原N/Y所有头及全局||A^kP≤s||≤6^k exp[−(770/256)(k−s)+^4]。完整H低源压缩≤D_s=exp[1+sτ+τ^(4/3)]、完整逆低源二次型≥D_s^-1；等权池真实Green只投低孔输出可付4D_s(S/4)/S，保原H_pool^-1。N型低孔测试同核反馈行≥(m−s)D_(s+1)^-1||P_m^Bf||²。未付完整连续尾Green或原W整行上界，下一查真实测试运输。
 - Riordan已付完整右/裸/全旗、真实eY配对运输与同窗误差O(C0²h/Q)→0；不运输整个左L。Ĉ用V0，W_h仅在kerL_lin与V0相同；强孔Gram逆不保次数。强gauge末端q_h及返回主项未付，必须用原Cg而非Boolean头。
 - 等权长池Green完整公式已付L≥2d；加入早强位必须换A_rest及全部Gram。原连续尾固定f Green O(R³)、共同高孔残量与ordinary两费仍未付；特定Artin大列不下界真Green。全部旧来源细节及未列缺口见H全文。
 
@@ -40,8 +41,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - **旧session43679903558于09:57已结束，旧临时数组均丢。** 旧32层因summary累积pulls超100KB未推，现已按用户规则在新run完整重做并发表243。全部中断SHA/旧恢复链见[最小恢复计划](notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md)和[本次H全文](notes/2026-11-15-handoff-after-unpublished-natural32-789f.md)。
 - 新minimal recovery run43702348535已启动，9份历史输入已逐SHA核验。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。selected-natural-u-minimal-rebuild32已实际完成新输入重建与32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
-- 零点K95正式稿已推。∞cubic单列仍k1；[完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已实际6.005971283秒完成：H3rank988/null2，低A0prefix580/base584/aug585、残差仍1；全3383+2805来源真。核自由[164,494]，全部总degree5三normal坐标强制零。两相位检查点仍在新job。
-- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接保完整33+36族；∞第五已真成7头、53/47；正备零第五。第六页首次有纯A2乘λ4三normal的2805来源，不得继续删该组。不重复已闭Q RREF。
+- [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前∞第五与零第四完整规范均保临时检查点，不重旧大正常形。
+- 同run Q一阶续180已真成（exec57f2ef39，91.644258104秒）：1549/1546、rank3，33头全143682原产品真；RREF与jet检查点完整，SHA见实际回执及正式稿。零第四9.969569411秒真成9头、49/44，K95正式推导已付。下一Q第二连接保完整33+36族；∞第五已真成7头、53/47；零第五已入队（SHA94151693、30秒/512MiB）。第六页首次有纯A2乘λ4三normal的2805来源，不得继续删该组。不重复已闭Q RREF。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
