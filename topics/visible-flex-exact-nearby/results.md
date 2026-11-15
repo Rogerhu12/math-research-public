@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 三流 v1 的实际身份错误与准确 v2 修复](notes/2026-11-15-R133-ephemeral-v1-original-event-hash-failure.md)：43680721302 child1，7原身份门过、旧最终1886行逐字恢复、0新数值行。唯一错误是 impulse 原无换行 JSON SHA 与 matrix 原有换行 SHA 混用；v2 保全等门并按各自 producer 核，全部数值式和原pins不改。
+
 - [R133 补充 Q1–16：真实全δ外帽逆的高阶 Sobolev 窗口](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md)：辅助 shift M=2^416 已使 commutator<2^-15，将同一完整真外帽源逆扩到−3/2≤s≤8212；原物理高度输入在Hs+2，完整增益<2^4194304、反射moving读出<2^4718592。无新数值，仍保全部mean/height/jump/真外行。
 
 - [R119 补充 B1–31：有限径向两根首相位及固定第二参数间隙](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md)：piecewise Ct4 H8196 子域内的真实密度 Hadamard 有限部等于几何返回首相位；正侧只用实 Taylor 图并付完整 y³ principal residual。固定已知成员的第二参数后，全层全非mean模型仍有>1/(256N_i|n|)间隙。全层余项、实际中低窗和变化背景逆仍待付。

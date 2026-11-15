@@ -39,3 +39,9 @@ final26144B/SHA8dc64a91cce46c09e73078c89f4b42557e5cc38eddba04caeb548aa0f7a89e67�
 root沿原X准确方程，保body+outer同一基逆；已付complexlag B2^129/σ2^-128不随s改变。改证明辅助M2^416，|s|≤8212使τ<2^-403，8Bτσ^-2<2^-15；real3/8加后<1/2。source shifted仍2^260，普通权只一次M^|s|。
 
 原真实角图Faà di Bruno按q≤8220、q!<2^(14q)重新付，composition与密度各2^262144，全负阶/插值2^524288。source指数416·8212+260+524288<4194304；原完整H及moving实角链式总2^(123q/2+73)<2^524288，读出<2^4718592。全mean/jump/height/physical fB Hs+2/真long行/R0 Hessian保；没有新数值或新物理对象。freshmain 9b7f7b21eb472ed49642c0ed5837240c3ad76763两README未变，继续明确附近body球与非线性外行。
+
+## 2026-11-15 05:33:43 UTC — 原1886成功前缀实际核明，event身份函数准确修复续跑
+
+root亲读v1 run43680721302 process45479B/25d268ffd4501dbdb90f6994450668d7d95feb1e7662b612ee5ef62191e7086b及summary5710B/4d22b6a1fc1df46f5bd411e5b10655b70f7a6875b6db846e1a023d6feead2cce。七原门全过、13856原数组全hash；旧run43672023585最终1886行/320bit，exactnative09df7651…/processd2119ed8…。新child1科学9.229537212s/parentwall15.000951232s，在posterior_constants原event hash门停止，任何新递推尚未开始；临时native2881B/0e77ce7a…仅hash保。
+
+root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.canonical（其原compact JSON无末换行），matrix row/state canonical有换行原样；其余式仅m命名空间，所有数值参数不改。旧源文件不动，新增独立v2/source-kind。原358pin逐键0改加四文本成362，73119B清单81fcf32f039a1d2985edce29d54302925bb0b2cfce65cfee33c9dd099f1824ed；SCI39942B/f33345d1ab2500fd3811692311ce931606e389cf3c8ef508925d225748565190，CI26567B/53d672d2e75ce9519615ea0251c5567a4931af15248ded418ebc5717d2de425a。CI旧archive/历史diff仅真实metadata摘要压缩，当前pull差异全文保，避免长算后小报告超限。原failure/41ZIP SHA仍可核，不新data/artifact/Release。最新真实pull05:25:52.706603到1b49a3634d4b5e0b451aca58f844d34ca063f570空差。freshmain 6ed21602e2f77a4c497fffb83fd6b0ca55c39b7c两README未变。

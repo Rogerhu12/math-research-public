@@ -143,3 +143,7 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 ### 正帽有限角窗口现已覆盖8196及额外重建角余量
 
 [Q1–16](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md)从原同一analytic operator family改辅助M=2^416，signedlag差<2^-15/shift逆<2，将完整真外帽全realδ源inverse扩至s8212。物理fB Hs+2/密度均付2^524288，总source<2^4194304/moving读出<2^4718592。下一建立M_s附近body状态球及真实非线性外图；没有把ordinary L²源升级Ct4，也不把显式Qδ逆自动套给有限Sob未知背景。
+
+### 三流实际原前缀已核，唯一event身份门已修
+
+[v1实际43680721302](notes/2026-11-15-R133-ephemeral-v1-original-event-hash-failure.md)恢复最终1886旧行/320bit、13856原array文件和41archive，7身份门通过；在新三流前因impulse原无换行event SHA误用matrix有换行canonical而child1。0新ports/past/product/groups，新future也0（仅1886旧包装）。v2只该event gate改回原producer，SCI f33345d1…/CI53d672d2…/362pin81fcf32f…，全部原353和v1 358 pins逐字保。新workflow已部署，待actual continuation/真HY/同97 signed contract，不把此身份修复称为数值成功。
