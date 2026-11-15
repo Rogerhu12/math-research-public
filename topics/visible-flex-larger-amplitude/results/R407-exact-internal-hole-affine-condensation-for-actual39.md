@@ -42,16 +42,16 @@ resume the deleted actual171 final field.
 
 ## 1. Original model and the exact support
 
-Use the original scaled step coordinates \(z\), the same fixed complete
-matrix \(A\), residual \(b\), and positive damping \(\lambda\):
+Use the original scaled step coordinates $z$, the same fixed complete
+matrix $A$, residual $b$, and positive damping $\lambda$:
 
-\[
+$
  H=A^TA+\lambda^2I,\qquad g=A^Tb,\qquad
  f(z)=f_0+g^Tz+\tfrac12z^THz,\qquad f_0=\tfrac12\|b\|^2.
  \tag{407.1}
-\]
+$
 
-Thus \(H\succeq\lambda^2I\). The complete model still has236036
+Thus $H\succeq\lambda^2I$. The complete model still has236036
 coordinates:698 noninitial physical nodes of338 coordinates each,
 109 free-core coordinates, and3 scalar controls. The index convention
 here is the physical one-based node number used by the original
@@ -62,32 +62,32 @@ original order and appends RIGHT-RMS459 at the original fraction
 0.8273268353539885. Its real Hermite capture uses endpoints459 and460.
 The exact union of complete physical blocks is
 
-\[
+$
  {\cal N}_L=\{459,460\}\cup\{462,463,\ldots,491\}.
  \tag{407.2}
-\]
+$
 
 There are32 such physical nodes. Together with all3 controls,
 
-\[
+$
  |L|=32\cdot338+3=10819.
  \tag{407.3}
-\]
+$
 
 Every one of the39 queries keeps all2048 angle rows, so the complete
 inequality operator has79872 rows. The remaining4059-row constant
 part and the original complete236036-column model retain their
 meanings. No inequality row is discarded or replaced by an aggregate.
 
-The338 coordinates of node461 are absent from \(L\) and belong to its
-complement \(E\). They are still original optimization variables.
+The338 coordinates of node461 are absent from $L$ and belong to its
+complement $E$. They are still original optimization variables.
 The other exterior coordinates are nodes1 through458, nodes492
 through698, and the109 free-core coordinates. In particular,
 
-\[
+$
  B=(B_L,0_E),\qquad Bz+c=B_Lz_L+c.
  \tag{407.4}
-\]
+$
 
 The new domain source is
 `geometry_20261115_thirty_nine_query_domain_operator.py`,
@@ -109,38 +109,38 @@ internal elimination device.
 
 ## 2. The complete affine front, including the hole
 
-In exact arithmetic let \(R^TR=H\), and solve
+In exact arithmetic let $R^TR=H$, and solve
 
-\[
+$
  R^Th=g.
-\]
+$
 
 Then
 
-\[
+$
  f(z)=\tfrac12\|Rz+h\|^2+f_0-\tfrac12\|h\|^2.
  \tag{407.5}
-\]
+$
 
 As in R270, every orthogonal transformation must act on the full
-augmented matrix \([R\mid h]\). The pure-global root and its affine
+augmented matrix $[R\mid h]$. The pure-global root and its affine
 column are part of this matrix.
 
-The original factor stores a positively scaled root \(R_C\).
+The original factor stores a positively scaled root $R_C$.
 The unchanged affine implementation solves
-\(R_C^Th=g/C\), componentwise for the positive scale \(C\), and folds
-\(C\) back into every physical, neighbor, and border column:
-\(\overline R=R_C\operatorname{diag}(C)\). Its complete original
+$R_C^Th=g/C$, componentwise for the positive scale $C$, and folds
+$C$ back into every physical, neighbor, and border column:
+$\overline R=R_C\operatorname{diag}(C)$. Its complete original
 linear-term residual is read back. This description identifies the
 existing computation; it does not assert an exact identity between a
-rounded factor and the exact \(H\) in (407.1).
+rounded factor and the exact $H$ in (407.1).
 
 First use the original elimination of the two exterior physical
 chains with internal retained cover
 
-\[
+$
  {\cal N}_{\rm cover}=\{459,460,461,\ldots,491\}.
-\]
+$
 
 The original left physical back substitution and right complete
 orthogonal transformations conditionally minimize nodes1 through458
@@ -151,10 +151,10 @@ whole original affine column remain.
 The cover has33 physical nodes. The resulting original central front
 has11266 rows and11267 columns, the last column being affine:
 
-\[
+$
  33\cdot338+112=11266.
  \tag{407.6}
-\]
+$
 
 Its variable-column order is the109 free-core variables, the33
 physical blocks in cover order, and the3 controls. The code invokes
@@ -170,84 +170,84 @@ present before the additional elimination.
 
 ## 3. Conditional elimination of node461
 
-Let \(x\in\mathbb R^{338}\) be the hole coordinates at node461, and
-let \(y\) contain all remaining central variables, in the order
+Let $x\in\mathbb R^{338}$ be the hole coordinates at node461, and
+let $y$ contain all remaining central variables, in the order
 
-\[
+$
  y=(\xi_{109},\ z_{{\cal N}_L},\ p_3).
-\]
+$
 
 Permute only the variable columns of the complete central front so
-that the338 \(x\) columns come first; leave the affine column last.
+that the338 $x$ columns come first; leave the affine column last.
 Write the resulting squared norm as
 
-\[
+$
  \tfrac12\|Kx+Dy+a\|^2.
  \tag{407.7}
-\]
+$
 
 In exact arithmetic the central homogeneous form is positive
 definite. This follows either from the successive conditional
 minimization in R270 or by minimizing the original positive definite
 form over the already eliminated coordinates. Consequently its
-square root is nonsingular, and \(K\) has full column rank.
+square root is nonsingular, and $K$ has full column rank.
 
-Choose an orthogonal \(Q\) giving the complete prefix transformation
+Choose an orthogonal $Q$ giving the complete prefix transformation
 
-\[
+$
  Q^T[K\ D\mid a]=
  \begin{pmatrix}
   T&U&c\\
   0&S&d
  \end{pmatrix},
  \tag{407.8}
-\]
+$
 
-where \(T\) is338 by338, upper triangular and nonsingular. The
-transformation of \(D\) and \(a\) is the same \(Q^T\) used for \(K\).
+where $T$ is338 by338, upper triangular and nonsingular. The
+transformation of $D$ and $a$ is the same $Q^T$ used for $K$.
 
-**Proposition407-A.** For every fixed \(y\), the unique minimizing
+**Proposition407-A.** For every fixed $y$, the unique minimizing
 hole value is
 
-\[
+$
  x_*(y)=-T^{-1}(Uy+c),
  \tag{407.9}
-\]
+$
 
 and
 
-\[
+$
  \tfrac12\|Kx+Dy+a\|^2
  =
  \tfrac12\|T(x-x_*(y))\|^2+
  \tfrac12\|Sy+d\|^2.
  \tag{407.10}
-\]
+$
 
 In particular the conditional minimum is exactly the remaining
-affine squared norm \(\tfrac12\|Sy+d\|^2\).
+affine squared norm $\tfrac12\|Sy+d\|^2$.
 
 **Proof.** Orthogonality in (407.8) preserves the complete squared
-norm. Its upper338 components are \(Tx+Uy+c\), while all lower
-components are independent of \(x\). Since \(T\) is invertible, its
+norm. Its upper338 components are $Tx+Uy+c$, while all lower
+components are independent of $x$. Since $T$ is invertible, its
 upper components vanish at exactly (407.9). Substituting this value
 or completing that square proves (407.10). QED.
 
 Discarding the leading338 rows and338 columns *after* the complete
 rotation therefore represents their conditional minimum. It does
-not delete any original unrotated equation. It does not set \(x=0\),
-\(g_{461}=0\), or its response to zero. It does not remove a border
-or affine column. The constant \(f_0-\tfrac12\|h\|^2\) from (407.5)
+not delete any original unrotated equation. It does not set $x=0$,
+$g_{461}=0$, or its response to zero. It does not remove a border
+or affine column. The constant $f_0-\tfrac12\|h\|^2$ from (407.5)
 is unchanged. All residual rows left after the rotation, including
 any rows that no longer depend on physical variables, remain.
 
 For the actual support, the remaining front has10928 rows and10929
 columns:
 
-\[
+$
  11266-338=10928=109+10819.
  \tag{407.11}
-\]
+$
 
 Its variable order is exactly109 free-core coordinates followed by
 the actual10816 physical coordinates and3 controls. The original
@@ -263,41 +263,41 @@ the presently motivated use has the single hole461.
 
 ## 4. Equality with the original arbitrary-support Schur problem
 
-Write \(u=z_L\), \(v=z_E\), using the true \(L\) from (407.2).
+Write $u=z_L$, $v=z_E$, using the true $L$ from (407.2).
 The coefficients of the exact reduced problem are still those of
 R270:
 
-\[
+$
  \widehat H=H_{LL}-H_{LE}H_{EE}^{-1}H_{EL},
  \qquad
  \widehat g=g_L-H_{LE}H_{EE}^{-1}g_E,
  \tag{407.12}
-\]
+$
 
-\[
+$
  \widehat f_0=f_0-\tfrac12g_E^TH_{EE}^{-1}g_E,
  \qquad
  v_*(u)=-H_{EE}^{-1}(g_E+H_{EL}u).
  \tag{407.13}
-\]
+$
 
 The completed root satisfies, in exact arithmetic,
 
-\[
+$
  \tfrac12\|\widehat R u+\widehat h\|^2+
  f_0-\tfrac12\|h\|^2
  =
  \widehat f_0+\widehat g^Tu+\tfrac12u^T\widehat H u.
  \tag{407.14}
-\]
+$
 
 **Proposition407-B.** Eliminating the two exterior physical chains,
 then the interior hole461, then the109 free-core coordinates gives
-the same conditional minimum as minimizing over all of \(E\)
-simultaneously. Every original inequality remains \(B_Lu+c\ge0\),
-and \(\widehat H\succeq\lambda^2I\).
+the same conditional minimum as minimizing over all of $E$
+simultaneously. Every original inequality remains $B_Lu+c\ge0$,
+and $\widehat H\succeq\lambda^2I$.
 
-**Proof.** For each fixed \(u\), all the eliminated coordinates
+**Proof.** For each fixed $u$, all the eliminated coordinates
 range freely over their original real vector spaces. The strictly
 convex coercive quadratic has a unique conditional minimizer.
 Successive exact minimizations over a partition of those
@@ -311,12 +311,12 @@ No inequality involves an exterior coordinate, so these
 minimizations do not change feasibility. Finally, applying the
 same conditional minimization to the homogeneous quadratic gives
 
-\[
+$
  u^T\widehat H u
  =\min_v (u,v)^TH(u,v)
  \ge \min_v\lambda^2(\|u\|^2+\|v\|^2)
  =\lambda^2\|u\|^2.
-\]
+$
 
 This proves the Hessian bound and the claimed equivalence. QED.
 
@@ -326,32 +326,32 @@ complete square root and its orthogonal transformations.
 
 ## 5. Full recovery includes the hole and its original gradient
 
-Let \(E_L\) denote the coordinate embedding from the true local
+Let $E_L$ denote the coordinate embedding from the true local
 space to the complete236036-dimensional space. The exact recovery
 identity from R270 remains
 
-\[
+$
  Hz=E_L(\widehat H u+\widehat g)-g.
  \tag{407.15}
-\]
+$
 
 **Proposition407-C.** The unique solution of (407.15) has
-\(z_L=u\) and \(z_E=v_*(u)\).
+$z_L=u$ and $z_E=v_*(u)$.
 
-**Proof.** At \(z=(u,v_*(u))\) the exterior part of \(Hz+g\) is zero,
-and its local part is \(\widehat H u+\widehat g\), by
+**Proof.** At $z=(u,v_*(u))$ the exterior part of $Hz+g$ is zero,
+and its local part is $\widehat H u+\widehat g$, by
 (407.12)-(407.13). This vector satisfies (407.15). Positive
-definiteness of \(H\) gives uniqueness. QED.
+definiteness of $H$ gives uniqueness. QED.
 
 The inherited implementation starts its right-hand side with the
-complete original \(-g\), then adds the condensed force only at
+complete original $-g$, then adds the condensed force only at
 `self.local_indices`. Those are the true10819 indices. Therefore
 the entire461 block of the recovery right-hand side remains
-\(-g_{461}\). The original complete `solve_H`, and its mandatory
-same-\(A\), same-\(A^T\) readback, are unchanged.
+$-g_{461}$. The original complete `solve_H`, and its mandatory
+same-$A$, same-$A^T$ readback, are unchanged.
 
 The returned full vector is used as actually recovered. Its local
-coordinates are never overwritten with the requested \(u\).
+coordinates are never overwritten with the requested $u$.
 The recorded local mismatch is retained. The exterior-gradient
 diagnostic masks only the actual local coordinates, so it includes
 all338 coordinates of461 together with every other exterior
@@ -359,31 +359,31 @@ coordinate. Original constraints, the original whole quadratic,
 and nonlinear merit/domain evaluations remain based on that full
 returned vector.
 
-For an arbitrary actually returned pair \((\widetilde u,\widetilde v)\),
+For an arbitrary actually returned pair $(\widetilde u,\widetilde v)$,
 let
 
-\[
+$
  r_E=H_{EE}\widetilde v+H_{EL}\widetilde u+g_E.
-\]
+$
 
 The exact a posteriori relations are
 
-\[
+$
  \widetilde v-v_*(\widetilde u)=H_{EE}^{-1}r_E,\qquad
  \|\widetilde v-v_*(\widetilde u)\|\le\|r_E\|/\lambda^2,
  \tag{407.16}
-\]
+$
 
-\[
+$
  f(\widetilde u,\widetilde v)-\widehat f(\widetilde u)
  =\tfrac12r_E^TH_{EE}^{-1}r_E
  \le\|r_E\|^2/(2\lambda^2).
  \tag{407.17}
-\]
+$
 
 These are the existing R270 posterior statements. They apply at the
 actually returned local coordinates, not automatically at the
-requested \(u\). The inherited binary64 diagnostic values are not
+requested $u$. The inherited binary64 diagnostic values are not
 validated enclosures. No extra acceptance test is created from
 (407.16) or (407.17).
 
@@ -427,7 +427,7 @@ supply a hidden fallback to the old contiguous-only call.
 Several numerical layers remain separate:
 
 - the rounded complete factor and its relationship to the original
-  \(A^TA+\lambda^2I\);
+  $A^TA+\lambda^2I$;
 - the finite complete affine solve and its full linear-term
   readback;
 - the extra338-column QR, its finite orthogonal transformations

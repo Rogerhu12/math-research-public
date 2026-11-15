@@ -530,3 +530,7 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 21:37 UTC /root — R391实际184完整原读回
 
 [R391](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)17148B/35d97b51全文核后即发：真180确定性恢复、新C1440/两query粗包围与factory/deep112齐，2883工作宽未付；far m2实际row18/piece4/d32正范数失付，33栈/后续[19,10387)/111模式/全BVP未起，非传播资源。五必要帧同compute、六读回success/quiet后确清；187正端点独立继续，H原9929B逐字检查点后压缩，open§4–6不动，完整任务仍未付。
+
+## 2026-11-15 21:43 UTC /root — R407公式分隔符按根规矩4统一
+
+将[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)行内/独立公式统一为根README要求的美元符号分隔，数学命题、证明、13361B adapter与全部科学来源/预算不改；当前191全链源继续补独立进程组超时退出后的归属/静止读回，192完整入口及R400接口并行核对。
