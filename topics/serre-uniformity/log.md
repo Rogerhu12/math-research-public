@@ -644,3 +644,7 @@
 ### 2026-11-15 19:06（Asia/Taipei）｜serre-public-astra-20261115
 - R806 coreb014f9b3/wrapperb199f040/request8ab0ac3a全文审完，绑定R805真实全认证来源后直接激活原primitive乘法；源码AST及完整输入选择在公开Actions数学执行前做，原I/alias和已成stage不重算。
 - 新增本课题workflow `.github/workflows/serre-p41-original-primitive-multiplication.yml`；仅一日active checkpoint，无raw Git/Release。R803 IO全过，真实pull11:04:01.494034UTC到f59c795两README无变化，H同步；下一步登记R803与续R787。
+
+### 2026-11-15 19:08（Asia/Taipei）｜serre-public-astra-20261115
+- 登记R803实际694维M6结果：prime1000000007/det637607829，六组×14全部368 Dixon位/full1680，2127.991746秒；原坐标/尺度不变，完整31manifest项/33ZIP/781原输入和冻结verify已核。
+- 全84右端完成不再重算；R806已source75b1d56/run43707290840激活，原R787仍跑，R807 core/wrapper继续。实际函数、极除子、η/高度和全p主问题尚缺。

@@ -16,7 +16,7 @@
 
 **R792** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)及工程冻结，仅pending待R787。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d/wrappercdac2e93be2082ee9a9401db44c944689a6d853d541b0819a4d1408c84134b3e。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根；21次Q分解唯一奇因子+三次gcd。先原CM值/首jet，四值全零才补高jet。只真β_C/vβ，不选原A有限核前像。
 
-**R803已实际成功**：run43702905620/source2a3f5be7；core1233536f/wrapperb8cedc8f。2127.991746秒，真实694块p1000000007/det637607829，6组×14右端均368 Dixon位/full1680准确代回；31输出manifest项、33ZIP文件和781原输入经纯IO run43707079568冻结verify全过。artifact14158313322/196959640B/SHA726bc2dc至Nov16 10:47:43UTC；cert9b2854ac/manifestc799e14e。尚无原y函数、极理想或η。
+**R803已实际成功**：[结果](results/R803-certified-original-M6-mixed-Hodge-ratios.md)。run43702905620/source2a3f5be7；core1233536f/wrapperb8cedc8f。2127.991746秒，真实694块p1000000007/det637607829，6组×14右端均368 Dixon位/full1680准确代回；31输出manifest项、33ZIP文件和781原输入经纯IO run43707079568冻结verify全过。artifact14158313322/196959640B/SHA726bc2dc至Nov16 10:47:43UTC；cert9b2854ac/manifestc799e14e。尚无原y函数、极理想或η。
 
 **R801长尾已完整认证**：[结果](results/R801-certified-original-power6-to8-long-tails.md)。run43701282817/source92961ce5，796.738575秒；V6到141/V7到175/V8到195，完整30781输出/30773stage、1.05GB ZIP、10477原bundle成员及冻结verify逻辑全核。cert1fbcd66f，artifact14156204348至Nov16 10:06UTC。实际全部power2..5也到195；七八铅笔V3至136/149缺口已关闭，直接复用。无新函数/极除子/高度。
 
