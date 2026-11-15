@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RH：已知selected残差的精确频带与完整高源](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73：同moving角f0≤96、s0≤160、fδ≤288；H96无F0费，固定νδ state展开给H160二/三次及H224纯三次，全部mean/repair保。只解析完整源公式，无新数值或unknown高模支撑声明。
+
 - [CY：精确Cayley主因子比值及条件scalar gap](results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md)：opposite实mean的完整比值给unitary Cμ，有序strong correction逐项含nonmean；actual Ei/Eo/fullBi逆及S的三个非交换项/ES分窗全保，无独立μ²。原B13仅解析继承|j|≥1024新尾；97..1023两sign四roots7416新门仍待，旧native Jβ不能放大。root/phase核，无新数值或全PDE逆。
 
 - [ST：真实截面到waist的完整strict尾接线](results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md)：SP旧曲率费已覆盖ra，只新付rs→ra非径向矩阵及ra→P22尾；最后尾仅读TN/RR完整原fields，须germ覆盖/正分母新门。双向ordered产品、ng、ordinary source/独立jump/两mean及RR四同case列全保，TN/TC state顺序明确。条件解析已核，新scalar待公开Actions，非incoming/完整R0。

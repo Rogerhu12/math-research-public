@@ -43,9 +43,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [AC/CN/EN/LN完整正规化链](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d及原proof全式/域/mean/μ²费用逐字保b2476f272c6223b7f8305abe6694de4fed690468同open/H。AC真H密度、CN全mean精确ODE/Jensen两窗，EN须直接signed指数reference不可upper相减；LN只成功SN双四列经真D/√j及μEj一次给d/C/Wiener，强Q与独立μ²aI/2不删。尚无SN终点，非incoming或R0。
 
-[IC逐分支首系数与root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7原全式/域/双χ保bfa0650ced19b0081f8a334ae442b931474780ae同open/H/proof。F*degree192、T_F两窗与完整finite≤JF+191/mean/真density两rank齐；共同gauge后ci=−μ/2+vi、co=μ/2+vo。成功SN四列经真H/rotation、D/√j及half μerror给d/C、W4/3≤243C2/160；不以H3除频捏造低导。strongE/完整finite/incoming/R0仍待。
+[IC逐分支首系数与root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7全文/原域/双χ/finite≤JF+191/mean与两rank保385b187762c145003d9b98cb2619af42b3e6cc14同open及proof。非零root幅先共同gauge，ci=−μ/2+vi、co=μ/2+vo；成功SN四列经真H/rotation、D/√j及half μerror给d/C/W4/3，不能H3除频代低导。实际strongE/finite/incoming/R0仍待。
 
-[MI全圆周非零均值主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca：实c的完整1+McI由正kernel/Jensen严格dν≥1与m/κ全mean公式给两侧逆，ν=0连续且不等几何ν。精确实常量逆收缩，ordered公式给L2 K0和H−4/3 K−，均不随|ν|增长；SN终点仍须支付实际nonmean完整norm。若真正Bi=Ti+Ei且Ei:H−4/3→L2已付Ci，先完整左Ti−1后双窗high同χ=K0CiΛJ^-4/3；实际RHS分别用K0/K−。有限Schur和全物理行必须按precondition后重读，独立mean/rank全留，不能借旧finite Green原行。root全文、phase8–21/tail24–28核；本项无新计算，非actual Ei/incoming/R0。
+[MI完整实主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca完整式/域保385b187762c145003d9b98cb2619af42b3e6cc14同open及proof。正kernel/Jensen dν≥1和m/κ含全mean，ν=0同一两侧逆且ν非几何参数；K0/K−不含|ν|。先支付实际Ei:H−4/3→L2的Ci，再完整左Ti−1，双窗χ=K0CiΛJ^-4/3、RHS各K0/K−。物理finite Schur/mean/rank须按新顺序支付，不借旧Green行；SN终点norm和全incoming/R0仍待。
 
 [CY精确Cayley比值与新scalar门](results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md)9a4e41c2：same-chart ToTi−1=Cμ+MvI+有序Ecor，Cμ实unitary，Ecor逐项含nonmean、右Ki,-；actual Eo−A Ei仍须全Bi−1负窗。cohomology S保三个非交换项及ES，左Kw,0/右负窗分型，原linear μ²费用不免费删。Cμ对exp阶−3仅可选新比较。B13/actual Jβ仅继承|j|≥1024的1/(1024|j|)尾；97..1023共7416 signed/root门待全新directed检查，γfin未给，成功后才loss1常数1/(4γ)。wider显示区间不获旧无限算术，true背景需稳定性。root全文/B/两原小process及新SCI/worker完整新diff核。唯一新包SCIe7c536e6/workere7a0fd43/manifest8c40bc7b/flow1e0f0cd2已部署，6小83759B/2AST/18结构门，等待push原run；Ei/Eo/incoming/finite/mean/core全保。
 
@@ -108,6 +108,8 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [RF完整核心残差复用](results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md)c4723121：原43613560173/1/6的Z summary/process原字同，全部7721源/rawmean+五repair项已付，inner full/low193分别<1.574741e−6/<1.570993e−6，不再补384EZ。原7296 global ordinary U/V L2经物理α一次给raw core安全上界；Qrepair degree32且径向piececonstant，f0≤96含mean，WL B*/G*与169、49/4等完整coeff支付field difference。D43713242980/1/12原d1e−10完整B(d)由R星形缩放给δ²/(2d)项，RF14/15 full/low实际rδ公式已闭。root原Z/source/pilot/merger/Qrepair/R/D/WL与双peer核；[CR唯一新consumer](notes/2026-11-15-R133-complete-core-residual-restriction-contract.md)206a2d56已部署：SCI59f9130e/worker96401306/manifest88a73283/flowd708b5bf，21小388107B+3原Git parts/18门，等唯一公开run实际回执。只新增原7296逐row与[0,.9]真交长平方和及完整修补/selected组合，不能按global长度比；旧Z/global积分不重算。未知high、cutH1、γ、affine与true core/匹配均未付，旧成功禁重。
 
+[RH已知源精确频带](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73：同moving角、同δ/η0与全mean，f0≤96、s0≤160、fδ≤288。H96无F0项，界|δ|SH+δ²Dcore/(2d)，SH仅读旧inner high完整记录，不作upper平方相减。固定νδ展开state得H160二/三次、H224纯三次，WL/7/6/19/83给未求值全core T2/T3；径向√L一次。只known forcing，未知high/cut/换角/γ/有限193其余源均未删；CR不重算。
+
 [SA完整有符号仿射接收](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba原全式/域保7794d473同open/H/proof。Hessian准确消去仅formalGram，全97/mean/outer/jump、selected左端与缺陷关联费用都保；SA29–31用known左端减Δ而body/outer仍原y，非global recenter。旧QR/7908成功禁重。
 
 [SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
@@ -151,8 +153,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
 
 全部旧删除、restore、原scope、producer/输入/参数/失败逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9本节及H/log，原白名单继续保留；归档不授重算。四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint的恢复与完整SHA均见该档和各原清单。
-最新[三份旧step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588：普通删除1221901B；原producer/对象/root/H/精确证书/active inputs及全部反射/插值失败保。恢复8870549d52e48343cb43a979a13f9368cb992736同path/Gitblob/bytes/SHA，成功诊断禁重。没有history rewrite。
-本次[两份旧Newton预测geometry清单](notes/2026-11-15-two-Newton-prediction-floating-geometry-output-deletion-whitelist.json)1fcc7238仅普通删814736B。完整Gitblob/bytes/SHA与精确原argv由实际Newton manifest/检查点提供，恢复8870549d52e48343cb43a979a13f9368cb992736同path；全部NPZ/H/精确证书/实际ray/失败/源保持，旧成功禁止重算。
+[三份step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588与[两份Newton预测geometry清单](notes/2026-11-15-two-Newton-prediction-floating-geometry-output-deletion-whitelist.json)1fcc7238分别普通删1221901B/814736B。两清单保完整原producer/argv/path/Gitblob/bytes/SHA，恢复8870549d52e48343cb43a979a13f9368cb992736同path；全部源码/NPZ/H/精确预算/实际ray及反射/插值失败保持，禁重旧成功，无history rewrite。
 
 每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机19:39:05定时CLI仍无executor，下一定时真CLI≤20:39；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
