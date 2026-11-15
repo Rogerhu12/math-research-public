@@ -544,3 +544,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 149持久Decimal50完整有限模型与响应
 
 [149完整接口](notes/2026-11-15-persistent-decimal50-nine-control-primal-response-interface.md)15969B/9794f4f5及九件全文已读即发：真实146末p/radius准确lift，699/三完整2×2/全112右行与九轴、两P、QR、owner同Decimal50；100+7pins/父33当前36/四输入及原门全保。单8方向75min科学/90minjob；原64投影54FD/Arb/453与实际高精度点另组FD不混同，完整错误与所有normal原字读后清。终端恢复后新partial clone与13:41真pull868de22c双README未变，CLI接续；不预付改善/非零场/连续g。
+
+## 2026-11-15 /root — R330公共坐标中心差与目标相对系数界
+
+[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)证明固定字面数值lookup分片上N−A由中心差及全段导数差闭包含，真实L和字面ℓ均保；由正准确半径与差界得2ρ+ρ²，配径向比进入R326共同合同变换。数值接缝两侧闭值、完整九控制及所有可能准确分支不删；盒宽可限制精化，未给实际δ/场。151消费者继续；147compute/report已success待完整读，149已实跑待R329，均不预填科学结论。
