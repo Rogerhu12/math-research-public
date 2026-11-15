@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "dc425c954db25a64d509070e4a38b0c8e9d5b693",
+  "rulesReadAtCommit": "08b5c59698e361935d3e57c7e3d46b354564f669",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -273,6 +273,59 @@
       ],
       "timeoutSeconds": 350,
       "receiptPath": "{work}/two-full-first-field11-out/two-full-original-first-connection-field11-receipt.json"
+    },
+    {
+      "id": "higher-two-regular202-mappers-preparation",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-higher-two-regular202-mappers-preparation-789f.py",
+      "scriptSHA256": "a2e8fa4aa6d26c74b2f8000fb33fcda4b558021ab674582eecbd2c86edb9847e",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-high202-source-transport-789f.cpp",
+          "sha256": "d0748649a3cd280fb620c85c61b82cb9d6c6fabeef8e9db81afaf9b9b01a4b2c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-outside202-left-transport-789f.cpp",
+          "sha256": "92e534d74d465f99043ec293bdd5a82a67c661309767e42e476bf765e1244262"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43736746064-higher-kernel-original-216-source-preparation.json",
+          "sha256": "ba8bd267563e7cb24f49704c76d0f12a5226e2255d5a3b70ffa7249e90f6b484"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{native_model}",
+        "--selected-receipt",
+        "{selected_receipt}",
+        "--paid-source-summary",
+        "{scripts}/43736746064-higher-kernel-original-216-source-preparation.json",
+        "--source-native",
+        "{scripts}/2026-11-15-r150-original-high202-source-transport-789f.cpp",
+        "--outside-native",
+        "{scripts}/2026-11-15-r150-original-outside202-left-transport-789f.cpp",
+        "--source-prepared-out",
+        "{work}/higher-kernel-original-216-source-preparation",
+        "--full-out",
+        "{work}/full-infinity-natural-dual-schur-through32",
+        "--outside-out",
+        "{work}/koszul-outside-natural-through35",
+        "--out",
+        "{work}/higher-two-regular202-mappers",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/higher-two-regular202-mappers/higher-two-regular202-mappers-receipt.json"
     }
   ],
   "previousSession": {
@@ -282,5 +335,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Original216 rebuilt; full32 and outside35 completed with all66 paid old prefix files matched on each side. Evaluate the complete original s=2 first connection at good11 using all6188 sources and22 constant heads; no rank or characteristic-zero equality is prefilled. Continue202 source and outside-left mappers."
+  "mathematicalProgramStatus": "Complete original s=2 beta1 at good11 actually7; true rational15 heads give beta1,Q=7. Original216/full32/outside35 complete. Prepare independent regular202 source and outside-left mapper heads through21 with losses11 and14; complete original native transports and higher quotient remain unexecuted."
 }
