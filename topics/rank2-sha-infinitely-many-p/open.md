@@ -137,3 +137,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 - [R832](results/R832-original-triple-chow-purity-and-rank-zero-contractions.md)：原八维三重张量在真正Chow动机中分成原λ与三个Lefschetz乘权一因子；Artin扭曲只用h1全忠实性，CM混合对由Scholl乘法同构收缩。R757全共轭轨道非零中心值、BFH所需分裂辅助域和KL原假设付Aγ秩零，CM二次自扭给K点秩零；另两参考曲线同样，故三混合CH²全零。R831唯一端点类严格纯λ，三个ordinary AJ槽全零；端点非零、λ Chow维数及R814比较仍开。
+
+
+- [R834](results/R834-original-three-long-euler-blocks-and-complete-ramification-ideal.md)：原Γ4三条真正长Euler窗在h<T_M=s−r−13≤2h、T_M>2κ时排整个分歧理想FH2+eH2的首核；真qsrc/charge40/全部低尾经单位下三角运输，单位Smith秩≥1+(7κ+3χ)/2。贴边准确h≥max(14,κ+7)，全H3剩核注入H0N³(−T_MP)再入原Z。严格须已付同WD整返回，旧三块两长一短、全来源其余核、中央→深核及高次lifting未付。
