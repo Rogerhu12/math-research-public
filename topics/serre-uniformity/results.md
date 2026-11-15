@@ -449,3 +449,5 @@
 - **R822（已证明）**：[原两图极格的实际全局余长度认证](results/R822-original-polar-lattices-certified-by-global-colength.md)。原MAH=MBW全式给底环子格包含原极理想，双向Laurent拼接，真实τ全det次数＋σ在0局部det阶与独立1206相等迫完整；不预设R理想，不必保存整个char0列消元。原b模分解的各真因子×ζ两root全部恢复14块，严格候选/全原式/拼接/长度终验仍必需。尚无原候选输出。SHA fdc5dc20adedad42bbb12ce04c006bc413b35993878095fd686ab0799931b231。
 
 - **R823（已证明，在原M2,1≠0下；充分大全p由R729）**：[每个非零原primitive L-Hom在原c1不分歧](results/R823-original-primitive-Hom-CM-nonramification.md)。有理c1/s=a−1使λ(Tv)=ρσλ(v)，评价核在原E-rank1 Hom中只能0/全体；实际isogeny的Hom拉回基和原M2/16非零排全体。保c_h/β常数/c0与真正整Hom；R729已有common m1仅复用，不新增数值阈值、p单位、深度4结论或height外积精确阶。SHA 383cfc2184297dc5f485d8255db11a650b0e4aac703fa89c18da36b18b40db7e。
+
+- **R820实际完整成功**：[原有限cusp代数和两图完整理想](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)，run43721747750/source7890fde1，36.411901553秒。两图真实rank20/colength20/292步/5380非monic系数，d271=20其余0；全部关系/准确非零20minor/两图运输通过。600ZIP/598manifest/590stage/289原输入和冻结verify全IO；原C可直接消费，不重算大导子像。20链另给原Z实际生成F20，未给一般极理想/eta/高度。SHA 7a9293bdb2f0fe345ba3a482702264054bde747aa75a6dec6d33f345398e3ce8。

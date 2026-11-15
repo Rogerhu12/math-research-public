@@ -129,3 +129,7 @@
 ### 2026-11-15 21:57（Asia/Taipei）｜serre-public-astra-20261115
 - R820实际输入IO全过：R813载体449输出/726原成员逐SHA，直接选R805282＋R8067=289文件，273旧S3行全recipe；最小bundle5531989B/SHA157ebfb6，无本地数学。
 - root已全文核core/wrapper/method/workflow并采纳旧分布schema单断言修正；core25f5582e/wrapper64da6955/request6eb90ef0公开激活，60/90分钟/一日checkpoint。两图实际rank/minor/HNF待算，不预填结果；主目标OPEN。
+
+### 2026-11-15 22:06（Asia/Taipei）｜serre-public-astra-20261115
+- R820原实际两图理想登记：run43721747750/source7890fde1，36.411901553秒，rank20/colength20/各292步/5380非monic，真实d271=20；20链纸推Z生成F20。结果 7a9293bd。
+- 原600ZIP/598manifest/590stage/289输入全IO＋冻结verify过，ZIPd09c6d70/artifact14164872449至Nov16 13:58:47UTC；机器raw不入Git。C直接接R814，H逐字归档压缩，R787/R809/R815仍运行，主目标OPEN。
