@@ -17,7 +17,7 @@
 - **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
 - **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同run43679903558只接486→768，实际数学103.691783465秒/编译4.072821423秒，512/640/768全4367新鲜整数乘回及自由I36真；39重建未成、69旧核相符，仍23真核。有限31-Smith估值下界不作有理核。
 - **[23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 0.399616051秒，低次恰10，110乘积越界rank98/核12，12合法倍全6188等原23span；新增0，不能排余13核。旧13核闭包及同D居中候选已闭。
-- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。[共同26维候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)也已完成：15.251823463秒、26个基行全原4367乘回非零、新维0；仍23真核。观察仅13行，候选失败不排格组合。后继先查原17式线性/二次分块及精选来源次数，不继续无目的改观察坐标或重旧位。
+- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。[共同26维候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)也已完成：15.251823463秒、26个基行全原4367乘回非零、新维0；仍23真核。观察仅13行，候选失败不排格组合。原次数结构显示旧观察全在degree≤1、余自由全部degree3，现同job接唯一two-degree-block-joint-lll-p768：degree≤2/degree3各取模31行基、最多39维，60秒512MiB；全原乘回/自由Qrank接受，等实绩。其后优先原分次syzygy/精确小块，不无限LLL。
 
 ## 同w边界：完整返回仍须费用估计
 
