@@ -141,3 +141,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [原216来源直和已实证](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)以整数Φ_H(0)的1632阶子式mod31=15证明[Φ_H,E216]在Z_(31)[[u]]可逆，完整原核分解由此成立。SE只需216实际列；两DVR上的核秩202不代替可良好约化的显式202基，源回填和两mapper仍须全原核验。
 
 [完整normal3高核及首项稳定](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)实际以F11 rank988与两真Q核夹逼，完整990列高核恰二维；结合全609低系统，所有normal≤3一阶校正仍仅十五首项。normal4/5及完整β1转原好11的整单位连接夹逼，不能仅用行内容缩放后的H3秩代整个参数族。
+
+[完整原二点第一连接实际回执](notes/r150-source-kernel-session-789f/43740928483-two-full-original-first-connection-field11.json)已覆盖全部normal4/5：同原常单位在好11下实得β1=7，与15真有理首项的上界夹为β1,Q=7；完整首项恰十五维，任意真第一校正的九平方读数全零。此前“完整β1/normal4/5未覆盖”状态由此关闭；二阶及完整局部成员性继续。独立双202准备现在使用full32/O35真实原系数、分别支付11与14的精度损失，仍须两个完整原native运输后才形成高商。
