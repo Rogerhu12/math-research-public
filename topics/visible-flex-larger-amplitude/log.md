@@ -230,3 +230,8 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 
 [完整接口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)16457B/1da7ba9b和helper全文、原TailClient全文及四件完整diff已读，逐字从actual120明确base重放同新源，99原pin+4新核同。保真实record/context/原数学拒绝与协议partial、末H原词全J/FD/同owner原fullDN/finalaudit；无本地AST/科学或未来数值。
 新增.github/workflows/visible-larger-public-six-control-height-path.yml，用本公开Actions执行新124请求；103pin/300min/330step350job/2700s规则pull及读后清理，无raw上传。
+
+## 2026-11-15 09:14 UTC /root — 发布125真实九末点单批接续；124已运行
+
+[125接口](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)10383B/a8675b33及完整request/workflow diff已读且由原9744逐字重放核同，2289B recipe ed40e690九p与actual123原JSON字面逐项同；83+2pin/原预算不变，own26/反事实zeroeta边界保留，无本地科学。124 run43698138088/sourceb1df8ec3/job132763110680已进入step10，首次发布ref并发后即时重读新父重建成功。
+新增.github/workflows/visible-larger-public-small-core-nine-control-resume.yml独立触发125，保原完整分段reader和公开Actions，未改123或其科学源。

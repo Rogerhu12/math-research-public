@@ -105,3 +105,5 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [九控制三active完整非零112适配](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)已发布source00e4d2c3：完整9系数、固定六shape、三active与453维/全部112右行保持。原807f完整FD/fullDN数值主体仅身份及变量名改接，实际当前H必须先原native全J，之后原FD/同owner fullDN/finalaudit全付；不要求低三先达阈值。未预选参数、λ或run，尚无实际场；旧v3/v4不能丢shape后改标签，同g450全9冻结/K=k=0重构责任仍未付。
 
 [124完整原H路径入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)已发布helper e830a167/adapter557f3aab/wrapper0836ed33/reader4a0ab4a7/requestb76f94ad/workflow7a4b1c05。120相同真实六参数与λ=.001重新完整预检/true_height，103源/4原输入/2ready/78历史源；同原worker零H→完整H(s)，首1/64、原数学拒绝缩步，协议/record异常partial，不伪last或checkpoint。末s1直接原H_*词并要全J，随后原FD/fullDN/finalaudit；原300min及所有门不改。首次请求是零，实际目标读actual_current_H/H_star；没有124成功预填或本地科学。
+
+[125原九控制单批接续](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)已发recipeed40e690/request31bd2312/workflow1dfa0c45，实际123末九p及来源逐字核同，原83+2pin和26→26闭包、完整科学argv不变。显式.1 reset，原8×20/12×20与全final；eta非零保真，零eta对照只是原反事实evaluate且异常仍可能准备期中止，不冒旧6J或改接受门。124实际run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48创建，已进原完整H路径science，尚无科学结果。

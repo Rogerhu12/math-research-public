@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:13:27 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ecadc6ef234295b6d58fbd60e68030c68b5a2f5c。
+规则同步记录：2026-11-15 09:14:11 UTC root因终端服务不可用按根第8条以GitHub集成读取main 3f4d981574d8fa740aae037d2360ca08299ab62f；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3f4d981574d8fa740aae037d2360ca08299ab62f。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
 
 只在公开Rogerhu12/math-research-public，科学计算/模块导入/数值测试只本库Actions；本地/code-mode只源/证明编辑、原输出字段选择、语法、元数据/hash/Git。PAT仅终端瞬时环境，不写文件/Git/回复或传连接。
 
@@ -30,14 +30,15 @@ root唯一tree/commit/ref/H/open/log/workflow发布者；代理可仅create_blob
 
 [119](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)/[121](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)各8/5批均各8接受、全final false。121第5 normal93000B触fallback16702B/24c3，wrapper70是transport；五status/trace原reader均读全/删，根前4normal及第5final/FD已读，未读第五trial不补造。
 
-[123实际](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)run43696642468/source9744b760bff8a83f0c08a1ff910a4eec53796fad/compute132758550957/report132758759774均success。8方向8接受/17外trial，W738.1754024784359→431.4178353348037；末unit首项−29.374061331326562，全部最终/native仍false。完整17行/初末九FD/新Arb1133叶0未解/原453零circle已读，dir5 alpha.25 inner tol=false仍原Armijo接受；不补门。primary62682B/4a2e32af、status1841773B/661703c9、完整view118661B/fb9cef3c，8完整group逐字重建hash吻合，无遗漏；raw读后原cleanup删除。
-[123入口](notes/2026-11-15-actual121-to-nine-control-curved123-interface.md)/[reader](notes/2026-11-15-nine-control-segmented-scalar-readout-interface.md)：family086572f9/search824c0967/readerf57a7dfa、83+2pin；3×9/12×9、2normal7tangent、原8×20/12×20/full3门。eta0的25数组对照只evaluate，不冒独立旧六J核。125由真末九p按同源26→26闭包、.1 reset接独立8方向，amplitude接请求，尚无125run。
+[123实际](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)run43696642468/source9744b760，8方向8接受/17原trial，W738.1754024784359→431.4178353348037、末unit首项−29.374061331326562，全部最终/native仍false。九FD/Arb1133叶0未解/原453零圆及全部17行已读，dir5 alpha.25 inner tol=false仍原Armijo接受。primary62682B/4a2e32af、status1841773B/661703c9、8组重建view118661B/fb9cef3c吻合，无raw留存；末九p见正文。
+
+[125独立续算](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)已发recipeed40e690/request31bd2312/workflow1dfa0c45；actual123真末九p逐字核同、own26→26、83+2pin全保。family086572f9/search824c0967/readerf57a7dfa不动，半径.1 reset、原8×20/12×20、full3/九FD/新域/原circle均重做。零eta辅助仅反事实evaluate数组，非当前点/旧六J；原未局部捕获异常的边界如实保留。暂待125run；amplitude做原8方向多批同job真status串接源，未选未出结果parent。
 
 [九full112完整源](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)43641B/00e4d2c3与接口15049B/debc3fe4已发，原807f完整差异逐项核同。固定6shape/3active仍453、完整原H/J/FD/同owner fullDN/finalaudit不变，未预选正λ或未来场。旧v3/v4不吃九shape；真正same-g全9冻结、K=k=0/450仍需独立完整重构。
 
 [120实际](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)run43694844403/sourceace38440/摘要19463B/4f2be484：119第3批真六p、λ=.001、807f/原配置/99源。699节点/中点/两RMS通过，首完整112H withJ用63.878s被原momentum D/S/A拒绝，lastIteration=null，无J/FD/fullDN/audit；87.784s非预算，owner关闭/临时payload已删。不能定位角/r/D/S/A，不能称无解/浮点底线。
 
-[124完整入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)已发：helper e830a167/adapter557f3aab/wrapper0836ed33/reader4a0ab4a7/requestb76f94ad/workflow7a4b1c05，103pin=原99+4、四输入/两ready/78原源不变。真实同owner零H→全112H，首1/64、成功×2上限1/4、已绑定原数学失败/2；最小2^-20/64calls/300min仅资源partial。noJ仍原Newton全J，zero warm无效照原cold fallback；s=1直接原H_*词+完整J→原FD/同owner原fullDN/finalaudit。IPC/记录/未知失败停编排不缩步，原worker last不手改。helper/原client/全部精确差异已读，暂待实际run，旧807f/120不改。
+[124完整入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)已发：helper e830a167/adapter557f3aab/wrapper0836ed33/reader4a0ab4a7/requestb76f94ad/workflow7a4b1c05，103pin=原99+4、四输入/两ready/78原源不变。真实同owner零H→全112H，首1/64、成功×2上限1/4、已绑定原数学失败/2；最小2^-20/64calls/300min仅资源partial。noJ仍原Newton全J，zero warm无效照原cold fallback；s=1直接原H_*词+完整J→原FD/同owner原fullDN/finalaudit。IPC/记录/未知失败停编排不缩步，原worker last不手改。helper/原client/全部精确差异已读。run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48创建，已进step10原science，无结果预填；旧807f/120不改。
 
 ### 118新增真实MID471运行中
 

@@ -24,3 +24,5 @@
 - [九控制完整非零112设置层](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)：source00e4d2c3固定六shape、原三active/453维及完整112行，真实H/native全J→原FD→同owner原fullDN/finalaudit。源从807f逐项接新九family，尚未运行，无参数或λ预选；同g450重构与旧v3/v4差异明确，非实际非零场结论。
 
 - [124完整H(s)同worker实验入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)：真实120首请求D/S/A失败后独立bootstrap，原全部112H/原求解接受/64请求与总300min资源范围；末端直接原H_*全J，之后原FD/fullDN/finalaudit。源helper e830a167/adapter557f3aab已发布，无实际124结果；协议/record歧义不伪数学拒绝。
+
+- [125实际123九末点单批接续接口](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)：原family/search/reader和83+2pin不变、own26→26，真末九p逐字绑定正常分段primary，.1重置/原8方向及全final。反事实zeroeta只比较evaluate数组，原辅助异常可终止准备；没有新的实际125数值或接受预填。
