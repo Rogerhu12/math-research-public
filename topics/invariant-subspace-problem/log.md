@@ -122,3 +122,8 @@ normal4复用实际高块/profile，排130 RHS五批完整保存与全1736 Schur
 
 step19实际source c74ee7095cdb729b200fc0874e9a3fcb2d728cbb，外层660.179500199秒exit124，无数学回执及错误尾；未计新阶或新头。
 立即排原只读inventory检查新checkpoint，不重顶核；按已成phase改用实际RHS求解接续。
+
+## 2026-11-15 12:12 UTC — normal5高块与第六已付常单位
+
+只读inventory实际0.025604906999秒核三个verified phase：2295×10 RHS、990×2常核、988²单位；无inverse，改仅新RHS分组接续。
+normal5源8c671b27已全文审及原小核/中断核验，排60秒/2GiB仅消H5且保全部H4/DAG。12:09:47本地实际pull至a934b45c，两README无diff；旧H全文归档。
