@@ -301,3 +301,5 @@
 - [R143实际：一般J固定六列原差仍未决](notes/R143-general-pure-J-fixed-relation-unresolved-20261115.md) — actual43656084792/source82f3a12只消费J与六个既有原列，392原项→65项sound代表，1.282s/RSS95.469。零新响应/profile/幂尾/mixed；非零NF不证候选为假或pure非成员。下一只J对已发40完整基列的一般pure像成员门。
 
 - [真实细角Jac一步跨过固定曲率70](notes/curvature-mixed-grid-target70-actual-result-20261115.md) — 43655713308/source d21c87a在同g/b0/163与原门下，一个LP全步即得d0d635，384/768 κ69.991076/69.991064。保3887粗行+94细行，全部物理组/遗漏违反为零；fineη.267199090914仅余9.09e−7。下一同缓存、同总预算的成功后降目标阶梯，未授连续reach或精确等距。
+
+- [R146：五族完整商协变与80起始条目](results/R146-acceleration-family-quotient-covariance-and-eighty-seeds.md) — 任意商泛函经真实端口补偿、八矩乘子及时长权分离，得到H^e[F(S_Hd)]=P[F(S)]于U/R，故ω_j=N^jω0/j!。已发表五族314条目化为80个ω0起始条目（每族16），只成员问题缩减、不宣称80维或有符号控制；下一仍只J。
