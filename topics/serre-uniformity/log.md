@@ -524,3 +524,9 @@
 - 共享正残差先除M后评价；69A70B/1521打包/146行/γ幂2..70和D_0实际branch评价均明确，每5块及每候选三阶段原子断点，当前无实际Ω值。
 - 完整统计只指98个前缀决定，所有原函数/beta/height成功标志保持false；core与runner继续对接，下一位只在公开Actions计算。
 - 本push规则：本地真实pull至6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8（2026-11-15T20:38:46.937266+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 04:40 Asia/Taipei — serre-public-astra-20261115
+- 激活R806已成列1小IO readerf1dd8b3c，取原run43707290840/artifact14161637987的group000及真实基接口，仅读列0/1，不重W/乘法/CRT。
+- 原列1分母文本虽仅一位，未读分子前不认作单项式；以真实S_row映射和准确支撑判原基关系，完整列只在一日artifact。
+- 固定C方法01f4a93d已推，Ω core/runner已完整落稿并正在按原字段对接，尚未启动算术。
+- 本push规则：本地真实pull至6cfc9939e649e0d83478924b1048b77e37a621e0（2026-11-15T20:40:27.951464+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

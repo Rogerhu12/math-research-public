@@ -1,0 +1,85 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8",
+  "job": {
+    "result": "R806-completed-column-one-small-IO-review",
+    "producer_inputs_pending": false,
+    "reader": "R806_completed_column_one_small_IO.py",
+    "reader_sha256": "f1dd8b3ce9686e3b607823385c44787db6a9c4c6a11e35e2a194d659f1fc0f93",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "source": {
+      "result": "R806-original-primitive-multiplication",
+      "run_id": "43707290840",
+      "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+      "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+      "wrapper_sha256": "b199f04098d2f0b99810f55d93e43af40e58195f393626ea2b1ce03a930b2a8e",
+      "artifact_id": 14161637987,
+      "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+      "archive_bytes": 203879878,
+      "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+      "expected_conclusion": "success",
+      "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+      "manifest_bytes": 3988631,
+      "manifest_file_count": 10603,
+      "files": {
+        "public_input": {
+          "bytes": 5297,
+          "file": "public-actions-input.json",
+          "sha256": "b7f72c25073fa7a9d939b021320f49f5b4c7b0d31b77f0e4ed06f0adc935de02"
+        },
+        "run_receipt": {
+          "bytes": 632,
+          "file": "run-receipt.json",
+          "sha256": "f6754830ab2e7ea52d708b82cd02426e0459557a9407ebb559de39091c2efa41"
+        },
+        "core_receipt": {
+          "bytes": 440,
+          "file": "core-receipt.json",
+          "sha256": "6351e689fee7bd171d5f71cf847f5def0107c18946348c7313d8c9f873a89a4c"
+        },
+        "certificate": {
+          "bytes": 14965,
+          "file": "p41-original-primitive-multiplication-certificate.json",
+          "sha256": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99"
+        },
+        "coordinate_chart": {
+          "bytes": 45370,
+          "file": "R806-original-input-and-coordinate-chart.json.gz",
+          "sha256": "839b29f9042937529b23699dc6bcad4d669f25108d472887718c77e617120c5b"
+        },
+        "polynomial_multiplier": {
+          "bytes": 10847,
+          "file": "R806-exact-polynomial-multiplier-in-original-normal-basis.json.gz",
+          "sha256": "63b38d14dbeb4b504619db65f56c151146885173b8cef253dfba3bebc76cd2dd"
+        },
+        "accepted_candidate": {
+          "bytes": 3904,
+          "file": "R806-accepted-primitive-candidate.json.gz",
+          "sha256": "2aac2d669a6f6889d4c84e357cb82aae1e27bcd4fecf43a846ffe5ac7822ce27"
+        },
+        "candidate_definition": {
+          "bytes": 3548,
+          "file": "R806-candidate-0000000000-definition.json.gz",
+          "sha256": "715faab78be54e3cf91958d0895c8c8d0157d752414feab775cc499859616170"
+        },
+        "stage_manifest": {
+          "bytes": 512678,
+          "file": "R806-stage-manifest.json.gz",
+          "sha256": "0b32cfba77138d2fadea50bc922376c9199babb5aa6b7206781d9f030874c652"
+        },
+        "coordinate_group000": {
+          "bytes": 1001293,
+          "file": "R806-candidate-0000000000-group-000-exact-coordinates.json.gz",
+          "sha256": "3b2b11873b4c505275845f9d4639215b27273856ff9a21cc771cabf9b504bdfa"
+        }
+      }
+    },
+    "only_previously_completed_columns": [
+      0,
+      1
+    ],
+    "new_mathematical_computation": false,
+    "workflow": ".github/workflows/serre-R806-completed-column-one-small-IO.yml"
+  }
+}
