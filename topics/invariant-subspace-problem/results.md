@@ -403,3 +403,5 @@
 - **∞完整第七秩恰1、16原头与长度至少63。** [完整证明](results/R150-appendix-infinity-complete-seventh-connection-one-sixteen-heads-and-length63.md)：run43740928483/5.077439027秒，原1088×599前缀578/580/590→591，全核8/头投影1，全部792064原八层产品真。Qfull63…66、次大53…55/max10…13、AI65…68；差模2…5且u5灭杀。Δaff≤318、R/Rout/U≤160、Rh*≤183，来源三支8526/8531/331。下一第八两高系数与11incoming须实际运输。
 
 - **外投影确定因子严格消去九目标余乘子并降原来源成本。** [自足PID证明](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)由原短正合列推出每个外不可约处 $\ell T=v_f\Delta_A-v_f\Delta_P$；定义 Ω=ΔP 外部分、d=degΩ，则 Ω|Rout、$U\mid R_{\rm out}/\Omega$。同一个M=Rout/Ω给九Mh*tj原全局来源、degM≤160−d/总乘子≤183−d；同I/J/B余式降度得三支8526−d/8531−d/331−d，统一8531−d。未预报实际Ω或Q60，也不假设T循环。
+
+- **∞第八全高零且11incoming高系数完整。** [实际原来源证明](results/R150-appendix-infinity-eighth-high-zero-and-eleven-incoming-source-maps.md)：run43756208221/2.891423627秒，两高summands各为Q零，99008原低阶产品真；真链λ7 normal2有40非零，incoming λ7有75非零且其全原高残差也零。余完整1088×600低式保全部来源及回填，未预报β8。
