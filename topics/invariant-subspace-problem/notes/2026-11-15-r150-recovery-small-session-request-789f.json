@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "cbc8a3e9cb0ebe7b8994fe46f565aff09c23afc5",
+  "rulesReadAtCommit": "391f90372f1f2eed07b1fca0a8808c44f2738c0f",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -837,6 +837,33 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/zero-sixth-full-source-receipt.json"
+    },
+    {
+      "id": "selected-natural-second-left-normal-four",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-four-789f.py",
+      "scriptSHA256": "3fe9dfc2a3895f66871892079ed6042bedb6eba8ec04291c98c096df1612d9c0",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-left-additional-unit-solve-worker-789f.py",
+          "sha256": "28928f4298d0689f72ea8d39e530d474c4d15076af1c26aee612a2cb1413982e"
+        }
+      ],
+      "argv": [
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--unit-worker",
+        "{scripts}/2026-11-15-r150-selected-left-additional-unit-solve-worker-789f.py",
+        "--out",
+        "{work}/selected-natural-second-left-normal-four",
+        "--seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/selected-natural-second-left-normal-four/selected-natural-second-left-normal-four-receipt.json"
     }
   ]
 }
