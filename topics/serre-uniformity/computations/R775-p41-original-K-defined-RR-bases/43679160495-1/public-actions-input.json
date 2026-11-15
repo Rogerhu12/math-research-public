@@ -1,0 +1,78 @@
+{
+  "result": "R775-p41-original-K-defined-RR-bases",
+  "p": 41,
+  "source_repository": "Rogerhu12/math-research-public",
+  "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+  "job": {
+    "result": "R775-p41-original-K-defined-RR-bases",
+    "p": 41,
+    "prime": 739,
+    "max_exponent_qY": 1640,
+    "budget_minutes": 300,
+    "core": "R775_original_K_defined_RR_bases.py",
+    "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+    "method": "notes/R775-original-K-defined-RR-bases-method.md",
+    "method_sha256": "407ebdc78140f3d91eac3ee1d8a8a698b0919c285dce0e0d828dad342520b3dd",
+    "proof": "results/R772-original-RR-descent-and-exact-function-recovery-certificates.md",
+    "proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
+    "workflow": ".github/workflows/serre-p41-K-defined-rr-bases.yml",
+    "retained": {
+      "R771": {
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_id": 14127715743,
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "artifact_zip_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "certificate_path": "computations/R771-p41-original-quotient-RR-bases/43628998192-1/p41-original-quotient-RR-basis-certificate.json",
+        "certificate_sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+        "core_path": "scripts/R771_original_quotient_RR_bases.py",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46"
+      }
+    },
+    "resume": {
+      "run_id": "43631335355",
+      "source_commit": "00295b27a3f7367028ccee84eb867b5aeadc7540",
+      "artifact_id": 14130299697,
+      "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43631335355-1",
+      "artifact_zip_sha256": "15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540",
+      "manifest_sha256": "d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a"
+    }
+  },
+  "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+  "method_sha256": "407ebdc78140f3d91eac3ee1d8a8a698b0919c285dce0e0d828dad342520b3dd",
+  "proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
+  "driver_sha256": "884ec806c3e833b3b226c816c8fc98cabba809ae0c21e2140fc3d45f40b460c8",
+  "request_sha256": "d7f65d0fa79e64865586463455d8eff74edebe5e6413e436d430aaa7574af45e",
+  "root_readme_sha256": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+  "topic_readme_sha256": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d",
+  "publication_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "workflow_sha256": "f58ee62c12b5245802961ac9fbda7cea231534e8f8e6304a6c65928ab0968c67",
+  "retained": {
+    "R771": {
+      "run_id": "43628998192",
+      "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+      "artifact_id": 14127715743,
+      "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+      "artifact_zip_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+      "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+      "certificate_path": "computations/R771-p41-original-quotient-RR-bases/43628998192-1/p41-original-quotient-RR-basis-certificate.json",
+      "certificate_sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+      "core_path": "scripts/R771_original_quotient_RR_bases.py",
+      "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46"
+    }
+  },
+  "resume": {
+    "run_id": "43631335355",
+    "source_commit": "00295b27a3f7367028ccee84eb867b5aeadc7540",
+    "artifact_id": 14130299697,
+    "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43631335355-1",
+    "artifact_zip_sha256": "15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540",
+    "manifest_sha256": "d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a"
+  },
+  "budget_minutes": 300,
+  "arithmetic": "exact F_739 determinant-semilinear K recipes, original R771 E1 cache reused",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43679160495",
+  "prepared_at_utc": "2026-11-15T05:00:25.383769+00:00",
+  "mathematical_completion_claimed": false
+}
