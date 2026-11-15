@@ -18,7 +18,7 @@
 
 [本次完整实际](notes/soc-pair-reservation-first-actual-result-20261115.md)：run43758666042/job132948276657/sourceaca67097；4新组19checks过，7首全普通步/11primary/0SOC/末1LP原样未用，η.2663015219132816/fineκ57.999987361173226。唯一后继best是physical0c1d344d…、bank59/24cc1f35…、4432/4358完整有序池、B.000125/streak1；原g/b0/159/163、12/40/120/10不改。m7真实inexact修正候选通过；全部原门/旧metric过，.26和主1e−6/连续reach欠。不得重播此阶段等SOC。
 
-下一新子问题由已发生报告支持：m1/2/3/5/6增长的唯一false为新行，而均仅soft witness、两网omitted hard0；研究完整两网affine已覆盖soft行的普通步增长资格，必须保同center/实际总步/完整模型非零预测分母、所有真实学习与hard-shrink优先、原fallback/资源。当前仅待设计，未实现/未验证。
+下一新子问题由已发生报告支持：m1/2/3/5/6增长的唯一false为新行，而均仅soft witness、两网omitted hard0；研究完整两网affine已覆盖soft行的普通步增长资格，必须保同center/实际总步/完整模型非零预测分母、所有真实学习与hard-shrink优先、原fallback/资源。[完整设计](notes/complete-model-covered-soft-ordinary-growth-design-20261115.md)已审发布：同x完整两factory绑定/实际d成功四最大值缓存，真实旧新池差只许group0/1；不新增J/JVP。legacy源1、新covered0，任一旧/新pair含at-cap清两计数，保原×2/1/4000、hard-shrink优先和inexact资格。下一实现三个新源及独立入口，仅四新组/一次新continuation；尚未实现/执行/验证。
 
 ### 仍须支付
 

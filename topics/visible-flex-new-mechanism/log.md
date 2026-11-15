@@ -244,3 +244,7 @@ literature提示后根直接回读原R349 §2–4（完整primitive/二次Green�
 ## 2026-11-15 20:55:35 UTC — R376 完整ZY/WY与真实十五行联合控制
 
 根全读原blobdcb66e9b…并逐式核B与原完整self/μ1μ2、两cubic交叉系数、15 graded独立；另直接读R280§6–7确认A±/m²、中心化与χ差由布局决定，实际copy正权可先固定，无选母循环。当前稿补YY角商已由R377/R349闭合的准确边界；21065B/SHA256 e5703eafd69e6cb9f677aa9361ac8f678e67bfcb9f90756cac7b6afd5736cee7。180真实列/有限N共同根，未以formal rank替代正幅；只余ZZ2、YY0实际函数。每个完整结论即推，继续余门不等待。
+
+## 2026-11-15 20:56:22 UTC — covered-soft ordinary growth 完整设计
+
+根全读25185B设计（blob3e66df28…，SHA256 0374788f67b0a4dd3063a81fc5d9c25efeaf152f53178484c580374dbd848000），同前次原输出核唯一false。规则只把已由同x全两网affine四最大值模型覆盖的新soft witness与hard learning区分；必须读取实际d成功缓存/最终factory绑定/旧新ordered IDs/全部原真门，无新增J/JVP/普通值。legacy源1真实继承，新covered0不回放旧模型；任何旧或新pair（含cap）消费时清两计数，未通过保完整旧fallback，原12/40/120/10及×2/cap1/4000不变。认可增长可能增加拒绝/SOC/费用，不预称收益。设计即推；下一三源文本实现、新入口及本公开Actions唯一首验，旧套件不复跑。
