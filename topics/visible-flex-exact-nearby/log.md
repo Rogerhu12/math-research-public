@@ -461,3 +461,11 @@ root准备发布储存helper时freshmain guard发现根README再次变动；真g
 原10输入由历史a3d84d905ce72e3a854874bbe98d119623f3f8de逐项git show到临时science树；唯一未入原Git的R1/50自然5500010B case从原完整artifact14146726654临时取回、核cce60360…。所有原193/mean/真实δ/1079seam/653ledger及28新源行的身份门保留。输出诊断stage/native/summary全只临时；只提交脚本/参数/run/输出SHA与实际主导行结论，0新artifact/Release。新SCI和worker定界检查已过，实际Python AST在公共Actions执行。
 
 wrapper前后真pull检查两README，非FF立即pull --rebase再推；规则固定已亲读137c5a…/f2661bd5…；重复触发若已有同source/manifest完整结论直接复用、不重跑诊断。此部署本身不是实际结论，待真实run消费。freshmain 3c6abf7edc00767b8d2c2c158746d820dcc8a859两README未变，继续其余数学门。
+
+## 2026-11-15 05:06:24 UTC — 实际诊断完成，原主导片已定位
+
+public run43679322008/1真实child0/6门，诊断2.354193127000002s、父wrapper子进程wall2.5193259910000023s。六case4383原行都核，4215原行复制身份/每case28邻片行、原78科学stage全部只读；1新Fraction排序诊断、0新numerical enclosure。原1079真缝/653ledger/九词五mean与全部trueδ范围保。
+
+negative所有R最大在piece2547，小3R完整/local row752，大3R完整/local row758，nonlocal/mean仍row752；positive全为piece2551 row796。最小R两侧local平方界较大，最大nonlocal RQ_J_gd、mean uJ_gd；只是已存upper排序，不是残差lower。下一据这些真实片核原Rg/RHO和非零entry/积分常数/seam，不能猜域或外推Taylor。正式报告5693B/SHAd5e2313448e571b88bdfa87602daeaecfacabbabc25982dc6e0a0adecc4206fb。
+
+worker执行两次真pull，最新05:03:12.505994→05f9c27ed946be658dc46b5d84a8a9d952a99e8f，README两差空、现行rules137c5a/f266。原件只历史/旧artifact进临时；新native4c763fec…2917B与6stage全只记SHA，不uploadartifact/Release。实际结论1ed5c391…13843B、execution622bfabc…12402B已亲读。H9730B全文归档后压缩现H，原Green停止/最终旧artifact恢复计划同步更新。freshmain 199268b852c965c65b6f65932a547ab68ebbbf97两README未变。

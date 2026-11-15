@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133实际六case源行诊断](results/R133-supplement-actual-saved-source-row-diagnostics-and-next-physical-pieces.md)：43679322008/1 child0/6门，4383原行/1新诊断/0旧包络重算。负侧主导piece2547，正侧piece2551；最小R local主导，最大nonlocal RQ_J_gd/mean uJ_gd。保完整真实权/九词/五mean/seam身份；按新规15仅脚本、参数、run、SHA与结论，尚不授新的上界或强返回。
+
 - [R133补充 X1–20：原全实δ区间真实变动外端的完整有限Sob帽逆](results/R133-supplement-complete-real-delta-true-outer-finite-Sobolev-cap-inverse.md)：W+T在同M模块合并，real反馈<3/8、M2^1024 signed-lag差<2^-625，完整−3/2..2114原源增益<2^2400000。原physical fB两导入口及真实密度换元另付；实际反射moving L∞rHs<2^2600000，所有mean/height/原R0/正fee保。仅显式Qδ线性，不授近邻非线性域或精细97 ν。
 
 - [R133补充 T1–25：真正全δ固定角外图的有界解析平移族](results/R133-supplement-full-delta-fixed-angle-regular-graph-analytic-translation.md)：同一t无关τ pullback保j加权mean/primitive/holonomy根，joint背景6F，真实C_R逆<18；full外行族<2^64/宽1/512，接G0z/真实port后反馈族<2^128/宽2^-128、real<1/8。完整复Hilbert差核及fB两导图明确；全δ高/负Sob合并另付，不授未知非线性状态域。
