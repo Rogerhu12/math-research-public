@@ -12,9 +12,7 @@
 
 [103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)与[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)均已消费，完整原门/失败/恢复漂移/费用保原note，不重跑。[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)给原163族内159独立坐标、准确H/盒/原物理步长；首159新阶段η.266520536442→.266491207122，m6细网曲率由SOC修回而下一B缩半，.26/1e−4仍欠。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c；18新检查过，η分两新阶段至.266443965488、每段11primary+1SOC，最后17guard真但未有后继使用heldB。全部旧门/ID/容量与费用/失败/漂移保原note，不重已付阶段。
-
-[选行J首次实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16已消费：三新开发过；η.266428586→.266398991、两网14门/盒过，11primary+1SOC/10接纳，active43.32511秒，七恢复1175.76681秒独立。m6真用heldB后ratio.11484、m8漏行拒绝；45/97来源与24输入合。全部旧失败/漂移保原note，不授同点性能改善；后继用新模型处理真实缺陷。
+容量/成功SOC持径与选行J因子化的已付实际、失败、漂移和来源/费用均见对应notes及results，不重旧阶段；当前后继从真实当前恢复点继续，不能借旧最终数值强制重播。最新消费边界如下。
 
 [仿射谱首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)已消费，η仍.266401179，m6漏峰与已选曲率失败/m5 e-f非线性准确保留。[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)四源/接线已完成；[首人工与修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31方向6项过，array唯一失败为新测试误要求替换并列incumbent，零恢复/零科学。只改准确断言；源绑定复用已过方向，继续未完error/handoff/IO，再九必要恢复各一次与首新stage。54源码/98args/24输入、原12LP/120s/40值/真门保持；首实际仍待日志，不冒改进。
 
@@ -159,6 +157,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 R292保YW真右累计，R295由末真实high/low迫整T_B0、各self q_i0；q有C³主平方，不能冒低阶纤维。R297原χ32/37/40的c矩给九单位响应，保所有基准的R222 m9取得actual纯零/T任意。R298 χ30/P又给T0而完整q=3/512∫u″²u‴²>0；九矩加单个预固定u的self可真m10控制，两actual矩阵零hook整q差非C²。
 
-[R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。[R301](results/R301-five-dimensional-translated-full-self-control-and-compatibility.md)原χ30×二次五平移链给完整self轮廓Pol≤4，d0>0使≤5同母同宽异中心的self与9矩准确Vandermonde联调；多中心仅该五模块的插值iff，非全R障碍。换shape须重新联调，有界C1→C3母族可统一有限控制，不由同C²Fang保持。
+[R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。[R303](results/R303-complete-self-degree-nine-and-all-translation-control.md)已把R301完整五维平移推进为固定母包**全Pol≤9**：原场含真实移动左尾，唯一c10项由m'_p2=−kh/2/M0端值消；H6×p2整矩阵零响应的N9最高完整self非零，10条链给准确下界。whole pure/9矩/同母全部允许中心可真19观测联合付，任意有限包数不再新增插值门。不同母/不同宽度及Fang高频改shape仍须同一几何的兼容；不是全Q universal函数像已解。
 
 **下一同一选型下支付全部self/完整period/同w，并核与Gaussian母包的选择次序。** 单个预固定u不等于所有最终q_i或整self函数，分别满射不能相加。数值run43728280256已成功，原大日志读取连续传输closed，补只读原log的公共观察步骤，未判actual改善。

@@ -43,7 +43,7 @@ R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；�
 
 **R292–302平台/self与结构几何**：原全后缀迫T_B0、各q_i0。R297 χ32/37/40三c矩证书给9单位，原query延拓全U；R298 χ30/P给T0且完整q=3/512∫u″²u‴²>0，9矩+单个预固定u有真m10控制，公共校正两actual hook整q差非C²。R302四χ实际来源+成对正则前缀保基点τχ/全基准；自由h遍及整原型，只保M0让τ漂移，R101共享整块真倒行仍准确M=T0。新全部基准重建增强截面，再全(pure,T9,q单u)IFT，联合κe/ε二维安装+有限光滑密度Morse/Klein闭合，故该窄几何类也能指定T与单self。**非全q函数/全部最终母包，不能预授与Gaussian形状选择兼容。** R295 q平方主部+完整C²仍保；真倒行成本同号、λ+正，不偷换成C²纤维。下一全self/全period与同w。
 
-**R301完整平移self**：χ30与原二次五链A_l给pure/T共同核，q_{u_c}(G_l)=Σ_{r≤l}c^r d_{l−r}/r!，d0>0，准确全Pol≤4而非principal。≤5同母同宽不同中心的完整self与9矩有Vandermonde真联调；任意多中心仅五模块插值iff，不冒全R障碍。换shape须重调，有限紧C1→C3母族可参数化，不由同C²Fang保持。
+**R301/303完整平移self已扩全母平移**：真实V_Z移包分子deg≤5，保移动左尾(a+c−ell)|U_c|²≤5；self十次项∝∫kh m_p2²=−2/3[m_p2³]0，故**全部U的q_{u_c}∈Pol≤9**。H6×p2原有限流证整T0；N9 complete self=−1080·9!∫u″²u‴²，N10只self零。10条真N链映全Pol≤9，与9矩及whole pure保全部基准实际联调，固定同母所有中心/幅值的q可同时0。不同母/宽度、后选Fang高频shape不自动保持；全Q与联合选择仍欠。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -55,4 +55,4 @@ R277–281原72面积/六能量/三真矩与解析同F圆证明保各原文；�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 67ef92e5f72de4e469cc239fa696d4b808e8e089，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 8b61fcb6968dc88dc7cf72882f15ca9167d1f88d，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

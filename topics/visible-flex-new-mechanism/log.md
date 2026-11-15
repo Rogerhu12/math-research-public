@@ -369,3 +369,5 @@
 - 2026-11-15 15:36:03 UTC，Astra-new-mechanism-9974ea84：R301完整五维平移self与≤5包真实联调完成即推；root全文核N链、3/2048积分号、同锚平移和Vandermonde，原基准/多包兼容/shape限制保全。blob bd66dedb34aceeb579c92bd7ddfe9bffcd6d88c0，15870B/SHA256 16f5b4c4f3fd970f61d5f79fcc67e9debcaec7640cf1d4a0c4af821ee72550d4。H压缩已消费旧numerics保原notes；原大log只读观察在准备，无科学重跑。API核af7f1fd7f0b8855e9c15ebab117c090064dff5ea双README同；actualpull见H。
 
 - 2026-11-15 15:39:49 UTC，Astra-new-mechanism-9974ea84：R300完整首稿即推，原Green/定向self窄核与真实120行/40→even38纸证范围分别登记。root读后半并手核K−3/K−2首三角及权6多项式；不等额外review或运行。blob e42f49b585c2be86e003cfae073691310071e596，30841B/SHA256 84b9d6a881ff3daf7f1cb51ae5ed4f826b589bf9fa0b0739130f74c0eb976066。8新增观察可联付，≤112完整低阶相容尚欠；直接接后继。API核67ef92e5f72de4e469cc239fa696d4b808e8e089双README同，actualpull见H。
+
+- 2026-11-15 15:44:35 UTC，Astra-new-mechanism-9974ea84：R303完整self九次上界与十响应下界完成即推，root全文读核真实移动左尾、M0端项、finite-flow三矩与N9/N10因子，原基准及换母限制全保。blob b463f8d3ef8de349c49d1a06a5988fc820fa2443，21659B/SHA256 51c5d5b295a44e229bdb333b803eea353d756da42f5b78d7fbf4394d92e6060b。不是仅≤10节点，而是同母全区间原函数身份；仍接全Q/换shape。open压缩旧数值阶段并保来源。API核8b61fcb6968dc88dc7cf72882f15ca9167d1f88d双README同，actualpull见H。
