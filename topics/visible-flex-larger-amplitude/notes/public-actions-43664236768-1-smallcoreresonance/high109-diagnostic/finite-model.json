@@ -1,0 +1,325 @@
+{
+  "all_array_identities": {
+    "B-midpoints-all112": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 2501632,
+      "raw_sha256": "6bd11504278bb40df1bf0f30182b22c52a18342e2abd0170fa55b2867a9d4132",
+      "shape": [
+        698,
+        112,
+        2,
+        2
+      ]
+    },
+    "B-nodes-all112": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 2505216,
+      "raw_sha256": "1df67e999713cf0e1dbd36cfe44f51afc7de5eb33dd69fb7343816df768345b2",
+      "shape": [
+        699,
+        112,
+        2,
+        2
+      ]
+    },
+    "L-all112": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 2501632,
+      "raw_sha256": "abc04e594507d01cb73e8afdca789fe04d0a7dc079446b738090fea6f84c936c",
+      "shape": [
+        698,
+        112,
+        2,
+        2
+      ]
+    },
+    "R-all112": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 2501632,
+      "raw_sha256": "af55dc8e03791cdadd4523266b7971252a79d57155529c602c4ca93805886b53",
+      "shape": [
+        698,
+        112,
+        2,
+        2
+      ]
+    },
+    "cell-widths": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "ee6981d6d293a1d067fd7fb53e4ea4ea93b1a4e7406364a3dc503c83162266e7",
+      "shape": [
+        698
+      ]
+    },
+    "circle-height": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "330f2ef1332b0066e959254160f9dc746ac582b242b950b52fb2113ae0c29fe2",
+      "shape": [
+        699
+      ]
+    },
+    "circle-radius": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "5978e1be80120fcec0a7ca1058c1c71fedbd2056ed2682c572e0136628e2ab71",
+      "shape": [
+        699
+      ]
+    },
+    "circle-radius-midpoints": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "9a029557feedef485ce003997f5281c48e0df226184e3beb5467c09641852e83",
+      "shape": [
+        698
+      ]
+    },
+    "complete-zero-tail-slope-J": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 100352,
+      "raw_sha256": "44039f96cb20b0edca76a843a44f40235fbfbf72c19093a12a212c1cf6eb655d",
+      "shape": [
+        112,
+        112
+      ]
+    },
+    "mesh": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "3b837d4580a1dff2575208ef6fc76bc19021e744eb6b37277040a2fbc9eb350e",
+      "shape": [
+        699
+      ]
+    },
+    "midpoint-stations": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "f06f265bd25b0d1d499f94b984caca930f00e357348a8d58372f2875430d263f",
+      "shape": [
+        698
+      ]
+    },
+    "ratio-midpoints": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "31af304daeae36ad670c0e5ae1f45310a8f69ae4fe21e73893adeeaa8e6329e5",
+      "shape": [
+        698
+      ]
+    },
+    "ratio-nodes": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "a44a8b2fcacb680ba625702980904866614996712e838fcaac8c7e4fdec3a3fb",
+      "shape": [
+        699
+      ]
+    },
+    "scalar-midpoints": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 11168,
+      "raw_sha256": "80fc213a6d3b197c656c4a62a704f205d0b48e40f4d1ae76f523eaa6e396fcc7",
+      "shape": [
+        698,
+        2
+      ]
+    },
+    "scalar-nodes": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 11184,
+      "raw_sha256": "6b149a4763c70a4a1897a76a02f0a44b591a40485a97406ad989ff720f2cbeff",
+      "shape": [
+        699,
+        2
+      ]
+    },
+    "vertical-midpoints": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "bff6d3d8ba7e180c60d2979ea38591394b2d3bc65402462018df061dba35e948",
+      "shape": [
+        698
+      ]
+    },
+    "vertical-nodes": {
+      "dtype": "<f8",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "bf9f1e04417fa523ad99ce52ed7ff367fc39db5bc536c6442b60ede04a376a2a",
+      "shape": [
+        699
+      ]
+    }
+  },
+  "binary64_model": "saved radius; original returned scalar samples; explicitly formed L/R; exact terminal arithmetic on finite B,gamma,epsilon_h,J",
+  "circle_radius_is_saved_parent_data": true,
+  "cut_scale": {
+    "float64le_hex": "bbe7ae27e9e5ef3f",
+    "negative_zero": false,
+    "value": 0.996815278536125
+  },
+  "first_three_extended_block_bytes_equal_separate_three_block_replay": {
+    "B": true,
+    "Bmid": true,
+    "L": true,
+    "R": true
+  },
+  "full_FFT_J_recomputed": false,
+  "height_sign": {
+    "float64le_hex": "000000000000f0bf",
+    "negative_zero": false,
+    "value": -1.0
+  },
+  "high_modes": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "model_sha256": "4a58055035bac150de73fe3b8653e000cae8f0f028d2d9bf14eb389a1ab442e0",
+  "modes": 112,
+  "native_tail_recomputed": false,
+  "nodes": 699,
+  "parameters": [
+    {
+      "float64le_hex": "fe604ee97ff9b73f",
+      "negative_zero": false,
+      "value": 0.09365081258727412
+    },
+    {
+      "float64le_hex": "391ae5fbc4e5c0bf",
+      "negative_zero": false,
+      "value": -0.13201200770909496
+    },
+    {
+      "float64le_hex": "d21e81df63b7bfbf",
+      "negative_zero": false,
+      "value": -0.12389206129693811
+    }
+  ],
+  "schema": "R259-all112-formed-reduced-chain-model-v1",
+  "terminal_row_formation_rounding_applied": false
+}

@@ -1,0 +1,259 @@
+{
+  "arrays": [
+    {
+      "bytes": 3419,
+      "dtype": "<f8",
+      "file": "large-arrays/mesh.f64.gz",
+      "name": "mesh",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "3b837d4580a1dff2575208ef6fc76bc19021e744eb6b37277040a2fbc9eb350e",
+      "role": "All original binary64 stations",
+      "sha256": "4c8fe4e79d4c7b15d7ad7358feeba434c89b576077848123e1f16067eecf282c",
+      "shape": [
+        699
+      ]
+    },
+    {
+      "bytes": 418,
+      "dtype": "<f8",
+      "file": "large-arrays/cell-widths.f64.gz",
+      "name": "cell-widths",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "ee6981d6d293a1d067fd7fb53e4ea4ea93b1a4e7406364a3dc503c83162266e7",
+      "role": "Original rounded np.diff mesh constants, treated exactly downstream",
+      "sha256": "2f816bfe4cdf3fd33ada7bac07cff0d4e9c4856e11229055223f1e7d918434d3",
+      "shape": [
+        698
+      ]
+    },
+    {
+      "bytes": 3498,
+      "dtype": "<f8",
+      "file": "large-arrays/midpoint-stations.f64.gz",
+      "name": "midpoint-stations",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "f06f265bd25b0d1d499f94b984caca930f00e357348a8d58372f2875430d263f",
+      "role": "Original rounded midpoint sample locations",
+      "sha256": "13ec300e8da0ba0e7fa987be9b14bdad79d3ed2cf4467ca43b421af4986dc433",
+      "shape": [
+        698
+      ]
+    },
+    {
+      "bytes": 9715,
+      "dtype": "<f8",
+      "file": "large-arrays/scalar-nodes.f64.gz",
+      "name": "scalar-nodes",
+      "order": "C",
+      "raw_bytes": 11184,
+      "raw_sha256": "6b149a4763c70a4a1897a76a02f0a44b591a40485a97406ad989ff720f2cbeff",
+      "role": "All returned a/ap pairs at original nodes",
+      "sha256": "acf3cb587fe355c62ca8ee6da62fbe743590233a4384ab798c6a31020675e8af",
+      "shape": [
+        699,
+        2
+      ]
+    },
+    {
+      "bytes": 9720,
+      "dtype": "<f8",
+      "file": "large-arrays/scalar-midpoints.f64.gz",
+      "name": "scalar-midpoints",
+      "order": "C",
+      "raw_bytes": 11168,
+      "raw_sha256": "80fc213a6d3b197c656c4a62a704f205d0b48e40f4d1ae76f523eaa6e396fcc7",
+      "role": "All returned a/ap pairs at original midpoint samples",
+      "sha256": "873c21309f04f61c4785b4082e8249112959178e7386f320ea5ad90bed9f1e91",
+      "shape": [
+        698,
+        2
+      ]
+    },
+    {
+      "bytes": 5082,
+      "dtype": "<f8",
+      "file": "large-arrays/circle-radius.f64.gz",
+      "name": "circle-radius",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "5978e1be80120fcec0a7ca1058c1c71fedbd2056ed2682c572e0136628e2ab71",
+      "role": "Saved parent circle radius, not silently replaced by a",
+      "sha256": "78e4ecc8143eb75c0edf6d7412a929dc4d2d28eb85864ff7d55d9c19efee70c5",
+      "shape": [
+        699
+      ]
+    },
+    {
+      "bytes": 5088,
+      "dtype": "<f8",
+      "file": "large-arrays/circle-radius-midpoints.f64.gz",
+      "name": "circle-radius-midpoints",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "9a029557feedef485ce003997f5281c48e0df226184e3beb5467c09641852e83",
+      "role": "Original Hermite expression from saved radius and returned q",
+      "sha256": "c8e2fc714e185b475ab35763f41ae11db4a455d95d6a0cfc0283eed92020871c",
+      "shape": [
+        698
+      ]
+    },
+    {
+      "bytes": 5308,
+      "dtype": "<f8",
+      "file": "large-arrays/circle-height.f64.gz",
+      "name": "circle-height",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "330f2ef1332b0066e959254160f9dc746ac582b242b950b52fb2113ae0c29fe2",
+      "role": "Complete saved mean height",
+      "sha256": "ed9e21d95d6370c8d0a98d87d97f978b353194f6621e8207bf4f4a52ae5e56b9",
+      "shape": [
+        699
+      ]
+    },
+    {
+      "bytes": 5422,
+      "dtype": "<f8",
+      "file": "large-arrays/ratio-nodes.f64.gz",
+      "name": "ratio-nodes",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "a44a8b2fcacb680ba625702980904866614996712e838fcaac8c7e4fdec3a3fb",
+      "role": "Returned ap/a, not a finite-Gauss derivative",
+      "sha256": "d39e4c15833a458a70624ce9bb3d27c327068688f767c01d140f2a00b3368463",
+      "shape": [
+        699
+      ]
+    },
+    {
+      "bytes": 5411,
+      "dtype": "<f8",
+      "file": "large-arrays/ratio-midpoints.f64.gz",
+      "name": "ratio-midpoints",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "31af304daeae36ad670c0e5ae1f45310a8f69ae4fe21e73893adeeaa8e6329e5",
+      "role": "Returned midpoint ap/a",
+      "sha256": "106e57d5654b79f0c9e145144cde8fdba10e4d1fa3b022df4a08186e97bdacce",
+      "shape": [
+        698
+      ]
+    },
+    {
+      "bytes": 4437,
+      "dtype": "<f8",
+      "file": "large-arrays/vertical-nodes.f64.gz",
+      "name": "vertical-nodes",
+      "order": "C",
+      "raw_bytes": 5592,
+      "raw_sha256": "bf9f1e04417fa523ad99ce52ed7ff367fc39db5bc536c6442b60ede04a376a2a",
+      "role": "sqrt(1-(q R)^2)",
+      "sha256": "030d69b8a22facbdfc4283eb46041dcd460d3aca2fb195f8c5ebe255ea5fad38",
+      "shape": [
+        699
+      ]
+    },
+    {
+      "bytes": 4486,
+      "dtype": "<f8",
+      "file": "large-arrays/vertical-midpoints.f64.gz",
+      "name": "vertical-midpoints",
+      "order": "C",
+      "raw_bytes": 5584,
+      "raw_sha256": "bff6d3d8ba7e180c60d2979ea38591394b2d3bc65402462018df061dba35e948",
+      "role": "sqrt(1-(q_mid R_mid)^2)",
+      "sha256": "341a453924918976c54f971b83062dff9e195e3c3d69a68fc0e64c07d7849aac",
+      "shape": [
+        698
+      ]
+    },
+    {
+      "bytes": 1438,
+      "dtype": "<f8",
+      "file": "large-arrays/complete-zero-tail-slope-J.f64.gz",
+      "name": "complete-zero-tail-slope-J",
+      "order": "C",
+      "raw_bytes": 100352,
+      "raw_sha256": "44039f96cb20b0edca76a843a44f40235fbfbf72c19093a12a212c1cf6eb655d",
+      "role": "All actual 112 by 112 true-zero response entries",
+      "sha256": "14a60f8d9e8bb0c1a47c4439a08fd292ba921f861bb1cfc67b1b2b1fa89d783e",
+      "shape": [
+        112,
+        112
+      ]
+    },
+    {
+      "bytes": 2057539,
+      "dtype": "<f8",
+      "file": "large-arrays/B-nodes-all112.f64.gz",
+      "name": "B-nodes-all112",
+      "order": "C",
+      "raw_bytes": 2505216,
+      "raw_sha256": "1df67e999713cf0e1dbd36cfe44f51afc7de5eb33dd69fb7343816df768345b2",
+      "role": "All (U,H) source linearization blocks",
+      "sha256": "4497bd42ade2b15eab8d66085c8a6b46c778217a9099d6ecec4b846c752438f0",
+      "shape": [
+        699,
+        112,
+        2,
+        2
+      ]
+    },
+    {
+      "bytes": 2057268,
+      "dtype": "<f8",
+      "file": "large-arrays/B-midpoints-all112.f64.gz",
+      "name": "B-midpoints-all112",
+      "order": "C",
+      "raw_bytes": 2501632,
+      "raw_sha256": "6bd11504278bb40df1bf0f30182b22c52a18342e2abd0170fa55b2867a9d4132",
+      "role": "All midpoint (U,H) blocks",
+      "sha256": "727c7de164131cef82c570e1afbdc1fee8ed177d87c04f9e87c92e182de87425",
+      "shape": [
+        698,
+        112,
+        2,
+        2
+      ]
+    },
+    {
+      "bytes": 2396694,
+      "dtype": "<f8",
+      "file": "large-arrays/L-all112.f64.gz",
+      "name": "L-all112",
+      "order": "C",
+      "raw_bytes": 2501632,
+      "raw_sha256": "abc04e594507d01cb73e8afdca789fe04d0a7dc079446b738090fea6f84c936c",
+      "role": "All original formed binary64 left cell blocks",
+      "sha256": "7bc1ce6206fb5774a3e87a029459fcd666c950f1cec97a6de2b3a9d2eb078dbf",
+      "shape": [
+        698,
+        112,
+        2,
+        2
+      ]
+    },
+    {
+      "bytes": 2398292,
+      "dtype": "<f8",
+      "file": "large-arrays/R-all112.f64.gz",
+      "name": "R-all112",
+      "order": "C",
+      "raw_bytes": 2501632,
+      "raw_sha256": "af55dc8e03791cdadd4523266b7971252a79d57155529c602c4ca93805886b53",
+      "role": "All original formed binary64 right cell blocks",
+      "sha256": "e43767498ec4957690911a0286e5eb5cb608efd07d8b3897a58390a69cdfbce1",
+      "shape": [
+        698,
+        112,
+        2,
+        2
+      ]
+    }
+  ],
+  "every_nonzero_mode_retained": true,
+  "schema": "R259-complete-two-end-defining-arrays-v1"
+}

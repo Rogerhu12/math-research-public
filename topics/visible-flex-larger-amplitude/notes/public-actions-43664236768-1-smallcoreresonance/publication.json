@@ -1,0 +1,2898 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-15T01:42:15.329560+00:00",
+  "source_commit": "f19737ecf545a351551e8a73b6e5435e66bfd1c0",
+  "run_id": "43664236768",
+  "run_attempt": "1",
+  "lane": "smallcoreresonance",
+  "files": [
+    {
+      "source": "exact-high109-command.json",
+      "bytes": 2678,
+      "sha256": "2a692b15739470c63f7abae6994607dbb98e47329bd6ddfdc23642a510294b1f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/exact-high109-command.json",
+      "published_bytes": 2678,
+      "published_sha256": "2a692b15739470c63f7abae6994607dbb98e47329bd6ddfdc23642a510294b1f"
+    },
+    {
+      "source": "high109-diagnostic/array-manifest.json",
+      "bytes": 8005,
+      "sha256": "81d8db71d03337fdf20ade763daa2f6a2914660ce6ac77db5ba5c7a5c38a0e8f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-diagnostic/array-manifest.json",
+      "published_bytes": 8005,
+      "published_sha256": "81d8db71d03337fdf20ade763daa2f6a2914660ce6ac77db5ba5c7a5c38a0e8f"
+    },
+    {
+      "source": "high109-diagnostic/finite-model.json",
+      "bytes": 6174,
+      "sha256": "1a1904159094262c1132e9c0a1adf79d0aa1833f1e2c55b933990bcbba57aecd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-diagnostic/finite-model.json",
+      "published_bytes": 6174,
+      "published_sha256": "1a1904159094262c1132e9c0a1adf79d0aa1833f1e2c55b933990bcbba57aecd"
+    },
+    {
+      "source": "high109-diagnostic/input-binding.json",
+      "bytes": 31173,
+      "sha256": "b96f23f3949023fcd9ed14a197f2eed27565fc66a7c599ba6dab48edf947fade",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-diagnostic/input-binding.json",
+      "published_bytes": 31173,
+      "published_sha256": "b96f23f3949023fcd9ed14a197f2eed27565fc66a7c599ba6dab48edf947fade"
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/B-midpoints-all112.f64.gz",
+      "bytes": 2057268,
+      "sha256": "727c7de164131cef82c570e1afbdc1fee8ed177d87c04f9e87c92e182de87425",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/B-nodes-all112.f64.gz",
+      "bytes": 2057539,
+      "sha256": "4497bd42ade2b15eab8d66085c8a6b46c778217a9099d6ecec4b846c752438f0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/L-all112.f64.gz",
+      "bytes": 2396694,
+      "sha256": "7bc1ce6206fb5774a3e87a029459fcd666c950f1cec97a6de2b3a9d2eb078dbf",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/R-all112.f64.gz",
+      "bytes": 2398292,
+      "sha256": "e43767498ec4957690911a0286e5eb5cb608efd07d8b3897a58390a69cdfbce1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-circle-0160.json.gz",
+      "bytes": 617232,
+      "sha256": "e04dc044ec8e76ddd3e964d8aee8603e5b9e96f012cabf0b88d6e21efffef5ed",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-circle-0320.json.gz",
+      "bytes": 912689,
+      "sha256": "604923e263c781f6ea1881d254f4a262eb1981c8b15ba8b28327fa0eaf9676a0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-circle-0640.json.gz",
+      "bytes": 1512360,
+      "sha256": "a99853a7c301461baabd90564ee17469868d2e4ac483da788fc403d187197347",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-001-bits-0160.json.gz",
+      "bytes": 1398,
+      "sha256": "814fb9d2e27b83034614ff01a09b4e3b86280a64c9426d36eb8674c5cd94e62f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-002-bits-0160.json.gz",
+      "bytes": 1331,
+      "sha256": "dda964a6b4b6b44349f9e1dd24336f818305e7dc134c135b8e27565dd2d4fdab",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-003-bits-0160.json.gz",
+      "bytes": 1335,
+      "sha256": "5c352dc6896a9316424a9468dcf64b045ec58f8de5c6278a5819765b48f420c3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-004-bits-0160.json.gz",
+      "bytes": 1280,
+      "sha256": "58b83aabef64754a3e2c4dbdc412cfee03a401fcad18baced5df6d1c8b855c75",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-004-bits-0320.json.gz",
+      "bytes": 1769,
+      "sha256": "8baf307510ab07619f6f5a97f1f9e523397445ab3efe93b436ef5836aa7d7755",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-005-bits-0160.json.gz",
+      "bytes": 1208,
+      "sha256": "ad784397b9547034b37bf2681e6fab0f666b813b7b4476adefa8fdc4d53334ca",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-005-bits-0320.json.gz",
+      "bytes": 1840,
+      "sha256": "d47c5d01c65139a96f8c761b7fd7080bbe717b5f0ec49f6fa171140443d96ee5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-006-bits-0160.json.gz",
+      "bytes": 1209,
+      "sha256": "412003c82dcd5c22d569ae35875f2411ae6feadd23e4fb8ae9e56ad438d64e7b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-006-bits-0320.json.gz",
+      "bytes": 1809,
+      "sha256": "35bfc591870597c4329f2e9d9998a4a5db8fb4cfbb04a7f62cc7aa799335e2b4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-006-bits-0640.json.gz",
+      "bytes": 2535,
+      "sha256": "19b0f3f64cf84a978768326c9d7460b7f1fcc3abfa612d4b09b65b57f4869a39",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-007-bits-0160.json.gz",
+      "bytes": 1217,
+      "sha256": "dfe17ddaef61a2789cc02c2099cae0f268d7663d77fbdd6eeb94960fd38fcfce",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-007-bits-0320.json.gz",
+      "bytes": 1659,
+      "sha256": "4b01213077f18e2a0bd209dfd0c6cad99a4e6305a0db990c59e5743357aecb39",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-007-bits-0640.json.gz",
+      "bytes": 2606,
+      "sha256": "e5cffe230576ce167f4fd62ff8f530e6b70211c0a3f9eeebca4df571bd2f2b05",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-008-bits-0160.json.gz",
+      "bytes": 1440,
+      "sha256": "07b438acb42e8a4f899e2b756d3c950025e868885c1f6000a6d0fa3731ab9adb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-008-bits-0320.json.gz",
+      "bytes": 1806,
+      "sha256": "fecd7cad5096a69981a02acc771285146a9eec22db6d656cf7afcbeff9a381e3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-008-bits-0640.json.gz",
+      "bytes": 2645,
+      "sha256": "1439254cad79266a9d8b1e6713a4340752b3c3b208a4dac804b1e6cfcb0fabf1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-009-bits-0160.json.gz",
+      "bytes": 1560,
+      "sha256": "475ca909b7571f23bbcd1178c82b8234513714c01988b9a3cd86f6c37a5bed13",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-009-bits-0320.json.gz",
+      "bytes": 1393,
+      "sha256": "a63e13ab967b42d98088898bc5e7190748909363eb7612aab155b0f769280f47",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-009-bits-0640.json.gz",
+      "bytes": 2540,
+      "sha256": "36af887ea3b22e7660587d852bef054599798217ae9a663d83005da7ddfe5391",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-010-bits-0160.json.gz",
+      "bytes": 1724,
+      "sha256": "187987c291f350281733b490f59abdba352a62ac0a612d2fc05406686aebc9ea",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-010-bits-0320.json.gz",
+      "bytes": 1614,
+      "sha256": "0382a0a41e1b50524d7133013539843d3cd61d6e6b7d09f7fde72f72363edbe3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-010-bits-0640.json.gz",
+      "bytes": 2742,
+      "sha256": "b61170b11492ccf9208cdeddea3e86f2c38331314c62ec4104f74cf8eac352b0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-011-bits-0160.json.gz",
+      "bytes": 1792,
+      "sha256": "d301b57828f51fbe21eada036e94ca2061e2474a51f40b3a8b92dc34e17b97d3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-011-bits-0320.json.gz",
+      "bytes": 1661,
+      "sha256": "ac1960f3903aefacbe7a1ecf21cb3cb2615c4fdf0fd50c6a2b337c2595cc649a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-011-bits-0640.json.gz",
+      "bytes": 2655,
+      "sha256": "696a94995a1c58ea6d86ac8b5a7635a00395b0349116f79b5336cd53b6ff3629",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-012-bits-0160.json.gz",
+      "bytes": 1978,
+      "sha256": "9582fdde3c7953d54f8ce7b50fa579377a8953f5d153b2070a688aa7b3066454",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-012-bits-0320.json.gz",
+      "bytes": 1913,
+      "sha256": "68fe654a9d951aff84fc3f6513d78840b2961a5ae451dc6261277fe180d7fd06",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-012-bits-0640.json.gz",
+      "bytes": 2366,
+      "sha256": "4068efe325220de2b8212772c5aff390697d80fd269ac3738be6aaf63ca259d8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-013-bits-0160.json.gz",
+      "bytes": 2077,
+      "sha256": "e2f0eb5253fe0846471ee3f46e60c1bd79f7896c29a617ddf346ed19b415b175",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-013-bits-0320.json.gz",
+      "bytes": 1959,
+      "sha256": "c29c0bfb397735985b1316051a8e22628df26a7c41b7efc66cc4dcf91b531513",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-013-bits-0640.json.gz",
+      "bytes": 2695,
+      "sha256": "38be4ee064fa1e1c864ed0378476025fa189c7289af7ad5adc7910c5efb55d55",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-014-bits-0160.json.gz",
+      "bytes": 2232,
+      "sha256": "b731198c6f409ca04dc7ac523d81185eaba50ebf82d37023136dd7eb70a011aa",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-014-bits-0320.json.gz",
+      "bytes": 2194,
+      "sha256": "0212736d172c1017e76cda014fd613a0253bc34c27f0dc27ebed3b4ea15df847",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-014-bits-0640.json.gz",
+      "bytes": 2454,
+      "sha256": "83441d467ad7244fa6ee57b774d14b59dc00984f12480a00d15b1c4caad42214",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-015-bits-0160.json.gz",
+      "bytes": 2389,
+      "sha256": "d24c36376e922f4b976d49f23eab3e1b96e0fa28d5f5f6f3bab8884c2a29a7f4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-015-bits-0320.json.gz",
+      "bytes": 2254,
+      "sha256": "8299db4713b577c1dde3d16acb20b4db385e5ecf0f7d84c52e5037ba774a7fb0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-015-bits-0640.json.gz",
+      "bytes": 2214,
+      "sha256": "1714b17aa40b32c806c0ae02e3ee754ded7a32edbadf186888b4d5cf96c7605a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-016-bits-0160.json.gz",
+      "bytes": 2502,
+      "sha256": "dc9da17bdb0b46b7043cc5ce820c5f0a73df1675c7af5659e5f2d91c7acf6ac7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-016-bits-0320.json.gz",
+      "bytes": 2374,
+      "sha256": "b6cfd2b608001e25a435002bc3d8d2322836b090d0e07521d922f58cc6694bc7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-016-bits-0640.json.gz",
+      "bytes": 2220,
+      "sha256": "278cde6653cdba86f668f3a23ef5b736638fc4b3efd48865077556bc82367a3e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-017-bits-0160.json.gz",
+      "bytes": 2705,
+      "sha256": "36bcf0544e26e94f4466821f4cb1710206108a362554b83e3b5c24c5ae5790ca",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-017-bits-0320.json.gz",
+      "bytes": 2514,
+      "sha256": "dfd7178e9caa38b5ed0e4f5d4ec469847f6791384b2db218e6c7ecf54a6b2a90",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-017-bits-0640.json.gz",
+      "bytes": 2269,
+      "sha256": "a7ee3f8a5bc9db385fd58db467eae042d31051e6da33451f8e88f19283ae8cad",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-018-bits-0160.json.gz",
+      "bytes": 2823,
+      "sha256": "1f1ea278e6fbfe01e6a7ccc175a6fafa326bcd300f9db310cd54fb50e8b9f3a8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-018-bits-0320.json.gz",
+      "bytes": 2641,
+      "sha256": "adb331ab2aa5c518e3ef7934c5e14467845f9ab92fb8ec78c930b662368ce5d1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-018-bits-0640.json.gz",
+      "bytes": 2401,
+      "sha256": "59bcfb84279d5a9606c940ef718db139a93376b65806de22216248ef971ee6a6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-019-bits-0160.json.gz",
+      "bytes": 2927,
+      "sha256": "a2f57f14eb9cf06e0e02ef2d1cf663762d9729d60c579c0542d9d96bee9d62b1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-019-bits-0320.json.gz",
+      "bytes": 2769,
+      "sha256": "bfedf679613bd7a5ae7de82cc82996b76e9f6fe9293c833090100f6d1bc88e9c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-019-bits-0640.json.gz",
+      "bytes": 2717,
+      "sha256": "1958c959ed502e66b5dcf372c7a08ee563458fc79b0b8ccadf9007f3f636eae5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-020-bits-0160.json.gz",
+      "bytes": 3008,
+      "sha256": "4877eea9b14ae77c56347042cf57edad3aa3defc86be153b165798a1ec72b04b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-020-bits-0320.json.gz",
+      "bytes": 2994,
+      "sha256": "5938239ceb248560c8760aee718ebe108ab49e17dad1712d064d1d4e3f89a1ff",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-020-bits-0640.json.gz",
+      "bytes": 2841,
+      "sha256": "f00273edf212b4fa61200865d2a1cdf2134396b8397ae530c36a4b26e93acebc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-021-bits-0160.json.gz",
+      "bytes": 3172,
+      "sha256": "1e11265c516624dbf5dd00f804c119ab08a656c16d608385859caf1e6095bb8b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-021-bits-0320.json.gz",
+      "bytes": 3056,
+      "sha256": "e6f28cd8a62960afdeba18b30727e77575ad39eeafdb54ea0531ed32c7cb2938",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-021-bits-0640.json.gz",
+      "bytes": 2940,
+      "sha256": "12efeb5a4eec443597b88e99e0b4e51d642109967f854b42185b45ac53c44379",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-022-bits-0160.json.gz",
+      "bytes": 3259,
+      "sha256": "78cde642e2cce72ce2143639d9a873729fbae8d44fae5eb9257a3cf751c55c6a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-022-bits-0320.json.gz",
+      "bytes": 3136,
+      "sha256": "e20efc21df9abb15b05eb2f4edd42321c4ff88e5d5dfc1c152b99192b264f428",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-022-bits-0640.json.gz",
+      "bytes": 2893,
+      "sha256": "7efd6e2405463eb51d47a26e2dae77e4e54c91a2d59d55c0379f42e2c7d52fa2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-023-bits-0160.json.gz",
+      "bytes": 3419,
+      "sha256": "2819ce65e1ed0eac4010257aa10de8a309f4eb72f81ccdbe8eefb3f7f112b9d7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-023-bits-0320.json.gz",
+      "bytes": 3258,
+      "sha256": "489a00bcb29a46bdc6aadaa697a609bd8b678374a80b53f0dad951d54fc8280d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-023-bits-0640.json.gz",
+      "bytes": 3016,
+      "sha256": "81d0f236a6754bcebbc3cd013dbf2f0a2b7842b71ad139c5f115f2405c01709e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-024-bits-0160.json.gz",
+      "bytes": 3529,
+      "sha256": "e5e9a55b826c695dd8ee10c15cc472a3e39c64cb4778786cc8ef258dbeeb1875",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-024-bits-0320.json.gz",
+      "bytes": 3555,
+      "sha256": "087b2d02a53859319513baf5d6c45471388b963357c0768f85383f23dcd7ba3b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-024-bits-0640.json.gz",
+      "bytes": 3141,
+      "sha256": "b8dccb97db7326043ddda5c472bcd946949b937f206d200f7af7fd7d0f2f19fd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-025-bits-0160.json.gz",
+      "bytes": 3645,
+      "sha256": "de7a2e2148a9def705279f0a8c8712cd181c751232d34d36a369a1cb3a73a074",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-025-bits-0320.json.gz",
+      "bytes": 3577,
+      "sha256": "e4f536678278d21c42e927796892c2c5f746a40c2dbbbe128d6b997033dc50ac",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-025-bits-0640.json.gz",
+      "bytes": 3265,
+      "sha256": "f007a14c451900284060008b43c1b120d26f4789a1134e997a2a2e340ec3bd9f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-026-bits-0160.json.gz",
+      "bytes": 3752,
+      "sha256": "4e97c925bf3eb612047c3884555761bde8f27f3da7b7a189ee23ba562841c215",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-026-bits-0320.json.gz",
+      "bytes": 3600,
+      "sha256": "6469ccc59349938e4bd3d87775a7e07ce30d0359edbc3550ff67c326e11b140c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-026-bits-0640.json.gz",
+      "bytes": 3542,
+      "sha256": "87e7fed2ff4d557128333357c58d06179ef89f04d0ba17e1b2de3efa6767fd0b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-027-bits-0160.json.gz",
+      "bytes": 3868,
+      "sha256": "a64dc4b974bc8e898fda6961e9bb218427581ec3633d64e0afe39f2aba8d01fd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-027-bits-0320.json.gz",
+      "bytes": 3826,
+      "sha256": "04458f3fa7b01387ac44cd761a57f3cdea729d6f4194fe13740c1f6e6bda7fe2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-027-bits-0640.json.gz",
+      "bytes": 3663,
+      "sha256": "43159c0f76f7e2a11dfac2cb77c9c65a646a0f1b57ba08de89691bd95d4e14c0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-028-bits-0160.json.gz",
+      "bytes": 3971,
+      "sha256": "c3cbc9f3b2ec1dc9afc52c4045513bb8bff5e3e3cdc3aad20ed1660a5f8b9584",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-028-bits-0320.json.gz",
+      "bytes": 3909,
+      "sha256": "a8f24e8ce6c1aead622130aeb13e944a11f81eb29e84a14375e5f2078ed065de",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-028-bits-0640.json.gz",
+      "bytes": 3945,
+      "sha256": "2c653003fa886cffbbbfe46fc6ed0379c8e76ef370c5d8c04278fe28d388b8b4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-029-bits-0160.json.gz",
+      "bytes": 4090,
+      "sha256": "428dd2a13a880fe6cacc454a039d1007a1a8eafe2332e70f88175b08a3b29004",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-029-bits-0320.json.gz",
+      "bytes": 3933,
+      "sha256": "1f63352543c60891ee50b9603385d54981fe6c7a8c6f291e4d5ef408a473b5d6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-029-bits-0640.json.gz",
+      "bytes": 3971,
+      "sha256": "51483df6d8cb7167de2ccb4b6ae18d2ced2bb459c2b0c49a2eeaf3fe5d8873ee",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-030-bits-0160.json.gz",
+      "bytes": 4167,
+      "sha256": "86f28951aa651b43b9b96c6a5dc968dec85ec6300776b873c5949a1f0ed5b3da",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-030-bits-0320.json.gz",
+      "bytes": 4097,
+      "sha256": "75ae79fcfd6fc14ef170e45415a73483dc623ad66172ff9b0cf4bd8d07176e77",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-030-bits-0640.json.gz",
+      "bytes": 3988,
+      "sha256": "375ba2c75376fb95e173de2c20bb4566a5662954df83f08e90d92a443fa72d4a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-031-bits-0160.json.gz",
+      "bytes": 4281,
+      "sha256": "358139ccdba84905c6ad84360ccf0c135ba653b41a98bd17ff9080f40041ef88",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-031-bits-0320.json.gz",
+      "bytes": 4132,
+      "sha256": "b4cf748eb851ecc2f2c8a7bc6fbae952fab5534f8888389bfd9c6d022046f484",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-031-bits-0640.json.gz",
+      "bytes": 4282,
+      "sha256": "71fcb989b1397c70fa5bb1da4b714e895160623d9a5fe676fb5a478229237d15",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-032-bits-0160.json.gz",
+      "bytes": 4389,
+      "sha256": "d3e2fc43176b6d4c21e2f51c819867f14a7d36cd9d537d825260ba58b9b0e88f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-032-bits-0320.json.gz",
+      "bytes": 4328,
+      "sha256": "f34a84229ddc19f825d30d33a75aec290af0e2406cb749a7cfba2cfc5108fd4a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-032-bits-0640.json.gz",
+      "bytes": 3996,
+      "sha256": "ad6325f8c6c32e77b3d45145a3a3ffd1eb893771b143c7c43b3efda09850aad9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-033-bits-0160.json.gz",
+      "bytes": 4462,
+      "sha256": "66aef3c5db3baeba9021c29c06a0a859a6da0dd86b53b28f28d0747312c87c65",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-033-bits-0320.json.gz",
+      "bytes": 4437,
+      "sha256": "2b10c09cefc58b899075b6df04434e8a87b1a9ffeef0ffc86d81573034b287cb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-033-bits-0640.json.gz",
+      "bytes": 4108,
+      "sha256": "a328d89508b8eff0d0fa39ea5f08557900cb299d2aeffd0a383ccf72ae063dc1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-034-bits-0160.json.gz",
+      "bytes": 4611,
+      "sha256": "6c71cfdfdf28898f2eca9c9f8dc4eb145d06a5179f5329fd405d73760004eabe",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-034-bits-0320.json.gz",
+      "bytes": 4589,
+      "sha256": "844fc951455f48a41060f67267ccc16758c84287432a145a0adca3e88cf53156",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-034-bits-0640.json.gz",
+      "bytes": 4224,
+      "sha256": "854ec436b3e29599dfa0721f93bae89b0589ed9fb87deace944fad09d34ccd26",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-035-bits-0160.json.gz",
+      "bytes": 4691,
+      "sha256": "fa575a8c186d57421cae40d4a67e7d9938d5636dcbe2a5e4048972c549e2ad2e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-035-bits-0320.json.gz",
+      "bytes": 4643,
+      "sha256": "32d493cfc70d7cf4063361088dd68f7968c21af48ebb8f14084958316503217d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-035-bits-0640.json.gz",
+      "bytes": 4501,
+      "sha256": "e79d27f4929c350d487683215b08309bbf92bc844be97684886bfc3cfb2a99fb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-036-bits-0160.json.gz",
+      "bytes": 4833,
+      "sha256": "aa9e49c00fed111e0b5c2d17c03c7e9572e1b89e48f9c6e99bf13cda3b7da346",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-036-bits-0320.json.gz",
+      "bytes": 4750,
+      "sha256": "6253682a9f7f760195980bd9041fa51ceef68209f7d3e60283f38ef2af3053fe",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-036-bits-0640.json.gz",
+      "bytes": 4402,
+      "sha256": "3c68393ecdfa2a298ea2cd813c163fb0313a451a68156dbc6a4fb8fc1c386dcd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-037-bits-0160.json.gz",
+      "bytes": 4850,
+      "sha256": "53a9cc70c1e0e3a8974ce259563045dc4840cfb001910766d0cda84fc4a0b353",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-037-bits-0320.json.gz",
+      "bytes": 4839,
+      "sha256": "d5cbe4f90363f4ddfc2e386df0775ed5acb54a81ffd442888f9001ac79fc39b7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-037-bits-0640.json.gz",
+      "bytes": 4521,
+      "sha256": "878c14b272a0fec24d938161f9de7ad4f265e9b5de2771a94c3d488cd521675f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-038-bits-0160.json.gz",
+      "bytes": 4954,
+      "sha256": "3f0eefa94a60b51812502a567b5840796779d5fd470fbcc8bd5f352d5806f5ff",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-038-bits-0320.json.gz",
+      "bytes": 4921,
+      "sha256": "df24c29894f28d8df27ca3cb7b118b9f0cdbadbb749052be6ac6f34305468f2b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-038-bits-0640.json.gz",
+      "bytes": 4789,
+      "sha256": "a190e5ba06efa2c4d818ecb1d9384c5e963f7ca3eb78c5d0bb3b7b10e536e0e5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-039-bits-0160.json.gz",
+      "bytes": 5042,
+      "sha256": "5968bc4eaa71b1b9fdbdf66587ed5852e883f7a44f0bcafd135038f41469080a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-039-bits-0320.json.gz",
+      "bytes": 4907,
+      "sha256": "d8af0a6a6cdb7c5d9cc32f65a8d8dc4552b644ef294fcfeaf84168a51fbccba3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-039-bits-0640.json.gz",
+      "bytes": 4777,
+      "sha256": "b88f5b35548b746ba7cc6049198a6bd593e476ccbeae05eea1551247557ea6d6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-040-bits-0160.json.gz",
+      "bytes": 5200,
+      "sha256": "4d7ae35aaa56354cfb208e214ce4164709132111c64a440bb991ac8c4b5f028a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-040-bits-0320.json.gz",
+      "bytes": 5185,
+      "sha256": "ec9cbb7a612b0f413c29a6c812361dfff6b5afe556692bcc37a64ade30284526",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-040-bits-0640.json.gz",
+      "bytes": 4982,
+      "sha256": "c770ea0ef39b0277976ea473d92aadf4a1a8d6d707402ddc516d03eb1ecb7024",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-041-bits-0160.json.gz",
+      "bytes": 5253,
+      "sha256": "108a0fd041cbd713f19136647d70ec9551e7caec8b9b19561509d9514a15dff8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-041-bits-0320.json.gz",
+      "bytes": 5114,
+      "sha256": "943405ca0cd82959a864583f5149e5c584acd11ceef828f42d45ff60d48e6b90",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-041-bits-0640.json.gz",
+      "bytes": 4869,
+      "sha256": "0d2a7b0855e95fbeb86c9153df34424592dd36c3a48b5d8f8acad91448431478",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-042-bits-0160.json.gz",
+      "bytes": 5310,
+      "sha256": "9f94b1924aca9de2824dbf669b810238020acfe4d05974a5083b5457e9287c7d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-042-bits-0320.json.gz",
+      "bytes": 5283,
+      "sha256": "6c9b2d41c938f955097befb1a4c7d983955ce9eccfb76165e1dae9f404b5de10",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-042-bits-0640.json.gz",
+      "bytes": 4954,
+      "sha256": "72a966b920869238bd01d42dd357c931745e631f59ef6af8ec5f97b821d7143a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-043-bits-0160.json.gz",
+      "bytes": 5424,
+      "sha256": "6784fa9f26fddf01849f1d783c16363845ccedf8831fa5c924bec07f828b277d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-043-bits-0320.json.gz",
+      "bytes": 5373,
+      "sha256": "ef7fd129affe7dc9fc7f7a86e240c6f3589eefe9ba83eb716c159ffcff047133",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-043-bits-0640.json.gz",
+      "bytes": 5051,
+      "sha256": "2d7b920ee563d8379220a6f7b7b429fafb3ee13bf67ad65cd2d048d9d4e65860",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-044-bits-0160.json.gz",
+      "bytes": 5496,
+      "sha256": "4ca7d48c1ee40a9c9afa67db2aaf3c02562c32de9130588b94d6253c388ecbfe",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-044-bits-0320.json.gz",
+      "bytes": 5380,
+      "sha256": "ee639837c652750a2bf84651f03fc51046bb460e9c5420219dd044b3af023957",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-044-bits-0640.json.gz",
+      "bytes": 5141,
+      "sha256": "a4949cfdbd3a55ef6e24af38648ef32d0c9d27c9e43e8d82a74e78193665c583",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-045-bits-0160.json.gz",
+      "bytes": 5565,
+      "sha256": "208c0b33d184db9fa3b4c55cc379fa0806c169ac3557df12158aa7371d25eba2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-045-bits-0320.json.gz",
+      "bytes": 5479,
+      "sha256": "ca68c986e7b6b3a6a1aa2211700f93c4bc10930912a72903e1e730869d1ea7a8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-045-bits-0640.json.gz",
+      "bytes": 5238,
+      "sha256": "50c3f11aea7863388aa4f796e63e1e7965e1328702e01b14fda6122358cc912f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-046-bits-0160.json.gz",
+      "bytes": 5730,
+      "sha256": "9a1ad22194764eefbafd8bf6905b40f0eac0c959391c37c096eb90574662e95a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-046-bits-0320.json.gz",
+      "bytes": 5546,
+      "sha256": "74693f5d844a571742de55ae14b17f199c9341dccaab4840dbd5030a2a07851b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-046-bits-0640.json.gz",
+      "bytes": 5326,
+      "sha256": "d352453987c458c5dfa9b114783beaea98282866a40bd5f41b55d5bac293ea81",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-047-bits-0160.json.gz",
+      "bytes": 5758,
+      "sha256": "3df6d7a7aa2a765cdfd8a2954da2a84ccaba9fb2cf2b978520f70fe2e95e7d21",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-047-bits-0320.json.gz",
+      "bytes": 5660,
+      "sha256": "193427f10a4d5cdf562dd848270bf647a54fd7546bccf7cf5c7725415f50fd71",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-047-bits-0640.json.gz",
+      "bytes": 5419,
+      "sha256": "ec632494e7e5e29b4377b90a83728e75af81351b4fd5788d04621a4da2d1e9a4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-048-bits-0160.json.gz",
+      "bytes": 5848,
+      "sha256": "9132ba8e1fd513103d192a5acc14d6a4e8de1f7632fda77d272747ef9ab167e1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-048-bits-0320.json.gz",
+      "bytes": 5732,
+      "sha256": "11a5ef3b8d8f77c74020f1b5701e393f0663344b25731d21f2a49492c35c3782",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-048-bits-0640.json.gz",
+      "bytes": 5499,
+      "sha256": "674e953c90167dd78b8ea92156670a56c883cc5ef23ba49946f25809d4348ca8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-049-bits-0160.json.gz",
+      "bytes": 5951,
+      "sha256": "00ff35634c8125f5f6d457c1f236bb3e7d4dcca19074911ef80e0cd0533df414",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-049-bits-0320.json.gz",
+      "bytes": 5878,
+      "sha256": "566dc4888c2eb47baee3cd07d665db2b345b56e7643cd48b9e17a25fdd6eb805",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-049-bits-0640.json.gz",
+      "bytes": 5942,
+      "sha256": "ee74a7cf64906bc59c97c333ac6ef375de2ccacf1f93ecb3836b645a7a6feeca",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-050-bits-0160.json.gz",
+      "bytes": 5985,
+      "sha256": "e38095f10c0623184f31d561c64475a4e9ded2b87d586d85d92e3a3cc667804e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-050-bits-0320.json.gz",
+      "bytes": 5965,
+      "sha256": "d5d3e1ca83e78857c5ac8fdbd00cd7662d2816a6aae00b0f597202bc558205af",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-050-bits-0640.json.gz",
+      "bytes": 5639,
+      "sha256": "a641c2f837c248c9e9f9617b7cee816161988f888cd97b0dc034ac2983145f4d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-051-bits-0160.json.gz",
+      "bytes": 6078,
+      "sha256": "92926454e952a321d9c227a71682f7b0186255b76f6f25e6f0379b55a7ec38ed",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-051-bits-0320.json.gz",
+      "bytes": 5966,
+      "sha256": "595b1df9339a7bbaf0512321e3e65532ee1404b243f9eb4a1efd2657a8cebd1d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-051-bits-0640.json.gz",
+      "bytes": 5722,
+      "sha256": "773c57a385f58d3c99e81638d8552e9c190ece4cd2137e5eb4f1310b189317e0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-052-bits-0160.json.gz",
+      "bytes": 6140,
+      "sha256": "c2e5016c99fe4d3fc376f712e8916f02240f54448161e5582eb3f449befbca1d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-052-bits-0320.json.gz",
+      "bytes": 6125,
+      "sha256": "96cfbe9a85e7b7a82c7dc9633eccb9991d213072833ffe8eebecb406b3aa4e6f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-052-bits-0640.json.gz",
+      "bytes": 5808,
+      "sha256": "709eab22b1b26a461b7c44524b6df02bf36694eacf2555b3ed4d65173cd622e9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-053-bits-0160.json.gz",
+      "bytes": 6238,
+      "sha256": "12e676898dd047aba89bc8159d3f31d1aba0ec08fd2843ab5162829bb52901e2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-053-bits-0320.json.gz",
+      "bytes": 6137,
+      "sha256": "58899cbf81932b307917a36e6783ef394e23183a08fe2f7b9e79a2b5c54bdfa2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-053-bits-0640.json.gz",
+      "bytes": 6090,
+      "sha256": "63786ba6f02d6b1cdf4dc6de16cb766f9c7dff25a1c26ac5e61aec3f5067d89c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-054-bits-0160.json.gz",
+      "bytes": 6335,
+      "sha256": "fba16a54b210326cb1036e979e849f3c85124ae435d2242914babe8002d6ed48",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-054-bits-0320.json.gz",
+      "bytes": 6284,
+      "sha256": "ceaee247ccf901a358920500d2c92c81890f26e89b24136b216df6b6654fa29e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-054-bits-0640.json.gz",
+      "bytes": 6152,
+      "sha256": "3ad0324c09c3372dfff305cf966827ddfc0121c59f27471f735ca95e3f9475ac",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-055-bits-0160.json.gz",
+      "bytes": 6405,
+      "sha256": "71548056aa992369be0fa65043bdb86a210847272b393df4add7582cad1184b6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-055-bits-0320.json.gz",
+      "bytes": 6267,
+      "sha256": "73710d70b8334223edbef02af6c5e629c8312575cbba830f720bfbc6bc6dff24",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-055-bits-0640.json.gz",
+      "bytes": 6402,
+      "sha256": "022063c1807c456bfb34f7d010285d8a0031fead9f8bb9edbc3a84c05b5ccdba",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-056-bits-0160.json.gz",
+      "bytes": 6505,
+      "sha256": "e0d5f44ae131897f29d5ee1369f50850691e587c503ffc22351f3d0bfc64878c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-056-bits-0320.json.gz",
+      "bytes": 6514,
+      "sha256": "bb584332c4e0088633325a8d4ee90c2c0c090d9888e9bd4a9644798bfb367b09",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-056-bits-0640.json.gz",
+      "bytes": 6291,
+      "sha256": "ad8a5b5ed5c361a3262eae828793a6523d52252c9e650796320ed0a72037b0b2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-057-bits-0160.json.gz",
+      "bytes": 6590,
+      "sha256": "5fef89efaa1f8a76b7287096fae2cd85673f5d30d6ebadae1b41320a12c2cc8c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-057-bits-0320.json.gz",
+      "bytes": 6605,
+      "sha256": "d0d8e0d6550cc566fe66ce758a3026f74b34765c007cc7093a69f8f66f63b1dd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-057-bits-0640.json.gz",
+      "bytes": 6265,
+      "sha256": "046a2fdce15acc26f661294f999ab6705d31dfe7d3e3ddd780d6fb8835f2a216",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-058-bits-0160.json.gz",
+      "bytes": 6627,
+      "sha256": "40bcf57fa782f402349e458752c33d374c466dbc09e6d16be395f5e357655370",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-058-bits-0320.json.gz",
+      "bytes": 6511,
+      "sha256": "9e3ed9e1a40a5219fb16e073b59b15be296193daefcecb28cf6c00092d8bf72b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-058-bits-0640.json.gz",
+      "bytes": 6530,
+      "sha256": "23b8cfb41b80c28efea4a3c7435b78cb9493e00ad135dc14a914444a13da56b5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-059-bits-0160.json.gz",
+      "bytes": 6754,
+      "sha256": "4a86a27cc4aebe4e2f4e49c2fe73d10f29069c3a8eae134ec08da87e0b394228",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-059-bits-0320.json.gz",
+      "bytes": 6752,
+      "sha256": "4c24876c72c43a9c75741205da754951985a8ae096abaa5b9b7a8360b3d27edc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-059-bits-0640.json.gz",
+      "bytes": 6690,
+      "sha256": "742e794893ca78d5f631e6da0e14980ff2ba11ac654be7490e7de6d08bebcfec",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-060-bits-0160.json.gz",
+      "bytes": 6839,
+      "sha256": "95bcc08d2b084197e3fa7e287c29d4ec2f937c24514b8bba81d787c276e8d41f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-060-bits-0320.json.gz",
+      "bytes": 6713,
+      "sha256": "e309f75d52ff2ba593b9379053bd8ab0d33d4a95a622d4d4279df0d6c3e4c583",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-060-bits-0640.json.gz",
+      "bytes": 6593,
+      "sha256": "b6c0f1ff483adf462dfe6e79eb2fea3844561e72d18c4a70aa19e46270d29c8b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-061-bits-0160.json.gz",
+      "bytes": 6830,
+      "sha256": "4685d4adf900d85cbafc7605632b6f1fd09a3edf2ab298230825d1f94275ea68",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-061-bits-0320.json.gz",
+      "bytes": 6811,
+      "sha256": "2fa983b5ecb40a50e105e72639e9b9c9a8e9bec03af3f352d66ba654dfb6e5bb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-061-bits-0640.json.gz",
+      "bytes": 6496,
+      "sha256": "b9d2468a4439df6fede7ac945da7dd5d4be3088d891beca6e8eb58e9800276c0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-062-bits-0160.json.gz",
+      "bytes": 6898,
+      "sha256": "0f1c38eb5cf3532fd089c26f9881ac6e5d34bcd45b70b07db2abc622bdb218fc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-062-bits-0320.json.gz",
+      "bytes": 6777,
+      "sha256": "de1cbb95185b0f83e5adb9df1e5aba7bfaf18d4b893fa4de87e6bc767a97e4fb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-062-bits-0640.json.gz",
+      "bytes": 6749,
+      "sha256": "d7e93208253a9c966055d6889c0e90df67b45724c5ecdc216c170035b5d8bcc6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-063-bits-0160.json.gz",
+      "bytes": 6978,
+      "sha256": "ee20df4b2d6c161c196d100feb6ef3ecb24c35452af6264ecf1628351c61df39",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-063-bits-0320.json.gz",
+      "bytes": 6898,
+      "sha256": "49c30ca3acc862f3d845882eae32445c2d26957828d769e27f3e1db71c2e8593",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-063-bits-0640.json.gz",
+      "bytes": 6785,
+      "sha256": "4210d1cfd7b22912162db04232c378f7d95ae78f1a8e72331285f424c2aac2d8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-064-bits-0160.json.gz",
+      "bytes": 7081,
+      "sha256": "58f2614f9532902ac63fcc63c5c107c3b5f6ab0ea568b52f3ba86039ff360765",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-064-bits-0320.json.gz",
+      "bytes": 7091,
+      "sha256": "044b832c40de7b0736bb3b5fd8c89b36505f5dd951ce3d07aab3e953538d3450",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-064-bits-0640.json.gz",
+      "bytes": 6706,
+      "sha256": "13d2e5753e2baffb93f6b2956d28a125f44ee6605b7e3a99416241ae6f681198",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-065-bits-0160.json.gz",
+      "bytes": 7171,
+      "sha256": "9a40dd72ea2a50232cfeea705a849248e21cfc149416a5ca2fae8e57722fa081",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-065-bits-0320.json.gz",
+      "bytes": 7061,
+      "sha256": "ab2c5d3ffd4f70aeed47ccae958f857264bafa763ee4675aceef0b24d52da7b3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-065-bits-0640.json.gz",
+      "bytes": 6748,
+      "sha256": "99020e7a95f27fef4a9ddeb08aa98e49b0f85fbdd8954730bfb2e02622a4f65b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-066-bits-0160.json.gz",
+      "bytes": 7222,
+      "sha256": "3c82b9786cdd0f1c98e62378e2305159ac3775a5979784bafeaa0f30c7f07c9a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-066-bits-0320.json.gz",
+      "bytes": 7235,
+      "sha256": "2fc471b6c4a45eb540f6a22d93971c74534c546ccd03ca45499dd818908fbd0f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-066-bits-0640.json.gz",
+      "bytes": 6812,
+      "sha256": "db939c9fadf848ed3abedba92d1efe65c99fd111bb00f5df13e511468701808a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-067-bits-0160.json.gz",
+      "bytes": 7257,
+      "sha256": "a2dae8a187375cec67b708d8f76fe6923b28de0e0ca16eb21089ec9b213ff0f2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-067-bits-0320.json.gz",
+      "bytes": 7228,
+      "sha256": "51342438fa3c2ed2ef3bf502df1c9b5e6a10eb3df2b22c06e4ac7c1a9ee292cb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-067-bits-0640.json.gz",
+      "bytes": 7065,
+      "sha256": "bb2560cec8bc7d92e32ca25c8e00b705d6452ed226d63674bc5be1a9e264a028",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-068-bits-0160.json.gz",
+      "bytes": 7363,
+      "sha256": "b3034c3aa4df1b1b4eba644648253b699116afde92eb7016485f0cf3d824f83d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-068-bits-0320.json.gz",
+      "bytes": 7288,
+      "sha256": "03b345ed6347336cdcce6b9ef88b62cbabde590a13df5923dd9bb2a783e85a16",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-068-bits-0640.json.gz",
+      "bytes": 6949,
+      "sha256": "5330b89f961a30bf822c1c1ec08ce55587cb2616386b868b3ab7801c0c1e00e9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-069-bits-0160.json.gz",
+      "bytes": 7412,
+      "sha256": "68a2a56b0714b6471e5292436a4bcae324d531ec14f6d43717b4cafc4cb86a27",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-069-bits-0320.json.gz",
+      "bytes": 7341,
+      "sha256": "d561cf383c83ea5448f6dc882a739e7024df19f4c86eba13fe0151ae16d2a071",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-069-bits-0640.json.gz",
+      "bytes": 7041,
+      "sha256": "076d941dda42c688c940d25e25b45616dd9bd7456afb3a54a32ce779b356d0db",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-070-bits-0160.json.gz",
+      "bytes": 7472,
+      "sha256": "501b3460533327967dc63941c67a5b5cf6a5a6f4ca9163d26518a4a2d13817a1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-070-bits-0320.json.gz",
+      "bytes": 7482,
+      "sha256": "0bc325057af3a888c6ae15ea842093df4dfde5bbcac25ae3bbf65b22e111ea6d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-070-bits-0640.json.gz",
+      "bytes": 7270,
+      "sha256": "b0948cdc8e857993f17227ddc10c690a1f232a514fa835acedf6625c29967e1d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-071-bits-0160.json.gz",
+      "bytes": 7507,
+      "sha256": "8f0f21794566f8ba0e816eec9d1efb32dcca29479ba798d5eda87e299ca49152",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-071-bits-0320.json.gz",
+      "bytes": 7373,
+      "sha256": "89eaa76461357e82b14b444762efb40c784c449fc3e7fe09d1da80abec99b917",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-071-bits-0640.json.gz",
+      "bytes": 7334,
+      "sha256": "dc199819d1723a959118704c21592b954cdf358fc6cee941bf8343eb5930ff82",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-072-bits-0160.json.gz",
+      "bytes": 7627,
+      "sha256": "41784fc1c04171780ac252920c4fbce2ffd7a011f1bd0d257c29e4e486479815",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-072-bits-0320.json.gz",
+      "bytes": 7535,
+      "sha256": "4e0ce07f2ebcb779fb708e098b22a966c8a2b62870be1c0767cca35d5ebbea35",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-072-bits-0640.json.gz",
+      "bytes": 7231,
+      "sha256": "d5e833cabb3a008749bc21ee40bd4119f2f008ce3ed0c3d9f27eafea0b201c2c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-073-bits-0160.json.gz",
+      "bytes": 7630,
+      "sha256": "b66ceee6615b1a959a746bff9a4fc44d3936bd55be23dea13c557b8056d2c962",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-073-bits-0320.json.gz",
+      "bytes": 7504,
+      "sha256": "0a241ff309069fcd209e52403cf23f097a549ce26b0aeb3cfce59134a13a8c2a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-073-bits-0640.json.gz",
+      "bytes": 7461,
+      "sha256": "9371d97a56b77ceae5eb8ddc2d10d9c4c5ef5414c30d6cd6ff298080ad87f44a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-074-bits-0160.json.gz",
+      "bytes": 7704,
+      "sha256": "2c0b588caa15b4263287d45ccc593b2852f122ddfa7809afa92e97ea61a1c139",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-074-bits-0320.json.gz",
+      "bytes": 7581,
+      "sha256": "674468ec79c927ac0c9ec91d2b903a4f85165755bff6829aba303d8587850247",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-074-bits-0640.json.gz",
+      "bytes": 7347,
+      "sha256": "7d382e18d6158a056812ac12d0248d39f15f6cea6378d047904800ca667461b3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-075-bits-0160.json.gz",
+      "bytes": 7803,
+      "sha256": "93290b1b95ea2615a56fd4337f87e88dadedcf86229810de4bb80e45c4881939",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-075-bits-0320.json.gz",
+      "bytes": 7642,
+      "sha256": "89eaa7e6936f60ed9fc44f6ae39435d691cae6f7b9bf979210568908b19eeb61",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-075-bits-0640.json.gz",
+      "bytes": 7664,
+      "sha256": "8c53cacc527c87e5c3e25bae414423ea497a25d502b60ae11783b7123701c4fd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-076-bits-0160.json.gz",
+      "bytes": 7837,
+      "sha256": "595d3952bed44aa533eb1d07b7616acdf1ed563380ab21e66a11a08cba7c48c2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-076-bits-0320.json.gz",
+      "bytes": 7784,
+      "sha256": "c53de66e518b4eef400280277c4af7e8811141abb138d2a15e277ec8de1dcc2e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-076-bits-0640.json.gz",
+      "bytes": 7453,
+      "sha256": "2ee2fbfbada8f7031b5bc41af91264716e00cc6574de34c75c55c2cd2f37f663",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-077-bits-0160.json.gz",
+      "bytes": 7862,
+      "sha256": "a313c3564f235bd1b7deb2c98f1cddc7ff754a4162a7a09a9f3bdf72ab8ad67a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-077-bits-0320.json.gz",
+      "bytes": 7850,
+      "sha256": "92775278bb9614fd628fb2636fdd468b83bd7e459003304f110be0a31154ce3f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-077-bits-0640.json.gz",
+      "bytes": 7717,
+      "sha256": "0ecfda72fd57cb9d4ca753f3f3250142e1ac13fe0639641124f992d849754993",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-078-bits-0160.json.gz",
+      "bytes": 7979,
+      "sha256": "e49e1a649aed53d90b18d65855a4a6c929d8432653fe3d2c541486f50a42a81b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-078-bits-0320.json.gz",
+      "bytes": 7909,
+      "sha256": "d96929b58241d993b8cca00b7e8842e29287cf04e7938dae283d799f9448b3fc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-078-bits-0640.json.gz",
+      "bytes": 7698,
+      "sha256": "8190db0fd44fdc8b9ba26a9ca5438de274efaad3bf82b4998e026e1afacf350b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-079-bits-0160.json.gz",
+      "bytes": 8045,
+      "sha256": "75b5ba6031a92993afdfe3d6e6af169d8b43fddbdbd55304ebdac0feaf50701f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-079-bits-0320.json.gz",
+      "bytes": 7978,
+      "sha256": "779ea1ced89c5499fe64919162d9b757a01bde66f6db1728f4f1c43f23d45abe",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-079-bits-0640.json.gz",
+      "bytes": 7726,
+      "sha256": "05146d18bfad2262b5cc85996b5eca5148aeb1d9a605fcf4019686e84ae3680e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-080-bits-0160.json.gz",
+      "bytes": 8102,
+      "sha256": "d9b48be3d9590b921a781cc57ad0f0c5ea6a7c25a6f2cc8016080a59b11c0201",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-080-bits-0320.json.gz",
+      "bytes": 8027,
+      "sha256": "faf28d0faa3f158fb6c607c46444bd4a68c1fb24a2d2fdf570914597756baf3a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-080-bits-0640.json.gz",
+      "bytes": 8068,
+      "sha256": "cef461ba3c2c05ac3ffa87355d393b85380050a47f1a8ebb62fbf2f6183104b7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-081-bits-0160.json.gz",
+      "bytes": 8111,
+      "sha256": "8b8dfae4c5811841e639e930b79bb66121a95604dbffbd1760f45f79f91ed1f3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-081-bits-0320.json.gz",
+      "bytes": 8099,
+      "sha256": "9d933c3edacbff43afd21fe1d78dc7d692962b745b6d27c1d36683a8de788700",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-081-bits-0640.json.gz",
+      "bytes": 7752,
+      "sha256": "291f862370be6df5ab1e9db82b93743deb44fbb63d5bb6dafe20227dd0b8495e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-082-bits-0160.json.gz",
+      "bytes": 8197,
+      "sha256": "adb22fb8a5aa3f6480e042b45d84cc8ed11a7ab1e8058274c68b999ab6d6b611",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-082-bits-0320.json.gz",
+      "bytes": 8069,
+      "sha256": "2a9952983a333ae828d9d4ca0b33034c6b3bd356d14b5033a9b9cf1357a45cf8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-082-bits-0640.json.gz",
+      "bytes": 8009,
+      "sha256": "812ec0be7b79f970d277e4c3bee721f14ad9711daa4a3fbb0b4a38bb0ca99eac",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-083-bits-0160.json.gz",
+      "bytes": 8219,
+      "sha256": "6f7f1349eda04402e9b063a8deb5c0b85574e5b23e2d4b81e7fca50ae73a8599",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-083-bits-0320.json.gz",
+      "bytes": 8115,
+      "sha256": "2e2463e8425b7221e0be7196d00fe9f363df101a880cd3236ded4a82e742a89c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-083-bits-0640.json.gz",
+      "bytes": 8059,
+      "sha256": "1ccbb822341dd626477f826768e09d8fb323f894f9b081fd249e6bafafc462bb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-084-bits-0160.json.gz",
+      "bytes": 8281,
+      "sha256": "692c77b1292f9e796b0ead6083e4eacc3cfe548745ce855c606d5a188d0b0dc9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-084-bits-0320.json.gz",
+      "bytes": 8347,
+      "sha256": "9cab16ddada32e02891b0b646a28c862045f049d61d65d6d1a9db0894eb55004",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-084-bits-0640.json.gz",
+      "bytes": 8106,
+      "sha256": "974087bcf588bcb742054c99bc985355699d6e0c4ca2f03a39f4e7fd8abb4f4a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-085-bits-0160.json.gz",
+      "bytes": 8340,
+      "sha256": "3eeca6b44685e6dd45c452d1da60763aee8d5324427e0e039e5b0d501ff2f0de",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-085-bits-0320.json.gz",
+      "bytes": 8386,
+      "sha256": "7e24762ae7df79d52054a743080b809f121e7329c96c2c53cb7bd69a54c86792",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-085-bits-0640.json.gz",
+      "bytes": 8354,
+      "sha256": "4fe45127150ead8acdc7d17e9405ba3036ece528daabea54b64349ba5b9bca06",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-086-bits-0160.json.gz",
+      "bytes": 8419,
+      "sha256": "8431716ff1c171754a4244690f14bccf01c936da0741c9d15766a51e3a9fd958",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-086-bits-0320.json.gz",
+      "bytes": 8275,
+      "sha256": "7f6cc42a94a3f6edbc54163f2d182bfdef6afaddd147a422203731820bc080d0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-086-bits-0640.json.gz",
+      "bytes": 8228,
+      "sha256": "4e3f9c3ce16243d7ae7ac99028a996c71b946e7152b94d5dfbac13e87253bc7b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-087-bits-0160.json.gz",
+      "bytes": 8480,
+      "sha256": "f81efcd26247747ff41aecf0c5ca51723e726558e5e5aa4180605b9c8c2db7f9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-087-bits-0320.json.gz",
+      "bytes": 8421,
+      "sha256": "41db66f745fc11b0dfac3318290bd2a0b1fa900a4fd8a5e05db8459af95146c6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-087-bits-0640.json.gz",
+      "bytes": 8291,
+      "sha256": "beae0b86976609e63c686e7730505d0fdab0335441fa244d78e514fee8dc426a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-088-bits-0160.json.gz",
+      "bytes": 8524,
+      "sha256": "074cd83d5ad98485ad49d98b8bf11ca9631118dffec72d92e12235f0595cb0ba",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-088-bits-0320.json.gz",
+      "bytes": 8468,
+      "sha256": "cfe9f63ce569322a5bc024ccc6866b7bd30c29eafe116eaa64e082c3ae0a9b5c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-088-bits-0640.json.gz",
+      "bytes": 8156,
+      "sha256": "5d94d7488e895abdc758212a7a9f9582e3dfcfca4489229698025d5bf306c933",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-089-bits-0160.json.gz",
+      "bytes": 8555,
+      "sha256": "9c87b5dba36b28c5bbdc34084e00bd9af4161276c1d05bf3052823b88e1eb22c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-089-bits-0320.json.gz",
+      "bytes": 8445,
+      "sha256": "df01fc38c845710dbaa82e73733e3a4f1a4ed3dcabbf1c535f7ca0cbe8225543",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-089-bits-0640.json.gz",
+      "bytes": 8392,
+      "sha256": "fbdcbaf335d3eb89278c5b42887c5b089700e7e72081d39cf2958e3bb6cb7ec4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-090-bits-0160.json.gz",
+      "bytes": 8625,
+      "sha256": "eff5ff64969929cb85d4d177ffb8fc43fef7848af5241301d9b1b1f57e535ef9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-090-bits-0320.json.gz",
+      "bytes": 8583,
+      "sha256": "f010136923072579c6c340308fc65cfd75f1e0cc62eb3a0d76da6394b46c388a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-090-bits-0640.json.gz",
+      "bytes": 8459,
+      "sha256": "7db9466a2de24cab968aa8ca1fa9e197831beeb5813bbdc946615a13e5e56e85",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-091-bits-0160.json.gz",
+      "bytes": 8682,
+      "sha256": "2dc4737897032b1b15ea8cd6788ef2453c67f61fd7c2c6cf964135d575c091eb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-091-bits-0320.json.gz",
+      "bytes": 8541,
+      "sha256": "00e8a97e7f5cd7e4cdca13f8fad2ddc752d0c644ec3f3a41df8a6b0f3477b9b4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-091-bits-0640.json.gz",
+      "bytes": 8506,
+      "sha256": "cace64e7dd2e0e0f739e406314cccd7953921b56958d62df2e7372041ea868d6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-092-bits-0160.json.gz",
+      "bytes": 8719,
+      "sha256": "2fcdfea3dc4e9f93e3de6387595ddaf92438d9c0498390213d0c9aca8d3afb6a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-092-bits-0320.json.gz",
+      "bytes": 8690,
+      "sha256": "55c4784b244ebdf259e5b715fe91df8d23e2a496af83aa28e40d44ff5b3e0ca0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-092-bits-0640.json.gz",
+      "bytes": 8356,
+      "sha256": "f7c2a0b852db47fd0c570c2db3a78c88bd921d2479a3802ab39ac055ee66d4eb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-093-bits-0160.json.gz",
+      "bytes": 8811,
+      "sha256": "e20cc32daf887ba967d4dab18b7c7619a74461aa2e36663371429ef46ec19da6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-093-bits-0320.json.gz",
+      "bytes": 8859,
+      "sha256": "58c2b470df269aa134a9af9badefe880d41b2376afda3291e820da6489c3d6fd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-093-bits-0640.json.gz",
+      "bytes": 8430,
+      "sha256": "24a6b508e05539dcb09681ee7184e008bc61f99d6b26889e8cf3c4df3fbe10b8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-094-bits-0160.json.gz",
+      "bytes": 8820,
+      "sha256": "b756d438ce525d739334f74538c14ebc4235809573a1d34874972eeaca8f0b52",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-094-bits-0320.json.gz",
+      "bytes": 8769,
+      "sha256": "ec9185ef5a32829aa549e632e56f2df17bbff74842aeec1dba9f951799c46f89",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-094-bits-0640.json.gz",
+      "bytes": 8662,
+      "sha256": "3d87586b993457792009f777a1ecc03be4517dcfc41ddac31c997c2a921424ce",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-095-bits-0160.json.gz",
+      "bytes": 8916,
+      "sha256": "9238aa7730402f794dfcb8662f90290dc03d2fa263faa4e76c6524ca55c7c2b6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-095-bits-0320.json.gz",
+      "bytes": 8968,
+      "sha256": "b77b1311cefd743bc5baa225b1328a43e7e4848b28f7a95870750542ed90674d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-095-bits-0640.json.gz",
+      "bytes": 8541,
+      "sha256": "ada3540cdfbe138cda4ce2879ce8cf957190948302da44c30f655ad8305736ce",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-096-bits-0160.json.gz",
+      "bytes": 8968,
+      "sha256": "431134c59261249ba31593345a4ca0cd5d44755e370704a167ba70a850420749",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-096-bits-0320.json.gz",
+      "bytes": 8864,
+      "sha256": "e889a4961f20a4a4edb5c3d701e673f4054d48a070b33dd3f749301088c54721",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-096-bits-0640.json.gz",
+      "bytes": 8596,
+      "sha256": "c04344a12c627860b3241e9e746e2462e2c635bf10c87e4ea18bddc605d313c4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-097-bits-0160.json.gz",
+      "bytes": 8998,
+      "sha256": "909291cb27dd205830a5e21e6e6ffca58825b3dc3159033f972b7b279361317b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-097-bits-0320.json.gz",
+      "bytes": 9024,
+      "sha256": "225504839f7a120f75798ef0cb2346df39948d3322c7196b11536feea6380235",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-097-bits-0640.json.gz",
+      "bytes": 8816,
+      "sha256": "5d115a8de6677708126bc277dc02881ea0f6d43c3f779a3c94ad58a0fb3b91c5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-098-bits-0160.json.gz",
+      "bytes": 9064,
+      "sha256": "8e53624c6b92dc0899272f60d765ea92df68a1b7145837c0b41bd1f60be792af",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-098-bits-0320.json.gz",
+      "bytes": 9102,
+      "sha256": "176181e899a138682be2b9d717486c1fe9af30e290df1638ae9903f3ff9c1301",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-098-bits-0640.json.gz",
+      "bytes": 8866,
+      "sha256": "3c64614fc4c8503448b5e1b2197e84d568f463956601b59c5956b848b99b5c55",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-099-bits-0160.json.gz",
+      "bytes": 9207,
+      "sha256": "af62262e9c71dd148a595262382d40438e0f11efdab1d82c1ee4de5708cd330a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-099-bits-0320.json.gz",
+      "bytes": 9052,
+      "sha256": "d0d243b3ce94c828a1ee4de6758ab1ad5be61efdf930af2c01e7c39c804beb8e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-099-bits-0640.json.gz",
+      "bytes": 8907,
+      "sha256": "c3538773d4cc6ffd12b78b1d047f253dc7880daf1b1ee0ed345fb298aaf2870b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-100-bits-0160.json.gz",
+      "bytes": 9132,
+      "sha256": "006d7ca999b89a7246402d5142eb354a049fb187bf7efc4768c263aa698403d6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-100-bits-0320.json.gz",
+      "bytes": 9026,
+      "sha256": "2e340666fba6404bad35203384469e5f816fa26624ebcc5c8492f2e332c69288",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-100-bits-0640.json.gz",
+      "bytes": 8792,
+      "sha256": "8a8a09b79abf75cd209ec98f8d1d23bbdd721df319a0bb955de1be76700e98f2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-101-bits-0160.json.gz",
+      "bytes": 9186,
+      "sha256": "bf015ffc1f7422117a47c3843a9a89d16b76d820c527d257b2309d0db980ad2d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-101-bits-0320.json.gz",
+      "bytes": 9196,
+      "sha256": "96adf5f6c7c3cf9f0e5d6de5fbdfddc2ce11238276d0969e6a4516a1b294fb26",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-101-bits-0640.json.gz",
+      "bytes": 8849,
+      "sha256": "3061d433b02768e27db3551fc10f59ce194f51f7b91496891994b7e10874087a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-102-bits-0160.json.gz",
+      "bytes": 9285,
+      "sha256": "97586dc5ab8cdc5fa351c39c50dd9b0f0fd0b2060fa26340e54f4f3a0a5ef720",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-102-bits-0320.json.gz",
+      "bytes": 9205,
+      "sha256": "ac83e25be5703fccbb3d7dffd3eaab858b360a3bb09081e16e65a89eb366d250",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-102-bits-0640.json.gz",
+      "bytes": 8904,
+      "sha256": "a27bb2dedeabe8bdd59b4234662114cbc576ae0c055470d5864100c54d2624de",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-103-bits-0160.json.gz",
+      "bytes": 9265,
+      "sha256": "e9065caf870e2cd179c9390f212ba7e6e85738c47d8a116f60dfde98d93564fd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-103-bits-0320.json.gz",
+      "bytes": 9153,
+      "sha256": "f92884f4386f05b21b8a7299fd158535b92316376c5658026dc9bd491ba9a752",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-103-bits-0640.json.gz",
+      "bytes": 9225,
+      "sha256": "4e1eabf59a0700ff86aea3f07f1b457ee7f2fbe36751bfed19a2175d77017f0e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-104-bits-0160.json.gz",
+      "bytes": 9375,
+      "sha256": "d4265a595e9459e26eda283913b3eabcd5858e941f53f5c76f90d1b476277c83",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-104-bits-0320.json.gz",
+      "bytes": 9221,
+      "sha256": "4c79b6764fe567558d6a0442e35f6564ee1f555ed03de2be156893e40a82f8fa",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-104-bits-0640.json.gz",
+      "bytes": 9155,
+      "sha256": "075fbe22a38cda7912687a63595bc757d0ab2d229ba83a9b5522a1627784d56f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-105-bits-0160.json.gz",
+      "bytes": 9356,
+      "sha256": "b1d0b923f6253065fa59561c3b0e92e99e9a7c08bcc006ea70fe1d340f9dab04",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-105-bits-0320.json.gz",
+      "bytes": 9347,
+      "sha256": "365cb613d01f9cb2b7f0b81922389c5ee0825f3bd0f588c69e5e4c3bf0a54e85",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-105-bits-0640.json.gz",
+      "bytes": 9209,
+      "sha256": "eae5c9dbe45538b80c4f33735dd90732f893fae8fe9ed5304deec712a33f6f70",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-106-bits-0160.json.gz",
+      "bytes": 9466,
+      "sha256": "7979872d14f287e7456c3ea8ffd7a0c2424e07e442b2b809d2916ded7bd60960",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-106-bits-0320.json.gz",
+      "bytes": 9311,
+      "sha256": "fcd6c390e5603fcfd1dd98c6e8d94b47f0037d29d8228ae1b38e0a2d8693d7c7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-106-bits-0640.json.gz",
+      "bytes": 9071,
+      "sha256": "74cc43211c2fab366b42ca187ecab9a2d6bd2a93cfa126bd2f1032bf850c35b1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-107-bits-0160.json.gz",
+      "bytes": 9497,
+      "sha256": "326825c00f9c67d4fa63551605bc83b463ffebeba0b1d628725b7610a85e2dc9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-107-bits-0320.json.gz",
+      "bytes": 9442,
+      "sha256": "b0cd418211f401eee5a9061f4cec65835bb345bc81deb0bb36811ccb632d8eae",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-107-bits-0640.json.gz",
+      "bytes": 9124,
+      "sha256": "7496bcb539ca4309632c2518d1942cdc55b22f420fb6686833a31b77174a32f8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-108-bits-0160.json.gz",
+      "bytes": 9592,
+      "sha256": "d901888957f4b62500eec8d2e0e8e8fd025ea2c1350651ec1ff52e90c89d5608",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-108-bits-0320.json.gz",
+      "bytes": 9486,
+      "sha256": "cc1b4ebf09afb6d2017487306c721486a2609a0d356c2cab05af85039374e0aa",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-108-bits-0640.json.gz",
+      "bytes": 9359,
+      "sha256": "824d15a04b8296fcf1b2d00663b8cf8b764a67864521d69dcb5f45dfeb5efae5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-109-bits-0160.json.gz",
+      "bytes": 9578,
+      "sha256": "49f0a746f85cf69c61ff760bc76fddc3154b443b19fbf8f7bb497329d9ce9a68",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-109-bits-0320.json.gz",
+      "bytes": 9541,
+      "sha256": "fa7dbcf89efca09fdb1b4aa500b6f75ef9ff0d599fef8a1d31134cff0f637ba8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-109-bits-0640.json.gz",
+      "bytes": 9232,
+      "sha256": "26d3a1ffda1d5dd1ea44ddf56f82e83d6a5180b3555cce3cb7a6d84d848cd975",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-110-bits-0160.json.gz",
+      "bytes": 9639,
+      "sha256": "8e2e1b5cafb53bdfc11539a2f859a45e5bc4e40204df869f24debad1c73603dd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-110-bits-0320.json.gz",
+      "bytes": 9563,
+      "sha256": "988aa3dbedb3d2450aaaa687d347d909ed5976e807bb981515dda30158b69b16",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-110-bits-0640.json.gz",
+      "bytes": 9438,
+      "sha256": "a4fe6248071280c4857f31112933129ba89e26e8ec5a818f551f27a47926f44f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-111-bits-0160.json.gz",
+      "bytes": 9675,
+      "sha256": "f9c39a96e9170737894309afe04c39455a525a523cef38a3ae9543783efe74f3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-111-bits-0320.json.gz",
+      "bytes": 9624,
+      "sha256": "b185684cbddc0a878f6d180b6ddd0c399e50dfbe8b0c27dab9529a954c55a9d6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-111-bits-0640.json.gz",
+      "bytes": 9311,
+      "sha256": "5751fa00267df7b28997fbb54f732b5c343ecbd8e721cd6b07890182b700930b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-112-bits-0160.json.gz",
+      "bytes": 9705,
+      "sha256": "6fafc758e09beedfec2afef44396d2cd6a40603e96b54824553822f15f9e2422",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-112-bits-0320.json.gz",
+      "bytes": 9688,
+      "sha256": "80f8aee50ef59adb945a9ce407ce4fdd8d808ff8d30b971bea42a0224b6dc848",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/arb-mode-112-bits-0640.json.gz",
+      "bytes": 9711,
+      "sha256": "8dd2bbc1c455e6ada9ca0f9e8e7c9aead55d224cde91446e151308506daf79dc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/cell-widths.f64.gz",
+      "bytes": 418,
+      "sha256": "2f816bfe4cdf3fd33ada7bac07cff0d4e9c4856e11229055223f1e7d918434d3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/circle-height.f64.gz",
+      "bytes": 5308,
+      "sha256": "ed9e21d95d6370c8d0a98d87d97f978b353194f6621e8207bf4f4a52ae5e56b9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/circle-radius-midpoints.f64.gz",
+      "bytes": 5088,
+      "sha256": "c8e2fc714e185b475ab35763f41ae11db4a455d95d6a0cfc0283eed92020871c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/circle-radius.f64.gz",
+      "bytes": 5082,
+      "sha256": "78e4ecc8143eb75c0edf6d7412a929dc4d2d28eb85864ff7d55d9c19efee70c5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/complete-zero-tail-slope-J.f64.gz",
+      "bytes": 1438,
+      "sha256": "14a60f8d9e8bb0c1a47c4439a08fd292ba921f861bb1cfc67b1b2b1fa89d783e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-001.json.gz",
+      "bytes": 201409,
+      "sha256": "72774455c4e6ba83ac736952e49deef0ea0eab9412a603819a979ad00b6ef31e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-002.json.gz",
+      "bytes": 194268,
+      "sha256": "763a19307b1011353464b3de501c7d0d064261e3072c3ae8c8bfd713d343d017",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-003.json.gz",
+      "bytes": 190845,
+      "sha256": "84c3003729760d9e8e21cdb341317a169ddc5de87ac2a803edbe249c943e9ee7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-004.json.gz",
+      "bytes": 187835,
+      "sha256": "f274fd43fe028ad6e6cf494fcaa414fb57bee0be7bdc0dfe1d7d357de8599fea",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-005.json.gz",
+      "bytes": 186645,
+      "sha256": "f379306858026572258a20f96c727372ac50b6cb6b71b412da61da582bef1266",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-006.json.gz",
+      "bytes": 184765,
+      "sha256": "27ce2c9bdbe7692ac4eb8551d65f0c5209bc42c10deae601d9683e82f554d065",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-007.json.gz",
+      "bytes": 184083,
+      "sha256": "02c5c7ff893f3e520b1ca0df091086c4aa32bb8d4c5d28fefee42b5daaff2be1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-008.json.gz",
+      "bytes": 182681,
+      "sha256": "3b795369b8ad24fdd488832eb8171bed5d16de9b32d44109dd0575cfc993d542",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-009.json.gz",
+      "bytes": 181963,
+      "sha256": "1cc2ae00724776fd80410fda01e75f5e91bd128648cf4efd5de1829e79f7bfa2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-010.json.gz",
+      "bytes": 181202,
+      "sha256": "4ccfdc1a188dcef98d5ca364353be66d593504751b75cd5d482fa0bf4f3e240b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-011.json.gz",
+      "bytes": 179935,
+      "sha256": "30c1506d60a73f22588878650225d673eb0b25869630974a29499b4001c50957",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-012.json.gz",
+      "bytes": 179024,
+      "sha256": "bb3720683b01111ddf050ab311da6d3a62ac1765c1dc70713445f06d3901b58b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-013.json.gz",
+      "bytes": 178476,
+      "sha256": "b643e7df190dc05b22d6b469f373255c45705fee5bcb6ac889c4d6815e83a99f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-014.json.gz",
+      "bytes": 177633,
+      "sha256": "c7f133809c6401ca5bb3a5f00feb5a36ccc737005492526d9e3507839fc631a5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-015.json.gz",
+      "bytes": 176964,
+      "sha256": "db3860b11e35f073b76d059ba24eec318f7e344f1893b887bc8021db58615e20",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-016.json.gz",
+      "bytes": 176060,
+      "sha256": "fb24786426538c5a77ccb28e483d58b45cd99f8987984a1b2dc810f4eb1f5913",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-017.json.gz",
+      "bytes": 176055,
+      "sha256": "5741b7d46769ec4ee55d3a78d743a02643958ca86fdfc97074ea69c5f6a5795a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-018.json.gz",
+      "bytes": 175519,
+      "sha256": "5c4e0d2751a336be299b707bf910d8ff54aed1dad3ba4b863a65c49ec3f2719a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-019.json.gz",
+      "bytes": 175210,
+      "sha256": "bfffd8d5b6c846d27e0293c3f04fd644eb5bc7173c8f012ad618361226fd8680",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-020.json.gz",
+      "bytes": 174875,
+      "sha256": "fb6d69cb7efe5554f1f3db68057973f42b9ae2ce64316c7e3b3cfeab4255a1ed",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-021.json.gz",
+      "bytes": 174032,
+      "sha256": "f80867f2cdb509ee353d8944f19d8454df1de49a29be1b0401c1651cf304fa3f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-022.json.gz",
+      "bytes": 173916,
+      "sha256": "817fe5ae3b5b3a50d9dbc4f3b53fe97775019306e537cdb192fc5302393b60d0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-023.json.gz",
+      "bytes": 173998,
+      "sha256": "07bae4e84bd75348ecefa1a5f3a79ee9119c7d009b9609edf90722b7ff9709ea",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-024.json.gz",
+      "bytes": 173873,
+      "sha256": "a0c8a647a3d19e1684862e0516b875bce04812f83aa5d7a74c5cd784aa069c83",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-025.json.gz",
+      "bytes": 173510,
+      "sha256": "7b20bd131b9a3c0e80ca47e71b65a8e360c3b8fb733ac1758ce6e7b4bfe8c060",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-026.json.gz",
+      "bytes": 172851,
+      "sha256": "a0faa31d4b8dc450ee6bcb0932a534665ba62d7649d18f0f2cd8a1d394fdc0ad",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-027.json.gz",
+      "bytes": 172749,
+      "sha256": "1cbdaa4c16224c17adf8f9d7368bb626062545468bcba7505d03a2d8ecca3393",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-028.json.gz",
+      "bytes": 172648,
+      "sha256": "3e38f9723decb056a9633c5b3cd028543958650ecb0b52e434e652a61b9dafdb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-029.json.gz",
+      "bytes": 172184,
+      "sha256": "bcd5129816cdabd47855f7b1e1dde6109ceeb13f8387c77cd65d99de1393693d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-030.json.gz",
+      "bytes": 171779,
+      "sha256": "d4d100c4954659fef0e47955534ac794a65658b6f2495e7ed36cb20ef5b98a19",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-031.json.gz",
+      "bytes": 171600,
+      "sha256": "ae037ebab290d88c56289fd9ad076d0d402f1895fef052d0144097cb329f6af4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-032.json.gz",
+      "bytes": 171316,
+      "sha256": "bc9048319ee72c26cb378e3c11078d4fd2721d83b96bf171b9e154183939264b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-033.json.gz",
+      "bytes": 171045,
+      "sha256": "9004731f7334764c0e44b7ab8021471b779650a89d4e7b1dd69699eeda30ef98",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-034.json.gz",
+      "bytes": 171159,
+      "sha256": "f807d537919380a73671181f6d75e26bf0976cdb5993c19a365ccc6d7930a50c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-035.json.gz",
+      "bytes": 170937,
+      "sha256": "56228596e09dff85e2c1fd140ec0e339323e3f6ccf4cf5491571a49933cd8159",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-036.json.gz",
+      "bytes": 170769,
+      "sha256": "efe8c1540486e9639e5222b81823941b0f89e6f19b6d2e251ca7b6c68e1d16a1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-037.json.gz",
+      "bytes": 170470,
+      "sha256": "895f56f456235ca8128609cc017f7b96a3f394489823508df5489653d7d6c169",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-038.json.gz",
+      "bytes": 170566,
+      "sha256": "4a2b59b85e3668076744a7b6f7abae24e2faf71a88d50497cdb039b1c4c5556a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-039.json.gz",
+      "bytes": 169925,
+      "sha256": "248c8b98a722bff68641e05f7734df7b4d8745bf0a8771f62f1068cabbbb98f3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-040.json.gz",
+      "bytes": 169870,
+      "sha256": "a04fb69424e076cd90c6b71a92b9d1f3f3f3ec249075cc48d4d415e40c33816b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-041.json.gz",
+      "bytes": 169185,
+      "sha256": "b33e4983bab67c16adc4cd1a3b5979e60c6017130ddcfbc2ddc661fea1870c10",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-042.json.gz",
+      "bytes": 168928,
+      "sha256": "11b334b9258665c8ddd8d70bc15e30483f8815da205412337b20deb78a25b082",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-043.json.gz",
+      "bytes": 168687,
+      "sha256": "d00710c967020a88d0fc0bb55da5185da66b2820f251858ab7d93616620ace22",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-044.json.gz",
+      "bytes": 168493,
+      "sha256": "add9efa485b7dac494c92d9131e74fb7397f120bd276ee0da2579c30b6083588",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-045.json.gz",
+      "bytes": 168446,
+      "sha256": "c03b2b5781a507baa785b7f293db8947e94b5a370eba8c74cb6e6e0f222a2e46",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-046.json.gz",
+      "bytes": 168298,
+      "sha256": "bf2d888e29ec61e0febf138b6d026ed3ead5b0d1e58d0dd9cd56593d753f6308",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-047.json.gz",
+      "bytes": 167991,
+      "sha256": "43a66c9add9d6cf7ea8f2b085ca3b2dd75a66689efe054a60caac2f395f8c6c6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-048.json.gz",
+      "bytes": 168036,
+      "sha256": "1b6a38d3d01d75dd631b87a01c5f2dd4ac637325d721ee48ee7af0485e2b79f4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-049.json.gz",
+      "bytes": 167714,
+      "sha256": "4a6797c00e5714f705485b7330ffb42f832d16e53d41d2a77fbdb16039521856",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-050.json.gz",
+      "bytes": 167653,
+      "sha256": "328b76e59d67f0f116badd244eeb1a39d52461742a699cadaf6cc6b7122818a7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-051.json.gz",
+      "bytes": 167433,
+      "sha256": "192328180b8224cb66b298afbeef7b697f4cdd7498515d2fcaf25d5b9f559535",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-052.json.gz",
+      "bytes": 167270,
+      "sha256": "597ceb9dada7627d8362371724506ac6e25fa12ace829c545ca2302ef9766db9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-053.json.gz",
+      "bytes": 167094,
+      "sha256": "0f00d1b43c9a22515ccac7682db48ad0c60c217700326917b6134ce0215fa222",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-054.json.gz",
+      "bytes": 166894,
+      "sha256": "15e7a077b5ef13d10e2de087d34574c6caa09183f9ad13965dcbf5a6c1bb1cd0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-055.json.gz",
+      "bytes": 166703,
+      "sha256": "14fcdbc7d73c5d69041385816c0b918ffa7590b7277dd76b03c349784ab0ab4f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-056.json.gz",
+      "bytes": 166372,
+      "sha256": "79752c5a854223b0fc3c8683931434fc7b94771bd22fbdf10803814b5790dc36",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-057.json.gz",
+      "bytes": 166315,
+      "sha256": "33ba4a5cf0ed74602732230bbbd98fcfdce38d91b5efc592defbb1d47da8d87b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-058.json.gz",
+      "bytes": 165901,
+      "sha256": "6666b2eb5f0a840b706fca12ca61098b6a0e949c6cb3639618acac633cda5e4f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-059.json.gz",
+      "bytes": 165871,
+      "sha256": "f2ba1d6015bfc4c0e765d5e59a69ef8335bad691ee86df3f5fad766e3499b9b6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-060.json.gz",
+      "bytes": 165741,
+      "sha256": "57be9ac3d96520084e87d2471ed0493eb99726016aaee0f1aa3f7d829101b5f3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-061.json.gz",
+      "bytes": 165512,
+      "sha256": "aae9b00b720beab247f47cb26846cd6cb69acc9d47ef04e06b42a651277dadc0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-062.json.gz",
+      "bytes": 165221,
+      "sha256": "3beba59c75ba20a74554435c0cbe267f12d0c95d30e00316d4a141b5d615eb98",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-063.json.gz",
+      "bytes": 165264,
+      "sha256": "becc3b3e9b4bae04e7fd539c50512832bdda4a422d03f4d7345644007af0105b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-064.json.gz",
+      "bytes": 165125,
+      "sha256": "0e5db036643e066c679e2687f67ac9a957506a997b95ec8c363f7d9f6851c7db",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-065.json.gz",
+      "bytes": 164844,
+      "sha256": "20a0be206f40f0ed4acc46635bb88a16e003976438feb76607ca06ed028574b7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-066.json.gz",
+      "bytes": 164593,
+      "sha256": "c0f6c42e0812c7e2f1b6105c1a9f08815f9240b6a0eb54a4ad1c69b6393e875a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-067.json.gz",
+      "bytes": 164441,
+      "sha256": "7a06da037c5e491444159e5f1bb6c6ec760df5c71bba8e083ab4ee3f9bbfad19",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-068.json.gz",
+      "bytes": 164480,
+      "sha256": "c405b178d7e45c74d2be77ada7dcd6da64d319c6b23e3e791a9e06c8fee3155b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-069.json.gz",
+      "bytes": 164220,
+      "sha256": "101d1608b40bdcb121e223ad76df0ee397c4ef7b195fa0ba59b9afceede4de0c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-070.json.gz",
+      "bytes": 164186,
+      "sha256": "77d38407403fe2e7cacb1ba9db64174e008a6040398d2f864da9c94ea5471ca2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-071.json.gz",
+      "bytes": 164003,
+      "sha256": "b9cdc5a17f13b9de5329cee14e78e7816b06bcab1cd0a34ef5af449f2b8a5517",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-072.json.gz",
+      "bytes": 164069,
+      "sha256": "30e1a4fae9fc16077c79c4c1e36a4db13f844ba802e0062c624272f2b85e93a9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-073.json.gz",
+      "bytes": 163740,
+      "sha256": "4b01d5629f7e5f646b96f224e8844520bd7d03b26ddf2afd472011876f173a3c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-074.json.gz",
+      "bytes": 163593,
+      "sha256": "a2c5aac07c565fb6ed014f9ce5de14f9aa7bd36048c00c406f35f54b20bfe864",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-075.json.gz",
+      "bytes": 163618,
+      "sha256": "c079abb6c26aab64cfaa40c0d1386c18d16675b5d2c3c63e17fcc462c6614599",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-076.json.gz",
+      "bytes": 163639,
+      "sha256": "70b76b161e469d7b33b6d1f9ef917f2d332a4fc9852efb14f64c2f67f8942bdd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-077.json.gz",
+      "bytes": 163591,
+      "sha256": "92f5830018f8aefbfcc26bd431ab244afae1c9484392e9358d8e33f2fef52230",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-078.json.gz",
+      "bytes": 163424,
+      "sha256": "9a0d7df51b9a3fab520cd286d3b7531f89f5e99fb0c39ec06b89a236065ecc5a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-079.json.gz",
+      "bytes": 163288,
+      "sha256": "7f701fd566ab988975a5f73725a2b1140e93f2661339e38d7878c7a06d982c40",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-080.json.gz",
+      "bytes": 163043,
+      "sha256": "65d5b2a103b9cd7b9515f2664c124773e67321119965b5fbcaea0bb53e26abd2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-081.json.gz",
+      "bytes": 163129,
+      "sha256": "0fc66d3a13cc9e62bc1e9e86aa1cf0abe0e5527be8d5adb8a1c924056cd8d425",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-082.json.gz",
+      "bytes": 162910,
+      "sha256": "f12c9780237294a05afbe305daa89f24cd7035e9c2ef182d1a05f870550a3229",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-083.json.gz",
+      "bytes": 163002,
+      "sha256": "acbecc7a5bd5a3f494744687358519c977dba2338086b36c0366c389ea3d8c17",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-084.json.gz",
+      "bytes": 162707,
+      "sha256": "96fc1fd97ec265f64979c6b06039a4fd1c6a9b76e42ed6a197553b6a96b9db2a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-085.json.gz",
+      "bytes": 162529,
+      "sha256": "5afef8cc374e16ebac75d584b495daf77d7ed5d33fee4e13bbc60c2b41f401d4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-086.json.gz",
+      "bytes": 162233,
+      "sha256": "23f3eb27ff20b5340b7c1b5bfa02a9b6bae11f1932547693dc4f1cecdb679246",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-087.json.gz",
+      "bytes": 162040,
+      "sha256": "e7aebf248b8b8e51b8ca4c565ddb93b4aa64d7a4871091eb5ad0c329f332c7ab",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-088.json.gz",
+      "bytes": 161895,
+      "sha256": "b0d01f083df61f3400d3c5febd89086f24c526b400ba5aa0fb94d0bd5dd4f263",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-089.json.gz",
+      "bytes": 161856,
+      "sha256": "d3583094e165e48e6b1536f57a1845363fa33ea422899c6a0a4c865c915621c4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-090.json.gz",
+      "bytes": 161815,
+      "sha256": "ff310d06213b6b277f3cfe5642664fdd45ae96a13234235306f8affbf50feb8a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-091.json.gz",
+      "bytes": 162074,
+      "sha256": "f1e8b04f07725869f4c4bc44f0d6030b4fb3cb2d54c7620f6af4c192befffd9e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-092.json.gz",
+      "bytes": 161800,
+      "sha256": "4a9a3faab5c553a6e2b8efea42365ed63a025ee9c77c644515bbf4aed3d13ae4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-093.json.gz",
+      "bytes": 161640,
+      "sha256": "e0dbe0973a14ef9daa905801c704477316d4883a33e0a1c1279dabaf940e9d21",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-094.json.gz",
+      "bytes": 161500,
+      "sha256": "6d8995515ccaa5cc29e95ce3918e712c6b8658ec8c7012ec9ea45009eea64256",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-095.json.gz",
+      "bytes": 161431,
+      "sha256": "c2d96e99c949d069b570fdebdba427c2eb32a7069f979f696c553988c363eb3a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-096.json.gz",
+      "bytes": 161156,
+      "sha256": "b90a615eee75f51f8031822ff6293474308c9bc1a82b28c01bc32878add45665",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-097.json.gz",
+      "bytes": 161342,
+      "sha256": "a425c169992c8e7a371eb681b9344abf4b1b3c4cc291ee6a4c17194a9a652a52",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-098.json.gz",
+      "bytes": 161346,
+      "sha256": "28cc85f4aa5898215eaed72793e8e8e4cfc45dc8cae045fe544be5937ca30648",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-099.json.gz",
+      "bytes": 161203,
+      "sha256": "207dbb74501bc93e3760f82c6db14774efdbc73f9e81b90eb9699f0b5b94e1c6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-100.json.gz",
+      "bytes": 160955,
+      "sha256": "c590ac3c396044e2621a820fa1bc00644992b62f70cf17927b712fe920513135",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-101.json.gz",
+      "bytes": 160776,
+      "sha256": "bcae89b43528e58500e21f0f367abb05179cc3da97565e61bcef12840f99dbdc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-102.json.gz",
+      "bytes": 160880,
+      "sha256": "2fac5eeba6cd04b27ea377ff679b26e5e93828c909ddc3e9c52db893f329f0bd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-103.json.gz",
+      "bytes": 160874,
+      "sha256": "f7e3eed8072ab2baed6a4dfea3b8e779558fa4afcb8c1a9f18009f07ed3e41e2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-104.json.gz",
+      "bytes": 160737,
+      "sha256": "3ef3a9815b30ec035804df7fcd460cd02b1aa71f4472c97f4983cf1e3816126c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-105.json.gz",
+      "bytes": 160570,
+      "sha256": "a2aa0d00ef56e47337de4bc859dd00acd06c74d9fc5348e6abf304454a980ce8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-106.json.gz",
+      "bytes": 160501,
+      "sha256": "68eacaef64c8ab36b4e97735320b9426f6f8e2d7a35f5bec23535d864b7b7f55",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-107.json.gz",
+      "bytes": 160639,
+      "sha256": "92e9b088f1342bac22876b42038ba18720877d3806d6b02db54b37811c60ef14",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-108.json.gz",
+      "bytes": 160591,
+      "sha256": "46e57b2304f63dcfce5bbf74376de2c6c2dd1c191ccb4bf75deac82b38d82fc2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-109.json.gz",
+      "bytes": 160368,
+      "sha256": "d61fddf6420b68fb07eac53b64f2bd76235e4c917936c3888c8d84f9de21cb44",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-110.json.gz",
+      "bytes": 160301,
+      "sha256": "0ec4cee6aa10468e99ab806558f7c2c90b5578b3ccf030fc77d5560b0dd39028",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-111.json.gz",
+      "bytes": 160333,
+      "sha256": "bbb0d6ddde884ee9ac68d89de5e12d4c03c595fde1d396d45283fa4223a66a22",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/exact-mode-112.json.gz",
+      "bytes": 160266,
+      "sha256": "dd24ed2abc1f31a2562694977dd8c5653a0470773de4f1b7c50cdbdb21e69d7d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/finite-full-mode-schur.json.gz",
+      "bytes": 3508217,
+      "sha256": "925a716805929d5089a4bfbd3509474ff392820f14965b5ade5f78331670d55b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/mesh.f64.gz",
+      "bytes": 3419,
+      "sha256": "4c8fe4e79d4c7b15d7ad7358feeba434c89b576077848123e1f16067eecf282c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/midpoint-stations.f64.gz",
+      "bytes": 3498,
+      "sha256": "13ec300e8da0ba0e7fa987be9b14bdad79d3ed2cf4467ca43b421af4986dc433",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/ratio-midpoints.f64.gz",
+      "bytes": 5411,
+      "sha256": "106e57d5654b79f0c9e145144cde8fdba10e4d1fa3b022df4a08186e97bdacce",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/ratio-nodes.f64.gz",
+      "bytes": 5422,
+      "sha256": "d39e4c15833a458a70624ce9bb3d27c327068688f767c01d140f2a00b3368463",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/scalar-midpoints.f64.gz",
+      "bytes": 9720,
+      "sha256": "873c21309f04f61c4785b4082e8249112959178e7386f320ea5ad90bed9f1e91",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/scalar-nodes.f64.gz",
+      "bytes": 9715,
+      "sha256": "acf3cb587fe355c62ca8ee6da62fbe743590233a4384ab798c6a31020675e8af",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/vertical-midpoints.f64.gz",
+      "bytes": 4486,
+      "sha256": "341a453924918976c54f971b83062dff9e195e3c3d69a68fc0e64c07d7849aac",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/large-arrays/vertical-nodes.f64.gz",
+      "bytes": 4437,
+      "sha256": "030d69b8a22facbdfc4283eb46041dcd460d3aca2fb195f8c5ebe255ea5fad38",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "high109-diagnostic/result.json.gz",
+      "bytes": 163089,
+      "sha256": "bd7305b520f02ba963f66934ec016c5e606f07b67a9674d8cda4b78583720647",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-diagnostic/result.json.gz",
+      "published_bytes": 163089,
+      "published_sha256": "bd7305b520f02ba963f66934ec016c5e606f07b67a9674d8cda4b78583720647"
+    },
+    {
+      "source": "high109-diagnostic/summary.json",
+      "bytes": 5319,
+      "sha256": "86793b12206f247adb4328ec52ce5e040d5f234f0a4787d1716efaec1f1f0345",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-diagnostic/summary.json",
+      "published_bytes": 5319,
+      "published_sha256": "86793b12206f247adb4328ec52ce5e040d5f234f0a4787d1716efaec1f1f0345"
+    },
+    {
+      "source": "high109-readback.json",
+      "bytes": 5608,
+      "sha256": "8a99877efa961d7172cdb3531aa8d8224d41ac7b581cf5af8d26cc1b507f317e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-readback.json",
+      "published_bytes": 5608,
+      "published_sha256": "8a99877efa961d7172cdb3531aa8d8224d41ac7b581cf5af8d26cc1b507f317e"
+    },
+    {
+      "source": "high109-two-end.log",
+      "bytes": 19347,
+      "sha256": "b6691abed99f3739f267e20c2d6f15cf8045cccd381fea833cdbb76763b60374",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/high109-two-end.log",
+      "published_bytes": 19347,
+      "published_sha256": "b6691abed99f3739f267e20c2d6f15cf8045cccd381fea833cdbb76763b60374"
+    },
+    {
+      "source": "parent78-original/request78-input-and-source-identity.json",
+      "bytes": 28516,
+      "sha256": "57a5d443b0f13193a385a40a13c5dc038dae768e97095074e08a6edca5fc5b58",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/parent78-original/request78-input-and-source-identity.json",
+      "published_bytes": 28516,
+      "published_sha256": "57a5d443b0f13193a385a40a13c5dc038dae768e97095074e08a6edca5fc5b58"
+    },
+    {
+      "source": "parent78-original/resonance/circle-reference.json.gz",
+      "bytes": 139996,
+      "sha256": "6c56f190c6e07538582bc6271caa6abe9d8eb5c59362579b8f87ee6d13f8afb1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/parent78-original/resonance/circle-reference.json.gz",
+      "published_bytes": 139996,
+      "published_sha256": "6c56f190c6e07538582bc6271caa6abe9d8eb5c59362579b8f87ee6d13f8afb1"
+    },
+    {
+      "source": "parent78-original/resonance/complete-scalar-domain.json.gz",
+      "bytes": 79207,
+      "sha256": "8efa0be35549651bf8f8369cf7587c0b7cda240cebad67569686a9be9242be71",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/parent78-original/resonance/complete-scalar-domain.json.gz",
+      "published_bytes": 79207,
+      "published_sha256": "8efa0be35549651bf8f8369cf7587c0b7cda240cebad67569686a9be9242be71"
+    },
+    {
+      "source": "parent78-original/resonance/resonance-status.json",
+      "bytes": 50438,
+      "sha256": "09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/parent78-original/resonance/resonance-status.json",
+      "published_bytes": 50438,
+      "published_sha256": "09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "d1ff59670d4826151d1d639f69959027d7627bcf3751f39b60e53d736aa1b8d1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "d1ff59670d4826151d1d639f69959027d7627bcf3751f39b60e53d736aa1b8d1"
+    },
+    {
+      "source": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/public-source-restore.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "request81-input-and-source-identity.json",
+      "bytes": 28662,
+      "sha256": "2d7c382802d6f005b6755d7b6201d2a3a9d1910bd38a7595344ecb8d1299ecc2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43664236768-1-smallcoreresonance/request81-input-and-source-identity.json",
+      "published_bytes": 28662,
+      "published_sha256": "2d7c382802d6f005b6755d7b6201d2a3a9d1910bd38a7595344ecb8d1299ecc2"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43664236768"
+}
