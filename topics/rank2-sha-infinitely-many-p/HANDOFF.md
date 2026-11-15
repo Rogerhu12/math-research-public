@@ -4,17 +4,17 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：3c8c8354a8665925bada96939fcc5a44b45310a2；2026-11-15 11:24:50 UTC核两README无变。实际CI pull 2026-11-15 10:54:02 UTC/2e8e90dc72343a4132c2be0ac489b168b4ecf072（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:24:50 UTC仍无环境。最迟2026-11-15 11:40 UTC再实际pull。
+- 最近已读规则提交：6e58a6cce03bf2a2aff3671571998b9acc4305ab；2026-11-15 11:27:39 UTC核两README无变。实际CI pull 2026-11-15 11:25:00 UTC/9c1a8a0ffac2e2fb280487954a051d7746896d20（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:27:38 UTC仍无环境。最迟2026-11-15 12:10 UTC再实际pull。
 - 首次全文读旧库根/题README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推；禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次核两README，仅读差异即照办、记提交。本地exec无环境；API非强制追加，拒推即尝试pull --rebase并接新head循环推；CI实际pull与本地失败分记。
 - 规则12无冻结/独审/复跑门；13数学计算全用公开Actions；15@137c5a877fb387a82cbde01f084d1fa67ee717aa不存可重算输出/不新分块，只留脚本、参数、run/hash。
 - H<10KB、MD/API文本<100KB、open尽量<30KB、单文件<5MB、题目录≤200MB；题log每轮≤5行，不写根LOG。
-- 最近实际pull10:54:02/run43706282538/job132787960644至2e8e90dc；两README逐blob/差异无变。库存26,930,290B/1942文件无超限、旧3输入块保；ci/rule-pull-20261115T105402.json；下次最迟11:40 UTC。
+- 最近实际pull11:25:00/run43708808704/job132795688504至9c1a8a0f；两README逐blob/差异无变。库存27,013,452B/1950文件无超限、旧3输入块保；ci/rule-pull-20261115T112500.json；下次最迟12:10 UTC。
 - [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)普通删除206输出；79未匹配/2自读/3旧块先核实际生成器，真实输入/历史保。
 
 ## 完整前检与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r740.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–741、744；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r746.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–741、744、746；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。deep已付R741，续完整res_C W_D与同R；theta已付R740，续Yκ全观察与G4；literature核p-ram BDP线性公式；root已付R744三原曲线点空间，续实际中央桥。
 固定E17/E24/E2312的rank2和完整桥2+corankSha≤2ordJ已付；仍需同一无限p族至少一条固定原J′非零。O4低增广/O6相对类群按open保，有限p/局部负矩非零不算完成。
 
@@ -29,19 +29,14 @@ R739：L=K(17^(1/3))全ram17。F∩L=K上的E1点与Q2/Q4模torsion End独立，
 κ=π0/barπ0全局norm1，两个完整yκ仍norm34，Yκ三次投影是原Y投影整共轭；原Y17 gluing未消。两个E/V剪切不同，全部质量与κ级数保，固定p增N不能删κ²尾。只有无门完整伙伴积分才是11维，混门须全S72/pℓ扭。
 实际条件积分→代数点的全p-conductor公式、代数系数/17域及G4尚未付；局部球不自动给R739条件，BDP旧公式p∤conductor不免费扩。
 
-## 惰性：全窗与原中央carry
+## 惰性与第一wild：完整旧门按前检保持
 
-R708 trace零iff同g_h模p全p−2行，亦αp前缀α>3/4；R707共轭均方高度保，m136另需p>136和独立j0。一般j0不迫前缀。
-R710全部J_i及Newton/normal/Q/真实pC0首边界保；一般整forcing+j0只迫首余数p整除。R717AH仅pk、s+pk两族需第二位；R718/720/723/729的原Norm3/7全Fermat/Gaussian、密度一六次阶>s唯一恢复同U整窗，未付旧WD自映射/中央非零。
-R721 Zhat帽p(p−2)D2/3；R725同S2帽2LD2/A_m帽mLD2/直接Q_m帽2LD2，Cartier由真p基指定、全其它留数/正则项在。前K帽p(2floor((K+1)/6)+1)与Q度sK/零号极保；R663同X下降仍需j0/高Q/同解。
-
-## 第一wild：固定模型与全二位同步
-
-R716 L(ψ17ν_r,1)/ΩR=48940416|S_r|²/p，ν导子p²/阶p/root+、全r一Galois轨道。Rubin note的vA(ν)=2vtrace/边界零iffΦp因子保持；j34=0且边界零才λ≥p+3，μ0不付统一λ，固定tower深层不代变化p第一层。
-R724全能量R_p+N_p+T_p/p，R_p→9π/(17√3)；附录全primitive正径向和、低尺度非实同步常数/高斯尾、全环非unit加法交数保。实际annulus需o(p²)，指定零平移不冒全平移平均。Brandt固定α误差O_α(p)不统一整个Δ；identity/δ同步等2D_p，其余可补−2D_p。
-R736原B3/O class1、R=OK+34δ OKj disc10404；2176 coset→368类、plus184/mass544/3、47整数。公开43705223442全Hecke47→7→1，base0、值0/±1/±2、c_int=81/68；只留producer/ci回执。
-全A_t=(1/36)Σprimitive Normβp²且ell_p=t f_int(barβ·1)，12units×3μ3及实际modp²反Fermat全保。C_pv读取所有p，A_t∈2Z、ΣA_t0、f=cψf_int不设cψ1。
-[normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)付whole j正号及Gaussian真base：p5mod12的A0∈4Z，A0/4=v/2+Σpaired f保全二位。公开43705781851固定2048类仅0/2；同R全αj仅Qi/K，K惰性无primitive normp²。仍需全C_pv无限p非零及原j34→边界桥。
+R707/708同trace零iff原g_h模p的p−2行，亦αp前缀α>3/4；m136另需p>136和独立j0。R710全Newton/normal/Q/首边界保持，一般j0只迫首余数p整除，不迫前缀。
+R717–729原Norm3/7完整Fermat/Gaussian与密度一大阶唯一恢复同U全AH二位族；不付旧WD自映射/中央非零。R725全Cartier分子/p基及其它留数/正则项保，共同S2帽2LD2，前K帽p(2floor((K+1)/6)+1)、Q度sK；R663仍需j0/高Q/同解。
+R716原ν导子p²/阶p/root+，L/ΩR=48940416|S_r|²/p、全r一Galois轨道。Rubin note的vA=2vtrace与边界零iffΦp因子保持；j34和边界同时零才λ≥p+3，μ0无统一λ。固定tower深层不代变化p第一层。
+R724全能量含有理极限9π/(17√3)、非实anti-Fermat和/高斯尾；全primitive径向、固定短同步常数、全环非unit交数保。实际annulus需o(p²)，指定零平移不冒全平移平均。固定α的O_α(p)不统一Δ，identity/δ等2D_p仍可被余下同步补偿。
+R736原B3/R10404坏2/3/17不换，2176→368类/plus184/47整数；公开43705223442全Hecke47→7→1，base0/值0,±1,±2/c_int81/68。全A_t=(1/36)Σprimitive Normβp²且ell_p=t f_int(barβ·1)，全部modp²二位和cψ保；A_t∈2Z、ΣA_t0。
+[normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：whole j正，Gaussian真base的A0∈4Z，下一位仍全paired f。公开43705781851固定2048类仅0/2；同R全αj仅Qi/K。仍需C_pv无限p非零及原j34→边界桥；全部producer/ci回执在前检，无输出入库。
 
 ## 深支：完整WD、指定镜轴与同一个R
 
@@ -57,3 +52,5 @@ R741：原前两块Vη=β0−η0β1/a在H=h+k+ρ准确单位，ρ≤2κ−h<qT�
 R741完整FH2增补已付：首核F Kmir，全部非cube由Vη检出、cube由第三块单位行检出，实际Smith 1^(2κ+χ−aη),p^(aη+1)且无p²。只限qt^rF H2；完整WD非F列的restriction仍可能吸收，不升级总像。
 
 R744：三原曲线span已分离；E17/E24点域17不分歧，E2312须2和17皆不分歧。M=K(17^(1/6))的σ在各E1像为−ω²/1/ω，Q2/Q4为ω/ω²；先投cubic再√2惯性2，AST付全p代数系数log分离。E2312二处门必需：(-8,30√2)经原φ确回Q2；不冒完整条件积分已有所需点身份。
+
+R746：R735两原线的全部finite χ已付精确Katz平方=34c_kθ11Ω χ(34)^−1 I_kχ²。χ|μ6非1则原I严格0；全合法tame分支先整数权极限再整weight-disc恒等，含任意p-ram/零值。ρ=χ∘(ψhat/barψhat)两p导子p^n、2/3/17不分歧，Hχ只p-ram。完整gate不一定只有两线；原Katz→同period ramified点身份尚缺，不用任意Iwasawa单位。

@@ -352,3 +352,5 @@ R738[零角Gauss增补](notes/2026-11-15-r738-zero-angle-cap-and-high-rho-prefix
 R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-injectivity.md)：实际子格qt^rF H2的首核准确F Kmir，值投影检出全部非cube核、第三块检出cube；Smith准确1^(2κ+χ−aη), p^(aη+1)，无p²。加入非F列会改变余核，完整WD与同R仍开。
 
 - [R744](results/R744-three-original-curves-and-two-cubic-logarithm-spaces.md)：已证明两实际Q2/Q4相对原E17/E24在17不分歧域的点，以及E2312在2/17皆不分歧域的点，模torsion End独立及全p Qbar-log独立。先用实际σ17六次角色，再用√2惯性2；E2312的二处门不可删，(-8,30√2)确回Q2。全period/点身份和完整外部仍须另付。
+
+- [R746](results/R746-original-type-five-all-finite-p-character-squares.md)：已证明原两type5线在全部有限p角色上的精确平方，含完整tame角型与χ(34)^−1；全weight-disc延拓不误用torsion稠密，非法μ6角型原矩为零。真实ρ只p分歧及两局部导子全付，零值亦同身份；任意p-ram点公式/完整多线gate仍待接。
