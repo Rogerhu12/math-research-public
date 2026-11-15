@@ -128,3 +128,7 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:34:44 UTC — 完整finite193 scalar反馈消费合同
 
 两README在daff87b00d98f18b577c0f61a08097ce53de537e亲核未变。发布F/bf5d8e3d（9554B），root逐式核F7–13及三窗/源单位：ordinary gain绝不以specialized body-high列代替，两个κcase不逐项混合，det门后四完整列；新增ν体源用whole源数，边界/旧s0/腰均另付。失败充分门只是一条完整诊断，不称原算子奇异；Green最终child0/五类完备计数/全门齐后才冻结新consumer输入。当前无新scalar执行。为遵H/open体积约束，旧P/B/L2细账保6d839708同H，开放项未删。
+
+## 2026-11-15 12:35:31 UTC — F11诊断分母的完整分支
+
+两README在4e81c61ba27bb64e548a1a2a1dc85c972d3f31cc亲核未变。F合同只增F11分母的明确正下界/准确零/未证号三分支，最终16c0badd/9775B；主F8严格门及四列完全不动。零分母只说明det=1−gB e与ε无关，未证号不算诊断商。root亲读唯一diff，尚无新消费run或成功输入变化。

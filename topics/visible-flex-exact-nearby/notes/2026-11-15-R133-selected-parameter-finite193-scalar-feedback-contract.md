@@ -135,7 +135,7 @@ $$
  \frac{1-g_Be}{p_C(1-g_Be)+p_Bg_Ce}
  \tag{F.11}
 $$
-implies all of (F.8). The denominator is positive. Record only a directed lower sufficient threshold; it is not an improved cap estimate. Display the corresponding remaining $\kappa$ margin only if $\epsilon_{\rm crit}>\epsilon_{\rm coord}$. The original direct gates (F.8) always determine the verdict.
+implies all of (F.8). Use (F.11) only when its denominator has a proved positive lower bound. If that nonnegative denominator is exactly zero, the determinant is $1-g_Be$ independently of epsilon and no quotient is needed. If its sign is unresolved, omit this diagnostic. Record only a directed lower sufficient threshold; it is not an improved cap estimate. Display the corresponding remaining $\kappa$ margin only if $\epsilon_{\rm crit}>\epsilon_{\rm coord}$. The original direct gates (F.8) always determine the verdict.
 
 ## 5. Source columns and the separate parameter obligation
 
