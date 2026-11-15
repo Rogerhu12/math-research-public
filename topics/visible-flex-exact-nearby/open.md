@@ -153,3 +153,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 实际帽到真实long高度已接上；接新对象94及有限Sob Φ
 
 [H1–22](results/R133-supplement-small-positive-width-true-cap-to-long-height-readout.md)已在σ1/8192付完整CR逆与实际Φγ：dotA²σ<1e−8、完整DfB<2^35，含mean和唯一高度规范。新94必须用同固定stop/同Γ/真实有限尾fB(a)，大宽仅从完整long Green新构造。zero-width有限Sob扩展须重新保全部parity辅助均值/多线性绝对核，不能从当前analytic小球免费得到。
+
+### 真reference完整有序源及whole相关消去已成；实际预算继续
+
+[G1–36](results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md)已保μC/三local/六oldcircle/五mean/物理两源/全部seams，完整source类型明确。whole signed Δw/Δμ/ΔT 与Vrad先取消共同径向项，原z0势在离根仍差−32Kηα0/κ²。下一新消费者只取原已成fold/leading/mean/potential做同域相关预算与完整两尾，先核image和gap再谈新半径。G15所有输出真实两列范数、实际正graph、强返回数值仍独立，不由原HV或实列界替代。
