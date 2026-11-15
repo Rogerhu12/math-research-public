@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "9de9a767952f5810defb4f54120bb4e674ae9680",
+  "rulesReadAtCommit": "104898809daa1572a0b23a6e5e3496cac10414f1",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -221,6 +221,98 @@
       ],
       "timeoutSeconds": 140,
       "receiptPath": "{work}/selected-natural-u-rebuilt/selected-natural-u-minimal-rebuild-receipt.json"
+    },
+    {
+      "id": "selected-natural-first-characteristic-zero-left-envelope",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-first-left-envelope-rebuilt-runner-789f.py",
+      "scriptSHA256": "3e7b9ea6875f52961ddfaff2615afd3481ef85bbd75b8b1d5b76cebb94ee9bf2",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-first-left-envelope-789f.py",
+          "sha256": "4901fa8fcebbda69a9c6042cdf20f622083c8e75285b19051bba47f435dc2ac9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-second-transverse-projection-789f.py",
+          "sha256": "d94b1f0be704c5eb7aee756a98a5d7a2097e66a331709c4e300434f78dbd7e9d"
+        }
+      ],
+      "argv": [
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--point-model",
+        "{selected_model}",
+        "--projected-engine",
+        "{scripts}/2026-11-15-r150-selected-second-transverse-projection-789f.py",
+        "--envelope-engine",
+        "{scripts}/2026-11-15-r150-selected-natural-first-left-envelope-789f.py",
+        "--out",
+        "{work}/selected-natural-first-left-envelope",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 110,
+      "receiptPath": "{work}/selected-natural-first-left-envelope/selected-natural-first-left-envelope-rebuilt-pipeline-receipt.json"
+    },
+    {
+      "id": "infinity-fourth-joint-high-low-left-envelope",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-fourth-joint-high-low-left-envelope-789f.py",
+      "scriptSHA256": "3f9b473fe0a015f11586637348ab234fd800fe0910246f43c01f5a4d5127af1d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+          "sha256": "6cb201867c430b4375dbe93cb411ad1e74bea39571261d1ecfec233e4b397517"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-original-transverse-first-connection.json",
+          "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-second-pure-envelope.json",
+          "sha256": "a16ecefa8669222653aacd1a8fb7fb10c858e44d91a117b09db7a851f1da6b98"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-second-normal-envelope.json",
+          "sha256": "cf9d9439fb2ca44921cb4f2614cf3400d5045783e4e9842321c0fdb3aef540da"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-third-left-envelope.json",
+          "sha256": "8df6d0f6ec01a1fcebd9234adc963ad2e73ab3481089f2d5063d805fdfb58f45"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-infinity-third-complete-cubic-normal-kernel.json",
+          "sha256": "1d9420ac3d318a5058c7f47acda6942f9126cd21c5871de2b4d4618ecf60688b"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--normal-generator",
+        "{scripts}/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+        "--first-connection-receipt",
+        "{scripts}/43679903558-original-transverse-first-connection.json",
+        "--second-pure-receipt",
+        "{scripts}/43679903558-infinity-second-pure-envelope.json",
+        "--second-normal-receipt",
+        "{scripts}/43679903558-infinity-second-normal-envelope.json",
+        "--third-receipt",
+        "{scripts}/43679903558-infinity-third-left-envelope.json",
+        "--complete-cubic-receipt",
+        "{scripts}/43702348535-infinity-third-complete-cubic-normal-kernel.json",
+        "--checkpoint-dir",
+        "{work}/infinity-fourth-joint-checkpoint",
+        "--out",
+        "{work}/infinity-fourth-joint-left-envelope-receipt.json",
+        "--remaining-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 80,
+      "receiptPath": "{work}/infinity-fourth-joint-left-envelope-receipt.json"
     }
   ]
 }
