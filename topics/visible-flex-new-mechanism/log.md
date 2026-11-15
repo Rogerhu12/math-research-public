@@ -404,3 +404,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:40:31 UTC｜R393全Q4函数像与增强字符边界
 
 [R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)，11707B/hashd6d48e56c05c575722e447bfe1ef8dc087bf1a0c29ad0a28c2182bdc2e9b1392。根全文逐式核9维与两头；发现低层F0/Q2必须继续，不能把分开可控E/A拼成joint。已交mechanism继续真实forcing低层；未执行研究或泛秩。基底a1619d3973a26fb2440e8d7d543fd3710cfb0e52。
+
+
+## 2026-11-15 22:41:07 UTC｜R396实际三角增强，仍保完整商基准
+
+[R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)，6558B/hash23bd17508e7e7e0cd1d7433412f4839e70827f92385a596f04a78937338c449f。根全文审读后只改正式编号；全固定查询/安置/原型重复/后校正/Klein费用进同一方程，未将linear结论冒为whole实际控制。理论继续低层自然像及完整period，数值同模型一次见证细化继续接线。基底4e60e02933122a159d1538ddd863a5d17483423c。

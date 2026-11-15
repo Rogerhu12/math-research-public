@@ -289,3 +289,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R393｜完整Q4自然函数像九维及两个未延拓的字符头
 
 [R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)（11707B；SHA256 d6d48e56c05c575722e447bfe1ef8dc087bf1a0c29ad0a28c2182bdc2e9b1392）。原十五系数以六个完整IBP降九，真权分层及Euler自由jet最高导数核独立，给全N作用。两头权−4/−2的完整Q4 action分别为γ²[γ²+(dγ−hδ)²]与γ4的定号倍数；仅本层非负，尚未延拓全U。保F0/三Q2与全部N0/N2/Γ/势为下一义务，不借旧E像等式排新增负权字符。root全文手核六关系、九密度、Euler系数、权/N表及两action，无执行。
+
+
+## R396｜响应E、双固定自然通量与指定内部通量的实际联调
+
+[R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)（6558B；SHA256 23bd17508e7e7e0cd1d7433412f4839e70827f92385a596f04a78937338c449f）。同一个有限M=T=0真块任意指定(P_LE,A,partial_m)，紧目标有固定字/整数的C1截面。旧响应实际partial左下块保留，K前缀真仿射稳定使固定点矩阵仍可逆；原型清A全部成本随n、后A校正的全partial进入同一收缩方程。Klein全基准照付。联合线性商仍(E(U)/E(R))×R²，qE原三项仍非零；不授wholeE、Λall、全部period或13行满射。root全文核R392替换、真实安置及所有成本，标题正式编号，无新执行。

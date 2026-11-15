@@ -38,7 +38,7 @@ guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8
 [R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)从R386完整Q4式得自然函数像恰9维：真权−7…−2维1/2/2/2/1/1，六条原IBP与Euler自由jet独立性，完整N表。只有−4/−2平移头；action分别−cγ²[γ²+(dγ−hδ)²]/(32h8)、−bγ4/(32h6)，c,b<0在Q4层非负。**尚非全U正字符**；R130十四族的F0/三个Q2含N0/N2/Γ及正规势仍需原式，不能由Q4无零权或旧E负权等像删增强字符。
 Λ[γ,δ]=−∫Q[γu′−(γx+δ)u″]⁴u‴/(32h⁸)，Q=1+(hx+d)²。两真尾使加速度/速度势逐state抵消，有完整C²式；纯δ回得∫(hx+d)r⁵/(80h⁷)。混合γδ³的偶母平移二次项在X/M外，函数像≥3，**非actual3**。
 
-[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)固定两镜像profiles/共同锚域/三state，四Q4列严格正核(1,3A/B,1,1)，det−4ADm。水平脉冲τ=ε^(3/2)，先有限M0桥、真reverse/T0、运输，全部基准留统一O_C1(1)。一个有限ε二维收缩给任意双Λ/紧集C1截面；Klein用(y−bK)/4保桥成本并闭全位移。保M/T/scalar/frame/ω下界，未保wholeE/其它Λ/冻结g。
+[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)固定双镜像profile、共同锚域、四Q4列严格正核；有限M0桥/真reverse/T0/运输全成本保O_C1(1)，一个有限ε收缩给双Λ实际任意值/紧集C1截面。Klein保桥基准与全位移闭合；未保wholeE/其它Λ/g。
 
 [R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)实际F=P_LE/两固定Λ joint已付：prototype A清零全部成本×n、先定紧盒再固定q覆盖±t、后A校正全F成本进入同一个有限n收缩。L=E(R)，−6/−4/0全pure/self及其余响应分量同付，非wholeE0；qE原式(26)保2nΣqE(vhat)。另kerE的KX/KM给Λ=X/M，线性J(U)=E(U)⊕R²；λ+不经J下降，fixed两Λ核未证仿射稳定。实际C⊕R²仍欠。
 
@@ -52,7 +52,7 @@ guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)条件性完整接口：当前实际wholeE0及Λall0前提下，全部period只余每个简单Af点两组原partial flux（保真实ordered三矩suffix及±ai³/(2τ)）。活动k′真germ接入正gap，另付∫k′0后才右collar去Lf k−G仿射差；gap修正的k平台代价进13rhs。保真实m*的XΔ/Xfg；sinθ除法准确付0/π seed。实际13×2n相位矩阵化degM≤4/degb≤6，Smith零行恒等+单位圆整除jets是全圆光滑iff，整除总重数≤4r≤52（非rank/全部条件数），可取实解析相位解。**未授E/Λall实际联调、内部partial或13像满**。
 
 
-[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)：旧K0…K10本身属于R71响应闭模块，故全在ker(E,Λall)。同R391实际profiles/原m≤11对应点矩阵仍可逆，不重算Vandermonde；指定partial非零给k′真实非零log项，total零不替代内部germ。增强线性J+像=J像×Rm，响应像同乘Rm，不新增响应商；未授actual joint。接R396实际F/A/partial三角增强。
+[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)旧十一K列全在R71∩ker(E,Λall)，同R391真对应m≤11点partial仍独立；非零值给逆k′真实log障碍。[R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)现实际联调(P_LE,双固定Λ,这些partial)：响应矩阵块三角、K前缀对正仿射稳定；旧列partial、prototype清A全部成本×n及后A校正partial保同一有限n收缩。紧目标C1/真Klein同付。原qE三项完整保留，增强商仍C⊕R²；**未付wholeE/Λall/其它点/Ve/13门**。
 
 ## 5. 继续
 

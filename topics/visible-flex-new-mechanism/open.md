@@ -175,3 +175,8 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 ### R393完整Q4自然像已闭，低层仍是实际联合商关键
 
 [R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整函数像9维，−4/−2两个平移字符头在Q4四次速度上有准确非负平方action。旧E负权等像不能消去新增自然读出；Q4无零权也不授全Λ无零权。下一继续R130十四族中F0/三Q2的完整forcing/N0/N2/Γ/水平势，检验头能否延拓及低速项是否破坏非负；不重算已闭Q4/旧秩。
+
+
+### R396实际F/双固定Λ/对应partial联合已付
+
+[R396](results/R396-actual-joint-response-E-two-natural-and-selected-internal-fluxes.md)把R395 m≤11列加入R392真实截面：保块三角左下实际值、K前缀真正仿射安置、清A原型×n及后A全partial成本，一次有限n收缩同时解所有目标。未付商仍C⊕R²，qE三项原基准未删；没有推广Λall、wholeE或其它Af点。继续全自然像低层、actual商、R394完整period/13同规范。
