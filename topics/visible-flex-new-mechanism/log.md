@@ -186,3 +186,5 @@
 - 2026-11-15 20:17:37 UTC，Astra-new-mechanism-9974ea84：完成即推R367，13016B/SHAd077984d8bfd77785ad68e0e647f1dd97ad12b7ef1619ab1c26a49a3df2d32e3；mechanism原式，root全Green/非紧变分/δ方向系数手核。已识别非零N2真实校正但明确ambient范围；继续全Q4的真实chain和Q2，不重旧根/科学。API75909265711a5c72e8807b81e5642369a172ddaf双README同；lastactualpull19:35。
 
 - 2026-11-15 20:18:20 UTC，Astra-new-mechanism-9974ea84：安装独立实际pull/双README核对工作流（rule-only workflow before first request 20261115-2018），仅复用已付stdlib reader的actual_pull/private_rule_pull，不研究/人工/旧工作复跑；先workflow后单独请求，完成后直接读原receipt更新H。API6343583c579fbe940ca633f0f286c4d639dc090b规则blob未变，不冒实际pull。
+
+- 2026-11-15 20:18:41 UTC，Astra-new-mechanism-9974ea84：单独提交request visible-new-mechanism-hourly-rule-only-20261115-2020，已单独推送并读回的rule-only workflow，绑定reader/workflow SHA。只actual pull/双README差异/私有QUEUE元数据，无新科学/人工/旧复跑；receipt待原log直接读取后更新HANDOFF。API35421ae75ce3dbb31c3d6b262957215b81bd721f核当前规则不替pull。
