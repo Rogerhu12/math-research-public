@@ -145,9 +145,16 @@ SV只是同一背景operator的两窗费用，真正genuine Bj修正仍在原幅
 完整nonlocal<4.111362e14、first/pair<3.606196e16、mean<5.266503e12；
 local原3.565082e16及全部固定oldmean/两种未替换physicalmean项不变。
 两primitive继续采用原界。完整21/10项与16个q见报告，96行比率仅临时。
-当前上界由local_raw1约3.55e16主导；下一步先用genuine径向ODE检查
-L1各有序项的准确相关合并，精确g传输继续保留。
-本次成功比较也锁定不重算；这些upper仍不付强返回。
+当前上界由local_raw1约3.55e16主导。
+[P准确第一local向量](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)
+现已用w1=M(A,B)的原regular积分直接给P(A,B)，保非zero B(0)，
+leading intertwiner与真实E12左乘准确消去公共径向connection和未相关w1rr。
+P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
+原S已成RT1/2000、forcing角1/128、amplitude角3/512全文核对；
+新R1/3000、角5/1024的实际像门、connection和积分预算待公开Actions。
+通过后六角jet用18个已成正线性系数转换，同一个local预算数比率可复用旧6行/dr/rootband。
+其余30项及全部mean保持；本次旧成功比较也锁定不重算。
+精确g传输、physical trace与强返回仍另付，尚无新数值改善声明。
 
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；

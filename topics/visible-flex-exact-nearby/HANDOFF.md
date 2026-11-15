@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 10:44:11 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 10:44:45 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机最后真pull：11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 10:24:25定时及10:32非FF即时pull仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:34:03.729439→1d98178f310505ebee0172836d64fc0a4dfa74f6，20次两README diff空；ref不冒pull，继续每小时CLI尝试。
-最近只读README核：35c46c841d062aba1873322be2ea7067b4784d71；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：7f5fb9ae5346d47b1ac5618fd49aa4ffc8a3fb54；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：e3878dd06243105bc0204922b044aa2a4df8f3df:HANDOFF.md；串连0f2a9fc/38e1f57/25855ae及原notes归档。所有旧输入完整身份、成功/失败、restore与未付门保留；results/open归档按前H/原链接恢复。
 
 ## 总验收、对象和最终族
@@ -25,9 +25,9 @@ run43690634784/1 active。worker07:38:19.350836、science07:43:11；340min worke
 ## 真共同参考与负侧源：phase_inverse
 
 共同势43685624307、旧圆43688459733、signed根43692226895、whole43694458725、S43698106023、G15 43700281022全部成功锁定，原root/fold/Taylor/profile/旧norm/源行/积分禁止重跑。完整对象/域/九词五mean/真实seam及失败恢复链见前H和原报告。V/36fc2a7a…已付两genuine列/双signed/输出mean/真circlemap/近远Schur，非positive growing graph。
-C/98d3a516…actual43702688640/1 child0/17门，reportc3b9ddaa…/executionbca0f97d…/resulte96aa00c…全核。19pins/旧1328行/5receipt只读，新校准1/jet1/local3/源行6/dr6/比较298，旧数学0；两J窗和独立physical mean保。原first/pair upper7.8942e20，成功源不重算。
+C/98d3a516…actual43702688640/1 child0/17门，reportc3b9ddaa…/executionbca0f97d…全核；原19pins、1328行与5receipt只读，18正线性系数及31源项成功锁定，旧数学0。两J窗/physicalmean保，完整身份见原报告与压缩前H。
 D/9f4f5f9b…actual43703879926/1 child0/12门/math.186610706s，report87ab6001…/execution2c5cba2e…/result9e88dfd3…全核。27pins原C19不变；96denom/16factor/4组合，14项收紧/2primitive保旧。完整nonlocal<4.111362e14、first/pair<3.606196e16、mean<5.266503e12；local原3.565082e16保持，当前主导local_raw1。只volume upper，非lower/strong-return。
-D复用基于KΛ全lag同时付两窗，分母为旧算法正预算lower，非函数lower；外CJ/meanfactor/SV与Bop/Bj身份保。成功新比较也不重算。当前在推genuine一阶系统的L1有序相关恒等以消去w1rr，先独核后新consumer；g传输/物理trace/positive两端图/全high逆仍真任务。
+D复用基于KΛ全lag同时付两窗，分母为旧算法正预算lower，非函数lower；外CJ/meanfactor/SV与Bop/Bj身份保。成功新比较也不重算。P/df741e5a…已证L1完整精确消去：w1=M(A,B)，regular积分直接给P(A,B)，leading intertwiner消去公共connection；E12只取b0/b0T，Xi可去。原S全canonical域亲核，P19–25的新缩域/image/六jet+18旧系数可按uniform比率复用旧6行/dr。新数值consumer待跑；g/trace/positive两端/全high仍待。
 
 ## 实际帽与core全频接口
 

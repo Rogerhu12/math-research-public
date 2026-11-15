@@ -345,3 +345,9 @@ root复核T新增§10全文，原§1–9 17663B逐字保持；newton独立核T27
 root全文核S新增§11，并与newton独核核对：incoming fB=0的B宽7L/16和完整mixed的B宽sβ分别使用，未知帽端皆零宽；原S30070B逐字保持。仅将新增p!界写≤覆盖0阶。真实physical γ低A0/128和新增H8193门保全部M/O/HT网络窗，端点核5530265<6291456，原seed/Nash/strong差及physical平端不变。
 
 最终正文36918B/blob5fdcd794728f6c45a16daea63d20c5ec47963ece/SHA256 aba52db835e318f65dd9bf40c77e084eae28d804a4b8669b503b9f663bf7f736。逐固定γ存在未冒为全参数可微图，Γ2随seed的真实设计列及fixed-metric R tiny列识别继续查明；实际core、waist/ν和同对象几何仍未完成。推前main 35c46c841d062aba1873322be2ea7067b4784d71 两README相同。
+
+### 2026-11-15 10:44:45 UTC — 第一local源的完整有序相关恒等
+
+root全文审P及最终265B根阶说明，独立推导P7–18/P21–24；newton独立核全新恒等与原fold/positive-consumer接线。w1=M(A,B)，两条原regular transport给P(A,B)，leading矩阵intertwiner的正号iε b0J和E12左乘顺序均保；公共connection按准确和消去，非两个upper相减。P18根商由Aφ=O(ρ)及T/ρ真gap或leading首行可去。
+
+root亲读旧actual43698106023报告表格，确认完整RT=1/2000、forcing strip1/128、amplitude strip3/512与同参数方盒；新image/gap和实际改善仍待Actions。原18个正线性系数、6行/true dr/rootband只读，uniform比率比较算法预算数lower，非函数lower。正文15907B/blob232c4e3cbe0a4f4d839d2ea4bef48d55b98cdb6f/SHA256 df741e5a387a4d7bc382336f7b8ee42da72e4725730aaa4adaeb2f4553ffd3eb。推前main 7f5fb9ae5346d47b1ac5618fd49aa4ffc8a3fb54 两README未变；每结论独推，继续完整core/高逆。
