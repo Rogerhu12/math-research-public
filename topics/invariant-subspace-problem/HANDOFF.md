@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** f9e8ea13f0b348c086cc665efddcec32bb7cc645（2026-11-15 21:21:42 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 6c3d4efa10cf2e472d6269628072843055a8fc8a（2026-11-15 21:29:29 UTC，Actions run43763951703实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43763951703-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -16,7 +16,7 @@
 - [全部二点Q局部](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)全谱1⁷,2,3/长12=P，W入像；零点长66且九s³tj入像/t2恰3，−6 full/P12，F±²W及E8W已付。h*=h0/(s−2)全局等价，h*次数23。
 - [完整∞66](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)β=(4,0,1,3,1,1,1,1,0,1)，第十1088×601 rank593/14头/952952原产品。正谱1⁴,3,4³,5,6,7,8,10,11；sub55/max11、AI68、4340单位/13自由。原P长61，T∞长5仍只u5；不用第11定谱，全部higher incoming已保。
 - [D31完整Smith/同202核](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)付Z_(31)[[u]]真Smith/完整核1834良好约化；1632/E216原直和及field14方向全退出，Nakayama给同202freeI规范整核存在。原13左核λI=2。旧O29…149/高商仅F31长26、旧D leading仍开；旧D权8770/阶130…243/次8527…8640。
-- [新原始子式](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)J*=P4340+同E14补列，I*=原13free输出补；原核补三角单位与左图给cokerB*=fulltors。新H8835/∞66/次数8769/leading31单位，replacement≥66/cofactor≥55；不同于旧243子式，字典核另排，不造大det。
+- [新原始子式](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)J*=P4340+同E14补列，I*=原13free输出补；原核补三角单位与左图给cokerB*=fulltors。新H8835/∞66/次数8769/leading31单位，replacement≥66/cofactor≥55；不同于旧243子式；字典actual0.407487812秒，5完整SHA/3333+1007原索引权和全真（receipt0f543b9b），不造大det。
 - **[全精度已有来源统一8655](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)：** 始终D*=detB*，只首一K158；q=D*/K∈D31[s]、次数8611、leading单位，Pℓ=adjB*Aℓ/K整。任何既有Ax≡31^e b mod31^n保同e/n可降费max(8655,τ(b)+1)，当前九目标8655。固定e任意高n可解才给exact D31源；单p6不等于all-n，原e=0任意次数mod961负证仍在。
 - [仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由原Gauss/full∞同66给Δaff约化保次数≤315；首一R=Δaff/K158次数≤157，barR|(s−2)^16(s−1)^3P+²P−²E6Q60²。R(0)/R(−6)31单位，R(2)仅Q非零；monic Rout/Ω/M/U均31整，但原来源31分母未定。
 - [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，d=degΩ≤157；九Mh*tj全局原成员，degM≤157−d/总乘子180−d，原Q源费8531−d（三支8526−d/8531−d/328−d）。最小目标式s³F+^aF−^bE8^cU，a,b≤2/c≤1，U与Σ0互素；Ω/U实际未定，不预填Q60。
@@ -25,8 +25,8 @@
 ## 活跃执行与恢复
 
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
-- P原gcd600 state42d998c9：19行完成/第20待约化，12basis/2416步。localized91e5d19a实际497.7846秒exit1：13原根乘回全真，57新步仍19行，basis564431bits/current629810bits，临时候选464.75MB/56245ba9，无Ω。正只读2301B失败回执取真实error；保父根/core，先改算法，不盲加资源。
-- 新minor源b4a03c7遭并发rebase失败，立即最新main重拉重推成功：source1b20d13/主08119a2d/run43762928500。历史字典恢复v1在临时cwd调git报128；v2显式--repo定位原checkout，随后5份全SHA/原索引/权和核，stdlib512MiB/外30秒；不假已有临时数据。
+- P原gcd600 state42d998c9：19行完成/第20待约化，12basis/2416步。localized91e5d19a实际497.7846秒exit1：13原根乘回全真，57新步仍19行，basis564431bits/current629810bits，临时候选464.75MB/56245ba9，无Ω。只读2301B/b947eb34失败回执已明确MemoryError（7d9899ad）；保父根/core，先改算法，不盲加资源。
+- 新minor并发rebase失败已立即重拉重推成功（主08119a2d/run43762928500）。历史恢复v2显式原repo cwd，1.760503秒完成两历史全SHA；5输入字典核0.407488秒全真，原P权207925/新增770/留输出199860/H8835，raw6038B/e09e6aae。来源费用8655也已实推主5525d025。下一det-gcd只读既有core，保失败前缀证据。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
