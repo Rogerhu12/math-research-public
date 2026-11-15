@@ -52,6 +52,8 @@
 
 原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
 
+[R275](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)已给出原noJ逐运算及完整mean的条件同一性证明，理想regular branch链式变分与字面浮点导数分开。71按[接口](notes/2026-11-14-noJ-matched-variational-primal-identity-and-interface.md)已派发实际stage11/12对照；13源pins/9shell/5inlineAST通过。完整新单call续解73按失败61末态初猜准备，保持原32/10/容差/finalJ/audit，不能把单段位相同当原生接受。
+
 ### 1C. actual-H → 原FD → 同live fullDN
 
 真实当前H原生达到原容差后，仍须完整outer/inner、RMS1e−6、BC1e−11、原FD与fresh audit。已发布[同live合同](notes/2026-11-14-current576-live-client-multirequest-extension-contract.md)、[逐请求snapshot/QR](notes/2026-11-14-live-current576-per-request-adapter-interface.md)、[实际H/FD/fullDN入口](notes/2026-11-14-live-current576-actual-H-FD-full-DN-interface.md)。clientc9f33777/hook7e83b398/adapter9346c0a7/QRee174e82及driver7ba3fd5f冻结；同worker bootstrap真anchor H/J后继续当前H/J、FD、fullDN/finalaudit。所有原门不变。

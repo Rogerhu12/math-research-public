@@ -1,0 +1,172 @@
+name: visible-larger actual61 noJ-matched variational stage probe
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-current576-noj-matched-primal-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  modelresponse:
+    name: Test original and new variational primal at actual cusp11 and ordinary12
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    concurrency:
+      group: visible-larger-public-current576-noJ-matched-primal
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish independent output and bounded Git maintenance
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-current576-noJ-matched-primal/modelresponse"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-current576-noJ-matched-primal/modelresponse" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install unchanged original runtime dependencies
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+    - name: Bind all sources and the precise actual61 diagnostic request
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-current576-noj-matched-primal-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-current576-noJ-matched-variational-request-v1'
+            or request.get('repository')!='Rogerhu12/math-research-public'
+            or request.get('request_number')!=71 or request.get('lanes')!=['modelresponse'] or request.get('stages')!=[11,12]):
+            raise ValueError('Use the explicit actual61 selected-stage matched-primal request')
+        required={'root_20261114_publish_actions.py', 'exact_20261114_public_resume.py', 'geometry_20261114_fetch_actual61_noj_selected.py', 'tail_frozen_worker.mjs', 'geometry_20261114_current576_same_state_noj_probe.py', 'exact_20261114_true_tail_client.py', 'exact_20261114_fetch_pinned_public_artifact.py', 'tail_resumable_engine.mjs', 'geometry_20261114_current576_same_state_noj_probe_hook.mjs', 'exact_20261114_seeded_zero_tail_client.py'}
+        required.update({'geometry_20261114_noj_matched_variational_engine.mjs', 'geometry_20261114_noj_matched_variational_probe_hook.mjs', 'geometry_20261114_noj_matched_variational_probe.py'})
+        if not required.issubset(request['source_sha256']):raise ValueError('Pin the complete request source closure')
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+            if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',expected):raise ValueError('Explicit source identity required')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the triggering source checkout')
+        readmes={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip()
+            for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')}
+        intent=dict(schema='public-current576-noJ-matched-primal-request-identity-v1',source_commit=head,
+            request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,
+            source_checkout_readme_blobs=readmes,scientific_execution_claimed=False,
+            output_route_only='modelresponse; actual output schema is the selected-stage new-variational probe')
+        (out/'matched-primal-request-identity.json').write_text(json.dumps(intent,indent=2)+'\n')
+        print(json.dumps(dict(source_commit=head,verified_sources=len(verified))),flush=True)
+        PYPINS
+    - name: Check hook and frozen worker syntax without numerical execution
+      run: |
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_current576_same_state_noj_probe_hook.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_matched_variational_engine.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_matched_variational_probe_hook.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_frozen_worker.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_resumable_engine.mjs"
+        node --version
+        python --version
+    - name: Reserve complete archive and selected input/output storage
+      run: |
+        python - <<'PYSPACE'
+        import json,os,shutil
+        from pathlib import Path
+        root=Path(os.environ['RUNNER_TEMP']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((Path(os.environ['VISIBLE_COMPUTATIONS'])/'public-current576-noj-matched-primal-request.json').read_text())
+        needed=request['minimum_free_bytes'];free=shutil.disk_usage(root).free
+        record=dict(required_free_bytes=needed,actual_free_bytes=free,archive_bytes=request['inputs']['expected_size'],
+            only_selected_non_J_original_payloads_extracted=True,original_J_or_factor_payloads_extracted=False,
+            scientific_data_removed=False,scientific_iterations_or_tolerances_changed=False)
+        (out/'matched-primal-storage.json').write_text(json.dumps(record,indent=2)+'\n')
+        print(json.dumps(record),flush=True)
+        if type(needed) is not int or needed<=0 or free<needed:raise RuntimeError('Insufficient declared archive/input/output storage')
+        PYSPACE
+    - name: Fetch the fixed actual61 ZIP and extract only final noJ input evidence
+      timeout-minutes: 25
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        python -u - <<'PYFETCH' 2>&1 | tee "$VISIBLE_OUT/original61-selected-fetch.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-current576-noj-matched-primal-request.json').read_text());item=request['inputs']
+        argv=[sys.executable,'-u',str(comp/'geometry_20261114_fetch_actual61_noj_selected.py')]
+        for name in ('run_id','artifact_id','artifact_name','expected_size','expected_sha256'):
+            argv+=['--'+name.replace('_','-'),str(item[name])]
+        argv+=['--out',str(Path(os.environ['RUNNER_TEMP'])/'actual61-noJ-selected')]
+        raise SystemExit(subprocess.call(argv))
+        PYFETCH
+        cp "$RUNNER_TEMP/actual61-noJ-selected/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual61-selected-fetch-receipt.json"
+    - name: Restore all78 identical original public source files
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'same-state-noJ-public-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Compare complete original noJ and new variational flows for actual stages11 and12
+      id: matched_primal
+      timeout-minutes: 35
+      run: |
+        python -u - <<'PYPROBE' 2>&1 | tee "$VISIBLE_OUT/matched-primal-probe.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((comp/'public-current576-noj-matched-primal-request.json').read_text());item=request['inputs']
+        base=Path(os.environ['RUNNER_TEMP'])/'actual61-noJ-selected'
+        argv=[sys.executable,'-u',str(comp/'geometry_20261114_noj_matched_variational_probe.py'),
+            '--native-directory',str(base/item['native_directory']),
+            '--native-result-sha256',item['native_result_sha256'],
+            '--snapshot-directory',str(base/item['snapshot_directory']),
+            '--snapshot-result-sha256',item['snapshot_result_sha256'],
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],
+            '--out',str(out/'noj-matched-variational-probe'),
+            '--node-heap',str(request['node_heap_mib'])]
+        for stage in request['stages']:argv+=['--stage',str(stage)]
+        raise SystemExit(subprocess.call(argv))
+        PYPROBE
+    - name: Preserve complete returned arrays and every partial failure
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-modelresponse-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-current576-noJ-matched-primal/modelresponse/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded actual matched-primal evidence with ordinary rebase
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane modelresponse
