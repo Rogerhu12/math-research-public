@@ -1,0 +1,67 @@
+{
+  "kind": "actual_public_correlated_Airy_local_numerator_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43666374252",
+  "run_attempt": "1",
+  "workflow_commit": "a24bfa3d59da32453405764136ecc6b5d02e4fd0",
+  "worker_sha256": "acd69d4fd74f730ab7c45126244796ca3c308f07aa82e1c91fc2063595447cc4",
+  "manifest_sha256": "bc34acdc1738a92bf71d9ce6c8be2dddfced3ae1de0ca884a1025c45419256d1",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T02:09:23.836671+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T02:09:24.323875+00:00",
+      "before": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+      "after": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:09:49.382802+00:00",
+      "before": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+      "after": "f6c34f25c172acb0d7cf3df39add2126d92ae21b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_correlated_residual_degrees_requested": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "strict_original26_complete_coefficient_stage_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-correlated-first-Airy-local-numerator-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_first_Airy_local_numerator_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-correlated-first-Airy-local-numerator-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-correlated-first-Airy-local-numerator-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-correlated-first-Airy-local-numerator-CI-inputs.json",
+    "--manifest-sha",
+    "bc34acdc1738a92bf71d9ce6c8be2dddfced3ae1de0ca884a1025c45419256d1",
+    "--out-dir",
+    "/__w/_temp/visible-exact-correlated-first-Airy-local-numerator-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-correlated-first-Airy-local-numerator-science/originals"
+  ],
+  "complete_original_inputs_verified": 39,
+  "actual_scientific_checkout_commit": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+  "mathematical_wall_seconds": 23.96638707599999
+}

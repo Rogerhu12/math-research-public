@@ -1,0 +1,356 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43666374252",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T02:09:24.323875+00:00",
+      "before": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+      "after": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:09:49.382802+00:00",
+      "before": "1cd8ff1bf19cee26d3d33522843f43dbd7929d91",
+      "after": "f6c34f25c172acb0d7cf3df39add2126d92ae21b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/complete-natural-stage-inventory.json.gz",
+      "bytes": 6376,
+      "sha256": "c8158e4d381b84b9b8f5593bbab7e3bcd21dae16839207f9ef2b9b60b8c1fed7"
+    },
+    {
+      "file": "consumers/correlated-first-Airy-local-numerator.json.gz",
+      "bytes": 60456,
+      "sha256": "fbe1bce690f33335d2b024fe38a751743e0017e7d275b4d1fb0712be155f177e"
+    },
+    {
+      "file": "consumers/correlated-first-Airy-local-numerator.stdout.log",
+      "bytes": 260,
+      "sha256": "759073e2e0b923f327365e15aca8b2ceb42299d95d5a4936d5a01be89f988d35"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 34986,
+      "sha256": "6396a554ab8401d709744b47315ab73830dfe2051937a980ecaab0efa8fc82db"
+    },
+    {
+      "file": "consumers/stages/complete-correlated-Nraw-budget-0_1.json.gz",
+      "bytes": 10298,
+      "sha256": "a995f3b02e2fb28a560da69b5db6af568e37212774550610c98d24104413ede3"
+    },
+    {
+      "file": "consumers/stages/complete-correlated-Nraw-budget-1_1024.json.gz",
+      "bytes": 10437,
+      "sha256": "4476fa3c6f0033b72e9454f6dc1f8dfaede9b391fe1f1f87197a5dd6e972b931"
+    },
+    {
+      "file": "consumers/stages/complete-correlated-Nraw-budget-1_512.json.gz",
+      "bytes": 10310,
+      "sha256": "fdc047adb7d11d50a82155421568cae462a7ce979bd4edf919d8c700380461e7"
+    },
+    {
+      "file": "consumers/stages/complete-local-numerator-positive-radial-tails.json.gz",
+      "bytes": 815,
+      "sha256": "2ae787390a7d704210214bc7d0a1fa5637b6817213b23b91aa0158d8a871e3c7"
+    },
+    {
+      "file": "consumers/stages/complete-local-numerator-whole-product-multipliers.json.gz",
+      "bytes": 1107,
+      "sha256": "60ef89448b4af7e8dca6d96b938528e9040ec4f068d08ea05d2e02fab2d10a17"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-000.json.gz",
+      "bytes": 15142,
+      "sha256": "f745a4f22113f5883cce46623dac7df3981e73465a4407a16e3c01250a076541"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-001.json.gz",
+      "bytes": 20068,
+      "sha256": "494caec1da3ac9e1386a0a9457685c60937aa79633aa21b88ed2c34681695091"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-002.json.gz",
+      "bytes": 25049,
+      "sha256": "c02bde8d66d3f34a5dda999cf71f7d584294056c959fbab99408da6a4663fa22"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-003.json.gz",
+      "bytes": 30042,
+      "sha256": "7437330d3c18ba45a8017c409e1def047ccf2f251313e4886a2c3e85002e987c"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-004.json.gz",
+      "bytes": 35034,
+      "sha256": "ee7f06134d361b97ca5c237428e5d02df36622ae769c4b1531f77034cfd63204"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-005.json.gz",
+      "bytes": 40086,
+      "sha256": "a1d28332cb1e2aff4ffa93aa30e688eb05ffbda7fd1b22b903ec6bd048177cd4"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-006.json.gz",
+      "bytes": 45138,
+      "sha256": "6e476c60f44cb41fe8fe3332685d0c4174397eaba700f0faf784daf4ae8b388a"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-007.json.gz",
+      "bytes": 50295,
+      "sha256": "a551d97c26438ee0590a7360ea3dff7f38d1ac1eec22ecfc397f805ec435ee12"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-008.json.gz",
+      "bytes": 55120,
+      "sha256": "5ac02d8b9ea2651e86736e26012a4865f6bc84f89e858d5f8f34bf8f0df8a434"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-009.json.gz",
+      "bytes": 60192,
+      "sha256": "122f0c923f31c99e834969924c581b7a68462d2d1f0dc530b41118028873c458"
+    },
+    {
+      "file": "consumers/stages/correlated-local-numerator-degree-010.json.gz",
+      "bytes": 65153,
+      "sha256": "eee8dae9bdf8a54b32231e3bac8ca237655d196304bd68bb182bbead73f79bd3"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-000.json.gz",
+      "bytes": 888,
+      "sha256": "7bffb84f6bf7dad12c310358a04d502fbb3f843d909e0895900d3e07f94b54e5"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-001.json.gz",
+      "bytes": 882,
+      "sha256": "067f170e67364c91df7a5ae2b764f295481cea55ee8a4aa8b79a5f1acbe10028"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-002.json.gz",
+      "bytes": 887,
+      "sha256": "dcea1a7d164acc71d178cd3de544700f5fba5a6442059f2daac82943dfc325d4"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-003.json.gz",
+      "bytes": 888,
+      "sha256": "765b43db5294dc15f723c22ea1d853dbf92cd1adc56fe56b4dca9b75bef37c1d"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-004.json.gz",
+      "bytes": 887,
+      "sha256": "767c96a40ffbbd2e961562b2b57c3b58b115bb4c7a7c88bad94369d572587b57"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-005.json.gz",
+      "bytes": 887,
+      "sha256": "c1d02d0772622ad3ec3d4d12242aa1855f20aa1ef556eaf820dac36b996a2140"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-006.json.gz",
+      "bytes": 890,
+      "sha256": "615e143fee52f265ffe1cacea1057dba593cac0d262df1130f1c0df9b0b97387"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-007.json.gz",
+      "bytes": 893,
+      "sha256": "d2266a0f8c249c9566d9519efe379305e0d1a0ee608e8b482c04f854b5829ae1"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-008.json.gz",
+      "bytes": 886,
+      "sha256": "dc4301048bd32282307d311dd5eadc4c0958b0f2a82192f60d691f3c689a881a"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-009.json.gz",
+      "bytes": 890,
+      "sha256": "6e4c15301bf79451870531ed3e8bf3d63ed84561c6eabaedc044e7c5ca4e0c1c"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-0_1-degree-010.json.gz",
+      "bytes": 885,
+      "sha256": "43a4a5e632d045510addc15cc40193345739854fd51aee600e7fdbb6277efdc5"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-000.json.gz",
+      "bytes": 892,
+      "sha256": "b0b1b1f50c7c7fbe225a230a4dc332b9aed406cf3f312fd57a1094ab0d29b069"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-001.json.gz",
+      "bytes": 895,
+      "sha256": "46d6d0367d0ff65146cb374fe9a2becfed9a4b730090b080e2c92a18e4ce5483"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-002.json.gz",
+      "bytes": 893,
+      "sha256": "3f639c411eecfb57e30f58f4f207c747553742ccc402f52d639f3765cc01b6bd"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-003.json.gz",
+      "bytes": 895,
+      "sha256": "070ba3b2136495335287eacef60af28ebbca2bf914c090860954a35a74f7e91c"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-004.json.gz",
+      "bytes": 894,
+      "sha256": "402e6f887f300b2c62ff4c97dc5dbb5206b3edf8bf71ebb6ccb70abf5509e223"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-005.json.gz",
+      "bytes": 892,
+      "sha256": "de3d4ee8af02d44c086902c07754b8936185846501c501e0807b74dfd676eb05"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-006.json.gz",
+      "bytes": 891,
+      "sha256": "dea3bbb13a1e7584835e3a356ddac0af93b97585ec3fccc471f78cd9e9e4b56c"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-007.json.gz",
+      "bytes": 893,
+      "sha256": "750eac77902310849510294e3d9b501493b3b51a733005e60fcec03542c43c71"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-008.json.gz",
+      "bytes": 895,
+      "sha256": "f86284caa95eed893a6324019e3ceb7274eb9d2948194dec2fe6ce33432aaeaf"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-009.json.gz",
+      "bytes": 888,
+      "sha256": "b0e12d2a7a833cdd59d435d93ed03d1735e63fde80aaa00a64494cc0f5d93108"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_1024-degree-010.json.gz",
+      "bytes": 891,
+      "sha256": "06efefeaa9468df2f41afff8c10dd4720ea519a114451ca6e3b4df6cf5acfcf6"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-000.json.gz",
+      "bytes": 889,
+      "sha256": "b8f64969d502b4faad0949c87d7a2c958ffb0f2807402ca78678bbd9a026d60f"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-001.json.gz",
+      "bytes": 892,
+      "sha256": "8acbf48fe38f56b87e83350e1e06ba59f1f9c135e0915d1784a24ee4bf9752c6"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-002.json.gz",
+      "bytes": 894,
+      "sha256": "ab30396de54d7d243043758f11911fdae48154f68b5816fb775e4161e129449b"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-003.json.gz",
+      "bytes": 896,
+      "sha256": "469e3ba673c74a32a7e88cd5d40c60095d0b8f68f51c086089fab699b8b159e6"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-004.json.gz",
+      "bytes": 894,
+      "sha256": "98b281f509ef1b1077073fc10ce2b82cf9b0803ba59e9640c51e19a95ed597e6"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-005.json.gz",
+      "bytes": 891,
+      "sha256": "f33dde1c7dc82d4dd74eb5b1a1a968c125ccf28dcb5d16cb16b3fbc03f925185"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-006.json.gz",
+      "bytes": 894,
+      "sha256": "27b2f3c4f3d1f8954b810a19c30171eeff932660184dcd6bc01fe5f998160825"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-007.json.gz",
+      "bytes": 891,
+      "sha256": "64c9f49ea68a9a2f3fb675d683a3d032db4ad9ff06dc7e41736afcf6e971601b"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-008.json.gz",
+      "bytes": 893,
+      "sha256": "48b4b918a736e8b3a0a25a40da752752c74a4c654cbe6a968861b728ec603d08"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-009.json.gz",
+      "bytes": 890,
+      "sha256": "8a7283025c91c4281abc63bcfc0a9abdb758e93b39f0d8763d58bb1feb54ec2e"
+    },
+    {
+      "file": "consumers/stages/full-Nraw-Fourier-norm-1_512-degree-010.json.gz",
+      "bytes": 892,
+      "sha256": "a0da6ee5a56d7e53edaff9987f5b27162da9824d9ddfef6d7d4ba0e93773ebdf"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-T-b1-through-ten.json.gz",
+      "bytes": 147676,
+      "sha256": "cd920ea3abb0c45ddebaecee854eef9588b4ac8890b8150c4e76aad3e182b2b8"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-a1-phi-second-through-twelve.json.gz",
+      "bytes": 206516,
+      "sha256": "cf9fbff72d2dd32fea9f275d57f23e00739a60c68f47a2c79520c6c8786ead29"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-a1-phi-through-twelve.json.gz",
+      "bytes": 206487,
+      "sha256": "dc01c86de8bba058a4170a1c2c34c1199ee427edf6fee85c7b9017eae99cdbcd"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-a1-rho-phi-through-eleven.json.gz",
+      "bytes": 206688,
+      "sha256": "bd01f0f54e86eae7505ee3e371f07016d8bb5d5741711ed6989721ce4c4dbc11"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-a1-rho-second-through-ten.json.gz",
+      "bytes": 201357,
+      "sha256": "86d4d04b1c2674ea961dd98cde122ca0f97f5d143340606bf88ad941ceef561e"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-a1-rho-through-eleven.json.gz",
+      "bytes": 206059,
+      "sha256": "4ef499f369f5fb09fd1e4491f9577621c246472dc888f7fc1e4402c0444220fe"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-b1-phi-second-through-twelve.json.gz",
+      "bytes": 240371,
+      "sha256": "e66ec841ebf87cd0e90f20916aaa1d594a5ed0068de9cbeb51c75e29e7914aa9"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-b1-phi-through-twelve.json.gz",
+      "bytes": 240184,
+      "sha256": "580a6cb24c9ae76c489a15972244ed8fcbb00a364a8f303f9965d8a0a38fa354"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-b1-rho-phi-through-eleven.json.gz",
+      "bytes": 236573,
+      "sha256": "b8fd8316529f0bf30fef487b2f1ab5777f2b87cc8321e9f85cb7c9727280318f"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-b1-rho-second-through-ten.json.gz",
+      "bytes": 228915,
+      "sha256": "a7fdb473c2b47dafc3a3d9e1f35c2333d1701f9df7bb6a084bc256fccc4fcadc"
+    },
+    {
+      "file": "consumers/stages/helper-correlated-b1-rho-through-eleven.json.gz",
+      "bytes": 236015,
+      "sha256": "7aa49c7700aca053ed5582be7c680225d9b90ed6ae9defc9bdaa9b36733c2147"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 146,
+      "sha256": "8cc07506afa8a18bba682dd1dbb101c663fd6d2460124575d5255af06cdc7b7c"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2744,
+      "sha256": "ca1d91af47e141a2ab4b3a22ad8988185be25f7e8e7f6c6b6e1a3b7aedf5cb1a"
+    }
+  ],
+  "byte_identical_files_omit_only_duplicate_original_sha256": true,
+  "true_PDE_branch_or_final_family_claimed": false
+}
