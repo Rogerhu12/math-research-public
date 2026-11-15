@@ -33,7 +33,9 @@
         "/__w/_temp/complete-adjoint-range-20-output/native/complete7908-cap-adjoint-Grams-range-20.json.gz"
       ],
       "started_utc": "2026-11-15T02:29:14.954084+00:00",
-      "actual_returncode": null
+      "actual_returncode": 0,
+      "wall_seconds": 1385.614053433,
+      "finished_utc": "2026-11-15T02:52:20.568519+00:00"
     }
   ],
   "readme_checks": [
@@ -76,6 +78,22 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:52:24.274479+00:00",
+      "before": "bef2dbec8de010d2f8d8b0588678a2ed28f0a5cb",
+      "after": "ce66191995167e0e748b128223a1a36c7221a450",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:52:27.907068+00:00",
+      "before": "ce66191995167e0e748b128223a1a36c7221a450",
+      "after": "22f4924c218dd4def32ec67950a446e732f0e5f8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -88,6 +106,11 @@
       "time": "2026-11-15T02:39:21.961289+00:00",
       "final": false,
       "commit": "ef56debbbd8fa9d4f832ab4cbe4c62fccdddba0a"
+    },
+    {
+      "time": "2026-11-15T02:49:40.561942+00:00",
+      "final": false,
+      "commit": "3c96fa394f4ac6025eba49baffe1a7e0553e0f5b"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -132,7 +155,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "bef2dbec8de010d2f8d8b0588678a2ed28f0a5cb",
+  "last_read_commit": "22f4924c218dd4def32ec67950a446e732f0e5f8",
   "immutable_scientific_copy": "/__w/_temp/complete-adjoint-range-20-work/science",
   "plan_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
   "exact_recovery_scope": {
@@ -151,8 +174,8 @@
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
     "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc"
   },
-  "snapshot_utc": "2026-11-15T02:49:36.044803+00:00",
-  "wall_seconds": 1227.005062637,
+  "snapshot_utc": "2026-11-15T02:52:24.385745+00:00",
+  "wall_seconds": 1395.346003403,
   "native_files": [
     {
       "logical_file": "evidence/actual-complete32-slice-plan-process.json",
@@ -163,8 +186,8 @@
     {
       "logical_file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
-      "bytes": 3211,
-      "sha256": "851b07afed4a70b95b4644275318e88dd90a486254965a34c0fca702012445e2"
+      "bytes": 3468,
+      "sha256": "fb3535342da636b97abb30de6f7269b26b5572fd9f52d49d0595b5e4c172ac7b"
     },
     {
       "logical_file": "evidence/original-artifact-downloads/14141144478.json",
@@ -181,11 +204,11 @@
     {
       "logical_file": "native/complete7908-cap-adjoint-Grams-range-20.json.gz",
       "file": "native/complete7908-cap-adjoint-Grams-range-20.json.gz",
-      "bytes": 1472920,
-      "sha256": "7fc793955f20263aff8e4eef2fc6ad6a80d56cbc74dd74781b767bf717ea9266"
+      "bytes": 1668401,
+      "sha256": "a111fda0be0356fc153ce70fbff0b9c58406064e1f03012e93e6cc76cbff6275"
     }
   ],
   "actual_completed_bundles": 0,
-  "actual_completed_quarters": 219,
-  "latest_scientific_native_sha256": "7fc793955f20263aff8e4eef2fc6ad6a80d56cbc74dd74781b767bf717ea9266"
+  "actual_completed_quarters": 248,
+  "latest_scientific_native_sha256": "a111fda0be0356fc153ce70fbff0b9c58406064e1f03012e93e6cc76cbff6275"
 }
