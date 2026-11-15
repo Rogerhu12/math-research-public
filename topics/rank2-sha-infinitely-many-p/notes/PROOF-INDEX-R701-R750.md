@@ -36,3 +36,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R717：原完整Artin–Hasse返回及第二位支持](../results/R717-original-height-two-artin-hasse-return-and-second-digit-support.md)：原整U唯一Artin–Hasse因子a_n=f_n或f_pk−f_k^p/p全部整；高度二全窗只有X_pk、X_(s+pk)各s−1个原指标需要第二位，其余第一位直接由R714的xZ1²读取。共同U_np V^p给三m全首块的准确有限卷积；支付实际二位后Σ_AH恢复原sigma至q，全部h≤p−1 Cartier行直接等原g_h。完整极帽m(q−6)(p³−p²)D2和j0/prefix缺口保持。
 
 - [R715：完整第一Z来源与五十实列整返回](../results/R715-complete-first-z-source-and-fifty-neutral-returns.md)：同原六支最高30次中性家族增加五实列，完整50阶子式及原八几何关系付同ray密度1/全N整逆；双冻结/cd/W/三态/J2=1全部保持且同qcd整个五维FZ为零。纯中性差亦正规全零/J2=1/FZ=0，原负一深支仍非零。完整cd的T/S一阶混合项消去、尾p^(2N)，额外角域与移动cut不免费继承。
+
+- [R716：原wild全局theta周期与精确中央L值](../results/R716-original-wild-global-theta-period-and-exact-central-l-value.md)：原S34的完整arch Heisenberg位移h=((x+y)/3,51(x−y))与2/3/17原向量逐处固定，p处p²正交基及χ^-1本征给真实全局theta-null。hK1延拓η，真正twist的p角色为χ²、导子p²/阶p、根号+1；Yang良好向量因子与p+1轨道范数给L(ψ17·tildeη,1)/Ω_R=48940416|S_p(r)|²/p。原边界零iff该实际L值零；原j0到此零及变化p第一wild层非零仍均未付，固定tower定理不替代。

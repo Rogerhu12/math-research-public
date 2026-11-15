@@ -4,7 +4,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同p的全Sha[p∞]有限。**主目标未完成，QUEUE进行中；跨上下文持续，不等阶段确认。**
 
-- 最近已读规则提交：13f24cee15bdd1f19c8ae1b9a1462eeb6348c70c；2026-11-15 08:07:37 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:07:36 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
+- 最近已读规则提交：05974f966ca44a87f6286b6162bf908842f51ea7；2026-11-15 08:10:22 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:10:22 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。只写Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次比根/题README、仅读差异即遵守并记提交。本地exec无环境；API仅非强制追加，拒推立即本地pull --rebase重试并接新head再推，循环至成功；实际CI与本地失败分记。
@@ -16,8 +16,8 @@
 ## 完整前检与分工
 
 全部压缩前内容：[最近HANDOFF](notes/2026-11-15-frontier-before-r715-proof.md)，沿内链保全部规范/坏集/预算/原域和未付问题。本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、701–711、713–715、717已登记；R364/R561/R654及主目标开。主入口results.md及notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；代理只交独有proof/script/blob。deep R712指定forcing/同R真实像；theta R715续k1..5完整混合壳；literature R716原φ全局toric period/带tame权边界jet；root继续R717两实际二位族与原中央联系。
+R1–363、365–560、562–653、655–700、701–711、713–717已登记；R364/R561/R654及主目标开。主入口results.md及notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；代理只交独有proof/script/blob。deep R712指定forcing/同R真实像；theta R715续k1..5完整混合壳；literature原R716反循环一级层非零/原p-adic对应；root R718原CM分布重建R717整窗。
 
 ## 固定算术规范
 
@@ -46,7 +46,7 @@ m136扩展p>136、φ极130、D136=91·2^46·3^34·17^23，同根域/迹/平均�
 **R711** 第六旧Cartier须减1/Z简单极，T6=g6+(m/2)η+7κ5a_m^+；原两m消η再消U_s仍保原低残差和γ_m^6(L5/p6)/120真实低商。
 **R714** 指定Z1=Z+c_p^−1(G+r)^p匹配全部原degree<p²整参数；粗q−p−1误差由D及μ6型补齐。DZ1=1，极帽(p³−p²)D2/全部零点保。全h≤p−1 Cartier先减真实简单极，前五块=g_h、第六=g6+(m/2)η。
 **R717** 原整Artin–Hasse因子a_n=f_n(p∤n)、a_pk=f_pk−f_k^p/p；全n<L仅X_pk及X_(s+pk)各k1..s−1需第二位，其余第一位由xZ1²读取，a_s=0。共同U=U_np V^p给全g_h有限卷积；付实际二位后Σ_AH=Z1U_AH(Z1^6)回全原首Cartier，无未知模型差，极帽m(q−6)(p³−p²)D2仍保。
-R663同Y闭盘iff Q|B；原X仍须j0、高Q^(d−m)及真下降。原两j到前缀/全局限制开；R716核真实全局period身份，不套可选test vector/Asai或未付tame权高度。
+R663同Y闭盘iff Q|B；原X仍须j0、高Q^(d−m)及真下降。原两j到前缀/全局限制开。
 
 ## 深支：同R指定像仍开
 
@@ -55,3 +55,5 @@ R663同Y闭盘iff Q|B；原X仍须j0、高Q^(d−m)及真下降。原两j到前�
 **R709** 单值接触≤Q_D=M_D+3B_D²+8D；Q_D<s时原G0W_D前缀整分裂单射、全单位Smith，阈p>6Q_D−1≈141D²/2，无Δ_D。exact ker_Q∩源格旗标另一门297/20；不称短像饱和、不扩五z/primitive塔，旧vpΔ_D=0保。临界47/8不满足这些大门。
 两篇2026-11-15 cube notes：原Qunit/EFunit/全P模3支持的光滑cube由着色负项排除；真实19角Pic轨道给3ql(s−r)≤2B_D²+48l²b，临界ql≤8/3，q3全排、q2迫原不可约F自身偶。未知整R不自动偶。
 R712继续gcd1/真偶因子固定μJ(Pfact)/p的全J像。最新r=ell=1、s=2h+1窗归原h条实际接触行；常数unit仍可被真实低列吸收，未判非零，不以重排另登记。
+
+**R716** 原S34/Hall迹已匹配原全局theta周期：L(ψ17·tildeη_p,r,1)/Ω_R=48940416|S_p(r)|²/p。全部2/3/17原向量、p²基/相位/范数及Yang新增p因子保；tildeη_p=χ_r²、导子p²/阶p/root+1，同r一Galois轨道。原边界零iff此L值零；原j0到边界零及随p第一wild非零仍缺，固定tower非零不够。
