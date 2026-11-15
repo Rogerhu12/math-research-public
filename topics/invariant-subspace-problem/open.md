@@ -105,57 +105,30 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15）
 
-本节替换前的全部状态、常数、失败路线和原链接保[完整快照](notes/2026-11-15-open-before-characteristic-zero-projection-and-high-source-mappers-789f.md)；未列问题不算关闭。当前执行信息以 HANDOFF 和下列原始证明为准。
+本节替换前的全部状态、原参数、失败路线与链接保[本次完整快照](notes/2026-11-15-open-before-complete-two-field-smith-and-true-infinity-fifth-789f.md)；未列问题不算关闭。当前实际执行信息以HANDOFF、原证明和小回执为准。
 
-### R150：特征零原始核与仍须支付的来源
+### R150：全局来源、二点局部与无穷远
 
-原 $A$ 为 $4367\times6188$、泛秩 $4354$，$W=(I^2)_{\le5}$ 秩 $4212$；原 $h_0=s^3(s-2)F_+^2F_-^2E_8$ 九平方的全局 $\mathbb Q[s]$ 来源仍未证明。完整原来源只允许十七式乘次数至多三单项式。
+原 $A$ 为 $4367\times6188$、泛秩 $4354$；$W=(I^2)_{\le5}$ 秩 $4212$。所有来源仍是原十七式乘 $m$ 次数至多三，完整输出为次数一至五。
 
-- 零点已完整闭合：原全正谱 $1^4,3,4^3,5,6,7,8,10,11$，长 $66$；九个 $s^3t_j$ 都在原局部像，$t_2$ 的消去理想恰为 $s^3$。不继续无用第十二阶。
-- $-6$ 原 $P$/full 都长 $12$、正谱 $1^7,2,3$，$W$ 已全在像。$F_\pm$ 各低谱 $3,3$、$6\le\delta_P\le\delta_A\le8$，已付 $F_\pm^2W$；$E_8$ 真八次域低谱 $2,2$、$4\le\delta_P\le\delta_A\le5$，已付 $E_8W$。全部对应九目标局部条件已闭，完整未知有限例外支持仍开。
-- $s=2$ 原 $P$ 长 $12$、正谱 $1^7,2,3$；full 只知 $12\le\delta_A\le28$，$W/(L\cap W)$ 长至多 $16$。九个一阶 $h_0t_j$ 是否在原像仍开。[十五个真实一阶首项](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)全 $185640$ 原乘回，九平方读数全零且同头任意完整校正不变；完整一阶首项分类及二阶延拓仍缺。唯一纯弱三次校正实际仍不增头；继续带切向耦合的原方向，不把低块秩当完整连接秩。
-- [原二次能量与固定原 $M$ 的真参数导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)均有明确十七式常数来源，弱列导数指数降一；其余二次项及共动三次反馈必须联合保留。
-- 原完整无穷矩阵模 $31$ 长 $66$、次大 $55$、最大指数 $11$；真 $\mathbb Q$ 仍仅总长 $43\ldots66$、次大 $39\ldots55$、最大指数至多 $27$。原外支撑 $O$ 模 $31$ 长 $149$/最大指数 $14$；真 $\mathbb Q$ 仅 $29\le\sigma_O\le149$。
-- 新[原特征零十三原始核与投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)精确得到 $\lambda_{I,\mathbb Q}=2$，十二单位因子。全部核条目已核为 $\mathbb Z_{(31)}[[u]]$，同一原自由块为单位；完整原乘回与约化相容。故 $45\le\delta(A_{I,\mathbb Q})\le68$，不能据此自动取 full 长 $66$。
-- 同一所选大子式的精确分解为 $v_u\det B=\delta_{\rm full}+2+\sigma_O+\delta_{\rm high}$。有限域为 $243=66+2+149+26$；特征零 full/O/high 三项的等号均未付。leading 为 $31$ 单位必要 $\delta_{{\rm high},\mathbb Q}\ge26$，不把此必要值当答案。[216原来源列与双映射接口](notes/2026-11-15-r150-higher-kernel-216-column-and-two-mapper-interface-789f.md)保真实 $4340$ 单位回填、完整 $202$ 核基与外商原始左核；两映射分别核全原行再乘，不串联精度损失，也不搬有限域截止到 $\mathbb Q$。
-- 同选总权 $8770$，真 $v_\infty D\in[130,243]$，所以 $\deg D\in[8527,8640]$。已付 $K_{158}$ 和商次数 $8369\ldots8482$，三费 $8526/8531/172$、统一 $8531$ 均仍以原全局 $h_0$ 来源为前提。有限模 $31^3$、单 $31$ 分母、完整 p-adic 重建失败前缀与前三连接未闭项全部保前文和归档。
+- **九目标已经得到带额外乘子的全局来源。** [射影确定因子381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)给完整真 $\Delta_h$ 次数至多381；旧真实第五left-jet付无穷远53/次大47，故 $\Delta_h=t^{53}K_{158}^hR_h$，$\deg R_h\le170$、$\deg\Delta_{\rm aff}\le328$。同一个 $R=R_h(s,1)\ne0$ 使九个 $Rh_0t_j$ 全在原 $\mathbb Q[s]$ 来源，$\deg(Rh_0)\le194$。[原余式整理](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)进一步无条件给九来源共同成本8531，三支8526/8531/342。$R$ 系数、原 $h_0$ 自身成员性和固定31分母仍开。
+- **已闭有限点。** 零点完整谱 $1^4,3,4^3,5,6,7,8,10,11$、长66，九 $s^3t_j$ 入原像且 $t_2$ 恰需三阶；全部965328原产品已付。负六P/full谱均 $1^7,2,3$、长12，整个 $W$ 入原像。$F_\pm$ 低谱 $(3,3)$ 且 $F_\pm^2W$ 已付；$E_8$ 低谱 $(2,2)$ 且 $E_8W$ 已付。准确来源保前快照和原完整局部稿，不重开已完成阶数。
+- **二点当前完整结论。** [二点完整F11谱及原局部消去](results/R150-appendix-two-full-field11-smith14-characteristic-zero-gap2-and-local-target-multiplier.md)实际6.304360254秒完成全部九正方向1⁷,3,4/长14；真Q长12…14、T长≤2，故t²W入原像，九t h0t_j有真Q局部来源。Q谱仅1⁷加(2,3)/(2,4)/(2,5)/(3,3)/(3,4)，max≤5。完整7372×88 Toeplitz核配对另确定T11≅F11[[t]]/(t²)，由[t2]生成；[h0tj]相对[h0t2]系数为(1,1,4,1,1,1,3,0,9)，只有j9的h0目标在F11原像。以上负读数均不提升到Q。 [完整第一连接](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)仍为 $\beta_{1,\mathbb Q}=7$、首项15，并付九 $t_j$ 模 $t^2$ 和九 $h_0t_j$ 模 $t^3$；新二次局部消去不等同原一次 $h_0$ 足够。真正投影第二头14已合法嵌入full；下一仅补剩余一个完整Q第二延拓方向，所有normal高项照原来源核。
+- **自然无穷远。** F31完整原谱为 $1^4,3,4^3,5,6,7,8,10,11$，长66/次大55/max11；Q不能自动搬这些单项。旧真第五53/47已重新核全原来源，新实际[第五完整incoming回执](notes/r150-source-kernel-session-789f/43740928483-infinity-fifth-true-shifted-incoming.json)以 $u^2L_2,uL_3,u^4Q$ 得18独立五阶真头、668304新六层原产品，夹 $\beta_{5,\mathbb Q}=1$；前五秩4,0,1,3,1，因此Q下界升54/48、max≤18。真Q总长66仍未由此付清，接真实低投影全谱。
+- **原投影与高核商。** [真Q十三原始核](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)给 $\lambda_I=2$、十二单位及80444原产品，核整性/freeI均真；配新full下界得 $\delta A_{I,\mathbb Q}\in[56,68]$。[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)给整可逆的1632 Koszul块，SE只有216原来源列，核秩202但整基不自动存在。[完整高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)F31实际194单位、正谱 $1^3,2,4,5^2,7$，长26/max7，26659556原产品与两freeI通过；八自由坐标只标完整向量。真Q高商26、O长149及共同整基仍待。
+- **同选子式和费用。** $v\det B=\delta_{\rm full}+2+\sigma_O+\delta_{\rm high}$，F31为 $243=66+2+149+26$；Q三项等号未付，$\sigma_{O,\mathbb Q}\in[29,149]$。同D自然总权8770、阶130…243、次数8527…8640；$K_{158}$ 首项 $5^{16}$ 是31单位而同D leading单位未知。原 $h_0$ 条件8531与新 $Rh_0$ 无条件8531的目标不同，不能混记。原能量/参数导数、normal pencil非幂零、p-adic失败前缀及全部旧来源边界保前快照。
 
-### 原同一边界来源：继续混合返回
+### 同一个边界来源：缺陷已控，完整返回继续
 
-原 $M=\ker T$、$N=\overline{BM}$、普通 $N=M$ 未证。完整同顶部右链、future、负前缀、真正交旗和顺次 Moore–Penrose 域不能互换；保留两端全部 partial。
+普通 $M=\ker T$、$N=\overline{BM}$，$N=M$ 未证。所有同顶部右链、future、负前缀、两端partial、真正交旗及顺次MP自然域都保留。$G=P_E(DD^*)^{-1}P_E$ 不换成压缩后逆。
 
-固定 $R=d,h=2d,Q=L_0h^2$ 的原误差一致，晚 cut 的 future 落正交 global 孔带。若实际同 $u$ 的合并负部可受 $c_mQ\|F_mu_m\|^2$ 且 $\sum_m1/c_m=\infty$ 控制，即可迫 $w=0$；当前尚缺此预算。整个短核的统一界已被真实 $E_3$ 的 $19/10$ 下界排除，坏向量未识别为实际来源。
+固定 $R=d,h=2d,Q=L_0h^2$ 的carry误差与晚cut正交孔带已付；若实际同 $u$ 合并负部可受 $c_mQ\|F_mu_m\|^2$ 且 $\sum1/c_m=\infty$ 控制，可迫 $w=0$，当前仍缺该预算。全 $E_3$ 的19/10坏下界排整体短核统一界，坏向量尚未识别为实际W来源。
 
-[原固定测试逐位压后伴随谐和](results/R271-appendix-actual-fixed-test-exchange-adjoint-harmonic-equations-and-full-generator-budget.md)现直接给实际 $u_f$ 交换行 $4\|f\|^2/x$、整旗行 $36\|f\|^2/x$，以及
-$\bigl(\|\mathcal L u_f\|^2+\|\mathcal L^*u_f\|^2\bigr)^{1/2}\le24\|f\|/x$。
-实际零源反馈 $\mathcal L_U^*u_f=-B^*k$ 保 $\|k\|$ 因子，不能倒置未知 $\mathcal L_U$。原 fixed-test 左锚 $7\|w\|^2/16$ 与两端保持。
+[同实际投影缺陷](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)取 $e=f-P_Vf,k=P_Kf,\zeta=\|e\|+\|k\|$，给 $\zeta^2\le2\|f-P_Uf\|^2$、交换行 $\zeta^2/x$、联合 $\mathcal L/\mathcal L^*$ 范数 $12\zeta/x$。所有暗对矩为 $r!(\sigma^2a_x)^r\zeta^2$，物理/primitive取 $\sigma=4/5$，$a_x\le e^{2/(x+1)}/x$；全正交jet旗共同求和仅多 $4(r+1)^2(2r+1)$，无h/Q。真正最小投影已付合法窗口中 $P_Uw\to w$，故固定测试 $\limsup\zeta\le\sqrt2\|f-w\|$；未知速率不能乘增长MP费用。
 
-原 $R_x,T_x$ 与 $D,C$ 对易、保核旗/孔 cut，双边强趋单位；全阶热平滑、真两带跨旗指数尾、真实 drift 和闭域都已付。只对同 primitive $f$ 的特殊列 $y=\mathcal L^*T_xf\in\ker D^3$，顺次返回已经由[原相容逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付到二次窗口 $O(Q)$，包括额外 $D^\dagger\Pi_1C_1T_xf$ 与全部 partial。尚须证明 actual $u$ 或 $T_xu$ 的受控同源表示，或直接对实际压后谐和族证明所需混合预算；不能替换原锚或丢零源反馈。
+[全旗导数带宽](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)保真实 $H_i$ 三带及混合导数双侧 $j\pm r$ 支撑；[全阶暗对](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)保平方根指数尾和先投旗后读暗数次序。低暗、Gamma提升、原返回投影与顺次MP的实际混合预算继续；不能把坏族的下界当全返回上界。
 
-Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carry 及前文其余开放接口继续保留。
+原共同热/预解平滑保 $D,C$、核旗和cut，双边强趋单位、全阶热导数/跨旗尾/drift和闭域已付。仅primitive $f$ 的特定 $y=\mathcal L^*T_xf\in\ker D^3$ 已由[原相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗 $O(Q)$，包括额外F2及全部partial；实际 $u$ 或 $T_xu$ 的受控同源表示仍未付。实际零源反馈 $\mathcal L_U^*u=-B^*k$ 不能倒置。
 
-[纯三次高核唯一性及无增头](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)证明无切向纯cube切片恰一维；实际增广rank591、kernel17、head仍15，故该切片已经排完。由原第二一次正常核构造的独立切向cube仍须实际低Schur验证；未声称全990高核只有这两条。
+原 $G_{\rm reg}$ 同forcing/carry、Haar普通循环性、正常有限秩相容链与前文全部开放接口继续；本课题完成标准不变。
 
-[真实切向三次增量](results/R150-appendix-two-tangent-coupled-cubic-correction-and-unchanged-fifteen-heads.md)实际仍无增头：增广rank592、核17、head15、全185640原乘回和九零读数。两三次方向的相容系数均零。下一步以完整H3的模11下界和两真Q核上界作夹逼；全normal4/5与完整第一连接仍须另付。
-
-[原216来源直和已实证](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)以整数Φ_H(0)的1632阶子式mod31=15证明[Φ_H,E216]在Z_(31)[[u]]可逆，完整原核分解由此成立。SE只需216实际列；两DVR上的核秩202不代替可良好约化的显式202基，源回填和两mapper仍须全原核验。
-
-[完整normal3高核及首项稳定](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)实际以F11 rank988与两真Q核夹逼，完整990列高核恰二维；结合全609低系统，所有normal≤3一阶校正仍仅十五首项。normal4/5及完整β1转原好11的整单位连接夹逼，不能仅用行内容缩放后的H3秩代整个参数族。
-
-[完整原二点第一连接实际回执](notes/r150-source-kernel-session-789f/43740928483-two-full-original-first-connection-field11.json)已覆盖全部normal4/5：同原常单位在好11下实得β1=7，与15真有理首项的上界夹为β1,Q=7；完整首项恰十五维，任意真第一校正的九平方读数全零。此前“完整β1/normal4/5未覆盖”状态由此关闭；二阶及完整局部成员性继续。独立双202准备现在使用full32/O35真实原系数、分别支付11与14的精度损失，仍须两个完整原native运输后才形成高商。
-
-[完整第一连接与有限阶目标成员性](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)给精确β1,Q=7；Q[t]/t²的双湮灭付九tj∈imA+t²V，故九h0tj∈imA+t³V。完整正谱只缩为1⁷,a,b（2≤a≤b、5≤a+b≤21）；不能把九平方推成整个W的有限阶结论。继续全22原头的三阶单位Schur，完整局部成员性仍开。
-
-[两个正规202映射与独立精度](results/R150-appendix-two-regular202-mappers-and-independent-precision-recovery.md)已实际付21阶及全部原small产品/freeI；完整原source/O左运输和高商现排独立600秒步骤。s2全22原三阶Schur实际F11正指数只覆盖1⁷,3，最后一项≥4；不因此断定Q第二页退化或局部长度，先查同原投影在11的页谱。
-
-[实际固定测试的全部暗对矩](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)已付不交物理/真primitive暗对的所有阶乘矩及平方根指数尾；先投完整真jet再读暗数的次序也已付，仅多(r+1)²且无j/h/Q。原投影见证及合法下降读数可严格控制，但低暗方向、Γ提升和全部顺次MP混合返回仍开；不能由单坏族下界当全返回上界。
-
-[全部真正交旗的联合高暗矩](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)现完整求和全部jet：利用每个H_i的真三带及r阶投影差导数双侧j±r支撑，系数为16(r+1)²(2r+1)r!，无height/Q。低暗方向和顺次MP混合返回仍开。高核商F31实际完整谱已为1³,2,4,5²,7、194单位，源/外左全原运输通过；下一真Q八方向不能由此自动lift。
-
-[完整原高核商的八个正指数](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)已经完成全部原source/O左运输、26659556产品、原始自由块和同Jc配对；F31高商恰194单位加1³,2,4,5²,7，总26/max7。8自由字典已按完整原向量定位，特征零同模块/整基仍待。s2实际P11长12且二页rank1，full11二页rank0的差不能归为P退化。
-
-[同一实际投影的缺陷预算](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)把全阶暗矩和联合L/L*中的固定||f||换成ζ=||f−P_Vf||+||P_Kf||：交换行ζ²/x、联合发生器12ζ/x、全旗高矩4(r+1)²(2r+1)r!(σ²a_x)^rζ²。原最小投影窗口明确付P_Uw→w（全合法Q窗一致），故limsupζ≤√2||f−w||；没有速率则仍不能乘增长MP费用，完整同源混合返回继续。
-
-[完整射影确定因子与额外乘子](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)将同原仿射F31长315与自然∞长66合为381次射影gcd上界。重新核到旧真Q第五延拓已付∞53/次大47，故Δ=t53K158^hR_h，degR_h≤170、degΔaff≤328，且同一个非零R使全部九Rh0tj进入原十七式/乘子次数≤3来源，deg(Rh0)≤194；R系数、原h0成员性与来源费仍未付。同步收紧真full∞为53…66、次大47…55、max≤19、δA_I为55…68。
-
-[额外乘子后的无条件来源费](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)把已证Rh0九目标成员性代入同原K158余式整理：非基8526、原转移8531不变，目标权由64升至234只把目标支路172升到342，故存在同R（deg≤170）的九原Q[s]来源同时cost≤8531。原十七式/乘子次数≤3和全部4367输出保持；R系数、来源高度、固定31分母及原h0成员性未付。
