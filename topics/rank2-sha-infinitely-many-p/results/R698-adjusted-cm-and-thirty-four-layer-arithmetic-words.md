@@ -466,3 +466,7 @@ $$
 [R679](R679-neutral-degree-twelve-three-s-and-exterior-return.md)；
 [R692](R692-original-four-axis-three-state-and-arithmetic-unit-cuts.md)；
 [R695](R695-original-cm-word-domains-and-a-z-carries.md)。
+
+### 已完成的公开运行
+
+[run43685270950](https://github.com/Rogerhu12/math-research-public/actions/runs/43685270950)、job132724329217、source c816fc533c27f94584a3da5cc6ae3761ab446a37，默认参数退出0。脚本SHA256 ed21a17f3ea286a5d5a12a281d1cacab3eb7d873529efc0fd130aa0c4b5ea524；stdout369字节，SHA256 c5044d6d4d22bff79bde4746cce481732a255a0f0f83ca09b3694ea39223f63b。全部134096个基矢与相位检查通过，输出不入库；原来源/测度的一般证明仍为正文。
