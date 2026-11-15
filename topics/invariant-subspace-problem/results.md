@@ -98,3 +98,6 @@
 - **同选完整原像的49／36维余空间。** [自足推论](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)由rank4318=3762+556精确证明全部三横及以上输出在selected像；full余为20pure+29，square删三线性行后为10pure+26。原小矩阵F31rank556由已付秩夹逼必然成立，D31自由余模亦保留；给自然B1×旧kernel36的准确接口与Schur leading-unit条件，不删除共动来源校正或预报新连接秩。
 
 - **有限零点第二纯消去、公共K77及条件8678。** [完整证明](results/R150-appendix-zero-second-connection-pure-cancellation-factor77-and-cost8678.md)：run43679903558实核0.349050878秒，38×10包络零、1700原校正真；r1≤4及r1+r2≤7给全部max子式s31，不冒称s0 r2≤3。K77=s17K60、lc=5^6仍31单位；配指定60/59/56得q238…8633、条件费8678（非基8677、目标8453）。原成员性/lcD单位仍开。
+
+
+- **完整无穷远第二连接为零、公共34与条件8675。** [全原证明](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)：run43679903558实核1.291280400秒，1088×595前缀秩578/582/582、3横向left2jets全1088校正真，另5100原来源自动零；连20纯方向给β2=0、δ4354≥34/δ4353≥31。Smith×29精确曲线得指定63/62/59，K77下q238…8630、条件费8675（非基8674、目标8450）；成员性/leading单位仍开。
