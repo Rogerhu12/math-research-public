@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AD终端Ai首列的相关Darboux根剪切](results/R133-supplement-terminal-Airy-Darboux-correlation-and-root-shear.md)：对原n≥388的同一terminal-Ai列，精确signed Wronskian连同两项终端费用给βd−β完整n^-8/3；共同首列输入正规化可逆，root-input强尾随K衰减，low/mean/其它列仍Id。完整g列/inhom/physical source/positive/finite独立，纯解析无旧producer重算，不授完整incoming。
+
 - [VR同态值与差分的完整吸收及collar入口](results/R133-supplement-selected-value-and-difference-absorption-with-complete-cap-and-collar-inputs.md)：在明示wholecore/真实cut先验与实际physicalγ域内，以同CPA case的2×2正矩阵同时吸收低体与切口非线性；保uniform affine/height/waist/mean及真正左右collar输入。NG整行可替独立high H1；差分常数与height仍另付。纯条件解析，不认定五输入已小或core存在。
 
 - [IC逐分支首系数与共同root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)：共同F*有序正规化保完整finite/mean，真density共轭保两rank；SN两branch给ci/co的±μ/2与各非均值，完整Fourier低导预算及实μ预条件子的两窗充分门解析闭合。当前无终态SN/强余项数值或完整incoming；root原源全文与双peer核。

@@ -171,3 +171,11 @@ root19:39:05定时真CLI仍无可用executor，下一≤20:39；SN唯一原run�
 同actual f_h基点、uniform SC整f球不重复height，known γbar tail与unknown secant CPA fullcase保持。lambda_v wholecore值费、T真实cut先验、385频费给正2×2 diagonal/det后消元，NG一次P与真实左右low/shell整row代入，T不能循环用待证W目标。lambda_d/√2/height/jumps另保，NG值界不冒差分contraction。全ordinary rδ rawmean+continuous offset待精确旧成功source链核，未用F13。
 
 SN唯一43751213826/1的新小receipt70ec010fb1b5a5b125dd0e71294213321baa4ffa/11754/36004a8193ec6d99910c9931b7c3cb4331b2570dca8edf1d04e9286e40c4012f原身份核：19:50:37.985720真pull ee516d474479dbd07be374175dd36fb7bae53224，两README空diff，无supervision失败，counter2600=旧1256+新1344，H3仅进度非终点。TC唯一43754703603/1已报完成，root待亲核完整小件后另推实际结论，不以agent近似数替证。日志旧字及本次压缩H/open全保c75f753144b642236095d328a64fc0aefb3764f0；README只读核1e09ea72e423a13c7355e0ae3d1e5b1c231be3ae未变。
+
+## 2026-11-15 19:55:26 UTC — AD同terminal-Ai首列相关剪切
+
+独立发表fe7815dae4e1d41ff78ac8ab50bb2b67c3d747f0/16013/5c4459e58c76ac3cc62e8a8bf94cb2574f38d790f6ca51cba2de1fc297a413e0；旧5768仅补低频定义后未部署。root全文与A62909c54/15528/0e56cf64、原势actual b4dc5f5f/10482/6b6db11b、execution9b8741b1/27645/d4c48d61实际16门/4完整case、IN8全文核。原最大complex image>0.000742956050168040、V<276/VT<26431/VTT<3830956，在同realT上B/B′/B″给H<2^20，不复算势/参考。
+
+root手推Darboux完整residual−HA′/n²、root ad/bd、W′符号/实际L端能量与导数项、原an77/78和ad3/4门、全Ai积分n^-8/3；两终端指数及N²L³≥1单调资格保。AD25 oriented两态Duhamel源为正，g growing列不可换decay；AD27只是原root-input强乘子，lowfinite单独。公共Ad在low/mean/其它坐标Id，完整trial右乘与商消去都须原incoming逆先成；IN8的R2/R3/inhom额外物理行保。phase与tail指定段窄核均过，无新数学运行。
+
+旧AC/CN/EN/LN/RR/TN索引压缩的全字和未付义务保b2476f272c6223b7f8305abe6694de4fed690468同H/open/proof。README只读核e1d8a95631eb11d1df0ccba4a781b05b6dd45c62未变。TC实际小件已root取待完整独核，SC3原唯一43754452928仍进行，SN唯一43751213826只新suffix，整体未达完成继续。
