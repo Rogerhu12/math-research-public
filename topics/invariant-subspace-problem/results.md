@@ -203,3 +203,5 @@
 
 
 - [R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)：同一真实u_Q的完整合法顺次右链将左能量准确变成顺次投影负二次型；跨cut保原同层部分和与全部旗，原返回在该标量中精确处理。负部O(Q)目标仍待证，未封普通N=M。
+
+- [R150-appendix-zero-fifteen-seventh-left-jets-factor103-and-cost8621](results/R150-appendix-zero-fifteen-seventh-left-jets-factor103-and-cost8621.md)：原五条left6全部延至left7，加十恒等共15头；完整高零head核2与低15核、所有6188原来源真核。零点57/49、K103、最大Smith8…17；λ0…7九平方全零。配已付∞93/90/90，条件来源8621/目标207，成员性仍为前提。
