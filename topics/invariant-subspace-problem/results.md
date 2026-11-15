@@ -116,3 +116,8 @@
 
 
 - **精确核曲线的加权支撑阶与全部子式因子。** [自足定理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)把κ外来源O(u^ell)转成active E_J的同一个单位右基下列u^ell，故全部j阶原子式≥δ_j+最小j权和；删列/原来源换列损失由wedge严格支付。已有29曲线的新1834×29外一阶矩阵若核维t2，可用当前34/31给63+t2及62/59+max(t2−1,0)。只付条件接口，无新t2数值、成员性或首项单位。
+
+
+### 2026-11-15：原同选自然八阶 Schur、三十三条实际校正、模31阶至少184
+
+见[正式证明](results/R150-appendix-selected-natural-schur-eight-jets-and-mod31-order184.md)。原来源 $X_k=-W\sum_{i\ge1}A_iX_{k-i}$ 与完整残量给同一子式真实 Schur 系列；已定二十五个正指数总和85，十一未定指数至少9。实际33条一阶校正覆盖全部4367输出。该模31下界没有宣布特征零完整长度或首系数单位。

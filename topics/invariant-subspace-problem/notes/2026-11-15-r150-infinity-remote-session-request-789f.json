@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "170454b2c6024104af454c3373aa8d0b6afbb5f0",
+  "rulesReadAtCommit": "5a242a42e1cc6565dc5f0e9b77e3b8ccb87f82ab",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -967,6 +967,62 @@
       ],
       "timeoutSeconds": 80,
       "receiptPath": "{work}/koszul-curve-first-outside/koszul-curve-first-outside-receipt.json"
+    },
+    {
+      "id": "selected-natural-u-schur-through16",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-schur-compact-continuation-789f.py",
+      "scriptSHA256": "f699fd8598fb8340933f7938d592ffb0c088115f8086dec6a51ad2e141030ae6",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-schur-source-jets-runner-789f.py",
+          "sha256": "80f6815133250cf559f81afb557f138952f7268ce2d2b43e2c15bfb822775e67"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-u-schur-source-jets-789f.cpp",
+          "sha256": "40dc42b367d241fb7d1cf0c3dd9ef35d61ad0ce756a63559ca8110188b2206dd"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        }
+      ],
+      "argv": [
+        "--runner",
+        "{scripts}/2026-11-15-r150-selected-natural-u-schur-source-jets-runner-789f.py",
+        "--",
+        "--native-model",
+        "{native_model}",
+        "--point-model",
+        "{selected_model}",
+        "--selected-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--unit-profile",
+        "{work}/seven-original-exact-rational/seven-original-unit-row-profile.json",
+        "--kernel36",
+        "{bockstein_dir}/actual-original-kernel36.bin",
+        "--source-dag",
+        "{dixon_dir}/actual-selected-image-source-dag.bin.gz",
+        "--repo-notes",
+        "{repo_dir}",
+        "--first-dir",
+        "{work}/selected-natural-first-connection-f31",
+        "--out",
+        "{work}/selected-natural-u-schur",
+        "--maximum-degree",
+        "16",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512",
+        "--compile-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 115,
+      "receiptPath": "{work}/selected-natural-u-schur/selected-natural-u-schur-pipeline-receipt.json"
     }
   ]
 }
