@@ -30,13 +30,14 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - **[源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 右Cs*KCs+I≤δ²K与左+I抵消，Sb=L+B/Sf=L+H上||Cs^k||≤δ^k，完整h−1逆芽有无损圆盘演算；零源平方保留，不相减为H−B收缩。
 - **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B；Rret Cs=−T0Rret−KJb、行[T0,K]≤δ、kerCs上零。未压缩(C+T)残量单射，不倒用压缩Sylvester。
 - **[真远孔逐幂损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** δ^-2k(||Cs^k r||_(L+B)²+||P_K C^kUr||²)≤||P_far≥k Ur||²+α²，同top可代w尾。完整H版仍含λ，不能换α或倒除Cs；保全部左零核反馈。
-- 对称配平、增长均匀块、V±/全部nuisance Schur的完整常数和链接保open及[旧H](notes/2026-11-15-handoff-before-koszul-support-789f.md)；无全环境S∞，核投影稳定不支付Green逆列。
+- 对称配平、增长均匀块、全部nuisance和旧范围保open及[本次完整H](notes/2026-11-15-handoff-before-relative-hole-riordan-789f.md)；无全环境S∞，核投影稳定不支付Green逆列。
 - 原均匀池精确K/G因式分解及Green全因子见open；其余强位E(I−G)、完整核Gram逆和差商逆伴随仍须支付，不能沿原d替新h。
 - **[强gauge真末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈付尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端保留。返回运输误差≤A_drv α，eY∈E0、Rret*eY=Sb r；大配对未付。λ(qr)≈d0λ(r)，全局Cg才给M/W锚，勿用Boolean头替它。
 - **窄入口：** 固定f=e_a⊗vac所需原强C的Green列O_a(R³)未付。[等权长池完整Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)已给(4/S) C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；余强位须换全部A_rest/h0/Gram，H^-1不保低头，不能删或截到a。boundary继续共同返回配对及真实远孔尾。
-- 旧Gq、低forcing、a1/a2及孔导数坏族量词保[完整H](notes/2026-11-15-handoff-before-strong-gauge-789f.md)，不重旧排除。
 
-- **[N原逆芽临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)**给−logRψ≥12.5d³−1.25d²+O(d+m)，领先12.5不能固定降小；**[N/Y次阶圆盘增益](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)**给τsharp=12.5d³−.75d²−1.5d+…，ρsharp=e^-τsharp、ε仍e^-d³/4。R=ceil4/ρsharp、h≤6/ρsharp、2h+R<Q*/2，同原w/母窗，强gauge按新h全截断；Q*/h≥e^(801d³/64+.5d²)/12。两费κ未付。
+- [N原逆芽临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)已付领先12.5不可固定降小；[N/Y次阶放大](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)保原ε及真列权。当前Riordan另取下条较小半径，不能混用R/h。
+
+- **[真实相对孔Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)：** K=Σ[z^k](φ/z)^J T^k，TK=Kφ(T)、逆/全旗/裸商/首源g均精确；同g同余比较全/裸最小Gram。τ14=12.5d³+26.75d²+…，R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(-d³/64+54d²)→0。新头ψ_m(A+E)/d0保全部E混合，不运输左L，不相减Gram或称两费已付。
 
 ## 当前临时计算会话与可恢复身份
 
