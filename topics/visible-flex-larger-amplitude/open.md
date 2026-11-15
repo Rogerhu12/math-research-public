@@ -117,3 +117,7 @@ root完整读四源码diff、17099B接口、两配置diff和两纯静态checker�
 [完整附记](notes/2026-11-15-actual89-complete-exported-bytes-appendix.md)、[摘要及原件身份](notes/2026-11-15-actual89-complete-reader-appendix-summary.json)和[主控核对](notes/2026-11-15-actual89-complete-reader-root-independent-byte-readback.json)保存。reader43676206729/source0d3da53d/job132696813693全success，原科学89的413成员、381 descriptor联结、232domain NPZ/1510NPY/79完整typed组、108condensed NPZ/38完整数组/42引用、14raw454456080B、15evaluate/8mid packet和77来源均有实际Actions记录。root全文9147B附记与33475B纯字节reader、77真实032c Git源、17原关系、18小原件及整冻结输出重放已核，receipt310d2094。
 
 三份完整原audit/transport/summary以无损gzip保存原bytes，不重序列化。R276与原出版恢复均未请求，绿色通用步骤是no-op；正常小包publisher单独实际执行。未导出的完整H链式factor仍无payload审计；本地也未重取687MB科学ZIP。原1/32接受和全部未完成BVP/native标志保持，98科学推进不以此附记为新门。
+
+### 1N. 实际97紧凑正式结论与当前数据规矩
+
+[实际97结论](notes/2026-11-15-actual97-inexact-p3-eight-acceptances-compact.md)已登记：八次首α1接受，merit16791.96200276451→15400.321596660777；只显式外层预算停止，unit/full112/native仍未通过。原父同参数fresh末位差异和方向基点/末接受态范围保留。按作者137c5a877fb387a82cbde01f084d1fa67ee717aa的新第15条，可重算输出不再存repo或Release；后续仅保脚本、参数、run、SHA和紧凑结论。终端不可用，当前用根第8条授权的小文本集成保存，不冒真实git pull或新verifier执行。
