@@ -374,3 +374,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:22:54 UTC｜仅回读成功guard原日志，零研究重执行
 
 原run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0已success，但原工具两次Transport closed，不能报未读结果。新增只读scripts/read_curvature_guard_completed_log.py（26618B/SHA00e7e1dbfbce5d47e107e627506da32d27488f3a6304709ed62af9d1d4445e61）、workflow（2083B/SHA09c318a95c1bbd9b425bbb1c24a79cd4b4364c1f512fc26799406e42021a9733）及请求（1973B/SHA7eec765cf1c2e9d28c011cd4788bc72413fb95f0048bdf57f1088df6885b97cb）。仅stdlib+已冻reader，原log只内存、首hash如实记录；核原request36687B/f85013…及146/140闭包，逐MODEL保guard/学习/LP/trial和全部原费用，双repo actual pull后核README差异。stdout≤180000B，源/原payload大数组仅metadata，超界只缩重复prior否则明确limit；无新开发/科学、无payload/artifact/Release。根全文+最终delta纸审通过；最小sparse checkout只读所需文件。基底d377a0efde1e2f09074dce178fc18bbd66d70a0d。
+
+
+## 2026-11-15 22:24:39 UTC｜guard终态首次真实读回并仅续未输出语义
+
+[guard首次只读终态](notes/curvature-guard-first-original-log-readback-20261115.md)：原log7918876B/hash8ce149f0…、146/140闭包一致，七model与原COMPLETE对齐；原终eta .26623355613853394/bothκ57.99982504159888/旧门盒true/新.26false。observer43768982932仅因589111B语义超自设180k返回LIMIT，不是科学失败；不预报DEV/使用/费用。现仅上限660k并强制已知原loghash，script26824B/SHA8270802ad2f9292b47430a0091270e844f60c673118d15544e15188ea293bc1d、workflow2083B/SHA1eb9b008b5985bce611672520e98124713d6e28382248883482d4027633404bd、request2405B/SHAb0aaa2b5787c2e3efbab49e34e2bd4fd6e5b340b37e2c6e5f71af4ad4be4217d；原selector不改、研究与开发0执行。两repo实际pull及空README差异已立即记H（public22:23:08 ab95e801…/private22:23:11 13c9950…），QUEUE本会话进行中。基底e5fefb8760cc605d44f58dc973a4c0aabe885b0b。

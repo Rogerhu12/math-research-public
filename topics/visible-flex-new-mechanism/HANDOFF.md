@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。公开最后已读actual pull：a48f3398fc587cc1370a26a56978e719629b878c，2026-11-15 21:58:35.833391 UTC，run43766593534/job132972995287，双README空diff；下次最迟22:58:35。每次pull核双README，有变只读差异即执行并记SHA；每小时actual pull。每结论即推，NFF立即actual pull --rebase/核规则/再推至成功，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。
+根/题README已全文读。公开最后已读actual pull：ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef，2026-11-15 22:23:08.614004 UTC，observer43768982932/job132980381937，双README空diff；下次最迟23:23:08。每次pull核双README，有变只读差异即执行并记SHA；每小时actual pull。每结论即推，NFF立即actual pull --rebase/核规则/再推至成功，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有最后已读actual pull：84abd8dc1afaab95c103b2685275d68a1348cc93，21:58:38.039070 UTC；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行本会话进行中。续run43767357527已success但log未读，不冒已核pull。
+私有最后已读actual pull：13c9950f62bf31ac3ac0629d238529ab02f6233e，22:23:11.835109 UTC；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行本会话进行中。原科学22:06的pull记录尚待完整语义回读，不冒已核。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（22:13复核exec-server缺失），依根8小UTF8发布；API非pull。
 
@@ -22,7 +22,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 新curvature-defect guard首run43766593534：前三5/5/4全过，第4组fixture写只读fixed_zeta失败，零科学。见[首失败](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)及[严格续4](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)。仅删fixture setter及新增付费复用，生产core/outer/transfer不改；原14只读复用、138py+6workflow不变，只执行未付4后首科学。
 
-**续run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0于22:12:04 success；原大日志两次Transport closed，尚未核DEV4/学习/模型/终值/费用，不预报通过。** 已请求只读Actions观察器（curvature-guard-log-readback.json）：绑定唯一成功run/source及原146源码，用stdlib读原log内存，180KB语义上限保DEV/guard/learning/trial/timing；不执行开发/科学，不存payload。数值仍以上述已读covered为best。
+**guard原终态已读，逐模型续读中**：[guard首次只读终态](notes/curvature-guard-first-original-log-readback-20261115.md)核run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0成功；原log7918876B/hash8ce149f0…，146/140绑定一致。原eta .2662701215525791→.26623355613853394/drop .00003656541404517544、bothκ57.99982504159888；旧两网门/精确盒true，新.26false/reach欠，原7models。observer只读语义589111B超过自设180k，已按已知loghash请求660k续读，不改selector/不重研究/不存payload。DEV内容、guard使用、学习、费用尚待原记录，不预报4项通过或因果改善。
+
 
 guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8原scaled determinant负defect按真实共同步长b²学习，γ只下一模型生效，current冻结；target=max(oldtarget,1e−7+γB²)，仅域内active8。零γ原数值；A/c/J/bounds/soft/余门不改。不可行照旧收费/shrink，无免费resolve；旧SOC自原J/y构建，不读guarded RHS；expanded rebound原selected。双factory最终sameobject/oldmap/版本核。保cfg/g/b0/159/163、375-bank/两池/B/双0和12LP/40value/120active/10secLP。
 

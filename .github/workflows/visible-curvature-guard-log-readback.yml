@@ -44,5 +44,5 @@ jobs:
           content=subprocess.check_output(['git','show',os.environ['GITHUB_SHA']+':'+path])
           exec(compile(content,path,'exec'),{'__name__':'__main__','__file__':path})
           PY
-      # Original payload remains in runner memory; stdout is at most180000 bytes.
+      # Original payload remains in runner memory; stdout is at most660000 bytes.
       # No science, developer suite, artifact, Release, result commit or ref write.

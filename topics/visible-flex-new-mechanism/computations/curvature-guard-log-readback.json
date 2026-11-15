@@ -7,11 +7,10 @@
   "original_source_commit": "6f886c385bdc12c8963d451369c9250fa19a45a0",
   "original_request_bytes": 36687,
   "original_request_sha256": "f85013ec1af5d3e14881412708f14228252d160953f9eddebd78cca281164cc4",
-  "original_log_expected_hash_is_not_known_before_this_first_successful_read": true,
-  "source_sha256": "00e7e1dbfbce5d47e107e627506da32d27488f3a6304709ed62af9d1d4445e61",
+  "source_sha256": "8270802ad2f9292b47430a0091270e844f60c673118d15544e15188ea293bc1d",
   "helper_source_sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
   "workflow_path": ".github/workflows/visible-curvature-guard-log-readback.yml",
-  "workflow_sha256": "09c318a95c1bbd9b425bbb1c24a79cd4b4364c1f512fc26799406e42021a9733",
+  "workflow_sha256": "1eb9b008b5985bce611672520e98124713d6e28382248883482d4027633404bd",
   "expected_readme_blobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
@@ -21,7 +20,7 @@
     "README.md": "5ba164843b1f5802184178a82d786264404873a3",
     "topics/visible-flex-new-mechanism/README.md": null
   },
-  "stdout_byte_limit": 180000,
+  "stdout_byte_limit": 660000,
   "publication_policy": "root-README15-reproducible-outputs-metadata-only",
   "observation_scope": {
     "original_guard_science_executions": 0,
@@ -32,6 +31,12 @@
     "no_payload_file_artifact_release_or_commit": true,
     "semantic_selector_only_copies_original_values": true,
     "metadata_hashes_and_lengths_do_not_certify_mathematics": true,
-    "observed_original_run_success_is_not_a_substitute_for_DEV_or_science_records": true
-  }
+    "observed_original_run_success_is_not_a_substitute_for_DEV_or_science_records": true,
+    "original_log_download_count_is_per_observer_run": true
+  },
+  "original_log_bytes": 7918876,
+  "original_log_sha256": "8ce149f015b3139625e9a3ee887b407977ca4c7ca94387379e98dc986fe730af",
+  "readback_round": 2,
+  "previous_readback_run_id": "43768982932",
+  "previous_readback_scope": "The first observer verified identities and emitted final validation, but the 589111-byte nonreconstructible semantic view exceeded its180000-byte stdout cap; only unread semantic records are now requested, with no research rerun."
 }

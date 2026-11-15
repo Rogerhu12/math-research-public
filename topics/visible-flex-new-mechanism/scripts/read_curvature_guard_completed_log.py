@@ -25,7 +25,7 @@ SCHEMA = "same159-current-best-observed-curvature-defect-primary-guard-v1"
 STAGE = "curvature_defect_guard_stage"
 COMPLETE_STATUS = "complete-two-grid-curvature-defect-guard-audit"
 POLICY = "same159-observed-curvature-defect-primary-guard-v1"
-STDOUT_CAP = 180000
+STDOUT_CAP = 660000
 TEXT_CAP = 1800
 TAGS = (
     "CURVATURE_GUARD_REQUEST", "CURVATURE_GUARD_PUBLIC_PULL",
@@ -331,7 +331,7 @@ def run(args, context):
             and str(req.get("original_job_id")) == JOB
             and req.get("original_source_commit") == SOURCE,
             "only the one completed guard continuation can be observed")
-    require(req.get("stdout_byte_limit") == STDOUT_CAP, "declared180000-byte readback bound required")
+    require(req.get("stdout_byte_limit") == STDOUT_CAP, "declared660000-byte readback bound required")
     context["observer_binding"] = {
         "repository": REPO, "source_commit": source, "source_path": script,
         "source_sha256": reader.digest(source_bytes), "source_bytes": len(source_bytes),
@@ -364,10 +364,13 @@ def run(args, context):
     context["original_job"] = selected(job_obj, (), 0)
     context["original_job_steps"] = [scalars(x) for x in job_obj.get("steps", [])]
     raw, redirects = api.job_log(JOB)
+    require(len(raw) == req.get("original_log_bytes")
+            and reader.digest(raw) == req.get("original_log_sha256"),
+            "original log differs from the first read-only observation digest")
     context["original_log"] = {
         "run_id": RUN, "job_id": JOB, "source_commit": SOURCE,
         "bytes": len(raw), "sha256": reader.digest(raw),
-        "hash_status": "first successful complete byte read; not an invented expected hash",
+        "hash_status": "matches the complete byte digest already read in observer43768982932",
         "downloaded_at": reader.utc_now(), "redirects_without_authorization": redirects,
         "original_log_download_count": 1, "only_in_memory": True,
         "written_uploaded_split_or_committed": False}
