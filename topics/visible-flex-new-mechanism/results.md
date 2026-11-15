@@ -219,3 +219,5 @@
 - [R228：增长曲率偶端口仍受原八包四次障碍](results/R228-growing-curvature-even-germs-retain-the-original-circle-obstruction.md)：d=bh+aσ²新族虽使W_e含σ²，C=ke−a/(2ε)≠0的原六项最高βT_b、β=C²h⁴/(8he⁴)，B~β/(8εσ)。真实分子估计保全部第三局部/chain，K/(hB²)仍同T_b泛函；b0由R193−8c6/λ排所有合法宽度。只延拓消z分母的解析身份，不延物理路径。C0的非零ke例外及一般b/新圆仍未判，禁止把新增三矩维数冒通过。
 
 - [R227：可实现的非零ke二次曲率例外端口](results/R227-realizable-quadratic-k-even-ports-and-the-exceptional-germ.md)：h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/he exp(−εσ²)准确满足水平方程/偶拼接/正H作用。变k的frame变化先由R70末frame三外参IFT支付，再原八M+omega九IFT、全E目标与Morse；原U/完整第三结构/真history及Klein闭合保留。新W准确含σ²，hkG_b为不同最高二阶层；不宣完整quartic/period/ruling通过，零ke中心不在新例外。
+
+- [R229：例外G主算子的准确四次边界身份](results/R229-p2-energy-boundary-identity-for-exceptional-germs.md)：G_b=z²J[z⁴(f/z)″(g/z)″]/8于z>0准确，二次恢复A左尾为z²C_b/8不可删；完整E_b(A,A)+2E_b(q,G_b(q,A))=−(l+b)³C_b(q)²/64。两边原多项式延至全b，合法三复矩使C_b=0而准确消该候选quartic；未支付完整canonical ruling其余相位/次层，不继承R224/R228的T正性。
