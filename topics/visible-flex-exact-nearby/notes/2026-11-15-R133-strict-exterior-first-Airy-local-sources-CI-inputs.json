@@ -1,0 +1,185 @@
+{
+  "kind": "strict_exterior_first_Airy_local_sources_public_CI_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arb_precision_bits": 320
+  },
+  "purpose": "Reuse all successful original root, first-forcing, six amplitude cases, original seams and 75 Taylor stages; compute only strict exterior coefficient/leading derivatives and the true full-output local J P S(Nraw) source.",
+  "mathematical_parameters": {
+    "exact_inner_radius": "9/1000000",
+    "exact_real_delta_radius": "1/100000000",
+    "actual_intrinsic_parameter": "eta_0",
+    "leading_third_phi_strip": "1/32",
+    "local_source_phi_strip": "1/128",
+    "amplitude_output_phi_strip": "1/512",
+    "input_cutoff": 97,
+    "physical_angular_frequency": "4j",
+    "radii": [
+      "1/1000",
+      "1/500",
+      "1/200",
+      "1/100",
+      "3/200",
+      "1/50"
+    ],
+    "source_window": "H^-4/3 -> ordinary radial L2 H^-2/3, first original row only",
+    "true_local_numerator": "Nraw=mu L0 w1",
+    "old_circle_nonlocal_and_independent_even_mean_paid": false,
+    "final_strong_return_or_cutoff97_inverse_claimed": false
+  },
+  "input_paths": {
+    "seam_native": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_seam_operators_ci/run-43625828234-1/consumers/actual-first-Airy-seam-operators.json.gz",
+    "fold_native": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/exact-fold-cancelled-sources.json.gz",
+    "Taylor_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+    "forcing_process": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_forcing_ci/run-43624260519-1/consumers/process.json",
+    "fold_process": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/process.json",
+    "Taylor_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json"
+  },
+  "external_completed_natives": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "run_attempt": "1",
+      "artifact": "visible-exact-piecewise-real-root-fold-resume-v2-43616813816-1",
+      "inner_path": "consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "prepared_path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "forcing",
+      "run_id": "43624260519",
+      "run_attempt": "1",
+      "artifact": "visible-exact-actual-first-Airy-forcing-43624260519-1",
+      "inner_path": "consumers/actual-first-Airy-forcing.json.gz",
+      "prepared_path": "forcing/consumers/actual-first-Airy-forcing.json.gz",
+      "sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+      "bytes": 6577892
+    }
+  ],
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-complex-branch-symmetry-and-old-Taylor-Wiener-tail.md",
+      "bytes": 6744,
+      "sha256": "48940b32d96bd90da2bfe6dda488fbdcb71e021b2e1d063c22ba2417c1aa740e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-old-radial-first-Airy-Taylor-and-complete-Fourier-root-recurrence.md",
+      "bytes": 15707,
+      "sha256": "b816799ebab8350babaef537b756540b80db2482148f41ff39bf46a73a5b686a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_forcing_ci/run-43624260519-1/consumers/process.json",
+      "bytes": 36229,
+      "sha256": "0f4d1dd4b33bf80c40e5ef65a169e0012bfd4f47746a8b7fbe7134557af5b145"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_seam_operators_ci/run-43625828234-1/consumers/actual-first-Airy-seam-operators.json.gz",
+      "bytes": 904977,
+      "sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/exact-fold-cancelled-sources.json.gz",
+      "bytes": 3180936,
+      "sha256": "0ceafc2ba2adb8c1e14ab74c3059b0a0fde39446855df0889dec741f1cb61cfe"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/process.json",
+      "bytes": 36740,
+      "sha256": "67bf926abf9066d8f09dd8fbb16cd439770203b5e551c2fa374ef42f9abfc3b8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
+      "bytes": 52843,
+      "sha256": "18990ac2c1ed8e559d00982b75d663c08ad7e193455de1f8482511c36938b719"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json",
+      "bytes": 48844,
+      "sha256": "eebbbf37419729069c28ef3cd7c7d34f02154b8c391b0cfa9ca093de8855a356"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-old-radial-first-Airy-Taylor-bounds.md",
+      "bytes": 12407,
+      "sha256": "10a52b7464205d14f1224c944639160f7d45f17c7c0ef51c033a1f59895e96f9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-analytic-Airy-columns-and-complete-exponential-Fourier-bound.md",
+      "sha256": "3569172db9568d70fba2973660ceb790fb125432fad1d4823c3fbe422fe4d115",
+      "bytes": 12757
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+      "bytes": 12056,
+      "sha256": "16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md",
+      "sha256": "3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9",
+      "bytes": 17618
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md",
+      "bytes": 12186,
+      "sha256": "55baa5f04d83a170ed422b6266c51e31f55c6471e04a5ac1fcac138eb2406d0c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md",
+      "bytes": 15780,
+      "sha256": "a798e93d73aa64115cb43313985054e0d682a41fd1393f4efea4704301699e3a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-old-radial-transport-and-strict-exterior-first-correction-derivatives.md",
+      "bytes": 14925,
+      "sha256": "557dd24e61fd7b6ab5b41c4d4164b508c46c51b16c5387ea5c716eb4f855dbd7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md",
+      "bytes": 10026,
+      "sha256": "1fe11cfbeece7fd334d24a0259c6156f6245953763664fb09fb1b596e9a4c607"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-third-jet-exterior-and-holomorphic-root-budget-for-first-Airy-residual.md",
+      "bytes": 16695,
+      "sha256": "cc6ab27a1f798a3a8d0dbe773e3f41f987dc4351eb17e9f0e01817b9c5ddfd6b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py",
+      "sha256": "ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6",
+      "bytes": 37219
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources.py",
+      "sha256": "56b68983f36bb3d88e1427081ba9e60a8f6cf43dcd9578a0d925e1834292555d",
+      "bytes": 27569
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold_resume_v2.py",
+      "sha256": "840d7ae96c023f0f1055516cfefe62f22a8f46a3f8a0ea2974553b32760eb112",
+      "bytes": 37715
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_local_sources_CI.py",
+      "bytes": 9191,
+      "sha256": "667b691e7c6eeeab69f90bc17838211614caf489dbc2f1e13fc987b318e27779"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_local_sources.py",
+      "bytes": 50039,
+      "sha256": "e196557e61aa9b83249654a1a81ca3a003ca38e1e07f4ff4fdb19a877f86f4df"
+    }
+  ],
+  "zero_recomputation_contract": {
+    "old_target_FFT_intrinsic_cubic_point_and_ray_stages": 0,
+    "old_complete_forcing_rows": 0,
+    "old_complete_amplitude_cases": 0,
+    "old_Taylor_algebra_stages": 0,
+    "old_seam_operators": 0
+  },
+  "prefix_contract": "Every completed new coefficient row and strict exterior row is saved in its natural coefficient/case prefix before the next row. Resume requires identical full source, manifest, runtime and original native hashes."
+}
