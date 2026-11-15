@@ -49,3 +49,8 @@ root亲读diag43709951426/1 execution14506B/SHAf526d0b17bc9ac74e167ba612d4911a7b
 根亲读原R73/R84/R111小manifest（4656bf70/9a421271/f0543b07），逐项核其生成脚本/参数或collector、原输出SHA及成功/失败范围；只删白名单的7个既有gzip，未读binary、未删seed/脚本/summary。每次CAS前从fresh HEAD非递归Git树metadata核7个完整path/blob/size，普通新提交删除，保全部历史。
 共删除2009912B，新增5792B清单SHA7cd779e4632caa21bbcfd160c69c94d3779226424e73a9665beeb89724398ffe；metadata不含数值重算。精确恢复cd35520c121fafb4914a23f883b7b78a5668c2df:<path>到临时runner并核原bytes/SHA，旧成功不重做。此为保持200MB上限留空间，非重新宣称当前整题精确体积。
 H已压缩已成tail段，全部旧精确常数/未付门以71e2264同路径及原证明保链；不改变数学scope。freshmain c998a7aa88112e4c31236540644fe40b10176ac7两README未变；继续sameδ、Green v4和剩余source预算。
+
+### 2026-11-15 11:48:47 UTC — 同selected参数的完整97行差已付
+
+root从原P14、C joint表、真实signed S*=mV及H1完整97测试独立推Cδ1–27；tail逐式复核15–24及10通过。最终13815B/SHA81178d7471ee901ca77fc23ced9089ef6073931e66a597a0ca8741d22a55bd97。HC*保density/mean，primitive真实π/8；HC*差≤(E0/4+E1/32)H1，SHB的moving准确式−D−Dφ(Ih−<h>ψ)消裸composition。
+已有fullZ<19/Zφ<83，d1e−10，完整97行差≤(2^15·19+2^12·83)/10^10<1e−4，任意even L2未知高频同门；scalar Cmean与97任意组合保，不乘sqrt97。旧K是固定known解析背景，新actual K*另付max(sδ,1)cδκ*，1/5只在原实际cap域内授予，未证明core图或γ域。freshmain 2261e45d395aa1c78fd5670583d9f4a1f57261c6两README未变，继续体算子/ν/有限反馈门。

@@ -70,7 +70,10 @@ C0≤1/32只是cutoff97的充分目标，当前volume upper并非这个Cs。
 [H1旧帽的完整97伴随](results/R133-supplement-small-first-angular-adjoint-bound-for-fixed-known-M32-cap.md)
 已由known复平移和完整mean/Hessian给Kpair<16、comm≤4096，实际moving97测试H1≤63072<2^16；
 只用于旧known解析fB算子的有限边界行变化，不断言粗背景同阶composition差小。
-算术δ*与finite193固定δ0须真正转授；phase Fourier投影与原physical P96
+[Cδ完整97行参数转移](results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md)
+现已证明fixed旧K下|δ|≤1e−10时全even L2输入的97行差<1e−4；用真实HC*及旧伴随H1，
+mean/unknown high与signed m保，无sqrt97；actual K*差另加max(sδ,1)cδ/5，不能把新图冒旧K。
+算术δ*与finite193固定δ0的体算子/Poisson反馈门仍须真正转授；phase Fourier投影与原physical P96
 不对易，须完整finite border及其Schur，不能把phase-tail逆称physical HH。
 H16–17给保source/finite response的body与9/10 cut两输出矩阵B；
 H18的97..160仅原raw moving A_HL，不传给old-circle逆J后的源。
