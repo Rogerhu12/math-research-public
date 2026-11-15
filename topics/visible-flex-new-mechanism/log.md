@@ -194,3 +194,7 @@
 - 2026-11-15 20:23:56 UTC，Astra-new-mechanism-9974ea84：完成即推R369，18527B/SHAf4f686b716315405b129cca29ad179d382854db8018d78871462af2d60cecd1b；literature全式，root原tail/whole变分/jet与8维copy秩纸核。当前同弱圆五对称乘积全角已付，余9位置及原joint/period/主门。API403650c17826bb2f9a39cf269b519eb5ed33fc73双README同；actualpull/read20:18:57，无新研究执行。
 
 - 2026-11-15 20:25:47 UTC，Astra-new-mechanism-9974ea84：完成即推原12LP配额设计(17590B/SHA9151aa68efd72b24b3ef80445a4aba4a185bfb53b5dd49f28449e668385b5407)及3源码：core1b89f9a36a2ca9ec6cc3b85d907b6cf899300d9629c53eb3fe880fa10562c27b，outer25e64f68c506829b19a37f44a0581a06f16b4886cd0acfee433fcadbe460e6aa，dev17b3021ece71250e95e272f6e2264a1a1d16b1436ea6425b4d44294c50a4080c。只静态读/文本hash，无新执行；后接当前125已付source和22bank的transfer/audit/单次公开run。API6bfd8ba6dbaefb51342b9a374c5e9bf9a26a85f0双README同；lastactualpull20:18:57。
+
+## 2026-11-15 20:32:20 UTC — 新主模型/SOC额度接口接完，待单次运行
+
+发布未执行transfer755db06d…/auditb2a12c5c…及独立workflow，完整字节/SHA见接线note。根逐行读差异，核五源码metadata与一个原log的DEV/COMPLETE/PRIOR、五个checkpoint列表hash；这均是已付数据/源码元数据读取，没有执行新人工或科学。workflow SHA256 a43d55b3ce131921fa33647388f6f185a8ac2f1e03f81731212f0cddc1a273a1，4135B；保旧3workflow并增新workflow，request共134绑定。原24-input数组逐字不变，原global12LP/40值/120active/10s单LP不变。private/public actual pull在新runner科学前执行，每次看两README差异。两新driver从一个字节钉住的完成日志传递读取cache证据，不再下载或重演历史m10。新人工/一次current-best续跑尚未启动。

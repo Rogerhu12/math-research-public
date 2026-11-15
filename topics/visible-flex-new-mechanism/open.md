@@ -155,3 +155,7 @@ R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩ta
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
 
 [R345](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)从R340 K0=BP[P,S]/3完整局部式，手解jet流给全生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4。Kn=δnK0、n0..10全部rank-one完整输出局部、pure/全self/Ω0；真实R71的最高H5及NK_n=n(n−11)K_(n−1)给δ11=0且11独立，不假额外W或全R δ闭合。当前R324/R340有理端口实际圆的8×12副本可选11个同基本Af点，g翻号对本局部列无影响；flux=ρj⁵pn(tj)，pn首项C*(−1)^n10!/(10−n)!≠0，准确Vandermonde付m≤11全R^m。更多对应点此模块恰Pol≤10及十一阶差商0，非全部响应的障碍，非同包任意不同点满射。沿R333原E商和全部原型/桥/基准作同一有限截面，(E,F1..Fm)(S)=E(U)×R^m；新全局几何保持实际profiles/芽，再用真正m*的同wc，wholeE/全部二次平台/11点flux联合。它与R343弱Gaussian圆不能未经证明合并。下一其它Af/形状/Ve/整包Ω/仿射尾、两个完整period成员与13同规范，不继续凭对应点数宣全period。
+
+### O2 当前新配额执行接口（2026-11-15 20:32:20 UTC）
+
+[接线补充](notes/twelve-LP-primary-SOC-pair-reservation-implementation-20261115.md)与五源码/独立workflow已发布；134文件绑定包含全部125原脚本、5新脚本和4工作流。下一单独提交request，从run43753280651的exact159/163、22bank及4419/4277有序池恢复，仅四新组和一次current-best延续；原12/40/120/10不改。源码已审不等于人工或实际通过，必须消费本次原日志后再选下一科学步骤，不为等触发重复。
