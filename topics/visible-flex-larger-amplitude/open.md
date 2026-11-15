@@ -16,7 +16,7 @@
 
 [145入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)运行43716379970，保真实124六p与λ=.001、原warm/fallback/last，以当前H、完整576 J/577态/129248行和η1整体候选替换原correction；十次noJ、32轮、2e−9以及338×112/FD/fullDN/finalaudit不减。首正s=1/64真正数学拒绝才结束这一实验，工程异常、未返回及资源停止单列；不得自动盲减半或伪造正λ接受父。后续按真实原输出继续，不停在入口或失败摘要。
 
-### 1B. 真实128射击与末态：150/152在跑
+### 1B. 真实128射击与末态：150/152已付，160/161接修
 
 [R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)、[R321实际140](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付原完整128射击容差及独立逐word replay。140的stage/audit是编译return1，112/338未启动；原stderr已清，不能伪判为预算或数学拒绝。
 
@@ -62,7 +62,9 @@ amplitude继续157实际接线：同持久Decimal50 primal及全3×9×9二阶，
 
 [R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证通量j=w·k、原x导数/port、二幂尺度、Taylor+Duhamel闭管和全部逆像归一hull。[R327实际148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)C1800只1432/1440、10pending及1433..1439后缀完整保，Rout/cut未付；深端112完成，有限头0mode/0panel/0coefficient，exit2来自前置未完，非ODE或共振。
 
-[156入口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)运行43724040548，原13科学源/三输入/query/线性1800/全112及接受门不变，仅C显式3600、E步75/job150。全部四块、pending、原异常读后清；旧cut/raw不当本次输入。下一步按实际全112传播/非零投影范围继续。
+[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)已完整读回run43724040548：C3600内完成1440/六primitive/两query闭域、原cut全部两jet及deep112；whole2609合法粗叶仍欠分辨率。R324 m=2/4/6/8均完整传播到cut但实际高度区间含0，不能形成DN商，也不构成共振反证；m10接受391面板后在共享200000尝试预算止，当前四闭栈、row74..14643及全部m12..224未开始后缀全保。实际170.5882169209999s未触1800s墙钟。四完整块compute/report逐字同；原输出已读后清。
+
+后继保持同C、全112、全部逆像和累计误差；减少面板工作与压窄包围是两项责任，单增预算不支付已完成四列的未决分母。153只传播到自己真实rFar并用非除Robin，有限空间/终端责任不同，不能从156预填153结果。159按原真实profile→BVP继续，162可另改进同C的完整cut传播，不增额外前置门。
 
 ### 3B. 新连续九族与公共u目标误差：151在跑
 

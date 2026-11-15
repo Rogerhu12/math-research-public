@@ -200,3 +200,5 @@
 - [R338：实际150持久128回放及严格exporter编译失败](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)（实际Actions范围）：当前128唯一α1到9.68582474751023176032080482454992093e−11、完整129248残差与576×226独立replay逐word同。后置exporter三冒号/BatchStats歧义导致compile1，230列未起、certificate=null，非预算或区间反证；642成员整树及149stderr行/两字节块完整核。所有native/fullDN/最终证书仍false，161保持原数学源与门重算。
 
 - [R337：实际152完整128回放与末态组件编译阻断](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)（实际Actions范围）：唯一α1达原射击tol，完整129248残差/576×226独立replay逐word同；stage/audit实际三冒号及stage BatchStats歧义compile1，112/338未启动。1291语义成员两整树、16字节段/8流、134stderr行及双job primary全核；未触预算，全native/fullDNfalse。160保持原完整数学责任接独立v2后重算。
+
+- [R339：实际156完整C头及部分112模式cut传递](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)（实际Actions范围）：1440片/六primitive/两query闭域和cut两jet、deep112完成，whole2609粗叶分辨率未付；前四模式cut路径完整但高度盒含0，m10共享200000面板预算止、m12..224未起。四完整块双job逐字同，完整栈/后缀/ledger身份保；非墙钟、共振或全DN结论，与153新far非除Robin范围分开。
