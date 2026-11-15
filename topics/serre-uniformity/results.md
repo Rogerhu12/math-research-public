@@ -435,3 +435,5 @@
 - **R816（已证明）**：[原一般p实cyclotomic尖点域与互素单轨道](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。核原u=24s(2t−1)下降、norm列标签{±n}及算术d^-1，准确cusp域Q(ξ_p)^+；c=(p−1)/2=3m−1与[L:K]=m互素，原Y_L/X_L皆一个cusp闭点。a³=t在每cusp总分歧3且剩余域不变；L截面消失阶均等。未外推p41 Hom/秩一或p单位。proof SHA 9492e526f7ea0098ee9d5889cbfe92391c67840c82736e34aa3e8b4505165642。
 
 - **R813（实际准确完成）**：[两个原Wronskian正规向量](results/R813-certified-original-Wronskian-normal-vectors.md)，run43715253991/source74f5296a。复用690逆，两Q右端432 Dixon位/full820；g/h scale均6724/1，分母828/1931位，core67.613511668秒。完整451ZIP/449manifest/726原输入与冻结verify已核，无本地数学。R815真实输入已齐；不预填Mg/Γ/极理想。结果SHA a2f41569eb7c5017989623b45148e483d9f176a796d3aa423fa9e71d9e9b7738。
+
+- **R818（已证明）**：[原primitive首cusp系数与实际全cusp不分歧Hom存在](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)。互素cyclotomic导子使E^Fp/E1的首Fourier系数泛函为同构，原u_h非零给全部primitive Hodge线char0 cusp非零；由真实L-isogeny的Hom拉回基与R816单轨道，得至少一个实际Hom在全部cusps不分歧。原正twist/CRT/αs/tame项保留，比较尺度只用于非零，不宣称p单位或高度。SHA adf5939ac7bf10186d1eba6b16180df2944941d548dcfe0aeb7808f7d15534ec。

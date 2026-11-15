@@ -95,3 +95,8 @@
 - R811模块generic公开验证激活：root全文核test/workflow/request及helper仅新增的unchanged列复用，独立纸核非平凡消去、双图H/W/长度、四个真实exit97再启动与数学结果逐字SHA；仅公开Actions数学，未本地算。
 - R815已推2a3300a9，真实run43719622321已in_progress；53源IO及core/wrapper主审完成，后继不等generic测试。R813真实结果a2f41569完整登记。
 - 非快进后立即pull/rebase循环，13:33:26.404337UTC已读f2ca3e19，两README无diff。R787/R809继续，R820直接20维cusp评价核证明/工程推进；主目标OPEN。
+
+### 2026-11-15 21:41（Asia/Taipei）｜serre-public-astra-20261115
+- R818纸证登记：root全文核并回读R588/R592/R575/R727/R745，首Fourier泛函在E^Fp/E1上同构，保CRT的−r/6、tame第二项从Q4起和真实u_h非零；明确原Hom比较尺度不被预填。proof adf5939a。
+- 原L-isogeny拉回的真实Hom基张成Hodge，加R816单cusp轨道得到一个原Hom全cusp不分歧；仅char0，未给p单位或同h配对。R819/R821/R823新稿逐条核，不重申R729已有m1结论。
+- R815 run43719622321/source2a3300a9在数学步；R811 generic run43719858329/source3018f798成功，真实四中断均97后恢复、五数学文件同SHAc5cd89b2，完整IO正登记。R787/R809继续，主目标OPEN。
