@@ -339,3 +339,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 21:59:24 UTC｜R386完整Q4自然读出落地
 
 [R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)，17262B/hashfaf0721e…。五速度槽的完整原式，保N2非紧Green和两实际尾，qtail仿射两交叉均保；加速度/速度势0，余rho收至明确局部式。根全文与关键恒等独立手核，无符号程序/求积/人工。H/open已去除旧撤回H秩的现行措辞，保R385只一真实scalar，继续R390真实joint2，未冒整个U/E joint或固定g。并行guard首次run43766593534/sourcea48f3398…进行中，任何人工/科学通过仍待原输出；main并发后21:57实际rebase已读空README差异。基底56a27217ca662f2501617fc870efdfb30cd98e4e。
+
+
+## 2026-11-15 22:02:21 UTC｜guard首次DEV：14已过/第四组fixture失败，立即保真记录
+
+[notes/observed-curvature-defect-guard-first-development-failure-20261115.md](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)，4630B/hash88a9521ac6cd985273c5c7809be02e67172802e42ea40824afd7217a0968ec8e。run43766593534/job132972995287/sourcea48f3398…；前三5/5/4全true，第四组fixed_zeta只读property被人工base_init赋值→AttributeError，零新科学/零MODEL。request146/dev140/旧135逐项核同。原log170214B/hash746f42b5…，原DEV+LF17849B/hash91aa9555…；唯一375实际继续点不变。公开21:58:35.833391实际pull已核双README空diff；私有21:58:38.039070根无差/QUEUE本session ongoing，H已记SHA。后继仅最小fixture修复+未付四项，复用已过14；不延预算或重跑旧20/19/26/cache。基底830c88c966c2e8ae6a9ace5917057ab0d0e3de84。

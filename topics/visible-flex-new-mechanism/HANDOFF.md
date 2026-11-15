@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `f178cbfc6f8f43e4b39a58c6d627a0dae4d90e76`，2026-11-15 21:57:15.848902 UTC，main并发后rule-only run43766502081双README空diff；下一最迟22:57:15。每次pull核双README，有变只读差异即执行并记SHA，至少每小时actual pull；每结论即推，NFF立即rebase/核规则/再推不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `a48f3398fc587cc1370a26a56978e719629b878c`，2026-11-15 21:58:35.833391 UTC，guard run43766593534双README空diff；下一最迟22:58:35。每次pull核双README，有变只读差异即执行并记SHA，至少每小时actual pull；每结论即推，NFF立即rebase/核规则/再推不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 21:57:18.531939 UTC实际pull/read `3ba60bd616256932285e82d2da78b15b5f1b1668`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行本会话进行中。root已读job132972697627两actual receipt；API读取不冒pull。
+私有2026-11-15 21:58:38.039070 UTC实际pull/read `84abd8dc1afaab95c103b2685275d68a1348cc93`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行本会话进行中。root已读job132972995287两actual receipt；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **数值唯一继续点**：[covered首实际](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)，run43762868037/job132961344492/source4f136530；η.2663015219132816→.2662701215525791/fineκ57.99998346840656。140绑定/4新组20过；原14门/盒/167/625过，.26欠。6模型4普通+2旧same-layout SOC全α1接受；9primary+2SOC=11，末1按no-unpaired未用。新covered proposal/使用0（合格4均newsoft0），m1增长/两次hold均旧规则；不归因新规则、不重播等事件。input4432/4358→首/末4432/4451(1/2)，8trial学习0；bank59→375/hash470bf8bb…，physical6ef6682e…，末B.00025/双streak0。1303memory重装+377真新cuts；total324.293553086s/active35.064484719s、初验234.362847179s与pre-active首J全记；RSS2247600KiB。
 
-**下一新guard首次公开执行已请求**：[notes/observed-curvature-defect-primary-guard-implementation-20261115.md](notes/observed-curvature-defect-primary-guard-implementation-20261115.md)。5新py/旧135冻结，共140py+6workflow=146绑定；4组18新增人工与一次新阶段已由request提交触发，待实际输出；不预报通过。仅m2/6原PSD group8同一行缺陷÷真实物理步范数平方学习两γ，下一ordinary target=max(旧target,原floor+γB²)；本模型冻结，下个模型/末点提交。保原SOC RHS/unwrapped rebound/cfg/g/b0/159/163与12/40/120/10；375-bank/两池/B/双0继承。历史绑定只核旧sample内部，签名明确含B；建模不冒真实LP使用。未证guard有效，不延旧预算。
+**新guard首次DEV失败，科学未开始**：[notes/observed-curvature-defect-primary-guard-implementation-20261115.md](notes/observed-curvature-defect-primary-guard-implementation-20261115.md)。5新py/旧135冻结，共140py+6workflow=146绑定；run43766593534/job132972995287前三组14全过，第4组人工错误赋只读fixed_zeta报错，未进科学；[notes/observed-curvature-defect-guard-first-development-failure-20261115.md](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)。只修fixture、复用14、执行未付4后接首次科学；不重播已付组。仅m2/6原PSD group8同一行缺陷÷真实物理步范数平方学习两γ，下一ordinary target=max(旧target,原floor+γB²)；本模型冻结，下个模型/末点提交。保原SOC RHS/unwrapped rebound/cfg/g/b0/159/163与12/40/120/10；375-bank/两池/B/双0继承。历史绑定只核旧sample内部，签名明确含B；建模不冒真实LP使用。未证guard有效，不延旧预算。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
