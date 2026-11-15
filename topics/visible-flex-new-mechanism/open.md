@@ -14,6 +14,11 @@
 
 [旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)、[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)保全部原失败/费用。43728280256六模型η.266401179156→.266381717617；末两网14门/盒过、fineκ57.999983395，12LP用尽非驻点；m3/5 SOC修细曲率/保B，完整norm须自适应cuts。54/106源及同g/b0/159/163已核。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)保旧末态未复现/真17guard与BOM日志读取，只恢复原完整159/163、reference/池/cut来源，不重九段优化，不搬旧A/b或重锚。最新norm-memory/expanded/m10精确状态与下一接口见下方当前节；均未达.26或主1e−6，η不冒δhold。
 
+### O2 当前实际末态与下一新规则
+
+[本次完整实际](notes/soc-pair-reservation-first-actual-result-20261115.md)：run43758666042/job132948276657/sourceaca67097；4新组19checks过，7首全普通步/11primary/0SOC/末1LP原样未用，η.2663015219132816/fineκ57.999987361173226。唯一后继best是physical0c1d344d…、bank59/24cc1f35…、4432/4358完整有序池、B.000125/streak1；原g/b0/159/163、12/40/120/10不改。m7真实inexact修正候选通过；全部原门/旧metric过，.26和主1e−6/连续reach欠。不得重播此阶段等SOC。
+
+下一新子问题由已发生报告支持：m1/2/3/5/6增长的唯一false为新行，而均仅soft witness、两网omitted hard0；研究完整两网affine已覆盖soft行的普通步增长资格，必须保同center/实际总步/完整模型非零预测分母、所有真实学习与hard-shrink优先、原fallback/资源。当前仅待设计，未实现/未验证。
 
 ### 仍须支付
 
@@ -71,6 +76,38 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 下一是该具体代表的全mixed/cross与真实几何有符号控制：不能由所有同profile self零推任意f,g成本零，也不能由线性span推实际半群。沿R302保共享原型基准/整词倒行/history及有限增强IFT，随后原period/同w joint；R304/306被排旧类不因此恢复。不再重复已成完整self成员门。
 
+### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
+
+[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
+
+### 同一偶弱圆的当前Gaussian前沿：余四个完整角函数
+
+R354的全偶反射/正ω桥及R357–360真实母、primitive/Green/有序尾正锥已共同支付全部18面积（72角位置）；R364另付真实C²角商T=Re(Ksh−ρJ)=0，Fnew从起点保全部J/K平移系数。R361、R368、R369、R373逐个完整cubic和真紧变分已支付整个P²/PW/PZ/PY/ZW/W²；R372付ZZ0，ZZ1反射零。R375新增ZY2和YY2，含Yff二次左尾且完整I2两项保证block加法。
+
+当前一套真实正母/五χ/60交替列与同一Fnew、一个有限N的十三行根共同保持全部上述门、弱rank-two核、完整third、Ψ和三directed行。关键来源：[R364](results/R364-local-angular-quotient-and-five-target-control-pay-the-negative-three-minus-one-product.md)、[R372](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)、[R373](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)、[R375](results/R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md)。原十二点正kernel只已证明消位置次数≤10；扩大目标不能超过界而直接沿用。
+
+**下一完整对称函数是ZZ2、ZY0、WY1、YY0。** 四个位置不是独立rank或已知可调scalar；每个须先付完整角商/真primitive/Green，再证同一母与已付Fnew下真实正锥及有限N共同根，不能只加principal或拼不同最终圆。所有profile/支撑/幅盒/N先有限确定，再按R354初选he与ω>Ω的新hook；不能从旧几何继承wholeE/Morse/period，不能当作固定g flex。其余零/一history、canonical第四period、平台/退化flux/端germ和同规范joint仍须另付。
+
+### 自然总通量当前前沿：H主商恰12，十三读出实际可控
+
+R344/352保完整ordered2+2三矩尾定义自然Λ∈(U/R)*，杀R且N协变；R350三个Abar在每个实际状态Λ0。R356真−9/−8全消但不授U层=R；R358真Hγ−7准确−∫r5/57600。R362完整H2三导平方及同锚C²余项给真−6非零，借已付R207消pure得Ω非零，不重旧秩。
+
+[R365](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)已完成全状态Dγ/Dδ、真三矩affine输运，保γ式−dDδ；[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)的全principal为±h^-8∫p(hx+d){L或r}Et²/480，p=z(1+z²)²。六真实平移及任意二阶jet的C²小振荡证明模C²恰12；原真−7非零C²元素属于H像，故完整H像≥13而非恰13。有限求值引理选13固定同窗同锚profile，actual H上满秩。
+
+[R366](results/R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md)的一般m真实桥/快速段/整块倒行/有限ε向量IFT可用于这13读出；含全部原基准、M=T0、scalar/frame、空间Klein闭合及任意ω下界/紧集光滑截面。只付13观察，不免费保wholeE/pure/self或全period；闭正则浸入不是嵌入/reach。不能再说仅一个标量，也不能推出所有U的正半群可达。
+
+[R367](results/R367-exact-N2-Green-contraction-and-nonzero-quartic-velocity-correction.md)的完整非紧Green/有序尾校正必须保；[R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)现完整收原C_A m2、−Yn及P_s、−∂dσ/3，C_A整项抵B_m2N2，余两真尾准确消得真实Qδ4=16Q04∈U、Λ=∫(x+d)r5/80。d0真−6借原R207pure响应校正给Ω=∫xr5/80。
+
+**继续完整H的C²核、Qδ4相对H全像、其它Q4/Q2/静态层和实际联合范围。** 不能因Qδ4是C²就宣H外独立，也不能把线性U成员称实际双号路径；高阶/同g/完整period仍欠。
+
+### R327/R330：把已付端口后的同规范联合门落实到实际列
+
+[R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。继续评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
+
+### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
+
+[R345](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)从R340 K0=BP[P,S]/3完整局部式，手解jet流给全生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4。Kn=δnK0、n0..10全部rank-one完整输出局部、pure/全self/Ω0；真实R71的最高H5及NK_n=n(n−11)K_(n−1)给δ11=0且11独立，不假额外W或全R δ闭合。当前R324/R340有理端口实际圆的8×12副本可选11个同基本Af点，g翻号对本局部列无影响；flux=ρj⁵pn(tj)，pn首项C*(−1)^n10!/(10−n)!≠0，准确Vandermonde付m≤11全R^m。更多对应点此模块恰Pol≤10及十一阶差商0，非全部响应的障碍，非同包任意不同点满射。沿R333原E商和全部原型/桥/基准作同一有限截面，(E,F1..Fm)(S)=E(U)×R^m；新全局几何保持实际profiles/芽，再用真正m*的同wc，wholeE/全部二次平台/11点flux联合。它与R343弱Gaussian圆不能未经证明合并。下一其它Af/形状/Ve/整包Ω/仿射尾、两个完整period成员与13同规范，不继续凭对应点数宣全period。
+
 ### 完整period与同一w joint仍须真正求解
 
 R184/221把固定圆第四可解性写成同一w的仿射联立：V0+2κL_f w=0，以及K0+Bθw在同三矩W。两period成员、五相位45span及48×135增广子式只是完整iff，尚无实际解。不能两式各选一个不同w；pure零不授member。
@@ -85,7 +122,6 @@ G″=(aw″)′+bw′−J(cw)，
 R191共同常平台的全部紧二阶w在ruling商不可见；R195/197给单活动包非零方向但未给整个canonical目标属于像。R219/222八flux真实满射、R244首gap模块及R246十三余兼容也非全joint解。旧这些有限方向不再为目录重复求秩。
 
 旧R187/193、R224/228/232、R249/252/253及R275各被排族的精确范围见原证明；R304新增范围以本节为准。Engman只限S1等变，Freese–Weber另需曲率条件，不能用它们宣一般C²刚性。
-
 
 ## O1：双圆领相位机制，保留备选
 
@@ -104,80 +140,3 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
 根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
-
-
-
-### R325 后续：朝内真实弱核已付原障碍四行
-
-[R325](results/R325-inward-weak-hook-circles-pay-three-directed-rows-and-the-one-history-compatibility.md)在同一个新圆准确支付完整third、A−2−3的三外矩/全θ、三directed及指定完整一层/全θ。朝内反射给面积2LM增长、强isotropic正幅支付后Ψ有严格负首项，真实强宏块给正值，正幅整块组合清Ψ。所有跨完整块真实二次尾消配对已逐原I2证明，初选F★含∫u″4保Ψ不漂；两evenχ×原12交替点的实际R3正锥与有限N全基线根清三行。下一R328仍须新弱强圆其余完整面积/对称乘积、零/一层、其他端口、canonical平台/flux/period及同一规范joint，不把强宏块自身72面积当整个新组合已付。
-
-
-### R327/R330：把已付端口后的同规范联合门落实到实际列
-
-[R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。下一R330评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
-
-
-
-### 数值当前best：覆盖保径首实际完成，下一原预算内SOC机会
-
-[首实际](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)：run43753280651/job132931742484/source52a48854，7models/8trials、12primary LP/0SOC，η.266347520761→.266324155092，fineκ57.999989994。四组26新checks全过，旧科学/人工重跑0；新expanded-retain qualified与后继使用均0，策略未触，不将下降归新法，也不原样再跑等触发。
-
-m5/6各用3inner LP；m6旧growth把B提.00025，m7全步fineκ58.000002383失败（其余原门/下降过、无新行），最后第12LP已耗尽所以SOC0；原half过后B.000125/streak0。当前真checkpoint physical1275ae1da1bdf0779ff143e90b7177613b8011aa56a1781e3c31363ba1996be7，池4419/4277、ordered bank22 hash c952c53a45396f3cdfef89853eb856ffa26f45089703a884e63c1a57956d97f9。18共享值+2末验，active54.926908441s/过程300.339942435s，原cfg/g/b0/159/163/门全保。.26和主1e−6欠；浮点cap微负值按原tol保，不冒连续证书。
-
-[历史m10](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)已付same-y/xrebind普通值0、真J和唯一SOC；旧hold8false及扩池ratio.937958保，历史z更差不回退。五源[设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)/[接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)及旧check均只读消费。
-
-[完整新配额设计](notes/twelve-LP-primary-SOC-pair-reservation-design-20261115.md)及core/recovery/development三源现已冻结发布，尚未执行：剩r≥5/4/3/2时本primary最多3/2/1/1调用，r≤1不起新的不配对primary，可能留下1未用LP。frozen repaired-incumbent/cut最终残差/严格tie全保，仅独立cfg副本下调本调用绝对ceiling，outer/SOC仍12且cfg/hash不改。same-layout接已付charged wrapper，在调用前真实收费，expanded/cache/全部旧guard和半径fallback保。22bank构造器直恢复真正orderedcheckpoint，首factory仍验context/hash；只新4组开发，无HiGHS/geometry/旧check。root已全文核设计/三源及原solver/chargedSOC接口，tail接transfer/audit后唯一新公开运行；收益必须读实际，未触不重复等触发。
-
-
-### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
-
-[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
-
-
-
-### R354–369：同一偶弱圆18面积及五个完整对称乘积已付
-
-[R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)完整反射与同ω下界真实新几何给16矩；R357真母两自由+三维有序锥，R359准确同权商/8列低4锥再接旧门付PY0为17。[R360](results/R360-complete-positive-negative-second-self-and-six-dimensional-middle-cone.md)保完整nonlegal self PY2=−2RY1−2SY1−μ1μ2，原Γ补成T12，真实D三矩才化common；pure商PY2p+2D1p/b=2(a−b)RY1p/b。J=Ksh0的(Q,S,V)三有序锥与真实J/Ksh母三local方向接成12列中6正锥；接R359同权低4及C2得12行24列严格正核。S5幅与PY2残差S−2右逆保旧17，Ψ成本S−2，末同F★全72零控制器付Ψ/三F。**同一个实际偶弱圆全18面积外矩、72角位置零**，弱rank-two和完整third保。
-
-全部母/支持/尺度/频率有限，之后初选he与ω>Ω的真实闭hook几何；新seed/g不继承另一几何wholeE/Morse/period/joint。R355正域补偿、R347窄半平面/R351未补矩核各保原范围。[R361](results/R361-even-weak-circles-and-three-oscillation-shapes-pay-the-negative-three-square.md)已按原真尾反射+面积/F1清整个PW；PP1全偶0/PP2=F0，新增完整PP0=−∫(f″²)′Dρ′。明确正解析母finite-jet Δ=−30，与F★最大minor沿同一多项式线兼容；三χ的三常行+二次位置给36真实列R4正锥，finiteN/C1根保18面积、Ψ、三F并指定PP0=τsin²。τ0付整个P²，τ非0证旧门不自动蕴含它。[R364](results/R364-local-angular-quotient-and-five-target-control-pay-the-negative-three-minus-one-product.md)已付整个PZ：先从原DF与真primitive端项得到Ξ=2(d+e)Re(Ksh−ρJ)，ρ=28e/[15(d+7e)]，不能凭C²或旧面积删去。R357真两形与R359商det=(a−b)(d²+de+4e²)/[3(d+7e)]非零；10列低5+12中6+4高2得13×26正锥，S5正幅/ΨS−2保18并清新角商。Fnew从起点显式保J/K全部≤1平移系数，末强块自身局部商0；同regular正母三χ/实际copy使PZ2 x4r²首项6e≠0，36列五维正锥/有限N真根同付PP0、三F与PZ2值，故**同一最终弱圆完整P²/PW/PZ全角零**。[R368](results/R368-two-exact-cubic-identities-and-seven-target-control-pay-the-PY-product.md)已共同付整个PY：原F_P0=F_Y2≡0（Y全J2/跨负轴IBP无u/x）合法紧方向变分给whole QPY0=−I0(Pff,YD)−A0、QPY2=−I2(Yff,PD)+A2。原面积零后整角准确线性D，不需新未知C²角商。旧五行加PY0/2，作PZ2+6ePY0后六/四次、两条二次、三常行确证7维；同母三χ、36实际交替列正核/同Fnew有限N七根，保R364 T/18面积/Ψ/三F，最终P²/PW/PZ/PY四乘积全角零。[R369](results/R369-vanishing-first-cubic-and-eight-target-control-pay-the-ZW-product.md)现付完整ZW：原FL1/FU1/FZ1恒零，保P真左常尾/紧outer两次IBP，whole QZW1=−I1(Zff,WD)−area，旧面积后全角一sin²值，j0/2真反射零。新四χ的(R,V,U,V²)由正母四比值Taylor minor720实际实现，并同Fnew最大minor；原行变换PZ2+6ePY0和ZW1−(a+b)PZ2给2高次+3二次+3常量满8，48实际列正核/同finiteN八行根保全部18面积/R364T/Ψ/三F和旧P²/PW/PZ/PY。当前五个完整对称乘积同点全角零，余8位置（R372已付ZZ0）非rank：ZZ0,2/ZY0,2/WW0,2/WY1/YY0,2，R372续真C²角商。所有有限选择后才he/新几何；其它零/一history/全period/同gauge/README主门未付。
-
-### R344–363：自然总通量商、真非零层与一个实际双向控制
-
-R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩tail映射定义整个U的辅助无关Λ，杀R且保N协变。R350三个全状态AbarΛ0，R356全U最低−9/−8的Σ/真实仿射尾与总Ω零；都不重旧根、R342窄族或秩。
-
-[R358](results/R358-nonzero-total-flux-class-of-a-true-velocity-acceleration-cost.md)原H1/H2的V*=−2H1−4H2在S*真属U，Λ(Π−7V*)=−∫u″5/57600。c2必须保第二history导数，ZZ原P/B与两ordered tail全留；R129/130/134正规curl及真权桥，三偶bump给非零，故U/R≠0，非半群障碍。
-
-[R363](results/R363-actual-two-sided-total-flux-control-with-zero-lower-history-and-spatial-closure.md)现对固定真实u的这一自然Λ付实际有限标量满射：受控ω域S_B=(1,B,B)，ψ偶/δ速度σψ′、τ=ε³ᐟ²，M=O√ε而H通量ε⁻³ᐟ²(cσ+O_C1ε)，所有Abar在真实状态Λ0。R70/R354固定光滑端口/frame/M桥成本有界；总M0后才用R109，再真倒行准确清第三，第四为同号2倍。一个有限ε上σ单调给Λ(S)=R与紧目标光滑实际截面，固定桥/Klein八词另付空间闭合，原基准与物理域全保。**只一个标量；其它wholeE/pure/self/通量会变，未付联合控制或全部period。**
-
-[R362](results/R362-full-H2-C2-remainder-and-nonzero-weight-minus-six-pure-kernel-flux.md)已给完整H2：唯一三导平方为(1/1920)∫xQ²r(ur−v²/2)t²，ℒ与BL Kγδ−2AL Kδδ的两个j及所有outer线性t真降C²。真−6分量在固定正窗口有限高频非零；仅引用R207已付三pure基坐标减Rπ，得W6⁰∈U−6∩kerπ且Ω=Λ非零，准确关闭R338。−4/−2为同一原式推论，未称wholeQ/单路径。[R365](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)已完成H全状态：全部Dγ/Dδ C³²主式及同锚C²/真尾明确，正affine三矩与H²Λ协变给ΛH2=hDδ(uS)/15、ΛH1=−2(Dγ+kDδ)(uS)/15。两个轨道不是二维秩/全U；[R367](results/R367-exact-N2-Green-contraction-and-nonzero-quartic-velocity-correction.md)已准确读原N2响应：外槽D³自伴、非紧变分额外−Green、正式pure和真正有序2+2给Λhat B_EN=8(S+2aLα+2G/3)/5；δ方向完整三项为−∫eQ²r³t²/80+∫e(9+e²)r5/2400+∫er³(M−μ)/240，真C²余项/有限高频证非零。它是必须保的ambient校正，不假单项∈U/不冒整个Q4；R370继续原C_A·m2、D0P3v及真正Q4/Q2，[R366](results/R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md)已完成一般满秩H观察的实际向量控制，并明确给7个独立自然Λ：真−7..−1的H列由同一三bump负J²母/一次有限高频u检出，7正缩放给Vandermonde满秩；全状态AbarΛ0、真实微段/有界桥/M0/整块倒行/有限ε向量IFT实现任意R7目标，固定基准Klein词保空间闭合。没有假全权E(U)=E(R)，不保未列观察或固定g。继续R367完整Q2/Q4、全period/规范联合门。静态/速度二四次的N0/N2仍留；当前弱圆所有真实平台、逐活动flux、两period成员及同规范13行仍欠。更高阶与最终嵌入/reach/幅度继续。
-
-
-### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
-
-[R345](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)从R340 K0=BP[P,S]/3完整局部式，手解jet流给全生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4。Kn=δnK0、n0..10全部rank-one完整输出局部、pure/全self/Ω0；真实R71的最高H5及NK_n=n(n−11)K_(n−1)给δ11=0且11独立，不假额外W或全R δ闭合。当前R324/R340有理端口实际圆的8×12副本可选11个同基本Af点，g翻号对本局部列无影响；flux=ρj⁵pn(tj)，pn首项C*(−1)^n10!/(10−n)!≠0，准确Vandermonde付m≤11全R^m。更多对应点此模块恰Pol≤10及十一阶差商0，非全部响应的障碍，非同包任意不同点满射。沿R333原E商和全部原型/桥/基准作同一有限截面，(E,F1..Fm)(S)=E(U)×R^m；新全局几何保持实际profiles/芽，再用真正m*的同wc，wholeE/全部二次平台/11点flux联合。它与R343弱Gaussian圆不能未经证明合并。下一其它Af/形状/Ve/整包Ω/仿射尾、两个完整period成员与13同规范，不继续凭对应点数宣全period。
-
-### O2 当前实际末态与下一新规则
-
-[本次完整实际](notes/soc-pair-reservation-first-actual-result-20261115.md)：run43758666042/job132948276657/sourceaca67097；4新组19checks过，7首全普通步/11primary/0SOC/末1LP原样未用，η.2663015219132816/fineκ57.999987361173226。唯一后继best是physical0c1d344d…、bank59/24cc1f35…、4432/4358完整有序池、B.000125/streak1；原g/b0/159/163、12/40/120/10不改。m7真实inexact修正候选通过；全部原门/旧metric过，.26和主1e−6/连续reach欠。不得重播此阶段等SOC。
-
-下一新子问题由已发生报告支持：m1/2/3/5/6增长的唯一false为新行，而均仅soft witness、两网omitted hard0；研究完整两网affine已覆盖soft行的普通步增长资格，必须保同center/实际总步/完整模型非零预测分母、所有真实学习与hard-shrink优先、原fallback/资源。当前仅待设计，未实现/未验证。
-
-### R372 已付，余项继续
-
-[R372](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)完整真primitive角商与48列九行有限根付ZZ0；ZZ2未付。
-
-### R370 已付，完整层继续
-
-[R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)完整δ⁴含所有history/势/真尾给Λ=∫(x+d)r5/80；Q2/其它Q4、相对H全像/actual联合未判。
-
-### R371 已付，完整C²核继续
-
-[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)全H模C²恰12、全像≥13；13固定自然读出actual闭路可全指定，非全U/固定g flex。继续H的C²核及Q层/joint。
-
-### R373 已付完整W²，继续六个位置
-
-[R373](results/R373-complete-W-square-angular-quotients-and-eleven-target-control.md)保WW0/2完整cubic、A2与真实尾，原PZ0和R372五积分比清两角商；五实际χ/60列的11维正锥和同一有限N精确根同时保持原九行/18面积/T/Ψ/三F。现在余ZZ2、ZY0/2、WY1、YY0/2；尤其ZZ2的真C²角商仍欠，不能用新增principal冒称零。
-
-### R375 已付ZY2/YY2，继续四个完整角函数
-
-[R375](results/R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md)保Yff二次左尾与I2两项，FY2≡0沿真紧ZD/YD变分使两全角线性D；旧面积/12副本后只余两sin²值，无新C²角商。位置8/10最高项独立于旧11行，五χ/60列原正kernel恰覆盖≤10，同有限N十三根保持所有旧门。当前余ZZ2、ZY0、WY1、YY0；不称四个可自由调scalar，先另付各完整角商。period/history/joint继续。

@@ -228,3 +228,7 @@ R373 blob e22331c2…，18393B，SHA256 ff72d7bd482c70dfc479ac821c540b3d6a465a6d
 ## 2026-11-15 20:43:01 UTC — 消费本轮原实际后立即发布，转下个新问题
 
 小UTF8 actual-note blob a28c0ef8…，16801B，SHA256 bd650025fcfd3af84e4ae6a10c79a4017daecc5e514ca826e1a725d07805586e。tail与root各一次取原log，root独核七trial首全接受/11LP/0SOC/末1、四组19checks、m7真实gap false、pool/bank/physical/末streak、gates与费用边界；DEV/actual全部130脚本hash与134请求逐项同。原log/DEV/COMPLETE hash已在note，原payload不入Git。两actualpull已先记H，README无差。明确m1/2/3/5/6原growth唯一false均soft新行，后继单独新设计已覆盖soft普通步growth；不重原策略等事件、不增预算、不把η当δhold。R371也收到mechanism对h^-8/商12/13有限求值→一般m实际范围的独核，无缺口；R374另核Qδ4相对完整H，待全稿。
+
+## 2026-11-15 20:44:39 UTC — 校准当前open与H交接边界
+
+将已完成数值旧‘尚未执行’入口及Gaussian/自然通量阶段叙述归并到对应O2/O4当前前沿；原完整证明、实际note和Git历史均保留。open只保当前59bank末态/下一新规则、四完整角函数、H的C²核/Q层及全部未付period/joint/README门，避免把历史‘下一’误作当前欠账。H精简已付过程并保原12点次数界/同一有限圆/actual与span区别。此为文本文档维护，没有科学或人工执行。
