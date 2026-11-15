@@ -1,0 +1,284 @@
+name: visible-larger request157 complete9 Decimal50 residual quadratic square
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-nine-control-decimal-residual-quadratic-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-nine-control-decimal-residual-quadratic
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Full nine-dimensional residual quadratic model with real straight trials
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      chain_summary: ${{ steps.chain.outputs.chain_summary }}
+      chain_summary_bytes: ${{ steps.chain.outputs.chain_summary_bytes }}
+      chain_summary_sha256: ${{ steps.chain.outputs.chain_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish independent temporary metadata paths
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-nine-control-decimal-residual-quadratic"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-nine-control-decimal-residual-quadratic" >> "$GITHUB_ENV"
+        echo "VISIBLE_INPUTS=$RUNNER_TEMP/visible-nine-control-decimal-residual-quadratic/original-inputs" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install original projection runtime; Decimal is standard library
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind actual154 persistent parent,107 sources,9 supports and four original inputs
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        input_root=Path(os.environ['VISIBLE_INPUTS']);input_root.mkdir(parents=True,exist_ok=False)
+        raw=(comp/'public-nine-control-decimal-residual-quadratic-request.json').read_bytes();request=json.loads(raw)
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==157
+        assert request['schema']=='public-nine-control-persistent-decimal50-residual-quadratic-square-request-v1'
+        assert request['lanes']==['smallcoreresonance']
+        assert request['execution_entry']=='geometry_20261115_nine_control_decimal_residual_quadratic_temporary_batch.py'
+        assert request['scientific_entry']=='geometry_20261115_small_core_nine_control_decimal_residual_quadratic_recipe.py'
+        wanted_new=json.loads(r'''{"geometry_20261115_nine_control_decimal_residual_quadratic_trust.py":"ef61c5f19370a302b198901a7691fda31ed0a6619d9f9dcafc147f6b1bdc3180","geometry_20261115_small_core_nine_control_decimal_residual_quadratic_recipe.py":"54167dff0ce67e9f8fe0fa5d2899c35f0f99534077f2530d90b296eee7537100","root_20261115_nine_control_decimal_residual_quadratic_scalar_readout.py":"a49ebce03156e8ee620ea7cab62e51c32f2a924458ad6d2320e85cf91398897d","geometry_20261115_nine_control_decimal_residual_quadratic_temporary_batch.py":"c992f30af23a94535a6dff70342172f5a066498c77e53a15e60e0e2222ac90f8","geometry_20261115_nine_control_decimal_second_variation.py":"ad568abc8bf35003375d80e303c44df6dcb2f1c75fd41163cf5c0f423ba321a1"}''')
+        for name,digest in wanted_new.items():
+         assert request['source_sha256'].get(name,request['workflow_support_source_sha256'].get(name))==digest
+        assert request['batch_chain']==json.loads(r'''{"max_batches":1,"one_atomic_eight_direction_child":true,"reset_initial_relative_radius":true,"carry_actual_radius":false,"explicit_exploration_radius":"0.01","separate_primary_and_fallback_budgets":true,"extra_numeric_acceptance_or_continuation_gate":false}''')
+        expected=json.loads(r'''{"parameters":["0.30552141421813587451511124647832115183365931393255","0.21644994882174284564428467846307106691034173126682","0.34270115519083356085666200795448211747040865537076","-0.063223397664120006022611230482040760191219350613381","-0.017474484994182094846554068297420896682316648212971","0.93761127574242591532855416219549982285362989617547","1.0751308300363195964465271254236787053010018303407","0.68868929652522927733976315755005254248094417316641","0.93853619119844242504207635330603652071213943405455"],"initial_relative_radius":"0.01","decimal_digits":50,"rounding":"ROUND_HALF_EVEN","candidate_steps":8,"backtracks":20,"normal_iterations":12,"normal_backtracks":20,"normal_target_tolerance":"1e-8","candidate_resonance_tolerance":"1e-8","interval_bits":160,"interval_depth":14,"original_mesh_nodes":699,"field_modes":112,"tail_modes":112,"original_low_modes":3,"physical_angle_grid":2048,"material_and_boundary_angles":4096,"original_RHS_workers":1,"original_algorithmic_epsilon_is_retained_binary64_constant":true,"parent_relative_radius_provenance":"0.000078125","primary_backtracks":20,"separate_fallback_backtracks":20,"maximum_outer_trials_per_direction":40,"primary_path":"residual-quadratic-square-straight-line","primary_second_response_shape":[3,9,9],"first_response_axes":9,"second_symmetric_pairs":45,"complete_inner_polynomial_solver":{"complete_relative_dimension":9,"complete_residual_dimension":3,"maximum_model_updates":32,"model_backtracks_per_candidate":20,"candidate_slots_per_update":21,"complete_residual_QR_solves_per_update":1,"shift_bracket_trials":32,"shift_bisections":32,"Jacobi_sweeps":64,"finite_search_not_global_polynomial_optimum":true,"no_new_original_primal_calls_inside_polynomial_optimizer":true,"all_model_candidates_and_unvisited_indices_retained":true,"original_physical_acceptance_unchanged":true}}''')
+        assert request['diagnostic']==expected
+        policy=json.loads(r'''{"initial_relative_trust_radius":"0.01","parent_radius_is_provenance_only":true,"primary_path":"complete-nine-residual-quadratic-square-straight-line","fallback":"original149-complete-GN-normal-only-if-primary-fails-or-all20-reject"}''')
+        assert request['exploration_policy']==policy
+        for path,blob in request['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed: read and apply actual rules'
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(line.startswith('规则同步记录：'.encode()) for line in handoff.splitlines())==1
+        for group,count in [('source_sha256',107),('workflow_support_source_sha256',9)]:
+         assert len(request[group])==count
+         for name,digest in request[group].items():
+          assert PurePosixPath(name).name==name
+          b=(comp/name).read_bytes();assert hashlib.sha256(b).hexdigest()==digest,name
+          if name.endswith('.py'):compile(ast.parse(b,filename=name),name,'exec')
+        origin=request['source_closure']['origin_producer'];current=request['source_closure']['current_producer']
+        assert len(origin)==39 and len(current)==41
+        added=["geometry_20261115_nine_control_decimal_residual_quadratic_trust.py","geometry_20261115_small_core_nine_control_decimal_residual_quadratic_recipe.py"]
+        assert current=={**origin,**{name:request['source_sha256'][name] for name in added}}
+        assert all(request['source_sha256'][name]==digest for name,digest in current.items())
+        item=request['parameter_recipe'];recipe_raw=(repo/item['file']).read_bytes()
+        assert len(recipe_raw)==3184==item['bytes']
+        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='2dba85467fd34435efc0a4f44ed0335c787c049a6095735b955ad365aa62f49f'
+        recipe=json.loads(recipe_raw)
+        assert recipe['schema']=='R259-explicit-nine-control-decimal50-residual-quadratic-exploration-recipe-v1'
+        assert recipe['literal_parameters']==request['diagnostic']['parameters']
+        assert len(recipe['literal_parameters'])==9 and all(type(x)is str for x in recipe['literal_parameters'])
+        assert recipe['origin']==item['origin']==request['actual154_source_provenance']['origin']
+        assert recipe['origin']==json.loads(r'''{"repository":"Rogerhu12/math-research-public","run_id":"43724606619","source_commit":"2a4ce61f26a2f9d6f0f2729e037ee6c0b8220e5b","producer_file":"geometry_20261115_small_core_nine_control_decimal_curvature_recipe.py","producer_sha256":"3d59811078d82110449216a8ab5dadf905c435e1e45085b96f6d1c8fa04eb0c4","producer_schema":"R259-nine-control-persistent-decimal50-ambient-curvature-trust-v1","status_bytes":5917531,"status_sha256":"b4c1e07a3d81dd8eb64f3ba28a889f2868accd3b666c14c3deb4ddccef835e83","log_summary_bytes":88658,"log_summary_sha256":"7e03106069419b6d701bc0b86479c96fbf9615bdb8b761e01142110bd6ab5fed","parameter_field":"final.parameters","radius_field":"final_relative_trust_radius"}''')
+        assert recipe['algorithm_state']==item['algorithm_state']==json.loads(r'''{"relative_trust_radius":"0.000078125"}''')
+        assert recipe['exploration_policy']==item['exploration_policy']==policy
+        assert recipe['precision']==item['precision']=={'decimal_digits':50,'rounding':'ROUND_HALF_EVEN','parameter_encoding':'finite-decimal-strings'}
+        assert request['diagnostic']['initial_relative_radius']=='0.01'
+        assert request['diagnostic']['parent_relative_radius_provenance']==recipe['algorithm_state']['relative_trust_radius']
+        assert recipe['family']==item['family']
+        assert recipe['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        history=request['original_input_history_commit']
+        assert history=='8bd267107cc8710d371f3b62c02986655ac965b0'
+        subprocess.run(['git','fetch','--filter=blob:none','--no-tags','origin',history],check=True)
+        paths={}
+        for key,item in request['inputs'].items():
+         rel=PurePosixPath(item['file'])
+         assert not rel.is_absolute() and '..' not in rel.parts and str(rel).startswith('topics/visible-flex-larger-amplitude/')
+         b=subprocess.check_output(['git','show',history+':'+str(rel)])
+         assert len(b)==item['bytes'] and hashlib.sha256(b).hexdigest()==item['sha256']
+         p=input_root/(key+'-'+rel.name);p.write_bytes(b);paths[key]=str(p)
+        (out/'original-input-paths.json').write_text(json.dumps(paths,sort_keys=True)+'\n')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request157-source-input-identity',source_commit=head,request_sha256=hashlib.sha256(raw).hexdigest(),source_count=107,workflow_support_source_count=9,origin_child_source_count=39,current_child_source_count=41,parameter_recipe_sha256=request['parameter_recipe']['sha256'],actual154_persistent_parameters_from_published_recipe=True,parent_radius_is_provenance_only=True,explicit_exploration_radius='0.01',parent_state_J_Hessian_merit_FD_not_reused=True,math_inputs_restored_under_RUNNER_TEMP=True,scientific_model_not_executed_in_this_metadata_step=True,raw_output_retention=False)),flush=True)
+        PYPINS
+    - name: Restore original78 public numerical source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'nine-control-decimal-residual-quadratic-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Persistent Decimal50 full3 residual-square model,real trials and original fallback
+      id: science
+      timeout-minutes: 75
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve();repo=Path(os.environ['GITHUB_WORKSPACE']);out=Path(os.environ['VISIBLE_OUT'])
+        request_path=comp/'public-nine-control-decimal-residual-quadratic-request.json'
+        request=json.loads(request_path.read_text());request_sha=hashlib.sha256(request_path.read_bytes()).hexdigest()
+        if Path(runner.__file__).resolve()!=comp/'root_20261114_current576_rules_runner.py':
+         raise ValueError('Use the frozen original metadata runner')
+        wanted_source=request['workflow_support_source_sha256']['root_20261114_current576_rules_runner.py']
+        if hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()!=wanted_source:
+         raise ValueError('The original rules runner source changed')
+        wanted=request['reviewed_README_blobs']
+        if set(wanted)!={'README.md','topics/visible-flex-larger-amplitude/README.md'}:
+         raise ValueError('Both reviewed rules identities are required')
+        baselines={}
+        for name,expected in wanted.items():
+         raw=(repo/name).read_bytes()
+         blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+         if blob!=expected:raise ValueError('Reviewed README changed: '+name)
+         baselines[name]=dict(blob=blob,text=raw.decode())
+        old={name:item['blob'] for name,item in runner.BASELINES.items()}
+        runner.BASELINES=baselines
+        print(json.dumps(dict(event='request157_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_true_pull_rebase_diff_and_stop_on_changed_rules_retained=True)),flush=True)
+        argv=[sys.executable,'-u',str(comp/request['execution_entry']),
+         '--request',str(request_path),'--request-sha256',request_sha,
+         '--repository-directory',str(repo),
+         '--original-input-paths',str(out/'original-input-paths.json'),
+         '--rules-directory',str(out/'rule-sync'),
+         '--out',str(out/request['output_directory'])]
+        print(json.dumps(dict(event='request157_actual_experiment_argv',argv=argv,
+         actual_initial_parameters=request['diagnostic']['parameters'],
+         actual_initial_radius=request['diagnostic']['initial_relative_radius'],
+         arithmetic='Decimal50/ROUND_HALF_EVEN, exact original64 coefficient lifts',
+         all_subsequent_owner_updates_remain_high_precision=True,
+         full3_unweighted_original_Armijo_and_all_nine_columns_retained=True,
+         primary20_and_separate_fallback20_trial_budgets=True,
+         original12x20_normal_only_in_fallback=True,
+         complete3x9x9_Hessian_and_all54_second_axis_checks=True,
+         parent_radius_recorded_but_new_exploration_radius_explicit=True,
+         original54_FD_Arb_and453circle_checks_at_declared_binary64_projection=True,
+         projection_never_replaces_persistent_owner=True,
+         highprecision_forward_and54_FD_are_additional_current_point_readbacks=True,
+         no_new_rank_or_inner_target_gate=True,native_or_nonzero_field_completion_not_claimed=True,
+         scientific_source_sha256=request['source_sha256'][request['scientific_entry']])),flush=True)
+        sys.argv=[runner.__file__,'--out',str(out/'rule-sync'),'--command',*argv]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Read all eight planned directions or honest partial; never rerun science
+      id: chain
+      if: always()
+      run: |
+        python "$VISIBLE_COMPUTATIONS/geometry_20261115_nine_control_decimal_residual_quadratic_temporary_batch.py" \
+          --report-only \
+          --out "$VISIBLE_OUT/nine-control-decimal50-residual-quadratic-temporary-batch" \
+          --rules-directory "$VISIBLE_OUT/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}"
+    - name: Preserve complete original child errors before temporary cleanup
+      if: always()
+      run: |
+        python - <<'PYERRORS'
+        import hashlib,json,os
+        from pathlib import Path
+        root=Path(os.environ['VISIBLE_OUT'])/'nine-control-decimal50-residual-quadratic-temporary-batch'
+        chain=root/'chain-metadata.json'
+        value=json.loads(chain.read_bytes()) if chain.is_file() else {}
+        names=['producer-stderr.txt','reader-stderr.txt']
+        if value.get('child_exit_code')!=0:
+         names.append('producer-stdout.txt')
+        for name in names:
+         path=root/name
+         if not path.is_file():continue
+         raw=path.read_bytes();whole=hashlib.sha256(raw).hexdigest()
+         count=max(1,(len(raw)+11999)//12000)
+         print(json.dumps(dict(event='request157-complete-child-log-identity',file=name,bytes=len(raw),sha256=whole,parts=count,transport='Each text uses UTF-8 surrogateescape; concatenate encode(utf-8,surrogateescape) by exact byte range to reconstruct original bytes',no_scientific_evaluation=True),ensure_ascii=True),flush=True)
+         for part in range(count):
+          start=12000*part;piece=raw[start:start+12000]
+          record=dict(event='request157-complete-child-log-part',file=name,file_bytes=len(raw),file_sha256=whole,part=part,parts=count,byte_start=start,byte_stop=start+len(piece),bytes=len(piece),sha256=hashlib.sha256(piece).hexdigest(),utf8_surrogateescape_text=piece.decode('utf-8','surrogateescape'))
+          encoded=json.dumps(record,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii')
+          if len(encoded)>90000:raise ValueError('Complete error-text segment exceeds bound; do not claim complete transport')
+          print(encoded.decode('ascii'),flush=True)
+        PYERRORS
+    - name: Remove only this request temporary inputs, source cache and scientific payloads
+      if: always()
+      run: |
+        python - <<'PYCLEAN'
+        import json,os,shutil,stat
+        from pathlib import Path
+        runner=Path(os.environ['RUNNER_TEMP']).resolve();base=Path(os.environ['VISIBLE_OUT'])
+        targets=[base/'nine-control-decimal50-residual-quadratic-temporary-batch',base/'original-inputs',runner/'nine-control-decimal-residual-quadratic-original-source']
+        removed=[]
+        def own_tree_writable(path):
+         if path.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+         for parent,dirs,files in os.walk(path,topdown=True,followlinks=False):
+          p=Path(parent);s=p.lstat()
+          if s.st_uid!=os.getuid():raise PermissionError('Cleanup only request-owned trees')
+          os.chmod(p,stat.S_IMODE(s.st_mode)|stat.S_IWUSR|stat.S_IXUSR)
+          for name in dirs+files:
+           child=p/name;s=child.lstat()
+           if stat.S_ISLNK(s.st_mode):continue
+           if s.st_uid!=os.getuid():raise PermissionError('Cleanup only request-owned entries')
+           os.chmod(child,stat.S_IMODE(s.st_mode)|stat.S_IWUSR|(stat.S_IXUSR if stat.S_ISDIR(s.st_mode) else 0))
+        for target in targets:
+         if target.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+         target.resolve().relative_to(runner)
+         if target.is_dir():
+          own_tree_writable(target);shutil.rmtree(target);removed.append(str(target.relative_to(runner)))
+        print(json.dumps(dict(event='request157_temporary_scientific_payloads_removed',relative_directories=removed,compact_chain_index_step_precedes_cleanup=True,readout_success_not_inferred_from_cleanup=True,raw_artifact_or_Release_upload=False)),flush=True)
+        PYCLEAN
+  report:
+    name: Bounded index; complete Hessians,all paths and FD remain in compute log
+    needs:
+    - compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+    - name: Print bounded original chain index and exact output SHA
+      env:
+        CHAIN_SUMMARY: ${{ needs.compute.outputs.chain_summary }}
+        CHAIN_SUMMARY_BYTES: ${{ needs.compute.outputs.chain_summary_bytes }}
+        CHAIN_SUMMARY_SHA256: ${{ needs.compute.outputs.chain_summary_sha256 }}
+        COMPUTE_RESULT: ${{ needs.compute.result }}
+      run: |
+        python3 - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('CHAIN_SUMMARY','')
+        if not text:
+         payload=dict(schema='request157-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
+         raw=json.dumps(payload,sort_keys=True,separators=(',',':')).encode()
+        else:
+         raw=text.encode('utf-8')
+         if len(raw)>90000:raise ValueError('Compute job output exceeded the explicit small summary bound')
+         if len(raw)!=int(os.environ['CHAIN_SUMMARY_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['CHAIN_SUMMARY_SHA256']:
+          raise ValueError('The original compute-to-report JSON output identity changed')
+         json.loads(raw)
+        print('BEGIN_VISIBLE157_CHAIN_SUMMARY')
+        print(raw.decode('utf-8'))
+        print('END_VISIBLE157_CHAIN_SUMMARY')
+        print(json.dumps(dict(event='visible157-chain-summary-sha256',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'])),flush=True)
+        PYREPORT

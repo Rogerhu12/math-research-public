@@ -41,3 +41,7 @@
 ## 2026-11-15 15:19:30 UTC /root — R339实际156完整域及有限头原失败现场
 
 [R339](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)完整读回即发：C1440/六primitive/两query域、cut两jet和deep112齐，whole2609粗叶未付；前四cut列分母未隔零，第五m10共享200000面板预算止，所有四栈/空间及模式后缀完整保。双job四块逐字同，未冒共振或153结果；159真BVP继续，162改进保全原数学责任。151前13步已过并进完整target；API核7f400aefcd80f396fbaf54308bb8acd02a1028fa双README未变，真pull行保留。
+
+## 2026-11-15 15:20:12 UTC /root — request157全九维残差二次平方模型入口
+
+[157接口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)八件完整源/差异读完即发：真154末九p50/newΔ=.01，原104+8pins全留→107+9、执行39→41，原四输入不变；32内更新×21槽及完整模型回溯，外层原20档/c_A/域/normal/162FD/Arb/453/full112保。修正workflow唯一recipe长度断言3188→3184并核新身份，数学四源未改；science75/job90/readback10，全部原模型/trial字段完整读回，未预填结果。API核87c131f1cda02a90da5d66e8c8c9ad440d6f9f25双README未变，真实pull行保留。

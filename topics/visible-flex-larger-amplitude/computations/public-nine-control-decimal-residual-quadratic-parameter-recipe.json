@@ -1,0 +1,93 @@
+{
+  "schema": "R259-explicit-nine-control-decimal50-residual-quadratic-exploration-recipe-v1",
+  "origin": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43724606619",
+    "source_commit": "2a4ce61f26a2f9d6f0f2729e037ee6c0b8220e5b",
+    "producer_file": "geometry_20261115_small_core_nine_control_decimal_curvature_recipe.py",
+    "producer_sha256": "3d59811078d82110449216a8ab5dadf905c435e1e45085b96f6d1c8fa04eb0c4",
+    "producer_schema": "R259-nine-control-persistent-decimal50-ambient-curvature-trust-v1",
+    "status_bytes": 5917531,
+    "status_sha256": "b4c1e07a3d81dd8eb64f3ba28a889f2868accd3b666c14c3deb4ddccef835e83",
+    "log_summary_bytes": 88658,
+    "log_summary_sha256": "7e03106069419b6d701bc0b86479c96fbf9615bdb8b761e01142110bd6ab5fed",
+    "parameter_field": "final.parameters",
+    "radius_field": "final_relative_trust_radius"
+  },
+  "literal_parameters": [
+    "0.30552141421813587451511124647832115183365931393255",
+    "0.21644994882174284564428467846307106691034173126682",
+    "0.34270115519083356085666200795448211747040865537076",
+    "-0.063223397664120006022611230482040760191219350613381",
+    "-0.017474484994182094846554068297420896682316648212971",
+    "0.93761127574242591532855416219549982285362989617547",
+    "1.0751308300363195964465271254236787053010018303407",
+    "0.68868929652522927733976315755005254248094417316641",
+    "0.93853619119844242504207635330603652071213943405455"
+  ],
+  "algorithm_state": {
+    "relative_trust_radius": "0.000078125"
+  },
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "family": {
+    "formula": "sum p_i*b_i + sum theta_i*b_i*t_i + sum eta_i*b_i*t_i^2, t_i=2*x_i-1",
+    "new_parameter_count": 9,
+    "new_quadratic_controls": 3,
+    "newly_added_quadratic_column_indices": [
+      6,
+      7,
+      8
+    ],
+    "old_four_column_indices": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "old_six_column_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_even_controls": 3,
+    "parameter_order": [
+      "p1",
+      "p2",
+      "p3",
+      "theta1",
+      "theta2",
+      "theta3",
+      "eta1",
+      "eta2",
+      "eta3"
+    ],
+    "raw_quadratic_controls_not_centered": true,
+    "retained_odd_controls": 3,
+    "schema": "three-original-supports-even-odd-raw-quadratic-C2-controls-v1",
+    "support_indices": [
+      0,
+      1,
+      2
+    ],
+    "zero_new_quadratics_reduces_to_previous_six": true
+  },
+  "precision": {
+    "decimal_digits": 50,
+    "rounding": "ROUND_HALF_EVEN",
+    "parameter_encoding": "finite-decimal-strings"
+  },
+  "exploration_policy": {
+    "initial_relative_trust_radius": "0.01",
+    "parent_radius_is_provenance_only": true,
+    "primary_path": "complete-nine-residual-quadratic-square-straight-line",
+    "fallback": "original149-complete-GN-normal-only-if-primary-fails-or-all20-reject"
+  }
+}

@@ -48,7 +48,9 @@
 
 [R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)已证完整九维模型 $\Phi(y)=\frac12\sum_i[F_i+(JD)_iy+\frac12y^T(DH_iD)y]^2$ 的完整梯度/Hessian、三/四次项、12×9 ridge-QR的准确下降/半径，以及有限已算候选取最小和真实余项/形成误差条件。有限内解不冒相对球全局最优，QR数值残差不冒区间逆证书；新增模型不是原normal路径曲率，三/四次项不冒154实际唯一失配原因。
 
-amplitude继续157实际接线：同持久Decimal50 primal及全3×9×9二阶，32内更新各21候选槽（全12×9残差QR、完整H移位/Cauchy/18正负谱槽），全三残差模型回溯保；外层仍fresh原forward slope、原20档/c_A/域，失败才另标原149 normal回退，原最终FD/Arb/453/full112不减。真实父取R335末九p50，显式新Δ=.01。有限完整模型候选及真实试探的全部原值/未访范围必须读回；当前未派发157或预填结果。
+[157入口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)八件源码/参数已发布，原104+8pins逐项全留并加3+1，总107+9；实际producer闭包39→41。真父是R335末九个Decimal50字符串，新Δ=.01明确另定，不继承J/H/merit。每批八方向，全九维三残差二次式平方，32内更新各21槽（完整12×9残差QR、H移位/Cauchy/18正负谱槽），全模型回溯/有限已算候选择优；外层fresh原forward slope、原20档/c_A/域，失败才另标原149 normal回退。初末新增54二阶及原108一阶FD、Arb160/depth14/453/full112不减。
+
+157完整Q为12×9、R为9×9只报准确shape/SHA；其全部12残差、9个stationarity、列排列/对角、每个模型候选/试探与全部真实trial均完整读回；不把因子SHA当已读全部矩阵。science75、job90和读回10分钟，只有一批八方向，没有额外32批循环；所有原门保持，尚无实际157结果，R340负责实际全读回。
 
 ## 3. 原连续C、新九族与当前C自己的native
 

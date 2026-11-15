@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:19:30 UTC 已读 7f400aefcd80f396fbaf54308bb8acd02a1028fa，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:20:12 UTC 已读 87c131f1cda02a90da5d66e8c8c9ad440d6f9f25，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -27,6 +27,8 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |151 root|43724306509 / 132842781513|618a9369d2bd45210767e294726cec10be1cd2df；前13步通过，step14完整target包围|
 |155 exact|43726543241 /132849600659|0aa9dca2d8029721cd1e820948699206a7da4388；来源过，step7科学运行|
 |153 geometry|43727856178 /132853608396|35690c7731f50e5124d2e722230eacbf8aee7a68；前10步过，step11 C运行|
+
+|157 amplitude|本次发布，待实际run|request94e01eeb/workflow905e137e；八方向完整残差平方模型，原真实接受门保|
 
 raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源码/参数/时限/输出约定。
 
@@ -58,7 +60,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [154 R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)run43724606619双job success，8方向70直线trial/8接受/62merit拒，normal及域异常0；新增54二阶及原108一阶FD有效、十literal同149。全finalfalse，大步深回溯仍微降；完整末九p50/70行/原值/后缀正文保，raw已清。
 
-[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)已证全九维三残差二次模型平方、完整K/Hessian及三/四次项、12×9 ridge-QR准确下降/半径、有限候选最小及实际余项/形成误差。157由amplitude保154末九p50与新Δ=.01，21槽/32内更新/原真实20档及normal回退；不冒模型全局最优或实际唯一失配原因。157源码接线继续，无实际结果。
+[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)证全九维残差二次平方、K/H及三/四次项、12×9 ridge-QR准确下降/半径、有限择优与误差边界。[157接口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)八件已发：真154末九p50、新Δ=.01，107+9pins/原39→41执行源；32内更新×21槽/20模型回溯、全162原FD，原真实20档/c_A/域及normal回退/Arb/453/full112保。八方向一批，science75/job90/readback10；全部模型/试探完整分段，尚无实际结果。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)证a>0、P=a²|d×e|²−ν²|d|⁶>0等价、完整仿射八次/Bernstein与真Hermite RHS缺陷/全乘积误差。当前系数/二阶界未付，不充155门；exact继续158原98→37真model/FD后的全查询诊断，未派发。R327–R333缺失索引已由2961014补齐。
 

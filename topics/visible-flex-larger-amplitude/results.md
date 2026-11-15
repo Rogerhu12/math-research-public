@@ -202,3 +202,5 @@
 - [R337：实际152完整128回放与末态组件编译阻断](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)（实际Actions范围）：唯一α1达原射击tol，完整129248残差/576×226独立replay逐word同；stage/audit实际三冒号及stage BatchStats歧义compile1，112/338未启动。1291语义成员两整树、16字节段/8流、134stderr行及双job primary全核；未触预算，全native/fullDNfalse。160保持原完整数学责任接独立v2后重算。
 
 - [R339：实际156完整C头及部分112模式cut传递](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)（实际Actions范围）：1440片/六primitive/两query闭域和cut两jet、deep112完成，whole2609粗叶分辨率未付；前四模式cut路径完整但高度盒含0，m10共享200000面板预算止、m12..224未起。四完整块双job逐字同，完整栈/后缀/ledger身份保；非墙钟、共振或全DN结论，与153新far非除Robin范围分开。
+
+- [Request157：完整九维残差二次平方与真实回溯入口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)（源码/参数入口）：真154末九p50、新Δ=.01、107+9pins与原四输入；完整3×9×9二阶、12×9残差QR及全H/谱/Cauchy有限候选，真实20档/normal回退/162FD/Arb/453/full112全保。全部模型及真实试探分段读回；八方向一批，不冒模型全局最优或实际成功。
