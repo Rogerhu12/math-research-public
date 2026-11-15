@@ -42,7 +42,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)已证明：当f在整个右锚区间[b,r]为0时，任何全I合法二阶w的L_f(w)严格0，第三齐次也不改period；该区间原Vθ准确等于sin⁴θ P_B(g)。这不需要把w缩到单包或施六条仅充分的矩约束。R183的b可取153λ，唯一右端输入为−[1−S(x/λ−154)]，右方155λ后0。只省略ξ右方看不到的左包，整条真实B的s累计保留。
 
-立即判同一B的这个单有理step P_B是否非零，不重新生成八包/左补矩或旧forcing。若尚无具体B，必须输出符号原根条件而非假典型数值。严格内点非零可经足够高阶、保支撑/补矩的C∞连续性保留；C7原型为零不能直接转平滑。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已完整判明πU0=πR0、dim3，并给πH=0但λ+H=1；任何仅pure读出此λ的路线都已排除，不能换step再找同一个读出。固定B的纯period是否零仍须由其真实成本判断。
+[R200](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)已给真实τ0桥的完整纯响应H及右step严格非零首项，闭hook系列满足V−4(XN,t;q)=8N(Γ+ℓtH)+C(t;q)，全部桥/反向/Klein基准保留；某些真实几何必失败。更建设性地，先固定有限t区间和真实复制格式，再取有限N，介值定理准确把一个指定右段查询调到零。下一须支付整个纯函数而非继续积累单点或非零方向；同一B的全P_B=0仍未付。严格内点非零可经足够高阶、保支撑/补矩的C∞连续性保留；单点零不靠开性迁移。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已完整判明πU0=πR0、dim3，并给πH=0但λ+H=1；任何仅pure读出此λ的路线都已排除，不能换step再找同一个读出。固定B的纯period是否零仍须由其真实成本判断。
 
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 

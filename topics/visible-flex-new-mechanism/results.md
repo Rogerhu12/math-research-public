@@ -141,3 +141,5 @@
 - [R198：最右单profile完整period对全部二阶gauge不变](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)：f全部右支撑之外L_f任意w严格0，固定目标准确退sin⁴θ P_B(g)；R183只需一有理下降step，保真实s历史，尚待零/非零判定。
 
 - [R201：权零pure像等于响应像，正字符无法由pure读出](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)：公开19列/42行准确rank3，给原三项有理关系及H∈kerπ、λH=1；核16/13，完整正性仍成立，未构造实际pure零成本。
+
+- [R200：真实bridge纯响应、闭hook周期与单点准确支付](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)：显式τ0 commutator全锚公式及右step首项非零；真实双字/Klein保全部基准给8N(Γ+ℓtH)+C。某些几何必失败；固定有限控制格式后IVT可精确调零一个右period查询，未付整个函数/joint。
