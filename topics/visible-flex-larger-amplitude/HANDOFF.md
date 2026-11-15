@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 13:44:47 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f1bbe9b5f09d37d7b73f383cef7ba90eb225d414。
+规则同步记录：2026-11-15 13:45:39 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4dcc434d851238ed069e47468173387225597a5b。
 
 集成复核：root终端恢复并真实partial clone/pull，149九件全文及原100+7来源核读后CLI发布；此前API不是git pull。152完整重算由amplitude接管，150接线由exact，151目标消费者由root继续。
 
