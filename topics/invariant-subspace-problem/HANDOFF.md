@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 467a03db9047925865ea7986683eaf117d760c12（2026-11-15 05:54:16 UTC，Actions run43683047338实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43683047338-1.json。
+- **最近成功实际 pull 与已读规则提交：** 07363e56a1bb59c41c3ccc4341e640fd4d75146d（2026-11-15 05:55:02 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
 - 根独占main/H/open/results/log；代理只写独占稿。每结论立即推，每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。仅授权Rogerhu12/math-research-public，token仅CLI临时环境。
 - **新根规则15（再次更新）已读并立即执行：** 可由已提交脚本/参数重算的数据一律不保存，Git/Release都不放；只提交脚本、参数、run编号、输出SHA。禁止分片绕5MB，topic≤200MB。协调方已普通删除本题notes大目录约9.6GB，历史仍可按旧commit取回。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，题README仍4d6570e9cf346431ab781a1290076a6321aaaa00。规则8不准二进制经工具分块编码传送；本地执行器曾不可用、现已恢复；本库Actions继续真实git同步/数学。
 - Markdown≤100KB、H≤10000B、log每条≤5行；数学美元符。规则12无额外审核门槛；Actions约4核16GB、job≤6h、账号≤20任务。全文旧状态/常数/来源保[新规则前完整H](notes/2026-11-15-handoff-before-rule15-release-migration-789f.md)及递归快照，未列open不关闭。
