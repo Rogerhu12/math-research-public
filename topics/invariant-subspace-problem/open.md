@@ -117,6 +117,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **带同一个额外乘子的全局来源。** [射影确定因子381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)与P61给 $\Delta_h=t^{61}K_{158}^hR_h$、$\deg R_h\le162$、$\deg\Delta_{\rm aff}\le320$。同一非零 $R=R_h(s,1)$ 使九 $Rh_0t_j$ 全在原 $\mathbb Q[s]$ 来源，$\deg Rh_0\le186$；[原余式整理](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)给共同成本8531，三支8526/8531/334。$R$ 的实际系数、原 $h_0$ 自身全局成员性、来源高度及固定31分母仍开；[全局去二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)现已证明：对每个九目标 $(s-2)^kat_j\in L\iff at_j\in L$，故 $h_*=h_0/(s-2)$ 与原 $h_0$ 全局成员性等价，且 $R(2)\ne0$。同九 $Rh_*t_j$ 有全局原来源，$\deg Rh_*\le185$、成本仍8531（第三支333）。其余未知支撑继续，旧generic分类未覆盖所有特殊点。
 - **原高核商及同选子式。** [真Q十三原始核](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)付 $\lambda_I=2$、十二单位、整核/freeI及80444原产品。[216原来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)保1632 Koszul块；SE的核秩202不自动给共同整基。[完整高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)F31正谱 $1^3,2,4,5^2,7$、长26/max7，26659556原产品及两freeI真；Q等号未付。准确 $v\det B=\delta_{\rm full}+2+\sigma_O+\delta_{\rm high}$，F31为243，Q的O长29…149。自然权8770、同D阶130…243/次数8527…8640，$K_{158}$ 首项 $5^{16}$ 是31单位，同D leading单位仍开。保持normal pencil非幂零、全部二次反馈及原能量/参数导数来源。
 
+
+- **已知临界支撑已从余乘子剥离。** [完整证明](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)给 $R_{\rm out}\perp\Sigma_0=s(s-2)(s+6)F_+F_-E_8$，同九 $R_{\rm out}h_*t_j$ 仍有原来源/费8531。共同最小目标湮灭式恰 $s^3F_+^{a_+}F_-^{a_-}E_8^{a_8}U$，$a_\pm\le2,a_8\le1$、$U\mid R_{\rm out}$ 且 $U\perp\Sigma_0$。未知U不预填1；余因子也可能属于full与P共享tors，不直接等同九目标障碍。
+
 ### 原边界：实际测试已控，完整返回继续
 
 普通 $M=\ker T$、$N=\overline{BM}$，$N=M$ 未证。同一个 $w,u_Q$、future、负前缀、两端全部partial、真正交旗及顺次MP自然域保留；$G=P_E(DD^*)^{-1}P_E$ 不换为压缩后逆。
