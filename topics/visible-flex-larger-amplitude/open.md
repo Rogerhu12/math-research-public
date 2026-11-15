@@ -2,7 +2,7 @@
 
 本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request126检查点](open-checkpoint-through-request126-2026-11-15.md)，它仍链接[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
 
-所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。08:55左右终端unavailable后按根第8条用小文本GitHub集成、新main父及非force expected_sha接续；拒绝立即重读规则/相交文件重建，不冒git pull。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
+所有科学计算、科学模块导入及数值测试只用公开Rogerhu12/math-research-public自己的Actions。root仅源/证明编辑、原输出选择与JSON重建、语法/metadata/hash/Git；不得由摘要或SHA伪造已删场。每条结论立即发布。终端可用时每次push前且至少每小时pull --rebase，核双README，仅读变更diff；NFF立即rebase再推。root终端已恢复，当前真实部分克隆/tmp/visible-larger-root-git-126由root唯一pull/push；早前终端unavailable期间集成发布的边界保留在原log，不冒当时有git pull。Actions规则runner仍2700秒真实pull。第15条保源/参数/run/SHA/紧凑结论，可重算raw仅runner临时消费，不入Git/Release/artifact。不增独立审批、fixture、字节审计或六/九jet机器门。
 
 ## 1. 九控制低三条件的真实接续
 
@@ -14,7 +14,11 @@
 
 [R290实际127](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87、compute132770038307/report132770558044均success，八批各8接受，共64接受/130trial/66外拒绝。fresh W49.73979281434833→11.126800189953372，末unit[-4.717371832840097,-.0018359077734816124,-8.732263938333927e−6]，所有五final标志仍false。14次接受inner tol=false均由原完整Armijo裁决；后3批首接受1/16、末radius.00625，继续保真实回溯，不添内tol门。
 
-八批初末全部九列三档FD有效，但第5末eta3最高1.0928131834783939e−7，不能概括统一e−9；新Arb末1499叶/0未解及原完整453圆域/两RMS/边界已读。8primary/64完整方向组/8fullview逐字身份吻合，无moved/omission；链96.12924756899997秒，仅explicit_independent_batch_count_completed，raw全清。[129完整入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)已从R290真第8末九p形成：recipe2288B/3971018d、request41954B/45f221e1、workflow18134B/7f33349e，84+2/own26与原wrapper b15a及全部科学门/8批预算不变，实际结果待读；128另明确正λ=.001九H(s)完整112实验。原搜索的低三通过与否均不能替代高109/完整112/native非零场。
+八批初末全部九列三档FD有效，但第5末eta3最高1.0928131834783939e−7，不能概括统一e−9；新Arb末1499叶/0未解及原完整453圆域/两RMS/边界已读。8primary/64完整方向组/8fullview逐字身份吻合，无moved/omission；链96.12924756899997秒，仅explicit_independent_batch_count_completed，raw全清。[129完整入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)已从R290真第8末九p形成：recipe2288B/3971018d、request41954B/45f221e1、workflow18134B/7f33349e，84+2/own26与原wrapper b15a及全部科学门/8批预算不变；128另明确正λ=.001九H(s)完整112实验。原搜索的低三通过与否均不能替代高109/完整112/native非零场。
+
+[R291实际129](results/R291-actual129-eight-nine-control-batches.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173、compute132773497339/report132774328966均success。原八批64接受/171trial/107外拒绝、零整方向拒绝；fresh W11.126800189953256→6.426170559507028，末unit[-3.5850158845837177,-.0014920654262581224,-6.102912416198981e−6]，全部五final仍false。停止仅explicit_independent_batch_count_completed，174.200186809秒；20接受inner tol=false仍由完整Armijo决定。
+
+后5批没有任何评价域异常，首接受均1/32/末radius.003125；最后一批首方向alpha1/16仍被完整merit拒而1/32接受，不能把当前慢降概括为域障碍。各批初末全部九列三档FD有效，原误差例外逐保；末Arb1524叶/0未解、原453圆/两RMS/边界全过并非完整非零场。8primary/64组64段/8view/8stdout及链逐字重建核身份；状态大原件只在runner消费后清理，身份不冒独立本地全状态审计。131准备只用此真实第8末九p，原科学源/8批预算不变。
 
 此前三/四/六控制的实际106–121、归一化、微步全拒、补控制及传输责任见检查点与原notes。121第五正常summary93000B引fallback，wrapper70是传输停止；第五trial原件已删不能补造。当前126不重命名为121未保存现场。
 

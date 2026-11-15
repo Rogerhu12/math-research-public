@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:12:55 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 185e4f3eb798fbca5fabab8ca928741cb4cd6446。
+规则同步记录：2026-11-15 10:13:25 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 3adc02a82a76a8a0c60f15149a99b277f060be60；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3adc02a82a76a8a0c60f15149a99b277f060be60。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -22,7 +22,7 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 [127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)原8批64接受/130trial，W49.73979281434833→11.126800189953372，全final false/14接受inner tol=false/FD例外原记录保持，raw清。真末九p已分接128/129。
 
-[129入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173，compute132773497339/report132774328966已success；完整8primary/64groups/8view身份重建，原科学全false，R291整理中，131只取真第8末p准备。
+[129 R291](results/R291-actual129-eight-nine-control-batches.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173，compute132773497339/report132774328966 success。8批64接受/171trial/107拒，fresh W11.126800189953256→6.426170559507028，unit首−3.5850158845837177，全部final仍false；20接受inner tol=false仍依原Armijo。后5批0域异常而首α1/32，完整8primary/64groups/8view已核，raw清。真第8末九p用于131原8批准备，不冒完整112/native接受。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101与[runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保原00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128实际入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)已发布：真127第8末九p、λ=.001/fresh-circle，recipe739a2a00/request2ef24cc2/workflowdcdcfe05；110pins/29显式closure/原4输入+2ready+78源、300min单一deadline/330science/350job保持。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起step10science；无九正λ接受结果，不预接450。
 
@@ -44,7 +44,7 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 [118 R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)8模型/8FD、51trial/8接受/43拒绝，末alpha1/256、physical .007107083459932941，全部final false；后4最近拒绝MID483，其他责任保留，末raw已清。
 
-[130实际33查询入口](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)已发：从可恢复98原31 pair另起轨迹，相对32只增MID483、首输入相对31新增471+483；21capture/25原端点/local8453/C4059/outside/原A/H/λ270/17trial/全FD不变。完整六源见接口；worker63dc6829/recipe6fc6cac9/request53d4e417/workflow25d81c4d；80pins+worker、原8批/10500s批间/175science185job。run43702578242/source690ca0f924f069c6b8c2134ca83bc856918c2e89已10:08:00启动；不冒续118已删末点。
+[130实际33查询入口](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)已发：从可恢复98原31 pair另起轨迹，相对32只增MID483、首输入相对31新增471+483；21capture/25原端点/local8453/C4059/outside/原A/H/λ270/17trial/全FD不变。完整六源见接口；worker63dc6829/recipe6fc6cac9/request53d4e417/workflow25d81c4d；80pins+worker、原8批/10500s批间/175science185job。run43702578242/source690ca0f924f069c6b8c2134ca83bc856918c2e89/job132776702379已10:08:00启动；不冒续118已删末点。
 
 ## 连续几何、同g与接受场之后
 

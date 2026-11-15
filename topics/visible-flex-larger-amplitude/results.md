@@ -64,3 +64,5 @@
 - [request130：完整原33查询、MID483实际约束](notes/2026-11-15-request130-thirty-three-midpoint483-real-pair-batches.md)：保32全部查询只增483，从真98原31另起轨迹，capture21/端点25/local8453/C4059；原八模型/八新FD及所有门保持，不伪续删失118场。
 
 - [request132：原三输入连续E完整自然域实际入口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)：9aa0生产器/81d061证明，原1440片六积分及准确深根全允许族，256bit/1800s、完整未付后缀；无未来E或metric接受值。
+
+- [R291. actual129八个九控制批次全部真实读回](results/R291-actual129-eight-nine-control-batches.md)（数值证据）：公开run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173，64接受/171trial/107外拒绝；fresh W11.126800189953256→6.426170559507028而全部根/full112/native/final仍false。20接受inner tol=false、后5批无域异常且首接受1/32，原完整FD/Arb/453圆责任及8primary/64groups/8view/8stdout逐字身份已结清。真第8末九p为131起点，完整表、例外、全部SHA和残留义务在正文。

@@ -311,3 +311,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 request132完整连续E自然闭域运行入口
 
 [完整接口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)及四件request/query/workflow文本全部读完并发表；原3输入/78源恢复，8当前pin和9公式源/正式9aa0科学源与81d061证明保持。明确256bit/1800s工作、45/65分钟平台、全1440×6/准确深根族/自然Rout；always读实际result和query、未访source/query后缀与完整unpaid身份，再仅清本请求临时根，无raw上传或本地科学。130已由公开push触发run43702578242/source690ca0f9，10:08:00创建；122/124/128仍各自科学步骤执行。
+
+### 2026-11-15 R291实际129原八批全读回
+
+[R291](results/R291-actual129-eight-nine-control-batches.md)完整正文已读并发表，原run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173、两jobs成功；64接受/171外trial/107拒绝，merit到6.426170559507028而全部原final仍false。20接受保inner tol=false，后5批所有评价无域异常，首1/32与完整Armijo拒绝逐原记录保留；原九列三档FD、Arb1524末叶/0未解、全453零圆/两RMS/边界和所有8批原读回身份已核，不将数值状态当完整非零场。只发表紧凑结论/来源，raw不入Git；131已从真实末九p准备，继续原科学源。132已push源185e4f3eb798fbca5fabab8ca928741cb4cd6446，run触发待读；130 compute132776702379正在原33科学步骤。
