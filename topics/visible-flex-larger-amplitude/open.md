@@ -120,3 +120,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R363：完整有限允许站的局部C²形状响应
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)对严格隔离内站用h=ε²t(1−t²)³零延拓，准确零2-jet且DF[h]=εw/a；所有允许C²形状的有限采样响应恰为完整累加权重span。给出准确rank/左零空间等价、原merit下降与显式误差前提；不假定原返回b等于finite-Gauss a的导数，不把形成权重或普通SVD当证书。173 helper须实际核全部node/mid与共享q关系、dyadic隔离和来源，再明确独立新族/fresh forward/原trial及终门；不回写164六宽支撑候选。选择后的中心/宽度/系数必须在同g精化时冻结并重采样，不能每换网格重新造单站列。实际新方向、共同准确C/全112非线性及闭场标准仍未付。
+
+### R362及169工程重发
+
+[R362](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)完整读首169 run43739904996/source82fe6b4b两日志168013B/46c237a7与9594B/c35b80f4：自身YAML未稀疏检出，原preflight前缀通过但整体失败，临时dispatch尚未写；C skipped、后继全部未exec科学。八原栈、两个unavailable primary/三个缺primary、真实rules pull与读回不全故cleanup-skipped保，非数学拒。只增sparse一行与request真实来源metadata并两处SHA更新，41ccd380/887dc763重发；原recipe/58/51/25源及全部数学/预算逐值不改。geometry核下一actual/R367，不能将修复提交当执行成功。164已实际43741113847/source39e6ff80，由amplitude核R364。

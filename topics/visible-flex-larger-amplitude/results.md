@@ -276,3 +276,5 @@
 - [R363：局部C²零jet形状与完整有限采样响应秩](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)（已证，准确有限模型条件定理）：严格隔离七次形状给DF=εw/a，允许形状响应span、rank与左零空间完整刻画，原full3 merit下降和显式形成误差界分责。无实际权重/秩/步长；173独立helper，不改164或同g精化定义。
 
 - [Request164：伴随选择独立十控制族并执行真实原门](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)：九件/112+10pins，actual157末九p50重生、六新形状实际完整三响应选一，fresh十列forward定方向与原20档Armijo；初末120项FD/完整终态保。新形状字面采样与准确连续模型分责，源码发布不预填实际改善、rank或非零场。
+
+- [R362：首次169因工作流自身稀疏检出缺件而未起科学](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)：run43739904996/source82fe6b4b两原日志完整，首YAML缺件与后继七次dispatch缺件分责，C skipped/BVP未exec；规则真pull、primary unavailable和清理保留范围齐。随同最小接线/真实retry metadata重发，原科学与门不变。

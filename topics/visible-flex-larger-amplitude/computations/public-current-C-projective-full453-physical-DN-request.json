@@ -637,5 +637,41 @@
       "sha256": "f99acd8b025b38f5f2cdacbc8e129debbb48467587e72f92f74df5065fcad796"
     },
     "scope": "Original R324 matrix/Taylor/Duhamel/geometry functions remain inside the explicitly separate R347 factorized implementation; old materialized cut main is not run"
+  },
+  "workflow_checkout_retry": {
+    "schema": "request169-workflow-self-checkout-retry-v1",
+    "previous_run": 43739904996,
+    "previous_source_commit": "82fe6b4bcf593a103d3af63d68f7277c77c0eda8",
+    "previous_compute_job": 132890537050,
+    "previous_report_job": 132891095792,
+    "previous_request": {
+      "bytes": 35286,
+      "sha256": "2db89139012a1bdb7fdc6b07ea7f46f11eb3409531de81b34f897d4f1e08561b"
+    },
+    "original_decoded_logs": [
+      {
+        "job_id": 132890537050,
+        "bytes": 168013,
+        "sha256": "46c237a7387f291dfbce72e9225214755ce69cd99d47260ec13d4441404c0dee"
+      },
+      {
+        "job_id": 132891095792,
+        "bytes": 9594,
+        "sha256": "c35b80f44a25b66497dd7ce348401d0189a6cad7a15f4f86fedaf70208daaea2"
+      }
+    ],
+    "first_error": "Pre-science workflow self-read: own YAML absent from non-cone sparse checkout; FileNotFoundError before temporary dispatch-request.json was written.",
+    "original_C_step_outcome": "skipped",
+    "scientific_producer_started": false,
+    "subsequent_missing_request_errors_are_not_scientific_rejections": true,
+    "cleanup_skipped_because_actual_readbacks_were_incomplete": true,
+    "fix": "Add /.github/workflows/visible-larger-public-current-C-projective-full453-physical-DN.yml to sparse-checkout; update only this request identity in the workflow.",
+    "actual_push_trigger": "topics/visible-flex-larger-amplitude/computations/public-current-C-projective-full453-physical-DN-request.json",
+    "original_scientific_sources_parameters_recipe_inputs_and_budgets_unchanged": true,
+    "original_direct_source_count": 58,
+    "original_driver_source_count": 51,
+    "original_native_source_count": 25,
+    "no_new_scientific_acceptance_gate": true,
+    "retry_success_not_predeclared": true
   }
 }

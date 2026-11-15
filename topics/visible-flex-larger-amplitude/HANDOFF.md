@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:26:21 UTC 已读 70d93f3b9379a67e8e029803b78d51320f8e1571，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:30:45 UTC 已读 9c2fcc91b73a1d3399f3dd1fe585b369d1153d2a，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -43,7 +43,7 @@
 
 [R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐；far m2..16完、m18在200000止，原9616闭栈/10387末索引/全后缀保。native未启动，不是原试步拒。
 
-[R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)：43732286420/source4241fb33，C1440/六primitive/两域/cut/构造/deep112齐；给定九p域partial。far m2..16完、m18 row9616/work200000止，全后缀保；BVP launcher未启动，无H/J/FD/trial，raw已清。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)七件/58pins，实际43739904996/source82fe6b4b，geometry核R362；168新far→同owner H/J/FD/453/final，原九p/λ.001/8/17/32×10保，六读回及owner静止才清。
+[R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)：C/cut/deep齐、九p域partial，far m18/work200000止、BVP未启。[R362首169](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)：43739904996/source82fe6b4b自读workflow未稀疏检出，C skipped/科学未exec，全部八栈及cleanup-skipped保。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)仅增sparse一行/真实retry metadata/request SHA重发41ccd380/887dc763；58pins/原九p/λ.001/453/8/17/32×10保，geometry核新actual/R367。
 
 [R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)先按每候选原幅符号归一化、再hull；范数须隔零，数值代表非准确C成员。[168接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)九件已发：25pins、R347全幅/误差、14400+1800按剩余比例clip并预留native3600；18900仅启动计划/360min硬限。原112/32×10/2e−9及η1/η0保，完整读回与owner静止后清；实际43739491932/sourcefbb6a6c9，geometry唯一读；不冒旧浮点轨迹。
 
@@ -53,7 +53,7 @@
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082，微降不证准确根，全finalfalse。真实末九p50和半径见原文；R350补必要标量，禁搬154值。
 
-[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保七状态/完整112伴随。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发：112+10pins、actual157末九p50/六候选选一，独立十族fresh forward及原20档/full3/strict slope/Armijo；初末120项FD及原终态保，2400s/50min science/65min job，amplitude核R364。[R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)局部零jet响应span已证；173定位helper未选父，不冒rank或同g换形状精化。
+[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保七状态/完整112伴随。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发：112+10pins、actual157末九p50/六候选选一，独立十族fresh forward及原20档/full3/strict slope/Armijo；初末120项FD及原终态保，2400s/50min science/65min job，实际43741113847/source39e6ff80，amplitude核R364。[R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)局部零jet响应span已证；173定位helper未选父，不冒rank或同g换形状精化。
 
 [R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：准确V=(sqrt(P)C−νQB)/(aW)及完整方向V″，全338投影/115零行，闭段正界给显式M；原e0/e1与Hermiteδ0/δ1/执行误差全保。纯证明，无数值M/安全步长；接R334全段未付责任，不设原求解新门。
 

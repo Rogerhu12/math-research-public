@@ -189,3 +189,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:26:21 UTC /root — request164独立十控制族发布
 
 九件全文及字节身份核后即发：09240b33/8cb8352b/9da7ebac，request9c9d27d1/workflow4bf55495；112+10pins/实际45消费，原末p50、六候选及完整十列/20trial/120FD/终态不减。2400s科学与资源错误保原数，单90KB结论且不冒准确连续形状；amplitude核R364，173独立继续。API核70d93f3b9379a67e8e029803b78d51320f8e1571双README未变，真实pull记录保留。
+
+## 2026-11-15 17:30:45 UTC /root — R362首169工程停止及最小重发
+
+12673B/a2e2e479全文与三件完整diff核后即发：自身YAML未稀疏检出导致dispatch未写、科学未exec，八栈/两原日志/cleanup-skipped全保。新增一行sparse与真实retry metadata，两request SHA同步41ccd380/887dc763，原全部recipe/pins/数学/预算逐值同。164已43741113847；API核9c2fcc91b73a1d3399f3dd1fe585b369d1153d2a双README未变，真实pull记录保留。

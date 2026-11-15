@@ -50,6 +50,7 @@ jobs:
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
+            /.github/workflows/visible-larger-public-current-C-projective-full453-physical-DN.yml
             /README.md
             /topics/visible-flex-larger-amplitude/*.md
             /topics/visible-flex-larger-amplitude/computations/
@@ -76,7 +77,7 @@ jobs:
           base.mkdir(exist_ok=False)
           comp=Path(os.environ['GITHUB_WORKSPACE'])/'topics/visible-flex-larger-amplitude/computations'
           request_raw=(comp/'public-current-C-projective-full453-physical-DN-request.json').read_bytes()
-          assert hashlib.sha256(request_raw).hexdigest()=='2db89139012a1bdb7fdc6b07ea7f46f11eb3409531de81b34f897d4f1e08561b'
+          assert hashlib.sha256(request_raw).hexdigest()=='41ccd38061cbf561cc6751cc220a272c9dc24723f088b2826e046ff62d740ff3'
           request=json.loads(request_raw)
           recipe_raw=(comp/'current-C-projective-full453-physical-DN169-recipe.json').read_bytes()
           assert hashlib.sha256(recipe_raw).hexdigest()==request['current_BVP_recipe']['sha256']=='f8f6b353458f04052940a05bbe28d28c48b0050f631f76f813267924a31d4765'
@@ -141,7 +142,7 @@ jobs:
           repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
           base=Path(os.environ['VISIBLE_BASE'])
           raw=(comp/'public-current-C-projective-full453-physical-DN-request.json').read_bytes();request=json.loads(raw)
-          assert hashlib.sha256(raw).hexdigest()=='2db89139012a1bdb7fdc6b07ea7f46f11eb3409531de81b34f897d4f1e08561b'
+          assert hashlib.sha256(raw).hexdigest()=='41ccd38061cbf561cc6751cc220a272c9dc24723f088b2826e046ff62d740ff3'
           assert request['schema']=='public-current-C-projective-full453-physical-DN-request-v1'
           assert request['request_number']==169 and request['lanes']==['currentCprojectivefull453physicalDN']
           assert request['repository']=='Rogerhu12/math-research-public'

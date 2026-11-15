@@ -2,7 +2,7 @@
 
 作者：AI（geometry agent）。日期：2026-11-15。
 
-状态：三份独立源码与recipe/request/workflow均已冻结。原159源码、请求和实际运行不修改；新169尚无实际run、几何、H、native响应或BVP结果。科学只在 Rogerhu12/math-research-public 公开Actions执行。主控是唯一Git/ref与派发者；§10给出这次明确运行件与实际资源范围。
+状态：三份独立源码与 recipe 保持原冻结字节。169 首次 run43739904996 已在科学前因自身工作流未稀疏检出而停止，完整事实见 R362；本次只追加真实失败来源、修一行 sparse-checkout 并更新 request SHA，重试结果尚未发生。原159源码、请求和实际运行不修改；没有169实际几何、H、native响应或BVP结果。科学只在 Rogerhu12/math-research-public 公开Actions执行。主控是唯一Git/ref与派发者；§10给出这次明确运行件与实际资源范围。
 
 本接口接续 [159完整接口](2026-11-15-current-C-full453-physical-DN-interface.md) 与 [168完整接口](2026-11-15-current-C-projective-physical-far-and-native-interface.md)，不另造求解或接受定义。新增行的准确同取向范围由 [R357](../results/R357-original-C-oriented-unit-Robin-family-enclosures.md) 支付；数值场和准确全局C、无限非线性DN仍严格区分。
 
@@ -176,8 +176,8 @@ R357改变的是数值far行表示。准确齐次边界在正比例下相同，�
 | 路径 | Bytes | SHA256 |
 |---|---:|---|
 | computations/current-C-projective-full453-physical-DN169-recipe.json | 9940 | f8f6b353458f04052940a05bbe28d28c48b0050f631f76f813267924a31d4765 |
-| computations/public-current-C-projective-full453-physical-DN-request.json | 35286 | 2db89139012a1bdb7fdc6b07ea7f46f11eb3409531de81b34f897d4f1e08561b |
-| .github/workflows/visible-larger-public-current-C-projective-full453-physical-DN.yml | 86237 | e62e93d60f87c48c8005aba2b1bb2c0b900e2594832a32f6981d516a7b46559c |
+| computations/public-current-C-projective-full453-physical-DN-request.json | 37078 | 41ccd38061cbf561cc6751cc220a272c9dc24723f088b2826e046ff62d740ff3 |
+| .github/workflows/visible-larger-public-current-C-projective-full453-physical-DN.yml | 86335 | 887dc763df1d0d8f6f69a5eaea03f2b1b7c643e4e21fba03b707c07ce0902115 |
 
 源闭包为58个直接pins。相对已发表159，只替换168五源和本169三源的basename/完整SHA，再加入原R347射影源；51个driver PINS和25个NATIVE_PINS均与实际冻结源码逐键相符。原科学参数、原三C输入、两闭query、R312深端、两份构造/453初猜来源、原147 atomic construction字典和R300/R323公式均逐JSON值保持。完整unified diffs是临时可重算审读材料，不作为新增raw入库。
 
@@ -223,4 +223,12 @@ cleanup同时要求六个读回步骤success、两个marker同run/source、原ow
 
 本次实际完成了完整文本构造/差异、字节SHA、58/51/25来源字典逐项比较，以及19个run块、18个Python heredoc的文本闭合核。终端仍不可用，没有本地AST、bash-n、Node或科学运行。工作流在任何science前对58源执行实际Python compile/AST及Node --check，对本工作流的所有Bash块和Python heredoc做真实syntax前置，并核嵌入helper。它们不是额外数值fixture。
 
-截至冻结时，没有169实际source commit/run/result/J/H/BVP接受；不得从168/159的job状态或源可执行性代填。准确C全局代表实现、无限DN、同g450、完整闭场metric/C²/embedding/reach仍沿原责任，不由本次有限BVP结果自动支付。
+原冻结时尚无169运行；现实际初次169已由R362记录科学前失败，仍无169 result/J/H/BVP接受。该失败与本次明确工程重试分别保身份，不从168/159的job状态或源可执行性代填。准确C全局代表实现、无限DN、同g450、完整闭场metric/C²/embedding/reach仍沿原责任，不由本次有限BVP结果自动支付。
+
+## 11. 首次实际失败后的唯一工程重试
+
+首 run43739904996 / source82fe6b4bcf593a103d3af63d68f7277c77c0eda8，compute132890537050 与 report132891095792 均 failure。第一错误是 preflight 读取自身 workflow YAML 的 FileNotFoundError，随后临时 dispatch-request.json 未写出；C步骤 skipped，后续科学未进入。完整来源、八处 traceback、两个 unavailable primary、三个缺失 primary、规则同步与 cleanup-skipped 边界见 [R362](../results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)。
+
+本次只给非 cone sparse-checkout 增加本 workflow 一行；request 末新增 workflow_checkout_retry，保初次 run/source/jobs、两完整解码日志 bytes/SHA、未起科学与 cleanup-skipped 事实。因唯一 push trigger 只监听 request 路径，这个真实来源追加也负责触发重试。工作流内两处原 request SHA 同步为上表新值。原 recipe9940/f8f6b353、科学58/51/25闭包、全部source、三C输入和两构造输入、1440片/六primitive/112模式、九p/正lambda/453初猜、FD/native/BVP原门和全部预算逐值不变。
+
+这次在 code-mode 只做文本与JSON差异/身份，未运行AST、Node、Bash或科学。原工作流自检保留，修复后由实际Actions支付。新增metadata不是科学接受门；后继实际commit/run/result仍须由真正公开运行提供，不在本接口预填。
