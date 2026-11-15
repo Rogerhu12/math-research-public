@@ -318,3 +318,13 @@ B*=4.729884448094…、G*=13.861871568892…、a*=73092.471299520…、ell*=4003
 同P22 cut q由完成RR原记录读取，S*/S2*/整数J是尚未完成的新scalar；现合同不宣实际J97或任何incoming/全R0。97..J−1、HL/LH、两mean/真正phase共轭完整保；trace不冒interval。
 
 为遵H≤10KB/open≤30KB，活索引旧已成行与open第6节压缩；压缩前全部H/open/results/log逐字在547f47a7410843ee1187159222b26024d672940a相同路径保留，递归原archive不变，所有原常数/域/源单位/失败/restore及未付义务继续有效、成功禁重。修正NF过时索引：第五列已WL付，不误写仍待。
+
+## 2026-11-15 19:18:39 UTC：RR 实际严格物理 Darboux 缺口关闭
+
+在 496f2b11fafdf3c631bc61c0e0ede92da5293df4 核两README blob不变。新增actual32398666ece7151993d60ce101dfac578f753701/28464B/13495f119fedd3a63190dcb61cce7a197635d204651b3efc282f2aa5569053ce。root全文读并核82 ball/76 unique全部原字来自完整science，broadK旧球原保；三旧对象complete_accepted_scalar/free_domain/free_product同canon逐字一致。新run43750683671/1，job132923725612实际19:08:01→19:09:01全success；child0、28gates/35pins/9AST，math .505160324000002s。
+
+exec ef746ab2c3c0975eafe1fb4354d1a86cc1cc9510/51791B/a75da290077cf0e134834be5e35a0fa7cd55cd79104f5128d87eaee898af162b；report87a41979e47b3f3351590a7b26fb3d88683b5bf7/12671B/aa641dd3a9e97058193345704a9be2f4e660c1883752717b8633cc1bcc8244aa。root独立重建SCI33055B/8bb7e29689df2ff443d4293b51649bab4716e88e24546f48b53044a79d62b434及preGit48389B/282bb569271dde6cfad7c8b2745c1595f4d1d2ed442264fc663a35e98eff2557，保原JSON float lexeme，两个byte/hash精确匹配，未执行数学。完整jobs3258B/b87cd125d35603bf9fc1e4401e0f7d43c74660ca1297fefaa5be7ed388cfd9d4同head。
+
+同norm790/root763/body3070完整rc→root且bump0，原signed K1 strictpositive新门与原root给q−约.01501539266/q+约.01520363885；原wholeK未改。四ΓwΓp、所有domain/Rp/inverse moduli与六functionalcoeff原字读，不重失高导；只新两joint Bfree·g的whole-strip Cauchy及四physicalreadout。samecase总完整球为原actual所列7.777840454050863754…e18，全部input H−4/3、两reference两sign、完整δ1e−8和L2density+两mean；strictnormalizer/真phase/incoming/CE/全R0未付，大upper不是障碍下界。
+
+末真pull19:08:51.740463至1f1e9f4ffb3cf283f2e7d4789f5e5bc1d21e66fe，三README空diff。该次完整topic metadata198754822B、两最终小件后198819284B；中间execution draft50149B与最终51791B已分清。temporary10129B/bc778424仅hash、stdout0，未发新artifact/Release/数组Git。此成功锁定，后续TN只读q/四列，不再跑本consumer。
