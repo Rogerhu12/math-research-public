@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:04:14 UTC 已读 6a454a0a0fd6bf05491ef54da92d465f52bbb105，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:09:12 UTC 已读 395c80c863a0a488acd82e75a626660da99cbc8d，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -44,11 +44,11 @@
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：5440e2e0/befe77fc、原C3600/112/16pins；严格pivot/全误差/幅因子链、逐cut商后hull，prepared仅commit付。25M/14400s/free2GiB，18900仅启动clip计划，硬限250/360min；完整mode/cut/leaf/unpaid读，大ledger仅身份，四读回+marker+owner静止才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑argv失败0科学；仅接线重发request626e3111/wf23442307，实际43736658472/sourceb5a36d87，geometry核R358。
 
-[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐，whole2888+1精度未付；far m2..16完、m18 work-unit200000止，完整9616闭栈/10387末索引/m20..224未起见原文。native client未启动、非原试步拒。168保完整112/采样与新射影源及资源，禁只扩cap冒保障。
+[R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐；far m2..16完、m18在200000止，原9616闭栈/10387末索引/全后缀保。native未启动，不是原试步拒。
 
 [159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)：λ.001/R320九p/699×453只初猜，57pins同job C/factory/sampler→真实H/J/原FD→453fullDN/fresh audit，8outer/17inner/32×10保；315min科学计划/45min读回、BVP7200clip，独立组signal/读错阻清。共同准确C/JSexp/无限DN另付。
 
-[R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)已证原QF=1同取向行：每候选保σ=sign(a_f)，σR/||R||后才hull，不要求height或全候选共用chart。范数必须严格隔零，数值代表非准确C成员；缩放可改变数值残差权/轨迹，不冒旧153等价浮点结果。geometry接168实际源。
+[R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)先按每候选原幅符号归一化、再hull；范数须隔零，数值代表非准确C成员。[168接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)九件已发：25pins、R347全幅/误差、14400+1800按剩余比例clip并预留native3600；18900仅启动计划/360min硬限。原112/32×10/2e−9及η1/η0保，完整读回与owner静止后清；待实际run，不冒旧浮点轨迹。
 
 ## 公共坐标与九控制方向
 

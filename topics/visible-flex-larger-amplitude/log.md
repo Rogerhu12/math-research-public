@@ -161,3 +161,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:04:14 UTC /root — R360完整当前残差差额定理
 
 发表13761B/f11d3084完整证明，核原145 hook/core/flow：d=b+Aq+s准确分开两基点路径、真实状态形成和有限割线，cut/far仿射抵消，原norm与准确提升分责；172实际观察待实现，不改接受门。API核6a454a0a0fd6bf05491ef54da92d465f52bbb105双README未变，真pull保。
+
+## 2026-11-15 17:09:12 UTC /root — request168完整射影far与native入口
+
+九件及全部差异核后发布，workflow最终c88fed7d修正新reader schema允许表；25pins/原C与全部112门不减，R347/R357及完整未付账保。18900为启动资源计划非绝对科学kill，清理须全部读回和owner静止；无实际数值预填。API核395c80c863a0a488acd82e75a626660da99cbc8d双README未变，真pull记录保。

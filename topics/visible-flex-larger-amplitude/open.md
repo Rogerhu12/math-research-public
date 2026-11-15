@@ -138,3 +138,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R360：同一当前正H的完整残差差额
 
 [R360已证](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)把实际trial与保存仿射预测之差逐129248行写成b+Aq+s：b为同状态noJ/withJ差，q为真实trial形成差，s为实际有限位移割线缺陷；cut/far的s仅剩原仿射形成误差差。准确sigma-max与原打印norm分开，完整差额上下界成立；导数/Taylor解释另须明确准确参考及全段条件，不把IEEE程序视为可微。172由root从原145同六p/H/warm真实重生，完整观察原已访trial及明示较小步诊断，不改原接受、worker last或32×10。未有172实际值，R343 raw不能由SHA恢复；不预断方向误差/舍入/非线性哪项主导。
+
+### Request168：原物理端完整射影传播及同取向单位行入口
+
+[168完整接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)五源/recipe/request/workflow共九件已发布，25直接pins。原C3600、两查询、deep112、闭逆像全覆盖、全部误差/幅因子符号和prepared/commit账保；R357每候选先严格范数归一化再hull，不除高度，无法付范数保完整族与未付责任。sampling14400+1800在实际rules启动后按剩余同比clip并预留native3600；18900不是通用kill钟，360min为平台硬限。新数值行可改变原浮点轨迹，必须在同far矩阵上重算完整native：一条明确+0H、32轮/10试探/2e−9、η1/η0、full112/338/fresh audit全保。全部实际读回success、同run/source marker及真实owner静止后才清；资源partial不冒数学拒。尚无实际168值，source/run由发布后官方metadata绑定。

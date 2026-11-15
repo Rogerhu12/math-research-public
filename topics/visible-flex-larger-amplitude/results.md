@@ -262,3 +262,5 @@
 - [Request167必要科学范围收缩](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)：第四次实际114703B超限完整登记，c01e5469/eee0607f改为84原trial七列、18FD层/真异常和末方向，完整大矩阵只身份；不把工程未传出范围冒主控已读，不影响164独立推进。
 
 - [R360：当前正H完整残差的有限割线与状态形成分解](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)（已证，无新数值）：全部129248原行d=b+Aq+s；固定cut/far仿射抵消、原sigma-max上下界及明确C²参考的Taylor分解。为145当前映射差距提供可测责任，未预断病因、导数精度或新接受。
+
+- [Request168：当前C全幅射影传播与完整单位Robin行运行接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)：九件/25pins、R347/R357全闭候选与误差；原zero-H full112/338/audit门保。明确两phase资源裁剪与真实owner读后清，未预填native结果或同一准确C实现。
