@@ -3,25 +3,21 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** f945ef5d5aee4d8222dc791e39a0709b661cebbc（2026-11-15 06:38:04 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 17c05ccae23d1e652b21ebc6208199238fd3dfbd（2026-11-15 06:46:02 UTC，Actions run43686921106实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43686921106-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
 
-## R150：当前精确源及未付条件
+## R150：当前29真核及未付的原目标成员性
 
-原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。普通ISP及char0目标成员性仍开。完整旧H与所有已证常数保[本次快照](notes/2026-11-15-handoff-before-joint-source-recovery-789f.md)，不重已经关闭的页。
+原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。全部旧精确状态保[本次H全文](notes/2026-11-15-handoff-before-twentynine-exact-kernels-789f.md)，旧未列范围不算关闭。
 
-- **[九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)**已全成，run43674463008九实费1339，原17式/6188源/4367输出/六辅助/315/505/carry全真。旧数据已依规则删，历史main0d642288/审计保身份，不重旧二/三页或末九列。
-- **[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)：** 同来源界/目标/31分母指数于无界精度可解才给有限Z_(31)解；当前p6不够。原固定子式D自然度8770、公共有限K60；条件费用必须先有Q[s]成员性，保模降度另需lc(D)31单位，均未证。
-- **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
-- **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 从486只接新282位，512/640/768全4367整数乘回/自由I36真，69旧核相符；39重建未成仍23。全部实际参数及SHA见回执，不作有限31-Smith到Q的跳跃。
-- [23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)已严格仍23维；旧13核闭包/同D候选亦关闭，不重复。
-- p768的52/26/39个确定LLL基候选均全原核完、新增0；[最后39候选证明](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)保首次未完成及同格保基实绩，不再试格。原17式rank8/quad17及m0,m1的31单位精确消元已成，selected有限来源仍须运输；完整链接见open。
-
-- **[标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)**和[旧来源保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已付；**[同J支撑模31恰29维](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)**实际run43679903558/math1.575719778秒，外1834×1632秩1603、全外核及36自由像rank29，像恰slots0…28，新增六轴17/18/19/26/27/28；Q只上界29。精确稀疏准备实际0.412781492秒，无可剥行，core1808×1632/44362项/132bit；同job已接原1603方块Dixon与29RHS，300秒/2GiB每进程，结果先存再全1834残差/6188来源/4367整数核验，不重原位数。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
-
-- **[Koszul的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)：** 187/17原单位子式给ΓΦ=I、直和与31饱和；成员性须核全6188及斜对称，投影不保J，不能把外核mod31当Q。
+- [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九实际费1339，全原来源/输出及carry真；不重旧模页，数据依规则仅历史可查。
+- **[真Q标准Koszul支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：** run43679903558/math33.711323768秒，原1603方块Dixon+全部1834残差，29列全6188来源/4367整数输出真，36自由像rank29、并旧23仍29。故旧23确属该空间，新增6真方向，char0同选秩4318…4325；标准族已穷尽，继续其外至多7个未定方向。
+- 同4354选列mod31秩4318/连接3/36自由I；不得混全6188秩4340/连接4。[模31前29轴](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)已付；本次Q像是否也等于前29轴正在做精确小图探针，不凭模31猜。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
+- [187注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)、[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)及[31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)均已付；ΓΦ=I，标准来源31饱和，但投影不保J。
+- [真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)三个全原检查点/自由I36真，当时仍23；[旧23完整一次闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)严格仍23。52/26/39确定LLL候选全原乘回非零，该入口结束，不再盲增位或换观察行。
+- 原17式线性rank8/二次rank17、m0/m1的31单位真消元已付；有限来源运输仍保。[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)须同费用/目标/分母指数于无界精度可解；p6不足。原D自然度8770、公共有限K60；任何条件降度须先有Q[s]成员性，模幂降度另需lc(D)31单位，均未证。
 
 ## 同w边界：完整返回仍须费用估计
 
@@ -42,8 +38,9 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地最近成功pull读026eba3773bcbab72d7e909e52ecb0ca75d7e5d9（06:03:08 UTC），两README未变；后续加--no-stat避免为diffstat拉历史大blob。临时session **43679903558**每步真实pull/readme核验，持有p768/paid23和8原历史输入；Koszul外支持已成，接精确Q提升。20分钟空闲/6h job上限，数据仅临时。
+本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；当前精确free29图，随后七非Koszul。20分钟空闲/6h job上限，不持久化大数据。
 
+- 29真Koszul目录work/koszul-exact-rational-support；basis.gz1670175B/SHA b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808，free36.gz29488B/SHA24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249；完整29列证书散列见实际小回执。
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
 - paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
 - 会话请求 notes/2026-11-15-r150-infinity-remote-session-request-789f.json；新步骤必须新id，sources及scriptSHA全锁，完整候选小元数据放parameters供sanitise保存。主只推小文本；生成大来源留job，禁止旧二进制工具/Release上传。
