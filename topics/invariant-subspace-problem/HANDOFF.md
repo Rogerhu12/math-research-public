@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open；有限模型、候选排除或阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 8bd0cbfcb41e856a1bcacc892843f79514822b85（2026-11-15 04:11:42 UTC，Actions run43675670586实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43675670586-1.json。
+- **最近成功实际 pull 与已读规则提交：** 8f2ac134b6a94fa767eb81cd9855f10382d21baa（2026-11-15 04:17:09 UTC，Actions run43676076376实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43676076376-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿和证据blob。每结论立即推；每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。
 - 根迁移授权仅Rogerhu12/math-research-public；token仅CLI临时环境。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、job≤6h、账号≤20并行。数学用美元符；Markdown≤100KB、H≤10000字节、log每条≤5行；原数据>1000000B压缩、每存储文件≤5000000B，分片4500000B。
 - 全部未列状态、实际来源/SHA/旧限制保[本次完整H](notes/2026-11-15-handoff-before-strong-weight-balancing-789f.md)及递归快照；未列open不视为关闭。根本地独立sparse clone，原旧树文件保留；大任务在本库Actions，root发布已改精确文件sparse避免整topic下载。
@@ -12,7 +12,7 @@
 
 原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同，char0成员性仍未证。第二像rank4/208后继，第三像rank2/九局部全正，旧原数据实际推cef83145，旧局部页不重算。
 
-**九原17模31⁶最新已实际全成：** run43674463008/job132691449653/source88be0c86从33阶段/716像行检查点续最后三步，数学537.367185056秒、包装19.031772277秒。九目标31²h0t_j(j2…10)全部17原式/4367输出原产品模887503681零；九实费均1339≤1345，全部原行缩放、六辅助、完整315/505及866320个q1 carry坐标均真。623恢复3746395040原字节；compact14145044532 SHA7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e。当前数据实际发布步骤运行，根已核compact全部文件SHA，正在写完整证明/索引；不得把此有限模身份当char0。完整真实来源/recovery/results由数据工作流保存，无需下载GB包到本地。
+**九原17模31⁶最新已实际全成：** run43674463008/job132691449653/source88be0c86从33阶段/716像行检查点续最后三步，数学537.367185056秒、包装19.031772277秒。九目标31²h0t_j(j2…10)全部17原式/4367输出原产品模887503681零；九实费均1339≤1345，全部原行缩放、六辅助、完整315/505及866320个q1 carry坐标均真。623恢复3746395040原字节；compact14145044532 SHA7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e。原完整数据staging push在约2GiB处HTTP500失败，623恢复/证据包完整；[实际全记录](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)已保。此提交发布独立publication-only入口，恢复同两包并逐字节核623文件，只分每批≤400000000B依次真实push，再pull/rebase推main；不重数学、不force。根随后写全证明；char0仍开。
 
 **原六槽范围全保：** [1345全证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)保七raw q1、四真W2、主第三源父系数[344,409,327,102,1,16]、真D2及s/t整数carry。真来源链177→373→469→665→761→957→1053→1249→1345，实际最后1339。中间p4禁止未缩放κ9；既有完整原式均保已付域和全部输出。
 

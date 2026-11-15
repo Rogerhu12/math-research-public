@@ -34,6 +34,13 @@ def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2) + "\n")
 
+def copy_immutable(source, target):
+    """Keep immutable saved data once on disk; never change a linked file."""
+    try:
+        os.link(source, target)
+    except OSError:
+        shutil.copyfile(source, target)
+
 def pack_tree(results, output):
     """Keep every actual result, compress large plain files and split at4.5MB."""
     output.mkdir(parents=True, exist_ok=False)
@@ -66,7 +73,7 @@ def pack_tree(results, output):
             candidate = source
             item["storage"] = "unchanged"
         if candidate.stat().st_size <= MAX_PART:
-            shutil.copyfile(candidate, target)
+            copy_immutable(candidate, target)
             item["stored"].append({"file": str(target.relative_to(output)),
                 "bytes": target.stat().st_size, "sha256": sha(target)})
         else:
@@ -356,33 +363,69 @@ def main():
         if target.exists():
             raise RuntimeError("this exact run/attempt result directory already exists; do not overwrite")
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(pack_dir, target)
+        shutil.copytree(pack_dir, target, copy_function=copy_immutable)
         write_json(target / "publication-before-push.json",
             {"source_commit": source_commit, "run_id": run_id, "run_attempt": attempt,
              "lastRulesReadCommit": last_read, "rules_sha256": expected,
              "publishScope": str(target_rel), "forcePushUsed": False,
              "actualPushResultIsInThePublicationArtifact": True})
-        git("add", "--sparse", "--", str(target_rel))
-        staged = git("diff", "--cached", "--name-only", "-z")[1].split("\0")
-        if any(name and not name.startswith(str(target_rel) + "/") for name in staged):
-            raise RuntimeError("staged path outside this exact result directory")
-        git("commit", "-m", "ISP R150: save actual six-slot global sources and original mod31six continuation " + run_id)
-        # Advertise the large immutable data once before the concurrent main retry loop.
-        # Main publication still uses actual pull --rebase and non-forced push.
-        while True:
-            staged_commit = git("rev-parse", "HEAD")[1].strip()
-            staged_branch = "isp-789f-data-" + run_id + "-" + attempt + "-" + staged_commit[:12]
-            proc, stdout, stderr = git("push", "--progress", "origin", "HEAD:refs/heads/" + staged_branch, check=False)
-            state["stagingPushes"].append({"commit": staged_commit, "branch": staged_branch, "exitCode": proc.returncode})
-            save()
-            if proc.returncode == 0:
-                state["advertisedDataBranch"] = staged_branch
-                break
-            rejection = (stdout + stderr).lower()
-            if not any(word in rejection for word in ("non-fast-forward", "fetch first", "[rejected]")):
-                raise RuntimeError("actual data staging push failed; all recovery bytes retained")
-            if not pull_and_check():
-                return
+        # Bound every advertised data pack before the final main retry loop.
+        # All mathematical bytes and the complete final directory are unchanged.
+        maximum_batch_bytes = 400_000_000
+        paths = sorted(p for p in target.rglob("*") if p.is_file())
+        batches, batch, batch_bytes = [], [], 0
+        for path in paths:
+            size = path.stat().st_size
+            if size > MAX_PART:
+                raise ValueError("stored file exceeds fixed part bound")
+            if batch and batch_bytes + size > maximum_batch_bytes:
+                batches.append((batch, batch_bytes))
+                batch, batch_bytes = [], 0
+            batch.append(str(path.relative_to(checkout)))
+            batch_bytes += size
+        if batch:
+            batches.append((batch, batch_bytes))
+        state["maximumAdvertisedBatchBytes"] = maximum_batch_bytes
+        state["publicationDataBatches"] = []
+        save()
+        for batch_number, (batch_paths, byte_count) in enumerate(batches, 1):
+            git("add", "--sparse", "--", *batch_paths)
+            staged = git("diff", "--cached", "--name-only", "-z")[1].split("\0")
+            if any(name and not name.startswith(str(target_rel) + "/") for name in staged):
+                raise RuntimeError("staged path outside this exact result directory")
+            git("commit", "-m", "ISP R150: retain actual original mod31six data "
+                + run_id + " batch " + str(batch_number) + "/" + str(len(batches)))
+            while True:
+                staged_commit = git("rev-parse", "HEAD")[1].strip()
+                staged_branch = ("isp-789f-data-" + run_id + "-" + attempt
+                    + "-b" + str(batch_number) + "-" + staged_commit[:12])
+                proc, stdout, stderr = git("push", "--progress", "origin",
+                    "HEAD:refs/heads/" + staged_branch, check=False)
+                state["stagingPushes"].append({"commit": staged_commit,
+                    "branch": staged_branch, "exitCode": proc.returncode,
+                    "batch": batch_number, "storedBytes": byte_count})
+                save()
+                if proc.returncode == 0:
+                    state["advertisedDataBranch"] = staged_branch
+                    state["publicationDataBatches"].append({"batch": batch_number,
+                        "files": len(batch_paths), "storedBytes": byte_count,
+                        "commit": staged_commit, "branch": staged_branch})
+                    save()
+                    print(json.dumps({"status": "data-batch-advertised",
+                        "batch": batch_number, "totalBatches": len(batches),
+                        "files": len(batch_paths), "storedBytes": byte_count,
+                        "commit": staged_commit}), flush=True)
+                    break
+                rejection = (stdout + stderr).lower()
+                non_fast_forward = (
+                    any(word in rejection for word in ("non-fast-forward", "fetch first", "[rejected]"))
+                    or ("cannot lock ref" in rejection and " is at " in rejection and " expected " in rejection)
+                    or ("[remote rejected]" in rejection and "failed to update ref" in rejection)
+                )
+                if not non_fast_forward:
+                    raise RuntimeError("bounded data staging push failed; all actual recovery bytes retained")
+                if not pull_and_check():
+                    return
         if not pull_and_check():
             return
         while True:
