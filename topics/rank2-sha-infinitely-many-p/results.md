@@ -382,3 +382,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R750](results/R750-whole-source-residual-divisor-and-specified-forcing-residue-rows.md)：已证明原r≤13的完整值forcing含实际ξ/末十三影响，原低列整右逆保高尾；全WD曲线值超出H3的自由度准确经过残余除子E′的真实主部像。Rosenlicht/Serre对偶给杀全原像的留数行及指定全值可解充要门，临界额外边界仅O(b)；值解后完整normal/两13/d2仍须同R，指定残数非零未付。
+
+
+- [R752](results/R752-native-mod-p-two-source-closure-and-point-inertia-extraction.md)：已证明原深门全Y正交使第一因子仅需degree34p，完整τ块由Dk与type3第二线给唯一模p函数；伙伴深度及相位全保。primitive去Yunit后整源为C Dk，实际正六矩读C并由原过滤式得有限窗口至少一C非零。规范étale theta平均精确读加性零系数，点惯性平凡部为p c0/(p−1)，原全部补域/λγ与中央缺口保留。
