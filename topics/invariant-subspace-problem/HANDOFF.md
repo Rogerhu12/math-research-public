@@ -25,9 +25,9 @@
 
 ## 活跃执行与恢复
 
-- 旧run43740928483自17:24:27运行170分钟loop/180分钟job，前18步actual完成，约20:14结束。新350分钟loop/360分钟job已排，由exact-continuation-session源码/request接替；每30分钟/每步/推前实际pull核两README。新run号待实际dispatch回执，未假定跨job临时缓存。
+- 旧run43740928483自17:24:27运行170分钟loop/180分钟job，前18步actual完成，约20:14结束。新run43756208221已20:06:58启动，350分钟loop/360分钟job，由exact-continuation-session源码/request接替；每30分钟/每步/推前实际pull核两README。第五原重算及8phase/manifest全SHA恢复已actual成功；其余依赖继续核。
 - 新job只重原第五、P、常高、第六、第七高/低；每段新数学仍全原乘回、单独记录真实用时。恢复助手仅还原gzip时间和旧receipt明确给的RREF用时元数据，所有phase及manifest全旧bytes/SHA成功才接受；不改任何数学条目、不上传大数据。未完成恢复的依赖步不执行。源码/参数见notes/2026-11-15-r150-exact-continuation-session-request-789f.json。
-- 最新第七binding8a9a52e60045cb4124f90e73ce2cb210d98f88acae2802287bd5e17a56d2ab42；4120×16pack逻辑17e518267cd5a1091cf5dccdeaf39f2645020bd6a967ce4b4df1dad26481f43f。第八待实际强迫。原多项式P core56×22另排300秒/2GiB，无历史大输入；先核原17式/224×13核/119×22乘回和degree/height，再续全行模gcd，不预填Ω或Q60。
+- 最新第七binding8a9a52e60045cb4124f90e73ce2cb210d98f88acae2802287bd5e17a56d2ab42；4120×16pack逻辑17e518267cd5a1091cf5dccdeaf39f2645020bd6a967ce4b4df1dad26481f43f。第八真实高forcing已排90秒/2GiB（outer130），显式保两高项与11incoming的λ7高系数，先全99008原低阶乘回；不预填高零或β8。原多项式P core56×22另排300秒/2GiB，无历史大输入；先核原17式/224×13核/119×22乘回和degree/height，再续全行模gcd，不预填Ω或Q60。
 - 全源码/参数/run/SHA小回执保notes/r150-source-kernel-session-789f/；旧执行和所有缓存名、精确阶段SHA保[本次归档](notes/2026-11-15-handoff-before-infinity-seventh63-789f.md)及正式稿。旧已结束job临时数据不可假用。根独占main/H/open/results/log逐结论实际push；代理交冻结稿。
 
 ## 同一个w的边界：测试已控，完整返回仍开
