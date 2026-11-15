@@ -179,3 +179,5 @@
 - [R212：完整真实pure成本的C1截面](results/R212-C1-sections-for-complete-real-pure-cost-control.md)：R70小桥/固定整数复制及完整R56恢复给E_P真实C1；两商截面在最终响应n前固定，n大有限使盒自映射/严格收缩，IFT给固定有限词D(p)、πVD=p、M=T0/frameI。外扰动需全P近恒等IFT同时修Q/L，非仅响应t。共同scalar包络、可变长度速度和全部基准保留；尚未付任意完整低阶扰动或全字无常段。
 
 - [R213：两个真实mixed源、平台不变量与合法八矩gauge](results/R213-two-mixed-sources-and-gauge-invariant-platform-obstructions-after-pure-closure.md)：pure0后Vθ=s²Vd+2csVe，三个原低阶场给Vd/Ve及两个Green目标；f全右带0使两mixed源消失，内部平台却仍须Vd″/Ve″0。R56左尾二次系数=½∫kK，M0让k杀W，故两个ruling标量对所有合法二/三gauge不变，未判其值。w_E=Φ_ED以原八包七差分付六矩，period恰为κK_E,H；不是任意独立gauge的canonical因子化。
+
+- [R214：无开常段的真实全pure控制与精确闭hook](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)：flat端jets扩展R109/R130成本归属，正则前缀/有限复制/真倒行保满锥；仅用R71交换子选pure响应基，六类真实词结构保M/T/frame。九行原语IFT后全P IFT先保精确成本，再于整个精确解集Baire去掉所有发生位置的开常段，保倒行坐标、全部校正块及Klein新位移。未授mixed/ruling或同g有限族；全flat拼点是否仍触原σ²障碍另由R216正审。
