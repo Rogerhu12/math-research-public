@@ -36,6 +36,8 @@
 
 [72完整字节附记](notes/2026-11-15-actual72-completed-byte-reader-addendum.md)由reader43658612002实际小原件对应：199domain/1284NPY、108condensed/38完整阵、14raw415120992B、65源及13+13observer；45056行、7101实际列、zero-layout空。五原报告副本、四公开报告和warm逐字对应；完整chainQR原未导出，不冒全因子审计，不重下605MB、不新增后继接受门。
 
+74唯一请求d3bc7e4a与共享workflow40ca08e5已按[23-query完整接口](notes/2026-11-14-twenty-three-query-condensed-interface.md)发布：只补实际nearest MID484，47104行/7101实际列/zero空，原15LEFT+7MID保留。四新源755d9bf2/1fe5b698/1eb07544/06ed3a98和47pins核同，11shell/6inlineAST通过；完整C4059/outside、lambda270/512/200/17trial及原FD保持，等待真实run回执。
+
 **同父λ比较：** [67正式结论](notes/2026-11-14-actual67-lambda27-same-base-tradeoff-and-byte-comparison.md)。66/67均从actual64出发、同20query/W/b/g/B，分别λ270/27。66接受1/16、总merit43.7556914034461；67接受1/512、总merit43.77799655333434，但同row461最大col为.007108963566953459，较66 .007109134582008451更小。最近拒步均唯一left466。67 stationarity1788.5803704212726/gap2194.117175196217是有限预算结果，不能称精确QP最优。完整181B/1168数组+b/g/c逐字同、14新raw已核；第一版工程失败保留。
 
 **70完整实际比较已保存：** [八试步结论](notes/2026-11-14-actual-request70-lambda27-nearest-left465.md)、[原读数](notes/2026-11-14-actual70-original-readout.json)和[完整有限数组对照](notes/2026-11-15-actual68-70-same-parent-finite-array-comparison.md)。run43656059206/sourceab974f19与68同actual66父/同21query，λ27接受1/128、nearest1/64仅left465；merit下降.022438101524329568，physicalmax.007108143274268264，FD7.114402626034738e−10。完整QP仍有限512/200预算，localradial.485662、finalstationarity2700.34/gap5001.264，不称同精度最优。原publisher规则行冲突已由reader43657876708真实恢复，科学无需重跑。两轮190/1226阵中336Gamma/rows和b/g不同、c/Pi/beta相同，五A输入SHA报告不同；所以不能把表现唯一归因λ，也不能以hash判断只末位。原70是额外warm与同父算法实验，不替代72主线父场。
