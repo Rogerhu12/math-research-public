@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **genuine Darboux 比较与完整 incoming 因子化（已证解析合同）**：[IN1–39](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md) 精确消去 common potential 的一阶 transport；完整非零根 β 矩阵用输入对角的 −4/3 阶估计。18 个旧正算法系数合法回读 profile，全 τ 三 profile 给可直接新 scalar 的有限正预算，保两重建源/均值。stable 因子仅在有序自然域抵消；incoming 的 L2/H−4/3 两门、完整 finite 三行及 dual H4/3 费用都保。新 phase gap、strict-tail、实际 comparison/全 R0 与选定高逆尚待，不授 cutoff97 或所有 s。
+
 - **真实 H1 角图的二次余项与完整 97 边界费（已证）**：[CH1–24](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md) 保真测度与完整 mean，仅用未知一阶角导给 RC≤r e、RB≤rs+2re；两态 norm-sum H1 球上余项 Lipschitz≤16ρ。结合 CPA/AR 后，实际完整边界只付一次 κ，二次项≤128||h||H1pair²、差分项≤2^11ρ||Δh||H1sum。physical gamma 准入、fixed-height 条件、真实 cut H1、affine/腰/high 保独立，不授 core 存在。
 
 - **AR实际帽一次积分消元、完整affine与独立height源**：[证明](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58。沿同真实A0凸球积分CP导数差，Ef为L2-Lipschitz≤κ，NF边界N∂+ΔB合成一次完整κ；exact chart余项与独立Cmean μ²/[m²(m+μ)]不删。固定sB下，两原normalized height球的完整97差源<2^-60；λ/height span/腰和实际tail选解导数仍独立。RW既有四字段直接组成非零affine预算，未重旧计算；physical入口及非mean H1 chart余项待付。

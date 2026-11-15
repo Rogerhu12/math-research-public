@@ -64,6 +64,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PC合同](results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md)5368abae与[actual正侧完整强修正](results/R133-supplement-actual-genuine-positive-Airy-cutoff-and-complete-strong-correction.md)b2acc64a：43740173506/1 child0/30成功锁；exec75f780f6/science9da04f0b/预Git25dcdce7与全部原球已核。仅same实δ≤1e−8/η0下H−4/3→原density L2pair+两mean的s0修正：正pair≈9.65e7/cutoff≈1.28e30/waist≈1.018228e33。trueAi/非零βn/χ两曲率行/PH L(PLχh)/两sign/真T与dr/9word+5mean/finitehead全部保3c74同open及原文。correction stable0不删trialstable；不授其他s/fullR0/incoming/phase-physical finitecross。DG/RJ域限制、负乘积逐字及首schema0新math保，成功旧数学禁重。
 
+[IN genuine Darboux与完整incoming因子化](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md)d4ac47aa已解析核：精确Yd=Y−BY′/n²、w1V=w1+BK w0消一阶；全根β矩阵input-diagonal阶−4/3，不用HS求和。18旧正算法系数反推完整p/q三阶，samefold条件下新全τ27产品保持两(τρ)^−1/4、真实ds=T dτ与积分2，无旧profile重算。IN24两inhom重建源、density0/1、两mean与free R2/R3全部保；strict-cut比较须sameprofile/全canonical segment和m3=Xφ−3|ωφ|>0，实际新数值未付。stable S只在ordered自然域消；IN32同时χ0<1和χ−4/3<1、IN38有限三行与IN39 dual H4/3不可删，不授97/其他s/全R0。P22 strictcut不等SP rplus−1/200，仅未算尾段可新传播后原序接旧SP prefix。下一最小新scalar消费旧14幅度/18coeff/完整M与potential，不重PC/旧scalar/原幅度。
+
 [NF散度型非线性源与完整五输入接收](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)9c33e882已解析独核：同νδ、Qbar=Qδ，N=∂φV−β(〈C_h〉h+〈S_h〉Qbar)，两mean不删。Π96∂φ只付384，wholeordinary值λ与真正Lipschitz分开；wholeC0/β,G,K域须实际付，不借右collar。
 固定Sδ的真97 residual以actual帽图在(γQδ,fB)求导，ΔB作用全hL+hH、baseaffine/非线性边界/mean全保。左腰U原96正交行、无α/第二ρ，b0δ=−UQδ(0)不预设0；W=ψUᵗb0与W−GδDδW给同F fixedcap三窗左Poisson解析费。
 因此xY≤gY(rδ+nδ)+pY qδ+aY yB+cY yC+wY||b0δ||，其中qδ保完整真cap差与N∂，a/c已含selected费不重复oldload。全high、真νphase/右高matching、wholeC0/独立H8193/边界Lipschitz及NG numerical门仍待；未跑新数值。
@@ -117,7 +119,7 @@ $||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z
 
 [RB右帽ordinary](results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md)e87d247a的moving pairL2≤80physicalpair-sum保全mean/反射；完整affine Aδ,+非零，fallbackρcap不授低门或Σmode sup。
 [RC宽C0](results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md)0fd5d845仅原γA0<1e−9/fBdotA²<2^-60、同反射域上的右[.9,.95] C0<8.2297e−5；左wholewide、same-state/H1、窄MA/core独立。
-[RW43729429382/15](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)ba084af5/ec6e088f/daabac14六χ全pass，same-q双向核/sourceq/outputq/H(L,t)=0/两mean/13ρ/outer齐。κ3/4右physical≤5.620922e−8+1.890860γ、innerB≤2.874429e−8+2.293827γ；κ1/2 Cmean≤1.921662e−8+.401425γ。movinghigh96/288用80且knownδ高差0，fullselected仍加10d√len。affine上界非残差下界；真实低receiver/帽差/左core/有限cut仍待。
+[RW43729429382/15](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)ba084af5/ec6e088f/daabac14六χ全pass，same-q双向核/sourceq/outputq/H(L,t)=0/两mean/13ρ/outer齐。κ3/4右physical≤5.620922e−8+1.890860γ、innerB≤2.874429e−8+2.293827γ；κ1/2 Cmean≤1.921662e−8+.401425γ。movinghigh96/288用80且knownδ高差0，fullselected仍加10d√len。affine上界非残差下界；真实低receiver/wholebody帽差与实际入口/左core/有限cut仍待，inner差已由本页CPA支付。
 
 [R selected完整残差](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)及MC保fδ=f0−δb0+δrmean e2−δ²T2−δ³T3、连续repair/offset径导及interface抵消、96/160/224/288；旧7296积分只读，true f=0依赖实际core。
 [DB/SB完整分带](results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md)e94ed0d7/65357a91保base64、H96仅33..96/H288仅225..288低腿、ΔAΔd/χ′/mean/两side；knownrank按真实输出消，inputGram不能造shell或局部receiver。

@@ -134,3 +134,15 @@ fresh main 3e339597c1d88d2b4bd1c424b256adc3b74ccf7f双README未变。路径修�
 完整旧mean求和球和所有身份/门已保在science。新selected-angle KH/Ej/derivative数据、root有限代数和root-entry四source/error列、首cell新mean曲率/interpolation/speed/subdivision量此前只在内存未写doc，runner已终止；这些未保存的新量属于用户已授权lost重做范围。只准重做这些未保存新量和继续尚未完成的signed transport，任何已成旧scalar/root/response/ray/KAM/积分禁止重算。修补须用精确integer转换，并将新angle/root小结论提前写doc/原子保存，以便后续故障复用；数学公式、域、参数不改。
 
 runner17:52:50.649438真pull2357e678、17:53:55.263160真pull81041a9ee8ed1534e2ba35e3613622f42431972d，双README空diff。topic实读199599974B、发布预计199616177B。本次压缩前H/open/log/results完整逐字保81041a9e同路径及其递归归档；所有mean/源单位/旧失败/restore/域与未付义务继续有效。
+
+## 2026-11-15 17:58:11 UTC — IN 完整 genuine Darboux、全τ正预算与 incoming 有序合同
+
+root fresh main 03fff0556f6e2e96bd34a372b47884d91dfef54b双README未变。本结论独推f13509b4d0afc691cfc95d86c0f8e5562f919129/33894B/SHAd4ac47aabbaa6869553ec33b87d2234c66e8a76e70c19f3f3d76817ccfb9bd75。root全文读IN1–39及全部新增IN17a/b、IN21a–e；亲读原A62909c54/15528/0e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49的A.5/A.19–20、原Vfa639ec8/20436/36fc2a7a7fc6fa6f683e2e9a7559cc81246f6e91bea2fc50a57c1ba2d9b7eb6f的V.6–18，核物理n=4|j|、完整两genuine列/两sign/全mean。newton独核IN23–27/32–38及新增τ链。
+
+root另取原C producer73000ad65fec776ae9faeac70376e8b4326589bb/47184/b0648a3bc244e6671176ac096c759b3e70e57d8c04b75bd4dd74442bfcaf95c0，逐核positive_linear_calibration和CompleteOperator：四旧rows同profile/cover/mean/3branches、径阶[0,0,1,2]且只幅度径导；Ks/β的β是算法正输入的lower，不是函数范数lower。每候选都支配同一κell，其min保samecoefficient资格；known整体operator-min未用于18系数。故IN17b回读合法，不是任意负阶norm升L2，不重算原profile/标定。
+
+Darboux准确余项−(B″+VB)Y′/n²，w1V=w1+BK w0使一阶全函数消，R2/R3与两inhom源保；非零根β是两column输入对角阶−4/3，不能HS求和。新全τ27项保内两(τρ)^−1/4、外ρ^-1/4、Wronskian频率与真实ds=T dτ，唯一标量积分=2；fullcanonical sT、samefold及m3=Xφ−3|ωφ|>0仍须实际核。root仅为§8首句补显式sameprofile/IN21条件，防止误读为P22数值gap已过。
+
+stable trace从Y=N^-1Z及Nout S Nin^-7/6按原序保，correction stable0不删trialstable；只能在对应自然域取消同一右因子。incoming χ0与χ−4/3分别由高输入/高输出得到，两门都要，IN35两primitive和余2/3高嵌入齐；有限三行与dual H4/3跨块保，physical P96不与ray/KAM projection交换。P22 near-root cut与SP .005cut不同，仅其未算尾段可新增完整primitive-mean传播后有序接已成prefix。当前无新actual comparison、fullR0、97高逆、所有s或非线性闭合；PC s0旧科学锁不重。
+
+顺澄清open RW末句旧“帽差待”为wholebody帽差/实际入口；inner B+Cmean差已经CPA严格支付，不再误列全部帽差未完成。

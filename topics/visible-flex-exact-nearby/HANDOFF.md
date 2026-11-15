@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 17:55:59 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 17:58:11 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 17:49:19定时/17:21非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤18:49，ref不冒pull；runner实际pull见SN及原日志。
-最近只读README核：3e339597c1d88d2b4bd1c424b256adc3b74ccf7f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：03fff0556f6e2e96bd34a372b47884d91dfef54b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保81041a9ee8ed1534e2ba35e3613622f42431972d同路径，递归保3c74/e9e0d67a/63905及全部旧档。压缩不取消任何旧域/mean/单位/失败/restore和未付义务，成功数学禁重。
 
 ## 同一个对象与总验收
@@ -29,6 +29,7 @@ PF5856c8cf/CT341a9463保完整physicalχ=g1pt+2g0dφ*/3、oldI/八source/全部m
 SN6e906170/H3全source/mean/seam/真measure域保81041a9e。首43742905967 child1/9门cover路径错，无新target，execf0cd8f45/science4bbe4fd4完整无lost；修补2357e678后43743531149/1 job132901707889仍failure：198pin/8AST/17门全过，transport511 int(arb) TypeError，0完成subcell。exec689c0264/14548/0c157226、report6e1b4347/1655/d21ef384、science5147/2b2d1bca与mean已保；new angle/root有限代数和root-entry四error列、首cell mean曲率/speed/subdivision工作未保，允许仅这批lost新量重做。不能称0新数学；旧3146/scalar/root/ray/KAM仍禁重。SCI4d5a1ccc/helper32ce7e3c/worker c091e1dc/manifest a97b4c9f/flowd6493f2e现态，修复精确整数转换并前置小结论保存中；无H3常数。runner17:53:55.263160真pull81041a9ee8ed1534e2ba35e3613622f42431972d双README空diff。
 AC6527fa46保C≤2^20||c0−μH′||H3；CN427387a2旧linear路线μ²/4不得删。ENed2ff38e仅直接signed R=ζUΩexp(McI)+Eexp0后给e26C[Rexp0+67|μ|C/8+131C²/512]，不可upper相减改名。
 GH0ffb191a须完整R:H(s−4/3)→Hs与χ=128CsΛJ^-1/3<1；J97/C0≤1/32仅目标。phase接真实incoming/非零stable取消/normalizer与physical有限cross，projection不可交换。actualC/完整R0或Rexp0/所有s/两H16/全mean-source/真β/ν Schur均待。PD58bdf173的真实DFΔ、rho15一导损/第四Robin/mean/腰/D²/smoothing/迭代保持，不以同阶Neumann替代。
+INd4ac47aa精确Darboux/incoming合同已核：Yd=Y−BY′/n²余项−(B″+VB)Y′/n²；原w1V=w1+BK w0准确消一阶。全根β矩阵按input-diagonal n^-4/3收费，非HS；18旧正coeff可合法回读profile，全τ三profile保27项/两(τρ)^−1/4/真实ds，积分2。两个重建inhom、mean/fullfinite均保。stable S以原ordered domains消，incoming χ0及χ−4/3两门、有限三行/双行H4/3必须保；m3/常数/全R0/GH仍待。P22≠SP .005cut，仅新尾段可算，旧prefix禁重。
 
 ## 同态core/帽、低高trace与几何：tail_connector / root
 
