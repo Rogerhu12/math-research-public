@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [HSA：实际已知高频源及 physical 4j 负一阶输入](results/R133-supplement-actual-known-core-high-sources-and-negative-one-inputs.md)：43759656502/1 child0、18门；三whole tails与三负一阶整候选均为新公开Actions scalar，旧CR/RH/ST及SH/Ed/mean/repair完整原字复用。ordinary约3.31747e−16/2.16220e−16/6.43897e−26，H288严格0；不授未知state或强返回/完整逆。proof SHA b176bfb184f5dfda6a28ed35ff80b3d2a4b42095ec3870f0b8efc7ed5428ee64，成功冻结。
+
 - [HS：完整已知核心高频源及负一阶小计算合同](notes/2026-11-15-R133-known-core-high-source-and-negative-one-contract.md)（2026-11-15，18a683a215c4b28dc56ec029ed0c02013b42e083f95f463c9d5fa7e3850ac2f7）：原CR成功小对象和RH精确支持给3个ordinary尾、3个physical4j负一阶尾与>288 exact0；每个minimum选择同一个完整norm的全record。只普通源和ST真[0,rc]限制，未知解/phase/H−4/3不获新claim；数值待public唯一原运行。
 
 - [AW：完整P22锚定free trial强比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)（2026-11-15，SHA256 694b36473b8d9b8bc704c7db02b2399b5666b399525c6dceb8d372fdc977d40f）：真positive列减同P22锚定free首transport、完整齐次延拓到腰，其H−4/3→原primitive L2pair+两mean范数≤已完成C_PC+C_ST,4。两物理行连续与PC§9源限制免新cutjump，保非零stable/完整finite root/β/两sign两wave/独立PW ports；仅difference有强延拓。尚需free firstsymbol首遗漏、严格传播defect及实际waist receiver，非全incoming/R0。
