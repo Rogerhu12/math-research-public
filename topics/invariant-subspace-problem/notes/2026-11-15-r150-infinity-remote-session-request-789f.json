@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "847937a64ebf461fde0bd7f7517839982d871380",
+  "rulesReadAtCommit": "824aa442dd7cd49f3b18bfe8110c42779d680743",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -259,6 +259,35 @@
       ],
       "timeoutSeconds": 225,
       "receiptPath": "{work}/graded-joint-lll-p768-retained/graded-joint-source-lll-receipt.json"
+    },
+    {
+      "id": "koszul-selected-support-f31",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-koszul-selected-support-789f.py",
+      "scriptSHA256": "fb8045033c74de29c2d8842d13457bcde370c8de7926ea3cc39897b65a771d4d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--native-model",
+        "{native_model}",
+        "--point-model",
+        "{selected_model}",
+        "--selected-receipt",
+        "{paid_dir}/selected-infinity-minor-dag-receipt.json",
+        "--out",
+        "{work}/koszul-selected-support",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 85,
+      "receiptPath": "{work}/koszul-selected-support/koszul-selected-support-receipt.json"
     }
   ]
 }

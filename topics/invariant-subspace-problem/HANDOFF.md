@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** c594eeb060f25dbc9c48911b4ec6511497692c0f（2026-11-15 06:09:34 UTC，Actions run43684145293实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43684145293-1.json。
+- **最近成功实际 pull 与已读规则提交：** 5fb734d370e59697c711f46213735b35a9554f31（2026-11-15 06:13:01 UTC，Actions run43684412799实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43684412799-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[完整快照](notes/2026-11-15-handoff-before-original-unit-elimination-789f.md)，旧未列缺口不算关闭。
@@ -17,9 +17,9 @@
 - **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
 - **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同run43679903558只接486→768，实际数学103.691783465秒/编译4.072821423秒，512/640/768全4367新鲜整数乘回及自由I36真；39重建未成、69旧核相符，仍23真核。有限31-Smith估值下界不作有理核。
 - [23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)已严格仍23维；旧13核闭包/同D候选亦关闭，不重复。
-- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。[共同26维候选](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)也已完成：15.251823463秒、26个基行全原4367乘回非零、新维0；仍23真核。观察仅13行，候选失败不排格组合。[原17式结构](results/R150-appendix-original-infinity-small-linear-quadratic-blocks-and-two-unit-eliminations.md)已付线性rank8/二次rank17及N0,N1对m0,m1的31单位常数消元；有限selected来源须运输。旧观察只低次，余自由全degree3。两分块39维首轮native返回84.744295063秒时预算止，候选0、基未保存，不作否定。[同格39候选](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)已全完成106.654747120秒、全4367非零，仍23核；basis/T仅临时保，不再换格，接真Koszul支撑。
+- p768的52/26/39个确定LLL基候选均全原核完、新增0；[最后39候选证明](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)保首次未完成及同格保基实绩，不再试格。原17式rank8/quad17及m0,m1的31单位精确消元已成，selected有限来源仍须运输；完整链接见open。
 
-- **[当前∞的1632标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)：** 原17二次头×11变量的286×187块有187阶子式mod31=28，故187注入；逐次数比较迫136关系及1496一次倍在F31/Q均独立。下一步仅算同J外1834×1632支撑秩；不能把mod31外核当Q，现23核是否属于此span仍须原来源表示。
+- **[当前∞的1632标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)：** 原17二次头×11变量的286×187块有187阶子式mod31=28，故187注入；逐次数比较迫136关系及1496一次倍在F31/Q均独立。已接同job koszul-selected-support-f31：同J外1834×1632 RREF，子进程共享60秒硬限/512MiB每进程，先保输入及RREF临时。模31外核不作Q，现23核归属须原表示。[旧660+972的保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)与当前标准空间等同，当前17缩放全31单位。
 
 ## 同w边界：完整返回仍须费用估计
 
@@ -38,7 +38,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地已清两失败fetch临时包3828207615B；禁用git diffstat后实际pull成功：026eba3773bcbab72d7e909e52ecb0ca75d7e5d9（2026-11-15 06:03:08 UTC），两README与已读规则一致。后续本地pull用--no-stat，避免为统计取历史大blob。实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新joint-source-lll-p768实际已完成（见小回执），同job临时p768仍可接结构分析；最长job6h，未许可大数据持久化。
+本地已清两失败fetch临时包3828207615B；禁用git diffstat后实际pull成功：026eba3773bcbab72d7e909e52ecb0ca75d7e5d9（2026-11-15 06:03:08 UTC），两README与已读规则一致。后续本地pull用--no-stat，避免为统计取历史大blob。实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新39维原候选已完整完成，当前接Koszul外支持；20分钟空闲终止前继续，最长job6h，不持久化大数据。
 
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
 - paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
