@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:50:19 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 5466c0e47ab67845ff91d9023abdcd4d0ccbb176。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 11:51:01 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 8832e7ff291efe5a4ffe5b7134621a95efa7e863。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -54,7 +54,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)显式新g：准确core→两速度Hermite片/coast→cut三次collar匹配原合法尾E两jet，九degree6/7/8独立且0邻域开可行；旧p不自动可行。有效选窗需收敛oracle，公共u=s/L须L²拉回。准确factory650a/数值profile与薄AugmentedFlow接线正在发布；新C自身尾响应/J尚需实际建立，不能重标旧e788零J。
 
-[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)仅1378/1440片；[136 R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)1800.0188949619999s/SystemError，21334panel/56738有限component，日志1386片但producer返回0/全[0,1440)未付，整query0/Rout空。139须确捕ResourceStop保partial并用完整w同号/χ恒1端点积分降成本，同1440片/六primitive/深根/原预算及全宽门；未知SystemError不伪改。
+[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)仅1378/1440片；[136 R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)1800.0188949619999s/SystemError，21334panel/56738有限component，日志1386片但producer返回0/全[0,1440)未付，整query0/Rout空。[R306](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)已证完整cap全C²及完整w同号/χ恒1三端点积分；139确捕ResourceStop保prefix/partial，同1440片/六primitive/深根/原预算及全宽门，未知SystemError不伪改。
 
 [九450 closed接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)及[连续metric接口](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)保九冻结/全六jet/四Loewner/两帽/DFS，5e95/92cf只接真完整接受父；全J/FD/fullDN/finalaudit仍须真实付，无接受450/闭场。新E源须显式consumer绑定。
 

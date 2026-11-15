@@ -122,3 +122,5 @@ R288提供的具体后继是保128状态、完整primal和明确所选有限root
 [R305完整证明](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已直接登记：独立literal Gram全部2M+1矩对方向收缩，准确实Cholesky/两回代导数与线性解等价，共享角点局部偏导、全部几何/226RK/mean/port/cut/far链式保留。名义分解R、两回代a/b及其导数不能由点残差小而删除；新128运算次序不冒R283逐字等价或方向误差证书。配套operator草稿源独立发布和实际执行继续，137不改，不增加fixture门或以性能猜全224完成。
 
 [133 R308实际完整128射击](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)现已登记：从原失败状态fresh64 J，当前完整128 RHS重做R273并以lift(σ)·lift(z)恢复，唯一α=1接受后完整原norm9.68582474751023176032080482454992093e−11低于原2e−9，真实stop shooting-tolerance-reached。全部576段/129248行、独立fresh128 residual和576×226输出逐字同值，无墙钟截断；所有native/fullDN/全列/338/audit仍false。原末态已清，137同job重新形成现场后接完整责任；此实际进展不支持继续盲调η或猜word，更不单独证明几何完成。
+
+[R306完整证明](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)给完整cap低/高transition同一多项式、±L两jet接合，真实valley/flat/cut覆写后的同一w为C²；χ恒1且整个闭panel的完整q同号时，A/√E A/wA三积分由完整w端点给出。端点所有possible branches并集、原range交集及原全宽门保留，B三项/两χ过渡/未知符号仍原路径；未知异常不改标签，仅确捕ResourceStop经ValueError还原并返回连续已付prefix/全部pending。v3 f12f7470与139同域同预算执行准备中，不假设成功或加fixture。

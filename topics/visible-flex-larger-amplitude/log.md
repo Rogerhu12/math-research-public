@@ -408,3 +408,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R308实际133完整128射击达到原容差
 
 [R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)全文读后直接发布；root独立重建28389B原report JSON，核8f88fa6a4010099bbf104b39270ef611478e16d6cb19faa01e4d4d409c953d5b。当前128 RHS的新完整R273与唯一α=1原评价接受，全部576段129248行norm9.68582474751023176032080482454992093e−11，shooting-tolerance-reached；独立fresh128两全数组逐字一致。保128方向恢复与fresh64旧δ之别、模型gradient原大值、受控64 sentinel及native/fullDN/338/audit未付；数据清理后不hash续接，137当前现场责任继续。R305已推a80ec193，根/题README仍21bd/bff。
+
+## 2026-11-15 /root — R306完整cap端点积分证明
+
+[R306](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)全文直接发布，6f359330；root已读v3 f12f7470完整相对0040 diff及integrate全部控制流。证明三积分使用cap/valley/flat/cut后的完整w，绝非raw替换；同号须整个闭panel，端点全possible branches，原B/χ过渡/全宽门和全部pending保持。Budget只对确捕ResourceStop转传，未知SystemError仍真异常；139原输入/1440片/六primitive/1800秒实际入口继续，不以fixture作门。R308已推3ee8c03b，137仍付完整当前128 final。
