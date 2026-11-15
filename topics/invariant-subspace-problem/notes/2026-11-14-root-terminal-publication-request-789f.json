@@ -1,14 +1,15 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "9515d5aaf7c68f8efd366438d6bd81ce73c3486f",
-  "createdUtc": "2026-11-15 00:12:51 UTC",
-  "message": "ISP: pay all carries and nested jet losses for saturated pages",
+  "parentCommit": "8a25fc5755617cad737f67284a9f33c5af300140",
+  "createdUtc": "2026-11-15 00:25:33 UTC",
+  "message": "ISP: pay global weighted-shift carry and anchor the true head gauge",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-global-gauge-anchor-and-saturated-second-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",

@@ -374,3 +374,8 @@
 ### 2026-11-15：完整饱和包的多层整数carry及20→15→10→5精度（789f）
 
 [合同证明](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)为完整Bsat后继付三次原A的Smith损失：同一R2保20项及模p4，q2后D3保15项/p3，q3后D4保10项/p2，q4后D5保5项/p；全部原乘积仍只模p6。每次先用char0原像/模p满秩小子式排free，再以真实五项torsion类支付形式像，规范整数t截断先于p整除，q选择差连全部新增B坐标运输。第一页基选κ8和L3,2两真实p3来源，第三原纠偏为pκ8、pL3,2而非改变零位的κ9常数项，故无p7缺口。完整第二204来源的十项余量和真实后继核必须保留；新第二/第三页尚未运行，局部正仍须全局原来源、全部315/十七式及实际次数费用。
+
+
+### 2026-11-15：全局后移到真实头gauge的carry误差与W配对锚（789f）
+
+[证明](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)将每个输入n=dℓ+r的完整二进借位写成原权比，所有更远carry统一给||B^k−B_m^k⊗I||≤α_m=d_m/W_(d−1)（1≤k<d）。对z/F_m的同一Taylor截断p_m，用ρ=exp(−25d³/2)的真Cauchy系数得到||p_m(B)−G1,m||≤exp(−80d⁴)，m≥10。BM⊂N及T/B交换使P_M p_m(B)*w=d0w严格成立，故P_M G1,m*w近d0w且完整自配对近d0||w||²；正整数a同样保绝对误差与压缩常数d0^a。没有在全B上代入无限逆级数，也未用全环境gauge范数。切口高尾及带gauge的真正左最小化误差尚需共同支付；ordinary右链/高返回与N=M未关闭。
