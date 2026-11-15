@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** c3c2932fc50a3b17bca8eaaa7f73fcdd6f11afa8（2026-11-15 17:46:10 UTC，临时研究session run43740928483实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 82f650d0f4a6d8d468f2a70cf938bc3ba11071e2（2026-11-15 17:48:21 UTC，Actions run43743149592实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43743149592-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -16,7 +16,7 @@
 - [零点完整来源](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已闭：长66/次大55/max11，九s³t_j在像且t2恰需三阶；965328原产品，正谱保原稿，不再第十二。
 - 原full∞常rank4340/14正Smith。[新完整原模31谱及余28](results/R150-appendix-full-original-infinity-mod31-length66-and-output-projection-gap28.md)实际正谱1⁴,3,4³,5,6,7,8,10,11/长66/次大55/max11/自由13；真Q仅δfull43…66、次大39…55、max≤27，不能搬模31单个指数。
 - [原局部差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：W=(I²)≤5，len(W/(L∩W))=δA−δP；差≤e则t^eW⊂L。完整170+54g行保6188来源，g零点只除η单位。
-- [负六](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)P/full同谱1⁷,2,3/长12，W全在原像。[二点](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)P同谱，但full仅12…28/T≤16，九h0完整局部成员性仍开；新完整β1,Q=7/首项15已实夹。
+- [负六](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)P/full同谱1⁷,2,3/长12，W全在原像。[二点](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)P同谱，但full仅12…28/T≤16，九h0完整局部成员性仍开；[完整β1,Q=7/首项15](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)已实夹，九tj modt²及九h0tj modt³有原来源；完整正谱1⁷,a,b（2≤a≤b、5≤a+b≤21）未定。
 - [O完整模31谱](results/R150-appendix-original-koszul-outside-field-smith-length149-and-remaining-gap.md)：O1834×1632、常rank1603/29正指数，总149/max14；Q仅29≤σ≤149。原两项δfull_Q+σ_Q≤215<243，故该固定两项判据已不可能封leading单位。精确分解vdetB=δfull+λ_I+σ+δ_high；模31现已[定位λ_I=2、δ_high=26](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)；同I^c的12单位行加单标量始13u²，δA_I=68。同原A_I子式约化给Q联合δfull+λ≤68；本轮原Q13已实际付λ=2，故45≤δA_I,Q≤68，leading单位必要δhigh_Q≥26。
 
 ## 会话、已闭局部与当前恢复

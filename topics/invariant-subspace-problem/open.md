@@ -143,3 +143,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [完整normal3高核及首项稳定](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)实际以F11 rank988与两真Q核夹逼，完整990列高核恰二维；结合全609低系统，所有normal≤3一阶校正仍仅十五首项。normal4/5及完整β1转原好11的整单位连接夹逼，不能仅用行内容缩放后的H3秩代整个参数族。
 
 [完整原二点第一连接实际回执](notes/r150-source-kernel-session-789f/43740928483-two-full-original-first-connection-field11.json)已覆盖全部normal4/5：同原常单位在好11下实得β1=7，与15真有理首项的上界夹为β1,Q=7；完整首项恰十五维，任意真第一校正的九平方读数全零。此前“完整β1/normal4/5未覆盖”状态由此关闭；二阶及完整局部成员性继续。独立双202准备现在使用full32/O35真实原系数、分别支付11与14的精度损失，仍须两个完整原native运输后才形成高商。
+
+[完整第一连接与有限阶目标成员性](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)给精确β1,Q=7；Q[t]/t²的双湮灭付九tj∈imA+t²V，故九h0tj∈imA+t³V。完整正谱只缩为1⁷,a,b（2≤a≤b、5≤a+b≤21）；不能把九平方推成整个W的有限阶结论。继续全22原头的三阶单位Schur，完整局部成员性仍开。
