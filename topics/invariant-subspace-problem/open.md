@@ -146,3 +146,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **真核已增至20，条件费用8735。** [完整原证明](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)给同选列char0秩4318…4334、D∞≥20、单换列≥19，故已有Q[s]成员性时共同费8735；未证明成员性或lc(D)31单位。实际200→256为27.216322355秒，全部4367原整数核验，源码/参数/输出SHA保留。继续真486的新23核证明及余13方向，不保存可重算大数据。
 
 **真486已23核，特征零秩上界4331。** [自足证明与条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)保全4367精确零/36自由I；新增slot8/9/15，D∞≥23、任意换列≥22，共同费8732仍条件于成员性。实际256→486为108.172096014秒，512只是请求上限。源码/参数/全部SHA齐；本地不可用后只在临时Actions读真486，先核23核完整低次数空间与一次变量闭包，不预填低次数维数；未满36再续新位。大可重算输出不存Git/Release。
+
+**首段损耗已将源演算锐化为精确δ收缩。** [完整正平方证明](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)给两右C_s*K C_s+I≤δ²K（K=B,H），准确抵消左+I，故真S_b/S_f的幂界为δ^k，无sqrt(k+1)。自足有限模型给无损圆盘演算及原逆芽误差4d0²εδ/ρ；仍须保至h−1。H−B的同源返回和完整两费比较继续，不可直接相减两端Stein不等式。
