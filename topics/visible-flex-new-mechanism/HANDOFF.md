@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`02c1adbed64980473f1cd01060c458129e4f5a38`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`0415fad7b4f5e44c3a0942d55a19af76025db484`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 00:35:51 UTC实际pull至`5c483e6c1e62c21293b0bbbc2c75c3cb97154b84`，两规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0035.json。下一私有pull不晚01:35 UTC。
 
