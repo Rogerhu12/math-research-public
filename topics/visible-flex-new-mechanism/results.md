@@ -349,3 +349,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R406｜两完整权零自然函数与实际canonical全自然零障碍
 
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)（19217B；SHA256 81e8a9f034572e81302ac6bef29d7e0668eb18a9fea5c5e7961ff5b15c869972）。唯一run43775998866/job133002325378/source d47749f7…保全部原N0/Γ/mixed/同锚tails，给n6=0、n2=∫12项局部密度≠0，完整24Euler及Lrr非零因子列全文。原n4=−c0n6故n4=0；自然/增强权零商准确1维。Nall核真缩放稳定，得kerNall⊂kerλ+及[H^-2]有限系数读出；原实际M0 canonical闭成本λ+=∫k²=L+∫(h′/h)²>0，因此全部紧profile自然通量同时零不可能，T=τH和常h亦不例外。有限当前profiles、独立w与主课题不被这条universal结论自动排除。实际8新人工通过，科学6.656628646s/RSS114136KiB，旧pure/self/rank0；完整输出hash/费用见原actual note，不存payload。
+
+
+## R407｜同矩连通路径固定self外区与全部实际通量的有限数据
+
+[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)（17154B；SHA256 8a0cf4baef0d60db4e0a7312c3a266dab38cf8ea510d69c18ececc4150f93007）。原M0/同端口闭frame下sameµ内区路径使完整Z(u,dotu)双侧0；dS=−4PH(Z,Zdot)左P2/右0，wholeQ0杀二次而非仿射，故两cap S″准确等于完整固定u0。R405有限N纠正盒含0给真实同纤维路径，不称中间19值仍零/全fiber连通。全部镜点两通道给原cap+实际ω_i/ordered A_i；保真wi与suffix，总量可由7n固定自然查询±极化准确读出。cap每宽68生成、全68|W|非rank。R406使universalΛ0不可实际建，本稿只把有限actual问题显式化；全像/仿射平台/k值/13同规范未付。纸证无新执行。

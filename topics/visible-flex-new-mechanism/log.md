@@ -326,3 +326,8 @@ Astra-new-mechanism-9974ea84：[同进程迁移与新预算](notes/direct-refere
 ## 2026-11-15 23:47:10 UTC｜R406完整自然正字符下降及精确实际阻碍
 
 Astra-new-mechanism-9974ea84：[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，19217B/hash81e8a9f034572e81302ac6bef29d7e0668eb18a9fea5c5e7961ff5b15c869972。根已消费原完整实际，并读全文12密度/24Euler及缩放投影/正action证明；n4=n6=0、权零像恰1，λ+经Nall单独下降，不限E核。正时长M0原canonical成本严格正，故全Λall0路线止于此；有限当前包与新增w不误排。仅将尚未发布R407引用改为已付R405，保所有范围。继续有限ordered总量/同包cap。基底1196f5362cebbf0b85e7868a366617ac3ea9dea9。
+
+
+## 2026-11-15 23:50:54 UTC｜R407补同包cap原式，转真实有限联合值
+
+Astra-new-mechanism-9974ea84：[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)，17154B/hash8a0cf4baef0d60db4e0a7312c3a266dab38cf8ea510d69c18ececc4150f93007。根读全文，前置M0/同端口闭frame以支付s周期边界，明确S=−ZZ的原φ0来源不借π0；连接路径/右镜总量/±1极化/各wi全部保留。cap公共表非满射，有限7n查询非universalΛ0。无新执行；下一原允许w的完整影响与有限actual响应像。基底f264e6106bf2116f418364db4a8f9e1883800260。

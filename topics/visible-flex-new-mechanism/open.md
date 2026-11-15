@@ -178,11 +178,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)原τ*全c0/a2p²/𝔄u0，八响应保wholeE/Λall0；partial在Af点为2p²(pw″−rw′)，不沿旧Af因子。真负布局倒二微包suffix非零、12副本C像准确ε·ρ⁷Pol≤3，≤4第二通道与≤11 Hd块三角独立。可实际(F,A,Hd,C)，另可actual wholeE0并付≤4点两个germ；两截面不拼。其它退化点、全Λ及13同规范仍欠；下一继续原Z内其它c0局部方向的真实内部像。
 
 
-### R401同包两个镜像退化点的四通量实际联调已付
-
-[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一最终偶包的ξ±y处，K0/K1两Hd与τ*真linear/quadratic尾两C成4×4可逆block；所有原型/倒行/桥/Klein和后置截面成本保留。分别actual wholeE0且两点d/e0，或actual(P_LE,A,四raw)，不拼wholejoint。R391只授有限简单根，不授仅一对；下一读原ψ/保护区及同19值纤维，研究全部Af根/全部包条件，不重做这四行。
+R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R403/405使该包恰一对Af根，不能据此升级全包实际满射。
 
 
 ### R403/405保十九真根与共同外区，继续全部包的真实像
 
-[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)在内区restricted affine空间取真最大F秩，原19完整C1集中/正核给有限根，外区准确ψ3且每包两Af简单点；原actual宽w_i各自保留。跨包period Q=L+Σm_jJ_j，wholeE0仅消m_j″，二阶成为局部；全Λall0再由原3+2与Euler齐次给显式三次current。全部镜点C_i=a_i³J_{n_i}共用含真w/suffix的有限表，同宽每侧≤21生成、总≤42|W|，非秩或满射；共同平移可至8次。actual仅wholeE0，右镜仍保原ordered总通量。下一闭同包S_u″在cap的真实纤维不变式，求全包actual响应像/13同规范；不拼分别截面。
+[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)在内区restricted affine空间取真最大F秩，原19完整C1集中/正核给有限根，外区准确ψ3且每包两Af简单点；原actual宽w_i各自保留。跨包period Q=L+Σm_jJ_j，wholeE0仅消m_j″，二阶成为局部；全Λall0再由原3+2与Euler齐次给显式三次current。全部镜点C_i=a_i³J_{n_i}共用含真w/suffix的有限表，同宽每侧≤21生成、总≤42|W|，非秩或满射；共同平移可至8次。actual仅wholeE0，右镜仍保原ordered总通量。[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)现闭sameμ内支撑真实连通路径的S″cap不变，前提原M0/同端口闭frame，Q0但不额外π0。全部d/e左右镜点公式保完整u0 selfcap、真wi/suffix与整包ω_i/A_i；≤7n固定自然查询准确读totals，cap同宽68生成/全68|W|只是上界。实际全Λ0已被R406排，下一求这些有限共同值的真实像与13同规范，不拼分别截面。

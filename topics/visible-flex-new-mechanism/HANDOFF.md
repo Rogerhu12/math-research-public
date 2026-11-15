@@ -40,10 +40,9 @@ R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A�
 
 原R391保19完整条件/解析端、p中心单零、Af有限简单；p禁residue抵消，每Af完整germ iff同锚累计F0。[R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)新选ψ3P母基而非旧数值纤维：paired三导集中、完整t²+C²余、真max-F minor/19点对minor/12交替正核给有限N完整19根；每个实际最细包恰一对Af简单零且p仍中心单零。实际u′×pulse≤0、外区相对C4/端C3保无新增根。原复制/全部F_rat条件同付，旧数值g未改变。R397改用raw Hd/He，合法incoming Lf不改这些值；全E0时C=RiHe+TiHd=a_i³𝔞_i(x;Σ后(TiRk−RiTk)μk)，局部旧K全盲。完整8-copy cell首末suffix0，真实全部矩/平台费用保留。
 
-[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)新τ*=64(χ34−3χ32)−𝔍/2有a2p²/c0/自伴Au0，八响应wholeE/Λall0；partial=2p²(pw″−rw′)在Af点无Af因子。负布局倒二微包真实n非零，12copy C像ε·ρ⁷Pol≤3，≤4对应C与旧≤11Hd联调。
-[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一偶包镜点ξ±y的K0/K1两Hd与新τ*两C构成真4×4可逆block，付该两点两period。二者分别有actual wholeE0+指定内部零，或actual(P_LE,A,指定内部)，**两种截面不拼wholeE+A/Λall**。R403使指定penultimate包这一对就是全部内部Af条件；其它包/全局门仍欠。
+[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)/[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)：τ*=64(χ34−3χ32)−𝔍/2有c0/a2p²/Au0，核E/Λall，Af点partial=2p²(pw″−rw′)。真倒二包suffix非零，12copy C像ερ⁷Pol≤3，≤4C可同旧≤11Hd联调；同一偶包两镜点K0/K1+τ*两C成4×4可逆。分别actual wholeE0+指定点，或actual(P_LE,A,指定点)，不拼全joint。R403只使指定包四query覆盖其全部内部门。
 
-[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)改在内支撑限制空间取真max-F/同19根，全部包外区精确ψ3、各自真实宽wi保留。跨包Q=L+ΣmJ，wholeE0只给m″0；全Λ0再给三次局部Euler current，全部C_i=a_i³J(n_i)，同宽≤42生成、共≤42|W|非秩。actual仅E0右镜仍保ordered总通量；同包S″与真实全包像待闭。
+[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)改在内支撑限制空间取真max-F/同19根，全部包外区精确ψ3、各自真实宽wi保留。跨包Q=L+ΣmJ，wholeE0只给m″0；全Λ0再给三次局部Euler current，全部C_i=a_i³J(n_i)，同宽≤42生成、共≤42|W|非秩。actual仅E0右镜仍保ordered总通量；[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)补原M0/同端口闭frame下sameμ内区连通路径：Zdot两cap0，dS左P2/右0，wholeQ杀二次使S″cap同完整u0。全d/e镜点=共同cap+真ω_i/ordered A_i，≤7n固定自然查询可准确读全部totals；同宽68生成/总68|W|非秩。真实全包像仍欠。
 
 R394只在实际wholeE0/Λall0前提下：全部简单Af两通道、k′延拓、gap积分与k值双collar、真实incoming m*和平台代价进入13rhs。sinθ付0/π seed；原deg4矩阵/deg6rhs的Smith零行恒等与圆上整除jets给全相位光滑iff，局部重数≤4r≤52不含零行条件，非rank。全period与同一k/同规范仍未实际支付。
 
