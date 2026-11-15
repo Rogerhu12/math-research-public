@@ -322,3 +322,8 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 ## 2026-11-15 21:55:56 UTC｜guard五源与首次入口安装（未执行）
 
 [notes/observed-curvature-defect-primary-guard-implementation-20261115.md](notes/observed-curvature-defect-primary-guard-implementation-20261115.md)，8945B/hash8a36fb71…；core35055B/d04e56fd…、outer48568B/4a3b6dde…、dev29288B/4be459de…、transfer20945B/7ac5f872…、audit31920B/df8eb689…。4新组18项(5/5/4/4)只人工数组，旧20/19/26/cache不执行；actual算法尚未运行。根全文/outer逐diff核，tail独立核transfer/audit接口。开发375构造的局部依赖mock明确人工、退出恢复，生产链不patch冻结源码，设计已精确化。新workflow4305B/hash199af979…先actual pull及双规则核，request另行触发，所有新科学仅公开Actions。H/open同步；仍未完成。基底2f785827f9120c0152b672a8a4bea51511d6bc48。
+
+
+## 2026-11-15 21:57:02 UTC｜main并发更新后立即安排actual rebase
+
+新guard请求的expected-main更新未确认且main已并发前进；没有重推该研究请求，也未开始新科学。先提交纯规则request visible-new-mechanism-rebase-after-concurrent-main-20261115-2156，唯一动作是公开/私有实际git pull --rebase及双README/QUEUE核对；待原receipt确认后才重提交guard请求。此提交只为执行不可用本地终端的实际pull，不以API读取冒pull。当前基底0b0df54767eb78bdcd1bead472c236887bcc3762。

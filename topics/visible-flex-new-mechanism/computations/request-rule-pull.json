@@ -1,7 +1,7 @@
 {
-  "request": "visible-new-mechanism-hourly-rule-only-20261115-2020",
+  "request": "visible-new-mechanism-rebase-after-concurrent-main-20261115-2156",
   "repository": "Rogerhu12/math-research-public",
-  "goal": "Perform only actual git pull --rebase of public and private rules, compare both README files, and verify the existing authorized QUEUE status.",
+  "goal": "Immediately perform actual git pull --rebase after the guard-request ref raced with concurrent main; compare root/topic README and private rules before retrying any research publication.",
   "expected_readme_blobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
