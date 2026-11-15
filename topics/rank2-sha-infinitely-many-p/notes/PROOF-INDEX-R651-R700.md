@@ -110,3 +110,5 @@
 - [R689：原forcing整最高项消去、较低charge返回与双边界修正](../results/R689-original-integral-top-charge-reduction-and-complete-forcing-return.md)：明确H_top不除最高系数，Kred=K−FH_top保曲线值及全十九角，degree≤3b−h+且有双严格边界消失；原真实F³Q来源返回D0+3−h+（一般+2，h+≥3同预算）。两个normal修正、全Γ/两13行和同R完整保留，下一项modf的显示余式阻止免费迭代，未判指定d2非零。
 
 - [R695：原CM共同核心、真实词像格与A/Z双门](../results/R695-original-cm-word-domains-and-a-z-carries.md)：固定奇覆盖上全CM fibre逐支与四轴三态及A两层核心交换，外单位s=ζbarα/α保全部216真实共轭词域及三原算术行；A端十二次Δ和浅双H门全保。原A²W/WA²两域在非零角域交叠而返回深k−1/k−3，完整参考差消未知JH′，未删任何补域或将不同来源相认。
+
+- [R696：原绝对根的共同p²域与线性高度迹](../results/R696-original-absolute-roots-p2-field-and-linear-height-trace.md)：所有a_T的p根同在F2并共享次数≤p的W/F，F2全次数及唯一p位付清；规范b=−Tg^d/a给原全H迹与全G传播。固定倍点循环付h(w)≤常数，非零实际边界v≤O(p/logp)，不添j0传播/高Q/无穷非零。

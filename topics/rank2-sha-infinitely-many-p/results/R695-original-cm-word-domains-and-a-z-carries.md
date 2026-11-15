@@ -614,3 +614,7 @@ $$
 [R682](R682-original-opposite-corners-and-uniform-unit-difference.md)；
 [R686](R686-original-yz-core-and-same-source-st-unit-failures.md)；
 [R692](R692-original-four-axis-three-state-and-arithmetic-unit-cuts.md)。
+
+## 已完成的公开脚本核对
+
+公开 run [43684255990](https://github.com/Rogerhu12/math-research-public/actions/runs/43684255990)、job132721269948、source e335b329641fbc78c451bafa6285bf9be66a2ff1；本篇脚本默认参数退出0。脚本SHA256为832cd9145c575c322623195e18278a841faedb62850133c773a017bfe26cb939，stdout94170字节，SHA256为3c921df41731a29ac7a138e3d9cf2ffb881fdf8f88f35766e80b8a7a38cd3fab。只登记脚本/参数/run/hash，不保存可重算报告。首次run43683930350仅因stdout显示预算失败，本次完整hash核对成功；正文一般证明不依赖复跑门。
