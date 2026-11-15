@@ -29,7 +29,7 @@ root负责。完整物理cap连续逆、连续中心精确共轭以及残差Hess
 
 对任意完整moving even输入h2，在r=.9记物理共轭块HB、HC；物理完整cap图为KB、K0。S是完整v乘composition，odd h1主系数恰I。完整非mean帽行是h1+S(HB−KB P⊥HC)h2，独立mean行是Π0HC h2−K0 P⊥HC h2。全mean和source/参数列保。
 
-旧97输入矩阵及其完整high输出只授low→full的合同；它不授未知无限high→low，也不授全cap仅有M32带宽。须建立真完整算子交叉或支付其真实上界，再同主体/正高图联立。
+旧97输入矩阵及其完整high输出只授low→full的合同；它不授未知无限high→low，也不授全cap仅有M32带宽。须建立真完整算子交叉或支付其真实上界，再同主体/正高图联立。 新[伴随后验A1–29](results/R133-supplement-full-cap-adjoint-high-to-low-boundary-grams.md)已给准确全频分片恒等式及97方向误差Gram，PH Iφ显式high输出仅在既定odd/even反射类使用；原fullcap κ支付ordinary/Hessian、全部jump及真实Robin/mean缺陷。待新的97伴随试验与完整composition尾、Werr/WT实际认证，再同右Poisson HY合成；不转置旧forward列授反向算子。
 
 newton_source继续给正高图的body和cut两个真实输出。现成given-head七源八输出的L∞与每行reconstruction可支付trace，但其head定义在整个正区[rb,R]，包含帽[.9,R]。须用真cap Poisson恢复该head，或重新证明截到.9并接真cap HH图；不能把帽内head设成0。
 
