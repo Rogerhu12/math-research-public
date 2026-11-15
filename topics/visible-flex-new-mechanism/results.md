@@ -327,3 +327,5 @@
 - [R158：秩一PSD边界的完整null曲线充要门](results/R158-rank-one-PSD-null-curve-highest-action-criterion.md) — 权−2、a0=0、c0>0、4a2c0=b1²时，加速度型为c0h^-2(b+βka/h)²。全null速度路为k=Kh^-β并保真ω积分，完整面积及五项Q4给逐点L4=Eβh_s⁴，受限路径非负iff全state Eβ≥0。有限时长3的光滑flat实现，不除零速度，不推PSD内部/全action/实际可达。
 
 - [R157：D0一般pure九项恒等与34维pure零核](results/R157-general-pure-D0-identity-and-34-dimensional-zero-pure-kernel.md) — actual43659795254只消费R151九原基/存储代表，D0新402项原差fresh零，九Q系数原式完整保存。E_D=R−2+span(G³,J,D0)恰43维、pure像9、核34；G/J/D0全部轨道pure入响应，完整新商仍独立。0旧40/31/新采样，0.138s/RSS34.281；U≥239与lineality/query237不变，不另开平移链。
+
+- [R159：pure消去后balanced mixed忠实决定完整成本](results/R159-balanced-mixed-faithfulness-after-pure-cancellation.md) — 完整两槽K/L令B=2K−Lᵀ；pure恒零时V=B(f²,f²−φ²)，其mixed(2,2)恰−B(qbar²,q²)/16。有限实profile子空间复极化证明该投影单射，故先消pure后的完整成员问题等价于balanced原差。R151既有31条关系直接给响应核31真基，R157已知核34忠实保34；不重算旧列/关系或新采样。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B，二者合起来忠实；不假定输入相位保持成本锥或授新signed control。
