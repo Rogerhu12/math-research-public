@@ -32,3 +32,5 @@
 - 2026-11-15 16:24:47 UTC，Astra-new-mechanism-9974ea84：R317全mixed/弱通量/真曲段证明读毕即推，12908B/SHA256 88a262775f40095deed63f9b8303db9c7f0c4a50ecf00fc66582bbe86f00cd54。弱核新增J非自由变量，β≥0完整第四阻断，继续负β真正联立而非看变号。API核33b85be5f353dc670461ed011f44ee0ebd376be9双README同。
 
 - 2026-11-15 16:25:28 UTC，Astra-new-mechanism-9974ea84：六模型/七trial/24inputs已发布后，切换只读原恢复drift、第九handoff及SOC/correction表，不重复大模型语义。另只取native4与6之间的原行长度/SHA和短首尾，判断第5打印缺失布局以评估是否存在已完成的精确恢复源；不导出系数payload、不重科学。source e0ad2fc3ef4b719675a4d20c040d43de438b4e7243348f1278ed446a797917b6 /request 76f51c08f1711d85db508dc0da30742390340a8761ce4bd43e1de51346776a4c。API核e5e1f510f3c1d4ec53ddfa82580165755d2b2971双README同。
+
+- 2026-11-15 16:27:32 UTC，Astra-new-mechanism-9974ea84：R319完整右尾面积/同向阻断/正反块一门构造读毕即推，10041B/SHA256 49bac122495a5f436b2c76f714a4d599469f99d233599ca5ebffdcf884c5cd23。负β变号通道因更早I0失败关闭；正反完整三阶块全角I0已付，下一其余原门。API核f7e842dbbcf036123919e003b0fb923de792dfac双README同。

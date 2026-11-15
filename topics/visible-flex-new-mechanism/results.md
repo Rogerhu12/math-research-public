@@ -388,3 +388,10 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 [R317 完整证明](results/R317-exact-weak-hook-mixed-correction-and-nonnegative-branch-obstruction.md)对真实弱核通量及紧支撑曲段作全局IBP，得Y=−2C/3−2J、B=−2(D4+C)/3−2J，完整面积改迫Z=C。原四directed/local/elementary全合给O=−DκD4+Γκ(J+7C/12)，未删C²或任何inner/ordered尾。
 
 R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75A²/192)∫(9x+5β)g″²；真实副本均正四次幅权。乘原cP后两个系数对0<κ²<.01皆正，因此正物理区间上全部β≥0子族无法过完整第四。原三阶仍真；负β不按单一符号冒可行，须继续其余面积/三directed/period/joint联立。纯纸证，无新执行。
+
+
+## R319：全部单向弱 hook 曲段已被更早面积排除；正反完整块准确付一门
+
+[R319 完整证明](results/R319-one-sided-weak-hook-area-obstruction-and-reflected-block-cancellation.md)从原右尾三槽身份直接给I0{u,[W*,P](u;D)}=−(a+3b)∫u″²f″f‴/3。真实右/左5/2曲段的f″f‴=±225A²/32，与分支点β无关；三矩补包的贡献为真实全导零，全部copy按正四次幅相加。因此R308所有同向曲段族（包括负β）无法过完整第四，早于R317的一层符号比较。
+
+末推论给建设性入口：一个基本三矩弱hook对及其同宽反射分别在最终位置执行八copy完整第三，再等幅合并两个完整块。I0的两个无x相位系数N/M准确反号、平移不变，故全θ此面积I0真零，三矩/弱hook/完整third保留。只付这一门，I1/I2/其他面积/一层/第四period/joint仍须原式支付。纯纸证，无新执行。
