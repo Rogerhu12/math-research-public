@@ -241,3 +241,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ## 2026-11-15 02:18:37 UTC — whole original root piece 完整源解析结论
 
 全文亲读P1–12并核根band两侧权、P15/16完整旧圆词序、最后J支付一次与旧outside非负逐行重组。合同17388B SHAd6369980d02cb9b998082d5b9e80a055abd54fdfe20eb09f26c4e97b0af57d33独推。使用原piece2549与原scalar germ；真实H*<1/6000/aux域仍为实际门，不能宣称物理延拓越过seam。复用已成48完整norm rows，所有新半径尾从正级数重付，sup/Wiener分开，局部Nraw只需q≤2，无未付w1四阶。保九词+五mean和全1079真实seam；完整corrected-trial seam/strong-return仍另付。phase继续最小consumer，只做新半径标量和积分，不重算已有目标/FFT/根/矩阵。只读README核621ecedcb4a918526b20911bdfbdc8a646d66972两blob未变。
+
+## 2026-11-15 02:18:56 UTC — 同97 cap posterior 完整解析合同
+
+亲读P1–7全文，核weighted Cauchy正权、两完整body分组、真outer DN/mean fee、完整c*和κ、全signed Loewner矩阵、actual修正中心与真BR97同单位。合同11826B SHA1298eb965fca2fd9c4968b454a4d1c2ae991c4db6b53e98a021b1cc94e8a8ae8独推；边界使用已发布manifestb753b786…。有向目标为零但矩阵非零仍付正fallback权，禁止逐entry选小。Wcap先独立出数，再接实际完整右Poisson的body/negative/cut三HY，整组trace优化不重算旧math。尚缺实际全7908+三边界stage及完整5970方向Green/Poisson，未授无限逆或全参数Schur。只读README核f928770b516d71e541f4dc83caf362e1604cbd4c未变。

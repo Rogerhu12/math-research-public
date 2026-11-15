@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 同97后验与方向保持的真Poisson收缩合同。** [P1–7](notes/2026-11-15-R133-complete-same97-cap-posterior-and-Poisson-contract.md)将7908完整body与真左/outer/high同输入Grams按正固定权组合为完整Wcap；formal+Hessian与true残差仅按完整组比较，保97含mean全部有符号项。再用同repair/真BR输入单位的三种实际HY计算tr(HY Wcap)，不以绝对entry范数代替。帽区可以先独立出数；实际Grams未全成之前不授数值bound/全无限逆。
+
 - **R133 whole original root piece：完整第一修正源的解析消费定理。** [P1–12](results/R133-supplement-whole-physical-root-piece-complete-first-Airy-sources.md)在原piece2549及scalar germ真含域门下消费已成Taylor12/Nraw10范数，按新h支付原R1/6000全部尾；真实Airy JP、九个非局部词与五个独立mean项全保。根不确定带两侧分别付2√长度；外部旧行逐字复用，跨人工边界只重权，不从旧upper总量相减。未移动物理seam，实际数值consumer继续。
 
 - **R133 actual Nraw：全 signed 局部分子0..10与完整无限尾。** [证明及原生凭据](results/R133-supplement-actual-correlated-local-Airy-numerator-through-ten.md)：public43666374252/1实际child0/10门，26原stage逐字保、60新完整stage；固定η0/复δ≤1e−8/同根piece。σ1/512 q0两分量<54.373309627/13315816.514291689，完整sup/Wiener q0..2分开；b的有限prefix13315816.417922894、尾<.096368796，保所有均值。原hydrate失败0数学和仅路径修正保留；未授完整Airy JP源/非局部mean/seam/全逆。
