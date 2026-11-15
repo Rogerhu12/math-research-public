@@ -52,10 +52,14 @@ R151 actual43657785023/sourcec606688给J九项Q恒等及31完整响应原依赖�
 
 ## 6. 正在运行与未付终局
 
-R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)/16复极化忠实。一般V另含S(φ⁴−f⁴)，pure+balanced合起来忠实。旧核31/34无需重验。R160 actual43660884663/sourceb41c6f13已付J6[-4]=K6[-4]，K6=−C0/64−C88/64−C41/128−C73/32−5C81/128+C193/256；307项原差零，0.1905s/RSS57.992。R161 actual43661460271/sourceae7e5af3的502项balanced差留176项/45fallback，仅未决；不认完整身份或c0/b1零。
+R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ，balanced(2,2)=−B(qbar²,q²)/16忠实；一般V另含S(φ⁴−f⁴)，pure+balanced合起来忠实。R160 J6 pure六列Q身份已付；R161 balanced176项/45fallback当时未决，R162已解决原成员，不再重NF/pure/旧31/40。
 
-**R162 actual43663137188/source0700d815已证J6∉E_D。** 只新J6及一条旧42整体和，消费R153完整残差；mixed−2实查询t1/35给ΛJ6=1266268570 mod2147483647、新44det1176345646。3.984s/RSS100.527，0旧列/旧NF/forcing。E6=E_D+RJ6真44维、pure9、核与balanced像35，U≥240；lineality/query仍237。10原根135334B/5563bacb、完整39600B/3c20b09a；有理候选分支未触发。J6∈R已否定，但J6∈R−2+N U−1仍未定，c0/b1不可归零。该原分离门结束，不再追第45孤立列。
+**R162 actual43663137188/source0700d815证J6∉E_D。** 仅新J6和一条旧42整体和，R153隐式43消元给t1/35的ΛJ6=1266268570 mod2147483647、新44det1176345646。3.984s/RSS100.527；E6真44、pure9、核/balanced35，U≥240而lineality/query237。10原根135334B/5563bacb、完整39600B/3c20b09a。J6∈R已否定，但J6∈R−2+N U−1未定，c0/b1不可归零。不追第45孤立列。
 
-几何arc actual已登记，下一metric-SOC内裕量。R163已付全部14族：最高10族H^eF(gS)=P_gF(S)；F0/Q2带同一C_g(M)=Σa_i(M)F0(gS_i*)。g∘g′=(HH′,d′+H′d)，C复合方向已核；低阶平移∂ωF−c(m)，最高层∂ωF。故完整Hσ=(Rσ+Tσ)/(Rσ+Dσ)，Dσ用同权14族及静态cσ生成全部N Uσ+1模R。权−2无需另编−1；pure+balanced都保，不认πU入R。character_head_minus2源58856B/fcc41b4d与13人工0.0104s已核；本提交双lane首次生成，5旧A/H复用、9族新补、每8收缩保存，240s/1024MiB。只未成cache可原源续接，不重已成呈示；随后解完整字符必要锥，E_D非全U。R164已付：规范化Kλ由真实±E8路径夹紧，仿射重心+有界整权/幂零轨道迫全部可行μ协变。权−2由静态c=λc_N,d=λc_D唯一给μ=(d_p0,d_p1/2,d_p2/3,−d_r0,(c_s1−4c_p0)/3,(c_s1+2c_p0)/3,d_s1,d_t1/2)；8兼容本是Lie cocycle，不算独立新障碍。全部修正标量族=h^(σ−e)f(k)，令r=logh完整正性iff所有平端r,k有∫e^-2r P(k;r′,k′,r″,k″)≥0；全0/2/4层保留，不推P点态非负。root独占Git。
+R163完整14族：最高10族H^eF(gS)=P_gF(S)，F0/Q2带同一C_g=Σa_i(M)F0(gS_i*)；g∘g′=(HH′,d′+H′d)，低阶平移∂ωF−c(m)。故Hσ=(Rσ+Tσ)/(Rσ+Dσ)，Dσ同权14族+静态c生成全部N Uσ+1模R，无需另编−1。完整数据源character_head_minus2为58856B/fcc41b4d；13新人工通过，5旧A/H复用9族新补、每8新收缩checkpoint，240s/1024MiB。只未成cache可同源续，不重已成呈示。
+
+R164已付全部可行μ协变，权−2唯一由同一F0的c/d给出；Lie兼容自动。新增§10八参考态精确消元：任意真实该权字符有μ=(0,2a(0),2a(1),0,0,0,0,8a(0))，c=0；μm0=a(0)(k²−1)−a(1)kh，μm2=−a(0)(h_s/h)²。a(1)是值非系数。仅字符后数值关系，原U cocycle不可删，外必要等式已包含不重计。修正14族=h^(σ−e)f(k)，完整正性iff全部平端r=logh,k有∫e^-2rP≥0，保0/2/4层及面积，不推P点态正。
+
+**双lane actual43665345551/source0aae9a6a85583a9f87415e586d8db2c9c7fea6a7在运行**：character_head_minus2（job132663386459）和curvature_soc_metric_reserve（132663386425）。两者pre-step真实pull核双README通过。tail负责head结果/部分cache，literature接完整有限必要字符系统，mechanism接几何actual及固定硬κ后降η接口；后者fine7→11曲率二jet缺口必须补，不原样换角色。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
