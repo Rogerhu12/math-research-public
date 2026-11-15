@@ -1,0 +1,511 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "infinity-complete-tenth-after-high-probe",
+  "executionSourceCommit": "a366332325b8aee9c48a067333718373d886c822",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-next-after-high-probe-789f.py",
+  "scriptSHA256": "1b2a164808837c25c645f84da7012e4d6dc428527c8e0710787530f58250e3f1",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--projection-consumer",
+    "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+    "--sixth-consumer",
+    "{scripts}/2026-11-15-r150-infinity-complete-sixth-two-projection-failures-789f.py",
+    "--previous-receipt",
+    "{scripts}/43756208221-infinity-complete-ninth-after-high-probe.json",
+    "--previous-receipt-sha256",
+    "ef106d3f18b736ed0c5c76c0c0699d324ee2565ba92eecbcf400f6f5afb5035e",
+    "--previous-source-sha256",
+    "1b2a164808837c25c645f84da7012e4d6dc428527c8e0710787530f58250e3f1",
+    "--probe-receipt",
+    "{scripts}/43756208221-infinity-tenth-original-high-forcing-probe.json",
+    "--probe-receipt-sha256",
+    "fbd2db28571517dace89c457084ad989f17af1fda496ed7719e2557db196b662",
+    "--probe-out",
+    "{work}/infinity-tenth-original-high-forcing-probe",
+    "--checkpoint-dir",
+    "{work}/infinity-complete-tenth-after-high-probe",
+    "--out",
+    "{work}/infinity-complete-tenth-after-high-probe-receipt.json",
+    "--order",
+    "10",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 240,
+  "exitCode": 0,
+  "wallSeconds": 9.835633826000048,
+  "fullTemporaryReceiptBytes": 7562,
+  "fullTemporaryReceiptSHA256": "ee45293700ceacf7d5bce6a78ad19e093e849dff2d2ca32fb1125df5529c6f54",
+  "result": {
+    "elapsedSeconds": 9.751827311999932,
+    "format": "r150-infinity-complete-next-left-stage-v1",
+    "outcome": "complete-original-next-connection-exact",
+    "scriptSHA256": "1b2a164808837c25c645f84da7012e4d6dc428527c8e0710787530f58250e3f1",
+    "status": "completed",
+    "parameters": {
+      "actualCanonicalCochain": {
+        "allActualHigherCoefficientsRetained": true,
+        "allOrdersAll6188OriginalSourceRowsVerified": true,
+        "allWholeIncomingHighCoordinatesActuallyAdded": true,
+        "cochainOrder": 10,
+        "freeOriginalHeadCoordinates": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          12,
+          13,
+          18,
+          19,
+          20
+        ],
+        "fullOriginalVerificationComplete": true,
+        "headRank": 14,
+        "headSHA256": "115cfdfb8a16009b35314d02fbf44ca13fbeebc1f6c7d98ed461f00db6945ac3",
+        "higherCoefficientRanges": {
+          "10": {
+            "normal0": [
+              7310,
+              7330
+            ],
+            "normal1": [
+              7330,
+              7465
+            ],
+            "normal2": [
+              7465,
+              7915
+            ],
+            "normal3": [
+              7915,
+              8905
+            ]
+          },
+          "6": {
+            "normal0": [
+              930,
+              950
+            ],
+            "normal1": [
+              950,
+              1085
+            ],
+            "normal2": [
+              1085,
+              1535
+            ],
+            "normal3": [
+              1535,
+              2525
+            ]
+          },
+          "7": {
+            "normal0": [
+              2525,
+              2545
+            ],
+            "normal1": [
+              2545,
+              2680
+            ],
+            "normal2": [
+              2680,
+              3130
+            ],
+            "normal3": [
+              3130,
+              4120
+            ]
+          },
+          "8": {
+            "normal0": [
+              4120,
+              4140
+            ],
+            "normal1": [
+              4140,
+              4275
+            ],
+            "normal2": [
+              4275,
+              4725
+            ],
+            "normal3": [
+              4725,
+              5715
+            ]
+          },
+          "9": {
+            "normal0": [
+              5715,
+              5735
+            ],
+            "normal1": [
+              5735,
+              5870
+            ],
+            "normal2": [
+              5870,
+              6320
+            ],
+            "normal3": [
+              6320,
+              7310
+            ]
+          }
+        },
+        "lambda0Through5Ranges": [
+          [
+            0,
+            155
+          ],
+          [
+            155,
+            310
+          ],
+          [
+            310,
+            465
+          ],
+          [
+            465,
+            620
+          ],
+          [
+            620,
+            775
+          ],
+          [
+            775,
+            930
+          ]
+        ],
+        "newHeadCount": 1,
+        "noNextHighForcingZeroAssumption": true,
+        "normalizerSHA256": "e25e15d88ab0e95d4e11356cd5bf3bd652dc7e6d858df70500af6ae577bfd3d8",
+        "originalProductCoordinates": 952952,
+        "packSHA256": "eb22d5d8e99b7b7cdf71d328f3ba647c56e02f9501cb80ebef656ae24214ed83",
+        "shape": [
+          8905,
+          14
+        ]
+      },
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allAncestorFilesReadOnly": true,
+      "allFullNextHeadsCovered": true,
+      "allOrdersAll6188OriginalSourceRowsVerified": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "binding": "a1d09b054f20b2830f448ea030c2ebd8ef805849ee0cf1ac616be69e163b43df",
+      "completeFullCharacteristicZeroPositiveSpectrum": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "completeFullCharacteristicZeroSpectrumEqualsPaidField": true,
+      "completeFullCharacteristicZeroSpectrumProved": true,
+      "completeFullConnectionRank": 1,
+      "completeFullLeadingDimension": 14,
+      "completeLowKernel": {
+        "allOriginalLowKernelProductsZero": true,
+        "chosenKernelColumns": [
+          7
+        ],
+        "completeFullNextLeadingDimension": 14,
+        "completeKernelDimension": 8,
+        "freeColumns": [
+          8,
+          26,
+          130,
+          131,
+          132,
+          133,
+          134,
+          600
+        ],
+        "fullNextConnectionRank": 1,
+        "headProjectionRank": 1,
+        "kernelSHA256": "b6d42a00c11942e3177d64ab7ed5f3f2ffad8fb43254a4d7eb9e865791aacdb8",
+        "originalLowKernelProductCoordinates": 8704,
+        "prefixRanks": [
+          578,
+          580,
+          592,
+          593
+        ],
+        "previousCompleteConnectionRanks": [
+          4,
+          0,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "rank": 593
+      },
+      "explicitInfiniteFreeSourceBasisNotConstructedByThisStage": true,
+      "firstAllComputedRanksAgreeWithPaidField": true,
+      "fullCharacteristicZeroLengthLowerBound": 66,
+      "fullCharacteristicZeroLengthUpperBound": 66,
+      "fullCharacteristicZeroMaximumPositiveIndexUpperBound": 11,
+      "fullCharacteristicZeroNextMinorLowerBound": 55,
+      "fullCharacteristicZeroNextMinorUpperBound": 55,
+      "fullCharacteristicZeroPositiveIndicesLowerBounds": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "fullConnectionRanks": [
+        4,
+        0,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "fullOriginalVerificationComplete": true,
+      "higherSourceQuotientQ26NotClaimed": true,
+      "inputSHA256": {
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "jet_actions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "previous_receipt": "ef106d3f18b736ed0c5c76c0c0699d324ee2565ba92eecbcf400f6f5afb5035e",
+        "probe_receipt": "fbd2db28571517dace89c457084ad989f17af1fda496ed7719e2557db196b662",
+        "projection_consumer": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79",
+        "sixth_consumer": "4d759c0efbc8a647bd5845b21da5e871de28f0d43ae6f2fc84c376afb472e328"
+      },
+      "largeDataUploadedOrCommitted": false,
+      "memoryMiB": 2048,
+      "newPhaseGzipFilename": "",
+      "newPhaseGzipMtime": 0,
+      "nextOriginalHighForcingRequiresAllSavedCoefficients": true,
+      "order": 10,
+      "originalProductCoordinates": 952952,
+      "preparation": {
+        "activeOriginalQuotientRepresentatives": [
+          0,
+          1
+        ],
+        "allHigherIncomingCochainCoordinatesRetained": true,
+        "allSurvivingOriginalHighForcingsExactlyZero": true,
+        "completeConstantColumns": 587,
+        "completePriorIncomingColumns": 12,
+        "constantSHA256": "80d965b771c985f416d23299c5515bd4f4cde5fe0845fc64d937641c8acf1c4a",
+        "fullQHighKernelOnlyTwoAlreadyProved": true,
+        "highExcludedHeadDimension": 0,
+        "highReductionReason": "all original high forcing coordinates exactly zero",
+        "incomingSHA256": "7e0730ff92e50f9b14df93f639e5be19b086227a756b01b25242dbf6b0f21d16",
+        "matrixSHA256": "35103dbdefce3f34ca4193cd505a08d308bedd77a304f62d6938acd87217092e",
+        "newLowForcingColumns": 2,
+        "order": 10,
+        "originalLowForcingSHA256": "1544cf26d0fdfa4e9889e38d2c7d24b40150c6c2f00f72b193713e06d0ff68dd",
+        "originalProbeBinding": "abed2dbbc3e9c98929c95459456a353057db95b70e2e40c29c2ee8caa33ea18c",
+        "originalQuotientRepresentatives": 2,
+        "previousCompleteConnectionRanks": [
+          4,
+          0,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "previousCompleteHeadCount": 15,
+        "projectedStableHeadCount": 13,
+        "shape": [
+          1088,
+          601
+        ],
+        "unscaledOriginalRationalColumns": true
+      },
+      "runtimeExcludedFromMathematicalPhasePayload": true,
+      "selectedMinorLeading31UnitNotClaimed": true,
+      "sharedSeconds": 180.0,
+      "temporaryManifestSHA256": "fb4004ca5bb40749e358f9c37d1ce120ea50865770f8baa58231c7d26bf711c6",
+      "temporaryOnly": true,
+      "temporaryPhases": {
+        "complete-next-cochains-candidate": {
+          "bytes": 1380935,
+          "file": "complete-next-cochains-candidate-e380c4e103b5e4eb502bd34bc6b8d2322acf99d6e58bb1d54e755d2f29a7b33c.json.gz",
+          "sha256": "e380c4e103b5e4eb502bd34bc6b8d2322acf99d6e58bb1d54e755d2f29a7b33c",
+          "temporaryOnly": true
+        },
+        "complete-next-cochains-verified": {
+          "bytes": 1380995,
+          "file": "complete-next-cochains-verified-7e24eb520084c57124332ff6ece203eab95780325df9a6a26331d992bb1e9946.json.gz",
+          "sha256": "7e24eb520084c57124332ff6ece203eab95780325df9a6a26331d992bb1e9946",
+          "temporaryOnly": true
+        },
+        "complete-rref": {
+          "bytes": 337952,
+          "file": "complete-rref-62aed9b1ef050079748ac1ba34f30f5722bb9104ec4362f4b3465b1f4d818c92.json.gz",
+          "sha256": "62aed9b1ef050079748ac1ba34f30f5722bb9104ec4362f4b3465b1f4d818c92",
+          "temporaryOnly": true
+        },
+        "original-verification-ledger": {
+          "bytes": 276,
+          "file": "original-verification-ledger-1230602fb8e2107e7262e7fd9146878b6b11443ce5492ca6d3246718f807e5e2.json.gz",
+          "sha256": "1230602fb8e2107e7262e7fd9146878b6b11443ce5492ca6d3246718f807e5e2",
+          "temporaryOnly": true
+        },
+        "prepared-complete-low": {
+          "bytes": 3062735,
+          "file": "prepared-complete-low-8e785e4d6010f2fadacd7ef420126da5c65f32533106a8cca60d66ae3af9a118.json.gz",
+          "sha256": "8e785e4d6010f2fadacd7ef420126da5c65f32533106a8cca60d66ae3af9a118",
+          "temporaryOnly": true
+        },
+        "verified-low-kernel": {
+          "bytes": 526145,
+          "file": "verified-low-kernel-6382686c5bd0be30760d3e02494d585a0ff1bbb73ae41037c1c638935e619d56.json.gz",
+          "sha256": "6382686c5bd0be30760d3e02494d585a0ff1bbb73ae41037c1c638935e619d56",
+          "temporaryOnly": true
+        }
+      }
+    },
+    "events": [
+      {
+        "order": 10,
+        "phase": "complete original next low matrix saved"
+      },
+      {
+        "phase": "complete exact next RREF saved",
+        "rank": 593,
+        "seconds": 2.7220689210003
+      },
+      {
+        "newHeads": 1,
+        "order": 10,
+        "phase": "complete next low kernel verified",
+        "rank": 593
+      },
+      {
+        "heads": 14,
+        "order": 0,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 1,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 2,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 3,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 4,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 5,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 6,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 7,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 8,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 9,
+        "phase": "complete original order verified"
+      },
+      {
+        "heads": 14,
+        "order": 10,
+        "phase": "complete original order verified"
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 20:50:39 UTC",
+      "beforeReadCommit": "25c01b51063e86439c78e2faf376f2eeed7a9311",
+      "originMainAfterPull": "a366332325b8aee9c48a067333718373d886c822",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 20:50:50 UTC",
+      "beforeReadCommit": "a366332325b8aee9c48a067333718373d886c822",
+      "originMainAfterPull": "a366332325b8aee9c48a067333718373d886c822",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 45,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 15436,
+    "logicalJsonSHA256": "ebddb636dcb9db2ead855aa4f4a0185560f3876ee75653cc7849b030b8c63daf",
+    "itemCount": 45
+  },
+  "lastRulesReadCommit": "a366332325b8aee9c48a067333718373d886c822",
+  "summaryExcludesRecomputableArraysOnly": false
+}
