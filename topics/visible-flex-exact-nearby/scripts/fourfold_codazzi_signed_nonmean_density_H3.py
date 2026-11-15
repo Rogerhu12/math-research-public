@@ -139,7 +139,10 @@ class Inputs:
         self.load_candidate_prefix()
         self.scalar=[]
         for g in self.cover["germs"]:
-            p=root/g["path"];v=read(p)
+            name=g["path"] if g["path"].startswith(REL) else REL+g["path"]
+            if m["files"].get(name)!=g["sha256"]:
+                raise ValueError("an original scalar-cover relative path lost its exact manifest identity")
+            p=root/name;v=read(p)
             if sha(p)!=g["sha256"] or not v["complete"] or v["configuration"]!=self.cover["configuration"]:
                 raise ValueError("an original complete scalar germ changed")
             self.scalar.extend((Fraction(r["interval"][0]),Fraction(r["interval"][1]),g["sha256"],r)

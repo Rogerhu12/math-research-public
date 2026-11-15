@@ -1,7 +1,6 @@
 {
   "kind": "signed_nonmean_density_H3_frozen_complete_input_manifest_v1",
   "public_repository": "Rogerhu12/math-research-public",
-  "current_small_science_publication_commit": "dc425c954db25a64d509070e4a38b0c8e9d5b693",
   "helper_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py",
   "helper_source_sha256": "32ce7e3ced3f863d62983913782b5e116f889a86305dcef182fb12dc2de2b063",
   "historical_input_commit": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
@@ -67,7 +66,9 @@
   "current_text_paths": [
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py",
-    "topics/visible-flex-exact-nearby/results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md"
+    "topics/visible-flex-exact-nearby/results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md",
+    "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/actual-result.md"
   ],
   "original_179_file_inventory": {
     "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-first-symbol-parameter-transfer-CI-inputs.json",
@@ -325,7 +326,9 @@
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_R31_strip_refinement.py": "c1ca128ce18007ec118565beb013a97eaf7c0ccb11962caee474eec092a6c069",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_terminal_postcomposition.py": "73ff7aa0438b722e5fbc70151d24431524ddf76d6d2020cfefc02f209116f69c",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py": "32ce7e3ced3f863d62983913782b5e116f889a86305dcef182fb12dc2de2b063",
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py": "65a7e98a8ca256a389998c5481a92ce54604808255930af5327be3bdd11eecd7"
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py": "4d5a1cccb2fdebf5e45d5d3bc6f610a7923f82991a580f3b2931e3de8f90acb1",
+    "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/execution.json": "f0cd8f45004b52da39735ea47fe1d875056b53e12d388b797d9b6f9b488ccf4e",
+    "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/actual-result.md": "b51a26e6fc9fd0e9af988f2c2b062357c63c92192b3d6ac348e77d999006b54a"
   },
   "file_receipts": [
     {
@@ -1259,6 +1262,16 @@
       "bytes": 3356
     },
     {
+      "path": "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/actual-result.md",
+      "bytes": 1932,
+      "sha256": "b51a26e6fc9fd0e9af988f2c2b062357c63c92192b3d6ac348e77d999006b54a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/execution.json",
+      "bytes": 11706,
+      "sha256": "f0cd8f45004b52da39735ea47fe1d875056b53e12d388b797d9b6f9b488ccf4e"
+    },
+    {
       "path": "topics/visible-flex-exact-nearby/results/R133-supplement-first-symbol-finite-part-parameter-transfer-contract.md",
       "sha256": "75efdf4b7878a2dabb0ca43a3e8c2622558660c7fcad7cda7dfd47f970eb1e5c",
       "bytes": 12414
@@ -1305,8 +1318,41 @@
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py",
-      "bytes": 40316,
-      "sha256": "65a7e98a8ca256a389998c5481a92ce54604808255930af5327be3bdd11eecd7"
+      "bytes": 40544,
+      "sha256": "4d5a1cccb2fdebf5e45d5d3bc6f610a7923f82991a580f3b2931e3de8f90acb1"
     }
-  ]
+  ],
+  "previous_scientific_source_publication_commit": "dc425c954db25a64d509070e4a38b0c8e9d5b693",
+  "prior_path_schema_failure": {
+    "run_id": "43742905967",
+    "run_attempt": "1",
+    "job_id": "132899765721",
+    "actual_child_count": 1,
+    "actual_child_returncode": 1,
+    "actual_complete_input_pins": 196,
+    "actual_AST_sources": 8,
+    "actual_scientific_gates_passed": 9,
+    "actual_scientific_target_complete": false,
+    "source_sha256": "65a7e98a8ca256a389998c5481a92ce54604808255930af5327be3bdd11eecd7",
+    "manifest_sha256": "85f8a71e44da88c594425bb1d1e213ddf6ce6734961abe6895d815566bd34eca",
+    "original_saved_science_sha256": "4bbe4fd43c5673d9df0acd78daa7cc5c0450df486c0fd1d49fa6e6b183dcdf58",
+    "original_saved_science_bytes": 2699,
+    "actual_failure_type": "FileNotFoundError",
+    "exact_failure": "topic-relative scalar-cover path was incorrectly resolved from repository root",
+    "new_root_source_transport_or_angle_target_started": false,
+    "mathematical_formulas_changed": false,
+    "only_change": "normalize the original cover path to its already restored exact topic path and verify the same manifest SHA",
+    "small_receipts": [
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/execution.json",
+        "bytes": 11706,
+        "sha256": "f0cd8f45004b52da39735ea47fe1d875056b53e12d388b797d9b6f9b488ccf4e"
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/signed_nonmean_density_H3_ci/run-43742905967-1/actual-result.md",
+        "bytes": 1932,
+        "sha256": "b51a26e6fc9fd0e9af988f2c2b062357c63c92192b3d6ac348e77d999006b54a"
+      }
+    ]
+  }
 }

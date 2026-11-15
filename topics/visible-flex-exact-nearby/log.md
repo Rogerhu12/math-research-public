@@ -108,3 +108,11 @@ root fresh main e26b00116a4c48a1f085fb0eddddbdf083fa5b98双README blob未变。�
 196个原始输入/8py AST全过，唯一child返回1、9身份门通过；Inputs在原cover的topic-relative notes路径漏topics/visible-flex-exact-nearby前缀触发FileNotFoundError。旧原件已按完整path/bytes/SHA恢复；新root/source/reference/angle目标尚未起，无新H3常数。原完整science与日志均先保存/打印再发布，无lost，不授权重做任何已成旧数学。只需将原path正规化到已恢复原path并再核同一manifest SHA；数学公式、域与参数不变，修补另次提交。
 
 runner真pull17:46:17.238027及17:47:05.048711至7147786881d307cd04a31c522bf8aee3f450314b，README空diff；topic实际199630382B、发布预计199644020B。root本机17:49:19再次尝试git pull --rebase origin main仍无executor，不冒充已pull；继续根规8小UTF8例外，下一定时≤18:49。H/open/log压缩前完整逐字保3c74f04e同路径；全部旧域、单位、均值、失败、restore与未付义务继续有效。
+
+## 2026-11-15 17:52:16 UTC — SN 原路径规范修补；数学零改的唯一继续运行
+
+root fresh main 53deb3cfe426f801db8fddce4dc0cbecd3e8fd20两README blob未变。首失败已53deb3cfe426f801db8fddce4dc0cbecd3e8fd20独立保档，本次只发布精确路径schema修补：SCI1967779762d9f4356a18cedc094d374902c3cfc2/40544/4d5a1cccb2fdebf5e45d5d3bc6f610a7923f82991a580f3b2931e3de8f90acb1；manifest cb56f11e455db2525fcda164a2a17c3a6bbacc8b/94600/a97b4c9ffb79d3730ba16114a6c3c3431578bba511b40624b3d2a719be5dc632；flow1d5dfea415d3991e9a8a197f3f5947884d5adc37/4125/d6493f2ef07721b32d5bd5e58305f7090f044be62c15345c927e9a088e6ffc6d。worker91fb02a1/c091e1dc与helper5180edf7/32ce7e3c原字零改。
+
+root独读原9门failure并复原完整science同hash，逐行diff确认仅将g.path按原REL规范到已恢复path，再检m.files[name]==原g.sha256；没有改变任一数学公式/门/参数/真域。新198pin13468162B，原196除SCI外195条(path,bytes,SHA)全相同，新加两件完整首失败receipt作为事实记录，files/receipts唯一一致。未把首失败称lost；没有已成新数学可重，旧scalar/root/response/ray/KAM全部成功禁重。
+
+沿原公开workflow自然触发唯一继续child，21科学门、320bits/reference128/全频source残差/两sign/全mean/540s真pull/340min上限不改；当前actual H3常数仍未授。phase另已交SN source_algebra/fields/root_entry/mean_reference/parameter_error独核：符号/δ导/完整mean费用与n=1 Dual门保持。
