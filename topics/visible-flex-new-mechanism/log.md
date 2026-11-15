@@ -399,3 +399,5 @@
 - 2026-11-15 00:30:32 UTC，Astra-new-mechanism-9974ea84：root全文读R153消费者31849B/60c9af74与完整设计、14项纯人工报告后，派D0_pivot_residual。旧42×42原pivot复用，新D0加一条原组合；真实实span系数先由有理pivot唯一化，模零不判成员。仅此新研究与几何43658064177并行，不重旧矩阵/响应/N2。
 
 - 2026-11-15 00:32:22 UTC，Astra-new-mechanism-9974ea84：完成并立即推送R154，root全文读真实反号的端点/八矩/最高层证明及S有限正缩放线性恢复、七点插值。五族仅需20个状态值的轨道生成，明确不授dim20或有符号实际可达。D0新研究已推38fde5、几何阶梯仍在跑；接actual和完整最高action曲线门。
+
+- 2026-11-15 00:32:33 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交a258d0bb1ff67fb58c4da2e2e17ba168bfe6c35a记录于H；继续推送同一完整结论，无force。
