@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 10:28:27 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 10:29:27 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步与恢复
 
 只在public Rogerhu12/math-research-public和自身Actions做新数学；本机/代码模式只文字/静态核。每结论独推；非FF立刻真pull --rebase并循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 10:24:25定时/09:54非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:24:24.107001及10:24:29.757575→28a923c42e0500619004045b40e1d93950799b7d，两README diff空；ref不冒pull，每小时继续CLI尝试。
 根规15：可重算data/证书/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB。普通删留历史，旧成功数学禁重算，失败lost temp明确重做。原inputs runner从immutable公开commit/path或旧artifact临时恢复。无executor例外connector只UTF8<100KB，禁binary/gzip。H≤10KB/open≤30KB。
-最近只读README核：9dcb51f1fefc66cdb8a09fa6e114f36f522495ba；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：bd0c16dcc4151abe4d072107499113a7f2e790c2；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：38e1f579f3b8fd9656820e4354b066cf4997784f:HANDOFF.md；该全文串连25855ae/3ed8919/e10f0c7及原notes归档。所有旧输入/成功/失败/restore/未付门保留，results/open归档见其原链接。
 
 ## 总验收、同对象与参数身份
@@ -27,8 +27,8 @@ v2 43681612825/1 child1/0groups的Arb转binary64溢出，临时future2340/past18
 共同势43685624307/旧圆43688459733/signed根43692226895、whole43694458725及S43698106023成功全链只恢复。G有序源/whole真域/九词五mean/seam、S新RF3/20000/final3/40000的144导数和36mean锁；全部SHA/域/失败/restore/26门见前H与原报告。
 V/36fc2a7a…完整genuine两列含central+两branch、双signed/输出mean/真circlemap/近远Schur及缺导数。G15 actual43700281022/1 child0/16门/math.005862355s，报告a6749378…/execution1fe8a528…/result e426c917…全核；4operator只付幅度，不是physical源。
 旧successful target/fold/FFT/transport/Taylor/RF/profile/moment/源行禁止重跑。
-C/98d3a516…及actual43702688640/1完整负源已成：child0/17门/math.174329938s，reportc3b9ddaa…/executionbca0f97d…/resulte96aa00c…全文核。19pins/原G15十二不变；旧1328行/5receipt只读，新校准1/jet1/local3/源行6/dr6/比较298，旧数学0。两列/双signed/全mean/两J窗/physical mean保。local<3.56508187941e16，first/pair<7.89419979862e20，mean<6.95217991777e13；仅volume upper，非lower/strong-return。成功源不重算，转旧wholeword及g相关式收紧。
-D/9f4f5f9b…两窗旧wholeword复用已证：KΛ完整lag的κ5/3同时付两负窗。原43632464994半径1/1000的八word maxima/原1328预算及新31项L²仅只读；旧正算法lower比率，不反推函数lower。SV同背景operator，Bop/Bj及外CJ/meanfactor保。新scalar CI部署：SCI1aa46093…/manifest5ce9aceb…/worker5dfaebbe…/flowd61ae889…，27pins保原C十九项；仅96denom/16factor/4total，旧数学0。96行比率temp，不重算g/源/dr，待真实run。
+C/98d3a516…actual43702688640/1已付完整负源：child0/17门，reportc3b9ddaa…/executionbca0f97d…/resulte96aa00c…核。19pins/旧1328行/5receipt只读；新校准1/jet1/local3/源行6/dr6/比较298，旧数学0。两列/双signed/全mean/两J窗/physical mean保，原first/pair7.8942e20为upper；成功源禁止重算，D新复用已收紧。
+D/9f4f5f9b…合同及actual43703879926/1已成：child0/12门/math.186610706s，report87ab6001…18938B/execution2c5cba2e…37863B/result9e88dfd3…10975B核。27pins=21current+6history，原C19不变；96denom/16factor/4total，旧数学0，14项收紧/2primitive保旧。完整nonlocal<4.111362e14，first/pair<3.606196e16，mean<5.266503e12；local原3.565082e16不动，当前主导local_raw1。只volume upper非strong-return；成功比率不重算，转genuine ODE与L1有序相关合并。
 
 ## 实际帽与97接口
 

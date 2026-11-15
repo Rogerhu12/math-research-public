@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际wholeword复用负源43703879926/1](results/R133-supplement-actual-directed-word-genuine-negative-source-bounds.md)：child0/12门，96新分母式/16统一比较/4完整组合，旧数学0；14项严格收紧。完整nonlocal<4.111362e14、两行pair<3.606196e16、independent mean<5.266503e12；local原3.565082e16保持。当前主导转local_raw1，仍只volume upper，不授BVP/trace/strong-return。31项及16q完整保。
+
 - [真实Poisson Grams与actual帽完整Schur条件](results/R133-supplement-true-Poisson-Grams-actual-cap-transfer-and-complete-low-high-Schur.md)：固定旧body上τ=εp_cut<1可转授actual低97边界逆，保旧signed cap contraction，新完整扰动用εpY；合法Young Gram与真实GH/B的2×2 AB门明确。原ν .005门是[0,rplus]全频误差，消费P/L的[0,r*]功能，不冒全[0,.9]。γ入球/强hightrace/非线性余项/tail输入域与真参数行另付；无新数值通过声明。
 
 - [两窗完整directed-word严格复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)：原KΛ全指数lag矩阵界的κ5/3同时控制H^-8/3→H^-5/3及H^-5/3→H^-2/3。八个旧wholeword常数可按原正算法预算lower的统一比率乘已成功的逐项L²界；不重复g/导数/积分，不相减upper。SV与Bop/Bj身份及外CJ/独立meanfactor保。数字改进须新标量Actions。
