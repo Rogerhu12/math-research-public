@@ -45,11 +45,11 @@
 
 [R353](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)保29×17端点、338二阶界、629点态gap、四真实trial×37η，余13不补η。统一整段/IEEE/truequery/699/698/连续角/native/fullDN未付；最近拒LEFT464/MID471在37内。原八文档1230成员/清理保，后继须真父重生。
 
-### 1D. 原175停点与同路径闭段继承
+### 1D. 原175停点、同路径继承及188完整范围
 
-[R372实际175](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)66886B必要齐：四试步后α1/8接受、新FD通过，trial4..16未访，仍非BVP。完整453/338/115常数、29端点/37query×2048×17、G0+tG1+t²G2(t)保；629 uniform gap齐/P最高14。5400.00465502s诊断退出3、无异常/global未耗尽；43910完整角事务/746470项中702379证/44091未决/0反证。q0..20全角，q21仅0..901，angle902/trial6未提交，q22..36未访。全部17档集合见正文，原1/8只有三个LEFT全证。读回后清，不凭SHA续；IEEE/连续角/native未付。
+[R372实际175](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)原5400秒仅q0..20全角/q21到901，angle902/trial6未提交/q22..36未访，不能按新结果补旧范围；完整来源/计数/原1/8接受与新FD、629gap、每项错误及清理逐字见[R399前open检查点](notes/2026-11-15-open-checkpoint-before-R399.md)。[R398](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)只用同query/角/准确路径的strict父闭段包含继承，不要求余项盒嵌套；[188入口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)105pins/三参数、全部453/338/115、10800总/5400诊断/300预留/8GiB和单90KB不变，受控17项角事务不保硬kill。
 
-[175接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)103pins/三参数/正sin、10800总/5400诊断/8GiB/单90KB保。[R398](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)已证准确H_q(t)与档位无关，G0/G1同源、G2_j(t)可变且外包无需嵌套；同query/角的直接strict父闭段包含全部更小闭段。188/R399仍先付629gap，缺依赖不补；直接/继承分计、17项整角事务，受控停止只能在提交后生效。[188完整入口](notes/2026-11-15-request188-same-path-nested-closed-Hermite-domain-interface.md)五件全读发布：consumer51d12ef4/runtimee1f80243/request65862172/wfc99d4a5d，原103pins逐值保留+2/三参数不变；10800/5400/300/8GiB及单90KB保持。14条明确私有84af替换中只有短整角ledger+计数/cursor提交暂记受控信号，提交后按原ResourceStop；硬kill/I/O不假称原子。完整计算责任与直接求值分开计数，原端点数值函数不变。条件推论不重算/回填175，不代IEEE/连续角/native；171独立继续，actual R399待唯一实际读回。
+[R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)单76295B/07372514必要完整：全部629gap/29端点、75776角事务与1288192责任完成，168176直接/1120016包含继承；1195792严格过、92400未决、0反证/0未访。$k=9,\ldots,16$全37×2048闭段证完，较大九档未决，3900.166秒非预算/异常，原diagnostic返回3不抹模型接受。真四trial后α1/8接受、W43.3630→43.3361，新FD四阶8.81885e−10过；无native/fullDN/IEEE全误差/连续角声明。各档完整未决query及所有来源/错误/未访保全文；原大ledger仅身份，必要读回后实际清raw，后继须真98重生，不回填175。
 
 ## 2. 九/十控制与完整三残差校正
 

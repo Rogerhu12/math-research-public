@@ -485,3 +485,8 @@
 ## R413 — 原C cuff字词与固定帽目标的现场来源绑定
 
 [R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)及[接口](notes/2026-11-15-original-C-cuff-plan-and-target-atlas-interface.md)与独立标准库源02bb0c70已全文核；沿真450/准确十族原C binding逐字固定原rCuff，直接生成原R409计划，不重选目标。引用原R286/R294深端定理，全部marker准确有理内清距给帽内平环，公共Cartesian目标两jet匹配；七元组只加独立attachment，不替原loader/未付标志。无实际输入/run/数值执行；cut准确atlas及帽区间/全metric/reach/held仍未付，R416继续核数值几何v,b与准确目标长度比例，193不改。
+
+
+## R399 — 实际188完整闭段责任及较小八档全角严格证
+
+[R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)单76295B/07372514必要完整：全部629gap/29端点、75776角事务与1288192责任完成，168176直接/1120016包含继承；1195792严格过、92400未决、0反证/0未访。$k=9,\ldots,16$全37×2048闭段证完，较大九档未决，3900.166秒非预算/异常，原diagnostic返回3不抹模型接受。真四trial后α1/8接受、W43.3630→43.3361，新FD四阶8.81885e−10过；无native/fullDN/IEEE全误差/连续角声明。各档完整未决query及所有来源/错误/未访保全文；原大ledger仅身份，必要读回后实际清raw，后继须真98重生，不回填175。
