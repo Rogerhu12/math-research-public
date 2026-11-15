@@ -147,3 +147,5 @@
 - 2026-11-15 01:05:51 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交8ac6aab5fde97bb59c0788af507f64b62f4580ee记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 01:06:05 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交130de9f9f81256c28f1521f68dc2ff329512b191记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 01:09:32 UTC，Astra-new-mechanism-9974ea84：root独立读R161公开main/receipt及完整实际稿，502→176和45fallback严格记未决，立即登记推送；没有c0/b1零或维数新结论。下一批准单J6隐式43原评价：消费旧42矩阵、R153已存残差，不重NF/pure/旧核。只修实际稿两处相对链接以置于notes。
