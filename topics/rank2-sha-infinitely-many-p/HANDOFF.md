@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：1811f57a0a0dd15fcc10690969e3be1b5c8cf2e8；2026-11-15 00:46:05 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:45:51 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
+- 最近已读规则提交：ce54777fae1ca8336e86fdc51774698829053da9；2026-11-15 00:51:46 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:51:45 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -15,14 +15,14 @@
 
 ## 已发布、完整归档与分工
 
-R1–363、R365–560、R562–623、R625–629及R631已登记；R364仍开，R561/624/632/633/634进行中。
+R1–363、R365–560、R562–629及R631已登记；R364仍开，R561/630/632/633/634进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r628.md)、[open](notes/2026-11-15-open-before-r628.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta：R628已发表，续R634四比值球的实际Möbius/domain与完整中央测试联系。
-- literature：续R624同charge六det(c,d₂)与完整addition/低残差，不能把第二Gaussian当独立中央零。
+- literature：R624指定det的真Hadamard/完整addition/四位division接口已付；续R630原p³修正与指定非零。
 - deep：R629/631已发表，续原较小预算/完整D+，保同R和真正旧截断。
 - root：R627原幂完整首坏带已付；续R632真实Frobenius来源/全预算与中央接口。
 
@@ -83,6 +83,11 @@ R575/584全九格/长塔独立、R579普通3klogD与R583惰性(0,3)保持，
 R588含塔原P乘Gaussian准确S/闭非Tate。
 原a=M c+R及R606第二位均保低残差；R609三二次Wilson行未消R，
 全块note的det(c,d₂)仍含R₂与真实a/p，不能添独立零。
+R624给det=8[z^(2p−5)t^(p−2)]{A(z+t)B(z−t)−B(z+t)A(z−t)}，
+A=F4/z³、B=F1；Lucas精确只留指定两项。
+原固定addition需保坐标除子和1−Bmix+Bmix²/2三项；
+ψp最高2s系数modp⁴经整体p²除法恢复同一二块det，
+完整低R₁/R₂/实际a/p仍在，未证指定非零。
 R607完整C保w^s=pε、ε⁶=wυ、w^(s−1)ε⁵=pυ、υ^s=0全部carry；
 低权商/Schur真前缀、R610 Ξ及Witt项保持，目标导子不自动保来源/帽。
 R604非连续单位行给空前缀和二次接触，不代旗标成本。

@@ -116,3 +116,6 @@
 
 
 - [R628：原native算术伴随深域与完整R/V单位算子](results/R628-native-arithmetic-companions-and-complete-unit-operator.md)：从R601整联合单Y/四W核与R626平面核真相消，付同q且未移动Y/W中央向伴随深域的传播。全部R/V剩支压为两个实际来源/同双单位域/收敛2×2测试算子，负比前三条件矩整条零；四比值球严格不同，完整native行接I1及全部边界。十一自由q方向对整平面测试不可见，未将有限状态当有限未知数或删失败球。
+
+
+- [R624：原两forcing行列式的真双输入观察与四位division返回](results/R624-original-paired-forcing-determinant-and-four-digit-division-return.md)：Lucas把固定Hadamard核的一条原系数准确读成det(c,d₂)/8；完整S12 addition保坐标除子和Gaussian三项。原ψp最高2s系数模p⁴经先证整体p²整除恢复同一二块不变量，并接原两j0的全残差/实际a/p必要式；未将浅单位或固定核非零当指定行非零。
