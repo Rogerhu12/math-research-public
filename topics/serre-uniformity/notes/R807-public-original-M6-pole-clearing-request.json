@@ -1,0 +1,86 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R807-original-M6-pole-clearing",
+    "p": 41,
+    "qY_count": 55,
+    "V4_dimension": 962,
+    "auxiliary_prime_start": 1000000007,
+    "reconstruct_every_digits": 8,
+    "requested_stage": "four_extra_M6_rows_cleared",
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R807_original_M6_pole_clearing.py",
+    "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+    "wrapper_sha256": "d499a33bd6e471c621753b06d2fc1f7868ed6e8b7700fbed4ff9d4807e595ae7",
+    "proof": "results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md",
+    "R805_proof_sha256": "b48d9f8dd5d8d1a89aa2574ab7f9ee014b83ca21baf41694252b9c53993571e8",
+    "method": "notes/R807-original-M6-pole-clearing-execution-contract.md",
+    "R807_method_sha256": "09fd69d4ffa8319a5473a077cfafb6dd1264dcb230ca57927679674b03d7b19c",
+    "workflow": ".github/workflows/serre-p41-original-M6-pole-clearing.yml",
+    "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "io_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+    "retained_artifacts": {
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-power-2.json.gz": "734a61e967c51ba3c9cd93eaff1a81fba165600110abb941dfdbbeed41b6ebe4",
+          "R775-basis-M6-complete.json.gz": "70ff7536b50bf99ffb422b7c17dd320b535738fcfcc562fd1597eebcb7a0b299"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      },
+      "R805": {
+        "result": "R805-original-affine-pencil-free-basis",
+        "run_id": "43705580592",
+        "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+        "artifact_id": 14158193403,
+        "artifact_name": "serre-global-R805-original-affine-pencil-free-basis-43705580592-1",
+        "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30",
+        "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+        "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+        "certificate_name": "p41-original-affine-pencil-free-basis-certificate.json",
+        "files": {
+          "p41-original-affine-pencil-free-basis-certificate.json": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0",
+          "R805-stage-manifest.json.gz": "37d151c36d0c8d01e7ec5af4a1228e1aaa19054889436c4debd17e7b27cc6547",
+          "R805-new-monomial-003-073.json.gz": "4ecfd61fd3e47d49231075da11bcce17e1e4e577d8c4266d44e3e2b2267d45a4",
+          "R805-new-monomial-004-073.json.gz": "e94730bd1cc3ddad1e0c6ae3c2710c1ac0419a5097629d8631d2509ab65eb450"
+        },
+        "input_carrier": {
+          "role": "unchanged_original_selected_files",
+          "original_result": "R805-original-affine-pencil-free-basis",
+          "original_run_id": "43705580592",
+          "original_source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+          "run_id": "43706758013",
+          "source_commit": "6bdaec3b57a766b596efeaab9b59f2814b7d4bd2",
+          "artifact_id": 14158328435,
+          "artifact_name": "serre-R805-success-io-audit-43706758013-1",
+          "archive_sha256": "f1dfa12959e115d03f77cd4644b99d02c95c9be9ebc0303e05e39f543123b7d8"
+        }
+      }
+    },
+    "resume": null
+  }
+}

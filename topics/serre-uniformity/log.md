@@ -648,3 +648,7 @@
 ### 2026-11-15 19:08（Asia/Taipei）｜serre-public-astra-20261115
 - 登记R803实际694维M6结果：prime1000000007/det637607829，六组×14全部368 Dixon位/full1680，2127.991746秒；原坐标/尺度不变，完整31manifest项/33ZIP/781原输入和冻结verify已核。
 - 全84右端完成不再重算；R806已source75b1d56/run43707290840激活，原R787仍跑，R807 core/wrapper继续。实际函数、极除子、η/高度和全p主问题尚缺。
+
+### 2026-11-15 19:14（Asia/Taipei）｜serre-public-astra-20261115
+- 全文审完并激活R807 cored92cf79b/wrapperd499a33b/requestd82e5c7f；method09fd69d4仅把已实际认证的R805两41项前缀改为必需输入，三组997原文件逐源绑定，原962块五投影/真实核/四full1100成员。
+- 新增本课题workflow `.github/workflows/serre-p41-original-M6-pole-clearing.yml`，公开AST/输入核后计算，一日续算包无raw Git/Release。R78711:06:48UTC真实BudgetStop，已着手续同core93d3d72b，保最新完整lift与全部其它阶段；R806继续。
