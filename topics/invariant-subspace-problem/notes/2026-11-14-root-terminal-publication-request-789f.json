@@ -1,17 +1,20 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "51e7cb4ad0fa63027c8ae6daaabe01abbe81259c",
-  "createdUtc": "2026-11-15 11:46:49 UTC",
-  "message": "R150: resume verified sixth top with fixed constant-unit Schur blocks",
+  "parentCommit": "a80ec1939032211f0e2a4ed70e3fa6d4cf1d17e9",
+  "createdUtc": "2026-11-15 11:49:36 UTC",
+  "message": "Prove true-operator anisotropic local right inverse with full carry correction",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-constant-unit-schur-kernel-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-verified-top-unit-schur-continuation-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-recovery-small-session-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-true-global-anisotropic-readout-789f.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-four-complete130-interface-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
+    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/results.md",
+    "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

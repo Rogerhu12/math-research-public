@@ -182,3 +182,6 @@
 
 
 - [R150-appendix-selected-normal-four-high-kernel130-and-residual-intersection](results/R150-appendix-selected-normal-four-high-kernel130-and-residual-intersection.md)：同选normal4高块真Qrank1355、完整核130及225680原高产品；新130残差独立，normal≤4新增头数等于其像与旧14维残差像的交维0…2，尚待实际原第二乘回。
+
+
+- [R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)：以真实输出孔<4u和X3中全部carry预算，一次精确修正将增长远孔窗口传到原T_N/T_Y；完整MP局部读数保PkerT，固定早孔成本exp[O_s(log^(4/3)N)]，原W/返回接口仍开。

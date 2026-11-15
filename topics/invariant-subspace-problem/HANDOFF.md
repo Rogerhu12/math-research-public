@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 51e7cb4ad0fa63027c8ae6daaabe01abbe81259c（2026-11-15 11:46:59 UTC，Actions run43710569791实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43710569791-1.json。
+- **最近成功实际 pull 与已读规则提交：** a80ec1939032211f0e2a4ed70e3fa6d4cf1d17e9（2026-11-15 11:49:48 UTC，Actions run43710791505实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43710791505-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -11,7 +11,7 @@
 
 ## 完整旧状态与当前入口
 
-全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-zero-smith19-and-normal4-batches-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
+全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-true-global-anisotropic-readout-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
 
 ## R150：常数层已闭，完整参数长度与原成员性仍开
 
@@ -34,11 +34,13 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 任意四头反例、首bit完整Schur、三列硬核正角见H归档；原W移动整行上界/普通封口仍未付，原反向投影无已付速率。
 - [联合归一bit反馈](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)：原Ni保carry、ΣNiNi*≥I−Ptop，同H给核内dist²≤C_m整行能量。任意原w∈M整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²；原W只付每个固定i列强零，移动全行上界仍开，正查相邻投影/同W共同抵消。
 - [低物理孔真实借位与Gram](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：保每词未归并频数，E≥(C/4)^4；原N/Y所有头及全局||A^kP≤s||≤6^k exp[−(770/256)(k−s)+^4]。完整H低源压缩≤D_s=exp[1+sτ+τ^(4/3)]、完整逆低源二次型≥D_s^-1；等权池真实Green只投低孔输出可付4D_s(S/4)/S，保原H_pool^-1。N型低孔测试同核反馈行≥(m−s)D_(s+1)^-1||P_m^Bf||²。仅付等权池此读数；原W整行上界继续。
-- [保强位与原连续尾](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)：C=A_m+D_<，全强头低总孔||C^kP≤s||≤7^k exp[−γ(k−s)+^4]，不随R/h换阈值。对L_m=C+D_x=A_m+D≥m及x=m+R≥3072+48s，真实有限Neumann右逆低孔范数≤B_s(x)=(s+3)√(2/S_x)exp[sτ+τ^(4/3)]；保逐孔尾右逆和完整MP自然域，P≤s L_m*†同界。log B=O_s(log^(4/3)x)，不是固定多项式x费。原T carry差/返回P_Ehat/同W运输仍待付。
+- [原连续尾](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)给强头7^k四次借位界与L_m局部B_s(x)，保全部强位、逐孔尾逆及完整核。
 - Riordan已付完整右/裸/全旗及同窗误差O(C0²h/Q)→0；不运输整个左L。原强gauge末端与返回主项未付，须保原Cg及完整Gram逆。
 - 等权长池L≥2d完整Green已付；原连续尾固定f的O(R³)、共同高孔残量及ordinary两费仍开，特定Artin大列不下界真Green。
 
-- [增长远孔窗口](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)：同B_s(x)扩至Π=Pstr≤s Pfar≤N、N≤floor(x/48)，x≥3072+48s；完整局部MP精确Π(L_m*)†=G*(I−Pker L_m)，保整个forcing。k>J_x−N的整数界已核。不覆盖n≈Q≫x，也不替PEhat/正向返回。
+- [增长远孔](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)同B_s扩至Pstr≤s Pfar≤N、N≤floor(x/48)，完整MP为G*(I−Pker L_m)；不替PEhat/正向返回。
+
+- [原T定量运输](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)：u=N+s+1024、m=ceil log2u、x=48u，初始G0输出孔<4u；全部carry在X3中≤B_s e^(-40u⁴)。用已付G3一次修正得TGtrue=Π，Π(T*)†=Gtrue*(I−PkerT)，固定s成本exp[O_s(log^(4/3)(N+2))]。仅低早孔/增长远孔乘积窗口，原W/返回forcing仍待运输。
 
 ## 临时数学会话与恢复
 
