@@ -1,14 +1,11 @@
 {
-  "request_id": "rank2-r816-original-degree66-and-rank-two-source-20261115",
+  "request_id": "rank2-r820-original-four-source-angles-and-four-rows-20261115",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r816-degree66-full-cm-and-rank-two-source.py",
-      "args": [
-        "--workers",
-        "4"
-      ],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r820-original-four-source-angle-and-jacobian.py",
+      "args": [],
       "include_stdout": true
     }
   ]

@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：31145d49bddcc184a1676f4a4d61d760f54beca6；2026-11-15 20:02:24 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
+- 最近已读规则提交：7a2b1252539a7bbf6ee4c4317ae2c44a04ed9bcb；2026-11-15 20:03:02 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -17,7 +17,7 @@ R1–363、365–560、562–653、655–711、713–812、814–817、819已登
 root唯一metadata/ref写者；root原全nef锥/二变量Kronecker来源，deep原同R完整normal/Cartier指定配对，theta第四条真实rank2曲线来源，literature固定三cycle跨p/原三χ联合关系。完整证明一成即单独推，随后继续未闭门。
 
 实际pull19:22:57成功，run43752101383/job132928092622，两README差异空/blob吻合；回执ci/rule-pull-20261115T192257.json，最迟20:15再实际pull。
-R812/R814–817完整证与run/hash见原文；R813续同R带权Cartier。R816公开43754381135/job132935145766：全CM7/13共同质量核1维，完整E−11来源已登记，继续新导子Selmer桥与第四原中央。
+R812/R814–817完整证与run/hash见原文；R813续同R带权Cartier。R816公开43754381135/job132935145766：全CM7/13共同质量核1维，完整E−11来源已登记，R820已提交原四源完整角式/四低行producer，结果待公开run；续新导子Selmer桥与第四原中央。
 
 ## 普通：原同源负二及真实全局门
 
