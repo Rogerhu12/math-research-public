@@ -40,7 +40,7 @@ run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，
 
 [后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)：持久128状态、全新残差右端、真实匹配变分/cut/二阶jet/audit仍待付。隐式J缺B⁻¹Dε，root残差小不界Dε，同4个RK现场亦不等有限停止程序exact J。等实际113证据决定，不另造无依据solver/fixture。
 
-### 115 已有八次接受，116接续准备
+### 115 已有八次接受，116同源新批已派发
 
 [实际115](notes/2026-11-15-actual115-four-control-eight-real-acceptances.md)：run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912，compute132736414956/report132736733892完成。8方向全接受/14外试探/零全拒，W6958.22576276662→1236.0078724708558；明确方向预算停，全部unit/full112/success/native/nonzeroλ仍false。末p=[.43415584380328803,.1757884505633052,.573987809246338,.03007332272935495]；unit=[−49.71935400957918,−.03977199754487137,−8.125719463311133e−6]。14eval异常全在dir3/α1内层域失败，该外层真实拒；dir3/α.25接受时inner tol=false，未加门。
 
@@ -48,7 +48,7 @@ summary69434B/282c363f（不含LF）、status1069255B/b542147b、trace871442B/46
 
 [冻结接口](notes/2026-11-15-actual114-to-four-control-curved115-interface.md)：family9222390b/search3ca1bdf7/readerc0602e7a/recipebecfe390/request282d640e/workflowf1615b4e。第二实际支撑的奇形控制，新3×4/7×4QR、两normal两tangent，原full3 W/.2Armijo及域/终检不改；8方向/20外/12×20内，160bits/depth14，79主+2支持/current22源。
 
-116正在从115实际末四p形成新配方；冻结入口初半径强制.1，必须诚实记录重置而非延续末.0125；fresh W/J，不改数学源或门。末实际theta冻结后的原3p/K3/T112方形检查完整重做，physical4.3238e−16、node/mid/RMS域全合法，但仍是零core圆参考，非非零父场。全高109/非零λ/native/finalJ/audit继续。114/112/106等旧实际全见正式note，不盲续旧p。
+[116接续](notes/2026-11-15-actual115-four-control-continuation116-interface.md)以115实际末四p、recipe3cab39d5/request45cd4dd9/workflow9cabbd3c派发；origin=current22。冻结入口初半径.1明确重置，非延续末.0125；fresh W/J，科学family/search/reader不改，仍8方向原预算/门。run待查。末实际theta冻结后的原3p/K3/T112方形检查完整重做，physical4.3238e−16、node/mid/RMS域全合法，但仍是零core圆参考，非非零父场。全高109/非零λ/native/finalJ/audit继续。114/112/106等旧实际全见正式note，不盲续旧p。
 
 ## 几何及接受场之后
 
@@ -62,4 +62,4 @@ same-g v4冻结g/全部p/t范围，K=k=0、activep空、T=M/state4M+2；699二�
 
 ## 维护与重做范围
 
-既往已完成的95–114结果有正式note；110/113仍运行，115已正式读回，116准备中。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿仅geometry R282及代理正在做的后续工作；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。
+既往已完成的95–114结果有正式note；110/113仍运行，115已正式读回，116已派发待run。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿仅geometry R282及代理正在做的后续工作；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。

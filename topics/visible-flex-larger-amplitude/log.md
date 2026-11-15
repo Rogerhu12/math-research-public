@@ -105,3 +105,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:24 UTC /root — actual115 八方向真实接受
 
 [完整实际结论](notes/2026-11-15-actual115-four-control-eight-real-acceptances.md)：run43689328906/sourcec9eb007d，14外试探中8接受、零全拒方向，W6958.22576276662→1236.0078724708558；首unit仍−49.71935400957918，所有最终门false，按8方向预算结束本次run而非课题。原14域异常全在dir3/α1内层，dir3/α.25接受时inner tol=false；全部真实接受/拒绝均保原full3门。起末完整四列响应/FD、新scalar域及theta冻结的方形物理检查已读回。summary69434B/282c363f、status1069255B/b542147b、trace871442B/46452d0e；不存raw。116继续实际末四p，原入口初半径.1会显式重置，不冒延续末.0125。
+
+## 2026-11-15 07:27:20 UTC /root — request116 原四控制实际末点接续
+
+[完整执行接口](notes/2026-11-15-actual115-four-control-continuation116-interface.md)已读并派发。115八方向接受后，以实际四p和own-schema来源22→22重新形成同一模型，科学family/search/reader三源不改；初半径按冻结入口明确重置.1，非恢复末.0125或旧J/W。recipe1507B/3cab39d5、request31136B/45cd4dd9、workflow16329B/9cabbd3c，79+2 pins与所有原预算/域/终检原样。原summary版本仍为115源码版本，report标记与实际run/source明确116。只做原输出读取、身份与AST/bash静态，本地没有科学执行。

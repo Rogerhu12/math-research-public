@@ -1,13 +1,13 @@
 {
   "schema": "public-small-core-four-control-curved-recipe-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 115,
+  "request_number": 116,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "Actual114 had one tiny accepted point and seven completely rejected directions; a trial meeting the two normal target tolerances still increased the real full-three merit. Use its three actual final literal parameters and an explicitly new theta=0 coordinate. Add the fixed odd C2 zero-jet shape on the original second support, form all three resonance rows against all four controls, and retain the original full3 merit, Armijo, domain and final responsibilities. This is a new scalar/g family; function independence does not assert response rank, a root, or a nonzero field. No old scalar-domain certificate is carried across theta.",
+  "rationale": "Actual115 completed all eight directions with actual full-three Armijo acceptance, in fourteen outer trials, and stopped at its explicit direction budget. Its recorded merit changed from 6958.22576276662 to 1236.0078724708558, while the original unit, full112 candidate and nonlinear-field flags remain false. Reuse only its four literal final parameters in the identical frozen four-control family/search. Re-evaluate the full current model, all four derivative columns, scalar domain and final square circle view. The frozen entry requires initial radius0.1: this is a fresh eight-direction batch with radius reset, not continuation of the stored radius0.0125. No old state, Jacobian, merit, interval certificate or accepted-field identity is relabelled.",
   "scientific_entry": "geometry_20261115_small_core_four_control_curved_recipe.py",
-  "scientific_source_unchanged": false,
+  "scientific_source_unchanged": true,
   "inputs": {
     "accepted": {
       "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
@@ -120,10 +120,10 @@
   },
   "diagnostic": {
     "parameters": [
-      0.46303184038373296,
-      -0.19282285521524933,
-      0.6316435963633119,
-      0.0
+      0.43415584380328803,
+      0.1757884505633052,
+      0.573987809246338,
+      0.03007332272935495
     ],
     "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
@@ -147,20 +147,20 @@
   "output_status": "four-control-curved-status.json",
   "output_status_schema": "R259-four-control-full-three-two-normal-curved-trust-recipe-v1",
   "parameter_recipe": {
-    "file": "topics/visible-flex-larger-amplitude/computations/actual114-explicit-four-control-parameter-recipe.json",
-    "bytes": 1490,
-    "sha256": "becfe390c6f5a8a49905fb2269357a3bd16172492c4ed15e569489c2d1f9299f",
+    "file": "topics/visible-flex-larger-amplitude/computations/actual115-explicit-four-control-parameter-recipe.json",
+    "bytes": 1507,
+    "sha256": "3cab39d56ecdd754689266a2b87c20b2a58d5268df426766446b698dc1a4ce1d",
     "origin": {
       "repository": "Rogerhu12/math-research-public",
-      "run_id": "43687426018",
-      "source_commit": "dc032461bbd2f3f7515ea30e5495b50870a06f65",
-      "producer_file": "geometry_20261115_small_core_full3_curved_normal_recipe.py",
-      "producer_sha256": "be37ce213ddfd87972b5edc241a0b220fe0f424c553f5836b5df337ff1dd980e",
-      "producer_schema": "R259-original-full-three-two-normal-curved-trust-recipe-v1",
-      "status_bytes": 7197627,
-      "status_sha256": "4e7ee4fa7d570e2147041ba0bd3ea2769844ee8e6bdfa545f0b791b3ef34035f",
-      "log_summary_bytes": 86389,
-      "log_summary_sha256": "c4eca98c2bb83aba6708f8e88616bd052483836278df369ace6743e2443503ee",
+      "run_id": "43689328906",
+      "source_commit": "c9eb007df84297f5345d0e7fab42b845df0bf912",
+      "producer_file": "geometry_20261115_small_core_four_control_curved_recipe.py",
+      "producer_sha256": "3ca1bdf723e7c44f808ed786ccda854775c262d28ce92804fde2c8ca86cad160",
+      "producer_schema": "R259-four-control-full-three-two-normal-curved-trust-recipe-v1",
+      "status_bytes": 1069255,
+      "status_sha256": "b542147b089985e5ce0e90623d32b4fd4eabf77e2fea07c1d50914c1cb7d2696",
+      "log_summary_bytes": 69434,
+      "log_summary_sha256": "282c363f6a1c518d3e37ca4cdca78cdc0c741e9c079ab6cb3331352a2279b2b1",
       "parameter_field": "final.parameters"
     },
     "family": {
@@ -171,13 +171,13 @@
       "formula": "b2(x)*(2*x-1)",
       "theta_zero_reduces_to_original": true
     },
-    "origin_parameter_count": 3,
+    "origin_parameter_count": 4,
     "initial_parameter_count": 4,
-    "newly_introduced_theta": 0.0,
+    "newly_introduced_theta": null,
+    "current_fourth_parameter_reused_from_actual115": true,
     "origin_status_or_log_payloads_consumed": false,
     "only_literal_parameters_used": true,
-    "parent_J_merit_state_or_FD_reused": false,
-    "fourth_coordinate_not_attributed_to_actual114": true
+    "parent_J_merit_state_or_FD_reused": false
   },
   "source_closure": {
     "origin_producer": {
@@ -198,7 +198,11 @@
       "geometry_20261115_small_core_inexact_p3_eta_0p01_recipe.py": "3169b2d3ea821a244d9f27611cd6c5cb3b239cf0e7f9bbbd7f49ac9d5f1dc9ee",
       "geometry_20261115_small_core_full3_trust_recipe.py": "5d3540150390f0e820200ba4a210eb2bc8d06bc025a0a677160df97d72e6f4c1",
       "geometry_20261115_small_core_full3_retry_trust_recipe.py": "b9fff58becdfdcfdb4877cd789a3160510c7c2895005239d8989bb7673c2ea20",
-      "geometry_20261115_small_core_full3_curved_normal_recipe.py": "be37ce213ddfd87972b5edc241a0b220fe0f424c553f5836b5df337ff1dd980e"
+      "geometry_20261115_small_core_full3_curved_normal_recipe.py": "be37ce213ddfd87972b5edc241a0b220fe0f424c553f5836b5df337ff1dd980e",
+      "geometry_20261114_full_scalar_profile.py": "8ff23e31a58d0f8b087929d69ac8d6f9b6f2777615e50eef5ebe40ed7b6bed6b",
+      "geometry_20261114_prefix_controls_profile.py": "f019e6b33c8e1776d5cca87c22efadd0f999766b894be855efb53ad10b4d6a24",
+      "geometry_20261115_small_core_four_control_family.py": "9222390b73abbd2e8bc4a1f8e9d8b861cd66b4a927b21629deb2e6b70073dd11",
+      "geometry_20261115_small_core_four_control_curved_recipe.py": "3ca1bdf723e7c44f808ed786ccda854775c262d28ce92804fde2c8ca86cad160"
     },
     "current_producer": {
       "geometry_20261115_small_core_inexact_p3_restoration.py": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e",
@@ -226,8 +230,10 @@
     },
     "origin_source_closure_rederived_from_status": false,
     "source_closure_from_pinned_definition": true,
-    "actual114_parent_definition_count": 18,
-    "actual_new_producer_definition_count": 22
+    "actual_new_producer_definition_count": 22,
+    "actual115_parent_definition_count": 22,
+    "same_frozen_origin_and_current_producer": true,
+    "origin_expected_closure_matched_actual115_compact_readout": true
   },
   "direction_model": {
     "rows": 3,
@@ -315,7 +321,7 @@
     }
   },
   "scope": {
-    "new_direction_strategy": true,
+    "new_direction_strategy": false,
     "full112_original_candidate_flag_unmodified": true,
     "complete_zero_tail_J_retained": true,
     "p3_restoration": false,
@@ -327,22 +333,24 @@
     "rejected_direction_parameters_not_adopted": true,
     "radius_retries_are_algorithmic_not_new_acceptance_conditions": true,
     "new_scientific_computation_only_in_public_Actions": true,
-    "new_nonlinear_candidate_path": true,
+    "new_nonlinear_candidate_path": false,
     "complete_two_normal_correction": true,
     "initial_zero_alpha_point_preserved": true,
     "inner_error_target_is_not_new_outer_gate": true,
     "scientific_timeout_is_resource_interruption_not_a_no_root_or_full_backtrack_result": true,
     "unit_resonance_formula_and_all_three_rows_retained": true,
-    "response_parameter_dimension_changed_from_three_to_four": true,
+    "response_parameter_dimension_changed_from_three_to_four": false,
     "new_scalar_g_family": true,
-    "new_fourth_C2_zero_jet_control": true,
+    "new_fourth_C2_zero_jet_control": false,
     "same_as_old_fixed_g_claimed": false,
     "old_scalar_domain_certificate_reused": false,
     "fresh_four_column_real_FD_and_new_scalar_Arb_domain": true,
     "fresh_original_square_circle_check_at_actual_fixed_theta": true,
-    "original114_model_arrays_not_reused": true,
     "theta_zero_bitwise_readback_not_a_gate": true,
-    "function_independence_does_not_assert_rank_or_root": true
+    "function_independence_does_not_assert_rank_or_root": true,
+    "new_scalar_g_family_is_relative_to_original_three_control_family": true,
+    "same_four_control_family_and_algorithm_as_actual115": true,
+    "original115_model_arrays_not_reused": true
   },
   "original_input_history_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
   "publication_policy": {
@@ -402,8 +410,35 @@
       "current_mathematical_scalar_function_retained": true,
       "same_binary64_summation_path_claimed": false,
       "fresh_original_FFT_node_mid_RMS_checks": true
-    }
+    },
+    "current_family_reused_from_actual115": true
   },
   "original_resonance_formula_merit_domain_rules_and_final_responsibilities_retained": true,
-  "new_four_control_family_and_final_theta_frozen_view_declared": true
+  "new_four_control_family_and_final_theta_frozen_view_declared": true,
+  "trust_radius_restart": {
+    "actual115_last_recorded_radius": 0.0125,
+    "request116_initial_radius": 0.1,
+    "original_entry_hard_requirement": 0.1,
+    "continuation_of_stored_trust_state": false,
+    "reset_is_explicit_algorithmic_initialization": true,
+    "same_original_radius_update_rule_retained": true,
+    "no_radius_state_transcribed_as_a_scientific_parameter": true
+  },
+  "original115_summary_provenance": {
+    "run_id": "43689328906",
+    "source_commit": "c9eb007df84297f5345d0e7fab42b845df0bf912",
+    "status": {
+      "bytes": 1069255,
+      "file": "four-control-curved-status.json",
+      "sha256": "b542147b089985e5ce0e90623d32b4fd4eabf77e2fea07c1d50914c1cb7d2696"
+    },
+    "log_summary_bytes": 69434,
+    "log_summary_sha256": "282c363f6a1c518d3e37ca4cdca78cdc0c741e9c079ab6cb3331352a2279b2b1",
+    "original_stop_reason": "explicit total direction budget completed, counting accepted and rejected directions",
+    "original_accepted_points": 8,
+    "original_direction_attempts": 8,
+    "original_unit_stopping_tolerance_met": false,
+    "original_full112_candidate_flag": false,
+    "original_nonzero_lambda_field_computed": false
+  }
 }

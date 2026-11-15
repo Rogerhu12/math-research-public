@@ -1,0 +1,36 @@
+{
+  "schema": "R259-explicit-four-control-odd-shape-recipe-v1",
+  "origin": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43689328906",
+    "source_commit": "c9eb007df84297f5345d0e7fab42b845df0bf912",
+    "producer_file": "geometry_20261115_small_core_four_control_curved_recipe.py",
+    "producer_sha256": "3ca1bdf723e7c44f808ed786ccda854775c262d28ce92804fde2c8ca86cad160",
+    "producer_schema": "R259-four-control-full-three-two-normal-curved-trust-recipe-v1",
+    "status_bytes": 1069255,
+    "status_sha256": "b542147b089985e5ce0e90623d32b4fd4eabf77e2fea07c1d50914c1cb7d2696",
+    "log_summary_bytes": 69434,
+    "log_summary_sha256": "282c363f6a1c518d3e37ca4cdca78cdc0c741e9c079ab6cb3331352a2279b2b1",
+    "parameter_field": "final.parameters"
+  },
+  "literal_parameters": [
+    0.43415584380328803,
+    0.1757884505633052,
+    0.573987809246338,
+    0.03007332272935495
+  ],
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "family": {
+    "schema": "second-original-support-odd-C2-control-v1",
+    "support_index": 1,
+    "original_controls": 3,
+    "new_parameter_count": 4,
+    "formula": "b2(x)*(2*x-1)",
+    "theta_zero_reduces_to_original": true
+  }
+}
