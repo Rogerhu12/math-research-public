@@ -1,11 +1,12 @@
 {
-  "request": "same-g-keep-saved-SOC-correction-on-parabolic-backtracking",
-  "created_at": "2026-11-15 01:36:34 UTC",
+  "request": "complete-minus2-character-presentation-and-same-g-SOC-metric-row-reserve",
+  "created_at": "2026-11-15 01:54:37 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "curvature_soc_arc"
+    "character_head_minus2",
+    "curvature_soc_metric_reserve"
   ],
-  "goal": "From the fully accepted78b36 state and all4208/1176 rows, keep the saved SOC correction on later fractions x+alpha*p+(alpha/alpha0)^2*w. Primary and correction LPs unchanged; every curve point must pass both original value grids and real curvature decrease. Same12LP/40values/120active seconds and initial trust1/1000. No failed point becomes an accepted restart.",
+  "goal": "Complete the fourteen true-weight-minus2 original families and R163 translation presentation, reusing five old A/H families,40 response roots and two old N2 contractions. In parallel consume the fully accepted6ba089 physical state and all4224/1197 learned rows; only the SOC metric-row proposal RHS gains exact1/1000000 reserve, with all actual gates and the shared12LP/40values/120active seconds unchanged. No head rank, positivity, target55 or final task success is presumed.",
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
     "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange_audit.py": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a",
@@ -21,14 +22,41 @@
     "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_steps_audit.py": "cd01144dec2a15872a53b3fce058a3461e8b5298c905b1ba319d041dc9fd146c",
     "topics/visible-flex-new-mechanism/scripts/frame_curvature_inherited_scale_audit.py": "27ba43865b0245e6bc99ca2914c27dafc5e209f5774249c3ce1da09a7479b2e6",
     "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_arc_steps.py": "44f8e11070d694cb506e42a1dfb7e04ffad880775c2d7cf922cd9c82358a765c",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_arc_audit.py": "68ffa2e2ca361ec67f8e94bd850deab619cc52f5186b55f9b75ace125595d258"
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_arc_audit.py": "68ffa2e2ca361ec67f8e94bd850deab619cc52f5186b55f9b75ace125595d258",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
+    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+    "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
+    "topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_minus2.py": "fcc41b4d5a640a1ac411e7f6f29622db81c39cb2be37aed7811136418a045f11",
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_metric_reserve.py": "9158fea8d1c47f57d5bd55e5654613ec19813d63c1f6367961b8fb6df985a95f",
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_soc_metric_reserve_audit.py": "2cbf0f663cb7b4af52baba4835cd036586ffbe1567ff9b366a25d8a81d0ccca4"
   },
   "jobs": {
-    "curvature_soc_arc": {
+    "character_head_minus2": {
+      "development": [
+        "--toy-only",
+        "--output",
+        "@OUT@/character-head-minus2-development.json"
+      ],
+      "research": [
+        "--output",
+        "@OUT@/character-head-minus2.json",
+        "--max-seconds",
+        "240",
+        "--memory-mib",
+        "1024",
+        "--checkpoint-every",
+        "8"
+      ]
+    },
+    "curvature_soc_metric_reserve": {
       "development": [
         "--check-only",
         "--out",
-        "@OUT@/curvature-soc-arc-development.json"
+        "@OUT@/curvature-soc-metric-reserve-development.json"
       ],
       "research": [
         "--input",
@@ -80,7 +108,7 @@
         "--expected-feasible-curvature-sha256",
         "87945a59c206618ca2da5fe0b31f8a5961c1bef085704aa5bf27494c7daecf32",
         "--out",
-        "@OUT@/curvature-soc-arc-audit.json",
+        "@OUT@/curvature-soc-metric-reserve-audit.json",
         "--fixed-target-audit",
         "topics/visible-flex-new-mechanism/notes/actions-43653520539-1-curvature_feasible_steps/curvature-feasible-steps-audit.json.gz",
         "--expected-fixed-target-sha256",
@@ -100,40 +128,20 @@
         "--inherited-scale-audit",
         "topics/visible-flex-new-mechanism/notes/actions-43662323270-1-curvature_inherited_scale/curvature-inherited-scale-audit.json.gz",
         "--expected-inherited-scale-sha256",
-        "e93390fd4660b33d72aa6b9203eb9f6fd28b1b7d76d627b346b746632f407094"
+        "e93390fd4660b33d72aa6b9203eb9f6fd28b1b7d76d627b346b746632f407094",
+        "--soc-arc-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43663914259-1-curvature_soc_arc/curvature-soc-arc-audit.json.gz",
+        "--expected-soc-arc-sha256",
+        "8cf397631075f70052b7d6fcbe8e378d8e8436e5cd36215a55d89867ad76afa0"
       ]
     }
   },
   "other_active_research_runs_at_dispatch": [],
-  "geometry_metric_identity": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
-  "geometry_initial_physical_identity": "78b36a49c6722023052c8d66a4e664d6b38959d677011257c9b307d4858a851e",
-  "geometry_target_schedule_exact": [
-    "55",
-    "50",
-    "45",
-    "40",
-    "35",
-    "30",
-    "25",
-    "20",
-    "16"
-  ],
-  "geometry_shared_limits": {
-    "linear_models": 12,
-    "physical_evaluations_coarse_and_fine": 40,
-    "optimization_seconds": 120
-  },
-  "fixed_metric_budget_exact": "167/625",
+  "preceding_geometry_arc_run_completed": "43663914259",
+  "preceding_J6_original_separation_run_completed": "43663137188",
   "previous_private_actual_pull_time": "2026-11-15 01:14:42 UTC",
   "previous_private_actual_pull_commit": "3fe10fac0761eaea17af836b4e47d0f0b6a0e6eb",
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
-  "task_complete": false,
-  "SOC_primary_and_correction_LPs_share_total_limit": true,
-  "preceding_SOC_run_completed": "43660745541",
-  "preceding_J6_balanced_run_completed": "43661460271",
-  "geometry_initial_primary_trust_exact": "1/1000",
-  "preceding_inherited_scale_run_completed": "43662323270",
-  "preceding_J6_original_separation_run_completed": "43663137188",
-  "parabolic_backtracking_additional_LPs": 0
+  "task_complete": false
 }

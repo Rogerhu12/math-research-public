@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **f
 
 四次接纳model2/4/5/6均x+p/2+w/4，原α0=1；主trust1/1000。m5/6完整SOC粗过而fine四个已知metric_plus余差5.285e−8/3.905e−8被拒绝，低κ57.753/57.523不可用。末池4224/1197；12LP=7原+5SOC，32值=18粗+14细，活动46.238s/初始化257.202s/总318.343s，RSS2138632KiB。末独立2值不优化。Xs/Xss是径向导数，精化差仅有限比较不包围。
 
-完整notes/curvature-soc-parabolic-first-actual-result-20261115.md；raw3893785B/8cf39763，gz494832B/ff24a0d2，summary53423B/10348ca6。旧run保留不重跑。下一仅给SOC的metric±提案RHS添加原行单位1e−6内裕量：max(γmax(c(x),0),1e−6)，不是放宽真实η门；从6ba089及全4224/1197池，用18输入独立consumer，同12LP/40值/120s、原抛物线回退。mechanism负责新source/人工接口。同g/b0/163/高度均值384/primitive/盒/真实验收均不变；54/53备选不启用。
+完整notes/curvature-soc-parabolic-first-actual-result-20261115.md；raw3893785B/8cf39763，gz494832B/ff24a0d2，summary53423B/10348ca6。旧run保留不重跑。下一仅给SOC的metric±提案RHS添加原行单位1e−6内裕量：max(γmax(c(x),0),1e−6)，不是放宽真实η门；从6ba089及全4224/1197池，用18输入独立consumer，同12LP/40值/120s、原抛物线回退。reserve库9158fea8/driver2cbf0f66新人工29.39s通过；本提交双lane公开派发。同g/b0/163/高度均值384/primitive/盒/真实验收均不变；54/53备选不启用。
 
 ## 4. 完整第四成本：已付结构与禁止外推
 
@@ -56,6 +56,6 @@ R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)
 
 **R162 actual43663137188/source0700d815已证J6∉E_D。** 只新J6及一条旧42整体和，消费R153完整残差；mixed−2实查询t1/35给ΛJ6=1266268570 mod2147483647、新44det1176345646。3.984s/RSS100.527，0旧列/旧NF/forcing。E6=E_D+RJ6真44维、pure9、核与balanced像35，U≥240；lineality/query仍237。10原根135334B/5563bacb、完整39600B/3c20b09a；有理候选分支未触发。J6∈R已否定，但J6∈R−2+N U−1仍未定，c0/b1不可归零。该原分离门结束，不再追第45孤立列。
 
-几何arc actual已登记，下一metric-SOC内裕量。R163已付全部14族：最高10族H^eF(gS)=P_gF(S)；F0/Q2带同一C_g(M)=Σa_i(M)F0(gS_i*)。g∘g′=(HH′,d′+H′d)，C复合方向已核；低阶平移∂ωF−c(m)，最高层∂ωF。故完整Hσ=(Rσ+Tσ)/(Rσ+Dσ)，Dσ用同权14族及静态cσ生成全部N Uσ+1模R。权−2无需另编−1；pure+balanced都保，不认πU入R。下一消费旧3974/static与五族，仅新权−2剩余系数/必要N2收缩，再解完整字符必要锥；E_D不是全部U。R164已付：规范化Kλ由真实±E8路径夹紧，仿射重心+有界整权/幂零轨道迫全部可行μ协变。权−2由静态c=λc_N,d=λc_D唯一给μ=(d_p0,d_p1/2,d_p2/3,−d_r0,(c_s1−4c_p0)/3,(c_s1+2c_p0)/3,d_s1,d_t1/2)；8兼容本是Lie cocycle，不算独立新障碍。全部修正标量族=h^(σ−e)f(k)，令r=logh完整正性iff所有平端r,k有∫e^-2r P(k;r′,k′,r″,k″)≥0；全0/2/4层保留，不推P点态非负。root独占Git。
+几何arc actual已登记，下一metric-SOC内裕量。R163已付全部14族：最高10族H^eF(gS)=P_gF(S)；F0/Q2带同一C_g(M)=Σa_i(M)F0(gS_i*)。g∘g′=(HH′,d′+H′d)，C复合方向已核；低阶平移∂ωF−c(m)，最高层∂ωF。故完整Hσ=(Rσ+Tσ)/(Rσ+Dσ)，Dσ用同权14族及静态cσ生成全部N Uσ+1模R。权−2无需另编−1；pure+balanced都保，不认πU入R。character_head_minus2源58856B/fcc41b4d与13人工0.0104s已核；本提交双lane首次生成，5旧A/H复用、9族新补、每8收缩保存，240s/1024MiB。只未成cache可原源续接，不重已成呈示；随后解完整字符必要锥，E_D非全U。R164已付：规范化Kλ由真实±E8路径夹紧，仿射重心+有界整权/幂零轨道迫全部可行μ协变。权−2由静态c=λc_N,d=λc_D唯一给μ=(d_p0,d_p1/2,d_p2/3,−d_r0,(c_s1−4c_p0)/3,(c_s1+2c_p0)/3,d_s1,d_t1/2)；8兼容本是Lie cocycle，不算独立新障碍。全部修正标量族=h^(σ−e)f(k)，令r=logh完整正性iff所有平端r,k有∫e^-2r P(k;r′,k′,r″,k″)≥0；全0/2/4层保留，不推P点态非负。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
