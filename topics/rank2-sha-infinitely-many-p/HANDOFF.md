@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：298c7dbebc28b5fa94bea030b4efe1426b21bf67；2026-11-15 17:12:25 UTC核两README无变。实际CI pull 2026-11-15 16:36:58 UTC/efa8df2dabb41e526474678c43c4577430ab96d7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:12:25 UTC仍无环境。最迟2026-11-15 17:20 UTC再实际pull。
+- 最近已读规则提交：37ca48ef4677184bbef10dd593f3b4a7605f121a；2026-11-15 17:14:12 UTC核两README无变。实际CI pull 2026-11-15 16:36:58 UTC/efa8df2dabb41e526474678c43c4577430ab96d7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:14:11 UTC仍无环境。最迟2026-11-15 17:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 
@@ -19,10 +19,10 @@ root唯一metadata/ref写者。root续更高b/原指定配对；deep续R802剩�
 
 ## 正在执行、未推内容与下一动作
 
-R797分类完整已推。首次run43739357371/job132888882231仅在最终JSON>59KB处失败；数学日志无剩余，但尚无完整证书。根将只压缩报告后公开重跑，脚本参数仍--max-order 64 --remaining-examples 20。
+R797分类已推；首次run43739357371仅在最终JSON>59KB处失败。已只压缩报告字段（数学不改）并同R801公开重跑；参数仍--max-order 64 --remaining-examples 20，证书待判。
 R799已排原q0≠0全部b=b0=3强窗，覆盖r2/3/4及每个ell，不只mq0/ell1。k0使p=12h+6r−1，旧单位子式付大h，κ≥9/κ≤11唯一类把剩余压为(293,23),(311,24),(317,25)；原九列各rank9/aug10，故此支必须b≥4。run43738777466/job132887136518及producer/hash见证；q0零及变动b不外推。
 R798已付原B0完整halfperiod投影：型五rank2恰两arith、primitive3整条杀掉，H5=−ωA5³；型四rank3/charX³+ω，H4=−A4³，无μ6线。原Edeep Z²来源准确λ2NΩ² P4F2，三负二值未赋非零，仍保全W外部。公开run43738922048/job132887560988及全Q(ω)矩阵/producer/hash见原证，不能将混合unit门穿投影。
-后继R801实际q二阶reader尚未入main：blob41cc9c37535966a27fbb321f52ebed88b0fa3514，scripts/check-r798-native-second-z-source.js；参数--max-block=4 --taus=2,3 --with-b --b-g-blocks=3 --neutral-degree=12。须先读脚本再公开执行；未执行不能认实际负二非零。
+R801实际q二阶reader已入main并提交：scripts/check-r798-native-second-z-source.js，参数--max-block=4 --taus=2,3 --with-b --b-g-blocks=3 --neutral-degree=12；原58行/双修正/2!与完整PB保，执行待判，未赋负二非零。
 
 ## 普通：同q、原中央与全部真实补域
 

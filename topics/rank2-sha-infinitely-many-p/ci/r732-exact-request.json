@@ -1,5 +1,5 @@
 {
-  "request_id": "rank2-r797-original-zero-constant-cubic-20261115",
+  "request_id": "rank2-r797-compact-report-and-r801-second-source-20261115",
   "checks": [
     {
       "engine": "python3",
@@ -9,6 +9,18 @@
         "64",
         "--remaining-examples",
         "20"
+      ],
+      "include_stdout": true
+    },
+    {
+      "engine": "node",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r798-native-second-z-source.js",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
       ],
       "include_stdout": true
     }

@@ -396,6 +396,24 @@ def main():
     result["all_geometry_inputs_sha256"]=digest(classes)
     result["all_finite_matrix_results_sha256"]=digest(
         [{"key":key,"result":val} for key,val in sorted(cache.items())])
+    # Reporting-only compaction after every exact calculation has finished.
+    # The full dictionaries remain reproducible and their joint hash is retained.
+    result["full_profile_reports_sha256"]=digest(profile_reports)
+    result["profile_bounds_order"]=["mh_max","m1_max","delta_d_max","delta_inf_max"]
+    result["profiles"]=[{
+        "z":r["z"],"masks":r["masks"],
+        "bounds":[r[k] for k in result["profile_bounds_order"]],
+        "columns":r["nonconstant_columns"],
+        "full_columns":r["full_columns"],
+        "minor_ranges":r["minor_ranges"],
+        "minor_stream_sha256":r["minor_stream_sha256"],
+        "first_two_det_sha256":[d["det_sha256"] for d in r["first_two_minors"]],
+        "gcd_factorization":r["gcd_factorization"],
+        "gcd_bits":r["gcd_bits"],"gcd_sha256":r["gcd_sha256"],
+        "unfactored_bits":r["remaining_large_part_bits"],
+        "unfactored_sha256":r["remaining_large_part_sha256"],
+        "max_row":r["max_row"],"uniform_gate_paid":r["uniform_gate_paid"]
+    } for r in profile_reports]
     encoded=json.dumps(result,separators=(",",":"))
     while len(encoded.encode()) > 59000 and result["remaining_examples"]:
         result["remaining_examples"].pop()
