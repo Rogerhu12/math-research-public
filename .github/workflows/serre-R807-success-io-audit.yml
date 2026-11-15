@@ -1,0 +1,56 @@
+name: serre R807 successful output IO audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/serre-uniformity/notes/R807-success-io-audit-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: serre-R807-success-io-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout sparse audit source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R807_public_success_io_audit.py
+            /topics/serre-uniformity/notes/R807-success-io-audit-request.json
+            /.github/workflows/serre-R807-success-io-audit.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit actual successful producer without mathematical arithmetic
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import ast, hashlib, json, pathlib, subprocess, sys
+          request = json.loads(pathlib.Path("topics/serre-uniformity/notes/R807-success-io-audit-request.json").read_text())
+          script = pathlib.Path(request["script"])
+          source = script.read_bytes()
+          assert hashlib.sha256(source).hexdigest() == request["script_sha256"]
+          ast.parse(source, filename=str(script))
+          assert request["new_mathematical_computation"] is False
+          subprocess.run([sys.executable, str(script), "--last-read-commit", request["last_read_rules_commit"]], check=True)
+          PY
+      - name: Retain immediate continuation IO summary for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R807-success-io-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R807-io-audit/audit-output
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 6
