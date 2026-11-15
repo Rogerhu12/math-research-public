@@ -131,3 +131,5 @@
 - 2026-11-15 00:56:23 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交90cd9d299294fe11fad947541fd308fd7cd7f380记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 00:57:10 UTC，Astra-new-mechanism-9974ea84：root全文读SOC两新源（38107B/3bc2df4e，39194B/cd01144d）、设计和新人工回执。原15输入/同g/b0/163与两网全部物理门保留，12总LP、40粗细值、120s活动预算不增；actual残差修正L1最小、半实际步范数上界和半预测改善。新增单lane curvature_soc_steps，从d1ca5f派算；上一研究43659795254已公开确认success，不重跑旧优化。
+
+- 2026-11-15 00:58:36 UTC，Astra-new-mechanism-9974ea84：root全文读J6唯一pure源23040B/48afb006与10270B设计、6项小人工全过。只消费R136 family_0191_-4和R151已存九基，解Q并fresh新原差；0旧40/31、0mixed/profile/forcing。第二lane general_pure_J6_membership派算，与SOC43660745541并行不超二。R159补明抽象λ经Ξ逆运输的定义域，未改证明。

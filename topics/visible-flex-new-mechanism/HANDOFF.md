@@ -55,7 +55,7 @@ R152固定h最高action给一维Sturm充要门（e可局部负）；R155扩为�
 
 R133已证Π8(U)=Π8(R)=T（31/偶15），R116同一四块C的整Π8V_C恒零。m8层结束，不重复；不推广一般pure/mixed。
 
-R138原398项差证一般G[-4]=B_p2(W1)[-4]/128，故整个G轨道pure入R，完整非零商能取pure零代表。R151 actual43657785023/source c606688再证J九项原响应身份：31新pure依赖及398项目标原差全零；与R131旧40子式的9条pure行合得dimπ(R−2)=9、响应pure核31，Π8再丢3维。J七个ω条目pure可付、N⁷[J]=0仅模R；旧R143六列问题不重跑。
+R138原差证G[-4]=B_p2(W1)[-4]/128，整个轨道pure入R。R151 actual43657785023/sourcec606688付J九项pure身份；31原依赖+旧40子式九pure行给像9/核31，Π8再丢3维。J轨道pure已付、N⁷[J]=0仅模R；旧R143不重跑。
 
 **R157 actual43659795254/source ce6c80bf已证D0一般pure。** 只读R151九原基/旧代表，D0新402项原差fresh零（faf4f97b）；九项Q系数/全局列见R157，未用模lifts，0旧40/31或新采样。0.138s/RSS34.281，11根证书15463B/f5355a03。真实E_D=R−2+span(G³,J,D0)恰43维、pure像9、pure核34。三个轨道都可取pure零代表；U≥239、lineality/query237不变，J/D0实际正负仍未付。当前不证πU=πR，不另开D0平移链。
 
@@ -63,6 +63,6 @@ R138原398项差证一般G[-4]=B_p2(W1)[-4]/128，故整个G轨道pure入R，完
 
 R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)/16由复极化忠实，已有响应核31/已知完整核34无需重验。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B。下一仅J6=[h⁻²]Akk的新pure九基门，成功后才做有目标balanced，不当锥对称。
 
-几何SOC源3bc2df4e/cd01144d已全文读，15输入人工通过，单lane本提交派算；原12总LP/40粗细值/120s、同g/b0/163/两网原门。二阶修正取真实两网残差，L1最小/半步幅/保半预测改善，遗漏行先补池回旧合格点。tail写J6单pure；root独占Git/派算。
+几何SOC **43660745541/source3fd3bbe8**运行中，源3bc2df4e/cd01144d；15输入、同g/b0/163、12总LP/40粗细值/120s。真两网残差L1修正，半步幅/半预测改善，遗漏先补池回合格点。第二lane仅J6 pure源48afb006（23040B），root全文读/6新人工过，本提交派算；无新mixed。literature准备后继有目标balanced。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
