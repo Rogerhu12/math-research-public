@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [准确根值剥离与真实径向第一修正幅度合同](results/R133-supplement-exact-root-value-subtraction-and-real-radial-first-Airy-amplitude-bounds.md)：B1–25先保留并减去完整b*(X)，在实r/复角路径消去假的b*/T费用；双ray配对给实际1/9、1/5及全部非径向项，完整forcing seam跳与原mean仍保。数值path门/幅度预算待实际consumer，不授完整强返回。
+
 - [完整97右 Poisson 矩阵 Gram 合同](notes/2026-11-15-R133-complete97-right-Poisson-Gram-contract.md)：用同一有限193 BVP和真实末格图构造97输入有符号Gram；完整body/waist/trueBR/全部V跳由原G_L后验修正，cut用独立trace。P23保留方向供全频帽C_H*H C_H；这是解析消费者合同，数值门和无限耦合另付。
 
 - [固定内窗第一 Airy 修正完整源实际续算](results/R133-supplement-actual-fixed-inner-first-Airy-complete-sources.md)：公开43657933806 child0/17门；两旧stage逐字复用，新增4转换/4积分、0旧数学重算。负/正完整源上界2163674680531/2163193978865，九词、独立mean、raw μL0w1、原dr全保；局部解析Fourier费仍粗，不授strong return或全ν门。

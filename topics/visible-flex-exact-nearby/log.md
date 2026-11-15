@@ -43,3 +43,9 @@ runner00:24:04.151912真pull4aea83bc…、00:24:06.346016真pull731044d9…，�
 ### 2026-11-15 00:33:02 UTC：完整97右Poisson Gram合同独立推送
 
 已全文核P1–24（blob65f96004…/SHA2a3d74a9…13281B）：完整右端97输入含独立mean；非零qcut必须用末格Vcut^ex；E_i是同一个精确乘积，dyadic+半径只是包络、不添物理跳。完整signed Gram先算，再加PSD slack；右误差只完整even97列；body缺陷始终覆盖全5970。全部V真跳对同一输入按weighted Cauchy合并，不能当正交。原有限BVP Green恒等式付后验，无新全BVP Neumann假设。cut采用独立点核/迹门。新数学尚未运行；newton继续最小SCI/CI。两README只读核eec9d25f6a9e5b787370c440b9161c6f1bdcaa36不变；未完成总门，继续。
+
+### 2026-11-15 00:34:03 UTC：准确根值剥离的实径向合同独立推送
+
+root全文核B1–25及全部积分系数，另读原M.4–7/M.12/M.16–17补共迹依据。令B=tildeB+b*(X)、b*=f_b(0,X)，精确有MZ*=N(0,b*)；原有序radial方程保而输入改为g_a=f_a+2iεTb*′、g_b=f_b−b*。Qτ=a tρ严格径向，路径只实r/复角；paired E/O先相消才取norm，原物理seam全部跨越并付forcing跳。B22/23已在真实路径重新证明1/9、1/5等系数，含非径向余项；完整b*及mean仍重构入w1，不把真实源删零。
+
+新合同仅解析恒等式及条件scalar majorant；path宽度/固定X lift/完整root Fourier/所有forcing跳须实际付费。phase继续最小consumer、外段actual和完整非local。两README核6b1c411def5c7c54f88d5f9e01cc86aaa4502388无变化；未完成课题继续。
