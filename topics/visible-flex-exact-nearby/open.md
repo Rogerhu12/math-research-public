@@ -16,7 +16,7 @@ newton_source负责原同F链。原有限193 actual43635487128/8只授有限负�
 
 [全部5970同F数据](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)已由43654510038完成32范围及finish，原4+5966新、child0/7门，native7e1a5709…/process0c832fe8…。同193状态/128high、真实Q、ρ端点、F逆误差、signed源与输出Gram完整保留，0target重算。原225pin8d334ee7…不动。
 
-当前同runner三流 actual43681612825/1，SCI f33345d1…/CI53d672d2…/362pin81fcf32f…：原backward最终1886/320bit只从唯一artifact14146873569逐bytes复用，13856旧array/34array artifacts、199历史输入已核。06:31 future3216=1886旧+1330新、past1088、product1504、0groups；没有最终Green/Poisson界。此前v1 43680721302仅旧impulse换行SHA门失败、0新数学，修复记录完整保留。真pull06:31:16.716699→57453dd6…两README差空。worker总340min至11:16:45，不能靠实时速度承诺完成。
+当前同runner三流 actual43681612825/1，SCI f33345d1…/CI53d672d2…/362pin81fcf32f…：原backward最终1886/320bit只从唯一artifact14146873569逐bytes复用，13856旧array/34array artifacts、199历史输入已核。06:41 future3520=1886旧+1634新、past1264、product1808、0groups；没有最终Green/Poisson界。此前v1 43680721302仅旧impulse换行SHA门失败、0新数学，修复记录完整保留。真pull06:41:19.315394→4b699e44…两README差空。worker总340min至11:16:45，不能靠实时速度承诺完成。
 
 [三流与真97合同](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)保future Q、past V/W、raw Ecut=I97及全部同源jump；完整dyadic entry球和原1e−30逆门，187组全signed Gram由实际Vcutex同C合成。true96 waist、true97 even mean、完整[0,9/10] body和独立cut trace、三个HY与全部8whole方案都保；新数组仅runner临时消费。局部matrix成功不代全BVP逆。
 
@@ -142,7 +142,7 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 [共同势actual43685624307](results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md) child0/16门、0.157509657s；SCI04271368…/20pin44555290…从immutable原root0..15、M3复域、a0..14消费，0旧系数/FFT/target重算。四复径向radius全部势/分母/image门过，δ方盒1e−8、z方盒1/9409覆盖全部|j|≥97两sign；物理j0独立。最大H=1/6000给V<276、VT<26431、VTT<3830956，κ>4.485249802470、|1+θ|>.999998241662。H=1/10000和1/6000确实覆盖原piece2549；小两域false保留，未把邻片cubic认作同一物理背景。
 
-actual-result SHA844b88e2…、executiond4c48d61…；所有signed中间balls仅临时，无新artifact。下一由真实势/导数/像域构造reference两列、正两端图和旧圆H_V gap，再付强双Schur/strong-window。旧free-Airy upper不能作为可相减误差。
+actual-result SHA844b88e2…、executiond4c48d61…；所有signed中间balls仅临时，无新artifact。[A1–27真正reference两列](results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md) 已在实T±1/2000构造全n≥388的完整势两列：Wronskian λ/π、root shear<138n^-4/3<1/19、正两权21/20、负relative/inverse6/5及真实两端propagator10/9。Ai端值只是reference basis定义，物理positive行仍独立；两普通源、原n幂和κ rootport、mean/真实seam保。下一付原复角上H_V gap/导数、正物理Schur及强双Schur/strong-window。实T列界不免费授复φ，旧free-Airy upper不能作为可相减误差。
 
 ## 9. 当前根规15与原数据恢复
 

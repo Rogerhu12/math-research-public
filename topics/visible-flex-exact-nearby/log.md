@@ -101,3 +101,7 @@ root逐G全文及charged-scope补丁复核；newton独核G17及G23–30、phase�
 ## 2026-11-15 06:44:59 UTC — 全4384角窗与1730真实导数损失独推
 
 root全文核T1–27及最终补丁；phase逐旧R/K全部2048用途与新T2–23完整指数复核。修正阶乘展示为AM–GM<2^(12r)，使3阶乘+其余4r确为40r；原13r单独展示不够。T26完整mean重建常数定为2^524289；T27明确O6/O10系数无Q/c^-1、M4全浅深supC<2^-12、两次tame与Π_A rank、finiteconnector独立source单位。新1730损失仅在两个实际严格余量重核后成立，不修改旧2050证明。root仅统一两处display dollar与状态。README 2e055d6402339f66ce95fdd347eedcc4f1971cd6两项无变，仍未完成背景迭代。
+
+## 2026-11-15 06:52:51 UTC — 真实径向两列与完整源独推
+
+root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian和正轴渐近；Gamma积分上下界、Riccati/energy、Volterra符号、a/b与λ常数、负rankone传播均逐式核。root/newton各对原C12–16核A25两普通源与A26的n^(1/3)/n^(-2/3)/κ，全部吻合。只用实际势/像原结论及手算有理不等式，0旧数值重算。root另全文核Green06:41过程36748B/SHA7c24561f…真实pull到4b699e4，两README空；CLI06:45:46再次无executor，未冒称本机pull。前H9805B归档68068546…。README dc032461bbd2f3f7515ea30e5495b50870a06f65两项无变。

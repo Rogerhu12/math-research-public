@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 真共同径向两列、root shear与完整两源（2026-11-15）**：[A1–27](results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md) 从actual43685624307的V<276及完整T像，构造实T±1/2000上n≥388的两列，精确Wronskian n^{2/3}/π；完整shear<138n^-4/3<1/19，正两权21/20，负relative及inverse6/5、真实两端relative propagator10/9。两普通源不取g2径向导，原n幂/κ rootport、独立mean/实际positive行与seam保；没有授old complex angle或全strong return。15528B；blob62909c54de321da071a6bbc6e169e87b5888dde6；SHA2560e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49。
+
 - **R119 全4384角网络、1730损失与有限tame门（2026-11-15）**：[T1–27](results/R119-supplement-4384-angular-window-1730-loss-and-finite-tame-budgets.md) 在原高背景域保所有层权/cutoff/true outer/mean，Bfin=2^{319488}、双强4/3费2^{663552}、remaining<2^-190000；whole weak新费2^{2359296}。重新支付11/4径向余量及23首切口余量，得s≤2656的Y_s≤2^{8000000}N_(s+1730)+2^{4600000}Bext_(s+1728)。完整quadratic含mean2^{524289}，真实EN tame2^{196608}。20869B，blob3524417428a17201a76218c9104a179b417c16dc，SHA256faef376f094d52278c65516823a3b96d4fbe4d42b22b52480c889627c263ec5a。G源仍≤2114，尚未Nash迭代或背景域保持。
 
 - **R119 真firstΓ低方向与完整projected metric Schur（2026-11-15）**：[G1–30](results/R119-supplement-low-direction-first-Gamma-projected-metric-source-and-linear-Schur.md) 以固定H8196/residual域背景直接求真实ODE正权切向，D8方向的完整compatible metric源≤2^{524288}R²D8；全无限tail逆复合反馈<2^-8000000。保实际Hp、两端常高度/flux及ψN；真holonomy-one derivative仍减Π_A EN，一般charged数据只显示projected代数逆、另留charged principal列。21903B；blobb3a45c936f5d6691b7c97d1653b6e670d10861f5；SHA2566d103b66bcd4322f3312312c686df822c082dfa0a099bedb38767f5ed95f94b0。没有无损消去EN或构造低阶Γ值图，tame迭代仍待。
