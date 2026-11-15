@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "08b5c59698e361935d3e57c7e3d46b354564f669",
+  "rulesReadAtCommit": "444035902907dc149caa953ab285a981f31417de",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -326,6 +326,75 @@
       ],
       "timeoutSeconds": 230,
       "receiptPath": "{work}/higher-two-regular202-mappers/higher-two-regular202-mappers-receipt.json"
+    },
+    {
+      "id": "two-full-original-schur-through-three-field11",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-schur-through-three-field11-789f.py",
+      "scriptSHA256": "cf63ce85c10ca54bedd43cef99f6de41e78867aae2ae2e2b87046123e894bb17",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-schur-through-three-field11-reused-native-789f.cpp",
+          "sha256": "a5b34ee383e2484421188dfd5317418aea2649779b09219271d90e28d72f6592"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-two-coefficients-through-three-789f.py",
+          "sha256": "11b727a08cab142bc016c84eff61ad70360598c73334f39903b5bafd5aab36aa"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-first-connection-field11-789f.py",
+          "sha256": "5033e098f01b7daf0b64e2c15291935c972c2459e1dc338c14887fdfde238e7c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-full-original-first-connection-field11-native-789f.cpp",
+          "sha256": "f2e5bf564781eb7dabce1a9c7c277389af65410b2f91adee996fc4274fa7df76"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-two-full-original-first-connection-field11.json",
+          "sha256": "aebdd169ec950f7eb4c17b7e9ac4dc30ecb205dfc6a2d9476af9d4d03ebc9d3a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43729338969-two-original-projected-order4.json",
+          "sha256": "693da6446a6f04cba2c343ea49d9d3466caad1aebd056e91db338163b20d3332"
+        }
+      ],
+      "argv": [
+        "--first-driver",
+        "{scripts}/2026-11-15-r150-two-full-original-first-connection-field11-789f.py",
+        "--first-native-source",
+        "{scripts}/2026-11-15-r150-two-full-original-first-connection-field11-native-789f.cpp",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--two-three-generator",
+        "{scripts}/2026-11-15-r150-original-comoving-two-coefficients-through-three-789f.py",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-two-full-original-schur-through-three-field11-reused-native-789f.cpp",
+        "--parent-receipt",
+        "{scripts}/43740928483-two-full-original-first-connection-field11.json",
+        "--projection-receipt",
+        "{scripts}/43729338969-two-original-projected-order4.json",
+        "--parent-checkpoint-dir",
+        "{work}/two-full-first-field11",
+        "--checkpoint-dir",
+        "{work}/two-full-schur-three",
+        "--out",
+        "{work}/two-full-schur-three-out",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/two-full-schur-three-out/two-full-original-schur-through-three-field11-receipt.json"
     }
   ],
   "previousSession": {
@@ -335,5 +404,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Complete original s=2 beta1 at good11 actually7; true rational15 heads give beta1,Q=7. Original216/full32/outside35 complete. Prepare independent regular202 source and outside-left mapper heads through21 with losses11 and14; complete original native transports and higher quotient remain unexecuted."
+  "mathematicalProgramStatus": "Complete s=2 beta1,Q=7 and truncated nine-target membership proved. Independent202 small mappers actually completed through21, all original small products and free blocks verified. Compute complete22 original s=2 Schur through3 with the paid constant DAG; no local length is prefilled. Complete original high/O transports remain next."
 }
