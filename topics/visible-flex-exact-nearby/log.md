@@ -213,3 +213,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:04:25 UTC — 相关Nraw39pin五件接公开Actions
 
 读main c293ee1e69e0589952dee388bc60e5f56d26ea7b，两README不变。root全文读新SCI35134B/SHAe9024812…、CI14251B/SHAa9b69b58…、workflow6022B，worker20582B/SHAacd69d4f…相对已成Taylor12逐行差异核；manifest24895B/SHA121240b3…39inputs/26原stage/0external，不从connector读二进制。原stage有各自old/new source与manifest、相同runtime/完整系数身份，Nraw各项signed相加后才norm；独立完整正尾保全n≥11和角Fourier。新增11Nraw+11helper+33norm+2tail+3budget=60stage；原75/205stage全不重算。45/50/65min门、前后真实pull/两README diff、非FF真rebase循环及90日原artifact保留，所有已成prefix按同一源身份复用。当前只部署，后继真实JP全九词/mean/径向权和物理seam仍需支付。
+
+### 2026-11-15 02:08:41 UTC — Nraw首次hydrate失败原样保留，仅修一条输入路径
+
+读main 99c3a06dfe9e45c2f733e885136fe79c526a3722，两README不变。原run43666029053/1实际job失败于Hydrate39，source AST、环境安装与数学步骤全skipped，尚无科学process/native。manifest原121240b3…中仅Laurent/Taylor algebra路径漏topics/visible-flex-exact-nearby/，而原worker准确拒绝topic外输入；不是数学失败。现仅补此1path，39内容SHA/bytes及SCIe9024812…/CIa9b69b58…/workeracd69d4f…全未动，workflow只更新manifestSHA。新manifest bc34acdc1738a92bf71d9ce6c8be2dddfced3ae1de0ca884a1025c45419256d1；原run和失败配置在前commit完整保存。新run才执行此前未运行的60stage，没有重算任何已成数学。
