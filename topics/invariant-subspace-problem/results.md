@@ -303,3 +303,7 @@
 ## 2026-11-15：原二点十五首项与九平方零读数
 
 [真实一阶左jet的完整核验](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)在原6188来源上核全部两阶185640项，B秩583、增广秩590，首项恰15维且九平方一阶读数全零。同头任意完整校正读数不变；未证明全一阶首项分类、二阶延拓或局部成员性。
+
+## 2026-11-15：原固定测试投影的双边发生器预算
+
+[逐位压后伴随谐和与完整发生器](results/R271-appendix-actual-fixed-test-exchange-adjoint-harmonic-equations-and-full-generator-budget.md)证明原v=P_Ef的L/L*残量正交分解，进而原u_f双边联合范数≤24||f||/x、交换行4/x及整旗36/x。实际零源反馈保||P_Kf||因子；没有倒置未知发生器或替换原来源。
