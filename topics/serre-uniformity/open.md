@@ -64,6 +64,8 @@ R793保原V6 142条件、第二关系/rank1116及264维残余；固定degree272�
 
 **R803（已证明）**：[单原映射复用与694维混合比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)给42项/1680Q行的准确M6注入、四条原补行和五个旧56张量新收缩；U0不重算，一个694有理块至多84右端并全行代回。保原T为Galois+目标同构，由Uj/U0、原A/B及Wronskian给真实x比和群律，不除未知整同源。真Norm与b⁷/Nb、符号变换主函数、反实Lambda/s、原R794矩阵和全部高度常数保持。较小符号路线m≤8、N≤202，仅真选该消费者时补V8 q196..201。当前尚无新minor/混合坐标/极除子；全局函数约分/KM接口、2torsion刚性化及实际η/高度仍缺，不能以表达式存在代替这些工作。
 
+**R804（已证明）**：[原五低次数映射的整数循环复用](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)只读实际R794见证，五a(T)与C/C逆全整数；八个群律节点精确得到原五map。U6由原P线性组合，无第六混合求解；relative-x与y的DAG保原T⁷=ζ²、CM和完整Galois运输。仍原N≤196，函数合成无需五套Schur，β点值可在R792成功后先消费。两张反对角图的立方理想/min valuation及支撑saturation已严格给完整极除子公式；实际全局gcd/quotient/saturation适配尚缺，不能默认大算术闭点可拆小片。真正η、原刚性化和高度仍未求。
+
 R791实下降三同源与R794低次数五基的双向变换保全原极化/η。C′:Y²=X³−27b、ψD=[1−ζ²]、微分因子3、主函数(-27)等全部常数必须保留；实际对称代表的二挠刚性化比较尚未求。
 
 ### 全p sigma：同一个真正可见标签的三个单位

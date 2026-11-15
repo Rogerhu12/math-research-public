@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：94e2870c06f69a986622d3d1fd58881284475527**（2026-11-15T10:04:08.807250+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：c66f749e43904742f8b8ea9778b9441a7b21dd95**（2026-11-15T10:05:00.470569+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 08:56 UTC环境失联时按根§8用小文本API保全并推cosigma、R801/R802与IO工程。09:31 UTC终端恢复，旧tmpfs已失；已重新部分克隆远端main，现恢复终端git提交/推送。公开IO亦有真实pull回执，不把GET叫pull。
 
@@ -30,13 +30,15 @@ R790原M2 CM值/首导、R791原T阶21与实下降、R794所选五映射degree14
 
 **R797/R799/R800完整实际结果已登记**：各results/Rxxx-certified-*.md保全部原输出绑定及IO证明。R797五映射N170/172/176/193/196、全部κ/ODE；每map只κ^(N−1)，后继一次补κ^N。R799新V7/V8真秩1778/2050、minor534/148 mod739、三锚点0/1/73；R800只146原M2 q129..195。真实artifact14154283549/14153724209/14153948656均只一日，不重算旧输出。
 
-**R801已证明并登记**：[长尾与原关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。只补V6 q109..141、V7 q96..175、V8 q109..195；扁平原recipe与准确消失阶闭包，不算整套V6到195。Schur真秩d−20已证，第二关系有限试取最多e(k−1)+1次；新7/8铅笔须补全部V3至136/149。R787若成就直接s=τB；未生成新长尾/关系/高度。proof b283280e、method a96d7c3b；仅长尾core ba9c52a3/wrapper11bdf084已激活。实际五组输入11/3457/1513/5343/153项全部IO核，旧p1..5实际依赖146/418/690/962/1234，所有锚点二/三乘均别名原recipe；源码AST/全文审通过。实际run43701282817/source92961ce5b5a526109c3ba6c101961dc3c3100a85、job132772758246，09:51 UTC起；10:03状态in_progress。新尾成功仍待真实输出。
+**R801已证明，真实长尾仍在运行**：[证明](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)、[方法](notes/R801-original-long-tail-extension-and-relations-method.md)。run43701282817/source92961ce5b5a526109c3ba6c101961dc3c3100a85、job132772758246，09:51 UTC起。只补V6[109,142)、V7[96,176)、V8[109,196)，原recipe消失阶闭包与锚点别名已IO核。coreba9c52a3/wrapper11bdf084，proofb283280e/methoda96d7c3b。Schur/第二关系证明在原文；新7/8铅笔另需全V3至136/149。R787成功第一关系直接τ(A,B)，五新κ^N各一次补乘；新尾/函数/极除子/η/高度不得预填。
 
-**R802已证明并登记**：[原半线性奇偶与七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)，proof2e8a3b19。c0固定ξ反s，原扭曲T41给q/v→−；y奇阶在Fb(tξ)、偶阶在sFb(tξ)，κ固定，R_m除s^(m mod2)。全球±截面掩码保82¹⁰，真实选基后固定B/反固定A在Fb求解；末端仅两右端恢复原1234基并全129×20认证。未算新r±/minor/kernel；不改R787、不重算其已成阶段。
+**R802已证明**：[原半线性奇偶与七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)，proof2e8a3b19。原扭曲T41给q/v负号、y奇Fb偶sFb；全球±掩码保82¹⁰，七分支同归一，末端两右端恢复原1234基/full129×20。统一坐标ã−=−a−/3；未算新r±/minor/kernel，不改R787。
 
 [R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)保原142项V6关系、第二真实u/rank1116→264维残余、固定degree272表示和主函数G=s/(fτ^(m−3))全部常数。普通高次残余/η/β和高度仍需实际值。[实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)保C′:Y²=X³−27b、ψD=[1−ζ²]、微分/原h因子3和主函数(-27)常数；原对称代表二挠刚性化未算。
 
 **R803已证明并登记**：[单映射复用与混合比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)、[执行契约](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)。原M6=H0(3L+2E)维694，42项/1680Q行单射；原690行直接读R786，四补行严格为E4·M2[0/73]、E6、eta12。U0读旧H³，五新Uj=H_TjHf²仅收缩原56张量；一个Q块最多84右端，必须全1680行char0代回。Uj/U0与原A/B微分给x比/精确群律，保真Norm常数b⁷/Nb、三同源、R794列变换与反实Lambda/s。确定符号(-,+,+,-,-)给度1854/1674/1800/1800/1485、m≤8但N≤202；只在选该消费者时补V8至201。未约分6512度分母不能作实际极除子；全局约分/KM与原2torsion刚性化仍缺。proof1ef5f2a2、methodb1e71dfc；当前仅证明，core静态交叉审中，无新minor/坐标/η/高度输出。
+
+**R804已证明并登记**：[所选五原映射整数循环复用](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)、[DAG契约](notes/R804-original-relative-coordinate-addition-DAG-method.md)。真实R794所选a(T)全整数，原C/C逆也整数；只对这五元素，不外推完整Hom/NS格。U6由原六次P线性给，保存(r=x_g/x_f,y_g)和原十二Hom字；八个准确加法节点给原candidate0/3/1/21/15，保T⁷=ζ²及全部Galois/CM常数。仍原degree1485/1521/1602/1674/1728与N≤196，不需符号备用路线或五套新函数Schur。真实β返回后同链可先算点值。两图反对角立方理想及支撑saturation给完整极除子接口，实际adapter未实现；新函数/极除子/η/高度仍未算。proof98d3e253、method98bb9387。
 
 ## 必须保持的原规范与未解主线
 

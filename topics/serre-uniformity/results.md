@@ -371,3 +371,5 @@
 - **R797（公开准确前缀已完成）**：[五条原低次数映射的Laurent输入](results/R797-certified-five-original-Laurent-prefixes.md)。run43693453831/source05bf2b2b，2106.946833秒；原五映射N170/172/176/193/196，全部280Q坐标、真实非零κ/cusp e1、相位及逐阶ODE准确通过。930输出/922阶段和ZIP全SHA已核，certf41ee0a2f5e834fdd89823ddd3fc60df8cd309cd7ffb96aefa511b81068f91ce。各κ只到N−1，后继只补一次终端幂；未求A/B、极除子、η或高度。
 
 - **R803（已证明）**：[原单映射复用与混合Hodge比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)。原694维M6的42项注入、四条实际补行、五个混合三积及一个Q块有限右端；准确x比/群律给五方向函数，真Norm常数、三同源、符号主函数与原R794矩阵全保。确定符号降低普通幂至8，最高N202尚非已成尾；全局约分/极除子、二挠刚性化和实际高度仍未计算。
+
+- **R804（已证明）**：[所选五原映射的整数循环复用与八步群律](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)。实际R794五个a(T)均整数，原C/C逆在GL5(Z)；只对这五元素成立。原六个U和六次P给relative-x/y完整群律，八节点保持原五低degree/N≤196；两图反对角立方理想与支撑拼接给准确极除子接口。真实DAG、全局saturation、η/刚性化/高度尚未算。

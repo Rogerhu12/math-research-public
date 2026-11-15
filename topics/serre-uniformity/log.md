@@ -559,3 +559,8 @@
 - R803完整纸面证明与执行契约登记：原M6维694/42项单射，四条补行逐recipe读真实R775，五混合项只复用旧56张量；一Q块有限右端/full1680坐标认证，不重算旧H³或五套Laurent。
 - root全文核且ordinary交叉核；群律/x比、真Norm运输常数、原三同源/R794基变换与正负号主函数全部保留。符号路线最高m8/N202只是已证需求，未预填新增尾、极除子、η或高度；proof1ef5f2a2、methodb1e71dfc。
 - H逐字归档并压缩。R801实际run43701282817/job132772758246正在新增尾，R787仍in_progress；继续R804整数循环复用和全局除子接口，主目标OPEN。
+
+## 2026-11-15 18:04 Asia/Taipei · serre-public-astra-20261115
+- R804登记：旧R794真实selected stage及10项manifest已只读核，五a(T)和原C/C逆确为整数；本结论不外推完整整数Hom/NS格。八个准确群律节点复用原单f4，保原T⁷=ζ²/CM/Galois及五个原低degree标签，不需重算五套函数关系。
+- root全文核、ordinary独立核两条短多项式恒等式及两图反对角理想；立方/min valuation包括原三分歧重数，全局支撑拼接/saturation是已证接口，尚无实际adapter/极除子。proof98d3e253、method98bb9387，无本地新数学。
+- R803已推ac8401fd；并发推送拒绝均即时实际pull/rebase后重推成功，两README差异皆空。R801/R787继续，原β/η/高度及主目标OPEN。
