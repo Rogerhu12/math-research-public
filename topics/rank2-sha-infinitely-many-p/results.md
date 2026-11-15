@@ -141,3 +141,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R806](results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)：已证明原型四三条完整十八阶Hecke角色/2、3、17处向量、原Schwartz和全权平方，负二准确为Katz值的三项平方根线性组合。负二反射落权4中央root−而同CM型Katz乘子+1，不能互换CM型强赋零；真高权差3、p²局部Euler及未付Artin/Soulé非零保留，原W全补偿不变。
 
 - [R807](results/R807-original-projected-connection-and-native-second-source.md)：已证明原型五至型四协变导数的完整余商、两算术像及primitive三维同构，给唯一5×3原预像；同q/58行的两真实余行在旧ray两η/全N为单位，故实际二阶源不在未投影像或两算术投影像。完整半周期交换子逐项全纯且有X+b，准确degree1×33卷积与同一和变量unit保留，原负二及W外部非消失仍开。
+
+- [R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)：已从原模34δ全ray椭圆单位、实际范数/十八阶幂等元/扭曲和平滑30构造三个全局Soulé类，付共同Artin周期√17与正Coleman完整下降。真实局部log=−34²c_jθ9Ωp4 Elog I_j,-2²且Elog∈p²O×；另一普通局部化为零、全部Hf条件成立。严格局部核及原三项线性和仍未排除，不以全局类命名代非零。

@@ -169,3 +169,7 @@ R801已直接读取同q/58行/全E逆的实际E深Z²来源；四辅助值付六
 ### R807：同源连接的唯一 primitive 预像
 
 原G2的未投影余行Λ和算术像余行均为旧ray全N单位，因而不能省去PB4或只用两点线。PB4∇在旧primitive3上可逆，完整5×3右逆已给同源唯一P−；真正返回是17ω/(1−ω²)Σ[y/(x−e)]U_eP−。原负二仍须完整半周期与degree1×33卷积权(v−33c)/(c+v)²，不能由旧primitive负一非零替代；全W外部及高尾保持。详见[R807](results/R807-original-projected-connection-and-native-second-source.md)。
+
+### R804：负二的真实全局类与严格局部核
+
+原模34δ/18阶η的全球椭圆单位类z_j已实际构造，正Coleman、平滑30和共同√17基均已付；loc_bar=0且z_j∈完整Hf。原I_j,-2非零准确等价loc_p z_j非零，log估值为2+2v(I)，两个Euler方向不同。现在须排实际严格核，或保同源三项线性和控制原W补域；旧点AST及全局类非零本身都不替此门。见[R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)。
