@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮压缩前全部逐字前页/运行/域/源单位/恢复链保3c74f04e37bcf9b29afe47405468a2d4b3eddddf本路径及HANDOFF/log，递归保e9e0d67a/dc10bb/24b等全部原档；仍逐项有效。
+本轮压缩前全部逐字前页/运行/域/源单位/恢复链保81041a9ee8ed1534e2ba35e3613622f42431972d本路径及HANDOFF/log，递归保3c74/e9e0d67a及全部原档；仍逐项有效。
 
 ## 1. 总验收与同一个对象
 
@@ -38,7 +38,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PF完整逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf保全两row/oldI/错相−SI、函数root有限项0、g1hat=g1pt+g0dφ*及c0=X−′(Croot∘X−)，不能用旧scalar均值替代完整density。
 [CT正则密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保physicalχ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差分、全部mean/未知全频、c0=U_Pinv f̃−−f̃+；同旧R31的1/128+3B<7/128<1/16和e^(3L)/e^L付全initial/jump/residual。新consumer拟用已成δ0径向m0加已成δ参数导费支付mδ−m0，准确P⊥消A2并分离Bne/Cne/a_e；新signed reference须完整max(N+192,384)source与所有seam。actual完整H3尚待，旧scalar/ray/KAM不重。
-[SN signed非mean密度与H3验证](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170已解析独核；A2准确消、B1/d1可去商、旧3146mean/δ费、全四状态残差/seam及selected真H的physical A1/128 E0/E1、G与SN27真measure均保。C≤KH(Q−+Q++|μ|Ej)，两signed列独立，不重ray/KAM。首43742905967/1 child1/9身份门，196pin/8AST全过；cover topic-relative路径漏前缀，Inputs退出，新root/source/reference/angle目标未起。execf0cd8f45/reportb51a26e6、完整science2699/4bbe4fd4已存，无lost无H3结论；仅路径正规化+同manifest SHA核现已部署：SCI4d5a1ccc/manifest a97b4c9f/flowd6493f2e，worker c091e1dc/helper32ce7e3c零改；198pins13468162B，原195除SCI全原字，21门新目标待actual。所有数学式/域及首失败完整identity保53deb3cfe同H/open/原报告。actual C/R0/incoming/GH/真实ν/core仍待。
+[SN signed非mean密度/H3](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170合同已核，全source/mean/四状态residual/seam/真measure/selected physical4j与域保81041a9e。首43742905967/9门路径错，无新target且完整science已保；修补2357e678的43743531149/1 child1、198pin/8AST/17门通过，在首cell int(arb)报TypeError，0完成subcell。exec0c157226/reportd21ef384/science5147/2b2d1bca完整保存；已成new angle/root入口与首cell准备数值未保存，H记录仅这些lost新量可重，旧3146/scalar/root/ray/KAM禁重。当前未付actual H3/C/R0/incoming/GH/真ν/core；下一仅精确整数schema及前置保存修补，参数/数学式不改。
 
 [AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
 [CN全圆周正规化](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2的Id+MwI准确逆保全mean/rank；旧linear-reference的μ²/4费保留。
@@ -58,8 +58,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [N完整负源→strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)、[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)锁child0/17、22pins/六cut/旧math0，report59ab1bb6/execution318dd25b/result72745bf3。ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer的完整身份保。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709；.001/.002充分门失败不冒奇异，不拼不同cut最小值。
 
 下一接口仍是两负窗−8/3→−5/3、−5/3→−2/3的完整source-to-trace/forward，G21三local、六oldcircle/五mean/真实seam全累积；严格负传播、waist与两branch全C² symbol保近/远Schur和真J/I单位。正侧既有实际fullδ接口无需重做：[全实七输入图43617150971/10](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)与[负一阶七输入八输出43627228225/18](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)均覆盖实|δ|≤1e−8、同η0和正侧νbump0。后者ordinary/jump H−2/3→raw H−1，Y=M−1Z、loop<.014997875526、rootreflection<3.825862632653，原mean/外端/head/全跳保。根mixed输入需9(17/16)、输出9，body jump<4.952408975/collar jump<3.000006643无长度费；不可套base1/2或raw L2。root已亲读合同/actual/process/summary并核10/18门和原native绑定，此处纠正压缩遗漏，只恢复成功旧件。仍需实际Airy正负源/真jump frame、root连接/strict传播/waist/strong return/readout及physical finite border；未闭完整Schur/GH/cutoff97。大的上界不是算子下界。
-[SP实际43731464771](results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md)95d3abfe/exec a3a02969：child0/20门/7AST，3071旧strict/3066prefix17parts仅读，2804新交格/5608正exp/2乘序/1156compact。fullδ未缩放T(q)h的I与两mean/√q真L2，正反norm<5.867924/173.871627；root或独立jump→waist<2038.396874、ordinaryroot-source<144.136426、normalizedcut↔waist<183.332710/7.670846。当前RJ31源完整贡献<7.651043e11，只是一个source列；strict L1/L2源、true ng/q、normalizer有序和全部mean/ordinary长度/跳无长度都已付。原H1流/group积分/源积分零重算；完整rootmixed/七port/真ray与KAM density/physical angle/有限border/边界选择和GH仍独立，不以给定waist Cauchy冒BVP。
-
+[SP实际43731464771](results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md)95d3abfe/exec a3a02969：child0/20、3071旧strict/3066prefix17parts仅读；全δ T(q)h的I、两mean与√q真L2保。root/jump→waist CR<2038.396874、ordinary CO<144.136426、normalizedcut↔waist<183.332710/7.670846；RJ31贡献<7.651043e11仅一source列。全部真ng/q/normalizer顺序、源长度与jump无长度/两branches及数值细账保81041a9e，旧H1流/积分禁重。waist Cauchy不冒BVP；完整return/incoming/finiteborder/GH待。
 
 [PW实际七positive ports到waist](results/R133-supplement-actual-seven-positive-ports-to-complete-waist-density.md)6a763e7b：43734233535/1 child0/21，execf17516d3、预Git7e56ca37及完整旧8×7/四outer/三mean/SP/RJ全部核锁。七列≈88533.21/796.801/11167.586/88533.21/88533.21/69833.506/18699.705；同ordinary两不交分区joint11195.976。a_i=9CR(u_i+1_s)，s独立、raw stable153/16与output9各一次；root全finitehead/两mean/四rawjump/四outer、negative rootjump CR/strict jump C1/ordinary CO,C2/无jump长度等全部原单位保e9e0d67a3f018d5054b37272f69a5a92c169f9ed同open和原proof。旧数学禁重；真正trial stable/finitehead/physicalseam/fullR0/incoming仍待，不将H−1作rawL2或大upper作障碍。
 
@@ -91,13 +90,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [NC嵌套局部化](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)558f47f7与[BD微分degree32完整分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)bb792252保真实same-state H1/fullmean、actual D1/Mδ2、full t1门、component-A0→vector L∞及base constant低→高准确消；双端FTC/P只各付一次。
 
-[actual43733916510/1](results/R133-supplement-actual-nested-collar-localization-and-direct-first-angular-trace.md)5451c5f7已root完整核：science83e06a28/process3157ed35/reportb88b9e54，child0/16结构+12独立t1全pass、768组1536整公式。J96全选N13，J288全选N39；同N的NC/BD各保(F1,F0,Zshell,Zlow,Bhigh)完整行，无entrymin。9pin/132球120unique逐字核；预Git46305B/be17391b按原sortedJSON准确重建，临时audit1261253B/323d80d1仅身份，成功科学锁。
+[NCBD actual43733916510/1](results/R133-supplement-actual-nested-collar-localization-and-direct-first-angular-trace.md)5451c5f7：child0/16+12t1全pass，768组1536整公式，J96 N13/J288 N39；完整同N五列/132球/预Git已核，原日志和精确字段保81041a9e同open/原proof。直接Euclidean pair H1迹无额外pair-sum/角/density费；same两侧H1/fullmean/true residual0前提保，免MA插值不授MA域。最宽ρ1e−4 high仍超入口，窄ρ2^-24<7.195363e−12尚缺low/shell；J288 tinyhigh不删225..288。右RC不授wholewide，成功不重。
 
-这是直接Euclidean pair H1迹，不含额外pair-sum/physical/movingangle/density转换；免MA8193插值但不授独立MA域。两fullmean和true residual0 source要求保留。最宽rho1e−4 J96 BD conditional high<1.205312e−8仍超入口预算；rho2^-24 source+conditionalhigh<7.195363e−12仍未含low/shell。J288宽high<3.762382e−20也不消225..288 shell。RC只右半C0，不能授wholewide或较小rho。
-
-[NG一般内宽与完整直接迹](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84及[actual43736004806/1](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)54711e89已完成。公共child0、16/16门，6144新几何/12288完整公式；旧a1/40十二整pair仅copy。J96六rho均选a1/200,N23，J288均a1/1000,N76。h=(1/20−a)/N、κ=2/a、ΓH=BH+κ²bp、Θ=κbp+ΓHσ；原T/CS/CL/NCΓL/BDDS,DL直接读旧，不做upper相除。只比较最终outward两high上端max，baseline优先tie，保每个scheme完整五列/三读出，非逐列最优。
-
-root完整science3730af35/process4dcc7142/reportcb826725、11pin、12旧pair/t1/sourceexact、168球156unique逐字核；预Git49663B/38852df7准确。临时完整audit14940959/aafac961仅SHA，无新data/artifact，成功科学禁重。
+[NG一般领圈](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84及[actual43736004806/1](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)54711e89：child0/16，6144新几何/12288完整式，旧十二pair仅读；J96各ρ选a1/200,N23、J288 a1/1000,N76。原T/CS/CL/NCΓL/BDDS,DL直接读，完整五列/三读出整方案比较非entrymin，不用upper相除。science3730af35/process4dcc7142/reportcb826725、168球/预Git准确复原，全部参数/临时hash/原scope保81041a9e，成功禁重。
 
 最宽rho1e−4,J96的NC/BD源+conditionalhigh分别<1.011264285315598e−11和1.011264246551516e−11。以raw Euclidean pair低cut cL=||Π≤96(Q−Qδ)(.9)||L2、z=P(Q−Qδ)在完整outer I0的ZS/ZL，实际row的整有理放大给
 $||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z_S+10Z_L)$。

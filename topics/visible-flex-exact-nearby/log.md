@@ -124,3 +124,13 @@ root fresh main 2357e67892d8ce611c1655c4935a63a996452f6f双README blob未变。�
 已知finite96只对known函数用Bernstein；unknown仅real H1，真normalized圈下I:L2→L∞、inverse lifts的Jacobian下界给实际composition FTC。inverse remainder≤r e、ratio后composition四项完整保持，得RC≤r e、RB≤rs+2re；physical mean准确μ²/[mbar²(mbar+μ)]。同两态H1 norm-sum球ρ≤2^-10，直接difference而非假设rough图C2，RΨ差≤16ρ||Δh||H1sum，mean差(2/27)ρ|Δmean|。
 
 在另外已进入同一真实A0帽凸球、fixednormalizedheight的条件下，AR一次平均算子保原cCap并只收一次实际κ：完整97值≤cCapκ||h||L2pair+7rs+114re≤线性项+128||h||H1pair²，差分≤cCapκ||Δh||L2pair+2^11ρ||Δh||H1sum。gamma入口、真cutH1、affine、实际tail height函数的Lipschitz/C1、原96腰/meanheight/λ/highmatching与高逆均未由本证明支付。
+
+## 2026-11-15 17:55:59 UTC — SN 第二次实际失败与准确 lost 新范围；不冒零新数学
+
+fresh main 3e339597c1d88d2b4bd1c424b256adc3b74ccf7f双README未变。路径修补的run43743531149/1 head2357e67892d8ce611c1655c4935a63a996452f6f、job132901707889于17:54:02 failure。root完整读exec689c02642cae679a8dcea2a612c97fdae91d1519/14548B/SHA0c1572262cf120a17c548d79f20eebf53fa06b36ef728144e022f67eff8016c6与report6e1b4347231faa80b29e15d323d70ea8facbd1bd/1655/d21ef38428ca291260fcc28094f75db3231e4ce49cf0687234961381d75eecd3；science canonical准确复原5147/2b2d1bcabae1e56c434c8944f7f62fccf181ea066d6fd96ade413368b98afe86，childlog354/1d2646ca01f2885fe7baaa10dc9c7398fbb636bf695d9caa9421df94745dc138完整打印后发布。
+
+198pins/8AST全过，唯一child返回1、17门包含真selected j与root-entry门。真实异常transport第511行parts=max(1,int(work.upper().ceil()))：python-flint0.9的arb不能直接Python int。执行已到首old cell的subdivision准备，完成newsubcell数0；临时gzip67B/5df9723859de1c312c367961e88eee4fac992da638364684a53b3aeea79f33a7仅空流（由失败位置与首次write控制流确认）。不得把这次称作0新数学。
+
+完整旧mean求和球和所有身份/门已保在science。新selected-angle KH/Ej/derivative数据、root有限代数和root-entry四source/error列、首cell新mean曲率/interpolation/speed/subdivision量此前只在内存未写doc，runner已终止；这些未保存的新量属于用户已授权lost重做范围。只准重做这些未保存新量和继续尚未完成的signed transport，任何已成旧scalar/root/response/ray/KAM/积分禁止重算。修补须用精确integer转换，并将新angle/root小结论提前写doc/原子保存，以便后续故障复用；数学公式、域、参数不改。
+
+runner17:52:50.649438真pull2357e678、17:53:55.263160真pull81041a9ee8ed1534e2ba35e3613622f42431972d，双README空diff。topic实读199599974B、发布预计199616177B。本次压缩前H/open/log/results完整逐字保81041a9e同路径及其递归归档；所有mean/源单位/旧失败/restore/域与未付义务继续有效。
