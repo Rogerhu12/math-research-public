@@ -2,6 +2,8 @@
 
 后继：[R823 原最小面的完整截面及真实 Serre 行](R823-original-minimal-nef-face-complete-sections-and-serre-rows.md)给最小类的全整基和原r2条件下p≤120D−421；其余正余量类不因此排除。
 
+后继：[R825 全 nef 上缺量及所有有界 S 次数区域](R825-original-nef-upper-gap-and-bounded-s-degree-exclusion.md)给统一实际p界；未排e随D增长的临界区。
+
 日期：2026-11-15。**状态：本篇的全 nef 不等式、精确非负分解、等号类及原分量推论已证明。** 所用曲面、十九角、两个铅笔和全部重数均为 [R815](R815-complete-original-mori-nef-cones-and-s-fibration.md) 的原对象。数值界不代替原接触矩阵、同一修正的返回或 Cartier 非零性。
 
 本篇把 R815 的固定零纤维亏量下界加强为

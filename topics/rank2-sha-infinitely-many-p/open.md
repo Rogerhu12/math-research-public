@@ -1,7 +1,7 @@
 # 未解决的问题
 
 固定一条 $E/\mathbb Q$，证明代数秩至少二且对无穷多个不同 $p$，完整 $\Sha(E/\mathbb Q)[p^\infty]$ 有限。**主目标未完成，持续研究。**
-全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R823前](notes/2026-11-15-open-before-r823.md)；沿归档链保全部旧接口，不关闭任何未付问题。
+全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R825前](notes/2026-11-15-open-before-r825.md)；沿归档链保全部旧接口，不关闭任何未付问题。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -152,21 +152,10 @@ O4最早a≤1/δ²指定全球点位置、O6全Np有限/λ≤3无限p、supersin
 
 R801同q/58行原E深Z²的六系数及Yunit正四矩已在旧ray两η/全N付unit；完整负二仍λ2NΩ²Σd_j I_j,-2，型四K循环性不代指定值，ζ卷积与W全浅补保持。R804/R811/R814/R817/R818进一步的实际类及检测见后文。
 
-### R806：原型四负二的准确算术身份
+### 原型四负二：完整角色、实际全局类与连接保持
 
-原三线有完整order18角色与原Schwartz、全权平方及负二Katz公式；反射落权4中央root−，但同CM型Katz函数方程乘子+1，故不能换CM型强赋零。指定三项线性组合仍须证明非零，局部p²Euler本身不产生全球类；实际全局构造与固定Artin周期现由R804支付，严格局部核/全W外部继续保留；详见[R806](results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)。
-
-### R807：同源连接的唯一 primitive 预像
-
-原G2的未投影余行Λ和算术像余行均为旧ray全N单位，因而不能省去PB4或只用两点线。PB4∇在旧primitive3上可逆，完整5×3右逆已给同源唯一P−；真正返回是17ω/(1−ω²)Σ[y/(x−e)]U_eP−。原负二仍须完整半周期与degree1×33卷积权(v−33c)/(c+v)²，不能由旧primitive负一非零替代；全W外部及高尾保持。详见[R807](results/R807-original-projected-connection-and-native-second-source.md)。
-
-### R804：负二的真实全局类与严格局部核
-
-原模34δ/18阶η的全球椭圆单位类z_j已实际构造，正Coleman、平滑30和共同√17基均已付；loc_bar=0且z_j∈完整Hf。原I_j,-2非零准确等价loc_p z_j非零，log估值为2+2v(I)，两个Euler方向不同。现在须排实际严格核，或保同源三项线性和控制原W补域；旧点AST及全局类非零本身都不替此门。见[R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)。
-
-### R809：真实连接的三角色比不能合并
-
-同q的PB4∇准确分成三个均整可逆的CM13比值分量，交换缺陷也整可逆；每条旧九阶线有全部三个新十八阶像，角色比χ17、χ17⁵、χ17³均保。旧负一与新负二相差非有限ψ/barψ角色，不是共同Tate twist。后续必须保同G2九项、同一unit及原W外部，不能用旧点AST替真实严格局部核。见[R809](results/R809-original-primitive-connection-three-cm13-components.md)。
+R804/R806–809及R811已付原十八阶三线、全34δ/Schwartz/全权平方、负二Katz、平滑30和√17周期的实际Soulé类。canonical类z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0；log含p²Euler，另一普通局部化0。weight4古典root−与同CM型Katz乘子+1必须分清，不能交换CM型赋零。
+原PB4连接/三CM13比χ17、χ17⁵、χ17³整可逆，唯一primitive预像与完整半周期degree1×33卷积均保。旧负一到新负二不是有限角色或共同Tate twist，全部九项、ζ伴随及W浅/外补继续。全部公式、两η/全N单位和未付原线性和见[压缩前全文](notes/2026-11-15-open-before-r825.md)及[R804](results/R804-original-order-eighteen-soule-classes-and-negative-two-localization.md)、[R806](results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)、[R807](results/R807-original-projected-connection-and-native-second-source.md)、[R809](results/R809-original-primitive-connection-three-cm13-components.md)、[R811](results/R811-canonical-soule-classes-and-global-heegner-comparison.md)；未关闭跨p指定非零或全Selmer门。
 
 ### R810：原 r2 四次强接触窗口已全素数排除
 
@@ -219,3 +208,6 @@ R821付V66完整ad²因式/B33成员、四个真实高角系数必要系统及�
 
 
 R823对实际最小类C=bH++mE01给原[1:S:U]到F1的双有理态射，U=S/t；完整整截面基S^jU^i（i≤m,i+j≤b）及面内乘法满射/Euler对角均已付。完整dualizing基Q dS/P_U=U²Q dt/e保奇点导子区别；原m3有2b−5行。结合原R805得h≤30b−36，故r2窗口p≤360b−421≤120D−421，排p>120D−421的整个最小面；不外推正余量或全WD左核。 继续真实正余量的全截面与同R配对，见[R823](results/R823-original-minimal-nef-face-complete-sections-and-serre-rows.md)。
+
+
+R825对原全部nef类付准确平方和2be−κ及尖锐κ≤2be−m²，等号类bH++mE01+(e−m)f。原次数帽给a≤4b+e−m、z≤min(2,e−3)，R805在r2/k0推出p≤24(e+2)D+24e−493+24min(2,e−3)，故所有固定e及固定近最小余量区域在p∼D²时排除；剩余e必须增长。未排真正二次临界区或同M指定Schur。 继续e随D增长的完整原profile与同R配对，见[R825](results/R825-original-nef-upper-gap-and-bounded-s-degree-exclusion.md)。

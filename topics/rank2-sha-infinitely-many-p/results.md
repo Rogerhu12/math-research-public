@@ -188,3 +188,6 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 
 
 - [R823](results/R823-original-minimal-nef-face-complete-sections-and-serre-rows.md)：R823对实际最小类C=bH++mE01给原[1:S:U]到F1的双有理态射，U=S/t；完整整截面基S^jU^i（i≤m,i+j≤b）及面内乘法满射/Euler对角均已付。完整dualizing基Q dS/P_U=U²Q dt/e保奇点导子区别；原m3有2b−5行。结合原R805得h≤30b−36，故r2窗口p≤360b−421≤120D−421，排p>120D−421的整个最小面；不外推正余量或全WD左核。
+
+
+- [R825](results/R825-original-nef-upper-gap-and-bounded-s-degree-exclusion.md)：R825对原全部nef类付准确平方和2be−κ及尖锐κ≤2be−m²，等号类bH++mE01+(e−m)f。原次数帽给a≤4b+e−m、z≤min(2,e−3)，R805在r2/k0推出p≤24(e+2)D+24e−493+24min(2,e−3)，故所有固定e及固定近最小余量区域在p∼D²时排除；剩余e必须增长。未排真正二次临界区或同M指定Schur。
