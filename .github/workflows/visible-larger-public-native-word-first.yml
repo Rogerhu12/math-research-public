@@ -1,0 +1,191 @@
+name: visible-larger word-first full current576 native continuation
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-native-word-first-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  current576native:
+    name: Try one raw input word inside original32 then full current576 R273
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    concurrency:
+      group: visible-larger-public-native-word-first
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Bound maintenance and establish an independent word-first output directory
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-native-word-first/current576native"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-native-word-first/current576native" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+        echo "VISIBLE_PARENT91=$RUNNER_TEMP/actual91-word-first-parent" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install unchanged native-reader dependencies
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+    - name: Bind complete source closure and actual91 failed73 BASE provenance
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-native-word-first-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-native-word-first-current576-request-v1'
+            or request.get('repository')!='Rogerhu12/math-research-public'
+            or request.get('request_number')!=95 or request.get('lanes')!=['current576native']):
+            raise ValueError('Use exactly the independent actual91 word-first native request95')
+        required={'exact_20261115_native_word_first_current576_chain_qr.py', 'tail_frozen_worker.mjs', 'exact_20261114_seeded_zero_tail_client.py', 'root_20261114_publish_actions.py', 'exact_20261114_true_tail_client.py', 'geometry_20261114_native_captured_band_correction.py', 'geometry_20261114_noj_primal_current576_damped_solve.py', 'exact_20261115_native_word_first_current576_system.py', 'exact_20261114_fetch_pinned_public_artifact.py', 'exact_20261114_public_resume.py', 'root_20261114_current576_rules_runner.py', 'exact_20261115_native_word_first_candidate.py', 'exact_20261114_noj_primal_current576_damped_chain_qr.py', 'exact_20261114_native_damped_chain_qr.py', 'geometry_20261115_native_word_first_current576_solve.py', 'root_20261115_fetch_native_word_parent91.py', 'tail_resumable_engine.mjs', 'exact_20261114_native_allrows_dyadic_residual.py', 'geometry_20261114_noj_primal_current576_damped_solve_hook.mjs', 'exact_20261114_noj_primal_current576_damped_system.py', 'geometry_20261114_noj_matched_variational_engine.mjs', 'exact_20261115_native_word_first_parent.py', 'exact_20261115_actual83_four_row_state_formation.py', 'geometry_20261115_native_word_first_current576_solve_hook.mjs'}
+        if not required.issubset(request['source_sha256']):
+            raise ValueError('Pin the full old/fresh model selector, original-flow bridge, R273 and publication closure')
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+            if Path(name).name!=name or not isinstance(expected,str) or not re.fullmatch(r'[0-9a-f]{64}',expected):
+                raise ValueError('Every source must have a basename and a complete real SHA256')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Requested source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the triggering science checkout')
+        readmes={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip()
+            for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')}
+        intent=dict(schema='public-native-word-first-current576-request-identity-v1',
+            source_commit=head,current_run=os.environ['GITHUB_RUN_ID'],request=request,
+            request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,
+            source_checkout_readme_blobs=readmes,scientific_execution_claimed=False,
+            failed73_is_only_a_raw_initial_guess=True,native_acceptance_claimed=False,
+            output_route_only='current576native; word-first result schemas identify this independent continuation')
+        (out/'word-first-current576-request-identity.json').write_text(json.dumps(intent,indent=2)+'\n')
+        if (request['eta']!='1' or request['original_max_iterations']!=32 or request['original_trial_count']!=10
+            or request['original_solve_tolerance']!=2e-9 or request['node_heap_mib']!=6144
+            or request['exact_workers']!=2 or request['max_factor_bytes']!=2147483648):
+            raise ValueError('Keep the original native budget/tolerance and explicit full-QR eta')
+        print(json.dumps(dict(source_commit=head,verified_sources=len(verified),
+            python_sources_compiled_not_imported=True)),flush=True)
+        PYPINS
+    - name: Check word-first hook and frozen flow/worker syntax without execution
+      run: |
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_word_first_current576_solve_hook.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_noj_matched_variational_engine.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_frozen_worker.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_resumable_engine.mjs"
+        node --version
+        python --version
+    - name: Reserve32 GiB for original32 rounds, every fresh J, complete factors and integer ledgers
+      run: |
+        python - <<'PYSPACE'
+        import json, os, shutil, subprocess
+        from pathlib import Path
+        base = Path(os.environ['VISIBLE_OUT'])
+        before = shutil.disk_usage(base)._asdict()
+        removed = []
+        required = 34359738368
+        if before['free'] < required:
+            for name in ('/usr/local/lib/android','/usr/share/dotnet','/opt/ghc'):
+                path = Path(name)
+                if path.exists() and path.is_dir() and not path.is_symlink():
+                    subprocess.run(['sudo','rm','-rf','--',name], check=True)
+                    removed.append(name)
+        after = shutil.disk_usage(base)._asdict()
+        record = dict(before=before, after=after, unused_ephemeral_runner_SDKs_removed=removed,
+            required_free_bytes=required, original_max_iterations=32,
+              input_archive_bytes=10267458,input_archive_removed_after_complete_verified_extraction=True,
+            fixed_binary_payload_bytes_per_round=704385296,
+            exact_ledger_JSON_and_log_sizes_are_data_dependent=True,
+            original_iteration_or_tolerance_not_changed=True, all_scientific_payloads_retained=True)
+        (base/'runner-storage-reservation.json').write_text(json.dumps(record, indent=2)+'\n')
+        print(json.dumps(record), flush=True)
+        if after['free'] < required:
+            raise RuntimeError('Insufficient runner storage for the complete original iteration budget')
+        PYSPACE
+    - name: Fetch and preserve the complete pinned actual91 archive with all original input bytes
+      timeout-minutes: 25
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        python -u - <<'PYFETCH' 2>&1 | tee "$VISIBLE_OUT/actual91-complete-fetch.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-native-word-first-request.json').read_text());item=request['inputs']
+        argv=[sys.executable,'-u',str(comp/'root_20261115_fetch_native_word_parent91.py')]
+        for name in ('run_id','artifact_id','artifact_name','expected_size','expected_sha256'):
+            argv+=['--'+name.replace('_','-'),str(item[name])]
+        argv+=['--out',str(Path(os.environ['RUNNER_TEMP'])/'actual91-word-first-parent')]
+        raise SystemExit(subprocess.call(argv))
+        PYFETCH
+        cp "$RUNNER_TEMP/actual91-word-first-parent/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual91-complete-fetch-receipt.json"
+    - name: Restore all78 unchanged original public source files and their origin receipt
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source = prepare_public_source(
+            Path.cwd(), Path(os.environ['RUNNER_TEMP'])/'native-word-first95-public-original-source',
+            Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Run original32 from failed73 BASE with one first word proposal and complete QR continuation
+      id: native_continuation
+      timeout-minutes: 320
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_current576_rules_runner.py" \
+          --out "$VISIBLE_OUT/rule-sync" --command \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261115_native_word_first_current576_solve.py" \
+          --original91-directory "$VISIBLE_PARENT91" \
+          --source-topic "$VISIBLE_SOURCE_TOPIC" \
+          --eta 1 --node-heap 6144 --exact-workers 2 \
+          --max-factor-bytes 2147483648 \
+          --out "$VISIBLE_OUT/native-word-first-current576" \
+          2>&1 | tee "$VISIBLE_OUT/native-word-first-current576.log"
+    - name: Preserve original91, every fresh snapshot, first-word result, original trials and full factors
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-nativewordfirst-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-native-word-first/current576native/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded results with ordinary rebase and README checks
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" \
+          --results "$RUNNER_TEMP/visible-native-word-first/current576native" --lane current576native

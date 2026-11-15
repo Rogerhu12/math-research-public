@@ -22,17 +22,13 @@
 
 [86完整byte附记](notes/2026-11-15-actual86-completed-reader-byte-audit-appendix.md)已保存：17关系、64原FD源→74完整源、18小原件和371描述器对应全核；Actions完整224domain/1454NPY、108condensed/38full/42refs、14raw454456080B、13observer/8mid已付，未导出QR仍非payload、无R276调用。89只补MID479的真实新轮和正式原读数已完成，见1F；不重复86科学或运输。
 
-### 1B. Native73：实际线搜索失败与全部十档模型下降
+### 1B. Native73原平台已归因；95一词候选占原首correction
 
-[原native完整结论](notes/2026-11-15-actual73-noJ-primal-native-line-search-failure.md)和[完整QR/R276结论](notes/2026-11-15-actual73-complete-QR-exact-affine-infinity-and-byte-readback.md)已保存。73run43657001633/source9515d5aa有3freshwithJ/3QR/19原noJ试步；先接受1/2、1/64，iteration2十档全residual-not-decreasing、0guard。末base .000060618737006888706，后三alpha1/128、1/256、1/512标量等base；完整trial state/r未导出，不能推全部状态或分量不变。确切line-search失败在最终cutJets/J/audit之前，32/10/tol2e-9不变，两对accepted noJ与nextfreshwithJ norm逐位同。
+73完整原请求3J/3QR/19noJ，两次接受后十档全拒，0guard/finalaudit未到；失败基点f6abeb04不是已接受尾锚。83一次原1/512 noJ probe及完整精确h分解已保存，未添原J/QR/新接受。91从真正73 chunk补齐四完整224行及四节点，正式[原输入词损失结论](notes/2026-11-15-actual91-four-row-input-word-loss-and-native-candidate.md)已发布；root10283项/50原件17源及完整字面已核。RN(a)比原native范数小12个正有限编码词，控制行Q76理想变化在输入形成中丢失，另一Pi73行另有flow/tangent余项；没有普遍正误差底线或全十档唯一原因结论。
 
-reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/104检查/18源闭合；每轮576J/577因子与常数/1167f64/129248 exact行已付，未导出formedV/rho仅hash。R276独立Actions给全部30原alpha严格affine∞下降、endpoint约9.6856e-11、alpha*约2；不能把实际全拒归为该保存J方向无十档线性下降。完整未预条件gradient仍大，finite J不冒真实DF；历史ULP只it0stage11Pi75，非末it2stage10Pi76。publisher后发H冲突与原科学失败独立，原件已恢复出版。
+[95完整接口](notes/2026-11-15-native-word-first-current576-interface.md)、[七源清单](notes/2026-11-15-native-word-first-source-files.json)与[主控静态读回](notes/2026-11-15-request95-root-static-readback.json)现已发布。源/四完整diff/全接口/全workflow请求亲读，69源合同+47接线项/24pins9shell4inline、原evaluate与十trial源码往返均核。真实初猜是73 iteration2 BASE，来自完整91原包，绝非83拒绝trial。第一次fresh-withJ之后，在完整旧+新129248行模型上筛node11/Q76向下相邻词，保所有其他行与signedzero；仅候选筛选，实际接受仍原十档noJ/domain/norm。
 
-[83原noJ完整试步及根返回](notes/2026-11-15-actual83-original-noJ-realized-trial-and-root-readback.md)已保存：run43668743706/source8d199eda/job132673843713 success，一次原alpha1/512复现norm .000060618737006888706/hex71f299f11bc80f3f，与73base及trial9逐位同，仍无严格下降。129248状态词有103123改变，不能称整state不变；全部576原stage通过/27772root返回/0fallback，控制仍stage10 Pi76 row2539。613原件/15完整raw/576packet/473295numberRecord字节范围完整已付，原内部226state/L/moments只有SHA的部分不冒payload。原32/10/tol2e-9保持，此probe没有solve/J/QR。
-
-[83完整精确h分解](notes/2026-11-15-actual83-exact-realized-step-component-decomposition.md)、[原result](notes/2026-11-15-actual83-original-exact-result.json.gz)、[完整byte范围](notes/2026-11-15-actual83-complete-exact-output-byte-audit.json)已保存：全部129248行八向量、577节点增量、578原块和旧R276三family对应全true。控制row2539理想下降1.18395970716579e-7几乎被实际状态形成抹去；realized-affine仍精确下降8.63524260187103e-20，实际flow/model余项在该行恰补回。另余项全局max7.95665191227233e-6位于row2536，不能以范数差冒向量差或称状态形成是唯一原因。RN(a)新计算见下段91，原83本身未计算该词。
-
-[91完整实际结论](notes/2026-11-15-actual91-four-row-input-word-loss-and-native-candidate.md)已保存：RN(a)=6.0618737006888625e-5/65f299f11bc80f3f，比原native71f299f11bc80f3f小12词，最后norm舍入非唯一解释。2539主损失是入node11/Q76不可表示增量；2536仍有显著实际flow/切线余项。四行896列与四节点896词完整保全，root全文/50原件/17源/10283检查及完整result/四行/四节点逐bits核过。下一95从原base仅向原delta符号移Q76一词，完整129248模型后交原noJ、域和norm真实判断；首次correction桥计原总32步，原freshJ/十档trial/后续完整QR/最终audit保持，未预填接受或放宽2e-9。原失败73仍非尾锚；只用91已有fd117e chunk，不再取1.75GB。
+一词占原iteration0，计在原32总预算内；未选中时同一fresh snapshot转完整R273，选中但十档全拒则保原失败，不补第11档。随后均freshJ+完整R273，原eta1/全部cut-far-sigma/H/容差2e-9/最终完整J和fresh audit不变。旧base-stage-out和旧ready/capacity未导出，不补造其字节；新constructor和完整原cfg/source/cells/graphs/gains真实核。唯一workflow360fd15f/request75cfab6f待本次实际输出；此后仅真正accepted95及其自己的八件伴随原件才可衔接actual-H→原FD→same-live fullDN。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 

@@ -1,0 +1,323 @@
+{
+  "schema": "native-word-first95-source-and-original-byte-contract-check-v1",
+  "checks": [
+    {
+      "label": "unchanged complete adapter contract INPUT_NAMES",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract EXPECTED_SHAPES",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract ORIGINAL_RAW_NODE",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract PRIMAL_FLOW",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract PRIMAL_FLOW_SHA",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract CORE_SHA",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract BYTE_IO",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract BYTE_IO_SHA",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete adapter contract ORIGINAL_FLOW_DEPENDENCIES",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.__init__",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System._json",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System._verify_array",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.raw",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.all",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.stages",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.stage_bytes",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.stage_raw",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576System.export_inputs",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576ExactContext.__init__",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576ExactContext.max_record",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576ExactContext.row_order",
+      "passed": true
+    },
+    {
+      "label": "complete adapter mathematical AST, allowing declared identity metadata NoJPrimalCurrent576ExactContext.worst_witness",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata require_actions",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata file_sha",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata load_pinned",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata kernel",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata exact_stage_job",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata current_identity",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata exact_current_readback",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata row_resolution_diagnostic",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata checkpoint",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata small_summary",
+      "passed": true
+    },
+    {
+      "label": "complete QR function AST, allowing declared identity metadata main",
+      "passed": true
+    },
+    {
+      "label": "frozen complete R273 parameterization QR_NAME",
+      "passed": true
+    },
+    {
+      "label": "frozen complete R273 parameterization QR_SHA",
+      "passed": true
+    },
+    {
+      "label": "frozen complete R273 parameterization KERNEL_NAME",
+      "passed": true
+    },
+    {
+      "label": "frozen complete R273 parameterization KERNEL_SHA",
+      "passed": true
+    },
+    {
+      "label": "frozen complete R273 parameterization MODEL_SCOPE",
+      "passed": true
+    },
+    {
+      "label": "actual pin exact_20261115_native_word_first_current576_chain_qr.py -> exact_20261115_native_word_first_current576_system.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin exact_20261115_native_word_first_current576_chain_qr.py -> exact_20261114_native_damped_chain_qr.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin exact_20261115_native_word_first_candidate.py -> exact_20261115_native_word_first_current576_system.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin exact_20261115_native_word_first_candidate.py -> exact_20261115_native_word_first_parent.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin geometry_20261115_native_word_first_current576_solve.py -> exact_20261115_native_word_first_current576_chain_qr.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin geometry_20261115_native_word_first_current576_solve.py -> exact_20261115_native_word_first_current576_system.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin geometry_20261115_native_word_first_current576_solve.py -> exact_20261115_native_word_first_parent.py",
+      "passed": true
+    },
+    {
+      "label": "actual pin geometry_20261115_native_word_first_current576_solve.py -> exact_20261115_native_word_first_candidate.py",
+      "passed": true
+    },
+    {
+      "label": "new adapter parent helper pin",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract base-states",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound base-states",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract stage-residuals",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound stage-residuals",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract cut-residual",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound cut-residual",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract end-residual",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound end-residual",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract original-scales",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound original-scales",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract original-far-graph",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound original-far-graph",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract physical-height",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound physical-height",
+      "passed": true
+    },
+    {
+      "label": "actual parent descriptor contract cut-target",
+      "passed": true
+    },
+    {
+      "label": "actual full parent bytes bound cut-target",
+      "passed": true
+    },
+    {
+      "label": "actual report pin RESULT91_SHA",
+      "passed": true
+    },
+    {
+      "label": "actual report pin BIND91_SHA",
+      "passed": true
+    },
+    {
+      "label": "actual report pin EXACT83_SHA",
+      "passed": true
+    },
+    {
+      "label": "actual report pin PROBE83_SHA",
+      "passed": true
+    },
+    {
+      "label": "same actual nine physical boundaries",
+      "passed": true
+    },
+    {
+      "label": "literal original32/tol configuration",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_files": [
+    {
+      "file": "exact_20261115_native_word_first_candidate.py",
+      "bytes": 9240,
+      "sha256": "d9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226"
+    },
+    {
+      "file": "exact_20261115_native_word_first_current576_chain_qr.py",
+      "bytes": 27325,
+      "sha256": "4c887fbb4a16e0d2219969043e708c2d49c446f0ac75ba1dc3e6e17f7d2ee314"
+    },
+    {
+      "file": "exact_20261115_native_word_first_current576_system.py",
+      "bytes": 27960,
+      "sha256": "2c6c012d9f2306f2ac13d240510eb8086b74d2b60ff318aa9e359dd72c05a3a8"
+    },
+    {
+      "file": "exact_20261115_native_word_first_parent.py",
+      "bytes": 16327,
+      "sha256": "8cd7027df2f7039302dbdc1ed15068c6cf48d6645bc236d74e6e5b1e7dd387e8"
+    },
+    {
+      "file": "geometry_20261115_native_word_first_current576_solve.py",
+      "bytes": 20966,
+      "sha256": "69c9a8d5cccfcfdcdda35c475b089609c789747803a7b363a17fb67c5bae28d0"
+    },
+    {
+      "file": "geometry_20261115_native_word_first_current576_solve_hook.mjs",
+      "bytes": 61870,
+      "sha256": "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3"
+    },
+    {
+      "file": "root_20261115_fetch_native_word_parent91.py",
+      "bytes": 2726,
+      "sha256": "98e9044fa23d76484fa864b5b769fc0a38a2f18ef95ca91bf97d88bff3940fb8"
+    }
+  ],
+  "scientific_modules_imported": false,
+  "scientific_arithmetic_performed": false,
+  "AST_and_source_string_only": true,
+  "original_input_checks_are_literals_bytes_and_hashes_only": true
+}
