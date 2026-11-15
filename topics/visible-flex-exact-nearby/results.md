@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [完整相位近似逆与二次缺陷](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)：raw目标严格给(f+r_f+rνκ,b+E′a)，rho15主gap付一导损及17常数，保全均值/原regular rows/参数响应误差，给完整smoothed Newton余项式。58bdf173；实际全逆、S下界和迭代闭合仍待付。
+
 - [已成真实第一列与三个density1整项](results/R133-supplement-saved-genuine-first-column-and-density-one-SV-sources.md)：只消费DG/RV q0..2完整零宽joint Wiener与C.2/C.5原18coeff，Γ1=M1一次正泛函；完整SV/V0mean/uJB三项，不额外1/n，其余28项保SV与ER。4bd29959，actual待新consumer。
 
 - **WC actual43722885993/1六宽表已成。** [完整报告](results/R133-supplement-actual-wide-collar-mean-and-six-ordinary-half-trace-tables.md)1721e963：child0/13门，140原行full mean_gap>2.8982165181396939；六ordinary表保χ′20/全部mean，known-middle<7.362908e−14。原NR宽record/MC两mean/5窄MA逐字；WA17实际cL/左右body及同态匹配仍待，旧91/H零重算。

@@ -59,7 +59,7 @@ H18的97..160仅原raw moving A_HL，不传给old-circle逆J后的源。
 
 原P17–22/24/L9需同对象全频||qν−Z||L²([0,rplus])≤.005。
 P16保原physical第四Robin及mean，以ν解phase，腰振幅为输出；
-H22明确离phase约束还多E′a乘法项，须真正有损Nash或约束迭代。
+H22离phase的E′a现由[PD完整近似逆与quadratic defect](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173给准确一步式D FΔ=(f+r_f+rνκ,b+E′a)。rho15主gap保一导损aHs≤17wHs+1，Cs=(9/8)2^(s−1)付全mean乘积；raw b/J、完整regular defects与smoothing Taylor均保，不假设投影对易。S实际非零、真全regular逆/参数响应、D²tame/域与可求和迭代仍待付；小E′仍不授同阶Neumann。
 实际γ低A0及H8193、未知high trace、Ψ余项和真实core解仍独立。
 自由半面height/frame是同次几何输出，一般给定参数/荷不删。
 Green final与GH全部实际source/return/readout/border门尚未支付。

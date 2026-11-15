@@ -403,3 +403,9 @@ root 已逐行核 ER SCI553行、与M worker的完整diff、23pin/711159B（shar
 新合同13534B/SHA4bd29959ada95b269ef5240439b3c6fc284e0e870265e5edea3e0d1a1fda8e96。root全文回读原C/G，修正正泛函引用为C.2/C.5（C.18是dr权），并亲读DG reader确认exact_output_old_phi_width=0、joint_sum_of_radial_coefficient_suprema、complete_joint_Wiener_upper，b1原字RV。Γ1=M1=A(w1V)只需六saved angular jets；完整SV/V0mean/uJB三项保outer J/independent mean，不多除388或重复inner word。tail独核类型。新数值待public consumer，既成ER若用作baseline须其余30原字SV。
 
 H/open历史AJ/RV/DG/M细账压缩到immutable acfd93f713c8c678a9d2d1f9c3b32b6f70efaadd同路径；所有原域、失败、恢复和未付义务仍有效，不授权重算成功数学。当前两README核ed3fdc19787e4143685228bb1fb676f96ccf7390未变。
+
+### 2026-11-15 14:28:48 UTC — PD 完整相位近似逆与有损二次缺陷
+
+新解析定理15198B/SHA58bdf1739e1b3c98c50e096657502d30b14033f9ee2b81bbfda89652ddf14278；root回读P14–16、selected-family Section5、GH H22，tail独核PD8–10/15–19/26全通过。raw E与J固定线性系数分清，保r_f/rν和〈E′a〉，物理4j给17的一导损，完整Young两项给Cs，stripτ^-2和Taylor积分余项不省。未宣称scalar S下界、全regular逆、真实β转移或迭代闭合，不加/删原第四Robin/mean/腰等方程。
+
+同时root亲读ER43724065270/1实际executiondedbfcad全部20门、job132842029737全steps success，31项仅raw1改变，其余30/mean非local聚合/七M非E/径权和cover逐字；完整actual正文正核待独推。Green14:25 process097b59a2 root亲读：future5760=1886旧+3874新、past2480/product4272、groups5/queued23，childnull；真pull14:25:27.817177→acf6a61959508c0b4d413e89249435634ed2fa3f两README空，topic199497820B。H完整旧版归档8994dfc19d7695386ad7d5ec3cef3096ac20cc73同路径，未付义务全部保；本次两README9c5292797a470b10434fdeac1f3797e162f96a1f未变。
