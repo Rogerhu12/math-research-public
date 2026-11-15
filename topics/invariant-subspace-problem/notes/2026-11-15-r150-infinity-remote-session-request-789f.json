@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "3dd0bbc0a8548bb8d15faea8f584edd6b87cfa97",
+  "rulesReadAtCommit": "8fc0b7d1a9433b3e3335b5734b8035f54ce9de24",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -618,6 +618,21 @@
       ],
       "timeoutSeconds": 680,
       "receiptPath": "{work}/seven-sparse-dixon-original/seven-sparse-dixon-original-pipeline-receipt.json"
+    },
+    {
+      "id": "original-transverse-first-connection",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "scriptSHA256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+      "argv": [
+        "--chart",
+        "both",
+        "--out",
+        "{work}/original-transverse-first-connection-receipt.json",
+        "--remaining-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 50,
+      "receiptPath": "{work}/original-transverse-first-connection-receipt.json"
     }
   ]
 }
