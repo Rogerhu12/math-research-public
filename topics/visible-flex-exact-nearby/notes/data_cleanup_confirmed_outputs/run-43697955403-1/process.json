@@ -1,0 +1,119 @@
+{
+  "Actions_artifact_uploads": 0,
+  "Release_uploads": 0,
+  "actual_scientific_checkout_commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+  "already_absent_original_versions": 0,
+  "audit_only": false,
+  "automatic_broad_data_classification_used": false,
+  "changed_original_paths_retained": 0,
+  "classification_totals": {
+    "delete_reproducible": {
+      "bytes": 1305312,
+      "files": 2
+    },
+    "retain_outside_exact_allowlist": {
+      "bytes": 198397765,
+      "files": 13986
+    }
+  },
+  "complete": true,
+  "deletion_manifest": {
+    "bytes": 12636,
+    "contains_no_certificate_or_numerical_output_payload": true,
+    "contains_only_paths_hashes_parameters_and_run_identity": true,
+    "path": "topics/visible-flex-exact-nearby/notes/data_cleanup_confirmed_outputs/run-43697955403-1/deletion-manifest.json",
+    "sha256": "052a94839d830423426e29f41f9452bfa40ba3f163bbc7dac171083bc20b9a62",
+    "uncompressed_canonical_bytes": 12636,
+    "uncompressed_canonical_sha256": "052a94839d830423426e29f41f9452bfa40ba3f163bbc7dac171083bc20b9a62"
+  },
+  "exact_reviewed_output_paths": 2,
+  "finished_local_utc": "2026-11-15T09:10:46.585278+00:00",
+  "force_pushes": 0,
+  "history_rewrites": 0,
+  "initial_selected_files": 2,
+  "initial_topic_bytes": 199703077,
+  "kind": "ordinary_public_topic_two_confirmed_outputs_deletion",
+  "new_mathematical_evaluations": 0,
+  "old_mathematical_recomputations": 0,
+  "original_11834_data_bytes_rehashed": 0,
+  "original_small_receipts": [
+    {
+      "bytes": 1652,
+      "git_blob": "35272be389900b3e7e2be540359f71f59a09f844",
+      "sha256": "517e1cac985b27ec7d97c273e57ab42b788c5e02f4558c148be6eaae98756f9f"
+    },
+    {
+      "bytes": 6608,
+      "git_blob": "1f6af7c04aabee98aba07fb5a65e0e9364a64786",
+      "sha256": "171441b39420be0c18e3f349718d54eca32603984fea8945b7f79b5fb5a720eb"
+    },
+    {
+      "bytes": 9466,
+      "git_blob": "b750911e73e0fab8bef458193328ac85c63704eb",
+      "sha256": "eefd8712891355dbc03636a8741ca747d14b5ec21fa658c31f61569763281bc7"
+    }
+  ],
+  "original_storage_deletion_commit": "315bf6e06a2e21fae980f538286dcec6b739bc59",
+  "original_storage_run": "43679889657",
+  "pre_staging_main_commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+  "predeletion_commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+  "projected_original_tree_retained_bytes_before_small_metadata": 198397765,
+  "protected_large_files": [],
+  "protected_large_files_complete_in_manifest": true,
+  "pulls_and_readme_checks": [
+    {
+      "commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+      "compared_with_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+      "label": "initial_checked_out_rules",
+      "readme_diff": "",
+      "readme_sha256": {
+        "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "reviewed_rule15_metadata_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "utc": "2026-11-15T09:10:42.747722+00:00"
+    },
+    {
+      "commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+      "compared_with_commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+      "label": "initial_true_pull",
+      "readme_diff": "",
+      "readme_sha256": {
+        "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "reviewed_rule15_metadata_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "utc": "2026-11-15T09:10:43.071770+00:00"
+    },
+    {
+      "commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+      "compared_with_commit": "a39a3783181ae671015efca4c55120d4269ad1c5",
+      "label": "true_pull_before_deletion_staging",
+      "readme_diff": "",
+      "readme_sha256": {
+        "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "reviewed_rule15_metadata_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+      "utc": "2026-11-15T09:10:46.492374+00:00"
+    }
+  ],
+  "repository": "Rogerhu12/math-research-public",
+  "requested_deletion_bytes": 1305312,
+  "requested_deletion_files": 2,
+  "reviewed_rules_path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "run_attempt": "1",
+  "run_id": "43697955403",
+  "selected_original_versions_bytes": 1305312,
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_confirmed_output_cleanup.py",
+  "source_sha256": "09f9d899988b5699169d57e12f0235c446b0d928571bf866fcc63a740ba7fa77",
+  "staged_data_deletions": 2,
+  "staged_deleted_original_bytes": 1305312,
+  "started_utc": "2026-11-15T09:10:42.741589+00:00",
+  "topic": "topics/visible-flex-exact-nearby",
+  "topic_budget_claim": "Exact post-push tree size is checked separately; unknown parameters are not deleted to reach the limit.",
+  "unlisted_recomputable_data_payloads_read": 0,
+  "upstream_changed_paths_retained_during_rebase": [],
+  "workflow_event_commit": "a39a3783181ae671015efca4c55120d4269ad1c5"
+}
