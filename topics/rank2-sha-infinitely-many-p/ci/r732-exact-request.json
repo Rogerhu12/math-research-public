@@ -1,10 +1,12 @@
 {
-  "request_id": "rank2-r785-original-three-plane-even-cores-20261115",
+  "request_id": "rank2-r788-original-b3-all-prime-geometry-20261115",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r785-original-three-plane-even-cores.py",
-      "args": [],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r788-original-b3-contact-all-primes.py",
+      "args": [
+        "--max-order=48"
+      ],
       "include_stdout": true
     }
   ]
