@@ -307,3 +307,8 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 ## 2026-11-15 21:47:27 UTC｜R387完整一层障碍落地
 
 由原R73/R221/R296/R300保真实elementary Q与局部恢复，j⁴余量严格为正。R325 mixed全尾消元与原Gaussian词独立性闭合，peer另核原R184/R224/R243所有合法gauge/传入history。文稿15305B/hash399b1b51…，完整手证，无求积/符号运行/人工测试。R354–383有限结论仍真；HANDOFF/open已将当前Gaussian圆从可继续第四构造改为已阻断，继续不同真实入口；主题仍进行中未完成。发布基底 2867463e47976ced9361a0df97db7c324859ce3c。
+
+
+## 2026-11-15 21:47:55 UTC｜由实际曲率缺陷提出独立下一提案算法
+
+[notes/observed-curvature-defect-primary-guard-design-20261115.md](notes/observed-curvature-defect-primary-guard-design-20261115.md)，17612B/SHA256 eaeb3ccf76dcf8f1e945ee4f82fe7940855bc85530f7fb7bfbb48bd0bbb26df1。消费covered run43762868037的m2/6已付首primary原group8差及exact159 x/y，真实物理步平方归一，仅两个经验桶；下一primary余量含B²，当前模型不变、SOC RHS独立且rebound原样。旧135py冻结，新5py与新四组人工待公开Actions；原12/40/120/10无增加，旧20/19/26/cache只读receipt。根已全文静态审并精确区分旧历史行池内部绑定与当前不变定义。无研究执行/通过声明。基底1d9b70965775f9bd0fea97a338ce0d67289750ae。
