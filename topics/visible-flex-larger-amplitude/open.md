@@ -107,3 +107,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **78完整结果：** [八方向/144试探结论](notes/2026-11-15-actual78-small-core-eight-tiny-Newton-steps.md)、[完整读数](notes/2026-11-15-actual78-complete-original-readout.json)、[字节范围](notes/2026-11-15-actual78-original-byte-audit.json)已保存。真实run43662193286/source11b5d25c/job132653733174流程success但candidate=false；每轮第18个2^-17才接受，32原域拒/104有限merit拒/8接受，最终merit65077006698.67795且三共振仍大。最终零core圆与494 Arb叶只保各自范围，非非零BVP。80转为独立列尺度正阻尼6×3增广LS，保原三方程、未加权merit、.2 Armijo/20档及全部域/候选tol；不再机械续同Newton小步。高109诊断独立继续。
 
 **79同24重新建模请求：** [冻结接口](notes/2026-11-15-request79-same-twenty-four-query-relinearization.md)及[静态回执](notes/2026-11-15-request79-static-check.json)保存；workflow41fd5398/requestfb8985c3从真76新warm bba24c1f/原status a1a67b9a续一次。51源、24查询、7101支持、fullH/C外项、λ270、512/200、17trial、全部预算和FD不改；原半步LEFT466和MID486双失域不归因成单个漏查点。只更新父字节/透明gzip身份及历史别名，未执行本地科学，待实际run。
+
+**R277高核两端工具已证明：** [完整恒等式及消元证明](results/R277-complete-two-end-chain-determinant-and-high-core-elimination.md)直接入results/index。全部节点2×2链以伴随矩阵积给完整两端行列式，覆盖某些右块奇异的情形；高109必须逐个排零，现有零高残差并非排除齐次高解。所有右块可逆时再给原单位入口Schur，浮点有限系数/Arb声明实模型/真正尾导数不混用。独立全112/699消费者在准备；不等待它才继续80低三搜索，也不预称共振或非零BVP。
