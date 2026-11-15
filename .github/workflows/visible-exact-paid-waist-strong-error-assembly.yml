@@ -1,0 +1,89 @@
+name: visible-exact paid waist strong-error assembly
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-paid-waist-strong-error-assembly.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-paid-waist-strong-error-assembly
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  WE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-paid-waist-strong-error-assembly-CI-inputs.json
+  WE_MANIFEST_SHA: 098c090606f54bbbb8bd6d026b6360f53ba70f5e75c4fc4218e7f784b2eb88a1
+  WE_PIPELINE_SHA: d02efe46d4baee16971c9239526d4e3f412ad7dd8e95cfab31d56458a7a7fa55
+  WE_WORKER_SHA: e9c606d04257283b9d65a192e532a441433880ee53e652d1c989c357bed48983
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  paid-waist-strong-error-assembly:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_paid_waist_strong_error_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-paid-waist-strong-error-assembly-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_paid_waist_strong_error_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['WE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_paid_waist_strong_error_public_worker.py --mode hydrate
+          --manifest "$WE_MANIFEST" --manifest-sha "$WE_MANIFEST_SHA"
+          --pipeline-sha "$WE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the current-only paid-error consumer before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['WE_MANIFEST']).read_text())
+          for role in ('source',):
+              item=next(x for x in manifest['files'] if x['role']==role)
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read eight completed scientific records and evaluate only the new paid strong-error combinations
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_paid_waist_strong_error_public_worker.py --mode run
+          --manifest "$WE_MANIFEST" --manifest-sha "$WE_MANIFEST_SHA"
+          --pipeline-sha "$WE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-paid-waist-strong-error-assembly-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-paid-waist-strong-error-assembly-output"
+      # Root rule15: all twelve inputs are current small text; zero old binaries or artifacts are restored.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain120000 bytes before any new arithmetic.

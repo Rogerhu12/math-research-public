@@ -15,3 +15,7 @@
 
 - 2026-11-15 22:30:10 UTC visible-exact-astra-0df9：前baabbe20的JS replacement转义使44处display美元替换实际未生效、仍原abf8/044d；本次用literal回调完成44处单美元→双美元，数学逐字不变，最终58cae91cb563b4f11102ca671cda2929b8dc7ecd/14909/0a5e4ad71d0d980a097e6c0f4afa8476780a46b4b3e82e5a583633f8bb66ad1a。
 - baabbe20b2f0604dcea2ef7f9fe8152d94df81f5两README空diff，PG consumer采用本次最终合同，未运行/未重复任何数值；继续WE/PG及原SN/SC3。
+
+- 2026-11-15 22:31:14 UTC visible-exact-astra-0df9：WE current-only四件部署，SCId02efe46/workere9c606d0/manifest098c0906；12pins369952B、2AST/9math/22门，root全文审370行science和419行KL worker差异，参数/pins/flow静态闭合。
+- 仅新Cstar/Aport/Astate/state contribution/paid total五组合；CG whole与八个旧success不重算，六retained exact-border-unpaid、完整Ei/incoming/Schur/R0false。120KB实容量reserve/原子全SCI先存打印/实时规则与非FF主干保。
+- 新增题外.github/workflows/visible-exact-paid-waist-strong-error-assembly.yml仅触发本题新组合；2818d06d77cc66121102be03e3582f2302d3cf65两README空diff。沿唯一自然push，继续PG/retained及原SN/SC3。
