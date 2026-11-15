@@ -274,3 +274,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R394｜条件性完整period及全相位同规范有限iff
 
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)（17886B；SHA256 900a912ea23d536a536530fb0ce852fd68a126c0a008f5b86e4908e1814b2ade）。明确假设当前实际wholeE0/全部自然Λ0，不由R333或固定双Λ推出。wholeQ0降有序左尾为仿射，真partial通量/右方三矩suffix保全部端项，各简单Af点两门给完整range iff。k′延拓、gap积分清零、右锚消输出仿射差分开支付，平台代价和真实m*不删。sinθ除法编码双seed，原13×2n矩阵deg≤4/rhs≤6的Smith零行恒等与圆上有限整除jets给真实全相位光滑iff，并能取实解析解；局部整除总阶≤4r≤52而非控制秩。内部值/联合实际像及所有其余主门仍欠。root全文及R225/327来源、方向/因子/Smith/值闭合纸审，无执行。
+
+
+## 数值｜原单位curvature-defect guard首次完整实际与准确未合模型
+
+[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)（15548B；SHA256 1aad87192373d27166ae6255ae8cd4b0cbdb35dc829a1c84222dde3430a3d6bb）。原科学43767357527/source6f886c…：新4检查全过/旧14只读复用，6普通α1双网接受，η.2662701215525791→.26623355613853394，原14门/163精确盒/旧metric通过，新.26及reach欠。7guard模型真LP使用/52修改行，γ初8.04055/7.87327经next-model提交到17.02235/18.06428，8events无pending。末438-bank/4432与4525池/双streak0。10primary/SOC0；m7只获1内部LP、gap2.4769e−5未合、repaired无改善、尚余2LP，不是完整凸模型驻点。总321.9678s含230.7735s初验，active35.5424s、16value、RSS2292208KiB；311真新cuts与2875memory重装分开。原输出两次只读回读不重研究，全部hash/规则pull和未触发范围保留。下一仅针对原m7未完成inner续接口，不reset重跑。

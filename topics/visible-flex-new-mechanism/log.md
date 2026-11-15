@@ -389,3 +389,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:30:39 UTC｜R394准确区分局部germ、k值闭合和全相位joint
 
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)，17886B/hash900a912ea23d536a536530fb0ce852fd68a126c0a008f5b86e4908e1814b2ade。保wholeE0/Λall0为尚未联合安装的前提；真有序partial flux给剩余range，gap k′积分调整有平台成本，真实incoming X保进13rhs。对原实际相位矩阵的有限Smith门准确涵盖seed及rankdrop，不用phase采样替代；≤52只为局部整除总阶。root全文和原R225§6–7/R327列式核通过。H去旧重复数值段保最新规则/guard证据；数值继续m7未完成内模型接口，理论接新partial核。基底a280559a33bbea65c5ad5b2630b876a068f0cfc8。
+
+
+## 2026-11-15 22:32:21 UTC｜guard首次完整实际稿冻结并接同一未完成primary
+
+[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)，15548B/SHA1aad87192373d27166ae6255ae8cd4b0cbdb35dc829a1c84222dde3430a3d6bb。tail按根唯一已读语义记录成稿，root全文核原DEV/model/trial14门/learning/cost/身份；补明确物理归一化九height范数、精确物理盒与容差高度门分开、每LP10秒，以及affine评估仍浮点而非区间证书。m7不能称驻点，旧paid第10次LP不再调用；续算是否可恢复全部候选/当前J/冻结guard/原oracle与cuts仍在核源。所有科学与人工只原公开Actions执行。基底9d386bbc7067b3ac8fde3704396a1ac81324f246。

@@ -159,7 +159,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### guard首实际已读：下一处理未完成cut模型的原预算分配
 
-run43767357527七个guard主模型/新四检查通过（旧14复用零执行）；前6普通α1全14门通过，当前η.26623355613853394/bank438/γ17.022353404161095与18.064283125328743，原.26及reach欠。m7只授1primary，LP10/12后仍余2，完整epigraph gap2.4768679406952238e−5未合、inexact=true/无物理trial。不是凸模型驻点或guard不可行证据。下一按此已观察失败研究同一未完成primary的有限预算再分配：不增全12/per-primary3/40value/120active/10秒LP，仍保SOC槽和原gate，不重复前6或旧开发研究。完整费用/源身份见即将发表actual note及首次readback。
+run43767357527七个guard主模型/新四检查通过（旧14复用零执行）；前6普通α1全14门通过，当前η.26623355613853394/bank438/γ17.022353404161095与18.064283125328743，原.26及reach欠。m7只授1primary，LP10/12后仍余2，完整epigraph gap2.4768679406952238e−5未合、inexact=true/无物理trial。不是凸模型驻点或guard不可行证据。下一按此已观察失败研究同一未完成primary的有限预算再分配：不增全12/per-primary3/40value/120active/10秒LP，仍保SOC槽和原gate，不重复前6或旧开发研究。完整费用/源身份见[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)及首次readback。
 
 
 ### R394完整条件性period/同规范接口，继续实际像
