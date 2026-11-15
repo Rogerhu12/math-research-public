@@ -274,3 +274,7 @@ root读SC完整初稿并对v2仅SC18a差异核；双peer分别核径向精确扣
 ## 2026-11-15 18:58:34 UTC — 部署WL完整原96腰lift的新标量consumer
 
 root全文读397行SCI及相对IN稳定worker完整diff，delimiter397/527行静态通过、Python AST留公开CI。7当前小原件SHA/bytes/Gitblob全核，新SCI也与manifest一致；8pins214104B/2AST/18门设计。phase独核positive算法/完整lift/同CPAcase三个输出和WA同d输入，无旧计算。部署SCI27937/d6764c57、worker35019/aba70688、manifest6058/70c8488c、flow4098/92c2b3d8，仅自然push触发一次；15分钟child/45分钟job、真实pull/README/200MB+120KB/先atomic全部科学再preGit只两小结论保。原mean/high/γ域及其他四输入完整保，数值待run，未授PDE或总完成。de124444eb1c5c091a6b791d9b6642387fff17a8双README不变。
+
+## 2026-11-15 19:02:15 UTC — 精确历史保留的3份旧浮点geometry输出清理
+
+root亲读原R48 frozen manifest8074/82c742e4、step02 checkpoint13896/e866f2f0及完整producer6121/c9c709f6。三旧输出positive probe407310/27623fcf、D5 geometry407294/afda2786、D8 geometry407297/32d0a4d8合1221901B，当前删除前逐Gitblob/bytes严格核；SHA来自原manifest，不读取>100KB正文。清单11062/f89875885dbac21572d5a387657ab4ce0b41f09eb8318e8e1f6dc5fff8f11a8b完整保原路径/producer/argv/输入与trial对象/浮点反射及Hnode/period29失败，原R48精确多项式证明不变。恢复公开8870549d52e48343cb43a979a13f9368cb992736同path并核bytes/Gitblob/SHA，成功诊断禁重；仅普通删除3JSON，未改history、无binary/新artifact。SN/WL/DR/SA四当前输入清单路径均无引用。7a0a6b2aa7c3af7de08a602fedc5e879abbfd1a1两README原blob未变。 同时精简H中的CH/SR，仅归档到215af6c4f07f58afeb5276fc51e3db73979c0c6d，所有原式/域/条件保留。

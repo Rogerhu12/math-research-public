@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 容量清理：按[精确白名单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)普通删除3份旧step02浮点geometry输出1221901B；原manifest SHA、producer/输入/参数/失败scope和公开8870549同path恢复全保，非重算、非history rewrite。
+
 - WL新标量consumer部署：直接读D/CPA/WA三份成功小receipt及原正算法，8个固定输入214104B，六个同case第五列与六个腰贡献；18门/2AST设计。原rows/积分/Green/WA都不重算，尚待唯一自然公开CI实际结果。
 
 - [SC精确径向扣除与完整帽仿射矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)：三类128完整Fourier矩共享97列，二阶径Taylor/完整third与exp尾；逐7908单candidatepiece/原midpoint强门避免跨片漏洞。A15 repaired外端两费/全f球及unknown全部预算保，actual新积分待。

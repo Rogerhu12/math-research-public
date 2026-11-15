@@ -146,6 +146,8 @@ R/MC保fδ=f0−δb0+δrmean e2−δ²T2−δ³T3、连续repair/offset径导/in
 
 本次依[三份D5 endpoint输出清单](notes/2026-11-15-D5-three-old-endpoint-output-deletion-whitelist.json)ac4eb046，普通删除617556B；只旧step3 grouped/shared516与step4 shared1032浮点输出。精确恢复8870549d52e48343cb43a979a13f9368cb992736同path/bytes/Gitblob/SHA。原scripts/objects/root/H/manifest/proof保，step4浮点root导与strict区间不相容诊断保；不是ODE证书/seed，成功诊断也不得重做。
 
+本次另依[3份旧step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588普通删1221901B；仅positive probe/D5/D8的旧样本diagnostic JSON，非exact PDE/C2/ODE证书。恢复8870549d52e48343cb43a979a13f9368cb992736同path/Gitblob/bytes/SHA，原R48 manifest的完整三entry、原producer/全部参数/输入/反射及H-node/period29失败均保清单和原小proof。脚本、objects、root、H、精确多项式证书及active CI输入不删，成功旧diagnostic不重。
+
 每结论独推；非FF立即真CLI pull --rebase保远端循环成功、禁force。每小时真pull后查两README只读diff即照新规记H。18:44:44定时CLI仍无executor，直接核main b13dfa18两README原blob未变；根规8限UTF8<100KB connector，不把ref读叫pull。下一定时真CLI≤19:44，runner实际真pull/容量见完整receipt。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
