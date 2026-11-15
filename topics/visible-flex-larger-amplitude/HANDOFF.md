@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 18:58:24 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 8d9024facee93e77897116bb94523fa8e4d00078。
+规则同步记录：2026-11-15 19:00:32 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 fdd5294bcb8ac891e497755b1bee6ecdc9b286b1。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -26,6 +26,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
 |177 R379 geometry|43747934170 /d7540200dcf5e10378471620915aa29a39389862|原全根族112两图Riccati/cut，17pins|
 |178 R377 amplitude|43749066353 /d9336e76fe9948d642e6e079bbdf26946b6d42d4|固定164 support1/k4，完整十列Newton/clip/Cauchy，8×20|
+|179 R382 geometry|本次发布，实际run/source待回填|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -47,7 +48,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 178按R378固定S最小范数QR/clip/Cauchy条件公式；true157初父/固定support1 k4，S旧九=.01max(1,|p157|)、Sξ=.01/radius1，每接受fresh3×10，8×20。原full3/strictslope/domain/120FD/Arb/453/112/final保；45闭包/112+10源，2400s child/50science/65job。实际接受父后继必须新真实配方，不把旧模型换profile冒连续C。
 
-179 R382由geometry接原169新R323 profile→R375 physicalfar→R357取向单位行→完整453；source sampler32166470/worker600950b4/client48764a4c/driver76c51a05/launcher ed141b63/reader1d055037。recipe10294B/d926cecf，request40094B/fa5cc945，最终wf90370B/14352ae2/blob1afb3a5b017b7677b0bb96c0de40d8db0756d429。全部science diff与reader已读，recipe/request全JSON结构差异保原参数；wf新增及上下文正在读。接口/10件manifest待齐后即发，原3active/6freeze/全H/J/FD/112338/32×10/2e−9/audit不减；177非前门。
+[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件已发，geometry核R382：新R323 profile→R375 physicalfar→R357取向单位行→完整453。sampler32166470/worker600950b4/client48764a4c/driver76c51a05/launcher ed141b63/reader1d055037；recipe d926cecf/request fa5cc945/wf14352ae2。原59/52/26闭包、五输入/准确构造/3active6freeze/全H/J/FD/112338/32×10/2e−9/audit不减；每候选保非恒幅度a(t)符号，先norm再hull。单必要90KB、六读回/marker/静止后才清，超限不分包。177非前门，C3600/采样14400+1800启动比例clip/BVP7200/360job及全部后缀保；初点R381反证仍有效。
 
 [R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)已证165→169及179冻结初点是同一准确目标；原38速度反证可传，numeric416不能冒每叶唯一准确分支。准确coast仅p3/theta3/eta3直接作用，L不随九p变；中心a_s=−κ+2LC·theta3给必要带，未代入LC或预判全搜索无解。
 

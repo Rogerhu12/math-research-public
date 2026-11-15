@@ -100,9 +100,9 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)独立全C1440/六primitive/两query/cut/deep112齐，whole2609欠分辨率。physicalfar=.05056158669090205；m2仅100attempt/49commit后row17/piece3/depth32双pivot含0，.150405163s/stop=null非资源。19栈/required[18,10387)/余111保，0far/0unit，native未启动；原错误/六读回与清理见结果，不记Newton拒或准确共振。
 
-[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：新实际43741519736/sourcede9a730a，原来源缺件已解；C2624.792453377s全1440/两闭query/cut两jet/deep112齐，新标量419片/418seam的显式数值profile建成，但九控制域10657未决/15stack仍partial，中点不证同一准确C。far m2仅100attempt/49commit后row17/piece3/depth32双端点盒含0，资源stop=null；完整19栈与required[18,10387)、m4..224未访保，0far/0单位行。native_geometry_ready=false使BVP根本未启动，不能记Newton拒。全部必要摘要和六读回/静止后清理齐；R375物理far后继179正在接线，必须从原全深族重算。
+[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：新实际43741519736/sourcede9a730a，原来源缺件已解；C2624.792453377s全1440/两闭query/cut两jet/deep112齐，新标量419片/418seam的显式数值profile建成，但九控制域10657未决/15stack仍partial，中点不证同一准确C。far m2仅100attempt/49commit后row17/piece3/depth32双端点盒含0，资源stop=null；完整19栈与required[18,10387)、m4..224未访保，0far/0单位行。native_geometry_ready=false使BVP根本未启动，不能记Newton拒。全部必要摘要和六读回/静止后清理齐；[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件已发，从原全深族重算，geometry核R382。
 
-原169完整合同及后继仍须同一owner真实H/J、三扰动/两法边界FD、8outer/17inner与fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。数值代表/中点/JSexp不证准确C、无限非线性DN或九冻结450同g精化。原全部预算/namespace启动clip/owner/清理范围见[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)及R367，不把资源计划提升为成功保证。
+179保原169同一owner真实H/J、三扰动/两法FD、8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。新sampler32166470/reader1d055037、recipe d926cecf/request fa5cc945/wf14352ae2；59/52/26闭包和五输入/准确构造/原参数不变。R375全闭barrier及非恒幅度a(t)符号参与R357逐候选norm后hull，完整112与未访事务保；数值代表/中点/JSexp不证准确C或无限非线性DN。C3600、sampling14400+1800在startup按余量同比例clip/BVP7200/360job，namespace不冒全流程绝对kill；单90KB必要sampler/native/BVP，全部早期trial仅内部身份且范围明确，六读回/新marker/owner静止后清，错误/超限不分包或主动删raw。原初点准确域反证继续保，不外推p3全搜索无解。
 
 ## 4. 同一g闭合与真正九冻结450
 
