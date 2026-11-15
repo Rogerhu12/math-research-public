@@ -108,3 +108,6 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 ## 运行和续接
 
 根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive运行，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
+
+
+**R812（原源与split低矩运输已证，六有限case待公开结果）**：[apolar源/五端项/Gaussian Frobenius](results/R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md)/[公开执行约定](notes/R812-fixed-six-case-public-execution.md)。原first-p配对满足准确带源连接，五端项给Qpart；p5mod12余项由Gaussian素理想重指标转为原四个五阶低矩的Frobenius运输。CM六阶Heisenberg/Miller规范保共同c、c^(2−2p)、全部分母与Norm，q恒等先代数化再SS评价。仅固定Q(∛4,√3,i)中2×3种case，Sage10.6公开算术，无素数扫描或高sigma jet。测未筛交替总和，原primitive/Legendre同h与p3mod4 Eichler分支仍开放；不预称任一case非零。

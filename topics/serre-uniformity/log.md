@@ -35,3 +35,8 @@
 - R813完整证明/契约登记：δ=D0/τ、两个普通S3 Wronskian；root全文核粗曲线/椭圆消失阶、原n/82尺度、690基与全820注入、非齐次commutator唯一性及第二图矩阵修正。proof3cf42cc8/method00c21c72，无新本地数学。
 - Mg/Mh六好点插值、七固定准确终验；Γ五插值/六终验，不能混用。首scope只做两个原Q右端，146个旧τe_i不重算，真实w0待R806；完整导子与原函数DAG仍待实际阶段。
 - R809已CLI推91fbd81e，实际run43712427063 in_progress；12:09:40.739651UTC实际pull/read57cbf374两README无差异。R806/R787继续，R812固定六case核对原规范与封装，主目标OPEN。
+
+### 2026-11-15 20:17（Asia/Taipei）｜serre-public-astra-20261115
+- R812完整原源/五端项/低五阶Gaussian Frobenius证明登记，root核apolar伴随、原q/eta/Hasse尺度、jet determinant、Miller相位/共同尺度与q到代数SS评价；proof b538a3bc。Bunkova(1)/Cor3.4及Rodriguez Villegas(2.8)/(2.16)原文已核。
+- 固定六代数case公开请求激活，core e7bac156/wrapper416001ca；官方Sage10.6，实际digest记录后离线运行，guard先于Sage import；只AST无本地数学。允许实际零case，不以Norm非零漏掉整分母，不声称同h共同单位。
+- R813已推0e89220b，12:12:31.988772UTC实际pull/read158f1370两README无差异；R809 run43712427063已到数学步，R806/R787继续。H全文归档并压缩，主目标OPEN。

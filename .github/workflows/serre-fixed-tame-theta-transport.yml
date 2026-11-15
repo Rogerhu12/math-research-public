@@ -1,0 +1,67 @@
+name: Serre fixed CM tame theta transport
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R812-public-tame-theta-transport-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-R812-fixed-tame-theta-transport
+  cancel-in-progress: false
+
+jobs:
+  six_exact_CM_cases:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-fixed-tame-theta-transport.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R812_tame_theta_transport.py
+            /topics/serre-uniformity/scripts/R812_public_tame_theta_transport.py
+            /topics/serre-uniformity/notes/R812-public-tame-theta-transport-request.json
+            /topics/serre-uniformity/results/R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check source syntax without importing Sage or doing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("R812_tame_theta_transport.py", "R812_public_tame_theta_transport.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(), filename=str(path))
+          PY
+      - name: Compute the six exact CM cases in the official fixed Sage image
+        continue-on-error: true
+        timeout-minutes: 38
+        run: python topics/serre-uniformity/scripts/R812_public_tame_theta_transport.py compute
+      - name: Retain exact outputs only for immediate review and continuation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R812-fixed-tame-theta-transport-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R812-fixed-tame-theta-transport/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Verify the actual six cases without requiring all entries to be nonzero
+        if: always()
+        run: python topics/serre-uniformity/scripts/R812_public_tame_theta_transport.py verify
+

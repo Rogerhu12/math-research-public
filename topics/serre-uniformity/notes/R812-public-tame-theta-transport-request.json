@@ -1,0 +1,18 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R812-fixed-tame-theta-transport",
+    "scope": "six_fixed_algebraic_cases",
+    "image": "sagemath/sagemath:10.6",
+    "sage_version": "10.6",
+    "budget_minutes": 30,
+    "core": "topics/serre-uniformity/scripts/R812_tame_theta_transport.py",
+    "core_sha256": "e7bac15678e6d0d30a30e54edd41a2d34a053b766da97efa7771278827e87ab2",
+    "wrapper": "topics/serre-uniformity/scripts/R812_public_tame_theta_transport.py",
+    "wrapper_sha256": "416001cae3e161e612fae849519bb9fa4c23f4de0ee601def69d2b3eab88a1ce",
+    "proof": "topics/serre-uniformity/results/R812-original-apolar-source-and-Gaussian-Frobenius-low-moment.md",
+    "proof_sha256": "b538a3bcd47e2638c22b9758050fe87f66381b24fed649e30521092981aeafe1",
+    "workflow": ".github/workflows/serre-fixed-tame-theta-transport.yml",
+    "workflow_sha256": "6c4781ceb7ec9a6b5daeaaa39a56ad24615a908570c30811b61ff1c6e69828a4"
+  }
+}
