@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 13:56:14 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ccbd9165b52eed055cf3b3af5aea8ca7d5f949fe。
+规则同步记录：2026-11-15 13:57:11 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f3351d7be73d94b1bbc5f5dc786b8344a843fd43。
 
 集成复核：150最终五件全文/差异、原52+6pins与完整错误byte流已核即发；R328已推dbbfe1bc，152完整重算稿待root核，151由exact并行实现。科学仅公开Actions，root只文本/原JSON/字节/语法/Git。
 
