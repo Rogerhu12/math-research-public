@@ -1,0 +1,2160 @@
+{
+  "schema": "R259-original-three-equation-column-scaled-LM-candidate-v1",
+  "scope": "Bounded LM candidate search on the unchanged original R259 three equations.\n\nOnly the three-parameter search direction is new. The original CircleReference\nevaluate/jacobian/description, unweighted merit, scalar-domain exceptions,\nArmijo factor .2, full-right candidate threshold, final Arb expression and full\nzero-core circle check are retained. This is not a BVP or native acceptance.\n\nEvery scientific operation is restricted to the public repository's Actions.\n",
+  "phase": "diagnostic-completed",
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "consumed_source_sha256": {
+    "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+    "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+    "geometry_20261114_direct_operator_cell.py": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce"
+  },
+  "original_diagnostic_source_sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+  "parent_actual78": {
+    "file": "actual78-parent-status.json",
+    "bytes": 50438,
+    "sha256": "09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40",
+    "parameters_field": "final.parameters",
+    "parent_is_not_a_nonzero_or_native_solution": true
+  },
+  "candidate_algorithm": "one column-scaled positive-damped 6x3 least-squares direction per iteration",
+  "damping_cli_text": "1",
+  "damping_binary64": 1.0,
+  "direction_model": "min_z 0.5||J D^-1 z+r||_2^2+0.5 eta^2||z||_2^2; d=D^-1 z",
+  "candidate_iteration_budget": 8,
+  "original_backtrack_budget": 20,
+  "original_armijo_coefficient": 0.2,
+  "candidate_resonance_tolerance": 1e-08,
+  "scalar_interval_bits": 160,
+  "scalar_interval_maximum_depth": 14,
+  "original_equation_and_jacobian_functions_reused": true,
+  "unweighted_original_merit_and_domain_functions_reused": true,
+  "same_complete_original_scalar_formula_and_three_supports": true,
+  "design_parameters_are_varied_not_claimed_one_fixed_metric_during_search": true,
+  "original_mesh_nodes": 699,
+  "field_and_tail_modes": 112,
+  "low_modes_diagnosed": [
+    1,
+    2,
+    3
+  ],
+  "complete_zero_slope_J_retained": true,
+  "native_nonlinear_solver_called": false,
+  "original_Gauss_app_used_as_a_derivative": false,
+  "original_full_BVP_or_large_amplitude_acceptance_claimed": false,
+  "straight_homotopy_only": true,
+  "weighted_lambda_j_homotopies_not_excluded": true,
+  "searches": [
+    {
+      "iteration": 0,
+      "parameters": [
+        0.09365081258727412,
+        -0.13201200770909496,
+        -0.12389206129693811
+      ],
+      "residual": [
+        207.5687844070032,
+        -173656.799408131,
+        316223.4753016901
+      ],
+      "derivative": [
+        [
+          -117.81663019111288,
+          216.31902421768498,
+          118.40269980538088
+        ],
+        [
+          2393.8574841242507,
+          295886.61912071425,
+          -70368.33343681856
+        ],
+        [
+          41708317.20412404,
+          10310177.812609592,
+          -87633840.04377536
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          207.5687844070032,
+          -173656.799408131,
+          316223.4753016901
+        ],
+        "unscaled_jacobian": [
+          [
+            -117.81663019111288,
+            216.31902421768498,
+            118.40269980538088
+          ],
+          [
+            2393.8574841242507,
+            295886.61912071425,
+            -70368.33343681856
+          ],
+          [
+            41708317.20412404,
+            10310177.812609592,
+            -87633840.04377536
+          ]
+        ],
+        "column_norms": [
+          41708317.272988416,
+          10314422.691832816,
+          87633868.29607818
+        ],
+        "coordinate_scale": [
+          41708317.272988416,
+          10314422.691832816,
+          87633868.29607818
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.824775437953584e-06,
+            2.0972480058333375e-05,
+            1.3511066224458756e-06
+          ],
+          [
+            5.7395206535330215e-05,
+            0.028686687365935052,
+            -0.0008029810255445236
+          ],
+          [
+            0.9999999983489054,
+            0.9995884520782161,
+            -0.9999996776097717
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.824775437953584e-06,
+            2.0972480058333375e-05,
+            1.3511066224458756e-06
+          ],
+          [
+            5.7395206535330215e-05,
+            0.028686687365935052,
+            -0.0008029810255445236
+          ],
+          [
+            0.9999999983489054,
+            0.9995884520782161,
+            -0.9999996776097717
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -207.5687844070032,
+          173656.799408131,
+          -316223.4753016901,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998668291155457,
+          1.000266297444315,
+          1.0000000000001867
+        ],
+        "augmented_lstsq_returned_residuals": [
+          55959031097.71644
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -80361.02769976296,
+          -75292.47232529774,
+          80229.86432226899
+        ],
+        "recovered_original_parameter_direction": [
+          -0.0019267386687836293,
+          -0.007299727243572823,
+          0.0009155120717849158
+        ],
+        "original_jacobian_times_recovered_direction": [
+          -1.2436689161661747,
+          -2228.927011119146,
+          -235852.3518888103
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -74194982299.63829,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 18929336763.490906,
+          "merit_before": 65077006698.67736
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 1,
+      "parameters": [
+        0.0917240739184905,
+        -0.1393117349526678,
+        -0.12297654922515319
+      ],
+      "residual": [
+        206.28129285949925,
+        -175949.66605059168,
+        83068.32122834367
+      ],
+      "derivative": [
+        [
+          -114.7159037762474,
+          227.39094304366202,
+          117.34239633716253
+        ],
+        [
+          4646.736504893908,
+          312507.30284004356,
+          -73485.58781006456
+        ],
+        [
+          40534587.57514637,
+          9824286.835694654,
+          -88215868.83250651
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          206.28129285949925,
+          -175949.66605059168,
+          83068.32122834367
+        ],
+        "unscaled_jacobian": [
+          [
+            -114.7159037762474,
+            227.39094304366202,
+            117.34239633716253
+          ],
+          [
+            4646.736504893908,
+            312507.30284004356,
+            -73485.58781006456
+          ],
+          [
+            40534587.57514637,
+            9824286.835694654,
+            -88215868.83250651
+          ]
+        ],
+        "column_norms": [
+          40534587.84165111,
+          9829255.958415076,
+          88215899.4400634
+        ],
+        "coordinate_scale": [
+          40534587.84165111,
+          9829255.958415076,
+          88215899.4400634
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.8300745088216157e-06,
+            2.313409519557651e-05,
+            1.330172872259706e-06
+          ],
+          [
+            0.00011463633287814457,
+            0.03179358683527801,
+            -0.0008330197648780188
+          ],
+          [
+            0.9999999934252509,
+            0.9994944558630434,
+            -0.9999996530380908
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.8300745088216157e-06,
+            2.313409519557651e-05,
+            1.330172872259706e-06
+          ],
+          [
+            0.00011463633287814457,
+            0.03179358683527801,
+            -0.0008330197648780188
+          ],
+          [
+            0.9999999934252509,
+            0.9994944558630434,
+            -0.9999996530380908
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -206.28129285949925,
+          175949.66605059168,
+          -83068.32122834367,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998364027081117,
+          1.0003271276952626,
+          1.0000000000002125
+        ],
+        "augmented_lstsq_returned_residuals": [
+          32900339996.583176
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -22196.44694722395,
+          -16593.943947051695,
+          22069.646328484723
+        ],
+        "recovered_original_parameter_direction": [
+          -0.0005475927628506957,
+          -0.001688219740869114,
+          0.00025017764902436347
+        ],
+        "original_jacobian_times_recovered_direction": [
+          -0.2917118354028883,
+          -548.5099686967736,
+          -60851.64044842626
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -4958333530.398621,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15826652575.188774,
+          "merit_before": 18929336763.490906
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 2,
+      "parameters": [
+        0.0911764811556398,
+        -0.1409999546935369,
+        -0.12272637157612883
+      ],
+      "residual": [
+        205.98713108225263,
+        -176501.755298401,
+        22369.46794769049
+      ],
+      "derivative": [
+        [
+          -113.8398602026791,
+          229.96829152287413,
+          117.0602547820612
+        ],
+        [
+          5178.692698949239,
+          316473.45275029377,
+          -74205.00327251082
+        ],
+        [
+          40233754.13785928,
+          9719991.996798791,
+          -88364217.21588093
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          205.98713108225263,
+          -176501.755298401,
+          22369.46794769049
+        ],
+        "unscaled_jacobian": [
+          [
+            -113.8398602026791,
+            229.96829152287413,
+            117.0602547820612
+          ],
+          [
+            5178.692698949239,
+            316473.45275029377,
+            -74205.00327251082
+          ],
+          [
+            40233754.13785928,
+            9719991.996798791,
+            -88364217.21588093
+          ]
+        ],
+        "column_norms": [
+          40233754.471308365,
+          9725142.66820871,
+          88364248.37326238
+        ],
+        "coordinate_scale": [
+          40233754.471308365,
+          9725142.66820871,
+          88364248.37326238
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.829461523007031e-06,
+            2.36467781881119e-05,
+            1.324746794513354e-06
+          ],
+          [
+            0.00012871512407926748,
+            0.03254177995607601,
+            -0.0008397627393270973
+          ],
+          [
+            0.9999999917122055,
+            0.9994703757481361,
+            -0.9999996473983311
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.829461523007031e-06,
+            2.36467781881119e-05,
+            1.324746794513354e-06
+          ],
+          [
+            0.00012871512407926748,
+            0.03254177995607601,
+            -0.0008397627393270973
+          ],
+          [
+            0.9999999917122055,
+            0.9994703757481361,
+            -0.9999996473983311
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -205.98713108225263,
+          176501.755298401,
+          -22369.46794769049,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998286065370647,
+          1.0003427135115175,
+          1.000000000000218
+        ],
+        "augmented_lstsq_returned_residuals": [
+          31319909540.712734
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -7049.825402552756,
+          -1323.5083879654585,
+          6924.286721007522
+        ],
+        "recovered_original_parameter_direction": [
+          -0.00017522166387877501,
+          -0.0001360914110074683,
+          7.836072674729729e-05
+        ],
+        "original_jacobian_times_recovered_direction": [
+          -0.002176572921938077,
+          -49.791495867339094,
+          -15296.917049443366
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -333395609.66483116,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15610311953.628124,
+          "merit_before": 15826652575.188774
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 3,
+      "parameters": [
+        0.09100125949176102,
+        -0.14113604610454436,
+        -0.12264801084938153
+      ],
+      "residual": [
+        205.98491306289313,
+        -176551.57751218637,
+        7079.686111000136
+      ],
+      "derivative": [
+        [
+          -113.5656209386615,
+          230.17997512173753,
+          116.9832535357666
+        ],
+        [
+          5218.172732551234,
+          316869.5742836906,
+          -74212.94880488835
+        ],
+        [
+          40164720.81488481,
+          9712490.446313182,
+          -88349566.4692694
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          205.98491306289313,
+          -176551.57751218637,
+          7079.686111000136
+        ],
+        "unscaled_jacobian": [
+          [
+            -113.5656209386615,
+            230.17997512173753,
+            116.9832535357666
+          ],
+          [
+            5218.172732551234,
+            316869.5742836906,
+            -74212.94880488835
+          ],
+          [
+            40164720.81488481,
+            9712490.446313182,
+            -88349566.4692694
+          ]
+        ],
+        "column_norms": [
+          40164721.154016055,
+          9717658.002307674,
+          88349597.63849129
+        ],
+        "coordinate_scale": [
+          40164721.154016055,
+          9717658.002307674,
+          88349597.63849129
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.8274968100284223e-06,
+            2.3686774639226465e-05,
+            1.3240949213423524e-06
+          ],
+          [
+            0.0001299193068599076,
+            0.03260760712184385,
+            -0.0008399919273945395
+          ],
+          [
+            0.9999999915564896,
+            0.9994682303088599,
+            -0.9999996472058422
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.8274968100284223e-06,
+            2.3686774639226465e-05,
+            1.3240949213423524e-06
+          ],
+          [
+            0.0001299193068599076,
+            0.03260760712184385,
+            -0.0008399919273945395
+          ],
+          [
+            0.9999999915564896,
+            0.9994682303088599,
+            -0.9999996472058422
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -205.98491306289313,
+          176551.57751218637,
+          -7079.686111000136,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.999827909843455,
+          1.0003441063007885,
+          1.0000000000002183
+        ],
+        "augmented_lstsq_returned_residuals": [
+          31179635853.479885
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -3228.473292275579,
+          2504.6830023443586,
+          3103.163885256781
+        ],
+        "recovered_original_parameter_direction": [
+          -8.038082176384698e-05,
+          0.00025774553928009875,
+          3.5123690069923135e-05
+        ],
+        "original_jacobian_times_recovered_direction": [
+          0.07256524329496461,
+          78.645645679859,
+          -3828.2849676568244
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -40988053.77636887,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15576677040.41054,
+          "merit_before": 15610311953.628124
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 4,
+      "parameters": [
+        0.09092087866999718,
+        -0.14087830056526426,
+        -0.1226128871593116
+      ],
+      "residual": [
+        206.05742282939684,
+        -176472.99152867286,
+        3254.9780460907614
+      ],
+      "derivative": [
+        [
+          -113.44465526973603,
+          229.79068091447607,
+          116.95801206580315
+        ],
+        [
+          5132.246590030537,
+          316356.07100114255,
+          -74038.57406923939
+        ],
+        [
+          40154155.260243766,
+          9729030.543095578,
+          -88291392.6128265
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          206.05742282939684,
+          -176472.99152867286,
+          3254.9780460907614
+        ],
+        "unscaled_jacobian": [
+          [
+            -113.44465526973603,
+            229.79068091447607,
+            116.95801206580315
+          ],
+          [
+            5132.246590030537,
+            316356.07100114255,
+            -74038.57406923939
+          ],
+          [
+            40154155.260243766,
+            9729030.543095578,
+            -88291392.6128265
+          ]
+        ],
+        "column_norms": [
+          40154155.58838944,
+          9734172.616352644,
+          88291423.6561876
+        ],
+        "coordinate_scale": [
+          40154155.58838944,
+          9734172.616352644,
+          88291423.6561876
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.8252282636106165e-06,
+            2.360659605814323e-05,
+            1.3246814608092069e-06
+          ],
+          [
+            0.00012781358528965117,
+            0.03249953370147651,
+            -0.0008385703956654986
+          ],
+          [
+            0.9999999918278527,
+            0.9994717503521123,
+            -0.9999996483989065
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.8252282636106165e-06,
+            2.360659605814323e-05,
+            1.3246814608092069e-06
+          ],
+          [
+            0.00012781358528965117,
+            0.03249953370147651,
+            -0.0008385703956654986
+          ],
+          [
+            0.9999999918278527,
+            0.9994717503521123,
+            -0.9999996483989065
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -206.05742282939684,
+          176472.99152867286,
+          -3254.9780460907614,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998290468104976,
+          1.0003418333412752,
+          1.000000000000216
+        ],
+        "augmented_lstsq_returned_residuals": [
+          31130827120.77383
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -2266.5879190799196,
+          3443.794540907553,
+          2141.236128681514
+        ],
+        "recovered_original_parameter_direction": [
+          -5.644715686003126e-05,
+          0.0003537840016440893,
+          2.4251915305156062e-05
+        ],
+        "original_jacobian_times_recovered_direction": [
+          0.09053635068826564,
+          109.83643878723232,
+          -965.8479187236582
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -22526960.04725971,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15554655168.375761,
+          "merit_before": 15576677040.41054
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 5,
+      "parameters": [
+        0.09086443151313715,
+        -0.14052451656362017,
+        -0.12258863524400644
+      ],
+      "residual": [
+        206.1478619433608,
+        -176363.27923925998,
+        2293.8125000417504
+      ],
+      "derivative": [
+        [
+          -113.362304578897,
+          229.2550062711808,
+          116.94567299066405
+        ],
+        [
+          5016.1437196981915,
+          315620.8542431561,
+          -73820.58830795568
+        ],
+        [
+          40158026.493362576,
+          9751426.62249028,
+          -88222886.45668855
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          206.1478619433608,
+          -176363.27923925998,
+          2293.8125000417504
+        ],
+        "unscaled_jacobian": [
+          [
+            -113.362304578897,
+            229.2550062711808,
+            116.94567299066405
+          ],
+          [
+            5016.1437196981915,
+            315620.8542431561,
+            -73820.58830795568
+          ],
+          [
+            40158026.493362576,
+            9751426.62249028,
+            -88222886.45668855
+          ]
+        ],
+        "column_norms": [
+          40158026.806806125,
+          9756533.080454512,
+          88222917.34148614
+        ],
+        "coordinate_scale": [
+          40158026.806806125,
+          9756533.080454512,
+          88222917.34148614
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.8229052469202482e-06,
+            2.349758919287146e-05,
+            1.325570231802698e-06
+          ],
+          [
+            0.00012491011432982154,
+            0.03234969344545622,
+            -0.0008367507052868918
+          ],
+          [
+            0.9999999921947472,
+            0.999476611423123,
+            -0.9999996499231887
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.8229052469202482e-06,
+            2.349758919287146e-05,
+            1.325570231802698e-06
+          ],
+          [
+            0.00012491011432982154,
+            0.03234969344545622,
+            -0.0008367507052868918
+          ],
+          [
+            0.9999999921947472,
+            0.999476611423123,
+            -0.9999996499231887
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -206.1478619433608,
+          176363.27923925998,
+          -2293.8125000417504,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998306177989984,
+          1.0003386927002509,
+          1.0000000000002143
+        ],
+        "augmented_lstsq_returned_residuals": [
+          31088163856.84297
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -2018.9786082231767,
+          3661.594752510498,
+          1893.5186887463544
+        ],
+        "recovered_original_parameter_direction": [
+          -5.027584193656131e-05,
+          0.00037529670860706203,
+          2.1462889074695584e-05
+        ],
+        "original_jacobian_times_recovered_direction": [
+          0.09424802659900271,
+          116.61487381814071,
+          -252.81830269002657
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -21146479.908560365,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15533582695.97343,
+          "merit_before": 15554655168.375761
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 6,
+      "parameters": [
+        0.09081415567120059,
+        -0.1401492198550131,
+        -0.12256717235493175
+      ],
+      "residual": [
+        206.24200140648782,
+        -176246.8061170968,
+        2046.0180121905423
+      ],
+      "derivative": [
+        [
+          -113.28984668300238,
+          228.68672908687654,
+          116.93652797710882
+        ],
+        [
+          4893.695190771034,
+          314836.17556284484,
+          -73593.74072908841
+        ],
+        [
+          40165329.10535918,
+          9775152.498496393,
+          -88152428.98326351
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          206.24200140648782,
+          -176246.8061170968,
+          2046.0180121905423
+        ],
+        "unscaled_jacobian": [
+          [
+            -113.28984668300238,
+            228.68672908687654,
+            116.93652797710882
+          ],
+          [
+            4893.695190771034,
+            314836.17556284484,
+            -73593.74072908841
+          ],
+          [
+            40165329.10535918,
+            9775152.498496393,
+            -88152428.98326351
+          ]
+        ],
+        "column_norms": [
+          40165329.403639905,
+          9780221.27758881,
+          88152459.70307161
+        ],
+        "coordinate_scale": [
+          40165329.403639905,
+          9780221.27758881,
+          88152459.70307161
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.820588013719507e-06,
+            2.338257209076729e-05,
+            1.326525979774042e-06
+          ],
+          [
+            0.00012183879140121161,
+            0.032191109651505116,
+            -0.0008348461401641875
+          ],
+          [
+            0.9999999925736767,
+            0.9994817316552915,
+            -0.9999996515150206
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.820588013719507e-06,
+            2.338257209076729e-05,
+            1.326525979774042e-06
+          ],
+          [
+            0.00012183879140121161,
+            0.032191109651505116,
+            -0.0008348461401641875
+          ],
+          [
+            0.9999999925736767,
+            0.9994817316552915,
+            -0.9999996515150206
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -206.24200140648782,
+          176246.8061170968,
+          -2046.0180121905423,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998322726651545,
+          1.0003353843619138,
+          1.0000000000002127
+        ],
+        "augmented_lstsq_returned_residuals": [
+          31046329801.15216
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -1949.3956084314125,
+          3699.963770932004,
+          1823.8136450106003
+        ],
+        "recovered_original_parameter_direction": [
+          -4.8534286594317146e-05,
+          0.00037831084450107484,
+          2.0689310895621565e-05
+        ],
+        "original_jacobian_times_recovered_direction": [
+          0.09443244767655683,
+          117.3458236698585,
+          -75.16240656054842
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -20835590.794718046,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15512792230.963749,
+          "merit_before": 15533582695.97343
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "iteration": 7,
+      "parameters": [
+        0.09076562138460627,
+        -0.13977090901051203,
+        -0.12254648304403613
+      ],
+      "residual": [
+        206.33632374772063,
+        -176129.60468459775,
+        1975.9152047391083
+      ],
+      "derivative": [
+        [
+          -113.22012027460438,
+          228.11407772951486,
+          116.9281602565124
+        ],
+        [
+          4770.796491838583,
+          314044.75451187376,
+          -73366.61390953188
+        ],
+        [
+          40173325.612546794,
+          9799084.049941082,
+          -88082080.39313331
+        ]
+      ],
+      "direction_model": {
+        "schema": "original-three-equation-column-scaled-LM-direction-v1",
+        "unscaled_equation": [
+          206.33632374772063,
+          -176129.60468459775,
+          1975.9152047391083
+        ],
+        "unscaled_jacobian": [
+          [
+            -113.22012027460438,
+            228.11407772951486,
+            116.9281602565124
+          ],
+          [
+            4770.796491838583,
+            314044.75451187376,
+            -73366.61390953188
+          ],
+          [
+            40173325.612546794,
+            9799084.049941082,
+            -88082080.39313331
+          ]
+        ],
+        "column_norms": [
+          40173325.89598509,
+          9804115.073665863,
+          88082110.94800186
+        ],
+        "coordinate_scale": [
+          40173325.89598509,
+          9804115.073665863,
+          88082110.94800186
+        ],
+        "exactly_zero_columns": [],
+        "zero_column_scale_policy": "Use one for an exactly zero column; keep all three columns",
+        "positive_damping": 1.0,
+        "scaled_jacobian": [
+          [
+            -2.8182909368208316e-06,
+            2.326717669218672e-05,
+            1.3274904404316493e-06
+          ],
+          [
+            0.00011875532795544257,
+            0.032031932729493055,
+            -0.0008329343282070398
+          ],
+          [
+            0.9999999929446146,
+            0.9994868457084622,
+            -0.9999996531092611
+          ]
+        ],
+        "augmented_matrix": [
+          [
+            -2.8182909368208316e-06,
+            2.326717669218672e-05,
+            1.3274904404316493e-06
+          ],
+          [
+            0.00011875532795544257,
+            0.032031932729493055,
+            -0.0008329343282070398
+          ],
+          [
+            0.9999999929446146,
+            0.9994868457084622,
+            -0.9999996531092611
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "augmented_rhs": [
+          -206.33632374772063,
+          176129.60468459775,
+          -1975.9152047391083,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "augmented_lstsq_rank": 3,
+        "augmented_lstsq_singular_values": [
+          1.9998339255348467,
+          1.0003320800011668,
+          1.0000000000002105
+        ],
+        "augmented_lstsq_returned_residuals": [
+          31004987691.03848
+        ],
+        "lstsq_rcond_argument": null,
+        "scaled_direction": [
+          -1924.2373777649068,
+          3693.889756599632,
+          1798.5322298066085
+        ],
+        "recovered_original_parameter_direction": [
+          -4.789838368740126e-05,
+          0.0003767693186834911,
+          2.041881388229159e-05
+        ],
+        "original_jacobian_times_recovered_direction": [
+          0.09375698075218547,
+          116.59585551810963,
+          -30.774748882538844
+        ],
+        "normal_equations_formed": false,
+        "row_equations_reweighted": false,
+        "damping_added_to_original_nonlinear_residual": false,
+        "finite_lstsq_is_not_a_convergence_or_existence_proof": true,
+        "model_diagnostics_are_not_extra_acceptance_gates": true
+      },
+      "true_model_merit_slope": -20596770.889035426,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 15492237698.871113,
+          "merit_before": 15512792230.963749
+        }
+      ],
+      "accepted": true
+    }
+  ],
+  "success": false,
+  "initial": {
+    "parameters": [
+      0.09365081258727412,
+      -0.13201200770909496,
+      -0.12389206129693811
+    ],
+    "full_first_order_native_height": [
+      -4.609249908451861,
+      -242.23830837131047,
+      -93.53500679572052,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_first_order_right_residual": [
+      95.87754702682122,
+      10366.357976313015,
+      4974.213172451392,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "unit_diagonal_defects": [
+      207.5687844070032,
+      -173656.799408131,
+      316223.4753016901
+    ],
+    "low_equations_used": [
+      207.5687844070032,
+      -173656.799408131,
+      316223.4753016901
+    ],
+    "low_equations_definition": "unit d_j; actual full J measured exactly diagonal",
+    "source_target_first_three": [
+      0.4619073494154277,
+      -0.05969451246161594,
+      0.015730056624372334
+    ],
+    "target_zero_indices": [],
+    "three_unit_resonances_are_necessary_for_these_straight_targets": true,
+    "zero_tail_slope_J": {
+      "shape": [
+        112,
+        112
+      ],
+      "maximum_absolute_offdiagonal": 0.0,
+      "nonzero_offdiagonal_entries": 0,
+      "all_entries_consumed": true,
+      "exactly_diagonal_as_recorded": true,
+      "ready_linear_graph_used": false
+    },
+    "high_right_leak_max": 0.0,
+    "high_free_core_Schur_elimination_computed": false,
+    "high_mode_nonresonance_proved": false,
+    "scalar_node_and_mid_minimum_radius": 0.30000000000000027,
+    "source_circle_node_and_mid_minimum_radius": 0.2999999984127463,
+    "source_circle_node_and_mid_minimum_beta2": 0.005153125420182092,
+    "actual_circle_R_minus_supplied_a_node_max": 1.987978948125857e-09,
+    "radius_cell_denominator_minimum_absolute": 0.9992505550049908,
+    "low_two_by_two_right_condition_max_by_mode": [
+      1.3950728972162505,
+      4.568977817904605,
+      17.113596361341948
+    ],
+    "low_mode_trajectory_max_by_mode": [
+      9.978732562461177,
+      4057.966107472135,
+      5946.260018593721
+    ],
+    "low_original_collocation_tangent_residual_max": 1.0231815394945443e-12,
+    "three_by_three_parameter_jacobian": [
+      [
+        -117.81663019111288,
+        216.31902421768498,
+        118.40269980538088
+      ],
+      [
+        2393.8574841242507,
+        295886.61912071425,
+        -70368.33343681856
+      ],
+      [
+        41708317.20412404,
+        10310177.812609592,
+        -87633840.04377536
+      ]
+    ],
+    "singular_values": [
+      97599090.79853253,
+      288778.5365445104,
+      32.70194203181853
+    ],
+    "numerical_parameter_condition": 2984504.4280113387,
+    "numerical_singular_values_are_not_a_transversality_proof": true,
+    "independent_real_parameter_difference_checks": [
+      {
+        "step": 2e-05,
+        "valid": true,
+        "maximum_relative_error": 5.838135555647939e-09
+      },
+      {
+        "step": 1e-05,
+        "valid": true,
+        "maximum_relative_error": 1.4363089241393176e-09
+      },
+      {
+        "step": 5e-06,
+        "valid": true,
+        "maximum_relative_error": 4.797647594703794e-10
+      }
+    ],
+    "scalar_and_circle_queries_are_not_whole_interval_bounds": true
+  },
+  "final": {
+    "parameters": [
+      0.09071772300091886,
+      -0.13939413969182854,
+      -0.12252606423015384
+    ],
+    "full_first_order_native_height": [
+      -4.583991689469192,
+      -245.52524489416493,
+      -0.5768316319249398,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_first_order_right_residual": [
+      95.35152101950872,
+      10507.019296282351,
+      30.676041046423595,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "unit_diagonal_defects": [
+      206.4299715953469,
+      -176013.15201356995,
+      1950.1545213062855
+    ],
+    "low_equations_used": [
+      206.4299715953469,
+      -176013.15201356995,
+      1950.1545213062855
+    ],
+    "low_equations_definition": "unit d_j; actual full J measured exactly diagonal",
+    "source_target_first_three": [
+      0.4619073494154277,
+      -0.05969451246161594,
+      0.015730056624372334
+    ],
+    "target_zero_indices": [],
+    "three_unit_resonances_are_necessary_for_these_straight_targets": true,
+    "zero_tail_slope_J": {
+      "shape": [
+        112,
+        112
+      ],
+      "maximum_absolute_offdiagonal": 0.0,
+      "nonzero_offdiagonal_entries": 0,
+      "all_entries_consumed": true,
+      "exactly_diagonal_as_recorded": true,
+      "ready_linear_graph_used": false
+    },
+    "high_right_leak_max": 0.0,
+    "high_free_core_Schur_elimination_computed": false,
+    "high_mode_nonresonance_proved": false,
+    "scalar_node_and_mid_minimum_radius": 0.30000000000000027,
+    "source_circle_node_and_mid_minimum_radius": 0.2999999984126292,
+    "source_circle_node_and_mid_minimum_beta2": 0.005153125420959248,
+    "actual_circle_R_minus_supplied_a_node_max": 1.988109787909309e-09,
+    "radius_cell_denominator_minimum_absolute": 0.9992505550049908,
+    "low_two_by_two_right_condition_max_by_mode": [
+      1.3950728971818833,
+      4.56897781746586,
+      17.113596359059837
+    ],
+    "low_mode_trajectory_max_by_mode": [
+      9.924050126655306,
+      4113.028731946503,
+      36.67066468350725
+    ],
+    "low_original_collocation_tangent_residual_max": 5.115907697472721e-13,
+    "three_by_three_parameter_jacobian": [
+      [
+        -113.15133922387191,
+        227.54399662521465,
+        116.91996924720341
+      ],
+      [
+        4648.887031024472,
+        313257.0933687249,
+        -73141.2951493348
+      ],
+      [
+        40181338.10811115,
+        9822943.53933729,
+        -88012335.89300084
+      ]
+    ],
+    "singular_values": [
+      97248194.7028936,
+      305858.87388515985,
+      33.49790290956174
+    ],
+    "numerical_parameter_condition": 2903112.919201124,
+    "numerical_singular_values_are_not_a_transversality_proof": true,
+    "independent_real_parameter_difference_checks": [
+      {
+        "step": 2e-05,
+        "valid": true,
+        "maximum_relative_error": 5.878307134608705e-09
+      },
+      {
+        "step": 1e-05,
+        "valid": true,
+        "maximum_relative_error": 1.4824694931505723e-09
+      },
+      {
+        "step": 5e-06,
+        "valid": true,
+        "maximum_relative_error": 5.883313145742735e-10
+      }
+    ],
+    "scalar_and_circle_queries_are_not_whole_interval_bounds": true
+  },
+  "complete_scalar_domain": {
+    "schema": "R259-complete-declared-scalar-domain-enclosure-v1",
+    "covered_interval": [
+      "0",
+      "5113846463878377/2251799813685248"
+    ],
+    "bits": 160,
+    "maximum_depth": 14,
+    "leaf_count": 494,
+    "split_cells": 51,
+    "complete_declared_real_expression_domain_certified": true,
+    "unresolved_leaf_count": 0,
+    "source_returned_ap_used": true,
+    "returned_ap_identified_with_derivative_of_finite_Gauss_a": false,
+    "exact_prefix_scalar_and_complete_stored_finite_Gauss_expression": true,
+    "literal_binary64_evaluation_roundoff_enclosed": false,
+    "exact_scalar_derivative_compatibility_or_C2_interface_certificate": false,
+    "source_circle_R_and_full_Frenet_domain_covered_by_this_scalar_bound": false
+  },
+  "original_complete_circle_check": {
+    "original_full_reference_finite": true,
+    "actual_domain": {
+      "node_domain_failures": 0,
+      "midpoint_domain_failures": 0,
+      "boundary_finite": true,
+      "finite": true,
+      "original_uniform_phi_rho_guard_valid": true,
+      "original_rho_guard_angles": 4096,
+      "original_uniform_phi_rho_min": 1.0,
+      "boundary_domain_error": null,
+      "complete_trial_RHS_recomputed": true,
+      "all_core_states_identical": true,
+      "all_control_states_identical": true,
+      "left_residual_max": 0.0,
+      "physical_collocation_max": 4.3660821485991264e-16,
+      "complete_boundary_max": 0.0,
+      "constant_collocation_max": 0.0,
+      "original_RMS_query_domain_failures": 0,
+      "original_RMS_query_checks": [
+        {
+          "fraction": 0.17267316464601146,
+          "points": 698,
+          "invalid_count": 0,
+          "first_invalid_points": []
+        },
+        {
+          "fraction": 0.8273268353539885,
+          "points": 698,
+          "invalid_count": 0,
+          "first_invalid_points": []
+        }
+      ]
+    },
+    "original_full_FFT_tangent_checks": [
+      {
+        "node": 0,
+        "station": 0.0,
+        "mode": 1,
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 0,
+        "station": 0.0,
+        "mode": 2,
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 0,
+        "station": 0.0,
+        "mode": 3,
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 349,
+        "station": 0.8525,
+        "mode": 1,
+        "actual_full_FFT_direction_relative_error": 2.203633947668771e-16,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 349,
+        "station": 0.8525,
+        "mode": 2,
+        "actual_full_FFT_direction_relative_error": 5.578951157770264e-16,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 349,
+        "station": 0.8525,
+        "mode": 3,
+        "actual_full_FFT_direction_relative_error": 4.599406921939366e-16,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 698,
+        "station": 2.271004035438285,
+        "mode": 1,
+        "actual_full_FFT_direction_relative_error": 4.3523871749964216e-14,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 698,
+        "station": 2.271004035438285,
+        "mode": 2,
+        "actual_full_FFT_direction_relative_error": 9.510858220041197e-14,
+        "all_physical_rows_compared": true
+      },
+      {
+        "node": 698,
+        "station": 2.271004035438285,
+        "mode": 3,
+        "actual_full_FFT_direction_relative_error": 2.526729879824845e-13,
+        "all_physical_rows_compared": true
+      }
+    ],
+    "reference_file": "circle-reference.json.gz",
+    "reference_sha256": "99f3f0cb0a18b54d6d3063ed766d6bdfd8048daecaf8056c5619ed161b40b167",
+    "reference_is_not_a_nonzero_parent": true
+  },
+  "diagnostic_completed": true,
+  "low_mode_candidate_has_small_full_recorded_right_residual": false,
+  "this_candidate_threshold_is_not_an_original_BVP_acceptance_gate": true,
+  "full_nonlinear_nonzero_lambda_solution_computed": false,
+  "high_mode_nonresonance_or_interval_transversality_proved": false,
+  "original_circle_reference_schema_retained": true,
+  "seconds": 3.4193658109999987
+}
