@@ -339,3 +339,5 @@
 - **R793（已证明）**：[原极除子、固定RR Jacobian和真实局部代数](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)。V6的142阶原关系、第二截面与rank1116给264维残余；固定V3/V6=690/1506支持标准degree272类及完整主函数运输。原点/首导构造K上长度155/156真局部代数，再扩L求A/B；全部非零实际Hom在20 cusp不分歧。新矩阵、Jacobianη和高度尚待公开算术，未由有限算法冒称结果。
 
 - **R794（已证明；公开小算术请求已启用）**：[原范数极化与有限低次数η基](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)。原12基及两两和的范数必覆盖原F⁰；149固定候选中按真实degree作拟阵贪心，并输出原R791基的可逆变换。保原极化、域与η规范；三同源主函数和未计算的二挠刚性化比较分清。实际rank/选择/次数待Actions，不声称全格最优或高度已得。
+
+- **R794（公开准确选择已完成）**：[原五维η的低次数输入](results/R794-certified-original-low-degree-eta-basis.md)。run43691270124/source7cf16012，原12单norm实际rank5；选f0/f3/f1/f0+f10/f0+f4，degree1485/1521/1602/1674/1728，m最多8、完整Laurent条件最多196，保原R791五方向可逆基变换。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f；只在149候选内最小总degree8010。新极除子/η/高度仍未求。

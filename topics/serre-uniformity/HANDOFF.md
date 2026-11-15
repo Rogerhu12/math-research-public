@@ -6,7 +6,7 @@
 
 已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次Hurwitz前H](notes/2026-11-15-handoff-before-Hurwitz.md)。
 
-**已读规则提交：368950c9ef4366988982bc6fc9be6b93b472c32b**（2026-11-15 07:44 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：25fdaddb02cdaf2a247264c87c7f8ad5add44eb6**（2026-11-15 07:49 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -30,7 +30,7 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d与wrapper/w
 
 [原实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)：D_(1−ζ)把原f以degree1同构降到Fb上的C′:Y²=X³−27b，映射degree仍1206；ψD=[1−ζ²]、ψ*ω=3ω′，极化e′=e/3且原h仍须因子3。原q/基点不改，主函数新旧常数(-27)^[-7(bj+aj)]明确保留；不以模型替换消高度规范。
 
-**R794证明/工程已启用**：原Hom的149固定候选（12基、66和、66差、旧5cap）按真实次数作拟阵贪心，保持原完整F⁰及可逆R791基变换。所有12基加和的范数已理论保证满五维，单12基实际rank未知。core9fc7f30b06ebe4d2721fc5e67aecc40abae2d72a58268e8eac9164d3ff1c3d45；真R791/R759源已填、active请求已推，结果待run。一般a∈E只先在K上，η类下降Q；三同源主函数不能替原对称代表的二挠刚性化比较。
+**R794真实选择已成**：run43691270124/source7cf16012，0.0557秒。原12单norm实际rank5；149候选选f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728，m7/7/7/8/8，N170/172/176/193/196。最大m由14降8、N358降196；保原F⁰和实际可逆R791基变换，非全格最优。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f、artifact14152074788；见[R794真实结果](results/R794-certified-original-low-degree-eta-basis.md)。只得原η类输入及新微分组合，未求极除子/η/刚性化/高度。R797预留root新增这五条Laurent，R796做较小CM局部接口。
 
 ## 已成输入与ordinary续点
 

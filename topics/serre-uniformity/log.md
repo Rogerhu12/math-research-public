@@ -444,3 +444,8 @@
 - R794证明与小公开core/wrapper/workflow审核完成并启用真请求。只消费已成R791/R759，149固定候选保原F⁰、真实degree和原基可逆变换；不重算Hom/period/LLL/SVP。
 - root及ordinary核去迹因子21、裸η极除子系数1、q/v域类型、一般非实a的K上NS后下降，以及原对称代表可能二挠差的独立刚性化范围。真实rank/degree未本地计算或预填。
 - core9fc7f30b、proof14a0a9e8、R793 proof6f716b64均绑定；仅AST/来源/schema核验。R787原函数仍运行，R795/R796继续有限实际输入，主目标OPEN。
+
+## 2026-11-15 15:48 Asia/Taipei · serre-public-astra-20261115
+- R794公开run43691270124实际成功，核心0.055699029秒；原12单norm已rank5，149候选贪心选五条degree1485/1521/1602/1674/1728，最大普通幂14降8、完整Laurent条件358降196。
+- root核实际ZIP/全部10文件SHA及两个阶段、run/source/core/proof。原极化加权迹、五阶非零minor、原R791准确双向基变换均来自真实Actions。只小来源metadata入Git，完整坐标/候选表随一日活跃包给后继。
+- 后续直接采用f0/f3/f1/f0+f10/f0+f4及其已认证原六微分组合；R797由root新增这些Laurent，R795/R796继续。极除子、Jacobianη、刚性化与真正高度保持未完成。

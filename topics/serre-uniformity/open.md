@@ -255,4 +255,4 @@ R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156�
 
 ### R794：保原五方向的有限低次数η输入选择
 
-[R794](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)证明原12个Hom基与两两和的范数张成整个实域，按真实Gram次数去迹后覆盖原F⁰。固定149候选作按degree排序的线性拟阵贪心，只声称该清单内最小总degree；原κ/e_R、全部五方向和可逆基变换保持。一般a∈E的映射先在K上，Norm的自伴NS类/η在⊗Q下降；实际线丛的二挠代表比较和刚性化常数仍须保。专用公开请求已启用，真实rank/所选映射/次数待run；新Laurent、极除子和高度未计算。
+[R794](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)证明原12个Hom基与两两和的范数张成整个实域，按真实Gram次数去迹后覆盖原F⁰。固定149候选作按degree排序的线性拟阵贪心，只声称该清单内最小总degree；原κ/e_R、全部五方向和可逆基变换保持。一般a∈E的映射先在K上，Norm的自伴NS类/η在⊗Q下降；实际线丛的二挠代表比较和刚性化常数仍须保。[真实run43691270124已成功](results/R794-certified-original-low-degree-eta-basis.md)：原12单norm实际rank5，选择f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728、m7/7/7/8/8、N170/172/176/193/196，原基可逆变换已核。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f。后续采用这五条真实新输入；R797新增其Laurent，原极除子、η和高度未计算。
