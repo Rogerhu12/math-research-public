@@ -34,7 +34,7 @@ newton_source监视，root最终消费。压缩前实际进度/所有失败身�
 - 旧5970同F43654510038、7908伴随43665656138、同97帽43671537267与旧1886future只恢复。全high、mean、真实outer、Hessian保留。
 - v2 43681612825/1 finiteArb→float溢出，临时新2340/1800/4331失去，原失败保持。
 - v3 43690634784/1已failure。实际0数学diag43709951426/1 f526d0b1核完整log57620B/dc649478，失败为旧README guard；childreturn未记，不能称数学失败。future5970=1886旧+4084新/product5970已成；past4032/groups103仅最后报告而非终止清点，新temp不可恢复。
-- [v4恢复契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)现已部署首次运行待ID，用户授权重做lost新算术。SCIba931a8a/helper9e699a28/workerf67d62e2/manifest42810dfa共376pin，原369零改。去未消费中间norm/全193验后取97主块均保持同选点和原数学。live index仅接已读且操作规则未变；实际每10分钟pull/两README，published-origin容量、预Git小stdout、终止实文件清点保。已完成同身份则直接引用，不重算。
+- [v4恢复契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)已启动首次run43711315338/1，head ce17e68d，11:56:19Z，用户授权重做lost新算术。SCIba931a8a/helper9e699a28/workerf67d62e2/manifest42810dfa共376pin，原369零改。去未消费中间norm/全193验后取97主块均保持同选点和原数学。live index仅接已读且操作规则未变；实际每10分钟pull/两README，published-origin容量、预Git小stdout、终止实文件清点保。已完成同身份则直接引用，不重算。
 
 187groups/三HY/final尚未全成。数学仍固定repaired M32 δ0/η0/ν0；继承1e−9字段不是BVP参数授域。selectedδ*的低块转移按Dδ另付。
 
@@ -320,6 +320,12 @@ R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN
 不把moving97当physical有限谱。Cmean准确1/m；剩inner正是全B函数等式与该Cmean行。
 若以后真core+cap图在固定f的H3小球上连续且统一付这些trace门，C的紧far图可用Schauder闭合；
 该core图/两个实际trace门/设计ν相位目前尚未证明，L² cut与几何C0球均不自动支付。
+[E双侧正collar与实际残差H1迹](results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md)
+现证明真实两行L=∂r−d∂φ+aJ0∂φ的能量恒等：drift交叉项准确0，仅a_r进入；
+近似state的a_r/a完整含<f2>/m。与同metric repaired reference比较保真实mean/rank，
+只用unknown C0与known两角导数、完整F/Fφ付E19–22 H1 cut公式。
+两侧必须同一连续state；真实jump须单独lift/边界form，不能拿任意L²端跳当ordinary源。
+实际系数和源/body数值尚未使E21≤1e−9/128；高8193窗口仍独立待付。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 

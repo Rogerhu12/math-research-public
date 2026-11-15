@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 双侧正collar的完整残差能量与H1 cut](results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md)：真实drift能量交叉项消失，speed导数保残差mean；完整rank/mean/Fφ及两侧seam给E19–22显式内迹。只需unknown C0、known两角导数；实际低trace门和8193窗口不在本结论中。
+
 - [R133 Green v4恢复与已读规则契约](results/../notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)：原369 pin零改，新376 pin保持同二进选点/完整signed193/97、三输出及原门；明确v3丢失新算术重做、live已读规则和完整小stdout恢复。仅源及执行契约，待首次实际run，不声明Green成功。
 
 - [Dδ：selected参数的完整core差与finite193转移准则](results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md)：准确Gδ/Kδ、完整M1∂φ+M0含mean/primitive、96→192→288真实支撑；全Fν/响应defect及双body/cut有限反馈定理已证。实际普通源/Poisson增益和三条反馈门未付，不把旧元数据宽度当δ*逆。

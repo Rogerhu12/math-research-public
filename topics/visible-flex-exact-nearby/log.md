@@ -67,3 +67,7 @@ root从真F/DF逐项推D1–23，tail独核D1–8及D17–23全过。最终15214
 v3实际failure原因/完整log及最后报告counts只引43709951426/1 f526d0b1。失去的新temp按用户授权重做，past4032/groups103不伪称精确终止计数；旧1886/5970F/7908/同97只恢复。v4带root已读规则索引与published-origin容量审计、≤59KB完整小stdout和终止实文件清点；不预先宣称runtime或任何数学门成功。部署后接实际run/首AST/preflight，继续Dδ实际scalar与strong-return主导源。
 
 新增既已计算的posterior_complete_true_Green_constants小结字段，三个ordinary source/waist/right输出明确区分；科学源完全不变。此字段只为后继Dδ消费，不能拿specialized cross aY替gY。
+
+## 2026-11-15 11:57:12 UTC — 双侧正collar实际残差能量与H1迹
+
+读main a34614cd025029be282f89af8a8128f139ce834c两README未变。root全文亲读13671B/SHA8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9，核原mean方程、K±1/4缩放、real能量交叉恒等、Fν同metric限制、完整rank/mean与两次cutoff trace。phase独立核E13–22的DN/primitive投影、lower 8bMM1及P(c)−1单位通过。此为实际近似state全残差的解析估计，没有新数值；实际E21≤rγ/128及H8193仍须支付。Green v4 run43711315338/1已in_progress（11:56:19Z，ce17e68d），source/manifest不再改，继续实际门监视及新源预算。
