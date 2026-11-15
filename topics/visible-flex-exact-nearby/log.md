@@ -146,3 +146,11 @@ Darboux准确余项−(B″+VB)Y′/n²，w1V=w1+BK w0使一阶全函数消，R2
 stable trace从Y=N^-1Z及Nout S Nin^-7/6按原序保，correction stable0不删trialstable；只能在对应自然域取消同一右因子。incoming χ0与χ−4/3分别由高输入/高输出得到，两门都要，IN35两primitive和余2/3高嵌入齐；有限三行与dual H4/3跨块保，physical P96不与ray/KAM projection交换。P22 near-root cut与SP .005cut不同，仅其未算尾段可新增完整primitive-mean传播后有序接已成prefix。当前无新actual comparison、fullR0、97高逆、所有s或非线性闭合；PC s0旧科学锁不重。
 
 顺澄清open RW末句旧“帽差待”为wholebody帽差/实际入口；inner B+Cmean差已经CPA严格支付，不再误列全部帽差未完成。
+
+## 2026-11-15 17:59:12 UTC — SN 精确整数转换与原子小检查点修补部署
+
+fresh main 9f6510f6a037341ff8ef30d7506eb1f85164a189双README未变。第二failure的准确lost范围已f9994205cbd0880339cb83cd4dd3278fa2843eaa独推；本次SCIea3595ef0392ff3f4bfa26c3d557447c716bceaf/42935B/b796c43c4618954108ca7a97df84e43ab02a379a01b684eac0aa3cd4e52fdb64，manifest5cd5d41b6e6ae1b278daf3668c0729d634e0cce0/97518/69f6bf0907486a1575b7c9aa02573c055e63b042d27b7b8c66ca9a804fa7de4a，flow1a65f1638dfcab02cffdfca3988541f270760905/4125/08b72290424539f4bf2f51682052f6a9d843c0662e6f4b9212b0ada41d301072。helper5180/32ce7e3c及worker91fb/c091e1dc全字零改。
+
+root逐行读全部diff、save/mean_reference/angledata原源，唯一执行schema修正为int(work.upper().ceil().fmpz())：外向exact upper先ceil仍arb，再转exact整数fmpz，最后Python int。newton已亲核python-flint0.9官方arb API，未本机数值试算。其余只保存已算值：angle完整KH/Ej/四导门，rootdiag/source/error四列，每原格mean的exact rational参考/curvature/error与speed/work，以及完成counts/truecursor/四error列。得到后立即原子写同science路径；这些是可复用准备结论，complete仍false，不冒完整H3。最终完整sections已含same angle/root时只删早期重复副本。
+
+200个唯一pins13486756B，原198除SCI的197条tuple逐字不变，新加第二failure两原receipt；文件表与receipts完全一致，manifest97518B仍低于100KB。21实际门未增删，数学/域/参数/physical4j/两sign/mean/全频residual/seam均零改。原3146scalar/ray/KAM/root/旧producer成功禁重；只重做H批准的未保存新小量并继续未成transport。公开自身Actions自然触发唯一新child；540s真pull/README与340min监督、先打印完整science/log再Git的失败分离规则不变。

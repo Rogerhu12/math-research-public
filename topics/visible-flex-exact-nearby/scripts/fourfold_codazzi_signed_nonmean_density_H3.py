@@ -208,6 +208,13 @@ class Inputs:
         doc["exact_original_root"]=[str(self.rlo),str(self.rhi)]
         doc["complete_original_mean_finite_part"]=self.transfer["complete_selected_parameter_finite_part"]
         self.root_diagnostics={}
+        # These complete preparatory scalars are reusable even if a later new
+        # reference step fails. They are not a completed H3 transport target.
+        doc["complete_preparatory_conclusions"]={
+            "scope":"complete finite preparatory scalars only, not complete H3",
+            "angle":encode(self.angledata)}
+        doc["latest_atomic_scientific_stage"]="complete_initial_true_angle"
+        save(self.a.out,doc)
 
     def load_candidate_prefix(self):
         if sha(self.paths["candidate"])!=CANDIDATE:raise ValueError("the original candidate index changed")
@@ -479,6 +486,10 @@ def transport(inp,doc,temp):
     gate(doc,"new root source has all four angular error columns and a regular zero entry",
          len(initial)==4 and all(v.is_finite() for v in initial)
          and inp.rs-exact(CUT)<exact(inp.Router)/2)
+    doc["complete_preparatory_conclusions"]["root_entry"]=rootdiag
+    doc["latest_atomic_scientific_stage"]="complete_root_entry"
+    doc["actual_new_transport_subcells_completed"]=0
+    save(inp.a.out,doc)
     N=PARAMETERS["reference_modes"];order=PARAMETERS["reference_radial_degree"]
     refs={s:LP([acb(0)]*(2*N+1),-N) for s in (-1,1)}
     errors={s:list(initial) for s in (-1,1)}
@@ -498,6 +509,14 @@ def transport(inp,doc,temp):
             if not inp.nodes[piece]<=left<right<=inp.nodes[piece+1]:
                 raise ValueError("an original accepted row crosses a candidate piece")
             mref,mfee,mdata=inp.mean_reference(index,row,piece)
+            prep={"original_interval":index,"actual_candidate_piece":piece,
+                "exact_interval":[str(left),str(right)],
+                "complete_mean_reference_exact_coefficients":[str(rat(x)) for x in mref],
+                "complete_mean_reference_error":rec(mfee),
+                "complete_mean_reference_validation":encode(mdata)}
+            doc["complete_preparatory_conclusions"]["latest_original_interval"]=prep
+            doc["latest_atomic_scientific_stage"]="complete_original_interval_mean_reference"
+            save(inp.a.out,doc)
             curvaturemax=max(curvaturemax,mdata["new_partial_mean_curvature"]).upper()
             meanmax=max(meanmax,mfee).upper()
             # One common subdivision for both signs. This is new ordinary-r
@@ -508,7 +527,13 @@ def transport(inp,doc,temp):
             speed_bound=(up(eta.v.value().scalar())*up(qq.v.value().scalar())
                 +(bb*(uu*uu-qq*qq*vv*vv).ne().primitive()).v.value().a()).upper()
             work=exact(right-left)*(4*N)*speed_bound
-            parts=max(1,int(work.upper().ceil()))
+            prep["complete_speed_bound"]=rec(speed_bound)
+            prep["complete_optical_work_upper"]=rec(work.upper())
+            doc["latest_atomic_scientific_stage"]="complete_original_interval_speed"
+            save(inp.a.out,doc)
+            # upper() is an exact outward endpoint; ceil() is still an Arb.
+            # fmpz() converts its exact integer before Python int().
+            parts=max(1,int(work.upper().ceil().fmpz()))
             # The step condition is Nphysical*speed*h <=1/4.
             parts*=4
             if newrows+parts>PARAMETERS["maximum_new_subcells"]:
@@ -548,6 +573,13 @@ def transport(inp,doc,temp):
                 stream.write(canonical(audit))
                 newrows+=1
             cursor=left;last_piece=piece
+            doc["actual_new_transport_subcells_completed"]=newrows
+            doc["actual_completed_original_transport_intervals"]=len(inp.fp["rows"])-index
+            doc["actual_exact_radial_cursor"]=str(cursor)
+            doc["complete_preparatory_conclusions"]["latest_complete_transport_error_columns"]={
+                str(sigma):[rec(x) for x in errors[sigma]] for sigma in (-1,1)}
+            doc["latest_atomic_scientific_stage"]="complete_original_transport_interval"
+            save(inp.a.out,doc)
             if index%64==0:
                 print(json.dumps(dict(stage="new-complete-nonmean-transport",
                     original_interval=index,new_subcells=newrows,exact_radial_cursor=str(cursor),
@@ -607,6 +639,10 @@ def terminal(inp,refs,errors,doc):
         original_scalar_beta_not_substituted_for_this_target=True,
         linear_or_exponential_strong_return_remainder_proved=False,
         incoming_high_inverse_or_true_PDE_background_transfer_proved=False)
+    # Completed final sections already retain the same angle and root scalars.
+    # Drop only their duplicate early-checkpoint copies from the final receipt.
+    doc.pop("complete_preparatory_conclusions",None)
+    doc["latest_atomic_scientific_stage"]="complete_new_H3_target"
     # These are output bounds, not extra conditions asserting a small C.
     doc["complete"]=True
     doc["new_target_complete"]=True
