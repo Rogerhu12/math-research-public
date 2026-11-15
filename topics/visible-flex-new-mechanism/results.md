@@ -399,3 +399,5 @@
 - [R177若通过全核时的真实字符与排除范围](notes/R177-conditional-true-character-and-geometric-scope-20261115.md) — 明确仅在77完整规范表与全部核赋值通过后，R163把单权赋值延拓为全U真实仿射字符，保八矩cocycle/同μ与原环境乘子修正。R109对同germ/frameI/M0真实路径给完整λV≥∫h^-2/4>0（允许T非零），不靠P1/大N近似。仅排universal或λ杀代入核的固定圆；R105/R96给存在faithful特选圆，非任意圆。条件未支付，未增加无条件存在/不可能性结论。
 
 - [共同word首次输入接口失败及窄修复](notes/character-head-word-first-actual-manifest-failure-20261115.md) — actual43674559905的9新人工完整过，真实阶段0.355s/0预算检查在旧FINITE export缺重复身份字段而失败。main/receipt、producer和gzip双SHA原已严格绑定；新源1629ff68只接纳该精确旧schema的manifest身份，另2项新人工过。未启动77列数学、不授任何核结论，旧失败原件保留。
+
+- [曲率内余量首轮：三次微小接纳与主目标代价竞争](notes/curvature-proposal-reserve-first-actual-result-20261115.md) — actual43674194002/sourcef2ee2cd8三接纳至b0bf，η.2665503077505/κ57.999983377，旧两网门过/.26未到。末m4–7曲率通过、真实改善8.86e−9与预测比.99963，却不足原drop1e−7；后SOC已约.34s成功，故下一不优先缩SOC。11LP/30值/active55.03s后旧mintrust退；4407/3711池、raw8404480/11ba3032保全。现范数代价随trust缩小放大，下一仅改物理范数标定，原门/预算保持，未预称更大可行下降。

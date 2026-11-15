@@ -20,10 +20,11 @@
 
 core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-旧reserve/Schur/谱全状态与池已由22输入继承；旧Schur目标偏差已消。adaptive43671924759/source67319aea三接纳至a9eda7ed42ae3f45d369c136f924488cd36562076723536141f5b913c804652d，细η.2665533358357851/κ57.99998592780176，原167/625、硬58与全部物理门过；.26未到。4402/3489完整池/raw5406057/ed7ffe69均保留。最小trust退，末失败是已选group8曲率行越界、无遗漏硬行；唯一SOC限时无primal，不宣不可行。所有细表与旧实际在notes/adaptive-spectral-metric-recovery-first-actual-result-20261115.md，不重跑。
+**curvature reserve43674194002/sourcef2ee2cd8完整**：三接纳a9eda→1cae6fc7→9a47df48→**b0bf828b8454576f0d0ef25cc725dea8305843b1dfeab6dd5d03964c248cae06**。384/768 η.2665503077491746/.26655030775050453；κ57.99996170446245/57.99998337711902。原167/625/硬58/全部物理门过，.26未到；细strip余8.97086e−8、mirror.100357305483，帽高重构比目标低2.78e−17仅原tol过。raw8404480/11ba3032、gz991892/eca3c6c9、summary66661/56e2598b；全细表在notes/curvature-proposal-reserve-first-actual-result-20261115.md。
 
+7主4SOC=11LP、30共享+2末值、active55.030s/total360.436s，最终mintrust退非预算。末m4–7真硬门全过、η改善8.86e−9/预测比.99963，低于原drop1e−7；细group8约9.99957e−8，floor1e−7仅微小浮点亏。后三SOC成功约.34s而改善更小，不能仍归因曲率或SOC限时。全池**4407/3711**与所有失败原件保留。
 
-**曲率内余量实际43674194002/sourcef2ee2cd8已成功，实际细表在读**（两源ff0cf08e/c3bc10bc，22输入90args，新人工39.72s全过、压力摘要91731B）：明确曲率提案内余量：group7–10主/SOC目标floor1e−7（原scale100 PSD行），其余真实门不改；由a9eda和22输入/完整新池开始，首trust继承成功1/32000，旧mintrust/12LP40值120s不变。基点该行低于新floor，不预称可行；SOC可逆缩放暂不混入，不以超时单因病态。不降mintrust或延时续旧实例，不提高58。τ.061仍需κ≤1000/61及全时非局部reach；metric距1e−6远。
+下一仅改primary范数权重：现ρ+1e−6||p/(rD)||∞随r缩小放大物理罚，末步范数仅.00461、代价占预测改善约52%。拟w(r)=1e−6 r/(1/1000)，即固定物理权1e−3；准确LP下ρ偏差≤w，浮点不冒精确最优。23输入/94args从b0bf和首trust1/64000继承，旧min1/102400、floor、drop、全部真实门及12LP40值120s不动；新driver开发中。未证明去偏必改善，不混SOC缩放。τ.061仍需κ≤1000/61与全时非局部reach，metric远欠1e−6。旧Schur/谱/adaptive目标和池已继承，不重跑。
 
 ## 4. 已付结构与不可重跑
 
@@ -51,7 +52,7 @@ R176 actual43671759155/source26e00d13：九式±给86行，0.434s/RSS91.484、0�
 
 **R177新全层严格正点及指定实际43672582314/source14f33da3已完整**：staticα=β1/4，二次(1,1/4,0,1,1)，最高(a,b,f,g,ℓ)=(1,1/4,−1/8,0,1)，M=diag(1/16,11/48)，全action≥∫h^-2/4。0.009609s/RSS25.207，86行全过（零64..85），107/14族/九式/同μ=(0,1/2,2,0,0,0,0,2)/c0/d=(0,1,6,0,0,0,0,4)准确全匹配；cert12864/b7b7cf0f、raw60197/e37ce83e、main7063/25b16d6c。8新人工全过，无LP/原式/路径。旧B+九式覆盖已发70真式，历史字段名不可误读成其余61未付；欠完整真实函数核。继续同点原函数一致性，不再找负路径/LP，未授真实字符存在。
 
-R178固定色局部唯一/word终止，R179的Euler逐色剥离与L包包含排除已付规范word普适单射（固定collar/真实共轭齐备）。R159两根完整规范表即真核；旧pure验绑定转换/语法即可复用，Ψ=Φ不重40。word首次43674559905/sourceb2c4e202：9公开toy通过；actual在输入绑定0.355s/0预算检查失败，旧FINITE export未含身份三字段但main/receipt已核。新driver75634/1629ff68只为准确旧schema复用其严格manifest身份，模块ec2022d8不变；2新metadata人工0.003536s过、不重toy9；同六输入/240s/1024MiB已重新派发（无研究state可续）。首失败note保留。新关系存77/147/23和原两根；首条切R177存cursor，随后--finish-all-77；完整核通过才授真实字符，部分/非规范表不追认。
+R178固定色局部唯一/word终止，R179的Euler逐色剥离与L包包含排除已付规范word普适单射（固定collar/真实共轭齐备）。R159两根完整规范表即真核；旧pure验绑定转换/语法即可复用，Ψ=Φ不重40。word首次43674559905/sourceb2c4e202：9公开toy通过；actual在输入绑定0.355s/0预算检查失败，旧FINITE export未含身份三字段但main/receipt已核。新driver75634/1629ff68只为准确旧schema复用其严格manifest身份，模块ec2022d8不变；2新metadata人工0.003536s过、不重toy9；二次43675170178/source dd7b89f2已过新toy2，actual在共享atom库存含目标未用的中间色而0.350s/0预算检查失败；仅解码77根完整祖先闭包的窄修在做（选中根若触中间色仍拒绝）。首失败note保留。新关系存77/147/23和原两根；首条切R177存cursor，随后--finish-all-77；完整核通过才授真实字符，部分/非规范表不追认。
 
 条件解释notes/R177-conditional-true-character-and-geometric-scope-20261115.md已成：若全核通过，R163延拓λ=λ−2Π−2杀R/NU，R109同germ/frameI/M0完整V满足λV≥∫h^-2/4>0；未预设条件成立。原乘子须μraw=μ+λ̃Γ。只排universal或满足λ杀代入核的固定圆；R105/R96仅给存在faithful特选圆，R83只覆盖其指定incoming历史。不授所有特殊圆/任意gauge失败。
 
