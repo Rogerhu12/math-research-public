@@ -36,11 +36,15 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 113草稿 `/tmp/native-primal113-source/`：GNU __float128真实113位，将同原binary64 geometry/tables/grid精确提升，root未知e=L−target、split RHS、全部226态RK、节点+αdelta、stageout−node、全部129248残差保持高精度。两配置原8e−14/5e−12和严格1e−28/5e−27按同α交错；先两base，再两份各十档，7200s显式实验预算，partial诚实保留，随后原64十档仍继续。使用同freshR273方向，旧64J仅近似方向，不能冒一致128J/最终audit。须导出actual profiles+cusp splitter真实子步数/hash，不用576×12猜。root已读初稿CPP1b59cd10/bridge3655c81a/probeba3564ca，等最终冻结及原公式对照。
 
-### 114：低三方程的两法向弯曲路径（已发布，运行待读）
+### 114已完成，115扩独立控制（exact_refinement准备）
 
-106在12预算批后第13批原二十档全拒；108单方向二十档全拒。112已正式：[实际112](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)，run43685696741/sourcea7ea4292/compute132725609910/report132725862494。八方向六极小接受，0/7各二十拒；W6958.2257628163525→6958.225762769887。末p=[.46303183673359155,−.19282285315249734,.631643600595406]，unit=[−117.96801026240819,.008956935105133464,−.00020358048375542664]，全部最终门false。summary80385B/09f1525d（不含分隔LF）、status1030933B/02d85cf1。原逐列FDvalid不证明近消去组合的相对精度；不盲续同预算。
+106/108/112已正式，不能盲续旧半径预算。112仅六极小接受且末方向全拒，完整身份见[实际112](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)。[控制全链结构](notes/2026-11-15-small-core-control-structure-and-post112-options.md)已说明3p不是独立模态，圆R传播耦合全链。
 
-[结构与路线](notes/2026-11-15-small-core-control-structure-and-post112-options.md)：3p是scalar分离支撑bump，非独立模态；上游圆R传播耦合全链。114保112完整3列QR方向v及原full3斜率，c=(d2,d3)，曲线目标c(q)=c(p)+αCv；q=p+αv+SNw，α0直接返原点，12×20校正，不用J33图。内层1e−8仅算法停止，不是外层门；真实剩余误差仍交原全3 W/.2Armijo/域/最终块。root已读全部新增源/差异/完整接口，已发布sciencebe37ce21/reader5316d62b/recipe80b8b209/request7107c02c/workflow550cd3b2；[114接口](notes/2026-11-15-actual112-to-full3-curved-normal114-interface.md)。75min科学/90min job，原规则监控保持。实际run43687426018/source dc032461bbd2f3f7515ea30e5495b50870a06f65/job132730710123已进入科学段，结果待读。必要时第四奇形C²零jet控制、新3×4响应和新schema责任已写清，但尚未实现/执行。
+[实际114](notes/2026-11-15-actual114-normal-correction-and-one-tiny-acceptance.md)：run43687426018/source dc032461bbd2f3f7515ea30e5495b50870a06f65/compute132730710123/report132730985417。8方向155外候选，仅dir5/trial14的α6.103515625e−5原接受，其余7方向各20拒。W6958.225762769883→6958.225762766608；原下降3.2750904210843146e−9，接受时inner tol=false，仍按原full3门，未加内层否决。dir2全步已到后两式目标但第一式更差/W6979.21366，曲率修正仍无有效推进；不是局部极小/无根证明。
+
+末p=[.46303184038373296,−.19282285521524933,.6316435963633119]，d=[−117.96801026238036,.008956935069351885,−.00020359485484041056]，全部final false；4487评价零异常/592J。summary86389B/c4eca98c（不含LF）、status7197627B/4e7ee4fa、trace7626013B/64a8e728。90KB省略的是seed/可选frame/重复清单，155核心外表完整；非完整status字节复核。
+
+115准备第二实际支撑的θ·b₂(2x−1)，actual114末p+θ0；独立4控制profile/完整3×4 J/7×4正阻尼QR，原三式W/.2Armijo/真实域责任不变。θ是新设计参数，不冒固定g；原平方物理终检必须冻结当前θ为base后保持3活动p/K3/T112，重新付新标量域，不把k4冒旧方阵。函数独立不保证响应补秩。尚未发布新request/运行。
 
 ## 几何下游：实际接受场仍缺
 

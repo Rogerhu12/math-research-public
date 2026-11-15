@@ -65,3 +65,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 06:54:42 UTC /root — 114公开运行已进入科学段
 
 唯一请求push dc032461bbd2f3f7515ea30e5495b50870a06f65触发run43687426018，compute job132730710123已完成依赖/原输入恢复并进入完整法向弯曲科学步骤；没有预填结果。113 CPP/bridge/probe及原root/split/RK/cellFlow已逐式读完，实验保原noJ网格和真实binary128全残差范围，等待最终接口后立即发布。
+
+## 2026-11-15 06:58:53 UTC /root — actual114曲率校正后仍仅极小接受
+
+[实际114](notes/2026-11-15-actual114-normal-correction-and-one-tiny-acceptance.md)：run43687426018/source dc032461b，8方向155候选仅dir5/trial14接受，其余7方向全20拒；W6958.225762769883→6958.225762766608，全部原final false。dir2全步两式已到目标而第一式更差；唯一接受inner tol=false，确认原外门未添内部否决。summary86389B/c4eca98c/status7197627B/4e7ee4fa，4487eval零异常、592J。115转独立第四控制与真实θ冻结平方视图，不称无根或局部极小；113已读完冻结接口待立即发布。
