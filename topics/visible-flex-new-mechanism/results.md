@@ -259,3 +259,8 @@
 ## R236：二次平端层的原目标主部准确判据
 
 [R236 完整证明](results/R236-quadratic-endpoint-principal-part-criterion.md)在真实左零通量、有限极点光滑类内证明：若G″=p²R+p³R3，则u=w′可光滑延拓 iff t⁸R光滑；在已消一次层的G=P2+p²B+p³C且真实平台P2″0时，等价t⁴B光滑。归一算子的常系数分别−12c⁴与4c²，保证最低负极点不能被导数项抵消；u(0)=−[t⁴B](0)/(3c²)，允许非零平滑端值。这里只须原目标有限Laurent主部，无需先算逆解jets；例G=p²t^-5失败而p²t^-4平滑。保真实c、a′/a、真平台/支路和首f-up/g0范围，不声称H_E该主部已消或完整period通过。下一七必要mixed根的新degree2消费；旧一次层已结，不机械复核。root完整纸推经tail独立全文审查，无新科学计算。
+
+
+## 同g159独立坐标：首次公共人工和新阶段入口
+
+[159完整实现说明](notes/entry-tail-five-height-null-implementation-20261115.md)及六源码已审，single lane `metric_entry_tail_height159` 接线。原163物理族内增加五个准确零积分高度方向，当前几何所有两阶jets按同一Z/D/D′重评，九原盒为准确耦合约束；原163J仍计算，不冒成本降低。实际154的B/T半径/成功streak/全部学习行继承，新H半径4B明示；原full384/768门、12LP/40值/120秒和新soft先返回策略保留。首次新人工/API/IO只在公共Actions执行，失败则不进研究。过后只一次恢复五必要前缀，旧2ee6仅历史观测，进展从本次真实起点比较；临时payload不发布。此处只登记实现和首次入口，科学结果尚未知。

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:50:43 UTC实际pull后已读规则提交：`cb5f156113af15290124329363032f961afa4316`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 09:51:58 UTC实际pull后已读规则提交：`92961ce5b5a526109c3ba6c101961dc3c3100a85`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **154 actual已消费**：43694686825/source71744524/job132752541415，见notes/entry-tail154-first-actual-result-20261115.md。B103/T51全uv动、9height固定，旧尾锁峰解除。四前缀各一次必要恢复，fc0d8139 η .26653564958657405→2ee6e90e .26652257791835787；8主LP/5接纳/0SOC，降1.30717e−5。恢复漂移大于新降幅，未破103最低/未达.26。m1/m3真曲率失败；m6硬门过而fineη增，新soft返回跳SOC。末两高比率已增下一半径，120.0745秒先到；全880.5913秒，fine J85.1928秒。原两网门过/帽高仅tol，新metric/reach未付；不延154预算。
 
-**159五高度设计/源码审完，待派发**：notes/same-g-entry-tail-five-height-null-design-20261115.md。原九核取entry3/tail2，仍163物理族；入口.603后恢复，尾Wronskian正，可在.78取D0/D′非零。九系数准确有理canonical、float评价分层，c3/c8真耦合盒；物理Ms的∞/L1，rH=4rB，B/T继承实际154controller且不重置minimum。原门/12LP/40值/120秒及新soft跳SOC策略不改。六源码/driver/IO静态根审完成；33绑定/98原参数仅out改，新人工与actual均未执行。
+**159五高度首次公共入口已提交，结果待消费**：notes/entry-tail-five-height-null-implementation-20261115.md及computations/request-continuation.json。原163物理族、159独立坐标，entry3/tail2精确零积分；九有理canonical与float评价分层、c3/c8真耦合盒，物理Ms的∞/L1。B/T继承实际154controller不重置minimum，新rH=4rB。六源码/driver/IO全静态审，33来源/98原参数仅out改；先首次新人工，通过后五前缀各一次必要恢复，再12LP/40值/120秒新阶段。原全门/soft跳SOC保留；现未有新人工或actual结果，不冒可行/下降。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 

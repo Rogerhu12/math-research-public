@@ -20,7 +20,7 @@ m1/m3已有fine .78曲率行预测+1e−7却真负，m6硬门全过而fine度量
 
 [五高度完整设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)已付：从[原九高度null核](notes/same-g-nine-height-zero-integral-entry-directions-20261115.md)选入口3+尾2，154切向+5=159独立坐标仍在原163物理族。入口.603后恢复，尾两列在末开片Wronskian严格正；.78可取D=0而D′非零，此时该点metric/normal不变、仅II径向增n_z D′。当前原盒及紧曲率特征投影须在必要初始化内实读，不授可行或下降。
 
-H有理精确计算，原九物理系数与float评价分层；c3/c8补偿槽施真耦合盒，原∞和SOC L1均作用Ms而非五坐标范数。B/T承当次154真实controller，新高度半径明示4rB；旧minimum门保留，不暗重置。常帽高只按原tol验，Z/D外域真零，活动球/镜像/metric/κ全重评。新159核心代码已写、driver/新人工在接，均未执行；SOC新soft先返回策略另案，12LP/40值/120秒不增。b²−1=.08826887低于当前max，仍不冒已证strict-max阻碍。
+H有理精确计算，原九物理系数与float评价分层；c3/c8补偿槽施真耦合盒，原∞和SOC L1均作用Ms而非五坐标范数。B/T承当次154真实controller，新高度半径明示4rB；旧minimum门保留，不暗重置。常帽高只按原tol验，Z/D外域真零，活动球/镜像/metric/κ全重评。[159实现](notes/entry-tail-five-height-null-implementation-20261115.md)及单lane入口已提交，六源码/driver/IO全静态审。先首次公共新人工，过后恢复五必要前缀再进新阶段；结果待消费。SOC新soft先返回策略保留，12LP/40值/120秒不增。b²−1=.08826887低于当前max，仍不冒已证strict-max阻碍。
 
 ### 仍须支付
 
