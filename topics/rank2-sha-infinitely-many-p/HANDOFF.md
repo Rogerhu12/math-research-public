@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b4551cf81d3941daacd6a927f7da0703b379d65b；2026-11-15 05:48:49 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:48:48 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
+- 最近已读规则提交：03571beed80256e0dd80ad4d0461a338c9f93be9；2026-11-15 05:52:05 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:52:03 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史；每小时实际pull，每次核两README，只读差异立即执行。令牌仅临时终端，不入文件/回复。
 - 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出不存repo/Release，只留脚本参数run/hash。此次按audit43681121218移除148个明确生成输出2,645,461字节；临时历史输入runner保依赖，两个复现路径交公开Actions。旧3个-partN及无生成器的checker输入保留，未新增分块；目录27.60MB无5MB超限，继续真实mixed-I/O审计。
 - 规则12不设冻结/独审/复跑；规则13计算用公开Actions。题log每轮≤5行，单MD/API<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -15,9 +15,9 @@
 
 ## 全部归档、已完编号和分工
 
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-output-cleanup.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
-R1–363、365–560、562–653、655–688、690–692及R679/R680增补已登记；R364/R561/R654仍开。
-root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R694原Kummer稳定子/指定迹/中央传播；deep R689原barE高尾/同R真像；theta R693原中性G高块全31约束；literature R695四轴三态真word/13-19切集与非零角域。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r694.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
+R1–363、365–560、562–653、655–688、690–692、694及R679/R680增补已登记；R364/R561/R654仍开。
+root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R689原barE高尾/同R真像；theta R693原中性G高块全31约束；literature R695四轴三态真word/13-19切集与非零角域。
 R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693首43681121212秩25、次43682050475的55列秩29均辅助不相容，非特征零排除；现公开--max-block=5 --taus=2,3真66列/108矩。无报告数据入库。
 
 ## 固定目标和全部旧来源
@@ -48,7 +48,9 @@ R681原Tg/Pζ所有首挠点代数，至u^d原jet误差>1/(p−1)唯一选根。
 
 R688原LT Eisenstein付F=K0(E[p])全Fq×、唯一p位，H=norm1固定μp。原∏H Tg=1消相位；偶ψ_(p+1)必保负号。a_T=ψα^(2s)/ψn^(2s−1)给Tg^(pd)=−a_T^d/Norm_Ha_T，单值次数≤2p(p+1)(p²−1)。正确原r_h=ζPζ满足r_h^p=a_T/a_hT；原B_m(vT^d)零iff全Σh r_h^mφ_m(hT)=0，保所有e轨道及分支。
 
-R691显式潜好模型和αT=ω²T/nT=T付a_T/a_hT全局单位，含全部坏位；M_T=F(r_h)处处不分歧、p全裂，Gal为Cl(F)/p商，次数≤p^(s−1)。实际J=Stab_H[a_T]含μ6且不依T。边界零iff同J块零iffTr_(F/F^J)(b_T^-mφ_m(T))零，b/jb=r_j由原cocycle构造。J=μ6时块=6φ_m(T)非零；未证J最小或无穷p迹非零。p类数unit只给J=H，不能反用。
+R691显式潜好模型和αT=ω²T/nT=T付a_T/a_hT全局单位，含全部坏位；M_T=F(r_h)处处不分歧、p全裂，Gal为Cl(F)/p商，次数≤p^(s−1)。实际J=Stab_H[a_T]含μ6且不依T。边界零iff同J块零iffTr_(F/F^J)(b_T^-mφ_m(T))零，b/jb=r_j由原cocycle构造。J=μ6时块=6φ_m(T)非零；实际J现由R694确定。
+
+R694原Klein相位完整保μ6p，原a_T=ξ_T k(T)^−p；Klein比是级12p² Siegel比，完整层点在K0(E[12p²])且该域阿贝尔，含所有相对p根。H固定μp，阿贝尔性使D_T平凡H模、增广norm又杀它，p∤|H|故D=0/M=F/J=H；实际r_h全降F。原Tg^d=−∏r_h∈F，单值次数≤2d(q−1)。边界准确为原全H迹；J最小支在本题不成立，未付迹非零/j0传播。
 
 R663严格LT [-p]v=−pv+v^(p²)，W=v^d,Q=W^(p−1)−p。同Y闭盘iffQ|B且真过界，j=Y0不改；X下降还须j0及Q^(d−m)|B。R660大p闭X迫原有理首系数0。**仍缺j0→余数/指定非零/X下降**。R632/635原z全p幂RE闭非Tate，u中p次不延/p²可延，全尾保。
 R644/658固定D证J_D≤(5184+o1)D²；R656高度O(D4logD)/全部坏p成本付4<θ<7真非整层。原中央→全D/k仍缺；九格严格aI+NbI<3N−6未过，p依赖规范非固定免费列，全部来源成本按前检。

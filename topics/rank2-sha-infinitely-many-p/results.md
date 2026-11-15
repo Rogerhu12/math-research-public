@@ -250,3 +250,5 @@
 - [两Euler第一Gaussian前缀的必要下界](notes/2026-11-15-two-euler-first-gaussian-prefix-floor.md)：原真实余类u*=13+A_D及全部帽给有限整数必要门；对所有允许辅助比例p/D≥9/2统一优化得441/400，严格高于旧47/48达37/300。即使联合首层合流矩阵全秩也不能跨该截止；保真实regular高尾/新饱和和目标p短矩阵为未排方向。
 
 - [R673：原乘p分子的四位收缩与真实sigma模p²来源](results/R673-original-multiplication-numerator-and-canonical-second-lift.md)：同一Θ=xσ²的准确乘法分子给(1−p^-2φ*)logΘdag=Gp，原t^{<p}窗真实φ∈p6tR，整收缩四位且唯一。分子modp4/Hmodp3即恢复实际Θdagmodp²，全部整除/首次p4修正付清；三原全P_m和H^-hp修正给真实第二中央类，排比较提升的自由高位但未证指定非零。
+
+- [R694：原Kummer根复乘下降、完整稳定子与单一域迹](results/R694-original-cm-kummer-descent-and-full-norm-one-trace.md)：同原sigma的Klein相位保μ6p，Siegel比完整级12p²及全层点把所有相对p根放进K0(E[12p²])阿贝尔域；H固定μp与增广norm迫D=0、M=F、实际J=H。原全部根降F且Tg^d=−∏r_h，单值次数≤2(p+1)(p²−1)；边界为真实全H迹，未付其非零或j0传播。
