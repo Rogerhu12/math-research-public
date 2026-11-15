@@ -120,3 +120,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R323/R329：全pure与全self联合闭锥已满，实际半群最小余门C4/C6
 
 [R323](results/R323-full-pure-self-cone-and-complete-negative-weight-response-control.md)用R314/322的完整权移证明−8 self0、−6两完整坐标；从原四c密度和E8二导手展八响应，保真实μ0²/2尾并消元，覆满−4八完整坐标。配合真pure像等号、已付±2与H*排0权，E=(π,全Q)实际闭锥=E(U)。R222/R302已可真实联付wholepure及两个负权共10个普适self坐标；一般闭锥满不授whole E实际半群。剩余零权商至多由C4/C6张成，R329先纸面核其同权pure校正后全Q是否进入已付13列像，真需新执行也只两根/完整source，不重H或rank7。全mixed换槽/其它尾及固定圆同gauge两函数联合商仍另欠。
+
+
+### R327/R330：把已付端口后的同规范联合门落实到实际列
+
+[R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。下一R330评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
