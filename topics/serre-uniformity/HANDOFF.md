@@ -6,7 +6,7 @@
 
 已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次R792前H](notes/2026-11-15-handoff-before-R792.md)。
 
-**已读规则提交：4ccac5c092097ad2667e505604b013c0c68e75f6**（2026-11-15 07:14 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：8fd176f4a2e713846f7f16d30670e80760e2694f**（2026-11-15 07:21 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -24,7 +24,7 @@
 
 ## 原CM与原同态新续点
 
-**R790已证明、CM数值待计算**：原ψ=T E6/E4²去阶3椭圆点的框架零；g_star∈ΓY使权零值在ζ直接求，X原h运输仍保。任意原A=yB的共同粗零阶≤154，155项给y值、156项给一阶；原变形z=a−1=−ε³/(81B0²)+O(ε⁶)。E6_alg=−c6和eta_alg=−4d0³δ已核，完整非CM zeta完成化后才用41倍加法。原C3迹消二挠扩域；先μ3正则投影再取值/粗导数，5040项压成两个280次域迹，5个实际种子仅10对ε5 jets。原40P=−P根上F_r=−41，r↦r+F/41倍增提升；旧模数/ξ/标签/recipes不重算。82²尺度保留，实际core981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6；首run43687770143准备失败未启动core，已补原Git manifest固定SHA读取。续run43688215703/source9e4074fd实际运行，core/proof不改。一日bundle额外保同SHA原power2–5供β后继。完整proof/输入SHA见正式请求。
+**R790证明及核心已成、CM值运行中**：$\psi=TE_6/E_4^2$去框架零，原$g_\star\in\Gamma_Y$、$E_{6,alg}=-c_6$和eta方向全保。共同粗零≤154；原变形$z=-\varepsilon^3/(81B_0^2)+O(\varepsilon^6)$。先μ3正则投影，5040项压成两个280次域迹，真实5种子/10对；40P=−P根上导数−41作短链提升。core981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6，绑定见正式请求。首run43687770143缺旧manifest在准备阶段失败未启动core；补原Git清单后run43688215703/source9e4074fd实际运行，数学未改。1日bundle保旧power2–5供R792；真实ψ/y/β/高度未预称已得。
 
 **R791实际成功**：run43686308194/source f945ef5d、0.118秒；真实阶21作用、实/反实秩6、全部12个CM切向非零，尤其原index4。$c(f)=-[\zeta^2]f$，$f_R=[1-\zeta^2]f=f_4-f_6$、degree3618；原$f$仍degree1206。$e=\kappa v^\dagger v=3870+711s_1-801s_2-360s_3+612s_4+864s_5$，$d_0=25326$，原五维$F^0$全部落实。三同源给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$和极除子；同一$h_j$的η可用较小原映射，但保主函数修正。另证明全部非零实际Hom在$c_1$不分歧，非仅基向量。cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46，artifact14149997458；全部绑定见[R791结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。真实极除子/Jacobianη/β/高度仍缺；切向文件随直接后继转交。
 
@@ -47,6 +47,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom�
 R782原Hirota六倍阶关系、R784三wedge/六截面与L Kfull=2^(p−6)I均已证，权筛准确运输但仍未非零。R788有限环K=(1+Φp)P(z+t)Q(z−t)、det36/rank6和完整Schur把原Cartier源接入；未筛critical全零迫六零行，不可用于仅primitive筛后全零。D12常系数逐项消高带会同时消critical，R739真可见p41/h37亦以f5=0/g0=1否定逐项单位反射，均已登记不重做。
 
 [跨p零支撑续记](notes/2026-11-15-sigma-cross-p-zero-support-research.md)进一步证明六行p+6源中C13=−481/27720始终单位；有限微分式K(Kzz−Ktt)−Kz²+Kt²=2κ(z^(p−1)−t^(p−1))K²亦保真Cartier源。但N+1高带未消；原六截面无有理scalar gauge的常数域微分闭合。真正primitive/Legendre可见集的乘积非零仍开，不新增有限扫描。
+
+[真实稳定空间](notes/2026-11-15-sigma-stable-space-research.md)证明六有理截面的D与D⁶闭包均为L(pO)，D为长p单Jordan块、同权块长N/N+1；固定宽常系数捷径关闭。σ¹²的完整zeta连接仍挡住零串传播，critical/真正筛后非零未证。
 
 **真正高度仍为主要缺口**：R690/694/696原坏靶Ω={0}；R634消A高度矩阵但保Y/Picard/常数。R724完整规范含因子2、第二类period、原MW Hecke轨道、ℓ=yᵀL^-ᵀHL^-1eη以及Poincaré/universal-extension/非p项；未反演H。实际η/β坐标、完整高度jets、(724.33)有限Bézout及其全p存在仍未生成/证明。
 

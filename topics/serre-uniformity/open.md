@@ -249,3 +249,5 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R792：原CM分量的真实共轭选根与最小合成
 
 [R792](results/R792-original-beta-composition-and-Galois-cube-root.md)已证明：真实共轭关系使有限原$y_0$唯一决定$x_0=\zeta^2u_0$，其中$u_0\in F_b=\mathbf Q(b)$且$u_0^3=y_0^2-b$。最高21次Q因式分解与F_b内三次小gcd即可准确选根，无浮点方向。R787的$B=\lambda b,\sqrt{-3}$十四坐标、R790的$1,\zeta$与82²尺度、R775同SHA的power2–5递归全已对齐。因此实际共同零阶0或1时首jet足够原$\beta_C$和真实实下降同源像$v\beta$；更高共同零才继续原155项界。原A的同源核原像未恢复，原η/高度未算；core/wrapper正在接真实生产者，尚不预填点。
+
+[原六截面的真实稳定闭包](notes/2026-11-15-sigma-stable-space-research.md)已证明为$L(pO)$，维数$p$；$D$为单Jordan块，$D^6$同CM权块长$N/N+1$，所以不能补固定多个有理截面得到固定宽递推。原$\sigma^{12}$连接项必须保留；未筛critical全零与真正筛后全零均仍未排除。
