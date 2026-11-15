@@ -1,0 +1,96 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "e0d74db25a5db1a7e3df06ea8f0905d568aff366",
+  "job": {
+    "result": "R792-original-CM-response-beta-DAG",
+    "p": 41,
+    "budget_minutes": 30,
+    "producer_inputs_pending": false,
+    "core": "R792_original_CM_response_beta_DAG.py",
+    "core_sha256": "afb49c1ac4245674d29364789e817b566517e1f5bf6d506cee684ed03fa34b8b",
+    "wrapper": "R792_public_original_CM_response_beta_DAG.py",
+    "wrapper_sha256": "96045ab00c4b5f4a674031ddb7100b07af98ab5bd5b8560ab56665c0d8cdee66",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "proofs": {
+      "interface": {
+        "path": "notes/R792-original-source-bound-CM-DAG-beta-interface.md",
+        "sha256": "ce50b9c2d4a20c812c811a38ae40fa470f41f958adee018449f5ad676a8bcda3"
+      },
+      "R791": {
+        "path": "results/R791-certified-original-Hom-descent-and-eta-inputs.md",
+        "sha256": "821434c76711f725326a581a4b0e8c281d8d41cb0905333409545a68826c6dcf"
+      },
+      "R792": {
+        "path": "results/R792-original-beta-composition-and-Galois-cube-root.md",
+        "sha256": "75362e44da996c4c481b548816bfeb532f799bde47f63400bcc7791e0aa5f46b"
+      },
+      "unit_chart": {
+        "path": "notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md",
+        "sha256": "8d5b58a5f6e9748805af3c032de1bae955543b1855535b6c51f0ca9cd6947820"
+      }
+    },
+    "workflow": ".github/workflows/serre-R792-CM-response-beta-DAG.yml",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "sources": {
+      "CM": {
+        "archive_bytes": 96435463,
+        "archive_sha256": "0ae63e2c65f2f45ac759bc948ea57203b36e1645899ebe409c38f0d879c39d94",
+        "artifact_id": 14185198226,
+        "artifact_name": "serre-global-R787-implicit-CM-value-43773420733-1",
+        "core_sha256": "d0e94bee98802169b9e1dfec186143deda7745bf2cdad420e683a75eb1969ddc",
+        "expected_conclusion": "success",
+        "result": "R787-original-implicit-CM-value",
+        "run_id": "43773420733",
+        "source_commit": "c3bcfc0dbbcd3a045349ec4500886100851a0d84",
+        "manifest_sha256": "be2a58b2c87b6a79cb406d4cd1ecb04347f56f301373953e809d3bff68612642",
+        "manifest_bytes": 37636,
+        "manifest_file_count": 254,
+        "certificate": {
+          "file": "p41-original-implicit-CM-value-certificate.json",
+          "bytes": 5768,
+          "sha256": "5de210b5ebb2a8a7fefcc8799888a68353c9c2ac10725fafa239d2bd1082d20c"
+        },
+        "configuration_sha256": "2a3bd8cee0b9db0e645ecd94b2db8651d046ac67ea5134e31ead7e77f9ff7829",
+        "selected_file_count": 165,
+        "selected_files_sha256": "86d551e90f18c12a1ae36cb4393444b5093f7f4b1d09db7fc3b23fb0436235a9",
+        "wrapper_sha256": "12727d7c002872c293f3eff2f161016eadb248e9de4429a7c68987ad98bc1bc4",
+        "original_readme_sha256": {
+          "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        }
+      },
+      "R791": {
+        "result": "R791-original-Hom-Galois-and-eta-inputs",
+        "run_id": "43686308194",
+        "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+        "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+        "artifact_id": 14149997458,
+        "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+        "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+        "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+        "manifest_bytes": 1814,
+        "manifest_file_count": 9,
+        "certificate": {
+          "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+          "bytes": 2298,
+          "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+        },
+        "configuration_sha256": "eb3d071456820745d7f87ba639c8955b225714f1f2729053cbd03ebb7edfb174",
+        "selected_file_count": 9,
+        "selected_files_sha256": "aa9eed74a05bf79744e7c22505eed811679c1e16a52674ad7b2c5a000f61c1be",
+        "wrapper_sha256": "15568f21c367938830700b6178222a54b5ba0977e5de876d982db3b6cb5effe7",
+        "original_readme_sha256": {
+          "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "expected_conclusion": "success",
+        "archive_bytes": 49237
+      }
+    },
+    "resume": null
+  }
+}
