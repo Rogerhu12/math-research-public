@@ -84,9 +84,9 @@ R364类型绑定误拒0call、[R371实际164r2](results/R371-actual164-r2-twenty
 
 [R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)公共u、准确L²与a(Lu)²、全部可能片/九支撑/数值两侧/中心差及同场η+δ+ηδ保；固定E盒不自动任意精化，实际δ<1与同一场metric前提另付。
 
-[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as尚未读，Actions仅取原保存字段；同场metric/native仍未付。
+[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as现由R381从原保存字段完整补齐；同场metric/native仍未付。
 
-[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)原1.48GB到EOF/38找到，但cover/pending/unresolved计数差额，95577B超90KB只返2388B/reader70、38具体表未返；不是新科学或R356撤销。[176r2接口](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)2e5717de/3ba3e2a2/41fe2cdf保finish全部检查，只改解析副本单行首BOM/JSON空白和列式必要metadata，原hash/offset保；全cover与38表独立，单≤90KB。实际run43748206814/source48e55d2e已结束，exact核R381，科学/1500s/4GiB/35min均不变。
+[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)首扫描到EOF/38找到，但计数差额及95577B超90KB，38表未返。[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)run43748206814/source48e55d2e、2e5717de reader已完整补齐：单55100B/46ac562a；32977 cover/32526 pending/32488 unresolved/38反证逐原事件与双来源身份匹配。全部反证在numeric416，17正速度/21负速度各连成原闭u区间，radius_refuted全false；32488未决同在416，32484仅目标宽度、3仅速度、1两者。708行首BOM仅解析副本，原1.48GB/4ab8日志不动；原finish全检查保，未重算任何科学。原165科学exit4及目标宽度责任不变，不能加节点消除反证；numeric标签不自动等同唯一准确支撑，原target与169/179身份和可变参数作用继续核，不增175/其它入口前门。
 
 ### 3C. 当前C自己的零场与完整453非零BVP
 

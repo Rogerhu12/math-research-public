@@ -298,3 +298,8 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:47:22 UTC /root — 178完整十坐标Newton公开入口
 
 完整科学47546B、五运行diff及18261B接口已读后八件即发；固定旧形状/尺度与完整十列，原full3/20档/120FD/全部终态保持，无新rank门。open已结历史入完整检查点，§4–6逐字保；H含所有实际run/待刊结论及恢复。真实pull已读7bb3392aaf3ec93271d45de3f2d3b8eaf6aca7a0，双README未变。
+
+
+## 2026-11-15 18:51:50 UTC /root — R381完整38速度反证位置
+
+13055B/77d2eafd全文读后单独即推；原全cover/pending/unresolved计数与38必要位置恢复，17正/21负两闭u区间及未决原因完整记录，不重算科学、不回填R374旧失败。原165 exit4保持，继续核当前C准确身份与coast可变参数；真pull已读d9336e76fe9948d642e6e079bbdf26946b6d42d4、双README未变。

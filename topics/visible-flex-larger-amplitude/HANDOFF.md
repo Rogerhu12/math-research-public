@@ -4,7 +4,7 @@
 
 ## 规则、环境与目标
 
-规则同步记录：2026-11-15 18:51:58 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d9336e76fe9948d642e6e079bbdf26946b6d42d4。
+规则同步记录：2026-11-15 18:53:52 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 76ea69cd6ecb82aaecfd3a164187e955595bfe23。
 
 只在公开Rogerhu12/math-research-public及其Actions。科学算术、模块导入/编译/数值测试仅Actions；此处限源码/纸证/原JSON词法与字节/元数据。root唯一发布，代理只交文本/blob。PAT仅瞬时CLI不入文件、提交、回复或connector。
 
@@ -21,8 +21,7 @@
 |172 geometry，R369|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行R360，124pins/18000s|
 |175 exact，R372|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后完整37×17×2048闭段query域，103pins|
 |177 geometry，R379|43747934170 /d7540200dcf5e10378471620915aa29a39389862|原全深族112两图Riccati/cut，17pins|
-|176r2 exact，R381|43748206814 /48e55d2e0f6f07405c216b5417ef97844654124e|官方success；原165必要38表/全cover读回结论待刊|
-|178 amplitude，R377|本次发布，实际run待官方回填|固定164 support1/k4完整十列Newton/clip/Cauchy，8×20|
+|178 amplitude，R377|source d9336e76fe9948d642e6e079bbdf26946b6d42d4，run待回填|固定164 support1/k4完整十列Newton/clip/Cauchy，8×20|
 
 仅唯一负责人读结束后的必要原日志，不读运行中大日志；job绿不代数学门，未返call不补拒。原配方/参数/预算/全部错误/后缀在同号notes接口与open。
 
@@ -42,7 +41,7 @@ R358实际162、R368实际168、[R367实际169重发](results/R367-actual169-ret
 
 179由geometry把R375接原169新R323 profile→physicalfar/R357单位取向行→完整453，实际R382；五科学/薄层差异待root读，reader50768B/1d055037/blob65d2ca76已交，接recipe/request/workflow。原同owner当前H/J/FD、112/338/453、三active+109core、32×10/2e−9/fullDN/final/audit不减。177不是179前门；数值代表/中点非准确C成员，未付无限非线性DN。
 
-[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)固定R320九p：32977闭叶radius正/有限δ<1，38strict speed反证/32488未决/481目标过并存，科学exit4。有效反证不可加节点消除，只限该p不否定全族。[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)原1.48GB到EOF/38找到但计数差额，95577>90KB、表未返/reader70。[176r2接口](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)2e5717de/3ba3e2a2/41fe2cdf保原finish，单BOM只改解析副本/原hash-offset不动，38表与全cover独立；R381待刊不改科学。
+[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)固定R320九p：32977闭叶radius正/有限δ<1，但38严格speed反证/32488未决/481目标过，科学exit4。[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)run43748206814/source48e55d2e、reader2e5717de，单55100B/46ac562a完整恢复32977/32526/32488/38计数与必要表。全部38在numeric416，17正/21负各连成原闭u区间；未决也全在416，其中32484仅工作宽度、3仅域、1两者。708物理行首BOM只改解析，原1.48GB/SHA不动；R374旧失败不回填，科学不重算。新p/准确target身份仍须实际绑定，有效反证不可加节点消除。
 
 ## 九/十控制与下一子题
 
