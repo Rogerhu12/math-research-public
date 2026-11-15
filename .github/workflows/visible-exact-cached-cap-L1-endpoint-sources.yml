@@ -1,0 +1,107 @@
+name: visible-exact cached cap L1 reference endpoint sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources_CI.py'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-cap-L1-endpoint-source-contract.md'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-cap-L1-endpoint-source-CI-inputs.json'
+      - '.github/workflows/visible-exact-cached-cap-L1-endpoint-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-cached-cap-L1-reference-endpoint
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  CAP_L1_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-cap-L1-endpoint-source-CI-inputs.json
+  CAP_L1_MANIFEST_SHA: '6378581473d45a1af2c55748ea13a5111a0563e4be183a0e56a5029f9c2021a5'
+  CAP_L1_WORKER_SHA: 'b807521600dda52e6e4ea79e4b4feb952dd939a195ea54ab74019d5cae17994d'
+  CAP_L1_SOURCE_SHA: '106ec9308882b814ca773da904e561e93aa4475f4f46f84b9632c9716653992f'
+  CAP_L1_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+
+jobs:
+  consume:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out public scripts and small parameters
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources_CI.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-cap-L1-endpoint-source-contract.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-cached-cap-L1-endpoint-source-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+            /topics/visible-flex-exact-nearby/results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md
+            /topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/
+      - name: Install the exact interpreter
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Parse exact new sources before restoring original inputs
+        run: |
+          python - <<'PY_SYNTAX'
+          import ast,hashlib,json,os,pathlib
+          source=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py')
+          worker=source.with_name('fourfold_codazzi_cached_cap_L1_endpoint_sources_CI.py')
+          manifest=pathlib.Path(os.environ['CAP_L1_MANIFEST'])
+          for p,h in ((source,os.environ['CAP_L1_SOURCE_SHA']),
+                      (worker,os.environ['CAP_L1_WORKER_SHA']),
+                      (manifest,os.environ['CAP_L1_MANIFEST_SHA'])):
+              raw=p.read_bytes()
+              if hashlib.sha256(raw).hexdigest()!=h:raise ValueError('new exact text changed: '+str(p))
+              if p.suffix=='.py':ast.parse(raw.decode(),filename=str(p))
+              else:json.loads(raw)
+          print('Only exact text syntax and identity checked; no mathematics executed.')
+          PY_SYNTAX
+      - name: Install the pinned directed arithmetic package
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Consume original complete rows for the new cap source integrals
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources_CI.py
+          --repo "$GITHUB_WORKSPACE"
+          --work "$RUNNER_TEMP/visible-exact-cached-cap-L1-endpoint"
+          --manifest "$CAP_L1_MANIFEST" --manifest-sha "$CAP_L1_MANIFEST_SHA"
+          --rules "$CAP_L1_RULES" --compute-minutes 20
+      - name: Print actual small outcome without uploading new recomputable data
+        if: always()
+        env:
+          SMALL_PROCESS: ${{ runner.temp }}/visible-exact-cached-cap-L1-endpoint/final-small-process.json
+        run: |
+          python - <<'PY_RESULT'
+          import json,os,pathlib
+          p=pathlib.Path(os.environ['SMALL_PROCESS'])
+          if not p.exists():
+              print('No mathematical process receipt exists; inspect the real preceding setup step.')
+          else:
+              d=json.loads(p.read_bytes())
+              keep=('complete','failure','publication_failure','actual_scientific_complete',
+                    'actual_scientific_failure','actual_output_sha256','actual_scientific_summary_sha256',
+                    'actual_scientific_gates','historical_hydration','last_read_commit',
+                    'new_recomputable_data_persisted','new_Actions_artifacts','new_Release_uploads')
+              s={k:d[k] for k in keep if k in d}
+              s['actual_children']=[{'label':x['label'],'actual_returncode':x.get('actual_returncode')}
+                                    for x in d.get('children',[])]
+              s['actual_last_readme_check']=d.get('readme_checks',[])[-1:]
+              print(json.dumps(s,ensure_ascii=False))
+          PY_RESULT

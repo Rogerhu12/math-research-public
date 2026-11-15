@@ -97,3 +97,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 ### signed根源实际失败后的同域修复
 
 43691675493/1的九入口/三stage通过，child1/0完整case/.360076374s，实际failure是primitive中间分母的矩形模长下界丢gap。根已全文读execution10454B/a8fc52ed…和actual-result1857B/f3f75785…。SCI唯一改用同矩形的Re下界≥193/9409>0；新SCI869238d3…/12pin4b72d34b…/flow8d678ae0…，worker fca0aacd…原样，等待新的真实run。原δ/z/全部96中间模/完整mean/非零门不变；不得宣称首次成功或0临时重复数学。
+
+### 已部署：旧7296行的实际帽L1与完整reference端点源
+
+新增 consumer 保旧target/residual/Riccati零重算，从原三parts恢复同ac1/440866/eta0，只积分1341实际帽行与原reference共同分区。ordinary B/C用完整mean源增益10/17，R端用完整prefix Tdc和suffix阻尼；参数22pin SHA6378581473d45a1af2c55748ea13a5111a0563e4be183a0e56a5029f9c2021a5。rZ=1e−10/1e−9只报告真long四导数和条件body结论；linear-Q、quadratic-Q、outer反馈的完整端点不变性仍未证，输出明确false。等待公开实际数学后接着闭这三列。

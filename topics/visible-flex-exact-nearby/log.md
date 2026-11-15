@@ -163,3 +163,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:59:08 UTC — 同一graph域、完整残差与真实角平滑独推
 
 根读3ca4e7ab1c7d9964ce154a7d1d48e6ee38f2fdec两README未变，全文审E1–28，核L0/四态/三径源闭graph、S_T在原physicalθ精确交换、mean/Γ再重建、E16正号与Π_A仅holonomy-one适用、E24两个tail项和E26完整DΠ_A。phase另核E18–25真实profile/δ幂/三broken导/低球吸收及mean项通过。仅修改已证明状态，最终16800B/SHA0103391542006e68070dddd936d1d498dab3810da2f6525010da842e5fccaf81。没有将第一Γ C¹冒C∞，没有将local N0条件冒完整matching；下一实际近似右逆及1734损失归纳继续。
+
+## 2026-11-15 08:05:12 UTC — 部署原证书L1与真端点源最小consumer
+
+root全文核SCI106ec930…、contract9d0c8f22…、22pin63785814…、worker b8075216…、flow fb20231a…；tail独核三数学函数及原S.10–13。仅将非FF发布循环取消30次上限，立即真pull/rebase至成功；SCI零改。精确旧7296三parts/原1346reference及intrinsic/repair全部只恢复，新增帽1341行积分与端点双核，未知非线性端点保持仍false。新数学只公开Actions，暂未报结果；新可重算数组不存Git/artifact/Release。H逐字归档286089d9…后压缩；本次只读两README核7b120d4d075540c059d9d8255efaa1728795f361，blob不变，不冒本机pull。
