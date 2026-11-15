@@ -337,3 +337,5 @@
 - **R790（公开准确求值已完成）**：[原146条CM值与首粗导](results/R790-certified-original-CM-fiber-jets.md)。run43688215703/source9e4074fd真实完成194阶段，全部146条M2按原82²尺度输出；保μ3投影、5种子/10对和两个280次域迹。cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd，202文件SHA已核。原y/β/η/高度尚未求，不假定R787分母非零；原power2–5随活跃bundle交R792。
 
 - **R793（已证明）**：[原极除子、固定RR Jacobian和真实局部代数](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)。V6的142阶原关系、第二截面与rank1116给264维残余；固定V3/V6=690/1506支持标准degree272类及完整主函数运输。原点/首导构造K上长度155/156真局部代数，再扩L求A/B；全部非零实际Hom在20 cusp不分歧。新矩阵、Jacobianη和高度尚待公开算术，未由有限算法冒称结果。
+
+- **R794（已证明；公开小算术请求已启用）**：[原范数极化与有限低次数η基](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)。原12基及两两和的范数必覆盖原F⁰；149固定候选中按真实degree作拟阵贪心，并输出原R791基的可逆变换。保原极化、域与η规范；三同源主函数和未计算的二挠刚性化比较分清。实际rank/选择/次数待Actions，不声称全格最优或高度已得。

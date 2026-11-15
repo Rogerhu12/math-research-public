@@ -439,3 +439,8 @@
 - 证明原sigma全部普通导数的跨p递推及完整双核Hurwitz唯一性；保原6同源/Gaussian/tame点、κ=6B和正确p曲率，未在W=0的不稳定商中微分。两数位加法余项逐字恢复R788 Φ。
 - root核R697原单位归一、R574输入、Jacobson/Bell、全阶递推和端点符号。登记同核继续升p²/Hirota无新约束这一失败边界；原critical/primitive非零仍开，不开有限扫描。
 - H逐字归档压缩并保全部原链接，open同步；继续首矩形独立几何关系与真实高度输入。
+
+## 2026-11-15 15:44 Asia/Taipei · serre-public-astra-20261115
+- R794证明与小公开core/wrapper/workflow审核完成并启用真请求。只消费已成R791/R759，149固定候选保原F⁰、真实degree和原基可逆变换；不重算Hom/period/LLL/SVP。
+- root及ordinary核去迹因子21、裸η极除子系数1、q/v域类型、一般非实a的K上NS后下降，以及原对称代表可能二挠差的独立刚性化范围。真实rank/degree未本地计算或预填。
+- core9fc7f30b、proof14a0a9e8、R793 proof6f716b64均绑定；仅AST/来源/schema核验。R787原函数仍运行，R795/R796继续有限实际输入，主目标OPEN。

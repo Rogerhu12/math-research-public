@@ -1,0 +1,50 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R794-original-low-degree-eta-basis",
+    "p": 41,
+    "budget_minutes": 30,
+    "producer_inputs_pending": false,
+    "core": "R794_original_low_degree_eta_basis.py",
+    "core_sha256": "9fc7f30b06ebe4d2721fc5e67aecc40abae2d72a58268e8eac9164d3ff1c3d45",
+    "proof": "results/R794-original-norm-polarization-and-low-degree-eta-basis.md",
+    "proof_sha256": "14a0a9e8bafdf8d45766aef148f9b4c8034dd5b326ac310972551fe51a4d2cf5",
+    "R793_proof": "results/R793-original-RR-pole-divisors-and-CM-local-algebra.md",
+    "R793_proof_sha256": "6f716b64432227244a46d91f01ae2f46ba6d4a5f893666693ed07dec9e2e5cab",
+    "candidate_set": "12 basis,66 sums,66 differences,5 old g_j caps",
+    "workflow": ".github/workflows/serre-p41-low-degree-eta-basis.yml",
+    "retained_artifacts": {
+      "R791": {
+        "result": "R791-original-Hom-Galois-and-eta-inputs",
+        "run_id": "43686308194",
+        "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+        "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+        "artifact_id": 14149997458,
+        "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+        "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+        "certificate_name": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+        "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+        "files": {
+          "p41-original-Hom-Galois-and-eta-input-certificate.json": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46",
+          "R791-original-Hom-Galois-matrices.json.gz": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183",
+          "R791-original-real-descent-and-eta-basis-inputs.json.gz": "24a894163f136a4e8c71b117e373f8fafb66a6e0c94b4efe3f141f78bb39b968"
+        }
+      },
+      "R759": {
+        "result": "R759-original-integral-period-lattice-and-map-degrees",
+        "run_id": "43625474728",
+        "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+        "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+        "artifact_id": 14125233728,
+        "archive_sha256": "2ae069c394c7038f10743c7d9c7981b509579780bca3d0c69772419e3836b883",
+        "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+        "certificate_name": "p41-original-integral-period-lattice-and-degree-certificate.json",
+        "core_sha256": "17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0",
+        "files": {
+          "p41-original-integral-period-lattice-and-degree-certificate.json": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+          "R759-original-integral-maps-and-bounded-recovery-input.json.gz": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+        }
+      }
+    }
+  }
+}

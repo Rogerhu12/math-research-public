@@ -252,3 +252,7 @@ R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156�
 ### 同一sigma核的高Hurwitz块不增加独立条件
 
 [高块刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)保原六同源、Gaussian、tame点和普通导数整性，证明全阶a_(p+n)=κ n a_(n−1)，F/G均成立。正确Hurwitz环中双核D_z^pK=2κzK、D_t^pK=2κtK，故完整核由首p×p矩形唯一决定。两数位gauge的加法余项准确复现R788 Φ；继续同核高pole/p²/Hirota块不会增加独立支撑方程。首矩形rank6/Schur仍是实质几何条件，原同标签三单位、实际高度和全p排除仍未证。
+
+### R794：保原五方向的有限低次数η输入选择
+
+[R794](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)证明原12个Hom基与两两和的范数张成整个实域，按真实Gram次数去迹后覆盖原F⁰。固定149候选作按degree排序的线性拟阵贪心，只声称该清单内最小总degree；原κ/e_R、全部五方向和可逆基变换保持。一般a∈E的映射先在K上，Norm的自伴NS类/η在⊗Q下降；实际线丛的二挠代表比较和刚性化常数仍须保。专用公开请求已启用，真实rank/所选映射/次数待run；新Laurent、极除子和高度未计算。

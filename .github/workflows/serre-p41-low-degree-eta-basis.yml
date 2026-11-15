@@ -1,0 +1,63 @@
+name: Serre p41 original low-degree eta basis
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R794-public-low-degree-eta-basis-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R794-original-low-degree-eta-basis
+  cancel-in-progress: false
+
+jobs:
+  original_low_degree_eta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-low-degree-eta-basis.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R794_original_low_degree_eta_basis.py
+            /topics/serre-uniformity/scripts/R794_public_low_degree_eta_basis.py
+            /topics/serre-uniformity/scripts/R786_public_exact_power5_short_basis.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R794-public-low-degree-eta-basis-request.json
+            /topics/serre-uniformity/results/R794-original-norm-polarization-and-low-degree-eta-basis.md
+            /topics/serre-uniformity/results/R793-original-RR-pole-divisors-and-CM-local-algebra.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Select finite original eta basis from completed inputs
+        continue-on-error: true
+        timeout-minutes: 38
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R794_public_low_degree_eta_basis.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R794-original-low-degree-eta-basis-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R794-original-low-degree-eta-basis/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Require the exact five original directions and basis change
+        if: always()
+        run: python topics/serre-uniformity/scripts/R794_public_low_degree_eta_basis.py verify
