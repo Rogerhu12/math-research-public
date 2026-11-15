@@ -117,3 +117,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:33:06 UTC /root — actual116 八次较小接受与弱响应
 
 [完整实际](notes/2026-11-15-actual116-eight-smaller-acceptances-and-weaker-response.md)：run43690052251/source4f4dbf70，8接受/27外trial/零全拒，W1236.0078724708571→1234.283357373182；末radius.000390625、完整3×4小奇异.19378008756935441，unit仍−49.684657180215且全部最终false。981eval零异常/131J，多个inner tol=false仍获原full3接受；四列FD和theta冻结原方形检查重做，新Arb841叶0未决。summary77038B/d24aa292、status1603983B/5e5b634c。后继比较实际末点接续与独立控制响应，不冒极小/无根。并发同步行冲突曾造成本地H截断，自动检查阻止推送；已从完整R282基准逐字恢复正文、核最终差异后普通提交推送，未把截断正文发布为main终态。
+
+## 2026-11-15 07:34:55 UTC /root — 新四控制到完整112的真实源码边界
+
+[完整接口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)11640B/bce38137已读并发布。root额外核原full_dn_solve目标、physical_test完整入口与R259全文：旧main直接取原前三coefficients，没有λ；固定θ三active453维或另选真实minor须新明确坐标身份，不能重标v3warm/accepted。完整112横截/高109、rawφ一阶初猜、当前H真实native/finalJ/audit及接受后的450维same-g位置写明。只有source/条件接口，没有新solver、请求或数值。

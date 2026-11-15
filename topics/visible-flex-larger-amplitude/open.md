@@ -32,6 +32,8 @@
 
 ### 1D. 真正接受后的同live fullDN
 
+[四控制到完整112的源接口](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)已查明：ThetaFrozenProfile仍为三active/453维，原main无λ且硬取原前三目标，旧v3 scalar/warm不能吃新四参数后改标签。需要独立明示新scalar/冻结坐标/λ目标和初猜层，保原112右行、高109自由core、rawφ切向公式与真实H/native/finalJ/audit；非零完整场未有，不预选λ或伪造accepted。
+
 [实际H→FD→fullDN](notes/2026-11-14-live-current576-actual-H-FD-full-DN-interface.md)和[逐请求snapshot/QR](notes/2026-11-14-live-current576-per-request-adapter-interface.md)已有入口。须真实native成功、自己的finalJ/fresh audit，再付原outer/inner、RMS1e−6、BC1e−11、FD和完整fullDN。不能把completed95条件适配器用于失败95；身份接线完成不等于科学接受。
 
 第15条下应在同一Actions临时worker续接真实输出，或按公开配方真实重建；不能由compact摘要伪造原锚。消费后的临时factor可删，但保当前状态及终检所需数据到消费完成，单call预算不冒累计空间许可。

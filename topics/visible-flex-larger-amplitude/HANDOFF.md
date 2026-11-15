@@ -36,7 +36,7 @@ run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，
 
 [113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md) CPP1b59cd10/bridge3655c81a/probeba3564ca与28源pin不变；[修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md) requestce294b5e/workflowdb8a479b只恢复8bd26710两原ready至既有env，ledger109004B/563a9997、stored29774B/c1c44f23；owned只读父目录终清理补权限，不改数据。
 
-真实__float128113位覆盖e=L−target、226态RK、节点+αdelta、129248残差；geometry/角表/scales沿原64字面值。原noJ k/steps+cusp，不冒与withJ n*h同bits或连续ODE。两root配置8e−14/5e−12与1e−28/5e−27先两base后十α；7200s仅128child，导出/额外64base/初J/R273另计，step320min/job350。partial/error后回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留，旧64J不是一致128J，无新接受锚。[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)相邻词无改善、完整R273后十档全拒，非普遍精度底线。
+真实__float128113位覆盖e=L−target/226态RK/129248残差，geometry/角表/scales原64字面值；两root配置和原noJ网格不变。7200s只128child，导出/64base/初J/R273另计，step320min/job350；partial后仍回原64完整solve/finalJ/audit。旧64J非一致128J，无新接受锚。[实际103](notes/2026-11-15-actual103-neighbor-rejection-and-complete-R273-trials.md)相邻词无改善、完整R273后十档全拒，非普遍精度底线。
 
 [后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)：持久128状态、全新残差右端、真实匹配变分/cut/二阶jet/audit仍待付。隐式J缺B⁻¹Dε，root残差小不界Dε，同4个RK现场亦不等有限停止程序exact J。等实际113证据决定，不另造无依据solver/fixture。
 
@@ -49,6 +49,8 @@ run43685348016/source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f/job132724561759，
 116末radius=.000390625，3×4最小奇异.19378008756935441、前三列.16017404141989777，响应变弱只是浮点证据，不是极小/无根证明；981eval零异常/131J，多个接受inner tol=false，原full3门独立。summary77038B/d24aa292（不含LF）、status1603983B/5e5b634c、trace1486228B/a7adda6a。四列FD全完成但整列归一误差不等最弱奇异值相对误差界。fresh初W/J不冒父逐位值。
 
 新Arb841叶/398split/0未解，仅声明a/ap实表达；theta冻结原3p/K3/T112零corecircle完整物理/domain检查通过，非非零父场。Gauss导数兼容/C²/roundoff/Frenet、高109/横截/非零λ/native/finalJ/audit仍未付。exact_refinement比较后继同源8批与其他支撑odd独立控制，尚无新run/响应；不盲称四控制无根，不等阶段回复。
+
+[非零112实际入口边界](notes/2026-11-15-four-control-to-nonzero112-source-interface.md)已明确：旧main硬取coefficients[:3]/v3warm且无λ，须独立新scalar/三active视图/λ目标绑定；不能重标旧accepted。R259完整112及高109、rawφ初猜、当前H/native/audit保留；仅实际接受后冻结全部设计值转450维same-g。
 
 ## 几何及接受场之后
 
