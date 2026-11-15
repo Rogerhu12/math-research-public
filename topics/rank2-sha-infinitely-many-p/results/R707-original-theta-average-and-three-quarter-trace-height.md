@@ -488,3 +488,73 @@ R700 的逐项复界给高度主系数 1；
   同一原迹与边界恒等。
 
 本篇为一般证明，没有数值扫描或新增可重算数据文件。
+
+
+## 增补：Eisenstein 最大公因子把 log 损失降到一次
+
+保持以上所有原来源、相位和全计数，(15) 可用更准确的初等界替代：
+$$
+\boxed{
+\sum_{0\le n\le X}R_E(n)^2\le C X(1+\log X).
+}
+\tag{25}
+$$
+证明直接数 $N(U)=N(V)\le X$ 的有序对。
+零向量对单独只贡献一。
+对非零对，在 Euclidean 环 $\mathbf Z[\omega]$ 中取
+最大公因子 $d$，写 $U=du,V=dv$，且 $(u,v)=1$。
+
+逐素分解可知 $v=\zeta\bar u$，$\zeta\in\mu_6$：
+惰性素数在 $u,v$ 中的指数由范数相等而相等，
+互素迫它们都不出现；分歧素数同理。
+对分裂素数 $\ell=\pi\bar\pi$，
+互素和范数相等迫其全部指数分居 $u$ 与 $v$ 的共轭两边。
+所有素因子合并后只剩一个单位 $\zeta$。
+
+选定 gcd 的单位代表后，每个原有序对因此由
+$(d,u,\zeta)$ 唯一确定，且 $N(d)N(u)\le X$。
+放宽互素条件只会增大计数。
+二维固定格的圆盘点数满足
+$\#\{d:N(d)\le Y\}\le CY$（$Y\ge1$），故
+$$
+\#\{(U,V):NU=NV\le X,\ U,V\ne0\}
+ \le CX\sum_{\substack{u\ne0\\Nu\le X}}\frac1{Nu}
+ \le CX(1+\log X).
+$$
+最后一步按 $N(u)$ 的 dyadic 环带并用同一格点界。
+这证明 (25)，不需要平均除数函数定理。
+
+模 $q$ 同余计数仍完全按第5节的两个长度 $q$ 块处理；
+将新的 (25) 代入那个 Cauchy–Schwarz 即得到
+$$
+\mathscr N_q\le C_mq(1+\log q).
+$$
+非单位和零向量的第6节不变。
+因此可以将 (17)–(23) 一并加强为
+$$
+\boxed{
+\begin{aligned}
+\sum_{h\in\widehat H}
+ |\langle f,\mathsf W(h)f\rangle|^2
+ &\le C_m(1+\log p),\\
+\|\mathsf P_Hf\|^2
+ &\le C_md^{-1/2}(1+\log p)^{1/2},\\
+\sum_{r\ne0}|\mathscr S_{p,m}(r)|^2
+ &\le C_mp^{5/2}(1+\log p)^{1/2},\\
+h(\mathcal T_{m,T_v})
+ &\le\frac34\log p+\frac14\log(1+\log p)+O_m(1).
+\end{aligned}}
+\tag{26}
+$$
+若原边界非零，最终准确上界为
+$$
+\boxed{
+v_p(\mathcal B_m(v_T^d))
+ \le\frac34+
+ \frac{\frac14\log(1+\log p)+O_m(1)}{\log p}
+ -\frac1{p-1}.
+}
+\tag{27}
+$$
+以上只加强对数次项，原 $3/4$ 主项、充分大 $p$ 的严格
+小于一结论及全部原算术缺口保持不变。

@@ -1,0 +1,26 @@
+{
+  "request_id": "rank2-r702-mixed-neutral-complete-quarter-adaptation",
+  "run_id": 43688445408,
+  "source_commit": "d298224a04c8656fb631654d2f930cee66e59b7b",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r702-complete-quarter-source-adaptation.js",
+      "script_sha256": "6d9bf34737635b0885c34b22100176db1f2e98e20125ed448ba602d8033e5d2a",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
+      ],
+      "engine": "node",
+      "sha256": "d4ebabcd9cd34dc37eefa8bb9e8aa847c3e3b9bab536f8192fcecb3c1eb5ac00",
+      "stdout_bytes": 17300,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132733759764,
+  "scope": "Actual auxiliary 53x152 system: rank 46 and consistent at tau 2,3 and eta +/-; all seven left RHS pairings vanish. Full parameter relations and arithmetic denominator costs remain unproved."
+}
