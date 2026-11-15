@@ -56,7 +56,7 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [真正九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)已发布profile070b9b35/full1121610d6fb。只接受真正00e4完整接受父场或本新入口自己的实际450；保全九末系数、完整支撑/width/port及点/批两条原有限scalar路径。全部九冻结使K=k=0，物理338加112自由core=450，空target为左338/右112；不继承原三固定目标，不把空active重写成空冻结系数。
 
-新网格明确父全部节点+全部中点+原literal knots；先保父physical/core词，再按末九系数fresh RHS和原Hermite初猜。max_nodes必填，699二分1397还可能加knots，不能留旧1200上限。真实当前H/fullJ、原FD、同owner原band/fullDN及全部原最终门不减。未选择未来父场、参数、λ或run；新source不是实际450结果。独立SavedPrefix/closed消费者尚须显式适配新schema，不能丢shape冒旧v3/v4。
+新网格明确父全部节点+全部中点+原literal knots；先保父physical/core词，再按末九系数fresh RHS和原Hermite初猜。max_nodes必填，699二分1397还可能加knots，不能留旧1200上限。真实当前H/fullJ、原FD、同owner原band/fullDN及全部原最终门不减。未选择未来父场、参数、λ或run；新source不是实际450结果。[九450独立v2兼容接口](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)和5e95afdb/92cfb070已发布，旧070b/1610不改。v2明确支持原00e4与新0433两类真正完整接受设计父，分别核各自schema/source/全部来源闭包；H父保原helper/policy/端点receipt，回执只作来源，不当450缓存或新成功。自身后继父只认真v2；所有九冻结点/批数学路径、网格重构、原450 main/全J/FD/fullDN/finalaudit不变。本v2不在450中自动重演H路径。独立SavedPrefix/closed消费者继续接真v2 schema，不能丢shape冒旧v3/v4。
 
 [原完整闭面入口](notes/2026-11-14-accepted-full-DN-shared-closed-followup-interface.md)等待真实fullDN及自身final audited tail/config/port：保完整physical/material/z0/mean，接R249首单元、同一shared quintic B及两帽。不得添旧A mean、把目标g改为B′或从失败场制造接受request。[R274](results/R274-shared-background-cancellation-and-open-piece-nonplanarity.md)及[shared-B适配](notes/2026-11-14-shared-background-planar-germ-adapter-interface.md)需同场非零见证；有限phi不等于连续theta，DFT相等不自动付seam。
 

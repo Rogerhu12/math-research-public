@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:52:49 UTC root终端已恢复，真实 git pull --rebase origin main 后读main f4f4611b00288ef8e077ee8d26797d964d16e380；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f4f4611b00288ef8e077ee8d26797d964d16e380。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 09:54:04 UTC root终端已恢复，真实 git pull --rebase origin main 后读main c46cc01a8ca5d26f912e2b8979f3576a52e41274；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c46cc01a8ca5d26f912e2b8979f3576a52e41274。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -28,7 +28,7 @@ root唯一Git/pull/push/ref及workflow发布者；每条结论立即推，每pus
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101已接原00e4九设计和e830同worker全112H(s)；[独立runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保持原进程组/300min总deadline/90KB原字段。完整六shape/三active453、真H路径端点全J→原FD→同owner fullDN/finalJ/audit，原门不减。fresh-circle只是初猜，新recipe须显式真九p/正λ/来源；中途收敛不冒完整接受。无实际九正λ结果。
 
-[九全冻结450](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b9b35/1610d6fb已发：全九末系数、点/批两原有限路径，K=k=0/450、左338/右112，真父词后fresh RHS与二分+全knots；max_nodes必须容1397以上。原版只认00e4真接受父/自身450；独立v2显式接0433父及其原receipt正准备发布，不重标父。exact继续SavedPrefix/closed消费者，无未来接受父。
+[九450原版](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b/1610保持；[独立v2](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)5e95afdb/92cfb070已显式支持真00e4或0433设计父/自身v2，完整各自闭包及H原receipt不重标/不当新缓存。全九末系数与两有限路径冻结，K=k=0/450、左338/右112，真父词→fresh RHS/二分+全knots，max_nodes须容1397以上；当前H全J/FD/fullDN/finalaudit保持，450本身未自动接H路径。exact继续v2 SavedPrefix/closed，无真实接受父。
 
 ## 原六H(s)与native方向
 

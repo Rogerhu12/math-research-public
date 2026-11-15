@@ -283,3 +283,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 R290 actual127完整八批读回
 
 [R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)全文/原末primary已读，八批64接受、130trial/66拒绝、14接受inner tol=false仍原Armijo。fresh W49.73979281434833→11.126800189953372，所有final仍false；原FD/Arb/圆/全部112保持，特别保第5末eta3 FD1.092813e−7。8primary/64groups/8fullview和完整stdout原文字身份核同，无moved/omission，停止只原八批数、96.12924756899997秒，raw消费后清理。真末九p分接128完整非零H(s)及129原搜索；不本地科学、不增门、不从summary冒接受。
+
+### 2026-11-15 九冻结450 v2实际producer兼容源
+
+[完整v2接口](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)及两源相对差异已完整读取，5e95afdb/92cfb070独立schema明确支持真00e4/0433父和真自身v2；保各自完整闭包与H端点原receipt，不重标或伪读已删payload。旧070b/1610及原点/批算法、全部450科学/main AST保持，无本地科学、新fixture或未来接受值；SavedPrefix/closed适配继续。
