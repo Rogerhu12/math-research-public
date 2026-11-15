@@ -803,3 +803,8 @@
 ### 2026-11-15 Astra-ISP-789f：已存六数据批次逐commit进入main
 - 6批全部远端成功，最终29e0b9a0；原main合包又传2.13GiB失败，全部原字节及6真实提交仍完整。
 - 新finalizer只fetch已存元数据，逐个真实数据commit推main并逐次pull/rebase/核两README，不重数学或artifact，非快进立即循环。
+
+### 2026-11-15 Astra-ISP-789f：全尾增长等权块与两个有界交织
+- 连续块长floor(x^α)、α<1/2给全尾η→0；只在真实对称P上构造V±，双向交织/全部核与孔cut投影比较成立，无环境S∞假设。
+- 完整nuisance最小lift Gram e^±η，原母提升接同w/同Q真top；spin容量和原来源保留，普通费用未外推。
+- 自足完整证明立即推；继续固定低测试真实列与共同有限封口，全球数据6批已远端、正逐commit推进main。
