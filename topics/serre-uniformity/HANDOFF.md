@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；日志Asia/Taipei。以远端main为准，不寻找或重推旧未推分支。
 
-已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次R794前H](notes/2026-11-15-handoff-before-R794.md)。
+已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次Hurwitz前H](notes/2026-11-15-handoff-before-Hurwitz.md)。
 
-**已读规则提交：8085848cc304675b7879b6f678b1c047af41acc2**（2026-11-15 07:40 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：c8f0a8004f424dcddf6ec40e26303729ab06cf86**（2026-11-15 07:43 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -40,16 +40,12 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom�
 
 ## 全p sigma与真正高度缺口
 
-主目标余R317 p>37、p2/5mod9、完整非分裂正规化子、a³+db³1、p|b，变化D/bc无上界。实际正CM角色Ψθκ4根号负，逆κ4秩零应用已撤回。R616非挠接口和R726充分大全p非消失/rank=dim/log同构已成，不给高度排根。R707 p41全129盘=121排除+8CM且无Qcusp已经关闭；R7065992素数窗/R719与R722的137147/R739两定点均不重做。
+主目标余R317：p>37、p≡2/5mod9、完整非分裂正规化子、a³+db³=1、p|b，变化D/bc无上界。R575正CM角色Ψθκ4根号负；旧逆κ4秩零应用撤回。R616/R726已给充分大全p原指定β非挠、rank=dim及log同构，只是高度接口。R707 p41全129盘=121排除+8CM且无Qcusp已关闭；R706有限5992窗、R719/R722的137147和R739两定点均不重做。
 
-**同一本原标签仍缺**：R770准确平方与Legendre/Möbius配对保同h，真正条件是N_h与两个Cartier同h三单位。R734某N单位、R741至少半数N单位，不能和R737低η比例拼接。R730全尾/R742整数η及R744次数≤3的真正Weierstrass因子已证；深度4/5/6实际根与高度仍须求。原KS不设单位，完整Abel等距不替正秩有理点排除。
+**真正同标签非零仍缺**：原primitive/Legendre可见集要求同h的N_h和两个Cartier量三单位。R734/R741的N单位数不能与R737低η比例拼接。R730全尾、R742整数η和R744真Weierstrass因子已证；深度4/5/6实际根与高度仍须求，不用完整Abel等距替正秩有理点排除。
 
-R782原Hirota六倍阶关系、R784三wedge/六截面与L Kfull=2^(p−6)I均已证，权筛准确运输但仍未非零。R788有限环K=(1+Φp)P(z+t)Q(z−t)、det36/rank6和完整Schur把原Cartier源接入；未筛critical全零迫六零行，不可用于仅primitive筛后全零。D12常系数逐项消高带会同时消critical，R739真可见p41/h37亦以f5=0/g0=1否定逐项单位反射，均已登记不重做。
+R782/R784三wedge六截面、保筛左逆与R788准确跨p Cartier有限核/rank6/Schur均已证。未筛critical全零迫六零行不能移到primitive筛后；D12常系数消高带会同时消critical，R739真可见p41/h37也否定逐项单位反射。跨p源C13单位仍不能消N+1高带；六有理截面的D与D6闭包恰L(pO)，固定宽捷径关闭。完整证明与失败边界见[前H归档](notes/2026-11-15-handoff-before-Hurwitz.md)及所链notes。
 
-[跨p零支撑续记](notes/2026-11-15-sigma-cross-p-zero-support-research.md)进一步证明六行p+6源中C13=−481/27720始终单位；有限微分式K(Kzz−Ktt)−Kz²+Kt²=2κ(z^(p−1)−t^(p−1))K²亦保真Cartier源。但N+1高带未消；原六截面无有理scalar gauge的常数域微分闭合。真正primitive/Legendre可见集的乘积非零仍开，不新增有限扫描。
+[Hurwitz高块刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)：保原六同源/Gaussian/tame点，全部普通导数a_(p+n)=κ n a_(n−1)、b同式；双核D_z^p K=2κzK、D_t^p K=2κtK，故完整核由首p×p矩形唯一决定。两数位gauge准确复现R788 Φ，同核升p²/Hirota不加独立条件。后续只寻首矩形内独立Cartier/几何配对，未称critical或真正筛后非零。
 
-[真实稳定空间](notes/2026-11-15-sigma-stable-space-research.md)证明六有理截面的D与D⁶闭包均为L(pO)，D为长p单Jordan块、同权块长N/N+1；固定宽常系数捷径关闭。σ¹²的完整zeta连接仍挡住零串传播，critical/真正筛后非零未证。
-
-**真正高度仍为主要缺口**：R690/694/696原坏靶Ω={0}；R634消A高度矩阵但保Y/Picard/常数。R724完整规范含因子2、第二类period、原MW Hecke轨道、ℓ=yᵀL^-ᵀHL^-1eη以及Poincaré/universal-extension/非p项；未反演H。实际η/β坐标、完整高度jets、(724.33)有限Bézout及其全p存在仍未生成/证明。
-
-R785把高度压为原ι/极化M下ΣTr(cα x*ᵗMαy)，需ΣdimFα^+真实参数，原分母全保。首外积类[s_i] mod Qp(v_i)，s_i=2Tiλi0−λi1+2Θi1−4TiΘi0，v_i=Ti−Tg仅向量非零；CM值与切向两列同时保，A/Y允许splitting不变。实际类非零/赋值未求，不用Rosati实正定代p进非零。完整历史和全部符号见[此次R791前H](notes/2026-11-15-handoff-before-R791-actual.md)、open及归档链。
+**真正高度主缺口**：R690/694/696坏靶Ω={0}；R634消A高度矩阵但保Y/Picard/常数。R724给完整第二类period、MW轨道、Poincaré/universal extension、非p项与尾及有限Bézout接口；未反演H。R785原Rosati块把参数压至ΣdimFα⁺，首外积类保CM值与切向两列且splitting不变。实际η/β、规范高度jets、(724.33)有限Bézout及全p存在均未完成；不以Rosati实正定代p进非零。原全部公式/符号由正式R724/R785及归档链保留。
