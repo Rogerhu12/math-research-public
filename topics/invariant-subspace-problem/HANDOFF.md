@@ -33,7 +33,7 @@
 - **全56Ω120与约化：** step32/71.12834121秒全核，cert39654723·147a40fa/payload0ca29224。step33/0.002218695秒及两独立全121/316乘回给barΩ=Q60²、barμ|B21；outereca924ad/raw3463·b536af2e，未断μ1。全证明/原范围见上文外除子8411。
 
 - **[全局I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，全197原4367/505/315/J/DAG真；χ=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21。outerf6b83a6e/raw46870·5d9fc76f；I3须197纠偏源、7参数关系+b8/pb9。step5全210 recipe已0.510477秒核真，33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。
-- **F127覆盖修正：** step6原整数恢复真；step7在3333+2195=5528断言失败，outer77c527bc/raw585·5f276aac，旧NF未执行。新model全364×17给2855补集/660新增源；新ID original127-original-model-all6188及original127-complete-normal-forms-all6188-180，源a0eec726/46ef43c4/050ef5d7，NF180秒/2GiB。新out均后缀-all6188，逐660实际读零/非零；GB/∞资格未付。request为notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
+- **F127完整6188：** 旧step7因3333+2195=5528失败（outer77c527bc/raw585·5f276aac），旧NF未运行。新model-all6188已0.025017904秒全4433/6188/18单位真，raw3207·fcaeb395/binding7196ed17；2855含660新增逐条实算。NF180秒/2GiB源46ef43c4/050ef5d7，out original127-normal-forms-all6188；成功才接GB900秒/2GiB源696c3c07/e4cb324c，out original127-complete-graded-module，保整行恢复。torsion/∞资格待付。request为notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
