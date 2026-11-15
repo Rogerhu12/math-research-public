@@ -39,3 +39,7 @@ root已逐字核原完整数值函数前缀45af989916129a4d193e6ad948cc2c83d9a54
 已核run43657933806/process e54c7505…、worker41536fc3…、publication05322dfc…；child0、数学proved/complete、17门、新4转换/4积分、2旧stage原payload不变、0旧target/FFT/Taylor/矩阵word重算。native6b5e6c64…25724B原样保。负完整源<2163674680531，其中local<2163671470697；正完整源<2163193978865。该upper没有足够小且不是下界；root继续原Taylor真实局部θ二导和全尾。17门是身份、覆盖、完整源范围门，不是强返回小量门。
 
 runner00:24:04.151912真pull4aea83bc…、00:24:06.346016真pull731044d9…，两次两README实际diff空。root00:31前再次尝试本机git pull --rebase，仍No usable execution environment；按根规8仅小文本connector，未读取native。发布前只读两README核于7edb0a269e4b2e73f24fefef7ba4017dbf2e46d7无变。H/open已更正旧local数为归一化幅度sup、并接Y/Z后真正强标签/帽/ν缺口。下一工作继续，未收尾。
+
+### 2026-11-15 00:33:02 UTC：完整97右Poisson Gram合同独立推送
+
+已全文核P1–24（blob65f96004…/SHA2a3d74a9…13281B）：完整右端97输入含独立mean；非零qcut必须用末格Vcut^ex；E_i是同一个精确乘积，dyadic+半径只是包络、不添物理跳。完整signed Gram先算，再加PSD slack；右误差只完整even97列；body缺陷始终覆盖全5970。全部V真跳对同一输入按weighted Cauchy合并，不能当正交。原有限BVP Green恒等式付后验，无新全BVP Neumann假设。cut采用独立点核/迹门。新数学尚未运行；newton继续最小SCI/CI。两README只读核eec9d25f6a9e5b787370c440b9161c6f1bdcaa36不变；未完成总门，继续。
