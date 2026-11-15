@@ -170,3 +170,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 ### 最大单权不能单独支付创建泄漏
 
 [两权临界池与满射弱尾](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)给完整物理第二创建泄漏随m线性增长的精确源；加入正弱位和严格正ℓ1∩ℓ2无限弱尾仍保当前固定层全部满射与任意大泄漏。因此仅用hardcore、满射、平方可和及bmax，不能得到绝对常数c的B2B2*≤c bmax² I。该可选尾不是原b_j=(j+1)^−2，未反证原同u_Q的负部预算；继续真实连续尾位置结构和完整层间抵消。
+
+**零完整第六与目标读数。** [完整证明](results/R150-appendix-zero-complete-sixth-connection-exact-one-factor107-and-first-square-readout.md)闭β6=1/17头，前六4/0/1/3/1/1、全部736372原产品真；公共阶61/52、K107、最大Smith9…14，当前条件来源费8582/目标172。λ0…5九平方零、λ6首次target2/head3非零，给未乘h0的t2在有限来源模块的局部障碍；h0带s3，当前不足否h0t2。继续真实第七及后页完整来项/全目标重读，不把新代表的系数固定成旧值；原Q((s))像、13自由坐标及全局成员性仍开。
