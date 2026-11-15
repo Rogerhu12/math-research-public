@@ -88,6 +88,8 @@ R354的全偶反射/正ω桥及R357–360真实母、primitive/Green/有序尾�
 
 **下一完整对称函数是ZZ2与YY0。** R376已完整支付ZY0/WY1，见下。
 
+[R380](results/R380-sixteen-real-targets-and-one-finite-root-pay-the-complete-Y-square.md)把YY0的唯一π/2实际值加入原15行：αY²与x²αZαY在权8的det=−(d+6e)/2，16真实同母jet/最大minor及192实际正幅列给同一有限N的16行根。旧18面积由R349/R377先清完整角商，故整个Y²现付；九完整对称乘积及ZZ0/1共同保持。只余ZZ2完整角函数。Fnew保C²观察，Ψ/三directed由联合完整根恢复，不能误说纤维逐扰动保持。
+
 [R377](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)已准确识别YY0完整C²角商：3FY0=FU2−FL2，legal整个q使Yq²真紧，KY=(SUY2−SLY2)/3；原primitive收成无除x的局部四次式，正域反演保x²I2常数独核一致。实profile扩展严格正不能搬为复三矩圆障碍。原R349完整SUY2=−5SLY2（全primitive/Green已付）给KY=−2SZY2/(d−5e)=0，d−5e>0，所以额外角商已经由旧18面积消去。YY0只余一个π/2实际值待联合，无需另添C²纤维；初稿额外欠账已校正。
  剩余位置不是独立rank或已知可调scalar；每个须先付完整角商/真primitive/Green，再证同一母与已付Fnew下真实正锥及有限N共同根，不能只加principal或拼不同最终圆。所有profile/支撑/幅盒/N先有限确定，再按R354初选he与ω>Ω的新hook；不能从旧几何继承wholeE/Morse/period，不能当作固定g flex。其余零/一history、canonical第四period、平台/退化flux/端germ和同规范joint仍须另付。
 

@@ -518,3 +518,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## H 层完整性待核（2026-11-15）
 
 [复核边界](notes/H-layer-completeness-review-20261115.md)：完整−Y_n恢复项的λP(Y,n_acc)+γB(Y,n_acc)/h²与R358/R365显示式待逐项核归属。R358/362/365/371的特定完整H、维12/≥13和相应实际13控制暂挂；R374未发布。不得以本问题自动否定显式保完整Ψ的R370、R350平方项或R367 Green。此条是问题登记，不是新数学结论。
+
+## R380：十六真实目标同根支付完整Y²
+
+[完整证明](results/R380-sixteen-real-targets-and-one-finite-root-pay-the-complete-Y-square.md)。先由R349/R377原18面积严格清KYY0；新增αY²与旧权8行的det=−(d+6e)/2，权组1/4/5/3/2/1。原copy真实权/偏移偶平均在次数≤10上可逆，16个有限二jet在同一个正偶母与Fnew最大minor上实现，16χ×12=192实际列满16且严格正核。一个实际有限N的完整16行根保旧十五目标/18面积/T并共同恢复Ψ及三directed，付全部YY外矩/相位。九完整乘积已付，唯一剩余ZZ2；不授whole period/joint/固定g。全文11595B/SHA256 ab4339cf426f1d386e7682ff0799bd6c598a6854239cee42b315ffea49b57eb8。独立Gaussian链不使用暂挂H秩。
