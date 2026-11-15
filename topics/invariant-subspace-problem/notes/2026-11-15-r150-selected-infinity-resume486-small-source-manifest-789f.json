@@ -1,0 +1,70 @@
+{
+  "format": "isp-selected-infinity-resume486-small-source-manifest-v1",
+  "rulesReadAtCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+  "sourceOnly": true,
+  "allFilesUTF8Below100KB": true,
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-through1024-789f.cpp",
+      "bytes": 19389,
+      "sha256": "6ff3cb4a9ee7415bef17495f2b6d140e80d035754489bc86a8029e291e7e4709",
+      "blob": "25eb132bf5c7f8327e4182526367e20e7f321fa7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume486-runner-789f.py",
+      "bytes": 23721,
+      "sha256": "a220810454b6c75feb8a661203615d1205687759b135334daa9f2690ae605d23",
+      "blob": "f75471d1e173bd0ae27d43aa11783cb5434da5b2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-resume486-input-locations-789f.json",
+      "bytes": 6251,
+      "sha256": "8b32fc742ec8b767beec7e1f1a614b8fd455f8814efd1aeeca73cdc3d0f9c6d4",
+      "blob": "c5a4bcc0fe8d182b641fe0cc2704dc962b42056d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-resume486-actions-interface-789f.md",
+      "bytes": 7677,
+      "sha256": "daf9e5fc31ac144782f5e84718171d407387a066719416686daccd102c2f3a1a",
+      "blob": "be8f60e69b4d71d65d413a8553326fc490572746"
+    }
+  ],
+  "reusedDependencies": {
+    "2026-11-15-r150-saturated-global-common-789f.hpp": {
+      "bytes": 11284,
+      "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+    },
+    "2026-11-14-r150-f31-bitplane-789f.hpp": {
+      "bytes": 3030,
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    }
+  },
+  "historicalInputCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+  "inputCount": 11,
+  "historicalInputCount": 8,
+  "currentP486InputCount": 3,
+  "mainReceipt": "selected-infinity-dixon-after486-small-summary.json",
+  "nativeCompilations": 1,
+  "compileSeconds": 30,
+  "sharedMathematicalSeconds": 120,
+  "nativeMemoryMiB": 512,
+  "startExponent": 486,
+  "defaultMaximumRequestedExponent": 768,
+  "sourceClosureFirst": true,
+  "skipOnlyWhenPriorSourceClosureProvesFull36": true,
+  "allowedOutcomes": [
+    "exact-selected-characteristic-zero-rank4318",
+    "first-nonzero-selected-obstruction",
+    "full-extra-row-obstruction-only",
+    "bounded-precision-complete-without-rational-kernel-basis",
+    "checkpointed-time-budget"
+  ],
+  "binaryGitPublicationAllowed": false,
+  "binaryReleasePublicationAllowed": false,
+  "binaryArtifactUploadAllowed": false,
+  "temporaryWorkingFilesRetainedWithinJobOnly": true,
+  "persistOnlySourceParametersRunSmallReceiptAndHashes": true,
+  "ASTExecuted": false,
+  "nativeCompiled": false,
+  "mathematicsExecuted": false
+}
