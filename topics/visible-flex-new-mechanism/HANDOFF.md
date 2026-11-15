@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:51:58 UTC实际pull后已读规则提交：`92961ce5b5a526109c3ba6c101961dc3c3100a85`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 09:54:25 UTC实际pull后已读规则提交：`2649a29bd71ac4b286d6b68f830b6022fa210d31`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **154 actual已消费**：43694686825/source71744524/job132752541415，见notes/entry-tail154-first-actual-result-20261115.md。B103/T51全uv动、9height固定，旧尾锁峰解除。四前缀各一次必要恢复，fc0d8139 η .26653564958657405→2ee6e90e .26652257791835787；8主LP/5接纳/0SOC，降1.30717e−5。恢复漂移大于新降幅，未破103最低/未达.26。m1/m3真曲率失败；m6硬门过而fineη增，新soft返回跳SOC。末两高比率已增下一半径，120.0745秒先到；全880.5913秒，fine J85.1928秒。原两网门过/帽高仅tol，新metric/reach未付；不延154预算。
 
-**159五高度首次公共入口已提交，结果待消费**：notes/entry-tail-five-height-null-implementation-20261115.md及computations/request-continuation.json。原163物理族、159独立坐标，entry3/tail2精确零积分；九有理canonical与float评价分层、c3/c8真耦合盒，物理Ms的∞/L1。B/T继承实际154controller不重置minimum，新rH=4rB。六源码/driver/IO全静态审，33来源/98原参数仅out改；先首次新人工，通过后五前缀各一次必要恢复，再12LP/40值/120秒新阶段。原全门/soft跳SOC保留；现未有新人工或actual结果，不冒可行/下降。
+**159首次新开发输出失败，正修接口**：run43701306331/source40c0f4d6/job132772851014，developer返回后atomic_save遇NumPy bool序列化TypeError，未打印passed、未进任何prefix或actual。六源完整静态审，159仍原163物理族+五精确null高度、九有理canonical/真耦合盒、物理Ms∞/L1、rH=4rB；实际154 B/T controller与原门/soft返回不改。修具体输出类型后公共完成开发；12LP/40值/120秒预算不增，不冒首次人工通过。完整设计与实现见notes。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -34,9 +34,11 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R223/R227真实Morse闭hook与例外端口已付**：M0/TκH、frame/Klein位移闭合、pure0/F8=0、全h Morse。R227在非零ke端口装h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h；先三维末frame IFT，再八M+真omega九IFT、全E IFT。内部omega保真实积分，原U/完整T保留；设计一般改g。
 
-**R229/R231/R232例外主层已付**：G候选pure quartic=−(l+b)³C_b²/64，三复矩使0；一般G左尾不可删，全b仅原多项式延拓。R231保所有local/chain/真history，物理支x+b及x+b+ke/he正时完整K/(hβ²)→sin²θ Lc+sin2θ Ls；Lc=E(Gff,Ggg−Gff)、Ls=E(Gff,Gfg)。43699241372/sourceee9e2098/job132766507913首次实际13toy过，原b0八包Lc严格负/Ls严格正，0.2728秒、23.24MiB；R232严格排全部可容正宽度及已付光滑近邻的例外germ，不排其他圆。原件9524B/675a8bc4只存hash。下一新三矩圆和完整次层，不重原八包。
+**R229/R231/R232例外主层已付**：真实G左尾与全部local/chain/history保留，物理正支上完整K/(hβ²)→sin²θLc+sin2θLs。43699241372/ee9e2098的13新toy过，原八包b0的Lc<0/Ls>0准确双证（0.2728秒/23.24MiB），排原圆全可容正宽度和已付C∞邻域，不排其他圆/b。原件9524B/675a8bc4只留hash，旧目标不重算。
 
 **R233/R235新圆已付**：四尺度Lagrange权与真实左尾正bulk付三矩和Lc/Ls双零；Sj=a_jS*。八复制先清完整第三槽，再取非零t=−P/Q的两根α、π/2−α，置于任意正I内两个不交正尺度block。真尾能量可加，四射影方向严格排所有GL2分离；完整M0/TκH几何上的二三阶保全。最终F重选会改旧指定gε；旧first-f-up/g0、F8不继承。仍欠完整第四次层/joint。
+
+**R237完整下一mixed层已付**：b0例外端芽且Lc=Ls0时，D算子=Φp1−Φt1/8，完整K/(h²σ⁶)→(8ε²ke³/5)E(Gff,D(f²−φ²))。真实第二C=c5σ5D+Oσ3、第三history的2βG(φ,CD)均保；全部local/chain余层严格低阶。故还需Mc=E(Gff,Dgg−Dff)=Ms=E(Gff,Dfg)=0。两新数未评价，不冒R235失败或第四通过；不交完整三矩block的真尾加法继续可用。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 

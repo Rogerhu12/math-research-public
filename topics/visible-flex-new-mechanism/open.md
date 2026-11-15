@@ -20,7 +20,7 @@ m1/m3已有fine .78曲率行预测+1e−7却真负，m6硬门全过而fine度量
 
 [五高度完整设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)已付：从[原九高度null核](notes/same-g-nine-height-zero-integral-entry-directions-20261115.md)选入口3+尾2，154切向+5=159独立坐标仍在原163物理族。入口.603后恢复，尾两列在末开片Wronskian严格正；.78可取D=0而D′非零，此时该点metric/normal不变、仅II径向增n_z D′。当前原盒及紧曲率特征投影须在必要初始化内实读，不授可行或下降。
 
-H有理精确计算，原九物理系数与float评价分层；c3/c8补偿槽施真耦合盒，原∞和SOC L1均作用Ms而非五坐标范数。B/T承当次154真实controller，新高度半径明示4rB；旧minimum门保留，不暗重置。常帽高只按原tol验，Z/D外域真零，活动球/镜像/metric/κ全重评。[159实现](notes/entry-tail-five-height-null-implementation-20261115.md)及单lane入口已提交，六源码/driver/IO全静态审。先首次公共新人工，过后恢复五必要前缀再进新阶段；结果待消费。SOC新soft先返回策略保留，12LP/40值/120秒不增。b²−1=.08826887低于当前max，仍不冒已证strict-max阻碍。
+H有理精确计算，原九物理系数与float评价分层；c3/c8补偿槽施真耦合盒，原∞和SOC L1均作用Ms而非五坐标范数。B/T承当次154真实controller，新高度半径明示4rB；旧minimum门保留，不暗重置。常帽高只按原tol验，Z/D外域真零，活动球/镜像/metric/κ全重评。[159实现](notes/entry-tail-five-height-null-implementation-20261115.md)及单lane入口已提交，六源码/driver/IO全静态审。首次公共run43701306331开发报告保存遇NumPy bool序列化错误，未打印passed、未进任何prefix/actual；正修输出后继续公共检查。SOC新soft先返回策略保留，12LP/40值/120秒不增。b²−1=.08826887低于当前max，仍不冒已证strict-max阻碍。
 
 ### 仍须支付
 
@@ -84,7 +84,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R191](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md)已证明共同常值平台上的全部紧支撑二阶w都满足六矩和hook周期核，但完整线性ruling在canonical准确0、一般共同入值modW仍0。全部真实右尾和s历史保留，w平方/交叉仅有限三矩由第三右逆支付；故该无限维空间不能扩大joint商像。[R195](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md)已处理f常/g变区：三g矩零的w保周期，Bθw=−2sin²θ D_w S_s(g)，全部η和8维history给像≤42。标准常段上完整Cubic Euler t10与三矩adjoint t4..6不相容，四测试函数+准确C∞补矩给非零有符号商方向，只动σ一次、不绕过R193二次门。[R197](results/R197-nonzero-fixed-circle-ruling-direction-on-nowhere-constant-geometry.md)已支付迁移：真实B·B^rev的M/T/frame回路先使三矩列rank3，4点增广det=−Δσ D_wC/8；R189准确保约束的有限C^m逼近保非零子式，Klein用新位移重闭。几何扰动通常改变度量，选最终新几何后再固定其gε/圆/w。下一真正目标是Vθ^0″在f常/g变包上的必要不变量以及同一ruling像成员；不继续只数新方向，完整目标仍未在像中。
 
-R189在固定有限K的R70正则解附近，用8矩+1真实ω终值的可逆Jac与端全jets平的Fréchet空间保全部约束，Baire去开常段；固定有限交换词再给M0/TκH闭几何。该存在证明不保证一个具体有限profile上的fourth像变为可解，也不保存原空间位移（Klein用新位移准确闭合）。下一必须挑可消费的完整目标/不变量，不再只抽象增加自由度。
+R189的真实桥与有限约束迁移已由R220/R223/R227加强；已付低阶/Morse控制不重做。固定圆完整第四像仍须实际支付，不能靠增加几何自由度或一般Baire论证代替。
 
 R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实查询t1/35、ΛJ6=1266268570、新44det1176345646 mod2147483647，零旧列/NF重跑。E6真44、pure9、纯核/balanced像35，U≥240但lineality/query仍237。此原成员问题已结束；不追第45孤立列，转完整字符分母R−2+N U−1中J6是否为零。R163已证明全部14族最高层协变、低阶同一八矩cocycle及 Hσ=(Rσ+Tσ)/(Rσ+Dσ)。Dσ仅用同权正规系数与静态修正生成全部N Uσ+1模R，权−2无需另编−1。完整head actual43665345551已付107原记录/66平移组合，Q4_0/1本权原式零；计数不是维数。有限必要actual43665971895已完整消费：124外等式秩84、23外自由、63必要半空间仍有准确非零外部候选。这些旧外点不是真实字符；后续R186/R188已付完整原关系与无非零正字符结案，不重编旧static/3974/N收缩。
 
@@ -119,6 +119,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 [R232](results/R232-original-eight-packet-exceptional-port-obstruction.md)现消费43699241372/ee9e2098首次实际：13新toy全过，b0原八包Lc<0、Ls>0，四正根槽同号及16bit严格有理区间双证，严格排所有可容正宽度的例外germ及已付C∞近邻。保Gff真实左尾/14段/跨包正交，只算两新能量，不重旧c系数。改圆的首步见R233，继续完整次层与joint；不继续改变同原圆的宽度或预算，也不泛化成全部C²障碍。
 
 [R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)以四尺度、真左尾正bulk和O2旋转付三矩/LcLs双零，八复制后另选角保完整三阶；原四尺度平面仍GL2可分离。[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)现去掉该限制：任意正I内构造P8非零的完整八包block，取相同t的α与π/2−α两根，在两个不交尺度副本上分别使用。真尾交叉能量只按E(x²,Z)=0消去，四射影方向排所有GL2分离；M0/TκH上的完整二三阶及LcLs0同付。新的第一F已改变旧指定gε，旧首g0/F8仍不继承；R50标准常段障碍不冒普遍。下一完整第四次层、全period与同w ruling，不能把领先双零当joint成功。
+
+[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)已在b0例外端芽、Lc=Ls0前提下付完整下一h²σ6层：D=Φp1−Φt1/8，系数(8ε²ke³/5)E(Gff,D(f²−φ²))。因此还须Mc=E(Gff,Dgg−Dff)、Ms=E(Gff,Dfg)同零；保真第二/第三history及所有local/chain，非单项猜测。R235的两新数尚未评价，下一分析其同锚真尾/双block关系；双零不授完整joint。
 
 ## O1：双圆领相位机制，保留备选
 

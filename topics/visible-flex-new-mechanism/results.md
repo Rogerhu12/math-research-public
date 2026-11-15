@@ -264,3 +264,8 @@
 ## 同g159独立坐标：首次公共人工和新阶段入口
 
 [159完整实现说明](notes/entry-tail-five-height-null-implementation-20261115.md)及六源码已审，single lane `metric_entry_tail_height159` 接线。原163物理族内增加五个准确零积分高度方向，当前几何所有两阶jets按同一Z/D/D′重评，九原盒为准确耦合约束；原163J仍计算，不冒成本降低。实际154的B/T半径/成功streak/全部学习行继承，新H半径4B明示；原full384/768门、12LP/40值/120秒和新soft先返回策略保留。首次新人工/API/IO只在公共Actions执行，失败则不进研究。过后只一次恢复五必要前缀，旧2ee6仅历史观测，进展从本次真实起点比较；临时payload不发布。此处只登记实现和首次入口，科学结果尚未知。
+
+
+## R237：例外主层消去后的完整下一 mixed 能量门
+
+[R237 完整次层证明](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)固定b0例外germ并假定Lc=Ls0。原二阶零次h层准确给D=Φp1−Φt1/8与C=(4ε²ke²/5)σ⁵D+Oσ³；第三history完整抽取β²G(φ,GDθ)+2βG(φ,CDθ)，其余hOσ4。root据R56原分子逐类核局部第三恢复与二阶交叉最高h²σ²、R73的Ψ零次层−vT/8，以及能量j层最高h²σ⁴，未丢真history或frame导数。故完整K/(h²σ⁶)→(8ε²ke³/5)E(Gff,D Dθ)，原gauge空间除该尺度皆零，得到两个新必要门Mc=E(Gff,Dgg−Dff)=0、Ms=E(Gff,Dfg)=0。两数在R235新圆上尚未评价；完整三矩不交block按真左尾正交可加，不宣第四/joint已解。
