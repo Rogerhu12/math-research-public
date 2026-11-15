@@ -1,11 +1,13 @@
 {
-  "request_id": "rank2-20261115-r761-original-s-connection-projections",
+  "request_id": "rank2-20261115-r767-original-five-coordinate-reader",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r761-original-s-connection-projections.py",
-      "args": [],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r767-native-five-coordinate-reader.py",
+      "args": [
+        "--workers=4"
+      ],
       "include_stdout": true
     }
   ]

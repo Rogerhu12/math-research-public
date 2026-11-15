@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；持续研究，不以阶段结果或时长收尾。**
-- 最近已读规则提交：637e43ab28c0795198979b4ebfa7c4030aaf48f7；2026-11-15 14:11:19 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:11:18 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
+- 最近已读规则提交：de9e9665275e74affc60c9953019e2df29ab2629；2026-11-15 14:14:02 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:14:01 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main，旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase重推至成功，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核根/题README；变动只读差异即执行、记提交。root15@708f058a变更已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境，末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 14:05:38 UTC/run43722439716/job132837121707、head0cf6fbad，两README差异空且blob同；回执ci/rule-pull-20261115T140538.json。下次最迟14:45 UTC。
@@ -56,3 +56,5 @@ R763付Q=1+xζ/y、U=−t5(1−t)³Θ102B6/b5及Norm3仿射返回；原Γ全ε/�
 R707/708 trace前缀、R714/717–725/729 height2/AH/CM仅确定原来源。R716 firstwild边界与j34同零才λ≥p+3；R724整annulus o(p²)未付。R736完整B3/R10404/47整格、whole normalizer与所有偶性/边界核保，Cp v无穷p非零及原中央→边界仍开；完整常数/run/hash按前检。
 O4原低增广a≤1/β(Q)、O6全Np有限/λ≤3与supersingular二次regulator仍开；AST线性和strict局部向量不代全Selmer。
 [2026 Wang稿核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)已证起始root与辅助level-raising条件矛盾，真实Nguyen/λ0步骤亦不成立；不采其完成声称。Kim2609最新全Sha判据仍须最早节点的指定全球点子群位置，literature继续实际加强，不用深节点非零替代。
+
+R767固定五坐标reader已请求公开Actions（request rank2-20261115-r767-original-five-coordinate-reader；producer scripts/check-r767-native-five-coordinate-reader.py，--workers=4，flint0.9.0）；只重建原5纤维/矩阵与纯t线，不赋条件矩值。输出不入库，完成后记run/hash。
