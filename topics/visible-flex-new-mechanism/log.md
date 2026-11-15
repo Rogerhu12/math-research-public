@@ -293,3 +293,9 @@
 全文读三源（rows在前上下文全读，library768行及最终diff、driver528行全读）、设计/实施/完整人工回执。初稿soft SOC只修线性预测的问题已改为真实同y的m(y)+Jw+ρbudget≥0，并加−.06真实残差人工例；不是改真实门。19个旧完整报告依次字节/系数/g/b0/池冻结身份检查，source rows eff06d6c、library ba3e2bec、driver a7993b1c；本次人工32.630s、方向Jac1.39e−10、完整IO和失败回滚均过，84trial语义summary87185B。新hardΛ58/target13/50/old167/625，全部4240/1310行、fine11组、原12/40/120预算；78参数与旧18输入原样比对，只新第19 reserve。workflow及publisher新增lane，保native summary stage。无本地真实研究。
 
 共享磁盘余量再次到14MB，私有checkout确认clean且root仅4常规文件后改为root-only cone+sparse-index，README/QUEUE保留、无tracked修改，索引28968906B→774B；不删除研究文件或提交。仅元数据公开。
+
+- 2026-11-15 02:23:14 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交b8dceef3569d8008dfa393ab0c03b7c5b6eecbb6记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 02:23:26 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交e99401e9c6dca19ce30d24d2b46c5bf18f48f774记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 02:23:40 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交7afc5375d2a79d771b0c580719978491284e7805记录于H；继续推送同一完整结论，无force。
