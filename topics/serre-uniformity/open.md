@@ -62,9 +62,11 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R838完整I2与最小三阶已成**：[正式结果](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)run43771598002/sourcef5fa479f，17.344589635秒；新det2408/2429全节点与旧d0(1320)的gcd395，原σ∞只用层0/1。proper长度夹逼给J2=I2、E2=C20+D、ε0/P0∉D；接R836逐点公式得I3=C且最小阶恰3，不再开q3计算。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0至Nov16 22:52:19。D短RR坐标/eta/height未得。
 
-**R839短RR已激活**：[纸证](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)1a0bfda4/[方法](notes/R839-original-short-RR-and-fixed-anchor-kernel-method.md)3336310d。core0a027c2d/wrapperdee4e8fb消费五组2782旧文件，原391raw块移位拼2866×2886，实际2451/415/395子式依次才给T11/Q5/295条M3(D)准确单位solve基。source-tag111621ab，原p753 S5逆复用，两锚仅在该新地方作必要乘积；无新V11尾/旧导数/旧逆。推送启动待登记run，秩和D空间尚未预填。
+**R839短RR已激活**：[纸证](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)1a0bfda4/[方法](notes/R839-original-short-RR-and-fixed-anchor-kernel-method.md)3336310d。core0a027c2d/wrapperdee4e8fb消费五组2782旧文件，原391raw块移位拼2866×2886，实际2451/415/395子式依次才给T11/Q5/295条M3(D)准确单位solve基。source-tag111621ab，原p753 S5逆复用，两锚仅在该新地方作必要乘积；无新V11尾/旧导数/旧逆。run43773898829/job132995725203/sourceac885f5a已结束exit2，非预算，正取实际小证书；先核τ源与第二图齐次源是否完整，不盲加n。已成矩阵/秩保留，D空间未预填。
 
 **R840原CM值与首jet已成**：[正式结果](results/R840-certified-original-implicit-CM-value-and-first-jet.md)run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 unit，准确有限y/y′表达式和518位十四坐标乘回已成。final5de210b5/manifestbe2a58b2/config2a3bd8ce，246stage；artifact14185198226/0ae63e2c至Nov16 23:13:32，四组176源carrier89.84MB/e28a33f3。255小件纯IO完成。两组14个RR均candidate，准确展开false。接既有R791(791R.16)与原h0构造β_C及下降点DAG，保原v/κ；eta/height未得。
+
+**R792准确点DAG接入**：[消费接口](notes/R792-original-source-bound-CM-DAG-beta-interface.md)ce50b9c2只消费既有791R.16/R792，不重立消根定理。真实B0非零与原实嵌入w<0、原h0≠0保证Q=A0²−bB0²、N=A1B0−A0B1非零，β_C=(3h0Q/N,A0/B0)，原下降点用同三同源。准确原β_C/f_R DAG与展开坐标严格分开，abstract A原像/eta/height仍false；八节点加法须实际零判。最小独立消费者正在接真实R791小源，不重原CM/Norm。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
