@@ -160,3 +160,5 @@
 - [R319：actual128九控制完整高度路径六次拒绝与规则中断](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)：zero真实收敛，六个已返回正s各十trial全首段D/S/A拒，当前withJ基点形成；第8请求未返即README变化终止，非预算耗尽。完整两摘要33756B/aa9f9c0f及60trial/来源/真实规则轮读回，无FD/fullDN/非零接受；不把九p与124六p作单因对照。
 
 - [R323：有限严格cut盒的显式统一dyadic短窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)：原11构造条件/正coast的直接参数公式；core全域、当前九参数与实际147未预付。
+
+- [R324：同C有限头通量与完整闭管](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)：原primitive系数、无pivot尺度、Taylor/Duhamel和全部cut逆像的严格包含；实际112/DN未预付。

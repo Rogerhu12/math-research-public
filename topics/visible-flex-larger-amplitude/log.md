@@ -500,3 +500,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R323有限严格cut盒的显式统一短窗
 
 [R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)直接完整证明后即推：由已付严格速度盒、准确core端点及原cut，整数位数给严格向下dyadic，明确d/e/e和κ=1/2同时付原11构造条件/正coast。原core全域与给定九非零系数仍独立检查，不冒有限盒为任意精化oracle或数值长度可表示；147接真实全v3点数据，未预填计算成功。根8小文本快进/API核双README不冒pull。
+
+## 2026-11-15 /root — R324同C有限头通量与完整闭管包含
+
+[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)14346B/f99acd8b全文核完即推：j=w·k在真实piece x下准确等价，原primitive闭R界、正二幂平衡/原列尺度、Taylor完整余项与Duhamel含全初盒误差、所有cut逆像闭管同归一hull均给包含；全部112 Robin和逐h非零DN分清。148源继续，无实际有限头/DN/非线性预付；H压缩保全部正文/在跑索引/147未发三blob，根8/API核规则非pull。

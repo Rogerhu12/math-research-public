@@ -112,8 +112,6 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
-[144独立cut两jet完整入口](notes/2026-11-15-request144-original-binary-cut-twojet-interface.md)已全文审读后发布：原f12f/256bit/1800s/所有1440片/六primitive/全部根族保持，原config binary0.3点query先、原whole-natural第二。新reader1c39b242从同job全点叶准确dyadic端点并包E/Er/Err、全宽及全流SHA，合法粗界保留，原E工作宽度不冒导数宽度门；query4e59c69f/requestdcd4a892/wf209794c4。两个各≤90KB摘要分别完整读回，工程/partial/数值责任分开，原ownedraw末always清，无预填run成功；旧v2新g源已找回但必须独立v3适配。
-
 
 [146原两法向直接响应入口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)八件全文/旧93+5 pins核同后立即本库执行：真142末九p与radius1.9073486328125e−7，一个原8方向批。每normal保fresh完整3×9 J/旧JP诊断，沿同固定两P原complex evaluate形成3×2，仅末两行替换原2×2QR；原12×20/20外档/完整3 Armijo/半径/FD/Arb/453圆/112/final责任逐字保持。helper485e5fd8/producerc717bafb/request80f2fa09/wf8e01c9d2，新96+6 pins；全probe/失败/改选来源完整分段读回，不把direct当精度证书，不冒142同初点对照，不增验收门或raw归档。新实际run按本次source追踪。
 
@@ -124,6 +122,9 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 [新连续九族v3完整实现](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)现已发布：恢复原三源650a/93cc/b154原字，新factory0d8937/numeric7cfab1/physicald86f6f独立身份。只接f12f原result/input/query和1c39完整点两jet读回；factory其余25定义/numeric13/flow5逐文本保留，准确E语义叶/全部九shape/公共u与L_true²/f76原full physical/NaN政策保持。三个中点仅数值搜索近似，不冒同根真实jet/C²/新C J。暂无实际factory或新BVP；真实144数据须同job消费或同源重生，明确core/recipe并付同C有限头/全112端口，不能凭hash复原raw或把有限盒当任意精化oracle。
 
 [R323有限严格cut盒的显式选窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)给出直接有理公式：真实E0下界>1、速度盒⊂(−1,0)与准确core末A>R/|V|<1时，显式d/e/e严格支付原11个R300构造条件，coast区间下界正。保全部core/九p及公共u，有限粗盒不冒任意精化oracle；147据真实同job输入执行，仍无实际新g/J/BVP。
+
+
+[R324同C有限头严格推进](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证物理通量j=w·k准确消对角项；原piece x的R_x/w_x已含长度，不重乘length/旧Πport。原primitive闭径向交界、无pivot二幂平衡与列原尺度、常系数Taylor完整余项+Duhamel整闭tube，覆盖全部可能cut逆像后同归一hull，给全112 Robin包含；逐height严格非零才准DN。148据此实现，144实际结果仍待，深根族未选与粗宽/所有pending后缀保留，无新线性或非线性数值成功。
 
 ## 5. 存储和原件维护
 
