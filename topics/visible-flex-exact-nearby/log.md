@@ -233,3 +233,7 @@ README只读核2d14d37b8fa4b2b4e7d411ae35f73cd0cd3e54de无变。root全文核，
 ### 2026-11-15 09:14:55 UTC — 两rough输入实际帽图单独推送
 
 README只读核36f7152b0b32072dd938f22e67d4d861484b266a无变。全文核M1–28，tail独核two-species/kernel/weak/means；final20064B/SHA 8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b，仅澄清非mean输入species与全部mean输出/λ独立。零宽完整product值域、known-only辅助平移、mixed kernel加权列和/one-high、finitejet ad4与全双向Schur均按完整模保；q≤8160的tame及γ H^-3/2/fB Hhalf导数列已付。不把rough复composition、内frame或全ν/augmented匹配冒通过；继续真实接口扰动。
+
+### 2026-11-15 09:18:15 UTC — 实际S26门与十项改进单独推送
+
+README只读核9ca5460c504b8fcf8fc8f2d692b6cd477634c035无变；root全读run43698106023/1 execution45554B/3896925b…及result24624B/3a271393…，job132763013737全success、child0/26门/math.17425771900002474。09:13:04.218316真pull→b1df8ec306e596256a317df925464af6acaa31c6，两diff空。新RF域/相关raw forcing/regular积分/完整mixed输出成立；144项仅10个fb二径更小，36mean无变化。旧7background+1fold和全部既成数学只恢复，成功新RF不重算；临时27514B native59c06d1a…不存。报告9138B/SHAa9a4522879b6df55a82f84b17ab74b7f787c4f1b0062c6cff46ddccfb19afb54，所有G15/source/positive/strong return门明确继续。

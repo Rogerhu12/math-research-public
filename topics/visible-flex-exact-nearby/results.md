@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual43698106023：整片相关源26门与10项完整改进](results/R133-supplement-actual-correlated-whole-reference-scalar-bounds.md)：child0/26门/math.174257719s，25pin/17history、原7background+1fold与完整旧输出只恢复。新RF3/20000全域/反像/特征路径门通过；144项导数中仅fb二径的10项改善，36mean及其余134保旧界，零阶未改善。全部signed finite-z曲率/mean/rawmatrix次序/无限双尾保；临时native27514B/59c06d1a…不保存。未授G15/source/strong-return，SHA256 a9a4522879b6df55a82f84b17ab74b7f787c4f1b0062c6cff46ddccfb19afb54。
+
 - [R133 M：两粗输入的实际帽图与全部内端曲率列](results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md)：γ与fB都可zero-width/high finite；同真实全4Z帽/long/两mean唯一值图。ℓ1两species混合Fourier kernel给q≤8160 one-high及二次差，Cq=2^{112(q+32)+18432}；4jet背景无高范数小假设，弱列2^144(1+J4)^4覆盖γ H^-3/2、fB Hhalf、Φ Hhalf、全内B/Cmean和曲率/phase primitive/meanheight/真实adjoint。所有sR/sB及一λ保，不授rough输入的复角读值或未列frame lift。SHA256 8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b。
 
 - [R119 G：新94成员的真实 B collar 与 graph 种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)：在原首 q transition 的 d=2^-1024 正 collar，精确五jet Hermite修补实际非mean slope，完整κ与一global λ重建；全参数Γ1返回输入不变，经值图唯一性第一Γ准确不变。实际aw ratio与三径source转换给E8192种子<2^-54866996、完整source<2^-5275847456。原coefficient第三jet/高度第五broken跳保；B*≤2^6000000仍为独立条件，未授全augmented BVP。SHA256 ee52b1480b4d0d3a5de7e582c3c0f45462f601e4a0211b27443eb2ea8ee6fa73。

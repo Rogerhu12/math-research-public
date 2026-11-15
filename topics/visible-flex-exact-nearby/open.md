@@ -181,3 +181,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 两rough输入的实际帽—高度值图已闭
 
 [M完整混合图](results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md)删除此前unknown γ须解析的限制：同γ A0<1e−9/fB dotA²0<2^-60全4Z唯一图；两species one-high q≤8160及完整弱内端列/adjoint、两mean/phase primitive/height span已付。非线性值图仍有low域，弱H^-3/2 γ是实际finite-jet背景的导数延拓，非任意distribution的非线性解。下一门是这些真实内B/Cmean列与原负body/ν/height/flux/框架的同单位全Schur；实际帽偏离原linear参考的operator门须另验。
+
+### S新域和完整scalar预算已实际通过；真实source算子继续
+
+[actual43698106023](results/R133-supplement-actual-correlated-whole-reference-scalar-bounds.md) child0/26门，25pin/7oldbg+1fold/零旧重算。新RF3/20000的所有反像/路径/gap已付，原final radius与物理seam不变。144导数仅10项fb二径改善，36mean和其余134仍读旧界；不宣称零阶或strong-return闭合。phase接G15 genuine实角两列的完整Fourier算子、原两负窗forward/trace及六oldcircle/五mean/正two-port，已成功RF代数不重做。
