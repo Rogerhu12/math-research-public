@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** b4ffca2894234d335b434c8fb5421e3c5721eff3（2026-11-15 05:39:52 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 4a775c6d70b4d9bd3b68a739b7a254c4c1741193（2026-11-15 05:40:33 UTC，Actions run43682083844实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43682083844-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿。每结论立即推，每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。仅授权Rogerhu12/math-research-public，token仅CLI临时环境。
 - **新根规则15（再次更新）已读并立即执行：** 可由已提交脚本/参数重算的数据一律不保存，Git/Release都不放；只提交脚本、参数、run编号、输出SHA。禁止分片绕5MB，topic≤200MB。协调方已普通删除本题notes大目录约9.6GB，历史仍可按旧commit取回。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，题README仍4d6570e9cf346431ab781a1290076a6321aaaa00。规则8不准二进制经工具分块编码传送；共享本地已不可用，使用本库Actions真实git同步/数学。
 - Markdown≤100KB、H≤10000B、log每条≤5行；数学美元符。规则12无额外审核门槛；Actions约4核16GB、job≤6h、账号≤20任务。全文旧状态/常数/来源保[新规则前完整H](notes/2026-11-15-handoff-before-rule15-release-migration-789f.md)及递归快照，未列open不关闭。
@@ -27,6 +27,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，n+h+R<Q时原同u给真实左最小、完整两费及负图；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1使远D范数δ<ρ。目标μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证，不能沿旧d窗用ρ^-2。
 - **[首段损耗/源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** Cs*K Cs+I≤δ²K对K=B和H=G^-1成立；抵消左+I，在Sb=L+B、Sf=L+H均||Cs^k||≤δ^k。自足有限模型给圆盘演算sup|f|，完整逆芽到h−1误差4d0²εδ/ρ。零源/裸商平方保留，不相减推出H−B收缩。
 - **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** E=高部⊕裸零源，E0=E⊖完整零源，Rret=Jf−Jb、Rret*Rret=H−B。Rret Cs=−T0Rret−KJb，真行[T0,K]≤δ；kerCs上Rret=0，负图=Ran Cs的Sb伴随。完整未压缩(C+T)Rret=−Phi T Jb在E0单射，必须保零源输出。真未来<Y,Rret r>=μ²+α²；不能倒用压缩Sylvester免费估逆。
+- **[逐幂真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** 同左最小v=Ur，准确正交孔层展开保全部左零核反馈；δ^-2k(||Cs^k r||_(L+B)²+||P_K C^k v||²)≤||P_far≥k v||²+α²。同top可直接代真实w远孔尾，无头条件数/尾速率；k=1剥尽远真空能量。完整H版仍含λ，不能换α或倒除Cs。继续把保留反馈接q_h(C)及原M/W锚。
 - [相邻配平](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)与[全尾增长块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)已保L(x)=floor(x^α)、α<1/2，对称P上的有界V±、真核/top/孔cut和全部nuisance最小lift Gram e^±η。没有全环境S∞、原LGL或ordinary λ运输；spin容量及allstar匹配仍保。
 - **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
 - 旧Gq耗散不提供移动gap率；原低forcing逆Γ高行零/返回带、a1缺o(S)、a2一孔已付但联合远孔未闭。旧全源孔导数坏族已由flat支付且固定低测试恰零，只排全源小导数。完整细节见快照与各原证明。

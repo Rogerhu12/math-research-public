@@ -159,3 +159,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 2026-11-15：固定三坐标候选实际已关闭
 [52候选的完整原乘回](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)均非零、未增核；这不排自由方向的共同有理组合。下一小步用同K768的余13自由方向格变换，原6188支撑/全部4367整数零/36自由块Q秩才付新维；原char0秩仍4318…4331。
+
+### 2026-11-15：同源逐幂物理尾及反馈已付
+[真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)同时支付归一Cs^k源和P_K C^kUr；下一步将其解析q_h(C)反馈与已付全局M/W锚对齐，保强C真核/同未来/终端。该式没有负图小奇异下界，不能直接倒除Cs或改普通λ为α。
