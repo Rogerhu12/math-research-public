@@ -4,11 +4,11 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：ad3b2b5190ea19d6e1257db61d41128df23cafaf**（2026-11-15T19:43:01.978336+00:00；rules run43745726410/job132933835202真实git pull --rebase origin main，两README无diff）。root README SHA6979d793、topic35f82f3d。旧rules run43714581068达50次限额；只重跑新专用rules job，不重跑数学workflow的rules依赖。终端14:34UTC失联，根§8小文本接口回退。完整前H逐字保[此次归档](handoff-archive-2026-11-15-before-R815-projective-method.md)，内接全部前态；open完整前版在[双probe前归档](notes/2026-11-15-open-before-projective-two-probe.md)。
+**已读规则提交：5be140684fc7e5341087d4943d87fa60b7a84843**（2026-11-15T19:47:08.847743+00:00；rules run43745726410/job132935006145真实git pull --rebase origin main，两README无diff）。root README SHA6979d793、topic35f82f3d。旧rules run43714581068达50次限额；只重跑新专用rules job，不重跑数学workflow的rules依赖。终端14:34UTC失联，根§8小文本接口回退。完整前H逐字保[56激活前归档](handoff-archive-2026-11-15-before-three-probe-activation.md)，内接全部前态；open完整前版在[双probe前归档](notes/2026-11-15-open-before-projective-two-probe.md)。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
-## 公开算术当前态（19:24 UTC；四原续算仍在行）
+## 公开算术当前态（19:46 UTC；原续算与新消费者并行）
 
 | 任务 | run / job | source commit | 状态 |
 |---|---|---|---|
@@ -18,9 +18,9 @@
 | R824准确27+244 | 43732499815 / 132867842693 | 442f3d16a9b914154e8b81bc61597d650044fd61 | core1ece3cf4 / wrapperc5907739，约20:50后 |
 | R827首真q4 | 43734420663 / 132873746638 | 400edecfeab313d1858cdb72bf18f8452ab9566a | cored9cf7739 / wrapperdbd8356e，约21:20后 |
 
-**R787原断点**：[430记录](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)保run43708449812、artifact14170087848/438780485B/manifest1b92c4e5/lift00855d88。prime753/free1186/14分支不改，不回退259。首projective run43745966802于71.023573757秒exit2；[实际诊断](notes/R787-projective-first-ended-search.md)保小IO43747260495、5根C0、140行仅因D_bound拒、K59位，准确验算0阶，不证430不足。
+**R787原430与42已成失败**：[430记录](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)保原run43708449812/artifact14170087848/manifest1b92c4e5/lift00855d88；prime753/free1186/14分支不改，不回退259。28维首140行仅D_bound拒、无准确候选，见[记录](notes/R787-projective-first-ended-search.md)。[42实际诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)375414b2保run43748801736/artifact14176445740/manifest2a18a2f4/queue2cf3e41f/LLL3b8fbe90；42D全unit/8570或8571bits，m0构造性通过、m1全拒，余5对未执行，不声称430不足。
 
-**新42方法**：[完整契约](notes/R787-original-projective-two-probe-reconstruction-method.md)17c89271，request7421c941/workflow5c5436fd。直接原lift两probe求D，不累乘；全部42行/84同余保留，无高度或单位硬筛。原free=D不center、Z及内容后D/e，完整129×280+B非零才成功；原1380输入/430lift不重算，RESULT/recipe/carrier兼容，真实新tag独立。失败payload先原子准确残差+SHA清单再退役，当前/成功全保；queue/节点/格/时间预算分开。此次artifact14176445740/195943656B/1fdcdc96，42闭合回执+完整1380输入验证通过。[首格诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)375414b2：IO43750891953核137项/manifest2a18a2f4/queue2cf3e41f；42D全unit且8570/8571bits，m0由E0Z0强制、m1全拒。当前pair1/pos0。[56增量方法](notes/R787-original-incremental-three-probe-reconstruction-method.md)58a7713f已证：旧42全基→新增真实A行的56格，detM^42/幺模见证；只同D引用旧拒绝。一个A模逆的固定C障碍仅附录，不执行。core/双carrier在准备，不重旧格。
+**R78756增量已激活**：[方法](notes/R787-original-incremental-three-probe-reconstruction-method.md)58a7713f；core70396B/c642ec35、runner63299B/74496002。新request触发公开同次AST+数学，56nodes/1格/300min；只旧C0/C1全42基加首个非零且异C0/C1的原A行，detM^42/准确幺模见证。先原子保存完整56 LLL，再候选；同正号14整数D仅引用旧tag准确拒绝，其他全验原129×280、B非零。旧1380输入carrier不改，旧136小件+manifest/ref另作载体；当前/成功不退役，已拒大块须先闭合SHA回执。新模式不重旧格/430/14逆，原free=D/Z/content与RESULT/recipe完全保留。一个A模逆的固定C下一位障碍仅附录，未执行。
 
 **R815真实断点**：[425记录](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保原run43719622321/source2a3300a9的BudgetStop。g425prime/last1000008791/模数12707bits，Γ未开始、无完整operator；小IO43747973677实际核manifest892108B/3464项/4e78095e、current561995095B/402379e2与425receipt f136bee8匹配。artifact14174374945/2716759066B/597aaf00，carrier109958828B/051571e1保53原源。新请求ac0870b2仅增resume；冻结849bca27/原Mg六模七准确、Γ五模七嵌套、prime007/每8次RR/16行块均不改，不另Mh。
 

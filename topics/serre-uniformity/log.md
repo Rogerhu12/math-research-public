@@ -456,7 +456,12 @@
 - 同篇证明仅C下一位Schur障碍/一个已成A模逆接口，明确content前精度；本轮只实现56格，不另做这项计算。
 - push前rules132931711969实际pull至52a48854e30ddc3d2351ec24274dbe222ef05d9a，两README无diff；新核心与双carrier消费者继续对齐。
 
-### 2026-11-16 03:46 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 03:44 Asia/Taipei — serre-public-astra-20261115
 - 登记R815两准确列完整方法c373d52e：Wvg及joint gcd给真实共同分母d01，1652原模同余与高权项零；两列不居中、col0交换子成为构造性零。
 - 新候选早期检查转col1/2，原7点全交换子/cyclic/Γ完整保留；旧RR前缀复用、旧候选拒绝不复用，新core与独立小carrier准备。
 - push前rules132933835202真实pull至ad3b2b5190ea19d6e1257db61d41128df23cafaf，两README无diff；56方法已推4269b6ac，正在对齐真实新core/runner。
+
+### 2026-11-16 03:46 Asia/Taipei — serre-public-astra-20261115
+- 激活R78756真实消费者：core c642ec35/runner74496002/method58a7713f，从已成42全基增真实原A行；首56nodes/1格/300min，全部成功出口仍原129×280。
+- 保存完整新LLL后再验候选；逐坐标同正号D只引用旧完整拒绝与原tag，独立小carrier保136小件+manifest/ref，不改变1380旧载体，不重旧格/430/14逆。
+- 同次公开Actions AST与数学，无额外gate；前H逐字归档并压缩活页。首次引用更新被拒后立即重跑专用pull；rules132935006145实际pull至5be140684fc7e5341087d4943d87fa60b7a84843，两README无diff后重推。
