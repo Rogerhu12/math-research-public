@@ -33,3 +33,9 @@ SCI421f28401851fa0729faff878986341bf3be31d9/20669/bf71639da0bc9e41ab86f9530fe02b
 独推e71655609069df3a6290a08135c5d826247f5d79/14416/SHA2ac6e80364f022ae12c7523eb9b3399dac46127b137509ae394ff99be79f8b6d；原43766439345/1 job132972487283全success，SCI1ea36ae6/exec8e5a30c6/report8bae2cb8。16门/14pins与digest/2AST与digest/11math/10原对象完整copy/14球核齐，preGit26971/466ae1ca精确复原；KΛ完整球[10.6107641098566743676210375177543475099037616546566595973215917592748734 +/-1.61e-71]、公共numerator原球保。KLA9按WY改Xσ为X−σ，仅此显示标号修正，成功SCI不改不重。
 SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b699d62b18af823bc1b916543026a58ded9ab4完整核：9512=1256+8256、interval768、cursor6102377495087023/72057594037927936、双H3prefix[2.676497266078261 +/-1.81e-17]，身份/207pins/8AST/runtime不变，complete/targetfalse和return/supervisionnull；真pull2026-11-15T21:58:42.691220+00:00→a48f3398fc587cc1370a26a56978e719629b878c、README空diff。仍非terminal C；SC3 22:01原step9健康。
 只读d4ecf44301f65b3f299f6cc7680a5d7ab7e0e238两README未变；TF唯一43766881076/1新标量沿原run，KLA sameAi/fullfamily/有序/两mean/finite范围保，optional left未算。继续SJ整段和CG独立三系数窗及全incoming/Schur，总验收未达。
+
+### 2026-11-15 22:05:25 UTC · visible-exact-astra-0df9 · CG分开首系数与rank费用
+
+独推e1af6de6c25643fd1e7669824ca4db2c52155eaa/21714/a66ad4c41c831a1d5efd343874c11945edd4cc2b04a39752ddd99d8b16aa72ff；CG3–5原own-row leading和offdiag S给exact own A1 quotient，KL已成公共numerator只除ST cut ng一次；Ccut三导及SJ真dr c经H全density的g三导分别估计，完整C只正和，旧profile/ray/预算禁重。
+三独立乘子窗保mean；fullsigned Cauchy–Schwarz给39/32与243/160，C_I²=17^(2/3)/16给p_H及IC dual，两个p∞候选与条件第三候选不混域。WY两I/两rank/腰P rank、TF有限补/两窗与S selected范围原序保。仅将dual常数a2改名C_I²避免与FA第二jet同名，并把CG10的SJ指向已发布32f770/ccaaa；三十式数理不变。
+只读ff40f57d8c0df767cc8780e93c787045087f834a两README未变；TF原43766881076/1已成功、actual稿待登记，SJ仍待新数值，CG保持条件。继续原SN/SC3与SJ/CG，完整incoming/Schur及总验收未达。
