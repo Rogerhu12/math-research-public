@@ -10,7 +10,11 @@
 
 [126原批次入口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)从上述真实末点连续最多八个独立原八方向批次，每批radius=.1 reset，原8×20外回溯、12×20法向校正、W/.2Armijo、域/完整九列FD/Arb/圆/final不变。family086572f9/search824c0967/readerf57a7dfa保持，wrapper b15a6571/request7825a472、84+2源pin及own26闭包。每个真实status经过原reader后才传自己的recipe；compute按批框定完整primary和全部方向原段，report仅紧凑链。3600s只批间预算，75step/90job；预算或传输停止不是课题完成。
 
-[R287实际126](results/R287-actual126-eight-nine-control-batches.md)已结清：run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270/report132767703974均success。八批各8接受/14外trial，共64接受/112trial，fresh W279.1236575692574→49.739792814348064，末unit首项−9.973944268492758且全部final仍false。20次接受内tol=false均由原完整Armijo裁决；8primary/64完整组/8完整view及各批域/FD/圆已读，八批数是唯一停止原因。临时raw全清；[127入口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)已发布：真第8末p、recipee667ca5f/requestd75c1478/wffa921b4e，原84+2/own26/全部科学源与预算不变；真实run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87已于09:40:45启动，结果待读，不增控制或新门。低三通过仍不能替代高109/完整112/native非零场。
+[R287实际126](results/R287-actual126-eight-nine-control-batches.md)原八批64接受/112trial，W279.1236575692574→49.739792814348064，完整读回后真第8末p接[127原入口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)，原84+2/own26/全部科学源与预算不变。
+
+[R290实际127](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87、compute132770038307/report132770558044均success，八批各8接受，共64接受/130trial/66外拒绝。fresh W49.73979281434833→11.126800189953372，末unit[-4.717371832840097,-.0018359077734816124,-8.732263938333927e−6]，所有五final标志仍false。14次接受inner tol=false均由原完整Armijo裁决；后3批首接受1/16、末radius.00625，继续保真实回溯，不添内tol门。
+
+八批初末全部九列三档FD有效，但第5末eta3最高1.0928131834783939e−7，不能概括统一e−9；新Arb末1499叶/0未解及原完整453圆域/两RMS/边界已读。8primary/64完整方向组/8fullview逐字身份吻合，无moved/omission；链96.12924756899997秒，仅explicit_independent_batch_count_completed，raw全清。真正末p只取R290原值接129同源原批次，同时128明确正λ=.001九H(s)完整112实验。原搜索的低三通过与否均不能替代高109/完整112/native非零场。
 
 此前三/四/六控制的实际106–121、归一化、微步全拒、补控制及传输责任见检查点与原notes。121第五正常summary93000B引fallback，wrapper70是传输停止；第五trial原件已删不能补造。当前126不重命名为121未保存现场。
 

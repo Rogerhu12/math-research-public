@@ -279,3 +279,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 九控制同worker H(s)及独立运行读回源码
 
 [完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101和[runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7全文差异及两接口已读，原00e4数学函数/e830策略/453方形与全部原门保持。新薄runner保单一300min截止和进程组，reader只原字段/身份，不以过程成功冒科学。无本地科学或fixture，旧源不改；128将从127真实第8末点明确λ=.001提出完整非零实验。H按当前责任压缩，保全部正在运行、已结清/删失现场和未付门。
+
+### 2026-11-15 R290 actual127完整八批读回
+
+[R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)全文/原末primary已读，八批64接受、130trial/66拒绝、14接受inner tol=false仍原Armijo。fresh W49.73979281434833→11.126800189953372，所有final仍false；原FD/Arb/圆/全部112保持，特别保第5末eta3 FD1.092813e−7。8primary/64groups/8fullview和完整stdout原文字身份核同，无moved/omission，停止只原八批数、96.12924756899997秒，raw消费后清理。真末九p分接128完整非零H(s)及129原搜索；不本地科学、不增门、不从summary冒接受。

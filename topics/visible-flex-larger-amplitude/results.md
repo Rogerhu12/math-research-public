@@ -48,3 +48,5 @@
 - [R286：原冻结数据的连续实积分提升、cusp消去与同场metric误差桥](results/R286-original-stored-continuous-integral-and-metric-bridge.md)（已证明，明确模型约定下）：原六primitive/正warp给有限头C² metric，保准确深根族与平圆领极限、自然Rout及内保护端责任；直接连续E区间生产与原有限输出误差桥可接完整材料pullback。无实际E/同场metric/接缝证书，不沿用R26另一无限模型。
 
 - [九控制同worker完整H(s)入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)及[独立runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)：0433e101/d075af46/c756ede7，原六shape/三active453与全部112 H/J/FD/fullDN/finalaudit保持；新身份显式接e830路径，当前仅源码，无参数场或run成功预填。
+
+- [R290：actual127八批64接受与130原试探](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)：fresh W49.73979281434833→11.126800189953372、14接受inner tol=false，全final仍false；保第5末FD1.092813e−7及所有域/圆责任，8primary/64groups/8完整view原身份已核，仅8批数停止，真末九p继续。
