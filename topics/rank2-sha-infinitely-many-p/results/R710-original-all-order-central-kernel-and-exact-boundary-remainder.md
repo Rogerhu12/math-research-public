@@ -522,3 +522,74 @@ $$
 - R708：同一原边界的范数判据和真实短 prefix。
 
 本篇为一般证明；无数值检查、素数扫描或新增数据文件。
+
+
+## 短增补：全部原 $Q$ 法向阶的统一单位权
+
+保持原 $Q=W^e-p$、同一个 $\mathfrak J_m$ 和 (12) 的 $J_{m,i}$。
+对所有整数 $a,i\ge0$，有准确形式
+$$
+\boxed{
+\mathfrak J_m(Q^aW^i)
+ =(-p)^aJ_{m,i}\,\nu_{m,i,a},
+\qquad
+\nu_{m,i,a}\in1+p^{e-1}\mathcal O.
+}
+\tag{32}
+$$
+当 $a=0$ 时 $\nu_{m,i,0}=1$。
+
+证明不需要把 $Q$ 当成新的来源操作。
+直接在同一个输入中展开
+$$
+\mathfrak J_m(Q^aW^i)
+ =\sum_{t=0}^a\binom at(-p)^{a-t}J_{m,i+et}.
+$$
+相对 $t=0$ 项，由 (12) 每个 $t\ge1$ 项的准确比值为
+$$
+\binom at(-p)^{-t}(-1)^{et}
+ \frac{(i+et)!}{i!}(mc)^{-et}
+ \frac{\varepsilon_{m,i+et}}{\varepsilon_{m,i}}.
+$$
+其估值至少 $(e-1)t$；
+阶乘比是整数、两个 $\varepsilon$ 都是单位，所有因子均已保留。
+这证明 (32)，并给
+$$
+v_p\mathfrak J_m(Q^aW^i)
+ =a+i+1+v_p(i!).
+\tag{33}
+$$
+
+对原固定 $\mathcal B_m$，用 R663 的全部准确法向 Taylor 系数
+$$
+r_{m,i,a}
+ =\sum_{k\ge a}\binom ka p^{k-a}b_{m,i+ek}\in\mathcal O,
+\quad 0\le i<e,\ a\ge0.
+$$
+原完整级数在每个严格内盘有相容的展开
+$$
+\mathcal B_m(W)
+ =\sum_{a\ge0}Q(W)^a
+       \sum_{i=0}^{e-1}r_{m,i,a}W^i.
+\tag{34}
+$$
+这是把每个 $\sum_kb_{m,i+ek}Z^k$ 在 $Z=p$ 展开；
+在该内盘 $|Q|=p^{-1}$，所以 (34) 确实收敛。
+(33) 又保证取 $\mathfrak J_m$ 后的全双和收敛，故
+$$
+\boxed{
+j_m=\sum_{i=0}^{e-1}J_{m,i}
+       \sum_{a\ge0}(-p)^a\nu_{m,i,a}r_{m,i,a}.
+}
+\tag{35}
+$$
+这里 $a=0$ 恰是 R707/R708 控制的原边界余数；
+$a\ge1$ 是同一来源的全部真实法向导数，不能只因
+$\nu_{m,i,a}$ 离一很近就删掉。
+
+例如在精度 $p^H$ 下，
+只需保 $a+i+1+v_p(i!)<H$ 的有限三角区域；
+这仍是原 $\mathcal B_m$ 的有限数据，不是独立新增列。
+若在较低精度将 (32) 的 $\nu$ 换成一，
+各法向 Taylor 项会真实重组为原较低 $b_{m,i}$，
+而不会给出额外的边界零。
