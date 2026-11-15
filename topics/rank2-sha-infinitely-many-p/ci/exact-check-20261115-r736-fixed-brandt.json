@@ -1,0 +1,22 @@
+{
+  "request_id": "rank2-20261115-r736-fixed-original-brandt",
+  "run_id": 43705223442,
+  "source_commit": "e4f44a157794cfd37c9a4a58c969622df4d10600",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r736-original-brandt-vector-and-full-first-wild.py",
+      "script_sha256": "410e53cd68ff943d79b1ceb377a03f41faf8fe38b8cf23a31d5b2ec791ce4091",
+      "args": [],
+      "engine": "python3",
+      "sha256": "a04a47c21aab6a4368c059fe91a34928a1e343509f0da9e908da4d25a8fa79b2",
+      "stdout_bytes": 1952,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": "0.8.0",
+  "job_id": 132784740866,
+  "workflow_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43705223442",
+  "fixed_table_sha256": "d566194d2f38c404c86ed5208daecf51181c72d507993ada212864b375dbc132",
+  "scope": "fixed original Brandt model only; no varying-prime evaluation; all generated output remains in public Actions logs"
+}
