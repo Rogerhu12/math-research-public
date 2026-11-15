@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **实际帽完整网络 high/source 更新已付**：[HT附篇](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)，18679B，SHA256 fae2b82029de835fea4bd553556ce3a42e8838a7b738725f52b036fa696a44ef。先由旧正片真半阶端口与low逆构造新片，再付全high/deep有序消元；最高新增反馈2^-608928，high最大20609056<20971520，raw源32805408<33554432，原最终8388609/33554433及1734/1796窗口保持。所有mean、weak/atom、sB/sR/aw与一λ保；未screen输出额外2^41943040和完整Dact。该结果不是augmented匹配逆。
+
 - [R133 R：真实帽内γ经完整tail返回的定量低列](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)：O q1/2的γH0→outward fluxH1，按真实负rhs/正cB转换，再D q3/2→fBH2，sB准确相消得<2^-52000000。I内B/Cmean新增反馈同tiny；仅同fB/原reflection/坐标时可与旧K0作1/5+tiny比较。全部物理mean/97全像/high、未screen height和Γ/EN/Hp保，非augmented或非线性逆。9615B/SHA256e1ff4b8b9b5c2e4e2bc7db98a5e00d9b0144a2aa51a4a7b3cba661cb5e0bfbfe。
 
 - [R133 P3a：两真平盘的同向作用可由全局几何推出](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)：标准有效材料circle action在两S不变平盘共轭为次数±1的平面旋转；G24星形保证轴只交两中心，去极点轨道同伦使两绕数相同。全局选一次方向即得两盘逐点固定所需equivariance，允许不同固定offset，无额外PDE/族IFT。单个G及原全域假设仍待。更新全文SHA256 9a5bcb141b337037297c8a832e4bd7dd5ab42557827be24ff41c107d308387d2。

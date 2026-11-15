@@ -44,10 +44,10 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读09:43过程42535B/SHAaf94786b…：各stream末future4080=1886旧+2194新、
-past1648、product3024；combined较早4064/1632/3024，0group无failure。
-signed W norm log2≤−103，selected E≤2^-6；旧scalar诊断3180不被消费。继续三流、187groups、三个完整HY及final。
-两个port前沿尚未会合；不从线性时间外推预称成功或失败。
+root已读09:53过程42995B/SHAc375e662…：各stream末future4368=1886旧+2482新、
+past1808、product3552；combined较早4352/1808/3536，0group无failure。
+signed W norm log2≤−102，selected E≤2^-5；旧scalar诊断3397不被消费。继续三流、187groups、三个完整HY及final。
+两port前沿已重叠，但product/past尚不足形成首完整组；不从计数冒完成。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
 新Gram保完整signed $W$、任意指数dyadic正权、真实全193乘积、
@@ -243,8 +243,13 @@ one-high/真实adjoint/rank-one/mean与物理单位；
 **两个独立N2低门现已在O21域内支付**。
 这不使未知inner匹配γ自动落入该域，也不删其独立输出。
 
-新最高C8144=2^3401728不同于旧K；
-完整N high/tame/source费用仍须显式重新记账，tail正在逐项核。
+[HT完整actual高阶和源](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)
+现已把C8144=2^3401728真正计入，先low正片后high吸收，没有循环。
+最高新反馈2^-608928；三种high插入最大20609056仍在原20971520桶内；
+raw source未放宽32805408<33554432。
+因此原N最终8388609/33554433与loss1734/bg1796窗口保持。
+全部未screen输出另保Dact与2^41943040费用；这是已有行的tame界，
+不是它们联立矩阵的逆。
 独立γ列保sBε，f*source准确为−μL sB DgK，
 physical远端height须除sR；meanheight aw(L)/165、两曲率mean、
 一λ及全inner读出不screen，Robin/weak/原子/独立荷保持。
@@ -311,10 +316,10 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，09:28:36定时及09:18非FF即时pull仍返回无环境；
+本机executor持续不可用，09:28:36定时及09:54非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull09:43:45.427780
-到0f896b57384f3de880bfb5202c9ef773064a2c74，两diff空。
+ref读取不叫pull。最新亲读runner真pull09:53:48.349228
+到af766074f7f7c5a583d5028ec25cf934e8f726ad，两diff空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
