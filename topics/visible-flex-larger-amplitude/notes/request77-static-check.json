@@ -1,0 +1,15 @@
+{
+  "scope": "Static existing-source request77 wiring only; no local scientific calculation",
+  "workflow_sha256": "f8ffdc9ced1d6eca5beea44efe71caea86f80269706a3bde4c5c8bc21b2018fb",
+  "request_sha256": "77f163f5480511bd783f90d0005e6571b0707afba21a3f65dfd11b8e3025b193",
+  "original75_workflow_sha256": "891e79c2f917e5679d07d5bbb7b39ee909e1b240c1a7dffb31e60ea61c5b8822",
+  "scientific_source_unchanged_sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+  "all_68_original_source_pins_unchanged": true,
+  "same_four_mathematical_inputs": true,
+  "yaml_parsed": true,
+  "bash_n_blocks": 7,
+  "inline_python_AST_blocks": 4,
+  "only_scientific_option_change": "existing --newton-steps 0 to8",
+  "backtracks_and_original_candidate_tolerance_and_interval_settings_unchanged": true,
+  "no_native_or_full_BVP_or_nonzero_parent_claimed": true
+}

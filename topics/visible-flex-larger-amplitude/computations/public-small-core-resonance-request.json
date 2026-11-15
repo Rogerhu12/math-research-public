@@ -1,11 +1,11 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 75,
+  "request_number": 77,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "First execution of the existing frozen R259 default diagnostic on the original complete scalar family and original699 mesh; independent of the actual74 and native73 jobs.",
+  "rationale": "Actual75 read all112x112 true-zero slope J entries as exactly diagonal and all three original targets as nonzero, but p=(0,0,0) was not tuned. Enable the existing unchanged R259 eight-step/12-backtrack candidate search with the same original four inputs. It is not a nonzero parent or a native/full-DN acceptance.",
   "scientific_entry": "geometry_20261114_small_core_resonance.py",
   "scientific_source_unchanged": true,
   "inputs": {
@@ -113,7 +113,7 @@
       0.0,
       0.0
     ],
-    "newton_steps": 0,
+    "newton_steps": 8,
     "backtracks": 12,
     "candidate_resonance_tolerance": 1e-08,
     "interval_bits": 160,
@@ -142,7 +142,9 @@
     "nonlinear_tail_called": false,
     "nonzero_lambda_BVP_computed": false,
     "large_amplitude_goal_completed": false,
-    "original_scientific_acceptance_gates_changed": false
+    "original_scientific_acceptance_gates_changed": false,
+    "existing_bounded_Newton_candidate_search_requested": true,
+    "candidate_search_is_not_a_BVP_acceptance_gate": true
   },
   "source_pin_scope": "Conservative local static import/literal-source closure plus exact descriptor sources and source-dependencies manifest. Some pinned helper files are not executed by this diagnostic. Restored public78 source bytes are checked by their original manifest.",
   "proofs": [
@@ -155,5 +157,17 @@
       "sha256": "64597b10e3d625f8c805bf10573b544652bdf02a375633a62d4a88c8631a19c0"
     }
   ],
-  "publisher_revision_scope": "Only the smallcoreresonance lane choice is added to the frozen5a0216d0 publisher; scientific source is unchanged; ordinary pull/rebase/README checks/failure preservation remain."
+  "publisher_revision_scope": "Only the smallcoreresonance lane choice is added to the frozen5a0216d0 publisher; scientific source is unchanged; ordinary pull/rebase/README checks/failure preservation remain.",
+  "requested_at": "2026-11-15T00:59:26.727393+00:00",
+  "prior_diagnostic": {
+    "run_id": 43660412919,
+    "source_commit": "3a0646db263f224acd347432967b93239faa836c",
+    "job_id": 132648257063,
+    "original_status_sha256": "665f1bd36a4a75eded331a4a9697c4ebaeaa411834365e405fe214c0439bd969",
+    "actual_zero_J_exactly_diagonal": true,
+    "target_zero_indices": [],
+    "original_four_mathematical_inputs_unchanged": true,
+    "prior_circle_reference_not_used_as_a_nonzero_parent": true,
+    "native_or_high_core_Schur_or_transversality_claimed": false
+  }
 }
