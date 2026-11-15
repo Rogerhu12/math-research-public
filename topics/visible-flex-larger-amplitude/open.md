@@ -109,3 +109,5 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [125原九控制单批接续](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)已发recipeed40e690/request31bd2312/workflow1dfa0c45，实际123末九p及来源逐字核同，原83+2pin和26→26闭包、完整科学argv不变。显式.1 reset，原8×20/12×20与全final；eta非零保真，零eta对照只是原反事实evaluate且异常仍可能准备期中止，不冒旧6J或改接受门。124实际run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48创建，已进原完整H路径science，尚无科学结果。
 
 [R284/actual125完整结果](results/R284-actual125-nine-control-eight-further-acceptances.md)：run43698258576/source36f7152b，8方向8接受/17外trial，W431.4178353348037→279.12365756925647、全部unit/full112/native/success仍false。末dir7全步inner tol=false仍过原Armijo；初末九FD/1178叶域/完整零圆及全部17行已读。primary63133/53a0186f、status1883163/688d64e2、8组完整view118379/56c7fef0逐字核同，raw已删。126从真实末九p接最多8独立原批，.1 reset及原全部门保留，完整status→reader→ownrecipe，不以hash伪续场；123/125零圆仍非非零parent。
+
+[R285原有限selector完整闭覆盖](results/R285-original-finite-selector-closed-cover.md)已证明并直接登记，source65a29ec6全文已读。准确first-match/cut/cuff/48层原阈值分支无需假设profile.r单调，全部未决栈/后缀保留，只有原flat赋值支路可整片付；有限求值器实延拓非恒定时不能是连续g。未运行，无实际E界；a601连续目标责任仍false。geometry接原冻结参数下连续profile的明确出处、E区间或误差桥，不借R26替换原对象、不把Bprime当g。

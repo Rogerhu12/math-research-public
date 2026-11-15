@@ -239,3 +239,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 09:19 UTC /root — R284登记actual125八次继续接受
 
 [完整结果](results/R284-actual125-nine-control-eight-further-acceptances.md)已读17行/九FD/1178叶新域/原453circle及全部false；8方向全接受，W431.4178353348037→279.12365756925647，末dir7内层tol=false保原接受。63133B primary与8完整group重建118379B view的字节/SHA全同，原规则09:15:01真实pull及原清理已读，无raw入库。H压缩已结清详情到正文、保所有未付门和五标题；126真实末九p串批、124/113/118/122继续，无本地科学。
+
+## 2026-11-15 09:21:35 UTC /root — R285原有限背景选择器的完整覆盖证明及源码
+
+[R285](results/R285-original-finite-selector-closed-cover.md)完整证明直接登记，与22356B/65a29ec6源全文已读；准确开闭区间、first-match、原48层/实际阈值/NaN分支、全部未决栈和原flat特例保留。既有19KB说明仅补R编号/AI作者置results，不另复制notes。无fixture或本地科学/实际E输出；有限阶梯求值器与连续g分清，a601仍未付，继续原连续对象及直接区间桥。

@@ -30,3 +30,5 @@
 ## 新增结论
 
 - [R284. actual125同九控制的八次继续接受](results/R284-actual125-nine-control-eight-further-acceptances.md)（实际Actions有限诊断）：run43698258576/source36f7152b，8接受/17试探，W431.4178353348037→279.12365756925647；全部unit/full112/native/success仍false。初末九FD、1178叶0未解、新453零圆及全部trial已读，末dir7内层tol=false仍原Armijo接受；完整118379B view逐字重建核同。非严格根/非零场/闭面完成，真末九p接126。
+
+- [R285. 原48层有限选择器的完整闭区间覆盖与连续目标边界](results/R285-original-finite-selector-closed-cover.md)（已证明，确定性有限算法条件定理）：原first-match及严格比较以准确开闭半径子域归纳覆盖全部48层，不假设数值profile单调或真逆；完整栈/后缀使资源partial不冒全界。有限实比较延拓取值有限，连通区间非恒定即非连续。source65a29ec6调用原工厂并只用原flat源码捷径；无实际E界/run，未付a601的原连续g责任。

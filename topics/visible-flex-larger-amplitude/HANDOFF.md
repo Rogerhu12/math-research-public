@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:19:25 UTC root因终端服务不可用按根第8条以GitHub集成读取main 7abd3136d6fe8948ca96f447746b7bd16f5fd5a9；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7abd3136d6fe8948ca96f447746b7bd16f5fd5a9。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
+规则同步记录：2026-11-15 09:21:48 UTC root因终端服务不可用按根第8条以GitHub集成读取main 02b1f1bc58b0dd2655f48aed1b1ad195991488af；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 02b1f1bc58b0dd2655f48aed1b1ad195991488af。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
 
 只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -54,7 +54,7 @@ R277–R283已登记，109/111有理例非实际场。[全jet/mixed](notes/2026-
 
 [曲率/D](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)b1c2dfb9保同tau/K/完整active两帽/marker Hessian，漏叶D空，seam未付故fullcurvature=false。[metric](notes/2026-11-15-same-shared-field-relative-metric-interface.md)a601e5b5保完整shared-B/Gram/四Loewner、帽原target0；stored连续E缺失，外部E仅条件，不换B′/采样/R26另定义背景，新6/9需真实适配。
 
-geometry的原48层有限selector覆盖source65a29ec6/blob1950e595880d7be83058fc93980d947015c04f65、完整证明/接口c0ab0ead/blobf1b6da4052f44b85380cb75d49c350eb9a8d6d55已冻结待root读源后发布：按真实threshold闭分支/first-match/全部未决栈，不假定单调；有限求值器不冒连续g、a601仍未付。geometry继续原连续profile定义与误差桥，未有实际E上下界。
+[R285完整证明/接口](results/R285-original-finite-selector-closed-cover.md)与source65a29ec6已发：原48层selector按真实阈值、first-match及开闭端点完整DFS覆盖，原flat源码分支可整片付，保所有未决栈/后缀，不假设单调/精确逆。有限实比较延拓为有限阶梯值域，非恒定则非连续；不冒目标g、a601仍未付，无实际E/run。geometry继续原连续profile定义与直接E区间/误差桥（R286）。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真fullDN及自身final audited tail/config/port，保完整physical/material/z0/mean→R249/sharedB/两帽。R274/R258 e372待同场非零见证；held独立reach但须整个像/两帽/完整D。same-g全p/g/t冻结，699→1397+knots须prepare/fullDN两处max_nodes>1200；有限phi非连续theta，数值非严格存在。
 
