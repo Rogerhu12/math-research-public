@@ -1,0 +1,69 @@
+{
+  "actual_pull": {
+    "kind": "rank2_actual_ci_git_pull",
+    "actual_git_pull_success": true,
+    "utc": "2026-11-15 05:40:06 UTC",
+    "head": "eb35dd9a986a2707938f7d3bd246685ad3c17c8d",
+    "last_rules_read": "8505164beda8b5116f14ed8db08e2cb00b154261",
+    "request_id": "rank2-20261115-after-output-cleanup",
+    "readme_blobs": {
+      "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+      "topics/rank2-sha-infinitely-many-p/README.md": "965ab236bbd6753acb812b45fcc36ae9b6f83b3c"
+    },
+    "rules_changed": false,
+    "scope": "read-only sparse CI checkout; local workspace remains separate",
+    "workflow_run": 43682050611,
+    "job_id": 132714580701
+  },
+  "inventory_summary": {
+    "run_id": 43682050611,
+    "job_id": 132714580701,
+    "total_bytes": 27598858,
+    "blob_count": 1852,
+    "over_5mb_count": 0,
+    "old_part_input_count": 3
+  },
+  "public_checks": {
+    "request_id": "rank2-r693-higher-blocks-and-rule15-input-compatibility",
+    "run_id": 43682050475,
+    "source_commit": "b71230698e5e96d807650bb3ac653607877a9f8b",
+    "checks": [
+      {
+        "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r693-neutral-g12-four-source-adaptation.js",
+        "args": [
+          "--max-block=4"
+        ],
+        "engine": "node",
+        "sha256": "7b499e1a5ea9205a2d18ef60cb83224649a871069206117b066533fdb51661e8",
+        "stdout_bytes": 19295,
+        "exit_code": 0
+      },
+      {
+        "script": "topics/rank2-sha-infinitely-many-p/scripts/run-with-historical-inputs.py",
+        "args": [
+          "--input",
+          "scripts/check-r594-two-source-six-carry-compensation.json",
+          "scripts/check-r674-double-s-arithmetic-adaptation.js"
+        ],
+        "engine": "python3",
+        "sha256": "c55c6789c38bc37e4536bec1df0e3cf6f2377e4a8ba52d05329ed80a140b2638",
+        "stdout_bytes": 36848,
+        "exit_code": 0
+      },
+      {
+        "script": "topics/rank2-sha-infinitely-many-p/scripts/run-with-historical-inputs.py",
+        "args": [
+          "--no-historical-inputs",
+          "--emit-output",
+          "scripts/check-r617-original-norm8-annulus-and-negative-five-pole.json",
+          "scripts/check-r617-original-norm8-annulus-and-negative-five-pole.js"
+        ],
+        "engine": "python3",
+        "sha256": "272e2cdddc71cb6240cacfff5d87e6c3a740423056d6142772c609981acd56ac",
+        "stdout_bytes": 10676,
+        "exit_code": 0
+      }
+    ],
+    "outputs_persisted": false
+  }
+}

@@ -43,13 +43,21 @@ python3 topics/rank2-sha-infinitely-many-p/scripts/run-with-historical-inputs.py
 ~~~
 工具会先删除临时副本中的同名旧文件，要求本次执行确实生成该文件，
 再把它送到stdout；不会将恢复的数据冒充本次生成结果。
-这两个不同复现路径已交公开small-check工作流，真实run/hash取得后登记。
+这两个不同复现路径已在公开 run [43682050475](https://github.com/Rogerhu12/math-research-public/actions/runs/43682050475)
+（job 132714580253，源提交 b71230698e5e96d807650bb3ac653607877a9f8b）完成。
+R674 的36848字节stdout SHA256为
+`c55c6789c38bc37e4536bec1df0e3cf6f2377e4a8ba52d05329ed80a140b2638`；
+R617 的10676字节stdout SHA256为
+`272e2cdddc71cb6240cacfff5d87e6c3a740423056d6142772c609981acd56ac`。
+两者均与清单所记原输出哈希完全相同；原输出未重新入库。
 
 ## 尚未清理的类别
 
 旧 `check-jzero-weighted-conductor-integral-part1/2/3.json.gz`
 及其主JSON是现有校验器读取的证书输入；尚未找到完整生成器。
 同样，原weighted-normalization presentation的主文件是校验输入。
-现有目录约30MB，远低于200MB；没有新增分块。
+2026-11-15 05:40:06 UTC 的实际CI pull（run 43682050611/job 132714580701）
+核两README差异空，库存27,598,858字节、1852文件、无超5MB文件，
+仅上述3个旧输入分块；没有新增分块。
 其它mixed-I/O及缺明确生成器的历史文件继续按真实依赖审计，
 不从“存在同名脚本”推断其可重算。

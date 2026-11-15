@@ -2,7 +2,7 @@
 "use strict";
 /*
 R693: actual neutral G6-power extension of the R679 test.
-Run publicly: node check-r693-neutral-g12-four-source-adaptation.js --max-block=4
+Run publicly: node check-r693-neutral-g12-four-source-adaptation.js --max-block=5 --taus=2,3
 No data files are read or written. The original R594 algorithm is executed
 in a child process and its output stays in memory. All requested degree blocks,
 all original 31 constraints, the full C_(6*(max_block+1)) term and every actual W coordinate
@@ -19,7 +19,11 @@ console.error("R693: recomputing original R594 rows");
 const all=JSON.parse(cp.execFileSync(process.execPath,[inputPath],{encoding:"utf8",maxBuffer:16*1024*1024}));
 const arg=process.argv.slice(2).find(x=>x.startsWith("--max-block="));
 const MAXBLOCK=arg?Number(arg.split("=")[1]):2;
-assert(Number.isInteger(MAXBLOCK)&&MAXBLOCK>=2&&MAXBLOCK<=4,"max block must be 2,3 or 4");
+assert(Number.isInteger(MAXBLOCK)&&MAXBLOCK>=2&&MAXBLOCK<=8,"max block must be between 2 and 8");
+const argTaus=process.argv.slice(2).find(x=>x.startsWith("--taus="));
+const TAUS=(argTaus?argTaus.split("=")[1]:"2").split(",").map(Number);
+assert(TAUS.length>=1&&TAUS.length<=3&&TAUS.every(t=>Number.isInteger(t)&&t>1&&t<1009),
+ "taus must be one to three integers from 2 to 1008");
 const pp=1009,om=374,MAXZ=72,CAP=6*(MAXBLOCK+1),SERIES=Math.ceil((MAXZ+CAP)/6);
 const md=x=>((x%pp)+pp)%pp;
 const pow=(a,n)=>{let x=1;for(;n;n=Math.floor(n/2),a=md(a*a))if(n%2)x=md(x*a);return x;};
@@ -42,8 +46,8 @@ const bc=conv(my,ss3).slice(0,MAXBLOCK+2).map((a,i)=>md(a*pow(iv(ne(1,2)),6*i)))
 assert(md(om*om+om+1)===0,"omega relation");
 assert(bc[1]===rf("-1/90")&&bc[2]===rf("-19/3742200"),"entire C6/C12 retained");
 
-const enc=(d,e,g,z)=>d+32*e+1024*g+32768*z;
-const dec=k=>[k%32,Math.floor(k/32)%32,Math.floor(k/1024)%32,Math.floor(k/32768)];
+const enc=(d,e,g,z)=>d+64*e+4096*g+262144*z;
+const dec=k=>[k%64,Math.floor(k/64)%64,Math.floor(k/4096)%64,Math.floor(k/262144)];
 const clean=P=>Array.from(P,([k,c])=>[...dec(k),c]).filter(x=>x[4]);
 function mul(P,R,cap=CAP,zcap=30){
  const Z=new Map();
@@ -140,10 +144,16 @@ function elim(M,rhs=null){
  if(rhs)for(let j=0;j<rank;j++)sol[piv[j]]=A[j].at(-1);
  return {rank,piv,det,solution:sol,inconsistent:rhs&&A.slice(rank).some(R=>R.at(-1)!==0)};
 }
+console.error("R693: full native W generator through z^72; original total moment <="+(72+CAP));
+const GW=makePair(0,1,"W",MAXZ),native=GW.unweighted;
+assert(native[0]===0&&native[1]===ne(6,12),"native W = 6 delta T");
+
+function analyze(TAU){
 const AP=all.matrix.Aplus.map(R=>R.map(ef)),AZ=all.matrix.Azero.map(R=>R.map(ef));
 const BM=all.polynomial_right_inverse.B.map(M=>M.map(R=>R.map(ef)));
-const A2=AP.map((R,i)=>R.map((x,j)=>md(x+2*AZ[i][j])));
-const B2=BM[0].map((R,i)=>R.map((x,j)=>md(x+2*BM[1][i][j])));
+const A2=AP.map((R,i)=>R.map((x,j)=>md(x+TAU*AZ[i][j])));
+const B2=BM[0].map((R,i)=>R.map((x,j)=>md((x+TAU*BM[1][i][j])*iv(TAU-1))));
+assert(mm(A2,B2).every((R,i)=>R.every((x,j)=>x===(i===j?1:0))),"original nine-row exact right inverse at this tau");
 const BA=mm(B2,A2),PI=BA.map((R,i)=>R.map((x,j)=>md((i===j?1:0)-x)));
 const piv=[0,1,2,3,4,13,15,16,17,18,19];
 const cols=all.matrix.polys.map(P=>Object.fromEntries(Object.entries(P).map(([k,v])=>[k,ef(v)])));
@@ -157,7 +167,7 @@ const moment=(P,H)=>Object.entries(P).reduce((s,[k,c])=>{
 },0);
 // Directly precompose the C-unit core G -> G-rat*E BEFORE truncation.
 // Otherwise D+E<=6 trimming would lose high E terms that become G powers.
-const evalRow=(P,H,H0,eta)=>md(moment(P,H)+moment(e0(P),H)+eta*moment(e0(P),H0));
+const evalRow=(P,H,H0,eta)=>md(moment(P,H)+(TAU-1)*(moment(e0(P),H)+eta*moment(e0(P),H0)));
 
 function massGen(zero=false){
  const er=zero?E.map(()=>0):E,gr=zero?G.map((v,j)=>md(v-rat*E[j])):G;
@@ -183,7 +193,7 @@ const makeBasis=(N,J)=>{
 };
 const basis34=makeBasis(34,5),Scoords=[0,1,ne(-53,0,7),ne(-12,0,7),ne(-80,0,7),ne(-128,0,7)];
 const Sjet=mm(basis34,Scoords.map(x=>[x])).map(x=>x[0]);
-const bp=all.matrix.target.map((x,i)=>md(ef(x)-ef(all.matrix.basePlus[i])-2*ef(all.matrix.baseZero[i])));
+const bp=all.matrix.target.map((x,i)=>md(ef(x)-ef(all.matrix.basePlus[i])-TAU*ef(all.matrix.baseZero[i])));
 const xp=mm(B2,bp.map(x=>[x])).map(R=>R[0]);
 const addPoly=(P,R,c=1)=>{
  const T={...P};for(const[k,v]of Object.entries(R))T[k]=md((T[k]||0)+c*v);
@@ -192,9 +202,6 @@ const addPoly=(P,R,c=1)=>{
 let Pold={...base};cols.forEach((P,j)=>{Pold=addPoly(Pold,P,xp[j]);});
 const dcols=piv.map(j=>cols.reduce((P,C,i)=>addPoly(P,C,PI[i][j]),{}));
 const extcols=Array.from({length:MAXBLOCK+1},(_,h)=>dcols.map(P=>shifted(P,6*h))).flat();
-console.error("R693: full native W generator through z^72; original total moment <="+(72+CAP));
-const GW=makePair(0,1,"W",MAXZ),native=GW.unweighted;
-assert(native[0]===0&&native[1]===ne(6,12),"native W = 6 delta T");
 const degreeAt=j=>6+6*Math.floor(j/11);
 const gen=(source,j,h)=>source["gen"+degreeAt(j)][h];
 function build(eta){
@@ -216,7 +223,7 @@ function build(eta){
  const target=[...Sjet,...Sjet,...Sjet,...native.slice(1),1];
  const rhs=target.map((x,i)=>md(x-old[i])),full=elim(M,rhs);
  const old19=[...Array.from({length:18},(_,i)=>i),30].map(i=>M[i].slice(0,19));
- assert(elim(old19).det===(eta===1?770:888),"same original nineteen actual columns");
+ if(TAU===2)assert(elim(old19).det===(eta===1?770:888),"same original nineteen actual columns");
  return {eta,matrix:M,old,target,rhs,labels,rank:full.rank,pivots:full.piv,consistent:!full.inconsistent,free_solution:full.solution};
 }
 const candidates=[1,-1].map(build);
@@ -249,7 +256,7 @@ const data=candidates.map(c=>{
 });
 const result={
  format:"R693 actual neutral G6-power extension: three S sources, native W=6deltaT, and normalized J2",
- auxiliary:{p:pp,omega:om,tau:2,lambda:md(-iv(2)),kappa:0,u:0,b:1,Omega:1},
+ auxiliary:{p:pp,omega:om,tau:TAU,lambda:md((1-TAU)*iv(TAU)),kappa:0,u:0,b:1,Omega:1},
  actual_columns:"eleven original Pi4-zero columns times G^(6h)/(b^h Omega^(6h)), h=0,...,max_block",
  max_block:MAXBLOCK,
  degree_blocks:Array.from({length:MAXBLOCK+1},(_,h)=>6+6*h),column_count:extcols.length,constraint_count:31,
@@ -267,5 +274,13 @@ const result={
  arithmetic_scope:"All original Pi4 rows remain unchanged. New zero-mass corner claims are not inherited; all higher J_(2+6h) and positive pair masses must be retained. Z-scaled A_T is not identified with native W.",
  outputs_persisted:false
 };
+return result;
+}
+const report={
+ format:"R693 actual G6-power family at fixed auxiliary tau values",
+ max_block:MAXBLOCK, taus:TAUS,
+ entries:TAUS.map(t=>{console.error("R693: exact row algebra at tau="+t);return analyze(t);}),
+ outputs_persisted:false
+};
 console.error("R693 completed in "+((Date.now()-start)/1000)+" seconds");
-process.stdout.write(JSON.stringify(result)+"\n");
+process.stdout.write(JSON.stringify(report)+"\n");
