@@ -1,5 +1,5 @@
 {
-  "request_id": "rank2-r702-original-complete-quarter-adaptation",
+  "request_id": "rank2-r702-mixed-neutral-complete-quarter-adaptation",
   "checks": [
     {
       "engine": "node",
@@ -7,7 +7,9 @@
       "args": [
         "--max-block=4",
         "--taus=2,3",
-        "--with-b"
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
       ],
       "include_stdout": true
     }

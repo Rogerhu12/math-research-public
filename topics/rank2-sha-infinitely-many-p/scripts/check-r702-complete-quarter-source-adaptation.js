@@ -2,7 +2,7 @@
 "use strict";
 /*
 R702: full canonical quarter-source adaptation preserving R693.
-Run publicly: node check-r702-complete-quarter-source-adaptation.js --max-block=4 --taus=2,3 --with-b
+Run publicly: node check-r702-complete-quarter-source-adaptation.js --max-block=4 --taus=2,3 --with-b --b-g-blocks=3 --neutral-degree=12
 No data files are read or written. The original R594 algorithm is executed
 in a child process and its output stays in memory. All requested degree blocks,
 all original 31 constraints, the full C_(6*(max_block+1)) term and every actual W coordinate
@@ -20,7 +20,13 @@ const all=JSON.parse(cp.execFileSync(process.execPath,[inputPath],{encoding:"utf
 const arg=process.argv.slice(2).find(x=>x.startsWith("--max-block="));
 const MAXBLOCK=arg?Number(arg.split("=")[1]):4;
 const WITHB=process.argv.includes("--with-b");
+const argBG=process.argv.slice(2).find(x=>x.startsWith("--b-g-blocks="));
+const BGMAX=argBG?Number(argBG.split("=")[1]):0;
+assert(Number.isInteger(BGMAX)&&BGMAX>=0&&BGMAX<MAXBLOCK,"B-G blocks must fit the original total degree");
 const FREE_NORMALIZATIONS=process.argv.includes("--free-normalizations");
+const argND=process.argv.slice(2).find(x=>x.startsWith("--neutral-degree="));
+const NDEG=argND?Number(argND.split("=")[1]):0;
+assert(NDEG===0||(NDEG===12&&WITHB),"new complete C-neutral block currently has degree 12 and requires the full D/E generator");
 const REPORT_FULL=process.argv.includes("--full-matrix");
 let DEBOUND=6;
 assert(Number.isInteger(MAXBLOCK)&&MAXBLOCK>=2&&MAXBLOCK<=8,"max block must be between 2 and 8");
@@ -212,8 +218,8 @@ function buildB(){
   E_inverse_scope:"Only P is mapped to P(D,0,G); Bperp^6 is NOT mapped to its E=0 value in the full branch",
   C_zero_scope:"The C-zero branch separately replaces Bperp by b*G00"};
  DEBOUND=12; Bgenerators={};
- for(const [i,e] of [[0,0],[1,0],[0,1]])Bgenerators[i+"_"+e]=makePair(i,e,"S",30,12);
- BGW=makePair(0,1,"W",MAXZ,12);DEBOUND=6;
+ for(const [i,e] of [[0,0],[1,0],[0,1]])Bgenerators[i+"_"+e]=makePair(i,e,"S",30,CAP);
+ BGW=makePair(0,1,"W",MAXZ,CAP);DEBOUND=6;
 }
 if(WITHB){console.error("R693: complete independent B0^6 block, including its C and E transposes");buildB();}
 
@@ -229,8 +235,8 @@ if(WITHB){console.error("R693: complete independent B0^6 block, including its C 
 */
 const QCAP=CAP,QBMAX=WITHB?12:6;
 const qprod=(...xs)=>xs.reduce((v,x)=>md(v*x),1);
-const qAllowed=(a,b,g)=>a+b+g<=CAP&&(a+b<=6||(WITHB&&a+b+g<=12));
-const qGmax=(a,b)=>a+b<=6?CAP-a-b:(WITHB?12-a-b:-1);
+const qAllowed=(a,b,g)=>a+b+g<=CAP&&(a+b<=6||(WITHB&&a+b<=12));
+const qGmax=(a,b)=>a+b<=6||(WITHB&&a+b<=12)?CAP-a-b:-1;
 const qPairs=[];
 for(let n=0;n<=QBMAX;n++)for(let a=0;a<=n;a++)qPairs.push([a,n-a]);
 const qkey=(a,b)=>a+","+b;
@@ -434,10 +440,10 @@ for(const zero of [false,true]){
  for(let h=0;h<=MAXBLOCK;h++){
   const n=6*(h+1),g=src["gen"+n];
   const keys=new Set(g.flatMap(v=>Object.keys(v)));
-  if(n===12&&WITHB)for(const v of bSrc.gen12)for(const k of Object.keys(v))keys.add(k);
+  if(n>=12&&WITHB)for(const v of bSrc["gen"+n])for(const k of Object.keys(v))keys.add(k);
   for(const key of keys){
    const a=key.split(",").map(Number);
-   const qg=a[0]+a[1]>6&&bSrc?bSrc.gen12:g;
+   const qg=a[0]+a[1]>6&&bSrc?bSrc["gen"+n]:g;
    const rhs=qg.map(v=>v[key]||0),s=elim(qS34basis,rhs);
    assert(s.rank===6&&!s.inconsistent,"old S34 exact triangular source");
    table[key]=s.solution;
@@ -556,7 +562,7 @@ function massGen(zero=false,requestedCap=CAP-2){
 }
 const MG=massGen(),MG0=massGen(true);
 let MGB=null,MGB0=null;
-if(WITHB){DEBOUND=12;MGB=massGen(false,10);MGB0=massGen(true,10);DEBOUND=6;}
+if(WITHB){DEBOUND=12;MGB=massGen(false,CAP-2);MGB0=massGen(true,CAP-2);DEBOUND=6;}
 const polyMul=(P,Q)=>{
  const out={};for(const[k,v]of Object.entries(P))for(const[l,w]of Object.entries(Q)){
   const a=k.split(",").map(Number),b=l.split(",").map(Number),key=a.map((x,j)=>x+b[j]).join(",");
@@ -587,12 +593,27 @@ let Pold={...base};cols.forEach((P,j)=>{Pold=addPoly(Pold,P,xp[j]);});
 const dcols=piv.map(j=>cols.reduce((P,C,i)=>addPoly(P,C,PI[i][j]),{}));
 const gcount=11*(MAXBLOCK+1);
 const extcols=Array.from({length:MAXBLOCK+1},(_,h)=>dcols.map(P=>shifted(P,6*h))).flat();
-if(WITHB)extcols.push(...dcols);
+if(WITHB)for(let h=0;h<=BGMAX;h++)extcols.push(...dcols.map(P=>shifted(P,6*h)));
+const highStart=extcols.length,highLabels=[];
+if(NDEG){
+ for(let i=1;i<=5;i++)for(let j=0;j<=NDEG-i;j++){
+  const P={},g=NDEG-i-j,den=pow(iv(14),i+j);
+  for(let a=0;a<=i;a++)for(let bb=0;bb<=j;bb++){
+   const k=[a+bb,i+j-a-bb,g].join(",");
+   const co=qprod(cb(i,a),pow(md(-1),a),cb(j,bb),pow(13,bb),den);
+   P[k]=md((P[k]||0)+co);
+  }
+  extcols.push(Object.fromEntries(Object.entries(P).filter(v=>v[1])));
+  highLabels.push({C:i,F:j,G:g,total_degree:NDEG});
+ }
+}
 const degreeAt=j=>6+6*Math.floor(j/11);
+const bDegreeAt=j=>12+6*Math.floor((j-gcount)/11);
 const gen=(source,j,h)=>source["gen"+degreeAt(j)][h];
 const readRow=(P,j,src,bsrc,h,eta)=>j<gcount
  ?evalRow(P,gen(src,j,h),gen(src.zero,j,h),eta)
- :evalB(P,bsrc.gen12[h],bsrc.zero.gen12[h],eta);
+ :j<highStart?evalB(P,bsrc["gen"+bDegreeAt(j)][h],bsrc.zero["gen"+bDegreeAt(j)][h],eta)
+ :evalRow(P,bsrc["gen"+NDEG][h],bsrc.zero["gen"+NDEG][h],eta);
 
 function build(eta){
  const M=[],old=[],labels=[];
@@ -608,7 +629,7 @@ function build(eta){
   old.push(evalRow(Pold,GW.gen6[h],GW.zero.gen6[h],eta));
   labels.push({source:"native 6delta T",jet:6*h});
  }
- M.push(extcols.map((P,j)=>j<gcount?evalRow(der2(P),MG[degreeAt(j)-2],MG0[degreeAt(j)-2],eta):evalB(der2(P),MGB[10],MGB0[10],eta)));
+ M.push(extcols.map((P,j)=>j<gcount?evalRow(der2(P),MG[degreeAt(j)-2],MG0[degreeAt(j)-2],eta):j<highStart?evalB(der2(P),MGB[bDegreeAt(j)-2],MGB0[bDegreeAt(j)-2],eta):evalRow(der2(P),MGB[NDEG-2],MGB0[NDEG-2],eta)));
  old.push(evalRow(der2(Pold),MG[4],MG0[4],eta));labels.push({source:"normalized J2"});
  const target=[...Sjet,...Sjet,...Sjet,...native.slice(1),1];
  const rhs=target.map((x,i)=>md(x-old[i])),full=elim(M,rhs);
@@ -675,14 +696,14 @@ for(const c of candidates){
 return {
  format:"R702 complete original first-2Y quarter source with all R693 source/J2 constraints",
  auxiliary:{p:pp,omega:om,tau:TAU,lambda:md((1-TAU)*iv(TAU)),kappa:0,u:0,b:1,Omega:1},
- max_block:MAXBLOCK,with_B:WITHB,degree_blocks:Array.from({length:MAXBLOCK+1},(_,h)=>6+6*h),
+ max_block:MAXBLOCK,with_B:WITHB,B_G_blocks:BGMAX,complete_C_neutral_degree:NDEG,new_C_neutral_columns:highLabels,degree_blocks:Array.from({length:MAXBLOCK+1},(_,h)=>6+6*h),
  source_input_sha256:crypto.createHash("sha256").update(inputCode).digest("hex"),
  quarter_method:"R465 canonical full four-torsion formula; complete C-factor; 23 injective S136 evaluations",
  original_raw_endpoint_checked:true,unweighted_R465_identity_checked:true,
  coordinate_basis:"sigma^136*x^2*X^j, j=0,...,22",
  points:pointList,highest_original_total_moment:132+CAP,
  C_factor_coefficients_mod1009:bc,
- preservation:"same actual Pi4-zero G blocks and optional B0 block, all C/E branches retained; no source is identified by mass",
+ preservation:"same actual Pi4-zero G/B-G blocks plus, if requested, every C^i F^j G^(d-i-j), 1<=i<=5, d=12; all entire C moments and complete E inverses retained",
  entries:output,outputs_persisted:false
 };
 }
