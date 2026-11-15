@@ -495,3 +495,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R794**：[原E/J交域的整三态返回、五维首矩与实际W环带](results/R794-original-e-j-intersection-and-native-w-annuli.md)。原E_V偶核经整域单射约消付清，物理J截距及所有附门保；已知J负一进入真正E深门，完整帽外负一全N非零。Z环带全五维来源和原W中央首项准确给出，完整E深外部仍保反号补偿。
 
 - **R795**：[原因子接触一维核、真实下一单位行与唯一Schur缺陷](results/R795-original-factor-contact-one-dimensional-kernel-and-unit-next-row.md)。准确交数门h+1>B_b·C支付整个profile核kG，非恒定列和第h行增广均为单位；原pivot给唯一缺陷Δ及真实Bockstein Δ/p。最多一非unit Smith方向而未认指数1；较小H0(C)门另列，未替全WD首核或指定forcing。
+
+- **R796**：[完整半周期身份与物理E深门的一阶消去](results/R796-whole-halfperiod-and-physical-e-first-moment-cancellation.md)。六变量canonical相位证明h_W为整个Y轴算子，故原E/J/q伙伴权可交换；已付全(Y,Z)返回把适配Z1零带到物理E深B0。J深浅Z首来源各非零且准确相反，完整W相对行从二阶开始；指定负二和全中央补域仍需处理。
