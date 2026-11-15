@@ -369,3 +369,9 @@ SN原43751213826/1的018e4e34f4a9f65f171b574924bb328ab6e8e8f6/16006/c6e5b6d12034
 已先推白名单c3eef752e81d745f37e5e0313ed1e0c219b36322后，按新鲜Git tree逐path核同blob/bytes并普通删除清单七文件共367017B；完整size/SHA256/status/生产程序/重建参数/恢复点仍在9b4947bb清单。
 restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path；source/parent及endpoint NPZ/native/完整finite候选/失败中断/全部证明与history不动。删除是根规15的可重生普通输出整理，非新数值结论、非授权重跑旧数学。
 只读c3eef752e81d745f37e5e0313ed1e0c219b36322两README未变；非FF立即真CLI pull --rebase后保远端循环至推成。继续SJ完整整段估计、KL root leading逆与健康原SN/SC3，总验收未达。
+
+### 2026-11-15 21:48:49 UTC · visible-exact-astra-0df9 · SJ完整径向与接缝合同
+
+独推32f770ec471af361dc3668bbe2ef37a0fddcd738/36867/SHA256 ccaaa1b17fd68ce64d79a7bdc40dae9c0843b610da11149c178e92079d495f31；同fixedν0真s0，piece Markov18/h,96/h²与完整7/6/19/83，D2 compact bump全δ ordinary jets→K3，SP原全段C+和ST qrc→qmin，不将旧η半宽或row790移作wholeν/root证书。
+完整Srr/Zr/O/a、band96/192/384/576、两窗/finite F0–2/mean row、WX MFG真dr积分与一侧Z jumps逐项留，FA forward/ng及ST两receiver各一次；最后SF difference强上界不冒单trial strong/incoming。原18body parts只读，旧target/ray/profile/预算禁重；新正标量结论待Actions。
+只读5240a858e181a32c17403d7c393ce75d736c44bd两README未变；七报告普通删367017B已成1d9b7096，SN/SC3沿原健康run。继续SJ小reader/SCI和KL root-leading逆，完整matching与总验收仍未达。

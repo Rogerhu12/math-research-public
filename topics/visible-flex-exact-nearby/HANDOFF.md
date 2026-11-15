@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 21:47:50 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 21:48:49 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则和读取点
 
 只在公开 Rogerhu12/math-research-public 及其自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。PAT仅临时CLI/env，不入文件、输出、connector。根规12不另请审批。
 根规15只scripts/参数/run/SHA/真小结论，data/新数组/证书禁Git/Release/新artifact；topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入从immutable公开history/path/原artifact临时核SHA恢复。仅明确未保存的新量按H记录重做。无executor时根规8仅UTF8<100KB connector，禁binary/gzip和大日志。H≤10KB、open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 21:32:52定时CLI失败，下一≤22:32。ref不是pull。原SN真pull21:40:29.858672→d9466f8ba77abd78dc45c25230f0803c5a69d7ff，两README空diff；非FF保远端循环重推。
-最近只读README核：c3eef752e81d745f37e5e0313ed1e0c219b36322；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-本次完整H/open/results/log前页保7b770ffec7ad458f124ed0b7e459ec11bf7e02a2同路径，递归cf5f/062a/56c5/f6a9/a76e/576d/fcbc/d358/148a/e7；全部旧域/单位/mean/失败/lost/恢复/未付义务保留。
+最近只读README核：5240a858e181a32c17403d7c393ce75d736c44bd；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本次完整H/open/results/log前页保1d9b70965775f9bd0fea97a338ce0d67289750ae同路径，递归7b77/cf5f/062a/56c5/f6a9/a76e/576d/fcbc/d358/148a/e7；全部旧域/单位/mean/失败/lost/恢复/未付义务保留。
 
 ## 同一对象及真正完成标准
 
@@ -34,11 +34,11 @@ CY9a4e41c2/CYA2a5e9fb7原43757868884/18锁；7416signed/root全证保proof。仅
 STA9d142bef原43757644616/25锁，SCI/preGit/113球保proof；SP原[0,ra]整曲率，P22 density G−36.73318/G+45.02650，L2dr H−1→腰148.10572，四强和2.85705e20。原density/s0、source/jump/两mean/finite/有序maps保。
 AW694b3647仅同P22差→腰C_PC+C_ST,4，PC§9/stable/root−PFh/β/两sign两wave/PW ports保。FA24216c6d/FAA cfc6acd4原43763658978/24成功锁，20pins/5AST/完整SCI/preGit/68球保proof。完整J/六mean/两I尾/FS/RN/UΦ负窗，TNforward和Bc的ng逆各一次。首FAF823cbd3c门3text失败：new/old/lost0，只O.2+render修，原证保。strict整段/waist/Ei/Eo/incoming/Schur/R0待。
 WXc5157bbb/WXA f5554084原43763424840/1 child0/20锁，16pins/4AST/55完整字段与82球保proof。任意短段双向M/F/G、Φwaist原序/两窗/同逆/mean、selectedH与S原序/三组两rank、ungauged双向leading均实付。旧ray/指数0重算；SF源积分/normalizer独立，Ei/Eo/incoming/Schur/R0待。
-SFadd09111全Gy/T1T2/F0–2/FJ/−Z_y均值源，actual T_J同Js；FA forward一次，ST√q注入接primitive+mean源与无长度jump。只difference强延拓；Q径二阶/曲率三阶/new norms/真dr积分/Z jumps待，SN terminal不代wholeinterval。
+SFadd09111全Gy/T1T2/F0–2/FJ/−Z_y两mean源、同Js保。SJ ccaaa1b1已解析：fixedν0真s0、旧η半宽不移ν；piece Markov18/h,96/h²+真D7/6/19/83，D2全δ给K3/metricjets，SP整C+与ST qrc给全段qmin。完整Srr/Zr/各band/双窗/finite rows、WX短段MFG→真dr源积分和无length Z jumps，FA/ST各一次。原18body parts准备新标量，不重旧target/ray；actual仍待，SN terminal不代wholeinterval。
 WY ebf87135四腰receiver已解析：同Js左逆→Jσ(u,z)=uσ+zσ→真U_X逆；root Λ含κ/ng*/E0，右Λ^-1 T_F^-1 S^-1不交换。cut两I/two ranks及腰P rank保，state项仅BH左费；FA quotient两ε同real→SF/CT→IC/LN同系数。完整finite/P97/两mean/PW保；Λ逆/TF/三窗/SF积分/全incoming待。
 GH0ffb191a旧exp完整R:H(s−4/3)→Hs且χJ=128CsΛJ^-1/3<1仍待；J97/C0≤1/32仅目标。PD58bdf173的真DF/rho15一导损、νSchur/第四Robin/腰/mean/D²/smoothing/全s迭代未付。
 
-WT e4e317e8/WTA f90ba8a1原43763134339/1 child0/20锁，26pins/10AST/完整SCI/preGit及42球保proof。真实右腰D7/6/19/83、α仅背景一次、rawresponse mean/repair径导0/SP m/q/ng；J97/Js268435456/另dyadic512各4/4，同逆双窗。finite≤J+191/fullT差≤J+575/mean保；仅endpoint，非incoming/interval/Schur。
+WT e4e317e8/WTA f90ba8a1原43763134339/1成功锁，完整26pins/10AST/42球保proof。真实右腰D7/6/19/83；J97/Js268435456/另512各4/4双窗，finite≤J+191/fullT差≤J+575/mean保。只endpoint，非interval/incoming。
 
 ## 同态core、帽、迹与exact tail
 
@@ -54,5 +54,5 @@ S/T exacttail只同γ A0/r≤1/128及H8193/r≤2^1048576、r1e−9；Γ1负princ
 
 ## 恢复与持续执行
 
-旧cleanup恢复/source/域保前档：2Newton814736B和jet407315B已普通删，原名单/restore保7b770同H。新七浮点报告白名单add3714e/28120/9b4947bb在c3eef752先入库，现已普通删367017B；restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path/完整SHA见名单。仅成功ordinary floating报告；source/NPZ/native/完整finite候选/失败/全部proof保。不改history、不重旧数学。
+旧cleanup恢复完整保1d9b7096同H/open：2Newton814736B、jet407315B、七浮点报告367017B均已普通删。七件名单add3714e/9b4947bb先推c3eef752、删除1d9b7096；restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path，SHA/source/argv/status见名单。全部NPZ/native/候选/失败/proof/history保，旧数学禁重。
 继续open：SN→实际nonmean/强E/incoming→GH/ν；ST新尾接线；SC3与新core restriction→同态五输入/高迹/γ入口→完整matching→同对象几何。子题完接下一项，未达总标准持续，不等用户，不因时长停。

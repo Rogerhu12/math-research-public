@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SJ：完整 strict 径向系数与接缝上界](results/R133-supplement-complete-strict-radial-coefficients-from-saved-cubics.md)（2026-11-15，`ccaaa1b17fd68ce64d79a7bdc40dae9c0843b610da11149c178e92079d495f31`）：从同一 repaired cubic Q/Z 和原 ν0 body jets 解析给出 full |δ|≤1e−8 的 K3、Srr/Zr、全角 band/两窗/finite rows；fixed 真 s0 与 D2 bump 的 ν 变化分开。SP 全段正曲率积分和 ST cut q 构造合法全段 q lower；WX 任意短段 MFG 给真 dr 源积分，各 Z jump 无长度，physical 两 mean 保留。只新增标量公式与域，实际 SJ 计算/完整 incoming/Schur 仍待。
+
 - [WY：四个有序真腰接收映射及完整首系数同一性](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)：同一状态先撤moving normalizer再取wave/真角，补齐独立腰P rank；状态误差左角精确取消，root Λ与共同输入右序保留。FA真实两sign quotient经SF/CT给IC/LN同一实系数；全mean/finite/PW及尚未付的积分/Λ/三窗/Schur明确。
 
 - [FAA：实际完整自由 Airy 首遗漏割点误差与负窗输入](results/R133-supplement-actual-free-Airy-first-omitted-strict-cut-scalars.md)：43763658978/24门成功锁；全J、六mean、两I尾、有限normalizer及两sign两wave均付，68完整球/SCI/preGit可复核。完整强误差约3.87×10^25，Bc负窗约7.05×10^12，仅是同割点上界；waist/全incoming/Schur仍待。
