@@ -54,7 +54,7 @@
 
 ### 1B. Native：71新primal逐位吻合；73已进入完整576段续解
 
-[R276完整证明](results/R276-native-affine-infinity-descent-interval.md)已直接登记：固定同一原σ的全部129248行，当前全部活跃行严格向内为存在正仿射∞下降的充要条件，首触界必须取全部非零斜率；原十档包含下降候选恰需2^-9<α*，ρ=0/等号分别处理。已有精确endpoint ε<ρ足证十档在同模型下降，但不保证实际noJ trial、guard或native通过。后继只在Actions消费原signed exact账/r/σ，不重新做J/QR或增验收门；等73实际tuple与完整原件同次读取。
+[R276完整证明](results/R276-native-affine-infinity-descent-interval.md)已直接登记：固定同一原σ的全部129248行，当前全部活跃行严格向内为存在正仿射∞下降的充要条件，首触界必须取全部非零斜率；原十档包含下降候选恰需2^-9<α*，ρ=0/等号分别处理。已有精确endpoint ε<ρ足证十档在同模型下降，但不保证实际noJ trial、guard或native通过。后继只在Actions消费原signed exact账/r/σ，不重新做J/QR或增验收门；等73实际tuple与完整原件同次读取。 [独立Actions精确消费者接口](notes/2026-11-15-native-affine-infinity-prediction-interface.md)已发布：源bd4ff360完整1045行审读，12个61/73冻结源元数据SHA核同，标准库流读全部signed账及r/σ，只做十alpha与α*新算术；不重J/factors/ODE/QR。等待73真实resultSHA/或显式partial journal，与原byte-reader共享解包另步执行，不添原科学门。
 
 已证 [R269](results/R269-native-zero-reference-height-slope-gauge.md)、[R271](results/R271-discrete-RK-stage-gauge-covariance.md)、[R272](results/R272-native-RK-reference-and-propagation-error-split.md)、[R273](results/R273-complete-native-damped-square-root-chain.md)；完整证明已登记。R273保所有cut/stage/far、每node罚块、carry与纯常数，L2下降不保证原∞下降。实际longdouble为64有效位，不称binary128。
 
