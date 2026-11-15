@@ -1,0 +1,121 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "restore-exact-paid-projection-temporary-bytes",
+  "executionSourceCommit": "82aad3e4117c4b873dfe78c0b6ed2cb4049db09d",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-recomputed-temporary-byte-recovery-789f.py",
+  "scriptSHA256": "c2b80f5a00774327167f031037196501ed1d118a5b815f33711e33a33a3c9172",
+  "argvTemplate": [
+    "--paid-receipt",
+    "{scripts}/43740928483-infinity-small-original-projection-smith.json",
+    "--paid-receipt-sha256",
+    "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207",
+    "--new-receipt",
+    "{work}/infinity-small-original-projection-smith/small-original-projection-smith-receipt.json",
+    "--temporary-root",
+    "{work}/infinity-small-original-projection-smith/temporary",
+    "--out",
+    "{work}/recovered-projection-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "4096",
+    "--manifest",
+    "small-projection-checkpoints.json",
+    "--manifest-style",
+    "projection"
+  ],
+  "timeoutSeconds": 210,
+  "exitCode": 0,
+  "wallSeconds": 0.3647821429999851,
+  "fullTemporaryReceiptBytes": 1972,
+  "fullTemporaryReceiptSHA256": "d517777aa91bb7cab54221fb7daad3da0a70a5b48690b69949a2036fe0ea68c1",
+  "result": {
+    "elapsedSeconds": 0.30802077900000313,
+    "format": "r150-recomputed-temporary-byte-recovery-v1",
+    "outcome": "fresh-original-calculations-match-all-historical-temporary-bytes",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "author": "Astra-ISP-789f / root",
+      "binding": "01ba6e6d1f1d0c0ae9ae22a319615887dce4c313d29c9ce1bde346445ae10766",
+      "freshReceiptSHA256": "1f259ad6104ed9cf001d9605f6641feaa9ad45d2772e86521f629194b7813649",
+      "historicalTimestampRange": [
+        1794769404,
+        1794769460
+      ],
+      "largeDataUploadedOrCommitted": false,
+      "mathematicalEntriesModified": false,
+      "paidReceiptSHA256": "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207",
+      "recoveredManifest": {
+        "allPhasesMaterialized": true,
+        "bytes": 949,
+        "sha256": "cc6d9ed8bcddd20c1e2e5889e944cd4870ba5807c024db3ac2c42ac67bda48be"
+      },
+      "recoveredPhases": [
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 36801,
+          "gzipMtime": 1794769418,
+          "historicalRrefDurationRestored": false,
+          "phase": "F31-smith-state",
+          "sha256": "1eafa9aef2f6bdee2f62ea2676ecfc3fe0acf5a4be68340d2168bf0d568a5857",
+          "timestampAttempts": 43
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 12208895,
+          "gzipMtime": 1794769449,
+          "historicalRrefDurationRestored": false,
+          "phase": "Q-smith-state",
+          "sha256": "839af8f6f6ae87d75c2cfcd206323a0ceb6193dd49a398134fdb8448e693b5ae",
+          "timestampAttempts": 12
+        },
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 267400,
+          "gzipMtime": 1794769417,
+          "historicalRrefDurationRestored": false,
+          "phase": "original-projection-coefficients",
+          "sha256": "94cffcf53fe22e7693e4c22bd67b237fe9d65933a50571891647c378a4b98034",
+          "timestampAttempts": 44
+        }
+      ],
+      "temporaryOnly": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 20:08:26 UTC",
+      "beforeReadCommit": "73c211c1510f71726304837eb3c808d84f5f6117",
+      "originMainAfterPull": "82aad3e4117c4b873dfe78c0b6ed2cb4049db09d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 20:08:27 UTC",
+      "beforeReadCommit": "82aad3e4117c4b873dfe78c0b6ed2cb4049db09d",
+      "originMainAfterPull": "82aad3e4117c4b873dfe78c0b6ed2cb4049db09d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 10,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 3431,
+    "logicalJsonSHA256": "15e6df07aa8ac05844873b837498b933d2af84dddaee4bdf71c5bade85369952",
+    "itemCount": 10
+  },
+  "lastRulesReadCommit": "82aad3e4117c4b873dfe78c0b6ed2cb4049db09d",
+  "summaryExcludesRecomputableArraysOnly": false
+}
