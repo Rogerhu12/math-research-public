@@ -28,7 +28,9 @@
 
 [150入口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)的真实结论见[R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：run43721616091双job success仅表示受控编排和读回；当前128唯一α1达到9.68582474751023176032080482454992093e−11，完整129248/576×226独立replay逐word同。后置严格exporter未编译：三元冒号与::quoted连字、BatchStats名称歧义；642语义成员和149stderr行/两字节块完整核，export/certificate=null、230列全未运行、全部finalfalse，非预算或区间反证。
 
-161由exact接独立v2词法/类型资格化后，仍fresh91→64J/R273→当前128末状态→stage10/step0/field0全230列/320bits；58原pins、19200s及原证书公式/门不减。R314/R325即使实际完成也只付固定准确有限trace条件包含，不代真 $F_e$、真正隐式root、动态分支稳定、IEEE、全部RK/112/338/physical或native。原未付字段不能由传输成功改写；raw已清，后续完整重算，不凭hash恢复。
+[161入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)五件及共用[v2源接口](notes/2026-11-15-native128-qualified-json-statistics-v2-interface.md)已发：58原pins全部保留+新runtime/bridge/v2三件=61；仅JSON调用前ASCII空格及六处stage/exporter统计使用点显式资格化，五原C++/三certifier数学源原字节不改。仍fresh91→64J/R273→当前128末状态→stage10/step0/field0全230列/320bits，19200总期限/6000owner/1200replay/1200export/9000cert及完整错误/字段读回不减。新临时源逐完整逆变换/预定SHA绑定；无本地编译或新实际证书，Actions承担正常实际编译。
+
+R314/R325即使实际完成也只付固定准确有限trace条件包含，不代真 $F_e$、真正隐式root、动态分支稳定、IEEE、全部RK/112/338/physical或native。原未付字段不能由传输成功改写；150 raw已清，161完整重算，不凭hash恢复。160复用同一v2继续完整152最终门，两个请求各自独立源/并发组，不相互作前置门。
 
 ### 1C. 37查询及真实非线性域：155在跑，158实现中
 
@@ -50,7 +52,7 @@
 
 [157入口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)八件源码/参数已发布，原104+8pins逐项全留并加3+1，总107+9；实际producer闭包39→41。真父是R335末九个Decimal50字符串，新Δ=.01明确另定，不继承J/H/merit。每批八方向，全九维三残差二次式平方，32内更新各21槽（完整12×9残差QR、H移位/Cauchy/18正负谱槽），全模型回溯/有限已算候选择优；外层fresh原forward slope、原20档/c_A/域，失败才另标原149 normal回退。初末新增54二阶及原108一阶FD、Arb160/depth14/453/full112不减。
 
-157完整Q为12×9、R为9×9只报准确shape/SHA；其全部12残差、9个stationarity、列排列/对角、每个模型候选/试探与全部真实trial均完整读回；不把因子SHA当已读全部矩阵。science75、job90和读回10分钟，只有一批八方向，没有额外32批循环；所有原门保持，尚无实际157结果，R340负责实际全读回。
+157真实run43729310294 / compute132858021333，source c71cbeac7fd13c65cf50c7eb39842e9949737b25，来源前6步通过。完整Q为12×9、R为9×9只报准确shape/SHA；其全部12残差、9个stationarity、列排列/对角、每个模型候选/试探与全部真实trial均完整读回；不把因子SHA当已读全部矩阵。science75、job90和读回10分钟，只有一批八方向，没有额外32批循环；所有原门保持，尚无实际157结果，R340负责实际全读回。
 
 ## 3. 原连续C、新九族与当前C自己的native
 

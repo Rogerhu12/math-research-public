@@ -45,3 +45,7 @@
 ## 2026-11-15 15:20:12 UTC /root — request157全九维残差二次平方模型入口
 
 [157接口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)八件完整源/差异读完即发：真154末九p50/newΔ=.01，原104+8pins全留→107+9、执行39→41，原四输入不变；32内更新×21槽及完整模型回溯，外层原20档/c_A/域/normal/162FD/Arb/453/full112保。修正workflow唯一recipe长度断言3188→3184并核新身份，数学四源未改；science75/job90/readback10，全部原模型/trial字段完整读回，未预填结果。API核87c131f1cda02a90da5d66e8c8c9ad440d6f9f25双README未变，真实pull行保留。
+
+## 2026-11-15 15:21:41 UTC /root — request161及共享v2明确词法/类型修复
+
+[161接口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)与[v2接口](notes/2026-11-15-native128-qualified-json-statistics-v2-interface.md)完整差异核后即发：58原pins原值全留→61，新shim只加JSON前导空格及六处统计使用点资格化，原数学源/预算/门保持；fresh91至128后同job230列，全字段/错误读后清。无本地科学编译或未来结果；157已run43729310294/132858021333、前6步过，H移除已完成150/152/156重复表行但原结论范围完整保。API核2688cce1ac9ddfbff5a9259872582c252c0e49d5双README未变，真pull行保留。
