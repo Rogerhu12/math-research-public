@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** eff90c141df410e83e273d568e4b707903bf8df2（2026-11-15 00:07:35 UTC，Actions run43656554345实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43656554345-1.json。
+- **最近成功实际 pull 与已读规则提交：** 93cbbb45acec111f4b0f085861054cdfd510f4de（2026-11-15 00:10:29 UTC，Actions run43656791951实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43656791951-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -26,7 +26,7 @@
 
 **[完整下一页204来源](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)已成。** β1源核2040基=1834原核+θ1…7+e9+196ω+te8+tζ2。1834均有真Bsat精确核提升；θ3及θ4−e9由原κ8/κ9 canonical recipe再精确消去。余204=θ1/2/5/6/7、e9、ω3…198、te8、tζ2；ωj=ζj−(aj−15bj)e8−17bjζ2。第二类旧六源及te8已零，只需新算196ω+tζ2共197类；进入第三须保全部204真实提升，第二零不能删第三自由。后继完整源核由(I−TC)、T(sI−J)给，不只取常数核。连续页20→15→10→5的原p6/carry与逐层Smith合同正在冻结；用κ8与ζ2原三次除源支付第一像，不借κ9额外p7。
 
-[十项完整入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)含68输入/7旧工件、10编译各30秒/512MiB、共享数学300秒；现已真实成功。双倍jet先真像/free后10→5，q1规范t lift/carry同步，13自由行不删。原正分支[两P/765费用](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)及宽NF/trace/真实数组恢复代码已编译，但本次无正目标所以未执行全局正分支；不得记为已核九原正证书。源码hash与全部7artifact身份保本次H快照、contract和manifest。
+197原入口、两个P/765全局充分费用及已编译未运行正分支的全部合同、SHA和原式范围保本次H全文；本次无正目标，不声称已核九原正证书。
 
 ## 实际边界：完整来源及固定测试
 
@@ -40,6 +40,8 @@
 - **[真实源列额外尾阶](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)：** b′=−S^(-1/2)Γ_UCΓ_CC^(-1)y_a，完整逆块给||b′||²≤<y_a,(Γ_CC−I)y_a>≤K_a S_m^(a+1)，固定a常数独立m/q；a1界S_m²/d0²，a0恰零。原b仍为K*c′+G_U*b′，共同正向恢复未付。W侧消gauge后低位反馈只重现原Tw=0；高位O_a(1/m)不作W消零。
 
 - **[同物理gap内在耗散](notes/2026-11-14-same-physical-gap-intrinsic-cut-dissipation-and-fixed-test-pairing-789f-next.md)：** Gq=P_Mq−P_K(q+d)为递减正交投影；固定f支持≤s，q≥s+d，dq=g(q−d)−gq恰两正交投影增量平方和。同一个ub/uf付α(ub)²+μ(uf)²+λ(uf)²≤dq，故Xi(e)²≤4dq、0≤gq−μ(e)²≤2dq，|<Lr,t−e>|≤Xi(r)√dq。步长d尾和≤4g(q0−d)，不把旧总界重计新结论；尚无移动gq衰减率或正向gauge费用。
+
+- **[首物理头完整恢复](notes/2026-11-15-first-physical-head-exact-gauge-recovery-and-same-gap-scaling-789f-next.md)：** a1的原零源c1=(W1/S)(Γ_CC^(1/2)−Γ_CC^(−1/2))y、原source b1=−W1 b′1/S，全部交叉精确合并，恢复仅O(m³)。v=Ty∈K1及h1+(S/W1)f1−v=C*f0/W1同时给t(h1)=−(S/W1)t(f1)、Gq h1=−(S/W1)Gq f1，gq/dq准确乘S²/W1²。因此现有b′1≤S/W1只复原平凡界，仍需o(S)；同gap齐次耗散不另赚小量。a>1及实际低forcing远孔传播继续。
 
 ## 其余未闭主接口
 
