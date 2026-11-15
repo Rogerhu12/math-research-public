@@ -196,3 +196,5 @@
 - [R662：原Y环带外部质量与完整W补偿的准确抵消](results/R662-original-annulus-exterior-and-exact-w-compensation.md)：同q_N与Y/(κ^r p^m)归一给全原S行、真实A外部首二行及严格有限层误差；外部零阶质量为unit，尺度三角项恰抵消R659非齐次差。原T另留B±=b_L L±b_Y Q的完整混合unit/log行Θ±，全五型和外部反号保留，未将强制差认中央矛盾。
 
 - [广义 Stieltjes 范围核查](notes/2026-11-15-generalized-stieltjes-and-original-pade-boundary.md)：Markov–Krein 正测度呈示成立，但A=2的严格正密度已可给有理函数，故单独广义正性不付普通Padé完备性；原不同charge的正矩规范也非共同目标行变换。未排原Beta的其它AT证明，R637实际高尾仍开。
+
+- [R663：原LT坐标、完整共振余数与同解闭边界充要](results/R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：原形式群严格整LT坐标给[-p]=−pv+v^(p²)、首轨道Q=W^(p−1)−p；全部Q^ell整除回保高尾的准确有限余数。原Y=H^-m R(WH^d)的完整连接在真闭边界及略外仍严格常数主导，故同Y闭盘iffQ|B且真过界；原j=Y0不改，未从j0预支余数或原X下降。
