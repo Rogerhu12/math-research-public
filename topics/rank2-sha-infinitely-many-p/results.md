@@ -162,3 +162,5 @@
 - [R647：三条原算术来源的共同有理替代与前五块Cartier必要式](results/R647-original-three-source-rational-model-and-five-cartier-conditions.md)：同一P2/Θp匹配三条原完整多项式，全部h≤5准确Cartier与留数返回；第五块共同−6κ5，原j0必要式保实际低块除商及fullFc全部三角。全部二挠极帽/Z零点/真实尺度保持，第三j0不从两零推出。
 
 - [R648：原完整矩阵的带权旗标与全部Smith因子](results/R648-original-weight-flag-and-complete-smith-classification.md)：逐原列真实p^j除商使辅助矩阵仅有1/p因子；实际饱和格与列权旗标精确给全部指数重数μe=ce−δe+δ(e−1)。早阶门下完整高尾的唯一转换点给交核求和式，p≥6101全部fD<p自动满足；未替换旧M或有序jet前缀。
+
+- [R645：原Y/A真交域、同一q完整转置与强制四阶补偿](results/R645-original-ya-intersection-and-carry-transpose.md)：真实Y一层/A两层交域以原Q5与A全返回；同一q的两个门相交强迫A深，与A词归一Yunit严格不交。原九行条件强制第四法向jet为单位，十一自由系数不能删转置；完整S/T总行、四个固定门积分/差商和全部log质量保持，未从局部jet推中央非零。
