@@ -4,11 +4,11 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:57:31 UTC root依根8终端不可用例外经API读取main c587e55aec649bf2d4978058c98bebecee2c9de4；双README根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变；这是API读取，非git pull。最近Actions真pull：2026-11-15 10:53:28 UTC，已读45c8605fbe4a5423d557cded67ef18ba042a4d1e；root最后真pull为10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即实际pull核差异。
+规则同步记录：2026-11-15 11:03:37 UTC root依根8经API读main 2cbfa8d0680e08ea57f202a4ab7091e767485666；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 10:53:28/45c8605fbe4a5423d557cded67ef18ba042a4d1e；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
-root唯一提交与workflow发布者；部分克隆/tmp/visible-larger-root-git-126。终端可用时每push前及至少每小时真pull，NFF立刻rebase重推，禁force。当前终端unavailable，按根8仅集成小文本：每次取最新main/双README，expected_sha lease普通前进提交；冲突立刻重读合并，绝不冒git pull或强推。
+root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可用时每push前/至少每小时真pull，NFF立即rebase重推。当前终端不可用，依根8仅集成<100KB文本；每次取最新main/双README并expected_sha普通前进，冲突重读合并，禁force。
 
 根第15条禁可重算raw/证书/Actions输出入Git/Release/artifact，仅源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB；证明直接results，不加独立审批/fixture门，不写根LOG。删失现场按公开配方重做，不能由SHA伪恢复。
 
@@ -20,9 +20,9 @@ root唯一提交与workflow发布者；部分克隆/tmp/visible-larger-root-git-
 
 ## 九控制真实搜索与完整非零场
 
-[131 R292](results/R292-actual131-eight-nine-control-batches.md)之后，[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，compute132781953477/report132785749291已完成32批256接受/2322trial/2066拒；81接受inner false，20外trial内371域失败而无外异常。W5.003044586685467→4.963213836829105；末radius.000390625，最小σ9=.001251424267791722，所有unit/full112/nonzero/native/success仍false。32primary/256groups/32views原SHA均已核，完整例外见R296；raw已清，不能以SHA恢复。
+[131 R292](results/R292-actual131-eight-nine-control-batches.md)后，[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，compute132781953477/report132785749291完整32批256接受/2322trial；W5.003044586685467→4.963213836829105，末radius.000390625。81接受inner false、371内域失败、FD/Arb/453圆及弱响应边界全在R296。32primary/256groups/32views原SHA已核，所有unit/full112/nonzero/native/success仍false；raw已清。
 
-[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降/有限误差边界。135将从R296真第32批九p和末radius继续，保原8×20/12×20/全部final；未发布的bd40/c8f1/f0ff草稿因终端断线待按合同恢复或重建，不冒现成运行。九控制标量搜索不是112/native接受。
+[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降/有限误差边界。135从R296真第32批九p/末radius继续，保原8×20/12×20/全部final；已由公开源重建为ed78684f/24c5ff04/df856e9e，待发布。旧bd40/c8f1/f0ff未发布稿失去现场，不再冒用其SHA。九控制标量搜索不是112/native接受。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101/d075af46/c756ede7保00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)真127第8九p/λ=.001/fresh-circle；110pins/29closure/原4输入+2ready+78源、300min总/330science350job。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 
@@ -50,9 +50,11 @@ root唯一提交与workflow发布者；部分克隆/tmp/visible-larger-root-git-
 
 [九450完整metric](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)0c4353d1/4b13425a接0865全九nested实表达/69bb新guard/675六jet混合项/原a601四Loewner全DFS/两帽target0及9aa0真query；live来源标签不证现场，未有accepted450/实际metric，目标atlas与原标准4仍未付。
 
-[R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)已证675共享准确Hermite/全角cut/R249反射/cuff帽的几何C²及强C²相位条件；非小jet差或ap标签证明。原g同cut atlas分C0/C1/C2条件，finite-Gauss/mask/clip基底及模型C选择仍独立；内cuff可平延拓、naturalRout非平。无实际闭场，结构证明不付embedding/reach/metric。
+[R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给675共享准确Hermite/全角cut/反射/cuff帽的C²及强C²条件，同g atlas的C0/C1/C2条件独立。finite-Gauss/mask/clip不能靠小差冒恒等；modelC内cuff可平延拓、naturalRout非平。无实际闭场/embedding/reach/metric证书。
 
-[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)81d061a6/源9aa0da45保六共同primitive/1440片/全准确深根族与自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446，compute132777819446/report132779955239 success。482.799843329s用尽200000panel，1378/1440片；cell6/seg1/piece1378 depth47部分，31panel+source[1379,1440)+wholequery未付。E/Rout空、inverse0、完整queryfalse；deep/结构flags不冒完整域。summary8716B/7ccbcf3c、result5992B/e18d07b6与query608B/009f8e11从原日志逐字核；raw已清，需完整重做并改进真实分片策略，不盲加预算。
+[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)81d061a6/9aa0da45保六primitive/1440片/准确深根族/自然Rout。[132 R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446只完1378片、用尽200000panel，wholequery/E/Rout未付；原结果e18d07b6，需重做。
+
+[136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)/[R297](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)新004010b6准确单位面板缩放及完整Acb分支；原模型C/160×9/六积分/200000panel/1800s全保，仅加guard8且仍核原全宽，点q=0不冒解析。9pins/request2b9945ac/wf992f41e9，R297给完整包含证明；shared原E请求已发，实际run待读取。最终单行与接线未本地语法执行，Actions原compile负责；不冒已完整E/metric。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真fullDN及自身final audited tail/config/port，完整physical/material/z0/mean→R249/sharedB/两帽。R274/R258 e372待同场非零见证；held可独立reach，但必须整个像/两帽/完整D。冻结g/全p/t再精化，有限phi不冒连续theta，数值不冒严格存在。
 

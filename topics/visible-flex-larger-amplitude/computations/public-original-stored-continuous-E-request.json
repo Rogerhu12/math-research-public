@@ -1,12 +1,13 @@
 {
   "schema": "public-original-stored-continuous-E-request-v1",
-  "request_number": 132,
+  "request_number": 136,
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "storedcontinuousE"
   ],
-  "scientific_entry": "geometry_20261115_stored_continuous_E_cover.py",
+  "scientific_entry": "geometry_20261115_stored_continuous_E_cover_v2.py",
   "source_sha256": {
+    "geometry_20261115_stored_continuous_E_cover_v2.py": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea",
     "geometry_20261115_stored_continuous_E_cover.py": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed",
     "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
     "strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
@@ -16,7 +17,7 @@
     "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
     "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde"
   },
-  "source_count": 8,
+  "source_count": 9,
   "original_formula_source_sha256": {
     "runtime:tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
     "runtime:strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
@@ -81,7 +82,8 @@
     "query_depth": 12,
     "max_panels": 200000,
     "max_query_nodes": 200000,
-    "budget_seconds": 1800
+    "budget_seconds": 1800,
+    "analytic_guard_bits": 8
   },
   "complete_scope": {
     "finite_head_cells": 160,
@@ -127,5 +129,36 @@
     "complete_result_and_query_metadata_in_bounded_stdout": true,
     "temporary_ledgers_and_original_inputs_readout_then_always_removed": true,
     "retain_only_script_parameters_run_hash_and_compact_conclusion": true
+  },
+  "evaluation_strategy": {
+    "schema": "R286-unit-panel-complete-piecewise-six-integral-strategy-v2",
+    "preserved_original_producer_source": {
+      "file": "geometry_20261115_stored_continuous_E_cover.py",
+      "bytes": 66415,
+      "sha256": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed"
+    },
+    "current_producer_schema": "R286-original-stored-convention-C-continuous-E-cover-v2",
+    "original_model_schema_unchanged": "R286-original-stored-continuous-model-convention-C-v1",
+    "original_six_full_width_goal_unchanged": true,
+    "exact_map": "I_k=(b-a)*M_k*integral_0^1 f_k(a+(b-a)*t)/M_k dt",
+    "actual_recovered_full_width_checked": true,
+    "analytic_guard_bits_not_a_certificate": true,
+    "pointwise_q_zero_is_not_treated_as_a_proof_of_holomorphy": true,
+    "all_cap_and_cusp_branches_retained": true,
+    "all_original_work_budgets_unchanged": true,
+    "proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md",
+      "bytes": 15793,
+      "sha256": "3505389d22bc63f6d7b5c7cde62e36e856d94993841fc7eb3cdd034ff92a10e0"
+    }
+  },
+  "preceding_actual_execution": {
+    "request_number": 132,
+    "run_id": "43702946191",
+    "source_commit": "185e4f3eb798fbca5fabab8ca928741cb4cd6446",
+    "result_sha256": "e18d07b684bc78c1ef9186d3e16cf7f2288e958a4298523223c70d4cc2ff53cb",
+    "role": "Original partial result motivates evaluation changes; no prior numerical ledger or field is an input",
+    "preserved_physical_inputs_query_and_budgets": true,
+    "current_run_result_or_success_predeclared": false
   }
 }

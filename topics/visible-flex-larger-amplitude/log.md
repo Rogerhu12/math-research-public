@@ -351,3 +351,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 10:55:17 UTC — R296实际134全32批已读回，集成小文本继续
 
 [R296](results/R296-actual134-thirty-two-nine-control-batches.md)：256接受/2322trial/2066拒，W5.003044586685467→4.963213836829105，81接受inner false及371内域失败均原样负责；32primary/256groups/32views逐字核SHA，完整112/native仍false。末真p/radius已取用于135。终端断连后依根8用仅小文本集成并latest-main lease，不把API读冒真pull；未发布源按公开配方恢复或重做。继续135及136积分改进和原在跑任务。
+
+## 2026-11-15 11:03 UTC /root — R297完整积分包含证明与request136
+
+[R297](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)及[136入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)：准确unit-panel/正幅值归一化、原全宽门和完整Acb分支保同模型C/六primitive/1440片/原200000panel与1800秒，点q=0不冒解析。新source004010b6/request2b9945ac；修改课题外共享E workflow为992f41e9，以执行该独立v2及原全部query/未付读回。终端不可用依根8小文本普通前进，实际run待读取，继续135与完整场。

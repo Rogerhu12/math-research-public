@@ -100,6 +100,8 @@ R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原�
 
 [R293实际132](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)compute132777819446/report132779955239均success，但仅正常返回部分结果：482.79984332900005s用尽200000积分panel，完成1378/1440原片，1103610 analytic component integrals，inverse0。首未付cell6/segment1/piece1378/depth47，原完整33行unpaid为31panel+source[1379,1440)+whole-query；唯一整自然闭域的E=null/domainfalse，Rout及全六primitive总和均空，不能消费成全域metric。深端统一E/E_r/E_rr、protected/finite结构flags保原范围，不自动付模型选择/atlas/旧finite同g。原result5992B/e18d07b6、query608B/009f8e11和scalar8716B/7ccbcf3c均从原日志按编码逐字重建核身份；其他30panel逐区间只在runner完整消费后清，不伪称独立复取。下一项按真实cell6瓶颈定位积分分裂/精度策略，保原六primitive/全部域和未访责任，明确新源后Actions完整重做。
 
+[R297单位面板及完整分支包含证明](results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md)与[136实际入口](notes/2026-11-15-request136-continuous-E-unit-panel-execution-interface.md)现已发布。新004010b6保持同一模型C、160×9片/六primitive、原200000panel/1800秒及全自然闭域query4fa2baa1；准确单位面板与正幅值归一化用guard8请求更窄库误差，但最终仍按原恢复全宽门判断，失败保合法range界及全部未付栈/后缀。原宽面板上唯一branch/sign沿旧解析路径；其他组件分别处理真正的解析条件，点q=0不能冒局部解析。末次尝试与首未付分开记，完整六component诊断不省。9pins/request2b9945ac/workflow992f41e9、256bit和原预算不变；Actions将先执行原syntax preflight再真实科学。尚无136实际结果，不能消费为完整E/metric；下游旧9aa0 guard若接v2须显式新身份适配。
+
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
 ## 5. 存储和原件维护

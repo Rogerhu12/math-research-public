@@ -1,4 +1,4 @@
-name: visible-larger original stored convention-C continuous E closed cover
+name: visible-larger original stored convention-C unit-panel continuous E closed cover
 'on':
   push:
     branches: [main]
@@ -38,14 +38,15 @@ jobs:
             /topics/visible-flex-larger-amplitude/*.md
             /topics/visible-flex-larger-amplitude/computations/
             /topics/visible-flex-larger-amplitude/results/R286-original-stored-continuous-integral-and-metric-bridge.md
-      - name: Establish request132 owned temporary namespace
+            /topics/visible-flex-larger-amplitude/results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md
+      - name: Establish request136 owned temporary namespace
         run: |
           git config gc.auto 0
           git config gc.autoPackLimit 0
           git config maintenance.auto false
           git config --global merge.stat false
-          mkdir "$RUNNER_TEMP/visible-stored-continuous-E132"
-          echo "VISIBLE_BASE=$RUNNER_TEMP/visible-stored-continuous-E132" >> "$GITHUB_ENV"
+          mkdir "$RUNNER_TEMP/visible-stored-continuous-E136"
+          echo "VISIBLE_BASE=$RUNNER_TEMP/visible-stored-continuous-E136" >> "$GITHUB_ENV"
           echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
@@ -60,10 +61,10 @@ jobs:
           repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
           raw=(comp/'public-original-stored-continuous-E-request.json').read_bytes();request=json.loads(raw)
           assert request['schema']=='public-original-stored-continuous-E-request-v1'
-          assert request['request_number']==132 and request['lanes']==['storedcontinuousE']
+          assert request['request_number']==136 and request['lanes']==['storedcontinuousE']
           assert request['repository']=='Rogerhu12/math-research-public'
-          assert request['scientific_entry']=='geometry_20261115_stored_continuous_E_cover.py'
-          assert request['source_count']==len(request['source_sha256'])==8
+          assert request['scientific_entry']=='geometry_20261115_stored_continuous_E_cover_v2.py'
+          assert request['source_count']==len(request['source_sha256'])==9
           verified=[]
           for name,expected in request['source_sha256'].items():
             assert PurePosixPath(name).name==name and re.fullmatch(r'[0-9a-f]{64}',expected)
@@ -73,11 +74,17 @@ jobs:
           source=ast.parse((comp/request['scientific_entry']).read_bytes())
           constants={node.targets[0].id:ast.literal_eval(node.value) for node in source.body
             if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name)
-            and node.targets[0].id in ('PINS','PROOF_SHA','REVISION')}
+            and node.targets[0].id in ('PINS','PROOF_SHA','REVISION','BASE_SOURCE_NAME','BASE_SOURCE_SHA256')}
           assert constants['PINS']==request['original_formula_source_sha256']
+          base=request['evaluation_strategy']['preserved_original_producer_source']
+          assert constants['BASE_SOURCE_NAME']==base['file']
+          assert constants['BASE_SOURCE_SHA256']==base['sha256']==request['source_sha256'][base['file']]
+          assert len((comp/base['file']).read_bytes())==base['bytes']
           assert constants['REVISION']==request['original_source_revision']
           proof=request['proof'];data=(repo/proof['file']).read_bytes()
           assert len(data)==proof['bytes'] and hashlib.sha256(data).hexdigest()==proof['sha256']==constants['PROOF_SHA']
+          strategy_proof=request['evaluation_strategy']['proof'];data=(repo/strategy_proof['file']).read_bytes()
+          assert len(data)==strategy_proof['bytes'] and hashlib.sha256(data).hexdigest()==strategy_proof['sha256']
           for name,expected in request['reviewed_README_blobs'].items():
             assert subprocess.check_output(['git','hash-object',name],text=True).strip()==expected
           item=request['query_recipe'];data=(repo/item['file']).read_bytes();query=json.loads(data)
@@ -89,12 +96,12 @@ jobs:
           assert query['calibration_ledger_sha256']==request['inputs']['calibration_ledger']['sha256']
           assert query['stored_reference_sha256']==request['inputs']['stored_reference']['sha256']
           assert request['scientific_parameters']==dict(deep_definition='original-exact-root-family',
-            precision_bits=256,integral_absolute_bits=96,integral_relative_bits=80,
+            precision_bits=256,integral_absolute_bits=96,integral_relative_bits=80,analytic_guard_bits=8,
             integral_evaluation_limit=100000,value_width_bits=24,max_depth=48,query_depth=12,
             max_panels=200000,max_query_nodes=200000,budget_seconds=1800)
           assert not any(request['retention'][k] for k in ('upload_artifact','upload_release','publish_raw_to_git'))
           assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==os.environ['GITHUB_SHA']
-          print(json.dumps(dict(event='request132_source_and_query_identity',run_id=os.environ['GITHUB_RUN_ID'],
+          print(json.dumps(dict(event='request136_source_and_query_identity',run_id=os.environ['GITHUB_RUN_ID'],
             source_commit=os.environ['GITHUB_SHA'],request_sha256=hashlib.sha256(raw).hexdigest(),
             sources=verified,proof=proof,query_recipe=item,complete_scope=request['complete_scope'],
             scientific_parameters=request['scientific_parameters'],no_science_started=True)),flush=True)
@@ -128,7 +135,7 @@ jobs:
             records[role]=dict(source_path=str(relative),git_blob=blob,bytes=len(raw),sha256=item['sha256'],temporary_file=str(path))
           assert set(records)=={'config','calibration_ledger','stored_reference'}
           assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==head
-          print(json.dumps(dict(event='request132_original_geometry_bytes_restored',historical_public_commit=commit,
+          print(json.dumps(dict(event='request136_original_geometry_bytes_restored',historical_public_commit=commit,
             source_commit=head,inputs=records,raw_inputs_not_rewritten_or_rearchived=True,
             no_accepted_tail_or_field_input_consumed=True)),flush=True)
           PYINPUTS
@@ -164,7 +171,7 @@ jobs:
             assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
             baselines[name]=dict(blob=blob,text=raw.decode())
           old={name:value['blob'] for name,value in runner.BASELINES.items()};runner.BASELINES=baselines
-          print(json.dumps(dict(event='request132_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
+          print(json.dumps(dict(event='request136_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
             old_embedded_blobs=old,reviewed_current_blobs=request['reviewed_README_blobs'],
             period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_rule_change_stop_retained=True)),flush=True)
           base=Path(os.environ['VISIBLE_BASE']);inputs=base/'original-inputs'
@@ -178,7 +185,7 @@ jobs:
           for key,value in request['scientific_parameters'].items():
             argv.extend(['--'+key.replace('_','-'),str(value)])
           # Auth exists only for the original rule-sync parent; the numerical
-          # child executes the unchanged source without GitHub token variables.
+          # child executes the independent evaluator of the unchanged model without GitHub token variables.
           bootstrap="import os,runpy,sys; [os.environ.pop(k,None) for k in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')]; sys.argv=sys.argv[1:]; runpy.run_path(sys.argv[0],run_name='__main__')"
           command=[sys.executable,'-u','-c',bootstrap,*argv]
           sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*command]
@@ -197,7 +204,7 @@ jobs:
             with path.open('rb') as stream:
               for block in iter(lambda:stream.read(1048576),b''):h.update(block);count+=len(block)
             return dict(file=str(path.relative_to(base)),bytes=count,sha256=h.hexdigest())
-          summary=dict(schema='request132-original-continuous-E-actual-scalar-summary-v1',
+          summary=dict(schema='request136-original-continuous-E-actual-scalar-summary-v1',
             run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
             compute_step_outcome='${{ steps.science.outcome }}',
             source_result=None,query_results=None,complete_unpaid_scope=None,
@@ -205,7 +212,11 @@ jobs:
           result=out/'result.json'
           if result.is_file():
             desc=digest(result);record=json.loads(result.read_bytes())
-            assert record['schema']=='R286-original-stored-convention-C-continuous-E-cover-v1'
+            assert record['schema']=='R286-original-stored-convention-C-continuous-E-cover-v2'
+            comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+            request=json.loads((comp/'public-original-stored-continuous-E-request.json').read_bytes())
+            assert record['source_sha256']==request['source_sha256'][request['scientific_entry']]
+            assert record['preserved_original_producer_source']==request['evaluation_strategy']['preserved_original_producer_source']
             summary['original_result_file']=desc;summary['source_result']=record
             query=record['query_results'];path=out/query['file'];qraw=path.read_bytes()
             assert len(qraw)==query['bytes'] and hashlib.sha256(qraw).hexdigest()==query['sha256']
@@ -231,36 +242,36 @@ jobs:
           if rules.is_file():summary['rules_runner_result']=dict(original_file=digest(rules),value=json.loads(rules.read_bytes()))
           raw=json.dumps(summary,ensure_ascii=False,separators=(',',':'),allow_nan=False).encode()
           if len(raw)>90000:
-            print(json.dumps(dict(event='request132_actual_scalar_summary_too_large',bytes=len(raw),
+            print(json.dumps(dict(event='request136_actual_scalar_summary_too_large',bytes=len(raw),
               sha256=hashlib.sha256(raw).hexdigest(),no_truncation_and_no_success_relabel=True)),flush=True)
             raise SystemExit(70)
-          print('BEGIN_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print('BEGIN_REQUEST136_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
           print(raw.decode())
-          print('END_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print('END_REQUEST136_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
           checksum=hashlib.sha256(raw).hexdigest()
-          print(json.dumps(dict(event='request132_actual_scalar_identity',bytes=len(raw),sha256=checksum,
+          print(json.dumps(dict(event='request136_actual_scalar_identity',bytes=len(raw),sha256=checksum,
             hash_scope='compact UTF8 JSON excluding separator LF',raw_upload=False)),flush=True)
           with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
             stream.write('scalar_summary='+raw.decode()+'\n')
             stream.write('scalar_summary_bytes='+str(len(raw))+'\n')
             stream.write('scalar_summary_sha256='+checksum+'\n')
           PYSCALAR
-      - name: Remove only request132 temporary inputs and recomputable output after actual readout
+      - name: Remove only request136 temporary inputs and recomputable output after actual readout
         if: always()
         run: |
           python - <<'PYCLEAN'
           import json,os,shutil
           from pathlib import Path
           root=Path(os.environ['RUNNER_TEMP']).resolve()
-          target=Path(os.environ.get('VISIBLE_BASE',str(root/'visible-stored-continuous-E132')))
+          target=Path(os.environ.get('VISIBLE_BASE',str(root/'visible-stored-continuous-E136')))
           try:
-            assert target.name=='visible-stored-continuous-E132'
+            assert target.name=='visible-stored-continuous-E136'
             assert not target.is_symlink() and target.resolve().is_relative_to(root) and target.resolve()!=root
             if target.is_dir():shutil.rmtree(target)
-            print(json.dumps(dict(event='request132_owned_temporary_payload_removed',
+            print(json.dumps(dict(event='request136_owned_temporary_payload_removed',
               raw_outputs_or_recovered_inputs_not_uploaded=True)),flush=True)
           except Exception as error:
-            print(json.dumps(dict(event='request132_owned_cleanup_error',error=repr(error),
+            print(json.dumps(dict(event='request136_owned_cleanup_error',error=repr(error),
               separate_from_scientific_partial_or_complete_result=True)),flush=True)
           PYCLEAN
   report:
@@ -281,17 +292,17 @@ jobs:
           import hashlib,json,os
           text=os.environ.get('SCALAR_SUMMARY','')
           if not text:
-            text=json.dumps(dict(schema='request132-actual-continuous-E-output-unavailable-v1',
+            text=json.dumps(dict(schema='request136-actual-continuous-E-output-unavailable-v1',
               run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
               compute_job_result=os.environ.get('COMPUTE_RESULT'),continuous_E_completion_not_claimed=True),separators=(',',':'))
             raw=text.encode()
           else:
             raw=text.encode();assert len(raw)==int(os.environ['SCALAR_SUMMARY_BYTES'])<=90000
             assert hashlib.sha256(raw).hexdigest()==os.environ['SCALAR_SUMMARY_SHA256'];json.loads(raw)
-          print('BEGIN_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print('BEGIN_REQUEST136_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
           print(text)
-          print('END_REQUEST132_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
-          print(json.dumps(dict(event='request132_report_identity',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+          print('END_REQUEST136_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(json.dumps(dict(event='request136_report_identity',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
             hash_scope='compact UTF8 JSON excluding separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),
             raw_artifact_release_git_upload=False)))
           PYREPORT
