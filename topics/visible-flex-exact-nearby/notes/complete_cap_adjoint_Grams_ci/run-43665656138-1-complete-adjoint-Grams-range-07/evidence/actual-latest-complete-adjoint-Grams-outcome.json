@@ -1,0 +1,98 @@
+{
+  "kind": "actual_complete7908_same_proposal_physical_adjoint_residual_Grams_v1",
+  "phase": "range",
+  "complete": false,
+  "failure": null,
+  "gates": [
+    {
+      "name": "the_exact_original_scope_excludes_every_successful_pilot_quarter",
+      "passed": true
+    }
+  ],
+  "seconds": null,
+  "group": 7,
+  "range": [
+    1736,
+    1984
+  ],
+  "completed_bundles": null,
+  "completed_quarters": 144,
+  "reused_completed_quarters": 0,
+  "new_completed_quarters_this_child": 144,
+  "complete_quarter_count": null,
+  "object_identity_sha256": null,
+  "plan_native_sha256": null,
+  "new_intrinsic_target_calls": 0,
+  "original_successful_pilot_quarters_reused": null,
+  "new_quarters_from_actual_ranges": null,
+  "complete_Gram_trace_uppers": null,
+  "complete_Gram_HS_uppers": null,
+  "mathematical_certificate_for_listed_range_only": null,
+  "mathematical_certificate_for_complete_ordinary_adjoint_body_Grams": null,
+  "complete7908_adjoint_cover_proved": null,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "latest_actual_quarters": [
+    {
+      "index": 1878,
+      "request": [
+        469,
+        4,
+        2
+      ],
+      "interval": [
+        "8414459866284469/9007199254740992",
+        "16829467045023653/18014398509481984"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[5.8566308097221817267786203802462002e-18 +/- 2.21e-53]",
+        "lower": "[5.8566308097221817267786203802462002e-18 +/- 2.21e-53]",
+        "mid_float": 5.856630809722182e-18,
+        "radius_upper_float": 0.0,
+        "upper": "[5.8566308097221817267786203802462002e-18 +/- 2.21e-53]"
+      },
+      "exact_array": {
+        "bytes": 345722,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-1878.npz",
+        "sha256": "c3d6372e7d0532627529742d973a3c1c1674b5441c60c8aa696a54b235584348"
+      }
+    },
+    {
+      "index": 1879,
+      "request": [
+        469,
+        4,
+        3
+      ],
+      "interval": [
+        "16829467045023653/18014398509481984",
+        "525937948671199/562949953421312"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[8.7876874337111836161431208568985028e-18 +/- 3.05e-53]",
+        "lower": "[8.7876874337111836161431208568985028e-18 +/- 3.05e-53]",
+        "mid_float": 8.787687433711184e-18,
+        "radius_upper_float": 0.0,
+        "upper": "[8.7876874337111836161431208568985028e-18 +/- 3.05e-53]"
+      },
+      "exact_array": {
+        "bytes": 345228,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-1879.npz",
+        "sha256": "2b65bf1eedff051f78f25557ad255124791b4184055b2acaa61844e7d93d1f79"
+      }
+    }
+  ],
+  "native_sha256": "3e9b11c6d16342f01e0a416e8c2e664c0c0abb9fde68793c85d79f9833573d24",
+  "latest_actual_readme_check": [
+    {
+      "time": "2026-11-15T02:15:41.275986+00:00",
+      "before": "f4e409f0ea2350a3661edb50ef8a431e7e3afc56",
+      "after": "00228a90908f519e22d887ea3bc8328f6f631921",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ]
+}
