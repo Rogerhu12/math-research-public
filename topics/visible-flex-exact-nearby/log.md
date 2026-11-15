@@ -367,3 +367,13 @@ run43741463694/1，head1116f90cbe02f1c24325bf54d1a7ff6724b7111c，job13289534827
 21 inputs440405B/4AST；source c8aaace9、workerdf8c44b5、manifestfc5acb98、flow4f6d7f29保持。χ0=.6596041009231103…<1，Hilbert K=12.823617002416…；fullγ1e−9 κ=.0019952502133039869…、det=.2461287684628665…；tailγ1e−9/128 κ=.0019650784253693471…、det=.2539766823508917…。完整两域四独立source列/三窗都保；此为inner B-L2+Cmean pair及原实际帽域内conditional finite193 inverse，不是wholebody差、高块逆、core存在或完整ν。actual cap入口/affine/nonmean chart/height/96腰仍明确独立。
 
 首43740644806/1实际异常和数学完成程度未知历史不改，恢复只重做未保存CP新量；这次成功科学即锁定，不因后续文稿/包装再跑。旧κ0通过与κ1/5不通过均原字保留。runner17:30:55.389327及17:31:06.855539两次真pull至de9a730a8f9cf8ea1f3e31fa6f6dd9cfb64e1d80、README空diff；实际读取topic199339091B，publication projected199406126B，不上传新native/Release/artifact。
+
+## 2026-11-15 17:39:09 UTC — AR 实际帽边界一次积分、独立高度与完整仿射项
+
+root新核main bab76df48309984c2b78d898bdc84dc4019ca51f双README blob不变。本结论独立推送：proof58b86417ba0dbd3af11899a113c3ecbb4d3f5453/12820B/SHA5b35ab58f3d792da3bfd3fee6e5cd081768cc868cc88c1937ecc91b58c2e81fb。root全文核AR1–7，回读M真正two-input-zero-width图df9ba072/20064/8d9e0bf3的全A0×dotA²解析域、NF17–20固定Sδ完整97恒等、I16完整Hilbert+mean高度列、W1/25/29–32真实H1准入及RB23两个全域supreme之和。newton独核normalized/physical height单位。未执行新数学、未重旧积分/Green。
+
+在同一真实A0输入球上Ef=Γ(γ,f)−Γ(0,f)−K0γ的差由一次Bochner积分控制。K01为同积分算子，范数≤本次CPA真实κ；线性H_C分量可消费原c_cap，非mean chart余项另保7[RB+(14+κ)P⊥RC]，不再重复一份κ。准确Cmean余项μ²/[mδ²(mδ+μ)]≤|μ|²/27，原mean独立行不删。fixed sB两原height球沿实际dotA²直线积分I16，给完整97源≤7||Δf||dotH²/25<2^-60；不授实际tail f(γ)为C1，不删独立λ/height span/腰。
+
+仿射值按RW1/2完整posterior四字段AB/Am/LB/Lm整行回读，合RB23与W1得AR19；它非零且不由小κ自动变小。若已用整个height原球的affine，不再重复AR17。真实gamma入口、非mean inverse-angle chart remainder、same-state low/shell/cut、high odd matching/完整高逆/全ν/core仍待。
+
+顺修当前open的一个失效M链接：actual-two-input-cap-moving-readout-with-normalized-angle-and-both-means.md实际404，改为经原字核的two-input-zero-width-cap-Phi-and-complete-inner-ports.md；不改已成证明/输入SHA。下一继续从真H1线段付非mean chart Taylor，不由小C0或小角位移免费授composition。

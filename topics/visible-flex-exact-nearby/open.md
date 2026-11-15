@@ -75,12 +75,14 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 本节全部原域/mean/λ/height/κ/affine/unknown-high/真实97行及失败恢复细账保eb29cd5c4db75c5694d32d45451ec81119d4af09同open第4节和原文；成功旧计算不重算，未付义务不删。
 
-[实际两输入M帽](results/R133-supplement-actual-two-input-cap-moving-readout-with-normalized-angle-and-both-means.md)保完整真实physical moving readout、height/κ两mean、global λ及Bmean lift；γA0≤1e−9、fBdotA²≤2^-60、ρ3e−6/Lip.881及全tame窗口。unknown rough不能免费作复composition，weak导数延拓不冒任意distribution值图。
+[实际两输入M帽](results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md)保完整真实physical moving readout、height/κ两mean、global λ及Bmean lift；γA0≤1e−9、fBdotA²≤2^-60、ρ3e−6/Lip.881及全tame窗口。unknown rough不能免费作复composition，weak导数延拓不冒任意distribution值图。
 [I inner Poisson](results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md)给K*−旧K<1/5、独立fB列<1/25 dotH²与affine≤ρ；[R高度反馈](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)给fixedmetric γH0→fBH2<2^-52000000。完整two sources/outer/Cmean/mean Hessian保，tiny列不替真实Γ2/EN/Hp/ν/height/metric/角变化。
 
 这些actual inner/mean/phase行仍须与负body、waist、两Γ、ν、flux及完整97/mean Schur同单位联立。真实HY、high inverse、完整core存在及γ低高域未同时闭合；局部帽图不授增广全逆。
 
-[CP完整加权实际帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2及[actual有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7已完成：43741463694/1 child0/18、5prereq及两γ域各3strict全过。21pin440405B/4AST，exec6865e7e8、43039B science77ed0069、54023B预Git983fac65与50球49unique全核，原F两case/columns/threshold和RW1/2完整candidate原字不变。D0y=V TQ K*−H0K0保旧Hessian；分别统一B/C包络+Cmean max得到Hilbert K12.823617、χ.6596041，非借旧Wiener门。γ1e−9给κ.0019952502133/det.24612876846；γ1e−9/128给κ.00196507842537/det.25397668235，完整97实际cap有限门均通过。两域各三窗ordinary/right97/highbody/highcut四列与两mean全部保；νvolume仅原ΔFν+ΔAZ，非全ν。只inner(B,Cmean)差，不授wholebody；positive source逆读仅同算法正加数，globalEA/affine/两outer/wR下端全保。首43740644806无science、数学进度未知历史保留；恢复成功锁，禁止再算。实际cap域/affine/非mean chart/独立height/腰/high仍未付。
+[CP完整加权实际帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2及[actual有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7已完成：43741463694/1 child0/18、5prereq及两γ域各3strict全过。21pin440405B/4AST，exec6865e7e8、43039B science77ed0069、54023B预Git983fac65与50球49unique全核，原F两case/columns/threshold和RW1/2完整candidate原字不变。D0y=V TQ K*−H0K0保旧Hessian；分别统一B/C包络+Cmean max得到Hilbert K12.823617、χ.6596041，非借旧Wiener门。γ1e−9给κ.0019952502133/det.24612876846；γ1e−9/128给κ.00196507842537/det.25397668235，完整97实际cap有限门均通过。两域各三窗ordinary/right97/highbody/highcut四列与两mean全部保；νvolume仅原ΔFν+ΔAZ，非全ν。只inner(B,Cmean)差，不授wholebody；positive source逆读仅同算法正加数，globalEA/affine/两outer/wR下端全保。首43740644806无science、数学进度未知历史保留；恢复成功锁，禁止再算。实际cap域/affine/非mean chart/腰/high仍未付。
+
+[AR一次积分与高度源](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58已解析核：Ef在真实A0凸球上L2-Lipschitz≤κ，NF的N∂+ΔB合成一次κ；准确chart保R_B、P⊥R_C及μ²/[m²(m+μ)]。固定sB两normalized height原球的完整97源<2^-60，不授实际f(γ)导数；RW四字段给完整非零affine。下一真H1非mean chart余项与same-state入口，不能从C0免费composition。
 
 ## 5. 新94链、真实B collar和实际body种子
 
