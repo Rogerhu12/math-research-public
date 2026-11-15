@@ -1,0 +1,9 @@
+{"complete": false, "proved": false, "failure": {"type": "ValueError", "message": "a saved appended leading degree changed"}, "new_stages": 0, "complete_pieces": 0, "complete_cases": 0, "new_complete_source_rows": 0, "copied_original_complete_rows": 0, "original_mathematical_stages_recomputed": 0, "native_sha256": "96eca2c7465a9491dfce6102c95a50ec3315c5e2b99c1f9af47f484b1bda5c26", "seconds": 0.7201470269999959}
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py", line 734, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/__w/_temp/visible-exact-correlated-adjacent-piece-first-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py", line 440, in main
+    if v["name"]!=key or v["degree"]!=degree:raise ValueError("a saved appended leading degree changed")
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: a saved appended leading degree changed
