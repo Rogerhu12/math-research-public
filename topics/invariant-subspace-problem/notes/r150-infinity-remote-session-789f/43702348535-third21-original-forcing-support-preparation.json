@@ -1,0 +1,106 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "third21-original-forcing-support-preparation",
+  "executionSourceCommit": "b73a44af1c5c7735664bfd5b3a7d46769dd3f7d8",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third21-original-forcing-support-preparation-789f.py",
+  "scriptSHA256": "7040ff017c91dd98079de77f7a133a37ecac4c9d4df52a8ff7af9ecb435200d1",
+  "argvTemplate": [
+    "--regauged-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--third-out",
+    "{work}/same-source-koszul29-third-pairing",
+    "--out",
+    "{work}/third21-forcing-support-preparation",
+    "--seconds",
+    "30",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 60,
+  "exitCode": 1,
+  "wallSeconds": 0.26447081500009517,
+  "fullTemporaryReceiptBytes": 1255,
+  "fullTemporaryReceiptSHA256": "027e5950fab304e9db915444f697b16a129952c0101f0fec34a7a47b85488e52",
+  "result": {
+    "completeThirdHeadDimension": 21,
+    "error": "all actual zero rows of complete old M0",
+    "exceptionType": "ValueError",
+    "explicitNewLambda3SourcesConstructed": false,
+    "largeDataUploadedOrCommitted": false,
+    "mathematicalElapsedSeconds": 0.152026088000639,
+    "newHighEliminationPerformed": false,
+    "newM0RightHandSidesSolved": 0,
+    "phase": "actual-paid-inputs",
+    "status": "failed",
+    "parameters": {
+      "binding": "b044e98bd2cd769134949b13e20a104b6830a54de6e3add9512bd77c9b34a757",
+      "headCount": 21,
+      "inputIdentities": {
+        "forcing_receipt": {
+          "bytes": 22412,
+          "sha256": "59f44ff409f56e420db91f0640b8a6f605e6fbcbf88d7b493f21184741ce5245"
+        },
+        "pairing": {
+          "bytes": 152226,
+          "sha256": "912a777573f261446f87fda25b71fe889963f31cb5a7f34dc192b42045a1af47"
+        },
+        "projection": {
+          "bytes": 45993,
+          "sha256": "c8e25e15ec3f07e887974adaeff2c573a6391335859bed896a3ca2a6b7af5ae6"
+        },
+        "third": {
+          "bytes": 11769,
+          "sha256": "954f135c5eab26021fab59aaafd8bd998a232dd2ec02ddcd3204866b93e52ab7"
+        },
+        "unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        }
+      },
+      "memoryMiBPerProcess": 2048,
+      "oldCorrectionColumns": 1546,
+      "oldZeroRows": 1736,
+      "originalSourceRows": 4354,
+      "programIdentity": {
+        "bytes": 13289,
+        "sha256": "7040ff017c91dd98079de77f7a133a37ecac4c9d4df52a8ff7af9ecb435200d1"
+      },
+      "secondsLimit": 30.0
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 13:01:27 UTC",
+      "beforeReadCommit": "964290743f53c0a8cff9b1644746740c62b14370",
+      "originMainAfterPull": "b73a44af1c5c7735664bfd5b3a7d46769dd3f7d8",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 13:01:28 UTC",
+      "beforeReadCommit": "b73a44af1c5c7735664bfd5b3a7d46769dd3f7d8",
+      "originMainAfterPull": "b73a44af1c5c7735664bfd5b3a7d46769dd3f7d8",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 59,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 20238,
+    "logicalJsonSHA256": "6f52779b6037aeb78e1f13980965fe2bc5de0fcb6296730518cf86313b250d3c",
+    "itemCount": 59
+  },
+  "lastRulesReadCommit": "b73a44af1c5c7735664bfd5b3a7d46769dd3f7d8",
+  "summaryExcludesRecomputableArraysOnly": false
+}
