@@ -36,7 +36,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 ## 当前执行与精确缺口
 
-全部旧公式、已成输入source/run/SHA与闭路逐字保于[双probe前open](notes/2026-11-15-open-before-projective-two-probe.md)，内接原R820等归档。下述为当前可执行缺口；不重算已成阶段，不把算法存在写成实际数值。
+本轮压缩前全文见[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)。全部旧公式、已成输入source/run/SHA与闭路逐字保于[双probe前open](notes/2026-11-15-open-before-projective-two-probe.md)，内接原R820等归档。下述为当前可执行缺口；不重算已成阶段，不把算法存在写成实际数值。
 
 ### 原规范高度与真正全p排除
 
@@ -91,15 +91,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。
 
-[Hurwitz刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，高块由首p×p唯一决定；升p²/Hirota不增独立信息。[Serre/Cartier](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)给真实有限Serre类与独立Cartier秩一单位C(x⁴ω)=(4/7)Bω，但权5为零时低极阶Cartier自动零，两者尚无桥。[cosigma闭合](notes/2026-11-15-sigma-cosigma-descent-and-closed-critical-channel.md)保半周期常数、degree3平移截面、rank4核；x²σ⁶整行列消失，总阶p−6未筛全零仍等价原F/G，不产生新非零。
-
-[原模参数heat连接与奇部可分平凡化](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)已证明：保原c=0，六截面在模参数heat下准确闭合，但a=0非L稳定。辅助E27上奇连接显式代数水平基在全部允许p≥41零曲率；首p截断严格保Hasse边界源，原A(P0)=0、DA(P0)=B，逆水平矩阵的源两分量为单位。[原首p oscillator](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)已严格求得A''=−XA/4、全局Cartier(A⁻²ω)=ω和(D−O)^p=(A∂z+6DAz)²/12，P0上3B²z²。Lens变换仅在A非零函数域证明，正则算子延至P0；保原Hasse源及全部横向导数。把这些式子转成固定原F/G的critical、同primitive/Legendre支撑仍缺，未筛全零尚未排除。
-
-[原全六有限heat连接](notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)已完整平凡化：偶部是Lamé5X/16与15X/4的张量，经det−108的明确矩阵精确同构；第二连接的平方根覆盖Wronskian²−27/4，全部允许p可分/零曲率。偶部首p源−z^(p−1)(AeH/6+DAeR/2)及完整原值基p曲率已保留，F/G均纳入同一覆盖。有限单位矩阵只保全向量非零，不保某个Taylor标签；真正缺口是源传播经原critical、primitive和Legendre投影后不能全消。
-
-[原critical对角运输障碍](notes/2026-11-15-sigma-critical-projection-curvature-obstruction.md)已证：双变量完整曲率在P0为3B²(z²+t²)I8，原N维稀疏空间经R^(2N+6)的所有最大子式均为单位，核一维且满支撑。故在原W上无漏出的水平对角作用只能常数；真正primitive×Legendre权对全部允许p不恒定，不能有该水平延伸。非水平交换子与真正Cartan混合仍保留，不将抽象满支撑核当实际sigma向量。 已有源单位不能通过删除交换子直接变成筛后单位；继续真实非对角表示及原配对，不再寻找该已排除的对角延伸。
-
-[五次水平lift/Legendre矩阵系数](notes/2026-11-15-sigma-horizontal-quintic-lift-and-Steinberg-coefficients.md)已证：Lz=A∂z+6DAz、Lt同式，Lz²Lt³水平且P0=(6B)^5z²t³，原h无溢出送至总阶p−1。真实O2旋转a²=2s/(s+1)的归一T̂=a^(1−p)T对角恰P_(h−1)(1/s)，原平方常数准确α₀s/6。全偶空间真字符ρ(q)=q^((p+1)/2)J_(√q)^−1在u/v基给q^−h；原z/t系数仍被非对角混合，原period/split向量及所需配对尚未识别，未证同标签非零。 全部原八通道和偶/奇Hasse源保留；源传播的真实字符投影尚未等同原同标签乘积，下一步必须完整原配对而非取旋转对角后冒认水平。
+此前Hurwitz、Serre/Cartier、cosigma、原模参数heat、奇/偶/全六水平化、critical曲率障碍、五次lift及Legendre矩阵系数的完整公式与来源逐字保[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)。已证首p边界源与全向量非零、有限链单位矩、各覆盖零曲率；均不推出指定same-h三单位。原W上无漏出的水平对角作用仅常数，primitive×Legendre权不恒定；不可删除非水平交换子，不能重开已关闭的对角延伸/固定维闭合捷径。真正原配对仍待识别。
 
 **R808/810已闭有限表示边界**：[R808原Gram商](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)准确为Sym^(2r)det^(−r)，r=min(h−1,p−h)，原e0/Frob-Hermitian/Tζ/Nh均运输；原sigma仍Kraw混合，同h配对未知，不重有限norm识别。[R810](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)原P_Texp(tE)P_T=P_r(1+2t²/3)P_T给全偶单位矩与Hankel非退化；P_T不水平，必须保[K,P_T]，不能据全链非退化宣称指定sigma单位。完整此前推导保[本次归档](notes/2026-11-15-open-before-Kronecker-square.md)。
 
@@ -107,7 +99,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **原unitary交叉heat与同h投影**：[笔记](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保实际H/J/C三同源、36theta/full72、原FG及全部两边/角点。∇=D−M−∂z∂t/6−3Xzt/2、P0曲率6B²zt；首p原整数差Legendre×primitive权W水平，指定度p+1源为6⁶B⁷Σ原同h项，其非零未知。μell仅共同jet、FG一次横向源零，不能以全向量单位代之；这不重开旧6I family对角延伸。p12k11中央h6k7虽primitive，辅助Legendre j2048/3不等原j0，三单位仍缺；R829 p47乘积21及R706 g_N零直接复用。详式和旧边界见[本次压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
 
-**R815八probe九维入口已真实结束，待读小回执**：[方法](notes/R815-original-eight-probe-common-denominator-lattice-method.md)3f11d09c/core49f8952f/runner5f0bc897，run43767171070/source278d1920实际exit2/errornull。完整9格从原d012/八失败位置构造，原三列和49拒只同D/M/known/W复用；不重旧算术，最终仍原七点/cyclic/Γ。实际候选与结束原因尚待本次小IO，未把exit2当数学全局失败。
+**R815八probe九维固定调度已关闭**：[真实结束与边界](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)run43767171070/source278d1920，18.795483531秒，一完整9格detU=1/九行九D，8新拒均原(0,0,2)精确非零，1复旧拒；baseline也复旧。finalf62a760d/manifestd19adcca、artifact14183811013/21cf154d；只有这九行耗尽，非全格线性组合/非Mg不存在/非425不足。原Mg/Γ仍未成，旧三列/格/49拒不重跑，原深CRT继续。
 
 **原平方、周期与指定留数**：[KS](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5保十八项S_(p−6)=−192Σf_i²g_j²/Q_h；[XF](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保原Fermat、CM点、E=6ρx、Ωη相位及对数微分。[PL](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、K=αCx/12及首p合法S=−[U^(p−1)]x²A⁵/(DC⁵)/4374；C首p分母U^(p+1)及逆Schwarz变换不容删去。[PC](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ=4/a_*²=−8c_r、rank1幂零p曲率和Wronskian1−κU^pJ，C非第二水平周期。
 [CR完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原β=(A/C)^5α0全部极阶≤11<p；实际τ三挠平移的非平凡character排正则余项。β=x^pν(y)、Carβ=xΣres_a(ν)^(1/p)dy/(y−a)，原P0只取R_p=res_(y=2/α)ν，S=αR_p/1458。CR16将它严格化为[w^(2N−1)](2−w)/(1−w)·(a/c(w(2−w)/8))^5乘−1/96。仍缺这个指定留数非零及原两变量same-h primitive/Legendre平方筛；未筛非零不代筛后非零，其他留数非零不代指定值。

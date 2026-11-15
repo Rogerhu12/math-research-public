@@ -644,3 +644,9 @@
 - 原源已纯IO到齐：R790152小件含旧carrier/7.58MB，R7861260件29.08MB；新consumer只续必要146CM/1254前缀与meta，不重CM/旧Fourier，尚无新P0/U/锚数值。
 - R815九维43767171070真实exit2/errornull、artifact14183811013/21cf154d；小IO正读候选/LLL阶段，不由退出码预称全局失败。原更深CRT与R787/R824继续。
 - 本push规则：本地真实pull至150e4da8f21bab12ecbd7a8ebf8cda1fd325fa22（2026-11-15T22:35:29.805365+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:42 Asia/Taipei — serre-public-astra-20261115
+- R815九维真实18.795秒：一完整格detU1，九行九D，8新原(0,0,2)精确非零、1同候选复旧；固定九行耗尽，不推出Mg不存在或425不足。
+- 结果见notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md；run43767171070/source278d1920、finalf62a760d/manifestd19adcca、artifact14183811013/21cf154d。
+- 原深CRT与R787/R824继续；R837核心已到，接原P0/固定锚公开算术；压缩前H/open逐字归档且保全部旧边界。
+- 本push规则：本地真实pull至1f50686af77605646965fcd36b547dad317d4f1f（2026-11-15T22:42:27.086312+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
