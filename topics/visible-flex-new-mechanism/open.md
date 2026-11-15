@@ -149,11 +149,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
 
-### R293/294/296：二层已付，零/一层已有准确全式与新增单jet
+### R293/294/296/299：完整germ角向已归到一个π/2函数
 
-[R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)和[R294](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)从起点新F⁺保全部真实校正self/Green/ordered楔，12副本与有限N真根联合付全部十对称乘积×三矩×全θ、72面积/六能量/三矩/全third及正解析prefactor；不暗增旧冻结F，330条目非rank。
+R293/294从起点F⁺已联合付全部二层×全角、72面积/三矩/全third/六能量及解析正prefactor。R296保原chain/W0和四Er，给完整主平方及单中心jet rank31可控；单jet不等于全一层。
 
-[R296](results/R296-complete-zero-one-Gaussian-layers-and-the-full-principal-square.md)已从原恢复chain列W0、四个Er系数和零层We商，严格提整个ruling共同平方主部，所有真尾保入准确C²余项。E−3中心一阶归一jet的x⁴AB权5不在旧30维，joint主秩31；同F⁺真实有限N可在所有旧条件内指定这一单jet任意值，故已付条件不蕴含一层，但新增该jet零也不等于全一层。**下一一次针对全部零/一层准确有限系数，核实际主秩、所有principal关系的完整C²余项与全角Green补偿，再联立period/同w。** 54生成元/even≤52仅上界，不能冒实际rank或完整可达。
+[R299](results/R299-complete-centered-ruling-angular-reduction-by-corrected-pure-self-fibers.md)用R296原幅度身份证明整个pure-ruling self Kσ确C²，R292真实cross给完整Γ三矩核。hatK=K−Γself/2消真左锚且平移≤10；由R56有限s空间选忠实点评价，把11平移系数明确加入初选Fang，等背景十矩与三真ordered面积使**整个Ξσ0**。同一新圆全中心rulingθ=sin²θ rulingπ/2，实际偶部于We商同；不是把R295的period self误降C²。
+
+**下一真正支付剩余π/2全函数**：四一层完整Laurent系数、零层We商，核实际主秩及每条principal关系的完整低阶基线；不再只逐角重复。保初选Fang的有限N构造与所有旧门，不能后加冻结约束；54/52只是生成元上界。其他s段/奇部、全period/同w及主几何仍欠。
 
 ### R288/292/295/297：平台矩阵已能真实支付，须联合结构几何和self
 
@@ -161,4 +163,4 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R298](results/R298-zero-platform-matrix-with-nonzero-self-response-and-ten-observation-control.md)给χ30/P完整T0响应而q_u=3/512∫u″²u‴²>0；九矩加一个预固定非零u的self有严格三角十列，R222真实m10保基准支付。两actual T0闭hook的整self差=3t/64∫u″²u‴²，证明矩阵零不普遍灭最高jet；未付全模板q_i或整函数。
 
-**下一联合新响应的完整M/T结构稳定族、Morse与κ/ε共振germ安装，以及所有self q_i和后续full period/同w。** R297未授既定Gaussian族/单包self或其他观测，可达集合不可相加。矩阵零不自动使self主部零，需原包内Φ而非其左二次尾。已付方向人工源绑定复用，run43728280256仍在行。
+**下一联合新响应的完整M/T结构稳定族、Morse与κ/ε共振germ安装，以及所有self q_i和后续full period/同w。** R297未授既定Gaussian族/单包self或其他观测，可达集合不可相加。矩阵零不自动使self主部零，需原包内Φ而非其左二次尾。已付方向人工源绑定复用，run43728280256已成功结束，原大日志传输失败，正在从原运行恢复可读观察，未判actual改善。

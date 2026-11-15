@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **仿射谱与完整两网后继**：[旧首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰及已选曲率失败、m5 e/f非线性保原记录。active16.997316秒、八恢复569.558425秒分账，50/102源与24输入合。
 
-[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已实现四凸max/原全θ单JVP/真实attainer切面，冻结outer/原预算/真门保留。[首人工及修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31/job132853059448：方向6项过，array9/10过；唯一断言误把末LP gap当返回早期并列incumbent gap。生产未运行、零恢复，原失败保留。54/106来源合；只修新断言，源绑定复用已付方向组，续run43728280256/7329385/job132854922848进行中，先未完error/handoff/IO再九恢复及首科学；尚无新passed/改善。原12LP/120s/40值/3inner保持。
+[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已实现四凸max/原全θ单JVP/真实attainer切面，冻结outer/原预算/真门保留。[首人工及修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31/job132853059448：方向6项过，array9/10过；唯一断言误把末LP gap当返回早期并列incumbent gap。生产未运行、零恢复，原失败保留。54/106来源合；只修新断言，源绑定复用已付方向组，续run43728280256/7329385/job132854922848成功；原大stdout两次传输closed，正在消费原日志，未判新checks/实际降幅。原12LP/120s/40值/3inner保持。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -51,7 +51,7 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**R296零/一层准确余式**：原chain/W0与4个Er完整系数已提；全ruling主项=−Σa_i²d_i∫(Q/h)Lσ[u_i]²(u_i''')²+真实C²余项，L=α_m/2+Q(γu′−e_su″)/(8h³)，保跨包尾。E−3中心归一一阶jet有新weight5 x⁴AB，主秩30→31；从起点同F⁺/12真包正锥、有限N可在全部二层/72面积/六能量下指定该单jet任意值。未付全部四一层/零层We商，54/52仅主symbol上界非rank。R243有限jet iff仍待实际全系数；R242/244/246旧11维模的rank10/13兼容范围保原文。
+**R296/299完整germ角向**：R296原chain/W0/4Er已提，全主项=−Σa_i²d_i∫(Q/h)L²u‴²+真C²；E−3中心一阶jet的x⁴AB使rank30→31，初选F★有限N可指定单jet，非全部一层。R299取原formal a0得**pure-ruling self Kσ=bZZ+4bYC确C²**，不是R295 period self。R292完整cross给Γ=−2Πμ(ell)·Uν/h+μ·aβν/h，hatK=K−Γself/2消真锚、平移≤10。原有限s空间的忠实点评价和11平移系数明确加入初选Fang；等背景十矩+三真有序面积准确清整个Ξσ，故全中心rulingθ=sin²θ rulingπ/2，实际偶部modWe同。保全部已付二层/72面积/能量/解析prefactor。**仍须付π/2四一层完整函数与零层We商**；54/52仅粗上界。完整period/同w和其他s段未授。
 
 
 
@@ -59,4 +59,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 683fe4b33fcc8e71bc0dbf1d1a188332f700ff88，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 7fb9817a92159ba9e841334319eb323959d0b515，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

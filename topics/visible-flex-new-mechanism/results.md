@@ -245,3 +245,10 @@ T在全U由九个固定原跨包查询定义，实际pure校正期间亦合法�
 [R298 完整证明](results/R298-zero-platform-matrix-with-nonzero-self-response-and-ten-observation-control.md)用原χ30的c=3D³(u″²)/512，三个尾矩全零；对P=J(u″²)，保真实JR左常数分部积分给完整q(K*)=3/512∫u″²u‴²>0，无隐藏C²余项。K* pure/T均零，q非C²连续主通道可高频放大；不能因T0把它冒作低阶纤维数据。
 
 对一个预固定非零u，R297九矩单位减其准确self倍数再加K*/q(K*)，给十观测严格三角右逆；全U原q查询与R222一般m10保所有基准/纯校正/有限复制，取得actual闭hook(pure0,T任意,q_u任意)。另原两个配对词及同一个m9校正给两actual T0闭hook的整q函数差=3t/64∫u″²u‴²，严格排矩阵零普遍消主项。未授全部q_i、整个self函数或既定Morse/共振几何。root全文核−¼/3÷512/8t和真实finite-word范围，仅将第十列记号改R_star以免与(1,0)列冲突；无新执行。
+
+
+## R299：完整中心ruling的全部角余项由真实低阶self纤维支付
+
+[R299 完整证明](results/R299-complete-centered-ruling-angular-reduction-by-corrected-pure-self-fibers.md)从R296原幅度多项式取a0，准确证明pure-ruling self Kσ=bZZ+4bYC为C²；它不同于仍有C³平方的period q。R292(20)加真实二阶尾端差给完整有序Γ=−2Πμ(ell)·Uν/h+μ·aβν/h，保原因子2/4与全部history。hatK=K−Γself/2准确消左锚，moving-collar证明平移次数≤10。
+
+R56/R243的真实有限s函数空间由有限点评价忠实承载；把hatK的11平移系数明确加入初选Fang，R293通用有限C²纤维入口合法。原等背景十矩与三真实有序面积使整个Ξσ恒零，故全中心rulingθ=sin²θ rulingπ/2，实际偶部modWe同；同一新圆可保全二层/72面积/三矩/全third/六能量及正解析prefactor。未给未编译n/rank，不把有限采样当整个函数判零。剩余确为π/2四一层全函数与零层We商，仍未支付它们、其他s段或全period/joint。原式纸证，无新执行。
