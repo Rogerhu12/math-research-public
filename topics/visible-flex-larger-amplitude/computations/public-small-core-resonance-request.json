@@ -1,13 +1,13 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 93,
+  "request_number": 96,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "Actual92 accepted its initial full-merit projection and two outer updates, then all20 trials of its next direction lacked an inner point meeting1e-8; some genuine final inner probes had substantially lower original full-three merit. Continue only from its actual last accepted final.parameters. Use a separately identified full-residual linear Schur model with normal n3=-d3/J33, effective rho=r[:2]+J[:2,2]*n3 and v3=n3-J[2,:2]*v[:2]/J33. Bounded p3 restoration still seeks1e-8 but its last actual finite point with own finite fullJ/J33 may enter the original full-three merit/gdot/.2Armijo even if that inner threshold was not met. Preserve actual d3 and all original final unit/full112/FD/Arb/circle gates. This is an explicit new candidate algorithm, not an IFT claim, an accepted old probe, or a BVP/native tolerance change.",
+  "rationale": "Actual93 completed all eight original outer directions with eight actual complete-three-merit Armijo acceptances; the saved stop reason is explicit outer direction budget completed and there is no exception. Continue solely from its genuine final.parameters, using exactly the same ce93 inexact-p3-restoration producer and all72 unchanged source pins. Keep eta0.1, another explicit8 outer directions with20 backtracks, 12 inner updates with20 backtracks, complete actual d3, original full-three merit/gdot/.2Armijo, and original final unit/full112/FD/Arb/circle definitions. The complete parent file and source closure are bound; only its three literal parameters initialize a fresh original model evaluation and description. No parent J, merit, state or FD is reused as a new result; no native/BVP success, exact implicit root or fixed-g family is asserted.",
   "scientific_entry": "geometry_20261115_small_core_inexact_p3_restoration.py",
-  "scientific_source_unchanged": false,
+  "scientific_source_unchanged": true,
   "inputs": {
     "accepted": {
       "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
@@ -113,9 +113,9 @@
   },
   "diagnostic": {
     "parameters": [
-      0.6929598480979777,
-      0.1236195236907518,
-      0.5225323995570981
+      0.5078436152033409,
+      -0.3849212262335502,
+      0.5911288427829965
     ],
     "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
@@ -169,7 +169,7 @@
     "design_parameter_search_not_claimed_one_fixed_metric": true,
     "new_independent_schema_and_algorithm_declared": true
   },
-  "source_pin_scope": "All71 request92 source pins remain byte-for-byte; add exactly one independent inexact-p3-restoration entry. Original3b9 equations/J/final checks execute unchanged. The 3b48 parent and ec9/1691 older sources are immutable provenance only. Twelve existing files plus the new producer are directly checked; the workflow verifies all72. Four original inputs/runtime/public78 restoration remain unchanged.",
+  "source_pin_scope": "All72 request93 source pins are unchanged, including ce93a364 inexact-p3-restoration and original3b9 equations/J/final checks. The producer directly checks its twelve frozen dependencies plus its own actual SHA, exactly matching the actual93 thirteen-source closure. Legacy3b48/ec9/1691 remain immutable historical provenance, not separately executed engines. Only actual93 parent identity, final literal parameters and request identity change; four original inputs/runtime/public78 restoration remain unchanged.",
   "proofs": [
     {
       "file": "topics/visible-flex-larger-amplitude/results/R259-small-core-homotopy-and-resonance-conditions.md",
@@ -196,50 +196,57 @@
       "sha256": "6f57a2de34d3833ecde4aa8faa3ed223b14b43b445e3d7651834c041820533c2"
     }
   ],
-  "publisher_revision_scope": "Keep existing smallcoreresonance lane, publisher22e640bb, complete artifact/partial failure preservation and ordinary rebase/README checks. New output/schema explicit; streamed original evaluation trace remains large-arrays artifact-only. Readback copies actual saved inner eligibility, full residuals and displacement responsibility; no new mathematical check.",
-  "requested_at": "2026-11-15T03:48:37.883934+00:00",
+  "publisher_revision_scope": "Keep existing smallcoreresonance lane, publisher22e640bb, complete artifact/partial failure preservation and ordinary rebase/README checks. Same ce93 output basename/schema and same original readback body. Streamed original evaluation trace remains large-arrays artifact-only. Parent status is copied byte-for-byte, not reserialized. No new mathematical check or scientific gate.",
+  "requested_at": "2026-11-15T04:02:48.669624+00:00",
   "prior_candidate": {
-    "run_id": 43672921972,
-    "source_commit": "1755a4f414a77d41d85eae9a0e1625f55a74be90",
-    "job_id": 132686715503,
-    "artifact_id": 14144239294,
-    "artifact_bytes": 676336,
-    "artifact_zip_sha256": "f10832bad2ebf3b48a4da501bc0a50b7556e7a839eb86ddd532cab497338d74a",
+    "run_id": 43674264245,
+    "source_commit": "8adc3251a8fe2ee7bcbc5d6d8381631b1558141e",
+    "job_id": 132690828561,
+    "artifact_id": 14145249554,
+    "artifact_bytes": 620340,
+    "artifact_zip_sha256": "16bb4f5542472de72a5d03ef72fc5da113c925de844ff4fbd8a7856f17662d37",
     "original_status": {
-      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43672921972-1-smallcoreresonance/small-core-p3-inner-root/p3-inner-root-status.json",
-      "bytes": 498765,
-      "sha256": "e822be884ac07e2b2c46ac7aba7f589ba5233e86cdbb33ad9c95108cc8dca01e"
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43674264245-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+      "bytes": 372627,
+      "sha256": "0913ea5d90ddb23bd408b33175887b5b24665fe0db8324d873bbe0b08c12a647"
     },
-    "original_schema": "R278-original-three-equation-approximate-p3-inner-root-LM-v1",
-    "producer_source_sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9",
+    "original_schema": "R278-original-three-equation-inexact-p3-restoration-LM-v1",
+    "producer_source_sha256": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e",
     "parameters_from_original_status_field": "final.parameters",
     "parameters": [
-      0.6929598480979777,
-      0.1236195236907518,
-      0.5225323995570981
+      0.5078436152033409,
+      -0.3849212262335502,
+      0.5911288427829965
     ],
     "diagnostic_completed": true,
     "scientific_candidate_success": false,
     "low_mode_candidate_has_small_full_recorded_right_residual": false,
-    "previous_outer_directions_attempted": 3,
-    "previous_outer_directions_accepted": 2,
-    "previous_outer_trial_count": 38,
-    "previous_inner_call_count": 39,
+    "previous_outer_directions_attempted": 8,
+    "previous_outer_directions_accepted": 8,
+    "previous_outer_trial_count": 15,
+    "previous_inner_call_count": 15,
     "previous_accepted_alphas": [
-      0.00048828125,
-      0.03125
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.0625,
+      1.0,
+      1.0,
+      0.25
     ],
     "original_final_unit_defects": [
-      -233.46281549983243,
-      126623.86001929421,
-      -7.863297485366516e-09
+      -206.33215777138622,
+      500.8924725765619,
+      -3.79434721027843e-08
     ],
-    "original_final_merit": 8016828215.536017,
-    "original_stop_reason": "all original outer backtracks exhausted without an accepted complete-three-merit candidate",
-    "initial_projection_was_adopted": true,
+    "original_final_merit": 146733.11420722902,
+    "original_stop_reason": "explicit outer direction budget completed",
+    "initial_projection_was_adopted": false,
     "only_last_accepted_literal_final_parameters_reused": true,
     "unaccepted_last_inner_probe_is_not_the_new_parent": true,
     "parent_model_J_merit_or_state_reused": false,
+    "last_accepted_point_semantics": "original-three-merit-accepted-candidate-or-fresh-parent",
     "scientific_step_conclusion": "success",
     "original_readback_step_conclusion": "success",
     "original_artifact_step_conclusion": "success",

@@ -28,7 +28,7 @@
 
 [95完整接口](notes/2026-11-15-native-word-first-current576-interface.md)、[七源清单](notes/2026-11-15-native-word-first-source-files.json)与[主控静态读回](notes/2026-11-15-request95-root-static-readback.json)现已发布。源/四完整diff/全接口/全workflow请求亲读，69源合同+47接线项/24pins9shell4inline、原evaluate与十trial源码往返均核。真实初猜是73 iteration2 BASE，来自完整91原包，绝非83拒绝trial。第一次fresh-withJ之后，在完整旧+新129248行模型上筛node11/Q76向下相邻词，保所有其他行与signedzero；仅候选筛选，实际接受仍原十档noJ/domain/norm。
 
-一词占原iteration0，计在原32总预算内；未选中时同一fresh snapshot转完整R273，选中但十档全拒则保原失败，不补第11档。随后均freshJ+完整R273，原eta1/全部cut-far-sigma/H/容差2e-9/最终完整J和fresh audit不变。旧base-stage-out和旧ready/capacity未导出，不补造其字节；新constructor和完整原cfg/source/cells/graphs/gains真实核。唯一workflow360fd15f/request75cfab6f待本次实际输出；此后仅真正accepted95及其自己的八件伴随原件才可衔接actual-H→原FD→same-live fullDN。
+一词占原iteration0，计在原32总预算内；未选中时同一fresh snapshot转完整R273，选中但十档全拒则保原失败，不补第11档。随后均freshJ+完整R273，原eta1/全部cut-far-sigma/H/容差2e-9/最终完整J和fresh audit不变。旧base-stage-out和旧ready/capacity未导出，不补造其字节；新constructor和完整原cfg/source/cells/graphs/gains真实核。唯一workflow360fd15f/request75cfab6f已推90da0e11，实际43675377211正在运行；此后仅真正accepted95及其自己的八件伴随原件才可衔接actual-H→原FD→same-live fullDN。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 
@@ -48,7 +48,7 @@
 
 93真实run43674264245/source8adc3251/job132690828561全success，完整620340B/16bb4f55包已取。八方向均接受，alpha=[1,1,.5,1,.0625,1,1,.25]；15inner、原调用无异常，停因仅8轮预算。fresh merit8016828215.535884→146733.11420722902，末p=[.5078436152033409,-.3849212262335502,.5911288427829965]，原unit=[-206.33215777138622,500.8924725765619,-3.79434721027843e-8]；所有原最终解旗仍false。父92末d3和93fresh值不同，两份原值分别保存而不继承父J/merit。exact完整正式读回继续。
 
-96从真实93末p继续完全同ce93/eta.1/8x20外层/12x20内层；源已有own-schema分支，无需改科学源码或原阈值，geometry准备唯一现workflow/request、root审读后推。项目化完整J是独立后备设计，不能拿旧saved85谱预填当前效果；R277/R278已证明部分保留，当前参数的高109非共振/Schur仍未付。
+96从真实93末p继续完全同ce93/eta.1/8x20外层/12x20内层；源已有own-schema分支，无需改科学源码或原阈值，[96同源续接接口](notes/2026-11-15-request96-actual93-same-source-continuation-interface.md)、workflow18aa067d/requestaceca0a8及[主控静态回执](notes/2026-11-15-request96-root-static-readback.json)现已发布；72源、原父Git字节/参数IEEE、7shell4inline与三段原科学/恢复/读回正文全核。项目化完整J是独立后备设计，不能拿旧saved85谱预填当前效果；R277/R278已证明部分保留，当前参数的高109非共振/Schur仍未付。
 
 ## 2. 接受场闭合、固定g与全t精化
 
