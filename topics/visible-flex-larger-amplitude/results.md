@@ -451,3 +451,8 @@
 
 [192完整入口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)九件完整核后发布：原190七十pins逐值保留+七新源=77；R405完整digits接全部literal Gram、224方向batch、完整226态/两mean/原RK，保每列每update全部113行C解残差与原因子/两回代。小Hs形成和归约均明确新舍入次序，输入字词dot准确不冒原词、准确导数或性能。真91→fresh64/J/R273→128/replay→全576×224/112/338×112/audit及原19200/6000/1200/8000/600/600/1800预算保持；单90KB必要/原错误地址/未访/owner reap与quiet后清，无新fixture/门。workflow唯一schema拼写修正至6c56f6f4，接口eb95d98f；186/190独立不改，R406只留真实结果。
 
+
+## R400 — 连续十族真450来源、准确Hermite和完整前缀相对度量
+
+[R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)与四份独立源3bc68fa4/43f217d1/1c7a2e1c/011ca7db已全文核后公开。profile保准确十族全DAG/自然L、453三活动与450全冻结；真实writer须原未注解fullDN、当前H/FD、338×112/新audit及同g完整父，删3行只可初猜。完整338节点两jet定义准确Hermite，原675六jet/全112材料角/零模与means保；target在数值s坐标严格为g11=(L*/Lnum)^2，全部可能准确piece/support闭并集，原四strict Loewner/两反射前缀/闭DFS全未访保。旧e70d已有H关联1e−12沿用，无新门；准确Hermite不冒rounded renderer，无实际453/450接受、完整current-C径向/sharedB/帽/seams/atlas/全域metric声明。193/R408接真实453→450，geometry另生产真current-C径向场，旧finite/旧tail不改标签。
+

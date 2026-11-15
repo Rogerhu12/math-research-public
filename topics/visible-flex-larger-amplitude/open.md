@@ -67,17 +67,11 @@
 
 ### 3A. 六primitive、完整cut及深112
 
-[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)保原binary输入/浅160校准、正warp/lambda、准确mode2深根族、160×9/六primitive/累计原点/闭逆像；自然Rout不换名义cut，48selector/G8/G16/partial不代连续证书，R285/R293/R297/R304/R306及132/136/139/144原责任保检查点。
+[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)/[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)/[R318](results/R318-actual143-complete112-deep-far-enclosure.md)保原binary浅160/六primitive累计原点、全部cut闭逆像、自然Rout、mode2准确深根族及全112偶频；非除Robin/高度隔零DN/means/无限频R15各自分责。R285/293/297/304/306、R324/327/339/347/358和132/136/139/144的来源、参数、所有未访/错误/预算/清理全文逐字保[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)及原结果；合法粗包含不因工作宽未完成另添门。
 
-[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)/[R318](results/R318-actual143-complete112-deep-far-enclosure.md)保F159/node160/112偶频、同R*/w/q/D和所有cut逆像，非除Robin/高度隔零DN分责，不付means/无限频R15/非线性。[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)完整flux/Taylor/Duhamel、[R327](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)1432/1440、[R339](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)m10预算后缀保；高度含0不证共振。
+[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)/[177入口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)保17pins/三输入/两query/C3600/linear14400/25M/256bits/d32/12bits/360job。R379实际177与R382实际179的m2 58/110下屏障未正，11栈、全cut[18,14644)或far[18,10387)、111未起及0unit/DN/BVP全部仍未付；非资源，不冒极点/拒绝，必要/quiet后清。
 
-[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)保Z=a·diag(1,2^b)v、QF=1幅因子/符号/log与完整继承误差；端点分量全隔零才换chart。每cut完整闭管/非零幅度、T0严格隔零后作各自商再hull；未付保索引非除Robin，不混尺度/把端点pivot当闭管高度。[R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)49/100、双pivot、19stack/rows18..14643/111未访保原，R355工程错误不回填。
-
-[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)及[177完整入口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)17pins/三输入/两query/C3600/linear14400/25M/256bits/d32/12bits目标/360job保持。[R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)与[R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)C/deep齐、m2 58/110下屏障未正；原11stack、全cut[18,14644)或far[18,10387)、111未起、0unit/DN/BVP保。非资源/不冒极点或Newton拒，必要/quiet后清。
-
-[R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)保全实角φ′=βcos²φ−αsin²φ、两barrier、完整圈数/正log幅度/二幂换帧/取向。physical单位Robin用相关圆范数正下界，QPi须完整T/逆范数界；DN仍每cut高度隔零后作商。小段正内积/指数余项不保证固定bits/预算/宽度，未访全保，不增前门。
-
-[R385实际181](results/R385-actual181-complete-C-and-deep112-but-positive-frame-enclosure-unpaid.md)C1440/cut/deep112齐、whole2859欠宽；m2 52paid/119attempt/.518618279s，row18/piece4/[0,2^-32]/d32正换帧范数包围失付，33stack+[19,14644)/111未起，0cut/unit/DN。原min(1,c²)已在，正交集装宽Arb球会丢正性，不能补未导出c/准确零向量。四必要/quiet后清；[181接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)19pins/预算/完整cut保，187独立正端点修复接184链。
+[R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)保全实角、两barrier、完整圈数/正log幅度/二幂换帧/取向；QPi需完整T/逆范数，DN每cut高度隔零后分别作商。R385实际181的C/cut/deep齐、whole2859欠宽，m2 52/119在row18/piece4/[0,2^-32]/d32正范数包围失付；33栈+[19,14644)/111未起/0unit保原。正交集装球可能丢正性，不冒真实零；[187独立入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)继续付真实正端点表示，原fullcut未另跑。
 
 ### 3B. 准确九/十族与公共u同目标
 
@@ -104,6 +98,8 @@
 [R391实际184](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)完整原读回：run43756949463/sourcecd459815双job failure，五必要帧逐字同compute；真180 recipe2136/cc87与definition377615/f568精确恢复，fresh C1440/两query有效粗包围齐但全域2883工作宽片未付，factory base452/current1846叶零未决，deep112完整。m2原52 accepted/66 split/119work，最后提交row17，实际row18/piece4/[0,2^-32]/d32正范数失付；33完整栈+[19,10387)/111模式未起，0far/unit/BVP零call。线性0.266761s/stopnull非资源，顶层errornull不抹模式错。六必要全成功/owner quiet后确删raw；后继187已独立运行正端点表示，不回填184、不冒真实向量零/极点/共振。
 
 [187入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)十二运行件：helper91dd207b/kernelc2f515aa/far965c277c/七薄身份，request075a/wf589f；原74全保→84，driver55/native29。原相关下界不改，log/sqrt分别取准确正端点、倒数准确端点装球只乘不除；完整实角/幅度/取向及先归一再hull保，新旧浮点行不称同。真180→fresh C/factory/e5ab→本次全112far→原453，原全部参数/预算/FD/终门和六必要/quiet后清；actual R396未预填。新kernel的fullcut主程序未另跑，其完整cut责任仍未付。
+
+[R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)与四份独立源3bc68fa4/43f217d1/1c7a2e1c/011ca7db已全文核后公开。profile保准确十族全DAG/自然L、453三活动与450全冻结；真实writer须原未注解fullDN、当前H/FD、338×112/新audit及同g完整父，删3行只可初猜。完整338节点两jet定义准确Hermite，原675六jet/全112材料角/零模与means保；target在数值s坐标严格为g11=(L*/Lnum)^2，全部可能准确piece/support闭并集，原四strict Loewner/两反射前缀/闭DFS全未访保。旧e70d已有H关联1e−12沿用，无新门；准确Hermite不冒rounded renderer，无实际453/450接受、完整current-C径向/sharedB/帽/seams/atlas/全域metric声明。193/R408接真实453→450，geometry另生产真current-C径向场，旧finite/旧tail不改标签。
 
 ## 4. 同一g闭合与真正九冻结450
 
