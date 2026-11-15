@@ -219,3 +219,11 @@
 - 激活R824已成profile纯IO小读取：复用c5907739冻结Range/ZIP64，只读原manifest/cert/index、branch00与实际14个lower-span小证书；612MB输入包和大公共算子不再下载。scriptda0e3ac2，root全文核，无新数学或额外测试gate。
 - R827首core80750B/1f6ee443及finite helper38baf6b4已全文主审，原B=lambda*b、6724、σ负号、递减jet与全τ证书保留；仍待R809结束后真实S5源，不激活不完整请求。
 - 实际pull 2026-11-15T15:47:34.933099+00:00读3165d32025656edf7d0bccf17ad2f1ce797d2a4f，两README无diff；R829已推1f0f0ee6，主目标OPEN。
+
+### 2026-11-15 23:51（Asia/Taipei）｜serre-public-astra-20261115
+- 登记R824实际模profile：28/300核，14原分支低权56阶minor全非零、244补充方向，公共U129/U142已成；原1186仅复用，309.797776742秒，exact5/6仍0。
+- 原359manifest/7741输入冻结全verify；小IO run43731915435实读26成员15611963B、Range15648308B，manifest0ca75934与全部小来源已核。未重下整1.304GB或原612MB载体，平台ZIP身份与逐成员SHA范围明确；raw仅一日artifact。
+- 2026-11-15T15:49:27.558694+00:00实际pull读b04a6a5f7abfd1574608750392fe559413d8a259，两README无diff。R827接模B并待真实S5，独立R824准确27+244续算准备；H逐字归档压缩，主目标OPEN。
+
+### 2026-11-15 23:53（Asia/Taipei）｜serre-public-astra-20261115
+- R824结果推送遇main/provider引用竞争后立即真实pull --rebase；attempt22读329b6add，两README无diff，按新main重试，不force。

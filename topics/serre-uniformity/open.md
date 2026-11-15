@@ -129,3 +129,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **R829（复用既有p47源的准确有限结论）**：[原七项临界乘积](results/R829-reused-prime47-original-critical-products.md)。run43730863246/sourceb2e7bde9只消费R702旧A，七项19,32,29,21,8,20,33及交替和16 mod47；逐项原阶乘/Wilson一致。canonical2419B/SHA0f461cc4从完整日志纯IO重哈希吻合，artifact14168337214/平台ZIP89ad97f0一日保留。否定惰性j0未筛卷积普遍零猜想；不新增素数/系列/primitive/Legendre，不外推全部惰性p非零。proof SHA dbf48865070e4ff4a24e2c7c42abfc44de6a270dbf252b7477cdd46113003c2f。
+
+
+**R824实际模方向已完成**：[原28/300核和56+244方向](results/R824-certified-original-modular-generator-profile.md)，run43729293174/source87c131f1；309.797776742秒。全部14原分支lower-span rank56和非零minor，244补充方向、U129/U142已成，1186只复制旧源。原359manifest/7741输入全verify；小IO run43731915435精读26成员15.61MB，manifest0ca75934/branch00a25921b9/profile7c3e9484。exact5/6仍0，不称原全极模或D/eta完成；后继同核准确27+244，R827直接复用模B。proof SHA bf892f5d372397f05ef5f1cfb916945ba8ede3a6f50dfe9b136faa90adaab83f。

@@ -4,13 +4,13 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：3165d32025656edf7d0bccf17ad2f1ce797d2a4f**（2026-11-15T15:47:34.933099+00:00；公开run43714581068/attempt20/job132865758270实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R829前H](notes/2026-11-15-handoff-before-R829.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：329b6add255280e9ccd6c986453e0adce140804c**（2026-11-15T15:51:48.476280+00:00；公开run43714581068/attempt22/job132866953136实际git pull --rebase origin main，两README无diff）。14:34UTC环境失联，按根§8暂用GitHub小文本接口。前态逐字保[R824实际profile前H](notes/2026-11-15-handoff-before-R824-profile.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
-## 当前接续（2026-11-15 15:44 UTC）
+## 当前接续（2026-11-15 15:51 UTC）
 
-**R787原A/B** run43708449812/job132794639922/sourceac5998f3，core93d3d72b同核仍数学运行。旧5.15GB断点1517输出/1372输入均核；每prime只保最新完整lift/全stage。原V5=1234、129条件、14分支及完整129×20末验不改。预算停同核续算，不换R802。成功立接R792原CM值/β/立方根，再R804全部真点；不选未知同源核前像、不重算五Laurent核。[续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
+**R787原A/B** run43708449812/job132794639922/sourceac5998f3，core93d3d72b同核仍数学运行。旧5.15GB断点1517输出/1372输入均核；每prime只保最新完整lift/全stage。保1234/129×20/14分支；预算停同核续，不换R802。成功立接R792/R804真CM值及立方根，不选未知同源核前像。[续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
 
 **R809原S5** run43712427063/job132806699613/source91fbd81e，core dedb5d61/wrapper3616aac1仍数学运行。4117原输入已核，六τθU_j/84Q RHS，1234列/1380行；R787后同身份追加A/B28。保82/b/s/λ一次及τ最高项零。[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。
 
@@ -20,15 +20,15 @@
 
 [R824原证明](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)及[实际分裂](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)：旧R787真实ell1000000753/branch0的1186minor det296007862，前级20/1234minor及整性链全核，迫r28/h1=0；原完整极模为28权5＋244权6，无权7。旧R130..142已成，不新算143..155。候选仍须原129/142全条件与V7真实1778纤维minor认证完整；权差1604−398=1206。[分层契约](notes/R824-original-global-polar-generator-consumer-method.md)已推。
 
-R824首scope真实成功：run43729293174/job132857969568/source87c131f1；core1ece3cf4/wrapperc5907739，common_operators＋modular_generator_profile，309.797776742秒。冻结verify核359 manifest/7741原输入；exact5/6仍0，未认证全极模。artifact14168007461/1304153559B/平台ZIPbf5be60b…至Nov16 15:28:05UTC；cert028b4d44、stage8c77705d、indexd02679f0、bundle71b16a02。已激活小Range纯IO读取profile/branch00/index（scriptda0e3ac2/workflowaa34d6cf），供R827；不重下全包/重算。之后同核准确27+244，旧1186原方向归R787。公共U129/U142、1521打包及κ/246尺度保原式。
+**[R824实际profile完成](results/R824-certified-original-modular-generator-profile.md)**：run43729293174/source87c131f1，core1ece3cf4/wrapperc5907739；309.797776742秒，359manifest/7741输入全verify。28权五/300权六核、14分支低权rank56及244补充方向已成，公共U129/U142已成，exact5/6仍0。小IO run43731915435/sourced5ae53e8实读26文件15.61MB；manifest0ca75934、branch00a25921b9、profile7c3e9484，1186方向只复制旧值。原artifact14168007461至Nov16 15:28UTC、小IO14169111198至15:48UTC；全部SHA见结果。下一同核准确27+244续算不等R809；1186仍归R787。
 
 [R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；[五件已保存pending](notes/R825-original-normal-derivative-source-adapter-method.md)，不冒称导数/乘法矩阵已经完成。
 
-**[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族原导数列按a+2k齐次化，另一图递推tδ−(a+2k)δt保证像仍在原I_k。若真实约化τ整图有完整多项式右逆、σ在∞实际rank272，则proper/Nakayama迫原I_q=C；不再必算第二张图全HNF。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA 17e9c828。
+**[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族按a+2k齐次化，tδ−(a+2k)δt保像在原I_k。若真实约化τ整图有完整多项式右逆、σ在∞实际rank272，则proper/Nakayama迫原I_q=C；不再必算第二张图全HNF。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA 17e9c828。
 
-R827可选入口无需三项char0 CRT先完成：同单位Schur chart严格定义原canonical B的p整lift，原S5单位块给vB；原W在8个不同unit cyclic节点给真实MB整性/模插值，原vg/vh在6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、τ完整Bézout及σ∞minor。尚无实际q；若将来q4通过才可说D约化/K1。exact_height正接实际消费者，所有数学仅Actions。
+R827不等三项char0 CRT：单位Schur给真实B整lift、原S5给vB；原W的8个unit节点给MB，vg/vh的6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、τ完整Bézout及σ∞minor。尚无实际q；若将来q4通过才可说D约化/K1。exact_height正接实际消费者，所有数学仅Actions。
 
-R811待原A/B；helper09f21a90已有generic五路径真实exit97验证，禁额外gate。保原P、全H/W、双向Laurent与两图全长。[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已给包含＋全长1206充分判据，14块真实分支恢复保留。详细core/SHA/输入见R827前H和各契约。
+R811待A/B；helper09f21a90已验证，禁额外gate；保原P、H/W、Laurent与全长。[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已给包含＋全长1206充分判据，14块真实分支恢复保留。详细core/SHA/输入见R827前H和各契约。
 
 ## 已成原输入（禁止重算）
 
