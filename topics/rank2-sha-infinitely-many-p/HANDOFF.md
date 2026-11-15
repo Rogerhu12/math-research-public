@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：d72d8ea6368ab0f8335cf71246d746e45992d5e8；2026-11-15 10:25:01 UTC核两README无变。实际CI pull 2026-11-15 10:21:46 UTC/1e08eb4ba37dc346c35c60244aa63ade455797c8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 10:25:00 UTC仍无环境。最迟2026-11-15 11:05 UTC再实际pull。
+- 最近已读规则提交：ab548891fd5bd4f03e0ef880f77571cc70ce3b56；2026-11-15 10:26:53 UTC核两README无变。实际CI pull 2026-11-15 10:21:46 UTC/1e08eb4ba37dc346c35c60244aa63ade455797c8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 10:26:52 UTC仍无环境。最迟2026-11-15 11:05 UTC再实际pull。
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
 - 规则12不设冻结/独审/复跑门；规则13数学计算全用公开Actions。规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：不存可重算输出/不新分块，只留脚本、参数、run/hash。
@@ -14,8 +14,8 @@
 
 ## 检查点与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r733.md)沿链保所有原ray/CRT/δprimary、λβκΩ、坏集、预算和旧问题；摘要不关闭它们。R1–363、365–560、562–653、655–700、701–711、713–734已登记；R364/R561/R654/R712及主目标仍开。完整证明入口results.md、notes/PROOF-INDEX-R701-R750.md；当前待办详open.md。
-root唯一metadata/ref写者，代理只交proof/script/blob。deep同R完整像及指定z_c；theta原冻结负矩/实际两线；literature原first-wild同步矩阵/非实和；root原中央桥、R733两椭圆对数独立。R734实际方阵已付；theta继续R735完整角色/period/Katz识别。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r735.md)沿链保所有原ray/CRT/δprimary、λβκΩ、坏集、预算和旧问题；摘要不关闭它们。R1–363、365–560、562–653、655–700、701–711、713–735已登记；R364/R561/R654/R712及主目标仍开。完整证明入口results.md、notes/PROOF-INDEX-R701-R750.md；当前待办详open.md。
+root唯一metadata/ref写者，代理只交proof/script/blob。deep同R完整像及指定z_c；theta原冻结负矩/实际两线；literature原first-wild同步矩阵/非实和；root原中央桥、R733两椭圆对数独立。R733–735已付两线真实负矩；theta继续各自原外部域，deep继续高ρ及全WD，root继续中央桥。
 固定E17/E24/E2312 rank2已付；完整Selmer桥2+corankSha≤2ordJ，仍须同一无限p族至少一条固定原J′非零。O4低增广/O6真实相对类群继续按open，有限p、新局部非零不完成。
 
 ## 普通：原测试、两条算术线与全补偿
@@ -26,14 +26,15 @@ R719特征零52行/149列保J2=c·v+κRκ+uRu，k2..5某混合组合unit；全12
 [两斜门](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)保Li=34Yi−29Y同六输入深门、degree30 E位移/C支/log尾。型5首差D_N(t)次数≤31；偶步P31提取冻结I_-1(D_N(0))，高k尾p2N。**全paired S被杀，T外部仍相反补偿；局部非零不代原J′。**
 旧冻结窄算及所有quarter/坏集详本次完整前检；单仿射失败不阻断实际联合。
 
-R728：同型5 D对应P=Σ17d_jF_j/(14−3j)，F_j=b^jσ34x^(14−3j)，D=ζP−P′/34。P零质量，P/σ为odd33，ζP=σ′(P/σ)。I_D=I_G−J_P/34，I_G保c/(c+Z)完整卷积；J_P0可删而J′_P不可。两单位/Y深m来源β^m(1−hκ)D+ell_mP′/34，h=χ33λ、ell_m=κ(λ−βh)(λκ)^(m−1)；负Mellin、尺度log/外部全部保。
+R728同型5 D=ζP−P′/34有真实σ′⊗odd33连接；I_D=I_G−J_P/34，I_G保c/(c+Z)全卷积。J_P0可删而J′_P不可；全部两单位/Y深m来源、尺度log/近消均按本次全文归档保，不改cut。
 
 R732：原整个S34/type5的N13最小=特征多项式(T+1)(T+ω²)(T³+ω)。
 D_-为−σ34xy[64b4−104b3X−156b2X²+13bX³+X4]；D_ω为同框[128b4+368b3X+120b2X²−109bX³+11X4]/11。完整三投影/余不可约块全保，公开43701604983付全13纤维/绝对S锚。
 **R734已付实际联合**：同q715/ζ及两真实核列组成5×5整逆；固定minor/a/a+b/c非零及原CM密度使同ray密度一、全N可用。q*=q+(b/a)ζ+两核保持原正规目标/π4，J2=(a+b)/a为unit；整个冻结差=(c/a)Dω+(1/a)D_-，a,c在K。全T外部相反补偿仍在。
-两候选E289/E83521全有理AFE43701949704给L′严格正区间，但导子/root/全角色必须在R735支付。负一关系预期是共同period×I_k等于非零代数常数×相应elliptic log，非log²；不得把负权插值冒复L值。
-全部2/3/17 Schwartz公开43703192796/132778575004成功，原Gauss/半周期/绝对CM相位已核；ci/exact-check-20261115-r732-full-local-schwartz.json。
-**R733已付**：K(17^(1/3))中P2=(-4,15)∈E289、P4=(42,397)∈E83521均非扭，映到E1的两点有ω/ω²不同Kummer角色，故模torsion的End独立。全p对数核为torsion，Fuchs–Pham Thm2.2给每个p的Qbar线性独立；同一微分运输分别t/t²。只有另付共同非零period×I_k=非零代数c_k×log，才可用于两负矩；该归一仍由R735支付。
+**R735** 全2/3/17角色、Schwartz、半周期和完整范数付Dω↔E289、D_-↔E83521。导子10404/root−1及全有理AFE43701949704付解析秩一；合法m≡5全权平方在同变量m→−1给Lp(barψ_k)=34c_kθ^11Ωp I_k²，c_k固定代数非零。
+BDP已发表Thm1的真实有理非扭点以秩一桥归固定P2/P4；同步微分/period给Ωp I_k=A_kp·log_E1(φ_kP_k)，A²=εθ^(−k−12)/(34c_k)为非零代数数。R733故付两负矩Qbar线性独立，R734组合全N非零；固定p时N→∞极限仍非零，赋值最终常数v，N充分大原P31内行赋值N+v<2N。**原P31外部仍准确反号相消，主中央未付。**
+局部全角色公开43703192796成功，回执ci/exact-check-20261115-r732-full-local-schwartz.json；全部可重算输出仅Actions日志。
+**R733已付**：K(17^(1/3))中P2=(-4,15)∈E289、P4=(42,397)∈E83521均非扭，映到E1的两点有ω/ω²不同Kummer角色，故模torsion的End独立。全p对数核为torsion，Fuchs–Pham Thm2.2给每个p的Qbar线性独立；同一微分运输分别t/t²。共同period与代数非零因子已由R735支付，故两原负矩也代数线性独立；不推出原中央非零。
 
 ## 惰性：全窗、低极帽及指定中央carry
 

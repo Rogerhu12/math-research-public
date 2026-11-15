@@ -94,3 +94,5 @@ R724附录B：原primitive理想射线、严格正径向因子及固定短方向
 - [R733](../results/R733-two-cubic-points-and-algebraic-independence-of-p-adic-logarithms.md)：已证明两实际三次扭点映至E1后具有不同Kummer角色、模扭End独立；全p的对数核及Fuchs–Pham定理给Qbar线性独立，微分尺度t/t²准确保。两原负矩仍须另付共同period和代数非零常数，未预付Katz或原中央非零。
 
 - [R734](../results/R734-joint-paid-tests-and-complete-type-five-arithmetic-plane.md)：已证明同q715/ζ和两原核方向的完整5×5实际整逆，原CM密度给同ray密度一、全部N；新q*保原正规/π4及J2单位，整个冻结差准确落两条算术线，系数确在K。全部原T外部相反补偿仍保。
+
+- [R735](../results/R735-two-type-five-schwartz-and-rank-one-negative-moments.md)：已证明两型5线的全2/3/17 Schwartz、共同全权规范、严格解析秩一及真正Katz负一值；同步周期给原两负矩等于代数常数乘R733两对数除共同Ω，故实际R734组合非零。固定p充分大N的原P31行赋值准确N+v<2N；完整外部仍反号相消，中央目标未关。

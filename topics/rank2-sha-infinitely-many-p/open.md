@@ -262,3 +262,5 @@ R724附录C已付全环G/h的精确加法交数及完整平移二阶平均，含
 [Brandt note](notes/2026-11-15-first-wild-brandt-second-moment-and-synchronized-pairs.md)§7.3–7.4付原指定norm fibre的c_f>0及固定α的全原矩阵系数；δ=√−3二阶同步项准确等D_p。第一层全零因而需其余同步项补−2D_p，仍未排除真实p-dependent同步和。
 
 R733已付两实际Kummer点的全p椭圆对数Qbar线性独立；R734已付实际5×5整逆及原ray密度一上的新q*，整个冻结差落两线且所有系数在K。继续R735共同period/全有限角色/Katz负一身份，再处理完整T外部相反补偿；不从局部非零关闭O2。
+
+R735已完整支付两型5线的有限角色/Schwartz/全权规范、10404导子/root−1/严格解析秩一及原负一Katz点；共同Ωp下两负矩为代数非零倍的R733对数，故R734组合对全部合格p、全部N非零。固定p、N充分大时P31内行赋值N+v<2N，外部O_pair仍精确反号；接续必须同q*、同L1/L3域分别控制O0/O1，不能以paired总和重复零来关闭O2。
