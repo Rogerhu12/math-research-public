@@ -120,3 +120,6 @@
 
 
 - [R633：原像锥与完整合流首Bockstein](../results/R633-original-image-cone-and-complete-confluent-first-bockstein.md)：f_D<p下真锥外投影核恰实际t^s来源尾，完整β严格回同源Q及εc_sR；合流Vandermonde支付全部q/g高尾，并在显示(E)门下给准确κ_D及unit/p/高因子或零的计数。终端真实不等式与渐近阈值均保留，不把全C移为旧M、d₂或连续旗标。
+
+
+- [R634：原T伴随的单层完整返回与同单位反射比较](../results/R634-original-whole-t-companion-and-reflected-unit-comparison.md)：真实C六旋转保whole S72，原ρ1第二态给KW=X/KEW=εX及全部W/EW矩形；同q和全五伴随保留，原T每层伴随深度返回。W±同单位条带的完整奇次首矩接原P1/I1及三个补偿，Vdeep支属p⁴；反射W−并未获得原T或中央零身份。
