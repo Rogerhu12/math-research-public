@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：27063dd2cbf37b57908bdb4c665e7a9ea8e6ed98；2026-11-15 23:37:08 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
+- 最近已读规则提交：de8b5a371b4f114941916398e1cca31cb32c9633；2026-11-15 23:42:59 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -21,7 +21,7 @@ root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比�
 R804/806/811/814同原λ规范只付指定z/loc/AJ/I_j,-2四者非零等价；共同7/13 good pair先于p固定，所有Euler/period/基比见全文归档。R817仅7993三unit及固定cycle独立，R818仅复秩1；别p、原三I线性和/全Sha7993未付。R826最高λ在第四槽，完整Besser两项、U=pφ⁻¹、分母1+barπ/π²及LLZ germ保持。
 R829旧同q0选定类完整Chow零。R830 q4*修复已付2/3/17全有限test vectors及4/12尺度；完整AJ两项与原分母沿归档，global非零/原类比较仍开。
 R831共同目标Chow矩阵[[0,0,Z],[0,0,0],[−Z,0,0]]；任何old extraction只乘c0d2−c2d0。X0次数6、X1次数12、遗忘1632/816及W4绝对负号已付。
-R832真正Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，原全轨道值/BFH/KL/CM自扭付混合K点rank0，故Z=prλZ、三ordinary槽全零。仅h1用全忠实；Z非零、λ Chow维数/R814比例未付。
+R832真正Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，原全轨道值/BFH/KL/CM自扭付混合K点rank0，故Z=prλZ、三ordinary槽全零。仅h1用全忠实；Z非零、λ Chow维数/R814比例未付。[椭圆平移消失](notes/2026-11-15-cm-top-projector-kills-elliptic-translates.md)：Fourier给π3平移分量加性，Φ6与最高CM的−1相冲迫零；实际亏格一像均杀，高亏格对应仍须构造。
 R835固定λ且ψa type(1,0)、c+c^c=OK时，a=ψa/ψa^c在2/3/17恒1；新增split反射/全局−1迫γa=λ/(Na)根数−1。故同最高λ三低权张量复秩≥2，互素导子修复不能保原simple zero/三mixed rank0；完整cond/局部符号见全文归档，其他critical路未排。
 [高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)保YZZ真Δv=Θv+2Ev的σ尖点投影；Eisenstein性未付，λ⊗λ∨的17角色相消不杀误差。新ASW层范围未覆原平方导子，Marannino非CM门仍保；[BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)原(2,−1)不由BDP12证明，刊本未得，不断言错误。CG2 Thm8.2.6保CWE22 §1.2.3(4)导子互素；仍缺实际πf[Ξ02]到canonical λ类，不把形式Hecke作用当该值。
 

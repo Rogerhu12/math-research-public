@@ -269,3 +269,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R837 实权与线性余项增补](notes/2026-11-15-r837-real-nef-root-weights-and-linear-multiplicity-cost.md)：对真实因子重数取c1=1,c2=4,c_m=7(m−2)及λ_m=√c_m，只作实交数权，不改来源；全部最近根/截断仍给七倍能量，实nef子和≤B_D且Σc_mLC_i≤56D。故所有有限参数7q(H−r)≤3B_D²+56D；原两长同法给4q(H−r)≤3B_D²+32D，完全去掉B_K<s及重数上界。准确p门保6(M_D+Δ)−1和共同48D/q线性项，误差改O(D)；两个真实临界和剩余密集q1/2、同R/全部carry不变。
+
+
+[最高CM投影与椭圆平移](notes/2026-11-15-cm-top-projector-kills-elliptic-translates.md)：在原E0³的真正最高CM Chow投影π+³+π−³下，所有椭圆子群平移及亏格一曲线像均为零。Fourier精确给degree-three分量a↦F⁻¹(c1(P_a)F[B])加性；对角ζ6保持任意B，Φ6作用由点群传到该分量，而最高投影上ζ6=−1，故3倍等于零。有限Artin扩域/res-cor保此消失；仅排literal低亏格图形表达，不把抽象Mλ同构当cycle映射，不消高度坏位补项，实际高亏格对应/跨p仍开。
