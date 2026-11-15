@@ -608,3 +608,9 @@
 - 复用实际三列2886系数及198小源，原两carrier字节保持；旧49拒绝只按同D/M/known/W引用，不重第三列、旧LLL、标量RR或同候选残差；保持原七点与Γ。
 - R787518双入口已真实开始：43766834509/job132973847087和43766834526/job132973884134，同source0084d2e0，规则job均success；新准确关系和九维结果均未预称。
 - 本push规则：本地真实pull至7bb72152c236dc67eaafef0c3c65a5c0f1df23d3（2026-11-15T22:04:05.386324+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:08 Asia/Taipei — serre-public-astra-20261115
+- 激活R827原1360列的行列式Bézout消费者：core4f2dc119/runner7715eeb9，原证明7e07f78e；四投影0/1/−1/2及完整1341/3517节点，零节点保留、准确Newton全代回/xgcd乘回。
+- 复用真43734420663/source400edecf，1376选入原成员逐SHA/schema已读；原233593489B carrier原样续传，新minimal carrier保五层全部C列/index，不重原列/导数/整除/Hermite/∞。
+- 成功仅由实际gcd1加原∞给形式adjugate右逆和I4=C/K1；未物化伴随矩阵，尚无实际结果。有限测试complete与成功旗标严格区分；R815九维run43767171070/source278d1920已开始。
+- 本push规则：本地真实pull至3f070eb7c6db4272f9c79b1811bba53cdbefca13（2026-11-15T22:08:00.891923+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
