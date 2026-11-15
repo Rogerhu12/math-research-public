@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：02a183348b9b95d051213bb153ec9a4be3aee3f2；2026-11-15 11:07:45 UTC核两README无变。实际CI pull 2026-11-15 10:54:02 UTC/2e8e90dc72343a4132c2be0ac489b168b4ecf072（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:07:44 UTC仍无环境。最迟2026-11-15 11:40 UTC再实际pull。
+- 最近已读规则提交：559e2b9dcdb09b8b39ec46e41e9ca7a0aa42af7b；2026-11-15 11:08:25 UTC核两README无变。实际CI pull 2026-11-15 10:54:02 UTC/2e8e90dc72343a4132c2be0ac489b168b4ecf072（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:08:24 UTC仍无环境。最迟2026-11-15 11:40 UTC再实际pull。
 - 首次全文读旧库根/题README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推；禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次核两README，仅读差异即照办、记提交。本地exec无环境；API非强制追加，拒推即尝试pull --rebase并接新head循环推；CI实际pull与本地失败分记。
 - 规则12无冻结/独审/复跑门；13数学计算全用公开Actions；15@137c5a877fb387a82cbde01f084d1fa67ee717aa不存可重算输出/不新分块，只留脚本、参数、run/hash。
@@ -14,8 +14,8 @@
 
 ## 完整前检与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r740.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–740；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep写R741完整非cube首forcing后续同R；theta已付R740，续Yκ全观察与G4；literature核p-ram BDP线性公式；root续实际中央桥。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r740.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–741；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep已付R741，续完整res_C W_D与同R；theta已付R740，续Yκ全观察与G4；literature核p-ram BDP线性公式；root续实际中央桥。
 固定E17/E24/E2312的rank2和完整桥2+corankSha≤2ordJ已付；仍需同一无限p族至少一条固定原J′非零。O4低增广/O6相对类群按open保，有限p/局部负矩非零不算完成。
 
 ## 普通：原负矩、primitive与十七惯性
@@ -51,3 +51,5 @@ R730含奇支h≤4aF+8b+3Δ，临界Δ>0迫UA|Z非零；完整FH2商=H0(Z,2C)/re
 R731指定B modF²唯一，ρ=ordB1=ordB0−h≤2κ−h；k+ρ<r给显示格两p，zc非零给多unit/一p。高ρ增补：原Mη镜尾及漏13全保；ord(B0+2ηB1)<2h或H_B modt^(ell−k)非常数仍两p。未决高ρ/真2h延拓/H_B常数；ell−k1末测试空。其余WD低列/同右逆高尾/同R仍联立。
 R738平衡c/二维家族在原角帽/极度门下给独立Z值；全吸收产生真原前缀核，可能非cube。零角d0≤floor((4r+2)/3)付高ρ容量≤2v(v+d0−1)−min(v,r−k)；N+1超帽给unit/两p/更高核，r=ell1最多三c。R550已有Clifford界。
 [前缀界限](notes/2026-11-15-original-prefix-iteration-critical-limit.md)：h+vd0≤2κ；终止v*=floor((2κ−h)/d0)+1处已有Gauss容量≥2(2κ−h)+1，满κ个Z输入也只越h>3κ/2，不能闭9κ/8窗。继续实际非cube forcing/同R，不假设cube全K1最大。
+
+R741：原前两块Vη=β0−η0β1/a在H=h+k+ρ准确单位，ρ≤2κ−h<qT使原M行13+H<s。完整低整提升抵消，ξ项更高，ordinary carry给单位。任意全WD首次R须R|C=−Vηβ modt^min(2h,s−δ0)，故非F整除；保持F·B整变形须A|C首项(e b_su²/2a)t^(k−r)，有真极。Vη不杀全首像/垂直块，换PB+pA须同步运输R−A；仍需真实限制商与全部同R/p³。

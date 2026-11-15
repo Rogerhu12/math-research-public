@@ -346,3 +346,5 @@ R738[零角Gauss增补](notes/2026-11-15-r738-zero-angle-cap-and-high-rho-prefix
 - [R739](results/R739-seventeen-inertia-and-relative-algebraic-logarithm-separation.md)：已证明同Q2/Q4相对任何与K(17^(1/3))线性不交域的真实End独立；AST提升为全p、相对所有17-unram代数点logspan的Qbar独立，亦保普通代数数log/常数。E24的六次缩放和微分精确返回；R735组合不能被已识别的此类行抵消，实际条件积分点身份及G4剩余仍开。
 
 - [R740](results/R740-original-w-v-spherical-seventeen-tensor-and-mixed-cuts.md)：已证明原六输入的十七处完整自对偶球张量及实际W/V三次投影，全部C平均/quarter/p门/混剪切保；κ全局norm1使完整Yκ仍norm34，原Y三次gluing只被整共轭，不能由裸W/V球删全返回。条件质量、全κ级数、G4和真正点身份仍保。
+
+- [R741](results/R741-specified-noncubic-first-forcing-and-necessary-normal-smoothing.md)：已证明原非cube镜轴核的完整前两块值投影在H=h+k+ρ有指定单位首项，原M读取13+H<s；实际ξ/整提升/ordinary carry全保。任何全WD首次修正必须有指定非零R|C，保持F·B因子的整变形不可能；该投影不杀全首像，真实限制商/同R其余块/p³仍开。
