@@ -57,3 +57,7 @@
 ## 2026-11-15 15:38:31 UTC /root — R341实际151完整覆盖与节点资源止
 
 [R341](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)四原report块逐字核后发：全u盖32977叶，65535/65536节点两子事务前止/10468未决/strict反证0/globalδnull，非900s墙钟；原九p/419片/同C/cut保持。compute大日志Transport closed一次未交正文，未冒全frontier独核，163只读恢复；159真BVP照原门继续。160/161均前13步过入原科学，H压缩R339/R331重复但完整责任仍在正文/open；API核980e1d0a3a715632606f58bc427c3f371f216a28双README未变，真pull行保留。
+
+## 2026-11-15 15:44:12 UTC /root — R340实际157四接受与四完整normal拒绝
+
+[R340](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)原chain29684B逐字核后发布：84真实trial、4直线接受/80normal拒，W仍4.963213787524104728…、全finalfalse；后段末位下降不冒有效准确精度。compute传输失败与descriptor/合同分明，未据completion flag假核162FD/矩阵，163只读原日志补全；保存完整末九p/半径及准确秩必要关系。API核3633db9832438a93a946faa69d69380a376fb5cd双README未变，真实pull行保留，终端恢复补pull。

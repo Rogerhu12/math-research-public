@@ -210,3 +210,5 @@
 - [Request160：v2编译修复后的完整128四组件入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)（源码/参数入口）：原152全部55pins保留→58，fresh91/64J/R273/128后全576×224、112边界、混合338及独立physical audit原门/预算不减。只明确JSON token分隔和原统计类型，完整旧读回/错误/依赖语义保持；实际编译及科学尚待Actions，未预填全native或证书。
 
 - [R341：实际151完整公共坐标覆盖与节点预算停止](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)（实际report明确范围）：全u盖32977叶，65535/65536节点在两子事务前止、10468未决/严格反证0、globalδnull，127.386秒未触900秒；同C/cut/原147构造保。report四块完整字节核；巨量compute传输失败，未冒全部frontier独核，163继续只读恢复，原同场metric/闭场未付。
+
+- [R340：实际157残差二次平方链及原读回边界](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)（实际report明确范围及条件秩关系）：八方向四直线接受、四次原normal各20档全拒，首步模型预测准确、后段下降至Decimal50词尾，全finalfalse。原chain完整核、末九p50/半径及四全响应保；compute大日志未取，全部FD/矩阵/末检查未冒独核，163恢复既有原记录。有限空池不证驻点；准确非零驻点必须J秩亏，可逆换参不修复准确秩。

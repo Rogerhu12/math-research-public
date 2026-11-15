@@ -44,7 +44,7 @@ R314/R325即使实际完成也只付固定准确有限trace条件包含，不代
 
 158正把该工具接到独立一次真实98→37原model/FD之后：保最终原z、各interval原chunk J/P及原evaluate/query返回，不从Bz倒造输入或按同node强并不同word。仿射多项式、真实试点缺陷和表示舍入差分列；没有整段RHS二阶界就不称17档之间连续安全。诊断partial不改原model/FD判定，未派发或预填结果。
 
-## 2. 九控制低三条件：154已付，157继续
+## 2. 九控制低三条件：157实际已付范围与完整原记录恢复
 
 [R296实际134](results/R296-actual134-thirty-two-nine-control-batches.md)、[R301实际135](results/R301-actual135-carried-radius-thirty-two-batches.md)、[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)、[R316实际142](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)、[R320实际146](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)、[R329实际149](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)保全部原迭代、末参数、半径、FD及适用范围。只发生小步下降；整列FD不证弱组合或响应形成精度，不证无根。R295/R299/R310的模型下降、同normal轨迹择优和完整9方向依据仍有效，不冒实际收敛。
 
@@ -54,7 +54,12 @@ R314/R325即使实际完成也只付固定准确有限trace条件包含，不代
 
 [157入口](notes/2026-11-15-request157-complete-nine-residual-quadratic-square-interface.md)八件源码/参数已发布，原104+8pins逐项全留并加3+1，总107+9；实际producer闭包39→41。真父是R335末九个Decimal50字符串，新Δ=.01明确另定，不继承J/H/merit。每批八方向，全九维三残差二次式平方，32内更新各21槽（完整12×9残差QR、H移位/Cauchy/18正负谱槽），全模型回溯/有限已算候选择优；外层fresh原forward slope、原20档/c_A/域，失败才另标原149 normal回退。初末新增54二阶及原108一阶FD、Arb160/depth14/453/full112不减。
 
-157真实run43729310294 / compute132858021333，source c71cbeac7fd13c65cf50c7eb39842e9949737b25，来源前6步通过。完整Q为12×9、R为9×9只报准确shape/SHA；其全部12残差、9个stationarity、列排列/对角、每个模型候选/试探与全部真实trial均完整读回；不把因子SHA当已读全部矩阵。science75、job90和读回10分钟，只有一批八方向，没有额外32批循环；所有原门保持，尚无实际157结果，R340负责实际全读回。
+[R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)已付原report/chain明确范围：run43729310294的八方向共84真实trial，0/1/2/7四直线接受，3–6各20次原normal全部拒；32×8模型更新、已评价14633点/4436合格记录不冒不同点数或球上最优。首下降1.525572539263998816310751188272764882692E−10，之后5.7342838819311571768939884066E−21、2.9751698E−42、4.710E−46，最终预测1E−49/比4710已接近Decimal50 merit词尾，不证明有效准确下降或真根。最终W4.9632137875241047283817296655204217818016943746082，全部unit/full112/native/nonzero/success仍false。四次拒绝保持同J/参数，仅缩半径；末九p50与半径.0000390625正文完整保留。
+
+原chain29684B/9d8bf161和report64026B/d4e60ea1完整核；compute大日志两次Transport closed未交正文，status51842612B/931b013b及primary89063B/7411fd01仅原descriptor已读。不能把合同中的162FD或completion flag冒每条valid核收，不搬用154的末三残差、Arb或圆数据。163仅在Actions读既有原日志并无损分段，不重算科学、造raw artifact或以读回作新验收门。
+
+准确条件下J满行秩且JᵀF=0推出F=0，故非零准确驻点必须秩亏；有限空池、单方向10^−37 slope和有限小梯度不证明这些前提，可逆换参不改准确秩。后继据真实完整全9梯度/三行响应/Hessian及形成误差选择有实质作用的新方向或明示独立初猜，保持原严格slope/Armijo与最终门，不机械续同样微步。
+
 
 ## 3. 原连续C、新九族与当前C自己的native
 
