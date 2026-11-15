@@ -439,3 +439,5 @@
 - **十四真除源把仿射公因子界降为301、余包络143。** [完整原来源推论](results/R150-appendix-fourteen-global-divided-classes-affine-degree301-and-residual-envelope143.md)核最终L4实际四全局p4来源与完整9×4差额，九旧b加四d在全商独立13；同target真差源v2给第十四维。Σ_{a≤4}ta≥13、Σ_{a≤5}ta≥14，故degΔaff≤301/齐次≤367。T14的s谱(s−1)²(s−2)^12经系数p tors正合给Rbar|(s−1)(s−2)^4P+²P−²E6Q60²、degree143；M≤143−d/Mh*≤166−d/第三314−d，主8531−d不变。不推t5≥1、最大p指数或原h0的char0身份。
 
 - **三个完整原行列式给外投影因子的120次上界。** [实际证明](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)从paid原56×22只作常数行组合，1232归一身份、每方阵484原乘回、每det3311整除与三整数点独立核全真。run43756208221实际113.562241801秒完成三项；剥Σ0后gcd U次数120、coeffSHA150089b4e115…，严格Ω|U。候选非恒定，尚不把它等同Ω或据此改来源主费用；全56行匹配下界继续。所有数组只临时，同源码与完整SHA可重现。
+
+- **root2前五系数31多重度恰(1,4,2,4,2)，仿射界降为300。** [完整模块证明](results/R150-appendix-root2-coefficient31-spectrum-through-five-and-affine-degree300.md)用有限C的monic annihilator与flat局部完成，把已付全局colon L:p²及完整B三页successive2/4/2解释为准确系数p谱；没有把root2页当全部primary。连root1两类，至少15系数tors方向/长度≥44，degΔaff≤300/齐次≤366、R≤142及barR|(s−1)(s−2)^3P+²P−²E6Q60²。九真差源v_j各exact p阶5，明确不是原h0分母结论。M≤142−d/Mh*≤165−d/第三313−d，主费8531−d不变；p指数≥6及h0 char0成员性继续。

@@ -625,3 +625,7 @@ run43756208221实际0.407487812秒核5完整SHA/3333+1007原索引及全部字�
 ## 2026-11-15 21:50:55 UTC — 原三minor完整精确上界120
 paidcore不重算；三原常数组合各484乘回、3311整数Bareiss除式与三个整数点全真，actual113.562241801秒完成，原Ω整除外gcd U、degree120/coeff150089b4e115。
 非恒定候选尚非完整Ω；下一保全部56行做squarefree有限环下界，已付det不重跑。逐pull核两README差异后实际终端push。
+
+## 2026-11-15 21:53:14 UTC — root2精确前五系数31谱与仿射界300
+全局colon和完整B三页successive2/4/2，经有限C的Hensel/flat completion给root2谱(1,4,2,4,2)；连root1两类共至少15，Δaff300/齐次366/R142，系数p tors长≥44。
+九真差源v_j各exact p阶5，非原h0分母；更高指数未关闭。H/open前态完整归档，三minor上界120已实付，下界消费者继续；逐pull核两README后实际push。
