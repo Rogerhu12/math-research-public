@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   actions: read
 
 concurrency:
@@ -16,7 +16,58 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  rules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      actions: read
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R805_public_success_io_audit.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Actually pull main and require unchanged root and topic rules
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import hashlib
+          import importlib.util
+          import os
+          from pathlib import Path
+          source = Path("topics/serre-uniformity/scripts/R805_public_success_io_audit.py")
+          assert hashlib.sha256(source.read_bytes()).hexdigest() == "5ae35d0c86b20a8b6234f3aac6059c6567cfbea73ed6f835d74f15ba48360e4f"
+          spec = importlib.util.spec_from_file_location("rules_pull_only", source)
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          root = Path(os.environ["RUNNER_TEMP"]) / "serre-R787-rules-pull"
+          (root / "audit-output").mkdir(parents=True, exist_ok=True)
+          module.pull_and_compare(root, "f59c795c69c05bed6efa45a937ab352def8e5972")
+          PY
+      - name: Retain the actual rules pull receipt for immediate parent review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R787-rules-pull-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R787-rules-pull/audit-output
+          retention-days: 1
+          if-no-files-found: warn
+
   original_function_relation:
+    needs: rules
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
@@ -27,6 +78,7 @@ jobs:
         with:
           ref: ${{ github.sha }}
           fetch-depth: 1
+          filter: blob:none
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -44,6 +96,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check source syntax without importing the mathematical core
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("R787_original_power5_relation_solver.py", "R781_original_Laurent_prefix.py",
+                       "R787_public_original_power5_relation.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+          PY
       - name: Install exact arithmetic
         run: python -m pip install python-flint==0.9.0
       - name: Recover the original function from the completed exact producers
@@ -60,12 +122,6 @@ jobs:
           path: ${{ runner.temp }}/serre-global/R787-original-power5-function-relation/output
           retention-days: 1
           if-no-files-found: warn
-      - name: Publish only script parameters run and output hashes
-        if: always()
-        continue-on-error: true
-        env:
-          SERRE_ACTIONS_TOKEN: ${{ github.token }}
-        run: python topics/serre-uniformity/scripts/R787_public_original_power5_relation.py publish
       - name: Require the complete characteristic-zero original relation certificate
         if: always()
         run: python topics/serre-uniformity/scripts/R787_public_original_power5_relation.py verify

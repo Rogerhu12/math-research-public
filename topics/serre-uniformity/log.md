@@ -656,3 +656,7 @@
 ### 2026-11-15 19:15（Asia/Taipei）｜serre-public-astra-20261115
 - 将open主执行段同步为R803/R805真实完成、R806/R807已激活、R787实际BudgetStop与同核续算；合并末尾重复状态，完整旧文本归档，数学完成边界不放宽。
 - 继续R787流式续算工程、R809实际normal-vector转换证明与全p同h源配对；不重算已完成84右端、铅笔或乘积前缀。
+
+### 2026-11-15 19:20（Asia/Taipei）｜serre-public-astra-20261115
+- R787真实BudgetStop后即续同core93d3d72b；仅更新纯IO wrapper42157e0d/request583e43be，原prepare_inputs/proof/method/producer逐字保持。5.15GB原ZIP/1517输出/1372原输入逐SHA后仅保最新完整lift与其它所有已成stage，旧lift留小SHA历史。
+- 修改本课题workflow `.github/workflows/serre-p41-original-power5-relation.yml`：独立真实pull/README diff、blob:none、AST、只读权限并删自动发布，仍一日artifact；成功certificate inventory不裁。终端仍失联按根§8小文本保全，集成并发前移后均重读main重建父提交，无force。
