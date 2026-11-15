@@ -483,3 +483,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R787**：[原因子零增charge返回与全F²来源的准确normal核](results/R787-original-factor-return-and-whole-square-source-normal-kernels.md)。五型/≤15型G乘deg≤2固定L即回W_b；全部D2/D3的实际Gauss基与整饱和已付。短M核由h−11门、完整J核由h+1门判，最后2α+3u0β及两门间≤12维/13carry全保；R782实际尾归完整T2指定像，未删除原非F²余列。
 
 - **R786**：[同一原测试的J深完整三输出及真实E深浅外部](results/R786-original-j-depth-three-output-and-native-e-exteriors.md)。原三态J/L546/M78全返回保同q与六支/unit第二项，J深浅落同一固定有限来源，帽/U仍保第四J输出。纯Y/W外部准确两模式；mixed T外部保完整联合Cauchy，第一系数两支之和为原非零Dω负一。未将外部补偿置零，已有first_return只作其真实来源读取。
+
+- **R788**：[原三次因子强接触窗口的全素数排除](results/R788-original-cubic-factor-all-prime-exclusion.md)。r2/mq0/b=b0=3的五型各两原有理子式，其gcd全部坏因子≤211，付p≥347统一排除；十九角准确κ≥9及唯一κ≤11类将剩余压到p311，原九列非齐次系统不解。因此整个b3强窗对全部允许p不存在；b≥4和全中央仍开。公开producer/run/hash齐备，未由有限样本外推。
