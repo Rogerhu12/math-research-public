@@ -18,3 +18,7 @@
 
 
 其他既有证明、计算边界及实际95–121记录保留在[原索引](results-index-through-actual120.md)及对应notes，未据归档改变任何结论状态。
+
+## 新增源码接口
+
+- [九控制完整非零112设置层](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)：source00e4d2c3固定六shape、原三active/453维及完整112行，真实H/native全J→原FD→同owner原fullDN/finalaudit。源从807f逐项接新九family，尚未运行，无参数或λ预选；同g450重构与旧v3/v4差异明确，非实际非零场结论。

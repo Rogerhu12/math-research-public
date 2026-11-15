@@ -101,3 +101,5 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [actual123已结清](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)：run43696642468/source9744b760，8方向8接受/17原外试探，W738.1754024784359→431.4178353348037，所有unit/full112/native最终门仍false。初末九列FD、新scalar域1133叶/0未解、原453零圆与全部17行已读；dir5 alpha.25接受保inner tol=false。primary62682B/4a2e32af，8完整组重建view118661B/fb9cef3c，无外trial省略；临时raw原清理完成。125由真末九p继续同冻结源26闭包，.1 reset/原8×20/12×20与全部final不变；不能把零圆或数值奇异值冒非零场。九full112六shape冻结适配待发布，124仍沿120真实首H失败接同worker全H路径。
 
 08:55左右终端服务不可用；按根第8条由唯一可用GitHub集成发布<100KB小文本，非force/ref lease拒绝立即重读新父/规则并重建。集成读取不冒git pull，Actions规则runner继续实际pull；恢复后回终端。全部科学只本库Actions，未以环境故障停止课题。
+
+[九控制三active完整非零112适配](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)已发布source00e4d2c3：完整9系数、固定六shape、三active与453维/全部112右行保持。原807f完整FD/fullDN数值主体仅身份及变量名改接，实际当前H必须先原native全J，之后原FD/同owner fullDN/finalaudit全付；不要求低三先达阈值。未预选参数、λ或run，尚无实际场；旧v3/v4不能丢shape后改标签，同g450全9冻结/K=k=0重构责任仍未付。

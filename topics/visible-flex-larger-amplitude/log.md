@@ -221,3 +221,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 09:04 UTC /root — actual123八方向真实改进及小文本集成接续
 
 [实际结论](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)：run43696642468/source9744b760，8接受/17外试探，W738.1754024784359→431.4178353348037，全final false；初末九FD/1133叶域/原453circle/全部trial已读。62682B primary与8完整组重建118661B view逐字SHA吻合，dir5 inner tol=false真实接受保留，无raw入库。终端08:55断开按根第8条仅集成小文本，准确记非pull同步；H压缩、旧97.8KB索引逐字迁同目录，125/124及原113/118/122继续。无本地科学。
+
+## 2026-11-15 09:10 UTC /root — 发布九设计量固定六shape的完整112设置层
+
+[完整接口](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)15049B/debc3fe4与source43641B/00e4d2c3的29项精确差异已读；由明确ace38440/807f基源逐字重放核同新全文。固定6shape/3active仍453，原全部FD/band/fullDN门保持；旧v3/v4与真正450同g重构责任写明，无未来参数/λ/run或本地AST/科学声称。按第8条仅小文本集成，继续125真实九末p与124原H路径。
