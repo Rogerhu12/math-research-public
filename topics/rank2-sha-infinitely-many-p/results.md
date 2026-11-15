@@ -167,3 +167,6 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 
 
 - [R816](results/R816-original-minus-eleven-rank-two-schwartz-and-degree66-source.md)：R816以两处有限2下降证明E−11:y²=x³−11的rank≥2，完整2/3/11角色与导子66、ray度360已付；α33的3处odd/11处odd及W11(−1)=−R给标准S66完整半特征。公开全CM7/13联合质量核一维，准确识别原V66/首z6和全权平方198→66尺度；相对旧S的charge33/17保留。尚须完整普通/惰性Selmer桥和同M/13carry的第四独立中央及成本，不把质量零或二元函数域中新坐标当额外维数。
+
+
+- [R819](results/R819-original-nef-surplus-and-s-projection-degree.md)：R819对原全nef锥证明κ≥(b−m)e+bm、χ≥2b+m（m=C.f0、e=C.H+为真实S次数），并给所有非负余项和m>0的全部等号链。原r2/m3得e≤3+[κ−(6b−9)]/(b−3)，近最小自交区域实际投影次数有界；同R同属m2分量由δ=h再得κ≥2h+2b。数值类不预设不可约代表，不代长接触或同源Cartier配对。
