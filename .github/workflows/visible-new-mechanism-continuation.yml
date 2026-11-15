@@ -34,7 +34,7 @@ jobs:
               'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange',
               'constrained_static_m8_tail_quotient','g_first_translation',
               'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation','derivative_m8_tail_quotient',
-              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps','general_pure_J_identity','h_axis_sharp','general_pure_J_membership','curvature_target_ladder','D0_pivot_residual','general_pure_D0_membership','curvature_soc_steps','general_pure_J6_membership','J6_balanced_original_difference','curvature_inherited_scale','J6_implicit43_original_separation','curvature_soc_arc','character_head_minus2','curvature_soc_metric_reserve','character_minus2_finite_necessary','metric_budget_recovery','character_minus2_static_parity','metric_spectral_recovery','character_minus2_static_positive_candidate','character_head_literal_relations','character_minus2_literal_relation_cuts','metric_spectral_adaptive','character_minus2_raw_positive_candidate','metric_spectral_curvature_reserve','metric_spectral_physical_penalty','metric_spectral_trust_growth','derivative_packet_full_width_gate','character_head_word_relations'}
+              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps','general_pure_J_identity','h_axis_sharp','general_pure_J_membership','curvature_target_ladder','D0_pivot_residual','general_pure_D0_membership','curvature_soc_steps','general_pure_J6_membership','J6_balanced_original_difference','curvature_inherited_scale','J6_implicit43_original_separation','curvature_soc_arc','character_head_minus2','curvature_soc_metric_reserve','character_minus2_finite_necessary','metric_budget_recovery','character_minus2_static_parity','metric_spectral_recovery','character_minus2_static_positive_candidate','character_head_literal_relations','character_minus2_literal_relation_cuts','metric_spectral_adaptive','character_minus2_raw_positive_candidate','metric_spectral_curvature_reserve','metric_spectral_physical_penalty','metric_spectral_trust_growth','derivative_packet_full_width_gate','character_head_word_relations','character_head_zero'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -128,6 +128,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43674194002-1-metric_spectral_curvature_reserve/
             /topics/visible-flex-new-mechanism/notes/actions-43675575597-1-character_head_word_relations/
             /topics/visible-flex-new-mechanism/notes/actions-43676765171-1-metric_spectral_physical_penalty/
+            /topics/visible-flex-new-mechanism/notes/actions-43680023529-1-metric_spectral_trust_growth/
             /topics/visible-flex-new-mechanism/notes/actions-43672582314-1-character_minus2_raw_positive_candidate/
             /topics/visible-flex-new-mechanism/notes/actions-43659795254-1-general_pure_D0_membership/
             /topics/visible-flex-new-mechanism/notes/actions-43658922081-1-D0_pivot_residual/
@@ -271,13 +272,14 @@ jobs:
               'metric_spectral_physical_penalty':'frame_metric_spectral_physical_penalty_audit.py',
               'metric_spectral_trust_growth':'frame_metric_spectral_trust_growth_audit.py',
               'derivative_packet_full_width_gate':'literature_derivative_packet_full_width_gate.py',
-              'character_head_word_relations':'literature_character_head_word_relations.py'}
+              'character_head_word_relations':'literature_character_head_word_relations.py',
+              'character_head_zero':'literature_character_head_zero.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
               'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only','g_first_translation':'--toy-only',
               'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only','derivative_m8_tail_quotient':'--toy-only',
-              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only','general_pure_J_identity':'--toy-only','h_axis_sharp':'--toy-only','general_pure_J_membership':'--toy-only','curvature_target_ladder':'--check-only','D0_pivot_residual':'--toy-only','general_pure_D0_membership':'--toy-only','curvature_soc_steps':'--check-only','general_pure_J6_membership':'--toy-only','J6_balanced_original_difference':'--toy-only','curvature_inherited_scale':'--check-only','J6_implicit43_original_separation':'--toy-only','curvature_soc_arc':'--check-only','character_head_minus2':'--toy-only','curvature_soc_metric_reserve':'--check-only','character_minus2_finite_necessary':'--toy-only','metric_budget_recovery':'--check-only','character_minus2_static_parity':'--toy-only','metric_spectral_recovery':'--check-only','character_minus2_static_positive_candidate':'--toy-only','character_head_literal_relations':'--toy-only','character_minus2_literal_relation_cuts':'--toy-only','metric_spectral_adaptive':'--check-only','character_minus2_raw_positive_candidate':'--toy-only','metric_spectral_curvature_reserve':'--check-only','metric_spectral_physical_penalty':'--check-only','metric_spectral_trust_growth':'--check-only','derivative_packet_full_width_gate':'--toy-only','character_head_word_relations':'--atom-selection-toy-only'}
+              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only','general_pure_J_identity':'--toy-only','h_axis_sharp':'--toy-only','general_pure_J_membership':'--toy-only','curvature_target_ladder':'--check-only','D0_pivot_residual':'--toy-only','general_pure_D0_membership':'--toy-only','curvature_soc_steps':'--check-only','general_pure_J6_membership':'--toy-only','J6_balanced_original_difference':'--toy-only','curvature_inherited_scale':'--check-only','J6_implicit43_original_separation':'--toy-only','curvature_soc_arc':'--check-only','character_head_minus2':'--toy-only','curvature_soc_metric_reserve':'--check-only','character_minus2_finite_necessary':'--toy-only','metric_budget_recovery':'--check-only','character_minus2_static_parity':'--toy-only','metric_spectral_recovery':'--check-only','character_minus2_static_positive_candidate':'--toy-only','character_head_literal_relations':'--toy-only','character_minus2_literal_relation_cuts':'--toy-only','metric_spectral_adaptive':'--check-only','character_minus2_raw_positive_candidate':'--toy-only','metric_spectral_curvature_reserve':'--check-only','metric_spectral_physical_penalty':'--check-only','metric_spectral_trust_growth':'--check-only','derivative_packet_full_width_gate':'--toy-only','character_head_word_relations':'--atom-selection-toy-only','character_head_zero':'--toy-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:
@@ -304,6 +306,32 @@ jobs:
                   raise SystemExit('completed development is not the same published source')
               stages=['research']
               print(json.dumps({'unchanged_development_reused_from':reuse['run'],'old_artificial_checks_repeated':False}))
+          observed=config.get('completed_development_log_observation')
+          if observed:
+              if lane!='metric_spectral_trust_growth' or reuse:
+                  raise SystemExit('this previously observed development reuse is growth-only')
+              raw=Path(observed['receipt']).read_bytes(); prior=json.loads(raw)
+              if (hashlib.sha256(raw).hexdigest()!=observed['receipt_sha256']
+                  or prior.get('source_commit')!=observed['source']
+                  or str(prior.get('run_id'))!=observed['run']
+                  or prior.get('lane')!=lane
+                  or observed.get('passed_stdout_read_from_completed_job') is not True):
+                  raise SystemExit('previous completed development provenance differs')
+              for path,digest in observed['unchanged_scientific_sources'].items():
+                  if (hashlib.sha256(Path(path).read_bytes()).hexdigest()!=digest
+                      or prior['source_files'].get(path,{}).get('sha256')!=digest):
+                      raise SystemExit('observed development applies to different source bytes')
+              outputs=[item for item in prior['outputs'] if item['path']==observed['output']]
+              if len(outputs)!=1 or outputs[0]['raw_sha256']!=observed['output_sha256']:
+                  raise SystemExit('previous development output identity differs')
+              # The request records the root's direct reading of passed:true in
+              # this completed job log. The metadata receipt alone is not a pass.
+              stages=['research']
+              print(json.dumps({'previous_passed_stdout_observed_in_job':observed['job'],
+                  'unchanged_development_reused_from':observed['run'],
+                  'old_artificial_checks_repeated':False,
+                  'metadata_hash_alone_is_not_a_development_pass':True}))
+              subprocess.run([sys.executable,'-u',str(root/'scripts/check_research_outcomes_reader.py')],check=True)
           for stage in stages:
               args=config[stage]
               max_args=98 if lane=='metric_spectral_trust_growth' else (94 if lane=='metric_spectral_physical_penalty' else 90)

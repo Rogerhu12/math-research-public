@@ -1,12 +1,12 @@
 {
-  "request": "conditional-trust-growth-and-original-eight-packet-four-width-coefficients",
-  "created_at": "2026-11-15 05:10:12 UTC",
+  "request": "complete-weight-zero-head-and-recover-trust-growth-scientific-observations",
+  "created_at": "2026-11-15 05:29:36 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "metric_spectral_trust_growth",
-    "derivative_packet_full_width_gate"
+    "character_head_zero",
+    "metric_spectral_trust_growth"
   ],
-  "goal": "Advance two unpaid questions only: same g/b0/163 saved c010 state and full pools with a new conditional next-model trust-growth rule; and four exact dilation coefficients for the original R183 eight-packet C7 prototype with a strict all-width real-algebraic gate. First run each new artificial interface. Preserve all actual physical gates/budgets. No rerun of completed -2 kernel, forcing, W, old profile evaluations, or old optimizer.",
+  "goal": "Compute the complete true weight-zero character head from the five existing bound inputs, without repeating completed -2 research; recover the unobserved trust-growth scientific output after the observer's diagnosed 20KB developer-log failure. Growth scientific source, 98 arguments, all physical gates and budgets remain unchanged; reuse its already observed passed development and run only the new read-only printer fixture. Root README15: all new payloads remain ephemeral, with only metadata/source/parameters/run/hashes published.",
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_restoration_rows.py": "eff06d6c2136b8b13fa86afe915352ee54e5aaae2c4c80551a08355cea2e1d4f",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_recovery.py": "ba3e2becec3ad750ef8818711d8034003f3077877d39115925c308d123dec9ff",
@@ -21,18 +21,17 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_physical_penalty_audit.py": "c04c99a7da0382b536e23eba0f0a31c828b6c294aa87dbf9433df31f57d77090",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth.py": "19394bea4779c4497851c169a15dddad5839469067d550f64bef7af3bb88dcc6",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth_audit.py": "801f1c3038d54dec422e9d8e3bb1162105fc560374debb5bf83a8b38083be3e6",
-    "topics/visible-flex-new-mechanism/scripts/literature_derivative_packet_full_width_gate.py": "adc5b987861633efcf56c1df5a4de4a076055d64444f05c8302025e654de6795",
-    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "5d6737cb2eb4c738dd643261db1d32bb3777f281384c6ee7835f897da4662874",
-    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "354fa7a80c7b4a5e219cbdb11d1150db9b95ac1f6bceae686e67e0ebe70eb603",
-    ".github/workflows/visible-new-mechanism-continuation.yml": "ccce7988e6f14a04af32d244f7dc406ff451f6f3de8d47e9001d43c952dabef1"
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "b5e42c260f5c8dd1381e2baa0390953666e094ebdbb08a9f032cc66657905dc0",
+    "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41",
+    ".github/workflows/visible-new-mechanism-continuation.yml": "9a17996a73f85b601e4921c51a821cce7d621ab1576bdb8b7b74157113677c19",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_zero.py": "337966b4fb9a417ed62d650cac87ffc4c41bedc9938e11c1520fe1136b53dee4",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_minus2.py": "fcc41b4d5a640a1ac411e7f6f29622db81c39cb2be37aed7811136418a045f11",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_literal_relations.py": "80ab553a2dbb35fd4547beaf1b7ad094e831a2cb7f02e4968b867c4654cd9995",
+    "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9",
+    "topics/visible-flex-new-mechanism/scripts/check_research_outcomes_reader.py": "6b841afb60f8101419c195f6b2a3d373c8bbfa895e8be67846ce0b2d939e3fda"
   },
   "jobs": {
     "metric_spectral_trust_growth": {
-      "development": [
-        "--check-only",
-        "--out",
-        "@OUT@/metric-spectral-trust-growth-development.json"
-      ],
       "research": [
         "--input",
         "topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json",
@@ -132,38 +131,64 @@
         "topics/visible-flex-new-mechanism/notes/actions-43676765171-1-metric_spectral_physical_penalty/metric-spectral-physical-penalty-audit.json.gz",
         "--expected-spectral-physical-penalty-sha256",
         "dc6d87a2226380419d8e788443d97060802f6c262d683afcd9fc9a8dd7ec62bb"
-      ]
+      ],
+      "completed_development_log_observation": {
+        "run": "43680023529",
+        "job": 132708447996,
+        "source": "9b7c07f25514808595dcf4efe7e79220fc57a8d6",
+        "receipt": "topics/visible-flex-new-mechanism/notes/actions-43680023529-1-metric_spectral_trust_growth/receipt.json",
+        "receipt_sha256": "07a3d12994c8f3a8981eb4745c7ba232aa3e7088d179a789715805d9886cf298",
+        "output": "metric-spectral-trust-growth-development.json",
+        "output_sha256": "ff801919e55e0a062ecd72e83a98ae41bfb6240795d66076e79c0e36d54f7ef2",
+        "passed_stdout_read_from_completed_job": true,
+        "passed_stdout_at_utc": "2026-11-15T05:13:05.6878012Z",
+        "unchanged_scientific_sources": {
+          "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth.py": "19394bea4779c4497851c169a15dddad5839469067d550f64bef7af3bb88dcc6",
+          "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth_audit.py": "801f1c3038d54dec422e9d8e3bb1162105fc560374debb5bf83a8b38083be3e6"
+        },
+        "scope": "Root directly read passed:true in the completed job stdout; receipt binds its source and output identity but does not by itself prove passage."
+      }
     },
-    "derivative_packet_full_width_gate": {
+    "character_head_zero": {
       "development": [
         "--toy-only",
         "--output",
-        "@OUT@/derivative-packet-full-width-development.json",
-        "--seconds",
-        "30",
-        "--memory-mib",
-        "512",
-        "--fraction-bits",
-        "16384",
-        "--max-root-bits",
-        "1024"
+        "@OUT@/character-head-zero-development.json"
       ],
       "research": [
-        "--output",
-        "@OUT@/derivative-packet-full-width-result.json",
-        "--seconds",
-        "180",
+        "--static-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43645177423-1-local_fourth_quotient",
+        "--factors-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43651096112-1-local_fourth_derivative_factors",
+        "--acceleration-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43654534244-1-acceleration_layer_mixed",
+        "--cache-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43665345551-1-character_head_minus2",
+        "--R0-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43649525432-1-g_first_translation",
+        "--max-seconds",
+        "240",
         "--memory-mib",
-        "512",
-        "--fraction-bits",
-        "16384",
-        "--max-root-bits",
-        "1024"
+        "1024",
+        "--integer-bits",
+        "8192",
+        "--max-terms",
+        "150000",
+        "--max-IBP-calls",
+        "500000",
+        "--max-cache-entries",
+        "500000",
+        "--max-summary-bytes",
+        "95000",
+        "--max-certificate-bytes",
+        "16000000",
+        "--output",
+        "@OUT@/character-head-zero-result.json"
       ]
     }
   },
   "publication_policy": "root-README15: no reproducible output payload in repository, Release or uploaded artifacts; source/parameters/run/output hashes only. Scientific scalar observations in the job log support a separately written conclusion.",
-  "rules_read_commit": "ec94abc10b11040f058d5c5bef2165d3cde777ca",
+  "rules_read_commit": "e6a012b8cb8e3da9ab1a0154dbb2d520e1960543",
   "root_readme_blob": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
   "topic_readme_blob": "d0432faff569c8e9af7ed4809847e12880976c11",
   "previous_private_actual_pull_time": "2026-11-15 04:28:52 UTC",
@@ -171,7 +196,6 @@
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
   "task_complete": false,
-  "development_not_previously_passed_for_these_recovered_bytes": true,
   "physical_growth_parameters": {
     "native_summary_stage": "metric_spectral_trust_growth_stage",
     "native_summary_filename": "metric-spectral-trust-growth-audit-summary.json",
@@ -212,42 +236,27 @@
     "generated_output_publication": "temporary execution only; persistent metadata/run/source/parameter/SHA and scientific conclusion under root README15",
     "final_post_dedup_artificial_check_receipt_not_observed_before_environment_loss": true
   },
-  "four_coefficient_parameters": {
-    "constant_state": {
-      "k": 0,
-      "h": 1,
-      "omega": 0
-    },
-    "original_eight_packets": true,
-    "step_origins": [
-      8,
-      10,
-      12,
-      14
-    ],
-    "left_bump_origins": [
-      1,
-      3,
-      5
-    ],
-    "packet_translations": [
-      0,
-      20,
-      40,
-      60,
-      80,
-      100,
-      120,
-      140
-    ],
-    "square_amplitudes": [
-      "7*A/B",
-      "-16*A/B",
-      "9*A/B"
-    ],
-    "one_width_parameter": "q_lambda(x)=q_raw(x/lambda)",
-    "strict_physical_strip_requirement": "[lambda,155*lambda] compactly inside I",
-    "only_real_part_gate": true,
-    "no_full_fourth_or_geometric_success_claim": true
-  }
+  "recovery_scope": {
+    "old_run": "43680023529",
+    "old_job": 132708447996,
+    "old_scientific_phase_returned_complete": true,
+    "old_scientific_model_and_gate_outcomes_not_observed": true,
+    "observer_failure": "development observation log exceeds 20 KB before science printing",
+    "same_growth_algorithm_and_arguments": true,
+    "new_raw_report_hash_not_expected_to_equal_old_hash": true,
+    "not_an_independent_second_scientific_success": true
+  },
+  "weight_zero_scope": {
+    "all_fourteen_families": true,
+    "complete_original_function_kernel": true,
+    "same_Gamma_and_D": true,
+    "old_N_projection_cache_only": true,
+    "at_most_sixteen_new_contractions": true,
+    "only_sixteen_missing_old_R0_roots_restored_with_original_hashes": true,
+    "positive_covariant_multiplier_condition_not_applied_to_full_H0": true,
+    "development_ready_not_previously_passed": true
+  },
+  "previous_private_API_observation_time": "2026-11-15 05:19 UTC",
+  "previous_private_API_observation_commit": "7863a4ab1373e4d507d6cd14cc3ce8ac91c96194",
+  "private_API_observation_is_not_an_actual_pull": true
 }

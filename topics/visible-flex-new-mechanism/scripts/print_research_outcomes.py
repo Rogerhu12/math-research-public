@@ -255,20 +255,23 @@ def format_outcomes(report, stage_name, stage, provenance):
 
 def print_development_diagnostics(folder):
     """Read only developer outcomes so a failed new interface is actionable."""
-    def booleans(value, prefix=""):
+    def booleans(value, prefix="", depth=0):
+        # Top-level assertions and the new checker's direct assertions suffice
+        # to locate failure. Nested toy trial dictionaries are machine data,
+        # not additional checks; do not expand their repeated true flags.
         if isinstance(value, dict):
             for key, item in value.items():
                 name = prefix + str(key)
                 if isinstance(item, bool):
                     yield name, item
-                elif isinstance(item, dict):
-                    yield from booleans(item, name + ".")
+                elif isinstance(item, dict) and depth < 1:
+                    yield from booleans(item, name + ".", depth + 1)
     for path in sorted(folder.glob("*-development.json")):
         raw = path.read_bytes()
         if len(raw) > 1_000_000:
             raise ValueError("development diagnostic unexpectedly exceeds 1 MB")
         value = json.loads(raw)
-        lines = ["DEVELOPMENT OUTCOMES: " + path.name,
+        lines = ["DEVELOPMENT OUTCOMES (top/direct assertions only; nested toy records not dumped): " + path.name,
                  "SHA256: " + hashlib.sha256(raw).hexdigest()]
         for key in ["schema", "completion", "passed", "check_count", "summary_bytes",
                     "stress_summary_bytes", "full_main_status", "full_main_error",
@@ -295,37 +298,41 @@ def main():
     args = parser.parse_args()
     if not args.results.is_dir():
         raise ValueError("the temporary results directory is absent")
-    print_development_diagnostics(args.results)
-    candidates = sorted(args.results.glob("*-audit.json"))
-    candidates += [p for p in sorted(args.results.glob("*-audit.json.gz"))
-                   if not p.with_suffix("").exists()]
-    if not candidates:
-        sys.stdout.write("No full geometric *-audit.json exists in this lane output directory. "
-                         "No candidate outcome is inferred; inspect the research-step failure if any.\n")
-        return
-    if len(candidates) != 1:
-        raise ValueError("one full geometric audit per lane is required for the bounded human log")
-    path = candidates[0]
-    stored = path.read_bytes()
-    stored_hash = hashlib.sha256(stored).hexdigest()
-    if path.name.endswith(".gz"):
-        with gzip.open(path, "rb") as stream:
-            raw = stream.read(MAX_DECODED + 1)
-    else:
-        raw = stored
-    if len(raw) > MAX_DECODED:
-        raise ValueError("bounded diagnostic reader refuses a report above 64 MB")
-    report = json.loads(raw)
-    if not isinstance(report, dict):
-        raise ValueError("an audit object is required")
-    name, stage = choose_stage(report, args.stage)
-    text = format_outcomes(report, name, stage, {
-        "input filename": path.name, "stored bytes": len(stored),
-        "stored SHA256": stored_hash, "decoded bytes": len(raw),
-        "decoded SHA256": hashlib.sha256(raw).hexdigest()})
-    if len(text.encode("utf-8")) > MAX_LOG:
-        raise ValueError("human outcome log exceeds 35 KB; no partial or silently truncated table was printed")
-    sys.stdout.write(text)
+    # Scientific observations are printed before optional development detail.
+    # A developer-log failure must not suppress the completed scientific log.
+    try:
+        candidates = sorted(args.results.glob("*-audit.json"))
+        candidates += [p for p in sorted(args.results.glob("*-audit.json.gz"))
+                       if not p.with_suffix("").exists()]
+        if not candidates:
+            sys.stdout.write("No full geometric *-audit.json exists in this lane output directory. "
+                             "No candidate outcome is inferred; inspect the research-step failure if any.\n")
+            return
+        if len(candidates) != 1:
+            raise ValueError("one full geometric audit per lane is required for the bounded human log")
+        path = candidates[0]
+        stored = path.read_bytes()
+        stored_hash = hashlib.sha256(stored).hexdigest()
+        if path.name.endswith(".gz"):
+            with gzip.open(path, "rb") as stream:
+                raw = stream.read(MAX_DECODED + 1)
+        else:
+            raw = stored
+        if len(raw) > MAX_DECODED:
+            raise ValueError("bounded diagnostic reader refuses a report above 64 MB")
+        report = json.loads(raw)
+        if not isinstance(report, dict):
+            raise ValueError("an audit object is required")
+        name, stage = choose_stage(report, args.stage)
+        text = format_outcomes(report, name, stage, {
+            "input filename": path.name, "stored bytes": len(stored),
+            "stored SHA256": stored_hash, "decoded bytes": len(raw),
+            "decoded SHA256": hashlib.sha256(raw).hexdigest()})
+        if len(text.encode("utf-8")) > MAX_LOG:
+            raise ValueError("human outcome log exceeds 35 KB; no partial or silently truncated table was printed")
+        sys.stdout.write(text)
+    finally:
+        print_development_diagnostics(args.results)
 
 
 if __name__ == "__main__":
