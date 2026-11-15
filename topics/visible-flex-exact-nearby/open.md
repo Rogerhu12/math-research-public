@@ -255,28 +255,24 @@ R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN
 不把moving97当physical有限谱。Cmean准确1/m；剩inner正是全B函数等式与该Cmean行。
 若以后真core+cap图在固定f的H3小球上连续且统一付这些trace门，C的紧far图可用Schauder闭合；
 该core图/两个实际trace门/设计ν相位目前尚未证明，L² cut与几何C0球均不自动支付。
-[E双侧正collar与实际残差H1迹](results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md)
-现证明真实两行L=∂r−d∂φ+aJ0∂φ的能量恒等：drift交叉项准确0，仅a_r进入；
-近似state的a_r/a完整含<f2>/m。与同metric repaired reference比较保真实mean/rank，
-只用unknown C0与known两角导数、完整F/Fφ付E19–22 H1 cut公式。
-两侧必须同一连续state；真实jump须单独lift/边界form，不能拿任意L²端跳当ordinary源。
-实际系数和源/body数值须使E21/22达到J的新15e−9/128门（selected reference再付J18已知cut差）；高8193窗口仍待。
-[H有限factorial与完整高cut门](results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md)
-已给同一双侧collar的finite N=8193能量、已知drift comm、ρ径宽/q!及完整14/9二三次费。
-H24–26实门给X_N≤2CE A_N；finite real差商使初始H1即可，不先假未知高norm。
-实σ≥2^-32及H32门将same-cut高差压在2^377904<2^393000，已付δZ已知高差；
-精确state的reference残差band288使完整高源≤exp(1152σ)||Pf0||，近似state仍付自身0..8193残差。
-H5b可只消费已知finite-band逐row A0/B1/D1，不能把未知C0当Wiener。实际低/系数/source门由7721 jets及原state包络消费，尚未过。
-[A更紧的collar低常数](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)
-现以max范数与真实两端Poincare/评价给CEsharp，完整向量GN保mean后给
-c2=b(6Mell+2M√ell+M1ell^1.5)、c3=6bell；A12三实门通过即沿用H全部高trace结论。
-χ外独立η门、approximate own residual、mean与双侧连续state仍必需；实际系数正在消费。
-[actual collar消费契约](notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md)已部署；SCI e39646a5/worker cfdb8ecd/manifest e6b4867f只复用D实际collar jets与7296原residual，91完整scalar case待首次Actions，条件H1 core及低γ门不冒已成。
+[E双侧正collar与实际残差H1迹](results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md)、
+[H有限factorial与完整高cut门](results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md)、
+[A更紧低常数](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)
+保真实两行能量、speed中的<f2>/m、完整mean/rank/χ外η与finite差商；两侧必须同一连续H1 state，真实jump独立lift，不能当ordinary L2源。完整式与原待付义务保46b3c697同open及原文。
+
+[collar消费契约](notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md)与
+[actual43714674603/1](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)
+已锁成功：child0/12门、91case全保、15pass＝ell2^-16/17/18×rho2^-20/24/28/32/36；1e−4及2^-16两个大球全部未过。
+SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24/reportc6c8969e，0旧target/FFT/残差/repair/Green重算。
+代表ell2^-18/rho2^-20的start<.060600、linear<.063560、nonlinear<.064962，完整四源及factorial门通过。
+若另已造同collar真H1解并在相应C0球，则same cut H8193差<2^377904<2^393000；高门不构成core存在。
+五个selected代表低H1充分门全false，最小界.000389113仍远大于J的15e−9/128；上界大不证明实际误差大。
+完整已知δZ cut shape/mean与未知correction须分列，实际低γ和core图继续。
+
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
-现给fδ=f0−δs0−∫(ΔFν+ΔAZ)，D正预算star-shaped使余项≤δ²B(d)/(2d)，不重其scalar。
-s0须原raw residual加A0e；连续Z的piece常offset径导0且raw接口Dirac准确抵消，fullmean保。
-collar避νbump的精确quadratic/cubic T2/T3分别保mean G<ζ>JZφ与全primitive，四source带96/160/224/288给R21/22低Fφ及完整factorial源。
-原f0连续centre repair、真实ordinary平方积分和actual低/高门仍分别消费；真f=0须先独立有同H1core，不能由此冒存在。
+给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
+collar精确T2/T3保全mean/primitive，四source带96/160/224/288给完整Fφ/factorial，actual已据原7296平方dr积分并保true mean。
+真f=0仍依同一实际H1core的独立存在；低迹和全部matching未由这次条件高门支付。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 
@@ -329,6 +325,6 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，12:21:47定时及12:19非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green末真pull12:24:20.569632→8fe36964673e78c8e9d503581e1038ee89aca2dc，两README diff空；H记完整SHA，终端恢复即pull查差。
+本机executor持续不可用，12:21:47定时及12:41非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green末真pull12:24:20.569632→8fe36964673e78c8e9d503581e1038ee89aca2dc，两README diff空；H记完整SHA，终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

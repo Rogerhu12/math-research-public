@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Actual collar：15个完整高阶迹门通过、低入口仍开放](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)：43714674603/1 child0/12身份门，完整91候选有15通过；最大已成C0球半径2^-20。另有同双侧真H1解时，原中心cut H8193差<2^377904；全部低γ充分门未过，0旧数学重算。
+
 - [CS：按shape/mean和两个伴随范数分付完整97行](results/R133-supplement-shape-and-mean-resolved-selected-parameter-cap-row-transfer.md)：精确角差只依ζ−j0〈ζ〉；旧K*L2≤108、导数≤2^16分别收费，给完整unknown-high/mean scalar row费，actual K*仍独立。尚未代入新的真实cut scalars。
 
 - [G actual：完整factored transport与companion源界](results/R133-supplement-actual-factored-transport-and-complete-companion-source-bounds.md)：43714194714/1 child0、25门、7/10完整term改善；first<5.536012e14、独立mean<3.338316e12、pair<5.536113e14，13first/8mean及全local逐字B。原两窗/mean/真实dr/root包络保；仅新scalar，不授strong-return。

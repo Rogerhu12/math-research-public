@@ -148,3 +148,9 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 两README在22fde7d52b9fbd8acc44643d220305ea1acc20b7亲核未变。新CS/06ec6f0a（12573B）由原Cδ真实adjoint与local moving identity逐式分账：U0/U1/V0/V1、真M及Wiener shapeS0，T=S0/12保fourfold primitive；known cap test的zeroth≤108与first≤65536分别使用，仅q1取导数费，完整local/primitive/mean/unknown-high和新capκ另付。newton独核CS10–26/28所有有理系数通过。final仅澄清前四输入可取pointwise bound（A0亦足），shape仍必须A0，CS9无范数混淆。无新数值运行，待同193 cut真实scalar后一次加入尚未执行的finite feedback。
 
 另亲读Green v4 12:34 process4b718094/39121B：真pull12:34:25.094824→c22c2e7e，两README空；future2480=1886旧+594新/past448/product560/groups0为各自最后报告，childreturn仍null，combined较早2464不当终值。
+
+## 2026-11-15 12:44:23 UTC — actual collar非空条件高trace域
+
+两README在74f5296a6aa06539580ecbd9591a1284e1984a4e亲核未变。root亲读43714674603/1完整42073B conclusion618bd148与16232B processdbe7fe24，12身份/覆盖门、91逐case verdict和5完整代表case全核；child0/math1.182760990s。15通过的ell/rho网格完整保于reportc6c8969e/11371B；两大rho全部失败不删。最大rho2^-20的各门严格通过，但只对独立已存在连续双侧真H1state给高cut。所有selected低γ充分门false，最后rho2^-36仅能付较弱2^-10邻域，不能冒low selfmap/core存在。
+
+17原pins/4历史文件全核；原7296/7721身份与mean保，无旧目标/残差/repair/Green重算。预Git完整stdout42819B/21082201；temp475142B/2d83b544不留data/artifact。末真pull12:36:41.678653→61679f18ef8986657e8d4f730e33364cc41acbb4两README空。元数据base198757478B，精确本次投影198808648B含4096余量，为该提交时点。12:41 root非FF即时真CLI仍无环境，fresh CAS第2次已成功；当前未有rule变化。H/open详细旧公式保46b3c697同路径，未取消条件或授权旧成功重算。
