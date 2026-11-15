@@ -1,11 +1,11 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 77,
+  "request_number": 78,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "Actual75 read all112x112 true-zero slope J entries as exactly diagonal and all three original targets as nonzero, but p=(0,0,0) was not tuned. Enable the existing unchanged R259 eight-step/12-backtrack candidate search with the same original four inputs. It is not a nonzero parent or a native/full-DN acceptance.",
+  "rationale": "Continue the real actual77 final candidate parameters with the unchanged R259 diagnostic. Its second Newton iteration exhausted the original twelve backtracks through 2^-11, with its last eight trials finite but rejected by the original merit rule. Retain eight candidate iterations and use the existing supported twenty-backtrack budget through 2^-19. No decrease, resonance, nonzero parent, native solution, or full-DN acceptance is assumed.",
   "scientific_entry": "geometry_20261114_small_core_resonance.py",
   "scientific_source_unchanged": true,
   "inputs": {
@@ -109,12 +109,12 @@
   },
   "diagnostic": {
     "parameters": [
-      0.0,
-      0.0,
-      0.0
+      0.09307073916632971,
+      -0.1321108634591744,
+      -0.1241786723386648
     ],
     "newton_steps": 8,
-    "backtracks": 12,
+    "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
     "interval_bits": 160,
     "interval_depth": 14,
@@ -144,7 +144,10 @@
     "large_amplitude_goal_completed": false,
     "original_scientific_acceptance_gates_changed": false,
     "existing_bounded_Newton_candidate_search_requested": true,
-    "candidate_search_is_not_a_BVP_acceptance_gate": true
+    "candidate_search_is_not_a_BVP_acceptance_gate": true,
+    "previous_actual_candidate_is_not_a_nonzero_parent": true,
+    "original_candidate_merit_and_domain_rules_unchanged": true,
+    "diagnostic_backtrack_budget_changed_only_from_12_to_20": true
   },
   "source_pin_scope": "Conservative local static import/literal-source closure plus exact descriptor sources and source-dependencies manifest. Some pinned helper files are not executed by this diagnostic. Restored public78 source bytes are checked by their original manifest.",
   "proofs": [
@@ -158,7 +161,7 @@
     }
   ],
   "publisher_revision_scope": "Only the smallcoreresonance lane choice is added to the frozen5a0216d0 publisher; scientific source is unchanged; ordinary pull/rebase/README checks/failure preservation remain.",
-  "requested_at": "2026-11-15T00:59:26.727393+00:00",
+  "requested_at": "2026-11-15T01:12:08.898223+00:00",
   "prior_diagnostic": {
     "run_id": 43660412919,
     "source_commit": "3a0646db263f224acd347432967b93239faa836c",
@@ -169,5 +172,32 @@
     "original_four_mathematical_inputs_unchanged": true,
     "prior_circle_reference_not_used_as_a_nonzero_parent": true,
     "native_or_high_core_Schur_or_transversality_claimed": false
+  },
+  "prior_candidate": {
+    "run_id": 43661078498,
+    "source_commit": "1200c13713b0a4ce4d125a0534610583223ed4ef",
+    "job_id": 132650310904,
+    "original_status": {
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43661078498-1-smallcoreresonance/resonance/resonance-status.json",
+      "bytes": 23659,
+      "sha256": "e003cc07e52789fa075289794f4bee76993b88cbdf1dc7b639a46872019fcc14"
+    },
+    "parameters_from_original_status_field": "final.parameters",
+    "parameters": [
+      0.09307073916632971,
+      -0.1321108634591744,
+      -0.1241786723386648
+    ],
+    "diagnostic_completed": true,
+    "scientific_candidate_success": false,
+    "previous_candidate_iterations_attempted": 2,
+    "previous_candidate_iterations_accepted": 1,
+    "previous_last_iteration_trial_count": 12,
+    "previous_last_trial_alpha": "2^-11",
+    "new_last_permitted_trial_alpha": "2^-19",
+    "original_four_mathematical_inputs_unchanged": true,
+    "original_frozen_scientific_source_unchanged": true,
+    "old_circle_or_warm_is_not_a_nonzero_parent": true,
+    "new_native_solve_or_high_core_Schur_or_transversality_claimed": false
   }
 }

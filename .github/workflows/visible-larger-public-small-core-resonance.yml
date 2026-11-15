@@ -13,7 +13,7 @@ defaults:
     shell: bash
 jobs:
   smallcoreresonance:
-    name: Search the original low-three resonances after the actual75 diagonal-J diagnostic
+    name: Continue the actual77 low-three candidate with the existing twenty-backtrack budget
     runs-on: ubuntu-latest
     timeout-minutes: 60
     concurrency:
@@ -40,6 +40,7 @@ jobs:
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43661078498-1-smallcoreresonance/resonance/resonance-status.json
     - name: Establish one independent diagnostic output
       run: |
         git config gc.auto 0
@@ -60,11 +61,11 @@ jobs:
         from pathlib import Path,PurePosixPath
         comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path.cwd()
         raw=(comp/'public-small-core-resonance-request.json').read_bytes();request=json.loads(raw)
-        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=77 or request.get('lanes')!=['smallcoreresonance']):
-            raise ValueError('Use the one explicit existing-source R259 request77')
+        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=78 or request.get('lanes')!=['smallcoreresonance']):
+            raise ValueError('Use the one explicit existing-source R259 request78')
         if request.get('scientific_entry')!='geometry_20261114_small_core_resonance.py':raise ValueError('Retain the frozen diagnostic entry')
-        expected={'parameters':[0.0,0.0,0.0],'newton_steps':8,'backtracks':12,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1}
-        if request.get('diagnostic')!=expected:raise ValueError('This request enables only the existing bounded eight-step candidate search')
+        expected={'parameters':[0.09307073916632971,-0.1321108634591744,-0.1241786723386648],'newton_steps':8,'backtracks':20,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1}
+        if request.get('diagnostic')!=expected:raise ValueError('This request continues the actual77 parameters with the existing eight-step/twenty-backtrack candidate search')
         required={'geometry_20261114_small_core_resonance.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_constrained_collocation.py','geometry_20261114_full_prefix_operator.py','geometry_20261114_direct_operator_cell.py','exact_20261114_public_resume.py','source-dependencies.json','root_20261114_publish_actions.py'}
         if not required.issubset(request['source_sha256']):raise ValueError('Missing required source identities')
         verified=[]
@@ -81,9 +82,19 @@ jobs:
             data=(repo/str(rel)).read_bytes()
             if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise ValueError('Original input changed: '+key)
             inputs.append(dict(name=key,**item))
+        prior=request['prior_candidate'];item=prior['original_status'];rel=PurePosixPath(item['file'])
+        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43661078498-1-smallcoreresonance/resonance/resonance-status.json',23659,'e003cc07e52789fa075289794f4bee76993b88cbdf1dc7b639a46872019fcc14')
+        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual77 status bytes')
+        prior_raw=(repo/str(rel)).read_bytes()
+        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual77 status changed')
+        prior_status=json.loads(prior_raw)
+        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual77 final parameter values')
+        if prior_status['input_sha256']!={key:item['sha256'] for key,item in request['inputs'].items()}:raise ValueError('Retain the same four original mathematical inputs')
+        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual77 consumed source bytes')
+        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual77-resonance-status.json').write_bytes(prior_raw)
         head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
         if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
-        (out/'request77-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,scientific_execution_claimed=False),indent=2)+'\n')
+        (out/'request78-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
         print(json.dumps(dict(source_commit=head,source_count=len(verified),input_count=len(inputs))),flush=True)
         PYPINS
     - name: Restore the original78 public numerical source files once
@@ -95,7 +106,7 @@ jobs:
         source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'small-core-resonance-original-source',Path(os.environ['VISIBLE_OUT']))
         with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
         PYSOURCE
-    - name: Execute the original eight-step R259 candidate search and full reference checks
+    - name: Continue actual77 with the original search rules and twenty backtracks
       timeout-minutes: 45
       run: |
         python -u - <<'PYDIAGNOSTIC' 2>&1 | tee "$VISIBLE_OUT/small-core-resonance.log"
