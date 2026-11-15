@@ -16,9 +16,9 @@
     2232
   ],
   "completed_bundles": null,
-  "completed_quarters": 105,
+  "completed_quarters": 211,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 105,
+  "new_completed_quarters_this_child": 211,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 2087,
+      "index": 2193,
       "request": [
-        521,
+        548,
         4,
-        3
+        1
       ],
       "interval": [
-        "33889899945937107/36028797018963968",
-        "529563893683687/562949953421312"
+        "34095689428910005/36028797018963968",
+        "17048939339364433/18014398509481984"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[2.3170653069498449113391828898393981e-16 +/- 1.66e-51]",
-        "lower": "[2.3170653069498449113391828898393981e-16 +/- 1.66e-51]",
-        "mid_float": 2.317065306949845e-16,
+        "ball": "[4.6204832766443424884948072993587764e-17 +/- 4.06e-52]",
+        "lower": "[4.6204832766443424884948072993587764e-17 +/- 4.06e-52]",
+        "mid_float": 4.6204832766443425e-17,
         "radius_upper_float": 0.0,
-        "upper": "[2.3170653069498449113391828898393981e-16 +/- 1.66e-51]"
+        "upper": "[4.6204832766443424884948072993587764e-17 +/- 4.06e-52]"
       },
       "exact_array": {
-        "bytes": 345497,
+        "bytes": 346096,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-2087.npz",
-        "sha256": "b8a6178d646e9d15679aa7ba5a387eb8112bf9e22da19647003f2428b7956a2f"
+        "file": "adjoint-quarter-2193.npz",
+        "sha256": "71abcfddaf177f3e94cf3d77de0a89f5a5d3412d2831304852facadb42805841"
       }
     },
     {
-      "index": 2088,
+      "index": 2194,
       "request": [
-        522,
+        548,
         4,
-        0
+        2
       ],
       "interval": [
-        "529563893683687/562949953421312",
-        "8473569611393707/9007199254740992"
+        "17048939339364433/18014398509481984",
+        "34100067928547727/36028797018963968"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[2.1938202573840285451416185061672188e-16 +/- 1.98e-51]",
-        "lower": "[2.1938202573840285451416185061672188e-16 +/- 1.98e-51]",
-        "mid_float": 2.1938202573840285e-16,
+        "ball": "[4.6231417243089375139936310043658935e-17 +/- 1.24e-53]",
+        "lower": "[4.6231417243089375139936310043658935e-17 +/- 1.24e-53]",
+        "mid_float": 4.6231417243089375e-17,
         "radius_upper_float": 0.0,
-        "upper": "[2.1938202573840285451416185061672188e-16 +/- 1.98e-51]"
+        "upper": "[4.6231417243089375139936310043658935e-17 +/- 1.24e-53]"
       },
       "exact_array": {
-        "bytes": 345692,
+        "bytes": 346059,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-2088.npz",
-        "sha256": "6b8027b36f1d0920911eeee29f9dc3679dc81dbc420a3151b19aae99783ddd4a"
+        "file": "adjoint-quarter-2194.npz",
+        "sha256": "c9c4446a268dd790c425636c28a2fa836e8dd5f781642595f63ee8d4c978d2ee"
       }
     }
   ],
-  "native_sha256": "2558ee112ea437a6be6dfc8838103c44a023947ac9117e5988f04d4636dca97b",
+  "native_sha256": "c7d9de4ccc8003828629831615a86868ea6a9a3e1705fb81f9a6bdb722ff90ce",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:15:31.152930+00:00",
-      "before": "50f99e25af713d0fa4070efbf0d43d70b576d9a8",
-      "after": "ed32f322544e522739a0e506d07d3a810cbd2acf",
+      "time": "2026-11-15T02:25:39.843528+00:00",
+      "before": "de5e23b437f486e9beb5ae2d48dad1610905f90e",
+      "after": "b09c739a61a177fd3834008712a620168ff3cbdf",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
