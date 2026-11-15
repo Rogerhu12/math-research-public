@@ -16,9 +16,9 @@
     5456
   ],
   "completed_bundles": null,
-  "completed_quarters": 91,
+  "completed_quarters": 185,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 91,
+  "new_completed_quarters_this_child": 185,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 5297,
+      "index": 5391,
       "request": [
-        1324,
+        1347,
         4,
-        1
+        3
       ],
       "interval": [
-        "30095304509903339/18014398509481984",
-        "15053281754485883/9007199254740992"
+        "15531789214893999/9007199254740992",
+        "3884354678607053/2251799813685248"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[2.4632470463137337244126664940229210e-22 +/- 2.84e-57]",
-        "lower": "[2.4632470463137337244126664940229210e-22 +/- 2.84e-57]",
-        "mid_float": 2.4632470463137337e-22,
+        "ball": "[1.3021063199322404101764510702637565e-22 +/- 9.15e-58]",
+        "lower": "[1.3021063199322404101764510702637565e-22 +/- 9.15e-58]",
+        "mid_float": 1.3021063199322404e-22,
         "radius_upper_float": 0.0,
-        "upper": "[2.4632470463137337244126664940229210e-22 +/- 2.84e-57]"
+        "upper": "[1.3021063199322404101764510702637565e-22 +/- 9.15e-58]"
       },
       "exact_array": {
-        "bytes": 344566,
+        "bytes": 344856,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-5297.npz",
-        "sha256": "db5d63f23b798dc1c594c710a0fe759d02efc01fa570827abdce1d9b8fc35e7b"
+        "file": "adjoint-quarter-5391.npz",
+        "sha256": "23dbc78b3c7ff37d7947919d0d033fb6fdd6679498b5d37b323e3ddaae7f6fb5"
       }
     },
     {
-      "index": 5298,
+      "index": 5392,
       "request": [
-        1324,
+        1348,
         4,
-        2
+        0
       ],
       "interval": [
-        "15053281754485883/9007199254740992",
-        "30117822508040193/18014398509481984"
+        "3884354678607053/2251799813685248",
+        "15543048213962425/9007199254740992"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[2.4630094523629186810259980195756846e-22 +/- 6.43e-58]",
-        "lower": "[2.4630094523629186810259980195756846e-22 +/- 6.43e-58]",
-        "mid_float": 2.4630094523629187e-22,
+        "ball": "[1.2402867743977272208463836335001532e-22 +/- 2.86e-57]",
+        "lower": "[1.2402867743977272208463836335001532e-22 +/- 2.86e-57]",
+        "mid_float": 1.2402867743977272e-22,
         "radius_upper_float": 0.0,
-        "upper": "[2.4630094523629186810259980195756846e-22 +/- 6.43e-58]"
+        "upper": "[1.2402867743977272208463836335001532e-22 +/- 2.86e-57]"
       },
       "exact_array": {
-        "bytes": 344539,
+        "bytes": 344875,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-5298.npz",
-        "sha256": "b59011d4f27026f292bc9175d1c62ae403c87f9071a200259a80ab994ad81145"
+        "file": "adjoint-quarter-5392.npz",
+        "sha256": "2822bc7cfc0fa5feb1158713f53c4b13be79504a5050549bc00dd890a4538f2a"
       }
     }
   ],
-  "native_sha256": "d29b8ad059852ee59629a8c8ae492d215174d5e2984dcebd443a687390a772af",
+  "native_sha256": "90490565881e81c93f22625a01df55251ad319041032f16f4ce504d23b66ae95",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:39:52.899620+00:00",
-      "before": "7181b75a7fdee17989c7f619d480770eae503560",
-      "after": "4bd08a02c0c3b06e4cbfb20fd54ffcc7b4fc2601",
+      "time": "2026-11-15T02:50:04.644943+00:00",
+      "before": "4bd08a02c0c3b06e4cbfb20fd54ffcc7b4fc2601",
+      "after": "efb3b6f4c89cf6dbe044d0ab38f422669ce786a4",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
