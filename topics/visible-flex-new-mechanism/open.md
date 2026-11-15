@@ -10,21 +10,13 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[103首轮](notes/entry-body103-first-actual-result-20261115.md)末η.26651075196396212；固定外峰余降不足，全部门/费用已归原note。
-
-### 159首轮已消费；下一成功SOC的严格条件持径
-
-[154首轮实际](notes/entry-tail154-first-actual-result-20261115.md)43694686825/source71744524/job132752541415已全消费；B103/T51、九height固定，同g/b0/163/c0原盒。四必要前缀后η.26653564958657405→.26652257791835787，8主/5接纳/0SOC，未刷新103。支持锁峰已消除，末全门过而.26未到；恢复漂移及全部费用/失败门见原note。
-
-[五高度完整设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)已付：从[原九高度null核](notes/same-g-nine-height-zero-integral-entry-directions-20261115.md)选入口3+尾2，154切向+5=159独立坐标仍在原163物理族。入口.603后恢复，尾两列在末开片Wronskian严格正；.78可取D=0而D′非零，此时该点metric/normal不变、仅II径向增n_z D′。当前原盒及紧曲率特征投影须在必要初始化内实读，不授可行或下降。
-
-H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
+[103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)与[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)均已消费，完整原门/失败/恢复漂移/费用保原note，不重跑。[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)给原163族内159独立坐标、准确H/盒/原物理步长；首159新阶段η.266520536442→.266491207122，m6细网曲率由SOC修回而下一B缩半，.26/1e−4仍欠。
 
 [成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)与[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c：18新检查过，两个固定容量保全部旧ID/余槽；η.266513719074→.266474122294→.266443965488，各11primary+1SOC/活动94.195与86.885秒。末m11全17guard真保B.000125，但配额尽，没有使用heldB的后继模型。全部原门保而.26/1e−4未达，旧失败/漂移保原notes。
 
 [选行J首次完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16：三新开发组过，唯一新stageη.2664285858004584→.2663989905276839，原双网14门与准确物理盒过，11primary+1SOC/10新接受。active43.32511秒、七恢复1175.76681秒分账，coarse/fine J7.32903/15.96631秒且无旧全J张量；旧projection文字标签不授实际调用。m5持径由m6真使用，但m6 ratio.11484、m8新增1+5行且fineη反升，不能宣优于旧法。**下一根据真实m6/m8缺陷构造新metric模型或真实自由度，不能延原预算/机械重跑同stage**。首开发漏人工键失败保留，45/97来源与24输入全吻合；仍欠.26及最终1e−6/全时reach。
 
-[仿射谱五源与首运行接线](notes/affine-spectral-implementation-and-first-public-run-20261115.md)已冻结50源码/98参数/24输入。只仿射化e/f并保谱norm曲率，cuts全计原12LP/40值/120秒。首run43722283235/bb33192/job132836684400在行，前置pull过；新开发后八必要输入各一次、唯一新stage，尚无可读passed/实际结论。下一消费所有新开发原结果、两网原门/盒/eta/费用和逐trial两误差/遗漏/ε、SOC同step两预算及实际controller，不重复旧factorized科学或冒m6主因。
+[仿射谱五源与首运行](notes/affine-spectral-implementation-and-first-public-run-20261115.md)43722283235/bb33192已完成。直接读原log：35新人工全过；新η.266419188→.266401179，两网14门/准确盒过；8模型/12LP/0SOC/7接受、40cut、18+2值，active16.997316秒。八恢复569.558425秒独立。m6新增5fine软行、遗漏模型峰主导误差，同时原已选曲率四行失败；m5选中e/f非线性主导。**下一先完整归账50/102来源与24输入，再设计固定center两网affine-e/f方向分离器，发现漏峰才补选J/cut，仍原预算和真门。** 无SOC实际不能授新路径通过；不延预算或重跑已付stage。
 
 ### 仍须支付
 
@@ -161,3 +153,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R275](results/R275-first-moment-obstruction-for-the-small-width-two-slope-family.md)保原self/Green和J(xDρ)，证明原小h、ρ0/20、A≥10两坡正幅族若S0即Z/k>0；只改旧中心无效，不排一般圆。
 
 [R278](results/R278-third-slope-gap-masses-break-the-first-moment-halfplane.md)加入a²/b²=1的真实gap包，准确ΔS0、Δ(Z/k)<0。五簇同宽q正权配0/2/4矩支付新增local门，原四变量真实IFT仍保三矩/全third/六能量和指定旧面积；有限A/N容量使S>0>Z/k，Q±仍可正幅配零。**下一必须联合ΔY1=ξ0Δ(Z/k)及另一Z even的Rshape总项，不能搬旧R271混合或把负方向当完整面积解。**与R277等背景/同F机制并行，优先处理其余准确ordered条件。
+
+
+### R285 后续：全部对称乘积的真实基线与新 shape 控制
+
+[R285](results/R285-principal-splitting-of-symmetric-Gaussian-products.md)准确分离30对称外矩的三阶平方主项及保全尾的C²余项。固定母包/单χ/全部copy时，连Lc/Mc的32必要量主向量只在次数≤10位置空间，span≤11；下界5来自R284。下一计算原mixed外矩和新shape的独立比值，或求真实左核兼容；不能把C²余项称旧F已经固定，也不能凭增加同χ位置宣完整控制。未付全部角、0/1层、canonical period/同w和主几何门。

@@ -414,3 +414,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R284 完整证明](results/R284-six-alternating-packets-pay-the-square-history-and-even-energies.md)在R280两个实际编码中选索引0,1,33,34,49,50的high/low交替包，保全部实际copy权和偏移。五量(-H0,-H1,-H2,Lc,Mc)的principal位置多项式可准确行化成1,x,x²、原monic九/十次q9/q10；任选五实际列的首式为2520X12乘Vandermonde，低系数只入低次。一次选大有限共同X，六删列minor同号，交替λ的cofactor核严格正且rank5。对任意完整基线（含H2低阶正项）加有限正核，得到严格正平方幅根；没有实际负包。
 
 全部位置/权及幅盒先定，再用同F N^-3族对五个完整量的C¹收敛、固定第六幅后的五变量可逆Jac，选一个有限N取得准确根。五个最后完整block逐一做，原72面积、三矩/全third保持，H0/H1/H2/Lc/Mc全零；原odd与共振身份给六能量全零，R282准确iff给整个E−3²全θ系数零。R281解析母包/纠正方向可从最初同选，同一次有限N也保prefactor全区正，故canonical端有限门适用但没有支付其值。root全文核实际位置、copy多项式、2520首项/符号、正锥与完整有限N根及解析连接。余九乘积、0/1、period/同w及主几何门仍欠。
+
+
+## R285：全部对称 Gaussian 乘积的主项与单振荡形状的位置上界
+
+[R285 完整证明](results/R285-principal-splitting-of-symmetric-Gaussian-products.md)对P/R/S/L/U/V六个真实二次输出逐式给出三阶系数α与低阶β。任意含u‴一次的多项式真history积分由保端原primitive准确降至C²；R259 Euler配对以紧cutoff定义合法变分，真实Green尾均入明确C²余项。对称嵌套组合的主项是负平方配对，实际不交包的30原外矩因此为−Σa_i²d_i∫x^jαrαs(u_i‴)²，加完整C²余项。12odd包装后主项只有sin²θ，余项未称角上为零。
+
+固定母包与一个χ、保所有actual副本权/偏移时，三十外矩加Lc/Mc的高频主向量是至多十次的位置多项式，位置span≤11；R284五量给下界5。完整有限N映射在同F族C¹趋于真实基线加这些主向量，基线中的新C²量不冒旧F精确常数。任何主左核仍需真实基线兼容，单加同χ位置不能绕过；没有声称完整秩、全finiteN不可能或主课题完成。root与tail全文独核，新增紧cutoff说明保原合法域。
