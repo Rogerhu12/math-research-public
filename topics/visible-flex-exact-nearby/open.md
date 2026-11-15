@@ -6,6 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
+本轮缩写的全部逐字前页/运行/域/源单位/恢复链保24b285f5a474916a6ba5199b547bc570785e0af7本路径及HANDOFF/log；仍逐项有效。
 
 ## 1. 总验收与同一个对象
 
@@ -68,9 +69,7 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 phase_inverse负责。压缩前逐字链见40eb0b261e814cca22243beed1f7c7c5f60791b6本路径第3节及各原报告：全部输入、success/失败、恢复身份、域/源单位和未付义务继续有效，不授权旧成功重算。
 
-共同势43685624307、旧圆43688459733、signed根43692226895、whole Taylor43694458725、S43698106023、G15 43700281022、C43702688640、D43703879926、P43709396175、B43711480764、L2 43711568963、G43714194714全部成功锁。完整1328/六profile、9词/5mean、1079真实seam、653ledger及2547/2551原链保；root/FFT/fold/Taylor/transport/profile/径积分只恢复。
-[G完整有序源](results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md)、[V完整genuine列](results/R133-supplement-genuine-negative-reference-column-operators-and-complete-source-ledger.md)、[C正线性复用](results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md)保持不除T的μC、piece2549完整复域、两signed两column/mean、三circle maps/近远Schur、21first+10mean、18coeff、两J窗/true dr/uncertain-root平方权。正预算lower仅算法数，不相减upper。
-[D两窗wholeword](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)保κ5/3/全部mean；B只raw1改善q1<.004848651663，L2新上界高于旧故q2=1。P/L/F准确局部与transport恒等式保K²=TI、E12第二分量、全rank n^-2、q=vg−vφp。G/actual完整g/y/q child0/25、44pin、7/10改善，旧pair<5.536113e14；后续仅以AJ/RV/DG/M对应整项更新。所有数学原字细账在上述40eb归档/原文，不授source-to-wave、strong-return或GH。
+共同势/root/whole Taylor/G15/C/D/P/B/L2/G全部旧success、1328/六profile/9词5mean/1079seam/653ledger/2547与2551的完整运行及恢复身份，逐字保24b285f5a474916a6ba5199b547bc570785e0af7本路径第3节；仅原输入恢复，不重FFT/fold/Taylor/transport/profile/径积分。
 
 [K真实径向参考两普通源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)
 已逐式付两源→density的一角增益，以及负body/固定严格负cut各一角损失。
@@ -80,15 +79,15 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [AJ角jets](results/R133-supplement-actual-retained-radial-angular-jets-and-complete-source-bounds.md)43718112378/1 child0/29、[RV径向消去](results/R133-supplement-actual-correlated-radial-local-source-bounds.md)43719681982/1 child0/27、[DG真实物理transport](results/R133-supplement-actual-direct-physical-transport-of-genuine-first-correction.md)43720766795/1 child0/27全部成功锁。完整原域/两sign/两J窗/全mean/七b1/七a1及T0=t+5dφ、fullrank n^-2/完整q与31账本逐字链保acfd93f713c8c678a9d2d1f9c3b32b6f70efaadd本路径本节/actual；首schema失败新预算0及restore也保，不重旧数学。DG dcc00d77/48ca7d65/cf4f0789给g1<2.119337e9，RV raw2<4.317610e8；各historical聚合数只由后续相同整项更新。
 
-[M真实第一local actual](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)43721735003/1 child0/23锁ea28b65a/b8588530/5f1ad2e5；10mixed/2角4新、14低jet读，八物理项/μ/V/Xi/b0/T可去/C算法lower均保。七非E供ER原字复用；全旧数值/域/26pins及30原字DG、74报告球核记录逐字保0feed2604bdaf77248fe148dedc8177873248256本路径原段/actual，禁止重成功mixed，非GH。
+[M真实第一local actual](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)43721735003/23锁ea28b65a/b8588530/5f1ad2e5。10mixed/2角4新、14低jet读、八物理项与74报告球核；七非E供ER逐字复用。全部旧值/domain/26pins/30原字DG保24b285f5a474916a6ba5199b547bc570785e0af7本段及actual，成功mixed禁重，非GH。
 
-[S1第一列三项](results/R133-supplement-saved-genuine-first-column-and-density-one-SV-sources.md)及[actual43724817779/1](results/R133-supplement-actual-saved-genuine-first-column-density-one-SV-sources.md)成功child0/21/math.137826385，report12263fd8/execution10784516/resultecca2b9a；77pins/23AST。DG/RV六零宽joint Wiener仅读、18coeff一次A给Γ1=M1<134108.745；三density1整项SV<3.856841e8/V0mean<2667512.738/uJB<229898.081，pair<2.054790e10、mean<1.641138e8。其余28逐字ER、local及所有density0保，54报告球核；六dr行/完整wholeword/mean不重不漏，无extra1/n或旧math，非GH。
+[S1第一列三项](results/R133-supplement-saved-genuine-first-column-and-density-one-SV-sources.md)、[actual43724817779/1](results/R133-supplement-actual-saved-genuine-first-column-density-one-SV-sources.md)child0/21锁12263fd8/10784516/ecca2b9a，77pins/23AST。DG/RV六零宽joint Wiener仅读，Γ1=M1<134108.745；仅三density1整项更新，另28逐字ER/local/density0/六dr/wholeword/mean保、54球核。pair<2.054790e10，所有细值/域/无extra1/n/旧math0保24b同本段和actual，非GH。
 
-[ER保leading根零](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)及[actual43724065270/1](results/R133-supplement-actual-retained-leading-root-zero-and-local-E-row.md)已成child0/20/math.00641225，reporte906656c/executiondedbfcad/resultbb00c78d；23pin/7AST。b0=T²b2固定X导数，SE3/256像margin>.0039059077，Ehol<.268118560/Eoperator<3213786.797，七M非E原字相加。仅raw1降至4.348065e8、local<8.700621e8、first<2.641736e10、pair<2.641789e10；mean<1.675903e8/非local和其余30逐字SV、完整径权/cover保。root全20门/31账本/7原项与91报告球核源，M mixed/fold/旧math0，非GH。
+[ER保leading根零](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)、[actual43724065270/1](results/R133-supplement-actual-retained-leading-root-zero-and-local-E-row.md)child0/20锁e906656c/dedbfcad/bb00c78d，23pin/7AST。b0=T²b2固定X/SE3/256像门，七M非E逐字相加；仅raw1<4.348065e8、local<8.700621e8，另30逐字SV/91球核。完整数值/域/aggregate与来源保24b同本段/actual，成功mixed/fold禁重，非GH。
 
-[SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)及[actual43722805762/1](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)child0/23锁75c453c0/ba96a483/9a31404f；B_jw0保y²/y³、径G/fullmean/physical n^-2一次，Γ0<630.625/M0<604.966。三density0 SV<1.813617e6/V0mean<12033.167/uJB<1081.059；28原字M、58报告球核。inversegap只physical n≥388非独立complex-z。SCI/69pin/20AST、完整两窗/18coeff/六dr和原聚合逐字保0feed2604同open原段/actual；旧math0，非GH。
+[SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)、[actual43722805762/1](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)child0/23锁75c453c0/ba96a483/9a31404f，69pins/20AST。B_jw0完整y²/y³/径G/fullmean/physical n^-2一次，三density0整项更新、28逐字M/58球核。只physical n≥388逆gap，非独立complex-z；所有旧数值/完整两窗/18coeff/六dr与域保24b同本段/actual，旧math0，非GH。
 
-[HP准确normalized p列与十h整项](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)8101e7e6：B_jp0精确principal W(sTy,−x)和完整y³/y² rank correction，原physical Δgap/fullmean保；新W四jet/Bp0八jet，h1的DG p六jet仅读。两density按η^-1原窗支付SQ/RQJL/rQmean/uJL/uh共十整项，六dr行/三wholeword不重inner factors，其他21原字保S1+ER。root全文/HP6–8符号核，newton独核HP13–22；数值门待新public消费者。
+[HP准确normalized p列与十h整项](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)8101e7e6已独核；完整principal W(sTy,−x)+y³/y² rank correction、两density η^-1及六dr/mean/三wholeword保，其他21逐字S1+ER。现部署SCI bacbc58b、worker7e7641db、82pin manifest12f93b00、flowec45c632；77原pin零改/7083579B，25实际门与15新A待回执。原SV==DG gap不改，RV重新编码只验正且不代入算术；未部署前已修身份门。
 
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
 原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。
