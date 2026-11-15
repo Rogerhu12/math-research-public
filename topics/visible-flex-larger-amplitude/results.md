@@ -459,5 +459,5 @@
 
 ## 2026-11-15 — Request191：独立39真实查询、非连续H凝聚和原八批链
 
-[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，R404留真实结果。
+[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，run43766271165/source7891ee252147194137c2a933b6407a7c2c0ac19f、compute132971948907已入原science；exact唯一终态R404。
 

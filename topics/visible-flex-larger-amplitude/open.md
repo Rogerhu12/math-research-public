@@ -41,7 +41,7 @@
 
 [R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)与13361B/b7a5f7e6 adapter已付具体非连续支撑实现：R270本已允许任意L，原8479 binder只接连续；191真实32节点459/460/462…491/10819 coords，不补零B461。内部33-node cover11266全仿射front，完整Qᵀ先消free461/338列，余10928再原109core/local QR；纯global/原g/常数全保，原完整H恢复在461仍rhs=−g、其梯度仍属于E。准确同Schur问题而非相同浮点词，旧所有readback/门不变；实际耗时/误差/FD/接受未付。191八对原完整入口已发布，单90KB全链/静止读回保。
 
-[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，R404留真实结果。
+[191完整入口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)十新件已全读发布，原97来源逐值保→recipe103+worker104。真98另起39/RIGHT459实际fraction/完整79872B/32node10819，461自由完整仿射消元；每批原model→真新warm→完整FD，最多8批，原17α/1200/600/90/30及10500between/175step/195job不变。单90KB全链必要先持久保存再移动/退休raw；所有原trial地址/FD门/未记录与未启动分开，超限70不拆包。原3b8不改，worker恢复前登记真实session/start-time/run/source；always只处理可确认own组，确认静止才读，cleanup另fresh无signal核静止；未知归属保raw不读删。无新科学门，run43766271165/source7891ee252147194137c2a933b6407a7c2c0ac19f、compute132971948907已入原science；exact唯一终态R404。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)保a>0与P=a²|d×e|²−ν²|d|⁶、八次/Bernstein及453 Hermite全RHS缺陷。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model+新warm FD先尝试，再全75776行×17×九系数诊断；6000/1800/180及未访/字节责任保。
 

@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:54:56 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7891ee252147194137c2a933b6407a7c2c0ac19f。
+规则同步记录：2026-11-15 21:57:30 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f178cbfc6f8f43e4b39a58c6d627a0dae4d90e76。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -25,7 +25,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact：compute132955840323原science；真98/37/FD→629gap/全闭段，105pins|
 |189/R401|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a|geometry：compute132959791013；真185/16×8全3normal、119+13pins/49闭包/2400总时钟|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
-|191/R404|十新件完整入口本次刊，待官方run绑定|exact：真98另起39/RIGHT459、10819局部/461自由全仿射消元、原八批/FD；103+worker104|
+|191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |R400 /193/R408|四源/证明本次刊；193真实453→450入口准备|amplitude接真实currentH/FD/fullDN两阶段；geometry补current-C径向/sharedB闭链|
 |192/R406|43765999581 /6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2|amplitude：compute132971102139已恢复原输入；77pins/全位224batch/全部原预算，186/190不改|
 
