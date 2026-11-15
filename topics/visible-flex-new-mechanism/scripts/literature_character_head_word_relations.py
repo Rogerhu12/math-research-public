@@ -124,13 +124,26 @@ def source_identity():
             "old_research_entry_points_called":False}
 
 
-def bound_data(directory, spec, suffix):
+def check_export_identity(data,spec,suffix,identity_in_bound_manifest=False):
+    if data.get("schema") != spec["schema"]+suffix:
+        raise ValueError("bound export schema changed: "+spec["lane"])
+    keys=("github_repository","github_run_id","github_sha")
+    if identity_in_bound_manifest:
+        # Exactly this old completed finite certificate omitted the three
+        # duplicate fields. consume_bound already checked its exact main,
+        # receipt, producer, packed/raw hashes, and identical source_hashes.
+        if spec!=raw.FINITE or any(key in data for key in keys):
+            raise ValueError("only the exact original finite certificate has manifest-only run identity")
+        return "exact_published_main_receipt_and_artifact_hashes"
+    if (data.get(keys[0]) != REPOSITORY or str(data.get(keys[1])) != spec["run"]
+        or data.get(keys[2]) != spec["commit"]):
+        raise ValueError("bound export embedded run/source identity changed: "+spec["lane"])
+    return "embedded_identity_plus_exact_published_main_and_receipt"
+
+
+def bound_data(directory, spec, suffix,identity_in_bound_manifest=False):
     main, data, binding = raw.consume_bound(directory, spec)
-    if (data.get("schema") != spec["schema"]+suffix
-        or data.get("github_repository") != REPOSITORY
-        or str(data.get("github_run_id")) != spec["run"]
-        or data.get("github_sha") != spec["commit"]):
-        raise ValueError("bound data schema or run/source identity changed")
+    check_export_identity(data,spec,suffix,identity_in_bound_manifest)
     return main, data, binding
 
 
@@ -285,7 +298,8 @@ class OriginalInputs:
 def load_inputs(args, report, budget, ring):
     hmain,head,hbinding = bound_data(args.head_dir,raw.HEAD,"-original-expressions")
     lmain,literal,lbinding = bound_data(args.literal_dir,LITERAL,"-certificate")
-    fmain,finite,fbinding = bound_data(args.finite_dir,raw.FINITE,"-certificate")
+    fmain,finite,fbinding = bound_data(args.finite_dir,raw.FINITE,"-certificate",
+                                     identity_in_bound_manifest=True)
     pmain,pure,pbinding = bound_data(args.pure_dir,PURE,"-original-expressions")
     dmain,ddata,dbinding = bound_data(args.D0_dir,D0,"-original-expressions")
     cmain,point,cbinding = bound_data(args.point_dir,POINT,"-certificate")
@@ -350,6 +364,11 @@ def load_inputs(args, report, budget, ring):
         "point_107_sha256":raw.sha(raw.canonical(list(map(str,point_nu)))),
         "point_23_sha256":raw.sha(raw.canonical(list(map(str,point_y))))}
     report["inputs"] = binding
+    report["archived_finite_identity_location"]={
+        "run":raw.FINITE["run"],
+        "certificate_has_no_duplicate_repository_run_source_fields":True,
+        "identity_bound_by_exact_main_receipt_producer_and_packed_raw_hashes":True,
+        "source_hashes_in_certificate_equal_the_bound_main":True}
     report["scope_inventory"] = {"literal_original_basis_columns":77,"archived_R_columns":40,
         "new_normal_basis_columns":37,"old_pure_R40_recomputed":0,"old_31_pure_dependencies_recomputed":0,
         "old_70_literal_dependencies_recomputed":0,"old_J_and_D0_pure_targets_recomputed":0,
@@ -1136,6 +1155,26 @@ def artificial_checks(include_map_resume=True):
     return result
 
 
+def binding_only_checks():
+    """Only the newly observed old-manifest metadata contract, not old toys."""
+    old={"schema":raw.FINITE["schema"]+"-certificate"}
+    assert check_export_identity(old,raw.FINITE,"-certificate",True)==(
+        "exact_published_main_receipt_and_artifact_hashes")
+    for data,spec,allow in (
+        (old,raw.FINITE,False),
+        ({**old,"github_run_id":"different"},raw.FINITE,True),
+        ({"schema":PURE["schema"]+"-original-expressions"},PURE,True)):
+        failed=False
+        try:check_export_identity(data,spec,"-certificate" if spec==raw.FINITE else "-original-expressions",allow)
+        except ValueError:failed=True
+        assert failed
+    return {"all_passed":True,"artificial_only":True,"real_input_files_opened":False,
+        "old_nine_or_ten_development_checks_repeated":False,
+        "checks":{
+            "exact_old_finite_export_identity_is_taken_from_its_already_strictly_bound_manifest":True,
+            "missing_other_or_conflicting_embedded_identities_are_not_silently_relaxed":True}}
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ("head-dir","literal-dir","finite-dir","pure-dir","point-dir","resume-dir"):
@@ -1146,6 +1185,7 @@ def main():
     parser.add_argument("--finish-all-77",action="store_true")
     parser.add_argument("--output",type=Path,required=True)
     parser.add_argument("--toy-only",action="store_true")
+    parser.add_argument("--binding-toy-only",action="store_true")
     parser.add_argument("--max-seconds",type=float,default=240)
     parser.add_argument("--memory-mib",type=int,default=1024)
     parser.add_argument("--integer-bits",type=int,default=8192)
@@ -1170,7 +1210,8 @@ def main():
         parser.error("main budget at least12000 and below100KB; complete publication at most4.8MB")
     if args.max_total_bytes<=args.max_main_bytes:
         parser.error("reserve publication bytes beyond the small main for an exact state")
-    if not args.toy_only:
+    if args.toy_only and args.binding_toy_only:parser.error("choose one artificial entry point")
+    if not (args.toy_only or args.binding_toy_only):
         if any(getattr(args,key) is None for key in (
             "head_dir","literal_dir","finite_dir","pure_dir","D0_dir","point_dir")):
             parser.error("all six exact published input directories are required")
@@ -1189,7 +1230,10 @@ def main():
         "true_character_or_period_or_ruling_constructed":False,
         "limits":{key:getattr(args,key) for key in numerical}}
     try:
-        if args.toy_only:
+        if args.binding_toy_only:
+            report["development"]=binding_only_checks()
+            report.update(completion="complete",phase="only_new_archived_manifest_metadata_checks_complete")
+        elif args.toy_only:
             report["development"]=artificial_checks()
             report.update(completion="complete",phase="only_new_artificial_interface_checks_complete")
         else:actual(args,report,ctx,budget)

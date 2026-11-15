@@ -397,3 +397,5 @@
 - [R179：规范固定颜色words的普适原函数独立性](results/R179-universal-independence-of-fixed-color-remainder-words.md) — 任意小自由区间的余letter积分值张成全有限坐标；Euler最高颜色/2m jet系数逐级证明无非零零变分余密度。L个不交右侧packet开关提取最大词长，准确右锚符号(−1)^L与独立query jets迫所有局部系数零；固定collar、全ξ及真实q/qbar复化齐备。完成的规范两根表由R159给完整真函数核，旧pure只需原转换和语法即可复用、不重40。R177降为真实泛函iff杀完整核，仍待新实际；有符号查询不授实际负成本或相位控制。
 
 - [R177若通过全核时的真实字符与排除范围](notes/R177-conditional-true-character-and-geometric-scope-20261115.md) — 明确仅在77完整规范表与全部核赋值通过后，R163把单权赋值延拓为全U真实仿射字符，保八矩cocycle/同μ与原环境乘子修正。R109对同germ/frameI/M0真实路径给完整λV≥∫h^-2/4>0（允许T非零），不靠P1/大N近似。仅排universal或λ杀代入核的固定圆；R105/R96给存在faithful特选圆，非任意圆。条件未支付，未增加无条件存在/不可能性结论。
+
+- [共同word首次输入接口失败及窄修复](notes/character-head-word-first-actual-manifest-failure-20261115.md) — actual43674559905的9新人工完整过，真实阶段0.355s/0预算检查在旧FINITE export缺重复身份字段而失败。main/receipt、producer和gzip双SHA原已严格绑定；新源1629ff68只接纳该精确旧schema的manifest身份，另2项新人工过。未启动77列数学、不授任何核结论，旧失败原件保留。

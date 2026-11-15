@@ -479,3 +479,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 04:02:15 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交69d9ce86c573a5b2e4262f1336432c52bee96c81记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 04:02:28 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交5b81235bfa6c22d4321676997162b11a0f9bd9a6记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 04:04:17 UTC，Astra-new-mechanism-9974ea84：word首失败main/9toy全文、旧consume_bound身份规则与唯一修复diff全文已读；新源75634/1629ff68、2项metadata回执齐备，仅改准确旧FINITE export身份位置，不动六原件/数学。注册新人工入口后同30args实际立即派发，旧toy9不重，首失败明确保存。

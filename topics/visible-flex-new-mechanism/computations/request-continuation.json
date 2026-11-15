@@ -1,6 +1,6 @@
 {
-  "request": "shared-fixed-color-true-relations-on-the-published77-basis",
-  "created_at": "2026-11-15 03:56:09 UTC",
+  "request": "shared-fixed-color-relations-exact-legacy-finite-manifest-interface",
+  "created_at": "2026-11-15 04:04:17 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "character_head_word_relations"
@@ -13,14 +13,14 @@
     "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
     "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
     "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
-    "topics/visible-flex-new-mechanism/scripts/literature_character_head_word_relations.py": "8fd67984ef66bc43da2055b68f6d8b062dde260035668c4f565f9f105e344f13"
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_word_relations.py": "1629ff68dd4c4b8acb151939fdb2733f048d07b5f5f780f2013efd07ded2f0f4"
   },
   "jobs": {
     "character_head_word_relations": {
       "development": [
-        "--toy-only",
+        "--binding-toy-only",
         "--output",
-        "@OUT@/character-head-word-relations-development.json"
+        "@OUT@/character-head-word-relations-binding-development.json"
       ],
       "research": [
         "--head-dir",
@@ -59,7 +59,8 @@
   "independent_geometry_run": {
     "run": "43674194002",
     "source": "f2ee2cd884e86445c1c99ea91bd6f7c9ccc5dd48",
-    "lane": "metric_spectral_curvature_reserve"
+    "lane": "metric_spectral_curvature_reserve",
+    "status": "completed-success-reading-original-results"
   },
   "dictionary_independence_theorem": {
     "result": "R179",
@@ -70,5 +71,13 @@
   "previous_private_actual_pull_commit": "264aead1df6912097ceecbf13277cb0039cdf4ab",
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
-  "task_complete": false
+  "task_complete": false,
+  "previous_failed_actual": {
+    "run": "43674559905",
+    "source": "b2c4e202672c2e62b4059c93b3d9c26ada0d36cf",
+    "phase": "binding_existing_originals",
+    "exact_budget_checks": 0,
+    "nine_new_toys_passed": true,
+    "only_change": "Exact legacy finite export gets its identity from already-bound main and receipt; other identity checks and all mathematics unchanged."
+  }
 }
