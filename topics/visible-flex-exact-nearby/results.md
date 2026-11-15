@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **M actual 43721735003/1：直接第一局部项完成。** [完整报告](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)：child0/23门，10新mixed+2角4与八物理项给raw1<5.399608e10，first<3.714349e11/pair<3.714351e11；其余30项逐字DG，mean原字，旧成功数学0重算。report ea28b65a、execution b8588530、result 5f1ad2e5；root核74球/完整job。仍需真实return/high/core。
+
 - [宽正collar三角halftrace与独立窄高域](results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md)：单次迹用完整[.85,.95]三角cutoff，κχ=20；PE普通能量在宽域，MA的H8193只在同一state/同cut窄域消费。新增wide mean字段限制与NR/MC宽源正向重组不重旧H/target，仍需真实finite cut和左右body；没有扩大任何已付factorial域。
 
 - [真实第一局部残差的直接混合jet公式与新消费者合同](results/R133-supplement-direct-genuine-first-local-residual-from-negative-mixed-jets.md)：W已合并signed genuine w1V保持；DG/RV14低导只读，仅补10个negative mixed/正宽预算及角4转换。leading E先投正确第一行，直接展开完整D²/物理8项；原C正算法lower与六行真实dr只读，成功后只替DG raw1。尚无新actual数字，不授完整return/GH。
