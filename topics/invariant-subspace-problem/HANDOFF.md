@@ -23,8 +23,8 @@
 
 ## 活跃执行与恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，约20:14结束；每30分钟/每步/推前实际pull核两README。前16步actual完成，第17步真实第七高forcing入队60秒/2GiB（outer100），持续续接并在job结束前准备重建，不因时限停研究。request：notes/2026-11-15-r150-source-kernel-long-session-request-789f.json。
-- 本job tmp：infinity-small-original-projection-smith/temporary有Q/F31完整P state和系数；infinity-fifth-true-incoming-checkpoint有18第五链及两高核；infinity-complete-normal345-high-field31有实际31主元/DAG。第六tmp infinity-complete-sixth-two-projection-failures，binding835fcb2ddcede187e1be808472d23a9e5a12472108b1320ac795e13be7f2e917；全17pack逻辑SHA fb42c09d4509a1c323129be2888630f15e1864f5530f1ba3092c05a59629ae3d。第七保P7及新增extra6两代表、10incoming；先存全高/低原强迫，若高非零仅用已付31 DAG核必要相容。非零field余量可证Q不相容，零余量不算Q解或β7。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，约20:14结束；每30分钟/每步/推前实际pull核两README。前17步actual完成，第18步完整第七低1088×599入队180秒/2GiB（outer240），持续续接并在job结束前准备重建，不因时限停研究。request：notes/2026-11-15-r150-source-kernel-long-session-request-789f.json。
+- 本job tmp：infinity-small-original-projection-smith/temporary有Q/F31完整P state和系数；infinity-fifth-true-incoming-checkpoint有18第五链及两高核；infinity-complete-normal345-high-field31有实际31主元/DAG。第六tmp infinity-complete-sixth-two-projection-failures，binding835fcb2ddcede187e1be808472d23a9e5a12472108b1320ac795e13be7f2e917；全17pack逻辑SHA fb42c09d4509a1c323129be2888630f15e1864f5530f1ba3092c05a59629ae3d。[第七高已真零](results/R150-appendix-infinity-seventh-two-original-high-forcings-zero.md)：λ6 normal2有75非零仍全5100×2高forcing Q零，86632原lower产品/10incoming真；无需field DAG。phase8e9fb1e2（1451215B），probe outer781b00b3。完整低需prefix578/580/590后全核/八层乘回，不预填β7。
 - 全源码/参数/SHA/执行身份见各正式稿及notes/r150-source-kernel-session-789f/。二点父tmp two-one-true-q-second与子two-one-complete-q-third保原单位/全部链。旧43731615668/43731613530/43736746064/43702348535均结束，旧tmp不可假用；新job按原归档重建。根管main/H/open/results/log/逐结论实际push，代理只交冻结稿。
 
 ## 同一个w的边界：测试已控，完整返回仍开
