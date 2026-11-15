@@ -29,8 +29,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B，Rret Cs=−T0Rret−KJb、[T0,K]≤δ。未压缩残量单射，不能倒用压缩Sylvester。原eY∈E0、||eY||²≤||Y||²−α²、Rret*eY=(L+B)r，正主配对为μ²+α²。
 - **[强gauge](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** 同未来/末端/全旗保留，n+2h+R<Q；驱动误差付A_drvα，未付测试q_h(−T0)*eY。全局M/W锚用原Cg而非Boolean头，carry不删。
 - N/Y各自负轴领先12.5障碍及次阶安全放大已付。**[当前Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)**用τ14=12.5d³+26.75d²+…、R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(−d³/64+54d²)→0。完整右/裸/旗/首源g/零源都运输，新头Ĉ=ψ_m(C)/d0，g在Sb等范数距I≤2M0/h。整个左L未运输，不相减Gram。
-- **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω=d0F(B)/B，W_h=ω(B)^Ns，C=W_h L_linω(B)W_h^-1；Ĉ=V0 L_linV0^-1，V0仅在kerL_lin等于W_h。W_h四向固定强真空f；完整G=i*W_h*W_hi、forcing=i*f，Green输入是ω^-* [f−W_h*W_hiG^-1i*f]。G^-1不保原次数，不能拆估或把W_h用于全部Ĉ返回链。
-- **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
+- **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** C=W_hL_linωW_h^-1；Ĉ用V0，V0仅在kerL_lin等于W_h。W_h四向固定强真空；完整Green输入ω^-*[f−W_h*W_hiG^-1i*f]必须整体估计，G^-1不保原次数。全参数/旧缺口保[本次H](notes/2026-11-15-handoff-before-second-normal-envelope-789f.md)。
+- **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)：** L≥2d时平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真幂可代；加入早强位必须改A_rest/h/全部Gram。原连续尾固定f Green O(R³)及ordinary两费仍未付；特定Artin大列不下界真实Green。
 
 - **[Riordan实际返回配对](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** ê=P_ÊK^-*eY，误差≤C0²α||eY||、平均O(C0²h/Q)趋零；主项/q_h测试仍开，不运输L，Ĉ用V0。完整旧状态保[本次H](notes/2026-11-15-handoff-before-first-binary-schur-789f.md)。
 
@@ -44,7 +44,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 
 - [Dixon1085恢复身份](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit，18重建未返解；2751核心/1567DAG、逆与78MB活动槽保在{work}/seven-sparse-dixon-original，全部SHA见注。现36核存在已由585投影付清，显式29，不盲续算。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
-- 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。∞第二纯包络已实成；旧缓存定位仅找到两压缩forward/backward，无旧jet/reduction。零点第二纯包络亦全零、K77已付。已排selected-natural-first-connection-f31（30s/512MiB），原参数历史65KB只读临时恢复，全常项/自然一次/完整36余均核；尚未预填连接秩。
+- 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。∞第二纯包络已实成；旧缓存定位仅找到两压缩forward/backward，无旧jet/reduction。零点第二纯包络亦全零、K77已付。selected-natural-first-connection-f31在inputs因缺NumPy退出0.091968757秒，未添结论；primitive旧字节已临时落，代理正改只用FLINT/std库。已排∞第二normal三方向1088×595一次RREF（30s/512MiB），只给β2上界，不预填秩或重NF。
 
 ## 其余仍开
 
