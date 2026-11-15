@@ -109,3 +109,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **79同24重新建模请求：** [冻结接口](notes/2026-11-15-request79-same-twenty-four-query-relinearization.md)及[静态回执](notes/2026-11-15-request79-static-check.json)保存；workflow41fd5398/requestfb8985c3从真76新warm bba24c1f/原status a1a67b9a续一次。51源、24查询、7101支持、fullH/C外项、λ270、512/200、17trial、全部预算和FD不改；原半步LEFT466和MID486双失域不归因成单个漏查点。只更新父字节/透明gzip身份及历史别名，未执行本地科学，待实际run。
 
 **R277高核两端工具已证明：** [完整恒等式及消元证明](results/R277-complete-two-end-chain-determinant-and-high-core-elimination.md)直接入results/index。全部节点2×2链以伴随矩阵积给完整两端行列式，覆盖某些右块奇异的情形；高109必须逐个排零，现有零高残差并非排除齐次高解。所有右块可逆时再给原单位入口Schur，浮点有限系数/Arb声明实模型/真正尾导数不混用。独立全112/699消费者在准备；不等待它才继续80低三搜索，也不预称共振或非零BVP。
+
+**76完整字节附记已完成：** [原导出范围](notes/2026-11-15-actual76-completed-byte-reader-addendum.md)/[回执](notes/actual76-completed-reader-addendum.json)：reader43662815323/source4fcb0ab0真success，215domain/1396NPY、108condensed/38完整数组、14raw415120992B、71源；17primary关系与62源子集核同。五原报告、此前四公开报告及新warm均对应，11collocation/8mid载荷保全。全链QR因子仍原未导出；不重科学/不重下640MB，不改变79同24推进。
