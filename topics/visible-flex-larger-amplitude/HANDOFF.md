@@ -42,4 +42,4 @@ Storage3mjs482cdf9b/aec52b5a/8e0ec7aa/interface92bcf8a8 published/rootfullread:2
 SDK43668049747/source7181/job132671745626 success:formal046b929f/audit8b4aadec/readout6d00bbd2 published,all21originals+120checks innotes/public-actions-43668049747-1-native-live-sdk-build. Realpackage3876fc4e/lock9451fd2e266entries;cleaninstall+constructor only,no artifactAPI/science/supervisor. Never handwrite lock.
 /tmp separatetmpfs4.9GB,workspaceoverlay63GB;avoidrepeatlargeZIP. Immutablecompletedduplicates hardlinked onlyafterfullSHA+bytecheck,allpaths retained(receipt7e612c58);neverwrite raw. ZIPrelease receipts retained,no Gitobject/gc deletion. Agents /tmp,root soletransport.
 
-规则同步记录：2026-11-15 03:00:31 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 baa45856dce555fe578ea6f3669d136c404b01a5。
+规则同步记录：2026-11-15 03:01:29 UTC Actions publisher真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4424f9c45f8866f54872e876430b8a3dd56aec1b。
