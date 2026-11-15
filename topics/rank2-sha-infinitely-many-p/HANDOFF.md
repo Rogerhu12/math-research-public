@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：46265f06cdcff64427f430eba9ee4907e08b58f5；2026-11-15 16:59:06 UTC核两README无变。实际CI pull 2026-11-15 16:36:58 UTC/efa8df2dabb41e526474678c43c4577430ab96d7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 16:59:05 UTC仍无环境。最迟2026-11-15 17:20 UTC再实际pull。
+- 最近已读规则提交：3e09b82c51507b9ef0db6bb0467622556fe78e1a；2026-11-15 17:01:50 UTC核两README无变。实际CI pull 2026-11-15 16:36:58 UTC/efa8df2dabb41e526474678c43c4577430ab96d7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:01:49 UTC仍无环境。最迟2026-11-15 17:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 
@@ -14,7 +14,7 @@
 
 [压缩前全文](notes/2026-11-15-frontier-before-r792.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 R1–363、365–560、562–653、655–711、713–792、794–796已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
-root唯一metadata/ref写者。root续常数非零更高b与原指定配对；deep续R797 q0零低charge；theta续R798同E深真实二阶；literature续R793第四格/D°。
+root唯一metadata/ref写者。root续R799 q0非零全部b3窗口，窄producer执行待判；deep续R797 q0零低charge；theta续R798同E深真实二阶；literature续R793第四格/D°。
 固定E17及j0 E17/E24/E2312秩2已付；尚缺无穷不同p至少一条固定原J′非零。条件负矩、邻近来源、外部非零和有限p均非完成。
 
 ## 普通：原q、有限点行与全部中央外部
@@ -58,6 +58,8 @@ R790同原Pfact的完整首forcing由ρ_<s模p²、V/e及B_h=π_<h G̃(t,ρ)/p�
 R792不加mq0：q(t,0)≠0迫r∈{2,3,4}、k0及F0=λd^c。原Fp分别5/4/4个完整profile，r2仍原五型、r3/r4均tG∈W_b；接触是真非齐次矩阵。R788 b3强窗由此扩至q0≠0全部mq，包括mq1。q0=0则j=ordYq≤4r−12k−7≤45，F0=λd^cH且degH≤floor((f_j+C_j−r)/3)；r2恰q=Y qtilde/mq1，degH≤2，完整最低charge返回W_(3b+1)。移动根/0根全保，mq1的第三原w13行不能套R782运输。
 
 R795在准确h+1>B_b·C（充分h+1>B_b²）下付整个profile因子接触核恰kG，非恒定列全unit、真实第h行增广全unit。实际pivot给唯一Schur缺陷Δ，β_HP由Δ/p读取；含常数列至多一非unit方向，指数min vΔ，不认恰1。较小H0(C)在h>κ已有kF，不能替整profile降门；R790指定配对仍未判。
+
+R799待执行：q0非零强窗k0使s=2h+r；r3/r4的b3格为R788子格。剩真实κ9九列系统仅(p,h)=(293,23),(311,24),(317,25)，公开producer提交，未预认不解。
 
 ## 惰性原格和其他未闭主门
 

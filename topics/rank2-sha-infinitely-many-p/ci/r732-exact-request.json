@@ -1,16 +1,10 @@
 {
-  "request_id": "rank2-r791-original-j-only-first-return-20261115",
+  "request_id": "rank2-r799-original-b3-r3-r4-20261115170149",
   "checks": [
     {
-      "engine": "node",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r791-j-only-arithmetic-amplitudes.js",
-      "args": [
-        "--max-block=4",
-        "--taus=2,3",
-        "--with-b",
-        "--b-g-blocks=3",
-        "--neutral-degree=12"
-      ],
+      "engine": "python3",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r799-original-b3-remaining-windows.py",
+      "args": [],
       "include_stdout": true
     }
   ]
