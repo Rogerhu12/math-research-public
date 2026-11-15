@@ -48,7 +48,7 @@
 
 [R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。[140完整同job入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)现已发布52pins/f0ca0d43/00f1a43b/request1eb108e7/wfbd511de4，修首参数识别、实际stderr和原watcher传输。原actual91重新生成fresh64/R273/current128，清理前完整576×224新stage/全112boundary/混合338/独立audit；19200s总cap含绑定编译，保原science caps/父绝对期限及audit预留，完整/partial/未启动分列，native/fullDN仍false。不改137，不预言速度或误差界，不添fixture。
 
-[R314条件后验界](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)与[R325完整固定trace区间构造](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)已证明：整数向外、113root/225Gram、C正定和严格预条件逆界、全部226态/224shape+6独立几何列，primal形成/solve误差进入方向传播。C不冒F_e，真F=0、动态分支稳定、IEEE导数和全RK/端口/129248行另付；无实际证书。[完整三源消费者](notes/2026-11-15-R314-complete-field-interval-certificate-interface.md)已发表；150接线保全部列/未决/同job原件读回，不改140/145原门。
+[R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)/[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)付整数向外、完整113root/225Gram/226态/224shape+6环境、SPD/严格逆界及primal误差传播。[150完整入口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)五件已发58pins保原52，同jobfresh91→64J/R273→真owner→stage10/step0/field0全部230列320bits；19200总限/owner6000/cert9000+1650，原exit70/summaryfalse保留，全部JSON值与所有stderr逐字读后清。无实际界预填；C不冒F_e/真F根/分支稳定/IEEE导数，全RK/129248/112/338/physical及native仍另付，不改140/145门。
 
 ### 2C. 完整原场域约束与下一35查询
 

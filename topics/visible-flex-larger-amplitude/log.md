@@ -552,3 +552,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R328实际147准确构造与原九域未决
 
 [R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)全文付同次C/cut、R323 d=2^-19/e=2^-10/κ1/2、419pieces和基底452叶合法；九p完整300s检查仍12766terminal+13stack，不把success或编译profile冒合法场。三摘要compute/report原字同，width14295B/16e05d75与seam152147B/4c6cfc68全9段核回；418接缝仅207三jetword同，非准确C²判断。raw已清、pending具体坐标未输出，151重生并补全；无新DN/场/metric。
+
+## 2026-11-15 /root — 150同job真owner与完整固定字段230列严格消费者
+
+[150完整接口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)22079B/78e8a196及runtime40195B/44f88868、bridge17751B/476c8f78、request32920B/f6171df8、wf25462B/10277015全文/差异核即发；原52pins+6，三严格数学源和共用e609不变。fresh91/全J/R273/owner重生后stage10/step0/field0完整230列320bits，19200总限/cert9000+1650，逐原JSON值和全部错误字节先读后清；原70/summaryfalse与科学未决分开，无新fixture门/数值通过预设。
