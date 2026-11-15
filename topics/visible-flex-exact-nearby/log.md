@@ -218,3 +218,7 @@ helper仅每完整signed Laurent系数abs.upper后平方、总upper后sqrt，使
 新全三phase gap、H三导、24正functional系数/14读出、六scalar与五inhom成功；两参考列/全部mean/非零β根input diagonal/全τ27项和积分2保。error H−4/3→old-angleL2，density0仅H−1，density1 L2，extraD H−5/3；不将大上界当下界/障碍，不授physical CDar/incoming/全R0。第二consumer继续只读本成功结论并付J/L/B/eta−1/ng/q/freeR2/R3。
 
 runner末18:19:15.194323真pull e4527195767d1686aaf41b72d65e273241d975c5双README空diff，容量199872563仅当时publication非当前。H/open压缩前完整保31e2a9bf985007ac16a37778a040b944f9bcdd6a，所有旧scope/义务/失败/恢复保。当前只读双README核48af9824fa7a720141068ab2db4c8bb0e022b9d1。
+
+## 2026-11-15 18:28:37 UTC — SA已知selected端的准确物理配对
+
+同路径SA扩展到blobf7db2f18230e62d216f8a901b990bfd9e6d703c0/23561/SHA85e07aba2d895c160be6c307da9ff0740fb817bbad6f3813d0acf3242e0f35d1；原571f04全文不动，仅§7a。root逐式核SA29：−ζγδ−dδΔWB−aΔCmean−eLδ yL=−<zL,ΔWδL>−eLδ(yL−ΔLδ)，完整nonmean与mean逐项合并。SA30新tildeB只用原signed源/trueouter和known物理端差；SA26向量必须换tildeB，SA22左费改ELδYLδ，root明确文字。YLδ可取已付YL+||ΔLδ||，不假它小；ordinary/Gauss/outer仍用同原y/Yw/ρ/ZR，未冒全cap trial误差。已知端用SA19b两forwardΘδ/Θ0矩，完整exp/端点尾仍需新actual。ELδ≤EL0+有限96输入的(Sδ*−S0*)完整norm，后者未免费授予。旧formal/field/outer/EL0 Grams仅读，不重算。两README核0985dcf4dc2416f92d30f087aa7cdb0143a683b9无变。

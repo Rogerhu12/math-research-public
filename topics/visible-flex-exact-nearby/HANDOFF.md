@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 18:27:38 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 18:28:37 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 17:49:19定时/18:09两次非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤18:49，ref不冒pull；runner实际pull见SN及原日志。
-最近只读README核：48af9824fa7a720141068ab2db4c8bb0e022b9d1；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：0985dcf4dc2416f92d30f087aa7cdb0143a683b9；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保31e2a9bf985007ac16a37778a040b944f9bcdd6a同路径，递归908da2/3f716/96001/5fd5/c820全部旧档；原域/mean/单位/失败/restore/未付义务全保，成功禁重。
 
 ## 同一个对象与总验收
@@ -39,7 +39,7 @@ NF9c33e882完整散度N保两mean，Π96角导付384，值和真正Lipschitz分�
 CP actualca05fbe7：43741463694/1 child0/18+5+两组3strict成功锁，exec6865e7e8/reportd959ef60。full/tail κ.0019952502133/.00196507842537，det.24612876846/.25397668235；同域三窗四独立列/mean齐，νvolume非全ν，不授whole/high/入口。首失败未知进度、所有Hessian/单位保31e2。AR5b35ab58保Ef凸球κ只一次、exactmean、height7/25、非零affine及独立腰/high。
 CH1e443100已核：realH1图RC≤r e、RB≤rs+2re；norm-sum球ρ≤2^-10，RΨ差≤16ρd。actual97 E≤cCapκ||h||L2pair+7rs+114re，差≤linear+2^11ρH1sum；独立mean精确。unknown cutH1/physicalγ准入/wholecore待，fixedheight非tail导数。
 SR43da1e99：同CPA case对任意完整||K||≤κ统一，实际γ凸段割线放97左侧，highcut已在cY。右留chart128H1pair²/差2^11ρH1sum、affine/height7/25/high/waist；第五列用新CPA gY·NFell0，非旧κ0wY。SR19–21只后验，whole/H1/γ/height导数与五输入闭合待。
-SA24028994同What真值D0y=−Rphys+V RQ，Hessian准确消只用旧formalGram；完整97保outer/mean/jump/selected Sδ左缺陷。新IBP/forwardΘ三类128moments供97列，指数/径向尾仍全付；SA24 signedγδ/center差得bδ。新vector/合法LD,Lm/全部误差门待，原QR/7908 residuals禁重。
+SA85e07aba同What真值D0y=−Rphys+V RQ，Hessian准确消只用旧formalGram；完整97保outer/mean/jump/selected Sδ左缺陷。新IBP/forwardΘ三类128moments供97列，指数/径向尾仍全付；SA24 signedγδ/center差得bδ。新vector/合法LD,Lm/全部误差门待，原QR/7908 residuals禁重。 SA29–31新增准确端重排：known−<zL,ΔWδL>只需两个forwardΘ，误差−eLδ·(yL−ΔLδ)；ELδ须另付，Yδ不预设小，其余body/outer仍用原y。
 RW43729429382/15全部成功锁，1/2与3/4真实权值/内端/右C0原scope不改；RB physical pair-sum movingL2≤80，RC仅右[.9,.95] C0<8.2297e−5，非whole/H1。W known差≤13|δ|/200；samecut raw H1≤1.96875e−11足γA0<1e−9/128，若Green输出Q−Q0须另付δZ。
 MC/MA/NR/WC/DB/SB全部source/mean/bands/χ′/真f0及失败保81041a9e原档。MA仅五窄ρ/独立H8193；inputGram不授output/J288不删225..288。LC包装失败science44b4da07无损收、NCBD/NG成功禁重。
 NG54711e89：J96a1/200,N23；J288a1/1000,N76，整行非entrymin。宽ρ1e−4,J96 source+conditionalhigh<1.012e−11；真门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12仍待，cL真低cut、z同outer I0。same两侧H1/wholewideC0/真f0/mean/独立MA高域不可由conditionalhigh或右RC授。

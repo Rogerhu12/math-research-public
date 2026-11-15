@@ -391,6 +391,76 @@ $$
 $\delta f=(\delta y_B-f\delta s_B)/s_B$。若新 signed 计算本已对整个 height 球统一包围，不重复加入此差。
 单一 $\lambda$、mean-height span、waist 和 high body/cut 仍是原 SR 的独立列，本篇不删除或设置它们。
 
+## 7a. 将已知选定端差合入同一个物理配对
+
+本节只用真实帽输入 $\gamma=\bar\gamma_\delta$。记
+$$
+ \Delta_L^\delta=
+   \big(\Delta W_{\delta,B}(L),
+             \langle\Delta W_{\delta,C}(L)\rangle\big),\qquad
+ y_L=\big(y_B(L),\langle y_C(L)\rangle\big).
+ \tag{SA.28}
+$$
+由 $\zeta_\lambda=P_\perp z_{\lambda,C}(L)$、
+$e_{\lambda,L,\delta}=(z_{\lambda,B}(L)-d_{\lambda,\delta},
+z_{\lambda,C,0}(L)-a_\lambda)$，有准确恒等式
+$$
+ \begin{split}
+ &-\langle\zeta_\lambda,\bar\gamma_\delta\rangle
+  -\langle d_{\lambda,\delta},\Delta W_{\delta,B}(L)\rangle
+  -a_\lambda\langle\Delta W_{\delta,C}(L)\rangle
+  -\langle e_{\lambda,L,\delta},y_L\rangle\\
+ &\hspace{1em}=
+  -\langle z_\lambda(L),\Delta W_\delta(L)\rangle
+  -\langle e_{\lambda,L,\delta},y_L-\Delta_L^\delta\rangle .
+ \end{split}
+ \tag{SA.29}
+$$
+其中 $\langle z_\lambda,\Delta W_\delta\rangle$ 是完整 physical pair 配对。
+$C$ 的 nonmean 与 mean 在这一等式中分别相加；没有将 mean 置零。
+若帽输入不等于 $\bar\gamma_\delta$，右端还须保留
+$-\langle\zeta_\lambda,\gamma-\bar\gamma_\delta\rangle$。
+
+因此可用另一组完整已知 signed vector
+$$
+ \widetilde{\mathcal B}_{\lambda,\delta}^{f}
+  =\int_L^R\langle z_\lambda,R_{\rm phys}\rangle\,dr
+   -\langle Jz_{\lambda,B}(R),r_D^f\rangle
+   -z_{\lambda,C,0}(R)r_m^f
+   -\langle z_\lambda(L),\Delta W_\delta(L)\rangle .
+ \tag{SA.30}
+$$
+其准确误差是 (SA.16) 除去原左缺陷项后的全部项，再加
+$-\langle e_{\lambda,L,\delta},y_L-\Delta_L^\delta\rangle$。
+在 (SA.26) 中把 $\mathcal B_\delta^f$ 换成 $\widetilde{\mathcal B}_\delta^f$；
+同时 (SA.22) 的左端误差一项替为
+$$
+ E_LY_L^\delta,\qquad
+ Y_L^\delta\ge\|y_L-\Delta_L^\delta\|_{L^2\oplus\mathbb R};
+ \qquad
+ Y_L^\delta=Y_L+\|\Delta_L^\delta\|_{L^2\oplus\mathbb R}
+ \quad\hbox{是合法充分上界}.
+ \tag{SA.31}
+$$
+这里不假定新的 selected 差比既成 $Y_L$ 更小。主体 formal residual、
+nonlinear 项及所有右端误差仍作用于同一个 $y$，继续使用原 $Y_w,\rho,Z_R$。
+
+(SA.30) 的已知左项可由 (SA.19b) 分别在已知
+$(u_\delta,v_\delta,m_\delta,\Theta_\delta)$ 和
+$(\widehat u,\widehat v,\widehat m,\widehat\Theta)$ 上求值后作 signed 差。
+这样只用两个已知 forward angle 的完整矩；每个指数尾、径向/端点包围及
+$C_0=1/m$ 仍必须认证。没有新增未知逆角复合。
+
+左缺陷费也不消失。对同一个有限 $96$ 维测试输入，
+$$
+ E_{L,\delta}\le E_{L,0}
+   +\big\|(S_\delta^*-S_0^*)\big|_{\operatorname{span}
+                     \{\sqrt2\sin(4j\varphi):1\le j\le96\}}\big\|_{L^2\to L^2}
+$$
+是准确的 triangle 读出；后一个已知图变化须另行完整认证。
+原已成 $E_{L,0}$、formal/field/outer Grams 只读原件，不重算。
+本节重排只发生于同一真实截面的已知端项，未将全帽 $y$ 换成一个未经认证的新 trial error。
+
 ## 8. 可执行范围与尚未授予的数值
 
 后继最小公共消费者应锁定以下原件：

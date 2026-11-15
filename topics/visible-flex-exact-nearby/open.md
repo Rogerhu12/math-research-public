@@ -87,7 +87,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [SR统一割线帽行与五输入接收](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md)43da1e99已解析核：D/F product contraction只用完整右行norm，故同CPA case对所有||K||≤κ统一；实际K_hk沿physicalγ凸段固定fk积分，height在γh另比。把割线放97左侧后，highcut线性费已在cY，右侧不再重复cCapκ。SR19–21给同态五输入值/差：chart128||hcut||H1pair²或2^11ρ||Δhcut||H1sum、非零affine、height7/25、独立highbody/highcut/原96腰均保；第五列必须用新CPA gY乘NF ell0。原exact mean/scalar输出不投影掉，fixedheight不同于tail选择导数；actualγ/H1/wholecore域/五输入小量/高逆仍待，仅后验不构造fixedpoint。
 
-[SA完整有符号仿射接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)24028994已root全文/双peer核。D0 value方程的Hessian准确相消，原formal普通Gram直接用，不重复WH；完整97保真实outer/均值/jump/selected Sδ左缺陷。新IBP+knownforwardΘ三类128physical moments共同供97列，完整指数/径向尾仍需actual。SA24保γδ/center差与signed源关联给实际bδ，SA22保ordinary/Gauss/端/左/outer全部费。新vector/actual误差与小门待，原QR/7908 residual norm禁重。
+[SA完整有符号仿射接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba已root全文/双peer核。D0 value方程的Hessian准确相消，原formal普通Gram直接用，不重复WH；完整97保真实outer/均值/jump/selected Sδ左缺陷。新IBP+knownforwardΘ三类128physical moments共同供97列，完整指数/径向尾仍需actual。SA24保γδ/center差与signed源关联给实际bδ，SA22保ordinary/Gauss/端/左/outer全部费。新vector/actual误差与小门待，原QR/7908 residual norm禁重。 新SA29–31将known端变−<zL,ΔWδL>、左误差变eLδ·(yL−ΔLδ)，从而knownselected端仅用两forwardΘ矩；SA26改用tildeB，完整ELδ/两mean不消，Yδ可宽用YL+||ΔLδ||，不能冒全体trial recenter。
 
 ## 5. 新94链、真实B collar和实际body种子
 
