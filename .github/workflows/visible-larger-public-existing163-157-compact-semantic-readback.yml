@@ -22,21 +22,6 @@ jobs:
       summary: ${{ steps.readback.outputs.summary }}
       summary_bytes: ${{ steps.readback.outputs.summary_bytes }}
       summary_sha256: ${{ steps.readback.outputs.summary_sha256 }}
-      part0: ${{ steps.readback.outputs.part0 }}
-      part0_bytes: ${{ steps.readback.outputs.part0_bytes }}
-      part0_sha256: ${{ steps.readback.outputs.part0_sha256 }}
-      part1: ${{ steps.readback.outputs.part1 }}
-      part1_bytes: ${{ steps.readback.outputs.part1_bytes }}
-      part1_sha256: ${{ steps.readback.outputs.part1_sha256 }}
-      part2: ${{ steps.readback.outputs.part2 }}
-      part2_bytes: ${{ steps.readback.outputs.part2_bytes }}
-      part2_sha256: ${{ steps.readback.outputs.part2_sha256 }}
-      part3: ${{ steps.readback.outputs.part3 }}
-      part3_bytes: ${{ steps.readback.outputs.part3_bytes }}
-      part3_sha256: ${{ steps.readback.outputs.part3_sha256 }}
-      part4: ${{ steps.readback.outputs.part4 }}
-      part4_bytes: ${{ steps.readback.outputs.part4_bytes }}
-      part4_sha256: ${{ steps.readback.outputs.part4_sha256 }}
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       PYTHONUNBUFFERED: '1'
@@ -69,8 +54,8 @@ jobs:
           comp=root/'topics/visible-flex-larger-amplitude/computations'
           path=comp/'public-existing163-157-compact-semantic-request.json'
           raw=path.read_bytes()
-          assert len(raw)==14702
-          assert hashlib.sha256(raw).hexdigest()=='dcd09ad515645c4f90dae169e74243f86a9764f5ee3de00950177413d01741fe'
+          assert len(raw)==15720
+          assert hashlib.sha256(raw).hexdigest()=='aeefe7afce19205240e2aa22798d059a6782dc6df4263e2b91dacf2bdd6e9305'
           request=json.loads(raw)
           bound=[]
           for field in ('reader','helper'):
@@ -100,7 +85,7 @@ jobs:
         run: |
           python -u topics/visible-flex-larger-amplitude/computations/root_20261115_existing163_157_compact_semantic_readback.py \
             --request topics/visible-flex-larger-amplitude/computations/public-existing163-157-compact-semantic-request.json \
-            --request-sha256 dcd09ad515645c4f90dae169e74243f86a9764f5ee3de00950177413d01741fe \
+            --request-sha256 aeefe7afce19205240e2aa22798d059a6782dc6df4263e2b91dacf2bdd6e9305 \
             --out "$RUNNER_TEMP/visible-existing163157-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
       - name: Retire only this fresh metadata-log directory if still present
         if: always()
@@ -130,205 +115,15 @@ jobs:
               removed=removed,raw_uploaded=False,science_rerun=False,
               original_scientific_result_not_changed=True),sort_keys=True),flush=True)
           PYCLEAN
-  report0:
-    name: Exact original157 selected evidence PART_0
+  report:
+    name: One compact original157 scientific conclusion
     needs: [read]
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions: {}
     steps:
-      - name: Print one complete bounded packet with exact compute identity
-        env:
-          ORIGINAL: ${{ needs.read.outputs.part0 }}
-          ORIGINAL_BYTES: ${{ needs.read.outputs.part0_bytes }}
-          ORIGINAL_SHA256: ${{ needs.read.outputs.part0_sha256 }}
-          READ_RESULT: ${{ needs.read.result }}
-        run: |
-          python3 - <<'PYREPORT'
-          import hashlib,json,os
-          text=os.environ.get('ORIGINAL','')
-          if text:
-              raw=text.encode('ascii')
-              if len(raw)>76000:raise ValueError('Complete selected packet exceeds declared report bound')
-              if len(raw)!=int(os.environ['ORIGINAL_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['ORIGINAL_SHA256']:
-                  raise ValueError('Compute-to-report original words changed')
-              json.loads(raw)
-          else:
-              raw=json.dumps(dict(schema='request167-selected-packet-unavailable-v1',
-                  part='PART_0',read_job_result=os.environ.get('READ_RESULT'),
-                  complete=False,scientific_failure_not_inferred=True,
-                  run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
-                  ensure_ascii=True,sort_keys=True,separators=(',',':')).encode('ascii')
-          print('BEGIN_REQUEST167_PART_0')
-          print(raw.decode('ascii'))
-          print('END_REQUEST167_PART_0')
-          print(json.dumps(dict(event='request167-report-packet-identity',part='PART_0',
-              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
-              read_job_result=os.environ.get('READ_RESULT'),no_scientific_computation=True),
-              sort_keys=True),flush=True)
-          PYREPORT
-  report1:
-    name: Exact original157 selected evidence PART_1
-    needs: [read]
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions: {}
-    steps:
-      - name: Print one complete bounded packet with exact compute identity
-        env:
-          ORIGINAL: ${{ needs.read.outputs.part1 }}
-          ORIGINAL_BYTES: ${{ needs.read.outputs.part1_bytes }}
-          ORIGINAL_SHA256: ${{ needs.read.outputs.part1_sha256 }}
-          READ_RESULT: ${{ needs.read.result }}
-        run: |
-          python3 - <<'PYREPORT'
-          import hashlib,json,os
-          text=os.environ.get('ORIGINAL','')
-          if text:
-              raw=text.encode('ascii')
-              if len(raw)>76000:raise ValueError('Complete selected packet exceeds declared report bound')
-              if len(raw)!=int(os.environ['ORIGINAL_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['ORIGINAL_SHA256']:
-                  raise ValueError('Compute-to-report original words changed')
-              json.loads(raw)
-          else:
-              raw=json.dumps(dict(schema='request167-selected-packet-unavailable-v1',
-                  part='PART_1',read_job_result=os.environ.get('READ_RESULT'),
-                  complete=False,scientific_failure_not_inferred=True,
-                  run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
-                  ensure_ascii=True,sort_keys=True,separators=(',',':')).encode('ascii')
-          print('BEGIN_REQUEST167_PART_1')
-          print(raw.decode('ascii'))
-          print('END_REQUEST167_PART_1')
-          print(json.dumps(dict(event='request167-report-packet-identity',part='PART_1',
-              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
-              read_job_result=os.environ.get('READ_RESULT'),no_scientific_computation=True),
-              sort_keys=True),flush=True)
-          PYREPORT
-  report2:
-    name: Exact original157 selected evidence PART_2
-    needs: [read]
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions: {}
-    steps:
-      - name: Print one complete bounded packet with exact compute identity
-        env:
-          ORIGINAL: ${{ needs.read.outputs.part2 }}
-          ORIGINAL_BYTES: ${{ needs.read.outputs.part2_bytes }}
-          ORIGINAL_SHA256: ${{ needs.read.outputs.part2_sha256 }}
-          READ_RESULT: ${{ needs.read.result }}
-        run: |
-          python3 - <<'PYREPORT'
-          import hashlib,json,os
-          text=os.environ.get('ORIGINAL','')
-          if text:
-              raw=text.encode('ascii')
-              if len(raw)>76000:raise ValueError('Complete selected packet exceeds declared report bound')
-              if len(raw)!=int(os.environ['ORIGINAL_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['ORIGINAL_SHA256']:
-                  raise ValueError('Compute-to-report original words changed')
-              json.loads(raw)
-          else:
-              raw=json.dumps(dict(schema='request167-selected-packet-unavailable-v1',
-                  part='PART_2',read_job_result=os.environ.get('READ_RESULT'),
-                  complete=False,scientific_failure_not_inferred=True,
-                  run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
-                  ensure_ascii=True,sort_keys=True,separators=(',',':')).encode('ascii')
-          print('BEGIN_REQUEST167_PART_2')
-          print(raw.decode('ascii'))
-          print('END_REQUEST167_PART_2')
-          print(json.dumps(dict(event='request167-report-packet-identity',part='PART_2',
-              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
-              read_job_result=os.environ.get('READ_RESULT'),no_scientific_computation=True),
-              sort_keys=True),flush=True)
-          PYREPORT
-  report3:
-    name: Exact original157 selected evidence PART_3
-    needs: [read]
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions: {}
-    steps:
-      - name: Print one complete bounded packet with exact compute identity
-        env:
-          ORIGINAL: ${{ needs.read.outputs.part3 }}
-          ORIGINAL_BYTES: ${{ needs.read.outputs.part3_bytes }}
-          ORIGINAL_SHA256: ${{ needs.read.outputs.part3_sha256 }}
-          READ_RESULT: ${{ needs.read.result }}
-        run: |
-          python3 - <<'PYREPORT'
-          import hashlib,json,os
-          text=os.environ.get('ORIGINAL','')
-          if text:
-              raw=text.encode('ascii')
-              if len(raw)>76000:raise ValueError('Complete selected packet exceeds declared report bound')
-              if len(raw)!=int(os.environ['ORIGINAL_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['ORIGINAL_SHA256']:
-                  raise ValueError('Compute-to-report original words changed')
-              json.loads(raw)
-          else:
-              raw=json.dumps(dict(schema='request167-selected-packet-unavailable-v1',
-                  part='PART_3',read_job_result=os.environ.get('READ_RESULT'),
-                  complete=False,scientific_failure_not_inferred=True,
-                  run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
-                  ensure_ascii=True,sort_keys=True,separators=(',',':')).encode('ascii')
-          print('BEGIN_REQUEST167_PART_3')
-          print(raw.decode('ascii'))
-          print('END_REQUEST167_PART_3')
-          print(json.dumps(dict(event='request167-report-packet-identity',part='PART_3',
-              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
-              read_job_result=os.environ.get('READ_RESULT'),no_scientific_computation=True),
-              sort_keys=True),flush=True)
-          PYREPORT
-  report4:
-    name: Exact original157 selected evidence PART_4
-    needs: [read]
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions: {}
-    steps:
-      - name: Print one complete bounded packet with exact compute identity
-        env:
-          ORIGINAL: ${{ needs.read.outputs.part4 }}
-          ORIGINAL_BYTES: ${{ needs.read.outputs.part4_bytes }}
-          ORIGINAL_SHA256: ${{ needs.read.outputs.part4_sha256 }}
-          READ_RESULT: ${{ needs.read.result }}
-        run: |
-          python3 - <<'PYREPORT'
-          import hashlib,json,os
-          text=os.environ.get('ORIGINAL','')
-          if text:
-              raw=text.encode('ascii')
-              if len(raw)>76000:raise ValueError('Complete selected packet exceeds declared report bound')
-              if len(raw)!=int(os.environ['ORIGINAL_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['ORIGINAL_SHA256']:
-                  raise ValueError('Compute-to-report original words changed')
-              json.loads(raw)
-          else:
-              raw=json.dumps(dict(schema='request167-selected-packet-unavailable-v1',
-                  part='PART_4',read_job_result=os.environ.get('READ_RESULT'),
-                  complete=False,scientific_failure_not_inferred=True,
-                  run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
-                  ensure_ascii=True,sort_keys=True,separators=(',',':')).encode('ascii')
-          print('BEGIN_REQUEST167_PART_4')
-          print(raw.decode('ascii'))
-          print('END_REQUEST167_PART_4')
-          print(json.dumps(dict(event='request167-report-packet-identity',part='PART_4',
-              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
-              read_job_result=os.environ.get('READ_RESULT'),no_scientific_computation=True),
-              sort_keys=True),flush=True)
-          PYREPORT
-  report5:
-    name: Exact original157 selected evidence INDEX
-    needs: [read]
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions: {}
-    steps:
-      - name: Print one complete bounded packet with exact compute identity
+      - name: Print one actual scientific conclusion and exact identity
         env:
           ORIGINAL: ${{ needs.read.outputs.summary }}
           ORIGINAL_BYTES: ${{ needs.read.outputs.summary_bytes }}
@@ -340,20 +135,20 @@ jobs:
           text=os.environ.get('ORIGINAL','')
           if text:
               raw=text.encode('ascii')
-              if len(raw)>18000:raise ValueError('Complete selected packet exceeds declared report bound')
+              if len(raw)>90000:raise ValueError('Single scientific conclusion exceeds90000bytes')
               if len(raw)!=int(os.environ['ORIGINAL_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['ORIGINAL_SHA256']:
                   raise ValueError('Compute-to-report original words changed')
               json.loads(raw)
           else:
-              raw=json.dumps(dict(schema='request167-selected-packet-unavailable-v1',
-                  part='INDEX',read_job_result=os.environ.get('READ_RESULT'),
+              raw=json.dumps(dict(schema='request167-single-conclusion-unavailable-v2',
+                  part='SINGLE_CONCLUSION',read_job_result=os.environ.get('READ_RESULT'),
                   complete=False,scientific_failure_not_inferred=True,
                   run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
                   ensure_ascii=True,sort_keys=True,separators=(',',':')).encode('ascii')
-          print('BEGIN_REQUEST167_INDEX')
+          print('BEGIN_REQUEST167_SCIENTIFIC_SUMMARY')
           print(raw.decode('ascii'))
-          print('END_REQUEST167_INDEX')
-          print(json.dumps(dict(event='request167-report-packet-identity',part='INDEX',
+          print('END_REQUEST167_SCIENTIFIC_SUMMARY')
+          print(json.dumps(dict(event='request167-single-conclusion-identity',part='SINGLE_CONCLUSION',
               bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
               read_job_result=os.environ.get('READ_RESULT'),no_scientific_computation=True),
               sort_keys=True),flush=True)

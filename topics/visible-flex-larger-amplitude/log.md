@@ -125,3 +125,7 @@
 ## 2026-11-15 16:38:54 UTC /root — R355原162 argv失败与接线重发
 
 首跑43735722483的完整原失败及5108B修复差异核后即发R355；三条命令去内部裸--，原helper保argv，16pins/科学/预算不改。request只追加真实失败元数据并两处SHA同步，626e3111/23442307，geometry核新actual；API核c9bcc76ef1ece847e692e0ba39e26c1624cc7776双README未变，真pull行保。
+
+## 2026-11-15 16:40:48 UTC /root — 167改单份紧凑原科学结论
+
+发布aa37ae12/aeefe7af/7192fd34：删五packet/数组引用协议，仅≤90KB原FD层/八方向/84trial必要字段，大J/H只身份；所有原组仍在Actions完整读。另修error=null不误标失败，未改科学/门；amplitude唯一核R350，继续R351/164。API核d51e6497b7ea132360231e80f2f7324f42038bc4双README未变，真pull保。

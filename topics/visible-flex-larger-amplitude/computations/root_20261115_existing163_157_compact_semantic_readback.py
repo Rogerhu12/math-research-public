@@ -19,13 +19,10 @@ import traceback
 import uuid
 
 REPOSITORY="Rogerhu12/math-research-public"
-SCHEMA="existing163157-compact-original-semantic-readback-v1"
+SCHEMA="existing163157-single-scientific-readback-v2"
 HELPER_NAME="root_20261115_existing151_157_log_readback.py"
 HELPER_SHA="ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250"
-PART_LIMIT=76000
-PART_COUNT=5
-INDEX_LIMIT=18000
-TOTAL_LIMIT=400000
+SUMMARY_LIMIT=90000
 M=None
 
 
@@ -598,77 +595,185 @@ class ReadSemantic:
 
 
 
-def deduplicate_exact_tensors(sections):
-    """Structural equality only: all selected arrays remain complete once.
+def compact_scientific_readout(selector):
+    """One actual semantic conclusion, not an encoded reconstruction of data.
 
-    A reference is valid only after equal canonical bytes, not an approximate
-    value or hash-only test. The mathematical arrays are not multiplied,
-    reordered, rounded, shortened or reconstructed by a numerical formula.
+    All full original groups have already been parsed and the required shapes
+    checked. This returns selected original fields only; omitted large arrays
+    remain explicitly identity-only. No new numeric statistic is evaluated.
     """
-    table=[];buckets={};references=0
-    def tensor(value):
-        if isinstance(value,list):
-            return bool(value) and all(tensor(x) for x in value)
-        return value is None or isinstance(value,(str,bool,M.RawNumber,int))
-    def visit(value):
-        nonlocal references
-        if isinstance(value,list) and tensor(value):
-            raw=M.canonical(value)
-            if len(raw)>=700:
-                key=(len(raw),M.sha(raw))
-                for entry,original in buckets.get(key,[]):
-                    if original==raw:
-                        references+=1
-                        return {"request167_exact_array_ref":entry["reference"]}
-                entry=dict(reference="array-"+str(len(table)).zfill(4),
-                           bytes=len(raw),sha256=M.sha(raw),value=value)
-                table.append(entry);buckets.setdefault(key,[]).append((entry,raw))
-                references+=1
-                return {"request167_exact_array_ref":entry["reference"]}
-            return value
-        if isinstance(value,list):
-            return [visit(x) for x in value]
-        if isinstance(value,dict):
-            return {key:visit(item) for key,item in value.items()}
-        return value
-    transformed=[visit(x) for x in sections]
-    for entry in table:
-        transformed.append(dict(name="complete-exact-"+entry["reference"],source_group=None,
-            value=entry,scope="Complete selected original array; exact references require this whole original value"))
-    return transformed,dict(schema="request167-exact-selected-array-reference-v1",
-        reference_key="request167_exact_array_ref",distinct_complete_arrays=len(table),
-        reference_occurrences=references,duplicate_equivalence="canonical ASCII original JSON byte equality",
-        all_referenced_array_values_printed_once=True,
-        numerical_equality_or_matrix_arithmetic_used=False,
-        reconstruction="Gather complete-exact-array sections; verify each value bytes/SHA; replace each single-key reference object with the complete value; selected original words are unchanged")
-
-
-def pack_sections(sections,source):
-    """Complete named semantic objects; never numeric rounding or row truncation."""
-    bins=[[] for _ in range(PART_COUNT)]
-    def packet(index,rows):
-        return dict(schema=SCHEMA+"-report",part_index=index,planned_parts=PART_COUNT,
-                    source=source,sections=rows,
-                    original_words_only=True,scientific_computation_performed=False)
-    for section in sorted(sections,key=lambda x:len(M.canonical(x)),reverse=True):
-        eligible=[]
-        for i,items in enumerate(bins):
-            raw=M.canonical(packet(i,items+[section]))
-            if len(raw)<=PART_LIMIT:
-                eligible.append((len(M.canonical(packet(i,items))),i))
-        if not eligible:
-            sizes=[dict(name=row["name"],bytes=len(M.canonical(row))) for row in sections]
-            raise SizeFailure("Complete selected sections exceed five76000-byte report packets",sizes)
-        i=min(eligible)[1];bins[i].append(section)
-    result=[M.canonical(packet(i,items)) for i,items in enumerate(bins)]
-    if any(len(raw)>PART_LIMIT for raw in result):
-        raise M.ReadbackError("Report size accounting failure")
-    return result
-
-
-class SizeFailure(Exception):
-    def __init__(self,message,sizes):
-        super().__init__(message);self.sizes=sizes
+    by_name={row["name"]:row for row in selector.sections}
+    def value(name):
+        if name not in by_name:
+            raise M.ReadbackError("Required compact semantic section absent: "+name)
+        return by_name[name]["value"]
+    def fields(name):
+        item=value(name)
+        return item.get("original_fields",item) if isinstance(item,dict) else item
+    answer=dict(schema=SCHEMA+"-single-scientific-conclusion",
+        all_full_original_groups_read_inside_Actions=True,
+        all_original_large_selected_fields_transmitted=False,
+        complete_large_J_H_FD_and_internal_tables_independently_read_by_root=False,
+        original_selected807621_bytes_not_claimed_read_or_reconstructed=True,
+        no_dictionary_reference_binary_or_chunked_large_data_transport=True,
+        source_scope="Original words selected from successful163; no157 science or derivatives rerun",
+        original_status_and_view_identity=selected(selector.original_receipt,(
+            "original_status","complete_scalar_view","complete_primary","original_chain",
+            "actual154_recorded_literal_comparison")),
+        original_input_sha256=value("original-input_sha256"),
+        literal_model_binding=value("original-literal_model_binding"),
+        original_consumed_source_identity=ident(value("original-consumed_source_sha256")),
+        original_consumed_source_count=len(value("original-consumed_source_sha256")),
+        original_all_top_scalar_fields=selector.top_scalars,
+        complete_domain_projection=value("complete_scalar_domain_at_binary64_projection"),
+        complete_circle_projection=value("original_complete_circle_check_at_binary64_projection"),
+        original_chain_scalar_fields=primitives(selector.chain),
+        original_complete_chain_identity=ident(selector.chain),
+        complete_original_error_rows=value("all-original-error-rows"),
+        FD=[],initial_and_final={},outer_models=[],physical_trials=[])
+    state_keys=(
+        "parameters","unweighted_full3_merit","low_equations_used","unit_diagonal_defects",
+        "forward_primal_equation_words_equal_to_real_state","terminal_Robin_terms",
+        "scalar_node_and_mid_minimum_radius","source_circle_node_and_mid_minimum_radius",
+        "source_circle_node_and_mid_minimum_beta2","radius_cell_denominator_minimum_absolute",
+        "high_right_leak_max","high_free_core_Schur_elimination_computed",
+        "high_mode_nonresonance_proved","same_literal_coefficient_model_not_reformed_continuous_metric",
+        "raw_original_table_accuracy_not_certified","derivative_accuracy_or_exact_rank_not_certified")
+    for phase in ("initial","final"):
+        state=fields(phase+"-persistent-state")
+        projection=value(phase+"-binary64-projection")
+        description=projection["description"]["original_fields"]
+        curvature=fields(phase+"_ambient_curvature")
+        answer["initial_and_final"][phase]=dict(original_fields=selected(state,state_keys),
+            selected_persistent_state_fields_identity=ident(state),
+            full112_residual_identity=ident(state["complete_first_order_right_residual"]),
+            full112_native_height_identity=ident(state["complete_first_order_native_height"]),
+            complete_three_by_nine_forward_response_identity=ident(state["complete_three_by_nine_forward_response"]),
+            original_binary64_projection=projection["projection"],
+            binary64_original_fields=selected(description,(
+                "parameters","low_equations_used","unit_diagonal_defects","singular_values",
+                "first_three_column_singular_values","old_four_column_singular_values",
+                "old_six_column_singular_values","numerical_parameter_condition",
+                "high_right_leak_max","source_circle_node_and_mid_minimum_beta2",
+                "scalar_node_and_mid_minimum_radius","numerical_singular_values_are_not_a_transversality_proof")),
+            original_second_J_minus_first_J=value("original-"+phase+"_second_J_minus_first_J"),
+            complete_ambient_J_identity=ident(curvature["complete_three_by_nine_J"]),
+            complete_ambient_H_identity=ident(curvature["complete_three_by_nine_by_nine_H"]),
+            matrices_only_identity_covered_here=True)
+    fd_names=("initial-persistent-first-FD","final-persistent-first-FD",
+        "initial-binary64-first-FD","final-binary64-first-FD",
+        "initial_second_axis_difference_checks","final_second_axis_difference_checks")
+    check_keys=("column","parameter","step","actual_step","valid","attempted","complete",
+        "relative_error","exception","error","traceback")
+    for name in fd_names:
+        for level_index in range(3):
+            record=value(name+"-level-"+str(level_index))
+            level=record["original_level_fields"]
+            checks=record["checks_by_parameter"]
+            failed=[]
+            for index,row in enumerate(checks):
+                if (row.get("valid") is False or row.get("complete") is False
+                        or row.get("attempted") is False
+                        or any(row.get(key) is not None for key in ("exception","error","traceback"))):
+                    failed.append(dict(check_index=index,original_fields=selected(row,check_keys),
+                        complete_original_check_identity=row["complete_original_check_identity"]))
+            meta=primitives(level)
+            item=dict(collection=name,level_index=level_index,
+                original_level_scalar_fields=meta,
+                original_check_count=len(checks),
+                complete_original_failed_or_exception_checks=failed,
+                original_level_identity=record["complete_original_level_identity"],
+                original_maximum_not_recomputed=True,
+                large_perturbation_and_difference_tables_not_transmitted=True)
+            if "maximum_relative_error" not in level:
+                item["all_original_check_scalar_fields_because_level_has_no_original_maximum"]=[
+                    selected(row,check_keys) for row in checks]
+            answer["FD"].append(item)
+    model_keys=("path","physical_path","origin_merit","original_relative_radius",
+        "original_formed_relative_gradient","complete_finite_model_points_evaluated",
+        "model_optimizer_completed","model_stop_reason","unvisited_model_update_indices",
+        "selected_global_candidate","selected_model_reference","selected_full_three_model_residual",
+        "selected_model_merit","selected_model_predicted_reduction",
+        "actual_relative_direction","actual_nine_parameter_direction","scaled_direction_L2",
+        "actual_direct_full3_action","formed_axis_action","direct_minus_formed_axis_action","actual_full3_slope",
+        "selected_model_point_not_an_accepted_physical_point",
+        "finite_model_minimization_not_a_global_optimality_certificate")
+    fallback_keys=("actual_nine_parameter_direction","scaled_direction_L2",
+        "actual_direct_full3_action","actual_full3_slope","original_unweighted_full3_slope",
+        "positive_damping_mu","damping_mu","chosen_damping","chosen_damping_mu",
+        "singular_value_truncation","all_nine_columns_retained","weak_columns_not_discarded")
+    terminal_keys=("index","current_relative_point","local_step_radius","complete",
+        "full_three_model_residual","full_three_model_merit","complete_nine_model_gradient",
+        "full_model_gradient_norm","selected_candidate","selected_model_trial","selected_model_merit",
+        "reason","unvisited_candidate_indices","original_GN_QR_solve_recorded","original_GN_no_solution_reason")
+    trial_keys=("trial_index","alpha","accepted","original_Armijo_bound","actual_merit",
+        "actual_unit_equations","actual_path_model_predicted_reduction","reason","exception",
+        "normal_stop_reason","normal_target_met","normal_returned_constraint_error",
+        "normal_selected_sample","normal_attempts","normal_returns","normal_domain_failures",
+        "normal_iteration_count","normal_internal_trial_count","normal_same_trace_sample_count")
+    all_trial_columns=list(TRIAL_COLUMNS)+["normal_terminal_original_fields","original_primary_prediction"]
+    indices=[all_trial_columns.index(key) for key in trial_keys]
+    for i in range(8):
+        original=selector.outer[i]
+        dm=original["direction_model"]["original_fields"]
+        terminal=selector.terminals[i]
+        gn=terminal["complete_residual_GN_preconditioner"]["original_fields"]
+        item=dict(outer=i,origin=selected(original,(
+                "iteration","residual","merit_before","relative_radius","accepted",
+                "accepted_path","path_status","radius_update","reason")),
+            direction=selected(dm,model_keys),
+            origin_complete_J_identity=ident(dm["complete_three_by_nine_J"]),
+            origin_complete_H_identity=ident(dm["complete_three_by_nine_by_nine_H"]),
+            origin_pilot_J_identity=ident(dm["original_first_forward_axis_J"]),
+            terminal=selected(terminal,terminal_keys),
+            terminal_complete_K_identity=ident(terminal["complete_three_by_nine_model_J"]),
+            terminal_complete_H_identity=ident(terminal["complete_nine_by_nine_model_Hessian"]),
+            terminal_original_GN_fields=primitives(gn),
+            selected_original_outer_fields_identity=ident(original),
+            complete_original_terminal_identity=value("outer-"+str(i)+"-last-internal-model")["complete_original_terminal_identity"])
+        if "original_QR_readback" in gn:
+            item["terminal_original_QR_scalar_fields"]=primitives(gn["original_QR_readback"])
+            item["terminal_QR_complete_object_identity"]=ident(gn["original_QR_readback"])
+        if "fallback_direction_model" in original:
+            fb=original["fallback_direction_model"]
+            item["fallback_direction"]=selected(fb["original_fields"],fallback_keys)
+            item["fallback_complete_object_identity"]=fb["complete_original_identity"]
+        answer["outer_models"].append(item)
+        rows=[[row[index] for index in indices] for row in selector.trials[i]]
+        answer["physical_trials"].append(dict(outer=i,
+            original_path=value("outer-"+str(i)+"-complete-actual-trial-selection")["rows"][0][all_trial_columns.index("path")]
+                if rows else None,
+            rows=rows,
+            complete_original_selected_trial_identity=ident(selector.trials[i]),
+            accepted_parameter_words=[dict(trial_index=row[all_trial_columns.index("trial_index")],
+                actual_parameters=row[all_trial_columns.index("accepted_actual_parameters")],
+                actual_decimal_displacement=row[all_trial_columns.index("accepted_actual_decimal_parameter_displacement")])
+                for row in selector.trials[i] if row[all_trial_columns.index("accepted")] is True]))
+    answer["physical_trial_columns"]=list(trial_keys)
+    answer["physical_trial_scope"]=dict(all_original_trial_count=84,
+        all_original_gate_merit_residual_and_reason_rows_selected=True,
+        slope_read_from_that_outer_actual_primary_or_fallback_direction=True,
+        complete_normal_trajectories_and_all_trial_full112_vectors_identity_only=True,
+        no_missing_or_unexecuted_field_filled=True,
+        no_new_scientific_acceptance_or_accuracy_gate=True)
+    last=selector.terminals[7]
+    lastgn=last["complete_residual_GN_preconditioner"]["original_fields"]
+    answer["one_last_terminal_complete_matrices"]=dict(outer=7,
+        complete_three_by_nine_K=last["complete_three_by_nine_model_J"],
+        complete_nine_gradient=last["complete_nine_model_gradient"],
+        complete_nine_by_nine_H=last["complete_nine_by_nine_model_Hessian"],
+        original_GN_QR_solve_recorded=last["original_GN_QR_solve_recorded"],
+        GN_original_fields=selected(lastgn,(
+            "complete_solution","complete_augmented_rhs","complete_stationarity_residual",
+            "complete","reason","exception","ridge","square_root_ridge","formed_relative_L2")),
+        original_QR_readback=lastgn.get("original_QR_readback"))
+    answer["other_selected_original_fields_identity"]=ident(selector.sections)
+    answer["transmission_scope"]=dict(
+        original807621B_selected_set_not_transmitted_or_reconstructed=True,
+        original_large_tables_not_encoded_or_partitioned_for_tools=True,
+        complete_selected_matrix_subset="Only one last terminal K/g/H/GN/QR; others identities and required original scalars",
+        root_full_matrix_or_FD_perturbation_table_read_not_claimed=True)
+    return answer
 
 
 def output_value(name,raw):
@@ -691,7 +796,7 @@ def main(argv=None):
     load_metadata_helper()
     checks=M.Checks();token=os.environ.get("GH_TOKEN","")
     out=None;started=time.monotonic();stage="request binding"
-    packets=[];sections=[];summary=dict(schema=SCHEMA,request_number=167,
+    sections=[];summary=dict(schema=SCHEMA,request_number=167,
         run_id=os.environ.get("GITHUB_RUN_ID"),source_commit=os.environ.get("GITHUB_SHA"),
         complete=False,exit_code=70,scientific_computation_performed=False,
         original157_or163_science_rerun=False,new_artifact_Release_or_Git_data=False)
@@ -734,22 +839,18 @@ def main(argv=None):
                 M.emit(dict(event="request167-original-lines",count=number,no_scientific_work=True))
         summary["semantic_transport"]=reader.finish()
         summary["selection_scope"]=selector.finish()
-        sections,summary["selected_array_transport"]=deduplicate_exact_tensors(selector.sections)
+        sections=selector.sections
         n=lines.receipt()
         summary["transport_normalization"]={key:value for key,value in n.items()
             if key!="exceptional_transport_prefixes"}
         summary["transport_normalization"]["exceptional_prefix_records"]=covered(
-            n["exceptional_transport_prefixes"],"Complete exceptional-prefix metadata counted and hashed; no scientific text edited")
-        stage="bounded complete named report packets"
-        source=dict(upstream_run=request["upstream"]["run_id"],
-            upstream_job=request["upstream"]["compute_job_id"],
-            original157_run=request["expected_original"]["run_id"],
-            original157_source=request["expected_original"]["source_commit"])
-        packets=pack_sections(sections,source)
+            n["exceptional_transport_prefixes"],"Actual exceptional-prefix metadata identity; original scientific text unchanged")
+        stage="one bounded semantic scientific conclusion"
+        summary["science_readout"]=compact_scientific_readout(selector)
         summary.update(complete=True,exit_code=0,exception=None,
-            checks=checks.summary(),report_sections=len(sections),
-            report_packets=[dict(index=i,**M.identity(raw),
-                section_names=[x["name"] for x in M.decode(raw)["sections"]]) for i,raw in enumerate(packets)])
+            checks=checks.summary(),original_groups_fully_read_in_Actions=True,
+            all_large_selected_fields_transmitted=False,
+            original_science_not_rerun=True)
     except Exception as error:
         summary.update(complete=False,exit_code=70,failed_stage=stage,
             exception=M.redact_transport_text(repr(error),token),
@@ -757,9 +858,7 @@ def main(argv=None):
             performed_metadata_checks=checks.count,
             completed_check_rows_sha256=checks.h.hexdigest(),
             original_scientific_failure_not_inferred=True)
-        if isinstance(error,SizeFailure):
-            summary["complete_selected_section_byte_counts"]=error.sizes
-        elif sections:
+        if sections:
             summary["complete_selected_section_byte_counts"]=[
                 dict(name=x["name"],bytes=len(M.canonical(x))) for x in sections]
     finally:
@@ -796,32 +895,34 @@ def main(argv=None):
             earlier_complete_traceback=summary.get("complete_traceback"),
             original_log=summary.get("original_log"),owned_cleanup=cleanup,
             completed_metadata_checks=checks.count,
-            selected_packet_identities=[M.identity(x) for x in packets],
             scientific_failure_not_inferred=True)
         raw=M.canonical(summary)
-    total=len(raw)+sum(len(x) for x in packets)
-    if len(raw)>INDEX_LIMIT or total>TOTAL_LIMIT:
-        # Preserve the actual error object in the compute log in lossless
-        # byte parts; never report successful or complete selected output.
-        M.stream_text("request167-complete-oversize-index",raw.decode("ascii"),
-                      "Complete metadata exception/index, not scientific recomputation")
-        summary=dict(schema=SCHEMA,request_number=167,complete=False,exit_code=70,
-            exception="Complete index or total selected report budget exceeded",
-            original_complete_index_identity=M.identity(raw),
-            complete_index_in_compute_semantic_parts=True,
-            packet_identities=[M.identity(x) for x in packets],
-            packets_not_silently_truncated=True,owned_cleanup=cleanup)
+    if len(raw)>SUMMARY_LIMIT:
+        # Scope is narrowed explicitly, never by coding or splitting the
+        # original large tables. Preserve every trial/scalar failure first.
+        readout=summary.get("science_readout",{})
+        large=readout.pop("one_last_terminal_complete_matrices",None)
+        if large is not None:
+            readout["last_terminal_matrices_not_printed_for_summary_limit"]=dict(
+                original_identity=ident(large),scope="Original last full K/g/H/GN/QR read inside Actions; only identity transmitted")
+            readout["transmission_scope"]["complete_selected_matrix_subset"]="No complete large terminal matrices printed; all eight recorded gradients/actions and scalar diagnostics retained"
         raw=M.canonical(summary)
-        packets=[]
-    for i,data in enumerate(packets):
-        output_value("part"+str(i),data)
-        print("BEGIN_REQUEST167_REPORT_"+str(i),flush=True)
-        print(data.decode("ascii"),flush=True)
-        print("END_REQUEST167_REPORT_"+str(i),flush=True)
+    if len(raw)>SUMMARY_LIMIT:
+        sizes=[dict(field=key,bytes=len(M.canonical(value)))
+               for key,value in summary.get("science_readout",{}).items()]
+        summary=dict(schema=SCHEMA,request_number=167,complete=False,exit_code=70,
+            run_id=os.environ.get("GITHUB_RUN_ID"),source_commit=os.environ.get("GITHUB_SHA"),
+            exception="Single scientific conclusion still exceeds90000bytes",
+            actual_summary_bytes_before=len(raw),unprinted_complete_summary_identity=M.identity(raw),
+            scientific_readout_field_byte_counts=sizes,
+            no_large_data_encoding_partition_or_truncation=True,
+            original_log=summary.get("original_log"),owned_cleanup=cleanup,
+            completed_metadata_checks=checks.count,original_scientific_failure_not_inferred=True)
+        raw=M.canonical(summary)
     output_value("summary",raw)
-    print("BEGIN_REQUEST167_INDEX",flush=True)
+    print("BEGIN_REQUEST167_SCIENTIFIC_SUMMARY",flush=True)
     print(raw.decode("ascii"),flush=True)
-    print("END_REQUEST167_INDEX",flush=True)
+    print("END_REQUEST167_SCIENTIFIC_SUMMARY",flush=True)
     return summary["exit_code"]
 
 
