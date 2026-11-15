@@ -95,3 +95,5 @@ held可独立于尚未完成的reach budget读取全部活动块及两帽见证�
 R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实新场必须覆盖完整prefix、finiteGauss scalar、两尾帽、C²修补，得全域相对metric operator≤1e−6。旧小幅约.063D及旧RK24/48/网格/空间对证据不能继承到新场。
 
 最终须固定g/参数/t范围精化误差到机器或原solver容差，证明/核查全t强C²嵌入与reach，提供数个各<5MB网格，明确数值到严格存在的真实缺口；全部README条件前持续工作，并继续更强幅度目标。完整证明按根规矩12直接登记results/index，不加独立审核关卡。
+
+**77原候选搜索结论：** [完整两方向/20trial报告](notes/2026-11-15-actual77-small-core-first-step-and-twelve-trial-rejection.md)及[原status](notes/2026-11-15-actual77-original-status.json)已保存。run43661078498/source1200c137/job132650310904流程success而candidate=false；首方向1/128接受，p=(.09307073916632971,-.1321108634591744,-.1241786723386648)，merit65080884368.11076；第二方向12档全部拒到1/2048，单位共振207.58149305614725/−173667.38459813764/316229.92453749187未解。最终圆域有效但仅零core参考，494 Arb叶只声明a/ap；不当大核parent。78从真final p续原8步并使用旧源已支持20回溯，68源/四数学输入/三目标/原域/容差不改，不预言下降或native成功。

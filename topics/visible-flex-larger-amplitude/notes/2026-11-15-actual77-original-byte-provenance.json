@@ -1,0 +1,87 @@
+{
+  "schema": "actual77-original-byte-provenance-v1",
+  "science_executed_locally": false,
+  "run_id": 43661078498,
+  "source_commit": "1200c13713b0a4ce4d125a0534610583223ed4ef",
+  "job_id": 132650310904,
+  "artifact_id": 14140066926,
+  "artifact_bytes": 239085,
+  "artifact_sha256": "83eb990e14973e06c09172850af3557418efc01e2020f345793ea7a4403f48dc",
+  "original_status_sha256": "e003cc07e52789fa075289794f4bee76993b88cbdf1dc7b639a46872019fcc14",
+  "files": [
+    {
+      "file": "exact-diagnostic-command.json",
+      "bytes": 1862,
+      "sha256": "472e68c6776d2087d0ace350157af6a859185feb60f2f4d3c02a6c655e374f3d"
+    },
+    {
+      "file": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "70cea5c71e4c7a0ee940e3254301df0c433e2ed7725dfabe405c9f47b51a6652"
+    },
+    {
+      "file": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "request77-input-and-source-identity.json",
+      "bytes": 25765,
+      "sha256": "4d5974e1487e49fd778b6d90d9cf67d69640cfdc8e452c7a5f405b1493b9dff5"
+    },
+    {
+      "file": "resonance/circle-reference.json.gz",
+      "bytes": 139958,
+      "sha256": "5a5ff4691988d2e382bd51be56648deeedc5f8ddeffaac0878394c376f4711e2"
+    },
+    {
+      "file": "resonance/complete-scalar-domain.json.gz",
+      "bytes": 79206,
+      "sha256": "9c62603ee9765b0a7c28a2856ed9a92d37e10ff34c8412b0ed558fbb309232ac"
+    },
+    {
+      "file": "resonance/resonance-status.json",
+      "bytes": 23659,
+      "sha256": "e003cc07e52789fa075289794f4bee76993b88cbdf1dc7b639a46872019fcc14"
+    },
+    {
+      "file": "small-core-resonance-readback.json",
+      "bytes": 17490,
+      "sha256": "2ce3b2886c08612888fba407ec8232397ca4dd00fef973b78279cee38e176118"
+    },
+    {
+      "file": "small-core-resonance.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "gzip_originals": [
+    {
+      "file": "resonance/circle-reference.json.gz",
+      "bytes": 139958,
+      "sha256": "5a5ff4691988d2e382bd51be56648deeedc5f8ddeffaac0878394c376f4711e2",
+      "decoded_bytes": 3567035,
+      "decoded_sha256": "41c349601177c8584a9cc7f44897c56e088edc80c5e240e06caa4dafcee779ba",
+      "gzip_CRC_read_complete": true
+    },
+    {
+      "file": "resonance/complete-scalar-domain.json.gz",
+      "bytes": 79206,
+      "sha256": "9c62603ee9765b0a7c28a2856ed9a92d37e10ff34c8412b0ed558fbb309232ac",
+      "decoded_bytes": 428035,
+      "decoded_sha256": "cee61640c6a867d7772def113385c5d780405eb44b490df0f3e4f676495e0e77",
+      "gzip_CRC_read_complete": true
+    }
+  ],
+  "source_sha_count": 68,
+  "all_source_SHA_verified_against_existing_public_files": true,
+  "request_identity_SHA_verified": true,
+  "readback_is_subset_of_original_status": true,
+  "original_four_input_descriptor_SHA_matched": true,
+  "full_circle_shape": [
+    699,
+    453
+  ],
+  "complete_scalar_leaf_count": 494,
+  "new_RHS_J_norm_or_candidate_arithmetic_performed": false
+}
