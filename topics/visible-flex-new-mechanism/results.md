@@ -381,3 +381,5 @@
 - [谱恢复首次实际三次接纳与曲率活跃](notes/spectral-metric-recovery-first-actual-result-20261115.md) — run43669710846/sourcec33955d7同g/b0/163，m2SOC/m5主/m8SOC使双网最大η .267199566824→.266932648992，终态574dd0；κ升至57.979122863仍过硬58及原全部物理门（帽高按既定tol），.26未到。全24谱slack对η−.26吻合至1.11e−16，目标权重偏差已消；全部满trust.001、后段曲率越界，m5实际/预测仅.0139。完整4386/2950池与raw5501200B保留，12LP/24值/活动75.566s/总375.498s；下一明确缩步控制，非连续等距/reach证书。
 
 - [R174：九个新原函数关系与严格正外点的排除](results/R174-nine-original-character-relations-and-rejection-of-the-positive-outer-point.md) — actual43670254711/source952cf792完整147列，字面rank77/kernel70，全部70依赖两mode原存储fresh核零；旧B/R168外九式独立。首原式−V0+V1−V2+V3=0，而R173给−2，故该完整标量正点不能定义真实λ。九式给12维必要线性外空间（静态2/二次5/最高5）、a_static=(1+k²)(α+βk²)及最高c=−b,d=b/4等五关系；不授真实head维数/字符存在。38.592s/RSS140.637MiB，cert41109B/5d929f4f；后继只增九式±，不重原消元。
+
+- [R175：原关系后整个最高层的锐利二阶矩阵判据](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md) — R174五最高关系下，u=k/h²、ψ=h u′把全部H/Q4准确化为纯h两个平方加(ψ′,r′ψ)M(ψ′,r′ψ)ᵀ及明确平端零导数。全路径最高非负iff a≥0、ℓ+25a/9≥0、M=[[b/4,3b/4+3f/2],[同,23b/12+2f+g]] PSD；R169 Ω=(p−2)²·[(p−1)/3,1]M[(p−1)/3,1]ᵀ给必要性，b0准确迫f0,g≥0。失败有有限真实负路径，成功直接结清最高层；仍不授低层/完整正性或真实字符存在，无新研究计算。

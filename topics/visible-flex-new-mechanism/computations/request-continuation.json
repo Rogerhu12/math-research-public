@@ -1,6 +1,6 @@
 {
-  "request": "new-nine-original-equalities-inherited-character-necessary-system",
-  "created_at": "2026-11-15 03:13:20 UTC",
+  "request": "sparse-input-repair-first-real-nine-original-equality-system",
+  "created_at": "2026-11-15 03:17:21 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "character_minus2_literal_relation_cuts"
@@ -39,7 +39,14 @@
         "16384",
         "--output",
         "@OUT@/character-minus2-literal-relation-cuts.json"
-      ]
+      ],
+      "completed_development": {
+        "report": "topics/visible-flex-new-mechanism/notes/actions-43671414958-1-character_minus2_literal_relation_cuts/character-minus2-literal-relation-cuts-development.json",
+        "sha256": "3bf5b1c2d60b15e44b0da417b1c6fc4770a95f5631ff8958aab2ec4d438e7fe8",
+        "run": "43671414958",
+        "source": "8becff0f0a2060e39c9313cce7cf8f1f9b93d9ba",
+        "driver_sha256": "1861db94d22ffb1a7c4e96319fb9fe18fed9121a0d1edfeb20f83e22290aa4f0"
+      }
     }
   },
   "other_active_research_runs_at_dispatch": [],
@@ -47,5 +54,13 @@
   "previous_private_actual_pull_commit": "6439d29b875126d271b8dee9a6907dfcca85e5cc",
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
-  "task_complete": false
+  "task_complete": false,
+  "previous_attempt": {
+    "run": "43671414958",
+    "source": "8becff0f0a2060e39c9313cce7cf8f1f9b93d9ba",
+    "completion": "implementation_check_failed",
+    "cause": "new raw147 source directory omitted from workflow sparse checkout; failed before new equality processing or LP",
+    "new_LPs_run": 0,
+    "same_source_public_artificial_checks_reused": true
+  }
 }
