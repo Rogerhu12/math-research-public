@@ -294,3 +294,5 @@
 - [173局部奇形状目录helper接口](notes/2026-11-15-local-odd-zerojet-station-catalogue-interface.md)：39740B/2d2d84eb源码与13796B/906f7c77接口全文核后发表，消费真实完整R351原九点、全部1397逻辑输入及各自a/b/q/三权，严格隔离与形成商法则齐。准确函数/实际binary64/任意点分支分责，requestless无新父或数值，不冒R366值方向或准确秩。
 
 - [R358：实际162完整C/deep112与首次射影pivot未付](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)：C全1440/六primitive/cut/deep112齐；m2仅49commit后双端点盒含0，depth32停止而非全局资源耗尽。19闭栈/后缀与m4..224、cut候选0完整保，无真实共振结论；全部小读回与清理范围已核。
+
+- [R356：实际165的有限目标上界与严格速度域反证](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：完整32977闭叶全正半径/有限δ<1；38严格速度域反证与32488未决、65535节点资源止同时存在，受控exit4。四小摘要及源语义已核，38位置和大账未逐值读；固定R320结论不推广到整个family或169未来p。

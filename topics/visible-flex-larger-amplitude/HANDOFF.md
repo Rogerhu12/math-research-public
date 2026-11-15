@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:54:33 UTC 已读 444035902907dc149caa953ab285a981f31417de，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:55:21 UTC 已读 52681c1ae76ff798e5f945986d96df6a75db9df5，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -49,7 +49,7 @@
 
 ## 公共坐标与九控制方向
 
-[R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：127.386056539s/65535节点，两子事务前止；32977闭盖/10468未决、严格反证0/globalδnull/exit3，非900s墙钟。[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已补完整result/input/五账身份及470411检查；65535节点未逐值重证，不猜未打印frontier主因。[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)准确DAG消依赖/全九项合并/共同变量Bernstein已证；[165接口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)四件已发：source61b98b3e/request6beff06b/workflow10b6e44a，21pins/全九p/419闭片/65536nodes/900s不变；同u差后Bernstein及原R330交，literal缺陷全保。四读回全success才清；exact核actual/R356，不预填径向或metric。
+[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C2591.6873325710003s/1440齐；target581.166182384s、65535nodes/32977全闭叶，全半径正且有限δ<1。38严格准确速度域反证、32488未决/481工作目标过同时保，受控exit4/error null，非单纯资源partial。只限固定R320九p，不否定整个family或169未来p。四原小摘要全文核；38区间定位与大账未逐值读，exact准备Actions原日志抽取。R341/R349历史与R352共享表达式/全部21pins留原文，同场metric/native未付。
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082，微降不证准确根，全finalfalse。真实末九p50和半径见原文；R350补必要标量，禁搬154值。
 

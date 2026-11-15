@@ -85,7 +85,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)/[R349完整日志恢复](results/R349-actual163-original151-complete-log-reconstruction.md)：127.386056539s、65535节点/32977闭叶/10468未决，unvisited0、严格反证0/globalδnull/exit3，非900s墙钟。原899965552B日志在Actions一次读取，470411元数据检查、result101961B/input62020B与五账身份相符；节点区间未逐值重证，不从计数猜唯一主因。原L/径向差区间及完整资源/读回范围见两结果与[逐字检查点](notes/2026-11-15-open-checkpoint-through-R371-and-173.md)，未付同场metric责任保。
 
-[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)准确共享L、cut中心collar/右锚last/coast、九项按支撑合并至8次及全共同u Bernstein已证；numeric自身anchor/width/系数/校准缺陷不归零。[165接口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)已发布1f2ec637，source61b98/request6beff06b/workflow10b6e44a，原20pins保共21；完整419闭片/全部支撑inside/outside/双端点/两子事务及C3600/两域300/target900/65536/32/320bits不变。四实际读回成功才清，exact核actual/R356；不缩原E语义盒、不从R349计数猜唯一瓶颈、不预填δ或同场metric。
+[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as尚未读，Actions仅取原保存字段；同场metric/native仍未付。
 
 ### 3C. 当前C自己的零场与完整453非零BVP
 
