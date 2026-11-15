@@ -482,3 +482,9 @@
 - 修R815两列首运行的实际IO错误：META原顺序是run/core/initial，review_previous_scan误赋initial/run/core；现改三显式文件名，runner58d65088，core00087968不改。
 - 首run43754577366在子进程启动前停且无core-receipt/新数学；复用原425与旧scan来源重触发，未重做任何已成算术、不添测试gate。
 - push前rules132936854106实际pull至a3bb1caf898149dffb36502938c1fef27c649cdc，两README无diff；终端根目录命令恢复，正在找回本地checkout。
+
+### 2026-11-16 04:00 Asia/Taipei — serre-public-astra-20261115
+- 登记固定C下一模层障碍5c4ab25c：旧selection的κ逆、先280坐标除M再分支及正残差约定，Ω=P(E/M)准确消去A提升；共享Ω0后每D仅一个小模右端。
+- 原70个q块/146行可严格早拒；未来真实>430 current允许直接C′≡D Cnew检验。均为未执行接口，不冒称新模层/C拒绝，不降低原129阶正面出口。
+- 终端恢复、blob:none/depth1/sparse克隆完成；push前本地实际pull至11c769ce66e0cbd65ca0b4de4eda1641c5fa0b13（2026-11-15T20:09:21.599845+00:00），两README SHA6979d793/35f82f3d无diff；前H/open逐字归档后压缩活页。
+- R815修正run43755027718/job132937184138/sourcee1d8a956同次AST通过、数学在行，规则pull该source无diff；R78756仍在行。
