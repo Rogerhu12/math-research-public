@@ -131,7 +131,7 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 
 [R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)已证明固定普通V3/V6维690/1506、μ33只需q0..81；原V6关系只需142项，R781旧y Laurent足够。固定s=τB后，只求一个新u并认证1380列矩阵rank1116，即得264维W_F及degree426残余；不必先恢复完整300维关系核。标准degree272 Jacobian代表保实际G=s/(fτ^(m−3))和全部主函数常数。
 
-R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156局部代数，再扩标量到L评价原A/B；无未认证局部根。由单一L-cusp轨道与不可约K[T]作用，全部非零原Hom在20 cusp不分歧，故新同靶加法映射均e=1。新V6/μ33、实际1116秩、残余/Jacobianη、原高度均未计算。R794正在用既有Hom筛较小η极除子输入；R795只新增已成recipe的power6 q0..81，不重算旧生产者。
+R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156局部代数，再扩标量到L评价原A/B；无未认证局部根。由单一L-cusp轨道与不可约K[T]作用，全部非零原Hom在20 cusp不分歧，故新同靶加法映射均e=1。新V6/μ33、实际1116秩、残余/Jacobianη、原高度均未计算。R794低degree输入已真实选出，R795六次幂q0..81已准确完成；不重算旧生产者。
 
 ### 原1206次映射的明确实下降模型比较
 
@@ -145,6 +145,6 @@ R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156�
 
 [R794](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)证明原12个Hom基与两两和的范数张成整个实域，按真实Gram次数去迹后覆盖原F⁰。固定149候选作按degree排序的线性拟阵贪心，只声称该清单内最小总degree；原κ/e_R、全部五方向和可逆基变换保持。一般a∈E的映射先在K上，Norm的自伴NS类/η在⊗Q下降；实际线丛的二挠代表比较和刚性化常数仍须保。[真实run43691270124已成功](results/R794-certified-original-low-degree-eta-basis.md)：原12单norm实际rank5，选择f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728、m7/7/7/8/8、N170/172/176/193/196，原基可逆变换已核。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f。后续采用这五条真实新输入；R797新增其Laurent，原极除子、η和高度未计算。
 
-### R795：只新增普通power6的准确短基
+### R795：普通power6准确短基已完成，固定乘法尚缺
 
-[方法](notes/R795-exact-ordinary-power6-prefix-method.md)与公开工程已审并启用真实请求。只读R775已成1506条power6配方和R786旧power1/5准确行，新增q0..81的82¹²尺度乘积；保40个ξ坐标及原v,t的20实坐标，逐项核旧mod739与反演。已有6+1244输入文件逐SHA/schema通过，只是IO核验。core2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac；实际新基待run，不称μ33/极除子/高度已得。全部完成阶段和最小旧输入随一日bundle续传。
+[真实run43692029484](results/R795-certified-original-power6-short-basis.md)以22.7376432秒完成1506条原q0..81行、82¹²尺度、40ξ/20t坐标，完整旧mod739比较与反演通过。certc5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae；全部1515文件SHA和原次序已核。只新增原R775配方在旧R786一次/五次行上的准确乘积，无旧数学重算。后继须真实构造μ33，未计算极除子、η或高度。

@@ -342,4 +342,6 @@
 
 - **R794（公开准确选择已完成）**：[原五维η的低次数输入](results/R794-certified-original-low-degree-eta-basis.md)。run43691270124/source7cf16012，原12单norm实际rank5；选f0/f3/f1/f0+f10/f0+f4，degree1485/1521/1602/1674/1728，m最多8、完整Laurent条件最多196，保原R791五方向可逆基变换。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f；只在149候选内最小总degree8010。新极除子/η/高度仍未求。
 
-- **R795（公开工程已启用，实际短基待run）**：[普通power6 q0..81方法](notes/R795-exact-ordinary-power6-prefix-method.md)。只由真实R775配方和R786旧power1/5生成1506条新82¹²尺度行，保原40/20坐标、mod739与逐项反演，不重算旧E1/短基/Laurent，不预称μ33或高度已得。
+- **R795（方法及公开工程已成）**：[普通power6 q0..81方法](notes/R795-exact-ordinary-power6-prefix-method.md)。只由真实R775配方和R786旧power1/5生成1506条新82¹²尺度行，保原40/20坐标、mod739与逐项反演，不重算旧E1/短基/Laurent，不预称μ33或高度已得。
+
+- **R795（公开准确计算已完成）**：[原1506条六次幂短基](results/R795-certified-original-power6-short-basis.md)。run43692029484/sourceac6d8fff，22.7376432秒完成q0..81、82¹²及40ξ/20t坐标，原mod739/反演逐项通过。certc5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae；全部1515输出SHA已核，只新增缺失power6，旧生产者不重算。固定μ33、实际极除子/η/高度仍须求。

@@ -2,54 +2,49 @@
 
 ## 目标、授权、同步
 
-证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；日志Asia/Taipei。以远端main为准，不寻找或重推旧未推分支。
+证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次Hurwitz前H](notes/2026-11-15-handoff-before-Hurwitz.md)。
+**已读规则提交：87d7b071baa3aa03c9fb0182d386d7818f3dada2**（2026-11-15 08:09 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
-**已读规则提交：8e52679dcf3b934c2c488915c4b9622be6e6bf3c**（2026-11-15 07:54 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R796前H](notes/2026-11-15-handoff-before-R796.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
-每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
+## 正在运行与下一实际接缝
 
-## 当前实际计算与直接续点
+**R787原函数run43683912711仍运行**（source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921，06:06 UTC起，core预算300min）。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。复用R786/R781真实包，14分支共同主元/自由列=1；Dixon在原L整基全残差逐阶提升，仅模素数逆。须非零A/B通过完整129×20 L准确代回才登记原y；不能预称β/高度。预算到后读实际断点精确续跑，完成输入随一日包转交。
 
-R774原H³/e1、R775全K定义RR基与power6、R781准确R0..142、R786全部1234基q0..128已实际成功；完整run/source/证书/输入SHA见各 certified 结果与本次R793前H。R775旧18完成文件SHA不变，power6维1506；原M2/M6/M12秩146/694/1514。R786原82¹⁰尺度、40坐标/旧mod739比较全保；原y pole1206、129阶全球关系界不变。R778的20 cusp单轨道已证。**不重算这些旧阶段，R777仅备用不触发。**
+**R792证明和全部工程冻结，唯一待R787成功输入。** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)保原共轭$c(f)=-[ζ²]f$，$y_0=√{-3}v_0,x_0=ζ²u_0$及$F_b=Q(b)$中的唯一立方根。最高21次Q分解的唯一奇次数因子+三次gcd准确选根；Fb仅指定实嵌入，不称Galois或全实。共同零阶0/1已有首jet够用；四值全零则需更高jet。只得β_C及真实$vβ$，不是原A有限同源核原像。
 
-- **R787原函数run43683912711实际运行中**：core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04；原R786+R781真artifact，14分裂分支同一主元/自由列=1，Dixon在原L整基逐阶全残差校验，仅模素数逆矩阵。只有非零A/B通过全部129×20 L准确代回才成功；原y/β/高度不预称已得。source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921；预算300min；active输入bundle随一日checkpoint续传，Git只小metadata。R777保持备用，R775完整基已成。
+core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending已填R790/R791，无active请求。只下载三直接producer，父bundle复用R735/R775/R786，两旧小回执按SHA取Git。原14坐标、82²/82¹⁰尺度、已核实际IO都保持，未知成功项不预填。
 
-## 原CM与原同态新续点
+## 已完成的新准确输入
 
-**R790原CM值已实际完成**：run43688215703/source9e4074fd，194阶段/146原M2值与首粗导、82²尺度，1101.720秒。5实际种子/10反射对，μ3投影后两个280次域迹；原g_star、E6_alg=−c6、完整zeta和z换参均保。core981eb543不变，cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd、artifact14151827531；全部202文件SHA已核。旧manifest准备失败已修且未跑数学。原power2–5保在新bundle供R792；真实y/β/高度尚缺，不能假定分母非零。见[R790实际结果](results/R790-certified-original-CM-fiber-jets.md)。
+- **R790原CM值/首粗导**：run43688215703/source9e4074fd，194stage、146原M2行，82²尺度，1101.720秒；5实际种子/10对，完整zeta、E6_alg=−c6、μ3投影及两个280次域迹。cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd，artifact14151827531，全部202文件SHA已核。原power2–5随bundle给R792。[真实结果](results/R790-certified-original-CM-fiber-jets.md)。
+- **R791原Hom/实下降/η输入**：run43686308194/sourcef945ef5d；T阶21、实/反实rank6、12原CM切向非零。原f4 degree1206，f_R=f4−f6 degree3618；原$e_R=κv^†v$和五维F⁰保持。cert及全部绑定见[结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。
+- **R794新五方向已真实选择**：run43691270124/source7cf16012，0.0557秒；12单norm已rank5，149固定候选选f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728，m7/7/7/8/8，N170/172/176/193/196。保原R791双向基变换及原六微分坐标，非全格最优。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f、artifact14152074788；[结果](results/R794-certified-original-low-degree-eta-basis.md)。三同源主函数未代算原对称代表二挠刚性化。
+- **R795新power6短基已成**：run43692029484/sourceac6d8fff，22.7376432秒；1506行q0..81、82¹²、原40ξ/20t坐标和全部mod739/反演核验通过。core2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac；certc5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae，artifact14152762920。全部1515文件SHA已核，无旧阶段重算。[结果](results/R795-certified-original-power6-short-basis.md)。μ33/极除子/β/η/高度尚未算。
 
-**R791实际成功**：run43686308194/sourcef945ef5d，原阶21作用、实/反实rank6、12个CM切向均非零；不可约K[T]还证明全部非零实际Hom在c1不分歧。原$f=f_4$ degree1206，$c(f)=-[ζ²]f$，$f_R=[1-ζ²]f=f_4-f_6$ degree3618。原极化$e=κv^†v$及完整五维F⁰已落实；同一η可用较小裸极除子但保三同源主函数。artifact14149997458，全部证书/坐标规范见[R791](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。实际η/β/高度缺。
+旧R774原H³、R775普通power1..6、R781原R0..142、R786全部power1..5 q0..128均已完成；完整run/source/输出SHA在各certified结果与前H。R775维146/418/690/962/1234/1506，R786原尺度82¹⁰；**禁止重算，R777备用不触发**。
 
-**R792证明及合成工程已成**：原CM共轭给$y_0=√{-3}v_0,x_0=ζ²u_0$，$u_0,v_0∈F_b=Q(b)$，七次域中$u_0³=y_0²-b$唯一。最高21次Q分解的唯一奇数次数因子+三次gcd准确选根；保原十四坐标/82²与82¹⁰。共同零阶0/1首jet足够β_C及$vβ$，不冒认原A的有限同源核原像。[证明](results/R792-original-beta-composition-and-Galois-cube-root.md)。
+## 当前证明与后继工程
 
-core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d与wrapper/workflow冻结；非触发pending请求已填R790/R791，仅R787未知，不能预填成功。只下载R787/R790/R791，由父bundle复用R735/R775/R786；两缺失旧小回执按SHA取Git。实际现有组/父包IO已核，六组最小输入随新bundle续传。高度未算。
+[R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)：V3/V6=690/1506，固定μ33只需q0..81；原V6关系142项足够，旧R781 y已够。固定s=τB后再求u，真实rank1116给264维W_F、degree426残余。一般d令m=ceil((d+254)/272)，f0=272m−d；保$G=s/(fτ^{m-3})$全部常数及原c0刚性化。K上局部代数后扩L，不混字段；全部非零实际Hom在20 cusp不分歧。实际新矩阵/η/高度尚缺。
 
-**R793已证明**：普通V3/V6=690/1506给固定KM乘法；原V6中142条完整Laurent关系足够，不新增R781旧y前缀。固定s=τB后只求第二u；真实rank1116即得264维残余除子。R790点/首导经真实胖点乘法构造K上长度155/156局部代数，再扩L求A/B，不需高阶挠变形。保G=s/(fτ^(m−3))全部常数和原c0刚性化；全部非零实际Hom在20 cusp不分歧已证。新矩阵/η/高度未算；[完整证明](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)。R794筛较小η输入、R795只新增power6前82项正在工程。
+**R796待登记/启用**：exact_height的二次局部图证明及工程冻结；只用旧M2 q0..27与R790点/首导，适配τ、σ及144个二重零截面，选416个W_P二次单项式，完整char0代回144关系，得到x=Q(t,x)、Jacobian I144。当前目标length2只求真实全局图；高N按真实消费需要新增，不自动算155/290。proof8bf2662434d8117be5514cfbe9ba19fa089167c6e7bab76c079daded66fe40d4，core636cf73825ff99b11b44c7186fd4ef5af9dcbb311949cdd0c03e08ea424218c6。
 
-[原实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)：D_(1−ζ)把原f以degree1同构降到Fb上的C′:Y²=X³−27b，映射degree仍1206；ψD=[1−ζ²]、ψ*ω=3ω′，极化e′=e/3且原h仍须因子3。原q/基点不改，主函数新旧常数(-27)^[-7(bj+aj)]明确保留；不以模型替换消高度规范。
+**R797待审核/启用**：ordinary_local冻结五个新映射Laurent工程。仅收缩旧R77456个共同G_iG_jG_k，新标量各自保4·mult/1722³与q移一阶；无原f4标量复用。真实新N170/172/176/193/196，保R781无逆递推除数3n+1、原v相位，全部新算术留Actions。corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。
 
-**R794真实选择已成**：run43691270124/source7cf16012，0.0557秒。原12单norm实际rank5；149候选选f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728，m7/7/7/8/8，N170/172/176/193/196。最大m由14降8、N358降196；保原F⁰和实际可逆R791基变换，非全格最优。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f、artifact14152074788；见[R794真实结果](results/R794-certified-original-low-degree-eta-basis.md)。只得原η类输入及新微分组合，未求极除子/η/刚性化/高度。R797预留root新增这五条Laurent，R796做较小CM局部接口。
+root预留R798固定有理μ33；ordinary接R799原power7/8最短基方法，先q95/108，不自动扩195。三项尚未计算，不预填秩。
 
-**R795已启用**：只消费R775真power6配方及R786旧1/5行，新增1506行q0..81、82¹²尺度和40/20坐标；core2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac。6+1244个旧输入已逐SHA/schema核，非本地算术。结果待run，未求μ33；完成行/输入随1日bundle续传。R797工程现由ordinary_local接手，原五新Laurent只收缩旧R774的56个Hodge三积。
+[实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)：D_(1−ζ)使原f在Fb上的C′:Y²=X³−27b定义、degree仍1206；ψD=[1−ζ²]、ψ*ω=3ω′、e′=e/3，原h必须保3倍及主函数(-27)常数。当前原模型/原q/基点不换。
 
-## 已成输入与ordinary续点
+## 必须保持的原规范与未解主线
 
-R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom及R759完整Z格rank12/O_K6全部完成；原index4 degree1206非全局minimum。保b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246、c1=4424/c0[2876,2822,2823]。R764全格全部cusps/c0映O，fP=f0。R762商Y genus127；R767真实M2正常生成及8椭圆主部；R769完整degree≤693排除关闭，不扩可选SVP。原全部run/SHA见正式结果及[本次R790前H](notes/2026-11-15-handoff-before-R790.md)。
+R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom与R759完整Z格rank12/O_K6皆已成。b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246、c1=4424/c0[2876,2822,2823]；原Y genus127，R764全格cusps/c0映O。R769 degree≤693完整排除已关闭，不扩SVP。原R707 p41全129盘=121排除+8CM/无Qcusp，**不要重做分类**。
 
-原ordinary p43/776bitq已Gaussian5排除，非Serre反例；原P0/P+、divisors、τ/s11不变。R773完整格、R776真cochain、R779原实下降、R780完整NT像均已证，不能再用三Norm自动条件定值。R783规范cs=A x²+B xz+I³，Θ=B−iA=13b，b=10Θ、Ω₂/ε=22−2Θ，实际目标Θ≠11仍开。局部Norm自由度不是global Robert值。
+主目标余R317：p>37、p≡2/5mod9、完整非分裂正规化子、a³+db³=1及p|b；D/bc无统一上界。R575真正CM角色Ψθκ4根号负，旧逆扭秩零应用已撤回。R616/R726充分大全p非挠/rank=dim/log同构仅给高度接口，不是有理点排除。
 
-[完整平衡jet](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)：原cs沿z=(1+T)^i−1的二阶K给dR=(Ku−11/2)d0−iKq dq、Θ=−iKq，坏值Kq=11i；保Euler首项、exact-dual作用及全部一次交叉项。实际Kummer/Shapiro比较、全球dual与Θ未求；不以pure-p24替代，不新增巨大q挠点枚举。旧公式/原相位/限制详见归档链。
+ordinary原p43/776bitq已Gaussian5排除，非Serre反例。R773/776/779/780原格/cochain/real/NT像已成；三Norm/深度条件自动，不定真实Robert值。R783规范Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ；坏值Θ11。完整平衡jet给Θ=−iKq，坏值Kq11i；真实Kummer/Shapiro、global dual、Θ仍缺。禁止巨大q挠点枚举，保Euler与一次交叉相位，细式在原笔记/前H。
 
-## 全p sigma与真正高度缺口
+全p sigma真正目标是**同一个primitive/Legendre可见h**的N_h和两个Cartier量三单位。R734/R741与R737不可拼标签；R782/784三wedge/保筛左逆及R788跨p核/rank6/Schur已证但不排有限域相消。R739真p41/h37否定可见筛内逐项单位反射；C13单位仍不能消N+1高带，D/D6闭包恰L(pO)，固定宽捷径关闭。[Hurwitz高块刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，完整核由首p×p矩形唯一决定；升p²/Hirota不加独立条件。sigma_uniform继续首矩形独立Cartier/几何配对，未称真正非零。
 
-主目标余R317：p>37、p≡2/5mod9、完整非分裂正规化子、a³+db³=1、p|b，变化D/bc无上界。R575正CM角色Ψθκ4根号负；旧逆κ4秩零应用撤回。R616/R726已给充分大全p原指定β非挠、rank=dim及log同构，只是高度接口。R707 p41全129盘=121排除+8CM且无Qcusp已关闭；R706有限5992窗、R719/R722的137147和R739两定点均不重做。
-
-**真正同标签非零仍缺**：原primitive/Legendre可见集要求同h的N_h和两个Cartier量三单位。R734/R741的N单位数不能与R737低η比例拼接。R730全尾、R742整数η和R744真Weierstrass因子已证；深度4/5/6实际根与高度仍须求，不用完整Abel等距替正秩有理点排除。
-
-R782/R784三wedge六截面、保筛左逆与R788准确跨p Cartier有限核/rank6/Schur均已证。未筛critical全零迫六零行不能移到primitive筛后；D12常系数消高带会同时消critical，R739真可见p41/h37也否定逐项单位反射。跨p源C13单位仍不能消N+1高带；六有理截面的D与D6闭包恰L(pO)，固定宽捷径关闭。完整证明与失败边界见[前H归档](notes/2026-11-15-handoff-before-Hurwitz.md)及所链notes。
-
-[Hurwitz高块刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)：保原六同源/Gaussian/tame点，全部普通导数a_(p+n)=κ n a_(n−1)、b同式；双核D_z^p K=2κzK、D_t^p K=2κtK，故完整核由首p×p矩形唯一决定。两数位gauge准确复现R788 Φ，同核升p²/Hirota不加独立条件。后续只寻首矩形内独立Cartier/几何配对，未称critical或真正筛后非零。
-
-**真正高度主缺口**：R690/694/696坏靶Ω={0}；R634消A高度矩阵但保Y/Picard/常数。R724给完整第二类period、MW轨道、Poincaré/universal extension、非p项与尾及有限Bézout接口；未反演H。R785原Rosati块把参数压至ΣdimFα⁺，首外积类保CM值与切向两列且splitting不变。实际η/β、规范高度jets、(724.33)有限Bézout及全p存在均未完成；不以Rosati实正定代p进非零。原全部公式/符号由正式R724/R785及归档链保留。
+R724原第二类period/MW轨道/Poincaré/universal extension/非p项及有限Bézout接口完整，真实值未求；R785原Rosati压到ΣdimFα⁺且首外积保CM值与切向两列。**实际η/β、规范高度jets、(724.33)有限Bézout及全p存在均未完成**；不能以实正定、有限计算或算法存在替代主定理。

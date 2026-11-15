@@ -454,3 +454,8 @@
 - R795 core/method/wrapper/workflow全审并启用真公开请求；只新增原1506条power6的q0..81，原R775配方与R786旧因子逐SHA/schema对齐，双40/20坐标与旧mod739逐项验证。
 - 输入实际IO共R775六文件/R7861244文件通过，旧数学没有本地重算；core2a338672、method084cc240、R793 proof6f716b64冻结，完成行与输入独立一日bundle续传。
 - open逐字归档压缩并保所有旧公式/限制。R797由ordinary接续，只用旧R77456个共同Hodge三积收缩五条新函数，R796最小CM局部接口继续，主目标OPEN。
+
+## 2026-11-15 16:09 Asia/Taipei · serre-public-astra-20261115
+- 正式登记R795公开run43692029484成功：1506条原六次幂基q0..81、82¹²、40ξ与20t坐标，全部旧mod739及反演准确验证，核心22.7376432秒。原basis/recipe/基点不变。
+- root核实际ZIP、全部1515输出/1507阶段SHA与schema、原次序尺度和run/source/core链；仅IO，无本地数学。大manifest/准确表不入Git或Release，旧1/5输入随一日活跃包给后继。
+- H逐字归档后重新压缩，open/index同步。R796局部二次图与R797五新Laurent工程已冻结待启用，R787仍运行；μ33/原β/η/规范高度及全p主目标仍OPEN。
