@@ -456,3 +456,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R326 完整证明](results/R326-one-global-second-gauge-pays-the-complete-rational-port-and-preserves-joint-cost.md)从原八实际副本的七阶有限差分与二次跨尾配对（保I2一阶导项）证明全部E8三次Ij准确为零。令X为真实累计入矩阵，wc=−XD于是同collar、全局第三合法、种子零。完整Z/U比较保留所有平方、交叉和真实第三齐次初值，证明指定新端口完整ruling进入We；一个全局第三Gram家族精确支付三个We系数。本稿根读时修正L2 adjoint排版为x²φ''''+4xφ'''，未重算。
 
 这一规范的全周期真实代价是Vd−2τLf(XΔ)、Ve+2τLf(Xfg)，没有置零。后续同一k保持已付端口当且仅当三合法矩、七σh^ℓ系数及三个Eh^j系数全零，并必须同时2τLf k=−Vc；十个端口行由原T及真实history全式给出，13只表示列出的行数。其它几何段还用同一k与第三规范联立，未授全局第四、精确族或主目标。无新执行。
+
+
+## R325：朝内弱核圆同时支付三条 directed 门及原完整一层兼容量
+
+[R325 完整真实构造](results/R325-inward-weak-hook-circles-pay-three-directed-rows-and-the-one-history-compatibility.md)保R320朝外严格否定，改用朝内反射：右侧左向5/2曲段与真实镜像使面积m1=(2LM+常)sin²θ；固定Q4/cs强修正后，strong isotropic正四次幅支付全部三外矩。准确Ψ=C+(2LM/9)(N/P−7)，而7P−N=40+614t+530t²+4092t³+306t⁴严格正，故一个有限L给负值。完整strong宏块给正Ψ，以真实正幅组合清零，没有借signed成本。
+
+未先假三行零的完整一层恒等保F0/F1/F2余项，新增H_L0全原式证明其全相位仅s²/cs；原12副本清cs。不同完整三矩块的真实二次左尾对I0/1/2严格正交，所有所用行可加。初选同F★加入∫u″4保持Ψ，弱核心不动，只在strong包改形；三主方向矩阵det32ad*非零，两evenχ及12实际交替点产生R3正锥，有限N的完整C1根付三directed并使原一层全θ为零。共同大正I/最终位置/母包/幅/N/新seed与g选择顺序明示。其余完整fourth、其它面积、period/joint、高阶与主目标未付；没有新执行。
