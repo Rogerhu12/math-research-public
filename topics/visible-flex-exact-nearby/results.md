@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：共同径向真实参考的完整 signed 第一源与根处消去。** [F1–22](results/R133-supplement-signed-first-forcing-and-root-cancellation-for-genuine-common-reference.md)准确给f_b^V=f_b+V_j/f_a不变；保全n^-1/^-2/^-3、旧P/I/J六余项/mean/jump，新的w1^V根常数不是旧w1改名。真root径向大项准确消去，余C²−291/140、DC15/14和Kr项；完整mean为V_j−V∞+141〈C²〉/(140κ²)，finite-z Q1在固定z取真实r导。根与tail独立复核完整系数，未运行新数值，整片/正Schur/strong返回仍独立。
+
 - **2026-11-15：追加九项已确证计算输出的精确清理部署。** [worker](scripts/fourfold_codazzi_confirmed_output_cleanup.py)仅接受九个已逐件读取 producer/report 证据的 `(path, Git blob, bytes)`，合计7607204字节；八项另绑定原SHA，第九项在runner读取原blob后真实hash。保全部源码、参数、证明、未列路径及并发新版，原11834项不重复rehash。首轮真实容量206137215字节仍超限；本次实际容量门尚待 Actions，未预称成功。
 
 - **2026-11-15：Green v3 完整有向乘积误差 Gram 合约与公开 Actions 部署。** [合约](notes/2026-11-15-R133-scaled-signed-product-error-Gram-contract.md)以 `DeltaE DeltaE* <= W` 保留误差方向与全部相关性，正 Young 递推、任意指数精确 dyadic 权和缩放、最终完整 `C*H C`；97 维均值、真实 waist/cut 及全部源不变。旧362输入pin逐个不变，v2真实失败的新临时重复计算如实列出；新runner先测资源和32个实际product/极指数全97 Gram，随后同run复用。此为已审合约及部署，尚未取得v3数值门或全无限逆。

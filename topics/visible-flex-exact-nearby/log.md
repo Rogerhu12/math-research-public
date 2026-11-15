@@ -131,3 +131,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:36:14 UTC — 九项精确输出版本清理接续首轮容量失败
 
 根读取 `c445ebe5a274a5ae27e850d51b6b16119737eb89` 两README未变。phase逐件核producer/report，根审完整九项allowlist和原worker差异/新flow；路径、blob、bytes及八个原SHA均固定，另保首轮run43679889657/1的三个小receipt原SHA，最后一项只凭原blob/bytes选取再由runner真实SHA。非白名单/并发改变版本不删；旧11834数据不读或rehash，未确认R46 bootstrap保留。worker `c0039f74065cad450c1bd5cd338261fbace2ea3fcada97b930d0522d9fae2c9e`，flow `30e18c75d412b02c141fb8bd3caef3ab98a2f031d0b86d66926c800b5df27fa6`，静态括号通过，实际AST/普通删除/真实pull与最终计量只在公开Actions。首轮206137215>200000000的失败继续如实保留；后轮若仍超限显式fail，不删未核路径。
+
+## 2026-11-15 07:42:39 UTC — signed 第一源根恒等式独推，接续记录压缩归档
+
+根读main 8ec775c635ff615360cac40a8d98cc82856d98c4，两README未变。F全文14116B/SHA052a0b23535c42523bc25734ed6366fd01a765c6a309b8ca88731b3ffdd707d8；根核F3/F10的µ与n幂次序、F18+F19全部三系数及mean，tail独立复算F17–22、phase原推导通过。均为带符号恒等式，不由上界相减、不称新数值已过。最小新consumer只接原root级输出。前H 9772B/SHAbed4d5f90e9acf90ea56e058854923543b6953883f5c4bd32a5b56b1fa0a71d4，前open 28858B/SHAeca3c199e10e6d954ef85aaba49ddf18b806d1f0d2e31b51355f8eef07912573逐字归档，原全部source/失败/费用/未付义务保。07:39:24真CLI pull尝试仍No usable execution environment；根已读v3首process f35c574f…/12886B及07:39:23.553298真实runner pull至20cccde13e3dfb28b9971f29be669724d25b9701、两README空。v3仅原369pin/1886恢复已核，0math child检查点，不预称preflight。
