@@ -127,9 +127,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R343](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)完整记录actual145 sourcea513ada7/run43716379970：零H收敛，首正s1/64五fresh J/R273均回；α1、1/16、1、1/2四接受，总19原trial中15残差不降/0DSA。末五轮withJ norm195955.61867016536→6775.933695117896→5340.898475958211→2789.867248510024→2317.31958952296；末十档都真实返回，不是旧guard、超时或64请求耗尽。每轮exact129248保存模型约.208仅仿射账；末高Pi109与模型Q2最坏行不同，不能预断原有限root/状态形成的病因。原失败请求不晋为worker成功warm，原raw已退休，后继须同源真实再生，338×112/FD/fullDN/审计仍未起。下一实质任务在真实当前正H/状态上比较保存方向与原noJ映射，保原32×10/严格下降/2e−9，不盲减H或用零H结论移贴。
 
-### Request167：四次工程失败后明确收缩科学读回范围
+### R350：原157必要完整标量的实际读回
 
-[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)保四次实际失败：整数key编码、807621B选择集、165947B单结论、43737885686/source7280b5a2的114703B单结论。最新failure2285B/484d2f2e，490组/14095项全核、原数据仍只在Actions。新c01e5469/eee0607f/4fcc32c8只输出18原FD层max/flags/真异常、84trial七列(index/alpha/accepted/merit/F3/Armijo/reason)、8终态scalar及最后实际方向；初末少量原值保，大J/H及前七方向只身份，全部原组仍读。目标40–60KB、硬限90KB；未来大小与R350结论未知，不重科学、不编码拆表、不设root全表逐值门，164独立继续。
+[R350](results/R350-actual167-original157-FD-trials-and-last-direction.md)核第五次167 sourcecdcff243/run43738237606，唯一结论80173B/ea07c9b4，490组/14095项身份闭合、18FD层/162项全valid、84真实trial七列与末方向已读。四工程失败原保；没有重算科学。末F₁=−3.1506231123948516668007663718322660943324676402452，末相对梯度D·JᵀF约1e−26，binary64投影小奇异值不是准确rank/驻点证书；四组20normal的七列逐词相同且全拒。域/圆实际紧凑字段为空，只付identity；大矩阵/前七详细方向亦仅Actions已读，不能冒root逐值核。164仍须在自己明确十坐标新族上重算full3/实际response/FD/域及全部终态，不为传输空项另加前置门。
 
 ### R344：八批真实37模型后只加观察到的LEFT462
 

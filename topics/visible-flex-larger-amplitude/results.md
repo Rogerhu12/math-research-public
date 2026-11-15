@@ -264,3 +264,5 @@
 - [R360：当前正H完整残差的有限割线与状态形成分解](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)（已证，无新数值）：全部129248原行d=b+Aq+s；固定cut/far仿射抵消、原sigma-max上下界及明确C²参考的Taylor分解。为145当前映射差距提供可测责任，未预断病因、导数精度或新接受。
 
 - [Request168：当前C全幅射影传播与完整单位Robin行运行接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)：九件/25pins、R347/R357全闭候选与误差；原zero-H full112/338/audit门保。明确两phase资源裁剪与真实owner读后清，未预填native结果或同一准确C实现。
+
+- [R350：实际167对原157的完整FD层、84试探及末方向读回](results/R350-actual167-original157-FD-trials-and-last-direction.md)：第五版80173B单结论成功；18FD层全valid，末第一残差仍约−3.15而缩放梯度约1e−26，非精确驻点/秩证书。四组normal七列全同且全拒；域/圆与大矩阵仅身份范围明确，164独立继续新形状族。
