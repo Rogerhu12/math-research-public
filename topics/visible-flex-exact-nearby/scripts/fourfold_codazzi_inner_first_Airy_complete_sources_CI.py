@@ -45,11 +45,19 @@ def main():
             if not path.is_file() or sha(path)!=f["sha256"] or path.stat().st_size!=f["bytes"]:
                 raise ValueError("an exact original input changed: "+f["path"])
         state["verified_input_files"]=len(manifest["files"])
+        state["complete_external_native_receipts"]=[]
+        for spec in manifest["external_completed_natives"]:
+            path=repo/"originals"/spec["prepared_path"]
+            if not path.is_file() or sha(path)!=spec["sha256"] or path.stat().st_size!=spec["bytes"]:
+                raise ValueError("the complete original directed native changed")
+            state["complete_external_native_receipts"].append(dict(name=spec["name"],
+                run_id=spec["run_id"],sha256=sha(path),bytes=path.stat().st_size))
         state["complete_original_native_receipts"]=[
             dict(name=k,sha256=sha(repo/manifest["input_paths"][k]),
                  bytes=(repo/manifest["input_paths"][k]).stat().st_size)
             for k in ("Taylor_native","Taylor_process","auxiliary_native","auxiliary_process",
-                      "exact_fold_native","radial_reference_native","original_norm_native")]
+                      "exact_fold_native","radial_reference_native","original_norm_native",
+                      "directed_native","directed_process")]
         source=repo/TOPIC/"scripts/fourfold_codazzi_inner_first_Airy_complete_sources.py"
         native=output/"inner-first-Airy-complete-sources.json.gz"
         command=[sys.executable,"-u",str(source),"--repo-root",str(repo),
@@ -78,7 +86,10 @@ def main():
             keys=("runtime","original_Taylor_native_sha256","original_Taylor_process_sha256",
                 "original_auxiliary_native_sha256","original_exact_fold_native_sha256",
                 "original_exact_fold_process_sha256","original_radial_reference_native_sha256",
-                "original_completed_norm_native_sha256","exact_real_delta_radius","fixed_intrinsic_parameter",
+                "original_completed_norm_native_sha256","original_complete_directed_native_sha256",
+                "original_complete_directed_process_sha256","original_complete_directed_table_sha256",
+                "specific_legacy_two_stage_reuse","original_all1328_row_identities_verified",
+                "exact_real_delta_radius","fixed_intrinsic_parameter",
                 "input_cutoff","physical_frequency","actual_first_correction_density","source_window",
                 "exact_root_interval","exact_physical_inner_interval","exact_physical_rho_cover",
                 "exact_original_physical_piece_interval","original_directed_table_sha256",

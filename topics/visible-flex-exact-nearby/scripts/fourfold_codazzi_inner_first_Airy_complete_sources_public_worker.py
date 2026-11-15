@@ -172,7 +172,9 @@ def main():
         original_radial_reference_native_sha256=manifest['original_radial_reference_identity']['native_sha256'],
         original_Taylor_native_sha256=manifest['Taylor_identity']['native_sha256'],
         original_Taylor_process_sha256=manifest['Taylor_identity']['process_sha256'],
-        original_auxiliary_native_sha256=manifest['auxiliary_identity']['native_sha256'])
+        original_auxiliary_native_sha256=manifest['auxiliary_identity']['native_sha256'],
+        original_complete_directed_native_sha256=manifest['directed_identity']['native_sha256'],
+        original_complete_directed_process_sha256=manifest['directed_identity']['process_sha256'])
     candidates=[]
     previous_root=root/TOPIC/'notes/inner_first_Airy_complete_sources_ci'
     processes=list(previous_root.glob('*/consumers/process.json')) if previous_root.exists() else []
@@ -210,6 +212,7 @@ def main():
             original_native_bytes=resume.stat().st_size,completed_new_inner_source_stages=jets,
             completed_integral_rows=cells,original_complete_inner_cases=cases,original_complete_native=complete,
             all_source_runtime_and_input_pins_unchanged=True)
+    state['specific_legacy_schema_repair'] = manifest['permitted_schema_repair']
     state['command'] = command
     state['complete_original_inputs_verified'] = len(manifest['files'])
     save(output/'worker-process.json', state)

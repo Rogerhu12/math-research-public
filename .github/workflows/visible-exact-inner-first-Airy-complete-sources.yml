@@ -30,9 +30,9 @@ env:
   OPENBLAS_NUM_THREADS: '1'
   OMP_NUM_THREADS: '1'
   PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-inner-first-Airy-complete-sources-CI-inputs.json
-  PHASE_MANIFEST_SHA: 373af63c2d6357a01210dc2d746d26fea79758f6c9068f5bef68d06c671ecef6
-  PHASE_WORKER_SHA: c6aecd7d069812d7f687fd6be59fc66974ce9f11f8372041eeaa023eb646723e
-  PHASE_PIPELINE_SHA: 3a3a68c9f30ae00b543101e6c8ac832bc2fa347508a8b00ffb644d9a420dbf28
+  PHASE_MANIFEST_SHA: 76faab17f11d84dd47e5f4e71695393deba10d6a962ac648ce0b8f3b5a91786b
+  PHASE_WORKER_SHA: d54335e63995deb064118d48ad42c7cf5945529cdff17b7417c9fe500fc2fbfa
+  PHASE_PIPELINE_SHA: e52145f7696fc3ecf886ee7fbf6c6c8f19512d425af150294422ee88a86cfba9
   REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
   REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
 
@@ -68,7 +68,7 @@ jobs:
           if hashlib.sha256(path.read_bytes()).hexdigest()!=os.environ['PHASE_WORKER_SHA']:
               raise SystemExit('the complete public worker changed')
           PY_WORKER
-      - name: Hydrate59 exact inputs while preserving original28 and23 pins
+      - name: Hydrate64 exact inputs and the sole two-stage schema recovery while preserving original28 and23 pins
         run: >-
           python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources_public_worker.py
           --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
@@ -91,6 +91,13 @@ jobs:
           printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-inner-first-Airy-complete-sources-output" >> "$GITHUB_OUTPUT"
       - name: Prepare a separate optional prefix directory
         run: mkdir -p "$RUNNER_TEMP/visible-exact-inner-first-Airy-complete-sources-prepared"
+      - name: Restore the complete original directed width and operator-word native
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-directed-matrix-old-circle-sources-43632464994-1
+          run-id: 43632464994
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-inner-first-Airy-complete-sources-prepared/directed
       - name: Restore an explicitly selected exact inner source prefix
         if: ${{ inputs.resume_run != '' }}
         uses: actions/download-artifact@v4

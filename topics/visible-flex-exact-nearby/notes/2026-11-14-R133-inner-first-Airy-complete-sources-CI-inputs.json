@@ -17,9 +17,26 @@
     "Taylor_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/complete-old-rho-first-Airy-Taylor.json.gz",
     "Taylor_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_ci/run-43653825736-1/consumers/process.json",
     "auxiliary_native": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
-    "auxiliary_process": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json"
+    "auxiliary_process": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_v2_ci/run-43647998272-1/consumers/process.json",
+    "directed_native": "originals/directed/consumers/directed-matrix-old-circle-sources.json.gz",
+    "directed_process": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+    "legacy_native": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43656438723-1/consumers/inner-first-Airy-complete-sources.json.gz",
+    "legacy_process": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43656438723-1/consumers/process.json",
+    "legacy_source": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/source-bac8b991fb2672017.py",
+    "legacy_manifest": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/manifest-373af63c2d6357a0.json"
   },
-  "external_completed_natives": [],
+  "external_completed_natives": [
+    {
+      "name": "directed",
+      "run_id": "43632464994",
+      "run_attempt": "1",
+      "artifact": "visible-exact-directed-matrix-old-circle-sources-43632464994-1",
+      "inner_path": "consumers/directed-matrix-old-circle-sources.json.gz",
+      "prepared_path": "directed/consumers/directed-matrix-old-circle-sources.json.gz",
+      "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+      "bytes": 7873296
+    }
+  ],
   "complete_fold_identity": {
     "run_id": "43642808159",
     "run_attempt": "1",
@@ -90,7 +107,7 @@
     "local_first_row": "J P S(mu L0 w1)",
     "all_nine_nonlocal_terms_and_independent_even_mean": true
   },
-  "prefix_recovery": "Only identical scientific source, manifest, runtime and all exact original native/process identities. Preserve each new complete stage, each new matrix conversion and every partial source integral before the next. Never rerun accepted target, coefficient, Fourier, flow, fold or Taylor stages.",
+  "prefix_recovery": "Identical scientific source, manifest, runtime and original native/process identities are required for ordinary prefix recovery. The sole cross-source exception is the exact run43656438723-1 child1 identified in permitted_schema_repair: copy its two complete unchanged stage payloads only, after checking exact original source, manifest, process, native, the unchanged full numerical function prefix and all_airy closure. No matrix or integral from that failure exists or is inherited. All other cross-source prefixes are rejected.",
   "scope": {
     "full_old_circle_output_and_mean_retained": true,
     "same_original_physical_piece_only": true,
@@ -168,6 +185,11 @@
       "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f"
     },
     {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+      "bytes": 49990,
+      "sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8"
+    },
+    {
       "path": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/exact-fold-cancelled-sources.json.gz",
       "bytes": 3180936,
       "sha256": "0ceafc2ba2adb8c1e14ab74c3059b0a0fde39446855df0889dec741f1cb61cfe"
@@ -176,6 +198,26 @@
       "path": "topics/visible-flex-exact-nearby/notes/exact_fold_cancelled_sources_ci/run-43642808159-1/consumers/process.json",
       "bytes": 36740,
       "sha256": "67bf926abf9066d8f09dd8fbb16cd439770203b5e551c2fa374ef42f9abfc3b8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/manifest-373af63c2d6357a0.json",
+      "bytes": 20483,
+      "sha256": "373af63c2d6357a01210dc2d746d26fea79758f6c9068f5bef68d06c671ecef6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43656438723-1/consumers/inner-first-Airy-complete-sources.json.gz",
+      "bytes": 12436,
+      "sha256": "76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43656438723-1/consumers/process.json",
+      "bytes": 15314,
+      "sha256": "ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/source-bac8b991fb2672017.py",
+      "bytes": 31319,
+      "sha256": "bac8b991fb2672017f14b1068282eb7876aa93eda6f198f3bedd6c5e2f23c095"
     },
     {
       "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
@@ -344,13 +386,13 @@
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources_CI.py",
-      "bytes": 7841,
-      "sha256": "3a3a68c9f30ae00b543101e6c8ac832bc2fa347508a8b00ffb644d9a420dbf28"
+      "bytes": 8681,
+      "sha256": "e52145f7696fc3ecf886ee7fbf6c6c8f19512d425af150294422ee88a86cfba9"
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources.py",
-      "bytes": 31319,
-      "sha256": "bac8b991fb2672017f14b1068282eb7876aa93eda6f198f3bedd6c5e2f23c095"
+      "bytes": 40131,
+      "sha256": "0b0dc7b3b5c747dd8935f77c75554c60f2b08fd40a6cf5dd27c7c81f5c945fbf"
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources.py",
@@ -397,5 +439,46 @@
       "bytes": 27819,
       "sha256": "c3bb77f96f05ceedd05a0fc4cda39d591065d4ee2203fd7b05be79169d04709d"
     }
-  ]
+  ],
+  "directed_identity": {
+    "run_id": "43632464994",
+    "run_attempt": "1",
+    "source_sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d",
+    "manifest_sha256": "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f",
+    "native_sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+    "native_bytes": 7873296,
+    "process_sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8",
+    "process_bytes": 49990,
+    "complete_coefficient_rows": 1328,
+    "complete_gates": 8
+  },
+  "permitted_schema_repair": {
+    "original_run_id": "43656438723",
+    "original_run_attempt": "1",
+    "actual_original_child_returncode": 1,
+    "exact_original_mathematical_failure": {
+      "type": "KeyError",
+      "message": "'complete_width_evidence'"
+    },
+    "source_sha256": "bac8b991fb2672017f14b1068282eb7876aa93eda6f198f3bedd6c5e2f23c095",
+    "manifest_sha256": "373af63c2d6357a01210dc2d746d26fea79758f6c9068f5bef68d06c671ecef6",
+    "native_sha256": "76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b",
+    "native_bytes": 12436,
+    "process_sha256": "ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279",
+    "process_bytes": 15314,
+    "accepted_stage_payload_sha256": {
+      "new-inner-Airy-profile-and-exact-PQ-jets": "9809a086152cbf69649dea0a0fcc90710411897caa02863992294530ca2f87b2",
+      "all-inner-amplitudes-and-complete-Airy-operators": "1f46b066ae07b7d06cf9678040aa4bab0a04232b80f24a899819cef7eea3a0a8"
+    },
+    "original_successful_stages_recomputed": 0,
+    "original_matrix_conversions": 0,
+    "original_integral_rows": 0,
+    "unchanged_complete_numerical_prefix": {
+      "prefix_sha256": "45af989916129a4d193e6ad948cc2c83d9a5428c9f8181161b4bafe47c3413df",
+      "prefix_bytes": 11893,
+      "all_airy_sha256": "b0b627aaa4ca7edcb14c64f1fcc534a56d565b1e17627420714b44bb3d11406d",
+      "all_airy_bytes": 854
+    },
+    "other_cross_source_recovery_permitted": false
+  }
 }

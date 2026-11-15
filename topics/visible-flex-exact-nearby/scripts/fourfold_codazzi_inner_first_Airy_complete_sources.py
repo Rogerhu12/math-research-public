@@ -291,6 +291,100 @@ def radial_weight(left,right,roots,side):
     if not lo<=left<right<=hi:raise ValueError("a new integral crossed a root endpoint")
     return (2*ex(right-left).sqrt()).upper()
 
+DIRECTED="3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b"
+DPROC="00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8"
+DSOURCE="f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d"
+DMANIFEST="29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f"
+LEGACY_SOURCE="bac8b991fb2672017f14b1068282eb7876aa93eda6f198f3bedd6c5e2f23c095"
+LEGACY_MANIFEST="373af63c2d6357a01210dc2d746d26fea79758f6c9068f5bef68d06c671ecef6"
+LEGACY_NATIVE="76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b"
+LEGACY_PROCESS="ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279"
+LEGACY_STAGES={
+    "new-inner-Airy-profile-and-exact-PQ-jets":
+        "9809a086152cbf69649dea0a0fcc90710411897caa02863992294530ca2f87b2",
+    "all-inner-amplitudes-and-complete-Airy-operators":
+        "1f46b066ae07b7d06cf9678040aa4bab0a04232b80f24a899819cef7eea3a0a8"}
+
+def exact_two_stage_schema_migration(repo,manifest,doc,check):
+    """The only cross-source exception is the identified pre-matrix failed run.
+
+    The original complete profile/amplitude functions and all_airy closure are
+    byte-identical. Both accepted original payloads are copied unchanged.
+    No matrix conversion or integral from a different producer is inherited.
+    """
+    paths={k:repo/v for k,v in manifest["input_paths"].items()}
+    fixed=(("legacy_source",LEGACY_SOURCE,31319),
+           ("legacy_manifest",LEGACY_MANIFEST,20483),
+           ("legacy_native",LEGACY_NATIVE,12436),
+           ("legacy_process",LEGACY_PROCESS,15314))
+    check("only the exact identified failed source manifest native and process permit schema migration",
+        all(paths[k].is_file() and sha(paths[k])==h and paths[k].stat().st_size==n
+            for k,h,n in fixed))
+    prev=read(paths["legacy_native"]);process=read(paths["legacy_process"])
+    old_manifest=read(paths["legacy_manifest"])
+    oldtext=paths["legacy_source"].read_text();newtext=Path(__file__).read_text()
+    def closure(text):
+        start=text.index("\n        def all_airy():\n")+1
+        end=text.index('\n        amplitude=stage("all-inner-amplitudes-and-complete-Airy-operators"',start)+1
+        return text[start:end]
+    oldprefix=oldtext.split("def matrix_conversion(",1)[0]
+    newprefix=newtext.split("def matrix_conversion(",1)[0]
+    oldclosure,newclosure=closure(oldtext),closure(newtext)
+    thash=lambda x:hashlib.sha256(x.encode()).hexdigest()
+    check("both successful stages retain the exact complete original numerical function closure",
+        oldprefix==newprefix and oldclosure==newclosure
+        and thash(oldprefix)=="45af989916129a4d193e6ad948cc2c83d9a5428c9f8181161b4bafe47c3413df"
+        and thash(oldclosure)=="b0b627aaa4ca7edcb14c64f1fcc534a56d565b1e17627420714b44bb3d11406d")
+    changed={
+        "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources.py",
+        "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources_CI.py"}
+    pins={f["path"]:f for f in manifest["files"]}
+    check("all original59 inputs except the two declared reader entry points retain exact pins",
+        len(old_manifest["files"])==59
+        and all(f==pins.get(f["path"]) for f in old_manifest["files"] if f["path"] not in changed)
+        and all(manifest["input_paths"].get(k)==v for k,v in old_manifest["input_paths"].items()))
+    keys=("public_repository","runtime","original_Taylor_native_sha256",
+        "original_Taylor_process_sha256","original_auxiliary_native_sha256",
+        "original_exact_fold_native_sha256","original_exact_fold_process_sha256",
+        "original_radial_reference_native_sha256","original_completed_norm_native_sha256",
+        "exact_real_delta_radius","fixed_intrinsic_parameter","input_cutoff","physical_frequency",
+        "source_window","exact_physical_inner_interval","exact_root_interval",
+        "exact_original_physical_piece_interval","original_directed_table_sha256")
+    failure={"type":"KeyError","message":"'complete_width_evidence'"}
+    check("the original child1 ended after exactly two successful stages and before every matrix or integral",
+        str(process["run_id"])==str(prev["run_id"])=="43656438723"
+        and str(process["run_attempt"])==str(prev["run_attempt"])=="1"
+        and process["actual_returncode"]==1 and process["mathematical_failure"]==failure
+        and process["mathematical_source_sha256"]==prev["source_sha256"]==LEGACY_SOURCE
+        and process["manifest_sha256"]==prev["input_manifest_sha256"]==LEGACY_MANIFEST
+        and process["native_sha256"]==LEGACY_NATIVE and process["native_bytes"]==12436
+        and prev["complete"] is False and prev["proved"] is False and prev["failure"]==failure
+        and all(prev.get(k)==doc.get(k) for k in keys)
+        and len(prev["gates"])==9 and all(g["passed"] for g in prev["gates"])
+        and process["mathematical_gates"]==prev["gates"]
+        and prev["new_stages"]==process["new_stages"]==2
+        and prev["reused_stages"]==process["reused_stages"]==0
+        and prev["matrix_conversions"]=={} and prev["rows"]==[]
+        and prev["new_same_order_matrix_conversions"]==prev["new_source_integral_rows"]==0
+        and set(prev["stages"])==set(LEGACY_STAGES)
+        and process["accepted_stage_payloads"]=={
+            k:dict(complete=True,payload_sha256=v) for k,v in LEGACY_STAGES.items()})
+    for name,expected in LEGACY_STAGES.items():
+        old=prev["stages"][name]
+        if old["complete"] is not True or old["payload_sha256"]!=expected or payload_sha(old["payload"])!=expected:
+            raise ValueError("an exact original successful stage payload changed")
+    doc["stages"]=copy.deepcopy(prev["stages"])
+    doc["specific_legacy_two_stage_reuse"]=dict(
+        original_run_id="43656438723",original_run_attempt="1",original_actual_returncode=1,
+        original_source_sha256=LEGACY_SOURCE,original_manifest_sha256=LEGACY_MANIFEST,
+        original_native_sha256=LEGACY_NATIVE,original_native_bytes=12436,
+        original_process_sha256=LEGACY_PROCESS,original_process_bytes=15314,
+        original_failure=copy.deepcopy(prev["failure"]),successful_stage_payloads=copy.deepcopy(LEGACY_STAGES),
+        original_complete_profile_amplitude_prefix_sha256=thash(oldprefix),
+        original_all_airy_closure_sha256=thash(oldclosure),
+        inherited_matrix_conversions=0,inherited_integral_rows=0,
+        successful_stages_recomputed=0,all_other_cross_source_prefixes_rejected=True)
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ("repo-root","manifest","out"):parser.add_argument("--"+name,type=Path,required=True)
@@ -310,6 +404,7 @@ def main():
         original_auxiliary_native_sha256=AUX,original_exact_fold_native_sha256=FOLD,
         original_exact_fold_process_sha256="67bf926abf9066d8f09dd8fbb16cd439770203b5e551c2fa374ef42f9abfc3b8",
         original_radial_reference_native_sha256=RADIAL,original_completed_norm_native_sha256=NORM,
+        original_complete_directed_native_sha256=DIRECTED,original_complete_directed_process_sha256=DPROC,
         exact_real_delta_radius=str(DELTA),fixed_intrinsic_parameter="eta_0",
         input_cutoff=CUTOFF,physical_frequency="4|j|",actual_first_correction_density="n^(1/6)",
         source_window="H^-4/3 -> ordinary radial L2(H^-2/3 x H^-2/3)",
@@ -349,10 +444,11 @@ def main():
         pins=(("Taylor_native",TAYLOR,52843),("Taylor_process",TPROC,48844),
             ("auxiliary_native",AUX,20319),("auxiliary_process",APROC,46443),
             ("exact_fold_native",FOLD,3180936),("radial_reference_native",RADIAL,3434233),
-            ("original_norm_native",NORM,4837715))
+            ("original_norm_native",NORM,4837715),("directed_native",DIRECTED,7873296),
+            ("directed_process",DPROC,49990))
         check("all complete original mathematical natives and receipts retain their exact bytes",
             all(sha(paths[k])==s and paths[k].stat().st_size==n for k,s,n in pins))
-        tay,tp,aux,ap,fold,radial,norm=[read(paths[k]) for k,_,_ in pins]
+        tay,tp,aux,ap,fold,radial,norm,directed,dp=[read(paths[k]) for k,_,_ in pins]
         check("the successful complete Taylor run retains all20 gates and the corrected principal coefficient",
             tay["complete"] and tay["proved"] and tay["failure"] is None
             and tay["source_sha256"]==TSOURCE and tay["input_manifest_sha256"]==TMANIFEST
@@ -372,6 +468,16 @@ def main():
             and Q(tay["exact_complex_delta_radius"])==Q(aux["exact_complex_delta_radius"])==DELTA
             and tay["exact_root_interval"]==aux["exact_root_interval"]==fold["exact_root_interval"]==radial["exact_root_interval"]
             and tay["exact_original_physical_piece_interval"]==aux["exact_original_piece_interval"])
+        check("the exact original complete directed matrix native retains all eight actual public gates",
+            directed["public_repository"]==PUBLIC and directed["complete"] and directed["proved"]
+            and directed["failure"] is None and directed["source_sha256"]==DSOURCE
+            and directed["input_manifest_sha256"]==DMANIFEST
+            and directed["original_completed_norm_native_sha256"]==NORM
+            and len(directed["gates"])==8 and all(g["passed"] for g in directed["gates"])
+            and dp["actual_returncode"]==0 and str(dp["run_id"])=="43632464994"
+            and dp["native_sha256"]==DIRECTED and dp["native_bytes"]==7873296
+            and dp["mathematical_source_sha256"]==DSOURCE and dp["manifest_sha256"]==DMANIFEST
+            and dp["mathematical_gates"]==directed["gates"])
         roots=list(map(Q,tay["exact_root_interval"]));R=INNER+roots[1]-roots[0]
         inner=[roots[0]-INNER,roots[1]+INNER];cell=list(map(Q,tay["exact_original_physical_piece_interval"]))
         domain=tay["old_product_domain"]
@@ -381,13 +487,24 @@ def main():
             and Q(domain["exact_rho_radius"])==Q(1,6000)
             and Q(domain["exact_phi_width"])==Q(1,128)
             and cell[0]<inner[0]<inner[1]<cell[1])
-        rows=radial["coefficient_rows"];nr=norm["coefficient_rows"]
+        rows=radial["coefficient_rows"];nr=norm["coefficient_rows"];dr=directed["coefficient_rows"]
         check("all1328 original coefficient and matrix rows retain the complete original identities",
             len(rows)==len(nr)==1328 and payload_sha(rows)==fold["original_directed_table_sha256"]
             and all(row["common_row"]==i and nr[i]["common_row"]==i
                 and row["interval"]==nr[i]["interval"]
                 and row["original_root_row"]==nr[i]["original_root_row"] for i,row in enumerate(rows))
             and all(x["interval"][1]==y["interval"][0] for x,y in zip(rows,rows[1:])))
+        check("all1328 original radial rows reproduce the complete directed identities and bounds exactly",
+            len(dr)==len(rows)==1328
+            and all(row==dict(common_row=i,interval=dr[i]["interval"],
+                original_root_row=dr[i]["original_root_row"],original_completed_moment_row=i,
+                original_completed_directed_row=i,bounds=dr[i]["bounds"])
+                and dr[i]["common_row"]==i and dr[i]["original_completed_moment_row"]==i
+                and isinstance(dr[i]["complete_width_evidence"],list)
+                and len(dr[i]["complete_width_evidence"])==3 for i,row in enumerate(rows))
+            and directed["exact_root_interval"]==fold["exact_root_interval"]
+            and Q(directed["exact_real_delta_radius"])==DELTA)
+        doc["original_complete_directed_table_sha256"]=payload_sha(dr)
         doc.update(exact_root_interval=list(map(str,roots)),exact_physical_inner_interval=list(map(str,inner)),
             exact_physical_rho_cover=str(R),exact_original_physical_piece_interval=list(map(str,cell)),
             original_directed_table_sha256=fold["original_directed_table_sha256"],
@@ -397,13 +514,18 @@ def main():
             keys=("public_repository","source_sha256","input_manifest_sha256","runtime",
                 "original_Taylor_native_sha256","original_Taylor_process_sha256","original_auxiliary_native_sha256",
                 "original_exact_fold_native_sha256","original_radial_reference_native_sha256",
-                "original_completed_norm_native_sha256","exact_physical_inner_interval","exact_root_interval")
+                "original_completed_norm_native_sha256","original_complete_directed_native_sha256",
+                "original_complete_directed_process_sha256","exact_physical_inner_interval","exact_root_interval")
             check("every accepted new prefix has the identical source runtime and all original inputs",
                 all(prev.get(k)==doc.get(k) for k in keys))
             for k in ("stages","matrix_conversions","rows"):doc[k]=copy.deepcopy(prev[k])
             doc["original_prefix_audit"]=dict(native_sha256=sha(a.resume),native_bytes=a.resume.stat().st_size,
                 complete=prev["complete"],proved=prev["proved"],failure=prev["failure"],
                 accepted_stages=len(prev["stages"]),accepted_rows=len(prev["rows"]))
+            if "specific_legacy_two_stage_reuse" in prev:
+                doc["specific_legacy_two_stage_reuse"]=copy.deepcopy(prev["specific_legacy_two_stage_reuse"])
+        else:
+            exact_two_stage_schema_migration(a.repo_root,manifest,doc,check)
         checkpoint()
         profile=stage("new-inner-Airy-profile-and-exact-PQ-jets",lambda:inner_profile(aux["cases"][0],ex(R)))
         p=decode(profile["numeric"])
@@ -439,14 +561,14 @@ def main():
         prefix=len(doc["rows"])
         if prefix>len(selected):raise ValueError("an accepted prefix exceeds the exact inner cover")
         for si,(idx,left,right) in enumerate(selected):
-            key=str(idx);row=rows[idx]
+            key=str(idx);row=rows[idx];matrix_row=dr[idx]
             if key in doc["matrix_conversions"]:
                 cv=doc["matrix_conversions"][key]
-                if cv["original_coefficient_row_payload_sha256"]!=payload_sha(row):
+                if cv["original_coefficient_row_payload_sha256"]!=payload_sha(matrix_row):
                     raise ValueError("an accepted complete matrix conversion changed its original row")
                 doc["reused_same_order_matrix_conversions"]+=1
             else:
-                cv=matrix_conversion(row);doc["matrix_conversions"][key]=cv
+                cv=matrix_conversion(matrix_row);doc["matrix_conversions"][key]=cv
                 doc["new_same_order_matrix_conversions"]+=1;checkpoint()
             if si<prefix:
                 item=doc["rows"][si]
