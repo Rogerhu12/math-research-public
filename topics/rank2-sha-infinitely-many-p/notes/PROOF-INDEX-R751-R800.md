@@ -97,3 +97,5 @@
 - **R790**：[同一原cube的完整forcing与因子接触Bockstein真实配对](../results/R790-original-cube-full-forcing-and-factor-contact-bockstein-pairing.md)。全p² forcing精确由同ρ_<s模p²、因子低Hensel缺陷及显式carry读取，保原q而不scalar化；全WD余列在同R上联立。每个真实左对转置到因子HP真左核，指定障碍准确分为固定主部、carry和β_HP配对；两13/第三单位行保，原p³全高尾未删。
 
 - **R794**：[原E/J交域的整三态返回、五维首矩与实际W环带](../results/R794-original-e-j-intersection-and-native-w-annuli.md)。原E_V偶核经整域单射约消付清，物理J截距及所有附门保；已知J负一进入真正E深门，完整帽外负一全N非零。Z环带全五维来源和原W中央首项准确给出，完整E深外部仍保反号补偿。
+
+- **R795**：[原因子接触一维核、真实下一单位行与唯一Schur缺陷](../results/R795-original-factor-contact-one-dimensional-kernel-and-unit-next-row.md)。准确交数门h+1>B_b·C支付整个profile核kG，非恒定列和第h行增广均为单位；原pivot给唯一缺陷Δ及真实Bockstein Δ/p。最多一非unit Smith方向而未认指数1；较小H0(C)门另列，未替全WD首核或指定forcing。

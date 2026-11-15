@@ -128,6 +128,8 @@ R788原b=b0=3/mq0强窗已对所有p排除：五型各2个最大有理子式，�
 
 R790已把同原Pfact完整首forcing写成ρ_<s的真实modp²输入：V=t^-h barG(t,ρ)、e=EG(t,ρ)、B_h=π_<h G̃(t,ρ)/p，u=V/e、ξ=B_h/e；β0=0，β1=t^hQ(H^-1V³+6at²eVB_h)，第三原w13行3aQ0e0V0²。全WD修正先减完整Q2，余源WD∩t k[t,Y,d^-1]全部列同解两输出，不限F²。每个真实全左对诱导ν(f)=μ(6t^(h+2)QeVf)杀完整因子HP；指定配对=固定主部−显式carry−〈ν,β_HP(G)〉。β_HP非自由ξ，原p³仍需同R全高尾；实际配对未判。
 
+R795在准确h+1>B_b·C（充分h+1>B_b²）下付整个profile因子接触核恰kG，非恒定列全unit、真实第h行增广全unit。实际pivot给唯一Schur缺陷Δ，β_HP由Δ/p读取；含常数列至多一非unit方向，指数min vΔ，不认恰1。较小H0(C)在h>κ已有kF，不能替整profile降门；R790指定配对仍未判。
+
 ### 惰性新三格：真实旗标已测，原central传播仍需证明
 
 R760新(S,T,(∂z S)^6)代数独立、复增长1/3、全ordinary饱和≤1；无条件inert仍3klogk，严格门为同一全flag的aI+3bI<6。新U不是U136。R756/758原Norm3统一乘子预算177/47已最优，免费3C公共乘法不成立。
