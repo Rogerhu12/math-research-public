@@ -112,15 +112,8 @@ transport/Taylor/profile/moment/源行只恢复。
 κ5/3准确付两个J窗，完整21first+10mean、外CJ/meanfactor及真实dr/root包络保。
 [P准确第一local](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)、[B正预算分离](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)及[第二local](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)完整证明/actual/原输入/失败/域/31列保690b33bc9ade2a20583b8bba1ca7bf0bf21c22f2同open本节及原报告。P43709396175/1、B43711480764/1、L2 43711568963/1全成功锁，0旧math；B仅raw1收紧q1<.004848651663，L2新4.837164e17高于旧3.040655e17故q2=1。未成数学不能借压缩删除；不重跑成功，volume非strong-return。
 [L准确相关transport](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)仍保K²=TI、E12只取第二分量、真实rankφ/n^-2/q=v g−vφp和全部mean。后续RV另付新恒等式与负cover域。
-[F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)
-进一步用M=G U_-²、U_+M=G B_+U_-在取模前合并L13三项；两额外矩阵的对角准确消失，
-G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。
-保真实rankφ、所有n因子、完整q的vφ以及全部mean。
-[G完整g/y/q scalar契约](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)
-与[actual43714194714/1](results/R133-supplement-actual-factored-transport-and-complete-companion-source-bounds.md)现成功锁：child0/25门、7/10完整term改善，0旧数学/径积分。
-SCI a705c2b4/worker68cf6bf2/44pins bbfbdbc2；execution5e5f414a/result0dff8993/reporte412153c。first<5.536012e14、mean<3.338316e12、pair<5.536113e14，3local及13first/8mean逐字B。
-density0=w0/density1=w1、严格inverse分支才减1、fullrank/n^-2/q=vg−vφp、两J窗/独立mean与6row真实径权全保。
-原三未改进term直接保旧；现在主导raw1/RQJg1/raw2/RQJg0。complete source-to-wave、正growing/两端和强返回仍待，不重跑此次成功数学。
+[F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)用M=G U_-²及U_+M=G B_+U_-，在取模前消L13对角；fullrank/n^-2/q=vg−vφp/全部mean不变。
+[G完整g/y/q scalar](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)及[actual43714194714/1](results/R133-supplement-actual-factored-transport-and-complete-companion-source-bounds.md)成功锁：child0/25门，7/10整项改善，pair<5.536113e14。原44pin/31列/两J窗/独立mean/六真实dr/原branch和失败细账保e10b8ad0417df947ade5d60107019acc5a0cbd34同open及actual；0旧math，后续以AJ/RV/DG对应完整项更新。未授source-to-wave/strong-return/GH。
 
 [K真实径向参考两普通源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)
 已逐式付两源→density的一角增益，以及负body/固定严格负cut各一角损失。
@@ -131,6 +124,8 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 [AJ完整运输系数角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)及[actual43718112378/1](results/R133-supplement-actual-retained-radial-angular-jets-and-complete-source-bounds.md)已成：child0/29门/math.21664545s，SCI32c45b33/workerc70791fe/50pin871240a7，旧44pin零改/14AST/0旧math。report2ff53654/execution58462f96/result3fa08181。完整T0=t+5dφ的radial mean保留，F=1/Q、全B逆、leading M逆与合并QG角jets完整；真实外RG径Cauchy和内H小量分付。7/10整项改善，pair<4.527719e14、mean<2.046084e12，density0 RQJg<6.262692e9；3local及未声明13first/8mean逐字G，主导raw1/raw2/g1仍完整。31列/真实六径权不重算，不授strong-return/GH。
 
 [RV准确径向抵消与负侧local](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)保L1先消ℬ′b0e1、完整ℬ″和Xi/w0X项，L2物理b1r/b1φ及rank，旧1/n和六径权不改。负h-tail只扣同正算法addend严格lower后加新尾，finite不缩；只local1/2可改，29项逐字AJ。首43719397730/1 child1/13过14，误核旧formatter publication状态，新预算全0；仅修schema后SCI d59893af/worker7748c390/41pin4718b4b已重部署。actual/GH仍待，旧成功不重算。
+
+[DG第一修正的直接物理transport](results/R133-supplement-direct-physical-transport-of-genuine-first-correction.md)给G0两行a_r−d aφ+iε(QTb)φ、b_r−d bφ+iε(Qa)φ，完整rank n^-2与输入权保。W a1/b1确同w1V；只a1七新tail，b1七值仅读RV成功actual，free w1/Nold不混入。density1只需角0..2、五完整term/两窗/mean；所有density0/local/未声明列逐字当前账本，径权不重算。新scalar待，非GH。
 
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
 原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。

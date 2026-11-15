@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 DG：第一genuine修正的直接物理transport](results/R133-supplement-direct-physical-transport-of-genuine-first-correction.md)：准确两物理行只需w1V一径导/三角导，complete rank n^-2和全部source weights仍保；只新增a1七tail，b1七jet待RV成功小结仅读。仅density1五整项可比，density0/local/mean未声明项全保，不重复旧积分，非GH。
+
 - [R133 NR：原始nonmean在真实窄域的限制与三带迹消费者](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)：从原raw row完整L2/H1 sup与真dr积分取两整界min，保K权/全部误差/repair/offset和degree160。只新两域restriction及五LT系数，MC成功均值直接读；未填入或声称已得actual unknown body/cut。
 
 - [R133 LT：finite193／中间频带／无限尾的真实collar迹](results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md)：完整comm一阶能量给半阶迹；reference有限带使H288两低频leg精确消，仅无限尾消费MA同态高窗插值。保实际两侧body、cut/ordinary源、mean-speed与未知非线性差；给LT20/26充分门，未断言门已过或core已成。
