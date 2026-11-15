@@ -122,7 +122,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)以固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，在三矩/第三准确族内解真实UQ−PV=0。归一延拓D0(ζ)+δR在δ0的简单根给有限正δ准确IFT零，P>0/t非零；双block完整四门0。
 
-[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)进一步完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，新增bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。R70/R227联合(q,ε)真实IFT开域支付这个参数选择，Morse随后；旧F8不迁移新圆。**下一优先把整个exceptional ruling归为有限独立函数/张量条件，再与完整period/同w joint匹配；不无限机械枚举低层，也不重跑六已付门。**
+[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。联合(q,ε)真实IFT开域支付参数选择，Morse随后；旧F8不迁移新圆。六门已结，不重算；完整偶部现在由R243有限化。
+
+[R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)把整个例外ruling偶部化为有限准确条件：R56原分子消掉1/z后，word≤2的全部真实history/右尾进入X′=(N+2εσD)X。任意非常零输出ord≤n(n+1)/2−1；We先用0/2/4三jet准确扣除，剩余有限偶jet全零即充要。保全部五相位谐波，不要求生成函数独立，亦不盲目逐系数置零。**下一证明完整三阶block的全四阶张量可加、平移有限矩及实际可达锥，按有限quartic条件做支付；仍欠奇部、全period与同w joint。** 未生成清单/实际n或运行符号目标，不把有限可判定性冒可解性。
 
 ## O1：双圆领相位机制，保留备选
 
@@ -138,6 +140,6 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 闭连通材料面；每时刻C²嵌入、t∈[0,1]在C²拓扑连续；同一固定g。固定材料H有内点且diam F0(H)≥.2D，无刚体对齐整像δhold≥.3D；全域全时reach≥.03D。同g/参数/时间范围的最大相对metric误差≤1e−6，并在网格、频率、时间加密下继续下降到机器精度或求解容差。全时检查，不只端点；若干完整网格每件<5MB，明确严格存在差距，另报δE。基本达标后继续.5D或严格存在。
 
-HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、已发输出解析和小人工开发。按根规则12，不添加冻结、复核、重复运行的机械门。
+HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
 根README最新137c5a第15条已执行：可重算机器输出不入仓库或Release，后继只交源码、完整参数、run、SHA与科学结论。计算环境已于2026-11-15 05:46恢复，根8临时例外结束；当前partial/sparse clones实际pull/push并逐次核双README，真正研究仍只公开Actions。主课题继续，不以此报告收尾。

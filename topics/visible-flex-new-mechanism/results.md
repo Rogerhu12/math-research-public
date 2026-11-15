@@ -309,3 +309,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 159首actual：准确null高度参与下降，成功SOC后仍缩步
 
 [完整实际解读](notes/entry-tail-height159-first-actual-result-20261115.md)消费run43701558227/sourceef8c1cdb/job132773631115。新增开发全过，33直接来源在执行提交及receipt全匹配，98参数未变；五prefix各一次必要恢复，实际154起c9a5d61b η.26652053644178919，159末b42911ec η.26649120712241720，真正下降2.9329319372e−5。较已记录103值低，算法新降幅不混前缀漂移；.26与1e−4参考仍未达。8主LP+1SOC产生8接纳，20共享全值+2末态值、120.313秒、总896.907秒。m6主步细网8曲率失败：预测1e−7→实际−1.30e−8；SOC修到9.99766e−8、全部旧两网/准确九盒过并保度量下降，旧controller仍减半B。原physical SOC L1目标6.62358e−9，不含primary的1e−3；SOC比值1来自Y残差不能授原base模型质量。五高度确实动、总帽积分准确0/c4c5不变/固定外域六jets0，当前b(.09)增加；末κ57.9999896、角精化Xss差.006017仍欠连续reach/metric。完整数据只hash；下一据成功SOC设计条件持径，不延旧预算或盲增H。
+
+
+## R243：整个例外 ruling 偶部的准确有限 jet 判据
+
+[R243 完整证明](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)从R56已消1/z的原分子、R73逐点八矩及真实第三history出发，保全部local/chain/右锚尾和五相位谐波。几何系数是σ,H=e^(εσ²)的Laurent多项式乘最多二重迭代积分；shuffle只合并实际积分。有限微分闭包给X′=(N+2εσD)X，N常严格三角/D整数对角，n可由实际单项清单计数而未虚报。对任何线性σ系数n维系统，原行递推的r阶wedge degree≤r(r−1)/2；真实输出空间维r、非零Wronskian共同消失阶与适配valuation基给非零输出ord≤n(n+1)/2−1，不假X各分量独立。We用0/2/4 Taylor的3×3逆唯一扣除，det4ε²ke²，因此剩余有限偶jet全零 iff整个偶部在We中。所有系数仍是完整带尾四次泛函，有限判据不授实际零/奇部/fullperiod/同w联合；共振只简化已付层。root与mechanism独立全文纸核通过，没有新科学计算。

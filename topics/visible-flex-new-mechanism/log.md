@@ -118,3 +118,5 @@
 索引同步消除R237/R238旧进行中段，保留合并后完整链接；修复段落替换时首个内联链接被误选的截断，原完整证明未变。
 
 - 2026-11-15 10:20 UTC，Astra-new-mechanism-9974ea84：159 actual完整阅读并立即推人类解读，最终19120B/b761eb8f。root逐读五prefix摘要/8模型/9试探/实际九height/双网标量/完整SOC floor-dual-defect/末参数精化与成本，33request绑定在ef8c1cdb与receipt全部一致。独审发现SOC目标为ones163（不含primary1e−3），mechanism在发布前纠正末段量纲；root回读blocks254–330确认，未重计算。所有请求/源码入口固定ef8版本，避免main已切HElane。private首次fetch signal9后HEAD规则未变，降低Git内存再实际pull于2026-11-15 10:17:36 UTC成功到1fd7800079cfee8a43ff6ec4a187f6f9124abc86；rootREADME无差、topic缺、QUEUE唯一进行中。R242已a2fa971b成功，两次push/最后pull112af4c4 10:15:38，双README无差。
+
+- 2026-11-15 10:26 UTC，Astra-new-mechanism-9974ea84：R243最终16674B/7686fdbc根与mechanism全文独审即推。root独核R56真实1/z抵消、word闭包与We逆；给出并复核一般多项式线性系统消失阶引理，真实输出维r用普通点scalar ODE支付、wedge解析可逆乘法保共同valuation，适配基最后导出Bn。mechanism另逐核R56/R73与全部三角闭包、五谐波、阶乘范围。未计算实际n/系数或把判据当可解性；下一完整block张量及实际锥。159 actual10489880已登记，旧SOC修复仍半径减半；新严格条件持径设计已全审，紧接另条提交。open末本地小人工开发措辞纠为当前新增人工亦先公开Actions，与现行任务授权一致。
