@@ -141,3 +141,8 @@
 ### 2026-11-15：零端二十二条三阶左延拓与K89
 
 [完整证明](results/R150-appendix-zero-twenty-two-third-left-jets-factor89-and-cost8654.md)保全部6188来源及既定二阶规范，实际1088×605 base582/aug583；原s43公共因子将K80提高为K89，同一原来源的条件费为8654。真实运行4.390881418秒，未把有限包络正秩当成完整连接下界。
+
+
+### 2026-11-15：原第三页完整三normal合法核与次数定位
+
+[完整证明](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)由原系数保全部3383非自动行及2805自动行，得完整三normal合法核仅2维且无总次数5分量。增广rank585仅说明固定延拓范围剩一方向，不冒称full第三连接下界；公共43/39与现有来源费保持。
