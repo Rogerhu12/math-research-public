@@ -377,3 +377,5 @@
 - [R173：显式严格正的完整标量action与剩余真实性问题](results/R173-explicit-positive-complete-scalar-action-and-remaining-real-head-question.md) — 只改联合新点旧free12/normal73为−1/2；已存B的唯一五行支撑与14族F0 0/2行给a_static=(k²+2)(k²−1/2)²+k²/4≥1/16，同μ=(0,1,2,0,0,0,0,4)，Q2/最高保持R172精确正证。因此全部真实平端完整action≥∫h^-2/16>0，无须继续找负路径。指定点有限系统核对待公开回执，真实泛函良定义性仍须全部原关系/独立性，不能把标量正证冒充真实字符。
 
 - [R173指定点的公开实际：68行与全部十四族准确通过](notes/character-minus2-static-positive-candidate-actual-20261115.md) — run43669803169/source7d296314只改free12为−1/2，64行严格正、奇偶64–67四行零，107值/14族/同μ/c/d全存且匹配R172/R173。0.0076913s/RSS25.4297MiB，无LP/RREF/求根/新积分；gzip9305B/b5b3dacf。完整标量action正证已适用，下一必须判原函数关系，未授真实字符存在。
+
+- [谱恢复首次实际三次接纳与曲率活跃](notes/spectral-metric-recovery-first-actual-result-20261115.md) — run43669710846/sourcec33955d7同g/b0/163，m2SOC/m5主/m8SOC使双网最大η .267199566824→.266932648992，终态574dd0；κ升至57.979122863仍过硬58及原全部物理门（帽高按既定tol），.26未到。全24谱slack对η−.26吻合至1.11e−16，目标权重偏差已消；全部满trust.001、后段曲率越界，m5实际/预测仅.0139。完整4386/2950池与raw5501200B保留，12LP/24值/活动75.566s/总375.498s；下一明确缩步控制，非连续等距/reach证书。

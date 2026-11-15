@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`1ae2508cf296ba9f1e2050c5766523dcca51bb07`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`0546587734fe928882d5d7e022aed96ddd9a9c22`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 02:53:29 UTC实际pull至`6439d29b875126d271b8dee9a6907dfcca85e5cc`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0253.json。下一私有pull不晚03:53 UTC。
 
@@ -20,11 +20,11 @@
 
 core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163参数，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-reserve actual43665345551/source0aae9a6a三次完整SOC接纳到 **512de71f983e86521dda4250e387ed1449ce29626763f49accde94bdc89666a9**；384/768 κ56.981941121/56.981967571，η.267199536620/.267199566824。fine metric余4.332e−7、strip余4.371e−6、cap余2.22e−16，原物理门全过；55未到。完整notes/curvature-soc-metric-reserve-first-actual-result-20261115.md，全部系数/4240粗+1310细池保存。
+reserve43665345551到512de/κ56.98197/η.267199566824；其后Schur recovery43667582193零接纳，23/24粗与6/7细真实Schur slack降而η升，目标权重错位和非线性余差分开，历史完整notes保持。
 
-**metric recovery actual43667582193/source4144ca75完整结束、零新接纳**。同g/b0/163、硬κ58、新目标13/50、旧167/625；最终仍512de。12LP=8主+4SOC、33粗细值、活动39.029s/总355.147s；所有已评估试探非metric硬门通过，但真实η均未下降。末池4317/2631全部保留；full gzip627113B/bdba17a2，raw5252818B/f06c20fa，原生summary68139B/5fa9db85。完整表及保存实际值已读：23/24粗与6/7细真实Schur slack下降而η上升，另有非线性余差；详notes/metric-budget-recovery-first-actual-result-20261115.md。
+**谱实际43669710846/sourcec33955d79a72efd359c066106ddff6598b1a5f57已完整：三次接纳，终态574dd0e4741b372325c0ed786de368064072cea75b65c5600f974fa2c5938398。** 同g/b0/163，384/768 η.266859135064/.266932648992，κ57.9791005703/57.9791228628；旧167/625与硬κ58/全部原物理门过，帽高−2.50e−16按既定tol过，不称准确正余量。细strip余4.1701e−6、mirror.100328293439。新.26未到；池4386/2950全存（包含23新细曲率行）。9主+3SOC=12LP、24共享值+2末值、活动75.566s/总375.498s/RSS3108016KiB。三接纳m2SOC/m5主/m8SOC；最后m9粗κ58.0934失败。
 
-下一将两条实际谱误差η±的固定ε=1e−8平滑上界作为软提案，真实η/原Schur/全部物理及κ58仍硬验；新提案须继承失败新池、同19输入链再接本次全报告。完整粗/细两jet、同y真实SOC残差、12LP/40值/120s保持，新谱库20603B/27fcdbc7与20输入driver42766B/f9fc1f82完成，人工全IO33.377s、Jac1.388e−10/JSON回放/90181B完整摘要通过；谱actual43669710846/sourcec33955d79a72efd359c066106ddff6598b1a5f57已运行，82args/20SHA与原19比对保持。不得宣.26或55通过。metric远离1e−6；τ.061仍需κ≤1000/61及全时/非局部reach。有限径向差不是误差包围。
+完整raw5501200B/763ff56d，gzip675639B/38fc07bb，summary68932B/90431dcb；见notes/spectral-metric-recovery-first-actual-result-20261115.md。全24值谱slack与η−.26差≤1.11e−16，目标错位已消；全部主步仍用满trust.001，m5仅实现预测改善1.39%。下一继承20输入再接本次full及完整新池，针对已见非线性/曲率余差缩trust或明确存储m9短步，计入共享值，必须真实两网全门及η下降后接纳。原g/真实门/固定ε1e−8谱目标保持。不得无变化重跑满.001或抬58；τ.061仍需κ≤1000/61及全时/非局部reach；metric距1e−6远。
 
 ## 4. 已付结构与不可重跑
 
@@ -50,6 +50,6 @@ finite43665971895保存107生成坐标、124外等式RREF84/23旧接口/63必要
 
 R169真实k=Kh^p给A(p)=b+cp+dp²及显式四次Ω(p)全实p非负必要门；有限flat sharp inf X/Y=(2p−2)²/9，有限K再time付负全action。真实Gram曲线ζ的二次值即Ω，不授任意Gram负向。R170固定κ完整0/2/4充要A,D,C≥0且B+2√C(4√A/3+√D)≥0；A=a+bκ²,D=ℓ+mκ²+25A/9,B=b2(κ),C=a_static(κ)。全正有理t,s行等价；含所有临界端点，非一般vary-k结论。
 
-R172新点最高十数(1,1,−1,1,−1,−1,1,−1,1,1)有θ=η=−1的四正平方Gram，Q2另两正平方。**R173显式改旧free12/normal73为−1/2**，其余不动：仅五normal0/1/9/10/73改，完整14族中只F0 0/2改；a_static=(k²+2)(k²−1/2)²+k²/4≥1/16，同μ=(0,1,2,0,0,0,0,4)，全action≥∫h^-2/16>0。纸证已成，指定点actual43669803169/source7d296314完整：68全过（64严格正、4奇偶零），107值/14族/μ全匹配；.00769s/RSS25.430，cert9305B/b5b3dacf（raw34719/fdc79bfb），详notes/character-minus2-static-positive-candidate-actual-20261115.md；不再为此点求根/负路径。是否真实泛函未付，必须判原关系。新raw147源58885B/80ab553a及设计完成，本提交single character_head_literal_relations派发；R40先入基、每条依赖原两mode核零、旧B后新等式/两点诊断，列内状态可续，不重旧pivot。最终源九人工在公开前置先跑；本地旧ae72回执另标。lit继续既有44真实枢轴的增量入口，非零字面余式不授独立性。
+R172新点最高十数(1,1,−1,1,−1,−1,1,−1,1,1)有θ=η=−1的四正平方Gram，Q2另两正平方。**R173显式改旧free12/normal73为−1/2**，其余不动：仅五normal0/1/9/10/73改，完整14族中只F0 0/2改；a_static=(k²+2)(k²−1/2)²+k²/4≥1/16，同μ=(0,1,2,0,0,0,0,4)，全action≥∫h^-2/16>0。纸证已成，指定点actual43669803169/source7d296314完整：68全过（64严格正、4奇偶零），107值/14族/μ全匹配；.00769s/RSS25.430，cert9305B/b5b3dacf（raw34719/fdc79bfb），详notes/character-minus2-static-positive-candidate-actual-20261115.md；不再为此点求根/负路径。**新原关系actual43670254711/source952cf792完整排除此点**：147原列字面rank77、kernel70，70条全做两mode原存储fresh核零，旧B/R168后9新独立等式，R173点违反18条、首值−2；38.592s/RSS140.637MiB/最大106位。cert41109B/5d929f4f（raw269605B/ed3bedb7），main7103B/0d3351e0。最终80ab源公开9人工全过；不续原消元，不把rank77升真实维数。tail登记R174具体9行/原首关系；lit仅将新9式加±到旧23坐标/68必要行，不重旧RREF/原生成/路径。ν18=0已由旧B包含；既有44增量入口保留但本轮不派评价。
 
 完整函数P0/ruling、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度仍欠。R98已结束正states universal P1，不重扫；特殊profile或固定N完整P0+NP1未排。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。预算只结束该次计算，主课题继续open。
