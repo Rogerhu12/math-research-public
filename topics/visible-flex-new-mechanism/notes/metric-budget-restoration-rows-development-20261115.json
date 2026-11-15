@@ -1,0 +1,26 @@
+{
+  "schema": "fixed-curvature-lower-metric-eleven-row-interface-v1-artificial-check",
+  "artificial_inputs_only": true,
+  "research_candidate_loaded_evaluated_or_optimized": false,
+  "legacy_fine_indices_and_coordinates_preserved": true,
+  "new_budget_changes_constraint_identity_not_fixed_physical_context": true,
+  "complete_eleven_group_parameter_Jacobian_max_errors": [
+    9.935306050090631e-12,
+    3.991174057915714e-11,
+    3.5640539131076565e-11
+  ],
+  "missing_fine_second_jet_derivative_rejected": true,
+  "out_of_range_new_index_rejected": true,
+  "old_budget_new_target_and_hard_decisions_separate": true,
+  "no_optimizer_or_actual_budget_configuration_selected": true,
+  "passed": true,
+  "source_files_sha256": {
+    "frame_metric_budget_restoration_rows.py": "eff06d6c2136b8b13fa86afe915352ee54e5aaae2c4c80551a08355cea2e1d4f",
+    "frame_curvature_psd.py": "146f12fb56ac1a0b18a4d35ede1c171d68e72f7ae778e49fdff0b9bd1f9561bc",
+    "frame_curvature_mixed_grid_steps.py": "8a91bd1799c0404e740a56bff61d595e5ea93a622bd79d254a1a3a1b5e3064bd",
+    "frame_metric_epigraph.py": "6f1cd9e3f987f3c3209e6fdee6a24b72d83146a3ea5f522656b22e61cb241d03",
+    "frame_metric_epigraph_dense.py": "7a62290ec82a7a1499fcfd5a029cf0b4a33e044af2f74f80f478fe12aab38b9e",
+    "frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5"
+  },
+  "elapsed_seconds": 0.010468877997482195
+}

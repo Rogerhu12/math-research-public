@@ -20,7 +20,7 @@
 
 从512de及全部4240/1310行固定新硬曲率门Λ58，恢复首个度量目标13/50=.26，旧已合格预算167/625。显式交换目标和约束角色，不称原55已过或.26已到；同g/b0/163/primitive/高度均值384保持。
 
-新独立19输入consumer须将fine7组扩为11组，完整Xss/Xst/Xtt参数导数，旧ID不重排。metric±软恢复不能把初始全网目标违例全部添池；用真实分离和实际η峰补行，hard2..10遗漏全补。所有接纳真实两网硬门、κ≤58、旧budget并使maxη严格下降；只有新budget及直接误差全过才称.26达成。新controller/loader实现中；研究仅公开Actions，不扩旧预算或重跑旧实例。
+新独立19输入consumer须将fine7组扩为11组，完整Xss/Xst/Xtt参数导数，旧ID不重排。metric±软恢复不能把初始全网目标违例全部添池；用真实分离和实际η峰补行，hard2..10遗漏全补。所有接纳真实两网硬门、κ≤58、旧budget并使maxη严格下降；只有新budget及直接误差全过才称.26达成。完整三源及19输入loader已完成，[实施说明](notes/fixed-curvature-metric-budget-recovery-implementation-20261115.md)及新增人工32.630s通过。本提交single metric_budget_recovery派发，78参数含19个原SHA；soft SOC真残差与预测slack区分，native summary保全表。待实际消费；仅公开Actions，不扩旧预算或重跑旧实例。
 
 ### 仍须支付
 
