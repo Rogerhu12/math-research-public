@@ -293,3 +293,5 @@
 - [现有末三径向行的准确支持](notes/curvature-existing-terminal-row-support-20261114.md) — 54个已有参数保持t≤.36完整位置二jets；.765<t<.846的局部曲率本就仅直接依这些末三行。三高度整积分.081/.0675/.054，附6d6+5d7+4d8=0可保开放尾位置。只是后继子空间，不改当前163维mixed实际，不预报70可行。
 
 - [R144：第七次G平移分离与230个真实共同查询](results/R144-seventh-G-translation-and-230-query-control.md) — 新权−6的20完整两mode列经4原依赖成16维，原16/17有理子式证明N⁷G非成员，8≤s≤10。与同一pure像31合得核≥191、R8≥222、A_G/lineality/共同查询≥230；R136的J只使U≥231。12.777s/RSS125.238，全部42根导出。仅派下一N⁸G权−7，不重复旧块。
+
+- [R145：真实曲率反号与偶权正字符](results/R145-true-curvature-reflection-and-even-positive-characters.md) — 负缩放仅作有限Laurent代数延拓，真实几何保持h正、同输入和右锚；逐R56递推证V反号路径=SV，零矩桥证明闭锥基点无关及SC=C。非零正仿射字符只能偶整权；没有据此宣称奇权分量实际可取负或J已付。
