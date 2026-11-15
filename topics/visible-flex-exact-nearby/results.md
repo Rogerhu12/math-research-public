@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实径向参考的两个普通源核及两输出 K](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)：从完整genuine Wronskian及A25严格导出 dr 普通源→n^-7/6 density 的一角增益；负body和固定严格负cut分别保一角读出损失。完整两源/两列/两sign、κ测度、root混合n^7/6、独立mean及真实seam均保。仅径向reference，未支付完整非径向耦合或high BVP。10600B/SHA256 eca5b8054a5a3476eb4431516b81142005c28e522fb2b0ce45328d29f66a18e8。
+
 - [新有限 Sobolev 精确外部与最终几何入口 G](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)：在S§11真实γ低/高域，完整κ/四状态给全tail小量；零宽long的差分商恢复mean方程。先乘w/a控制大A的精确曲率余项，得到全外部曲率<2、长<8e−6和同world位置/normal界。直接转授旧B的完整26几何门而不要求旧解析标签；核心全C0/相位/γ入口仍是明确未付条件。11904B/SHA256 d468f875bfcfdb6fb06ad34cedd7b20127df6ad645c928f5c68ea53b56a7873c。
 
 - [第二局部项与完整振幅 L 的 §4a](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)：精确求出 H_j^V 的第一逆列和 (iεy,x)M=G(x²+Ty²)(−iεy,x)，得到保留 rank 项的完整外积；w0 的两分量分别保 xy 与 y² 根零。原 n^-2、输入标签、输出 mean、旧域 determinant gap 与全部角导数仍在；这是解析等式，不宣称新实际范数或完整 high 逆。全文10242B/SHA256 0926ee2598e6ecef13050ad23331a7ef3cf575984b577c11b9a4f74cd7e86f81。

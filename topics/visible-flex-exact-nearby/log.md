@@ -377,3 +377,9 @@ root 亲读 Green11:04小过程53bb2cd42184515aef7610b46954e7b57ff038c5 /47146B 
 root亲读原E_ext/long/B、完整141锚和C0 forward证明后建立G，tail_connector独立回读各原文与G全文通过。正文blob5c631b34107c6a92d3a1f257830cd3a15485a3c6 /11904B /SHA256 d468f875bfcfdb6fb06ad34cedd7b20127df6ad645c928f5c68ea53b56a7873c。补实角平移差分商逆16/15与long原§5的holonomy导数定位；全κ、小状态、真实物理w/a和wa、同world高度保留。无需重复旧geometry43584188751/26、141blocks/8966pieces或任何几何数组。
 
 纠正当前缺口分类：旧B已支付bF/bQ、整数mean分支与整套几何预算；新G现在给新的有限Sob尾部真正进入该条件结论。尚未成的是同对象全core逆/非线性解、全C0≤1e−4与实际physicalγ低/高域；44ρ帽球不直接替代全C0。P16保全部regular第四Robin和mean，ν单独付phase，振幅是输出。压缩前相关H/open全文在a5108aa2290916893f83e1eec82e92bbfd5492fb同路径，未删一般给定独立荷。发布前两README于5039b4f8903542aa303bdef44760931f3632e5c2未变。
+
+### 2026-11-15 11:07:26 UTC — 真径向普通源到density及独立body/cut读出
+
+newton_source撰K、phase_inverse独核A25/V8/V15，root亲回读K全文与原C12–18、A19/A25/A26、V8/V14–15，再核完整积分及每个n/κ指数。正文blobed159d2a87585cc74989bceea120aed02a47e977 /10600B /SHA256 eca5b8054a5a3476eb4431516b81142005c28e522fb2b0ce45328d29f66a18e8。K8先分真实central/high区再积分，K12保两普通L²dr源，K14的Σmode sup和K16/K19两个输出分别计量；无新科学数值，旧成功参考列不重算。
+
+K只对真实参数且递增实T的径向reference成立；保C18输出/输入频率矩阵次序及首阶非径向耦合、真root n^7/6、mean、原seam和正端选择。此结论不授实际physical HH或全频Schur。发布前两README在7aec1c716a180ab8e94021c51a064f9f28c97491无差异。

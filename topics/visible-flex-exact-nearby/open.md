@@ -142,6 +142,12 @@ L16–18另给exact inverse首列及rank外积，w0完整两分量保xy/y²根�
 B_j实际old-circle域仍须与canonical域真正相交；新数值仅在P实际主导确认后再消费。
 完整physical-to-wave/回代读出与强返回仍待，无新数值改善声明。
 
+[K真实径向参考两普通源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)
+已逐式付两源→density的一角增益，以及负body/固定严格负cut各一角损失。
+保完整两列/两sign、n^-7/6、κ/dr和独立F2，不微分F2；Σmode sup在积分前。
+root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转授完整非径向首阶耦合、
+9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
+
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
