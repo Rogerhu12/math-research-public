@@ -116,3 +116,5 @@
 - [request137：真实128末态清理前的全段/边界/端点/独立audit](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)：47源pin，新470803fa/f5641d7f保原133数学、共享组件独立同态消费；fresh起19200s全局deadline/120s读回，原partial与未启动后缀完整，不预付native/fullDN或全224速度。
 
 - [request138：同135真实首父的完整normal候选选择](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)：新e8704af6/49734049/79c178f4与90+4pin/29闭包，只改完成原normal后R299择优；完整全部中间标量分段、原8×20/12×20/32批及全部终门保持。实际改善待本公开run，不把selector说成提高弱J精度。
+
+- [R304：actual136的cap瓶颈、callback预算异常与未付全域](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)：1800.0188949619999s/SystemError；21334panel/56738有限component，日志1386片不冒producer返回0之外的累计量，整query0/Rout空。全部六工作宽度、原计数/身份/深尾和规则退出逐项保留；已确定源码异常通道风险，真实内层原因仍属有界推断，139保持原范围并实际优化。

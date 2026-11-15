@@ -396,3 +396,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — Request138同真实起点的完整normal选择实际入口
 
 [138接口](notes/2026-11-15-request138-same-normal-trace-merit-interface.md)六件已逐完整diff/接口读后发布：e8704af6/49734049/79c178f4/request1f203c07与课题外独立workflow2effcf04；同135真134配方494f73d1/半径.000390625，90+4pin/29闭包。只在原normal完成后R299择优，原外循环/全部final/零接受stop/预算保留，全部normal中间点与失败无损读回；源级静态已核、无本地科学，push触发真实run。137已run43709832101/job132798770009且新21bd基线，修短SHA为实际5aa0；133实际射击达容差由R308全读回，130规则变更退出由root继续。open旧30158B全文移notes/request137检查点并压缩已结清native重复责任，原链接和完整正文保留。
+
+## 2026-11-15 /root — R304实际136连续E完整读回
+
+[R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)全文及14950B原摘要已读，identity 26794a89d0404632f7c231bc810856dc0e542a18eec9d5b7cf32ce783618dd2e；同三输入/1440片/六primitive/1800秒，21334panel后SystemError，日志1386片与返回0/整未付域均保，query0/Rout空，不消费为新g cut数据。只对确捕ResourceStop做受支持callback转传，未知SystemError不改标签；139同步优化完整w端点积分，保全宽门和原预算。正文已立即推b412ee25；H原9888B触限先保原文，现仅压缩已发布正文的重复，完整责任均有链接，索引同步。138已真run43710284131，137/124/128仍在原科学；未完成不收尾。
