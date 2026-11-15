@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：01a70400694a10b5f8a8a5710a71309445362d19**（2026-11-15 08:45 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：4811fdaa6344e68340787d251f4e8416245ce859**（2026-11-15 08:46 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R800前H](notes/2026-11-15-handoff-before-R800.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
@@ -35,7 +35,9 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending�
 
 **R798选行坐标已实际成功**：[结果](results/R798-certified-original-mu33-row-coordinates.md)，run43695452689/source2052eb18，23.0255秒；实际1506短秩，mod739新minor646，690个τ³V3积全部1640坐标双规范核验。1395输出/1385阶段SHA已核，cert8141d99d。原选行Ψ_I保K/L；未算有理逆/全表/原基系数。外来列/原基恢复仍须全1640行代回，Dixon固定2AB<M。准确原输入随一日bundle转交。
 
-**R799已证明**：[七、八次最小短基](results/R799-original-power7-power8-minimal-basis-construction.md)给维1778/2050、q95/108；两锚点秩恰1778−共同零次数，已成V6全部recipe只用M2锚点0/1/73，故这三个已无基点；其中存在pencil，保证V7及Sym²(A)V6=V8。只新增V6尾82..108；V8直接三因子，V7不扩108。公开run43695571499运行（source2ebb10bc2cca7000374f83fa855030723deca2f4），core32ff9d38/wrapperf74313ac；三个原输入组2763文件IO/SHA通过，只下载R795活跃包。实际minor/新基未算。R800原M2尾129..195 core/method已审，exact继续封装；ordinary接R801必要长尾接口。
+**R799已证明**：[七、八次最小短基](results/R799-original-power7-power8-minimal-basis-construction.md)给维1778/2050、q95/108；两锚点秩恰1778−共同零次数，已成V6全部recipe只用M2锚点0/1/73，故这三个已无基点；其中存在pencil，保证V7及Sym²(A)V6=V8。只新增V6尾82..108；V8直接三因子，V7不扩108。公开run43695571499运行（source2ebb10bc2cca7000374f83fa855030723deca2f4），core32ff9d38/wrapperf74313ac；三个原输入组2763文件IO/SHA通过，只下载R795活跃包。实际minor/新基未算。ordinary接R801必要长尾接口。
+
+**R800原M2尾已审并启用**：[方法](notes/R800-original-M2-tail-129-195-method.md)只新增146行q129..195，保原82²/40ξ/20t。E1两符号除数和、126迹、40det相位只作新尾，旧前缀不重算；329原输入IO/SHA通过。core417dd598、method5d1d299e、wrapper2783ff56，完整阶段及最小输入一日转交。实际新尾待公开结果。
 
 [实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)：D_(1−ζ)使原f在Fb上的C′:Y²=X³−27b定义、degree仍1206；ψD=[1−ζ²]、ψ*ω=3ω′、e′=e/3，原h必须保3倍及主函数(-27)常数。当前原模型/原q/基点不换。
 
