@@ -911,6 +911,38 @@ for(const c of candidates){
   const nq=fullFirstSource(diffMatrix,diffOld,an.solution,false).jets_z5_11_17_23_29;
   leftResidual.push({row,symmetric_rhs:dot(row,sq),neutral_rhs:dot(row,nq)});
  }
+
+ const ptrim=P=>{const R=P.slice();while(R.length&&!R.at(-1))R.pop();return R;};
+ const pdivrem=(A,B)=>{
+  let R=ptrim(A);B=ptrim(B);assert(B.length,"nonzero polynomial divisor");
+  const Q=Array(Math.max(0,R.length-B.length+1)).fill(0);
+  while(R.length>=B.length){
+   const j=R.length-B.length,a=md(R.at(-1)*iv(B.at(-1)));Q[j]=a;
+   for(let k=0;k<B.length;k++)R[j+k]=md(R[j+k]-a*B[k]);
+   R=ptrim(R);
+  }
+  return {quotient:ptrim(Q),remainder:R};
+ };
+ const pgcd=(A,B)=>{
+  A=ptrim(A);B=ptrim(B);
+  while(B.length){const R=pdivrem(A,B).remainder;A=B;B=R;}
+  return A.length?A.map(x=>md(x*iv(A.at(-1)))):[];
+ };
+ const residualTheta=er.piv.map(j=>elim(firstZBasis,residual.map(R=>R[j])).solution);
+ const residualPolynomials=residualTheta.map(x=>ptrim(x.slice().reverse()));
+ const commonGcd=residualPolynomials.reduce((A,B)=>pgcd(A,B));
+ const torsionFactors={E2_or_y_factor:[1,1],nonzero_E4:[-8,20,1],
+  CM7:[16,-4,7],x3_minus8:[-8,1]};
+ const divisibility=Object.fromEntries(Object.entries(torsionFactors).map(([name,P])=>[
+  name,residualPolynomials.map(Q=>pdivrem(Q,P.map(md)))]));
+ const residualPolynomialGeometry={
+  normalization:"-sigma^34*x*y*P(X), X=x^3; ascending coefficient arrays",
+  basis_polynomials:residualPolynomials,monic_common_gcd:commonGcd,
+  selected_original_high_columns:er.piv,
+  selected_original_high_monomials:er.piv.map(j=>j>=highStart?highLabels[j-highStart]:null),
+  candidate_torsion_divisibility:divisibility,
+  all_scope:"exact auxiliary polynomial algebra; no characteristic-zero factor claim before a full lift"
+ };
  const frozenNormalAnalysis={
   raw_first_observations:["Y0=A+c+2d","Y1=A+2c-d"],
   raw_second_observations:["W0=A+3delta*c+4d","W1=A+4c-3delta*d"],
@@ -927,6 +959,7 @@ for(const c of candidates){
    normalized_branch1:fullFirstSource(frozenNormalMatrices[1],frozenNormalOld[1],an.solution,false),
    difference:fullFirstSource(diffMatrix,diffOld,an.solution,false)},
   exact_auxiliary_J2_readers:{paid_forty_nine_plus_difference:paidJReader,native_without_quarter:nativeJReader},
+  residual_polynomial_geometry:residualPolynomialGeometry,
   residual_image:{rank:er.rank,pivot_columns:er.piv,
    basis_columns:er.piv.map(j=>residual.map(R=>R[j])),left_relations:leftResidual},
   same_fifty_minor:minor.det,selected_rows:moreRows,selected_columns:moreCols,

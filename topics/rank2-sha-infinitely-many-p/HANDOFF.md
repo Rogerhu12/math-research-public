@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：de829cadfa0987e7826951896c5ca128b30f5707；2026-11-15 09:22:48 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:22:47 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
+- 最近已读规则提交：60bf7fe4ecc77b501efccf5b935d642076b8560d；2026-11-15 09:24:50 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:24:49 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
@@ -64,3 +64,5 @@ R722：T_J=s−r−1/T_M=s−r−14，T>2κ/h>κ时物理核/kF²嵌原值与首
 [指定forcing](notes/2026-11-15-r722-specified-extreme-forcing-outside-unit-block.md)退出单位块；[截顶charge](notes/2026-11-15-r722-original-budget-truncated-tangent-unit-block.md)将2/3charge返回真落旧D，只损δj≤j(2u+8b+1)，低charge真实U付两jet分裂。
 新增§4.1：Z>0截源无F²来源核，残物理核给公共t阶≥r+1的真原首核，与t阶恰r的Pfact直和，dim K1≥1+dim I_cut。若实际K1仅kPfact，整截源两残列也unit；当前未证明此条件。
 R726已付：j0=ell−k≤3的μ_j0五角均保且只3charge，第三短块整消；完整首强迫εt^νv*，ν=h+ell−r−1，V1/f2/normal高尾保。κ<ν<T、T>2κ时退出同D截源00单位块；证明仅需min(T,h+ν)>2κ。两残列、其余WD及同R/p³/两13carry仍在。
+
+同冻结脚本已交两残余列的型5多项式/gcd及E2/E4/CM7余式窄读数；不重选q或加行，辅助因子不作特征零结论。
