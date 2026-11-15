@@ -36,25 +36,15 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ## O4：完整真实第四成本、ruling 与有限连续族
 
-### R198最右端不可校正的纯period门
+### 已完成的 pure 控制与真实几何
 
-[R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)已付最右f0整带上L_f(w)对全I合法w恒零、第三gauge不改period，完整目标为sin⁴θ P_B(g)。保全路径s累计和真实右尾，不能缩gauge支撑回避。该pure必要门的实际全函数支付见R210。
+[R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)给最右整带的不可校正pure必要门；[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)保全三矩/第三的忠实圆使该门等价whole pure零。旧冻结step的忠实性不自动继承。
 
-[R200](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)给保全部桥/倒行/Klein基准的有限真实单查询修正；现已升级R210全pure实际控制。[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)权0像维3且πH0/λH1，pure读λ路线结束，不能换step重做。
+[R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已结清全部pure权像：准确完整原响应与关系，再经真实桥/整数复制/Brouwer得实际S=P；不能从span/闭锥单独冒负路径。Klein四位置真实词保位移和非零TκH，并付whole pure零；已付pure、旧NF、正字符不再扫描。完整来源/actual见原稿。
 
-[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)新全权pure忠实末step保三矩/完整第三/八包，最右完整period0 iff πV_B0；原冻结step未获忠实性。实际pure控制已由R210支付，继续mixed完整兼容。
+R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消费：先真实末frame/九参数/fullP IFT，再安装全h Morse及非零ke例外germ，保原U/T、桥和倒行。避flat、pure零都不授完整mixed/ruling；旧圆的R216/224/249–253排除保其准确范围，不作普遍刚性。新profile不继承旧有限观测。
 
-[R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已以完整原响应/全关系支付所有pure权像，并结合R202闭锥、R206真实桥/整数复制/Brouwer得实际S=P；不由span或闭锥单独冒负路径。完整证明、run及原记录保留，已付pure不重跑。
-
-R210的实际pure控制已用于闭hook：真实M=T0/frameI词在Klein四位置插入，保位移/非零TκH而整pure零。其完整基准成本与比例见原证明；这只支付必要pure门，同g/嵌入/reach/有限幅度仍欠。
-
-[R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)的固定有限词C1全pure截面已付，未知真实基准与商Q均保留；外扰动须全P IFT。R214/218/220的无常段、偶germ与Morse迁移已由R223/227加强，当前无需重做这些局部控制定理，直接推进完整period与ruling。
-
-[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)及R218的无常段/偶germ有限端口已由R223/R227全域Morse与非零ke例外安装加强，已付部分不重做；避flat不授完整joint，旧圆仍受R224/249–253准确面积障碍。
-
-[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)的全部真实桥/倒行/Klein/位移约束保留，当前直接推进完整mixed与ruling。
-
-[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)的全域h Morse与局部C1全pure截面已被R223/R227消费；九行/fullP真实IFT、Duhamel/IBP及有限低维投影证明保留于原稿。Morse不授mixed/ruling。R221的完整joint有限接口仍需两period成员、五相位目标span和增广矩阵同w兼容，见下列主目标和原完整证明；不重已付控制。
+[R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)给完整joint有限接口：126矩加六合法行不宣rank；先两原period成员，再五相位目标的45几何span，最后48×135增广子式及降秩消极点条件。全period核/平台自由度与同一个w必须保留；尚无实际完整目标通过，不能由F8零冒完成。
 
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 
@@ -130,13 +120,15 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)/[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)/[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)已用完整area与同移锚把R239旧圆全部κ≠0/ε>0/b实芽排除：c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，复2×2使两不交真实质心相等，矛盾。不排所有profile，不冒跨b同g。
 
-[R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)把A−2,−3从pure升级全圆，保D和左尾，以三个真矩全θ零给十条件；40偶微包准确付三矩与该面积，八复制付第三且非GL2分离，但Lc<0。换种子pure两矩零仍有全角m1(π/2)=−120C。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)又给A1,−3的完整必要Q0：Q含½∫(Jq″²)²，40包四局部项恰0而累计primitive平方虚部严格正。其多宽度式(28)准确保左右次序/跨包尾及真实shape常数。**下一同时联调全部面积三外矩/局部能量与ordered-history，不能只调C_i/S_i或只验pure。** 不冒单面积零或局部有限门为完整joint；全period/同w继续。
+[R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)的全角十条件严格强于pure；40包虽付该面积但Lc<0。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)另给完整必要Q0，其累计primitive真实跨尾排该40包。多宽度准确式仍须保全部ordered-history/同母shape常数。
 
 [R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)已给全部六面积72准确条件：Euler密度必须扣完整二次cross；每微包自项、各i<k有序Γ真尾都保留，72为条件数非rank。具有R183八复制结构的完整圆再取12个完整副本、g交替符号与四次binomial幅度，准确消全部36 odd系数；36 even/内部历史及同w仍未付。**下一把全部复制纳入准确参数方程同时解剩余面积与六能量，不能以原处偶能量0推任意平移保持，也不能只验pure。**
 
 [R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；八χ不先套此自伴结构。
 
 [八χ完整源设计](notes/third-kernel-eight-local-operators-design-20261115.md)本次lane third_kernel_eight_local_operators仅消费旧W36与R254准确χ，首次生成K(w)=χ(w;ff)的真D³、完整有色word及局部时全形式伴随。空word才提局部/实测阶，不预截四阶；非局部/非自伴完整保。先8新人工，旧Δ/18参考/151/152/3974及第四响应0重做。此lane尚无实际结果，不先用全Z自伴或宣fixed-circle像。
+
+[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)已真实联合支付新多宽度圆的三矩/完整third/六能量/全A−2,−3和36 odd。两坡宽度与三母包shape分别给α、s简单方向；8/12完整副本先纳入原能量且四次加权中心0，δ归一两个准确能量联合解析，有限正宽IFT有效。抽象S/C锐比值≥9+4√5与真实实现分开；改变seed另冻结目标。**当前剩其余五面积30 even及全部其余完整fourth/period/同w；先核本族真实有序Q，不能只调复制中心或重新求已付六门。** 巨大有限复制仅存在证明，未称适合数值求解或完整候选。
 
 ## O1：双圆领相位机制，保留备选
 

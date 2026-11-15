@@ -212,3 +212,12 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [容量失败及修复](notes/height159-capacity-first-development-grid-repair-20261115.md)完整消费43711688885/e38604f6/job132804450203：首个人工setter在原坐标记录处拒绝非2π全均匀角网，未到容量断言，0真实prefix/几何/J/LP/hold。失败开发12544B/2a99c15a与receipt51258B/a493cc35、37来源全同。helper仅developer_check六行修成原准确角网、7号原峰、合法2×4重复峰例与B52；生产函数/driver/98参数不变。根与tail对三个实际API静态核后，仅请求未完成新增检查与真实阶段，不机械重跑完成研究。
 
 [八χ新设计](notes/third-kernel-eight-local-operators-design-20261115.md)及新源码冻结f5914327，完整原χ三槽/真右锚保留，首次计算χ(w;ff)三导和fresh完整原重建差，只有所有word空才准确列实际w阶/全部系数/全形式伴随。种子湮灭直接继承R254，不再跑旧Δ；8新人工专验新适配的内外w尾、完整链式导数、真实I号、IBP原差和六阶不截断。零旧参考/旧forcing/第四响应/几何，结果未预判。源只复用15冻结依赖读取/表示API，内存proof与临时main不发布，可审数学原系数或words直接stdout；fullperiod/全Rp0/实际signed/同w ruling仍欠。本次两lane相互独立，53完整请求来源绑定。
+
+
+## R256：锐能量比值下界与多宽度圆的真实六门联合构造
+
+[R256 完整证明](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)先对不交实profile准确得到S_i>0/C_i>0；full A−2,−3的两个偶矩与Lc0给max(S_i/C_i)/min≥9+4√5，全部取等/退化条件明确，正权锐性不虚称真实几何取等。新真实族采用两平方坡α/β、64:1数量与q=1/[16(1−α)²]宽比，完整Thue–Morse中心矩与严格交错间距同时付三复矩、整单面积和Ls/Ms。八完整副本付全third、十二四次binomial副本付36 odd；它们在求能量根以前全部纳入，四次加权中心准确0。
+
+从原S/T bulk的两阶手展开得K2=27A2−20B1+2C0；真实母包由中心0/±L的三I0归一小包组成，H/A0的形状根在(s,h²)=(1,0)有导−18L²。先取固定正h，再对F=δ³Lc、G=δ(Mc+3Lc/ζ0)准确归一；最强项与所有一阶中心项真实消去，δ=0时Fα≠0、Fs=0、Gs≠0，下三角Jac给有限正δ的真实两个even能量0。共振层保完整紧槽和背景真尾，逐包bulk得Nc=6Mc/Ns=6Ms，所以六能量与上述全部条件同时准确付。支持/collar在固定紧参数邻域统一，先选实际有限宽圆再取足够小共振ke，不声称收缩profile范数有统一安装邻域。
+
+剩余30 even面积、其余完整history、第四period/ruling、有限同g族和嵌入/reach/幅度均未付；完整ordered Q/self/Γ接口逐项保留，不以局部权配平代它们。root全文独核锐二次包络、真实三矩/间距、两次复制、S/T全部系数、shape缩放、联合解析/Jac和共振6M；literature独立逐式复核，未执行新科学或人工。后继只研究剩余真实有序面积，不重六门。
