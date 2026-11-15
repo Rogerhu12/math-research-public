@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "a7877f60885de7890cf9dac411c8a79500ea50ad",
+  "rulesReadAtCommit": "cfebd6155527b1143fa6c26f7014489a3a6d1354",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -662,6 +662,27 @@
       ],
       "timeoutSeconds": 30,
       "receiptPath": "{work}/selected-pure-projection-rank/selected-pure-projection-rank-and-envelope-receipt.json"
+    },
+    {
+      "id": "selected-second-transverse-projection",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-second-transverse-projection-789f.py",
+      "scriptSHA256": "d94b1f0be704c5eb7aee756a98a5d7a2097e66a331709c4e300434f78dbd7e9d",
+      "argv": [
+        "--point-model",
+        "{selected_model}",
+        "--selected-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--unit-profile",
+        "{work}/seven-original-exact-rational/seven-original-unit-row-profile.json",
+        "--out",
+        "{work}/selected-second-transverse-projection",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 65,
+      "receiptPath": "{work}/selected-second-transverse-projection/selected-second-transverse-projection-receipt.json"
     }
   ]
 }
