@@ -9,7 +9,29 @@
   "worker_source_sha256": "6512b038f14704d5a9a70c4693260a8c49ed47fa016beef1c0c034c672dcfe48",
   "actual_source_sha256": "942db5ef59f88efa25da614ad4c0e0fa625fe1babb440527e0105739ab14ac68",
   "input_manifest_sha256": "0d036c7209c0b1f7a61c5eb5e997fcdc4e2bda1fb4aabbe37a5e4e967508bc11",
-  "children": [],
+  "children": [
+    {
+      "label": "cached_weighted_cap_Q_joint_gate",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+        "-u",
+        "/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py",
+        "--root",
+        "/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science",
+        "--out",
+        "/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/new-temporary-weighted-cap-Q-output.json",
+        "--summary",
+        "/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/actual-weighted-cap-Q-summary.json"
+      ],
+      "started_utc": "2026-11-15T08:31:03.173685+00:00",
+      "actual_returncode": 1,
+      "finished_utc": "2026-11-15T08:31:04.174163+00:00",
+      "actual_wall_seconds": 1.0005021599999964,
+      "temporary_log_bytes": 4152,
+      "temporary_log_sha256": "909c704f413fd77979681f6605b91480e66d387deadedb1cd248fa920bc29cce",
+      "actual_log_tail": "{\"kind\": \"actual_cached_weighted_cap_Q_joint_gate_v1\", \"complete\": false, \"failure\": {\"type\": \"ValueError\", \"message\": \"gate failed: exact_original_four_parts_and_complete4650_identity\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\\\", line 548, in main\\n    rows,cap,bg,l1,nodes,mean=inputs(a,d)\\n                              ^^^^^^^^^^^\\n  File \\\"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\\\", line 195, in inputs\\n    positive=original_positive(a.root,doc)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\\\", line 104, in original_positive\\n    gate(doc,\\\"exact_original_four_parts_and_complete4650_identity\\\",\\n  File \\\"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\\\", line 93, in gate\\n    if not ok:raise ValueError(\\\"gate failed: \\\"+name)\\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nValueError: gate failed: exact_original_four_parts_and_complete4650_identity\\n\"}, \"source_sha256\": \"942db5ef59f88efa25da614ad4c0e0fa625fe1babb440527e0105739ab14ac68\", \"parameters\": {\"bits\": 320, \"cap_interval\": [\"9/10\", \"25/8\"], \"physical_eta\": \"-7789843107295549/4611686018427387904\", \"affine_parameter_offset\": \"0\", \"original_parameter_half_width\": \"1/1000000000\", \"exact_nu\": \"-2572625729470897/72057594037927936\", \"exact_alpha\": \"6890507429876859/9007199254740992\", \"sigma\": \"1/8192\", \"mean_candidate_component\": 32, \"candidate_modes\": 32, \"raw_Q_B_labels\": [-32, 32], \"raw_Q_C_labels\": [-64, 64], \"physical_frequency_factor\": 4, \"weighted_exponent\": 2, \"inverse_displacement_original_width\": \"1/64\", \"repair_original_width\": \"1/32\", \"requested_weighted_Q_upper\": \"1/100000\", \"requested_endpoint_Q_gain_upper\": \"5\", \"nonlinear_body_radius\": \"3/1000000\", \"nonmean_endpoint_radius\": \"99/100000000000\", \"true_outer_Z_radius\": \"1/1000000000\", \"inner_nonmean_C_radius\": \"1/1000000000\", \"normalized_outer_height_radius\": \"1/1152921504606846976\"}, \"seconds\": 0.002604997999995362, \"gates\": [{\"name\": \"exact_original_four_parts_and_complete4650_identity\", \"passed\": false}], \"scope\": {\"fixed_eta0\": true, \"fixed_repaired_M32_delta0\": true, \"full_even_mean\": true, \"full_two_sided_known_coefficient_support\": true, \"per_mode_radial_max_before_sum\": true, \"same_repaired_inverse_angle\": true, \"unknown_Fourier_modes_truncated\": false, \"raw_ac1_relabelled_as_repaired\": false, \"only_weighted_coefficient_and_scalar_compatibility_gates\": true, \"complete_nonlinear_endpoint_invariance_proved\": false, \"complete_nonlinear_cap_solution_proved\": false, \"whole_infinite_BVP_inverse_proved\": false}, \"old_target_and_full_coefficient_convolutions_recomputed\": 0, \"old_L1_integrals_recomputed\": 0, \"old_reference_Riccati_recomputed\": 0, \"new_recomputable_data_persisted\": false, \"temporary_full_output_sha256\": \"b61fb5581be9aeecb51d9659efd0bc5dc722245d8ceb51d7a86d5d1294df408f\", \"temporary_full_output_bytes\": 3507}\nTraceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\", line 565, in <module>\n    if __name__==\"__main__\":main()\n                            ^^^^^^\n  File \"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\", line 563, in main\n    if not d[\"complete\"]:raise RuntimeError(\"actual new weighted cap gate failed; small evidence retained\")\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: actual new weighted cap gate failed; small evidence retained\n"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T08:30:53.421248+00:00",
@@ -34,9 +56,27 @@
         "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
       },
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T08:31:04.512939+00:00",
+      "before": "1c23a9f74044b2e5d7e0226f2710721f2ae7e338",
+      "after": "1c23a9f74044b2e5d7e0226f2710721f2ae7e338",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "utc": "2026-11-15T08:31:03.173611+00:00",
+      "commit": "1c23a9f74044b2e5d7e0226f2710721f2ae7e338",
+      "final": false
+    }
+  ],
   "old_target_and_full_coefficient_convolutions_recomputed": 0,
   "old_L1_integrals_recomputed": 0,
   "old_reference_Riccati_recomputed": 0,
@@ -49,7 +89,7 @@
   "full_infinite_BVP_inverse_proved": false,
   "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
   "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
-  "last_read_commit": "ace38440324f09471482826136584da38960c417",
+  "last_read_commit": "1c23a9f74044b2e5d7e0226f2710721f2ae7e338",
   "topic_size_metadata": {
     "commit": "ace38440324f09471482826136584da38960c417",
     "topic_tree": "c2948b7e888fd64939d37e6ab69990e18eeab37a",
@@ -270,7 +310,28 @@
     "normalized_outer_height_radius": "1/1152921504606846976"
   },
   "immutable_scientific_copy": "/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science",
-  "snapshot_utc": "2026-11-15T08:31:01.630592+00:00",
-  "wall_seconds": 8.547799107000003,
-  "publication_is_final_attempt": false
+  "snapshot_utc": "2026-11-15T08:31:04.175090+00:00",
+  "wall_seconds": 11.092288386999996,
+  "publication_is_final_attempt": true,
+  "actual_scientific_summary_sha256": "e4b62e7a64b15d0ec023012d605f9d8106ad0cc3b27c9cf37ead3fc94252c244",
+  "actual_scientific_summary_bytes": 3648,
+  "actual_output_sha256": "b61fb5581be9aeecb51d9659efd0bc5dc722245d8ceb51d7a86d5d1294df408f",
+  "actual_output_bytes": 3507,
+  "actual_scientific_gates": [
+    {
+      "name": "exact_original_four_parts_and_complete4650_identity",
+      "passed": false
+    }
+  ],
+  "actual_scientific_complete": false,
+  "actual_scientific_failure": {
+    "type": "ValueError",
+    "message": "gate failed: exact_original_four_parts_and_complete4650_identity",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\", line 548, in main\n    rows,cap,bg,l1,nodes,mean=inputs(a,d)\n                              ^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\", line 195, in inputs\n    positive=original_positive(a.root,doc)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\", line 104, in original_positive\n    gate(doc,\"exact_original_four_parts_and_complete4650_identity\",\n  File \"/home/runner/work/_temp/visible-exact-cached-weighted-cap-Q/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q.py\", line 93, in gate\n    if not ok:raise ValueError(\"gate failed: \"+name)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: gate failed: exact_original_four_parts_and_complete4650_identity\n"
+  },
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual public weighted cap Q mathematics returned a nonzero code",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q_CI.py\", line 348, in run\n    self.compute()\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_weighted_cap_Q_CI.py\", line 330, in compute\n    raise RuntimeError(\"actual public weighted cap Q mathematics returned a nonzero code\")\nRuntimeError: actual public weighted cap Q mathematics returned a nonzero code\n"
+  }
 }
