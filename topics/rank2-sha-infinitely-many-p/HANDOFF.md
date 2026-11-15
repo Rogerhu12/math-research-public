@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：facffded7fdc069cbd91473d845c2e8377a7bd8f；2026-11-15 03:14:30 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:14:30 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：9f4fc835bfb3330a01d15497ed427b89bf231f66；2026-11-15 03:15:58 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:15:57 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
@@ -18,7 +18,7 @@ R1–363、R365–560、R562–636、R638–653、R655–663、R665已登记；R
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：R663真实LT/同解闭盘充要已付；续R666原两中央到完整余数的算术联系，O4/O6保留。
+- root：R663真实LT/同解闭盘充要已付；续R666原两中央/完整余数及R649后实际sigma modp²；R606已有H^-p log，不重登。
 - theta：R665原L深混合奇差及四σ系数已付；续R667同R664双S门的浅补域/外部联立。
 - literature：R661两log行的完整Katz返回已付；续R664原Q/L quarter旋转与双S交门，R654真modp²保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
