@@ -234,49 +234,22 @@ R13a–b在原reflection/固定metric及坐标下解除同fB条件：
 
 ## 5. 新94链、真实B collar和实际body初值已经成立
 
-[P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)
-使用新S25/S26/C18/J18 fixed-stop对象、真实X/H图，
-全部复标签球与Cauchy方向保持a_-m=a_m，同physical反射轴。
-只帽σ1/8192；wide incoming/mixed全long Green另行支付，
-含320/5⁄8/mean1⁄24、真finite-length reflection及physical aw。
-Ra2^-55000000、β94=66624、far slope residual<2^-5280041760。
-每一步重新读同Γ/Φ图值，是解析Banach迭代而非新增数值sample。
+本节全部逐字旧证明接口/精确指数保在3f9a23d27dcf80340fd98cd5fba59b0abf3763e1同路径第5节及下列原文；此处压缩不取消任何条件，不授权重算。
 
+[P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、
 [G真实B collar种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)
-已经完成far residual到原graph的实际转换。
-原首q transition内d2^-1024、Q<−3/4的collar使用完整单侧PDE
-生成0..5高度jets，再作精确Hermite lift。
-实际awB/aw比例、所有正负mode、κ mean、一global λ及ordinary
-完整源三径导均付；原coefficient第三jet/高度第五broken跳不抹。
+已给同fixed-stop/真实X与H图的完整94步、两mean和全mixed源；每步用真实图值，非sample。
+首q transition用完整单侧PDE生成0..5高度jets再Hermite lift，保awB/aw、κ mean、global λ、三径ordinary源；原第三jet/第五broken跳不抹。
+实际E8192<2^-54866996，完整source Zs^[3]<2^-5275847456（0≤s≤6396）；原far residual已准确转换但lift残差仍由Nash消去。
 
-整个候选第一参数族的principal输入位于不变的负分量，
-L10返回映射准确相同，经L15唯一性Γ1准确不变；
-Γ2冻结为最终真实值。不是只证明一个DΓ方向为0。
+[F固定实际帽输入与body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、
+[RG粗γ与真实种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)
+已给真实E四态B迹nq+fq<2^-430 E(q+32)、固定Bbarγ<2^2097152，T0=2^1500000和3500/400、loss1734/bg1796归纳。
+RG用M零宽图、同真long右宽0/左宽7L/16与E'>39194024，解除未知γ复角宽要求；γ A0/rγ≤1/128及fixed physical H8193/rγ≤2^1048576由S§11接入原far网络，端核5530265<6291456。
+Γ1在整个候选族由同负principal分量/L15唯一性保持，Γ2由真实a94(γ)选择且固定γ后冻结；fixed-γ collar修改不改同Γ，seed(γ)差不声称仅支持collar。
 
-实际初值满足E8192<2^-54866996，
-完整source Zs^[3]<2^-5275847456（0≤s≤6396），
-因此body的低球、高有限和source入门已经支付。
-原far残差不能直接当ordinary源，但这个转换现已做完。
-修补区仍有非zero PDE residual，要由迭代消去。
-
-[F固定实际帽输入与body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)
-现已用真实E四态B迹支付nq+fq<2^-430 E(q+32)，
-把随u变化的高背景显式保在原E(s+1796)，抽出固定Bbarγ<2^2097152。
-对原γ Aσ/128输入（含γ=0），T0=2^1500000的常数门、低球及实际seed源门全过；
-[RG粗γ与真实B端种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)
-现已解除种子的正角宽要求：γ复偶A0/rγ≤1/128，使用M零宽值图，
-同一真long以右宽0/左宽7L/16构造实际B端宽度。全部94步/两mean/mixed源保，
-E'>39194024给原所有整数余量；G的E8192与三径source小量原样成立。
-这不对γ作复角求值，也不把整个seed(γ)差误说成仅支持collar；
-Γ*(a94(γ))可随γ变，只有固定γ的collar修改保同一Γ。
-固定realγ再付H8176/rγ≤2^1048576，就可按原F继续body Nash。
-S§11已独立把fixed physical H8193/rγ≤2^1048576明确接入far固定graph；
-最高端点核5530265<6291456，原网络窗不扩，不能由8176假推8193。
-
-原3500/400、1734/1796全部归纳给同一u∞的完整body F=0和holonomy mean。
-F本身只授实际body存在性。新增[S非线性far固定图与Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
-现已在原解析γ域及§11明确的固定粗H8193域内同时解body和真实far；内core/waist/ν仍须联立。
-该证明使用真正保持nonlinear值图的坐标，未把linearized行冒作值保持。
+[S完整far值图与Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
+同时解exact body与真实far、holonomy，使用真正值保持坐标。core/waist/ν仍须联立，第6节保连续选择与其全部实际输入域。
 
 ## 6. 完整exact tail、连续选解及真实参数列
 
@@ -333,6 +306,10 @@ H24–26实门给X_N≤2CE A_N；finite real差商使初始H1即可，不先假�
 实σ≥2^-32及H32门将same-cut高差压在2^377904<2^393000，已付δZ已知高差；
 精确state的reference残差band288使完整高源≤exp(1152σ)||Pf0||，近似state仍付自身0..8193残差。
 H5b可只消费已知finite-band逐row A0/B1/D1，不能把未知C0当Wiener。实际低/系数/source门由7721 jets及原state包络消费，尚未过。
+[A更紧的collar低常数](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)
+现以max范数与真实两端Poincare/评价给CEsharp，完整向量GN保mean后给
+c2=b(6Mell+2M√ell+M1ell^1.5)、c3=6bell；A12三实门通过即沿用H全部高trace结论。
+χ外独立η门、approximate own residual、mean与双侧连续state仍必需；实际系数正在消费。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 

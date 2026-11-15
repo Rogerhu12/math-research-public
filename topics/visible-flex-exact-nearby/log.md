@@ -98,3 +98,7 @@ root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7
 ## 2026-11-15 12:11:58 UTC — actual complete second local vector
 
 只读实际43711568963/1的executionc17f7e83/result96439643及完整16门，root独立逐项比对31sourceballs与P完全相同。新all-op4.837164e17大于旧3.040655e17，q2=1，域与rank真门通过但界不改善；B同raw2已保，未作新merge数学。report 4f576cf2a17da5ef2fc11f238404b0297a7069601f937df4008bf2d1135f9e73；SCI11940389/worker2fbca963/manifestdf685783成功锁，旧计算零重做。真runner末pull12:00:29.818915→dfbdc370两README空；本次只读核a7ce55798404fec8fb3638c0fbf083250c5363b2两README仍原身份。继续g全源和Dδ/collar/Green。
+
+## 2026-11-15 12:13:37 UTC — sharper complete finite collar
+
+推A/b6527f39/6018B。root通读A1–13并核与H19–33全部individual控制一致；phase独立核A6–11 normalized-circle/vector GN、有限sum与五个费用通过。无需新数学数值：保ell/√ell因子及两端径向评价，max范数只减保守常数，H的actual源/mean/seam/χ外门不变。H历史细账在3f9a23d2同路径保留并压缩P旧时点，继续actual7721/4650域消费。只读README核24f539d477ab4042f77ef51eeb869e094c28d30a两blob未变。
