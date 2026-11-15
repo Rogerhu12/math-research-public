@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b48ca62f94a9e10cd20aebeee41aa081def2fb7d；2026-11-15 01:59:08 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 01:59:07 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
+- 最近已读规则提交：39799fc1a52b91629b3deed3b4fb45e29ae7b6e7；2026-11-15 02:06:19 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:06:18 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43665493710/job132663812985实际pull成功且规则差异空，回执ci/rule-sync-receipt-2026-11-15T015747Z.json；本地仍断连，下一次最迟02:50 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,16 +14,16 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–643、R645–648已登记；R364/R561仍开，R637/R644/R649/R650进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r648.md)、[open](notes/2026-11-15-open-before-r648.md)。
+R1–363、R365–560、R562–636、R638–648已登记；R364/R561仍开，R637/R649–652进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r644.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：R639/641完整gauge与准确边界、R643中央正成本次主量已付；续R644真实全源传播及open其余算术接口。
+- root：R644全固定次数边界已付；续R652真实J_D/Δ_D量化与全源传播，O4/O6仍按open保留。
 - theta：R645真实Y/A交域及强制q转置已付；续R650两个固定门的原W词/低轴完整比较。
 - literature：R647原S/T/U完整Cartier已付；续R649同源真实必要式的算术非零。
-- deep：R648全C全Smith已付；续R637旧小预算同R/全Padé/26carry。
+- deep：R648全C全Smith已付；R651旧高临界同P整提升，R637旧同R/全Padé/26carry非零仍开。
 
 ## 原对象、ray及未闭旧支线
 
@@ -70,15 +70,8 @@ R624原det(c,d₂)是真Hadamard指定行8倍；S12 addition保坐标除子及1�
 原ψp四位完整恢复同det，低R₁/R₂/实际a/p全保。R630原numerator p⁷误差、
 五整商首阶js/单位C_s^j/j!已付，二次unit始2s在指定2s−1窗外；全端点卷积不删。
 原a=M c+R、R606 canonical gauge、R609三Q/Wilson不新增中央零，指定非退化仍开。
-R636原DZ1、D^p0，∇=D−6G、∇^p=−6(G+x²/y)^p≠0；
-P6=Z^pQ6=−∇^(p−1)Z^(p+5)与原sigma6首Gaussian在z^(6p+6)前相同。
-A4=xQ6、A1=−Z³xyQ6：cℓ=ResO(Aℓω)，dℓ2=−D^(p−1)(Aℓ/Z)(O)。
-第一行可回任一非零二挠点；第二行全部Zzero极点保持，极帽O(p³)不免费入旧源。
-真正Vred∈k(x³)、DVred=G+x²/y，删p倍极次、deg≤p(p−1)/2−1；有限指数/y²亦配同低窗。
-规范重标保全算子/两行剪切；未证指定detunit，不删原R1/R2/a/p。
-增补：Z=z−κ5 z^(5p)+…，κ5=(3b/5)^p/c_p；h2..4真实Cartier行Tℓh=dℓh，h5为dℓ5=Tℓ5−ℓκ5。
-fullFc保γ2Tℓ3+γ3Tℓ2+γ4cℓ全部三角项，前两窗仍逐项不变。
-
+R636同一P6=Z^pQ6完整低窗给两留数/两Cartier实际det；全部极点/O(p³)帽/低R1/R2保留。
+原Z=z−κ5z^(5p)+…，h5准确dℓ5=Tℓ5−ℓκ5；fullFc全部γ2/γ3/γ4三角在。
 R647同一P2=−(D−2G)^(p−1)Z^(p+1)、Θp=xP2给原S/T/U完整有理模型，保全部多项式/O(p³)极帽/Z的3p个零。
 原g_mh=T_mh(h≤4)，g_m5=T_m5−6κ5；j_m0给T_m1=0、T_m2=γm(g_m1/p)bar及T_m5+γm^5 B_m5/24=6κ5。
 B_mh是原低部分和除p^h，不自由/不删除；第三条只在另假设j1360时加入，fullFc全三角保。
@@ -96,7 +89,9 @@ Fc−cX始X²使两指定窗逐项不变；σ/Ec仍保uH/Tg，Tg未认k(E)有理
 R641五正规C_i的真实H阶2/5/28/38/66给任意正幂准确R_E；
 同N且(N,6)1的五源全线性空间交闭Tate仅常数。
 Tg首项−bu6/210且边界值非根号一，h/Ec所有正幂同边界；
-一般多项式只得P(1)=P(0)/加权阶必要条件，不冒全格。
+R644现对任意固定D构造有理jet长度J_D及Δ_D≠0；p>max(101,J_D)、v_pΔ_D=0时，整个原degree≤D空间的闭RE Tate元仅常数。
+全p²−1简单边界零点与真实Tg整性付所有p依赖系数/同权抵消；辅助维66D(72D+1)不作免费原格。
+J_D/Δ_D增长界及原中央→闭RE延拓仍未付，不冒全局cutoff。
 R643固定有限s_p|ak+b的Gaussian正成本子和仅O(k(1+loglog k)²)，删它不改bI3；
 不限制真实强负估值或已付随D增长条件。多charge/十九角/帽/同R/全旗标须独立付。
 

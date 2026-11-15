@@ -164,3 +164,5 @@
 - [R648：原完整矩阵的带权旗标与全部Smith因子](results/R648-original-weight-flag-and-complete-smith-classification.md)：逐原列真实p^j除商使辅助矩阵仅有1/p因子；实际饱和格与列权旗标精确给全部指数重数μe=ce−δe+δ(e−1)。早阶门下完整高尾的唯一转换点给交核求和式，p≥6101全部fD<p自动满足；未替换旧M或有序jet前缀。
 
 - [R645：原Y/A真交域、同一q完整转置与强制四阶补偿](results/R645-original-ya-intersection-and-carry-transpose.md)：真实Y一层/A两层交域以原Q5与A全返回；同一q的两个门相交强迫A深，与A词归一Yunit严格不交。原九行条件强制第四法向jet为单位，十一自由系数不能删转置；完整S/T总行、四个固定门积分/差商和全部log质量保持，未从局部jet推中央非零。
+
+- [R644：原五来源的全部固定次数多项式与闭边界障碍](results/R644-bounded-degree-original-polynomials-and-full-boundary-obstruction.md)：对任意固定D，用原sigma/z在椭圆函数域上的超越性构造有限有理满秩jet；原Tg整性与全p²−1边界简单零点给整个degree≤D来源空间的闭RE Tate元仅常数，允许p依赖系数并保所有代数关系。有限坏素数有效可算；未给随D增长的jet/高度界或中央到闭盘传播。
