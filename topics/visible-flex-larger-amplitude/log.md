@@ -65,3 +65,7 @@
 ## 2026-11-15 15:45:34 UTC /root — request158完整原模型后置多项式诊断
 
 [158接口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)三新源全文与接口核后即发：真实98一次原37model/新warm FD先行，94源三参数；仅捕获实际返回，独立后置75776行×17档/九系数及实际453 Hermite恒等分拆，原chunk身份不混并。global6000/diagnostic1800/reserve180，完整未访范围和错误读后清；未预填结果或本地科学/AST。H压缩已完成150/152重复摘要，原责任均在正文/open；API核78b3a92e16a6b75ec154997e03f9c8b7577bc177双README未变，真pull行保留。
+
+## 2026-11-15 15:49:53 UTC /root — R347受证两图归一与全部cut候选商
+
+[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)完整证明写成即发：全幅因子/符号/log、继承盒误差、严格非零图变换及每候选商后hull；不可逆地丢幅度或混不同尺度列均排除。162源码由geometry、workflow由root继续，无实际成功预填；158真实43731669039前6步过step7，159具体读回/信号生命周期缺口修复中，原科学门保。API核b04a6a5f7abfd1574608750392fe559413d8a259双README未变，真实pull行保留。

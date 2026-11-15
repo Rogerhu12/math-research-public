@@ -214,3 +214,5 @@
 - [R340：实际157残差二次平方链及原读回边界](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)（实际report明确范围及条件秩关系）：八方向四直线接受、四次原normal各20档全拒，首步模型预测准确、后段下降至Decimal50词尾，全finalfalse。原chain完整核、末九p50/半径及四全响应保；compute大日志未取，全部FD/矩阵/末检查未冒独核，163恢复既有原记录。有限空池不证驻点；准确非零驻点必须J秩亏，可逆换参不修复准确秩。
 
 - [Request158：原37模型与真实新warm FD后的完整R334诊断入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)（源码/参数入口）：actual98另起一次原模型，94源/三参数、原门不变；观察原z、每chunk J/P及已有返回，后置全部75776角行×17档×九系数/准确Bernstein和实际453 Hermite分拆。global6000/diagnostic1800、完整范围/原错误读后清，不冒连续α/角或actual158接受，无本地科学。
+
+- [R347：同C两图射影归一与cut商包含](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)（已证明，条件包含定理）：原列Z=aD_bv的准确幅因子/符号/log与全部继承误差保留，全矩阵Taylor/Duhamel后仅在严格非零端点分量除法；cut每候选闭管高度隔零后先合法商再hull。未付时保有索引非除Robin族，不混不同尺度原列，不冒全112、共振或实际162改善。

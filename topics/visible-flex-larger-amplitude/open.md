@@ -46,7 +46,7 @@ R314/R325即使实际完成也只付固定准确有限trace条件包含，不代
 
 独立后置consumer准确形成全部75776角行、九系数、17闭区间Bernstein；完整实际已访点的原normal/cross词、准确P和453项Hermite恒等分拆逐项保。affine参考、实际点态RHS余项、端点/query/方向表示误差分开，缺整段二阶界就不称α连续安全；N2048不冒连续角。原model/FD先完整读回，后置结果不重判原接受。
 
-global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reserve180；四临时账共8GiB非每件，完整记录写入后才计数，停止保所有未访行/角/分量范围。job135/science110/readback15分钟，完整语义/原错误字节always读后才独占清理，不增raw artifact。未本地科学、AST或预填未来158结果，实际由exact核收。
+global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reserve180；四临时账共8GiB非每件，完整记录写入后才计数，停止保所有未访行/角/分量范围。job135/science110/readback15分钟，完整语义/原错误字节always读后才独占清理，不增raw artifact。未本地科学或预填未来158结果；真实run43731669039/source de638f2a的前6步来源/Actions AST已过，step7执行，actual158/R346由exact核收。
 
 
 ## 2. 九控制低三条件：157实际已付范围与完整原记录恢复
@@ -81,6 +81,10 @@ global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reser
 [R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)已完整读回run43724040548：C3600内完成1440/六primitive/两query闭域、原cut全部两jet及deep112；whole2609合法粗叶仍欠分辨率。R324 m=2/4/6/8均完整传播到cut但实际高度区间含0，不能形成DN商，也不构成共振反证；m10接受391面板后在共享200000尝试预算止，当前四闭栈、row74..14643及全部m12..224未开始后缀全保。实际170.5882169209999s未触1800s墙钟。四完整块compute/report逐字同；原输出已读后清。
 
 后继保持同C、全112、全部逆像和累计误差；减少面板工作与压窄包围是两项责任，单增预算不支付已完成四列的未决分母。153只传播到自己真实rFar并用非除Robin，有限空间/终端责任不同，不能从156预填153结果。159按原真实profile→BVP继续，162可另改进同C的完整cut传播，不增额外前置门。
+
+[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)已证同C两图射影归一。保存Z=a·diag(1,2^b)v，a非零及完整符号/log幅值与因子链；初始a=r_F^4、v=(1,w_F slope)。新panel先准确二幂换框，原全矩阵Taylor/Duhamel乘整个继承盒范数，只有端点某Yi严格不含0才置vi=1、其余取严格比值，同时把真实pivot乘回幅因子。两盒含0只能分裂/partial，可逆性不冒合法除法。
+
+全部cut候选保原闭管/幅因子/索引；各自高度T0隔零才形成2^bT1/(wT0)，逐候选商后hull，不先hull不同尺度原列。未付商时仍保有索引非除Robin族；端点图成功不支付闭管高度。完整继承误差、原C/根族和全部112/后缀保留，不保证精度改善或有限预算完成。162由geometry实现独立driver、root配完整源/资源/workflow；尚无actual162结果，159不等它作新门。
 
 ### 3B. 新连续九族与公共u目标误差：151在跑
 
