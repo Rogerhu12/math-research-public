@@ -62,7 +62,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 [D强层衰减与物理平端C²](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)已证：w=δ^-64，remaining H1024→H9给δ939/32，actual mean向外因果Green与完整双PoissonF³保留；完整有序D.3源域的所有root状态W_-2H8<2^1600000G。齐次深尾按真实root/strict/positive三段支付物理二jet<2^131072J12δ^-32，连层δ54得δ22且保ρ/ε_s，故真实平端C²延拓成立。一般无限深体源、weak/BV原子仍须胞内particular二jet；非紧参数/Γ列必须逐项入源域并支付这些真实jets。tail续付此项，不能仅从endpoint荷冒称C²。U/D都未授原ℓ1_224解析标签逆。
 
-root另做moving/all4Z residual-sensitive Hessian的负Sobolev转移；真正角规范与rotation/两个mean有限行保持，尚未当作已证。固定η0δ0与全δ转授分开。
+[G完整角规范与残差Hessian](results/R133-supplement-complete-normalized-angle-gauge-and-residual-Hessian.md)已证：全4Z Eh含真正weighted rank-one常数，原moving source符号J=[[0,K],[-1,0]]；A=〈dv/m−γu〉、Fcov=F−AQφ精确物理共轭。恢复原F的线性方程须保a′=DA[h]、aRφ体源及真端点a，非解中心不能删。固定η0δ0给定全部物理端口下新Z≤J旧Z、未知Hessianχ<1/128；真正long B0反馈仍单独付。root继续其负/高Sobolev共轭；全δ、原F有限phase联立与最终holonomy不能据此免费转授。
 
 ## 6. 真ν、参数Schur、非线性及最终闭合
 

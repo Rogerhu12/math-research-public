@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [完整规范角、残差Hessian和径向旋转行](results/R133-supplement-complete-normalized-angle-gauge-and-residual-Hessian.md)：全4Z的E_h=I(Ch₂)−m〈CI(Ch₂)〉，完整逆、两mean和二阶链式恒等式保留；按原source符号A=〈dv/m−γu〉，Fcov=F−AQφ准确物理共轭。非解中心恢复原F还须aRφ与真相位端口。原完整Hessian证书在全方向仅多J<2，故固定η0δ0/给定全部物理端口χ<1/128；负/高Sob和全δ仍续付。
+
 - 相关local分子的39pin公开Actions入口已接：[解析合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)原SHA保留，只读26个原完整自然stage，新增60stage的完整signed Nraw0..10/独立sup与Wiener尾。三份代码静态分隔核通过，实际AST/数学门留公开Actions；尚未宣称新数值改善。
 
 - [强层衰减与实际齐次深尾的物理C²延拓](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)：w=δ^-64与完整有序源G给全root状态W_-2H8<2^1600000G；mean真实向外因果和双PoissonF³保留。实际root/strict/positive二jet≤2^131072J12δ^-32，根状态δ54合为物理δ22，原ρ/ε_s及高度gauge全保。此结论限齐次深尾；无限深源particular jets、参数源域与非线性仍待支付。

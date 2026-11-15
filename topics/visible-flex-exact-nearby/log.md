@@ -217,3 +217,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:08:41 UTC — Nraw首次hydrate失败原样保留，仅修一条输入路径
 
 读main 99c3a06dfe9e45c2f733e885136fe79c526a3722，两README不变。原run43666029053/1实际job失败于Hydrate39，source AST、环境安装与数学步骤全skipped，尚无科学process/native。manifest原121240b3…中仅Laurent/Taylor algebra路径漏topics/visible-flex-exact-nearby/，而原worker准确拒绝topic外输入；不是数学失败。现仅补此1path，39内容SHA/bytes及SCIe9024812…/CIa9b69b58…/workeracd69d4f…全未动，workflow只更新manifestSHA。新manifest bc34acdc1738a92bf71d9ce6c8be2dddfced3ae1de0ca884a1025c45419256d1；原run和失败配置在前commit完整保存。新run才执行此前未运行的60stage，没有重算任何已成数学。
+
+### 2026-11-15 02:09:55 UTC — 全4Z规范角与残差Hessian的精确扩展
+
+读main ee628414d4386b8cf2a5aee96ac05350dbf5145f，两README不变。root按真正零moving-mean lift推导G1–26；全文16233B/SHA1507b1da…，保weighted angle常数、D²Ψ全部mean与原非解R。另亲读未改moving_continuous_residual.py确认原angular项(+γmK vφ,−γm uφ)，最终用J=[[0,K],[-1,0]]和A=〈dv/m−γu〉；草稿错误约定未上main。允许v,m同负，只用m≠0/vm>0，actual Cref<0保。Fcov物理共轭及原F恢复相位a′=DA[h]，严格保aRφ源/两端相位；它不能由小残差当零。旧1341local未知Hessian三角正界仅乘J，给定全physical端口χ<1/128，物理真实B0反馈保持单独列；tail窄核weighted Hessian与恢复链。旧H9769完整归档，压缩当前记录，继续负/高Sob共轭与真实源/全参数，不授非线性或题目完成。
