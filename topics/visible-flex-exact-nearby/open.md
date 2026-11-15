@@ -157,3 +157,7 @@ N1–25合同已接244pin六件：SCI dd0cd551…/algebra1860872f…/CI4fe4c38a�
 ### 2026-11-15 original whole real-delta cap linear inverse closed
 
 [V1–14](results/R133-supplement-complete-real-delta-fixed-base-cap-linear-inverse.md)已闭合整个原real|δ|≤1e−8帽区：固定Φ0−id的joint A0<1/128，逐系数指数展开给||Z∘Φ0||A0<7/8；实际b,g<6、k1使P19满足。主体<1/4与真outer<1/8在同物理M模块合成，反馈<3/8、相对完整基点lift逆因子<8/5。此前固定角组合和βγK待消耗项已闭合。继续高/负Sob全δ转授、signed97精细参数列、内主体全逆及未知非线性同域；显式Qδ仍非PDE解。
+
+### 2026-11-15 finite-Sobolev nonlinear mean and height chart
+
+[M1–37](results/R119-supplement-finite-Sobolev-nonlinear-holonomy-charge-and-height-chart.md)已在有限角近邻直接建立可去Φq和真实χ无限Volterra图，收缩<2^-2400，保外端holonomy荷/高度两输出与唯一平端gauge。nonmean方程成立时与完整mean PDE双向等价；不需原analytic224标签。一般有残差背景保(DA0)N，metric列原r有−ψr、归一N有+ψN，reference高度lift跨胞全保。mean/height同域子项闭合；继续变化背景nonmean逆、Γ principal/首相位与全参数联立。

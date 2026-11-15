@@ -407,3 +407,7 @@ R1–35全文22566B/5bc78e5e…经root、新ton、phase独立检查。canonical�
 ### 2026-11-15 04:20:21 UTC：原整个实 δ 区间完整帽线性逆闭合
 
 V1–14/8ce318c77ca40324ae1461dc126f0aaaa11d92148294a380d7f5560e53a81eb2全文经newton独立核对。G2精确零均值与G23联合||mC−1||<1/32给||Φ0−id||jointA0<1/128，Banach指数级数保逐mode径向sup与全mean，实际Z A1/128<.869975739133<7/8授ε<2^-26。原1346闭行b,g<6/k1使P19阈值>2^-26，因此body<1/4；O14真外<1/8同空间合成<3/8。8/5明确为相对原完整affine lift的resolvent，未冒绝对Green norm。固定η0、ν帽上0、原反射类、全频未知、内C/外Robin/mean/height/正fee/jump全保。当前是显式Qδ线性结论，不是精确族、未知非线性域、全δ高Sob或97精细响应。README核783af201825cfc2aab290d763613bcdf9c32b031空差，独推后继续下项。
+
+### 2026-11-15 04:26:58 UTC：有限角近邻的真实非线性 mean/height 图独推
+
+M1–37全文18003B/2ffbf6fe…root全读及逐段指数核；newton独立手核M7–18完整holonomy、固定P/K/U的2∂qH恒等，及M34–37两metric符号。原q=w²除法以可去商定义，未来荷积分保全未来源，σj=(ζ/μ)δ15使完整Volterra收缩<2^-2400；独立外χ与高度跨度不删。有限Sob输入无需角解析，mean图无角导损失，但不给nonmean背景逆。一般N≠0保(DA0)N，单位随metric变准确产生+ψN，未借零残差式。root亦读Green04:18:36真pull→45474200…八次README差空，1182/5970；两邻片第二失败10门/28stage已锁原byte，正在仅类型修复复用。README核ca4e52869123fa97df4560232a03f9529cf05332不变，继续principal/全逆。

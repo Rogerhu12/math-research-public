@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [有限 Sobolev 非线性 holonomy、mean 荷与高度图](results/R119-supplement-finite-Sobolev-nonlinear-holonomy-charge-and-height-chart.md)：M1–37直接在原ζ131有限角近邻上构造可去holonomy小根、真实无限Volterra荷及唯一高度；收缩<2^-2400，非mean PDE与完整mean方程双向等价。一般残差保(DA0)N与metric −ψr/+ψN，仍未授非mean全背景逆或Γ选择。
+
 - [原整个实参数区间的完整帽线性逆](results/R133-supplement-complete-real-delta-fixed-base-cap-linear-inverse.md)：V1–14把实际660片Z联合界、1346原闭行本征界与固定Φ0复合逐项接入P19；原real|δ|≤1e−8全频body<1/4、真outer<1/8，合计<3/8，相对完整基点lift的逆因子<8/5。保全mean/原反射类/同η0与真端口；不授一般非线性背景、高阶全δ或ν精细误差。
 
 - [真实 canonical 强径向域与有限角源](results/R119-supplement-canonical-strong-radial-finite-Sobolev-domain-and-quadratic-sources.md)：R1–35在固定已知强尾背景上保原ζ131、真实低核/两mean/height/高频回接及全浅前缀；给Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}（0≤s≤64）和实际二次窄源，保留2050阶导损失，不授任意finiteSob背景逆或Γ延拓。
