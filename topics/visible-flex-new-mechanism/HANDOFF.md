@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 10:46:18 UTC实际pull后已读规则提交：`0a75ac3607af8e1f49976e6532de35442dda418b`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch signal9后已单线程重拉，规则无差，详见log。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual已全消费**：43701558227/ef8c1cdb/job132773631115，见原actual。新开发/33来源全过；c9a5 η.266520536442→b429 .266491207122，降2.93293e−5但未.26/1e−4参考。8主/1SOC、8接纳，20值+2末值，活动120.313/总896.907秒。m6仅fine8曲率失败被SOC修回而旧规则仍减半；原双网/准确九盒过、帽高仅tol、外域jets0/g/b0不变，κ57.9999896仍欠reach。
 
-**成功SOC条件持径首入口运行中**：run43705209195/source9ca83546/job132784732079，lane metric_height159_soc_hold。库c6fb9d46/driverf6ff70d5，原base实际总步比值≥1/2、物理校正≤B/10/总步≤1.1B、零新行且只primary曲率触发旧缩步才持B/streak0；否则原返回。旧门/12LP/40值/120秒不改；六原前缀各一次、原有理reference/H不重锚，35来源/98args只out。新增公开人工与actual尚未消费，不宣通过。
+**成功SOC条件持径首入口运行中**：run43705209195/source9ca83546/job132784732079，lane metric_height159_soc_hold。库c6fb9d46/driverf6ff70d5，原base实际总步比值≥1/2、物理校正≤B/10/总步≤1.1B、零新行且只primary曲率触发旧缩步才持B/streak0；否则原返回。旧门/12LP/40值/120秒不改；六原前缀各一次、原有理reference/H不重锚，35来源/98args只out。新增公开人工与actual尚未消费，不宣通过。选行J径向分解设计751c737e已审，未实现/运行，待actual决定必要性。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -48,19 +48,17 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
-**R215/217/219/222**：pure+F8截面/有限整数收缩保全部mixed与基准，R223兼容Morse而一般改g；分散有限读出由R244/R246联合接口取代。
-
 **R216/R224/R228已排类**：flat、标准k=ω0 Morse指数h及C≠0增长偶k，由−8c6/λ排原R193圆/已付近邻全允许宽度。只延解析身份，不延几何，不冒普遍刚性或新圆。
 
 **R221joint接口**：126矩+六合法行非rank；先两个period成员，再五相位45几何span，最后48×135增广子式/降秩消极点iff。全period核/平台自由匹配保留，无实际通过。
 
 **R225完整period range**：平台G″0、每包总flux0、内部q=F/(Ap²) Laurent禁低极点/residue、两平端真C∞及双collar/连接条件共同iff。u*=1/p是非canonical Y反例。完整O像及Hper=O(U0)/O(R0)未知；Hper0授fullperiod控制，λ杀kerO才授障碍。一般R0保T/Morse仍须另付，不扩已付有限flux。
 
-**R226/R230/R234/R236/R240首平端已付**：首f-up/g0处G=P2+Tτf+p²B+p³C，真τ耦合；p1非零有限首项使逆解发散，p3+在零端flux支路自动光滑。43699241372/ee9e2098给HE=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，2694项346ea2a1，whole pure0/λ1/T0。43701766182/623f1c00/job132774268375另付同HE的raw二次负主部0（J4/D6/K5，七根），5.266秒/111.992MiB，主文70189310、dev0be7cb85、内存91eeb313只hash。零端flux且真实平台已付时，u光滑 iff t⁴B无负主部。两个mixed由−4Re/+4Im完整恢复；旧科学不重跑。
+**R226/R230/R234/R236/R240首平端已付**：真G=P2+Tτf+p²B+p³C，p1非零迫发散；零端flux且真实平台已付时光滑 iff t⁴B无负主部，p3+自动。HE的whole pure0/λ1/T0由43699241372/ee9e2098付，2694项346ea2a1；43701766182/623f1c00又付同HE raw二次主部0（J4/D6/K5七根），主文70189310。−4Re/+4Im恢复两mixed；原完整系数/费用见R234/R240，不重已付科学。
 
-**R242/R244首平台与八d通量联合已付**：δK/δ³K修同HE首gap平台，整δ链真P2+p4保T/B。R244链是11维sl2模，E8 δ5使δ13零再N推δ11零；F*平移对应Pol≤10，八d-flux核Q_L·Pol≤2。首gap双尾=八全尾−第一comp尾，M0<0迫f-comp非零；核内两列minor=5040βγV L12+O(L11)，V>0，有限L后affine压回I保rank10。故HE减响应得pure0/λ1/F8d0/首pair0/TB0，两首germ光滑。新选ψP圆，不授旧冻结圆或actualsigned成本。
+**R242/R244首平台与八d通量联合已付**：K整δ链恰11维，δ11零、原F*同构Pol≤10；八flux核Q_L·Pol≤2。真实首gap双尾扣第一左comp，核内两列minor首项5040βγV L12且V>0；有限L后affine压回I保rank10。同HE减响应得pure0/λ1/F8d0/首pair0/TB0，两首germ光滑。只新选ψP圆，不授旧冻结圆或actualsigned成本。
 
-**R246完整八平台接口已付**：E_j=Σk≥j w_k De(D)P(tk)、D_j=Σk≥j w_k Dd(D)P(tk)−w_j Dc(D)P(tj)，De=D³C/C0≠0。8F+8E在本11维模单射，R244余1维必在其他E露出。八E差先插值≤7次R，再P0=C(D)^−1 I³R；前三F定二次余项，其余5F及8D给13独立iff关系/唯一修正。e-flux另用真实单包functional，未称零。本模∩完整period可解核=0，但13关系不冒全R0障碍；下一整个响应的模分解和完整range，不能顺序任修平台。
+**R246完整八平台接口已付**：E_j右方全尾和，D_j另扣当前comp；De=D³C/C0≠0。8F+8E在本11维模单射，余1维必在其他E露出。八E差插值R、P0=C(D)^−1 I³R，前三F定二次余项；五F+八D给13独立iff关系/唯一修正，e-flux另验。本模∩完整period可解核=0，十三关系不冒全R0障碍；下一整个响应/完整range。
 
 ## 6. 保留边界
 

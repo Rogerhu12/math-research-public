@@ -344,3 +344,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R248：完整四次谐波的平方幅度结构和互补两块必要门
 
 [R248 完整证明](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)从R56同一canonical初值的全Range定义P(q)=−b(Zqq,Zqq)−4b(Yq,C(q;qq))；完整e^−4iθ系数为P/16，实cos4/sin4幅为Re/Im P除8。紧forcing的真实左尾分子至多仿射，故其导数与另一紧Y分子的端差配对0；这是完整积分身份，并未删除左尾。于是任意不交微包Σc_i u_i的整个P只含c_i²c_j²，所有二阶跨尾和第三history保留在实Qij中。逐包g=±f给c_i²=2is_i a_i²，P全实；实正交旋转使P乘e^−4iα。对两个真正三阶完成block，完整第四加法给互补角矩阵，其det=2A1⁴A2⁴sin4αcos4α；R239原IFT缩域可保证−1/2<t<0，严格有理界S0/Q0≤19440/46501<1/2支付非退化。因此两条总偶第四谐波入同We iff每个未旋转block的P_e各自入We，不能靠互补角隐藏一个失败。仍未判单block实际成员，不授整个第四/period/joint，亦不把微包原分子当合法全局ruling。root全文复核，tail独核外尾/跨包配对/两角核心；无新科学计算。
+
+
+## 同一159维场的选行Jacobian径向分解设计
+
+[完整设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)从当前七源给等价评价：153旧uv列为九径向乘17角模式，另Q单列；对每个角模式先构造F0=TqY、F1=∂sTqY、F2=∂s²TqY及同全角Π，原六位置jet的微分分成R/R′/R″三个系数。先把三个虚方向交原selected_spectral_parameter_jacobian收缩，再按L0R+L1R′+L2R″展开九径向列；五准确null高度直接给Z/D/D′竖直列。普通行微分基点必须使用当前非零τ的159全值，不能用九参考高度旧几何；原Xt/Xst/Xtt沿parent定义，不把去零模FFT原函数当θ导数恒等。全部11行、完整384/768角网、原rowID/池/门/预算保持，评价来源另记身份，浮点重排可能改末位及路径。形状估计只说明无需全角163列大张量，不宣实测速率或RSS；无新实现、测试或科学运行。root全文及关键源码逐式核，tail独核六jet乘法分解；是否采用留给本轮SOC实际所揭示的必要新步骤。
