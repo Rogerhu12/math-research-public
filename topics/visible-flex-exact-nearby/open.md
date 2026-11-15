@@ -163,3 +163,7 @@ cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，
 ### 第一 Γ 的低域与高正则现已分开
 
 [L1–24](results/R119-supplement-low-norm-principal-Gamma-map-and-tame-high-conjugacy.md) 在真实D20<2^-2097152低开放球构造完整weighted ℓ∞第一参数C¹值图；D8只是其真实导数的低functional，不冒低值域。高Dr仅有限时，同一实际ODE/同一共轭给r−8输出：flow2^1048576、conjugacy2^1310720γ^-1 J C^P，r≤8196。GN/Faà最高因子仅一次，Gronwall只用低norm；全mean/height/γ2固定保。紧接全网络与radial jets的两层tame，不把本篇量词扩张误用于尚未证明的全inverse或G2114源窗。
+
+### 高背景真 outer 的差已付，raw 基点必须独立补齐
+
+[B1–25](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 给M8212/H8197背景上的方向S≤8192外行差2^2097152D；完整H0/原source预合，真实phase、good-height、两mean与raw offshell运输均保。原Gδ对应固定physical good行，raw输出另有基点b_H Rδ,x；B25显式写C_raw，未暗中认原逆已有该列。紧接用原实际long背景付该known analytic运输列的低反馈和Q高窗，再与帽主体/独立高度背景/全部荷组合；极小球的actual residual入球仍独立。

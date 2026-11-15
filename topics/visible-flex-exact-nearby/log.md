@@ -109,3 +109,5 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 2026-11-15 07:06:36 UTC，结论独推：H old-circle edede2b1…及公开scalar consumer SCI9596ebee…/manifest1869212f…/worker8f8a81a7…/flow0522d293…完成静态与独立公式核，尚无实际新数值门。保存前H cd5a5cb1…/9704B；fresh main d298224a04c8656fb631654d2f930cee66e59b7b 两README原blob，root亲核Green07:01:24真pull db12dd…且两diff空。Green future4080/past1696/product4080、0group；不授最终逆。新计算仅public Actions，无新data artifacts。
 
 2026-11-15 07:07:40 UTC，L低范数真实firstΓ独推（a1b0a2abb35600fff7ddfe3a2bff45abd3e0f47eb353bb7ee96cbab198f81148）：root全文及P原低阶门复核，phase独核L18–22 cutoff/GN/Faà/一次低Gronwall。高Dr不要求小；没有省全层mean/height或外行。fresh a8ab414eebd87e342d226136e691151da6da8963 两README未变，H同步；新数学为手推，无本机数值。
+
+2026-11-15 07:08:17 UTC，B外行差独推 b7661dd0…/22464B，root全读原篇及最终条件化diff，tail/phase窄核mean/Schur/finitejets/real-angle费用。发现并明确基点raw与good输出区别，B25不先占未证的基逆。fresh 9dc01afb868480521a7b8287a9c7d06365890150 两README未变，H/open同步。

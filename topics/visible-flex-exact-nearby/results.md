@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 B：高背景真实外行差及 good-height](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md)：在M8212/H8197背景、S≤8192方向窗，将H0/原source先预合，付完整2^2097152D外行差及offshell运输、两mean与实角费用。明确原G的固定physical good行与raw移动输出基点多出的bR_x不同；B25仅以另证的同基点C_raw为条件。极小球及高窗本身不授实际非线性解。
+
 - [R119 L：低范数第一Γ值图与同一高阶共轭](results/R119-supplement-low-norm-principal-Gamma-map-and-tame-high-conjugacy.md)：真实D20<2^-2097152定义完整第一参数C¹图；高Dr≤8196仅需有限，真实flow/同一conjugacy分别付2^1048576和2^1310720γ^-1的one-high界。完整GN/cutoff/一次低Gronwall已付，低D8导数识别保两mean、实际height与固定γ2；全网络tame与charged值图仍另付。
 
 - [R133 H：真实共同参考列的完整旧圆逆预算](results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md)：以原4501B fold和已完成全复域势为输入，给H_V真行列式下界、完整逆矩阵及两角导、较窄完整Wiener界；两P/I/J/mean/两sign/真实seam保持。9pin公共标量consumer随本结论部署，实际正gap须待run；不重算旧势/fold/FFT，不持久化新data。
