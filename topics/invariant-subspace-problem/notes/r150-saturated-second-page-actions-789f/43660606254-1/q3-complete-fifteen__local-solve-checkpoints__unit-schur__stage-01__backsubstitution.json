@@ -1,0 +1,32 @@
+{
+  "all_coefficients_verified": true,
+  "binding": "2a1bbb5b48170a8ece8c6281672f8b645efd8ea643a7ff7fa0228690201d37c4",
+  "depth": 1,
+  "format": "isp-local-unit-schur-f31-v1",
+  "precision": 14,
+  "residual": {
+    "bytes": 77616,
+    "cols": 198,
+    "compression": "none",
+    "decoded_bytes": 77616,
+    "decoded_sha256": "9977054734c44b080fb26fe8f296cd3ccebacf2bdb7949617aecb14064a42247",
+    "file": "backsubstitution-residual.bin",
+    "precision": 14,
+    "rows": 28,
+    "sha256": "9977054734c44b080fb26fe8f296cd3ccebacf2bdb7949617aecb14064a42247"
+  },
+  "solution": {
+    "bytes": 41580,
+    "cols": 198,
+    "compression": "none",
+    "decoded_bytes": 41580,
+    "decoded_sha256": "117c60a3e84090bf96131e1455f5addd959e5394935c7b537794ec79bc59ee9a",
+    "file": "solution-all-jets.bin",
+    "precision": 14,
+    "rows": 15,
+    "sha256": "117c60a3e84090bf96131e1455f5addd959e5394935c7b537794ec79bc59ee9a"
+  },
+  "status": "verified",
+  "verified_rhs_columns": 198,
+  "verified_rows": 28
+}
