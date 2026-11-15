@@ -162,3 +162,5 @@
 - [R650：固定q门的真实W补偿与原A门odd1755返回](../results/R650-fixed-carry-gates-and-whole-odd1755.md)：两个固定q门在原W下的准确位移给全四K的两层补偿，交门/两失败支与全部log质量保留。实际A门六C旋转均whole odd1755，原odd65锚定绝对χ65核，整两条K_A返回两个真实unit cut并保E/G/log所有修正；未新增中央零。
 
 - [R649：同一P2的两维提升差与原第二中央必要式的界限](../results/R649-same-p2-two-dimensional-lift-and-central-bockstein-boundary.md)：在同一个完整模p P2及相同型/首项/三挠零/二挠帽内，从实际低jet起的两参数整提升使两个a/p独立变化，det=−228072b/5在所有允许p为单位。严格分清这些比较提升与原sigma唯一实际提升，证明模p资料本身不能排第二中央必要式，真实modp²条件仍须支付。
+
+- [R637：原短三块在平方根预算以上的整满射](../results/R637-original-short-three-block-square-root-surjectivity.md)：原ODE给前s自由点链的全曲线重数平方和≤4δ²；实际W2提升/ample差除子满足ABL2022 Lemma2.10，支付原双jet并逐列返十九角全帽。ell≤A_D、(D−n0+3)²>36(s−A_D)时同一J整满射，完整M仅单位/p/13自由，同R相对二阶余类消失；固定低ell充分D>(396/(41√6)+ε)√p，临界小预算仍开。

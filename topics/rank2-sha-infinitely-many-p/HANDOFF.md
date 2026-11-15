@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：acbb772614698de7007ea8bc13563ddf1fab5383；2026-11-15 03:35:07 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:35:06 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
+- 最近已读规则提交：39abe58177fe164cc2c422d347f91e27ce032851；2026-11-15 03:38:17 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:38:15 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 记录、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–668已登记；R364/R561仍开，R637/R654/R669–671进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r668.md)、[open](notes/2026-11-15-open-before-r664.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
+R1–363、R365–560、R562–653、R655–668已登记；R364/R561仍开，R654/R669–672进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r637.md)、[open](notes/2026-11-15-open-before-r637.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R666七条原Λ的33系数/准确N递推已付；续R669两S共同来源合回真实even S34六维基及原算术行。惰性R654真实sigma modp²及R663中央到共振余数继续开；R606已含H^-p log不重登。
 - theta：R667原11维核的实际可见δJ与七S5矩已付；续R670原Λ2全部5系数或33系数映射在实际核上的秩/可消性。
 - literature：R668真实E浅域/四Y全词已付；续R671固定N、n→∞浅补域与原cd全返回，额外双Y cut完整保。
-- deep：R657/658及多Euler增补已付；续R637旧同R/全Padé，正在付实际双法向jet与约3.943√p大D门；尚未登记，不作已证使用。
+- deep：R637原短三块的√p大预算整满射已付；续R672真正小预算/原两输出子式与同R forcing，辅助p不冒目标p。
 
 ## 原对象、射线和未闭旧线
 
@@ -52,7 +52,7 @@ R668四Y任三交=A/Q/L全深，所有邻/对面交与唯一外部给真实五�
 
 ## 惰性全中央、解析和全成本
 
-R624原Hadamard/完整addition三Gaussian、ψp四位、真实低残差保；R630原division p7误差/五商js/2s窗外二次unit付，指定非退化仍开。
+R624原Hadamard/三Gaussian/ψp四位/低残差与R630原division p7/五商js/窗外unit详前检，指定非退化仍开。
 R636两真实Cartier及h5仿射−ℓκ5、R647同P2原S/T/U完整返回给g_mh=T_mh(h≤4),g_m5=T_m5−6κ5；j0迫T1=0及真实低商高约束。R649同模pΘ的两维比较提升改两a/p之det=−228072b/5unit；这些不是原sigma自由提升，R654须付其真实modp²条件。
 R632/635原所有p幂真实z半径RE/闭非Tate；u坐标原p次仍闭非Tate、p²次可过界，勿混。七积分含H38独立。
 
@@ -70,4 +70,4 @@ R651原r≤ν≤13在强s窗/原帽下付同P整三jet/强t-Hensel/全低核/真
 R646原全C高尾Smith e≤ceil((bD+13)/s)≤7，p≥137≤6，非原整等价；R648真实列p^j权旗标给μe=ce−δe+δ(e−1)，p≥6101早阶门自动，非有序前缀。
 R657同P完整1/2/3/固定≥4 Euler输出的特征零共同接触常数99/40、25/18、25/27、3/4；精确Hq/kq保全高尾与特征p端点。旧E²P仅ell短行，三S/T/U非三Euler，目标p核不能搬辅助p。
 R640 Wilson/charge876及R642同P/R完整p³/13与26carry按前检，未新增中央零。
-原Beta及广义Stieltjes正性不付原Padé；A2正密度可有理，不排其它AT。详原增补。R637继续。
+R637新已付：n0=max(0,ceil[2(D+3A_D+B_D−4)/11])，d=D−n0；ell≤A_D且(d+3)²>36(s−A_D)时原J整满射，完整M仅L−26单位/26个p/13自由，同R相对二阶余类均可吸。原ODE付全曲线链Σm_i²≤4δ²；真实W2可提升异常链+ABL2022 Lemma2.10付双jet，再以q*Y^n0原整子格/全部帽和低行返回。固定低ell充分D>(396/(41√6)+ε)√p≈3.943√p，不覆盖0.413√p临界。R672继续小预算，原Beta/广义Stieltjes正性不付该Padé。

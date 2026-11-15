@@ -210,3 +210,5 @@
 - [R667：原十一维核的可见单位质量与七来源完整S5消元](results/R667-original-kernel-visible-mass-and-seven-source-contraction.md)：同一九行整核中构造实际δq，完整π4推前恒零，而其共同二阶质量在同ray相对密度一子族全N4有vδJ=−2N；两η固定函数/整提升全部保留。七个总S5矩给有限n的两个真实S共同域，原T混合cut、浅补域和外部准确补偿非零负一深支；未新增中央零。
 
 - [R668：原双S浅环带的四轴返回、实际递推与全外部词](results/R668-original-double-s-shallow-annuli-and-exterior-words.md)：四Y全部交集/真实五词外部付清；Γ内E浅恰原A/Q/L/c/d/W同浅，正层q迫D*深并用完整四轴返回。固定剩余深度的原权对κ^j至多六次，S七阶递推及T同cut完整log级数均准确；保第零层、所有质量和原Y外部，不添中央零。
+
+- [R637：原短三块在平方根预算以上的整满射](results/R637-original-short-three-block-square-root-surjectivity.md)：原ODE给前s自由点链的全曲线重数平方和≤4δ²；实际W2提升/ample差除子满足ABL2022 Lemma2.10，支付原双jet并逐列返十九角全帽。ell≤A_D、(D−n0+3)²>36(s−A_D)时同一J整满射，完整M仅单位/p/13自由，同R相对二阶余类消失；固定低ell充分D>(396/(41√6)+ε)√p，临界小预算仍开。
