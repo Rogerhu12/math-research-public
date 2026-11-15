@@ -289,3 +289,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R239：完整三阶与例外四能量同时成立的不可分离新圆
 
 [R239 完整存在证明](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)在任意正活动I内构造真正有限宽度的C∞三矩圆，不能经GL2分离，且完整二三阶及Lc/Ls/Mc/Ms全部准确为0。固定偶χ与四节点a_i=c+δ(0,ζ,1,2)，八平移3jδ保持全部旧矩/第三槽；从完全局部S/T式换元，两个一阶宽度积分因奇性为0，真实八幅度及均值仍保。全部UQ−PV乘−δ29/(3K²B²c12)有一致解析延拓D0(ζ)+δR；N=2−9ζ−3ζ²+5ζ³−3ζ4在(1/5,1/4)有准确简单根，IFT给实际正δ而非只给极限零。P>0、t远离0/±1，双互补角与同构不交block保四门并给四射影方向。固定χ积分只作为准确常数，未运行求积/求根。新最终F另冻结新gε，旧F8/首g0和完整第四/joint没有继承；后续继续低层。
+
+
+## R240：同一H_E的二次平端主部在原DAG准确消去
+
+[R240 完整实际与推论](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)消费run43701766182/source623f1c00/job132774268375：12新人工全部过，七必要旧根和同HE2694项/346ea2a1准确匹配。完整可达J=4，因此D6、U0/1/2=7/1/−5、K5，保全部t^-8至t^-1与c/b0..b5/真实锚。全部raw主部系数已为0，quadratic转换/word primitive均0；不是假设J≤2给零。故同HE在whole pure0/λ1/一次T0之外，又付本二次主部0；两个局部观测仍不能读λ。由R236，只在原P2″另通过时授这个首f-up/g0的零端flux光滑延拓，未求端值或全period，不迁移新不可分离圆的非零局部ray。actual5.266248秒/RSS111.9922MiB；33930/maxbits3仅Budget监测，raw42908操作另列。主文21366B/70189310、dev9078B/0be7cb85、内存certificate13749B/91eeb313与receipt50775B/37c4c8cb，仅存hash。下一真平台门，已付高层不再运行。
