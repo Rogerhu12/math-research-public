@@ -153,3 +153,5 @@
 - [条带正余量首轮：九次接纳与剩余曲率拒绝](notes/strip-reserve-first-actual-20261115.md)：actual43684152565/sourcec594eeb，全部12试探strip过、九次接纳，ηmax降至.26652303622182338，fine条带余量3.91244e−8；三拒绝均directκ超限，其他trial门未全打印。唯一SOC无primal，fineJac主导wall；原.26与全课题门未付。必要前缀与新阶段分账，继承末r1/64000/streak1，下一仅SOC可逆尺度。
 
 - [R203：一般动态pure成本的最低两个真权消失](results/R203-general-pure-lowest-two-weights-vanish.md)：完整恢复分子与正交交项给−9/−8层，保第三初始gauge及第四动态总导数；M0端点、ad_P²R=ad_P²S=0和有限formal flow令两层全零。对所有合法c的右collar faithful测试与平移多项式转为πU−9=πU−8=0，非幂尾外推。R202 pure正分离只余−6/−4；未付整个pure实际可达或joint。
+
+- [R205：两个完整pure权块和一个右step查询的同时真实支付](results/R205-two-complete-pure-weight-blocks-and-right-step-query-control.md)：P0/P−2的12个实际原响应生成器加低权H给rank13三角查询矩阵；共同最终坐标先保H非零，再平滑/faithful与重补矩。R102保全部未知基准/整数复制/Brouwer，插入M/T0控制后Klein准确4倍，闭hook实现任意两函数块和一个右值，低阶圆保持。其他pure权/整period/joint未付。
