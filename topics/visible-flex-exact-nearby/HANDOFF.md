@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 14:15:29 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 14:16:06 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob；每结论独推，非FF马上真pull --rebase后循环到成功，禁force/PAT落盘输出或connector，根规12无需另审批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只存script/args/run/SHA和真正小结论，topic≤200MB。原输入immutable公开history/path/旧artifact临时恢复核SHA；成功数学不重算，lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
-本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起executor不可用，11-15 13:23:55定时及14:02三次非FF立即CLI均无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；每小时继续CLI，ref不冒pull。root亲读runner M13:58:32.028854→7890fde180ffabee056de2ce8dd241b189a893a2、Green14:05:12.055978→db77f49037346616f8c4a8d8f576e19108c75a02，两README diff空。
-最近只读README核：45a29055633087392ffdb9aa965d5d8e58e56408；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起executor不可用，11-15 13:23:55定时及14:02三次非FF立即CLI均无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；每小时继续CLI，ref不冒pull。root亲读runner SV14:10:23.119638→f584eb77a27ba508510a8ab29fb6ed938bdcc0cf、WC14:11:01.078340→868f4e139f7df0596613675e4aac00efd80f395d，两README diff空；Green14:05记录保log。
+最近只读README核：465d9dc62af8af707194ec2339856603784fd424；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/open/log为40eb0b261e814cca22243beed1f7c7c5f60791b6同路径；其中全部更早归档、原输入、success/失败、restore、域/源单位及未付条件继续有效。压缩不删义务、不授权旧成功重算。
 
 ## 总验收与同一个对象
@@ -27,7 +27,7 @@ F/29a24167完整finite193双body/cut三det门只待Green final process+summary�
 旧共同势/旧圆/S/G15/C/D/P/B/L2/G及全部root/Taylor/FFT/profile/fold/径积分成功锁；全域/两sign两column/mean/seam/原源/失败/restore保40eb同H/open/原文。原21first+10mean、18正coeff、9词/5mean/六true-dr/uncertain-root权不删，预算lower只算法数；volume非strong-return。
 AJ43718112378/1 child0/29、RV43719681982/1 child0/27成功锁；2ff53654/8598b39f及全域/T0mean/13tails/原schema失败新预算0保40eb同H/open/actual。RV raw2<4.317610e8、7b1仅读。DG43720766795/1 child0/27锁dcc00d77/48ca7d65/cf4f0789；仅7a1新/RV7b1读，真实两行/fullrank n^-2，五density1项改善g1<2.119337e9，26列逐字RV。原50→59pin/31账本/两sign/mean/域全保actual，旧math0。
 M43721735003/1 child0/23/math.008657345，actual报告ea28b65a/executionb8588530/result5f1ad2e5；SCI b4bc768e/workerba0c59e7/26pin1055c823。仅10mixed/2角4+全八项物理L1，14低jet仅读，raw1<5.399608e10、local<5.443134e10、first<3.714349e11/pair<3.714351e11，mean<3.401970e8原字；其余30列逐字DG，74报告球逐字来源核。E行完整、b0/T可去、C算法lower比率1.519720313e−6；新E项dominant upper非下界。非GH/全逆。
-SV/5374f2b0精确B_jw0=G(-sx,-y)−n^-2VG y²/Δ(-sx,y)，保二/三阶root零与fullG/mean；新density0 SV、V0mean、uJB三整项，M baseline其余28原字。逆gap仅physical real n≥388，全φ/δ不冒全complex-z。SCI44021afb/worker0b5368da/69pin5306e66c已root全核并部署，23门actual待；ER/be46d277保canonical b0=T²b2，B2原场完整，SE=3/256+hXr<SC新门；E先付4T+2T²/dT+cTT²后角Cauchy，M七非E整界仅读相加，仅更新raw1并保SV；不重M10mixed。
+SV43722805762/1 child0/23/math.22726966成功锁，report75c453c0/executionba96a483/result9a31404f；SCI44021afb/worker0b5368da/69pin5306e66c/20AST。精确B_jw0保二/三root零/fullG/mean，三density0整项全改善：SV<1.813617e6/V0mean<12033.167/uJB<1081.059，first<7.997863e10/mean<1.675903e8/pair<7.997880e10，28列逐字M，raw1保。仅physical n≥388的inversegap，不冒complex-z；50原球root核，旧math0。ER/be46d277保canonical b0=T²b2，B2原场完整，SE=3/256+hXr<SC新门；E先付4T+2T²/dT+cTT²后角Cauchy，M七非E整界仅读相加，仅更新raw1并保SV；不重M10mixed。
 K/eca5b805真实径向两ordinary源→density/负body/strict cut；N43716450174/1 child0/17锁report59ab1bb6。最小proved R=.005 ordinary<1.070261672/root-jump<15.135785709，.001/.002仅充分门失败。原root/jump实际列、positive/waist/完整return仍未付。
 
 ## core、collar与tail：tail_connector

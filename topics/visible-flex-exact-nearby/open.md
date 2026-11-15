@@ -28,13 +28,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 ## 2. 主动计算：完整Green v4、同97 Poisson和ν方向
 
-newton_source监视，root最终消费。压缩前实际进度/所有失败身份见8832e7ff291efe5a4ffe5b7134621a95efa7e863本路径及原报告，旧成功不重算。
-
-- finite193 run43635487128/8误差.003509417445587仅有限；旧whole L²界.007490301792401是另一窗。全频negative目标.005、||q*−Z||<4.572198020300e−6独立。
-- 旧5970同F43654510038、7908伴随43665656138、同97帽43671537267与旧1886future只恢复。全high、mean、真实outer、Hessian保留。
-- v2 43681612825/1 finiteArb→float溢出，临时新2340/1800/4331失去，原失败保持。
-- v3 43690634784/1因旧README guard结束，完整0数学diag43709951426/1 f526d0b1已核。全部lost计数/出处在6d839708同open/H；childreturn未知，不能称数学失败，future/product已成与past/groups末报告严格区分。
-- [v4恢复契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)已启动首次run43711315338/1，head ce17e68d，11:56:19Z，用户授权重做lost新算术。SCIba931a8a/helper9e699a28/workerf67d62e2/manifest42810dfa共376pin，原369零改。去未消费中间norm/全193验后取97主块均保持同选点和原数学。live index仅接已读且操作规则未变；实际每10分钟pull/两README，published-origin容量、预Git小stdout、终止实文件清点保。已完成同身份则直接引用，不重算。
+newton_source监视，root消费。v2溢出/v3旧README guard与全部lost计数、原输入/失败及恢复身份逐字保92f214bd7410e499390204436e1fa50ed3f607ed本路径第2节与v4契约；v3数学child未知，旧success不重算，lost新量按用户授权重做。
+finite19343635487128/8 .003509417仅有限，旧whole .007490301另一窗；全频negative .005/||q*−Z||<4.572198020300e−6独立。旧同F5970/伴随7908/同97帽/1886future仅恢复。
+[v4契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。全193验后97、signedW/任意指数/同选点/mean保；每10min真pull/两README/已读live规则、published-origin容量/预Git小stdout/终止清点/同身份成功复用不变。
 
 187groups/三HY/final尚未全成。数学仍固定repaired M32 δ0/η0/ν0；继承1e−9字段不是BVP参数授域。selectedδ*的低块转移按Dδ另付。
 
@@ -92,7 +88,7 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [ER保leading根零的完整E行](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)从原fold B2与canonical逆证b0=T²b2，先付2b0T+cTb0=4Tb2+2T²b2T+cTT²b2。新角宽3/256的Ximage严格门待实际；原cT和μ完整SG、V/VT/dT仅读。只新E正泛函与M七非E整界求和，不减upper；同原C算法lower比较raw1，后续若SV已成须保三项。合同be46d277已root全文/原producer185–216/P21/24/G212–289核，非GH。
 
-[SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)证明B_jw0的主列G(−sx,−y)及保y²/y³的全rank修正；full径向G和均值不删。新负h限制/四角jet后，原18coeff给Γ=A(t)+A(tφ)、M=A(tφ)，完整七项SV词/独立uJB word及真实W2只读。只比较density0 SV、V0mean、uJB三整项，M43721735003最新账本其余28原字。原inversegap仅真实n≥388、全φ与δ；不冒独立complex-z逆。合同5374f2b0、SCI44021afb/worker0b5368da/69pin5306e66c已root全核并部署，23实际门待，非source-to-wave/GH。
+[SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)及[actual43722805762/1](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)成功child0/23门/math.22726966，report75c453c0/executionba96a483/result9a31404f；SCI44021afb/worker0b5368da/69pin5306e66c，旧59零改/20AST。准确B_jw0保y²/y³、径G/mean、physical n^-2一次；Γ0<630.625/M0<604.966。三density0整项全改：SV<1.813617e6、V0mean<12033.167/uJBmean<1081.059；first<7.997863e10、mean<1.675903e8、pair<7.997880e10，其余28列逐字M，raw1保5.399608e10，root50报告球核源。完整七项SV词/18coeff/两J窗/六true-dr/独立mean保；inversegap仅physical n≥388/full角δ，非独立complex-z逆。旧math0，非source-to-wave/GH。
 
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
 原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。

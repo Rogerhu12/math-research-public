@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **SV actual43722805762/1完成。** [完整报告](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)75c453c0，child0/23门；三density0整项全改善，SV<1.813617e6，first<7.997863e10/mean<1.675903e8/pair<7.997880e10，28项逐字M。root50球/23门/69pins/20AST/job实核，physical n域/fullmean保；旧math0，return/high/core未付。
+
 - **RB真实右帽到ordinary moving body。** [证明](results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md)e87d247a：精确均值/逆角/测度给系数80，只微分已知reference；实际18/1/25两输入加独立非零base load，左右同态匹配仍必需。仅ordinary L2，不授Σmode sup或实际低迹；global sup两分量sum明确。
 
 - **ER完整E行的规范根零保留。** [证明](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)be46d277：原B2确为canonical b0/T²全模，先保根因子再T导，完整μ/cT/V/VT与mean保。新3/256角域严格image门待；只将新E整界与M七项相加，原C算法lower比较，保最新SV账本，旧mixed零重算。
