@@ -378,3 +378,9 @@
 - 原projective ended纯IO脚本11571B/3332e864、请求d0c6f96d已核并激活；只Range核33文件中的非carrier输出，重用原验证的1380输入身份，不重下载189MB载体、不执行LLL或新数学。
 - 新增本课题.github/workflows/serre-R787_projective-ended-IO.yml用于读真实矩形/节点拒因及队列；一日artifact、contents/actions只读，实际AST在同次工作流首步。主目标OPEN。
 - 2026-11-15T18:31:02.705045+00:00实际pull/read 965985c273ed558baf769f0b48d12f289f0fa5f0，两README无diff。
+
+
+### 2026-11-16 02:33（Asia/Taipei）｜serre-public-astra-20261115
+- projective小IO run43747260495/source5317c0cd已成：30非carrier成员与manifest/reference逐SHA，原manifest5793B/422319cd、31项，ZIP33项；小artifact14175065759/708676B/d4c52df8。
+- 实际5根首坐标C0均失败，140个LLL行全且仅因D_bound拒绝、无子节点；K59位。补入原结束note，不把充分唯一性界误作准确验算必要界；原队列空，盲增节点不产生新计算，准备真正不同候选并保全部短行。
+- 2026-11-15T18:33:42.158100+00:00实际pull/read 81bf71ae214da94b01ebff4870fb4ee3ecd8782b，两README无diff；原4run继续、主目标OPEN。
