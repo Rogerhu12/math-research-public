@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remove nine confirmed computational outputs; exact historical bytes remain recoverable.
+"""Remove one confirmed computational output; exact historical bytes remain recoverable.
 
 Storage administration only: no target, interval, Fourier, or mathematical stage
 is evaluated.  No Release or Actions artifact is uploaded.  No history rewrite.
@@ -34,148 +34,21 @@ READMES = ("README.md", TOPIC + "/README.md")
 # The earlier 11834-file deletion and its complete metadata remain untouched.
 CONFIRMED_OUTPUTS = json.loads(r'''[
   {
-    "bytes": 2136984,
-    "git_blob": "03e122dfc261f9e1341fbc2fcb491db1e5e3c06d",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-correlated-first-phase-parameter-native.json.gz",
-    "sha256": "67d3dcbfa415173db552286cabac03f4c9daba521fff3b68d4af9d28eed478da",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_correlated_first_parameter.py",
-    "run_reference": "Original report states the run; no Actions run ID is invented.",
+    "bytes": 321489,
+    "git_blob": "3a430a83adc68117d2ec170f22100b4276293b25",
+    "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_fixed_tau_parameter_source_full.json.gz",
+    "sha256": "33c2bdddb0c4e1172275b961da0a2e5e23486299168efe80c4cb6870c30dd556",
+    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_fixed_tau_parameter_bounds.py",
+    "producer_sha256": "0f93dd40ca924fd22a5df1e00e800c0cc0d2db4ac6e5cad753f7e0f3042841b2",
+    "run_reference": "Original R80 section 6 records the actual local computation (CPU 151.225 seconds; wall 1389.709 seconds). No Actions run ID is invented.",
     "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-correlated-phase-twist-and-true-defect-corrections.md",
-      "git_blob": "c208ea0210bcbcea1de3ac89f821f2556870c3f1",
-      "bytes": 10594,
-      "sha256": "cd9530e2d7ecc020ead866d1089419a8daf52e3c3a25e74ce03652d08df96f11"
+      "path": "topics/visible-flex-exact-nearby/results/R80-full-core-fixed-tau-parameter-sources.md",
+      "git_blob": "e398f1f2f48f67b30316a9f31fffd55e560d1071",
+      "bytes": 13097,
+      "sha256": "37efb206c4d975554b44e712cb2195dea59e0eb638a7dd84dbc931011fc12528"
     },
-    "reason": "Complete computed 3095-row correlated first-parameter certificate. The preserved report records its producer, command, six gates and actual local runtime; it is not an input-parameter definition.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 1403016,
-    "git_blob": "a28d2b35bbda95a508e82b3b48efeb4bd6c87e0c",
-    "path": "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/first-symbol-parameter-transfer.json.gz",
-    "sha256": "06070fd3b4bd7a3e4ba17d99821c0f6ad06393863bf538f9a8157b6187e60dbb",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_parameter_transfer.py",
-    "run_reference": "43597209022/1",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_parameter_transfer.py",
-      "git_blob": "4393d55b6ee8152e6d1551d6343e62749969bf79",
-      "bytes": 26531,
-      "sha256": "de12b8129caeb8c51857f6b44a152c7a91e1facbdc553d2bd4f4ea320a38406a"
-    },
-    "reason": "Complete finite-part parameter-transfer computed output; the retained producer writes this native with complete computed rows and gates.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 700195,
-    "git_blob": "dbb29c3735bef5bb74ec88ecca4b503e4cf18324",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R106-seven-field-moving-parameter-bidisk.json.gz",
-    "sha256": "1b0c96c08ea72e16fddeabf91b74d81f539c4819a50af44ab97ec74f338778f8",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_subprincipal_root_parameter_bidisk.py",
-    "run_reference": "Original report records 256-bit computation; no Actions run ID is inferred.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R106-supplement-moving-root-parameter-fields.md",
-      "git_blob": "bdab2e80c530d0ad147ab707193937762b23a019",
-      "bytes": 8940,
-      "sha256": "ce04478af57c60742d90106f92faead5a1adc8f581c93ab19d49a1e0fdd4515d"
-    },
-    "reason": "1024-cell computed seven-field bidisk modulus certificate; the report distinguishes the parameter domain from this numerical output.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 678654,
-    "git_blob": "df8641305a1f3b08b13d93b4b52400d35c00fa62",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-negative-root-physical-graph-operator.json",
-    "sha256": "e4b3faf5ae998607207246367a430d80a1fdac7e404d1b013e66b9c373124cb5",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_negative_root_physical_graph_operator.py",
-    "run_reference": "Original complete report and immutable history identify the calculation.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R43-supplement-actual-physical-graph-strong-connector.md",
-      "git_blob": "ba584b3731b2339c5a0e018dab7a4ac2dc1e4f01",
-      "bytes": 23689,
-      "sha256": "9d6154cf3050ed8c70d2d1feb4fbaad76d4bf5ab5a97c1ae16016a83fe9362ad"
-    },
-    "reason": "Complete computed physical-graph operator budget; retained proof explicitly gives the producer, output SHA and command.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 673138,
-    "git_blob": "b9cd2fb10207d6123d89ccadbb229ade77a314e9",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R46-windowed-density-strong-budget.json",
-    "sha256": "bb8f8b4751f87f8a41ce219a8722fff5976ce233a009c90952682c3f2d24539b",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_strict_windowed_density_R46.py",
-    "run_reference": "Original report records the actual 3.86-second calculation.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R46-supplement-requested-window-density-strong-budget.md",
-      "git_blob": "2d289dc442c0afdbfaccb4033443251b9f4a4a23",
-      "bytes": 18043,
-      "sha256": "4dc12e62515504757d7940ab5a1cfff25e8a58600a536aa2c85630b7507c4a4e"
-    },
-    "reason": "Computed full strict requested-window density budget; command has scales 4096 16384 65536 1048576, windows 0 4/3 2 8, and 320 bits.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 578238,
-    "git_blob": "b9f2f61e0f6ed566131c565f80cc3194f4a004c2",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-direct-canonical-source-budget.json",
-    "sha256": "b568783f5270102aac2ed2d9656c6e86cc6acdce734358e53a0ac4a265513d3c",
-    "producer_path": null,
-    "run_reference": "Original R96-R98 ready manifest; original producer is not replaced by its publisher.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_publish.py",
-      "commit": "9dc01afb868480521a7b8287a9c7d06365890150",
-      "exact_evidence": "budget=json.loads(a.budget.read_text()); requires budget[proved] and actual_cells==178; copies a.budget to this exact output path and records original budget[source_sha256].",
-      "original_identity_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-12-R96-R98-ready-manifest.json"
-    },
-    "reason": "Exact published copy of the completed 178-cell R96 source budget, not a domain or parameter definition. Its original producer SHA is retained in its historical bytes and the small publication summary.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 530379,
-    "git_blob": "3df14b1adb42b90d21f279104c52e5cca2f345f3",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-negative-root-full-Airy-operator.json",
-    "sha256": "4a84d560b61efbd3abc44566fe9ae201a7677682a8de7e1062e2c2fc97a8138d",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_negative_root_full_Airy_operator.py",
-    "run_reference": "Original report records 320 bits and the actual 0.707-second computation.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R43-supplement-full-root-Airy-operator-and-scaled-strong-remainder.md",
-      "git_blob": "44d4c0618ba06096458d4df3ece81040b8950693",
-      "bytes": 19327,
-      "sha256": "3596f7f12eb08e09f86d039b9487c3320793c49bf93e58daab2ae475910e6e14"
-    },
-    "reason": "Full computed root Airy operator and scaled strong-remainder budget, explicitly reproduced with this output path.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 476832,
-    "git_blob": "d2d3a1f47042e6604e7ce42ab97d15487c303ce6",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-r005-signed-frame-embedding-native.json",
-    "sha256": "05caf21b39edb95ebae0c8229665277342f5673c9dd710b42cdf48dc0580d836",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_frame_embedding.py",
-    "run_reference": "Original R129 report identifies the signed-frame calculation.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R129-piecewise-certified-exact-waist-to-005.md",
-      "git_blob": "fb2e7de24507a687e1964bb98e24a17cacd9cf43",
-      "bytes": 11364,
-      "sha256": "ccc4b6fc62c894a3ccfcc89c568be2461af9a77a004bbae120f908eb0e003ba6"
-    },
-    "reason": "Complete computed 168-box signed-frame embedding native, with full original command and output SHA in the retained proof.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
-  },
-  {
-    "bytes": 429768,
-    "git_blob": "edee1f71602c28fa103bd1db0cb9670fbe47c8e5",
-    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-actual-high-density-first-phase-two-window.json",
-    "sha256": null,
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_actual_high_density_first_phase.py",
-    "run_reference": "Original full calculation is identified in the retained report; no later consumer is called its producer.",
-    "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R46-supplement-actual-high-density-first-phase-and-two-order-remainder.md",
-      "git_blob": "ed9de8ff2fe7c9c5170838f5b21c4db3f37782e9",
-      "bytes": 15955,
-      "sha256": "00ff2302e59abcd12335e1f0ec1910a55833d6fea8042752bef90b569db5a141"
-    },
-    "reason": "Complete calculated high-density first-phase coefficient and two-window operator budget; section 7 identifies the exact producer and output command.",
-    "parameters_reference": "The retained producer/report and exact historical native retain the original mathematical parameters. This storage worker does not alter or infer them."
+    "reason": "Original complete computed fixed-tau parameter-source output: 169 bulk leaves from 167 original closed spans plus the full turn region, with two failed coarse attempts retained. The report gives the exact output SHA256, producer, actual runtime and command. This is a reproducible numerical output, not an input-parameter definition.",
+    "parameters_reference": "Retain the R80 proof, producer and frozen manifest notes/2026-11-12-R80-actual-parameter-source-frozen-manifest.json. Original 192-bit Arb/Acb, Q256 angular primitive, radial series order 7, physical theta strip 1/56, both branches and p radius 1/2000000. Original source certificate and all parameter/input records remain; recovery uses actual predeletion commit/path with exact bytes and SHA256, without rerunning accepted mathematics."
   }
 ]''')
 CONFIRMED_BY_PATH = {row["path"]: row for row in CONFIRMED_OUTPUTS}
@@ -353,7 +226,7 @@ def metadata_inventory(repo, commit, api):
 def classification(path, item):
     reviewed = CONFIRMED_BY_PATH.get(path)
     if reviewed is None:
-        return "retain_outside_exact_allowlist", "not one of the nine reviewed original computational outputs"
+        return "retain_outside_exact_allowlist", "not the single reviewed original computational output"
     if item["mode"] not in ("100644", "100755"):
         return "retain_changed_reviewed_path", "nonregular object retained"
     if (item["git_blob"], item["bytes"]) != (reviewed["git_blob"], reviewed["bytes"]):
@@ -558,7 +431,7 @@ def main():
     destination = repo / dest_rel
     source = Path(__file__).resolve()
     state = {
-        "kind": "ordinary_public_topic_nine_confirmed_output_deletion",
+        "kind": "ordinary_public_topic_one_confirmed_output_deletion",
         "complete": False, "started_utc": now(), "repository": REPOSITORY,
         "topic": TOPIC, "source_path": TOPIC + "/scripts/" + source.name,
         "source_sha256": sha256(source.read_bytes()),
@@ -647,7 +520,7 @@ def main():
         "predeletion_commit": original, "pre_staging_main_commit": current,
         "producer": state["source_path"], "producer_sha256": state["source_sha256"],
         "parameters": {"reviewed_rules_path": args.reviewed_rules, "reviewed_rules_sha256": RULES_SHA256, "maximum_topic_bytes": MAX_TOPIC_BYTES,
-            "selection": "only nine exact path/Git-blob/byte-count triples reviewed as computed outputs"},
+            "selection": "only one exact path/Git-blob/byte-count triple reviewed as a computed output"},
         "complete_reviewed_output_allowlist": CONFIRMED_OUTPUTS,
         "original_cleanup_receipts": prior_receipts,
         "original_cleanup_run": PRIOR_RUN,
@@ -697,7 +570,7 @@ def main():
     small["topic_budget_claim"] = "Exact post-push tree size is checked separately; unknown parameters are not deleted to reach the limit."
     readable_json(destination / "process.json", small)
     note = (
-        "# Ordinary deletion of nine confirmed computational outputs\n\n"
+        "# Ordinary deletion of one confirmed computational output\n\n"
         "Storage administration only: no mathematical target or certificate is evaluated, and no data are uploaded to a Release or Actions artifact.\n\n"
         f"- Public repository: {REPOSITORY}.\n"
         f"- Immutable original commit: {original}.\n"
@@ -706,7 +579,7 @@ def main():
         f"- Staged ordinary deletions: {len(removable)}; bytes: {state['staged_deleted_original_bytes']}.\n"
         f"- Manifest: {name}; SHA-256 {receipt['sha256']}.\n"
         f"- Worker: {state['source_path']}; SHA-256 {state['source_sha256']}.\n\n"
-        "The exact nine-path allowlist comes from the first cleanup's retained-file inventory and individually read producer/report evidence. No generic filename classification is reused. The previous 11834 deleted files are not rehashed; only the nine reviewed output versions are eligible. The manifest retains every exact path, Git blob, byte count, SHA-256, predeletion commit and original producer/parameter/run reference. All scripts, conclusions, parameter/identity records and unlisted paths remain. Concurrent newer versions are preserved.\n\n"
+        "The exact one-path allowlist comes from the current metadata tree and the fully read original R80 section 6 and source certificate. No generic filename classification is reused. The previous 11834 deleted files are not rehashed; only the one reviewed output version is eligible. The manifest retains every exact path, Git blob, byte count, SHA-256, predeletion commit and original producer/parameter/run reference. All scripts, conclusions, parameter/identity records and unlisted paths remain. Concurrent newer versions are preserved.\n\n"
         "## Restore an original input for a continuing calculation\n\n"
         "Use the exact manifest entry in the public repository:\n\n"
         "~~~sh\n"
@@ -723,12 +596,12 @@ def main():
         return
     git(repo, ["config", "user.name", "visible-exact-actions"])
     git(repo, ["config", "user.email", "visible-exact-actions@users.noreply.github.com"])
-    git(repo, ["commit", "-m", "Remove nine reviewed visible-exact computed outputs with exact history restore metadata"])
+    git(repo, ["commit", "-m", "Remove one reviewed visible-exact computed output with exact history restore metadata"])
     publication = sync.push_until_success()
     after = metadata_inventory(repo, publication, api)
     after_bytes = sum(item["bytes"] for item in after.values())
     final = {
-        "kind": "actual_nine_confirmed_output_deletion_publication",
+        "kind": "actual_one_confirmed_output_deletion_publication",
         "run_id": run_id, "run_attempt": attempt,
         "ordinary_deletion_commit": publication, "predeletion_commit": original,
         "topic_bytes_at_published_commit": after_bytes,

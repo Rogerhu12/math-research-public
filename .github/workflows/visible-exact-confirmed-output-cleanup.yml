@@ -52,12 +52,12 @@ jobs:
           from pathlib import Path
           path = Path("topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_confirmed_output_cleanup.py")
           raw = path.read_bytes()
-          assert hashlib.sha256(raw).hexdigest() == "c0039f74065cad450c1bd5cd338261fbace2ea3fcada97b930d0522d9fae2c9e", "worker identity"
+          assert hashlib.sha256(raw).hexdigest() == "a3eea7caa1374437b7f3071c604573da534f455e16f6a1c8d88dc09996bb07e1", "worker identity"
           ast.parse(raw.decode("utf-8"), filename=str(path))
           print("Exact cleanup worker and Python syntax accepted; no mathematics executed.")
           PY
 
-      - name: Hash only nine reviewed output versions and publish ordinary deletion metadata
+      - name: Hash only one reviewed output version and publish ordinary deletion metadata
         shell: bash
         run: |
           python3 - <<'PY'
@@ -86,7 +86,7 @@ jobs:
           import json, os
           from pathlib import Path
           root = Path("topics/visible-flex-exact-nearby/notes/data_cleanup_confirmed_outputs") / ("run-" + os.environ["GITHUB_RUN_ID"] + "-" + os.environ["GITHUB_RUN_ATTEMPT"])
-          lines = ["# Nine confirmed computational outputs", "", "No mathematical calculation, Release upload, or Actions artifact upload is performed.", ""]
+          lines = ["# One confirmed computational output", "", "No mathematical calculation, Release upload, or Actions artifact upload is performed.", ""]
           for name in ("process.json", "publication.json"):
               p = root / name
               if not p.exists():
