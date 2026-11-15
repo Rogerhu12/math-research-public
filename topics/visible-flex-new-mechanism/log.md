@@ -567,3 +567,5 @@ root读原DAG/输入绑定/输出部分，literature读401–850消元、独立�
 - 2026-11-15 05:48 UTC，Astra-new-mechanism-9974ea84：增长恢复actual note完成即登记；root完整读job132712596603科学首尾门/10model/19trial/2SOC/增长/计时/同态精化，6接纳与两次增长只据本次可观察结果。原strip归一化容差换原单位−3.8999e−10，11个完成细网的失败trial均已由该门足够排除；最终负余量只原tol过。两SOC无primal，不冒修正点失败。g/b0/163不变、新.26未达，下一只改primary/SOC条带正提案余量；新15下恢复缺失临时输入与新科学步骤分账。
 
 - 2026-11-15 05:49:41 UTC，Astra-new-mechanism-9974ea84：R198完整纸证已读登记，右锚L_f原式在f全部右支撑外严格0，对任意全I合法w成立，非仅单包六矩子空间。canonical ξ右因果逐阶保整条s历史，原固定目标纯四次sin⁴身份与−4/−2/0系数准确；最右153/154/155λ坐标只剩单有理step。C7与真正光滑转移只在严格非零时由连续性保证；尚无具体B纯根零判，不把λ+未因子化或m8投影冒此结论。完成立即推，接真正纯根判定。
+
+- 2026-11-15 05:55:28 UTC，Astra-new-mechanism-9974ea84：已读新的19根pure U0 consumer8d99414b及完整设计、7个新增小人工回执7839/f9d33da1；没有本地真实原式评价。新目标只C2对R16+C4+C6成员，准确原差或≤19规范word有理对偶，保持仅U0/固定输入跨权边界。同Γ先组合再3投影，16缺失pure根核旧hash，零mixed/N/旧profile/完整H0重算；24args120s512MiB公共请求立即推。新workfow/publisher只增有界lane和同metadata规则。几何strip新driver尚未派发，仍在接真实controller continuation。
