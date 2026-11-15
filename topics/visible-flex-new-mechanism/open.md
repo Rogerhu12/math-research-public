@@ -88,21 +88,13 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 这已支付R376/377/379/380曾记录的ZY0/WY1/YY0/ZZ2欠账；末Fstar冻结O的事实仍保，真正修复发生在更早实际模块。R387现已从完整原式证明另有严格正的一层j⁴余量：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)。其系数为正倍∫(f″²−φ″²)²，当前π/2严格正；合法gauge/传入history与其它真实Gaussian词不能抵消。原三矩/弱hook/WP面积/三directed/Ψ同时保持时，任意非退化圆也不能使完整一层零。R388保原两row不除P给严格正D4身份，并从原二/三/四恢复逐项证所有前提必要；任意同种子、连通C²连续真实首阶轨道均恒f，改非圆也不能绕过。下一改端芽/第三算子或其它机制，接有理芽R327实际同规范joint；不得同类增行/增频。大κ只条件于实际已安装芽，不扩旧安装范围；首阶恒定高阶才动族未排。其它端芽不得继承本芽wholeE/Morse/period。
 
-### 历史H非零与秩结论已撤回，以R378–385为准
+### 完整H读出已零；整个Q4自然读出已闭，继续实际joint
 
-## 完整H自然读出全零，转Q4真实实现
+R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及紧profile的ΛH1=ΛH2=0；旧R358/362/365/371的非零、模C²维12/≥13和具体7/13控制已撤回。R366仅一般满秩条件式有效，此HΛ族不满足；未称H算子0或H⊂R，历史过程见原带撤回说明的稿，不再把旧秩当当前控制入口。
 
-[R382](results/R382-universal-cancellation-of-the-corrected-H-total-flux-and-independent-Q4.md)已完成完整self：四个jA/jB系数先是紧导数，再保M/T真实尾逐项消余local；连R381真尾与R378补项，所有状态/所有紧profile有ΛH1=ΛH2=0。旧具体7/13控制不只是待核，而在该自然Λ通道确实无H响应；一般满秩条件论证不适用于这族Λ。未宣H算子零/H⊂R。R370显式保完整−Ψ，Qδ4的Λ=∫(x+d)r5/80非零，故真正Qδ4∉R+spanH已付，完全不用未发R374。下一分别处理此Q4实际双号/完整其它正规行与联合观察，不能把线性类冒实际逆元。以下旧H段落保历史索引，其撤回部分以R378/R382及原稿顶部为准。
+[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)现已从完整原CA m2/BN2、−Ψ、两P/B history与有序真尾推得 ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)。完整加速度及速度势逐state准确抵消，余ρ消全部真实primitive而无丢左尾；全局部C²多项式式保全部五速度槽。纯δ式回R370，h1d0混合γδ³=∫(7x²−1)r⁵/160−∫xvr⁴/16，偶母平移的二次项证明比R384 X/M多一真正函数方向。它是整个Q4的读出，尚非整个U/同g joint；Q2/静态等不能因该式被免费局部化。
 
-R344/352保完整ordered2+2三矩尾定义自然Λ∈(U/R)*，杀R且N协变；R350三个Abar在每个实际状态Λ0。R356真−9/−8全消但不授U层=R；R358真Hγ−7准确−∫r5/57600。R362完整H2三导平方及同锚C²余项给真−6非零，借已付R207消pure得Ω非零，不重旧秩。
-
-[R365](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)已完成全状态Dγ/Dδ、真三矩affine输运，保γ式−dDδ；[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)的全principal为±h^-8∫p(hx+d){L或r}Et²/480，p=z(1+z²)²。六真实平移及任意二阶jet的C²小振荡证明模C²恰12；原真−7非零C²元素属于H像，故完整H像≥13而非恰13。有限求值引理选13固定同窗同锚profile，actual H上满秩。
-
-[R366](results/R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md)的一般m真实桥/快速段/整块倒行/有限ε向量IFT可用于这13读出；含全部原基准、M=T0、scalar/frame、空间Klein闭合及任意ω下界/紧集光滑截面。只付13观察，不免费保wholeE/pure/self或全period；闭正则浸入不是嵌入/reach。不能再说仅一个标量，也不能推出所有U的正半群可达。
-
-[R367](results/R367-exact-N2-Green-contraction-and-nonzero-quartic-velocity-correction.md)的完整非紧Green/有序尾校正必须保；[R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)现完整收原C_A m2、−Yn及P_s、−∂dσ/3，C_A整项抵B_m2N2，余两真尾准确消得真实Qδ4=16Q04∈U、Λ=∫(x+d)r5/80。d0真−6借原R207pure响应校正给Ω=∫xr5/80。
-
-**继续完整H的C²核、Qδ4相对H全像、其它Q4/Q2/静态层和实际联合范围。** 不能因Qδ4是C²就宣H外独立，也不能把线性U成员称实际双号路径；高阶/同g/完整period仍欠。
+R384准确二维自然像/有限正锥，R385仅一个固定Λ的真实任意实值及紧集C1截面保持。接多个固定profile的实际联合：须共同有限正核、矩阵/frame/固定端口桥、全部非零基准、完整reverse/Klein和一个有限参数向量IFT。当前γ/δ真实速度两号也不等于实际成本逆元；不跳到actual3或E=(π,Q)与Λ共同可达。继续有理芽period与同规范joint时逐实际范围使用。
 
 ### R327/R330：把已付端口后的同规范联合门落实到实际列
 

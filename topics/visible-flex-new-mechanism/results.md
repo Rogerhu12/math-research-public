@@ -244,3 +244,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R388｜无分母两行正身份与同芽连续首阶轨道刚性
 
 [R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)（16738B；SHA256 `f0a0d93826cb30fee6fa3dd1e5a1a5cb411548a14e9df23241b1708bf4cb5a7b`）。对实际具有指定M0/TκH与Gaussian共振芽的几何，P R4−B*R0为D4=∫(f″²−u″²)²的严格正倍，对任意κ≠0无P分母。原二阶三列/第三周期/全部二三阶gauge及传入history/对称与area必要性逐项支付，不依圆或rank-one。两row0迫u″²=f″²；连通C²连续首阶轨道从f出发，逐点符号连续与collar迫恒f。条件大κ不授安装；不排首阶恒定高阶才动、异芽/第三算子及主题一般机制。根全文核及独立手核weak IBP/两多项式，mechanism完整接口窄核通过，无执行。
+
+
+## R386｜整个四次速度成本的准确局部自然通量
+
+[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)（17262B；SHA256 `faf0721ec08efee8ab88f631fc3870f73a557caab067d3968814d0f9f24f7f3f`）。保完整CA m2/BN2消去、−Ψ(u,n)、ZZ两history与两有序仿射真尾，全部加速度与正规速度势逐state抵消。准确ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)，全C²多项式呈示，无原primitive/左尾余项。h1d0混合γδ³读出含偶母平移的非零二次项，故在X/M外，函数像至少3；不是actual3/wholeU或同g控制。根全文及q导数、U原同锚式、末两IBP、C²呈示和纯δ/混合系数独立手核通过；未执行研究。下一真多profile正核/全部桥基准/有限向量IFT另付。

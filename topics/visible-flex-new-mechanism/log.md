@@ -334,3 +334,8 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a2b0d6dd41bb337273869fefc0f3f4ce1272aee4a69fe23d458af13f92；140py+6workflow共146项，初375/两池4432与4451/B.00025/双streak0，原cfg/g/b0/159/163与12/40/120/10不变。先actual双库pull/规则检查，再4组18新增人工；旧20/19/26/cache只复用收据。一次独立新算法阶段，不重播covered旧阶段，不重跑等事件。运行身份/失败/全部费用待原日志后立即写回。源安装06ddf6605f2804532f44690f5184b7f16a2f8964；发布基底34469a309e8dc72fd0e6e99d6f75d34d209e099e。
 
 实际重推前已核rule-only run43766502081/job132972697627：公开21:57:15.627515→15.848902Z实际git pull --rebase，before=after f178cbfc6f8f43e4b39a58c6d627a0dae4d90e76，return0、双README空diff，git输出123B/hashfc0f5ea7…。私有21:57:18.105912→18.531939Z实际pull，before=after 3ba60bd616256932285e82d2da78b15b5f1b1668；根blob不变、题不存在、QUEUE唯一行本会话进行中。原job日志67212B/SHA256 51f08f56bebd175dc327d34c5d68f96e76b5a7db33a8adf74fea1a1d6d42cf77。无科学/开发执行；根读差异为空后现重提交新guard请求，无force。
+
+
+## 2026-11-15 21:59:24 UTC｜R386完整Q4自然读出落地
+
+[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)，17262B/hashfaf0721e…。五速度槽的完整原式，保N2非紧Green和两实际尾，qtail仿射两交叉均保；加速度/速度势0，余rho收至明确局部式。根全文与关键恒等独立手核，无符号程序/求积/人工。H/open已去除旧撤回H秩的现行措辞，保R385只一真实scalar，继续R390真实joint2，未冒整个U/E joint或固定g。并行guard首次run43766593534/sourcea48f3398…进行中，任何人工/科学通过仍待原输出；main并发后21:57实际rebase已读空README差异。基底56a27217ca662f2501617fc870efdfb30cd98e4e。
