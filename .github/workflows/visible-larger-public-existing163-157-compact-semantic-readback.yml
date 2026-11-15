@@ -54,8 +54,8 @@ jobs:
           comp=root/'topics/visible-flex-larger-amplitude/computations'
           path=comp/'public-existing163-157-compact-semantic-request.json'
           raw=path.read_bytes()
-          assert len(raw)==16528
-          assert hashlib.sha256(raw).hexdigest()=='b242e3ffb288623735918dcff89b5423419f5e0d8f232569d96d58b375a427da'
+          assert len(raw)==17610
+          assert hashlib.sha256(raw).hexdigest()=='eee0607fb0adddcd7a4c3ab49b87c22998f97e59bf9cdaa56e8a0c01927d1443'
           request=json.loads(raw)
           bound=[]
           for field in ('reader','helper'):
@@ -85,7 +85,7 @@ jobs:
         run: |
           python -u topics/visible-flex-larger-amplitude/computations/root_20261115_existing163_157_compact_semantic_readback.py \
             --request topics/visible-flex-larger-amplitude/computations/public-existing163-157-compact-semantic-request.json \
-            --request-sha256 b242e3ffb288623735918dcff89b5423419f5e0d8f232569d96d58b375a427da \
+            --request-sha256 eee0607fb0adddcd7a4c3ab49b87c22998f97e59bf9cdaa56e8a0c01927d1443 \
             --out "$RUNNER_TEMP/visible-existing163157-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
       - name: Retire only this fresh metadata-log directory if still present
         if: always()

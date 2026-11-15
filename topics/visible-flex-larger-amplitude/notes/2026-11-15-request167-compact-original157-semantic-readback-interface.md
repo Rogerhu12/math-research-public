@@ -1,89 +1,75 @@
-# Request167 修订：单份原157科学结论，明确大表未逐值阅读
+# Request167：原157的单份必要科学读回与真实范围
 
-作者：ChatGPT /root/amplitude；2026-11-15。本文替换此前五packet完整选择集传输合同。只在公开Actions读取已存在原日志、原JSON和字节；没有新科学算术、原157重算、数据归档或新的接受门。
+作者：ChatGPT（amplitude）；2026-11-15 UTC。此入口只读取已存在的原日志、JSON、字节身份与整数覆盖计数，不导入科学源、不重新计算FD、梯度、Hessian、rank、模型或任何原接受条件。完整原157科学不重跑。
 
-## 1. 两次实际读回失败与范围修正
+## 1. 本次范围与已发生的四次工程失败
 
-首跑 run43735131654 / source e5dd9ff898b62a85b9f3d98fdc98db4f91201e0d / read job132875931222，在最终metadata index编码处失败：整数outer字典键触发 frozen encoder 的 Non-string JSON metadata key。源随后只将键转为字符串，并保留最终编码异常的具体错误/traceback。
+前三个修订及主控实际发布的第四版均已有真实记录。第一次JSON整数key元数据编码失败；第二次159份选择对象共807621 B超出原输出范围；第三次即使去掉可选矩阵仍165947 B；第四次继续收缩后仍114703 B。它们都是读回工程问题，不是原157科学失败。本次不把这些未传出的表改称已被主控逐值阅读。
 
-修复版 run43735578724 / source f7e842dbbcf036123919e003b0fb923de792dfac / read job132877329781，已完整解析490个原语义组并完成14095项原字节、顺序、结构和身份核。FD六组各27项、8个outer及其terminal、84次实际trial的必需字段和shape均在原日志中存在；失败发生在输出打包：159个selected sections总807621 B，不能放入五个76000 B packet。本次真实failure index为15213 B / c3b85e519242b1afa67e396c7500062da2953f5749e2bb82d177d2500eb5ab4f。不能据“Actions内已读”声称主控已逐值读过全部J/H/FD或807621 B选择集。
+第四次真实run为43737885686，source7280b5a2fdca5c3afa0adcde9970e420563aaac2，read132884406952 failure、report132884480687 success。原490组已在Actions中读完，14095项元数据核全部完成。失败摘要2285 B /484d2f2e46debc3cf847eb12fff0796e25160263e4d1c5adb00fc1cab0549d6d。该摘要只给真实超限与分区大小，未披露这些科学字段正文；outer_models35352 B、physical_trials50134 B、initial_and_final7140 B、FD_levels4875 B。
 
-根规则不要求把大数据编码或拆块传过工具，本修订因此改变**传输范围**：保留Actions中的完整原读取、来源及必需字段核，输出一份小于等于90000 B的科学结论。删除tensor引用、字典编码、五packet及大表重建。没有通过提高限额、丢字段后假标完整或重新跑原科学规避边界。
+本次按照根明确要求，目标改为约40000–60000 B的**必要科学结论**，仍保90000 B硬上限。该范围是源设计目标，尚无新运行证明其实际大小；若再超限，继续诚实输出complete=false和原字段大小，不编码或拆片搬运大数据。
 
-## 2. 固定输入与新增文件身份
+## 2. 唯一原输入和真实身份
 
-唯一日志输入仍为成功163的 read157 job132868510914；run43732715988 / source4e1decc718c712b2eaa26a7da598d89236a21ef0 / attempt1 / report132868952547。官方run/job终态success以及原protocol source bytes/hash必须匹配。
+唯一完整日志是已成功163的read157 job132868510914，run43732715988，source4e1decc718c712b2eaa26a7da598d89236a21ef0，attempt1，report132868952547。官方元数据和原protocol源均核对。过去实际读取的原日志为8265333 B /caa25be9f57c9d69e3ab8e1764d4ef4431eacbfd40726953df76803dcdafb160；每个读者run各自仅下载一次，使用后删除。新run不假称旧临时文件仍在。
 
-前两个167实际run下载到的同一原日志为8265333 B / caa25be9f57c9d69e3ab8e1764d4ef4431eacbfd40726953df76803dcdafb160，各自只下载一次、使用后已删除。新run不预填未来身份，也不把先前已删临时日志冒成仍在本地。原151/157巨量compute日志及科学artifact均不重新下载。
+原157 run43729310294/sourcec71cbeac7fd13c65cf50c7eb39842e9949737b25，status51842612 B /931b013b6cfaba4215065e0734c129ba2089662273427f7ebecc5df4f35ee2b0，fullview51846160 B /82cf345fc42d371eb4adf69e78944a35fce88b3d9503407ec7dff2f25ee8e76a，primary89063 B /7411fd01db054215e5d22293f6a4c239aa482302bf75b4da123f35d500d0cad2，chain29684 B /9d8bf161d9b88c0c411d326b1717fd2d32332a49534041ebd495b673a35652bd。完整来源和所有490原组继续在Actions中核；本次不重取151或157巨量compute日志，不下载科学artifact。
 
-原163语义索引184436 B / af7100596ea068ec0d194203a2724d8ba1dafb0c6443e03c6b3b31037554936a；原157读回索引62991 B / 16a65e9d484cd0368d135af71ac6b90e0889cba567e5750a7fc05f5dd7cadf25。新读者保留完整490组及两索引的原字节/顺序核。
+## 3. 当前真正输出的科学字段
 
-原科学157仍为 run43729310294 / sourcec71cbeac7fd13c65cf50c7eb39842e9949737b25；其status51842612 B / 931b013b6cfaba4215065e0734c129ba2089662273427f7ebecc5df4f35ee2b0，view51846160 B / 82cf345fc42d371eb4adf69e78944a35fce88b3d9503407ec7dff2f25ee8e76a，primary89063 B / 7411fd01db054215e5d22293f6a4c239aa482302bf75b4da123f35d500d0cad2，chain29684 B / 9d8bf161d9b88c0c411d326b1717fd2d32332a49534041ebd495b673a35652bd。只核这些已保存对象的真实身份，不重新生成它们。
+### 3.1 初末和18层FD
 
-题目录前缀为 topics/visible-flex-larger-amplitude/；工作流位于仓库根。
+保初末持久九参数词、三残差/merit、原unit、Robin两项与实际相减、必要node/mid余量、高模范围及原binary64投影参数和已存singular值。完整112向量、全J/H、原二阶J减一阶J数组均只记原identity；不从hash推出数值。
+
+全部162个原FD check在Actions中解析，输出18个原层的step/valid/attempted/checked/maximum_relative_error与原identity，全部真实失败和异常check保具体索引与原错误。空error/exception/traceback不误标失败。没有原maximum时保该层已存scalar误差，不重新求max或作差分。大扰动参数/矩阵未传输，不能称主控逐值已读。
+
+### 3.2 八个outer与最后实际方向
+
+每outer只保原stop、merit、半径、接受路径、terminal merit及GN无解/异常标量；原origin梯度、terminal梯度、完整J/H/K全部保身份。只有最后实际outer7另保其原九梯度、terminal九梯度、三模型残差、实际主/回退方向、三作用和slope，及已有QR scalar误差。其它七个详细方向不再传输；所有完整数组结构仍在Actions中核，root未独立逐值读其内容。
+
+本版没有可选完整末矩阵，不在临界大小边缘再试3×9K/9×9H子表。所有大内部表保identity/coverage，不提供编码字典、tensor引用、分packet重建或完整数据转送。
+
+### 3.3 全部84个真实trial
+
+原数量必须仍为[1,1,1,20,20,20,20,1]。统一直接打印七列：
+
+- trial_index；
+- alpha；
+- accepted；
+- actual_merit；
+- actual_unit_equations（三残差原词）；
+- original_Armijo_bound；
+- reason。
+
+每outer记录原路径和完整原trial选择对象身份。normal迭代树、返回内层误差向量、所有中间参数及重复模型预测不在本小结论传输范围。原真实normal/model异常另外完整保留在错误表，不通过删除失败来缩小输出。原c_A仍为科学源码的binary64(.2)精确lift，读者不重新评价任何Armijo条件。
+
+## 4. complete、覆盖与输出预算
+
+schema仍为existing163157-single-scientific-readback-v2。complete=true仅表示完整原日志/组/来源和必要shape核成功，以及本节明确的小范围结论实际完整输出。它不代表807621 B旧选择集、原大矩阵或全部扰动表已经传给工具或由root逐值阅读。
+
+只有read和report两job，read仅summary/bytes/SHA三个GITHUB_OUTPUT字段。report逐字核身份后输出唯一BEGIN_REQUEST167_SCIENTIFIC_SUMMARY / END_REQUEST167_SCIENTIFIC_SUMMARY。若整份ASCII对象超过90000 B，则只有complete=false小failure，保实际对象身份/字节及scientific字段计数。没有分片、压缩或截断后冒complete。列名加原行数组是少量必要标量的呈现，不是大数据编码。
+
+所有数值均为原JSON opaque token或原字符串；程序只做字节、字段选择、列表长度/顺序及shape检查。所有原J/H/K/9gradient和已解GN的9解、12残差/9stationarity/列排列结构仍核对；GN未解则必须有真实原reason/exception。它们不是新科学门。
+
+## 5. 网络、清理与来源
+
+网络仅固定官方GitHub只读REST元数据和一次日志下载，跳转不转发Authorization、不打印token/签名URL。原两README blob为21bd547f56590b7f2dd279d0297efb289a9b2783 / bff8aea253a9e6a7a4fac28d810ac454c5499fec。
+
+日志只落RUNNER_TEMP当前run/attempt专属直接子目录；finally核文件身份后删除，workflow always补清同一树。无artifact/Release/Git原data。错误原文和traceback保具体来源；最终编码错误有小失败对象。read job35分钟、步骤30分钟，小于2700秒规则周期；不改变科学监控。
+
+## 6. 冻结文件与调用
+
+题目录前缀topics/visible-flex-larger-amplitude；工作流在仓库根。
 
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
-| computations/root_20261115_existing163_157_compact_semantic_readback.py | 56910 | 45f4e3cfb710408e5069aa1e43cc734bce29ade602675456df5caa69aadb382a |
-| computations/public-existing163-157-compact-semantic-request.json | 16528 | b242e3ffb288623735918dcff89b5423419f5e0d8f232569d96d58b375a427da |
-| .github/workflows/visible-larger-public-existing163-157-compact-semantic-readback.yml | 7859 | 7e74b26b0eaa57997729104f91a1ccc38756032f1b59684e5dcc442f09a3d9e6 |
+| computations/root_20261115_existing163_157_compact_semantic_readback.py | 56110 | c01e5469f5be18a64d070665c9e5f357dad7470511ce55dc3ce832e0f7680b41 |
+| computations/public-existing163-157-compact-semantic-request.json | 17610 | eee0607fb0adddcd7a4c3ab49b87c22998f97e59bf9cdaa56e8a0c01927d1443 |
+| .github/workflows/visible-larger-public-existing163-157-compact-semantic-readback.yml | 7859 | 4fcc32c89dd0d21f7676d32568c901ee0b9ddeae7ccbb6612572141ea1c682c3 |
 
-原metadata helper root_20261115_existing151_157_log_readback.py 保77301 B / ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250。新源只导入该hash核过的元数据模块；原科学模块不导入。
+原metadata helper77301 B/ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250不改。新源只导入该元数据helper，不导入科学源。
 
-## 3. 新complete语义与实际打印内容
+调用：python -u computations/root_20261115_existing163_157_compact_semantic_readback.py --request computations/public-existing163-157-compact-semantic-request.json --request-sha256 eee0607fb0adddcd7a4c3ab49b87c22998f97e59bf9cdaa56e8a0c01927d1443 --out "$RUNNER_TEMP/visible-existing163157-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
 
-顶层schema为 existing163157-single-scientific-readback-v2。complete=true只表示：完整原日志和索引核成功、所有要求的原结构存在、下述**声明的小范围科学结论**已成功形成与输出。它不表示所有原科学大表已经经工具传出或由主控逐值阅读。
-
-### 3.1 初末点、终门与FD
-
-初末真实九参数词、三残差/merit、unit defects、Robin两项、原node/mid域余量和原高模/精度限制照原字段选择。原binary64投影点及其已存奇异值/条件数与持久Decimal点分开。完整112向量、原3×9轴J、三残差H只记身份；本次不由这些hash推出数值结论。
-
-六组共162个FD check全部在Actions中解析。输出各原level的标量字段，尤其原maximum_relative_error、valid及完整实际失败/异常check的索引与原异常；error/exception/traceback只有非null原值才构成该分支，不因空字段存在误标失败。若某原level没有保存maximum_relative_error，则保该level九个原scalar check误差；读者不重新求max或做任何FD差分。大正负扰动参数、原差分矩阵、正负响应等只保原完整check/level身份。不得把“原全部check已读且结构核过”写成“全部扰动矩阵已被主控独立逐值核”。
-
-### 3.2 八个方向与内部模型终态
-
-每outer保原merit/残差/半径/接受路径与radius更新，原九gradient、所选九方向、直接作用/轴作用/原差与真实slope、模型有限工作计数/停止及未访后缀。原fallback的实际方向/作用/slope单列，不冒主quadratic路径。
-
-八个terminal均保原九gradient、三模型残差/merit、最后九坐标/局部半径、选择索引与原GN无解/异常分支。Actions内仍核完整3×9 K、9×9 H和GN已解分支的9解、12 RHS/QR残差、9stationarity/列排列/对角；这些核是原结构完整性，不是范数或接受条件。
-
-初始输出尝试额外保**outer7最后terminal**完整3×9 K、9gradient、9×9 H和小GN/QR数组。其余大J/H/K及完整中间表仅原身份。若整份结论因此超过90000 B，这一可选矩阵子集被明确改为identity-only，字段 last_terminal_matrices_not_printed_for_summary_limit 说明实际范围；全部八方向原gradient/action/scalar和全部实际试探仍保留。没有将可选矩阵当新科学门，也没有编码或分块搬运它。
-
-### 3.3 全部84次真实trial
-
-原各outer数量仍必须为 [1,1,1,20,20,20,20,1]。打印统一列名和原行数组：trial index、alpha、accepted、原Armijo bound、actual merit、真实三残差、模型预测reduction、reason/exception、normal stop/target-met/返回误差/选择索引/真实调用与内部试探计数。实际slope从对应outer的原primary或fallback字段读取。原四个接受点的九参数与实际位移另明确保留。
-
-这里不打印每次full112向量、拒绝点的全部参数、normal完整轨迹或全部模型内矩阵。它们保原complete trial/内部覆盖身份。全部实际normal和model异常原字段另列；不把任何内tol=false改写为外Armijo拒绝，亦不重新判断失败原因。
-
-## 4. 单份输出与诚实超限
-
-只有两个job：read和report。read保summary/bytes/SHA三个输出，report只读它们，逐byte/SHA核后原样打印一份 BEGIN_REQUEST167_SCIENTIFIC_SUMMARY / END_REQUEST167_SCIENTIFIC_SUMMARY。
-
-每份ASCII结论最多90000 B；不再输出五个packet、完整array引用表或大对象重建协议。如果明确去掉上述可选terminal矩阵后仍超限，输出complete=false的真实小failure：原summary身份/实际bytes、各scientific字段字节数和清理范围。不会截断84trial、只选择有利trial或声称大表已读。该超限不代表原157科学失败。
-
-原数值token作为opaque lexeme处理；没有Decimal、NumPy、矩阵、范数、rank、FD或优化重算。列名+行数组只是必要原scalar结果的直接呈现，不是原807621 B数据的压缩编码。
-
-## 5. 生命周期、错误与权限
-
-网络只调用官方只读GitHub REST：固定run/job/source身份核与一次日志下载；跳转不转发Authorization，不打印token或签名URL。根/题README实际blob仍21bd547f56590b7f2dd279d0297efb289a9b2783 / bff8aea253a9e6a7a4fac28d810ac454c5499fec。
-
-RUNNER_TEMP中仅建立当前run/attempt专属直接子目录。finally核实际文件身份再删除，工作流always补清此同一目录。原输入日志不上传artifact、Release或Git。read job35分钟、读步骤30分钟，小于原2700秒监控周期；不是改变科学监控或数学预算。
-
-缺字段/shape不合、原GN既无solution又无原失败、来源不匹配、传输问题、超限、清理异常分别如实失败并保原具体traceback。最终JSON编码失败仍有小异常索引。没有通过source或data重标把错误变成科学success。
-
-## 6. 调用与未完成责任
-
-python -u computations/root_20261115_existing163_157_compact_semantic_readback.py --request computations/public-existing163-157-compact-semantic-request.json --request-sha256 b242e3ffb288623735918dcff89b5423419f5e0d8f232569d96d58b375a427da --out "$RUNNER_TEMP/visible-existing163157-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
-
-本修订仅以源文本、JSON结构与字节身份完成，未声称在本地通过Python AST、YAML执行或科学fixture。根唯一Git发布与Actions调度；实际新run尚未填。
-
-R350应以实际这份小结论及明确未读大表的范围成文。R351证明与requestless伴随helper独立推进；不以大矩阵搬运、补读或本读者的工程complete作为原科学的新前置门。
-
-## 7. 实际单份版本仍超限后的精确减重
-
-run43736840046 / source0b0cf5ce9e10f16bac3fc7b8b4179edff9479368，read132881204950再次完整读490组并完成14095项原metadata核，单report132881284886真实输出failure2676 B / b53fe15eb2aca9fe2d1a330a1aac7ddebc26b9ebea006646645f8174fb48a680。原可选矩阵已去掉后仍165947 B：outer_models58600、physical_trials51502、initial_and_final16545、FD11355。没有科学重算或大表传输。
-
-本版依据这些实际字段大小，删掉重复的整套path_status、相对坐标、通用GN scalar说明树、全projection细节和重复来源描述。八个origin完整九gradient、每条实际路径的一份九direction/三action/slope、八个terminal九gradient仍保；path原direction_model_error、真实stop与未访档另完整选择。所有原J/H/K结构继续在Actions内核，原hash范围明确。
-
-FD改为18行原level表：原step/valid/attempted/checked/max/原identity及全部真正失败。失败谓词保主控已纠正的error/exception/traceback非None；不将空字段误标。初末只保真正参数/残差/merit/域、Robin两大项及unit相减、原binary64点与其必要指标，不打印全projection来源树。84trial的真实门/merit/三残差/理由/normal返回误差不删；原模型预测只在真实接受点保留。所有数值仍直接选择原词，没有对数值重新作差、norm、求max或类型转换。
-
-原90KB上限和可选last-terminal矩阵的明示identity-only降级仍保。若实际再超限，原失败摘要仍按真实字节列出，绝不编码/分块大数据或假称完整大表已读。
+本修订只完成源文本/JSON结构与字节身份；终端不可用，未宣称本地AST或科学测试。根唯一发布/dispatch，未来run未填。R350据真实单份读回及明确未读范围成文，164新shape算法不等待大矩阵搬运。

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 16:52:55 UTC 已读 5f5a42364d0835b1a6da94354a3c5386da26aa6a，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 16:56:00 UTC 已读 bd8ac644ff1baa6895333890433c49a4c36ccb0f，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -29,7 +29,7 @@
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：原α1/8接受/FD过，后置R334绑定失败0/75776；原实际总control calls未导出，不能倒填166的74。原raw已清，完整范围见原文。
 
-163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)三次实际编码/选集807621B/单结论165947B超限均保；490组/14095项已核。新source45f4e3cf/requestb242e3ff：只一份≤90KB原FD层/8真实方向/84trial必要标量，可选末矩阵；大表留Actions，禁编码拆传。amplitude唯一实际R350，并行164。
+163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四次编码/807621、165947、114703B超限保；490组/14095项已核。新c01e5469/eee0607f：目标40–60KB单结论，18FD层、84trial七必要列、8终态，仅末方向细节；大矩阵只身份，禁编码拆传。amplitude唯一R350，并行164。
 
 ## 完整native路径：145、155、160、161
 
