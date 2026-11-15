@@ -4,7 +4,7 @@
   "repository": "Rogerhu12/math-research-public",
   "purpose": "Read existing actual98 scalar results and identities only; no new scientific calculation or raw output retention.",
   "source_sha256": {
-    "root_20261115_read_existing98_scalar_summary.py": "68f7c017dea3645b8a7ac3a9030fa5b7c68e4c300025c1245030bf62f342d61d",
+    "root_20261115_read_existing98_scalar_summary.py": "e2e8ec32c30bbc9ff0e77709524ff09f100f0ff5f4decd23c43b6445562b7484",
     "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
   },
   "actual_original": {
@@ -42,17 +42,17 @@
     "retention": "Only committed scripts, parameters, run numbers, output SHA-256 and honest compact conclusions. Temporary original bytes removed before successful summary."
   },
   "validation_scope": "Source text and identity reviewed without local AST or Python execution because shared terminal is unavailable; Actions parses both sources before original artifact read.",
-  "summary_revision": 2,
+  "summary_revision": 3,
   "previous_readback": {
-    "run_id": 43680444618,
-    "job_id": 132709690650,
-    "source_commit": "854add3304e88b9d9262a15d9df72de8cd849b9b",
+    "run_id": 43681045395,
+    "job_id": 132711522355,
+    "source_commit": "954515ffe4d41b0bc36c04d78cf275314e693e48",
     "full_existing_zip_and_all_five_primary_files_read": true,
-    "failure": "Scalar summary included duplicate producer histories and exceeded the unchanged 90000-byte limit.",
-    "summary_bytes": 474627,
-    "summary_sha256": "4a8049875734771ada1771ac0ca349cd62b7df03edbab8ad311883406d0d2a9c",
+    "failure": "The original scalar reader retained repeated query/point descriptions and indented JSON; its 216637-byte summary exceeded the unchanged 90000-byte output budget.",
+    "summary_bytes": 216637,
+    "summary_sha256": "a1d5db544c97ca6bb6ead1046ba64026fa941dc5ed2b547a616732d1459303cb",
     "new_scientific_calls": 0,
     "readback_not_a_scientific_failure": true
   },
-  "summary_scope": "Explicit original scalar/domain/RMS/query/FD decisions, all trials and failed points; historical producer/source trees represented only by named canonical metadata hashes; no trial truncation or split output."
+  "summary_scope": "A compact single JSON document retains every original trial, every failed-point record and all31 query records at each trial through an explicit scientific scalar whitelist. Repeated source/array descriptors and descriptions are not copied. The complete five originals remain identified by byte SHA. Section sizes are printed before the unchanged output-size check; no split output, raw retention or scientific reevaluation."
 }

@@ -18,7 +18,7 @@ SOURCE_COMMIT = "918fdb11dbb7a424b6149b405e2c7fab3cc0c737"
 TRANSPORT_SHA = "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
 REQUEST_GIT_BLOB = "6aa7cc61e52b314c31699e8849fb9a9cc5c11b62"
 WORKFLOW_GIT_BLOB = "f998c08cc5320559204b7b2d5a67f4f2f1afdc99"
-SCHEMA = "actual98-original-scalar-readback-no-payload-retention-v2"
+SCHEMA = "actual98-original-scalar-readback-no-payload-retention-v3"
 OPTIMIZER_SCHEMA = "exact-constraint-thirty-one-query-condensed-complete-H-warm-v1"
 WARM_FROM_ORIGINAL_JOB_LOG = "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
 PIN = dict(run_id=43677587785, artifact_id=14147700690,
@@ -65,8 +65,39 @@ def parsed(raw):
 def scalar(value):
     return value is None or isinstance(value, (str, int, float, bool))
 
+SCIENTIFIC_TEXT_KEYS = {
+    "schema", "phase", "reason", "stop_reason", "message", "error", "actual_error",
+    "classification", "kind", "component", "category", "part", "field", "name",
+    "label", "direction_kind", "selection", "selected", "selected_candidate",
+    "selected_source", "which", "location", "termination", "algorithm",
+    "residual_block", "component_name", "coordinate_kind", "block",
+    "physical_component", "field_component", "finite_boundary_scheme",
+    "latest_warm_file", "latest_warm_sha256", "original_nonfinite_JSON_token",
+}
+
 def shallow(value):
-    return {k: v for k, v in value.items() if scalar(v)} if isinstance(value, dict) else value
+    """Scientific scalars only; repeated descriptions and descriptors stay hash-bound."""
+    if not isinstance(value, dict):
+        return value if scalar(value) else {
+            "original_JSON_kind": type(value).__name__,
+            "non_scalar_payload_not_copied": True}
+    answer = {}
+    for key, item in value.items():
+        if item is None or isinstance(item, (int, float, bool)):
+            answer[key] = item
+        elif isinstance(item, dict) and set(item) == {"original_nonfinite_JSON_token"}:
+            answer[key] = item
+        elif isinstance(item, str) and (
+                key in SCIENTIFIC_TEXT_KEYS or key.endswith(("_reason", "_error", "_exception"))):
+            if len(item) <= 512:
+                answer[key] = item
+            else:
+                answer[key] = {
+                    "original_text_prefix": item[:160],
+                    "original_text_characters": len(item),
+                    "original_text_sha256": sha(item.encode("utf-8")),
+                    "long_text_not_repeated": True}
+    return answer
 
 def omitted_record(path, value, reason):
     item = {"path": path, "reason": reason}
@@ -191,23 +222,17 @@ def listed_scalars(value):
     return value
 
 def point_readout(point):
-    """Original failed point or original argmax; never recurse into producer."""
+    """Copy failure location, actual beta and scalar gate fields, without raw descriptors."""
     require(isinstance(point, dict), "Expected original point object")
     out = shallow(point)
-    for key in ("original_beta_squared", "original_middle_state",
-                "original_midpoint_rhs", "original_beta_squared_array",
-                "frozen_model_row_weight", "original_state_terms",
-                "original_Hermite_terms", "original_physical_row"):
+    for key in ("original_beta_squared", "frozen_model_row_weight",
+                "original_physical_row"):
         if isinstance(point.get(key), dict):
             out[key] = shallow(point[key])
-    for key in ("nonfinite_middle_input_indices", "nonfinite_original_rhs_indices",
-                "original_scalar_jets", "actual_global_controls", "scalar_parameters"):
+    for key in ("nonfinite_middle_input_indices", "nonfinite_original_rhs_indices"):
         if key in point:
-            out[key] = listed_scalars(point[key])
-    if isinstance(point.get("raw_original_arrays"), dict):
-        out["raw_original_array_file_identity"] = {
-            key: point["raw_original_arrays"][key] for key in ("file", "sha256", "bytes")
-            if key in point["raw_original_arrays"]}
+            values = listed_scalars(point[key])
+            out[key+"_count"] = len(values)
     return out
 
 def domain_readout(value):
@@ -250,14 +275,20 @@ def domain_readout(value):
     return out
 
 def selected_query_readout(rows):
+    """Every original query is retained; duplicate source/array descriptions are not."""
     require(isinstance(rows, list), "Expected original typed query report list")
     output = []
     for row in rows:
         require(isinstance(row, dict), "Expected original typed query report")
-        item = shallow(row)
-        for key in ("query", "query_spec", "original_beta_squared"):
+        keys = ("query_index", "kind", "interval", "fraction", "station",
+                "original_query_input_finite", "whole_flow_recomputed", "Jacobian_recomputed")
+        item = {key: row[key] for key in keys if key in row}
+        for key in ("query", "query_spec"):
             if isinstance(row.get(key), dict):
-                item[key] = shallow(row[key])
+                item[key] = {k: row[key][k] for k in ("kind", "interval", "fraction")
+                             if k in row[key]}
+        if isinstance(row.get("original_beta_squared"), dict):
+            item["original_beta_squared"] = shallow(row["original_beta_squared"])
         output.append(item)
     return output
 
@@ -432,7 +463,8 @@ def assemble(objects, receipts, request, source_receipts, official, downloaded):
             "per-direction and per-level FD histories: original principal errors/flags retained",
             "vectors, raw state, RHS, matrices, working-row and multiplier arrays",
             "repeated source_entry/entry/read_only_collocation_observer_entry metadata"],
-        no_trial_or_failed_point_record_truncated=True)
+        all_original_trial_and_failed_point_records_represented=True,
+        each_record_contains_only_scientific_scalar_fields=True)
     result["section_UTF8_byte_counts_before_this_field"] = {
         name: len(json.dumps(result[name], ensure_ascii=True, separators=(",", ":"),
                              allow_nan=False).encode("utf-8"))
@@ -485,9 +517,13 @@ def main():
                           transport.public_metadata(metadata), downloaded)
         result["ZIP_central_directory_entry_count"] = member_count
         result["owned_temporary_payload_cleanup"] = "completed before this summary is emitted"
-        encoded = (json.dumps(result, ensure_ascii=True, indent=2, allow_nan=False)+"\n").encode("utf-8")
+        encoded = (json.dumps(result, ensure_ascii=True, separators=(",", ":"),
+                              allow_nan=False)+"\n").encode("utf-8")
         progress["summary_bytes"] = len(encoded)
         progress["summary_sha256"] = sha(encoded)
+        progress["section_UTF8_byte_counts"] = result["section_UTF8_byte_counts_before_this_field"]
+        print("ACTUAL98_SECTION_BYTES "+json.dumps(progress["section_UTF8_byte_counts"],
+              sort_keys=True, separators=(",", ":")), flush=True)
         require(len(encoded) <= MAX_TEXT, "Scalar summary exceeds 90000-byte output budget; no trial data was silently truncated")
     # Temporary ZIP has been removed; no retained payload or external mutation.
     print("BEGIN_ACTUAL98_SCALAR_SUMMARY")

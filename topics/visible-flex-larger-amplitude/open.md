@@ -72,3 +72,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 终端自04:53不可用，最后真实本地pull04:43:05；后续用根第8条授权的小文本GitHub通道，非force、预期head检查，未声称新git pull。两README当前74c08a36/bff8aea2；恢复终端后立刻partial clone/pull，并继续每小时及每push前检查差异/记录。
 
 104元数据发现notes约2.789GB，不能只删public-actions目录。保守已识别8184件可重算raw约2.642GB，保代码/配置/参数/manifest/结论及未知JSON，预计本题约168.5MB。小选择器将在Actions按旧tree3832eb52@52704ecd与当前同path/OID匹配作普通index删除；不取大payload，不改历史，不删后来新结论。保留真正复算脚本/参数和历史输入来源；清理与科学并行。
+
+- 102v3 nowuses original98 scalar-only compactJSON with alltrials/queries/failedpoints represented, section-byte diagnostics before unchanged90KB limit; sourcee2e8ec32/workflow36294c78/requestb7ac8455. Actual98 science unchanged; wait for real v3 output before choosing107 query delta.
