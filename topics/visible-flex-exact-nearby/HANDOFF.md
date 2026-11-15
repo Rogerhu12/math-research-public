@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 08:10:31 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 08:11:48 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
-本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49非FF即时pull重试仍无。root已核最新runner真pull：08:03:15.758257 UTC 485147531c43435382f0ea1cf1fa4cf72e3f138f（Green v3），两README diff空。ref读不冒pull，每小时继续真pull尝试。
+本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49非FF即时pull重试仍无。root已核最新runner真pull：08:05:40.200486 UTC ed7bdaf8e87b0386bcb6166fd5450c1f11f5de48（cap L1），两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：f305e0aa376e7c782190cc4c231bb0b303553287；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：959171e61e956a896a2c0ae087b8c4b7dfc7ba0e；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。最近逐字H归档：notes/2026-11-15-handoff-before-cached-cap-endpoint-and-signed-root-actual.md（286089d9651073a5038280f9e8a181d12b2bfa895b4c96b566c7a6aebb1724be，9764B）。前H/open/输入/失败全链均在该归档，压缩不取消任何门。
 
 ## 同一对象与总完成门
@@ -42,6 +42,6 @@ E/01033915…E_s=X_s^0+N^[3]_s(L0u)，L0与角S_T真交换；firstΓ/κ每次重
 K/1aaa27fe…真long两层至q8160，DN/EB为低A64·high+Aq·low，bare Poisson保sBε；K21a完整源单位、两mean/awL/165跨度不删，局部energy逆不冒全网。
 A/1311fa38…已付同ac1/440866/δ0物理帽L1 Wiener源：完整双端核ordinary B/C增益10/17含mean，固定r换角<5而无96倍；旧7296全L1+准确repair给实际仿射η<1.2e−6。原kernel推ell<1.39²、H*=||Kv²+u²||<2，精确Q余项13||x||²及完整差；ρ2^-15主体image<15ρ/16/Lip<7/8。实际repair右端nonlinear regular残差<1.3e−15/Cmean2.05e−19/Bmean0；只有当前反射源省primitive相位常数。还需真实R端保持/weighted反馈、未知innerheight/moving读出及全负体/尾/ν匹配；不能将此主体球称完整帽解。旧M64/.65/4046精确解仍非当前ac1。
 
-已部署只读旧行的新L1/端源consumer：SCI106ec930…/22pin63785814…/worker b8075216…/flow fb20231a…，contract9d0c8f22…；精确恢复旧7296三parts，新增1341帽交段积分及全mode普通源R端双核，prefix Tdc/suffix dr/两mean保。rZ1e−10/1e−9检查真long四列与条件body球；完整非线性端点不变性恒置false。仅public Actions，新逐行数组临时，真实小结待运行；非FF无次数上限真pull重试。
+L1/端源actual43692857656/1 child0/12门/.646627987s，报告bc19415f…；7296旧行/1341帽行/949reference/1346新交段，22pin/17历史精确恢复，旧数学零重算。known affine<3.038615461e−7、R非mean<2.486289618e−14、独立Cmean2.05e−19，left→R<3.701696e−9、rightd→R<.823764。process b782c9a2…/summary f5eea9a8…；rZ1e−10/1e−9真long域与条件body门已过，linearQ/quadraticQ/outer的完整端点保持仍false，root正接该门。新5761966B数组只临时/SHA58b354c6…。
 
 每子问题完成即接open下一项；不得停在阶段报告、时限或“下一步建议”上。

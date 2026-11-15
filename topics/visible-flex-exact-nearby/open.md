@@ -113,3 +113,7 @@ T/c0408ef4…给真实σ=barT⁻¹(Tactual)、signed fv=(fb+V,fa)与w1V=旧w1+(T
 ### 已成窄源图近似右逆；迭代须保完整端口缺陷
 
 A/2bcb7d4e…先从残差方向式读回L0v，故真进入E_s；低E20/source1794无cutoff损，高1734导损/bg+1796仍在原8192窗。exact缺陷仍是P⊥EN，fullmean有DΠA[v]f。低E20代数probe经三Taylor付one-high导数差，不在probe调用N/β逆。所有边界是b+P(v)，参数高度Hp只有同截面相消；唯一global λ规范一端，另一端ΔHp与height/span/flux/ν列必须Schur。接finite Nash归纳时不能以body收敛称全局matching。
+
+### 实际帽L1与端点源已成；转未知Q全端点门
+
+43692857656/1 child0/12门，亲读报告bc19415f…、process b782c9a2…、summary f5eea9a8…：known affine<3.038615461e−7、known R非mean<2.486289618e−14、mean2.05e−19。left→R<3.701696e−9/rightd→R<.823764。rZ=1e−10/1e−9真long域已过，条件body线性系数.826239959/.878289250。缩小body球可减二次项，但完整端点还必须加入linear Q、quadratic Q、outer反馈；当前invariance=false。新逐行数据只临时，后继读这些小结论及原immutable输入，不重算本次已成积分。

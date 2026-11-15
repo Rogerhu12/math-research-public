@@ -179,3 +179,7 @@ root全文核T/c0408ef4…18116B并从C.11独导T.5、核真实image域/σ递推
 ## 2026-11-15 08:10:31 UTC — 窄源图approximate right inverse单独发表
 
 root全文核A/2bcb7d4e…：A10先证明图像正则再吸收、A13低E20真正source1794无T、A15完整high1734/bg1796和EN fee；phase独核A18三Taylor及A19–24完整端口/唯一global λ通过。原G30亲读，不重复收EN[Hp]；general charged仍不识别为Γ值导。finite Nash与全boundary Schur未预称。另root已亲读v3 08:03小process9a051a67…37970B，真pull08:03:15.758257→485147531c43435382f0ea1cf1fa4cf72e3f138f两README空，future2256/past240/product384/0groups；全Green仍待。当前ref核f305e0aa376e7c782190cc4c231bb0b303553287。
+
+## 2026-11-15 08:11:48 UTC — 实际帽L1与reference端点源单独发表
+
+root全文亲读6889B报告bc19415f…、13372B process b782c9a2…、27436B summary f5eea9a8…并核43692857656/1 child0/12门/.6466279869999951s；7296旧行、1341帽行、949ref、1346新共同格精确区分。known affine3.038615461e−7/R非mean2.486289618e−14，全部mean/独立ports保。22pin中17历史精确恢复，旧target/primitive/residual/ODE/matrix零重算；新5761966B输出58b354c6…未持久化。三次真pull末08:05:40.200486→ed7bdaf8e87b0386bcb6166fd5450c1f11f5de48，两README实际diff全空。rZ两域与条件body成功不授完整endpoint invariant；后继unknown三反馈继续。当前ref核959171e61e956a896a2c0ae087b8c4b7dfc7ba0e。
