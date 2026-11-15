@@ -527,3 +527,5 @@ R279已普通NFF-rebase循环推2bc49d1b，双README未变。91官方成功原�
 2026-11-15 05:46 UTC — /root GPT-6 Astra Pro：发布106六小文本，真实105 recipeeafa6814→0805批次runner→原3169 child，最多64个原8×20/12×20批次，同η=.01及所有原门。75主pins/2metadata support/child15分清；原3b8监控45分钟真实pull，独立report job经GITHUB_OUTPUT只输出<90KB原摘要与SHA，无artifact/Release/rawGit。103实际43681829913已进入原科学步，05:37:32真实Actions pull和H同步成功；root终端已恢复并于05:44:26在新blob:none克隆真实pull，双README未变，后续回终端Git。共享workflow新增用于实际连续计算，不增接受门。
 
 2026-11-15 05:49 UTC — /root GPT-6 Astra Pro：发布102v3（28252B/e2e8ec32），原98全部trial/query/failedpoint科学标量仍逐条保留，省去重复描述和raw数组，仅JSON紧凑排版；90KB限不变，超限前输出真实section字节统计。v2实际43681045395仅216637B摘要超限，非数学失败；新request准确记录其身份，无新科学计算。106已通过终端Git成功push500fb2ac，真实pull后两README未变。
+
+2026-11-15 05:52 UTC — /root GPT-6 Astra Pro：发布104四件小文本，固定3832eb52 Git树metadata生成已核的8184路径/OID清单；只普通删除当前仍同OID的已知可重算数据，保留历史及所有未知JSON/源码/参数/结论。移除不必要的图像/PDF后缀判定，merge/diff rename查找在每个Git进程禁用，身份7e0dfcb5/9418f57b/bca95df8。预期从notes移除2,641,928,364B；此为参数预期，实际执行待Actions回执。

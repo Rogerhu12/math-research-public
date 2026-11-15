@@ -1,0 +1,47 @@
+{
+  "schema": "rule15-topic104-metadata-cleanup-request-v1",
+  "request_number": 104,
+  "repository": "Rogerhu12/math-research-public",
+  "base_commit": "52704ecdfc84f1d67c8a3cf6233d910f46582844",
+  "notes_tree": "3832eb52ca0b5414ab761a47fd6774497695b431",
+  "script": "topics/visible-flex-larger-amplitude/computations/root_20261115_rule15_prune_notes_metadata.py",
+  "script_sha256": "7e0dfcb584ad1e03ce2df5a8b8c45508372edd2341fac22e1d9d46f5628d49bb",
+  "selector_source_sha256": "bb5108640323cbd61fefa933a463f05699709709bbfde2ab7407fd6ec491a669",
+  "expected_pinned_totals": {
+    "files": 14551,
+    "bytes": 2789284775,
+    "delete_files": 8184,
+    "delete_bytes": 2641928364,
+    "keep_files": 6367,
+    "keep_bytes": 147356411,
+    "metadata_tsv_sha256": "53e551c2075176798781a879bd0f5c45d0196f9aa166d9bf13ec831c96e9b488",
+    "deletion_tsv_sha256": "7b725628c3fb394d2d22f0fe7cbac28b7238bfac0d13a06227b1481804f450f0",
+    "deletion_paths_nul_sha256": "289ac88afec320e42045f1928b4112a625e7dca70ff35bbf1c5fd7ede0371625"
+  },
+  "readme_git_blobs": {
+    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "original_input_history_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
+  "keep_unknown_JSON": true,
+  "no_artifact_or_Release_upload": true,
+  "ordinary_nonforce_commit_only": true,
+  "scientific_execution": false,
+  "H_open_log_modified": false,
+  "current_path_and_OID_match_required": true,
+  "size_source": "GitHub Git Tree API metadata only; no git ls-tree -l",
+  "output_policy": {
+    "commit": "This source, parameters, workflow and one compact run/tree/selector/count/hash conclusion",
+    "temporary_only": "Full selected metadata ledger and NUL path list, never committed or uploaded",
+    "existing_history": "Preserved; do not rewrite or force push",
+    "input_restore": "Only old, byte-pinned originals when needed; future results use scripts/parameters/run/SHA"
+  },
+  "workflows": {
+    "workflow_path": ".github/workflows/visible-larger-public-rule15-notes-cleanup.yml",
+    "request_path": "topics/visible-flex-larger-amplitude/computations/public-rule15-notes-cleanup-request.json",
+    "python_version": "3.12.14",
+    "job_timeout_minutes": 35,
+    "cleanup_timeout_minutes": 25,
+    "source_pin_ast_check_only_before_cleanup": true
+  }
+}
