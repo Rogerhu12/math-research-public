@@ -16,7 +16,7 @@
 
 [138实际R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/256接受/358trial/916身份，全finalfalse；其真末p/r作为142输入，全部normal与直接救回0的适用范围见正文。
 
-[R310完整证明](results/R310-complete-nine-directional-response-basis-and-finite-error.md)及[独立接口](notes/2026-11-15-complete-nine-directional-response-source-interface.md)保完整9个原complex响应、真实相对度量G、12×9增广QR、全部方向及原门；有限QR不冒准确正交，内部相消未界。原[142入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)93+5pins/父29当前31从真138末p另起，R299/8×20/12×20/FD/Arb/453圆不变。
+[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)付全部9响应/真实G/12×9增广QR，有限QR/FD不证准确弱方向或内部相消误差。[142完整接口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)保原R299/8×20/12×20/FD/Arb/453及全部final，实际R316已结清。
 
 [R316实际142](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)已付完整8方向/14外trial/8接受、56normal/146内trial/230样本/80额外complex；136parts/8groups/991133B原view同。W4.963213789290328→4.963213789045492，全finalfalse，四次20档后段p/残差同word。完整QR不证响应形成精度，整列FD不证弱组合；146直接两P和149全持久精度的实际后继见R320/R329，不冒同轨迹或新增接受门。
 
@@ -109,7 +109,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
 
-[146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)与[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)已结清。149 run43720604504/source94b13951，两job全success；15groups/128段完整重建27982134。真Decimal50持久点8方向11trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，全finalfalse。全部11normal一次Newton/β1达标、0内拒/域错、55样本全working；仍三个外拒真增W。旧54投影FD/Arb/453与新54实际点FD分清，无连续g/非零场证书。154用真九p50字符串，另声明radius=.01/完整二阶forward和全merit Hessian/直线trust试探，旧normal回退独立，不降原W/Armijo/域/final门；R332证明待交，不能只再堆极小批。147新g仍取R320末p。
+[146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)与[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)已结清。149 run43720604504/source94b13951，两job全success；15groups/128段完整重建27982134。真Decimal50持久点8方向11trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，全finalfalse。全部11normal一次Newton/β1达标、0内拒/域错、55样本全working；仍三个外拒真增W。旧54投影FD/Arb/453与新54实际点FD分清，无连续g/非零场证书。154用真九p50字符串，另声明radius=.01/完整二阶forward和全merit Hessian/直线trust试探，旧normal回退独立，不降原W/Armijo/域/final门；[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)已付完整Hessian/二阶jet/移位+Cauchy模型下降和误差式，直线与normal额外曲率分明；不保证有限档成功。147新g仍取R320末p。
 
 
 [145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。

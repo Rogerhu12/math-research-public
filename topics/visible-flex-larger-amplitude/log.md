@@ -576,3 +576,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:12:42 UTC /root — R331 无逐节点高度图的完整尾链与敏感度
 
 [R331完整证明](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)24156B/044ae2a9全文已核：合法原系数下零shape根/全部shape残差为零但两mean真实保留；物理列经原Q/Π坐标给非除Robin并保port。完整非末前沿由原−I满秩，只有末整体块决定η=0非共振；η>0仅非线性方向，完整112高度响应另解η=0并保338/mean/原d_c形成字词。未把数值QR、cut可除、线性尾或midpoint称新C非线性解；153继续真实系数及运行源。
+
+## 2026-11-15 14:13:42 UTC /root — R332 全九二阶merit模型与真实直线试探
+
+[R332完整证明](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)11110B/fcb285e8已核：完整3×9×9二阶forward、JᵀJ加全部残差Hessian、固定相对坐标、移位下降及有限解残差项、含Cauchy的候选池模型下降；直线Armijo只局部保证，normal还含g·q″。有限谱/50位/FD不冒区间证，20档不保证接受。154真149末p50配新radius=.01另身份，原W/域/最终门保，实际全源接线继续。
