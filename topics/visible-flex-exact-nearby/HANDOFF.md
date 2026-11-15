@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 16:45:22 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 16:46:55 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 16:04:04定时/15:57:29非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤17:04，ref不冒pull。root亲读Green16:36:42.963470→b6c715d2f37f274ad4cb188b68bca3f6dc77249b及NG16:32:40.653696→7705aa375a506301b3e35a0265ee934449bcd150真pull/双README空diff。
-最近只读README核：2ed145250f20b789242ef64fc2d5ccb9ee876c7f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：75147d9bc0bdca39d70ff1ec33b29dff8116f5b8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前H/open/log逐字保106e9bdfe0643b577db0a848a7ef593f58c3de47同路径，递归保4b696/e5e1/0616/9026/6f6bc/16fd/75bade/57d56/b04a6/febfb/f1a97/441257/5d5024/52bc/dc10bb等档。压缩不取消任何旧域/mean/单位/失败/restore和未付义务，成功数学禁重。
 
 ## 同一个对象与总验收
@@ -50,5 +50,5 @@ Saba52db8/RG90acb31e/C0ada0f96/Tdb1253a6同γ：A0/r≤1/128、H8193/r≤2^10485
 
 ## 容量与持续执行
 
-全部旧删除/restore链保106e原H/open/log及清单，无historyrewrite/重算。最近四R64/R66/R91/R95删1049034B、清单ae406265、restore dc10bb948416e2f89f4cd487867b6a06cceb5f48:path+bytes/SHA。Green16:36实际199395078B，NG预publish199341273/projected199399174；每consumer实核200MB及120KB预留。
+旧全部删除/restore链逐字保506de085110d7249a7641b13e0b8cd715ad3cab9同H/open/log。新普通删R93/R94/D5五旧输出800471B，清单6d66c2c5，restore6d7c7422888a1bdf02e6eba7183954f5fc49a6fb同path+bytes/SHA，保script/proof/params/原input与旧scope；成功科学和完成诊断均不重算。Green末实际199446714B为删除前值；每consumer实核200MB及120KB预留。
 下一：Green final→同δfinite反馈；完整c0/R0/trueincoming→GH/finiteborder/真ν；同态low/shell/γ入口→core图+连续tail；同对象matching→单G最终几何。子题完继续open下一项，总标准未达不收尾、不等用户、不因时长停。

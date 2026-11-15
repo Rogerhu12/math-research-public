@@ -261,3 +261,11 @@ root完成纯解析证明并以blob90fb4fa875bf36d3e36cc57d787bb6f119fa5b76/1224
 新消费者仅320bit scalar closure，publicpython3.12.14/flint.9，15结构门与两κ0/1/5 strict充分门明确分开；保CS全mean/shape、cut独立、whole输入不缩negative、complete-row min不entrymin、真P一次/不重repair/不额外alpha。原M32 δ0Green通过Dδ比较到同selected δ≤1e−10；不授high inverse/trueν Schur或core。失败充分门仍是完整结果，不自动重跑相同科学。旧矩阵/Gram/目标/积分/phase/新数组输出皆零。
 
 worker保真实首末及nonFF pull/rebase、双README/live已读检查、topic200MB/120KB reserve、预Git小receipt≤59KB/文件≤60KB与同identity success reuse；historical fallback61e9ff23702e2baa5e287cc6bd27b5211c2408f1只恢复原件。实际新判定待自动push run。open第2节旧逐字文本保6d7c7422888a1bdf02e6eba7183954f5fc49a6fb同路径/H/log，全部域/恢复/未付义务仍有效。root只读README核2ed145250f20b789242ef64fc2d5ccb9ee876c7f。
+
+## 2026-11-15 16:46:55 UTC — 规则15普通删五件旧输出800471B，保原范围与逐字恢复
+
+清单e3d9b3b9e89e807c0a04f5bb13be5aa3c4849d48/24354B/SHA6d66c2c5c96bd29bd45e8cea220ab0c9af0133bd95bd35123336273fcd142e6d。root完整核R93/R94原ready manifest和证明、各producer CLI/写出/参数与scope，R61冻结manifest及D5浮点诊断全文、节点/残差/按knot重启脚本入口、原小trace identity。15小primary保完整SHA；actual节点producer3d188e5b与原trace一致。五目标body均未读，未取binary/gzip，无新旧科学执行。
+
+R93高体限制预算133109B/a1d5dfa2/SHAfb9d71d1，R94完整弱通量136986B/d7620f17/9902c667；D5节点516为142496B/6064712d/ffbf2e27，普通残差137413B/e3451769/aca20d07，knot残差250467B/bec11b15/d878bda1，共800471B。Git exact immutable6d7c7422888a1bdf02e6eba7183954f5fc49a6fb→root5d9735b0→topics5edd4244→topic ae6c8554→notes8a94f81b五叶全部path/blob/bytes核；出版前fresh HEAD再逐件guard，普通删除，无historyrewrite/force。原script/proof/manifest/精确input定义全留；原字按该commit:path恢复核全SHA，禁重已成科学与完成浮点诊断。
+
+原R93只physical high-body-restricted contact，未授low/high Schur；R94全18弱flux非未付scalar/完整reflection；D5 516节点/两残差仅浮点诊断，不能升级ODE/KAM/PDE。旧已删collar/canonical/frequency输入依既有dc10bb等清单精确恢复。原Green末capacity199446714B是删除前值；下个consumer重新实核200MB/120KB预留。root只读README核75147d9bc0bdca39d70ff1ec33b29dff8116f5b8。

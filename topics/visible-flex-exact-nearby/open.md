@@ -146,6 +146,8 @@ $||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z
 
 全部旧输出普通删除、完整参数/原域/producer和精确恢复清单保b04a6a5f7abfd1574608750392fe559413d8a259本路径第8节与HANDOFF递归原档，无historyrewrite。最近四件R64/R66/R91/R95删1049034B，清单notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json/ae406265，restore dc10bb948416e2f89f4cd487867b6a06cceb5f48:path+bytes/SHA；更早ec6c38bc/da6b6e3a/cbb63584全部清单和失败原字保留，成功数学不重算。
 
+新依根规15普通删R93/R94/D5五旧输出800471B，见[五件精确清单](notes/2026-11-15-R93-R94-D5-old-output-deletion-whitelist.json)6d66c2c5。restore6d7c7422888a1bdf02e6eba7183954f5fc49a6fb同path+bytes/SHA；R93高体限制与R94完整弱通量、D5浮点诊断各原scope保留，非原seed/脚本/证明，成功数学不重算。
+
 每结论独推，非FF立即真CLI pull --rebase后保远端循环至成功，禁force；每小时真pull后查两README只读diff立即遵新规记H。16:04:04定时/15:57:29非FF CLI仍无executor，根规8限<100KB UTF8 connector，禁binary/gzip与ref冒pull。root亲读Green16:06:27.195912真pull→a4f9ced29c3ac422210c122e93b2730c55b4ebdd，双README空diff，容量198862299B；后续consumer再实核。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

@@ -1,0 +1,478 @@
+{
+  "schema": "R133_five_old_R93_R94_D5_outputs_deletion_whitelist_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "restore_commit": "6d7c7422888a1bdf02e6eba7183954f5fc49a6fb",
+  "topic_directory": "topics/visible-flex-exact-nearby",
+  "audit_scope": "Only small frozen manifests, preserved proofs, producer CLI/write paths, one original small trace identity and Git tree metadata were read; none of the five output bodies, binaries or gzip data was read or evaluated.",
+  "deletion_mode": "Ordinary new Git commit with exact fresh path/blob/size guards, no force or history rewrite.",
+  "fresh_guards_required": [
+    "All five target paths still match their exact original blobs and sizes.",
+    "Retain all original scripts, proofs, input definitions, manifests and small source identities.",
+    "This whitelist alone is not evidence that deletion happened.",
+    "Completed old science and completed diagnostic results must be restored, not rerun."
+  ],
+  "immutable_restore_tree_chain": [
+    {
+      "path": "",
+      "tree": "5d9735b0c9e8ae610c3ebb77da91ad2e175cc6c1"
+    },
+    {
+      "path": "topics",
+      "tree": "5edd42446988d1ac3dcbf253a1d19052d27bff18"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby",
+      "tree": "ae6c85540224a9131f984cbedd3e02d917cbe5bf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes",
+      "tree": "8a94f81bda40540f4483cf170cae4a0842ac67e0"
+    }
+  ],
+  "evidence": {
+    "r93_manifest": {
+      "blob": "28088286275d99c734847931b1ae5995b8cef040",
+      "bytes": 791,
+      "sha256": "2c3c92dbb3cf191db1d30fe4fcc50991ee80c229c7271258c05e4125a1751b43",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R93-physical-high-agmon-ready-manifest.json"
+    },
+    "r94_manifest": {
+      "blob": "80c1a255272585598962f849ae42013b2f607aba",
+      "bytes": 863,
+      "sha256": "51d1b3c3747730bc4952c596918ade688023c65a090e06775d850afde54d1fb0",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R94-full-weak-source-ready-manifest.json"
+    },
+    "r90_manifest": {
+      "blob": "9556f9648013cf29453df02aa28fc8125fdd5e80",
+      "bytes": 801,
+      "sha256": "61d94cc27784ac25cb94e19fd51d264247c41600b3a38a8376af889f4cf97b66",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R90-high-boundary-ready-manifest.json"
+    },
+    "r74_manifest": {
+      "blob": "586674ae9b56ab65f467fed3b20f006196dac31b",
+      "bytes": 1001,
+      "sha256": "dd85994a38b6b8b6a198ecf87a4f2443845317c3a9df042d507c72476c945dd3",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R74-exterior-robin-ready-manifest.json"
+    },
+    "r61_manifest": {
+      "blob": "6aa827223aef9b19fb32124455dc7543575270fe",
+      "bytes": 13636,
+      "sha256": "006a3d03f0dd2fed9f179d6fc66bea301e30bce57eac0e3d9b75676c842d0beb",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-complete-beta-R61-and-step3-frozen-manifest.json"
+    },
+    "common_parameters": {
+      "blob": "0712ccd9b5d88e0b2b8e8622791da66e3744c449",
+      "bytes": 671,
+      "sha256": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-common-core-exterior-parameter-interval.json"
+    },
+    "r93_script": {
+      "blob": "54339cc740c8c29465e1fde88d6bd00b0fb50b90",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_physical_high_agmon_budget.py",
+      "bytes": 6738,
+      "sha256": "1bb539ca607c902ca2be434bbbd786f10699c1c7845f4ddbec51fff06ff63f6e"
+    },
+    "r94_script": {
+      "blob": "af053b709dc95cfede576c7419fb8532bf2ad5b5",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_full_weak_source_budget.py",
+      "bytes": 13506,
+      "sha256": "3ce15a73f95eff4a82afab35abd1720cffff951aa3d97259a49b742ef796694d"
+    },
+    "r93_proof": {
+      "blob": "c345191fe1e84a107b00dc768e3403148415269e",
+      "path": "topics/visible-flex-exact-nearby/results/R93-actual-physical-high-cap-agmon-contact.md",
+      "bytes": 8319,
+      "sha256": "e4d1e81489124fb04451908b771368be7c680e0c4e9042b59bbcdd55e32bd3c3"
+    },
+    "r94_proof": {
+      "blob": "bb543fc30f4763186da3197c1f9aedbd35496ad3",
+      "path": "topics/visible-flex-exact-nearby/results/R94-full-cap-weak-source-and-exact-density-conversion.md",
+      "bytes": 13103,
+      "sha256": "7ac60810fcebd97a53a7eca55c35ce7119bb8c19175e6ff33c8e0e049423ddad"
+    },
+    "d5_actual_nodes_script": {
+      "blob": "ebf322124b1db93a703097a8fe27b5963c5874db",
+      "bytes": 18177,
+      "sha256": "3d188e5b1712da25c3a1864bfefc1aa120d769266c01c548c47c48c425fe8848",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_exact_affine_nodes.py"
+    },
+    "d5_residual_script": {
+      "blob": "05fbf14a3252726555b17211c0ccf3afffa1e83e",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_dense_residual_probe.py",
+      "bytes": 9784,
+      "sha256": "2d808171edd67a9c24ccce063001735d8d06527b3ab82acc3de290b9d8c5a907"
+    },
+    "d5_knot_script": {
+      "blob": "f263e20baf26db75bf4de134637fb90b59f043f5",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_knot_aligned_probe.py",
+      "bytes": 8834,
+      "sha256": "aa79e5491864be5ec18a6dbf0754aaad58c3854a0b82c353cb96f40ee8316c13"
+    },
+    "d5_proof": {
+      "blob": "905439394585266f780f1ae3b349e43871c88917",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-exact-affine-step3-516-and-knot-residuals.md",
+      "bytes": 7744,
+      "sha256": "c9114716ce64c2f23da6c9ff5ddde2155544f496a534891851f0ca7b03cd350d"
+    },
+    "d5_original_trace": {
+      "blob": "0671aec213136ebbea6af4442b453def414957ef",
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step3_dense516/block_0000_forward.trace.json",
+      "bytes": 6364,
+      "sha256": "782f3caf5f3976220599545000766b91f0c6ab675d2ca1d21dbfe30a34ca68f2"
+    }
+  },
+  "entries": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-physical-high-agmon-budget.json",
+      "git_blob_sha": "a1d5dfa2dfb65f89fda34a413dc69725fc13dcd3",
+      "bytes": 133109,
+      "sha256": "fb9d71d1acd667b4281756bf592604c1d1f6077f2f310bf1acb2370174c42041",
+      "classification": "Completed reproducible numerical output, not a seed, instruction, script, proof, or original input definition.",
+      "original_acceptance_scope": "Complete physical high-body-restricted cap only; full low-high Schur and both regular mean slots remain independent.",
+      "frozen_evidence": [
+        "r93_manifest",
+        "r93_proof",
+        "r93_script"
+      ],
+      "producer": {
+        "blob": "54339cc740c8c29465e1fde88d6bd00b0fb50b90",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_physical_high_agmon_budget.py",
+        "bytes": 6738,
+        "sha256": "1bb539ca607c902ca2be434bbbd786f10699c1c7845f4ddbec51fff06ff63f6e"
+      },
+      "retained_proof": {
+        "blob": "c345191fe1e84a107b00dc768e3403148415269e",
+        "path": "topics/visible-flex-exact-nearby/results/R93-actual-physical-high-cap-agmon-contact.md",
+        "bytes": 8319,
+        "sha256": "e4d1e81489124fb04451908b771368be7c680e0c4e9042b59bbcdd55e32bd3c3"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_physical_high_agmon_budget.py",
+        "args": [
+          "--out",
+          "<scratch>/2026-11-12-actual-physical-high-agmon-budget.json"
+        ],
+        "scientific_execution_here": false,
+        "warning": "This describes original provenance only. Restore accepted bytes from immutable history; never recompute completed science or repeat the completed diagnostic merely to recover it."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-positive-family-root-collar.json",
+          "sha256": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+          "bytes": 265160
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-physical-high-boundary-budget.json",
+          "sha256": "5672d8476b38e3e0bd836bcf54b6506383bad76297cbc4f989ce2362226ef7c6",
+          "bytes": 30812
+        }
+      ],
+      "restore": {
+        "commit": "6d7c7422888a1bdf02e6eba7183954f5fc49a6fb",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-physical-high-agmon-budget.json",
+        "method": "git show <commit>:<path> into runner scratch; verify exact original byte count and SHA256"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-full-weak-source-budget.json",
+      "git_blob_sha": "d7620f1742bdd1c114728ff708e187938334a2f0",
+      "bytes": 136986,
+      "sha256": "9902c667365da19cef67335ae2f2969da54ab33e36531fea3e0d91fde89d135f",
+      "classification": "Completed reproducible numerical output, not a seed, instruction, script, proof, or original input definition.",
+      "original_acceptance_scope": "Complete uncompressed weak contact and all 18 displayed flux terms only; transformed scalar remainder, actual Airy frame, full reflection and nonlinear feedback remain unpaid.",
+      "frozen_evidence": [
+        "r94_manifest",
+        "r94_proof",
+        "r94_script"
+      ],
+      "producer": {
+        "blob": "af053b709dc95cfede576c7419fb8532bf2ad5b5",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_full_weak_source_budget.py",
+        "bytes": 13506,
+        "sha256": "3ce15a73f95eff4a82afab35abd1720cffff951aa3d97259a49b742ef796694d"
+      },
+      "retained_proof": {
+        "blob": "bb543fc30f4763186da3197c1f9aedbd35496ad3",
+        "path": "topics/visible-flex-exact-nearby/results/R94-full-cap-weak-source-and-exact-density-conversion.md",
+        "bytes": 13103,
+        "sha256": "7ac60810fcebd97a53a7eca55c35ce7119bb8c19175e6ff33c8e0e049423ddad"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_full_weak_source_budget.py",
+        "args": [
+          "--out",
+          "<scratch>/2026-11-12-actual-full-weak-source-budget.json"
+        ],
+        "scientific_execution_here": false,
+        "warning": "This describes original provenance only. Restore accepted bytes from immutable history; never recompute completed science or repeat the completed diagnostic merely to recover it."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-positive-family-root-collar.json",
+          "sha256": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+          "bytes": 265160
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-closed-approximate-exterior.json",
+          "sha256": "2d9dd3fec38a1f6b75bd41d858f9ef2cd0b7205a57ad9a5f6ee66996404aebbf",
+          "bytes": 16924
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-exterior-robin-certificate.json",
+          "sha256": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+          "bytes": 12217
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-common-core-exterior-parameter-interval.json",
+          "bytes": 671,
+          "sha256": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz",
+          "sha256": "786cc482a6890f8caf670a8131a0923dc1e2e2cb40faa96b269590baaf834f6e",
+          "bytes": 749234
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-v0-complex-strip.json.gz",
+          "sha256": "70cd03af5bd7930be7421933dc072c866357858503c43f56fedb5cde1edfdd6c",
+          "bytes": 1200524
+        }
+      ],
+      "restore": {
+        "commit": "6d7c7422888a1bdf02e6eba7183954f5fc49a6fb",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-full-weak-source-budget.json",
+        "method": "git show <commit>:<path> into runner scratch; verify exact original byte count and SHA256"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-Hnodes516.json",
+      "git_blob_sha": "6064712d8dd533e39679d86ea4081d6936dbca16",
+      "bytes": 142496,
+      "sha256": "ffbf2e273a64ca5aa018fc189661d6e25d2c776978f63c0771024deb5445978a",
+      "classification": "Completed reproducible numerical output, not a seed, instruction, script, proof, or original input definition.",
+      "original_acceptance_scope": "Completed floating 516-node/24-branch diagnostic for its exact affine input only; not directed ODE, KAM, exact flex, held or reach.",
+      "frozen_evidence": [
+        "r61_manifest",
+        "d5_proof",
+        "d5_actual_nodes_script"
+      ],
+      "producer": {
+        "blob": "ebf322124b1db93a703097a8fe27b5963c5874db",
+        "bytes": 18177,
+        "sha256": "3d188e5b1712da25c3a1864bfefc1aa120d769266c01c548c47c48c425fe8848",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_exact_affine_nodes.py"
+      },
+      "retained_proof": {
+        "blob": "905439394585266f780f1ae3b349e43871c88917",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-exact-affine-step3-516-and-knot-residuals.md",
+        "bytes": 7744,
+        "sha256": "c9114716ce64c2f23da6c9ff5ddde2155544f496a534891851f0ca7b03cd350d"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_phase_exact_affine_nodes.py",
+        "args": [
+          "--object",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "--root-certificate",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "--dyadic-conjugacy",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+          "--out",
+          "<scratch>/2026-11-12-D5-exact-affine-step3-Hnodes516.json",
+          "--trace-dir",
+          "<scratch>/exact_affine_step3_dense516",
+          "--rays",
+          "516",
+          "--block-size",
+          "43",
+          "--tolerance",
+          "2e-10",
+          "--resume"
+        ],
+        "scientific_execution_here": false,
+        "warning": "This describes original provenance only. Restore accepted bytes from immutable history; never recompute completed science or repeat the completed diagnostic merely to recover it."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "bytes": 1638,
+          "sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "bytes": 9997,
+          "sha256": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+          "bytes": 40008,
+          "sha256": "028a95679f5c6e6ff6438b539c9c427f745f976a4dbc70b46c0bb01dd0f4fb49"
+        }
+      ],
+      "restore": {
+        "commit": "6d7c7422888a1bdf02e6eba7183954f5fc49a6fb",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-Hnodes516.json",
+        "method": "git show <commit>:<path> into runner scratch; verify exact original byte count and SHA256"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-forward-residual-probe.json",
+      "git_blob_sha": "e3451769899ab7bc79f7bd2a7bf63ad4a8d6a652",
+      "bytes": 137413,
+      "sha256": "aca20d07e30d5e2abf844c72d1bd935842b3ac013df6cfa69d45c7320134a799",
+      "classification": "Completed reproducible numerical output, not a seed, instruction, script, proof, or original input definition.",
+      "original_acceptance_scope": "Completed floating first-43-ray continuous-polynomial sampling and Gauss estimate; not a directed continuous residual or ODE bound.",
+      "frozen_evidence": [
+        "r61_manifest",
+        "d5_proof",
+        "d5_residual_script"
+      ],
+      "producer": {
+        "blob": "05fbf14a3252726555b17211c0ccf3afffa1e83e",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_dense_residual_probe.py",
+        "bytes": 9784,
+        "sha256": "2d808171edd67a9c24ccce063001735d8d06527b3ab82acc3de290b9d8c5a907"
+      },
+      "retained_proof": {
+        "blob": "905439394585266f780f1ae3b349e43871c88917",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-exact-affine-step3-516-and-knot-residuals.md",
+        "bytes": 7744,
+        "sha256": "c9114716ce64c2f23da6c9ff5ddde2155544f496a534891851f0ca7b03cd350d"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_dense_residual_probe.py",
+        "args": [
+          "--object",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "--root-certificate",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "--trace",
+          "data/phase_ring_continuation/exact_affine_step3_dense516/block_0000_forward.npz.gz",
+          "--out",
+          "<scratch>/2026-11-12-D5-exact-affine-step3-forward-residual-probe.json",
+          "--quadrature-order",
+          "8"
+        ],
+        "scientific_execution_here": false,
+        "warning": "This describes original provenance only. Restore accepted bytes from immutable history; never recompute completed science or repeat the completed diagnostic merely to recover it."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "bytes": 1638,
+          "sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "bytes": 9997,
+          "sha256": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step3_dense516/block_0000_forward.npz.gz",
+          "bytes": 1511557,
+          "sha256": "28817ed6378e5c93c812a65bce90c47b204feddd05ef94910e978aa019a21556"
+        }
+      ],
+      "restore": {
+        "commit": "6d7c7422888a1bdf02e6eba7183954f5fc49a6fb",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-forward-residual-probe.json",
+        "method": "git show <commit>:<path> into runner scratch; verify exact original byte count and SHA256"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-knot-forward-residual-probe.json",
+      "git_blob_sha": "bec11b15664d47dc27ecbda03b199cdda7e4f4d2",
+      "bytes": 250467,
+      "sha256": "d878bda1c0b6b06dd678d8d06edcc698ffb74fa5bac8064847c88ecf020cf976",
+      "classification": "Completed reproducible numerical output, not a seed, instruction, script, proof, or original input definition.",
+      "original_acceptance_scope": "Completed floating restarted-knot first-43-ray residual diagnostic; unchanged exact geometry, unresolved residual/root/rounding/complex domains; not directed mathematical certification.",
+      "frozen_evidence": [
+        "r61_manifest",
+        "d5_proof",
+        "d5_residual_script"
+      ],
+      "producer": {
+        "blob": "05fbf14a3252726555b17211c0ccf3afffa1e83e",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_dense_residual_probe.py",
+        "bytes": 9784,
+        "sha256": "2d808171edd67a9c24ccce063001735d8d06527b3ab82acc3de290b9d8c5a907"
+      },
+      "retained_proof": {
+        "blob": "905439394585266f780f1ae3b349e43871c88917",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-exact-affine-step3-516-and-knot-residuals.md",
+        "bytes": 7744,
+        "sha256": "c9114716ce64c2f23da6c9ff5ddde2155544f496a534891851f0ca7b03cd350d"
+      },
+      "original_replay": {
+        "working_directory": "topics/visible-flex-exact-nearby",
+        "python_script": "scripts/fourfold_dense_residual_probe.py",
+        "args": [
+          "--object",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "--root-certificate",
+          "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "--trace",
+          "data/phase_ring_continuation/exact_affine_step3_knot_probe/block_0000_forward.trace.json",
+          "--out",
+          "<scratch>/2026-11-12-D5-exact-affine-step3-knot-forward-residual-probe.json",
+          "--quadrature-order",
+          "8"
+        ],
+        "scientific_execution_here": false,
+        "warning": "This describes original provenance only. Restore accepted bytes from immutable history; never recompute completed science or repeat the completed diagnostic merely to recover it."
+      },
+      "original_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "bytes": 1638,
+          "sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "bytes": 9997,
+          "sha256": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step3_knot_probe/block_0000_forward.trace.json",
+          "bytes": 21219,
+          "sha256": "b12a7ae8142f8c35f3a8dbdb80f439f64db12820f48d86bc89f09b56f6a813fc"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step3_knot_probe/block_0000_forward.npz.gz",
+          "bytes": 2709872,
+          "sha256": "905ec66ce9c31107e3e726f8946a5d1d8524903a60b37552d9eca3685b6a093c"
+        }
+      ],
+      "restore": {
+        "commit": "6d7c7422888a1bdf02e6eba7183954f5fc49a6fb",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-knot-forward-residual-probe.json",
+        "method": "git show <commit>:<path> into runner scratch; verify exact original byte count and SHA256"
+      },
+      "body_read_for_this_audit": false,
+      "selected_for_ordinary_deletion_only": true
+    }
+  ],
+  "total_bytes_selected": 800471,
+  "original_nodes_producer_identity_exact": true,
+  "old_already_deleted_dependencies": {
+    "whitelist_path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json",
+    "whitelist_sha256": "ae406265c1e9c68df3eb30b3aef3e94d1a7913e1b4a1802f4d8e2a789d83d30c",
+    "restore_commit": "dc10bb948416e2f89f4cd487867b6a06cceb5f48",
+    "policy": "Use each existing exact restoration chain for its old input, never regenerate it."
+  },
+  "all_source_parameters_and_scope_preserved": true,
+  "complete_topic_size_must_be_reaudited_by_next_runner": true
+}
