@@ -78,3 +78,5 @@
 - **原2751单位块的完整列内容与单一结构块。** [精确结论](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)：run43679903558实际2.807727007秒核全424921除法，2700非单位列，最大位数3693→3691，SCC仍2751。保原7RHS及完整逆代，未添有理核；接B-only行内容和真实RHS分母。
 
 - **2751原单位块全部行内容为一。** [完整检查](results/R150-appendix-seven-core2751-all-row-contents-one.md)：run43679903558实际2.560350913秒核全部424921系数，列归一后2751行gcd全1、七真实右端分母全1；系数3691bit不再降。无新核，继续可恢复原生精确求解，开发环境按实际检查。
+
+- **固定四头与十一位正尾的真实两费反例。** [完整解析证明](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)取c=a、ε=a15、β=a10，真实左μ=1而裸α²≤256a²、全来源flat²≤40000a6；正滤波后仍在准确规范负图且μ归一、两费趋零。排除任意nilpotent头的维数型κ(h)，没有反驳原A_m/连续尾或同实际W源。

@@ -3,25 +3,20 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 8ae4a35c50637b5ce7edd0986254f36839defcf1（2026-11-15 08:07:23 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 71c1cf235d617472f5a931ab5bf861c0e54f8f63（2026-11-15 08:08:40 UTC，Actions run43693113510实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43693113510-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
 
-## R150：当前29真核及未付的原目标成员性
+## R150：29真核及原目标成员性仍开
 
-原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。全部旧精确状态保[本次H全文](notes/2026-11-15-handoff-before-twentynine-exact-kernels-789f.md)，旧未列范围不算关闭。
+全部此前来源/路径/未列缺口保[本次完整H](notes/2026-11-15-handoff-before-true-two-fee-counterexample-789f.md)。原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。
 
-- [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九实际费1339，全原来源/输出及carry真；不重旧模页，数据依规则仅历史可查。
-- **[真Q标准Koszul支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：** run43679903558/math33.711323768秒，原1603方块Dixon+全部1834残差，29列全6188来源/4367整数输出真，36自由像rank29、并旧23仍29。故旧23确属该空间，新增6真方向，char0同选秩4318…4325；标准族已穷尽，继续其外至多7个未定方向。
-- 同4354选列mod31秩4318/连接3/36自由I，勿混全6188秩4340/连接4。**[前29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)**实核0.063932317秒，top29det mod31=1、bottomQ全0；W∈Z_(31)，前29全有真规范核，剩余空间直和至多7维且全在标准族之外。删前29自由列保Q列像；七方向存在性未付。
-- 标准1632族已证原来源注入、保成本头及31整左逆，ΓΦ=I、族31饱和；投影不保J，完整证明链接均在open及已得结果。
-- 旧p768/闭包/LLL入口均已闭，见[完整历史H](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。新六规范源完整同余/原整数乘回真，分母2356…3803bit超p768平衡界；不续旧候选或盲加位数。
-- 原17式线性rank8/二次rank17、m0/m1的31单位真消元已付；有限来源运输仍保。[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)须同费用/目标/分母指数于无界精度可解；p6不足。原D自然度8770、公共有限K67；任何条件降度须先有Q[s]成员性，模幂降度另需lc(D)31单位，均未证。
-
-- **[同选∞43及有限K67](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：** 29条同自然u真曲线给D/换列/cofactor阶≥43/42/41；原s=0切向O(s²)及真Q4340给公共s21，K67=s7K60、lc=5^6单位。q248…8660，原目标条件cost≤8705（非基8704）；原Q[s]成员性、lc(D)31单位及固定e全精度仍未付。
-
-- **[原full∞第一连接≤7与共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：** 同自然u的真实切向M=c y²+d sym(yy′)使全部17式O(u²)，故任意原6188核的第一连接20个纯切向坐标全零。真4340常秩的余空间还剩7维，β_Qrank≤7；十四正Smith指数至少七个≥2，全部最大子式共同u21。未付精确rank/全厚度，与指定D的43阶不能相加。
+- [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九费1339；全原来源/输出/carry真。有限精度不付Q[s]成员性或固定B/e无界精度。
+- [标准1632 Koszul族的同J支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：原1603单位块精确解及全部1834残差真，29列全6188/4367乘回；并旧23仍29。全族原来源注入/31饱和已付，投影不保J。
+- [29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)：top29 mod31单位、bottomQ全0，W∈Z_(31)，前29全有真规范核。删前29自由列保Q列像；剩余至多7原有理方向仍未定，同选秩4318…4325。旧六规范源分母2356…3803bit解释p768重建不成；旧闭包/LLL/盲加位数不重开。二次skew亦不扩标准族，高系数未排。
+- [同选∞43及有限K67](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：29条同自然u真曲线给D/换列/cofactor阶≥43/42/41；原s=0切向O(s²)及真Q4340给公共s21，K67=s7K60、lc=5^6单位。q248…8660；先有原目标Q[s]成员性才得条件cost≤8705（非基8704），该成员性、lc(D)31单位及固定e全精度仍未付。
+- [full∞第一连接≤7及共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：真实切向M=c y²+d sym(yy′)使17式O(u²)，β的20纯切向坐标全零；真4340常秩余7维，十四正Smith至少七个≥2。未付β精确rank/全厚度，公共21与指定D43不能相加。勿混full6188、同4354选列及所选方阵的秩/连接。
 
 ## 同w边界：同源完整返回仍须费用估计
 
@@ -36,6 +31,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
 
 - **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
+
+- **[真实两费一般反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)：** 固定四头/十一位正尾，c=a、ε=a15、β=a10，真左μ=1、裸α²≤256a²、全来源flat²≤40000a6；同源正滤波保规范负图且两费仍趋零。故任意nilpotent头的κ(h)不存在；不是原A_m/连续尾/同w反例。须继续原权及共同Green/返回残量。
 
 ## 当前临时计算会话与可恢复身份
 
