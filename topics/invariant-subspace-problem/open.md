@@ -113,7 +113,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [高H45满行](results/R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads.md)给rank1736、高核1036/模旧130为906；新低商rank904/核2只维数已付。最新实际4318常单位由真核36自由I选行，113204/155448产品核真；HF/T primitive模31仅4，不能当完整Qrank12。改用已付真Q旧14主元张满36列，以14+4 RHS保全旧来项，随后真实全4354回填；尚无新有理解或missing2第二cochain。
 
-同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K112下q8415…8528，原非基/转移/目标三费8572/8577/172，统一条件8577。九原目标Q[s]成员性仍是前提。模31完整长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
+同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K115下q8412…8525，原非基/转移/目标三费8569/8574/172，统一条件8574。九原目标Q[s]成员性仍是前提。模31完整长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
 
 [零完整第八](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)已正式闭合；第九实际β9=0，前九4/0/1/3/1/1/1/1/0、15完整头及928200原产品全真。十二已定正指数1⁴,3,4³,5,6,7,8和45，余两只(10,10)/(10,11)。故公共阶65/55、次大阶55精确，K111=s65(s−2)9(s+6)9F+²F−²E8²、最大正Smith10…11。第十实际已选定最后(10,11)，完整δ66/55、amax11、K112；第十一13头原乘回已完成。泛型像与零点局部目标像现已按下段旧定理回接闭合，其余有限点和全局仍开。
 
@@ -169,3 +169,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 **原局部投影长度差接口。** [完整准则与2点30上界](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)严格保原6188来源及W=(I²)≤5：len W/(L∩W)=δA−δP，差≤e即可局部t^eW⊂L。小P的170原行+54g倍行在所有有限点都双向生成；g零点只除η的真实单位。先整除已付E8²再模31消碰撞，δA,2≤30；足够δP为−6:12、2:29、F±:6、E8:4，实际值待回执。零点已闭，不重复。
 
 **同D外支撑筛选。** [原Koszul扭子模注入](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)保完整Φ1632列及outside1834坐标：tors cokerO注入同所选B余核，故Fp31的29正指数最大≤21、总长≤243；Q总长≤Fp总长而非逐指数比较。真Q σ若与full∞下界L满足L+σ≥243，才闭同D leading31单位。cofactor及原换列分别保δsub/δfull+σ−amax。O新数值待真小Schur，不把fixed29原外一阶raw rank29当已付参数系数校正。
+
+**负六目标局部条件已闭。** [完整实际谱与源模块同构](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)给投影/full正谱1⁷,2,3、δ12、次大9、最大3；W全包含原局部像，九目标不需s+6。新K115把统一条件费用改8574，目标分支172；仍缺其它有限点与未知支持上的全局h0成员性。2点order17仅真系数前缀/常rank133，首Schur前超时，独立小session改从order4并保存后续各层，不视为不可解。
