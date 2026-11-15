@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:36:32 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 70bd1beb284a22265871326d1449093a9b507e03。
+规则同步记录：2026-11-15 23:52:13 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3d4ced177a0d224ccfd9b2453f34662b8db1c3ce。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -24,16 +24,16 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |197/R420|43774486084 /68fa2d402bb7c3695b50a28739566abe6ece3511|exact：compute132997520684已入step12原完整C重建；真180/fresh C/全112族/完整453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |198/R421|43773780174 /4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040|root：compute132995301108已入step8原science；121+17pins/真实194十词fresh/原2400全链|
-|191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
+|191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907终态failure；唯一原日志已读，R404结论另条立即刊|
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入step17原完整far/unit传播；真十族453→同十词450、共用原7200总钟|
 |195/R412|43771125613 /4ad7fb771218585af1091c9d322c9d61b64a949c|exact：compute132987043859已完成pin/恢复78源；127pins/完整18000与全部终门|
-|196/R415|43770686357 /4677faa0966475d17e10b20b75f0234c62fe3768|amplitude：compute132985694072已入step14；84pins/原全部链/预算/必要清理|
+|196/R415|43770686357 /4677faa0966475d17e10b20b75f0234c62fe3768|amplitude：compute132985694072终态failure；R415实际原文已刊，199独立后继|
 
 只由唯一负责人读取终态原必要日志，不取运行中大日志。job绿不代科学接受，未返call不补拒。所有来源、配方、预算、错误与未访责任保各完整接口/结果。
 
 ## 最近结论与直接后继
 
-[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)128/replay接受、实际ADL编译阻，audit575/576与7485/7488/1800内部budget，raw清。[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)128/replay接受；stage/112/338=false、C-based audit=true仅原flags，原因/覆盖/极值未读。reader硬写190在build前阻，必要帧缺、cleanup skip；runner结束不可SHA恢复。
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)128/replay接受、实际ADL阻；audit575/576与7485/7488/1800内部budget，raw清。[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)与[R415实际196](results/R415-actual196-persistent128-return-and-SIMD-readback-identity-block.md)各自128/replay接受；stage/112/338=false、C-based audit=true仅各原flag，具体原因/backend/覆盖/极值未返。两reader硬190在build前阻、必要帧缺，cleanup skip；runner结束不可SHA恢复。196实际wallfalse/child0，全局未耗尽；不以静态ADL风险补原因。
 
 [R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)完整位/偶奇尾/scalar/wide保。[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)原84pins→89，f82只三限定/逆换全b16，reader两编号199；原输入/算术/旗标/19200四组件/90KB/quiet读回清理保，实际include新旧身份分明，amplitude唯一R424。
 
@@ -57,4 +57,4 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 ## 恢复与保存
 
-本次压缩前逐字见[R422前H](notes/2026-11-15-handoff-checkpoint-before-R422.md)/[R422前open](notes/2026-11-15-open-checkpoint-before-R422.md)；前链见[199前H](notes/2026-11-15-handoff-checkpoint-before-request199.md)/[199前open](notes/2026-11-15-open-checkpoint-before-request199.md)；前链见[197前H](notes/2026-11-15-handoff-checkpoint-before-request197.md)/[197前open](notes/2026-11-15-open-checkpoint-before-request197.md)，链回R419/198/R418与全部旧检查点；open§4–6逐字保。[旧结果索引](results-index-before-request195.md)96703B逐字归档且相对链接同。未推小源丢失按完整接口重做；已清raw须真再生。793d723a实际未截断tree915eafac核8878文件/188094896B、最大MD97869B；只核目录元数据，未知旧JSON仍未全分类。每结论立即推，接open下一责任。
+压缩前逐字见[R415前H](notes/2026-11-15-handoff-checkpoint-before-R415.md)/[R415前open](notes/2026-11-15-open-checkpoint-before-R415.md)，内链回全部旧检查点，open§4–6逐字保。[旧结果索引](results-index-before-request195.md)96703B原文保。未推小源按完整接口重做；已清raw须真再生。793d723a完整tree915eafac核8878文件/188094896B、最大MD97869B；仅目录元数据，旧JSON未全分类。每结论立即推，接open。
