@@ -95,3 +95,6 @@
 
 
 [修复类的全局范围核查](2026-11-15-repaired-diagonal-global-comparison-scope.md)：亲核YZZ2023 Thm1.3.3的分歧补项Σc_l log l；当前{2,3,17}不因换old向量消失，复秩1与R830局部非零尚不足推出新全局类/AJ非零。Marannino2026的非CM、平方自由及指定p值假设亦未付。
+
+
+[R828完整d参考运输](2026-11-15-r828-complete-d-reference-transport.md)：同一原M的完整log d参考运输已付：每个真实总charge列乘exp(Qh_d)，四中央FΘ(u)=F°(u+u_d)，同K1/C1上βΘ°=β°+χ2ΣzL、βact=βΘ°+a_pΣvL。全39carry、Hd高尾/末端quartic保；不声称χ2响应落im M，实际bΘ/native指定非零仍开。

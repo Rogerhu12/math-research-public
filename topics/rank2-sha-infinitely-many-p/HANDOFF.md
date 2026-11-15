@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：1e14a6b75d0e44822a5ab901d43a373169db0c4a；2026-11-15 22:02:15 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:54:04 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
+- 最近已读规则提交：bf4651140ff96afe9d92d9847c30005f2d0fe70b；2026-11-15 22:02:56 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:02:56 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -33,7 +33,7 @@ R816/R820付固定E−11:y²=x³−11 rank≥2、全导子66/ray360/2,3,11 Schwa
 R821新V66/charge33/17仍在旧B33；Hurwitz八权降四权，裸聚合(4,−6,8,−6)，四高轴Jacobian unit；Γ4全39carry、十二尾和末窗quartic p³保。
 R824完整G0/charge40中k=r+13+2h−s<min(13,ell+13)首提升真单位6a²C0u²e²；同R准确窗强制28/−11/3，native ξ先保后消。[k13增补](notes/2026-11-15-r824-canonical-zero-angle-thirteenth-row.md)在原WD二次帽给全首像左行/单位36a⁻¹C0u²e²，可提升须r+2h≥s+1，不扩任意增广格。
 [全纯幂预算](notes/2026-11-15-general-central-blocks-and-pure-power-multiplicity-budget.md)：N块全部m最小主比2(N−2)/(N−1)<2，固定F^N比率不排全核。
-R828精确C_r=H_p(−8)^rP_r(p)−8^s，两平面关系/实际参数、全低卷积/Fermat p⁴进位保；a_p=6(p−3)H_p/(p+1)+pR_low，H_p≡−a_p/18。真实w整三角给u*=a_pv+χ2z，四中央必要b+a_pB4v+χ2B4z=0；同native Schur真实代入λβ°−(λL)B4⁻¹b。尚无实际b违约、真正全M左行或中央非零。theta正写log d参考消元，不能只删χ2而不运输β°/全部charge列。
+R828精确C_r=H_p(−8)^rP_r(p)−8^s，两平面关系/实际参数、全低卷积/Fermat p⁴进位保；a_p=6(p−3)H_p/(p+1)+pR_low，H_p≡−a_p/18。真实w整三角给u*=a_pv+χ2z，四中央必要b+a_pB4v+χ2B4z=0；同native Schur真实代入λβ°−(λL)B4⁻¹b。尚无实际b违约、真正全M左行或中央非零。[完整d参考运输](notes/2026-11-15-r828-complete-d-reference-transport.md)已证同charge整列恒等、bΘ=b+χ2B4z、同K1/C1的βΘ°=β°+χ2ΣzL与βact=βΘ°+a_pΣvL；不能只删χ2或称其落im M。
 
 ## 同R mirror、分歧迹与全边界
 
