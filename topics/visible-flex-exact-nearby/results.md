@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RW 实际六组加权帽后验与完整左端接收核](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)：43729429382/1、child0、15/15 完整门，六个独立χ门均通过。κ3/4 的右 physical ordinary pair≤5.620922e−8+1.890860γ、内端B≤2.874429e−8+2.293827γ；κ1/2 的Cmean≤1.921662e−8+.401425γ。所有mean/sourcepoint/outer/knownδ列保全；只是同实际帽后验，WA低迹尚未付。18pins与旧零计算独核；新局部源接收器继续推进。
+
 - [SB：保完整 selected 小源的 degree32 分带](results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md)：用 $z_\delta=P(Q-Q_\delta)$ 保留 NR/WC 已成完整残差，主低 shell 仍为33–96/225–288；known reference 的完整差和未知非线性差各自支付，避免 DB22 的粗基点 body triangle。径向 mean diagonal 只在真实 N0/N1 另付后收尖 mix；全部 mean、cutoff、drift、high费与两侧 receiver 义务保留。纯解析结论，root与两代理分别独核。
 
 - [RJ：保留径向系数 jets 的实际完整源](results/R133-supplement-actual-retained-radial-coefficient-jets-and-density-one-sources.md)：public Actions 43728317408/1、27/27 门、child0，十个 density-one 项全改善，21 其他项逐字保 BG。两窗/六 true-dr/η^-1/独立均值保全，总 pair<5.308195e9、mean<3.445226e7；local<8.700621e8 原字。92 pins/29 AST，旧成功数学及积分零重算；root 全报告、103 球/79 unique、jobs 与原始回执独核。属于完整负源预算，strict传播/腰/强返回继续另付。

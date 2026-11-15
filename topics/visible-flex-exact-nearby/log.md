@@ -91,3 +91,13 @@ Green15:15:57 process a9f0b83591cc66ab579ed6de3efb86eae3b70c57/49507B/f254884898
 另SB17以真实径向mean拆分给A_mix，但实际N0/N1尚未赋值；不得由两个独立上界相减。high A*与mean/principal L/cutoff/两侧端口未删。无新数值、未动旧NR/DB/activeGreen；当前Green缺局部F/J，旧inputGram不能变成新输出shell。H短化前完整f1a97ec0436c38aa274ffc1636a4d8277a0f803e同路径，历史单位与义务保留；只读README核cd5186ba1c4c9a1d2bf5763edb66a335058b3dba未变。
 
 RW唯一push run43729429382/1 headf1a97ec job132858381096已识别，未重复dispatch；actual候选待读。
+
+### 2026-11-15 15:27:14 UTC — RW首次实际15门/六χ成功，完整affine与γ列核验
+
+Root全文亲读 actual science a4d46696df6125524d7491cd1d4efde156794aee/57702B/ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9，process df608c6a12fb193106fba64fb23fd7afad37de29/16350B/daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6，result8c75230e/7874B/cae252d8。说明稿fe1a25200576f72277bc9bbae5416e6980ba2af8/11714B/ba084af5fbd8a232759d954ca6bfedbb7fd00bbae432d6111c75aec33c1f89b7全文核；6候选每一source/kernel/affine/γ/mean/outer/fullselected字段逐读，报告45球在science原件均找到。15门与process逐字一致，6χ全pass；18文件path/bytes/SHA与manifest全同；original参数/科学身份/零重算旗核完。
+
+run43729429382/1 job132858381096，15:21:33→15:22:18 success；jobs2834B/e72d2acf9a2a4bd23d267e495cdd051c96a7137ec8843a59ac65a7efb35cf235独读。child15:22:08.236697→11.237371 code0，math2.026082495/wall3.000687298。新1347交段由原1346加准确.95，原7296/1341cap/949reference不重算。临时5176130B audit a2811484不入库；完整preGit56032B/5f3d5127。
+
+κ3/4右physical5.620922e−8+1.890860γ/innerB2.874429e−8+2.293827γ，κ1/2 Cmean1.921662e−8+.401425γ。tail球右physical<5.622400e−8/innerB<2.876221e−8/Cmean<1.921975e−8。真moving80与fullselected10d费用各一次，未等同physical/moving频率。六行完整估计不拆开交叉min。known-affine预算主导仅为上界瓶颈，非actual residual下界；fullFC mean不可任意相减，WA低迹/左core/finitecut/窄MA/完整matching仍待付。
+
+RW三次真实pull 15:21:59.100330、15:22:05.309392→ce2b12c0f391a008343866ed9fe649f44d91ed28，15:22:11.594118→8142567c288c4731b5d40b81d350a399fec24028；两README全部空diff已亲读。容量198300454→projected198374631，完整metadata inventory78315cc2。SB推送15:22:44非FF已即时真CLI无环境后保远端重建成功；本轮只读README核2c3ce8b3477b50cb5ecbfad92760e6604701cf1f未变。

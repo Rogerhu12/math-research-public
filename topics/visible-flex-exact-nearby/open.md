@@ -140,7 +140,7 @@ phase_inverse负责完整负侧。此前逐字源链、所有源单位/域/succe
 
 [RC右帽宽C0实际入口](results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md)0fd5d845已由旧成功源/weighted-Q/X/M/RB严证：同实反射零宽γA0<1e−9、fBdotA²<2^-60域，完整ordinary荷+线性Q+.061端点反馈+二次值13给X<1.75e−6，真实两均值/knownδ差10d/逆角给moving pair C0<8.2297e−5<1e−4。由此WC最宽表的右半[.9,.95] C0前提实际已付；左半、同态matching/H1、五窄MA域、cL/ZL/ZH及core存在独立。I=∂^-1P非零在全L∞的π/8核直接收费，未多减mean或加入L2测度因子；下一步实际receiver仍保ordinary/Q/outer/mean。
 
-[RW真局部核与weighted后验](results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md)48de3f34：完整signed双向核保源q(t)/输出q(r)、H(L,t)=0；普通receiver先分量L²、后Fourier ℓ1。weight令D阻尼−λ/C阻尼+λ，same z全频和两mean独立。原M同实反射域/13ρ one-weight/真outer给χw，须新Actions实际χw<1才授Xw、右ordinary body及真inner B/Cmean；六候选可各失败，不影响旧解。DB/RBδ0给moving H96/H288准确消去selected affine，finite cut/fullmean仍保；SCI f8d97a14/worker e15f0e49/manifest333bff73已根审部署：18pins含12小/6history、15完整门，6非零λ各64全z分段；旧WC成功worker基线独核。新积分/候选尚待actual，不授低门。
+[RW actual43729429382/1](results/R133-supplement-actual-radial-weighted-cap-and-complete-left-receivers.md)ba084af5/ec6e088f/daabac14：child0/15完整门/math2.026082495，六χ分别全pass，18pins/旧数学0。真same-q双向核/sourceq(t)/outputq(r)/H(L,t)=0、全z/两mean/13ρ oneweight/outer保；κ3/4右physical ordinary≤5.620922e−8+1.890860γ、innerB≤2.874429e−8+2.293827γ，κ1/2 Cmean≤1.921662e−8+.401425γ。moving high96/288可用80转换且无knownδ差；fullselected仍付10d√len。它们是同实际帽完整后验，known-affine上界主导不是实际residual下界；源相关/分量更尖估计、左core、finitecut、窄MA与WA低门仍未付。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
