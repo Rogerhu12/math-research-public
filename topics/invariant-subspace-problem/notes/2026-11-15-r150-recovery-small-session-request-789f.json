@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "7c9e3ff57896eaa68a740d0719262c83327a122d",
+  "rulesReadAtCommit": "51e7cb4ad0fa63027c8ae6daaabe01abbe81259c",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -940,6 +940,69 @@
       ],
       "timeoutSeconds": 660,
       "receiptPath": "{work}/selected-natural-second-left-normal-four-complete130/selected-natural-second-left-normal-four-complete130-receipt.json"
+    },
+    {
+      "id": "zero-sixth-verified-top-unit-schur-continuation",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-verified-top-unit-schur-continuation-789f.py",
+      "scriptSHA256": "f349e04b04b07473accbf3bd7e048f047692e47fe54032e62b9a71e4f355cba8",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+          "sha256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-constant-unit-schur-kernel-789f.py",
+          "sha256": "2d678264333a1edf3ed599e22bbdfc53b9eb95d9001f71a33f526e65c012c964"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+          "sha256": "4e63c72c550e8f90c022b086d3758f8e7b12edf4fb16a0ef387bc1a92f97366a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py",
+          "sha256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+          "sha256": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-constant-unit-schur-kernel-789f.py",
+        "--parent-checkpoint-dir",
+        "{work}/zero-sixth-full-source-checkpoint",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+        "--cochain-exporter",
+        "{scripts}/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py",
+        "--cochain-manifest",
+        "{work}/zero-sixth-preparation/fifth-joint-high-low-checkpoint.json",
+        "--cochain-receipt",
+        "{work}/zero-sixth-preparation-receipt.json",
+        "--fifth-receipt",
+        "{scripts}/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+        "--checkpoint-dir",
+        "{work}/zero-sixth-unit-continuation-checkpoint",
+        "--out",
+        "{work}/zero-sixth-unit-continuation-receipt.json",
+        "--through",
+        "final",
+        "--remaining-seconds",
+        "600",
+        "--memory-mib",
+        "8192"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/zero-sixth-unit-continuation-receipt.json"
     }
   ]
 }
