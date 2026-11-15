@@ -158,7 +158,7 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 [PE投影主部能量](results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md)在固定H_J子空间保持−H_J(d∂φ)主部，正交性及真实a,d使drift cross精确0；E96的high自项删384d+D1、E288的far自项删1152d+D1，middle腿/径恢复d/真实A1中dφ/全部mean与两个cutoff仍付。PE9/12/14–15给更尖完整条件界；旧LT/NR数值保持有效不重跑，未来只正向组装既成费。真实同态cut/双侧body与残差未供，非core存在。
 
-[WC宽低窗与独立窄高域](results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md)以同state宽I=[.85,.95]三角帽付κχ=20，单次halftrace无需plateau；仍只用窄MA五域在同cut的H8193，不授宽factorial域。唯一新系数输入为原7296 full moving mean_absolute_gap，修补/19d/未知rho分别扣；NR宽nonmean/MC宽mean、原pointwise T2/T3及真实√长仅读重组。六宽ordinary表待，actual cL与双侧同态body/匹配仍须供。
+[WC宽低窗与独立窄高域](results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md)以同state宽I=[.85,.95]三角帽付κχ=20，单次halftrace无需plateau；仍只用窄MA五域在同cut的H8193，不授宽factorial域。唯一新系数输入为原7296 full moving mean_absolute_gap，修补/19d/未知rho分别扣；NR宽nonmean/MC宽mean、原pointwise T2/T3及真实√长仅读重组。SCI9cfe1e74/worker1412c9c4/14pin a3a2352c已root全核并部署，13门/六宽ordinary表actual待；实际cL与双侧同态body/匹配仍须供。
 
 [NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)及[actual43720373326/1](results/R133-supplement-actual-saved-nonmean-restrictions-and-three-band-trace-budgets.md)已成child0/13门，execution401d41d8/reportc905f5c4；SCI129f7f79/worker7f1bd9e5/19pin e9ea51e3成功锁。140/2原行以真实交长sup²/整格L2²取完整min，K权/repair/offset全付；窄P非mean L2<1.602333e−9，known F96<3.596676e−18/角<3.167387e−15，known F288精确0。MC均值/五高窗仅读；五例known-middle<6.019548e−16，剩充分半径>1.9686898045e−11只为预算。NA14仍须同态真实cL及左右P-scaled ZL/ZH，近似态另付ordinary residual/mean-speed；low/core均false。首43719591979的preGit>59KB/child未知/授权lost-new恢复完整保actual，success不重算。
 

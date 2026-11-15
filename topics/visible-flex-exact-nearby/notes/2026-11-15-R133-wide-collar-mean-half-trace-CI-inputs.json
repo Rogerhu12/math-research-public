@@ -1,0 +1,251 @@
+{
+  "kind": "wide_collar_mean_and_half_trace_public_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15T14:04:00Z",
+  "source_sha256": "9cfe1e741200467c215b30ffb41bb3c5eed6cadf9f01e029027dc86d636d3c43",
+  "expected_scientific_gate_count": 13,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_cut": "9/10",
+    "exact_wide_interval": [
+      "17/20",
+      "19/20"
+    ],
+    "delta_half_width": "1/10000000000",
+    "ordinary_wide_radii": [
+      "1/10000",
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "narrow_MA_radii": [
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "narrow_MA_interval": [
+      "589819/655360",
+      "589829/655360"
+    ],
+    "single_cutoff": "continuous triangular hat, value one at the same cut, zero at both wide endpoints",
+    "cutoff_derivative_upper": "20",
+    "finite_cut_degree": 96,
+    "far_cut_degree": 288,
+    "finite_physical_frequency": 384,
+    "middle_physical_frequency": 1152,
+    "centre_repair_mean": "0.000000000000000000005842",
+    "continuous_response_pair_A0": "19",
+    "angular_order_at_cut_from_MA_only": 8193,
+    "ordinary_angle_measure": "normalized original moving circle; full even mean has weight one",
+    "ordinary_radial_measure": "dr",
+    "true_unknown_ordinary_residual": "0",
+    "wide_unknown_hypothesis": "one real continuous two-sided H1 state in its separate wide raw C0 pair ball",
+    "narrow_high_domain_is_independent": true,
+    "old_91_or_high_factorial_cases_reevaluated": 0,
+    "old_target_or_source_recomputation": 0,
+    "actual_unknown_body_or_cut_bound_supplied": false
+  },
+  "input_paths": {
+    "collar_conclusion": "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+    "nonmean_execution": "topics/visible-flex-exact-nearby/notes/saved_nonmean_three_band_trace_ci/run-43720373326-1/execution.json",
+    "corrected_mean_execution": "topics/visible-flex-exact-nearby/notes/raw_response_mean_collar_fee_ci/run-43717700427-1/execution.json",
+    "raw_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace_CI.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md",
+    "projected_energy": "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+    "raw_producer": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+    "raw_helper": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_continuous_residual.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  },
+  "current_only_paths": [
+    "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/saved_nonmean_three_band_trace_ci/run-43720373326-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/raw_response_mean_collar_fee_ci/run-43717700427-1/execution.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_continuous_residual.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace_CI.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json": "618bd148e7d75e82c49af5f434235b3792747652a3ff9fb98adc03f560ac2080",
+    "topics/visible-flex-exact-nearby/notes/saved_nonmean_three_band_trace_ci/run-43720373326-1/execution.json": "401d41d80b394970736136f4f39e3a5dcb2ecc1728378dfc43ae2b11da6d184e",
+    "topics/visible-flex-exact-nearby/notes/raw_response_mean_collar_fee_ci/run-43717700427-1/execution.json": "c5424be21b98cf5e195ea7246ccba46cf746d1f16d9c118042fda1fad433e408",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py": "98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_continuous_residual.py": "b8e78adda5b029572597e0875ed871da5f03b51951e22e6860fb722b33e1bf51",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md": "8649c72ae517760a1599bd938b31809b2cf95d6c4afef8966f5501406c5d16a3",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md": "4b74cc1d45b530081b3edd4816a94a0973b0c7cfc6f7d255c83c91e80445a1ac",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace.py": "9cfe1e741200467c215b30ffb41bb3c5eed6cadf9f01e029027dc86d636d3c43",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace_CI.py": "1412c9c46e8efe77d67de47a3bd8201215452e00139ab3136f4fb806dacc8728",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf"
+  },
+  "file_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+      "sha256": "618bd148e7d75e82c49af5f434235b3792747652a3ff9fb98adc03f560ac2080",
+      "bytes": 42073,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/saved_nonmean_three_band_trace_ci/run-43720373326-1/execution.json",
+      "sha256": "401d41d80b394970736136f4f39e3a5dcb2ecc1728378dfc43ae2b11da6d184e",
+      "bytes": 56961,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/raw_response_mean_collar_fee_ci/run-43717700427-1/execution.json",
+      "sha256": "c5424be21b98cf5e195ea7246ccba46cf746d1f16d9c118042fda1fad433e408",
+      "bytes": 36310,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+      "sha256": "98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e",
+      "bytes": 12188,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_continuous_residual.py",
+      "sha256": "b8e78adda5b029572597e0875ed871da5f03b51951e22e6860fb722b33e1bf51",
+      "bytes": 5482,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-wide-collar-half-trace-and-independent-narrow-high-domain.md",
+      "sha256": "8649c72ae517760a1599bd938b31809b2cf95d6c4afef8966f5501406c5d16a3",
+      "bytes": 14163,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+      "sha256": "4b74cc1d45b530081b3edd4816a94a0973b0c7cfc6f7d255c83c91e80445a1ac",
+      "bytes": 7638,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace.py",
+      "sha256": "9cfe1e741200467c215b30ffb41bb3c5eed6cadf9f01e029027dc86d636d3c43",
+      "bytes": 24998,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace_CI.py",
+      "sha256": "1412c9c46e8efe77d67de47a3bd8201215452e00139ab3136f4fb806dacc8728",
+      "bytes": 33110,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+      "bytes": 2461,
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+      "sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+      "bytes": 1814,
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+      "sha256": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+      "bytes": 1910756,
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+      "sha256": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+      "bytes": 1947563,
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+      "sha256": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf",
+      "bytes": 571365,
+      "source": "exact_old_history_temporary"
+    }
+  ],
+  "complete_small_input_count": 10,
+  "complete_small_input_bytes": 235384,
+  "original_raw_complete_native": {
+    "bytes": 4592623,
+    "sha256": "6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1",
+    "rows": 7296,
+    "manifest_sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "recomputed": false
+  },
+  "original_successful_science_reused": {
+    "NR": {
+      "run_id": 43720373326,
+      "attempt": 1,
+      "child_returncode": 0,
+      "gates": 13,
+      "execution_sha256": "401d41d80b394970736136f4f39e3a5dcb2ecc1728378dfc43ae2b11da6d184e"
+    },
+    "MA": {
+      "run_id": 43717700427,
+      "attempt": 1,
+      "child_returncode": 0,
+      "gates": 12,
+      "execution_sha256": "c5424be21b98cf5e195ea7246ccba46cf746d1f16d9c118042fda1fad433e408"
+    },
+    "old_collar": {
+      "run_id": 43714674603,
+      "actual_old_case_count": 91,
+      "old_recorded_pass_count": 15,
+      "complete_narrow_case_count": 5,
+      "old_full_source_authorization_not_restored": true
+    }
+  },
+  "execution": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320,
+    "compute_minutes": 20,
+    "only_public_Actions_math": true,
+    "new_data_artifacts": false,
+    "new_Release_uploads": false,
+    "complete_small_prepublication_payload_limit": 59000,
+    "prepublication_status_limit": 1000,
+    "complete_small_conclusion_limit": 60000,
+    "pre_math_complete_conclusion_capacity_reserve_bytes": 120000,
+    "existing_success_reuse_required": true
+  },
+  "scope": {
+    "new_old_row_quantity": "minimum of the genuine full moving mean_absolute_gap over the complete wide collar",
+    "new_positive_scalar_tables": 6,
+    "triangular_cutoff_derivative_upper": 20,
+    "corrected_narrow_MA_domains_copied": 5,
+    "wide_high_domain_extended": false,
+    "raw_nonmean_and_raw_mean_integrals_recomputed": false,
+    "old_91_H_cases_recomputed": false,
+    "old_target_Fourier_residual_repair_mean_flow_Green_calls": 0,
+    "true_two_sided_same_state_required": true,
+    "wide_C0_and_narrow_MA_hypotheses_independent": true,
+    "actual_unknown_body_or_cut_bounds_supplied": false,
+    "actual_core_solution_proved": false,
+    "actual_low_physical_gamma_entry_proved": false
+  }
+}
