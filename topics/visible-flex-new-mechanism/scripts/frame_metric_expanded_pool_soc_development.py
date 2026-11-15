@@ -171,11 +171,15 @@ def _real_array_rebind():
     failed = new.capture_failed_trial(obj, old, x, y, original_versions,
                                       original_binding, 2, 0, trial, cfg)
     frozen_value = float(failed.views[0].rows.reshape(-1)[new_ids[0][0]])
+    # FullGridValues correctly owns read-only rows. Simulate cache replacement
+    # with a new mutable array; never try to mutate the original frozen view.
+    original_live_rows = trial_full[0].rows
+    trial_full[0].rows = original_live_rows.copy()
     live_value = float(trial_full[0].rows.reshape(-1)[new_ids[0][0]])
     trial_full[0].rows.reshape(-1)[new_ids[0][0]] = live_value+17.
     independent = (float(failed.views[0].rows.reshape(-1)[new_ids[0][0]]) == frozen_value
                    and not failed.views[0].rows.flags.writeable)
-    trial_full[0].rows.reshape(-1)[new_ids[0][0]] = live_value
+    trial_full[0].rows = original_live_rows
 
     def labelled_factory(obj, primary):
         obj.calls["factory_stub"] += 1

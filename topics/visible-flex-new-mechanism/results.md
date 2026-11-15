@@ -287,3 +287,8 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 [实现合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)已落实五新源：core/context、显式outer、完整checkpoint转移、audit、十项新增接口。从43741276060读取完整reference163/final159/physical163/两全池与B=1/16000、streak1；祖19seed加唯一新cut轮2记录严格核原9方向bank hash。source cfg不添加metadata，保factorizer原定义；新算法仅在request/显式class声明。真正complete factory两次改签名后才生成最终model_binding。
 
 失败full primary扩池后冻结同y，回同x重建base/J/primary/complete模型，不再求primary LP；新scalar/full gain过原门后只用原scalar SOC RHS，LP启动前扣原共享账。修正真实两网/原门与新增行全部保留，不授原SOC-hold资格；新旧模型分登记、各correction的rho0准确对应，rebound方向费用记真实阶段。原12LP/40值/120秒不变。独立workflow将先实际pull/双README与私有QUEUE核对，再编译五新源、仅十个新人工和一次新actual。尚无本次科学成功结论。
+
+
+## 扩池SOC首新人工失败：只读缓存样例最小修复并续未完首次科学
+
+[失败原日志和边界](notes/expanded-pool-SOC-first-development-readonly-fixture-failure-20261115.md)：run43744268876/job132903998961/source455f6c7；92,856B原log SHA256 ec8e5b383b7dd53d2dcc0dfecedbe2ce93e3e1bc1cf8c69f0c9fe5182c7370a8。新增fixture企图原地写FullGridValues只读rows，报ValueError；新10检查未返回，transfer/bank实际/科学LP均未到达。旧112绑定匹配、旧12与旧optimizer执行0。只将fixture模拟live缓存改为可写副本并恢复原对象，开发源20,175B/SHA2561bc4fbee6c7212d1d5e3a67efecab69f8bab92ee7fe37d00294710b3fe653a66；生产源码/模型/RHS/验收/预算全不变。新请求继续尚未完成的第一次科学，未宣修复通过或SOC有效。

@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `c30e7ea00a9ae06356409d5fdae289dfecf2210d`，2026-11-15 17:28:35.298991 UTC，run43741276060双README无差；下一最迟18:28:35。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `455f6c7e2e70ec5db2564de0db085074821dbf1c`，2026-11-15 18:00:53.242588 UTC，run43744268876双README无差；下一最迟19:00:53。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 17:28:38.580634 UTC实际pull/read `797d316120034d95fac313f0c5518c43167c0b84`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
+私有2026-11-15 18:00:57.232954 UTC实际pull/read `3e1c3ec396fbba3afecd2c8cd5a938ddfbf7ab26`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **旧数值源**：[complete-affine原实际](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848，η.266401179156→.266381717617，12LP/5接受；9恢复805.206s，漂移/失败及完整六模型证据保留，0重跑。
 
-**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值，active38.005145573s、prepare8.848614828s、process159.688904402s，112.835s非active差跨初始化/首J与末复验，未细分。bank7→9，21插入/0驱逐，12精确binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；**扩池SOC五新源/首请求已发**：完整reference/pools/controller与21输入→9方向hash严格复原；source cfg不变，回同x扩池重建，complete factory后最终绑定、单次同y原SOC、调用前计LP，原新行/17guard保留。新10接口先公开执行，旧12/旧optimizer不重；未有新actual结论。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
+**Norm-memory首实际已完成**：[完整结论](notes/norm-memory-first-actual-result-20261115.md)，run43741276060/job132894771246/source c30e7ea：exact159/163、g/b0/H物理转移准确，current切向reference只换tag；新池明确24输入∪原可见tags。方向bank按当前e/f/J/trust重建，旧A/b不搬；原12LP/40值/120s不变。11模型、12primary/0SOC、8接受，η.266381717617→.266366277975；末两网原14门/精确盒过，fineκ57.999993600、strip约3.95e−8，height微负保原1e−9容差；新.26目标未达。24+2完整值，active38.005145573s、prepare8.848614828s、process159.688904402s，112.835s非active差跨初始化/首J与末复验，未细分。bank7→9，21插入/0驱逐，12精确binary向内修。m1/5/10因新行提前返回，未到SOC；m5/10已有曲率行真实非线性失配，[11模型诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)已付；**扩池SOC五新源/首请求已发**：完整reference/pools/controller与21输入→9方向hash严格复原；source cfg不变，回同x扩池重建，complete factory后最终绑定、单次同y原SOC、调用前计LP，原新行/17guard保留。首次43744268876在新只读数组fixture失败，无新检查完成/无transfer/科学；仅副本替换修复后续未完首次任务，生产/原预算全不变，旧12/optimizer0。首失败43740751558仅g元数据hash口径，十二新人工已过；此次110依赖/恢复函数核同并复用，0旧optimizer/0新dev。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -50,4 +50,4 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 2e951d4e3c6c79f2ce2a117a4bb2c882587a8678，双README blob同。API读取不冒实际pull。
+断连API复核main 551c33be366fde05a089dde2a64cac1df992879d，双README blob同。API读取不冒实际pull。

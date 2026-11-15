@@ -98,3 +98,5 @@
 - 2026-11-15 17:48:23 UTC，Astra-new-mechanism-9974ea84：已读扩池同y SOC合同16905B/SHA256 fae059eb3d27b5c4b64ad560c2d7503b91247bbe1d31bad9f010e982018d8c69即推；明确原solver/真实残差/调用前预算/双context报告及完整checkpoint-bank转移。继续写新源，未执行。API核dc46652a671c7241a3b4b6a0d9a7f2fda6d3e549规则同。
 
 - 2026-11-15 18:00:27 UTC，Astra-new-mechanism-9974ea84：五源完整静态读取/原接口对照后首发 expanded-pool SOC；request 42836B/SHA256 28f60bff23fd26d50df8979283abaaca9f099b1b1d7d0605267798f218e34028，119绑定、0本地科学/开发。保source cfg与最终complete signature，10新接口仅Actions。索引早期Gaussian/self条目原文分卷防100KB，证明未改。API核2e951d4e3c6c79f2ce2a117a4bb2c882587a8678双README同；真实pull仍17:28:35，待本run更新。
+
+- 2026-11-15 18:06:57 UTC，Astra-new-mechanism-9974ea84：消费43744268876首失败并窄读637B diff；只修新fixture读写假设，未本地执行。失败说明5,059B/SHA256d0a0f2a0f8e647fe2381331471da7626a95f435e670fea75b4f64175626052e9，续请求SHA256 5815427252d8e15c848f71b8afb4226f7301f13a7fbbe2b9d9f43a6180f7433d。本run实际public pull18:00:53.242588/455f6c7、private18:00:57.232954/3e1c3ec双规则无差、QUEUE进行中；H已更新。API核551c33be366fde05a089dde2a64cac1df992879d双README同。

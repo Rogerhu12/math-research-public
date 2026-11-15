@@ -1,5 +1,5 @@
 {
-  "request": "expanded-pool-same-failed-trial-SOC-20261115-first-actual",
+  "request": "expanded-pool-same-failed-trial-SOC-20261115-unfinished-first-actual-fixture-fix",
   "repository": "Rogerhu12/math-research-public",
   "goal": "Replace only the full rejected primary's new-row early return by one complete same-x expanded-pool rebind and original SOC at the same actual y; preserve the exact source checkpoint and all original gates/budgets.",
   "source": {
@@ -418,8 +418,17 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_expanded_pool_soc_recovery.py": "db447f3395b3754a7adc95432fbb288aed2efe7393382bf6c6cbf9bc49ca963e",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_expanded_pool_soc_transfer.py": "28fd45a5f21ac2172bc86ed951065b12015c26d9fe6fea48965d21ef8dbe1c7c",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_expanded_pool_soc_audit.py": "6b35bc03d4740982aca95c84aa2d41048358aff48328abf1be5cd14c0c12fd6e",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_expanded_pool_soc_development.py": "b5b8da5e87bc762d5771f46edbf8628e2a4274ee710043bcedf398db069dd934",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_expanded_pool_soc_development.py": "1bc4fbee6c7212d1d5e3a67efecab69f8bab92ee7fe37d00294710b3fe653a66",
     ".github/workflows/visible-expanded-pool-soc.yml": "0d01f6dc3c54fe1a8763f8a925903c050930a28d84d8976445a9cf1bdfa5a8b2",
     "topics/visible-flex-new-mechanism/computations/request-norm-memory-transfer.json": "de25f342cd79b3f37e058052c5ff126d191a7d4a9f3cecae6aca9829858016a8"
+  },
+  "unfinished_first_run": {
+    "run": "43744268876",
+    "job": "132903998961",
+    "source": "455f6c7e2e70ec5db2564de0db085074821dbf1c",
+    "stage": "new developer fixture, before transfer or science",
+    "fix": "mutable replacement copy for simulated live cache; original read-only object restored",
+    "completed_new_development_receipt": false,
+    "old_completed_work_replayed": false
   }
 }
