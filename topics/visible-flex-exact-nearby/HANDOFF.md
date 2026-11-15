@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 08:05:12 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 08:05:49 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
-本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49非FF即时pull重试仍无。root已核v3 runner真pull：07:53:12.760754 UTC e515e35b5978d6a26babeceb8d0877728b6e3655，两README diff空。ref读不冒pull，每小时继续真pull尝试。
+本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，07:39:24及07:49非FF即时pull重试仍无。root已核最新runner真pull：07:57:58.933224 UTC c7ff35e0ccc7c754942590c8c20af99efed8ebd2（signed-root），两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：7b120d4d075540c059d9d8255efaa1728795f361；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：26ee72822fbf48dafe697a599676d6dcb0e0d71f；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。最近逐字H归档：notes/2026-11-15-handoff-before-cached-cap-endpoint-and-signed-root-actual.md（286089d9651073a5038280f9e8a181d12b2bfa895b4c96b566c7a6aebb1724be，9764B）。前H/open/输入/失败全链均在该归档，压缩不取消任何门。
 
 ## 同一对象与总完成门
@@ -25,10 +25,9 @@ v3 run43690634784/1（head8e962541…）SCI1d8383a8…/worker c06a5758…/369pin
 
 ## 第一修正、共同参考、精确清理：phase_inverse
 
-原Taylor/Nraw/b*/1328/六profile、九词/五mean/1079seam/653ledger及全部失败身份见逐字归档，禁重算。2547/2551实际43682479300 child0/21/49stage13新行，4305旧行逐字；报告f3a372ce…保原整域与未排名范围。
-共同径向C/P/I/B接口全P/I/J/mean/jump不删。势actual43685624307 child0/16给H1/6000 V276/VT26431/VTT3830956，整2549/δ1e−8/z1/9409/±j。A真实两列0e56cf64…保实T±1/2000、n≥388、真正Wronskian和两普通源；不是complex角列norm。
-H旧圆edede2b1…actual43688459733/1 child0/16，报告188cd247…：h1/20000 gap>.9999880505123，A1/128逆/两角导<1.000382716/.048988522/12.541136604，0旧势/fold重算。
-F新signed forcing052a0b23…已独核：f_b^V=f_b+V_j/f_a不变；完整n^-1/^-2/^-3与旧六余项保。根处大径向项准确消去，C²系数−291/140、DC15/14，fullmean剩V_j−V∞+141〈C²〉/(140κ²)，finite-z完整有理Q1另保。新w1^V根常数不是旧w1改名。最小run43691675493/1 child1/9入口/3stage/0case/.360076374s：abs矩形界丢gap。仅换Re分母下界（原square193/9409>0），新SCI869238d3…/12pin4b72d34b…/flow8d678ae0…、worker不变已部署；重做未成临时代数，原75stage不重算。物理正Schur/整片/全strong返回仍待。
+原Taylor/Nraw/b*/1328/六profile、九词/五mean/1079seam/653ledger及失败全身份见前H。2547/2551 actual43682479300 child0/21/49stage13新行、4305旧行逐字，报告f3a372ce…保原整域；禁重算。
+共同径向C/P/I/B完整P/I/J/mean/jump保。势actual43685624307 child0/16给H1/6000 V276/VT26431/VTT3830956。A/0e56cf64…真两列保实T±1/2000/n≥388/真Wronskian和两ordinary源，不是complex角norm；H/edede2b1…actual43688459733 child0/16的原h1/20000旧圆gap>.9999880505123，inverse/角导全保。
+F/052a0b23…完整signed forcing已证fbV=fb+Vj/fa不变，所有阶/六余项保；根处径向消去，fullmean为Vj−V∞+141〈C²〉/(140κ²)，finite-z完整Q1提因式。首43691675493 child1/9门/3stage/0case因abs矩形gap，只有Re下界修复。实际新43692226895/1 child0/11门/3旧stage/1新case/math.378429979s，报告a7ff7c71…；fullmean<5.999084e−5，差/z<.190815，σ0两行<.935646/.264232，σ1/128与3/128及q0..3全部已付。execution4abbe1ff…/result66f02392…，无新data持久化；原失败未成临时代数重做准确披露。root已亲读runner07:57:58.933224真pull c7ff35e0ccc7c754942590c8c20af99efed8ebd2两README空。此仅根点：整片共同坐标逆像、真正新w1V、全部old-circle I/J/mean/seam、物理正Schur和全strong返回仍待。
 cleanup首43679889657/1删11834件后206137215B超限保留；第二43690692511/1真success：9件/7607204B普通删除commit1fae319aa2ac67d722bf16b2391053dcb90bb407，实际该tree199048373B<200MB。恢复commit121e4ce63b469b31148dcd58697092b9befbd5c9；process d5ad024c…/publication d7f4ad63…/metadata75901041…/30803B。0数学/旧11834不读，历史、参数和并发版本全保。新增文件后仍须维持200MB门。
 
 ## 有限正则尾、全网络与迭代：tail_connector

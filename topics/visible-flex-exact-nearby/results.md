@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 实际共同参考根点 signed 第一强迫](results/R133-supplement-actual-signed-first-forcing-at-genuine-common-reference-root.md)：公开43692226895/1 child0/11门，3旧stage只读、1新case；fullmean<6e−5，完整σ0两行<.935646/.264232，σ1/128、3/128及q0..3全付。第一次矩形gap失败保留，唯一Re修复；全高/整片/新w1及独立physical mean未借此关闭。
+
 - **2026-11-15：完整参考source graph、真实残差等价与角向平滑。** [E1–28](results/R119-supplement-reference-graph-scale-exact-residual-and-angular-smoothing.md)定义E_s=X_s^0+N_s^[3](L0u)，L0与同一S_T精确交换；先截非mean高度，再重建真实Γ/holonomy mean。准确残差保+ψ_t(k0+U0)及DΠ_A残差mean，低E1856≤2^-8192016经16等价进N球，高8192仅finite；完整tame/Fréchet二次费2^2097152。已知成员入域条件不删真实traces/外残差；charged列、approximate inverse及Nash收敛仍独立。
 
 - **2026-11-15：同ac1连续repair帽的L1 Wiener普通源与实际主体球。** [A1–24](results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md)从完整双端核直接付ordinary B/C增益10/17、mean独立；fixed-r换角<5而无96倍。旧whole7296 L1加准确repair给未闭仿射负荷<1.2e−6；原q构造给H*<2，Gauss余项13||x||²/完整差。半径2^-15的主体image<15/16、Lip<7/8，repair真outer residual/mean另付。真实R端保持尚须完整weighted反馈；本篇未授完整非线性帽解或全匹配。

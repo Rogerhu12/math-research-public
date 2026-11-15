@@ -101,3 +101,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 ### 已部署：旧7296行的实际帽L1与完整reference端点源
 
 新增 consumer 保旧target/residual/Riccati零重算，从原三parts恢复同ac1/440866/eta0，只积分1341实际帽行与原reference共同分区。ordinary B/C用完整mean源增益10/17，R端用完整prefix Tdc和suffix阻尼；参数22pin SHA6378581473d45a1af2c55748ea13a5111a0563e4be183a0e56a5029f9c2021a5。rZ=1e−10/1e−9只报告真long四导数和条件body结论；linear-Q、quadratic-Q、outer反馈的完整端点不变性仍未证，输出明确false。等待公开实际数学后接着闭这三列。
+
+### 已成实际根点 signed forcing；继续整片新第一修正
+
+公开43692226895/1 child0、11门、0.378429979s，实际报告a7ff7c71…已核execution4abbe1ff…与result66f02392…：幅度mean<6e−5，finite-z差/z<.190815，完整old-circle σ0/1⁄128/3⁄128两行与q≤3全保。下一子门是同一共同坐标σ的整片signed势及真正新w1V；根点常数不能提升成整片范数，也不等于独立physical even mean。原失效abs-gap运行保留，仅Re下界修复。

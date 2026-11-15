@@ -167,3 +167,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 08:05:12 UTC — 部署原证书L1与真端点源最小consumer
 
 root全文核SCI106ec930…、contract9d0c8f22…、22pin63785814…、worker b8075216…、flow fb20231a…；tail独核三数学函数及原S.10–13。仅将非FF发布循环取消30次上限，立即真pull/rebase至成功；SCI零改。精确旧7296三parts/原1346reference及intrinsic/repair全部只恢复，新增帽1341行积分与端点双核，未知非线性端点保持仍false。新数学只公开Actions，暂未报结果；新可重算数组不存Git/artifact/Release。H逐字归档286089d9…后压缩；本次只读两README核7b120d4d075540c059d9d8255efaa1728795f361，blob不变，不冒本机pull。
+
+## 2026-11-15 08:05:49 UTC — 实际根点 signed forcing 单独发表
+
+root全文核a7ff7c71…报告与43692226895/1 execution4abbe1ff…23306B、result66f02392…6450B；child0/11门/3旧stage/1新case/math.3784299789999963s，12pin/3AST实际全过。mean<5.999083248299e−5、V差/z<.190814674367、三old-circle宽度/q0..3完整。首43691675493 child1身份不删，原square仅Re分母界修复；已成旧数学零重算，第一次临时未成代数确有重做。runner07:57:50.969474和07:57:58.933224真pull→c7ff35e0…两README空；本次ref核26ee72822fbf48dafe697a599676d6dcb0e0d71f不冒本机pull。整片/新w1/独立physical mean/全高逆仍未成。
