@@ -98,13 +98,19 @@ global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reser
 
 原report声明全部节点/frontier/事务已打印后清，但root的compute工具一次Transport closed未得正文，不能冒全部未决行独核。163仅从原Actions日志恢复原完整result/input/grid及真实未决范围，不科学重算、不增门、不上传raw。先据真实未决行区分域隔零/角系数/准确输入宽度/节点调度，再独立改变明确资源或算法；原九p、419片/两侧/R330、同场δ转移前提及所有责任不减，159真BVP不等这个充分证书。
 
-### 3C. 当前C真正的数值provider：153
+### 3C. 当前C自己的数值provider及完整物理BVP：153/159
 
 [新C完整绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)已付实际factory/C/definition和453/450/459、全部九参数/公共u旧场/fresh原RHS、完整112非除Robin与有条件商；线性对象明确拒绝非线性solve。
 
 [R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)已证零shape两mean、原cut字词与非除Robin、非末−I前沿满秩而末整体非共振另付、η>0方向和η=0全112敏感度及完整338。数值QR非严格非共振；cut可除不推出逐节点可除。
 
 [153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)十二件源/配方已推35690c77，run43727856178 / compute132853608396：24pins/六proof/三原输入，同C完整source重新采样真物理r、全部可能逆像叶，并在严格高于原node8半径上界的明确rFar重新传播全112两坐标。完整576-stage/577态、原root/RK/mean、一般Robin全链QR、η0全112/混合338及独立有限audit保；不重标不确定半径中点或旧graphs/gains/J。首个实际配方只一条当前C自己的112个+0H，J/audit均请求；原32轮/10trial/2e−9不改，native列表资源3600秒。全部中断trial、112原far行、原错误字节和超限元数据完整分段读后清。零子题完成后继续159的新profile/实际BVP非零H/fullDN，不预填153结果。
+
+[159完整入口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)七件已发布，首次新实验明确λ=.001、原R320九p和历史699×453 prepared仅作初猜；前三scalar活动、后六冻结，109高core仍自由。57直接源pin、原147 atomic构造、24native源身份保留。同job重建C3600、cut两jet/R323 factory、R312全112及实际rFar sampler，当前目标重算全RHS及原preflight，第一H必须来自该453端点/MaterialTrace。profile自己的E/Ep及其派生量不由native覆盖，原五项比较保持。
+
+同一live native owner完成真实H/J、原三扰动/两法Richardson边界FD、原full-DN完整8outer/17inner/BVP/RMS/BC及fresh audit；配置副本只加原modes112/spacing2身份。全部112/338、原32×10/2e−9及FD5e−5不减；18入口只是路径资源说明，无新call截断。数值代表不冒准确共同C/无限DN，前三活动不冒全九冻结450的同g精化。
+
+资源job360分钟、namespace science315/readback45，BVP7200秒clip全局剩余，32GiB起盘/2GiB保留只作资源scope。SIGTERM/SIGINT显式转发独立BVP组并确认退出、外部中断不重标数学/墙钟拒。完整BVP/native/linear trial/失败字节及112 far原行读回，超限按语义拆；读回错误非零，未确认退出或读不全不主动清理，不上传raw。所有本地工作仅源码/字节，未预填AST或actual159结果。
 
 数值盒中点、逐点代表值和原engine exp舍入均不自动构成同一个准确C成员；无限非线性DN、准确非共振及连续g/场误差仍另付。完整科学源码/恢复身份与当前是否派发见HANDOFF；本段不预填运行结果。
 

@@ -216,3 +216,5 @@
 - [Request158：原37模型与真实新warm FD后的完整R334诊断入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)（源码/参数入口）：actual98另起一次原模型，94源/三参数、原门不变；观察原z、每chunk J/P及已有返回，后置全部75776角行×17档×九系数/准确Bernstein和实际453 Hermite分拆。global6000/diagnostic1800、完整范围/原错误读后清，不冒连续α/角或actual158接受，无本地科学。
 
 - [R347：同C两图射影归一与cut商包含](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)（已证明，条件包含定理）：原列Z=aD_bv的准确幅因子/符号/log与全部继承误差保留，全矩阵Taylor/Duhamel后仅在严格非零端点分量除法；cut每候选闭管高度隔零后先合法商再hull。未付时保有索引非除Robin族，不混不同尺度原列，不冒全112、共振或实际162改善。
+
+- [Request159：当前C与新profile的完整453物理DN入口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)（源码/明确新实验）：λ=.001、R320九p、历史699×453仅初猜，57pins，同job C/factory/sampler→真实H/J/原FD→完整fullDN/fresh audit；8outer/17inner/32×10与原tol保。job360/science315/readback45、BVP7200按余量clip，完整原范围/错误读后清；外部信号停独立子组、读错非零阻清理，不预填非零或准确C/闭场成功。

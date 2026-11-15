@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:49:53 UTC 已读 b04a6a5f7abfd1574608750392fe559413d8a259，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:52:17 UTC 已读 3011ae059f854b28b77ff7744de10b46f210fd7f，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -50,14 +50,12 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [R339 actual156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)全C1440/六primitive/两域/cut两jet/deep112齐；whole2609粗叶未付。R324 m2/4/6/8到cut完整但高度盒含0；m10共享200000面板止、m12..224未起，非墙钟。全原栈/后缀/身份保，与153新far责任分开。[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)已证双chart归一：只除严格非零端点，全幅因子/误差保；cut逐候选合法商再hull，非除行保索引，不冒不同尺度原列。geometry实现162新driver，root配workflow，无实际结果/保证，不作159门。
 
-[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保两mean、非除Robin、非末−I前沿/末整体非共振之别；η1方向/η0全112及混合338分明。QR不冒严格非共振。
-
-[新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)已推db77f490，c0bda335/cd5b77f5；全453/450/459、公共u/freshRHS、112非除Robin/商分开，线性solve拒绝。
-[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入；真r全逆像/新rFar112非除行/全576与577态，η1全链方向/η0全112/混合338/fresh finiteaudit；一条+0H、原32/10/2e−9，C3600/linear1800/sampling1800/native3600。完整trial/112行/错误/超限metadata读后清。尚无actual153结果，数值代表共同C/JSexp及无限非线性未付。159七件已就绪，root修具体读回错误退出与外部signal子组停止后立即发；geometry负责真BVP实际及153/R342。
+[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)及[绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)保同C、两mean、非除Robin/整体非共振、η1方向/η0敏感度之别，不冒严格非共振。
+[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入；真r全逆像/新rFar112非除行/全576与577态，η1全链方向/η0全112/混合338/fresh finiteaudit；一条+0H、原32/10/2e−9，C3600/linear1800/sampling1800/native3600。完整trial/112行/错误/超限metadata读后清。尚无actual153结果，数值代表共同C/JSexp及无限非线性未付。[159接口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)七件已发：λ.001/R320全九p/699×453仅初猜，57pins、同job C/factory/sampler→真实H/J→原FD→453fullDN/fresh audit；原8outer/17inner/32×10全保。job360/science315/readback45，BVP7200clip剩余；signal转发停自有组、读错非零阻清理，reader c0aa52af/launcher1feac6d5。未预填结果，geometry负责153/R342及159实际。
 
 ## amplitude：157实际与163原日志恢复
 
-[R340 actual157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)run43729310294/source c71cbeac，compute132858021333及report132861152631成功；八方向4直线接受/4次原normal全20档拒，W4.9632137876766619823138638310334280578058678269248→4.9632137875241047283817296655204217818016943746082，最后下降仅4.710E−46/预测1E−49，不冒有效精度或根。全finalfalse，原chain29684B完整SHA核；巨量compute两次传输失败，全部FD/fullview/model矩阵未独核，163只读原日志补证据。完整末九p50/原半径.0000390625/八方向与已读四实际响应见正文。
+[R340 actual157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)run43729310294/source c71cbeac，compute132858021333及report132861152631成功；八方向4直线接受/4次原normal全20档拒，W末4.9632137875241047283817296655204217818016943746082，最后下降仅4.710E−46/预测1E−49，不冒有效精度或根。全finalfalse，原chain29684B完整SHA核；巨量compute两次传输失败，全部FD/fullview/model矩阵未独核，163只读原日志补证据。完整末九p50/原半径.0000390625/八方向与已读四实际响应见正文。
 
 [R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)原154全FD/70trial责任及[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)全九维模型证明保。后继先据完整JᵀF/三行响应/曲率分清形成误差与实际秩，有限候选空不等于驻点；不机械追加微步或放宽严格slope/Armijo。
 
