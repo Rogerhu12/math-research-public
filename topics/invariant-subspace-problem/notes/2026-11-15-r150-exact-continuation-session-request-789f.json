@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+  "rulesReadAtCommit": "06ddf6605f2804532f44690f5184b7f16a2f8964",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1224,6 +1224,42 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/original-three-minor-determinant-upper/three-minor-upper-receipt.json"
+    },
+    {
+      "id": "complete-original56-local-outside-gcd-180",
+      "requires": [
+        "original-three-minor-determinant-upper-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-complete-original56-local-outside-gcd-789f.py",
+      "scriptSHA256": "0e111c2334bf62e4b4404d84c8af5e9f62ee99a6b64f766bad541c126b1e7fa4",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+          "sha256": "4ae559a6b1b5efdf3d88e1f59bc987895f0f6ab5ec8dd2d61d5a55db3ef9a1be"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        }
+      ],
+      "argv": [
+        "--upper-source",
+        "{scripts}/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+        "--core-source",
+        "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+        "--parent-checkpoints",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--upper-out",
+        "{work}/original-three-minor-determinant-upper",
+        "--out",
+        "{work}/complete-original56-local-outside-gcd",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/complete-original56-local-outside-gcd/complete-original56-outside-gcd-receipt.json"
     }
   ],
   "previousSession": {
@@ -1232,5 +1268,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Ordinary ISP remains open. Original finite 31-local defect and thirteen true divided columns prove affine degree at most302, residual degree at most144. Localized row module failed with MemoryError after13 verified roots; preserve its prefix and reuse only paid original56x22 core for at most three exact determinant upper certificates. Nonconstant candidate is not actual Omega."
+  "mathematicalProgramStatus": "Ordinary ISP remains open. Completed coefficient31 analysis proves affine degree300 and residual envelope142. Three exact original-row determinants completed in113.562241801 seconds and give Omega dividing degree120 upper U. Queue complete all56-row local certification: squarefree support, unit Schur, exact factor splits, and only necessary higher precision; no original core or determinant recomputation."
 }
