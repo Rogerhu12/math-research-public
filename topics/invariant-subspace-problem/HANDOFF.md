@@ -35,7 +35,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - **[强gauge真末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈付尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端保留。返回运输误差≤A_drv α，eY∈E0、Rret*eY=Sb r；大配对未付。λ(qr)≈d0λ(r)，全局Cg才给M/W锚，勿用Boolean头替它。
 - **窄入口：** 固定f=e_a⊗vac所需原强C的Green列O_a(R³)未付。[等权长池完整Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)已给(4/S) C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；余强位须换全部A_rest/h0/Gram，H^-1不保低头，不能删或截到a。boundary继续共同返回配对及真实远孔尾。
 
-- [N原逆芽临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)已付领先12.5不可固定降小；[N/Y次阶放大](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)保原ε及真列权。当前Riordan另取下条较小半径，不能混用R/h。
+- [N负轴](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)与[Y负轴](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)已分别付原零逆支领先12.5障碍；Y逐分母核无极点后得RψY<4e20 r*。[N/Y次阶放大](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)保原ε和真列权；当前Riordan另用τ14，勿混R/h。
 
 - **[真实相对孔Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)：** K=Σ[z^k](φ/z)^J T^k，TK=Kφ(T)、逆/全旗/裸商/首源g均精确；同g同余比较全/裸最小Gram。τ14=12.5d³+26.75d²+…，R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(-d³/64+54d²)→0。新头ψ_m(A+E)/d0保全部E混合，不运输左L，不相减Gram或称两费已付。
 

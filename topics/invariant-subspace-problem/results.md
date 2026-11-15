@@ -553,3 +553,5 @@
 - **真实相对孔层Riordan及完整/裸最小Gram一致运输。** [完整证明](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)以J=1…h和真实删除幂构造K，保全头/尾旗、裸商、首源g与零源；稍小τ14半径使K及逆统一≤exp[32(1+e1070)]，原h²/Q仍趋零。新头保ψ_m(A+E)全部混合，不运输全左L、不相减Gram，ordinary缺口继续。
 
 - **29真核的自由像在Q中也恰前29轴。** [完整小矩阵证明](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)实核top29det mod31=1、Q归一bottom7×29全零；故29个D整规范来源全存在并与原p768全来源同余。原真核直和分成29Koszul及至多7维非Koszul补空间，删除前29自由列保Q列像，未宣布余七存在。
+
+- **原Y逆芽也有领先12.5的真实负轴障碍。** [独立全证明](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)先保R=2r*内全部真实分母和导数符号，原负轴首临界给RψY<4e20 r*，无需假设该点单根。领先指数不能固定降小；安全次阶半径、Green和回返费用分别保原范围。
