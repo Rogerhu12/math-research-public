@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [VR同态值与差分的完整吸收及collar入口](results/R133-supplement-selected-value-and-difference-absorption-with-complete-cap-and-collar-inputs.md)：在明示wholecore/真实cut先验与实际physicalγ域内，以同CPA case的2×2正矩阵同时吸收低体与切口非线性；保uniform affine/height/waist/mean及真正左右collar输入。NG整行可替独立high H1；差分常数与height仍另付。纯条件解析，不认定五输入已小或core存在。
+
 - [IC逐分支首系数与共同root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)：共同F*有序正规化保完整finite/mean，真density共轭保两rank；SN两branch给ci/co的±μ/2与各非均值，完整Fourier低导预算及实μ预条件子的两窗充分门解析闭合。当前无终态SN/强余项数值或完整incoming；root原源全文与双peer核。
 
 - [SC第二次实际首行构造器失败与完整保存范围](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)：43753164994/1，六输入门及五legacy检查全过；首row的空tuple→acb_poly接口失败，完成row/group/model为0，部分未保存新算术准确登记。原科学收据及两个出版前小payload逐字SHA独核，旧数学0重算；最小序列构造修复待另推。
