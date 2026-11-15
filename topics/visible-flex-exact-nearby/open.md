@@ -192,3 +192,7 @@ G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；�
 ### S1–16 已成：根值剥离的完整强迫消费
 
 精确 `V=N(ga,TL)` 先消可去奇点、实际cell累计 divided forcing、负实参数角宽及有序二阶导数已证，见 R133 对应补充。phase 继续实际标量消费；原 normalized-forcing stage 和根均值保，不把此合同当数值 strong return。
+
+### 97 输入帽伴随新提案已部署
+
+247pin 五件只构造新物理257state×97input伴随Hermite提案，消费原7908whole/64point，QR/原数组/失败前缀全部可恢复。newton_source 继续真实连续 adjoint residual 与完整97误差Gram；proposal finite成功不代替无限帽high-to-low。

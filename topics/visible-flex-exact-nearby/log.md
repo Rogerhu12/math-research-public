@@ -135,3 +135,9 @@ root读L1–28全篇、原N12–15/23–28、R5–6/19–20、正片P1/14–16/2
 ## 2026-11-15 01:16:13 UTC：完整 divided forcing 合同独立入库
 
 根核 S1–16 与 B1–25 原恒等式，并核原 anchored 源 local_pair/forced_case：第一 forcing 在完整旧坐标域先有界，再限制 canonical 域。S10 的第二分量是 xL，不另造 b*/T；S12–15 保全部有序导数及根均值。完整原 Taylor stage 消费，0旧数学重算；实际新标量仍待 Actions。保存前H9790B完整快照，压缩仅工作索引。只读双README核 0390a7c84d8cf3942722e70cc88f8e1223288717，blob均未变；非FF按规则立即尝试真pull再重建。
+
+## 2026-11-15 01:17:27 UTC：完整物理伴随提案五件部署
+
+根完整阅读 science38667B/worker20935B/合同7819B/flow7232B，核257state×97输入的物理负伴随两行、独立mean与dummy、实际物理测度Gram、同QR全列代回、独立动作、精确保存的Hermite对象和失败前缀。根核247pins，原global Green234项零差异；读原ResumableHeadQR构造及公共worker继承，无旧target调用。静态括号审计通过，真正Python AST和所有新算术只在公开Actions运行。完整连续Hessian/Robin/mean/首段真实9/10/高投影尾明确未付。
+
+SCI `5cdff6d9f51db3e99a3a89738001856182b155ae46819c6c796acdceb8480a89`；worker `f83b29bcf559820a685f3cc66686126a08ac7ed0b1e2e0fc4a45f7cf6d70d19b`；manifest `a5260c946c731d3b50c3bdb2a76fa7aec7b653ad3bec6c9eb844b8bb37be982d`；flow `24a6963166940181b257cb2fd1e00d028e2624addef6173eeb4f89b0878ae453`。矩阵主run仍执行，group11 actual由根亲读child0/13门/192新，其他完成组按代理记录；未声称全5970。双README只读核 b5c4da4c7db72351778d01f4706c822728b02cf2 两blob不变。

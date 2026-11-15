@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 计算入口：完整 97 输入的物理帽伴随提案。** [合同](notes/2026-11-15-R133-cached-cap-adjoint-proposal-contract.md)及 247pin 公共 Actions 入口已装；完整 257 状态与 97 输入共享 QR，原 7908 whole 标量 jets 和 64 个补齐 midpoint 直接复用，原 234 pins 逐项不变。新数学尚未运行；浮点提案的完整连续残差、真边界、Hessian 与高到低 Gram 仍待实际支付。
+
 - **R133 补充 S1–16：完整除零强迫与根值剥离后的有序导数。** [证明](results/R133-supplement-complete-divided-forcing-and-root-subtracted-Airy-derivatives.md)（SHA256 `973ddf1c67e5f6135996a4468b1b2d0d29009fb7f1968f1a842609c59714533e`）用原 normalized-forcing 0..6、whole-old-product forcing 及真物理跳，给出累计 `gb/T`、负实参数角宽与先消可去奇点的完整二阶径向公式；保根均值和所有 M0 导数。尚无新数值界或完整强返回结论。
 
 - **2026-11-15：完整物理cap–tail未知曲率接口已闭合。** [L1–28](results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md)在Z∈H^-3/2用真实Cf、long屏蔽QZ及完整Y/Z尾逆TB，重新支付B端H^-1/2源→根Airy H1后，反馈<2^-32000000；原aBwB往返准确抵消。原ac帽及已证同物理角C8–9转授的repair/η0/δ0都适用，全部曲率mean、totalflux、raw mean斜率和源域保留；未转授moving负阶Hessian、fullδ或原strong标签。
