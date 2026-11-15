@@ -1,0 +1,256 @@
+{
+  "kind": "actual_public_saved_positive_collar_components_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43731225532",
+  "run_attempt": "1",
+  "started_utc": "2026-11-15T15:41:20.555831+00:00",
+  "workflow_commit": "003e6ee56848a4b6a948af56b0e3ac4f768d467f",
+  "worker_source_sha256": "02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb",
+  "actual_source_sha256": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
+  "input_manifest_sha256": "3a172b9e41587c50bd8f3112b3ef98b0c33a736a75b1204e2d627ef82767766c",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T15:41:20.919886+00:00",
+      "before": "77c7d8f0179d656a45cffb87f2df49f24d273220",
+      "after": "77c7d8f0179d656a45cffb87f2df49f24d273220",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    },
+    {
+      "time": "2026-11-15T15:41:27.631791+00:00",
+      "before": "77c7d8f0179d656a45cffb87f2df49f24d273220",
+      "after": "77c7d8f0179d656a45cffb87f2df49f24d273220",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
+  "original_recomputable_inputs_only_in_temporary_storage": true,
+  "new_recomputable_data_persisted": false,
+  "new_Actions_artifacts": false,
+  "new_Release_uploads": false,
+  "new_cap_existence_claimed": false,
+  "new_endpoint_invariance_claimed": false,
+  "full_infinite_BVP_inverse_proved": false,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "reviewed_rules_sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+  "last_read_commit": "77c7d8f0179d656a45cffb87f2df49f24d273220",
+  "package_versions": {
+    "python-flint": "0.9.0"
+  },
+  "python_version": "3.12.14 (main, Sep 19 2026, 03:35:30) [GCC 14.2.0]",
+  "historical_hydration": {
+    "files": 16,
+    "historical_files": 5,
+    "full_temporary_receipt_sha256": "f986eb25dfddf6e7d050f71e26e37163a336003cbd8c3487eab185b49e12ed9d",
+    "restored_into_checkout": false,
+    "old_mathematics_executed": false
+  },
+  "actual_original_input_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part000.bin.gz",
+      "sha256": "a61bcdd91f82fd7cb5a4a7597a5f562b71dfa7cc1852a5c5c9d412683bc3c698",
+      "bytes": 1950613,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part001.bin.gz",
+      "sha256": "0ed24c0e1cf024518c4d403e94bb78dd1b9b6ca0c36310aea44409379f0a64bf",
+      "bytes": 1959762,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part002.bin.gz",
+      "sha256": "0b185958e5b885fbdeadb23c7c22b33f580d176a6233d8dfb6be05dd1a574331",
+      "bytes": 1978863,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts-part003.bin.gz",
+      "sha256": "ce2ffa4bbed3544cf4155ed08580f4b9b11fe568d5816f0c961eeaa7efccdfb0",
+      "bytes": 220953,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-positive-complete-ac1-binary-parts.json",
+      "sha256": "32b430a27a20726f095098902afdb93e656ea746eb81bce09a559e6f65787fd3",
+      "bytes": 2244,
+      "source": "exact_public_history"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+      "bytes": 2461,
+      "source": "exact_current_file"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+      "sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+      "bytes": 40659,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+      "sha256": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+      "bytes": 11484,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+      "sha256": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+      "bytes": 8753,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-collar-energy-and-residual-sensitive-first-angular-cut-trace.md",
+      "sha256": "8e21f8241c62526a22b75f31dd5eeb58c80ce7c04dfce798081c192c809919d9",
+      "bytes": 13671,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md",
+      "sha256": "4b74cc1d45b530081b3edd4816a94a0973b0c7cfc6f7d255c83c91e80445a1ac",
+      "bytes": 7638,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-saved-positive-collar-component-bounds-and-high-frequency-coercivity.md",
+      "sha256": "58a13cda928c26a29333016d74d8b9b9a17ebc40e9898e2b44993340997f3326",
+      "bytes": 12126,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md",
+      "sha256": "e94ed0d73b6299970482073efbd7bdd3302e323956b1dbe3c7bbb9f48895e058",
+      "bytes": 8839,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+      "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+      "bytes": 21756,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py",
+      "sha256": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
+      "bytes": 28113,
+      "source": "exact_immutable_current_commit"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity_CI.py",
+      "sha256": "02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb",
+      "bytes": 33759,
+      "source": "exact_current_file"
+    }
+  ],
+  "all_pinned_inputs_verified": true,
+  "actual_parameters": {
+    "arithmetic_bits": 320,
+    "exact_interval": [
+      "17/20",
+      "19/20"
+    ],
+    "exact_cut": "9/10",
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "original_parameter_half_width": "1/1000000000",
+    "selected_delta_half_width": "1/10000000000",
+    "original_complete_rows": 4650,
+    "original_native_bytes": 6223338,
+    "original_native_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "original_parts": 4,
+    "centre_pair_A0_repair": "0.000000000000000003861",
+    "centre_pair_angle_A0_repair": "0.00000000000000001970",
+    "centre_even_mean_repair": "0.000000000000000000005842",
+    "canonical_response_pair_A0": "19",
+    "canonical_response_pair_angle_A0": "83",
+    "rho_candidates": [
+      "1/10000",
+      "1/1048576",
+      "1/16777216",
+      "1/268435456",
+      "1/4294967296",
+      "1/68719476736"
+    ],
+    "high_projection_labels": [
+      96,
+      288
+    ],
+    "physical_frequency_factor": 4,
+    "candidate_count": 12,
+    "energy_tests_per_candidate": [
+      "tau_below_one",
+      "t_below_one"
+    ],
+    "actual_mean_sign_is_a_separate_candidate_prerequisite": true,
+    "triangular_cutoff_derivative_upper": "20",
+    "ordinary_radial_measure": "dr",
+    "angular_measure": "normalized moving circle",
+    "same_real_continuous_two_sided_H1_true_solution_required": true,
+    "actual_ordinary_residual_is_zero": true,
+    "full_low_mean_retained": true,
+    "source_integrals_recomputed": false,
+    "new_unknown_cut_body_or_receiver_norm_supplied": false,
+    "old_target_Fourier_trial_convolution_residual_repair_mean_flow_Green_calls": 0
+  },
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-saved-collar-components/immutable-science",
+  "snapshot_utc": "2026-11-15T15:41:27.312623+00:00",
+  "wall_seconds": 6.756811205999995,
+  "published_topic_capacity_metadata": {
+    "method": "published_origin_main_Git_Trees_API_metadata_only",
+    "commit": "77c7d8f0179d656a45cffb87f2df49f24d273220",
+    "root_tree": "0ae3b051866fceac4e3913aad5b41371c6950ac1",
+    "topic": "topics/visible-flex-exact-nearby",
+    "topic_tree": "949715bbe88d35b98b1c7a759a42c592204e5ca4",
+    "truncated": false,
+    "all_blob_sizes_checked": true,
+    "blob_count": 14221,
+    "blob_bytes": 198513408,
+    "nested_tree_count": 5611,
+    "gitlink_count": 0,
+    "complete_blob_metadata_inventory_sha256": "b4ead410e9b6179987ddeb0c93f369c1b5947db5fa3cb6498e882ebf9261668d",
+    "metadata_responses": [
+      {
+        "tree": "0ae3b051866fceac4e3913aad5b41371c6950ac1",
+        "recursive": false,
+        "bytes": 861,
+        "sha256": "e561db26ef1777d3cd0749962d0809faba539f9179446ed9052b7a00b5e1351b",
+        "truncated": false
+      },
+      {
+        "tree": "161e137d1367122b3a5bcd43d68b1c842571e039",
+        "recursive": false,
+        "bytes": 1846,
+        "sha256": "588b121cfa4631bf33ae55a61537f27ce256435b32c3c1f135d2586d2f19cf39",
+        "truncated": false
+      },
+      {
+        "tree": "949715bbe88d35b98b1c7a759a42c592204e5ca4",
+        "recursive": true,
+        "bytes": 6532283,
+        "sha256": "9495045e7b9dc2dc2755e64987594748f8830c0a0893dfd3a9eab61c3d8ff429",
+        "truncated": false
+      }
+    ],
+    "blob_bodies_requested": false
+  },
+  "publication_is_final_attempt": false,
+  "pre_math_small_conclusion_capacity_reserve_bytes": 120000,
+  "pre_math_topic_bytes_with_reserve_upper": 198648483,
+  "projected_topic_bytes_upper": 198528483
+}
