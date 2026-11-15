@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [6个负侧cut实际读出](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)：43716450174/1 child0/17门，R=.005/.01/.015/.02的两归一化逆通过，.001/.002未过保raw。R=.005完整ordinary→density增益1.070261672、root/jump15.135785709；source/G31项与全部mean保、0旧math，非完整return/GH。
+
 - [完整运输系数与leading逆的角jet递推](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)：保T0=t+5dφ真mean；F=1/Q给cT/Xi完整分解，B+=x²+Ty²与leading M逆全角导、QG先相关合并。外RG径Cauchy使用外jet而非内H小量；仅新scalar预算，未报数值改善/strong-return。
 
 - [已知cut完整Wiener逆角与更尖低入口](results/R133-supplement-known-finite-cut-Wiener-angle-and-sharp-low-curvature-entry.md)：同实际有限32/96参考、全mean/连续repair给known物理A1/4096差≤13|δ|/200。新base逐付J4，unknown η的H1≤1.96875e−11足低γ门；实际unknown/core仍未证明，原cut J18 false和高8193义务不变。

@@ -144,8 +144,9 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [AJ完整运输系数的角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)新证：T0=t+5dφ的全mean只留零阶，F=1/Q使cT/Xi经真实B+=x²+Ty²分解；QG/2与G^-1的角导先准确合并。原fold j/BT/BA/gap及外RG/内H两域给完整递推，μ/leading M逆不冒径向，普通高导不Cauchy收费径向常数。尚无new实际source结果，原G成功锁/31列不改。
 
-[N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)补原E6/E12的普通H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer。
-六固定cut用r_+−R保真ρ≤R；新scalar仅读1328旧norm/forcing及3 intrinsic原part，付n_gT与τ1/τ2后才授97局部inverse。完整root/真jump/positive两端/waist/return仍独立；失败局部门只留unnormalized完整界，不冒奇异。SCI179cc14a/worker28e2d96e/manifest7c07d303及22pin首次部署待actual；仅2原ZIP恢复4完整member至temporary，无新数组保存。
+[N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
+原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。
+完整root/真jump实际列、positive两端/strict传播/waist/ray-KAM/完整return仍独立；17门不授GH/核心存在。
 
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
@@ -282,6 +283,6 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，12:21:47定时及12:41非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green真pull12:44:29.764146→acedf945458a4909bccb2281484bc7dd7436a381及cut12:45:44.009824→e2db433eb4f317c1a5c84b4bcb2f8ad19f084817，两README diff均空；终端恢复即pull查差。
+本机executor持续不可用，12:21:47定时及13:01非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green真pull12:44:29.764146→acedf945458a4909bccb2281484bc7dd7436a381及cut12:45:44.009824→e2db433eb4f317c1a5c84b4bcb2f8ad19f084817，两README diff均空；终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

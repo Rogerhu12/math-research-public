@@ -192,3 +192,8 @@ root亲读Green12:54过程40219B/b01bff29；真pull12:54:34.534806→a99b8d88728
 两README在5309f636d67cfb09595fb0e370b8500b65bfca2e亲核未变。root亲读U5/c33175b8与G2–3/24–25/8fa0d675、leading F全文及原fold源27427dd6相关完整字段。新AJ afeab152/14351B证明F=1/Q、L=−Fr+dFφ−(t+4dφ)F、cT=(Lx−y²/2)/B+、Xi=−(Ly+xζ/2)/B+，符号与D=∂r−d∂φ一致；B+加号、μ及leading矩阵逆完整角导保。positive q的T0角导准确5d^(q+1)，t全mean只角导为0而零阶/源mean不删。外RG全jet付径余量，内H经原radial zeros缩小，不能用内jet冒外Cauchy。QG/2及G^-1先合并角关系给新fullpositive closure。原G c0/Xi0直接读取；旧fold/source/Taylor/integral不重跑。无actual新数或GH/strong-return改善声称。
 H中旧负侧与单G详账仅引用本次前6d87bc85同路径；全部未付义务保持。
 H的H1/Cδ/CS及open第4节旧帽详账亦仅压缩引用6d87bc85同路径和原proof；所有unknown-high/mean/affine/真实参数义务不变。
+
+## 2026-11-15 13:03:09 UTC — 六negative cut实际成功与四个normalized输出
+
+两README在590c839f269fc5f1d3bad80a1edb2faff615ee20亲核未变。root已亲读execution318dd25b/44767B、actual-result72745bf3/7879B的原字段及完整报告59ab1bb6/20485B，SCI/worker/manifest与22pin/5AST/两原ZIP4member身份一致。run43716450174/1 child0/17门，math.551217555s/wall.866611075s；6cut同r_+−R，无跨cut拼接。R=.005/.01/.015/.02通过，.001 τ1/τ2>1、.002 τ2>1只保raw；R=.005 gain普通1.070261671287/root-jump15.135785708216、G贡献5.925089064527e14，原G31完整项原样。无旧jets/norm/Cauchy/积分或source重算。
+亲读真pull12:57:58.750589→bdf728aa37980d247e279f404390c11991b2cbdc，两README diff空；原容量199064002B、该run两小件后199116648B仅该时点。预Gitstdout42859B/f215352d、tempnative16269B/f952ce74不保存。root13:01非FF立即尝试真CLI pull仍No usable execution environment，保远端重建CAS至第二次成功1bb353c9；不把ref冒pull，定时尝试仍继续。H旧D详账仅压缩引用1bb353c9同路径/原文，所有true mean/global差和未付finite逆义务保。
