@@ -1,0 +1,1670 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43740928483",
+  "stepId": "original-two-mapper-higher-quotient",
+  "executionSourceCommit": "35d9b82b4be396ebee6455bf7ab11a285a5d4e29",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-two-mapper-higher-quotient-runner-789f.py",
+  "scriptSHA256": "b5b2bcd1f5ff2a04c729afcdfb8afea6e09948ce7bdd466a66bc0f90bad7eae3",
+  "argvTemplate": [
+    "--mapper-source",
+    "{scripts}/2026-11-15-r150-higher-two-regular202-mappers-preparation-789f.py",
+    "--source-native",
+    "{scripts}/2026-11-15-r150-original-high202-source-transport-789f.cpp",
+    "--outside-native",
+    "{scripts}/2026-11-15-r150-original-outside202-left-transport-789f.cpp",
+    "--native-model",
+    "{native_model}",
+    "--paid-projection-summary",
+    "{scripts}/43731615668-full-kernel-deleted-original-output-projection.json",
+    "--prepared-out",
+    "{work}/higher-two-regular202-mappers",
+    "--full-out",
+    "{work}/full-infinity-natural-dual-schur-through32",
+    "--outside-out",
+    "{work}/koszul-outside-natural-through35",
+    "--out",
+    "{work}/original-two-mapper-higher-quotient",
+    "--seconds",
+    "600",
+    "--compile-seconds",
+    "30",
+    "--memory-mib",
+    "1024",
+    "--through",
+    "final"
+  ],
+  "timeoutSeconds": 700,
+  "exitCode": 0,
+  "wallSeconds": 21.10306201399999,
+  "fullTemporaryReceiptBytes": 29987,
+  "fullTemporaryReceiptSHA256": "e8c1c44941b1da567bd96e1744f5a470b0c6e7cd3b1de346e74bc22c813904ce",
+  "result": {
+    "actualHigherConstantRank": 194,
+    "actualHigherPositiveFactorCount": 8,
+    "all19406948OriginalSourceProductCoordinatesVerified": true,
+    "all202OriginalOutsideFreeCoordinatesVerified": true,
+    "all202OriginalSourceFreeCoordinatesVerified": true,
+    "all7252608OriginalOutsideProductCoordinatesVerified": true,
+    "allOriginalHigherPairingsRetained": true,
+    "allOriginalHigherUnitRowsVerified": true,
+    "characteristicZeroFullSmithComputed": false,
+    "characteristicZeroHighSmithComputed": false,
+    "compileElapsedSeconds": 4.837825502000214,
+    "completeHigherKernelSmithComputedModulo31": true,
+    "completeOriginal202OutsideLeftTransport": true,
+    "completeOriginal202SourceTransport": true,
+    "completeOriginalHigherKernelModuleJustifiedModulo31": true,
+    "field": 31,
+    "format": "isp-complete-original202-two-mapper-higher-quotient-v1",
+    "higherKernelMaximumPositiveExponentModulo31": 7,
+    "higherKernelPositiveFactorCount": 8,
+    "higherKernelTorsionLengthModulo31": 26,
+    "higherKernelUnitFactorCount": 194,
+    "higherQuotientActuallyComputed": true,
+    "highestActuallyPairedDegree": 7,
+    "largeDataUploadedOrCommitted": false,
+    "mathematicalElapsedSeconds": 16.187683781000032,
+    "newLargeGaussianEliminations": 0,
+    "outcome": "complete-original-higher-kernel-field-smith",
+    "phase": "actual-original-higher-pairing-degree-7",
+    "pythonFlintVersion": "0.9.0",
+    "selectedLeadingCoefficientUnitProved": false,
+    "status": "completed",
+    "wallElapsedSeconds": 21.025509823999982,
+    "parameters": {
+      "binding": "cf5394c4c557bc98dea3917ce61ed7ebc62c80d3d9050204e976aff2037d1344",
+      "compileSecondsPerProgram": 30.0,
+      "completeHigherSmallSmith": {
+        "complete": true,
+        "maximumPositiveExponent": 7,
+        "paidExponents": [
+          1,
+          1,
+          1,
+          2,
+          4,
+          5,
+          5,
+          7
+        ],
+        "steps": [
+          {
+            "active": 8,
+            "availableDegree": 7,
+            "constantRank": 0,
+            "exponent": 0,
+            "originalColumns": [],
+            "originalRows": []
+          },
+          {
+            "active": 8,
+            "availableDegree": 6,
+            "constantRank": 3,
+            "exponent": 1,
+            "originalColumns": [
+              0,
+              1,
+              2
+            ],
+            "originalRows": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "active": 5,
+            "availableDegree": 5,
+            "constantRank": 1,
+            "exponent": 2,
+            "originalColumns": [
+              3
+            ],
+            "originalRows": [
+              3
+            ]
+          },
+          {
+            "active": 4,
+            "availableDegree": 4,
+            "constantRank": 0,
+            "exponent": 3,
+            "originalColumns": [],
+            "originalRows": []
+          },
+          {
+            "active": 4,
+            "availableDegree": 3,
+            "constantRank": 1,
+            "exponent": 4,
+            "originalColumns": [
+              4
+            ],
+            "originalRows": [
+              4
+            ]
+          },
+          {
+            "active": 3,
+            "availableDegree": 2,
+            "constantRank": 2,
+            "exponent": 5,
+            "originalColumns": [
+              5,
+              6
+            ],
+            "originalRows": [
+              5,
+              6
+            ]
+          },
+          {
+            "active": 1,
+            "availableDegree": 1,
+            "constantRank": 0,
+            "exponent": 6,
+            "originalColumns": [],
+            "originalRows": []
+          },
+          {
+            "active": 1,
+            "availableDegree": 0,
+            "constantRank": 1,
+            "exponent": 7,
+            "originalColumns": [
+              7
+            ],
+            "originalRows": [
+              7
+            ]
+          }
+        ],
+        "torsionLength": 26
+      },
+      "completeHigherSmallSmithFile": {
+        "bytes": 3188,
+        "sha256": "68c3cf085e212f03859ff807952e82ba493a318b9f4e4c426f0c3551013ad0e6"
+      },
+      "currentHigherSmallSmith": {
+        "complete": true,
+        "maximumPositiveExponent": 7,
+        "paidExponents": [
+          1,
+          1,
+          1,
+          2,
+          4,
+          5,
+          5,
+          7
+        ],
+        "steps": [
+          {
+            "active": 8,
+            "availableDegree": 7,
+            "constantRank": 0,
+            "exponent": 0,
+            "originalColumns": [],
+            "originalRows": []
+          },
+          {
+            "active": 8,
+            "availableDegree": 6,
+            "constantRank": 3,
+            "exponent": 1,
+            "originalColumns": [
+              0,
+              1,
+              2
+            ],
+            "originalRows": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "active": 5,
+            "availableDegree": 5,
+            "constantRank": 1,
+            "exponent": 2,
+            "originalColumns": [
+              3
+            ],
+            "originalRows": [
+              3
+            ]
+          },
+          {
+            "active": 4,
+            "availableDegree": 4,
+            "constantRank": 0,
+            "exponent": 3,
+            "originalColumns": [],
+            "originalRows": []
+          },
+          {
+            "active": 4,
+            "availableDegree": 3,
+            "constantRank": 1,
+            "exponent": 4,
+            "originalColumns": [
+              4
+            ],
+            "originalRows": [
+              4
+            ]
+          },
+          {
+            "active": 3,
+            "availableDegree": 2,
+            "constantRank": 2,
+            "exponent": 5,
+            "originalColumns": [
+              5,
+              6
+            ],
+            "originalRows": [
+              5,
+              6
+            ]
+          },
+          {
+            "active": 1,
+            "availableDegree": 1,
+            "constantRank": 0,
+            "exponent": 6,
+            "originalColumns": [],
+            "originalRows": []
+          },
+          {
+            "active": 1,
+            "availableDegree": 0,
+            "constantRank": 1,
+            "exponent": 7,
+            "originalColumns": [
+              7
+            ],
+            "originalRows": [
+              7
+            ]
+          }
+        ],
+        "torsionLength": 26
+      },
+      "exactFieldLengthDecomposition": {
+        "deletedOutputProjection": 2,
+        "fullOriginalTorsion": 66,
+        "outsideKoszulTorsion": 149,
+        "remainingHigherKernelQuotient": 26,
+        "selectedMinor": 243
+      },
+      "formalSourceProof": "ker A = Phi direct-sum j(E216 ker(SE216)); both original202 mappers have unit free coordinates",
+      "higherConstantUnitColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        199,
+        201
+      ],
+      "higherConstantUnitRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "higherSmallSourceColumns": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        200
+      ],
+      "higherSmallTargetRows": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "inputIdentity": {
+        "field": 31,
+        "headers": {
+          "2026-11-14-r150-f31-bitplane-789f.hpp": {
+            "bytes": 3030,
+            "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+          },
+          "2026-11-15-r150-saturated-global-common-789f.hpp": {
+            "bytes": 11284,
+            "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+          }
+        },
+        "inputs": {
+          "mapper_source": {
+            "bytes": 22703,
+            "sha256": "a2e8fa4aa6d26c74b2f8000fb33fcda4b558021ab674582eecbd2c86edb9847e"
+          },
+          "native_model": {
+            "bytes": 128145,
+            "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+          },
+          "outside_native": {
+            "bytes": 12826,
+            "sha256": "92e534d74d465f99043ec293bdd5a82a67c661309767e42e476bf765e1244262"
+          },
+          "paid_projection_summary": {
+            "bytes": 20819,
+            "sha256": "28b2605d03746fb5d1a4398c36d22650239d7989f5b68463ed9d6c9f99c5f830"
+          },
+          "source_native": {
+            "bytes": 23360,
+            "sha256": "d0748649a3cd280fb620c85c61b82cb9d6c6fabeef8e9db81afaf9b9b01a4b2c"
+          }
+        },
+        "knownFieldLengthDecomposition": {
+          "deletedOutputProjection": 2,
+          "fullOriginalTorsion": 66,
+          "outsideKoszulTorsion": 149,
+          "remainingHigherKernelQuotient": 26,
+          "selectedMinor": 243
+        },
+        "maximumDegree": 21,
+        "parentUnitInputs": {
+          "backward": {
+            "bytes": 3052119,
+            "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+          },
+          "forward": {
+            "bytes": 2378937,
+            "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+          },
+          "fullOperations": {
+            "bytes": 8548344,
+            "sha256": "d2555a117c9f79db448e8eb183d5420952fe001707f5ca81e20e98705b83a3ad"
+          },
+          "fullProfile": {
+            "bytes": 15722,
+            "sha256": "8ed21f09165ef1eea38b7f9c0b1050a0a3ef56d54e9f694272ee566c8bb9c8df"
+          },
+          "outsideCoefficients": {
+            "bytes": 867852,
+            "sha256": "99a8ce9365faef5fc69a0c2f5e5924f97403ee44ca6c0697638b537bab8db745"
+          },
+          "outsideInverse": {
+            "bytes": 2569697,
+            "sha256": "4c6bd0f4d35861f866b07b8e869a644f4ff0447ab76a054f453292b130f86874"
+          }
+        },
+        "preparedBinding": "7d781d083a66e7cb2b66426ea47753b7a50e7de5e10426642eb4246de6c46cca",
+        "preparedMetadata": {
+          "bytes": 34344,
+          "sha256": "5a1892f8787b85b788b9e940d11e4ebe597485097df9513e56f2be688dd98555"
+        },
+        "source": {
+          "bytes": 29018,
+          "sha256": "b5b2bcd1f5ff2a04c729afcdfb8afea6e09948ce7bdd466a66bc0f90bad7eae3"
+        },
+        "version": "complete-original202-two-mapper-high-quotient-v1"
+      },
+      "mathematicalSecondsLimit": 600.0,
+      "memoryMiB": 1024,
+      "nativePrograms": 2,
+      "nativeRuns": {
+        "outside": {
+          "exitCode": 0,
+          "seconds": 0.8152114600002278
+        },
+        "source": {
+          "exitCode": 0,
+          "seconds": 10.935560566999811
+        }
+      },
+      "nativeSummaries": {
+        "outside": {
+          "actualConstantUnitRank": 1603,
+          "all1632OriginalKoszulProductsZeroThroughCompletedDegree": true,
+          "all1834OriginalOutsideCoordinatesRetained": true,
+          "all202OriginalFreeCoordinatesVerified": true,
+          "allOriginalNaturalOutsideCoefficientCount": 173544,
+          "characteristicZeroOutsideLeftKernelComputed": false,
+          "completedDegree": 21,
+          "field": 31,
+          "format": "isp-original-outside202-left-transport-v1",
+          "inputBinding": "7d781d083a66e7cb2b66426ea47753b7a50e7de5e10426642eb4246de6c46cca",
+          "inputCoefficientsSHA256": "99a8ce9365faef5fc69a0c2f5e5924f97403ee44ca6c0697638b537bab8db745",
+          "inputHeadsSHA256": "0dcdcbf1edb733f92eef1568c3734342eb427b8c8d8eacc6446f08f882878ca1",
+          "inputInverseSHA256": "4c6bd0f4d35861f866b07b8e869a644f4ff0447ab76a054f453292b130f86874",
+          "leftKernelColumns": 202,
+          "nativeSeconds": 0.80638177,
+          "originalKoszulColumns": 1632,
+          "originalOutsideRows": 1834,
+          "originalProductCoordinatesVerified": 7252608,
+          "parentOutsideBinding": "f07acb3347e775dc41658f95e015c2e169b4df34c6c1e829a2737fe83acb2781",
+          "requestedMaximumDegree": 21,
+          "restoredCompletedDegree": -1,
+          "selectedLeadingCoefficientUnitProved": false,
+          "status": "completed"
+        },
+        "source": {
+          "actualConstantUnitRank": 4340,
+          "all1007OriginalFullPivotProductsVerified": true,
+          "all1848OriginalTailMapperCoordinatesVerified": true,
+          "all202OriginalFreeSourceCoordinatesVerified": true,
+          "all3333OriginalPrebasisTriangularUnitProductsVerified": true,
+          "all4340OriginalUnitSourceSolveProductsVerified": true,
+          "all4367OriginalHigherKernelProductsVerifiedThroughCompletedDegree": true,
+          "characteristicZeroSourceKernelComputed": false,
+          "completeSourceDerivativeCoefficients": 1328964,
+          "completedDegree": 21,
+          "field": 31,
+          "format": "isp-full-original-high202-source-transport-v1",
+          "fullConstantSourceOperations": 1203382,
+          "highKernelColumns": 202,
+          "inputBinding": "7d781d083a66e7cb2b66426ea47753b7a50e7de5e10426642eb4246de6c46cca",
+          "inputHeadsSHA256": "a27ccfcf95192fde8b2c0caff8bd515da30e2bed28f97f1e71a7b655dc074b3d",
+          "nativeSeconds": 10.893192329,
+          "originalOutputRows": 4367,
+          "originalProductCoordinatesVerified": 19406948,
+          "originalSourceRows": 6188,
+          "parentFullBinding": "9e86556a7a82c1c2306b395c87a49a7059d0945f12db7d4962c789717bd35dc6",
+          "prebasisBackwardOperations": 1010703,
+          "prebasisForwardOperations": 782976,
+          "prebasisNaturalTailMaximumMomentDegreeDrop": 1,
+          "prebasisNaturalTailNonzeros": 1711875,
+          "requestedMaximumDegree": 21,
+          "restoredCompletedDegree": -1,
+          "selectedLeadingCoefficientUnitProved": false,
+          "status": "completed"
+        }
+      },
+      "parentFullBinding": "9e86556a7a82c1c2306b395c87a49a7059d0945f12db7d4962c789717bd35dc6",
+      "parentOutsideBinding": "f07acb3347e775dc41658f95e015c2e169b4df34c6c1e829a2737fe83acb2781",
+      "preparedMapperBinding": "7d781d083a66e7cb2b66426ea47753b7a50e7de5e10426642eb4246de6c46cca",
+      "quotientProof": "L_O^T is onto and has kernel Sat(im O); pair the whole original j(E N_H) on the same J-complement",
+      "temporaryFiles": [
+        {
+          "bytes": 2080,
+          "file": "complete-original-transport-plan.json",
+          "sha256": "2a87bcd73ca4fe3a355ec3cc62da568dc5b20a0b8043673249709795814e5db4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 0,
+          "file": "build-source/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 568,
+          "file": "build-source/compile-cache.json",
+          "sha256": "814abb809b4dbd0650b95f25e2adc873efc2631fbad17d1ec47ed67b92b6e123",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 2126,
+          "file": "source/native.log",
+          "sha256": "32949410cf39a4501e1195d853c9ca366af6c309e2129de6aa34f8402dadddad",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-0.bin",
+          "sha256": "3250861ceed9879485cc0870269c6640d87469d48da33d7303709a873451b521",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-0.bin",
+          "sha256": "e83bdc250f2c71776c9d23afdb23461e786b93d3e8afb4ecf33573223cad8c52",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-1.bin",
+          "sha256": "f3d89d578a11e1642e99e9268ca5881b985cadc4f4140cceda78fbe0e336a1d4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-1.bin",
+          "sha256": "c267dabb82cfb1770110f15d05a3dd6992a6bd01e1b03db151bfece74f2b3ece",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-2.bin",
+          "sha256": "0e0b86aceaee27350a5e6f3008a42ef565bc05abc9c63f4029cd0774d974e7d4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-2.bin",
+          "sha256": "205ca3fa373fbd627342c196379fa763c147c73f94009be9362f396c9912d0a2",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-3.bin",
+          "sha256": "d9f4228caaa58231a767cabd3cd9a3c1d644119c34c4a684dd39331fce5635a1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-3.bin",
+          "sha256": "a84c7b265442d6eb4a9599ec310ee6f33265a5dc07c3f0664ed212c0f87b6195",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-4.bin",
+          "sha256": "2ef75c6311f0dd53831d9ab099f4e26e107ced80cfb40d11426f3c4259313808",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-4.bin",
+          "sha256": "06fc4ab1dbf7e38acee37fe56604e092f3e2acafa27575098ad8eaad26b0d1a1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-5.bin",
+          "sha256": "376e0b76ecc341bc800e59071b977590be0006264d77eaf0e1a9468522c99cc9",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-5.bin",
+          "sha256": "552361f111d29c11f8e37fec331dbabc80f135febf920d3b5f00fd04bcc8cd8c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-6.bin",
+          "sha256": "426a24d8aa651a0afc430d28d175f69dde43c435fccae99078b667e5a039833f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-6.bin",
+          "sha256": "55e34875f91d23d5a589bcedb06d8485994dfe13194adcd0bfc370e5df196e77",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-7.bin",
+          "sha256": "b8b5cbad0aab7f6be640aa54614b1bdf0346e3b043e7706cefee74c26d73c0fb",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-7.bin",
+          "sha256": "be493148fffe1c4575877cdfd66a82985a2d073d3d3fdfcc67a189b4a277f8fd",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-8.bin",
+          "sha256": "7a073fd8763bd58055740288c950ba026dbfff5b1a5fc363ea0b019fb0eb5652",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-8.bin",
+          "sha256": "54ff980f219e51d8687242c30549e2d2299a66d85b2a482d21e15fa4f8afbf6e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-9.bin",
+          "sha256": "7c3101180b5e3acb1965778717588c1175329745918f0a6b714de982466ac102",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-9.bin",
+          "sha256": "afe6ab0f28b492c7a0e36b22a4c254076b894b8d1b105a421acd85004c05808b",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-10.bin",
+          "sha256": "bcb6d8ee1204a7c2a1c5ed595359115661f3cb56dd4ee3d363ab2db86b7a486b",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-10.bin",
+          "sha256": "4c7632c4aa24b22e49c748b607ff7b5c5868762f4a9cdf02f30db4cc56eb7b02",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-11.bin",
+          "sha256": "9789191d788802a10bfc1a87c6207b1ac918a8175c5e8b5068d22e50d4f92d78",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-11.bin",
+          "sha256": "e028001c77e330226ac49d50cf495c0acb01a05ba1eaf346da9dabb3eccb9eef",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-12.bin",
+          "sha256": "208ec75792f7bf3d4c6426bbf44134fb8926586e98c1983eaa36c6ecbebf7af7",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-12.bin",
+          "sha256": "63425c82bb06c23bc60695a420d963ef7aab7bdfa8593df3467603d0e480ad0c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-13.bin",
+          "sha256": "585bc6d8176a363643a64a475a8cd83836281057737d81881e4e0633b5c8445c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-13.bin",
+          "sha256": "c4dea05c830f29eb9fa98e2767317c64bbbe861cd2d04880fb839c70c6880de5",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-14.bin",
+          "sha256": "0d314d8eb03bc508ab22528751abca0a8db3378d6dd0d2a1bc5e03a5e643b2b2",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-14.bin",
+          "sha256": "aeb1b4035669c1b9f0aca62e3c29a3c195252337031e19d5f4a0f27c3e415f8f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-15.bin",
+          "sha256": "d6af44d0c47e7a940280786c387f56740218cdcf8c063dad9f521ab529ae2535",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-15.bin",
+          "sha256": "58fdf2278b1e6d40fc527053dd9c8239a1a7ae24470fe9b856f9d4aa35d3f459",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-16.bin",
+          "sha256": "8db561fb8fd647f419dc655cd00f93a3a8920bfca8cadc6c9c96dc18aa863d45",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-16.bin",
+          "sha256": "f29004143cfef048c418beec8807524af09108bf7b3abb77d31cef9c82067bc3",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-17.bin",
+          "sha256": "4d4f3f64c8c8995dcc1f54bf6e18408017c106cbbc42200f0356cc800c913752",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-17.bin",
+          "sha256": "d45281e4646b956e66ebe244bd3d39841201586ee58c8fda01210f2648fd2dd3",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-18.bin",
+          "sha256": "a11fb2159e4d0f06aeabc4ff148c8925b75ac3e009dba4ddf5c1107edcb87b5b",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-18.bin",
+          "sha256": "3dbdd25e316de5e599e4dea3f55fa922500e51f07ce194e73e8f9255d46ee3db",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-19.bin",
+          "sha256": "cfee97cf329de2fe1ed76f779892b596a812eb321eed68375651120350df343a",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-19.bin",
+          "sha256": "f4ffb98ee8f34a992fae1e1496f1b75fbcca08b8f37faff830435c1b9a455101",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-20.bin",
+          "sha256": "f077394fe08cba7c8899e347384cc40ae0fd43946ced90684993a9045ba9b7b7",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-20.bin",
+          "sha256": "d4fe50f49d23193e056c14c0840bc02a66294043b6eb803125cd04fadd0ea150",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1250064,
+          "file": "source/high202-source-21.bin",
+          "sha256": "7e7bdd2deff0e7e6e6c11bdb0e64258f504b46f3e078a90c0dd5642769c7512e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 882222,
+          "file": "source/high202-product-21.bin",
+          "sha256": "aa30b3fa9b0a30b7a89dde7e3a9b44defe7f10044a5973d6a2fb516c6f9455f4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 3071,
+          "file": "source/high202-ledger.txt",
+          "sha256": "b26394b3813ffc8552618f5ed915615b9e851b2f635cf4b003932e96cdd72e2b",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 3443,
+          "file": "source/high202-receipt.json",
+          "sha256": "86179f0b12b9f29fd8647efe6a17032b0ee2e4bfc7e24ab04ae2b125fe337942",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 0,
+          "file": "build-outside/compile.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 567,
+          "file": "build-outside/compile-cache.json",
+          "sha256": "e03f2c3c0f16f27382e9306ab2c1fe87e1ee58c0f2bfabc25651978229f65b7a",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 2198,
+          "file": "outside/native.log",
+          "sha256": "9c772e052bf114ca995fdc6e1d85f64522bc2258ed989360370e343fa910384d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-0.bin",
+          "sha256": "0e750ffdb8079419437f44870bc7d538190037bad2920e5fca0d9a4faf1f0148",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-0.bin",
+          "sha256": "52bad1da28c27bec4bdf6533df1759109ddaba81b22f39d0f30b403eb51f72fc",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-1.bin",
+          "sha256": "0729859e2073fbaff5440aff6fdb060d2e4d586eabfdb587d96853f960e90bae",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-1.bin",
+          "sha256": "bbce3453f55faae6b77dde6742ef8f2cfb49c3501bcbf1b00e09ee4e59da050d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-2.bin",
+          "sha256": "e6dd7c53abe95c5d9bc74a3dbf86e6c2ec99a9f1834205ea58bc12e75c8b752f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-2.bin",
+          "sha256": "1300390e625447dafcf4b6291acd19f43e4513f892ea38693e3bb5493a204619",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-3.bin",
+          "sha256": "929e10b85a0cc34940fac57ffa4bef8cea611eace4d3e9ed3059c2213d8432fd",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-3.bin",
+          "sha256": "4a498fe145f8b64476fd203aa92423588d00b830b7613f08823e701411ba2c31",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-4.bin",
+          "sha256": "38f439f32a75f3d6bc185afdf96148e6743445ca54ac10b076469d2879f9fa05",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-4.bin",
+          "sha256": "b306418d0b09ea0ad07eec25227c1fc455eae2c91048865d303b0fbabddcf6c4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-5.bin",
+          "sha256": "c55b0289f3653b19f92544b6175eca3082defcb6c0cd4f5f0a7733ccebc17961",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-5.bin",
+          "sha256": "126f995d9e961080d55b8e320749191f59f644c7c7c03d9da75e7d01d54aee1f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-6.bin",
+          "sha256": "1db75b091df0faf6437daff59cfde4551024d5ac1c04c942b3f0fbe4a92d182d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-6.bin",
+          "sha256": "46b00a93c19f02029f7e11d48ce00946a48634fb0d6a1a2fd7a58aa374cd1680",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-7.bin",
+          "sha256": "5113b16b04692dbcc30f93d63f319cc27bc6ab5293bb955e83bab121298928c1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-7.bin",
+          "sha256": "4fb643455e8d7a740727a2514afa0a05a21b936a013b777444f8cda5231770be",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-8.bin",
+          "sha256": "782f8fba9268c0a66b231279d779d6e2fe033994c77979bbd8b7924f756e8840",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-8.bin",
+          "sha256": "9b446eecbb19e1a50dd2bffbf9ead42253b925462f8ed6a316c0693c3191b2ff",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-9.bin",
+          "sha256": "66d57d3f9ac43d4b039965ee79ccecd2688693adf4441d3b6a2400003f301f8b",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-9.bin",
+          "sha256": "7da3bb0a58e2955c5d2d71a450b5c7fc7ffe6660d42458624090479034deaba1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-10.bin",
+          "sha256": "88137e5da6c35deeb6a56c90dbb50f6fbf5fe9a540ee115a0164ee48bc838585",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-10.bin",
+          "sha256": "fe12aae6d5f46e8dd8b0683463823b829ea9f734b639fd1e8a5a27f99ead9d3c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-11.bin",
+          "sha256": "0948466733aacba13359ca6a47c6e826eaf02a1ba35a4c6b0a3c0a5fdecc99d5",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-11.bin",
+          "sha256": "d4cc249371463fd66daa5f95caa5921e7c9dfc6141b62a8176e0ee1d4b56bc0a",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-12.bin",
+          "sha256": "94ac4fee8e1eaa34367144034c6fafc95ae7913fd57339d4e47c7803dd52185e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-12.bin",
+          "sha256": "6d59b1b4c180e73a9fb544190d0e636e817281908a21210b5bb8045ccf2ed526",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-13.bin",
+          "sha256": "ba4cb76f12402af614856ff6c3934b2599ab059bb1c1ae0308040294ff2c1ea3",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-13.bin",
+          "sha256": "3d4cd80eed509c2b4389173968f3a8c2b77ca840183dca1ddc7c0e14948b8e4e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-14.bin",
+          "sha256": "ea89e91f41c727283998611e8c38e692bf9ffba7050d03f9060722fa7ee50beb",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-14.bin",
+          "sha256": "44377d170ef6fbb52426151c8f7ec17268ebaca059c0ae71e81e8f5fed774312",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-15.bin",
+          "sha256": "ec2ab036f9a04d179df2f21b146701486ef35dfd6b8990a99deaa610bca40efe",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-15.bin",
+          "sha256": "ef5656153ec0b9e9360fcb4eb1ac195dc944e4f54d447f3fb5da1b63b92ffdec",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-16.bin",
+          "sha256": "650a072a834c6adb9af33c2a88b348ce8a7631d4afb08153f0257384db75c025",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-16.bin",
+          "sha256": "62602dbaba30056070a45316df79ac2048dbf77a2e7430f7c65621f8b2554b18",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-17.bin",
+          "sha256": "a12623517f6800ddc7688b6300bff28bdd2894073ffe48072484034320f003c9",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-17.bin",
+          "sha256": "0bf6e7e07054df0a301208dd4823d1dc89b87fe07d2cd1518e34f9aa54322403",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-18.bin",
+          "sha256": "94619c5d8247e1b26696caeae429e13364d53b7d2b021e3cda17c23316e4938c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-18.bin",
+          "sha256": "43f8c0ca6294839dedf7c7b52c5357fe4f574d0c7887e2d30a3f1d0aba7465da",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-19.bin",
+          "sha256": "a3c98f123c96a588f857917f48fe058c7a29933f72d5c26591818fb387deb259",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-19.bin",
+          "sha256": "19497a224b2750c94e7efa5a4ef1f9529e922d7d50877ef620aaf8125ae11e16",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-20.bin",
+          "sha256": "e5ab922b3ac98598cc8f8509e362b536e8ce0185eb5fb3f754bb81ef088c0b53",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-20.bin",
+          "sha256": "7f2d0fba66a429371467dcf3d7f644ed4012c6f87206d8ec5029ed76ae99619d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 370556,
+          "file": "outside/outside202-left-21.bin",
+          "sha256": "20852a93df7dc150d1ab52ed4dc66dbb494feb1ffe08447cf228db4a5f700db1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 329752,
+          "file": "outside/outside202-product-21.bin",
+          "sha256": "3ef9f2e27d8874f9b9da0a4b36267708cf1095bc92ec54c7bf4ad5d23829d49f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 3201,
+          "file": "outside/outside202-ledger.txt",
+          "sha256": "0353baa6e3ff97ed8bdda0101ebec3999d8b1df256c47896acedd07f2589d0c5",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 2095,
+          "file": "outside/outside202-receipt.json",
+          "sha256": "e752d4a53e6857cb45df33f1f750bd7944eb4e8172eb86e75bd1c78b7f226197",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-0.bin",
+          "sha256": "63ba5ac5e2f8231561ee1a9a024ef5ee4fca47505cbec6e670b250493da44058",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-0.bin",
+          "sha256": "8074082e34652c039fb6cae5c50666f4770d1e2cd0639325c276cf940ca484e4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-0.bin",
+          "sha256": "e666cde4f6eb174023b4809b2ee279ed8bcd616176f607634bca67c21dce8d25",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 37724,
+          "file": "quotient/constant-higher-quotient-inverse.bin",
+          "sha256": "de7e0ffb75350797118dabd9137f7b89bbbbf9f0608dec9c9bda523b90e9e536",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1899,
+          "file": "quotient/constant-higher-quotient-unit-profile.json",
+          "sha256": "efbd337b65f30cef4c3ffc317afd3e8407eb16367a5adc729b30264056e6fe07",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 3970,
+          "file": "quotient/complete-quotient-layer-ledger.json",
+          "sha256": "0b9fbb935805097ea12fe64ef7aa3cffedc0b918a93ace837a1900070e85f97a",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-1.bin",
+          "sha256": "afed817a603103e46c51518ebcfd3d764b7860c9668b4e1cd28bbd6d1be9403a",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-1.bin",
+          "sha256": "4df52311197e7a435f9538f8b71e1ebb1f3db3511e1dae7c1d0fb1622d38068e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-1.bin",
+          "sha256": "ed2eff263ba34c17445003ec1eb80510368a9e95bd2a3a300bd0ca294234ecd5",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-2.bin",
+          "sha256": "357eeec221d77bfc408a6601ef03023d0c7c6134564002090237ea4266174902",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-2.bin",
+          "sha256": "d7538837c58771b3286123851be02473e9ddc25244557e80550015cd4f89d313",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-2.bin",
+          "sha256": "9d2fefb63681b59914c10acc2d6a070f7667854a527c9e39a4144557f218b3b6",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-3.bin",
+          "sha256": "783800eab911286b244850c89f8cb9152e08776a78e5136ef4ba70b28a24dea4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-3.bin",
+          "sha256": "b4c2446f6e56f957eb741f1a1aa08a5dffd9cb6675bcc81cc272fdacc48632cb",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-3.bin",
+          "sha256": "986e8e443f6f599acf210b3125013e3808741ec8d1bb77511d4fafa9fbd08d48",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-4.bin",
+          "sha256": "8f8186657c17e04a20cd43315bb2dcd1c264a258d42273f6a0a9ebf849810224",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-4.bin",
+          "sha256": "6e8acaa08717a0a7376a0082cd95bcdbb7232b0534006a32bff5ef900294deb1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-4.bin",
+          "sha256": "c323c82f734bc3163b058ad4343dffe403725101c4c3dd9dae6d3f1bb71925ce",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-5.bin",
+          "sha256": "5e28cb801ee8621277c2ed3d96a65fe8e8dc05ff76d0fd583b8e0cfca8306f9d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-5.bin",
+          "sha256": "da3002de34611d04ffa26103c31ae3f5d21216110f6728a1e76de39b9b9c33b4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-5.bin",
+          "sha256": "da504685d721a1d109b808508a9aa1d32a7793415a818533647a36c7ac60fc3b",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-6.bin",
+          "sha256": "e8bc46f672f8e004ca1e4580540b14a0781de6b10f6efdd3431f3b01e0029759",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-6.bin",
+          "sha256": "5af0f261c5c7886b4c8eee03500009a98c11e700027bbbe9c789fe735bfcfd51",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-6.bin",
+          "sha256": "392195167fd9772ba5888f286bb2f1b4b93da33d4c850adcefe251c46a2d5271",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 40892,
+          "file": "quotient/higher-matrix-7.bin",
+          "sha256": "21ffd078e084357620bb7580eeec4322776407ef8b24adc9b1d91d989bb3b31e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-graph-7.bin",
+          "sha256": "e4173cfe90e13a75d390efe7c9431146025686bd21ba948506bec2ff881c71b1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 1704,
+          "file": "quotient/higher-residual-7.bin",
+          "sha256": "1c86e6bbe2a4580ef6afdce4492046f209ed79839a86b21617bc3755f5660bda",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 3188,
+          "file": "quotient/complete-original-higher-small-smith.json",
+          "sha256": "68c3cf085e212f03859ff807952e82ba493a318b9f4e4c426f0c3551013ad0e6",
+          "temporaryOnly": true
+        }
+      ],
+      "through": "final"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 18:02:34 UTC",
+      "beforeReadCommit": "9ac3a153b890a05e12401941a8a0ba07cb042243",
+      "originMainAfterPull": "35d9b82b4be396ebee6455bf7ab11a285a5d4e29",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 18:02:55 UTC",
+      "beforeReadCommit": "35d9b82b4be396ebee6455bf7ab11a285a5d4e29",
+      "originMainAfterPull": "35d9b82b4be396ebee6455bf7ab11a285a5d4e29",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 17,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 5832,
+    "logicalJsonSHA256": "b27cdbf63ad8e7ae67d5e86981e1b0237e12f7817f464e0bfaabc306b9d14604",
+    "itemCount": 17
+  },
+  "lastRulesReadCommit": "35d9b82b4be396ebee6455bf7ab11a285a5d4e29",
+  "summaryExcludesRecomputableArraysOnly": false
+}
