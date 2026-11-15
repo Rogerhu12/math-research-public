@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 51cbf8f06c74f88562d4a27b64d0783a24bf80ac（2026-11-15 06:21:24 UTC，Actions run43685049379实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43685049379-1.json。
+- **最近成功实际 pull 与已读规则提交：** e6b7ef32cb818f237eeaa683b884eedd3e4ba483（2026-11-15 06:23:01 UTC，Actions run43685167522实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43685167522-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[完整快照](notes/2026-11-15-handoff-before-original-unit-elimination-789f.md)，旧未列缺口不算关闭。
@@ -20,6 +20,8 @@
 - p768的52/26/39个确定LLL基候选均全原核完、新增0；[最后39候选证明](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)保首次未完成及同格保基实绩，不再试格。原17式rank8/quad17及m0,m1的31单位精确消元已成，selected有限来源仍须运输；完整链接见open。
 
 - **[当前∞的1632标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)：** 187原子式mod31=28，F31/Q真独立；[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)等同且17缩放31单位。run43679903558外支持实际1.575719778秒：1834×1632秩1603，外核/36自由像均29维，与旧23轴并仍29；Q支撑交仅上界29，6新模方向正作精确提升，旧23成员性须完整原表示。
+
+- **[Koszul的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)：** 187/17原单位子式给ΓΦ=I、直和与31饱和；成员性须核全6188及斜对称，投影不保J，不能把外核mod31当Q。
 
 ## 同w边界：完整返回仍须费用估计
 

@@ -163,3 +163,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [原N零逆支的负实临界点](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)已证明：完整原逆圆盘的领先指数系数12.5不能固定降小，准确障碍为12.5d³−1.25d²+O(d+m)。此入口只限N，不能代原同源Schur或ordinary封口；继续可用次阶半径增益和真实返回估计。
 
 [原N/Y的次阶半径增益](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)已付：τsharp=12.5d³−.75d²−1.5d+…，同ε、真列权、新实际h−1展开均保；R=ceil4/ρsharp、2h+R<Q*/2，原同w窗口不变。可用Q*/h≥e^(801d³/64+.5d²)/12，但μ²≤κXi²本身未付，继续真实返回及固定Green列，不用完整链基d4成本冒充ρ^-1。
+
+### 标准Koszul来源的精确小系统入口
+[原6188上的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)已付ΓΦ=I：先187阶恢复三次头的线性系数，再17阶恢复二次余头的常系数，检查完整来源及斜对称才收录。标准空间31饱和，但投影不保J；当前外支持mod31核29维正待完整Q提升，旧23成员性可由此两个小系统核实。
