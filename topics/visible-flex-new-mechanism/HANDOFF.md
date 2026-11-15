@@ -36,7 +36,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **强圆旧阻断与弱几何**：R304/306全C²/Green/有序尾排rank-one(W0)圆；R311排固定包连续幅轨道。双hook0⇔W0，但原third仅单hook AfW0；regular弱核亦排，Af0曲开段W≠0是真入口。R317/319/320各朝外/单向族旧阻断保原范围。R325朝内弱圆、完整8/12copy给third；R354真反射/受控ω桥给偶分支。先全部有限profiles再he/Ω安装新hook/闭合，x+ω>1；新seed/g不继承旧wholeE/Morse/period。
 
-**同一偶弱圆Gaussian已付R383**：R357–360原self/Green/有序尾正锥付18面积；R364真角T/Fnew保J/K。R376/380/379完整17行、204正列、最高平移次数10、同一有限N根付17真实π/2值；九乘积全角已零，ZZ2仅cΩ Re∫(q′−xq″)^4 sin²θcos²θ。末Fstar纤维准确冻结该O，不能加末控制行补。R383在更早完整等背景模板的一编码位置，所有真8/12/镜像共母一起变：保半母3矩、9个实际copy self和及J/K。原ordered缺陷证常微分关系仅矩二次式；有限Laurent minor不交并置、同母最大秩/常秩IFT；完整权/Γ不对称/Euler u²与xuv两列证O非旧span，产生真实Ω±。保持18面积/J/K/第三，正幅H³及有限伸缩使Ψ成本H−4，精确补弱基线Ω且留负Ψ。再静态补Ψ并同17根：**十对称Gaussian乘积的三个外矩、所有θ同时0**，18area/T/三directed/原一层亦保。Ψ因Fnew保∫u″⁴、弱核固定/强W0逐扰动准确不变。所有包先定再he/ω安装新seed/g；完整0/1history函数、period/joint/全时嵌入reach仍欠。
+**同一偶弱圆有限Gaussian表已付，但完整一层被R387阻断**：R357–383保真实self/Green/有序尾、18面积/J/K/第三与全部基线。R383在更早一编码位置变全部8/12/镜像共享母，保半母三矩、9个实际self和/J/K；ordered缺陷、有限Laurent并置/常秩IFT及权/Γ/Euler两列给真实Ω±。正幅H³/有限伸缩以Ψ成本H−4补弱基线Ω；同17行204正列有限N根付十对称Gaussian乘积的三外矩全角零。Ψ在固定弱核/强W0/Fnew纤维准确固定。这些有限结果保持。
+
+**R387新的完整必要余量**：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)：原完整elementary Q、R221局部恢复及R325 mixed身份给 [σh^(−2)j^4]R_(−3)=11κ⁴(41t²+27)K(t)D4/[10368he³P(t)(51t²+2t+8)]，t=κ²∈(0,.01)，K全正、D4=∫(f″²−φ″²)²。局部同次准确0；合法二/三阶gauge与传入history只改We，R249真Gaussian词分离，不能吸收。当前π/2的D4=4∫f″²g″²>0；保同假设的任何非退化圆也不可能让全一层零。不得继续同芽增加补偿行当可解入口；改芽/第三算子/首阶轨道才可能避开本稿范围，后两项尚未证有效。非一般C²刚性，不撤销上述有限表。
 
 **period欠账**：R184/185/221/225原iff保G″平台/活动flux/端germ/双collar；45span/48×135不是解。R312–327新有理芽付19局部门/指定端口，但period随gauge变，同一w的13行兼容、降秩整除、其它段ruling/两period欠。R345 wholeE核K0保11完整链，只付局部点有限(E,F≤11)全部基准，非全Af/Ω/尾/period；不无证移植新弱圆。
 

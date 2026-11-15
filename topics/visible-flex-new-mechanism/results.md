@@ -234,3 +234,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## Covered-soft ordinary-growth首次实际：旧增长一次/旧SOC hold两次，新增长零
 
 见[covered-soft-ordinary-growth-first-actual-result-20261115.md](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)。run43762868037/job132961344492/source4f136530，4新组20过；140绑定/135py/旧130闭包全核，24原输入+唯一已完成SOCpair checkpoint直接传递，无旧优化/检查/事件重放。6model的primary1/2/2/1/1/2及SOC0/1/0/0/0/1，总11，末1按原no-unpaired未用。η.2663015219132816→.2662701215525791；m1旧legacy增长已m2实际用、m2/6旧同布局17guard hold成功，新coveredproposal/usage0、expandedhold0。8trial新行/omittedhard全0；fine+93属首模型前。375bank/4432+4451/B.00025/双streak0为唯一后继；1303memory+377新cut；18+2value/active35.0645s/total324.2936s与初验234.3628s保账。旧metric/两网14门/盒过，.26/主1e−6/连续曲率reach欠。仅消费原结果和交叉字段审计，不机械重跑求触发。
+
+
+## R387｜完整一层的正j⁴余量排除当前共振弱圆
+
+[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)（15305B；SHA256 `399b1b51f02e27223a6fc669fe50937e864559f01f6a9ff3ba434761a7e241e3`）。原三矩、弱hook、WP面积、三directed与Ψ同点时，完整 [σh^(−2)j⁴]R_(−3) 是D4=∫(f″²−φ″²)²的严格正倍；原Q最高项与局部全式分别核对，K全正。当前π/2有D4>0，合法二/三阶gauge及真实传入history不能经We或其它Gaussian词抵消。R383有限18面积/十乘积等不撤销，但当前完整第四ruling不可解；同条件任何非退化圆亦排。严格限本稿共振芽/第三结构/圆，不称一般C²刚性。根全文、mechanism原式/所有合法gauge独立核通过；未执行研究。

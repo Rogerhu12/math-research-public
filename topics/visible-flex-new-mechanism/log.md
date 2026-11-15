@@ -302,3 +302,8 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 - 2026-11-15 21:32:48 UTC，Astra-new-mechanism-9974ea84：完成并立即推R385（14374B/SHA256 f3b37078c8c37e453d35b83f8d6d4aa4f29ad677f992a157ba51a032b21e7a73）。机制原d21c62cd稿经根全文和literature逐原R73/83/105/109/129/350/382/354独核，补ℓ在U/R一致及R384链接；τ=ε^(3/2)真脉冲、M0后历史、Y_b真倒行、固定端口/完整Klein基准均付，一个Λ任意实值实际有限C1截面。非实际2控制/同g；无研究执行/旧复跑。发布APIb00bcc5f758791d5c715ef7825f6065389ce1d4a双README同，非actual pull。
 
 - 2026-11-15 21:36:24 UTC，Astra-new-mechanism-9974ea84：完成并立即推covered-growth首次实际人类note（19047B/SHA256 f9765200f77bbe8a564f11c85d6072f81863c4b9434a698a8d81a0adabb1724c）。root原log仅下载一次、逐actual字段/140闭包和两pull核读，tail独核转交原字段跨model/费用；根全文复审，规范美元math，纠正JSON元数据不含LF、24输入与affine/重构cap口径。6model/11LP，旧增长1/旧same-layout hold2/新covered增长0，actual末η.2662701215525791、375bank。H/open更新唯一末态，同时消R383已付Gaussian旧欠账及撤回H误导标题。下一按原PSD失败研究新学习margin，不延预算/重播已付阶段。发布API2008c440cdbea749a507f7bfc11b018d33ce5d55双README同，非actual pull。
+
+
+## 2026-11-15 21:47:27 UTC｜R387完整一层障碍落地
+
+由原R73/R221/R296/R300保真实elementary Q与局部恢复，j⁴余量严格为正。R325 mixed全尾消元与原Gaussian词独立性闭合，peer另核原R184/R224/R243所有合法gauge/传入history。文稿15305B/hash399b1b51…，完整手证，无求积/符号运行/人工测试。R354–383有限结论仍真；HANDOFF/open已将当前Gaussian圆从可继续第四构造改为已阻断，继续不同真实入口；主题仍进行中未完成。发布基底 2867463e47976ced9361a0df97db7c324859ce3c。

@@ -40,7 +40,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 R304/306在0<κ²<.01原Gaussian芽、保全Green/有序尾/合法gauge后，严格排不交及重叠导数rank-one（W=g′f″−f′g″=0）圆。R311另排固定rank-one包空间任何连续幅值轨道；增频、变宽、母形、包序、斜率、椭圆或更多同类列均不能绕过。只是这些族的结论，不称一般C²刚性。
 
-R308真弱入口只需单hook AfW0，允许Af=0曲开段内W≠0；紧光滑双hook同时0才迫W0。R317原physicalβ≥0朝外族被完整mixed阻断；R319全部单向族被完整A−2,−3 I0阻断，与β正负无关；R320付真反射三矩后朝外双向族仍被原一层正余量排。当前Gaussian有效入口已转R325及下方R354–361朝内偶弱圆，不能继承旧rank-one局域/自动零。
+R308真弱入口只需单hook AfW0，允许Af=0曲开段内W≠0；紧光滑双hook同时0才迫W0。R317原physicalβ≥0朝外族被完整mixed阻断；R319全部单向族被完整A−2,−3 I0阻断，与β正负无关；R320付真反射三矩后朝外双向族仍被原一层正余量排。R325/R354–383朝内偶弱圆的有限Gaussian表已付，但R387的完整一层正余量已阻断当前分支；不能继续按同芽有限补偿推进第四可解。
 
 另一分支R312初装新有理芽h=he(1+εσ²)、k=κ，其E=atan(√εσ)/√ε、L=log(1+εσ²) monodromy给完整ruling iff；R315/318/321/324原真尾、有限N全角正锥现已付全部E²/log/E及Rrat∈We共19门。R326同全局wc=−XD加合法第三Gram付指定端口，但同时改变两period；同一k还须3合法矩、7σh幂、3Eh系数和2τLf k=−Vc。R327的13行兼容、降秩整除、其它段同k ruling与相位/seed仍欠；不能逐端口重锚。所有详细原式/有限复制/失败保原results。
 
@@ -82,11 +82,11 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
 
-### 同一偶弱圆的Gaussian表已完整支付：R383
+### R383有限Gaussian表保持；R387完整一层阻断当前弱圆
 
 [R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)在原等背景模板一编码位置保全部真实8/12/镜像共享母，冻结半母三矩、九个实际self和及J/K；原ordered缺陷/有限Laurent并置/同母常秩IFT与完整权/Γ/Euler两列证明给真实Ω±模块。有限正伸缩H与四次幅H³精确补早期弱基线Ω，Ψ成本H−4留负储备。再原R379同17行/204真正列/一个有限N根，十个对称Gaussian乘积的全部三外矩、所有θ同点为零；18area/T/Ψ/三directed及完整第三均保。Ψ由固定弱核、强W0及Fnew保∫u″⁴逐fiber准确固定。
 
-这已支付R376/377/379/380曾记录的ZY0/WY1/YY0/ZZ2欠账；末Fstar冻结O的事实仍保，真正修复发生在更早实际模块。下一接完整零/一history函数及原canonical第四period、同g joint。不得从有限Gaussian表继承旧几何wholeE/Morse/全局嵌入reach。
+这已支付R376/377/379/380曾记录的ZY0/WY1/YY0/ZZ2欠账；末Fstar冻结O的事实仍保，真正修复发生在更早实际模块。R387现已从完整原式证明另有严格正的一层j⁴余量：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)。其系数为正倍∫(f″²−φ″²)²，当前π/2严格正；合法gauge/传入history与其它真实Gaussian词不能抵消。原三矩/弱hook/WP面积/三directed/Ψ同时保持时，任意非退化圆也不能使完整一层零。下一须核真正不同的端芽/第三算子/首阶轨道；不得继续在这个已排类内增加有限行、频率或正幅块。其它端芽也不得继承本芽的wholeE/Morse/period。
 
 ### 历史H非零与秩结论已撤回，以R378–385为准
 
@@ -147,6 +147,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 - **R384已付/继续边界**：纯δ4完整系数族的自然像恰二维及其有限正锥已证，全部H自然像0。固定u的标量两号可由中心穿越获得，但必须另付快脉冲矩阵、真倒行、固定端口桥、Klein及全部基准；不直接升级实际二维或固定g。
 
-- **R383已付/继续完整0及1history**：实际低层Ω±模块与同17根已使同一偶弱圆的十个Gaussian对称乘积（三外矩、全角）和18area/T/Ψ/三directed同时零。其证明保实际共享母、ordered Γ、有限秩和所有强弱基线。剩余完整0/1history函数、canonical第四period与同g joint不由有限Gaussian表自动支付；接原式下一项，不移植旧geometry结论。
+- **R383有限表保持，R387已阻断当前Gaussian圆**：十对称乘积三矩全角与18area/T/Ψ/三directed同时零仍真；完整一层另有严格正j⁴系数，原合法gauge不能改。继续不同端芽/第三算子/轨道，不在同假设下重补这项。
 
 - **R385已付/继续joint**：完整Q4脉冲已真实支付一个固定Λ的任意实值及紧集有限型C1截面，完整M/T/scalar/frame/位移闭合、ω下界与全部基准保真。不同profile的joint、原whole pure/self/其他读出保持和同一g未付；接完整非纯δ四次槽，不复活H旧非零或从R384二维span跳到实际二维。
