@@ -16,9 +16,9 @@
     3968
   ],
   "completed_bundles": null,
-  "completed_quarters": 95,
+  "completed_quarters": 188,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 95,
+  "new_completed_quarters_this_child": 188,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 3813,
+      "index": 3906,
       "request": [
-        953,
-        4,
-        1
-      ],
-      "interval": [
-        "1309445047906031/1125899906842624",
-        "2620062908215023/2251799813685248"
-      ],
-      "true_adjoint_Gram_trace_upper": {
-        "ball": "[1.3950550459058332250171741863815171e-17 +/- 3.82e-52]",
-        "lower": "[1.3950550459058332250171741863815171e-17 +/- 3.82e-52]",
-        "mid_float": 1.3950550459058332e-17,
-        "radius_upper_float": 0.0,
-        "upper": "[1.3950550459058332250171741863815171e-17 +/- 3.82e-52]"
-      },
-      "exact_array": {
-        "bytes": 345616,
-        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-3813.npz",
-        "sha256": "9437226a2b174df585f33a26cd2a91079e2b941eaf4aa6202ee13dcfd71f8903"
-      }
-    },
-    {
-      "index": 3814,
-      "request": [
-        953,
+        976,
         4,
         2
       ],
       "interval": [
-        "2620062908215023/2251799813685248",
-        "149/128"
+        "10726073112520731/9007199254740992",
+        "21459652224420413/18014398509481984"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[1.3963909959985565053200496795059171e-17 +/- 2.13e-52]",
-        "lower": "[1.3963909959985565053200496795059171e-17 +/- 2.13e-52]",
-        "mid_float": 1.3963909959985565e-17,
+        "ball": "[7.7515397818043664253523637312485872e-19 +/- 4.27e-54]",
+        "lower": "[7.7515397818043664253523637312485872e-19 +/- 4.27e-54]",
+        "mid_float": 7.751539781804366e-19,
         "radius_upper_float": 0.0,
-        "upper": "[1.3963909959985565053200496795059171e-17 +/- 2.13e-52]"
+        "upper": "[7.7515397818043664253523637312485872e-19 +/- 4.27e-54]"
       },
       "exact_array": {
-        "bytes": 345624,
+        "bytes": 345112,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-3814.npz",
-        "sha256": "abb4179413759b36c13e415e50e48596c7e79a8727976d066759d909cce5d509"
+        "file": "adjoint-quarter-3906.npz",
+        "sha256": "dd4e663a57fb2b695d40c1d88b929f82c6a5a6540e0cdc612a51e7113d3f85df"
+      }
+    },
+    {
+      "index": 3907,
+      "request": [
+        976,
+        4,
+        3
+      ],
+      "interval": [
+        "21459652224420413/18014398509481984",
+        "5366789555949841/4503599627370496"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[1.1518595515928653568561789915233147e-18 +/- 2.93e-53]",
+        "lower": "[1.1518595515928653568561789915233147e-18 +/- 2.93e-53]",
+        "mid_float": 1.1518595515928654e-18,
+        "radius_upper_float": 0.0,
+        "upper": "[1.1518595515928653568561789915233147e-18 +/- 2.93e-53]"
+      },
+      "exact_array": {
+        "bytes": 345273,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-3907.npz",
+        "sha256": "5bde3564f7f68ff97794f9ab08ccae233311ba52db31c4c5133c3215a0c1bf3f"
       }
     }
   ],
-  "native_sha256": "da431ec0791aa1b605d89ef048572f9b44a7be4b5a3888fd7fe47069a4c7cbb9",
+  "native_sha256": "f4a91af50376af49c9da8c9c1c4b051c084abf942de025682b6baab1eb4e6a9f",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:15:30.639162+00:00",
-      "before": "2c3d9d788ff91987547fa39a69726cda676ccfa3",
-      "after": "0c9a439142dd5f4c175a39bd64519105c1dc07a0",
+      "time": "2026-11-15T02:25:44.873365+00:00",
+      "before": "cca4f4a70a59960de08fa9aa3dfe994d9af49431",
+      "after": "851d52a7177758e5dfedaa33b7517b62dc34e94f",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
