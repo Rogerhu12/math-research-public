@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：fc1f4ee7ce513e1872ba8ce13ccc55be7b83f319；2026-11-15 21:04:42 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
+- 最近已读规则提交：3f729aa3daef9818c6ac114889ae92c1f92fdfc9；2026-11-15 21:09:35 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -12,9 +12,9 @@
 
 ## 完整归档、状态与分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r824.md)沿完整归档链保全部旧常数、原来源/十九角/ray、run/hash、已撤推论和未闭门；压缩不撤限制。[完整open](notes/2026-11-15-open-before-r824.md)；[旧结果索引](notes/2026-11-15-results-index-before-r804.md)。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–825已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
-root唯一metadata/ref写者；root续有界S次数排除之后的二次临界区域，deep同R留数/真联合核，theta真实四中央对全M的接口，literature三固定高权类的跨p/联合非零。完整证明成即单独推。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r827.md)沿完整归档链保全部旧常数、原来源/十九角/ray、run/hash、已撤推论和未闭门；压缩不撤限制。[完整open](notes/2026-11-15-open-before-r827.md)；[旧结果索引](notes/2026-11-15-results-index-before-r804.md)。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–825及R827已登记；R826第四CM槽成稿中；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+root唯一metadata/ref写者；root续有界S次数排除之后的二次临界区域，deep同R留数/真联合核，theta四原[z^(p+1)]首必要系数的真实共同零，literature低权三重积第四CM槽/原高权类跨p非零。完整证明成即单独推。
 实际pull20:40:00成功，run43759342390/job132950404527，head131193eb4，两README差异空/blob吻合；回执ci/rule-pull-20261115T204000.json，下一21:30前。R818/run43757109911与R820角式/run43756861065全日志已核；完整源、args、script/stdout SHA在原证，无复跑门。最近ref接口瞬时错误均已立即尝试pull并换新head非强制重推成功，无未推结论。
 
 ## 当前已付与紧接接口
@@ -45,13 +45,12 @@ R808同R在原点两k光滑支，λ与2λ/3、交数及δ=h；零链亏量m_R=2�
 R815原X全NE26/nef4501、惰性21/901，primitive射线b∣12，f/H+为全部nef平方零射线，原S=aY/7无基点。R819真实m=C.f0,e=C.H+给κ≥(b−m)e+bm、χ≥2b+m；全部非负分解及m>0等号链已付。原m3近最小κ区域e有界，同R同属m2分量由δ=h给κ≥2h+2b。数值类不代截面、整半群或全来源饱和。
 R823对实际最小类C=bH++mE01给原[1:S:U]到F1的双有理态射，U=S/t；完整整截面基S^jU^i（i≤m,i+j≤b）及面内乘法满射/Euler对角均已付。完整dualizing基Q dS/P_U=U²Q dt/e保奇点导子区别；原m3有2b−5行。结合原R805得h≤30b−36，故r2窗口p≤360b−421≤120D−421，排p>120D−421的整个最小面；不外推正余量或全WD左核。
 R825对原全部nef类付准确平方和2be−κ及尖锐κ≤2be−m²，等号类bH++mE01+(e−m)f。原次数帽给a≤4b+e−m、z≤min(2,e−3)，R805在r2/k0推出p≤24(e+2)D+24e−493+24min(2,e−3)，故所有固定e及固定近最小余量区域在p∼D²时排除；剩余e必须增长。未排真正二次临界区或同M指定Schur。
+R827付原全nef精确平方差κ=47b²/12+2bτ−Σ_Nm_i²/n_i−V及0≤B∞C−e≤√(47V/12)，全r2实际τ≤13/4；满自交临界强制十九重数/ u / e的唯一主比。完整整数来源交数B_D.C≤D(B∞C)+35b/6，故p>47b²+156b+38付全部r2 profile（含移动H和+1例外）的真实一维核/下一单位行；唯一Δ/p仍未知，不代全M。
 R805全部已分类profile含移动H/最高移动极，h≤6γ+2a+10b+2degH−6；R743两真实连接359κ/96单位秩可用此全范围，仍不代指定forcing。最小/有界S次数区域不等实际κ≈47b²/12临界区；H3的Serre行不自动杀全部WD。
 
-## 普通原来源与其余全旗标门
+## 普通及其它保持的主门
 
-固定q*=R734、50/58行、两核六支、N4及λ/β/κ、旧ray两η全N和全部13/19按完整归档保。q与cd不同；R749仅固定有限carrier，R753禁无限log/N投影，R533/540禁未付负矩反射。
-R773–801原帽/U、所有外部、primitive两型和W浅补完整保；R791深浅负一各非零仍被外部补偿，R780§6(28)撤而R786 Norm(C)=1。R800零W边际仍回同Ψ不增中央零。R801 E深Z²虽同ray六系数unit，负二仍三个I_j线性和并有ζ伴随；R807/R809完整半周期交换子/唯一primitive3预像/三CM13比整可逆，不代指定值非零。
+普通q*=R734、50/58行、两核六支、N4和旧ray两η全N/13/19按全文归档保；q与cd不同。R749有限carrier、R753禁无限投影、R533/540禁未付负矩反射。R773–801完整EYW深/浅/外补均保；R780§6(28)撤，R786 Norm(C)=1。R800同Ψ不增中央；R801/807/809负二仍三个I_j线性和及ζ伴随，CM13比可逆不代指定非零。
+R812同charge A=S(2z)/64、B=U136−A保每前缀/Smith/13carry，SB体积D²/10、canonical i≥4j，纯起阶不改主项。R756/758预算177/47已最优；R760新三维仍缺同源central传播/严格aI+3bI<6。R769/770全ζ/两ε、R775增帽3s/p与R779/781有限unit前缀保，不复跑。
+R709单位/flag整性门141/2、297/20未覆盖47/8。R736完整Hecke/2048类仍缺C_pv无限p非零/中央→边界/annulus o(p²)。O4指定早项a≤1/δ²、O6全Np有限/λ≤3无限p、supersingular二次regulator、quartic/O3/O7均开；AST/strict/fine/深节点不代全Selmer。已撤文献推论见全文归档。
 
-R812 A=S(2z)/64、B=U136−A首1890w²，完整Newton含q_p(2)；同charge换基保每前缀/Smith/13carry，独立SB体积D²/10、canonical成员i≥4j，纯起阶只低阶收益；严格门aI+2bI<3未付。
-R756/758 Norm3预算177/47已最优；R760新三维来源仍缺同源central传播/严格aI+3bI<6。R769/770全ζ/两ε、R775曲率增帽3s/p及R779/781有限unit前缀按全文归档保，不复跑。
-R657 char0非目标p单位；R709全平面需p>(141/2+o)D²、flag整性需p>(297/20+o)D²，未到47/8。R736完整Hecke/2048类仍缺C_pv无限p非零/中央→边界/annulus o(p²)。O4早项a≤1/δ²、O6全Np有限/λ≤3无限p、supersingular二次regulator、quartic/O3/O7均开。AST/strict/fine/深节点不代全Selmer；Wang2026已反证，Kimv2/LongoVigni等按原范围审计。

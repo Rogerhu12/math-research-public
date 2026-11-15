@@ -1,5 +1,7 @@
 # R795 — 原因子接触的一维核、真实下一单位行与唯一 Schur 缺陷
 
+后继：[R827 原全角平衡及完整profile有限交数门](R827-original-angular-balance-and-complete-profile-threshold.md)给全r2显示充分门p>47b²+156b+38；仍不认唯一Δ/p非零。
+
 日期：2026-11-15。**状态：以下带明确交数门的结论已证明。**
 本篇只识别 R782/R790 的因子接触矩阵。
 它不把原整个 $\mathcal W_D$ 的首核设为一维，

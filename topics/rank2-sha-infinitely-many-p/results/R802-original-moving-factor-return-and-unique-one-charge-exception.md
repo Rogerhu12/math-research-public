@@ -1,5 +1,7 @@
 # R802 — 移动常数因子的真实小成本返回、唯一一 charge 例外与原接触核
 
+后继：[R827 原全角平衡及完整profile有限交数门](R827-original-angular-balance-and-complete-profile-threshold.md)给全r2显示充分门p>47b²+156b+38；仍不认唯一Δ/p非零。
+
 日期：2026-11-15。**状态：以下返回、唯一例外、最小性及有条件接触核结论已证明。**
 
 R797 的六十四格不能全部以同一个次数预算返回 $\mathcal W_b$。

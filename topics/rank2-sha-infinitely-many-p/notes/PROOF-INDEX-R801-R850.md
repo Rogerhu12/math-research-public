@@ -71,3 +71,6 @@
 
 
 - [一般块数的全部纯幂重数预算](2026-11-15-general-central-blocks-and-pure-power-multiplicity-budget.md)：已证明条件性N块纯幂首核的准确两长度门、完整RR及全m优化；最小m=2(N−2)时主比2(N−2)/(N−1)<2，故不能只用固定F^N越过3的量纲排除全部候选。原来源、末块、全carry与深核构造仍须支付。
+
+
+- [R827](../results/R827-original-angular-balance-and-complete-profile-threshold.md)：R827付原全nef精确平方差κ=47b²/12+2bτ−Σ_Nm_i²/n_i−V及0≤B∞C−e≤√(47V/12)，全r2实际τ≤13/4；满自交临界强制十九重数/ u / e的唯一主比。完整整数来源交数B_D.C≤D(B∞C)+35b/6，故p>47b²+156b+38付全部r2 profile（含移动H和+1例外）的真实一维核/下一单位行；唯一Δ/p仍未知，不代全M。
