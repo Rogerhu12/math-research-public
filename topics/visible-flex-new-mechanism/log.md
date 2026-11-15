@@ -280,3 +280,7 @@ results已到91665B，将首段R304–R343及同期数值索引原样移至resul
 ## 2026-11-15 21:17:08 UTC — 新覆盖扩径五源与唯一公共执行接口接完
 
 根逐行读两driver相对已付SOC_PAIR差异，核one-log/130旧源、原4组19及26/cache递归证据、59bank/4432+4358/legacy1/new0。新audit三观察分列，future同时存两streak。两driver SHA256分别645c13c86f78d5235b59bc921b8a5b229d9a671333e3ae0c61573ff9d0e15ec5/fb7b04055ac7b0d9c52c4a0b1cb8fa8483316919b0c1c6d51103a378a33fbfe4；原父RememberingCompleteModel确为CompleteGridAffineModel子类，生产最终对象绑定接口已源审。workflow 4223B/08029ae79f69438e9e8ffad5f232bd395a5b999102407cfefccba01c8a3bf7e1；待单独request 37359B/8c720549a3ccbbc41e0597114abeff8b009e75eb2ae5bfaff05c7befd59a76db，140绑定，原24-input数组不改。新检查/科学仍未执行。
+
+## 2026-11-15 21:17:33 UTC — 首次covered-soft普通扩径请求，唯一新阶段
+
+提交request-covered-soft-growth.json，37359B/SHA256 8c720549a3ccbbc41e0597114abeff8b009e75eb2ae5bfaff05c7befd59a76db，140绑定；源已单独接入81be993d9962f42e425cb1163115361944920ed3。仅4新组20条首次检查和一次原12LP/40值/120active/10s续跑，不重复旧19/26/cache或旧科学。source run43758666042 exact159/163、59bank、4432/4358、B1/8000、legacy1/new0；科学前actual pull检查根/题README与私有QUEUE，变化则停止执行并只读diff改规。当前未读新实际，不预称触发/改进。
