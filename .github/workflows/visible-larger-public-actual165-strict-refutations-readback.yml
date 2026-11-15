@@ -1,0 +1,126 @@
+name: visible-larger actual165 original strict-refutation intervals
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-actual165-strict-refutations-readback-request.json
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-larger-actual165-strict-refutations-readback
+  cancel-in-progress: false
+jobs:
+  original165-refutations:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Fixed source and explicit original-log reader
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/root_20261115_read_actual165_strict_refutations.py
+            /topics/visible-flex-larger-amplitude/computations/root_20261115_continuous_nine_shared_target_enclosures.py
+            /topics/visible-flex-larger-amplitude/computations/public-actual165-strict-refutations-readback-request.json
+      - name: Original metadata Python runtime
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Bind only source and metadata parameters without numerical imports
+        run: |
+          set -euo pipefail
+          git config --global merge.stat false
+          python - <<'PYBIND'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          repo=Path.cwd();comp=repo/'topics/visible-flex-larger-amplitude/computations'
+          path=comp/'public-actual165-strict-refutations-readback-request.json'
+          raw=path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='c0e938965b9f4824e58d7d302d7d66bd65e88c38cb055a5b73aa289ed81529ec'
+          request=json.loads(raw)
+          assert request['request_number']==176
+          source=(comp/request['source_entry']).read_bytes()
+          assert len(source)==request['source_bytes']
+          assert hashlib.sha256(source).hexdigest()==request['source_sha256']
+          ast.parse(source.decode('utf-8'),filename=request['source_entry'])
+          old=request['original_target_source'];original=(comp/old['file']).read_bytes()
+          assert len(original)==old['bytes'] and hashlib.sha256(original).hexdigest()==old['sha256']
+          for name,wanted in request['reviewed_README_blobs'].items():
+              data=(repo/name).read_bytes()
+              blob=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              assert blob==wanted,name
+              print(json.dumps(dict(event='request176_actual_rule_bytes',path=name,git_blob=blob,
+                  bytes=len(data),sha256=hashlib.sha256(data).hexdigest())))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          print(json.dumps(dict(event='request176_metadata_source_bound',source=request['source_sha256'],
+              original_run=request['original_run_id'],original_job=request['original_job_id'],
+              new_scientific_calls=0,old_source_not_imported=True)))
+          PYBIND
+      - name: Once scan original165 log and return38 necessary locations and bounds
+        id: original_readback
+        timeout-minutes: 30
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python -u "$VISIBLE_COMPUTATIONS/root_20261115_read_actual165_strict_refutations.py" \
+            --request "$VISIBLE_COMPUTATIONS/public-actual165-strict-refutations-readback-request.json" \
+            --code-directory "$VISIBLE_COMPUTATIONS" \
+            --out "$RUNNER_TEMP/visible-actual165-refutations-176"
+      - name: Preserve any genuine partial summary without re-downloading
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PYREAD'
+          import hashlib,json,os
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          path=root/'visible-actual165-refutations-176'/'summary.json'
+          if path.is_file():
+              raw=path.read_bytes()
+              if len(raw)>90000:raise ValueError('Necessary summary exceeds the single-object bound')
+              identity=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+              marker=path.parent/'summary-stdout-complete.json'
+              already=(json.loads(marker.read_bytes())==identity) if marker.is_file() else False
+              if not already:
+                  print('BEGIN_REQUEST176_RETAINED_SUMMARY')
+                  print(raw.decode('ascii'),end='')
+                  print('END_REQUEST176_RETAINED_SUMMARY')
+              print(json.dumps(dict(event='request176_retained_summary_identity',**identity,
+                  same_bounded_summary_already_printed=already,no_new_science=True)))
+          else:
+              print(json.dumps(dict(event='request176_no_complete_summary_returned',
+                  readback_complete=False,original_scientific_conclusion_not_changed=True)))
+          PYREAD
+      - name: Remove only successful small temporary readback files
+        if: ${{ always() && steps.original_readback.outcome == 'success' }}
+        run: |
+          set -euo pipefail
+          python - <<'PYCLEAN'
+          import json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          path=root/'visible-actual165-refutations-176'
+          if path.exists():
+              if path.is_symlink() or path.resolve().parent!=root:
+                  raise ValueError('Only the explicit request176 temporary directory is owned')
+              value=json.loads((path/'summary.json').read_bytes())
+              if not value.get('readback_complete') or not value.get('transport_complete'):
+                  raise ValueError('Incomplete original readback is not cleaned as successful')
+              shutil.rmtree(path)
+          print(json.dumps(dict(event='request176_owned_cleanup_complete',
+              original_log_was_streamed_not_saved=True,Git_raw=0,Release_raw=0,artifact_uploads=0)))
+          PYCLEAN

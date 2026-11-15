@@ -9,7 +9,7 @@
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
 原部分克隆/tmp/visible-larger-root-git-149。14:33终端失联；新环境18:12仅试pwd仍exec-server缺失。按根8小文本fallback，恢复即真实pull --rebase；每push前及≥每小时核双README，变更仅读差异。CAS/NFF立即读新头重放到成功，禁force；Actions镜像2700秒真pull，不改科学checkout。
-API复核 2026-11-15 18:20:28 UTC 已读 b211ae8f60cc4681aa4ce12267814caefbfab0e4，双README blob仍同上；这不是git pull。
+API复核 2026-11-15 18:21:24 UTC 已读 3f716b507943ddccfd818db5cb53f5b937701421，双README blob仍同上；这不是git pull。
 
 根15只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出，不拆包/编码大数据走工具。题≤200MB、MD<100KB、H<10KB/open宜<30KB；log≤5行/条，不写根LOG，不增fixture/独审/额外科学门。
 
@@ -43,7 +43,7 @@ API复核 2026-11-15 18:20:28 UTC 已读 b211ae8f60cc4681aa4ce12267814caefbfab0e
 
 [R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证全族两图Riccati比较、闭段存在/非零sign-log幅度重构、二幂/隔零切图及全部cut候选。177从原全深端族重算，不裁旧失败盒，不保证改善；geometry实现，实际R379。R357每候选单位取向行/非零范数及数值代表非准确C成员继续保。旧R339/342/348原C与far work200000未完、R362首169 sparse缺件科学未起，全部原值/后缀/清理见结果和检查点，169重试不预填成功。
 
-[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。176由exact在Actions仅读原日志，保38必要u/piece/as界和原身份、单≤90KB；修订待发/实际R374，禁止搬整大enclosure。R341/R349历史和R352共享Bernstein表达式保。
+[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。[176接口](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)四件已发07d3b260/c0e93896/39191280：Actions仅一次读原日志，保38必要u/piece/a/as及原身份、单≤90KB；1500s/4GiB仅元数据cap，35min job，exact核实际R374。大enclosure仅内部字节核，不新算科学。R341/R349历史和R352共享Bernstein表达式保。
 
 ## 九/十控制与幅度
 

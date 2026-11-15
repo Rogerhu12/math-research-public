@@ -312,3 +312,5 @@
 - [R368：actual168完整C/deep112与首模态pivot未付](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)：真实physical far目标上m2仅49commit/100attempt，depth32双端点盒含0，非资源止；19栈/required[18,10387)/其他111模态保，0far/0unitrow，native未启动。六小块/四report和清理完整核，不能冒原Newton拒或准确共振。
 
 - [R378：完整十维最小范数Newton、截取与Cauchy下降](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）：固定S和shape，完整转置QR/pivot回代给满行秩最小范数联合方向，径向截取/全Cauchy保完整线性merit下降；实际Decimal误差、真实域/非线性余项与固定20档另付。178实现中，不预填准确秩或数值成功。
+
+- [Request176：实际165原38条严格速度反例定位](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)：四件纯元数据入口，Actions一次流式旧日志，内部核原完整对象，只返38必要位置/a/as/原分类与身份，单≤90KB；1500s/4GiB非科学保证，超限明确未完，不新算C或分包大见证。实际R374未预填。

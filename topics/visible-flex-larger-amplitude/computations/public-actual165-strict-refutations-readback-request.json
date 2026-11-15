@@ -1,0 +1,106 @@
+{
+  "schema": "actual165-original-log-domain-refutations-readback-request-v1",
+  "request_number": 176,
+  "repository": "Rogerhu12/math-research-public",
+  "purpose": "Read only the immutable actual165 compute log; verify full original records internally and return one bounded summary of all38 locations, necessary original a/as counterexample bounds and unresolved metadata. No scientific recomputation.",
+  "source_entry": "root_20261115_read_actual165_strict_refutations.py",
+  "source_bytes": 28097,
+  "source_sha256": "07d3b2608bf4f9614ed74465ddb40f068f130f69f1e5208912bfc3ab6bddb631",
+  "original_run_id": 43736208020,
+  "original_job_id": 132879253906,
+  "original_source_commit": "1f2ec637430e5c6b27b1a93720e106539281a156",
+  "original_target_source": {
+    "file": "root_20261115_continuous_nine_shared_target_enclosures.py",
+    "bytes": 94125,
+    "sha256": "61b98b3e853b31535ac31b66d4cf4513f1271d9852acfb09b948990a30acb205",
+    "read_only_not_imported": true
+  },
+  "original_target_result": {
+    "bytes": 105512,
+    "sha256": "e5ec825f39c2f57aa6f04b46c56371b6876670a04ac7c5c9129bdcc80af2c619",
+    "log_label": "complete-target-result",
+    "segments": 9,
+    "exact_ASCII_including_final_LF": true
+  },
+  "original_report_log": {
+    "job_id": 132897872239,
+    "bytes": 417817,
+    "sha256": "82b5a074e953159c069d8a7886319be97e0b37a81aeab7b9d14a7c2d3e6cf64d",
+    "already_read_not_downloaded_again": true
+  },
+  "expected_original_metadata": {
+    "current_cover_leaves": 32977,
+    "pending_or_refuted_rows": 32526,
+    "unresolved_rows": 32488,
+    "unique_refuted_cover_rows": 38,
+    "source_scientific_exit_code": 4,
+    "no_reclassification_of_original_mathematics": true
+  },
+  "selected_original_events": [
+    "request165_final_complete_cover_leaf",
+    "request165_full_pending_or_refuted_interval",
+    "request165_primary_complete_result_readback_identity"
+  ],
+  "original_segment_protocol": {
+    "begin": "request165_complete_metadata_begin",
+    "segment": "request165_complete_metadata_segment",
+    "text_width": 12000,
+    "reassembly": "exact decoded ASCII strings in original index order, including LF; full bytes/SHA checked"
+  },
+  "maximum_scan_seconds": 1500,
+  "maximum_original_log_bytes": 4294967296,
+  "maximum_raw_line_bytes": 1048576,
+  "maximum_relevant_semantic_record_bytes": 4194304,
+  "resource_scope": "Pure metadata transport/scan only. The actual whole-stream/prefix identity and all selected locations are handled in Actions; one <=90000-byte summary is returned or explicit incomplete transport70. No timing or completeness promise.",
+  "job_timeout_minutes": 35,
+  "scan_step_timeout_minutes": 30,
+  "raw_log_saved_to_disk": false,
+  "original_large_ledger_reprinted": false,
+  "full_selected38_original_records_printed": false,
+  "original_numeric_tokens_preserved_as_lexemes": true,
+  "full_original_current_cover_scientific_payload_not_reaudited": true,
+  "all_original_pending_event_counts_and_reason_metadata_scanned": true,
+  "no_fraction_float_norm_polynomial_interval_or_domain_inequality_recomputation": true,
+  "official_API_before_download": {
+    "verify_run_head_and_completed": true,
+    "verify_job_belongs_to_actual_run": true,
+    "token_process_environment_only": true,
+    "token_not_forwarded_to_official_signed_redirect": true,
+    "original_log_download_once": true,
+    "signed_URL_not_printed": true
+  },
+  "readback_completion_checks": "Original completed result identity, full cover/pending metadata counts, exact original enclosure equality and38 unique nodes are checked internally; only necessary locations/bounds plus original row and enclosure bytes/SHA are returned. This is metadata readback, not a new mathematical gate.",
+  "retention": {
+    "all_raw_temporary": true,
+    "Git_raw": false,
+    "Release_raw": false,
+    "upload_artifact": false,
+    "only_small_scripts_parameters_run_SHA_and_compact_result_publication": true,
+    "cleanup_only_after_complete_reader_outcome": true
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "scientific_dependencies_imported": [],
+  "original_full_result_and_report_provenance": "R356 published3e339597c1d88d2b4bd1c424b256adc3b74ccf7f; this request supplies the previously unread38 locations.",
+  "source_validation": {
+    "local_science": false,
+    "local_import": false,
+    "local_AST_compile": false,
+    "reason": "No usable local execution environment; ordinary Actions ast.parse binds the source without scientific imports.",
+    "no_fixture_or_extra_scientific_gate": true
+  },
+  "complete_selected38_location_classification_and_necessary_a_as_bounds_in_one_summary": true,
+  "full_original_result_and_enclosure_byte_verification_internal_to_Actions": true,
+  "new_output_segments_or_reassembly_protocol": false,
+  "maximum_one_summary_bytes": 90000,
+  "oversized_necessary_summary": {
+    "summary_complete": false,
+    "transport_complete": false,
+    "readback_complete": false,
+    "process_exit_code": 70,
+    "no_split_or_reassembly_fallback": true,
+    "original_scientific_conclusion_not_changed": true
+  }
+}

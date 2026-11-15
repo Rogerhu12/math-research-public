@@ -95,6 +95,8 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as尚未读，Actions仅取原保存字段；同场metric/native仍未付。
 
+[176接口](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)四件已发：Actions仅读原165日志，单≤90KB返回38位置/a/as及身份，不新算科学；R374由exact核。
+
 ### 3C. 当前C自己的零场与完整453非零BVP
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。
@@ -105,7 +107,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)：43732286420/source4241fb33，全C/cut/deep112齐而九p域partial，far m18/work200000止；原9616闭栈、piece1339和全模态后缀保原文/检查点，BVP/H/J/FD/trial/final未启动，非数学拒。六读回后raw清，SHA不能续接。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)58直接/driver51/native25，R320九p/λ.001/453/3active+109core；前三scalar可变后六冻结，同C三输入/闭query/深端、现场H/MaterialTrace与E/Ep比较保。首169/R362接线未起科学，重试R367由geometry核，不借旧159或anchor预填。
 
-[R362](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)首169因workflow稀疏缺件，C skipped/科学未exec；八原栈/primary unavailable/cleanup-skipped保。仅sparse一行及retry metadata重发41ccd380/887dc763、source de9a730a；原数学/recipe/58/51/25pins不变，重试实际R367另核。
+[R362](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)首169稀疏缺件、科学未起；原八栈/未清范围保。仅接线/metadata重发de9a730a，数学/recipe/58/51/25pins不变；真实重试R367另核。
 
 同一owner真实H/J→原三扰动/两法Richardson边界FD→8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；完整112/338、32×10/2e−9/FD5e−5保持，18入口说明不作为新截断门。sampling声明14400+1800，实际rules启动后同比clip并预留原BVP7200；18900是此前阶段启动计划而非通用kill，原BVP launcher开始后才按其真实namespace截止。job360/read45、32GiB起盘/2GiB余量只资源，未保证所有阶段完成。六完整读回success、同run/source marker、父PID/start_ticks和科学独占PGID静止后才清；不要求runner公共组为空。169不等168零响应作新前门；数值代表/逐点中值/JSexp不证同一准确C、无限非线性DN或九冻结450同g精化。
 
