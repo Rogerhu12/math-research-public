@@ -1,0 +1,65 @@
+name: Rank2 R719 exact boundary identity
+"on":
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/rank2-sha-r719-exact-boundary.yml"
+      - "topics/rank2-sha-infinitely-many-p/ci/r719-exact-request.json"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-sha-r719-exact-boundary
+  cancel-in-progress: false
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Execute named topic scripts and report hashes only
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_CHECK_DIR="$RUNNER_TEMP/rank2-r719-exact"
+          export RANK2_CHECK_DIR
+          git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_CHECK_DIR"
+          git -C "$RANK2_CHECK_DIR" sparse-checkout set topics/rank2-sha-infinitely-many-p
+          git -C "$RANK2_CHECK_DIR" fetch --filter=blob:none --depth=1 --quiet origin "$GITHUB_SHA"
+          git -C "$RANK2_CHECK_DIR" checkout --detach --quiet "$GITHUB_SHA"
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, subprocess, sys
+          root = pathlib.Path(os.environ["RANK2_CHECK_DIR"])
+          prefix = "topics/rank2-sha-infinitely-many-p/"
+          request = json.loads((root / (prefix + "ci/r719-exact-request.json")).read_text())
+          if request.get("python_flint_version"):
+              if request["python_flint_version"] != "0.9.0":
+                  raise RuntimeError("Only the recorded python-flint version is supported")
+              dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-exact-python"
+              subprocess.run([sys.executable, "-m", "pip", "install", "--disable-pip-version-check",
+                              "--target", str(dependencies), "python-flint==0.9.0"], check=True)
+              os.environ["PYTHONPATH"] = str(dependencies)
+          records = []
+          for item in request["checks"]:
+              script = pathlib.PurePosixPath(item["script"])
+              if ".." in script.parts or not str(script).startswith(prefix + "scripts/"):
+                  raise RuntimeError("Check must name a topic script")
+              engine = item["engine"]
+              if engine not in {"node", "python3"}:
+                  raise RuntimeError("Unsupported exact-check engine")
+              args = item.get("args", [])
+              if not isinstance(args, list) or not all(isinstance(x, str) for x in args):
+                  raise RuntimeError("Invalid arguments")
+              result = subprocess.run([engine, str(root / str(script)), *args], cwd=root, stdout=subprocess.PIPE, stderr=None)
+              if result.returncode:
+                  print("Named script exit code:", result.returncode)
+                  raise RuntimeError("Check failed: " + str(script))
+              digest = hashlib.sha256(result.stdout).hexdigest()
+              if item.get("expected_sha256") and digest != item["expected_sha256"]:
+                  raise RuntimeError("Output hash mismatch for " + str(script) + ": " + digest)
+              if item.get("include_stdout"):
+                  if len(result.stdout) > 60000:
+                      raise RuntimeError("Requested report exceeds API text budget; keep hashes and request a smaller computed summary")
+                  print("RANK2_EXACT_STDOUT " + json.dumps({"script": str(script), "result": json.loads(result.stdout)}))
+              records.append({"script": str(script), "script_sha256": hashlib.sha256((root / str(script)).read_bytes()).hexdigest(), "args": args, "engine": engine, "sha256": digest, "stdout_bytes": len(result.stdout), "exit_code": result.returncode})
+          print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({"request_id": request["request_id"], "run_id": int(os.environ["GITHUB_RUN_ID"]), "source_commit": os.environ["GITHUB_SHA"], "checks": records, "outputs_persisted": False, "python_flint_version": request.get("python_flint_version")}))
+          PY
