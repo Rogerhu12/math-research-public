@@ -214,3 +214,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：零点十七第五左jet、K99与原平方目标检验
 
 [正式证明](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)在原自然s、完整6188来源上实得七个第五头，加十恒等头给公共s53/s47，累计界4/4/5/8/10；K99=s39K60，degree99。同指定∞82/81/75及模31次数8527给q8428…8589，条件非基8633、transfer8634、目标222，统一8634。下一优先将真实目标t_j=n_j²与五阶λ2逐项配对；原h0有三阶零，非零s5配对才会阻断当前完整来源模块成员性。Q第二1736旧零行的T秩已实为0，但旧gauge原常校正的31秩1545不足1546，未付第二秩；保完整forcing，改用原完整F31常左核所选gauge再求解。
+
+
+### 2026-11-15：全部强位的低孔预算与原连续尾局部伴随读数
+
+[正式证明](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)保C=A_m+D_<的全部R强位，得7^k exp[−(770/256)(k−s)+^4]，阈值为同一输入总孔s。真实连续D_x逐孔MP/高层右逆给有限Neumann原式L_m G=I，x≥3072+48s时低孔成本B_s(x)=(s+3)√(2/S_x)exp[sτ+τ^(4/3)]，从而完整(L_m*)†的低输出同界，完整自然域与核投影保留。只付log B=O_s(log^(4/3)x)；原T carry修正、真实返回P_Ehat、同W与ordinary费用继续，不能将环境Riordan保孔移给返回投影。

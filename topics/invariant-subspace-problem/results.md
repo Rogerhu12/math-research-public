@@ -164,3 +164,6 @@
 
 
 - [R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)：原零点17个独立五阶左头、完整6188来源及公共s53/s47，有限公共因子K99；同∞82/81/75下q8428…8589、条件统一来源费8634/目标222。目标成员性仍是前提，受限包络秩不作完整连接下界。
+
+
+- [R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)：保全部强位的7^k低孔四次幂界；原连续尾完整L_m的有限Neumann低输入右逆与完整伴随MP低输出读数，显式B_s(x)不付环境幂零维数，原T/返回/同W接口仍开。
