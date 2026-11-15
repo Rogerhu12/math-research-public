@@ -33,7 +33,7 @@
 
 - **[全56单核Ω120](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒全核；cert39654723·147a40fa/payload0ca29224。step33约化审计0.002218695秒核121系数整性及平方；根/独立逐121/316系数核barΩ=Q60²，故barμ|(s−1)(s−2)²P+²P−²E6。outereca924ad/raw3463·b536af2e；未断μ1。
 
-- **[全局I2已完整等于U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，197原4367/505/315/J/DAG真；χI2=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21保持。outerf6b83a6e/raw46870·5d9fc76f，系统14868·5d3160c9。I3全colon保197纠偏除源、7参数关系及b8/pb9。step5完整210已0.510477秒全核，recipe33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。新step6/7恢复原primitive并建F127原model，NF/GB/∞资格待付。request仍notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
+- **[全局I2已完整等于U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，197原4367/505/315/J/DAG真；χI2=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21保持。outerf6b83a6e/raw46870·5d9fc76f，系统14868·5d3160c9。I3全colon保197纠偏除源、7参数关系及b8/pb9。step5完整210已0.510477秒全核，recipe33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。F127 step6/7建原model，step8 NF180秒/2GiB，源a3f6891d/runner89d674d1；GB/∞资格待付。request仍notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
@@ -42,7 +42,7 @@
 - 小窗R=d/h2d/Q=L0h²的carry与晚cut正交孔带已付；同源合并负部≤c_mQ||F_mu||²且Σ1/c_m发散会迫w0，但未得。全E3坏19/10仅排整体短核统一界，不是actual W反例。
 - [实际缺陷](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)e=f−PVf/k=PKf、Δ²=e²+k²；原全暗矩、两侧生成元及真旗已付。合法窗PUw→w、limsupΔ≤||f−w||，未知尾速率不乘增长逆费。
 - [真实返回](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)保原PE/帽PE反馈、零源正交及同w/f配对；Riordan专窗与小窗不混，完整参数保前态。
-- [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)在自然DomGpos付真实PE反馈与B伴随对易：||Gposu||≤40QΔ；返回/q/帽/帽q常数240/530A0/530C0/1040C0A0，乘Q√νΔ。Lpos*真上2带给全部Fj二阶O(νQ²Δ²)/无h，原u用f−u保Δ。
+- [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)已付真实PE反馈、B伴随对易及全部Fj二阶预算；原u用f−u保Δ。准确常数保前态，同源顺次返回仍开。
 - **[实际低forcing正Gram](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** 真尾删除交叉正，DαZ=MαDZ/ΣMα≤I；完整creation行≤4I/3，双缺陷行≤8I/3并保GΔ/全部交叉，无Q或头维损失。原V不自动C不变；不把帽列认作ZR，顺次MP仍开。
 - **[连续尾势/源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z保全部碰撞；配置势夹在(1/3)Σ(i+n+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}完整源逆读数≤3(L+r+1)³/p；同u须联合(De,Dk)加2，不换Du/环境D†。
 - **[joined原同余](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)/[同u相干代表](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)：** P_M p(D*)i0=Zp(−C*)、G≤Hcoh^-1；Q≥R+h−1时fcoh=Rcoh Hcoh^-1g保原V/K/u、总norm不增。精确残量方差在h≤2x时≤54x^-3||g||²；Ei fcoh非零，不套旧双缺陷正性。

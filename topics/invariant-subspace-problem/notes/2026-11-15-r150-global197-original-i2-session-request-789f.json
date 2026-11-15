@@ -1,6 +1,6 @@
 {
   "format": "isp-global197-original-second-image-session-v1",
-  "rulesReadAtCommit": "27063dd2cbf37b57908bdb4c665e7a9ea8e6ed98",
+  "rulesReadAtCommit": "9e5544a8e5e209b046b4eb62d3a4bf2f4d952c41",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -272,6 +272,40 @@
       ],
       "timeoutSeconds": 60,
       "receiptPath": "{work}/original127-model/original127-model-receipt.json"
+    },
+    {
+      "id": "original127-complete-normal-forms-180",
+      "requires": [
+        "original127-original-model"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-runner-789f.py",
+      "scriptSHA256": "89d674d1cc098f070d74d754cd00a7d07d1e44f6380a04e787dbadce88afb96a",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-789f.cpp",
+          "sha256": "a3f6891dd2dc5ffb98611d806fa5e1b2b87200a8206143d95bdb335f93c5099f"
+        }
+      ],
+      "argv": [
+        "--model-out",
+        "{work}/original127-model",
+        "--sources-root",
+        "{scripts}",
+        "--out",
+        "{work}/original127-normal-forms",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--compile-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original127-normal-forms/original127-normal-form-pipeline-receipt.json"
     }
   ]
 }
