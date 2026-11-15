@@ -466,3 +466,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R291：正 Gaussian 平方第二外矩是已付能量的完整身份
 
 [R291 完整证明](results/R291-exact-positive-Gaussian-square-moment-is-the-leading-energy.md)由原Y=Φp2=−2G与F_Y,2(u)=0，在whole w=YD真正紧的方向微分，保Yuu真实左尾，得到Q112=−ζ²I2(Yff,YD)=16ζ²(sin²θLc+sin2θLs)。所以R289的S主关系没有另一个C²兼容门；当前Lc/Ls已付即全角付此I2。仅这一外矩，不删E1²的I0/I1或其他乘积。root全文核原能量边项/4×4规范，literature独核通过。
+
+
+## 完整两网 affine-e/f 方向分离器：新机制设计
+
+[完整设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)保同159/163/Field/H/g/b0及原预算/真门，用原全角解析单方向JVP评价两网×±四个凸max，仅新attainer求原de/df支撑cut。全初值、ρfull/rho辅助量和旧incumbent可行性分别证明；保旧selected四误差并新增全affine覆盖差/全e-f非线性。显式子类复用冻结outer与3inner，全部新增导数计原active；九恢复same runtime、来源/临时输出和最小新增人工另列。当前仅设计/源码文本，未有新执行或效果结论。

@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159因子化首actual已消费**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16。三新开发过；η.266428586→.266398991、双网14门/准确盒过，11primary+1SOC/10新接纳，active43.32511秒；七恢复1175.76681秒独立。m5持B由m6真用但ratio.11484缩半，m8漏行拒绝。45/97来源/24输入全核；旧标签与首fixture失败原note保留，不授同点加速或重跑。
 
-**仿射谱首actual已完整消费**：[全实际](notes/affine-spectral-metric-model-first-actual-20261115.md)，43722283235/bb33192/job132836684400。35新人工全过；η.2664191879334471→.26640117915606165，双网14门/准确盒过，κ57.9999853。8模型/12primary/0SOC/7新接受，40cut、18+2值；active16.997316秒、新audit19.780863秒，八恢复569.558425秒各一次独立。50直接/102递归来源及24输入逐项全合，receipt54960B/b8b8270a、254来源口径另列。m6遗漏峰1.54793e−5主导且原已选曲率四行失败；m5选中e/f非线性主导。无SOC不授该路径新预测实际验证。下一固定center完整两网affine-e/f解析方向分离器，只发现新原行才补J/cut，仍12LP/120秒/40值及全部真门；不预报本m6一定修好，不延预算或重跑。
+**仿射谱actual与下一完整模型**：[首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，35新开发过；η.266419188→.266401179、双网14门/精确盒过，8模型/12LP/0SOC/7接纳，40cut/18+2值；active16.997316秒、八恢复569.558425秒分账，50/102源码与24输入全核。m6漏峰且已选曲率失败，m5 e/f非线性另欠，不授SOC新路径验证。[完整两网方向分离器设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已完成纸证：只用原全θ解析单方向JVP作粗细×±四个凸max，attainer才补原de/df切面，全rho初值/修复/旧incumbent保真；显式子类复用原outer/3inner/12LP/120s/40值/全部真门。四新源正在文本实现审查；仅blob保存未执行，九必要恢复后唯一新stage待接线。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -57,4 +57,4 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 067d502f8656876e43baf76c4bb20d795ee2d69d，双README blob同。R289本地patch未确认落盘，已终止等待，完整小UTF8原稿另存发布。
+断连API复核main 296101430c2c1a9eabb373a2a05ebb26b88fd00e，双README blob同。R289本地patch未确认落盘，已终止等待，完整小UTF8原稿另存发布。
