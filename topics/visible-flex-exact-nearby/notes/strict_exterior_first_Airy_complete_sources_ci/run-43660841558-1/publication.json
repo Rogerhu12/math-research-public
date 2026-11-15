@@ -1,0 +1,103 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43660841558",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T00:59:21.634973+00:00",
+      "before": "eb38b9898e68b4197d501cb3f122483f9aee4d41",
+      "after": "b41c6f13ffbe56543d3593acb0b9023d8320e93c",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:05:50.526029+00:00",
+      "before": "b41c6f13ffbe56543d3593acb0b9023d8320e93c",
+      "after": "8ac6aab5fde97bb59c0788af507f64b62f4580ee",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/cases/radius-1-100.json.gz",
+      "bytes": 3739393,
+      "sha256": "73461789b07d6ded80a334098c01757f67851da77d901dcfa6785afaa6057e43",
+      "original_sha256": "73461789b07d6ded80a334098c01757f67851da77d901dcfa6785afaa6057e43"
+    },
+    {
+      "file": "consumers/cases/radius-1-1000.json.gz",
+      "bytes": 596863,
+      "sha256": "a7a1366aa192f5f96e8282cfbb2eeb4e3399a34708e6e06fd180441f52a63f15",
+      "original_sha256": "a7a1366aa192f5f96e8282cfbb2eeb4e3399a34708e6e06fd180441f52a63f15"
+    },
+    {
+      "file": "consumers/cases/radius-1-200.json.gz",
+      "bytes": 2609558,
+      "sha256": "810338ef2223f4f7c8f944e47aebe2386eb2ac14ebd0f23c5e79152dd43ba5ea",
+      "original_sha256": "810338ef2223f4f7c8f944e47aebe2386eb2ac14ebd0f23c5e79152dd43ba5ea"
+    },
+    {
+      "file": "consumers/cases/radius-1-50.json.gz",
+      "original_sha256": "9c09d5265b37b2cacf09bac20d96d85fcfcdbd8b91799f0f12d74300c9052973",
+      "bytes": 5517372,
+      "retained_in_original_Actions_artifact": true
+    },
+    {
+      "file": "consumers/cases/radius-1-500.json.gz",
+      "bytes": 1139219,
+      "sha256": "6455f21f273beb4261873e2a5387d7dd6daed78a01607e38d9f2d253b81cb22d",
+      "original_sha256": "6455f21f273beb4261873e2a5387d7dd6daed78a01607e38d9f2d253b81cb22d"
+    },
+    {
+      "file": "consumers/cases/radius-3-200.json.gz",
+      "bytes": 4599096,
+      "sha256": "589224a5bad147e30409f24764926391b87afc3f1640176f579a5f6dbbc559d6",
+      "original_sha256": "589224a5bad147e30409f24764926391b87afc3f1640176f579a5f6dbbc559d6"
+    },
+    {
+      "file": "consumers/coefficients/complete-same-order-matrix-conversions.json.gz",
+      "bytes": 1629131,
+      "sha256": "a2b11b2773ce693f45e6fbbdb50b71236e9feafff520ee396d547efa8c7643ed",
+      "original_sha256": "a2b11b2773ce693f45e6fbbdb50b71236e9feafff520ee396d547efa8c7643ed"
+    },
+    {
+      "file": "consumers/complete-process-before-summary-size-limit.json",
+      "bytes": 61274,
+      "sha256": "9a7e1a4cbcac120aac4fa5dce93cab004608936c4edc5f3af80cd287dacc48ef",
+      "original_sha256": "9a7e1a4cbcac120aac4fa5dce93cab004608936c4edc5f3af80cd287dacc48ef"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 54355,
+      "sha256": "aa106c220259fe511630652c2c3198adbd12b6fe8c9c24ca4c5516937c571ac2",
+      "original_sha256": "aa106c220259fe511630652c2c3198adbd12b6fe8c9c24ca4c5516937c571ac2"
+    },
+    {
+      "file": "consumers/strict-exterior-first-Airy-complete-sources.json.gz",
+      "bytes": 11664,
+      "sha256": "17112d96633634d463059cab37efcd1d4a71dbdbc956e2ac8ddeded63378790c",
+      "original_sha256": "17112d96633634d463059cab37efcd1d4a71dbdbc956e2ac8ddeded63378790c"
+    },
+    {
+      "file": "consumers/strict-exterior-first-Airy-complete-sources.stdout.log",
+      "bytes": 3747,
+      "sha256": "9673bf936f5a4142c1ed019e5e2c2f7738025c8b8e96c48566ddd7e5b8e7954c",
+      "original_sha256": "9673bf936f5a4142c1ed019e5e2c2f7738025c8b8e96c48566ddd7e5b8e7954c"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 146,
+      "sha256": "9bae656fdb191bd2ebfffbc35fde5860564410c1235a84e65545cedcb834f24b",
+      "original_sha256": "9bae656fdb191bd2ebfffbc35fde5860564410c1235a84e65545cedcb834f24b"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 3245,
+      "sha256": "4719a890d3ed2f434dec048de39dfc76dec28ccfecdd025b0cc38b785eb6be96",
+      "original_sha256": "4719a890d3ed2f434dec048de39dfc76dec28ccfecdd025b0cc38b785eb6be96"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
