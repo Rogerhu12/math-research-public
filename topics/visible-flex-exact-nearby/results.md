@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：从已成正算法读取完整腰部延拓与第五列](results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md)：D的完整M0/M1正项与whole-core maxima严格给bK/GK上界，固定旧d1e−10不随δ归零。新a96/ell0和同CPA两case的三窗wY均有显式式；WA腰贡献可直接读已成同d球。不重40parts/原积分/Green，仅数值待新小consumer，其他源与actual解不授。
+
 - [R133：实际exact selected腰输入与原96行](results/R133-supplement-actual-exact-selected-waist-data-and-original96-rows.md)：43747940791/1 child0/13门，base全65bitwise过、Z193/两zero-repair成功身份只读。exact三rational与四uniformmax全证，d1e−10 norm<8.923e−26且base/direction均非exact0；SCI完整33字段及preGit字节哈希root核。仅独立腰输入，ell0/CPA第五列与PDE未授，成功不得重跑。
 
 - [R133：完整physical严格截面的Darboux接收](results/R133-supplement-complete-strict-physical-Darboux-receiver.md)：以已成全τscalar接原P⊥/J/L/B/η−1和完整primitive–mean/ng/Tq；freeR2/R3保全部四阶角/三阶混合、新产品、原freegap及单次n^-m输入费。全H−4/3→oldcircle L2pair+两mean的四贡献合同已证，数值与后续normalizer/incoming/全返回待。

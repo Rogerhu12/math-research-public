@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 18:45:16 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 18:46:14 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 18:44:44本轮定时CLI及每次非FF即时CLI仍失败。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；下一定时真CLI≤19:44，ref不冒pull。runner18:39:40.392329真pull4781aac81b53ad3179a51e53909e45d89f5ffe87双README空diff。
-最近只读README核：b13dfa18d610ad0995781f506a6bb19650e63a7c；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-完整压缩前H/open/results/log逐字保f01029cef7cfbbb83c5c94a67509328c7ec4e43e同路径，递归656b/66d375/31e2a9/908da2/3f716/96001/5fd5/c820旧档；全部域/mean/单位/失败/restore/未付义务保留，成功禁重。
+最近只读README核：608a3310126da1857b9722313faa54a5e962ca8e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+完整压缩前H/open/results/log逐字保30337cfa51e9e6006db4ddf4dded1b22159c3dc1同路径，递归b13dfa/f010/656b/66d375/31e2a9/908da2/3f716/96001/5fd5旧档；全部域/mean/单位/失败/restore/未付义务保留，成功禁重。
 
 ## 同一个对象与总验收
 
@@ -38,9 +38,10 @@ DR0e80f086已root/双peer核：原P⊥/J typed窗/η−1/CI/ng/Tq与两mean，fr
 NF9c33e882完整散度N保两mean，Π96角导付384，值和真正Lipschitz分开。固定Sδ真97残差无DS·base遗漏；原96腰U无α/第二ρ、W−GδDδW三窗。五输入ordinary/right97/highbody/highcut/waist和actualcap余项全保，不能借右collar授wholeC0。
 帽X/M/I/R/CS全部旧域与units保63905及原文：γA0≤1e−9、fBdotA²<2^-60、ρ3e−6、unknown high/完整97/mean/metric-height不能删。I旧wholebody差1/5与F失败原保。
 CP actualca05fbe7：43741463694/1 child0/18+5+两组3strict锁；full/tail κ.0019952502133/.00196507842537、det.24612876846/.25397668235。同域三窗四列/mean保f010，νvolume非全ν，不授whole/high/入口。首失败及全部Hessian/单位保；AR5b35ab58的κ一次/exactmean/height7/25/非零affine/腰/high不删。
-CH1e443100已核：realH1图RC≤r e、RB≤rs+2re；norm-sum球ρ≤2^-10，RΨ差≤16ρd。actual97 E≤cCapκ||h||L2pair+7rs+114re，差≤linear+2^11ρH1sum；独立mean精确。unknown cutH1/physicalγ准入/wholecore待，fixedheight非tail导数。
+CH1e443100保realH1 RC≤re/RB≤rs+2re、norm-sumρ≤2^-10与差16ρ；97值128H1pair²/差2^11ρ、exactmean/κ一次全保30337。actualγ/H1/wholecore/height选择导数独立待。
 SR43da1e99：同CPA case对任意完整||K||≤κ统一，实际γ凸段割线放97左侧，highcut已在cY。右留chart128H1pair²/差2^11ρH1sum、affine/height7/25/high/waist；第五列用新CPA gY·NFell0，非旧κ0wY。SR19–21只后验，whole/H1/γ/height导数与五输入闭合待。
-WAactuale81087a2：43747940791/1 child0/13锁，execae7c3b79/report10fcdff9/SCI91a93919/preGite3411257全root匹配；11pins/4AST。新base65bitwise过，Z193/两e0只读；原96/√2、仅baseα，exact A/B/D均保。|δ|≤1e−10 norm上界完整球见proof（约8.923e−26），base/Z不是exact0。四d仅显式族，不扩PDE域；ell0/第五列待，成功禁重。
+WLe2e9d6d4新解析核：D正算法M0≥3bKp(14ε+ε²)、M1≥GpKpε，固定旧ε=19·1e−10>0，原全core max给Bk/Gk；非任意norm反推。M=7+ε/Mφ=6+83d代NF384完整a*、ell*=L^-1/2+a*√(L/3)，同CPA两case各三wY及WA腰贡献待新scalar。无旧row/integral恢复，mean/high/γ域仍独立。
+WAactuale81087a2：43747940791/1 child0/13锁；execae7c3b79/SCI91a93919/preGite3411257完整33字段及原球root核。11pins/4AST，新base65bitwise过、Z193/两e0只读；raw96/√2/baseα一次，三exactrational/四d端max保30337。d1e−10 norm约8.923e−26，base/Z均非exact0；只已知族不扩PDE域。
 SA85e07aba：D0 value的Hessian准确消，只用旧formalGram；完整97的outer/mean/jump/selected左缺陷保。IBP/forwardΘ共享三类128moments待actual完整指数/径向尾。SA29–31已知端−<zL,ΔWδL>及eLδ(yL−ΔLδ)准确，ELδ/Yδ须真付；body/outer仍原y。全部旧预算/SA24/26/RW域保f010，旧QR/7908禁重。
 RW43729429382/15全部成功锁，1/2与3/4真实权值/内端/右C0原scope不改；RB physical pair-sum movingL2≤80，RC仅右[.9,.95] C0<8.2297e−5，非whole/H1。W known差≤13|δ|/200；samecut raw H1≤1.96875e−11足γA0<1e−9/128，若Green输出Q−Q0须另付δZ。
 MC/MA/NR/WC/DB/SB全部source/mean/bands/χ′/真f0及失败保81041a9e原档。MA仅五窄ρ/独立H8193；inputGram不授output/J288不删225..288。LC包装失败science44b4da07无损收、NCBD/NG成功禁重。

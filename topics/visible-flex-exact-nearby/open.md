@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮压缩前全部逐字前页/运行/域/源单位/恢复链保f01029cef7cfbbb83c5c94a67509328c7ec4e43e本路径及HANDOFF/log，递归656b/66d375/31e2/5fd5/c820/81041全部旧档；未付义务和成功禁重均继续有效。
+本轮压缩前全部逐字前页/运行/域/源单位/恢复链保30337cfa51e9e6006db4ddf4dded1b22159c3dc1本路径及HANDOFF/log，递归b13dfa/f010/656b/66d375/31e2/5fd5/81041旧档；未付义务与成功禁重继续有效。
 
 ## 1. 总验收与同一个对象
 
@@ -31,9 +31,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 本节压缩前全部原域、源单位、费用、失败恢复和未付义务逐字保2c75543b97a390b04b129ac0ddeacd18fa4bd200同open第2节及H/log；原证明继续逐项有效。压缩不取消条件或授权重算成功数学。
 
-[v4实际三窗](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2：43711315338/1 child0/14，真实193后97/全mean/signedW/任意dyadic权、八整方案min完整；process614b92b0/summarya298dd2f与全源pin/旧失败/lost范围保c820e3a6同open/原proof。只M32固定δ0/η0/ν0，不授参数BVP。输入全[0,.9]、N输出[0,2383968743003/1e13]、cut真.9；unscaled h/α一次/normalized圈/97Euclidean，不另乘rho。g/p/a/c四列独立；finite193与whole窗不同，全部成功禁重。
+[v4实际三窗](results/R133-supplement-actual-complete-finite193-Green-and-true97-Poisson-three-windows.md)38c385e2：43711315338/1 child0/14成功锁，process614b92b0/summarya298dd2f，完整193/97/mean/signedW与原输入pin/失败全保30337本节/proof。只M32δ0/η0/ν0，真core[0,.9]、N原负窗/cut.9；unscaled h/α一次/normalized圈，不二乘rho。g/p/a/c四列独立，finite≠whole，成功禁重。
 
-[F实际同参数反馈](results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md)52751bb5：43737257903/1 child0/15成功锁，exec9c7710ec/预Gitc9b011ca/全45球已核。κ0固定旧帽三个strict通过、det≈.76510868、CS完整97行ε≈8.209067e−8；κ1/5粗差cutdiag/det失败且无inverse列，不推奇异。FA5 sufficientκ阈下端≈.0029415074114须同图/角/mean/domain实际差；不能用小角位移免费L2算子小量。same|δ|≤1e−10/η0三窗ordinary/right97/highbody/highcut四独立列，全部源单位/实际ball/失败/输入恢复逐字保3c74同open/原proof。νvolume负≈.05928136只一volume列，不含旧response/真实边界/particular/waist；原96腰独立。高块inverse、完整ν和core待，CS只同一个完整bound取min。
+[F实际同参数反馈](results/R133-supplement-actual-selected-parameter-finite193-feedback-and-cap-difference-threshold.md)52751bb5：43737257903/1 child0/15锁，exec9c7710ec/preGitc9b011ca/45球已核。κ0过，κ1/5 cutdiag/det失败无inverse且不推奇异；sufficientκ阈下端.0029415074114。sameδ1e−10/η0三窗ordinary/right97/highbody/highcut独立，原96腰另列，νvolume非全ν。全部精确数值/真实参数/单位/失败/restore保30337本节/proof，finite193≠whole，高块/实际core仍待。
 
 [PF完整逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf保全两row/oldI/错相−SI、函数root有限项0、g1hat=g1pt+g0dφ*及c0=X−′(Croot∘X−)，不能用旧scalar均值替代完整density。
 [CT完整密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保χ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差、全mean/未知全频及c0=U_Pinv f̃−−f̃+。同R31条带1/128+3B<7/128<1/16与e3L/eL付全initial/jump/residual；新完整signed目标由SN继续，旧scalar/ray/KAM不重，具体全域与单位保c820e3a6原文。
@@ -69,7 +69,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [NF完整五输入](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)9c33e882：同νδ/Qδ的N=∂φV−β(〈Ch〉h+〈Sh〉Qδ)保两mean，Π96导数384；wholeC0/β,G,K与Lipschitz均独立。固定Sδ真97残差/全hL+hH、非零affine/mean及a,c的selected费准确一次；xY≤gY(r+n)+pYq+aYyB+cYyC+wY||b0||。原96腰/ψlift/true dr、全high/phase/wholeC0/H8193/NG所有条件逐字保f010本节/proof；不借右collar。腰norm见WA，实际新第五列仍待。
 
-[WA合同](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab与[实际腰输入](results/R133-supplement-actual-exact-selected-waist-data-and-original96-rows.md)e81087a2：唯一43747940791/1 child0/13门/11pins/4AST成功锁；execae7c3b79、SCI91a93919/preGite3411257与完整33字段root准确复原。新base65位端值身份过，Z193/两zero-repair只读。raw96/√2且baseα一次/Z不α；exact A/B/D、四uniform端max全保。d1e−10完整norm<8.923e−26，base/Z两exactzero标志false；不删腰源、不扩PDE域。NFell0/CPA第五列/实际解仍独立待。
+[WA合同](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab及[actual腰输入](results/R133-supplement-actual-exact-selected-waist-data-and-original96-rows.md)e81087a2：43747940791/1 child0/13/11pins/4AST锁，execae7c3b79/SCI91a93919/preGite3411257全核。base65位门过，Z193/两e0只读；原96/√2/baseα一次，三rational/四uniformmax全保30337。d1e−10 norm<8.923e−26且base/Z均非exact0；不删源、不扩PDE域。
+
+[WL完整腰部延拓与同CPA第五列](results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md)e2e9d6d4已root/phase全文核：原D正算法各row的M0≥3bKp(14ε+ε²)、M1≥GpKpε，用固定ε=19·1e−10及已成whole_core maxima提Bk/Gk；不是任意operator norm倒推。M=7+19d/Mφ=6+83d代NF的完整384/mean/rank，ell*=L^-1/2+a*√(L/3)。SR的sameCPA两case各三wY再乘WA同d腰球；只新scalar，无旧40parts/6376rows/Green或积分重算。数值未跑，其他四源/wholecore/γ入口/high/ν/真正解仍独立。
 
 ## 4. 实际帽图与完整core接口
 
