@@ -68,3 +68,5 @@
 - [R680：全十九角的原两jet能量与混合charge限制](../results/R680-original-nineteen-angle-root-energy-and-mixed-charge-restriction.md)：原Euler forcing完整中间框付H0(3C+L)、L·C≤8degY，实际全预算及接触曲线nef。charge同余的q个真jet及重复轨道给4q(H−r)≤3B_D²+8mmaxBct，临界排q≥4；一般D≥(√(8/237)−o1)√p。gcd1/2/3和同R第二forcing仍开，未免真实来源返回成本。
 
 - [R681：原完整规范的首挠点代数值与全共振余数](../results/R681-original-torsion-gauge-and-finite-algebraic-residues.md)：同Bα/原torsion轨道给T_g的明确幂方程，额外p支付log核；原至u^(p+1)有限jet唯一选正确根。边界真实导数γ=1+pω²给全部正阶log/T_g jet代数，原LT运输全保；Hermite插值精确恢复所有Q^ell余数并等同原无限尾。未从代数性推出余数非零、j0传播或原X闭盘。
+
+- [R682：同八角域的第二观察与统一有限单位差](../results/R682-original-opposite-corners-and-uniform-unit-difference.md)：全q1/S1/T1及x²/y项经真实角型给完整三次四pair项；整组合消负一矩，正二矩单位付r>2N+5M+14时准确赋值3r+4M+5−2N，可固定N4/M2/r34得107。两套原全S/T返回系数仍unit，全部外部按同式保齐，未据角域非零关闭中央缺口。
