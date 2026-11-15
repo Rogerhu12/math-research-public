@@ -582,7 +582,9 @@ node topics/rank2-sha-infinitely-many-p/scripts/check-r685-new-carry-mass-and-ac
 脚本只向标准输出给可重算报告，不写仓库数据文件。
 固定参数为原 $b,\Omega$ 齐次恢复、辅助低展开 $b=\Omega=1$；
 首次实际运行环境为 functions V8，标签 `R685-exact-18`；它不是 GitHub Actions run_id。
-本题公开 Actions 的脚本执行另按真实 run 编号登记，不以该标签冒充。
+公开 Actions [run 43679602653](https://github.com/Rogerhu12/math-research-public/actions/runs/43679602653)
+已在提交 `199268b852c965c65b6f65932a547ab68ebbbf97` 按上式、无额外参数执行成功。
+输出3001字节，SHA256与下列首次输出完全相同；未持久保存报告数据。
 本证明不以附带有限检查替代正文的全参数论证。
 它准确检查四条完整正矩、所有质量次数、两个实际过滤模式、
 十三因子赋值及两个有限窗口。一般的来源运输、半特征、

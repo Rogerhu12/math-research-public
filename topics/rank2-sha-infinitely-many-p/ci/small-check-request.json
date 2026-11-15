@@ -1,11 +1,11 @@
 {
-  "request_id": "rank2-r690-native-w-source",
+  "request_id": "rank2-r686-public-check",
   "checks": [
     {
       "engine": "node",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r690-native-w-source-of-adapted-cd-carry.js",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r686-original-yz-core-and-st-unit-carries.js",
       "args": [],
-      "include_stdout": true
+      "expected_sha256": "374028b50dd5239d321e6110853fe708eacd493bcbca61fdc81590aa559f9f3d"
     }
   ]
 }

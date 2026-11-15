@@ -1,0 +1,16 @@
+{
+  "request_id": "rank2-r685-public-check",
+  "run_id": 43679602653,
+  "source_commit": "199268b852c965c65b6f65932a547ab68ebbbf97",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r685-new-carry-mass-and-actual-outside-filters.js",
+      "args": [],
+      "engine": "node",
+      "sha256": "eb0a2b8c8116fad75b02d7849a557341b43c6d294fce8e4850f8416e16df0c3f",
+      "stdout_bytes": 3001,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false
+}
