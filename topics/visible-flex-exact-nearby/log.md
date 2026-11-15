@@ -302,3 +302,14 @@ root另全文读A主文62909c54/0e56cf64及actual43688459733/16门，CA确同ter
 合同使用same实δ≤1e−8、η0、n≥388，trueAi+非零βnBi。完整ordinary positive source、finitehead和cutoff读出给C+；correction指定stable0/roothead0/external0，trial真stable非零保持。strong correction≤9CRω1C+ +CR CF+CO C−，并非完整strong return或incoming逆。原run43632464994/1 artifact14128707026的ZIP7900304/05d77d28b89d57ff475de07dc0e41974f7408e76821c2edcb81609e49303daa1与member7873296/3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b只临时恢复，不重matrixwords/negativeintegrals，不发布新artifact。
 
 双README在d4f76ae46d24177ef2ae20507c5ffa29e50a4a1e逐blob未变。下一phase继续新positive标量消费，newton完整c0正H3输运、tail真实97 cap差、root有限非线性receiver并行；同对象总标准未达。
+
+## 2026-11-15 17:03:24 UTC — NF完整非线性源、真97边界与独立waist五输入接收
+
+发布15471B/blob3c67c294589aa3e8e686394ddff7d9b16a93fb5d/SHA9c33e8827d7c3f1d76d6ba74d8cde7be6e98f822b00520932a9e02eeacb245ef。tail完成NF1–4，phase独核NF9–13全值与差分费，root逐式从D3/D4展开核其完整散度势与两mean。root新增NF5–7；tail专核NF17–20、新ton专核NF22–24均通过。只有解析推导/文字/primary读核，没有新数学计算。
+
+同νδ、same canonicalQδ与normalizedcircle/rawEuclideanpair，NF9–13分清π/8的L∞ primitive与1/4的L2 primitive；Π96只付384，不要求未知hφ。wholeordinaryλ必须wholecoreC0/β,G,K域，不能借右collar。NF5以固定Sδ定义真physicalcap residual，所以DB第一行恒等、mean−mδ^-2〈h2〉完整，DS·非零base遗漏不存在；若换随态S_Q则必须另付。K*在(γQδ,fB)实际图导数，ΔB作用全hL+hH，cY只消费参考B0高输入。
+
+root亲读原known_response7ead1dbd/79796ab5与weighted15d4f7cc/32bea27d primary：U=(I96,0)、raw非mean/√2、无α/第二ρ，g0δ不得设0。E=Uᵗ、ψ=1−r/L、W=ψEg0的Dδ源给ell0=L^-1/2+||ψa96||L2，完整a96保mean principal/rank；W−GδDδW准确原腰数据/右齐次。B/N/C三个左Poisson费含真实dr，原virtual frame接口仍由完整G承担。结合F成功κ0四列得五输入NF26；新ell0/wY未数值化，实际cap差/边界非线性/高块/νphase与NG仍待。
+
+17:01:47定时真CLI git pull --rebase origin main返回No usable execution environment；下次≤18:01。按根规8继续小UTF8，随后只读6de3892a333e211e2ac4297f3a426489cca21b99两README相同原blob，非真pull。出版前再核198f22cee3cb170f88766b574596e669daaf76f2同blob；规则无变化。压缩前H/open/results/log逐字保27caa3d070adb531a62be5e6c2f99181311a592e及其递归档；旧域/失败/源单位/未付义务全部保留。
+下一优先新cap对称resolvent+已成RW权界的完整差合同和actual消费，并行positive Airy scalar、完整signedc0/H3；总标准未达继续。
