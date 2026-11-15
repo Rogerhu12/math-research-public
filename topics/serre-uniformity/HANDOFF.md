@@ -6,16 +6,16 @@
 
 已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次R792前H](notes/2026-11-15-handoff-before-R792.md)。
 
-**已读规则提交：6bb5a7bbcdb05371cbf6c2f92f88bf30f231866a**（2026-11-15 07:07 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：4ccac5c092097ad2667e505604b013c0c68e75f6**（2026-11-15 07:14 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
 - **R775真实续算已成**：run43679160495/source032899cc成功，M2/M6/M12秩146/694/1514、原mod739 minors344/461/730，power6维1506。原18个完成文件SHA全不变；32文件/25stage已核，core8b02496a未改。cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203、artifact14148883593；全部绑定见R775-certified结果。
-- **R777完整M6/M12方案保持备用，未触发**：原准确core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a已保存。备用文件已填真实生产者，producer_inputs_pending=false，无触发请求；当前优先R786直接power5，不在R775成功后自动重开较大的H³694阶坐标/M12任务。
-- **R774已成**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475；真e1、H³至qY820全560坐标/26块/108stage。artifact14128247134，全部原尺度/证书/manifest SHA见正式结果及请求；已复用，不重算。
-- **R778已证**：20原cusps在L上单轨道，保M/L40。L系数A/B只须143个原Laurent项−e..142−e准确零便全球相等，rank2720/kernel308；基q142、实际e1只Q427，旧800已够。M2/M6/M12完整40坐标前缀13/41/82注入。证明SHA见请求。
+- **R777仅备用**：真R775生产者已齐且pending=false，无触发请求；不在R775成功后重开大M6/M12方案。原冻结core/参数见正式备用文件。
+- **R774已成**：原e1/H³至qY820、26块/108stage已复用；原run43631427773、全部尺度/绑定见正式结果及本次R792前H。
+- **R778已证**：20原cusps在L上单轨道；L关系143原Laurent项即全球，M2/M6/M12完整前缀13/41/82注入。原证明/全部输入保持。
 - **R781理论与实际Laurent已成**：run43679703344/sourcef0292795成功，原M+=L(ξ+ξ^-1)、280/Q，R0..142与κ幂/144stage逐SHA及等式全核；无κ逆，只复用R774已成前五块。cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0，artifact14148041703。core/proof/ZIP/全部参数见R781-certified结果与R787请求；原函数后继直接用R0..128/κ129，不重算。
 
 - **R786理论及准确短基已成**：原5ℒ degree1360/1234基、原y pole1206，129完整Laurent阶即全球。run43682100611/source dd262672成功，全部q0..128/40坐标与旧mod739比较；artifact14148389754、cert dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9，3740文件SHA已核。全部冻结绑定见R786-certified结果。B0/A消元1326×1214 L、rank≤1186仍只理论界。
@@ -28,6 +28,8 @@
 
 **R791实际成功**：run43686308194/source f945ef5d、0.118秒；真实阶21作用、实/反实秩6、全部12个CM切向非零，尤其原index4。$c(f)=-[\zeta^2]f$，$f_R=[1-\zeta^2]f=f_4-f_6$、degree3618；原$f$仍degree1206。$e=\kappa v^\dagger v=3870+711s_1-801s_2-360s_3+612s_4+864s_5$，$d_0=25326$，原五维$F^0$全部落实。三同源给$y_R=y(y^2-9b)/(3\sqrt{-3}(y^2-b))$和极除子；同一$h_j$的η可用较小原映射，但保主函数修正。另证明全部非零实际Hom在$c_1$不分歧，非仅基向量。cert94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46，artifact14149997458；全部绑定见[R791结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。真实极除子/Jacobianη/β/高度仍缺；切向文件随直接后继转交。
 
+
+**R792证明已成、合成待生产者**：真实$c(f)=-[\zeta^2]f$与有理$c_1$给$y_0=\sqrt{-3}v_0$、$x_0=\zeta^2u_0$，$u_0,v_0\in F_b=\mathbf Q(b)$。$u_0^3=y_0^2-b$在七次$F_b$中唯一；$\operatorname{Norm}(X^3-w)$唯一奇数次数因子配小gcd精确选根，最高Q次数21。原R787十四坐标、R790的82²/82¹⁰和R775递归recipe全对齐；共同零阶0/1时首jet已足够β_C与真实$v\beta$，不冒认原A的同源核原像。若共同零≥2才继续；高度未算。见[R792](results/R792-original-beta-composition-and-Galois-cube-root.md)。
 ## 已成输入与ordinary续点
 
 R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom及R759完整Z格rank12/O_K6全部完成；原index4 degree1206非全局minimum。保b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246、c1=4424/c0[2876,2822,2823]。R764全格全部cusps/c0映O，fP=f0。R762商Y genus127；R767真实M2正常生成及8椭圆主部；R769完整degree≤693排除关闭，不扩可选SVP。原全部run/SHA见正式结果及[本次R790前H](notes/2026-11-15-handoff-before-R790.md)。
