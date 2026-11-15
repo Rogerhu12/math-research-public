@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 actual PW seven positive ports to waist** — [完整实际七列、四raw jump、四outer和两mean接口](results/R133-supplement-actual-seven-positive-ports-to-complete-waist-density.md)（6a763e7b784379573b63dda35a3664277c97e800903b373d50aebb12a3cc5cec）：43734233535/1 child0/21门。collar/body ordinary→waist分别<796.801/11167.586，完整七列独立，stable/head/两mean与各jump不置零。root核17pin、36球/29unique、原matrix/SP/RJ全字同及33374B预Git，全部旧数学0；此为有序输入映射，不授真incoming或strong-return逆。
+
 - **R133 actual NC/BD direct H1 trace** — [完整12双五列及实际运行](results/R133-supplement-actual-nested-collar-localization-and-direct-first-angular-trace.md)（5451c5f766f6f1c0a97bdf7a3e7ed411a3f5b183bce1cd0493ce25c0cf850f7c）：43733916510/1 child0，16结构+12角导门全部通过，768组/1536公式。J96/J288分别整row选N13/N39；两独立mean、全source及same-state/wholecollar前提保留，未知low/shell没有赋值，独立MA高域不扩张。完整science35707B/83e06a28、process3157ed35、reportb88b9e54与46305B预Gitbe17391b已核，旧科学零重算。
 
 - [R133 PW：完整七个正区输入经混合根迹到腰部density](results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md)。原负一阶七port与已成SP完整连接，保root稳定输入、全有限头/两mean、raw输入/输出转换、所有ordinary与affine单位。新正标量系数待实际；无新BVP/strong inverse结论。SHA256 246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562。

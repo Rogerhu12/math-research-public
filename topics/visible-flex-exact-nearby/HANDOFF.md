@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 16:21:47 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 16:24:59 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 16:04:04定时与15:57:29非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；每小时继续真CLI，ref不冒pull。root亲读Green16:16:32.416039→d3829338116517acd17cf4a883a853c490fbbcd9与NC16:10:31.850149→f58dc7aefd03e2edd937b5edca686bf299c833b2的真pull，两README diff空。
-最近只读README核：c14381ad4a23ae7e5175454d46bf86bd492144df；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：7ecf4e0f2c1f722c1564ada78bf6baaf0ac76372；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前H/open/log：9026e9394566e97c1ee5c085d70d7698cc9c21bd同路径；递归保6f6bc/16fd/75bade/57d56/b04a6/febfb/f1a97/441257/5d5024/52bc/dc10bb旧档。原域/单位/mean/失败/restore/未付义务全保，成功旧数学禁重。
 
 ## 总验收与同一个对象
@@ -27,7 +27,7 @@ F/29a24167双body/cut三det待Green final process+summary、Dexecution、cut pro
 AJ/RV/DG/M/SV/ER/S1/HP/BG成功全锁；21first+10mean、18正coeff/9词5mean/六dr、双窗/sign/列/root/seam、w1V/fullrank n^-2/q=vg−vφp和失败恢复保9026e939原档。
 RJ43728317408/27 b39ef915/042031e1/816acb6b：pair<5.308195e9/mean<3.445226e7/local<8.700621e8，全92pin/103球79unique已核，源禁重。K仅径reference；N43716450174/17、正图43617150971/10和负一阶43627228225/18锁，原七port/mean/head/mixed/source窗保同档，非rawL2。
 SP43731464771/20 95d3abfe/a3a02969/6a1df053锁；fullδ primitive+两mean正/反norm<5.867924/173.871627，root-jump→waist<2038.396874、ordinary<144.136426，RJ<7.651043e11仅source列。ng/q/normalizer有序及source/jump原域保同档，旧流禁重。
-PW/246c81ac正七输入负一阶→rootmixed→SP waist完整有序连接：a_i=9 C_R(u_i+1_{i=s})，s仍独立；B_F含root全低/两mean，raw stable另9(17/16)、body/collar rawjump及外端四列另保。negative rootjump用C_R、strict jump用C_1不乘长度，普通源另C_O/C_2。旧8×7/18门与SP20门只读；SCI268e033e/worker9633be71/manifest8c3d9c45已部署待run，不授stable闭合/BVP/GH。
+PW actual43734233535/1 child0/21门/3AST，proof6a763e7b/execf17516d3/resultab086826；root17pin/36球29unique及旧matrix/四outer/三mean/SP/RJ逐字核，预Git33374B/7e56ca37准确重建。a_i=9CR(u_i+1_s)，七waist列约88533.21/796.801/11167.586/88533.21/88533.21/69833.506/18699.705；稳定s、root全head/两mean独立。raw stable153/16与output9分开、jump无长度、四outer/三mean保原文。旧图/SP禁重；真正cutoff源/stable选择/head/seam及strong R0/BVP/GH未付。
 
 ## 完整core、phase与帽接口
 

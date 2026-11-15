@@ -195,3 +195,13 @@ root全文SCI036dd32b/37395/268e033e（585行）、worker3caf7d0d/33474/9633be71
 J96 N13/J288 N39；同一N两条完整五列，不能entrymin。最宽J96 BD high条件项1.2053114469697388e−8尚超入口budget；rho2^-24 source+high约7.19536203e−12仍缺shell/low，J288极小high也不消shell。下一NG使用更多outer-to-inner宽度，分别保每个候选全行；old固定a1/40仅copy，LC/NC既成系数只读。免8193插值并非独立高域已付，wholewide C0/双侧same-state/两mean与实际低门仍待。
 
 Green16:16小process53246B/aff40dbfe1d339bf74223f9294190d9e84fdb5f92ba5b12f85fedd9868bda888全文相对16:06差异已核，past5184、combined160/queued162，其余两流5970done；childnull/completefalse。真pull16:16:32.416039→d3829338116517acd17cf4a883a853c490fbbcd9，两README空diff；容量199170652B/inventory2d22d1be。未相加异步consumer计数。发布只读README核c14381ad4a23ae7e5175454d46bf86bd492144df；旧H/open全页保9026e9394566e97c1ee5c085d70d7698cc9c21bd，压缩仅索引，不取消旧域/失败/待付条件。
+
+## 2026-11-15 16:24:59 UTC — actual PW七正输入到完整waist结论单独推送
+
+Run43734233535/1 head9026e9394566e97c1ee5c085d70d7698cc9c21bd，job132873172821 16:13:15–16:14:05全success；root实取jobs3236B/SHA9d0348f89a27683ee67e6db4c7ad4002bc92b5bfc9d06c6d905666d63f31d440。child0、21科学门、3AST，数学.005045581999993942秒/child wall.2640667869999902秒。exec35295B/f17516d3083cd2782866c2163635a3a89efe9479ced8f57eefb2bf63e3f92e90，result8861B/ab086826db6d96cf65fae7d23182bf2698a207a8bb6c6025907d5fa276e8b867，proof20573B/6a763e7b784379573b63dda35a3664277c97e800903b373d50aebb12a3cc5cec。
+
+root全文process/receipt/report/proof/源关键函数/oldpositive/SP原字段审：17实际pin及参数全同，36球29unique逐字在actual；原8×7canonical SHA07ef3c69准确，root原row、四outer/三mean、SP四完整gain及RJsourceproduct全对象一致，无旧mathematics。预Git按worker精确sortedJSON从公开small重建33374B/SHA7e56ca379c55babba7c00448561b8c0c18bf5de118aaa992afca313a3be46508一致。临时native2861/e2d43706、process22573/5bb24d33仅身份不入库。
+
+两个真pull16:13:54.369283与16:13:56.881123→79a1ebe06b265832b903fdb6ff7f4421dc17b47a，双README空diff；public实际topic199126496、投影199170652B，inventory09124f2f。root本次只读README核7ecf4e0f2c1f722c1564ada78bf6baaf0ac76372，CLI每小时要求保持。
+
+完整源窗负一阶/physical4j≥388、同实δ≤1e−8/η0/193direction。七列按a_i=9CR(u_i+1_s)，没有把stable当0；raw input153/16另于output9，negative rootjump混合域/strict jump无长度，root全finitehead/两mean与外端mean独立。当前RJ product765104227462.508958…仅读非whole return。成功结果锁，下一分析真terminalAi+非零beta_n的positive trial、两原曲率行χ′/PH L(PLχh)、有限head/mean与强cutoff列；完整incoming/strong R0另付。
