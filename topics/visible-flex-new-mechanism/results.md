@@ -276,3 +276,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R264 完整证明](results/R264-potential-tail-moments-and-complete-platform-flux-equivalence.md)使用R258/261全Z局部自伴源，保原右锚得G″=(aw″)′+bw′−J(cw)、d=(af″)′+bf′=J(cf)，原Λ=a(f′w″−f″w′)+wd−fJ(cw)。常平台f=Fj时Λ=−FjTj、Tj=J(cw)，总flux=Fj−1Tj−1−FjTj；真实Tj是右侧活动势矩Mj=∫cw之和。所有平台G″0及所有总flux0共同 iff 每个Mj0且每个非零常平台(aw″)′+bw′0，两个方向都逐步证明；零平台由a=b=0而非擅删尾处理。
 
 联合门通过后内部通量有准确单活动积分式，可直接代R225 Laurent分母；输入w与待解gauge v区分。有限控制组合只要求总矩和总平台微分项，未逐方向强加；两个mixed仍保ζ历史/E÷2。内部Laurent、真实两平端、全Rp0/实际signed及同w ruling仍欠，不冒rank或fullperiod。原断连临时稿以已核公式重新编辑，不声称同旧字节；无新科学或人工执行。
+
+
+## R266：全第三核在常平台上的三维射影像与真实二次尾
+
+[R266 完整证明](results/R266-constant-platform-projective-model-for-full-third-kernel.md)从正确δ式−Z*A−AZ−DfA[Zf]积分得Aexpδ=e−tZ* Aρtf e−tZ，保seed导数。对局部f=F，ρtf=F(1+tx)²；H有限式为−8F²t4[(1−tx)²D4−4t(1−tx)D3]，乘回阶乘给H0–3零、H4−192D4、H5 1920(xD4+2D3)、H6−5760(x²D4+4xD3)。J两D3项准确相消，J0/J1零、J2−48F²D4；R261的χ104=3F²D4/8=−H4/512，其余七零。故全Z在非零常平台上的局部源像准确为F²(P2D4+2P2′D3)三维，非完整K像或固定圆全rank。
+
+三次积分保完整K=F²(P2w′−P2′w)+Q2，其中Q2″=−T、T=原J(cw)，另两常数来自实际右侧history而非自由gauge。R264总flux已付后，非零平台剩原三阶ODE；只有输入实际二次时才简成2F²(βA2−γA1)−T。f常/g变不授Φ输入二次，完整mixed仍保ζ历史/E÷2。局部常/二次profile只作jet计算，不充当全局合法seed或重置锚；内部Laurent/平端/同w仍欠。root有限流、H/J展开、阶乘与原尾逐式核；无新科学执行。

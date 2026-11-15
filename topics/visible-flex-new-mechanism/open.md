@@ -126,6 +126,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R264](results/R264-potential-tail-moments-and-complete-platform-flux-equivalence.md)已将[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)扩到R261全Z：G″=(aw″)′+bw′−J(cw)，Λ=a(f′w″−f″w′)+wJ(cf)−fJ(cw)。有限活动类上，所有平台G″0与总flux0共同 iff 各活动∫cw0、非零常平台(aw″)′+bw′0；所有尾来自同一右锚。控制组合只要求总势矩/总平台项，不逐方向加限制；两个mixed另留ζ历史/E÷2。下一真实固定圆上的这些条件与全部内部Laurent/平端germ联合，再与同w ruling共同支付。
 
+[R266](results/R266-constant-platform-projective-model-for-full-third-kernel.md)给全Z在非零常平台的准确局部像F²(P2D4+2P2′D3)，维3；H/J所有阶乘与χ104从属已付。完整K=F²(P2w′−P2′w)+Q2，Q2″=−J(cw)保真尾；输入实为二次时K″=2F²(βA2−γA1)−T。局部源零不能代完整K零，f常/g变也不能猜Φ输入二次；后继按同一实际目标使用，不重平台表。
+
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
 [R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)/[R265](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)/[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)已以真实宽度/中央幅γ/形状s、主三变量IFT与完整包装同时付三矩/全third/六能量/两个整面积A−2,−3及A−1,−3/36 odd。居中排序的[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)Q负可由TM3伴随正幅消，但[R268](results/R268-full-sine-four-area-obstruction-for-centered-microcells.md)S04仍正。[R269](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)真实20A左右错位高点、准确方差扣回及三虚矩保持，给S04负而同排序内仍Q±。四个最终不交位置分别完成所有IFT/包装，先每order消Q，再跨order正幅消S04；完整角身份E22−E04=−ReQ支付整个A1,−3第零外矩。**下一同一实际族的剩22形式even（非rank），尤其该pair I1/I2与其它面积，再接完整period/同w；不得把符号/零次矩搬到其它外矩、任意O2重选seed或平移原能量根。**
