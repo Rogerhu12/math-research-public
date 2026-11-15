@@ -365,3 +365,9 @@ worker新增真实ls-tree topic bytes/count/head与出版两小文件准确delta
 root全文审L9099B，独推L4–7、L11–15的矩阵次序；newton已独核前三组。G0(MZ)的ZX系数以K²=TI准确为0，G0(Kw0)的交换项是QE(xI+iεyK)w0；代P17得L13并保QφK+QyE。L2的E12在左，g/q保完整rankφ与vφ、input n^-1/n^-2以及全部old/physical mean。B_j另有真实old域，不能从canonical域假推。正文blob b8528e8116b18b1d415eb2a5c4c54d503e56ec9a/SHA25682a036cdb4134803a8b7a0d8a31d02f7c9bb6901ffa887a3f2e7c4dbce329d27。新数值等待唯一P run43705772615/1的actual主导。
 
 root亲读Green10:44实际小快照，两流5970全成，past2928/24groups，尚未final；runner真pull cf52ab6728e836de3a6a7d915d02f839e8a992c4两README空。newton追到whole_parameter_half_width=1e−9是祖先worker的继承字段，真实same-F数学identity固定repaired M32 δ0/原ν，不能转授参数BVP。selectedδ*高相位必须同一对象衔接。既有P16路线保all regular/physical fourth/mean和waist u，ν关phase，waist振幅为几何输出；不另加固定α方程。推前main ca17d990ad20f4ab2bc9fd1412ff6f19370fb010两README相同。
+
+### 2026-11-15 11:05:33 UTC — L16–18 的完整 rank 外积
+
+root 逐式回核 determinant=−Δ、第一逆列、leading a0/b0 代入后的两分量抵消，独立于代理审查；新正文 blob f5212e8ac711a088b0bcf4d17b65c8c2350dd411 /10242B /SHA256 0926ee2598e6ecef13050ad23331a7ef3cf575984b577c11b9a4f74cd7e86f81。原 L1–15 和域/mean/trace义务保持。单独推送此结论，未运行新科学。
+
+root 亲读 Green11:04小过程53bb2cd42184515aef7610b46954e7b57ff038c5 /47146B /853f10e62bcbda127effb9f9c5a2f1fa5d72c2cf45cd9db592dcae325754c899：同run43690634784/1 future/product5970完成、past3360、53groups、3consumers；真pull11:04:15.885318到a2bd847d4bc5385d2143a1e5f3a474e9c54ee8d7，两README23次diff空。另亲读P run43705772615 job132786394695真实status failure：step9失败、之前AST/runtime均success；日志未核，暂不把901s推测写成0math。发布前又核两README在41ef8d7de1843bd8c831eb9d9166673bb552409c未变。

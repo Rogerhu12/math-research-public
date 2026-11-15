@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [第二局部项与完整振幅 L 的 §4a](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)：精确求出 H_j^V 的第一逆列和 (iεy,x)M=G(x²+Ty²)(−iεy,x)，得到保留 rank 项的完整外积；w0 的两分量分别保 xy 与 y² 根零。原 n^-2、输入标签、输出 mean、旧域 determinant gap 与全部角导数仍在；这是解析等式，不宣称新实际范数或完整 high 逆。全文10242B/SHA256 0926ee2598e6ecef13050ad23331a7ef3cf575984b577c11b9a4f74cd7e86f81。
+
 - [第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)：原regular transport合并2w1T+cT w1，完整L2保持E12只取第二分量及原R_j(w0)/输入n^-1。G0(MZ)的ZX因K²=TI准确取消，g保真实n^-2逆矩阵rankφ，q保vφ及全mean；可用leading connection继续合并。须真正共用old-circle逆域/两source窗、|ρ|^-1/4根包络与seam；只授解析恒等，尚无数值改善或high返回通过。
 
 - [regular transport下第一local向量的精确消去](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)：w1=M(A,B)原regular积分给P(A,B)，leading有序intertwiner与E12左乘保全部真实势/mean后消去未相关w1rr；根商Xi可去，最后E12只取b0/b0T。原S canonical域/路径已核，新缩域预算尚待Actions；可用18个已成positive系数和严格旧预算数lower对整local_raw1统一缩放；P26明确保每点|ρ|^-1/4与原平方dr根权，不重算旧6行/积分。尚不授数值改善、负侧BVP/trace或strong-return。

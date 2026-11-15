@@ -177,6 +177,41 @@ Indeed q=v_bg Dw-partial_phi(v_bg mathcal B H_D^Vw), so q=v_bg g-(v_bg)_phi math
 
 No derivative of the physical Fourier primitive I or inverse J was interchanged in this derivation. The full old-angle means of g,h,y,q remain in G.19 and G.20. In particular the transported mean is still Pi U^V(g), and the five independent physical even-mean terms remain distinct from an amplitude mean.
 
+## 4a. The exact rank row before taking an amplitude norm
+
+Write $B_+=x^2+Ty^2$ and $\Delta_{V,j}=B_+-n^{-2}V_jy^2$.
+On the same paid old-circle inverse domain,
+$$
+ H_j^V=
+ \begin{pmatrix}i\epsilon x&y(T-n^{-2}V_j)\\y&i\epsilon x\end{pmatrix},
+ \qquad
+ \mathcal B_je_1=\Delta_{V,j}^{-1}\binom{-i\epsilon x}{y}.
+ \tag{L.16}
+$$
+The determinant is $-\Delta_{V,j}$. The original exact leading formulas
+$a_0=G(x^2-Ty^2)$ and $b_0=-2i\epsilon Gxy$ give
+$$
+ (i\epsilon y,x)M=G B_+(-i\epsilon y,x).
+ \tag{L.17}
+$$
+Consequently the entire retained rank is
+$$
+ \boxed{\quad
+ \mathfrak R_j(MZ)=
+ \frac{\vartheta QV_jG B_+}{\Delta_{V,j}}
+       \binom{-i\epsilon x}{y}(-i\epsilon y A+xB).
+ \quad}
+ \tag{L.18}
+$$
+In particular
+$\mathfrak R_j(w_0)=
+ (\vartheta QV_jG B_+/\Delta_{V,j})(-xy,-i\epsilon y^2)^t$.
+This keeps the original second-order root zero of $y=T_\phi$ in the first
+component. A later norm may use this exact product without first bounding
+the whole leading vector. The complete input-label dependence, output mean
+and all angular derivatives of the factors remain. No new determinant gap
+or enlarged domain is asserted by (L.16)--(L.18).
+
 ## 5. Domains, complete comparisons, and limits of this result
 
 The regular integrals used for mathfrak b require their entire sT segments to lie in the paid canonical product. The leading matrix and normalized correction in (L.4)--(L.7) are evaluated on that same product.

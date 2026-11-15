@@ -130,12 +130,15 @@ P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
 通过后六角jet用18个已成正线性系数转换，同一个local预算数比率可复用旧6行/dr/rootband。
 P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根权的点值norm。
 最小consumer已部署：17pins/467721B，1旧fold+4成功receipt/18系数/31项只读，
-仅新一次小域/connection/L1预算、1比率/3组合，实际43705772615/1运行，13门待回执。
+仅新一次小域/connection/L1预算、1比率/3组合。实际43705772615/1的step9在11:03失败，
+此前AST/runtime成功；真实日志与科学启动状态待核，13门尚无回执。
 worker另以真实git blob元数据检查当前及两小文件出版后topic<200000000B。
 其余30项及全部mean保持；本次旧成功比较也锁定不重算。
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
 G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。
+L16–18另给exact inverse首列及rank外积，w0完整两分量保xy/y²根零；
+未新增determinant域或数值收紧。
 B_j实际old-circle域仍须与canonical域真正相交；新数值仅在P实际主导确认后再消费。
 完整physical-to-wave/回代读出与强返回仍待，无新数值改善声明。
 
@@ -408,8 +411,8 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
 本机executor持续不可用，10:24:25定时及10:47非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull10:44:07.555956
-到cf52ab6728e836de3a6a7d915d02f839e8a992c4，21次两README diff均空。
+ref读取不叫pull。最新亲读runner真pull11:04:15.885318
+到a2bd847d4bc5385d2143a1e5f3a474e9c54ee8d7，23次两README diff均空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
