@@ -159,3 +159,7 @@ SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd954
 ## common-T 旧圆 I/J 与 mean 接口已准确展开
 
 I3–14/SHA8f036ea17cd3681ccfe8ed67914543279e9606d5ede8f70198288c62ee66f552：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。
+
+## 已付残差控制的径向域与准确 holonomy 重建
+
+C1–29/SHAad1fc17b90c226149e806fde173f0ecf0d8deb5d107f7a8cf8bd78ad89fefdc1 新增 R_s=B_(s+4)+N_(s+4)^[3]≤2^-2097152（0≤s≤4416，输入至4420），区别于任意Ct4球。ct/c=2A+4，physical残差的δ16转换保留，root第三source导δ13；J/D等逆幂在完整有限Sob代数绝对求和。fixed-t true residual diagonal/v_t项、strict κres及一次TV不增加原负层幂。相容ordinary source用Π_A0保〈A0N〉=0而不删ordinary mean；proxy准确切向，mean小根二阶重建先读P⊥再恢复全mean，避免未付κ2第四导。固定metric，不将ordinary相容子类代替一般ν/Γ/weak端荷。继续全层high/middle/deep网络、真正/伴随外图、参数列及可重复smoothing。

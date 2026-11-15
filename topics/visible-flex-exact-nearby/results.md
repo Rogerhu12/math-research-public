@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **非解背景径向 jets 与真实 holonomy 重建（声明域内已证）**：[C1–29](results/R119-supplement-off-shell-controlled-radial-jets-and-exact-holonomy-retraction.md)，实际residual前三scaled jets的δ16保留，root三导仍δ13，完整高角逆幂/strict密度与TV不新增负层幂；weighted投影、几何proxy切向与mean小根二阶重建保普通mean。固定metric、未授全nearby网络逆。
+
 - **common-T 参考的完整旧圆 primitive、J 与 mean 接口（精确解析）**：[I3–14](results/R133-supplement-common-radial-reference-old-circle-primitive-and-mean-interface.md)保真实potential矩阵的rank-one修正、两个old P、完整有限余项、跨reference seam的真实原子和独立even mean；精确径向mean压缩保额外n^-2有序项。新增gap、参考两列和强输出数值仍待，不冒用free Airy界。
 
 - **完整正帽有限 Sobolev 主体球与同域二次余项（已证）**：[C1–23](results/R133-supplement-finite-Sobolev-nearby-cap-body-inverse-and-same-space-remainder.md)，原全实δ、1≤S≤8212、hatY=H z半径2^-8388608时反馈<2^-2097152，保持该δ的真实线性外行；state逆<2^4194305，完整mean/charge读出、same-space二次与Lipschitz。未知nonlinear outer和实际residual入球仍待。

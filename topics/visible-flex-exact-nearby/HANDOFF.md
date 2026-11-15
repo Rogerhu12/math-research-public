@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 05:49:22 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 05:50:37 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用 public Rogerhu12/math-research-public 及自己的 Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真 pull --rebase 重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已全文核最新runner真pull：05:40:04.983631 UTC 06ac32c97fc68e5b7ae0d654b0f216353cf7d40d（Green v2，两README diff空）。非FF即时CLI仍无executor；freshhead重推不伪称pull。
 CLI自21:48无executor，最近05:32:55非FF即时重试同错。根规8仅connector<100KB UTF8/禁binary；ref读非pull。现规15（137c5a…）取代Release版：可重算data/证书/Actions输出不保存，repo/Release/新artifact均不放，只script/args/run/SHA及结论；题main≤200MB。原历史/旧artifact仅暂存恢复、禁重算旧数学。清理SCI40c0f3df… run43679889657/1仍在逐原bytes SHA/普通删；实际结果须核。
-最近只读README核：84d58b0963e7d2c1b8dc991bdaf27d3b7dc46e84；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：46653675949dc9835f297ca223121a75d3e1e9d3；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public→/tmp/visible-exact-0df9-workspace/math-research-public，AGENTS无。前H完整链现存notes/2026-11-15-handoff-before-finite-Sobolev-nearby-body-ball.md（1c212853…，9742B）；再前H/全部原native/artifact/pin见其链。open归档notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md；log归档notes/2026-11-15-log-through-off-shell-Jacobi-and-finite-principal-phase.md。本H只保当前接口；不得把压缩当作删除历史门。
 
 ## 同一对象与总完成门
@@ -41,7 +41,7 @@ M/2ffbf6fe…精确holonomy mean小根/χ Volterra<2^-2400/高度，非mean PDE 
 P/be46bd9f…H8196域R≤2^-2097152上firstΓ：无限Newton+dyadic H8192→C8188、真τ Frechet/weighted固定点/DΓ0=0；γ2仍外部。实际旧成员按真实绝对角宽嵌入，不从RY64转授。
 B/8dc64a91…piecewise Ct4 H8196域、真polynomial Q/x四导：β=−FP∫κ/4，固定已知γ2时Σ128N|Δβ|<2^-2980000，全n gap>1/(256N|n|)。旧成员≤2^133000X。正图自伴量词和4/3全层余项/nearby network不可省。
 O/e8d2338e…精确offshell差EN=αNk−βNθp−γNp，无新δ逆幂；〈A0EN〉=〈NDA0〉；δN=cphys(Jgeo htilde−eψrem)+ψN−EN[htilde]，只已付有限s二次源。
-新残差三jet/mean重建稿正在核：ct/c=2A+4保δ16，第三root source仍δ13；不把任意Ct4的ell^-4灌入旧middle。全层4/3、fixed-t真实残差、变化背景逆、smoothing继续；不把局部恒等式称全inverse。
+新C/ad1fc17b…残差三jet域已成：R_s=B_(s+4)+N_(s+4)^[3]≤2^-2097152、s≤4416；ct/c=2A+4保δ16，第三root source仍δ13，高角J/D逆幂完整Neumann已付。fixed-t真diagonal residual、strict κres/TV不加旧负层幂；weighted Π_A0/相容proxy切向/二阶mean重建保holonomy与完整ordinary mean。固定metric，Γ重选及全层4/3/nearby inverse/smoothing仍续；不把局部恒等称全逆。
 
 ## 正帽固定角、有限 Sobolev 主体球与真 outer：root
 

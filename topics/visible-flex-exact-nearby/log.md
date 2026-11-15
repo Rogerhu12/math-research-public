@@ -53,3 +53,5 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 2026-11-15 05:46:23 UTC root全文独核I3–14：直接检查H_V determinant/Sherman–Morrison符号、old I/P次序、J完整L项、H_V^-1 H_D,V有序rank-one式及真实mean压缩。最终仅补若J只认证奇偶域须先取真实奇偶组合，单复carrier不扩域；正文9319B/SHA320cf3bb…独推。此为精确恒等及条件数值入口，没有新数学运行、没有宣称cutoff97完成。发布前README核3516c33095b9ab28b89f1fe62d247e66b059a0ad，diff规则未变。
 
 2026-11-15 05:49:22 UTC I/J文补明原真实reference匹配界面：显示无jump公式先限同一足够光滑公共branch；跨真实界面逐子弧微分后保−n^-1 IΣ[U(B_jw)]δφa，每级递推与移动界面的径向源另列。root核分布导数符号；不由分片ODE假称全圆光滑，不断言真jump零。正文10528B/SHA8f036ea17cd3681ccfe8ed67914543279e9606d5ede8f70198288c62ee66f552，原I3–14局部恒等未变、原已完成数值不动。README核84d58b0963e7d2c1b8dc991bdaf27d3b7dc46e84未变。
+
+2026-11-15 05:50:37 UTC tail完成C1–29，root全文核并要求物理r/残差mathfrak r分离、补完整高角Nemytskii而非仅四次径向chain rule、前置真实R_s域。phase核C4/6/8纯尺度；newton独核C18–29显式Λ/l/T（无1/q）、rt δ12/rtt δ8/strict integral δ7/TV δ0及32seam、weighted投影、非解mean抵消、κ2′先投影后恢复真mean通过。最终18825B/SHAad1fc17b…独推，只有符号证明，不新数值，不授full inverse。README核46653675949dc9835f297ca223121a75d3e1e9d3仍同。
