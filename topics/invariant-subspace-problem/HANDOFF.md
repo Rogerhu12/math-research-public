@@ -8,17 +8,17 @@
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
 
-## R150：29真核及原目标成员性仍开
+## R150：29显式核、至少30维常核及原目标成员性仍开
 
 全部此前来源/路径/未列缺口保[本次完整H](notes/2026-11-15-handoff-before-true-two-fee-counterexample-789f.md)。原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同。
 
 - [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九费1339；全原来源/输出/carry真。有限精度不付Q[s]成员性或固定B/e无界精度。
 - [标准1632 Koszul族的同J支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：原1603单位块精确解及全部1834残差真，29列全6188/4367乘回；并旧23仍29。全族原来源注入/31饱和已付，投影不保J。
-- [29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)：top29 mod31单位、bottomQ全0，W∈Z_(31)，前29全有真规范核。删前29自由列保Q列像；剩余至多7原有理方向仍未定，同选秩4318…4325。旧六规范源分母2356…3803bit解释p768重建不成；旧闭包/LLL/盲加位数不重开。二次skew亦不扩标准族，高系数未排。
+- [29规范Q核及七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)：top29 mod31单位、bottomQ全0，W∈Z_(31)，前29全有真规范核。删前29自由列保Q列像；剩余至多7原有理方向仍未显式构造；当前新投影夹同选秩4318…4324。旧六规范源分母2356…3803bit解释p768重建不成；旧闭包/LLL/盲加位数不重开。二次skew亦不扩标准族，高系数未排。
 - [双图连接4、有限K70与条件8702](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：同原17式小化实核0.395984889秒，∞Qβ恰4（旧模31下界）、s0≤4；全部最大子式两端共同24，K70=s10K60、lc=5^6单位。配指定∞43/换列42/cofactor41得q245…8657及原目标条件cost8702（非基8701、目标8468）；Q[s]成员性、lc(D)单位及固定e全精度仍开。
 - full∞连接像在20+7余空间中精确为纯20全零、横向前两坐标零及v∞一条整数关系，详见K70稿。三个真左零jet核全部6188来源；共动坐标须真实运输，不作selected列族自动封闭。公共24与指定D43不相加，余十个Smith指数仅知≥2。
 
-- [新核的一阶最小接口](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)：实得d真补核后，Θ=ΠA1W在完整27余空间的秩b给s=29+d−b；只需u²全来源提升便得D/换列/cofactor≥s+14/s+13/s+12，K67条件cost≤8734−s。当前s仍29，不预填七核/Θ；常数31饱和不付D首系数单位。
+- [同J纯投影112及全包络零](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)：run43679903558实算0.308893546秒，144纯来源投影rank112，32×7完整连接包络恰0。Qrank4318…4324、全常核至少30且每个均可full来源提升至u²；显式仍29。指定D/换列/cofactor≥44/43/42，K70下原成员性条件cost8701、目标8467。常数31饱和不付D首系数单位。
 
 ## 同w边界：同源完整返回仍须费用估计
 
@@ -43,7 +43,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - [七原方向Dixon1085位](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：run43679903558数学580.880945931秒，p536870923到1085位/31466bit，18重建未返解。原2751核心/1567DAG不重做，native FLINT3.4.0；实际逆30MB/活动槽0的Z/N/p^k78MB已存，全部SHA见注。同out={work}/seven-sparse-dixon-original可接1085。先查同J纯切向小秩上界再定是否需显式七解，未添真核。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
-- 已排selected-pure-projection-rank（10s/512MiB）：同J纯切向小投影rJ及full七余坐标连接包络；全17×77比例/I输出计数都核。不由nonpure个数推独立性，不把共动导数免费降到selected余空间。小回执在notes/r150-infinity-remote-session-789f/；旧来源历史和SHA见上述快照。
+- 同J纯投影已成：pure144/nonpure4210；I为10纯+132一横+4212高横，删十纯及m6/m7/m8。不据nonpure计数判独立，不免费删selected共动来源。下一核585维二横投影r2，若真实r2=556才夹4318；先小结构，Dixon1085原状态保留。
 
 ## 其余仍开
 
