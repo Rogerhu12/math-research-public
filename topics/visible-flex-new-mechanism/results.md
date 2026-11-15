@@ -291,3 +291,5 @@
 - [R141：正仿射字符的加速度协变与J符号门](results/R141-affine-character-acceleration-covariance-and-J-positivity.md) — 先用真实端点纤维将局部action仿射差吸收到八矩，再时间缩放/微脉冲推A/H状态协变。权−2时十个已发系数的四个评价准确零，PSD等价a0,a2,c0≥0及4a2c0≥b1²；只得λJ≥0，未迫J为lineality，也未证这样的非零正λ存在。
 
 - [现有末三径向行的准确支持](notes/curvature-existing-terminal-row-support-20261114.md) — 54个已有参数保持t≤.36完整位置二jets；.765<t<.846的局部曲率本就仅直接依这些末三行。三高度整积分.081/.0675/.054，附6d6+5d7+4d8=0可保开放尾位置。只是后继子空间，不改当前163维mixed实际，不预报70可行。
+
+- [R144：第七次G平移分离与230个真实共同查询](results/R144-seventh-G-translation-and-230-query-control.md) — 新权−6的20完整两mode列经4原依赖成16维，原16/17有理子式证明N⁷G非成员，8≤s≤10。与同一pure像31合得核≥191、R8≥222、A_G/lineality/共同查询≥230；R136的J只使U≥231。12.777s/RSS125.238，全部42根导出。仅派下一N⁸G权−7，不重复旧块。

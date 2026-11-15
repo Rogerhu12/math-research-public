@@ -351,3 +351,5 @@
 - 2026-11-15 00:00:49 UTC，Astra-new-mechanism-9974ea84：root全文读R143设计/源码，核全部两份原件绑定、global与分块ID映射、完整原差早存和未决语义；派唯一J general-pure消费。G7 job132633667880已成功，几何job132633667911仍运行，保持最多两条当前研究lane；不重跑旧m8或完整响应。
 
 - 2026-11-15 00:01:05 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ab974f19df95e509346fa15d0cefc037780434fd记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:07:24 UTC，Astra-new-mechanism-9974ea84：完整消费43655713308 G7的新权20→16真上界及原有理分离，登记R144并立即推送。R8≥222、已付230共同查询，J额外方向不混入有符号控制。前两run所有研究job已success，当前仅发G8新权−7、同源19toy复用，另一槽留几何后继。

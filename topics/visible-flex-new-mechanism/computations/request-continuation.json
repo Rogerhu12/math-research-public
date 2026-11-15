@@ -1,51 +1,70 @@
 {
-  "request": "one-general-pure-J-original-relation-with-zero-new-columns",
-  "created_at": "2026-11-15 00:00:49 UTC",
+  "request": "eighth-G-new-weight-minus-seven-only",
+  "created_at": "2026-11-15 00:07:24 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "general_pure_J_identity"
+    "g_translation_successor"
   ],
-  "goal": "Only J[-4] minus six already-published original response roots, with a fixed R133 proposal. No new response formulas, profile tests, power tails or mixed computations.",
+  "goal": "Only the next original G translation and previously uncompiled weight -7 response block; existing 19 artificial checks reused, no old block recomputation.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_identity.py": "ddacad3474844368e3546f4e4b0f92e71eb276363cd283ad4f300259e8161f63",
-    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_G_identity.py": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7",
-    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
-    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
   },
   "jobs": {
-    "general_pure_J_identity": {
-      "development": [
-        "--toy-only",
-        "--output",
-        "@OUT@/general-pure-J-development.json"
-      ],
+    "g_translation_successor": {
       "research": [
-        "--family-directory",
-        "topics/visible-flex-new-mechanism/notes/actions-43654534244-1-acceleration_layer_mixed",
-        "--response-directory",
-        "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor",
+        "--order",
+        "8",
+        "--previous-report",
+        "topics/visible-flex-new-mechanism/notes/actions-43655713308-1-g_translation_successor/G-seventh-translation.json",
+        "--previous-publication",
+        "topics/visible-flex-new-mechanism/notes/actions-43655713308-1-g_translation_successor/receipt.json",
+        "--previous-run",
+        "43655713308",
+        "--previous-commit",
+        "d21c87a4d9341369a3dee35598ed88fb666cb99d",
+        "--previous-lane",
+        "g_translation_successor",
+        "--previous-report-sha256",
+        "f5e514164cede76ba91786833d455b4638a45a3ee82cd2b7cadbcd76ee18ff15",
+        "--previous-publication-sha256",
+        "d1a5b9d8aa03553dfcf45731cbbbbb7861fbcbb496e90fb960e723e1597c3389",
+        "--previous-driver-filename",
+        "literature_G_translation_successor.py",
+        "--previous-driver-sha256",
+        "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+        "--previous-report-bytes",
+        "26745",
+        "--previous-publication-bytes",
+        "35234",
+        "--previous-driver-bytes",
+        "39670",
+        "--previous-target-minus-four-sha256",
+        "63eb0cc8ba1c72cbb8880551817c8861bcae9e437ded06bd4dce6dba1e9bf2c2",
+        "--previous-target-minus-two-sha256",
+        "67e55d68ca5498a698438f389ffb28346aaed3da329cd024a5332183846ed09c",
         "--max-seconds",
-        "180",
+        "240",
         "--memory-mib",
         "1024",
         "--output",
-        "@OUT@/general-pure-J-identity.json"
-      ]
+        "@OUT@/G-eighth-translation.json"
+      ],
+      "completed_development": {
+        "report": "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/G-translation-successor-development.json",
+        "sha256": "10a1fd8184d8fc89c6bd521545bc27ca07b61a2496cd1ae88b7c0d9b3e5aba7a",
+        "run": "43653293263",
+        "source": "2f0add61f44365d713abf836beaa8b0be2806a3d",
+        "driver_sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+        "all_19_artificial_checks_already_passed": true,
+        "same_source_development_not_repeated_under_root_rule_12": true
+      }
     }
   },
-  "other_active_research_runs_at_dispatch": [
-    {
-      "run": "43655713308",
-      "lane": "curvature_mixed_grid_steps",
-      "source": "d21c87a4d9341369a3dee35598ed88fb666cb99d"
-    }
-  ],
-  "completed_other_lane": {
-    "run": "43655713308",
-    "lane": "g_translation_successor",
-    "job": "132633667880",
-    "conclusion": "success"
-  },
+  "other_active_research_runs_at_dispatch": [],
+  "previous_private_actual_pull_time": "2026-11-14 23:45:18 UTC",
+  "previous_private_actual_pull_commit": "b2a4c84965609d677a650f47f63cd5e96c1fa726",
+  "sync_private_rules": false,
   "research_only_in_public_Actions": true,
   "task_complete": false
 }
