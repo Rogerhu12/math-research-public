@@ -17,7 +17,7 @@
 - **同选无穷远：** 同4354原来源/输出，mod31秩4318、连接3、36自由I；不得混原全6188矩阵4340/连接4。p184真13核、p256真20核、p486真23核均已实际推。**[23核/条件8732](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)**给char0同选秩4318…4331、D∞≥23、单换列≥22；费用8732只在已有成员性下成立。
 - **[真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)：** 同run43679903558只接486→768，实际数学103.691783465秒/编译4.072821423秒，512/640/768全4367新鲜整数乘回及自由I36真；39重建未成、69旧核相符，仍23真核。有限31-Smith估值下界不作有理核。
 - **[23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)：** 0.399616051秒，低次恰10，110乘积越界rank98/核12，12合法倍全6188等原23span；新增0，不能排余13核。旧13核闭包及同D居中候选已闭。
-- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。normal正准备同K768余13自由方向的共同格变换，以全原零及自由块Q秩计真新增，不增旧位数、不重NF。
+- **[p768固定三坐标候选](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：** 实际13.304095603秒，13余slot共52候选全4367原乘回非零，新核0，秩仍4318…4331。只排本次候选。同session已接joint-source-lll-p768：同K768余13自由方向、非自由原行模31贪心观察基、最多26维LLL；各基行重建全6188源/乘回全部4367，按完整36自由块Q秩计新维。60秒/512MiB，不增旧位数、不重NF；等真实结果。
 
 ## 同w边界：完整返回仍须费用估计
 
@@ -33,7 +33,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地执行器不可用，实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最后数学步骤05:32:49 UTC完成，20分钟空闲截止前接共同恢复；最长job6h，未许可大数据持久化。
+本地执行器不可用，实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新步骤joint-source-lll-p768已入同job请求，按实际小回执续接；最长job6h，未许可大数据持久化。
 
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
 - paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
