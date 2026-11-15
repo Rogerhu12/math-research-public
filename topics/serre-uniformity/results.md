@@ -327,3 +327,5 @@
 - **R787（公开求解工程，结果待实际认证）**：[原L函数关系的共同主元/Dixon方法](notes/R787-original-power5-relation-solver-method.md)。完成原R786/R781输入绑定、稀疏B0消元、14分支共同归一和原L整基全残差提升；只在素数模数下逆矩阵。最终必须非零A/B全129×20准确代回才能登记原y，β/高度仍未计算；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。
 
 - **R775（真实断点续算已完成）**：[原K定义RR基完整证书](results/R775-certified-original-K-defined-RR-bases.md)。run43679160495/source032899cc成功，M2/M6/M12=146/694/1514，mod739原recipe minors344/461/730，普通power6维1506；旧18个完成文件SHA全不变。cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。原y/β/高度未由此计算，R777保持备用，当前函数后继R787。
+
+- **R790（已证明，实际CM求值待公开计算）**：[原CM框架正则化与共同零的155项界](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)。原ψ=T E6/E4²去除模形式框架零，g_star∈ΓY保原P1；任意关系A=yB的共同粗零阶≤154，155项给y值、156项给一阶。原K(U)变形/41倍加法和C3迹显式消二挠扩域，保E6_alg=−c6、原eta方向、完整zeta完成化与精确粗换参。仅在真实h(c1)非零时以y一阶恢复x，不把方法称为β/高度已得。

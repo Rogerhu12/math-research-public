@@ -174,7 +174,7 @@ R735/R738/R745原模型、4920cosets/800闭链、六Hodge800，R754完整period/
 
 [R774实际立方](results/R774-certified-original-Hodge-cube-and-cusp-order.md)run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，在24.706959837秒给真e1、H³至qY820完整560坐标/26块/108stage；D289bits且v739(D)=0，821×7原模比较通过。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、manifest4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222、artifact14128247134；原模型分母2^24·3^1260。旧manifest位置失败在core前，包装已修，无旧数学重算。
 
-[R775 K定义基工程](notes/R775-original-K-defined-RR-bases-method.md)旧run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540已于2026-11-14 20:38 UTC预算耗尽exit124。2026-11-15接手逐23产物核SHA：M2维146、power2..5维418/690/962/1234和12×40seed像均complete；power6 rank1486、processed18432仍partial。artifact14130299697/manifest d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a。原core不变，完整断点续跑300分钟，原85个R771输入继续只读；不能重跑已成阶段或提前登记694/1514实际基。按新根15只发布来源、结果摘要与哈希，原始表仅活跃任务临时转交，不入Git/Release。
+[R775 K定义基已实际完成](results/R775-certified-original-K-defined-RR-bases.md)：run43679160495/source032899cc续接旧预算断点，原18完成文件SHA不变，M2/M6/M12为146/694/1514，power6为1506；cert ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203。只保来源/结果/SHA，原表一日活跃转交；R777继续备用，当前R787较小直接方案。
 
 [R778短恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)已证原20cusps是单L轨道；143个完整M系数−e..142−e准确零迫A=yB全球，仍rank2720/kernel308。基q142，实际e1原Hodge Q427已在旧800中；完整40坐标的M2/M6/M12前缀13/41/82注入。不能以单modξ代真实L方程。$/$$最终证明SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727。
 
@@ -237,3 +237,7 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 [求解方法](notes/R787-original-power5-relation-solver-method.md)已落实：直接消费完成的R786基与R781 Laurent；小20阶Q块精确消B0，大A/Schur块只在合法素数下求逆。14分裂分支共同主元和同一自由坐标归一，原L整基作Dixon，每步全129×280残差认证；最终有理重构仍只是候选，须全部char0原关系通过且B非零才给原y=A/B。core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04，真实请求已推eab5e58b，run43683912711实际运行；rank/关系/β/高度不预填。活跃输入与阶段同一临时bundle转交，可直接续接而不重算旧生产者。
 
 [R775完整K定义基已成](results/R775-certified-original-K-defined-RR-bases.md)：公开run43679160495实际返回M2/M6/M12秩146/694/1514、原mod739 minors344/461/730；原18完成文件SHA不变，power6现1506。此项关闭，不再重复；R777真实生产者已齐仍保备用，原函数直接接R787。
+
+### R790：原CM点的准确正则化与有限求值
+
+[R790](results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md)证明ψ=T E6/E4²在原P1正则；原g_star属于ΓY，权零函数可在ζ求值而原X微分相位仍保。任意已认证A=yB的共同粗零阶≤154，155项足以求y值，156项给一阶；初始仅算原T至变形ε5。原K(U)模型中z=a−1=−ε³/(81B0²)+O(ε⁶)，真实E6_alg=−c6和eta分支明确；完整非CM zeta完成化经41倍加法精确消去，原C3三项核保方向并消二挠扩域。实际146个ψ值/粗首项仍待Actions。R748旧六首jets与R759原向量可直接判h(c1)是否零；非零时配原y一阶定x，未运行不预称β或高度。

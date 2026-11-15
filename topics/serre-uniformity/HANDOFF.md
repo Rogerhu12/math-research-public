@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：f14f03166503c69f19560444cf060504edb7fa91**（2026-11-15 06:16 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：fa1cc9376804e0551d34bc5152a629b67d36b5d8**（2026-11-15 06:32 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -22,23 +22,19 @@
 
 - **R787原函数run43683912711实际运行中**：core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04；原R786+R781真artifact，14分裂分支同一主元/自由列=1，Dixon在原L整基逐阶全残差校验，仅模素数逆矩阵。只有非零A/B通过全部129×20 L准确代回才成功；原y/β/高度不预称已得。source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921；预算300min；active输入bundle随一日checkpoint续传，Git只小metadata。R777保持备用，R775完整基已成。
 
-## 已完成原p41输入，不重复
+## 原CM与原同态新续点
 
-R735/R738/R745原模型/拓扑/六Hodge800、R754全部period/Hom核及800×6闭链、R759完整Z格rank12/O_K6与选index4 degree1206均已完成；非全局minimum。保b=r0⁶、L/K7、M/L40、αs/CRT6逆相位/ζ²一次/246、c1=4424/c0[2876,2822,2823]，所有run/artifact/stage SHA见正式结果及归档。
+**R790已证明、CM数值待计算**：原ψ=T E6/E4²去阶3椭圆点的框架零；g_star∈ΓY使权零值在ζ直接求，X原h运输仍保。任意原A=yB的共同粗零阶≤154，155项给y值、156项给一阶；原变形z=a−1=−ε³/(81B0²)+O(ε⁶)。E6_alg=−c6和eta_alg=−4d0³δ已核，完整非CM zeta完成化后才用41倍加法。原C3迹显式消二挠扩域，先算146原ψ至ε³，复用旧5文件；不预称y/β/高度。证明SHA e7de066140abbffc708599b14a2890cdd09000d44c2694d5b9a70c48c5740c30。
 
-R762 v2/bbb8fd2e保原μ3商Y genus127、t degree820、u=Q³及原x/h恢复；R764全部十九树边/20cusps/c0标签准确零，完整整数格fP=f0/全部cuspsO。R767 M2正常生成/八椭圆主部给M6/M12维694/1514；Dstar=t²Δ、div2(t)0、cusp−1/6912。R769完整空栈385事件证明无非零degree≤693，故≥696；此有界项关闭，不扩可选SVP。
+R791正在编写实际Hom/Galois/共轭及下降Actions，复用R754/R759，不重跑周期格。另收缩R748已成六首jets与原12微分，实际判index4的h(c1)是否零；未运行前不预填。若非零且y²≠b，原y一阶与h即可按R772定x；若y²=b则x0唯一。
 
-R771/6e1b3ab9 run43628998192，301.126s，M2/M6/M12=146/694/1514，minor550/206/140 mod739；artifact14127715743、85完成stage直接复用。R772 det半线性trace给K定义基，零平移使y∈L(Y)，cusp仍M；kernel308/rank2720。原M78微分恒等式界10660仅备用，优先R778短界。实际函数/β/高度仍缺。
+## 已成输入与ordinary续点
 
-## 原ordinary最新结论
+R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom及R759完整Z格rank12/O_K6全部完成；原index4 degree1206非全局minimum。保b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246、c1=4424/c0[2876,2822,2823]。R764全格全部cusps/c0映O，fP=f0。R762商Y genus127；R767真实M2正常生成及8椭圆主部；R769完整degree≤693排除关闭，不扩可选SVP。原全部run/SHA见正式结果及[本次R790前H](notes/2026-11-15-handoff-before-R790.md)。
 
-原p43/776bitq已Gaussian5排除，非Serre反例；原P0/P+、全ordinary divisors、τ与scalar s11不变。旧完整链见[本次R783前H](notes/2026-11-15-handoff-before-R783.md)及open。
+原ordinary p43/776bitq已Gaussian5排除，非Serre反例；原P0/P+、divisors、τ/s11不变。R773完整格、R776真cochain、R779原实下降、R780完整NT像均已证，不能再用三Norm自动条件定值。R783规范cs=A x²+B xz+I³，Θ=B−iA=13b，b=10Θ、Ω₂/ε=22−2Θ，实际目标Θ≠11仍开。局部Norm自由度不是global Robert值。
 
-R720原Ω₂=ε(22+17b)，零iff b24，实际b未知。R755真dual保负adjoint/全部q二三次与2处cochain；R779指定nR=−in+(11/2)u对所有b真下降，dR=(9b/4)dq+B_Rd0、b=−3B1−5B45、Ω₂/ε=22−8B1+B45。R780完整NT像和三Norm/深度条件对原二维socle自动，不定η，不替primitive/J。
-
-**R783已证明**：在原semilocal单位商、以N_S(vq)=原P+[α_F]固定的基中，原cs模43有规范二阶项A x²+B xz+I³，Θ=B−iA=13b；因此b=10Θ、Ω₂/ε=22−2Θ，坏值恰Θ11。A/B不依赖辅助Norm原像。局部扰动xzγ21h0保两Euler Norm/τ-real却可改变全二维局部输出；这不是global ordinary改动，b≠0时真实NΓNSE_V=43O u使该global改动模43零。实际Θ未求，不能包装776bitq巨大挠点枚举为可行计算；后续须原Robert相位的二阶reciprocity，不能代任意Norm根或旧pure-p24。
-
-原完整ordinary二阶jet见[平衡jet笔记](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)：沿z=(1+T)^i−1得K，dR=(Ku−11/2)d0−iKq dq，Θ=−iKq，坏值Kq=11i；保Euler首项造成的二阶修正。完整exact-dual二阶cup含全部一次交叉项，原Kummer/Shapiro比较及真实对偶提升仍待，未求Θ。
+[完整平衡jet](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)：原cs沿z=(1+T)^i−1的二阶K给dR=(Ku−11/2)d0−iKq dq、Θ=−iKq，坏值Kq=11i；保Euler首项、exact-dual作用及全部一次交叉项。实际Kummer/Shapiro比较、全球dual与Θ未求；不以pure-p24替代，不新增巨大q挠点枚举。旧公式/原相位/限制详见归档链。
 
 ## 全p sigma与真正高度缺口
 

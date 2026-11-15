@@ -365,3 +365,8 @@
 - 核得R775真实续跑run43679160495已成功（05:52:54 UTC结束）：M2/M6/M12秩146/694/1514，原mod739 minors344/461/730，普通power6维1506。
 - root核实际ZIP/manifest/32文件SHA与25stage；原resume receipt的18个complete文件SHA全不变，未重算旧阶段。登记R775-certified，完整原表/证书仅一日临时断点，Git只metadata。
 - R777备用输入填真实artifact/cert/manifest，producer_inputs_pending=false但不写触发请求；当前R787较小原函数任务继续运行。H/open/index同步，主目标OPEN。
+
+## 2026-11-15 14:32 Asia/Taipei · serre-public-astra-20261115
+- R790证明原CM求值框架、共同零154界、原g_star商群消去及完整二挠C3迹核；155粗项给值、156给一阶，所有原尺度与符号保持。root逐式审核，纠正标准E6_alg=−c6并补非CM完整zeta线性项，未改变原P1方向。
+- 原R748六CM首jets可与R759十二原微分直接收缩，已纳入正在编写的R791公开core；新算术未运行，h(c1)/y/β/高度均不预填。R790独立CM kernel复用旧5输入，原R787仍运行。
+- H逐字归档后压缩，open删除已过时R775未完成表述并同步索引；核验一条第三方层121摘要与arXiv原编号不符，不作为新数学来源。主目标OPEN，继续实际输入与全p非零。
