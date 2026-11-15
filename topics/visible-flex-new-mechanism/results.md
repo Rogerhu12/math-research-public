@@ -294,3 +294,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R240：同一H_E的二次平端主部在原DAG准确消去
 
 [R240 完整实际与推论](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)消费run43701766182/source623f1c00/job132774268375：12新人工全部过，七必要旧根和同HE2694项/346ea2a1准确匹配。完整可达J=4，因此D6、U0/1/2=7/1/−5、K5，保全部t^-8至t^-1与c/b0..b5/真实锚。全部raw主部系数已为0，quadratic转换/word primitive均0；不是假设J≤2给零。故同HE在whole pure0/λ1/一次T0之外，又付本二次主部0；两个局部观测仍不能读λ。由R236，只在原P2″另通过时授这个首f-up/g0的零端flux光滑延拓，未求端值或全period，不迁移新不可分离圆的非零局部ray。actual5.266248秒/RSS111.9922MiB；33930/maxbits3仅Budget监测，raw42908操作另列。主文21366B/70189310、dev9078B/0be7cb85、内存certificate13749B/91eeb313与receipt50775B/37c4c8cb，仅存hash。下一真平台门，已付高层不再运行。
+
+
+## R241：完整 h²σ⁴ 层与共振端芽的真实实现
+
+[R241 完整证明](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)在四门之后，纳入第三真实余history、jβ²的E1能量及两项非零循环缺陷，得到完整Khat/(h²σ4)=εke³Λf(Dθ)极限。Af/Dff左尾不删；只在紧槽循环。微包bulk U_T=−8(T+S1)使新标量为(4+8η*)Z+(8η*−2)Z1；ε=ke²/4时η*=1/4，R239的Z0准确消掉整层两谐波，两个不可分离block的x²/x真尾交叉全核。共同端q及ε进入一次固定有限正则库，frame I3、八M与真omega的九导块、全成本IFT在(0,0)可逆，真正二维开邻域后才选q≠0、ε=q²/4，Morse另于所选点后恢复。旧F8坐标不冒新圆；六能量门未授完整第四ruling、period或同固定g的等距族。root/mechanism全文独审，未运行新研究计算。

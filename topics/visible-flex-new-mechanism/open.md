@@ -114,13 +114,15 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R232](results/R232-original-eight-packet-exceptional-port-obstruction.md)现消费43699241372/ee9e2098首次实际：13新toy全过，b0原八包Lc<0、Ls>0，四正根槽同号及16bit严格有理区间双证，严格排所有可容正宽度的例外germ及已付C∞近邻。保Gff真实左尾/14段/跨包正交，只算两新能量，不重旧c系数。改圆的首步见R233，继续完整次层与joint；不继续改变同原圆的宽度或预算，也不泛化成全部C²障碍。
 
-[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)以四尺度、真左尾正bulk和O2旋转付三矩/LcLs双零，八复制后另选角保完整三阶；原四尺度平面仍GL2可分离。[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)现去掉该限制：任意正I内构造P8非零的完整八包block，取相同t的α与π/2−α两根，在两个不交尺度副本上分别使用。真尾交叉能量只按E(x²,Z)=0消去，四射影方向排所有GL2分离；M0/TκH上的完整二三阶及LcLs0同付。新的第一F已改变旧指定gε，旧首g0/F8仍不继承；R50标准常段障碍不冒普遍。下一完整第四次层、全period与同w ruling，不能把领先双零当joint成功。
+[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)/[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)已给三矩/完整第三及LcLs0的不可GL2分离新圆：两个不交同构block用α、π/2−α，真实尾E(x²,Z)=0后四射影方向保留。新的第一F另冻结新gε，旧首g0/F8不继承；不把领先双零当joint。
 
-[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)已在b0例外端芽、Lc=Ls0前提下付完整下一h²σ6层：D=Φp1−Φt1/8，系数(8ε²ke³/5)E(Gff,D(f²−φ²))。因此还须Mc=E(Gff,Dgg−Dff)、Ms=E(Gff,Dfg)同零；保真第二/第三history及所有local/chain，非单项猜测。R235的两新数尚未评价，下一分析其同锚真尾/双block关系；双零不授完整joint。
+[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/
 
 [R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)把R235下一两能量准确归约为Z=U−PV/Q。真实总体边界先由三矩消，再得微包S/T bulk；T平移≤9、伸缩0，未有固定符号。两互补同构block等幅给Mc=−4tZ、Ms=0，非零正幅/伸缩不能另调Mc。因此下一在完整三矩/第三参数族解UQ−PV=0、P≠0；不预设原R235已失败。
 
-[R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)已付上条Z标量：固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，完整真实UQ−PV的归一延拓以D0(ζ)为δ0值；N在(1/5,1/4)的简单根给一致解析IFT ζ(δ)，有限δ准确Z0且P>0/t非零。三矩/全部第三对每个参数本已准确，两个互补角同构block得真正不可分离、四能量同时0。下一完整h²σ4或整体ruling结构与全period/joint；不再重求已付四门，也不把有限δ IFT零误作同一旧目标gε。
+[R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)以固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，在三矩/第三准确族内解真实UQ−PV=0。归一延拓D0(ζ)+δR在δ0的简单根给有限正δ准确IFT零，P>0/t非零；双block完整四门0。
+
+[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)进一步完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，新增bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。R70/R227联合(q,ε)真实IFT开域支付这个参数选择，Morse随后；旧F8不迁移新圆。**下一优先把整个exceptional ruling归为有限独立函数/张量条件，再与完整period/同w joint匹配；不无限机械枚举低层，也不重跑六已付门。**
 
 ## O1：双圆领相位机制，保留备选
 
