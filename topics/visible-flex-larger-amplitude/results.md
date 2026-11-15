@@ -372,3 +372,6 @@
 
 
 - [R393. 实际182r2必要摘要仍超136字节](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)：43756253033/3b987774，原160全3234095B/3513行完整、internal0/协议0错；必要90136B>90000，70且四组件/trial正文未返。原状态不重分类、cleanup skip，r3仅去重复schema说明，全部原科学范围及上限保持。
+
+
+- [Request184：真实可行coast点、完整Prüfer far和原453](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)：原180真九词/SHA恢复后新C/真factory/语义初域传递；冻结181全角与实际μ构造逐候选QPi单位行，原全部112/338/453、FD和终门保。十源/74pins，完整预算、未决地址与条件清理已接；修独立CLIENT argv与actions:read，实际R391由exact唯一核。

@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:13:48 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 78292df097d9417ffa2aa3fae11cf18013d34025。
+规则同步记录：2026-11-15 20:14:28 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e94c5962fa155d86877a9f1f0bdf28d0abdca30d。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -24,7 +24,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
-|184 R391 exact|真实180父已取得，完整入口在接，未派发|β1/16真实九词/旧域语义传递→新C/真factory→原179完整453/BVP|
+|184 R391 exact|本次完整入口触发，未预填run/source|真180 β1/16→原来源恢复/新C/真factory→R380全部112 far→原453/FD/final|
 |183 R390 amplitude|43755955047 /126c05170e77a29cc86e4a98681c724c51f0de7b|compute132939972890已入科学；真十词/固定S/16×原8/global2400s，整20拒即止|
 |181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
 
@@ -60,7 +60,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)保新support1/power4同三jet、degree10/自然L/u及十控制和453/450接点；旧178表不能只换profile。该ξ不修coast；R351/173/R363/R366/R370完整响应证明仍保。
 
-[coast语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c与[真实selected恢复](notes/2026-11-15-selected-coast-original-input-restoration-interface.md)ba8fb7f3已发/全文核：同准确全根族/九点/DAG传初域，盒不必相等/子集；原180两件按原SHA重生后真fresh factory，不造result或改环境。新shadow/J/FD/metric/活动p另付。exact接184/R391；geometry接185全3校正，amplitude接连续十族独立factory/numeric，不改184/185。
+[184完整接口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源+20191B总接口已核：2edb/c961/4d50/0adf/3bb5/4cef、owner2344/pipeline9fee/request867f/wf60ef；原59→74pins。e5ab/ba8按原180真九词/SHA恢复→新C/真factory，不重修旧域或伪造result。R380全角/实际μ、逐候选QPi逆范数归一后hull，原112/338/453/FD/全门及预算不改；namespace18900/sampling实际clip/单90KB必要与条件清理保，exact读R391。初域语义可传，新shadow/J/FD/metric/活动p另付。geometry接185全3校正，amplitude接连续十组件。
 
 ## 恢复与保存
 

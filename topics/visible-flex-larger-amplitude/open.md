@@ -104,7 +104,9 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)43749949418/ccf1b023的五必要块及两日志已齐；report errors=[]，红色仅传播compute/BVP未付。全C1440/point/deep112返回，fixed九域1735过/10849未决/14栈保；真实rFar=.05056158669090205首m2在row17/piece3/depth32下闭屏障未证正，58paid/110work/.173086674s、stop=null非资源。11栈/required[18,10387)/111未起/0far/0unit保，原H/J/FD/完整453及audit未启动；不能记作Newton拒。六必要读回/静止后清，全部原数值与ledger范围见正文。原[179接口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)59/52/26闭包、五输入、112/338/453、3active/109core、32×10/2e−9、FD5e−5、8outer17inner和RMS/BC/final全保；C3600/sampling14400+1800启动clip/BVP7200/360job不减。184改用R380/181真实全角/QPi，不重跑已知Riccati失败；原域反证不外推p3全搜索无解。
 
-[实际coast点→完整BVP语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c/34871B已发，完整原20585B diff与18569B接口全文核。原factory的cut_boxes不入DAG；同C全根族/core/cut/窗口/准确九p/完整表达式按R383传初点域，两份证据各自绑定、不要求盒相等或子集。新shadow/J/FD/metric、后续活动p域不得继承，原factory/sampler同现场强绑定保。原179只四recipe字段变，全部算法门不改。[原selected恢复接口](notes/2026-11-15-selected-coast-original-input-restoration-interface.md)ba8fb7f3已发：真实180摘要→原DAG/两件旧SHA→真fresh factory；不重修域或伪造来源。184/R391完整入口续接。
+[184完整执行接口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源+总接口已核发布：sampler2edb99a3、五薄身份c961/4d50/0adf/3bb5/4cef、owner2344/pipeline9fee/request867f/wf60ef；原59→74pins、driver53/native27。真实180 report/九有理词→原630c与ba8恢复两件旧SHA→fresh C/原0d893真factory→e5ab同准确全根族初域语义传递→独立Prüfer recipe，旧原receipt保，不造result或改环境。盒不须相等/子集；新shadow/J/FD/metric与活动p域另付。
+
+184保冻结181/R380全实角/正幅度与全部far逆像，用真实μ形成Q/Pi行；相关单位圆与T_row逆Frobenius界逐候选付范数，先归一再全hull，不把physical界直接套QPi。所有事务/未决/未访和原112/338/453/FD/全终门保，不以181成功作门。C3600、sampling14400+1800按18900namespace真实余量clip且保BVP7200、360job；原factory未决全地址只合并原相邻字符串，单≤90KB，失败不分包不清。e5ab/ba8原接口仍有效，原179算法只新provider身份及必要CLIENT argv修正；exact唯一核实际R391，未预填新far/native成功。
 
 ## 4. 同一g闭合与真正九冻结450
 
