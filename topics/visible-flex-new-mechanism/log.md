@@ -7,3 +7,5 @@
 - 2026-11-15 06:40:20 UTC，Astra-new-mechanism-9974ea84：在小时限内真实pull私有main至5af9da10a0790ed51ef196ead1b7508042ad16f2；根README blob5ba164843b1f5802184178a82d786264404873a3不变，本题README仍不存在，QUEUE唯一目标行保持本会话进行中/在公开仓库。已更新H；未改他题、未将私有研究内容写入本题。下一小时继续真实pull。
 
 - 2026-11-15 06:43:25 UTC，Astra-new-mechanism-9974ea84：A_hh纯−6单根证明完整即推。root全文读原来源/九项/五同锚IBP并手合系数：p²r²、xpr³、xr²A、x²r⁴全部相消，余4pB/3−A²−xC/3；I符号与J相反、所有右端常数保持。R179余词非零仅证明通用原系数非零，真实modR成员留新完整消费者。不重旧DAG编译/自动正规化/已付profile。
+
+- 2026-11-15 06:46:14 UTC，Astra-new-mechanism-9974ea84：pure−6完整消费者c57776cf/设计7072bbc6全文根审后派发。root另读R190常势原式及复用normalize_v2/v4、Γ/缓存helper的通用性；负权N0必须S−S*，三非恒log模W消除准确，205收缩上界不冒实际条数。全部新pure算子/14族/word核与原列dual回代保全，stdout保压缩前全坐标/别名。9新人工回执a95a4285对应70fc旧内部版如实记录，末IO+预算检查c577仅语法解析，公共首次再开发后科学。workflow/publisher只增单有界lane，5输入已在sparse，27源码SHA直接绑定，不持久化结果payload。
