@@ -13,7 +13,7 @@ defaults:
     shell: bash
 jobs:
   smallcoreresonance:
-    name: Try the actual78 low-three candidate with one explicit damped direction model
+    name: Resume the actual80 low-three candidate with explicit smaller positive damping
     runs-on: ubuntu-latest
     timeout-minutes: 60
     concurrency:
@@ -40,7 +40,7 @@ jobs:
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
-          /topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/resonance-status.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43664043053-1-smallcoreresonance/small-core-damped-search/damped-search-status.json
     - name: Establish one independent diagnostic output
       run: |
         git config gc.auto 0
@@ -54,24 +54,24 @@ jobs:
         python-version: 3.12.14
     - name: Install the existing original operator diagnostic runtime
       run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
-    - name: Bind actual78, all four original inputs, and the complete 69-source pair closure
+    - name: Bind actual80, all four original inputs, and the complete70-source chain
       run: |
         python - <<'PYPINS'
         import hashlib,json,os,re,subprocess
         from pathlib import Path,PurePosixPath
         comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path.cwd()
         raw=(comp/'public-small-core-resonance-request.json').read_bytes();request=json.loads(raw)
-        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=80 or request.get('lanes')!=['smallcoreresonance']):
-            raise ValueError('Use the one explicit independent damped R259 request80')
-        if request.get('scientific_entry')!='geometry_20261115_small_core_damped_search.py':raise ValueError('Use the independently identified damped candidate entry')
-        source_pair={'candidate_driver':{'file':'geometry_20261115_small_core_damped_search.py','bytes':13733,'sha256':'1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728'},'original_model_and_checks':{'file':'geometry_20261114_small_core_resonance.py','sha256':'3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5'}}
-        if request.get('source_pair')!=source_pair or request.get('scientific_source_unchanged') is not False or request.get('imported_original_model_source_unchanged') is not True:raise ValueError('Distinguish the new search driver from the unchanged original model/check source')
-        expected={'parameters':[0.09365081258727412,-0.13201200770909496,-0.12389206129693811],'damping':'1','candidate_steps':8,'backtracks':20,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1}
-        if request.get('diagnostic')!=expected:raise ValueError('Retain actual78 parameters, explicit eta=1, and the original eight-step/twenty-backtrack budget')
-        required={'geometry_20261115_small_core_damped_search.py','geometry_20261114_small_core_resonance.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_constrained_collocation.py','geometry_20261114_full_prefix_operator.py','geometry_20261114_direct_operator_cell.py','exact_20261114_public_resume.py','source-dependencies.json','root_20261114_publish_actions.py'}
-        if len(request['source_sha256'])!=69 or not required.issubset(request['source_sha256']):raise ValueError('Retain all 68 original sources and the independent 69th driver')
-        if any(request['source_sha256'].get(item['file'])!=item['sha256'] for item in source_pair.values()):raise ValueError('Bind both scientific source identities')
-        if request.get('output_directory')!='small-core-damped-search' or request.get('output_status')!='damped-search-status.json' or request.get('output_status_schema')!='R259-original-three-equation-column-scaled-LM-candidate-v1':raise ValueError('Keep the new result identity explicit')
+        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=82 or request.get('lanes')!=['smallcoreresonance']):
+            raise ValueError('Use the one explicit independent damped-resume R259 request82')
+        if request.get('scientific_entry')!='geometry_20261115_small_core_damped_resume.py':raise ValueError('Use the independently identified damped candidate entry')
+        source_chain={'resume_driver': {'file': 'geometry_20261115_small_core_damped_resume.py', 'bytes': 15452, 'sha256': 'ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a'}, 'damped_direction_engine': {'file': 'geometry_20261115_small_core_damped_search.py', 'bytes': 13733, 'sha256': '1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728'}, 'original_model_and_checks': {'file': 'geometry_20261114_small_core_resonance.py', 'sha256': '3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5'}}
+        if request.get('source_chain')!=source_chain or request.get('scientific_source_unchanged') is not False or request.get('imported_original_model_source_unchanged') is not True or request.get('imported_frozen_direction_engine_source_unchanged') is not True:raise ValueError('Distinguish the new resume producer from both unchanged imported scientific engines')
+        expected={'parameters': [0.09071772300091886, -0.13939413969182854, -0.12252606423015384], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8}
+        if request.get('diagnostic')!=expected:raise ValueError('Retain the actual80 final parameters, explicit eta=0.1, and the original eight-step/twenty-backtrack budget')
+        required={'geometry_20261115_small_core_damped_resume.py','geometry_20261115_small_core_damped_search.py','geometry_20261114_small_core_resonance.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_constrained_collocation.py','geometry_20261114_full_prefix_operator.py','geometry_20261114_direct_operator_cell.py','exact_20261114_public_resume.py','source-dependencies.json','root_20261114_publish_actions.py'}
+        if len(request['source_sha256'])!=70 or not required.issubset(request['source_sha256']):raise ValueError('Retain all69 actual80 sources and the independent70th resume entry')
+        if any(request['source_sha256'].get(item['file'])!=item['sha256'] for item in source_chain.values()):raise ValueError('Bind all three scientific source identities')
+        if request.get('output_directory')!='small-core-damped-resume' or request.get('output_status')!='damped-resume-status.json' or request.get('output_status_schema')!='R259-original-three-equation-column-scaled-LM-resume-v1':raise ValueError('Keep the new result identity explicit')
         verified=[]
         for name,digest in request['source_sha256'].items():
             if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',digest):raise ValueError('Explicit local source identity required')
@@ -87,18 +87,18 @@ jobs:
             if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise ValueError('Original input changed: '+key)
             inputs.append(dict(name=key,**item))
         prior=request['prior_candidate'];item=prior['original_status'];rel=PurePosixPath(item['file'])
-        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/resonance-status.json',50438,'09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40')
-        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual78 status bytes')
+        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43664043053-1-smallcoreresonance/small-core-damped-search/damped-search-status.json', 52985, 'ebe5b50c6af5ec9cfbe201e4d19a1b24dc9357e28ac8fe89354d5c04fd13ee2a')
+        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual80 complete damped candidate status bytes')
         prior_raw=(repo/str(rel)).read_bytes()
-        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual78 status changed')
+        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual80 status changed')
         prior_status=json.loads(prior_raw)
-        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual78 final parameter values')
+        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual80 final parameter values')
         if prior_status['input_sha256']!={key:item['sha256'] for key,item in request['inputs'].items()}:raise ValueError('Retain the same four original mathematical inputs')
-        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual78 consumed original model/check source bytes')
-        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual78-resonance-status.json').write_bytes(prior_raw)
+        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual80 consumed original direction/model/check source bytes')
+        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual80-damped-search-status.json').write_bytes(prior_raw)
         head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
         if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
-        (out/'request80-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
+        (out/'request82-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
         print(json.dumps(dict(source_commit=head,source_count=len(verified),input_count=len(inputs))),flush=True)
         PYPINS
     - name: Restore the original78 public numerical source files once
@@ -110,7 +110,7 @@ jobs:
         source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'small-core-resonance-original-source',Path(os.environ['VISIBLE_OUT']))
         with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
         PYSOURCE
-    - name: Try the actual78 candidate with explicit eta one and the original merit and final diagnostics
+    - name: Resume the actual80 candidate with explicit eta0.1 and original merit and final diagnostics
       timeout-minutes: 45
       run: |
         python -u - <<'PYDIAGNOSTIC' 2>&1 | tee "$VISIBLE_OUT/small-core-resonance.log"
@@ -120,10 +120,10 @@ jobs:
         request=json.loads((comp/'public-small-core-resonance-request.json').read_text());d=request['diagnostic']
         argv=[sys.executable,'-u',str(comp/request['scientific_entry'])]
         for key in ('accepted','prepared','tail_anchor','tail_config'):argv+=['--'+key.replace('_','-'),str(repo/request['inputs'][key]['file'])]
-        argv+=['--parent-status',str(repo/request['prior_candidate']['original_status']['file']),'--damping',d['damping']]
+        argv+=['--parent-status',str(repo/request['prior_candidate']['original_status']['file']),'--parent-status-sha256',request['prior_candidate']['original_status']['sha256'],'--damping',d['damping']]
         for key in ('candidate_steps','backtracks','candidate_resonance_tolerance','interval_bits','interval_depth'):argv+=['--'+key.replace('_','-'),str(d[key])]
         argv+=['--out',str(out/request['output_directory'])]
-        (out/'exact-diagnostic-command.json').write_text(json.dumps(dict(argv=argv,parameters=d,one_independent_damped_candidate_invocation=True,original_model_and_checks_imported_unchanged=True,source_pair=request['source_pair'],native_solver_started=False),indent=2)+'\n')
+        (out/'exact-diagnostic-command.json').write_text(json.dumps(dict(argv=argv,parameters=d,one_independent_damped_resume_invocation=True,original_direction_engine_imported_unchanged=True,original_model_and_checks_imported_unchanged=True,source_chain=request['source_chain'],native_solver_started=False),indent=2)+'\n')
         raise SystemExit(subprocess.call(argv))
         PYDIAGNOSTIC
     - name: Copy the saved diagnostic status without adding scientific tests
@@ -132,14 +132,14 @@ jobs:
         python - <<'PYREAD'
         import hashlib,json,os
         from pathlib import Path
-        out=Path(os.environ['VISIBLE_OUT']);path=out/'small-core-damped-search'/'damped-search-status.json'
+        out=Path(os.environ['VISIBLE_OUT']);path=out/'small-core-damped-resume'/'damped-resume-status.json'
         if not path.is_file():
             result=dict(original_status_present=False,scientific_success_not_claimed=True,scope='The source did not write a status; preserve its original log and partial files')
         else:
             raw=path.read_bytes();status=json.loads(raw)
-            wanted=('schema','phase','diagnostic_completed','seconds','success','exception','input_sha256','consumed_source_sha256','original_diagnostic_source_sha256','parent_actual78','candidate_algorithm','damping_cli_text','damping_binary64','direction_model','candidate_iteration_budget','original_backtrack_budget','original_armijo_coefficient','candidate_resonance_tolerance','scalar_interval_bits','scalar_interval_maximum_depth','original_equation_and_jacobian_functions_reused','unweighted_original_merit_and_domain_functions_reused','design_parameters_are_varied_not_claimed_one_fixed_metric_during_search','original_mesh_nodes','field_and_tail_modes','complete_zero_slope_J_retained','native_nonlinear_solver_called','original_full_BVP_or_large_amplitude_acceptance_claimed','straight_homotopy_only','weighted_lambda_j_homotopies_not_excluded','initial','final','complete_scalar_domain','original_complete_circle_check','low_mode_candidate_has_small_full_recorded_right_residual','this_candidate_threshold_is_not_an_original_BVP_acceptance_gate','full_nonlinear_nonzero_lambda_solution_computed','high_mode_nonresonance_or_interval_transversality_proved')
+            wanted=('schema','phase','diagnostic_completed','seconds','success','exception','input_sha256','consumed_source_sha256','original_diagnostic_source_sha256','source_sha256','direction_engine_source_sha256','parent_status','parent_parameters_are_initial_guess_not_completed_field','initial_model_evaluation_and_description_are_fresh','parent_model_values_are_not_relabelled_as_current_values','candidate_algorithm','damping_cli_text','damping_binary64','direction_model','candidate_iteration_budget','original_backtrack_budget','original_armijo_coefficient','candidate_resonance_tolerance','scalar_interval_bits','scalar_interval_maximum_depth','original_equation_and_jacobian_functions_reused','unweighted_original_merit_and_domain_functions_reused','design_parameters_are_varied_not_claimed_one_fixed_metric_during_search','original_mesh_nodes','field_and_tail_modes','complete_zero_slope_J_retained','native_nonlinear_solver_called','original_full_BVP_or_large_amplitude_acceptance_claimed','straight_homotopy_only','weighted_lambda_j_homotopies_not_excluded','initial','final','complete_scalar_domain','original_complete_circle_check','low_mode_candidate_has_small_full_recorded_right_residual','this_candidate_threshold_is_not_an_original_BVP_acceptance_gate','full_nonlinear_nonzero_lambda_solution_computed','high_mode_nonresonance_or_interval_transversality_proved')
             result={key:status[key] for key in wanted if key in status}
-            result.update(original_status=dict(file='small-core-damped-search/damped-search-status.json',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),copied_existing_status_only=True)
+            result.update(original_status=dict(file='small-core-damped-resume/damped-resume-status.json',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),copied_existing_status_only=True)
         data=(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
         if len(data)>=90000:
             large=out/'large-arrays';large.mkdir(exist_ok=True);(large/'complete-diagnostic-readback.json').write_bytes(data)

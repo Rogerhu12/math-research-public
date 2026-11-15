@@ -1,0 +1,264 @@
+--- geometry_20261115_small_core_damped_search.py
++++ geometry_20261115_small_core_damped_resume.py
+@@ -1,15 +1,17 @@
+-"""Bounded LM candidate search on the unchanged original R259 three equations.
+-
+-Only the three-parameter search direction is new. The original CircleReference
+-evaluate/jacobian/description, unweighted merit, scalar-domain exceptions,
+-Armijo factor .2, full-right candidate threshold, final Arb expression and full
+-zero-core circle check are retained. This is not a BVP or native acceptance.
++"""Resume the original R259 column-scaled LM candidate from a real parent.
++
++Only parent provenance and the diagnostic output schema are generalized. The
++frozen 1691 direction engine and original 3b9 CircleReference equations,
++jacobian, domain, unweighted merit, Armijo loop, FD, Arb scalar expression and
++complete zero-core circle check remain unchanged. No BVP or native solution is
++claimed. A parent is a completed candidate diagnostic, never a solved field.
+ 
+ Every scientific operation is restricted to the public repository's Actions.
+ """
+ from __future__ import annotations
+ 
+ import argparse
++import gzip
+ import hashlib
+ import importlib.util
+ import json
+@@ -23,73 +25,102 @@
+ HERE = Path(__file__).resolve().parent
+ ORIGINAL_NAME = 'geometry_20261114_small_core_resonance.py'
+ ORIGINAL_SHA256 = '3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5'
+-PARENT78_SHA256 = '09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40'
+-PARENT78_BYTES = 50438
+-SCHEMA = 'R259-original-three-equation-column-scaled-LM-candidate-v1'
++ENGINE_NAME = 'geometry_20261115_small_core_damped_search.py'
++ENGINE_SHA256 = '1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728'
++ENGINE_SCHEMA = 'R259-original-three-equation-column-scaled-LM-candidate-v1'
++ENTRY_NAME = 'geometry_20261115_small_core_damped_resume.py'
++SCHEMA = 'R259-original-three-equation-column-scaled-LM-resume-v1'
++MODEL_SOURCE_NAMES = (
++    ORIGINAL_NAME, 'geometry_20261114_constrained_trust_warm.py',
++    'geometry_20261114_constrained_collocation.py', 'geometry_20261114_full_dn_augmented.py',
++    'geometry_20261114_full_dn_boundary.py', 'geometry_20261114_physical_test_boundary.py',
++    'geometry_20261114_lifted_modes_profile.py', 'geometry_20261114_full_prefix_operator.py',
++    'geometry_20261114_direct_operator_cell.py')
+ 
+ 
+ def file_sha(path):
+     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+ 
+ 
+-def original_module():
+-    path = HERE/ORIGINAL_NAME
+-    if file_sha(path) != ORIGINAL_SHA256:
+-        raise ValueError('Retain the exact original R259 scientific source')
+-    spec = importlib.util.spec_from_file_location('actual_R259_original_for_damped_candidate', path)
++def direction_engine_module():
++    path = HERE/ENGINE_NAME
++    if file_sha(path) != ENGINE_SHA256:
++        raise ValueError('Retain the exact actual80 positive-damped direction engine')
++    spec = importlib.util.spec_from_file_location('actual_R259_frozen_damped_engine_for_resume', path)
+     module = importlib.util.module_from_spec(spec)
+     sys.modules[spec.name] = module
+     spec.loader.exec_module(module)
+     return module
+ 
+ 
+-def damped_direction(np, derivative, residual, damping):
+-    """One 6x3 augmented least-squares solve, without normal equations.
+-
+-    For D_j=||J[:,j]||_2 (D_j=1 if the column is exactly zero), put A=J/D.
+-    The ideal model is min_z .5||Az+r||^2+.5*damping^2||z||^2, d=z/D.
+-    All finite arrays and the recovered unscaled Jd are saved. The caller still
+-    checks the actual original r@(J@d) and performs original nonlinear trials.
++def checked_parent(path, expected_sha256, current_source_sha256):
++    """Read provenance and literal parameters only; never reuse a numerical state.
++
++    The CLI digest is the hash of the supplied file bytes, including gzip when
++    present. The complete original bytes are copied unchanged to this run.
++    Completed outputs of the immutable actual80 engine and of this exact resume
++    producer are supported. All shared mathematical source hashes and the four
++    input hashes are checked separately before creating the output directory.
+     """
+-    if derivative.shape != (3, 3) or residual.shape != (3,):
+-        raise ValueError('Retain all and only the original three parameter equations')
+-    if not np.all(np.isfinite(derivative)) or not np.all(np.isfinite(residual)):
+-        raise FloatingPointError('The actual original small system is nonfinite')
+-    column_norms = np.hypot.reduce(np.abs(derivative), axis=0)
+-    zero_columns = column_norms == 0
+-    scale = np.where(zero_columns, 1., column_norms)
+-    scaled = derivative/scale[None, :]
+-    augmented = np.vstack((scaled, damping*np.eye(3)))
+-    rhs = np.r_[-residual, np.zeros(3)]
+-    if not np.all(np.isfinite(augmented)) or not np.all(np.isfinite(scale)):
+-        raise FloatingPointError('The explicitly formed damped direction model is nonfinite')
+-    z, lstsq_residuals, rank, singular_values = np.linalg.lstsq(augmented, rhs, rcond=None)
+-    direction = z/scale
+-    if not np.all(np.isfinite(z)) or not np.all(np.isfinite(direction)):
+-        raise FloatingPointError('The actual recovered damped candidate direction is nonfinite')
+-    diagnostic = dict(
+-        schema='original-three-equation-column-scaled-LM-direction-v1',
+-        unscaled_equation=residual.tolist(), unscaled_jacobian=derivative.tolist(),
+-        column_norms=column_norms.tolist(), coordinate_scale=scale.tolist(),
+-        exactly_zero_columns=np.flatnonzero(zero_columns).tolist(),
+-        zero_column_scale_policy='Use one for an exactly zero column; keep all three columns',
+-        positive_damping=float(damping), scaled_jacobian=scaled.tolist(),
+-        augmented_matrix=augmented.tolist(), augmented_rhs=rhs.tolist(),
+-        augmented_lstsq_rank=int(rank), augmented_lstsq_singular_values=singular_values.tolist(),
+-        augmented_lstsq_returned_residuals=lstsq_residuals.tolist(), lstsq_rcond_argument=None,
+-        scaled_direction=z.tolist(), recovered_original_parameter_direction=direction.tolist(),
+-        original_jacobian_times_recovered_direction=(derivative@direction).tolist(),
+-        normal_equations_formed=False, row_equations_reweighted=False,
+-        damping_added_to_original_nonlinear_residual=False,
+-        finite_lstsq_is_not_a_convergence_or_existence_proof=True,
+-        model_diagnostics_are_not_extra_acceptance_gates=True)
+-    return direction, diagnostic
++    if (len(expected_sha256) != 64
++            or any(c not in '0123456789abcdef' for c in expected_sha256)):
++        raise ValueError('Declare the real parent file SHA256, not a prospective value')
++    raw = Path(path).read_bytes()
++    if hashlib.sha256(raw).hexdigest() != expected_sha256:
++        raise ValueError('The supplied real parent status does not match its declared SHA256')
++    compressed = raw.startswith(b'\x1f\x8b')
++    decoded = gzip.decompress(raw) if compressed else raw
++    parent = json.loads(decoded)
++    if not isinstance(parent, dict):
++        raise ValueError('The complete parent status must be a JSON object')
++    if (parent.get('phase') != 'diagnostic-completed' or parent.get('diagnostic_completed') is not True
++            or parent.get('native_nonlinear_solver_called') is not False
++            or parent.get('success') is not False
++            or parent.get('full_nonlinear_nonzero_lambda_solution_computed') is not False
++            or parent.get('original_diagnostic_source_sha256') != ORIGINAL_SHA256):
++        raise ValueError('Resume only a complete original-equation candidate diagnostic, never a native solution')
++    consumed = parent.get('consumed_source_sha256')
++    if not isinstance(consumed, dict):
++        raise ValueError('The complete parent mathematical source identities are required')
++    if parent.get('schema') == ENGINE_SCHEMA:
++        producer_name, producer_sha256 = ENGINE_NAME, ENGINE_SHA256
++        required_names = {ENGINE_NAME, *MODEL_SOURCE_NAMES}
++    elif parent.get('schema') == SCHEMA:
++        producer_name, producer_sha256 = ENTRY_NAME, current_source_sha256
++        required_names = {ENTRY_NAME, ENGINE_NAME, *MODEL_SOURCE_NAMES}
++        if (parent.get('source_sha256') != current_source_sha256
++                or parent.get('direction_engine_source_sha256') != ENGINE_SHA256):
++            raise ValueError('A resume parent must identify this exact producer and the frozen direction engine')
++    else:
++        raise ValueError('Unsupported parent diagnostic schema; no old output may be relabelled')
++    if set(consumed) != required_names or consumed.get(producer_name) != producer_sha256:
++        raise ValueError('The parent producer and complete common source set are not the declared originals')
++    for name, digest in consumed.items():
++        if file_sha(HERE/name) != digest:
++            raise ValueError('Retain the actual parent mathematical source: '+name)
++    parameters = parent.get('final', {}).get('parameters')
++    if (not isinstance(parameters, list) or len(parameters) != 3
++            or any(isinstance(v, bool) or not isinstance(v, (int, float))
++                   or not math.isfinite(v) for v in parameters)):
++        raise ValueError('Use all three finite literal final parameters of the real parent')
++    receipt = dict(file='parent-damped-status.json'+('.gz' if compressed else ''),
++        bytes=len(raw), sha256=expected_sha256, encoding='gzip-json' if compressed else 'json',
++        decoded_bytes=len(decoded), decoded_sha256=hashlib.sha256(decoded).hexdigest(),
++        schema=parent['schema'], producer_name=producer_name, producer_sha256=producer_sha256,
++        parameters_field='final.parameters', literal_parameters=parameters,
++        parent_damping_cli_text=parent.get('damping_cli_text'),
++        parent_damping_binary64=parent.get('damping_binary64'),
++        parent_is_not_a_nonzero_or_native_solution=True,
++        only_literal_parameters_reused=True, parent_J_or_merit_or_state_reused=False)
++    return raw, parent, receipt
+ 
+ 
+ def main():
+     parser = argparse.ArgumentParser(description=__doc__)
+     for name in ('accepted', 'prepared', 'tail-anchor', 'tail-config', 'parent-status', 'out'):
+         parser.add_argument('--'+name, type=Path, required=True)
++    parser.add_argument('--parent-status-sha256', type=str, required=True,
++                        help='Actual hash of the complete supplied parent status bytes, compressed if gzip')
+     parser.add_argument('--damping', type=str, required=True,
+                         help='Explicit positive coefficient of the three augmented penalty rows')
+     parser.add_argument('--candidate-steps', dest='newton_steps', type=int, default=8,
+@@ -108,19 +139,18 @@
+     if not 0 <= args.newton_steps <= 12 or not 1 <= args.backtracks <= 20:
+         raise ValueError('Keep the original optional candidate search explicitly bounded')
+     if args.candidate_resonance_tolerance != 1e-8 or args.interval_bits != 160 or args.interval_depth != 14:
+-        raise ValueError('This candidate retains the actual78 threshold and original Arb budget')
+-    parent_raw = args.parent_status.read_bytes()
+-    if len(parent_raw) != PARENT78_BYTES or hashlib.sha256(parent_raw).hexdigest() != PARENT78_SHA256:
+-        raise ValueError('Start only from the complete genuine actual78 original status')
+-    parent = json.loads(parent_raw)
+-    if (parent.get('phase') != 'diagnostic-completed' or parent.get('diagnostic_completed') is not True
+-            or parent.get('consumed_source_sha256', {}).get(ORIGINAL_NAME) != ORIGINAL_SHA256
+-            or parent.get('native_nonlinear_solver_called') is not False):
+-        raise ValueError('Actual78 is a completed diagnostic, never a native or nonzero parent')
+-    base = original_module()
++        raise ValueError('This candidate retains the original threshold and original Arb budget')
++    if Path(__file__).name != ENTRY_NAME:
++        raise ValueError('Retain the independent resume source basename for provenance')
++    current_source_sha256 = file_sha(__file__)
++    parent_raw, parent, parent_receipt = checked_parent(
++        args.parent_status, args.parent_status_sha256, current_source_sha256)
++    engine = direction_engine_module()
++    base = engine.original_module()
++    damped_direction = engine.damped_direction
+     np, original, EXPECTED, setup, write = base.np, base.original, base.EXPECTED, base.setup, base.write
+     if parent['input_sha256'] != EXPECTED:
+-        raise ValueError('The actual78 and current original four mathematical inputs must agree')
++        raise ValueError('The real parent and current original four mathematical inputs must agree')
+     for name, digest in EXPECTED.items():
+         if original.sha(getattr(args, name)) != digest:
+             raise ValueError('Retain the complete original actual input: '+name)
+@@ -128,22 +158,21 @@
+     if any(args.out.iterdir()):
+         raise ValueError('Use a fresh independent damped-candidate output directory')
+     # Retain exact parent bytes. They identify parameters, not a solved field.
+-    (args.out/'actual78-parent-status.json').write_bytes(parent_raw)
++    (args.out/parent_receipt['file']).write_bytes(parent_raw)
+     source, accepted, anchor = [original.read(path) for path in (args.prepared, args.accepted, args.tail_anchor)]
+     profile, flow, boundary = setup(accepted, source, anchor, 4096, 1)
+     J = np.asarray(anchor['heightJetJacobian']).reshape(3*flow.M+2, flow.M)[:flow.M]
+     target = np.asarray(accepted['core']['coefficients'])[:3]
+     model = base.CircleReference(profile, source['mesh'], J, target, boundary.eh, boundary.cut_scale)
+-    names = (Path(__file__).name, ORIGINAL_NAME, 'geometry_20261114_constrained_trust_warm.py',
+-        'geometry_20261114_constrained_collocation.py', 'geometry_20261114_full_dn_augmented.py',
+-        'geometry_20261114_full_dn_boundary.py', 'geometry_20261114_physical_test_boundary.py',
+-        'geometry_20261114_lifted_modes_profile.py', 'geometry_20261114_full_prefix_operator.py',
+-        'geometry_20261114_direct_operator_cell.py')
++    names = (ENTRY_NAME, ENGINE_NAME, *MODEL_SOURCE_NAMES)
+     status = dict(schema=SCHEMA, scope=__doc__, phase='starting',
++        source_sha256=current_source_sha256, direction_engine_source_sha256=ENGINE_SHA256,
+         input_sha256=EXPECTED, consumed_source_sha256={name: original.sha(HERE/name) for name in names},
+         original_diagnostic_source_sha256=ORIGINAL_SHA256,
+-        parent_actual78=dict(file='actual78-parent-status.json', bytes=len(parent_raw), sha256=PARENT78_SHA256,
+-            parameters_field='final.parameters', parent_is_not_a_nonzero_or_native_solution=True),
++        parent_status=parent_receipt,
++        parent_parameters_are_initial_guess_not_completed_field=True,
++        initial_model_evaluation_and_description_are_fresh=True,
++        parent_model_values_are_not_relabelled_as_current_values=True,
+         candidate_algorithm='one column-scaled positive-damped 6x3 least-squares direction per iteration',
+         damping_cli_text=args.damping, damping_binary64=damping,
+         direction_model='min_z 0.5||J D^-1 z+r||_2^2+0.5 eta^2||z||_2^2; d=D^-1 z',
+@@ -165,7 +194,7 @@
+         parameters = np.asarray(parent['final']['parameters'])
+         state = model.evaluate(parameters)
+         status['initial'] = model.description(state)
+-        write(args.out/'damped-search-status.json', status)
++        write(args.out/'damped-resume-status.json', status)
+         if args.newton_steps and (not model.exactly_diagonal or np.any(target == 0)):
+             raise ValueError('This optional diagonal three-equation search cannot replace high-core Schur or a zero-target expansion')
+         for iteration in range(args.newton_steps):
+@@ -200,7 +229,7 @@
+                         break
+                 except (FloatingPointError, np.linalg.LinAlgError) as error:
+                     item['domain_or_cell_error'] = repr(error)
+-            write(args.out/'damped-search-status.json', status)
++            write(args.out/'damped-resume-status.json', status)
+             if not row['accepted']:
+                 break
+         status['final'] = model.description(state)
+@@ -223,7 +252,7 @@
+         raise
+     finally:
+         status['seconds'] = time.monotonic()-start
+-        write(args.out/'damped-search-status.json', status)
++        write(args.out/'damped-resume-status.json', status)
+ 
+ 
+ if __name__ == '__main__':

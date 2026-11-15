@@ -1,12 +1,12 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 80,
+  "request_number": 82,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "The genuine actual78 diagnostic accepted eight steps only at 2^-17 while its three original resonance equations remained large. Start from exactly its final.parameters, and try one explicitly positive-damped, column-scaled 6x3 least-squares direction per iteration. Keep the original three equations/Jacobian, scalar-domain exceptions, unweighted merit, actual gdot check, Armijo coefficient, twenty backtracks, final FD/Arb/circle checks, and candidate threshold. This is a new bounded candidate algorithm, not another unchanged Newton continuation and not a native/BVP acceptance claim.",
-  "scientific_entry": "geometry_20261115_small_core_damped_search.py",
+  "rationale": "Actual80 accepted all eight eta=1 candidate directions at alpha=1, but its final original three equations remain large. Resume exactly the complete actual80 final.parameters with one explicitly smaller positive damping eta=0.1, bounded by the same eight direction attempts and twenty original backtracks. The independent resume source imports the frozen1691 direction engine and3b9 model/checks. Keep the actual original gdot, unweighted merit, domain exceptions, Armijo coefficient, tolerance and complete final FD/Arb/circle. This experiment does not assume a root or identify a sole cause, and is not native/BVP acceptance.",
+  "scientific_entry": "geometry_20261115_small_core_damped_resume.py",
   "scientific_source_unchanged": false,
   "inputs": {
     "accepted": {
@@ -90,6 +90,7 @@
     "geometry_20261114_same_metric_saved_prefix.py": "9442814a913c4932b1955d9d91c0e1f27f212cc175f50c10b5dc33f7ac70f2be",
     "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
     "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+    "geometry_20261115_small_core_damped_resume.py": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
     "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
     "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
     "root_20261114_publish_actions.py": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca",
@@ -110,9 +111,9 @@
   },
   "diagnostic": {
     "parameters": [
-      0.09365081258727412,
-      -0.13201200770909496,
-      -0.12389206129693811
+      0.09071772300091886,
+      -0.13939413969182854,
+      -0.12252606423015384
     ],
     "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
@@ -124,12 +125,12 @@
     "physical_angle_grid": 2048,
     "material_and_boundary_angles": 4096,
     "original_RHS_workers": 1,
-    "damping": "1",
+    "damping": "0.1",
     "candidate_steps": 8
   },
   "job_timeout_minutes": 60,
   "scientific_step_timeout_minutes": 45,
-  "output_directory": "small-core-damped-search",
+  "output_directory": "small-core-damped-resume",
   "scope": {
     "original_complete_scalar_formula_and_three_supports": true,
     "all_112_by_112_actual_zero_slope_J_entries_read": true,
@@ -149,17 +150,22 @@
     "previous_actual_candidate_is_not_a_nonzero_parent": true,
     "original_candidate_merit_and_domain_rules_unchanged": true,
     "independent_column_scaled_LM_candidate_search_requested": true,
-    "explicit_positive_damping_cli_text": "1",
+    "explicit_positive_damping_cli_text": "0.1",
     "original_three_equation_and_jacobian_functions_reused": true,
     "original_candidate_directional_derivative_computed": true,
-    "original_twenty_backtrack_budget_unchanged_from_actual78": true,
-    "original_eight_candidate_iteration_budget_unchanged_from_actual78": true,
     "new_direction_rank_or_L2_is_not_an_extra_acceptance_gate": true,
     "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
     "design_parameter_search_not_claimed_one_fixed_metric": true,
-    "original_three_equation_residual_not_augmented_by_penalty": true
+    "original_three_equation_residual_not_augmented_by_penalty": true,
+    "original_twenty_backtrack_budget_unchanged_from_actual80": true,
+    "original_eight_candidate_iteration_budget_unchanged_from_actual80": true,
+    "only_literal_parent_final_parameters_reused": true,
+    "parent_J_or_merit_or_state_reused": false,
+    "frozen1691_direction_function_imported_unchanged": true,
+    "explicit_real_parent_file_SHA256_required": true,
+    "new_resume_schema_preserved": true
   },
-  "source_pin_scope": "Conservative local static import/literal-source closure plus exact descriptor sources and source-dependencies manifest. Some pinned helper files are not executed by this diagnostic. Restored public78 source bytes are checked by their original manifest. The 68 original pins are unchanged; the sole added 69th source is the independent damped candidate entry. Both the new driver and the imported original 3b9 model/check source are explicitly identified.",
+  "source_pin_scope": "Retain all69 actual80 source pins and add only the independently identified resume entry as the70th. Runtime and restored public78 source-byte verification remain unchanged. The resume imports the frozen1691 direction function and3b9 original model/checks; the complete parent producer and all shared consumed source identities are separately bound.",
   "proofs": [
     {
       "file": "topics/visible-flex-larger-amplitude/results/R259-small-core-homotopy-and-resonance-conditions.md",
@@ -172,54 +178,78 @@
     {
       "file": "topics/visible-flex-larger-amplitude/notes/2026-11-15-small-core-damped-search-interface.md",
       "sha256": "b01de798453107801cf59b0e447f7b742ef76672114e50e29f511c23e40ec362"
+    },
+    {
+      "file": "topics/visible-flex-larger-amplitude/notes/2026-11-15-small-core-damped-resume-interface.md",
+      "sha256": "439616d4594f767e7dae986e29fc856673b1833ba495a5aa01e2c935979c916f"
     }
   ],
   "publisher_revision_scope": "Retain the same existing smallcoreresonance output lane and publisher 22e640bb bytes. The new scientific status schema and filename remain explicit; ordinary pull/rebase/README checks and all failure preservation remain.",
-  "requested_at": "2026-11-15T01:33:03.512063+00:00",
-  "prior_diagnostic": {
-    "run_id": 43660412919,
-    "source_commit": "3a0646db263f224acd347432967b93239faa836c",
-    "job_id": 132648257063,
-    "original_status_sha256": "665f1bd36a4a75eded331a4a9697c4ebaeaa411834365e405fe214c0439bd969",
-    "actual_zero_J_exactly_diagonal": true,
-    "target_zero_indices": [],
-    "original_four_mathematical_inputs_unchanged": true,
-    "prior_circle_reference_not_used_as_a_nonzero_parent": true,
-    "native_or_high_core_Schur_or_transversality_claimed": false
-  },
+  "requested_at": "2026-11-15T01:53:21.263040+00:00",
   "prior_candidate": {
-    "run_id": 43662193286,
-    "source_commit": "11b5d25c436d84d734a73d4609092bde749daea5",
-    "job_id": 132653733174,
-    "artifact_id": 14140956036,
+    "run_id": 43664043053,
+    "source_commit": "5a17ad802c28a0a00f2776201cea4cef27f68da7",
+    "job_id": 132659392179,
+    "artifact_id": 14141985111,
+    "artifact_bytes": 265623,
+    "artifact_zip_sha256": "1bc8586e5369b182d61214e064db42ac06cdf9ae8a0d26b2c231390e8f2f5ade",
     "original_status": {
-      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/resonance-status.json",
-      "bytes": 50438,
-      "sha256": "09031496410951afc018b223b921db111a43b3e0852592b87aafd5351b4f0c40"
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43664043053-1-smallcoreresonance/small-core-damped-search/damped-search-status.json",
+      "bytes": 52985,
+      "sha256": "ebe5b50c6af5ec9cfbe201e4d19a1b24dc9357e28ac8fe89354d5c04fd13ee2a"
     },
+    "original_schema": "R259-original-three-equation-column-scaled-LM-candidate-v1",
+    "producer_source_sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
     "parameters_from_original_status_field": "final.parameters",
     "parameters": [
-      0.09365081258727412,
-      -0.13201200770909496,
-      -0.12389206129693811
+      0.09071772300091886,
+      -0.13939413969182854,
+      -0.12252606423015384
     ],
     "diagnostic_completed": true,
     "scientific_candidate_success": false,
     "previous_candidate_iterations_attempted": 8,
     "previous_candidate_iterations_accepted": 8,
-    "all_previous_accepted_alphas": "2^-17",
-    "previous_total_trial_records": 144,
+    "all_previous_accepted_alphas": "1",
+    "previous_total_trial_records": 8,
+    "previous_damping_cli_text": "1",
+    "new_explicit_damping_cli_text": "0.1",
     "previous_and_current_backtrack_budget": 20,
+    "previous_and_current_candidate_iteration_budget": 8,
     "last_permitted_trial_alpha": "2^-19",
     "original_four_mathematical_inputs_unchanged": true,
     "original_frozen_model_and_checks_source_unchanged": true,
-    "new_candidate_direction_source_is_explicitly_distinct": true,
+    "frozen_direction_engine_source_unchanged": true,
+    "new_resume_producer_is_explicitly_distinct": true,
     "old_circle_or_candidate_is_not_a_nonzero_parent": true,
     "new_native_solve_or_high_core_Schur_or_transversality_claimed": false
   },
   "imported_original_model_source_unchanged": true,
-  "source_pair": {
-    "candidate_driver": {
+  "output_status": "damped-resume-status.json",
+  "output_status_schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
+  "direction_model": {
+    "equations": "Original unweighted three resonance equations r(p)",
+    "column_scale": "D_j = hypot-reduced Euclidean norm of J[:,j]; exactly zero column uses D_j=1",
+    "scaled_matrix": "A = J D^-1; no row reweighting",
+    "augmented_least_squares": "[A; eta I_3] z approximately equals [-r; 0]",
+    "recovered_direction": "d = D^-1 z",
+    "damping_cli_text": "0.1",
+    "damping_units": "Dimensionless coefficient relative to the column-normalized model",
+    "original_merit_directional_derivative": "r dot (J d), computed from the actual recovered direction",
+    "rank_and_singular_values_are_diagnostics_only": true,
+    "normal_equations_formed": false,
+    "damping_added_to_original_nonlinear_residual": false,
+    "all_three_columns_retained": true,
+    "implementation": "Imported exact frozen1691 damped_direction; unchanged formula and numerical calls"
+  },
+  "imported_frozen_direction_engine_source_unchanged": true,
+  "source_chain": {
+    "resume_driver": {
+      "file": "geometry_20261115_small_core_damped_resume.py",
+      "bytes": 15452,
+      "sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a"
+    },
+    "damped_direction_engine": {
       "file": "geometry_20261115_small_core_damped_search.py",
       "bytes": 13733,
       "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
@@ -228,21 +258,5 @@
       "file": "geometry_20261114_small_core_resonance.py",
       "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5"
     }
-  },
-  "output_status": "damped-search-status.json",
-  "output_status_schema": "R259-original-three-equation-column-scaled-LM-candidate-v1",
-  "direction_model": {
-    "equations": "Original unweighted three resonance equations r(p)",
-    "column_scale": "D_j = hypot-reduced Euclidean norm of J[:,j]; exactly zero column uses D_j=1",
-    "scaled_matrix": "A = J D^-1; no row reweighting",
-    "augmented_least_squares": "[A; eta I_3] z approximately equals [-r; 0]",
-    "recovered_direction": "d = D^-1 z",
-    "damping_cli_text": "1",
-    "damping_units": "Dimensionless coefficient relative to the column-normalized model",
-    "original_merit_directional_derivative": "r dot (J d), computed from the actual recovered direction",
-    "rank_and_singular_values_are_diagnostics_only": true,
-    "normal_equations_formed": false,
-    "damping_added_to_original_nonlinear_residual": false,
-    "all_three_columns_retained": true
   }
 }

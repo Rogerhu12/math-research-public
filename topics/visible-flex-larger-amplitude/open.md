@@ -52,7 +52,7 @@
 
 [actual80完整结论](notes/2026-11-15-actual80-damped-small-core-eight-full-steps.md)、[完整原status](notes/2026-11-15-actual80-complete-original-readout.json)、[29项字节回执](notes/2026-11-15-actual80-original-byte-audit.json)：run43664043053/source5a17ad80/job132659392179，eta1八方向全部首档alpha1接受，无域/merit拒绝；原merit65077006698.67736→15492237698.871113。finalp=[.09071772300091886,-.13939413969182854,-.12252606423015384]，原三方程=[206.4299715953469,-176013.15201356995,1950.1545213062855]。第三分量减小，第二分量绝对值增大，不能说三项均改善；candidate/success/native/nonzero仍false。
 
-52985B原status ebe5b50c及69源/11artifact件保全；四大输入仅actualActions receipt跨绑定，不冒本地payload重复核。原末FD/零core圆/494Arb叶只付声明a/ap范围，不是强C2、真实连续R或非零parent。82用实际父finalp、独立ownschema续接、显式eta0.1/8/20，冻结1691方向和3b9方程/未加权merit/Armijo/全部末端检查。root已完整读新源及接口，唯一工作流读完即推；阻尼候选没有预断成功或唯一原因。
+52985B原status ebe5b50c及69源/11artifact件保全；四大输入仅actualActions receipt跨绑定，不冒本地payload重复核。原末FD/零core圆/494Arb叶只付声明a/ap范围，不是强C2、真实连续R或非零parent。82用实际父finalp、独立ownschema续接、显式eta0.1/8/20，冻结1691方向和3b9方程/未加权merit/Armijo/全部末端检查。root已完整读新源/接口/唯一工作流请求并核70源、7shell/4inlineAST；[82接线接口](notes/2026-11-15-request82-workflow-interface.md)、workflow00af4496/requestd10fddcc已接入原computations唯一触发路径。显式eta候选不预断成功或唯一原因，等待真实Actions原输出。
 
 ## 2. 接受场闭合、固定g与全t精化
 
