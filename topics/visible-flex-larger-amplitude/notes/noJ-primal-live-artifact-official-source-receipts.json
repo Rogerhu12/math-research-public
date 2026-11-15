@@ -1,0 +1,45 @@
+{
+  "schema": "official-small-source-reading-receipts-v1",
+  "science_executed": false,
+  "sdk_repository": "actions/toolkit",
+  "sdk_source_commit": "c40bccc9c31c29df15c93abbea5b18bb474a4add",
+  "sdk_package_version": "2.3.2",
+  "upload_action_commit": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+  "files": [
+    {
+      "file": "package.json",
+      "bytes": 1782,
+      "sha256": "0452d4f819353b9b92bcdac189fc3221d5c16ddf4bacba2ad8e4c23d238212b7"
+    },
+    {
+      "file": "src/internal/download/download-artifact.ts",
+      "bytes": 7468,
+      "sha256": "628e9bd263b1b3d52fce009291dea25b934243f9088e9fb211d1e63dcb9cbe0a"
+    },
+    {
+      "file": "src/internal/shared/config.ts",
+      "bytes": 2877,
+      "sha256": "1ea5d9ca884efdda280e947a432d84e51cec55c288c79a0ddf4b37c98ac4201f"
+    },
+    {
+      "file": "src/internal/upload/blob-upload.ts",
+      "bytes": 3299,
+      "sha256": "881e84a8f53e14cbb36575e1fe90f7f657d66df5958169a0ccfda7ea125e2abc"
+    },
+    {
+      "file": "src/internal/upload/upload-artifact.ts",
+      "bytes": 3372,
+      "sha256": "e9548269d12d45d26cffd5714d4e26b237cef73b1a7aafd47595e74fa5b1b0c0"
+    },
+    {
+      "file": "src/internal/upload/zip.ts",
+      "bytes": 3087,
+      "sha256": "cdbe20b712b597f549932c8e6f80e11efd9fd397d722506c861020987b00c3a6"
+    },
+    {
+      "file": "upload-artifact-v4.6.2-README.md",
+      "bytes": 18721,
+      "sha256": "cf05549d2210a40836e71b2ff323ae9b8f2658513c41d2caffcfe54931c7ed33"
+    }
+  ]
+}

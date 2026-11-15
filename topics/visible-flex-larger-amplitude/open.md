@@ -76,6 +76,8 @@
 
 新noJ-primal live五源已独立保存：[client/fullDN接口](notes/2026-11-15-noJ-primal-live-client-and-full-DN-interface.md)、[每请求snapshot/QR接口](notes/2026-11-15-noJ-primal-live-current576-adapter-and-QR-interface.md)。client7aa2aba1/hook0e802785/systeme30e53e6/QRc3284d55/driverbb8ad207保持同原32/10/FD/fullDN/audit，真实成功73加八原件才可作为初猜父输入，必须fresh bootstrap，不导旧cache。已完成[资源与生命周期核查](notes/2026-11-15-noJ-primal-live-resource-flow-and-retention.md)和[无损归档合同](notes/2026-11-15-noJ-primal-live-lossless-archive-contract.md)：每轮704387088B/1750固定binary，原草稿漏两formed-rho共1792B已在初次发布前修正；32GiB仅单call，未实施归档、未删原件，未预造成功request。
 
+[已关闭迭代的后台artifact接线](notes/2026-11-15-noJ-primal-live-background-artifact-wiring.md)完成源码/官方接口核对：SDK2.3.2在同job持续计算中流式上传，双迭代批次避单job500件限制；同id下载、显式digestMismatch=false及全部成员原SHA核同后才可释放已闭合large-arrays，原manifest/小记录保留。Node supervisor持有新增runtime凭据且不转给科学child，完整依赖锁/恢复入口仍待真实实现；本次未上传/删除原件。网络积压不保证32GiB总容量，storage错误与科学接受分记。
+
 ## 2. 接受场闭合、固定g与全t精化
 
 已发布[完整闭面执行入口](notes/2026-11-14-accepted-full-DN-shared-closed-followup-interface.md)：真fullDN和自己的final audited tail/config/port→完整physical/material/z0/mean→R249首单元→共享quintic B与两帽；只用自己的完整readout，不加旧A mean，目标g不替换为B′。实际接受输入仍缺，未造request。
