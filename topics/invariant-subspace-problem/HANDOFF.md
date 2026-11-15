@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 333bf2acca3bd48df1b1603df54f3d156647d72a（2026-11-15 02:01:00 UTC，Actions run43665608882实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43665608882-1.json。
+- **最近成功实际 pull 与已读规则提交：** abd849a842567757b64bf4ac9d1cc14ca7e71cec（2026-11-15 02:05:06 UTC，Actions run43665970300实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43665970300-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -22,9 +22,9 @@
 
 197恢复440770011B零fallback、254存储文件均保。recovery artifact14141428008（222409603B/SHA c76693e0c3502c12e9074aadcba395198762e0fb7d3effaac1105892aa84fe84）；results14141826650（224982858B/SHA e9f0b00a28ea9d0e52de3cde46cd9cc2d964ed2dc5f50dc31b573ee8d1668e53）。完整小系统70591B/SHA786333a4…，回执17757B/SHA3bb98210…；详情与全部实际SHA见[实绩索引](notes/2026-11-15-r150-complete-third-local-positive-actual-789f.json)。
 
-**当前发布故障与恢复：** 第三数学完成，初次唯一数据分支git push在180秒处超时；尚无main数据提交，prepared a09650e03375，不当数学失败。实际pull读4a2824de，两README无变。根随本提交调度publication-only恢复：只取上述两工件，不重数学；push限900秒、pack.window/depth=0，仍真实pull/rebase/main push，非快进立即续循环。目标目录notes/r150-saturated-third-page-actions-789f/43664532571-1/。
+**当前发布故障与恢复：** 第三数学完成，初次唯一数据分支git push在180秒处超时；尚无main数据提交，prepared a09650e03375，不当数学失败。实际pull读4a2824de，两README无变。根已实际push82e2a562并调度publication-only run43665755992，正在恢复：只取上述两工件，不重数学；push限900秒、pack.window/depth=0，仍真实pull/rebase/main push，非快进立即续循环。目标目录notes/r150-saturated-third-page-actions-789f/43664532571-1/。
 
-**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。新1348仅推导中预算，尚非完成证书。共同线与全第三S3覆盖不排char0或关闭ISP。
+**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。[六槽精确来源比较](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)已证第三改选差落完整W2、q1改规范须同步q2、中间p4不许未缩放κ9；六槽条件费用180→472→764→1056→1348。实际selected常数正在收紧1345；两者均非已执行的原式证书。共同线与全第三S3覆盖不排char0或关闭ISP。
 
 ## 实际边界：同源两费与完整返回
 

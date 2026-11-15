@@ -417,3 +417,7 @@
 ### R150 附录：完整第三像二维与全部九个局部解
 
 [完整证明与实际证书](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)：run43664532571数学91.020765506秒，全部208真来源/原17整除/104自由条件/完整315身份已核，第三像rank2，九目标全正；实际两条第三常数列加四条第二列及U9即可。保原来源回提、p6全局身份、费用及char0为未完成；197恢复全部保存，初次仅Git数据分支180秒超时，publication-only接续。
+
+### R150 附录：第三来源选择差与六槽全局恢复设计
+
+[自含证明](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)以真整数B核提升证明S_r选择差落W_(r−1)，第三必须回补完整第二像；保持q1/q2规范同步及p4位指数三来源。四条第二辅助、一条第三主组合与一条D2同束，四次whole-P给条件费用1348。只登记来源比较及费用证明，不宣称尚未运行的原17全局身份。
