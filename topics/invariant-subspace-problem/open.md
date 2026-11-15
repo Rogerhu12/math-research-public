@@ -113,7 +113,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 normal4的[完整≤4包络](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)已闭：355.152873124秒完成130新单位RHS、166列残差rank144，交维0，全部95788原第二产品真，仍22头。任何合法normal≤4族的normal4分量均为零；normal5开启后须保H4η4+H5η5真实补偿。新130解/全残差/高核全部可复用，下一做normal5最小高约束，不重355秒解。完整第二仍[9,11]，未有24头，不按rank9启动第三页。
 
-[两端第五](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)各17个真头，完整来源公共53/47；零点K99=s53(s−2)9(s+6)9F+²F−²E8²。零点不假r1=4/β2=0。第六2GiB失败但已保存verified residual6188×7和top-kernel2779×10；当前无middle/low，不能记第六完整秩。续接须保3条顶层齐次自由、7条head，使用固定常H3单位块和小Schur，随后保完整低层与全6188乘回。
+[两端第五](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)各17个真头，完整来源公共53/47；零点K99=s53(s−2)9(s+6)9F+²F−²E8²。零点不假r1=4/β2=0。第六2GiB失败但已保存verified residual6188×7和top-kernel2779×10；其后常单位续接在外层660.179500199秒到限exit124、无数学回执；已排只读inventory检查新checkpoint的真实阶段，不能记第六完整秩。按已成phase续接；若全逆未成，只解实际新RHS。全程保3条顶层齐次自由、7条head、完整低核与全6188乘回。
 
 [九平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)固定七条五阶cochain的λ0…λ5与所有n_j²均零，整截断与h0n_j²恒零。保持该低规范时首次新可能目标项为s9 h0[3]λ6(n_j²)，作为障碍须同一九阶左延拓。未付全左核或成员性。
 
