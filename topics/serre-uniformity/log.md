@@ -395,3 +395,8 @@
 - R790公开CM核心和wrapper已完整审读并冻结，启用真请求；所有新域算术仅公开Actions。核四组实际producer来源/schema/逐文件SHA，全部原标签、导数换参和82²尺度保持。
 - 更正先前种子数量：原R775的146条accepted recipes只用索引0/1/2/3/11，共5种子/10反射对；12是旧producer候选seed-image数，不能当选基种子数。已在触发前修正证明、core断言、H/open/index；原群迹公式本身不变。
 - core 981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6；proof 83303dcd6abc65875d8c67eb8977126db1c85cf3e9dafb3fbd2881163aadfc39。原power2–5四个同SHA已成文件只作下一步β合成的临时续传，不在本次核心重算。R787原函数仍运行，主目标OPEN。
+
+## 2026-11-15 15:03 Asia/Taipei · serre-public-astra-20261115
+- R790首run43687770143/source de4bd8f7在准备阶段失败：旧R735 ZIP不含full-outputs-manifest.json；新数学core尚未启动，core receipt为空。实际失败ZIP SHA2d10e8071af535b6513ebb2da875f66897e529c1a919f2f7718845393c77947a已核。
+- 仅修wrapper/request/workflow：明确绑定已存在Git中的R732原manifest路径与原SHA，archive缺该manifest时才回退；原run/core/cert/输入SHA链全部保留。同步增强实际146行与6724/82^10及5/10数量的一致性验证。
+- 数学core981eb543与proof83303dcd均未改，resume=null；本地只重演已有metadata的IO读取，无数学重算。再次触发公开run，H/open即时登记，主目标OPEN。

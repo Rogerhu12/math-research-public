@@ -40,6 +40,7 @@ jobs:
             /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
             /topics/serre-uniformity/notes/R790-public-original-CM-fiber-request.json
             /topics/serre-uniformity/results/R790-original-CM-fiber-regularization-and-155-jet-evaluation.md
+            /topics/serre-uniformity/computations/R732-p41-original-CM-model/43608152850-1/full-outputs-manifest.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

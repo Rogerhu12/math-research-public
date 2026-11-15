@@ -51,7 +51,20 @@ def matching_configuration(tag, item):
 
 
 def producer_metadata(directory, spec):
-    mp = find_hash(directory, "full-outputs-manifest.json", spec["manifest_sha256"])
+    try:
+        mp = find_hash(directory, "full-outputs-manifest.json", spec["manifest_sha256"])
+    except ValueError:
+        # The original R735 artifact predates inclusion of this small manifest
+        # in its ZIP.  Its already-published Git metadata is an explicitly
+        # pinned fallback, never a replacement manifest made from the archive.
+        relative = spec.get("manifest_repository_path")
+        if relative is None:
+            raise
+        assert spec["result"] == "R732-p41-original-CM-model"
+        assert relative == "computations/R732-p41-original-CM-model/"+\
+            spec["run_id"]+"-1/full-outputs-manifest.json"
+        mp = topic_path(relative)
+        assert mp.is_file() and sha(mp) == spec["manifest_sha256"]
     manifest = read(mp)
     assert manifest["result"] == spec["result"]
     entries = {row["file"]: row for row in manifest["files"]}
@@ -324,6 +337,10 @@ def verify(item, out):
     assert cert["M2_dimension"] == 146 and cert["cm_jet_order"] == item["cm_jet_order"]
     assert cert["original_psi_values_and_first_coarse_jets_verified"] is True
     assert cert["actual_y_beta_or_height_computed"] is False
+    assert cert["original_M2_scale"] == "6724"
+    assert cert["R786_power5_product_scale"] == "13744803133596058624"
+    assert cert["distinct_retained_M2_seeds"] == 5
+    assert cert["actual_reflected_seed_pairs"] == 10
     spec = cert["stage_manifest"]
     assert Path(spec["file"]).name == spec["file"]
     path = out/spec["file"]
@@ -331,6 +348,12 @@ def verify(item, out):
     stages = read(path)
     matching_configuration(stages["configuration"], item)
     assert stages["complete"] is True
+    assert stages["M2_output_rows"] == cert["M2_output_rows"]
+    assert len(cert["M2_output_rows"]) == 146
+    assert [row["file"] for row in cert["M2_output_rows"]] == [
+        "R790-M2-CM-jet-"+str(index).zfill(4)+".json.gz" for index in range(146)]
+    expected_rows = {row["file"]: row for row in cert["M2_output_rows"]}
+    seen_indices = []
     for row in stages["files"]:
         assert Path(row["file"]).name == row["file"]
         path = out/row["file"]
@@ -338,6 +361,19 @@ def verify(item, out):
         data = read(path)
         matching_configuration(data["configuration"], item)
         assert data["complete"] is True
+        if row["file"].startswith("R790-M2-CM-jet-"):
+            assert row == expected_rows[row["file"]]
+            assert row["file"] == "R790-M2-CM-jet-"+str(data["index"]).zfill(4)+".json.gz"
+            assert data["integer_scale"] == "6724"
+            assert data["R786_power1_scale_preserved"] is True
+            assert data["M2_recipe_source_sha256"] == \
+                item["retained_artifacts"]["R775"]["files"]["R775-basis-M2.json.gz"]
+            for key in ("value_K_1_zeta", "derivative_z_K_1_zeta"):
+                assert len(data[key]) == 2
+                assert all(len(pair) == 2 and all(isinstance(value, str) for value in pair)
+                           and int(pair[1]) > 0 for pair in data[key])
+            seen_indices.append(data["index"])
+    assert sorted(seen_indices) == list(range(146))
     return 0
 
 
