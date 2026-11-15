@@ -185,3 +185,6 @@
 
 
 - [R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)：以真实输出孔<4u和X3中全部carry预算，一次精确修正将增长远孔窗口传到原T_N/T_Y；完整MP局部读数保PkerT，固定早孔成本exp[O_s(log^(4/3)N)]，原W/返回接口仍开。
+
+
+- [R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)：原远位Ni平均给落入任意真实RanB^r的乘积窗口右逆；完整有限旗使其模N等于规范J，真实N⊥形式原像因而有同准多项式局部读数，未假全局L²或普通封口。
