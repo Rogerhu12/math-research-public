@@ -450,3 +450,8 @@
 - 登记R815真实14.461秒/58候选结果：dg2738bits，重复6483bit D仅过z0；全候选准确拒，scan next21未穷尽。小IO43752277161核完整小输出及原来源，不重算任何格。
 - 证明并采用原Mg e1=Wvg的新准确第二列约束；独立两列消费者将复用原425源、旧RR前缀和原完整七点认证，原同核run继续。
 - 小IO rules132928641056实际pullbeeb21c6无diff；本次push前专用rules132930360813 pull至5e5b8dffe0674e99cc94fa18cedf1272d320bbd3，两README无diff。
+
+### 2026-11-16 03:37 Asia/Taipei — serre-public-astra-20261115
+- 登记56增量格完整方法58a7713f：旧42全基加真实A probe得完整56基，detM^42，准确幺模见证、旧同D拒绝来源和原129出口都保留。
+- 同篇证明仅C下一位Schur障碍/一个已成A模逆接口，明确content前精度；本轮只实现56格，不另做这项计算。
+- push前rules132931711969实际pull至52a48854e30ddc3d2351ec24274dbe222ef05d9a，两README无diff；新核心与双carrier消费者继续对齐。
