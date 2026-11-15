@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "failure": null,
+  "phase": "finish",
+  "group": null,
+  "gates": [
+    {
+      "name": "all32_actual_disjoint_ranges_and_exact5966_new_cells",
+      "passed": true
+    },
+    {
+      "name": "all_four_original_successful_same_F_rows_reused_verbatim",
+      "passed": true
+    },
+    {
+      "name": "complete5970_same_reference_intervals_and_shared_Q_R_cover",
+      "passed": true
+    },
+    {
+      "name": "every_new_local_same_F_true_generator_and_inverse_defect_paid",
+      "passed": true
+    },
+    {
+      "name": "all_full_signed_source_output_matrices_and_true_mean_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_scientific_array_files_retain_actual_original_artifact_origins",
+      "passed": true
+    },
+    {
+      "name": "full_directional_boundary_inverse_and_unknown_high_not_inferred_from_cover",
+      "passed": true
+    }
+  ],
+  "completed_matrix_cells": 5970,
+  "completed_indices": null,
+  "actual_new_matrix_cells": null,
+  "reused_completed_matrix_cells": null,
+  "complete_local_matrix_cells": null,
+  "actual_complete_local_matrix_cells": 5970,
+  "full_two_boundary_directional_Green_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "original_target_or_validator_calls": 0,
+  "original_successful_F_Gram_cells_recomputed": 0,
+  "native_sha256": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd"
+}
