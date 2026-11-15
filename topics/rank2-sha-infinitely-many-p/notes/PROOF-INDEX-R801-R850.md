@@ -23,3 +23,5 @@
 - [R810](../results/R810-original-quartic-all-prime-exclusion-and-complete-zero-chain.md)：已排原Fp、r2、b4/b0=3的全素数强窗，含q0零与非零：新增零角(1,0,0,0)/n4带t完整保留，57格全最大子式gcd的坏素数≤283、最高行50付p>611；全部十九角给10898必要类，剩12p的539出现/438原非齐次矩阵全不解。合R799/R803，此原窗口须b≥5；未外推随p增长的b或同R提升。
 
 - [R808](../results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)：已将原M第三精度严格送到同一R的J第二精度，原−2/5/−6三项强制剩余域上的两光滑支、交数及δ=h。近支接触≥h+r且完整r段normal由同Gaussian carry指定，零角准确m_R=2；全部十九角/两13及下一位保。全局必要门仅2h≤B_D·C，未将局部分裂或固定次数排除外推为原完整forcing非零。
+
+- [R811](../results/R811-canonical-soule-classes-and-global-heegner-comparison.md)：已对R804原三个canonical Soulé类证明z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0。真实τ/Γ反演、原34δ/平滑30、两个有限余核Coleman图、增广完成和good pair非零伴随因子给全局恒等式τc_j=unit·B·Z_j，故指定类不能非零落严格核。未认整个Selmer局部化单射、未付任一特殊化本身非零，也未把三平方根线性和换成全局点对数。

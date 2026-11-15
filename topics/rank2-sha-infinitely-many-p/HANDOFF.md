@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：48e55d2e0f6f07405c216b5417ef97844654124e；2026-11-15 18:42:31 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:26:41 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
+- 最近已读规则提交：7dab27bd9a46db7905b161452a1e569ae5152998；2026-11-15 18:44:09 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:26:41 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -11,15 +11,15 @@
 
 ## 完整归档、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r808-publication.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r811-publication.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 
-R1–363、365–560、562–653、655–711、713–810已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
-root唯一metadata/ref写者；root 变动次数真实HP/原负矩；deep 同R完整normal/指定配对；theta 原S(2z)/U136同charge与真实来源成本；literature R811三个canonical类的全局—局部非零等价。完整证明一成即单独推，随后继续未闭门。
+R1–363、365–560、562–653、655–711、713–811已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+root唯一metadata/ref写者；root 变动次数真实HP/原负矩；deep 同R完整normal/指定配对；theta 原S(2z)/U136同charge与真实来源成本；literature 原canonical类特殊化非零/同源线性关系。完整证明一成即单独推，随后继续未闭门。
 
 ## 当前执行与未推状态
 
 R801/R803/R807/R809的公开run均成功，全部producer/参数/hash在正式原证；R803旧报告超限已恢复，无遗失结果。
-R808已登记：原第三精度同R必有分裂二支和完整近支normal段，未排全b强窗；R811正在成文，无数学run执行中。R810已登记：run43746804944/job132911796266成功，source2a6ce4bd7a2ea78f55e94dcee1f9b5cf5829db0d；57格及539类出现/438矩阵全不解，所有producer/参数/hash在原证。
+R808已登记：原第三精度同R必有分裂二支和完整近支normal段，未排全b强窗；R811已登记原三个canonical类的全局—指定局部非零等价，无数学run执行中。R810已登记：run43746804944/job132911796266成功，source2a6ce4bd7a2ea78f55e94dcee1f9b5cf5829db0d；57格及539类出现/438矩阵全不解，所有producer/参数/hash在原证。
 
 ## 普通：固定原源、完整域与真正中央
 
@@ -33,7 +33,7 @@ R798/R801原PB型五只两arith、primitive3全杀；型四rank3/charX³+ω。�
 
 R806已付原型四三线order18角色、34δ Schwartz、全权平方及负二Katz身份。权差3/古典权4root−；同CM型Katz乘子+1，不能交换CM型赋零。R804完成真实全ray椭圆单位H×E0[p∞]范数、η幂等元/扭曲/平滑30，三个global z_j∈全Hf；共同Artin√17、Elog=p²unit，
 log_j(loc_p z_j)=−34²c_jθ9Ωp4 Elog I_j,-2²，v=2+2v(I)，loc_bar=0。
-指定类的严格局部核仍待R811；更一般Selmer核、原三值线性和及非零均未付。
+R811已付每个指定类z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0：真实τ/Γ反演、增广完成环两Coleman同构、good pair的A(0)≠0和全局rank1给τc_j=unit·B·Z_j。只排这三条canonical线的严格核，不断言一般局部化单射；z_j本身非零及原三值线性和仍未付。
 
 R807原G2不在未投影∇像或两arith投影∇像（辅助1009余行54/724）；primitive3上的PB4∇整同构给唯一5×3预像P−。
 G2=17ω/(1−ω²)Σ[y/(x−e)]U_eP−，逐项全纯有X+b。真实degree1×33卷积(v−33c)/(c+v)²、和变量unit及全PB保，旧point负一不代负二。

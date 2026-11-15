@@ -184,3 +184,6 @@ R801已直接读取同q/58行/全E逆的实际E深Z²来源；四辅助值付六
 
 
 R808原同M primitive p³在k0、r<h下迫同R的J p²，故R在原点恰分裂两条k光滑支，领先λ及2λ/3，交数与δ=h；近支跟原轴至少h+r，整段ER≡−a⁻¹w^hCu³ mod w^(h+r)，native ξ由下一阶起仍保。原零角准确m_R=2；全十九角、两13和真实d₂继续联立。当前全局只得2h≤B_D·C，未排h/κ→9/8。继续同R全分量/normal，不把局部分裂当全局因式分解。见[R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md](results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)。
+
+
+R811已收窄R804的严格核门：只对原三个canonical类，z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0。真实τ/Γ反演、同34δ/Kato/30、两个有限余核Coleman同构与good pair伴随A(0)非零付τc_j=unit·B·Z_j；不假Heegner特殊化非零。继续证明原z_j至少一条非零，及同源三值线性行/完整W补域；一般Selmer核及整体中央仍开。见[R811](results/R811-canonical-soule-classes-and-global-heegner-comparison.md)。
