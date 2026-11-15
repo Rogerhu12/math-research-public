@@ -20,7 +20,7 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** 新helper/driver已静态审，尚未公开新增人工/actual；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** [新容量实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)及[结构设计](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)已发布，本次新lane先18新增检查再真实生产/hold，尚无已消费actual；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
 
 ### 仍须支付
 
@@ -54,7 +54,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)的全部真实桥/倒行/Klein/位移约束保留，当前直接推进完整mixed与ruling。
 
-[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**Morse只离开R216平点前提；R224另排标准正ε偶germ的原八包，mixed/ruling并未自动支付。** [R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)已完成任意w的完整有限矩映射与指定包类的全部period核右逆。18局部+24真实history函数给42几何生成元/126矩，加6合法性矩；核Gram精确像非采样近似。完整joint先保两原period成员门，再保五相位目标的45几何span余项，最后48×135矩阵及有限降秩消极点条件准确支付同w/全相位/种子。生成元数非rank，未验证一个实际目标；fullperiod成员已有R225完整判据但实际像未判，不能由F8=0冒完成。
+[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)的全域h Morse与局部C1全pure截面已被R223/R227消费；九行/fullP真实IFT、Duhamel/IBP及有限低维投影证明保留于原稿。Morse不授mixed/ruling。R221的完整joint有限接口仍需两period成员、五相位目标span和增广矩阵同w兼容，见下列主目标和原完整证明；不重已付控制。
 
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 

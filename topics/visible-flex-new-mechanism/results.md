@@ -195,3 +195,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 159输入恢复首次完整诊断：细网格并集超容量，持径未调用
 
 [完整实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)消费43707849695/f9d8da4e/job132792751708全stdout与receipt，35源码绑定全同。八新增诊断检查过；五必要prefix之后原159继承fine4049/4096，其原初始化必须保旧行/补当前各径向最坏行，原setter拒绝union超4096。至少新增48不同ID，实际union数未记录，不补造；0LP/0J/0活动秒，2共享+2独立最终值，初末完全同态、原两网/准确九盒/g/H门过，η fine .266488961847且下降0。原成功handoff严格拒错，hold0调用，所以不是持径效果阴性。完整prefix分账、813.794674279秒总进程/RSS3147068KiB及各临时输出hash见note；恢复漂移不算新进展，前次43705209195未知内部原因仍未知。下一一次预声明结构容量B保旧余槽，第6是新输入生产、hold另预留一次；未改原物理/门/预算、未预称成功。本条结果即推，继续新配置与完整候选。
+
+
+## 一次固定预留的细网格容量配置与首次公开入口
+
+[实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)与[结构证明](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)保原setter/initializer/学习固定cap路径：每阶段只在初始边界预留B=Nr(2min(Nt,km)+4min(Nt,kc))+2L，Cnew=C+B，不丢旧行且原余槽≥C−n保留。五原prefix参数不变；第6明确新容量输入生产，冻结原159完整门/handoff后才启动冻结hold，后者再单独声明第二次预留。配置只两键不同，原g/b0/163/159/H/准确盒/半径streak/12LP/40值/120秒不改；容量可能改行池/费用/轨迹，生产与hold进展分开。顶层新stage调用2不是LP数，原计数另保；修正原第六标题，不改任何科学数值。两新源及18个新增人工均只静态审，首次执行由本次公开lane请求完成；旧15/8人工不重复。generic outcome reader按唯一原生stage自动识别，保持其原源码，无新增不必要复核门。未预称容量修复、下降或持径成功。

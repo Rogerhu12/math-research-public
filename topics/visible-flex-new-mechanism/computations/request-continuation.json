@@ -1,10 +1,10 @@
 {
-  "request": "expose-original159-prefix-error-before-unchanged-SOC-hold-handoff",
+  "request": "reserve-mandatory-fine-initialization-capacity-once-for159-input-and-SOC-hold",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "metric_height159_soc_hold"
+    "metric_height159_capacity_soc_hold"
   ],
-  "goal": "Repair only the new consumer's loss of the original sixth-prefix diagnostic observed in run43705209195. Run eight new dictionary-stub reporting checks with --check-prefix-diagnostic-only; do not repeat the already passed15 development checks. Restore the same six frozen transient inputs once with unchanged sources,98 production arguments,budgets,pools and geometry gates; before the unchanged successful-status handoff, print and retain the original returned status,error,budget and available pool/J counters. Never infer an unrecorded cause, increase capacity or pass an errored prefix. If this necessary restoration is successful, execute the previously uncomputed conditional-SOC-hold stage under its unchanged12LP/40value/120s budget. Restoration drift is not progress by the new controller.",
+  "goal": "After diagnosed fine-capacity failure43707849695, reserve B=Nr*(2*min(Nt,km)+4*min(Nt,kc))+2L once before each new stage. Preserve all inherited IDs and learning headroom. Five frozen prefixes are necessary original-parameter restoration; sixth is NEW capacity159 input production using the unchanged scientific implementation and strict handoff, then previously uncomputed SOC-hold with its own declared reserve. Costs/improvement of the two new configuration stages are separate. Preserve g,b0,H,163/159 coefficients, all gates, actual radius/streak and each stage12LP/40value/120s. First run only nine NEW capacity-array and nine NEW orchestration checks; never repeat old15 hold or old8 diagnostic suites. No historical state forced, errored prefix accepted, or in-loop capacity growth.",
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_restoration_rows.py": "eff06d6c2136b8b13fa86afe915352ee54e5aaae2c4c80551a08355cea2e1d4f",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_budget_recovery.py": "ba3e2becec3ad750ef8818711d8034003f3077877d39115925c308d123dec9ff",
@@ -21,8 +21,8 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth_audit.py": "801f1c3038d54dec422e9d8e3bb1162105fc560374debb5bf83a8b38083be3e6",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve.py": "0d653e66947b95efe56e518e8bf4705076bc9ef687e5a596a1884b8367d22ae3",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve_audit.py": "4347bdc3afc2504b2a6546d41176e0e3a9e340533ee1eee16ff831257e149e38",
-    ".github/workflows/visible-new-mechanism-continuation.yml": "b07adb167c469f5be2ec262f3fd134e8280132c726ee58ecf129a21b2e4fe89c",
-    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "7d3631a18e037bc278ea9d316eff4a6c3cf07c6a6873eff398a0a185b1825e74",
+    ".github/workflows/visible-new-mechanism-continuation.yml": "5ab477367ff4e44bfebd559b7aee2a722348d0c1cb6383152f18f4bf623e5c87",
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "e67783d222268eba2cf34871ac375f9d01183a6f1d6902a4e4841cf5f9ef0e46",
     "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41",
     "topics/visible-flex-new-mechanism/scripts/frame_second_order_correction_scaling.py": "3b74cc8cc840aaece3aaf4c188728fffff4a7409289d65d1aba6aeb9e70ef98f",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_soc_scaling.py": "6e3ef11a7ee232436d609573de970a55be58858dac9364323383c37313a44958",
@@ -40,14 +40,16 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail_height159.py": "670c9314558441fb15fd572e5f853475aced4d1bdbbe8fa7f67024609b8ab86a",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail_height159_audit.py": "ff0b8cfb3f8052d77dba7153abe8f1151a371469c5fba589a0e2c2f82e8a265b",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_soc_hold.py": "c6fb9d46840c64f9b6a43146ebbece8928e78f9efe609a624cf8ee4cc1da47de",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_soc_hold_audit.py": "172567136e6cfd9373cdd41556555a3cb92938dc2ee8c6e238f42dcb13ab927e"
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_soc_hold_audit.py": "172567136e6cfd9373cdd41556555a3cb92938dc2ee8c6e238f42dcb13ab927e",
+    "topics/visible-flex-new-mechanism/scripts/frame_height159_fine_capacity.py": "ef7207ea677297f191374bccb023667f6e2394c1d0fb5538a753538175493962",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_capacity_soc_hold_audit.py": "82a3b0f221f16a746e92d63208ad95a6a11374176c4c23e40d7f4315c83895f4"
   },
   "jobs": {
-    "metric_height159_soc_hold": {
+    "metric_height159_capacity_soc_hold": {
       "development": [
-        "--check-prefix-diagnostic-only",
+        "--check-capacity-only",
         "--out",
-        "@OUT@/metric-height159-prefix-diagnostic-development.json"
+        "@OUT@/metric-height159-capacity-soc-hold-development.json"
       ],
       "research": [
         "--input",
@@ -99,7 +101,7 @@
         "--expected-feasible-curvature-sha256",
         "87945a59c206618ca2da5fe0b31f8a5961c1bef085704aa5bf27494c7daecf32",
         "--out",
-        "@OUT@/metric-height159-soc-hold-audit.json",
+        "@OUT@/metric-height159-capacity-soc-hold-audit.json",
         "--fixed-target-audit",
         "topics/visible-flex-new-mechanism/notes/actions-43653520539-1-curvature_feasible_steps/curvature-feasible-steps-audit.json.gz",
         "--expected-fixed-target-sha256",
@@ -152,8 +154,8 @@
     }
   },
   "parameters": {
-    "native_summary_stage": "metric_height159_soc_hold_stage",
-    "native_summary_filename": "metric-height159-soc-hold-audit-summary.json",
+    "native_summary_stage": "metric_height159_capacity_soc_hold_stage",
+    "native_summary_filename": "metric-height159-capacity-soc-hold-audit-summary.json",
     "same_physical_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
     "same_height_reference_sha256": "d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5",
     "immutable_enriched_c0_not_replaced_by_any_selected_state": true,
@@ -179,8 +181,7 @@
       "one frozen strip reserve",
       "one frozen SOC scaling",
       "one frozen entry/body103",
-      "one frozen entry/tail154",
-      "one frozen entry/tail-plus-five-height159"
+      "one frozen entry/tail154"
     ],
     "actual154_body_radius_and_success_streak_inherited": true,
     "no_hidden_reset_below_original_minimum": true,
@@ -218,11 +219,11 @@
     "research_argument_count": 98,
     "only_old_research_argument_changed": "--out value",
     "original_decoded_input_SHA_bindings": 24,
-    "source_bindings_count": 35,
+    "source_bindings_count": 37,
     "native_single_stage_and_top_audit": true,
     "temporary_prefix_reports_deleted": true,
-    "new_development_first_execution": "Only the eight newly authored prefix-diagnostic dictionary fixtures; first execution public Actions. Previously passed15 hold-development checks are not repeated.",
-    "local_syntax_only_checked": false,
+    "new_development_first_execution": "Only nine new array capacity checks using original methods without objective construction and nine new orchestration stubs. First execution public Actions. Old15 hold and old8 diagnostic suites not repeated.",
+    "local_syntax_only_checked": true,
     "all_payloads_temporary_metadata_only_publisher": true,
     "actual159_body_radius_and_success_streak_inherited": true,
     "new_stage_changes_physical_family_or_dimension": false,
@@ -242,24 +243,55 @@
     "observed159_state": "b42911eca31bb1b2e7609dc606e2f56db0783e7f99ea760a7450d7f433b7e805",
     "observed159_output_raw_SHA256": "567acea708acf18a2fd5641487765c6c7f3071fad0a40b477a256c850d4c32d1",
     "height_to_body_radius_is_inherited_from_original159": true,
-    "current_revision_review": "Full six-hunk source-text diff read by root and tail; no local import, syntax execution, new artificial fixture or research executed.",
-    "prefix_diagnostic_repair": {
-      "observed_failed_run": "43705209195",
-      "observed_failed_source": "9ca83546823ea077bd8b9e6ef2d10344788518e5",
-      "observed_failed_job": "132784732079",
-      "old_development_observed_passed": true,
-      "old_development_output_sha256": "30d15185b9630afd752a518703f09809936950d1114e07f762c3c97c93b8f42f",
-      "new_targeted_artificial_checks": 8,
-      "original_prefix_error_unknown": true,
-      "new_stage_was_not_invoked": true,
-      "only_new_driver_reporting_and_targeted_development_changed": true,
-      "all_six_original_scientific_sources_unchanged": true,
-      "successful_status_required_without_exception": true,
-      "missing_metadata_stays_unavailable": true
+    "current_revision_review": "Root and tail complete source-text reviews; local AST and configuration metadata only. No local import or new artificial/scientific execution. Honest sixth-stage header and new-stage count corrected before first execution.",
+    "new_capacity_input_production": "One frozen159 implementation invocation with new fine-capacity configuration, separate from the five original-parameter restorations and the following hold.",
+    "new_capacity_input_production_and_hold_costs_separate": true,
+    "fine_initialization_capacity": {
+      "policy": "height159-fine-initialization-one-structural-reserve-v1",
+      "formula": "B=Nr*(2*min(Ntheta,k_metric)+4*min(Ntheta,k_curvature))+2*L; Cnew=Cinherited+B",
+      "stage_order": [
+        "capacity-height159-input-production",
+        "capacity-SOC-hold"
+      ],
+      "metric_rows_per_radial_branch": 2,
+      "curvature_rows_per_radial_group": 1,
+      "preserve_all_inherited_row_IDs": true,
+      "preserve_old_learning_headroom": true,
+      "capacity_declared_once_per_stage_no_automatic_expansion": true,
+      "second_stage_inherits_actual_first_capacity": true,
+      "only_configuration_keys_changed": [
+        "max_fine_physical_pool_rows",
+        "fine_initialization_capacity_reservations"
+      ],
+      "no_physical_or_controller_change": true,
+      "new_stage_calls_if_both_invoked": 2,
+      "stage_calls_are_not_LP_counts": true,
+      "each_stage_budget": {
+        "max_LP": 12,
+        "max_shared_values": 40,
+        "max_active_seconds": 120,
+        "independent_final_values": 2
+      },
+      "may_change_LP_rows_cost_and_numerical_trajectory": true
+    },
+    "previous_prefix_diagnostic_observation": {
+      "run": "43707849695",
+      "source": "f9d8da4e9a7b783caa51b6da4790c473fe471920",
+      "job": "132792751708",
+      "new_eight_checks_passed": true,
+      "original159_error": "ValueError: full eleven-group fine pool must retain every old row within unchanged capacity",
+      "inherited_fine_rows": 4049,
+      "inherited_fine_capacity": 4096,
+      "actual_union_not_recorded": true,
+      "original159_LP": 0,
+      "original159_J_refreshes": 0,
+      "original159_active_seconds": 0,
+      "hold_calls": 0,
+      "older_run43705209195_inner_error_remains_unknown": true
     }
   },
   "sync_private_rules": false,
   "publication_policy": "Root README15: no recomputable payload/artifact/Release; only source, parameters, run and output hash metadata, plus human conclusions.",
   "completion_claim": false,
-  "private_rules_note": "This single public geometry lane consumes no private input. Root retains separate private README/QUEUE synchronization; this request makes no new private-pull claim."
+  "private_rules_note": "This public lane consumes no private input. Root separately performs actual private README/QUEUE pulls; no new private-pull claim is made by this request."
 }
