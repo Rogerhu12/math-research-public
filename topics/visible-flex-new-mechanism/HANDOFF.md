@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`86b8875cd749cff5524ad707a510ab0a29b25e15`；时间2026-11-15 13:49:49 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`6f52083c9d7bd4c7d91ce412bea86017e40c41fb`；时间2026-11-15 13:50:50 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
