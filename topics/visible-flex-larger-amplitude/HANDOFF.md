@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:06:13 UTC 已读 d876b1b5b24955cd27856a4323bd9a45bffda25b，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:11:34 UTC 已读 a82320e1dd0d3b88f491cbe2c875ae28e1221ce4，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -21,12 +21,12 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |请求/负责人|run / compute job|固定source、已见范围|
 |---|---|---|
 |145 exact|43716379970 / 132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；来源过，step10科学运行|
-|150 exact|43721616091 / 132834627616|d1d4c01a283d20a1d20131ece43cdcfb05ce757d；双job终态success，exact全读中不推数学结论|
+|150 exact|43721616091 / 132834627616|d1d4c01a283d20a1d20131ece43cdcfb05ce757d；R338完整，编译阻断；161修复中|
 |152 root|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；双job终态success，root全读中不推数学结论|
 |156 geometry|43724040548 / 132841952200|1ca4196b99b61428bc4ab216bbc713ba2e77023e；step9–11结束，step12全112有限头运行|
 |151 root|43724306509 / 132842781513|618a9369d2bd45210767e294726cec10be1cd2df；来源过，step10 C运行|
 |155 exact|43726543241 /132849600659|0aa9dca2d8029721cd1e820948699206a7da4388；来源过，step7科学运行|
-|153 geometry|43727856178 /132853608396|35690c7731f50e5124d2e722230eacbf8aee7a68；环境步骤运行，无科学结果|
+|153 geometry|43727856178 /132853608396|35690c7731f50e5124d2e722230eacbf8aee7a68；前10步过，step11 C运行|
 
 raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源码/参数/时限/输出约定。
 
@@ -42,7 +42,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [145接口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)保真124六p/λ.001、原warm/fallback/last、全currentH/J/R273η1、10trial/32iter/2e−9、338/FD/fullDN/audit。首正s1/64真正原数学拒即止本实验，不盲减半13次；异常/未返调用另记。
 
-[150接口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)保58pins、同job真owner stage10/step0/field0全230列/320bits/19200s。全JSON/长整数/错误读后清，原child70/summaryfalse不改。R314/R325固定trace包含不冒F_e/真根/IEEE/全RK/native。
+[R338 actual150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)run43721616091双job success仅编排/读回；全128唯一α1到9.68582474751023176032080482454992093e−11、独立129248/576×226 replay逐word同。严格exporter编译return1：quoted三冒号及BatchStats歧义，完整642成员/149stderr行/两字节块全核，230列未起、全finalfalse，非预算/区间反证。exact以独立v2接161重做58原pins全链；旧原件不动，当前raw已清。
 
 [R333 actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)8真model/freshFD、27trial/8接受/19域拒；末physical .0071047205741851865、native/fullDNfalse。所选35非线性失域、未选MID489/490及大QP后验分列；完整原值/身份正文保，raw已清。
 
@@ -55,14 +55,14 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [156接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)8ce21c4d/84404a07/48eaecf2；只C1800→3600/E步75/job150，13源/R324科学4531/线性1800/全112/原门不变。实际work3600保，原点reader144身份不改，四完整块/pending/错误读后清，不借旧cut。
 
-[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)付零shape两mean、非除Robin/原port、非末−I前沿满秩/末整体非共振、η>0方向与η=0全112敏感度、完整338/原d_c字词。数值QR不冒严格非共振。R312/R318深尾、R324闭管flux、R322旧cut各依原范围。
+[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)付零shape两mean、非除Robin/原port、非末−I前沿满秩与末整体非共振之别、η>0方向/η0全112敏感度及混合338。数值QR不冒严格非共振；R312/R318/R324/R322按原范围。
 
 [新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)已推db77f490，c0bda335/cd5b77f5；全453/450/459、公共u/freshRHS、112非除Robin/商分开，线性solve拒绝。
 [153完整入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)八新源+recipe/request/workflow/接口本次发，24pins/六proof/三输入；request230c47b8/recipe5ace7ca3/workflow8dd7acc7。真物理r全部逆像及新rFar全112传播，原root/RK/mean/full576/577态、η1全链方向/η0全112/混合338/独立finiteaudit保。只一条112个+0H+J+audit，原32/10/2e−9，C3600/linear1800/sampling1800/native3600；完整中断trial、112远端行/错误字节/超限元数据读后清。未有实际结果；末稿AST仅Actions。盒代表共同实现C、JSexp误差和无限非线性仍未付。geometry继续156实际及159新profile→真BVP/非零H/fullDN，不能止于零响应。
 
 ## amplitude：154实际已付，157残差二次模型
 
-[154 R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)run43724606619/source2a4ce61f、compute132843730556/report132845644222双success；8方向70直线trial/8接受/62merit拒，normal回退和域异常均0。54二阶及108一阶FD有效，十literal同149、92组887段完整；全finalfalse，较大步W可至1.417e8、深回溯仍微降。完整70行/末九p50/原值/未访范围正文保，raw已清。
+[154 R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)run43724606619双job success，8方向70直线trial/8接受/62merit拒，normal及域异常0；新增54二阶及原108一阶FD有效、十literal同149。全finalfalse，大步深回溯仍微降；完整末九p50/70行/原值/后缀正文保，raw已清。
 
 [R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)已证全九维三残差二次模型平方、完整K/Hessian及三/四次项、12×9 ridge-QR准确下降/半径、有限候选最小及实际余项/形成误差。157由amplitude保154末九p50与新Δ=.01，21槽/32内更新/原真实20档及normal回退；不冒模型全局最优或实际唯一失配原因。157源码接线继续，无实际结果。
 

@@ -27,3 +27,8 @@
 ## 2026-11-15 15:06:13 UTC /root — R336完整九维残差模型证明
 
 [R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)全文读完即发：准确完整K/Hessian、三/四次项、12×9 ridge-QR下降/半径、有限候选选择与真实/形成误差边界；不能把有限内解或FD当全局最优/区间证书。157保原真实接受与normal回退继续，未预填结果。153真实run43727856178/132853608396；150/152双job终态由exact/root分别唯一读取，绿色不冒数学完成。API核d876b1b5b24955cd27856a4323bd9a45bffda25b双README未变，真实pull行保留。
+
+
+## 2026-11-15 15:11:34 UTC /root — R338实际150完整回放与编译阻断
+
+[R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)全文核后即发：run43721616091的当前128唯一α1达原tol，独立129248/576×226 replay逐word同；严格exporter编译因三冒号/BatchStats歧义return1，230列全未起，非预算或区间拒绝。642原成员整树/149stderr行和两字节块全核，raw已清；exact用独立v2继续161，root160复用修复152而不改旧源/原门。153前10来源/语法/环境步已过，step11 C运行。API核a82320e1dd0d3b88f491cbe2c875ae28e1221ce4双README未变，真pull记录保留。

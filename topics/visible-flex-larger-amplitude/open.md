@@ -20,11 +20,13 @@
 
 [R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)、[R321实际140](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付原完整128射击容差及独立逐word replay。140的stage/audit是编译return1，112/338未启动；原stderr已清，不能伪判为预算或数学拒绝。
 
-[152入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)运行43722101766，临时限定 std::quoted 接线修复后，从fresh91/64J/R273重做owner、576×224有限root切向、112边界、混合338和独立physical audit。55pins/19200s/原退出及门保，完整JSON字段与所有错误字节先读后清。未启动、partial和完成分列。
+[152入口](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)run43722101766已终态，root正在完整读回；临时限定 std::quoted 接线修复后，从fresh91/64J/R273重做owner、576×224有限root切向、112边界、混合338和独立physical audit。55pins/19200s/原退出及门保，完整JSON字段与所有错误字节先读后清。未启动、partial和完成分列。
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)/[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)的共享有限root、225Gram/226态/224列、因子与两次回代缺陷、完整129248×112仍是同一现场责任。不得把浮点pivot当严格非共振，或把有限root的实延拓当真正隐式根及IEEE程序导数。
 
-[150入口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)运行43721616091，58pins及同job实际owner stage10/step0/field0的全部230列/320bits，19200s含owner6000与cert9000+1650。R314/R325支付的是固定准确有限trace的条件区间包含；实际证书未付，且不代真 $F_e$、真正隐式root、分支稳定、全部RK、112/338/physical或native接受。原child70与summaryfalse不能被传输修复改写。
+[150入口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)的真实结论见[R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：run43721616091双job success仅表示受控编排和读回；当前128唯一α1达到9.68582474751023176032080482454992093e−11，完整129248/576×226独立replay逐word同。后置严格exporter未编译：三元冒号与::quoted连字、BatchStats名称歧义；642语义成员和149stderr行/两字节块完整核，export/certificate=null、230列全未运行、全部finalfalse，非预算或区间反证。
+
+161由exact接独立v2词法/类型资格化后，仍fresh91→64J/R273→当前128末状态→stage10/step0/field0全230列/320bits；58原pins、19200s及原证书公式/门不减。R314/R325即使实际完成也只付固定准确有限trace条件包含，不代真 $F_e$、真正隐式root、动态分支稳定、IEEE、全部RK/112/338/physical或native。原未付字段不能由传输成功改写；raw已清，后续完整重算，不凭hash恢复。
 
 ### 1C. 37查询及真实非线性域：155在跑，158实现中
 
