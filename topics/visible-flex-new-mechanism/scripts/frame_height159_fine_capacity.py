@@ -162,7 +162,7 @@ def developer_check():
         learn_fine_violations=Original.learn_fine_violations
         def __init__(self,cfg,Nr=3,Nt=8):
             self.cfg=copy.deepcopy(cfg);self.radial=np.arange(Nr,dtype=float)
-            self.fine_theta=np.arange(Nt,dtype=float);self.fine_pool=np.array([],np.int64)
+            self.fine_theta=np.arange(Nt)*2*np.pi/Nt;self.fine_pool=np.array([],np.int64)
             self.fine_pool_version=0;self.fine_pool_history=[];self.fine_derivative_cache=None
             self.rows=np.zeros((11,Nr,Nt));self.fine_cache={'data':{'eta':np.zeros((Nr,Nt))}}
         def fine_rows(self,state):return self.rows
@@ -171,7 +171,7 @@ def developer_check():
         'fine_initial_curvature_rows_per_radial_group':1,'fixed_metric_budget_exact':'13/50',
         'fixed_hard_curvature_cap_exact':'58','minimum_trust_box_fraction_exact':'1/128000',
         'max_LP_invocations':12,'unchanged_guard_fixture':{'radius':0.00003125,'streak':1}}
-    old_ids=[0,24,96,240];locations=[{'t':2.,'theta':7.}]
+    old_ids=[0,24,96,240];locations=[{'t':2.,'theta':float(7*2*np.pi/8)}]
     frozen=copy.deepcopy(cfg);saved_ids=old_ids.copy();saved_locations=copy.deepcopy(locations)
     old=ArrayFixture(cfg);old.set_fine_pool(old_ids,{'kind':'inherited-fixture'})
     old_failure=False
@@ -207,11 +207,11 @@ def developer_check():
     except ValueError:reverse=True
     clamp_cfg=dict(cfg,**{'fine_initial_metric_rows_per_radial_branch':9,
         'fine_initial_curvature_rows_per_radial_group':10})
-    duplicate=[{'t':0.,'theta':1.},{'t':0.,'theta':1.}]
-    clamped,clamp=reserve_initialization(clamp_cfg,[0],1,2,duplicate,STAGE_KEYS[0])
-    cl=ArrayFixture(clamped,1,2);cl.set_fine_pool([0],{'kind':'clamped-inherited'})
+    duplicate=[{'t':0.,'theta':float(2*np.pi/4)},{'t':0.,'theta':float(2*np.pi/4)}]
+    clamped,clamp=reserve_initialization(clamp_cfg,[0],2,4,duplicate,STAGE_KEYS[0])
+    cl=ArrayFixture(clamped,2,4);cl.set_fine_pool([0],{'kind':'clamped-inherited'})
     cl.initialize_fine_pool(None,known_metric_locations=duplicate)
-    clamp_ok=bool(clamp['total_initialization_upper_bound']==16 and len(cl.fine_pool)<=1+16)
+    clamp_ok=bool(clamp['total_initialization_upper_bound']==52 and len(cl.fine_pool)<=1+52)
     unavailable=initialization_diagnostic({'status':'artificial-error','error':{
         'type':'ValueError','message':'original failure'},'checkpoint':{
         'fine_physical_row_pool_history':[new.fine_pool_history[0]]}},new_cfg,first)

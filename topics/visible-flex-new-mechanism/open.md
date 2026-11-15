@@ -20,7 +20,7 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** [新容量实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)及[结构设计](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)已发布，首跑43711688885/e38604f6在首个人工setter被非uniform角网拒绝，真实阶段未调用；当前只修fixture角网/最小网格，再执行未完成18新增检查；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。[完整诊断实际](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)run43707849695/f9d8da4e八新检查全过；原159 fine初始化union超4096，旧4049行、0LP/0J/0活动秒，hold未调用。**下一新容量Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保全部旧行和旧学习余槽；第6新输入生产、hold独立再预留，后续不增长。** [新容量实现](notes/height159-fine-initialization-capacity-implementation-20261115.md)及[结构设计](notes/height159-fine-initialization-capacity-reserve-design-20261115.md)已发布，首跑43711688885/e38604f6在首个人工setter被非uniform角网拒绝，真实阶段未调用；[六行fixture修复](notes/height159-capacity-first-development-grid-repair-20261115.md)已核，本次公开再次执行未完成18新增检查后首次真实阶段；保原12LP/40值/120秒/reference/H/真实controller，不强迫历史末态。旧43705209195原因仍未知。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)仍未实现。
 
 ### 仍须支付
 
@@ -44,9 +44,9 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)新全权pure忠实末step保三矩/完整第三/八包，最右完整period0 iff πV_B0；原冻结step未获忠实性。实际pure控制已由R210支付，继续mixed完整兼容。
 
-[R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已完整结清universal pure主线：最后权−4实际43688302217给πU−4=πR−4维9，152原state/123原列+40响应、154全原关系零。R203消最低两权、R207付−6，加既有分离定理，全部pure正字符排除；R202闭锥Cp=P，再由R206真实桥成本/整数复制/商截面/最终响应Brouwer得实际S=P。不是从span或闭锥直接冒实际负路径。
+[R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已以完整原响应/全关系支付所有pure权像，并结合R202闭锥、R206真实桥/整数复制/Brouwer得实际S=P；不由span或闭锥单独冒负路径。完整证明、run及原记录保留，已付pure不重跑。
 
-R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再取真实M=T0/frameI控制D满足πVD=−πV0/4，Klein第一prototype四次插入，所有新增位移仍四左旋相消，保持TκH非零且整pure零。最终几何选择R183/R199合法圆后，最右f0区间的不可校正pure必要门整函数归零。无常段迁移不能只靠开放性；同g、嵌入/reach/有限幅度仍欠。
+R210的实际pure控制已用于闭hook：真实M=T0/frameI词在Klein四位置插入，保位移/非零TκH而整pure零。其完整基准成本与比例见原证明；这只支付必要pure门，同g/嵌入/reach/有限幅度仍欠。
 
 [R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)的固定有限词C1全pure截面已付，未知真实基准与商Q均保留；外扰动须全P IFT。R214/218/220的无常段、偶germ与Morse迁移已由R223/227加强，当前无需重做这些局部控制定理，直接推进完整period与ruling。
 
@@ -136,6 +136,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)已把Z71十维K的真实活动flux准确写成[F: fG″−B_A(f,w)]两端差；原右尾/非零step常端基准全保，不能只用当前端值。两mixed另留ζ历史积分及E/2规范。可据它组装真实活动观测，仍须联合平台/内部Laurent/flat-germ/同w ruling；八χ不先套此自伴结构。
 
+[八χ完整源设计](notes/third-kernel-eight-local-operators-design-20261115.md)本次lane third_kernel_eight_local_operators仅消费旧W36与R254准确χ，首次生成K(w)=χ(w;ff)的真D³、完整有色word及局部时全形式伴随。空word才提局部/实测阶，不预截四阶；非局部/非自伴完整保。先8新人工，旧Δ/18参考/151/152/3974及第四响应0重做。此lane尚无实际结果，不先用全Z自伴或宣fixed-circle像。
+
 ## O1：双圆领相位机制，保留备选
 
 本题没有δE正下限。同轴双圆领可先行；若非轴对称环带与两端开圆领相接且度量旋转不变，相位可固定材料握持区而改变整像，允许如实δE=0。偏心/非平行端口另有完整端口门；帽材料刚体位移不是整体Hausdorff下界。R17只处理旋转参考的m≥2线性端口，m=1或非旋转参考须自己的完整方程。
@@ -152,4 +154,4 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根15继续执行：可重算输出不保存，只留源码/完整参数/run/SHA/结论。11:29终端已恢复，partial/sparse重建后公开与私有实际pull均补；11:38根README只新增另一课题清理记录、已读差异，本题无变。每pull查双规则/NFF立即rebase再推；研究和新增人工仍只本公开Actions，主课题继续。
+根15只留源码/参数/run/SHA/结论；终端已恢复，每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。

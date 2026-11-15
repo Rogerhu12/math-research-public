@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual已消费**：43701558227/ef8c1cdb/job132773631115，完整来源/门/费用见原actual。η.266520536442→.266491207122，8主/1SOC、8接纳、20+2值、活动120.313/总896.907秒；m6仅fine曲率拒绝被SOC修回仍减B。原双网/九准确盒/外域jets/g/b0全保，但未.26/1e−4，κ≈58仍欠reach。
 
-**SOC诊断实际已归档**：[完整note](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)，43707849695/f9d8da4e/job132792751708八新检查全过；原159初始化fine union超4096，旧fine4049/coarse4421；0LP/0J/0活动秒、2共享+2最终值，hold未调用。两网原门过/初末η.266488961847同态，非持径阴性。总813.7947秒/RSS3147068KiB为全prefix费用；旧43705209195内部原因仍未知。新容量C+B保旧行/旧余槽，第6明确新输入生产、hold另一次预留；新lane首跑43711688885/e38604f6在首个数组fixture因非uniform角网拒绝；真实prefix/hold均0。仅修人工网格后再执行未完成新增检查，原生产/预算不改。
+**SOC诊断实际已归档**：[完整note](notes/height159-prefix-diagnostic-capacity-failure-actual-20261115.md)，43707849695/f9d8da4e/job132792751708八新检查全过；原159初始化fine union超4096，旧fine4049/coarse4421；0LP/0J/0活动秒、2共享+2最终值，hold未调用。两网原门过/初末η.266488961847同态，非持径阴性。总813.7947秒/RSS3147068KiB为全prefix费用；旧43705209195内部原因仍未知。新容量C+B保旧行/旧余槽，第6明确新输入生产、hold另一次预留；新lane首跑43711688885/e38604f6在首个数组fixture因非uniform角网拒绝；真实prefix/hold均0。六行fixture修复已核，本次公开重启未完成18检查及首次真实阶段，生产/预算不改。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -56,13 +56,13 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R225完整period range**：平台G″0、每包总flux0、内部q=F/(Ap²) Laurent禁低极点/residue、两平端真C∞及双collar/连接条件共同iff。u*=1/p是非canonical Y反例。完整O像及Hper=O(U0)/O(R0)未知；Hper0授fullperiod控制，λ杀kerO才授障碍。一般R0保T/Morse仍须另付，不扩已付有限flux。
 
-**R226/230/234/236/240首平端已付**：HE wholepure0/λ1/T0及raw二次主部0分别由43699241372/ee9e2098、43701766182/623f1c00付；完整原式/费用见R234/240。真实G=P2+Tτf+p²B+p³C，零flux/平台已付时光滑 iff t⁴B无负主部；p1失败/p3+自动。两mixed的−4Re/+4Im保留，不重首端。
+**R226/230/234/236/240首平端**：HE wholepure0/λ1/T0/raw二次主部已付。真G=P2+Tτf+p²B+p³C在先付flux/平台后，平端光滑iff t⁴B无负主部；p1失败/p3+自动，原actual及mixed规范保留。
 
 **R242/244首平台/八通量已付**：新ψP圆11维δ链、八flux核Q_L Pol≤2、首gap minor5040βγV L12>0给rank10。只该模/该圆首pair和首germ，不授旧圆或实际signed成本，原证明完整保留。
 
 **R246八平台接口**：11维模上8F+8E单射；八E/前三F定唯一P，余五F+八D为13独立iff，e-flux另验。本模period核0不冒全R0障碍。
 
-**R247–258完整第三核/局部源已付**：R有232呈示/旧下界228；R254八χ fresh Δ0、真dimΔW18/Z7110/Z18，旧actual不重。R255 Z=H7⊕J3⊕χ8及全B_Aτ=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)已付。R258整个Z71准确Kfτ=−J³Afτ，Afτ局部自伴四阶、Afτ f0；三右常数/各平台二次尾/两个mixed历史全保。δ递推必须含seed导数。整profile不交逐包比例类上Kfτ(g)0，且每整包通量0；解析无内部常平台类才支付全部R225活动总flux，不能套旧step圆。仍欠平台/内部Laurent/平端与同w ruling；全R_p0=(R71∩kerπ)+B(E,χ8)不可删首项，8χ完整K未知，80/144定义非rank。下一完整O像，不重旧八Δ/151/152/3974。
+**R247–258完整第三核/局部源已付**：R有232呈示/旧下界228；R254八χ fresh Δ0、真dimΔW18/Z7110/Z18，旧actual不重。R255 Z=H7⊕J3⊕χ8及全B_Aτ=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)已付。R258整个Z71准确Kfτ=−J³Afτ，Afτ局部自伴四阶、Afτ f0；三右常数/各平台二次尾/两个mixed历史全保。δ递推必须含seed导数。整profile不交逐包比例类上Kfτ(g)0，且每整包通量0；解析无内部常平台类才支付全部R225活动总flux，不能套旧step圆。仍欠平台/内部Laurent/平端与同w ruling；全R_p0=(R71∩kerπ)+B(E,χ8)不可删首项，8χ新完整K/D³/局部/全自伴lane third_kernel_eight_local_operators本次首请求，仅8新人工/8新目标，旧Δ/forcing不重；结果未知，80/144非rank。下一完整O像，不重旧八Δ/151/152/3974。
 
 **R260真活动flux**：十维K目标的F_ell=[fG″−B_A(f,w)]_ell^x，准确Green边界式保step非零常端和右尾；两个mixed仍保ζ历史/E÷2。只改通量接口，不授平台/Laurent/平端/ruling，八χ结构仍待首验。
 

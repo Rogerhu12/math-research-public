@@ -205,3 +205,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R260：真实活动通量的准确 Green 两端值与 step 基准
 
 [R260 完整证明](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)消费R258局部自伴Af及Af f0，逐项得B_A(v,w)=v(aw″)′−v′aw″−w(av″)′+w′av″+b(vw′−wv′)，D B=vAw−wAv。因此对完整G=Kfτ(w)，R225真实F_ell(x)=∫ell^x f′G″准确为[fG″−B_A(f,w)]_ell^x，保原右锚和活动左端常数。flat非零常端基准为f0(G″−a′w″−aw‴−bw′)，即使平台G″0也不能先删其它项。整profile零端包复得逐包总通量0；内含非零常平台则必须逐活动区间保基准。完整两个mixed按2K/−4K加4Φ(·,ζ)的真实历史积分，采用2cs规范时E/2，只有另证ζ0可删。准确q分子可直接用于R225，但分母零点/Laurent/端germ/平台/同w ruling仍独立未付；不授固定圆满射、signed成本或八χ结构。root全篇独核Green微分、端值、包边界及规范；无新计算。
+
+
+## 容量人工网格的最小修复与剩余八χ新完整目标入口
+
+[容量失败及修复](notes/height159-capacity-first-development-grid-repair-20261115.md)完整消费43711688885/e38604f6/job132804450203：首个人工setter在原坐标记录处拒绝非2π全均匀角网，未到容量断言，0真实prefix/几何/J/LP/hold。失败开发12544B/2a99c15a与receipt51258B/a493cc35、37来源全同。helper仅developer_check六行修成原准确角网、7号原峰、合法2×4重复峰例与B52；生产函数/driver/98参数不变。根与tail对三个实际API静态核后，仅请求未完成新增检查与真实阶段，不机械重跑完成研究。
+
+[八χ新设计](notes/third-kernel-eight-local-operators-design-20261115.md)及新源码冻结f5914327，完整原χ三槽/真右锚保留，首次计算χ(w;ff)三导和fresh完整原重建差，只有所有word空才准确列实际w阶/全部系数/全形式伴随。种子湮灭直接继承R254，不再跑旧Δ；8新人工专验新适配的内外w尾、完整链式导数、真实I号、IBP原差和六阶不截断。零旧参考/旧forcing/第四响应/几何，结果未预判。源只复用15冻结依赖读取/表示API，内存proof与临时main不发布，可审数学原系数或words直接stdout；fullperiod/全Rp0/实际signed/同w ruling仍欠。本次两lane相互独立，53完整请求来源绑定。
