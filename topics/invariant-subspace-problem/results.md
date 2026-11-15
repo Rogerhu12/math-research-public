@@ -383,3 +383,6 @@
 
 
 - **原逆芽伴随测试、真实Riordan及全部旗的位置加权运输。** [完整证明](results/R271-appendix-actual-return-germ-adjoint-test-and-position-weighted-full-flag-transport.md)将 $q_h(-T_0)^*$ 写成保原投影的环境多项式，保零源和同一个物理右栈；$d_0=e^{-20}$ 固定。准确局部投影差给返回测试位置费 $20\nu r_xQ\Delta_f^2$，原q和帽q测试分别付 $(78+12r_x^2)r_xA_0^2$、$(252+48r_x^2)r_x\mathcal C_0^2A_0^2$ 的同源系数；全部暗矩、全真旗和primitive形式共同受控，无额外旗数。真实混合配对保持，完整返回及顺次MP负部未由此封口。
+
+
+- **原无穷远完整常高核严格二维。** [完整证明](results/R150-appendix-infinity-complete-high-constant-kernel-two.md)实核全部5100原高来源与3762靶列、三/四/五normal交叉、221700原非零项；固定31 rank3760与两真Q核10200原产品夹等。全部normal四、五核坐标为零。整行比例31单位只保证实际unitminor自由坐标的整核图，预选164/494规范不自动整。前五完整链低支撑故第六仅剩1088×598完整低系统；未预报第六秩。
