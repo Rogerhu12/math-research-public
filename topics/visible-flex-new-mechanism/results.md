@@ -383,3 +383,5 @@
 - [R174：九个新原函数关系与严格正外点的排除](results/R174-nine-original-character-relations-and-rejection-of-the-positive-outer-point.md) — actual43670254711/source952cf792完整147列，字面rank77/kernel70，全部70依赖两mode原存储fresh核零；旧B/R168外九式独立。首原式−V0+V1−V2+V3=0，而R173给−2，故该完整标量正点不能定义真实λ。九式给12维必要线性外空间（静态2/二次5/最高5）、a_static=(1+k²)(α+βk²)及最高c=−b,d=b/4等五关系；不授真实head维数/字符存在。38.592s/RSS140.637MiB，cert41109B/5d929f4f；后继只增九式±，不重原消元。
 
 - [R175：原关系后整个最高层的锐利二阶矩阵判据](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md) — R174五最高关系下，u=k/h²、ψ=h u′把全部H/Q4准确化为纯h两个平方加(ψ′,r′ψ)M(ψ′,r′ψ)ᵀ及明确平端零导数。全路径最高非负iff a≥0、ℓ+25a/9≥0、M=[[b/4,3b/4+3f/2],[同,23b/12+2f+g]] PSD；R169 Ω=(p−2)²·[(p−1)/3,1]M[(p−1)/3,1]ᵀ给必要性，b0准确迫f0,g≥0。失败有有限真实负路径，成功直接结清最高层；仍不授低层/完整正性或真实字符存在，无新研究计算。
+
+- [R176：九真式后的86行外点及真实幂路径反例](results/R176-nine-literal-relation-cuts-and-exact-negative-power-path.md) — actual43671759155/source26e00d13新增18行至86，原23/B/68前缀不变，0.434173s/RSS91.484、0全零双证但新准确外点完整存储。新静态k²(1+k²)/2非负，最高M=[[0,3/4],[3/4,3/4]]、det−9/16；k=K/h真实水平平端路径使Q=−9K²∫h^-4(r′)^4/4，有限K再time排此点。Ω(−1)=−9/4，原23整数行值−81/4；不宣整权全排，也不为此再跑单行LP，接全正指定点与原函数门。

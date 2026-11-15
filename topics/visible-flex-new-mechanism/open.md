@@ -56,9 +56,11 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+[R176](results/R176-nine-literal-relation-cuts-and-exact-negative-power-path.md)已记录43671759155的完整86行准确外点与反例：M的det−9/16，真实k=K/h给有限K负最高action，p−1行值−81/4。该点结案，不继续单行LP迭代；root转明确12参数全正点（staticα=β1/4、最高M=diag(1/16,11/48)、低层显式平方），lit只核其86/全14族与同一μ，随后原函数良定义性仍是缺口。
+
 **原关系actual43670254711已完整：R173正标量action点被真实原函数关系排除。** 147字面列rank77/kernel70；70依赖全做两mode原存储fresh核零，旧B/R168后9新独立式。指定点违反18条真式，首条值−2。[R174](results/R174-nine-original-character-relations-and-rejection-of-the-positive-outer-point.md)完整登记9式、首原式−V0+V1−V2+V3=0及12维线性必要外空间；静态准确降为(1+k²)(α+βk²)，全非负iffα,β≥0。证书41109B/5d929f4f保留；rank77仅字面矩阵，不是真实头部维数。
 
-[九式增量实现](notes/character-minus2-nine-literal-equalities-necessary-system-design-20261115.md)31639B/1861db94已成，新9人工通过；首次43671414958因workflow稀疏清单漏raw147目录在读入前失败（0新增等式/LP）；已补目录并复用同源公开九人工，实际43671759155/source26e00d13完整success，正读新的准确输出。只在旧23坐标及68必要半空间上加入9条新等式的±必要行，沿用准确双证接口（180s/512MiB）。旧B已包含ν18=0；不重147消元、旧RREF、六路径、静态求根或完整head生成。R173曾通过68行并有全0/2/4标量正证，但不尊重原关系，故不是真实λ；这个指定点结案，不继续为它找负路径。真实字符是否存在由更新系统继续判断，不以字面非零推原独立。
+[九式增量实现](notes/character-minus2-nine-literal-equalities-necessary-system-design-20261115.md)31639B/1861db94已成，新9人工通过；首次43671414958因workflow稀疏清单漏raw147目录在读入前失败（0新增等式/LP）；已补目录并复用同源公开九人工，实际43671759155/source26e00d13完整，具体新点已由R176排除，下一直接检验更强全正指定点。只在旧23坐标及68必要半空间上加入9条新等式的±必要行，沿用准确双证接口（180s/512MiB）。旧B已包含ν18=0；不重147消元、旧RREF、六路径、静态求根或完整head生成。R173曾通过68行并有全0/2/4标量正证，但不尊重原关系，故不是真实λ；这个指定点结案，不继续为它找负路径。真实字符是否存在由更新系统继续判断，不以字面非零推原独立。
 
 [R172](results/R172-exact-highest-and-quadratic-certificates-for-the-updated-outer-point.md)已准确证明当前新点的完整最高action全路径非负、修正二次层逐点正定。若后继保这两个修正层且静态全非负，则所有路径条件均无法切掉那个点，须判断真实原函数关系/头部泛函良定义性。tail推进107normal+40R已存双mode原列的准确字面关系，lit推进当前静态多项式解析分离；不把外点当真字符，也不重跑最高层负路径搜索。
 
