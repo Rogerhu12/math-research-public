@@ -42,7 +42,7 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 54263B原status1e56d89c、70源/11原件/215检查保全，readout含完整原status。末FD三档7.60517568680229e-9/1.874469986361574e-9/5.09761710307341e-10；467 Arb叶/24split/0unresolved仅声明a/ap范围。完整699×453零core圆col3.8903884454211113e-16/BC0、原全部域通过，但不是非零幅度parent、强C2或真实连续R证明。大输入缺失payload处只按已有receipt跨绑定，原完整尾J本次未独立导出；81在actual78的高块不能继承到新p。
 
-85从真实82 finalp续同ec9a56fd ownschema，保1691方向/3b9方程与全部原门，仍eta0.1/8方向/20档；没有已拒试步要求扩大回溯或换η。草稿待root审读后原computations唯一触发，不预填未来run。80及此前完整结果已付，详见原notes，不重复计算。
+85从真实82 finalp续同ec9a56fd ownschema，保1691方向/3b9方程与全部原门，仍eta0.1/8方向/20档；没有已拒试步要求扩大回溯或换η。[85续接接口](notes/2026-11-15-request85-own-schema-candidate-continuation-interface.md)已发布，workflowd5c4481b/request0add5cb8；root全文读两diff/接口，核70源/7shell/4inline/完整父参数bits，仍原computations唯一触发，不预填未来run。80及此前完整结果已付，详见原notes，不重复计算。
 
 **高109实际81已完成：** [完整结果与模型范围](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。固定actual78参数和原699节点/112尾J，112 exact模式全部已读，高109保存有限系数两端行列式非零、全部单位入口映射存在，高Schur非奇异。另定义的声明实数Arb模型160/320/640位后仅解决高4–9，10–112仍未排零；所有right-cell/unit-map已定义，未遭预算截停。含零包络不是奇异证明，finite结论不能替换interval/连续结论。476原件/17完整阵/112exact/328Arb/3circle/69当前源全部已付byte scope，稠密两端矩阵和QR未形成。低三/横截/非零BVP未付，之后改p不能继承此点高块；这不成为native/prefix新gate。
 

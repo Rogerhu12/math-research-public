@@ -1,13 +1,13 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 82,
+  "request_number": 85,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "Actual80 accepted all eight eta=1 candidate directions at alpha=1, but its final original three equations remain large. Resume exactly the complete actual80 final.parameters with one explicitly smaller positive damping eta=0.1, bounded by the same eight direction attempts and twenty original backtracks. The independent resume source imports the frozen1691 direction engine and3b9 model/checks. Keep the actual original gdot, unweighted merit, domain exceptions, Armijo coefficient, tolerance and complete final FD/Arb/circle. This experiment does not assume a root or identify a sole cause, and is not native/BVP acceptance.",
+  "rationale": "Actual82 completed all eight eta=0.1 candidate directions at their first alpha=1 trial, with no rejection or line-search exhaustion, while the original three equations remain large. Continue once from the complete actual82 final.parameters using the exact same frozen own-schema resume producer, eta=0.1, eight fresh directions and twenty original backtracks. Only the literal initial parameter triple and its complete parent identity change. Keep original gdot, unweighted merit, domain exceptions, Armijo coefficient, tolerance and complete final FD/Arb/zero-core circle. This finite-budget continuation is not a root, nonzero parent, native/BVP acceptance or a guarantee of further descent.",
   "scientific_entry": "geometry_20261115_small_core_damped_resume.py",
-  "scientific_source_unchanged": false,
+  "scientific_source_unchanged": true,
   "inputs": {
     "accepted": {
       "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
@@ -111,9 +111,9 @@
   },
   "diagnostic": {
     "parameters": [
-      0.09071772300091886,
-      -0.13939413969182854,
-      -0.12252606423015384
+      0.07254576672993071,
+      -0.0403277008444164,
+      -0.11497411877394303
     ],
     "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
@@ -157,15 +157,18 @@
     "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
     "design_parameter_search_not_claimed_one_fixed_metric": true,
     "original_three_equation_residual_not_augmented_by_penalty": true,
-    "original_twenty_backtrack_budget_unchanged_from_actual80": true,
-    "original_eight_candidate_iteration_budget_unchanged_from_actual80": true,
+    "original_twenty_backtrack_budget_unchanged_from_actual82": true,
+    "original_eight_candidate_iteration_budget_unchanged_from_actual82": true,
     "only_literal_parent_final_parameters_reused": true,
     "parent_J_or_merit_or_state_reused": false,
     "frozen1691_direction_function_imported_unchanged": true,
     "explicit_real_parent_file_SHA256_required": true,
-    "new_resume_schema_preserved": true
+    "same_resume_schema_preserved": true,
+    "same_positive_damping_as_immediate_actual82_parent": true,
+    "same_frozen_resume_source_as_immediate_actual82_parent": true,
+    "all_previous_accepted_full_steps_do_not_guarantee_next_descent": true
   },
-  "source_pin_scope": "Retain all69 actual80 source pins and add only the independently identified resume entry as the70th. Runtime and restored public78 source-byte verification remain unchanged. The resume imports the frozen1691 direction function and3b9 original model/checks; the complete parent producer and all shared consumed source identities are separately bound.",
+  "source_pin_scope": "Retain exactly all70 actual82 source pins, including the same ec9a56fd resume producer, frozen1691 direction engine and3b9 model/checks. Runtime and original78 public source restoration are unchanged. This own-schema continuation reuses only the complete actual82 status final.parameters; all numerical model/derivative evaluations are fresh.",
   "proofs": [
     {
       "file": "topics/visible-flex-larger-amplitude/results/R259-small-core-homotopy-and-resonance-conditions.md",
@@ -184,35 +187,39 @@
       "sha256": "439616d4594f767e7dae986e29fc856673b1833ba495a5aa01e2c935979c916f"
     }
   ],
-  "publisher_revision_scope": "Retain the same existing smallcoreresonance output lane and publisher 22e640bb bytes. The new scientific status schema and filename remain explicit; ordinary pull/rebase/README checks and all failure preservation remain.",
-  "requested_at": "2026-11-15T01:53:21.263040+00:00",
+  "publisher_revision_scope": "Retain the existing smallcoreresonance lane and exact publisher22e640bb bytes. Keep the same resume schema and status filename, ordinary pull/rebase/README checks, original complete artifact, bounded publication and failure preservation.",
+  "requested_at": "2026-11-15T02:16:24.538157+00:00",
   "prior_candidate": {
-    "run_id": 43664043053,
-    "source_commit": "5a17ad802c28a0a00f2776201cea4cef27f68da7",
-    "job_id": 132659392179,
-    "artifact_id": 14141985111,
-    "artifact_bytes": 265623,
-    "artifact_zip_sha256": "1bc8586e5369b182d61214e064db42ac06cdf9ae8a0d26b2c231390e8f2f5ade",
+    "run_id": 43665944742,
+    "source_commit": "f1a2c80826d106d1c92db7aeffd1dbfcd84625c6",
+    "job_id": 132665204485,
+    "artifact_id": 14141564704,
+    "artifact_bytes": 267442,
+    "artifact_zip_sha256": "fa07a132734ca9cc604cbccc74926c8840683fd6c0eff4d2c7b510ab898c2214",
     "original_status": {
-      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43664043053-1-smallcoreresonance/small-core-damped-search/damped-search-status.json",
-      "bytes": 52985,
-      "sha256": "ebe5b50c6af5ec9cfbe201e4d19a1b24dc9357e28ac8fe89354d5c04fd13ee2a"
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43665944742-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+      "bytes": 54263,
+      "sha256": "1e56d89cf97e6e26904c7092e974a516905c52dd0dd47d10bd40dd4e3c3384fd"
     },
-    "original_schema": "R259-original-three-equation-column-scaled-LM-candidate-v1",
-    "producer_source_sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+    "original_schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
+    "producer_source_sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+    "direction_engine_source_sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
     "parameters_from_original_status_field": "final.parameters",
     "parameters": [
-      0.09071772300091886,
-      -0.13939413969182854,
-      -0.12252606423015384
+      0.07254576672993071,
+      -0.0403277008444164,
+      -0.11497411877394303
     ],
     "diagnostic_completed": true,
     "scientific_candidate_success": false,
+    "low_mode_candidate_has_small_full_recorded_right_residual": false,
     "previous_candidate_iterations_attempted": 8,
     "previous_candidate_iterations_accepted": 8,
     "all_previous_accepted_alphas": "1",
     "previous_total_trial_records": 8,
-    "previous_damping_cli_text": "1",
+    "previous_trial_rejections": 0,
+    "previous_search_completed_requested_eight_iterations": true,
+    "previous_damping_cli_text": "0.1",
     "new_explicit_damping_cli_text": "0.1",
     "previous_and_current_backtrack_budget": 20,
     "previous_and_current_candidate_iteration_budget": 8,
@@ -220,7 +227,8 @@
     "original_four_mathematical_inputs_unchanged": true,
     "original_frozen_model_and_checks_source_unchanged": true,
     "frozen_direction_engine_source_unchanged": true,
-    "new_resume_producer_is_explicitly_distinct": true,
+    "same_frozen_resume_producer_as_parent": true,
+    "new_resume_producer_is_explicitly_distinct": false,
     "old_circle_or_candidate_is_not_a_nonzero_parent": true,
     "new_native_solve_or_high_core_Schur_or_transversality_claimed": false
   },
