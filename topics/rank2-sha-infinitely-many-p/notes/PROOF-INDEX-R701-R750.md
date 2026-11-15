@@ -48,3 +48,9 @@ R718标量增补：原Gaussian共振给准确tα=−[w^s]logRα；s<p的单位�
 - [R721：原高度二整参数的最小二挠极帽](../results/R721-minimal-two-torsion-poles-for-original-height-two-parameter.md)：显式h_p=(x²/y)Σ_{j<s}a_j(b/y²)^j的全部单位递推付H−h_p=O(z^p)，Zhat=Z+cp^-1h_p^p保持DZ=1/全原q窗。实际极帽p(2s−1)D2，并在只二挠点极/原型/全窗类中最小；全sigma模型及首Cartier帽降m(q−6)p(2s−1)D2，所有其它单零与实际留数保。未关闭中央到前缀门。
 
 - [R722：真实切向常数二余量与指定残余列](../results/R722-actual-tangent-two-constant-kernel-and-specified-residual-columns.md)：保同原角格和值层，T>2κ/h>κ的jet单射给物理核/kF²嵌原值与首Euler值k²。实际H2^{00}/OF²为秩2κ+χ−2全单位整块，余下Fu_F与u_F²−λF u_F两指定列，完整整Schur保p³。原临界严格过门；旧预算扩大条件、全部其余W_D列/目标行及同R carry保，不将两列冒全余核二维。
+
+- [R719：原二阶纤维的特征零混合关系](../results/R719-native-second-fibre-and-exact-mixed-source-relation.md)：固定52行/149真实列与仿射项的1200条Q(ω)等式及τ三次界付原J2边界关系；实际保κRκ+uRu。两原q的正规目标/J2=1/F1=0强迫k2..5一个组合为unit，明确回同Yunit正矩及E深/浅单位补偿。原斜门负矩/所有T外部仍保，未冒中央零。
+
+- [R723：两固定CM恢复整个高度二窗](../results/R723-fixed-cm-and-artin-hasse-full-height-two-reconstruction.md)：原AH已知行只留pk、s+pk两族；共同共振分别等价e_CM|(k−s)、e_CM|k。密度一e_CM≥s使每个未知行有真实CM单位分母，故固定5/7次division与原X第一位唯一恢复全部U modw^L、全二位族及首Cartier行。通用AH/Fermat商/全部极帽和原中央进位仍保。
+
+- [R724：原第一wild解析平均与非实补偿](../results/R724-original-first-wild-analytic-average-and-nonreal-compensation.md)：原ν((α))=χ(α)^−2及实际模p² anti-Fermat条件、weight2精确Mellin和p-depletion给完整平均。真实有理子和趋9π/(17√3)，全部非实和及指数小对偶项仍在；精确Hall能量表明全零iff N_p=−R_p−T_p/p。未预付残差小界、first-layer非零或j0到边界零。
