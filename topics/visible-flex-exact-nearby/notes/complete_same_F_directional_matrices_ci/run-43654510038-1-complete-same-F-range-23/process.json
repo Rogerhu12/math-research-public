@@ -80,6 +80,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:54:32.319564+00:00",
+      "before": "8f2a1b0b5753dbc704c4718761aa697c3b7dd097",
+      "after": "ffef369a0b6fcf9892df0b79ea28dd190037acc5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -92,6 +100,11 @@
       "time": "2026-11-15T01:34:24.090315+00:00",
       "final": false,
       "commit": "74b48573a86f6dbd00f373e0e058fb8ac83a2924"
+    },
+    {
+      "time": "2026-11-15T01:44:29.596031+00:00",
+      "final": false,
+      "commit": "211eb5e465c928adb66232b3f96ad152a734e64c"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -132,7 +145,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "8f2a1b0b5753dbc704c4718761aa697c3b7dd097",
+  "last_read_commit": "ffef369a0b6fcf9892df0b79ea28dd190037acc5",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -338,8 +351,8 @@
     "slice_id": 11
   },
   "original_empty_failed_range_native_sha256": "3dd4aada0991125452ded44b4bf939728a9c54c403e2e217121981071d22a555",
-  "snapshot_utc": "2026-11-15T01:44:27.952515+00:00",
-  "wall_seconds": 1263.296499617,
+  "snapshot_utc": "2026-11-15T01:54:32.347603+00:00",
+  "wall_seconds": 1867.691583967,
   "native_files": [
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
@@ -356,8 +369,8 @@
     {
       "logical_file": "native/complete-same-F-range-23.json.gz",
       "file": "native/complete-same-F-range-23.json.gz",
-      "bytes": 515948,
-      "sha256": "1d05b93acee3b6de5e1b1846644d03280212624ae88da548d0a18a5adaed91ae"
+      "bytes": 768812,
+      "sha256": "b7759075476748ddc8cf7d58d278f23526c2ad4522c5c7725891acb1bf84cb3e"
     }
   ]
 }
