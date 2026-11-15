@@ -130,8 +130,9 @@ def run():
             row = plain(row)
             assert row == entries[row["file"]]
             data = read(out/row["file"])
-            assert data["result"] == SOURCE_RESULT and data["complete"] is True
-            assert data["configuration"] == tag
+            # Frozen R806 store() puts RESULT in configuration, not at the top level.
+            assert data["complete"] is True
+            assert data["configuration"] == tag and tag["result"] == SOURCE_RESULT
             return data
         index = stage(cert["stage_manifest"])
         indexed = {row["file"]: plain(row) for row in index["files"]}
