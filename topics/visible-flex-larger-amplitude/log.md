@@ -97,3 +97,7 @@
 ## 2026-11-15 16:14:04 UTC /root — request166保原数学的37控制身份配对
 
 [166接口](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)五运行件/完整158差异及接口核后即发：97pins/三参数、真实98新model/FD，按station及原B控制完整身份匹配并保全部候选，44原数学定义不变。原75776/17档/453及6000/1800资源保；观察清单即使bind失败也完整读，缺匹配不覆原接受，无本地AST/科学或未来结果。H压缩重复叙述、全部责任由open及检查点保；API核52510c331193da0e71d3c0d5b1ac7356a8c27600双README未变，真实pull行保留。
+
+## 2026-11-15 16:22:32 UTC /root — request167必要原矩阵与完整真实试探小读回
+
+[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件全文/末稿完整差异核后即发：source445e9ae6/request880dbf85，修必需矩阵软选可漏字段的读回complete含义；原FD/8outer/84trial与GN真实分支保，仅字节去重，无科学算术。166已43734326402/132873459541，前6步过；153真实far m18 work-unit止/native未起，geometry核R342，162继续。API核0616eca1683798baf39433354d04bf639c1d82a3双README未变，真实pull行保留。

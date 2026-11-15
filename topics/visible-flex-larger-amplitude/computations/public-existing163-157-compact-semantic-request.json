@@ -1,0 +1,403 @@
+{
+  "schema": "existing163157-compact-semantic-request-v1",
+  "request_number": 167,
+  "repository": "Rogerhu12/math-research-public",
+  "reader": {
+    "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing163_157_compact_semantic_readback.py",
+    "bytes": 47276,
+    "sha256": "445e9ae62df413149d8ba8280eec5ee7b27f77eeee331811479c4912d648850a"
+  },
+  "helper": {
+    "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py",
+    "bytes": 77301,
+    "sha256": "ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250"
+  },
+  "upstream": {
+    "run_id": 43732715988,
+    "source_commit": "4e1decc718c712b2eaa26a7da598d89236a21ef0",
+    "run_attempt": 1,
+    "compute_job_id": 132868510914,
+    "compute_conclusion": "success",
+    "original_report_job_id": 132868952547,
+    "original_report_conclusion": "success",
+    "maximum_log_bytes": 1073741824,
+    "complete_index": {
+      "bytes": 62991,
+      "sha256": "16a65e9d484cd0368d135af71ac6b90e0889cba567e5750a7fc05f5dd7cadf25"
+    },
+    "semantic_index": {
+      "bytes": 184436,
+      "sha256": "af7100596ea068ec0d194203a2724d8ba1dafb0c6443e03c6b3b31037554936a"
+    },
+    "protocol_sources": [
+      {
+        "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py",
+        "bytes": 77301,
+        "sha256": "ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250"
+      },
+      {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-existing151-157-log-readback-request.json",
+        "bytes": 17848,
+        "sha256": "4ae311d844e7f25adf6fe65e0d246ad26d2deb7e236dfe6a3599a7672c40ec63"
+      },
+      {
+        "path": ".github/workflows/visible-larger-public-existing151-157-log-readback.yml",
+        "bytes": 13974,
+        "sha256": "1413450a6c0c8263c276c863dbbb6a4da9e7b3f88b7486a48f8166e33bc49893"
+      }
+    ]
+  },
+  "expected_original": {
+    "run_id": 43729310294,
+    "source_commit": "c71cbeac7fd13c65cf50c7eb39842e9949737b25",
+    "compute_job_id": 132858021333,
+    "report_job_id": 132861152631,
+    "original_status": {
+      "bytes": 51842612,
+      "file": "nine-control-decimal50-residual-quadratic-status.json",
+      "sha256": "931b013b6cfaba4215065e0734c129ba2089662273427f7ebecc5df4f35ee2b0"
+    },
+    "original_primary": {
+      "bytes": 89063,
+      "sha256": "7411fd01db054215e5d22293f6a4c239aa482302bf75b4da123f35d500d0cad2"
+    },
+    "complete_view": {
+      "bytes": 51846160,
+      "sha256": "82cf345fc42d371eb4adf69e78944a35fce88b3d9503407ec7dff2f25ee8e76a"
+    },
+    "original_chain": {
+      "bytes": 29684,
+      "sha256": "9d8bf161d9b88c0c411d326b1717fd2d32332a49534041ebd495b673a35652bd"
+    },
+    "actual154_recorded_literal_comparison": {
+      "actual154_binding_sha256": "cc10a080eafa19e282ca22cefa62af57dadaf0ab19e54b0a4e6f7e7188ec32d3",
+      "actual157_binding_sha256": "cc10a080eafa19e282ca22cefa62af57dadaf0ab19e54b0a4e6f7e7188ec32d3",
+      "actual157_original149_binding_sha256": "c201e4b709df8f6cf1be61b0d71b19732b4a3cb78b1e56d799f10db1c7760368",
+      "array_payloads_not_downloaded_or_recomputed": true,
+      "metadata_comparison_not_a_new_scientific_gate": true,
+      "recorded_arrays": [
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "5a26da19688c7d77b9c20bc3d90f39b4b84038788ed4bc696b724c512ccd96dd",
+            "shape": [
+              699,
+              2
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "5a26da19688c7d77b9c20bc3d90f39b4b84038788ed4bc696b724c512ccd96dd",
+            "shape": [
+              699,
+              2
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "base"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "0c375941ce46d907c4b8b4532a97a8721f88e582473dce891f41922191173703",
+            "shape": [
+              698,
+              2
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "0c375941ce46d907c4b8b4532a97a8721f88e582473dce891f41922191173703",
+            "shape": [
+              698,
+              2
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "base_mid"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "6523f85bd59aeb25c1e9f3d791d9ac79ef1408b007731a3c91d060466c265f2a",
+            "shape": [
+              699,
+              2,
+              9
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "6523f85bd59aeb25c1e9f3d791d9ac79ef1408b007731a3c91d060466c265f2a",
+            "shape": [
+              699,
+              2,
+              9
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "controls"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "532a6ddb558dab6dce208ebc8e2f79aa52a2ac6c3739a5c7aa727818ba7cc8e6",
+            "shape": [
+              698,
+              2,
+              9
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "532a6ddb558dab6dce208ebc8e2f79aa52a2ac6c3739a5c7aa727818ba7cc8e6",
+            "shape": [
+              698,
+              2,
+              9
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "controls_mid"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "51c16f13beb17c892ed884b329f39d62a6d4318ec7f3d0004f24dcb18872c76f",
+            "shape": [
+              3
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "51c16f13beb17c892ed884b329f39d62a6d4318ec7f3d0004f24dcb18872c76f",
+            "shape": [
+              3
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "frequency"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "ee6981d6d293a1d067fd7fb53e4ea4ea93b1a4e7406364a3dc503c83162266e7",
+            "shape": [
+              698
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "ee6981d6d293a1d067fd7fb53e4ea4ea93b1a4e7406364a3dc503c83162266e7",
+            "shape": [
+              698
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "h"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "3b837d4580a1dff2575208ef6fc76bc19021e744eb6b37277040a2fbc9eb350e",
+            "shape": [
+              699
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "3b837d4580a1dff2575208ef6fc76bc19021e744eb6b37277040a2fbc9eb350e",
+            "shape": [
+              699
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "mesh"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "f06f265bd25b0d1d499f94b984caca930f00e357348a8d58372f2875430d263f",
+            "shape": [
+              698
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "f06f265bd25b0d1d499f94b984caca930f00e357348a8d58372f2875430d263f",
+            "shape": [
+              698
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "mid"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "44039f96cb20b0edca76a843a44f40235fbfbf72c19093a12a212c1cf6eb655d",
+            "shape": [
+              112,
+              112
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "44039f96cb20b0edca76a843a44f40235fbfbf72c19093a12a212c1cf6eb655d",
+            "shape": [
+              112,
+              112
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "native_slope_J"
+        },
+        {
+          "actual154": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "8ca034c42495150b10a778e9cad2a338837e06c275b36490301f0b656c181585",
+            "shape": [
+              3
+            ]
+          },
+          "actual157": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "8ca034c42495150b10a778e9cad2a338837e06c275b36490301f0b656c181585",
+            "shape": [
+              3
+            ]
+          },
+          "exact_recorded_descriptors_equal": true,
+          "name": "target"
+        }
+      ],
+      "recorded_scalar_fields": {
+        "cut_scale_exact_binary64_lift": {
+          "actual154": "0.99681527853612494904922414207248948514461517333984375",
+          "actual157": "0.99681527853612494904922414207248948514461517333984375",
+          "exact_recorded_words_equal": true
+        },
+        "decimal_digits": {
+          "actual154": 50,
+          "actual157": 50,
+          "exact_recorded_words_equal": true
+        },
+        "exactly_diagonal_as_original_record": {
+          "actual154": true,
+          "actual157": true,
+          "exact_recorded_words_equal": true
+        },
+        "field_and_tail_modes": {
+          "actual154": 112,
+          "actual157": 112,
+          "exact_recorded_words_equal": true
+        },
+        "height_sign_exact_binary64_lift": {
+          "actual154": "-1",
+          "actual157": "-1",
+          "exact_recorded_words_equal": true
+        },
+        "original_mesh_nodes": {
+          "actual154": 699,
+          "actual157": 699,
+          "exact_recorded_words_equal": true
+        },
+        "original_three_frequencies": {
+          "actual154": [
+            2,
+            4,
+            6
+          ],
+          "actual157": [
+            2,
+            4,
+            6
+          ],
+          "exact_recorded_words_equal": true
+        },
+        "parameter_dimension": {
+          "actual154": 9,
+          "actual157": 9,
+          "exact_recorded_words_equal": true
+        },
+        "rounding": {
+          "actual154": "ROUND_HALF_EVEN",
+          "actual157": "ROUND_HALF_EVEN",
+          "exact_recorded_words_equal": true
+        }
+      }
+    },
+    "physical_trial_counts": [
+      1,
+      1,
+      1,
+      20,
+      20,
+      20,
+      20,
+      1
+    ],
+    "internal_model_updates_per_outer": 32,
+    "original_outer_count": 8,
+    "original_physical_trial_count": 84,
+    "original_opaque_numeric_words_not_recomputed": true
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "readback_policy": {
+    "only_successful163_read157_semantic_log_downloaded_once": true,
+    "original151_log_downloaded": false,
+    "original157_log_downloaded": false,
+    "original_science_executed": false,
+    "scientific_arithmetic_performed": false,
+    "metadata_only_helper_imported": true,
+    "scientific_modules_imported": false,
+    "full_initial_final162_FD_checks_selected": true,
+    "full_original_3x9_J_and_3x9x9_H_from_all8_outer_origins": true,
+    "full_original_3x9_K_9gradient_9x9_B_terminal_models": true,
+    "all_original84_physical_trials_required": true,
+    "all_original_error_text_from_selected_failure_records_retained": true,
+    "huge_intermediate_perturbations_and_internal_model_tables": "Byte identity and structural coverage only; no scientific recomputation or claim every value independently read",
+    "selected_exact_tensors": "Complete arrays emitted once and referenced only after canonical ASCII bytes equality",
+    "rejected_trial_parameter_vectors": "Original complete trial identity, not all rejected parameter words reprinted",
+    "maximum_report_packets": 5,
+    "maximum_report_packet_bytes": 76000,
+    "maximum_index_bytes": 18000,
+    "maximum_total_report_bytes": 400000,
+    "overflow": "Fail honestly; emit complete section sizes and error; no truncation or complete claim",
+    "new_artifact_upload": false,
+    "new_Release_data": false,
+    "new_raw_Git_data": false,
+    "fresh_RUNNER_TEMP_log_deleted_after_readback": true,
+    "rules_check": "Exact actual checkout README blobs before metadata-only job; job maximum35 minutes is below unchanged2700-second monitoring period",
+    "required_original_matrix_shapes_checked_as_metadata": true,
+    "GN_missing_solution_requires_original_exception_or_reason": true
+  },
+  "formal_scope_references": [
+    "results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md",
+    "results/R349-actual163-original151-complete-log-reconstruction.md"
+  ],
+  "future_actual_run_id": null
+}

@@ -230,3 +230,5 @@
 - [R349：actual163补齐151原结果、输入与完整日志覆盖](results/R349-actual163-original151-complete-log-reconstruction.md)（实际Actions元数据）：原899965552B compute一次重建，470411元数据检查全同；新语义五组全读，完整原result/input、65535节点/32977cover/10468frontier及32558事务身份保。原仍exit3/globalδnull/0严格反证；全部节点值未逐值重证，不从SHA或汇总计数猜失效位置。无科学重算/新raw，157未读字段由167独立补。
 
 - [Request166：原37显式控制身份匹配后的完整R334入口](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)（源码/修复入口）：从真actual98重做原model/FD，保原158全部94pins并加三源=97；全部实际control返回按station及原B显式数组身份配对，匹配/额外调用完整保。44原数学定义逐文本不变，后置完整75776行/17档/453 Hermite及6000/1800s/8GiB不减，不覆原接受、不预填actual166或native成功。
+
+- [Request167：实际163日志内157必要完整科学字段的小报告读回](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)（纯元数据入口）：一次原163/read157 GET，全语义/身份核；保初末162FD、全8outer J/H/梯度、末K/g/H/QR和84真实trial，必需矩阵结构缺失明确失败。仅完全相同原数组字节共用引用，5×76000B+≤18000B索引/总≤400000，6report；超限诚实留错误，不重科学、不冒巨大内表逐值已读或实际秩。

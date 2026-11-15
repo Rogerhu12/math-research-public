@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:14:04 UTC 已读 52510c331193da0e71d3c0d5b1ac7356a8c27600，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:22:32 UTC 已读 0616eca1683798baf39433354d04bf639c1d82a3，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推，未确认临时件不当已保存。
 
@@ -23,13 +23,13 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |145 exact|43716379970 /132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；step10科学运行|
 |155 exact|43726543241 /132849600659|0aa9dca2d8029721cd1e820948699206a7da4388；step7科学运行|
 |161 exact|43729456722 /132858464847|ce2b12c0f391a008343866ed9fe649f44d91ed28；前13步过、step14|
-|153 geometry|43727856178 /132853608396|35690c7731f50e5124d2e722230eacbf8aee7a68；step11 C运行|
+|153 geometry|43727856178 /132853608396|35690c7731f50e5124d2e722230eacbf8aee7a68；已终态，m2..16 far完成、m18 work-unit止，native未起|
 |159 geometry|43732286420 /132867163903|4241fb33b951ee3b0bad9b1579ec7efb7e0de62e；step11 C运行|
 |160 root|43729874541 /132859748674|b34692d09c8d5ecdd7b859e43489da4413f1468e；前13步过、step14|
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：43731669039/132865254053/source de638f2a。原37model α1/8接受，W43.363003729098274→43.33605694766103，新warm FD8.81884772255149e−10过；native/fullDN仍false。R334输入绑定错误，0/75776及全17未付，非预算/原模型拒。8完整文档/138成员/1961B error核；166按station/显式返回身份配对，实际总calls未导出不猜74。
 
-163已全success：43732715988/source4e1decc718c712b2eaa26a7da598d89236a21ef0，read151132868511229/read157132868510914/report132868952547。amplitude唯一核小report/两index及151新semantic；157新semantic仍Transport closed无正文，原完整矩阵不能冒已读。[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已发、R350/167保未读范围；167只读原163 log的精简必要原字段，不重科学。
+163实际43732715988/source4e1decc7三个job成功；[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已付151读回。157大semantic工具未返正文，不冒FD/J/H已读。[167接口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件已发：只读原163/read157一次，必需完整矩阵结构、162FD/84trial及全部错误保，精确字节相等数组共用引用；5×76000B+18000B索引、总≤400000，6小report，无科学重算。amplitude核actual/R350。
 
 ## 完整native路径：145、155、160、161
 
@@ -37,7 +37,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R337实际152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)/[R338实际150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)完整128/129248/576×226 replay已付，末组件编译失败、112/338或230列未起。160/161共享v2只修词法/类型，各fresh91→64J/R273→128；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s后全576×224、112、混合338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins/19200s后stage10/step0/field0全230列320bits。原数学/门/完整JSON与错误读后清保，actual各唯一核。
 
-[155](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)fresh98八37model/FD，21LEFT+16MID/24cells/29端点/B9805/75776角行/C4059/full236036及17档保；91pins/science175/job195。完整trial先print再搬pair/清，always补错误。[166接口](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)六件已发：同站点及原B显式control身份配对，保全部实际调用，97pins/三参数/原数学及6000/1800s不变；capture e32e9416/consumer6171fbbb，待核真实run，exact唯一读回。
+[155](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)fresh98八37model/FD，21LEFT+16MID/24cells/29端点/B9805/75776角行/C4059/full236036及17档保；91pins/science175/job195。完整trial先print再搬pair/清，always补错误。[166接口](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)六件已发：同站点及原B显式control身份配对，保全部实际调用，97pins/三参数/原数学及6000/1800s不变；capture e32e9416/consumer6171fbbb，实际run43734326402/job132873459541/sourcec3a7531d，前6步过、step7运行；exact唯一读R353。
 
 ## 同C、完整BVP及162
 

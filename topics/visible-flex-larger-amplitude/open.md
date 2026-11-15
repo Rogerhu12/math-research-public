@@ -40,7 +40,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)八方向84真trial：0/1/2/7四直线接受，3–6各20normal全拒；256内更新/14633已评价记录/4436合格不冒不同点数。W末4.9632137875241047283817296655204217818016943746082，之后下降至4.710E−46、预测1E−49/比4710，不证有效准确下降或根。全unit/full112/native/nonzero/success false；末九p50、Δ=.0000390625、全部已读原响应与未读边界见正文。
 
-[163只读入口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)已成功恢复原151/157 Actions日志，原科学不重跑。amplitude已核小report/两index及151新semantic；157新semantic工具仍Transport closed无正文。103组/8559段的结构身份核对不冒root逐值读完整FD/J/H/normal内表。R349/R350分别记录原范围；167只读既有163的必要完整原FD/8outer终态/84trial并输出独立小块，不生成科学值或新raw制品，仍未取回值保持未付。
+[163只读入口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)已成功恢复原151/157 Actions日志，原科学不重跑。amplitude已核小report/两index及151新semantic；157新semantic工具仍Transport closed无正文。103组/8559段的结构身份核对不冒root逐值读完整FD/J/H/normal内表。R349已记录151范围。[167完整入口](notes/2026-11-15-request167-compact-original157-semantic-readback-interface.md)四件已发：只读既有163/read157日志一次，全部原语义组及源/完整索引身份先核；原初末162 FD检查错误/异常、8outer完整3×9 J/3×9×9 H/梯度、末K/g/H/QR残差与84实际trial全部选定字段保。缺必需矩阵键/shape不能软略后标complete，GN原无solve必须保原原因；不作数值门。精确字节相等才共用完整数组引用，5个≤76000B packet及≤18000B索引、总≤400000B，6独立report；超限原错误及所有section大小保，巨大扰动/内表仍仅身份，不冒逐值独核。amplitude核actual/R350，无科学重算或未来值预填。
 
 [R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)已证原698cell七状态(r与三个2模态)的完整三列离散伴随。局部7×10变分保r/mid/sqrt及终端112耦合、直接q_N和start项；对实际零jetshape收缩δq=(ah′−a′h)/a²，原物理导数坐标链不可漏。准确旧响应左零空间须被新增响应消去才补秩，函数线性独立不自动足够；形成线性系统/Decimal舍入/准确实数对象分清。
 
@@ -76,7 +76,7 @@ amplitude继续requestless helper，164据实际完整FD/梯度及新shape响应
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。
 
-[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入，同C真物理r全逆像、新rFar>node8半径上界、全112非除Robin，原576-stage/577态/root/RK/mean、η1全链QR/η0全112/混合338/fresh audit保。一条+0H，原32/10/2e−9，C3600/linear1800/sampling1800/native3600；全trial、112far行、原错误/超限metadata读后清。geometry核actual153，零子题完成继续159。
+[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入，同C真物理r全逆像、新rFar>node8半径上界、全112非除Robin，原576-stage/577态/root/RK/mean、η1全链QR/η0全112/混合338/fresh audit保。一条+0H，原32/10/2e−9，C3600/linear1800/sampling1800/native3600；全trial、112far行、原错误/超限metadata读后清。实际153已终态，geometry唯一读两job原日志：全C/cut/deep返回，sampler m2..16 far完成，m18在有限远端work-unit上限停止；native只返回CurrentCGeometryUnpaid、实际client未启动，非原十trial数学拒。R342完整结论成文中，168按真实全范围调整资源，不把partial当完整112。159同1dec sampler、max_panels200000已只读核，仍待自己的实际结果，不预填相同停止点。
 
 [159入口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)λ.001/R320完整九p、699×453 prepared仅初猜，前三scalar active/后六冻结、109core自由；57pins、原147构造/24native源，同job C3600/cut/factory/R312/sampler后完整RHS/preflight，首H来自真实当前端点/MaterialTrace。profile自己的E/Ep不由native覆盖，原五jet比较保。
 
