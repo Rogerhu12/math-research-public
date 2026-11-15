@@ -209,3 +209,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：实际低孔输入借位幂界与完整Green低孔输出
 
 [完整证明](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)保每词未归并的删除频数，真实carry能量 $E\ge(C/4)^4$，得原N/Y全部头及全局 $\|A^kP_{\le s}\|\le6^k e^{-(770/256)(k-s)_+^4}$。这替换环境2m阈值而非改用Boolean模型。完整Gram低源压缩和先完整逆再压缩的二次型下界均显式；对原等权池完整最小Green列，仅在输出投低孔可付 $4D_s(S/4)/S$，完整forcing与 $H_{\rm pool}^{-1}$ 保留。N型同一bosonic核还给固定低孔测试全行下界。仍不付原w的moving全行上界、连续尾完整Green或跨Gram的低孔支持；下一查同固定测试的真实运输。
+
+
+### 2026-11-15：零点十七第五左jet、K99与原平方目标检验
+
+[正式证明](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)在原自然s、完整6188来源上实得七个第五头，加十恒等头给公共s53/s47，累计界4/4/5/8/10；K99=s39K60，degree99。同指定∞82/81/75及模31次数8527给q8428…8589，条件非基8633、transfer8634、目标222，统一8634。下一优先将真实目标t_j=n_j²与五阶λ2逐项配对；原h0有三阶零，非零s5配对才会阻断当前完整来源模块成员性。Q第二1736旧零行的T秩已实为0，但旧gauge原常校正的31秩1545不足1546，未付第二秩；保完整forcing，改用原完整F31常左核所选gauge再求解。
