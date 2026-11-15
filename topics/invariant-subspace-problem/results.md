@@ -409,3 +409,5 @@
 - **原56×22有理多项式core全部实际构造。** [原证明新增§7](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)：run43756208221/11.513223331秒，原17式无截断、P0/P1逐项核、918真g行、全部224×13自由核/双H9/119×22原graph恒等式通过。只剥300条已知支撑单位后，核心641非零、最高次数126、分子/分母409/213bits；逻辑SHA752d21d7。同binding可续全部行模，不把选定minor当最大子式gcd。
 
 - **实际位置二阶与全部真正交旗已完整运输。** [自然闭域证明](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)以位置skew的形式相对界和真投影反馈给||Gposu||≤40QΔ；原返回/q/帽/帽q范数常数240/530A0/530C0/1040C0A0，乘Q√νΔ。逐位adD³=0给Lpos*真实上2带，全部Fj的二阶矩平方和O(νQ²Δ²)，不乘旗高。原u用z0=f−u保缺陷，环境B对易与PE反馈均在自然域证明；未将正预算当顺次MP负部或ordinary N=M。
+
+- **∞完整第八恰一、15原头与长度至少64。** [完整有理证明](results/R150-appendix-infinity-complete-eighth-connection-one-fifteen-heads-and-length64.md)实付1088×600前缀578/580/591→592、核8/新增头1，835380原九层产品及11incoming高回填全真。前八β=(4,0,1,3,1,1,1,1)，fullQ64…66/sub54…55/max10…12、AI66…68、T∞长3…5仍只u5。Δaff≤317、R/Rout/U≤159、Rh*≤182/第三330；外Ω度d时同源费8531−d、余乘子159−d。下一独一额外头的第九真实高与12incoming仍实算。
