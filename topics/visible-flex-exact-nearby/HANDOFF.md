@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 15:20:45 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 15:21:22 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 15:20检查时本轮定时及15:11非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；每小时继续真CLI，ref不冒pull。root亲读runner RJ15:10:25.173318→55285b733200feac302e48989925d227a155afcc、Green15:15:55.814391→40a7a66526fbc186372664f9e796cfb5da21a9b0，两README diff空。
-最近只读README核：40c4026f640fb082d1d02e2f1758bc34a635ed37；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：db5658f60245f73a587bb8017e4f93c2c57b7343；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/open/log为5d5024736de60ca3459a35a303835b0c8c2e4b77同路径；52bc87b9fddedb75cec3ca93f7dd2eb0719a58a0保完整更早log，dc10bb/8450/00df/24b/8994/acfd/a012/40eb链递归保。全部原输入/域/单位/mean/失败/restore/未付义务仍有效。
 
 ## 总验收与同一个对象
@@ -37,7 +37,7 @@ GH/0ffb191a须完整R:H(s−4/3)→Hs与右预条件χ=128CsΛJ^-1/3<1；C0≤1/
 PD/58bdf173准确DFΔ=(f+r_f+rνκ,b+E′a)，S=<bν+Lzν>实际非零未付。rho15 gap1/(68j)、aHs≤17wHs+1、Cs=(9/8)2^(s−1)保全mean/raw b/J/regular defects/有损quadratic和smoothing Taylor；不授同阶Neumann/Nash迭代。全regular逆、S下界、D²tame/域和真β背景未付。
 帽X/M/I/R/CS原域/mean/λ/height/κ/affine/high全保dc10bb/8994。γA0≤1e−9、fBdotA²≤2^-60、ρ3e−6/Lip.881；K*−K0<1/5，CS伴随L2≤108/角≤65536，κ费独立无√97。I全模18/1/25与R fixedmetric tiny列不替真Γ/ν/core。
 RB/e87d247a moving ordinaryL2≤80 physical pair-sum，B+≤80[Aδ,+ +√len(18ΔγL2+ΔfH2/25)]；Aδ,+实际基点差保fullmean/反射phase/sB，不能ordinary冒Σmode sup或用ρcap付低门。
-RC/0fd5d845已付同M实反射域右cap：完整ordinary/Q/outer/mean X<1.75e−6，knownδ差10d与真inverse角后moving pair<8.2297e−5<1e−4。仅付[.9,.95]右wide C0；左、同态H1、五窄MA/cL/ZL/ZH未付。RW/48de3f34新合同保同q的双向signed核、源q(t)/输出q(r)、left H=0；weighted D−λ/C+λ、全频z/独立mean、13ρ singleweight及真outer完整后验。只有新χw<1才授Xw/右body/inner B,Cmean；高moving投影由DB准确免selected差，finite/mean不免。SCI待审/actual未运行。
+RC/0fd5d845已付同M实反射域右cap：完整ordinary/Q/outer/mean X<1.75e−6，knownδ差10d与真inverse角后moving pair<8.2297e−5<1e−4。仅付[.9,.95]右wide C0；左、同态H1、五窄MA/cL/ZL/ZH未付。RW/48de3f34新合同保同q的双向signed核、源q(t)/输出q(r)、left H=0；weighted D−λ/C+λ、全频z/独立mean、13ρ singleweight及真outer完整后验。只有新χw<1才授Xw/右body/inner B,Cmean；高moving投影由DB准确免selected差，finite/mean不免。SCI f8d97a14/worker e15f0e49/manifest333bff73/flowd11a26b9全文/差分已根核部署；18pin=12小216171B+6history，15完整门、六χ候选待actual。
 
 ## 同态低高trace、exact tail及几何
 

@@ -1,0 +1,290 @@
+{
+  "kind": "radial_weighted_cap_receivers_public_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15T15:12:00Z",
+  "source_sha256": "f8d97a14aa7c2ebac746a9732e7b9fd00bf939db95b2b610edcd47f22f9388bb",
+  "expected_scientific_gate_count": 15,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "readme_sha256": {
+    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_cap_interval": [
+      "9/10",
+      "25/8"
+    ],
+    "right_body_output_interval": [
+      "9/10",
+      "19/20"
+    ],
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "affine_intrinsic_offset": "0",
+    "whole_old_reference_parameter_half_width": "1/1000000000",
+    "weight_fractions": [
+      "1/16",
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2",
+      "3/4"
+    ],
+    "weight_base_rate": "dyadic lower of min(4*sD,-2*beta,-beta*(ell+1)) on each original reference row",
+    "weight_rate_dyadic_bits": 32,
+    "inverse_frequency_interval": [
+      "0",
+      "1/4"
+    ],
+    "inverse_frequency_subintervals": 64,
+    "physical_minimum_nonmean_frequency": 4,
+    "complete_raw_residual_label_support": 96,
+    "complete_raw_physical_frequency": 384,
+    "actual_cap_radius": "3/1000000",
+    "actual_outer_C_nonmean_radius": "99/100000000000",
+    "inner_curvature_radius": "1/1000000000",
+    "tail_inner_curvature_radius": "1/128000000000",
+    "normalized_outer_height_radius": "1/1152921504606846976",
+    "Q_complete_linear_upper": "0.051432066",
+    "Q_quadratic_value_factor": 13,
+    "true_outer_D_Lipschitz": "0.006",
+    "true_outer_Cmean_Lipschitz": "0.00075",
+    "true_outer_D_known_affine_norm_upper": "0.000000000000002",
+    "true_outer_Cmean_known_affine_norm_upper": "0.000000000000000000205",
+    "selected_delta_half_width": "1/10000000000",
+    "known_selected_physical_global_pair_sup_factor": 10,
+    "true_moving_L2_pair_conversion_factor": 80,
+    "full_mean_included": true,
+    "ordinary_radial_measure": "dr",
+    "physical_angular_measure": "normalized circle",
+    "current_actual_reflection_Bmean_exactly_zero": true,
+    "old_successful_zero_weight_integrals_recomputed": false,
+    "old_target_residual_repair_mean_flow_Riccati_or_Green_calls": 0
+  },
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers_CI.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md",
+    "old_summary": "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/actual-cap-L1-endpoint-summary.json",
+    "old_science": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py",
+    "reference_producer": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_physical_cap_linear_module.py",
+    "raw_producer": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+    "actual_two_input": "topics/visible-flex-exact-nearby/results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md",
+    "actual_right_C0": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md",
+    "moving_L2": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md",
+    "selected_direction": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "raw_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+    "cap_reference": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-physical-cap-linear-module-r09-v2-native.json.gz",
+    "intrinsic": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz"
+  },
+  "current_only_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers_CI.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md",
+    "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/actual-cap-L1-endpoint-summary.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_physical_cap_linear_module.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-physical-cap-linear-module-r09-v2-native.json.gz"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py": "f8d97a14aa7c2ebac746a9732e7b9fd00bf939db95b2b610edcd47f22f9388bb",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers_CI.py": "e15f0e49fbd84da0b165489cbd8f04ef36477e53e502a12daf3362ced4f458e6",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md": "48de3f34929d8dbebd134b50760c35b3a30d84f47608d513bac49693b56f5beb",
+    "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/actual-cap-L1-endpoint-summary.json": "f5eea9a8a1b3f198e19c94a42cc3f794226b99cae65cefbd2e631134aff42c3a",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py": "106ec9308882b814ca773da904e561e93aa4475f4f46f84b9632c9716653992f",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_physical_cap_linear_module.py": "ef93be07b64bc6bf83be62b26f2a2e75e0f597dca3205401a6162826c3dcaf02",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py": "98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md": "8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md": "0fd5d845c9d441220d3255f1d95124a2e9ebca4c5cedc7ffa8dea1946fec79ea",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md": "e87d247afa761012f8fac74371cd49ff289b98a5cf0359b98b9068ff21828c8b",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz": "3a89805ebe1ab22000529a7a8c2fdc262b1c3a2afbc52433cf610d2d6542ff22",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-physical-cap-linear-module-r09-v2-native.json.gz": "ad6efc2a226131245ff4197a0b5da2843578224368a340f7a50d383c03a1819b"
+  },
+  "file_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers.py",
+      "bytes": 31066,
+      "sha256": "f8d97a14aa7c2ebac746a9732e7b9fd00bf939db95b2b610edcd47f22f9388bb",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_weighted_cap_receivers_CI.py",
+      "bytes": 33129,
+      "sha256": "e15f0e49fbd84da0b165489cbd8f04ef36477e53e502a12daf3362ced4f458e6",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md",
+      "bytes": 17763,
+      "sha256": "48de3f34929d8dbebd134b50760c35b3a30d84f47608d513bac49693b56f5beb",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/cached_cap_L1_endpoint_ci/run-43692857656-1-cached-cap-L1-reference-endpoint/actual-cap-L1-endpoint-summary.json",
+      "bytes": 27436,
+      "sha256": "f5eea9a8a1b3f198e19c94a42cc3f794226b99cae65cefbd2e631134aff42c3a",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_L1_endpoint_sources.py",
+      "bytes": 22535,
+      "sha256": "106ec9308882b814ca773da904e561e93aa4475f4f46f84b9632c9716653992f",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_physical_cap_linear_module.py",
+      "bytes": 14975,
+      "sha256": "ef93be07b64bc6bf83be62b26f2a2e75e0f597dca3205401a6162826c3dcaf02",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+      "bytes": 12188,
+      "sha256": "98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md",
+      "bytes": 20064,
+      "sha256": "8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-wide-C0-collar-entry.md",
+      "bytes": 11596,
+      "sha256": "0fd5d845c9d441220d3255f1d95124a2e9ebca4c5cedc7ffa8dea1946fec79ea",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md",
+      "bytes": 14205,
+      "sha256": "e87d247afa761012f8fac74371cd49ff289b98a5cf0359b98b9068ff21828c8b",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+      "bytes": 8753,
+      "sha256": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+      "source": "exact_current_small_input"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz",
+      "bytes": 2415656,
+      "sha256": "3a89805ebe1ab22000529a7a8c2fdc262b1c3a2afbc52433cf610d2d6542ff22",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+      "bytes": 1910756,
+      "sha256": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+      "bytes": 1947563,
+      "sha256": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+      "bytes": 571365,
+      "sha256": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+      "bytes": 1814,
+      "sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+      "source": "exact_old_history_temporary"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-physical-cap-linear-module-r09-v2-native.json.gz",
+      "bytes": 326464,
+      "sha256": "ad6efc2a226131245ff4197a0b5da2843578224368a340f7a50d383c03a1819b",
+      "source": "exact_old_history_temporary"
+    }
+  ],
+  "complete_small_input_count": 12,
+  "complete_small_input_bytes": 216171,
+  "original_cached_cap_success": {
+    "run_id": 43692857656,
+    "attempt": 1,
+    "child_returncode": 0,
+    "gates": 12,
+    "summary_sha256": "f5eea9a8a1b3f198e19c94a42cc3f794226b99cae65cefbd2e631134aff42c3a",
+    "old_zero_weight_integrals_recomputed": false,
+    "old_reference_Riccati_recomputed": false
+  },
+  "original_raw_complete_native": {
+    "bytes": 4592623,
+    "sha256": "6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1",
+    "rows": 7296,
+    "cap_rows": 1341,
+    "recomputed": false
+  },
+  "execution": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320,
+    "compute_minutes": 20,
+    "only_public_Actions_math": true,
+    "new_data_artifacts": false,
+    "new_Release_uploads": false,
+    "complete_small_prepublication_payload_limit": 59000,
+    "prepublication_status_limit": 1000,
+    "complete_small_conclusion_limit": 60000,
+    "pre_math_complete_conclusion_capacity_reserve_bytes": 120000,
+    "existing_success_reuse_required": true
+  },
+  "scope": {
+    "new_nonzero_radial_weights": 6,
+    "inverse_frequency_intervals_per_weight": 64,
+    "original_reference_rows": 949,
+    "original_complete_intersections": 1346,
+    "new_left_B_and_Cmean_ordinary_receivers": true,
+    "full_even_mean_and_independent_mean_rates": true,
+    "no_response_mean_completed_source_used": true,
+    "no_canonical_selected_residual_relabelled": true,
+    "same_actual_cap_only": true,
+    "actual_full_reflection_product_domain": true,
+    "failed_chi_candidates_retained": true,
+    "new_weighted_posterior_application_only_after_actual_chi_gate": true,
+    "physical_body_and_raw_moving_high_output_types_separate": true,
+    "known_selected_reference_difference_retained_for_full_output": true,
+    "original_zero_weight_sources_and_kernels_recomputed": false,
+    "old_target_Fourier_residual_repair_mean_flow_Green_calls": 0,
+    "active_Green_edited": false,
+    "new_banded_Green_Gram_supplied": false,
+    "actual_left_core_body_or_finite_cut_bound_supplied": false,
+    "actual_low_inner_gamma_entry_proved": false,
+    "core_existence_or_global_matching_proved": false
+  }
+}

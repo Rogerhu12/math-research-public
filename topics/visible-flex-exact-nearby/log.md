@@ -75,3 +75,11 @@ root原检索发现正侧fullδ早已成功，不需拟议的新δ转移。亲�
 Q/QT/V/Δinverse新jets接完整p/rank/g与25A，十density1全改善；pair5308194833.395487…、mean34452257.343616…、local870062069.272384…原字。旧幅度/word/calibration/dr积分无重算；真实source-to-trace、全δ端口、strict传播/waist/strong-return仍未闭。
 
 Green15:15:57 process a9f0b83591cc66ab579ed6de3efb86eae3b70c57/49507B/f25488489828007d17f78048e247bb0aa31ab89b7365fc149a4cf65e94749def亲读：future/product5970done、past3664（combined3648为早3秒）、groups62/queued114/3consumers、childnull。真实pull15:15:55.814391 35690c77→40a7a66526fbc186372664f9e796cfb5da21a9b0两README空diff；该commit完整容量198171914B，inventory f732ca7c。RJ两真实pull15:10:19/25→55285b73两README空diff。15:20检查本机本轮真CLI依然无环境，未伪称ref为pull。当前只读README核40c4026f640fb082d1d02e2f1758bc34a635ed37无变化；H/open短化前完整状态5d5024736de60ca3459a35a303835b0c8c2e4b77，全部历史义务仍有效。
+
+### 2026-11-15 15:21:22 UTC — RW全审后部署，未提前声称χ门通过
+
+冻结SCI a44357cfc1e8b5034a1daa587aff9bcaaf7d93ab/31066B/f8d97a14aa7c2ebac746a9732e7b9fd00bf939db95b2b610edcd47f22f9388bb；worker c0c78cf548019b4caa33121110b86c22608e0a0a/33129B/e15f0e49fbd84da0b165489cbd8f04ef36477e53e502a12daf3362ced4f458e6；manifest f1054cdb1bd97ad369fa59f14841eaae6cf7ea43/17341B/333bff731ec491b362feb665b54bcb2173bbbdc571f3459e03b63a63af72a3af；flow eb9a2a10012c0ae2a7b17c47608846228f4f93a2/3803B/d11a26b9a2534ed163557dfa6a00306df227f7fb201d9210728979ee0c195c59。根全文550行SCI、完整WC worker差分、manifest/flow均核；phase全频weighted/newton inner与分母独核。18pins=12current216171B+6history，6原件仅runner临时restore7c130fb94528de8f003a43e7049fb42768a64eec；旧949reference/7296 residual与原zeroλ源只读，全部原生产器0调用。
+
+6κ=1/16,1/8,1/4,3/8,1/2,3/4，各64闭z区间覆盖[0,1/4]；真D−λ/C+λ、两独立mean、one-weight 13ρ和完整outer后验保。15门核完整性，六χw可失败并保原件；只有实际χw<1才能使用该候选Xw/右body/inner。left H=0/sourceq(t)/outputq(r)、physical/moving output分清，旧已成解域不变。static delimiter通过，真正完整AST/Arb仅公开Actions。root另核WC原worker0a474642/33110B/1412c9c4与actual process完全一致；WC SCI=9cfe1e74，1c650195为actual summary SHA并非SCI，已纠正交接字段。
+
+只读两README核db5658f60245f73a587bb8017e4f93c2c57b7343空变更；推入公开自身Actions入口，下一亲读actual，无新本地数学。
