@@ -20,6 +20,8 @@
 
 新控制器仅允许有条件增长下一模型trust：从末态/全池/r1/64000/streak0；两个连续模型都首α1主步全门接纳、ratio≥3/4、真实步norm≥.9r、粗细任何新行0、无SOC/回退/缩步，下一r×2，上限新增为1/1000。其余重置计数，旧缩步优先、每模型至多一次。主代价、原floor/drop/mintrust和12LP40值120s预算均不变；24输入/98args，公开job先付新摘要去重人工，再实际。旧代码没有最大trust字段，不能说新cap是旧门。
 
+新growth actual43680023529科学阶段已报complete、开发stdout passed，但日志提炼先递归巨大dev诊断触发20KB错误，实际科学模型/门尚不可读。新根15已不存payload，正在只修只读printer并public恢复必要输出；不据complete状态猜接纳、下降或增长成功。
+
 所有旧Schur/谱/adaptive/reserve/physical失败身份保留，不原样续预算；新实际到达即接真实缺口。当前只有限两网数值通过，离准确同g和完整reach仍远。
 
 ### 仍须支付
@@ -79,6 +81,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 **[R190](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md)已证U2=R2、H2=0。** 原势缩放差的常数由准确基点N0(1,1,1)=0消除；高权势入W、原v2/v4上界、完整Γ与14族逐项支付。R105完整分子递推给权支撑[-9,3]。结合R145/R188，尚余偶权**{-8,-6,-4,0}**；这不宣它们存在正字符。权0优先，但同八矩乘子有p1+4t1一维齐次自由，必须与全静态/二次/四次/平移分母共同处理。
 
 [R192](results/R192-weight-zero-character-multiplier-and-first-order-action.md)已给权零真实字符的准确接口：协变乘子存在iff d_p1=0，正字符必须满足；八参考态迫c0、d仅p2，μ=(0,2α,2β,0,0,0,0,8α)，α仍是待选乘子。完整action为∫[a p′²+c p⁴+b0(k)k′²+b1(k)p k′+b2(k)p²+A0(k)]，p=(log h)′；p两端0、k平，开路径无∫p=0门。最高层iff a,c≥0，磁项须保。下一完整head只≤16新响应，消费已存78投影、全静态与v/A/H，恢复旧R0缺失16根核原hash，不重旧评价或NF；先全原函数核与D，后d_p1条件和同α正性。
+
+[R194](results/R194-weight-zero-free-time-criterion-and-zero-acceleration-boundary.md)进一步准确消去全部时长：G=a dp²+b0 dk²、V=c p⁴+b2p²+A0，须G/V非负且所有E={p0}到E曲线的∫(2√VG+b1p dk)非负；等价有零E值的局部Lipschitz支配势，保退化。a=0时完整iff c,A0,b0≥0、d=b2+2√(cA0)≥0、4b0d≥b1²，含b0=0；不是二次PSD必要。先取得真实H0，再对同一α应用，不授任意形式系数真实可行。
 
 **下一：剩余四个偶权完整正性。** 只读已有raw族/状态权库存，优先统一纸面排除；若需新实际，只消费已有3974根、N0/N2与五族，不重新生成forcing、profile或已完成word。选择完整同权head及真实D分母，避免孤立列和必要外点链。R127把闭锥正性障碍缩成杀R、N*λ=0的单整数权字符；R145迫偶权。R140必须用同一八矩μ和所有真实开平端路径的完整action，不能逐路径选μ。
 

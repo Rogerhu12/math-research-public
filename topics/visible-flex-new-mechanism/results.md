@@ -125,3 +125,5 @@
 - [R192：权零协变乘子与完整一阶action](results/R192-weight-zero-character-multiplier-and-first-order-action.md) — 完整势谱比较给L4只两真查询a p′²+c p⁴，保(hk−1)τ1常项。真权零字符有协变μ iff d_p1=0；正字符必满足，同八参考态给μ=(0,2α,2β,0,0,0,0,8α)，α是乘子选择、非自动新增head坐标。反射仿射involution准确处理非唯一μ，完整二变量action保磁项b1p k′及所有低层；任意有限开路径对应成立，最高层iff a,c≥0。下一完整H0仅≤16新收缩并复用旧投影，先付原函数核与D，不预报维数或正性。
 
 - [R193：固定八包圆在标准常态的全宽度第四障碍](results/R193-full-width-positive-obstruction-for-frozen-eight-derivative-packets.md) — actual43680023529/source9b7c07f/job132708447958完整，23新人工过。完整λ⁷ReF的四系数按(1,∛7,∛21,∛35)给16个严格正有理分量，直接证全部λ>0严格正；保持三矩的同一C∞平滑邻域也全宽度保正。标准态pure K4=−F/8不能由合法二/三gauge改变。固定I支撑与一般常态/无常段边界保留；只存源码参数/run/SHA与证明，原可重算payload不入库或Release。
+
+- [R194：权零自由时长全路径判据及a=0边界准确解](results/R194-weight-zero-free-time-criterion-and-zero-acceleration-boundary.md) — 同一真实字符/μ的完整action必要a,b0,V非负；正性准确等价E={p0}到E所有曲线的磁性长度∫[2√(VG)+b1p dk]非负。有限正ε重参数支付所有退化点；存在零E值的局部Lipschitz上右导数支配势给等价端点表述。a=0时快速p collar无代价，完整iff c,A0,b0≥0、d=b2+2√cA0≥0、4b0d≥b1²，全部等号边界保留。只减少真H0后的正性问题，不冒形式系数真实或有限族存在。
