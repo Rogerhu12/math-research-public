@@ -18,9 +18,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-**最新SOC actual43687834522/sourcef03c4eb/job132731961031已完整读**，见notes/soc-equivalent-scaling-first-actual-20261115.md。一次必要growth恢复643875e4、strip恢复267c41ff（accepted表8/10条均含起点），新10主模型+2SOC=12LP、10真实接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664。ηmax .26652303622182338→.26651100522045557，.26未达；fineκ57.999989440433026、strip余3.88793848e−8。全部新trial门/96组defect/同次dual/初末/同态加密/开发/receipt48047-cec2754f已读；原两次主步仅曲率拒，SOC原单位残差0/1.06e−22且真实双网通过。
-
-新SOC只作v=r_c z、aux=r_c t及正二幂行缩放；准确全可行/最优集双射不等于浮点轨迹相同。两个SOC .384/.397秒，活动101.822s、全程720.832s（必要准备606.942s），fineJac66.022s仍主导；12LP计数退出。末池4417/3988、r约1/32000/streak1，原g/b0/163和全部原门保持。det=q⁴(λ±κ1)(λ±κ2)/10000，floor非曲率余量。全部payload仅临时，不能为补日志或求旧hash复跑。
+**最新SOC actual43687834522/sourcef03c4eb/job132731961031全部已读**，见notes/soc-equivalent-scaling-first-actual-20261115.md。必要growth→strip恢复643875e4→267c41ff；新10主+2SOC/12LP、10真实接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664，η .26652303622182338→.26651100522045557，.26未达；fineκ57.999989440433026、strip余3.88794e−8。两SOC有限最优、原单位残差≤1.06e−22且真实曲率门修复；缩放只保准确LP双射，不保证浮点轨迹。全部trial/96defect/dual/初末门/同态加密/开发及receipt48047-cec2754f已读。活动101.822s、全程720.832s（必要准备606.942s）、fineJac66.022s；末池4417/3988、r约1/32000/streak1。det=q⁴(λ±κ1)(λ±κ2)/10000，floor非曲率余量。保原g/b0/163/原门；payload只临时，不为日志或旧hash复跑。
 
 **末最大metric峰已移到t=.09，34体段列不能严格降低当前全域max。** 原B7/B8共34列支持[.198,.684]/[.279,.765]，外域六jet严格不变，证明见notes/same-g-body-tangent-columns-and-locality-20261115.md。103列纸核已付，见notes/same-g-entry-body103-support-20261115.md：S=[0,54)∪[81,129)∪{153}，完整W2/W5 ramp、入口O(x5)/O(x8)、Q止.36、全六jet在[0,tc]及[.765,L]不变；轴上T固定不等于ΠT/metric固定。下一新受限模型保外域软下界，不向零Jac常量行请求新正floor；固定高度平均速度下界按R59/R60，只在下一必要初始化读实际b，不重已结科学。尚无下降结论。
 
@@ -32,19 +30,21 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 5. 固定圆gauge与真实第四joint
 
-R180/R183闭Klein M0/TκH与重叠导数包付完整三阶圆；R184第四joint是同一w的V0+2κL_fw=0、K0+Bθw∈三矩W，w²由第三单φ右逆支付。R181退化flux/双collar、R185六矩核均不授joint满射。R187只排窄常态类、R193只排固定标准态八包全宽度；R189保低阶去开常段可改g。R191共同常平台gauge ruling商不可见，R195/R197 f常/g变包有非零商线但只动σ一次。R198右f0必要门、R199新faithful末step、R200单查询支付现由R210整pure控制加强，不再单点扫。
+R180/R183给M0/TκH及完整三阶圆。R184第四joint须同一w同时付V0+2κL_fw=0与K0+Bθw∈三矩W，w²由第三单φ右逆支付；R181通量/双collar与R185六矩核不授joint满射。R191共同平台gauge不可见；R195/197 f常g变只能动σ一次≤42，不付完整目标。R187/193原障碍现由R216扩到flat点，准确范围如下。
 
-**R206/R210真实全pure已付**：Q0=0下，有限实际正配平、真实缩放桥保2V基准、floor整数和C1商截面，最后有限复制/Brouwer给S=P。取原闭hook X0，X0X0rev成本2V0先付V0∈U；选实际M=T0/frameI的D使πVD=−πV0/4，插Klein第一prototype四份。新位移仍四左旋相消，TκH非零不变，整universal pure准确零。最终几何再选R183/R199完整低阶圆，最右period必要门整函数消失。共同I在全部有限控制族选后取；不是任意原窄I或同g设计，无常段迁移现由R214精确支付，嵌入/reach仍欠。下一处理同一w的balanced mixed period与ruling，勿重已结pure。
+**闭hook整pure零的实际用法**：X0X0rev成本2V0先付V0∈U，取真实M=T0/frameI的D使πVD=−πV0/4，Klein第一prototype插四份，新增位移四左旋相消、TκH不变。最终共同I/合法圆在有限全族选后取；不是任意窄I或同g改变。最右f0必要period门整函数消除，mixed/joint未付。
 
 **R212已把真实全pure控制加强为固定有限词C1截面D(p)。** E_P(t)由R70/R101固定小桥族/整数复制与R56完整恢复为C1；两商截面先固定，最后n>2max(1,M0,M1)使响应盒统一收缩/IFT，完整πVD(p)=p且M=T0/frameI。外扰动若结构保低阶，必须用全部P参数u的Φ_z(u)≈id做IFT同时修Q/L，不能只用响应t冒修商误差。联合去开常段现见R214逐词完整T/frame/端口证明；R189九行本身不含T。
 
 **R211已证固定circle局部period充分接口**：G″须先紧支撑在J。A_f非零时两齐次adjoint矩+7终端Green矩（含∫u与六交叉矩）准确iff，显式唯一右逆w=∫右锚u，原左affine尾保留。有限m个内部简单A零加m条真实累计通量，Hadamard给唯一光滑延拓；不包平端/高重/无限零。pure0后仅两G_c/G_s，分别过门则同谐波w付全period与种子；这具体目标尚未验证，且同w的ruling商仍须支付。
 
-**R214已付无开常段且整pure准确可控/闭hook。** flat端全jets足以令R109/R130成本入同U；正则M0前缀+N旧见证再接真倒行保满pure锥，R208只读diagonal选R71真实第三prototypes。六类词依M/frame/同族±t结构保完整T；各原语九行IFT先保M/omega，再全P IFT保pure。最后在精确解集Baire：全部有限调用、背景/校正块都纳入，反向坐标拉回bump；Banach端平稠密与P闭性已付。可保持M0/TκH、Klein新位移闭合、pure0和无开常段，不授同g/joint。**正审R216：常段σ²门是否已在全jet平拼点由局部四阶jet复现；无开常段不得先当避开该门。**
+**R214已付无开常段且整pure准确可控/闭hook。** flat端全jets足以令R109/R130成本入同U；正则M0前缀+N旧见证再接真倒行保满pure锥，R208只读diagonal选R71真实第三prototypes。六类词依M/frame/同族±t结构保完整T；各原语九行IFT先保M/omega，再全P IFT保pure。最后在精确解集Baire：全部有限调用、背景/校正块都纳入，反向坐标拉回bump；Banach端平稠密与P闭性已付。可保持M0/TκH、Klein新位移闭合、pure0和无开常段，不授同g/joint。**R216已证单个四阶flat点复现常段σ²障碍，故原标准flat拼口配原八包仍失败。**
 
 **R213已给两实际mixed源及不可校正门**：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0+右因果使f整个右带0时两源0；内部f平台仍须Vd″=Ve″0。R56左collar二次系数=½∫kK，M0令∫k·w_geom=0，故∫kKd/Ke是ruling商真泛函且全部合法二/三gauge不改，尚未判值。w_E=Φ_ED在原八完整packet以七差分准确付六矩，周期变化正是κK_E,H，不能由这个子族将λ+冒延所有w。下一判上述具体源/不变量。
 
 **R215已有真实period反例方向。** τS=−J(a″b″c″)，在R183导数分包圆K_PR≡−f″²(f″²−φ″²)/3 mod imL_f，πK_PR0且λ+K_PR0。正f′包内p^(2/3)的正斜率最大点必A_f0/q>0，真实flux∫pK_PR″=−8q⁵/45，所有全I光滑w的flux0。实际Z±与同一pure校正/Klein给两闭M0/TκH/pure0几何，成本差8tK_PR、同λ+>0却flux差−64tq⁵/45，至少一条period不可修。两g一般不同，不排全部几何，也不判λ经更大joint组的factor；后继R217处理中。
+
+**R216单点ruling必要门已付。** 真实R56第四K用状态jet≤2及W2/W3历史，取两s导至jet4；同右锚/真实入历史冻结后K″(s*)=2K_const。∂s²|s*杀整个三矩W和全部二阶Bθw，故h/k的1..4阶全零一点就要求K_const全θ0。R193标准原八包/已付光滑邻域全宽度失败；任意固定状态只继承R187充分共同窄化。R214pure定理保留，不能用无开常段避此门。R218接偶非平共用germ，须重付端口/低阶/全pure；R199新圆须自己的真实F门，不套旧正性。
 
 ## 6. 保留边界与当前交付
 

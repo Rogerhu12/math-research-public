@@ -48,9 +48,9 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再取真实M=T0/frameI控制D满足πVD=−πV0/4，Klein第一prototype四次插入，所有新增位移仍四左旋相消，保持TκH非零且整pure零。最终几何选择R183/R199合法圆后，最右f0区间的不可校正pure必要门整函数归零。无常段迁移不能只靠开放性；同g、嵌入/reach/有限幅度仍欠。
 
-[R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)进一步给每个紧pure目标集上的真实C1截面D(p)，固定有限词/整数/共同包络且M=T0/frameI、πVD=p。E_P及完整未知基准的C1性已付，先定两商截面、后取统一有限n收缩与IFT。对保低阶的外扰动用全P参数u解Φ_z(u)=p，同时修商/响应；只用响应t不足。R214现已用结构词付去常段，不依赖R189九行中不存在的完整T；仍须核其flat拼点的ruling门。
+[R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)进一步给每个紧pure目标集上的真实C1截面D(p)，固定有限词/整数/共同包络且M=T0/frameI、πVD=p。E_P及完整未知基准的C1性已付，先定两商截面、后取统一有限n收缩与IFT。对保低阶的外扰动用全P参数u解Φ_z(u)=p，同时修商/响应；只用响应t不足。R214用结构词付去常段，不依赖R189九行中不存在的完整T；其flat拼点ruling门已由R216明确收紧。
 
-[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)现已同时实现无开常段、完整pure准确控制及非零闭hook：正则M0前缀配对保有限满锥、R208挑R71真实第三生成器，六类词用低阶结构恒等保T；原语九行IFT后，全P IFT先解非线性成本，最后Baire在精确解集逐全部发生位置去常段。新Klein位移仍准确闭合，所有校正块自身都被包含。flat全端jets保证光滑和U归属；这也留下必须立即查的新风险R216：原常段σ² ruling障碍可能仅需一个状态四阶flat点，不能因为无开常段就当作已绕开。标准冻结原八包/全宽度或任意常态/充分窄化的适用范围分别核，不能先派已排候选。
+[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)已同时实现无开常段、完整pure准确控制及非零闭hook：正则前缀/真倒行保有限满锥，六类词结构保M/T/frame；原语九行IFT后全P IFT精确修成本，Baire覆盖全部原语/校正块与倒行发生位置，Klein按新位移闭合。但[R216](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)已证一个状态四阶flat点足以保常态σ² ruling障碍：同锚/同真实history冻结给K″=2K_const，所有允许gauge均不改。标准共同flat端口配R193原八包及其光滑邻域全宽度失败；其他状态保R187充分窄化排除。**不派发这些已排候选。** 下一R218支付共用偶非平germ的真倒行/缩放桥/低阶与全pure控制；这只避flat拼口前提，仍须实际mixed/joint。R199新忠实圆的F门未评价，不继承原八包正性。
 
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 

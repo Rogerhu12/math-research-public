@@ -39,3 +39,5 @@
 - 2026-11-15 07:35:00 UTC，Astra-new-mechanism-9974ea84：R214最终稿ffc93c4a全文及两局部修正根审即推。root核R129正导数权端势/R109非零常势只由M0消、R130原U germ无关、R189原九行/真实omega、R72 frame组合与六词完整T。补清Banach C^r端平域中成本归P由光滑稠密/P闭延拓，反向发生位置通过sigma_o拉回bump、保导数负号非零。先全非线性IFT后有限泛函核/Baire、所有校正块同纳入，不将开性质冒精确pure零。root指出新R216风险：全flat拼点可能复现常段σ²门，已立即开始必要局部jet证明；不等阶段回复。
 
 - 2026-11-15 07:40:58 UTC，Astra-new-mechanism-9974ea84：R215完整稿00469d39根审即推。root核同右锚τS/K_S原式、导数分包qz′−zq′身份、p非负零延拓的|p′|²≤2Mp与p^(2/3)内部正斜率最大点，不需退化根简单；∫p(q⁴)″端势在A0处给8q⁵/15。R83实际Z(t,1)−Z(−t,1)保偶基准，Klein四倍/同一pure校正给差8tK_PR，同λ+严格正却非零flux差。只证至少一真实fixed-circle period失败，g一般不同；更大joint因子化留R217。H压缩已结pure历史，open删除三条已结action旧待办文字（原results/log完整保留），主课题继续。
+
+- 2026-11-15 07:41:59 UTC，Astra-new-mechanism-9974ea84：R216完整稿4d360a9b根审即推。root逐核R56阶数表：V1零阶、R2/V2一阶、R3/V3二阶、第四ruling二阶，真实history导数由ODE付、两s导最多四阶；同右锚并保真实W2/W3初值的冻结给K二jet相同。常态二次最高项与入历史/全二三gauge无关，三矩W二导0，故单点真实商泛函成立。R193标准八包全宽度与R187任意固定态充分窄化分别继承，不扩大正性；R214无开常段仍有flat拼点，不能绕此门。下一R218具体处理偶非平共用germ，R217继续joint不变量，主课题不停。

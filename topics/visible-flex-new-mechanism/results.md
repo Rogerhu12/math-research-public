@@ -180,6 +180,8 @@
 
 - [R213：两个真实mixed源、平台不变量与合法八矩gauge](results/R213-two-mixed-sources-and-gauge-invariant-platform-obstructions-after-pure-closure.md)：pure0后Vθ=s²Vd+2csVe，三个原低阶场给Vd/Ve及两个Green目标；f全右带0使两mixed源消失，内部平台却仍须Vd″/Ve″0。R56左尾二次系数=½∫kK，M0让k杀W，故两个ruling标量对所有合法二/三gauge不变，未判其值。w_E=Φ_ED以原八包七差分付六矩，period恰为κK_E,H；不是任意独立gauge的canonical因子化。
 
-- [R214：无开常段的真实全pure控制与精确闭hook](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)：flat端jets扩展R109/R130成本归属，正则前缀/有限复制/真倒行保满锥；仅用R71交换子选pure响应基，六类真实词结构保M/T/frame。九行原语IFT后全P IFT先保精确成本，再于整个精确解集Baire去掉所有发生位置的开常段，保倒行坐标、全部校正块及Klein新位移。未授mixed/ruling或同g有限族；全flat拼点是否仍触原σ²障碍另由R216正审。
+- [R214：无开常段的真实全pure控制与精确闭hook](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)：flat端jets扩展R109/R130成本归属，正则前缀/有限复制/真倒行保满锥；仅用R71交换子选pure响应基，六类真实词结构保M/T/frame。九行原语IFT后全P IFT先保精确成本，再于整个精确解集Baire去掉所有发生位置的开常段，保倒行坐标、全部校正块及Klein新位移。未授mixed/ruling或同g有限族；全flat拼点的原σ²障碍现由R216证实。
 
 - [R215：同正字符的两条真实pure零闭hook有不同退化通量](results/R215-equal-positive-character-and-distinct-fixed-circle-degenerate-flux.md)：同锚原式τS=−J(a″b″c″)给K_PR模L_f的局部四次项；正导数包中p^(2/3)正斜率最大点使A_f0/q>0，flux=−8q⁵/45而全部全I光滑二阶gauge的flux零。真实Z±/共同pure校正/Klein保全部基准，得同λ+>0、pure0、TκH但通量不同的两实际几何，至少一个period不可修。两度量一般不同；不判更大joint因子化或全部几何。
+
+- [R216：单个四阶平点已保留完整常态ruling障碍](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)：R56有限jet表与同右锚、真实W2/W3入值冻结给K″=2常态σ²系数；该jet泛函杀整个三矩W及全部二阶/第三gauge响应。标准原八包及其已付光滑邻域全宽度严格排除扩到单点，任意固定状态保充分共同窄化。R214无开常段/全pure定理不受损，但flat拼口未避ruling门；新profile或非平拼口须另付真实条件。无旧计算复跑。
