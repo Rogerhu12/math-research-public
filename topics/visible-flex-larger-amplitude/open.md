@@ -146,4 +146,4 @@ root完整读四源码diff、17099B接口、两配置diff和两纯静态checker�
 
 ### 1S. 102只读实际98五原件，科学计算继续
 
-[读取接口](notes/2026-11-15-request102-existing98-scalar-readback.md)已发布。原run43677587785日志已给α1/4接受、同W43.42621386634224→43.36604610143146及原FD8.408533903133078e-10/pass；完整31查询域、RMS/BC和拒绝原因仍待原五件摘要。新reader7e5f3610在Actions按原809042943B/9917774d完整ZIP身份读取，保全部原trial顺序与原标志、主要文件SHA，不重跑模型或把摘要当全数组审计。首run43680444618已核ZIP和五原件，但摘要474627B超90KB；正在去重复producer历史，保全部原trial/失败点后重读。临时原件清除，原科学门保持。
+[读取接口](notes/2026-11-15-request102-existing98-scalar-readback.md)已发布。原run43677587785日志已给α1/4接受、同W43.42621386634224→43.36604610143146及原FD8.408533903133078e-10/pass；完整31查询域、RMS/BC和拒绝原因仍待原五件摘要。新reader7e5f3610在Actions按原809042943B/9917774d完整ZIP身份读取，保全部原trial顺序与原标志、主要文件SHA，不重跑模型或把摘要当全数组审计。首run43680444618已核ZIP和五原件，但摘要474627B超90KB；[v2修复](notes/2026-11-15-request102-summary-overflow-and-explicit-readback.md)已发布68f7c017，去重复producer历史，保全部原trial/失败点后重读。临时原件清除，原科学门保持。

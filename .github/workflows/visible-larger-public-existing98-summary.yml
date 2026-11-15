@@ -46,7 +46,7 @@ jobs:
           request = json.loads((comp / "public-existing98-summary-request.json").read_bytes())
           assert request["request"] == 102
           expected = {
-              "root_20261115_read_existing98_scalar_summary.py": "7e5f36100ffafe1ffe44cc878e18aeb2af3c4c73fcce7f64f21a22ec9313a083",
+              "root_20261115_read_existing98_scalar_summary.py": "68f7c017dea3645b8a7ac3a9030fa5b7c68e4c300025c1245030bf62f342d61d",
               "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
           }
           assert request["source_sha256"] == expected

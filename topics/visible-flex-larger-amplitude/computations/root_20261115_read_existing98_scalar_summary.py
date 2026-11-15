@@ -18,7 +18,7 @@ SOURCE_COMMIT = "918fdb11dbb7a424b6149b405e2c7fab3cc0c737"
 TRANSPORT_SHA = "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
 REQUEST_GIT_BLOB = "6aa7cc61e52b314c31699e8849fb9a9cc5c11b62"
 WORKFLOW_GIT_BLOB = "f998c08cc5320559204b7b2d5a67f4f2f1afdc99"
-SCHEMA = "actual98-original-scalar-readback-no-payload-retention-v1"
+SCHEMA = "actual98-original-scalar-readback-no-payload-retention-v2"
 OPTIMIZER_SCHEMA = "exact-constraint-thirty-one-query-condensed-complete-H-warm-v1"
 WARM_FROM_ORIGINAL_JOB_LOG = "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
 PIN = dict(run_id=43677587785, artifact_id=14147700690,
@@ -177,6 +177,90 @@ def read_primary(archive, index, suffix, label):
         selected_member_CRC_checked_by_complete_zipfile_read=True,
         raw_member_retained=False, decoded_JSON_retained=False)
 
+def metadata_object_receipt(value):
+    """A canonical decoded-subtree hash, explicitly not its original file hash."""
+    raw = json.dumps(value, ensure_ascii=True, sort_keys=True,
+                     separators=(",", ":"), allow_nan=False).encode("utf-8")
+    return dict(canonical_decoded_subtree_bytes=len(raw),
+        canonical_decoded_subtree_sha256=sha(raw),
+        original_file_bytes_SHA_is_reported_separately=True)
+
+def listed_scalars(value):
+    require(isinstance(value, list) and all(scalar(x) for x in value),
+            "Expected an original scalar location/parameter list")
+    return value
+
+def point_readout(point):
+    """Original failed point or original argmax; never recurse into producer."""
+    require(isinstance(point, dict), "Expected original point object")
+    out = shallow(point)
+    for key in ("original_beta_squared", "original_middle_state",
+                "original_midpoint_rhs", "original_beta_squared_array",
+                "frozen_model_row_weight", "original_state_terms",
+                "original_Hermite_terms", "original_physical_row"):
+        if isinstance(point.get(key), dict):
+            out[key] = shallow(point[key])
+    for key in ("nonfinite_middle_input_indices", "nonfinite_original_rhs_indices",
+                "original_scalar_jets", "actual_global_controls", "scalar_parameters"):
+        if key in point:
+            out[key] = listed_scalars(point[key])
+    if isinstance(point.get("raw_original_arrays"), dict):
+        out["raw_original_array_file_identity"] = {
+            key: point["raw_original_arrays"][key] for key in ("file", "sha256", "bytes")
+            if key in point["raw_original_arrays"]}
+    return out
+
+def domain_readout(value):
+    require(isinstance(value, dict), "Expected original domain report")
+    out = shallow(value)
+    if "original_RMS_query_checks" in value:
+        checks = value["original_RMS_query_checks"]
+        require(isinstance(checks, list), "Original RMS checks must be a list")
+        out["original_RMS_query_checks"] = []
+        for check in checks:
+            item = shallow(check)
+            if "first_invalid_points" in check:
+                item["first_invalid_points"] = [
+                    point_readout(p) for p in check["first_invalid_points"]]
+            out["original_RMS_query_checks"].append(item)
+    for key in ("bad_node_indices", "bad_midpoint_indices"):
+        if key in value:
+            out[key] = listed_scalars(value[key])
+    key = "read_only_midpoint_observer"
+    if key in value:
+        observer = value[key]
+        item = shallow(observer)
+        if "bad_midpoint_indices" in observer:
+            item["bad_midpoint_indices"] = listed_scalars(observer["bad_midpoint_indices"])
+        if "points" in observer:
+            item["points"] = [point_readout(p) for p in observer["points"]]
+        out[key] = item
+    key = "read_only_collocation_location_observer"
+    if key in value:
+        observer = value[key]
+        item = shallow(observer)
+        for name in ("full_physical_argmax", "complete_residual_argmax"):
+            if name in observer:
+                item[name] = (point_readout(observer[name])
+                              if isinstance(observer[name], dict) else observer[name])
+        out[key] = item
+    if isinstance(value.get("collocation_weight_observer_error"), dict):
+        out["collocation_weight_observer_error"] = shallow(
+            value["collocation_weight_observer_error"])
+    return out
+
+def selected_query_readout(rows):
+    require(isinstance(rows, list), "Expected original typed query report list")
+    output = []
+    for row in rows:
+        require(isinstance(row, dict), "Expected original typed query report")
+        item = shallow(row)
+        for key in ("query", "query_spec", "original_beta_squared"):
+            if isinstance(row.get(key), dict):
+                item[key] = shallow(row[key])
+        output.append(item)
+    return output
+
 def copy_trials(model):
     source = model.get("trials")
     require(isinstance(source, list), "Original model.trials is missing")
@@ -184,15 +268,64 @@ def copy_trials(model):
     for i, trial in enumerate(source):
         require(isinstance(trial, dict), "Original trial must be an object")
         record = {"original_trial_index": i, **shallow(trial)}
-        for key in ("selected_linear_beta_squared", "all_selected_linear_reserve_slack",
-                    "domain", "actual_selected_original_angles",
-                    "complete_original_RMS_query_domain",
-                    "independent_actual_directional_check"):
+        keys = ("selected_linear_beta_squared", "all_selected_linear_reserve_slack",
+                "domain", "actual_selected_original_angles",
+                "complete_original_RMS_query_domain", "independent_actual_directional_check")
+        for key in keys:
             record[key+"_present_in_original"] = key in trial
-            if key in trial:
-                record[key] = brief(trial[key], "/model/trials/"+str(i)+"/"+key)
+            if key not in trial:
+                continue
+            if key in ("domain", "complete_original_RMS_query_domain"):
+                record[key] = domain_readout(trial[key])
+            elif key == "actual_selected_original_angles":
+                record[key] = selected_query_readout(trial[key])
+            else:
+                record[key] = shallow(trial[key])
         answer.append(record)
     return answer
+
+def qp_readout(value):
+    if value is None:
+        return None
+    out = shallow(value)
+    comparison = value.get("comparison")
+    if isinstance(comparison, dict):
+        item = shallow(comparison)
+        for key in ("original_C_selection", "conditional_recovery",
+                    "final_actual_full_model_evidence"):
+            if isinstance(comparison.get(key), dict):
+                part = shallow(comparison[key])
+                if isinstance(comparison[key].get("all_original_linear_slack"), dict):
+                    part["all_original_linear_slack"] = shallow(
+                        comparison[key]["all_original_linear_slack"])
+                item[key] = part
+        out["comparison"] = item
+    for key in ("local_QP_report", "last_saved_local_stage", "condensation_report"):
+        if isinstance(value.get(key), dict):
+            out[key] = shallow(value[key])
+    return out
+
+def fd_readout(value):
+    if value is None:
+        return None
+    out = shallow(value)
+    for key in ("direct_boundary", "separated_boundary"):
+        group = value.get(key)
+        if isinstance(group, dict):
+            # Original group-level decisions only, not repeated level histories.
+            out[key] = shallow(group)
+    return out
+
+def current_identity_readout(value):
+    if not isinstance(value, dict):
+        return None
+    keys = ("entry_source_sha256", "source_sha256", "optimizer_schema",
+            "actual_parent_warm_sha256", "actual_parent_status_sha256",
+            "actual_resume_sha256", "parent_optimizer_schema", "actual_parent_schema",
+            "selected_query_count", "selected_angle_row_count", "physical_angles_per_query",
+            "expected_complete_B_local_dimension", "expected_fixed_projection_dimension",
+            "nonlinear_native_H_solved", "nonlinear_native_solved")
+    return {key: value[key] for key in keys if key in value and scalar(value[key])}
 
 def assemble(objects, receipts, request, source_receipts, official, downloaded):
     model, status, qp, fd, warm = [objects[k] for k in ("model", "status", "QP", "FD", "warm")]
@@ -214,54 +347,60 @@ def assemble(objects, receipts, request, source_receipts, official, downloaded):
             check("FD prepared SHA is this actual new warm",
                   fd.get("prepared_sha256") == receipts["warm"]["sha256"])
     expected = request["source_sha256"]
-    if fd is not None:
-        actual = fd.get("consumed_source_sha256", {})
-        require(isinstance(actual, dict), "Original FD source mapping invalid")
-        source_checks = {name: digest == expected[name] for name, digest in actual.items()
-                         if name in expected}
-    else:
-        source_checks = {}
+    actual = fd.get("consumed_source_sha256", {}) if fd else {}
+    require(isinstance(actual, dict), "Original FD source mapping invalid")
+    common_names = [name for name in actual if name in expected]
+    source_mismatches = [
+        dict(file=name, actual_sha256=actual[name], request_sha256=expected[name])
+        for name in common_names if actual[name] != expected[name]]
+    source_map_summary = dict(
+        actual_FD_source_count=len(actual), compared_common_names_count=len(common_names),
+        mismatches=source_mismatches, mapping=metadata_object_receipt(actual),
+        original_request_pin_mapping=metadata_object_receipt(expected),
+        full_mappings_not_repeated_in_summary=True)
     model_summary = shallow(model)
     if "before" in model:
-        model_summary["before"] = brief(model["before"], "/model/before")
+        model_summary["before"] = domain_readout(model["before"])
     model_summary["trials"] = copy_trials(model)
     for key in ("selection", "direction_selection", "lsmr", "linearization_check",
                 "operator_adjoint_check", "B_directional_check", "baseline_C_projection",
                 "chosen_direction", "projection", "selected_direction"):
-        if key in model:
-            model_summary[key] = brief(model[key], "/model/"+key)
-    fd_summary = None
-    if fd is not None:
-        fd_summary = shallow(fd)
-        fd_summary["recorded_consumed_source_sha256"] = fd.get("consumed_source_sha256")
-        for key in ("direct_boundary", "separated_boundary"):
-            if key in fd:
-                fd_summary[key] = brief(fd[key], "/FD/"+key)
-        fd_summary["thirty_one_query_response_identity"] = identity_pick(
-            fd.get("thirty_one_query_condensed_QP_response_entry"))
-    qp_summary = None
-    if qp is not None:
-        qp_summary = shallow(qp)
-        for key in ("comparison", "local_QP_report", "last_saved_local_stage",
-                    "condensation_report"):
-            if key in qp:
-                qp_summary[key] = brief(qp[key], "/QP/"+key)
-    identities = {
-        "model_entry": identity_pick(model.get("condensed_QP_entry")),
-        "status_entry": identity_pick(at(status, ("identity", "condensed_QP_entry"))),
-        "status_thirty_one": identity_pick(at(status, ("identity", "thirty_one_query_projection_entry"))),
-        "warm_entry": identity_pick(warm.get("condensed_QP_entry")) if warm else None,
-        "warm_optimizer": identity_pick(warm.get("optimization_warm")) if warm else None,
-        "warm_thirty_one": identity_pick(at(warm, ("optimization_warm", "thirty_one_query_projection_entry"))) if warm else None,
-    }
-    # Metadata comparison only. No missing relation is converted into a pass.
+        if isinstance(model.get(key), dict):
+            model_summary[key] = shallow(model[key])
+    status_identity = status.get("identity", {})
+    current_entry = model.get("condensed_QP_entry", {})
+    projection_entry = at(status, ("identity", "thirty_one_query_projection_entry"))
+    if projection_entry is None:
+        projection_entry = model.get("thirty_one_query_projection_entry")
+    actual_queries = projection_entry.get("query_specs") if isinstance(projection_entry, dict) else None
+    if actual_queries is not None:
+        check("actual typed31 query definition equals original request",
+              actual_queries == request.get("query_specs"))
+    layout = current_entry.get("actual_current_B_C_layout") if isinstance(current_entry, dict) else None
+    layout_summary = shallow(layout) if isinstance(layout, dict) else None
+    if isinstance(layout, dict):
+        for key in ("original_C_physical_nodes", "actual_query_endpoint_nodes"):
+            if key in layout:
+                layout_summary[key] = listed_scalars(layout[key])
+        for key in ("original_C_support", "complete_B_local_indices",
+                    "complete_B_block_union_indices"):
+            if key in layout and isinstance(layout[key], dict):
+                layout_summary[key] = shallow(layout[key])
+    provenance = dict(
+        model_entry=current_identity_readout(current_entry),
+        status_thirty_one=current_identity_readout(projection_entry),
+        warm_entry=current_identity_readout(warm.get("condensed_QP_entry")) if warm else None,
+        warm_optimizer=current_identity_readout(warm.get("optimization_warm")) if warm else None,
+        status_identity_tree=metadata_object_receipt(status_identity),
+        warm_optimizer_tree=metadata_object_receipt(warm.get("optimization_warm")) if warm else None,
+        FD_source_mapping=source_map_summary)
     result = dict(schema=SCHEMA, source_sha256=sha(Path(__file__).read_bytes()),
         original_run=PIN["run_id"], original_job=132701028492,
         original_source_commit=SOURCE_COMMIT, artifact=PIN,
         official_artifact=official, verified_download=downloaded,
         primary_files=receipts, original_request_and_workflow=source_receipts,
         original_request_parameters={k: request[k] for k in (
-            "request", "optimizer_schema", "query_specs", "declared_budgets",
+            "request", "optimizer_schema", "declared_budgets",
             "actual_parent_run", "actual_parent_source_commit", "actual_parent_schema",
             "actual_parent_warm_sha256", "actual_parent_status_sha256",
             "expected_complete_B_local_dimension",
@@ -269,11 +408,15 @@ def assemble(objects, receipts, request, source_receipts, official, downloaded):
             "complete_B_outside_C_nodes", "baseline_C_support_nodes",
             "scientific_thresholds_changed", "native_tail_requested",
         ) if k in request},
-        status=shallow(status), model=model_summary, QP=qp_summary, FD=fd_summary,
-        actual_producer_identity=identities, identity_checks=checks,
-        common_FD_request_source_pin_checks=source_checks,
+        typed_query_definition=dict(
+            actual_present=actual_queries is not None,
+            actual_query_specs=actual_queries,
+            original_request_query_specs_SHA=metadata_object_receipt(request.get("query_specs"))),
+        actual_current_B_C_layout=layout_summary,
+        status=shallow(status), model=model_summary, QP=qp_readout(qp), FD=fd_readout(fd),
+        actual_producer_identity=provenance, identity_checks=checks,
         all_reported_identity_checks_passed=all(x.get("passed", True) for x in checks)
-            and all(source_checks.values()),
+            and not source_mismatches,
         root_science_count=0, new_scientific_imports=0,
         new_RHS_Jacobian_ODE_FD_or_solver_calls=0,
         numerical_fields_copied_from_original_JSON_without_recomputation=True,
@@ -282,8 +425,19 @@ def assemble(objects, receipts, request, source_receipts, official, downloaded):
         full_arrays_audited=False, science_acceptance_reclassified=False,
         raw_payload_retained_or_republished=False,
         Release_uploads=0, Git_mutations=0, new_artifact_uploads=0,
-        summary_scope="Original scalar conclusion and identity readback only; not full payload audit or BVP acceptance")
-    result["metadata_omissions"] = omitted
+        summary_scope="All original trials and domain/RMS/boundary decisions; no producer-tree or FD-history duplication",
+        fields_intentionally_not_copied=[
+            "historical producer trees: canonical decoded-subtree hashes only",
+            "source-pin maps: counts/mismatches/canonical hashes only",
+            "per-direction and per-level FD histories: original principal errors/flags retained",
+            "vectors, raw state, RHS, matrices, working-row and multiplier arrays",
+            "repeated source_entry/entry/read_only_collocation_observer_entry metadata"],
+        no_trial_or_failed_point_record_truncated=True)
+    result["section_UTF8_byte_counts_before_this_field"] = {
+        name: len(json.dumps(result[name], ensure_ascii=True, separators=(",", ":"),
+                             allow_nan=False).encode("utf-8"))
+        for name in ("status", "model", "QP", "FD", "typed_query_definition",
+                     "actual_current_B_C_layout", "actual_producer_identity")}
     return result
 
 def main():
