@@ -1,23 +1,19 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "c66f749e43904742f8b8ea9778b9441a7b21dd95",
-  "createdUtc": "2026-11-15 10:04:54 UTC",
-  "message": "R150: restore minimal temporary session and bound publication provenance",
+  "parentCommit": "1234b97ef949a864ca547b39c21c6d3521f04e16",
+  "createdUtc": "2026-11-15 10:06:53 UTC",
+  "message": "R150: run complete legal cubic correction from preserved small receipts",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-recovery-small-session-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-third-complete-cubic-normal-kernel-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-third-complete-cubic-normal-kernel-interface-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-recovery-small-session-request-789f.json",
-    ".github/workflows/invariant-subspace-r150-recovery-small-session.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-after-unpublished-natural32-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-recovery-small-session.yml"
-  ]
+  "dispatchWorkflows": []
 }
