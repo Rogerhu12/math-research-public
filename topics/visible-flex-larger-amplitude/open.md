@@ -112,3 +112,5 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### actual107 已接受1/8，110继续真实同31批次
 
 [实际107完整结论](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)：run43683739473/source6df3e818/job132719696865，freshW43.363003729098274→43.33594286031892，1/8接受、新warm原FD8.81884772255149e−10。最近1/4仅原query0的LEFT464 RMS失域，β²−.2683514415128212；不用远档未选点无故扩query。原success/newcoupled仍false，col.007107481419519517/BC6.857449986338445e−9，非BVP/native/fullDN。110准备8批原同31模型，live真实pair/freshFD逐批衔接；新job只能从actual98新重算，不由107 hash造场。
+
+[110完整批次接口](notes/2026-11-15-request110-same31-real-pair-batch-lifecycle.md)现已发布：sourcea1ba1cd8/requestef159a8a/workflow3363acf2。最多8个原1-model+新FD对，科学175min/job185min，原每批1200s/λ270/512×200/17trial/全部域和完整B/H/C/outside不变。只传当批真实warm/status原字节，失败或无新warm即停，原FD不复制；报告字段SHA只读，不作重现审批。45分钟原pull/rebase监控、merge.stat=false及逐批临时清理保持；实际run/结果待回读。

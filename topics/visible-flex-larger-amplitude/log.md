@@ -25,3 +25,7 @@ R281已在f465f468正式登记。本轮只执行唯一新解析配置的depth2/d
 ## 2026-11-15 06:22:35 UTC /root — actual107 同31的真实1/8接受
 
 [完整结论](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)：四trial，最近1/4只LEFT464 RMS拒且已在31；1/8固定本轮W43.363003729098274→43.33594286031892，全部31/节点中点/左右RMS合法，新FD8.81884772255149e−10。仍非原BVP/native。summary35131B/42dd12df,warm6d2e5b1c,status714347e0；7对应科学字段全等是只读事实。110按8批live真实pair+freshFD继续同31，首批是actual98新重算支线，不冒已删107raw续接。
+
+## 2026-11-15 06:24:58 UTC /root — request110 同31真实连续批次
+
+root已读完整新增编排器、workflow、request和接口。源a1ba1cd8在同job保真实warm/status给下一原1-model，必须该新warm原FD先完成；无任何旧状态重标，末raw仍只临时。8批/175min保每批原预算/数学门，70旧pins+1新源；107缺物理字段hash明示不可比，不设同字节门。requestef159a8a/workflow3363acf2以唯一push路径公开执行，root持续推进其他open与实际结果，不以批次预算结束课题。
