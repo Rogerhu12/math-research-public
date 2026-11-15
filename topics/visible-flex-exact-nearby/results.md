@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 actual Nraw：全 signed 局部分子0..10与完整无限尾。** [证明及原生凭据](results/R133-supplement-actual-correlated-local-Airy-numerator-through-ten.md)：public43666374252/1实际child0/10门，26原stage逐字保、60新完整stage；固定η0/复δ≤1e−8/同根piece。σ1/512 q0两分量<54.373309627/13315816.514291689，完整sup/Wiener q0..2分开；b的有限prefix13315816.417922894、尾<.096368796，保所有均值。原hydrate失败0数学和仅路径修正保留；未授完整Airy JP源/非局部mean/seam/全逆。
+
 - [同提案真实端点与完整无限high输出Gram合同](notes/2026-11-15-R133-cap-adjoint-true-boundary-high-Gram-contract.md)：保真9/10 Hermite延拓、97左目标/独立mean、完整128 outer参考qstar+原正比较费，以及4096格/512保留模之外全部alias/解析尾。341pin五件已接公开Actions；κ和全even map来自真实repair/Hessian输入，未转授全帽后验或无限BVP。
 
 - [根值剥离后的完整第一Airy源实际8门](results/R133-supplement-actual-complete-root-subtracted-first-Airy-sources.md)：43665091373 child0，1036新完整source/integral、3323原row逐字，1328转换/六profile/旧local全0重算。前三R负完整<4.834450e20/6.332163e20/8.952481e20；保九词/五mean与全部seam。诊断定位真piece2549首外格和负2548的粗费；完整内窗/修正seam/正weighted端口/strong return仍续付。

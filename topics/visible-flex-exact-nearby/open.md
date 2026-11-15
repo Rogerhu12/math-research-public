@@ -77,3 +77,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 每条结论独推；非FF立即真pull --rebase再推循环，禁止force。至少每小时真实pull并核根/题README，有变化只读差异立刻执行，读过提交写H。终端不可用按根规8只用<100KB UTF8文本connector，二进制/gzip绝不进对话；自然>5MB整件保原Actions，不拆/不重压绕过，摘要≤60000B。只读ref/blob核不是git pull。无新增审批门。
 
 子问题完成立刻接下一缺口。总完成门未达不收尾、不等用户、不以时长到限停止。
+
+### 已成 actual Nraw 后接整原根分片
+
+43666374252/1 child0/10门，26原stage逐字/60新；[actual全分子](results/R133-supplement-actual-correlated-local-Airy-numerator-through-ten.md)保全signed与sup/Wiener q0..2，b的q0大值来自已成有限mean，不能靠继续Taylor阶数宣称消失。继续用已成系数与同R1/6000完整尾，在原piece2549到真seam消费完整JP源、九词+五mean及重分积分；物理背景/真正跳不改，旧case外行完整复用。

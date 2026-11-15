@@ -229,3 +229,11 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:12:56 UTC — 真左右端与完整high-output伴随Gram部署
 
 读main 08c9b3b7dbb012da0b162ad5752de052092fb719，两README不变。root全文核SCI24638B/41052363…、CI15246B/ab34ab0e…、contract9632B/fb9236d3…、workflow7748B/6eee3bdf…；另亲读原Hermite affine函数确认true9/10点求值无除零，原physical coefficient provider的negative mean、两Picard门、4096动态roots/FFT及真实trig。341pin与旧337逐键零变，新增4项准确；仅在未发布合同补明m上下界为|m|而exact m<0，manifest更新b753b786…，科学源码未改。三阶段全97 signed covariance/两mean与完整alias/尾，原proposal/target/四格0重算；170min/10min真pull、原成功prefix与失败保留，90日artifact。H9946完整归档后缩写Airy已成记录；同一complete-body/truePoisson后验仍由newton继续，待actual不冒称完成。
+
+## 2026-11-15 02:17:36 UTC — actual signed Nraw0..10 独立结论
+
+已亲读actual报告及process34986B SHA6396a554ab8401d709744b47315ab73830dfe2051937a980ecaab0efa8fc82db、worker2744B SHAca1d91af47e141a2ab4b3a22ad8988185be25f7e8e7f6c6b6e1a3b7aedf5cb1a、publication13844B SHA41e83e4a927f2bd7c71ff4ec365727cf568c5b54b378dc3a9e4802b1ce1a6b02。43666374252/1实际child0/10数学门、23.569766216s，原26完整stage逐字、60新，66自然输出最大240371B。native60456B SHAfbe1bce690f33335d2b024fe38a751743e0017e7d275b4d1fb0712be155f177e；root未用connector读取gzip。
+
+σ1/512全Nraw q0<54.373309627/13315816.514291689，b有限prefix13315816.417922894、全尾<.096368796；q1/q2和三个宽度sup/Wiener分别保存，mean不能删。原43666029053 Hydrate39漏topic路径0数学，a24bfa3仅修path+flow pin；不重复旧科学。报告585e7229ac175ac1a196fdcf7c770573889a09a46df405829b0ce70d711742c6独推。
+
+原worker实际两pull02:09:24.323875→1cd8ff1bf19cee26d3d33522843f43dbd7929d91、02:09:49.382802→f6c34f25c172acb0d7cf3df39add2126d92ae21b，两README diff空；本次只读README核24f6758e235220b1927b026e69290550d1b9cd87不冒充pull。尚缺完整重建局部JP、九词/五mean、真seam/强返回/正weighted端口/全逆，继续whole original piece消费。
