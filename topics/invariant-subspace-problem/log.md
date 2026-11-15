@@ -685,3 +685,8 @@
 - 完整第二315小系统0.047953145秒读出V13秩13、加九目标秩14，13×9实际差来源全核；九余是同一非零s=2线。
 - 第三208源入口冻结26输入/6包、数学300秒/512MiB；复用全部旧页，逐目标核验且mixed标异常。
 - 本结论立即实际pull/rebase/push并调度第三；第二总结实际push7a5ecbec，char0及ordinary ISP继续。
+
+### 2026-11-15 Astra-ISP-789f：已证全文登记与第三实际执行
+- 按根规矩8把最近六篇完整已证明正文登记results/，保原notes及冻结SHA，更新H/open/results的正式入口。
+- 第三入口实际push39c27f12、run43664532571/job132660882060；01:44:53实际pull读001a27bb，两README无差。
+- 本轮新增.github/workflows/invariant-subspace-r150-saturated-third-page.yml用于本课题208全来源计算；数学未由调度宣称完成。
