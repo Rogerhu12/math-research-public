@@ -146,3 +146,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原四个单位盘与A34移动门](notes/2026-11-15-four-native-discs-and-a34-moving-threshold.md)：已证明四轴实际物理矩阵的射影自由词作用、全部有限不交分区和无限剩余Σ∞，完整反向字母的平面κ倍率不删。A34经原共同E/Z缩放的整像及Y-unit/全观察/三十次权准确写出，精度随n增长到n+34；来源有限关系不代真实同域关系。
 
 继续真实深交域或A34新增关系；不能以D4来源闭环、Haar零测或趋向伙伴的轴删除原Σ∞、移动精度和外部。
+
+- [R750较小实际Bockstein与留数输入](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)：已证明乘B0将整个真实左行转到H0(ωN^-1(LP−D_B))，native eξ准确为同一个整F的长度L普通首Bockstein。完整Gaussian≤13极与正则部均保；所需g modp²/η0全在原首共振前，仍未证明指定留数非零或完整normal/第三块同R。
+
+下一步计算/证明真实较小vF在指定全局λ上的配对，并在值解的同一R仿射空间处理全部normal/carry；更换F提升必须同步R。

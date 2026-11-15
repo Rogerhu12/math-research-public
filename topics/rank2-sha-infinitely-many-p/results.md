@@ -399,3 +399,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R757](results/R757-original-type-zero-six-spectrum-and-order-nine-lines.md)：已证明原degree34 type0完整六谱；后三条primitive order9环面线的全2/3/17 Hecke角色、导子/root、Qζ9值域及准确三次实系数域齐付，非新E/Q。CM13全特征式和质量观察唯一核S给另五条质量非零，实际Yang给后三L(Ψ,1)>0；全权必须保阶18有限补偿，普通零权非零不赋中央导数零。
 
 - [原四个单位盘与A34移动门](notes/2026-11-15-four-native-discs-and-a34-moving-threshold.md)：已证明四轴实际物理矩阵的射影自由词作用、全部有限不交分区和无限剩余Σ∞，完整反向字母的平面κ倍率不删。A34经原共同E/Z缩放的整像及Y-unit/全观察/三十次权准确写出，精度随n增长到n+34；来源有限关系不代真实同域关系。
+
+- [R750较小实际Bockstein与留数输入](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)：已证明乘B0将整个真实左行转到H0(ωN^-1(LP−D_B))，native eξ准确为同一个整F的长度L普通首Bockstein。完整Gaussian≤13极与正则部均保；所需g modp²/η0全在原首共振前，仍未证明指定留数非零或完整normal/第三块同R。
