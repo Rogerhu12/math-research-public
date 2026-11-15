@@ -1,0 +1,189 @@
+{
+  "kind": "actual_public_all5970_cached_interface_impulse_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43649423561",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "36af85b56b396b5976930547fd2c237f68bf3658",
+  "worker_source_sha256": "f7def106a57225f5a456f37da90df73947b3eb57c89dafa280592f170c983a69",
+  "started_utc": "2026-11-14T22:42:30.889697+00:00",
+  "children": [
+    {
+      "label": "all5970_true_weighted_state_jump_L2_gains_from_cached_signed_kernels",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-interface-impulse-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite193_cached_interface_impulse_gains.py",
+        "--green",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/green/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/green/process.json",
+        "--kernel",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/kernel/native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+        "--kernel-process",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/kernel/process.json",
+        "--out",
+        "/__w/_temp/visible-exact-interface-impulse-output/native/complete-all5970-cached-interface-impulse-gains.json.gz"
+      ],
+      "started_utc": "2026-11-14T22:42:34.326401+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 130.00390503900002,
+      "finished_utc": "2026-11-14T22:44:44.330687+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T22:42:31.655109+00:00",
+      "before": "36af85b56b396b5976930547fd2c237f68bf3658",
+      "after": "de5e9ce39393b619256dd9179ca7ba19e515e680",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T22:42:32.946964+00:00",
+      "before": "de5e9ce39393b619256dd9179ca7ba19e515e680",
+      "after": "de5e9ce39393b619256dd9179ca7ba19e515e680",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T22:44:45.171041+00:00",
+      "before": "de5e9ce39393b619256dd9179ca7ba19e515e680",
+      "after": "6167e1413f423bf85e2acd6d00c45624f80638a8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T22:44:51.002902+00:00",
+      "before": "6167e1413f423bf85e2acd6d00c45624f80638a8",
+      "after": "b7e434dfa289ea50505421c59a84ad77819499d6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T22:42:34.324449+00:00",
+      "final": false,
+      "commit": "cae1cae0e906448d78b26dbcc5c68152bd1b2f0a"
+    },
+    {
+      "time": "2026-11-14T22:44:49.180901+00:00",
+      "final": false,
+      "commit": "b7e434dfa289ea50505421c59a84ad77819499d6"
+    },
+    {
+      "time": "2026-11-14T22:44:53.473151+00:00",
+      "final": true,
+      "commit": "0836c54fb75f7a65da4422f86f813ed70d2c9666"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_complete_Green_run": 43601964129,
+  "original_complete_L2_kernel_run": 43633074696,
+  "original_target_or_frame_calls": 0,
+  "new_matrix_or_scalar_exponentials": 0,
+  "new_Lyapunov_Gram_integrals": 0,
+  "full_matrix_directional_Green_kernel_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "actual_full_PDE_response_error_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "75b9039039a663a5fb8aad5a7f719e5fcea9edf648096441bc0777e25240a44c",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "b7e434dfa289ea50505421c59a84ad77819499d6",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-interface-impulse-work/science",
+  "actual_input_sha256": {
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+    "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+  },
+  "snapshot_utc": "2026-11-14T22:44:52.102834+00:00",
+  "wall_seconds": 141.21371182299998,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-interface-impulse-outcome.json",
+      "file": "evidence/actual-latest-interface-impulse-outcome.json",
+      "bytes": 3011,
+      "sha256": "6f64453ef10a6501771781ad6d69e94658399942525c25dd7dee6b973bc65cdb"
+    },
+    {
+      "logical_file": "evidence/complete-all5970-interface-impulse-summary.json",
+      "file": "evidence/complete-all5970-interface-impulse-summary.json",
+      "bytes": 3828,
+      "sha256": "990aaa1c6412af3de454eaf7ec248257eaa7fb390b155daab72a609c43c82f17"
+    },
+    {
+      "logical_file": "evidence/original-complete-L2-kernel-process.json",
+      "file": "evidence/original-complete-L2-kernel-process.json",
+      "bytes": 8264,
+      "sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "logical_file": "evidence/original-complete-finite193-Green-process.json",
+      "file": "evidence/original-complete-finite193-Green-process.json",
+      "bytes": 8548,
+      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "logical_file": "evidence/selected-actual-interface-impulse-rows.json",
+      "file": "evidence/selected-actual-interface-impulse-rows.json",
+      "bytes": 9030,
+      "sha256": "18a9b3a1d24920d0a6d6f4e9ac625ec24402c4d997941db52b9a5221c196e3d9"
+    },
+    {
+      "logical_file": "native/complete-all5970-cached-interface-impulse-gains.json.gz",
+      "lossless_manifest": "native-complete-all5970-cached-interface-impulse-gains.json.gz-fbba350708fb8936-parts.json",
+      "bytes": 14168739,
+      "sha256": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+      "parts": 8
+    }
+  ],
+  "complete_native_sha256": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+  "actual_scientific_gates": 11,
+  "actual_individual_interfaces": 5970,
+  "complete_left_events": 12361,
+  "complete_right_events": 12361,
+  "all_actual_interface_impulse_gains_proved": true,
+  "original_complete_success_reused_without_child": false,
+  "actual_new_homogeneous_cells_this_child": 6391,
+  "maximum_individual_jump_L2_gain": {
+    "whole_inner_body": {
+      "ball": "[121146.60499504847342243486719597240043198444132943815326280872424436359295425307 +/- 4.06e-75]",
+      "lower": "[121146.60499504847342243486719597240043198444132943815326280872424436359295425307 +/- 4.06e-75]",
+      "upper": "[121146.60499504847342243486719597240043198444132943815326280872424436359295425307 +/- 4.06e-75]"
+    },
+    "fixed_complete_negative_phase_window": {
+      "ball": "[56766.695863665406271913245459861106031298256471123454033782892105992395045266373 +/- 9.52e-77]",
+      "lower": "[56766.695863665406271913245459861106031298256471123454033782892105992395045266373 +/- 9.52e-77]",
+      "upper": "[56766.695863665406271913245459861106031298256471123454033782892105992395045266373 +/- 9.52e-77]"
+    }
+  },
+  "finished_utc": "2026-11-14T22:44:50.610242+00:00"
+}

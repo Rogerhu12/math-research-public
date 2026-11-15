@@ -1,0 +1,436 @@
+{
+  "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43654510038",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "f42ded4aac8463083fa2dc5209c16de42f0965d7",
+  "worker_source_sha256": "71b203d54afc982de4ac762a7486cd99bde7acbd9ca50d7ca9c486a283c1326b",
+  "started_utc": "2026-11-15T03:21:09.716438+00:00",
+  "children": [
+    {
+      "label": "exact_all5970_same_F_matrix_cover_without_original_cell_recomputation",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-same-F-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_same_F_directional_matrices_v2.py",
+        "--phase",
+        "finish",
+        "--bits",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-complete-same-F-output/native/complete5970-same-F-directional-matrix-data.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-exact5970-same-F-disjoint-plan.json.gz",
+        "--pilot",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/pilot/native/complete-four-same-F-triangular-source-Grams.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/pilot/process.json",
+        "--reviewed-pilot-process",
+        "/__w/_temp/visible-exact-complete-same-F-work/science/topics/visible-flex-exact-nearby/notes/same_F_triangular_source_Gram_pilot_ci/run-43648579604-1-same-F-triangular-source-Gram-pilot/process.json",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-00/native/complete-same-F-range-00.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-01/native/complete-same-F-range-01.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-02/native/complete-same-F-range-02.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-03/native/complete-same-F-range-03.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-04/native/complete-same-F-range-04.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-05/native/complete-same-F-range-05.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-06/native/complete-same-F-range-06.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-07/native/complete-same-F-range-07.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-08/native/complete-same-F-range-08.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-09/native/complete-same-F-range-09.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-10/native/complete-same-F-range-10.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-11/native/complete-same-F-range-11.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-12/native/complete-same-F-range-12.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-13/native/complete-same-F-range-13.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-14/native/complete-same-F-range-14.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-15/native/complete-same-F-range-15.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-16/native/complete-same-F-range-16.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-17/native/complete-same-F-range-17.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-18/native/complete-same-F-range-18.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-19/native/complete-same-F-range-19.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-20/native/complete-same-F-range-20.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-21/native/complete-same-F-range-21.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-22/native/complete-same-F-range-22.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-23/native/complete-same-F-range-23.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-24/native/complete-same-F-range-24.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-25/native/complete-same-F-range-25.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-26/native/complete-same-F-range-26.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-27/native/complete-same-F-range-27.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-28/native/complete-same-F-range-28.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-29/native/complete-same-F-range-29.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-30/native/complete-same-F-range-30.json.gz",
+        "--range-native",
+        "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43654510038-1-complete-same-F-range-31/native/complete-same-F-range-31.json.gz",
+        "--profile",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/evidence/original-complete-projector-process.json"
+      ],
+      "started_utc": "2026-11-15T03:21:13.457935+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.00062320699999,
+      "finished_utc": "2026-11-15T03:21:23.459043+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T03:21:10.036072+00:00",
+      "before": "67319aea213353ac444a5a2ce905fef6068804fd",
+      "after": "67319aea213353ac444a5a2ce905fef6068804fd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:21:11.669243+00:00",
+      "before": "67319aea213353ac444a5a2ce905fef6068804fd",
+      "after": "67319aea213353ac444a5a2ce905fef6068804fd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:21:23.808551+00:00",
+      "before": "67319aea213353ac444a5a2ce905fef6068804fd",
+      "after": "ebbf9578ce708e79ec06fb81f27b8d0937e0ad10",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:21:36.700168+00:00",
+      "before": "ebbf9578ce708e79ec06fb81f27b8d0937e0ad10",
+      "after": "9acb539da7861c3cecf0256575759015899a1266",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T03:21:13.455828+00:00",
+      "final": false,
+      "commit": "ebbf9578ce708e79ec06fb81f27b8d0937e0ad10"
+    },
+    {
+      "time": "2026-11-15T03:21:33.287116+00:00",
+      "final": false,
+      "commit": "9acb539da7861c3cecf0256575759015899a1266"
+    },
+    {
+      "time": "2026-11-15T03:21:40.752695+00:00",
+      "final": true,
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "finish",
+  "group": null,
+  "original_projector_run": 43594139132,
+  "original_same_F_pilot_run": 43648579604,
+  "original_successful_F_or_Gram_cells_recomputed": 0,
+  "original_target_or_validator_calls": 0,
+  "all_original_Q_and_R_endpoint_bytes_required": true,
+  "full_two_boundary_directional_Green_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "8d334ee75c0cf78a13b31483ceb495194c73e7cbcf57c1eeec3f447da17cab19",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "original32_failure_receipt_sha256": "61b23116289a18ee6fac5d9afa9df85d2f33cf9ad0f67b87d8d5a6783a3142bc",
+  "original_failed_complete_matrix_cells": 0,
+  "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
+  "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
+  "last_read_commit": "9acb539da7861c3cecf0256575759015899a1266",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
+  "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "range_process_input_kind": "actual_public_repository_snapshots_for_this_run_and_attempt",
+  "large_matrix_arrays_not_downloaded_for_cover_only_finish": true,
+  "snapshot_utc": "2026-11-15T03:21:39.222132+00:00",
+  "wall_seconds": 29.506258133999992,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-outcome.json",
+      "file": "evidence/actual-latest-matrix-outcome.json",
+      "bytes": 1400,
+      "sha256": "9d55ece6eecb2ee45c55a69d685c6d3d7a016902f2a942275dd7e31eeba1be2f"
+    },
+    {
+      "logical_file": "evidence/complete-finish-matrix-summary.json",
+      "file": "evidence/complete-finish-matrix-summary.json",
+      "bytes": 1758,
+      "sha256": "bd555a3aa6b4a8ea66a79b7a71f2257db0a8202687a1ec8c229763c4604f5aa1"
+    },
+    {
+      "logical_file": "evidence/four-actual-original-same-F-array-availability.json",
+      "file": "evidence/four-actual-original-same-F-array-availability.json",
+      "bytes": 2038,
+      "sha256": "5136ce8039910c22a8ec94721f86972485eb256b63bf19d17eab5679565eccc1"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-00-process.json",
+      "file": "evidence/original-complete-range-00-process.json",
+      "bytes": 24357,
+      "sha256": "43b6e0fd79aedb301f70c7181450cb6fe8da0682262e2ea660732e1f9307b57d"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-01-process.json",
+      "file": "evidence/original-complete-range-01-process.json",
+      "bytes": 24486,
+      "sha256": "9ecade236b19f882ce39e40121b794bfe8a33165ff5075f9a6b25cd28cac0109"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-02-process.json",
+      "file": "evidence/original-complete-range-02-process.json",
+      "bytes": 25420,
+      "sha256": "b2a1db4684ae793a25b281862c05f4dd4fcfcd68f68a29db937897f7b262d67a"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-03-process.json",
+      "file": "evidence/original-complete-range-03-process.json",
+      "bytes": 24506,
+      "sha256": "3b8f746e5a620f61f2d315f66b0ce0f99999dfdcde6b0054ca5e589db6643f8b"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-04-process.json",
+      "file": "evidence/original-complete-range-04-process.json",
+      "bytes": 16568,
+      "sha256": "caa282ef18c39bca45175a01a67c956c2c6f62b1c64ef8527c2e5ec05dd8eb65"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-05-process.json",
+      "file": "evidence/original-complete-range-05-process.json",
+      "bytes": 22625,
+      "sha256": "c8b224f021e2ca27a80040f252bfb0c511db92fc7bb2b96ec391307253bbc8d2"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-06-process.json",
+      "file": "evidence/original-complete-range-06-process.json",
+      "bytes": 24075,
+      "sha256": "5640168f61c8e3d9366cdb8f3a36dc84ab08674cf0c9e9ef902c351ab66330bd"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-07-process.json",
+      "file": "evidence/original-complete-range-07-process.json",
+      "bytes": 22228,
+      "sha256": "1ac529d9ba88a3483c831a66c0780fcfeb7cf2b6fa6f686443fd73d664378fcc"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-08-process.json",
+      "file": "evidence/original-complete-range-08-process.json",
+      "bytes": 22827,
+      "sha256": "99464752ccb36a6725d4a99ead47d4a47a472e8997a7355b855479619a0c53c5"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-09-process.json",
+      "file": "evidence/original-complete-range-09-process.json",
+      "bytes": 18291,
+      "sha256": "f9b75cf1e3883b2b7ddee1dee476d7284df1814f5eb5120a177a855d77be488f"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-10-process.json",
+      "file": "evidence/original-complete-range-10-process.json",
+      "bytes": 20483,
+      "sha256": "50a8fac5e829cfeba7783d0235485d3b3fdad79d7bf5cb490a02d4addec487f4"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-11-process.json",
+      "file": "evidence/original-complete-range-11-process.json",
+      "bytes": 18174,
+      "sha256": "b6467962552edc31c55bbd336b5229332b57307cc8137a81a58bc1cd475b7fe5"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-12-process.json",
+      "file": "evidence/original-complete-range-12-process.json",
+      "bytes": 14767,
+      "sha256": "3defd85721268fcc23ced45e3835072ded482f497b02a0c533941f46c0fc3fc5"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-13-process.json",
+      "file": "evidence/original-complete-range-13-process.json",
+      "bytes": 19426,
+      "sha256": "1b6cefd3f0ed463854efdd9e4f95eebb317d151439397248193825f53df5860b"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-14-process.json",
+      "file": "evidence/original-complete-range-14-process.json",
+      "bytes": 21439,
+      "sha256": "2060b576e956633c8186141e674e362662b9be593b0f00c3ae653842f2ba6836"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-15-process.json",
+      "file": "evidence/original-complete-range-15-process.json",
+      "bytes": 21921,
+      "sha256": "431e8e57e8eaf81758b9d28b648dd26c591e61251fd55e660d6d66e21e5bb350"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-16-process.json",
+      "file": "evidence/original-complete-range-16-process.json",
+      "bytes": 16757,
+      "sha256": "0c0b1b8e5df10ced5bd6231155c325bf37ff38d404b2212f989add1ee901297a"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-17-process.json",
+      "file": "evidence/original-complete-range-17-process.json",
+      "bytes": 16216,
+      "sha256": "461a8147185f2f977d08334b6319c5baee79262115df2f2205941b86c730da9a"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-18-process.json",
+      "file": "evidence/original-complete-range-18-process.json",
+      "bytes": 15539,
+      "sha256": "60623672f047b8b44d7e04cebcff1eb31c3257f18e269093d75cd74f8978d8c7"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-19-process.json",
+      "file": "evidence/original-complete-range-19-process.json",
+      "bytes": 15223,
+      "sha256": "798b57ae243f75ea4ac4d1e24d724dfcfb61941427b7f1a62524ebc83c506cb0"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-20-process.json",
+      "file": "evidence/original-complete-range-20-process.json",
+      "bytes": 18635,
+      "sha256": "387d6baf8a8901970a93666e083d86588400aff80da7d17191b166e7a9135127"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-21-process.json",
+      "file": "evidence/original-complete-range-21-process.json",
+      "bytes": 16328,
+      "sha256": "5d35952c03636155e15037a7807bf1ecea5560e2565ac3e69ea40b70fca35e6a"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-22-process.json",
+      "file": "evidence/original-complete-range-22-process.json",
+      "bytes": 15543,
+      "sha256": "d1cc422293361ccd297f4470a5cd46a1ea14774b1522f6c41884c8ba48aa670c"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-23-process.json",
+      "file": "evidence/original-complete-range-23-process.json",
+      "bytes": 14772,
+      "sha256": "e85ee8cacb35bb99331b16c1013264de6e74c49d891d6a2b4d12e597282ddc29"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-24-process.json",
+      "file": "evidence/original-complete-range-24-process.json",
+      "bytes": 16927,
+      "sha256": "663e213171b23d34a7b8ced044f3e42b0168dc45159a3b853289db7c6e1c89d9"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-25-process.json",
+      "file": "evidence/original-complete-range-25-process.json",
+      "bytes": 16758,
+      "sha256": "9b6e1d8643eca6244cc4614e914272f92005679ea62c1828a31a07a40e1449e1"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-26-process.json",
+      "file": "evidence/original-complete-range-26-process.json",
+      "bytes": 18607,
+      "sha256": "b3ea603c3a7386b387a89ba4cf66ef1460020ec724e3c6baf6242defa7f207c1"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-27-process.json",
+      "file": "evidence/original-complete-range-27-process.json",
+      "bytes": 18299,
+      "sha256": "b598328681b73cfff630baeddfe88fb96a72160f7f743d128438eca817ab3d12"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-28-process.json",
+      "file": "evidence/original-complete-range-28-process.json",
+      "bytes": 16159,
+      "sha256": "d62d305e5a24fbf812dc9fb1f812cdbc4353467da91dfe8fd4a065556dd7bec4"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-29-process.json",
+      "file": "evidence/original-complete-range-29-process.json",
+      "bytes": 16618,
+      "sha256": "3f4336b1f3f8567f96aa9bc7d81f08cff77c50278f8b027272604e48a8519159"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-30-process.json",
+      "file": "evidence/original-complete-range-30-process.json",
+      "bytes": 15847,
+      "sha256": "9ba0e7456d10ca2e110d35afa163f6a37b5d6a5c15f4d7151962096a483413c1"
+    },
+    {
+      "logical_file": "evidence/original-complete-range-31-process.json",
+      "file": "evidence/original-complete-range-31-process.json",
+      "bytes": 8503,
+      "sha256": "d5458104357af6e72bfd4d447e5ce07e6806071ca0a7b4fc95a996c9295ae72e"
+    },
+    {
+      "logical_file": "evidence/original-same-F-artifact-process.json",
+      "file": "evidence/original-same-F-artifact-process.json",
+      "bytes": 12567,
+      "sha256": "d1465c2d20081bf22c0909dfa1d28f62239ff91394d030f34faf375ac479330a"
+    },
+    {
+      "logical_file": "native/complete5970-same-F-directional-matrix-data.json.gz",
+      "lossless_manifest": "native-complete5970-same-F-directional-matrix-data.json.gz-7e1a5709b49df2aa-parts.json",
+      "bytes": 46431200,
+      "sha256": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd",
+      "parts": 24
+    }
+  ],
+  "complete_native_sha256": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd",
+  "actual_scientific_gates": 7,
+  "actual_complete_local_matrix_cells": 5970,
+  "actual_new_matrix_cells_this_child": 0,
+  "complete_local_matrix_cells": null,
+  "original_complete_success_reused_without_child": false,
+  "all_matrix_array_bytes_remain_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-15T03:21:36.294297+00:00"
+}
