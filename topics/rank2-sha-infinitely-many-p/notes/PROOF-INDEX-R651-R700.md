@@ -93,3 +93,6 @@
 
 - [R685：新carry完整质量与cd外部的实际过滤](../results/R685-new-carry-mass-and-complete-cd-exterior-filters.md)：同q♯新增K8质量及四正八矩全保，原cd外T准确压为固定混合A_T。真实两步Q在整个Mellin级消cd外X及未切V，剩cd内rest=−corner；N4/M2/r44给T中央v143、S≥145、质量≥339。Q同时杀原中央列，非附加算术零；原13步搬到opposite须共轭κ6，三高来源和全部log尾不删。
 
+
+- [R688：全原除点域、相位消去与准确Kummer和](../results/R688-full-division-field-phase-cancellation-and-original-kummer-sums.md)：原LT使全局Fp/K0=Fq×且p唯一，范数一H固定μp；原Tg完整轨道积1严格消R684相位。原偶n=p+1除点式保负号，合成Tg(T)^(p(p+1))=−a_T^d/Norm_H a_T，单值次数降至2p(p+1)(p²−1)；原Pζ^p=ζa_T/a_hT。全部边界零准确回有限Kummer和，保正确根/所有轨道，不预支独立性或中央传播。
+
