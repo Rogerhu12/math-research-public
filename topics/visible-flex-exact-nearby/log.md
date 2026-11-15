@@ -189,3 +189,7 @@ root亲读exec5fa965e5/38057/37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880
 真density4范数、two-rank2027.7767749338…、双窗inverse1.001673759…/1.034058620…、strongRN1.71297641956e9/finite3.74745200029e9及两rank后5.46043044763e9、四physical同case7.79085335270e18全部完整原球在proof。所有physicalmean/不同branchpullback/HL-LH/finite真span与root输入labels保持，normalizerK0只一次；不认Ei/Eo/finiteSchur/fullR0。
 
 实际两次19:51:31.269074与33.120813 pull均c75f753、双README空diff；jobs原3219/a4b96d44fa70c3c91a05bf0c91077731370a0f6bd3eb1559a35481fee8b1b0bf核。该次capacity199462646→199511141B不是当前估计；8759B native仅hash ba93596b，stdout0，0新artifact/Release。当前只读README核978e9e2bdaf7fd29ae005975bcc35183c4d0adb2未变。继续P22→SP尾段、完整principal/incoming、samecore源及SC3/SN唯一运行。
+
+### 2026-11-15 20:04:30 UTC — MI完整实主因子逆
+
+已逐条核对f1fb4dca全文与IC同对象：正kernel两实sign、Jensen分母、νκ常数身份、完整均值两侧逆、ordered实常量收缩、正概率row及weighted-Wiener两窗。phase核MI8–21、tail核MI24–28；同high χ用K0正确，RHS与完整preconditioned Schur另付。单结论推送；无新数学计算或actual Ei/全incoming宣称。SN小回执bb415e2a/11990/f0c972f9原字核，19:59:44.536601真pull19519948空README差；累计3112含旧1256/新1856，进度非终点C。H/open压缩前全部逐字保8148b208054eaaf7a9b35789e4f2a8a44875ff86，全部失败/域/恢复/未付义务继续。此次只读README核126c05170e77a29cc86e4a98681c724c51f0de7b，无executor状态未冒作pull。

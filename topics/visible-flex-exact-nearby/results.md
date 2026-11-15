@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [MI：完整非零均值实主因子精确逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)：正周期kernel/Jensen dν≥1及完整m/κ公式给1+McI两侧逆，实常量精确收缩使L2 K0/H−4/3 K−无|ν|放大。actual Ei强范数若已付，完整预条件后high双窗同χ=K0CiΛJ^-4/3；全finite Schur/物理行/两mean仍待。root与两peer解析核，无新计算，不授incoming/R0。
+
 - [TC实际真实双branch密度坐标与完整有限共轭](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)：43754703603/1 child0/18门、19小输入/4AST，4坐标窗、primitive两rank、ordered正逆/强/finite与四physical列全部付。SCI/preGit原字重构、42球与全部旧对象独核。保两mean/真共轭投影/finite真span，K0只一次；非Ei/Eo、完整incoming或R0，成功冻结。
 
 - [AD终端Ai首列的相关Darboux根剪切](results/R133-supplement-terminal-Airy-Darboux-correlation-and-root-shear.md)：对原n≥388的同一terminal-Ai列，精确signed Wronskian连同两项终端费用给βd−β完整n^-8/3；共同首列输入正规化可逆，root-input强尾随K衰减，low/mean/其它列仍Id。完整g列/inhom/physical source/positive/finite独立，纯解析无旧producer重算，不授完整incoming。

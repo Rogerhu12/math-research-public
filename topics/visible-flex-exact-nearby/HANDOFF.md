@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 19:57:16 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 20:04:30 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
-本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 19:39:05定时CLI及每次非FF即时CLI仍失败。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；下一定时真CLI≤20:39，ref不冒pull。runner19:51:33.120813真pull c75f753144b642236095d328a64fc0aefb3764f0，两README空diff；TC37c2a5ae已root原读。
-最近只读README核：978e9e2bdaf7fd29ae005975bcc35183c4d0adb2；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-本次压缩前H/open/results/log逐字保6994dc1e463ca927a67f60e7f92f7c3f430f5c91同路径；递归547f/7356/21ad/2f8be6/19df/30337/b13dfa/f010/656b/66d375/31e2/908da2/3f716/96001/5fd5旧档。所有域/mean/单位/失败/restore/未付义务不变，成功禁重。
+本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 19:39:05定时CLI及每次非FF即时CLI仍失败。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；下一定时真CLI≤20:39，ref不冒pull。runner19:59:44.536601真pull 19519948e153e4f9ac0c832eaedf1f9690994d2e，两README空diff；SNf0c972f9已root原读。
+最近只读README核：126c05170e77a29cc86e4a98681c724c51f0de7b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本次压缩前H/open/results/log逐字保8148b208054eaaf7a9b35789e4f2a8a44875ff86同路径；递归6994/547f/7356/21ad/2f8be6/19df/30337/b13dfa/f010/656b/66d375/31e2/908da2/3f716/96001/5fd5旧档。所有域/mean/单位/失败/restore/未付义务不变，成功禁重。
 
 ## 同一个对象与总验收
 
@@ -23,16 +23,17 @@ Green43711315338/14 actual38c385e2/process614b92b0/summarya298dd2f锁，只M32δ
 ## 完整first coefficient与强返回：newton_source / phase_inverse
 
 AJ至RJ/SP/PW/PC/PF/CT全成功身份、原域/mean/两sign/dr/root/seam/rank/J窗与失败逐字保547f47a同H/open和原proof。9/rawstable153/16各一次；PC43740173506/30只s0完整强修正非trialstable/fullR0；P22≠.005；c0为完整函数非mean。
-SN合同6e906170/prep及五失败/成功prefix/精确恢复协议逐字保1e87820289fbb56fcc46e1d7d642e9fe239ddd58同H/open及18a3a7f6/7edf79c7。旧1256subcells预算全保，仅lost pointnominal参考重建；prefix residual/parameter/Gram/prep禁重，新hash非旧核、suffix maxima非全程。唯一43751213826/1/b8bd86a：SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST/21门设计，双branch四导四列保A1/128尾/mean/原H3。19:50 checkpoint36004a81累计2600=旧1256+新1344，interval2496；双支H3进度[2.119156809916778 +/-2.76e−16]非终点C，typed暂错保child。
+SN合同6e906170/prep及五失败/成功prefix/精确恢复协议逐字保1e87820289fbb56fcc46e1d7d642e9fe239ddd58同H/open及18a3a7f6/7edf79c7。旧1256subcells预算全保，仅lost pointnominal参考重建；prefix residual/parameter/Gram/prep禁重，新hash非旧核、suffix maxima非全程。唯一43751213826/1/b8bd86a：SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST/21门设计，双branch四导四列保A1/128尾/mean/原H3。19:59 checkpointf0c972f9累计3112=旧1256+新1856，interval2368；双支H3进度[2.163824900615402 +/-1.11e−16]非终点C，typed暂错保child。
 AC6527fa46保C≤2^20||c0−μH′||H3；CN427387a2旧linear路线μ²/4不得删。ENed2ff38e仅直接signed R=ζUΩexp(McI)+Eexp0后给e26C[Rexp0+67|μ|C/8+131C²/512]，不可upper相减改名。
 LN53a3dd1d全d/C/Wiener/真D/√j/μEj一次与CN两mean/Jensen/强Q/μ²aI/2逐字保b2476f27同H/open及proof；仅成功SN终点可数值消费，非ci/co/R0。
-AD5c4459e5：实际terminal-Ai与Darboux首列精确Wronskian使βd−β完整n^-8/3，保终端两指数项/全H积分；原n≥388付ad>3/4。共同首列输入Ad逆/forward≤4/3,5/4，low/mean/其它列Id；D_d尾是root-input强窗，非TN/TC输出cut。原g列/inhom两态/IN物理extra/positive/finite全留；root回A/势actual16门/IN全文且双peer核，非incoming/R0。
-IC4164e4a7：共同root场F*=bu*v/η degree192，PF两窗T_F及finite≤JF+191保mean；真density共轭primitive两rank保。实根幅非零/公共radial gauge后ci=−μ/2+v_i、co=μ/2+v_o，均是SN逐branch真H转换。终点四列→d/C及V、W4/3≤243C2/160；real μ 的Dμ逆≤1，双窗χ门及强E/完整finite独立。root回读P/PF/CT/SN及全文，双peer通过；无新数值，不授incoming/R0。
+AD5c4459e5完整式/域/两终端指数项/原g及inhom两态/IN额外物理源/positive/finite保8148b208同H/open与proof。真实terminal-Ai首列Wronskian给βd−β全n^-8/3，n≥388付ad>3/4；同完整trial右Ad，low/mean/其它列Id，逆/正≤4/3,5/4，root-input尾非TN/TC输出cut。root原势/IN及双peer核，无incoming/R0。
+IC4164e4a7完整F*/F_J/true-density两rank/均值及双χ保8148b208同H/open/proof。root场degree192，共同radial gauge后ci=−μ/2+vi、co=μ/2+vo；必须SN逐branch真H转换。终点四列→d/C与V、W4/3≤243C2/160，实μ Dμ逆≤1。root原P/PF/CT/SN及双peer核；强E/完整finite/incoming/R0仍待。
+MI f1fb4dca全实c（含非零mean）主因子1+McI已解析两侧逆：正kernel/Jensen dν≥1，完整m/κ均值式、L2 K0与H−4/3 K−均不含|ν|；非几何ν。实常量精确收缩、有序Ti−1解全主部；actual Ei:H−4/3→L2若已付，双窗highχ=K0CiΛJ^-4/3，完整precondition后Schur/物理行仍待。root全文及phase8–21/tail24–28核，无新计算、不授actual Ei/incoming/R0。
 GH0ffb191a须完整R:H(s−4/3)→Hs且χJ=128CsΛJ^-1/3<1，J97/C0≤1/32仅目标；incoming/stable/normalizer/finitecross/全s/mean/真β/νSchur未付。PD58bdf173真DF/rho15一导损/第四Robin/mean/腰/D²/smoothing/迭代全部保f010，非同阶Neumann。
 INd4ac47aa/actual8d27fee5/43746008734/23锁，SCI6c49494a/preGit15a81425/94球核。24coeff/14运用/六receiver/五inhom/根β/τ27/双χ/finite/mean与完整units逐字保b2476f27同H/open/proof。旧10receipt禁重，physical见RR，incoming/R0待。
-DR失败e3a5faa4与RR13495f11全部原球/域/单位/身份逐字保b2476f27同H/open/proof。RR43750683671/1 child0/28、SCI8bb7e296/preGit282bb569/82球锁；真q/twojointg/四physical同case约7.77784045405e18，全mean/δ1e−8/两sign保。旧成功及lost高导禁重，非incoming/R0。
-TN65432488/43752771157/1 child0/16、SCIc815e901/preGit541a4d03/67球锁。J97充分门fail非奇异；同J268435456两窗逆约1.001672388/1.033996480。strong/finite/原RR四列K0一次/两mean/97..J−1/HL-LH全字保b2476f27同H/open/proof，finite≤J+191非逆；phase/incoming/R0待。
-TCactual3c374c35/43754703603/1 child0/18、19pins499844B/4AST锁；SCI24562/c1d1d43e、preGit37495/97543ad1/42球root原字核，IN/TN/RR五完整对象同。4坐标norm约1，primitive两rank约2027.776775，双窗逆约1.001673759/1.034058621，真strongRN约1.712976420e9、四列同case约7.790853353e18。真实PΦ/finite真span/两mean/两rank与全HL-LH保，K0只一次；非Ei/Eo/finiteSchur/R0。原完整部署/合同57ff88f5及全部球见proof与5bbfa408同H/open；成功禁重。
+DR失败e3a5faa4/RR13495f11全域/球/units/保存lost保8148b208同H/open/proof。RR43750683671/1 child0/28、SCI8bb7e296/preGit282bb569/82球锁，四physical同case约7.77784045405e18，mean/δ1e−8/两sign全留；旧成功与lost高导禁重，非incoming/R0。
+TN65432488/43752771157/1 child0/16、SCIc815e901/preGit541a4d03/67球锁。J97充分门fail非奇异；同J268435456两窗逆1.001672388/1.033996480，finite≤J+191非逆；strong/四列K0一次/两mean/97..J−1/HL-LH保8148b208同H/open/proof，incoming/R0待。
+TCactual3c374c35/43754703603/1 child0/18锁；19pins499844B/4AST，SCIc1d1d43e/preGit97543ad1及42球root原字核，五原对象一致。全部球/四件/域/units保8148b208同H/open/proof。真坐标4norm约1，两rank2027.776775，双窗逆1.001673759/1.034058621，四列同case7.790853353e18且K0仅一次。PΦ/真实finite span/两mean/HL-LH全保，非Ei/Eo/Schur/R0，成功禁重。
 
 ## 同态core/帽、低高trace与几何：tail_connector / root
 
