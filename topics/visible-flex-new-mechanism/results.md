@@ -402,3 +402,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 历史m10首次完成扩池SOC，原两网恢复门通过
 
 [完整实际](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66118948254c9c8fa376092c41b807ec62，12618B/SHAe5bb843af5e1b421633e99a7658c1111d1de55855a9590ef63d0149ed71fb006。新正向1过，已付负1/旧17执行0。same-y/x缓存恢复普通0，扩池真J/完整绑定后唯一SOC原RHS求解，独立末验η .2663651531755449、κ57.99998339149647、原硬/旧metric/盒通过；η比历史x降2.850761611661312e−6，.26仍未达。8新值/1新SOC、active40.444155993s、过程286.264737843s。旧hold false、原y学习未删，nextB1/16000；不是当前主线best后继或全局收敛/连续reach证明。原log4071522B/SHA8238f26dc3f436564da3afb7657f00c3d33160476b81b8602342a9f29ff127f6，payload只stdout/临时；继续真实主线与有依据的独立控制改进。
+
+## R354：完整反射和受控ω桥同时支付三个新Gaussian外矩
+
+[完整证明](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)，2026-11-15，25249B/SHA256 289562e0dde26720046b974693bd177badf9b16fb744e1ba07a837f2481708a5。原合法三矩弱圆的六pair反射表保真二次尾；PY1/WY0/WY2反号，Ψ/三个原directed行偶。R353全正圆与整反射严格分离相加，原块间尾正交，一次清三门，得到16外矩同付，仅PY0/PY2欠。物理域独立严付：R37先正后负boost使水平frame/scalar连接保任意ω下界，R70任意M桥仍真；NH0保平移hook，M0夹心/真倒行和Klein词保闭合，Gaussian端he在全部有限包络后初选，x+ω>1。面积/F行尺度及Ψ独立he使同profiles可迁到这个新几何。另得25列13行双号正核、逐列镜像24列8行正核。只重新付低阶M/T/芽，未授旧另一几何的pure/wholeE/period联合保持；目标g在最后新seed上固定。无新运行，不宣完整第四或主任务完成。

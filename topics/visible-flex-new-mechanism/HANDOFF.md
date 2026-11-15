@@ -41,11 +41,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**R308–353弱Gaussian圆**：Af0开段真rank-two/单hook0；8/12copy保third/odd。R331/332/334付M/A三矩与负Ψ；R337旧同C阻断保，R339反向core与R341两负一正弱块三个最终中心清B0/B1。R343真RS self/方差、双排序×普通伴随/双中心群正核付B2；R346/348/349逐付C0/C1/C2，原Green/二次尾/母IFT及copy方差全保，十目标正核使原四pair三矩全付。旧弱中心固定，Ψ成本S−2，同F★72零控制器有限N复原Ψ/三directed/指定层。
+**弱Gaussian圆R308–353**：真Af0/rank-two/单hook及8/12copy保third/odd。R331–341补M/A及弱三中心B0/B1，R343双排序/伴随真正核付B2；R346/348/349保Green/母IFT/copy方差逐付C0/C1/C2。R353原RY/SY self+bK3给∂ξWY1=WY0+bPY1，真四IFT/三正概率中心成24列12行正锥，Ψ成本S−2，原正域同几何共13外矩/Ψ/三F。R347全半平面只授强负PY1；R351两真弱核心正负仍未补矩，旧范围不改。
 
-**R353新付WY第一矩D1**：原RY/SY nonlegal self及bK3尾给强block真∂ξD1=D0+bPY1；R270四IFT保每列C0准确0。ordinary/companion×ρ0/20归一六行(p,z,2ξp,2ξz,−ξ²p,ξ²m)，p双号、z/m随排序变号；三个正中心的真概率同均值且(m/z)二矩相抵，12列rank6及严格正核。有限A后真δ恢复全尾，C0同权真实D1上块保，再C1/C2依次成24列12目标正锥；S5幅/Ψ成本S−2付整个D1。现同圆保13外矩，剩PY三矩/WY零及二矩（10形式even位置非rank，PY I1重复）、整第四/period/joint欠。新模块的PY1真代价未删。
+**R354新设计已付16外矩**：完整合法弱圆反射X→εX RX+真二次尾，I0/1/2对尾正交；M/A/B/C旧零保，PY1/WY0/WY2变号，Ψ/三directed均偶。直接取R353整个正半轴最终圆及完整反射，两半严格分离、D各三矩0，准确清三新矩；仅PY0/PY2欠。先选全部有限profiles，再造真实物理域：R37先正后负boost保任意ω>Ω，R70八矩桥同域；真实hook环ω平移由NH0保TH，M0夹心/真倒行保成本，Klein闭合。he初选够小使Gaussian端芽及整几何ω>Ω>−ell+1，x+ω真正间隙；he仅乘门行常数/Ψ独立。
 
-**R347/351**：真实强两坡大A有B2/k*−PYI1>0，R349十目标正核给保12旧矩的廉价负PYI1/Ψ成本H−3。R351全weak D1=Qf(g)+μ0gμ2g/4保Pf/Yf原尾；右幂段负，左幂段保Yu″端迹后常数73/12正，C∞截尾保号。仅真rank-two核心两号，三矩/Γ补偿与旧门尚欠；不是完整正corrector或当前残差正。一般weak平移保其它pair。
+**R354两个实际后继库**：R35324列大A半平面、正kernel合成PY1负块，整反射给正列，25列rank13正核/Ψ S−2；逐列镜像后投影(B1,WY1,C0,C2)给24列rank8正核，其余反射odd门自动0，PY0/PY2代价真留。整弱基线可镜像保负Ψ，再同F★镜像控制器有限N完成。此为新seed/新几何，只重新付M0/T非零hook+Gaussian芽；旧另一几何的πV0/wholeE/Morse/period/joint未自动继承。root续PY0，literature续PY2，整第四仍欠。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4，全cross/尾0、wholepure/self/Ω0。11对应真实Af点的flux=ρj⁵pn(tj)，pn首系数C*(−1)^n10!/(10−n)!≠0，Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 

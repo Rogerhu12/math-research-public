@@ -135,15 +135,15 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R353：四个完整面积与WY第一矩同付，续五个未付外矩
+### R354：完整反射与真实物理域付16外矩，续PY0/PY2及几何联合
 
-[R349](results/R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)保原RS self/方差、母Fκ/J/Green全式，R343 B1/B2、R346 C0、R348 C1及新增C2成十目标严格正核，Ψ成本S−2；原弱中心不动，四pair M/A/B/C全部三矩准确同付。
+[R353](results/R353-ordered-tails-and-three-positive-centers-pay-the-positive-minus-two-first-moment.md)保原RY/SY self/Green/bK3尾、四IFT C0真零、三正概率中心给24列12目标正锥，原全正圆同几何旧13外矩、Ψ/三F/指定层全付。
 
-[R353](results/R353-ordered-tails-and-three-positive-centers-pay-the-positive-minus-two-first-moment.md)新增整个WY第一矩D1。完整nonlegal RY/SY self及bK3尾给强block ∂ξD1=D0+bPY1；R270四变量真IFT令每列C0准确0。两排序×普通/伴随的六归一坐标为(p,z,2ξp,2ξz,−ξ²p,ξ²m)，p两号、z/m随排序同变号。三正中心概率同均值且(m/z)二矩相抵，12列有严格正核和rank6；分开中心、有限A后正δ恢复全部self/ordered/copy余项。再加入C0同权真实D1上块及C1/C2伸缩，得24列12目标正锥，S5正幅保旧12矩且付D1，Ψ成本S−2；最后同F★有限N付Ψ/三directed/指定层。
+[R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)对任意完整合法弱圆给反射εX=(P/L/U/Y:-1,R/S:+1)，完整二次尾由I0/I1/I2正交保；PY1/WY0/WY2反号，Ψ及三个原directed行均偶。直接把R353全正最终圆与完整反射等幅相加，两半支撑分离、D各自三矩0故跨尾无外矩贡献，一次准确支付三个新矩。新偶弱圆五pair全三矩及PY1共16外矩，剩PY0/PY2两个even目标，非全72。
 
-当前同弱圆已付13个外矩；剩PY三矩及WY第零、第2矩，共10形式even位置非rank，PY I1两个even共一标量。literature继续D2的原self+μ2尾，不能把退阶差坐标自动算满秩；root继续PY完整正纠正/真实域。
+负域已实际支付：先选全部有限profiles，R37先正后负boost连接保任意ω>Ω；R70平移八矩基及有限K在同域补任意M。用NH0保持真实平移hook环，M0桥B L B^rev真第三相消，Klein闭合；预嵌Gaussian半芽、he初选小于有限包络预算，使整路径x+ω>1。全部既付面积/F只随he乘行因子，Ψ归一不变。此是新设计几何/seed，**只保M0/T非零hook+共振芽，不自动继承另一几何的universal pure、wholeE、Morse或period/joint**；后续须在同ω下界内联合实现。
 
-[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限B2/k*−PYI1>0给保R349旧12矩的廉价负PYI1；R353新模块自己的PY1真代价仍在。[R351](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)完整Qf(g)+μ0gμ2g/4保原尾，右幂核心负、左幂核心保非零Yu″端迹后正；均是真rank-two，但未做三矩/有序Γ/旧门配平，不冒完整正corrector。原R263 partial-block尾及一般weak Y平移必须保留。其余完整层/period/同规范仍欠。
+真实后继接口：R354由R347完整大A半平面和R353正kernel得负PY1整块，其反射给25列13行正锥；更简洁的逐列镜像给24列8行M8=2Π8M12，目标(B1,WY1,C0,C2)，其余旧门与PY1/WY0/WY2自动零。PY0/PY2真实代价仍在。可从镜像前最后控制器前取负Ψ储备，旧F★镜像控制器保持全72零并最终付三F。root继续PY0完整self/同权耦合，literature继续PY2全self/Γ_K1,2；R351未补矩核心两号不当成新完成门。全部高阶、同g有限嵌入、reach/幅度欠。
 
 
 ### R344/R350/R352：自然全U总通量读出，续其它真实成本层
