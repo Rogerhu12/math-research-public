@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：9e5544a8e5e209b046b4eb62d3a4bf2f4d952c41**（2026-11-15T23:40:35.747488+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
+**已读规则提交：711ca6ebdad69e5b9bf38a19b0c5f69b204e42e8**（2026-11-15T23:42:10.700890+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -23,13 +23,9 @@
 
 **R824**：[365完整断点](notes/R824-365-digit-checkpoint-and-same-core-continuation.md)仅27权5+244权6继续，1186归R787；原129/142/280Q、κ/246一次、r28不补143..155。完整准确生成后才1778minor/1206。
 
-**R835原约化D已成**：[四阶结果](results/R835-certified-original-order4-termination-and-reduced-D.md)run43767561191，原I4=C、D约化/K1；完整det/两图/proper源不重算。旧Hermite取消403，不续接。artifact14183161538至Nov16 22:10UTC；source27.5MB/eb908748与原233.6MB/1e3fc4db均在该包，后者保旧S5/原输入，不能把小包当完整upstream。
+**准确前置已成、不重算**：[R835](results/R835-certified-original-order4-termination-and-reduced-D.md)真I4=C、D约化/K1；[R837](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)原146CM值、U397与两锚共同零恰C20+P0（p000009真1213minor）；[R838](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)真J2=I2/E2=C20+D、P0∉D、完整I3=C且最小阶3。全部run/source/artifact/hash逐字保[本次双图前H](handoff-archive-2026-11-15-before-R839-two-chart.md)及各正式结果；不再开q3或旧导数/旧两锚/旧前缀。三个结果均非D坐标/eta/height。
 
-**R837真实两锚已成**：[正式结果](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)run43770995901/job132986722252/sourcefa17c77f，14.224秒；原P0的146值/完整397维U已准确取得。原u=U0+U1(22项)、v=ΣUj(418项)，真2760×1380之1213minor665846025 mod1000000009给共同零恰C20+P0；trial0rank900只有限记录。141完成stage/1413旧源全SHA，final83234905/manifestfe2aee5e；artifact14184475817/ea610ed2至Nov16 22:45:47，最小carrier29497132B/c17f51a9。旧CM/前缀不重算；D坐标/eta/height未得。
-
-**R838完整I2与最小三阶已成**：[正式结果](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)run43771598002/sourcef5fa479f，17.344589635秒；新det2408/2429全节点与旧d0(1320)的gcd395，原σ∞只用层0/1。proper长度夹逼给J2=I2、E2=C20+D、ε0/P0∉D；接R836逐点公式得I3=C且最小阶恰3，不再开q3计算。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0至Nov16 22:52:19。D短RR坐标/eta/height未得。
-
-**R839首次实际2431秩与源更正**：[结束/双图补全](notes/R839-ended-tau-source-rank-and-two-chart-completion.md)e9269c0e；run43773898829/job132995725203/sourceac885f5a，8.852秒/exit2，完整2866×2886实秩2431，T5/D未运行。原[纸证§2](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)更正f0044713：全球J2使用两图，单τ族高权满射保证撤回；充分2451判据不变。原σ∞子式只需新20条一阶源，权11共81列；复用旧2431独立列，增量435×81及20阶Schur，具体秩尚待Actions。final43340106/manifest5be6d7d6，artifact14185612727/2430e1a2；旧矩阵59fdca20和五组2782源保留，不重做旧RREF/旧σ短jet，不以模退化断言特征零额外零。
+**R839首次实际2431秩与源更正**：[结束/双图补全](notes/R839-ended-tau-source-rank-and-two-chart-completion.md)e9269c0e；run43773898829/job132995725203/sourceac885f5a，8.852秒/exit2，完整2866×2886实秩2431，T5/D未运行。原[纸证§2](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)更正f0044713：全球J2使用两图，单τ族高权满射保证撤回；充分2451判据不变。原σ∞子式只需新20条一阶源，权11共81列；复用旧2431独立列，增量435×81及20阶Schur，具体秩尚待Actions。final43340106/manifest5be6d7d6，artifact14185612727/2430e1a2；旧矩阵59fdca20和五组2782源保留，不重做旧RREF/旧σ短jet，不以模退化断言特征零额外零。[新执行契约](notes/R839-original-two-chart-short-RR-and-D-kernel-method.md)c649f95f复用σ0..3，仅所选20列续4..9，原符号一次、weighted bound及全反转；旧tail正常哈希继承。旧14件矩阵源与123σ补源纯IO已齐（4e1ba3bd/f25a0631），新core/wrapper封装中。
 
 **R840原CM值与首jet已成**：[正式结果](results/R840-certified-original-implicit-CM-value-and-first-jet.md)run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 unit，准确有限y/y′表达式和518位十四坐标乘回已成。final5de210b5/manifestbe2a58b2/config2a3bd8ce，246stage；artifact14185198226/0ae63e2c至Nov16 23:13:32，四组176源carrier89.84MB/e28a33f3。255小件纯IO完成。两组14个RR均candidate，准确展开false。接既有R791(791R.16)与原h0构造β_C及下降点DAG，保原v/κ；eta/height未得。
 
