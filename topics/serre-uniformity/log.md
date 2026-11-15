@@ -614,3 +614,8 @@
 - R804点接口/core/wrapper及pending登记：root全文核、exact独立核八个原Hom链、T7相位和实际点的完整O/反点/二挠/切线分支；原vβ以真群律核，不以含零分母的仿射式代特殊点。
 - ordinary仅纯IO核旧R735/R791/R794三组5/7/6=18项与R794 carrier来源，R735旧core receipt无result已按原schema处理；完整四组25项仍待实际R792。coreecd9fc2a/wrapper5126b836/interface094644a3/request087bbd4e，未执行本地新数学、未创建active请求。
 - 新增课题外workflow serre-p41-original-selected-CM-points.yml，read/blob:none/一日artifact。R805最小请求已推9f960b8e0，非快进立即pull/rebase循环成功，两README无变化；R787/R803继续，R806/R807消费者接续，主目标OPEN。
+
+## 2026-11-15 18:55 Asia/Taipei · serre-public-astra-20261115
+- R808完整新证明登记：root回读R727全g整矩阵系数，独立逐式核原轨道格Gram radical商、Frob-Hermitian、Sym简单性与原split规范；原Tζ平均像、period加号/covariant减号、γ^(p−1)和链中心r!均保全。SHAc24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
+- 只关闭原有限商/period/split与Hasse链的准确识别；实际sigma原z/t系数仍须完整Kraw混合及同h源配对，不冒称primitive单位。无有限扫描或本地新数学。
+- 终端约10:50UTC再次unavailable，按根§8仅小文本集成；R804工程已推0a75ac360。R805真实success但完整输出IO尚待公开审计，最近真实pull仍10:46:02UTC/read9f960；两README经API只读比较未变，公共实际pull审计准备中。H逐字归档压缩，R787/R803继续，R806/R807接续，主目标OPEN。

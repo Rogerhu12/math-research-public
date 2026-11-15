@@ -393,3 +393,5 @@
 - **R805（公开最小工程已成，实际请求已启用）**：[执行契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)。R775/R786/R799实际1272文件/34,932,611B源输入IO全核；原V1/V2/V3 monomial alias优先，仅算缺积，真实820×836铅笔minor、291+127补基及690条S基/82⁶尺度完整认证。core730a7d8f/wrapper0eddbd19；无primitive乘法、M6清极、极理想或高度预填。
 
 - **R804（原CM点接口已证，公开工程冻结pending）**：[实际点分支与八节点消费者](notes/R804-original-CM-point-consumer-interface.md)。原R792 β经原sigma/rho和实际椭圆点分支给五所选g(c1)，点碰撞不按Hom字误判；另核β−[ζ²]β=原vβ。四组25文件契约，旧三组18项IO全核，唯一真实R792尚缺；coreecd9fc2a/wrapper5126b836，只pending、不激活，不预填点值/η/高度。
+
+- **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
