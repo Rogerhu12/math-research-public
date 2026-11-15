@@ -4,7 +4,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同p的全Sha[p∞]有限。**主目标未完成，QUEUE进行中；跨上下文持续，不等阶段确认。**
 
-- 最近已读规则提交：da16069e10e11d4541992fa66c6f03ee7165baf7；2026-11-15 08:32:15 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:32:14 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
+- 最近已读规则提交：efcf08abd0b28f49ee0a74283261fcb2f5ad32a1；2026-11-15 08:35:02 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:35:01 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。只写Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次比根/题README、仅读差异即遵守并记提交。本地exec无环境；API仅非强制追加，拒推立即本地pull --rebase重试并接新head再推，循环至成功；实际CI与本地失败分记。
@@ -62,3 +62,5 @@ R712极端carry完整短行已入notes/2026-11-15-extreme-carry-multiplied-actua
 原第一wild/Rubin接点完整note：notes/2026-11-15-original-first-wild-rubin-factor-and-central-order.md。原共轭相位给S实、vA_p(ν)=2vtrace；边界零iff Φ_p(1+T)|A_p。μ=0已发表但无统一λ界；j34=0加边界零才得λ≥p+3。若实际λ<p−1则第一层非零且λ=2(i+1)对原B首单位行。固定p深层非零不代变化p第一层。
 
 R718标量增补：特征零tα=−[w^s]logRα，s<p故直接约化；完整q_pα由同来源低行决定，也等−(c_pN0)^−1·(原Cartier(Z1^-1gαω)/ω在O值)^p，输入留数0/坐标误差已付。Nmodp²幂和全部其他极点保；不增旧预算列。
+
+同first-wild note §6付BHKO全联合步骤的真实计数门：|D1|=(p+1)/6，非恒定纤维须2^|D1|≤p^(n−1)(p+1)/3，n2不能统一。弱目标仍为原p个tame平均不全相等，不冒总和为零。

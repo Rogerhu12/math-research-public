@@ -201,3 +201,63 @@ BHKO Theorems 1.1、1.3 对固定 $p$ 的足够高反圆分层给非消失和赋
 
 - A. Burungale, W. He, S. Kobayashi, K. Ota, *Hecke L-values, definite Shimura sets and Mod $\ell$ non-vanishing*, arXiv:2408.13932v3，Theorems 1.3、1.5、4.14、4.15、6.10，§5.3.1、Proposition 5.8：[全文](https://arxiv.org/html/2408.13932v3)。
 - 本课题 R303、R663、R696、R703、R705、R716 的实际整基、Hall 提升、有限角色、周期和完整原来源。这里没有换用一个可选但未识别的 toric test vector。
+
+
+## 6. 固定 $p$ 的联合等分布不能原样统一到第一层
+
+这里严格区分 BHKO Theorem 5.1 的**全联合满射**与实际只需的一个 tame-average 线性行。下面的计数只约束前者，不排除后者有更短证明。
+
+对本题 $K=\mathbf Q(\sqrt{-3})$、$h_K=1$，惯性 $p>3$ 的环类群为
+$$
+G_n\simeq(\mathcal O_K/p^n)^\times/
+((\mathbf Z/p^n)^\times\mu_6),
+\qquad |G_n|=\frac{p^{n-1}(p+1)}3.
+\tag{21}
+$$
+所以 $G_\infty$ 的 tame torsion $\Delta$ 阶为 $(p+1)/3$。BHKO 的 $\Delta^{\rm alg}$ 由唯一分歧素数 $3$ 的局部均匀元 $\delta$ 生成。把这个 idèle 乘全局 $\delta^{-1}$，在 $p$ 处得到 $\delta^{-1}$，其反共轭比为 $-1$。全局单位的反共轭比仅为 $\mu_3$，所以这个类非平凡且平方为一。故
+$$
+|\Delta^{\rm alg}|=2,\qquad
+|D_1|=|\Delta/\Delta^{\rm alg}|=(p+1)/6.
+\tag{22}
+$$
+
+
+取同一固定 quaternionic level $U$，在好 $p$ 处 $U_p=\operatorname{GL}_2(\mathbf Z_p)$。因 $h_K=1$，可把 $\Delta$ 的代表全选在 $p$ 处的单位群；它们的约化范数属于 $\operatorname N(U_p)$。所以 BHKO 的各坐标 $\tau\in D_1$ 在范数空间有相同标签。对其 Proposition 5.8 使用的一个非恒定范数纤维，取其中两点 $y,z$ 且 $f(y)\ne f(z)$。经该证明的共同平移对齐范数后，Theorem 5.1 右侧的全联合纤维包含
+$$
+\{y,z\}^{D_1},\qquad
+\bigl|\{y,z\}^{D_1}\bigr|=2^{(p+1)/6}.
+\tag{23}
+$$
+这里明确要求这个纤维非恒定；没有由整空间非零推断任意指定纤维都含两点。
+
+另一方面，导子恰为 $p^n$ 的原 CM 轨道的像至多有 $|G_n|$ 个元素。对这个纤维使用全联合满射，必须满足
+$$
+2^{(p+1)/6}\le \frac{p^{n-1}(p+1)}3,
+\quad\text{故}\quad
+n\ge 1+
+\frac{(p+1)\log2/6-\log((p+1)/3)}{\log p}.
+\tag{24}
+$$
+即使先把固定 level 作一次固定细化，只会在右侧添固定倍数，不改变此下界的 $p/\log p$ 阶。
+
+尤其 $n=2$ 在大 $p$ 时不能满足 (24)。因此，不能仅因为原 quaternionic Shimura 集及其值域在坏位 $2/3/17$ 固定，就把这一步全 $D_1$ 联合满射的深度改成与 $p$ 无关的常数。该输入本身有 $(p+1)/6$ 个坐标；先固定 $p$ 再令导子趋深与固定导子 $p^2$ 而令 $p$ 变化，是不同量词。
+
+
+所需的弱目标仍只是原阶 $p$ 角色的一个 Fourier 系数。按同一个 BHKO rational test vector，把真实导子 $p^2$ 周期分组为
+$$
+G_2=\Delta\times\Gamma_1,\qquad |\Gamma_1|=p,
+\qquad
+A_t=\sum_{\tau\in\Delta}f(x_2(\tau\gamma^t)),
+\quad 0\le t<p.
+\tag{25}
+$$
+原 Hecke field 为 $\mathbf Q$，故固定比例正规化后 $A_t\in\mathbf Q$。因 $\Phi_p$ 是 $\zeta_p$ 在 $\mathbf Q$ 上的最小多项式，
+$$
+\sum_{t=0}^{p-1}A_t\zeta_p^t=0
+\quad\Longleftrightarrow\quad
+A_0=A_1=\cdots=A_{p-1}.
+\tag{26}
+$$
+这里使用未 $p$-stabilize 的 rational vector。对 primitive 导子 $p^2$ 角色，stabilization 的旧层项经 $\ker(G_2\to G_1)$ 求和为零，所以它与文献实际 primitive period 只差显示的非零正规化系数；没有把 $\alpha_p$ 当作有理数。
+
+(26) 是精确线性判据，远弱于 (23) 的满射；本文没有证明原 $A_t$ 不全相等。尤其不能把 $a_p=0$ 给出的总和关系或固定 $p$ 的 $\mu=0$ 代入为它们逐项不为零。
